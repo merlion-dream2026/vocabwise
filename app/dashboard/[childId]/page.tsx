@@ -206,7 +206,7 @@ export default function ChildRoadmap() {
 
         {/* Section 3: VocabWise Academic */}
         <button
-          onClick={() => router.push('/vocabwise')}
+          onClick={() => { sessionStorage.setItem('vw_active_child', childId); router.push('/vocabwise') }}
           className="w-full text-left bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
         >
           <div className="flex items-center gap-3">

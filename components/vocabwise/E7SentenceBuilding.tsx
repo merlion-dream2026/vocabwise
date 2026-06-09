@@ -63,7 +63,7 @@ export default function E7SentenceBuilding({ instruction, items, onDone }: Props
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
-        <p className="text-sm text-gray-600 leading-relaxed flex-1">{instruction}</p>
+        <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
         <span className="text-xs font-black text-indigo-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 

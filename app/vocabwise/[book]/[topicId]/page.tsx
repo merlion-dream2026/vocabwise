@@ -22,5 +22,5 @@ export default async function TopicPage({ params }: { params: Promise<{ book: st
   const { book, topicId } = await params
   const data = loadTopic(book, topicId)
   if (!data) notFound()
-  return <TopicViewer data={data} book={book} />
+  return <TopicViewer data={data} book={book} topicId={topicId} />
 }

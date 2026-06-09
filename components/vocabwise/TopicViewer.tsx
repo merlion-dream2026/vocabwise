@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import VWExerciseRunner from './VWExerciseRunner'
 import type { ExercisesData } from './types'
@@ -22,20 +22,93 @@ export type TopicData = {
   answer_key: Record<string, Record<string, string>>
 }
 
+type AcademicTopicSync = {
+  read: boolean
+  ex_scores: Record<string, number>
+  completed: boolean
+  mastered: boolean
+}
+
 type Tab = 'passage' | 'glossary' | 'exercises'
 
 function renderPassage(text: string) {
   return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
 }
 
-export default function TopicViewer({ data, book }: { data: TopicData; book: string }) {
+function getExerciseTypes(exercises: ExercisesData): string[] {
+  return ['ex1', 'ex2', 'ex3', 'ex4', 'ex5']
+    .map(p => {
+      const n = Number(p.replace('ex', ''))
+      const key = Object.keys(exercises).find(k => k.startsWith(`ex${n}_`))
+      if (!key) return null
+      return (exercises as Record<string, { type: string }>)[key].type
+    })
+    .filter((t): t is string => t !== null)
+}
+
+export default function TopicViewer({ data, book, topicId }: { data: TopicData; book: string; topicId: string }) {
   const router = useRouter()
   const [tab, setTab]       = useState<Tab>('passage')
   const [showVI, setShowVI] = useState(false)
   const [exMode, setExMode] = useState(false)
 
+  const [childId, setChildId]   = useState<string | null>(null)
+  const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
+  const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
+
+  useEffect(() => {
+    const cid = typeof window !== 'undefined' ? sessionStorage.getItem('vw_active_child') : null
+    if (!cid) return
+    setChildId(cid)
+    fetch(`/api/sync/${cid}?level=academic`)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => {
+        const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
+        setFullSync(mastery)
+        setTopicSync(mastery[topicId] ?? null)
+      })
+      .catch(() => {})
+  }, [topicId])
+
+  const handleExercisesComplete = (scores: number[]) => {
+    setExMode(false)
+    const exTypes = getExerciseTypes(data.exercises)
+    const prevSync = fullSync[topicId]
+    const ex_scores: Record<string, number> = {}
+    exTypes.forEach((type, i) => {
+      ex_scores[type] = Math.max(scores[i] ?? 0, prevSync?.ex_scores[type] ?? 0)
+    })
+    const total = Object.values(ex_scores).reduce((s, v) => s + v, 0)
+    const newSync: AcademicTopicSync = {
+      read: true,
+      ex_scores,
+      completed: true,
+      mastered: total >= 20,
+    }
+    setTopicSync(newSync)
+    if (childId) {
+      const newFull = { ...fullSync, [topicId]: newSync }
+      setFullSync(newFull)
+      fetch(`/api/sync/${childId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          level: 'academic',
+          mastery: newFull,
+          seen: [],
+          weak_words: {},
+          streak: {},
+          battle: {},
+          history: {},
+          srs: {},
+        }),
+      }).catch(() => {})
+    }
+  }
+
   const { meta, passage, glossary, exercises, answer_key } = data
   const backUrl = `/vocabwise/${book}`
+  const prevTotal = topicSync ? Object.values(topicSync.ex_scores).reduce((s, v) => s + v, 0) : 0
 
   if (exMode) {
     return (
@@ -46,7 +119,7 @@ export default function TopicViewer({ data, book }: { data: TopicData; book: str
             answerKey={answer_key}
             topicTitle={meta.topic_title}
             onBack={() => setExMode(false)}
-            onComplete={() => setExMode(false)}
+            onComplete={handleExercisesComplete}
           />
         </div>
       </div>
@@ -64,6 +137,8 @@ export default function TopicViewer({ data, book }: { data: TopicData; book: str
         <div className="flex items-center gap-2 mt-1">
           <span className="text-xs font-black bg-white/20 px-2 py-0.5 rounded-full">{meta.cefr_level}</span>
           <span className="text-xs text-blue-200">Topic {meta.topic_number} · {passage.word_count} words</span>
+          {topicSync?.mastered && <span className="text-xs bg-yellow-400/90 text-yellow-900 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
+          {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-black px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
         </div>
       </div>
 
@@ -169,18 +244,56 @@ export default function TopicViewer({ data, book }: { data: TopicData; book: str
 
         {/* EXERCISES TAB */}
         {tab === 'exercises' && (
-          <div className="text-center py-8">
-            <div className="text-5xl mb-4">✏️</div>
-            <h2 className="font-black text-gray-800 text-xl mb-2">5 bài tập</h2>
-            <p className="text-gray-500 text-sm mb-1">25 câu hỏi · Tối đa 25 điểm</p>
-            <p className="text-gray-400 text-xs mb-8">
-              Matching · MCQ · Gap-fill · Word Forms · Error Fix
-            </p>
-            <button onClick={() => setExMode(true)}
-              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-lg">
-              🚀 Bắt đầu làm bài
-            </button>
-            <p className="text-xs text-gray-400 mt-3">Đọc bài đọc và từ vựng trước để đạt kết quả tốt nhất</p>
+          <div>
+            {topicSync?.completed ? (
+              /* Previous result view */
+              <div className="text-center py-6">
+                <div className="text-6xl mb-3">{topicSync.mastered ? '🏆' : '✅'}</div>
+                <h2 className="font-black text-gray-800 text-xl mb-1">
+                  {topicSync.mastered ? 'Đã thành thạo!' : 'Đã hoàn thành'}
+                </h2>
+                <div className="inline-flex items-baseline gap-1 mt-2 mb-1">
+                  <span className="text-4xl font-black text-purple-600">{prevTotal}</span>
+                  <span className="text-gray-400 font-bold text-xl">/25</span>
+                </div>
+                <p className="text-gray-400 text-sm mb-5">
+                  {topicSync.mastered ? '80%+ — Đạt chuẩn thành thạo 🎉' : `${Math.round((prevTotal/25)*100)}% — Cần ≥80% để đạt thành thạo`}
+                </p>
+                <div className="flex flex-wrap gap-2 justify-center mb-6">
+                  {Object.entries(topicSync.ex_scores).map(([type, score]) => (
+                    <span key={type} className={`text-sm font-bold px-3 py-1 rounded-full ${
+                      score === 5 ? 'bg-green-100 text-green-700' :
+                      score >= 3 ? 'bg-yellow-100 text-yellow-700' : 'bg-red-100 text-red-600'
+                    }`}>
+                      {type}: {score}/5
+                    </span>
+                  ))}
+                </div>
+                <button onClick={() => setExMode(true)}
+                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-base">
+                  🔄 Làm lại để cải thiện điểm
+                </button>
+                <p className="text-xs text-gray-400 mt-3">Điểm tốt nhất sẽ được lưu lại</p>
+              </div>
+            ) : (
+              /* First attempt view */
+              <div className="text-center py-8">
+                <div className="text-5xl mb-4">✏️</div>
+                <h2 className="font-black text-gray-800 text-xl mb-2">5 bài tập</h2>
+                <p className="text-gray-500 text-sm mb-1">25 câu hỏi · Tối đa 25 điểm</p>
+                <p className="text-gray-400 text-xs mb-2">
+                  Matching · MCQ · Gap-fill · Word Forms · Error Fix
+                </p>
+                <p className="text-gray-400 text-xs mb-8">
+                  Đạt ≥ 20/25 (80%) để tính <span className="font-black text-yellow-600">🏆 Thành thạo</span>
+                </p>
+                <button onClick={() => setExMode(true)}
+                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-lg">
+                  🚀 Bắt đầu làm bài
+                </button>
+                <p className="text-xs text-gray-400 mt-3">Đọc bài đọc và từ vựng trước để đạt kết quả tốt nhất</p>
+              </div>
+            )}
           </div>
         )}
 
