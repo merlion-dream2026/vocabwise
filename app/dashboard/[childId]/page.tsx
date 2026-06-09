@@ -165,7 +165,13 @@ export default function ChildRoadmap() {
     </div>
   )
 
-  const availableLevels = LEVEL_ORDER
+  const [kidsOpen, setKidsOpen] = useState(false)
+
+  // Count overall Kids progress for the section card
+  const totalSeenWords = LEVEL_ORDER.reduce((sum, lvl) => sum + (syncByLevel[lvl]?.seen?.length ?? 0), 0)
+  const totalMastered  = LEVEL_ORDER.reduce((sum, lvl) =>
+    sum + Object.values(syncByLevel[lvl]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length, 0)
+  const kidsStarted = totalSeenWords > 0
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
@@ -175,7 +181,7 @@ export default function ChildRoadmap() {
         <div className="text-4xl">{child!.emoji}</div>
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
-          <p className="text-gray-400 text-xs font-semibold">Chọn level để học</p>
+          <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
         </div>
       </div>
 
@@ -184,82 +190,91 @@ export default function ChildRoadmap() {
         <KidFaqSection />
       </div>
 
-      {/* Section: Pronunciation */}
-      <div className="max-w-lg mx-auto mb-1">
-        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">🎤 Luyện Phát Âm</p>
+      <div className="space-y-3 max-w-lg mx-auto">
+
+        {/* Section 1: Luyện Phát Âm */}
         <PhonicsEntryCard childId={childId} syncByLevel={syncByLevel} />
-      </div>
 
-      {/* Section: VocabWise Kids */}
-      <div className="max-w-lg mx-auto mt-5 mb-1">
-        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">📚 VocabWise Kids · 180 chủ đề · Pre-A1 → C2</p>
-      </div>
-
-      {/* Level cards */}
-      <div className="space-y-3 max-w-lg mx-auto mb-4">
-        {availableLevels.map(level => {
-          const cfg = LEVEL_CONFIG[level]
-          const WORD_COUNTS: Record<string, number> = { seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356 }
-          const totalWords = WORD_COUNTS[level] ?? 400
-          const totalTopics = 30
-          const syncRow = syncByLevel[level]
-          const seenWords = syncRow?.seen?.length ?? 0
-          const masteredTopics = Object.values(syncRow?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
-          const pct = totalWords > 0 ? Math.round((seenWords / totalWords) * 100) : 0
-          const isCurrent = level === child!.level
-          const isNotStarted = seenWords === 0 && masteredTopics === 0
-
-          return (
-            <button
-              key={level}
-              onClick={() => router.push(`/dashboard/${childId}/${level}`)}
-              className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150`}
-            >
-              <div className="flex items-center gap-3">
-                {/* Level icon */}
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-3xl shadow-sm flex-shrink-0`}>
-                  {cfg.emoji}
-                </div>
-
-                {/* Info */}
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                    <span className={`font-black ${cfg.text} text-base`}>{cfg.label}</span>
-                    <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">{cfg.cefr}</span>
-                    {isCurrent && (
-                      <span className={`text-xs px-2 py-0.5 rounded-full font-bold text-white ${cfg.btn}`}>
-                        Level hiện tại
-                      </span>
-                    )}
-                  </div>
-                  <p className={`text-xs font-semibold ${isNotStarted ? 'text-gray-400' : cfg.text}`}>
-                    {isNotStarted
-                      ? `${totalTopics} chủ đề · ${totalWords} từ · Chưa bắt đầu`
-                      : `${pct}% · ${seenWords}/${totalWords} từ · ${masteredTopics}/${totalTopics} chủ đề hoàn thành`
-                    }
-                  </p>
-                </div>
-
-                <span className={`${cfg.text} font-black text-lg flex-shrink-0`}>→</span>
+        {/* Section 2: VocabWise Kids (collapsible) */}
+        <div>
+          <button
+            onClick={() => setKidsOpen(o => !o)}
+            className="w-full text-left bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-3xl shadow-sm flex-shrink-0">
+                📚
               </div>
-
-              {/* Progress bar */}
-              {!isNotStarted && (
-                <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
-                  <div
-                    className={`h-full bg-gradient-to-r ${cfg.bar} rounded-full transition-all duration-500`}
-                    style={{ width: `${Math.max(pct, 1)}%` }}
-                  />
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap mb-0.5">
+                  <span className="font-black text-purple-700 text-base">VocabWise Kids</span>
+                  <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">Pre-A1 → C2</span>
                 </div>
-              )}
-            </button>
-          )
-        })}
-      </div>
+                <p className="text-xs font-semibold text-purple-600">
+                  {kidsStarted
+                    ? `${totalSeenWords} từ đã học · ${totalMastered} chủ đề hoàn thành`
+                    : '180 chủ đề · 2.300+ từ · 6 cấp độ CEFR'}
+                </p>
+              </div>
+              <span className={`text-purple-500 font-black text-lg flex-shrink-0 transition-transform duration-200 ${kidsOpen ? 'rotate-90' : ''}`}>›</span>
+            </div>
+          </button>
 
-      {/* Section: VocabWise Academic */}
-      <div className="max-w-lg mx-auto mt-5 mb-3">
-        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">🎓 VocabWise Academic · 150 chủ đề · B1 → C2</p>
+          {/* Level cards (expand) */}
+          {kidsOpen && (
+            <div className="space-y-2 mt-2 pl-2 border-l-2 border-purple-100">
+              {LEVEL_ORDER.map(level => {
+                const cfg = LEVEL_CONFIG[level]
+                const WORD_COUNTS: Record<string, number> = { seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356 }
+                const totalWords = WORD_COUNTS[level] ?? 400
+                const totalTopics = 30
+                const syncRow = syncByLevel[level]
+                const seenWords = syncRow?.seen?.length ?? 0
+                const masteredTopics = Object.values(syncRow?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
+                const pct = totalWords > 0 ? Math.round((seenWords / totalWords) * 100) : 0
+                const isCurrent = level === child!.level
+                const isNotStarted = seenWords === 0 && masteredTopics === 0
+
+                return (
+                  <button
+                    key={level}
+                    onClick={() => router.push(`/dashboard/${childId}/${level}`)}
+                    className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-2xl shadow-sm flex-shrink-0`}>
+                        {cfg.emoji}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 flex-wrap mb-0.5">
+                          <span className={`font-black ${cfg.text} text-base`}>{cfg.label}</span>
+                          <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">{cfg.cefr}</span>
+                          {isCurrent && (
+                            <span className={`text-xs px-2 py-0.5 rounded-full font-bold text-white ${cfg.btn}`}>Level hiện tại</span>
+                          )}
+                        </div>
+                        <p className={`text-xs font-semibold ${isNotStarted ? 'text-gray-400' : cfg.text}`}>
+                          {isNotStarted
+                            ? `${totalTopics} chủ đề · ${totalWords} từ · Chưa bắt đầu`
+                            : `${pct}% · ${seenWords}/${totalWords} từ · ${masteredTopics}/${totalTopics} chủ đề hoàn thành`}
+                        </p>
+                      </div>
+                      <span className={`${cfg.text} font-black text-lg flex-shrink-0`}>→</span>
+                    </div>
+                    {!isNotStarted && (
+                      <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
+                        <div className={`h-full bg-gradient-to-r ${cfg.bar} rounded-full transition-all duration-500`}
+                          style={{ width: `${Math.max(pct, 1)}%` }} />
+                      </div>
+                    )}
+                  </button>
+                )
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Section 3: VocabWise Academic */}
         <button
           onClick={() => router.push('/vocabwise')}
           className="w-full text-left bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
@@ -280,8 +295,8 @@ export default function ChildRoadmap() {
             <span className="text-blue-600 font-black text-lg flex-shrink-0">→</span>
           </div>
         </button>
-      </div>
 
+      </div>
     </div>
   )
 }
