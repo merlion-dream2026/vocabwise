@@ -3,10 +3,43 @@ import Link from 'next/link'
 import { useState } from 'react'
 import UpgradeModal from '@/components/UpgradeModal'
 
+const SECTIONS = [
+  {
+    emoji: '🎤',
+    title: 'Luyện Phát Âm',
+    badge: 'Mọi lứa tuổi',
+    badgeCls: 'bg-green-100 text-green-700',
+    desc: 'IPA chuẩn Cambridge · minimal pairs · AI chấm phát âm',
+    available: true,
+    cardCls: 'border-green-200 bg-green-50/50',
+    accentCls: 'text-green-600',
+  },
+  {
+    emoji: '📚',
+    title: 'VocabWise Kids',
+    badge: 'Trẻ em · 4–15 tuổi',
+    badgeCls: 'bg-purple-100 text-purple-700',
+    desc: '2.300+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
+    available: true,
+    cardCls: 'border-purple-200 bg-purple-50/50',
+    accentCls: 'text-purple-600',
+  },
+  {
+    emoji: '🎓',
+    title: 'VocabWise Academic',
+    badge: 'Teen & Người lớn · A1→C2',
+    badgeCls: 'bg-blue-100 text-blue-700',
+    desc: 'Từ vựng học thuật · Passage · 5 dạng bài tập · IELTS/SAT',
+    available: false,
+    cardCls: 'border-blue-100 bg-blue-50/30',
+    accentCls: 'text-blue-500',
+  },
+]
+
 const FAQ_ITEMS = [
   {
-    q: 'VocabWise là gì?',
-    a: 'VocabWise (VocabWise) là app học tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác và module học phát âm IPA theo chuẩn Cambridge giúp bé học từ vựng và phát âm chuẩn — vui, hiệu quả, không áp lực.',
+    q: 'VocabWise có những gì?',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Kids — 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module học phát âm IPA là gì?',
@@ -21,8 +54,8 @@ const FAQ_ITEMS = [
     a: 'Không! VocabWise là PWA (Progressive Web App) — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể "Thêm vào màn hình chính" để dùng như app thật trên iPhone, Android, iPad và PC, tự động cập nhật, không cần lên App Store.',
   },
   {
-    q: 'Bé bao nhiêu tuổi thì phù hợp để dùng VocabWise?',
-    a: 'VocabWise phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) dành cho bé bắt đầu làm quen tiếng Anh, đến Master (C1-C2) cho bé nâng cao. Ba/Mẹ chọn level phù hợp với trình độ của con.',
+    q: 'VocabWise phù hợp với lứa tuổi nào?',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Kids: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic (sắp ra mắt): dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT (A1–C2).',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
@@ -121,14 +154,31 @@ export default function LandingPage() {
           {/* Text content */}
           <div className="flex-1 text-center lg:text-left">
             <div className="text-7xl mb-4 lg:hidden">🌟</div>
-            <p className="text-purple-500 font-black text-sm mb-2 tracking-wide uppercase">VocabWise · VocabWise</p>
+            <p className="text-purple-500 font-black text-sm mb-2 tracking-wide uppercase">Nền tảng học tiếng Anh toàn diện</p>
             <h1 className="text-3xl lg:text-5xl font-black text-gray-800 leading-tight mb-4">
-              Con học từ vựng tiếng Anh{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, hiệu quả, không áp lực</span>
+              Học tiếng Anh{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
             </h1>
-            <p className="text-gray-500 text-sm lg:text-base leading-relaxed mb-5 lg:max-w-lg">
-              <strong className="text-gray-600">VocabWise</strong> — app học từ vựng song ngữ Việt–Anh với 2.300+ từ, 6 cấp độ CEFR và 10+ trò chơi tương tác dành riêng cho trẻ em.
+            <p className="text-gray-500 text-sm lg:text-base leading-relaxed mb-4 lg:max-w-lg">
+              VocabWise có 3 module học tập — phù hợp cho mọi lứa tuổi, từ phát âm chuẩn IPA đến từ vựng CEFR cho trẻ em và học thuật cho người lớn.
             </p>
+
+            {/* 3 section cards */}
+            <div className="grid grid-cols-3 gap-2 mb-5">
+              {SECTIONS.map(s => (
+                <div key={s.title} className={`rounded-2xl border-2 p-2.5 text-left ${s.cardCls} ${!s.available ? 'opacity-70' : ''}`}>
+                  <div className="flex flex-wrap items-center gap-1 mb-1">
+                    <span className="text-xl">{s.emoji}</span>
+                    {!s.available && (
+                      <span className="text-[10px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 whitespace-nowrap">🔜 Sắp ra</span>
+                    )}
+                  </div>
+                  <p className={`font-black text-xs ${s.accentCls} leading-tight`}>{s.title}</p>
+                  <p className={`text-[10px] font-black px-1.5 py-0.5 rounded-full mt-1 inline-block ${s.badgeCls}`}>{s.badge}</p>
+                  <p className="text-gray-500 text-[10px] mt-1 leading-snug hidden sm:block">{s.desc}</p>
+                </div>
+              ))}
+            </div>
 
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-5">
@@ -432,7 +482,7 @@ export default function LandingPage() {
       {/* FAQ — SEO structured content */}
       <div className="max-w-6xl mx-auto px-4 pb-10">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise (VocabWise)</p>
+        <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise</p>
         <div className="space-y-3">
           {FAQ_ITEMS.map((item) => (
             <details key={item.q} className="bg-white rounded-2xl shadow-sm border border-gray-100 group">
