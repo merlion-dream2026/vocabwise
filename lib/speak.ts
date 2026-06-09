@@ -30,7 +30,12 @@ export function speak(text: string, options: SpeakOptions = {}) {
 
   const { rate = 0.9, pitch = 1.0, onStart, onEnd, onError } = options
 
+  // iOS Safari bug: speechSynthesis gets stuck paused after tab switch / screen lock
+  if (window.speechSynthesis.paused) {
+    window.speechSynthesis.resume()
+  }
   window.speechSynthesis.cancel()
+
   const utter = new SpeechSynthesisUtterance(text)
   utter.lang = 'en-US'
   utter.rate = rate
@@ -48,6 +53,10 @@ export function speak(text: string, options: SpeakOptions = {}) {
   if (window.speechSynthesis.getVoices().length > 0) {
     doSpeak()
   } else {
-    window.speechSynthesis.addEventListener('voiceschanged', doSpeak, { once: true })
+    // voiceschanged may not fire on iOS — add timeout fallback
+    let fired = false
+    const handler = () => { fired = true; doSpeak() }
+    window.speechSynthesis.addEventListener('voiceschanged', handler, { once: true })
+    setTimeout(() => { if (!fired) doSpeak() }, 500)
   }
 }
