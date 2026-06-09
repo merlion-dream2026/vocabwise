@@ -41,7 +41,7 @@ function getExerciseTypes(exercises: ExercisesData): string[] {
       const n = Number(p.replace('ex', ''))
       const key = Object.keys(exercises).find(k => k.startsWith(`ex${n}_`))
       if (!key) return null
-      return (exercises as Record<string, { type: string }>)[key].type
+      return (exercises as unknown as Record<string, { type: string }>)[key].type
     })
     .filter((t): t is string => t !== null)
 }
