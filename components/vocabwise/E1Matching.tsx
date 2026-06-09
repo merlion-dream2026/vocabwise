@@ -81,7 +81,7 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
 
   return (
     <div className="flex flex-col gap-4">
-      <p className="text-sm text-gray-600 leading-relaxed">{instruction}</p>
+      <p className="text-base text-gray-600 leading-relaxed">{instruction}</p>
 
       <div className="grid grid-cols-2 gap-3">
         {/* Left: numbered words */}
@@ -107,7 +107,7 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
             const s = optState(opt.id)
             return (
               <button key={opt.id} onClick={() => handleOptTap(opt.id)}
-                className={`flex items-start gap-2 px-3 py-2.5 rounded-xl border-2 text-xs leading-snug transition-all duration-150 ${optCls(s)}`}>
+                className={`flex items-start gap-2 px-3 py-2.5 rounded-xl border-2 text-sm leading-snug transition-all duration-150 ${optCls(s)}`}>
                 <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
                   {opt.id}
                 </span>

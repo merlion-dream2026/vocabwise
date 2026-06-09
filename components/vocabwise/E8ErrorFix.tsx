@@ -64,7 +64,7 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
-        <p className="text-sm text-gray-600 leading-relaxed flex-1">{instruction}</p>
+        <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
         <span className="text-xs font-black text-orange-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
@@ -104,7 +104,7 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
       {/* Explanation after answer */}
       {selected !== null && current.explanation && (
         <div className="bg-blue-50 border-2 border-blue-100 rounded-xl p-3">
-          <p className="text-xs text-blue-700 leading-relaxed">
+          <p className="text-sm text-blue-700 leading-relaxed">
             <span className="font-black">💡 Giải thích: </span>{current.explanation}
           </p>
         </div>
