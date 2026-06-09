@@ -145,6 +145,7 @@ export default function ChildRoadmap() {
   const [child, setChild] = useState<Child | null>(null)
   const [syncByLevel, setSyncByLevel] = useState<SyncByLevel>({})
   const [loading, setLoading] = useState(true)
+  const [kidsOpen, setKidsOpen] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -164,8 +165,6 @@ export default function ChildRoadmap() {
       <div className="text-4xl animate-pulse">🌟</div>
     </div>
   )
-
-  const [kidsOpen, setKidsOpen] = useState(false)
 
   // Count overall Kids progress for the section card
   const totalSeenWords = LEVEL_ORDER.reduce((sum, lvl) => sum + (syncByLevel[lvl]?.seen?.length ?? 0), 0)
