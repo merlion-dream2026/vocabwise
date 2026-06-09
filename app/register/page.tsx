@@ -62,7 +62,7 @@ export default function RegisterPage() {
           <h1 className="text-2xl font-black text-gray-800">Tạo tài khoản miễn phí</h1>
           <p className="text-gray-400 text-sm font-semibold mt-1">Thử miễn phí 7 ngày, không cần cài app</p>
           <div className="flex flex-wrap justify-center gap-1.5 mt-2">
-            <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 2.300+ từ vựng</span>
+            <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 4.500+ từ vựng</span>
             <span className="text-xs bg-rose-100 text-rose-700 font-bold px-2.5 py-1 rounded-full">🎤 Phát âm AI</span>
             <span className="text-xs bg-amber-100 text-amber-700 font-bold px-2.5 py-1 rounded-full">🔤 Học IPA</span>
           </div>

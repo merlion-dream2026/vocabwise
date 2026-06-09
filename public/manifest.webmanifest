@@ -1,7 +1,7 @@
 {
   "name": "VocabWise",
   "short_name": "VocabWise",
-  "description": "Học từ vựng tiếng Anh — vui học mỗi ngày",
+  "description": "App học từ vựng tiếng Anh toàn diện — Phát âm IPA · Từ vựng · IELTS/SAT",
   "start_url": "/kids",
   "scope": "/",
   "display": "standalone",

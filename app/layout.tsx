@@ -19,13 +19,13 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
-  description: 'VocabWise — App học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác, AI chấm phát âm. Dùng thử miễn phí 7 ngày.',
+  title: 'VocabWise — App Học Từ Vựng Tiếng Anh Toàn Diện',
+  description: 'Học tiếng Anh toàn diện: Phát âm IPA chuẩn · Từ vựng Pre-A1→C1 cho bé · IELTS/SAT A1→C2. Song ngữ Việt–Anh · 4.500+ từ · Dùng thử miễn phí 7 ngày.',
   keywords: [
     'VocabWise', 'vocab wise', 'vocabwise', 'vocab kids pro',
-    'app học từ vựng tiếng anh cho bé', 'học tiếng anh cho trẻ em',
-    'app học từ vựng trẻ em', 'học từ vựng tiếng anh online',
-    'game học tiếng anh cho bé', 'flashcard tiếng anh trẻ em',
+    'app học từ vựng tiếng anh', 'học tiếng anh cho trẻ em',
+    'app học từ vựng tiếng anh toàn diện', 'học từ vựng tiếng anh online',
+    'luyện phát âm IPA', 'từ vựng IELTS', 'từ vựng SAT',
     'IELTS CHAMPION', 'học tiếng anh CEFR',
   ],
   authors: [{ name: 'Andie Nguyễn — IELTS CHAMPION' }],
@@ -39,18 +39,18 @@ export const metadata: Metadata = {
     title: 'VocabWise',
   },
   openGraph: {
-    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
-    description: 'App học từ vựng Việt–Anh với 2.300+ từ, 6 cấp độ CEFR, 10+ trò chơi. AI chấm phát âm. Không cần cài app — dùng thử miễn phí!',
+    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Toàn Diện',
+    description: '3 module tiếng Anh: Luyện Phát Âm IPA · VocabWise Daily Pre-A1→C1 · VocabWise Academic IELTS/SAT. 4.500+ từ vựng. Song ngữ Việt–Anh. Dùng thử miễn phí!',
     url: APP_URL,
     siteName: 'VocabWise',
     type: 'website',
     locale: 'vi_VN',
-    images: [{ url: `${APP_URL}/opengraph-image`, width: 1200, height: 630, alt: 'VocabWise — App học từ vựng tiếng Anh cho bé' }],
+    images: [{ url: `${APP_URL}/opengraph-image`, width: 1200, height: 630, alt: 'VocabWise — App học từ vựng tiếng Anh toàn diện' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
-    description: 'App học từ vựng Việt–Anh: 2.300+ từ, 6 cấp độ, 10+ game, AI phát âm. Dùng thử miễn phí!',
+    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Toàn Diện',
+    description: 'Phát âm IPA · Từ vựng 4.500+ từ · IELTS/SAT. Song ngữ Việt–Anh. Dùng thử miễn phí!',
   },
 }
 
@@ -61,7 +61,7 @@ const faqJsonLd = {
     {
       '@type': 'Question',
       name: 'VocabWise là gì?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise (VocabWise) là app học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2) và 10+ trò chơi tương tác.' },
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise là app học tiếng Anh toàn diện song ngữ Việt–Anh với 3 module: Luyện Phát Âm IPA, VocabWise Daily (4.500+ từ, Pre-A1→C1 cho trẻ em) và VocabWise Academic (từ vựng IELTS/SAT, A1→C2).' },
     },
     {
       '@type': 'Question',
@@ -80,8 +80,8 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: 'Bé bao nhiêu tuổi phù hợp với VocabWise?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) cho bé bắt đầu, đến Master (C1-C2) cho bé nâng cao.' },
+      name: 'VocabWise phù hợp với lứa tuổi nào?',
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho mọi lứa tuổi: VocabWise Daily dành cho bé 4–15 tuổi (Pre-A1→C1), Luyện Phát Âm IPA cho mọi người, và VocabWise Academic cho học sinh cấp 2-3, sinh viên luyện IELTS/SAT (A1→C2).' },
     },
   ],
 }
@@ -99,21 +99,22 @@ const jsonLd = {
       applicationSubCategory: 'Language Learning',
       operatingSystem: 'Web, iOS, Android, Windows',
       inLanguage: ['vi', 'en'],
-      description: 'App học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác, AI chấm điểm phát âm.',
+      description: 'App học tiếng Anh toàn diện song ngữ Việt–Anh: Luyện Phát Âm IPA, VocabWise Daily 4.500+ từ Pre-A1→C1, VocabWise Academic IELTS/SAT A1→C2.',
       featureList: [
-        '2.300+ từ vựng tiếng Anh theo khung CEFR',
-        '6 cấp độ: Seeker (Pre-A1) đến Master (C1-C2)',
+        '4.500+ từ vựng tiếng Anh theo khung CEFR Pre-A1→C2',
+        'VocabWise Daily: 6 cấp độ Seeker→Master cho trẻ em',
+        'VocabWise Academic: từ vựng IELTS/SAT A1→C2',
+        'Luyện Phát Âm IPA chuẩn Cambridge',
         '10+ trò chơi học từ vựng tương tác',
         'AI chấm điểm phát âm tiếng Anh',
         'Ôn tập thông minh theo spaced repetition',
         'Dashboard theo dõi tiến độ cho phụ huynh',
         'PWA — không cần cài app, dùng như app thật',
         'Song ngữ Việt–Anh',
-        'Streak, XP, huy hiệu gamification',
       ],
       audience: {
         '@type': 'EducationalAudience',
-        audienceType: 'Trẻ em học tiếng Anh',
+        audienceType: 'Học sinh, sinh viên và phụ huynh học tiếng Anh',
         educationalRole: 'student',
       },
       offers: [
@@ -166,7 +167,7 @@ const jsonLd = {
       '@id': `${APP_URL}/#website`,
       url: APP_URL,
       name: 'VocabWise',
-      description: 'App học từ vựng tiếng Anh cho bé',
+      description: 'App học từ vựng tiếng Anh toàn diện song ngữ Việt–Anh',
       publisher: { '@id': `${APP_URL}/#org` },
     },
   ],
