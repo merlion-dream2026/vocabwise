@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import { speak } from '@/lib/speak'
 import VWExerciseRunner from './VWExerciseRunner'
 import type { ExercisesData } from './types'
 
@@ -35,14 +36,6 @@ function renderPassage(text: string) {
   return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
 }
 
-function speakText(text: string) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return
-  window.speechSynthesis.cancel()
-  const utt = new SpeechSynthesisUtterance(text)
-  utt.lang = 'en-US'
-  utt.rate = 0.85
-  window.speechSynthesis.speak(utt)
-}
 
 function getExerciseTypes(exercises: ExercisesData): string[] {
   return ['ex1', 'ex2', 'ex3', 'ex4', 'ex5']
@@ -200,7 +193,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             <div className="space-y-3">
               {glossary.map(item => (
                 <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
-                  onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speakText(item.word) }}>
+                  onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(item.word) }}>
                   <summary className="px-4 py-3 cursor-pointer list-none flex items-center gap-3">
                     <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-black text-xs flex items-center justify-center flex-shrink-0">
                       {item.id}
@@ -212,7 +205,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                     </div>
                     <span className="text-blue-600 font-bold text-sm">{item.meaning_vi.split(';')[0]}</span>
                     <button
-                      onClick={e => { e.preventDefault(); speakText(item.word) }}
+                      onClick={e => { e.preventDefault(); speak(item.word) }}
                       className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
                       aria-label={`Phát âm ${item.word}`}
                     >
@@ -225,7 +218,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                     <div className="flex items-start gap-1">
                       <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
                       <button
-                        onClick={() => speakText(item.example_en)}
+                        onClick={() => speak(item.example_en)}
                         className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
                         aria-label="Phát âm câu ví dụ"
                       >
