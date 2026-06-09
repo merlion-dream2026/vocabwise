@@ -137,7 +137,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         <h1 className="text-xl font-black leading-tight">{meta.topic_title}</h1>
         <div className="flex items-center gap-2 mt-1">
           <span className="text-xs font-black bg-white/20 px-2 py-0.5 rounded-full">{meta.cefr_level}</span>
-          <span className="text-xs text-blue-200">Topic {meta.topic_number} · {passage.word_count} words</span>
+          <span className="text-xs text-blue-200">Topic {meta.topic_number}</span>
           {topicSync?.mastered && <span className="text-xs bg-yellow-400/90 text-yellow-900 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
           {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-black px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
         </div>
@@ -161,7 +161,10 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {tab === 'passage' && (
           <div>
             <div className="flex items-center justify-between mb-4">
-              <h2 className="font-black text-gray-700 text-sm">{meta.topic_title}</h2>
+              <div>
+                <h2 className="font-black text-gray-700 text-sm">{meta.topic_title}</h2>
+                <p className="text-xs text-gray-400 mt-0.5">📄 Bài đọc · {passage.word_count} từ</p>
+              </div>
               <button onClick={() => setShowVI(v => !v)}
                 className="text-xs font-black px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
                 {showVI ? '🇬🇧 Ẩn dịch' : '🇻🇳 Xem dịch'}
