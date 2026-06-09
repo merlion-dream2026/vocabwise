@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const alt = 'VocabKids Pro — Học từ vựng tiếng Anh cho bé'
+export const alt = 'VocabWise — Học từ vựng tiếng Anh cho bé'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -23,7 +23,7 @@ export default function Image() {
       >
         <div style={{ fontSize: 80, marginBottom: 24 }}>📚</div>
         <div style={{ fontSize: 68, fontWeight: 900, color: 'white', letterSpacing: '-2px', marginBottom: 16 }}>
-          VocabKids Pro
+          VocabWise
         </div>
         <div style={{ fontSize: 30, color: 'rgba(255,255,255,0.85)', textAlign: 'center', marginBottom: 40, lineHeight: 1.4 }}>
           Hoc tu vung tieng Anh — vui, hieu qua, khong ap luc

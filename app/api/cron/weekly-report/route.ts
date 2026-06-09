@@ -66,7 +66,7 @@ export async function GET(req: NextRequest) {
       )
 
       const html = buildReportHtml(family.username, rows)
-      await sendEmail({ to: family.email, subject: '📚 Báo cáo học tập tuần này — VocabKids', html })
+      await sendEmail({ to: family.email, subject: '📚 Báo cáo học tập tuần này — VocabWise', html })
       sent++
     } catch (e) {
       errors.push(`${family.username}: ${e}`)

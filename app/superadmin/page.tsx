@@ -175,28 +175,28 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`
   }
 
-  const emailSubject = `Thông tin đăng nhập VocabKids Pro`
+  const emailSubject = `Thông tin đăng nhập VocabWise`
   const emailHtml = `
     <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
-      <h2 style="color:#9333ea">📚 VocabKids Pro</h2>
+      <h2 style="color:#9333ea">📚 VocabWise</h2>
       <p>Xin chào phụ huynh,</p>
-      <p>Dưới đây là thông tin tài khoản <strong>VocabKids Pro</strong>:</p>
+      <p>Dưới đây là thông tin tài khoản <strong>VocabWise</strong>:</p>
       <table style="border-collapse:collapse;width:100%">
         <tr><td style="padding:8px 0;color:#666">Tên đăng nhập:</td><td style="padding:8px 0;font-weight:bold">${savedUsername}</td></tr>
         ${notifPassword ? `<tr><td style="padding:8px 0;color:#666">Mật khẩu:</td><td style="padding:8px 0;font-weight:bold">${notifPassword}</td></tr>` : ''}
         <tr><td style="padding:8px 0;color:#666">Gói:</td><td style="padding:8px 0;font-weight:bold">${planLabel}</td></tr>
         ${planEndDate ? `<tr><td style="padding:8px 0;color:#666">Hết hạn:</td><td style="padding:8px 0;font-weight:bold">${fmtDate(planEndDate)}</td></tr>` : ''}
       </table>
-      <p style="margin-top:24px">Truy cập tại: <a href="https://vocab-kids-pro.vercel.app">VocabKids Pro</a></p>
+      <p style="margin-top:24px">Truy cập tại: <a href="https://vocabwise.vercel.app">VocabWise</a></p>
     </div>`
 
   const messageText =
-    `📚 Tài khoản VocabKids Pro của bạn:\n` +
+    `📚 Tài khoản VocabWise của bạn:\n` +
     `• Tên đăng nhập: ${savedUsername}\n` +
     (notifPassword ? `• Mật khẩu: ${notifPassword}\n` : '') +
     `• Gói: ${planLabel}\n` +
     (planEndDate ? `• Hết hạn: ${fmtDate(planEndDate)}\n` : '') +
-    `\nTruy cập: https://vocab-kids-pro.vercel.app`
+    `\nTruy cập: https://vocabwise.vercel.app`
 
   async function save(e: FormEvent) {
     e.preventDefault()
@@ -573,7 +573,7 @@ function LoginPanel({ onLogin }: { onLogin: () => void }) {
         <div className="text-center mb-7">
           <div className="text-5xl mb-3">🔐</div>
           <h1 className="text-2xl font-black text-slate-900">Super Admin</h1>
-          <p className="text-slate-500 text-sm mt-1 font-semibold">VocabKids Pro</p>
+          <p className="text-slate-500 text-sm mt-1 font-semibold">VocabWise</p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <PasswordInput value={password} onChange={setPassword}
@@ -1520,7 +1520,7 @@ function AdminPanel() {
                 <div>
                   <label className="text-xs text-slate-500 mb-1 block">Tiêu đề email</label>
                   <input value={bulkEmailSubject} onChange={e => setBulkEmailSubject(e.target.value)}
-                    placeholder="Ví dụ: Gia hạn VocabKids Pro — ưu đãi đặc biệt"
+                    placeholder="Ví dụ: Gia hạn VocabWise — ưu đãi đặc biệt"
                     className="w-full bg-white border-2 border-slate-200 rounded-2xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                 </div>
                 <div>
@@ -1559,7 +1559,7 @@ function AdminPanel() {
           <div className="flex items-center justify-between px-6 pt-5 pb-4">
             <div>
               <h1 className="text-2xl font-black text-white">🔐 Super Admin</h1>
-              <p className="text-indigo-200 text-xs mt-0.5 font-semibold">VocabKids Pro</p>
+              <p className="text-indigo-200 text-xs mt-0.5 font-semibold">VocabWise</p>
             </div>
             <button onClick={logout}
               className="bg-white/20 hover:bg-white/30 text-white text-xs px-3 py-2 rounded-2xl transition-colors whitespace-nowrap">

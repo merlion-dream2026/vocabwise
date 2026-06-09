@@ -1,5 +1,5 @@
 {
-  "alias": ["vocab-kids-pro.vercel.app"],
+  "alias": ["vocabwise.vercel.app"],
   "crons": [
     {
       "path": "/api/cron/weekly-report",

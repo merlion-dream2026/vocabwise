@@ -198,7 +198,7 @@ export default function HomePage() {
       {/* Header */}
       <div className="text-center mb-8">
         <div className="text-6xl mb-3">🌟</div>
-        <h1 className="text-4xl font-black text-gray-800 tracking-tight">VocabKids Pro</h1>
+        <h1 className="text-4xl font-black text-gray-800 tracking-tight">VocabWise</h1>
         <p className="text-gray-500 mt-2 text-lg font-semibold">
           Từ vựng tiếng Anh — vui học mỗi ngày
         </p>

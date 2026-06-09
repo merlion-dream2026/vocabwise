@@ -12,7 +12,7 @@
 |---|---|---|
 | **Luyện phát âm** | Pronunciation | Mọi lứa tuổi |
 | **VocabWise Kids** | Kids · Pre-A1 → C1 | Trẻ em |
-| **VocabWise** | IELTS/SAT · A1 → C2 | Teen/Adult |
+| **VocabWise** | Academic · A1 → C2 | Teen/Adult |
 
 ## Business Model
 | Plan | Giá | Tính năng |
@@ -30,7 +30,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 - **~400 words/level = 2.300+ từ**
 - Data: `/data/words.json` — key là level slug, mỗi level có `topics[]`
 
-## VocabWise (IELTS/SAT) — Curriculum
+## VocabWise (Academic) — Curriculum
 - **3 books:** Book 1 (A1-A2, 60 topics) · Book 2 (B1-B2, 60 topics) · Book 3 (C1-C2, 30 topics)
 - **150 topics tổng, ~2.250 từ**
 - Content pipeline: JSON files `/data/vocabwise/bookN/` → `scripts/vw-seed.js` → Supabase
@@ -47,7 +47,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 | `/verify-email` | Xác thực OTP 6 số |
 | `/kids` | Màn hình chọn bé → VocabWise Kids |
 | `/dashboard` | Parent dashboard — hồ sơ bé, FAQ, cài đặt |
-| `/vocabwise` | VocabWise (IELTS/SAT) — chọn book |
+| `/vocabwise` | VocabWise (Academic) — chọn book |
 | `/vocabwise/[book]` | Topic list theo theme |
 | `/vocabwise/[book]/[topic]` | Topic view: passage → glossary → exercises |
 | `/superadmin` | Admin console — quản lý families, kích hoạt Pro |
@@ -67,7 +67,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 /api/score-pronunciation POST — AI chấm phát âm (Groq Whisper)
 /api/vocabwise/topics    GET — list topics by book
 /api/vocabwise/topics/[id] GET — topic detail
-/api/vocabwise/progress  GET/POST — VocabWise (IELTS/SAT) progress
+/api/vocabwise/progress  GET/POST — VocabWise (Academic) progress
 /api/superadmin/families GET/POST/PATCH/DELETE
 /api/superadmin/config   GET/PATCH
 ```
@@ -76,7 +76,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 ### Inherited tables
 `families`, `children`, `vocab_sync`, `admin_config`
 
-### VocabWise (IELTS/SAT) tables — prefix vw_
+### VocabWise (Academic) tables — prefix vw_
 `vw_books`, `vw_themes`, `vw_topics`, `vw_passages`, `vw_glossary`, `vw_exercises`
 `vw_user_topic_progress(family_id TEXT, topic_id, ...)`, `vw_user_word_progress(family_id TEXT, topic_id, item_order, ...)`
 
@@ -88,7 +88,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 - Superadmin: session `familyId === 'superadmin'` (hardcoded check)
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
 - VocabWise progress dùng `family_id TEXT`, không phải Supabase auth UUID
-- Prefix `vw_` cho tất cả VocabWise (IELTS/SAT) tables
+- Prefix `vw_` cho tất cả VocabWise (Academic) tables
 
 ## Env Vars (Vercel)
 ```
@@ -114,4 +114,4 @@ NEXT_PUBLIC_APP_URL
 |---|---|
 | VocabWise Kids | ✅ Functional (inherited from VocabKids Pro) |
 | Luyện phát âm | ✅ Functional (inherited) |
-| VocabWise (IELTS/SAT) | 🚧 In development |
+| VocabWise (Academic) | 🚧 In development |

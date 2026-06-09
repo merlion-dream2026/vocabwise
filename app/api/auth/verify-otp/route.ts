@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
   // Send welcome email (fire-and-forget)
   sendEmail({
     to: family.email,
-    subject: 'Chào mừng bạn đến với VocabKids Pro! 🎉',
+    subject: 'Chào mừng bạn đến với VocabWise! 🎉',
     html: welcomeEmailHtml(family.name),
   }).catch(err => console.error('[verify-otp] welcome email error:', err))
 

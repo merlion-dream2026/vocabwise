@@ -93,7 +93,7 @@ export async function GET(req: NextRequest) {
       const html = buildMonthlyRecapHtml(family.username, rows, monthLabel, prevMonthLabel, recapYM)
       await sendEmail({
         to: family.email,
-        subject: `📅 Tổng kết ${monthLabel} — VocabKids Pro`,
+        subject: `📅 Tổng kết ${monthLabel} — VocabWise`,
         html,
       })
       sent++

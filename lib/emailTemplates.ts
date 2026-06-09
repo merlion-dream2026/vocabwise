@@ -1,4 +1,4 @@
-const BASE_URL = 'https://vocab-kids-pro.vercel.app'
+const BASE_URL = 'https://vocabwise.vercel.app'
 
 const BANK = {
   bank: 'Timo Bank',
@@ -11,7 +11,7 @@ function header(title: string) {
   return `
     <div style="background:linear-gradient(135deg,#9333ea,#ec4899);padding:28px 24px;text-align:center;border-radius:16px 16px 0 0">
       <p style="font-size:36px;margin:0 0 8px">📚</p>
-      <h1 style="color:#fff;font-size:22px;font-weight:900;margin:0;letter-spacing:-0.5px">VocabKids Pro</h1>
+      <h1 style="color:#fff;font-size:22px;font-weight:900;margin:0;letter-spacing:-0.5px">VocabWise</h1>
       <p style="color:rgba(255,255,255,0.85);font-size:13px;margin:6px 0 0;font-weight:600">${title}</p>
     </div>`
 }
@@ -50,7 +50,7 @@ function footer() {
   return `
     <div style="border-top:1px solid #f0e6ff;margin-top:28px;padding-top:16px;text-align:center">
       <p style="color:#aaa;font-size:12px;margin:0">Câu hỏi? Zalo/SMS: <strong style="color:#9333ea">${BANK.zalo}</strong></p>
-      <p style="color:#ccc;font-size:11px;margin:8px 0 0">© 2026 VocabKids Pro · Từ vựng tiếng Anh — vui học mỗi ngày</p>
+      <p style="color:#ccc;font-size:11px;margin:8px 0 0">© 2026 VocabWise · Từ vựng tiếng Anh — vui học mỗi ngày</p>
     </div>`
 }
 
@@ -120,7 +120,7 @@ export function welcomeEmailHtml(name: string, tempPassword?: string): string {
       <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;margin-bottom:8px;font-size:13px">
         <p style="color:#374151;font-weight:900;margin:0 0 10px">Cách nâng cấp:</p>
         ${[
-          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabKids [gói] [SĐT]</strong>',
+          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabWise [gói] [SĐT]</strong>',
           `Ngân hàng: <strong>${BANK.bank}</strong> · TK: <strong>${BANK.account}</strong> · Tên: <strong>${BANK.name}</strong>`,
           `Gửi ảnh bill qua Zalo <strong style="color:#9333ea">${BANK.zalo}</strong>`,
           'Admin kích hoạt ngay, <strong>chậm nhất 12h</strong>',
@@ -190,7 +190,7 @@ export function renewalReminderEmailHtml(name: string, daysLeft: number, planLab
       <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:13px">
         <p style="color:#374151;font-weight:900;margin:0 0 10px">Cách gia hạn:</p>
         ${[
-          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabKids [gói] [SĐT]</strong>',
+          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabWise [gói] [SĐT]</strong>',
           `Ngân hàng: <strong>${BANK.bank}</strong> · TK: <strong>${BANK.account}</strong> · Tên: <strong>${BANK.name}</strong>`,
           `Gửi ảnh bill qua Zalo <strong style="color:#9333ea">${BANK.zalo}</strong>`,
           'Admin kích hoạt ngay, <strong>chậm nhất 12h</strong>',
@@ -272,7 +272,7 @@ export function trialExpiryReminderEmailHtml(name: string, daysLeft: number): st
       <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:13px">
         <p style="color:#374151;font-weight:900;margin:0 0 10px">Cách nâng cấp:</p>
         ${[
-          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabKids [gói] [SĐT]</strong>',
+          'Chuyển khoản với nội dung: <strong style="color:#9333ea">VocabWise [gói] [SĐT]</strong>',
           `Ngân hàng: <strong>${BANK.bank}</strong> · TK: <strong>${BANK.account}</strong> · Tên: <strong>${BANK.name}</strong>`,
           `Gửi ảnh bill qua Zalo <strong style="color:#9333ea">${BANK.zalo}</strong>`,
           'Admin kích hoạt ngay, <strong>chậm nhất 12h</strong>',
@@ -403,7 +403,7 @@ export function inactiveChildEmailHtml(
 
       ${kidBlocks}
 
-      ${button('📚 Mở VocabKids Pro ngay', `${BASE_URL}/kids`)}
+      ${button('📚 Mở VocabWise ngay', `${BASE_URL}/kids`)}
 
       <!-- Tips -->
       <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;margin-top:8px">
@@ -494,7 +494,7 @@ export function proActivatedEmailHtml(name: string, planLabel: string, planEndDa
         <p style="color:#9ca3af;font-size:13px;margin:0">Hạn sử dụng: <strong style="color:#374151">${planEndDate}</strong></p>
       </div>
 
-      ${button('🚀 Vào VocabKids Pro ngay', `${BASE_URL}/kids`)}
+      ${button('🚀 Vào VocabWise ngay', `${BASE_URL}/kids`)}
 
       <!-- Steps -->
       <p style="color:#374151;font-weight:900;font-size:14px;margin:24px 0 16px">Hướng dẫn nhanh — bắt đầu trong 2 phút:</p>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocab-kids-pro.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
 
 type ReferralItem = {
   id: string
@@ -47,7 +47,7 @@ export default function ReferralTab() {
   }, [])
 
   const shareLink = data?.referral_code ? `${APP_URL}/r/${data.referral_code}` : ''
-  const shareText = `Con mình đang học tiếng Anh với VocabKids Pro — bé học qua game nên rất thích! 🎮📚\n\nĐăng ký qua link này để dùng thử miễn phí:\n${shareLink}`
+  const shareText = `Con mình đang học tiếng Anh với VocabWise — bé học qua game nên rất thích! 🎮📚\n\nĐăng ký qua link này để dùng thử miễn phí:\n${shareLink}`
 
   async function copyLink() {
     if (!shareLink) return
@@ -64,7 +64,7 @@ export default function ReferralTab() {
     if (!shareLink) return
     if (typeof navigator !== 'undefined' && navigator.share) {
       try {
-        await navigator.share({ title: 'VocabKids Pro', text: shareText, url: shareLink })
+        await navigator.share({ title: 'VocabWise', text: shareText, url: shareLink })
       } catch { /* user cancelled */ }
     } else {
       copyLink()

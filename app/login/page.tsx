@@ -68,7 +68,7 @@ function LoginForm() {
         {/* Hero */}
         <div className="text-center mb-4">
           <div className="text-6xl mb-3">📚</div>
-          <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabKids Pro</h1>
+          <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabWise</h1>
           <p className="text-gray-500 mt-1.5 font-semibold text-sm leading-snug">
             Từ vựng tiếng Anh — vui học mỗi ngày
           </p>

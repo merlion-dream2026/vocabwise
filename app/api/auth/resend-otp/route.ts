@@ -35,10 +35,10 @@ export async function POST(req: NextRequest) {
   try {
     await sendEmail({
       to: email.trim(),
-      subject: 'Mã xác thực VocabKids Pro (mới)',
+      subject: 'Mã xác thực VocabWise (mới)',
       html: `
         <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
-          <h2 style="color:#9333ea">📚 VocabKids Pro</h2>
+          <h2 style="color:#9333ea">📚 VocabWise</h2>
           <p>Mã xác thực mới của bạn là:</p>
           <div style="background:#f3e8ff;border-radius:12px;padding:20px;text-align:center;margin:20px 0">
             <span style="font-size:36px;font-weight:900;letter-spacing:8px;color:#7c3aed">${otp}</span>

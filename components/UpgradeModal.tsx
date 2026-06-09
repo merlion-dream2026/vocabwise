@@ -32,7 +32,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
   const [phone, setPhone] = useState(username ?? '')
 
   const chosen = PLANS.find(p => p.key === selectedPlan) ?? PLANS[1]
-  const transferContent = `VocabKids ${chosen.label}${phone.trim() ? ` ${phone.trim()}` : ''}`
+  const transferContent = `VocabWise ${chosen.label}${phone.trim() ? ` ${phone.trim()}` : ''}`
 
   const qrUrl = `https://img.vietqr.io/image/${BANK_INFO.bankCode}-${BANK_INFO.account}-compact2.jpg?amount=${chosen.amount}&addInfo=${encodeURIComponent(transferContent)}&accountName=${encodeURIComponent(BANK_INFO.name)}`
 

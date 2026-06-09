@@ -81,7 +81,7 @@ export default function OnboardingChecklist({
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="font-black text-gray-800 text-base">🚀 Bắt đầu cùng VocabKids</h3>
+          <h3 className="font-black text-gray-800 text-base">🚀 Bắt đầu cùng VocabWise</h3>
           <p className="text-xs text-gray-400 font-semibold mt-0.5">{completedCount}/{steps.length} bước hoàn thành</p>
         </div>
         <button

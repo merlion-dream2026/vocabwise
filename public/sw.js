@@ -64,7 +64,7 @@ self.addEventListener('fetch', e => {
 self.addEventListener('push', event => {
   const data = event.data?.json() ?? {}
   event.waitUntil(
-    self.registration.showNotification(data.title ?? 'VocabKids Pro', {
+    self.registration.showNotification(data.title ?? 'VocabWise', {
       body: data.body ?? 'Nhắc bé học từ vựng hôm nay! 📚',
       icon: '/icon-192.png',
       badge: '/icon-192.png',

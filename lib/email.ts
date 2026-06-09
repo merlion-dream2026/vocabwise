@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
 
 export async function sendEmail({ to, subject, html }: { to: string; subject: string; html: string }) {
   await transporter.sendMail({
-    from: `VocabKids Pro <${process.env.GMAIL_USER}>`,
+    from: `VocabWise <${process.env.GMAIL_USER}>`,
     to,
     subject,
     html,

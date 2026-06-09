@@ -119,7 +119,7 @@ export function buildMonthlyRecapHtml(
     <div style="background:linear-gradient(135deg,#4f46e5,#7c3aed,#ec4899);border-radius:20px;padding:24px;text-align:center;margin-bottom:20px;">
       <p style="margin:0 0 4px;font-size:28px;">📅</p>
       <h1 style="margin:0;color:#fff;font-size:22px;font-weight:900;">Tổng kết ${monthLabel}</h1>
-      <p style="margin:6px 0 0;color:rgba(255,255,255,0.8);font-size:13px;">VocabKids Pro · Xin chào, <strong>${username}</strong>!</p>
+      <p style="margin:6px 0 0;color:rgba(255,255,255,0.8);font-size:13px;">VocabWise · Xin chào, <strong>${username}</strong>!</p>
       <p style="margin:4px 0 0;color:rgba(255,255,255,0.6);font-size:11px;">So sánh với ${prevMonthLabel}</p>
     </div>
     ${childBlocks}
@@ -129,7 +129,7 @@ export function buildMonthlyRecapHtml(
         Xem Dashboard →
       </a>
     </div>
-    <p style="text-align:center;margin-top:20px;font-size:11px;color:#9ca3af;">VocabKids Pro · Báo cáo tháng dành riêng cho gói 6 tháng.</p>
+    <p style="text-align:center;margin-top:20px;font-size:11px;color:#9ca3af;">VocabWise · Báo cáo tháng dành riêng cho gói 6 tháng.</p>
   </div>
 </body>
 </html>`
@@ -207,7 +207,7 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
     <div style="background:linear-gradient(135deg,#7c3aed,#ec4899);border-radius:20px;padding:24px;text-align:center;margin-bottom:20px;">
       <p style="margin:0 0 4px;font-size:28px;">📚</p>
       <h1 style="margin:0;color:#fff;font-size:22px;font-weight:900;">Báo cáo học tập</h1>
-      <p style="margin:6px 0 0;color:rgba(255,255,255,0.8);font-size:13px;">VocabKids · Xin chào, <strong>${username}</strong>!</p>
+      <p style="margin:6px 0 0;color:rgba(255,255,255,0.8);font-size:13px;">VocabWise · Xin chào, <strong>${username}</strong>!</p>
     </div>
     ${childBlocks}
     <div style="text-align:center;margin-top:20px;">
@@ -216,7 +216,7 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
         Vào học ngay →
       </a>
     </div>
-    <p style="text-align:center;margin-top:20px;font-size:11px;color:#9ca3af;">VocabKids · Bạn nhận email này vì đã đăng ký tài khoản.</p>
+    <p style="text-align:center;margin-top:20px;font-size:11px;color:#9ca3af;">VocabWise · Bạn nhận email này vì đã đăng ký tài khoản.</p>
   </div>
 </body>
 </html>`

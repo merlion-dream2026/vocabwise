@@ -60,10 +60,10 @@ async function trackRegistrationIP(ip: string): Promise<void> {
     reviewed: false,
   })
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocab-kids-pro.vercel.app'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
   sendEmail({
     to: SUPERADMIN_EMAIL,
-    subject: `⚠️ [VocabKids] IP đăng ký bất thường: ${ip}`,
+    subject: `⚠️ [VocabWise] IP đăng ký bất thường: ${ip}`,
     html: `
       <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
         <h2 style="color:#dc2626">⚠️ Cảnh báo đăng ký bất thường</h2>
@@ -220,17 +220,17 @@ export async function POST(req: NextRequest) {
   try {
     await sendEmail({
       to: email.trim(),
-      subject: 'Mã xác thực VocabKids Pro',
+      subject: 'Mã xác thực VocabWise',
       html: `
         <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
-          <h2 style="color:#9333ea">📚 VocabKids Pro</h2>
+          <h2 style="color:#9333ea">📚 VocabWise</h2>
           <p>Xin chào <strong>${name.trim()}</strong>,</p>
           <p>Mã xác thực tài khoản của bạn là:</p>
           <div style="background:#f3e8ff;border-radius:12px;padding:20px;text-align:center;margin:20px 0">
             <span style="font-size:36px;font-weight:900;letter-spacing:8px;color:#7c3aed">${otp}</span>
           </div>
           <p style="color:#666;font-size:14px">Mã có hiệu lực trong <strong>15 phút</strong>. Không chia sẻ mã này với bất kỳ ai.</p>
-          <p style="color:#999;font-size:12px;margin-top:24px">Nếu bạn không đăng ký VocabKids Pro, hãy bỏ qua email này.</p>
+          <p style="color:#999;font-size:12px;margin-top:24px">Nếu bạn không đăng ký VocabWise, hãy bỏ qua email này.</p>
         </div>`,
     })
   } catch (emailError) {

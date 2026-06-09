@@ -5,8 +5,8 @@ import UpgradeModal from '@/components/UpgradeModal'
 
 const FAQ_ITEMS = [
   {
-    q: 'VocabKids Pro là gì?',
-    a: 'VocabKids Pro (Vocab Kids) là app học tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác và module học phát âm IPA theo chuẩn Cambridge giúp bé học từ vựng và phát âm chuẩn — vui, hiệu quả, không áp lực.',
+    q: 'VocabWise là gì?',
+    a: 'VocabWise (VocabWise) là app học tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác và module học phát âm IPA theo chuẩn Cambridge giúp bé học từ vựng và phát âm chuẩn — vui, hiệu quả, không áp lực.',
   },
   {
     q: 'Module học phát âm IPA là gì?',
@@ -14,15 +14,15 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Bé có thể tự học một mình không?',
-    a: 'VocabKids Pro được thiết kế để dùng cùng ba/mẹ — đặc biệt với bé dưới 10 tuổi. Kinh nghiệm thực tế: các bé còn nhỏ chưa tự giác, cần người lớn ngồi cạnh hướng dẫn, giải thích từ khó và động viên khi học. Sự có mặt và cổ vũ của ba/mẹ tạo ra sự khác biệt rất lớn. Sau vài tuần quen dùng, bé sẽ tự tin học độc lập hơn.',
+    a: 'VocabWise được thiết kế để dùng cùng ba/mẹ — đặc biệt với bé dưới 10 tuổi. Kinh nghiệm thực tế: các bé còn nhỏ chưa tự giác, cần người lớn ngồi cạnh hướng dẫn, giải thích từ khó và động viên khi học. Sự có mặt và cổ vũ của ba/mẹ tạo ra sự khác biệt rất lớn. Sau vài tuần quen dùng, bé sẽ tự tin học độc lập hơn.',
   },
   {
-    q: 'App VocabKids có cần cài xuống không?',
-    a: 'Không! VocabKids Pro là PWA (Progressive Web App) — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể "Thêm vào màn hình chính" để dùng như app thật trên iPhone, Android, iPad và PC, tự động cập nhật, không cần lên App Store.',
+    q: 'App VocabWise có cần cài xuống không?',
+    a: 'Không! VocabWise là PWA (Progressive Web App) — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể "Thêm vào màn hình chính" để dùng như app thật trên iPhone, Android, iPad và PC, tự động cập nhật, không cần lên App Store.',
   },
   {
-    q: 'Bé bao nhiêu tuổi thì phù hợp để dùng VocabKids?',
-    a: 'VocabKids Pro phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) dành cho bé bắt đầu làm quen tiếng Anh, đến Master (C1-C2) cho bé nâng cao. Ba/Mẹ chọn level phù hợp với trình độ của con.',
+    q: 'Bé bao nhiêu tuổi thì phù hợp để dùng VocabWise?',
+    a: 'VocabWise phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) dành cho bé bắt đầu làm quen tiếng Anh, đến Master (C1-C2) cho bé nâng cao. Ba/Mẹ chọn level phù hợp với trình độ của con.',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
@@ -107,7 +107,7 @@ export default function LandingPage() {
 
       {/* Nav */}
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <span className="font-black text-xl text-gray-800">📚 VocabKids Pro</span>
+        <span className="font-black text-xl text-gray-800">📚 VocabWise</span>
         <Link href="/login"
           className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow hover:shadow-md transition-all">
           🔐 Đăng nhập
@@ -121,13 +121,13 @@ export default function LandingPage() {
           {/* Text content */}
           <div className="flex-1 text-center lg:text-left">
             <div className="text-7xl mb-4 lg:hidden">🌟</div>
-            <p className="text-purple-500 font-black text-sm mb-2 tracking-wide uppercase">VocabKids Pro · Vocab Kids</p>
+            <p className="text-purple-500 font-black text-sm mb-2 tracking-wide uppercase">VocabWise · VocabWise</p>
             <h1 className="text-3xl lg:text-5xl font-black text-gray-800 leading-tight mb-4">
               Con học từ vựng tiếng Anh{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, hiệu quả, không áp lực</span>
             </h1>
             <p className="text-gray-500 text-sm lg:text-base leading-relaxed mb-5 lg:max-w-lg">
-              <strong className="text-gray-600">VocabKids Pro</strong> — app học từ vựng song ngữ Việt–Anh với 2.300+ từ, 6 cấp độ CEFR và 10+ trò chơi tương tác dành riêng cho trẻ em.
+              <strong className="text-gray-600">VocabWise</strong> — app học từ vựng song ngữ Việt–Anh với 2.300+ từ, 6 cấp độ CEFR và 10+ trò chơi tương tác dành riêng cho trẻ em.
             </p>
 
             {/* Primary CTA */}
@@ -155,7 +155,7 @@ export default function LandingPage() {
               <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
               <div className="overflow-hidden bg-white h-[400px]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/select%20profile.jpg" alt="VocabKids Pro" className="w-full h-full object-cover object-top" />
+                <img src="/screenshots/select%20profile.jpg" alt="VocabWise" className="w-full h-full object-cover object-top" />
               </div>
               <div className="h-3 bg-gray-800" />
             </div>
@@ -163,7 +163,7 @@ export default function LandingPage() {
               <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
               <div className="overflow-hidden bg-white h-[400px]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/select%20game.jpg" alt="VocabKids games" className="w-full h-full object-cover object-top" />
+                <img src="/screenshots/select%20game.jpg" alt="VocabWise games" className="w-full h-full object-cover object-top" />
               </div>
               <div className="h-3 bg-gray-800" />
             </div>
@@ -255,7 +255,7 @@ export default function LandingPage() {
 
       {/* Features */}
       <div className="max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabKids Pro?</h2>
+        <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {FEATURES.map(f => (
             <div key={f.label} className={`bg-white rounded-2xl p-4 shadow-sm border border-white${'wide' in f && f.wide ? ' col-span-2 md:col-span-4 flex items-center gap-4' : ''}`}>
@@ -423,7 +423,7 @@ export default function LandingPage() {
               Đồng sáng lập <strong>IELTS CHAMPION</strong> · IELTS 8.5 Overall (Writing 8.5) · Thạc sỹ MBA Vương quốc Anh · Học bổng toàn phần của Chính phủ Singapore · Tốt nghiệp <strong>School of Business, National University of Singapore</strong> (Top 8 thế giới) · Hơn 10 năm kinh nghiệm giảng dạy IELTS/SAT · Trực tiếp đào tạo nhiều học viên IELTS 7.0, 7.5, 8.0.
             </p>
             <p className="text-purple-500 text-xs font-semibold mt-2 leading-relaxed">
-              "Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabKids Pro để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!"
+              "Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabWise để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!"
             </p>
           </div>
         </div>
@@ -432,7 +432,7 @@ export default function LandingPage() {
       {/* FAQ — SEO structured content */}
       <div className="max-w-6xl mx-auto px-4 pb-10">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">Về VocabKids Pro (Vocab Kids)</p>
+        <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise (VocabWise)</p>
         <div className="space-y-3">
           {FAQ_ITEMS.map((item) => (
             <details key={item.q} className="bg-white rounded-2xl shadow-sm border border-gray-100 group">
@@ -449,7 +449,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-gray-200 bg-white/60">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-xs text-gray-400">
-          <span className="font-semibold">📚 © 2026 VocabKids Pro</span>
+          <span className="font-semibold">📚 © 2026 VocabWise</span>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="hover:text-gray-600 transition-colors">📄 Điều khoản</Link>
             <Link href="/privacy" className="hover:text-gray-600 transition-colors">🔒 Bảo mật</Link>

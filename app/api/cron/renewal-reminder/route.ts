@@ -55,7 +55,7 @@ export async function GET(req: NextRequest) {
           const html = renewalReminderEmailHtml(displayName, daysLeft, planLabel)
           const subject = daysLeft <= 1
             ? '⏰ Tài khoản Pro sắp hết hạn hôm nay — Gia hạn ngay!'
-            : `⏰ Còn ${daysLeft} ngày — Gia hạn VocabKids Pro`
+            : `⏰ Còn ${daysLeft} ngày — Gia hạn VocabWise`
           await sendEmail({ to: family.email as string, subject, html })
           sent++
         } else {

@@ -437,7 +437,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Gift code "Tặng bạn bè" dùng như thế nào? (Pro 6 tháng)',
-        a: 'Tính năng độc quyền dành cho gói Pro 6 tháng.\n\nKhi kích hoạt gói 6 tháng, hệ thống tự động tạo cho bạn 1 mã quà tặng 8 ký tự (ví dụ: ABCD1234). Bạn tìm thấy mã này trong Cài đặt → card "🎁 Tặng bạn bè".\n\nCách dùng:\n① Copy link hoặc mã chia sẻ cho bạn bè\n② Bạn bè đăng ký VocabKids và nhập mã vào ô "Nhận mã từ bạn bè"\n③ Bạn bè nhận ngay 14 ngày Pro miễn phí\n\nLưu ý: mã chỉ dùng được 1 lần và sau khi dùng sẽ không thể khôi phục.',
+        a: 'Tính năng độc quyền dành cho gói Pro 6 tháng.\n\nKhi kích hoạt gói 6 tháng, hệ thống tự động tạo cho bạn 1 mã quà tặng 8 ký tự (ví dụ: ABCD1234). Bạn tìm thấy mã này trong Cài đặt → card "🎁 Tặng bạn bè".\n\nCách dùng:\n① Copy link hoặc mã chia sẻ cho bạn bè\n② Bạn bè đăng ký VocabWise và nhập mã vào ô "Nhận mã từ bạn bè"\n③ Bạn bè nhận ngay 14 ngày Pro miễn phí\n\nLưu ý: mã chỉ dùng được 1 lần và sau khi dùng sẽ không thể khôi phục.',
       },
     ],
   },
@@ -1020,7 +1020,7 @@ function PushNotificationContent() {
           )}
           {status === 'denied' && (
             <p className="text-xs text-orange-500 font-semibold mt-2 text-center">
-              Vào Cài đặt → trình duyệt → Thông báo → cho phép vocab-kids-pro.vercel.app
+              Vào Cài đặt → trình duyệt → Thông báo → cho phép vocabwise.vercel.app
             </p>
           )}
         </>
@@ -1065,7 +1065,7 @@ function CollapsibleCard({ title, subtitle, defaultOpen = true, warn = false, ch
 }
 
 // ── Settings tab ──────────────────────────────────────────────────────────────
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocab-kids-pro.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
 
 function GiftTokenCard({ token }: { token: string }) {
   const [copied, setCopied] = useState(false)
@@ -1497,7 +1497,7 @@ export default function DashboardPage() {
         <div className="max-w-xl mx-auto px-4 pt-6 pb-0">
           <div className="flex items-center justify-between mb-5">
             <div>
-              <h1 className="text-white font-black text-2xl">📚 VocabKids</h1>
+              <h1 className="text-white font-black text-2xl">📚 VocabWise</h1>
               <div className="flex items-center gap-2 mt-0.5">
                 <p className="text-white/70 text-sm font-semibold">{session!.username}</p>
                 {(() => {

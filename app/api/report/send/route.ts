@@ -41,6 +41,6 @@ export async function POST(req: NextRequest) {
   )
 
   const html = buildReportHtml(family.username, rows)
-  await sendEmail({ to: family.email, subject: '📚 Báo cáo học tập — VocabKids', html })
+  await sendEmail({ to: family.email, subject: '📚 Báo cáo học tập — VocabWise', html })
   return NextResponse.json({ ok: true })
 }

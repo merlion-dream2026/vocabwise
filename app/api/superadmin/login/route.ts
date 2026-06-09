@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
     const loginTime = new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh', hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit', year: 'numeric' })
     sendEmail({
       to: alertEmail,
-      subject: '🔐 Admin login — VocabKids Pro',
+      subject: '🔐 Admin login — VocabWise',
       html: `<div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px"><h2 style="color:#0d9488">🔐 Admin đã đăng nhập</h2><p>Thời gian: <strong>${loginTime}</strong> (GMT+7)</p><p>IP: <code>${ip}</code></p><p style="color:#6b7280;font-size:13px">Nếu không phải bạn, hãy đổi mật khẩu admin ngay.</p></div>`,
     }).catch(() => {})
   }

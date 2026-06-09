@@ -93,7 +93,7 @@ export async function POST(req: NextRequest) {
     if (effectivePlan === 'free') {
       sendEmail({
         to: data.email,
-        subject: 'Chào mừng bạn đến với VocabKids Pro! 🎉',
+        subject: 'Chào mừng bạn đến với VocabWise! 🎉',
         html: welcomeEmailHtml(displayName, password),
       }).catch(err => console.error('[superadmin/create] welcome email error:', err))
     } else if (PLAN_LABELS[effectivePlan]) {

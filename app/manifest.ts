@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'VocabKids Pro',
-    short_name: 'VocabKids',
+    name: 'VocabWise',
+    short_name: 'VocabWise',
     description: 'Học từ vựng tiếng Anh cho bé — 2.300+ từ, 6 cấp độ, 10+ trò chơi',
     start_url: '/kids',
     display: 'standalone',

@@ -10,7 +10,7 @@ const nunito = Nunito({
   display: 'swap',
 })
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocab-kids-pro.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
 
 export const viewport: Viewport = {
   themeColor: '#9333ea',
@@ -19,10 +19,10 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'VocabKids Pro — App Học Từ Vựng Tiếng Anh Cho Bé',
-  description: 'VocabKids Pro — App học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác, AI chấm phát âm. Dùng thử miễn phí 7 ngày.',
+  title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
+  description: 'VocabWise — App học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10+ trò chơi tương tác, AI chấm phát âm. Dùng thử miễn phí 7 ngày.',
   keywords: [
-    'VocabKids', 'Vocab Kids', 'vocab kids pro', 'VocabKids Pro',
+    'VocabWise', 'vocab wise', 'vocabwise', 'vocab kids pro',
     'app học từ vựng tiếng anh cho bé', 'học tiếng anh cho trẻ em',
     'app học từ vựng trẻ em', 'học từ vựng tiếng anh online',
     'game học tiếng anh cho bé', 'flashcard tiếng anh trẻ em',
@@ -36,20 +36,20 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'VocabKids Pro',
+    title: 'VocabWise',
   },
   openGraph: {
-    title: 'VocabKids Pro — App Học Từ Vựng Tiếng Anh Cho Bé',
+    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
     description: 'App học từ vựng Việt–Anh với 2.300+ từ, 6 cấp độ CEFR, 10+ trò chơi. AI chấm phát âm. Không cần cài app — dùng thử miễn phí!',
     url: APP_URL,
-    siteName: 'VocabKids Pro',
+    siteName: 'VocabWise',
     type: 'website',
     locale: 'vi_VN',
-    images: [{ url: `${APP_URL}/opengraph-image`, width: 1200, height: 630, alt: 'VocabKids Pro — App học từ vựng tiếng Anh cho bé' }],
+    images: [{ url: `${APP_URL}/opengraph-image`, width: 1200, height: 630, alt: 'VocabWise — App học từ vựng tiếng Anh cho bé' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VocabKids Pro — App Học Từ Vựng Tiếng Anh Cho Bé',
+    title: 'VocabWise — App Học Từ Vựng Tiếng Anh Cho Bé',
     description: 'App học từ vựng Việt–Anh: 2.300+ từ, 6 cấp độ, 10+ game, AI phát âm. Dùng thử miễn phí!',
   },
 }
@@ -60,28 +60,28 @@ const faqJsonLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'VocabKids Pro là gì?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabKids Pro (Vocab Kids) là app học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2) và 10+ trò chơi tương tác.' },
+      name: 'VocabWise là gì?',
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise (VocabWise) là app học từ vựng tiếng Anh song ngữ Việt–Anh dành riêng cho trẻ em. App có 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2) và 10+ trò chơi tương tác.' },
     },
     {
       '@type': 'Question',
-      name: 'App VocabKids có cần cài xuống không?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Không! VocabKids Pro là PWA — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể Thêm vào màn hình chính để dùng như app thật trên iPhone, Android, iPad và PC.' },
+      name: 'App VocabWise có cần cài xuống không?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Không! VocabWise là PWA — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể Thêm vào màn hình chính để dùng như app thật trên iPhone, Android, iPad và PC.' },
     },
     {
       '@type': 'Question',
-      name: 'Dùng thử VocabKids Pro miễn phí được không?',
+      name: 'Dùng thử VocabWise miễn phí được không?',
       acceptedAnswer: { '@type': 'Answer', text: 'Có! Đăng ký miễn phí và dùng thử 7 ngày không cần thẻ tín dụng. Gói Free cho bé học topic đầu tiên của mỗi level với toàn bộ trò chơi.' },
     },
     {
       '@type': 'Question',
-      name: 'Một tài khoản VocabKids dùng được cho mấy bé?',
+      name: 'Một tài khoản VocabWise dùng được cho mấy bé?',
       acceptedAnswer: { '@type': 'Answer', text: 'Gói Free: 1 bé. Gói Pro: tối đa 3 bé trong cùng 1 tài khoản gia đình, mỗi bé có hồ sơ và tiến độ riêng.' },
     },
     {
       '@type': 'Question',
-      name: 'Bé bao nhiêu tuổi phù hợp với VocabKids?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabKids Pro phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) cho bé bắt đầu, đến Master (C1-C2) cho bé nâng cao.' },
+      name: 'Bé bao nhiêu tuổi phù hợp với VocabWise?',
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho bé từ 4–15 tuổi. Level Seeker (Pre-A1) cho bé bắt đầu, đến Master (C1-C2) cho bé nâng cao.' },
     },
   ],
 }
@@ -92,8 +92,8 @@ const jsonLd = {
     {
       '@type': 'SoftwareApplication',
       '@id': `${APP_URL}/#app`,
-      name: 'VocabKids Pro',
-      alternateName: ['Vocab Kids', 'Vocab Kids Pro', 'VocabKids'],
+      name: 'VocabWise',
+      alternateName: ['VocabWise', 'VocabWise', 'VocabWise'],
       url: APP_URL,
       applicationCategory: 'EducationalApplication',
       applicationSubCategory: 'Language Learning',
@@ -165,7 +165,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': `${APP_URL}/#website`,
       url: APP_URL,
-      name: 'VocabKids Pro',
+      name: 'VocabWise',
       description: 'App học từ vựng tiếng Anh cho bé',
       publisher: { '@id': `${APP_URL}/#org` },
     },

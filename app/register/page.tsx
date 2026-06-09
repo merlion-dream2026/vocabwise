@@ -105,10 +105,10 @@ export default function RegisterPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-bold text-gray-600 mb-1.5">Biết đến VocabKids qua</label>
+              <label className="block text-sm font-bold text-gray-600 mb-1.5">Biết đến VocabWise qua</label>
               <select
                 value={referralSource} onChange={e => setReferralSource(e.target.value)} required
-                onInvalid={e => (e.target as HTMLSelectElement).setCustomValidity('Vui lòng chọn kênh bạn biết đến VocabKids')}
+                onInvalid={e => (e.target as HTMLSelectElement).setCustomValidity('Vui lòng chọn kênh bạn biết đến VocabWise')}
                 onInput={e => (e.target as HTMLSelectElement).setCustomValidity('')}
                 className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               >
