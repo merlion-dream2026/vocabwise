@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 type TopicMeta = {
@@ -34,11 +35,14 @@ function TopicStatusBadge({ sync }: { sync: AcademicTopicSync | undefined }) {
 }
 
 export default function BookPageClient({ book, info, topics, byTheme }: Props) {
+  const router = useRouter()
   const [syncMap, setSyncMap] = useState<Record<string, AcademicTopicSync>>({})
   const [loaded, setLoaded] = useState(false)
+  const [backUrl, setBackUrl] = useState('/dashboard')
 
   useEffect(() => {
     const cid = sessionStorage.getItem('vw_active_child')
+    if (cid) setBackUrl(`/dashboard/${cid}`)
     if (!cid) { setLoaded(true); return }
     fetch(`/api/sync/${cid}?level=academic`)
       .then(r => r.ok ? r.json() : null)
@@ -56,7 +60,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
       <div className={`bg-gradient-to-r ${info.color} px-4 pt-12 pb-6 text-white`}>
-        <Link href="/vocabwise" className="text-white/70 font-bold text-sm flex items-center gap-1 mb-4">← Chọn sách</Link>
+        <button onClick={() => router.push(backUrl)} className="text-white/70 font-bold text-sm flex items-center gap-1 mb-4">← Chọn module</button>
         <div className="flex items-center gap-3">
           <span className="text-4xl">{info.emoji}</span>
           <div>
