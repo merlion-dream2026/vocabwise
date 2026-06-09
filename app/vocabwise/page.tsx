@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
 type AcademicTopicSync = { completed: boolean; mastered: boolean }
@@ -30,6 +31,7 @@ function topicPrefix(slug: string) {
 }
 
 export default function VocabWisePage() {
+  const router = useRouter()
   const [syncMap, setSyncMap] = useState<Record<string, AcademicTopicSync>>({})
 
   useEffect(() => {
@@ -45,7 +47,7 @@ export default function VocabWisePage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-6 text-white">
-        <Link href="/dashboard" className="text-blue-200 font-bold text-sm flex items-center gap-1 mb-4">← Dashboard</Link>
+        <button onClick={() => router.back()} className="text-blue-200 font-bold text-sm flex items-center gap-1 mb-4">← Chọn module</button>
         <div className="flex items-center gap-3 mb-1">
           <span className="text-3xl">🎓</span>
           <div>
