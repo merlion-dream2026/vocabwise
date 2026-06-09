@@ -88,7 +88,7 @@ export default function ReviewPage() {
     return (
       <div className="flex flex-col min-h-screen">
         <div className={`${headerBg} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)}
+          <button onClick={() => router.back()}
             className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
             ← Quay lại
           </button>
@@ -98,7 +98,7 @@ export default function ReviewPage() {
           <div className="text-7xl mb-4">🎉</div>
           <h2 className="text-2xl font-black text-gray-800 mb-2">Không có từ nào cần ôn!</h2>
           <p className="text-gray-500 font-semibold mb-8">Bé đang học rất tốt 💪</p>
-          <button onClick={() => router.push(backUrl)}
+          <button onClick={() => router.back()}
             className="w-full max-w-sm bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">
             ← Quay lại
           </button>

@@ -75,7 +75,7 @@ export default function PhonicsHub() {
       {/* Header — matches vocab level page pattern */}
       <div className="bg-blue-600 text-white">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(`/dashboard/${childId}`)} className="text-white/70 hover:text-white text-xl">←</button>
+          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
           <span className="text-2xl">🔤</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">Luyện Phát Âm</h1>

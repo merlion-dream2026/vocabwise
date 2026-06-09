@@ -85,7 +85,7 @@ export default function SrsReviewPage() {
     return (
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-teal-50 to-cyan-50">
         <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-12 pb-8 text-white">
-          <button onClick={() => router.push(backUrl)} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-4">← {LEVEL_LABELS[level]}</button>
+          <button onClick={() => router.back()} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-4">← {LEVEL_LABELS[level]}</button>
           <h1 className="text-2xl font-black">📅 Ôn SRS</h1>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 text-center">
@@ -103,7 +103,7 @@ export default function SrsReviewPage() {
               <p className="text-gray-400 text-sm mb-8">Các từ đã được lên lịch ôn lại tự động.</p>
             </>
           )}
-          <button onClick={() => router.push(backUrl)}
+          <button onClick={() => router.back()}
             className="w-full max-w-xs bg-teal-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">
             ← Quay lại
           </button>
@@ -115,7 +115,7 @@ export default function SrsReviewPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-12 pb-4 text-white">
-        <button onClick={() => router.push(backUrl)} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-3">← {LEVEL_LABELS[level]}</button>
+        <button onClick={() => router.back()} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-3">← {LEVEL_LABELS[level]}</button>
         <div className="flex items-center justify-between mb-3">
           <h1 className="text-2xl font-black">📅 Ôn SRS</h1>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{dueWords.length}</span>

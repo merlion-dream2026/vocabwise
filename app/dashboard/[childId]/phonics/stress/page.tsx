@@ -98,7 +98,7 @@ export default function WordStressPage() {
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
         <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-8 text-white">
-          <button onClick={() => router.push(`/dashboard/${childId}/phonics`)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
+          <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
           <h1 className="text-2xl font-black">📢 Trọng âm từ</h1>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 bg-teal-50">
@@ -107,7 +107,7 @@ export default function WordStressPage() {
           <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
           <div className="w-full max-w-sm space-y-3">
             <button onClick={restart} className="w-full bg-teal-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
-            <button onClick={() => router.push(`/dashboard/${childId}/phonics`)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Quay lại</button>
+            <button onClick={() => router.back()} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Quay lại</button>
           </div>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function WordStressPage() {
   if (!gameStarted) return (
     <div className="flex flex-col min-h-screen">
       <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-8 text-white">
-        <button onClick={() => router.push(`/dashboard/${childId}/phonics`)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
+        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
         <h1 className="text-2xl font-black">📢 Trọng âm từ</h1>
         <p className="text-white/80 text-sm mt-1">Nghe → tap âm tiết được nhấn mạnh</p>
       </div>
@@ -156,7 +156,7 @@ export default function WordStressPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-4 text-white">
-        <button onClick={() => router.push(`/dashboard/${childId}/phonics`)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← Phát âm</button>
+        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← Phát âm</button>
         <div className="flex items-center justify-between mb-3">
           <h1 className="text-xl font-black">📢 Trọng âm từ</h1>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>

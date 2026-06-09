@@ -103,7 +103,7 @@ export default function IPAChartPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 px-4 py-6">
       <div className="flex items-center gap-3 mb-5 max-w-lg mx-auto">
-        <button onClick={() => router.push(`/dashboard/${childId}/phonics`)} className="text-gray-400 text-2xl font-bold">←</button>
+        <button onClick={() => router.back()} className="text-gray-400 text-2xl font-bold">←</button>
         <div className="text-3xl">🗺️</div>
         <div>
           <h1 className="text-lg font-black text-gray-800">Bản đồ IPA</h1>

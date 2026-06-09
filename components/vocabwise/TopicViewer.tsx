@@ -107,7 +107,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   }
 
   const { meta, passage, glossary, exercises, answer_key } = data
-  const backUrl = `/vocabwise/${book}`
   const prevTotal = topicSync ? Object.values(topicSync.ex_scores).reduce((s, v) => s + v, 0) : 0
 
   if (exMode) {
@@ -130,7 +129,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     <div className="min-h-screen bg-white">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white">
-        <button onClick={() => router.push(backUrl)} className="text-blue-200 font-bold text-sm flex items-center gap-1 mb-3">
+        <button onClick={() => router.back()} className="text-blue-200 font-bold text-sm flex items-center gap-1 mb-3">
           ← {meta.theme_title}
         </button>
         <h1 className="text-xl font-black leading-tight">{meta.topic_title}</h1>

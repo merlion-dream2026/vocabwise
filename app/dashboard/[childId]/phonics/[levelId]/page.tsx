@@ -51,7 +51,7 @@ export default function LevelPage() {
     <div className="min-h-screen bg-gray-50 pb-10">
       {/* Header */}
       <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-12 pb-6 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
+        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
           ← Luyện Phát Âm
         </button>
         <div className="flex items-center gap-3 mb-4">

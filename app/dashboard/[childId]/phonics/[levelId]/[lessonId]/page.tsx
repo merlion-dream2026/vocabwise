@@ -84,7 +84,7 @@ export default function LessonPage() {
     <div className={`min-h-screen ${level.bg} pb-10`}>
       {/* Header */}
       <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-12 pb-6 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
+        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
           ← {level.titleVi}
         </button>
         <div className="flex items-center gap-3">

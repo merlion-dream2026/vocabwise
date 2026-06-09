@@ -177,7 +177,7 @@ export default function LevelTopicsPage() {
       {/* Header */}
       <div className={`${colors.header} text-white`}>
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(`/dashboard/${childId}`)} className="text-white/70 hover:text-white text-xl">←</button>
+          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
           <span className="text-2xl">{child!.emoji}</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">{child!.name}</h1>
