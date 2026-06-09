@@ -53,7 +53,7 @@ export default function KidsLevelPage() {
         <button onClick={() => router.back()} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <div className="text-4xl">{child!.emoji}</div>
         <div>
-          <h1 className="text-xl font-black text-gray-800 leading-tight">VocabWise Kids</h1>
+          <h1 className="text-xl font-black text-gray-800 leading-tight">VocabWise Daily</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn level · Pre-A1 → C2</p>
         </div>
       </div>

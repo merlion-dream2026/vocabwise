@@ -16,7 +16,7 @@ const SECTIONS = [
   },
   {
     emoji: '📚',
-    title: 'VocabWise Kids',
+    title: 'VocabWise Daily',
     badge: 'Trẻ em · 4–15 tuổi',
     badgeCls: 'bg-purple-100 text-purple-700',
     desc: '2.300+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
@@ -39,7 +39,7 @@ const SECTIONS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Kids — 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module học phát âm IPA là gì?',
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
-    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Kids: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic (sắp ra mắt): dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT (A1–C2).',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic (sắp ra mắt): dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT (A1–C2).',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',

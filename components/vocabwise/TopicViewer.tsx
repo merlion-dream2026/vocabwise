@@ -35,6 +35,15 @@ function renderPassage(text: string) {
   return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
 }
 
+function speakText(text: string) {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return
+  window.speechSynthesis.cancel()
+  const utt = new SpeechSynthesisUtterance(text)
+  utt.lang = 'en-US'
+  utt.rate = 0.85
+  window.speechSynthesis.speak(utt)
+}
+
 function getExerciseTypes(exercises: ExercisesData): string[] {
   return ['ex1', 'ex2', 'ex3', 'ex4', 'ex5']
     .map(p => {
@@ -190,7 +199,8 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             <p className="text-xs text-gray-400 text-center mb-4">{glossary.length} từ · Nhấn vào từ để xem chi tiết</p>
             <div className="space-y-3">
               {glossary.map(item => (
-                <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group">
+                <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
+                  onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speakText(item.word) }}>
                   <summary className="px-4 py-3 cursor-pointer list-none flex items-center gap-3">
                     <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-black text-xs flex items-center justify-center flex-shrink-0">
                       {item.id}
@@ -201,11 +211,27 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       <span className="text-gray-400 text-xs ml-2 italic">{item.pos}</span>
                     </div>
                     <span className="text-blue-600 font-bold text-sm">{item.meaning_vi.split(';')[0]}</span>
+                    <button
+                      onClick={e => { e.preventDefault(); speakText(item.word) }}
+                      className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
+                      aria-label={`Phát âm ${item.word}`}
+                    >
+                      🔊
+                    </button>
                     <span className="text-gray-300 font-bold group-open:rotate-180 transition-transform">▾</span>
                   </summary>
                   <div className="px-4 pb-4 pt-1 border-t border-gray-50 space-y-2">
                     <p className="text-gray-600 text-xs"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
-                    <p className="text-blue-700 text-xs font-bold italic">{item.example_en}</p>
+                    <div className="flex items-start gap-1">
+                      <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
+                      <button
+                        onClick={() => speakText(item.example_en)}
+                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
+                        aria-label="Phát âm câu ví dụ"
+                      >
+                        🔊
+                      </button>
+                    </div>
                     <p className="text-gray-500 text-xs italic">{item.example_vi}</p>
                     {item.word_family && Object.values(item.word_family).some(v => v) && (
                       <div className="flex flex-wrap gap-1.5 pt-1">

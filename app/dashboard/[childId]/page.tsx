@@ -180,7 +180,7 @@ export default function ChildRoadmap() {
         {/* Section 1: Luyện Phát Âm */}
         <PhonicsEntryCard childId={childId} syncByLevel={syncByLevel} />
 
-        {/* Section 2: VocabWise Kids */}
+        {/* Section 2: VocabWise Daily */}
         <button
           onClick={() => router.push(`/dashboard/${childId}/kids`)}
           className="w-full text-left bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
@@ -191,7 +191,7 @@ export default function ChildRoadmap() {
             </div>
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                <span className="font-black text-purple-700 text-base">VocabWise Kids</span>
+                <span className="font-black text-purple-700 text-base">VocabWise Daily</span>
                 <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">Pre-A1 → C2</span>
               </div>
               <p className="text-xs font-semibold text-purple-600">
