@@ -1,0 +1,632 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 8,
+    "topic_id": "b2-t08",
+    "topic_title": "Using Social Media",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 171,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 171,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Social media has changed the way people communicate and share information. Billions of people around the world use **platforms** such as Instagram, Facebook, and TikTok every day. Users create a **profile** — a personal page where they share information about themselves — and **upload** photos, videos, and text for others to see.",
+        "text_vi": "Mạng xã hội đã thay đổi cách mọi người giao tiếp và chia sẻ thông tin. Hàng tỷ người trên thế giới sử dụng các **nền tảng** như Instagram, Facebook và TikTok mỗi ngày. Người dùng tạo một **hồ sơ** — một trang cá nhân — và **tải lên** ảnh, video và văn bản để người khác xem."
+      },
+      {
+        "index": 2,
+        "text_en": "On social media, people can **post** messages, **comment** on what others have shared, and **like** things they enjoy. They can also **follow** other users to stay updated with their latest **content**. When a video or image becomes very popular very quickly, it is described as going **viral** — reaching a huge **audience** in a very short time.",
+        "text_vi": "Trên mạng xã hội, mọi người có thể **đăng** tin nhắn, **bình luận** về những gì người khác đã chia sẻ và **thích** những thứ họ yêu thích. Họ cũng có thể **theo dõi** người dùng khác để cập nhật **nội dung** mới nhất. Khi một video hoặc hình ảnh trở nên rất phổ biến rất nhanh, nó được mô tả là **lan truyền**."
+      },
+      {
+        "index": 3,
+        "text_en": "Successful social media **creators** work hard to produce **content** that **engages** their **audience**. They study which topics are **trending** — becoming popular at a particular moment — and create posts that fit those **trends**. Greater **exposure** means more people see their work, which can lead to new opportunities.",
+        "text_vi": "Các **nhà sáng tạo** nội dung mạng xã hội thành công làm việc chăm chỉ để tạo ra **nội dung** thu hút **đối tượng** của họ. Họ nghiên cứu chủ đề nào đang **thịnh hành** và tạo bài viết phù hợp với những **xu hướng** đó. **Mức độ tiếp cận** cao hơn có nghĩa là nhiều người xem tác phẩm của họ hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "However, social media also has risks. Spending too much time on these **platforms** can affect mental health and reduce the time people spend on real-world relationships. It is important to use social media wisely, choosing what to **follow** and what to **share** with care.",
+        "text_vi": "Tuy nhiên, mạng xã hội cũng có rủi ro. Dành quá nhiều thời gian trên các **nền tảng** này có thể ảnh hưởng đến sức khỏe tâm thần. Điều quan trọng là sử dụng mạng xã hội một cách khôn ngoan, chọn lọc những gì cần **theo dõi** và những gì cần **chia sẻ**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "post",
+      "ipa": "/pəʊst/",
+      "pos": "verb/noun",
+      "meaning_vi": "đăng (bài), bài đăng",
+      "meaning_vi_inline": "đăng",
+      "example_en": "She posted a photo on Instagram.",
+      "example_vi": "Cô ấy đăng một bức ảnh trên Instagram.",
+      "word_family": {
+        "noun": "post",
+        "verb": "post",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "share",
+      "ipa": "/ʃeər/",
+      "pos": "verb",
+      "meaning_vi": "chia sẻ (online)",
+      "meaning_vi_inline": "chia sẻ",
+      "example_en": "He shared the video with his friends.",
+      "example_vi": "Anh ấy chia sẻ video với bạn bè.",
+      "word_family": {
+        "noun": "sharing",
+        "verb": "share",
+        "adjective": "shared",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "comment",
+      "ipa": "/ˈkɒm.ənt/",
+      "pos": "noun/verb",
+      "meaning_vi": "bình luận",
+      "meaning_vi_inline": "bình luận",
+      "example_en": "She left a kind comment on his photo.",
+      "example_vi": "Cô ấy để lại một bình luận tốt đẹp trên ảnh của anh ấy.",
+      "word_family": {
+        "noun": "comment / commentary",
+        "verb": "comment",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "follow",
+      "ipa": "/ˈfɒl.əʊ/",
+      "pos": "verb",
+      "meaning_vi": "theo dõi (tài khoản)",
+      "meaning_vi_inline": "theo dõi",
+      "example_en": "I follow her account for cooking tips.",
+      "example_vi": "Tôi theo dõi tài khoản của cô ấy để xem mẹo nấu ăn.",
+      "word_family": {
+        "noun": "follower",
+        "verb": "follow",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "like",
+      "ipa": "/laɪk/",
+      "pos": "verb/noun",
+      "meaning_vi": "thích, lượt thích",
+      "meaning_vi_inline": "thích",
+      "example_en": "The post got 500 likes in one hour.",
+      "example_vi": "Bài đăng nhận được 500 lượt thích trong một giờ.",
+      "word_family": {
+        "noun": "like",
+        "verb": "like",
+        "adjective": "likeable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "profile",
+      "ipa": "/ˈprəʊ.faɪl/",
+      "pos": "noun",
+      "meaning_vi": "hồ sơ cá nhân",
+      "meaning_vi_inline": "hồ sơ",
+      "example_en": "Her profile has over one million followers.",
+      "example_vi": "Hồ sơ của cô ấy có hơn một triệu người theo dõi.",
+      "word_family": {
+        "noun": "profile",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "upload",
+      "ipa": "/ˌʌpˈləʊd/",
+      "pos": "verb",
+      "meaning_vi": "tải lên",
+      "meaning_vi_inline": "tải lên",
+      "example_en": "He uploaded a new video last night.",
+      "example_vi": "Anh ấy đã tải lên một video mới tối qua.",
+      "word_family": {
+        "noun": "upload",
+        "verb": "upload",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "download",
+        "explanation_vi": "'Upload' là tải lên; 'download' là tải xuống — ngược nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "viral",
+      "ipa": "/ˈvaɪ.rəl/",
+      "pos": "adjective",
+      "meaning_vi": "lan truyền (viral)",
+      "meaning_vi_inline": "viral",
+      "example_en": "The video went viral overnight.",
+      "example_vi": "Video đã lan truyền qua đêm.",
+      "word_family": {
+        "noun": "virus",
+        "verb": null,
+        "adjective": "viral",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "platform",
+      "ipa": "/ˈplæt.fɔːm/",
+      "pos": "noun",
+      "meaning_vi": "nền tảng (mạng xã hội)",
+      "meaning_vi_inline": "nền tảng",
+      "example_en": "TikTok is a popular social media platform.",
+      "example_vi": "TikTok là một nền tảng mạng xã hội phổ biến.",
+      "word_family": {
+        "noun": "platform",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "engage",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "pos": "verb",
+      "meaning_vi": "thu hút, tương tác",
+      "meaning_vi_inline": "thu hút",
+      "example_en": "Good content engages the audience.",
+      "example_vi": "Nội dung tốt thu hút đối tượng khán giả.",
+      "word_family": {
+        "noun": "engagement",
+        "verb": "engage",
+        "adjective": "engaging",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "exposure",
+      "ipa": "/ɪkˈspəʊ.ʒər/",
+      "pos": "noun",
+      "meaning_vi": "mức độ tiếp cận",
+      "meaning_vi_inline": "tiếp cận",
+      "example_en": "More exposure means more viewers.",
+      "example_vi": "Mức độ tiếp cận cao hơn có nghĩa là nhiều người xem hơn.",
+      "word_family": {
+        "noun": "exposure",
+        "verb": "expose",
+        "adjective": "exposed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "trend",
+      "ipa": "/trend/",
+      "pos": "noun/verb",
+      "meaning_vi": "xu hướng; đang thịnh hành",
+      "meaning_vi_inline": "xu hướng",
+      "example_en": "This style is trending on social media.",
+      "example_vi": "Phong cách này đang thịnh hành trên mạng xã hội.",
+      "word_family": {
+        "noun": "trend",
+        "verb": "trend",
+        "adjective": "trendy",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "audience",
+      "ipa": "/ˈɔː.di.əns/",
+      "pos": "noun",
+      "meaning_vi": "đối tượng khán giả",
+      "meaning_vi_inline": "khán giả",
+      "example_en": "She built a large online audience.",
+      "example_vi": "Cô ấy xây dựng được một lượng khán giả trực tuyến lớn.",
+      "word_family": {
+        "noun": "audience",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "content",
+      "ipa": "/ˈkɒn.tent/",
+      "pos": "noun",
+      "meaning_vi": "nội dung",
+      "meaning_vi_inline": "nội dung",
+      "example_en": "Good content keeps people interested.",
+      "example_vi": "Nội dung tốt giữ cho mọi người quan tâm.",
+      "word_family": {
+        "noun": "content",
+        "verb": null,
+        "adjective": "content (happy)",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "content (hài lòng)",
+        "explanation_vi": "'Content' (danh từ) = nội dung; 'content' (tính từ) = hài lòng — cùng cách viết, khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "creator",
+      "ipa": "/kriˈeɪ.tər/",
+      "pos": "noun",
+      "meaning_vi": "nhà sáng tạo nội dung",
+      "meaning_vi_inline": "nhà sáng tạo",
+      "example_en": "She is a popular content creator.",
+      "example_vi": "Cô ấy là một nhà sáng tạo nội dung nổi tiếng.",
+      "word_family": {
+        "noun": "creator / creation",
+        "verb": "create",
+        "adjective": "creative",
+        "adverb": "creatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Social media platforms allow users to upload photos and videos.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A video that goes viral reaches a large audience very quickly.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "Social media creators earn more money than traditional journalists.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Spending too much time on social media has no effect on mental health.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Users can follow other accounts to see their latest content.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The video went _____ after it was shared by a famous musician.",
+          "options": [
+            "trending",
+            "uploaded",
+            "viral",
+            "posted"
+          ],
+          "answer": "viral"
+        },
+        {
+          "id": 2,
+          "sentence": "She has a large _____ of young people who watch all her videos.",
+          "options": [
+            "content",
+            "platform",
+            "audience",
+            "profile"
+          ],
+          "answer": "audience"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ a new recipe video every week to keep his followers interested.",
+          "options": [
+            "follows",
+            "likes",
+            "uploads",
+            "comments"
+          ],
+          "answer": "uploads"
+        },
+        {
+          "id": 4,
+          "sentence": "The best social media _____ know how to make content that people want to share.",
+          "options": [
+            "profiles",
+            "trends",
+            "creators",
+            "platforms"
+          ],
+          "answer": "creators"
+        },
+        {
+          "id": 5,
+          "sentence": "Posting about popular _____ helps creators reach more people online.",
+          "options": [
+            "audiences",
+            "profiles",
+            "comments",
+            "trends"
+          ],
+          "answer": "trends"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "platform",
+        "engage",
+        "exposure",
+        "profile",
+        "post"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She set up her _____ with a photo and a short description of herself.",
+          "answer": "profile"
+        },
+        {
+          "id": 2,
+          "sentence": "The best way to _____ your audience is to ask questions and respond to comments.",
+          "answer": "engage"
+        },
+        {
+          "id": 3,
+          "sentence": "He decided to _____ a short video every day to grow his following.",
+          "answer": "post"
+        },
+        {
+          "id": 4,
+          "sentence": "More _____ on social media helped her small business attract new customers.",
+          "answer": "exposure"
+        },
+        {
+          "id": 5,
+          "sentence": "YouTube is the most popular _____ for long-form video content.",
+          "answer": "platform"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "video",
+            "went",
+            "viral",
+            "within",
+            "a",
+            "few",
+            "hours"
+          ],
+          "answer": "The video went viral within a few hours."
+        },
+        {
+          "id": 2,
+          "words": [
+            "content",
+            "creators",
+            "study",
+            "which",
+            "topics",
+            "are",
+            "trending"
+          ],
+          "answer": "Content creators study which topics are trending."
+        },
+        {
+          "id": 3,
+          "words": [
+            "engaging",
+            "content",
+            "built",
+            "her",
+            "a",
+            "large",
+            "audience"
+          ],
+          "answer": "Engaging content built her a large audience."
+        },
+        {
+          "id": 4,
+          "words": [
+            "she",
+            "uploads",
+            "new",
+            "photos",
+            "every",
+            "day"
+          ],
+          "answer": "She uploads new photos every day."
+        },
+        {
+          "id": 5,
+          "words": [
+            "it",
+            "is",
+            "important",
+            "to",
+            "use",
+            "social",
+            "media",
+            "wisely"
+          ],
+          "answer": "It is important to use social media wisely."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The video [went viral] after being [share] by a popular celebrity.",
+          "highlighted": "share",
+          "options": {
+            "A": "share",
+            "B": "shared",
+            "C": "sharing"
+          },
+          "answer": "B",
+          "explanation": "Past participle needed in passive: being shared."
+        },
+        {
+          "id": 2,
+          "sentence": "She has a large [audience's] who watch all her cooking videos every week.",
+          "highlighted": "audience's",
+          "options": {
+            "A": "audience's",
+            "B": "audience",
+            "C": "audiences"
+          },
+          "answer": "B",
+          "explanation": "No possessive needed — 'audience' is the subject here."
+        },
+        {
+          "id": 3,
+          "sentence": "He [upload] a new video every Friday to keep his followers [engage].",
+          "highlighted": "engage",
+          "options": {
+            "A": "engage",
+            "B": "engaged",
+            "C": "engaging"
+          },
+          "answer": "B",
+          "explanation": "Past participle used as adjective: keep his followers engaged."
+        },
+        {
+          "id": 4,
+          "sentence": "Good [content] always [engage] people and makes them want to share it.",
+          "highlighted": "engage",
+          "options": {
+            "A": "engage",
+            "B": "engages",
+            "C": "engaging"
+          },
+          "answer": "B",
+          "explanation": "Third person singular: content engages."
+        },
+        {
+          "id": 5,
+          "sentence": "More [expose] on social media helped her business reach more customers.",
+          "highlighted": "expose",
+          "options": {
+            "A": "expose",
+            "B": "exposure",
+            "C": "exposed"
+          },
+          "answer": "B",
+          "explanation": "'Exposure' is the noun form needed here."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "viral",
+      "2": "audience",
+      "3": "uploads",
+      "4": "creators",
+      "5": "trends"
+    },
+    "ex3": {
+      "1": "profile",
+      "2": "engage",
+      "3": "post",
+      "4": "exposure",
+      "5": "platform"
+    },
+    "ex4": {
+      "1": "The video went viral within a few hours.",
+      "2": "Content creators study which topics are trending.",
+      "3": "Engaging content built her a large audience.",
+      "4": "She uploads new photos every day.",
+      "5": "It is important to use social media wisely."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

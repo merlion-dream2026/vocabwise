@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 9,
+    "topic_id": "b2-t09",
+    "topic_title": "City Life & Country Life",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 177,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 177,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Around the world, more and more people are moving from the countryside to cities. This process, known as **urban** **migration**, is driven by the search for better **opportunities** — jobs, education, and **services** that are often easier to find in **urban** areas. Cities offer good **transport** links, hospitals, universities, and cultural attractions that many **rural** areas lack.",
+        "text_vi": "Trên khắp thế giới, ngày càng nhiều người di chuyển từ nông thôn lên thành phố. Quá trình này, được gọi là **di cư đô thị**, được thúc đẩy bởi việc tìm kiếm các **cơ hội** tốt hơn — việc làm, giáo dục và **dịch vụ** thường dễ tiếp cận hơn ở các khu vực **đô thị**."
+      },
+      {
+        "index": 2,
+        "text_en": "However, city life also has drawbacks. Large **populations** make cities **crowded** and expensive. Long **commutes** — journeys from home to work — can be tiring and stressful. Many people choose to live in the **suburbs** — quieter areas outside the city centre — to enjoy more space while still having **access** to city **services**.",
+        "text_vi": "Tuy nhiên, cuộc sống đô thị cũng có những hạn chế. **Dân số** đông làm cho các thành phố trở nên **đông đúc** và đắt đỏ. Những chuyến **đi lại** dài có thể gây mệt mỏi. Nhiều người chọn sống ở **vùng ngoại ô** để có thêm không gian trong khi vẫn có **quyền tiếp cận** các **dịch vụ** thành phố."
+      },
+      {
+        "index": 3,
+        "text_en": "In contrast, **rural** life offers a **peaceful** environment, clean air, and a strong sense of community. However, people in the countryside often face challenges such as limited **transport**, fewer job opportunities, and reduced **access** to healthcare and education. This creates a **gap** in quality of life between city and country dwellers.",
+        "text_vi": "Ngược lại, cuộc sống **nông thôn** mang lại môi trường **yên bình**, không khí trong lành và tình cảm cộng đồng gắn bó. Tuy nhiên, người ở nông thôn thường phải đối mặt với những thách thức như **giao thông** hạn chế và **tiếp cận** ít hơn. Điều này tạo ra một **khoảng cách** về chất lượng cuộc sống."
+      },
+      {
+        "index": 4,
+        "text_en": "**Poverty** can affect both city and **rural** populations, though it often looks different in each setting. Improving **transport** links and **services** in the countryside can give rural residents the same **lifestyle** choices as those in the city.",
+        "text_vi": "**Đói nghèo** có thể ảnh hưởng đến cả **dân số** thành thị và nông thôn. Cải thiện các liên kết **giao thông** và **dịch vụ** ở nông thôn có thể mang lại cho người dân nông thôn những lựa chọn **lối sống** giống như người ở thành phố."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "urban",
+      "ipa": "/ˈɜː.bən/",
+      "pos": "adjective",
+      "meaning_vi": "(thuộc) đô thị",
+      "meaning_vi_inline": "đô thị",
+      "example_en": "Urban areas have more job opportunities.",
+      "example_vi": "Khu vực đô thị có nhiều cơ hội việc làm hơn.",
+      "word_family": {
+        "noun": "urbanisation",
+        "verb": "urbanise",
+        "adjective": "urban",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "rural",
+      "ipa": "/ˈrʊər.əl/",
+      "pos": "adjective",
+      "meaning_vi": "(thuộc) nông thôn",
+      "meaning_vi_inline": "nông thôn",
+      "example_en": "Rural communities often lack services.",
+      "example_vi": "Cộng đồng nông thôn thường thiếu dịch vụ.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "rural",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "migration",
+      "ipa": "/maɪˈɡreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự di cư",
+      "meaning_vi_inline": "di cư",
+      "example_en": "Rural-urban migration is increasing globally.",
+      "example_vi": "Di cư từ nông thôn ra thành thị đang tăng lên toàn cầu.",
+      "word_family": {
+        "noun": "migration",
+        "verb": "migrate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "commute",
+      "ipa": "/kəˈmjuːt/",
+      "pos": "noun/verb",
+      "meaning_vi": "đi lại (đi làm hàng ngày)",
+      "meaning_vi_inline": "đi lại",
+      "example_en": "His commute takes over an hour each day.",
+      "example_vi": "Hành trình đi làm của anh ấy mất hơn một giờ mỗi ngày.",
+      "word_family": {
+        "noun": "commute / commuter",
+        "verb": "commute",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "suburb",
+      "ipa": "/ˈsʌb.ɜːb/",
+      "pos": "noun",
+      "meaning_vi": "vùng ngoại ô",
+      "meaning_vi_inline": "ngoại ô",
+      "example_en": "They moved to the suburbs for more space.",
+      "example_vi": "Họ chuyển đến vùng ngoại ô để có thêm không gian.",
+      "word_family": {
+        "noun": "suburb",
+        "verb": null,
+        "adjective": "suburban",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "poverty",
+      "ipa": "/ˈpɒv.ə.ti/",
+      "pos": "noun",
+      "meaning_vi": "đói nghèo",
+      "meaning_vi_inline": "nghèo",
+      "example_en": "Poverty affects both cities and villages.",
+      "example_vi": "Đói nghèo ảnh hưởng đến cả thành phố lẫn làng quê.",
+      "word_family": {
+        "noun": "poverty",
+        "verb": null,
+        "adjective": "poor / impoverished",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "access",
+      "ipa": "/ˈæk.ses/",
+      "pos": "noun",
+      "meaning_vi": "quyền tiếp cận, khả năng sử dụng",
+      "meaning_vi_inline": "tiếp cận",
+      "example_en": "Rural areas have limited access to healthcare.",
+      "example_vi": "Khu vực nông thôn có quyền tiếp cận y tế hạn chế.",
+      "word_family": {
+        "noun": "access",
+        "verb": "access",
+        "adjective": "accessible",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "gap",
+      "ipa": "/ɡæp/",
+      "pos": "noun",
+      "meaning_vi": "khoảng cách (chênh lệch)",
+      "meaning_vi_inline": "khoảng cách",
+      "example_en": "The gap between rich and poor is growing.",
+      "example_vi": "Khoảng cách giữa người giàu và người nghèo ngày càng tăng.",
+      "word_family": {
+        "noun": "gap",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "service",
+      "ipa": "/ˈsɜː.vɪs/",
+      "pos": "noun",
+      "meaning_vi": "dịch vụ (công cộng)",
+      "meaning_vi_inline": "dịch vụ",
+      "example_en": "Public services include schools and hospitals.",
+      "example_vi": "Dịch vụ công bao gồm trường học và bệnh viện.",
+      "word_family": {
+        "noun": "service",
+        "verb": "serve",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "population",
+      "ipa": "/ˌpɒp.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "dân số",
+      "meaning_vi_inline": "dân số",
+      "example_en": "The city's population has grown rapidly.",
+      "example_vi": "Dân số thành phố đã tăng trưởng nhanh chóng.",
+      "word_family": {
+        "noun": "population",
+        "verb": null,
+        "adjective": "populous",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "crowded",
+      "ipa": "/ˈkraʊ.dɪd/",
+      "pos": "adjective",
+      "meaning_vi": "đông đúc",
+      "meaning_vi_inline": "đông đúc",
+      "example_en": "The streets are crowded during rush hour.",
+      "example_vi": "Các con phố đông đúc vào giờ cao điểm.",
+      "word_family": {
+        "noun": "crowd",
+        "verb": null,
+        "adjective": "crowded / overcrowded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "peaceful",
+      "ipa": "/ˈpiːs.fəl/",
+      "pos": "adjective",
+      "meaning_vi": "yên bình",
+      "meaning_vi_inline": "yên bình",
+      "example_en": "The countryside is much more peaceful.",
+      "example_vi": "Vùng nông thôn yên bình hơn nhiều.",
+      "word_family": {
+        "noun": "peace",
+        "verb": null,
+        "adjective": "peaceful",
+        "adverb": "peacefully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "opportunity",
+      "ipa": "/ˌɒp.əˈtjuː.nɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "cơ hội",
+      "meaning_vi_inline": "cơ hội",
+      "example_en": "Cities offer more job opportunities.",
+      "example_vi": "Các thành phố cung cấp nhiều cơ hội việc làm hơn.",
+      "word_family": {
+        "noun": "opportunity",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "transport",
+      "ipa": "/ˈtræns.pɔːt/",
+      "pos": "noun",
+      "meaning_vi": "giao thông, vận tải",
+      "meaning_vi_inline": "giao thông",
+      "example_en": "Good transport links are essential.",
+      "example_vi": "Các kết nối giao thông tốt là rất cần thiết.",
+      "word_family": {
+        "noun": "transport / transportation",
+        "verb": "transport",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "lifestyle",
+      "ipa": "/ˈlaɪf.staɪl/",
+      "pos": "noun",
+      "meaning_vi": "lối sống",
+      "meaning_vi_inline": "lối sống",
+      "example_en": "City and rural lifestyles are very different.",
+      "example_vi": "Lối sống thành thị và nông thôn rất khác nhau.",
+      "word_family": {
+        "noun": "lifestyle",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Urban migration is driven by the search for better opportunities.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Living in the suburbs means having no access to city services.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Rural areas always have better air quality than cities.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A long commute can cause stress and tiredness.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Poverty only affects people who live in rural areas.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She moved to the _____ to have a bigger house and garden while still near the city.",
+          "options": [
+            "rural area",
+            "suburbs",
+            "population",
+            "gap"
+          ],
+          "answer": "suburbs"
+        },
+        {
+          "id": 2,
+          "sentence": "People in _____ areas often struggle to get good healthcare and education.",
+          "options": [
+            "urban",
+            "crowded",
+            "rural",
+            "suburban"
+          ],
+          "answer": "rural"
+        },
+        {
+          "id": 3,
+          "sentence": "The city centre is very _____ at weekends — it is hard to walk on the streets.",
+          "options": [
+            "peaceful",
+            "rural",
+            "crowded",
+            "suburban"
+          ],
+          "answer": "crowded"
+        },
+        {
+          "id": 4,
+          "sentence": "There is a growing _____ between the quality of life in cities and the countryside.",
+          "options": [
+            "lifestyle",
+            "transport",
+            "gap",
+            "service"
+          ],
+          "answer": "gap"
+        },
+        {
+          "id": 5,
+          "sentence": "Better _____ links would help rural residents travel to cities for work and education.",
+          "options": [
+            "gap",
+            "access",
+            "population",
+            "transport"
+          ],
+          "answer": "transport"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "migration",
+        "opportunity",
+        "poverty",
+        "access",
+        "population"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The city has a _____ of over ten million people.",
+          "answer": "population"
+        },
+        {
+          "id": 2,
+          "sentence": "Moving to the city gave her the _____ to study at a top university.",
+          "answer": "opportunity"
+        },
+        {
+          "id": 3,
+          "sentence": "Many people suffer from _____ because they cannot find well-paid work.",
+          "answer": "poverty"
+        },
+        {
+          "id": 4,
+          "sentence": "Rural areas often have limited _____ to good hospitals and schools.",
+          "answer": "access"
+        },
+        {
+          "id": 5,
+          "sentence": "Urban _____ is increasing as more people leave the countryside for cities.",
+          "answer": "migration"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "gap",
+            "between",
+            "urban",
+            "and",
+            "rural",
+            "areas",
+            "is",
+            "growing"
+          ],
+          "answer": "The gap between urban and rural areas is growing."
+        },
+        {
+          "id": 2,
+          "words": [
+            "her",
+            "commute",
+            "takes",
+            "two",
+            "hours",
+            "every",
+            "day"
+          ],
+          "answer": "Her commute takes two hours every day."
+        },
+        {
+          "id": 3,
+          "words": [
+            "they",
+            "moved",
+            "to",
+            "the",
+            "suburbs",
+            "for",
+            "more",
+            "space"
+          ],
+          "answer": "They moved to the suburbs for more space."
+        },
+        {
+          "id": 4,
+          "words": [
+            "rural",
+            "areas",
+            "have",
+            "limited",
+            "access",
+            "to",
+            "healthcare"
+          ],
+          "answer": "Rural areas have limited access to healthcare."
+        },
+        {
+          "id": 5,
+          "words": [
+            "rural",
+            "life",
+            "offers",
+            "a",
+            "peaceful",
+            "environment"
+          ],
+          "answer": "Rural life offers a peaceful environment."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She moved to the [suburb] to find more space for her growing family.",
+          "highlighted": "suburb",
+          "options": {
+            "A": "suburb",
+            "B": "suburbs",
+            "C": "suburban"
+          },
+          "answer": "B",
+          "explanation": "Plural used naturally: moved to the suburbs."
+        },
+        {
+          "id": 2,
+          "sentence": "The city's [populate] has grown by 20% in the last ten years.",
+          "highlighted": "populate",
+          "options": {
+            "A": "populate",
+            "B": "population",
+            "C": "populated"
+          },
+          "answer": "B",
+          "explanation": "'Population' is the noun form."
+        },
+        {
+          "id": 3,
+          "sentence": "People in rural areas often have [limit] access to good public transport.",
+          "highlighted": "limit",
+          "options": {
+            "A": "limit",
+            "B": "limited",
+            "C": "limiting"
+          },
+          "answer": "B",
+          "explanation": "Adjective form needed: limited access."
+        },
+        {
+          "id": 4,
+          "sentence": "His daily [commute] to the city [take] over ninety minutes each way.",
+          "highlighted": "take",
+          "options": {
+            "A": "take",
+            "B": "takes",
+            "C": "taking"
+          },
+          "answer": "B",
+          "explanation": "Third person singular: his commute takes."
+        },
+        {
+          "id": 5,
+          "sentence": "The gap between [urban] and [rural] lifestyle is [grow] every year.",
+          "highlighted": "grow",
+          "options": {
+            "A": "grow",
+            "B": "growing",
+            "C": "grown"
+          },
+          "answer": "B",
+          "explanation": "Present continuous form needed: is growing."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "suburbs",
+      "2": "rural",
+      "3": "crowded",
+      "4": "gap",
+      "5": "transport"
+    },
+    "ex3": {
+      "1": "population",
+      "2": "opportunity",
+      "3": "poverty",
+      "4": "access",
+      "5": "migration"
+    },
+    "ex4": {
+      "1": "The gap between urban and rural areas is growing.",
+      "2": "Her commute takes two hours every day.",
+      "3": "They moved to the suburbs for more space.",
+      "4": "Rural areas have limited access to healthcare.",
+      "5": "Rural life offers a peaceful environment."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

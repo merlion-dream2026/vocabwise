@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 3,
+    "topic_id": "b2-t03",
+    "topic_title": "Health & Medicine",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 178,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Good health is something most people take for granted until they become ill. When a person feels unwell, they usually visit a **clinic** or doctor's surgery to describe their **symptoms**. After a physical examination, the doctor makes a **diagnosis** — a decision about what is wrong. For simple illnesses, the doctor may write a **prescription** for medicine. For more serious **conditions**, the **patient** may be **referred** to a **specialist**.",
+        "text_vi": "Sức khỏe tốt là điều mà hầu hết mọi người coi là hiển nhiên cho đến khi họ bị ốm. Khi cảm thấy không khỏe, người ta thường đến **phòng khám** hoặc phòng mạch bác sĩ để mô tả các **triệu chứng**. Sau khi khám, bác sĩ đưa ra **chẩn đoán** — quyết định về bệnh tình. Với các bệnh nhẹ, bác sĩ có thể kê **đơn thuốc**. Với các **tình trạng** nghiêm trọng hơn, **bệnh nhân** có thể được **chuyển** đến **bác sĩ chuyên khoa**."
+      },
+      {
+        "index": 2,
+        "text_en": "Some health problems are **chronic**, meaning they last for a long time or come back regularly. **Disorders** such as diabetes or asthma require ongoing **treatment** rather than a single cure. Managing a **chronic** condition well often leads to a full **recovery** and a better quality of life.",
+        "text_vi": "Một số vấn đề sức khỏe mang tính **mãn tính**, nghĩa là kéo dài hoặc tái phát thường xuyên. Các **rối loạn** như tiểu đường hay hen suyễn cần **điều trị** lâu dài thay vì chữa khỏi một lần. Quản lý tốt một **tình trạng mãn tính** thường dẫn đến **hồi phục** hoàn toàn."
+      },
+      {
+        "index": 3,
+        "text_en": "**Prevention** is always better than cure. **Vaccination** is one of the most effective ways to protect people from serious diseases by building **immunity** in the body. Regular exercise, a balanced diet, and routine health checks also play a key role in keeping people healthy.",
+        "text_vi": "**Phòng ngừa** luôn tốt hơn chữa bệnh. **Tiêm chủng** là một trong những cách hiệu quả nhất để bảo vệ con người khỏi các bệnh nguy hiểm bằng cách xây dựng **miễn dịch** trong cơ thể. Tập thể dục thường xuyên, chế độ ăn cân bằng và kiểm tra sức khỏe định kỳ cũng đóng vai trò quan trọng."
+      },
+      {
+        "index": 4,
+        "text_en": "Modern medicine continues to improve. New forms of **treatment**, better medicines, and advanced technology mean that many illnesses which were once dangerous can now be managed effectively. The goal of healthcare is not just to cure illness but to support the long-term wellbeing of every **patient**.",
+        "text_vi": "Y học hiện đại tiếp tục phát triển. Các hình thức **điều trị** mới, thuốc tốt hơn và công nghệ tiên tiến có nghĩa là nhiều bệnh từng nguy hiểm nay có thể được kiểm soát hiệu quả. Mục tiêu của y tế không chỉ là chữa bệnh mà còn hỗ trợ sức khỏe lâu dài cho mọi **bệnh nhân**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "diagnosis",
+      "ipa": "/ˌdaɪ.əɡˈnəʊ.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "chẩn đoán",
+      "meaning_vi_inline": "chẩn đoán",
+      "example_en": "The diagnosis was diabetes.",
+      "example_vi": "Chẩn đoán là bệnh tiểu đường.",
+      "word_family": {
+        "noun": "diagnosis",
+        "verb": "diagnose",
+        "adjective": "diagnostic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "vaccination",
+      "ipa": "/ˌvæk.sɪˈneɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tiêm chủng",
+      "meaning_vi_inline": "tiêm chủng",
+      "example_en": "Vaccination protects against disease.",
+      "example_vi": "Tiêm chủng bảo vệ chống lại bệnh tật.",
+      "word_family": {
+        "noun": "vaccination",
+        "verb": "vaccinate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "chronic",
+      "ipa": "/ˈkrɒn.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "mãn tính",
+      "meaning_vi_inline": "mãn tính",
+      "example_en": "He has a chronic back condition.",
+      "example_vi": "Anh ấy có tình trạng lưng mãn tính.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "chronic",
+        "adverb": "chronically"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "symptom",
+      "ipa": "/ˈsɪmp.təm/",
+      "pos": "noun",
+      "meaning_vi": "triệu chứng",
+      "meaning_vi_inline": "triệu chứng",
+      "example_en": "Fever is a common symptom of flu.",
+      "example_vi": "Sốt là triệu chứng phổ biến của cúm.",
+      "word_family": {
+        "noun": "symptom",
+        "verb": null,
+        "adjective": "symptomatic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "prevention",
+      "ipa": "/prɪˈven.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "phòng ngừa",
+      "meaning_vi_inline": "phòng ngừa",
+      "example_en": "Prevention is better than cure.",
+      "example_vi": "Phòng bệnh hơn chữa bệnh.",
+      "word_family": {
+        "noun": "prevention",
+        "verb": "prevent",
+        "adjective": "preventable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "treatment",
+      "ipa": "/ˈtriːt.mənt/",
+      "pos": "noun",
+      "meaning_vi": "điều trị",
+      "meaning_vi_inline": "điều trị",
+      "example_en": "The treatment lasted six weeks.",
+      "example_vi": "Quá trình điều trị kéo dài sáu tuần.",
+      "word_family": {
+        "noun": "treatment",
+        "verb": "treat",
+        "adjective": "treatable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "prescription",
+      "ipa": "/prɪˈskrɪp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "đơn thuốc",
+      "meaning_vi_inline": "đơn thuốc",
+      "example_en": "The doctor gave her a prescription.",
+      "example_vi": "Bác sĩ cho cô ấy một đơn thuốc.",
+      "word_family": {
+        "noun": "prescription",
+        "verb": "prescribe",
+        "adjective": "prescribed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "immunity",
+      "ipa": "/ɪˈmjuː.nɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "miễn dịch",
+      "meaning_vi_inline": "miễn dịch",
+      "example_en": "Vaccines build immunity to disease.",
+      "example_vi": "Vắc-xin xây dựng miễn dịch với bệnh tật.",
+      "word_family": {
+        "noun": "immunity",
+        "verb": "immunise",
+        "adjective": "immune",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "disorder",
+      "ipa": "/dɪˈsɔː.dər/",
+      "pos": "noun",
+      "meaning_vi": "rối loạn (sức khỏe)",
+      "meaning_vi_inline": "rối loạn",
+      "example_en": "Anxiety is a common mental disorder.",
+      "example_vi": "Lo âu là một chứng rối loạn tâm thần phổ biến.",
+      "word_family": {
+        "noun": "disorder",
+        "verb": null,
+        "adjective": "disordered",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "specialist",
+      "ipa": "/ˈspeʃ.ə.lɪst/",
+      "pos": "noun",
+      "meaning_vi": "bác sĩ chuyên khoa",
+      "meaning_vi_inline": "chuyên khoa",
+      "example_en": "She was sent to a heart specialist.",
+      "example_vi": "Cô ấy được chuyển đến bác sĩ tim mạch.",
+      "word_family": {
+        "noun": "specialist",
+        "verb": "specialise",
+        "adjective": "specialist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "recovery",
+      "ipa": "/rɪˈkʌv.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "sự hồi phục",
+      "meaning_vi_inline": "hồi phục",
+      "example_en": "His recovery was slow but complete.",
+      "example_vi": "Sự hồi phục của anh ấy chậm nhưng hoàn toàn.",
+      "word_family": {
+        "noun": "recovery",
+        "verb": "recover",
+        "adjective": "recoverable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "patient",
+      "ipa": "/ˈpeɪ.ʃənt/",
+      "pos": "noun",
+      "meaning_vi": "bệnh nhân",
+      "meaning_vi_inline": "bệnh nhân",
+      "example_en": "The patient waited for the doctor.",
+      "example_vi": "Bệnh nhân chờ bác sĩ.",
+      "word_family": {
+        "noun": "patient",
+        "verb": null,
+        "adjective": "patient",
+        "adverb": "patiently"
+      },
+      "false_friend": {
+        "word_vi": "patient (adj)",
+        "explanation_vi": "'Patient' vừa là danh từ (bệnh nhân) vừa là tính từ (kiên nhẫn) — cùng cách viết, khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "condition",
+      "ipa": "/kənˈdɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "tình trạng (sức khỏe)",
+      "meaning_vi_inline": "tình trạng",
+      "example_en": "She has a serious heart condition.",
+      "example_vi": "Cô ấy có tình trạng tim nghiêm trọng.",
+      "word_family": {
+        "noun": "condition",
+        "verb": null,
+        "adjective": "conditional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "refer",
+      "ipa": "/rɪˈfɜːr/",
+      "pos": "verb",
+      "meaning_vi": "chuyển (đến bác sĩ khác)",
+      "meaning_vi_inline": "chuyển",
+      "example_en": "The GP referred her to a specialist.",
+      "example_vi": "Bác sĩ đa khoa chuyển cô ấy đến chuyên khoa.",
+      "word_family": {
+        "noun": "referral",
+        "verb": "refer",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "clinic",
+      "ipa": "/ˈklɪn.ɪk/",
+      "pos": "noun",
+      "meaning_vi": "phòng khám",
+      "meaning_vi_inline": "phòng khám",
+      "example_en": "She went to the clinic near her house.",
+      "example_vi": "Cô ấy đến phòng khám gần nhà.",
+      "word_family": {
+        "noun": "clinic",
+        "verb": null,
+        "adjective": "clinical",
+        "adverb": "clinically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "People with chronic conditions need long-term treatment.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Vaccination works by building immunity in the body.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "Specialists are always more expensive than general doctors.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A prescription is written by the patient.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Modern medicine has made some dangerous diseases easier to manage.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The doctor wrote a _____ for antibiotics after examining the patient.",
+          "options": [
+            "diagnosis",
+            "disorder",
+            "prescription",
+            "recovery"
+          ],
+          "answer": "prescription"
+        },
+        {
+          "id": 2,
+          "sentence": "Asthma is a _____ condition that affects breathing over a long period of time.",
+          "options": [
+            "specialist",
+            "chronic",
+            "referred",
+            "vaccinated"
+          ],
+          "answer": "chronic"
+        },
+        {
+          "id": 3,
+          "sentence": "After six weeks of rest and medication, her _____ was complete.",
+          "options": [
+            "symptom",
+            "prescription",
+            "immunity",
+            "recovery"
+          ],
+          "answer": "recovery"
+        },
+        {
+          "id": 4,
+          "sentence": "The general doctor could not help, so he _____ her to a heart specialist.",
+          "options": [
+            "diagnosed",
+            "treated",
+            "referred",
+            "prescribed"
+          ],
+          "answer": "referred"
+        },
+        {
+          "id": 5,
+          "sentence": "Headache, fever, and tiredness are common _____ of the flu.",
+          "options": [
+            "disorders",
+            "clinics",
+            "symptoms",
+            "treatments"
+          ],
+          "answer": "symptoms"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "specialist",
+        "clinic",
+        "immunity",
+        "prevention",
+        "condition"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He visits the local _____ every month for a check-up.",
+          "answer": "clinic"
+        },
+        {
+          "id": 2,
+          "sentence": "A broken leg is a painful _____ that needs rest and care.",
+          "answer": "condition"
+        },
+        {
+          "id": 3,
+          "sentence": "After the vaccination, her body built strong _____ to the virus.",
+          "answer": "immunity"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ of disease is always better than finding a cure.",
+          "answer": "prevention"
+        },
+        {
+          "id": 5,
+          "sentence": "The doctor sent her to see a _____ for her heart problems.",
+          "answer": "specialist"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "wrote",
+            "the",
+            "a",
+            "doctor",
+            "prescription",
+            "patient",
+            "for",
+            "the"
+          ],
+          "answer": "The doctor wrote a prescription for the patient."
+        },
+        {
+          "id": 2,
+          "words": [
+            "builds",
+            "vaccination",
+            "body",
+            "immunity",
+            "the",
+            "in"
+          ],
+          "answer": "Vaccination builds immunity in the body."
+        },
+        {
+          "id": 3,
+          "words": [
+            "was",
+            "she",
+            "specialist",
+            "to",
+            "referred",
+            "a",
+            "by",
+            "doctor",
+            "her"
+          ],
+          "answer": "She was referred to a specialist by her doctor."
+        },
+        {
+          "id": 4,
+          "words": [
+            "chronic",
+            "conditions",
+            "long-term",
+            "require",
+            "treatment"
+          ],
+          "answer": "Chronic conditions require long-term treatment."
+        },
+        {
+          "id": 5,
+          "words": [
+            "his",
+            "complete",
+            "recovery",
+            "was",
+            "after",
+            "weeks",
+            "six"
+          ],
+          "answer": "His recovery was complete after six weeks."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The doctor made a [diagnose] after examining the patient carefully.",
+          "highlighted": "diagnose",
+          "options": {
+            "A": "diagnose",
+            "B": "diagnosis",
+            "C": "diagnostic"
+          },
+          "answer": "B",
+          "explanation": "'Diagnosis' is the noun form needed after 'made'."
+        },
+        {
+          "id": 2,
+          "sentence": "She has a [chronical] back problem that causes pain every day.",
+          "highlighted": "chronical",
+          "options": {
+            "A": "chronical",
+            "B": "chronic",
+            "C": "chronicle"
+          },
+          "answer": "B",
+          "explanation": "The correct adjective is 'chronic', not 'chronical'."
+        },
+        {
+          "id": 3,
+          "sentence": "He was [referred] to see a [specialise] at the city hospital.",
+          "highlighted": "specialise",
+          "options": {
+            "A": "specialise",
+            "B": "specialist",
+            "C": "special"
+          },
+          "answer": "B",
+          "explanation": "'Specialist' is the noun — a person with expertise."
+        },
+        {
+          "id": 4,
+          "sentence": "[Prevent] is always better than finding a cure for illness.",
+          "highlighted": "Prevent",
+          "options": {
+            "A": "Prevent",
+            "B": "Prevention",
+            "C": "Preventable"
+          },
+          "answer": "B",
+          "explanation": "The noun form 'Prevention' is needed as the subject."
+        },
+        {
+          "id": 5,
+          "sentence": "The [patient's] recovery was slow, but she is now fully [health].",
+          "highlighted": "health",
+          "options": {
+            "A": "health",
+            "B": "healthy",
+            "C": "healthily"
+          },
+          "answer": "B",
+          "explanation": "'Healthy' is the adjective needed to describe her condition."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "prescription",
+      "2": "chronic",
+      "3": "recovery",
+      "4": "referred",
+      "5": "symptoms"
+    },
+    "ex3": {
+      "1": "clinic",
+      "2": "condition",
+      "3": "immunity",
+      "4": "prevention",
+      "5": "specialist"
+    },
+    "ex4": {
+      "1": "The doctor wrote a prescription for the patient.",
+      "2": "Vaccination builds immunity in the body.",
+      "3": "She was referred to a specialist by her doctor.",
+      "4": "Chronic conditions require long-term treatment.",
+      "5": "His recovery was complete after six weeks."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

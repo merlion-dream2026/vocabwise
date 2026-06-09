@@ -1,0 +1,633 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 6,
+    "topic_id": "b2-t06",
+    "topic_title": "Religion & Culture",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 174,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 174,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Religion and culture shape the way people live, think, and see the world. For billions of people, **faith** is at the heart of daily life. They **worship** in churches, mosques, temples, or homes, following **rituals** that have been passed down for generations. These **sacred** practices connect people to something greater than themselves and form a key part of their **identity**.",
+        "text_vi": "Tôn giáo và văn hóa định hình cách con người sống, suy nghĩ và nhìn nhận thế giới. Đối với hàng tỷ người, **đức tin** là trung tâm của cuộc sống hàng ngày. Họ **cầu nguyện** trong nhà thờ, thánh đường, đền chùa hoặc tại nhà, theo các **nghi lễ** đã được truyền lại qua nhiều thế hệ. Những thực hành **thiêng liêng** này tạo thành một phần quan trọng trong **bản sắc** của họ."
+      },
+      {
+        "index": 2,
+        "text_en": "Every society has its own **customs** — traditional ways of behaving at important events such as weddings, funerals, or harvest festivals. These **customs** reflect the **heritage** of a community — the values, traditions, and history shared by its people. As cultures meet and mix, **customs** often **spread** and change, creating new forms of shared **belief**.",
+        "text_vi": "Mỗi xã hội có **phong tục** riêng — những cách hành xử truyền thống trong các sự kiện quan trọng. Những **phong tục** này phản ánh **di sản** của cộng đồng. Khi các nền văn hóa gặp gỡ và pha trộn, **phong tục** thường **lan rộng** và thay đổi, tạo ra những hình thức **niềm tin** chung mới."
+      },
+      {
+        "index": 3,
+        "text_en": "Modern societies are often **diverse**, meaning they include people of many different backgrounds, religions, and **beliefs**. **Tolerance** — accepting and respecting people who are different — is essential for peaceful living. Many countries try to balance **spiritual** freedom with **secular** values, ensuring that religious and non-religious people can live together equally.",
+        "text_vi": "Các xã hội hiện đại thường **đa dạng**, bao gồm những người có nhiều nền tảng, tôn giáo và **niềm tin** khác nhau. **Sự khoan dung** — chấp nhận và tôn trọng những người khác mình — là điều cần thiết để sống hòa bình. Nhiều quốc gia cố gắng cân bằng tự do **tâm linh** với các giá trị **thế tục**."
+      },
+      {
+        "index": 4,
+        "text_en": "**Minority** religious communities sometimes face challenges in **practising** their **faith** in **secular** societies. Protecting **diversity** and **tolerance** is therefore an important cultural and political goal for governments around the world.",
+        "text_vi": "Các cộng đồng tôn giáo **thiểu số** đôi khi gặp thách thức trong việc **thực hành** **đức tin** của mình trong các xã hội **thế tục**. Do đó, bảo vệ **sự đa dạng** và **sự khoan dung** là mục tiêu quan trọng của các chính phủ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "ritual",
+      "ipa": "/ˈrɪtʃ.u.əl/",
+      "pos": "noun",
+      "meaning_vi": "nghi lễ",
+      "meaning_vi_inline": "nghi lễ",
+      "example_en": "The wedding ritual lasted two hours.",
+      "example_vi": "Nghi lễ đám cưới kéo dài hai giờ.",
+      "word_family": {
+        "noun": "ritual",
+        "verb": null,
+        "adjective": "ritualistic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "sacred",
+      "ipa": "/ˈseɪ.krɪd/",
+      "pos": "adjective",
+      "meaning_vi": "thiêng liêng",
+      "meaning_vi_inline": "thiêng liêng",
+      "example_en": "The temple is a sacred place.",
+      "example_vi": "Ngôi đền là một nơi thiêng liêng.",
+      "word_family": {
+        "noun": "sacredness",
+        "verb": null,
+        "adjective": "sacred",
+        "adverb": "sacredly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "worship",
+      "ipa": "/ˈwɜː.ʃɪp/",
+      "pos": "verb/noun",
+      "meaning_vi": "thờ phụng, cầu nguyện",
+      "meaning_vi_inline": "cầu nguyện",
+      "example_en": "They worship every Friday.",
+      "example_vi": "Họ cầu nguyện vào mỗi thứ Sáu.",
+      "word_family": {
+        "noun": "worship",
+        "verb": "worship",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "heritage",
+      "ipa": "/ˈher.ɪ.tɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "di sản",
+      "meaning_vi_inline": "di sản",
+      "example_en": "Vietnam has a rich cultural heritage.",
+      "example_vi": "Việt Nam có di sản văn hóa phong phú.",
+      "word_family": {
+        "noun": "heritage",
+        "verb": "inherit",
+        "adjective": "inherited",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "identity",
+      "ipa": "/aɪˈden.tɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bản sắc, danh tính",
+      "meaning_vi_inline": "bản sắc",
+      "example_en": "Language is part of our identity.",
+      "example_vi": "Ngôn ngữ là một phần bản sắc của chúng ta.",
+      "word_family": {
+        "noun": "identity",
+        "verb": "identify",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "diversity",
+      "ipa": "/daɪˈvɜː.sɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự đa dạng",
+      "meaning_vi_inline": "đa dạng",
+      "example_en": "The city celebrates its diversity.",
+      "example_vi": "Thành phố tôn vinh sự đa dạng của mình.",
+      "word_family": {
+        "noun": "diversity",
+        "verb": "diversify",
+        "adjective": "diverse",
+        "adverb": "diversely"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "tolerance",
+      "ipa": "/ˈtɒl.ər.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự khoan dung",
+      "meaning_vi_inline": "khoan dung",
+      "example_en": "Tolerance is essential in multicultural societies.",
+      "example_vi": "Sự khoan dung là thiết yếu trong xã hội đa văn hóa.",
+      "word_family": {
+        "noun": "tolerance",
+        "verb": "tolerate",
+        "adjective": "tolerant",
+        "adverb": "tolerantly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "secular",
+      "ipa": "/ˈsek.jʊ.lər/",
+      "pos": "adjective",
+      "meaning_vi": "thế tục, phi tôn giáo",
+      "meaning_vi_inline": "thế tục",
+      "example_en": "France has a secular government.",
+      "example_vi": "Pháp có chính phủ thế tục.",
+      "word_family": {
+        "noun": "secularism",
+        "verb": null,
+        "adjective": "secular",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "belief",
+      "ipa": "/bɪˈliːf/",
+      "pos": "noun",
+      "meaning_vi": "niềm tin, tín ngưỡng",
+      "meaning_vi_inline": "niềm tin",
+      "example_en": "Religious belief shapes daily life.",
+      "example_vi": "Niềm tin tôn giáo định hình cuộc sống hàng ngày.",
+      "word_family": {
+        "noun": "belief",
+        "verb": "believe",
+        "adjective": "believable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "custom",
+      "ipa": "/ˈkʌs.təm/",
+      "pos": "noun",
+      "meaning_vi": "phong tục, tập quán",
+      "meaning_vi_inline": "phong tục",
+      "example_en": "It is a custom to bow when greeting.",
+      "example_vi": "Cúi đầu khi chào là một phong tục.",
+      "word_family": {
+        "noun": "custom",
+        "verb": null,
+        "adjective": "customary",
+        "adverb": "customarily"
+      },
+      "false_friend": {
+        "word_vi": "costume",
+        "explanation_vi": "'Custom' là phong tục; 'costume' là trang phục — không nhầm lẫn."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "spiritual",
+      "ipa": "/ˈspɪr.ɪ.tʃu.əl/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về tâm linh",
+      "meaning_vi_inline": "tâm linh",
+      "example_en": "Many people have a spiritual practice.",
+      "example_vi": "Nhiều người có thực hành tâm linh.",
+      "word_family": {
+        "noun": "spirituality",
+        "verb": null,
+        "adjective": "spiritual",
+        "adverb": "spiritually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "minority",
+      "ipa": "/maɪˈnɒr.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "thiểu số",
+      "meaning_vi_inline": "thiểu số",
+      "example_en": "Religious minorities deserve protection.",
+      "example_vi": "Các cộng đồng tôn giáo thiểu số xứng đáng được bảo vệ.",
+      "word_family": {
+        "noun": "minority",
+        "verb": null,
+        "adjective": "minor",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "practise",
+      "ipa": "/ˈpræk.tɪs/",
+      "pos": "verb",
+      "meaning_vi": "thực hành (tôn giáo)",
+      "meaning_vi_inline": "thực hành",
+      "example_en": "They practise their faith at home.",
+      "example_vi": "Họ thực hành đức tin của mình ở nhà.",
+      "word_family": {
+        "noun": "practice",
+        "verb": "practise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "practice vs practise",
+        "explanation_vi": "'Practise' là động từ (UK); 'practice' là danh từ (UK) hoặc cả động từ/danh từ (US)."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "faith",
+      "ipa": "/feɪθ/",
+      "pos": "noun",
+      "meaning_vi": "đức tin, niềm tin tôn giáo",
+      "meaning_vi_inline": "đức tin",
+      "example_en": "Her faith gives her strength.",
+      "example_vi": "Đức tin của cô ấy mang lại cho cô sức mạnh.",
+      "word_family": {
+        "noun": "faith",
+        "verb": null,
+        "adjective": "faithful",
+        "adverb": "faithfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "spread",
+      "ipa": "/spred/",
+      "pos": "verb",
+      "meaning_vi": "lan rộng, truyền bá",
+      "meaning_vi_inline": "lan rộng",
+      "example_en": "Ideas and customs spread through trade.",
+      "example_vi": "Ý tưởng và phong tục lan rộng qua thương mại.",
+      "word_family": {
+        "noun": "spread",
+        "verb": "spread",
+        "adjective": "widespread",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Religious rituals are passed down through generations.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Secular societies have no religious citizens.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "All minority religions receive government funding.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Cultural customs often spread and change when different cultures meet.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Tolerance is described as accepting people who are different from you.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The old temple is considered _____ by the local community and must be respected.",
+          "options": [
+            "secular",
+            "tolerant",
+            "sacred",
+            "diverse"
+          ],
+          "answer": "sacred"
+        },
+        {
+          "id": 2,
+          "sentence": "A country's _____ includes its traditions, history, and cultural practices.",
+          "options": [
+            "ritual",
+            "heritage",
+            "tolerance",
+            "minority"
+          ],
+          "answer": "heritage"
+        },
+        {
+          "id": 3,
+          "sentence": "In a _____ state, the government does not favour any particular religion.",
+          "options": [
+            "diverse",
+            "spiritual",
+            "secular",
+            "sacred"
+          ],
+          "answer": "secular"
+        },
+        {
+          "id": 4,
+          "sentence": "Religious ideas _____ along trade routes and changed many societies.",
+          "options": [
+            "worship",
+            "practise",
+            "spread",
+            "believe"
+          ],
+          "answer": "spread"
+        },
+        {
+          "id": 5,
+          "sentence": "Accepting people of different backgrounds is an important sign of _____.",
+          "options": [
+            "identity",
+            "ritual",
+            "faith",
+            "tolerance"
+          ],
+          "answer": "tolerance"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "belief",
+        "minority",
+        "identity",
+        "worship",
+        "custom"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It is a _____ in many Asian countries to remove your shoes before entering a home.",
+          "answer": "custom"
+        },
+        {
+          "id": 2,
+          "sentence": "Language, food, and traditions are all part of a person's cultural _____.",
+          "answer": "identity"
+        },
+        {
+          "id": 3,
+          "sentence": "People of many faiths come to _____ in this city's beautiful old temple.",
+          "answer": "worship"
+        },
+        {
+          "id": 4,
+          "sentence": "She has a strong _____ in the power of kindness and helping others.",
+          "answer": "belief"
+        },
+        {
+          "id": 5,
+          "sentence": "The government works to protect the rights of religious _____ communities.",
+          "answer": "minority"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "temple",
+            "is",
+            "considered",
+            "sacred",
+            "by",
+            "the",
+            "community"
+          ],
+          "answer": "The temple is considered sacred by the community."
+        },
+        {
+          "id": 2,
+          "words": [
+            "religious",
+            "ideas",
+            "often",
+            "spread",
+            "as",
+            "cultures",
+            "mix"
+          ],
+          "answer": "Religious ideas often spread as cultures mix."
+        },
+        {
+          "id": 3,
+          "words": [
+            "everyone",
+            "has",
+            "the",
+            "right",
+            "to",
+            "practise",
+            "their",
+            "faith"
+          ],
+          "answer": "Everyone has the right to practise their faith."
+        },
+        {
+          "id": 4,
+          "words": [
+            "tolerance",
+            "is",
+            "essential",
+            "for",
+            "a",
+            "peaceful",
+            "society"
+          ],
+          "answer": "Tolerance is essential for a peaceful society."
+        },
+        {
+          "id": 5,
+          "words": [
+            "a",
+            "country's",
+            "cultural",
+            "heritage",
+            "reflects",
+            "its",
+            "history"
+          ],
+          "answer": "A country's cultural heritage reflects its history."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "They follow many [tradition] rituals during the spring festival each year.",
+          "highlighted": "tradition",
+          "options": {
+            "A": "tradition",
+            "B": "traditional",
+            "C": "traditionally"
+          },
+          "answer": "B",
+          "explanation": "An adjective is needed before the noun 'rituals': traditional."
+        },
+        {
+          "id": 2,
+          "sentence": "The [custom] of removing shoes before entering a home is [wide] across Asia.",
+          "highlighted": "wide",
+          "options": {
+            "A": "wide",
+            "B": "widespread",
+            "C": "widely"
+          },
+          "answer": "B",
+          "explanation": "'Widespread' is the adjective meaning common across a large area."
+        },
+        {
+          "id": 3,
+          "sentence": "She [practise] her faith quietly at home without going to a religious building.",
+          "highlighted": "practise",
+          "options": {
+            "A": "practise",
+            "B": "practises",
+            "C": "practised"
+          },
+          "answer": "B",
+          "explanation": "Third person singular present tense: practises."
+        },
+        {
+          "id": 4,
+          "sentence": "Religious [minority] deserve the same rights as everyone else in society.",
+          "highlighted": "minority",
+          "options": {
+            "A": "minority",
+            "B": "minorities",
+            "C": "minoring"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: minorities (more than one group)."
+        },
+        {
+          "id": 5,
+          "sentence": "The country has a [diverse] population with many different [belief] and traditions.",
+          "highlighted": "belief",
+          "options": {
+            "A": "belief",
+            "B": "beliefs",
+            "C": "believed"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: many different beliefs."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "sacred",
+      "2": "heritage",
+      "3": "secular",
+      "4": "spread",
+      "5": "tolerance"
+    },
+    "ex3": {
+      "1": "custom",
+      "2": "identity",
+      "3": "worship",
+      "4": "belief",
+      "5": "minority"
+    },
+    "ex4": {
+      "1": "The temple is considered sacred by the community.",
+      "2": "Religious ideas often spread as cultures mix.",
+      "3": "Everyone has the right to practise their faith.",
+      "4": "Tolerance is essential for a peaceful society.",
+      "5": "A country's cultural heritage reflects its history."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

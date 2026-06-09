@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 5,
+    "topic_id": "b2-t05",
+    "topic_title": "Government & Politics",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 172,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 172,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "In a **democracy**, the people choose their leaders. This happens through **elections**, where every **citizen** has the right to **vote** for the **candidate** they believe will best **govern** the country. Once elected, the winning party takes power and works within a set of rules called the **constitution**, which protects the rights of all people.",
+        "text_vi": "Trong một nền **dân chủ**, người dân chọn lãnh đạo của họ. Điều này xảy ra thông qua các cuộc **bầu cử**, nơi mỗi **công dân** có quyền **bỏ phiếu** cho **ứng viên** mà họ tin tưởng sẽ **điều hành** đất nước tốt nhất. Sau khi được bầu, đảng chiến thắng nắm quyền và hoạt động trong khuôn khổ các quy tắc gọi là **hiến pháp**."
+      },
+      {
+        "index": 2,
+        "text_en": "The main job of **parliament** is to make laws and set **policy** — rules that guide how the country is run. **Lawmakers** from different political parties discuss important issues and often **debate** them at length before a decision is made. The **opposition** — the parties that are not in power — plays an important role by questioning the government's decisions.",
+        "text_vi": "Nhiệm vụ chính của **quốc hội** là ban hành luật và đặt ra **chính sách**. Các **nhà lập pháp** từ các đảng phái khác nhau thảo luận và thường **tranh luận** kỹ lưỡng trước khi đưa ra quyết định. **Phe đối lập** đóng vai trò quan trọng bằng cách đặt câu hỏi về các quyết định của chính phủ."
+      },
+      {
+        "index": 3,
+        "text_en": "Governments use **taxation** — collecting money from people and businesses — to fund public services such as schools, hospitals, and roads. Citizens have a right to know how this money is spent, and it is the **authority** of elected officials to answer for their decisions.",
+        "text_vi": "Chính phủ dùng **thuế** — thu tiền từ người dân và doanh nghiệp — để tài trợ cho các dịch vụ công như trường học, bệnh viện và đường sá. Công dân có quyền biết tiền này được chi tiêu như thế nào, và đó là **thẩm quyền** của các quan chức được bầu."
+      },
+      {
+        "index": 4,
+        "text_en": "**Reform** is an important part of politics. When laws or systems are not working well, **lawmakers** propose changes to make them better. A healthy **democracy** depends on open **debate**, free **elections**, and leaders who truly serve their **citizens**.",
+        "text_vi": "**Cải cách** là một phần quan trọng của chính trị. Khi các luật hoặc hệ thống không hoạt động tốt, **các nhà lập pháp** đề xuất những thay đổi. Một nền **dân chủ** lành mạnh phụ thuộc vào **tranh luận** cởi mở, **bầu cử** tự do và các nhà lãnh đạo thực sự phục vụ **công dân** của họ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "democracy",
+      "ipa": "/dɪˈmɒk.rə.si/",
+      "pos": "noun",
+      "meaning_vi": "dân chủ",
+      "meaning_vi_inline": "dân chủ",
+      "example_en": "France is a democracy.",
+      "example_vi": "Pháp là một nền dân chủ.",
+      "word_family": {
+        "noun": "democracy",
+        "verb": null,
+        "adjective": "democratic",
+        "adverb": "democratically"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "election",
+      "ipa": "/ɪˈlek.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "cuộc bầu cử",
+      "meaning_vi_inline": "bầu cử",
+      "example_en": "Elections are held every five years.",
+      "example_vi": "Bầu cử được tổ chức mỗi năm năm.",
+      "word_family": {
+        "noun": "election",
+        "verb": "elect",
+        "adjective": "electoral",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "policy",
+      "ipa": "/ˈpɒl.ɪ.si/",
+      "pos": "noun",
+      "meaning_vi": "chính sách",
+      "meaning_vi_inline": "chính sách",
+      "example_en": "The new policy helps poor families.",
+      "example_vi": "Chính sách mới giúp đỡ các gia đình nghèo.",
+      "word_family": {
+        "noun": "policy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "parliament",
+      "ipa": "/ˈpɑː.lə.mənt/",
+      "pos": "noun",
+      "meaning_vi": "quốc hội",
+      "meaning_vi_inline": "quốc hội",
+      "example_en": "Parliament passed the new law.",
+      "example_vi": "Quốc hội đã thông qua luật mới.",
+      "word_family": {
+        "noun": "parliament",
+        "verb": null,
+        "adjective": "parliamentary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "constitution",
+      "ipa": "/ˌkɒn.stɪˈtjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "hiến pháp",
+      "meaning_vi_inline": "hiến pháp",
+      "example_en": "The constitution protects basic rights.",
+      "example_vi": "Hiến pháp bảo vệ các quyền cơ bản.",
+      "word_family": {
+        "noun": "constitution",
+        "verb": null,
+        "adjective": "constitutional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "taxation",
+      "ipa": "/tækˈseɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "thuế, chế độ thuế",
+      "meaning_vi_inline": "thuế",
+      "example_en": "Taxation funds public services.",
+      "example_vi": "Thuế tài trợ cho các dịch vụ công.",
+      "word_family": {
+        "noun": "taxation",
+        "verb": "tax",
+        "adjective": "taxable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "opposition",
+      "ipa": "/ˌɒp.əˈzɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "phe đối lập",
+      "meaning_vi_inline": "đối lập",
+      "example_en": "The opposition criticised the budget.",
+      "example_vi": "Phe đối lập chỉ trích ngân sách.",
+      "word_family": {
+        "noun": "opposition",
+        "verb": "oppose",
+        "adjective": "opposing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "candidate",
+      "ipa": "/ˈkæn.dɪ.dət/",
+      "pos": "noun",
+      "meaning_vi": "ứng viên",
+      "meaning_vi_inline": "ứng viên",
+      "example_en": "Three candidates stood for election.",
+      "example_vi": "Ba ứng viên tranh cử.",
+      "word_family": {
+        "noun": "candidacy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "reform",
+      "ipa": "/rɪˈfɔːm/",
+      "pos": "noun/verb",
+      "meaning_vi": "cải cách",
+      "meaning_vi_inline": "cải cách",
+      "example_en": "The government introduced education reform.",
+      "example_vi": "Chính phủ đã tiến hành cải cách giáo dục.",
+      "word_family": {
+        "noun": "reform",
+        "verb": "reform",
+        "adjective": "reformed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "vote",
+      "ipa": "/vəʊt/",
+      "pos": "verb/noun",
+      "meaning_vi": "bỏ phiếu",
+      "meaning_vi_inline": "bầu",
+      "example_en": "Everyone over 18 can vote.",
+      "example_vi": "Mọi người trên 18 tuổi đều có thể bỏ phiếu.",
+      "word_family": {
+        "noun": "vote / voter",
+        "verb": "vote",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "debate",
+      "ipa": "/dɪˈbeɪt/",
+      "pos": "noun/verb",
+      "meaning_vi": "tranh luận",
+      "meaning_vi_inline": "tranh luận",
+      "example_en": "They had a long debate about taxes.",
+      "example_vi": "Họ đã có một cuộc tranh luận dài về thuế.",
+      "word_family": {
+        "noun": "debate",
+        "verb": "debate",
+        "adjective": "debatable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "citizen",
+      "ipa": "/ˈsɪt.ɪ.zən/",
+      "pos": "noun",
+      "meaning_vi": "công dân",
+      "meaning_vi_inline": "công dân",
+      "example_en": "Every citizen has rights and duties.",
+      "example_vi": "Mọi công dân đều có quyền và nghĩa vụ.",
+      "word_family": {
+        "noun": "citizenship",
+        "verb": null,
+        "adjective": "civic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "authority",
+      "ipa": "/ɔːˈθɒr.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "thẩm quyền",
+      "meaning_vi_inline": "thẩm quyền",
+      "example_en": "The government has the authority to make laws.",
+      "example_vi": "Chính phủ có thẩm quyền ban hành luật.",
+      "word_family": {
+        "noun": "authority",
+        "verb": "authorise",
+        "adjective": "authoritative",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "govern",
+      "ipa": "/ˈɡʌv.ən/",
+      "pos": "verb",
+      "meaning_vi": "điều hành, cai quản",
+      "meaning_vi_inline": "điều hành",
+      "example_en": "It is hard to govern a large country.",
+      "example_vi": "Thật khó để điều hành một đất nước rộng lớn.",
+      "word_family": {
+        "noun": "government / governor",
+        "verb": "govern",
+        "adjective": "governing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "lawmaker",
+      "ipa": "/ˈlɔː.meɪ.kər/",
+      "pos": "noun",
+      "meaning_vi": "nhà lập pháp",
+      "meaning_vi_inline": "nhà lập pháp",
+      "example_en": "Lawmakers debated the bill for weeks.",
+      "example_vi": "Các nhà lập pháp đã tranh luận về dự luật trong nhiều tuần.",
+      "word_family": {
+        "noun": "lawmaker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "In a democracy, citizens choose their leaders through elections.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The constitution can be changed by any single politician.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Taxation is used to pay for public services like schools and hospitals.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The opposition party always agrees with the government's decisions.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "All democracies hold elections every four years.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Every _____ over the age of 18 has the right to vote in national elections.",
+          "options": [
+            "candidate",
+            "lawmaker",
+            "citizen",
+            "opposition"
+          ],
+          "answer": "citizen"
+        },
+        {
+          "id": 2,
+          "sentence": "The government introduced a new _____ to reduce carbon emissions.",
+          "options": [
+            "debate",
+            "taxation",
+            "policy",
+            "constitution"
+          ],
+          "answer": "policy"
+        },
+        {
+          "id": 3,
+          "sentence": "Three _____ gave speeches before the public voted for their preferred leader.",
+          "options": [
+            "citizens",
+            "parliaments",
+            "candidates",
+            "reforms"
+          ],
+          "answer": "candidates"
+        },
+        {
+          "id": 4,
+          "sentence": "It is the job of _____ to discuss and pass new laws for the country.",
+          "options": [
+            "citizens",
+            "lawmakers",
+            "voters",
+            "candidates"
+          ],
+          "answer": "lawmakers"
+        },
+        {
+          "id": 5,
+          "sentence": "The party in power and the _____ often disagree about the best way to run the country.",
+          "options": [
+            "opposition",
+            "constitution",
+            "authority",
+            "taxation"
+          ],
+          "answer": "opposition"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "reform",
+        "parliament",
+        "vote",
+        "constitution",
+        "govern"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new president promised to _____ the country with honesty and fairness.",
+          "answer": "govern"
+        },
+        {
+          "id": 2,
+          "sentence": "Changes to the _____ require a very large majority in parliament.",
+          "answer": "constitution"
+        },
+        {
+          "id": 3,
+          "sentence": "The bill was passed after a long debate in _____.",
+          "answer": "parliament"
+        },
+        {
+          "id": 4,
+          "sentence": "People who do not _____ have no voice in choosing their government.",
+          "answer": "vote"
+        },
+        {
+          "id": 5,
+          "sentence": "The education system needs major _____ to improve results for all students.",
+          "answer": "reform"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "free",
+            "elections",
+            "are",
+            "a",
+            "key",
+            "part",
+            "of",
+            "democracy"
+          ],
+          "answer": "Free elections are a key part of democracy."
+        },
+        {
+          "id": 2,
+          "words": [
+            "parliament",
+            "debated",
+            "a",
+            "new",
+            "tax",
+            "policy"
+          ],
+          "answer": "Parliament debated a new tax policy."
+        },
+        {
+          "id": 3,
+          "words": [
+            "taxation",
+            "funds",
+            "public",
+            "services",
+            "such",
+            "as",
+            "schools",
+            "and",
+            "hospitals"
+          ],
+          "answer": "Taxation funds public services such as schools and hospitals."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "constitution",
+            "protects",
+            "the",
+            "rights",
+            "of",
+            "all",
+            "citizens"
+          ],
+          "answer": "The constitution protects the rights of all citizens."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "opposition",
+            "questioned",
+            "the",
+            "government's",
+            "decisions",
+            "on",
+            "the",
+            "budget"
+          ],
+          "answer": "The opposition questioned the government's decisions on the budget."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Every [citizens] has the right to vote in a free and fair election.",
+          "highlighted": "citizens",
+          "options": {
+            "A": "citizens",
+            "B": "citizen",
+            "C": "citizenship"
+          },
+          "answer": "B",
+          "explanation": "'Every' takes a singular noun: every citizen."
+        },
+        {
+          "id": 2,
+          "sentence": "The government introduced a new [politics] to improve public healthcare.",
+          "highlighted": "politics",
+          "options": {
+            "A": "politics",
+            "B": "policy",
+            "C": "political"
+          },
+          "answer": "B",
+          "explanation": "'Policy' is a specific plan — 'politics' is the general activity."
+        },
+        {
+          "id": 3,
+          "sentence": "[Lawmaker] from both parties voted in favour of the new education bill.",
+          "highlighted": "Lawmaker",
+          "options": {
+            "A": "Lawmaker",
+            "B": "Lawmakers",
+            "C": "The lawmaker"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: multiple people from both parties."
+        },
+        {
+          "id": 4,
+          "sentence": "The country is [govern] by a president who is elected every five years.",
+          "highlighted": "govern",
+          "options": {
+            "A": "govern",
+            "B": "governed",
+            "C": "governing"
+          },
+          "answer": "B",
+          "explanation": "Passive voice requires past participle: is governed."
+        },
+        {
+          "id": 5,
+          "sentence": "The [oppose] party rejected the government's new taxation proposals.",
+          "highlighted": "oppose",
+          "options": {
+            "A": "oppose",
+            "B": "opposition",
+            "C": "opposed"
+          },
+          "answer": "B",
+          "explanation": "'Opposition' is the noun — the party not in power."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "citizen",
+      "2": "policy",
+      "3": "candidates",
+      "4": "lawmakers",
+      "5": "opposition"
+    },
+    "ex3": {
+      "1": "govern",
+      "2": "constitution",
+      "3": "parliament",
+      "4": "vote",
+      "5": "reform"
+    },
+    "ex4": {
+      "1": "Free elections are a key part of democracy.",
+      "2": "Parliament debated a new tax policy.",
+      "3": "Taxation funds public services such as schools and hospitals.",
+      "4": "The constitution protects the rights of all citizens.",
+      "5": "The opposition questioned the government's decisions on the budget."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

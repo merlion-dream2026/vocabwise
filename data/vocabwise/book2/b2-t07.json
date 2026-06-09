@@ -1,0 +1,631 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 7,
+    "topic_id": "b2-t07",
+    "topic_title": "Equality & Everyday Life",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 177,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 177,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every person deserves to be treated fairly, regardless of their **gender**, **background**, or where they come from. However, in many parts of the world, people still face **discrimination** — unfair treatment based on who they are. This can happen because of **bias** — a tendency to prefer certain groups over others — or because of **stereotypes**, which are fixed and often incorrect ideas about a particular group of people.",
+        "text_vi": "Mỗi người đều xứng đáng được đối xử công bằng, bất kể **giới tính**, **xuất thân** hay nơi họ đến. Tuy nhiên, ở nhiều nơi trên thế giới, người ta vẫn phải đối mặt với **sự phân biệt đối xử** — đối xử không công bằng dựa trên con người họ. Điều này có thể xảy ra do **thành kiến** hoặc do **khuôn mẫu** — những quan niệm cố định và thường không chính xác về một nhóm người cụ thể."
+      },
+      {
+        "index": 2,
+        "text_en": "**Equality** means giving everyone the same opportunities and treating them with the same respect. Achieving true **equality** requires removing **barriers** — things that prevent people from fully participating in society. This includes making workplaces and schools more **inclusive**, so that everyone feels welcome and valued.",
+        "text_vi": "**Bình đẳng** có nghĩa là cho mọi người cơ hội như nhau và đối xử với họ bằng sự tôn trọng như nhau. Đạt được **bình đẳng** thực sự đòi hỏi phải xóa bỏ các **rào cản** — những thứ ngăn cản mọi người tham gia đầy đủ vào xã hội. Điều này bao gồm làm cho nơi làm việc và trường học trở nên **hòa nhập** hơn."
+      },
+      {
+        "index": 3,
+        "text_en": "**Representation** matters too. When people from different **backgrounds** see themselves reflected in leadership, media, and education, it helps to **empower** them and build confidence. **Campaigns** for better **representation** have helped raise **awareness** of these issues around the world.",
+        "text_vi": "**Sự đại diện** cũng rất quan trọng. Khi người từ các **xuất thân** khác nhau thấy mình được phản ánh trong lãnh đạo, truyền thông và giáo dục, điều đó giúp **trao quyền** cho họ. Các **chiến dịch** vì **sự đại diện** tốt hơn đã giúp nâng cao **nhận thức** về những vấn đề này."
+      },
+      {
+        "index": 4,
+        "text_en": "Many people take action to fight injustice. They **protest**, sign petitions, or join **campaigns** to demand equal **rights** for all. Challenging **prejudice** — negative and unfair opinions about others — is something every person can do in their daily life. A society built on **inclusion** and respect is better for everyone.",
+        "text_vi": "Nhiều người hành động để chống lại bất công. Họ **biểu tình**, ký kiến nghị hoặc tham gia **chiến dịch** để đòi **quyền** bình đẳng cho tất cả. Thách thức **định kiến** — những ý kiến tiêu cực về người khác — là điều mỗi người có thể làm. Một xã hội được xây dựng trên **sự hòa nhập** và tôn trọng sẽ tốt hơn cho tất cả."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "equality",
+      "ipa": "/ɪˈkwɒl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự bình đẳng",
+      "meaning_vi_inline": "bình đẳng",
+      "example_en": "Equality means fair treatment for all.",
+      "example_vi": "Bình đẳng có nghĩa là đối xử công bằng cho tất cả.",
+      "word_family": {
+        "noun": "equality",
+        "verb": "equalise",
+        "adjective": "equal",
+        "adverb": "equally"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "stereotype",
+      "ipa": "/ˈster.i.ə.taɪp/",
+      "pos": "noun",
+      "meaning_vi": "khuôn mẫu định kiến",
+      "meaning_vi_inline": "khuôn mẫu",
+      "example_en": "Not all stereotypes are true.",
+      "example_vi": "Không phải tất cả khuôn mẫu đều đúng.",
+      "word_family": {
+        "noun": "stereotype",
+        "verb": "stereotype",
+        "adjective": "stereotypical",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "representation",
+      "ipa": "/ˌrep.rɪ.zenˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự đại diện",
+      "meaning_vi_inline": "đại diện",
+      "example_en": "Better representation leads to fairer decisions.",
+      "example_vi": "Sự đại diện tốt hơn dẫn đến các quyết định công bằng hơn.",
+      "word_family": {
+        "noun": "representation",
+        "verb": "represent",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "inclusion",
+      "ipa": "/ɪnˈkluː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "sự hòa nhập",
+      "meaning_vi_inline": "hòa nhập",
+      "example_en": "Schools should promote inclusion.",
+      "example_vi": "Các trường học nên thúc đẩy sự hòa nhập.",
+      "word_family": {
+        "noun": "inclusion",
+        "verb": "include",
+        "adjective": "inclusive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "thành kiến, thiên vị",
+      "meaning_vi_inline": "thiên vị",
+      "example_en": "Unconscious bias affects many decisions.",
+      "example_vi": "Thành kiến vô thức ảnh hưởng đến nhiều quyết định.",
+      "word_family": {
+        "noun": "bias",
+        "verb": null,
+        "adjective": "biased / unbiased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "empower",
+      "ipa": "/ɪmˈpaʊ.ər/",
+      "pos": "verb",
+      "meaning_vi": "trao quyền",
+      "meaning_vi_inline": "trao quyền",
+      "example_en": "Education can empower young women.",
+      "example_vi": "Giáo dục có thể trao quyền cho phụ nữ trẻ.",
+      "word_family": {
+        "noun": "empowerment",
+        "verb": "empower",
+        "adjective": "empowering",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "barrier",
+      "ipa": "/ˈbær.i.ər/",
+      "pos": "noun",
+      "meaning_vi": "rào cản",
+      "meaning_vi_inline": "rào cản",
+      "example_en": "Language can be a barrier to education.",
+      "example_vi": "Ngôn ngữ có thể là rào cản đối với giáo dục.",
+      "word_family": {
+        "noun": "barrier",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "discrimination",
+      "ipa": "/dɪˌskrɪm.ɪˈneɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân biệt đối xử",
+      "meaning_vi_inline": "phân biệt đối xử",
+      "example_en": "Discrimination based on race is illegal.",
+      "example_vi": "Phân biệt đối xử dựa trên chủng tộc là bất hợp pháp.",
+      "word_family": {
+        "noun": "discrimination",
+        "verb": "discriminate",
+        "adjective": "discriminatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "rights",
+      "ipa": "/raɪts/",
+      "pos": "noun",
+      "meaning_vi": "quyền lợi",
+      "meaning_vi_inline": "quyền",
+      "example_en": "Everyone has basic human rights.",
+      "example_vi": "Mọi người đều có quyền con người cơ bản.",
+      "word_family": {
+        "noun": "rights",
+        "verb": null,
+        "adjective": "rightful",
+        "adverb": "rightfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "gender",
+      "ipa": "/ˈdʒen.dər/",
+      "pos": "noun",
+      "meaning_vi": "giới tính (xã hội)",
+      "meaning_vi_inline": "giới tính",
+      "example_en": "Gender equality is a global issue.",
+      "example_vi": "Bình đẳng giới là vấn đề toàn cầu.",
+      "word_family": {
+        "noun": "gender",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "sex",
+        "explanation_vi": "'Gender' là vai trò xã hội; 'sex' là đặc điểm sinh học — hai khái niệm khác nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "campaign",
+      "ipa": "/kæmˈpeɪn/",
+      "pos": "noun/verb",
+      "meaning_vi": "chiến dịch",
+      "meaning_vi_inline": "chiến dịch",
+      "example_en": "They ran a campaign for equal pay.",
+      "example_vi": "Họ tiến hành một chiến dịch vì trả lương bình đẳng.",
+      "word_family": {
+        "noun": "campaign",
+        "verb": "campaign",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "awareness",
+      "ipa": "/əˈweə.nəs/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, ý thức",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "Awareness of the issue has grown.",
+      "example_vi": "Nhận thức về vấn đề này đã tăng lên.",
+      "word_family": {
+        "noun": "awareness",
+        "verb": null,
+        "adjective": "aware / unaware",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "prejudice",
+      "ipa": "/ˈpredʒ.ʊ.dɪs/",
+      "pos": "noun",
+      "meaning_vi": "định kiến, thành kiến",
+      "meaning_vi_inline": "định kiến",
+      "example_en": "Prejudice causes unfair treatment.",
+      "example_vi": "Định kiến gây ra sự đối xử không công bằng.",
+      "word_family": {
+        "noun": "prejudice",
+        "verb": null,
+        "adjective": "prejudiced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "background",
+      "ipa": "/ˈbæk.ɡraʊnd/",
+      "pos": "noun",
+      "meaning_vi": "xuất thân, hoàn cảnh",
+      "meaning_vi_inline": "xuất thân",
+      "example_en": "People from all backgrounds are welcome.",
+      "example_vi": "Người từ mọi xuất thân đều được chào đón.",
+      "word_family": {
+        "noun": "background",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "protest",
+      "ipa": "/ˈprəʊ.test/",
+      "pos": "verb/noun",
+      "meaning_vi": "biểu tình, phản đối",
+      "meaning_vi_inline": "biểu tình",
+      "example_en": "Thousands protested in the streets.",
+      "example_vi": "Hàng nghìn người biểu tình trên đường phố.",
+      "word_family": {
+        "noun": "protest / protester",
+        "verb": "protest",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Stereotypes are always based on accurate information.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Better representation can help empower people from different backgrounds.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "All countries have laws against gender discrimination.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Barriers can prevent people from fully participating in society.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Protests are described as one way people fight for equal rights.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company was criticised for its lack of _____ — only men held senior positions.",
+          "options": [
+            "equality",
+            "representation",
+            "protest",
+            "background"
+          ],
+          "answer": "representation"
+        },
+        {
+          "id": 2,
+          "sentence": "She joined a _____ to raise _____ about gender inequality in the workplace.",
+          "options": [
+            "protest / stereotype",
+            "campaign / awareness",
+            "barrier / bias",
+            "rights / inclusion"
+          ],
+          "answer": "campaign / awareness"
+        },
+        {
+          "id": 3,
+          "sentence": "Having a different _____ should never stop a person from getting a good job.",
+          "options": [
+            "equality",
+            "discrimination",
+            "background",
+            "campaign"
+          ],
+          "answer": "background"
+        },
+        {
+          "id": 4,
+          "sentence": "The new law aims to remove _____ that prevent disabled people from working.",
+          "options": [
+            "stereotypes",
+            "genders",
+            "rights",
+            "barriers"
+          ],
+          "answer": "barriers"
+        },
+        {
+          "id": 5,
+          "sentence": "Treating someone unfairly because of their race or religion is a form of _____.",
+          "options": [
+            "inclusion",
+            "awareness",
+            "discrimination",
+            "empowerment"
+          ],
+          "answer": "discrimination"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "prejudice",
+        "empower",
+        "equality",
+        "bias",
+        "rights"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Every person has basic human _____ that must be respected.",
+          "answer": "rights"
+        },
+        {
+          "id": 2,
+          "sentence": "Education can _____ young people to make better choices in life.",
+          "answer": "empower"
+        },
+        {
+          "id": 3,
+          "sentence": "The goal of the movement is to achieve full _____ for all genders.",
+          "answer": "equality"
+        },
+        {
+          "id": 4,
+          "sentence": "Her decision was affected by _____ — she preferred candidates from her own university.",
+          "answer": "bias"
+        },
+        {
+          "id": 5,
+          "sentence": "It is important to challenge _____ by learning about people who are different from you.",
+          "answer": "prejudice"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "everyone",
+            "deserves",
+            "equal",
+            "treatment",
+            "regardless",
+            "of",
+            "their",
+            "background"
+          ],
+          "answer": "Everyone deserves equal treatment regardless of their background."
+        },
+        {
+          "id": 2,
+          "words": [
+            "discrimination",
+            "based",
+            "on",
+            "gender",
+            "is",
+            "illegal",
+            "in",
+            "many",
+            "countries"
+          ],
+          "answer": "Discrimination based on gender is illegal in many countries."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "campaign",
+            "aimed",
+            "to",
+            "raise",
+            "awareness",
+            "about",
+            "inequality"
+          ],
+          "answer": "The campaign aimed to raise awareness about inequality."
+        },
+        {
+          "id": 4,
+          "words": [
+            "education",
+            "can",
+            "empower",
+            "women",
+            "from",
+            "all",
+            "backgrounds"
+          ],
+          "answer": "Education can empower women from all backgrounds."
+        },
+        {
+          "id": 5,
+          "words": [
+            "thousands",
+            "protested",
+            "to",
+            "demand",
+            "equal",
+            "rights"
+          ],
+          "answer": "Thousands protested to demand equal rights."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She faced [discriminate] at work because of her religious beliefs.",
+          "highlighted": "discriminate",
+          "options": {
+            "A": "discriminate",
+            "B": "discrimination",
+            "C": "discriminatory"
+          },
+          "answer": "B",
+          "explanation": "The noun form 'discrimination' is needed after 'faced'."
+        },
+        {
+          "id": 2,
+          "sentence": "The school introduced new [policy] to promote [include] for all students.",
+          "highlighted": "include",
+          "options": {
+            "A": "include",
+            "B": "inclusion",
+            "C": "including"
+          },
+          "answer": "B",
+          "explanation": "'Inclusion' is the noun form needed here."
+        },
+        {
+          "id": 3,
+          "sentence": "He grew up with many [prejudice] about people from other cultures.",
+          "highlighted": "prejudice",
+          "options": {
+            "A": "prejudice",
+            "B": "prejudices",
+            "C": "prejudiced"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: many prejudices."
+        },
+        {
+          "id": 4,
+          "sentence": "The [campaign] helped raise [aware] of gender equality issues worldwide.",
+          "highlighted": "aware",
+          "options": {
+            "A": "aware",
+            "B": "awareness",
+            "C": "awared"
+          },
+          "answer": "B",
+          "explanation": "'Awareness' is the noun form — not 'aware'."
+        },
+        {
+          "id": 5,
+          "sentence": "Breaking down [barrier] is essential for achieving true [equality] in society.",
+          "highlighted": "barrier",
+          "options": {
+            "A": "barrier",
+            "B": "barriers",
+            "C": "barriered"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: breaking down barriers."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "representation",
+      "2": "campaign / awareness",
+      "3": "background",
+      "4": "barriers",
+      "5": "discrimination"
+    },
+    "ex3": {
+      "1": "rights",
+      "2": "empower",
+      "3": "equality",
+      "4": "bias",
+      "5": "prejudice"
+    },
+    "ex4": {
+      "1": "Everyone deserves equal treatment regardless of their background.",
+      "2": "Discrimination based on gender is illegal in many countries.",
+      "3": "The campaign aimed to raise awareness about inequality.",
+      "4": "Education can empower women from all backgrounds.",
+      "5": "Thousands protested to demand equal rights."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

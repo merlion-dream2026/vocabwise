@@ -1,0 +1,637 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 10,
+    "topic_id": "b2-t10",
+    "topic_title": "Family & Generations",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 176,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 176,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Family relationships are shaped by the **values**, **attitudes**, and **expectations** that different **generations** bring to the table. Parents and children often see the world differently — a natural result of growing up at different times with different experiences. This **generational** gap can sometimes cause **tension**, particularly when young people want greater **freedom** and independence.",
+        "text_vi": "Các mối quan hệ gia đình được định hình bởi các **giá trị**, **thái độ** và **kỳ vọng** mà các **thế hệ** khác nhau mang lại. Cha mẹ và con cái thường nhìn nhận thế giới khác nhau — kết quả tự nhiên của việc lớn lên vào những thời điểm khác nhau. Khoảng cách **thế hệ** này đôi khi có thể gây ra **căng thẳng**, đặc biệt khi người trẻ muốn có nhiều **tự do** hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "Good **parenting** involves more than just providing food and shelter. It means offering emotional **support**, teaching **responsibility**, and helping children develop the **values** they will carry through life. A child's **upbringing** — the way they are raised — has a huge **impact** on the kind of adult they become.",
+        "text_vi": "**Nuôi dạy con** tốt không chỉ là cung cấp thức ăn và nơi ở. Đó còn là việc cung cấp **sự hỗ trợ** về mặt cảm xúc, dạy **trách nhiệm** và giúp trẻ phát triển những **giá trị**. **Cách nuôi dưỡng** của một đứa trẻ có **tác động** lớn đến loại người mà chúng trở thành."
+      },
+      {
+        "index": 3,
+        "text_en": "One of the most important elements in a healthy family is **respect**. When family members listen to each other and appreciate their differences, **conflict** can be resolved calmly. A strong emotional **bond** between parents and children gives young people the confidence to face life's challenges.",
+        "text_vi": "Một trong những yếu tố quan trọng nhất trong một gia đình lành mạnh là **sự tôn trọng**. Khi các thành viên trong gia đình lắng nghe nhau, **xung đột** có thể được giải quyết một cách bình tĩnh. Một **sợi dây liên kết** cảm xúc mạnh mẽ giữa cha mẹ và con cái mang lại sự tự tin."
+      },
+      {
+        "index": 4,
+        "text_en": "Society is also changing. Traditional ideas about family roles are undergoing a **shift** — more fathers are staying home to care for children, more mothers are working, and many young people are choosing to start families later in life. These changes reflect a **shift** in **attitudes** towards **responsibility**, **freedom**, and what it means to be a family in the modern world.",
+        "text_vi": "Xã hội cũng đang thay đổi. Những quan niệm truyền thống về vai trò gia đình đang trải qua một **sự thay đổi**. Những thay đổi này phản ánh một **sự thay đổi** trong **thái độ** đối với **trách nhiệm**, **tự do** và ý nghĩa của việc là một gia đình trong thế giới hiện đại."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "generation",
+      "ipa": "/ˌdʒen.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "thế hệ",
+      "meaning_vi_inline": "thế hệ",
+      "example_en": "Each generation faces different challenges.",
+      "example_vi": "Mỗi thế hệ phải đối mặt với những thách thức khác nhau.",
+      "word_family": {
+        "noun": "generation",
+        "verb": "generate",
+        "adjective": "generational",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "values",
+      "ipa": "/ˈvæl.juːz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "giá trị (đạo đức)",
+      "meaning_vi_inline": "giá trị",
+      "example_en": "Family values are taught from a young age.",
+      "example_vi": "Các giá trị gia đình được dạy từ nhỏ.",
+      "word_family": {
+        "noun": "value / values",
+        "verb": "value",
+        "adjective": "valuable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "value (giá tiền)",
+        "explanation_vi": "'Values' (số nhiều) là giá trị đạo đức; 'value' (số ít) thường là giá tiền — ngữ cảnh quyết định."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "conflict",
+      "ipa": "/ˈkɒn.flɪkt/",
+      "pos": "noun",
+      "meaning_vi": "xung đột, mâu thuẫn",
+      "meaning_vi_inline": "xung đột",
+      "example_en": "Family conflict can damage relationships.",
+      "example_vi": "Xung đột gia đình có thể gây tổn hại đến các mối quan hệ.",
+      "word_family": {
+        "noun": "conflict",
+        "verb": null,
+        "adjective": "conflicting",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "expectation",
+      "ipa": "/ˌek.spekˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "kỳ vọng",
+      "meaning_vi_inline": "kỳ vọng",
+      "example_en": "Parents often have high expectations.",
+      "example_vi": "Cha mẹ thường có kỳ vọng cao.",
+      "word_family": {
+        "noun": "expectation",
+        "verb": "expect",
+        "adjective": "expected / unexpected",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "attitude",
+      "ipa": "/ˈæt.ɪ.tjuːd/",
+      "pos": "noun",
+      "meaning_vi": "thái độ",
+      "meaning_vi_inline": "thái độ",
+      "example_en": "A positive attitude helps in difficult times.",
+      "example_vi": "Thái độ tích cực giúp ích trong những lúc khó khăn.",
+      "word_family": {
+        "noun": "attitude",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "freedom",
+      "ipa": "/ˈfriː.dəm/",
+      "pos": "noun",
+      "meaning_vi": "sự tự do",
+      "meaning_vi_inline": "tự do",
+      "example_en": "Young people want more freedom.",
+      "example_vi": "Người trẻ muốn có nhiều tự do hơn.",
+      "word_family": {
+        "noun": "freedom",
+        "verb": null,
+        "adjective": "free",
+        "adverb": "freely"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "respect",
+      "ipa": "/rɪˈspekt/",
+      "pos": "noun/verb",
+      "meaning_vi": "sự tôn trọng",
+      "meaning_vi_inline": "tôn trọng",
+      "example_en": "Mutual respect holds families together.",
+      "example_vi": "Sự tôn trọng lẫn nhau gắn kết gia đình.",
+      "word_family": {
+        "noun": "respect",
+        "verb": "respect",
+        "adjective": "respectful",
+        "adverb": "respectfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "tension",
+      "ipa": "/ˈten.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "căng thẳng (trong mối quan hệ)",
+      "meaning_vi_inline": "căng thẳng",
+      "example_en": "There was tension between the two brothers.",
+      "example_vi": "Có sự căng thẳng giữa hai anh em.",
+      "word_family": {
+        "noun": "tension",
+        "verb": null,
+        "adjective": "tense",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "impact",
+      "ipa": "/ˈɪm.pækt/",
+      "pos": "noun",
+      "meaning_vi": "tác động",
+      "meaning_vi_inline": "tác động",
+      "example_en": "Parenting has a big impact on children.",
+      "example_vi": "Cách nuôi dạy có tác động lớn đến trẻ em.",
+      "word_family": {
+        "noun": "impact",
+        "verb": "impact",
+        "adjective": "impactful",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "parenting",
+      "ipa": "/ˈpeər.ən.tɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "việc nuôi dạy con",
+      "meaning_vi_inline": "nuôi dạy con",
+      "example_en": "Good parenting requires time and patience.",
+      "example_vi": "Nuôi dạy con tốt đòi hỏi thời gian và kiên nhẫn.",
+      "word_family": {
+        "noun": "parenting",
+        "verb": "parent",
+        "adjective": "parental",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "upbringing",
+      "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "cách nuôi dưỡng, giáo dục gia đình",
+      "meaning_vi_inline": "cách nuôi dưỡng",
+      "example_en": "Her upbringing shaped her strong values.",
+      "example_vi": "Cách nuôi dưỡng của cô ấy đã định hình các giá trị mạnh mẽ của cô.",
+      "word_family": {
+        "noun": "upbringing",
+        "verb": "bring up",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "support",
+      "ipa": "/səˈpɔːt/",
+      "pos": "noun/verb",
+      "meaning_vi": "sự hỗ trợ",
+      "meaning_vi_inline": "hỗ trợ",
+      "example_en": "Emotional support from family is very important.",
+      "example_vi": "Sự hỗ trợ về mặt cảm xúc từ gia đình rất quan trọng.",
+      "word_family": {
+        "noun": "support",
+        "verb": "support",
+        "adjective": "supportive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "responsibility",
+      "ipa": "/rɪˌspɒn.sɪˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "trách nhiệm",
+      "meaning_vi_inline": "trách nhiệm",
+      "example_en": "Children learn responsibility through chores.",
+      "example_vi": "Trẻ em học trách nhiệm thông qua việc nhà.",
+      "word_family": {
+        "noun": "responsibility",
+        "verb": null,
+        "adjective": "responsible",
+        "adverb": "responsibly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "bond",
+      "ipa": "/bɒnd/",
+      "pos": "noun",
+      "meaning_vi": "sợi dây liên kết",
+      "meaning_vi_inline": "liên kết",
+      "example_en": "A strong bond develops between parents and children.",
+      "example_vi": "Mối liên kết mạnh mẽ hình thành giữa cha mẹ và con cái.",
+      "word_family": {
+        "noun": "bond",
+        "verb": "bond",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "shift",
+      "ipa": "/ʃɪft/",
+      "pos": "noun",
+      "meaning_vi": "sự thay đổi (dần dần)",
+      "meaning_vi_inline": "thay đổi",
+      "example_en": "There has been a shift in family values.",
+      "example_vi": "Đã có sự thay đổi trong các giá trị gia đình.",
+      "word_family": {
+        "noun": "shift",
+        "verb": "shift",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "ca làm việc",
+        "explanation_vi": "'Shift' còn có nghĩa là ca làm việc (work shift) — context quyết định nghĩa."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Different generations often have different values and attitudes.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Good parenting only requires providing food and a place to live.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Children with a strong family bond perform better at school.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A shift in family roles means more fathers are staying home to care for children.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Family tension is always caused by financial problems.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her happy _____ gave her the confidence and values she needed in adult life.",
+          "options": [
+            "generation",
+            "tension",
+            "upbringing",
+            "shift"
+          ],
+          "answer": "upbringing"
+        },
+        {
+          "id": 2,
+          "sentence": "There is often _____ between parents and teenagers over rules and independence.",
+          "options": [
+            "bond",
+            "tension",
+            "responsibility",
+            "impact"
+          ],
+          "answer": "tension"
+        },
+        {
+          "id": 3,
+          "sentence": "Society has seen a major _____ in attitudes towards work and family roles.",
+          "options": [
+            "upbringing",
+            "conflict",
+            "shift",
+            "generation"
+          ],
+          "answer": "shift"
+        },
+        {
+          "id": 4,
+          "sentence": "A strong emotional _____ between family members helps everyone feel secure.",
+          "options": [
+            "tension",
+            "impact",
+            "bond",
+            "expectation"
+          ],
+          "answer": "bond"
+        },
+        {
+          "id": 5,
+          "sentence": "Parents have a _____ to teach their children right from wrong.",
+          "options": [
+            "shift",
+            "conflict",
+            "bond",
+            "responsibility"
+          ],
+          "answer": "responsibility"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "values",
+        "generation",
+        "respect",
+        "impact",
+        "freedom"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Each _____ faces its own unique set of social and economic challenges.",
+          "answer": "generation"
+        },
+        {
+          "id": 2,
+          "sentence": "A child's upbringing has a lasting _____ on their personality and behaviour.",
+          "answer": "impact"
+        },
+        {
+          "id": 3,
+          "sentence": "Showing _____ for older family members is important in many cultures.",
+          "answer": "respect"
+        },
+        {
+          "id": 4,
+          "sentence": "Teaching children strong _____ helps them make good decisions in life.",
+          "answer": "values"
+        },
+        {
+          "id": 5,
+          "sentence": "Young people today often want more _____ to make their own choices.",
+          "answer": "freedom"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "her",
+            "upbringing",
+            "shaped",
+            "the",
+            "values",
+            "she",
+            "has",
+            "today"
+          ],
+          "answer": "Her upbringing shaped the values she has today."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "strong",
+            "emotional",
+            "bond",
+            "is",
+            "important",
+            "for",
+            "families"
+          ],
+          "answer": "A strong emotional bond is important for families."
+        },
+        {
+          "id": 3,
+          "words": [
+            "there",
+            "has",
+            "been",
+            "a",
+            "shift",
+            "in",
+            "family",
+            "roles"
+          ],
+          "answer": "There has been a shift in family roles."
+        },
+        {
+          "id": 4,
+          "words": [
+            "tension",
+            "can",
+            "often",
+            "arise",
+            "between",
+            "parents",
+            "and",
+            "teenagers"
+          ],
+          "answer": "Tension can often arise between parents and teenagers."
+        },
+        {
+          "id": 5,
+          "words": [
+            "it",
+            "is",
+            "important",
+            "to",
+            "teach",
+            "children",
+            "to",
+            "be",
+            "responsible"
+          ],
+          "answer": "It is important to teach children to be responsible."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "There is often [tense] between parents and teenagers about rules and freedom.",
+          "highlighted": "tense",
+          "options": {
+            "A": "tense",
+            "B": "tension",
+            "C": "tensely"
+          },
+          "answer": "B",
+          "explanation": "'Tension' is the noun form needed here."
+        },
+        {
+          "id": 2,
+          "sentence": "Her [upbringing] had a big [impact] on the kind of person she [become].",
+          "highlighted": "become",
+          "options": {
+            "A": "become",
+            "B": "became",
+            "C": "becoming"
+          },
+          "answer": "B",
+          "explanation": "Past tense needed: the kind of person she became."
+        },
+        {
+          "id": 3,
+          "sentence": "Each [generation] has its own [value] and ways of seeing the world.",
+          "highlighted": "value",
+          "options": {
+            "A": "value",
+            "B": "values",
+            "C": "valuable"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: its own values."
+        },
+        {
+          "id": 4,
+          "sentence": "There has been a major [shift] in [attitude] towards family and work.",
+          "highlighted": "attitude",
+          "options": {
+            "A": "attitude",
+            "B": "attitudes",
+            "C": "attitudinal"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: attitudes (general change in how people think)."
+        },
+        {
+          "id": 5,
+          "sentence": "Building a strong [bond] with your children [require] time and [patient].",
+          "highlighted": "patient",
+          "options": {
+            "A": "patient",
+            "B": "patience",
+            "C": "patiently"
+          },
+          "answer": "B",
+          "explanation": "'Patience' is the noun form needed here."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "upbringing",
+      "2": "tension",
+      "3": "shift",
+      "4": "bond",
+      "5": "responsibility"
+    },
+    "ex3": {
+      "1": "generation",
+      "2": "impact",
+      "3": "respect",
+      "4": "values",
+      "5": "freedom"
+    },
+    "ex4": {
+      "1": "Her upbringing shaped the values she has today.",
+      "2": "A strong emotional bond is important for families.",
+      "3": "There has been a shift in family roles.",
+      "4": "Tension can often arise between parents and teenagers.",
+      "5": "It is important to teach children to be responsible."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

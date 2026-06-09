@@ -1,0 +1,631 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 11,
+    "topic_id": "b2-t11",
+    "topic_title": "Climate Change",
+    "theme_number": 2,
+    "theme_title": "Environment & Science",
+    "word_count": 178,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 178,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Climate change is one of the most serious challenges facing the world today. Scientists agree that the Earth's **atmosphere** is **warming** at a dangerous rate, mainly because of the large amounts of **carbon** **emissions** released by burning **fossil fuels** such as coal, oil, and gas. These gases trap heat in the **atmosphere**, creating what is known as the **greenhouse** effect — a natural process that is now happening too quickly.",
+        "text_vi": "Biến đổi khí hậu là một trong những thách thức nghiêm trọng nhất mà thế giới đang phải đối mặt ngày nay. Các nhà khoa học đồng ý rằng **bầu khí quyển** của Trái Đất đang **ấm lên** ở mức độ nguy hiểm, chủ yếu do lượng lớn **khí thải carbon** được thải ra khi đốt **nhiên liệu hóa thạch**. Những khí này tạo ra cái được gọi là **hiệu ứng nhà kính**."
+      },
+      {
+        "index": 2,
+        "text_en": "The **effects** of climate change are already visible. **Extreme** weather events such as **droughts**, **floods**, and powerful storms are becoming more frequent and more damaging. Scientists warn that even a rise of two **degrees** in global temperatures could have serious consequences for ecosystems, food production, and coastal cities.",
+        "text_vi": "Các **tác động** của biến đổi khí hậu đã có thể nhìn thấy. Các hiện tượng thời tiết **cực đoan** như **hạn hán**, **lũ lụt** và bão mạnh đang trở nên thường xuyên và gây thiệt hại nhiều hơn. Các nhà khoa học cảnh báo rằng ngay cả khi nhiệt độ toàn cầu tăng thêm hai **độ** cũng có thể có hậu quả nghiêm trọng."
+      },
+      {
+        "index": 3,
+        "text_en": "Many countries have signed international **agreements** to **cut down** on **emissions** and slow **global warming**. These **agreements** set **targets** — specific goals for reducing pollution by a certain date. At the same time, governments and businesses are investing in **renewable** energy sources such as wind, solar, and water power to replace **fossil fuels**.",
+        "text_vi": "Nhiều quốc gia đã ký kết các **hiệp định** quốc tế để **giảm thiểu** lượng **khí thải** và làm chậm quá trình **ấm lên toàn cầu**. Các **hiệp định** này đặt ra các **mục tiêu** giảm ô nhiễm. Đồng thời, các chính phủ đang đầu tư vào các nguồn năng lượng **tái tạo** để thay thế **nhiên liệu hóa thạch**."
+      },
+      {
+        "index": 4,
+        "text_en": "Individual actions also matter. Choosing to use less energy at home, travelling by public transport, and supporting businesses that care about the environment all help to **cut down** on our personal **carbon** footprint. Meeting international **targets** requires effort from both governments and every person on the planet.",
+        "text_vi": "Các hành động cá nhân cũng có tác dụng. Chọn sử dụng ít năng lượng hơn ở nhà, đi lại bằng phương tiện công cộng và ủng hộ các doanh nghiệp quan tâm đến môi trường đều giúp **giảm** dấu chân **carbon** cá nhân. Đạt được các **mục tiêu** quốc tế đòi hỏi nỗ lực từ cả chính phủ và mỗi người."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "carbon",
+      "ipa": "/ˈkɑː.bən/",
+      "pos": "noun",
+      "meaning_vi": "carbon, khí carbon",
+      "meaning_vi_inline": "carbon",
+      "example_en": "Carbon emissions are rising every year.",
+      "example_vi": "Lượng khí thải carbon đang tăng lên mỗi năm.",
+      "word_family": {
+        "noun": "carbon",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "emission",
+      "ipa": "/ɪˈmɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "khí thải",
+      "meaning_vi_inline": "khí thải",
+      "example_en": "Cars produce harmful emissions.",
+      "example_vi": "Ô tô tạo ra khí thải có hại.",
+      "word_family": {
+        "noun": "emission",
+        "verb": "emit",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "fossil fuel",
+      "ipa": "/ˈfɒs.əl ˌfjuːəl/",
+      "pos": "noun",
+      "meaning_vi": "nhiên liệu hóa thạch",
+      "meaning_vi_inline": "nhiên liệu hóa thạch",
+      "example_en": "Fossil fuels include coal, oil and gas.",
+      "example_vi": "Nhiên liệu hóa thạch bao gồm than đá, dầu mỏ và khí đốt.",
+      "word_family": {
+        "noun": "fossil fuel",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "renewable",
+      "ipa": "/rɪˈnjuː.ə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "tái tạo (năng lượng)",
+      "meaning_vi_inline": "tái tạo",
+      "example_en": "Renewable energy comes from sun and wind.",
+      "example_vi": "Năng lượng tái tạo đến từ mặt trời và gió.",
+      "word_family": {
+        "noun": "renewability",
+        "verb": "renew",
+        "adjective": "renewable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "drought",
+      "ipa": "/draʊt/",
+      "pos": "noun",
+      "meaning_vi": "hạn hán",
+      "meaning_vi_inline": "hạn hán",
+      "example_en": "The drought destroyed the crops.",
+      "example_vi": "Hạn hán đã phá hủy mùa màng.",
+      "word_family": {
+        "noun": "drought",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "pos": "noun/verb",
+      "meaning_vi": "lũ lụt",
+      "meaning_vi_inline": "lũ",
+      "example_en": "Heavy rain caused serious flooding.",
+      "example_vi": "Mưa lớn gây ra lũ lụt nghiêm trọng.",
+      "word_family": {
+        "noun": "flood / flooding",
+        "verb": "flood",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "greenhouse",
+      "ipa": "/ˈɡriːn.haʊs/",
+      "pos": "adjective",
+      "meaning_vi": "(thuộc) nhà kính, khí nhà kính",
+      "meaning_vi_inline": "nhà kính",
+      "example_en": "Greenhouse gases trap heat in the atmosphere.",
+      "example_vi": "Khí nhà kính giữ nhiệt trong bầu khí quyển.",
+      "word_family": {
+        "noun": "greenhouse",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "extreme",
+      "ipa": "/ɪkˈstriːm/",
+      "pos": "adjective",
+      "meaning_vi": "cực đoan, khắc nghiệt",
+      "meaning_vi_inline": "cực đoan",
+      "example_en": "Extreme weather is becoming more common.",
+      "example_vi": "Thời tiết cực đoan đang trở nên phổ biến hơn.",
+      "word_family": {
+        "noun": "extreme / extremity",
+        "verb": null,
+        "adjective": "extreme",
+        "adverb": "extremely"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "atmosphere",
+      "ipa": "/ˈæt.mə.sfɪər/",
+      "pos": "noun",
+      "meaning_vi": "bầu khí quyển",
+      "meaning_vi_inline": "khí quyển",
+      "example_en": "Pollution damages the atmosphere.",
+      "example_vi": "Ô nhiễm gây thiệt hại cho bầu khí quyển.",
+      "word_family": {
+        "noun": "atmosphere",
+        "verb": null,
+        "adjective": "atmospheric",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "warming",
+      "ipa": "/ˈwɔː.mɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "sự ấm lên",
+      "meaning_vi_inline": "ấm lên",
+      "example_en": "Global warming is a serious threat.",
+      "example_vi": "Sự ấm lên toàn cầu là mối đe dọa nghiêm trọng.",
+      "word_family": {
+        "noun": "warming",
+        "verb": "warm",
+        "adjective": "warm",
+        "adverb": "warmly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "target",
+      "ipa": "/ˈtɑː.ɡɪt/",
+      "pos": "noun",
+      "meaning_vi": "mục tiêu",
+      "meaning_vi_inline": "mục tiêu",
+      "example_en": "Countries must meet their emissions targets.",
+      "example_vi": "Các quốc gia phải đạt được các mục tiêu khí thải của mình.",
+      "word_family": {
+        "noun": "target",
+        "verb": "target",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "agreement",
+      "ipa": "/əˈɡriː.mənt/",
+      "pos": "noun",
+      "meaning_vi": "hiệp định, thỏa thuận",
+      "meaning_vi_inline": "hiệp định",
+      "example_en": "The Paris Agreement aims to limit warming.",
+      "example_vi": "Hiệp định Paris nhằm hạn chế sự ấm lên.",
+      "word_family": {
+        "noun": "agreement",
+        "verb": "agree",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "effect",
+      "ipa": "/ɪˈfekt/",
+      "pos": "noun",
+      "meaning_vi": "tác động, hậu quả",
+      "meaning_vi_inline": "tác động",
+      "example_en": "The effects of climate change are serious.",
+      "example_vi": "Các tác động của biến đổi khí hậu rất nghiêm trọng.",
+      "word_family": {
+        "noun": "effect",
+        "verb": "affect",
+        "adjective": "effective",
+        "adverb": "effectively"
+      },
+      "false_friend": {
+        "word_vi": "affect",
+        "explanation_vi": "'Effect' là danh từ (tác động); 'affect' là động từ (ảnh hưởng) — không nhầm lẫn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "pos": "noun",
+      "meaning_vi": "độ (nhiệt độ)",
+      "meaning_vi_inline": "độ",
+      "example_en": "Temperatures rose by two degrees.",
+      "example_vi": "Nhiệt độ tăng hai độ.",
+      "word_family": {
+        "noun": "degree",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "bằng cấp",
+        "explanation_vi": "'Degree' có thể là độ nhiệt độ hoặc bằng cấp — context quyết định nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "cut down",
+      "ipa": "/kʌt daʊn/",
+      "pos": "phrasal verb",
+      "meaning_vi": "giảm thiểu, cắt giảm",
+      "meaning_vi_inline": "cắt giảm",
+      "example_en": "We must cut down on carbon emissions.",
+      "example_vi": "Chúng ta phải cắt giảm lượng khí thải carbon.",
+      "word_family": {
+        "noun": null,
+        "verb": "cut down",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Fossil fuels include coal, oil, and natural gas.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A two-degree rise in temperature would have no serious consequences.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "All countries in the world have signed climate agreements.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Renewable energy sources include wind and solar power.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Individual actions cannot help reduce carbon emissions.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Burning _____ such as coal and oil releases harmful gases into the atmosphere.",
+          "options": [
+            "renewable energy",
+            "fossil fuels",
+            "greenhouse targets",
+            "carbon agreements"
+          ],
+          "answer": "fossil fuels"
+        },
+        {
+          "id": 2,
+          "sentence": "Scientists say that _____ weather events like droughts and floods are becoming more frequent.",
+          "options": [
+            "renewable",
+            "atmospheric",
+            "extreme",
+            "warming"
+          ],
+          "answer": "extreme"
+        },
+        {
+          "id": 3,
+          "sentence": "Many countries have set _____ to reduce their carbon emissions by 2050.",
+          "options": [
+            "floods",
+            "degrees",
+            "targets",
+            "effects"
+          ],
+          "answer": "targets"
+        },
+        {
+          "id": 4,
+          "sentence": "The government plans to invest in _____ energy to replace coal and gas.",
+          "options": [
+            "renewable",
+            "extreme",
+            "fossil",
+            "greenhouse"
+          ],
+          "answer": "renewable"
+        },
+        {
+          "id": 5,
+          "sentence": "We all need to _____ on the amount of energy we use at home.",
+          "options": [
+            "warm up",
+            "flood",
+            "emit",
+            "cut down"
+          ],
+          "answer": "cut down"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "atmosphere",
+        "warming",
+        "agreement",
+        "drought",
+        "carbon"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The international _____ set clear rules for reducing pollution globally.",
+          "answer": "agreement"
+        },
+        {
+          "id": 2,
+          "sentence": "A severe _____ last summer destroyed crops across the region.",
+          "answer": "drought"
+        },
+        {
+          "id": 3,
+          "sentence": "Global _____ is caused mainly by greenhouse gases in the atmosphere.",
+          "answer": "warming"
+        },
+        {
+          "id": 4,
+          "sentence": "Factories release large amounts of _____ dioxide into the air each day.",
+          "answer": "carbon"
+        },
+        {
+          "id": 5,
+          "sentence": "Pollution from cars and factories damages the Earth's _____.",
+          "answer": "atmosphere"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "burning",
+            "fossil",
+            "fuels",
+            "releases",
+            "harmful",
+            "gases"
+          ],
+          "answer": "Burning fossil fuels releases harmful gases."
+        },
+        {
+          "id": 2,
+          "words": [
+            "extreme",
+            "weather",
+            "events",
+            "are",
+            "becoming",
+            "more",
+            "common"
+          ],
+          "answer": "Extreme weather events are becoming more common."
+        },
+        {
+          "id": 3,
+          "words": [
+            "countries",
+            "must",
+            "meet",
+            "their",
+            "emissions",
+            "targets"
+          ],
+          "answer": "Countries must meet their emissions targets."
+        },
+        {
+          "id": 4,
+          "words": [
+            "solar",
+            "energy",
+            "is",
+            "a",
+            "renewable",
+            "source",
+            "of",
+            "energy"
+          ],
+          "answer": "Solar energy is a renewable source of energy."
+        },
+        {
+          "id": 5,
+          "words": [
+            "we",
+            "should",
+            "cut",
+            "down",
+            "on",
+            "our",
+            "energy",
+            "use"
+          ],
+          "answer": "We should cut down on our energy use."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Burning [fossil fuel] releases large amounts of [carbon] into the [atmosphere].",
+          "highlighted": "fossil fuel",
+          "options": {
+            "A": "fossil fuel",
+            "B": "fossil fuels",
+            "C": "fossil-fuelled"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: fossil fuels (coal, oil, and gas)."
+        },
+        {
+          "id": 2,
+          "sentence": "The [effect] of climate change are already visible around the world.",
+          "highlighted": "effect",
+          "options": {
+            "A": "effect",
+            "B": "effects",
+            "C": "affecting"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: the effects (multiple consequences)."
+        },
+        {
+          "id": 3,
+          "sentence": "Scientists warn that a rise of two [degree] could cause serious problems.",
+          "highlighted": "degree",
+          "options": {
+            "A": "degree",
+            "B": "degrees",
+            "C": "degreed"
+          },
+          "answer": "B",
+          "explanation": "Plural needed after a number: two degrees."
+        },
+        {
+          "id": 4,
+          "sentence": "We must [cut down] on use [fossil] energy sources to protect the environment.",
+          "highlighted": "fossil",
+          "options": {
+            "A": "fossil",
+            "B": "fossil fuel",
+            "C": "fossilised"
+          },
+          "answer": "B",
+          "explanation": "The correct term is 'fossil fuel': cut down on fossil fuel use."
+        },
+        {
+          "id": 5,
+          "sentence": "Countries need to sign new [agreement] to reduce their [emission] levels.",
+          "highlighted": "agreement",
+          "options": {
+            "A": "agreement",
+            "B": "agreements",
+            "C": "agreeing"
+          },
+          "answer": "B",
+          "explanation": "Plural needed: new agreements (multiple countries)."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "fossil fuels",
+      "2": "extreme",
+      "3": "targets",
+      "4": "renewable",
+      "5": "cut down"
+    },
+    "ex3": {
+      "1": "agreement",
+      "2": "drought",
+      "3": "warming",
+      "4": "carbon",
+      "5": "atmosphere"
+    },
+    "ex4": {
+      "1": "Burning fossil fuels releases harmful gases.",
+      "2": "Extreme weather events are becoming more common.",
+      "3": "Countries must meet their emissions targets.",
+      "4": "Solar energy is a renewable source of energy.",
+      "5": "We should cut down on our energy use."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

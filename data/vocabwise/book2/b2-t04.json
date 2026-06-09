@@ -1,0 +1,634 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 4,
+    "topic_id": "b2-t04",
+    "topic_title": "Law & Crime",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "word_count": 176,
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
+  },
+  "passage": {
+    "word_count": 176,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Crime affects every society, and most countries have a legal system designed to deliver **justice** fairly. When a crime is committed, police investigate the **offence** and collect **evidence** — information that helps prove what happened. If there is enough **evidence**, the police may arrest a **suspect** and bring them to **trial**.",
+        "text_vi": "Tội phạm ảnh hưởng đến mọi xã hội, và hầu hết các quốc gia đều có hệ thống pháp luật được thiết kế để thực thi **công lý** một cách công bằng. Khi một tội phạm xảy ra, cảnh sát điều tra **hành vi vi phạm** và thu thập **bằng chứng** — thông tin giúp chứng minh những gì đã xảy ra. Nếu có đủ **bằng chứng**, cảnh sát có thể bắt giữ **nghi phạm** và đưa họ ra **xét xử**."
+      },
+      {
+        "index": 2,
+        "text_en": "During a **trial**, a judge and sometimes a jury listen to both sides of the case. A **witness** may be called to describe what they saw or heard. At the end of the process, a **verdict** is announced — either guilty or not guilty. If the person is found guilty, the court will **convict** them and decide on a suitable **penalty**, such as a fine or prison sentence.",
+        "text_vi": "Trong một **phiên tòa**, thẩm phán và đôi khi có bồi thẩm đoàn lắng nghe cả hai phía. Một **nhân chứng** có thể được mời để mô tả những gì họ đã nhìn thấy hoặc nghe thấy. Cuối quá trình, **phán quyết** được tuyên bố — có tội hoặc vô tội. Nếu bị kết tội, tòa án sẽ **kết án** họ và quyết định **hình phạt** phù hợp."
+      },
+      {
+        "index": 3,
+        "text_en": "Some crimes involve dishonesty for personal gain. **Fraud** and **corruption** are serious **offences** that can damage businesses and governments alike. Those found guilty of such crimes may face heavy **penalties** and a permanent criminal record.",
+        "text_vi": "Một số tội phạm liên quan đến sự gian dối vì lợi ích cá nhân. **Gian lận** và **tham nhũng** là những **hành vi vi phạm** nghiêm trọng có thể gây tổn hại cho cả doanh nghiệp lẫn chính phủ."
+      },
+      {
+        "index": 4,
+        "text_en": "The legal system also allows **offenders** to **appeal** — to ask a higher court to review the decision if they believe the **verdict** was unfair. It is the responsibility of the government to **enforce** the law and **prosecute** those who break it, ensuring that **justice** is served for everyone.",
+        "text_vi": "Hệ thống pháp luật cũng cho phép **người vi phạm** **kháng cáo** — yêu cầu tòa án cấp cao hơn xem xét lại quyết định. Chính phủ có trách nhiệm **thực thi** pháp luật và **truy tố** những người vi phạm, đảm bảo rằng **công lý** được thực hiện cho tất cả mọi người."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "evidence",
+      "ipa": "/ˈev.ɪ.dəns/",
+      "pos": "noun",
+      "meaning_vi": "bằng chứng",
+      "meaning_vi_inline": "bằng chứng",
+      "example_en": "The police found clear evidence.",
+      "example_vi": "Cảnh sát tìm thấy bằng chứng rõ ràng.",
+      "word_family": {
+        "noun": "evidence",
+        "verb": null,
+        "adjective": "evident",
+        "adverb": "evidently"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "verdict",
+      "ipa": "/ˈvɜː.dɪkt/",
+      "pos": "noun",
+      "meaning_vi": "phán quyết",
+      "meaning_vi_inline": "phán quyết",
+      "example_en": "The jury delivered a guilty verdict.",
+      "example_vi": "Bồi thẩm đoàn đưa ra phán quyết có tội.",
+      "word_family": {
+        "noun": "verdict",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "suspect",
+      "ipa": "/ˈsʌs.pekt/",
+      "pos": "noun",
+      "meaning_vi": "nghi phạm",
+      "meaning_vi_inline": "nghi phạm",
+      "example_en": "Police arrested the main suspect.",
+      "example_vi": "Cảnh sát bắt giữ nghi phạm chính.",
+      "word_family": {
+        "noun": "suspicion",
+        "verb": "suspect",
+        "adjective": "suspicious",
+        "adverb": "suspiciously"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "fraud",
+      "ipa": "/frɔːd/",
+      "pos": "noun",
+      "meaning_vi": "gian lận, lừa đảo",
+      "meaning_vi_inline": "gian lận",
+      "example_en": "He was jailed for tax fraud.",
+      "example_vi": "Anh ta bị tù vì tội gian lận thuế.",
+      "word_family": {
+        "noun": "fraud",
+        "verb": null,
+        "adjective": "fraudulent",
+        "adverb": "fraudulently"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "corruption",
+      "ipa": "/kəˈrʌp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tham nhũng",
+      "meaning_vi_inline": "tham nhũng",
+      "example_en": "Corruption damages public trust.",
+      "example_vi": "Tham nhũng gây tổn hại đến niềm tin công chúng.",
+      "word_family": {
+        "noun": "corruption",
+        "verb": "corrupt",
+        "adjective": "corrupt",
+        "adverb": "corruptly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "witness",
+      "ipa": "/ˈwɪt.nɪs/",
+      "pos": "noun",
+      "meaning_vi": "nhân chứng",
+      "meaning_vi_inline": "nhân chứng",
+      "example_en": "The witness described the incident.",
+      "example_vi": "Nhân chứng mô tả sự việc.",
+      "word_family": {
+        "noun": "witness",
+        "verb": "witness",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "offender",
+      "ipa": "/əˈfen.dər/",
+      "pos": "noun",
+      "meaning_vi": "người vi phạm pháp luật",
+      "meaning_vi_inline": "người vi phạm",
+      "example_en": "First-time offenders may avoid prison.",
+      "example_vi": "Người vi phạm lần đầu có thể tránh được tù.",
+      "word_family": {
+        "noun": "offender / offence",
+        "verb": "offend",
+        "adjective": "offensive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "appeal",
+      "ipa": "/əˈpiːl/",
+      "pos": "verb/noun",
+      "meaning_vi": "kháng cáo",
+      "meaning_vi_inline": "kháng cáo",
+      "example_en": "He decided to appeal the verdict.",
+      "example_vi": "Anh ta quyết định kháng cáo phán quyết.",
+      "word_family": {
+        "noun": "appeal",
+        "verb": "appeal",
+        "adjective": "appealing",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "appeal (hấp dẫn)",
+        "explanation_vi": "'Appeal' còn có nghĩa là thu hút — context quyết định nghĩa."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "justice",
+      "ipa": "/ˈdʒʌs.tɪs/",
+      "pos": "noun",
+      "meaning_vi": "công lý",
+      "meaning_vi_inline": "công lý",
+      "example_en": "Everyone deserves justice.",
+      "example_vi": "Mọi người đều xứng đáng được hưởng công lý.",
+      "word_family": {
+        "noun": "justice",
+        "verb": "justify",
+        "adjective": "just / unjust",
+        "adverb": "justly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "penalty",
+      "ipa": "/ˈpen.əl.ti/",
+      "pos": "noun",
+      "meaning_vi": "hình phạt",
+      "meaning_vi_inline": "hình phạt",
+      "example_en": "The penalty for speeding is a fine.",
+      "example_vi": "Hình phạt cho lỗi vượt tốc là bị phạt tiền.",
+      "word_family": {
+        "noun": "penalty",
+        "verb": "penalise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "trial",
+      "ipa": "/ˈtraɪ.əl/",
+      "pos": "noun",
+      "meaning_vi": "phiên tòa xét xử",
+      "meaning_vi_inline": "phiên tòa",
+      "example_en": "The trial lasted three weeks.",
+      "example_vi": "Phiên tòa kéo dài ba tuần.",
+      "word_family": {
+        "noun": "trial",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "thử nghiệm",
+        "explanation_vi": "'Trial' có thể là phiên tòa hoặc thử nghiệm — context quyết định nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "offence",
+      "ipa": "/əˈfens/",
+      "pos": "noun",
+      "meaning_vi": "hành vi vi phạm pháp luật",
+      "meaning_vi_inline": "vi phạm",
+      "example_en": "Speeding is a traffic offence.",
+      "example_vi": "Vượt tốc độ là vi phạm giao thông.",
+      "word_family": {
+        "noun": "offence",
+        "verb": "offend",
+        "adjective": "offensive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "offense (US)",
+        "explanation_vi": "'Offence' là cách viết UK; 'offense' là cách viết US — cùng nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "prosecute",
+      "ipa": "/ˈprɒs.ɪ.kjuːt/",
+      "pos": "verb",
+      "meaning_vi": "truy tố",
+      "meaning_vi_inline": "truy tố",
+      "example_en": "The company was prosecuted for fraud.",
+      "example_vi": "Công ty bị truy tố vì tội gian lận.",
+      "word_family": {
+        "noun": "prosecution",
+        "verb": "prosecute",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "convict",
+      "ipa": "/kənˈvɪkt/",
+      "pos": "verb",
+      "meaning_vi": "kết tội, tuyên phạt",
+      "meaning_vi_inline": "kết tội",
+      "example_en": "He was convicted of theft.",
+      "example_vi": "Anh ta bị kết tội trộm cắp.",
+      "word_family": {
+        "noun": "conviction",
+        "verb": "convict",
+        "adjective": "convicted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "enforce",
+      "ipa": "/ɪnˈfɔːs/",
+      "pos": "verb",
+      "meaning_vi": "thực thi (pháp luật)",
+      "meaning_vi_inline": "thực thi",
+      "example_en": "Police enforce the law every day.",
+      "example_vi": "Cảnh sát thực thi pháp luật mỗi ngày.",
+      "word_family": {
+        "noun": "enforcement",
+        "verb": "enforce",
+        "adjective": "enforceable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Police collect evidence before arresting a suspect.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A witness is always a family member of the offender.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Fraud and corruption only affect private businesses.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "All offenders receive a prison sentence if convicted.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "Offenders have the right to appeal a verdict they disagree with.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The jury listened to all the _____ before making their decision.",
+          "options": [
+            "penalties",
+            "trials",
+            "evidence",
+            "offenders"
+          ],
+          "answer": "evidence"
+        },
+        {
+          "id": 2,
+          "sentence": "After a three-week _____, the judge found him guilty of fraud.",
+          "options": [
+            "verdict",
+            "penalty",
+            "trial",
+            "appeal"
+          ],
+          "answer": "trial"
+        },
+        {
+          "id": 3,
+          "sentence": "The government must _____ the law to keep society safe.",
+          "options": [
+            "convict",
+            "prosecute",
+            "appeal",
+            "enforce"
+          ],
+          "answer": "enforce"
+        },
+        {
+          "id": 4,
+          "sentence": "She was _____ of corruption and sentenced to five years in prison.",
+          "options": [
+            "appealed",
+            "convicted",
+            "witnessed",
+            "penalised"
+          ],
+          "answer": "convicted"
+        },
+        {
+          "id": 5,
+          "sentence": "Taking money from customers dishonestly is a serious _____.",
+          "options": [
+            "verdict",
+            "witness",
+            "offence",
+            "justice"
+          ],
+          "answer": "offence"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "suspect",
+        "corruption",
+        "penalty",
+        "witness",
+        "justice"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The only _____ to the crime was a young boy who saw everything.",
+          "answer": "witness"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ for not paying taxes can be very serious.",
+          "answer": "penalty"
+        },
+        {
+          "id": 3,
+          "sentence": "The court's job is to deliver _____ to both the victim and the accused.",
+          "answer": "justice"
+        },
+        {
+          "id": 4,
+          "sentence": "Police identified a _____ and began their investigation immediately.",
+          "answer": "suspect"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ in government makes it very hard for citizens to trust their leaders.",
+          "answer": "corruption"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "court",
+            "convicted",
+            "of",
+            "him",
+            "fraud"
+          ],
+          "answer": "The court convicted him of fraud."
+        },
+        {
+          "id": 2,
+          "words": [
+            "evidence",
+            "enough",
+            "was",
+            "there",
+            "to",
+            "the",
+            "suspect",
+            "arrest"
+          ],
+          "answer": "There was enough evidence to arrest the suspect."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "offender",
+            "appealed",
+            "against",
+            "the",
+            "verdict"
+          ],
+          "answer": "The offender appealed against the verdict."
+        },
+        {
+          "id": 4,
+          "words": [
+            "it",
+            "is",
+            "the",
+            "government's",
+            "responsibility",
+            "to",
+            "enforce",
+            "the",
+            "law"
+          ],
+          "answer": "It is the government's responsibility to enforce the law."
+        },
+        {
+          "id": 5,
+          "words": [
+            "corruption",
+            "in",
+            "government",
+            "damages",
+            "public",
+            "trust"
+          ],
+          "answer": "Corruption in government damages public trust."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The police found strong [evident] that proved he was at the scene.",
+          "highlighted": "evident",
+          "options": {
+            "A": "evident",
+            "B": "evidence",
+            "C": "evidently"
+          },
+          "answer": "B",
+          "explanation": "'Evidence' is the noun form needed here."
+        },
+        {
+          "id": 2,
+          "sentence": "She was [convicted] of [fraudulent] and sent to prison for two years.",
+          "highlighted": "fraudulent",
+          "options": {
+            "A": "fraudulent",
+            "B": "fraud",
+            "C": "fraudulence"
+          },
+          "answer": "B",
+          "explanation": "'Fraud' is the noun — the name of the crime."
+        },
+        {
+          "id": 3,
+          "sentence": "The judge announced the [verdict's] at the end of the trial.",
+          "highlighted": "verdict's",
+          "options": {
+            "A": "verdict's",
+            "B": "verdict",
+            "C": "verdicts"
+          },
+          "answer": "B",
+          "explanation": "No possessive needed — 'verdict' is a simple noun here."
+        },
+        {
+          "id": 4,
+          "sentence": "It is the duty of police to [enforcing] the law in every community.",
+          "highlighted": "enforcing",
+          "options": {
+            "A": "enforcing",
+            "B": "enforce",
+            "C": "enforcement"
+          },
+          "answer": "B",
+          "explanation": "After 'to', use the base form: to enforce."
+        },
+        {
+          "id": 5,
+          "sentence": "The offender decided to appeal the [penalise] given by the court.",
+          "highlighted": "penalise",
+          "options": {
+            "A": "penalise",
+            "B": "penalty",
+            "C": "penalised"
+          },
+          "answer": "B",
+          "explanation": "'Penalty' is the noun — the punishment given."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "evidence",
+      "2": "trial",
+      "3": "enforce",
+      "4": "convicted",
+      "5": "offence"
+    },
+    "ex3": {
+      "1": "witness",
+      "2": "penalty",
+      "3": "justice",
+      "4": "suspect",
+      "5": "corruption"
+    },
+    "ex4": {
+      "1": "The court convicted him of fraud.",
+      "2": "There was enough evidence to arrest the suspect.",
+      "3": "The offender appealed against the verdict.",
+      "4": "It is the government's responsibility to enforce the law.",
+      "5": "Corruption in government damages public trust."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}
