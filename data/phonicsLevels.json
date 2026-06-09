@@ -1,0 +1,2594 @@
+{
+  "levels": [
+    {
+      "id": "vowels-short",
+      "title": "Short Vowels",
+      "titleVi": "Nguyên âm ngắn",
+      "subtitle": "7 nguyên âm ngắn cơ bản",
+      "emoji": "🔵",
+      "gradient": "from-sky-500 to-blue-600",
+      "bg": "bg-sky-50",
+      "border": "border-sky-300",
+      "text": "text-sky-700",
+      "btn": "bg-sky-600",
+      "bar": "from-sky-400 to-blue-500",
+      "lessons": [
+        {
+          "id": "iː-ɪ",
+          "type": "pair",
+          "title": "iː / ɪ",
+          "subtitle": "tree · fish",
+          "emoji": "🌳",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "iː",
+              "keyword": "tree",
+              "emoji": "🌳",
+              "vi": "cây",
+              "wikiAudio": "/audio/phonemes/Close_front_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ɪ",
+              "keyword": "fish",
+              "emoji": "🐟",
+              "vi": "cá",
+              "wikiAudio": "/audio/phonemes/Near-close_near-front_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "tree",
+            "fish",
+            "see",
+            "sit",
+            "eat",
+            "it",
+            "bean",
+            "bin",
+            "feet",
+            "fit",
+            "heat",
+            "hit"
+          ],
+          "tip": "iː: kéo dài miệng ra hai bên · ɪ: miệng thả lỏng hơn",
+          "practice_sentences": [
+            {
+              "en": "See the fish.",
+              "highlight": [
+                "see",
+                "fish"
+              ]
+            },
+            {
+              "en": "Sit and eat some beans.",
+              "highlight": [
+                "sit",
+                "eat",
+                "beans"
+              ]
+            },
+            {
+              "en": "The fish swims in the deep sea.",
+              "highlight": [
+                "fish",
+                "swims",
+                "deep",
+                "sea"
+              ]
+            },
+            {
+              "en": "She sees big fish near the green trees.",
+              "highlight": [
+                "sees",
+                "fish",
+                "green",
+                "trees"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uː-ʊ",
+          "type": "pair",
+          "title": "uː / ʊ",
+          "subtitle": "moon · book",
+          "emoji": "🌕",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "uː",
+              "keyword": "moon",
+              "emoji": "🌕",
+              "vi": "mặt trăng",
+              "wikiAudio": "/audio/phonemes/Close_back_rounded_vowel.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ʊ",
+              "keyword": "book",
+              "emoji": "📖",
+              "vi": "sách",
+              "wikiAudio": "/audio/phonemes/Near-close_near-back_rounded_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "moon",
+            "book",
+            "food",
+            "foot",
+            "cool",
+            "cook",
+            "pool",
+            "pull",
+            "stool",
+            "full",
+            "boot",
+            "hook"
+          ],
+          "tip": "uː: môi tròn căng · ʊ: môi tròn nhẹ, miệng hơi mở hơn",
+          "practice_sentences": [
+            {
+              "en": "Cook the food.",
+              "highlight": [
+                "cook",
+                "food"
+              ]
+            },
+            {
+              "en": "Look at the cool moon.",
+              "highlight": [
+                "cool",
+                "moon"
+              ]
+            },
+            {
+              "en": "The cook made good food.",
+              "highlight": [
+                "cook",
+                "food"
+              ]
+            },
+            {
+              "en": "Look at the moon and the pool.",
+              "highlight": [
+                "moon",
+                "pool"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ɑː-ʌ",
+          "type": "pair",
+          "title": "ɑː / ʌ",
+          "subtitle": "car · cup",
+          "emoji": "🚗",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ɑː",
+              "keyword": "car",
+              "emoji": "🚗",
+              "vi": "xe hơi",
+              "wikiAudio": "/audio/phonemes/Open_back_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ʌ",
+              "keyword": "cup",
+              "emoji": "☕",
+              "vi": "cái cốc",
+              "wikiAudio": "/audio/phonemes/PR-open-mid_back_unrounded_vowel2.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "car",
+            "cup",
+            "far",
+            "fun",
+            "hard",
+            "hug",
+            "park",
+            "puck",
+            "barn",
+            "bun",
+            "heart",
+            "hut"
+          ],
+          "tip": "ɑː: há miệng rộng, kéo dài · ʌ: há vừa, ngắn",
+          "practice_sentences": [
+            {
+              "en": "Run to the car.",
+              "highlight": [
+                "car"
+              ]
+            },
+            {
+              "en": "My cup is in the car.",
+              "highlight": [
+                "cup",
+                "car"
+              ]
+            },
+            {
+              "en": "Mum runs far from the farm.",
+              "highlight": [
+                "far"
+              ]
+            },
+            {
+              "en": "Park the car.",
+              "highlight": [
+                "park",
+                "car"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ɒ-ɔː",
+          "type": "pair",
+          "title": "ɒ / ɔː",
+          "subtitle": "dog · ball",
+          "emoji": "🐶",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ɒ",
+              "keyword": "dog",
+              "emoji": "🐶",
+              "vi": "con chó",
+              "wikiAudio": "/audio/phonemes/PR-open_back_rounded_vowel.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ɔː",
+              "keyword": "ball",
+              "emoji": "⚽",
+              "vi": "quả bóng",
+              "wikiAudio": "/audio/phonemes/PR-open-mid_back_rounded_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "dog",
+            "ball",
+            "hot",
+            "hall",
+            "lot",
+            "law",
+            "top",
+            "talk",
+            "dot",
+            "door",
+            "got",
+            "gore"
+          ],
+          "tip": "ɒ: ngắn, miệng hơi tròn · ɔː: kéo dài, môi tròn căng hơn",
+          "practice_sentences": [
+            {
+              "en": "The dog got the ball.",
+              "highlight": [
+                "dog",
+                "got",
+                "ball"
+              ]
+            },
+            {
+              "en": "Walk the dog at four.",
+              "highlight": [
+                "dog",
+                "four"
+              ]
+            },
+            {
+              "en": "Call the dog and stop.",
+              "highlight": [
+                "dog"
+              ]
+            },
+            {
+              "en": "The dog walked to the hall door.",
+              "highlight": [
+                "dog",
+                "hall",
+                "door"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e-æ",
+          "type": "pair",
+          "title": "e / æ",
+          "subtitle": "bed · bag",
+          "emoji": "🛏️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "e",
+              "keyword": "bed",
+              "emoji": "🛏️",
+              "vi": "cái giường",
+              "wikiAudio": "/audio/phonemes/Open-mid_front_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "æ",
+              "keyword": "bag",
+              "emoji": "👜",
+              "vi": "cái túi",
+              "wikiAudio": "/audio/phonemes/Near-open_front_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "bed",
+            "bag",
+            "red",
+            "rat",
+            "ten",
+            "tan",
+            "pen",
+            "pan",
+            "met",
+            "mat",
+            "set",
+            "sat"
+          ],
+          "tip": "e: miệng mở vừa · æ: há miệng rộng hơn và kéo hơi dài",
+          "practice_sentences": [
+            {
+              "en": "I have a pen and a bag.",
+              "highlight": [
+                "pen",
+                "bag"
+              ]
+            },
+            {
+              "en": "The red bag is sat here.",
+              "highlight": [
+                "red",
+                "bag",
+                "sat"
+              ]
+            },
+            {
+              "en": "I have ten red pens and bags.",
+              "highlight": [
+                "ten",
+                "red",
+                "pens",
+                "bags"
+              ]
+            },
+            {
+              "en": "She set the bag on the bed.",
+              "highlight": [
+                "set",
+                "bag",
+                "bed"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ɜː",
+          "type": "pair",
+          "title": "ɜː",
+          "subtitle": "bird",
+          "emoji": "🐦",
+          "games": [
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ɜː",
+              "keyword": "bird",
+              "emoji": "🐦",
+              "vi": "con chim",
+              "wikiAudio": "/audio/phonemes/Open-mid_central_unrounded_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "bird",
+            "word",
+            "girl",
+            "burn",
+            "turn",
+            "learn",
+            "work",
+            "heard",
+            "earth",
+            "first",
+            "nurse",
+            "world"
+          ],
+          "tip": "ɜː: miệng hơi mở, môi không tròn, kéo dài — tiếng Việt không có âm này",
+          "practice_sentences": [
+            {
+              "en": "A bird can learn.",
+              "highlight": [
+                "bird",
+                "learn"
+              ]
+            },
+            {
+              "en": "The nurse heard a bird.",
+              "highlight": [
+                "nurse",
+                "heard",
+                "bird"
+              ]
+            },
+            {
+              "en": "The girl learned her first word.",
+              "highlight": [
+                "girl",
+                "learned",
+                "first",
+                "word"
+              ]
+            },
+            {
+              "en": "She heard the bird and turned.",
+              "highlight": [
+                "heard",
+                "bird",
+                "turned"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ə",
+          "type": "pair",
+          "title": "ə",
+          "subtitle": "about (schwa)",
+          "emoji": "💬",
+          "games": [
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ə",
+              "keyword": "about",
+              "emoji": "💬",
+              "vi": "schwa — âm trung tâm",
+              "wikiAudio": "/audio/phonemes/Mid-central_vowel.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "about",
+            "teacher",
+            "paper",
+            "butter",
+            "garden",
+            "open",
+            "sister",
+            "doctor",
+            "under",
+            "mother",
+            "water",
+            "together"
+          ],
+          "tip": "ə (schwa) là nguyên âm phổ biến nhất — xuất hiện ở âm tiết không nhấn. VD: 'a' trong 'about', 'er' trong 'teacher'",
+          "practice_sentences": [
+            {
+              "en": "A teacher and a doctor.",
+              "highlight": [
+                "teacher",
+                "doctor"
+              ]
+            },
+            {
+              "en": "Her mother opens the paper.",
+              "highlight": [
+                "mother",
+                "paper"
+              ]
+            },
+            {
+              "en": "The mother and sister work together.",
+              "highlight": [
+                "mother",
+                "sister",
+                "together"
+              ]
+            },
+            {
+              "en": "The doctor and teacher work together.",
+              "highlight": [
+                "doctor",
+                "teacher",
+                "together"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "Diphthongs",
+      "titleVi": "Nguyên âm đôi",
+      "subtitle": "5 nguyên âm đôi quan trọng",
+      "emoji": "🎶",
+      "gradient": "from-indigo-500 to-violet-600",
+      "bg": "bg-indigo-50",
+      "border": "border-indigo-300",
+      "text": "text-indigo-700",
+      "btn": "bg-indigo-600",
+      "bar": "from-indigo-400 to-violet-500",
+      "lessons": [
+        {
+          "id": "eɪ-aɪ",
+          "type": "pair",
+          "title": "eɪ / aɪ",
+          "subtitle": "day · fly",
+          "emoji": "☀️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "eɪ",
+              "keyword": "day",
+              "emoji": "☀️",
+              "vi": "ngày",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "aɪ",
+              "keyword": "fly",
+              "emoji": "✈️",
+              "vi": "bay",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "day",
+            "fly",
+            "cake",
+            "kite",
+            "play",
+            "pride",
+            "game",
+            "time",
+            "rain",
+            "mine",
+            "face",
+            "fire"
+          ],
+          "tip": "eɪ: từ 'e' trôi lên 'i' · aɪ: từ 'a' rộng trôi lên 'i'",
+          "practice_sentences": [
+            {
+              "en": "I fly a kite on a sunny day.",
+              "highlight": [
+                "fly",
+                "day",
+                "kite"
+              ]
+            },
+            {
+              "en": "We play a game at my house every day.",
+              "highlight": [
+                "play",
+                "day"
+              ]
+            },
+            {
+              "en": "The cake is mine and I will eat it today.",
+              "highlight": [
+                "mine",
+                "today"
+              ]
+            },
+            {
+              "en": "I see a fly near the cake and fire.",
+              "highlight": [
+                "fly",
+                "cake",
+                "fire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "əʊ-aʊ",
+          "type": "pair",
+          "title": "əʊ / aʊ",
+          "subtitle": "go · cow",
+          "emoji": "🏃",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "əʊ",
+              "keyword": "go",
+              "emoji": "🏃",
+              "vi": "đi",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "aʊ",
+              "keyword": "cow",
+              "emoji": "🐮",
+              "vi": "con bò",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "go",
+            "cow",
+            "home",
+            "how",
+            "road",
+            "loud",
+            "snow",
+            "cloud",
+            "boat",
+            "bout",
+            "coat",
+            "couch"
+          ],
+          "tip": "əʊ: từ 'uh' trôi lên 'u' tròn · aʊ: từ 'a' rộng trôi xuống 'u' tròn",
+          "practice_sentences": [
+            {
+              "en": "I go home on the loud road.",
+              "highlight": [
+                "go",
+                "loud"
+              ]
+            },
+            {
+              "en": "The cow is in the snow near my home.",
+              "highlight": [
+                "cow",
+                "snow"
+              ]
+            },
+            {
+              "en": "We go to the cloud in a boat.",
+              "highlight": [
+                "go",
+                "boat",
+                "cloud"
+              ]
+            },
+            {
+              "en": "I wear a coat and sit on the couch to watch a cow.",
+              "highlight": [
+                "coat",
+                "couch",
+                "cow"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ɔɪ",
+          "type": "pair",
+          "title": "ɔɪ",
+          "subtitle": "boy",
+          "emoji": "👦",
+          "games": [
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ɔɪ",
+              "keyword": "boy",
+              "emoji": "👦",
+              "vi": "bé trai",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "boy",
+            "toy",
+            "coin",
+            "join",
+            "oil",
+            "foil",
+            "voice",
+            "noise",
+            "enjoy",
+            "point",
+            "choice",
+            "avoid"
+          ],
+          "tip": "ɔɪ: từ 'aw' tròn trôi lên 'i' — giống âm 'oi' nhưng khởi điểm tròn hơn",
+          "practice_sentences": [
+            {
+              "en": "The boy plays with a toy.",
+              "highlight": [
+                "boy",
+                "toy"
+              ]
+            },
+            {
+              "en": "I like to join the boy and enjoy the noise.",
+              "highlight": [
+                "boy",
+                "join",
+                "enjoy",
+                "noise"
+              ]
+            },
+            {
+              "en": "The coin is made of metal not oil and foil.",
+              "highlight": [
+                "coin",
+                "oil",
+                "foil"
+              ]
+            },
+            {
+              "en": "Let's make a choice to avoid the loud voice and noise.",
+              "highlight": [
+                "choice",
+                "avoid",
+                "voice",
+                "noise"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ɪə-eə",
+          "type": "pair",
+          "title": "ɪə / eə",
+          "subtitle": "ear · hair",
+          "emoji": "👂",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ɪə",
+              "keyword": "ear",
+              "emoji": "👂",
+              "vi": "cái tai",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "eə",
+              "keyword": "hair",
+              "emoji": "💇",
+              "vi": "tóc",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "ear",
+            "hair",
+            "here",
+            "there",
+            "fear",
+            "fair",
+            "near",
+            "bear",
+            "cheer",
+            "chair",
+            "deer",
+            "dare"
+          ],
+          "tip": "ɪə: bắt đầu bằng 'i' ngắn rồi trôi sang 'uh' · eə: bắt đầu bằng 'e' rồi trôi sang 'uh'",
+          "practice_sentences": [
+            {
+              "en": "I have a big ear and nice hair.",
+              "highlight": [
+                "ear",
+                "hair"
+              ]
+            },
+            {
+              "en": "Come and sit here in my chair.",
+              "highlight": [
+                "here",
+                "chair"
+              ]
+            },
+            {
+              "en": "The bear is near the fair.",
+              "highlight": [
+                "bear",
+                "near",
+                "fair"
+              ]
+            },
+            {
+              "en": "I dare you to cheer and show no fear.",
+              "highlight": [
+                "dare",
+                "cheer",
+                "fear"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ʊə",
+          "type": "pair",
+          "title": "ʊə",
+          "subtitle": "pure · tourist",
+          "emoji": "🌿",
+          "games": [
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ʊə",
+              "keyword": "pure",
+              "emoji": "🌿",
+              "vi": "trong sáng",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "pure",
+            "cure",
+            "sure",
+            "your",
+            "tour",
+            "poor",
+            "lure",
+            "fewer",
+            "mature",
+            "during",
+            "endure",
+            "secure"
+          ],
+          "tip": "ʊə: từ 'u' tròn trôi sang 'uh' — ít gặp trong tiếng Anh hiện đại, thường bị thay thế bởi /ɔː/ hoặc /jʊə/",
+          "practice_sentences": [
+            {
+              "en": "The pure water will cure you for sure.",
+              "highlight": [
+                "pure",
+                "cure",
+                "sure"
+              ]
+            },
+            {
+              "en": "I'm sure your tour will be fun during the day.",
+              "highlight": [
+                "sure",
+                "your",
+                "tour",
+                "during"
+              ]
+            },
+            {
+              "en": "The poor bird tried to lure its friend with food.",
+              "highlight": [
+                "poor",
+                "lure"
+              ]
+            },
+            {
+              "en": "Fewer people are mature enough to make a cure.",
+              "highlight": [
+                "fewer",
+                "cure",
+                "mature"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consonants",
+      "title": "Consonant Pairs",
+      "titleVi": "Cặp phụ âm",
+      "subtitle": "8 cặp voiceless / voiced",
+      "emoji": "🔤",
+      "gradient": "from-amber-500 to-orange-500",
+      "bg": "bg-amber-50",
+      "border": "border-amber-300",
+      "text": "text-amber-700",
+      "btn": "bg-amber-600",
+      "bar": "from-amber-400 to-orange-500",
+      "lessons": [
+        {
+          "id": "p-b",
+          "type": "pair",
+          "title": "p / b",
+          "subtitle": "pan · ban",
+          "emoji": "🍳",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "p",
+              "keyword": "pan",
+              "emoji": "🍳",
+              "vi": "cái chảo",
+              "wikiAudio": "/audio/phonemes/Voiceless_bilabial_plosive.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "b",
+              "keyword": "ban",
+              "emoji": "🚫",
+              "vi": "cấm",
+              "wikiAudio": "/audio/phonemes/Voiced_bilabial_plosive.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "pan",
+            "ban",
+            "pet",
+            "bet",
+            "park",
+            "bark",
+            "pin",
+            "bin",
+            "pig",
+            "big",
+            "pat",
+            "bat"
+          ],
+          "tip": "p: không rung dây thanh, thổi hơi mạnh · b: rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "I have a big pet in the park.",
+              "highlight": [
+                "big",
+                "pet",
+                "park"
+              ]
+            },
+            {
+              "en": "The bat and pig are in a bin.",
+              "highlight": [
+                "bat",
+                "pig",
+                "bin"
+              ]
+            },
+            {
+              "en": "My mom will pan food in a pan.",
+              "highlight": [
+                "pan",
+                "pan"
+              ]
+            },
+            {
+              "en": "The dog will bark at a cat on the pat.",
+              "highlight": [
+                "bark",
+                "pat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "t-d",
+          "type": "pair",
+          "title": "t / d",
+          "subtitle": "ten · den",
+          "emoji": "🔢",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "t",
+              "keyword": "ten",
+              "emoji": "🔢",
+              "vi": "mười",
+              "wikiAudio": "/audio/phonemes/Voiceless_alveolar_plosive.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "d",
+              "keyword": "den",
+              "emoji": "🏠",
+              "vi": "cái hang",
+              "wikiAudio": "/audio/phonemes/Voiced_alveolar_plosive.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "ten",
+            "den",
+            "toe",
+            "doe",
+            "tin",
+            "din",
+            "tap",
+            "dab",
+            "tip",
+            "dip",
+            "tear",
+            "dear"
+          ],
+          "tip": "t: lưỡi chạm nướu, không rung · d: lưỡi chạm nướu, rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "I have ten toes and one big toe.",
+              "highlight": [
+                "ten",
+                "toe",
+                "toes"
+              ]
+            },
+            {
+              "en": "The doe lives in a cozy den.",
+              "highlight": [
+                "doe",
+                "den"
+              ]
+            },
+            {
+              "en": "I hear a loud din and a clear tin tap.",
+              "highlight": [
+                "din",
+                "tin",
+                "tap"
+              ]
+            },
+            {
+              "en": "My dear friend will dip her toe in the water.",
+              "highlight": [
+                "dear",
+                "dip",
+                "toe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "k-g",
+          "type": "pair",
+          "title": "k / g",
+          "subtitle": "cat · goat",
+          "emoji": "🐱",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "k",
+              "keyword": "cat",
+              "emoji": "🐱",
+              "vi": "con mèo",
+              "wikiAudio": "/audio/phonemes/Voiceless_velar_plosive.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "g",
+              "keyword": "goat",
+              "emoji": "🐐",
+              "vi": "con dê",
+              "wikiAudio": "/audio/phonemes/Voiced_velar_plosive_02.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "cat",
+            "goat",
+            "cold",
+            "gold",
+            "cap",
+            "gap",
+            "coat",
+            "core",
+            "came",
+            "game",
+            "class",
+            "glass"
+          ],
+          "tip": "k: gốc lưỡi chặn họng, không rung · g: gốc lưỡi chặn họng, rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "The cat wears a warm coat in cold weather.",
+              "highlight": [
+                "cat",
+                "cold",
+                "coat"
+              ]
+            },
+            {
+              "en": "We have a goat and a cat at home.",
+              "highlight": [
+                "goat",
+                "cat"
+              ]
+            },
+            {
+              "en": "I came to class to play a game.",
+              "highlight": [
+                "came",
+                "class",
+                "game"
+              ]
+            },
+            {
+              "en": "The gold cap fits in the gap.",
+              "highlight": [
+                "gold",
+                "cap",
+                "gap"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f-v",
+          "type": "pair",
+          "title": "f / v",
+          "subtitle": "fan · van",
+          "emoji": "🌀",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "f",
+              "keyword": "fan",
+              "emoji": "🌀",
+              "vi": "cái quạt",
+              "wikiAudio": "/audio/phonemes/Voiceless_labio-dental_fricative.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "v",
+              "keyword": "van",
+              "emoji": "🚐",
+              "vi": "xe van",
+              "wikiAudio": "/audio/phonemes/Voiced_labio-dental_fricative.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "fan",
+            "van",
+            "fine",
+            "vine",
+            "fast",
+            "vast",
+            "feel",
+            "veal",
+            "leaf",
+            "leave",
+            "proof",
+            "prove"
+          ],
+          "tip": "f: răng trên chạm môi dưới, thổi hơi · v: răng trên chạm môi dưới, rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "The fan is very fine and fast.",
+              "highlight": [
+                "fan",
+                "fine",
+                "fast"
+              ]
+            },
+            {
+              "en": "I feel happy in my van.",
+              "highlight": [
+                "feel",
+                "van"
+              ]
+            },
+            {
+              "en": "The vine has a big leaf to leave.",
+              "highlight": [
+                "vine",
+                "leaf",
+                "leave"
+              ]
+            },
+            {
+              "en": "You can prove it's a vast veal farm.",
+              "highlight": [
+                "prove",
+                "vast",
+                "veal"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "θ-ð",
+          "type": "pair",
+          "title": "θ / ð",
+          "subtitle": "think · this",
+          "emoji": "💭",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "θ",
+              "keyword": "think",
+              "emoji": "💭",
+              "vi": "suy nghĩ",
+              "wikiAudio": "/audio/phonemes/Voiceless_dental_fricative.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ð",
+              "keyword": "this",
+              "emoji": "👆",
+              "vi": "cái này",
+              "wikiAudio": "/audio/phonemes/Voiced_dental_fricative.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "think",
+            "this",
+            "thin",
+            "then",
+            "three",
+            "there",
+            "thumb",
+            "them",
+            "thank",
+            "that",
+            "path",
+            "bathe"
+          ],
+          "tip": "θ & ð: đầu lưỡi nhô nhẹ ra giữa hai hàng răng — θ không rung, ð rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "I think that is a thin path.",
+              "highlight": [
+                "think",
+                "that",
+                "thin",
+                "path"
+              ]
+            },
+            {
+              "en": "Then I see them bathe in the sea.",
+              "highlight": [
+                "then",
+                "them",
+                "bathe"
+              ]
+            },
+            {
+              "en": "This thumb is very small and thin.",
+              "highlight": [
+                "this",
+                "thumb",
+                "thin"
+              ]
+            },
+            {
+              "en": "We thank them and then go there.",
+              "highlight": [
+                "thank",
+                "them",
+                "then",
+                "there"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s-z",
+          "type": "pair",
+          "title": "s / z",
+          "subtitle": "sun · zoo",
+          "emoji": "☀️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "s",
+              "keyword": "sun",
+              "emoji": "☀️",
+              "vi": "mặt trời",
+              "wikiAudio": "/audio/phonemes/Voiceless_alveolar_sibilant.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "z",
+              "keyword": "zoo",
+              "emoji": "🦁",
+              "vi": "vườn thú",
+              "wikiAudio": "/audio/phonemes/Voiced_alveolar_sibilant.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "sun",
+            "zoo",
+            "sip",
+            "zip",
+            "seal",
+            "zeal",
+            "bus",
+            "buzz",
+            "rice",
+            "rise",
+            "place",
+            "plays"
+          ],
+          "tip": "s: sít hơi qua khe răng, không rung · z: giống s nhưng rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "The sun rises over the busy place.",
+              "highlight": [
+                "sun",
+                "busy",
+                "place"
+              ]
+            },
+            {
+              "en": "We visit the zoo to see a happy seal.",
+              "highlight": [
+                "zoo",
+                "seal"
+              ]
+            },
+            {
+              "en": "I take a sip and zip my bag on the bus.",
+              "highlight": [
+                "sip",
+                "zip",
+                "bus"
+              ]
+            },
+            {
+              "en": "The buzz of fun fills the air when kids play.",
+              "highlight": [
+                "buzz",
+                "play"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ʃ-ʒ",
+          "type": "pair",
+          "title": "ʃ / ʒ",
+          "subtitle": "ship · measure",
+          "emoji": "🚢",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "ʃ",
+              "keyword": "ship",
+              "emoji": "🚢",
+              "vi": "con tàu",
+              "wikiAudio": "/audio/phonemes/Voiceless_palato-alveolar_sibilant.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ʒ",
+              "keyword": "measure",
+              "emoji": "📏",
+              "vi": "đo lường",
+              "wikiAudio": "/audio/phonemes/Voiced_palato-alveolar_sibilant.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "ship",
+            "measure",
+            "shop",
+            "leisure",
+            "shoe",
+            "beige",
+            "cash",
+            "garage",
+            "wash",
+            "vision",
+            "crash",
+            "azure"
+          ],
+          "tip": "ʃ: môi hơi tròn, luồng hơi rộng hơn /s/ · ʒ: giống ʃ nhưng rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "The big ship will crash in the shop.",
+              "highlight": [
+                "ship",
+                "crash",
+                "shop"
+              ]
+            },
+            {
+              "en": "We need to measure the beige shoe size.",
+              "highlight": [
+                "measure",
+                "beige",
+                "shoe"
+              ]
+            },
+            {
+              "en": "I wash my car at the garage every day.",
+              "highlight": [
+                "wash",
+                "garage"
+              ]
+            },
+            {
+              "en": "The vision of a ship in azure water is great leisure.",
+              "highlight": [
+                "vision",
+                "ship",
+                "leisure",
+                "azure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tʃ-dʒ",
+          "type": "pair",
+          "title": "tʃ / dʒ",
+          "subtitle": "chair · jump",
+          "emoji": "🪑",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "tʃ",
+              "keyword": "chair",
+              "emoji": "🪑",
+              "vi": "cái ghế",
+              "wikiAudio": "/audio/phonemes/Voiceless_palato-alveolar_affricate.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "dʒ",
+              "keyword": "jump",
+              "emoji": "🏃",
+              "vi": "nhảy",
+              "wikiAudio": "/audio/phonemes/Voiced_palato-alveolar_affricate.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "chair",
+            "jump",
+            "cheese",
+            "jeans",
+            "chin",
+            "gin",
+            "cheap",
+            "jeep",
+            "match",
+            "badge",
+            "church",
+            "judge"
+          ],
+          "tip": "tʃ: lưỡi bật mạnh từ nướu, không rung · dʒ: giống tʃ nhưng rung dây thanh",
+          "practice_sentences": [
+            {
+              "en": "The chair is near the church.",
+              "highlight": [
+                "chair",
+                "church"
+              ]
+            },
+            {
+              "en": "I like to jump and play with my jeep.",
+              "highlight": [
+                "jump",
+                "jeep"
+              ]
+            },
+            {
+              "en": "She eats cheese and wears cheap jeans.",
+              "highlight": [
+                "cheese",
+                "cheap",
+                "jeans"
+              ]
+            },
+            {
+              "en": "The judge will match the badge with the chin.",
+              "highlight": [
+                "judge",
+                "match",
+                "chin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consonants-other",
+      "title": "Other Consonants",
+      "titleVi": "Phụ âm khác",
+      "subtitle": "Nasals · Approximants · Final stops · Clusters",
+      "emoji": "🔊",
+      "gradient": "from-emerald-500 to-green-600",
+      "bg": "bg-emerald-50",
+      "border": "border-emerald-300",
+      "text": "text-emerald-700",
+      "btn": "bg-emerald-600",
+      "bar": "from-emerald-400 to-green-500",
+      "lessons": [
+        {
+          "id": "m-n-ŋ",
+          "type": "pair",
+          "title": "m / n / ŋ",
+          "subtitle": "map · nap · ring",
+          "emoji": "🗺️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "m",
+              "keyword": "map",
+              "emoji": "🗺️",
+              "vi": "bản đồ",
+              "wikiAudio": "/audio/phonemes/Bilabial_nasal.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "n",
+              "keyword": "nap",
+              "emoji": "😴",
+              "vi": "ngủ trưa",
+              "wikiAudio": "/audio/phonemes/Alveolar_nasal.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "ŋ",
+              "keyword": "ring",
+              "emoji": "💍",
+              "vi": "cái nhẫn",
+              "wikiAudio": "/audio/phonemes/Velar_nasal.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "map",
+            "nap",
+            "ring",
+            "sum",
+            "sun",
+            "sing",
+            "came",
+            "cane",
+            "bang",
+            "ham",
+            "hand",
+            "hang",
+            "slim",
+            "sling"
+          ],
+          "tip": "m: môi khép, hơi qua mũi · n: lưỡi chặn nướu, hơi qua mũi · ŋ: gốc lưỡi chặn họng, hơi qua mũi",
+          "practice_sentences": [
+            {
+              "en": "I have a map and a cane in my hand.",
+              "highlight": [
+                "map",
+                "cane",
+                "hand"
+              ]
+            },
+            {
+              "en": "The sun is shining after my nap.",
+              "highlight": [
+                "sun",
+                "nap"
+              ]
+            },
+            {
+              "en": "We will sing and hang a big ring.",
+              "highlight": [
+                "sing",
+                "hang",
+                "ring"
+              ]
+            },
+            {
+              "en": "I came to bang the drum with a slim sling.",
+              "highlight": [
+                "came",
+                "bang",
+                "slim",
+                "sling"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "h-w-j",
+          "type": "pair",
+          "title": "h / w / j",
+          "subtitle": "hat · wet · yes",
+          "emoji": "🎩",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "h",
+              "keyword": "hat",
+              "emoji": "🎩",
+              "vi": "cái mũ",
+              "wikiAudio": "/audio/phonemes/Voiceless_glottal_fricative.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "w",
+              "keyword": "wet",
+              "emoji": "💧",
+              "vi": "ướt",
+              "wikiAudio": "/audio/phonemes/Voiced_labio-velar_approximant.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "j",
+              "keyword": "yes",
+              "emoji": "✅",
+              "vi": "có",
+              "wikiAudio": "/audio/phonemes/Palatal_approximant.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "hat",
+            "wet",
+            "yes",
+            "hot",
+            "window",
+            "yellow",
+            "hair",
+            "water",
+            "year",
+            "here",
+            "white",
+            "young"
+          ],
+          "tip": "h: thở hơi nhẹ qua họng · w: môi tròn rồi mở · j: lưỡi gần vòm cứng, đẩy hơi ra",
+          "practice_sentences": [
+            {
+              "en": "I wear a hot hat here.",
+              "highlight": [
+                "hot",
+                "hat",
+                "here"
+              ]
+            },
+            {
+              "en": "The window is wet with water.",
+              "highlight": [
+                "window",
+                "wet",
+                "water"
+              ]
+            },
+            {
+              "en": "Yes, the young girl has yellow hair.",
+              "highlight": [
+                "yes",
+                "young",
+                "yellow"
+              ]
+            },
+            {
+              "en": "The white hat is here this year.",
+              "highlight": [
+                "white",
+                "hat",
+                "here",
+                "year"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final-stops",
+          "type": "pair",
+          "title": "-p / -t / -k",
+          "subtitle": "cup · cat · book",
+          "emoji": "☕",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "-p",
+              "keyword": "cup",
+              "emoji": "☕",
+              "vi": "cái cốc",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-t",
+              "keyword": "cat",
+              "emoji": "🐱",
+              "vi": "con mèo",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-k",
+              "keyword": "book",
+              "emoji": "📖",
+              "vi": "sách",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "cup",
+            "cat",
+            "book",
+            "stop",
+            "hit",
+            "look",
+            "map",
+            "hot",
+            "pick",
+            "cap",
+            "bat",
+            "back",
+            "tip",
+            "cut",
+            "check"
+          ],
+          "tip": "Tiếng Việt không có phụ âm cuối bật hơi — phải đóng môi/lưỡi ở cuối từ nhưng KHÔNG bật hơi ra",
+          "practice_sentences": [
+            {
+              "en": "I have a cup and a cat.",
+              "highlight": [
+                "cup",
+                "cat"
+              ]
+            },
+            {
+              "en": "Let's look at the book on the map.",
+              "highlight": [
+                "look",
+                "book",
+                "map"
+              ]
+            },
+            {
+              "en": "The cat will hit the bat and stop.",
+              "highlight": [
+                "cat",
+                "hit",
+                "bat",
+                "stop"
+              ]
+            },
+            {
+              "en": "Pick up the cup and put it back.",
+              "highlight": [
+                "pick",
+                "cup",
+                "back"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "clusters",
+          "type": "pair",
+          "title": "Clusters",
+          "subtitle": "str- · spl-",
+          "emoji": "🛣️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "str-",
+              "keyword": "street",
+              "emoji": "🛣️",
+              "vi": "đường phố",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "spl-",
+              "keyword": "splash",
+              "emoji": "💦",
+              "vi": "bắn nước",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "street",
+            "splash",
+            "strong",
+            "spring",
+            "strike",
+            "spread",
+            "stress",
+            "spray",
+            "strange",
+            "split",
+            "stream",
+            "sprint"
+          ],
+          "tip": "Tiếng Việt chỉ có âm tiết mở — đọc liền các phụ âm, không thêm nguyên âm vào giữa",
+          "practice_sentences": [
+            {
+              "en": "The strong stream runs down the street.",
+              "highlight": [
+                "strong",
+                "stream",
+                "street"
+              ]
+            },
+            {
+              "en": "I love to splash and spray in spring.",
+              "highlight": [
+                "splash",
+                "spring",
+                "spray"
+              ]
+            },
+            {
+              "en": "The strange strike will spread stress everywhere.",
+              "highlight": [
+                "strange",
+                "strike",
+                "stress"
+              ]
+            },
+            {
+              "en": "Let's sprint and split on the street today.",
+              "highlight": [
+                "sprint",
+                "split",
+                "street"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viet-challenges",
+      "title": "Vietnamese Challenges",
+      "titleVi": "Khó với người Việt",
+      "subtitle": "Những âm dễ nhầm nhất",
+      "emoji": "🇻🇳",
+      "gradient": "from-rose-500 to-pink-600",
+      "bg": "bg-rose-50",
+      "border": "border-rose-300",
+      "text": "text-rose-700",
+      "btn": "bg-rose-600",
+      "bar": "from-rose-400 to-pink-500",
+      "lessons": [
+        {
+          "id": "l-r",
+          "type": "pair",
+          "title": "l / r",
+          "subtitle": "lake · rake",
+          "emoji": "🏞️",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "l",
+              "keyword": "lake",
+              "emoji": "🏞️",
+              "vi": "hồ nước",
+              "wikiAudio": "/audio/phonemes/Alveolar_lateral_approximant.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "r",
+              "keyword": "rake",
+              "emoji": "🌾",
+              "vi": "cái cào",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "lake",
+            "rake",
+            "light",
+            "right",
+            "law",
+            "raw",
+            "lead",
+            "read",
+            "lot",
+            "rot",
+            "long",
+            "wrong",
+            "list",
+            "wrist"
+          ],
+          "tip": "l: đầu lưỡi chạm nướu răng trên, hơi thoát hai bên · r: lưỡi cong vào giữa, không chạm đâu cả",
+          "practice_sentences": [
+            {
+              "en": "I will read a book by the lake.",
+              "highlight": [
+                "read",
+                "lake"
+              ]
+            },
+            {
+              "en": "The farmer uses a rake on the lawn.",
+              "highlight": [
+                "rake"
+              ]
+            },
+            {
+              "en": "It is right to lead the dog on a long walk.",
+              "highlight": [
+                "right",
+                "lead",
+                "long"
+              ]
+            },
+            {
+              "en": "The list is raw and needs to be cooked a lot.",
+              "highlight": [
+                "list",
+                "raw",
+                "lot"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "θ-s-viet",
+          "type": "pair",
+          "title": "θ / s",
+          "subtitle": "three · sea",
+          "emoji": "3️⃣",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "θ",
+              "keyword": "three",
+              "emoji": "3️⃣",
+              "vi": "ba",
+              "wikiAudio": "/audio/phonemes/Voiceless_dental_fricative.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "s",
+              "keyword": "sea",
+              "emoji": "🌊",
+              "vi": "biển",
+              "wikiAudio": "/audio/phonemes/Voiceless_alveolar_sibilant.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "three",
+            "sea",
+            "think",
+            "sink",
+            "thumb",
+            "sum",
+            "thick",
+            "sick",
+            "thin",
+            "sin",
+            "thank",
+            "sank"
+          ],
+          "tip": "θ: đầu lưỡi nhô ra ngoài răng · s: lưỡi đặt phía sau răng, không nhô ra",
+          "practice_sentences": [
+            {
+              "en": "I think I saw three thin fish in the sea.",
+              "highlight": [
+                "think",
+                "three",
+                "thin",
+                "sea"
+              ]
+            },
+            {
+              "en": "The thumb is thick and can sink in the sea.",
+              "highlight": [
+                "thumb",
+                "thick",
+                "sink",
+                "sea"
+              ]
+            },
+            {
+              "en": "We have to sum three and three to thank our friend.",
+              "highlight": [
+                "sum",
+                "three",
+                "thank"
+              ]
+            },
+            {
+              "en": "I feel sick and my thumb is thin after a sin.",
+              "highlight": [
+                "sick",
+                "thumb",
+                "thin",
+                "sin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "Pronunciation Rules",
+      "titleVi": "Quy tắc phát âm",
+      "subtitle": "Đuôi -s, -ed · Linking · Weak forms",
+      "emoji": "📏",
+      "gradient": "from-violet-500 to-purple-600",
+      "bg": "bg-violet-50",
+      "border": "border-violet-200",
+      "text": "text-violet-700",
+      "btn": "bg-violet-500",
+      "bar": "from-violet-400 to-purple-400",
+      "lessons": [
+        {
+          "id": "s-endings",
+          "type": "rule",
+          "title": "-s Endings",
+          "subtitle": "3 cách phát âm đuôi -s",
+          "emoji": "📝",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "/ɪz/",
+              "condition": "Sau 6 sibilant sounds: /s/ /ʃ/ /tʃ/ /z/ /ʒ/ /dʒ/",
+              "tip": "Từ thường kết thúc bằng -es",
+              "words": [
+                "faces",
+                "dishes",
+                "watches",
+                "uses",
+                "judges",
+                "buses",
+                "churches",
+                "races",
+                "sizes",
+                "garages"
+              ]
+            },
+            {
+              "label": "/s/",
+              "condition": "Sau voiceless consonants: /θ/ /p/ /k/ /f/ /t/",
+              "tip": "Thời /θ/ Phong /p/ Kiến /k/ Phương /f/ Tây /t/",
+              "words": [
+                "cats",
+                "books",
+                "maps",
+                "laughs",
+                "months",
+                "stops",
+                "backs",
+                "cliffs",
+                "bakes",
+                "helps"
+              ]
+            },
+            {
+              "label": "/z/",
+              "condition": "Tất cả âm còn lại (nguyên âm + voiced consonants)",
+              "tip": "Hầu hết các từ thông thường",
+              "words": [
+                "dogs",
+                "birds",
+                "runs",
+                "cars",
+                "trees",
+                "plays",
+                "calls",
+                "dreams",
+                "kings",
+                "moves"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ed-endings",
+          "type": "rule",
+          "title": "-ed Endings",
+          "subtitle": "3 cách phát âm đuôi -ed",
+          "emoji": "📋",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "/ɪd/",
+              "condition": "Sau 2 consonants: /t/ và /d/",
+              "tip": "Tiền /t/ Đô /d/ — thêm âm tiết mới",
+              "words": [
+                "wanted",
+                "needed",
+                "waited",
+                "started",
+                "ended",
+                "decided",
+                "lasted",
+                "landed",
+                "visited",
+                "added",
+                "hated",
+                "loaded"
+              ]
+            },
+            {
+              "label": "/t/",
+              "condition": "Sau voiceless consonants: /k/ /s/ /f/ /p/ /tʃ/ /ʃ/ /θ/",
+              "tip": "Khi /k/ Sang /s/ Sông /ʃ/ Phải /p/ Chờ /tʃ/ Thu /θ/ Phí /f/",
+              "words": [
+                "booked",
+                "kissed",
+                "fixed",
+                "watched",
+                "washed",
+                "hoped",
+                "laughed",
+                "stopped",
+                "cooked",
+                "pushed",
+                "surfed",
+                "months"
+              ]
+            },
+            {
+              "label": "/d/",
+              "condition": "Tất cả âm còn lại (nguyên âm + voiced consonants)",
+              "tip": "Hầu hết các từ thông thường",
+              "words": [
+                "played",
+                "followed",
+                "studied",
+                "lived",
+                "changed",
+                "enjoyed",
+                "called",
+                "improved",
+                "loved",
+                "opened",
+                "showed",
+                "learned"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "joining-linking",
+          "type": "rule",
+          "title": "Joining — Linking",
+          "subtitle": "Nối âm C→V trong câu",
+          "emoji": "🔗",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "🔗 Có liên âm",
+              "condition": "Từ cuối phụ âm + từ tiếp theo bắt đầu nguyên âm → nối liền",
+              "tip": "turn off → tur-noff · pick up → pi-kup · sit on → si-ton",
+              "words": [
+                "turn off",
+                "pick up",
+                "sit on",
+                "walk away",
+                "get out",
+                "hold on",
+                "run away",
+                "come in",
+                "look at",
+                "an apple",
+                "stand up",
+                "give up",
+                "take off",
+                "move on"
+              ]
+            },
+            {
+              "label": "⏸️ Không liên âm",
+              "condition": "Từ cuối phụ âm + từ tiếp theo bắt đầu phụ âm → không nối",
+              "tip": "turn back · pick the bag · sit down · run fast",
+              "words": [
+                "turn back",
+                "pick the bag",
+                "sit down",
+                "walk fast",
+                "get there",
+                "hold the door",
+                "run fast",
+                "come back",
+                "look back",
+                "stand here",
+                "give thanks",
+                "take steps",
+                "move quickly",
+                "think big"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "joining-elision",
+          "type": "rule",
+          "title": "Joining — Elision",
+          "subtitle": "Nuốt âm /t/ /d/ giữa phụ âm",
+          "emoji": "🗑️",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "🗑️ Nuốt âm",
+              "condition": "/t/ hoặc /d/ kẹp giữa 2 phụ âm → thường bị bỏ",
+              "tip": "next day → nex-day · old man → ol-man · best price → bes-price",
+              "words": [
+                "next day",
+                "old man",
+                "best price",
+                "last night",
+                "cold morning",
+                "first class",
+                "most people",
+                "soft drink",
+                "must be",
+                "just try",
+                "kind person",
+                "hand bag",
+                "wild cat",
+                "fond memory"
+              ]
+            },
+            {
+              "label": "✅ Đọc đủ âm",
+              "condition": "/t/ /d/ trước nguyên âm hoặc ở âm tiết được nhấn → đọc đủ",
+              "tip": "better · today · water — t/d giữa 2 nguyên âm hoặc đầu từ nhấn",
+              "words": [
+                "better",
+                "water",
+                "today",
+                "attend",
+                "little",
+                "totally",
+                "butter",
+                "it is",
+                "united",
+                "pretty",
+                "letter",
+                "city",
+                "data",
+                "metal"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weak-forms",
+          "type": "rule",
+          "title": "Weak Forms & Schwa",
+          "subtitle": "Từ chức năng phát âm rút gọn",
+          "emoji": "😴",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "😴 Weak /ə/",
+              "condition": "Từ chức năng không được nhấn → phát âm rút gọn với schwa /ə/",
+              "tip": "to /tə/ · and /ən/ · for /fə/ · of /əv/ · can /kən/ · was /wəz/",
+              "words": [
+                "I want to go",
+                "cats and dogs",
+                "ready for school",
+                "a cup of tea",
+                "she can swim",
+                "he was tired",
+                "I am going",
+                "they have done",
+                "what are you",
+                "can you help",
+                "we were there",
+                "should I stay"
+              ]
+            },
+            {
+              "label": "💪 Strong form",
+              "condition": "Từ chức năng được nhấn mạnh hoặc đứng cuối câu → phát âm đầy đủ",
+              "tip": "I said TO, not FROM · Yes I CAN! · AND another thing!",
+              "words": [
+                "I said TO",
+                "Yes I CAN",
+                "AND another thing",
+                "FOR me, not you",
+                "WAS he there?",
+                "HAVE you seen it?",
+                "I AM tired",
+                "What is it FOR?",
+                "Who WERE they?",
+                "She SHOULD go",
+                "He HAS to",
+                "Do it now, WILL you"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

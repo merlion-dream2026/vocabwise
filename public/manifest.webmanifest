@@ -1,0 +1,44 @@
+{
+  "name": "VocabKids Pro",
+  "short_name": "VocabKids",
+  "description": "Học từ vựng tiếng Anh — vui học mỗi ngày",
+  "start_url": "/kids",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf5ff",
+  "theme_color": "#9333ea",
+  "categories": ["education", "kids"],
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/opengraph-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Học ngay",
+      "short_name": "Học",
+      "description": "Vào trang học từ vựng",
+      "url": "/kids",
+      "icons": [{ "src": "/icon.png", "sizes": "512x512" }]
+    }
+  ]
+}

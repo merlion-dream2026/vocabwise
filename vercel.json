@@ -1,0 +1,29 @@
+{
+  "alias": ["vocab-kids-pro.vercel.app"],
+  "crons": [
+    {
+      "path": "/api/cron/weekly-report",
+      "schedule": "0 1 * * *"
+    },
+    {
+      "path": "/api/cron/study-reminder",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/cron/ping",
+      "schedule": "0 0 */3 * *"
+    },
+    {
+      "path": "/api/cron/renewal-reminder",
+      "schedule": "0 1 * * *"
+    },
+    {
+      "path": "/api/cron/daily-push",
+      "schedule": "0 1 * * *"
+    },
+    {
+      "path": "/api/cron/monthly-recap",
+      "schedule": "0 1 1 * *"
+    }
+  ]
+}

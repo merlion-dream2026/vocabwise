@@ -1,0 +1,64 @@
+{
+  "intro": "Mỗi từ có syllables[] (danh sách âm tiết) và stress (chỉ số âm tiết được nhấn, tính từ 0).",
+  "groups": [
+    {
+      "id": "2syl-first",
+      "title": "Nhấn âm tiết ĐẦU",
+      "subtitle": "Đa số danh từ và tính từ 2 âm tiết",
+      "emoji": "🔴",
+      "words": [
+        { "word": "apple",   "syllables": ["ap",  "ple"],   "stress": 0, "emoji": "🍎", "vi": "quả táo" },
+        { "word": "picture", "syllables": ["pic",  "ture"],  "stress": 0, "emoji": "🖼️", "vi": "bức tranh" },
+        { "word": "answer",  "syllables": ["an",   "swer"],  "stress": 0, "emoji": "💬", "vi": "trả lời" },
+        { "word": "window",  "syllables": ["win",  "dow"],   "stress": 0, "emoji": "🪟", "vi": "cửa sổ" },
+        { "word": "monkey",  "syllables": ["mon",  "key"],   "stress": 0, "emoji": "🐒", "vi": "con khỉ" },
+        { "word": "basket",  "syllables": ["bas",  "ket"],   "stress": 0, "emoji": "🧺", "vi": "cái giỏ" },
+        { "word": "music",   "syllables": ["mu",   "sic"],   "stress": 0, "emoji": "🎵", "vi": "âm nhạc" },
+        { "word": "flower",  "syllables": ["flow", "er"],    "stress": 0, "emoji": "🌸", "vi": "bông hoa" },
+        { "word": "teacher", "syllables": ["tea",  "cher"],  "stress": 0, "emoji": "👩‍🏫", "vi": "giáo viên" },
+        { "word": "doctor",  "syllables": ["doc",  "tor"],   "stress": 0, "emoji": "👨‍⚕️", "vi": "bác sĩ" },
+        { "word": "pencil",  "syllables": ["pen",  "cil"],   "stress": 0, "emoji": "✏️", "vi": "cái bút chì" },
+        { "word": "weather", "syllables": ["wea",  "ther"],  "stress": 0, "emoji": "🌤️", "vi": "thời tiết" },
+        { "word": "paper",   "syllables": ["pa",   "per"],   "stress": 0, "emoji": "📄", "vi": "tờ giấy" },
+        { "word": "sister",  "syllables": ["sis",  "ter"],   "stress": 0, "emoji": "👧", "vi": "em gái" },
+        { "word": "bottle",  "syllables": ["bot",  "tle"],   "stress": 0, "emoji": "🍼", "vi": "cái chai" }
+      ]
+    },
+    {
+      "id": "2syl-second",
+      "title": "Nhấn âm tiết SAU",
+      "subtitle": "Đa số động từ 2 âm tiết",
+      "emoji": "🔵",
+      "words": [
+        { "word": "alone",   "syllables": ["a",    "lone"],  "stress": 1, "emoji": "🧍", "vi": "một mình" },
+        { "word": "before",  "syllables": ["be",   "fore"],  "stress": 1, "emoji": "⏮️", "vi": "trước" },
+        { "word": "decide",  "syllables": ["de",   "cide"],  "stress": 1, "emoji": "🤔", "vi": "quyết định" },
+        { "word": "return",  "syllables": ["re",   "turn"],  "stress": 1, "emoji": "↩️", "vi": "quay lại" },
+        { "word": "surprise","syllables": ["sur",  "prise"], "stress": 1, "emoji": "😲", "vi": "bất ngờ" },
+        { "word": "perform", "syllables": ["per",  "form"],  "stress": 1, "emoji": "🎭", "vi": "biểu diễn" },
+        { "word": "today",   "syllables": ["to",   "day"],   "stress": 1, "emoji": "📅", "vi": "hôm nay" },
+        { "word": "begin",   "syllables": ["be",   "gin"],   "stress": 1, "emoji": "▶️", "vi": "bắt đầu" },
+        { "word": "explain", "syllables": ["ex",   "plain"], "stress": 1, "emoji": "📖", "vi": "giải thích" },
+        { "word": "enjoy",   "syllables": ["en",   "joy"],   "stress": 1, "emoji": "😊", "vi": "thích thú" }
+      ]
+    },
+    {
+      "id": "3syl",
+      "title": "Từ 3 âm tiết",
+      "subtitle": "Tìm âm tiết nhấn mạnh nhất",
+      "emoji": "🟠",
+      "words": [
+        { "word": "beautiful",    "syllables": ["beau", "ti",  "ful"],  "stress": 0, "emoji": "✨", "vi": "đẹp" },
+        { "word": "energy",       "syllables": ["en",   "er",  "gy"],   "stress": 0, "emoji": "⚡", "vi": "năng lượng" },
+        { "word": "wonderful",    "syllables": ["won",  "der", "ful"],  "stress": 0, "emoji": "🌟", "vi": "tuyệt vời" },
+        { "word": "difficult",    "syllables": ["dif",  "fi",  "cult"], "stress": 0, "emoji": "😓", "vi": "khó khăn" },
+        { "word": "important",    "syllables": ["im",   "por", "tant"], "stress": 1, "emoji": "❗", "vi": "quan trọng" },
+        { "word": "together",     "syllables": ["to",   "ge",  "ther"], "stress": 1, "emoji": "🤝", "vi": "cùng nhau" },
+        { "word": "remember",     "syllables": ["re",   "mem", "ber"],  "stress": 1, "emoji": "🧠", "vi": "nhớ" },
+        { "word": "fantastic",    "syllables": ["fan",  "tas", "tic"],  "stress": 1, "emoji": "🎉", "vi": "tuyệt vời" },
+        { "word": "umbrella",     "syllables": ["um",   "brel","la"],   "stress": 1, "emoji": "☂️", "vi": "cái ô" },
+        { "word": "computer",     "syllables": ["com",  "pu",  "ter"],  "stress": 1, "emoji": "💻", "vi": "máy tính" }
+      ]
+    }
+  ]
+}

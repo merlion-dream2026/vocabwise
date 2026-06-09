@@ -1,0 +1,173 @@
+'use client'
+import { useState } from 'react'
+
+const PLANS = [
+  { key: '1month',  label: '1 tháng',  price: '59.000đ',  amount: 59000,  note: '2 bé',                          badge: null,            badgeCls: '' },
+  { key: '3months', label: '3 tháng',  price: '159.000đ', amount: 159000, note: '3 bé · Tiết kiệm 10%',          badge: 'PHỔ BIẾN',      badgeCls: 'bg-orange-400 text-white' },
+  { key: '6months', label: '6 tháng',  price: '299.000đ', amount: 299000, note: '3 bé · Tiết kiệm 16%',          badge: 'GIÁ TỐT NHẤT',  badgeCls: 'bg-amber-400 text-amber-900' },
+]
+
+const PLAN_EXTRAS: Record<string, string[]> = {
+  '1month':  ['✅ 2 hồ sơ bé', '✅ AI phát âm 30 lần/ngày', '✅ Push notification nhắc học', '✅ Báo cáo email thủ công'],
+  '3months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Module Word Stress', '✅ Báo cáo email tự động hàng tuần'],
+  '6months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Module Word Stress', '✅ Báo cáo tự động hàng tuần', '🎁 Tặng bạn bè 14 ngày Pro (1 lần)', '📅 Email tổng kết học tập hàng tháng'],
+}
+
+const BANK_INFO = {
+  bank:    'Timo Bank',
+  bankCode: 'TIMO',
+  account: '0977347707',
+  name:    'NGUYEN TUNG ANH',
+  phone:   '0977347707',
+}
+
+type Props = {
+  onClose: () => void
+  username?: string
+}
+
+export default function UpgradeModal({ onClose, username }: Props) {
+  const [selectedPlan, setSelectedPlan] = useState('3months')
+  const [copied, setCopied] = useState(false)
+  const [phone, setPhone] = useState(username ?? '')
+
+  const chosen = PLANS.find(p => p.key === selectedPlan) ?? PLANS[1]
+  const transferContent = `VocabKids ${chosen.label}${phone.trim() ? ` ${phone.trim()}` : ''}`
+
+  const qrUrl = `https://img.vietqr.io/image/${BANK_INFO.bankCode}-${BANK_INFO.account}-compact2.jpg?amount=${chosen.amount}&addInfo=${encodeURIComponent(transferContent)}&accountName=${encodeURIComponent(BANK_INFO.name)}`
+
+  const zaloUrl = `https://zalo.me/${BANK_INFO.phone}`
+
+  async function copyTransfer() {
+    await navigator.clipboard.writeText(transferContent)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-end justify-center px-4 pb-4 sm:items-center" onClick={onClose}>
+      <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
+
+        {/* Header */}
+        <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center relative">
+          <button onClick={onClose} className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
+          <p className="text-4xl mb-1">⭐</p>
+          <h2 className="text-white font-black text-xl">Nâng cấp Pro</h2>
+          <p className="text-white/80 text-sm font-semibold mt-0.5">180 chủ đề · 2.300+ từ · Gói dài = nhiều ưu đãi hơn</p>
+        </div>
+
+        <div className="p-5 space-y-4 max-h-[80vh] overflow-y-auto">
+          {/* Base features — all plans */}
+          <div className="bg-purple-50 rounded-2xl p-3 space-y-1.5">
+            <p className="text-[11px] font-black text-purple-500 uppercase tracking-wide mb-1">Tất cả gói Pro đều có:</p>
+            {[
+              '📚 180 chủ đề · 2.300+ từ vựng (6 levels)',
+              '🎮 10 trò chơi/chủ đề · Mini Story audio',
+              '🔤 Module phát âm IPA đầy đủ',
+              '🔁 SRS ôn tập từ yếu thông minh',
+              '🏆 XP · Streak · Badges · Dashboard phụ huynh',
+            ].map(item => (
+              <p key={item} className="text-xs font-semibold text-purple-700">{item}</p>
+            ))}
+          </div>
+
+          {/* Plan selector */}
+          <div className="grid grid-cols-3 gap-2">
+            {PLANS.map(p => (
+              <button
+                key={p.key}
+                onClick={() => setSelectedPlan(p.key)}
+                className={`relative rounded-2xl border-2 p-3 text-center transition-all ${selectedPlan === p.key ? 'border-purple-400 bg-purple-50' : 'border-gray-100 bg-gray-50 hover:border-purple-200'}`}
+              >
+                {p.badge && (
+                  <span className={`absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-black px-2 py-0.5 rounded-full whitespace-nowrap ${p.badgeCls}`}>
+                    {p.badge}
+                  </span>
+                )}
+                <p className="font-black text-gray-800 text-sm">{p.label}</p>
+                <p className="font-black text-purple-600 text-base mt-0.5">{p.price}</p>
+                {p.note && <p className="text-green-600 font-bold text-[10px] mt-0.5 leading-tight">{p.note}</p>}
+              </button>
+            ))}
+          </div>
+
+          {/* Plan-specific extras */}
+          <div className="bg-indigo-50 rounded-2xl p-3 space-y-1.5">
+            <p className="text-[11px] font-black text-indigo-500 uppercase tracking-wide mb-1">
+              {selectedPlan === '1month' ? 'Gói 1 tháng bao gồm:' : selectedPlan === '3months' ? 'Gói 3 tháng bao gồm:' : '👑 Gói 6 tháng bao gồm:'}
+            </p>
+            {(PLAN_EXTRAS[selectedPlan] ?? []).map(item => (
+              <p key={item} className="text-xs font-semibold text-indigo-700">{item}</p>
+            ))}
+          </div>
+
+          {/* VietQR */}
+          <div className="flex flex-col items-center bg-gray-50 rounded-2xl p-4">
+            <p className="text-xs font-black text-gray-600 mb-2">📱 Quét QR để chuyển khoản ngay</p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={qrUrl}
+              alt="QR chuyển khoản VietQR"
+              width={180}
+              height={180}
+              className="rounded-xl border border-gray-200"
+            />
+            <p className="text-[11px] text-gray-400 mt-2 text-center">Quét bằng app ngân hàng bất kỳ · Số tiền & nội dung tự điền</p>
+          </div>
+
+          {/* Manual transfer info */}
+          <div className="bg-gray-50 rounded-2xl p-4 space-y-3">
+            <p className="font-black text-gray-800 text-sm">Hoặc chuyển khoản thủ công:</p>
+            <div className="bg-white rounded-xl p-2.5 border border-gray-200 text-xs space-y-1.5">
+              <div><span className="text-gray-400">Ngân hàng:</span> <strong>{BANK_INFO.bank}</strong></div>
+              <div><span className="text-gray-400">Số TK:</span> <strong>{BANK_INFO.account}</strong></div>
+              <div><span className="text-gray-400">Tên:</span> <strong>{BANK_INFO.name}</strong></div>
+              <div>
+                <span className="text-gray-400">Nội dung:</span>{' '}
+                <strong className="text-purple-700 break-all">{transferContent}</strong>
+              </div>
+              <div className="pt-1 border-t border-gray-100">
+                <p className="text-gray-400 mb-1">SĐT của bạn (thêm vào nội dung CK):</p>
+                <input
+                  type="tel"
+                  value={phone}
+                  onChange={e => setPhone(e.target.value)}
+                  placeholder="09xxxxxxxx"
+                  className="w-full border border-purple-200 rounded-lg px-2 py-1.5 text-xs font-semibold text-gray-700 focus:outline-none focus:ring-1 focus:ring-purple-400"
+                />
+              </div>
+            </div>
+            <button
+              onClick={copyTransfer}
+              className={`w-full font-black rounded-xl py-2.5 text-sm transition-all active:scale-95 ${copied ? 'bg-green-500 text-white' : 'bg-purple-100 text-purple-700 hover:bg-purple-200'}`}
+            >
+              {copied ? '✅ Đã copy!' : '📋 Copy nội dung chuyển khoản'}
+            </button>
+          </div>
+
+          {/* Step 3 — send proof */}
+          <div className="bg-blue-50 rounded-2xl p-4">
+            <p className="font-black text-gray-800 text-sm mb-2">
+              <span className="text-purple-600 font-black mr-1">3.</span>
+              Gửi ảnh chụp giao dịch để được kích hoạt
+            </p>
+            <a
+              href={zaloUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-black py-3 rounded-xl text-sm transition-colors active:scale-95"
+            >
+              💬 Nhắn Zalo Thầy Andie ngay
+            </a>
+            <p className="text-[11px] text-gray-400 mt-2 text-center">Admin xác nhận và kích hoạt Pro, chậm nhất 12h</p>
+          </div>
+
+          <button onClick={onClose}
+            className="w-full bg-gray-100 hover:bg-gray-200 text-gray-500 font-semibold rounded-2xl py-2.5 text-sm transition-colors">
+            Để sau
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}

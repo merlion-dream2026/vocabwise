@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chương trình học từ vựng — 2 bé</title>
+<style>
+  :root {
+    --pink: #FF6B9D; --pink-dim: #FFF0F6; --pink-border: #FFB3D4;
+    --blue: #4A90D9; --blue-dim: #EEF5FF; --blue-border: #A8CCEF;
+    --green: #27AE60; --green-dim: #EAFAF1; --green-border: #A9DFBF;
+    --orange: #FF8C00; --orange-dim: #FFF7ED; --orange-border: #FFCC88;
+    --purple: #7B68EE; --purple-dim: #F3F0FF; --purple-border: #C5BCF5;
+    --text: #1A1A2E; --text2: #4A4A6A; --text3: #8888AA;
+    --bg: #F8F9FF; --bg2: #FFFFFF; --border: #E8EAF0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Segoe UI', sans-serif; padding: 20px; max-width: 960px; margin: 0 auto; }
+
+  .hero { border-radius: 16px; padding: 24px; margin-bottom: 28px; text-align: center; background: linear-gradient(135deg, #FF6B9D20, #4A90D920); border: 1px solid var(--border); }
+  .hero h1 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+  .hero p { font-size: 13px; color: var(--text2); }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 28px; }
+  .profile-box { border-radius: 14px; padding: 16px; border: 2px solid; }
+  .profile-box.pink { background: var(--pink-dim); border-color: var(--pink-border); }
+  .profile-box.blue { background: var(--blue-dim); border-color: var(--blue-border); }
+  .profile-title { font-size: 16px; font-weight: 800; margin-bottom: 10px; }
+  .pink .profile-title { color: var(--pink); }
+  .blue .profile-title { color: var(--blue); }
+  .profile-row { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 5px; }
+  .profile-label { color: var(--text3); font-weight: 500; }
+  .profile-val { color: var(--text); font-weight: 600; text-align: right; max-width: 60%; }
+  .interest-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .itag { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; }
+  .pink .itag { background: #FFD6EC; color: #A0005A; }
+  .blue .itag { background: #D6E8FF; color: #003A8C; }
+
+  .sec { margin-bottom: 28px; }
+  .sec-title { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--text3); margin-bottom: 14px; padding-left: 2px; }
+
+  /* Month plan */
+  .month-block { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; margin-bottom: 12px; overflow: hidden; }
+  .month-header { padding: 12px 16px; display: flex; align-items: center; gap: 12px; cursor: pointer; user-select: none; }
+  .month-tag { font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 20px; flex-shrink: 0; }
+  .month-title { font-size: 14px; font-weight: 700; color: var(--text); flex: 1; }
+  .month-meta { font-size: 11px; color: var(--text3); }
+  .month-body { padding: 0 16px 14px; }
+
+  .topic-row { display: grid; grid-template-columns: 120px 1fr; gap: 10px; margin-bottom: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
+  .topic-label { font-size: 12px; font-weight: 700; color: var(--text2); padding-top: 2px; }
+  .word-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip { font-size: 11px; padding: 3px 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+  .chip.key { font-weight: 700; }
+  .chip.pink-chip { background: #FFF0F6; border-color: #FFB3D4; color: #A0005A; }
+  .chip.blue-chip { background: #EEF5FF; border-color: #A8CCEF; color: #003A8C; }
+
+  .note-box { background: var(--orange-dim); border: 1px solid var(--orange-border); border-radius: 8px; padding: 10px 12px; margin-top: 8px; font-size: 12px; color: #5A3800; line-height: 1.6; }
+  .note-box b { color: var(--orange); }
+
+  /* Game box */
+  .game-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; }
+  .game-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
+  .game-icon { font-size: 24px; margin-bottom: 6px; }
+  .game-name { font-size: 12px; font-weight: 700; margin-bottom: 3px; }
+  .game-desc { font-size: 11px; color: var(--text2); line-height: 1.5; }
+  .game-for { font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 20px; display: inline-block; margin-top: 5px; }
+  .gf-pink { background: #FFD6EC; color: #A0005A; }
+  .gf-blue { background: #D6E8FF; color: #003A8C; }
+  .gf-both { background: #E8F5E9; color: #1B5E20; }
+
+  /* Summary table */
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: var(--bg2); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+  th { padding: 9px 12px; background: var(--bg); font-weight: 700; font-size: 11px; color: var(--text2); text-align: left; border-bottom: 1px solid var(--border); }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
+  tr:last-child td { border-bottom: none; }
+  .td-pink { color: var(--pink); font-weight: 700; }
+  .td-blue { color: var(--blue); font-weight: 700; }
+
+  /* Expand toggle */
+  .toggle-btn { background: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; font-size: 11px; color: var(--text3); cursor: pointer; }
+  .toggle-btn:hover { background: var(--bg); }
+
+  /* Collapsible */
+  .collapsible { overflow: hidden; transition: max-height .3s ease; }
+
+  @media(max-width:600px){
+    .two-col { grid-template-columns: 1fr; }
+    .game-grid { grid-template-columns: 1fr 1fr; }
+    .topic-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div style="font-size:32px;margin-bottom:8px">🌟 VocabKids — Chương trình học</div>
+  <h1>Kế hoạch từ vựng chi tiết cho 2 bé</h1>
+  <p>Dựa trên tài liệu chính thức Pearson Firstwords · Oxford Word Skills B1–B2 · Sở thích thực tế của từng bé</p>
+</div>
+
+<!-- PROFILES -->
+<div class="two-col">
+  <div class="profile-box pink">
+    <div class="profile-title">👧 Bé Nhỏ — Lớp 1</div>
+    <div class="profile-row"><span class="profile-label">Mục tiêu</span><span class="profile-val">Thi Pearson Firstwords trong 6 tháng</span></div>
+    <div class="profile-row"><span class="profile-label">Level</span><span class="profile-val">Pre-A1 → A1 (Firstwords)</span></div>
+    <div class="profile-row"><span class="profile-label">Tốc độ</span><span class="profile-val">3–5 từ mới/ngày · 10 phút/ngày</span></div>
+    <div class="profile-row"><span class="profile-label">Tổng từ</span><span class="profile-val">~100 từ trọng tâm Firstwords</span></div>
+    <div class="profile-row"><span class="profile-label">Nguồn vocab</span><span class="profile-val">Pearson Firstwords Official Word List</span></div>
+    <div class="interest-tags">
+      <span class="itag">👸 Công chúa</span>
+      <span class="itag">🍳 Nấu ăn</span>
+      <span class="itag">💃 Múa hát</span>
+      <span class="itag">🎨 Vẽ</span>
+    </div>
+  </div>
+  <div class="profile-box blue">
+    <div class="profile-title">👦 Bé Lớn — Lớp 5</div>
+    <div class="profile-row"><span class="profile-label">Mục tiêu</span><span class="profile-val">Nâng từ A2 lên B1–B2</span></div>
+    <div class="profile-row"><span class="profile-label">Level</span><span class="profile-val">A2+ → B1 → B2</span></div>
+    <div class="profile-row"><span class="profile-label">Tốc độ</span><span class="profile-val">5–8 từ mới/ngày · 15–20 phút/ngày</span></div>
+    <div class="profile-row"><span class="profile-label">Tổng từ</span><span class="profile-val">~180 từ mới B1–B2</span></div>
+    <div class="profile-row"><span class="profile-label">Nguồn vocab</span><span class="profile-val">Oxford Word Skills Intermediate/Upper-Int</span></div>
+    <div class="interest-tags">
+      <span class="itag">🦕 Khủng long</span>
+      <span class="itag">🦸 Siêu anh hùng</span>
+      <span class="itag">🤖 Robot</span>
+      <span class="itag">🧱 Lego</span>
+      <span class="itag">🔧 Lắp ráp</span>
+    </div>
+  </div>
+</div>
+
+<!-- BÉ NHỎ CURRICULUM -->
+<div class="sec">
+  <div class="sec-title">👧 Bé Nhỏ — Chương trình 6 tháng ôn thi Firstwords</div>
+  <div style="background:#FFF0F6;border:1px solid #FFB3D4;border-radius:10px;padding:12px 16px;margin-bottom:14px;font-size:12px;color:#5A003A;line-height:1.7">
+    <b>Nguyên tắc học:</b> Dựa theo cấu trúc bài thi Firstwords — Mục 5 (nối từ với hình) chiếm 16/80 điểm, nên nhận biết từ qua hình ảnh là <b>kỹ năng số 1</b>. App tập trung vào: <b>nghe phát âm → nhìn hình → ghép từ</b>. Không ép đọc/viết từ mới. Lồng ghép chủ đề yêu thích (công chúa, nấu ăn) để bé học tự nhiên hơn.<br/><br/>
+    <b>Cấu trúc 3 vòng trong 6 tháng:</b> Vòng 1 (Tuần 1–6): học từ mới lần đầu · Vòng 2 (Tuần 7–12): ôn lại + game khó hơn · Vòng 3 (Tuần 13–24): luyện thi format Firstwords + Speaking
+  </div>
+
+  <!-- VÒNG 1 -->
+  <div style="background:#A0005A;color:white;border-radius:10px 10px 0 0;padding:8px 16px;font-size:12px;font-weight:800;letter-spacing:.05em;margin-bottom:0">
+    🔵 VÒNG 1 — Tuần 1 đến 6 · Học từ mới lần đầu · 5 từ/ngày × 6 ngày/tuần
+  </div>
+  <div style="border:2px solid #A0005A;border-top:none;border-radius:0 0 10px 10px;padding:12px;margin-bottom:16px;">
+    <div style="font-size:11px;color:#5A003A;line-height:1.6;margin-bottom:10px">Mục tiêu: bé <b>nhận biết được 100% từ</b> khi nhìn hình và nghe phát âm. Chưa cần viết hay ghép chữ. Game chính: Flip Flashcard + Nghe &amp; Chọn Hình.</div>
+
+  <!-- Tuần 1 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFD6EC;color:#A0005A">Tuần 1</span>
+      <span class="month-title">🏠 Gia đình & Ngôi nhà — nền tảng Firstwords</span>
+      <span class="month-meta">~22 từ · 5 từ/ngày × 4 ngày + ôn 2 ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">👨‍👩‍👧 Family<br/><span style="font-size:10px;color:var(--text3)">Mục 2 bài thi: mô tả người</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">mum</span><span class="chip key pink-chip">dad</span><span class="chip key pink-chip">brother</span><span class="chip key pink-chip">sister</span><span class="chip key pink-chip">baby</span>
+          <span class="chip pink-chip">grandfather</span><span class="chip pink-chip">grandmother</span><span class="chip pink-chip">aunt</span><span class="chip pink-chip">uncle</span><span class="chip pink-chip">cousin</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🏠 House & Rooms<br/><span style="font-size:10px;color:var(--text3)">Mục 1: xác định vị trí</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">bedroom</span><span class="chip key pink-chip">kitchen</span><span class="chip key pink-chip">bathroom</span><span class="chip key pink-chip">living room</span><span class="chip key pink-chip">garden</span>
+          <span class="chip pink-chip">door</span><span class="chip pink-chip">window</span><span class="chip pink-chip">floor</span><span class="chip pink-chip">bookcase</span><span class="chip pink-chip">cupboard</span>
+          <span class="chip pink-chip">armchair</span><span class="chip pink-chip">sofa</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Lồng ghép sở thích:</b> Truyện "A Princess's Castle" — công chúa đi thăm từng phòng trong lâu đài, học từ về các phòng. Video: "Sophie's House Tour" kiểu Cocomelon. Game: kéo thả đồ nội thất vào đúng phòng.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 2 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFD6EC;color:#A0005A">Tuần 2</span>
+      <span class="month-title">🐾 Động vật & Đồ chơi — chủ đề yêu thích</span>
+      <span class="month-meta">~28 từ · 5 từ/ngày × 6 ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🐾 Animals<br/><span style="font-size:10px;color:var(--text3)">Mục 5: nối từ với hình</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">cat</span><span class="chip key pink-chip">dog</span><span class="chip key pink-chip">rabbit</span><span class="chip key pink-chip">horse</span><span class="chip key pink-chip">bird</span>
+          <span class="chip pink-chip">duck</span><span class="chip pink-chip">fish</span><span class="chip pink-chip">frog</span><span class="chip pink-chip">snake</span><span class="chip pink-chip">spider</span>
+          <span class="chip pink-chip">elephant</span><span class="chip pink-chip">monkey</span><span class="chip pink-chip">tiger</span><span class="chip pink-chip">tortoise</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🎀 Toys & Hobbies<br/><span style="font-size:10px;color:var(--text3)">Mục 7 speaking: sở thích</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">doll</span><span class="chip key pink-chip">ball</span><span class="chip key pink-chip">kite</span><span class="chip key pink-chip">bike</span><span class="chip key pink-chip">swing</span>
+          <span class="chip pink-chip">draw</span><span class="chip pink-chip">sing</span><span class="chip pink-chip">dance</span><span class="chip pink-chip">swim</span><span class="chip pink-chip">play</span>
+          <span class="chip pink-chip">piano</span><span class="chip pink-chip">music</span><span class="chip pink-chip">paint</span><span class="chip pink-chip">birthday</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Lồng ghép sở thích:</b> Truyện "Princess Bella's Pets" — công chúa có vườn thú nhỏ, học tên các con vật. Video: Baby Shark, Old MacDonald (Super Simple Songs). Game "nghe tên động vật → tap đúng hình" — đây đúng dạng Mục 1 bài thi.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 3 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFD6EC;color:#A0005A">Tuần 3</span>
+      <span class="month-title">🍎 Thức ăn & Màu sắc — vào bếp cùng công chúa</span>
+      <span class="month-meta">~28 từ · 5 từ/ngày × 6 ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🍎 Food & Drinks<br/><span style="font-size:10px;color:var(--text3)">Mục 1&5: nhận biết đồ ăn</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">apple</span><span class="chip key pink-chip">banana</span><span class="chip key pink-chip">cake</span><span class="chip key pink-chip">milk</span><span class="chip key pink-chip">juice</span>
+          <span class="chip pink-chip">bread</span><span class="chip pink-chip">egg</span><span class="chip pink-chip">chicken</span><span class="chip pink-chip">cheese</span><span class="chip pink-chip">carrot</span>
+          <span class="chip pink-chip">tomato</span><span class="chip pink-chip">ice cream</span><span class="chip pink-chip">chocolate</span><span class="chip pink-chip">lemon</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🎨 Colours & Body<br/><span style="font-size:10px;color:var(--text3)">Mục 2: mô tả ngoại hình</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">red</span><span class="chip key pink-chip">blue</span><span class="chip key pink-chip">green</span><span class="chip key pink-chip">yellow</span><span class="chip key pink-chip">pink</span>
+          <span class="chip pink-chip">purple</span><span class="chip pink-chip">orange</span><span class="chip pink-chip">black</span><span class="chip pink-chip">white</span>
+          <span class="chip pink-chip">hair</span><span class="chip pink-chip">eye</span><span class="chip pink-chip">arm</span><span class="chip pink-chip">leg</span><span class="chip pink-chip">head</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Lồng ghép sở thích:</b> Truyện "Princess Sofia Bakes a Cake" — nấu bánh sinh nhật, học tên nguyên liệu. Video: "The Boo Boo Song" (màu sắc + body). Game "vẽ màu đúng cho công chúa" — tap màu theo lệnh.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 4 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFD6EC;color:#A0005A">Tuần 4</span>
+      <span class="month-title">🎒 Trường học & Quần áo — chuẩn bị thi</span>
+      <span class="month-meta">~26 từ · 4–5 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🎒 School<br/><span style="font-size:10px;color:var(--text3)">Mục 3&4: hội thoại trường học</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">book</span><span class="chip key pink-chip">pen</span><span class="chip key pink-chip">pencil</span><span class="chip key pink-chip">bag</span><span class="chip key pink-chip">classroom</span>
+          <span class="chip pink-chip">teacher</span><span class="chip pink-chip">desk</span><span class="chip pink-chip">board</span><span class="chip pink-chip">eraser</span><span class="chip pink-chip">ruler</span>
+          <span class="chip pink-chip">lesson</span><span class="chip pink-chip">homework</span><span class="chip pink-chip">maths</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">👗 Clothes<br/><span style="font-size:10px;color:var(--text3)">Mục 5: nối từ với hình quần áo</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">dress</span><span class="chip key pink-chip">shirt</span><span class="chip key pink-chip">T-shirt</span><span class="chip key pink-chip">skirt</span><span class="chip key pink-chip">hat</span>
+          <span class="chip pink-chip">jacket</span><span class="chip pink-chip">trousers</span><span class="chip pink-chip">shoes</span><span class="chip pink-chip">trainers</span>
+          <span class="chip pink-chip">sweatshirt</span><span class="chip pink-chip">shorts</span><span class="chip pink-chip">glasses</span><span class="chip pink-chip">sunglasses</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Lồng ghép sở thích:</b> Truyện "Princess Lily Goes to School" — công chúa đến trường đầu tiên, học từ về đồ dùng học tập. Video: "Magic School Bus" dạng đơn giản.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 5 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFD6EC;color:#A0005A">Tuần 5</span>
+      <span class="month-title">⚽ Thể thao & Cảm xúc — ôn Speaking</span>
+      <span class="month-meta">~22 từ · 4 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">⚽ Sports & Activities<br/><span style="font-size:10px;color:var(--text3)">Mục 7 Speaking: sở thích</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">football</span><span class="chip key pink-chip">swimming</span><span class="chip key pink-chip">tennis</span><span class="chip key pink-chip">badminton</span>
+          <span class="chip pink-chip">basketball</span><span class="chip pink-chip">volleyball</span><span class="chip pink-chip">hockey</span><span class="chip pink-chip">run</span><span class="chip pink-chip">jump</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">😊 Feelings<br/><span style="font-size:10px;color:var(--text3)">Mục 8 Speaking: trình bày bản thân</span></div>
+        <div class="word-chips">
+          <span class="chip key pink-chip">happy</span><span class="chip key pink-chip">sad</span><span class="chip key pink-chip">tired</span><span class="chip key pink-chip">hungry</span>
+          <span class="chip pink-chip">beautiful</span><span class="chip pink-chip">funny</span><span class="chip pink-chip">big</span><span class="chip pink-chip">small</span>
+          <span class="chip pink-chip">old</span><span class="chip pink-chip">young</span><span class="chip pink-chip">pretty</span><span class="chip pink-chip">good</span><span class="chip pink-chip">great</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Lồng ghép sở thích:</b> Practice Speaking Mục 7 — "What sport do you like?" / "Are you happy?" Thẻ chủ đề Speaking Mục 8: "My Favourite Dance" / "My Favourite Song" — đúng dạng thi.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 6 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#A0005A;color:white">Tuần 6</span>
+      <span class="month-title">🔄 Ôn tập Vòng 1 — củng cố toàn bộ 100+ từ</span>
+      <span class="month-meta">Không từ mới · Review + mini test</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Ngày 1–3</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Flashcard ôn nhanh toàn bộ từ đã học — chỉ giữ lại thẻ chưa nhớ. Game "nghe → chọn hình" tất cả chủ đề trộn lẫn. Mục tiêu: nhận biết 90%+ từ.</div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">Ngày 4–6</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Game "nối 8 từ với hình" — mô phỏng đúng Mục 5 bài thi. Luyện phát âm những từ bé còn nói sai. Khen thưởng: bé đạt 90%+ quiz được mở khóa sticker mới.</div>
+      </div>
+      <div class="note-box"><b>✅ Kết thúc Vòng 1:</b> Bé nhận biết được ~100 từ khi nhìn hình và nghe. Sẵn sàng bước vào Vòng 2 — ôn sâu hơn và bắt đầu luyện format thi.</div>
+    </div>
+  </div>
+  </div><!-- end vòng 1 border -->
+
+  <!-- VÒNG 2 -->
+  <div style="background:#7B0040;color:white;border-radius:10px 10px 0 0;padding:8px 16px;font-size:12px;font-weight:800;letter-spacing:.05em;margin-bottom:0">
+    🟡 VÒNG 2 — Tuần 7 đến 12 · Ôn lại + game khó hơn · Luyện format thi
+  </div>
+  <div style="border:2px solid #7B0040;border-top:none;border-radius:0 0 10px 10px;padding:12px;margin-bottom:16px;">
+    <div style="font-size:11px;color:#3A0020;line-height:1.6;margin-bottom:10px">Mục tiêu: bé <b>ghép được từ với hình nhanh hơn</b>, hiểu từ trong câu đơn giản, bắt đầu nhận ra từ khi nghe trong hội thoại ngắn. Game chính: Nối Từ Với Hình + Nghe Hội Thoại + Speaking Cards.</div>
+
+  <!-- Tuần 7–8 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFB3D4;color:#7B0040">Tuần 7–8</span>
+      <span class="month-title">🔁 Ôn Gia đình + Nhà + Động vật — game khó hơn</span>
+      <span class="month-meta">Không từ mới · Luyện Mục 1, 2, 5</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Game tăng độ khó</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">
+          <b>Mục 1 simulation:</b> Nghe hội thoại ngắn 2–3 câu → chọn đúng 1 trong 3 hình (thay vì 1 câu đơn). Bé phải hiểu ngữ cảnh chứ không chỉ nghe từ đơn.<br/>
+          <b>Mục 2 simulation:</b> Nghe mô tả người → nối tên với hình đúng (bé chọn đúng 1 trong nhiều nhân vật).<br/>
+          <b>Mục 5 simulation:</b> Nối 8 từ với hình, có 2 từ bẫy không dùng — đúng format thi.
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Story lặp lại:</b> Đọc lại truyện Tuần 1–2 — bé đã biết từ rồi nên lần này tập trả lời câu hỏi "Where is the cat?" / "Who has a doll?" bằng tiếng Anh.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 9–10 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFB3D4;color:#7B0040">Tuần 9–10</span>
+      <span class="month-title">🔁 Ôn Thức ăn + Màu sắc + Trường học — Mục 3, 4</span>
+      <span class="month-meta">Không từ mới · Luyện đọc câu ngắn</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Game tăng độ khó</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">
+          <b>Mục 3 simulation:</b> Đọc câu hỏi ngắn → nối với câu trả lời đúng. Ví dụ: "What colour is the apple?" → "It's red." (5 cặp, 1 câu trả lời thừa — đúng format thi).<br/>
+          <b>Mục 4 simulation:</b> Đọc lời thoại ngắn → tap hình đúng. Ví dụ: "Let's have some cake!" → hình bé đang ăn bánh.
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Story lặp lại:</b> Đọc lại "Princess Sofia Bakes a Cake" — lần này bé trả lời "What does Sofia need?" / "What colour is the cake?" bằng tiếng Anh.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 11–12 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#7B0040;color:white">Tuần 11–12</span>
+      <span class="month-title">🔁 Ôn Quần áo + Thể thao + Cảm xúc — luyện Speaking</span>
+      <span class="month-meta">Không từ mới · Tập trung Speaking Mục 7 & 8</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Mục 7 Speaking</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Luyện hỏi và trả lời câu hỏi ngắn về bản thân: "What's your favourite colour?", "How many people are in your family?", "Where is your mum now?", "What sport do you like?" — đúng dạng thẻ câu hỏi trong Firstwords Boardgame.</div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">Mục 8 Speaking</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Luyện nói 1 phút về chủ đề: "My Favourite Animal" / "My Favourite Food" / "My Favourite Dance" / "My Favourite Singer". App hiển thị thẻ chủ đề → bé tự nói → nghe lại phát âm của mình.</div>
+      </div>
+      <div class="note-box"><b>✅ Kết thúc Vòng 2:</b> Bé làm được tất cả 6 dạng bài thi Firstwords ở mức cơ bản. Sẵn sàng Vòng 3 — luyện thi format đầy đủ.</div>
+    </div>
+  </div>
+  </div><!-- end vòng 2 border -->
+
+  <!-- VÒNG 3 -->
+  <div style="background:#5C0030;color:white;border-radius:10px 10px 0 0;padding:8px 16px;font-size:12px;font-weight:800;letter-spacing:.05em;margin-bottom:0">
+    🔴 VÒNG 3 — Tuần 13 đến 24 · Mock test liên tục · Mục tiêu: 4–5 sao
+  </div>
+  <div style="border:2px solid #5C0030;border-top:none;border-radius:0 0 10px 10px;padding:12px;margin-bottom:16px;">
+    <div style="font-size:11px;color:#3A0020;line-height:1.6;margin-bottom:10px">Mục tiêu: bé <b>làm quen với áp lực thi</b>, tốc độ xử lý nhanh hơn, Speaking tự tin hơn. Mỗi tuần làm 1 mock mini-test. Không học từ mới — tập trung hoàn toàn vào luyện format.</div>
+
+  <!-- Tuần 13–16 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFB3D4;color:#5C0030">Tuần 13–16</span>
+      <span class="month-title">🎯 Mini Mock Test — Mục 1, 2, 5 (Listening + Vocab)</span>
+      <span class="month-meta">Mỗi tuần 1 test · 20 phút · Có điểm</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Format mỗi test</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">
+          <b>Mục 1 mini (8 câu):</b> Nghe hội thoại → chọn 1 trong 3 hình. Tính thời gian.<br/>
+          <b>Mục 2 mini (7 câu):</b> Nghe → nối tên người với hình. Có 2 hình thừa.<br/>
+          <b>Mục 5 mini (8 câu):</b> Nối từ với hình. Có 2 từ thừa.<br/>
+          App tính điểm, lưu lịch sử để bố/mẹ xem tiến bộ theo tuần.
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Sau mỗi test:</b> App chỉ ra từ nào bé vẫn nhầm → tự động đưa vào "Review Deck" để luyện thêm ngày hôm sau.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 17–20 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#FFB3D4;color:#5C0030">Tuần 17–20</span>
+      <span class="month-title">🎯 Mini Mock Test — Mục 3, 4, 6 (Reading + Writing)</span>
+      <span class="month-meta">Mỗi tuần 1 test · 20 phút</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Format mỗi test</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">
+          <b>Mục 3 mini (5 câu):</b> Đọc câu hỏi → nối với câu trả lời. Có 1 câu thừa.<br/>
+          <b>Mục 4 mini (5 câu):</b> Đọc lời thoại → nối với hình. Có 1 lời thoại thừa.<br/>
+          <b>Mục 6 mini (7 ô trống):</b> Đọc đoạn văn ngắn → chọn từ đúng điền vào. Có 2 từ thừa.
+        </div>
+      </div>
+      <div class="note-box"><b>🎀 Đoạn văn Mục 6 dùng theme công chúa:</b> "Princess Sofia lives in a big ___. She has a ___ cat. Her favourite food is ___." — bé điền từ đã học, quen ngữ cảnh nên không bị stress.</div>
+    </div>
+  </div>
+
+  <!-- Tuần 21–24 -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#5C0030;color:white">Tuần 21–24</span>
+      <span class="month-title">🏆 Full Mock Test — thi thử đầy đủ như ngày thi thật</span>
+      <span class="month-meta">Mỗi 2 tuần 1 full test · 60 phút + 20 phút Speaking</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Written Test</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Toàn bộ 6 Mục trong 60 phút. App mô phỏng đúng format — có đồng hồ đếm ngược, không cho pause. Sau khi làm xong: xem điểm từng mục, xem đáp án, xem gợi ý cải thiện.</div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">Speaking Test</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Mục 7: bố/mẹ giả làm examiner hỏi các câu từ thẻ Boardgame. Mục 8: bé rút thẻ chủ đề ngẫu nhiên, nói 1 phút, bố/mẹ hỏi thêm 1 phút. Ghi âm lại để nghe và tự nhận xét.</div>
+      </div>
+      <div class="note-box"><b>🏆 Mục tiêu thi thật:</b> Đạt 4–5 sao (Merit/Distinction). Bé đã quen format, biết từ vựng, không bị bất ngờ bởi dạng câu hỏi nào. Tự tin bước vào phòng thi!</div>
+    </div>
+  </div>
+  </div><!-- end vòng 3 border -->
+</div>
+
+<!-- BÉ LỚN CURRICULUM -->
+<div class="sec">
+  <div class="sec-title">👦 Bé Lớn — Chương trình 6 tháng B1 → B2</div>
+  <div style="background:#EEF5FF;border:1px solid #A8CCEF;border-radius:10px;padding:12px 16px;margin-bottom:14px;font-size:12px;color:#001A4A;line-height:1.7">
+    <b>Nguồn vocab:</b> Oxford Word Skills Intermediate (B1) và Upper-Intermediate (B2) — chuẩn Oxford, có sẵn word list theo chủ đề. Mỗi topic được lồng ghép vào sở thích của bé (khủng long, robot, siêu anh hùng). <b>Phương pháp:</b> học từ trong câu ví dụ thực tế + collocations, không học từ rời.
+  </div>
+
+  <!-- Tháng 1 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#D6E8FF;color:#003A8C">Tháng 1</span>
+      <span class="month-title">🦕 Science & Nature — khủng long & sinh vật</span>
+      <span class="month-meta">~30 từ B1 · 5 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🦕 Animals & Science (B1)<br/><span style="font-size:10px;color:var(--text3)">Oxford Word Skills Unit: Animals</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">extinct</span><span class="chip key blue-chip">fossil</span><span class="chip key blue-chip">creature</span><span class="chip key blue-chip">predator</span><span class="chip key blue-chip">prey</span>
+          <span class="chip blue-chip">habitat</span><span class="chip blue-chip">species</span><span class="chip blue-chip">endangered</span><span class="chip blue-chip">evolve</span><span class="chip blue-chip">survive</span>
+          <span class="chip blue-chip">carnivore</span><span class="chip blue-chip">herbivore</span><span class="chip blue-chip">reptile</span><span class="chip blue-chip">mammal</span><span class="chip blue-chip">dinosaur</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🔬 Science Verbs (B1)<br/><span style="font-size:10px;color:var(--text3)">Collocations với science</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">discover</span><span class="chip key blue-chip">experiment</span><span class="chip key blue-chip">investigate</span><span class="chip key blue-chip">observe</span>
+          <span class="chip blue-chip">examine</span><span class="chip blue-chip">analyze</span><span class="chip blue-chip">classify</span><span class="chip blue-chip">measure</span>
+          <span class="chip blue-chip">theory</span><span class="chip blue-chip">evidence</span><span class="chip blue-chip">laboratory</span><span class="chip blue-chip">microscope</span>
+          <span class="chip blue-chip">fossil fuel</span><span class="chip blue-chip">gravity</span><span class="chip blue-chip">atmosphere</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🦸 Lồng ghép sở thích:</b> Truyện "T-Rex vs. Velociraptor — The Science of Dinosaurs" — dùng từ vựng khoa học trong context khủng long. Video: Nat Geo Kids — Dinosaur facts. Speed quiz: "Which dinosaur is a carnivore?"</div>
+    </div>
+  </div>
+
+  <!-- Tháng 2 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#D6E8FF;color:#003A8C">Tháng 2</span>
+      <span class="month-title">🤖 Technology & Engineering — robot & lắp ráp</span>
+      <span class="month-meta">~30 từ B1–B2 · 5 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🤖 Technology (B1–B2)<br/><span style="font-size:10px;color:var(--text3)">Oxford Word Skills: Tech & Innovation</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">invention</span><span class="chip key blue-chip">engineer</span><span class="chip key blue-chip">program</span><span class="chip key blue-chip">artificial</span><span class="chip key blue-chip">intelligence</span>
+          <span class="chip blue-chip">robot</span><span class="chip blue-chip">device</span><span class="chip blue-chip">sensor</span><span class="chip blue-chip">circuit</span><span class="chip blue-chip">battery</span>
+          <span class="chip blue-chip">software</span><span class="chip blue-chip">hardware</span><span class="chip blue-chip">digital</span><span class="chip blue-chip">wireless</span><span class="chip blue-chip">automated</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🔧 Engineering Verbs (B1)<br/><span style="font-size:10px;color:var(--text3)">Collocations với build/design</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">construct</span><span class="chip key blue-chip">assemble</span><span class="chip key blue-chip">design</span><span class="chip key blue-chip">manufacture</span>
+          <span class="chip blue-chip">install</span><span class="chip blue-chip">operate</span><span class="chip blue-chip">control</span><span class="chip blue-chip">adjust</span>
+          <span class="chip blue-chip">mechanism</span><span class="chip blue-chip">component</span><span class="chip blue-chip">structure</span><span class="chip blue-chip">function</span>
+          <span class="chip blue-chip">efficient</span><span class="chip blue-chip">powerful</span><span class="chip blue-chip">accurate</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🦸 Lồng ghép sở thích:</b> Truyện "How Iron Man's Suit Works — The Engineering Behind the Armour" — giải thích công nghệ Iron Man dùng từ B1. Video: SciShow Kids — How Robots Work. Game: điền từ vào câu về cách robot hoạt động.</div>
+    </div>
+  </div>
+
+  <!-- Tháng 3 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#D6E8FF;color:#003A8C">Tháng 3</span>
+      <span class="month-title">🦸 Heroes & People — siêu anh hùng & tính cách</span>
+      <span class="month-meta">~30 từ B1–B2 · 5 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">😤 Personality (B1–B2)<br/><span style="font-size:10px;color:var(--text3)">Oxford Word Skills: Character</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">brave</span><span class="chip key blue-chip">determined</span><span class="chip key blue-chip">loyal</span><span class="chip key blue-chip">ambitious</span><span class="chip key blue-chip">confident</span>
+          <span class="chip blue-chip">creative</span><span class="chip blue-chip">generous</span><span class="chip blue-chip">patient</span><span class="chip blue-chip">responsible</span><span class="chip blue-chip">honest</span>
+          <span class="chip blue-chip">cautious</span><span class="chip blue-chip">aggressive</span><span class="chip blue-chip">cunning</span><span class="chip blue-chip">stubborn</span><span class="chip blue-chip">arrogant</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">⚡ Powers & Actions (B1)<br/><span style="font-size:10px;color:var(--text3)">Collocations với action verbs</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">rescue</span><span class="chip key blue-chip">defeat</span><span class="chip key blue-chip">protect</span><span class="chip key blue-chip">transform</span>
+          <span class="chip blue-chip">confront</span><span class="chip blue-chip">challenge</span><span class="chip blue-chip">overcome</span><span class="chip blue-chip">achieve</span>
+          <span class="chip blue-chip">villain</span><span class="chip blue-chip">mission</span><span class="chip blue-chip">superpower</span><span class="chip blue-chip">weapon</span>
+          <span class="chip blue-chip">alliance</span><span class="chip blue-chip">strategy</span><span class="chip blue-chip">sacrifice</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🦸 Lồng ghép sở thích:</b> Truyện "Spider-Man's Greatest Strength — His Character" — phân tích tính cách Spider-Man dùng B1 adjectives. Video: TED-Ed "What makes a superhero?" Speed quiz: ghép tính cách với siêu anh hùng tương ứng.</div>
+    </div>
+  </div>
+
+  <!-- Tháng 4 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#D6E8FF;color:#003A8C">Tháng 4</span>
+      <span class="month-title">🌍 Environment & Planet — hành tinh & thiên nhiên</span>
+      <span class="month-meta">~30 từ B1–B2 · 5 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🌱 Environment (B2)<br/><span style="font-size:10px;color:var(--text3)">Oxford Word Skills Upper-Int: Environment</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">biodiversity</span><span class="chip key blue-chip">ecosystem</span><span class="chip key blue-chip">conservation</span><span class="chip key blue-chip">sustainable</span><span class="chip key blue-chip">renewable</span>
+          <span class="chip blue-chip">deforestation</span><span class="chip blue-chip">pollution</span><span class="chip blue-chip">emission</span><span class="chip blue-chip">carbon footprint</span><span class="chip blue-chip">ozone layer</span>
+          <span class="chip blue-chip">glacier</span><span class="chip blue-chip">drought</span><span class="chip blue-chip">flood</span><span class="chip blue-chip">erosion</span><span class="chip blue-chip">atmosphere</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🪐 Space (B1)<br/><span style="font-size:10px;color:var(--text3)">Lồng ghép chủ đề vũ trụ</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">orbit</span><span class="chip key blue-chip">gravity</span><span class="chip key blue-chip">asteroid</span><span class="chip key blue-chip">galaxy</span>
+          <span class="chip blue-chip">solar system</span><span class="chip blue-chip">satellite</span><span class="chip blue-chip">telescope</span><span class="chip blue-chip">astronaut</span>
+          <span class="chip blue-chip">launch</span><span class="chip blue-chip">spacecraft</span><span class="chip blue-chip">mission</span><span class="chip blue-chip">explore</span>
+          <span class="chip blue-chip">universe</span><span class="chip blue-chip">meteor</span><span class="chip blue-chip">collision</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🦸 Lồng ghép sở thích:</b> Truyện "The Last Dinosaurs — Why Did They Disappear?" — kết nối khủng long với asteroid và môi trường. Video: Kurzgesagt "The Last Dinosaur". Game: điền từ môi trường vào báo cáo về địa cầu.</div>
+    </div>
+  </div>
+
+  <!-- Tháng 5 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#D6E8FF;color:#003A8C">Tháng 5</span>
+      <span class="month-title">🏙️ Society & Communication — thế giới & con người</span>
+      <span class="month-meta">~30 từ B2 · 6 từ/ngày</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">🗣️ Communication (B2)<br/><span style="font-size:10px;color:var(--text3)">Oxford Word Skills: Media & Opinion</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">influence</span><span class="chip key blue-chip">persuade</span><span class="chip key blue-chip">argue</span><span class="chip key blue-chip">debate</span><span class="chip key blue-chip">negotiate</span>
+          <span class="chip blue-chip">broadcast</span><span class="chip blue-chip">journalist</span><span class="chip blue-chip">documentary</span><span class="chip blue-chip">propaganda</span><span class="chip blue-chip">bias</span>
+          <span class="chip blue-chip">audience</span><span class="chip blue-chip">content</span><span class="chip blue-chip">viral</span><span class="chip blue-chip">misinformation</span><span class="chip blue-chip">perspective</span>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">🏆 Achievement (B1–B2)<br/><span style="font-size:10px;color:var(--text3)">Academic vocabulary</span></div>
+        <div class="word-chips">
+          <span class="chip key blue-chip">accomplish</span><span class="chip key blue-chip">achievement</span><span class="chip key blue-chip">competition</span><span class="chip key blue-chip">championship</span>
+          <span class="chip blue-chip">opponent</span><span class="chip blue-chip">strategy</span><span class="chip blue-chip">teamwork</span><span class="chip blue-chip">leadership</span>
+          <span class="chip blue-chip">qualify</span><span class="chip blue-chip">advance</span><span class="chip blue-chip">eliminate</span><span class="chip blue-chip">triumph</span>
+          <span class="chip blue-chip">dedication</span><span class="chip blue-chip">perseverance</span><span class="chip blue-chip">talent</span>
+        </div>
+      </div>
+      <div class="note-box"><b>🦸 Lồng ghép sở thích:</b> Truyện "The Avengers — Teamwork vs. Individual Power" — phân tích chiến lược nhóm. Video: TED-Ed "What makes a great leader?". Game speed round: ghép word với definition trong 30 giây.</div>
+    </div>
+  </div>
+
+  <!-- Tháng 6 bé lớn -->
+  <div class="month-block">
+    <div class="month-header">
+      <span class="month-tag" style="background:#003A8C;color:white">Tháng 6</span>
+      <span class="month-title">🎯 Ôn tập & Nâng cao — đọc hiểu B2</span>
+      <span class="month-meta">Ôn tất cả · Reading challenge</span>
+    </div>
+    <div class="month-body">
+      <div class="topic-row">
+        <div class="topic-label">Tuần 1–2</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Review toàn bộ 150+ từ theo word family: noun/verb/adjective cùng gốc (discover/discovery/discoverable). Speed round 30 giây. Ghép collocation đúng.</div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-label">Tuần 3–4</div>
+        <div style="font-size:12px;color:var(--text2);line-height:1.7">Đọc mini story B2 dài hơn (150–200 từ), từ vựng được highlight. Fill-in-the-blank trong đoạn văn. Thi đua với bé nhỏ: ai kiếm nhiều sao nhất tuần.</div>
+      </div>
+      <div class="note-box"><b>🏆 Mục tiêu cuối tháng 6:</b> Bé dùng được 80%+ từ đã học trong câu tự viết, hiểu nghĩa từ trong ngữ cảnh đoạn văn B2 mà không cần tra từ điển.</div>
+    </div>
+  </div>
+</div>
+
+<!-- GAME MODES -->
+<div class="sec">
+  <div class="sec-title">Game modes — thiết kế theo từng bé</div>
+  <div class="game-grid">
+    <div class="game-card">
+      <div class="game-icon">🔊</div>
+      <div class="game-name">Nghe & Chọn Hình</div>
+      <div class="game-desc">Nghe từ → tap 1 trong 3 hình đúng. Mô phỏng Mục 1 bài thi Firstwords.</div>
+      <span class="game-for gf-pink">👧 Bé nhỏ — luyện thi</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">🎯</div>
+      <div class="game-name">Nối Từ Với Hình</div>
+      <div class="game-desc">Kéo thả 8 từ ghép với hình đúng. Mô phỏng Mục 5 bài thi Firstwords.</div>
+      <span class="game-for gf-pink">👧 Bé nhỏ — luyện thi</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">👸</div>
+      <div class="game-name">Speaking Cards</div>
+      <div class="game-desc">Thẻ chủ đề nói (My Favourite Singer / My Pet). Luyện đúng Mục 8 thi Firstwords.</div>
+      <span class="game-for gf-pink">👧 Bé nhỏ — luyện thi</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">⏱️</div>
+      <div class="game-name">Speed Round 30s</div>
+      <div class="game-desc">Trả lời nhiều từ nhất trong 30 giây. Chọn nghĩa đúng hoặc điền vào câu.</div>
+      <span class="game-for gf-blue">👦 Bé lớn</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">🔗</div>
+      <div class="game-name">Collocation Match</div>
+      <div class="game-desc">Ghép từ với collocations đúng. Ví dụ: "make/do + decision/homework".</div>
+      <span class="game-for gf-blue">👦 Bé lớn</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">🃏</div>
+      <div class="game-name">Flip Flashcard</div>
+      <div class="game-desc">Lật thẻ xem từ + nghĩa + ví dụ câu + phát âm. Vuốt để đánh dấu nhớ/chưa nhớ.</div>
+      <span class="game-for gf-both">✓ Cả 2 bé</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">📖</div>
+      <div class="game-name">Mini Story</div>
+      <div class="game-desc">Đọc truyện ngắn, từ vựng highlight vàng — tap để xem nghĩa popup.</div>
+      <span class="game-for gf-both">✓ Cả 2 bé</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">⚔️</div>
+      <div class="game-name">Sibling Battle</div>
+      <div class="game-desc">Thi nhau kiếm sao tuần này. Reset mỗi Chủ Nhật. Hệ số level khác nhau nên fair.</div>
+      <span class="game-for gf-both">✓ Cả 2 bé</span>
+    </div>
+    <div class="game-card">
+      <div class="game-icon">🎬</div>
+      <div class="game-name">Video + Quiz</div>
+      <div class="game-desc">Xem video YouTube → 3 câu hỏi từ vựng liên quan đến video đó.</div>
+      <span class="game-for gf-both">✓ Cả 2 bé</span>
+    </div>
+  </div>
+</div>
+
+<!-- SUMMARY TABLE -->
+<div class="sec">
+  <div class="sec-title">Tóm tắt chương trình — để duyệt</div>
+  <table>
+    <thead><tr><th>Tháng</th><th class="td-pink">👧 Bé Nhỏ (Firstwords)</th><th class="td-blue">👦 Bé Lớn (B1–B2)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Tháng 1</b></td><td>🏠 Gia đình + Ngôi nhà (~30 từ)</td><td>🦕 Science & Dinosaurs (~30 từ)</td></tr>
+      <tr><td><b>Tháng 2</b></td><td>🐾 Động vật + Đồ chơi (~28 từ)</td><td>🤖 Technology & Engineering (~30 từ)</td></tr>
+      <tr><td><b>Tháng 3</b></td><td>🍎 Thức ăn + Màu sắc (~28 từ)</td><td>🦸 Heroes & Personality (~30 từ)</td></tr>
+      <tr><td><b>Tháng 4</b></td><td>🎒 Trường học + Quần áo (~26 từ)</td><td>🌍 Environment & Space (~30 từ)</td></tr>
+      <tr><td><b>Tháng 5</b></td><td>⚽ Thể thao + Cảm xúc (~22 từ)</td><td>🏙️ Society & Communication (~30 từ)</td></tr>
+      <tr><td><b>Tháng 6</b></td><td>🎯 Tổng ôn + Speaking practice</td><td>🎯 Ôn tập + Reading B2</td></tr>
+      <tr><td><b>Tổng</b></td><td><b>~134 từ Firstwords chính thức</b></td><td><b>~150 từ mới B1–B2</b></td></tr>
+      <tr><td><b>Nguồn</b></td><td>Pearson Firstwords Official Word List</td><td>Oxford Word Skills Int. / Upper-Int.</td></tr>
+      <tr><td><b>Tốc độ</b></td><td>3–5 từ/ngày · 10 phút</td><td>5–6 từ/ngày · 15–20 phút</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="background:var(--green-dim);border:1px solid var(--green-border);border-radius:12px;padding:14px 16px;font-size:12px;color:#1A4D2E;line-height:1.8">
+  <b style="color:var(--green)">✅ Bước tiếp theo sau khi duyệt:</b> Mình sẽ tạo file <code>words.json</code> đầy đủ với toàn bộ từ vựng 2 bé, có đủ: word, meaning (tiếng Việt), emoji, example sentence, topic, level — sẵn sàng để copy vào app và build ngay.
+</div>
+
+</body>
+</html>

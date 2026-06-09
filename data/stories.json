@@ -1,0 +1,1694 @@
+{
+  "ranger.travel-places": {
+    "emojis": [
+      "✈️",
+      "🏨",
+      "🗺️"
+    ],
+    "en": "Mia checked her **passport** and **luggage** before heading to the **airport**. She had made a **booking** at a cozy **hotel** near her **destination**. The **tour guide** helped her exchange **currency** and find the best local **souvenirs**. Her **visa** was ready — the adventure could begin!",
+    "vi": "Mia kiểm tra **hộ chiếu** và **hành lý** trước khi ra **sân bay**. Cô đã đặt phòng trước tại một **khách sạn** ấm cúng gần **điểm đến**. **Hướng dẫn viên** giúp cô đổi **tiền tệ** và tìm những **đồ lưu niệm** địa phương đẹp nhất. **Thị thực** đã sẵn sàng — cuộc phiêu lưu có thể bắt đầu!"
+  },
+  "ranger.school-subjects": {
+    "emojis": [
+      "📚",
+      "🔬",
+      "🧮"
+    ],
+    "en": "Tom loves **mathematics** and **computer science**, but **literature** is his favourite. In **biology** class, they studied plants, and in **chemistry**, they did a fun experiment. **History** and **geography** taught him about the world. After **physical education**, he relaxed by doing some **art**.",
+    "vi": "Tom yêu thích **toán học** và **khoa học máy tính**, nhưng **văn học** là môn ưa thích nhất của em. Trong giờ **sinh học**, các em học về thực vật, và trong giờ **hóa học**, các em làm thí nghiệm vui. **Lịch sử** và **địa lý** dạy em hiểu thêm về thế giới. Sau giờ **thể dục**, em thư giãn bằng cách vẽ trong giờ **mỹ thuật**."
+  },
+  "ranger.daily-communication": {
+    "emojis": [
+      "💬",
+      "🤝",
+      "😊"
+    ],
+    "en": "When Lily was late, she had to **apologize** and **explain** what happened. Her friend **suggested** they meet earlier next time, and Lily **agreed**. At first she **disagreed** about the plan, but then she **confirmed** she was happy with it. She also had to **remind** her brother and **introduce** him to the group.",
+    "vi": "Khi Lily đến trễ, cô phải **xin lỗi** và **giải thích** chuyện gì đã xảy ra. Bạn cô **gợi ý** lần sau gặp nhau sớm hơn, và Lily **đồng ý**. Lúc đầu cô **không đồng ý** về kế hoạch, nhưng sau đó cô **xác nhận** rằng mình hài lòng. Cô cũng phải **nhắc nhở** em trai và **giới thiệu** em với cả nhóm."
+  },
+  "ranger.hobbies": {
+    "emojis": [
+      "🎨",
+      "📷",
+      "🚴"
+    ],
+    "en": "Anna's favourite **hobbies** are **painting** and **photography**. On weekends she goes **cycling** or **hiking** in the hills. Sometimes she tries **gardening** and grows tomatoes. Her brother prefers **gaming** and **skateboarding**, while their mum enjoys **knitting** and **birdwatching** in the park.",
+    "vi": "Sở thích yêu thích của Anna là **vẽ tranh** và **chụp ảnh**. Vào cuối tuần, cô đi **đạp xe** hoặc **leo núi** trên đồi. Đôi khi cô thử **làm vườn** và trồng cà chua. Anh trai cô thích **chơi game** và **trượt ván**, trong khi mẹ họ thích **đan len** và **ngắm chim** trong công viên."
+  },
+  "ranger.simple-jobs": {
+    "emojis": [
+      "👷",
+      "👨‍🍳",
+      "📰"
+    ],
+    "en": "The **librarian** helped Ben find a great book, while the **journalist** outside was writing an article. Down the street, a **carpenter** was fixing shelves and an **electrician** was replacing old wires. The school **chef** made a delicious lunch, and the **architect** next door was drawing plans for a new building.",
+    "vi": "**Thủ thư** giúp Ben tìm một cuốn sách hay, trong khi **nhà báo** bên ngoài đang viết bài. Dưới phố, một **thợ mộc** đang sửa kệ và một **thợ điện** đang thay dây cũ. **Đầu bếp** trường nấu bữa trưa ngon, và **kiến trúc sư** nhà bên đang vẽ bản thiết kế tòa nhà mới."
+  },
+  "ranger.money-shopping": {
+    "emojis": [
+      "🛒",
+      "💳",
+      "🏷️"
+    ],
+    "en": "Ella found a great **bargain** — a jacket with a 50% **discount**! She paid by **credit card** and got a **receipt**. The **cashier** said **delivery** would take two days. Later, she asked for a **refund** on a broken item, and the **brand** gave her store credit for the next **sale**.",
+    "vi": "Ella tìm được một món đồ **rẻ bất ngờ** — một chiếc áo khoác giảm giá 50%! Cô thanh toán bằng **thẻ tín dụng** và nhận **hóa đơn**. **Thu ngân** cho biết **giao hàng** sẽ mất hai ngày. Sau đó, cô yêu cầu **hoàn tiền** cho món đồ bị hỏng, và **thương hiệu** đó cho cô tín dụng cửa hàng cho lần **giảm giá** tiếp theo."
+  },
+  "ranger.describing-people": {
+    "emojis": [
+      "👦",
+      "👧",
+      "🌟"
+    ],
+    "en": "My best friend Jake is **athletic** and **cheerful** — he always makes everyone smile. His sister is **slim** with **curly** hair and is very **creative** with art. Their dad is **generous** and **reliable**, though he can be a bit **stubborn**. Jake is sometimes **anxious** before tests, but he stays **patient** and works hard.",
+    "vi": "Bạn thân Jake của tôi rất **thể thao** và **vui vẻ** — cậu ấy luôn làm mọi người mỉm cười. Chị gái cậu ấy **mảnh mai** với mái tóc **xoăn** và rất **sáng tạo** trong nghệ thuật. Bố của họ **hào phóng** và **đáng tin cậy**, dù đôi khi hơi **cứng đầu**. Jake đôi khi **lo lắng** trước các bài kiểm tra, nhưng cậu ấy vẫn **kiên nhẫn** và học chăm chỉ."
+  },
+  "ranger.food-dining": {
+    "emojis": [
+      "🍽️",
+      "🥗",
+      "🍰"
+    ],
+    "en": "When Dad made a **reservation** at the new restaurant, the waiter brought the **menu** right away. Mum chose a **vegetarian** dish and a **spicy** soup. The **portions** were huge! Dad left a generous **tip** because the staff **served** everyone so kindly. We finished with a chocolate **dessert** from the **buffet**.",
+    "vi": "Khi bố đặt **chỗ trước** ở nhà hàng mới, người phục vụ mang **thực đơn** ra ngay. Mẹ chọn món **chay** và một bát súp **cay**. Các **phần ăn** rất lớn! Bố để lại **tiền boa** hậu hĩnh vì nhân viên **phục vụ** mọi người rất chu đáo. Chúng tôi kết thúc bằng món **tráng miệng** sô-cô-la từ **bàn buffet**."
+  },
+  "ranger.health-body": {
+    "emojis": [
+      "🏥",
+      "💊",
+      "🩺"
+    ],
+    "en": "Sam had a **fever** and some strange **symptoms**, so his mum booked a doctor's **appointment**. The doctor made a **diagnosis** and wrote a **prescription** for **medicine**. She also checked Sam's **nutrition** and told him about a **vaccine** he needed. After a week of **recovery**, Sam felt much better and had no **allergy** reactions.",
+    "vi": "Sam bị **sốt** và có một số **triệu chứng** lạ, nên mẹ cậu đặt **lịch hẹn** bác sĩ. Bác sĩ đưa ra **chẩn đoán** và viết **đơn thuốc** cho **thuốc**. Bà cũng kiểm tra **dinh dưỡng** của Sam và cho biết về một loại **vắc-xin** cần tiêm. Sau một tuần **hồi phục**, Sam cảm thấy khỏe hơn nhiều và không có phản ứng **dị ứng** nào."
+  },
+  "ranger.countries-cultures": {
+    "emojis": [
+      "🌍",
+      "🏛️",
+      "🎎"
+    ],
+    "en": "Japan has many interesting **traditions** and **ceremonies** near famous **monuments**. The country is home to people from different **religions** who share their own **customs**. Many visitors cross the **border** to see famous **landmarks** on every **continent**. The guide spoke four languages — truly **multilingual** — and told stories about local **immigrants** who shaped the culture.",
+    "vi": "Nhật Bản có nhiều **truyền thống** và **nghi lễ** thú vị gần các **tượng đài** nổi tiếng. Đất nước này là ngôi nhà của người dân nhiều **tôn giáo** khác nhau cùng chia sẻ **phong tục** riêng. Nhiều du khách vượt **biên giới** để xem các **địa danh** nổi tiếng trên mọi **lục địa**. Hướng dẫn viên nói bốn ngứ ngôn — thực sự **đa ngôn ngữ** — và kể chuyện về những **người nhập cư** đã định hình văn hóa địa phương."
+  },
+  "ranger.describing-places": {
+    "emojis": [
+      "🏙️",
+      "🌄",
+      "🏘️"
+    ],
+    "en": "Our **neighborhood** is a **lively** mix of **urban** and **coastal** life. The old town is **historic** and **scenic**, while the outskirts are more **rural** and **peaceful**. Some **industrial** areas near the port can have **pollution**, but the **suburb** is clean and quiet. Every **attraction** here tells a story of the changing **landscape**.",
+    "vi": "**Khu phố** của chúng tôi là sự pha trộn **sôi động** giữa cuộc sống **đô thị** và **ven biển**. Phố cổ **lịch sử** và **đẹp như tranh**, trong khi vùng ngoại ô yên bình và **thôn quê** hơn. Một số khu **công nghiệp** gần cảng có thể có **ô nhiễm**, nhưng **ngoại ô** thì sạch và yên tĩnh. Mỗi **điểm thu hút** ở đây đều kể câu chuyện về sự thay đổi của **cảnh quan**."
+  },
+  "ranger.world-food": {
+    "emojis": [
+      "🍣",
+      "🌮",
+      "🥘"
+    ],
+    "en": "The food festival was amazing! We tried **sushi** from Japan, **tacos** from Mexico, and a warm **curry** from India. There was also **ramen**, **paella**, **dumplings**, and a golden **croissant**. A chef showed us how to use a **wok** with fresh **herbs** and **spices**. The **falafel** and **kebab** stall had a wonderful **fusion** dish — and the **ramen** was fermented to perfection.",
+    "vi": "Lễ hội ẩm thực thật tuyệt! Chúng tôi thử **sushi** từ Nhật Bản, **taco** từ Mexico và **cà ri** ấm nóng từ Ấn Độ. Còn có **ramen**, **paella**, **há cảo** và **bánh sừng bò** vàng ươm. Một đầu bếp chỉ cho chúng tôi cách dùng **chảo wok** với **rau thơm** và **gia vị** tươi. Quầy **falafel** và **kebab** có món **fusion** tuyệt vời — và **ramen** được **lên men** hoàn hảo."
+  },
+  "ranger.friendship-relations": {
+    "emojis": [
+      "👫",
+      "💛",
+      "🤗"
+    ],
+    "en": "True friendship needs **trust**, **loyalty**, and the ability to **forgive**. When Jake and Maria had an **argument**, they didn't **gossip** or let **jealousy** win. Instead, they chose to **communicate**, **reconcile**, and **support** each other. Their **bond** grew stronger because they always showed **respect** and were **sincere** even during **conflict**.",
+    "vi": "Tình bạn thật sự cần **sự tin tưởng**, **lòng trung thành** và khả năng **tha thứ**. Khi Jake và Maria **cãi nhau**, họ không **nói xấu** hay để **ghen tị** chiến thắng. Thay vào đó, họ chọn **giao tiếp**, **hòa giải** và **hỗ trợ** nhau. **Mối quan hệ** của họ ngày càng vững chắc vì họ luôn thể hiện **sự tôn trọng** và **chân thành** ngay cả trong **xung đột**."
+  },
+  "ranger.simple-science": {
+    "emojis": [
+      "🔭",
+      "🧪",
+      "⚗️"
+    ],
+    "en": "In science class, we made a **hypothesis** before the **experiment**: would the salt **dissolve** faster in hot water? We used a **thermometer** to **measure** the **temperature** and wrote down every **result**. The **evidence** helped us reach a **conclusion** about how **pressure** and **gravity** affect **molecules**. Our teacher said good scientists always **classify** and **observe** carefully.",
+    "vi": "Trong giờ khoa học, chúng tôi đưa ra **giả thuyết** trước **thí nghiệm**: liệu muối có **hòa tan** nhanh hơn trong nước nóng không? Chúng tôi dùng **nhiệt kế** để **đo** **nhiệt độ** và ghi lại mọi **kết quả**. **Bằng chứng** giúp chúng tôi đưa ra **kết luận** về cách **áp suất** và **trọng lực** ảnh hưởng đến **phân tử**. Cô giáo nói các nhà khoa học giỏi luôn **phân loại** và **quan sát** cẩn thận."
+  },
+  "ranger.environment-care": {
+    "emojis": [
+      "🌱",
+      "♻️",
+      "🌍"
+    ],
+    "en": "Our school started a project to protect the local **ecosystem**. We learned that **deforestation** destroys **habitats** for **wildlife** and that **fossil fuels** release **carbon** and **emissions** into the air. The class decided to use **solar energy**, make **compost**, and buy **organic** food. **Conservation** and **sustainable** choices can slow **drought** and protect **endangered** species — every action counts!",
+    "vi": "Trường chúng tôi bắt đầu một dự án bảo vệ **hệ sinh thái** địa phương. Chúng tôi biết rằng **phá rừng** phá hủy **môi trường sống** của **động vật hoang dã** và **nhiên liệu hóa thạch** thải ra **carbon** và **khí thải** vào không khí. Lớp quyết định dùng **năng lượng mặt trời**, làm **phân hữu cơ** và mua thực phẩm **hữu cơ**. **Bảo tồn** và lựa chọn **bền vững** có thể làm chậm **hạn hán** và bảo vệ các loài đang bị **đe dọa tuyệt chủng** — mỗi hành động đều quan trọng!"
+  },
+  "ranger.digital-basics": {
+    "emojis": [
+      "💻",
+      "📱",
+      "☁️"
+    ],
+    "en": "Before you use a new app, always create a strong **password** and update your **account** settings. Make sure to turn on **notifications** for important **updates** and use **cloud** **storage** to keep your files safe. Never click unknown links — they may carry a **virus**! It's also smart to **backup** your data, use a secure **wireless** network, and take a **screenshot** if something goes wrong.",
+    "vi": "Trước khi dùng ứng dụng mới, hãy luôn tạo **mật khẩu** mạnh và cập nhật cài đặt **tài khoản**. Đảm bảo bật **thông báo** cho các **bản cập nhật** quan trọng và dùng **lưu trữ đám mây** để giữ tệp an toàn. Đừng nhấp vào liên kết lạ — chúng có thể chứa **vi-rút**! Cũng thật khôn ngoan khi **sao lưu** dữ liệu, dùng mạng **không dây** bảo mật và chụp **ảnh màn hình** nếu có sự cố."
+  },
+  "ranger.travel-transport": {
+    "emojis": [
+      "🚆",
+      "🛫",
+      "🚌"
+    ],
+    "en": "Checking the **timetable** at the **terminal**, Leo saw his train was on **platform** 3 with no **delay**. His **boarding pass** was ready and he knew the **departure** and **arrival** times by heart. During the **transfer**, he paid the **fare** and found the **express** line. The **itinerary** showed a **roundtrip** with a stop at the **harbor** — he could already picture **baggage claim** at the end.",
+    "vi": "Nhìn vào **lịch trình** tại **nhà ga**, Leo thấy tàu của anh ở **sân ga** số 3 và không bị **trễ**. **Thẻ lên tàu** đã sẵn sàng và anh thuộc lòng giờ **khởi hành** và **đến nơi**. Trong lúc **trung chuyển**, anh trả **vé** và tìm tuyến **tốc hành**. **Lịch trình** cho thấy một chuyến **khứ hồi** với điểm dừng tại **bến cảng** — anh đã hình dung ra cảnh lấy **hành lý** ở cuối hành trình."
+  },
+  "ranger.weather-climate": {
+    "emojis": [
+      "🌦️",
+      "❄️",
+      "🌡️"
+    ],
+    "en": "The **forecast** warned of a **heatwave** followed by a **hurricane** later in the week. In the morning, soft **drizzle** made the streets foggy, but by noon it was **mild** and sunny. The **barometer** fell sharply before the **thunderstorm** — **lightning** lit up the sky! Up in the mountains, **sleet** and **snowstorm** conditions were **arctic**, while the coast stayed **tropical** with high **humidity** and risk of **flood**.",
+    "vi": "**Dự báo thời tiết** cảnh báo về một đợt **nắng nóng** rồi đến **bão** vào cuối tuần. Buổi sáng, **mưa phùn** nhẹ làm đường phố mờ sương, nhưng đến trưa thì **ấm áp** và nắng. **Khí áp kế** giảm mạnh trước **cơn giông** — **tia sét** sáng lên bầu trời! Trên núi cao, điều kiện có **mưa đá** và **bão tuyết** kiểu **bắc cực**, trong khi bờ biển vẫn **nhiệt đới** với **độ ẩm** cao và nguy cơ **lũ lụt**."
+  },
+  "ranger.sports-activities": {
+    "emojis": [
+      "🏆",
+      "⚽",
+      "🏃"
+    ],
+    "en": "The city **stadium** was full of **spectators** for the regional **tournament**. The **referee** called a **penalty** in the second half, and the **substitute** player scored the winning goal. After the game, the **champion** team received a golden **trophy**. All the athletes had done months of hard **training** — **competitive** spirit and **gymnastics** drills had paid off. Some even hoped to **qualify** for the national **athletics** and **marathon** events.",
+    "vi": "**Sân vận động** thành phố chật kín **khán giả** cho **giải đấu** khu vực. **Trọng tài** thổi phạt **penalty** ở hiệp hai, và cầu thủ **dự bị** ghi bàn thắng quyết định. Sau trận, đội **vô địch** nhận **cúp** vàng. Tất cả vận động viên đã trải qua nhiều tháng **tập luyện** vất vả — tinh thần **thi đấu** và bài tập **thể dục dụng cụ** đã được đền đáp. Một số còn hy vọng **đủ điều kiện** thi đấu **điền kinh** và **marathon** quốc gia."
+  },
+  "ranger.festivals-traditions": {
+    "emojis": [
+      "🎆",
+      "🏮",
+      "🥁"
+    ],
+    "en": "During the **lunar** New Year, families **decorate** their homes with red **lanterns** and prepare a big **feast**. The street **parade** is full of colour — people wear bright **costumes** and set off **fireworks**. At the temple, elders perform the sacred **ritual** and give a **blessing** to the young. Visitors join the **pilgrimage**, make a **donation**, and take part in the **procession** that ends with the **harvest festival** celebration.",
+    "vi": "Trong dịp Tết **âm lịch**, các gia đình **trang trí** nhà với **đèn lồng** đỏ và chuẩn bị **bữa tiệc** lớn. Cuộc **diễu hành** trên phố rực rỡ sắc màu — mọi người mặc **trang phục** sặc sỡ và bắn **pháo hoa**. Tại chùa, các bậc cao niên thực hiện **nghi lễ** thiêng liêng và ban **phước lành** cho người trẻ. Du khách tham gia **hành hương**, quyên **tiền từ thiện** và tham dự **đoàn rước** kết thúc bằng lễ hội **thu hoạch**."
+  },
+  "ranger.home-living": {
+    "emojis": [
+      "🏠",
+      "🛋️",
+      "🔧"
+    ],
+    "en": "Our new apartment has a nice **balcony** and even a **basement** for storage. Mum asked Dad to **repair** the dripping **pipe** and fix the broken **doorbell**. We chose new **furniture**, replaced the old **curtains**, and the electrician checked the **electricity** and **heating**. The **neighbor** downstairs helped us carry boxes, and we made sure to put all the **rubbish** in the right bins.",
+    "vi": "Căn hộ mới của chúng tôi có **ban công** đẹp và cả **tầng hầm** để chứa đồ. Mẹ nhờ bố **sửa** ống **nước** bị rỉ và sửa **chuông cửa** hỏng. Chúng tôi chọn **đồ nội thất** mới, thay **rèm** cũ, và thợ điện kiểm tra **điện** và **hệ thống sưởi**. **Người hàng xóm** tầng dưới giúp chúng tôi khuân hộp, và chúng tôi đảm bảo bỏ **rác** vào đúng thùng."
+  },
+  "ranger.study-skills": {
+    "emojis": [
+      "📖",
+      "🗒️",
+      "⏰"
+    ],
+    "en": "To do well in school, you need to **focus** and cut out every **distraction**. Make a **schedule** with each **deadline** marked clearly, and use a **mind map** to plan big **assignments**. When you **revise**, try to **highlight** key ideas and **summarize** the main points. It also helps to **memorize** new words with a **flashcard**, take a short **quiz**, and **practice** every day — **concentration** is the real secret!",
+    "vi": "Để học tốt, bạn cần **tập trung** và loại bỏ mọi **sự phân tâm**. Lập **lịch học** với từng **hạn chót** được đánh dấu rõ ràng, và dùng **bản đồ tư duy** để lên kế hoạch cho các **bài tập** lớn. Khi **ôn bài**, hãy cố **đánh dấu** các ý chính và **tóm tắt** nội dung quan trọng. Ngoài ra, hãy **ghi nhớ** từ mới bằng **thẻ ghi nhớ**, làm một bài **kiểm tra** ngắn và **luyện tập** mỗi ngày — **khả năng tập trung** mới là bí quyết thực sự!"
+  },
+  "ranger.animal-world": {
+    "emojis": [
+      "🦁",
+      "🐘",
+      "🦅"
+    ],
+    "en": "A **predator** like a lion uses **camouflage** and sharp **claws** to hunt its **prey**. Some **mammals** **hibernate** in winter, while birds **migrate** south in large **herds** and **nests**. In the ocean, **aquatic** animals avoid **venom**ous creatures. Even **wild** animals can sometimes be **tamed**, but a **reptile** with **feathers**... now that's something only fossils can tell us!",
+    "vi": "Một **thú săn mồi** như sư tử sử dụng **ngụy trang** và **móng vuốt** sắc bén để săn **con mồi**. Một số **động vật có vú** **ngủ đông** vào mùa đông, trong khi các loài chim **di cư** về phía nam theo những đàn lớn và xây **tổ**. Dưới đại dương, các động vật **sống dưới nước** tránh xa những sinh vật có **nọc độc**. Ngay cả động vật **hoang dã** đôi khi có thể được **thuần hóa**, nhưng một loài **bò sát** có **lông vũ**... chỉ có hóa thạch mới kể cho ta nghe!"
+  },
+  "ranger.city-community": {
+    "emojis": [
+      "🏙️",
+      "🚦",
+      "🤲"
+    ],
+    "en": "The **mayor** announced new plans to improve **infrastructure** across every **district**. **Citizens** and **residents** gathered on the **sidewalk** at the **crosswalk** to discuss **public** **safety** and **traffic** issues. A group of **volunteers** organised a **charity** drive, while others joined a peaceful **protest** for better **pedestrian** paths. In an **emergency**, everyone agreed: a strong **community** makes a safer city.",
+    "vi": "**Thị trưởng** công bố kế hoạch mới để cải thiện **cơ sở hạ tầng** trên khắp các **quận**. **Công dân** và **cư dân** tập trung trên **vỉa hè** tại **vạch sang đường** để thảo luận về **an toàn** và **giao thông công cộng**. Một nhóm **tình nguyện viên** tổ chức hoạt động **từ thiện**, trong khi những người khác tham gia **biểu tình** hòa bình đòi cải thiện đường dành cho **người đi bộ**. Trong **trường hợp khẩn cấp**, mọi người đồng ý: một **cộng đồng** mạnh tạo nên một thành phố an toàn hơn."
+  },
+  "ranger.time-calendar": {
+    "emojis": [
+      "📅",
+      "⏳",
+      "🕛"
+    ],
+    "en": "The museum exhibit covers an entire **century** of history — from one **era** to another. Dad checked his **agenda** and saw the **annual** family trip was coming up. The train ticket would **expire** next week, so we couldn't **postpone** it. Mum reminded us to be **punctual**: \"**Instant** delays become **weekly** habits!\" At **midnight** to **dawn**, she said, every **routine** feels like a new **decade**.",
+    "vi": "Triển lãm bảo tàng bao phủ cả **thế kỷ** lịch sử — từ **thời đại** này sang thời đại khác. Bố kiểm tra **lịch công việc** và thấy chuyến đi gia đình **hàng năm** sắp đến. Vé tàu sẽ **hết hạn** tuần tới, nên chúng tôi không thể **trì hoãn**. Mẹ nhắc nhở chúng tôi phải **đúng giờ**: \"Sự chậm trễ **tức thì** trở thành thói quen **hàng tuần**!\" Từ **nửa đêm** đến **bình minh**, bà nói, mọi **thói quen** đều cảm giác như một **thập kỷ** mới."
+  },
+  "ranger.crafts-making": {
+    "emojis": [
+      "✂️",
+      "🧵",
+      "🏺"
+    ],
+    "en": "In art class, we used **scissors**, **thread**, and a **needle** to make a small **stitch**ed pouch. Then we tried **origami** — just **fold** the paper carefully to get a perfect **pattern**! Later, we worked with **clay** to **mold** and **carve** tiny figures. The teacher showed us how to **weave** coloured strips and **dye** fabric to create a beautiful **texture** in our **handmade** gifts.",
+    "vi": "Trong giờ mỹ thuật, chúng tôi dùng **kéo**, **chỉ** và **kim** để **khâu** một chiếc túi nhỏ. Sau đó chúng tôi thử **origami** — chỉ cần **gấp** giấy cẩn thận để có được **hoa văn** hoàn hảo! Tiếp theo, chúng tôi làm việc với **đất sét** để **nặn** và **khắc** các hình nhỏ. Cô giáo hướng dẫn cách **dệt** các dải màu và **nhuộm** vải để tạo ra **kết cấu** đẹp trong những món quà **thủ công**."
+  },
+  "ranger.books-stories": {
+    "emojis": [
+      "📚",
+      "✍️",
+      "🔍"
+    ],
+    "en": "The new **fiction** book in the school library was already on everyone's reading list. The **author** built an exciting **plot** with a brave **hero**, a cunning **villain**, and a spooky **setting**. Each **chapter** brought a new **adventure** or **mystery**. The school **review** club decided to **recommend** the whole **series** — beautifully **illustrated** and ready to **publish** a sequel!",
+    "vi": "Cuốn sách **hư cấu** mới trong thư viện trường đã có mặt trong danh sách đọc của mọi người. **Tác giả** xây dựng một **cốt truyện** hấp dẫn với một **anh hùng** dũng cảm, một **phản diện** xảo quyệt và một **bối cảnh** rùng rợn. Mỗi **chương** mang đến một **cuộc phiêu lưu** hay **bí ẩn** mới. Câu lạc bộ **nhận xét** của trường quyết định **giới thiệu** cả **bộ truyện** — được **minh hoạ** đẹp và sẵn sàng **xuất bản** phần tiếp theo!"
+  },
+  "ranger.emotions-feelings": {
+    "emojis": [
+      "😊",
+      "😔",
+      "💪"
+    ],
+    "en": "Before the school play, Ben felt **tense** and **nervous** — his **mood** kept changing. His mum showed **sympathy** and helped him **cope** with the stress. \"Be **confident**!\" she said, giving him a hug for **comfort**. After the performance, Ben felt **proud** and **relieved**. Even though he had been **overwhelmed** and a little **bitter** about forgetting his lines, he was **grateful** for the experience and no longer felt **lonely** on stage.",
+    "vi": "Trước buổi diễn kịch của trường, Ben cảm thấy **căng thẳng** và **hồi hộp** — **tâm trạng** của em cứ thay đổi liên tục. Mẹ em thể hiện **sự đồng cảm** và giúp em **đương đầu** với áp lực. \"Hãy **tự tin** lên!\" bà nói và ôm em vào lòng để **an ủi**. Sau buổi diễn, Ben cảm thấy **tự hào** và **nhẹ nhõm**. Dù đã từng **choáng ngợp** và hơi **buồn bực** vì quên lời thoại, em vẫn **biết ơn** vì trải nghiệm này và không còn cảm thấy **cô đơn** trên sân khấu nữa."
+  },
+  "ranger.nature-geography": {
+    "emojis": [
+      "🏔️",
+      "🌊",
+      "🌋"
+    ],
+    "en": "The geography trip took us from a rugged **cliff** above a **valley** to the edge of an active **volcano**. We saw a **waterfall** crashing into the **ocean** and walked across ancient **glacier** ice. The guide explained how **earthquakes** shape the **terrain**, carving out deep **canyon**s and flat **desert**s. At the **peninsula** tip, the **tide** came in fast, and we watched the **horizon** glow at the highest **altitude** of the **rainforest** trail.",
+    "vi": "Chuyến dã ngoại địa lý đưa chúng tôi từ một vách **núi đá** dốc đứng trên **thung lũng** đến bên miệng **núi lửa** đang hoạt động. Chúng tôi thấy **thác nước** đổ xuống **đại dương** và đi bộ trên băng **sông băng** cổ xưa. Hướng dẫn viên giải thích cách **động đất** định hình **địa hình**, tạo ra những **hẻm núi** sâu và **sa mạc** phẳng lặng. Tại đỉnh **bán đảo**, **thủy triều** lên rất nhanh, và chúng tôi ngắm **đường chân trời** bừng sáng ở **độ cao** lớn nhất của con đường rừng **nhiệt đới**."
+  },
+  "ranger.social-media-basics": {
+    "emojis": [
+      "📱",
+      "💬",
+      "🌐"
+    ],
+    "en": "Hana is a young **content creator** who loves making short **reel**s. She adds a fun **caption** and the right **hashtag** to every **post**, then waits to see if it goes **viral**. Her **profile** shows she has thousands of **subscriber**s and **follower**s. She always checks her **privacy** settings and reminds her friends: \"Don't just **like** and **share** — think before you **comment**!\" A good **influencer** knows every **trend** comes and goes.",
+    "vi": "Hana là một **nhà sáng tạo nội dung** trẻ tuổi thích làm các **video ngắn**. Cô thêm một **chú thích** vui nhộn và **hashtag** phù hợp cho mỗi **bài đăng**, rồi chờ xem liệu nó có **lan truyền** không. **Trang cá nhân** của cô cho thấy cô có hàng nghìn **người đăng ký** và **người theo dõi**. Cô luôn kiểm tra cài đặt **quyền riêng tư** và nhắc nhở bạn bè: \"Đừng chỉ **thích** và **chia sẻ** — hãy suy nghĩ trước khi **bình luận**!\" Một **người ảnh hưởng** giỏi biết rằng mọi **xu hướng** đều đến rồi đi."
+  },
+  "seeker.colors-basic": {
+    "emojis": [
+      "🔴",
+      "🟡",
+      "🟢"
+    ],
+    "en": "Tom paints a **red** sun and a **blue** sky. He adds a **green** tree and **yellow** flowers in the garden. His favourite **colour** is **orange** — just like the setting sun!",
+    "vi": "Tom vẽ một mặt trời **đỏ** và bầu trời **xanh dương**. Cậu thêm một cây **xanh lá** và những bông hoa **vàng** trong vườn. Màu **màu sắc** yêu thích của cậu là **cam** — giống hệt mặt trời lúc hoàng hôn!"
+  },
+  "seeker.numbers": {
+    "emojis": [
+      "🐱",
+      "🔢",
+      "🏠"
+    ],
+    "en": "Lily has **five** cats and **three** dogs at home. She counts **one**, **two**, **three** cats sleeping on the sofa. There are **ten** animals in her house — she loves every single one!",
+    "vi": "Lily có **năm** con mèo và **ba** con chó ở nhà. Cô đếm **một**, **hai**, **ba** con mèo đang ngủ trên sofa. Có tất cả **mười** con vật trong nhà cô — cô yêu từng con một!"
+  },
+  "seeker.family-basic": {
+    "emojis": [
+      "👨‍👩‍👧‍👦",
+      "👵",
+      "❤️"
+    ],
+    "en": "My **mum**, **dad**, **grandma**, and **grandpa** all live together. My **sister** holds the **baby** and my **brother** plays nearby. We are a big, happy **family** and we **love** our **home**.",
+    "vi": "**Mẹ**, **bố**, **bà** và **ông** của tôi đều sống cùng nhau. **Chị gái** tôi bế em **bé** còn **anh trai** tôi chơi gần đó. Chúng tôi là một **gia đình** đông vui và chúng tôi **yêu** ngôi **nhà** của mình."
+  },
+  "seeker.simple-feelings": {
+    "emojis": [
+      "😊",
+      "😢",
+      "😄"
+    ],
+    "en": "Tom is **happy** because he got a new toy, but his friend is **sad** and **hungry** after the long walk. Tom tells a **funny** joke and gives his friend some food. Now everyone feels **good** and nobody is **angry** anymore!",
+    "vi": "Tom rất **vui** vì cậu nhận được đồ chơi mới, nhưng bạn cậu thì **buồn** và **đói** sau chuyến đi dài. Tom kể một câu chuyện cười **hài hước** và đưa đồ ăn cho bạn. Bây giờ mọi người đều cảm thấy **tốt** và không ai còn **tức giận** nữa!"
+  },
+  "seeker.body-parts": {
+    "emojis": [
+      "🖐️",
+      "👁️",
+      "🦶"
+    ],
+    "en": "The teacher says: Touch your **head**, **nose**, and **mouth**! Lisa waves her **hand** and stamps her **foot**. She wiggles her **arm**, bends her **leg**, and shakes her long **hair**.",
+    "vi": "Cô giáo nói: Hãy chạm vào **đầu**, **mũi** và **miệng** của mình! Lisa vẫy **tay** và giậm **chân** xuống sàn. Cô lắc **cánh tay**, uốn cong **chân** và lắc mái **tóc** dài."
+  },
+  "seeker.pets": {
+    "emojis": [
+      "🐱",
+      "🐇",
+      "🐸"
+    ],
+    "en": "Ben has a **cat** and a **dog** at home, and a little **rabbit** that loves to hop. His **bird** sings every morning outside the window. At the farm, he feeds a big **cow**, a pink **pig**, and a funny **duck**.",
+    "vi": "Ben có một con **mèo** và một con **chó** ở nhà, cùng một chú **thỏ** nhỏ thích nhảy nhót. Con **chim** của cậu hót mỗi buổi sáng bên ngoài cửa sổ. Ở nông trại, cậu cho một con **bò** to, một con **lợn** hồng và một con **vịt** buồn cười ăn."
+  },
+  "seeker.everyday-food": {
+    "emojis": [
+      "🍎",
+      "🍚",
+      "🎂"
+    ],
+    "en": "Mia eats an **apple** and drinks a glass of **milk** for breakfast. For lunch, she has **rice** and a fried **egg**. At her birthday party, there is a big **cake** and fresh **orange** **juice** for everyone!",
+    "vi": "Mia ăn một quả **táo** và uống một ly **sữa** vào bữa sáng. Vào bữa trưa, cô ăn **cơm** với trứng **ốp la**. Tại bữa tiệc sinh nhật, có một cái **bánh** to và **nước cam** tươi cho tất cả mọi người!"
+  },
+  "seeker.basic-clothes": {
+    "emojis": [
+      "👕",
+      "👟",
+      "🎒"
+    ],
+    "en": "Tom puts on a **blue** **shirt** and his **trousers** to get ready for school. He pulls on his **socks** and **shoes**, then grabs his **bag** by the door. Outside it is cold, so he quickly zips up his **jacket** and puts on his **hat**.",
+    "vi": "Tom mặc một cái **áo sơ mi** **xanh** và **quần dài** để chuẩn bị đến trường. Cậu xỏ **tất** và **giày** rồi cầm **cặp** ở cửa. Bên ngoài trời lạnh nên cậu nhanh chóng kéo khóa **áo khoác** và đội **mũ** lên đầu."
+  },
+  "seeker.basic-transport": {
+    "emojis": [
+      "🚌",
+      "✈️",
+      "🚂"
+    ],
+    "en": "Every morning, Tom and Lily take the **bus** to school together. Dad drives a **car** to work and Mum rides the **train** into the city. One day, the whole family wants to fly on a big **plane** to visit Grandma far away!",
+    "vi": "Mỗi sáng, Tom và Lily đi **xe buýt** đến trường cùng nhau. Bố lái **xe hơi** đi làm còn mẹ đi **tàu hỏa** vào thành phố. Một ngày nào đó, cả nhà muốn bay trên một chiếc **máy bay** to để đến thăm bà ở xa!"
+  },
+  "seeker.classroom": {
+    "emojis": [
+      "📚",
+      "✏️",
+      "🖍️"
+    ],
+    "en": "Lily sits at her **table** and opens her **book** to read. Her **teacher** writes today's lesson on the **board** with a **pen**. Lily uses a **crayon** to draw a picture and gives it to her best **friend**.",
+    "vi": "Lily ngồi vào **bàn** của mình và mở **sách** ra đọc. Cô **giáo** viết bài học hôm nay lên **bảng** bằng **bút**. Lily dùng **bút màu** để vẽ một bức tranh và tặng nó cho người bạn thân nhất của mình."
+  },
+  "seeker.household-items": {
+    "emojis": [
+      "🏠",
+      "🛋️",
+      "🕐"
+    ],
+    "en": "Mum opens the **door** and walks into the **kitchen** to cook dinner. Ben sits on the **sofa** next to the warm **lamp** and reads his book. He looks at the **clock**, sees it is bedtime, and runs up the **stairs** to his **bed**.",
+    "vi": "Mẹ mở **cửa** và bước vào **bếp** để nấu cơm tối. Ben ngồi trên **ghế sofa** bên cạnh ngọn **đèn** ấm áp và đọc sách. Cậu nhìn vào **đồng hồ**, thấy đã đến giờ đi ngủ, và chạy lên **cầu thang** vào **giường** của mình."
+  },
+  "seeker.my-face": {
+    "emojis": [
+      "🩺",
+      "😊",
+      "🤲"
+    ],
+    "en": "The nurse checks Sara's **forehead** and asks her to open her **mouth** and show her **tongue**. Sara points to her **knee** and **finger** where she fell and got hurt. The nurse puts a bandage on her **chin** and says she will be fine soon.",
+    "vi": "Y tá kiểm tra **trán** của Sara và yêu cầu cô mở **miệng** ra và thè **lưỡi**. Sara chỉ vào **đầu gối** và **ngón tay** nơi cô bị ngã và bị thương. Y tá băng lại **cằm** cho cô và nói cô sẽ ổn thôi."
+  },
+  "seeker.weather-basic": {
+    "emojis": [
+      "☀️",
+      "⛈️",
+      "🌈"
+    ],
+    "en": "In the morning the **sun** shines and it feels **warm** and **dry**. Then dark **clouds** roll in and a big **storm** brings heavy **rain** and **wind**. After the storm, a beautiful **rainbow** stretches across the **cool**, fresh sky!",
+    "vi": "Vào buổi sáng, **mặt trời** tỏa sáng và trời cảm thấy **ấm áp** và **khô ráo**. Rồi những đám **mây** đen kéo đến và một cơn **bão** lớn mang theo **mưa** to và **gió** mạnh. Sau cơn bão, một cái **cầu vồng** đẹp trải dài trên bầu trời **mát mẻ** trong lành!"
+  },
+  "seeker.common-fruits": {
+    "emojis": [
+      "🥭",
+      "🍓",
+      "🍉"
+    ],
+    "en": "Mia loves **mango** and **strawberry** ice cream in summer. Her mum cuts a big **watermelon** and a sweet **pineapple** for the whole family. They also squeeze a **lemon** into cold water and add some **grapes** on the side.",
+    "vi": "Mia thích kem **xoài** và **dâu tây** vào mùa hè. Mẹ cô cắt một quả **dưa hấu** to và một quả **dứa** ngọt cho cả nhà. Họ còn vắt một quả **chanh** vào nước lạnh và thêm một chùm **nho** ở bên."
+  },
+  "seeker.basic-vegetables": {
+    "emojis": [
+      "🥕",
+      "🍅",
+      "🥣"
+    ],
+    "en": "Dad puts **carrots**, **potatoes**, and **onions** into the big pot on the stove. Mum adds **tomatoes**, **mushrooms**, and a clove of **garlic** to the soup. The whole kitchen smells amazing and everyone can't wait to eat!",
+    "vi": "Bố cho **cà rốt**, **khoai tây** và **hành tây** vào cái nồi to trên bếp. Mẹ thêm **cà chua**, **nấm** và một tép **tỏi** vào nồi súp. Cả căn bếp có mùi thơm tuyệt vời và mọi người không thể chờ được để ăn!"
+  },
+  "seeker.wild-animals": {
+    "emojis": [
+      "🦁",
+      "🐘",
+      "🐼"
+    ],
+    "en": "At the zoo, a big **lion** roars and a striped **tiger** paces in its space. A tall **giraffe** stretches its neck to eat leaves high up in the trees. Near the water, a cute **panda** sleeps while a funny **penguin** waddles back and forth.",
+    "vi": "Ở vườn thú, một con **sư tử** to rống lên và một con **hổ** có sọc bước đi trong không gian của nó. Một con **hươu cao cổ** vươn cổ lên để ăn lá cây cao. Gần mặt nước, một con **gấu trúc** đáng yêu ngủ trong khi một con **chim cánh cụt** buồn cười lạch bạch đi qua đi lại."
+  },
+  "seeker.sea-creatures": {
+    "emojis": [
+      "🐬",
+      "🐳",
+      "🐙"
+    ],
+    "en": "Deep in the ocean, a **dolphin** leaps and swims next to a huge **whale**. A gentle **turtle** floats slowly past, and a colourful **starfish** rests on the rocks below. Further in the dark, a clever **octopus** hides in a cave and watches everything quietly.",
+    "vi": "Sâu dưới đại dương, một con **cá heo** nhảy lên và bơi cạnh một con **cá voi** khổng lồ. Một con **rùa** hiền lành bơi chậm rãi, và một con **sao biển** đầy màu sắc đậu trên những tảng đá bên dưới. Xa hơn trong bóng tối, một con **bạch tuộc** thông minh ẩn trong hang và lặng lẽ quan sát mọi thứ."
+  },
+  "seeker.toys-games": {
+    "emojis": [
+      "🤖",
+      "🪁",
+      "🎨"
+    ],
+    "en": "Ben plays with his favourite **robot** and stacks tall towers using coloured **blocks**. His little sister hugs her soft **teddy** and makes animals out of **clay**. Later, they go outside to fly a **kite** and kick a **ball** in the park.",
+    "vi": "Ben chơi với con **rô-bốt** yêu thích của mình và xếp những tháp cao bằng những **khối** màu sắc. Em gái nhỏ của cậu ôm chú **gấu bông** mềm mại và nặn các con vật bằng **đất sét**. Sau đó, họ ra ngoài để thả **diều** và đá **bóng** trong công viên."
+  },
+  "seeker.basic-actions": {
+    "emojis": [
+      "🏃",
+      "🎨",
+      "😴"
+    ],
+    "en": "In the morning, Tom **wakes up**, **eats** breakfast quickly, and **walks** to school. After school, he **plays** football with his friends, **kicks** the ball hard, and **runs** all around the field. At night, he **draws** a picture in his notebook, then **sleeps** peacefully.",
+    "vi": "Vào buổi sáng, Tom **thức dậy**, **ăn** sáng nhanh rồi **đi bộ** đến trường. Sau giờ học, cậu **chơi** bóng đá với bạn bè, **đá** bóng thật mạnh và **chạy** khắp sân. Vào ban đêm, cậu **vẽ** một bức tranh trong cuốn sổ rồi **ngủ** ngon lành."
+  },
+  "seeker.greetings-manners": {
+    "emojis": [
+      "👋",
+      "🤝",
+      "😊"
+    ],
+    "en": "Tom walks up to a new boy and says: **Hello**! My **name** is Tom. **Nice** to **meet** you! The new boy smiles and says: **Welcome** to our class! After school, Tom says **Thank** you, **bye**! and waves goodbye with a big smile.",
+    "vi": "Tom bước đến chỗ một bạn trai mới và nói: **Xin chào**! **Tên** tôi là Tom. Rất vui được **gặp** bạn! Cậu bé mới mỉm cười và nói: **Chào mừng** đến lớp của chúng mình! Sau giờ học, Tom nói **Cảm ơn**, **tạm biệt**! và vẫy tay chào với nụ cười thật to."
+  },
+  "seeker.daily-routines": {
+    "emojis": [
+      "🌅",
+      "🎒",
+      "🛁"
+    ],
+    "en": "Every **morning**, Sara **wakes** up, **washes** her face, and **brushes** her teeth. She **wears** her school uniform and **goes** to **school** on time. After **dinner**, she takes a warm **bath** and **rests** quietly before **night** falls.",
+    "vi": "Mỗi **buổi sáng**, Sara **thức dậy**, **rửa** mặt và **đánh** răng. Cô mặc đồng phục và **đi** đến **trường** đúng giờ. Sau bữa **tối**, cô tắm **bồn** ấm và **nghỉ ngơi** yên lặng trước khi **đêm** đến."
+  },
+  "seeker.simple-adjectives": {
+    "emojis": [
+      "🐘",
+      "🐭",
+      "🍋"
+    ],
+    "en": "The **big** elephant is **slow** but very **strong**, while the **small** mouse is **fast** and **clean**. The **new** cushion on the sofa is **soft** and **sweet** to sleep on. The lemon in the kitchen is **sour** and **yellow** — it looks **old** but tastes very fresh!",
+    "vi": "Con **voi** to thì **chậm** nhưng rất **mạnh**, còn con **chuột** nhỏ thì **nhanh** và **sạch sẽ**. Chiếc gối **mới** trên sofa thì **mềm** mại và dễ chịu để ngủ. Quả chanh trong bếp thì **chua** và **vàng** — trông **cũ** nhưng thơm rất tươi!"
+  },
+  "seeker.jobs-basic": {
+    "emojis": [
+      "👨‍⚕️",
+      "🚒",
+      "✈️"
+    ],
+    "en": "Emma's mum is a kind **doctor** who helps sick people every day. Her dad is a **chef** who cooks delicious food at a big restaurant. Emma's uncle is a brave **firefighter** and her dream is to become a **pilot** one day!",
+    "vi": "Mẹ của Emma là một **bác sĩ** tốt bụng giúp đỡ người bệnh mỗi ngày. Bố cô là một **đầu bếp** nấu những món ăn ngon ở một nhà hàng lớn. Chú của Emma là một **lính cứu hỏa** dũng cảm và ước mơ của cô là trở thành **phi công** một ngày nào đó!"
+  },
+  "seeker.farm-basics": {
+    "emojis": [
+      "🐓",
+      "🚜",
+      "🌾"
+    ],
+    "en": "On the farm, the **rooster** crows loudly at sunrise and wakes everyone up. The **chickens** peck at **seeds** and the fluffy **sheep** graze slowly in the green **field**. Dad hops on the **tractor**, drives to the **barn**, and loads up big bales of **hay**.",
+    "vi": "Ở nông trại, con **gà trống** gáy to vào lúc mặt trời mọc và đánh thức mọi người dậy. Những con **gà mái** mổ **hạt** còn những con **cừu** bông xốp ăn cỏ chậm chạp trong **cánh đồng** xanh. Bố leo lên **máy kéo**, lái đến **chuồng trại** và chất những kiện **rơm** lớn lên xe."
+  },
+  "seeker.nature-basics": {
+    "emojis": [
+      "🌳",
+      "🏔️",
+      "🌊"
+    ],
+    "en": "Ben walks along a narrow **path** through a quiet **forest** filled with tall **trees**. He finds a **river** and throws a smooth **rock** into the water with a big splash. From the top of the **hill**, he can see the snowy **mountain** far away under the clear blue **sky**.",
+    "vi": "Ben đi dọc theo một **con đường** hẹp qua một khu **rừng** yên tĩnh đầy **cây** cao. Cậu tìm thấy một con **sông** và ném một hòn **đá** nhẵn xuống nước tạo thành tiếng tòm lớn. Từ đỉnh **ngọn đồi**, cậu có thể nhìn thấy dãy **núi** tuyết phủ ở xa dưới bầu trời xanh trong."
+  },
+  "seeker.simple-sports": {
+    "emojis": [
+      "⚽",
+      "🏊",
+      "🏸"
+    ],
+    "en": "Tom loves playing **football** after school with all his friends on the big field. On weekends, the family goes **swimming** at the outdoor pool or takes a long **cycling** ride in the park. His sister prefers staying indoors to play **badminton** and **ping-pong** with her cousins.",
+    "vi": "Tom thích chơi **bóng đá** sau giờ học với tất cả bạn bè trên sân rộng. Cuối tuần, cả nhà đi **bơi** ở bể bơi ngoài trời hoặc đi **đạp xe** dài trong công viên. Em gái cậu thích ở trong nhà hơn để chơi **cầu lông** và **bóng bàn** với các anh chị em họ."
+  },
+  "seeker.home-objects": {
+    "emojis": [
+      "🍲",
+      "🧹",
+      "🛏️"
+    ],
+    "en": "Mum sets the table with a **plate**, a **bowl**, and a tall **glass** for each person. She stirs the hot soup with a **spoon** and keeps it warm in a big **pot** on the stove. After dinner, Dad sweeps the floor with the **broom** while Sara washes the dishes.",
+    "vi": "Mẹ bày bàn với một cái **đĩa**, một cái **bát** và một cái **cốc** cao cho mỗi người. Bà khuấy nồi súp nóng bằng **thìa** và giữ ấm trong một cái **nồi** to trên bếp. Sau bữa tối, bố quét sàn bằng cái **chổi** trong khi Sara rửa bát."
+  },
+  "seeker.common-tech": {
+    "emojis": [
+      "📱",
+      "💻",
+      "📺"
+    ],
+    "en": "Tom uses his **tablet** to watch funny **videos** and play **games** on the **internet**. His dad types on the **keyboard** and checks messages on his **phone**, then plugs it into the **charger** before bed. The whole family watches a film together on the big **TV** **screen** in the living room.",
+    "vi": "Tom dùng **máy tính bảng** để xem những **video** hài hước và chơi **trò chơi** trên **mạng**. Bố cậu gõ trên **bàn phím** và kiểm tra tin nhắn trên **điện thoại** rồi cắm **sạc** trước khi đi ngủ. Cả nhà cùng xem một bộ phim trên **màn hình** **TV** lớn ở phòng khách."
+  },
+  "seeker.celebrations": {
+    "emojis": [
+      "🎂",
+      "🎈",
+      "🎆"
+    ],
+    "en": "It is Lily's **birthday** and everyone is excited for the big **party**! They **decorate** the room with colourful **balloons** and place ten **candles** on the **cake**. Lily makes a secret **wish**, blows them all out, and then everyone **claps** and watches the bright **fireworks** light up the night sky.",
+    "vi": "Hôm nay là **sinh nhật** của Lily và mọi người đều rất háo hức cho bữa **tiệc** lớn! Họ **trang trí** phòng bằng những quả **bóng bay** đầy màu sắc và đặt mười ngọn **nến** lên **bánh**. Lily thầm **ước**, thổi tắt tất cả nến rồi mọi người **vỗ tay** và cùng nhau xem những màn **pháo hoa** rực rỡ thắp sáng bầu trời đêm."
+  },
+  "seeker.outdoor-play": {
+    "emojis": [
+      "🛝",
+      "⛲",
+      "🏃"
+    ],
+    "en": "The children run to the **park** after school and **climb** straight to the top of the big **slide**. They **swing** high on the swings and **splash** each other at the **fountain** until they are soaking wet. Then they play **hide** and **seek** among the trees before they **race** each other all the way home.",
+    "vi": "Bọn trẻ chạy đến **công viên** sau giờ học và **leo** thẳng lên đỉnh cầu **trượt** to. Họ **đu** cao trên xích đu và **té nước** vào nhau ở **đài phun nước** cho đến khi ướt sũng. Sau đó họ chơi **trốn** tìm trong những tán cây trước khi **chạy đua** với nhau về nhà."
+  },
+  "starter.family-home": {
+    "emojis": [
+      "👨‍👩‍👧‍👦",
+      "🍳",
+      "🛏️"
+    ],
+    "en": "My **mum** and **dad** are busy cooking together in the **kitchen**. My **sister** plays outside in the **garden** while my **baby** brother takes a nap in the **bedroom**. In the evening, we all sit together in the **living room**, watch TV, and talk about our day.",
+    "vi": "**Mẹ** và **bố** tôi đang bận rộn nấu ăn cùng nhau trong **bếp**. **Chị gái** tôi chơi ngoài **vườn** trong khi em **bé** của tôi ngủ trưa trong **phòng ngủ**. Vào buổi tối, cả nhà ngồi cùng nhau trong **phòng khách**, xem TV và kể về ngày của mình."
+  },
+  "starter.animals": {
+    "emojis": [
+      "🐴",
+      "🐇",
+      "🐸"
+    ],
+    "en": "At the farm, Tom feeds a beautiful **horse** and watches a white **duck** glide across the pond. His small brown **rabbit** hops through the tall grass and a green **frog** leaps onto a lily pad nearby. That evening, Tom's sleepy **cat** and wagging **dog** wait by the door to welcome him home.",
+    "vi": "Ở nông trại, Tom cho một con **ngựa** đẹp ăn và xem một con **vịt** trắng lướt qua ao. Chú **thỏ** nâu nhỏ của cậu nhảy nhót qua đám cỏ cao và một con **ếch** xanh nhảy lên một chiếc lá súng gần đó. Tối hôm đó, con **mèo** buồn ngủ và con **chó** vẫy đuôi của Tom đợi ở cửa để chào đón cậu về nhà."
+  },
+  "starter.food": {
+    "emojis": [
+      "🍳",
+      "🎂",
+      "🧃"
+    ],
+    "en": "Sara makes a quick breakfast with two **eggs**, some **bread**, and a cold glass of **milk**. Her brother wants an **apple** and a slice of **cheese** instead, but Mum says he must eat properly first. As a treat, Mum promises **ice cream** on a **banana** **cake** if everyone finishes their vegetables!",
+    "vi": "Sara làm bữa sáng nhanh với hai quả **trứng**, một ít **bánh mì** và một ly **sữa** lạnh. Anh trai cô muốn một quả **táo** và một miếng **phô mai** thay thế, nhưng Mẹ nói anh phải ăn đúng bữa trước đã. Như một phần thưởng, Mẹ hứa sẽ có **kem** trên **bánh** **chuối** nếu mọi người ăn hết rau!"
+  },
+  "starter.toys": {
+    "emojis": [
+      "🪁",
+      "🎶",
+      "🎨"
+    ],
+    "en": "Ben and his friend **play** at the park all afternoon — they fly a **kite**, kick a **ball**, and take turns on the **swing**. Later, they come home and Ben starts to **draw** pictures of their day in his sketchbook. His friend picks up a toy guitar and begins to **sing** a funny made-up song.",
+    "vi": "Ben và bạn **chơi** ở công viên cả buổi chiều — họ thả **diều**, đá **bóng** và thay nhau ngồi **đu xích đu**. Sau đó, họ về nhà và Ben bắt đầu **vẽ** những bức tranh về ngày hôm đó trong cuốn sổ phác thảo. Bạn cậu nhặt một cây đàn guitar đồ chơi và bắt đầu **hát** một bài hát ngẫu hứng hài hước."
+  },
+  "starter.colours": {
+    "emojis": [
+      "🎨",
+      "🖌️",
+      "🌈"
+    ],
+    "en": "Lily mixes **red** and **blue** paint to make a deep **purple**, then **yellow** and **red** to get a bright **orange**. She paints a tall **green** forest with a **brown** bear standing next to a **white** rabbit in the snow. At the top of the picture, she adds a **pink** and **black** sky for a magical night scene.",
+    "vi": "Lily pha **đỏ** và **xanh dương** để ra **tím** đậm, rồi **vàng** và **đỏ** để ra **cam** rực rỡ. Cô vẽ một khu rừng **xanh lá** cao với một con gấu **nâu** đứng cạnh một con thỏ **trắng** trong tuyết. Trên đỉnh bức tranh, cô thêm bầu trời **hồng** và **đen** cho một cảnh đêm huyền ảo."
+  },
+  "starter.body": {
+    "emojis": [
+      "🩺",
+      "💪",
+      "😄"
+    ],
+    "en": "The doctor asks Tom to open his **mouth** wide and then gently closes her **hand** around his **arm** to check his pulse. She shines a light in his **eyes** and **ears** before pressing softly on his **head**. She says with a smile: Move your **legs** and **feet** for me — you are perfectly healthy!",
+    "vi": "Bác sĩ yêu cầu Tom mở **miệng** thật to rồi nhẹ nhàng đặt **tay** bà lên **cánh tay** cậu để kiểm tra mạch. Bà chiếu đèn vào **mắt** và **tai** cậu trước khi ấn nhẹ vào **đầu**. Bà nói với nụ cười: Hãy cử động **chân** và **bàn chân** của con cho cô xem — con hoàn toàn khỏe mạnh!"
+  },
+  "starter.school": {
+    "emojis": [
+      "🎒",
+      "📏",
+      "📋"
+    ],
+    "en": "Lily takes out her sharp **pencil** and **ruler** from her **bag** and places them neatly on the **desk**. The **teacher** writes today's **homework** on the **board** and asks everyone to copy it into their notebooks. After class, Lily borrows a friend's **eraser** to fix a small mistake in her **book**.",
+    "vi": "Lily lấy **bút chì** nhọn và **thước kẻ** ra khỏi **cặp** và đặt gọn gàng lên **bàn học**. **Giáo viên** viết **bài tập về nhà** hôm nay lên **bảng** và yêu cầu mọi người chép vào vở. Sau giờ học, Lily mượn **tẩy** của bạn để sửa một lỗi nhỏ trong **vở** của mình."
+  },
+  "starter.clothes": {
+    "emojis": [
+      "👗",
+      "🕶️",
+      "🧥"
+    ],
+    "en": "Sara picks out a sunny yellow **dress** and her favourite denim **jacket** for the school trip. She looks everywhere for her **shoes** before finding them hidden under a pile of **trousers** on the floor. At school, she spots her best friend wearing a smart **shirt**, neat **shorts**, and a cool pair of **glasses**.",
+    "vi": "Sara chọn một chiếc **váy** vàng rực và chiếc **áo khoác** denim yêu thích của mình cho chuyến đi thực tế. Cô tìm **giày** khắp nơi trước khi tìm thấy chúng bị giấu dưới đống **quần dài** trên sàn. Ở trường, cô nhìn thấy người bạn thân nhất đang mặc một chiếc **áo sơ mi** đẹp, **quần ngắn** gọn gàng và đeo một cặp **kính** thật cool."
+  },
+  "starter.sports": {
+    "emojis": [
+      "⚽",
+      "🏊",
+      "🏸"
+    ],
+    "en": "Tom spends every afternoon playing **football** on the field — he can **kick** hard and **throw** the ball far across to his teammates. On hot days, the whole class goes to the pool for **swimming** lessons and they all **jump** in together with a big splash. His favourite indoor sport is **badminton** because he loves to **run** fast and **catch** the shuttlecock before it hits the ground.",
+    "vi": "Tom dành mỗi buổi chiều chơi **bóng đá** trên sân — cậu có thể **đá** mạnh và **ném** bóng xa đến cho đồng đội. Những ngày nóng, cả lớp đi đến bể bơi để học **bơi** và mọi người cùng **nhảy** xuống tạo thành tiếng tòm lớn. Môn thể thao trong nhà yêu thích của cậu là **cầu lông** vì cậu thích **chạy** nhanh và **bắt** cầu trước khi nó chạm đất."
+  },
+  "starter.feelings": {
+    "emojis": [
+      "😊",
+      "😰",
+      "🥳"
+    ],
+    "en": "On the first day of school, Mia feels both **excited** and a little **scared** at the same time. At lunch she is very **hungry**, so she eats every bite on her plate. By the end of the day she is **tired** but **happy**, because she has found a new friend and is no longer **bored** or **sad**.",
+    "vi": "Vào ngày đầu tiên đến trường, Mia cảm thấy vừa **hào hứng** vừa hơi **sợ** cùng một lúc. Đến giờ ăn trưa cô rất **đói** nên ăn hết sạch đĩa cơm. Đến cuối ngày cô **mệt** nhưng **vui**, vì cô đã tìm được một người bạn mới và không còn **buồn chán** hay **buồn** nữa."
+  },
+  "starter.weather": {
+    "emojis": [
+      "🌤️",
+      "⛈️",
+      "🌈"
+    ],
+    "en": "In the morning the **sun** shines bright and the air feels **warm** and **windy** — perfect for flying a kite. By afternoon, thick dark **clouds** gather and a **storm** brings heavy **rain**, loud **thunder**, and flashes of **lightning** across the sky. But after the storm, a stunning **rainbow** appears and the **warm** sunshine slowly comes back.",
+    "vi": "Vào buổi sáng **mặt trời** chiếu sáng và không khí cảm thấy **ấm** và **có gió** — rất thích hợp để thả diều. Đến buổi chiều, những đám **mây** dày tối tụ lại và một cơn **bão** mang theo **mưa** to, **sấm** lớn và những tia **chớp** lóe sáng qua bầu trời. Nhưng sau cơn bão, một cái **cầu vồng** tuyệt đẹp xuất hiện và ánh **nắng ấm** từ từ quay trở lại."
+  },
+  "starter.transport": {
+    "emojis": [
+      "🚌",
+      "⛴️",
+      "✈️"
+    ],
+    "en": "Every morning Tom rides the **bus** to school while his dad zooms past on a **motorcycle**. On weekends, the family takes a **train** to the seaside or a **ferry** across the wide river to visit relatives. One day, they dream of boarding a giant **plane** and flying far away to explore a new country together.",
+    "vi": "Mỗi sáng Tom đi **xe buýt** đến trường trong khi bố phóng qua trên chiếc **xe máy**. Cuối tuần, cả nhà đi **tàu hỏa** ra biển hoặc đi **phà** qua con sông rộng để thăm họ hàng. Một ngày nào đó, họ mơ được lên một chiếc **máy bay** khổng lồ và bay thật xa để cùng nhau khám phá một đất nước mới."
+  },
+  "starter.sea": {
+    "emojis": [
+      "🐬",
+      "⚓",
+      "🐚"
+    ],
+    "en": "At the **beach**, the children collect pretty **seashells** and watch the tall **waves** crash and foam on shore. A bright **lighthouse** flashes in the distance to guide fishing boats safely to the harbour. Under the surface of the water, colourful **coral**, a slow green **turtle**, and a playful **dolphin** make their home in the deep blue sea.",
+    "vi": "Ở **bãi biển**, bọn trẻ nhặt những **vỏ sò** đẹp và xem những con **sóng** lớn đổ ập và bọt trắng trên bờ. Một **ngọn hải đăng** sáng nhấp nháy ở phía xa để dẫn đường cho các thuyền đánh cá về cảng an toàn. Dưới bề mặt nước, **san hô** đầy màu sắc, một con **rùa** xanh chậm chạp và một con **cá heo** tinh nghịch đang sống trong biển xanh sâu thẳm."
+  },
+  "starter.time": {
+    "emojis": [
+      "⏰",
+      "📅",
+      "🌙"
+    ],
+    "en": "**Yesterday**, Sara woke up **early** and arrived at school on time with a big smile. **Today**, she slept **late** and missed the **morning** bus, which made her mum very worried. She hopes that **tomorrow** she will get up on time so she can have a calm **weekend** to look forward to next **week**.",
+    "vi": "**Hôm qua**, Sara dậy **sớm** và đến trường đúng giờ với nụ cười rạng rỡ. **Hôm nay**, cô ngủ **muộn** và lỡ chuyến xe buýt **buổi sáng**, khiến mẹ rất lo lắng. Cô hy vọng **ngày mai** sẽ dậy đúng giờ để có thể thư thái trong **cuối tuần** đáng mong chờ vào **tuần** tới."
+  },
+  "starter.music": {
+    "emojis": [
+      "🎹",
+      "🎻",
+      "🎤"
+    ],
+    "en": "Mia practises the **piano** every afternoon, working hard on a gentle **melody** she learned at school. On the **stage** at the end-of-year **concert**, she performs a beautiful **song** while her best friend plays the **violin** beside her. The audience erupts in applause, and the **music** teacher says it was the best **performance** of the year.",
+    "vi": "Mia tập **đàn piano** mỗi buổi chiều, chăm chỉ luyện tập một bản **giai điệu** nhẹ nhàng mà cô học được ở trường. Trên **sân khấu** trong buổi **hòa nhạc** cuối năm, cô biểu diễn một bài **hát** hay trong khi người bạn thân nhất kéo **đàn violin** bên cạnh. Khán giả vỗ tay vang lên, và giáo viên **âm nhạc** nói đó là màn **biểu diễn** hay nhất trong năm."
+  },
+  "starter.farm-animals": {
+    "emojis": [
+      "🐔",
+      "🐄",
+      "🌅"
+    ],
+    "en": "At dawn, the **rooster** crows loudly and wakes up every animal on Grandpa's farm. The **hen** waddles to the nest and lays three warm eggs while the **cow** and her **calf** graze slowly by the old fence. The friendly **goat** and stubborn **donkey** stand side by side, both busy chewing hay in the morning sunshine.",
+    "vi": "Vào lúc bình minh, con **gà trống** gáy to và đánh thức mọi con vật trên trang trại của ông. Con **gà mái** lạch bạch đến ổ và đẻ ba quả trứng ấm trong khi con **bò** và **bê con** của nó từ từ gặm cỏ bên chiếc hàng rào cũ. Con **dê** thân thiện và con **lừa** bướng bỉnh đứng cạnh nhau, cả hai đều bận bịu nhai rơm trong ánh nắng ban mai."
+  },
+  "starter.nature": {
+    "emojis": [
+      "🏔️",
+      "🌊",
+      "🌲"
+    ],
+    "en": "The family hikes through a cool **forest**, stepping over smooth **rocks** and crossing a shallow **river** by the stepping stones. They climb a long steep **hill** and are amazed to find a sparkling **waterfall** tumbling into a clear pool in the **valley** below. At the top, the endless blue **sky** and towering **mountains** stretch as far as they can see.",
+    "vi": "Cả nhà đi bộ qua một khu **rừng** mát mẻ, bước qua những **tảng đá** nhẵn và băng qua con **sông** nông bằng những viên đá bước. Họ leo lên một **ngọn đồi** dốc dài và kinh ngạc khi tìm thấy một **thác nước** lấp lánh đổ xuống một hồ trong vắt ở **thung lũng** bên dưới. Ở đỉnh, bầu **trời** xanh vô tận và những ngọn **núi** cao sừng sững trải dài đến tận mắt nhìn."
+  },
+  "starter.shapes-numbers": {
+    "emojis": [
+      "⭐",
+      "🔷",
+      "🔢"
+    ],
+    "en": "The teacher draws a **circle**, a **square**, and a **triangle** on the board and asks the class to name each shape. She then sticks golden **star** and red **heart** stickers next to the numbers from **one** to **ten**. Tom counts carefully and sticks **three** **stars** and **five** **hearts** neatly onto the front cover of his notebook.",
+    "vi": "Giáo viên vẽ một **hình tròn**, một **hình vuông** và một **hình tam giác** lên bảng và yêu cầu cả lớp đặt tên cho từng hình. Sau đó bà dán những nhãn dán **ngôi sao** vàng và **trái tim** đỏ bên cạnh các số từ **một** đến **mười**. Tom đếm cẩn thận và dán **ba** **ngôi sao** và **năm** **trái tim** gọn gàng lên trang bìa cuốn vở của mình."
+  },
+  "starter.city-places": {
+    "emojis": [
+      "🌉",
+      "🛍️",
+      "🏛️"
+    ],
+    "en": "Tom's family walks across the old stone **bridge** to reach the busy morning **market** by the river. They stop for a long lunch at a cosy **restaurant** near the **park**, watching people feed the ducks. In the afternoon, they explore the **museum**, buy some new books at the **library**, and finish the day with a film at the **cinema**.",
+    "vi": "Gia đình Tom đi qua cây **cầu** đá cũ để đến **chợ** sáng nhộn nhịp bên con sông. Họ dừng lại ăn trưa dài tại một **nhà hàng** ấm cúng gần **công viên**, ngắm mọi người cho vịt ăn. Buổi chiều, họ khám phá **bảo tàng**, mua một số sách mới tại **thư viện** rồi kết thúc ngày bằng một bộ phim tại **rạp chiếu phim**."
+  },
+  "starter.cooking": {
+    "emojis": [
+      "🍲",
+      "🔪",
+      "👨‍🍳"
+    ],
+    "en": "Mum **washes** the fresh vegetables under the tap and **cuts** them carefully into small pieces on the board. She **boils** a pot of water, adds the vegetables, and **stirs** in the soup paste with a long wooden spoon. When everything is ready, she **pours** the hot soup into bowls and they all **taste** it together at the table.",
+    "vi": "Mẹ **rửa** rau tươi dưới vòi nước và **cắt** chúng cẩn thận thành những miếng nhỏ trên thớt. Bà **đun sôi** một nồi nước, cho rau vào và **khuấy** bột súp vào bằng cái thìa gỗ dài. Khi mọi thứ đã sẵn sàng, bà **rót** súp nóng vào bát và mọi người cùng nhau **nếm** tại bàn ăn."
+  },
+  "starter.princess-magic": {
+    "emojis": [
+      "🏰",
+      "🧚",
+      "⚔️"
+    ],
+    "en": "Deep in a dark **forest**, a brave **knight** follows a glowing light and discovers a tall **castle** where a sleeping **princess** lies under an enchanted **spell**. A kind **fairy** appears, raises her sparkling **wand**, and breaks the **magic** curse with a burst of golden light. The **princess** opens her eyes, places a silver **crown** on her head, and thanks the knight for being her true **hero**.",
+    "vi": "Sâu trong khu **rừng** tối, một **hiệp sĩ** dũng cảm đi theo ánh sáng le lói và khám phá ra một tòa **lâu đài** cao nơi một **công chúa** đang ngủ dưới lời nguyền **phép thuật**. Một **nàng tiên** tốt bụng xuất hiện, giơ chiếc **đũa phép** lấp lánh lên và phá vỡ lời nguyền **ma thuật** bằng một luồng ánh sáng vàng rực. **Công chúa** mở mắt ra, đặt chiếc **vương miện** bạc lên đầu và cảm ơn hiệp sĩ vì đã là **anh hùng** thực sự của cô."
+  },
+  "starter.daily-routine": {
+    "emojis": [
+      "🌅",
+      "🚶",
+      "🛁"
+    ],
+    "en": "Every day Sara **wakes up** at seven, **brushes** her teeth, and **washes** her face before getting **dressed** in her uniform. After a quick **breakfast**, she **walks** to school and works hard until **lunch**. In the evening she does her **homework**, has a warm **bath**, tidies her room, and reads a book at **bedtime**.",
+    "vi": "Mỗi ngày Sara **thức dậy** lúc bảy giờ, **đánh** răng và **rửa** mặt trước khi **mặc** đồng phục. Sau bữa **sáng** nhanh, cô **đi bộ** đến trường và học chăm chỉ cho đến **bữa trưa**. Buổi tối cô làm **bài tập**, tắm **bồn** ấm, dọn dẹp phòng và đọc sách trước giờ **đi ngủ**."
+  },
+  "starter.fruits-vegetables": {
+    "emojis": [
+      "🛒",
+      "🥭",
+      "🥗"
+    ],
+    "en": "At the market, Mum fills her basket with crisp **apples**, bright **oranges**, and a ripe yellow **mango**. She also picks up crunchy **carrots**, juicy **tomatoes**, and a giant round **watermelon** for dessert. That evening, she makes a colourful salad with **cucumber**, sweet **corn**, and fresh **strawberries** on the side.",
+    "vi": "Tại chợ, Mẹ đầy giỏ với những quả **táo** giòn, **cam** tươi sáng và một quả **xoài** vàng chín. Bà còn mua thêm **cà rốt** giòn, **cà chua** mọng nước và một quả **dưa hấu** tròn khổng lồ để tráng miệng. Tối hôm đó, bà làm một đĩa salad đầy màu sắc với **dưa chuột**, **ngô** ngọt và **dâu tây** tươi ăn kèm."
+  },
+  "starter.parties-celebrations": {
+    "emojis": [
+      "🎂",
+      "🎉",
+      "💃"
+    ],
+    "en": "Lily **invites** all her best **friends** to her **birthday** party and they spend the afternoon helping to **decorate** the house with colourful **balloons** and streamers. When the big **cake** comes out covered in ten shining **candles**, everyone **sings** together and **claps** loudly. Lily makes a secret **wish**, blows out every candle, and they all **dance** and **celebrate** late into the evening.",
+    "vi": "Lily **mời** tất cả bạn thân đến bữa tiệc **sinh nhật** của mình và họ dành cả buổi chiều giúp nhau **trang trí** nhà bằng những quả **bóng bay** và dây giấy đầy màu sắc. Khi cái **bánh** to được mang ra với mười ngọn **nến** sáng lấp lánh, mọi người cùng nhau **hát** và **vỗ tay** thật to. Lily thầm **ước**, thổi tắt tất cả nến rồi tất cả cùng **nhảy** và **mừng** đến tận tối muộn."
+  },
+  "starter.jobs-people": {
+    "emojis": [
+      "🏥",
+      "🚒",
+      "🔬"
+    ],
+    "en": "Ben has a very busy morning — first he visits the **dentist** for a check-up, then Mum takes their cat to the **vet** for a vaccination. On the way home, they stop to watch a **firefighter** and a **police** officer helping safely clear a road accident. Ben decides on the spot that he wants to be a **scientist** when he grows up!",
+    "vi": "Ben có một buổi sáng rất bận rộn — đầu tiên cậu đến gặp **nha sĩ** để kiểm tra, sau đó Mẹ đưa con mèo đến **bác sĩ thú y** để tiêm phòng. Trên đường về, họ dừng lại xem một **lính cứu hỏa** và một **cảnh sát** đang giúp xử lý an toàn một vụ tai nạn giao thông. Ben quyết định ngay tại chỗ rằng cậu muốn trở thành **nhà khoa học** khi lớn lên!"
+  },
+  "starter.shopping": {
+    "emojis": [
+      "🛍️",
+      "💳",
+      "🏷️"
+    ],
+    "en": "Sara and her mum go to the **shop** to **buy** a new pair of trainers for the school term. Sara **chooses** a pair in her **size**, but the **price** is too **expensive** so they look for something more **cheap** on the **sale** rack. They wait patiently in the **queue** and the **cashier** smiles and hands them a **receipt** when they pay.",
+    "vi": "Sara và mẹ đi **cửa hàng** để **mua** một đôi giày thể thao mới cho học kỳ. Sara **chọn** một đôi đúng **cỡ** của mình, nhưng **giá** quá **đắt** nên họ tìm thứ gì đó **rẻ** hơn ở kệ hàng **giảm giá**. Họ kiên nhẫn đợi trong **hàng** và người thu ngân **cashier** mỉm cười đưa cho họ **hóa đơn** khi họ trả tiền."
+  },
+  "starter.describing-things": {
+    "emojis": [
+      "🎒",
+      "🛋️",
+      "✨"
+    ],
+    "en": "Tom has two school bags — the **big** one is **heavy** and full of books, while the **small** one is **light** and easy to carry. His bedroom is **clean** and **quiet**, but his brother's room is always **loud**, **dirty**, and messy. The family's **new** dining table is perfectly **round**, wonderfully **smooth**, and so **shiny** you can almost see your face in it.",
+    "vi": "Tom có hai cặp học — cái **lớn** thì **nặng** và đầy sách, còn cái **nhỏ** thì **nhẹ** và dễ mang. Phòng của cậu thì **sạch** và **yên tĩnh**, nhưng phòng anh trai cậu thì lúc nào cũng **ồn ào**, **bẩn** và lộn xộn. Cái bàn ăn **mới** của gia đình thì hoàn hảo hình **tròn**, cực kỳ **mượt mà** và **bóng loáng** đến mức bạn gần như nhìn thấy khuôn mặt mình trong đó."
+  },
+  "starter.ocean-animals": {
+    "emojis": [
+      "🦈",
+      "🐠",
+      "🌊"
+    ],
+    "en": "At the aquarium, Ben presses his face against the glass and watches a huge **whale** and a sleek **shark** glide silently past. A graceful **turtle** drifts above a bright patch of **coral** while a tiny **seahorse** floats nearby, barely moving. Outside the building, gentle **waves** lap the shore where **crabs** and purple **starfish** bask in the afternoon sun.",
+    "vi": "Tại thủy cung, Ben áp mặt vào tấm kính và xem một con **cá voi** khổng lồ và một con **cá mập** thon thả lướt qua trong im lặng. Một con **rùa** thanh lịch trôi dạt trên một vùng **san hô** rực rỡ trong khi một con **cá ngựa** nhỏ xíu lơ lửng gần đó, hầu như không nhúc nhích. Bên ngoài tòa nhà, những con **sóng** nhẹ nhàng vỗ vào bờ nơi những con **cua** và **sao biển** tím đang nằm phơi nắng buổi chiều."
+  },
+  "starter.cooking-actions": {
+    "emojis": [
+      "🥘",
+      "🔪",
+      "👨‍🍳"
+    ],
+    "en": "Dad **chops** the onions finely and **peels** a whole head of garlic before making the sauce. He **fries** the vegetables in hot oil until golden, then carefully **stirs** in the **tomatoes** and lets everything **simmer** slowly. Mum **bakes** fresh crusty bread in the oven, and when everything is ready they **serve** it all together and **taste** the meal as a family.",
+    "vi": "Bố **băm nhỏ** hành tây và **bóc vỏ** cả củ tỏi trước khi làm nước sốt. Bố **xào** rau trong dầu nóng đến khi vàng rồi cẩn thận **khuấy** **cà chua** vào và để mọi thứ **ninh** chậm. Mẹ **nướng** bánh mì giòn trong lò, và khi mọi thứ đã sẵn sàng họ cùng nhau **dọn** ra bàn và cả nhà cùng **nếm** bữa ăn."
+  },
+  "starter.outdoor-nature": {
+    "emojis": [
+      "🦋",
+      "🌸",
+      "☀️"
+    ],
+    "en": "After the morning rain, Sara walks along the **river** bank and picks up a smooth flat **stone** to skip across the water. A **butterfly** lands softly on a bright pink **flower** near the old **tree** and a busy **bee** hums past her ear collecting nectar. In the distance, a perfect **rainbow** slowly fades as the warm **sunshine** finally breaks through the clouds.",
+    "vi": "Sau cơn mưa sáng, Sara đi dọc bờ **sông** và nhặt một hòn **đá** nhẵn dẹt để ném lướt trên mặt nước. Một con **bướm** đáp nhẹ nhàng lên một bông **hoa** hồng tươi sáng gần cây **cây** cổ thụ và một con **ong** bận rộn vo ve qua tai cô đang thu mật. Ở phía xa, một cái **cầu vồng** hoàn hảo từ từ nhạt dần khi ánh **nắng** ấm cuối cùng cũng xuyên qua những đám mây."
+  },
+  "explorer.science": {
+    "emojis": [
+      "🦕",
+      "🔬",
+      "🌿"
+    ],
+    "en": "Scientists found a **fossil** of a large **creature** that lived millions of years ago. This animal was a **carnivore** — a **predator** that hunted smaller **prey** every day. It lived in a warm, wet **habitat** where many different **species** of plants grew. Sadly, when the environment changed, this animal could not **survive** and became **extinct**.",
+    "vi": "Các nhà khoa học tìm thấy một **hóa thạch** của sinh vật lớn sống cách đây hàng triệu năm. Loài động vật này là **động vật ăn thịt** — một **kẻ săn mồi** săn đuổi những con **con mồi** nhỏ hơn mỗi ngày. Nó sống trong một **môi trường sống** ấm áp, ẩm ướt nơi có nhiều **loài** thực vật khác nhau. Đáng buồn thay, khi môi trường thay đổi, loài này không thể **sống sót** và đã **tuyệt chủng**."
+  },
+  "explorer.technology": {
+    "emojis": [
+      "🤖",
+      "⚙️",
+      "💻"
+    ],
+    "en": "A young **engineer** spent years designing a new **robot** to help in hospitals. She wrote special **software** to **program** it and added tiny **sensors** so it could feel its surroundings. The **circuit** inside used **artificial** intelligence to learn from every task. Her amazing **invention** showed the world how **digital** technology can save lives.",
+    "vi": "Một **kỹ sư** trẻ dành nhiều năm thiết kế một **robot** mới để hỗ trợ trong bệnh viện. Cô viết **phần mềm** đặc biệt để **lập trình** nó và thêm các **cảm biến** nhỏ để nó cảm nhận môi trường xung quanh. **Mạch điện** bên trong sử dụng trí tuệ **nhân tạo** để học từ mỗi nhiệm vụ. **Phát minh** tuyệt vời của cô cho thấy công nghệ **kỹ thuật số** có thể cứu sống người."
+  },
+  "explorer.heroes": {
+    "emojis": [
+      "🦸",
+      "⚔️",
+      "🛡️"
+    ],
+    "en": "The young hero was **determined** and **loyal** to her team, never giving up no matter how hard the **mission** became. When the **villain** threatened the city, she stayed **confident** and led the plan to **rescue** the trapped citizens. Her goal was to **protect** everyone who could not fight for themselves. In the end, her **brave** and **ambitious** spirit helped them **defeat** the danger together.",
+    "vi": "Vị anh hùng trẻ tuổi rất **quyết tâm** và **trung thành** với đội của mình, không bao giờ bỏ cuộc dù **nhiệm vụ** có khó đến đâu. Khi **kẻ phản diện** đe dọa thành phố, cô vẫn **tự tin** và dẫn đầu kế hoạch **giải cứu** những người dân bị mắc kẹt. Mục tiêu của cô là **bảo vệ** tất cả những người không thể tự chiến đấu. Cuối cùng, tinh thần **dũng cảm** và **tham vọng** của cô giúp họ cùng **đánh bại** nguy hiểm."
+  },
+  "explorer.laboratory": {
+    "emojis": [
+      "🔬",
+      "🧪",
+      "🔭"
+    ],
+    "en": "The scientists gathered in the lab to **investigate** a strange new plant they had found. They began to **observe** and **examine** its leaves carefully under a microscope. After they **measured** each part and **analyzed** the chemicals, the **evidence** pointed to an exciting **discovery**. They could now **classify** it as a new species and update their **theory** about how plants grow.",
+    "vi": "Các nhà khoa học tập hợp trong phòng thí nghiệm để **điều tra** một loài thực vật lạ vừa tìm thấy. Họ bắt đầu **quan sát** và **kiểm tra** kỹ những chiếc lá dưới kính hiển vi. Sau khi **đo lường** từng bộ phận và **phân tích** các chất hóa học, **bằng chứng** chỉ ra một **khám phá** thú vị. Giờ đây họ có thể **phân loại** nó như một loài mới và cập nhật **lý thuyết** về cách thực vật phát triển."
+  },
+  "explorer.engineering": {
+    "emojis": [
+      "🏗️",
+      "⚙️",
+      "🔧"
+    ],
+    "en": "The team had to **design** a bridge strong enough to hold heavy trucks. They carefully chose every **component** and planned how the inner **mechanism** would hold the **structure** together. Workers began to **manufacture** the parts in the factory and then **assemble** them on site. The engineer could **operate** the crane and **adjust** each piece to **construct** the perfect bridge.",
+    "vi": "Đội nhóm phải **thiết kế** một cây cầu đủ chắc để chịu những chiếc xe tải nặng. Họ cẩn thận chọn từng **linh kiện** và lên kế hoạch cách **cơ chế** bên trong sẽ giữ **kết cấu** lại với nhau. Công nhân bắt đầu **sản xuất** các bộ phận tại nhà máy rồi **lắp ráp** chúng tại công trường. Kỹ sư có thể **vận hành** cần cẩu và **điều chỉnh** từng mảnh để **xây dựng** cây cầu hoàn hảo."
+  },
+  "explorer.mission": {
+    "emojis": [
+      "🦸‍♂️",
+      "⚡",
+      "🗝️"
+    ],
+    "en": "The two rivals had to form an **alliance** to face the greatest **challenge** they had ever seen. Each hero brought a different **superpower**, and together they built a clever **strategy** to **confront** the enemy. They had to **endure** many hardships and were willing to **sacrifice** their comfort for the mission. With **cunning** moves, they were able to **overcome** every obstacle and **transform** the dark kingdom into a place of peace.",
+    "vi": "Hai đối thủ phải hình thành một **liên minh** để đối mặt với **thử thách** lớn nhất mà họ từng thấy. Mỗi anh hùng mang đến một **siêu năng lực** khác nhau, và cùng nhau họ xây dựng một **chiến lược** khôn ngoan để **đối đầu** với kẻ thù. Họ phải **chịu đựng** nhiều gian khổ và sẵn sàng **hi sinh** sự thoải mái vì nhiệm vụ. Với những nước đi **xảo quyệt**, họ **vượt qua** mọi chướng ngại và **biến đổi** vương quốc tối tăm thành nơi hòa bình."
+  },
+  "explorer.environment": {
+    "emojis": [
+      "🌿",
+      "🌊",
+      "🌍"
+    ],
+    "en": "In the mountain forest, scientists studied an **ecosystem** full of rich **biodiversity**. But **deforestation** and air **pollution** were raising **emissions** and melting the distant **glacier**. Many animals were becoming **endangered** because their homes were being destroyed. The team called for **conservation** laws and **sustainable** farming using **renewable** energy to protect this precious land.",
+    "vi": "Trong khu rừng núi, các nhà khoa học nghiên cứu một **hệ sinh thái** giàu **đa dạng sinh học**. Nhưng **phá rừng** và ô nhiễm không khí đang làm tăng **khí thải** và tan chảy **sông băng** ở xa. Nhiều loài động vật đang trở nên **có nguy cơ tuyệt chủng** vì nhà của chúng bị phá hủy. Đội nhóm kêu gọi các luật **bảo tồn** và canh tác **bền vững** sử dụng năng lượng **tái tạo** để bảo vệ vùng đất quý giá này."
+  },
+  "explorer.space": {
+    "emojis": [
+      "🚀",
+      "🌌",
+      "⭐"
+    ],
+    "en": "The **astronaut** floated inside the **spacecraft** as it began to **launch** away from Earth. She looked through the **telescope** and watched a bright **meteor** streak across the dark sky. Their mission was to **orbit** around a distant moon and study how **gravity** behaves out there. In the distance, she could see a swirling **galaxy** and a spinning **asteroid** moving silently through space.",
+    "vi": "**Phi hành gia** trôi nổi bên trong **tàu vũ trụ** khi nó bắt đầu **phóng** rời khỏi Trái Đất. Cô nhìn qua **kính thiên văn** và quan sát một **thiên thạch** sáng vọt ngang bầu trời tối. Nhiệm vụ của họ là **quay quanh** mặt trăng xa xôi và nghiên cứu cách **trọng lực** hoạt động ở đó. Trong khoảng cách xa, cô thấy một **thiên hà** xoáy tròn và một **tiểu hành tinh** quay trong không gian yên tĩnh."
+  },
+  "explorer.communication": {
+    "emojis": [
+      "📰",
+      "🎙️",
+      "🌐"
+    ],
+    "en": "A young **journalist** prepared for the live **broadcast** about a new city law. She knew that **misinformation** could **influence** people in harmful ways, so she checked every fact twice. During the town meeting, she helped the **audience** understand different points of **perspective** and tried to **persuade** them to think carefully. She warned that **propaganda** and **bias** can make people believe false things, and that a good **debate** always uses true evidence.",
+    "vi": "Một **nhà báo** trẻ chuẩn bị cho buổi **phát sóng** trực tiếp về một luật mới của thành phố. Cô biết rằng **thông tin sai lệch** có thể **ảnh hưởng** đến mọi người theo hướng có hại, nên cô kiểm tra mọi sự kiện hai lần. Trong cuộc họp thị trấn, cô giúp **khán giả** hiểu những **quan điểm** khác nhau và cố gắng **thuyết phục** họ suy nghĩ cẩn thận. Cô cảnh báo rằng **tuyên truyền** và **thiên kiến** có thể khiến mọi người tin vào điều sai, và một cuộc **tranh luận** tốt luôn dùng bằng chứng thật."
+  },
+  "explorer.achievement": {
+    "emojis": [
+      "🏆",
+      "🥇",
+      "🎯"
+    ],
+    "en": "The school team worked hard all year, showing true **dedication** and **perseverance** through every tough practice. Their captain showed strong **leadership**, making sure everyone felt included and valued. When they finally **qualified** for the national **championship**, excitement filled the whole school. In the final match, they faced a skilled **opponent** but relied on **teamwork** and raw **talent** to **accomplish** their greatest **triumph** yet.",
+    "vi": "Đội trường học làm việc chăm chỉ suốt cả năm, thể hiện sự **cống hiến** và **kiên trì** thật sự qua mỗi buổi tập khó khăn. Đội trưởng thể hiện **sự lãnh đạo** mạnh mẽ, đảm bảo mọi người đều cảm thấy được tham gia và trân trọng. Khi cuối cùng họ **giành quyền** vào **giải vô địch** quốc gia, cả trường tràn ngập hứng khởi. Trong trận chung kết, họ đối mặt với **đối thủ** tài năng nhưng dựa vào **tinh thần đồng đội** và **tài năng** để **hoàn thành** **chiến thắng** vĩ đại nhất của mình."
+  },
+  "explorer.biology": {
+    "emojis": [
+      "🧬",
+      "🫀",
+      "🦠"
+    ],
+    "en": "Every part of the human body works together like a perfect team. **Muscles** pull bones in the **skeleton** to create movement, while **veins** carry blood and **oxygen** to every **organ**. Tiny **enzymes** help us **digest** food and turn it into **protein** for energy. When harmful **bacteria** enter the body, the **immune** system sends special **cells** through our **tissue** to fight the infection.",
+    "vi": "Mỗi bộ phận cơ thể người hoạt động cùng nhau như một đội hoàn hảo. **Cơ bắp** kéo xương trong **bộ xương** tạo ra chuyển động, trong khi **tĩnh mạch** mang máu và **oxy** đến mọi **cơ quan**. Những **enzyme** nhỏ giúp chúng ta **tiêu hóa** thức ăn và biến nó thành **protein** để có năng lượng. Khi **vi khuẩn** có hại xâm nhập, hệ thống **miễn dịch** gửi các **tế bào** đặc biệt qua **mô** của chúng ta để chống lại nhiễm trùng."
+  },
+  "explorer.history": {
+    "emojis": [
+      "🏛️",
+      "⚔️",
+      "👑"
+    ],
+    "en": "In the **ancient** world, powerful **empires** rose and fell as **warriors** fought to **conquer** new lands. Many civilisations kept a **dynasty** of rulers, passing power from one **monarch** to the next. When a great **invasion** threatened a city, some people fought for **independence** and built the first idea of **democracy**. Today, **archaeology** uncovers the remains of these lost civilisations and helps us understand the **treaties** that shaped our world.",
+    "vi": "Trong thế giới **cổ đại**, những **đế quốc** hùng mạnh nổi lên và sụp đổ khi các **chiến binh** chiến đấu để **chinh phục** vùng đất mới. Nhiều nền văn minh duy trì một **triều đại** của những nhà cai trị, truyền quyền lực từ **quốc vương** này sang người khác. Khi một cuộc **xâm lược** lớn đe dọa thành phố, một số người chiến đấu cho **độc lập** và xây dựng ý tưởng đầu tiên về **dân chủ**. Ngày nay, **khảo cổ học** khai quật tàn tích của các nền văn minh đã mất và giúp chúng ta hiểu những **hiệp ước** đã định hình thế giới."
+  },
+  "explorer.economy": {
+    "emojis": [
+      "💰",
+      "📈",
+      "🏦"
+    ],
+    "en": "A small business owner needed to manage her money carefully to keep her shop running. She set a monthly **budget** and tried to **invest** extra **capital** into better products. When the country's **inflation** rose, the cost of goods she would **import** went up too, and her **profit** began to fall. She paid a fair **wage** to her workers and hoped the **economy** would improve so that fewer families would face **poverty**.",
+    "vi": "Một chủ doanh nghiệp nhỏ cần quản lý tiền bạc cẩn thận để duy trì cửa hàng. Cô đặt ra **ngân sách** hàng tháng và cố gắng **đầu tư** thêm **vốn** vào những sản phẩm tốt hơn. Khi **lạm phát** của đất nước tăng lên, chi phí hàng hóa mà cô **nhập khẩu** cũng tăng theo, và **lợi nhuận** của cô bắt đầu giảm. Cô trả **lương** công bằng cho công nhân và hy vọng **nền kinh tế** sẽ cải thiện để ít gia đình hơn phải đối mặt với **nghèo đói**."
+  },
+  "explorer.literature": {
+    "emojis": [
+      "📚",
+      "✍️",
+      "📖"
+    ],
+    "en": "The students sat quietly as their teacher began to read from a classic **fiction** novel. The **protagonist** faced impossible choices, and the story's **narrative** moved quickly toward the exciting **climax**. The teacher pointed out how the author used **symbolism** — the stormy **setting** was a **metaphor** for the hero's troubled mind. After reading, the class wrote their own **dialogue** and explored the **theme** of courage through **poetry** in their favorite **genre**.",
+    "vi": "Học sinh ngồi yên lặng khi giáo viên bắt đầu đọc từ một cuốn tiểu thuyết **hư cấu** kinh điển. **Nhân vật chính** đối mặt với những lựa chọn bất khả thi, và **cốt truyện** di chuyển nhanh đến **đỉnh điểm** thú vị. Giáo viên chỉ ra cách tác giả dùng **biểu tượng** — **bối cảnh** đầy bão tố là **ẩn dụ** cho tâm trí rối loạn của người anh hùng. Sau khi đọc, lớp viết **đối thoại** của riêng họ và khám phá **chủ đề** lòng dũng cảm qua **thơ ca** trong **thể loại** yêu thích."
+  },
+  "explorer.ai": {
+    "emojis": [
+      "🤖",
+      "💻",
+      "🧠"
+    ],
+    "en": "The tech company launched a new **platform** that uses machine **intelligence** to help students learn. When a student types a question into the **interface**, an **algorithm** searches a huge **database** stored in the **cloud**. The **machine** processes every **input** and delivers a helpful **output** in seconds. This kind of **automation** in learning is powered by millions of lines of **code** and a complex **network** that the **chatbot** relies on to answer well.",
+    "vi": "Công ty công nghệ ra mắt một **nền tảng** mới sử dụng **trí tuệ** máy để giúp học sinh học tập. Khi học sinh gõ câu hỏi vào **giao diện**, một **thuật toán** tìm kiếm trong **cơ sở dữ liệu** khổng lồ được lưu trên **đám mây**. **Máy** xử lý mọi **dữ liệu đầu vào** và cung cấp **kết quả đầu ra** hữu ích trong vài giây. Loại **tự động hóa** này được vận hành bởi hàng triệu dòng **mã** và một **mạng** phức tạp mà **chatbot** dựa vào để trả lời tốt."
+  },
+  "explorer.law-justice": {
+    "emojis": [
+      "⚖️",
+      "🏛️",
+      "👨‍⚖️"
+    ],
+    "en": "The young **lawyer** entered the **court** prepared to defend her client's **rights**. A **witness** stood up and gave important details during the **trial**, and the **judge** listened carefully to both sides. After hours of debate, the **jury** came to a **verdict**: the **defendant** was not **guilty** of the **crime**. The decision upheld the principles of the **constitution** and reminded everyone why fair **justice** matters.",
+    "vi": "Vị **luật sư** trẻ bước vào **tòa án** với sự chuẩn bị để bảo vệ **quyền** của thân chủ mình. Một **nhân chứng** đứng dậy và cung cấp những chi tiết quan trọng trong **phiên tòa**, và **thẩm phán** lắng nghe cẩn thận cả hai bên. Sau nhiều giờ tranh luận, **bồi thẩm đoàn** đưa ra **phán quyết**: **bị cáo** không **có tội** về **tội phạm** đó. Quyết định này duy trì các nguyên tắc của **hiến pháp** và nhắc nhở mọi người tại sao **công lý** công bằng là quan trọng."
+  },
+  "explorer.psychology": {
+    "emojis": [
+      "🧠",
+      "💭",
+      "🔍"
+    ],
+    "en": "After months of high **stress**, the student felt her **anxiety** growing and her **self-esteem** falling. She talked to her school counselor, who helped her understand how her **perception** of failure was changing her **behavior**. They worked on building a positive **mindset** and replacing unhealthy **habits** with better ones. Over time, she showed great **resilience**, found her **motivation** again, and began to feel proud of who she was becoming.",
+    "vi": "Sau nhiều tháng **căng thẳng** cao độ, học sinh cảm thấy **lo lắng** ngày càng tăng và **lòng tự trọng** giảm sút. Cô nói chuyện với cố vấn học đường, người giúp cô hiểu cách **nhận thức** về thất bại đang thay đổi **hành vi** của mình. Họ cùng nhau xây dựng **tư duy** tích cực và thay thế những **thói quen** không lành mạnh bằng những thói quen tốt hơn. Theo thời gian, cô thể hiện **khả năng phục hồi** tuyệt vời, tìm lại **động lực** và bắt đầu tự hào về con người mình đang trở thành."
+  },
+  "explorer.medicine": {
+    "emojis": [
+      "💊",
+      "🏥",
+      "🩺"
+    ],
+    "en": "The doctor examined a **patient** who had been coughing for two weeks and felt tired every day. After running tests to **diagnose** the problem, she discovered a bacterial **infection** and wrote a **prescription** for an **antibiotic**. She also explained how good nutrition and rest support **recovery** after **treatment**. With the right **prevention** steps — including a new **vaccine** — the town was able to stop the **epidemic** before it spread further.",
+    "vi": "Bác sĩ khám cho một **bệnh nhân** đã ho trong hai tuần và cảm thấy mệt mỏi mỗi ngày. Sau khi xét nghiệm để **chẩn đoán** vấn đề, cô phát hiện ra **nhiễm trùng** vi khuẩn và viết **đơn thuốc** cho **kháng sinh**. Cô cũng giải thích cách dinh dưỡng tốt và nghỉ ngơi hỗ trợ **phục hồi** sau **điều trị**. Với các bước **phòng ngừa** đúng đắn — bao gồm một loại **vắc xin** mới — thị trấn có thể ngăn chặn **dịch bệnh** trước khi nó lan rộng."
+  },
+  "explorer.geography": {
+    "emojis": [
+      "🌍",
+      "🗺️",
+      "🏔️"
+    ],
+    "en": "The geography students spread out a large map and began to trace the world's most dramatic landscapes. They found that the **plateau** in the south was surrounded by a deep **canyon** carved by ancient rivers. Near the **equator**, the hot **savanna** stretched for miles, while frozen **tundra** covered the far northern **hemisphere**. The class learned how to use **longitude** and **latitude** to locate every **continent**, **peninsula**, and **coastline** on the globe.",
+    "vi": "Các học sinh địa lý trải ra một tấm bản đồ lớn và bắt đầu truy tìm những cảnh quan ấn tượng nhất thế giới. Họ phát hiện ra rằng **cao nguyên** ở phía nam được bao quanh bởi một **hẻm núi** sâu được tạo ra bởi những con sông cổ đại. Gần **xích đạo**, **xavan** nóng bức trải dài hàng dặm, trong khi **lãnh nguyên** đóng băng bao phủ **bán cầu** bắc xa xôi. Lớp học học cách dùng **kinh độ** và **vĩ độ** để xác định vị trí mỗi **lục địa**, **bán đảo** và **đường bờ biển** trên quả địa cầu."
+  },
+  "explorer.nutrition": {
+    "emojis": [
+      "🥗",
+      "🍎",
+      "💪"
+    ],
+    "en": "The school launched a healthy eating program to teach students about **nutrition**. The teacher explained that **carbohydrates** give us energy, while **vitamins** and **minerals** keep our bones and skin strong. Too much **sugar** and **fat** can harm the body, so choosing the right **portion** of each **ingredient** matters. Students were excited to cook simple **cuisine** using fresh, **organic** vegetables and to reduce their need for any **supplement**.",
+    "vi": "Trường học ra mắt chương trình ăn uống lành mạnh để dạy học sinh về **dinh dưỡng**. Giáo viên giải thích rằng **carbohydrate** cung cấp năng lượng, trong khi **vitamin** và **khoáng chất** giữ xương và da chúng ta chắc khỏe. Quá nhiều **đường** và **chất béo** có thể gây hại, vì vậy việc chọn **khẩu phần** phù hợp của mỗi **thành phần** rất quan trọng. Học sinh hứng thú nấu những món **ẩm thực** đơn giản bằng rau **hữu cơ** tươi và giảm nhu cầu dùng **thực phẩm bổ sung**."
+  },
+  "explorer.climate-change": {
+    "emojis": [
+      "🌡️",
+      "🌊",
+      "🌿"
+    ],
+    "en": "Scientists reported that rising **temperatures** were melting the polar **glaciers** at an alarming rate. High **carbon** **emissions** and **greenhouse** gases from factories were changing the global **climate** faster than ever before. In some regions, **drought** destroyed farmland, while others faced terrible **floods** that ruined homes. The answer, experts said, was to stop **deforestation**, reduce **pollution**, and switch to **renewable** energy through strong **conservation** and **sustainable** planning.",
+    "vi": "Các nhà khoa học báo cáo rằng nhiệt độ tăng đang làm tan chảy **sông băng** vùng cực với tốc độ đáng báo động. **Khí thải** **carbon** cao và khí **nhà kính** từ các nhà máy đang thay đổi **khí hậu** toàn cầu nhanh hơn bao giờ hết. Ở một số vùng, **hạn hán** phá hủy đất canh tác, trong khi những nơi khác phải đối mặt với **lũ lụt** kinh khủng tàn phá nhà cửa. Câu trả lời là ngăn chặn **phá rừng**, giảm **ô nhiễm** và chuyển sang năng lượng **tái tạo** thông qua kế hoạch **bảo tồn** và **bền vững** mạnh mẽ."
+  },
+  "explorer.digital-life": {
+    "emojis": [
+      "📱",
+      "💻",
+      "🔒"
+    ],
+    "en": "Maya enjoyed **streaming** her favorite shows online, but her older sister warned her to be careful. Every click she made left a **digital footprint** and fed **data** to an **algorithm** tracking her habits. A **hacker** could misuse this information if her account was not properly **encrypted** and protected from threats to her **privacy**. She learned to limit her **screen time**, use a strong **username**, and think critically before sharing anything that could spread **misinformation**.",
+    "vi": "Maya thích **xem trực tuyến** những bộ phim yêu thích, nhưng chị gái cảnh báo cô phải cẩn thận. Mỗi lần nhấp chuột để lại một **dấu chân số** và cung cấp **dữ liệu** cho một **thuật toán** theo dõi thói quen của cô. Một **tin tặc** có thể lạm dụng thông tin này nếu tài khoản không được **mã hóa** đúng cách để bảo vệ **quyền riêng tư**. Cô học cách giới hạn **thời gian màn hình**, dùng **tên người dùng** mạnh và suy nghĩ cẩn thận trước khi chia sẻ bất cứ điều gì có thể lan truyền **thông tin sai lệch**."
+  },
+  "explorer.architecture": {
+    "emojis": [
+      "🏛️",
+      "🏙️",
+      "📐"
+    ],
+    "en": "The old museum was chosen for **renovation** because it was a **heritage** building that the city wanted to preserve. Architects studied the original **blueprint** to understand the building's **foundation** and the purpose of every **column** and graceful **arch**. They chose new **material** that matched the **proportion** and **symmetry** of the original **facade**, including its beautiful **dome**. The finished **design** blended into the **urban** landscape as if the building had never changed.",
+    "vi": "Bảo tàng cũ được chọn để **cải tạo** vì nó là tòa nhà **di sản** mà thành phố muốn bảo tồn. Các kiến trúc sư nghiên cứu **bản thiết kế** gốc để hiểu **nền móng** của tòa nhà và mục đích của mỗi **cột trụ** và **vòm** thanh lịch. Họ chọn **vật liệu** mới phù hợp với **tỷ lệ** và **đối xứng** của **mặt tiền** gốc, bao gồm cả **mái vòm** đẹp. **Thiết kế** hoàn chỉnh hòa vào cảnh quan **đô thị** như thể tòa nhà chưa bao giờ thay đổi."
+  },
+  "explorer.business-startup": {
+    "emojis": [
+      "💡",
+      "🚀",
+      "📊"
+    ],
+    "en": "A teenage **entrepreneur** had a clever idea for a new app and decided to turn it into a real **startup**. She spent weeks building her **brand** and crafting a strong **pitch** to attract **investment** from local businesses. Her first **strategy** was to target a small **market** and prove the app could generate **revenue** before trying to **scale**. After one early **failure**, she learned fast and found a way to **innovate** and **compete** with bigger companies.",
+    "vi": "Một **doanh nhân** tuổi teen có ý tưởng thông minh cho một ứng dụng mới và quyết định biến nó thành một **startup** thực sự. Cô dành nhiều tuần xây dựng **thương hiệu** và soạn một **bài thuyết trình** mạnh mẽ để thu hút **đầu tư** từ các doanh nghiệp địa phương. **Chiến lược** đầu tiên là nhắm vào một **thị trường** nhỏ và chứng minh ứng dụng có thể tạo ra **doanh thu** trước khi cố gắng **mở rộng quy mô**. Sau một **thất bại** ban đầu, cô học hỏi nhanh và tìm cách **đổi mới** để **cạnh tranh** với các công ty lớn hơn."
+  },
+  "explorer.music-performance": {
+    "emojis": [
+      "🎵",
+      "🎸",
+      "🎻"
+    ],
+    "en": "The young musician practiced for weeks so she could **perform** a beautiful **solo** in front of the school **orchestra**. She worked hard to get the **rhythm** and **tempo** exactly right and to blend her part smoothly into the **harmony**. The **conductor** helped her understand that even one wrong **chord** could break the mood of the piece. On the night of the concert, the hall was quiet as she played, and the **audience** held their breath, moved by every **melody**.",
+    "vi": "Nhạc sĩ trẻ luyện tập nhiều tuần để có thể **biểu diễn** một bản **độc tấu** đẹp trước **dàn nhạc** của trường. Cô làm việc chăm chỉ để đảm bảo **nhịp điệu** và **tốc độ** hoàn toàn chính xác và hòa phần của mình vào **hòa âm** một cách mượt mà. **Nhạc trưởng** giúp cô hiểu rằng ngay cả một **hợp âm** sai cũng có thể phá vỡ tâm trạng của bản nhạc. Vào tối buổi hòa nhạc, khán phòng yên lặng khi cô chơi, và **khán giả** nín thở, xúc động trước mỗi **giai điệu**."
+  },
+  "explorer.sports-competition": {
+    "emojis": [
+      "🏅",
+      "🏆",
+      "⚽"
+    ],
+    "en": "The young **athlete** trained every morning, building both **endurance** and **agility** for the national **tournament**. His coach taught him new **techniques** and the best **tactic** to use against his strongest **rival**. During the final match, a **referee** called a **penalty**, but he stayed calm and showed true **sportsmanship**. He crossed the finish line first, lifted the **trophy**, and knew his hard work had helped him become **champion**.",
+    "vi": "**Vận động viên** trẻ tập luyện mỗi buổi sáng, rèn luyện cả **sức bền** và **sự nhanh nhẹn** cho **giải đấu** quốc gia. Huấn luyện viên dạy anh những **kỹ thuật** mới và **chiến thuật** tốt nhất để dùng chống lại **đối thủ** mạnh nhất. Trong trận chung kết, một **trọng tài** gọi một **phạt đền**, nhưng anh vẫn bình tĩnh và thể hiện **tinh thần thể thao** thật sự. Anh vượt qua vạch đích đầu tiên, nâng **cúp vô địch**, và biết rằng sự chăm chỉ đã giúp anh trở thành **nhà vô địch**."
+  },
+  "explorer.critical-thinking": {
+    "emojis": [
+      "🧠",
+      "🔍",
+      "💡"
+    ],
+    "en": "In class, the students were asked to **analyze** a news article and decide whether it was **reliable**. They had to find the **source**, check the **evidence**, and spot any **bias** in the writing. The teacher warned them not to jump to a **conclusion** based on a false **assumption** or a logical **fallacy**. After a lively **debate**, the class learned that the best **argument** uses **logic**, considers every **perspective**, and always asks the right **question**.",
+    "vi": "Trong lớp học, học sinh được yêu cầu **phân tích** một bài báo và quyết định xem nó có **đáng tin cậy** không. Họ phải tìm **nguồn**, kiểm tra **bằng chứng** và phát hiện bất kỳ **thiên kiến** nào trong bài viết. Giáo viên cảnh báo không nhảy đến **kết luận** dựa trên **giả định** sai hoặc **ngụy biện** logic. Sau một cuộc **tranh luận** sôi nổi, lớp học nhận ra rằng **lập luận** tốt nhất dùng **logic**, xem xét mỗi **quan điểm** và luôn đặt đúng **câu hỏi**."
+  },
+  "explorer.global-issues": {
+    "emojis": [
+      "🌍",
+      "✊",
+      "🕊️"
+    ],
+    "en": "The school organized a project to understand why millions of people still face **hunger** and **poverty** around the world. Students learned that **conflict** and **inequality** often force families to leave home, turning them into **refugees** with no access to **sanitation** or education. A video call with a **diplomat** showed how international **aid** and **treaties** are used to respond to a **crisis**. The class agreed that a fairer world depends on **cooperation**, stronger **democracy**, and respect for **human rights**.",
+    "vi": "Trường học tổ chức một dự án để hiểu tại sao hàng triệu người vẫn phải đối mặt với **nạn đói** và **nghèo đói** trên thế giới. Học sinh học được rằng **xung đột** và **bất bình đẳng** thường buộc các gia đình rời bỏ nhà cửa, biến họ thành **người tị nạn** không có quyền tiếp cận **vệ sinh** hay giáo dục. Một cuộc gọi video với một **nhà ngoại giao** cho thấy cách **viện trợ** và **hiệp ước** quốc tế được dùng để ứng phó với **khủng hoảng**. Lớp học đồng ý rằng một thế giới công bằng hơn phụ thuộc vào **hợp tác**, **dân chủ** mạnh mẽ hơn và tôn trọng **quyền con người**."
+  },
+  "explorer.genetics-evolution": {
+    "emojis": [
+      "🧬",
+      "🦎",
+      "🔬"
+    ],
+    "en": "Every living **organism** carries a unique set of instructions in its **DNA**, stored inside tiny **chromosomes**. These **genes** control the **traits** we **inherit** from our parents, from eye color to the shape of our nose. Over millions of years, **natural selection** favors **variations** that help a species survive, leading to powerful **evolution**. When scientists study an **extinct** animal's **fossil**, they can trace the **adaptations** that allowed its **ancestors** to **reproduce** in changing conditions.",
+    "vi": "Mỗi **sinh vật** sống mang một bộ hướng dẫn độc đáo trong **DNA** của nó, được lưu trữ bên trong những **nhiễm sắc thể** nhỏ bé. Những **gen** này kiểm soát những **đặc điểm** chúng ta **thừa hưởng** từ cha mẹ, từ màu mắt đến hình dạng mũi. Qua hàng triệu năm, **chọn lọc tự nhiên** ưu tiên những **biến thể** giúp một loài tồn tại, dẫn đến **tiến hóa** mạnh mẽ. Khi các nhà khoa học nghiên cứu **hóa thạch** của loài động vật đã **tuyệt chủng**, họ truy tìm những **thích nghi** cho phép **tổ tiên** của nó **sinh sản** trong điều kiện thay đổi."
+  },
+  "explorer.art-creativity": {
+    "emojis": [
+      "🎨",
+      "🖼️",
+      "✨"
+    ],
+    "en": "The young artist stood in the **gallery** and studied every painting in the **exhibition**, taking notes in a small sketchbook. One massive **canvas** filled the wall — an **abstract** piece with bold **contrast** between dark and light that seemed to **inspire** new emotions. Back in her studio, she tried a new **medium** and created a **sculpture** with rough **texture** that told a story without any words. Her teacher smiled and said that a truly **creative** **composition** does not need to look perfect — it just needs to speak.",
+    "vi": "Nghệ sĩ trẻ đứng trong **phòng trưng bày** và nghiên cứu từng bức tranh trong **triển lãm**, ghi chú vào cuốn sổ phác thảo nhỏ. Một **bức tranh** khổng lồ lấp đầy bức tường — một tác phẩm **trừu tượng** với **tương phản** mạnh mẽ giữa tối và sáng dường như **truyền cảm hứng** những cảm xúc mới. Trở về xưởng, cô thử một **chất liệu** mới và tạo ra một **tác phẩm điêu khắc** với **kết cấu** thô ráp kể câu chuyện mà không cần từ ngữ. Giáo viên mỉm cười và nói rằng một **sáng tác** thực sự **sáng tạo** không cần trông hoàn hảo — nó chỉ cần có sức nói."
+  },
+  "scholar.academic-skills": {
+    "emojis": [
+      "📚",
+      "✍️",
+      "🎓"
+    ],
+    "en": "Writing a strong university essay requires more than just knowing the facts. You must **analyze** your sources carefully, **synthesize** information from multiple authors, and build a **coherent** **argument** around a clear **thesis**. Every claim should be supported with a proper **citation** from a credible source, and your **bibliography** must follow the correct format. Ask a peer to **evaluate** your **methodology** and give a **critique** to make sure your reasoning is always **logical**.",
+    "vi": "Viết một bài luận đại học mạnh không chỉ đơn giản là biết các sự kiện. Bạn phải **phân tích** các nguồn cẩn thận, **tổng hợp** thông tin từ nhiều tác giả và xây dựng một **lập luận** **mạch lạc** xung quanh một **luận điểm** rõ ràng. Mỗi tuyên bố nên được hỗ trợ bằng **trích dẫn** thích hợp từ nguồn đáng tin cậy, và **danh mục tài liệu** phải theo đúng định dạng. Hãy nhờ bạn **đánh giá** **phương pháp luận** của bạn và đưa ra **phê bình** để đảm bảo lập luận luôn **logic**."
+  },
+  "scholar.media-journalism": {
+    "emojis": [
+      "📰",
+      "🎙️",
+      "📡"
+    ],
+    "en": "In today's fast-moving media landscape, a responsible **journalist** must always **verify** every piece of information before publishing. A sensational **headline** may attract clicks, but it can damage credibility if the **source** turns out to be unreliable. Some governments use **censorship** and **propaganda** to control media **coverage** and prevent **impartial** reporting. Strong **editorial** standards and wide **circulation** of accurate news are essential defenses against misinformation in a democratic society.",
+    "vi": "Trong bối cảnh truyền thông thay đổi nhanh ngày nay, một **nhà báo** có trách nhiệm luôn phải **xác minh** mọi thông tin trước khi xuất bản. Một **tiêu đề** giật gân có thể thu hút lượt nhấp, nhưng có thể gây tổn hại đến uy tín nếu **nguồn** hóa ra không đáng tin cậy. Một số chính phủ dùng **kiểm duyệt** và **tuyên truyền** để kiểm soát **đưa tin** và ngăn chặn báo cáo **khách quan**. Tiêu chuẩn **biên tập** mạnh mẽ và **lưu hành** rộng rãi tin tức chính xác là sự bảo vệ thiết yếu chống lại thông tin sai lệch trong xã hội dân chủ."
+  },
+  "scholar.law-justice": {
+    "emojis": [
+      "⚖️",
+      "🏛️",
+      "📜"
+    ],
+    "en": "The **prosecution** presented compelling **evidence** that the **defendant** had violated a key environmental **statute**. However, the defense **attorney** argued that the existing **legislation** did not clearly define the act as a crime under current **jurisdiction**. The court heard hours of **testimony** from expert witnesses before the judge delivered a **verdict** that the defendant was **liable** for damages. The case prompted lawmakers to pass a new **amendment** to strengthen the **penalty** for future violations.",
+    "vi": "**Bên công tố** trình bày **bằng chứng** thuyết phục rằng **bị cáo** đã vi phạm một **quy chế** môi trường quan trọng. Tuy nhiên, **luật sư** bào chữa lập luận rằng **luật pháp** hiện hành không xác định rõ ràng hành vi đó là tội phạm theo **thẩm quyền** hiện tại. Tòa án nghe nhiều giờ **lời khai** từ các nhân chứng chuyên gia trước khi thẩm phán đưa ra **phán quyết** rằng bị cáo phải chịu **trách nhiệm pháp lý**. Vụ án thúc đẩy các nhà lập pháp thông qua một **tu chính án** mới để tăng cường **hình phạt** cho các vi phạm trong tương lai."
+  },
+  "scholar.economics-trade": {
+    "emojis": [
+      "💰",
+      "📊",
+      "🌍"
+    ],
+    "en": "During the global **recession**, governments faced difficult choices about how to stabilize their economies. Some raised the **interest rate** to slow **inflation**, while others cut **tariffs** on essential **imports** to keep prices manageable for consumers. A large budget **deficit** forced several countries to reduce the **subsidy** they provided to local farmers, threatening key **commodity** exports. Economists debated which **fiscal** policy would best protect **GDP** while restoring confidence in the national **currency**.",
+    "vi": "Trong cuộc **suy thoái** toàn cầu, các chính phủ phải đối mặt với những lựa chọn khó khăn về cách ổn định nền kinh tế. Một số nước tăng **lãi suất** để làm chậm **lạm phát**, trong khi một số khác cắt giảm **thuế quan** đối với các **hàng nhập khẩu** thiết yếu để giữ giá cả ở mức có thể quản lý. Thâm hụt ngân sách lớn buộc một số quốc gia giảm **trợ cấp** cho nông dân địa phương, đe dọa xuất khẩu **hàng hóa** chủ chốt. Các nhà kinh tế tranh luận về chính sách **tài khóa** nào sẽ bảo vệ tốt nhất **GDP** trong khi khôi phục niềm tin vào **tiền tệ** quốc gia."
+  },
+  "scholar.psychology-mind": {
+    "emojis": [
+      "🧠",
+      "💭",
+      "🔬"
+    ],
+    "en": "A growing body of research shows that early **trauma** can reshape the **cognitive** patterns that govern a person's **behavior** for years afterward. The **subconscious** mind holds memories and fears that influence our **perception** of the world, sometimes without our awareness. Fortunately, people who develop strong **resilience** and receive appropriate **therapy** can rebuild their sense of **identity** and find new **motivation**. Building **empathy** within communities also helps reduce the **anxiety** and harmful **stereotypes** that often surround those living with a mental health **disorder**.",
+    "vi": "Ngày càng nhiều nghiên cứu cho thấy **chấn thương** tâm lý thời thơ ấu có thể định hình lại các mô hình **nhận thức** chi phối **hành vi** của một người trong nhiều năm sau đó. Tâm trí **vô thức** lưu giữ những ký ức và nỗi sợ hãi ảnh hưởng đến **nhận thức** của chúng ta về thế giới, đôi khi mà không có sự nhận biết của chúng ta. May mắn thay, những người phát triển **khả năng phục hồi** mạnh mẽ và nhận được **liệu pháp** thích hợp có thể tái xây dựng ý thức về **bản sắc** và tìm thấy **động lực** mới. Xây dựng **sự đồng cảm** trong cộng đồng cũng giúp giảm thiểu **lo lắng** và những **định kiến** có hại thường bao quanh những người sống với **rối loạn** sức khỏe tâm thần."
+  },
+  "scholar.politics-society": {
+    "emojis": [
+      "🏛️",
+      "🗳️",
+      "🌐"
+    ],
+    "en": "The small nation's fragile **democracy** was tested when two major parties failed to form a stable **coalition** after the election. The prime minister launched a **campaign** to **reform** the **constitution** and clarify the balance of **authority** between branches of government. Opposition leaders called for a **referendum**, arguing that changes to national **sovereignty** required a public vote. International **diplomats** urged both sides to resolve the crisis through dialogue, warning that **sanctions** could follow if **treaty** obligations were ignored.",
+    "vi": "Nền **dân chủ** mong manh của quốc gia nhỏ bị thử thách khi hai đảng lớn không thể thành lập **liên minh** ổn định sau bầu cử. Thủ tướng phát động **chiến dịch** để **cải cách** **hiến pháp** và làm rõ sự cân bằng **quyền lực** giữa các nhánh chính phủ. Các lãnh đạo đối lập kêu gọi **trưng cầu dân ý**, lập luận rằng những thay đổi về **chủ quyền** quốc gia đòi hỏi bỏ phiếu công khai. Các **nhà ngoại giao** quốc tế kêu gọi cả hai bên giải quyết khủng hoảng thông qua đối thoại, cảnh báo rằng **trừng phạt** có thể theo sau nếu nghĩa vụ **hiệp ước** bị bỏ qua."
+  },
+  "scholar.science-research": {
+    "emojis": [
+      "🔬",
+      "📊",
+      "🧪"
+    ],
+    "en": "A team of biologists published a groundbreaking paper in a leading **peer-reviewed** journal describing their **finding** that a specific **molecule** in the human **genome** was linked to a rare neurological condition. Their **clinical** trial involved a large **sample** of patients and carefully controlled every **variable** to isolate the cause. The **data** showed a statistically **significant** **correlation**, though the team was careful not to draw a final **conclusion** until other labs could **replicate** the study. The **ethics** committee reviewed the research to ensure no participants were harmed.",
+    "vi": "Một nhóm sinh vật học công bố bài báo đột phá trên tạp chí hàng đầu **được phản biện học thuật** mô tả **phát hiện** rằng một **phân tử** cụ thể trong **bộ gen** người liên quan đến một tình trạng thần kinh hiếm gặp. Thử nghiệm **lâm sàng** của họ liên quan đến một **mẫu** lớn bệnh nhân và kiểm soát cẩn thận mỗi **biến số** để tách biệt nguyên nhân. **Dữ liệu** cho thấy một **mối tương quan** có ý nghĩa thống kê **đáng kể**, mặc dù nhóm cẩn thận không rút ra **kết luận** cuối cùng cho đến khi các phòng thí nghiệm khác có thể **tái lặp** nghiên cứu. Ủy ban **đạo đức** xem xét nghiên cứu để đảm bảo không có người tham gia nào bị tổn hại."
+  },
+  "scholar.environment-policy": {
+    "emojis": [
+      "🌿",
+      "⚡",
+      "📜"
+    ],
+    "en": "The government unveiled a sweeping environmental **initiative** aimed at making the country **carbon neutral** by 2050. The plan included stricter **regulation** on industrial **emissions**, expanded **offshore** wind farms, and a ban on sending organic waste to **landfill**. Companies were required to measure and reduce their **carbon footprint** as part of the international **protocol** they had signed. Critics argued that voluntary **pledges** were not enough and that stronger enforcement was needed to genuinely protect **biodiversity** and ensure truly **sustainable** **conservation** practices.",
+    "vi": "Chính phủ công bố một **sáng kiến** môi trường toàn diện nhằm đưa đất nước trở thành **trung hòa carbon** vào năm 2050. Kế hoạch bao gồm các **quy định** chặt chẽ hơn về **khí thải** công nghiệp, mở rộng các trang trại điện gió **ngoài khơi** và cấm đưa chất thải hữu cơ đến **bãi rác**. Các công ty được yêu cầu đo lường và giảm **dấu chân carbon** như một phần của **nghị định thư** quốc tế. Các nhà phê bình lập luận rằng những **cam kết** tự nguyện là không đủ và cần thực thi mạnh mẽ hơn để thực sự bảo vệ **đa dạng sinh học** và đảm bảo các thực hành **bảo tồn** **bền vững** thực sự."
+  },
+  "scholar.health-medicine": {
+    "emojis": [
+      "💊",
+      "🏥",
+      "🔬"
+    ],
+    "en": "The doctor referred the patient to a **specialist** after a series of unusual **symptoms** pointed to a rare **chronic** condition that standard tests had failed to detect. A precise **diagnosis** allowed them to begin a targeted **treatment** plan, combining **pharmaceutical** medication with changes in **nutrition** and lifestyle. The patient's weakened **immune** system meant that even minor infections posed a serious risk, so **vaccination** was strongly recommended. Improved early **prevention** protocols had significantly reduced **mortality** rates for this condition over the past decade.",
+    "vi": "Bác sĩ giới thiệu bệnh nhân đến một **chuyên gia** sau khi một loạt **triệu chứng** bất thường chỉ ra tình trạng **mãn tính** hiếm gặp mà các xét nghiệm tiêu chuẩn không phát hiện được. Một **chẩn đoán** chính xác cho phép bắt đầu kế hoạch **điều trị** có mục tiêu, kết hợp thuốc **dược phẩm** với thay đổi trong **dinh dưỡng** và lối sống. Hệ thống **miễn dịch** suy yếu của bệnh nhân có nghĩa là ngay cả nhiễm trùng nhỏ cũng gây nguy cơ nghiêm trọng, nên **tiêm vắc xin** được khuyến nghị mạnh mẽ. Các giao thức **phòng ngừa** sớm được cải thiện đã giảm đáng kể tỷ lệ **tử vong** cho tình trạng này trong thập kỷ qua."
+  },
+  "scholar.technology-future": {
+    "emojis": [
+      "🤖",
+      "💻",
+      "🔮"
+    ],
+    "en": "The company invested heavily in **artificial intelligence** and **machine learning** to stay ahead of rapid technological change. Their latest **prototype** used a sophisticated **algorithm** to predict user needs and could **integrate** seamlessly with existing systems through an intuitive **interface**. However, engineers warned that older software risked becoming **obsolete** if proper **cybersecurity** measures were not in place to **encrypt** sensitive data. The rise of **automation** and **virtual reality** also demanded higher **bandwidth** and continuous **innovation** to keep pace with user expectations.",
+    "vi": "Công ty đầu tư mạnh vào **trí tuệ nhân tạo** và **học máy** để đón đầu sự thay đổi công nghệ nhanh chóng. **Nguyên mẫu** mới nhất sử dụng một **thuật toán** tinh vi để dự đoán nhu cầu người dùng và có thể **tích hợp** liền mạch với các hệ thống hiện có qua **giao diện** trực quan. Tuy nhiên, các kỹ sư cảnh báo rằng phần mềm cũ có nguy cơ trở nên **lỗi thời** nếu các biện pháp **an ninh mạng** thích hợp không được áp dụng để **mã hóa** dữ liệu nhạy cảm. Sự nổi lên của **tự động hóa** và **thực tế ảo** cũng đòi hỏi **băng thông** cao hơn và **đổi mới** liên tục để theo kịp kỳ vọng của người dùng."
+  },
+  "scholar.art-culture": {
+    "emojis": [
+      "🎨",
+      "🏛️",
+      "👁️"
+    ],
+    "en": "The museum's new **exhibition** brought together rare **Renaissance** paintings and bold **contemporary** **installations** that challenged visitors to reconsider what art could be. A striking **sculpture** stood at the entrance — its **abstract** form drew attention to the **aesthetic** contrast between old and new. The **curator** explained that every work had been chosen to shift the viewer's **perception** of **heritage** and identity. One stunning **portrait** on a large **canvas** was widely regarded as the show's **masterpiece**, drawing crowds who rarely visited art spaces.",
+    "vi": "**Triển lãm** mới của bảo tàng tập hợp những bức tranh **Phục hưng** hiếm có và những **tác phẩm sắp đặt** **đương đại** táo bạo thách thức du khách xem lại ý nghĩa của nghệ thuật. Một **tác phẩm điêu khắc** ấn tượng đứng ở lối vào — hình dạng **trừu tượng** của nó thu hút sự chú ý đến sự tương phản **thẩm mỹ** giữa cũ và mới. **Giám tuyển** giải thích rằng mọi tác phẩm đều được chọn để thay đổi **nhận thức** của người xem về **di sản** và bản sắc. Một **chân dung** tuyệt đẹp trên một **bức tranh** lớn được đánh giá rộng rãi là **kiệt tác** của triển lãm, thu hút đám đông ít khi ghé thăm không gian nghệ thuật."
+  },
+  "scholar.education-system": {
+    "emojis": [
+      "🎓",
+      "📚",
+      "🏫"
+    ],
+    "en": "Reformers argued that the national **curriculum** needed a complete overhaul to reflect the skills students would need in modern life. Critics of traditional **pedagogy** called for more project-based learning and less reliance on high-stakes **assessment** that measured only memory. Rising **tuition** fees had contributed to higher **dropout** rates, particularly among students who lacked access to **scholarship** support. The government pledged to strengthen **vocational** pathways, invest in **extracurricular** programs, and make digital **literacy** a **compulsory** part of every school's **accreditation** standards.",
+    "vi": "Các nhà cải cách lập luận rằng **chương trình giảng dạy** quốc gia cần được đại tu hoàn toàn để phản ánh những kỹ năng học sinh sẽ cần trong cuộc sống hiện đại. Các nhà phê bình **phương pháp sư phạm** truyền thống kêu gọi học tập dựa trên dự án nhiều hơn và ít phụ thuộc vào **đánh giá** có cược cao. Học phí **học phí** tăng đã góp phần vào tỷ lệ **bỏ học** cao hơn, đặc biệt là với những học sinh thiếu quyền tiếp cận hỗ trợ **học bổng**. Chính phủ cam kết củng cố các lộ trình **đào tạo nghề**, đầu tư vào các chương trình **ngoại khóa** và đưa **đọc viết** kỹ thuật số thành phần **bắt buộc** trong tiêu chuẩn **kiểm định** của mỗi trường."
+  },
+  "scholar.business-management": {
+    "emojis": [
+      "💼",
+      "📊",
+      "🤝"
+    ],
+    "en": "The board of directors met to review the company's long-term **strategy** after a period of declining **revenue** and rising **liability** concerns. A proposed **merger** with a regional competitor had the potential to double their market share, but the financial **audit** revealed unexpected debt that complicated the deal. **Stakeholders** were divided — investors wanted a higher **dividend**, while managers argued for reinvesting in a new **partnership** with a tech firm. The CEO, a seasoned **entrepreneur**, insisted on a detailed **forecast** before approving any further **acquisition** or decision to **outsource** core operations.",
+    "vi": "Hội đồng quản trị họp để xem xét **chiến lược** dài hạn của công ty sau một giai đoạn **doanh thu** giảm và lo ngại về **trách nhiệm pháp lý** gia tăng. Một đề xuất **sáp nhập** với đối thủ khu vực có tiềm năng tăng gấp đôi thị phần, nhưng cuộc **kiểm toán** tài chính tiết lộ khoản nợ bất ngờ làm phức tạp thỏa thuận. Các **bên liên quan** bị chia rẽ — nhà đầu tư muốn **cổ tức** cao hơn, trong khi các nhà quản lý lập luận cho việc tái đầu tư vào **quan hệ đối tác** mới với công ty công nghệ. Giám đốc điều hành, một **doanh nhân** dày dạn kinh nghiệm, nhấn mạnh cần có **dự báo** chi tiết trước khi phê duyệt bất kỳ quyết định **mua lại** hoặc **thuê ngoài** hoạt động cốt lõi nào."
+  },
+  "scholar.urban-development": {
+    "emojis": [
+      "🏙️",
+      "🏗️",
+      "🗺️"
+    ],
+    "en": "City planners debated whether to allow a cluster of new **skyscrapers** in the historic quarter, which many residents felt would accelerate **gentrification**. The **municipality** commissioned a study on **zoning** laws and found that high-**density** **construction** was increasing **congestion** and reducing space for **pedestrian** walkways. Architects proposed a mixed-use **renovation** plan that would preserve key **landmarks** while improving **transit** links to outer suburbs. Critics of **urban sprawl** argued that the city needed to grow upward, not outward, to protect green land on its boundaries.",
+    "vi": "Các nhà quy hoạch thành phố tranh luận về việc có nên cho phép một cụm **tòa nhà chọc trời** mới trong khu phố cổ, điều mà nhiều cư dân cảm thấy sẽ đẩy nhanh **quá trình đô thị hóa quý tộc**. **Chính quyền thành phố** đặt hàng một nghiên cứu về luật **phân vùng** và phát hiện ra rằng **xây dựng** mật độ cao đang làm tăng **tắc nghẽn** và giảm không gian cho các lối đi bộ **người đi bộ**. Các kiến trúc sư đề xuất một kế hoạch **cải tạo** đa chức năng có thể bảo tồn những **địa danh** quan trọng trong khi cải thiện các kết nối **giao thông công cộng** đến các vùng ngoại ô. Các nhà phê bình **đô thị hóa lan rộng** lập luận rằng thành phố cần phát triển theo chiều dọc để bảo vệ đất xanh ở vùng ngoại vi."
+  },
+  "scholar.global-issues": {
+    "emojis": [
+      "🌍",
+      "✊",
+      "🕊️"
+    ],
+    "en": "The United Nations report painted a sobering picture of a world where **poverty** and **inequality** continued to drive mass **migration** and **displacement** across continents. In several regions, **famine** and **epidemic** outbreaks had overwhelmed **humanitarian** organizations struggling to deliver **aid** in conflict zones. **Geopolitics** complicated every response — some nations imposed **sanctions** rather than offering support, and fears over **nuclear** proliferation froze diplomatic channels. The report concluded that no country could solve these crises alone and that genuine global cooperation was the only path forward.",
+    "vi": "Báo cáo của Liên Hợp Quốc vẽ ra một bức tranh đáng lo ngại về thế giới nơi **nghèo đói** và **bất bình đẳng** tiếp tục thúc đẩy **di cư** hàng loạt và **di dời** khắp các lục địa. Ở một số vùng, **nạn đói** và bùng phát **dịch bệnh** đã áp đảo các tổ chức **nhân đạo** đang nỗ lực cung cấp **viện trợ** ở các khu vực xung đột. **Địa chính trị** làm phức tạp mọi phản ứng — một số quốc gia áp đặt **trừng phạt** thay vì cung cấp hỗ trợ, và lo ngại về phổ biến **hạt nhân** làm đóng băng các kênh ngoại giao. Báo cáo kết luận rằng không quốc gia nào có thể giải quyết những khủng hoảng này một mình và sự hợp tác toàn cầu thực sự là con đường duy nhất tiến về phía trước."
+  },
+  "scholar.literature-analysis": {
+    "emojis": [
+      "📖",
+      "✍️",
+      "🔍"
+    ],
+    "en": "In the novel, the **protagonist's** slow physical journey mirrors a deeper emotional transformation — a pattern of **symbolism** the author reinforces through recurring **motifs** of water and fire. The **antagonist** is not a villain in the traditional sense but a reflection of the hero's own fears, a structural **irony** that deepens the central **theme** of self-deception. The **foreshadowing** in the early chapters is subtle — woven into the **prose** almost invisibly — yet retrospectively feels inevitable. This **narrative** technique, combined with shifting **perspective** and echoes of medieval **allegory**, places the novel firmly in the tradition of literary complexity.",
+    "vi": "Trong cuốn tiểu thuyết, hành trình thể chất chậm chạp của **nhân vật chính** phản chiếu một sự chuyển hóa cảm xúc sâu sắc hơn — một mô hình **biểu tượng** mà tác giả củng cố qua những **mô típ** lặp đi lặp lại của nước và lửa. **Nhân vật phản diện** không phải là kẻ ác theo nghĩa truyền thống mà là sự phản chiếu nỗi sợ hãi của chính người anh hùng, một **trớ trêu** cấu trúc làm sâu sắc thêm **chủ đề** trung tâm về sự tự lừa dối. **Báo trước** trong các chương đầu rất tinh tế — được dệt vào **văn xuôi** gần như vô hình — nhưng nhìn lại cảm thấy không thể tránh khỏi. Kỹ thuật **tường thuật** này, kết hợp với **quan điểm** thay đổi và dấu vang vọng của **ngụ ngôn** thời trung cổ, đặt cuốn tiểu thuyết vào truyền thống của sự phức tạp văn học."
+  },
+  "scholar.space-universe": {
+    "emojis": [
+      "🌌",
+      "🔭",
+      "🚀"
+    ],
+    "en": "Deep in the southern **constellation** of Centaurus lies a **nebula** so vast that our entire **solar system** could fit within a fraction of it. Scientists used the most powerful **telescope** ever built to observe how a massive **black hole** was bending light and distorting the **orbit** of nearby stars through extreme **gravity**. A passing **comet**, its tail blazing white against the darkness, had been tracked for weeks by an **astronaut** aboard the orbiting **satellite**. What made this discovery remarkable was how it changed our understanding of how **galaxies** form and how **asteroids** behave in dense gravitational fields.",
+    "vi": "Sâu trong **chòm sao** Centaurus phía nam có một **tinh vân** rộng lớn đến mức toàn bộ **hệ mặt trời** của chúng ta chỉ chiếm một phần nhỏ trong đó. Các nhà khoa học sử dụng **kính thiên văn** mạnh nhất từng được xây dựng để quan sát cách một **lỗ đen** khổng lồ đang bẻ cong ánh sáng và bóp méo **quỹ đạo** của các ngôi sao lân cận qua **trọng lực** cực đoan. Một **sao chổi** đang di chuyển ngang qua, đuôi cháy trắng trong bóng tối, đã được theo dõi nhiều tuần bởi một **phi hành gia** trên **vệ tinh** đang quay quanh quỹ đạo. Điều làm cho phát hiện này đáng chú ý là cách nó thay đổi sự hiểu biết của chúng ta về cách **thiên hà** hình thành và cách **tiểu hành tinh** hoạt động trong các trường hấp dẫn dày đặc."
+  },
+  "scholar.food-agriculture": {
+    "emojis": [
+      "🌾",
+      "🚜",
+      "💧"
+    ],
+    "en": "As **drought** conditions worsened across the region, farmers struggled to maintain sufficient water flow through their **irrigation** networks to keep their **crops** alive. Large **agribusiness** companies promoted **genetically modified** seeds that promised higher **yields** even in poor soil, but many small-scale **subsistence** farmers lacked the capital to adopt them. The debate over **pesticides** and synthetic **fertilizers** intensified as consumers demanded more **organic** produce and regulators pushed for safer standards. Without urgent action to protect **arable** land and support **livestock** farmers, the next **harvest** could fall dangerously short.",
+    "vi": "Khi điều kiện **hạn hán** trở nên tồi tệ hơn, nông dân phải vật lộn để duy trì lưu lượng nước đủ qua các mạng lưới **tưới tiêu** để giữ cho **cây trồng** sống sót. Các công ty **nông nghiệp lớn** quảng bá hạt giống **biến đổi gen** hứa hẹn **năng suất** cao hơn ngay cả trong đất nghèo, nhưng nhiều nông dân **tự cung tự cấp** nhỏ lẻ thiếu vốn để áp dụng chúng. Cuộc tranh luận về **thuốc trừ sâu** và **phân bón** tổng hợp trở nên gay gắt hơn khi người tiêu dùng đòi hỏi nhiều sản phẩm **hữu cơ** hơn. Nếu không có hành động khẩn cấp để bảo vệ đất **canh tác** và hỗ trợ nông dân chăn nuôi **gia súc**, vụ **thu hoạch** tiếp theo có thể bị thiếu hụt nguy hiểm."
+  },
+  "scholar.human-rights": {
+    "emojis": [
+      "✊",
+      "⚖️",
+      "🌍"
+    ],
+    "en": "The international **convention** was drafted to establish a universal framework for protecting human **dignity** and ensuring basic **equality** for every person regardless of origin or belief. Dozens of nations gathered to **ratify** the **charter**, pledging to uphold **justice** and end systematic **oppression** within their borders. **Advocacy** groups presented documented cases of **persecution** to pressure governments that had failed to protect individuals seeking **asylum**. Despite the ceremony, activists warned that signing a document was meaningless without enforcement, and that true **freedom** could only exist where **violations** were met with real consequences.",
+    "vi": "**Công ước** quốc tế được soạn thảo để thiết lập một khuôn khổ phổ quát bảo vệ **phẩm giá** con người và đảm bảo **bình đẳng** cơ bản cho mỗi người bất kể xuất xứ hay tín ngưỡng. Hàng chục quốc gia tập hợp để **phê chuẩn** **hiến chương**, cam kết duy trì **công lý** và chấm dứt **áp bức** có hệ thống. Các nhóm **vận động** trình bày các trường hợp được ghi nhận về **bức hại** để gây áp lực lên các chính phủ đã không bảo vệ những người tìm kiếm **quyền tị nạn**. Bất chấp buổi lễ, các nhà hoạt động cảnh báo rằng ký tên vào một tài liệu là vô nghĩa nếu không có thực thi, và rằng **tự do** thực sự chỉ tồn tại khi các **vi phạm** bị xử lý với hậu quả thực sự."
+  },
+  "scholar.innovation-startup": {
+    "emojis": [
+      "💡",
+      "🚀",
+      "💰"
+    ],
+    "en": "The founders entered the **accelerator** program with a bold idea to **disrupt** the logistics industry using real-time data. After weeks of feedback and rapid **iteration**, they refined their product from a clunky prototype into something genuinely **scalable**. Their strong **pitch** attracted a lead investor who agreed to participate in a **seed round**, giving the company its first major **funding** boost. The **lean** approach they used — testing early, **pivoting** fast, and building only what users needed — helped them reach a **valuation** that caught the attention of a major **venture capital** firm.",
+    "vi": "Những người sáng lập tham gia chương trình **tăng tốc** với ý tưởng táo bạo để **phá vỡ** ngành logistics bằng dữ liệu thời gian thực. Sau nhiều tuần nhận phản hồi và **lặp** lại nhanh chóng, họ tinh chỉnh sản phẩm từ một nguyên mẫu cồng kềnh thành thứ thực sự có thể **mở rộng**. **Bài thuyết trình** mạnh mẽ của họ thu hút một nhà đầu tư chủ chốt đồng ý tham gia một vòng **hạt giống**, mang lại khoản **tài trợ** lớn đầu tiên. Cách tiếp cận **tinh gọn** — kiểm tra sớm, **xoay trục** nhanh và chỉ xây dựng những gì người dùng cần — giúp họ đạt được **định giá** thu hút sự chú ý của một công ty **vốn đầu tư mạo hiểm** lớn."
+  },
+  "scholar.language-communication": {
+    "emojis": [
+      "🗣️",
+      "📝",
+      "🌐"
+    ],
+    "en": "The professor opened her lecture on **linguistics** by asking whether language shapes thought or merely reflects it — a question whose **ambiguous** answer has occupied scholars for centuries. She explained how **syntax** and **etymology** reveal the historical migrations of people across continents, with each **dialect** carrying traces of past **discourse** and cultural exchange. A truly **eloquent** speaker, she argued, does not just achieve **fluency** but masters **nuance** — knowing precisely what tone to use to **convey** a complex idea without losing the audience. Being **bilingual** sharpens these instincts, as it trains the mind to **articulate** meaning across different systems of **rhetoric**.",
+    "vi": "Giáo sư mở đầu bài giảng về **ngôn ngữ học** bằng cách hỏi liệu ngôn ngữ có định hình tư duy hay chỉ phản ánh nó — một câu hỏi có câu trả lời **mơ hồ** đã chiếm giữ các học giả trong nhiều thế kỷ. Cô giải thích cách **cú pháp** và **từ nguyên học** tiết lộ những cuộc di cư lịch sử của con người qua các lục địa, với mỗi **phương ngữ** mang dấu vết của **diễn ngôn** quá khứ và trao đổi văn hóa. Một diễn giả thực sự **hùng hồn**, cô lập luận, không chỉ đạt được **lưu loát** mà còn nắm vững **sắc thái** — biết chính xác âm điệu nào cần dùng để **truyền đạt** một ý tưởng phức tạp mà không mất khán giả. Là người **song ngữ** làm sắc nét những bản năng này vì nó luyện trí não để **diễn đạt** ý nghĩa qua các hệ thống **tu từ** khác nhau."
+  },
+  "scholar.sports-performance": {
+    "emojis": [
+      "🏅",
+      "🏋️",
+      "🎯"
+    ],
+    "en": "The national **athlete** had spent four years rebuilding after injury, following a strict **training** regimen designed to restore both **stamina** and **agility**. His coach focused not just on physical **performance** but also on the mental **tactics** needed to compete at the highest level of the **championship**. In the regional **tournament**, he broke his own personal **record** in the final round, confirming he would **qualify** for the international games. What impressed the selectors most was not just his raw talent but his exceptional **sportsmanship** and the **competitive** calm he showed under pressure.",
+    "vi": "**Vận động viên** quốc gia đã dành bốn năm tái xây dựng sau chấn thương, tuân theo một chế độ **tập luyện** nghiêm ngặt được thiết kế để phục hồi cả **sức bền** và **sự nhanh nhẹn**. Huấn luyện viên tập trung không chỉ vào **thành tích** thể chất mà còn vào **chiến thuật** tinh thần cần thiết để cạnh tranh ở đỉnh cao của **giải vô địch**. Trong **giải đấu** khu vực, anh phá vỡ **kỷ lục** cá nhân của chính mình ở vòng chung kết, xác nhận anh sẽ **giành quyền** tham dự các trò chơi quốc tế. Điều gây ấn tượng nhất với các giám khảo không chỉ là tài năng thuần túy mà còn là **tinh thần thể thao** xuất sắc và sự bình tĩnh **cạnh tranh** mà anh thể hiện dưới áp lực."
+  },
+  "scholar.history-civilization": {
+    "emojis": [
+      "🏛️",
+      "⚔️",
+      "📜"
+    ],
+    "en": "The museum's new wing traced the rise and fall of three overlapping **civilizations** through a careful **chronology** of **artifacts** recovered from two decades of **archaeology**. The objects told a story of **conquest** and resistance — of one **empire** replacing a **feudal** **dynasty**, only to face its own internal **uprising** a century later. A towering **monument** at the center of the exhibition represented the enduring **legacy** of these societies, which shaped trade routes and legal systems still recognizable today. Scholars continue to debate whether **colonialism** accelerated the collapse of these cultures or preserved their intellectual traditions in distorted form.",
+    "vi": "Cánh mới của bảo tàng truy tìm sự nổi lên và sụp đổ của ba **nền văn minh** chồng chéo nhau qua một **niên đại** cẩn thận của **hiện vật** được phục hồi từ hai thập kỷ **khảo cổ học**. Những đồ vật đó kể câu chuyện về **chinh phục** và kháng cự — về một **đế quốc** thay thế một **triều đại** **phong kiến**, chỉ để đối mặt với **cuộc nổi dậy** nội bộ của chính nó một thế kỷ sau. Một **công trình** sừng sững ở trung tâm triển lãm đại diện cho **di sản** lâu dài của những xã hội này, đã định hình các tuyến thương mại và hệ thống pháp luật vẫn có thể nhận ra ngày nay. Các học giả tiếp tục tranh luận liệu **chủ nghĩa thực dân** có đẩy nhanh sự sụp đổ của những nền văn hóa này hay bảo tồn truyền thống tri thức của họ dưới hình thức bị bóp méo."
+  },
+  "scholar.philosophy-ethics": {
+    "emojis": [
+      "🤔",
+      "💭",
+      "⚖️"
+    ],
+    "en": "The seminar opened with a classic philosophical **dilemma**: is it morally justifiable to harm one person if doing so saves five others? Supporters of **utilitarianism** argued that **morality** must be measured by outcome, not intention, and that a **rational** calculation of harm and benefit is the most **pragmatic** path. Others challenged this **premise**, arguing that **doctrine** built on numbers alone risks destroying the very **integrity** and **virtue** it claims to protect. The deepest **paradox**, one philosopher noted, is that our **consciousness** allows us to understand the **implications** of our choices — yet we still struggle to agree on what is right.",
+    "vi": "Hội thảo mở đầu với một **tiến thoái lưỡng nan** triết học kinh điển: có thể biện minh về mặt đạo đức khi làm hại một người nếu làm như vậy cứu được năm người khác không? Những người ủng hộ **chủ nghĩa công lợi** lập luận rằng **đạo đức** phải được đo lường bằng kết quả, không phải ý định, và rằng một phép tính **hợp lý** về tổn hại và lợi ích là con đường **thực dụng** nhất. Những người khác thách thức **tiền đề** này, lập luận rằng **học thuyết** được xây dựng trên con số thuần túy có nguy cơ phá hủy chính **tính liêm chính** và **đức hạnh** mà nó tuyên bố bảo vệ. **Nghịch lý** sâu sắc nhất, một nhà triết học lưu ý, là **ý thức** của chúng ta cho phép chúng ta hiểu **hàm ý** của những lựa chọn của mình — nhưng chúng ta vẫn phải vật lộn để đồng ý về điều gì là đúng."
+  },
+  "scholar.digital-society": {
+    "emojis": [
+      "📱",
+      "🔒",
+      "🌐"
+    ],
+    "en": "A high-profile case involving a **deepfake** video of a politician went **viral** before platforms could **moderate** the content, reigniting debate over digital **privacy** and platform responsibility. Critics argued that constant **surveillance** by governments and corporations had already eroded trust, and that ordinary **netizens** had little real protection against **misinformation** campaigns. The rise of the **influencer** economy meant that **anonymous** users could spread harmful content disguised as personal endorsement. Researchers warned that the **digital divide** left millions unable to navigate a world shaped by **streaming**, **subscription** media, and algorithmically curated truth.",
+    "vi": "Một vụ việc nổi tiếng liên quan đến video **deepfake** của một chính trị gia đã lan truyền **viral** trước khi các nền tảng có thể **kiểm duyệt** nội dung, châm ngòi lại cuộc tranh luận về **quyền riêng tư** kỹ thuật số và trách nhiệm của nền tảng. Các nhà phê bình lập luận rằng sự **giám sát** liên tục của các chính phủ và tập đoàn đã làm xói mòn niềm tin, và rằng **công dân mạng** bình thường có ít sự bảo vệ thực sự chống lại các chiến dịch **thông tin sai lệch**. Sự nổi lên của nền kinh tế **người có ảnh hưởng** có nghĩa là người dùng **ẩn danh** có thể lan truyền nội dung có hại được ngụy trang thành sự xác nhận cá nhân. Các nhà nghiên cứu cảnh báo rằng **khoảng cách số** khiến hàng triệu người không thể điều hướng trong thế giới được định hình bởi phương tiện **phát trực tuyến**, **đăng ký** và sự thật được thuật toán tuyển chọn."
+  },
+  "scholar.social-behavior": {
+    "emojis": [
+      "👥",
+      "🔍",
+      "📊"
+    ],
+    "en": "Sociologists study how individuals navigate the unwritten rules — the **norms** and **etiquette** — that govern behavior within a **community**. **Conformity** often emerges not from genuine agreement but from **peer pressure** and the desire to maintain **status** within a social **hierarchy**. Certain topics remain **taboo**, and breaking this silence, even to challenge **prejudice**, can be socially costly in communities that have not yet built a culture of **tolerance**. **Rituals** and shared **interactions** play a powerful role in helping newcomers **assimilate** and feel belonging, but they can also reinforce the very boundaries they appear to dissolve.",
+    "vi": "Các nhà xã hội học nghiên cứu cách cá nhân điều hướng những quy tắc bất thành văn — **chuẩn mực** và **lễ nghi** — chi phối hành vi trong một **cộng đồng**. **Tuân thủ** thường không xuất hiện từ sự đồng ý thực sự mà từ **áp lực đồng đẳng** và mong muốn duy trì **địa vị** trong một **hệ thống phân cấp** xã hội. Một số chủ đề vẫn còn **cấm kỵ**, và phá vỡ sự im lặng này, ngay cả để thách thức **định kiến**, có thể gây tốn kém về mặt xã hội trong các cộng đồng chưa xây dựng được văn hóa **khoan dung**. Các **nghi lễ** và **tương tác** chung đóng vai trò mạnh mẽ giúp những người mới đến **hòa nhập** và cảm thấy thuộc về, nhưng cũng có thể củng cố chính những ranh giới mà chúng có vẻ như đang xóa bỏ."
+  },
+  "scholar.career-workplace": {
+    "emojis": [
+      "💼",
+      "🤝",
+      "📈"
+    ],
+    "en": "The annual **appraisal** meeting gave the young analyst a chance to **negotiate** a salary increase and make the case for a long-overdue **promotion**. Her **mentor** had coached her to present concrete evidence of her **productivity** and contributions rather than relying on goodwill alone. However, months of missed **deadlines** and rising **burnout** had affected her record, and she worried this would be raised by her manager. In the end, she received constructive **feedback**, avoided the threat of **probation**, and was offered a new **incentive** scheme that gave her reasons to stay and rebuild trust with her **colleagues**.",
+    "vi": "Cuộc họp **đánh giá** hàng năm mang lại cho nhà phân tích trẻ cơ hội **đàm phán** tăng lương và trình bày lý do cho một **thăng tiến** đã chậm trễ. **Người hướng dẫn** của cô đã huấn luyện cô trình bày bằng chứng cụ thể về **năng suất** và đóng góp của mình thay vì chỉ dựa vào thiện chí. Tuy nhiên, nhiều tháng bỏ lỡ **thời hạn** và **kiệt sức** gia tăng đã ảnh hưởng đến hồ sơ của cô, và cô lo lắng điều này sẽ được người quản lý đề cập. Cuối cùng, cô nhận được **phản hồi** mang tính xây dựng, tránh được mối đe dọa về **thử việc**, và được cung cấp một kế hoạch **khuyến khích** mới mang lại cho cô lý do để ở lại và xây dựng lại niềm tin với **đồng nghiệp**."
+  },
+  "scholar.conflict-resolution": {
+    "emojis": [
+      "🕊️",
+      "🤝",
+      "⚖️"
+    ],
+    "en": "What began as a minor trade **dispute** between two neighboring nations quickly began to **escalate** into something more serious as both governments refused to back down. International observers urged both sides to pursue **diplomatic** channels and enter a formal **negotiation** process before **tension** turned to open conflict. A neutral third party was brought in to facilitate **mediation**, and after weeks of difficult dialogue, the two delegations reached a fragile **consensus**. The signed **ceasefire** and framework for ongoing **arbitration** gave hope that the **alliance** between the two countries could eventually be **reconciled** into a lasting **resolution**.",
+    "vi": "Những gì bắt đầu như một **tranh chấp** thương mại nhỏ giữa hai quốc gia láng giềng nhanh chóng bắt đầu **leo thang** thành điều gì đó nghiêm trọng hơn khi cả hai chính phủ từ chối nhượng bộ. Các quan sát viên quốc tế kêu gọi cả hai bên theo đuổi các kênh **ngoại giao** và tham gia vào quá trình **đàm phán** chính thức trước khi **căng thẳng** biến thành xung đột công khai. Một bên thứ ba trung lập được đưa vào để tạo điều kiện **hòa giải**, và sau nhiều tuần đối thoại khó khăn, hai phái đoàn đạt được một **sự đồng thuận** mong manh. **Ngừng bắn** được ký kết và khuôn khổ cho **trọng tài** liên tục mang lại hy vọng rằng **liên minh** giữa hai nước cuối cùng có thể được **hòa giải** thành một **giải pháp** lâu dài."
+  },
+  "scholar.statistics-data": {
+    "emojis": [
+      "📊",
+      "📈",
+      "🔬"
+    ],
+    "en": "The research team collected a large **dataset** from a national **survey** on household income and began to **visualize** the results using interactive charts. The **distribution** showed a wide spread, with a significant **outlier** group earning far more than the majority — a pattern that made the **average** a misleading measure, so the team reported the **median** instead. A **regression** analysis was run to identify which variables best predicted the **trend** in spending, and the team worked carefully to **interpret** the results within a reasonable **margin** of error. The final report drew **inferences** about regional inequality that supported the call for a new government policy.",
+    "vi": "Nhóm nghiên cứu thu thập một **tập dữ liệu** lớn từ một **cuộc khảo sát** quốc gia về thu nhập hộ gia đình và bắt đầu **trực quan hóa** kết quả bằng các biểu đồ tương tác. **Phân phối** cho thấy một sự phân tán rộng, với một nhóm **ngoại lệ** đáng kể kiếm được nhiều hơn đáng kể so với đa số — một mô hình khiến **trung bình** là thước đo gây hiểu nhầm, vì vậy nhóm báo cáo **trung vị** thay thế. Phân tích **hồi quy** được chạy để xác định biến nào dự đoán tốt nhất **xu hướng** trong chi tiêu, và nhóm làm việc cẩn thận để **giải thích** kết quả trong **biên độ** sai số hợp lý. Báo cáo cuối cùng rút ra **suy luận** về bất bình đẳng khu vực hỗ trợ lời kêu gọi cho một chính sách chính phủ mới."
+  },
+  "scholar.creativity-innovation": {
+    "emojis": [
+      "💡",
+      "🎨",
+      "🚀"
+    ],
+    "en": "The design team used **design thinking** to tackle a problem that more traditional approaches had failed to solve. They began with a wide **brainstorm**, encouraging every team member to **generate** ideas freely — no matter how **unconventional** — before evaluating anything. Several promising **concepts** emerged, and the group chose to **collaborate** on two of them, building rough **prototypes** to test quickly with real users. The feedback allowed them to **refine** each idea rapidly, and after a bold decision to **improvise** around a major technical constraint, the team achieved a genuine **breakthrough** — an **original** solution that no one had expected.",
+    "vi": "Đội thiết kế sử dụng **tư duy thiết kế** để giải quyết một vấn đề mà các cách tiếp cận truyền thống đã không thể giải quyết. Họ bắt đầu với một buổi **động não** rộng, khuyến khích mỗi thành viên **tạo ra** ý tưởng tự do — dù **không theo thông lệ** đến đâu — trước khi đánh giá bất cứ điều gì. Một số **khái niệm** đầy hứa hẹn xuất hiện, và nhóm chọn **cộng tác** trên hai trong số chúng, xây dựng **nguyên mẫu** thô để kiểm tra nhanh chóng với người dùng thực. Phản hồi cho phép họ **tinh chỉnh** mỗi ý tưởng nhanh chóng, và sau một quyết định táo bạo để **ứng biến** xung quanh một ràng buộc kỹ thuật lớn, nhóm đạt được một **đột phá** thực sự — một giải pháp **nguyên bản** mà không ai mong đợi."
+  },
+  "master.academic-skills": {
+    "emojis": [
+      "📚",
+      "✍️",
+      "🎓"
+    ],
+    "en": "Writing a strong university essay requires more than just knowing the facts. You must **analyze** your sources carefully, **synthesize** information from multiple authors, and build a **coherent** **argument** around a clear **thesis**. Every claim should be supported with a proper **citation** from a credible source, and your **bibliography** must follow the correct format. Ask a peer to **evaluate** your **methodology** and give a **critique** to make sure your reasoning is always **logical**.",
+    "vi": "Viết một bài luận đại học mạnh không chỉ đơn giản là biết các sự kiện. Bạn phải **phân tích** các nguồn cẩn thận, **tổng hợp** thông tin từ nhiều tác giả và xây dựng một **lập luận** **mạch lạc** xung quanh một **luận điểm** rõ ràng. Mỗi tuyên bố nên được hỗ trợ bằng **trích dẫn** thích hợp từ nguồn đáng tin cậy, và **danh mục tài liệu** phải theo đúng định dạng. Hãy nhờ bạn **đánh giá** **phương pháp luận** của bạn và đưa ra **phê bình** để đảm bảo lập luận luôn **logic**."
+  },
+  "master.law-justice": {
+    "emojis": [
+      "⚖️",
+      "🏛️",
+      "📜"
+    ],
+    "en": "The **prosecution** presented compelling **evidence** that the **defendant** had violated a key environmental **statute**. However, the defense **attorney** argued that the existing **legislation** did not clearly define the act as a crime under current **jurisdiction**. The court heard hours of **testimony** from expert witnesses before the judge delivered a **verdict** that the defendant was **liable** for damages. The case prompted lawmakers to pass a new **amendment** to strengthen the **penalty** for future violations.",
+    "vi": "**Bên công tố** trình bày **bằng chứng** thuyết phục rằng **bị cáo** đã vi phạm một **quy chế** môi trường quan trọng. Tuy nhiên, **luật sư** bào chữa lập luận rằng **luật pháp** hiện hành không xác định rõ ràng hành vi đó là tội phạm theo **thẩm quyền** hiện tại. Tòa án nghe nhiều giờ **lời khai** từ các nhân chứng chuyên gia trước khi thẩm phán đưa ra **phán quyết** rằng bị cáo phải chịu **trách nhiệm pháp lý**. Vụ án thúc đẩy các nhà lập pháp thông qua một **tu chính án** mới để tăng cường **hình phạt** cho các vi phạm trong tương lai."
+  },
+  "master.science-research": {
+    "emojis": [
+      "🔬",
+      "📊",
+      "🧪"
+    ],
+    "en": "A team of biologists published a groundbreaking paper in a leading **peer-reviewed** journal describing their **finding** that a specific **molecule** in the human **genome** was linked to a rare neurological condition. Their **clinical** trial involved a large **sample** of patients and carefully controlled every **variable** to isolate the cause. The **data** showed a statistically **significant** **correlation**, though the team was careful not to draw a final **conclusion** until other labs could **replicate** the study. The **ethics** committee reviewed the research to ensure no participants were harmed.",
+    "vi": "Một nhóm sinh vật học công bố bài báo đột phá trên tạp chí hàng đầu **được phản biện học thuật** mô tả **phát hiện** rằng một **phân tử** cụ thể trong **bộ gen** người liên quan đến một tình trạng thần kinh hiếm gặp. Thử nghiệm **lâm sàng** của họ liên quan đến một **mẫu** lớn bệnh nhân và kiểm soát cẩn thận mỗi **biến số** để tách biệt nguyên nhân. **Dữ liệu** cho thấy một **mối tương quan** có ý nghĩa thống kê **đáng kể**, mặc dù nhóm cẩn thận không rút ra **kết luận** cuối cùng cho đến khi các phòng thí nghiệm khác có thể **tái lặp** nghiên cứu. Ủy ban **đạo đức** xem xét nghiên cứu để đảm bảo không có người tham gia nào bị tổn hại."
+  },
+  "master.innovation-startup": {
+    "emojis": [
+      "💡",
+      "🚀",
+      "💰"
+    ],
+    "en": "The founders entered the **accelerator** program with a bold idea to **disrupt** the logistics industry using real-time data. After weeks of feedback and rapid **iteration**, they refined their product from a clunky prototype into something genuinely **scalable**. Their strong **pitch** attracted a lead investor who agreed to participate in a **seed round**, giving the company its first major **funding** boost. The **lean** approach they used — testing early, **pivoting** fast, and building only what users needed — helped them reach a **valuation** that caught the attention of a major **venture capital** firm.",
+    "vi": "Những người sáng lập tham gia chương trình **tăng tốc** với ý tưởng táo bạo để **phá vỡ** ngành logistics bằng dữ liệu thời gian thực. Sau nhiều tuần nhận phản hồi và **lặp** lại nhanh chóng, họ tinh chỉnh sản phẩm từ một nguyên mẫu cồng kềnh thành thứ thực sự có thể **mở rộng**. **Bài thuyết trình** mạnh mẽ của họ thu hút một nhà đầu tư chủ chốt đồng ý tham gia một vòng **hạt giống**, mang lại khoản **tài trợ** lớn đầu tiên. Cách tiếp cận **tinh gọn** — kiểm tra sớm, **xoay trục** nhanh và chỉ xây dựng những gì người dùng cần — giúp họ đạt được **định giá** thu hút sự chú ý của một công ty **vốn đầu tư mạo hiểm** lớn."
+  },
+  "master.language-communication": {
+    "emojis": [
+      "🗣️",
+      "📝",
+      "🌐"
+    ],
+    "en": "The professor opened her lecture on **linguistics** by asking whether language shapes thought or merely reflects it — a question whose **ambiguous** answer has occupied scholars for centuries. She explained how **syntax** and **etymology** reveal the historical migrations of people across continents, with each **dialect** carrying traces of past **discourse** and cultural exchange. A truly **eloquent** speaker, she argued, does not just achieve **fluency** but masters **nuance** — knowing precisely what tone to use to **convey** a complex idea without losing the audience. Being **bilingual** sharpens these instincts, as it trains the mind to **articulate** meaning across different systems of **rhetoric**.",
+    "vi": "Giáo sư mở đầu bài giảng về **ngôn ngữ học** bằng cách hỏi liệu ngôn ngữ có định hình tư duy hay chỉ phản ánh nó — một câu hỏi có câu trả lời **mơ hồ** đã chiếm giữ các học giả trong nhiều thế kỷ. Cô giải thích cách **cú pháp** và **từ nguyên học** tiết lộ những cuộc di cư lịch sử của con người qua các lục địa, với mỗi **phương ngữ** mang dấu vết của **diễn ngôn** quá khứ và trao đổi văn hóa. Một diễn giả thực sự **hùng hồn**, cô lập luận, không chỉ đạt được **lưu loát** mà còn nắm vững **sắc thái** — biết chính xác âm điệu nào cần dùng để **truyền đạt** một ý tưởng phức tạp mà không mất khán giả. Là người **song ngữ** làm sắc nét những bản năng này vì nó luyện trí não để **diễn đạt** ý nghĩa qua các hệ thống **tu từ** khác nhau."
+  },
+  "master.philosophy-ethics": {
+    "emojis": [
+      "🤔",
+      "💭",
+      "⚖️"
+    ],
+    "en": "The seminar opened with a classic philosophical **dilemma**: is it morally justifiable to harm one person if doing so saves five others? Supporters of **utilitarianism** argued that **morality** must be measured by outcome, not intention, and that a **rational** calculation of harm and benefit is the most **pragmatic** path. Others challenged this **premise**, arguing that **doctrine** built on numbers alone risks destroying the very **integrity** and **virtue** it claims to protect. The deepest **paradox**, one philosopher noted, is that our **consciousness** allows us to understand the **implications** of our choices — yet we still struggle to agree on what is right.",
+    "vi": "Hội thảo mở đầu với một **tiến thoái lưỡng nan** triết học kinh điển: có thể biện minh về mặt đạo đức khi làm hại một người nếu làm như vậy cứu được năm người khác không? Những người ủng hộ **chủ nghĩa công lợi** lập luận rằng **đạo đức** phải được đo lường bằng kết quả, không phải ý định, và rằng một phép tính **hợp lý** về tổn hại và lợi ích là con đường **thực dụng** nhất. Những người khác thách thức **tiền đề** này, lập luận rằng **học thuyết** được xây dựng trên con số thuần túy có nguy cơ phá hủy chính **tính liêm chính** và **đức hạnh** mà nó tuyên bố bảo vệ. **Nghịch lý** sâu sắc nhất, một nhà triết học lưu ý, là **ý thức** của chúng ta cho phép chúng ta hiểu **hàm ý** của những lựa chọn của mình — nhưng chúng ta vẫn phải vật lộn để đồng ý về điều gì là đúng."
+  },
+  "master.education-system": {
+    "emojis": [
+      "🎓",
+      "📚",
+      "🏫"
+    ],
+    "en": "Reformers argued that the national **curriculum** needed a complete overhaul to reflect the skills students would need in modern life. Critics of traditional **pedagogy** called for more project-based learning and less reliance on high-stakes **assessment** that measured only memory. Rising **tuition** fees had contributed to higher **dropout** rates, particularly among students who lacked access to **scholarship** support. The government pledged to strengthen **vocational** pathways, invest in **extracurricular** programs, and make digital **literacy** a **compulsory** part of every school's **accreditation** standards.",
+    "vi": "Các nhà cải cách lập luận rằng **chương trình giảng dạy** quốc gia cần được đại tu hoàn toàn để phản ánh những kỹ năng học sinh sẽ cần trong cuộc sống hiện đại. Các nhà phê bình **phương pháp sư phạm** truyền thống kêu gọi học tập dựa trên dự án nhiều hơn và ít phụ thuộc vào **đánh giá** có cược cao. Học phí **học phí** tăng đã góp phần vào tỷ lệ **bỏ học** cao hơn, đặc biệt là với những học sinh thiếu quyền tiếp cận hỗ trợ **học bổng**. Chính phủ cam kết củng cố các lộ trình **đào tạo nghề**, đầu tư vào các chương trình **ngoại khóa** và đưa **đọc viết** kỹ thuật số thành phần **bắt buộc** trong tiêu chuẩn **kiểm định** của mỗi trường."
+  },
+  "master.food-agriculture": {
+    "emojis": [
+      "🌾",
+      "🚜",
+      "💧"
+    ],
+    "en": "As **drought** conditions worsened across the region, farmers struggled to maintain sufficient water flow through their **irrigation** networks to keep their **crops** alive. Large **agribusiness** companies promoted **genetically modified** seeds that promised higher **yields** even in poor soil, but many small-scale **subsistence** farmers lacked the capital to adopt them. The debate over **pesticides** and synthetic **fertilizers** intensified as consumers demanded more **organic** produce and regulators pushed for safer standards. Without urgent action to protect **arable** land and support **livestock** farmers, the next **harvest** could fall dangerously short.",
+    "vi": "Khi điều kiện **hạn hán** trở nên tồi tệ hơn, nông dân phải vật lộn để duy trì lưu lượng nước đủ qua các mạng lưới **tưới tiêu** để giữ cho **cây trồng** sống sót. Các công ty **nông nghiệp lớn** quảng bá hạt giống **biến đổi gen** hứa hẹn **năng suất** cao hơn ngay cả trong đất nghèo, nhưng nhiều nông dân **tự cung tự cấp** nhỏ lẻ thiếu vốn để áp dụng chúng. Cuộc tranh luận về **thuốc trừ sâu** và **phân bón** tổng hợp trở nên gay gắt hơn khi người tiêu dùng đòi hỏi nhiều sản phẩm **hữu cơ** hơn. Nếu không có hành động khẩn cấp để bảo vệ đất **canh tác** và hỗ trợ nông dân chăn nuôi **gia súc**, vụ **thu hoạch** tiếp theo có thể bị thiếu hụt nguy hiểm."
+  },
+  "scholar.personal-finance": {
+    "emojis": [
+      "💳",
+      "💰",
+      "🏦"
+    ],
+    "en": "Managing personal **finances** well requires creating a realistic **budget** and tracking all **expenditure**. Mai earns a modest **salary**, but she puts ten percent of her **income** into **savings** each month. She took out a small **loan** to pay for a training course that boosted her career. Her **investment** in professional development paid off, and she no longer struggles to **afford** her rent. With a good **credit** score and no serious **debt**, she feels financially secure.",
+    "vi": "Quản lý **tài chính** cá nhân tốt đòi hỏi lập **ngân sách** thực tế và theo dõi mọi **chi tiêu**. Mai có **tiền lương** khiêm tốn, nhưng cô để dành mười phần trăm **thu nhập** vào **tiết kiệm** mỗi tháng. Cô vay một **khoản vay** nhỏ để chi trả cho khóa đào tạo giúp thăng tiến sự nghiệp. **Đầu tư** của cô vào phát triển nghề nghiệp đã có kết quả, và giờ cô không còn khó khăn để **đủ khả năng** chi trả tiền thuê nhà. Với điểm **tín dụng** tốt và không có **nợ** nghiêm trọng, cô cảm thấy an toàn tài chính."
+  },
+  "scholar.advertising-consumer": {
+    "emojis": [
+      "📢",
+      "🛒",
+      "📺"
+    ],
+    "en": "Modern **advertising** uses clever strategies to **influence** buying decisions and build **brand** **loyalty**. Companies **target** specific groups of **consumers** through personalised online **campaigns**. Bright colours and emotional stories **persuade** people to **purchase** products they may not need. Celebrities **sponsor** products to make them seem more desirable. Understanding these tactics helps us become more critical about the **demand** that advertising creates.",
+    "vi": "**Quảng cáo** hiện đại sử dụng các chiến lược thông minh để **tác động** đến quyết định mua hàng và xây dựng **lòng trung thành** với **thương hiệu**. Các công ty **nhắm mục tiêu** các nhóm **người tiêu dùng** cụ thể qua các **chiến dịch** trực tuyến được cá nhân hóa. Màu sắc tươi sáng và câu chuyện cảm xúc **thuyết phục** mọi người **mua** những sản phẩm họ có thể không cần. Người nổi tiếng **tài trợ** cho sản phẩm để làm chúng trông hấp dẫn hơn. Hiểu những chiến thuật này giúp chúng ta trở nên phê phán hơn về **nhu cầu** mà quảng cáo tạo ra."
+  },
+  "scholar.crime-society": {
+    "emojis": [
+      "🚔",
+      "⚖️",
+      "🌱"
+    ],
+    "en": "**Crime** affects every level of society, from individual **victims** to entire communities. **Violence** and **illegal** activity erode trust and create fear in neighbourhoods. When someone is **arrested**, the justice system must ensure a fair trial before any **punishment** or **sentence** is given. The **evidence** presented in court determines whether a person is found **guilty**. Beyond **fines** and imprisonment, effective **rehabilitation** programmes help offenders reintegrate and reduce the chance of reoffending.",
+    "vi": "**Tội phạm** ảnh hưởng đến mọi tầng lớp xã hội, từ cá nhân **nạn nhân** đến toàn bộ cộng đồng. **Bạo lực** và hoạt động **bất hợp pháp** làm xói mòn niềm tin và tạo ra nỗi sợ hãi trong các khu phố. Khi ai đó bị **bắt giữ**, hệ thống tư pháp phải đảm bảo xét xử công bằng trước khi đưa ra bất kỳ **hình phạt** hay **bản án** nào. **Bằng chứng** được trình bày tại tòa xác định liệu một người có bị kết luận là **có tội** hay không. Ngoài **phạt tiền** và giam tù, các chương trình **cải tạo** hiệu quả giúp người vi phạm tái hòa nhập và giảm khả năng tái phạm."
+  },
+  "scholar.family-relationships": {
+    "emojis": [
+      "👨‍👩‍👧‍👦",
+      "💞",
+      "🏠"
+    ],
+    "en": "Healthy **family relationships** are built on mutual respect, shared **values**, and a strong sense of **commitment**. As each **generation** faces new challenges around **gender** roles and **equality**, **traditions** must sometimes adapt to modern expectations. Setting clear **boundaries** supports **independence** while maintaining close **bonds**. **Parental** guidance shapes a child's developing **identity** and their sense of **responsibility** to others.",
+    "vi": "Các **mối quan hệ gia đình** lành mạnh được xây dựng trên sự tôn trọng lẫn nhau, các **giá trị** chung và ý thức **cam kết** mạnh mẽ. Khi mỗi **thế hệ** đối mặt với những thách thức mới về vai trò **giới tính** và **bình đẳng**, **truyền thống** đôi khi phải thích nghi với kỳ vọng hiện đại. Đặt ra **ranh giới** rõ ràng hỗ trợ **sự độc lập** trong khi duy trì **mối gắn kết** chặt chẽ. Sự hướng dẫn của **cha mẹ** định hình **bản sắc** đang phát triển của trẻ và ý thức **trách nhiệm** của trẻ với người khác."
+  },
+  "scholar.tourism-hospitality": {
+    "emojis": [
+      "✈️",
+      "🏨",
+      "🌿"
+    ],
+    "en": "**Tourism** has become one of the world's largest industries, connecting people across borders through shared experiences. Travellers increasingly seek **authentic** local culture rather than commercialised **resorts**. Understanding a destination's **heritage** and **customs** leads to more meaningful **cultural exchange**. Responsible **eco-tourism** reduces environmental damage while supporting local communities. A carefully planned **itinerary** and warm **hospitality** can leave a lasting **impression** on visitors from **diverse** backgrounds.",
+    "vi": "**Du lịch** đã trở thành một trong những ngành lớn nhất thế giới, kết nối con người qua các biên giới qua những trải nghiệm chung. Du khách ngày càng tìm kiếm văn hóa địa phương **chân thực** hơn là các **khu nghỉ dưỡng** thương mại. Hiểu **di sản** và **phong tục** của **điểm đến** dẫn đến **trao đổi văn hóa** có ý nghĩa hơn. **Du lịch sinh thái** có trách nhiệm giảm thiệt hại môi trường trong khi hỗ trợ cộng đồng địa phương. Một **lịch trình** được lập kế hoạch cẩn thận và **lòng hiếu khách** nồng hậu có thể để lại **ấn tượng** lâu dài với du khách từ các nền tảng **đa dạng**."
+  },
+  "scholar.wellbeing-lifestyle": {
+    "emojis": [
+      "🧘",
+      "💪",
+      "🌿"
+    ],
+    "en": "Maintaining good **wellbeing** requires a thoughtful approach to both physical and mental health. A daily **routine** that includes **active** exercise, healthy nutrition, and adequate rest builds long-term **fitness**. Practising **mindfulness** helps manage stress and keeps you **productive** throughout the day. Small **habits** such as good **posture**, regular **hydration**, and meaningful **self-care** support **recovery** from work and illness alike. A **sustainable** **lifestyle** is not about perfection but about finding lasting **balance**.",
+    "vi": "Duy trì **sức khỏe toàn diện** tốt đòi hỏi cách tiếp cận chu đáo với cả sức khỏe thể chất và tinh thần. Một **thói quen hàng ngày** bao gồm tập thể dục **năng động**, dinh dưỡng lành mạnh và nghỉ ngơi đầy đủ xây dựng **thể lực** lâu dài. Thực hành **chánh niệm** giúp quản lý căng thẳng và giữ bạn **năng suất** suốt cả ngày. Các **thói quen** nhỏ như **tư thế** tốt, **bổ sung nước** thường xuyên và **tự chăm sóc bản thân** có ý nghĩa hỗ trợ **phục hồi** sau công việc và bệnh tật. Một **lối sống** **bền vững** không phải về sự hoàn hảo mà là tìm kiếm **cân bằng** lâu dài."
+  },
+  "scholar.arts-entertainment": {
+    "emojis": [
+      "🎭",
+      "🎬",
+      "🎵"
+    ],
+    "en": "The world of **arts** and **entertainment** spans everything from literary **novels** to blockbuster **films** and live **theatre**. Each art form reaches its **audience** through a distinct medium, whether a **concert**, an **exhibition**, or a streaming platform. A strong **performance** often leads to critical **awards** that boost the artist's career. When a book becomes a **screenplay**, the **adaptation** must balance faithfulness to the source with the demands of a new **genre**. Great storytellers **inspire** audiences across cultures, regardless of the **cast** or setting.",
+    "vi": "Thế giới **nghệ thuật** và **giải trí** trải dài từ các **tiểu thuyết** văn học đến **bộ phim** bom tấn và **nhà hát** trực tiếp. Mỗi loại hình nghệ thuật tiếp cận **khán giả** qua một phương tiện riêng biệt, dù là một **buổi hòa nhạc**, **triển lãm** hay nền tảng phát trực tuyến. Một **màn trình diễn** ấn tượng thường dẫn đến các **giải thưởng** của giới phê bình giúp thăng tiến sự nghiệp của nghệ sĩ. Khi một cuốn sách trở thành **kịch bản phim**, **chuyển thể** phải cân bằng sự trung thành với nguồn gốc và nhu cầu của **thể loại** mới. Những người kể chuyện xuất sắc **truyền cảm hứng** cho khán giả khắp các nền văn hóa, bất kể **dàn diễn viên** hay bối cảnh."
+  },
+  "scholar.ethical-issues": {
+    "emojis": [
+      "⚖️",
+      "🔒",
+      "💬"
+    ],
+    "en": "Modern society faces complex **ethical** questions that are often **controversial** and difficult to resolve. Issues of **privacy**, **freedom**, and personal **responsibility** frequently come into tension with each other. Governments must **regulate** technology and corporations to **protect** citizens from harm, yet they face the **dilemma** of restricting individual rights. Every policy **consequence** must be weighed carefully against its **impact** on society. When people **justify** their decisions, they appeal to shared **moral** principles and the **obligation** to maintain **fairness** for all.",
+    "vi": "Xã hội hiện đại đối mặt với những câu hỏi **đạo đức** phức tạp thường **gây tranh cãi** và khó giải quyết. Các vấn đề về **quyền riêng tư**, **tự do** và **trách nhiệm** cá nhân thường xuyên mâu thuẫn với nhau. Chính phủ phải **quản lý** công nghệ và doanh nghiệp để **bảo vệ** công dân khỏi bị tổn hại, nhưng họ phải đối mặt với **tình huống khó xử** khi hạn chế quyền cá nhân. Mỗi **hậu quả** chính sách phải được cân nhắc cẩn thận so với **tác động** của nó lên xã hội. Khi mọi người **biện minh** cho quyết định của mình, họ kêu gọi các nguyên tắc **đạo đức** chung và **nghĩa vụ** duy trì **sự công bằng** cho tất cả."
+  },
+  "master.constitutional-law": {
+    "emojis": [
+      "🏛️",
+      "📜",
+      "⚖️"
+    ],
+    "en": "A **constitution** defines the fundamental structure of a state and the **fundamental rights** of its citizens. The **separation of powers** between the executive, **legislature**, and judiciary prevents any single branch from abusing authority. Courts use **judicial review** to strike down laws that violate the **rule of law** or exceed **jurisdiction**. When rights are threatened, citizens can invoke **due process** and the guarantee of **civil liberties**. Constitutional **amendments** allow societies to update their foundational documents while maintaining **democratic** values.",
+    "vi": "**Hiến pháp** xác định cấu trúc cơ bản của nhà nước và các **quyền cơ bản** của công dân. **Phân chia quyền lực** giữa hành pháp, **cơ quan lập pháp** và tư pháp ngăn bất kỳ nhánh nào lạm dụng quyền lực. Tòa án sử dụng **kiểm tra tư pháp** để bác bỏ các luật vi phạm **nguyên tắc pháp quyền** hoặc vượt quá **thẩm quyền xét xử**. Khi quyền bị đe dọa, công dân có thể viện dẫn **thủ tục pháp lý đúng đắn** và sự đảm bảo **quyền tự do dân sự**. Các **tu chính án** hiến pháp cho phép xã hội cập nhật tài liệu nền tảng trong khi duy trì các giá trị **dân chủ**."
+  },
+  "master.environmental-governance": {
+    "emojis": [
+      "🌍",
+      "♻️",
+      "📜"
+    ],
+    "en": "**Environmental governance** requires nations to **ratify** agreements and follow through with genuine **compliance**. A **carbon tax** creates economic incentives for businesses to reduce emissions and move toward **net-zero** targets. **Legislation** and **enforcement** mechanisms ensure that **mitigation** commitments translate into real action. The global **transition** to clean energy must protect **biodiversity** and communities dependent on fossil fuels. **Sustainability** goals demand both domestic **adaptation** and international **protocol** adherence, with **offsets** only as a last resort.",
+    "vi": "**Quản trị môi trường** đòi hỏi các quốc gia **phê chuẩn** các thỏa thuận và thực hiện chúng với sự **tuân thủ** thực sự. **Thuế carbon** tạo ra các khuyến khích kinh tế cho doanh nghiệp giảm phát thải và hướng tới mục tiêu **phát thải ròng bằng không**. Các cơ chế **luật pháp** và **thực thi** đảm bảo rằng các cam kết **giảm nhẹ** được chuyển thành hành động thực tế. Sự **chuyển đổi** toàn cầu sang năng lượng sạch phải bảo vệ **đa dạng sinh học** và các cộng đồng phụ thuộc vào nhiên liệu hóa thạch. Các mục tiêu **bền vững** đòi hỏi cả **thích ứng** trong nước và tuân thủ **nghị định thư** quốc tế, với **bù đắp khí thải** chỉ là biện pháp cuối cùng."
+  },
+  "master.political-philosophy": {
+    "emojis": [
+      "⚖️",
+      "🗳️",
+      "💡"
+    ],
+    "en": "**Political philosophy** asks fundamental questions about **power**, **legitimacy**, and the best form of **governance**. While **democracy** distributes power through elections and protects individual **rights**, **authoritarianism** concentrates control and suppresses **civil society**. The rise of **populism** often reflects frustration when citizens feel that **equality** and fair **reform** are being denied. Political **ideology** shapes how parties and governments frame social problems and propose solutions. **Pluralism** remains essential because no single viewpoint can fully account for the complexity of human **freedom**.",
+    "vi": "**Triết học chính trị** đặt ra những câu hỏi cơ bản về **quyền lực**, **tính hợp pháp** và hình thức **quản trị** tốt nhất. Trong khi **dân chủ** phân phối quyền lực qua bầu cử và bảo vệ **quyền** cá nhân, **chủ nghĩa độc đoán** tập trung quyền kiểm soát và đàn áp **xã hội dân sự**. Sự trỗi dậy của **chủ nghĩa dân túy** thường phản ánh sự thất vọng khi công dân cảm thấy **bình đẳng** và **cải cách** công bằng đang bị từ chối. **Hệ tư tưởng** chính trị định hình cách các đảng và chính phủ đặt vấn đề xã hội và đề xuất giải pháp. **Chủ nghĩa đa nguyên** vẫn cần thiết vì không quan điểm nào có thể giải thích đầy đủ sự phức tạp của **tự do** con người."
+  },
+  "master.public-policy": {
+    "emojis": [
+      "📋",
+      "🏛️",
+      "🔬"
+    ],
+    "en": "Effective **public policy** depends on **evidence-based** analysis and meaningful **stakeholder** engagement. **Governance** structures determine how decisions are made, from initial **legislation** through to **implementation**. Policies targeting **welfare** and **public service** delivery must be carefully designed to maximise positive **outcomes** for the most vulnerable. **Transparency** and **accountability** build public trust, while **regulation** prevents powerful interests from distorting the process. **Social policy** must also consider long-term consequences, not just immediate results, and ensure equitable **access** for all citizens.",
+    "vi": "**Chính sách công** hiệu quả phụ thuộc vào phân tích **dựa trên bằng chứng** và sự tham gia có ý nghĩa của **các bên liên quan**. Cấu trúc **quản trị** xác định cách ra quyết định, từ **luật pháp** ban đầu đến **thực thi**. Các chính sách nhắm vào **phúc lợi** và cung cấp **dịch vụ công** phải được thiết kế cẩn thận để tối đa hóa **kết quả** tích cực cho những người dễ bị tổn thương nhất. **Minh bạch** và **trách nhiệm giải trình** xây dựng niềm tin của công chúng, trong khi **quy định** ngăn các lợi ích quyền lực làm méo mó quy trình. **Chính sách xã hội** cũng phải xem xét hậu quả lâu dài, không chỉ kết quả tức thời, và đảm bảo **tiếp cận** bình đẳng cho tất cả công dân."
+  },
+  "master.academic-discourse": {
+    "emojis": [
+      "📚",
+      "🔬",
+      "🎓"
+    ],
+    "en": "Academic **discourse** is built on rigorous **analysis**, precise **citation**, and honest **peer review**. Every **thesis** must be grounded in a sound **methodology** and supported by verifiable **evidence**. Researchers are expected to apply **critical thinking** to challenge assumptions, even those central to their own discipline. **Academic integrity** means never committing **plagiarism** or misrepresenting data in a **publication**. Regular **seminars** and **collaboration** across institutions push the boundaries of knowledge and help scholars **evaluate** each other's contributions with greater depth.",
+    "vi": "**Diễn ngôn** học thuật được xây dựng trên **phân tích** nghiêm ngặt, **trích dẫn** chính xác và **phản biện học thuật** trung thực. Mỗi **luận văn** phải được đặt nền tảng trên **phương pháp luận** vững chắc và được hỗ trợ bởi **bằng chứng** có thể kiểm chứng. Các nhà nghiên cứu được kỳ vọng áp dụng **tư duy phản biện** để thách thức các giả định, kể cả những giả định trung tâm của lĩnh vực của họ. **Trung thực học thuật** có nghĩa là không bao giờ thực hiện **đạo văn** hay xuyên tạc dữ liệu trong **ấn phẩm**. Các **hội thảo** thường xuyên và **hợp tác** giữa các cơ sở đẩy mạnh ranh giới kiến thức và giúp các học giả **đánh giá** đóng góp của nhau với chiều sâu hơn."
+  },
+  "master.geopolitics": {
+    "emojis": [
+      "🌐",
+      "🤝",
+      "⚡"
+    ],
+    "en": "**Geopolitics** shapes the world order through the constant interplay of **sovereignty**, **diplomacy**, and competing national interests. When **negotiations** fail, countries may resort to imposing **sanctions** or forming a new **alliance** to shift the balance of **power**. **Multilateral** institutions provide forums for managing **tension** before it escalates into open **conflict**. **Nationalism** complicates cooperation because states often prioritise self-interest over collective **stability**. The challenge for global leaders is to build **cooperation** frameworks that respect sovereignty while addressing threats that no single nation can face alone.",
+    "vi": "**Địa chính trị** định hình trật tự thế giới qua sự tương tác liên tục giữa **chủ quyền**, **ngoại giao** và các lợi ích quốc gia cạnh tranh. Khi **đàm phán** thất bại, các quốc gia có thể sử dụng việc áp đặt **lệnh trừng phạt** hoặc hình thành **liên minh** mới để thay đổi cán cân **quyền lực**. Các thể chế **đa phương** cung cấp diễn đàn để quản lý **căng thẳng** trước khi leo thang thành **xung đột** công khai. **Chủ nghĩa dân tộc** làm phức tạp hợp tác vì các quốc gia thường ưu tiên lợi ích riêng hơn **ổn định** tập thể. Thách thức cho các nhà lãnh đạo toàn cầu là xây dựng các khuôn khổ **hợp tác** tôn trọng chủ quyền trong khi giải quyết các mối đe dọa mà không quốc gia nào có thể đối phó một mình."
+  },
+  "master.macroeconomics": {
+    "emojis": [
+      "📈",
+      "🏦",
+      "💸"
+    ],
+    "en": "During a **recession**, governments face difficult choices between **austerity** and stimulus spending. High **inflation** erodes purchasing power, prompting central banks to tighten **monetary policy** and raise interest rates. A rising **deficit** and growing **public debt** limit future **fiscal policy** options for managing the economy. **Market failure** in areas like healthcare and education justifies government intervention through **regulation** and **privatization** reform. Ultimately, addressing **unemployment** and **inequality** requires coordinated policies that promote sustainable **economic growth** rather than short-term gains.",
+    "vi": "Trong thời kỳ **suy thoái kinh tế**, chính phủ đối mặt với những lựa chọn khó khăn giữa **thắt lưng buộc bụng** và chi tiêu kích thích. **Lạm phát** cao làm xói mòn sức mua, khiến các ngân hàng trung ương thắt chặt **chính sách tiền tệ** và tăng lãi suất. **Thâm hụt** tăng và **nợ công** ngày càng tăng hạn chế các lựa chọn **chính sách tài khóa** tương lai để quản lý nền kinh tế. **Thất bại thị trường** trong các lĩnh vực như y tế và giáo dục biện minh cho sự can thiệp của chính phủ qua **quy định** và cải cách **tư nhân hóa**. Cuối cùng, giải quyết **thất nghiệp** và **bất bình đẳng** đòi hỏi các chính sách phối hợp thúc đẩy **tăng trưởng kinh tế** bền vững hơn là lợi ích ngắn hạn."
+  },
+  "master.medical-ethics": {
+    "emojis": [
+      "🩺",
+      "⚖️",
+      "🧪"
+    ],
+    "en": "**Medical ethics** rests on four core principles: **autonomy**, beneficence, non-maleficence, and justice. Patients must give **informed consent** before any procedure, and their **patient rights** must be upheld even in difficult circumstances. **Clinical trials** must pass scrutiny from an **ethics committee** and comply with strict **research ethics** guidelines to protect participants. Debates around **euthanasia** and **end-of-life** care reveal the tension between respecting individual wishes and broader moral obligations. **Organ donation**, **palliative care**, and **experimental** treatments all raise questions about **transparency** and fair **access** to scarce medical resources.",
+    "vi": "**Đạo đức y khoa** dựa trên bốn nguyên tắc cốt lõi: **quyền tự quyết**, làm lợi, không gây hại và công bằng. Bệnh nhân phải có **đồng ý đầy đủ thông tin** trước bất kỳ thủ thuật nào, và **quyền của bệnh nhân** phải được bảo vệ ngay cả trong hoàn cảnh khó khăn. Các **thử nghiệm lâm sàng** phải được kiểm tra bởi **hội đồng đạo đức** và tuân thủ các hướng dẫn **đạo đức nghiên cứu** nghiêm ngặt để bảo vệ người tham gia. Các cuộc tranh luận xung quanh **an tử** và chăm sóc **cuối đời** cho thấy sự căng thẳng giữa tôn trọng ý nguyện cá nhân và các nghĩa vụ đạo đức rộng hơn. **Hiến tạng**, **chăm sóc giảm nhẹ** và các phương pháp điều trị **thử nghiệm** đều đặt ra câu hỏi về **minh bạch** và **tiếp cận** công bằng với nguồn lực y tế khan hiếm."
+  },
+  "master.sociology": {
+    "emojis": [
+      "👥",
+      "📊",
+      "🌈"
+    ],
+    "en": "**Sociology** examines how **social class**, **inequality**, and **discrimination** shape people's life chances. **Social mobility** allows individuals to rise beyond their origins, but structural barriers often limit this in practice. Processes of **marginalization** and **exclusion** push vulnerable groups to the edges of economic and civic life, reinforcing **privilege** among the dominant. Dismantling harmful **stereotypes** requires changing both individual attitudes and the **institutions** that perpetuate them. Building **social capital** through trust, **diversity**, and **integration** is the foundation of a more equitable and cohesive society where **power** is more fairly distributed.",
+    "vi": "**Xã hội học** xem xét cách **tầng lớp xã hội**, **bất bình đẳng** và **phân biệt đối xử** định hình cơ hội cuộc sống của mọi người. **Tính cơ động xã hội** cho phép cá nhân vươn lên trên nguồn gốc của họ, nhưng các rào cản cơ cấu thường hạn chế điều này trong thực tế. Các quá trình **ngoại lề hóa** và **loại trừ** đẩy các nhóm dễ bị tổn thương ra rìa của đời sống kinh tế và dân sự, củng cố **đặc quyền** trong số nhóm thống trị. Phá bỏ các **khuôn mẫu** có hại đòi hỏi thay đổi cả thái độ cá nhân và **thể chế** duy trì chúng. Xây dựng **vốn xã hội** qua sự tin tưởng, **đa dạng** và **hội nhập** là nền tảng của một xã hội công bằng và gắn kết hơn nơi **quyền lực** được phân phối công bằng hơn."
+  },
+  "master.business-ethics": {
+    "emojis": [
+      "💼",
+      "🔍",
+      "🌱"
+    ],
+    "en": "Sustainable businesses are built on a culture of **integrity**, **transparency**, and genuine **compliance** with the law. **Corruption** and **bribery** distort competition and undermine public trust in markets and **governance**. An effective **audit** process and legal protections for **whistleblowers** help expose wrongdoing before it becomes systemic. Executives must manage **conflicts of interest** carefully to protect **stakeholder** confidence and uphold their **corporate responsibility** commitments. Ultimately, **accountability** for ethical failures must be real and enforceable, not merely symbolic.",
+    "vi": "Các doanh nghiệp bền vững được xây dựng trên văn hóa **liêm chính**, **minh bạch** và **tuân thủ** pháp luật thực sự. **Tham nhũng** và **hối lộ** làm méo mó cạnh tranh và phá hoại niềm tin của công chúng vào thị trường và **quản trị**. Quy trình **kiểm toán** hiệu quả và bảo vệ pháp lý cho **người tố giác** giúp phơi bày hành vi sai trái trước khi nó trở thành hệ thống. Lãnh đạo phải quản lý **xung đột lợi ích** cẩn thận để bảo vệ niềm tin của **các bên liên quan** và duy trì các cam kết **trách nhiệm doanh nghiệp**. Cuối cùng, **trách nhiệm giải trình** đối với các thất bại đạo đức phải có thực và có thể thực thi, không chỉ mang tính biểu tượng."
+  },
+  "master.technology-ethics": {
+    "emojis": [
+      "💻",
+      "🔒",
+      "🤖"
+    ],
+    "en": "As **AI** and **automation** reshape the economy, society must grapple with profound ethical questions about **rights** and **accountability**. **Algorithmic** bias embeds existing inequalities into systems that make consequential decisions about people's lives. Mass **surveillance** by states and corporations poses serious threats to **privacy** and civil liberties. **Digital equity** demands that the benefits of technological **disruption** and **innovation** are shared broadly rather than concentrated among the few. Governments must **regulate** powerful **platforms** to protect **data** and ensure that **technology** serves human values rather than undermining them.",
+    "vi": "Khi **trí tuệ nhân tạo** và **tự động hóa** định hình lại nền kinh tế, xã hội phải đối mặt với những câu hỏi đạo đức sâu sắc về **quyền** và **trách nhiệm giải trình**. Thiên kiến **thuật toán** nhúng các bất bình đẳng hiện có vào các hệ thống đưa ra các quyết định quan trọng về cuộc sống con người. **Giám sát** hàng loạt bởi nhà nước và tập đoàn đặt ra các mối đe dọa nghiêm trọng với **quyền riêng tư** và tự do dân sự. **Bình đẳng kỹ thuật số** đòi hỏi lợi ích của sự **đổ vỡ** công nghệ và **đổi mới** được chia sẻ rộng rãi hơn là tập trung vào số ít. Chính phủ phải **quản lý** các **nền tảng** quyền lực để bảo vệ **dữ liệu** và đảm bảo **công nghệ** phục vụ các giá trị con người hơn là làm suy yếu chúng."
+  },
+  "master.media-literacy": {
+    "emojis": [
+      "📰",
+      "🔍",
+      "📢"
+    ],
+    "en": "In the digital age, **media literacy** has become an essential civic skill for navigating **misinformation** and propaganda. Recognising **bias** and understanding **framing** helps readers assess whether coverage achieves genuine **objectivity**. The spread of **sensationalism** and **propaganda** through social media **echo chambers** deepens political polarisation. Independent organisations that **fact-check** claims and scrutinise **narrative** construction play a vital democratic role. Media **credibility** depends on transparent sourcing, fair **representation**, and a willingness to correct errors, but **censorship** is never an acceptable solution and threatens freedom of **influence** and expression.",
+    "vi": "Trong thời đại kỹ thuật số, **năng lực truyền thông** đã trở thành kỹ năng công dân thiết yếu để điều hướng **thông tin sai lệch** và tuyên truyền. Nhận ra **thành kiến** và hiểu **đóng khung thông tin** giúp người đọc đánh giá liệu tin tức có đạt được **tính khách quan** thực sự hay không. Sự lan truyền của **chủ nghĩa giật gân** và **tuyên truyền** qua **buồng vang** mạng xã hội làm sâu sắc hơn sự phân cực chính trị. Các tổ chức độc lập **kiểm tra thực tế** các tuyên bố và xem xét việc xây dựng **tường thuật** đóng vai trò dân chủ quan trọng. **Độ tin cậy** truyền thông phụ thuộc vào nguồn minh bạch, **đại diện** công bằng và sẵn sàng sửa lỗi, nhưng **kiểm duyệt** không bao giờ là giải pháp chấp nhận được và đe dọa tự do **ảnh hưởng** và ngôn luận."
+  },
+  "master.rhetoric-debate": {
+    "emojis": [
+      "🗣️",
+      "💬",
+      "⚖️"
+    ],
+    "en": "Mastery of **rhetoric** and structured **debate** is central to democratic **discourse** and academic argument. A well-built **argument** begins with a solid **premise**, progresses through valid **inference**, and ends in a well-supported **claim**. Skilled debaters make strategic **concessions** while deploying powerful **rebuttals** against opposing **counterarguments**. Spotting a logical **fallacy** can dismantle an opponent's position, but only if your own reasoning maintains internal **coherence**. Effective **persuasion** rests not just on **logic** but also on the speaker's **credibility** and the **tone** adopted throughout the exchange.",
+    "vi": "Sự thành thạo về **hùng biện** và **tranh luận** có cấu trúc là trọng tâm của **diễn ngôn** dân chủ và lập luận học thuật. Một **lập luận** được xây dựng tốt bắt đầu bằng một **tiền đề** vững chắc, tiến triển qua **suy luận** hợp lệ và kết thúc bằng một **tuyên bố** được hỗ trợ tốt. Những người tranh luận có kỹ năng đưa ra các **nhượng bộ** chiến lược trong khi triển khai các **phản bác** mạnh mẽ chống lại các **phản luận** đối lập. Phát hiện **ngụy biện** logic có thể tháo dỡ lập trường của đối thủ, nhưng chỉ khi lý luận của chính bạn duy trì **tính mạch lạc** nội bộ. **Thuyết phục** hiệu quả không chỉ dựa vào **logic** mà còn vào **độ tin cậy** của người nói và **giọng điệu** được áp dụng trong suốt cuộc trao đổi."
+  },
+  "master.global-governance": {
+    "emojis": [
+      "🌐",
+      "🕊️",
+      "🤝"
+    ],
+    "en": "**Global governance** depends on nations accepting shared rules through **international law** and **multilateral** institutions. **Humanitarian** crises demand rapid **peacekeeping** responses guided by clear **treaty** obligations and **diplomacy**. The tension between national **sovereignty** and global **compliance** is one of the central challenges of the current world order. **NGOs** and civil society actors complement the work of formal **institutions** by holding governments to account. When **sanctions** are imposed, they must be targeted carefully to avoid harming civilians and to preserve conditions for **cooperation** and eventual **reform**.",
+    "vi": "**Quản trị toàn cầu** phụ thuộc vào việc các quốc gia chấp nhận các quy tắc chung qua **luật quốc tế** và các thể chế **đa phương**. Các cuộc khủng hoảng **nhân đạo** đòi hỏi phản ứng **gìn giữ hòa bình** nhanh chóng được hướng dẫn bởi các nghĩa vụ **hiệp ước** và **ngoại giao** rõ ràng. Căng thẳng giữa **chủ quyền** quốc gia và **tuân thủ** toàn cầu là một trong những thách thức trung tâm của trật tự thế giới hiện tại. Các **tổ chức phi chính phủ** và các tác nhân xã hội dân sự bổ sung cho công việc của các **thể chế** chính thức bằng cách buộc chính phủ chịu trách nhiệm. Khi **lệnh trừng phạt** được áp đặt, chúng phải được nhắm mục tiêu cẩn thận để tránh gây hại cho người dân và bảo tồn các điều kiện cho **hợp tác** và **cải cách** cuối cùng."
+  },
+  "master.bioethics": {
+    "emojis": [
+      "🧬",
+      "⚖️",
+      "🔬"
+    ],
+    "en": "**Bioethics** confronts the profound moral questions raised by advances in **genetic engineering** and **gene editing**. **Stem cell** research holds enormous therapeutic promise, but it raises contentious debates about **human dignity** and the **moral** status of embryos. All **experimental** procedures require free **consent** and approval from an **ethics committee** to ensure they meet **research ethics** standards. Human **enhancement** technologies — from cognitive drugs to genetic modifications — challenge our understanding of **autonomy** and what it means to be human. The **impact** of these technologies on society demands careful **regulation** to protect the vulnerable and prevent irreversible harm.",
+    "vi": "**Đạo đức sinh học** đối mặt với những câu hỏi đạo đức sâu sắc được đặt ra bởi những tiến bộ trong **kỹ thuật di truyền** và **chỉnh sửa gen**. Nghiên cứu **tế bào gốc** có tiềm năng điều trị to lớn, nhưng nó gây ra các cuộc tranh luận gây tranh cãi về **nhân phẩm** và địa vị **đạo đức** của phôi. Tất cả các thủ thuật **thử nghiệm** đòi hỏi **đồng ý** tự do và phê duyệt từ **hội đồng đạo đức** để đảm bảo chúng đáp ứng các tiêu chuẩn **đạo đức nghiên cứu**. Các công nghệ **tăng cường** con người — từ thuốc nhận thức đến sửa đổi di truyền — thách thức sự hiểu biết của chúng ta về **quyền tự quyết** và ý nghĩa của việc là con người. **Tác động** của các công nghệ này lên xã hội đòi hỏi **quy định** cẩn thận để bảo vệ người dễ bị tổn thương và ngăn chặn thiệt hại không thể đảo ngược."
+  },
+  "master.argumentation": {
+    "emojis": [
+      "💬",
+      "🔍",
+      "⚖️"
+    ],
+    "en": "Rigorous **argumentation** is the foundation of academic writing, legal reasoning, and civic debate. Every **claim** must rest on a clearly stated **premise** and be supported by credible **evidence** that the writer can **substantiate**. Identifying the **assumption** behind an opposing view is often the key to constructing a powerful **counterargument**. A logical **inference** builds on what has been proven, while a **fallacy** introduces flawed reasoning that undermines the entire position. Critical readers will **evaluate** arguments for **coherence**, checking each step from **assertion** through to conclusion, and a fair **critique** acknowledges complexity from multiple **perspectives**.",
+    "vi": "**Lập luận** nghiêm ngặt là nền tảng của viết học thuật, lý luận pháp lý và tranh luận dân sự. Mỗi **tuyên bố** phải dựa trên một **tiền đề** được nêu rõ ràng và được hỗ trợ bởi **bằng chứng** đáng tin cậy mà người viết có thể **chứng minh**. Xác định **giả định** đằng sau quan điểm đối lập thường là chìa khóa để xây dựng một **phản luận** mạnh mẽ. Một **suy luận** logic xây dựng trên những gì đã được chứng minh, trong khi một **ngụy biện** đưa ra lý luận sai lầm làm suy yếu toàn bộ lập trường. Độc giả phê phán sẽ **đánh giá** các lập luận về **tính mạch lạc**, kiểm tra từng bước từ **khẳng định** đến kết luận, và một **phê bình** công bằng thừa nhận sự phức tạp từ nhiều **quan điểm**."
+  },
+  "master.globalisation": {
+    "emojis": [
+      "🌎",
+      "📦",
+      "🔗"
+    ],
+    "en": "**Globalisation** has transformed **trade**, finance, and culture through deepening economic **integration** and **interdependence**. Multinational **corporations** exploit competitive advantages across borders, fuelling growth but also raising concerns about labour rights and environmental standards. The **dominance** of a few powerful economies creates significant **inequality** both within and between nations. While **localization** efforts preserve cultural identity, the pressure to remain competitive in global **competition** often overwhelms them. **Migration**, technology, and the **influence** of shared media are reshaping what it means to belong to a particular society in a **globalized** world full of both **opportunity** and risk.",
+    "vi": "**Toàn cầu hóa** đã biến đổi **thương mại**, tài chính và văn hóa thông qua **hội nhập** kinh tế sâu sắc hơn và **sự phụ thuộc lẫn nhau**. Các **tập đoàn** đa quốc gia khai thác lợi thế cạnh tranh qua các biên giới, thúc đẩy tăng trưởng nhưng cũng gây lo ngại về quyền lao động và tiêu chuẩn môi trường. **Sự thống trị** của một số nền kinh tế mạnh tạo ra **bất bình đẳng** đáng kể cả trong và giữa các quốc gia. Trong khi các nỗ lực **địa phương hóa** bảo tồn bản sắc văn hóa, áp lực duy trì cạnh tranh trong **cạnh tranh** toàn cầu thường áp đảo chúng. **Di cư**, công nghệ và **ảnh hưởng** của phương tiện truyền thông chung đang định hình lại ý nghĩa của việc thuộc về một xã hội cụ thể trong thế giới **toàn cầu hóa** đầy **cơ hội** và rủi ro."
+  },
+  "master.social-change": {
+    "emojis": [
+      "✊",
+      "📢",
+      "🦋"
+    ],
+    "en": "**Social change** rarely happens without sustained effort from organised **movements** and determined **activism**. Public **demonstrations** and **protest** signal widespread discontent and pressure institutions to act, while strategic **advocacy** operates through legal and political channels. **Solidarity** among diverse groups amplifies their collective voice and strengthens **resistance** to entrenched power. **Mobilizing** communities around shared values of **justice** and **equality** is the first step toward meaningful **reform** and lasting societal **transformation**. Effective change requires not just passion but also clear goals, inclusive leadership, and the ability to sustain a long-term **campaign**.",
+    "vi": "**Biến đổi xã hội** hiếm khi xảy ra mà không có nỗ lực bền vững từ các **phong trào** có tổ chức và **chủ nghĩa hoạt động** quyết tâm. Các cuộc **biểu tình** công khai và **cuộc biểu tình** báo hiệu sự bất mãn rộng rãi và gây áp lực lên các thể chế hành động, trong khi **vận động** chiến lược hoạt động qua các kênh pháp lý và chính trị. **Đoàn kết** giữa các nhóm đa dạng khuếch đại giọng nói tập thể của họ và củng cố **kháng cự** chống lại quyền lực đã bám rễ sâu. **Huy động** cộng đồng xung quanh các giá trị chung về **công lý** và bình đẳng là bước đầu tiên hướng tới **cải cách** có ý nghĩa và **biến đổi** xã hội lâu dài. Thay đổi hiệu quả đòi hỏi không chỉ đam mê mà còn mục tiêu rõ ràng, lãnh đạo bao trùm và khả năng duy trì **chiến dịch** lâu dài."
+  },
+  "master.immigration-identity": {
+    "emojis": [
+      "🏘️",
+      "🌍",
+      "🪞"
+    ],
+    "en": "Immigration raises profound questions about **identity**, **belonging**, and the obligations of the **host country**. Members of the **diaspora** often navigate a complex **transnational** existence, balancing **assimilation** into the new society with the desire to preserve their cultural **heritage**. True **integration** goes beyond language learning to include genuine social acceptance and **equality** of opportunity for **minority** communities. **Multiculturalism** celebrates diversity but requires active policies to prevent **exclusion** and ensure meaningful **cultural exchange**. When **second-generation** immigrants feel torn between two worlds, their search for **acceptance** and a coherent sense of **identity** reflects the broader challenge of building inclusive societies.",
+    "vi": "Di cư đặt ra những câu hỏi sâu sắc về **bản sắc**, **cảm giác thuộc về** và nghĩa vụ của **quốc gia tiếp nhận**. Các thành viên của **cộng đồng người di cư** thường điều hướng cuộc sống **xuyên quốc gia** phức tạp, cân bằng **đồng hóa** vào xã hội mới với mong muốn bảo tồn **di sản** văn hóa của họ. **Hội nhập** thực sự vượt ra ngoài học ngôn ngữ để bao gồm sự chấp nhận xã hội thực sự và bình đẳng cơ hội cho các cộng đồng **thiểu số**. **Chủ nghĩa đa văn hóa** tôn vinh sự đa dạng nhưng đòi hỏi các chính sách tích cực để ngăn chặn **loại trừ** và đảm bảo **trao đổi văn hóa** có ý nghĩa. Khi những người nhập cư **thế hệ thứ hai** cảm thấy bị kéo giữa hai thế giới, việc tìm kiếm **sự chấp nhận** và ý thức **bản sắc** mạch lạc của họ phản ánh thách thức rộng hơn của việc xây dựng xã hội bao trùm."
+  },
+  "master.psychology-society": {
+    "emojis": [
+      "🧠",
+      "👥",
+      "🔍"
+    ],
+    "en": "**Social psychology** reveals how deeply **social pressure**, **conformity**, and **groupthink** shape individual **behaviour** and decision-making. **Bias** and **prejudice** operate at both conscious and unconscious levels, distorting **perception** and producing **discrimination** even among well-intentioned people. Advertisers and politicians exploit knowledge of human **motivation** and **attitude** formation to craft messages that **manipulate** rather than inform. Understanding **cognitive** processes helps us recognise when our own **rationality** is compromised by emotional or social influences. Overcoming **stereotypes** and **social pressure** demands active critical awareness and the courage to challenge prevailing group **conformity**.",
+    "vi": "**Tâm lý xã hội** tiết lộ cách **áp lực xã hội**, **tuân thủ theo đám đông** và **tư duy nhóm** định hình sâu sắc **hành vi** cá nhân và việc ra quyết định. **Thành kiến** và **định kiến** hoạt động ở cả mức độ có ý thức và vô thức, làm méo mó **nhận thức** và tạo ra **phân biệt đối xử** ngay cả ở những người có ý định tốt. Các nhà quảng cáo và chính trị gia khai thác kiến thức về sự hình thành **động lực** và **thái độ** của con người để tạo ra các thông điệp **thao túng** hơn là thông tin. Hiểu các quá trình **nhận thức** giúp chúng ta nhận ra khi nào **tính hợp lý** của chúng ta bị ảnh hưởng bởi các ảnh hưởng cảm xúc hoặc xã hội. Vượt qua **khuôn mẫu** và **áp lực xã hội** đòi hỏi nhận thức phê phán tích cực và can đảm để thách thức **sự tuân thủ theo đám đông** phổ biến."
+  },
+  "master.consumer-society": {
+    "emojis": [
+      "🛒",
+      "💎",
+      "♻️"
+    ],
+    "en": "Modern **consumer society** is driven by the relentless pursuit of **status**, **aspiration**, and **brand** recognition. Advertisers fuel **materialism** by linking product **consumption** to personal **identity** and social worth. The environmental cost of excessive **waste** and disposable **lifestyle** choices is increasingly difficult to ignore. Easy access to credit enables **impulse** buying that leaves many households drowning in **debt**. A growing movement toward **sustainability** and conscious consumption challenges the dominant narrative that more is always better, arguing instead that true **wellbeing** requires addressing the deep **inequality** built into consumer culture.",
+    "vi": "**Xã hội tiêu dùng** hiện đại được thúc đẩy bởi sự theo đuổi không ngừng của **địa vị**, **khát vọng** và nhận diện **thương hiệu**. Các nhà quảng cáo thúc đẩy **chủ nghĩa vật chất** bằng cách liên kết **tiêu thụ** sản phẩm với **bản sắc** cá nhân và giá trị xã hội. Chi phí môi trường của **lãng phí** quá mức và các lựa chọn **lối sống** dùng một lần ngày càng khó bỏ qua. Tiếp cận tín dụng dễ dàng cho phép mua hàng **bốc đồng** khiến nhiều hộ gia đình chìm trong **nợ**. Một phong trào ngày càng tăng hướng tới **bền vững** và tiêu thụ có ý thức thách thức câu chuyện chủ đạo rằng nhiều hơn luôn tốt hơn, thay vào đó cho rằng **sức khỏe toàn diện** thực sự đòi hỏi giải quyết **bất bình đẳng** sâu sắc được tích hợp vào văn hóa tiêu dùng."
+  },
+  "master.language-power": {
+    "emojis": [
+      "🗣️",
+      "📢",
+      "🌐"
+    ],
+    "en": "Language is never neutral: **discourse**, **framing**, and **narrative** all reflect and reinforce existing **power** relations in society. **Propaganda** exploits linguistic tools to manufacture consent and silence dissent, while **censorship** suppresses voices that challenge **dominant** ideologies. The marginalisation of **minority language** communities strips people of their cultural **heritage** and sense of **identity**. **Representation** in public language — who speaks, who is spoken about, and how — determines whose experiences are treated as legitimate. Building truly **multilingual** societies requires more than tolerance; it demands active policies that give equal **expression** to all voices and challenge structures of linguistic **power**.",
+    "vi": "Ngôn ngữ không bao giờ trung lập: **diễn ngôn**, **đóng khung ngôn ngữ** và **tường thuật** đều phản ánh và củng cố các quan hệ **quyền lực** hiện có trong xã hội. **Tuyên truyền** khai thác các công cụ ngôn ngữ để tạo ra sự đồng thuận và bịt miệng sự bất đồng, trong khi **kiểm duyệt** đàn áp những giọng nói thách thức các hệ tư tưởng **thống trị**. Sự ngoại lề hóa các cộng đồng **ngôn ngữ thiểu số** tước bỏ của mọi người **di sản** văn hóa và ý thức **bản sắc** của họ. **Đại diện** trong ngôn ngữ công cộng — ai nói, ai được nói đến và như thế nào — xác định trải nghiệm của ai được coi là hợp pháp. Xây dựng các xã hội **đa ngôn ngữ** thực sự đòi hỏi nhiều hơn là sự khoan dung; nó đòi hỏi các chính sách tích cực trao **biểu đạt** bình đẳng cho tất cả mọi người và thách thức các cấu trúc **quyền lực** ngôn ngữ."
+  }
+}

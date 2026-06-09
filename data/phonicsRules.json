@@ -1,0 +1,31 @@
+{
+  "lessons": [
+    {
+      "id": "s-endings",
+      "title": "-s Endings",
+      "subtitle": "3 cách phát âm đuôi -s",
+      "emoji": "📝",
+      "games": ["sort-rule"],
+      "buckets": [
+        {
+          "label": "/ɪz/",
+          "condition": "Sau 6 sibilant sounds: /s/ /ʃ/ /tʃ/ /z/ /ʒ/ /dʒ/",
+          "tip": "Từ thường kết thúc bằng -es",
+          "words": ["faces", "dishes", "watches", "uses", "judges", "buses", "churches", "races", "sizes", "garages"]
+        },
+        {
+          "label": "/s/",
+          "condition": "Sau voiceless consonants: /θ/ /p/ /k/ /f/ /t/",
+          "tip": "Thời /θ/ Phong /p/ Kiến /k/ Phương /f/ Tây /t/",
+          "words": ["cats", "books", "maps", "laughs", "months", "stops", "backs", "cliffs", "bakes", "helps"]
+        },
+        {
+          "label": "/z/",
+          "condition": "Tất cả âm còn lại (nguyên âm + voiced consonants)",
+          "tip": "Hầu hết các từ thông thường",
+          "words": ["dogs", "birds", "runs", "cars", "trees", "plays", "calls", "dreams", "kings", "moves"]
+        }
+      ]
+    }
+  ]
+}
