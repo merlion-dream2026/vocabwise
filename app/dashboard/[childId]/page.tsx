@@ -184,9 +184,15 @@ export default function ChildRoadmap() {
         <KidFaqSection />
       </div>
 
-      {/* Phonics entry card */}
-      <div className="max-w-lg mx-auto mb-3">
+      {/* Section: Pronunciation */}
+      <div className="max-w-lg mx-auto mb-1">
+        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">🎤 Luyện Phát Âm</p>
         <PhonicsEntryCard childId={childId} syncByLevel={syncByLevel} />
+      </div>
+
+      {/* Section: VocabWise Kids */}
+      <div className="max-w-lg mx-auto mt-5 mb-1">
+        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">📚 VocabWise Kids · 180 chủ đề · Pre-A1 → C2</p>
       </div>
 
       {/* Level cards */}
@@ -249,6 +255,31 @@ export default function ChildRoadmap() {
             </button>
           )
         })}
+      </div>
+
+      {/* Section: VocabWise Academic */}
+      <div className="max-w-lg mx-auto mt-5 mb-3">
+        <p className="text-xs font-black text-gray-400 uppercase tracking-widest px-1 mb-2">🎓 VocabWise Academic · 150 chủ đề · B1 → C2</p>
+        <button
+          onClick={() => router.push('/vocabwise')}
+          className="w-full text-left bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
+        >
+          <div className="flex items-center gap-3">
+            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-3xl shadow-sm flex-shrink-0">
+              🎓
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap mb-0.5">
+                <span className="font-black text-blue-700 text-base">VocabWise Academic</span>
+                <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IELTS · SAT</span>
+              </div>
+              <p className="text-xs font-semibold text-blue-600">
+                Từ vựng học thuật · Passage · 5 dạng bài tập · B1 → C2
+              </p>
+            </div>
+            <span className="text-blue-600 font-black text-lg flex-shrink-0">→</span>
+          </div>
+        </button>
       </div>
 
     </div>
