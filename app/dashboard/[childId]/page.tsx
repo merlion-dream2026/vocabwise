@@ -162,7 +162,7 @@ export default function ChildRoadmap() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
-        <button onClick={() => router.back()} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
+        <button onClick={() => router.push('/kids')} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <div className="text-4xl">{child!.emoji}</div>
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
