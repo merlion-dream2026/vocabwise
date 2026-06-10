@@ -223,7 +223,7 @@ export default function TopicPage() {
       {/* Header */}
       <div className={`${colors.header} text-white`}>
         <div className="max-w-xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
+          <button onClick={() => router.push(backUrl)} className="text-white/70 hover:text-white text-xl">←</button>
           <span className="text-2xl">{(topic as { emoji: string }).emoji}</span>
           <div className="flex-1 min-w-0">
             <h1 className="font-bold text-lg leading-tight">{(topic as { name: string }).name}</h1>

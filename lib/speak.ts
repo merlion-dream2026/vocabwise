@@ -1,3 +1,5 @@
+let noVoiceEventFired = false
+
 // Priority list: most natural → least natural, across browsers/OS
 const PREFERRED_VOICES = [
   'Samantha',                         // macOS / iOS — best quality
@@ -23,12 +25,13 @@ type SpeakOptions = {
   onStart?: () => void
   onEnd?: () => void
   onError?: () => void
+  onNoVoice?: () => void
 }
 
 export function speak(text: string, options: SpeakOptions = {}) {
   if (typeof window === 'undefined' || !window.speechSynthesis) return
 
-  const { rate = 0.9, pitch = 1.0, onStart, onEnd, onError } = options
+  const { rate = 0.9, pitch = 1.0, onStart, onEnd, onError, onNoVoice } = options
 
   // iOS Safari bug: speechSynthesis gets stuck paused after tab switch / screen lock
   if (window.speechSynthesis.paused) {
@@ -45,7 +48,16 @@ export function speak(text: string, options: SpeakOptions = {}) {
   if (onError) utter.onerror = onError
 
   const doSpeak = () => {
-    const voice = pickVoice(window.speechSynthesis.getVoices())
+    const voices = window.speechSynthesis.getVoices()
+    if (voices.length === 0) {
+      onNoVoice?.()
+      if (!noVoiceEventFired) {
+        noVoiceEventFired = true
+        window.dispatchEvent(new CustomEvent('vocabwise:no-voice'))
+      }
+      return
+    }
+    const voice = pickVoice(voices)
     if (voice) utter.voice = voice
     window.speechSynthesis.speak(utter)
   }

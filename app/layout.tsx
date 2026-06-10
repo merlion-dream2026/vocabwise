@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Nunito } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import PwaRegister from '@/components/PwaRegister'
+import NoVoiceBanner from '@/components/NoVoiceBanner'
 import './globals.css'
 
 const nunito = Nunito({
@@ -190,6 +191,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="max-w-md mx-auto min-h-screen">
           {children}
         </main>
+        <NoVoiceBanner />
         <Analytics />
         <PwaRegister />
       </body>
