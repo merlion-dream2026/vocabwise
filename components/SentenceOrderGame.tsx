@@ -9,32 +9,28 @@ import WordIcon from '@/components/WordIcon'
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; words: Word[] }
-type Props = { topic: Topic; level: string; backUrl: string; isStarter?: boolean }
+type Props = { topic: Topic; level: string; backUrl: string; isStarter?: boolean } // isStarter kept for API compat
 
 function shuffle<T>(arr: T[]): T[] { return [...arr].sort(() => Math.random() - 0.5) }
 
 type Token = { id: number; text: string }
 type Question = { word: Word; tokens: Token[]; answer: string; viHint: string }
 
-const MAX_TOKENS_SIMPLE = 7
-
-function buildQuestions(words: Word[], isStarter: boolean): Question[] {
+function buildQuestions(words: Word[]): Question[] {
   const valid = words.filter(w => w.examples && w.examples.length > 0)
   return shuffle(valid).map(word => {
     const ex = word.examples![0]
-    // Strip trailing punctuation for cleaner ordering, re-add at end
     const sentence = ex.en.replace(/[.!?]$/, '').trim()
     const rawTokens = sentence.split(/\s+/)
-    const trimmed = isStarter ? rawTokens.slice(0, MAX_TOKENS_SIMPLE) : rawTokens
     // Use index-based IDs to handle duplicate words
-    const tokens: Token[] = shuffle(trimmed.map((text, i) => ({ id: i, text })))
-    return { word, tokens, answer: trimmed.join(' '), viHint: ex.vi }
+    const tokens: Token[] = shuffle(rawTokens.map((text, i) => ({ id: i, text })))
+    return { word, tokens, answer: sentence, viHint: ex.vi }
   })
 }
 
-export default function SentenceOrderGame({ topic, level, backUrl, isStarter = false }: Props) {
+export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const [questions] = useState(() => buildQuestions(topic.words, isStarter))
+  const [questions] = useState(() => buildQuestions(topic.words))
   const [idx, setIdx] = useState(0)
   const [score, setScore] = useState(0)
   const [wrongWords, setWrongWords] = useState<string[]>([])

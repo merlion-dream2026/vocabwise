@@ -1,7 +1,7 @@
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 
 const LEVEL_TOTAL: Record<string, number> = {
-  seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356,
+  seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
 }
 
 // ── Monthly recap types & helpers ─────────────────────────────────────────────

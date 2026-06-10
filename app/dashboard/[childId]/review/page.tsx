@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { useRouter, useParams } from 'next/navigation'
+import { useRouter, useParams, useSearchParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { initGameSync, getWeakWords } from '@/lib/gameSync'
 import type { ReviewWord } from '@/components/ReviewSession'
@@ -44,7 +44,9 @@ function buildReviewWords(levelData: LevelData | null): ReviewWord[] {
 export default function ReviewPage() {
   const router = useRouter()
   const { childId } = useParams<{ childId: string }>()
+  const searchParams = useSearchParams()
   const [child, setChild] = useState<Child | null>(null)
+  const [activeLevel, setActiveLevel] = useState('')
   const [reviewWords, setReviewWords] = useState<ReviewWord[]>([])
   const [loading, setLoading] = useState(true)
   const [sessionKey, setSessionKey] = useState(0)
@@ -57,14 +59,18 @@ export default function ReviewPage() {
     const found = (kids as Child[]).find(k => k.id === childId)
     if (!found) { router.push('/kids'); return }
     setChild(found)
+    // Use level from URL param if present (e.g. from "Ôn ngay" on a specific level page)
+    // so that weak words for the browsed level are loaded, not just the profile level
+    const level = searchParams.get('level') ?? found.level
+    setActiveLevel(level)
     const [syncData, levelData] = await Promise.all([
-      fetch(`/api/sync/${childId}?level=${found.level}`).then(r => r.json()).catch(() => null),
-      fetch(`/api/words/${found.level}`).then(r => r.json()).catch(() => null),
+      fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()).catch(() => null),
+      fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
     ])
-    initGameSync(childId, found.level, syncData)
+    initGameSync(childId, level, syncData)
     setReviewWords(buildReviewWords(levelData))
     setLoading(false)
-  }, [childId, router])
+  }, [childId, router, searchParams])
 
   useEffect(() => { loadData() }, [loadData])
 
@@ -81,7 +87,7 @@ export default function ReviewPage() {
   )
 
   if (reviewWords.length === 0) {
-    const isStarter = child?.level === 'starter'
+    const isStarter = activeLevel === 'starter'
     const headerBg = isStarter
       ? 'bg-gradient-to-br from-pink-400 to-rose-400'
       : 'bg-gradient-to-br from-blue-500 to-cyan-400'
@@ -111,7 +117,7 @@ export default function ReviewPage() {
     <ReviewSession
       key={sessionKey}
       words={reviewWords}
-      level={child!.level}
+      level={activeLevel}
       backUrl={backUrl}
       onSessionDone={handleSessionDone}
     />

@@ -194,7 +194,7 @@ export default function LevelTopicsPage() {
       {/* Weak words review banner */}
       {totalWeak > 0 && (
         <div className="max-w-2xl mx-auto px-4 pt-4">
-          <button onClick={() => router.push(`/dashboard/${childId}/review`)}
+          <button onClick={() => router.push(`/dashboard/${childId}/review?level=${level}`)}
             className="w-full bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 flex items-center justify-between active:scale-95 transition-transform">
             <div className="flex items-center gap-2">
               <span className="text-xl">⚠️</span>

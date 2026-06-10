@@ -48,10 +48,6 @@ function PlanBadge({ plan, planEndDate }: { plan: string; planEndDate?: string |
   )
 }
 
-const LEVEL_WORD_COUNTS: Record<string, number> = {
-  seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356,
-}
-
 export default function HomePage() {
   const router = useRouter()
   const [session, setSession] = useState<Session | null>(null)
@@ -215,9 +211,7 @@ export default function HomePage() {
         ) : (
           children.map((child) => {
             const cfg = THEME_CONFIG[child.theme ?? 'pink'] ?? THEME_CONFIG.pink
-            const lbl = LEVEL_LABEL[child.level] ?? LEVEL_LABEL.starter
-            const wordCount = LEVEL_WORD_COUNTS[child.level] ?? 400
-            const topicCount = 30
+            const activeLbl = LEVEL_LABEL[child.level]
 
             // Streak badge
             const streakCur = child.streak?.current ?? 0
@@ -245,10 +239,11 @@ export default function HomePage() {
                   <div className="flex-1 min-w-0">
                     <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5 flex-wrap`}>
                       {child.name}
-                      <span className="text-sm font-semibold opacity-50">({lbl.label})</span>
                       {child.pin && <span className="text-base">🔒</span>}
                     </h2>
-                    <p className="text-gray-500 font-semibold text-sm mt-0.5">{lbl.desc}</p>
+                    <p className="text-gray-500 font-semibold text-sm mt-0.5">
+                      {activeLbl ? `Đang học: ${activeLbl.label} · ${activeLbl.desc.split(' · ')[0]}` : 'Pre-A1 → C1 · 6 levels · 2.300+ từ'}
+                    </p>
                     {/* Streak badge */}
                     {streakBadge && (
                       <span className={`inline-flex items-center gap-1 text-xs font-black px-2.5 py-1 rounded-full mt-1.5 ${streakBadge.cls}`}>
@@ -260,9 +255,9 @@ export default function HomePage() {
 
                 {/* Stats */}
                 <div className={`flex gap-4 mb-3 text-sm font-bold ${cfg.text}`}>
-                  <span>📚 {topicCount} chủ đề</span>
+                  <span>📚 180 chủ đề</span>
                   <span>·</span>
-                  <span>🔤 {wordCount} từ</span>
+                  <span>🔤 2.300+ từ</span>
                 </div>
 
                 {/* CTA */}

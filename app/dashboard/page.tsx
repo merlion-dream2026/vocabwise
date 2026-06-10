@@ -36,9 +36,8 @@ function countPhonicsmastered(mastery: PhonicsMastery): number {
   ).length
 }
 
-const AVAILABLE_LEVELS = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
 const LEVEL_WORD_COUNTS: Record<string, number> = {
-  seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356,
+  seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
 }
 
 const LEVEL_INFO_MAP: Record<string, { label: string; desc: string; cefr: string }> = {
@@ -135,7 +134,6 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
 }) {
   const [name, setName] = useState('')
   const [emoji, setEmoji] = useState('👧')
-  const [level, setLevel] = useState('starter')
   const [theme, setTheme] = useState<'pink' | 'blue'>('pink')
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
@@ -146,7 +144,7 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
     setSaving(true)
     const res = await fetch('/api/children', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, emoji, level, theme }),
+      body: JSON.stringify({ name, emoji, level: 'seeker', theme }),
     })
     setSaving(false)
     if (res.ok) { onAdded(await res.json()) }
@@ -200,23 +198,6 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
               </div>
             </div>
 
-            {/* Level */}
-            <div>
-              <p className="text-xs font-bold text-gray-500 mb-2">Level bắt đầu</p>
-              <div className={`grid gap-2 ${AVAILABLE_LEVELS.length <= 2 ? 'grid-cols-2' : AVAILABLE_LEVELS.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
-                {AVAILABLE_LEVELS.map(key => {
-                  const info = LEVEL_INFO_MAP[key]
-                  return (
-                    <button key={key} type="button" onClick={() => setLevel(key)}
-                      className={`border-2 rounded-2xl p-3 text-left transition-all ${level === key ? 'border-purple-400 bg-purple-50' : 'border-gray-200 hover:border-gray-300'}`}>
-                      <div className="font-black text-xs text-gray-800">{info.label} <span className="text-gray-400 font-semibold">{info.cefr}</span></div>
-                      <div className="text-xs text-gray-500 mt-0.5">{info.desc}</div>
-                    </button>
-                  )
-                })}
-              </div>
-            </div>
-
             {msg && <p className="text-sm text-red-500 font-semibold">{msg}</p>}
             <button type="submit" disabled={saving || !name.trim()}
               className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform">
@@ -235,7 +216,6 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
 }) {
   const [name, setName] = useState(child.name)
   const [emoji, setEmoji] = useState(child.emoji)
-  const [level, setLevel] = useState(child.level)
   const [theme, setTheme] = useState<'pink' | 'blue'>((child.theme as 'pink' | 'blue') ?? 'pink')
   const [saving, setSaving] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
@@ -246,7 +226,7 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
     setSaving(true)
     const res = await fetch(`/api/children/${child.id}`, {
       method: 'PATCH', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, emoji, level, theme }),
+      body: JSON.stringify({ name, emoji, theme }),
     })
     setSaving(false)
     if (res.ok) { onSaved(await res.json()) }
@@ -295,23 +275,6 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
               <button key={e} type="button" onClick={() => setEmoji(e)}
                 className={`text-2xl p-1.5 rounded-xl transition-all ${emoji === e ? ringCls : 'hover:bg-gray-100'}`}>{e}</button>
             ))}
-          </div>
-
-          {/* Level */}
-          <div>
-            <p className="text-xs font-bold text-gray-500 mb-2">Level</p>
-            <div className={`grid gap-2 ${AVAILABLE_LEVELS.length <= 2 ? 'grid-cols-2' : AVAILABLE_LEVELS.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
-              {AVAILABLE_LEVELS.map(key => {
-                const info = LEVEL_INFO_MAP[key]
-                return (
-                  <button key={key} type="button" onClick={() => setLevel(key)}
-                    className={`border-2 rounded-2xl p-3 text-left transition-all ${level === key ? 'border-purple-400 bg-purple-50' : 'border-gray-200'}`}>
-                    <div className="font-black text-xs text-gray-800">{info.label} <span className="text-gray-400 font-semibold">{info.cefr}</span></div>
-                    <div className="text-xs text-gray-500 mt-0.5">{info.desc}</div>
-                  </button>
-                )
-              })}
-            </div>
           </div>
 
           {msg && <p className="text-sm">{msg}</p>}
@@ -400,7 +363,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Vừa mua Pro xong, tôi cần làm những gì?',
-        a: 'Sau khi thanh toán và được kích hoạt Pro, bạn nên làm 3 việc ngay:\n\n① Đổi mật khẩu (bắt buộc)\nMật khẩu ban đầu do admin đặt. Vào Dashboard → Settings → "🔑 Đổi mật khẩu" để đổi sang mật khẩu riêng của gia đình.\n\n② Tạo hồ sơ cho bé\nVào Dashboard → "➕ Thêm hồ sơ bé". Tạo hồ sơ riêng cho từng bé với tên, emoji và level phù hợp. Gói Pro mặc định tối đa 3 bé.\n\n③ Cài app lên màn hình chính\nMở trình duyệt trên điện thoại → Bấm "Chia sẻ" (iPhone) hoặc menu "⋮" (Android) → "Thêm vào màn hình chính" — dùng như app thật, không cần cài từ App Store.',
+        a: 'Sau khi thanh toán và được kích hoạt Pro, bạn nên làm 3 việc ngay:\n\n① Đổi mật khẩu (bắt buộc)\nMật khẩu ban đầu do admin đặt. Vào Dashboard → Settings → "🔑 Đổi mật khẩu" để đổi sang mật khẩu riêng của gia đình.\n\n② Tạo hồ sơ cho bé\nVào Dashboard → "➕ Thêm hồ sơ bé". Tạo hồ sơ riêng cho từng bé với tên và emoji. Bé có thể tự chọn level phù hợp khi bắt đầu học. Gói Pro mặc định tối đa 3 bé.\n\n③ Cài app lên màn hình chính\nMở trình duyệt trên điện thoại → Bấm "Chia sẻ" (iPhone) hoặc menu "⋮" (Android) → "Thêm vào màn hình chính" — dùng như app thật, không cần cài từ App Store.',
       },
       {
         q: 'Làm sao đổi mật khẩu?',

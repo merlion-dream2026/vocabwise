@@ -16,7 +16,7 @@ const LEVEL_CONFIG: Record<LevelKey, {
   scholar:  { label: 'Scholar',  cefr: 'B2',     emoji: '🎓', gradient: 'from-indigo-400 to-violet-500', bg: 'bg-gradient-to-br from-indigo-50 to-violet-50',  border: 'border-indigo-200', text: 'text-indigo-700', btn: 'bg-indigo-500',  bar: 'from-indigo-400 to-violet-400'  },
   master:   { label: 'Master',   cefr: 'C1-C2',  emoji: '🏆', gradient: 'from-gray-600 to-gray-800',     bg: 'bg-gradient-to-br from-gray-50 to-slate-100',    border: 'border-gray-300',   text: 'text-gray-700',   btn: 'bg-gray-700',    bar: 'from-gray-500 to-gray-700'      },
 }
-const WORD_COUNTS: Record<string, number> = { seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 404, master: 356 }
+const WORD_COUNTS: Record<string, number> = { seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303 }
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type SyncRow = { seen?: string[]; mastery?: Record<string, { flashcard: boolean; games: string[] }> }
@@ -66,8 +66,9 @@ export default function KidsLevelPage() {
           const seenWords = syncRow?.seen?.length ?? 0
           const masteredTopics = Object.values(syncRow?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
           const pct = totalWords > 0 ? Math.round((seenWords / totalWords) * 100) : 0
-          const isCurrent = level === child!.level
           const isNotStarted = seenWords === 0 && masteredTopics === 0
+          // Show "Đang học" on the last level the child was active in (auto-tracked, not assigned)
+          const isCurrent = level === child!.level && !isNotStarted
 
           return (
             <button key={level}
@@ -83,7 +84,7 @@ export default function KidsLevelPage() {
                     <span className={`font-black ${cfg.text} text-base`}>{cfg.label}</span>
                     <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">{cfg.cefr}</span>
                     {isCurrent && (
-                      <span className={`text-xs px-2 py-0.5 rounded-full font-bold text-white ${cfg.btn}`}>Level hiện tại</span>
+                      <span className={`text-xs px-2 py-0.5 rounded-full font-bold text-white ${cfg.btn}`}>Đang học</span>
                     )}
                   </div>
                   <p className={`text-xs font-semibold ${isNotStarted ? 'text-gray-400' : cfg.text}`}>

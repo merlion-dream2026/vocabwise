@@ -64,11 +64,12 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   const body = await req.json().catch(() => ({}))
   const { level, seen, weak_words, streak, battle, mastery, history, srs } = body
 
+  const activeLevel = level ?? child.level
   const { data, error } = await supabase
     .from('vocab_sync')
     .upsert({
       child_id: params.childId,
-      level: level ?? child.level,
+      level: activeLevel,
       seen: seen ?? [],
       weak_words: weak_words ?? {},
       streak: streak ?? {},
@@ -82,6 +83,12 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
+
+  // Auto-track last active vocab level on child profile (excludes 'phonics')
+  const VOCAB_LEVELS = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
+  if (VOCAB_LEVELS.includes(activeLevel)) {
+    await supabase.from('children').update({ level: activeLevel }).eq('id', params.childId)
+  }
 
   // 2A: Trigger signup referral reward nếu bé đã học được gì đó (seen không rỗng)
   // Fire-and-forget — không block response
