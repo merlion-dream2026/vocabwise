@@ -15,7 +15,6 @@ const HIDE_ROOTS = new Set([
   'privacy','terms','superadmin',
 ])
 
-// Last URL segment → hide nav (immersive full-screen pages)
 const HIDE_TAILS = new Set([...GAME_SLUGS, 'srs', 'review', 'stress'])
 
 function shouldShowNav(pathname: string): boolean {
@@ -27,15 +26,18 @@ function shouldShowNav(pathname: string): boolean {
 }
 
 function getChildIdFromPath(pathname: string): string | null {
-  return pathname.match(/^\/dashboard\/([^/]+)/)?.[1] ?? null
+  const m = pathname.match(/^\/dashboard\/([^/]+)/)
+  const id = m?.[1]
+  // exclude the bare /dashboard route (no childId segment)
+  return id && id !== '' ? id : null
 }
 
 function getActiveTab(pathname: string, childId: string | null): string {
-  if (pathname === '/kids') return 'switch'
+  if (pathname === '/kids') return 'profile'
+  if (pathname === '/dashboard') return 'dashboard'
   if (pathname.startsWith('/vocabwise')) return 'academic'
   if (!childId) return ''
   const base = `/dashboard/${childId}`
-  if (pathname === base) return 'home'
   const first = pathname.slice(base.length + 1).split('/')[0]
   if (first === 'phonics') return 'phonics'
   if (first === 'kids' || LEVEL_SLUGS.has(first)) return 'daily'
@@ -43,19 +45,19 @@ function getActiveTab(pathname: string, childId: string | null): string {
 }
 
 const TABS = [
-  { key: 'home',     label: 'Home',    icon: '🏠', needsChild: true  },
-  { key: 'daily',    label: 'Daily',   icon: '📖', needsChild: true  },
-  { key: 'phonics',  label: 'Phát âm', icon: '🔊', needsChild: true  },
-  { key: 'academic', label: 'Academic',icon: '🎓', needsChild: false },
-  { key: 'switch',   label: 'Đổi bé',  icon: '👤', needsChild: false },
+  { key: 'profile',   label: 'Profile',  icon: '👤', needsChild: false },
+  { key: 'phonics',   label: 'Phát âm',  icon: '🔊', needsChild: true  },
+  { key: 'daily',     label: 'Daily',    icon: '📖', needsChild: true  },
+  { key: 'academic',  label: 'Academic', icon: '🎓', needsChild: false },
+  { key: 'dashboard', label: 'Dashboard',icon: '📊', needsChild: false },
 ]
 
 const DEST: Record<string, (id: string) => string> = {
-  home:     id => `/dashboard/${id}`,
-  daily:    id => `/dashboard/${id}/kids`,
-  phonics:  id => `/dashboard/${id}/phonics`,
-  academic: ()  => '/vocabwise',
-  switch:   ()  => '/kids',
+  profile:   ()  => '/kids',
+  phonics:   id  => `/dashboard/${id}/phonics`,
+  daily:     id  => `/dashboard/${id}/kids`,
+  academic:  ()  => '/vocabwise',
+  dashboard: ()  => '/dashboard',
 }
 
 export default function BottomNav() {
@@ -99,20 +101,20 @@ export default function BottomNav() {
               onClick={() => go(key)}
               disabled={isDisabled}
               className={`flex flex-col items-center justify-center gap-0.5 flex-1 transition-all duration-150
-                ${isActive
-                  ? 'text-purple-600'
-                  : isDisabled
-                    ? 'text-gray-200 cursor-default'
-                    : 'text-gray-400 active:scale-90'
-                }`}
+                ${isDisabled ? 'cursor-default' : 'active:scale-90'}`}
             >
-              <span className={`text-[18px] leading-none transition-transform duration-150 ${isActive ? 'scale-110' : ''}`}>
-                {icon}
+              {/* Pill chip behind icon when active */}
+              <span className={`flex items-center justify-center w-9 h-6 rounded-full transition-all duration-150
+                ${isActive ? 'bg-purple-100' : ''}`}>
+                <span className={`text-[18px] leading-none transition-transform duration-150
+                  ${isActive ? 'scale-110' : ''}`}>
+                  {icon}
+                </span>
               </span>
-              <span className={`text-[9px] font-bold leading-none tracking-tight ${isActive ? 'text-purple-600' : ''}`}>
+              <span className={`text-[10px] font-bold leading-none tracking-tight
+                ${isActive ? 'text-purple-600' : isDisabled ? 'text-gray-200' : 'text-gray-400'}`}>
                 {label}
               </span>
-              {isActive && <span className="w-4 h-0.5 rounded-full bg-purple-400 mt-0.5" />}
             </button>
           )
         })}
