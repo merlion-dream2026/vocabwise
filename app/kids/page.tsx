@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import wordTopicIndex from '@/data/wordTopicIndex.json'
 
 type Child = {
   id: string; name: string; emoji: string; level: string
@@ -77,8 +78,10 @@ function computeStats(sync: Record<string, SyncLevel>): ChildStats {
   }
 
   const dailySeen = highestLevel ? (sync[highestLevel]?.seen ?? []) : []
-  const dailyTopics = new Set(dailySeen.map(s => s.split('__')[0]).filter(Boolean)).size
   const dailyWords = dailySeen.length
+  // Count distinct topics using prebuilt word→topicIndex map
+  const topicMap = (wordTopicIndex as Record<string, Record<string, number>>)[highestLevel ?? ''] ?? {}
+  const dailyTopics = new Set(dailySeen.map(w => topicMap[w]).filter(i => i !== undefined)).size
 
   const phonicsMastery = (sync['phonics']?.mastery ?? {}) as Record<string, { flashcard: boolean }>
   const phonicsMastered = Object.values(phonicsMastery).filter(m => m.flashcard).length
@@ -359,40 +362,42 @@ export default function HomePage() {
                 </div>
 
                 {/* Module progress rows */}
-                <div className="space-y-2 mb-4">
+                <div className="space-y-2.5 mb-4">
                   {/* Phonics */}
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="w-24 font-bold text-gray-500 flex-shrink-0">🔤 Phát âm</span>
+                  <div>
+                    <div className="flex items-center justify-between text-xs mb-1">
+                      <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
+                      <span className="font-black text-gray-600">{stats.phonicsMastered}/31 bài</span>
+                    </div>
                     <MiniBar value={stats.phonicsMastered} max={31} gradient={cfg.gradient} />
-                    <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">{stats.phonicsMastered}/31</span>
                   </div>
 
                   {/* Daily */}
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="w-24 font-bold text-gray-500 flex-shrink-0 truncate">
-                      📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
-                    </span>
+                  <div>
+                    <div className="flex items-center justify-between text-xs mb-1">
+                      <span className={`font-bold ${cfg.text}`}>
+                        📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
+                      </span>
+                      <span className="font-black text-gray-600">
+                        {stats.dailyTopics}/30 chủ đề · {stats.dailyWords}/400 từ
+                      </span>
+                    </div>
                     <MiniBar value={stats.dailyWords} max={400} gradient={cfg.gradient} />
-                    <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">
-                      {stats.dailyTopics > 0 ? `${stats.dailyTopics}/30` : '0/30'}
-                    </span>
                   </div>
 
                   {/* Academic */}
-                  {stats.academicBook ? (
-                    <div className="flex items-center gap-2 text-xs">
-                      <span className="w-24 font-bold text-gray-500 flex-shrink-0 truncate">
-                        🎓 {stats.academicBook} · {stats.academicCefr}
+                  <div>
+                    <div className="flex items-center justify-between text-xs mb-1">
+                      <span className={`font-bold ${cfg.text}`}>
+                        🎓 {stats.academicBook ? `${stats.academicBook} · ${stats.academicCefr}` : 'Academic'}
                       </span>
-                      <MiniBar value={stats.academicCompleted} max={stats.academicTotal} gradient={cfg.gradient} />
-                      <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">{stats.academicCompleted}/{stats.academicTotal}</span>
+                      {stats.academicBook
+                        ? <span className="font-black text-gray-600">{stats.academicCompleted}/{stats.academicTotal} chủ đề</span>
+                        : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>
+                      }
                     </div>
-                  ) : (
-                    <div className="flex items-center gap-2 text-xs">
-                      <span className="w-24 font-bold text-gray-500 flex-shrink-0">🎓 Academic</span>
-                      <span className="text-gray-300 font-semibold text-[11px]">Chưa bắt đầu</span>
-                    </div>
-                  )}
+                    {stats.academicBook && <MiniBar value={stats.academicCompleted} max={stats.academicTotal} gradient={cfg.gradient} />}
+                  </div>
                 </div>
 
                 {/* CTA */}
