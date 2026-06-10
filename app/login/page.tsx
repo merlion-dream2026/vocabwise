@@ -8,7 +8,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 
 const FEATURES = [
   { emoji: '🎯', title: '6 Levels', sub: 'Pre-A1 → C1-C2' },
-  { emoji: '📖', title: '2.300+ từ', sub: 'Chọn lọc theo CEFR' },
+  { emoji: '📖', title: '4.500+ từ', sub: 'Chọn lọc theo CEFR' },
   { emoji: '🎮', title: '10 Games', sub: 'Học mà như chơi' },
   { emoji: '🎤', title: 'Phát âm cùng AI ✨', sub: 'Bé phát âm, AI chấm điểm ngay!' },
   { emoji: '📲', title: 'Dùng như app thật', sub: 'Không cài · Tự cập nhật · iPhone, Android, iPad, PC', wide: true },

@@ -28,6 +28,86 @@ const THEME_CONFIG: Record<string, {
   blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
 }
 
+// ── Stats helpers ────────────────────────────────────────────
+const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
+
+const XP_BADGES = [
+  { minXP: 3000, icon: '👑', label: 'Master',   cls: 'bg-yellow-100 text-yellow-700' },
+  { minXP: 1000, icon: '🏆', label: 'Champion', cls: 'bg-orange-100 text-orange-700' },
+  { minXP:  300, icon: '🌟', label: 'Rising',   cls: 'bg-sky-100 text-sky-700'       },
+  { minXP:   50, icon: '🌱', label: 'Beginner', cls: 'bg-green-100 text-green-700'   },
+]
+
+const BOOK_META: Record<string, { label: string; cefr: string; total: number }> = {
+  'b1': { label: 'Book 1', cefr: 'A1–A2', total: 60 },
+  'b2': { label: 'Book 2', cefr: 'B1–B2', total: 60 },
+  'b3': { label: 'Book 3', cefr: 'C1–C2', total: 30 },
+}
+
+type SyncLevel = {
+  seen?: string[]
+  mastery?: Record<string, unknown>
+  history?: Record<string, { words: number; games: number; xp: number }>
+}
+
+type ChildStats = {
+  totalXP: number
+  badge: typeof XP_BADGES[number] | null
+  highestLevel: string | null
+  dailyTopics: number
+  dailyWords: number
+  phonicsMastered: number
+  academicBook: string | null
+  academicCefr: string | null
+  academicCompleted: number
+  academicTotal: number
+}
+
+function computeStats(sync: Record<string, SyncLevel>): ChildStats {
+  let totalXP = 0
+  for (const lv of LEVEL_ORDER) {
+    for (const h of Object.values(sync[lv]?.history ?? {})) totalXP += h.xp ?? 0
+  }
+
+  const badge = XP_BADGES.find(b => totalXP >= b.minXP) ?? null
+
+  let highestLevel: string | null = null
+  for (const lv of [...LEVEL_ORDER].reverse()) {
+    if ((sync[lv]?.seen?.length ?? 0) > 0) { highestLevel = lv; break }
+  }
+
+  const dailySeen = highestLevel ? (sync[highestLevel]?.seen ?? []) : []
+  const dailyTopics = new Set(dailySeen.map(s => s.split('__')[0]).filter(Boolean)).size
+  const dailyWords = dailySeen.length
+
+  const phonicsMastery = (sync['phonics']?.mastery ?? {}) as Record<string, { flashcard: boolean }>
+  const phonicsMastered = Object.values(phonicsMastery).filter(m => m.flashcard).length
+
+  const acMastery = (sync['academic']?.mastery ?? {}) as Record<string, { completed?: boolean }>
+  let academicBook = null, academicCefr = null, academicCompleted = 0, academicTotal = 0
+  for (const [prefix, info] of Object.entries(BOOK_META).reverse()) {
+    const entries = Object.entries(acMastery).filter(([k]) => k.startsWith(prefix + '-'))
+    if (entries.length > 0) {
+      academicBook = info.label; academicCefr = info.cefr
+      academicCompleted = entries.filter(([, v]) => (v as { completed?: boolean }).completed).length
+      academicTotal = info.total
+      break
+    }
+  }
+
+  return { totalXP, badge, highestLevel, dailyTopics, dailyWords, phonicsMastered, academicBook, academicCefr, academicCompleted, academicTotal }
+}
+
+function MiniBar({ value, max, gradient }: { value: number; max: number; gradient: string }) {
+  const pct = max > 0 ? Math.min(100, Math.round(value / max * 100)) : 0
+  return (
+    <div className="flex-1 h-1.5 bg-black/10 rounded-full overflow-hidden min-w-0">
+      <div className={`h-full bg-gradient-to-r ${gradient} rounded-full transition-all duration-500`} style={{ width: `${pct}%` }} />
+    </div>
+  )
+}
+// ─────────────────────────────────────────────────────────────
+
 const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
   free:     { label: 'FREE',     cls: 'bg-gray-100 text-gray-500' },
   '2weeks': { label: '🎁 GIFT2W', cls: 'bg-pink-100 text-pink-700' },
@@ -62,6 +142,7 @@ export default function HomePage() {
   const [battleOpen, setBattleOpen] = useState(false)
   const [battleData, setBattleData] = useState<Array<{ child: Child; words: number; games: number; xp: number }>>([])
   const [battleLoading, setBattleLoading] = useState(false)
+  const [syncMap, setSyncMap] = useState<Record<string, Record<string, SyncLevel>>>({})
 
   useExpiryGuard(session)
 
@@ -103,8 +184,24 @@ export default function HomePage() {
     ]).then(([me, kids]) => {
       if (!me) { router.replace('/login'); return }
       setSession(me)
-      setChildren(Array.isArray(kids) ? kids : [])
+      const childList: Child[] = Array.isArray(kids) ? kids : []
+      setChildren(childList)
       setLoading(false)
+      // Fetch sync data for all children in parallel
+      if (childList.length > 0) {
+        Promise.all(
+          childList.map(kid =>
+            fetch(`/api/sync/${kid.id}`)
+              .then(r => r.ok ? r.json() : {})
+              .catch(() => ({}))
+              .then(data => ({ id: kid.id, data }))
+          )
+        ).then(results => {
+          const map: Record<string, Record<string, SyncLevel>> = {}
+          for (const { id, data } of results) map[id] = data
+          setSyncMap(map)
+        })
+      }
     })
   }, [router])
 
@@ -211,7 +308,6 @@ export default function HomePage() {
         ) : (
           children.map((child) => {
             const cfg = THEME_CONFIG[child.theme ?? 'pink'] ?? THEME_CONFIG.pink
-            const activeLbl = LEVEL_LABEL[child.level]
 
             // Streak badge
             const streakCur = child.streak?.current ?? 0
@@ -225,39 +321,78 @@ export default function HomePage() {
                   ? { icon: '⚡', label: `${streakCur} ngày`, cls: 'bg-yellow-100 text-yellow-700' }
                   : { icon: '💤', label: `${streakCur} ngày`, cls: 'bg-gray-100 text-gray-400' }
 
+            const stats = computeStats(syncMap[child.id] ?? {})
+            const activeLevelLbl = LEVEL_LABEL[stats.highestLevel ?? child.level]
+
             return (
               <button
                 key={child.id}
                 onClick={() => handleChildTap(child)}
-                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-6 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
+                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-5 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
               >
-                {/* Avatar + Name */}
+                {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-5xl shadow-md flex-shrink-0`}>
+                  <div className={`w-18 h-18 w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-4xl shadow-md flex-shrink-0`}>
                     {child.emoji}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5 flex-wrap`}>
+                    <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5`}>
                       {child.name}
                       {child.pin && <span className="text-base">🔒</span>}
                     </h2>
-                    <p className="text-gray-500 font-semibold text-sm mt-0.5">
-                      {activeLbl ? `Đang học: ${activeLbl.label} · ${activeLbl.desc.split(' · ')[0]}` : 'Pre-A1 → C1 · 6 levels · 2.300+ từ'}
-                    </p>
-                    {/* Streak badge */}
-                    {streakBadge && (
-                      <span className={`inline-flex items-center gap-1 text-xs font-black px-2.5 py-1 rounded-full mt-1.5 ${streakBadge.cls}`}>
-                        {streakBadge.icon} Streak {streakBadge.label}
-                      </span>
-                    )}
+                    <div className="flex items-center gap-1.5 flex-wrap mt-1">
+                      {stats.totalXP > 0 && (
+                        <span className="text-xs font-black text-yellow-600">⭐ {stats.totalXP.toLocaleString()} XP</span>
+                      )}
+                      {stats.badge && (
+                        <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${stats.badge.cls}`}>
+                          {stats.badge.icon} {stats.badge.label}
+                        </span>
+                      )}
+                      {streakBadge && (
+                        <span className={`inline-flex items-center gap-0.5 text-[11px] font-black px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
+                          {streakBadge.icon} {streakBadge.label}
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
 
-                {/* Stats */}
-                <div className={`flex gap-4 mb-3 text-sm font-bold ${cfg.text}`}>
-                  <span>📚 180 chủ đề</span>
-                  <span>·</span>
-                  <span>🔤 2.300+ từ</span>
+                {/* Module progress rows */}
+                <div className="space-y-2 mb-4">
+                  {/* Phonics */}
+                  <div className="flex items-center gap-2 text-xs">
+                    <span className="w-24 font-bold text-gray-500 flex-shrink-0">🔤 Phát âm</span>
+                    <MiniBar value={stats.phonicsMastered} max={31} gradient={cfg.gradient} />
+                    <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">{stats.phonicsMastered}/31</span>
+                  </div>
+
+                  {/* Daily */}
+                  <div className="flex items-center gap-2 text-xs">
+                    <span className="w-24 font-bold text-gray-500 flex-shrink-0 truncate">
+                      📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
+                    </span>
+                    <MiniBar value={stats.dailyWords} max={400} gradient={cfg.gradient} />
+                    <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">
+                      {stats.dailyTopics > 0 ? `${stats.dailyTopics}/30` : '0/30'}
+                    </span>
+                  </div>
+
+                  {/* Academic */}
+                  {stats.academicBook ? (
+                    <div className="flex items-center gap-2 text-xs">
+                      <span className="w-24 font-bold text-gray-500 flex-shrink-0 truncate">
+                        🎓 {stats.academicBook} · {stats.academicCefr}
+                      </span>
+                      <MiniBar value={stats.academicCompleted} max={stats.academicTotal} gradient={cfg.gradient} />
+                      <span className="font-black text-gray-600 flex-shrink-0 w-10 text-right">{stats.academicCompleted}/{stats.academicTotal}</span>
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-2 text-xs">
+                      <span className="w-24 font-bold text-gray-500 flex-shrink-0">🎓 Academic</span>
+                      <span className="text-gray-300 font-semibold text-[11px]">Chưa bắt đầu</span>
+                    </div>
+                  )}
                 </div>
 
                 {/* CTA */}

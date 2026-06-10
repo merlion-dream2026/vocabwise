@@ -409,7 +409,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 180 chủ đề · 2.300+ từ vựng (6 levels)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ SRS ôn tập từ yếu · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 30 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
+        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 180 chủ đề · 4.500+ từ vựng (6 levels)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ SRS ôn tập từ yếu · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 30 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
       },
       {
         q: 'Module Word Stress là gì? (Pro 3 tháng trở lên)',
@@ -537,7 +537,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
       {session.plan === 'free' && (
         <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-2xl p-4 text-center">
           <p className="text-sm text-purple-700 font-bold">🔒 Gói Free: tối đa {session.max_kids ?? 1} hồ sơ · 1 chủ đề/level</p>
-          <p className="text-xs text-purple-500 mt-1">Nâng cấp Pro để mở toàn bộ 2.300+ từ và 10 game</p>
+          <p className="text-xs text-purple-500 mt-1">Nâng cấp Pro để mở toàn bộ 4.500+ từ và 10 game</p>
         </div>
       )}
 

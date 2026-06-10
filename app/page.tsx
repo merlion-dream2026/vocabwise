@@ -19,7 +19,7 @@ const SECTIONS = [
     title: 'VocabWise Daily',
     badge: 'Trẻ em · 4–15 tuổi',
     badgeCls: 'bg-purple-100 text-purple-700',
-    desc: '2.300+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
+    desc: '4.500+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
     available: true,
     cardCls: 'border-purple-200 bg-purple-50/50',
     accentCls: 'text-purple-600',
@@ -39,7 +39,7 @@ const SECTIONS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 2.300+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module học phát âm IPA là gì?',
@@ -67,17 +67,17 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Dùng thử miễn phí được không?',
-    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho bé học 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi, module phát âm IPA đầy đủ và dashboard phụ huynh trong 7 ngày.\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ 180 chủ đề · 2.300+ từ · AI phát âm không giới hạn và nhiều tính năng độc quyền hơn.',
+    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho bé học 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi, module phát âm IPA đầy đủ và dashboard phụ huynh trong 7 ngày.\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ 180 chủ đề · 4.500+ từ · AI phát âm không giới hạn và nhiều tính năng độc quyền hơn.',
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có: 180 chủ đề · 2.300+ từ · 10 trò chơi/chủ đề · Phonics IPA đầy đủ · SRS ôn từ yếu · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có: 180 chủ đề · 4.500+ từ · 10 trò chơi/chủ đề · Phonics IPA đầy đủ · SRS ôn từ yếu · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 
 const FEATURES = [
   { emoji: '🌱', label: '6 cấp độ', desc: 'Pre-A1 → C1-C2 (Seeker → Master)' },
-  { emoji: '📖', label: '2.300+ từ vựng', desc: 'Chọn lọc theo khung CEFR' },
+  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR' },
   { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...' },
   { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay!' },
   { emoji: '🔤', label: 'Học phát âm IPA', desc: 'Nguyên âm, phụ âm, minimal pairs theo chuẩn Cambridge' },
@@ -89,7 +89,7 @@ const FEATURES = [
 const SCREENSHOTS = [
   { src: '/screenshots/select%20profile.jpg',              caption: 'Mỗi bé một hồ sơ riêng' },
   { src: '/screenshots/select%20level.jpg',                caption: '6 cấp độ từ Pre-A1 đến C1-C2' },
-  { src: '/screenshots/select%20vocab%20topic.jpg',        caption: '30 chủ đề · 2.300+ từ vựng' },
+  { src: '/screenshots/select%20vocab%20topic.jpg',        caption: '30 chủ đề · 4.500+ từ vựng' },
   { src: '/screenshots/select%20game.jpg',                 caption: '10 trò chơi đa dạng mỗi chủ đề' },
   { src: '/screenshots/demo%20flashcard.jpg',              caption: 'Flashcard — học từ trong ngữ cảnh' },
   { src: '/screenshots/demo%20game%20ghep%20chu.jpg',      caption: 'Ghép chữ — luyện chính tả vui' },
@@ -396,7 +396,7 @@ export default function LandingPage() {
             <p className="text-xs text-gray-400 mt-0.5 mb-2.5">59k/tháng</p>
             <ul className="text-xs md:text-sm text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
-              <li>✅ 2.300+ từ</li>
+              <li>✅ 4.500+ từ</li>
               <li>✅ AI phát âm<br/><span className="text-gray-400">30 lần/ngày</span></li>
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
@@ -452,7 +452,7 @@ export default function LandingPage() {
         <div className="mt-3 bg-purple-50 rounded-2xl p-3">
           <p className="text-xs font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
           <div className="flex flex-wrap gap-1.5">
-            {['📚 180 chủ đề · 2.300+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🔁 SRS ôn từ yếu', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
+            {['📚 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🔁 SRS ôn từ yếu', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
               <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</span>
             ))}
           </div>

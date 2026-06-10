@@ -197,7 +197,7 @@ export default function ChildRoadmap() {
               <p className="text-xs font-semibold text-purple-600">
                 {kidsStarted
                   ? `${totalSeenWords} từ đã học · ${totalMastered} chủ đề hoàn thành`
-                  : '180 chủ đề · 2.300+ từ · 6 cấp độ CEFR'}
+                  : '180 chủ đề · 4.500+ từ · 6 cấp độ CEFR'}
               </p>
             </div>
             <span className="text-purple-500 font-black text-lg flex-shrink-0">→</span>

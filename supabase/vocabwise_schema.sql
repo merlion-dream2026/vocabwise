@@ -1,7 +1,7 @@
 -- ═══════════════════════════════════════════════════════════════
 -- VocabWise Academic — Supabase Schema
 -- Prefix: vw_ (tránh xung đột với VocabWise Kids tables)
--- Auth: dùng family_id TEXT (custom JWT) thay vì auth.users UUID
+-- Auth: dùng child_id TEXT (per-child progress, FK children.id)
 -- ═══════════════════════════════════════════════════════════════
 
 -- ─────────────────────────────────────────
@@ -80,12 +80,12 @@ CREATE TABLE IF NOT EXISTS vw_exercises (
 
 -- ─────────────────────────────────────────
 -- USER PROGRESS TABLES
--- dùng family_id TEXT (custom JWT auth, không phải Supabase UUID)
+-- dùng child_id TEXT (per-child progress, FK → children.id)
 -- ─────────────────────────────────────────
 
 CREATE TABLE IF NOT EXISTS vw_user_topic_progress (
   id              SERIAL PRIMARY KEY,
-  family_id       TEXT NOT NULL,               -- references families.id (custom auth)
+  child_id        TEXT NOT NULL,               -- references children.id (per-child progress)
   topic_id        TEXT NOT NULL REFERENCES vw_topics(topic_id),
   started_at      TIMESTAMPTZ DEFAULT NOW(),
   completed_at    TIMESTAMPTZ,
@@ -98,12 +98,12 @@ CREATE TABLE IF NOT EXISTS vw_user_topic_progress (
   ex4_score       SMALLINT,
   ex5_score       SMALLINT,
   total_score     SMALLINT,                    -- 0–25
-  UNIQUE (family_id, topic_id)
+  UNIQUE (child_id, topic_id)
 );
 
 CREATE TABLE IF NOT EXISTS vw_user_word_progress (
   id              SERIAL PRIMARY KEY,
-  family_id       TEXT NOT NULL,
+  child_id        TEXT NOT NULL,
   topic_id        TEXT NOT NULL REFERENCES vw_topics(topic_id),
   item_order      SMALLINT NOT NULL,
   status          TEXT DEFAULT 'unseen',       -- 'unseen','seen','learning','mastered'
@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS vw_user_word_progress (
   attempt_count   SMALLINT DEFAULT 0,
   last_seen       TIMESTAMPTZ,
   next_review     TIMESTAMPTZ,
-  UNIQUE (family_id, topic_id, item_order)
+  UNIQUE (child_id, topic_id, item_order)
 );
 
 -- ─────────────────────────────────────────
@@ -159,5 +159,5 @@ CREATE INDEX IF NOT EXISTS idx_vw_topics_theme_id  ON vw_topics (theme_id);
 CREATE INDEX IF NOT EXISTS idx_vw_passages_topic   ON vw_passages (topic_id);
 CREATE INDEX IF NOT EXISTS idx_vw_glossary_topic   ON vw_glossary (topic_id);
 CREATE INDEX IF NOT EXISTS idx_vw_exercises_topic  ON vw_exercises (topic_id);
-CREATE INDEX IF NOT EXISTS idx_vw_utp_family       ON vw_user_topic_progress (family_id);
-CREATE INDEX IF NOT EXISTS idx_vw_uwp_family       ON vw_user_word_progress (family_id);
+CREATE INDEX IF NOT EXISTS idx_vw_utp_child        ON vw_user_topic_progress (child_id);
+CREATE INDEX IF NOT EXISTS idx_vw_uwp_child        ON vw_user_word_progress (child_id);

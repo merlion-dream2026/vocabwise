@@ -29,7 +29,7 @@ export default function Image() {
           Hoc tu vung tieng Anh — vui, hieu qua, khong ap luc
         </div>
         <div style={{ display: 'flex', gap: 24 }}>
-          {['2.300+ tu vung', '6 cap do', '10+ tro choi'].map(item => (
+          {['4.500+ tu vung', '6 cap do', '10+ tro choi'].map(item => (
             <div key={item} style={{
               background: 'rgba(255,255,255,0.2)',
               borderRadius: 50,
