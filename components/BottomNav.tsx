@@ -91,7 +91,7 @@ export default function BottomNav() {
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)]"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
-      <div className="flex h-14">
+      <div className="flex h-14 px-2">
         {TABS.map(({ key, label, icon, needsChild }) => {
           const isActive   = active === key
           const isDisabled = needsChild && !childId
