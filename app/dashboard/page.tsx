@@ -1388,9 +1388,12 @@ export default function DashboardPage() {
       // Ensure bottom nav can reach child-specific tabs from /dashboard
       if (childList.length > 0) {
         const existing = localStorage.getItem('nav_child_id')
+        const activeChild = childList.find(c => c.id === existing) ?? childList[0]
         if (!existing || !childList.find(c => c.id === existing)) {
-          localStorage.setItem('nav_child_id', childList[0].id)
+          localStorage.setItem('nav_child_id', activeChild.id)
         }
+        // Always sync child info so chip shows current name/emoji
+        localStorage.setItem('nav_child_info', JSON.stringify({ id: activeChild.id, name: activeChild.name, emoji: activeChild.emoji }))
       }
 
       // Fetch all-levels sync for each child in parallel

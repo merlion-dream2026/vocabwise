@@ -143,8 +143,10 @@ export default function HomePage() {
   }, [router])
 
   function handleChildTap(child: Child) {
+    // Persist child identity so BottomNav chip can show name/emoji across sessions
+    localStorage.setItem('nav_child_id',   child.id)
+    localStorage.setItem('nav_child_info', JSON.stringify({ id: child.id, name: child.name, emoji: child.emoji }))
     if (child.pin) {
-      // Check if already verified in this session
       if (sessionStorage.getItem(`pinVerified_${child.id}`)) {
         router.push(`/dashboard/${child.id}`)
       } else {
