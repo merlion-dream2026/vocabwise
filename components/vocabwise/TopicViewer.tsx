@@ -57,6 +57,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [childId, setChildId]   = useState<string | null>(null)
   const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
+  // Preserve existing srs + history so we don't overwrite them on save (Group 2 prep)
+  const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
+  const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number }>>({})
 
   useEffect(() => {
     const cid = typeof window !== 'undefined' ? sessionStorage.getItem('vw_active_child') : null
@@ -68,13 +71,15 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
         setFullSync(mastery)
         setTopicSync(mastery[topicId] ?? null)
+        setSavedSrs(d?.srs ?? {})
+        setSavedHistory(d?.history ?? {})
       })
       .catch(() => {})
   }, [topicId])
 
   const handleExercisesComplete = (scores: number[]) => {
     setExMode(false)
-    const exTypes = getExerciseTypes(data.exercises)
+    const exTypes  = getExerciseTypes(data.exercises)
     const prevSync = fullSync[topicId]
     const ex_scores: Record<string, number> = {}
     exTypes.forEach((type, i) => {
@@ -82,27 +87,49 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     })
     const total = Object.values(ex_scores).reduce((s, v) => s + v, 0)
     const newSync: AcademicTopicSync = {
-      read: true,
-      ex_scores,
-      completed: true,
-      mastered: total >= 20,
+      read: true, ex_scores, completed: true, mastered: total >= 20,
     }
     setTopicSync(newSync)
+
     if (childId) {
       const newFull = { ...fullSync, [topicId]: newSync }
       setFullSync(newFull)
+
+      // SRS scheduling based on score (max 25 per topic, 5 exercises × 5 pts)
+      const interval = total >= 20 ? 7 : total >= 15 ? 3 : total >= 10 ? 1 : 0
+      const newSrs = { ...savedSrs }
+      if (interval > 0) {
+        const due = new Date(Date.now() + interval * 86400000).toISOString().split('T')[0]
+        newSrs[topicId] = { due, interval }
+        setSavedSrs(newSrs)
+      }
+
+      // XP history — merge into existing, keyed by date
+      const today = new Date().toISOString().split('T')[0]
+      const prev  = savedHistory[today] ?? {}
+      const newHistory = {
+        ...savedHistory,
+        [today]: {
+          topics:  (prev.topics  ?? 0) + 1,
+          xp:      (prev.xp      ?? 0) + total,
+          games:   (prev.games   ?? 0) + 1,
+          words:    prev.words   ?? 0,
+        },
+      }
+      setSavedHistory(newHistory)
+
       fetch(`/api/sync/${childId}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           level: 'academic',
-          mastery: newFull,
-          seen: [],
+          mastery:    newFull,
+          seen:       [],
           weak_words: {},
-          streak: {},
-          battle: {},
-          history: {},
-          srs: {},
+          streak:     {},
+          battle:     {},
+          history:    newHistory,
+          srs:        newSrs,
         }),
       }).catch(() => {})
     }
