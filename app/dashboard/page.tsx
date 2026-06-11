@@ -1385,6 +1385,13 @@ export default function DashboardPage() {
       const childList: Child[] = Array.isArray(kids) ? kids : []
       setSession(sess)
       setChildren(childList)
+      // Ensure bottom nav can reach child-specific tabs from /dashboard
+      if (childList.length > 0) {
+        const existing = sessionStorage.getItem('nav_child_id')
+        if (!existing || !childList.find(c => c.id === existing)) {
+          sessionStorage.setItem('nav_child_id', childList[0].id)
+        }
+      }
 
       // Fetch all-levels sync for each child in parallel
       const syncResults = await Promise.all(

@@ -93,7 +93,16 @@ export default function BottomNav() {
 
   function go(key: string) {
     const tab = TABS.find(t => t.key === key)!
-    if (tab.needsChild && !childId) return
+    if (tab.needsChild) {
+      // Re-read sessionStorage at click time — dashboard may have set it after nav mounted
+      const id = childId
+        ?? sessionStorage.getItem('nav_child_id')
+        ?? sessionStorage.getItem('vw_active_child')
+      if (!id) { router.push('/kids'); return }
+      if (!childId) setChildId(id)
+      router.push(DEST[key](id))
+      return
+    }
     router.push(DEST[key](childId ?? ''))
   }
 
@@ -104,23 +113,22 @@ export default function BottomNav() {
     >
       <div className="flex h-14 px-2">
         {TABS.map(({ key, label, icon, needsChild }) => {
-          const isActive   = active === key
-          const isDisabled = needsChild && !childId
+          const isActive = active === key
+          const isDim    = needsChild && !childId
           return (
             <button
               key={key}
               onClick={() => go(key)}
-              className={`flex flex-col items-center justify-center gap-0.5 flex-1 transition-colors duration-100
-                ${isDisabled ? 'pointer-events-none' : 'active:bg-gray-50'}`}
+              className="flex flex-col items-center justify-center gap-0.5 flex-1 active:bg-gray-50 transition-colors duration-100"
             >
               <span className={`flex items-center justify-center w-10 h-7 rounded-full transition-colors duration-100
                 ${isActive ? 'bg-purple-100' : ''}`}>
-                <span className={`text-[20px] leading-none ${isActive ? 'scale-110' : ''} transition-transform duration-100`}>
+                <span className={`text-[20px] leading-none transition-transform duration-100 ${isActive ? 'scale-110' : ''}`}>
                   {icon}
                 </span>
               </span>
               <span className={`text-[10px] font-bold leading-none tracking-tight
-                ${isActive ? 'text-purple-600' : isDisabled ? 'text-gray-200' : 'text-gray-400'}`}>
+                ${isActive ? 'text-purple-600' : isDim ? 'text-gray-300' : 'text-gray-400'}`}>
                 {label}
               </span>
             </button>
