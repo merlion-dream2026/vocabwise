@@ -2,10 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import phonemesData from '@/data/phonemes.json'
-
-const TOTAL_PAIRS = phonemesData.groups.reduce((s, g) => s + g.pairs.length, 0)
-const ALL_PAIR_IDS = phonemesData.groups.flatMap(g => g.pairs.map(p => p.id))
+import { getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
 
 
 const KID_FAQ = [
@@ -78,18 +75,12 @@ function KidFaqSection() {
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 
 type Child = { id: string; name: string; emoji: string; level: string }
-type SyncRow = { seen?: string[]; mastery?: Record<string, { flashcard: boolean; games: string[] }> }
-type SyncByLevel = Record<string, SyncRow>
+type SyncByLevel = Record<string, SyncLevel>
 
 function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLevel: SyncByLevel }) {
   const router = useRouter()
-  const phonicsMastery = syncByLevel['phonics']?.mastery ?? {}
-  const seenCount     = Object.values(phonicsMastery).filter(m => m.flashcard).length
-  const masteredCount = ALL_PAIR_IDS.filter(id => {
-    const m = phonicsMastery[id]
-    return m?.flashcard && ['minimal-pairs', 'listen-pick', 'speak'].every(g => m.games?.includes(g))
-  }).length
-  const pct = TOTAL_PAIRS > 0 ? Math.round((masteredCount / TOTAL_PAIRS) * 100) : 0
+  const phonics = getPhonicsProgress(syncByLevel['phonics'])
+  const pct = phonics.total > 0 ? Math.round((phonics.mastered / phonics.total) * 100) : 0
 
   return (
     <button
@@ -106,15 +97,15 @@ function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLev
             <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IPA</span>
           </div>
           <p className="text-xs font-semibold text-amber-600">
-            {seenCount === 0
-              ? `${TOTAL_PAIRS} nhóm âm · Nguyên âm · Phụ âm · Khó với người Việt`
-              : `${seenCount}/${TOTAL_PAIRS} đã học · 🏆 ${masteredCount}/${TOTAL_PAIRS} thành thạo`
+            {phonics.seen === 0
+              ? `${phonics.total} bài · Nguyên âm · Phụ âm · Khó với người Việt`
+              : `${phonics.seen}/${phonics.total} đã học · 🏆 ${phonics.mastered}/${phonics.total} thành thạo`
             }
           </p>
         </div>
         <span className="text-amber-600 font-black text-lg flex-shrink-0">→</span>
       </div>
-      {masteredCount > 0 && (
+      {phonics.mastered > 0 && (
         <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-all duration-500"

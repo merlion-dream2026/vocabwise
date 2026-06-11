@@ -4,7 +4,12 @@ import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
-import wordTopicIndex from '@/data/wordTopicIndex.json'
+import {
+  PHONICS_TOTAL_LESSONS, DAILY_TOTAL_TOPICS, DAILY_WORD_COUNTS, ACADEMIC_BOOK_META,
+  DAILY_LEVEL_ORDER, XP_BADGES,
+  getPhonicsProgress, getDailyHighestLevel, getDailyProgress, getAcademicProgress, getXPAndBadge,
+  type SyncAllLevels,
+} from '@/lib/childProgress'
 
 type Child = {
   id: string; name: string; emoji: string; level: string
@@ -29,78 +34,7 @@ const THEME_CONFIG: Record<string, {
   blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
 }
 
-// ── Stats helpers ────────────────────────────────────────────
-const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
-
-const XP_BADGES = [
-  { minXP: 3000, icon: '👑', label: 'Master',   cls: 'bg-yellow-100 text-yellow-700' },
-  { minXP: 1000, icon: '🏆', label: 'Champion', cls: 'bg-orange-100 text-orange-700' },
-  { minXP:  300, icon: '🌟', label: 'Rising',   cls: 'bg-sky-100 text-sky-700'       },
-  { minXP:   50, icon: '🌱', label: 'Beginner', cls: 'bg-green-100 text-green-700'   },
-]
-
-const BOOK_META: Record<string, { label: string; cefr: string; total: number }> = {
-  'b1': { label: 'Book 1', cefr: 'A1–A2', total: 60 },
-  'b2': { label: 'Book 2', cefr: 'B1–B2', total: 60 },
-  'b3': { label: 'Book 3', cefr: 'C1–C2', total: 30 },
-}
-
-type SyncLevel = {
-  seen?: string[]
-  mastery?: Record<string, unknown>
-  history?: Record<string, { words: number; games: number; xp: number }>
-}
-
-type ChildStats = {
-  totalXP: number
-  badge: typeof XP_BADGES[number] | null
-  highestLevel: string | null
-  dailyTopics: number
-  dailyWords: number
-  phonicsMastered: number
-  academicBook: string | null
-  academicCefr: string | null
-  academicCompleted: number
-  academicTotal: number
-}
-
-function computeStats(sync: Record<string, SyncLevel>): ChildStats {
-  let totalXP = 0
-  for (const lv of LEVEL_ORDER) {
-    for (const h of Object.values(sync[lv]?.history ?? {})) totalXP += h.xp ?? 0
-  }
-
-  const badge = XP_BADGES.find(b => totalXP >= b.minXP) ?? null
-
-  let highestLevel: string | null = null
-  for (const lv of [...LEVEL_ORDER].reverse()) {
-    if ((sync[lv]?.seen?.length ?? 0) > 0) { highestLevel = lv; break }
-  }
-
-  const dailySeen = highestLevel ? (sync[highestLevel]?.seen ?? []) : []
-  const dailyWords = dailySeen.length
-  // Count distinct topics using prebuilt word→topicIndex map
-  const topicMap = (wordTopicIndex as Record<string, Record<string, number>>)[highestLevel ?? ''] ?? {}
-  const dailyTopics = new Set(dailySeen.map(w => topicMap[w]).filter(i => i !== undefined)).size
-
-  const phonicsMastery = (sync['phonics']?.mastery ?? {}) as Record<string, { flashcard: boolean }>
-  const phonicsMastered = Object.values(phonicsMastery).filter(m => m.flashcard).length
-
-  const acMastery = (sync['academic']?.mastery ?? {}) as Record<string, { completed?: boolean }>
-  let academicBook = null, academicCefr = null, academicCompleted = 0, academicTotal = 0
-  for (const [prefix, info] of Object.entries(BOOK_META).reverse()) {
-    const entries = Object.entries(acMastery).filter(([k]) => k.startsWith(prefix + '-'))
-    if (entries.length > 0) {
-      academicBook = info.label; academicCefr = info.cefr
-      academicCompleted = entries.filter(([, v]) => (v as { completed?: boolean }).completed).length
-      academicTotal = info.total
-      break
-    }
-  }
-
-  return { totalXP, badge, highestLevel, dailyTopics, dailyWords, phonicsMastered, academicBook, academicCefr, academicCompleted, academicTotal }
-}
-
+// ── Local helpers ────────────────────────────────────────────
 function MiniBar({ value, max, gradient }: { value: number; max: number; gradient: string }) {
   const pct = max > 0 ? Math.min(100, Math.round(value / max * 100)) : 0
   return (
@@ -145,7 +79,7 @@ export default function HomePage() {
   const [battleOpen, setBattleOpen] = useState(false)
   const [battleData, setBattleData] = useState<Array<{ child: Child; words: number; games: number; xp: number }>>([])
   const [battleLoading, setBattleLoading] = useState(false)
-  const [syncMap, setSyncMap] = useState<Record<string, Record<string, SyncLevel>>>({})
+  const [syncMap, setSyncMap] = useState<Record<string, SyncAllLevels>>({})
 
   useExpiryGuard(session)
 
@@ -200,7 +134,7 @@ export default function HomePage() {
               .then(data => ({ id: kid.id, data }))
           )
         ).then(results => {
-          const map: Record<string, Record<string, SyncLevel>> = {}
+          const map: Record<string, SyncAllLevels> = {}
           for (const { id, data } of results) map[id] = data
           setSyncMap(map)
         })
@@ -324,8 +258,13 @@ export default function HomePage() {
                   ? { icon: '⚡', label: `${streakCur} ngày`, cls: 'bg-yellow-100 text-yellow-700' }
                   : { icon: '💤', label: `${streakCur} ngày`, cls: 'bg-gray-100 text-gray-400' }
 
-            const stats = computeStats(syncMap[child.id] ?? {})
-            const activeLevelLbl = LEVEL_LABEL[stats.highestLevel ?? child.level]
+            const sync = (syncMap[child.id] ?? {}) as SyncAllLevels
+            const highestLevel = getDailyHighestLevel(sync)
+            const { totalXP, badge } = getXPAndBadge(sync)
+            const phonics = getPhonicsProgress(sync['phonics'])
+            const daily   = getDailyProgress(sync[highestLevel ?? child.level], highestLevel ?? child.level)
+            const acad    = getAcademicProgress(sync['academic'])
+            const activeLevelLbl = LEVEL_LABEL[highestLevel ?? child.level]
 
             return (
               <button
@@ -335,7 +274,7 @@ export default function HomePage() {
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className={`w-18 h-18 w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-4xl shadow-md flex-shrink-0`}>
+                  <div className={`w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-4xl shadow-md flex-shrink-0`}>
                     {child.emoji}
                   </div>
                   <div className="flex-1 min-w-0">
@@ -344,12 +283,12 @@ export default function HomePage() {
                       {child.pin && <span className="text-base">🔒</span>}
                     </h2>
                     <div className="flex items-center gap-1.5 flex-wrap mt-1">
-                      {stats.totalXP > 0 && (
-                        <span className="text-xs font-black text-yellow-600">⭐ {stats.totalXP.toLocaleString()} XP</span>
+                      {totalXP > 0 && (
+                        <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
                       )}
-                      {stats.badge && (
-                        <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${stats.badge.cls}`}>
-                          {stats.badge.icon} {stats.badge.label}
+                      {badge && (
+                        <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${badge.cls}`}>
+                          {badge.icon} {badge.label}
                         </span>
                       )}
                       {streakBadge && (
@@ -367,9 +306,9 @@ export default function HomePage() {
                   <div>
                     <div className="flex items-center justify-between text-xs mb-1">
                       <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
-                      <span className="font-black text-gray-600">{stats.phonicsMastered}/31 bài</span>
+                      <span className="font-black text-gray-600">{phonics.seen}/{phonics.total} bài</span>
                     </div>
-                    <MiniBar value={stats.phonicsMastered} max={31} gradient={cfg.gradient} />
+                    <MiniBar value={phonics.seen} max={phonics.total} gradient={cfg.gradient} />
                   </div>
 
                   {/* Daily */}
@@ -379,24 +318,24 @@ export default function HomePage() {
                         📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
                       </span>
                       <span className="font-black text-gray-600">
-                        {stats.dailyTopics}/30 chủ đề · {stats.dailyWords}/400 từ
+                        {daily.topicsCompleted}/{daily.totalTopics} chủ đề · {daily.seenWords}/{daily.totalWords} từ
                       </span>
                     </div>
-                    <MiniBar value={stats.dailyWords} max={400} gradient={cfg.gradient} />
+                    <MiniBar value={daily.seenWords} max={daily.totalWords} gradient={cfg.gradient} />
                   </div>
 
                   {/* Academic */}
                   <div>
                     <div className="flex items-center justify-between text-xs mb-1">
                       <span className={`font-bold ${cfg.text}`}>
-                        🎓 {stats.academicBook ? `${stats.academicBook} · ${stats.academicCefr}` : 'Academic'}
+                        🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}
                       </span>
-                      {stats.academicBook
-                        ? <span className="font-black text-gray-600">{stats.academicCompleted}/{stats.academicTotal} chủ đề</span>
+                      {acad.book
+                        ? <span className="font-black text-gray-600">{acad.completed}/{acad.total} chủ đề</span>
                         : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>
                       }
                     </div>
-                    {stats.academicBook && <MiniBar value={stats.academicCompleted} max={stats.academicTotal} gradient={cfg.gradient} />}
+                    {acad.book && <MiniBar value={acad.completed} max={acad.total} gradient={cfg.gradient} />}
                   </div>
                 </div>
 

@@ -1,0 +1,126 @@
+/**
+ * Single source of truth for child progress computation.
+ * All screens (kids card, dashboard module select, parent dashboard) import from here.
+ */
+import phonicsLevels from '@/data/phonicsLevels.json'
+
+// ─── Constants ────────────────────────────────────────────────────────────────
+
+export const PHONICS_TOTAL_LESSONS: number = phonicsLevels.levels.reduce(
+  (s, l) => s + l.lessons.length, 0
+) // 31
+
+export const DAILY_LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
+export type DailyLevel = typeof DAILY_LEVEL_ORDER[number]
+
+// Actual word counts per level (computed from words.json)
+export const DAILY_WORD_COUNTS: Record<string, number> = {
+  seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
+}
+
+export const DAILY_TOTAL_TOPICS = 30
+
+export const ACADEMIC_BOOK_META: Record<string, { label: string; cefr: string; total: number }> = {
+  'b1': { label: 'Book 1', cefr: 'A1–A2', total: 60 },
+  'b2': { label: 'Book 2', cefr: 'B1–B2', total: 60 },
+  'b3': { label: 'Book 3', cefr: 'C1–C2', total: 30 },
+}
+
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+export type SyncLevel = {
+  seen?: string[]
+  mastery?: Record<string, { flashcard: boolean; games: string[] }>
+  history?: Record<string, { words: number; games: number; xp: number }>
+}
+
+export type SyncAllLevels = Record<string, SyncLevel>
+
+// ─── Phonics ──────────────────────────────────────────────────────────────────
+
+export type PhonicsProgress = {
+  seen: number      // lessons with flashcard done
+  mastered: number  // lessons with flashcard + ≥3 games done
+  total: number     // PHONICS_TOTAL_LESSONS (31)
+}
+
+export function getPhonicsProgress(phonicsSync: SyncLevel | undefined): PhonicsProgress {
+  const mastery = phonicsSync?.mastery ?? {}
+  const vals = Object.values(mastery)
+  return {
+    seen:     vals.filter(m => m.flashcard).length,
+    mastered: vals.filter(m => m.flashcard && m.games.length >= 3).length,
+    total:    PHONICS_TOTAL_LESSONS,
+  }
+}
+
+// ─── Daily ────────────────────────────────────────────────────────────────────
+
+export type DailyProgress = {
+  seenWords:        number  // words seen in this level
+  totalWords:       number  // actual total words for this level
+  topicsCompleted:  number  // topics with flashcard done + ≥3 games (consistent with dashboard)
+  totalTopics:      number  // DAILY_TOTAL_TOPICS (30)
+}
+
+/** Highest level (in CEFR order) where the child has seen at least 1 word. */
+export function getDailyHighestLevel(sync: SyncAllLevels): string | null {
+  for (const lv of [...DAILY_LEVEL_ORDER].reverse()) {
+    if ((sync[lv]?.seen?.length ?? 0) > 0) return lv
+  }
+  return null
+}
+
+export function getDailyProgress(levelSync: SyncLevel | undefined, level: string): DailyProgress {
+  const mastery = levelSync?.mastery ?? {}
+  return {
+    seenWords:       levelSync?.seen?.length ?? 0,
+    totalWords:      DAILY_WORD_COUNTS[level] ?? 400,
+    topicsCompleted: Object.values(mastery).filter(m => m.flashcard && m.games.length >= 3).length,
+    totalTopics:     DAILY_TOTAL_TOPICS,
+  }
+}
+
+// ─── Academic ─────────────────────────────────────────────────────────────────
+
+export type AcademicProgress = {
+  book:      string | null  // 'Book 1' | 'Book 2' | 'Book 3' | null
+  cefr:      string | null
+  completed: number
+  total:     number
+}
+
+export function getAcademicProgress(academicSync: SyncLevel | undefined): AcademicProgress {
+  const mastery = (academicSync?.mastery ?? {}) as Record<string, { completed?: boolean }>
+  for (const [prefix, info] of Object.entries(ACADEMIC_BOOK_META).reverse()) {
+    const entries = Object.entries(mastery).filter(([k]) => k.startsWith(prefix + '-'))
+    if (entries.length > 0) {
+      return {
+        book:      info.label,
+        cefr:      info.cefr,
+        completed: entries.filter(([, v]) => v.completed).length,
+        total:     info.total,
+      }
+    }
+  }
+  return { book: null, cefr: null, completed: 0, total: 0 }
+}
+
+// ─── XP & Badge ───────────────────────────────────────────────────────────────
+
+export const XP_BADGES = [
+  { minXP: 3000, icon: '👑', label: 'Master',   cls: 'bg-yellow-100 text-yellow-700' },
+  { minXP: 1000, icon: '🏆', label: 'Champion', cls: 'bg-orange-100 text-orange-700' },
+  { minXP:  300, icon: '🌟', label: 'Rising',   cls: 'bg-sky-100 text-sky-700'       },
+  { minXP:   50, icon: '🌱', label: 'Beginner', cls: 'bg-green-100 text-green-700'   },
+] as const
+
+export type XPBadge = typeof XP_BADGES[number]
+
+export function getXPAndBadge(sync: SyncAllLevels): { totalXP: number; badge: XPBadge | null } {
+  let totalXP = 0
+  for (const lv of DAILY_LEVEL_ORDER) {
+    for (const h of Object.values(sync[lv]?.history ?? {})) totalXP += h.xp ?? 0
+  }
+  return { totalXP, badge: XP_BADGES.find(b => totalXP >= b.minXP) ?? null }
+}
