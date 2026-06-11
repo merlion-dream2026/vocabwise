@@ -111,7 +111,7 @@ export default function BottomNav() {
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)]"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}
     >
-      <div className="flex h-14 px-2">
+      <div className="flex h-14">
         {TABS.map(({ key, label, icon, needsChild }) => {
           const isActive = active === key
           const isDim    = needsChild && !childId
@@ -119,15 +119,19 @@ export default function BottomNav() {
             <button
               key={key}
               onClick={() => go(key)}
-              className="flex flex-col items-center justify-center gap-0.5 flex-1 active:bg-gray-50 transition-colors duration-100"
+              className="relative flex flex-col items-center justify-center gap-1 flex-1 active:bg-gray-50/70 transition-colors duration-100"
             >
-              <span className={`flex items-center justify-center w-10 h-7 rounded-full transition-colors duration-100
-                ${isActive ? 'bg-purple-100' : ''}`}>
-                <span className={`text-[20px] leading-none transition-transform duration-100 ${isActive ? 'scale-110' : ''}`}>
-                  {icon}
-                </span>
+              {/* Top active line */}
+              {isActive && (
+                <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
+              )}
+              <span
+                className="text-[22px] leading-none transition-all duration-150"
+                style={isActive ? undefined : { filter: 'grayscale(1)', opacity: isDim ? 0.3 : 0.5 }}
+              >
+                {icon}
               </span>
-              <span className={`text-[10px] font-bold leading-none tracking-tight
+              <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100
                 ${isActive ? 'text-purple-600' : isDim ? 'text-gray-300' : 'text-gray-400'}`}>
                 {label}
               </span>
