@@ -76,6 +76,17 @@ export default function BottomNav() {
     }
   }, [pathname])
 
+  // Prefetch all tab routes for instant navigation
+  useEffect(() => {
+    router.prefetch('/kids')
+    router.prefetch('/dashboard')
+    router.prefetch('/vocabwise')
+    if (childId) {
+      router.prefetch(`/dashboard/${childId}/phonics`)
+      router.prefetch(`/dashboard/${childId}/kids`)
+    }
+  }, [childId, router])
+
   if (!shouldShowNav(pathname)) return null
 
   const active = getActiveTab(pathname, childId)
@@ -89,7 +100,7 @@ export default function BottomNav() {
   return (
     <nav
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)]"
-      style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+      style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}
     >
       <div className="flex h-14 px-2">
         {TABS.map(({ key, label, icon, needsChild }) => {
@@ -99,15 +110,12 @@ export default function BottomNav() {
             <button
               key={key}
               onClick={() => go(key)}
-              disabled={isDisabled}
-              className={`flex flex-col items-center justify-center gap-0.5 flex-1 transition-all duration-150
-                ${isDisabled ? 'cursor-default' : 'active:scale-90'}`}
+              className={`flex flex-col items-center justify-center gap-0.5 flex-1 transition-colors duration-100
+                ${isDisabled ? 'pointer-events-none' : 'active:bg-gray-50'}`}
             >
-              {/* Pill chip behind icon when active */}
-              <span className={`flex items-center justify-center w-9 h-6 rounded-full transition-all duration-150
+              <span className={`flex items-center justify-center w-10 h-7 rounded-full transition-colors duration-100
                 ${isActive ? 'bg-purple-100' : ''}`}>
-                <span className={`text-[18px] leading-none transition-transform duration-150
-                  ${isActive ? 'scale-110' : ''}`}>
+                <span className={`text-[20px] leading-none ${isActive ? 'scale-110' : ''} transition-transform duration-100`}>
                   {icon}
                 </span>
               </span>

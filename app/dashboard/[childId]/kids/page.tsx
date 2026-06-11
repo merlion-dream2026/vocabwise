@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -16,7 +17,7 @@ const LEVEL_CONFIG: Record<LevelKey, {
   scholar:  { label: 'Scholar',  cefr: 'B2',     emoji: '🎓', gradient: 'from-indigo-400 to-violet-500', bg: 'bg-gradient-to-br from-indigo-50 to-violet-50',  border: 'border-indigo-200', text: 'text-indigo-700', btn: 'bg-indigo-500',  bar: 'from-indigo-400 to-violet-400'  },
   master:   { label: 'Master',   cefr: 'C1-C2',  emoji: '🏆', gradient: 'from-gray-600 to-gray-800',     bg: 'bg-gradient-to-br from-gray-50 to-slate-100',    border: 'border-gray-300',   text: 'text-gray-700',   btn: 'bg-gray-700',    bar: 'from-gray-500 to-gray-700'      },
 }
-const WORD_COUNTS: Record<string, number> = { seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303 }
+const WORD_COUNTS = DAILY_WORD_COUNTS
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type SyncRow = { seen?: string[]; mastery?: Record<string, { flashcard: boolean; games: string[] }> }

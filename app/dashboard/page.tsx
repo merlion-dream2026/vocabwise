@@ -3,42 +3,31 @@
 import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
-import phonemesData from '@/data/phonemes.json'
+import {
+  getPhonicsProgress, getDailyHighestLevel, getDailyProgress, getAcademicProgress, getXPAndBadge,
+  type SyncLevel, type SyncAllLevels,
+} from '@/lib/childProgress'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import UpgradeModal from '@/components/UpgradeModal'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import ReferralTab from './ReferralTab'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
 
-type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null }
+type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
 type WeakVal = number | { wrong: number; correctStreak: number; lastWrong: string }
 type SyncData = {
-  seen: string[]
-  weak_words: Record<string, WeakVal>
-  streak: { current?: number; best?: number; lastActive?: string }
-  battle: { totalAllTime?: number }
-  mastery: Record<string, { flashcard: boolean; games: string[] }>
+  seen?: string[]
+  weak_words?: Record<string, WeakVal>
+  streak?: { current?: number; best?: number; lastActive?: string }
+  mastery?: Record<string, { flashcard: boolean; games: string[] }>
   history?: SyncHistory
-  reset_at: string | null
 }
 function weakCount(v: WeakVal): number { return typeof v === 'number' ? v : v.wrong }
 type HistEntry = { words: number; games: number; xp: number }
 type SyncHistory = Record<string, HistEntry>
-type PhonicsMastery = Record<string, { flashcard: boolean; games: string[] }>
-type ChildStats = { child: Child; sync: SyncData | null; totalWords: number; phonicsMastery: PhonicsMastery }
-
-const PHONICS_TOTAL_PAIRS = phonemesData.groups.reduce((s, g) => s + g.pairs.length, 0)
-const PHONICS_GAME_KEYS = ['minimal-pairs', 'listen-pick', 'speak']
-function countPhonicsmastered(mastery: PhonicsMastery): number {
-  return Object.values(mastery).filter(
-    m => m.flashcard && PHONICS_GAME_KEYS.every(g => m.games?.includes(g))
-  ).length
-}
-
-const LEVEL_WORD_COUNTS: Record<string, number> = {
-  seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
-}
+type SyncAllFull = Record<string, SyncData>
+type ChildStats = { child: Child; syncAll: SyncAllFull }
 
 const LEVEL_INFO_MAP: Record<string, { label: string; desc: string; cefr: string }> = {
   seeker:   { label: 'Seeker',   desc: 'Từ vựng nền tảng',  cefr: 'Pre-A1' },
@@ -514,10 +503,14 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
 
   // Onboarding checklist data
   const hasPlayedGame = stats.some(s =>
-    Object.values(s.sync?.mastery ?? {}).some((m) => (m as { games: string[] }).games.length > 0)
+    Object.values(s.syncAll).some(lv =>
+      Object.values(lv.mastery ?? {}).some(m => m.games.length > 0)
+    )
   )
   const hasViewedFlashcard = stats.some(s =>
-    Object.values(s.sync?.mastery ?? {}).some((m) => (m as { flashcard: boolean }).flashcard)
+    Object.values(s.syncAll).some(lv =>
+      Object.values(lv.mastery ?? {}).some(m => m.flashcard)
+    )
   )
   const firstChild = stats[0]?.child
 
@@ -569,124 +562,153 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
       {/* Selected child card */}
       {stats.length > 0 && (
         <div>
-          {stats.filter(s => s.child.id === selectedChildId).map(({ child, sync, totalWords, phonicsMastery }) => {
+          {stats.filter(s => s.child.id === selectedChildId).map(({ child, syncAll }) => {
             const c = child.theme && THEME_COLORS[child.theme as 'pink' | 'blue']
               ? THEME_COLORS[child.theme as 'pink' | 'blue']
               : DEFAULT_COLOR
 
-            const levelInfo = LEVEL_INFO_MAP[child.level]
-            const seenRaw = sync?.seen?.length ?? 0
-            const pct = totalWords > 0 ? Math.round((seenRaw / totalWords) * 100) : 0
-            const seen = pct >= 100 ? totalWords : seenRaw
-            const streak = sync?.streak ?? {}
-            const weakWords = Object.keys(sync?.weak_words ?? {}).length
-            const masteredTopics = Object.values(sync?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
-            const totalTopics = 30
-            const summary = buildSyncSummary(sync)
-            const xpInfo = getXpLevel(summary.xp)
-            const topBadges = computeEarnedBadges(summary).slice(0, 3)
-            const lastActive = formatLastActive(streak.lastActive)
+            // Progress from shared lib (all modules, consistent with kids card)
+            const highestLevel  = getDailyHighestLevel(syncAll as SyncAllLevels)
+            const activeLevel   = highestLevel ?? child.level
+            const { totalXP, badge: xpBadge } = getXPAndBadge(syncAll as SyncAllLevels)
+            const phonics = getPhonicsProgress(syncAll['phonics'] as SyncLevel | undefined)
+            const daily   = getDailyProgress(syncAll[activeLevel] as SyncLevel | undefined, activeLevel)
+            const acad    = getAcademicProgress(syncAll['academic'] as SyncLevel | undefined)
+            const levelInfo = LEVEL_INFO_MAP[activeLevel]
 
-            const hist = sync?.history ?? {}
-            const last7 = getLast7Days()
-            const childTheme = child.theme ?? 'pink'
+            const dailyPct   = daily.totalWords  > 0 ? Math.round(daily.seenWords   / daily.totalWords  * 100) : 0
+            const phonicsPct = phonics.total     > 0 ? Math.round(phonics.seen      / phonics.total     * 100) : 0
+            const acadPct    = acad.total        > 0 ? Math.round(acad.completed    / acad.total        * 100) : 0
+
+            // Streak + last active from child record
+            const streakCur   = child.streak?.current ?? 0
+            const lastActive  = formatLastActive(child.streak?.lastActive)
+
+            // Weak words from active Daily level
+            const weakEntries = Object.entries(syncAll[activeLevel]?.weak_words ?? {})
+              .sort((a, b) => weakCount(b[1]) - weakCount(a[1])).slice(0, 8)
+
+            // Badges from active level
+            const summary   = buildSyncSummary(syncAll[activeLevel] as Parameters<typeof buildSyncSummary>[0])
+            const xpInfo    = getXpLevel(summary.xp)
+            const topBadges = computeEarnedBadges(summary).slice(0, 3)
+
+            // History — combined across all modules
+            const hist: Record<string, HistEntry> = {}
+            for (const lvData of Object.values(syncAll)) {
+              for (const [day, entry] of Object.entries((lvData as { history?: Record<string, HistEntry> }).history ?? {})) {
+                if (!hist[day]) hist[day] = { words: 0, games: 0, xp: 0 }
+                hist[day].words += entry.words ?? 0
+                hist[day].games += entry.games ?? 0
+                hist[day].xp   += entry.xp    ?? 0
+              }
+            }
+            const last7         = getLast7Days()
+            const childTheme    = child.theme ?? 'pink'
             const isHistExpanded = expandedHistory[child.id] ?? false
 
             return (
-              <div key={child.id} className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm flex flex-col overflow-hidden">
+              <div key={child.id} className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
 
-                {/* Card header: avatar + name + edit button */}
-                <div className="flex items-center gap-2 px-4 pt-3 pb-2">
-                  <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${c.grad} flex items-center justify-center text-xl flex-shrink-0`}>
+                {/* Header: avatar + name + XP/streak + edit */}
+                <div className="flex items-start gap-3 px-4 pt-4 pb-3">
+                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${c.grad} flex items-center justify-center text-2xl flex-shrink-0 shadow-sm`}>
                     {child.emoji}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="font-black text-gray-800 text-sm leading-tight truncate">{child.name}</p>
-                    <p className={`text-xs font-bold ${c.text} leading-tight`}>{levelInfo?.label ?? child.level} · {levelInfo?.cefr ?? ''}</p>
+                    <p className="font-black text-gray-800 text-base leading-tight truncate">{child.name}</p>
+                    <div className="flex items-center gap-1.5 flex-wrap mt-1">
+                      {totalXP > 0 && <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>}
+                      {xpBadge && <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpBadge.cls}`}>{xpBadge.icon} {xpBadge.label}</span>}
+                      {!xpBadge && totalXP === 0 && <span className="text-[11px] text-gray-400 font-semibold">{xpInfo.emoji} {xpInfo.name}</span>}
+                      {streakCur > 0 && <span className="text-[11px] font-black text-orange-500">🔥 {streakCur} ngày</span>}
+                      {lastActive && <span className="text-[11px] text-gray-400 font-semibold">📅 {lastActive}</span>}
+                    </div>
                   </div>
-                  <button
-                    onClick={() => onEditChild(child)}
-                    className="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-xl text-gray-300 hover:text-purple-500 hover:bg-purple-50 transition-colors text-base">
+                  <button onClick={() => onEditChild(child)}
+                    className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-xl text-gray-300 hover:text-purple-500 hover:bg-purple-50 transition-colors mt-0.5">
                     ✏️
                   </button>
                 </div>
 
-                {/* Nav button — stats only */}
-                <button onClick={() => onChildClick(child)}
-                  className="px-4 pb-4 text-left active:scale-95 transition-transform flex flex-col gap-0 flex-1">
+                {/* Module progress rows (clickable → navigate to child) */}
+                <button onClick={() => onChildClick(child)} className="w-full px-4 pb-3 text-left active:bg-gray-50/80 transition-colors">
+                  <div className="space-y-2.5">
 
-                  {/* XP */}
-                  <p className="text-xs font-bold text-purple-500 mb-2">{xpInfo.emoji} {xpInfo.name} · {summary.xp} XP</p>
-
-                  {/* Progress */}
-                  <p className="text-xs text-gray-400 font-semibold mb-0.5">Tiến độ</p>
-                  <div className="flex items-baseline justify-between mb-1">
-                    <p className="text-2xl font-black text-gray-800 leading-none">{pct}%</p>
-                    <p className="text-xs text-gray-400 font-bold">{seen}/{totalWords} từ</p>
-                  </div>
-                  <div className="h-2 bg-gray-100 rounded-full mb-1.5 overflow-hidden">
-                    <div className={`h-full ${c.bar} rounded-full transition-all`} style={{ width: `${Math.max(pct, 0)}%` }} />
-                  </div>
-                  <p className="text-xs text-gray-400 font-semibold mb-2">
-                    ✅ {masteredTopics}/{totalTopics} chủ đề xong
-                  </p>
-
-                  {/* Phonics progress */}
-                  {(() => {
-                    const phonicsMastered = countPhonicsmastered(phonicsMastery)
-                    const phonicsSeenCount = Object.values(phonicsMastery).filter(m => m.flashcard).length
-                    if (phonicsSeenCount === 0) return null
-                    const phonicsPct = Math.round((phonicsMastered / PHONICS_TOTAL_PAIRS) * 100)
-                    return (
-                      <div className="mb-2 bg-amber-50 rounded-xl px-3 py-2 border border-amber-100">
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="text-xs font-bold text-amber-700">🔤 Phát âm IPA</span>
-                          <span className="text-xs text-amber-600 font-semibold">{phonicsMastered}/{PHONICS_TOTAL_PAIRS} nhóm 🏆</span>
-                        </div>
-                        <div className="h-1.5 bg-amber-100 rounded-full overflow-hidden">
-                          <div className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-all"
-                            style={{ width: `${Math.max(phonicsPct, phonicsMastered > 0 ? 2 : 0)}%` }} />
-                        </div>
-                        <p className="text-[10px] text-amber-500 font-semibold mt-0.5">{phonicsSeenCount} nhóm đã học · {phonicsMastered} thành thạo ({phonicsPct}%)</p>
+                    {/* Daily */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className={`font-bold ${c.text}`}>📚 {levelInfo?.label ?? activeLevel} · {levelInfo?.cefr ?? ''}</span>
+                        <span className="text-gray-500 font-semibold">{daily.topicsCompleted}/30 chủ đề · {daily.seenWords}/{daily.totalWords} từ</span>
                       </div>
-                    )
-                  })()}
-
-                  {/* Stats row */}
-                  <div className="space-y-1 mb-2">
-                    <div className="flex items-center justify-between text-xs font-bold">
-                      <span className="text-gray-500">🔥 Streak: <span className="text-gray-800">{streak.current ?? 0} ngày</span></span>
-                      {lastActive && <span className="text-gray-400">📅 {lastActive}</span>}
+                      <div className="flex items-center gap-2">
+                        <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                          <div className={`h-full ${c.bar} rounded-full transition-all`} style={{ width: `${Math.max(dailyPct, daily.seenWords > 0 ? 2 : 0)}%` }} />
+                        </div>
+                        <span className="text-[11px] text-gray-400 font-semibold flex-shrink-0">{dailyPct}%</span>
+                      </div>
                     </div>
-                    {weakWords > 0 ? (
+
+                    {/* Phonics */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className="font-bold text-amber-600">🔤 Phát âm</span>
+                        <span className="text-gray-500 font-semibold">
+                          {phonics.seen === 0 ? `0/${phonics.total} bài` : `${phonics.seen}/${phonics.total} bài · 🏆 ${phonics.mastered} thành thạo`}
+                        </span>
+                      </div>
+                      <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                        <div className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-all"
+                          style={{ width: `${Math.max(phonicsPct, phonics.seen > 0 ? 2 : 0)}%` }} />
+                      </div>
+                    </div>
+
+                    {/* Academic */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className="font-bold text-blue-600">🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}</span>
+                        {acad.book
+                          ? <span className="text-gray-500 font-semibold">{acad.completed}/{acad.total} chủ đề</span>
+                          : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>}
+                      </div>
+                      {acad.book && (
+                        <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                          <div className="h-full bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full transition-all"
+                            style={{ width: `${Math.max(acadPct, acad.completed > 0 ? 2 : 0)}%` }} />
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Weak words + badges */}
+                  <div className="mt-3 space-y-1.5">
+                    {weakEntries.length > 0 ? (
                       <div>
-                        <p className="text-xs font-bold text-orange-500 mb-1.5">⚠️ Từ yếu cần ôn</p>
-                        <div className="flex flex-wrap gap-1.5">
-                          {Object.entries(sync?.weak_words ?? {})
-                            .sort((a, b) => weakCount(b[1]) - weakCount(a[1])).slice(0, 8)
-                            .map(([word, val]) => (
-                              <span key={word} className="bg-orange-50 border border-orange-200 rounded-xl px-2.5 py-0.5 text-xs font-bold text-orange-700">
-                                {word} <span className="text-orange-400 font-black">×{weakCount(val)}</span>
-                              </span>
-                            ))}
+                        <p className="text-xs font-bold text-orange-500 mb-1">⚠️ Từ yếu cần ôn</p>
+                        <div className="flex flex-wrap gap-1">
+                          {weakEntries.map(([word, val]) => (
+                            <span key={word} className="bg-orange-50 border border-orange-200 rounded-xl px-2 py-0.5 text-xs font-bold text-orange-700">
+                              {word} <span className="text-orange-400">×{weakCount(val)}</span>
+                            </span>
+                          ))}
                         </div>
                       </div>
                     ) : (
                       <span className="text-xs font-bold text-green-500">✨ Không có từ yếu</span>
                     )}
-                  </div>
-
-                  {/* Earned badges */}
-                  <div className="min-h-[1.5rem] flex gap-1.5 flex-wrap items-center">
-                    {topBadges.map(b => (
-                      <span key={b.id} className="inline-flex items-center gap-0.5 text-xs font-bold text-purple-600 bg-purple-50 px-1.5 py-0.5 rounded-full">
-                        {b.emoji} {b.name}
-                      </span>
-                    ))}
+                    {topBadges.length > 0 && (
+                      <div className="flex gap-1 flex-wrap">
+                        {topBadges.map(b => (
+                          <span key={b.id} className="inline-flex items-center gap-0.5 text-xs font-bold text-purple-600 bg-purple-50 px-1.5 py-0.5 rounded-full">
+                            {b.emoji} {b.name}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </button>
 
-                {/* History section — sibling, not nested */}
+                {/* History — collapsible, combined across all modules */}
                 <div className="border-t border-gray-100">
                   <button
                     onClick={() => setExpandedHistory(prev => ({ ...prev, [child.id]: !isHistExpanded }))}
@@ -1364,16 +1386,13 @@ export default function DashboardPage() {
       setSession(sess)
       setChildren(childList)
 
-      // Fetch vocab sync + phonics sync for each child in parallel
-      const [syncResults, phonicsResults] = await Promise.all([
-        Promise.all(childList.map(c => fetch(`/api/sync/${c.id}?level=${c.level}`).then(r => r.json()).catch(() => null))),
-        Promise.all(childList.map(c => fetch(`/api/sync/${c.id}?level=phonics`).then(r => r.json()).catch(() => null))),
-      ])
+      // Fetch all-levels sync for each child in parallel
+      const syncResults = await Promise.all(
+        childList.map(c => fetch(`/api/sync/${c.id}`).then(r => r.json()).catch(() => ({})))
+      )
       setStats(childList.map((child, i) => ({
         child,
-        sync: syncResults[i],
-        totalWords: LEVEL_WORD_COUNTS[child.level] ?? 400,
-        phonicsMastery: phonicsResults[i]?.mastery ?? {},
+        syncAll: syncResults[i] ?? {},
       })))
     } catch {
       // Network error — keep existing state, user can retry

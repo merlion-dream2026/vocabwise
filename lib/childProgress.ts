@@ -15,7 +15,7 @@ export type DailyLevel = typeof DAILY_LEVEL_ORDER[number]
 
 // Actual word counts per level (computed from words.json)
 export const DAILY_WORD_COUNTS: Record<string, number> = {
-  seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
+  seeker: 400, starter: 400, ranger: 400, explorer: 400, scholar: 400, master: 400,
 }
 
 export const DAILY_TOTAL_TOPICS = 30
