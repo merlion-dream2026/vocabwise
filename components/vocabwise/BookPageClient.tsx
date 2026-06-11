@@ -51,7 +51,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   useEffect(() => {
-    const cid = sessionStorage.getItem('vw_active_child')
+    const cid = localStorage.getItem('vw_active_child')
     Promise.all([
       fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
       cid

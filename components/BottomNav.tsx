@@ -69,9 +69,9 @@ export default function BottomNav() {
     const fromPath = getChildIdFromPath(pathname)
     if (fromPath) {
       setChildId(fromPath)
-      sessionStorage.setItem('nav_child_id', fromPath)
+      localStorage.setItem('nav_child_id', fromPath)
     } else {
-      const stored = sessionStorage.getItem('nav_child_id') ?? sessionStorage.getItem('vw_active_child')
+      const stored = localStorage.getItem('nav_child_id') ?? localStorage.getItem('vw_active_child')
       if (stored) setChildId(stored)
     }
   }, [pathname])
@@ -94,10 +94,10 @@ export default function BottomNav() {
   function go(key: string) {
     const tab = TABS.find(t => t.key === key)!
     if (tab.needsChild) {
-      // Re-read sessionStorage at click time — dashboard may have set it after nav mounted
+      // Re-read localStorage at click time — dashboard may have set it after nav mounted
       const id = childId
-        ?? sessionStorage.getItem('nav_child_id')
-        ?? sessionStorage.getItem('vw_active_child')
+        ?? localStorage.getItem('nav_child_id')
+        ?? localStorage.getItem('vw_active_child')
       if (!id) { router.push('/kids'); return }
       if (!childId) setChildId(id)
       router.push(DEST[key](id))

@@ -35,7 +35,7 @@ export default function VocabWisePage() {
   const [syncMap, setSyncMap] = useState<Record<string, AcademicTopicSync>>({})
 
   useEffect(() => {
-    const cid = sessionStorage.getItem('vw_active_child')
+    const cid = localStorage.getItem('vw_active_child')
     if (!cid) return
     fetch(`/api/sync/${cid}?level=academic`)
       .then(r => r.ok ? r.json() : null)

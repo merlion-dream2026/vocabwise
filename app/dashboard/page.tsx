@@ -1387,9 +1387,9 @@ export default function DashboardPage() {
       setChildren(childList)
       // Ensure bottom nav can reach child-specific tabs from /dashboard
       if (childList.length > 0) {
-        const existing = sessionStorage.getItem('nav_child_id')
+        const existing = localStorage.getItem('nav_child_id')
         if (!existing || !childList.find(c => c.id === existing)) {
-          sessionStorage.setItem('nav_child_id', childList[0].id)
+          localStorage.setItem('nav_child_id', childList[0].id)
         }
       }
 

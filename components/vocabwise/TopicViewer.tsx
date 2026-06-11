@@ -62,7 +62,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number }>>({})
 
   useEffect(() => {
-    const cid = typeof window !== 'undefined' ? sessionStorage.getItem('vw_active_child') : null
+    const cid = typeof window !== 'undefined' ? localStorage.getItem('vw_active_child') : null
     if (!cid) return
     setChildId(cid)
     fetch(`/api/sync/${cid}?level=academic`)
