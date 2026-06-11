@@ -63,37 +63,45 @@ export default function VocabWisePage() {
         {BOOKS.map(book => {
           const prefix = topicPrefix(book.slug)
           const allSynced = Object.entries(syncMap).filter(([tid]) => tid.startsWith(prefix))
-          const mastered = allSynced.filter(([, s]) => s.mastered).length
+          const mastered  = allSynced.filter(([, s]) => s.mastered).length
           const completed = allSynced.filter(([, s]) => s.completed).length
-          const pct = book.maxTopics > 0 ? Math.round((mastered / book.maxTopics) * 100) : 0
+          const pct       = book.maxTopics > 0 ? Math.round((mastered / book.maxTopics) * 100) : 0
           const hasProgress = completed > 0 || mastered > 0
 
           return (
             <Link key={book.id} href={`/vocabwise/${book.slug}`}
-              className="block bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md active:scale-[0.99] transition-all">
+              className="block bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden active:scale-[0.99] transition-all">
+
+              {/* Gradient header — same style as Daily level card */}
               <div className={`bg-gradient-to-r ${book.color} px-5 py-4 flex items-center gap-4`}>
-                <span className="text-4xl">{book.emoji}</span>
-                <div className="flex-1 text-white">
+                <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center text-4xl flex-shrink-0 shadow-sm">
+                  {book.emoji}
+                </div>
+                <div className="flex-1 text-white min-w-0">
                   <h2 className="font-black text-lg leading-tight">{book.title}</h2>
                   <p className="text-white/80 text-sm">{book.cefr} · {book.maxTopics} chủ đề</p>
+                  {hasProgress && (
+                    <p className="text-white/90 text-xs font-bold mt-0.5">
+                      {pct}% · {mastered} thành thạo · {completed} đã làm
+                    </p>
+                  )}
                 </div>
-                <span className="text-white/70 font-black text-xl">›</span>
+                <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
               </div>
+
+              {/* Body: progress bar OR theme chips */}
               <div className="px-5 py-3">
                 {hasProgress ? (
                   <div>
-                    <div className="flex items-center justify-between mb-1.5">
-                      <div className="flex gap-3">
-                        <span className="text-xs font-bold text-green-600">🏆 {mastered} thành thạo</span>
-                        {completed > mastered && (
-                          <span className="text-xs font-bold text-yellow-600">✅ {completed} đã làm</span>
-                        )}
-                      </div>
-                      <span className="text-xs font-black text-gray-400">{pct}%</span>
-                    </div>
-                    <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                    <div className="h-2 bg-gray-100 rounded-full overflow-hidden mb-1.5">
                       <div className={`h-full ${book.bar} rounded-full transition-all duration-500`}
                         style={{ width: `${Math.max(pct, mastered > 0 ? 2 : 0)}%` }} />
+                    </div>
+                    <div className="flex gap-3">
+                      <span className="text-xs font-bold text-green-600">🏆 {mastered}/{book.maxTopics} thành thạo</span>
+                      {completed > mastered && (
+                        <span className="text-xs font-bold text-yellow-600">✅ {completed} đã làm</span>
+                      )}
                     </div>
                   </div>
                 ) : (
