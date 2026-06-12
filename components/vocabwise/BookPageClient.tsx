@@ -107,6 +107,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const completedCount = topics.filter(t => syncMap[t.topic_id]?.completed).length
   const needsReviewCount = topics.filter(t => syncMap[t.topic_id]?.completed && !syncMap[t.topic_id]?.mastered).length
   const pct = topics.length > 0 ? Math.round((masteredCount / topics.length) * 100) : 0
+  const totalWords = topics.reduce((s, t) => s + (t.word_count ?? 15), 0)
 
   const today = new Date().toISOString().split('T')[0]
   const srsDueCount = Object.values(srsMap).filter(e => e.due <= today).length
@@ -131,6 +132,36 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 pt-3 space-y-3">
+
+        {/* Module overview card */}
+        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
+          <div className="flex items-center justify-between mb-3">
+            <p className="text-xs font-black text-gray-400 uppercase tracking-wider">Tổng quan</p>
+            <p className="text-xs font-bold text-gray-500">{topics.length} chủ đề · {totalWords.toLocaleString()} từ</p>
+          </div>
+          <div className="divide-y divide-gray-50 -mx-1">
+            {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
+              const [themeNum, themeTitle] = themeKey.split('|')
+              const themeViTitle = themeTopics[0]?.theme_title_vi
+              const themeWords = themeTopics.reduce((s, t) => s + (t.word_count ?? 15), 0)
+              return (
+                <div key={themeKey} className="flex items-center justify-between px-1 py-2">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
+                    <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
+                  </div>
+                  <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
+                    <span className="font-semibold text-gray-500">{themeTopics.length}</span>
+                    <span>topics</span>
+                    <span className="text-gray-200 mx-1">·</span>
+                    <span className="font-semibold text-gray-500">{themeWords}</span>
+                    <span>từ</span>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
 
         {/* Progress summary card */}
         <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">

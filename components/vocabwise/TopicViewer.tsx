@@ -74,16 +74,19 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       setSpeaking(false)
       return
     }
-    const plainText = passage.paragraphs
-      .map(p => p.text_en.replace(/\*\*(.+?)\*\*/g, '$1'))
-      .join(' ')
-    const utter = new SpeechSynthesisUtterance(plainText)
-    utter.lang = 'en-US'
-    utter.rate = 0.9
-    utter.onend  = () => setSpeaking(false)
-    utter.onerror = () => setSpeaking(false)
-    window.speechSynthesis.speak(utter)
+    const chunks = passage.paragraphs.map(p => p.text_en.replace(/\*\*(.+?)\*\*/g, '$1'))
     setSpeaking(true)
+    let idx = 0
+    const playNext = () => {
+      if (idx >= chunks.length) { setSpeaking(false); return }
+      const chunk = chunks[idx]; idx++
+      speak(chunk, {
+        rate: 0.9,
+        onEnd: () => setTimeout(playNext, 50),
+        onError: () => setSpeaking(false),
+      })
+    }
+    playNext()
   }
 
   useEffect(() => {
