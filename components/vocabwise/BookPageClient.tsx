@@ -12,7 +12,7 @@ type BookInfo = { title: string; cefr: string; color: string; emoji: string }
 type TopicMeta = {
   topic_id: string; topic_number: number; topic_title: string; topic_title_vi?: string
   theme_number: number; theme_title: string; theme_title_vi?: string
-  emoji?: string; status: string; combo: string
+  emoji?: string; status: string; combo: string; word_count?: number
 }
 type Props = { book: string; info: BookInfo; topics: TopicMeta[]; byTheme: Record<string, TopicMeta[]> }
 
@@ -27,6 +27,11 @@ const NUM_GRAD: Record<string, string> = {
   book1: 'from-green-400 to-emerald-500',
   book2: 'from-blue-500 to-cyan-500',
   book3: 'from-purple-600 to-violet-600',
+}
+const BOOK_CARD_DONE: Record<string, string> = {
+  book1: 'bg-emerald-50 border-emerald-300',
+  book2: 'bg-blue-50 border-blue-300',
+  book3: 'bg-purple-50 border-purple-300',
 }
 
 export default function BookPageClient({ book, info, topics, byTheme }: Props) {
@@ -235,28 +240,26 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                       const isMastered = !!sync?.mastered
                       const needsWork  = !!sync?.completed && !isMastered
 
-                      const cardCls = locked
-                        ? 'bg-white opacity-60 border-gray-100'
-                        : isMastered ? 'bg-green-50 border-green-200'
-                        : needsWork  ? 'bg-orange-50 border-orange-200'
-                        : sync?.completed ? 'bg-yellow-50 border-yellow-100'
-                        : 'bg-white border-gray-100'
-
-                      const numCls = isMastered ? 'bg-green-500 text-white'
-                        : needsWork             ? 'bg-orange-400 text-white'
-                        : sync?.completed       ? 'bg-yellow-400 text-white'
-                        : `bg-gradient-to-br ${numGrad} text-white`
+                      const doneCls  = BOOK_CARD_DONE[book] ?? 'bg-green-50 border-green-300'
+                      const cardCls  = locked
+                        ? 'bg-white border-transparent'
+                        : isMastered  ? doneCls
+                        : needsWork   ? 'bg-amber-50 border-amber-300'
+                        : 'bg-white border-transparent'
 
                       if (locked) {
                         return (
                           <button key={t.topic_id} onClick={() => setShowUpgrade(true)}
-                            className={`${cardCls} border-2 rounded-2xl p-3.5 flex flex-col gap-2 shadow-sm relative`}>
-                            <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${numGrad} flex items-center justify-center text-base font-black shadow-sm opacity-30`}>
-                              {t.emoji ?? t.topic_number}
-                            </div>
-                            <p className="font-black text-gray-400 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
-                            <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/50">
+                            className={`${cardCls} border-2 rounded-2xl p-4 text-left shadow-sm relative opacity-60`}>
+                            <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/60">
                               <span className="text-2xl">🔒</span>
+                            </div>
+                            <div className="flex items-center gap-2.5 mb-2">
+                              <span className="text-3xl flex-shrink-0">{t.emoji ?? '📚'}</span>
+                              <div className="min-w-0">
+                                <p className="font-semibold text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
+                                <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
+                              </div>
                             </div>
                           </button>
                         )
@@ -264,22 +267,23 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
                       return (
                         <Link key={t.topic_id} href={`/vocabwise/${book}/${t.topic_id}`}
-                          className={`${cardCls} border-2 rounded-2xl p-3.5 flex flex-col gap-2 shadow-sm active:scale-95 transition-all duration-150`}>
-                          <div className={`w-11 h-11 rounded-xl ${numCls} flex items-center justify-center text-base font-black shadow-sm flex-shrink-0`}>
-                            {isMastered ? '🏆' : (t.emoji ?? t.topic_number)}
+                          className={`${cardCls} border-2 rounded-2xl p-4 text-left block shadow-sm active:scale-95 transition-all duration-150`}>
+                          <div className="flex items-center gap-2.5 mb-2">
+                            <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
+                            <div className="min-w-0">
+                              <p className="font-semibold text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
+                              <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
+                            </div>
                           </div>
-                          <div className="flex-1 min-w-0">
-                            <p className="font-black text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
-                            {t.topic_title_vi && <p className="text-xs text-gray-400 leading-tight mt-0.5">{t.topic_title}</p>}
-                          </div>
-                          {isMastered ? (
-                            <span className="text-xs font-black text-green-600">🏆 Xong</span>
-                          ) : needsWork ? (
-                            <span className="text-xs font-black text-orange-600">⚠️ Ôn thêm</span>
-                          ) : sync?.completed ? (
-                            <span className="text-xs font-black text-yellow-600">✅ Đã làm</span>
-                          ) : (
-                            <span className="text-xs font-semibold text-gray-400">Bài {t.topic_number}</span>
+                          {(isMastered || needsWork) && (
+                            <div className="mt-2 space-y-1.5">
+                              {isMastered && (
+                                <span className="inline-block text-xs bg-green-100 text-green-600 px-2 py-0.5 rounded-full font-medium">🏆 Xong</span>
+                              )}
+                              {needsWork && (
+                                <span className="inline-block text-xs bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full font-medium">⚠️ Ôn thêm</span>
+                              )}
+                            </div>
                           )}
                         </Link>
                       )
@@ -309,13 +313,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   className={`w-full text-left px-4 py-3 flex items-center gap-3 transition-colors ${
                     locked ? 'opacity-50' : 'hover:bg-gray-50 active:bg-gray-100'
                   }`}>
-                  <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-black flex-shrink-0 ${
-                    isMastered   ? 'bg-green-100 text-green-600'
-                    : needsWork  ? 'bg-orange-100 text-orange-500'
-                    : sync?.completed ? 'bg-yellow-100 text-yellow-600'
-                    : 'bg-gray-100 text-gray-500'
-                  }`}>
-                    {isMastered ? '🏆' : (t.emoji ?? t.topic_number)}
+                  <span className="text-2xl flex-shrink-0 w-9 text-center">
+                    {isMastered ? '🏆' : (t.emoji ?? '📚')}
                   </span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">

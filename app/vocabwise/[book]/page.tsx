@@ -6,7 +6,7 @@ import BookPageClient from '@/components/vocabwise/BookPageClient'
 type TopicMeta = {
   topic_id: string; topic_number: number; topic_title: string; topic_title_vi?: string
   theme_number: number; theme_title: string; theme_title_vi?: string
-  emoji?: string; status: string; combo: string
+  emoji?: string; status: string; combo: string; word_count?: number
 }
 
 const BOOK_INFO: Record<string, { title: string; cefr: string; color: string; emoji: string }> = {
@@ -22,8 +22,9 @@ function loadTopics(book: string): TopicMeta[] {
     .filter(f => f.endsWith('.json'))
     .sort()
     .map(f => {
-      const raw = fs.readFileSync(path.join(dir, f), 'utf8')
-      return JSON.parse(raw).meta as TopicMeta
+      const raw  = fs.readFileSync(path.join(dir, f), 'utf8')
+      const data = JSON.parse(raw)
+      return { ...data.meta, word_count: Array.isArray(data.glossary) ? data.glossary.length : 15 } as TopicMeta
     })
 }
 
