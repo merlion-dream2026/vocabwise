@@ -53,6 +53,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [tab, setTab]       = useState<Tab>('passage')
   const [showVI, setShowVI] = useState(false)
   const [exMode, setExMode] = useState(false)
+  const [speaking, setSpeaking] = useState(false)
 
   const [childId, setChildId]   = useState<string | null>(null)
   const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
@@ -60,6 +61,30 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   // Preserve existing srs + history so we don't overwrite them on save (Group 2 prep)
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number }>>({})
+
+  // Stop speech on unmount or tab switch away from passage
+  useEffect(() => { return () => { window.speechSynthesis?.cancel() } }, [])
+  useEffect(() => {
+    if (tab !== 'passage') { window.speechSynthesis?.cancel(); setSpeaking(false) }
+  }, [tab])
+
+  function handleSpeak() {
+    if (speaking) {
+      window.speechSynthesis.cancel()
+      setSpeaking(false)
+      return
+    }
+    const plainText = passage.paragraphs
+      .map(p => p.text_en.replace(/\*\*(.+?)\*\*/g, '$1'))
+      .join(' ')
+    const utter = new SpeechSynthesisUtterance(plainText)
+    utter.lang = 'en-US'
+    utter.rate = 0.9
+    utter.onend  = () => setSpeaking(false)
+    utter.onerror = () => setSpeaking(false)
+    window.speechSynthesis.speak(utter)
+    setSpeaking(true)
+  }
 
   useEffect(() => {
     const cid = typeof window !== 'undefined' ? localStorage.getItem('vw_active_child') : null
@@ -192,10 +217,20 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 <h2 className="font-black text-gray-700 text-sm">{meta.topic_title}</h2>
                 <p className="text-xs text-gray-400 mt-0.5">📄 Bài đọc · {passage.word_count} từ</p>
               </div>
-              <button onClick={() => setShowVI(v => !v)}
-                className="text-xs font-black px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
-                {showVI ? '🇬🇧 Ẩn dịch' : '🇻🇳 Xem dịch'}
-              </button>
+              <div className="flex items-center gap-2">
+                <button onClick={handleSpeak}
+                  className={`text-xs font-black px-3 py-1.5 rounded-full transition-colors ${
+                    speaking
+                      ? 'bg-red-100 text-red-600 hover:bg-red-200'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  }`}>
+                  {speaking ? '⏹ Dừng' : '🔊 Nghe'}
+                </button>
+                <button onClick={() => setShowVI(v => !v)}
+                  className="text-xs font-black px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
+                  {showVI ? '🇬🇧 Ẩn dịch' : '🇻🇳 Xem dịch'}
+                </button>
+              </div>
             </div>
             <div className="space-y-4">
               {passage.paragraphs.map(para => (
