@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "book": 2, "topic_number": 1, "topic_id": "b2-t01",
+    "topic_title": "Education & Learning", "theme_number": 1, "theme_title": "Mind & Society",
+    "cefr_level": "B1-B2", "combo": "B1", "emoji": "🎓", "topic_title_vi": "Giáo Dục & Học Tập", "theme_title_vi": "Tư Duy & Xã Hội",
+    "status": "qa_pass",
+    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+  },
+  "passage": { "word_count": 192, "paragraphs": [
+    { "index": 1, "text_en": "Education is widely regarded as one of the most important investments a society can make. In most countries, attending school is **compulsory** for children between the ages of six and sixteen. Students follow a set **curriculum** that covers core subjects such as mathematics, science, and languages. The goal is to build strong **academic** foundations that students will use throughout their lives.", "text_vi": "Giáo dục được xem là một trong những đầu tư quan trọng nhất mà một xã hội có thể thực hiện. Ở hầu hết các quốc gia, việc đến trường là **bắt buộc** đối với trẻ em từ sáu đến mười sáu tuổi. Học sinh theo học một **chương trình học** bao gồm các môn cốt lõi như toán, khoa học và ngôn ngữ. Mục tiêu là xây dựng nền tảng **học thuật** vững chắc giúp ích cho học sinh suốt cuộc đời." },
+    { "index": 2, "text_en": "After finishing secondary school, many students choose to **enrol** in a university or college. At university, learning takes place through **lectures**, written **assignments**, and individual sessions with a **tutor** who provides guidance on specific subjects. Students are expected to manage their time carefully, as deadlines are strict.", "text_vi": "Sau khi hoàn thành trung học, nhiều học sinh chọn **đăng ký** vào trường đại học hoặc cao đẳng. Ở đại học, việc học diễn ra qua **bài giảng**, **bài tập được giao** bằng văn bản, và các buổi học riêng với **gia sư** hướng dẫn về môn học cụ thể. Học sinh cần quản lý thời gian cẩn thận vì thời hạn nộp bài rất nghiêm ngặt." },
+    { "index": 3, "text_en": "Students are regularly tested through a formal **assessment** process. Those who perform well earn a **qualification** such as a degree or diploma — documents that are essential for finding employment. Talented students may also apply for a **scholarship**, which provides financial support to cover tuition fees. After meeting all requirements, students proudly **graduate** at a formal ceremony.", "text_vi": "Học sinh được kiểm tra thường xuyên thông qua quy trình **đánh giá** chính thức. Những người đạt kết quả tốt sẽ nhận **bằng cấp** như bằng đại học hoặc diploma — những tài liệu thiết yếu để tìm việc làm. Học sinh tài năng cũng có thể nộp đơn xin **học bổng**, hỗ trợ tài chính trang trải học phí. Sau khi đáp ứng tất cả yêu cầu, học sinh tự hào **tốt nghiệp** trong một lễ trao bằng trọng thể." },
+    { "index": 4, "text_en": "Beyond formal schooling, **literacy** — the ability to read and write — remains a key education goal worldwide. Unfortunately, some students become **dropouts** before completing their studies, often due to poverty or difficult family situations. Education also develops **discipline** and the ability to learn alongside **peers**, skills that prepare students well for adult life.", "text_vi": "Ngoài việc học chính quy, **khả năng đọc viết** — khả năng đọc và viết — vẫn là mục tiêu giáo dục trọng yếu trên toàn thế giới. Đáng tiếc, một số học sinh trở thành **người bỏ học** trước khi hoàn thành việc học, thường do nghèo đói hoặc hoàn cảnh gia đình khó khăn. Giáo dục còn rèn **kỷ luật** và khả năng học cùng **bạn đồng trang lứa**, những kỹ năng chuẩn bị tốt cho cuộc sống trưởng thành." }
+  ]},
+  "glossary": [
+    { "id": 1, "word": "compulsory", "ipa": "/kəmˈpʌl.sər.i/", "pos": "adjective", "meaning_vi": "bắt buộc", "meaning_vi_inline": "bắt buộc", "example_en": "Education is compulsory for all children.", "example_vi": "Giáo dục là bắt buộc đối với tất cả trẻ em.", "word_family": { "noun": "compulsion", "verb": "compel", "adjective": "compulsory", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 2, "word": "curriculum", "ipa": "/kəˈrɪk.jʊ.ləm/", "pos": "noun", "meaning_vi": "chương trình học", "meaning_vi_inline": "chương trình học", "example_en": "The curriculum includes maths, science, and English.", "example_vi": "Chương trình học bao gồm toán, khoa học và tiếng Anh.", "word_family": { "noun": "curriculum", "verb": null, "adjective": "curricular", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 3, "word": "academic", "ipa": "/ˌæk.əˈdem.ɪk/", "pos": "adjective", "meaning_vi": "học thuật", "meaning_vi_inline": "học thuật", "example_en": "She has a strong academic background.", "example_vi": "Cô ấy có nền tảng học thuật vững chắc.", "word_family": { "noun": "academy / academics", "verb": null, "adjective": "academic", "adverb": "academically" }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 4, "word": "enrol", "ipa": "/ɪnˈrəʊl/", "pos": "verb", "meaning_vi": "đăng ký nhập học", "meaning_vi_inline": "đăng ký học", "example_en": "She enrolled in a business course last year.", "example_vi": "Cô ấy đã đăng ký một khóa kinh doanh năm ngoái.", "word_family": { "noun": "enrolment", "verb": "enrol", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 5, "word": "lecture", "ipa": "/ˈlek.tʃər/", "pos": "noun/verb", "meaning_vi": "bài giảng / giảng bài", "meaning_vi_inline": "bài giảng", "example_en": "The biology lecture lasted two hours.", "example_vi": "Bài giảng sinh học kéo dài hai tiếng.", "word_family": { "noun": "lecture / lecturer", "verb": "lecture", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 6, "word": "assignment", "ipa": "/əˈsaɪn.mənt/", "pos": "noun", "meaning_vi": "bài tập được giao", "meaning_vi_inline": "bài tập", "example_en": "The assignment must be submitted by Friday.", "example_vi": "Bài tập phải nộp trước thứ Sáu.", "word_family": { "noun": "assignment", "verb": "assign", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 7, "word": "tutor", "ipa": "/ˈtjuː.tər/", "pos": "noun", "meaning_vi": "gia sư, giáo viên hướng dẫn", "meaning_vi_inline": "gia sư", "example_en": "She hired a tutor to help with her exams.", "example_vi": "Cô ấy thuê gia sư để ôn thi.", "word_family": { "noun": "tutor / tutorial", "verb": "tutor", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 8, "word": "assessment", "ipa": "/əˈses.mənt/", "pos": "noun", "meaning_vi": "đánh giá (học tập)", "meaning_vi_inline": "đánh giá", "example_en": "The final assessment includes a written exam.", "example_vi": "Bài đánh giá cuối kỳ bao gồm một bài thi viết.", "word_family": { "noun": "assessment", "verb": "assess", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 9, "word": "qualification", "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/", "pos": "noun", "meaning_vi": "bằng cấp, chứng chỉ", "meaning_vi_inline": "bằng cấp", "example_en": "You need a teaching qualification to work here.", "example_vi": "Bạn cần có bằng cấp giảng dạy để làm việc ở đây.", "word_family": { "noun": "qualification", "verb": "qualify", "adjective": "qualified", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 10, "word": "scholarship", "ipa": "/ˈskɒl.ə.ʃɪp/", "pos": "noun", "meaning_vi": "học bổng", "meaning_vi_inline": "học bổng", "example_en": "She won a scholarship to study abroad.", "example_vi": "Cô ấy giành được học bổng để du học.", "word_family": { "noun": "scholarship / scholar", "verb": null, "adjective": "scholarly", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 11, "word": "graduate", "ipa": "/ˈɡræd.ju.ɪt/", "pos": "noun/verb", "meaning_vi": "tốt nghiệp / người tốt nghiệp đại học", "meaning_vi_inline": "tốt nghiệp", "example_en": "She graduated from university last year.", "example_vi": "Cô ấy đã tốt nghiệp đại học năm ngoái.", "word_family": { "noun": "graduate / graduation", "verb": "graduate", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 12, "word": "literacy", "ipa": "/ˈlɪt.ər.ə.si/", "pos": "noun", "meaning_vi": "khả năng đọc viết", "meaning_vi_inline": "khả năng đọc viết", "example_en": "Literacy rates have improved in recent decades.", "example_vi": "Tỷ lệ biết đọc biết viết đã cải thiện trong những thập kỷ gần đây.", "word_family": { "noun": "literacy", "verb": null, "adjective": "literate / illiterate", "adverb": null }, "false_friend": { "word_vi": "literature", "explanation_vi": "'Literacy' là khả năng đọc viết; 'literature' là văn học — đừng nhầm lẫn hai từ này." }, "receptive_productive": "R" },
+    { "id": 13, "word": "dropout", "ipa": "/ˈdrɒp.aʊt/", "pos": "noun", "meaning_vi": "người bỏ học", "meaning_vi_inline": "người bỏ học", "example_en": "The school aims to reduce its dropout rate.", "example_vi": "Trường đặt mục tiêu giảm tỷ lệ bỏ học.", "word_family": { "noun": "dropout", "verb": "drop out", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 14, "word": "discipline", "ipa": "/ˈdɪs.ɪ.plɪn/", "pos": "noun", "meaning_vi": "kỷ luật; lĩnh vực học thuật", "meaning_vi_inline": "kỷ luật", "example_en": "Good discipline helps students stay focused.", "example_vi": "Kỷ luật tốt giúp học sinh duy trì sự tập trung.", "word_family": { "noun": "discipline", "verb": "discipline", "adjective": "disciplined", "adverb": null }, "false_friend": { "word_vi": "subject", "explanation_vi": "'Discipline' trong học thuật có nghĩa là 'lĩnh vực nghiên cứu', không hoàn toàn giống 'subject' (môn học thông thường)." }, "receptive_productive": "P" },
+    { "id": 15, "word": "peer", "ipa": "/pɪər/", "pos": "noun", "meaning_vi": "bạn đồng trang lứa", "meaning_vi_inline": "bạn đồng trang lứa", "example_en": "Learning from peers can be very effective.", "example_vi": "Học hỏi từ bạn đồng trang lứa có thể rất hiệu quả.", "word_family": { "noun": "peer", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        { "id": 1, "statement": "In most countries, children are required by law to attend school.", "answer": "True" },
+        { "id": 2, "statement": "University students are expected to submit their work before deadlines.", "answer": "True" },
+        { "id": 3, "statement": "Scholarships are only given to students from low-income families.", "answer": "Not Given" },
+        { "id": 4, "statement": "Having a qualification is important for finding a job.", "answer": "True" },
+        { "id": 5, "statement": "Poverty is the only reason students leave school before finishing.", "answer": "False" }
+      ]
+    },
+    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        { "id": 1, "sentence": "She applied for a _____ to help pay for her university tuition fees.", "options": ["curriculum", "scholarship", "dropout", "lecture"], "answer": "scholarship" },
+        { "id": 2, "sentence": "The school's _____ covers maths, science, history, and three languages.", "options": ["assessment", "curriculum", "qualification", "tutor"], "answer": "curriculum" },
+        { "id": 3, "sentence": "Students who pass the final exam will receive a _____ in business management.", "options": ["graduation", "scholarship", "qualification", "enrolment"], "answer": "qualification" },
+        { "id": 4, "sentence": "He plans to _____ in a law degree at the city university next month.", "options": ["graduate", "assess", "enrol", "lecture"], "answer": "enrol" },
+        { "id": 5, "sentence": "After six years of hard study, she finally _____ with top honours.", "options": ["enrolled", "assessed", "lectured", "graduated"], "answer": "graduated" }
+      ]
+    },
+    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["assignment", "literacy", "academic", "discipline", "peers"],
+      "items": [
+        { "id": 1, "sentence": "The teacher gave the class a long _____ to complete over the weekend.", "answer": "assignment" },
+        { "id": 2, "sentence": "Improving _____ rates is a key education goal in developing countries.", "answer": "literacy" },
+        { "id": 3, "sentence": "She has excellent _____ skills and plans to study medicine at university.", "answer": "academic" },
+        { "id": 4, "sentence": "Good _____ helps students stay focused and manage their time effectively.", "answer": "discipline" },
+        { "id": 5, "sentence": "Students often learn as much from their _____ as they do from their teachers.", "answer": "peers" }
+      ]
+    },
+    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        { "id": 1, "words": ["a", "she", "won", "scholarship", "her", "for", "results", "academic"], "answer": "She won a scholarship for her academic results." },
+        { "id": 2, "words": ["must", "students", "all", "before", "enrol", "course", "the", "starts"], "answer": "All students must enrol before the course starts." },
+        { "id": 3, "words": ["her", "tutor", "the", "helped", "a", "complete", "difficult", "assignment"], "answer": "The tutor helped her complete a difficult assignment." },
+        { "id": 4, "words": ["is", "literacy", "goal", "a", "worldwide", "key", "education", "of"], "answer": "Literacy is a key goal of education worldwide." },
+        { "id": 5, "words": ["she", "last", "graduated", "from", "year", "university", "honours", "with"], "answer": "She graduated from university with honours last year." }
+      ]
+    },
+    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        { "id": 1, "sentence": "She received a [scholarships] for her excellent exam results.", "highlighted": "scholarships", "options": { "A": "scholarly", "B": "scholarship", "C": "scholarships" }, "answer": "B", "explanation": "'Scholarship' is singular here — she received one scholarship, not many." },
+        { "id": 2, "sentence": "All children must attend school — it is [optional] by law.", "highlighted": "optional", "options": { "A": "academic", "B": "compulsory", "C": "optional" }, "answer": "B", "explanation": "'Compulsory' means required by law — the opposite of optional." },
+        { "id": 3, "sentence": "He decided to [enrolled] in a business course at the local university.", "highlighted": "enrolled", "options": { "A": "enrolling", "B": "enrol", "C": "enrolled" }, "answer": "B", "explanation": "After 'decided to', use the base form of the verb: 'enrol', not 'enrolled'." },
+        { "id": 4, "sentence": "The teacher gave the class a long [assign] to finish by Monday.", "highlighted": "assign", "options": { "A": "assigning", "B": "assignment", "C": "assign" }, "answer": "B", "explanation": "'Assignment' is the noun form — a task given to students to complete." },
+        { "id": 5, "sentence": "She is very [academy] and hopes to study at a top university.", "highlighted": "academy", "options": { "A": "academically", "B": "academic", "C": "academy" }, "answer": "B", "explanation": "'Academic' is the adjective form — used to describe a person's attitude or ability." }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "True", "2": "True", "3": "Not Given", "4": "True", "5": "False" },
+    "ex2": { "1": "scholarship", "2": "curriculum", "3": "qualification", "4": "enrol", "5": "graduated" },
+    "ex3": { "1": "assignment", "2": "literacy", "3": "academic", "4": "discipline", "5": "peers" },
+    "ex4": { "1": "She won a scholarship for her academic results.", "2": "All students must enrol before the course starts.", "3": "The tutor helped her complete a difficult assignment.", "4": "Literacy is a key goal of education worldwide.", "5": "She graduated from university with honours last year." },
+    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+  }
+}

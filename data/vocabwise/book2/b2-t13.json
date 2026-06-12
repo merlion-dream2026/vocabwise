@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "book": 2, "topic_number": 13, "topic_id": "b2-t13",
+    "topic_title": "Pollution & Waste", "theme_number": 2, "theme_title": "Environment & Science",
+    "cefr_level": "B1-B2", "combo": "B1", "emoji": "🏭", "topic_title_vi": "Ô Nhiễm & Rác Thải", "theme_title_vi": "Môi Trường & Khoa Học",
+    "status": "qa_pass",
+    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+  },
+  "passage": { "word_count": 191, "paragraphs": [
+    { "index": 1, "text_en": "**Pollution** is one of the most serious environmental problems facing the world today. It occurs when harmful substances enter the air, water, or land, causing damage to living things and natural systems. Common sources include factories, vehicles, and farms that carelessly **dispose** of waste. Once a river or soil becomes **contaminated**, it can take years to recover.", "text_vi": "**Ô nhiễm** là một trong những vấn đề môi trường nghiêm trọng nhất mà thế giới đang đối mặt hiện nay. Ô nhiễm xảy ra khi các chất độc hại xâm nhập vào không khí, nước hoặc đất, gây hại cho sinh vật sống và hệ thống tự nhiên. Các nguồn phổ biến bao gồm nhà máy, phương tiện giao thông và nông trại **xử lý** chất thải bừa bãi. Khi một con sông hoặc vùng đất bị **ô nhiễm**, phải mất nhiều năm mới phục hồi được." },
+    { "index": 2, "text_en": "Air pollution is largely caused by burning **fossil fuels** such as coal and petrol. This process releases **emissions** — gases that dirty the air and contribute to climate change. In many large cities, a thick layer of **smog** forms over the streets, making the air difficult to breathe. **Littering** in public spaces also harms wildlife and makes communities dirty and unpleasant.", "text_vi": "Ô nhiễm không khí chủ yếu do đốt **nhiên liệu hóa thạch** như than đá và xăng dầu. Quá trình này thải ra **khí thải** — những loại khí làm bẩn không khí và góp phần gây biến đổi khí hậu. Ở nhiều thành phố lớn, một lớp **khói bụi** dày đặc bao phủ các con đường, khiến không khí khó thở. **Vứt rác** nơi công cộng cũng gây hại cho động vật hoang dã và làm cộng đồng mất vệ sinh." },
+    { "index": 3, "text_en": "Much of our daily waste ends up in a **landfill** — a large site where rubbish is buried underground. Some materials, especially plastics, do not **decompose** for hundreds of years. **Toxic** and **hazardous** chemicals from factories can leak into rivers, while untreated **sewage** further contaminates water supplies used by communities.", "text_vi": "Phần lớn rác thải hàng ngày của chúng ta kết thúc ở **bãi chôn lấp** — một khu vực lớn nơi rác được chôn dưới đất. Một số vật liệu, đặc biệt là nhựa, không **phân hủy** trong hàng trăm năm. Hóa chất **độc hại** và **nguy hiểm** từ nhà máy có thể rò rỉ vào sông, trong khi **nước thải** chưa qua xử lý càng làm ô nhiễm thêm nguồn nước của cộng đồng." },
+    { "index": 4, "text_en": "Fortunately, change is possible. Governments and individuals can reduce their **carbon footprint** by using less energy and choosing **sustainable** products. **Recycling** keeps useful materials out of landfill and reduces the demand for new resources. Small daily choices — from refusing plastic bags to cycling to work — all contribute to a cleaner planet.", "text_vi": "May mắn thay, sự thay đổi là có thể. Các chính phủ và cá nhân có thể giảm **dấu chân carbon** bằng cách sử dụng ít năng lượng hơn và chọn các sản phẩm **bền vững**. **Tái chế** giúp giữ các vật liệu hữu ích khỏi bãi chôn lấp và giảm nhu cầu sử dụng tài nguyên mới. Những lựa chọn nhỏ hàng ngày — từ từ chối túi nhựa đến đạp xe đi làm — đều góp phần vào một hành tinh sạch hơn." }
+  ]},
+  "glossary": [
+    { "id": 1, "word": "pollution", "ipa": "/pəˈluː.ʃən/", "pos": "noun", "meaning_vi": "ô nhiễm", "meaning_vi_inline": "ô nhiễm", "example_en": "Air pollution is a serious problem in many cities.", "example_vi": "Ô nhiễm không khí là vấn đề nghiêm trọng ở nhiều thành phố.", "word_family": { "noun": "pollution / pollutant", "verb": "pollute", "adjective": "polluted", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 2, "word": "dispose", "ipa": "/dɪˈspəʊz/", "pos": "verb", "meaning_vi": "xử lý, vứt bỏ (rác thải)", "meaning_vi_inline": "xử lý rác", "example_en": "Please dispose of your waste responsibly.", "example_vi": "Vui lòng xử lý rác thải có trách nhiệm.", "word_family": { "noun": "disposal", "verb": "dispose", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 3, "word": "contaminate", "ipa": "/kənˈtæm.ɪ.neɪt/", "pos": "verb", "meaning_vi": "làm ô nhiễm, làm nhiễm bẩn", "meaning_vi_inline": "làm ô nhiễm", "example_en": "The chemical leak contaminated the local river.", "example_vi": "Sự rò rỉ hóa chất đã làm ô nhiễm con sông địa phương.", "word_family": { "noun": "contamination / contaminant", "verb": "contaminate", "adjective": "contaminated", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 4, "word": "fossil fuel", "ipa": "/ˈfɒs.əl ˌfjuːl/", "pos": "noun", "meaning_vi": "nhiên liệu hóa thạch", "meaning_vi_inline": "nhiên liệu hóa thạch", "example_en": "Coal is a fossil fuel that releases a lot of carbon.", "example_vi": "Than đá là nhiên liệu hóa thạch thải ra nhiều carbon.", "word_family": { "noun": "fossil fuel", "verb": null, "adjective": "fossil", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 5, "word": "emission", "ipa": "/ɪˈmɪʃ.ən/", "pos": "noun", "meaning_vi": "khí thải", "meaning_vi_inline": "khí thải", "example_en": "Car emissions are a major source of air pollution.", "example_vi": "Khí thải ô tô là nguồn gây ô nhiễm không khí lớn.", "word_family": { "noun": "emission", "verb": "emit", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 6, "word": "smog", "ipa": "/smɒɡ/", "pos": "noun", "meaning_vi": "khói bụi mù, sương mù ô nhiễm", "meaning_vi_inline": "khói bụi mù", "example_en": "A thick smog covered the city all week.", "example_vi": "Một lớp khói bụi dày bao phủ thành phố cả tuần.", "word_family": { "noun": "smog", "verb": null, "adjective": "smoggy", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 7, "word": "litter", "ipa": "/ˈlɪt.ər/", "pos": "noun/verb", "meaning_vi": "rác thải nơi công cộng / vứt rác", "meaning_vi_inline": "vứt rác", "example_en": "It is illegal to litter in public parks.", "example_vi": "Vứt rác ở công viên công cộng là hành vi vi phạm pháp luật.", "word_family": { "noun": "litter / littering", "verb": "litter", "adjective": null, "adverb": null }, "false_friend": { "word_vi": "litter (ổ con vật)", "explanation_vi": "'Litter' có hai nghĩa: rác nơi công cộng, và ổ (lứa con vật). Trong chủ đề môi trường, nghĩa là rác." }, "receptive_productive": "P" },
+    { "id": 8, "word": "landfill", "ipa": "/ˈlænd.fɪl/", "pos": "noun", "meaning_vi": "bãi chôn lấp rác", "meaning_vi_inline": "bãi chôn lấp", "example_en": "Millions of tonnes of rubbish go to landfill each year.", "example_vi": "Hàng triệu tấn rác thải đến bãi chôn lấp mỗi năm.", "word_family": { "noun": "landfill", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 9, "word": "toxic", "ipa": "/ˈtɒk.sɪk/", "pos": "adjective", "meaning_vi": "độc hại", "meaning_vi_inline": "độc hại", "example_en": "Some factory chemicals are highly toxic.", "example_vi": "Một số hóa chất nhà máy cực kỳ độc hại.", "word_family": { "noun": "toxin / toxicity", "verb": null, "adjective": "toxic", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 10, "word": "hazardous", "ipa": "/ˈhæz.ə.dəs/", "pos": "adjective", "meaning_vi": "nguy hiểm, có hại", "meaning_vi_inline": "nguy hiểm", "example_en": "Hazardous waste must be stored safely.", "example_vi": "Chất thải nguy hại phải được lưu trữ an toàn.", "word_family": { "noun": "hazard", "verb": null, "adjective": "hazardous", "adverb": "hazardously" }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 11, "word": "sewage", "ipa": "/ˈsuː.ɪdʒ/", "pos": "noun", "meaning_vi": "nước thải sinh hoạt", "meaning_vi_inline": "nước thải", "example_en": "Untreated sewage pollutes rivers and beaches.", "example_vi": "Nước thải chưa qua xử lý làm ô nhiễm sông và bãi biển.", "word_family": { "noun": "sewage / sewer", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 12, "word": "decompose", "ipa": "/ˌdiː.kəmˈpəʊz/", "pos": "verb", "meaning_vi": "phân hủy", "meaning_vi_inline": "phân hủy", "example_en": "Organic food waste decomposes within weeks.", "example_vi": "Rác thực phẩm hữu cơ phân hủy trong vài tuần.", "word_family": { "noun": "decomposition", "verb": "decompose", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 13, "word": "recycle", "ipa": "/ˌriːˈsaɪ.kəl/", "pos": "verb", "meaning_vi": "tái chế", "meaning_vi_inline": "tái chế", "example_en": "Always recycle paper, glass, and plastic.", "example_vi": "Hãy luôn tái chế giấy, thủy tinh và nhựa.", "word_family": { "noun": "recycling / recycler", "verb": "recycle", "adjective": "recyclable", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 14, "word": "carbon footprint", "ipa": "/ˌkɑː.bən ˈfʊt.prɪnt/", "pos": "noun", "meaning_vi": "dấu chân carbon", "meaning_vi_inline": "dấu chân carbon", "example_en": "Flying frequently increases your carbon footprint.", "example_vi": "Đi máy bay thường xuyên làm tăng dấu chân carbon của bạn.", "word_family": { "noun": "carbon footprint", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 15, "word": "sustainable", "ipa": "/səˈsteɪ.nə.bəl/", "pos": "adjective", "meaning_vi": "bền vững", "meaning_vi_inline": "bền vững", "example_en": "We need more sustainable ways to produce energy.", "example_vi": "Chúng ta cần những cách sản xuất năng lượng bền vững hơn.", "word_family": { "noun": "sustainability", "verb": "sustain", "adjective": "sustainable", "adverb": "sustainably" }, "false_friend": null, "receptive_productive": "R" }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        { "id": 1, "statement": "Air pollution is mainly caused by burning fossil fuels.", "answer": "True" },
+        { "id": 2, "statement": "Plastic materials take hundreds of years to decompose in landfill.", "answer": "True" },
+        { "id": 3, "statement": "All countries have passed laws banning the use of toxic chemicals in factories.", "answer": "Not Given" },
+        { "id": 4, "statement": "Untreated sewage can make water supplies unsafe for communities.", "answer": "True" },
+        { "id": 5, "statement": "Recycling completely eliminates the need for new natural resources.", "answer": "False" }
+      ]
+    },
+    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        { "id": 1, "sentence": "Car engines and factory chimneys release harmful _____ into the atmosphere.", "options": ["sewage", "emissions", "landfill", "smog"], "answer": "emissions" },
+        { "id": 2, "sentence": "The factory was fined for releasing _____ chemicals that killed fish in the river.", "options": ["renewable", "sustainable", "toxic", "recycled"], "answer": "toxic" },
+        { "id": 3, "sentence": "Organic food waste will naturally _____ in a compost bin within a few weeks.", "options": ["contaminate", "recycle", "decompose", "emit"], "answer": "decompose" },
+        { "id": 4, "sentence": "Most household rubbish that is not recycled ends up in a _____ outside the city.", "options": ["carbon footprint", "smog", "landfill", "sewage"], "answer": "landfill" },
+        { "id": 5, "sentence": "Taking public transport instead of driving can help reduce your _____ .", "options": ["carbon footprint", "fossil fuel", "landfill", "sewage"], "answer": "carbon footprint" }
+      ]
+    },
+    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["smog", "recycle", "sustainable", "hazardous", "contaminated"],
+      "items": [
+        { "id": 1, "sentence": "On bad days, a thick layer of _____ hangs over the city, reducing visibility.", "answer": "smog" },
+        { "id": 2, "sentence": "It is important to _____ paper, glass, and plastic rather than throw them away.", "answer": "recycle" },
+        { "id": 3, "sentence": "Factories must handle _____ materials carefully to avoid damaging the environment.", "answer": "hazardous" },
+        { "id": 4, "sentence": "Choosing products made from recycled materials is a more _____ lifestyle choice.", "answer": "sustainable" },
+        { "id": 5, "sentence": "The river became _____ after a nearby factory leaked chemicals into the water.", "answer": "contaminated" }
+      ]
+    },
+    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        { "id": 1, "words": ["burning", "fossil", "fuels", "the", "air", "pollutes"], "answer": "Burning fossil fuels pollutes the air." },
+        { "id": 2, "words": ["take", "plastics", "hundreds", "of", "years", "to", "decompose"], "answer": "Plastics take hundreds of years to decompose." },
+        { "id": 3, "words": ["your", "reduce", "footprint", "can", "you", "carbon", "by", "cycling"], "answer": "You can reduce your carbon footprint by cycling." },
+        { "id": 4, "words": ["rivers", "sewage", "contaminates", "untreated", "and", "supplies", "water"], "answer": "Untreated sewage contaminates rivers and water supplies." },
+        { "id": 5, "words": ["helps", "keep", "materials", "of", "recycling", "landfill", "out", "useful"], "answer": "Recycling helps keep useful materials out of landfill." }
+      ]
+    },
+    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        { "id": 1, "sentence": "Car engines release harmful [emission] gases that damage the atmosphere.", "highlighted": "emission", "options": { "A": "emitting", "B": "emissions", "C": "emission" }, "answer": "B", "explanation": "'Emissions' (plural) refers to gases released into the air — multiple pollutants are always counted as plural." },
+        { "id": 2, "sentence": "She always [disposes from] her old batteries at the correct recycling point.", "highlighted": "disposes from", "options": { "A": "dispose off", "B": "disposes of", "C": "disposes from" }, "answer": "B", "explanation": "The correct phrase is 'dispose of' — not 'dispose from' or 'dispose off'." },
+        { "id": 3, "sentence": "The river became [contamination] after the factory leaked chemicals into it.", "highlighted": "contamination", "options": { "A": "contaminating", "B": "contaminated", "C": "contamination" }, "answer": "B", "explanation": "'Contaminated' is the adjective/past participle needed after 'became' — the river became contaminated." },
+        { "id": 4, "sentence": "Plastic bags do not [decomposition] in landfill — they can last for 500 years.", "highlighted": "decomposition", "options": { "A": "decomposing", "B": "decompose", "C": "decomposition" }, "answer": "B", "explanation": "'Decompose' is the base verb form needed after 'do not'." },
+        { "id": 5, "sentence": "Using solar panels is a more [sustain] way to produce electricity.", "highlighted": "sustain", "options": { "A": "sustainability", "B": "sustainable", "C": "sustain" }, "answer": "B", "explanation": "'Sustainable' is the adjective form needed to describe 'way' — a sustainable way." }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "True", "2": "True", "3": "Not Given", "4": "True", "5": "False" },
+    "ex2": { "1": "emissions", "2": "toxic", "3": "decompose", "4": "landfill", "5": "carbon footprint" },
+    "ex3": { "1": "smog", "2": "recycle", "3": "hazardous", "4": "sustainable", "5": "contaminated" },
+    "ex4": { "1": "Burning fossil fuels pollutes the air.", "2": "Plastics take hundreds of years to decompose.", "3": "You can reduce your carbon footprint by cycling.", "4": "Untreated sewage contaminates rivers and water supplies.", "5": "Recycling helps keep useful materials out of landfill." },
+    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+  }
+}
