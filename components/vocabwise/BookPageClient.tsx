@@ -10,8 +10,9 @@ type SrsEntry = { due: string; interval: number }
 
 type BookInfo = { title: string; cefr: string; color: string; emoji: string }
 type TopicMeta = {
-  topic_id: string; topic_number: number; topic_title: string
-  theme_number: number; theme_title: string; status: string; combo: string
+  topic_id: string; topic_number: number; topic_title: string; topic_title_vi?: string
+  theme_number: number; theme_title: string; theme_title_vi?: string
+  emoji?: string; status: string; combo: string
 }
 type Props = { book: string; info: BookInfo; topics: TopicMeta[]; byTheme: Record<string, TopicMeta[]> }
 
@@ -220,10 +221,11 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           <div className="space-y-6 pb-5">
             {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
               const [, themeTitle] = themeKey.split('|')
+              const themeViTitle = themeTopics[0]?.theme_title_vi
               return (
                 <div key={themeKey}>
                   <h2 className="font-black text-gray-500 text-xs uppercase tracking-widest mb-3">
-                    📂 {themeTitle}
+                    📂 {themeViTitle ?? themeTitle}
                   </h2>
                   <div className="grid grid-cols-2 gap-3">
                     {themeTopics.map(t => {
@@ -250,9 +252,9 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           <button key={t.topic_id} onClick={() => setShowUpgrade(true)}
                             className={`${cardCls} border-2 rounded-2xl p-3.5 flex flex-col gap-2 shadow-sm relative`}>
                             <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${numGrad} flex items-center justify-center text-base font-black shadow-sm opacity-30`}>
-                              {t.topic_number}
+                              {t.emoji ?? t.topic_number}
                             </div>
-                            <p className="font-black text-gray-400 text-sm leading-snug">{t.topic_title}</p>
+                            <p className="font-black text-gray-400 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
                             <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/50">
                               <span className="text-2xl">🔒</span>
                             </div>
@@ -264,9 +266,12 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                         <Link key={t.topic_id} href={`/vocabwise/${book}/${t.topic_id}`}
                           className={`${cardCls} border-2 rounded-2xl p-3.5 flex flex-col gap-2 shadow-sm active:scale-95 transition-all duration-150`}>
                           <div className={`w-11 h-11 rounded-xl ${numCls} flex items-center justify-center text-base font-black shadow-sm flex-shrink-0`}>
-                            {isMastered ? '🏆' : t.topic_number}
+                            {isMastered ? '🏆' : (t.emoji ?? t.topic_number)}
                           </div>
-                          <p className="font-black text-gray-800 text-sm leading-snug flex-1">{t.topic_title}</p>
+                          <div className="flex-1 min-w-0">
+                            <p className="font-black text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
+                            {t.topic_title_vi && <p className="text-xs text-gray-400 leading-tight mt-0.5">{t.topic_title}</p>}
+                          </div>
                           {isMastered ? (
                             <span className="text-xs font-black text-green-600">🏆 Xong</span>
                           ) : needsWork ? (
@@ -310,11 +315,11 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                     : sync?.completed ? 'bg-yellow-100 text-yellow-600'
                     : 'bg-gray-100 text-gray-500'
                   }`}>
-                    {isMastered ? '🏆' : t.topic_number}
+                    {isMastered ? '🏆' : (t.emoji ?? t.topic_number)}
                   </span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
-                      <p className="font-semibold text-gray-800 text-sm truncate">{t.topic_title}</p>
+                      <p className="font-semibold text-gray-800 text-sm truncate">{t.topic_title_vi ?? t.topic_title}</p>
                       {locked && <span className="text-sm flex-shrink-0">🔒</span>}
                       {!locked && isMastered && (
                         <span className="text-xs bg-green-100 text-green-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">🏆 Xong</span>
@@ -323,7 +328,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                         <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">⚠️ Ôn</span>
                       )}
                     </div>
-                    <p className="text-xs text-gray-400 mt-0.5">{t.theme_title}</p>
+                    <p className="text-xs text-gray-400 mt-0.5">{t.topic_title_vi ? t.topic_title : (t.theme_title_vi ?? t.theme_title)}</p>
                   </div>
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>

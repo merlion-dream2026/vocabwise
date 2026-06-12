@@ -4,8 +4,9 @@ import path from 'path'
 import BookPageClient from '@/components/vocabwise/BookPageClient'
 
 type TopicMeta = {
-  topic_id: string; topic_number: number; topic_title: string
-  theme_number: number; theme_title: string; status: string; combo: string
+  topic_id: string; topic_number: number; topic_title: string; topic_title_vi?: string
+  theme_number: number; theme_title: string; theme_title_vi?: string
+  emoji?: string; status: string; combo: string
 }
 
 const BOOK_INFO: Record<string, { title: string; cefr: string; color: string; emoji: string }> = {

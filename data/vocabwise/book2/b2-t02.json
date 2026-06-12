@@ -2,7 +2,8 @@
   "meta": {
     "book": 2, "topic_number": 2, "topic_id": "b2-t02",
     "topic_title": "Work & Career", "theme_number": 1, "theme_title": "Mind & Society",
-    "cefr_level": "B1-B2", "combo": "B1", "status": "qa_pass",
+    "cefr_level": "B1-B2", "combo": "B1", "emoji": "💼", "topic_title_vi": "Công Việc & Sự Nghiệp", "theme_title_vi": "Tư Duy & Xã Hội",
+    "status": "qa_pass",
     "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-09" }
   },
   "passage": { "word_count": 174, "paragraphs": [

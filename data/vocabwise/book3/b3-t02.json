@@ -4,6 +4,7 @@
     "topic_title": "Democracy & Political Systems",
     "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
     "cefr_level": "C1-C2", "combo": "C1",
+    "emoji": "🗳️", "topic_title_vi": "Dân Chủ & Hệ Thống Chính Trị", "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
     "status": "qa_pass",
     "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
   },
