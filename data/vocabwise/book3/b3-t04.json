@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "book": 3, "topic_number": 4, "topic_id": "b3-t04",
+    "topic_title": "Environmental Policy & Climate Governance",
+    "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
+    "cefr_level": "C1-C2", "combo": "C1",
+    "status": "qa_pass",
+    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+  },
+  "passage": {
+    "word_count": 234,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The scientific community now overwhelmingly agrees that **anthropogenic** climate change — driven primarily by the burning of fossil fuels — poses one of the gravest threats to human civilisation. Rising greenhouse gas **emissions** have already pushed global temperatures above 1°C above pre-industrial levels. Without urgent action, the critical **threshold** of 1.5°C, identified by the IPCC as a tipping point for irreversible impacts, may be crossed within decades.",
+        "text_vi": "Cộng đồng khoa học hiện nay gần như đồng thuận rằng biến đổi khí hậu **do con người gây ra** — chủ yếu do đốt nhiên liệu hóa thạch — là một trong những mối đe dọa nghiêm trọng nhất đối với nền văn minh nhân loại. **Khí thải** nhà kính gia tăng đã đẩy nhiệt độ toàn cầu lên hơn 1°C so với mức tiền công nghiệp. Nếu không có hành động khẩn cấp, **ngưỡng** quan trọng 1,5°C — được IPCC xác định là điểm tới hạn dẫn đến các tác động không thể đảo ngược — có thể bị vượt qua trong vài thập kỷ tới."
+      },
+      {
+        "index": 2,
+        "text_en": "**Mitigation** — reducing the causes of climate change — requires a rapid transition to **renewable** energy sources such as solar and wind power. Halting **deforestation** is equally vital, as forests absorb vast quantities of **carbon** dioxide and support **biodiversity** by providing habitat for countless species. Preserving these **ecosystems** is integral to any credible **sustainability** strategy.",
+        "text_vi": "**Giảm thiểu** — giảm nguyên nhân của biến đổi khí hậu — đòi hỏi quá trình chuyển đổi nhanh sang các nguồn năng lượng **tái tạo** như năng lượng mặt trời và gió. Ngăn chặn **nạn phá rừng** cũng quan trọng không kém, vì rừng hấp thụ lượng lớn khí **carbon** dioxide và hỗ trợ **đa dạng sinh học** bằng cách cung cấp môi trường sống cho vô số loài. Bảo tồn các **hệ sinh thái** này là không thể thiếu trong bất kỳ chiến lược **bền vững** nào đáng tin cậy."
+      },
+      {
+        "index": 3,
+        "text_en": "Alongside mitigation, **adaptation** measures are essential, as some degree of climate change is now inevitable. Coastal communities face rising sea levels; farmers must adjust to shifting rainfall patterns; and entire **ecosystems** face collapse unless carefully managed. The loss of **biodiversity** — as species struggle to keep pace with environmental changes — represents an irreversible and incalculable cost.",
+        "text_vi": "Song song với giảm thiểu, các biện pháp **thích nghi** là không thể thiếu vì một mức độ biến đổi khí hậu nào đó là điều không thể tránh khỏi. Các cộng đồng ven biển đối mặt với mực nước biển dâng; nông dân phải điều chỉnh theo sự thay đổi của lượng mưa; và toàn bộ **hệ sinh thái** có nguy cơ sụp đổ nếu không được quản lý cẩn thận. Sự mất mát **đa dạng sinh học** — khi các loài không theo kịp những biến đổi môi trường — là một chi phí không thể đảo ngược và không thể tính hết."
+      },
+      {
+        "index": 4,
+        "text_en": "Effective climate **governance** requires nations to **ratify** and honour international agreements, maintain **compliance** with emission targets, and create meaningful **incentives** for private-sector investment in clean technology. Without this combination, even the most ambitious policies will fail to alter the current warming **trajectory**.",
+        "text_vi": "Quản trị khí hậu hiệu quả đòi hỏi các quốc gia **phê chuẩn** và tôn trọng các thỏa thuận quốc tế, duy trì **sự tuân thủ** các mục tiêu phát thải, và tạo ra những **ưu đãi** có ý nghĩa cho đầu tư tư nhân vào công nghệ sạch. Nếu thiếu sự kết hợp này, ngay cả những chính sách tham vọng nhất cũng sẽ không thể thay đổi **quỹ đạo** nóng lên hiện tại."
+      }
+    ]
+  },
+  "glossary": [
+    { "id": 1, "word": "anthropogenic", "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/", "pos": "adjective", "meaning_vi": "do con người tạo ra, do hoạt động của con người", "meaning_vi_inline": "do con người gây ra", "example_en": "Scientists attribute most current warming to anthropogenic causes.", "example_vi": "Các nhà khoa học cho rằng phần lớn sự nóng lên hiện nay là do con người gây ra.", "word_family": { "noun": "anthropology / anthropologist", "verb": null, "adjective": "anthropogenic", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 2, "word": "emissions", "ipa": "/ɪˈmɪʃ.ənz/", "pos": "noun (plural)", "meaning_vi": "khí thải", "meaning_vi_inline": "khí thải", "example_en": "Carbon emissions from transport are a major cause of climate change.", "example_vi": "Khí thải carbon từ giao thông là nguyên nhân chính gây ra biến đổi khí hậu.", "word_family": { "noun": "emission / emissions", "verb": "emit", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 3, "word": "threshold", "ipa": "/ˈθreʃ.hoʊld/", "pos": "noun", "meaning_vi": "ngưỡng giới hạn", "meaning_vi_inline": "ngưỡng", "example_en": "Scientists warn the 1.5°C threshold must not be exceeded.", "example_vi": "Các nhà khoa học cảnh báo không được vượt ngưỡng 1,5°C.", "word_family": { "noun": "threshold", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 4, "word": "mitigation", "ipa": "/ˌmɪt.ɪˈɡeɪ.ʃən/", "pos": "noun", "meaning_vi": "giảm thiểu (tác động)", "meaning_vi_inline": "giảm thiểu", "example_en": "Climate mitigation involves reducing greenhouse gas emissions.", "example_vi": "Giảm thiểu biến đổi khí hậu bao gồm việc cắt giảm khí thải nhà kính.", "word_family": { "noun": "mitigation", "verb": "mitigate", "adjective": "mitigating", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 5, "word": "renewable", "ipa": "/rɪˈnjuː.ə.bəl/", "pos": "adjective", "meaning_vi": "có thể tái tạo (năng lượng)", "meaning_vi_inline": "tái tạo", "example_en": "Solar and wind are the fastest-growing renewable energy sources.", "example_vi": "Năng lượng mặt trời và gió là các nguồn năng lượng tái tạo tăng trưởng nhanh nhất.", "word_family": { "noun": "renewal", "verb": "renew", "adjective": "renewable / renewed", "adverb": "renewably" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 6, "word": "deforestation", "ipa": "/diːˌfɒr.ɪˈsteɪ.ʃən/", "pos": "noun", "meaning_vi": "nạn phá rừng", "meaning_vi_inline": "phá rừng", "example_en": "Deforestation in the Amazon threatens global climate stability.", "example_vi": "Nạn phá rừng ở Amazon đe dọa sự ổn định khí hậu toàn cầu.", "word_family": { "noun": "deforestation / forest", "verb": "deforest", "adjective": "deforested", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 7, "word": "biodiversity", "ipa": "/ˌbaɪ.oʊ.daɪˈvɜː.sɪ.ti/", "pos": "noun", "meaning_vi": "đa dạng sinh học", "meaning_vi_inline": "đa dạng sinh học", "example_en": "Biodiversity loss threatens the stability of entire ecosystems.", "example_vi": "Sự mất mát đa dạng sinh học đe dọa sự ổn định của toàn bộ hệ sinh thái.", "word_family": { "noun": "biodiversity / diversity", "verb": null, "adjective": "biodiverse / diverse", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 8, "word": "ecosystem", "ipa": "/ˈiː.kəʊ.sɪs.təm/", "pos": "noun", "meaning_vi": "hệ sinh thái", "meaning_vi_inline": "hệ sinh thái", "example_en": "Coral reefs are among the most fragile ecosystems on Earth.", "example_vi": "Rạn san hô là một trong những hệ sinh thái dễ bị tổn thương nhất trên Trái Đất.", "word_family": { "noun": "ecosystem / ecology", "verb": null, "adjective": "ecological", "adverb": "ecologically" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 9, "word": "sustainability", "ipa": "/səˌsteɪ.nəˈbɪl.ɪ.ti/", "pos": "noun", "meaning_vi": "tính bền vững", "meaning_vi_inline": "bền vững", "example_en": "Corporate sustainability reports are now required by many governments.", "example_vi": "Báo cáo phát triển bền vững của doanh nghiệp hiện được nhiều chính phủ yêu cầu.", "word_family": { "noun": "sustainability", "verb": "sustain", "adjective": "sustainable / sustained", "adverb": "sustainably" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 10, "word": "adaptation", "ipa": "/ˌæd.æpˈteɪ.ʃən/", "pos": "noun", "meaning_vi": "sự thích nghi", "meaning_vi_inline": "thích nghi", "example_en": "Climate adaptation includes building sea walls and drought-resistant crops.", "example_vi": "Thích nghi với khí hậu bao gồm xây đê biển và phát triển giống cây chịu hạn.", "word_family": { "noun": "adaptation / adaptability", "verb": "adapt", "adjective": "adaptive / adaptable", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 11, "word": "carbon", "ipa": "/ˈkɑː.bən/", "pos": "noun", "meaning_vi": "carbon", "meaning_vi_inline": "carbon", "example_en": "Reducing carbon emissions is central to every climate strategy.", "example_vi": "Giảm lượng khí thải carbon là trọng tâm của mọi chiến lược ứng phó biến đổi khí hậu.", "word_family": { "noun": "carbon", "verb": "decarbonise", "adjective": "carbon-neutral / low-carbon", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 12, "word": "compliance", "ipa": "/kəmˈplaɪ.əns/", "pos": "noun", "meaning_vi": "sự tuân thủ", "meaning_vi_inline": "tuân thủ", "example_en": "Non-compliance with emission targets can trigger international penalties.", "example_vi": "Không tuân thủ các mục tiêu phát thải có thể dẫn đến các hình phạt quốc tế.", "word_family": { "noun": "compliance", "verb": "comply", "adjective": "compliant", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 13, "word": "incentive", "ipa": "/ɪnˈsen.tɪv/", "pos": "noun", "meaning_vi": "ưu đãi, biện pháp khuyến khích", "meaning_vi_inline": "ưu đãi", "example_en": "Tax incentives encourage businesses to invest in green technology.", "example_vi": "Ưu đãi thuế khuyến khích doanh nghiệp đầu tư vào công nghệ xanh.", "word_family": { "noun": "incentive", "verb": "incentivise", "adjective": "incentivised", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 14, "word": "ratify", "ipa": "/ˈræt.ɪ.faɪ/", "pos": "verb", "meaning_vi": "phê chuẩn (hiệp ước, thỏa thuận)", "meaning_vi_inline": "phê chuẩn", "example_en": "Over 190 countries ratified the Paris Agreement on climate change.", "example_vi": "Hơn 190 quốc gia đã phê chuẩn Hiệp định Paris về biến đổi khí hậu.", "word_family": { "noun": "ratification", "verb": "ratify", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 15, "word": "trajectory", "ipa": "/trəˈdʒek.tər.i/", "pos": "noun", "meaning_vi": "quỹ đạo, xu hướng phát triển", "meaning_vi_inline": "quỹ đạo / xu hướng", "example_en": "Current policies will not alter the warming trajectory significantly.", "example_vi": "Các chính sách hiện tại sẽ không thay đổi đáng kể xu hướng nóng lên toàn cầu.", "word_family": { "noun": "trajectory", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        { "id": 1, "statement": "Anthropogenic climate change is primarily caused by the burning of fossil fuels.", "answer": "True" },
+        { "id": 2, "statement": "The 1.5°C threshold was agreed upon at the 2015 Paris Agreement.", "answer": "Not Given" },
+        { "id": 3, "statement": "Halting deforestation helps mitigate climate change by preserving carbon-absorbing forests.", "answer": "True" },
+        { "id": 4, "statement": "All coastal communities have already introduced effective adaptation measures.", "answer": "Not Given" },
+        { "id": 5, "statement": "Private-sector investment in clean technology is considered important for climate action.", "answer": "True" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        { "id": 1, "sentence": "Climate _____ involves reducing greenhouse gas emissions to slow global warming.", "options": ["adaptation", "mitigation", "compliance", "deforestation"], "answer": "mitigation" },
+        { "id": 2, "sentence": "Solar and wind power are the most important _____ energy sources for a low-carbon future.", "options": ["anthropogenic", "sustainable", "renewable", "compliant"], "answer": "renewable" },
+        { "id": 3, "sentence": "Scientists have identified 1.5°C as a critical _____ beyond which climate impacts become irreversible.", "options": ["trajectory", "threshold", "incentive", "emission"], "answer": "threshold" },
+        { "id": 4, "sentence": "Nations must _____ international climate agreements before they are legally bound by them.", "options": ["mitigate", "adapt", "ratify", "comply"], "answer": "ratify" },
+        { "id": 5, "sentence": "Financial _____ for green investment can accelerate the transition to clean energy.", "options": ["compliance", "thresholds", "incentives", "trajectories"], "answer": "incentives" }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["adaptation", "ecosystem", "trajectory", "carbon", "biodiversity"],
+      "items": [
+        { "id": 1, "sentence": "Solar and wind energy generate electricity with minimal _____ emissions.", "answer": "carbon" },
+        { "id": 2, "sentence": "The tropical rainforest _____ supports more species than any other habitat on Earth.", "answer": "ecosystem" },
+        { "id": 3, "sentence": "Loss of _____ — the variety of life on Earth — weakens ecosystems and reduces their resilience.", "answer": "biodiversity" },
+        { "id": 4, "sentence": "_____ to rising sea levels requires significant investment in coastal infrastructure.", "answer": "adaptation" },
+        { "id": 5, "sentence": "Current emission levels put the world on a warming _____ that exceeds the 1.5°C target.", "answer": "trajectory" }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        { "id": 1, "words": ["anthropogenic", "climate", "change", "is", "driven", "by", "the", "burning", "of", "fossil", "fuels"], "answer": "Anthropogenic climate change is driven by the burning of fossil fuels." },
+        { "id": 2, "words": ["halting", "deforestation", "is", "essential", "to", "reducing", "carbon", "emissions"], "answer": "Halting deforestation is essential to reducing carbon emissions." },
+        { "id": 3, "words": ["nations", "must", "ratify", "and", "honour", "international", "climate", "agreements"], "answer": "Nations must ratify and honour international climate agreements." },
+        { "id": 4, "words": ["financial", "incentives", "can", "encourage", "private", "sector", "investment", "in", "green", "technology"], "answer": "Financial incentives can encourage private sector investment in green technology." },
+        { "id": 5, "words": ["compliance", "with", "emission", "targets", "is", "essential", "for", "effective", "climate", "governance"], "answer": "Compliance with emission targets is essential for effective climate governance." }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        { "id": 1, "sentence": "The government introduced a new [incentive's] scheme to promote the adoption of solar energy.", "highlighted": "incentive's", "options": { "A": "incentive's", "B": "incentive", "C": "incentivised" }, "answer": "B", "explanation": "'Incentive' is a noun modifying 'scheme' — no possessive apostrophe is needed." },
+        { "id": 2, "sentence": "Scientists warn that the 1.5°C [thresholds] for irreversible climate damage could be crossed soon.", "highlighted": "thresholds", "options": { "A": "thresholds", "B": "threshold", "C": "thresholding" }, "answer": "B", "explanation": "The passage refers to one specific '1.5°C threshold' (singular) — using the plural 'thresholds' is incorrect here." },
+        { "id": 3, "sentence": "Halting [deforestation's] in the Amazon is critical for maintaining the global carbon cycle.", "highlighted": "deforestation's", "options": { "A": "deforestation's", "B": "deforestation", "C": "deforesting" }, "answer": "B", "explanation": "'Deforestation' is the direct object of 'halting' — no possessive apostrophe is needed." },
+        { "id": 4, "sentence": "Solar power is now one of the most cost-effective [renew] energy technologies available.", "highlighted": "renew", "options": { "A": "renew", "B": "renewed", "C": "renewable" }, "answer": "C", "explanation": "'Renewable' is the adjective form meaning 'naturally replenishable' — 'renew' is a verb and cannot modify a noun." },
+        { "id": 5, "sentence": "Nations that fail to [complied] with emission targets risk international penalties.", "highlighted": "complied", "options": { "A": "complied", "B": "comply", "C": "complying" }, "answer": "B", "explanation": "After the modal verb 'fail to', use the base form 'comply' — 'complied' is the past tense and is grammatically incorrect here." }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "True", "2": "Not Given", "3": "True", "4": "Not Given", "5": "True" },
+    "ex2": { "1": "mitigation", "2": "renewable", "3": "threshold", "4": "ratify", "5": "incentives" },
+    "ex3": { "1": "carbon", "2": "ecosystem", "3": "biodiversity", "4": "adaptation", "5": "trajectory" },
+    "ex4": { "1": "Anthropogenic climate change is driven by the burning of fossil fuels.", "2": "Halting deforestation is essential to reducing carbon emissions.", "3": "Nations must ratify and honour international climate agreements.", "4": "Financial incentives can encourage private sector investment in green technology.", "5": "Compliance with emission targets is essential for effective climate governance." },
+    "ex5": { "1": "B", "2": "B", "3": "B", "4": "C", "5": "B" }
+  }
+}

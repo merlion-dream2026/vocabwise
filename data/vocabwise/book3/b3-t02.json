@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "book": 3, "topic_number": 2, "topic_id": "b3-t02",
+    "topic_title": "Democracy & Political Systems",
+    "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
+    "cefr_level": "C1-C2", "combo": "C1",
+    "status": "qa_pass",
+    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Democracy** refers to a system of government in which power derives from the will of the people, exercised through free elections and protected by a **constitution**. Most modern democracies divide authority among three branches: the **legislature**, which makes laws; the executive, which implements them; and the **judiciary**, which interprets them. This separation of powers is designed to prevent any single entity from gaining absolute control.",
+        "text_vi": "**Dân chủ** là một hệ thống chính phủ mà trong đó quyền lực xuất phát từ ý chí của người dân, được thực hiện thông qua bầu cử tự do và được bảo vệ bởi **hiến pháp**. Hầu hết các nền dân chủ hiện đại phân chia quyền lực giữa ba nhánh: **cơ quan lập pháp** làm luật; cơ quan hành pháp thi hành luật; và **cơ quan tư pháp** diễn giải luật. Sự phân chia quyền lực này nhằm ngăn bất kỳ thực thể nào nắm quyền kiểm soát tuyệt đối."
+      },
+      {
+        "index": 2,
+        "text_en": "The extension of universal **suffrage** — the right of all adult citizens to vote — was a defining achievement of the twentieth century. Beyond elections, mechanisms such as the **referendum** allow citizens to vote directly on critical policy questions. A vibrant democracy also requires **pluralism**: the acceptance of diverse political parties, civil society organisations, and viewpoints competing for public support.",
+        "text_vi": "Việc mở rộng **quyền bầu cử** phổ thông — quyền của mọi công dân trưởng thành được bỏ phiếu — là một thành tựu định hình của thế kỷ hai mươi. Ngoài bầu cử, các cơ chế như **trưng cầu dân ý** cho phép công dân bỏ phiếu trực tiếp về các vấn đề chính sách quan trọng. Một nền dân chủ năng động cũng đòi hỏi **chủ nghĩa đa nguyên**: sự chấp nhận các đảng phái chính trị đa dạng, tổ chức xã hội dân sự, và các quan điểm khác nhau cùng cạnh tranh để giành sự ủng hộ của công chúng."
+      },
+      {
+        "index": 3,
+        "text_en": "Yet democratic systems face persistent threats. In some states, **authoritarian** tendencies have emerged as **incumbent** governments manipulate **electoral** rules to entrench their power. The suppression of **dissent** and the erosion of **civil liberties** — freedoms such as speech, assembly, and a free press — are early warning signs that democratic norms are under pressure.",
+        "text_vi": "Tuy nhiên, các hệ thống dân chủ phải đối mặt với những mối đe dọa dai dẳng. Ở một số quốc gia, xu hướng **độc đoán** nổi lên khi các chính phủ **đương nhiệm** thao túng các quy tắc **bầu cử** để củng cố quyền lực. Việc đàn áp **bất đồng ý kiến** và xói mòn **quyền tự do dân sự** — các quyền tự do như ngôn luận, hội họp và báo chí tự do — là những dấu hiệu cảnh báo sớm cho thấy các chuẩn mực dân chủ đang bị đe dọa."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, the health of a democracy depends on **transparency** and **accountability**: the expectation that those in power will explain their decisions and face consequences for abuses. Where these qualities exist, **governance** tends to be more stable, equitable, and responsive to citizens' needs.",
+        "text_vi": "Cuối cùng, sức khỏe của một nền dân chủ phụ thuộc vào **sự minh bạch** và **trách nhiệm giải trình**: kỳ vọng rằng những người nắm quyền sẽ giải thích các quyết định của mình và chịu trách nhiệm trước những sai phạm. Ở những nơi có các phẩm chất này, **quản trị** có xu hướng ổn định hơn, công bằng hơn và đáp ứng nhu cầu của người dân tốt hơn."
+      }
+    ]
+  },
+  "glossary": [
+    { "id": 1, "word": "democracy", "ipa": "/dɪˈmɒk.rə.si/", "pos": "noun", "meaning_vi": "nền dân chủ", "meaning_vi_inline": "dân chủ", "example_en": "Democracy gives citizens the power to choose their government.", "example_vi": "Dân chủ trao cho công dân quyền lựa chọn chính phủ của mình.", "word_family": { "noun": "democracy / democrat", "verb": null, "adjective": "democratic", "adverb": "democratically" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 2, "word": "constitution", "ipa": "/ˌkɒn.stɪˈtjuː.ʃən/", "pos": "noun", "meaning_vi": "hiến pháp", "meaning_vi_inline": "hiến pháp", "example_en": "The constitution protects the fundamental rights of all citizens.", "example_vi": "Hiến pháp bảo vệ các quyền cơ bản của mọi công dân.", "word_family": { "noun": "constitution", "verb": "constitute", "adjective": "constitutional", "adverb": "constitutionally" }, "false_friend": { "word_vi": "institution", "explanation_vi": "'Constitution' là hiến pháp (luật nền tảng); 'institution' là tổ chức/cơ sở — dễ nhầm lẫn về phát âm và nghĩa." }, "receptive_productive": "P" },
+    { "id": 3, "word": "legislature", "ipa": "/ˈledʒ.ɪs.leɪ.tʃər/", "pos": "noun", "meaning_vi": "cơ quan lập pháp", "meaning_vi_inline": "lập pháp", "example_en": "The legislature passed a new law on data privacy.", "example_vi": "Cơ quan lập pháp đã thông qua một đạo luật mới về quyền riêng tư dữ liệu.", "word_family": { "noun": "legislature / legislation / legislator", "verb": "legislate", "adjective": "legislative", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 4, "word": "judiciary", "ipa": "/dʒuːˈdɪʃ.i.er.i/", "pos": "noun", "meaning_vi": "cơ quan tư pháp", "meaning_vi_inline": "tư pháp", "example_en": "An independent judiciary is essential for upholding the rule of law.", "example_vi": "Một cơ quan tư pháp độc lập là điều thiết yếu để duy trì pháp quyền.", "word_family": { "noun": "judiciary", "verb": null, "adjective": "judicial", "adverb": "judicially" }, "false_friend": { "word_vi": "judicial", "explanation_vi": "'Judiciary' (danh từ) là toàn bộ hệ thống tư pháp; 'judicial' (tính từ) mô tả những gì liên quan đến toà án." }, "receptive_productive": "P" },
+    { "id": 5, "word": "suffrage", "ipa": "/ˈsʌf.rɪdʒ/", "pos": "noun", "meaning_vi": "quyền bầu cử", "meaning_vi_inline": "quyền bầu cử", "example_en": "Universal suffrage gives every adult citizen the right to vote.", "example_vi": "Quyền bầu cử phổ thông cho mọi công dân trưởng thành quyền được bỏ phiếu.", "word_family": { "noun": "suffrage / suffragist", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "suffer", "explanation_vi": "'Suffrage' (quyền bầu cử) nghe gần giống 'suffer' (đau khổ) nhưng nghĩa hoàn toàn khác nhau." }, "receptive_productive": "P" },
+    { "id": 6, "word": "referendum", "ipa": "/ˌref.ərˈen.dəm/", "pos": "noun", "meaning_vi": "trưng cầu dân ý", "meaning_vi_inline": "trưng cầu dân ý", "example_en": "The country held a referendum on whether to join the union.", "example_vi": "Đất nước tổ chức trưng cầu dân ý về việc có gia nhập liên minh hay không.", "word_family": { "noun": "referendum (pl: referenda / referendums)", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 7, "word": "pluralism", "ipa": "/ˈplʊər.ə.lɪ.z(ə)m/", "pos": "noun", "meaning_vi": "chủ nghĩa đa nguyên", "meaning_vi_inline": "đa nguyên", "example_en": "Political pluralism allows multiple parties to compete for power.", "example_vi": "Chủ nghĩa đa nguyên chính trị cho phép nhiều đảng phái cạnh tranh quyền lực.", "word_family": { "noun": "pluralism / plurality", "verb": null, "adjective": "plural / pluralist", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 8, "word": "authoritarian", "ipa": "/ˌɔː.θɒr.ɪˈteər.i.ən/", "pos": "adjective", "meaning_vi": "độc đoán, toàn trị", "meaning_vi_inline": "độc đoán", "example_en": "The authoritarian regime suppressed all political opposition.", "example_vi": "Chế độ độc đoán đã đàn áp mọi lực lượng đối lập chính trị.", "word_family": { "noun": "authoritarianism / authority", "verb": null, "adjective": "authoritarian / authoritative", "adverb": "authoritatively" }, "false_friend": { "word_vi": "authoritative", "explanation_vi": "'Authoritative' nghĩa là đáng tin cậy, có thẩm quyền (tích cực); 'authoritarian' là độc đoán, áp bức (tiêu cực)." }, "receptive_productive": "P" },
+    { "id": 9, "word": "incumbent", "ipa": "/ɪnˈkʌm.bənt/", "pos": "adjective / noun", "meaning_vi": "đương nhiệm", "meaning_vi_inline": "đương nhiệm", "example_en": "The incumbent president is seeking re-election after a controversial term.", "example_vi": "Tổng thống đương nhiệm đang tìm kiếm sự tái cử sau một nhiệm kỳ đầy tranh cãi.", "word_family": { "noun": "incumbent / incumbency", "verb": null, "adjective": "incumbent", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 10, "word": "electoral", "ipa": "/ɪˈlek.tər.əl/", "pos": "adjective", "meaning_vi": "thuộc về bầu cử", "meaning_vi_inline": "bầu cử", "example_en": "The electoral system determines how votes are converted into seats.", "example_vi": "Hệ thống bầu cử xác định cách phiếu bầu được chuyển đổi thành ghế đại diện.", "word_family": { "noun": "election / elector / electorate", "verb": "elect", "adjective": "electoral / elected", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 11, "word": "dissent", "ipa": "/dɪˈsent/", "pos": "noun / verb", "meaning_vi": "sự bất đồng ý kiến; bất đồng", "meaning_vi_inline": "bất đồng", "example_en": "The government tolerated little dissent from its policies.", "example_vi": "Chính phủ hầu như không chấp nhận bất kỳ sự bất đồng nào đối với các chính sách của mình.", "word_family": { "noun": "dissent / dissenter", "verb": "dissent", "adjective": "dissenting", "adverb": null }, "false_friend": { "word_vi": "descent", "explanation_vi": "'Dissent' là bất đồng ý kiến; 'descent' là sự hạ xuống hoặc dòng dõi — phát âm rất giống nhau." }, "receptive_productive": "P" },
+    { "id": 12, "word": "civil liberties", "ipa": "/ˌsɪv.əl ˈlɪb.ər.tiz/", "pos": "noun (plural)", "meaning_vi": "quyền tự do dân sự", "meaning_vi_inline": "tự do dân sự", "example_en": "Freedom of speech is one of the most important civil liberties.", "example_vi": "Tự do ngôn luận là một trong những quyền tự do dân sự quan trọng nhất.", "word_family": { "noun": "civil liberties / liberty", "verb": null, "adjective": "civil", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 13, "word": "transparency", "ipa": "/trænsˈpær.ən.si/", "pos": "noun", "meaning_vi": "sự minh bạch", "meaning_vi_inline": "minh bạch", "example_en": "Government transparency builds public trust.", "example_vi": "Sự minh bạch của chính phủ xây dựng lòng tin của công chúng.", "word_family": { "noun": "transparency", "verb": null, "adjective": "transparent", "adverb": "transparently" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 14, "word": "accountability", "ipa": "/əˌkaʊn.təˈbɪl.ɪ.ti/", "pos": "noun", "meaning_vi": "trách nhiệm giải trình", "meaning_vi_inline": "giải trình", "example_en": "Accountability ensures that officials face consequences for their actions.", "example_vi": "Trách nhiệm giải trình đảm bảo rằng các quan chức phải chịu hậu quả cho hành động của mình.", "word_family": { "noun": "accountability / account", "verb": "account for", "adjective": "accountable", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 15, "word": "governance", "ipa": "/ˈɡʌv.ər.nəns/", "pos": "noun", "meaning_vi": "quản trị, điều hành (nhà nước)", "meaning_vi_inline": "quản trị", "example_en": "Good governance requires both transparency and accountability.", "example_vi": "Quản trị tốt đòi hỏi cả sự minh bạch lẫn trách nhiệm giải trình.", "word_family": { "noun": "governance / government / governor", "verb": "govern", "adjective": "governmental", "adverb": null }, "false_friend": { "word_vi": "government", "explanation_vi": "'Governance' (quản trị) là cách thức điều hành; 'government' (chính phủ) là tổ chức/bộ máy thực hiện điều đó." }, "receptive_productive": "P" }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        { "id": 1, "statement": "In a democracy, the legislature, executive, and judiciary each have separate functions.", "answer": "True" },
+        { "id": 2, "statement": "Universal suffrage was achieved in all democratic nations before 1945.", "answer": "Not Given" },
+        { "id": 3, "statement": "Referendums allow citizens to vote directly on major policy questions.", "answer": "True" },
+        { "id": 4, "statement": "Authoritarian governments always completely destroy civil society.", "answer": "Not Given" },
+        { "id": 5, "statement": "Transparency and accountability are essential qualities for stable and effective governance.", "answer": "True" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        { "id": 1, "sentence": "Women's _____ — the right to vote — was not recognised in many countries until the 20th century.", "options": ["dissent", "suffrage", "pluralism", "governance"], "answer": "suffrage" },
+        { "id": 2, "sentence": "The country held a national _____ to decide whether to adopt a new electoral system.", "options": ["constitution", "legislature", "referendum", "incumbent"], "answer": "referendum" },
+        { "id": 3, "sentence": "The _____ president is standing for re-election despite low approval ratings.", "options": ["electoral", "authoritarian", "incumbent", "judicial"], "answer": "incumbent" },
+        { "id": 4, "sentence": "Suppression of _____ and restrictions on the press are signs of democratic backsliding.", "options": ["dissent", "suffrage", "governance", "pluralism"], "answer": "dissent" },
+        { "id": 5, "sentence": "Effective _____ requires that leaders are both transparent and accountable to the public.", "options": ["suffrage", "governance", "pluralism", "judiciary"], "answer": "governance" }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["constitution", "electoral", "accountability", "transparency", "civil liberties"],
+      "items": [
+        { "id": 1, "sentence": "Any amendment to the _____ requires approval from a supermajority in parliament.", "answer": "constitution" },
+        { "id": 2, "sentence": "The _____ commission oversees all voting procedures and certifies results.", "answer": "electoral" },
+        { "id": 3, "sentence": "Freedom of speech, assembly, and the press are fundamental _____ in a democracy.", "answer": "civil liberties" },
+        { "id": 4, "sentence": "Government _____ — making decisions openly — helps build public confidence in institutions.", "answer": "transparency" },
+        { "id": 5, "sentence": "Strong _____ mechanisms ensure that corrupt officials face legal consequences.", "answer": "accountability" }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        { "id": 1, "words": ["in", "a", "democracy", "power", "derives", "from", "the", "will", "of", "the", "people"], "answer": "In a democracy, power derives from the will of the people." },
+        { "id": 2, "words": ["universal", "suffrage", "gives", "all", "adult", "citizens", "the", "right", "to", "vote"], "answer": "Universal suffrage gives all adult citizens the right to vote." },
+        { "id": 3, "words": ["the", "separation", "of", "powers", "provides", "checks", "and", "balances"], "answer": "The separation of powers provides checks and balances." },
+        { "id": 4, "words": ["suppression", "of", "dissent", "is", "an", "early", "warning", "sign", "of", "authoritarian", "rule"], "answer": "Suppression of dissent is an early warning sign of authoritarian rule." },
+        { "id": 5, "words": ["transparency", "and", "accountability", "are", "essential", "to", "good", "governance"], "answer": "Transparency and accountability are essential to good governance." }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        { "id": 1, "sentence": "The [constitutions] guarantees freedom of speech and assembly for all citizens.", "highlighted": "constitutions", "options": { "A": "constitutions", "B": "constitution", "C": "constitutional" }, "answer": "B", "explanation": "Each country has one 'constitution' (singular) — 'constitutions' (plural) would only refer to multiple countries' documents." },
+        { "id": 2, "sentence": "The [electoral's] commission is responsible for overseeing all aspects of the vote.", "highlighted": "electoral's", "options": { "A": "electoral's", "B": "electorally", "C": "electoral" }, "answer": "C", "explanation": "'Electoral' is an adjective modifying 'commission' — no possessive apostrophe is needed." },
+        { "id": 3, "sentence": "The [incumbents] government introduced controversial legislation just before the election.", "highlighted": "incumbents", "options": { "A": "incumbents", "B": "incumbent", "C": "incumbency" }, "answer": "B", "explanation": "'Incumbent' functions as an adjective modifying 'government' here — the plural 's' is incorrect." },
+        { "id": 4, "sentence": "Citizens have the right to [dissenting] against unjust laws through peaceful protest.", "highlighted": "dissenting", "options": { "A": "dissenting", "B": "dissents", "C": "dissent" }, "answer": "C", "explanation": "After the preposition 'to' (meaning 'in order to'), use the base verb form: 'to dissent', not 'to dissenting'." },
+        { "id": 5, "sentence": "The country's [govern] has been praised internationally for its openness and accountability.", "highlighted": "govern", "options": { "A": "govern", "B": "governed", "C": "governance" }, "answer": "C", "explanation": "'Governance' is the noun form meaning 'the manner of governing' — the verb 'govern' cannot function as the subject here." }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "True", "2": "Not Given", "3": "True", "4": "Not Given", "5": "True" },
+    "ex2": { "1": "suffrage", "2": "referendum", "3": "incumbent", "4": "dissent", "5": "governance" },
+    "ex3": { "1": "constitution", "2": "electoral", "3": "civil liberties", "4": "transparency", "5": "accountability" },
+    "ex4": { "1": "In a democracy, power derives from the will of the people.", "2": "Universal suffrage gives all adult citizens the right to vote.", "3": "The separation of powers provides checks and balances.", "4": "Suppression of dissent is an early warning sign of authoritarian rule.", "5": "Transparency and accountability are essential to good governance." },
+    "ex5": { "1": "B", "2": "C", "3": "B", "4": "C", "5": "C" }
+  }
+}

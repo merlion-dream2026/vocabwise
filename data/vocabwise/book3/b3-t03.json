@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "book": 3, "topic_number": 3, "topic_id": "b3-t03",
+    "topic_title": "Migration & Cultural Identity",
+    "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
+    "cefr_level": "C1-C2", "combo": "C1",
+    "status": "qa_pass",
+    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+  },
+  "passage": {
+    "word_count": 231,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Migration** — the movement of people across national or regional borders — has shaped societies throughout human history. Today, millions of individuals migrate in search of economic opportunities, while others flee conflict or persecution as **refugees**. Forced **displacement** has reached record levels globally, with entire communities uprooted from their homelands. These movements present both profound opportunities and significant challenges for receiving nations.",
+        "text_vi": "**Di cư** — sự di chuyển của con người qua biên giới quốc gia hoặc vùng lãnh thổ — đã định hình các xã hội xuyên suốt lịch sử nhân loại. Ngày nay, hàng triệu người di cư để tìm kiếm cơ hội kinh tế, trong khi những người khác chạy trốn khỏi xung đột hoặc bách hại với tư cách **người tị nạn**. **Sự di dời** cưỡng bức đã đạt mức kỷ lục toàn cầu, với toàn bộ cộng đồng bị bứng khỏi quê hương. Những làn sóng này mang lại cả cơ hội sâu sắc lẫn thách thức đáng kể cho các quốc gia tiếp nhận."
+      },
+      {
+        "index": 2,
+        "text_en": "Host societies that embrace **multiculturalism** benefit from the linguistic, cultural, and economic contributions of newcomers. **Integration** — the process by which migrants participate fully in social and economic life — is generally more sustainable than enforced **assimilation**, which requires migrants to abandon their original culture entirely. Many migrants maintain strong links with their country of origin, forming **diaspora** communities that enrich both their adopted and home nations.",
+        "text_vi": "Các xã hội chủ nhà chấp nhận **chủ nghĩa đa văn hóa** được hưởng lợi từ những đóng góp về ngôn ngữ, văn hóa và kinh tế của những người nhập cư. **Hội nhập** — quá trình người di cư tham gia đầy đủ vào đời sống kinh tế và xã hội — thường bền vững hơn so với **đồng hóa** cưỡng bức, vốn đòi hỏi người di cư phải từ bỏ hoàn toàn văn hóa gốc của mình. Nhiều người di cư duy trì mối liên hệ chặt chẽ với quê hương, hình thành cộng đồng **kiều dân** làm phong phú thêm cả quốc gia tiếp nhận lẫn quê hương."
+      },
+      {
+        "index": 3,
+        "text_en": "However, large-scale migration can strain social **cohesion**, particularly when host communities feel overwhelmed by rapid **demographic** change. **Xenophobia**, **prejudice**, and **stereotypes** about migrants often escalate into discrimination and political tension. Research consistently shows that these attitudes are fuelled by misinformation and economic insecurity rather than objective evidence.",
+        "text_vi": "Tuy nhiên, di cư quy mô lớn có thể làm suy giảm **sự gắn kết** xã hội, đặc biệt khi cộng đồng chủ nhà cảm thấy choáng ngợp trước sự thay đổi **nhân khẩu học** nhanh chóng. **Tâm lý bài ngoại**, **thành kiến** và **định kiến** về người di cư thường leo thang thành phân biệt đối xử và căng thẳng chính trị. Nghiên cứu nhất quán cho thấy những thái độ này bị thúc đẩy bởi thông tin sai lệch và bất an kinh tế hơn là bằng chứng khách quan."
+      },
+      {
+        "index": 4,
+        "text_en": "At the heart of the migration debate lies the question of **identity** — both for migrants navigating **acculturation** and for host societies redefining what it means to belong. Managing **ethnic** diversity sensitively and equitably remains one of the most complex challenges facing contemporary states.",
+        "text_vi": "Trọng tâm của cuộc tranh luận về di cư là câu hỏi về **bản sắc** — cả đối với người di cư đang trải qua quá trình **tiếp biến văn hóa** lẫn đối với xã hội chủ nhà đang tái định nghĩa ý nghĩa của sự thuộc về. Quản lý sự đa dạng **dân tộc** một cách nhạy cảm và công bằng vẫn là một trong những thách thức phức tạp nhất mà các quốc gia hiện đại phải đối mặt."
+      }
+    ]
+  },
+  "glossary": [
+    { "id": 1, "word": "migration", "ipa": "/maɪˈɡreɪ.ʃən/", "pos": "noun", "meaning_vi": "sự di cư", "meaning_vi_inline": "di cư", "example_en": "Economic migration has transformed the demographics of many cities.", "example_vi": "Di cư kinh tế đã làm thay đổi cơ cấu nhân khẩu học của nhiều thành phố.", "word_family": { "noun": "migration / migrant / immigrant / emigrant", "verb": "migrate / immigrate / emigrate", "adjective": "migratory", "adverb": null }, "false_friend": { "word_vi": "immigrant vs emigrant", "explanation_vi": "'Immigrant' là người nhập cư (đến); 'emigrant' là người xuất cư (đi) — góc nhìn khác nhau của cùng một người." }, "receptive_productive": "P" },
+    { "id": 2, "word": "displacement", "ipa": "/dɪsˈpleɪs.mənt/", "pos": "noun", "meaning_vi": "sự di dời, bị buộc rời đi", "meaning_vi_inline": "di dời cưỡng bức", "example_en": "The war caused the displacement of millions of civilians.", "example_vi": "Chiến tranh đã khiến hàng triệu thường dân bị di dời.", "word_family": { "noun": "displacement", "verb": "displace", "adjective": "displaced", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 3, "word": "refugee", "ipa": "/ˌref.jʊˈdʒiː/", "pos": "noun", "meaning_vi": "người tị nạn", "meaning_vi_inline": "tị nạn", "example_en": "Thousands of refugees crossed the border seeking safety.", "example_vi": "Hàng nghìn người tị nạn vượt biên để tìm kiếm sự an toàn.", "word_family": { "noun": "refugee", "verb": "seek refuge", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 4, "word": "multiculturalism", "ipa": "/ˌmʌl.tiˈkʌl.tʃər.ə.lɪ.z(ə)m/", "pos": "noun", "meaning_vi": "chủ nghĩa đa văn hóa", "meaning_vi_inline": "đa văn hóa", "example_en": "Multiculturalism celebrates the coexistence of diverse cultures.", "example_vi": "Chủ nghĩa đa văn hóa tôn vinh sự cùng tồn tại của các nền văn hóa đa dạng.", "word_family": { "noun": "multiculturalism / culture", "verb": null, "adjective": "multicultural", "adverb": "multiculturally" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 5, "word": "integration", "ipa": "/ˌɪn.tɪˈɡreɪ.ʃən/", "pos": "noun", "meaning_vi": "hội nhập", "meaning_vi_inline": "hội nhập", "example_en": "Successful integration requires support from both migrants and host communities.", "example_vi": "Hội nhập thành công đòi hỏi sự hỗ trợ từ cả người di cư lẫn cộng đồng chủ nhà.", "word_family": { "noun": "integration", "verb": "integrate", "adjective": "integrated", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 6, "word": "assimilation", "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/", "pos": "noun", "meaning_vi": "sự đồng hóa (văn hóa)", "meaning_vi_inline": "đồng hóa", "example_en": "Forced assimilation often leads to the loss of minority languages.", "example_vi": "Đồng hóa cưỡng bức thường dẫn đến sự mất mát các ngôn ngữ thiểu số.", "word_family": { "noun": "assimilation", "verb": "assimilate", "adjective": "assimilated", "adverb": null }, "false_friend": { "word_vi": "simulation", "explanation_vi": "'Assimilation' là quá trình hòa nhập văn hóa; 'simulation' là sự mô phỏng — phát âm tương tự nhưng nghĩa khác hoàn toàn." }, "receptive_productive": "P" },
+    { "id": 7, "word": "diaspora", "ipa": "/daɪˈæs.pər.ə/", "pos": "noun", "meaning_vi": "cộng đồng kiều dân sống xa tổ quốc", "meaning_vi_inline": "kiều dân", "example_en": "The Vietnamese diaspora has established thriving communities worldwide.", "example_vi": "Cộng đồng kiều dân Việt Nam đã xây dựng được những cộng đồng phồn thịnh trên toàn thế giới.", "word_family": { "noun": "diaspora", "verb": null, "adjective": "diasporic", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 8, "word": "cohesion", "ipa": "/koʊˈhiː.ʒən/", "pos": "noun", "meaning_vi": "sự gắn kết (xã hội)", "meaning_vi_inline": "gắn kết", "example_en": "Social cohesion is weakened when communities feel excluded.", "example_vi": "Sự gắn kết xã hội bị suy yếu khi các cộng đồng cảm thấy bị gạt ra ngoài lề.", "word_family": { "noun": "cohesion", "verb": "cohere", "adjective": "cohesive", "adverb": "cohesively" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 9, "word": "demographic", "ipa": "/ˌdem.əˈɡræf.ɪk/", "pos": "adjective / noun", "meaning_vi": "thuộc nhân khẩu học; nhân khẩu học", "meaning_vi_inline": "nhân khẩu học", "example_en": "Rapid demographic change is reshaping the country's cultural landscape.", "example_vi": "Sự thay đổi nhân khẩu học nhanh chóng đang định hình lại bức tranh văn hóa của đất nước.", "word_family": { "noun": "demographics / demography / demographer", "verb": null, "adjective": "demographic", "adverb": "demographically" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 10, "word": "xenophobia", "ipa": "/ˌzen.əˈfoʊ.bi.ə/", "pos": "noun", "meaning_vi": "tâm lý bài ngoại, kỳ thị người nước ngoài", "meaning_vi_inline": "bài ngoại", "example_en": "Xenophobia increased during periods of economic hardship.", "example_vi": "Tâm lý bài ngoại gia tăng trong những thời kỳ kinh tế khó khăn.", "word_family": { "noun": "xenophobia / xenophobe", "verb": null, "adjective": "xenophobic", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 11, "word": "prejudice", "ipa": "/ˈpredʒ.ə.dɪs/", "pos": "noun", "meaning_vi": "thành kiến, định kiến", "meaning_vi_inline": "thành kiến", "example_en": "Prejudice against migrants is often rooted in fear and misinformation.", "example_vi": "Thành kiến đối với người di cư thường bắt nguồn từ nỗi sợ hãi và thông tin sai lệch.", "word_family": { "noun": "prejudice", "verb": "prejudge", "adjective": "prejudiced / prejudicial", "adverb": "prejudicially" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 12, "word": "stereotype", "ipa": "/ˈster.i.ə.taɪp/", "pos": "noun / verb", "meaning_vi": "định kiến khuôn mẫu; rập khuôn", "meaning_vi_inline": "định kiến khuôn mẫu", "example_en": "Stereotypes about migrants ignore the diversity of individual experiences.", "example_vi": "Những định kiến khuôn mẫu về người di cư bỏ qua sự đa dạng của từng trải nghiệm cá nhân.", "word_family": { "noun": "stereotype", "verb": "stereotype", "adjective": "stereotypical", "adverb": "stereotypically" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 13, "word": "acculturation", "ipa": "/əˌkʌl.tʃərˈeɪ.ʃən/", "pos": "noun", "meaning_vi": "sự tiếp biến văn hóa", "meaning_vi_inline": "tiếp biến văn hóa", "example_en": "Acculturation involves adapting to a new culture while retaining one's original identity.", "example_vi": "Tiếp biến văn hóa là quá trình thích nghi với nền văn hóa mới trong khi vẫn giữ lại bản sắc gốc.", "word_family": { "noun": "acculturation", "verb": "acculturate", "adjective": "acculturated", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
+    { "id": 14, "word": "ethnic", "ipa": "/ˈeθ.nɪk/", "pos": "adjective", "meaning_vi": "thuộc về dân tộc, sắc tộc", "meaning_vi_inline": "dân tộc", "example_en": "The city's ethnic diversity is one of its greatest cultural strengths.", "example_vi": "Sự đa dạng dân tộc của thành phố là một trong những thế mạnh văn hóa lớn nhất của nó.", "word_family": { "noun": "ethnicity", "verb": null, "adjective": "ethnic", "adverb": "ethnically" }, "false_friend": null, "receptive_productive": "P" },
+    { "id": 15, "word": "identity", "ipa": "/aɪˈden.tɪ.ti/", "pos": "noun", "meaning_vi": "bản sắc, căn tính", "meaning_vi_inline": "bản sắc", "example_en": "Migration often prompts individuals to reconsider their cultural identity.", "example_vi": "Di cư thường thúc đẩy cá nhân xem xét lại bản sắc văn hóa của mình.", "word_family": { "noun": "identity / identification", "verb": "identify", "adjective": "identical / identifiable", "adverb": "identically" }, "false_friend": null, "receptive_productive": "P" }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        { "id": 1, "statement": "People migrate for a variety of reasons, including economic opportunity and fleeing persecution.", "answer": "True" },
+        { "id": 2, "statement": "Enforced assimilation is generally considered more effective than integration.", "answer": "False" },
+        { "id": 3, "statement": "Diaspora communities only maintain links with their country of origin, not their adopted nation.", "answer": "Not Given" },
+        { "id": 4, "statement": "Xenophobia and prejudice against migrants are primarily caused by objective economic data.", "answer": "False" },
+        { "id": 5, "statement": "Multiculturalism can benefit host societies through diverse cultural and economic contributions.", "answer": "True" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        { "id": 1, "sentence": "Families forced to flee their homes due to conflict are classified as _____ under international law.", "options": ["migrants", "diaspora", "refugees", "stereotypes"], "answer": "refugees" },
+        { "id": 2, "sentence": "The process of _____ allows migrants to participate fully in their new country without abandoning their roots.", "options": ["assimilation", "displacement", "integration", "xenophobia"], "answer": "integration" },
+        { "id": 3, "sentence": "The _____ of the region has changed significantly following decades of immigration.", "options": ["stereotype", "acculturation", "demographic", "cohesion"], "answer": "demographic" },
+        { "id": 4, "sentence": "Negative _____ about migrant communities are often based on misinformation rather than fact.", "options": ["diaspora", "stereotypes", "identities", "cohesion"], "answer": "stereotypes" },
+        { "id": 5, "sentence": "The Chinese _____ in Southeast Asia has built strong cultural and business networks over generations.", "options": ["identity", "diaspora", "integration", "assimilation"], "answer": "diaspora" }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["refugee", "ethnic", "acculturation", "cohesion", "xenophobia"],
+      "items": [
+        { "id": 1, "sentence": "The UN High Commissioner for Refugees assists _____ populations around the world.", "answer": "refugee" },
+        { "id": 2, "sentence": "Policies that celebrate _____ diversity tend to strengthen national identity rather than weaken it.", "answer": "ethnic" },
+        { "id": 3, "sentence": "Social _____ can be damaged when rapid demographic change creates feelings of insecurity.", "answer": "cohesion" },
+        { "id": 4, "sentence": "______ — fear and hostility towards foreigners — often rises during periods of economic hardship.", "answer": "xenophobia" },
+        { "id": 5, "sentence": "The process of _____ involves adopting elements of a new culture while retaining one's original identity.", "answer": "acculturation" }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        { "id": 1, "words": ["the", "movement", "of", "people", "across", "borders", "shapes", "societies"], "answer": "The movement of people across borders shapes societies." },
+        { "id": 2, "words": ["host", "societies", "that", "embrace", "multiculturalism", "benefit", "from", "diverse", "contributions"], "answer": "Host societies that embrace multiculturalism benefit from diverse contributions." },
+        { "id": 3, "words": ["stereotypes", "and", "prejudice", "are", "often", "fuelled", "by", "misinformation"], "answer": "Stereotypes and prejudice are often fuelled by misinformation." },
+        { "id": 4, "words": ["integration", "allows", "migrants", "to", "participate", "fully", "in", "social", "life"], "answer": "Integration allows migrants to participate fully in social life." },
+        { "id": 5, "words": ["at", "the", "heart", "of", "the", "migration", "debate", "lies", "the", "question", "of", "identity"], "answer": "At the heart of the migration debate lies the question of identity." }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        { "id": 1, "sentence": "The country has experienced a significant [demographics] shift due to large-scale immigration.", "highlighted": "demographics", "options": { "A": "demographics", "B": "demographically", "C": "demographic" }, "answer": "C", "explanation": "'Demographic' is the adjective form needed to modify the noun 'shift' — 'demographics' is a noun and cannot modify another noun directly." },
+        { "id": 2, "sentence": "The community suffered significant [displace] after the factory closures and forced evictions.", "highlighted": "displace", "options": { "A": "displace", "B": "displaced", "C": "displacement" }, "answer": "C", "explanation": "After 'suffered', a noun object is needed — 'displacement' (noun), not the verb 'displace'." },
+        { "id": 3, "sentence": "Many migrants form [diaspora's] communities that maintain strong links with their homeland.", "highlighted": "diaspora's", "options": { "A": "diaspora's", "B": "diaspora", "C": "diasporic" }, "answer": "B", "explanation": "'Diaspora' functions as an attributive noun modifying 'communities' — no possessive apostrophe is needed." },
+        { "id": 4, "sentence": "The community experienced widespread [xenophobic] from local residents during the economic crisis.", "highlighted": "xenophobic", "options": { "A": "xenophobic", "B": "xenophobe", "C": "xenophobia" }, "answer": "C", "explanation": "After 'experienced', a noun is needed — 'xenophobia' (the noun form), not 'xenophobic' (the adjective)." },
+        { "id": 5, "sentence": "The city's [ethnic's] diversity has made it one of the most culturally vibrant places in the region.", "highlighted": "ethnic's", "options": { "A": "ethnic's", "B": "ethnically", "C": "ethnic" }, "answer": "C", "explanation": "'Ethnic' is an adjective modifying 'diversity' — possessive apostrophe is incorrect for an adjective." }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "True", "2": "False", "3": "Not Given", "4": "False", "5": "True" },
+    "ex2": { "1": "refugees", "2": "integration", "3": "demographic", "4": "stereotypes", "5": "diaspora" },
+    "ex3": { "1": "refugee", "2": "ethnic", "3": "cohesion", "4": "xenophobia", "5": "acculturation" },
+    "ex4": { "1": "The movement of people across borders shapes societies.", "2": "Host societies that embrace multiculturalism benefit from diverse contributions.", "3": "Stereotypes and prejudice are often fuelled by misinformation.", "4": "Integration allows migrants to participate fully in social life.", "5": "At the heart of the migration debate lies the question of identity." },
+    "ex5": { "1": "C", "2": "C", "3": "B", "4": "C", "5": "C" }
+  }
+}
