@@ -146,6 +146,13 @@ export default function BottomNav() {
   }, [childId])
 
   function selectChild(child: Child) {
+    // PIN-protected and not yet verified this session → route through /kids PIN gate
+    if (child.pin && !sessionStorage.getItem(`pinVerified_${child.id}`)) {
+      setShowSheet(false)
+      router.push(`/kids?select=${child.id}`)
+      return
+    }
+
     const info: ChildInfo = { id: child.id, name: child.name, emoji: child.emoji }
     localStorage.setItem('nav_child_id',   child.id)
     localStorage.setItem('nav_child_info', JSON.stringify(info))
@@ -153,7 +160,7 @@ export default function BottomNav() {
     setChildInfo(info)
     setShowSheet(false)
 
-    // Navigate to same module for new child, or to their dashboard
+    // Stay on same module for new child, or fall back to their dashboard
     const cur = getActiveTab(pathname, childId)
     if (cur === 'phonics') { router.push(DEST.phonics(child.id)); return }
     if (cur === 'daily')   { router.push(DEST.daily(child.id));   return }

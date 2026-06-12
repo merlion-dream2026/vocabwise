@@ -142,6 +142,18 @@ export default function HomePage() {
     })
   }, [router])
 
+  // Auto-trigger child selection when redirected from nav sheet with ?select=childId
+  // Uses window.location.search to avoid Next.js Suspense requirement for useSearchParams
+  useEffect(() => {
+    if (loading || children.length === 0) return
+    const selectId = new URLSearchParams(window.location.search).get('select')
+    if (!selectId) return
+    const target = children.find(c => c.id === selectId)
+    if (!target) return
+    window.history.replaceState(null, '', '/kids') // clean URL before PIN gate appears
+    handleChildTap(target)
+  }, [loading]) // eslint-disable-line react-hooks/exhaustive-deps
+
   function handleChildTap(child: Child) {
     // Persist child identity so BottomNav chip can show name/emoji across sessions
     localStorage.setItem('nav_child_id',   child.id)
