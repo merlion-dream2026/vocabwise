@@ -2,7 +2,7 @@
 
 ## Project Overview
 **VocabWise** — SaaS app học tiếng Anh song ngữ Việt–Anh, rebrand từ VocabKids Pro.
-- **URL:** TBD (sẽ deploy lên Vercel riêng)
+- **URL:** vocabwise.vercel.app
 - **Stack:** Next.js 14 App Router · TypeScript · Tailwind CSS · Supabase · Vercel
 - **Auth:** Custom JWT (jose, HS256) + bcrypt · cookie: `vk_session` (httpOnly, secure)
 - **Email:** Gmail SMTP via nodemailer
@@ -87,7 +87,6 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 - Rate limiting: middleware.ts (in-memory sliding window per IP)
 - Superadmin: session `familyId === 'superadmin'` (hardcoded check)
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
-- VocabWise progress dùng `family_id TEXT`, không phải Supabase auth UUID
 - Prefix `vw_` cho tất cả VocabWise (Academic) tables
 
 ## Env Vars (Vercel)
@@ -105,13 +104,12 @@ NEXT_PUBLIC_APP_URL
 
 ## Audio Files
 `public/audio/stories/[level].[topic-id].mp3` — mini story audio (VocabWise Kids)
-- Seeker: 30/30 ✅ · Starter: 30/30 ✅ · Ranger: 30/30 ✅
-- Explorer: 25/30 (thiếu: art-creativity, critical-thinking, genetics-evolution, global-issues, sports-competition)
-- Scholar: 0/30 · Master: 0/30
 
-## Build Status
-| Section | Status |
-|---|---|
-| VocabWise Kids | ✅ Functional (inherited from VocabKids Pro) |
-| Luyện phát âm | ✅ Functional (inherited) |
-| VocabWise (Academic) | 🚧 In development |
+## Print Export
+`scripts/gen-docx.js` — generates A4 narrow-margin DOCX từ Academic JSON files
+- `node scripts/gen-docx.js book1 b1-t01` → single topic
+- `node scripts/gen-docx.js book1` → all topics in a book
+- `node scripts/gen-docx.js all` → all books
+- Output: `vocabwise-<book>-<topicId>.docx` tại project root
+- Color themes: emerald (book1) · blue (book2) · purple (book3)
+- Exercise types supported: E1 Matching · E3 MCQ · E4 GapFill · E5 TFNG · E6 WordForms · E7 Reordering · E8 ErrorFix
