@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "Car engines release harmful [emission] gases that damage the atmosphere.", "highlighted": "emission", "options": { "A": "emitting", "B": "emissions", "C": "emission" }, "answer": "B", "explanation": "'Emissions' (plural) refers to gases released into the air — multiple pollutants are always counted as plural." },
+        { "id": 1, "sentence": "Car engines release harmful [emission] gases that damage the atmosphere.", "highlighted": "emission", "options": { "A": "emissions", "B": "emitting", "C": "emission" }, "answer": "A", "explanation": "'Emissions' (plural) refers to gases released into the air — multiple pollutants are always counted as plural." },
         { "id": 2, "sentence": "She always [disposes from] her old batteries at the correct recycling point.", "highlighted": "disposes from", "options": { "A": "dispose off", "B": "disposes of", "C": "disposes from" }, "answer": "B", "explanation": "The correct phrase is 'dispose of' — not 'dispose from' or 'dispose off'." },
-        { "id": 3, "sentence": "The river became [contamination] after the factory leaked chemicals into it.", "highlighted": "contamination", "options": { "A": "contaminating", "B": "contaminated", "C": "contamination" }, "answer": "B", "explanation": "'Contaminated' is the adjective/past participle needed after 'became' — the river became contaminated." },
+        { "id": 3, "sentence": "The river became [contamination] after the factory leaked chemicals into it.", "highlighted": "contamination", "options": { "A": "contaminating", "B": "contamination", "C": "contaminated" }, "answer": "C", "explanation": "'Contaminated' is the adjective/past participle needed after 'became' — the river became contaminated." },
         { "id": 4, "sentence": "Plastic bags do not [decomposition] in landfill — they can last for 500 years.", "highlighted": "decomposition", "options": { "A": "decomposing", "B": "decompose", "C": "decomposition" }, "answer": "B", "explanation": "'Decompose' is the base verb form needed after 'do not'." },
-        { "id": 5, "sentence": "Using solar panels is a more [sustain] way to produce electricity.", "highlighted": "sustain", "options": { "A": "sustainability", "B": "sustainable", "C": "sustain" }, "answer": "B", "explanation": "'Sustainable' is the adjective form needed to describe 'way' — a sustainable way." }
+        { "id": 5, "sentence": "Using solar panels is a more [sustain] way to produce electricity.", "highlighted": "sustain", "options": { "A": "sustainable", "B": "sustainability", "C": "sustain" }, "answer": "A", "explanation": "'Sustainable' is the adjective form needed to describe 'way' — a sustainable way." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "emissions", "2": "toxic", "3": "decompose", "4": "landfill", "5": "carbon footprint" },
     "ex3": { "1": "smog", "2": "recycle", "3": "hazardous", "4": "sustainable", "5": "contaminated" },
     "ex4": { "1": "Burning fossil fuels pollutes the air.", "2": "Plastics take hundreds of years to decompose.", "3": "You can reduce your carbon footprint by cycling.", "4": "Untreated sewage contaminates rivers and water supplies.", "5": "Recycling helps keep useful materials out of landfill." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "A", "2": "B", "3": "C", "4": "B", "5": "A" }
   }
 }

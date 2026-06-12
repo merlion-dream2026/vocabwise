@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "Scientists measure the [saltness] of seawater to understand its impact on marine ecosystems.", "highlighted": "saltness", "options": { "A": "saltiness", "B": "salinity", "C": "saltness" }, "answer": "B", "explanation": "'Salinity' is the correct scientific and academic term for the concentration of dissolved salt in water; 'saltness' and 'saltiness' are informal or non-standard." },
-        { "id": 2, "sentence": "Mountain [icebergs] slowly release meltwater into rivers during the warm summer months.", "highlighted": "icebergs", "options": { "A": "ice packs", "B": "glaciers", "C": "icebergs" }, "answer": "B", "explanation": "'Glaciers' are large, slow-moving bodies of ice found on mountains that supply freshwater; 'icebergs' are floating chunks of ice in the ocean." },
+        { "id": 1, "sentence": "Scientists measure the [saltness] of seawater to understand its impact on marine ecosystems.", "highlighted": "saltness", "options": { "A": "salinity", "B": "saltiness", "C": "saltness" }, "answer": "A", "explanation": "'Salinity' is the correct scientific and academic term for the concentration of dissolved salt in water; 'saltness' and 'saltiness' are informal or non-standard." },
+        { "id": 2, "sentence": "Mountain [icebergs] slowly release meltwater into rivers during the warm summer months.", "highlighted": "icebergs", "options": { "A": "ice packs", "B": "icebergs", "C": "glaciers" }, "answer": "C", "explanation": "'Glaciers' are large, slow-moving bodies of ice found on mountains that supply freshwater; 'icebergs' are floating chunks of ice in the ocean." },
         { "id": 3, "sentence": "Countries with limited rainfall use [purification] plants to make seawater safe to drink.", "highlighted": "purification", "options": { "A": "filtration", "B": "desalination", "C": "purification" }, "answer": "B", "explanation": "'Desalination' is the specific process of removing salt from seawater to produce drinking water; 'purification' is a general term that does not specifically refer to salt removal." },
         { "id": 4, "sentence": "Wave action and flooding cause coastal [weathering], gradually removing land into the sea.", "highlighted": "weathering", "options": { "A": "weathering", "B": "erosion", "C": "flooding" }, "answer": "B", "explanation": "'Erosion' is the process by which land is worn away by water, wind, or waves; 'weathering' refers to the breakdown of rock in place, without the material being carried away." },
-        { "id": 5, "sentence": "Large amounts of [seaweed] bloomed in the lake, blocking sunlight and killing the fish below.", "highlighted": "seaweed", "options": { "A": "seaweed", "B": "algae", "C": "moss" }, "answer": "B", "explanation": "'Algae' is the correct term for the microscopic aquatic plant-like organisms that bloom in water when nutrient levels are high; 'seaweed' is a specific type of large marine algae, not used for freshwater blooms." }
+        { "id": 5, "sentence": "Large amounts of [seaweed] bloomed in the lake, blocking sunlight and killing the fish below.", "highlighted": "seaweed", "options": { "A": "algae", "B": "seaweed", "C": "moss" }, "answer": "A", "explanation": "'Algae' is the correct term for the microscopic aquatic plant-like organisms that bloom in water when nutrient levels are high; 'seaweed' is a specific type of large marine algae, not used for freshwater blooms." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "salinity", "2": "desalination", "3": "glaciers", "4": "Evaporation", "5": "Overfishing" },
     "ex3": { "1": "current", "2": "freshwater", "3": "coral reef", "4": "aquifer", "5": "erosion" },
     "ex4": { "1": "Oceans cover more than 70% of Earth's surface.", "2": "Coral reefs are home to millions of marine species.", "3": "Glaciers melt slowly and feed rivers and lakes.", "4": "Overfishing has reduced fish populations worldwide.", "5": "Desalination turns seawater into safe drinking water." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "B", "5": "A" }
   }
 }

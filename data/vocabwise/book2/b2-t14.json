@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "Solar panels on rooftops [generates] clean electricity for homes and businesses.", "highlighted": "generates", "options": { "A": "generated", "B": "generate", "C": "generates" }, "answer": "B", "explanation": "'Solar panels' is plural, so the verb must also be plural: 'generate', not 'generates'." },
-        { "id": 2, "sentence": "The company decided to [investing] in a large solar park last year.", "highlighted": "investing", "options": { "A": "investment", "B": "invest", "C": "investing" }, "answer": "B", "explanation": "After 'decided to', use the base form of the verb: 'invest', not 'investing'." },
+        { "id": 1, "sentence": "Solar panels on rooftops [generates] clean electricity for homes and businesses.", "highlighted": "generates", "options": { "A": "generated", "B": "generates", "C": "generate" }, "answer": "C", "explanation": "'Solar panels' is plural, so the verb must also be plural: 'generate', not 'generates'." },
+        { "id": 2, "sentence": "The company decided to [investing] in a large solar park last year.", "highlighted": "investing", "options": { "A": "invest", "B": "investment", "C": "investing" }, "answer": "A", "explanation": "After 'decided to', use the base form of the verb: 'invest', not 'investing'." },
         { "id": 3, "sentence": "Hydropower uses the force of [flowing waters] to produce electricity.", "highlighted": "flowing waters", "options": { "A": "flowed water", "B": "flowing water", "C": "flowing waters" }, "answer": "B", "explanation": "'Water' is an uncountable noun in this context — use 'flowing water', not 'flowing waters'." },
-        { "id": 4, "sentence": "The country aims to become [carbon neutrality] within the next 30 years.", "highlighted": "carbon neutrality", "options": { "A": "neutrally carbon", "B": "carbon neutral", "C": "carbon neutrality" }, "answer": "B", "explanation": "After 'become', use the adjective phrase 'carbon neutral', not the noun 'carbon neutrality'." },
-        { "id": 5, "sentence": "Renewable energy sources such as sun and wind will never [run outs].", "highlighted": "run outs", "options": { "A": "running out", "B": "run out", "C": "run outs" }, "answer": "B", "explanation": "The correct phrasal verb is 'run out' — after the modal 'will', use the base form 'run out'." }
+        { "id": 4, "sentence": "The country aims to become [carbon neutrality] within the next 30 years.", "highlighted": "carbon neutrality", "options": { "A": "carbon neutral", "B": "neutrally carbon", "C": "carbon neutrality" }, "answer": "A", "explanation": "After 'become', use the adjective phrase 'carbon neutral', not the noun 'carbon neutrality'." },
+        { "id": 5, "sentence": "Renewable energy sources such as sun and wind will never [run outs].", "highlighted": "run outs", "options": { "A": "running out", "B": "run outs", "C": "run out" }, "answer": "C", "explanation": "The correct phrasal verb is 'run out' — after the modal 'will', use the base form 'run out'." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "wind turbines", "2": "generate", "3": "carbon neutral", "4": "transition", "5": "capacity" },
     "ex3": { "1": "renewable", "2": "emissions", "3": "grid", "4": "invest", "5": "offshore" },
     "ex4": { "1": "Burning fossil fuels releases carbon dioxide.", "2": "Wind turbines convert moving air into electricity.", "3": "Many countries are still transitioning away from fossil fuels.", "4": "The goal is to become carbon neutral.", "5": "Clean energy creates jobs and reduces costs." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "A", "5": "C" }
   }
 }

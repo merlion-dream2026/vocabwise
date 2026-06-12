@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The village was completely [devastation] by the tsunami in just a few minutes.", "highlighted": "devastation", "options": { "A": "devastating", "B": "devastated", "C": "devastation" }, "answer": "B", "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice)." },
+        { "id": 1, "sentence": "The village was completely [devastation] by the tsunami in just a few minutes.", "highlighted": "devastation", "options": { "A": "devastated", "B": "devastating", "C": "devastation" }, "answer": "A", "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice)." },
         { "id": 2, "sentence": "Hundreds of [causality] were reported after the powerful earthquake struck the city.", "highlighted": "causality", "options": { "A": "casualty", "B": "casualties", "C": "causality" }, "answer": "B", "explanation": "'Casualties' (plural) refers to deaths and injuries; 'causality' means cause-and-effect — a completely different word." },
-        { "id": 3, "sentence": "Authorities ordered everyone to [evacuated] the coastal area before the storm arrived.", "highlighted": "evacuated", "options": { "A": "evacuating", "B": "evacuate", "C": "evacuated" }, "answer": "B", "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'." },
+        { "id": 3, "sentence": "Authorities ordered everyone to [evacuated] the coastal area before the storm arrived.", "highlighted": "evacuated", "options": { "A": "evacuating", "B": "evacuated", "C": "evacuate" }, "answer": "C", "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'." },
         { "id": 4, "sentence": "The town's [infrastructure's] was severely damaged, including roads and power lines.", "highlighted": "infrastructure's", "options": { "A": "infrastructures", "B": "infrastructure", "C": "infrastructure's" }, "answer": "B", "explanation": "No possessive needed here — 'infrastructure' is an uncountable noun and stands alone." },
-        { "id": 5, "sentence": "After the floods, the community showed great [resilient] in rebuilding their homes.", "highlighted": "resilient", "options": { "A": "resiliently", "B": "resilience", "C": "resilient" }, "answer": "B", "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'." }
+        { "id": 5, "sentence": "After the floods, the community showed great [resilient] in rebuilding their homes.", "highlighted": "resilient", "options": { "A": "resilience", "B": "resiliently", "C": "resilient" }, "answer": "A", "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "evacuate", "2": "magnitude", "3": "devastated", "4": "relief", "5": "forecast" },
     "ex3": { "1": "casualties", "2": "infrastructure", "3": "landslide", "4": "drought", "5": "resilience" },
     "ex4": { "1": "An earthquake occurs when tectonic plates shift.", "2": "People were quickly evacuated from the danger area.", "3": "The earthquake destroyed all roads and bridges.", "4": "Relief organisations provide emergency food and water.", "5": "Communities can recover from natural disasters and grow stronger." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "A", "2": "B", "3": "C", "4": "B", "5": "A" }
   }
 }

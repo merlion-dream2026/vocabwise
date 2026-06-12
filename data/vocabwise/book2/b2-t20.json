@@ -70,10 +70,10 @@
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
         { "id": 1, "sentence": "Before running the experiment, the team formed a [guess] about what the results would show.", "highlighted": "guess", "options": { "A": "prediction", "B": "hypothesis", "C": "guess" }, "answer": "B", "explanation": "A 'hypothesis' is a precise, testable scientific prediction based on prior knowledge; a 'guess' is random and unsystematic — it has no place in formal scientific writing." },
-        { "id": 2, "sentence": "The paper was evaluated through [expert verification] before being accepted for publication.", "highlighted": "expert verification", "options": { "A": "fact-checking", "B": "peer review", "C": "expert verification" }, "answer": "B", "explanation": "'Peer review' is the standard academic term for the process of having research evaluated by other specialists in the same field." },
-        { "id": 3, "sentence": "In a fair experiment, scientists should change only one [element] at a time to measure its effect.", "highlighted": "element", "options": { "A": "element", "B": "variable", "C": "factor" }, "answer": "B", "explanation": "'Variable' is the precise scientific term for a factor that is deliberately changed or measured in an experiment; 'element' and 'factor' are less specific." },
+        { "id": 2, "sentence": "The paper was evaluated through [expert verification] before being accepted for publication.", "highlighted": "expert verification", "options": { "A": "fact-checking", "B": "expert verification", "C": "peer review" }, "answer": "C", "explanation": "'Peer review' is the standard academic term for the process of having research evaluated by other specialists in the same field." },
+        { "id": 3, "sentence": "In a fair experiment, scientists should change only one [element] at a time to measure its effect.", "highlighted": "element", "options": { "A": "variable", "B": "element", "C": "factor" }, "answer": "A", "explanation": "'Variable' is the precise scientific term for a factor that is deliberately changed or measured in an experiment; 'element' and 'factor' are less specific." },
         { "id": 4, "sentence": "To verify the results, other teams must be able to [copy] the experiment under the same conditions.", "highlighted": "copy", "options": { "A": "repeat", "B": "replicate", "C": "copy" }, "answer": "B", "explanation": "'Replicate' carries the specific scientific meaning of repeating an experiment under identical controlled conditions to verify its results; 'copy' and 'repeat' are informal and imprecise." },
-        { "id": 5, "sentence": "The discovery of penicillin was a remarkable scientific [invention] that saved millions of lives.", "highlighted": "invention", "options": { "A": "achievement", "B": "breakthrough", "C": "invention" }, "answer": "B", "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented." }
+        { "id": 5, "sentence": "The discovery of penicillin was a remarkable scientific [invention] that saved millions of lives.", "highlighted": "invention", "options": { "A": "achievement", "B": "invention", "C": "breakthrough" }, "answer": "C", "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "hypothesis", "2": "peer review", "3": "variable", "4": "analyse", "5": "breakthrough" },
     "ex3": { "1": "evidence", "2": "replicate", "3": "laboratory", "4": "conclusion", "5": "publish" },
     "ex4": { "1": "Scientists form a hypothesis before running an experiment.", "2": "Peer review ensures the quality of published research.", "3": "Researchers analyse data to identify patterns and trends.", "4": "A breakthrough can change our understanding of the world.", "5": "Other scientists must be able to replicate the experiment." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "B", "2": "C", "3": "A", "4": "B", "5": "C" }
   }
 }

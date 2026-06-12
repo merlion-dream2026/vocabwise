@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The [specie] was found only in the deep forests of the Amazon.", "highlighted": "specie", "options": { "A": "specimen", "B": "species", "C": "specie" }, "answer": "B", "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology." },
-        { "id": 2, "sentence": "Deforestation destroys the natural [habitant] of thousands of wild animals.", "highlighted": "habitant", "options": { "A": "habitant", "B": "habitat", "C": "habitats" }, "answer": "B", "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place." },
+        { "id": 1, "sentence": "The [specie] was found only in the deep forests of the Amazon.", "highlighted": "specie", "options": { "A": "specimen", "B": "specie", "C": "species" }, "answer": "C", "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology." },
+        { "id": 2, "sentence": "Deforestation destroys the natural [habitant] of thousands of wild animals.", "highlighted": "habitant", "options": { "A": "habitat", "B": "habitant", "C": "habitats" }, "answer": "A", "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place." },
         { "id": 3, "sentence": "The lion is a powerful [predictor] that hunts large animals on the savanna.", "highlighted": "predictor", "options": { "A": "predictor", "B": "predator", "C": "predating" }, "answer": "B", "explanation": "'Predator' is an animal that hunts for food; 'predictor' means something that forecasts or predicts events." },
-        { "id": 4, "sentence": "When a species completely disappears from Earth, it is called [extinguish].", "highlighted": "extinguish", "options": { "A": "extinguishing", "B": "extinct", "C": "extinguish" }, "answer": "B", "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire." },
-        { "id": 5, "sentence": "The WWF runs many [conservatory] programmes to protect endangered species.", "highlighted": "conservatory", "options": { "A": "conserving", "B": "conservation", "C": "conservatory" }, "answer": "B", "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school." }
+        { "id": 4, "sentence": "When a species completely disappears from Earth, it is called [extinguish].", "highlighted": "extinguish", "options": { "A": "extinguishing", "B": "extinguish", "C": "extinct" }, "answer": "C", "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire." },
+        { "id": 5, "sentence": "The WWF runs many [conservatory] programmes to protect endangered species.", "highlighted": "conservatory", "options": { "A": "conservation", "B": "conserving", "C": "conservatory" }, "answer": "A", "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "predators", "2": "ecosystems", "3": "invasive", "4": "species", "5": "conservation" },
     "ex3": { "1": "habitat", "2": "adapt", "3": "prey", "4": "flora", "5": "extinction" },
     "ex4": { "1": "The rainforest is home to thousands of species.", "2": "Energy flows through a food chain.", "3": "Invasive species can harm native wildlife.", "4": "Many species face extinction due to habitat loss.", "5": "Conservation efforts aim to protect biodiversity." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "C", "5": "A" }
   }
 }

@@ -70,10 +70,10 @@
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
         { "id": 1, "sentence": "The adult human [spine] is made up of 206 bones that support the entire body.", "highlighted": "spine", "options": { "A": "backbone", "B": "skeleton", "C": "spine" }, "answer": "B", "explanation": "The 'skeleton' is the complete framework of all 206 bones; the 'spine' is just one part of it — the column of bones in the back." },
-        { "id": 2, "sentence": "The body's [fighting system] identifies and destroys bacteria and viruses before they cause disease.", "highlighted": "fighting system", "options": { "A": "defence system", "B": "immune system", "C": "fighting system" }, "answer": "B", "explanation": "'Immune system' is the correct scientific term for the body's natural defence against infection and disease." },
-        { "id": 3, "sentence": "Chemical [vitamins] travel through the blood to regulate the body's growth and mood.", "highlighted": "vitamins", "options": { "A": "minerals", "B": "hormones", "C": "vitamins" }, "answer": "B", "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes; 'vitamins' are nutrients that must be obtained from food." },
+        { "id": 2, "sentence": "The body's [fighting system] identifies and destroys bacteria and viruses before they cause disease.", "highlighted": "fighting system", "options": { "A": "immune system", "B": "defence system", "C": "fighting system" }, "answer": "A", "explanation": "'Immune system' is the correct scientific term for the body's natural defence against infection and disease." },
+        { "id": 3, "sentence": "Chemical [vitamins] travel through the blood to regulate the body's growth and mood.", "highlighted": "vitamins", "options": { "A": "minerals", "B": "vitamins", "C": "hormones" }, "answer": "C", "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes; 'vitamins' are nutrients that must be obtained from food." },
         { "id": 4, "sentence": "During exercise, the [cardiovascular] system works harder to bring more oxygen into the lungs.", "highlighted": "cardiovascular", "options": { "A": "digestive", "B": "respiratory", "C": "cardiovascular" }, "answer": "B", "explanation": "The 'respiratory system' controls breathing and oxygen intake; the 'cardiovascular system' controls blood flow — both work together, but breathing is specifically respiratory." },
-        { "id": 5, "sentence": "Children inherit physical traits from their parents through [cells] in their DNA.", "highlighted": "cells", "options": { "A": "cells", "B": "genes", "C": "tissues" }, "answer": "B", "explanation": "'Genes' are the specific segments of DNA that carry inherited traits; 'cells' are the basic units of life but do not individually determine inherited characteristics." }
+        { "id": 5, "sentence": "Children inherit physical traits from their parents through [cells] in their DNA.", "highlighted": "cells", "options": { "A": "genes", "B": "cells", "C": "tissues" }, "answer": "A", "explanation": "'Genes' are the specific segments of DNA that carry inherited traits; 'cells' are the basic units of life but do not individually determine inherited characteristics." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "immune system", "2": "circulation", "3": "Nutrients", "4": "hormones", "5": "genes" },
     "ex3": { "1": "cell", "2": "respiratory", "3": "digest", "4": "skeleton", "5": "muscle" },
     "ex4": { "1": "The human body contains trillions of cells.", "2": "The nervous system sends signals to the entire body.", "3": "Genes are passed from parents to their children.", "4": "Circulation delivers oxygen and nutrients to every cell.", "5": "The immune system destroys harmful bacteria and viruses." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "A" }
   }
 }

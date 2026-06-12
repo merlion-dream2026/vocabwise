@@ -69,10 +69,10 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The [astronomer] trained for years before travelling to the International Space Station.", "highlighted": "astronomer", "options": { "A": "astrophysicist", "B": "astronaut", "C": "astronomer" }, "answer": "B", "explanation": "An 'astronaut' is a person trained to travel to space; an 'astronomer' studies space from Earth using telescopes — they are two different professions." },
+        { "id": 1, "sentence": "The [astronomer] trained for years before travelling to the International Space Station.", "highlighted": "astronomer", "options": { "A": "astrophysicist", "B": "astronomer", "C": "astronaut" }, "answer": "C", "explanation": "An 'astronaut' is a person trained to travel to space; an 'astronomer' studies space from Earth using telescopes — they are two different professions." },
         { "id": 2, "sentence": "NASA's [ranger] collected rock samples as it moved slowly across the Martian surface.", "highlighted": "ranger", "options": { "A": "satellite", "B": "rover", "C": "ranger" }, "answer": "B", "explanation": "A 'rover' is the correct term for a robotic vehicle designed to travel across the surface of another planet; 'ranger' is not used for space vehicles." },
-        { "id": 3, "sentence": "Scientists used a powerful [binoculars] to observe the rings of Saturn from an observatory.", "highlighted": "binoculars", "options": { "A": "microscope", "B": "telescope", "C": "binoculars" }, "answer": "B", "explanation": "A 'telescope' is used to observe distant objects in space; 'binoculars' are handheld devices for viewing closer objects on Earth." },
-        { "id": 4, "sentence": "The [weather] of Mars is too thin for humans to breathe without specialised equipment.", "highlighted": "weather", "options": { "A": "climate", "B": "atmosphere", "C": "weather" }, "answer": "B", "explanation": "'Atmosphere' is the layer of gases surrounding a planet; 'weather' describes short-term conditions and cannot be described as 'thin'." },
+        { "id": 3, "sentence": "Scientists used a powerful [binoculars] to observe the rings of Saturn from an observatory.", "highlighted": "binoculars", "options": { "A": "telescope", "B": "microscope", "C": "binoculars" }, "answer": "A", "explanation": "A 'telescope' is used to observe distant objects in space; 'binoculars' are handheld devices for viewing closer objects on Earth." },
+        { "id": 4, "sentence": "The [weather] of Mars is too thin for humans to breathe without specialised equipment.", "highlighted": "weather", "options": { "A": "climate", "B": "weather", "C": "atmosphere" }, "answer": "C", "explanation": "'Atmosphere' is the layer of gases surrounding a planet; 'weather' describes short-term conditions and cannot be described as 'thin'." },
         { "id": 5, "sentence": "Growing amounts of space [garbage] from old rockets create serious hazards for active satellites.", "highlighted": "garbage", "options": { "A": "waste", "B": "debris", "C": "garbage" }, "answer": "B", "explanation": "'Debris' is the standard scientific and academic term for fragments of broken spacecraft floating in space; 'garbage' is informal and unsuitable in academic writing." }
       ]
     }
@@ -82,6 +82,6 @@
     "ex2": { "1": "thrust", "2": "probe", "3": "atmosphere", "4": "rover", "5": "orbit" },
     "ex3": { "1": "gravity", "2": "launch", "3": "galaxy", "4": "mission", "5": "satellites" },
     "ex4": { "1": "Thousands of satellites travel around Earth in orbit.", "2": "The first astronauts walked on the Moon in 1969.", "3": "Space agencies send unmanned probes to distant planets.", "4": "Space debris poses a serious threat to future missions.", "5": "Rockets must generate enough thrust to escape Earth's gravity." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "C", "2": "B", "3": "A", "4": "C", "5": "B" }
   }
 }

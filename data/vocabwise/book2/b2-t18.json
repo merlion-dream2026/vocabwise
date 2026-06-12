@@ -69,11 +69,11 @@
     },
     "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "Farmers spread [mineral] on their fields to provide nutrients that help plants grow faster.", "highlighted": "mineral", "options": { "A": "compost", "B": "fertiliser", "C": "mineral" }, "answer": "B", "explanation": "'Fertiliser' is the correct term for a substance applied to soil to improve plant growth; 'mineral' alone does not describe this agricultural input." },
-        { "id": 2, "sentence": "The farmer sprayed the crops with a [fungicide] to kill insects that were destroying the leaves.", "highlighted": "fungicide", "options": { "A": "herbicide", "B": "pesticide", "C": "fungicide" }, "answer": "B", "explanation": "'Pesticide' is used to kill insects; 'fungicide' kills fungi; 'herbicide' kills weeds — the sentence describes insects, so 'pesticide' is correct." },
+        { "id": 1, "sentence": "Farmers spread [mineral] on their fields to provide nutrients that help plants grow faster.", "highlighted": "mineral", "options": { "A": "compost", "B": "mineral", "C": "fertiliser" }, "answer": "C", "explanation": "'Fertiliser' is the correct term for a substance applied to soil to improve plant growth; 'mineral' alone does not describe this agricultural input." },
+        { "id": 2, "sentence": "The farmer sprayed the crops with a [fungicide] to kill insects that were destroying the leaves.", "highlighted": "fungicide", "options": { "A": "pesticide", "B": "herbicide", "C": "fungicide" }, "answer": "A", "explanation": "'Pesticide' is used to kill insects; 'fungicide' kills fungi; 'herbicide' kills weeds — the sentence describes insects, so 'pesticide' is correct." },
         { "id": 3, "sentence": "Large parts of the desert are not [farmable] because the soil is too dry and lacks nutrients.", "highlighted": "farmable", "options": { "A": "fertile", "B": "arable", "C": "farmable" }, "answer": "B", "explanation": "'Arable' is the correct academic adjective meaning 'suitable for growing crops'; 'farmable' is not standard English vocabulary in this context." },
-        { "id": 4, "sentence": "During each [crop] season, farmers work day and night to collect all the grain before it rots.", "highlighted": "crop", "options": { "A": "growing", "B": "harvest", "C": "crop" }, "answer": "B", "explanation": "'Harvest' refers specifically to the season or act of collecting crops when they are ripe; 'crop' refers to the plants themselves, not the collecting process." },
-        { "id": 5, "sentence": "After three years of failed harvests, the country experienced a widespread [drought] in which millions starved.", "highlighted": "drought", "options": { "A": "crisis", "B": "famine", "C": "drought" }, "answer": "B", "explanation": "'Famine' is the correct term for a prolonged, widespread shortage of food that causes starvation; 'drought' is the lack of rainfall that may cause a famine — not the food crisis itself." }
+        { "id": 4, "sentence": "During each [crop] season, farmers work day and night to collect all the grain before it rots.", "highlighted": "crop", "options": { "A": "growing", "B": "crop", "C": "harvest" }, "answer": "C", "explanation": "'Harvest' refers specifically to the season or act of collecting crops when they are ripe; 'crop' refers to the plants themselves, not the collecting process." },
+        { "id": 5, "sentence": "After three years of failed harvests, the country experienced a widespread [drought] in which millions starved.", "highlighted": "drought", "options": { "A": "famine", "B": "crisis", "C": "drought" }, "answer": "A", "explanation": "'Famine' is the correct term for a prolonged, widespread shortage of food that causes starvation; 'drought' is the lack of rainfall that may cause a famine — not the food crisis itself." }
       ]
     }
   },
@@ -82,6 +82,6 @@
     "ex2": { "1": "surplus", "2": "pesticide", "3": "staple", "4": "famine", "5": "cultivation" },
     "ex3": { "1": "irrigate", "2": "yield", "3": "harvest", "4": "drought", "5": "livestock" },
     "ex4": { "1": "Rice is a staple food for billions of people.", "2": "Farmers irrigate their fields during the dry season.", "3": "Organic farming avoids the use of artificial chemicals.", "4": "A drought can destroy entire crops and cause famine.", "5": "Subsistence farmers grow only enough to feed their families." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "C", "5": "A" }
   }
 }
