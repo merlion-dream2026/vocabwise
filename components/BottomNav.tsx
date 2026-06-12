@@ -243,7 +243,13 @@ export default function BottomNav() {
         }`}
         style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}
       >
-        <div className="flex h-14 items-stretch px-2">
+        <div
+          className="flex h-14 items-stretch"
+          style={{
+            paddingLeft:  'max(16px, env(safe-area-inset-left))',
+            paddingRight: 'max(16px, env(safe-area-inset-right))',
+          }}
+        >
 
           {/* 4 module tabs */}
           {MODULE_TABS.map(({ key, label, icon, needsChild }) => {
