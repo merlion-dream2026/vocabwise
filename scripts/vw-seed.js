@@ -32,10 +32,10 @@ const EX_KEY_MAP = {
   ex5_error_fix:   5, ex5_collocation: 5,
 }
 
-async function upsertTheme(bookId, themeNumber, themeTitle) {
+async function upsertTheme(bookId, themeNumber, themeTitle, themeTitleVi) {
   const { data, error } = await supabase
     .from('vw_themes')
-    .upsert({ book_id: bookId, theme_number: themeNumber, theme_title: themeTitle },
+    .upsert({ book_id: bookId, theme_number: themeNumber, theme_title: themeTitle, theme_title_vi: themeTitleVi || null },
              { onConflict: 'book_id,theme_number' })
     .select('id')
     .single()
@@ -52,20 +52,23 @@ async function seedTopic(filePath) {
   console.log(`\nSeeding ${topicId} — ${meta.topic_title}...`)
 
   // 1. Upsert theme
-  const themeId = await upsertTheme(meta.book, meta.theme_number, meta.theme_title)
+  const themeId = await upsertTheme(meta.book, meta.theme_number, meta.theme_title, meta.theme_title_vi)
   if (!themeId) return
 
   // 2. Upsert topic
   const { error: topicErr } = await supabase
     .from('vw_topics')
     .upsert({
-      topic_id:     topicId,
-      book_id:      meta.book,
-      theme_id:     themeId,
-      topic_number: meta.topic_number,
-      topic_title:  meta.topic_title,
-      status:       meta.status,
-      combo:        meta.combo,
+      topic_id:       topicId,
+      book_id:        meta.book,
+      theme_id:       themeId,
+      topic_number:   meta.topic_number,
+      topic_title:    meta.topic_title,
+      topic_title_vi: meta.topic_title_vi || null,
+      emoji:          meta.emoji || null,
+      cefr_level:     meta.cefr_level || null,
+      status:         meta.status,
+      combo:          meta.combo,
     }, { onConflict: 'topic_id' })
   if (topicErr) { console.error('Topic error:', topicErr.message); return }
 
