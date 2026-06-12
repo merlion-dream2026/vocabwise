@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState, useCallback, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 
 const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scholar','master'])
@@ -66,6 +66,9 @@ export default function BottomNav() {
   const [showSheet, setShowSheet] = useState(false)
   const [children,  setChildren]  = useState<Child[]>([])
   const [loadingChildren, setLoadingChildren] = useState(false)
+  const [navVisible, setNavVisible] = useState(true)
+  const lastScrollY  = useRef(0)
+  const ticking      = useRef(false)
 
   // Sync childId + childInfo from path / localStorage on every navigation
   useEffect(() => {
@@ -93,6 +96,35 @@ export default function BottomNav() {
       router.prefetch(`/dashboard/${childId}/kids`)
     }
   }, [childId, router])
+
+  // Auto-hide on scroll down, show on scroll up (Facebook-style)
+  // Works on both PWA and browser — pure scroll event, no native API needed
+  useEffect(() => {
+    setNavVisible(true) // always show on page change
+    lastScrollY.current = window.scrollY
+
+    function onScroll() {
+      if (ticking.current) return
+      ticking.current = true
+      requestAnimationFrame(() => {
+        const cur  = window.scrollY
+        const diff = cur - lastScrollY.current
+        // Don't hide if sheet is open or near page bottom
+        const nearBottom = cur + window.innerHeight >= document.body.scrollHeight - 60
+        if (!showSheet && !nearBottom) {
+          if (diff > 8)  setNavVisible(false) // scrolling down
+          if (diff < -5) setNavVisible(true)  // scrolling up
+        } else {
+          setNavVisible(true)
+        }
+        lastScrollY.current = cur
+        ticking.current = false
+      })
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [pathname, showSheet])
 
   // Lazy-load children when sheet is about to open
   const openProfileSheet = useCallback(async () => {
@@ -206,10 +238,12 @@ export default function BottomNav() {
 
       {/* Bottom nav */}
       <nav
-        className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)]"
+        className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)] transition-transform duration-300 ease-in-out ${
+          navVisible ? 'translate-y-0' : 'translate-y-full'
+        }`}
         style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}
       >
-        <div className="flex h-14 items-stretch">
+        <div className="flex h-14 items-stretch px-2">
 
           {/* 4 module tabs */}
           {MODULE_TABS.map(({ key, label, icon, needsChild }) => {
