@@ -126,17 +126,24 @@ export default function BottomNav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [pathname, showSheet])
 
-  // Lazy-load children when sheet is about to open
+  // Always fetch fresh children when sheet opens — keeps emoji/name in sync
   const openProfileSheet = useCallback(async () => {
     setShowSheet(true)
-    if (children.length > 0) return
     setLoadingChildren(true)
     try {
       const data = await fetch('/api/children').then(r => r.ok ? r.json() : [])
-      setChildren(Array.isArray(data) ? data : [])
+      const list: Child[] = Array.isArray(data) ? data : []
+      setChildren(list)
+      // Refresh active child info in case emoji/name changed since last login
+      const cur = list.find(c => c.id === (localStorage.getItem('nav_child_id') ?? childId))
+      if (cur) {
+        const info: ChildInfo = { id: cur.id, name: cur.name, emoji: cur.emoji }
+        localStorage.setItem('nav_child_info', JSON.stringify(info))
+        setChildInfo(info)
+      }
     } catch { /* ignore */ }
     setLoadingChildren(false)
-  }, [children.length])
+  }, [childId])
 
   function selectChild(child: Child) {
     const info: ChildInfo = { id: child.id, name: child.name, emoji: child.emoji }
@@ -227,7 +234,7 @@ export default function BottomNav() {
             )}
 
             <button
-              onClick={() => { setShowSheet(false); router.push('/kids') }}
+              onClick={() => { setShowSheet(false); router.push('/dashboard') }}
               className="mt-5 w-full text-center text-sm text-gray-400 font-semibold py-2 active:text-gray-600 transition-colors"
             >
               Quản lý hồ sơ →
