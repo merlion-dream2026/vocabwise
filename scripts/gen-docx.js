@@ -529,7 +529,9 @@ async function generateTopic(book, topicId, bc) {
     }],
   })
 
-  const outPath = path.join(process.cwd(), `vocabwise-${book}-${topicId}.docx`)
+  const outDir  = path.join(process.cwd(), 'print-book')
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true })
+  const outPath = path.join(outDir, `vocabwise-${book}-${topicId}.docx`)
   const buf     = await Packer.toBuffer(doc)
   fs.writeFileSync(outPath, buf)
   console.log(`  ✅  ${outPath}`)
