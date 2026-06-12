@@ -43,6 +43,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [showOverviewDetail, setShowOverviewDetail] = useState(false)
+  const [showProgressGuide, setShowProgressGuide] = useState(false)
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
@@ -104,9 +105,10 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const flatCls  = FLAT_COLOR[book] ?? 'bg-blue-500'
   const numGrad  = NUM_GRAD[book]   ?? 'from-blue-400 to-indigo-500'
 
-  const masteredCount  = topics.filter(t => syncMap[t.topic_id]?.mastered).length
-  const completedCount = topics.filter(t => syncMap[t.topic_id]?.completed).length
-  const needsReviewCount = topics.filter(t => syncMap[t.topic_id]?.completed && !syncMap[t.topic_id]?.mastered).length
+  const masteredCount     = topics.filter(t => syncMap[t.topic_id]?.mastered).length
+  const completedCount    = topics.filter(t => syncMap[t.topic_id]?.completed).length
+  const needsImprovementCount = completedCount - masteredCount
+  const needsReviewCount  = needsImprovementCount
   const pct = topics.length > 0 ? Math.round((masteredCount / topics.length) * 100) : 0
   const totalWords = topics.reduce((s, t) => s + (t.word_count ?? 15), 0)
 
@@ -179,32 +181,71 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
         {/* Progress summary card */}
         <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
-          <div className="flex items-center gap-4 mb-3">
-            <div className="text-center flex-1">
-              <div className="text-xl font-black text-gray-800">{masteredCount}</div>
-              <div className="text-xs text-gray-400 font-bold mt-0.5">🏆 Thành thạo</div>
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-1.5">
+              <span className="text-xs font-black text-gray-400 uppercase tracking-wider">Tiến độ module</span>
+              <button onClick={() => setShowProgressGuide(true)}
+                className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 transition-colors">
+                ?
+              </button>
             </div>
-            <div className="w-px h-10 bg-gray-100" />
-            <div className="text-center flex-1">
-              <div className="text-xl font-black text-gray-800">{completedCount}</div>
-              <div className="text-xs text-gray-400 font-bold mt-0.5">✅ Đã làm</div>
-            </div>
-            <div className="w-px h-10 bg-gray-100" />
-            <div className="text-center flex-1">
-              <div className="text-xl font-black text-gray-800">{topics.length - completedCount}</div>
-              <div className="text-xs text-gray-400 font-bold mt-0.5">📘 Chưa học</div>
-            </div>
-            <div className="w-px h-10 bg-gray-100" />
-            <div className="text-center flex-shrink-0">
-              <div className="text-xl font-black text-gray-300">{pct}%</div>
-              <div className="text-xs text-gray-400 font-bold mt-0.5">Tiến độ</div>
-            </div>
+            <span className="text-xs font-bold text-gray-500">{pct}% hoàn thành</span>
           </div>
-          <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-            <div className={`h-full bg-gradient-to-r ${numGrad} rounded-full transition-all duration-500`}
-              style={{ width: `${Math.max(pct, masteredCount > 0 ? 2 : 0)}%` }} />
+          <div className="h-3 bg-gray-100 rounded-full overflow-hidden flex mb-3">
+            {masteredCount > 0 && (
+              <div className={`h-full bg-gradient-to-r ${numGrad} transition-all duration-500`}
+                style={{ width: `${(masteredCount / topics.length) * 100}%` }} />
+            )}
+            {needsImprovementCount > 0 && (
+              <div className="h-full bg-amber-300 transition-all duration-500"
+                style={{ width: `${(needsImprovementCount / topics.length) * 100}%` }} />
+            )}
+          </div>
+          <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
+            <span>🏆 <strong className="text-gray-700">{masteredCount}</strong> thành thạo</span>
+            <span className="text-gray-200">·</span>
+            <span>⚠️ <strong className="text-gray-700">{needsImprovementCount}</strong> cần cải thiện</span>
+            <span className="text-gray-200">·</span>
+            <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
           </div>
         </div>
+
+        {/* Progress guide modal */}
+        {showProgressGuide && (
+          <div className="fixed inset-0 bg-black/40 z-50 flex items-end justify-center p-4"
+            onClick={() => setShowProgressGuide(false)}>
+            <div className="bg-white rounded-2xl w-full max-w-sm p-5 space-y-4" onClick={e => e.stopPropagation()}>
+              <p className="font-black text-gray-800 text-base">Các mức độ tiến độ</p>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <span className="text-xl mt-0.5">🏆</span>
+                  <div>
+                    <p className="font-bold text-gray-800 text-sm">Thành thạo</p>
+                    <p className="text-xs text-gray-500">Đã làm bài tập và đạt ≥ 80% (20/25 điểm)</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-xl mt-0.5">⚠️</span>
+                  <div>
+                    <p className="font-bold text-gray-800 text-sm">Cần cải thiện</p>
+                    <p className="text-xs text-gray-500">Đã làm bài tập nhưng chưa đạt 80% — làm lại để nâng điểm</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-xl mt-0.5">📘</span>
+                  <div>
+                    <p className="font-bold text-gray-800 text-sm">Chưa học</p>
+                    <p className="text-xs text-gray-500">Chưa làm bài tập lần nào</p>
+                  </div>
+                </div>
+              </div>
+              <button onClick={() => setShowProgressGuide(false)}
+                className={`w-full bg-gradient-to-r ${numGrad} text-white font-black py-3 rounded-2xl active:scale-95 transition-transform`}>
+                Đã hiểu
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* SRS due banner — Group 2: populated once TopicViewer writes SRS data */}
         {srsDueCount > 0 && (

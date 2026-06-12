@@ -333,33 +333,54 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           <div>
             {topicSync?.completed ? (
               /* Previous result view */
-              <div className="text-center py-6">
-                <div className="text-6xl mb-3">{topicSync.mastered ? '🏆' : '✅'}</div>
-                <h2 className="font-black text-gray-800 text-xl mb-1">
-                  {topicSync.mastered ? 'Đã thành thạo!' : 'Đã hoàn thành'}
-                </h2>
-                <div className="inline-flex items-baseline gap-1 mt-2 mb-1">
-                  <span className="text-4xl font-black text-purple-600">{prevTotal}</span>
-                  <span className="text-gray-400 font-bold text-xl">/25</span>
+              <div className="py-4 space-y-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-2xl">{topicSync.mastered ? '🏆' : '⚠️'}</span>
+                    <div>
+                      <p className="font-black text-gray-800 text-base leading-tight">
+                        {topicSync.mastered ? 'Thành thạo' : 'Cần cải thiện'}
+                      </p>
+                      <p className="text-xs text-gray-400 mt-0.5">
+                        {topicSync.mastered ? 'Đạt chuẩn ≥ 80%' : 'Cần ≥ 80% để thành thạo'}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="flex items-baseline gap-0.5 justify-end">
+                      <span className="text-3xl font-black text-purple-600">{prevTotal}</span>
+                      <span className="text-gray-400 font-bold text-lg">/25</span>
+                    </div>
+                    <p className="text-xs text-gray-400">{Math.round((prevTotal / 25) * 100)}%</p>
+                  </div>
                 </div>
-                <p className="text-gray-400 text-sm mb-5">
-                  {topicSync.mastered ? '80%+ — Đạt chuẩn thành thạo 🎉' : `${Math.round((prevTotal/25)*100)}% — Cần ≥80% để đạt thành thạo`}
-                </p>
-                <div className="flex flex-wrap gap-2 justify-center mb-6">
+
+                <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
+                    style={{ width: `${Math.round((prevTotal / 25) * 100)}%` }} />
+                </div>
+
+                <div className="space-y-2.5">
                   {Object.entries(topicSync.ex_scores).map(([type, score]) => (
-                    <span key={type} className={`text-sm font-bold px-3 py-1 rounded-full ${
-                      score === 5 ? 'bg-green-100 text-green-700' :
-                      score >= 3 ? 'bg-yellow-100 text-yellow-700' : 'bg-red-100 text-red-600'
-                    }`}>
-                      {type}: {score}/5
-                    </span>
+                    <div key={type} className="flex items-center gap-3">
+                      <span className="text-xs font-bold text-gray-400 w-20 flex-shrink-0 truncate">
+                        {({ E1:'Matching', E2:'MCQ', E3:'MCQ', E4:'Gap-fill', E5:'T/F/NG', E6:'Word Forms', E7:'Sentence', E8:'Error Fix' } as Record<string,string>)[type] ?? type}
+                      </span>
+                      <div className="flex gap-1 flex-1">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <div key={i} className={`flex-1 h-3 rounded-full ${i < score ? 'bg-purple-500' : 'bg-gray-200'}`} />
+                        ))}
+                      </div>
+                      <span className="text-xs font-bold text-gray-500 w-7 text-right flex-shrink-0">{score}/5</span>
+                    </div>
                   ))}
                 </div>
+
                 <button onClick={() => setExMode(true)}
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-base">
+                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
                   🔄 Làm lại để cải thiện điểm
                 </button>
-                <p className="text-xs text-gray-400 mt-3">Điểm tốt nhất sẽ được lưu lại</p>
+                <p className="text-xs text-gray-400 text-center">Điểm tốt nhất sẽ được lưu lại</p>
               </div>
             ) : (
               /* First attempt view */
