@@ -42,6 +42,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [loaded, setLoaded]     = useState(false)
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [showUpgrade, setShowUpgrade] = useState(false)
+  const [showOverviewDetail, setShowOverviewDetail] = useState(false)
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
@@ -134,34 +135,47 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
       <div className="max-w-2xl mx-auto px-4 pt-3 space-y-3">
 
         {/* Module overview card */}
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
-          <div className="flex items-center justify-between mb-3">
-            <p className="text-xs font-black text-gray-400 uppercase tracking-wider">Tổng quan</p>
-            <p className="text-xs font-bold text-gray-500">{topics.length} chủ đề · {totalWords.toLocaleString()} từ</p>
+        <button onClick={() => setShowOverviewDetail(v => !v)}
+          className="w-full bg-white rounded-2xl border-2 border-gray-100 shadow-sm px-4 py-3 text-left active:scale-[0.99] transition-transform">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className={`text-xs font-black px-2 py-0.5 rounded-full bg-gradient-to-r ${numGrad} text-white`}>{info.cefr}</span>
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <span><strong className="text-gray-800">{Object.keys(byTheme).length}</strong> themes</span>
+                <span className="text-gray-200">·</span>
+                <span><strong className="text-gray-800">{topics.length}</strong> topics</span>
+                <span className="text-gray-200">·</span>
+                <span><strong className="text-gray-800">{totalWords.toLocaleString()}</strong> từ</span>
+              </div>
+            </div>
+            <span className={`text-gray-300 text-sm transition-transform duration-200 ${showOverviewDetail ? 'rotate-180' : ''}`}>▾</span>
           </div>
-          <div className="divide-y divide-gray-50 -mx-1">
-            {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
-              const [themeNum, themeTitle] = themeKey.split('|')
-              const themeViTitle = themeTopics[0]?.theme_title_vi
-              const themeWords = themeTopics.reduce((s, t) => s + (t.word_count ?? 15), 0)
-              return (
-                <div key={themeKey} className="flex items-center justify-between px-1 py-2">
-                  <div className="flex items-center gap-2 min-w-0">
-                    <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
-                    <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
+
+          {showOverviewDetail && (
+            <div className="mt-3 pt-3 border-t border-gray-100 divide-y divide-gray-50 -mx-1">
+              {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
+                const [themeNum, themeTitle] = themeKey.split('|')
+                const themeViTitle = themeTopics[0]?.theme_title_vi
+                const themeWords = themeTopics.reduce((s, t) => s + (t.word_count ?? 15), 0)
+                return (
+                  <div key={themeKey} className="flex items-center justify-between px-1 py-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
+                      <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
+                      <span className="font-semibold text-gray-600">{themeTopics.length}</span>
+                      <span>topics</span>
+                      <span className="text-gray-200 mx-1">·</span>
+                      <span className="font-semibold text-gray-600">{themeWords}</span>
+                      <span>từ</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
-                    <span className="font-semibold text-gray-500">{themeTopics.length}</span>
-                    <span>topics</span>
-                    <span className="text-gray-200 mx-1">·</span>
-                    <span className="font-semibold text-gray-500">{themeWords}</span>
-                    <span>từ</span>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
+                )
+              })}
+            </div>
+          )}
+        </button>
 
         {/* Progress summary card */}
         <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
