@@ -29,10 +29,9 @@ function isLessonMasteredLocal(lesson: LessonBase, mastery: MasteryMap): boolean
   return lesson.masteryGames.every(g => m.games.includes(g))
 }
 
-function isLevelUnlocked(levelIdx: number, mastery: MasteryMap): boolean {
-  if (levelIdx === 0) return true
-  const prev = phonicsLevels.levels[levelIdx - 1]
-  return (prev.lessons as LessonBase[]).filter(l => isLessonMasteredLocal(l, mastery)).length >= Math.min(3, prev.lessons.length)
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function isLevelUnlocked(_levelIdx: number, _mastery: MasteryMap): boolean {
+  return true
 }
 
 export default function PhonicsHub() {
