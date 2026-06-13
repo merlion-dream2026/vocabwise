@@ -499,6 +499,7 @@ export default function HomePage() {
             setPinChild(null)
             router.push(`/dashboard/${pinChild.id}`)
           }}
+          onClose={() => setPinChild(null)}
         />
       )}
 

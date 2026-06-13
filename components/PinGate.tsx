@@ -4,9 +4,9 @@ import { getAvatarSrc } from '@/lib/avatars'
 
 const KEYS = ['1','2','3','4','5','6','7','8','9','','0','⌫']
 
-type Props = { childId: string; name: string; emoji: string; color: string; onSuccess: () => void }
+type Props = { childId: string; name: string; emoji: string; color: string; onSuccess: () => void; onClose?: () => void }
 
-export default function PinGate({ childId, name, emoji, color, onSuccess }: Props) {
+export default function PinGate({ childId, name, emoji, color, onSuccess, onClose }: Props) {
   const [pin,     setPin]     = useState('')
   const [shake,   setShake]   = useState(false)
   const [loading, setLoading] = useState(false)
@@ -54,8 +54,11 @@ export default function PinGate({ childId, name, emoji, color, onSuccess }: Prop
     : 'bg-blue-50 text-blue-700 hover:bg-blue-100 active:bg-blue-200'
 
   return (
-    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4">
-      <div className="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-xs text-center">
+    <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4" onClick={onClose}>
+      <div className="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-xs text-center relative" onClick={e => e.stopPropagation()}>
+        {onClose && (
+          <button onClick={onClose} className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 text-xl leading-none">×</button>
+        )}
         <img src={getAvatarSrc(emoji)} className="w-16 h-16 rounded-full object-cover mx-auto mb-2" alt="" />
         <h2 className="text-2xl font-black text-gray-800">{name}</h2>
         <p className="text-gray-400 font-semibold text-sm mt-1 mb-6">Nhập PIN 4 chữ số</p>
