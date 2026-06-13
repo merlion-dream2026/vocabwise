@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import { getAvatarSrc } from '@/lib/avatars'
 import {
   PHONICS_TOTAL_LESSONS, DAILY_TOTAL_TOPICS, DAILY_WORD_COUNTS, ACADEMIC_BOOK_META,
   DAILY_LEVEL_ORDER, XP_BADGES,
@@ -288,8 +289,8 @@ export default function HomePage() {
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className={`w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-4xl shadow-md flex-shrink-0`}>
-                    {child.emoji}
+                  <div className={`w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
+                    <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover rounded-2xl" alt="" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5`}>
@@ -421,7 +422,7 @@ export default function HomePage() {
                             <div key={d.child.id} className={`rounded-2xl p-4 border-2 ${isWinner ? 'border-yellow-300 bg-yellow-50' : 'border-gray-100 bg-gray-50'}`}>
                               <div className="flex items-center gap-3 mb-2">
                                 <span className="text-2xl">{medals[i] ?? '🎖️'}</span>
-                                <span className="text-3xl">{d.child.emoji}</span>
+                                <img src={getAvatarSrc(d.child.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
                                 <div className="flex-1">
                                   <p className={`font-black text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
                                     {d.child.name} {isWinner && '👑'}

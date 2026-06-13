@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState, useCallback, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
+import { getAvatarSrc } from '@/lib/avatars'
 
 const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scholar','master'])
 const GAME_SLUGS  = new Set([
@@ -223,10 +224,10 @@ export default function BottomNav() {
                           : 'border-gray-100 bg-gray-50 hover:border-gray-200'
                       }`}
                     >
-                      <span className={`w-14 h-14 flex items-center justify-center rounded-full text-3xl ${
+                      <span className={`w-14 h-14 flex items-center justify-center rounded-full overflow-hidden ${
                         isActive ? 'bg-purple-100' : 'bg-white border border-gray-100'
                       }`}>
-                        {child.emoji}
+                        <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover" alt="" />
                       </span>
                       <span className="font-black text-gray-700 text-sm leading-tight">{child.name}</span>
                       {isActive && (
@@ -305,14 +306,16 @@ export default function BottomNav() {
               <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
             )}
             {/* Circular avatar — key visual differentiator */}
-            <span className={`w-9 h-9 rounded-full flex items-center justify-center text-xl border-2 transition-all duration-150 ${
+            <span className={`w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
               profileActive
                 ? 'border-purple-400 bg-purple-50'
                 : childInfo
                   ? 'border-gray-200 bg-gray-50'
                   : 'border-dashed border-gray-300 bg-white'
             }`}>
-              {childInfo?.emoji ?? '👤'}
+              {childInfo
+                ? <img src={getAvatarSrc(childInfo.emoji)} className="w-full h-full object-cover" alt="" />
+                : <span className="text-xl">👤</span>}
             </span>
             <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
               profileActive ? 'text-purple-600' : 'text-gray-400'

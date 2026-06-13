@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
+import { getAvatarSrc } from '@/lib/avatars'
 
 
 const KID_FAQ = [
@@ -154,7 +155,7 @@ export default function ChildRoadmap() {
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
-        <div className="text-4xl">{child!.emoji}</div>
+        <img src={getAvatarSrc(child!.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>

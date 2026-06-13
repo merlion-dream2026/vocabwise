@@ -1,0 +1,36 @@
+export const AVATARS = [
+  { id: 'panda',      src: '/avatars/panda.png' },
+  { id: 'koala',      src: '/avatars/koala.png' },
+  { id: 'frog',       src: '/avatars/frog.png' },
+  { id: 'penguin',    src: '/avatars/penguin.png' },
+  { id: 'polar-bear', src: '/avatars/polar-bear.png' },
+  { id: 'tiger',      src: '/avatars/tiger.png' },
+  { id: 'trex',       src: '/avatars/trex.png' },
+  { id: 'soccer',     src: '/avatars/soccer.png' },
+  { id: 'rocket',     src: '/avatars/rocket.png' },
+  { id: 'robot',      src: '/avatars/robot.png' },
+  { id: 'lion',       src: '/avatars/lion.png' },
+  { id: 'gamepad',    src: '/avatars/gamepad.png' },
+  { id: 'fox',        src: '/avatars/fox.png' },
+  { id: 'boy',        src: '/avatars/boy.png' },
+  { id: 'unicorn',    src: '/avatars/unicorn.png' },
+  { id: 'cat',        src: '/avatars/cat.png' },
+  { id: 'rabbit',     src: '/avatars/rabbit.png' },
+  { id: 'star',       src: '/avatars/star.png' },
+  { id: 'rainbow',    src: '/avatars/rainbow.png' },
+  { id: 'blossom',    src: '/avatars/blossom.png' },
+  { id: 'girl',       src: '/avatars/girl.png' },
+  { id: 'butterfly',  src: '/avatars/butterfly.png' },
+  { id: 'strawberry', src: '/avatars/strawberry.png' },
+  { id: 'ribbon',     src: '/avatars/ribbon.png' },
+  { id: 'sunflower',  src: '/avatars/sunflower.png' },
+  { id: 'cupcake',    src: '/avatars/cupcake.png' },
+  { id: 'crystal',    src: '/avatars/crystal.png' },
+  { id: 'pig',        src: '/avatars/pig.png' },
+  { id: 'kuromi-1',   src: '/avatars/kuromi-1.png' },
+  { id: 'kuromi-2',   src: '/avatars/kuromi-2.png' },
+]
+
+export function getAvatarSrc(id: string): string {
+  return AVATARS.find(a => a.id === id)?.src ?? '/avatars/panda.png'
+}

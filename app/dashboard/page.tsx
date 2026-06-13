@@ -12,6 +12,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import ReferralTab from './ReferralTab'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
+import { AVATARS, getAvatarSrc } from '@/lib/avatars'
 
 type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
@@ -83,7 +84,6 @@ function getPlanBadge(plan: string, planEndDate?: string | null) {
   return PLAN_BADGE[plan] ?? PLAN_BADGE.free
 }
 
-const EMOJIS = ['🧒','👧','👦','🧒🏻','👧🏻','👦🏻','🧒🏽','👧🏽','👦🏽','🌟','🦄','🐻','🐼','🦊','🐸']
 
 function fmtDateTime(d: Date | string): string {
   const dt = typeof d === 'string' ? new Date(d) : d
@@ -122,7 +122,7 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
   maxKids: number; childCount: number; onClose: () => void; onAdded: (c: Child) => void
 }) {
   const [name, setName] = useState('')
-  const [emoji, setEmoji] = useState('👧')
+  const [emoji, setEmoji] = useState('panda')
   const [theme, setTheme] = useState<'pink' | 'blue'>('pink')
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
@@ -176,13 +176,15 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
               </div>
             </div>
 
-            {/* Emoji */}
+            {/* Avatar */}
             <div>
-              <p className="text-xs font-bold text-gray-500 mb-2">Emoji</p>
-              <div className="flex flex-wrap gap-2">
-                {EMOJIS.map(e => (
-                  <button key={e} type="button" onClick={() => setEmoji(e)}
-                    className={`text-2xl p-1.5 rounded-xl transition-all ${emoji === e ? ringCls : 'hover:bg-gray-100'}`}>{e}</button>
+              <p className="text-xs font-bold text-gray-500 mb-2">Avatar</p>
+              <div className="grid grid-cols-7 gap-1.5">
+                {AVATARS.map(a => (
+                  <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
+                    className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
+                    <img src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} />
+                  </button>
                 ))}
               </div>
             </div>
@@ -258,11 +260,13 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
             </div>
           </div>
 
-          {/* Emoji */}
-          <div className="flex flex-wrap gap-2">
-            {EMOJIS.map(e => (
-              <button key={e} type="button" onClick={() => setEmoji(e)}
-                className={`text-2xl p-1.5 rounded-xl transition-all ${emoji === e ? ringCls : 'hover:bg-gray-100'}`}>{e}</button>
+          {/* Avatar */}
+          <div className="grid grid-cols-7 gap-1.5">
+            {AVATARS.map(a => (
+              <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
+                className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
+                <img src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} />
+              </button>
             ))}
           </div>
 
@@ -548,7 +552,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
               className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                 isActive ? `${c.bar} text-white shadow-md` : 'bg-white text-gray-500 border border-gray-200 hover:border-gray-300'
               }`}>
-              <span>{child.emoji}</span>
+              <img src={getAvatarSrc(child.emoji)} className="w-5 h-5 rounded-full object-cover flex-shrink-0" alt="" />
               <span>{child.name}</span>
             </button>
           )
@@ -612,8 +616,8 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
 
                 {/* Header: avatar + name + XP/streak + edit */}
                 <div className="flex items-start gap-3 px-4 pt-4 pb-3">
-                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${c.grad} flex items-center justify-center text-2xl flex-shrink-0 shadow-sm`}>
-                    {child.emoji}
+                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${c.grad} flex items-center justify-center flex-shrink-0 shadow-sm overflow-hidden`}>
+                    <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover rounded-2xl" alt="" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-black text-gray-800 text-base leading-tight truncate">{child.name}</p>
@@ -1263,7 +1267,7 @@ function SettingsTab({ children, session, onChildrenRefresh }: { children: Child
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                     isActive ? `${c.bar} text-white shadow-sm` : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}>
-                  <span>{child.emoji}</span>
+                  <img src={getAvatarSrc(child.emoji)} className="w-5 h-5 rounded-full object-cover flex-shrink-0" alt="" />
                   <span>{child.name}</span>
                 </button>
               )
@@ -1332,7 +1336,7 @@ function SettingsTab({ children, session, onChildrenRefresh }: { children: Child
             {children.map(child => (
               <div key={child.id} className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <span className="text-2xl">{child.emoji}</span>
+                  <img src={getAvatarSrc(child.emoji)} className="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="" />
                   <div>
                     <p className="font-black text-gray-800 text-sm">{child.name}</p>
                     <p className="text-xs text-gray-400">{LEVEL_INFO_MAP[child.level]?.label ?? child.level} · {LEVEL_INFO_MAP[child.level]?.cefr ?? ''}</p>
