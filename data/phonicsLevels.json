@@ -2799,6 +2799,68 @@
               ]
             }
           ]
+        },
+        {
+          "id": "noun-verb-stress",
+          "type": "rule",
+          "title": "Noun vs Verb Stress",
+          "subtitle": "Cùng chữ, khác trọng âm",
+          "emoji": "⚖️",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Danh từ ↑1",
+              "condition": "Danh từ 2 âm tiết → nhấn âm tiết THỨ NHẤT (chữ HOA = nhấn)",
+              "tip": "REcord · PERmit · OBject · PREsent · INcrease · EXport",
+              "words": [
+                "REcord", "PERmit", "OBject", "PREsent",
+                "INcrease", "EXport", "IMport", "CONtract",
+                "PROtest", "REbel", "SURvey", "CONtent"
+              ]
+            },
+            {
+              "label": "Động từ ↑2",
+              "condition": "Động từ 2 âm tiết → nhấn âm tiết THỨ HAI (chữ HOA = nhấn)",
+              "tip": "reCORD · perMIT · obJECT · preSENT · inCREASE · exPORT",
+              "words": [
+                "reCORD", "perMIT", "obJECT", "preSENT",
+                "inCREASE", "exPORT", "imPORT", "conTRACT",
+                "proTEST", "reBEL", "surVEY", "conTENT"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "compound-noun-stress",
+          "type": "rule",
+          "title": "Compound Noun Stress",
+          "subtitle": "Danh từ ghép nhấn từ ĐẦU",
+          "emoji": "🔗",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Danh từ ghép ↑1",
+              "condition": "Danh từ ghép (1 từ) → nhấn mạnh PHẦN ĐẦU: AIRport, BEDroom, FOOTball",
+              "tip": "AIRport · BEDroom · HOMEwork · FOOTball · CLASSroom · TOOTHbrush",
+              "words": [
+                "airport", "bedroom", "homework", "football",
+                "classroom", "toothbrush", "greenhouse", "doorbell",
+                "notebook", "sunrise", "waterfall", "headache"
+              ]
+            },
+            {
+              "label": "Cụm Adj+Noun ↑cuối",
+              "condition": "Tính từ + Danh từ (cụm mô tả) → nhấn đều cả hai, danh từ cuối nhấn mạnh hơn",
+              "tip": "cold WA·ter · big CI·ty · fresh AIR · long ROAD",
+              "words": [
+                "cold water", "big city", "fresh air", "long road",
+                "dark night", "heavy rain", "strong wind", "quiet room",
+                "beautiful garden", "modern house", "difficult question", "important meeting"
+              ]
+            }
+          ]
         }
       ]
     },

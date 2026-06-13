@@ -215,6 +215,30 @@ export default function LessonPage() {
           </div>
         )}
 
+        {/* RHYTHM LESSON: sentence preview */}
+        {lesson.type === 'rhythm' && (
+          <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
+            <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
+              <p className={`font-black ${level.text} text-sm`}>🎶 Câu luyện tập</p>
+              <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>Từ in đậm = nhấn mạnh khi đọc</p>
+            </div>
+            <div className="px-4 py-3 space-y-2.5">
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              {((lesson as any).sentences ?? []).slice(0, 4).map((s: { en: string; vi: string }, i: number) => (
+                <div key={i}>
+                  <p className="text-xs text-gray-700 font-semibold leading-relaxed">{i + 1}. {s.en}</p>
+                  <p className="text-[10px] text-gray-400 mt-0.5">{s.vi}</p>
+                </div>
+              ))}
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              {((lesson as any).sentences?.length ?? 0) > 4 && (
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                <p className="text-xs text-gray-400 font-medium">+ {(lesson as any).sentences.length - 4} câu nữa trong game...</p>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Game buttons */}
         <div className="space-y-2">
           <p className="text-xs text-gray-400 font-bold uppercase tracking-wide px-1">Luyện tập</p>
