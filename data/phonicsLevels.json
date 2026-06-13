@@ -2587,6 +2587,300 @@
               ]
             }
           ]
+        },
+        {
+          "id": "tion-sion-ture",
+          "type": "rule",
+          "title": "-tion / -sion / -ture",
+          "subtitle": "3 cách viết — 2 âm /ʃən/ và /ʒən/",
+          "emoji": "🔤",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "-tion → /ʃən/",
+              "condition": "Đuôi -tion (gần như luôn luôn) phát âm /ʃən/",
+              "tip": "nation · station · action · education · information",
+              "words": [
+                "nation", "station", "action", "section", "question",
+                "education", "information", "communication", "pronunciation",
+                "tradition", "suggestion", "connection", "protection",
+                "examination", "preparation"
+              ]
+            },
+            {
+              "label": "-sion → /ʒən/",
+              "condition": "Đuôi -sion sau nguyên âm phát âm /ʒən/",
+              "tip": "vision · decision · television · revision · confusion",
+              "words": [
+                "vision", "television", "decision", "occasion", "confusion",
+                "revision", "division", "explosion", "invasion", "conclusion",
+                "inclusion", "provision", "collision", "illusion", "erosion"
+              ]
+            },
+            {
+              "label": "-ture → /tʃə/",
+              "condition": "Đuôi -ture luôn phát âm /tʃə/ (âm 'ch')",
+              "tip": "picture · nature · culture · future · adventure",
+              "words": [
+                "picture", "nature", "culture", "future", "adventure",
+                "temperature", "feature", "creature", "structure", "fracture",
+                "lecture", "mixture", "capture", "gesture", "texture"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "joining-vv",
+          "type": "rule",
+          "title": "Joining — V→V Linking",
+          "subtitle": "Chèn /w/ hoặc /j/ giữa 2 nguyên âm",
+          "emoji": "🌊",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Chèn /w/",
+              "condition": "Nguyên âm tròn môi (oo/ow/ue) + nguyên âm → chèn /w/",
+              "tip": "do it → /duː·wɪt/ · go out → /gəʊ·waʊt/ · two of → /tuː·wəv/",
+              "words": [
+                "do it", "go away", "two of", "who asked", "show up",
+                "go on", "you are", "no idea", "how often", "blue ocean",
+                "new era", "too easy", "so angry", "true or false", "through it"
+              ]
+            },
+            {
+              "label": "Chèn /j/",
+              "condition": "Nguyên âm mặt (ee/ay/eye) + nguyên âm → chèn /j/",
+              "tip": "I am → /aɪ·jæm/ · they asked → /ðeɪ·jɑːskt/ · we are → /wiː·jɑː/",
+              "words": [
+                "I am", "they asked", "she is", "he asked", "we are",
+                "be honest", "we all", "free entry", "three of", "see each other",
+                "play outside", "the afternoon", "my address", "agree on", "the idea"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assimilation",
+          "type": "rule",
+          "title": "Assimilation",
+          "subtitle": "Phụ âm biến đổi do ảnh hưởng âm kế bên",
+          "emoji": "🔀",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "/n/ → /m/",
+              "condition": "/n/ đứng trước /p/ /b/ /m/ → đổi thành /m/",
+              "tip": "ten pins → /tem pɪnz/ · in bed → /ɪm bed/ · one more → /wʌm mɔː/",
+              "words": [
+                "ten pins", "in bed", "one piece", "brown bread",
+                "ten miles", "in Paris", "run past", "green paint",
+                "ten boys", "one moment", "in between", "on purpose"
+              ]
+            },
+            {
+              "label": "/n/ → /ŋ/",
+              "condition": "/n/ đứng trước /k/ /g/ → đổi thành /ŋ/",
+              "tip": "ten cups → /teŋ kʌps/ · in case → /ɪŋ keɪs/ · one goal → /wʌŋ gəʊl/",
+              "words": [
+                "ten cups", "in case", "one goal", "green card",
+                "in class", "ten guests", "on guard", "seven girls",
+                "open gate", "one key", "in Germany", "run quickly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "silent-kbw",
+          "type": "rule",
+          "title": "Silent Letters — K · B · W",
+          "subtitle": "Âm câm không phát âm",
+          "emoji": "🤫",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Silent K",
+              "condition": "K không phát âm khi đứng trước N (kn-)",
+              "tip": "knife /naɪf/ · know /nəʊ/ · knock /nɒk/ · knight /naɪt/",
+              "words": [
+                "knife", "know", "knock", "knight",
+                "kneel", "knit", "knowledge", "knob", "knack", "knuckle"
+              ]
+            },
+            {
+              "label": "Silent B",
+              "condition": "B không phát âm sau M hoặc trước T",
+              "tip": "lamb /læm/ · bomb /bɒm/ · debt /det/ · climb /klaɪm/",
+              "words": [
+                "lamb", "bomb", "debt", "climb",
+                "comb", "thumb", "numb", "dumb", "doubt", "subtle"
+              ]
+            },
+            {
+              "label": "Silent W",
+              "condition": "W không phát âm trước R và trong WHO-",
+              "tip": "write /raɪt/ · wrong /rɒŋ/ · who /huː/ · answer /ˈɑːnsə/",
+              "words": [
+                "write", "wrong", "wrist", "wrap",
+                "sword", "two", "answer", "who", "whole", "wren"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "silent-glt",
+          "type": "rule",
+          "title": "Silent Letters — GH · L · T",
+          "subtitle": "Âm câm trong từ thông dụng",
+          "emoji": "🔇",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Silent GH",
+              "condition": "GH không phát âm trong cấu trúc -ight, -ough, -aught",
+              "tip": "night /naɪt/ · thought /θɔːt/ · through /θruː/ · daughter /ˈdɔːtə/",
+              "words": [
+                "night", "light", "right", "fight",
+                "thought", "though", "through", "daughter", "caught", "dough", "sigh", "high"
+              ]
+            },
+            {
+              "label": "Silent L",
+              "condition": "L không phát âm trước F/M/K và trong -ould",
+              "tip": "calm /kɑːm/ · walk /wɔːk/ · half /hɑːf/ · could /kʊd/",
+              "words": [
+                "calm", "palm", "walk", "talk",
+                "half", "could", "would", "should", "salmon", "folk", "yolk", "balm"
+              ]
+            },
+            {
+              "label": "Silent T",
+              "condition": "T không phát âm sau S trong -sten, -stle, -stmas",
+              "tip": "listen /ˈlɪsn/ · castle /ˈkɑːsl/ · Christmas /ˈkrɪsməs/",
+              "words": [
+                "listen", "castle", "whistle", "fasten",
+                "glisten", "Christmas", "wrestle", "bustle", "thistle", "nestle", "rustle", "bristle"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Intonation",
+      "titleVi": "Ngữ điệu",
+      "subtitle": "Lên giọng ↗ · Xuống giọng ↘ · IELTS Speaking",
+      "emoji": "🎵",
+      "gradient": "from-amber-500 to-orange-600",
+      "bg": "bg-amber-50",
+      "border": "border-amber-200",
+      "text": "text-amber-700",
+      "btn": "bg-amber-500",
+      "bar": "from-amber-400 to-orange-400",
+      "lessons": [
+        {
+          "id": "fall-rise-basic",
+          "type": "rule",
+          "title": "Falling ↘ vs Rising ↗",
+          "subtitle": "Câu khẳng định · Câu hỏi Yes/No",
+          "emoji": "🎵",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Xuống giọng ↘",
+              "condition": "Câu khẳng định, câu hỏi Wh-, mệnh lệnh → xuống giọng cuối câu",
+              "tip": "She's a teacher.↘ · Where do you live?↘ · Come in.↘",
+              "words": [
+                "She's a teacher.", "He lives in Hanoi.", "I love coffee.",
+                "Where do you work?", "What time is it?", "Who is your teacher?",
+                "Come in.", "Close the door.", "Turn left.", "Sit down.",
+                "It's very cold today.", "I study English every day."
+              ]
+            },
+            {
+              "label": "Lên giọng ↗",
+              "condition": "Câu hỏi Yes/No → lên giọng cuối câu",
+              "tip": "Do you speak English?↗ · Are you ready?↗ · Is she a doctor?↗",
+              "words": [
+                "Do you speak English?", "Are you ready?", "Is she a teacher?",
+                "Can I help you?", "Would you like tea?", "Have you been there?",
+                "Is it far?", "Do you understand?", "Are they coming?",
+                "Was it expensive?", "Can she swim?", "Will you be there?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lists-intonation",
+          "type": "rule",
+          "title": "Lists — Liệt kê",
+          "subtitle": "Giữa danh sách ↗ · Mục cuối xuống ↘",
+          "emoji": "📋",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Giữa danh sách ↗",
+              "condition": "Mục không phải cuối → lên giọng (báo hiệu còn tiếp)",
+              "tip": "I have English,↗ Maths,↗ and Science.↘",
+              "words": [
+                "I have coffee,", "First of all,", "On one hand,",
+                "In terms of health,", "I like reading,", "Secondly,",
+                "She speaks English,", "In the morning,", "I enjoy cooking,",
+                "There are three reasons:", "I bought apples,", "To begin with,"
+              ]
+            },
+            {
+              "label": "Mục cuối / Kết câu ↘",
+              "condition": "Mục cuối cùng hoặc câu kết luận → xuống giọng",
+              "tip": "...coffee, tea, and juice.↘ · That's all.↘",
+              "words": [
+                "and orange juice.", "That's my point.", "In conclusion,",
+                "and Mathematics.", "That's all I have to say.", "Finally,",
+                "I strongly believe this.", "and physical exercise.", "To sum up,",
+                "and that is why I agree.", "and singing.", "In summary,"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ielts-discourse",
+          "type": "rule",
+          "title": "IELTS Speaking — Discourse",
+          "subtitle": "Ngữ điệu khi dùng từ nối",
+          "emoji": "🎤",
+          "games": ["sort-rule"],
+          "masteryGames": ["sort-rule"],
+          "buckets": [
+            {
+              "label": "Tương phản / Kết luận ↘",
+              "condition": "Từ nối đối lập / kết luận → xuống giọng (nhấn mạnh bước ngoặt)",
+              "tip": "However,↘ · In contrast,↘ · In conclusion,↘ · Nevertheless,↘",
+              "words": [
+                "However,", "In contrast,", "On the other hand,",
+                "Nevertheless,", "Despite this,", "In conclusion,",
+                "To sum up,", "That said,", "All things considered,",
+                "Even so,", "In spite of this,", "Having said that,"
+              ]
+            },
+            {
+              "label": "Bổ sung / Tiếp nối ↗",
+              "condition": "Từ nối bổ sung → lên giọng (báo hiệu còn nhiều ý)",
+              "tip": "Furthermore,↗ · In addition,↗ · Moreover,↗ · For example,↗",
+              "words": [
+                "Furthermore,", "In addition,", "Moreover,",
+                "What's more,", "Not only that,", "Besides this,",
+                "For instance,", "For example,", "As a result,",
+                "Consequently,", "Therefore,", "In terms of"
+              ]
+            }
+          ]
         }
       ]
     }

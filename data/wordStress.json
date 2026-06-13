@@ -59,6 +59,101 @@
         { "word": "umbrella",     "syllables": ["um",   "brel","la"],   "stress": 1, "emoji": "☂️", "vi": "cái ô" },
         { "word": "computer",     "syllables": ["com",  "pu",  "ter"],  "stress": 1, "emoji": "💻", "vi": "máy tính" }
       ]
+    },
+    {
+      "id": "noun-verb",
+      "title": "Danh từ / Động từ — Cùng viết, khác nhấn",
+      "subtitle": "Nhấn ĐẦU = danh từ · nhấn SAU = động từ",
+      "emoji": "🔄",
+      "words": [
+        { "word": "record",   "syllables": ["rec",  "ord"],    "stress": 0, "emoji": "💿", "vi": "hồ sơ / băng đĩa (danh từ)" },
+        { "word": "record",   "syllables": ["re",   "cord"],   "stress": 1, "emoji": "🎙️", "vi": "ghi lại / ghi âm (động từ)" },
+        { "word": "present",  "syllables": ["pre",  "sent"],   "stress": 0, "emoji": "🎁", "vi": "món quà / hiện tại (danh từ)" },
+        { "word": "present",  "syllables": ["pre",  "sent"],   "stress": 1, "emoji": "🎤", "vi": "trình bày / tặng (động từ)" },
+        { "word": "object",   "syllables": ["ob",   "ject"],   "stress": 0, "emoji": "📦", "vi": "vật thể / đối tượng (danh từ)" },
+        { "word": "object",   "syllables": ["ob",   "ject"],   "stress": 1, "emoji": "✋", "vi": "phản đối (động từ)" },
+        { "word": "permit",   "syllables": ["per",  "mit"],    "stress": 0, "emoji": "📋", "vi": "giấy phép (danh từ)" },
+        { "word": "permit",   "syllables": ["per",  "mit"],    "stress": 1, "emoji": "✅", "vi": "cho phép (động từ)" },
+        { "word": "protest",  "syllables": ["pro",  "test"],   "stress": 0, "emoji": "✊", "vi": "cuộc biểu tình (danh từ)" },
+        { "word": "protest",  "syllables": ["pro",  "test"],   "stress": 1, "emoji": "📢", "vi": "biểu tình / phản đối (động từ)" },
+        { "word": "increase", "syllables": ["in",   "crease"], "stress": 0, "emoji": "📈", "vi": "sự tăng (danh từ)" },
+        { "word": "increase", "syllables": ["in",   "crease"], "stress": 1, "emoji": "⬆️", "vi": "tăng lên (động từ)" },
+        { "word": "progress", "syllables": ["pro",  "gress"],  "stress": 0, "emoji": "🏆", "vi": "sự tiến bộ (danh từ)" },
+        { "word": "progress", "syllables": ["pro",  "gress"],  "stress": 1, "emoji": "🚶", "vi": "tiến triển (động từ)" },
+        { "word": "conduct",  "syllables": ["con",  "duct"],   "stress": 0, "emoji": "📊", "vi": "hành vi / cách ứng xử (danh từ)" },
+        { "word": "conduct",  "syllables": ["con",  "duct"],   "stress": 1, "emoji": "🎼", "vi": "thực hiện / chỉ huy (động từ)" },
+        { "word": "export",   "syllables": ["ex",   "port"],   "stress": 0, "emoji": "📤", "vi": "hàng xuất khẩu (danh từ)" },
+        { "word": "export",   "syllables": ["ex",   "port"],   "stress": 1, "emoji": "✈️", "vi": "xuất khẩu (động từ)" },
+        { "word": "import",   "syllables": ["im",   "port"],   "stress": 0, "emoji": "📥", "vi": "hàng nhập khẩu (danh từ)" },
+        { "word": "import",   "syllables": ["im",   "port"],   "stress": 1, "emoji": "🚢", "vi": "nhập khẩu (động từ)" },
+        { "word": "conflict", "syllables": ["con",  "flict"],  "stress": 0, "emoji": "⚔️", "vi": "xung đột (danh từ)" },
+        { "word": "conflict", "syllables": ["con",  "flict"],  "stress": 1, "emoji": "💥", "vi": "xung đột (động từ)" },
+        { "word": "refund",   "syllables": ["re",   "fund"],   "stress": 0, "emoji": "💰", "vi": "tiền hoàn trả (danh từ)" },
+        { "word": "refund",   "syllables": ["re",   "fund"],   "stress": 1, "emoji": "↩️", "vi": "hoàn tiền (động từ)" }
+      ]
+    },
+    {
+      "id": "suffix-stress",
+      "title": "Hậu tố thay đổi trọng âm",
+      "subtitle": "-tion · -ity · -ic/-ical: nhấn âm tiết TRƯỚC hậu tố",
+      "emoji": "📐",
+      "words": [
+        { "word": "nation",      "syllables": ["na",  "tion"],               "stress": 0, "emoji": "🌍", "vi": "quốc gia /ˈneɪʃn/" },
+        { "word": "national",    "syllables": ["na",  "tion", "al"],         "stress": 0, "emoji": "🚩", "vi": "quốc gia (adj) /ˈnæʃnl/" },
+        { "word": "economy",     "syllables": ["e",   "con",  "o",   "my"],  "stress": 1, "emoji": "💰", "vi": "kinh tế /ɪˈkɒnəmi/" },
+        { "word": "economic",    "syllables": ["e",   "co",   "nom", "ic"],  "stress": 2, "emoji": "📈", "vi": "kinh tế (adj) /ˌiːkəˈnɒmɪk/" },
+        { "word": "politics",    "syllables": ["pol", "i",    "tics"],        "stress": 0, "emoji": "🏛️", "vi": "chính trị /ˈpɒlɪtɪks/" },
+        { "word": "political",   "syllables": ["po",  "lit",  "i",   "cal"], "stress": 1, "emoji": "🗳️", "vi": "chính trị (adj) /pəˈlɪtɪkl/" },
+        { "word": "photograph",  "syllables": ["pho", "to",   "graph"],       "stress": 0, "emoji": "📷", "vi": "bức ảnh /ˈfəʊtəgrɑːf/" },
+        { "word": "photography", "syllables": ["pho", "tog",  "ra",  "phy"], "stress": 1, "emoji": "📸", "vi": "nhiếp ảnh /fəˈtɒgrəfi/" },
+        { "word": "history",     "syllables": ["his", "to",   "ry"],          "stress": 0, "emoji": "📚", "vi": "lịch sử /ˈhɪstri/" },
+        { "word": "historical",  "syllables": ["his", "tor",  "i",   "cal"], "stress": 1, "emoji": "🏺", "vi": "thuộc lịch sử /hɪˈstɒrɪkl/" },
+        { "word": "ability",     "syllables": ["a",   "bil",  "i",   "ty"],  "stress": 1, "emoji": "💪", "vi": "khả năng /əˈbɪlɪti/" },
+        { "word": "activity",    "syllables": ["ac",  "tiv",  "i",   "ty"],  "stress": 1, "emoji": "🏃", "vi": "hoạt động /ækˈtɪvɪti/" },
+        { "word": "creativity",  "syllables": ["cre", "a",    "tiv", "i", "ty"], "stress": 2, "emoji": "🎨", "vi": "tính sáng tạo /ˌkriːeɪˈtɪvɪti/" },
+        { "word": "scientific",  "syllables": ["sci", "en",   "tif", "ic"],  "stress": 2, "emoji": "🔬", "vi": "khoa học (adj) /ˌsaɪənˈtɪfɪk/" },
+        { "word": "electric",    "syllables": ["e",   "lec",  "tric"],        "stress": 1, "emoji": "⚡", "vi": "điện /ɪˈlektrɪk/" }
+      ]
+    },
+    {
+      "id": "multisyl-ielts",
+      "title": "Từ học thuật — 4–5 âm tiết",
+      "subtitle": "IELTS Academic Word List — luyện vị trí nhấn",
+      "emoji": "🎓",
+      "words": [
+        { "word": "technology",    "syllables": ["tech", "nol", "o",   "gy"],          "stress": 1, "emoji": "💻", "vi": "công nghệ" },
+        { "word": "community",     "syllables": ["com",  "mu",  "ni",  "ty"],          "stress": 1, "emoji": "👥", "vi": "cộng đồng" },
+        { "word": "development",   "syllables": ["de",   "vel", "op",  "ment"],        "stress": 1, "emoji": "📈", "vi": "sự phát triển" },
+        { "word": "relationship",  "syllables": ["re",   "la",  "tion","ship"],        "stress": 1, "emoji": "🤝", "vi": "mối quan hệ" },
+        { "word": "environment",   "syllables": ["en",   "vi",  "ron", "ment"],        "stress": 1, "emoji": "🌿", "vi": "môi trường" },
+        { "word": "education",     "syllables": ["ed",   "u",   "ca",  "tion"],        "stress": 2, "emoji": "🎓", "vi": "giáo dục" },
+        { "word": "communication", "syllables": ["com",  "mu",  "ni",  "ca",  "tion"],"stress": 3, "emoji": "💬", "vi": "giao tiếp" },
+        { "word": "investigation", "syllables": ["in",   "ves", "ti",  "ga",  "tion"],"stress": 3, "emoji": "🔍", "vi": "cuộc điều tra" },
+        { "word": "approximately", "syllables": ["ap",   "prox","i",   "mate","ly"],   "stress": 1, "emoji": "〜", "vi": "xấp xỉ, khoảng" },
+        { "word": "particularly",  "syllables": ["par",  "tic", "u",   "lar", "ly"],  "stress": 1, "emoji": "⭐", "vi": "đặc biệt là" },
+        { "word": "opportunity",   "syllables": ["op",   "por", "tu",  "ni",  "ty"],  "stress": 2, "emoji": "🚪", "vi": "cơ hội" },
+        { "word": "significantly", "syllables": ["sig",  "nif", "i",   "cant","ly"],  "stress": 1, "emoji": "📊", "vi": "đáng kể, đáng chú ý" }
+      ]
+    },
+    {
+      "id": "compound-nouns",
+      "title": "Danh từ ghép — Nhấn từ ĐẦU",
+      "subtitle": "Compound nouns: BLACKbird · GREENhouse · FOOTball",
+      "emoji": "🧩",
+      "words": [
+        { "word": "blackbird",    "syllables": ["black", "bird"],        "stress": 0, "emoji": "🐦", "vi": "chim hét (danh từ ghép)" },
+        { "word": "greenhouse",   "syllables": ["green", "house"],       "stress": 0, "emoji": "🏡", "vi": "nhà kính (danh từ ghép)" },
+        { "word": "hotdog",       "syllables": ["hot",   "dog"],         "stress": 0, "emoji": "🌭", "vi": "xúc xích (danh từ ghép)" },
+        { "word": "football",     "syllables": ["foot",  "ball"],        "stress": 0, "emoji": "⚽", "vi": "bóng đá (danh từ ghép)" },
+        { "word": "whiteboard",   "syllables": ["white", "board"],       "stress": 0, "emoji": "📋", "vi": "bảng trắng (danh từ ghép)" },
+        { "word": "bookcase",     "syllables": ["book",  "case"],        "stress": 0, "emoji": "📚", "vi": "tủ sách (danh từ ghép)" },
+        { "word": "airport",      "syllables": ["air",   "port"],        "stress": 0, "emoji": "✈️", "vi": "sân bay (danh từ ghép)" },
+        { "word": "notebook",     "syllables": ["note",  "book"],        "stress": 0, "emoji": "📓", "vi": "vở ghi chú (danh từ ghép)" },
+        { "word": "classroom",    "syllables": ["class", "room"],        "stress": 0, "emoji": "🏫", "vi": "phòng học (danh từ ghép)" },
+        { "word": "sunflower",    "syllables": ["sun",   "flow", "er"],  "stress": 0, "emoji": "🌻", "vi": "hoa hướng dương (danh từ ghép)" },
+        { "word": "thunderstorm", "syllables": ["thun",  "der",  "storm"],"stress": 0,"emoji": "⛈️", "vi": "cơn bão sấm (danh từ ghép)" },
+        { "word": "strawberry",   "syllables": ["straw", "ber",  "ry"],  "stress": 0, "emoji": "🍓", "vi": "dâu tây (danh từ ghép)" }
+      ]
     }
   ]
 }
