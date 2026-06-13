@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 7,
+    "topic_id": "b1-t07",
+    "topic_title": "Sports & Activities",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "⚽",
+    "topic_title_vi": "Thể Thao & Hoạt Động",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 98,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I love **sport**. I **play** football with my friends after school. Our **team** has ten **players** and a kind coach.",
+        "text_vi": "Tôi yêu thích **thể thao**. Tôi **chơi** bóng đá với bạn bè sau giờ học. **Đội** chúng tôi có mười **cầu thủ** và một huấn luyện viên tốt bụng."
+      },
+      {
+        "index": 2,
+        "text_en": "We **practice** every day in the school yard. Last week, we had a **match** against another class. We **scored** two goals and won the **game**.",
+        "text_vi": "Chúng tôi **luyện tập** mỗi ngày ở sân trường. Tuần trước, chúng tôi có một **trận đấu** với một lớp khác. Chúng tôi **ghi** hai bàn thắng và giành **chiến thắng**."
+      },
+      {
+        "index": 3,
+        "text_en": "**Winning** felt amazing, but we have also **lost** matches before. My coach says **winning** and **losing** are both part of **sport**.",
+        "text_vi": "**Thắng** thật tuyệt vời, nhưng chúng tôi cũng đã **thua** trận trước đây. Huấn luyện viên nói **thắng** và **thua** đều là một phần của **thể thao**."
+      },
+      {
+        "index": 4,
+        "text_en": "I also **run** and **swim** on weekends. I **join** every activity to stay **active**. Kicking a **ball** with friends is one of my favourite things to do.",
+        "text_vi": "Tôi cũng **chạy bộ** và **bơi lội** vào cuối tuần. Tôi **tham gia** mọi hoạt động để giữ tinh thần **năng động**. Đá **bóng** với bạn bè là một trong những điều tôi thích nhất."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "sport",
+      "ipa": "/spɔːrt/",
+      "pos": "noun",
+      "meaning_vi": "thể thao",
+      "meaning_vi_inline": "thể thao",
+      "example_en": "My favourite sport is swimming — I train every morning.",
+      "example_vi": "Môn thể thao yêu thích của tôi là bơi lội — tôi luyện tập mỗi sáng.",
+      "word_family": {
+        "noun": "sport / sportsmanship",
+        "verb": null,
+        "adjective": "sporty / sporting",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "play",
+      "ipa": "/pleɪ/",
+      "pos": "verb",
+      "meaning_vi": "chơi, thi đấu",
+      "meaning_vi_inline": "chơi",
+      "example_en": "She plays badminton with her sister every weekend.",
+      "example_vi": "Cô ấy chơi cầu lông với chị mỗi cuối tuần.",
+      "word_family": {
+        "noun": "play / player / playground",
+        "verb": "play / played",
+        "adjective": "playful",
+        "adverb": "playfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "team",
+      "ipa": "/tiːm/",
+      "pos": "noun",
+      "meaning_vi": "đội, nhóm",
+      "meaning_vi_inline": "đội",
+      "example_en": "Our school team has twelve players and a great coach.",
+      "example_vi": "Đội trường tôi có mười hai cầu thủ và một huấn luyện viên tuyệt vời.",
+      "word_family": {
+        "noun": "team / teamwork / teammate",
+        "verb": "team up",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "win",
+      "ipa": "/wɪn/",
+      "pos": "verb",
+      "meaning_vi": "thắng, chiến thắng",
+      "meaning_vi_inline": "thắng",
+      "example_en": "Our team won the match by three goals to one.",
+      "example_vi": "Đội chúng tôi thắng trận đấu với tỷ số 3-1.",
+      "word_family": {
+        "noun": "win / winner / victory",
+        "verb": "win / won / won",
+        "adjective": "winning",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "lose",
+      "ipa": "/luːz/",
+      "pos": "verb",
+      "meaning_vi": "thua, thất bại",
+      "meaning_vi_inline": "thua",
+      "example_en": "We lost the match, but we learned a lot and trained harder.",
+      "example_vi": "Chúng tôi đã thua trận, nhưng đã học được nhiều và luyện tập chăm chỉ hơn.",
+      "word_family": {
+        "noun": "loss / loser",
+        "verb": "lose / lost / lost",
+        "adjective": "losing",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "loose",
+        "explanation_vi": "'Lose' (thua/mất, động từ) và 'loose' (lỏng lẻo, tính từ) — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+      }
+    },
+    {
+      "id": 6,
+      "word": "practice",
+      "ipa": "/ˈpræktɪs/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự luyện tập; luyện tập",
+      "meaning_vi_inline": "luyện tập",
+      "example_en": "Daily practice is the key to becoming a great player.",
+      "example_vi": "Luyện tập hàng ngày là chìa khóa để trở thành một cầu thủ giỏi.",
+      "word_family": {
+        "noun": "practice",
+        "verb": "practise (UK) / practice (US)",
+        "adjective": "practical",
+        "adverb": "practically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "game",
+      "ipa": "/ɡeɪm/",
+      "pos": "noun",
+      "meaning_vi": "trò chơi, trận đấu",
+      "meaning_vi_inline": "trận đấu / trò chơi",
+      "example_en": "We played a great game — both teams gave their best.",
+      "example_vi": "Chúng tôi đã có một trận đấu hay — cả hai đội đều nỗ lực hết mình.",
+      "word_family": {
+        "noun": "game / games",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "run",
+      "ipa": "/rʌn/",
+      "pos": "verb",
+      "meaning_vi": "chạy",
+      "meaning_vi_inline": "chạy",
+      "example_en": "She runs five kilometres every morning to keep fit.",
+      "example_vi": "Cô ấy chạy năm kilômét mỗi sáng để giữ dáng.",
+      "word_family": {
+        "noun": "run / runner / running",
+        "verb": "run / ran / run",
+        "adjective": "running (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "swim",
+      "ipa": "/swɪm/",
+      "pos": "verb",
+      "meaning_vi": "bơi, bơi lội",
+      "meaning_vi_inline": "bơi",
+      "example_en": "I swim at the school pool every Saturday morning.",
+      "example_vi": "Tôi bơi ở hồ bơi trường mỗi sáng thứ Bảy.",
+      "word_family": {
+        "noun": "swim / swimmer / swimming",
+        "verb": "swim / swam / swum",
+        "adjective": "swimming (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "ball",
+      "ipa": "/bɔːl/",
+      "pos": "noun",
+      "meaning_vi": "quả bóng",
+      "meaning_vi_inline": "quả bóng",
+      "example_en": "He kicked the ball hard and scored a goal.",
+      "example_vi": "Anh ấy đá bóng thật mạnh và ghi được một bàn thắng.",
+      "word_family": {
+        "noun": "ball / football / basketball",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "match",
+      "ipa": "/mætʃ/",
+      "pos": "noun",
+      "meaning_vi": "trận đấu",
+      "meaning_vi_inline": "trận đấu",
+      "example_en": "We have a football match against another school next Friday.",
+      "example_vi": "Chúng tôi có một trận đấu bóng đá với trường khác vào thứ Sáu tuần tới.",
+      "word_family": {
+        "noun": "match",
+        "verb": "match",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "player",
+      "ipa": "/ˈpleɪər/",
+      "pos": "noun",
+      "meaning_vi": "vận động viên, cầu thủ",
+      "meaning_vi_inline": "cầu thủ",
+      "example_en": "She is the best player on the team — she scores every game.",
+      "example_vi": "Cô ấy là cầu thủ giỏi nhất trong đội — cô ấy ghi bàn ở mọi trận đấu.",
+      "word_family": {
+        "noun": "player / play / gameplay",
+        "verb": "play",
+        "adjective": "playful",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "join",
+      "ipa": "/dʒɔɪn/",
+      "pos": "verb",
+      "meaning_vi": "tham gia",
+      "meaning_vi_inline": "tham gia",
+      "example_en": "She joined the swimming club at the start of the school year.",
+      "example_vi": "Cô ấy tham gia câu lạc bộ bơi lội vào đầu năm học.",
+      "word_family": {
+        "noun": "joining",
+        "verb": "join / joined",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "score",
+      "ipa": "/skɔːr/",
+      "pos": "verb / noun",
+      "meaning_vi": "ghi bàn, ghi điểm; điểm số",
+      "meaning_vi_inline": "ghi bàn / điểm số",
+      "example_en": "She scored three goals in the last match — the crowd cheered loudly.",
+      "example_vi": "Cô ấy ghi ba bàn thắng trong trận cuối — khán giả reo hò vang dội.",
+      "word_family": {
+        "noun": "score / scorer / scoreboard",
+        "verb": "score / scored",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "active",
+      "ipa": "/ˈæktɪv/",
+      "pos": "adjective",
+      "meaning_vi": "năng động, tích cực",
+      "meaning_vi_inline": "năng động",
+      "example_en": "She is a very active student — she plays sport every day.",
+      "example_vi": "Cô ấy là một học sinh rất năng động — cô ấy chơi thể thao mỗi ngày.",
+      "word_family": {
+        "noun": "activity / action",
+        "verb": "act / activate",
+        "adjective": "active / inactive",
+        "adverb": "actively"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "score"
+        },
+        {
+          "id": 2,
+          "word": "practice"
+        },
+        {
+          "id": 3,
+          "word": "player"
+        },
+        {
+          "id": 4,
+          "word": "match"
+        },
+        {
+          "id": 5,
+          "word": "active"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a person who takes part in a sport or game"
+        },
+        {
+          "id": "B",
+          "text": "the number of points won in a game or match"
+        },
+        {
+          "id": "C",
+          "text": "to do something regularly to improve your skill"
+        },
+        {
+          "id": "D",
+          "text": "doing a lot of physical activity; energetic"
+        },
+        {
+          "id": "E",
+          "text": "a competition between two teams or players"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Our _____ has ten players and a very good coach.",
+          "options": [
+            "sport",
+            "team",
+            "game",
+            "match"
+          ],
+          "answer": "team"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ every day to improve her swimming skills.",
+          "options": [
+            "plays",
+            "joins",
+            "practices",
+            "scores"
+          ],
+          "answer": "practices"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ the match and felt very sad, but we trained harder the next week.",
+          "options": [
+            "won",
+            "joined",
+            "scored",
+            "lost"
+          ],
+          "answer": "lost"
+        },
+        {
+          "id": 4,
+          "sentence": "He is an excellent _____ — he runs fast and scores many goals.",
+          "options": [
+            "team",
+            "match",
+            "player",
+            "game"
+          ],
+          "answer": "player"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ the school swimming club to practise with friends every afternoon.",
+          "options": [
+            "win",
+            "lose",
+            "score",
+            "join"
+          ],
+          "answer": "join"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "practice",
+        "team",
+        "win",
+        "game",
+        "score",
+        "ball"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I do _____ every day after school to improve my football skills.",
+          "answer": "practice"
+        },
+        {
+          "id": 2,
+          "sentence": "Our _____ has ten players and trains together every afternoon.",
+          "answer": "team"
+        },
+        {
+          "id": 3,
+          "sentence": "She wants to _____ the school championship — she trains very hard.",
+          "answer": "win"
+        },
+        {
+          "id": 4,
+          "sentence": "The final _____ was 3–1 — our school team won by two goals.",
+          "answer": "score"
+        },
+        {
+          "id": 5,
+          "sentence": "We played a fantastic _____ — everyone tried their best until the end.",
+          "answer": "game"
+        }
+      ],
+      "note": "One word in the box is not used: ball"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is an excellent _____ — she wins almost every match she plays. (PLAY)",
+          "base_word": "PLAY",
+          "answer": "player",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ the ball into the goal in the very last minute of the match. (SCORE)",
+          "base_word": "SCORE",
+          "answer": "scored",
+          "form_used": "verb (past simple)"
+        },
+        {
+          "id": 3,
+          "sentence": "Our school _____ both matches last month — the coach was very proud. (WIN)",
+          "base_word": "WIN",
+          "answer": "won",
+          "form_used": "verb (past simple)"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ participates in every school sports event — she never misses one. (ACTIVE)",
+          "base_word": "ACTIVE",
+          "answer": "actively",
+          "form_used": "adverb"
+        },
+        {
+          "id": 5,
+          "sentence": "After their _____ last month, the team trained even harder every day. (LOSE)",
+          "base_word": "LOSE",
+          "answer": "loss",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Our team [win] the match — everyone cheered with joy.",
+          "highlighted": "win",
+          "options": {
+            "A": "win",
+            "B": "won",
+            "C": "winning"
+          },
+          "answer": "B",
+          "explanation": "The sentence describes a past event, so use the past simple form: 'won', not 'win'."
+        },
+        {
+          "id": 2,
+          "sentence": "She is very [activity] — she runs and swims every single day.",
+          "highlighted": "activity",
+          "options": {
+            "A": "active",
+            "B": "activity",
+            "C": "actively"
+          },
+          "answer": "C",
+          "explanation": "'Active' (adjective) is needed after the verb 'is'. 'Activity' is a noun, not an adjective."
+        },
+        {
+          "id": 3,
+          "sentence": "He [loosed] the match because he did not practise enough last week.",
+          "highlighted": "loosed",
+          "options": {
+            "A": "loosed",
+            "B": "lost",
+            "C": "losing"
+          },
+          "answer": "B",
+          "explanation": "'Lost' is the past simple of 'lose' (thua). 'Loosed' does not exist — 'loose' (lỏng lẻo) is a different word."
+        },
+        {
+          "id": 4,
+          "sentence": "The [scores] of the match was 2–0 — our school team won.",
+          "highlighted": "scores",
+          "options": {
+            "A": "scores",
+            "B": "score",
+            "C": "scoring"
+          },
+          "answer": "B",
+          "explanation": "'The score' (singular) is used when referring to the final result of a match. 'The scores' implies multiple separate results."
+        },
+        {
+          "id": 5,
+          "sentence": "She [run] five kilometres every morning before school starts.",
+          "highlighted": "run",
+          "options": {
+            "A": "runs",
+            "B": "run",
+            "C": "running"
+          },
+          "answer": "C",
+          "explanation": "Third-person singular 'she' requires the verb to end in 's' in simple present tense: 'runs'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "E",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "team",
+      "2": "practices",
+      "3": "lost",
+      "4": "player",
+      "5": "join"
+    },
+    "ex3": {
+      "1": "practice",
+      "2": "team",
+      "3": "win",
+      "4": "score",
+      "5": "game"
+    },
+    "ex4": {
+      "1": "player",
+      "2": "scored",
+      "3": "won",
+      "4": "actively",
+      "5": "loss"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

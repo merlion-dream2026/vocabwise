@@ -536,8 +536,8 @@
           "sentence": "She faced [discriminate] at work because of her religious beliefs.",
           "highlighted": "discriminate",
           "options": {
-            "A": "discriminate",
-            "B": "discrimination",
+            "A": "discrimination",
+            "B": "discriminate",
             "C": "discriminatory"
           },
           "answer": "B",
@@ -572,8 +572,8 @@
           "sentence": "The [campaign] helped raise [aware] of gender equality issues worldwide.",
           "highlighted": "aware",
           "options": {
-            "A": "aware",
-            "B": "awareness",
+            "A": "awareness",
+            "B": "aware",
             "C": "awared"
           },
           "answer": "B",
@@ -624,10 +624,10 @@
       "5": "Thousands protested to demand equal rights."
     },
     "ex5": {
-      "1": "B",
+      "1": "A",
       "2": "B",
       "3": "B",
-      "4": "B",
+      "4": "A",
       "5": "B"
     }
   }

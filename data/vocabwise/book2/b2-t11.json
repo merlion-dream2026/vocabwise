@@ -560,8 +560,8 @@
           "sentence": "Scientists warn that a rise of two [degree] could cause serious problems.",
           "highlighted": "degree",
           "options": {
-            "A": "degree",
-            "B": "degrees",
+            "A": "degrees",
+            "B": "degree",
             "C": "degreed"
           },
           "answer": "B",
@@ -584,8 +584,8 @@
           "sentence": "Countries need to sign new [agreement] to reduce their [emission] levels.",
           "highlighted": "agreement",
           "options": {
-            "A": "agreement",
-            "B": "agreements",
+            "A": "agreements",
+            "B": "agreement",
             "C": "agreeing"
           },
           "answer": "B",
@@ -626,9 +626,9 @@
     "ex5": {
       "1": "B",
       "2": "B",
-      "3": "B",
+      "3": "A",
       "4": "B",
-      "5": "B"
+      "5": "A"
     }
   }
 }

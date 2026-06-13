@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 18,
+    "topic_id": "b1-t18",
+    "topic_title": "Jobs & Work",
+    "theme_number": 2,
+    "theme_title": "World Around Us",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "💼",
+    "topic_title_vi": "Nghề Nghiệp & Công Việc",
+    "theme_title_vi": "Thế Giới Xung Quanh"
+  },
+  "passage": {
+    "word_count": 113,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My mother is a **nurse**. She works at a hospital every day. Her **job** is very important — she takes care of sick people. She always wears a white **apron** over her uniform.",
+        "text_vi": "Mẹ tôi là một **y tá**. Bà làm việc ở bệnh viện mỗi ngày. **Công việc** của bà rất quan trọng — bà chăm sóc người bệnh. Bà luôn mặc một chiếc **tạp dề** trắng lên đồng phục."
+      },
+      {
+        "index": 2,
+        "text_en": "My father is an **engineer**. He goes to the **office** every morning and comes home tired after his long **shift**. He often has a **meeting** with his team.",
+        "text_vi": "Bố tôi là một **kỹ sư**. Ông đến **văn phòng** mỗi sáng và về nhà mệt mỏi sau ca **làm việc** dài của ông. Ông thường có **cuộc họp** với nhóm của mình."
+      },
+      {
+        "index": 3,
+        "text_en": "My uncle is a **farmer** who grows rice and vegetables. My aunt is a **driver** who takes children to school each morning. Every job has a different **task** and a different **salary**.",
+        "text_vi": "Chú tôi là một **nông dân** trồng lúa và rau. Dì tôi là một **tài xế** đưa trẻ em đến trường mỗi sáng. Mỗi công việc có một **nhiệm vụ** khác nhau và một mức **lương** khác nhau."
+      },
+      {
+        "index": 4,
+        "text_en": "I have a **dream** job too — I want to be a teacher one day. I **work** hard at school so I can achieve my goal. Every job is important, and every worker deserves respect.",
+        "text_vi": "Tôi cũng có một công việc **mơ ước** — tôi muốn trở thành giáo viên một ngày nào đó. Tôi **làm việc** chăm chỉ ở trường để có thể đạt được mục tiêu của mình. Mỗi công việc đều quan trọng, và mỗi người lao động đều xứng đáng được tôn trọng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "job",
+      "ipa": "/dʒɒb/",
+      "pos": "noun",
+      "meaning_vi": "công việc, nghề nghiệp",
+      "meaning_vi_inline": "công việc",
+      "example_en": "Her job is to help patients recover and feel comfortable in the hospital.",
+      "example_vi": "Công việc của cô ấy là giúp bệnh nhân hồi phục và cảm thấy thoải mái trong bệnh viện.",
+      "word_family": {
+        "noun": "job / jobseeker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "work",
+      "ipa": "/wɜːrk/",
+      "pos": "verb / noun",
+      "meaning_vi": "làm việc; công việc",
+      "meaning_vi_inline": "làm việc",
+      "example_en": "She works long hours every day, but she loves her job very much.",
+      "example_vi": "Cô ấy làm việc nhiều giờ mỗi ngày, nhưng cô ấy rất yêu công việc của mình.",
+      "word_family": {
+        "noun": "work / worker / workplace",
+        "verb": "work / worked",
+        "adjective": "working",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "office",
+      "ipa": "/ˈɒfɪs/",
+      "pos": "noun",
+      "meaning_vi": "văn phòng",
+      "meaning_vi_inline": "văn phòng",
+      "example_en": "He drives to the office every morning and usually arrives by eight o'clock.",
+      "example_vi": "Anh ấy lái xe đến văn phòng mỗi sáng và thường đến nơi lúc tám giờ.",
+      "word_family": {
+        "noun": "office / officer",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "boss",
+      "ipa": "/bɒs/",
+      "pos": "noun",
+      "meaning_vi": "sếp, người quản lý",
+      "meaning_vi_inline": "sếp",
+      "example_en": "My boss is very kind — she always listens to our ideas and gives us support.",
+      "example_vi": "Sếp của tôi rất tốt bụng — bà ấy luôn lắng nghe ý kiến của chúng tôi và hỗ trợ chúng tôi.",
+      "word_family": {
+        "noun": "boss",
+        "verb": "boss (around)",
+        "adjective": "bossy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "pos": "noun",
+      "meaning_vi": "lương (trả định kỳ hàng tháng)",
+      "meaning_vi_inline": "lương",
+      "example_en": "Her salary increased this year — she works hard and her boss was very pleased.",
+      "example_vi": "Lương của cô ấy tăng năm nay — cô ấy làm việc chăm chỉ và sếp rất hài lòng.",
+      "word_family": {
+        "noun": "salary",
+        "verb": null,
+        "adjective": "salaried",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "cuộc họp, buổi gặp mặt",
+      "meaning_vi_inline": "cuộc họp",
+      "example_en": "The team has a meeting every Monday morning to discuss the week's plans.",
+      "example_vi": "Nhóm có một cuộc họp vào mỗi sáng thứ Hai để thảo luận về kế hoạch của tuần.",
+      "word_family": {
+        "noun": "meeting",
+        "verb": "meet / met",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "nurse",
+      "ipa": "/nɜːrs/",
+      "pos": "noun / verb",
+      "meaning_vi": "y tá; chăm sóc người bệnh",
+      "meaning_vi_inline": "y tá",
+      "example_en": "The nurse checked my temperature and gave me some medicine.",
+      "example_vi": "Y tá kiểm tra nhiệt độ của tôi và cho tôi uống thuốc.",
+      "word_family": {
+        "noun": "nurse / nursing",
+        "verb": "nurse",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "farmer",
+      "ipa": "/ˈfɑːrmər/",
+      "pos": "noun",
+      "meaning_vi": "nông dân, người làm nông nghiệp",
+      "meaning_vi_inline": "nông dân",
+      "example_en": "The farmer wakes up very early every morning to feed the animals and water the crops.",
+      "example_vi": "Người nông dân thức dậy rất sớm mỗi sáng để cho động vật ăn và tưới cây.",
+      "word_family": {
+        "noun": "farmer / farming / farm",
+        "verb": "farm",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "engineer",
+      "ipa": "/ˌendʒɪˈnɪər/",
+      "pos": "noun",
+      "meaning_vi": "kỹ sư",
+      "meaning_vi_inline": "kỹ sư",
+      "example_en": "She is a civil engineer — she designs bridges, roads, and buildings.",
+      "example_vi": "Cô ấy là kỹ sư xây dựng — cô ấy thiết kế cầu, đường và tòa nhà.",
+      "word_family": {
+        "noun": "engineer / engineering",
+        "verb": "engineer",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "driver",
+      "ipa": "/ˈdraɪvər/",
+      "pos": "noun",
+      "meaning_vi": "tài xế, người lái xe",
+      "meaning_vi_inline": "tài xế",
+      "example_en": "The school driver picks up all the children at seven o'clock every morning.",
+      "example_vi": "Tài xế trường học đón tất cả trẻ em lúc bảy giờ mỗi sáng.",
+      "word_family": {
+        "noun": "driver / drive",
+        "verb": "drive / drove / driven",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "tired",
+      "ipa": "/ˈtaɪərd/",
+      "pos": "adjective",
+      "meaning_vi": "mệt mỏi",
+      "meaning_vi_inline": "mệt mỏi",
+      "example_en": "She was very tired after her long shift at the hospital — she went straight to bed.",
+      "example_vi": "Cô ấy rất mệt mỏi sau ca dài ở bệnh viện — cô ấy đi thẳng lên giường.",
+      "word_family": {
+        "noun": "tiredness",
+        "verb": "tire",
+        "adjective": "tired / tiring",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "task",
+      "ipa": "/tɑːsk/",
+      "pos": "noun",
+      "meaning_vi": "nhiệm vụ, công việc cụ thể",
+      "meaning_vi_inline": "nhiệm vụ",
+      "example_en": "My first task every morning is to check emails and reply to urgent ones.",
+      "example_vi": "Nhiệm vụ đầu tiên của tôi mỗi sáng là kiểm tra email và trả lời những cái khẩn cấp.",
+      "word_family": {
+        "noun": "task",
+        "verb": "task (someone with)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "dream",
+      "ipa": "/driːm/",
+      "pos": "noun / verb",
+      "meaning_vi": "ước mơ, giấc mơ; mơ về",
+      "meaning_vi_inline": "ước mơ",
+      "example_en": "My dream is to become a doctor and help people live healthier lives.",
+      "example_vi": "Ước mơ của tôi là trở thành bác sĩ và giúp mọi người sống khỏe mạnh hơn.",
+      "word_family": {
+        "noun": "dream / dreamer",
+        "verb": "dream / dreamed / dreamt",
+        "adjective": "dreamy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "apron",
+      "ipa": "/ˈeɪprən/",
+      "pos": "noun",
+      "meaning_vi": "tạp dề",
+      "meaning_vi_inline": "tạp dề",
+      "example_en": "The cook put on a clean apron before starting to prepare the food.",
+      "example_vi": "Người nấu ăn mặc tạp dề sạch trước khi bắt đầu chuẩn bị thức ăn.",
+      "word_family": {
+        "noun": "apron",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "shift",
+      "ipa": "/ʃɪft/",
+      "pos": "noun",
+      "meaning_vi": "ca (làm việc), ca trực",
+      "meaning_vi_inline": "ca làm việc",
+      "example_en": "She works the night shift at the hospital — from ten at night to six in the morning.",
+      "example_vi": "Cô ấy làm ca đêm ở bệnh viện — từ mười giờ tối đến sáu giờ sáng.",
+      "word_family": {
+        "noun": "shift",
+        "verb": "shift (to move)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "salary"
+        },
+        {
+          "id": 2,
+          "word": "shift"
+        },
+        {
+          "id": 3,
+          "word": "task"
+        },
+        {
+          "id": 4,
+          "word": "boss"
+        },
+        {
+          "id": 5,
+          "word": "apron"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a piece of clothing worn to protect your clothes while cooking or working"
+        },
+        {
+          "id": "B",
+          "text": "a specific piece of work that you need to do"
+        },
+        {
+          "id": "C",
+          "text": "the person in charge of a workplace who gives instructions"
+        },
+        {
+          "id": "D",
+          "text": "a set period of time that someone works, especially at night or in a hospital"
+        },
+        {
+          "id": "E",
+          "text": "the regular money that you receive from your employer each month"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My _____ job is to be a teacher — I want to help children learn English.",
+          "options": [
+            "tired",
+            "dream",
+            "task",
+            "shift"
+          ],
+          "answer": "dream"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ wakes up at five every morning to feed the chickens and water the crops.",
+          "options": [
+            "driver",
+            "nurse",
+            "farmer",
+            "engineer"
+          ],
+          "answer": "farmer"
+        },
+        {
+          "id": 3,
+          "sentence": "She was very _____ after her long shift — she fell asleep on the sofa.",
+          "options": [
+            "bossy",
+            "tired",
+            "working",
+            "salaried"
+          ],
+          "answer": "tired"
+        },
+        {
+          "id": 4,
+          "sentence": "He has a _____ with his team every Monday morning to plan the week.",
+          "options": [
+            "task",
+            "meeting",
+            "shift",
+            "salary"
+          ],
+          "answer": "meeting"
+        },
+        {
+          "id": 5,
+          "sentence": "The cook puts on her _____ before she starts preparing food in the kitchen.",
+          "options": [
+            "apron",
+            "shift",
+            "dream",
+            "task"
+          ],
+          "answer": "apron"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "office",
+        "job",
+        "engineer",
+        "driver",
+        "nurse",
+        "boss"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My mother works as a _____ at the local hospital — she helps sick patients.",
+          "answer": "nurse"
+        },
+        {
+          "id": 2,
+          "sentence": "He goes to the _____ every morning and comes home at six in the evening.",
+          "answer": "office"
+        },
+        {
+          "id": 3,
+          "sentence": "She is an _____ — she designs new machines for a big factory.",
+          "answer": "engineer"
+        },
+        {
+          "id": 4,
+          "sentence": "The school _____ picks up all the children at seven thirty every morning.",
+          "answer": "driver"
+        },
+        {
+          "id": 5,
+          "sentence": "A good _____ at work is someone who listens to their team and gives clear instructions.",
+          "answer": "boss"
+        }
+      ],
+      "note": "One word in the box is not used: job"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is a very _____ person — she always tells everyone what to do. (BOSS)",
+          "base_word": "BOSS",
+          "answer": "bossy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ hard for ten years before he finally opened his own business. (WORK)",
+          "base_word": "WORK",
+          "answer": "worked",
+          "form_used": "past simple"
+        },
+        {
+          "id": 3,
+          "sentence": "The new roads were _____ by a team of skilled engineers from the city. (ENGINEER)",
+          "base_word": "ENGINEER",
+          "answer": "engineered",
+          "form_used": "past participle"
+        },
+        {
+          "id": 4,
+          "sentence": "She felt very _____ after the long night shift — she needed to sleep. (TIRE)",
+          "base_word": "TIRE",
+          "answer": "tired",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ of becoming a doctor from a very young age. (DREAM)",
+          "base_word": "DREAM",
+          "answer": "dreamed",
+          "form_used": "past simple"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My father's [work] pays very well — he receives a large amount every month.",
+          "highlighted": "work",
+          "options": {
+            "A": "work",
+            "B": "salary",
+            "C": "task"
+          },
+          "answer": "B",
+          "explanation": "'Work' refers to the activity or effort a person does, not the money received. The regular money you earn each month is your 'salary'."
+        },
+        {
+          "id": 2,
+          "sentence": "He put on his [apron] and drove the children to school safely.",
+          "highlighted": "apron",
+          "options": {
+            "A": "uniform",
+            "B": "apron",
+            "C": "seatbelt"
+          },
+          "answer": "C",
+          "explanation": "A driver wears a 'uniform', not an 'apron'. An apron is worn to protect clothes while cooking, not while driving."
+        },
+        {
+          "id": 3,
+          "sentence": "She was very [tiring] after her twelve-hour shift — she went straight to sleep.",
+          "highlighted": "tiring",
+          "options": {
+            "A": "tiring",
+            "B": "tired",
+            "C": "tiredness"
+          },
+          "answer": "B",
+          "explanation": "'Tiring' describes something that causes tiredness (e.g., 'a tiring day'). To describe how a person feels, use 'tired': 'She was tired.'"
+        },
+        {
+          "id": 4,
+          "sentence": "My [salary] at work is to check emails and prepare reports each morning.",
+          "highlighted": "salary",
+          "options": {
+            "A": "task",
+            "B": "salary",
+            "C": "shift"
+          },
+          "answer": "B",
+          "explanation": "'Salary' is the money you earn. The specific work you need to do each morning is a 'task'."
+        },
+        {
+          "id": 5,
+          "sentence": "The company had a big [work] — all staff attended and the boss gave a speech.",
+          "highlighted": "work",
+          "options": {
+            "A": "work",
+            "B": "job",
+            "C": "meeting"
+          },
+          "answer": "C",
+          "explanation": "'Work' and 'job' refer to the activity or position, not a gathering. When all staff attend and the boss speaks, that is a 'meeting'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "dream",
+      "2": "farmer",
+      "3": "tired",
+      "4": "meeting",
+      "5": "apron"
+    },
+    "ex3": {
+      "1": "nurse",
+      "2": "office",
+      "3": "engineer",
+      "4": "driver",
+      "5": "boss"
+    },
+    "ex4": {
+      "1": "bossy",
+      "2": "worked",
+      "3": "engineered",
+      "4": "tired",
+      "5": "dreamed"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

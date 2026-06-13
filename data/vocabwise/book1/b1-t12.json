@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 12,
+    "topic_id": "b1-t12",
+    "topic_title": "Nature & Countryside",
+    "theme_number": 2,
+    "theme_title": "World Around Us",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🌿",
+    "topic_title_vi": "Thiên Nhiên & Vùng Quê",
+    "theme_title_vi": "Thế Giới Xung Quanh"
+  },
+  "passage": {
+    "word_count": 111,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Last weekend, my family drove to the **countryside**. The **sky** was bright blue and the **air** was fresh and clean.",
+        "text_vi": "Cuối tuần trước, gia đình tôi lái xe về **vùng quê**. **Bầu trời** xanh trong vắt và **không khí** tươi mát và trong lành."
+      },
+      {
+        "index": 2,
+        "text_en": "We walked through a green **forest** and stopped beside a clear **stream**. I picked up a smooth **rock** and saw a tiny **insect** hiding under a **leaf**.",
+        "text_vi": "Chúng tôi đi bộ qua một khu **rừng** xanh và dừng lại bên một con **suối** trong vắt. Tôi nhặt một viên **đá** nhẵn và thấy một con **côn trùng** nhỏ đang ẩn dưới một chiếc **lá**."
+      },
+      {
+        "index": 3,
+        "text_en": "We climbed a small **hill** and looked out at a wide **lake** below. Beyond the **lake**, a tall **mountain** rose into the clouds. My little sister found a tiny **sprout** growing near the path.",
+        "text_vi": "Chúng tôi leo lên một ngọn **đồi** nhỏ và nhìn ra một cái **hồ** rộng bên dưới. Xa hơn cái **hồ**, một ngọn **núi** cao vươn lên tận mây. Em gái tôi tìm thấy một **mầm cây** nhỏ đang mọc gần lối đi."
+      },
+      {
+        "index": 4,
+        "text_en": "The **soil** near the stream was dark and rich. I noticed my **shadow** on the ground as the sun began to set. We also saw a wide **river** in the valley below — it looked calm and beautiful.",
+        "text_vi": "**Đất** gần suối màu đen và màu mỡ. Tôi nhận ra **bóng** của mình in trên mặt đất khi mặt trời bắt đầu lặn. Chúng tôi cũng nhìn thấy một con **sông** rộng ở thung lũng phía dưới — nó trông thật yên tĩnh và đẹp đẽ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "nature",
+      "ipa": "/ˈneɪtʃər/",
+      "pos": "noun",
+      "meaning_vi": "thiên nhiên",
+      "meaning_vi_inline": "thiên nhiên",
+      "example_en": "I love spending time in nature — it makes me feel calm and peaceful.",
+      "example_vi": "Tôi thích dành thời gian ở thiên nhiên — nó khiến tôi cảm thấy bình yên.",
+      "word_family": {
+        "noun": "nature / naturalness",
+        "verb": null,
+        "adjective": "natural",
+        "adverb": "naturally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "rock",
+      "ipa": "/rɒk/",
+      "pos": "noun",
+      "meaning_vi": "viên đá, tảng đá",
+      "meaning_vi_inline": "đá",
+      "example_en": "She sat on a large flat rock beside the stream and read her book.",
+      "example_vi": "Cô ấy ngồi trên một tảng đá phẳng lớn bên suối và đọc sách.",
+      "word_family": {
+        "noun": "rock / rocky",
+        "verb": "rock (to move back and forth)",
+        "adjective": "rocky",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "stream",
+      "ipa": "/striːm/",
+      "pos": "noun",
+      "meaning_vi": "con suối, dòng chảy nhỏ",
+      "meaning_vi_inline": "suối",
+      "example_en": "We heard the sound of a stream flowing quietly through the forest.",
+      "example_vi": "Chúng tôi nghe tiếng con suối chảy nhẹ nhàng qua khu rừng.",
+      "word_family": {
+        "noun": "stream",
+        "verb": "stream",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "hill",
+      "ipa": "/hɪl/",
+      "pos": "noun",
+      "meaning_vi": "ngọn đồi",
+      "meaning_vi_inline": "đồi",
+      "example_en": "We climbed the small hill and enjoyed the beautiful view from the top.",
+      "example_vi": "Chúng tôi leo lên ngọn đồi nhỏ và thưởng thức cảnh đẹp từ trên đỉnh.",
+      "word_family": {
+        "noun": "hill / hillside",
+        "verb": null,
+        "adjective": "hilly",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "mountain",
+      "ipa": "/ˈmaʊntɪn/",
+      "pos": "noun",
+      "meaning_vi": "ngọn núi",
+      "meaning_vi_inline": "núi",
+      "example_en": "The mountain was so high that its top was hidden in the clouds.",
+      "example_vi": "Ngọn núi cao đến mức đỉnh của nó bị che khuất trong mây.",
+      "word_family": {
+        "noun": "mountain / mountaineer",
+        "verb": null,
+        "adjective": "mountainous",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "pos": "noun",
+      "meaning_vi": "khu rừng",
+      "meaning_vi_inline": "rừng",
+      "example_en": "Many wild animals live in the deep forest far from the city.",
+      "example_vi": "Nhiều loài động vật hoang dã sống trong khu rừng sâu xa thành phố.",
+      "word_family": {
+        "noun": "forest",
+        "verb": null,
+        "adjective": "forested",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "sky",
+      "ipa": "/skaɪ/",
+      "pos": "noun",
+      "meaning_vi": "bầu trời",
+      "meaning_vi_inline": "bầu trời",
+      "example_en": "The sky turned orange and pink as the sun began to set behind the hills.",
+      "example_vi": "Bầu trời chuyển sang màu cam và hồng khi mặt trời bắt đầu lặn sau những ngọn đồi.",
+      "word_family": {
+        "noun": "sky / skyline",
+        "verb": null,
+        "adjective": "sky-blue (compound)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "pos": "noun",
+      "meaning_vi": "hồ nước",
+      "meaning_vi_inline": "hồ",
+      "example_en": "We sat by the lake and watched the ducks swimming on the surface.",
+      "example_vi": "Chúng tôi ngồi bên hồ và nhìn những con vịt bơi trên mặt nước.",
+      "word_family": {
+        "noun": "lake",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "leaf",
+      "ipa": "/liːf/",
+      "pos": "noun",
+      "meaning_vi": "chiếc lá (cây)",
+      "meaning_vi_inline": "lá cây",
+      "example_en": "She picked up a red leaf from the ground and kept it in her notebook.",
+      "example_vi": "Cô ấy nhặt một chiếc lá đỏ dưới đất và cất nó vào cuốn sổ.",
+      "word_family": {
+        "noun": "leaf / leaves (plural)",
+        "verb": null,
+        "adjective": "leafy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "sprout",
+      "ipa": "/spraʊt/",
+      "pos": "noun / verb",
+      "meaning_vi": "mầm cây; nảy mầm",
+      "meaning_vi_inline": "mầm / nảy mầm",
+      "example_en": "A tiny green sprout appeared in the pot after just three days.",
+      "example_vi": "Một mầm xanh nhỏ xuất hiện trong chậu cây sau chỉ ba ngày.",
+      "word_family": {
+        "noun": "sprout",
+        "verb": "sprout / sprouted",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "soil",
+      "ipa": "/sɔɪl/",
+      "pos": "noun",
+      "meaning_vi": "đất (trồng trọt), thổ nhưỡng",
+      "meaning_vi_inline": "đất",
+      "example_en": "This dark soil is very rich — plants grow very well here.",
+      "example_vi": "Đất đen này rất màu mỡ — cây cối mọc rất tốt ở đây.",
+      "word_family": {
+        "noun": "soil",
+        "verb": "soil (to make dirty)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "air",
+      "ipa": "/eər/",
+      "pos": "noun",
+      "meaning_vi": "không khí, bầu không khí",
+      "meaning_vi_inline": "không khí",
+      "example_en": "The air in the countryside is much cleaner than in the city.",
+      "example_vi": "Không khí ở vùng quê sạch hơn nhiều so với trong thành phố.",
+      "word_family": {
+        "noun": "air / airflow",
+        "verb": "air",
+        "adjective": "airy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "insect",
+      "ipa": "/ˈɪnsekt/",
+      "pos": "noun",
+      "meaning_vi": "côn trùng",
+      "meaning_vi_inline": "côn trùng",
+      "example_en": "I found a tiny insect hiding under a wet rock near the stream.",
+      "example_vi": "Tôi tìm thấy một con côn trùng nhỏ đang ẩn dưới một tảng đá ướt gần suối.",
+      "word_family": {
+        "noun": "insect / insecticide",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "shadow",
+      "ipa": "/ˈʃædoʊ/",
+      "pos": "noun",
+      "meaning_vi": "cái bóng (do ánh sáng tạo ra)",
+      "meaning_vi_inline": "bóng",
+      "example_en": "My shadow on the ground was very long in the late afternoon sunshine.",
+      "example_vi": "Bóng của tôi trên mặt đất rất dài trong ánh nắng chiều tà.",
+      "word_family": {
+        "noun": "shadow",
+        "verb": "shadow",
+        "adjective": "shadowy",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "shade",
+        "explanation_vi": "'Shadow' là bóng do vật thể chắn sáng tạo ra; 'shade' là vùng tối mát (không có nắng trực tiếp) — ví dụ 'sit in the shade of a tree'."
+      }
+    },
+    {
+      "id": 15,
+      "word": "river",
+      "ipa": "/ˈrɪvər/",
+      "pos": "noun",
+      "meaning_vi": "con sông",
+      "meaning_vi_inline": "sông",
+      "example_en": "We crossed the river on a small wooden bridge and reached the other side.",
+      "example_vi": "Chúng tôi băng qua sông trên một cây cầu gỗ nhỏ và đến bờ bên kia.",
+      "word_family": {
+        "noun": "river / riverside",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "stream"
+        },
+        {
+          "id": 2,
+          "word": "soil"
+        },
+        {
+          "id": 3,
+          "word": "sprout"
+        },
+        {
+          "id": 4,
+          "word": "shadow"
+        },
+        {
+          "id": 5,
+          "word": "insect"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a dark shape made on a surface when something blocks the light"
+        },
+        {
+          "id": "B",
+          "text": "a very small creature with six legs, such as an ant or a bee"
+        },
+        {
+          "id": "C",
+          "text": "a small, narrow river of water flowing over rocks"
+        },
+        {
+          "id": "D",
+          "text": "a new small shoot that has just started growing from a seed"
+        },
+        {
+          "id": "E",
+          "text": "the top layer of earth in which plants grow"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We walked through a tall green _____ and heard birds singing in the trees.",
+          "options": [
+            "lake",
+            "forest",
+            "hill",
+            "stream"
+          ],
+          "answer": "forest"
+        },
+        {
+          "id": 2,
+          "sentence": "The blue _____ was clear and bright without a single cloud.",
+          "options": [
+            "air",
+            "shadow",
+            "sky",
+            "soil"
+          ],
+          "answer": "sky"
+        },
+        {
+          "id": 3,
+          "sentence": "We swam in the cold, clear _____ — the water came down from the mountains.",
+          "options": [
+            "rock",
+            "lake",
+            "leaf",
+            "soil"
+          ],
+          "answer": "lake"
+        },
+        {
+          "id": 4,
+          "sentence": "I sat on a large flat _____ beside the river and ate my lunch.",
+          "options": [
+            "rock",
+            "shadow",
+            "air",
+            "sprout"
+          ],
+          "answer": "rock"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ in the countryside was fresh and clean — very different from the city.",
+          "options": [
+            "soil",
+            "air",
+            "river",
+            "forest"
+          ],
+          "answer": "air"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "leaf",
+        "mountain",
+        "river",
+        "hill",
+        "shadow",
+        "nature"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We climbed the small _____ and could see the whole valley from the top.",
+          "answer": "hill"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ was so high that clouds hid the very top of it.",
+          "answer": "mountain"
+        },
+        {
+          "id": 3,
+          "sentence": "She picked up a green _____ from the ground and pressed it in her notebook.",
+          "answer": "leaf"
+        },
+        {
+          "id": 4,
+          "sentence": "My _____ on the ground grew longer as the sun moved lower in the sky.",
+          "answer": "shadow"
+        },
+        {
+          "id": 5,
+          "sentence": "A wide, calm _____ flowed through the middle of the green valley.",
+          "answer": "river"
+        }
+      ],
+      "note": "One word in the box is not used: nature"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "This region is very _____ — there are mountains and hills everywhere you look. (MOUNTAIN)",
+          "base_word": "MOUNTAIN",
+          "answer": "mountainous",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "The garden has _____ green trees that create cool shade in the afternoon. (LEAF)",
+          "base_word": "LEAF",
+          "answer": "leafy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She grows vegetables _____ — she plants them in natural soil without chemicals. (NATURE)",
+          "base_word": "NATURE",
+          "answer": "naturally",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "The seeds began to _____ after just a few days of warm weather and rain. (SPROUT)",
+          "base_word": "SPROUT",
+          "answer": "sprout",
+          "form_used": "verb (base form)"
+        },
+        {
+          "id": 5,
+          "sentence": "That corner of the garden is very _____ — trees block all the sunlight there. (SHADOW)",
+          "base_word": "SHADOW",
+          "answer": "shadowy",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We walked through the [forested] and heard birds singing high in the trees.",
+          "highlighted": "forested",
+          "options": {
+            "A": "forest",
+            "B": "forested",
+            "C": "forests"
+          },
+          "answer": "B",
+          "explanation": "After 'through the', a singular noun is needed: 'the forest'. 'Forested' is an adjective (e.g., 'a forested area') and cannot be used as a noun here."
+        },
+        {
+          "id": 2,
+          "sentence": "The dark [soils] near the stream is perfect for growing vegetables.",
+          "highlighted": "soils",
+          "options": {
+            "A": "soils",
+            "B": "soil",
+            "C": "soiling"
+          },
+          "answer": "B",
+          "explanation": "'Soil' (earth/ground) is an uncountable noun when used in this context. Remove the plural 's'."
+        },
+        {
+          "id": 3,
+          "sentence": "I looked up at the [skies] — it was bright blue without a single cloud.",
+          "highlighted": "skies",
+          "options": {
+            "A": "sky",
+            "B": "skies",
+            "C": "skyline"
+          },
+          "answer": "C",
+          "explanation": "When referring to the sky above us in a specific place, use the singular: 'the sky'. 'Skies' is used poetically or for weather across different regions — not for one clear sky."
+        },
+        {
+          "id": 4,
+          "sentence": "We sat beside the [streams] and listened to the sound of the water.",
+          "highlighted": "streams",
+          "options": {
+            "A": "streams",
+            "B": "stream",
+            "C": "streamed"
+          },
+          "answer": "B",
+          "explanation": "The article 'the' before a countable noun can be used with singular or plural, but the context describes one specific stream next to which 'we sat'. The singular 'stream' is correct here."
+        },
+        {
+          "id": 5,
+          "sentence": "She picked up a yellow [leafs] and pressed it carefully in her notebook.",
+          "highlighted": "leafs",
+          "options": {
+            "A": "leafs",
+            "B": "leafed",
+            "C": "leaf"
+          },
+          "answer": "C",
+          "explanation": "'Leafs' is not the standard plural of 'leaf' — the correct plural is 'leaves'. However, 'a yellow' requires a singular noun: 'a yellow leaf'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "D",
+      "4": "A",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "forest",
+      "2": "sky",
+      "3": "lake",
+      "4": "rock",
+      "5": "air"
+    },
+    "ex3": {
+      "1": "hill",
+      "2": "mountain",
+      "3": "leaf",
+      "4": "shadow",
+      "5": "river"
+    },
+    "ex4": {
+      "1": "mountainous",
+      "2": "leafy",
+      "3": "naturally",
+      "4": "sprout",
+      "5": "shadowy"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

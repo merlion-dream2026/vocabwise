@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 21,
+    "topic_id": "b1-t21",
+    "topic_title": "Friends & Friendship",
+    "theme_number": 3,
+    "theme_title": "People & Relationships",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🤝",
+    "topic_title_vi": "Bạn Bè & Tình Bạn",
+    "theme_title_vi": "Con Người & Các Mối Quan Hệ"
+  },
+  "passage": {
+    "word_count": 110,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My best **friend** is Linh. We **meet** every day at school and walk home **together**. She is always **kind** and makes me **laugh** when I feel tired.",
+        "text_vi": "**Bạn** thân nhất của tôi là Linh. Chúng tôi **gặp nhau** mỗi ngày ở trường và cùng đi bộ về nhà **cùng nhau**. Cô ấy luôn **tốt bụng** và làm tôi **cười** khi tôi mệt mỏi."
+      },
+      {
+        "index": 2,
+        "text_en": "Good friends **trust** and **support** each other. When I have a problem, Linh always listens and says something helpful. We **laugh** **together** every day.",
+        "text_vi": "Những người bạn tốt **tin tưởng** và **hỗ trợ** nhau. Khi tôi có vấn đề, Linh luôn lắng nghe và nói điều gì đó có ích. Chúng tôi **cười** **cùng nhau** mỗi ngày."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes we have an **argument** about small things. But we always **forgive** each other quickly. A **true** friend does not stay angry for long.",
+        "text_vi": "Đôi khi chúng tôi có một cuộc **tranh luận** về những chuyện nhỏ. Nhưng chúng tôi luôn **tha thứ** cho nhau nhanh chóng. Một người bạn **thật sự** không giận lâu."
+      },
+      {
+        "index": 4,
+        "text_en": "I **miss** Linh when she is away. We share a deep **bond** — she is **close** to me like a sister. I am always **honest** with her and I **remember** all the happy times we share.",
+        "text_vi": "Tôi **nhớ** Linh khi cô ấy vắng mặt. Chúng tôi có một **mối gắn kết** sâu sắc — cô ấy **thân thiết** với tôi như một người chị. Tôi luôn **thật thà** với cô ấy và tôi **ghi nhớ** tất cả những khoảnh khắc vui vẻ chúng tôi chia sẻ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "friend",
+      "ipa": "/frend/",
+      "pos": "noun",
+      "meaning_vi": "bạn bè",
+      "meaning_vi_inline": "bạn",
+      "example_en": "My best friend and I have known each other since we were five years old.",
+      "example_vi": "Người bạn thân nhất của tôi và tôi đã quen nhau từ khi chúng tôi năm tuổi.",
+      "word_family": {
+        "noun": "friend / friendship",
+        "verb": "befriend",
+        "adjective": "friendly / unfriendly",
+        "adverb": "in a friendly way"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "kind",
+      "ipa": "/kaɪnd/",
+      "pos": "adjective",
+      "meaning_vi": "tốt bụng, nhân hậu",
+      "meaning_vi_inline": "tốt bụng",
+      "example_en": "She is a very kind person — she always helps others without being asked.",
+      "example_vi": "Cô ấy là người rất tốt bụng — cô ấy luôn giúp đỡ người khác mà không cần được yêu cầu.",
+      "word_family": {
+        "noun": "kindness",
+        "verb": null,
+        "adjective": "kind / unkind",
+        "adverb": "kindly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "honest",
+      "ipa": "/ˈɒnɪst/",
+      "pos": "adjective",
+      "meaning_vi": "thật thà, trung thực",
+      "meaning_vi_inline": "trung thực",
+      "example_en": "A good friend is honest — they tell you the truth even when it is difficult to hear.",
+      "example_vi": "Một người bạn tốt thật thà — họ nói thật với bạn dù đôi khi khó nghe.",
+      "word_family": {
+        "noun": "honesty",
+        "verb": null,
+        "adjective": "honest / dishonest",
+        "adverb": "honestly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "trust",
+      "ipa": "/trʌst/",
+      "pos": "verb / noun",
+      "meaning_vi": "tin tưởng; sự tin tưởng",
+      "meaning_vi_inline": "tin tưởng",
+      "example_en": "I trust my best friend completely — she never shares my secrets with anyone.",
+      "example_vi": "Tôi tin tưởng người bạn thân nhất của mình hoàn toàn — cô ấy không bao giờ tiết lộ bí mật của tôi.",
+      "word_family": {
+        "noun": "trust / distrust",
+        "verb": "trust / distrust",
+        "adjective": "trustworthy / trusted / trusting",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "laugh",
+      "ipa": "/lɑːf/",
+      "pos": "verb / noun",
+      "meaning_vi": "cười; tiếng cười",
+      "meaning_vi_inline": "cười",
+      "example_en": "We laugh at the same funny videos — that is one reason we are such good friends.",
+      "example_vi": "Chúng tôi cười với những video hài hước giống nhau — đó là một lý do chúng tôi là bạn thân.",
+      "word_family": {
+        "noun": "laugh / laughter",
+        "verb": "laugh / laughed",
+        "adjective": "laughable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "together",
+      "ipa": "/təˈɡeðər/",
+      "pos": "adverb",
+      "meaning_vi": "cùng nhau",
+      "meaning_vi_inline": "cùng nhau",
+      "example_en": "We study together every afternoon — it is more fun than studying alone.",
+      "example_vi": "Chúng tôi học cùng nhau mỗi buổi chiều — vui hơn là học một mình.",
+      "word_family": {
+        "noun": "togetherness",
+        "verb": null,
+        "adjective": null,
+        "adverb": "together"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "support",
+      "ipa": "/səˈpɔːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "hỗ trợ, ủng hộ; sự hỗ trợ",
+      "meaning_vi_inline": "hỗ trợ",
+      "example_en": "My friend supported me when I failed my exam — she said I could try again.",
+      "example_vi": "Bạn tôi hỗ trợ tôi khi tôi thi trượt — cô ấy nói tôi có thể thử lại.",
+      "word_family": {
+        "noun": "support / supporter",
+        "verb": "support / supported",
+        "adjective": "supportive",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "argument",
+      "ipa": "/ˈɑːɡjumənt/",
+      "pos": "noun",
+      "meaning_vi": "cuộc tranh cãi, cãi vã",
+      "meaning_vi_inline": "tranh cãi",
+      "example_en": "We had a small argument about whose turn it was, but we sorted it out quickly.",
+      "example_vi": "Chúng tôi đã có một cuộc tranh cãi nhỏ về việc đến lượt ai, nhưng đã giải quyết nhanh chóng.",
+      "word_family": {
+        "noun": "argument",
+        "verb": "argue / argued",
+        "adjective": "argumentative",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "forgive",
+      "ipa": "/fəˈɡɪv/",
+      "pos": "verb",
+      "meaning_vi": "tha thứ",
+      "meaning_vi_inline": "tha thứ",
+      "example_en": "She forgave me after I said sorry — true friends do not hold grudges.",
+      "example_vi": "Cô ấy tha thứ cho tôi sau khi tôi xin lỗi — bạn thật sự không để bụng.",
+      "word_family": {
+        "noun": "forgiveness",
+        "verb": "forgive / forgave / forgiven",
+        "adjective": "forgiving / unforgiving",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "close",
+      "ipa": "/kləʊs/",
+      "pos": "adjective",
+      "meaning_vi": "thân thiết, gần gũi",
+      "meaning_vi_inline": "thân thiết",
+      "example_en": "We are very close — we tell each other everything and always spend time together.",
+      "example_vi": "Chúng tôi rất thân thiết — chúng tôi kể cho nhau nghe mọi thứ và luôn dành thời gian bên nhau.",
+      "word_family": {
+        "noun": "closeness",
+        "verb": "close (to shut)",
+        "adjective": "close / closest",
+        "adverb": "closely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "meet",
+      "ipa": "/miːt/",
+      "pos": "verb",
+      "meaning_vi": "gặp gỡ, gặp mặt",
+      "meaning_vi_inline": "gặp",
+      "example_en": "We meet at the school gate every morning before class starts.",
+      "example_vi": "Chúng tôi gặp nhau ở cổng trường mỗi sáng trước khi bắt đầu giờ học.",
+      "word_family": {
+        "noun": "meeting / meet",
+        "verb": "meet / met",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "remember",
+      "ipa": "/rɪˈmembər/",
+      "pos": "verb",
+      "meaning_vi": "nhớ, ghi nhớ",
+      "meaning_vi_inline": "nhớ",
+      "example_en": "I remember the day we first met — we were both waiting for the school bus.",
+      "example_vi": "Tôi nhớ ngày chúng tôi lần đầu gặp nhau — cả hai đều đang chờ xe buýt trường.",
+      "word_family": {
+        "noun": "memory / remembrance",
+        "verb": "remember / remembered",
+        "adjective": "memorable",
+        "adverb": "memorably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "miss",
+      "ipa": "/mɪs/",
+      "pos": "verb",
+      "meaning_vi": "nhớ (ai đó vắng mặt)",
+      "meaning_vi_inline": "nhớ",
+      "example_en": "I miss my friend so much when she travels abroad — the days feel much longer.",
+      "example_vi": "Tôi nhớ bạn tôi rất nhiều khi cô ấy đi nước ngoài — những ngày trôi qua có vẻ dài hơn.",
+      "word_family": {
+        "noun": "miss (feeling of missing someone)",
+        "verb": "miss / missed",
+        "adjective": "missing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "true",
+      "ipa": "/truː/",
+      "pos": "adjective",
+      "meaning_vi": "thật, thực, chân thành",
+      "meaning_vi_inline": "thật sự",
+      "example_en": "A true friend stays by your side even when things are difficult.",
+      "example_vi": "Một người bạn thật sự ở bên bạn ngay cả khi mọi thứ khó khăn.",
+      "word_family": {
+        "noun": "truth",
+        "verb": null,
+        "adjective": "true / untrue",
+        "adverb": "truly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "bond",
+      "ipa": "/bɒnd/",
+      "pos": "noun",
+      "meaning_vi": "mối gắn kết, sợi dây liên kết",
+      "meaning_vi_inline": "mối gắn kết",
+      "example_en": "The bond between us grew stronger after we helped each other through a hard time.",
+      "example_vi": "Mối gắn kết giữa chúng tôi ngày càng mạnh hơn sau khi chúng tôi giúp đỡ nhau qua giai đoạn khó khăn.",
+      "word_family": {
+        "noun": "bond",
+        "verb": "bond / bonded",
+        "adjective": "bonded",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "bond" },
+        { "id": 2, "word": "forgive" },
+        { "id": 3, "word": "argument" },
+        { "id": 4, "word": "support" },
+        { "id": 5, "word": "honest" }
+      ],
+      "options": [
+        { "id": "A", "text": "to stop being angry with someone and no longer hold their mistake against them" },
+        { "id": "B", "text": "to help someone through a difficult time and give them encouragement" },
+        { "id": "C", "text": "a strong connection between two people that makes them feel close" },
+        { "id": "D", "text": "a disagreement or quarrel between two or more people" },
+        { "id": "E", "text": "always telling the truth and not hiding information from others" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is a very _____ person — she never tells lies and always says what she thinks.",
+          "options": ["honest", "kind", "close", "true"],
+          "answer": "honest"
+        },
+        {
+          "id": 2,
+          "sentence": "We had a small _____ but said sorry quickly — now everything is fine.",
+          "options": ["bond", "trust", "argument", "laugh"],
+          "answer": "argument"
+        },
+        {
+          "id": 3,
+          "sentence": "Good friends _____ each other when they feel sad or worried.",
+          "options": ["forget", "miss", "argue", "support"],
+          "answer": "support"
+        },
+        {
+          "id": 4,
+          "sentence": "It is important to _____ your friends — never share their secrets with others.",
+          "options": ["miss", "trust", "meet", "forgive"],
+          "answer": "trust"
+        },
+        {
+          "id": 5,
+          "sentence": "I really _____ my friend when she moved to another city.",
+          "options": ["forgot", "missed", "argued", "trusted"],
+          "answer": "missed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["close", "support", "laugh", "together", "honest", "bond"],
+      "items": [
+        { "id": 1, "sentence": "My best friend and I always walk to school _____.", "answer": "together" },
+        { "id": 2, "sentence": "She is very _____ with me — she tells me the truth even when it is hard to hear.", "answer": "honest" },
+        { "id": 3, "sentence": "We often _____ at the same funny videos online.", "answer": "laugh" },
+        { "id": 4, "sentence": "Good friends _____ each other through good times and bad.", "answer": "support" },
+        { "id": 5, "sentence": "I feel very _____ to her — she knows everything about me.", "answer": "close" }
+      ],
+      "note": "One word in the box is not used: bond"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She smiled _____ and offered to help me carry my heavy school bag. (KIND)",
+          "base_word": "KIND",
+          "answer": "kindly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ admitted that he forgot to return the book he borrowed. (HONEST)",
+          "base_word": "HONEST",
+          "answer": "honestly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "Their _____ started in primary school and has grown stronger every year. (FRIEND)",
+          "base_word": "FRIEND",
+          "answer": "friendship",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "She is a _____ friend — she has never shared my secrets with anyone. (TRUST)",
+          "base_word": "TRUST",
+          "answer": "trusted",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "He is very _____ — he always encourages me to try new things and never gives up. (SUPPORT)",
+          "base_word": "SUPPORT",
+          "answer": "supportive",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My best friend always [argues] me when I feel sad or worried.",
+          "highlighted": "argues",
+          "options": { "A": "argues", "B": "supports", "C": "misses" },
+          "answer": "B",
+          "explanation": "'Argue' means to disagree or quarrel with someone. When a friend helps you feel better when you are sad, they 'support' you — not argue with you."
+        },
+        {
+          "id": 2,
+          "sentence": "A good friend keeps your [laughter] and never tells it to others.",
+          "highlighted": "laughter",
+          "options": { "A": "secret", "B": "laughter", "C": "trust" },
+          "answer": "A",
+          "explanation": "'Laughter' is the sound or act of laughing — it is not something private. Something you share privately with a friend and must never tell others is a 'secret'."
+        },
+        {
+          "id": 3,
+          "sentence": "After our [bond], we said sorry to each other and became close again.",
+          "highlighted": "bond",
+          "options": { "A": "trust", "B": "laugh", "C": "argument" },
+          "answer": "C",
+          "explanation": "A 'bond' is a positive connection between people. The sentence describes a situation where they needed to apologise — this is the result of an 'argument', not a bond."
+        },
+        {
+          "id": 4,
+          "sentence": "Good friends [meet] each other even when they live far apart.",
+          "highlighted": "meet",
+          "options": { "A": "forget", "B": "miss", "C": "meet" },
+          "answer": "B",
+          "explanation": "If friends live far apart, they cannot easily meet in person. The correct word is 'miss' — to feel sad because someone you care about is not with you."
+        },
+        {
+          "id": 5,
+          "sentence": "She is very [forgetful] — she always says what she really thinks and never lies.",
+          "highlighted": "forgetful",
+          "options": { "A": "honest", "B": "forgetful", "C": "kind" },
+          "answer": "A",
+          "explanation": "'Forgetful' means often forgetting things — it has nothing to do with telling the truth. Someone who always says what they think and never lies is 'honest'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "A", "3": "D", "4": "B", "5": "E" },
+    "ex2": { "1": "honest", "2": "argument", "3": "support", "4": "trust", "5": "missed" },
+    "ex3": { "1": "together", "2": "honest", "3": "laugh", "4": "support", "5": "close" },
+    "ex4": { "1": "kindly", "2": "honestly", "3": "friendship", "4": "trusted", "5": "supportive" },
+    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "A" }
+  }
+}

@@ -1,12 +1,24 @@
 {
   "meta": {
-    "book": 3, "topic_number": 5, "topic_id": "b3-t05",
+    "book": 3,
+    "topic_number": 5,
+    "topic_id": "b3-t05",
     "topic_title": "Geopolitics & Conflict",
-    "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
-    "cefr_level": "C1-C2", "combo": "C1",
-    "emoji": "🌍", "topic_title_vi": "Địa Chính Trị & Xung Đột", "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "theme_number": 1,
+    "theme_title": "Power, Society & Global Affairs",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🌍",
+    "topic_title_vi": "Địa Chính Trị & Xung Đột",
+    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    }
   },
   "passage": {
     "word_count": 230,
@@ -34,21 +46,282 @@
     ]
   },
   "glossary": [
-    { "id": 1, "word": "geopolitics", "ipa": "/ˌdʒiː.oʊˈpɒl.ɪ.tɪks/", "pos": "noun", "meaning_vi": "địa chính trị", "meaning_vi_inline": "địa chính trị", "example_en": "The geopolitics of the region are shaped by oil reserves and trade routes.", "example_vi": "Địa chính trị của khu vực được định hình bởi trữ lượng dầu mỏ và các tuyến thương mại.", "word_family": { "noun": "geopolitics", "verb": null, "adjective": "geopolitical", "adverb": "geopolitically" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 2, "word": "hegemony", "ipa": "/hɪˈdʒem.ə.ni/", "pos": "noun", "meaning_vi": "quyền bá chủ, sự thống trị", "meaning_vi_inline": "bá quyền", "example_en": "The country's hegemony over the region began to weaken in the 1990s.", "example_vi": "Quyền bá chủ của đất nước đối với khu vực bắt đầu suy yếu vào những năm 1990.", "word_family": { "noun": "hegemony / hegemon", "verb": null, "adjective": "hegemonic", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 3, "word": "territorial", "ipa": "/ˌter.ɪˈtɔː.ri.əl/", "pos": "adjective", "meaning_vi": "thuộc về lãnh thổ", "meaning_vi_inline": "lãnh thổ", "example_en": "The territorial dispute over the islands has lasted for decades.", "example_vi": "Tranh chấp lãnh thổ về quần đảo đã kéo dài hàng thập kỷ.", "word_family": { "noun": "territory", "verb": null, "adjective": "territorial", "adverb": "territorially" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 4, "word": "alliance", "ipa": "/əˈlaɪ.əns/", "pos": "noun", "meaning_vi": "liên minh", "meaning_vi_inline": "liên minh", "example_en": "NATO is a military alliance formed for collective defence.", "example_vi": "NATO là một liên minh quân sự được thành lập vì mục tiêu phòng thủ tập thể.", "word_family": { "noun": "alliance / ally", "verb": "ally", "adjective": "allied", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 5, "word": "deterrence", "ipa": "/dɪˈter.əns/", "pos": "noun", "meaning_vi": "sự răn đe", "meaning_vi_inline": "răn đe", "example_en": "Nuclear deterrence has been a cornerstone of defence policy since the Cold War.", "example_vi": "Sự răn đe hạt nhân là nền tảng của chính sách quốc phòng kể từ Chiến tranh Lạnh.", "word_family": { "noun": "deterrence / deterrent", "verb": "deter", "adjective": "deterrent", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 6, "word": "multilateral", "ipa": "/ˌmʌl.tiˈlæt.ər.əl/", "pos": "adjective", "meaning_vi": "đa phương", "meaning_vi_inline": "đa phương", "example_en": "A multilateral approach is needed to address global security threats.", "example_vi": "Cần có một cách tiếp cận đa phương để giải quyết các mối đe dọa an ninh toàn cầu.", "word_family": { "noun": null, "verb": null, "adjective": "multilateral / bilateral / unilateral", "adverb": "multilaterally" }, "false_friend": { "word_vi": "bilateral", "explanation_vi": "'Multilateral' là nhiều bên (3+); 'bilateral' là hai bên — mức độ tham gia khác nhau rõ rệt." }, "receptive_productive": "P" },
-    { "id": 7, "word": "diplomacy", "ipa": "/dɪˈpləʊ.mə.si/", "pos": "noun", "meaning_vi": "ngoại giao", "meaning_vi_inline": "ngoại giao", "example_en": "Effective diplomacy can prevent conflicts from escalating.", "example_vi": "Ngoại giao hiệu quả có thể ngăn các cuộc xung đột leo thang.", "word_family": { "noun": "diplomacy / diplomat", "verb": null, "adjective": "diplomatic", "adverb": "diplomatically" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 8, "word": "mandate", "ipa": "/ˈmæn.deɪt/", "pos": "noun", "meaning_vi": "ủy nhiệm, quyền hạn được trao", "meaning_vi_inline": "ủy nhiệm", "example_en": "The UN peacekeeping force operates under a clear mandate.", "example_vi": "Lực lượng gìn giữ hòa bình LHQ hoạt động theo một ủy nhiệm rõ ràng.", "word_family": { "noun": "mandate", "verb": "mandate", "adjective": "mandatory", "adverb": "mandatorily" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 9, "word": "proxy", "ipa": "/ˈprɒk.si/", "pos": "noun / adjective", "meaning_vi": "ủy nhiệm; chiến tranh ủy nhiệm", "meaning_vi_inline": "ủy nhiệm", "example_en": "The civil war became a proxy conflict between rival superpowers.", "example_vi": "Cuộc nội chiến trở thành một cuộc xung đột ủy nhiệm giữa các siêu cường đối địch.", "word_family": { "noun": "proxy", "verb": null, "adjective": "proxy", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 10, "word": "escalation", "ipa": "/ˌes.kəˈleɪ.ʃən/", "pos": "noun", "meaning_vi": "sự leo thang", "meaning_vi_inline": "leo thang", "example_en": "Both sides feared that any misstep could lead to escalation.", "example_vi": "Cả hai bên đều lo ngại rằng bất kỳ sai lầm nào cũng có thể dẫn đến leo thang.", "word_family": { "noun": "escalation", "verb": "escalate", "adjective": "escalating", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 11, "word": "ceasefire", "ipa": "/ˈsiːs.faɪər/", "pos": "noun", "meaning_vi": "ngừng bắn", "meaning_vi_inline": "ngừng bắn", "example_en": "A fragile ceasefire was agreed after months of fighting.", "example_vi": "Lệnh ngừng bắn mong manh đã được thỏa thuận sau nhiều tháng giao tranh.", "word_family": { "noun": "ceasefire", "verb": "cease fire", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 12, "word": "mediation", "ipa": "/ˌmiː.diˈeɪ.ʃən/", "pos": "noun", "meaning_vi": "hòa giải (quốc tế)", "meaning_vi_inline": "hòa giải", "example_en": "International mediation helped broker a peace agreement.", "example_vi": "Hòa giải quốc tế đã giúp đạt được một thỏa thuận hòa bình.", "word_family": { "noun": "mediation / mediator", "verb": "mediate", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 13, "word": "autonomy", "ipa": "/ɔːˈtɒn.ə.mi/", "pos": "noun", "meaning_vi": "quyền tự chủ, tự trị", "meaning_vi_inline": "tự chủ", "example_en": "The peace deal granted the region greater political autonomy.", "example_vi": "Thỏa thuận hòa bình trao cho khu vực quyền tự chủ chính trị lớn hơn.", "word_family": { "noun": "autonomy", "verb": null, "adjective": "autonomous", "adverb": "autonomously" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 14, "word": "intervention", "ipa": "/ˌɪn.təˈven.ʃən/", "pos": "noun", "meaning_vi": "sự can thiệp", "meaning_vi_inline": "can thiệp", "example_en": "Military intervention without a mandate risks deepening the conflict.", "example_vi": "Can thiệp quân sự mà không có ủy nhiệm có nguy cơ làm trầm trọng thêm xung đột.", "word_family": { "noun": "intervention / intervener", "verb": "intervene", "adjective": "interventionist", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 15, "word": "coalition", "ipa": "/ˌkoʊ.əˈlɪʃ.ən/", "pos": "noun", "meaning_vi": "liên minh (tạm thời, đa thành phần)", "meaning_vi_inline": "liên minh đa thành phần", "example_en": "A broad coalition of nations condemned the invasion.", "example_vi": "Một liên minh rộng lớn các quốc gia đã lên án cuộc xâm lược.", "word_family": { "noun": "coalition", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "alliance", "explanation_vi": "'Coalition' thường là liên minh tạm thời vì một mục tiêu cụ thể; 'alliance' là liên minh chính thức lâu dài hơn." }, "receptive_productive": "P" }
+    {
+      "id": 1,
+      "word": "geopolitics",
+      "ipa": "/ˌdʒiː.oʊˈpɒl.ɪ.tɪks/",
+      "pos": "noun",
+      "meaning_vi": "địa chính trị",
+      "meaning_vi_inline": "địa chính trị",
+      "example_en": "The geopolitics of the region are shaped by oil reserves and trade routes.",
+      "example_vi": "Địa chính trị của khu vực được định hình bởi trữ lượng dầu mỏ và các tuyến thương mại.",
+      "word_family": {
+        "noun": "geopolitics",
+        "verb": null,
+        "adjective": "geopolitical",
+        "adverb": "geopolitically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "hegemony",
+      "ipa": "/hɪˈdʒem.ə.ni/",
+      "pos": "noun",
+      "meaning_vi": "quyền bá chủ, sự thống trị",
+      "meaning_vi_inline": "bá quyền",
+      "example_en": "The country's hegemony over the region began to weaken in the 1990s.",
+      "example_vi": "Quyền bá chủ của đất nước đối với khu vực bắt đầu suy yếu vào những năm 1990.",
+      "word_family": {
+        "noun": "hegemony / hegemon",
+        "verb": null,
+        "adjective": "hegemonic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "territorial",
+      "ipa": "/ˌter.ɪˈtɔː.ri.əl/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về lãnh thổ",
+      "meaning_vi_inline": "lãnh thổ",
+      "example_en": "The territorial dispute over the islands has lasted for decades.",
+      "example_vi": "Tranh chấp lãnh thổ về quần đảo đã kéo dài hàng thập kỷ.",
+      "word_family": {
+        "noun": "territory",
+        "verb": null,
+        "adjective": "territorial",
+        "adverb": "territorially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "alliance",
+      "ipa": "/əˈlaɪ.əns/",
+      "pos": "noun",
+      "meaning_vi": "liên minh",
+      "meaning_vi_inline": "liên minh",
+      "example_en": "NATO is a military alliance formed for collective defence.",
+      "example_vi": "NATO là một liên minh quân sự được thành lập vì mục tiêu phòng thủ tập thể.",
+      "word_family": {
+        "noun": "alliance / ally",
+        "verb": "ally",
+        "adjective": "allied",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "deterrence",
+      "ipa": "/dɪˈter.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự răn đe",
+      "meaning_vi_inline": "răn đe",
+      "example_en": "Nuclear deterrence has been a cornerstone of defence policy since the Cold War.",
+      "example_vi": "Sự răn đe hạt nhân là nền tảng của chính sách quốc phòng kể từ Chiến tranh Lạnh.",
+      "word_family": {
+        "noun": "deterrence / deterrent",
+        "verb": "deter",
+        "adjective": "deterrent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "multilateral",
+      "ipa": "/ˌmʌl.tiˈlæt.ər.əl/",
+      "pos": "adjective",
+      "meaning_vi": "đa phương",
+      "meaning_vi_inline": "đa phương",
+      "example_en": "A multilateral approach is needed to address global security threats.",
+      "example_vi": "Cần có một cách tiếp cận đa phương để giải quyết các mối đe dọa an ninh toàn cầu.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "multilateral / bilateral / unilateral",
+        "adverb": "multilaterally"
+      },
+      "false_friend": {
+        "word_vi": "bilateral",
+        "explanation_vi": "'Multilateral' là nhiều bên (3+); 'bilateral' là hai bên — mức độ tham gia khác nhau rõ rệt."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "diplomacy",
+      "ipa": "/dɪˈpləʊ.mə.si/",
+      "pos": "noun",
+      "meaning_vi": "ngoại giao",
+      "meaning_vi_inline": "ngoại giao",
+      "example_en": "Effective diplomacy can prevent conflicts from escalating.",
+      "example_vi": "Ngoại giao hiệu quả có thể ngăn các cuộc xung đột leo thang.",
+      "word_family": {
+        "noun": "diplomacy / diplomat",
+        "verb": null,
+        "adjective": "diplomatic",
+        "adverb": "diplomatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "mandate",
+      "ipa": "/ˈmæn.deɪt/",
+      "pos": "noun",
+      "meaning_vi": "ủy nhiệm, quyền hạn được trao",
+      "meaning_vi_inline": "ủy nhiệm",
+      "example_en": "The UN peacekeeping force operates under a clear mandate.",
+      "example_vi": "Lực lượng gìn giữ hòa bình LHQ hoạt động theo một ủy nhiệm rõ ràng.",
+      "word_family": {
+        "noun": "mandate",
+        "verb": "mandate",
+        "adjective": "mandatory",
+        "adverb": "mandatorily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "proxy",
+      "ipa": "/ˈprɒk.si/",
+      "pos": "noun / adjective",
+      "meaning_vi": "ủy nhiệm; chiến tranh ủy nhiệm",
+      "meaning_vi_inline": "ủy nhiệm",
+      "example_en": "The civil war became a proxy conflict between rival superpowers.",
+      "example_vi": "Cuộc nội chiến trở thành một cuộc xung đột ủy nhiệm giữa các siêu cường đối địch.",
+      "word_family": {
+        "noun": "proxy",
+        "verb": null,
+        "adjective": "proxy",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "escalation",
+      "ipa": "/ˌes.kəˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự leo thang",
+      "meaning_vi_inline": "leo thang",
+      "example_en": "Both sides feared that any misstep could lead to escalation.",
+      "example_vi": "Cả hai bên đều lo ngại rằng bất kỳ sai lầm nào cũng có thể dẫn đến leo thang.",
+      "word_family": {
+        "noun": "escalation",
+        "verb": "escalate",
+        "adjective": "escalating",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "ceasefire",
+      "ipa": "/ˈsiːs.faɪər/",
+      "pos": "noun",
+      "meaning_vi": "ngừng bắn",
+      "meaning_vi_inline": "ngừng bắn",
+      "example_en": "A fragile ceasefire was agreed after months of fighting.",
+      "example_vi": "Lệnh ngừng bắn mong manh đã được thỏa thuận sau nhiều tháng giao tranh.",
+      "word_family": {
+        "noun": "ceasefire",
+        "verb": "cease fire",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "mediation",
+      "ipa": "/ˌmiː.diˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "hòa giải (quốc tế)",
+      "meaning_vi_inline": "hòa giải",
+      "example_en": "International mediation helped broker a peace agreement.",
+      "example_vi": "Hòa giải quốc tế đã giúp đạt được một thỏa thuận hòa bình.",
+      "word_family": {
+        "noun": "mediation / mediator",
+        "verb": "mediate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "meaning_vi": "quyền tự chủ, tự trị",
+      "meaning_vi_inline": "tự chủ",
+      "example_en": "The peace deal granted the region greater political autonomy.",
+      "example_vi": "Thỏa thuận hòa bình trao cho khu vực quyền tự chủ chính trị lớn hơn.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "intervention",
+      "ipa": "/ˌɪn.təˈven.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự can thiệp",
+      "meaning_vi_inline": "can thiệp",
+      "example_en": "Military intervention without a mandate risks deepening the conflict.",
+      "example_vi": "Can thiệp quân sự mà không có ủy nhiệm có nguy cơ làm trầm trọng thêm xung đột.",
+      "word_family": {
+        "noun": "intervention / intervener",
+        "verb": "intervene",
+        "adjective": "interventionist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "coalition",
+      "ipa": "/ˌkoʊ.əˈlɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "liên minh (tạm thời, đa thành phần)",
+      "meaning_vi_inline": "liên minh đa thành phần",
+      "example_en": "A broad coalition of nations condemned the invasion.",
+      "example_vi": "Một liên minh rộng lớn các quốc gia đã lên án cuộc xâm lược.",
+      "word_family": {
+        "noun": "coalition",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "alliance",
+        "explanation_vi": "'Coalition' thường là liên minh tạm thời vì một mục tiêu cụ thể; 'alliance' là liên minh chính thức lâu dài hơn."
+      },
+      "receptive_productive": "P"
+    }
   ],
   "exercises": {
     "combo": "C1",
@@ -56,64 +329,315 @@
       "type": "E5",
       "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "Geopolitics examines the influence of geography and power on international relations.", "answer": "True" },
-        { "id": 2, "statement": "The United Nations was founded specifically to resolve territorial disputes.", "answer": "Not Given" },
-        { "id": 3, "statement": "Deterrence aims to prevent aggression by making its costs outweigh any potential gains.", "answer": "True" },
-        { "id": 4, "statement": "Proxy wars are always more effective than direct military intervention.", "answer": "Not Given" },
-        { "id": 5, "statement": "Achieving sustainable peace typically requires ceasefire negotiations and independent mediation.", "answer": "True" }
+        {
+          "id": 1,
+          "statement": "Geopolitics examines the influence of geography and power on international relations.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The United Nations was founded specifically to resolve territorial disputes.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Deterrence aims to prevent aggression by making its costs outweigh any potential gains.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Proxy wars are always more effective than direct military intervention.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "Achieving sustainable peace typically requires ceasefire negotiations and independent mediation.",
+          "answer": "True"
+        }
       ]
     },
     "ex2_mcq_context": {
       "type": "E3",
       "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "The term _____ describes the dominance of one nation or bloc over international affairs.", "options": ["autonomy", "hegemony", "deterrence", "mediation"], "answer": "hegemony" },
-        { "id": 2, "sentence": "The UN was given a _____ to protect civilians in the conflict zone.", "options": ["coalition", "ceasefire", "mandate", "proxy"], "answer": "mandate" },
-        { "id": 3, "sentence": "Rival superpowers sometimes fund _____ wars in third countries to advance their interests.", "options": ["multilateral", "proxy", "territorial", "coalition"], "answer": "proxy" },
-        { "id": 4, "sentence": "After years of fighting, both sides agreed to a _____ and began peace negotiations.", "options": ["mediation", "alliance", "ceasefire", "deterrence"], "answer": "ceasefire" },
-        { "id": 5, "sentence": "The peace agreement gave the region significant political _____, allowing it to govern its own affairs.", "options": ["hegemony", "escalation", "autonomy", "mandate"], "answer": "autonomy" }
+        {
+          "id": 1,
+          "sentence": "The term _____ describes the dominance of one nation or bloc over international affairs.",
+          "options": [
+            "autonomy",
+            "hegemony",
+            "deterrence",
+            "mediation"
+          ],
+          "answer": "hegemony"
+        },
+        {
+          "id": 2,
+          "sentence": "The UN was given a _____ to protect civilians in the conflict zone.",
+          "options": [
+            "coalition",
+            "ceasefire",
+            "mandate",
+            "proxy"
+          ],
+          "answer": "mandate"
+        },
+        {
+          "id": 3,
+          "sentence": "Rival superpowers sometimes fund _____ wars in third countries to advance their interests.",
+          "options": [
+            "multilateral",
+            "proxy",
+            "territorial",
+            "coalition"
+          ],
+          "answer": "proxy"
+        },
+        {
+          "id": 4,
+          "sentence": "After years of fighting, both sides agreed to a _____ and began peace negotiations.",
+          "options": [
+            "mediation",
+            "alliance",
+            "ceasefire",
+            "deterrence"
+          ],
+          "answer": "ceasefire"
+        },
+        {
+          "id": 5,
+          "sentence": "The peace agreement gave the region significant political _____, allowing it to govern its own affairs.",
+          "options": [
+            "hegemony",
+            "escalation",
+            "autonomy",
+            "mandate"
+          ],
+          "answer": "autonomy"
+        }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["alliance", "escalation", "diplomacy", "territorial", "coalition"],
+      "word_bank": [
+        "alliance",
+        "escalation",
+        "diplomacy",
+        "territorial",
+        "coalition"
+      ],
       "items": [
-        { "id": 1, "sentence": "The two nations formed a military _____ to deter aggression from neighbouring states.", "answer": "alliance" },
-        { "id": 2, "sentence": "Effective _____ requires patience, compromise, and a willingness to listen to all parties.", "answer": "diplomacy" },
-        { "id": 3, "sentence": "The _____ dispute over the islands has remained unresolved for several decades.", "answer": "territorial" },
-        { "id": 4, "sentence": "Both sides feared that a minor incident could lead to rapid _____ of the conflict.", "answer": "escalation" },
-        { "id": 5, "sentence": "A broad international _____ condemned the invasion and imposed economic sanctions.", "answer": "coalition" }
+        {
+          "id": 1,
+          "sentence": "The two nations formed a military _____ to deter aggression from neighbouring states.",
+          "answer": "alliance"
+        },
+        {
+          "id": 2,
+          "sentence": "Effective _____ requires patience, compromise, and a willingness to listen to all parties.",
+          "answer": "diplomacy"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ dispute over the islands has remained unresolved for several decades.",
+          "answer": "territorial"
+        },
+        {
+          "id": 4,
+          "sentence": "Both sides feared that a minor incident could lead to rapid _____ of the conflict.",
+          "answer": "escalation"
+        },
+        {
+          "id": 5,
+          "sentence": "A broad international _____ condemned the invasion and imposed economic sanctions.",
+          "answer": "coalition"
+        }
       ]
     },
     "ex4_reordering": {
       "type": "E7",
       "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["geopolitics", "studies", "how", "geography", "and", "power", "shape", "state", "relations"], "answer": "Geopolitics studies how geography and power shape state relations." },
-        { "id": 2, "words": ["nations", "seek", "security", "by", "forming", "alliances", "to", "deter", "conflict"], "answer": "Nations seek security by forming alliances to deter conflict." },
-        { "id": 3, "words": ["powerful", "states", "often", "fund", "or", "arm", "weaker", "actors", "in", "proxy", "wars"], "answer": "Powerful states often fund or arm weaker actors in proxy wars." },
-        { "id": 4, "words": ["sustainable", "peace", "typically", "requires", "ceasefire", "negotiations", "and", "mediation"], "answer": "Sustainable peace typically requires ceasefire negotiations and mediation." },
-        { "id": 5, "words": ["intervention", "without", "broad", "multilateral", "support", "risks", "deepening", "divisions"], "answer": "Intervention without broad multilateral support risks deepening divisions." }
+        {
+          "id": 1,
+          "words": [
+            "geopolitics",
+            "studies",
+            "how",
+            "geography",
+            "and",
+            "power",
+            "shape",
+            "state",
+            "relations"
+          ],
+          "answer": "Geopolitics studies how geography and power shape state relations."
+        },
+        {
+          "id": 2,
+          "words": [
+            "nations",
+            "seek",
+            "security",
+            "by",
+            "forming",
+            "alliances",
+            "to",
+            "deter",
+            "conflict"
+          ],
+          "answer": "Nations seek security by forming alliances to deter conflict."
+        },
+        {
+          "id": 3,
+          "words": [
+            "powerful",
+            "states",
+            "often",
+            "fund",
+            "or",
+            "arm",
+            "weaker",
+            "actors",
+            "in",
+            "proxy",
+            "wars"
+          ],
+          "answer": "Powerful states often fund or arm weaker actors in proxy wars."
+        },
+        {
+          "id": 4,
+          "words": [
+            "sustainable",
+            "peace",
+            "typically",
+            "requires",
+            "ceasefire",
+            "negotiations",
+            "and",
+            "mediation"
+          ],
+          "answer": "Sustainable peace typically requires ceasefire negotiations and mediation."
+        },
+        {
+          "id": 5,
+          "words": [
+            "intervention",
+            "without",
+            "broad",
+            "multilateral",
+            "support",
+            "risks",
+            "deepening",
+            "divisions"
+          ],
+          "answer": "Intervention without broad multilateral support risks deepening divisions."
+        }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
       "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The two nations formed an [alliance's] to defend against potential regional threats.", "highlighted": "alliance's", "options": { "A": "alliance's", "B": "alliance", "C": "allied" }, "answer": "B", "explanation": "'Alliance' is the direct object of 'formed' — no possessive apostrophe is needed." },
-        { "id": 2, "sentence": "Skilled [diplomatic] is essential when trying to resolve territorial disputes peacefully.", "highlighted": "diplomatic", "options": { "A": "diplomatic", "B": "diplomat", "C": "diplomacy" }, "answer": "C", "explanation": "'Diplomacy' is the noun form needed as the subject of the sentence — 'diplomatic' is an adjective and cannot be a subject." },
-        { "id": 3, "sentence": "The UN's [mandates] to maintain international peace was established in its founding charter.", "highlighted": "mandates", "options": { "A": "mandates", "B": "mandate", "C": "mandating" }, "answer": "B", "explanation": "The passage refers to one specific institutional mandate (singular) — 'mandates' (plural) is grammatically incorrect here." },
-        { "id": 4, "sentence": "The conflict continued to [escalate's] despite repeated international calls for a ceasefire.", "highlighted": "escalate's", "options": { "A": "escalate's", "B": "escalated", "C": "escalate" }, "answer": "C", "explanation": "After 'continued to', use the base verb form: 'to escalate' — 'escalate's' is not a valid verb form." },
-        { "id": 5, "sentence": "The [territorially] dispute between the two nations has resisted all attempts at resolution.", "highlighted": "territorially", "options": { "A": "territorially", "B": "territory", "C": "territorial" }, "answer": "C", "explanation": "'Territorial' is the adjective form needed to modify the noun 'dispute' — 'territorially' is an adverb and cannot modify a noun." }
+        {
+          "id": 1,
+          "sentence": "The two nations formed an [alliance's] to defend against potential regional threats.",
+          "highlighted": "alliance's",
+          "options": {
+            "A": "alliance's",
+            "B": "alliance",
+            "C": "allied"
+          },
+          "answer": "B",
+          "explanation": "'Alliance' is the direct object of 'formed' — no possessive apostrophe is needed."
+        },
+        {
+          "id": 2,
+          "sentence": "Skilled [diplomatic] is essential when trying to resolve territorial disputes peacefully.",
+          "highlighted": "diplomatic",
+          "options": {
+            "A": "diplomacy",
+            "B": "diplomatic",
+            "C": "diplomat"
+          },
+          "answer": "C",
+          "explanation": "'Diplomacy' is the noun form needed as the subject of the sentence — 'diplomatic' is an adjective and cannot be a subject."
+        },
+        {
+          "id": 3,
+          "sentence": "The UN's [mandates] to maintain international peace was established in its founding charter.",
+          "highlighted": "mandates",
+          "options": {
+            "A": "mandates",
+            "B": "mandate",
+            "C": "mandating"
+          },
+          "answer": "B",
+          "explanation": "The passage refers to one specific institutional mandate (singular) — 'mandates' (plural) is grammatically incorrect here."
+        },
+        {
+          "id": 4,
+          "sentence": "The conflict continued to [escalate's] despite repeated international calls for a ceasefire.",
+          "highlighted": "escalate's",
+          "options": {
+            "A": "escalate",
+            "B": "escalate's",
+            "C": "escalated"
+          },
+          "answer": "C",
+          "explanation": "After 'continued to', use the base verb form: 'to escalate' — 'escalate's' is not a valid verb form."
+        },
+        {
+          "id": 5,
+          "sentence": "The [territorially] dispute between the two nations has resisted all attempts at resolution.",
+          "highlighted": "territorially",
+          "options": {
+            "A": "territorially",
+            "B": "territory",
+            "C": "territorial"
+          },
+          "answer": "C",
+          "explanation": "'Territorial' is the adjective form needed to modify the noun 'dispute' — 'territorially' is an adverb and cannot modify a noun."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "Not Given", "3": "True", "4": "Not Given", "5": "True" },
-    "ex2": { "1": "hegemony", "2": "mandate", "3": "proxy", "4": "ceasefire", "5": "autonomy" },
-    "ex3": { "1": "alliance", "2": "diplomacy", "3": "territorial", "4": "escalation", "5": "coalition" },
-    "ex4": { "1": "Geopolitics studies how geography and power shape state relations.", "2": "Nations seek security by forming alliances to deter conflict.", "3": "Powerful states often fund or arm weaker actors in proxy wars.", "4": "Sustainable peace typically requires ceasefire negotiations and mediation.", "5": "Intervention without broad multilateral support risks deepening divisions." },
-    "ex5": { "1": "B", "2": "C", "3": "B", "4": "C", "5": "C" }
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "hegemony",
+      "2": "mandate",
+      "3": "proxy",
+      "4": "ceasefire",
+      "5": "autonomy"
+    },
+    "ex3": {
+      "1": "alliance",
+      "2": "diplomacy",
+      "3": "territorial",
+      "4": "escalation",
+      "5": "coalition"
+    },
+    "ex4": {
+      "1": "Geopolitics studies how geography and power shape state relations.",
+      "2": "Nations seek security by forming alliances to deter conflict.",
+      "3": "Powerful states often fund or arm weaker actors in proxy wars.",
+      "4": "Sustainable peace typically requires ceasefire negotiations and mediation.",
+      "5": "Intervention without broad multilateral support risks deepening divisions."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

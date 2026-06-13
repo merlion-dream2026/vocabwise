@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 5,
+    "topic_id": "b1-t05",
+    "topic_title": "Clothes & Getting Dressed",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    },
+    "emoji": "👕",
+    "topic_title_vi": "Quần Áo & Ăn Mặc",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 110,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I love **wearing** different **outfits** each day. In summer, I **wear** a light **shirt** and shorts. I always choose a **colour** that I like.",
+        "text_vi": "Tôi thích **mặc** những **bộ quần áo** khác nhau mỗi ngày. Vào mùa hè, tôi **mặc** một chiếc **áo** nhẹ và quần short. Tôi luôn chọn một **màu** mà mình thích."
+      },
+      {
+        "index": 2,
+        "text_en": "My favourite **outfit** is a blue **shirt** and dark trousers. It **looks** very smart and it **fits** me well. I also have **comfortable** **shoes** for school.",
+        "text_vi": "**Bộ quần áo** yêu thích của tôi là chiếc **áo** xanh và quần tây màu tối. Nó trông rất **đẹp** và **vừa vặn** với tôi. Tôi cũng có một đôi **giày** **thoải mái** để đi học."
+      },
+      {
+        "index": 3,
+        "text_en": "In winter, I **wear** a warm **coat** and a **jacket**. I also put on a **hat** when it is very cold. Each **season** needs a different **outfit**.",
+        "text_vi": "Vào mùa đông, tôi **mặc** một chiếc **áo khoác** dày và một chiếc **áo jacket**. Tôi cũng đội **mũ** khi trời rất lạnh. Mỗi **mùa** cần một **bộ quần áo** khác nhau."
+      },
+      {
+        "index": 4,
+        "text_en": "My school **uniform** has a special style — it is white and blue. The **jacket** has a **pocket** on the left side. I think it **looks** very **pretty**.",
+        "text_vi": "Bộ **đồng phục** trường tôi có kiểu dáng đặc biệt — màu trắng và xanh. Chiếc **áo jacket** có một **túi nhỏ** ở bên trái. Tôi nghĩ nó trông rất **đẹp**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "wear",
+      "ipa": "/weər/",
+      "pos": "verb",
+      "meaning_vi": "mặc, đeo, đội",
+      "meaning_vi_inline": "mặc",
+      "example_en": "She wears a uniform to school every day.",
+      "example_vi": "Cô ấy mặc đồng phục đến trường mỗi ngày.",
+      "word_family": {
+        "noun": "wear / outerwear / footwear",
+        "verb": "wear / wore / worn",
+        "adjective": "wearable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "where",
+        "explanation_vi": "'Wear' (mặc) và 'where' (ở đâu) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+      }
+    },
+    {
+      "id": 2,
+      "word": "shirt",
+      "ipa": "/ʃɜːrt/",
+      "pos": "noun",
+      "meaning_vi": "áo sơ-mi, áo",
+      "meaning_vi_inline": "áo sơ-mi",
+      "example_en": "He wears a white shirt and blue trousers to school every day.",
+      "example_vi": "Anh ấy mặc áo sơ-mi trắng và quần tây xanh đến trường mỗi ngày.",
+      "word_family": {
+        "noun": "shirt / T-shirt",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "outfit",
+      "ipa": "/ˈaʊtfɪt/",
+      "pos": "noun",
+      "meaning_vi": "bộ quần áo, trang phục",
+      "meaning_vi_inline": "bộ quần áo",
+      "example_en": "She chose a pretty outfit for the school party.",
+      "example_vi": "Cô ấy chọn một bộ quần áo đẹp cho bữa tiệc trường.",
+      "word_family": {
+        "noun": "outfit",
+        "verb": "outfit",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "shoes",
+      "ipa": "/ʃuːz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "giày",
+      "meaning_vi_inline": "giày",
+      "example_en": "I always wear comfortable shoes when I walk long distances.",
+      "example_vi": "Tôi luôn đi giày thoải mái khi đi bộ đường dài.",
+      "word_family": {
+        "noun": "shoe / shoes / footwear",
+        "verb": "shoe",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "colour",
+      "ipa": "/ˈkʌlər/",
+      "pos": "noun",
+      "meaning_vi": "màu sắc",
+      "meaning_vi_inline": "màu",
+      "example_en": "Her favourite colour is blue — she wears it every day.",
+      "example_vi": "Màu yêu thích của cô ấy là xanh dương — cô ấy mặc màu đó mỗi ngày.",
+      "word_family": {
+        "noun": "colour",
+        "verb": "colour",
+        "adjective": "colourful / colourless",
+        "adverb": "colourfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "pretty",
+      "ipa": "/ˈprɪti/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "đẹp, xinh; khá, tương đối",
+      "meaning_vi_inline": "đẹp / xinh",
+      "example_en": "She wore a pretty dress with small flowers on it.",
+      "example_vi": "Cô ấy mặc một chiếc váy đẹp có hoa nhỏ trên đó.",
+      "word_family": {
+        "noun": "prettiness",
+        "verb": null,
+        "adjective": "pretty",
+        "adverb": "prettily / pretty (as in 'pretty good')"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "look",
+      "ipa": "/lʊk/",
+      "pos": "verb / noun",
+      "meaning_vi": "trông, có vẻ; cái nhìn",
+      "meaning_vi_inline": "trông",
+      "example_en": "She looks great in that blue shirt — the colour suits her.",
+      "example_vi": "Cô ấy trông rất đẹp trong chiếc áo xanh đó — màu rất hợp với cô ấy.",
+      "word_family": {
+        "noun": "look / looks",
+        "verb": "look / looked",
+        "adjective": "good-looking",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "fit",
+      "ipa": "/fɪt/",
+      "pos": "verb / adjective",
+      "meaning_vi": "vừa vặn; khỏe mạnh",
+      "meaning_vi_inline": "vừa vặn / phù hợp",
+      "example_en": "This jacket fits me perfectly — the size is just right.",
+      "example_vi": "Chiếc áo khoác này vừa vặn với tôi — kích cỡ vừa đúng.",
+      "word_family": {
+        "noun": "fit / fitness",
+        "verb": "fit / fitted / fit",
+        "adjective": "fit / fitting",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "comfortable",
+      "ipa": "/ˈkʌmftəbl/",
+      "pos": "adjective",
+      "meaning_vi": "thoải mái, dễ chịu",
+      "meaning_vi_inline": "thoải mái",
+      "example_en": "I wear comfortable shoes because I walk a lot.",
+      "example_vi": "Tôi đi giày thoải mái vì tôi đi bộ nhiều.",
+      "word_family": {
+        "noun": "comfort",
+        "verb": "comfort",
+        "adjective": "comfortable / uncomfortable",
+        "adverb": "comfortably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "jacket",
+      "ipa": "/ˈdʒækɪt/",
+      "pos": "noun",
+      "meaning_vi": "áo jacket, áo khoác ngoài",
+      "meaning_vi_inline": "áo jacket",
+      "example_en": "He put on his jacket because it was cold and windy outside.",
+      "example_vi": "Anh ấy mặc áo jacket vì bên ngoài trời lạnh và có gió.",
+      "word_family": {
+        "noun": "jacket",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "hat",
+      "ipa": "/hæt/",
+      "pos": "noun",
+      "meaning_vi": "mũ (vành rộng), nón",
+      "meaning_vi_inline": "mũ / nón",
+      "example_en": "She wore a wide hat to protect her face from the sun.",
+      "example_vi": "Cô ấy đội một chiếc mũ rộng vành để bảo vệ mặt khỏi ánh nắng.",
+      "word_family": {
+        "noun": "hat / cap / headwear",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "uniform",
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "pos": "noun",
+      "meaning_vi": "đồng phục",
+      "meaning_vi_inline": "đồng phục",
+      "example_en": "All students at our school wear a blue and white uniform.",
+      "example_vi": "Tất cả học sinh trường tôi đều mặc đồng phục xanh trắng.",
+      "word_family": {
+        "noun": "uniform",
+        "verb": null,
+        "adjective": "uniform / uniformed",
+        "adverb": "uniformly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "coat",
+      "ipa": "/koʊt/",
+      "pos": "noun",
+      "meaning_vi": "áo khoác dài, áo choàng",
+      "meaning_vi_inline": "áo khoác",
+      "example_en": "She put on a thick coat because the weather was very cold.",
+      "example_vi": "Cô ấy mặc một chiếc áo khoác dày vì thời tiết rất lạnh.",
+      "word_family": {
+        "noun": "coat / overcoat / raincoat",
+        "verb": "coat",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "season",
+      "ipa": "/ˈsiːzən/",
+      "pos": "noun",
+      "meaning_vi": "mùa, mùa trong năm",
+      "meaning_vi_inline": "mùa",
+      "example_en": "My favourite season is autumn because the weather is cool.",
+      "example_vi": "Mùa yêu thích của tôi là mùa thu vì thời tiết mát mẻ.",
+      "word_family": {
+        "noun": "season",
+        "verb": "season",
+        "adjective": "seasonal",
+        "adverb": "seasonally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "pocket",
+      "ipa": "/ˈpɒkɪt/",
+      "pos": "noun",
+      "meaning_vi": "túi nhỏ (trên quần áo)",
+      "meaning_vi_inline": "túi áo / túi quần",
+      "example_en": "He kept his keys in his jacket pocket.",
+      "example_vi": "Anh ấy để chìa khóa trong túi áo jacket.",
+      "word_family": {
+        "noun": "pocket",
+        "verb": "pocket",
+        "adjective": "pocket-sized",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "outfit"
+        },
+        {
+          "id": 2,
+          "word": "uniform"
+        },
+        {
+          "id": 3,
+          "word": "comfortable"
+        },
+        {
+          "id": 4,
+          "word": "season"
+        },
+        {
+          "id": 5,
+          "word": "pocket"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a small bag sewn into clothing to hold small things"
+        },
+        {
+          "id": "B",
+          "text": "all the clothes worn together at one time"
+        },
+        {
+          "id": "C",
+          "text": "feeling pleasant to wear; not causing pain or discomfort"
+        },
+        {
+          "id": "D",
+          "text": "official clothing worn by members of a school or team"
+        },
+        {
+          "id": "E",
+          "text": "one of the four periods of the year: spring, summer, autumn, winter"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She always wears _____ shoes when she goes for a long walk.",
+          "options": [
+            "comfortable",
+            "pretty",
+            "cheap",
+            "expensive"
+          ],
+          "answer": "comfortable"
+        },
+        {
+          "id": 2,
+          "sentence": "My school _____ is white and blue — I wear it every weekday.",
+          "options": [
+            "clothes",
+            "outfit",
+            "uniform",
+            "coat"
+          ],
+          "answer": "uniform"
+        },
+        {
+          "id": 3,
+          "sentence": "This jacket _____ me perfectly — the size is exactly right.",
+          "options": [
+            "looks",
+            "fits",
+            "wears",
+            "suits"
+          ],
+          "answer": "fits"
+        },
+        {
+          "id": 4,
+          "sentence": "He put his phone in his _____ so his hands were free.",
+          "options": [
+            "bag",
+            "hat",
+            "pocket",
+            "shoes"
+          ],
+          "answer": "pocket"
+        },
+        {
+          "id": 5,
+          "sentence": "I love this _____ — a white shirt, dark trousers, and black shoes.",
+          "options": [
+            "outfit",
+            "colour",
+            "size",
+            "season"
+          ],
+          "answer": "outfit"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "wear",
+        "season",
+        "comfortable",
+        "jacket",
+        "hat",
+        "uniform"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She decided to _____ a blue shirt and dark trousers to the meeting.",
+          "answer": "wear"
+        },
+        {
+          "id": 2,
+          "sentence": "Summer is my favourite _____ because I love hot and sunny weather.",
+          "answer": "season"
+        },
+        {
+          "id": 3,
+          "sentence": "These shoes are very _____ — I can walk in them all day without pain.",
+          "answer": "comfortable"
+        },
+        {
+          "id": 4,
+          "sentence": "He put on his _____ because it was cold and windy outside.",
+          "answer": "jacket"
+        },
+        {
+          "id": 5,
+          "sentence": "He lost his _____ on the way home and his head got very cold.",
+          "answer": "hat"
+        }
+      ],
+      "note": "One word in the box is not used: uniform"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She dressed very _____ for the school party — everyone admired her outfit. (PRETTY)",
+          "base_word": "PRETTY",
+          "answer": "prettily",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "These shoes are the most _____ I have ever owned — I can walk all day in them. (COMFORT)",
+          "base_word": "COMFORT",
+          "answer": "comfortable",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ her uniform neatly every morning before leaving for school. (WEAR)",
+          "base_word": "WEAR",
+          "answer": "wears",
+          "form_used": "verb (3rd person singular)"
+        },
+        {
+          "id": 4,
+          "sentence": "The jacket _____ her perfectly — it was exactly the right size. (FIT)",
+          "base_word": "FIT",
+          "answer": "fitted",
+          "form_used": "verb (past simple)"
+        },
+        {
+          "id": 5,
+          "sentence": "This colour _____ great on you — it really matches your skin tone. (LOOK)",
+          "base_word": "LOOK",
+          "answer": "looks",
+          "form_used": "verb (3rd person singular)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She put on her school [uniforms] this morning before leaving the house.",
+          "highlighted": "uniforms",
+          "options": {
+            "A": "uniform",
+            "B": "uniforms",
+            "C": "uniformly"
+          },
+          "answer": "B",
+          "explanation": "'Her school uniform' is singular — one specific set of clothing. 'Uniforms' (plural) is incorrect here."
+        },
+        {
+          "id": 2,
+          "sentence": "This shirt [fitting] me perfectly — the size is just right.",
+          "highlighted": "fitting",
+          "options": {
+            "A": "fitting",
+            "B": "fitted",
+            "C": "fits"
+          },
+          "answer": "C",
+          "explanation": "In simple present tense, third-person singular subject 'This shirt' needs 'fits', not the continuous form 'fitting'."
+        },
+        {
+          "id": 3,
+          "sentence": "In summer, I [wears] a light shirt and comfortable shorts.",
+          "highlighted": "wears",
+          "options": {
+            "A": "wear",
+            "B": "wears",
+            "C": "wearing"
+          },
+          "answer": "B",
+          "explanation": "First-person singular 'I' takes the base verb form: 'wear', not 'wears' (which is used with he/she/it)."
+        },
+        {
+          "id": 4,
+          "sentence": "She has a very [comfort] pair of shoes for long walks.",
+          "highlighted": "comfort",
+          "options": {
+            "A": "comfort",
+            "B": "comfortably",
+            "C": "comfortable"
+          },
+          "answer": "C",
+          "explanation": "'Comfortable' (adjective) describes the shoes. 'Comfort' is a noun or verb, not an adjective."
+        },
+        {
+          "id": 5,
+          "sentence": "My school jacket has a [pockets] on the left side.",
+          "highlighted": "pockets",
+          "options": {
+            "A": "pockets",
+            "B": "pocket",
+            "C": "pocketing"
+          },
+          "answer": "B",
+          "explanation": "Use 'a pocket' (singular) after the article 'a'. 'A pockets' is grammatically incorrect."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "B",
+      "2": "D",
+      "3": "C",
+      "4": "E",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "comfortable",
+      "2": "uniform",
+      "3": "fits",
+      "4": "pocket",
+      "5": "outfit"
+    },
+    "ex3": {
+      "1": "wear",
+      "2": "season",
+      "3": "comfortable",
+      "4": "jacket",
+      "5": "hat"
+    },
+    "ex4": {
+      "1": "prettily",
+      "2": "comfortable",
+      "3": "wears",
+      "4": "fitted",
+      "5": "looks"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

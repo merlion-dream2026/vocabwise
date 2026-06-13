@@ -532,8 +532,8 @@
           "sentence": "The doctor made a [diagnose] after examining the patient carefully.",
           "highlighted": "diagnose",
           "options": {
-            "A": "diagnose",
-            "B": "diagnosis",
+            "A": "diagnosis",
+            "B": "diagnose",
             "C": "diagnostic"
           },
           "answer": "B",
@@ -556,8 +556,8 @@
           "sentence": "He was [referred] to see a [specialise] at the city hospital.",
           "highlighted": "specialise",
           "options": {
-            "A": "specialise",
-            "B": "specialist",
+            "A": "specialist",
+            "B": "specialise",
             "C": "special"
           },
           "answer": "B",
@@ -620,9 +620,9 @@
       "5": "His recovery was complete after six weeks."
     },
     "ex5": {
-      "1": "B",
+      "1": "A",
       "2": "B",
-      "3": "B",
+      "3": "A",
       "4": "B",
       "5": "B"
     }

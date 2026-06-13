@@ -1,12 +1,24 @@
 {
   "meta": {
-    "book": 3, "topic_number": 1, "topic_id": "b3-t01",
+    "book": 3,
+    "topic_number": 1,
+    "topic_id": "b3-t01",
     "topic_title": "Globalisation & International Trade",
-    "theme_number": 1, "theme_title": "Power, Society & Global Affairs",
-    "cefr_level": "C1-C2", "combo": "C1",
-    "emoji": "🌐", "topic_title_vi": "Toàn Cầu Hóa & Thương Mại", "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "theme_number": 1,
+    "theme_title": "Power, Society & Global Affairs",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🌐",
+    "topic_title_vi": "Toàn Cầu Hóa & Thương Mại",
+    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    }
   },
   "passage": {
     "word_count": 228,
@@ -34,21 +46,294 @@
     ]
   },
   "glossary": [
-    { "id": 1, "word": "globalisation", "ipa": "/ˌɡloʊ.bəl.aɪˈzeɪ.ʃən/", "pos": "noun", "meaning_vi": "toàn cầu hóa", "meaning_vi_inline": "toàn cầu hóa", "example_en": "Globalisation has connected markets across the world.", "example_vi": "Toàn cầu hóa đã kết nối các thị trường trên khắp thế giới.", "word_family": { "noun": "globalisation / globe / globalism", "verb": "globalise", "adjective": "global / globalised", "adverb": "globally" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 2, "word": "tariff", "ipa": "/ˈtær.ɪf/", "pos": "noun", "meaning_vi": "thuế quan", "meaning_vi_inline": "thuế quan", "example_en": "The government reduced tariffs on imported goods.", "example_vi": "Chính phủ đã giảm thuế quan đối với hàng nhập khẩu.", "word_family": { "noun": "tariff", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "terrific", "explanation_vi": "'Tariff' (thuế quan) không liên quan đến 'terrific' (tuyệt vời) — phát âm tương tự nhưng nghĩa hoàn toàn khác." }, "receptive_productive": "P" },
-    { "id": 3, "word": "bilateral", "ipa": "/ˌbaɪˈlæt.ər.əl/", "pos": "adjective", "meaning_vi": "song phương, hai bên", "meaning_vi_inline": "song phương", "example_en": "The two countries signed a bilateral trade agreement.", "example_vi": "Hai quốc gia đã ký một thỏa thuận thương mại song phương.", "word_family": { "noun": null, "verb": null, "adjective": "bilateral / multilateral / unilateral", "adverb": "bilaterally" }, "false_friend": { "word_vi": "multilateral", "explanation_vi": "'Bilateral' là giữa hai bên; 'multilateral' là giữa nhiều bên — không thay thế cho nhau." }, "receptive_productive": "P" },
-    { "id": 4, "word": "commodity", "ipa": "/kəˈmɒd.ɪ.ti/", "pos": "noun", "meaning_vi": "hàng hóa cơ bản, mặt hàng", "meaning_vi_inline": "hàng hóa", "example_en": "Oil is the world's most widely traded commodity.", "example_vi": "Dầu mỏ là mặt hàng được giao dịch rộng rãi nhất thế giới.", "word_family": { "noun": "commodity / commodities", "verb": "commodify", "adjective": "commoditised", "adverb": null }, "false_friend": { "word_vi": "community", "explanation_vi": "'Commodity' là hàng hóa; 'community' là cộng đồng — hoàn toàn khác nghĩa." }, "receptive_productive": "P" },
-    { "id": 5, "word": "sovereignty", "ipa": "/ˈsɒv.rɪn.ti/", "pos": "noun", "meaning_vi": "chủ quyền", "meaning_vi_inline": "chủ quyền", "example_en": "Nations guard their sovereignty very closely.", "example_vi": "Các quốc gia bảo vệ chủ quyền của mình rất chặt chẽ.", "word_family": { "noun": "sovereignty", "verb": null, "adjective": "sovereign", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 6, "word": "interdependence", "ipa": "/ˌɪn.tə.dɪˈpen.dəns/", "pos": "noun", "meaning_vi": "sự phụ thuộc lẫn nhau", "meaning_vi_inline": "phụ thuộc lẫn nhau", "example_en": "Economic interdependence makes global crises more impactful.", "example_vi": "Sự phụ thuộc kinh tế lẫn nhau khiến các cuộc khủng hoảng toàn cầu có tác động lớn hơn.", "word_family": { "noun": "interdependence", "verb": "depend", "adjective": "interdependent", "adverb": "interdependently" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 7, "word": "liberalisation", "ipa": "/ˌlɪb.ər.əl.aɪˈzeɪ.ʃən/", "pos": "noun", "meaning_vi": "tự do hóa (thương mại)", "meaning_vi_inline": "tự do hóa", "example_en": "Trade liberalisation opened new markets for exporters.", "example_vi": "Tự do hóa thương mại mở ra thị trường mới cho các nhà xuất khẩu.", "word_family": { "noun": "liberalisation / liberalism", "verb": "liberalise", "adjective": "liberal / liberalised", "adverb": "liberally" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 8, "word": "deficit", "ipa": "/ˈdef.ɪ.sɪt/", "pos": "noun", "meaning_vi": "thâm hụt", "meaning_vi_inline": "thâm hụt", "example_en": "The country has run a trade deficit for five years.", "example_vi": "Đất nước đã duy trì thâm hụt thương mại trong năm năm.", "word_family": { "noun": "deficit", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "deficiency", "explanation_vi": "'Deficit' là thâm hụt tài chính/số lượng; 'deficiency' là sự thiếu hụt về chất lượng hoặc dinh dưỡng." }, "receptive_productive": "P" },
-    { "id": 9, "word": "surplus", "ipa": "/ˈsɜː.pləs/", "pos": "noun", "meaning_vi": "thặng dư, dư thừa", "meaning_vi_inline": "thặng dư", "example_en": "Germany has maintained a large trade surplus for years.", "example_vi": "Đức đã duy trì thặng dư thương mại lớn trong nhiều năm.", "word_family": { "noun": "surplus", "verb": null, "adjective": "surplus", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 10, "word": "protectionism", "ipa": "/prəˈtek.ʃən.ɪ.z(ə)m/", "pos": "noun", "meaning_vi": "chủ nghĩa bảo hộ", "meaning_vi_inline": "bảo hộ thương mại", "example_en": "Protectionism may shield local industries but raises consumer prices.", "example_vi": "Chủ nghĩa bảo hộ có thể bảo vệ ngành nội địa nhưng làm tăng giá tiêu dùng.", "word_family": { "noun": "protectionism / protectionist", "verb": "protect", "adjective": "protectionist / protective", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 11, "word": "sanction", "ipa": "/ˈsæŋk.ʃən/", "pos": "noun", "meaning_vi": "lệnh trừng phạt, biện pháp chế tài", "meaning_vi_inline": "trừng phạt", "example_en": "Economic sanctions were imposed to pressure the government.", "example_vi": "Các biện pháp trừng phạt kinh tế được áp đặt để gây sức ép lên chính phủ.", "word_family": { "noun": "sanction", "verb": "sanction", "adjective": null, "adverb": null }, "false_friend": { "word_vi": "sanction (chấp thuận)", "explanation_vi": "'Sanction' có hai nghĩa đối lập: (1) lệnh trừng phạt và (2) sự chấp thuận chính thức — cần xem văn cảnh để phân biệt." }, "receptive_productive": "P" },
-    { "id": 12, "word": "emerging", "ipa": "/ɪˈmɜː.dʒɪŋ/", "pos": "adjective", "meaning_vi": "mới nổi", "meaning_vi_inline": "mới nổi", "example_en": "Emerging markets in Asia attract billions in investment.", "example_vi": "Các thị trường mới nổi ở châu Á thu hút hàng tỷ đô la đầu tư.", "word_family": { "noun": "emergence", "verb": "emerge", "adjective": "emerging / emergent", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 13, "word": "treaty", "ipa": "/ˈtriː.ti/", "pos": "noun", "meaning_vi": "hiệp ước", "meaning_vi_inline": "hiệp ước", "example_en": "The two nations signed a free trade treaty.", "example_vi": "Hai quốc gia đã ký một hiệp ước thương mại tự do.", "word_family": { "noun": "treaty", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 14, "word": "export", "ipa": "n: /ˈek.spɔːt/ · v: /ɪkˈspɔːt/", "pos": "noun / verb", "meaning_vi": "xuất khẩu", "meaning_vi_inline": "xuất khẩu", "example_en": "The country's main exports are oil and gas.", "example_vi": "Các mặt hàng xuất khẩu chính của đất nước là dầu mỏ và khí đốt.", "word_family": { "noun": "export / exporter", "verb": "export", "adjective": "exportable", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 15, "word": "regime", "ipa": "/reɪˈʒiːm/", "pos": "noun", "meaning_vi": "chế độ; cơ chế, hệ thống", "meaning_vi_inline": "cơ chế", "example_en": "The WTO oversees the international trade regime.", "example_vi": "WTO giám sát cơ chế thương mại quốc tế.", "word_family": { "noun": "regime", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "region", "explanation_vi": "'Regime' là chế độ hoặc cơ chế; 'region' là vùng địa lý — phát âm và nghĩa đều khác nhau." }, "receptive_productive": "P" }
+    {
+      "id": 1,
+      "word": "globalisation",
+      "ipa": "/ˌɡloʊ.bəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "toàn cầu hóa",
+      "meaning_vi_inline": "toàn cầu hóa",
+      "example_en": "Globalisation has connected markets across the world.",
+      "example_vi": "Toàn cầu hóa đã kết nối các thị trường trên khắp thế giới.",
+      "word_family": {
+        "noun": "globalisation / globe / globalism",
+        "verb": "globalise",
+        "adjective": "global / globalised",
+        "adverb": "globally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "tariff",
+      "ipa": "/ˈtær.ɪf/",
+      "pos": "noun",
+      "meaning_vi": "thuế quan",
+      "meaning_vi_inline": "thuế quan",
+      "example_en": "The government reduced tariffs on imported goods.",
+      "example_vi": "Chính phủ đã giảm thuế quan đối với hàng nhập khẩu.",
+      "word_family": {
+        "noun": "tariff",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "terrific",
+        "explanation_vi": "'Tariff' (thuế quan) không liên quan đến 'terrific' (tuyệt vời) — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "bilateral",
+      "ipa": "/ˌbaɪˈlæt.ər.əl/",
+      "pos": "adjective",
+      "meaning_vi": "song phương, hai bên",
+      "meaning_vi_inline": "song phương",
+      "example_en": "The two countries signed a bilateral trade agreement.",
+      "example_vi": "Hai quốc gia đã ký một thỏa thuận thương mại song phương.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "bilateral / multilateral / unilateral",
+        "adverb": "bilaterally"
+      },
+      "false_friend": {
+        "word_vi": "multilateral",
+        "explanation_vi": "'Bilateral' là giữa hai bên; 'multilateral' là giữa nhiều bên — không thay thế cho nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "commodity",
+      "ipa": "/kəˈmɒd.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "hàng hóa cơ bản, mặt hàng",
+      "meaning_vi_inline": "hàng hóa",
+      "example_en": "Oil is the world's most widely traded commodity.",
+      "example_vi": "Dầu mỏ là mặt hàng được giao dịch rộng rãi nhất thế giới.",
+      "word_family": {
+        "noun": "commodity / commodities",
+        "verb": "commodify",
+        "adjective": "commoditised",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "community",
+        "explanation_vi": "'Commodity' là hàng hóa; 'community' là cộng đồng — hoàn toàn khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "sovereignty",
+      "ipa": "/ˈsɒv.rɪn.ti/",
+      "pos": "noun",
+      "meaning_vi": "chủ quyền",
+      "meaning_vi_inline": "chủ quyền",
+      "example_en": "Nations guard their sovereignty very closely.",
+      "example_vi": "Các quốc gia bảo vệ chủ quyền của mình rất chặt chẽ.",
+      "word_family": {
+        "noun": "sovereignty",
+        "verb": null,
+        "adjective": "sovereign",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "interdependence",
+      "ipa": "/ˌɪn.tə.dɪˈpen.dəns/",
+      "pos": "noun",
+      "meaning_vi": "sự phụ thuộc lẫn nhau",
+      "meaning_vi_inline": "phụ thuộc lẫn nhau",
+      "example_en": "Economic interdependence makes global crises more impactful.",
+      "example_vi": "Sự phụ thuộc kinh tế lẫn nhau khiến các cuộc khủng hoảng toàn cầu có tác động lớn hơn.",
+      "word_family": {
+        "noun": "interdependence",
+        "verb": "depend",
+        "adjective": "interdependent",
+        "adverb": "interdependently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "liberalisation",
+      "ipa": "/ˌlɪb.ər.əl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tự do hóa (thương mại)",
+      "meaning_vi_inline": "tự do hóa",
+      "example_en": "Trade liberalisation opened new markets for exporters.",
+      "example_vi": "Tự do hóa thương mại mở ra thị trường mới cho các nhà xuất khẩu.",
+      "word_family": {
+        "noun": "liberalisation / liberalism",
+        "verb": "liberalise",
+        "adjective": "liberal / liberalised",
+        "adverb": "liberally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "deficit",
+      "ipa": "/ˈdef.ɪ.sɪt/",
+      "pos": "noun",
+      "meaning_vi": "thâm hụt",
+      "meaning_vi_inline": "thâm hụt",
+      "example_en": "The country has run a trade deficit for five years.",
+      "example_vi": "Đất nước đã duy trì thâm hụt thương mại trong năm năm.",
+      "word_family": {
+        "noun": "deficit",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "deficiency",
+        "explanation_vi": "'Deficit' là thâm hụt tài chính/số lượng; 'deficiency' là sự thiếu hụt về chất lượng hoặc dinh dưỡng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "surplus",
+      "ipa": "/ˈsɜː.pləs/",
+      "pos": "noun",
+      "meaning_vi": "thặng dư, dư thừa",
+      "meaning_vi_inline": "thặng dư",
+      "example_en": "Germany has maintained a large trade surplus for years.",
+      "example_vi": "Đức đã duy trì thặng dư thương mại lớn trong nhiều năm.",
+      "word_family": {
+        "noun": "surplus",
+        "verb": null,
+        "adjective": "surplus",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "protectionism",
+      "ipa": "/prəˈtek.ʃən.ɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa bảo hộ",
+      "meaning_vi_inline": "bảo hộ thương mại",
+      "example_en": "Protectionism may shield local industries but raises consumer prices.",
+      "example_vi": "Chủ nghĩa bảo hộ có thể bảo vệ ngành nội địa nhưng làm tăng giá tiêu dùng.",
+      "word_family": {
+        "noun": "protectionism / protectionist",
+        "verb": "protect",
+        "adjective": "protectionist / protective",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "sanction",
+      "ipa": "/ˈsæŋk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lệnh trừng phạt, biện pháp chế tài",
+      "meaning_vi_inline": "trừng phạt",
+      "example_en": "Economic sanctions were imposed to pressure the government.",
+      "example_vi": "Các biện pháp trừng phạt kinh tế được áp đặt để gây sức ép lên chính phủ.",
+      "word_family": {
+        "noun": "sanction",
+        "verb": "sanction",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "sanction (chấp thuận)",
+        "explanation_vi": "'Sanction' có hai nghĩa đối lập: (1) lệnh trừng phạt và (2) sự chấp thuận chính thức — cần xem văn cảnh để phân biệt."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "emerging",
+      "ipa": "/ɪˈmɜː.dʒɪŋ/",
+      "pos": "adjective",
+      "meaning_vi": "mới nổi",
+      "meaning_vi_inline": "mới nổi",
+      "example_en": "Emerging markets in Asia attract billions in investment.",
+      "example_vi": "Các thị trường mới nổi ở châu Á thu hút hàng tỷ đô la đầu tư.",
+      "word_family": {
+        "noun": "emergence",
+        "verb": "emerge",
+        "adjective": "emerging / emergent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "treaty",
+      "ipa": "/ˈtriː.ti/",
+      "pos": "noun",
+      "meaning_vi": "hiệp ước",
+      "meaning_vi_inline": "hiệp ước",
+      "example_en": "The two nations signed a free trade treaty.",
+      "example_vi": "Hai quốc gia đã ký một hiệp ước thương mại tự do.",
+      "word_family": {
+        "noun": "treaty",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "export",
+      "ipa": "n: /ˈek.spɔːt/ · v: /ɪkˈspɔːt/",
+      "pos": "noun / verb",
+      "meaning_vi": "xuất khẩu",
+      "meaning_vi_inline": "xuất khẩu",
+      "example_en": "The country's main exports are oil and gas.",
+      "example_vi": "Các mặt hàng xuất khẩu chính của đất nước là dầu mỏ và khí đốt.",
+      "word_family": {
+        "noun": "export / exporter",
+        "verb": "export",
+        "adjective": "exportable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "regime",
+      "ipa": "/reɪˈʒiːm/",
+      "pos": "noun",
+      "meaning_vi": "chế độ; cơ chế, hệ thống",
+      "meaning_vi_inline": "cơ chế",
+      "example_en": "The WTO oversees the international trade regime.",
+      "example_vi": "WTO giám sát cơ chế thương mại quốc tế.",
+      "word_family": {
+        "noun": "regime",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "region",
+        "explanation_vi": "'Regime' là chế độ hoặc cơ chế; 'region' là vùng địa lý — phát âm và nghĩa đều khác nhau."
+      },
+      "receptive_productive": "P"
+    }
   ],
   "exercises": {
     "combo": "C1",
@@ -56,64 +341,315 @@
       "type": "E5",
       "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "Bilateral treaties between nations are designed to reduce tariffs and encourage trade.", "answer": "True" },
-        { "id": 2, "statement": "Southeast Asian nations have benefited primarily from the services sector.", "answer": "Not Given" },
-        { "id": 3, "statement": "Countries with persistent trade deficits face economic vulnerabilities.", "answer": "True" },
-        { "id": 4, "statement": "The WTO has recently introduced significant reforms to its trade rules.", "answer": "Not Given" },
-        { "id": 5, "statement": "Countries with large trade surpluses are sometimes accused of protectionist behaviour.", "answer": "True" }
+        {
+          "id": 1,
+          "statement": "Bilateral treaties between nations are designed to reduce tariffs and encourage trade.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Southeast Asian nations have benefited primarily from the services sector.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Countries with persistent trade deficits face economic vulnerabilities.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The WTO has recently introduced significant reforms to its trade rules.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "Countries with large trade surpluses are sometimes accused of protectionist behaviour.",
+          "answer": "True"
+        }
       ]
     },
     "ex2_mcq_context": {
       "type": "E3",
       "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "The government signed a _____ agreement with its neighbour to eliminate import duties.", "options": ["bilateral", "surplus", "deficit", "commodity"], "answer": "bilateral" },
-        { "id": 2, "sentence": "Running a large trade _____ means a country imports significantly more than it exports.", "options": ["surplus", "deficit", "regime", "sanction"], "answer": "deficit" },
-        { "id": 3, "sentence": "Coffee and cocoa are major agricultural _____ in many developing economies.", "options": ["regimes", "treaties", "commodities", "tariffs"], "answer": "commodities" },
-        { "id": 4, "sentence": "Economic _____ between nations means a crisis in one country can affect many others.", "options": ["liberalisation", "protectionism", "interdependence", "sovereignty"], "answer": "interdependence" },
-        { "id": 5, "sentence": "The international community imposed _____ on the country to halt its nuclear programme.", "options": ["tariffs", "treaties", "surpluses", "sanctions"], "answer": "sanctions" }
+        {
+          "id": 1,
+          "sentence": "The government signed a _____ agreement with its neighbour to eliminate import duties.",
+          "options": [
+            "bilateral",
+            "surplus",
+            "deficit",
+            "commodity"
+          ],
+          "answer": "bilateral"
+        },
+        {
+          "id": 2,
+          "sentence": "Running a large trade _____ means a country imports significantly more than it exports.",
+          "options": [
+            "surplus",
+            "deficit",
+            "regime",
+            "sanction"
+          ],
+          "answer": "deficit"
+        },
+        {
+          "id": 3,
+          "sentence": "Coffee and cocoa are major agricultural _____ in many developing economies.",
+          "options": [
+            "regimes",
+            "treaties",
+            "commodities",
+            "tariffs"
+          ],
+          "answer": "commodities"
+        },
+        {
+          "id": 4,
+          "sentence": "Economic _____ between nations means a crisis in one country can affect many others.",
+          "options": [
+            "liberalisation",
+            "protectionism",
+            "interdependence",
+            "sovereignty"
+          ],
+          "answer": "interdependence"
+        },
+        {
+          "id": 5,
+          "sentence": "The international community imposed _____ on the country to halt its nuclear programme.",
+          "options": [
+            "tariffs",
+            "treaties",
+            "surpluses",
+            "sanctions"
+          ],
+          "answer": "sanctions"
+        }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["emerging", "treaty", "deficit", "surplus", "regime"],
+      "word_bank": [
+        "emerging",
+        "treaty",
+        "deficit",
+        "surplus",
+        "regime"
+      ],
       "items": [
-        { "id": 1, "sentence": "Vietnam is considered an _____ economy that has grown rapidly through manufacturing exports.", "answer": "emerging" },
-        { "id": 2, "sentence": "The two nations signed a free trade _____ that eliminated tariffs on most goods.", "answer": "treaty" },
-        { "id": 3, "sentence": "The country's persistent trade _____ has weakened its currency and drained its reserves.", "answer": "deficit" },
-        { "id": 4, "sentence": "Nations with a large trade _____ often reinvest their earnings in foreign assets.", "answer": "surplus" },
-        { "id": 5, "sentence": "The international trade _____ is primarily governed by the World Trade Organisation.", "answer": "regime" }
+        {
+          "id": 1,
+          "sentence": "Vietnam is considered an _____ economy that has grown rapidly through manufacturing exports.",
+          "answer": "emerging"
+        },
+        {
+          "id": 2,
+          "sentence": "The two nations signed a free trade _____ that eliminated tariffs on most goods.",
+          "answer": "treaty"
+        },
+        {
+          "id": 3,
+          "sentence": "The country's persistent trade _____ has weakened its currency and drained its reserves.",
+          "answer": "deficit"
+        },
+        {
+          "id": 4,
+          "sentence": "Nations with a large trade _____ often reinvest their earnings in foreign assets.",
+          "answer": "surplus"
+        },
+        {
+          "id": 5,
+          "sentence": "The international trade _____ is primarily governed by the World Trade Organisation.",
+          "answer": "regime"
+        }
       ]
     },
     "ex4_reordering": {
       "type": "E7",
       "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["globalisation", "has", "the", "of", "fundamentally", "world", "transformed", "economies", "integration"], "answer": "Globalisation has fundamentally transformed the integration of world economies." },
-        { "id": 2, "words": ["bilateral", "reduce", "tariffs", "help", "treaties", "to", "between", "partners", "trading"], "answer": "Bilateral treaties help to reduce tariffs between trading partners." },
-        { "id": 3, "words": ["a", "trade", "deficit", "occurs", "when", "imports", "exports", "exceed"], "answer": "A trade deficit occurs when imports exceed exports." },
-        { "id": 4, "words": ["were", "imposed", "sanctions", "trading", "the", "on", "partner", "unfair", "for", "practices"], "answer": "Sanctions were imposed on the trading partner for unfair practices." },
-        { "id": 5, "words": ["between", "interdependence", "nations", "has", "grown", "significantly", "the", "since", "1990s"], "answer": "Interdependence between nations has grown significantly since the 1990s." }
+        {
+          "id": 1,
+          "words": [
+            "globalisation",
+            "has",
+            "the",
+            "of",
+            "fundamentally",
+            "world",
+            "transformed",
+            "economies",
+            "integration"
+          ],
+          "answer": "Globalisation has fundamentally transformed the integration of world economies."
+        },
+        {
+          "id": 2,
+          "words": [
+            "bilateral",
+            "reduce",
+            "tariffs",
+            "help",
+            "treaties",
+            "to",
+            "between",
+            "partners",
+            "trading"
+          ],
+          "answer": "Bilateral treaties help to reduce tariffs between trading partners."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "trade",
+            "deficit",
+            "occurs",
+            "when",
+            "imports",
+            "exports",
+            "exceed"
+          ],
+          "answer": "A trade deficit occurs when imports exceed exports."
+        },
+        {
+          "id": 4,
+          "words": [
+            "were",
+            "imposed",
+            "sanctions",
+            "trading",
+            "the",
+            "on",
+            "partner",
+            "unfair",
+            "for",
+            "practices"
+          ],
+          "answer": "Sanctions were imposed on the trading partner for unfair practices."
+        },
+        {
+          "id": 5,
+          "words": [
+            "between",
+            "interdependence",
+            "nations",
+            "has",
+            "grown",
+            "significantly",
+            "the",
+            "since",
+            "1990s"
+          ],
+          "answer": "Interdependence between nations has grown significantly since the 1990s."
+        }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
       "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The two countries signed a [bilateral's] trade agreement last year.", "highlighted": "bilateral's", "options": { "A": "bilateral's", "B": "bilateral", "C": "bilaterally" }, "answer": "B", "explanation": "'Bilateral' is an adjective modifying 'trade agreement' — no possessive apostrophe is needed." },
-        { "id": 2, "sentence": "Many [emergence] economies rely heavily on commodity exports for growth.", "highlighted": "emergence", "options": { "A": "emergence", "B": "emerged", "C": "emerging" }, "answer": "C", "explanation": "'Emerging' is the standard adjective form — 'emergence' is a noun and cannot modify a noun directly." },
-        { "id": 3, "sentence": "Running a large trade [deficit's] can weaken a country's currency significantly.", "highlighted": "deficit's", "options": { "A": "deficit's", "B": "deficit", "C": "deficits" }, "answer": "B", "explanation": "'Deficit' is the grammatical subject here — no possessive apostrophe is needed." },
-        { "id": 4, "sentence": "Economic [interdependent] between nations has increased dramatically in recent decades.", "highlighted": "interdependent", "options": { "A": "interdependent", "B": "interdependence", "C": "independently" }, "answer": "B", "explanation": "A noun is needed as the subject of the sentence — 'interdependence', not the adjective 'interdependent'." },
-        { "id": 5, "sentence": "The government imposed [economical] sanctions on the country following the trade dispute.", "highlighted": "economical", "options": { "A": "economical", "B": "economics", "C": "economic" }, "answer": "C", "explanation": "'Economic' means relating to the economy; 'economical' means cost-saving or thrifty — they are not interchangeable." }
+        {
+          "id": 1,
+          "sentence": "The two countries signed a [bilateral's] trade agreement last year.",
+          "highlighted": "bilateral's",
+          "options": {
+            "A": "bilateral's",
+            "B": "bilateral",
+            "C": "bilaterally"
+          },
+          "answer": "B",
+          "explanation": "'Bilateral' is an adjective modifying 'trade agreement' — no possessive apostrophe is needed."
+        },
+        {
+          "id": 2,
+          "sentence": "Many [emergence] economies rely heavily on commodity exports for growth.",
+          "highlighted": "emergence",
+          "options": {
+            "A": "emerging",
+            "B": "emergence",
+            "C": "emerged"
+          },
+          "answer": "C",
+          "explanation": "'Emerging' is the standard adjective form — 'emergence' is a noun and cannot modify a noun directly."
+        },
+        {
+          "id": 3,
+          "sentence": "Running a large trade [deficit's] can weaken a country's currency significantly.",
+          "highlighted": "deficit's",
+          "options": {
+            "A": "deficit's",
+            "B": "deficit",
+            "C": "deficits"
+          },
+          "answer": "B",
+          "explanation": "'Deficit' is the grammatical subject here — no possessive apostrophe is needed."
+        },
+        {
+          "id": 4,
+          "sentence": "Economic [interdependent] between nations has increased dramatically in recent decades.",
+          "highlighted": "interdependent",
+          "options": {
+            "A": "interdependent",
+            "B": "interdependence",
+            "C": "independently"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'interdependence', not the adjective 'interdependent'."
+        },
+        {
+          "id": 5,
+          "sentence": "The government imposed [economical] sanctions on the country following the trade dispute.",
+          "highlighted": "economical",
+          "options": {
+            "A": "economic",
+            "B": "economical",
+            "C": "economics"
+          },
+          "answer": "C",
+          "explanation": "'Economic' means relating to the economy; 'economical' means cost-saving or thrifty — they are not interchangeable."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "Not Given", "3": "True", "4": "Not Given", "5": "True" },
-    "ex2": { "1": "bilateral", "2": "deficit", "3": "commodities", "4": "interdependence", "5": "sanctions" },
-    "ex3": { "1": "emerging", "2": "treaty", "3": "deficit", "4": "surplus", "5": "regime" },
-    "ex4": { "1": "Globalisation has fundamentally transformed the integration of world economies.", "2": "Bilateral treaties help to reduce tariffs between trading partners.", "3": "A trade deficit occurs when imports exceed exports.", "4": "Sanctions were imposed on the trading partner for unfair practices.", "5": "Interdependence between nations has grown significantly since the 1990s." },
-    "ex5": { "1": "B", "2": "C", "3": "B", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "bilateral",
+      "2": "deficit",
+      "3": "commodities",
+      "4": "interdependence",
+      "5": "sanctions"
+    },
+    "ex3": {
+      "1": "emerging",
+      "2": "treaty",
+      "3": "deficit",
+      "4": "surplus",
+      "5": "regime"
+    },
+    "ex4": {
+      "1": "Globalisation has fundamentally transformed the integration of world economies.",
+      "2": "Bilateral treaties help to reduce tariffs between trading partners.",
+      "3": "A trade deficit occurs when imports exceed exports.",
+      "4": "Sanctions were imposed on the trading partner for unfair practices.",
+      "5": "Interdependence between nations has grown significantly since the 1990s."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

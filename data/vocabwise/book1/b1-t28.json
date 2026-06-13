@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 28,
+    "topic_id": "b1-t28",
+    "topic_title": "Children & Growing Up",
+    "theme_number": 3,
+    "theme_title": "People & Relationships",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🌱",
+    "topic_title_vi": "Trẻ Em & Sự Trưởng Thành",
+    "theme_title_vi": "Con Người & Các Mối Quan Hệ"
+  },
+  "passage": {
+    "word_count": 111,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every **child** starts life small and helpless. As we **grow**, we **learn** new things every day. We play **games**, make friends, and slowly begin to understand the world around us.",
+        "text_vi": "Mỗi **đứa trẻ** bắt đầu cuộc sống nhỏ bé và yếu ớt. Khi chúng ta **lớn lên**, chúng ta **học** những điều mới mỗi ngày. Chúng ta chơi **trò chơi**, kết bạn và từ từ bắt đầu hiểu thế giới xung quanh."
+      },
+      {
+        "index": 2,
+        "text_en": "When I was **young**, I had so many happy **memories** — climbing trees, riding a bicycle, and running in the rain. Now I am a **teenager** and things have started to **change**.",
+        "text_vi": "Khi tôi còn **nhỏ**, tôi có rất nhiều **ký ức** vui vẻ — leo cây, đạp xe và chạy trong mưa. Bây giờ tôi là một **thiếu niên** và mọi thứ đã bắt đầu **thay đổi**."
+      },
+      {
+        "index": 3,
+        "text_en": "Growing up means taking on more responsibility. I **hope** to become a good **adult** who is **brave** enough to try new things and **independent** enough to solve problems alone.",
+        "text_vi": "Trưởng thành có nghĩa là gánh vác thêm trách nhiệm. Tôi **hy vọng** trở thành một **người lớn** tốt, đủ **dũng cảm** để thử những điều mới và đủ **độc lập** để tự giải quyết vấn đề."
+      },
+      {
+        "index": 4,
+        "text_en": "My **ambition** is to become a doctor. I know my **age** is still young, but I am already thinking about my **future**. Every step I take today brings me closer to my dream.",
+        "text_vi": "**Tham vọng** của tôi là trở thành bác sĩ. Tôi biết **tuổi** của mình vẫn còn nhỏ, nhưng tôi đã nghĩ về **tương lai** của mình. Mỗi bước tôi đi hôm nay đưa tôi đến gần hơn với ước mơ của mình."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "child",
+      "ipa": "/tʃaɪld/",
+      "pos": "noun",
+      "meaning_vi": "đứa trẻ, trẻ em",
+      "meaning_vi_inline": "đứa trẻ",
+      "example_en": "Every child deserves a safe home, good food, and a chance to go to school.",
+      "example_vi": "Mỗi đứa trẻ xứng đáng có một ngôi nhà an toàn, thức ăn tốt và cơ hội đến trường.",
+      "word_family": {
+        "noun": "child / childhood / children (plural)",
+        "verb": null,
+        "adjective": "childish / childlike",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "grow",
+      "ipa": "/ɡrəʊ/",
+      "pos": "verb",
+      "meaning_vi": "lớn lên, phát triển; trồng (cây)",
+      "meaning_vi_inline": "lớn lên",
+      "example_en": "Children grow so fast — it seems like yesterday she was just learning to walk.",
+      "example_vi": "Trẻ em lớn rất nhanh — có vẻ như hôm qua cô bé mới đang học đi.",
+      "word_family": {
+        "noun": "growth",
+        "verb": "grow / grew / grown",
+        "adjective": "growing / grown",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "teenager",
+      "ipa": "/ˈtiːneɪdʒər/",
+      "pos": "noun",
+      "meaning_vi": "thiếu niên, teen (13–19 tuổi)",
+      "meaning_vi_inline": "thiếu niên",
+      "example_en": "As a teenager, I love spending time with my friends and listening to music.",
+      "example_vi": "Là một thiếu niên, tôi thích dành thời gian với bạn bè và nghe nhạc.",
+      "word_family": {
+        "noun": "teenager / teen",
+        "verb": null,
+        "adjective": "teenage",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "adult",
+      "ipa": "/ˈædʌlt/",
+      "pos": "noun / adjective",
+      "meaning_vi": "người lớn; dành cho người lớn",
+      "meaning_vi_inline": "người lớn",
+      "example_en": "When she becomes an adult, she wants to travel the world and help others.",
+      "example_vi": "Khi trở thành người lớn, cô ấy muốn đi du lịch khắp thế giới và giúp đỡ người khác.",
+      "word_family": {
+        "noun": "adult / adulthood",
+        "verb": null,
+        "adjective": "adult",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "pos": "adjective",
+      "meaning_vi": "trẻ, còn nhỏ",
+      "meaning_vi_inline": "trẻ",
+      "example_en": "When I was young, I loved climbing trees and playing in the rain.",
+      "example_vi": "Khi còn nhỏ, tôi thích leo cây và chơi trong mưa.",
+      "word_family": {
+        "noun": "youth",
+        "verb": null,
+        "adjective": "young / younger / youngest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "age",
+      "ipa": "/eɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "tuổi; thời kỳ",
+      "meaning_vi_inline": "tuổi",
+      "example_en": "At my age, I still have a lot to learn — but I am trying my best every day.",
+      "example_vi": "Ở tuổi của tôi, tôi vẫn còn nhiều điều cần học — nhưng tôi đang cố gắng hết sức mỗi ngày.",
+      "word_family": {
+        "noun": "age",
+        "verb": "age / aged",
+        "adjective": "aged / ageing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "future",
+      "ipa": "/ˈfjuːtʃər/",
+      "pos": "noun / adjective",
+      "meaning_vi": "tương lai; thuộc về tương lai",
+      "meaning_vi_inline": "tương lai",
+      "example_en": "I think about my future a lot — I want to be a teacher and help young children learn.",
+      "example_vi": "Tôi nghĩ nhiều về tương lai — tôi muốn trở thành giáo viên và giúp trẻ em học.",
+      "word_family": {
+        "noun": "future",
+        "verb": null,
+        "adjective": "future",
+        "adverb": "in the future"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "game",
+      "ipa": "/ɡeɪm/",
+      "pos": "noun",
+      "meaning_vi": "trò chơi, game",
+      "meaning_vi_inline": "trò chơi",
+      "example_en": "My favourite game as a child was hide and seek — we played it every afternoon.",
+      "example_vi": "Trò chơi yêu thích của tôi khi còn nhỏ là trốn tìm — chúng tôi chơi mỗi buổi chiều.",
+      "word_family": {
+        "noun": "game / player",
+        "verb": "play (a game)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "learn",
+      "ipa": "/lɜːn/",
+      "pos": "verb",
+      "meaning_vi": "học, học hỏi",
+      "meaning_vi_inline": "học",
+      "example_en": "Children learn best when they feel safe, happy, and curious about the world.",
+      "example_vi": "Trẻ em học tốt nhất khi cảm thấy an toàn, vui vẻ và tò mò về thế giới.",
+      "word_family": {
+        "noun": "learning / learner",
+        "verb": "learn / learned / learnt",
+        "adjective": "learned",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "verb / noun",
+      "meaning_vi": "thay đổi; sự thay đổi",
+      "meaning_vi_inline": "thay đổi",
+      "example_en": "A lot changes when you become a teenager — your body, your feelings, and your friendships.",
+      "example_vi": "Nhiều thứ thay đổi khi bạn trở thành thiếu niên — cơ thể, cảm xúc và các mối quan hệ bạn bè.",
+      "word_family": {
+        "noun": "change",
+        "verb": "change / changed",
+        "adjective": "changeable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "memory",
+      "ipa": "/ˈmeməri/",
+      "pos": "noun",
+      "meaning_vi": "ký ức; trí nhớ",
+      "meaning_vi_inline": "ký ức",
+      "example_en": "My favourite memory from childhood is making kites with my grandfather.",
+      "example_vi": "Ký ức yêu thích của tôi từ thời thơ ấu là làm diều với ông nội.",
+      "word_family": {
+        "noun": "memory / memories (plural)",
+        "verb": "memorise",
+        "adjective": "memorable",
+        "adverb": "memorably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "brave",
+      "ipa": "/breɪv/",
+      "pos": "adjective",
+      "meaning_vi": "dũng cảm, can đảm",
+      "meaning_vi_inline": "dũng cảm",
+      "example_en": "It takes a brave person to speak in front of a large crowd for the first time.",
+      "example_vi": "Phải là người dũng cảm mới có thể đứng nói trước đám đông lớn lần đầu tiên.",
+      "word_family": {
+        "noun": "bravery",
+        "verb": null,
+        "adjective": "brave",
+        "adverb": "bravely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "hope",
+      "ipa": "/həʊp/",
+      "pos": "verb / noun",
+      "meaning_vi": "hy vọng; niềm hy vọng",
+      "meaning_vi_inline": "hy vọng",
+      "example_en": "I hope to become a doctor — I want to help people and make a difference.",
+      "example_vi": "Tôi hy vọng trở thành bác sĩ — tôi muốn giúp đỡ mọi người và tạo ra sự khác biệt.",
+      "word_family": {
+        "noun": "hope",
+        "verb": "hope / hoped",
+        "adjective": "hopeful / hopeless",
+        "adverb": "hopefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "ambition",
+      "ipa": "/æmˈbɪʃn/",
+      "pos": "noun",
+      "meaning_vi": "tham vọng, hoài bão, ước mơ lớn",
+      "meaning_vi_inline": "tham vọng",
+      "example_en": "Her ambition is to become an engineer and build bridges that connect communities.",
+      "example_vi": "Hoài bão của cô ấy là trở thành kỹ sư và xây những cây cầu kết nối cộng đồng.",
+      "word_family": {
+        "noun": "ambition",
+        "verb": null,
+        "adjective": "ambitious",
+        "adverb": "ambitiously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "independent",
+      "ipa": "/ˌɪndɪˈpendənt/",
+      "pos": "adjective",
+      "meaning_vi": "độc lập, tự chủ",
+      "meaning_vi_inline": "độc lập",
+      "example_en": "As she grew older, she became more independent — she cooked, cleaned, and managed her own time.",
+      "example_vi": "Khi lớn lên, cô ấy trở nên độc lập hơn — tự nấu ăn, dọn dẹp và quản lý thời gian.",
+      "word_family": {
+        "noun": "independence",
+        "verb": null,
+        "adjective": "independent / dependent",
+        "adverb": "independently"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "ambition" },
+        { "id": 2, "word": "independent" },
+        { "id": 3, "word": "teenager" },
+        { "id": 4, "word": "brave" },
+        { "id": 5, "word": "memory" }
+      ],
+      "options": [
+        { "id": "A", "text": "a strong desire to achieve something important in your life" },
+        { "id": "B", "text": "something from the past that you remember; the ability to recall information" },
+        { "id": "C", "text": "a young person between the ages of 13 and 19" },
+        { "id": "D", "text": "willing to do difficult or dangerous things without being afraid" },
+        { "id": "E", "text": "not needing help from others; able to do things on your own" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is very _____ — she does her homework, cooks her own meals, and manages her time well.",
+          "options": ["brave", "young", "independent", "ambitious"],
+          "answer": "independent"
+        },
+        {
+          "id": 2,
+          "sentence": "My favourite _____ from childhood is flying kites with my grandfather at the park.",
+          "options": ["ambition", "memory", "future", "game"],
+          "answer": "memory"
+        },
+        {
+          "id": 3,
+          "sentence": "It takes a _____ person to stand up and speak in front of the whole school.",
+          "options": ["young", "brave", "adult", "future"],
+          "answer": "brave"
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ is to become a scientist and discover something that helps the world.",
+          "options": ["memory", "age", "game", "ambition"],
+          "answer": "ambition"
+        },
+        {
+          "id": 5,
+          "sentence": "I think a lot about my _____ — what job I will have and where I will live.",
+          "options": ["memory", "game", "future", "child"],
+          "answer": "future"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["grow", "teenager", "change", "learn", "adult", "hope"],
+      "items": [
+        { "id": 1, "sentence": "Children _____ very fast — before you know it, they are taller than you.", "answer": "grow" },
+        { "id": 2, "sentence": "As a _____, I sometimes feel stuck between being a child and an adult.", "answer": "teenager" },
+        { "id": 3, "sentence": "I _____ something new every day — at school, at home, and from the people I meet.", "answer": "learn" },
+        { "id": 4, "sentence": "A lot of things _____ when you move from primary to secondary school.", "answer": "change" },
+        { "id": 5, "sentence": "I _____ to become a kind and successful person when I grow up.", "answer": "hope" }
+      ],
+      "note": "One word in the box is not used: adult"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She answered the question _____ — she did not hesitate, even though everyone was watching. (BRAVE)",
+          "base_word": "BRAVE",
+          "answer": "bravely",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "She is very _____ — she has big plans and works hard every day to achieve them. (AMBITION)",
+          "base_word": "AMBITION",
+          "answer": "ambitious",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ his vocabulary by reading English books for thirty minutes every evening. (LEARN)",
+          "base_word": "LEARN",
+          "answer": "learned / learnt",
+          "form_used": "past simple"
+        },
+        {
+          "id": 4,
+          "sentence": "Gaining _____ is one of the most important parts of growing up. (INDEPENDENT)",
+          "base_word": "INDEPENDENT",
+          "answer": "independence",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ that she will do well in her exams — she has worked so hard this term. (HOPE)",
+          "base_word": "HOPE",
+          "answer": "hope / are hoping",
+          "form_used": "present simple / present continuous"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is only twelve years old — she is still a [adult], not yet grown up.",
+          "highlighted": "adult",
+          "options": { "A": "adult", "B": "teenager", "C": "child" },
+          "answer": "C",
+          "explanation": "An 'adult' is a fully grown person. Someone who is twelve years old is still a 'child', not an adult."
+        },
+        {
+          "id": 2,
+          "sentence": "My [hope] is to become a doctor — it is a big dream but I believe I can do it.",
+          "highlighted": "hope",
+          "options": { "A": "memory", "B": "ambition", "C": "hope" },
+          "answer": "B",
+          "explanation": "'Hope' is a feeling or a wish. A strong goal or dream that you are working towards is an 'ambition'. The sentence describes a career goal, not just a wish."
+        },
+        {
+          "id": 3,
+          "sentence": "I always feel [dependent] when I travel alone — I can handle everything by myself.",
+          "highlighted": "dependent",
+          "options": { "A": "young", "B": "dependent", "C": "independent" },
+          "answer": "C",
+          "explanation": "'Dependent' means relying on others for help. Someone who handles everything alone and travels by themselves is 'independent', not dependent."
+        },
+        {
+          "id": 4,
+          "sentence": "She has a happy [future] from her school days — playing in the garden with her cousins.",
+          "highlighted": "future",
+          "options": { "A": "memory", "B": "future", "C": "ambition" },
+          "answer": "A",
+          "explanation": "'Future' refers to the time ahead. Something from your school days is in the past, not the future. A pleasant thought about the past is a 'memory'."
+        },
+        {
+          "id": 5,
+          "sentence": "The little girl was very [afraid] — she climbed the highest tree and rescued the kitten all by herself.",
+          "highlighted": "afraid",
+          "options": { "A": "afraid", "B": "young", "C": "brave" },
+          "answer": "C",
+          "explanation": "'Afraid' means scared and unwilling to act. Someone who climbs a high tree alone to rescue a kitten is acting without fear — that is 'brave', not afraid."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "A", "2": "E", "3": "C", "4": "D", "5": "B" },
+    "ex2": { "1": "independent", "2": "memory", "3": "brave", "4": "ambition", "5": "future" },
+    "ex3": { "1": "grow", "2": "teenager", "3": "learn", "4": "change", "5": "hope" },
+    "ex4": { "1": "bravely", "2": "ambitious", "3": "learned / learnt", "4": "independence", "5": "hope / are hoping" },
+    "ex5": { "1": "C", "2": "B", "3": "C", "4": "A", "5": "C" }
+  }
+}

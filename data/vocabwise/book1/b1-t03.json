@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 3,
+    "topic_id": "b1-t03",
+    "topic_title": "Food & Meals",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    },
+    "emoji": "🍽️",
+    "topic_title_vi": "Thức Ăn & Bữa Ăn",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 98,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My mother **cooks** every day. She goes to the **market** early to **buy** **fresh** food. She **buys** **vegetables**, **fruit**, and sometimes **meat** for our **meals**.",
+        "text_vi": "Mẹ tôi **nấu ăn** mỗi ngày. Bà đi **chợ** sớm để **mua** thực phẩm **tươi**. Bà mua **rau củ**, **trái cây** và đôi khi là **thịt** cho các **bữa ăn** của chúng tôi."
+      },
+      {
+        "index": 2,
+        "text_en": "I am always **hungry** when I come home from school. My favourite **meal** is **rice** with fried **vegetables**. It **tastes** so **delicious** — I always ask for more.",
+        "text_vi": "Tôi luôn **đói** khi về nhà từ trường. **Bữa ăn** yêu thích của tôi là **cơm** với **rau** xào. Nó **có vị** thật **ngon** — tôi luôn xin thêm."
+      },
+      {
+        "index": 3,
+        "text_en": "My mother **drinks** a glass of **water** before she starts **cooking**. She says **fresh** ingredients **taste** much better than food from a tin.",
+        "text_vi": "Mẹ tôi **uống** một ly **nước** trước khi bắt đầu **nấu ăn**. Bà nói nguyên liệu **tươi** **có vị** ngon hơn nhiều so với thức ăn đóng hộp."
+      },
+      {
+        "index": 4,
+        "text_en": "We **eat** together every evening. **Cooking** at home is healthy and fun. I always enjoy the **delicious** **meals** my mother makes for us every day.",
+        "text_vi": "Chúng tôi **ăn** cùng nhau mỗi buổi tối. **Nấu ăn** tại nhà rất tốt cho sức khỏe và thú vị. Tôi luôn thích những **bữa ăn** **ngon** mà mẹ nấu mỗi ngày."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "eat",
+      "ipa": "/iːt/",
+      "pos": "verb",
+      "meaning_vi": "ăn",
+      "meaning_vi_inline": "ăn",
+      "example_en": "We eat dinner together every evening as a family.",
+      "example_vi": "Chúng tôi ăn tối cùng nhau mỗi buổi tối.",
+      "word_family": {
+        "noun": "eating",
+        "verb": "eat / ate / eaten",
+        "adjective": "edible",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "pos": "verb / noun",
+      "meaning_vi": "nấu ăn; đầu bếp",
+      "meaning_vi_inline": "nấu ăn",
+      "example_en": "My mother cooks three meals a day for our family.",
+      "example_vi": "Mẹ tôi nấu ba bữa ăn mỗi ngày cho gia đình.",
+      "word_family": {
+        "noun": "cook / cooking / cooker",
+        "verb": "cook / cooked",
+        "adjective": "cooked / raw",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "meal",
+      "ipa": "/miːl/",
+      "pos": "noun",
+      "meaning_vi": "bữa ăn",
+      "meaning_vi_inline": "bữa ăn",
+      "example_en": "We have three meals a day: breakfast, lunch, and dinner.",
+      "example_vi": "Chúng tôi ăn ba bữa mỗi ngày: sáng, trưa và tối.",
+      "word_family": {
+        "noun": "meal / mealtime",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "hungry",
+      "ipa": "/ˈhʌŋɡri/",
+      "pos": "adjective",
+      "meaning_vi": "đói",
+      "meaning_vi_inline": "đói",
+      "example_en": "I am very hungry after sport — I need to eat something.",
+      "example_vi": "Tôi rất đói sau khi tập thể thao — tôi cần ăn gì đó.",
+      "word_family": {
+        "noun": "hunger",
+        "verb": null,
+        "adjective": "hungry",
+        "adverb": "hungrily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "delicious",
+      "ipa": "/dɪˈlɪʃəs/",
+      "pos": "adjective",
+      "meaning_vi": "ngon, thơm ngon",
+      "meaning_vi_inline": "ngon",
+      "example_en": "This soup is delicious — I want another bowl.",
+      "example_vi": "Món canh này ngon quá — tôi muốn thêm một bát nữa.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "delicious",
+        "adverb": "deliciously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "vegetable",
+      "ipa": "/ˈvedʒtəbl/",
+      "pos": "noun",
+      "meaning_vi": "rau, rau củ",
+      "meaning_vi_inline": "rau củ",
+      "example_en": "My mother buys fresh vegetables at the market every morning.",
+      "example_vi": "Mẹ tôi mua rau củ tươi ở chợ mỗi buổi sáng.",
+      "word_family": {
+        "noun": "vegetable / vegetables",
+        "verb": null,
+        "adjective": "vegetable (attributive) / vegetarian",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "fruit",
+      "ipa": "/fruːt/",
+      "pos": "noun",
+      "meaning_vi": "trái cây, hoa quả",
+      "meaning_vi_inline": "trái cây",
+      "example_en": "I eat a piece of fruit every day to stay healthy.",
+      "example_vi": "Tôi ăn một miếng trái cây mỗi ngày để giữ sức khỏe.",
+      "word_family": {
+        "noun": "fruit / fruits",
+        "verb": null,
+        "adjective": "fruity",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "meat",
+      "ipa": "/miːt/",
+      "pos": "noun",
+      "meaning_vi": "thịt",
+      "meaning_vi_inline": "thịt",
+      "example_en": "She cooks chicken and beef — two types of meat my family loves.",
+      "example_vi": "Bà ấy nấu gà và bò — hai loại thịt gia đình tôi thích.",
+      "word_family": {
+        "noun": "meat",
+        "verb": null,
+        "adjective": "meaty",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "meet",
+        "explanation_vi": "'Meat' (thịt) và 'meet' (gặp gỡ) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+      }
+    },
+    {
+      "id": 9,
+      "word": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "verb / noun",
+      "meaning_vi": "uống; đồ uống",
+      "meaning_vi_inline": "uống",
+      "example_en": "You should drink eight glasses of water every day.",
+      "example_vi": "Bạn nên uống tám ly nước mỗi ngày.",
+      "word_family": {
+        "noun": "drink / drinks",
+        "verb": "drink / drank / drunk",
+        "adjective": "drinkable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "water",
+      "ipa": "/ˈwɔːtər/",
+      "pos": "noun",
+      "meaning_vi": "nước",
+      "meaning_vi_inline": "nước",
+      "example_en": "Clean water is very important for good health.",
+      "example_vi": "Nước sạch rất quan trọng để giữ sức khỏe tốt.",
+      "word_family": {
+        "noun": "water",
+        "verb": "water",
+        "adjective": "watery",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "taste",
+      "ipa": "/teɪst/",
+      "pos": "verb / noun",
+      "meaning_vi": "có vị; mùi vị, hương vị",
+      "meaning_vi_inline": "có vị / mùi vị",
+      "example_en": "This soup tastes wonderful — what is in it?",
+      "example_vi": "Món canh này có vị tuyệt vời — bên trong có gì vậy?",
+      "word_family": {
+        "noun": "taste",
+        "verb": "taste / tasted",
+        "adjective": "tasty / tasteless",
+        "adverb": "tastefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "fresh",
+      "ipa": "/freʃ/",
+      "pos": "adjective",
+      "meaning_vi": "tươi, mới, tươi mát",
+      "meaning_vi_inline": "tươi",
+      "example_en": "Fresh vegetables taste much better than canned ones.",
+      "example_vi": "Rau củ tươi ngon hơn rau đóng hộp nhiều.",
+      "word_family": {
+        "noun": "freshness",
+        "verb": "freshen",
+        "adjective": "fresh",
+        "adverb": "freshly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "market",
+      "ipa": "/ˈmɑːkɪt/",
+      "pos": "noun",
+      "meaning_vi": "chợ; thị trường",
+      "meaning_vi_inline": "chợ",
+      "example_en": "My mother goes to the market every morning to buy fresh food.",
+      "example_vi": "Mẹ tôi đi chợ mỗi sáng để mua thực phẩm tươi.",
+      "word_family": {
+        "noun": "market / marketing",
+        "verb": "market",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "verb",
+      "meaning_vi": "mua",
+      "meaning_vi_inline": "mua",
+      "example_en": "She buys fruit and vegetables at the local market.",
+      "example_vi": "Bà ấy mua trái cây và rau củ ở chợ gần nhà.",
+      "word_family": {
+        "noun": "buyer / purchase",
+        "verb": "buy / bought / bought",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "by",
+        "explanation_vi": "'Buy' (mua) và 'by' (bằng/bởi) phát âm giống nhau nhưng nghĩa khác — đây là cặp từ đồng âm."
+      }
+    },
+    {
+      "id": 15,
+      "word": "rice",
+      "ipa": "/raɪs/",
+      "pos": "noun",
+      "meaning_vi": "cơm, gạo",
+      "meaning_vi_inline": "cơm",
+      "example_en": "Rice is the main food in many Vietnamese meals.",
+      "example_vi": "Cơm là thức ăn chính trong nhiều bữa ăn của người Việt.",
+      "word_family": {
+        "noun": "rice",
+        "verb": null,
+        "adjective": "rice (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "fresh"
+        },
+        {
+          "id": 2,
+          "word": "hungry"
+        },
+        {
+          "id": 3,
+          "word": "market"
+        },
+        {
+          "id": 4,
+          "word": "taste"
+        },
+        {
+          "id": 5,
+          "word": "meal"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a place where people buy and sell food and goods"
+        },
+        {
+          "id": "B",
+          "text": "the flavour of something when you eat or drink it"
+        },
+        {
+          "id": "C",
+          "text": "recently grown or made; not old or tinned"
+        },
+        {
+          "id": "D",
+          "text": "a set of food eaten at one time, e.g. lunch or dinner"
+        },
+        {
+          "id": "E",
+          "text": "feeling a need to eat because you have not eaten enough"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My mother goes to the _____ every morning to buy fresh food.",
+          "options": [
+            "market",
+            "school",
+            "hospital",
+            "store"
+          ],
+          "answer": "market"
+        },
+        {
+          "id": 2,
+          "sentence": "I am always _____ after sport — I need to eat something quickly.",
+          "options": [
+            "full",
+            "hungry",
+            "fresh",
+            "delicious"
+          ],
+          "answer": "hungry"
+        },
+        {
+          "id": 3,
+          "sentence": "This dish _____ wonderful — I want to eat more of it.",
+          "options": [
+            "looks",
+            "sounds",
+            "tastes",
+            "feels"
+          ],
+          "answer": "tastes"
+        },
+        {
+          "id": 4,
+          "sentence": "She always _____ fresh vegetables, fruit, and meat at the market.",
+          "options": [
+            "sells",
+            "cooks",
+            "buys",
+            "eats"
+          ],
+          "answer": "buys"
+        },
+        {
+          "id": 5,
+          "sentence": "My favourite _____ is rice with fried vegetables and grilled chicken.",
+          "options": [
+            "drink",
+            "routine",
+            "meal",
+            "market"
+          ],
+          "answer": "meal"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "delicious",
+        "fruit",
+        "cook",
+        "water",
+        "meat",
+        "fresh"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My mother likes to _____ simple meals with fresh ingredients every day.",
+          "answer": "cook"
+        },
+        {
+          "id": 2,
+          "sentence": "You should drink plenty of _____ every day to stay healthy.",
+          "answer": "water"
+        },
+        {
+          "id": 3,
+          "sentence": "I eat a piece of _____ such as a banana or an orange every morning.",
+          "answer": "fruit"
+        },
+        {
+          "id": 4,
+          "sentence": "My mother buys _____ at the market — chicken and beef are her favourites.",
+          "answer": "meat"
+        },
+        {
+          "id": 5,
+          "sentence": "This soup is so _____! I always ask for a second bowl.",
+          "answer": "delicious"
+        }
+      ],
+      "note": "One word in the box is not used: fresh"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She looked at the food _____ because she had not eaten all day. (HUNGRY)",
+          "base_word": "HUNGRY",
+          "answer": "hungrily",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ at our school canteen is usually rice and vegetables. (COOK)",
+          "base_word": "COOK",
+          "answer": "cooking",
+          "form_used": "noun/gerund"
+        },
+        {
+          "id": 3,
+          "sentence": "This dish is very _____ — I could eat it every single day. (TASTE)",
+          "base_word": "TASTE",
+          "answer": "tasty",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "The vegetables smell _____ — my mother just picked them from the garden. (FRESH)",
+          "base_word": "FRESH",
+          "answer": "fresh",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She is always very _____ at lunchtime — she eats everything on her plate. (EAT)",
+          "base_word": "EAT",
+          "answer": "eager to eat",
+          "form_used": "adjective phrase"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My mother [buyed] fresh vegetables at the market this morning.",
+          "highlighted": "buyed",
+          "options": {
+            "A": "bought",
+            "B": "buyed",
+            "C": "buys"
+          },
+          "answer": "B",
+          "explanation": "'Buy' is an irregular verb: buy → bought (past simple). 'Buyed' does not exist in English."
+        },
+        {
+          "id": 2,
+          "sentence": "This soup [taste] wonderful — I want another bowl.",
+          "highlighted": "taste",
+          "options": {
+            "A": "taste",
+            "B": "tasting",
+            "C": "tastes"
+          },
+          "answer": "C",
+          "explanation": "Third-person singular subject 'This soup' requires the verb ending in 's': 'tastes'."
+        },
+        {
+          "id": 3,
+          "sentence": "I am always [hunger] when I come home from school.",
+          "highlighted": "hunger",
+          "options": {
+            "A": "hunger",
+            "B": "hungrily",
+            "C": "hungry"
+          },
+          "answer": "C",
+          "explanation": "After the verb 'am', use an adjective: 'hungry'. 'Hunger' is a noun, not an adjective."
+        },
+        {
+          "id": 4,
+          "sentence": "She goes to the [markets] every morning to buy food for the family.",
+          "highlighted": "markets",
+          "options": {
+            "A": "market",
+            "B": "markets",
+            "C": "marketing"
+          },
+          "answer": "B",
+          "explanation": "'The market' (singular with 'the') refers to a specific place. 'Markets' (plural) is incorrect here."
+        },
+        {
+          "id": 5,
+          "sentence": "My favourite [meals] is rice with vegetables and grilled meat.",
+          "highlighted": "meals",
+          "options": {
+            "A": "meals",
+            "B": "mealing",
+            "C": "meal"
+          },
+          "answer": "C",
+          "explanation": "'My favourite meal is ...' — the singular subject requires a singular noun: 'meal', not 'meals'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "A",
+      "4": "B",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "market",
+      "2": "hungry",
+      "3": "tastes",
+      "4": "buys",
+      "5": "meal"
+    },
+    "ex3": {
+      "1": "cook",
+      "2": "water",
+      "3": "fruit",
+      "4": "meat",
+      "5": "delicious"
+    },
+    "ex4": {
+      "1": "hungrily",
+      "2": "cooking",
+      "3": "tasty",
+      "4": "fresh",
+      "5": "eager to eat"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

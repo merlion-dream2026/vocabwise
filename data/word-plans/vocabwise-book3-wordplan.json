@@ -1,0 +1,1488 @@
+{
+  "book": 3,
+  "book_title": "VocabWise Mastery",
+  "cefr": "C1-C2",
+  "total_topics": 60,
+  "words_per_topic": 10,
+  "collocations_per_topic": 5,
+  "total_items": 900,
+  "status": "approved",
+  "themes": [
+    {
+      "theme_number": 1,
+      "theme_title": "Self & Society",
+      "topics": [
+        {
+          "topic_number": 1,
+          "topic_id": "b3-t01",
+          "topic_title": "Education & Learning",
+          "target_words": [
+            "pedagogy",
+            "attainment",
+            "curriculum",
+            "literacy",
+            "credential",
+            "cognitive",
+            "retention",
+            "autonomy",
+            "disparity",
+            "meritocracy"
+          ],
+          "collocations": [
+            "close the attainment gap",
+            "foster independent thinking",
+            "widen access to higher education",
+            "promote lifelong learning",
+            "challenge elitist structures"
+          ]
+        },
+        {
+          "topic_number": 2,
+          "topic_id": "b3-t02",
+          "topic_title": "Work & Career Challenges",
+          "target_words": [
+            "vocation",
+            "redundancy",
+            "appraisal",
+            "workload",
+            "burnout",
+            "aspiration",
+            "mentorship",
+            "mobility",
+            "remuneration",
+            "disillusionment"
+          ],
+          "collocations": [
+            "climb the career ladder",
+            "face professional burnout",
+            "seek career mentorship",
+            "negotiate a pay rise",
+            "navigate workplace expectations"
+          ]
+        },
+        {
+          "topic_number": 3,
+          "topic_id": "b3-t03",
+          "topic_title": "Relationships & Modern Society",
+          "target_words": [
+            "commitment",
+            "intimacy",
+            "dissolution",
+            "interdependence",
+            "compatibility",
+            "estrangement",
+            "reciprocity",
+            "vulnerability",
+            "attachment",
+            "alienation"
+          ],
+          "collocations": [
+            "build meaningful relationships",
+            "navigate emotional vulnerability",
+            "maintain long-distance relationships",
+            "overcome social alienation",
+            "foster mutual understanding"
+          ]
+        },
+        {
+          "topic_number": 4,
+          "topic_id": "b3-t04",
+          "topic_title": "Family Structures & Change",
+          "target_words": [
+            "nuclear",
+            "extended",
+            "cohabitation",
+            "custody",
+            "dysfunction",
+            "kinship",
+            "obligation",
+            "reconstituted",
+            "parenting",
+            "fragmentation"
+          ],
+          "collocations": [
+            "redefine family structures",
+            "navigate custody arrangements",
+            "fulfil parental obligations",
+            "cope with family dysfunction",
+            "adapt to changing social norms"
+          ]
+        },
+        {
+          "topic_number": 5,
+          "topic_id": "b3-t05",
+          "topic_title": "Gender & Society",
+          "target_words": [
+            "equality",
+            "stereotype",
+            "representation",
+            "patriarchy",
+            "empowerment",
+            "bias",
+            "discrimination",
+            "norm",
+            "identity",
+            "barrier"
+          ],
+          "collocations": [
+            "challenge gender stereotypes",
+            "promote equal representation",
+            "dismantle systemic barriers",
+            "empower marginalised groups",
+            "confront unconscious bias"
+          ]
+        },
+        {
+          "topic_number": 6,
+          "topic_id": "b3-t06",
+          "topic_title": "Sport, Health & Performance",
+          "target_words": [
+            "elite",
+            "endurance",
+            "discipline",
+            "rivalry",
+            "doping",
+            "perseverance",
+            "spectacle",
+            "integrity",
+            "amateur",
+            "psychology"
+          ],
+          "collocations": [
+            "push physical limits",
+            "maintain peak performance",
+            "uphold sporting integrity",
+            "overcome psychological barriers",
+            "inspire the next generation"
+          ]
+        },
+        {
+          "topic_number": 7,
+          "topic_id": "b3-t07",
+          "topic_title": "Travel & Cultural Exchange",
+          "target_words": [
+            "immersion",
+            "perception",
+            "authenticity",
+            "disorientation",
+            "curiosity",
+            "appreciation",
+            "adaptation",
+            "exposure",
+            "perspective",
+            "preconception"
+          ],
+          "collocations": [
+            "broaden cultural perspectives",
+            "overcome cultural stereotypes",
+            "embrace cultural immersion",
+            "navigate cultural disorientation",
+            "foster cross-cultural understanding"
+          ]
+        },
+        {
+          "topic_number": 8,
+          "topic_id": "b3-t08",
+          "topic_title": "Consumer Culture & Advertising",
+          "target_words": [
+            "consumerism",
+            "manipulation",
+            "aspiration",
+            "branding",
+            "impulse",
+            "subliminal",
+            "commodification",
+            "persuasion",
+            "materialism",
+            "exploitation"
+          ],
+          "collocations": [
+            "exploit consumer psychology",
+            "reinforce materialistic values",
+            "commodify human relationships",
+            "resist manipulative advertising",
+            "challenge throwaway culture"
+          ]
+        },
+        {
+          "topic_number": 9,
+          "topic_id": "b3-t09",
+          "topic_title": "Social Media & Mental Health",
+          "target_words": [
+            "addiction",
+            "validation",
+            "distortion",
+            "comparison",
+            "detachment",
+            "curated",
+            "harassment",
+            "anonymity",
+            "adaptability",
+            "exposure"
+          ],
+          "collocations": [
+            "foster unhealthy social comparison",
+            "curate an idealised self-image",
+            "experience digital detachment",
+            "combat online harassment",
+            "build digital resilience"
+          ]
+        },
+        {
+          "topic_number": 10,
+          "topic_id": "b3-t10",
+          "topic_title": "Work-Life Balance & Wellbeing",
+          "target_words": [
+            "equilibrium",
+            "boundary",
+            "gratification",
+            "exhaustion",
+            "flexibility",
+            "productivity",
+            "overcommitment",
+            "restoration",
+            "disengagement",
+            "self-determination"
+          ],
+          "collocations": [
+            "maintain a healthy work-life balance",
+            "set firm personal boundaries",
+            "prevent professional burnout",
+            "pursue personal fulfilment",
+            "restore mental and physical energy"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_number": 2,
+      "theme_title": "Health & the Human Body",
+      "topics": [
+        {
+          "topic_number": 11,
+          "topic_id": "b3-t11",
+          "topic_title": "Mental Health & Society",
+          "target_words": [
+            "stigma",
+            "anxiety",
+            "depression",
+            "therapy",
+            "resilience",
+            "disorder",
+            "awareness",
+            "counselling",
+            "prevention",
+            "wellbeing"
+          ],
+          "collocations": [
+            "reduce mental health stigma",
+            "seek professional counselling",
+            "build emotional resilience",
+            "raise public awareness",
+            "prevent psychological disorders"
+          ]
+        },
+        {
+          "topic_number": 12,
+          "topic_id": "b3-t12",
+          "topic_title": "Stress & Coping Mechanisms",
+          "target_words": [
+            "chronic",
+            "cortisol",
+            "threshold",
+            "accumulation",
+            "coping",
+            "trigger",
+            "manifestation",
+            "intervention",
+            "deterioration",
+            "compulsion"
+          ],
+          "collocations": [
+            "manage chronic stress effectively",
+            "identify emotional triggers",
+            "implement coping strategies",
+            "prevent psychological deterioration",
+            "seek early intervention"
+          ]
+        },
+        {
+          "topic_number": 13,
+          "topic_id": "b3-t13",
+          "topic_title": "Healthcare Systems & Access",
+          "target_words": [
+            "universal",
+            "triage",
+            "allocation",
+            "disparity",
+            "preventable",
+            "morbidity",
+            "mortality",
+            "provision",
+            "privatisation",
+            "universality"
+          ],
+          "collocations": [
+            "provide universal healthcare access",
+            "reduce preventable mortality",
+            "allocate scarce medical resources",
+            "challenge healthcare privatisation",
+            "address health inequalities"
+          ]
+        },
+        {
+          "topic_number": 14,
+          "topic_id": "b3-t14",
+          "topic_title": "Happiness & Wellbeing Research",
+          "target_words": [
+            "subjective",
+            "flourishing",
+            "gratitude",
+            "hedonic",
+            "eudaimonic",
+            "contentment",
+            "correlation",
+            "disposition",
+            "fulfilment",
+            "perception"
+          ],
+          "collocations": [
+            "measure subjective wellbeing",
+            "pursue meaningful fulfilment",
+            "challenge hedonic adaptation",
+            "foster a positive disposition",
+            "correlate happiness with social connection"
+          ]
+        },
+        {
+          "topic_number": 15,
+          "topic_id": "b3-t15",
+          "topic_title": "The Science of Habit & Behaviour",
+          "target_words": [
+            "reward system",
+            "routine",
+            "rewiring",
+            "incentive",
+            "willpower",
+            "relapse",
+            "conditioning",
+            "automaticity",
+            "urge",
+            "cue"
+          ],
+          "collocations": [
+            "break destructive habits",
+            "harness the power of routine",
+            "rewire behavioural patterns",
+            "build lasting willpower",
+            "exploit positive reinforcement"
+          ]
+        },
+        {
+          "topic_number": 16,
+          "topic_id": "b3-t16",
+          "topic_title": "Food, Diet & Society",
+          "target_words": [
+            "nutrition",
+            "deficiency",
+            "obesity",
+            "organic",
+            "sustainable",
+            "processed",
+            "disordered eating",
+            "regulation",
+            "diet culture",
+            "malnutrition"
+          ],
+          "collocations": [
+            "address nutritional deficiencies",
+            "combat rising obesity rates",
+            "challenge diet culture",
+            "regulate food advertising",
+            "ensure food security for all"
+          ]
+        },
+        {
+          "topic_number": 17,
+          "topic_id": "b3-t17",
+          "topic_title": "Medical Science & Innovation",
+          "target_words": [
+            "vaccine",
+            "clinical trial",
+            "diagnosis",
+            "efficacy",
+            "gene therapy",
+            "immunisation",
+            "donor",
+            "transplant",
+            "pharmaceutical",
+            "side effect"
+          ],
+          "collocations": [
+            "conduct clinical trials",
+            "develop gene therapy",
+            "improve diagnostic accuracy",
+            "roll out immunisation programmes",
+            "regulate pharmaceutical companies"
+          ]
+        },
+        {
+          "topic_number": 18,
+          "topic_id": "b3-t18",
+          "topic_title": "Space Exploration & Science",
+          "target_words": [
+            "orbit",
+            "gravitational",
+            "interstellar",
+            "astrophysics",
+            "trajectory",
+            "propulsion",
+            "exoplanet",
+            "magnitude",
+            "extraterrestrial",
+            "atmosphere"
+          ],
+          "collocations": [
+            "advance astrophysical understanding",
+            "explore the boundaries of the universe",
+            "sustain human life in space",
+            "detect gravitational waves",
+            "launch interstellar missions"
+          ]
+        },
+        {
+          "topic_number": 19,
+          "topic_id": "b3-t19",
+          "topic_title": "The Ageing Population",
+          "target_words": [
+            "longevity",
+            "pension",
+            "dependency",
+            "dementia",
+            "isolation",
+            "contribution",
+            "intergenerational",
+            "welfare",
+            "deterioration",
+            "palliative"
+          ],
+          "collocations": [
+            "address the ageing population crisis",
+            "provide palliative care",
+            "combat elderly isolation",
+            "sustain intergenerational solidarity",
+            "reform pension systems"
+          ]
+        },
+        {
+          "topic_number": 20,
+          "topic_id": "b3-t20",
+          "topic_title": "Environmental Health & Climate",
+          "target_words": [
+            "emission",
+            "carbon footprint",
+            "biodiversity",
+            "ecosystem",
+            "deforestation",
+            "tipping point",
+            "mitigation",
+            "adaptation",
+            "sustainability",
+            "custodianship"
+          ],
+          "collocations": [
+            "reduce carbon emissions",
+            "protect biodiversity",
+            "reach a climate tipping point",
+            "implement mitigation strategies",
+            "promote environmental stewardship"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_number": 3,
+      "theme_title": "The Modern World",
+      "topics": [
+        {
+          "topic_number": 21,
+          "topic_id": "b3-t21",
+          "topic_title": "Technology & Everyday Life",
+          "target_words": [
+            "disruption",
+            "obsolescence",
+            "adoption",
+            "convergence",
+            "dependency",
+            "efficiency",
+            "automation",
+            "interface",
+            "digital divide",
+            "privacy"
+          ],
+          "collocations": [
+            "bridge the digital divide",
+            "disrupt traditional industries",
+            "accelerate technology adoption",
+            "raise privacy concerns",
+            "create technological dependency"
+          ]
+        },
+        {
+          "topic_number": 22,
+          "topic_id": "b3-t22",
+          "topic_title": "Artificial Intelligence & Society",
+          "target_words": [
+            "algorithm",
+            "bias",
+            "autonomous",
+            "surveillance",
+            "explainability",
+            "accountability",
+            "neural network",
+            "regulation",
+            "oversight",
+            "sentience"
+          ],
+          "collocations": [
+            "raise ethical concerns about AI",
+            "introduce regulatory frameworks",
+            "embed algorithmic bias",
+            "develop autonomous systems",
+            "hold AI developers accountable"
+          ]
+        },
+        {
+          "topic_number": 23,
+          "topic_id": "b3-t23",
+          "topic_title": "Media, Journalism & Trust",
+          "target_words": [
+            "trustworthiness",
+            "agenda setting",
+            "disinformation",
+            "polarisation",
+            "censorship",
+            "amplification",
+            "echo chamber",
+            "propaganda",
+            "editorial",
+            "distortion"
+          ],
+          "collocations": [
+            "undermine media credibility",
+            "reinforce ideological polarisation",
+            "amplify misinformation",
+            "shape public narrative",
+            "combat information manipulation"
+          ]
+        },
+        {
+          "topic_number": 24,
+          "topic_id": "b3-t24",
+          "topic_title": "Globalisation & Cultural Identity",
+          "target_words": [
+            "homogenisation",
+            "cosmopolitan",
+            "acculturation",
+            "diaspora",
+            "localisation",
+            "imperialism",
+            "interconnectedness",
+            "commodification",
+            "absorption",
+            "hybrid"
+          ],
+          "collocations": [
+            "resist cultural homogenisation",
+            "navigate competing cultural loyalties",
+            "embrace a cosmopolitan identity",
+            "commodify cultural practices",
+            "challenge cultural imperialism"
+          ]
+        },
+        {
+          "topic_number": 25,
+          "topic_id": "b3-t25",
+          "topic_title": "Crime, Law & Justice",
+          "target_words": [
+            "judiciary",
+            "precedent",
+            "culpable",
+            "deterrence",
+            "rehabilitation",
+            "recidivism",
+            "prosecution",
+            "verdict",
+            "statute",
+            "restorative justice"
+          ],
+          "collocations": [
+            "uphold the rule of law",
+            "reduce recidivism rates",
+            "apply restorative justice",
+            "assign moral culpability",
+            "challenge punitive sentencing"
+          ]
+        },
+        {
+          "topic_number": 26,
+          "topic_id": "b3-t26",
+          "topic_title": "Democracy & Civic Life",
+          "target_words": [
+            "accountability",
+            "legislation",
+            "mandate",
+            "civil society",
+            "referendum",
+            "electoral",
+            "lobbying",
+            "populism",
+            "fragmentation",
+            "misinformation"
+          ],
+          "collocations": [
+            "hold government accountable",
+            "engage in civic life",
+            "challenge political polarisation",
+            "safeguard democratic values",
+            "combat electoral disinformation"
+          ]
+        },
+        {
+          "topic_number": 27,
+          "topic_id": "b3-t27",
+          "topic_title": "Poverty & Social Welfare",
+          "target_words": [
+            "deprivation",
+            "stratification",
+            "redistribution",
+            "philanthropy",
+            "systemic",
+            "marginalisation",
+            "entitlement",
+            "cycle",
+            "disenfranchise",
+            "inequality"
+          ],
+          "collocations": [
+            "tackle systemic inequality",
+            "redistribute economic resources",
+            "break the cycle of poverty",
+            "challenge structural privilege",
+            "empower marginalised communities"
+          ]
+        },
+        {
+          "topic_number": 28,
+          "topic_id": "b3-t28",
+          "topic_title": "Understanding the Economy",
+          "target_words": [
+            "inflation",
+            "recession",
+            "fiscal",
+            "monetary",
+            "deficit",
+            "subsidy",
+            "austerity",
+            "commodity",
+            "deregulation",
+            "equilibrium"
+          ],
+          "collocations": [
+            "stimulate economic growth",
+            "implement austerity measures",
+            "run a budget deficit",
+            "control inflationary pressure",
+            "liberalise financial markets"
+          ]
+        },
+        {
+          "topic_number": 29,
+          "topic_id": "b3-t29",
+          "topic_title": "Migration & Belonging",
+          "target_words": [
+            "asylum",
+            "persecution",
+            "xenophobia",
+            "stateless",
+            "integration",
+            "sanctuary",
+            "remittance",
+            "deportation",
+            "assimilation",
+            "displacement"
+          ],
+          "collocations": [
+            "seek asylum from persecution",
+            "grant refugee status",
+            "foster social integration",
+            "combat xenophobia",
+            "preserve cultural identity abroad"
+          ]
+        },
+        {
+          "topic_number": 30,
+          "topic_id": "b3-t30",
+          "topic_title": "Leadership & Influence",
+          "target_words": [
+            "vision",
+            "probity",
+            "charisma",
+            "empowerment",
+            "governance",
+            "legacy",
+            "authority",
+            "inspiration",
+            "mobilisation",
+            "answerability"
+          ],
+          "collocations": [
+            "exercise moral leadership",
+            "inspire collective action",
+            "hold leaders accountable",
+            "leave a lasting legacy",
+            "build trust through integrity"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_number": 4,
+      "theme_title": "Knowledge & Ideas",
+      "topics": [
+        {
+          "topic_number": 31,
+          "topic_id": "b3-t31",
+          "topic_title": "Critical Thinking & Logic",
+          "target_words": [
+            "premise",
+            "inference",
+            "fallacy",
+            "deductive",
+            "inductive",
+            "refutation",
+            "cogent",
+            "conjecture",
+            "assumption",
+            "corroborate"
+          ],
+          "collocations": [
+            "identify logical fallacies",
+            "construct a cogent argument",
+            "draw valid inferences",
+            "challenge unsubstantiated claims",
+            "evaluate the strength of evidence"
+          ]
+        },
+        {
+          "topic_number": 32,
+          "topic_id": "b3-t32",
+          "topic_title": "Research Methods & Academic Inquiry",
+          "target_words": [
+            "methodology",
+            "validity",
+            "reliability",
+            "qualitative",
+            "quantitative",
+            "triangulation",
+            "sample",
+            "confounding",
+            "scope",
+            "peer review"
+          ],
+          "collocations": [
+            "formulate a research question",
+            "conduct a literature review",
+            "evaluate source credibility",
+            "acknowledge methodological limitations",
+            "synthesise conflicting evidence"
+          ]
+        },
+        {
+          "topic_number": 33,
+          "topic_id": "b3-t33",
+          "topic_title": "Academic Writing & Argumentation",
+          "target_words": [
+            "thesis",
+            "coherence",
+            "cohesion",
+            "qualification",
+            "integration",
+            "position",
+            "referencing",
+            "precision",
+            "formality",
+            "substantiate"
+          ],
+          "collocations": [
+            "construct a clear thesis",
+            "maintain argumentative coherence",
+            "hedge academic claims",
+            "synthesise multiple sources",
+            "substantiate claims with evidence"
+          ]
+        },
+        {
+          "topic_number": 34,
+          "topic_id": "b3-t34",
+          "topic_title": "Memory, Learning & the Brain",
+          "target_words": [
+            "consolidation",
+            "retrieval",
+            "encoding",
+            "metacognition",
+            "interference",
+            "neuroplasticity",
+            "elaboration",
+            "mnemonics",
+            "schema",
+            "retention"
+          ],
+          "collocations": [
+            "enhance long-term retention",
+            "activate prior knowledge",
+            "overcome retrieval interference",
+            "employ metacognitive strategies",
+            "consolidate learning through practice"
+          ]
+        },
+        {
+          "topic_number": 35,
+          "topic_id": "b3-t35",
+          "topic_title": "Cognitive Psychology",
+          "target_words": [
+            "cognition",
+            "perception",
+            "attribution",
+            "conformity",
+            "heuristic",
+            "self-efficacy",
+            "unconscious",
+            "intrinsic motivation",
+            "mental model",
+            "reinforcement"
+          ],
+          "collocations": [
+            "challenge cognitive biases",
+            "build intrinsic motivation",
+            "shape behaviour through reinforcement",
+            "develop metacognitive awareness",
+            "exhibit conformity under pressure"
+          ]
+        },
+        {
+          "topic_number": 36,
+          "topic_id": "b3-t36",
+          "topic_title": "Social Psychology",
+          "target_words": [
+            "socialisation",
+            "groupthink",
+            "obedience",
+            "prejudice",
+            "empathy",
+            "bystander effect",
+            "persuasion",
+            "norm",
+            "ingroup",
+            "deindividuation"
+          ],
+          "collocations": [
+            "resist social conformity",
+            "challenge deeply held prejudices",
+            "exploit the bystander effect",
+            "reinforce group norms",
+            "foster empathy across social divides"
+          ]
+        },
+        {
+          "topic_number": 37,
+          "topic_id": "b3-t37",
+          "topic_title": "Creativity & Innovation",
+          "target_words": [
+            "ideation",
+            "divergent thinking",
+            "incubation",
+            "synthesis",
+            "originality",
+            "constraint",
+            "prototype",
+            "iteration",
+            "aesthetic",
+            "inspiration"
+          ],
+          "collocations": [
+            "stimulate creative thinking",
+            "overcome cognitive blocks",
+            "embrace productive constraints",
+            "synthesise disparate ideas",
+            "foster a culture of innovation"
+          ]
+        },
+        {
+          "topic_number": 38,
+          "topic_id": "b3-t38",
+          "topic_title": "Art, Meaning & Society",
+          "target_words": [
+            "avant-garde",
+            "subversive",
+            "juxtaposition",
+            "leitmotif",
+            "sublimation",
+            "semiotics",
+            "postmodern",
+            "patronage",
+            "transcend",
+            "provocation"
+          ],
+          "collocations": [
+            "challenge aesthetic conventions",
+            "evoke an emotional response",
+            "subvert traditional artistic forms",
+            "draw on cultural symbolism",
+            "transcend artistic boundaries"
+          ]
+        },
+        {
+          "topic_number": 39,
+          "topic_id": "b3-t39",
+          "topic_title": "Philosophy of Science",
+          "target_words": [
+            "empirical",
+            "paradigm shift",
+            "hypothesis",
+            "replication",
+            "causation",
+            "inference",
+            "methodology",
+            "falsifiability",
+            "variables",
+            "longitudinal"
+          ],
+          "collocations": [
+            "conduct empirical research",
+            "trigger a paradigm shift",
+            "establish causal relationships",
+            "replicate experimental findings",
+            "test the falsifiability of a claim"
+          ]
+        },
+        {
+          "topic_number": 40,
+          "topic_id": "b3-t40",
+          "topic_title": "Knowledge, Truth & Belief",
+          "target_words": [
+            "epistemology",
+            "empiricism",
+            "rationalism",
+            "scepticism",
+            "objectivity",
+            "subjectivity",
+            "axiom",
+            "verifiable",
+            "postulate",
+            "relativism"
+          ],
+          "collocations": [
+            "question the nature of knowledge",
+            "distinguish fact from opinion",
+            "challenge subjective interpretations",
+            "adopt an empirical approach",
+            "resist moral relativism"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_number": 5,
+      "theme_title": "Language & Communication",
+      "topics": [
+        {
+          "topic_number": 41,
+          "topic_id": "b3-t41",
+          "topic_title": "How Language Works",
+          "target_words": [
+            "morphology",
+            "syntax",
+            "semantics",
+            "pragmatics",
+            "register",
+            "lexical",
+            "phonology",
+            "connotation",
+            "dialect",
+            "code-switching"
+          ],
+          "collocations": [
+            "analyse grammatical structure",
+            "study the semantics of language",
+            "shift between registers",
+            "trace the etymology of words",
+            "examine phonological variation"
+          ]
+        },
+        {
+          "topic_number": 42,
+          "topic_id": "b3-t42",
+          "topic_title": "Language Change & Variation",
+          "target_words": [
+            "neologism",
+            "dialectal",
+            "standardisation",
+            "vernacular",
+            "creole",
+            "archaism",
+            "revitalisation",
+            "evolution",
+            "contact language",
+            "extinct"
+          ],
+          "collocations": [
+            "coin a new expression",
+            "preserve an endangered dialect",
+            "undergo linguistic change",
+            "reflect cultural identity through language",
+            "resist language standardisation"
+          ]
+        },
+        {
+          "topic_number": 43,
+          "topic_id": "b3-t43",
+          "topic_title": "Cross-cultural Communication",
+          "target_words": [
+            "mediation",
+            "pragmatic transfer",
+            "adaptation",
+            "misunderstanding",
+            "etiquette",
+            "equivalence",
+            "convention",
+            "generalisation",
+            "misinterpretation",
+            "connotative"
+          ],
+          "collocations": [
+            "navigate cultural differences in communication",
+            "bridge intercultural misunderstandings",
+            "adapt tone across cultural contexts",
+            "manage pragmatic transfer errors",
+            "challenge cultural stereotypes"
+          ]
+        },
+        {
+          "topic_number": 44,
+          "topic_id": "b3-t44",
+          "topic_title": "Persuasion & Influence",
+          "target_words": [
+            "rhetoric",
+            "framing",
+            "loaded language",
+            "euphemism",
+            "appeal",
+            "manipulation",
+            "spin",
+            "credibility",
+            "stance",
+            "endorsement"
+          ],
+          "collocations": [
+            "deploy rhetorical devices effectively",
+            "use loaded language strategically",
+            "frame an issue persuasively",
+            "exploit psychological vulnerabilities",
+            "build speaker credibility"
+          ]
+        },
+        {
+          "topic_number": 45,
+          "topic_id": "b3-t45",
+          "topic_title": "Media Literacy & Critical Reading",
+          "target_words": [
+            "undertone",
+            "implication",
+            "deconstruct",
+            "consistency",
+            "verifiability",
+            "source",
+            "verify",
+            "deduction",
+            "presupposition",
+            "slant"
+          ],
+          "collocations": [
+            "deconstruct underlying assumptions",
+            "identify implicit bias",
+            "evaluate source reliability",
+            "challenge media representations",
+            "read between the lines"
+          ]
+        },
+        {
+          "topic_number": 46,
+          "topic_id": "b3-t46",
+          "topic_title": "The Language of Power",
+          "target_words": [
+            "hegemony",
+            "discourse",
+            "ideology",
+            "implicit bias",
+            "narrative control",
+            "lexical choice",
+            "positioning",
+            "intertextuality",
+            "subtext",
+            "euphemism"
+          ],
+          "collocations": [
+            "use language to exercise power",
+            "embed ideological assumptions",
+            "challenge dominant discourses",
+            "exploit linguistic ambiguity",
+            "construct social reality through language"
+          ]
+        },
+        {
+          "topic_number": 47,
+          "topic_id": "b3-t47",
+          "topic_title": "Academic Writing: Structure & Style",
+          "target_words": [
+            "thesis statement",
+            "hedging",
+            "nominalisation",
+            "formality",
+            "transition",
+            "cohesion",
+            "coherence",
+            "citation",
+            "register",
+            "concision"
+          ],
+          "collocations": [
+            "develop a clear line of argument",
+            "maintain formal academic register",
+            "use hedging language appropriately",
+            "integrate sources effectively",
+            "organise ideas with coherence"
+          ]
+        },
+        {
+          "topic_number": 48,
+          "topic_id": "b3-t48",
+          "topic_title": "Academic Writing: Critical Analysis",
+          "target_words": [
+            "critique",
+            "deconstruct",
+            "problematise",
+            "nuance",
+            "counterargument",
+            "implication",
+            "evaluate",
+            "substantiate",
+            "qualify",
+            "limitation"
+          ],
+          "collocations": [
+            "challenge the premises of an argument",
+            "anticipate counterarguments",
+            "problematise accepted views",
+            "qualify sweeping generalisations",
+            "acknowledge the limitations of an argument"
+          ]
+        },
+        {
+          "topic_number": 49,
+          "topic_id": "b3-t49",
+          "topic_title": "Storytelling & Narrative",
+          "target_words": [
+            "narrative",
+            "unreliable narrator",
+            "motif",
+            "perspective",
+            "catharsis",
+            "symbolism",
+            "voice",
+            "plot",
+            "subtext",
+            "archetype"
+          ],
+          "collocations": [
+            "construct a compelling narrative",
+            "challenge the reader's perspective",
+            "employ narrative techniques",
+            "draw on universal archetypes",
+            "exploit the power of subtext"
+          ]
+        },
+        {
+          "topic_number": 50,
+          "topic_id": "b3-t50",
+          "topic_title": "Language & the Brain",
+          "target_words": [
+            "acquisition",
+            "bilingualism",
+            "neurolinguistics",
+            "lateralisation",
+            "critical period",
+            "fluency",
+            "competence",
+            "comprehension",
+            "interference",
+            "processing"
+          ],
+          "collocations": [
+            "acquire a second language naturally",
+            "exploit the critical period for language learning",
+            "develop communicative competence",
+            "overcome first-language interference",
+            "study neural language processing"
+          ]
+        }
+      ]
+    },
+    {
+      "theme_number": 6,
+      "theme_title": "Ethics & the Future",
+      "topics": [
+        {
+          "topic_number": 51,
+          "topic_id": "b3-t51",
+          "topic_title": "Applied Ethics",
+          "target_words": [
+            "consequentialism",
+            "deontology",
+            "virtue ethics",
+            "moral dilemma",
+            "culpability",
+            "integrity",
+            "proportionality",
+            "justification",
+            "coercion",
+            "complicity"
+          ],
+          "collocations": [
+            "weigh competing moral obligations",
+            "uphold moral integrity",
+            "apply consequentialist principles",
+            "navigate moral ambiguity with integrity",
+            "resist moral coercion"
+          ]
+        },
+        {
+          "topic_number": 52,
+          "topic_id": "b3-t52",
+          "topic_title": "Bioethics & Medical Decisions",
+          "target_words": [
+            "informed consent",
+            "patient autonomy",
+            "euthanasia",
+            "cloning",
+            "allocation",
+            "experimentation",
+            "malpractice",
+            "sanctity",
+            "negligence",
+            "dilemma"
+          ],
+          "collocations": [
+            "respect patient autonomy",
+            "obtain informed consent",
+            "regulate gene therapy",
+            "balance patient rights with clinical obligations",
+            "examine bioethical implications"
+          ]
+        },
+        {
+          "topic_number": 53,
+          "topic_id": "b3-t53",
+          "topic_title": "Technology Ethics & Digital Rights",
+          "target_words": [
+            "digital rights",
+            "surveillance capitalism",
+            "consent",
+            "transparency",
+            "accountability",
+            "liability",
+            "algorithmic justice",
+            "data sovereignty",
+            "whistleblowing",
+            "autonomy"
+          ],
+          "collocations": [
+            "protect digital rights",
+            "challenge corporate surveillance",
+            "ensure algorithmic transparency",
+            "enforce data sovereignty",
+            "hold tech companies accountable"
+          ]
+        },
+        {
+          "topic_number": 54,
+          "topic_id": "b3-t54",
+          "topic_title": "Environmental Ethics",
+          "target_words": [
+            "anthropocentrism",
+            "intrinsic value",
+            "stewardship",
+            "intergenerational equity",
+            "speciesism",
+            "biocentric",
+            "precautionary principle",
+            "commons",
+            "sustainability",
+            "obligation"
+          ],
+          "collocations": [
+            "uphold intergenerational responsibility",
+            "challenge anthropocentric values",
+            "apply the precautionary principle",
+            "protect the global commons",
+            "recognise the intrinsic value of nature"
+          ]
+        },
+        {
+          "topic_number": 55,
+          "topic_id": "b3-t55",
+          "topic_title": "The Future of Work",
+          "target_words": [
+            "automation",
+            "marginalisation",
+            "reskilling",
+            "precariat",
+            "universal basic income",
+            "gig economy",
+            "deskilling",
+            "telework",
+            "platform",
+            "adaptability"
+          ],
+          "collocations": [
+            "navigate the gig economy",
+            "advocate for universal basic income",
+            "address technological displacement",
+            "reskill the workforce",
+            "challenge exploitative platform capitalism"
+          ]
+        },
+        {
+          "topic_number": 56,
+          "topic_id": "b3-t56",
+          "topic_title": "Democracy, Power & Justice",
+          "target_words": [
+            "self-governance",
+            "legitimacy",
+            "social contract",
+            "civil disobedience",
+            "oppression",
+            "dissent",
+            "disenfranchise",
+            "solidarity",
+            "redress",
+            "mandate"
+          ],
+          "collocations": [
+            "uphold the social contract",
+            "challenge the legitimacy of authority",
+            "exercise the right to civil disobedience",
+            "mobilise grassroots support",
+            "demand political accountability"
+          ]
+        },
+        {
+          "topic_number": 57,
+          "topic_id": "b3-t57",
+          "topic_title": "Global Challenges & Collective Action",
+          "target_words": [
+            "multilateral",
+            "geopolitics",
+            "sanction",
+            "diplomacy",
+            "humanitarian",
+            "coalition",
+            "dissuasion",
+            "negotiation",
+            "sovereignty",
+            "intervention"
+          ],
+          "collocations": [
+            "broker a peace agreement",
+            "impose economic sanctions",
+            "provide humanitarian aid",
+            "build multilateral coalitions",
+            "negotiate diplomatic solutions"
+          ]
+        },
+        {
+          "topic_number": 58,
+          "topic_id": "b3-t58",
+          "topic_title": "Identity, Culture & Belonging",
+          "target_words": [
+            "intersectionality",
+            "authenticity",
+            "performativity",
+            "marginalised",
+            "embodiment",
+            "internalise",
+            "subjectivity",
+            "belonging",
+            "fluidity",
+            "construct"
+          ],
+          "collocations": [
+            "construct a personal narrative",
+            "navigate intersecting identities",
+            "challenge normative expectations",
+            "internalise social pressures",
+            "assert cultural authenticity"
+          ]
+        },
+        {
+          "topic_number": 59,
+          "topic_id": "b3-t59",
+          "topic_title": "Consciousness, Mind & Morality",
+          "target_words": [
+            "consciousness",
+            "determinism",
+            "free will",
+            "phenomenology",
+            "agency",
+            "intentionality",
+            "volition",
+            "emergent",
+            "rational",
+            "qualia"
+          ],
+          "collocations": [
+            "reconcile free will with determinism",
+            "challenge reductionist accounts of mind",
+            "assert human agency",
+            "probe the limits of human perception",
+            "bridge the mind-body divide"
+          ]
+        },
+        {
+          "topic_number": 60,
+          "topic_id": "b3-t60",
+          "topic_title": "The Future of Humanity",
+          "target_words": [
+            "trajectory",
+            "existential",
+            "stewardship",
+            "civilisation",
+            "resilience",
+            "foresight",
+            "transcendence",
+            "legacy",
+            "collective agency",
+            "flourishing"
+          ],
+          "collocations": [
+            "shape the trajectory of civilisation",
+            "exercise long-term foresight",
+            "preserve humanity's collective legacy",
+            "navigate an uncertain future",
+            "realise human flourishing"
+          ]
+        }
+      ]
+    }
+  ]
+}

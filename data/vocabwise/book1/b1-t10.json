@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 10,
+    "topic_id": "b1-t10",
+    "topic_title": "Weather & Seasons",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "☀️",
+    "topic_title_vi": "Thời Tiết & Mùa",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 107,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The **weather** in Việt Nam changes with each **season**. In summer, the **temperature** is very **hot** and **dry**. The **sun** shines all day.",
+        "text_vi": "**Thời tiết** ở Việt Nam thay đổi theo từng **mùa**. Vào mùa hè, **nhiệt độ** rất **nóng** và **khô**. Mặt **trời** chiếu suốt cả ngày."
+      },
+      {
+        "index": 2,
+        "text_en": "In the rainy **season**, it **rains** almost every day. The streets become **wet** and people carry **umbrellas** everywhere. The **wind** is strong and dark **clouds** fill the sky.",
+        "text_vi": "Vào **mùa** mưa, trời **mưa** gần như mỗi ngày. Đường phố trở nên **ướt** và mọi người mang **ô** đi khắp nơi. **Gió** mạnh và những đám **mây** tối che phủ bầu trời."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes there is a big **storm** at night. **Storms** bring heavy **rain** and strong **wind**, but they also cool the air down.",
+        "text_vi": "Đôi khi có **bão** lớn vào ban đêm. **Bão** mang theo **mưa** lớn và **gió** mạnh, nhưng chúng cũng làm không khí mát hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "In the north, there is sometimes **snow** in winter. The air is **cold**, and **warm** clothes are very important. I love all kinds of **weather** — every **season** is special.",
+        "text_vi": "Ở miền Bắc, đôi khi có **tuyết** vào mùa đông. Không khí **lạnh** và quần áo **ấm** rất quan trọng. Tôi yêu mọi loại **thời tiết** — mỗi **mùa** đều đặc biệt."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "weather",
+      "ipa": "/ˈweðər/",
+      "pos": "noun",
+      "meaning_vi": "thời tiết",
+      "meaning_vi_inline": "thời tiết",
+      "example_en": "The weather today is sunny and warm — perfect for a picnic.",
+      "example_vi": "Thời tiết hôm nay nắng và ấm — thích hợp để đi dã ngoại.",
+      "word_family": {
+        "noun": "weather",
+        "verb": "weather",
+        "adjective": "weathery",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "whether",
+        "explanation_vi": "'Weather' (thời tiết) và 'whether' (liệu có... không) phát âm giống nhau nhưng nghĩa hoàn toàn khác."
+      }
+    },
+    {
+      "id": 2,
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adjective",
+      "meaning_vi": "nóng",
+      "meaning_vi_inline": "nóng",
+      "example_en": "It is very hot today — the temperature is 38 degrees.",
+      "example_vi": "Hôm nay trời rất nóng — nhiệt độ là 38 độ.",
+      "word_family": {
+        "noun": "heat",
+        "verb": "heat",
+        "adjective": "hot",
+        "adverb": "hotly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "cold",
+      "ipa": "/koʊld/",
+      "pos": "adjective / noun",
+      "meaning_vi": "lạnh; cảm lạnh",
+      "meaning_vi_inline": "lạnh",
+      "example_en": "It is very cold in the north of Việt Nam in January.",
+      "example_vi": "Miền Bắc Việt Nam rất lạnh vào tháng Giêng.",
+      "word_family": {
+        "noun": "cold / coldness",
+        "verb": null,
+        "adjective": "cold",
+        "adverb": "coldly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "rain",
+      "ipa": "/reɪn/",
+      "pos": "noun / verb",
+      "meaning_vi": "mưa; trời mưa",
+      "meaning_vi_inline": "mưa",
+      "example_en": "It rains a lot in Hội An during the rainy season.",
+      "example_vi": "Ở Hội An mưa nhiều vào mùa mưa.",
+      "word_family": {
+        "noun": "rain / rainfall / rainbow / raincoat",
+        "verb": "rain / rained",
+        "adjective": "rainy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "sun",
+      "ipa": "/sʌn/",
+      "pos": "noun",
+      "meaning_vi": "mặt trời; nắng",
+      "meaning_vi_inline": "mặt trời / nắng",
+      "example_en": "The sun shines brightly in summer — it is great weather for swimming.",
+      "example_vi": "Mặt trời chiếu sáng rực rỡ vào mùa hè — thời tiết tuyệt để bơi lội.",
+      "word_family": {
+        "noun": "sun / sunshine / sunlight",
+        "verb": null,
+        "adjective": "sunny",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "wind",
+      "ipa": "/wɪnd/",
+      "pos": "noun",
+      "meaning_vi": "gió",
+      "meaning_vi_inline": "gió",
+      "example_en": "The wind is very strong today — it blew my hat off.",
+      "example_vi": "Gió rất mạnh hôm nay — nó đã thổi bay mũ của tôi.",
+      "word_family": {
+        "noun": "wind / windmill",
+        "verb": "wind",
+        "adjective": "windy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "cloud",
+      "ipa": "/klaʊd/",
+      "pos": "noun",
+      "meaning_vi": "đám mây",
+      "meaning_vi_inline": "mây",
+      "example_en": "Dark clouds in the sky often mean rain is coming soon.",
+      "example_vi": "Những đám mây tối trên bầu trời thường báo hiệu sắp có mưa.",
+      "word_family": {
+        "noun": "cloud / cloudiness",
+        "verb": "cloud",
+        "adjective": "cloudy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "season",
+      "ipa": "/ˈsiːzən/",
+      "pos": "noun",
+      "meaning_vi": "mùa (trong năm)",
+      "meaning_vi_inline": "mùa",
+      "example_en": "My favourite season is spring because the flowers are beautiful.",
+      "example_vi": "Mùa yêu thích của tôi là mùa xuân vì hoa nở đẹp.",
+      "word_family": {
+        "noun": "season",
+        "verb": "season",
+        "adjective": "seasonal",
+        "adverb": "seasonally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "dry",
+      "ipa": "/draɪ/",
+      "pos": "adjective",
+      "meaning_vi": "khô, không có mưa",
+      "meaning_vi_inline": "khô",
+      "example_en": "The dry season in the south lasts from November to April.",
+      "example_vi": "Mùa khô ở miền Nam kéo dài từ tháng 11 đến tháng 4.",
+      "word_family": {
+        "noun": "dryness / drought",
+        "verb": "dry",
+        "adjective": "dry",
+        "adverb": "dryly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "wet",
+      "ipa": "/wet/",
+      "pos": "adjective",
+      "meaning_vi": "ướt",
+      "meaning_vi_inline": "ướt",
+      "example_en": "The streets were wet after the heavy rain last night.",
+      "example_vi": "Đường phố ướt sũng sau cơn mưa lớn đêm qua.",
+      "word_family": {
+        "noun": "wetness",
+        "verb": "wet",
+        "adjective": "wet",
+        "adverb": "wetly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "temperature",
+      "ipa": "/ˈtempərɪtʃər/",
+      "pos": "noun",
+      "meaning_vi": "nhiệt độ",
+      "meaning_vi_inline": "nhiệt độ",
+      "example_en": "The temperature today is 36 degrees — the hottest day this week.",
+      "example_vi": "Nhiệt độ hôm nay là 36 độ — ngày nóng nhất trong tuần này.",
+      "word_family": {
+        "noun": "temperature",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "warm",
+      "ipa": "/wɔːrm/",
+      "pos": "adjective",
+      "meaning_vi": "ấm, ấm áp",
+      "meaning_vi_inline": "ấm",
+      "example_en": "Spring is warm and pleasant — perfect weather for outdoor activities.",
+      "example_vi": "Mùa xuân ấm áp và dễ chịu — thời tiết hoàn hảo cho các hoạt động ngoài trời.",
+      "word_family": {
+        "noun": "warmth",
+        "verb": "warm",
+        "adjective": "warm",
+        "adverb": "warmly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "storm",
+      "ipa": "/stɔːrm/",
+      "pos": "noun",
+      "meaning_vi": "bão, giông bão",
+      "meaning_vi_inline": "bão",
+      "example_en": "A big storm hit the city last night — it was very loud and scary.",
+      "example_vi": "Một cơn bão lớn đổ vào thành phố tối qua — rất ồn ào và đáng sợ.",
+      "word_family": {
+        "noun": "storm",
+        "verb": "storm",
+        "adjective": "stormy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "snow",
+      "ipa": "/snoʊ/",
+      "pos": "noun / verb",
+      "meaning_vi": "tuyết; trời tuyết",
+      "meaning_vi_inline": "tuyết",
+      "example_en": "It snowed last night — the garden is completely white this morning.",
+      "example_vi": "Đêm qua có tuyết — sáng nay khu vườn trắng xóa.",
+      "word_family": {
+        "noun": "snow / snowball / snowflake",
+        "verb": "snow / snowed",
+        "adjective": "snowy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "umbrella",
+      "ipa": "/ʌmˈbrelə/",
+      "pos": "noun",
+      "meaning_vi": "cái ô, dù",
+      "meaning_vi_inline": "ô / dù",
+      "example_en": "I always carry an umbrella during the rainy season.",
+      "example_vi": "Tôi luôn mang ô trong mùa mưa.",
+      "word_family": {
+        "noun": "umbrella",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "temperature"
+        },
+        {
+          "id": 2,
+          "word": "storm"
+        },
+        {
+          "id": 3,
+          "word": "umbrella"
+        },
+        {
+          "id": 4,
+          "word": "cloud"
+        },
+        {
+          "id": 5,
+          "word": "season"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a period of very bad weather with heavy rain and strong wind"
+        },
+        {
+          "id": "B",
+          "text": "an object you hold above your head to protect yourself from rain"
+        },
+        {
+          "id": "C",
+          "text": "a mass of water droplets that floats in the sky"
+        },
+        {
+          "id": "D",
+          "text": "how hot or cold the air or a substance is, measured in degrees"
+        },
+        {
+          "id": "E",
+          "text": "one of the four periods of the year: spring, summer, autumn, winter"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "In summer, the _____ can reach 40 degrees in some parts of the country.",
+          "options": [
+            "weather",
+            "temperature",
+            "season",
+            "storm"
+          ],
+          "answer": "temperature"
+        },
+        {
+          "id": 2,
+          "sentence": "It _____ every day in the rainy season — the streets are always wet.",
+          "options": [
+            "snows",
+            "storms",
+            "rains",
+            "clouds"
+          ],
+          "answer": "rains"
+        },
+        {
+          "id": 3,
+          "sentence": "I always carry an _____ when the sky looks dark and cloudy.",
+          "options": [
+            "raincoat",
+            "umbrella",
+            "jacket",
+            "bag"
+          ],
+          "answer": "umbrella"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ was very strong last night — trees fell down in the streets.",
+          "options": [
+            "cloud",
+            "rain",
+            "wind",
+            "storm"
+          ],
+          "answer": "storm"
+        },
+        {
+          "id": 5,
+          "sentence": "In winter, the air is very _____ — you need a warm coat and a hat.",
+          "options": [
+            "hot",
+            "wet",
+            "cold",
+            "dry"
+          ],
+          "answer": "cold"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "hot",
+        "rain",
+        "wind",
+        "snow",
+        "warm",
+        "dry"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "In summer, it is very _____ — the temperature can reach 38 degrees.",
+          "answer": "hot"
+        },
+        {
+          "id": 2,
+          "sentence": "In the north of Việt Nam, there is sometimes _____ on the mountain tops in winter.",
+          "answer": "snow"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ was very strong today — it blew my hat right off my head.",
+          "answer": "wind"
+        },
+        {
+          "id": 4,
+          "sentence": "It is going to _____ tomorrow — remember to bring your umbrella to school.",
+          "answer": "rain"
+        },
+        {
+          "id": 5,
+          "sentence": "Put on a _____ jacket before going out — it is quite cold outside today.",
+          "answer": "warm"
+        }
+      ],
+      "note": "One word in the box is not used: dry"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It was a beautiful, _____ day — the sky was blue and there were no clouds. (SUN)",
+          "base_word": "SUN",
+          "answer": "sunny",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "The night was very _____ — the wind blew hard and rain poured down. (STORM)",
+          "base_word": "STORM",
+          "answer": "stormy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She dressed _____ in a thick coat and a woolly hat before going outside. (WARM)",
+          "base_word": "WARM",
+          "answer": "warmly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "The weather can change very _____ in this region — sun one minute, rain the next. (QUICK)",
+          "base_word": "QUICK",
+          "answer": "quickly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 5,
+          "sentence": "After weeks of hot, _____ weather, the farmers were glad when the rain finally came. (DRY)",
+          "base_word": "DRY",
+          "answer": "dry",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [temperature's] in summer can reach 40 degrees in some cities.",
+          "highlighted": "temperature's",
+          "options": {
+            "A": "temperature",
+            "B": "temperature's",
+            "C": "temperatures"
+          },
+          "answer": "B",
+          "explanation": "No apostrophe is needed here. 'The temperature' is a simple noun subject, not a possessive form."
+        },
+        {
+          "id": 2,
+          "sentence": "She [goed] outside without her umbrella and got completely wet.",
+          "highlighted": "goed",
+          "options": {
+            "A": "goed",
+            "B": "went",
+            "C": "going"
+          },
+          "answer": "B",
+          "explanation": "'Go' is an irregular verb: go → went (past simple). 'Goed' does not exist in English."
+        },
+        {
+          "id": 3,
+          "sentence": "The dark clouds in the sky [is] a sign that heavy rain is coming soon.",
+          "highlighted": "is",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "was"
+          },
+          "answer": "B",
+          "explanation": "'The dark clouds' is plural, so the verb must be 'are', not 'is' (which is used with singular subjects)."
+        },
+        {
+          "id": 4,
+          "sentence": "It was very [hotly] yesterday — the temperature reached 38 degrees.",
+          "highlighted": "hotly",
+          "options": {
+            "A": "hot",
+            "B": "hotly",
+            "C": "hotter"
+          },
+          "answer": "C",
+          "explanation": "After the linking verb 'was', use an adjective: 'hot'. 'Hotly' is an adverb and cannot describe the weather here."
+        },
+        {
+          "id": 5,
+          "sentence": "In the rainy season, it often [raining] all day and all night.",
+          "highlighted": "raining",
+          "options": {
+            "A": "raining",
+            "B": "rained",
+            "C": "rains"
+          },
+          "answer": "C",
+          "explanation": "Use simple present tense ('rains') for general facts and habits. 'Often' + simple present is the natural pattern."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "D",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "temperature",
+      "2": "rains",
+      "3": "umbrella",
+      "4": "storm",
+      "5": "cold"
+    },
+    "ex3": {
+      "1": "hot",
+      "2": "snow",
+      "3": "wind",
+      "4": "rain",
+      "5": "warm"
+    },
+    "ex4": {
+      "1": "sunny",
+      "2": "stormy",
+      "3": "warmly",
+      "4": "quickly",
+      "5": "dry"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

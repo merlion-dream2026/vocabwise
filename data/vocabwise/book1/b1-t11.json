@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 11,
+    "topic_id": "b1-t11",
+    "topic_title": "Animals & Pets",
+    "theme_number": 2,
+    "theme_title": "World Around Us",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🐾",
+    "topic_title_vi": "Động Vật & Thú Cưng",
+    "theme_title_vi": "Thế Giới Xung Quanh"
+  },
+  "passage": {
+    "word_count": 109,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I love **animals**. My family has two **pets** — a **dog** and a **cat**. My **dog** has soft **fur** and a long **tail**.",
+        "text_vi": "Tôi yêu **động vật**. Gia đình tôi có hai **thú cưng** — một con **chó** và một con **mèo**. Con **chó** của tôi có **lông** mềm và cái **đuôi** dài."
+      },
+      {
+        "index": 2,
+        "text_en": "My mother **feeds** our **pets** every morning. I help **take care** of them on weekends. Being a good **owner** means giving your **pet** food, water, and love.",
+        "text_vi": "Mẹ tôi **cho** **thú cưng** ăn mỗi buổi sáng. Tôi giúp **chăm sóc** chúng vào cuối tuần. Là một **chủ** tốt nghĩa là cho **thú cưng** của bạn thức ăn, nước uống và tình yêu thương."
+      },
+      {
+        "index": 3,
+        "text_en": "Some **animals** are **wild** — they live in forests and rivers. **Wild** animals like lions and tigers are **dangerous** and should never be kept as **pets**.",
+        "text_vi": "Một số **động vật** là **hoang dã** — chúng sống trong rừng và sông. Động vật **hoang dã** như sư tử và hổ rất **nguy hiểm** và không nên nuôi làm **thú cưng**."
+      },
+      {
+        "index": 4,
+        "text_en": "I love visiting the **zoo** to see **animals** from around the world. They live in large **cages**. I also visit **farms** where **tame** animals walk freely around.",
+        "text_vi": "Tôi thích đến **vườn thú** để xem **động vật** từ khắp nơi trên thế giới. Chúng sống trong những **chuồng** lớn. Tôi cũng đến thăm **trang trại** nơi những con vật **hiền lành** đi lại tự do."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "animal",
+      "ipa": "/ˈænɪml/",
+      "pos": "noun",
+      "meaning_vi": "động vật",
+      "meaning_vi_inline": "động vật",
+      "example_en": "Many animals live in the forest — birds, monkeys, and deer.",
+      "example_vi": "Nhiều động vật sống trong rừng — chim, khỉ và hươu.",
+      "word_family": {
+        "noun": "animal / wildlife",
+        "verb": null,
+        "adjective": "animal (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "pet",
+      "ipa": "/pet/",
+      "pos": "noun / verb",
+      "meaning_vi": "thú cưng; vuốt ve",
+      "meaning_vi_inline": "thú cưng",
+      "example_en": "My pet is a small rabbit — she is very gentle and friendly.",
+      "example_vi": "Thú cưng của tôi là một con thỏ nhỏ — nó rất hiền và thân thiện.",
+      "word_family": {
+        "noun": "pet",
+        "verb": "pet / petted",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "noun",
+      "meaning_vi": "con chó",
+      "meaning_vi_inline": "chó",
+      "example_en": "My dog loves to run and play in the park every evening.",
+      "example_vi": "Con chó của tôi thích chạy và chơi trong công viên mỗi buổi tối.",
+      "word_family": {
+        "noun": "dog / puppy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "cat",
+      "ipa": "/kæt/",
+      "pos": "noun",
+      "meaning_vi": "con mèo",
+      "meaning_vi_inline": "mèo",
+      "example_en": "Our cat likes to sleep on the sofa all afternoon.",
+      "example_vi": "Con mèo của chúng tôi thích ngủ trên ghế sofa suốt buổi chiều.",
+      "word_family": {
+        "noun": "cat / kitten",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "wild",
+      "ipa": "/waɪld/",
+      "pos": "adjective",
+      "meaning_vi": "hoang dã, hoang wild",
+      "meaning_vi_inline": "hoang dã",
+      "example_en": "Elephants and tigers are wild animals — they live in the forest.",
+      "example_vi": "Voi và hổ là động vật hoang dã — chúng sống trong rừng.",
+      "word_family": {
+        "noun": "wildlife / wilderness",
+        "verb": null,
+        "adjective": "wild",
+        "adverb": "wildly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "feed",
+      "ipa": "/fiːd/",
+      "pos": "verb",
+      "meaning_vi": "cho ăn, cho uống",
+      "meaning_vi_inline": "cho ăn",
+      "example_en": "She feeds her dog every morning and evening.",
+      "example_vi": "Cô ấy cho chó ăn mỗi sáng và tối.",
+      "word_family": {
+        "noun": "feed / food",
+        "verb": "feed / fed / fed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "fur",
+      "ipa": "/fɜːr/",
+      "pos": "noun",
+      "meaning_vi": "lông (thú)",
+      "meaning_vi_inline": "lông",
+      "example_en": "My cat has soft white fur that is very pleasant to touch.",
+      "example_vi": "Con mèo của tôi có bộ lông trắng mềm rất dễ chịu khi chạm vào.",
+      "word_family": {
+        "noun": "fur / furry",
+        "verb": null,
+        "adjective": "furry",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "tail",
+      "ipa": "/teɪl/",
+      "pos": "noun",
+      "meaning_vi": "cái đuôi",
+      "meaning_vi_inline": "đuôi",
+      "example_en": "My dog wags her tail when she sees me come home.",
+      "example_vi": "Con chó của tôi vẫy đuôi khi thấy tôi về nhà.",
+      "word_family": {
+        "noun": "tail",
+        "verb": "tail",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "tale",
+        "explanation_vi": "'Tail' (đuôi) và 'tale' (câu chuyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+      }
+    },
+    {
+      "id": 9,
+      "word": "farm",
+      "ipa": "/fɑːrm/",
+      "pos": "noun",
+      "meaning_vi": "trang trại, nông trại",
+      "meaning_vi_inline": "trang trại",
+      "example_en": "We visited a farm last weekend and saw cows, pigs, and chickens.",
+      "example_vi": "Chúng tôi đến thăm một trang trại cuối tuần trước và thấy bò, lợn và gà.",
+      "word_family": {
+        "noun": "farm / farmer / farming",
+        "verb": "farm",
+        "adjective": "farm (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "zoo",
+      "ipa": "/zuː/",
+      "pos": "noun",
+      "meaning_vi": "vườn thú",
+      "meaning_vi_inline": "vườn thú",
+      "example_en": "We went to the zoo on Saturday and saw lions, elephants, and penguins.",
+      "example_vi": "Chúng tôi đến vườn thú vào thứ Bảy và nhìn thấy sư tử, voi và chim cánh cụt.",
+      "word_family": {
+        "noun": "zoo / zoology",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "dangerous",
+      "ipa": "/ˈdeɪndʒərəs/",
+      "pos": "adjective",
+      "meaning_vi": "nguy hiểm",
+      "meaning_vi_inline": "nguy hiểm",
+      "example_en": "It is dangerous to feed wild animals — they can bite or attack.",
+      "example_vi": "Việc cho động vật hoang dã ăn rất nguy hiểm — chúng có thể cắn hoặc tấn công.",
+      "word_family": {
+        "noun": "danger",
+        "verb": "endanger",
+        "adjective": "dangerous",
+        "adverb": "dangerously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "tame",
+      "ipa": "/teɪm/",
+      "pos": "adjective / verb",
+      "meaning_vi": "hiền lành, đã thuần hoá; thuần hoá",
+      "meaning_vi_inline": "hiền lành / thuần hoá",
+      "example_en": "The animals at the farm are very tame — you can touch and feed them.",
+      "example_vi": "Các con vật ở trang trại rất hiền lành — bạn có thể chạm vào và cho chúng ăn.",
+      "word_family": {
+        "noun": null,
+        "verb": "tame / tamed",
+        "adjective": "tame",
+        "adverb": "tamely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "owner",
+      "ipa": "/ˈoʊnər/",
+      "pos": "noun",
+      "meaning_vi": "chủ (vật nuôi, tài sản)",
+      "meaning_vi_inline": "chủ",
+      "example_en": "A good pet owner always makes sure their animal is healthy and happy.",
+      "example_vi": "Một người chủ thú cưng tốt luôn đảm bảo thú cưng của mình khỏe mạnh và vui vẻ.",
+      "word_family": {
+        "noun": "owner / ownership",
+        "verb": "own",
+        "adjective": "owner (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "cage",
+      "ipa": "/keɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "lồng, chuồng (có song sắt)",
+      "meaning_vi_inline": "lồng / chuồng",
+      "example_en": "The birds at the zoo live in a large cage with trees and water.",
+      "example_vi": "Những con chim ở vườn thú sống trong một cái lồng lớn có cây và nước.",
+      "word_family": {
+        "noun": "cage",
+        "verb": "cage",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "care",
+      "ipa": "/keər/",
+      "pos": "verb / noun",
+      "meaning_vi": "chăm sóc; sự chăm sóc",
+      "meaning_vi_inline": "chăm sóc",
+      "example_en": "She takes great care of her pets — she feeds and washes them every day.",
+      "example_vi": "Cô ấy chăm sóc thú cưng rất tốt — cô ấy cho chúng ăn và tắm mỗi ngày.",
+      "word_family": {
+        "noun": "care / caretaker",
+        "verb": "care / cared",
+        "adjective": "careful / careless",
+        "adverb": "carefully / carelessly"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "tame"
+        },
+        {
+          "id": 2,
+          "word": "owner"
+        },
+        {
+          "id": 3,
+          "word": "cage"
+        },
+        {
+          "id": 4,
+          "word": "wild"
+        },
+        {
+          "id": 5,
+          "word": "dangerous"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a box or room made of bars or wire where animals are kept"
+        },
+        {
+          "id": "B",
+          "text": "not afraid of humans; easy to control and keep as a pet"
+        },
+        {
+          "id": "C",
+          "text": "likely to hurt or kill; not safe to touch or go near"
+        },
+        {
+          "id": "D",
+          "text": "living in nature and not controlled or kept by humans"
+        },
+        {
+          "id": "E",
+          "text": "the person who has something as their own property"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My _____ is a small white rabbit — she is very gentle and friendly.",
+          "options": [
+            "pet",
+            "animal",
+            "owner",
+            "fur"
+          ],
+          "answer": "pet"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ his dog every morning and evening — always at the same time.",
+          "options": [
+            "cares",
+            "owns",
+            "feeds",
+            "tames"
+          ],
+          "answer": "feeds"
+        },
+        {
+          "id": 3,
+          "sentence": "Lions and tigers are _____ animals — they are never safe to touch.",
+          "options": [
+            "tame",
+            "wild",
+            "farm",
+            "dangerous"
+          ],
+          "answer": "dangerous"
+        },
+        {
+          "id": 4,
+          "sentence": "She is a responsible _____ — she always feeds and washes her dog.",
+          "options": [
+            "owner",
+            "pet",
+            "animal",
+            "farm"
+          ],
+          "answer": "owner"
+        },
+        {
+          "id": 5,
+          "sentence": "At the _____, I saw lions, elephants, and many kinds of tropical birds.",
+          "options": [
+            "farm",
+            "cage",
+            "zoo",
+            "animal"
+          ],
+          "answer": "zoo"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "wild",
+        "care",
+        "owner",
+        "feed",
+        "tail",
+        "cage"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My dog wags her _____ every time she sees me come home from school.",
+          "answer": "tail"
+        },
+        {
+          "id": 2,
+          "sentence": "She is a good _____ — she feeds and washes her dog every single day.",
+          "answer": "owner"
+        },
+        {
+          "id": 3,
+          "sentence": "You should never try to touch _____ animals — they can be very dangerous.",
+          "answer": "wild"
+        },
+        {
+          "id": 4,
+          "sentence": "I help my mother _____ our rabbit every morning and evening.",
+          "answer": "feed"
+        },
+        {
+          "id": 5,
+          "sentence": "It is important to _____ for your pet and make sure it is healthy and happy.",
+          "answer": "care"
+        }
+      ],
+      "note": "One word in the box is not used: cage"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "That lion is very _____ — please do not go near the fence. (DANGER)",
+          "base_word": "DANGER",
+          "answer": "dangerous",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ her rabbit every morning before going to school. (FEED)",
+          "base_word": "FEED",
+          "answer": "feeds",
+          "form_used": "verb (3rd person singular)"
+        },
+        {
+          "id": 3,
+          "sentence": "A responsible pet _____ always gives their animal food, water, and love. (OWN)",
+          "base_word": "OWN",
+          "answer": "owner",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "She treats her cat very _____ — she gives it food, water, and a clean bed. (CARE)",
+          "base_word": "CARE",
+          "answer": "carefully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 5,
+          "sentence": "The animals at the farm were very _____ — children could touch and pet them. (TAME)",
+          "base_word": "TAME",
+          "answer": "tame",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My dog [wag] her tail every time she sees me come home.",
+          "highlighted": "wag",
+          "options": {
+            "A": "wag",
+            "B": "wags",
+            "C": "wagging"
+          },
+          "answer": "B",
+          "explanation": "Third-person singular 'my dog' (she) requires the verb to end in 's' in simple present tense: 'wags'."
+        },
+        {
+          "id": 2,
+          "sentence": "Lions and tigers are very [dangerously] — never get too close to them.",
+          "highlighted": "dangerously",
+          "options": {
+            "A": "dangerous",
+            "B": "dangerously",
+            "C": "dangerousness"
+          },
+          "answer": "C",
+          "explanation": "After the verb 'are', use an adjective: 'dangerous'. 'Dangerously' is an adverb — it cannot describe a noun here."
+        },
+        {
+          "id": 3,
+          "sentence": "My dog has soft [furs] and a long, brown tail.",
+          "highlighted": "furs",
+          "options": {
+            "A": "furs",
+            "B": "fur",
+            "C": "furry"
+          },
+          "answer": "B",
+          "explanation": "'Fur' is an uncountable noun — it does not take a plural form. 'Furs' is only used in certain specific contexts (e.g., fashion)."
+        },
+        {
+          "id": 4,
+          "sentence": "He [gived] his dog some food before going to school each morning.",
+          "highlighted": "gived",
+          "options": {
+            "A": "gived",
+            "B": "gave",
+            "C": "gives"
+          },
+          "answer": "B",
+          "explanation": "'Give' is an irregular verb: give → gave (past simple). 'Gived' does not exist in English."
+        },
+        {
+          "id": 5,
+          "sentence": "The animals at the zoo live in [large cage].",
+          "highlighted": "large cage",
+          "options": {
+            "A": "large cages",
+            "B": "large cage",
+            "C": "a large cage"
+          },
+          "answer": "C",
+          "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "B",
+      "2": "E",
+      "3": "A",
+      "4": "D",
+      "5": "C"
+    },
+    "ex2": {
+      "1": "pet",
+      "2": "feeds",
+      "3": "dangerous",
+      "4": "owner",
+      "5": "zoo"
+    },
+    "ex3": {
+      "1": "tail",
+      "2": "owner",
+      "3": "wild",
+      "4": "feed",
+      "5": "care"
+    },
+    "ex4": {
+      "1": "dangerous",
+      "2": "feeds",
+      "3": "owner",
+      "4": "carefully",
+      "5": "tame"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

@@ -550,8 +550,8 @@
           "sentence": "The [custom] of removing shoes before entering a home is [wide] across Asia.",
           "highlighted": "wide",
           "options": {
-            "A": "wide",
-            "B": "widespread",
+            "A": "widespread",
+            "B": "wide",
             "C": "widely"
           },
           "answer": "B",
@@ -574,8 +574,8 @@
           "sentence": "Religious [minority] deserve the same rights as everyone else in society.",
           "highlighted": "minority",
           "options": {
-            "A": "minority",
-            "B": "minorities",
+            "A": "minorities",
+            "B": "minority",
             "C": "minoring"
           },
           "answer": "B",
@@ -627,9 +627,9 @@
     },
     "ex5": {
       "1": "B",
-      "2": "B",
+      "2": "A",
       "3": "B",
-      "4": "B",
+      "4": "A",
       "5": "B"
     }
   }

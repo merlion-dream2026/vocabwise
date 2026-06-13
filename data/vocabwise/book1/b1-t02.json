@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 2,
+    "topic_id": "b1-t02",
+    "topic_title": "Daily Routine",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    },
+    "emoji": "⏰",
+    "topic_title_vi": "Thói Quen Hàng Ngày",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 103,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every **morning**, I **wake** up at six o'clock. I wash my face and have **breakfast** with my family. A good **breakfast** gives me energy for the whole day.",
+        "text_vi": "Mỗi **buổi sáng**, tôi **thức dậy** lúc sáu giờ. Tôi rửa mặt và ăn **bữa sáng** cùng gia đình. Một **bữa sáng** ngon cho tôi năng lượng cho cả ngày."
+      },
+      {
+        "index": 2,
+        "text_en": "I go to **school** by bus. At noon, I have **lunch** in the canteen. In the **afternoon**, I attend my last lessons and then come home to do my homework.",
+        "text_vi": "Tôi đến **trường** bằng xe buýt. Vào buổi trưa, tôi ăn **bữa trưa** ở căng-tin. Vào **buổi chiều**, tôi học những tiết cuối rồi về nhà làm bài tập."
+      },
+      {
+        "index": 3,
+        "text_en": "**Evening** is my favourite time of day. My family has **dinner** together at seven o'clock. My mother **always** cooks a warm and simple meal for all of us.",
+        "text_vi": "**Buổi tối** là thời gian tôi yêu thích nhất trong ngày. Gia đình tôi ăn **bữa tối** cùng nhau lúc bảy giờ. Mẹ tôi **luôn luôn** nấu một bữa ăn ấm áp và đơn giản cho cả nhà."
+      },
+      {
+        "index": 4,
+        "text_en": "I **usually** go to **sleep** before nine o'clock. I never stay up **late**. My **routine** keeps me healthy and happy. Waking up **early** helps me enjoy every day.",
+        "text_vi": "Tôi **thường** đi **ngủ** trước chín giờ tối. Tôi không bao giờ thức **khuya**. **Thói quen** của tôi giúp tôi khỏe mạnh và vui vẻ. Thức dậy **sớm** giúp tôi tận hưởng từng ngày."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "wake",
+      "ipa": "/weɪk/",
+      "pos": "verb",
+      "meaning_vi": "thức dậy",
+      "meaning_vi_inline": "thức dậy",
+      "example_en": "I wake up at six o'clock every morning.",
+      "example_vi": "Tôi thức dậy lúc sáu giờ mỗi buổi sáng.",
+      "word_family": {
+        "noun": "wake-up",
+        "verb": "wake / woke / woken",
+        "adjective": "awake",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "morning",
+      "ipa": "/ˈmɔːnɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "buổi sáng",
+      "meaning_vi_inline": "buổi sáng",
+      "example_en": "I have breakfast every morning before school.",
+      "example_vi": "Tôi ăn sáng mỗi buổi sáng trước khi đến trường.",
+      "word_family": {
+        "noun": "morning",
+        "verb": null,
+        "adjective": "morning (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "breakfast",
+      "ipa": "/ˈbrekfəst/",
+      "pos": "noun",
+      "meaning_vi": "bữa sáng, bữa ăn sáng",
+      "meaning_vi_inline": "bữa sáng",
+      "example_en": "She never skips breakfast — it is the most important meal of the day.",
+      "example_vi": "Cô ấy không bao giờ bỏ bữa sáng — đó là bữa ăn quan trọng nhất trong ngày.",
+      "word_family": {
+        "noun": "breakfast",
+        "verb": "have breakfast",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "school",
+      "ipa": "/skuːl/",
+      "pos": "noun",
+      "meaning_vi": "trường học",
+      "meaning_vi_inline": "trường học",
+      "example_en": "I go to school five days a week.",
+      "example_vi": "Tôi đến trường năm ngày một tuần.",
+      "word_family": {
+        "noun": "school / schooling",
+        "verb": "school",
+        "adjective": "school (attributive) / scholarly",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "lunch",
+      "ipa": "/lʌntʃ/",
+      "pos": "noun",
+      "meaning_vi": "bữa trưa",
+      "meaning_vi_inline": "bữa trưa",
+      "example_en": "We have lunch at noon in the school canteen.",
+      "example_vi": "Chúng tôi ăn trưa vào buổi trưa ở căng-tin trường.",
+      "word_family": {
+        "noun": "lunch / lunchtime",
+        "verb": "have lunch",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "afternoon",
+      "ipa": "/ˌɑːftəˈnuːn/",
+      "pos": "noun",
+      "meaning_vi": "buổi chiều",
+      "meaning_vi_inline": "buổi chiều",
+      "example_en": "In the afternoon, I do my homework at home.",
+      "example_vi": "Vào buổi chiều, tôi làm bài tập ở nhà.",
+      "word_family": {
+        "noun": "afternoon",
+        "verb": null,
+        "adjective": "afternoon (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "dinner",
+      "ipa": "/ˈdɪnər/",
+      "pos": "noun",
+      "meaning_vi": "bữa tối, bữa ăn tối",
+      "meaning_vi_inline": "bữa tối",
+      "example_en": "My family has dinner together at seven o'clock every evening.",
+      "example_vi": "Gia đình tôi ăn tối cùng nhau lúc bảy giờ mỗi tối.",
+      "word_family": {
+        "noun": "dinner / dinnertime",
+        "verb": "have dinner",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "diner",
+        "explanation_vi": "'Dinner' (bữa tối) khác với 'diner' (quán ăn nhỏ) — phát âm và nghĩa đều khác nhau."
+      }
+    },
+    {
+      "id": 8,
+      "word": "evening",
+      "ipa": "/ˈiːvnɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "buổi tối",
+      "meaning_vi_inline": "buổi tối",
+      "example_en": "I watch TV with my family in the evening.",
+      "example_vi": "Tôi xem TV cùng gia đình vào buổi tối.",
+      "word_family": {
+        "noun": "evening",
+        "verb": null,
+        "adjective": "evening (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "sleep",
+      "ipa": "/sliːp/",
+      "pos": "verb / noun",
+      "meaning_vi": "ngủ; giấc ngủ",
+      "meaning_vi_inline": "ngủ",
+      "example_en": "Children need nine to ten hours of sleep every night.",
+      "example_vi": "Trẻ em cần chín đến mười tiếng ngủ mỗi đêm.",
+      "word_family": {
+        "noun": "sleep / nap",
+        "verb": "sleep / slept / slept",
+        "adjective": "sleepy / asleep",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "slip",
+        "explanation_vi": "'Sleep' (ngủ) không phải 'slip' (trượt ngã) — phát âm tương tự nhưng nghĩa khác hoàn toàn."
+      }
+    },
+    {
+      "id": 10,
+      "word": "early",
+      "ipa": "/ˈɜːli/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "sớm",
+      "meaning_vi_inline": "sớm",
+      "example_en": "She wakes up early to prepare breakfast for the family.",
+      "example_vi": "Cô ấy thức dậy sớm để chuẩn bị bữa sáng cho gia đình.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "early",
+        "adverb": "early"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "late",
+      "ipa": "/leɪt/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "muộn, trễ",
+      "meaning_vi_inline": "muộn",
+      "example_en": "He was late for school because he missed the bus.",
+      "example_vi": "Anh ấy đến trường muộn vì lỡ xe buýt.",
+      "word_family": {
+        "noun": "lateness",
+        "verb": null,
+        "adjective": "late",
+        "adverb": "late / lately"
+      },
+      "false_friend": {
+        "word_vi": "lately",
+        "explanation_vi": "'Late' (muộn/trễ) và 'lately' (gần đây) là hai từ khác nghĩa — đừng dùng lẫn lộn."
+      }
+    },
+    {
+      "id": 12,
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "pos": "adjective",
+      "meaning_vi": "bận rộn",
+      "meaning_vi_inline": "bận rộn",
+      "example_en": "My mother is very busy on weekdays — she works and cooks.",
+      "example_vi": "Mẹ tôi rất bận rộn vào các ngày trong tuần — bà vừa làm việc vừa nấu ăn.",
+      "word_family": {
+        "noun": "business",
+        "verb": "busy oneself (with)",
+        "adjective": "busy",
+        "adverb": "busily"
+      },
+      "false_friend": {
+        "word_vi": "business",
+        "explanation_vi": "'Busy' (/ˈbɪzi/) và 'business' (/ˈbɪznəs/) phát âm rất khác — đừng nhầm lẫn."
+      }
+    },
+    {
+      "id": 13,
+      "word": "always",
+      "ipa": "/ˈɔːlweɪz/",
+      "pos": "adverb",
+      "meaning_vi": "luôn luôn, lúc nào cũng",
+      "meaning_vi_inline": "luôn luôn",
+      "example_en": "She always brushes her teeth before going to bed.",
+      "example_vi": "Cô ấy luôn đánh răng trước khi đi ngủ.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "always"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "pos": "adverb",
+      "meaning_vi": "thường, thường thường",
+      "meaning_vi_inline": "thường",
+      "example_en": "I usually have lunch at school, but sometimes I go home.",
+      "example_vi": "Tôi thường ăn trưa ở trường, nhưng đôi khi tôi về nhà.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "usual",
+        "adverb": "usually"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "pos": "noun",
+      "meaning_vi": "thói quen hàng ngày, nề nếp",
+      "meaning_vi_inline": "thói quen",
+      "example_en": "A good morning routine helps you start the day well.",
+      "example_vi": "Một thói quen buổi sáng tốt giúp bạn bắt đầu ngày tốt hơn.",
+      "word_family": {
+        "noun": "routine",
+        "verb": null,
+        "adjective": "routine",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "routine"
+        },
+        {
+          "id": 2,
+          "word": "lunch"
+        },
+        {
+          "id": 3,
+          "word": "early"
+        },
+        {
+          "id": 4,
+          "word": "evening"
+        },
+        {
+          "id": 5,
+          "word": "busy"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "having a lot of things to do; not free"
+        },
+        {
+          "id": "B",
+          "text": "the meal eaten in the middle of the day"
+        },
+        {
+          "id": "C",
+          "text": "a regular way of doing things each day"
+        },
+        {
+          "id": "D",
+          "text": "the time after the afternoon and before night"
+        },
+        {
+          "id": "E",
+          "text": "before the usual or expected time"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ up at six o'clock every morning.",
+          "options": [
+            "wake",
+            "sleep",
+            "eat",
+            "rest"
+          ],
+          "answer": "wake"
+        },
+        {
+          "id": 2,
+          "sentence": "We eat _____ at noon in the school canteen.",
+          "options": [
+            "breakfast",
+            "lunch",
+            "dinner",
+            "routine"
+          ],
+          "answer": "lunch"
+        },
+        {
+          "id": 3,
+          "sentence": "My mother _____ prepares a warm meal for the family.",
+          "options": [
+            "early",
+            "busy",
+            "always",
+            "late"
+          ],
+          "answer": "always"
+        },
+        {
+          "id": 4,
+          "sentence": "School days are very _____ — I have lessons, homework, and sport.",
+          "options": [
+            "busy",
+            "routine",
+            "sleep",
+            "morning"
+          ],
+          "answer": "busy"
+        },
+        {
+          "id": 5,
+          "sentence": "I go to sleep _____ every night so I feel rested in the morning.",
+          "options": [
+            "late",
+            "afternoon",
+            "early",
+            "evening"
+          ],
+          "answer": "early"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "sleep",
+        "routine",
+        "dinner",
+        "usually",
+        "school",
+        "morning"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ finish my homework before dinner time.",
+          "answer": "usually"
+        },
+        {
+          "id": 2,
+          "sentence": "My family has _____ together at seven o'clock every evening.",
+          "answer": "dinner"
+        },
+        {
+          "id": 3,
+          "sentence": "I go to _____ by bus five days a week.",
+          "answer": "school"
+        },
+        {
+          "id": 4,
+          "sentence": "I need eight hours of _____ every night to feel healthy.",
+          "answer": "sleep"
+        },
+        {
+          "id": 5,
+          "sentence": "Waking up early is part of my daily _____.",
+          "answer": "routine"
+        }
+      ],
+      "note": "One word in the box is not used: morning"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "After a long school day, she felt very _____ and went to bed early. (SLEEP)",
+          "base_word": "SLEEP",
+          "answer": "sleepy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "The school day is very _____. I have six lessons, lunch, and sport. (BUSY)",
+          "base_word": "BUSY",
+          "answer": "busy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "My mum wakes up _____ every morning to prepare breakfast for us. (EARLY)",
+          "base_word": "EARLY",
+          "answer": "early",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "He was _____ for school because he missed the bus. (LATE)",
+          "base_word": "LATE",
+          "answer": "late",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She follows a _____ exercise plan — she does yoga every morning. (ROUTINE)",
+          "base_word": "ROUTINE",
+          "answer": "routine",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I wake [lately] at six o'clock every morning.",
+          "highlighted": "lately",
+          "options": {
+            "A": "late",
+            "B": "lately",
+            "C": "later"
+          },
+          "answer": "B",
+          "explanation": "'Late' means muộn/trễ. 'Lately' means 'gần đây' — they have completely different meanings."
+        },
+        {
+          "id": 2,
+          "sentence": "She [have] dinner with her family at seven o'clock every evening.",
+          "highlighted": "have",
+          "options": {
+            "A": "have",
+            "B": "has",
+            "C": "having"
+          },
+          "answer": "B",
+          "explanation": "With 'she' (third-person singular), the verb must be 'has', not 'have'."
+        },
+        {
+          "id": 3,
+          "sentence": "My school day is very [busily] — I have many lessons and activities.",
+          "highlighted": "busily",
+          "options": {
+            "A": "busy",
+            "B": "busily",
+            "C": "busing"
+          },
+          "answer": "C",
+          "explanation": "'Busy' is the adjective needed to describe the school day. 'Busily' is an adverb."
+        },
+        {
+          "id": 4,
+          "sentence": "I eat lunch [in] noon every school day.",
+          "highlighted": "in",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Use 'at' with specific times of day: 'at noon', 'at six o'clock'."
+        },
+        {
+          "id": 5,
+          "sentence": "She [usual] wakes up before six o'clock every morning.",
+          "highlighted": "usual",
+          "options": {
+            "A": "usual",
+            "B": "unusually",
+            "C": "usually"
+          },
+          "answer": "C",
+          "explanation": "'Usually' (adverb) modifies the verb 'wakes up'. 'Usual' is an adjective, not an adverb."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "C",
+      "2": "B",
+      "3": "E",
+      "4": "D",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "wake",
+      "2": "lunch",
+      "3": "always",
+      "4": "busy",
+      "5": "early"
+    },
+    "ex3": {
+      "1": "usually",
+      "2": "dinner",
+      "3": "school",
+      "4": "sleep",
+      "5": "routine"
+    },
+    "ex4": {
+      "1": "sleepy",
+      "2": "busy",
+      "3": "early",
+      "4": "late",
+      "5": "routine"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

@@ -1,87 +1,637 @@
 {
   "meta": {
-    "book": 2, "topic_number": 2, "topic_id": "b2-t02",
-    "topic_title": "Work & Career", "theme_number": 1, "theme_title": "Mind & Society",
-    "cefr_level": "B1-B2", "combo": "B1", "emoji": "💼", "topic_title_vi": "Công Việc & Sự Nghiệp", "theme_title_vi": "Tư Duy & Xã Hội",
+    "book": 2,
+    "topic_number": 2,
+    "topic_id": "b2-t02",
+    "topic_title": "Work & Career",
+    "theme_number": 1,
+    "theme_title": "Mind & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "💼",
+    "topic_title_vi": "Công Việc & Sự Nghiệp",
+    "theme_title_vi": "Tư Duy & Xã Hội",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-09" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-09"
+    }
   },
-  "passage": { "word_count": 174, "paragraphs": [
-    { "index": 1, "text_en": "Finding a good job is one of the most important goals for young people today. Before starting work, most people go through a formal **interview** process where the **employer** asks questions to find the best person for the **position**. Once hired, a new employee signs a **contract** that explains their duties, working hours, and **salary**.", "text_vi": "Tìm được một công việc tốt là một trong những mục tiêu quan trọng nhất của người trẻ hiện nay. Trước khi bắt đầu làm việc, hầu hết mọi người đều trải qua một buổi **phỏng vấn** chính thức, nơi **nhà tuyển dụng** đặt câu hỏi để tìm người phù hợp nhất cho **vị trí** đó. Sau khi được nhận, nhân viên mới ký một **hợp đồng** nêu rõ nhiệm vụ, giờ làm việc và **mức lương**." },
-    { "index": 2, "text_en": "In a modern **workplace**, workers are expected to be **skilled** and **professional** at all times. They must meet **deadlines**, work well with others, and behave in a responsible way. Being reliable and hardworking often leads to a **promotion**, which means moving to a higher role with better pay.", "text_vi": "Trong môi trường **làm việc** hiện đại, nhân viên phải luôn **có chuyên môn** và **chuyên nghiệp**. Họ phải hoàn thành công việc đúng **thời hạn**, hợp tác tốt với đồng nghiệp và hành xử có trách nhiệm. Sự đáng tin cậy và chăm chỉ thường dẫn đến việc được **thăng chức**." },
-    { "index": 3, "text_en": "Over time, employees may also receive an **appraisal** — a formal review of their work performance. A positive appraisal can lead to a higher **salary** or new responsibilities. However, if someone is unhappy in their job, they may choose to **resign** and look for work in a different **industry**.", "text_vi": "Theo thời gian, nhân viên cũng có thể được **đánh giá hiệu suất** — một buổi nhận xét chính thức về kết quả công việc. Một đánh giá tích cực có thể dẫn đến **mức lương** cao hơn hoặc trách nhiệm mới. Tuy nhiên, nếu không hài lòng với công việc, họ có thể chọn **từ chức** và tìm việc trong một **ngành** khác." },
-    { "index": 4, "text_en": "Most people work for around 40 years before they **retire**. Choosing a career that is truly **rewarding** — one that gives both financial security and personal satisfaction — is one of the best decisions a person can make.", "text_vi": "Hầu hết mọi người làm việc khoảng 40 năm trước khi **nghỉ hưu**. Chọn một nghề thực sự **có ý nghĩa** — mang lại cả sự ổn định tài chính lẫn sự thỏa mãn cá nhân — là một trong những quyết định tốt nhất một người có thể đưa ra." }
-  ]},
+  "passage": {
+    "word_count": 174,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Finding a good job is one of the most important goals for young people today. Before starting work, most people go through a formal **interview** process where the **employer** asks questions to find the best person for the **position**. Once hired, a new employee signs a **contract** that explains their duties, working hours, and **salary**.",
+        "text_vi": "Tìm được một công việc tốt là một trong những mục tiêu quan trọng nhất của người trẻ hiện nay. Trước khi bắt đầu làm việc, hầu hết mọi người đều trải qua một buổi **phỏng vấn** chính thức, nơi **nhà tuyển dụng** đặt câu hỏi để tìm người phù hợp nhất cho **vị trí** đó. Sau khi được nhận, nhân viên mới ký một **hợp đồng** nêu rõ nhiệm vụ, giờ làm việc và **mức lương**."
+      },
+      {
+        "index": 2,
+        "text_en": "In a modern **workplace**, workers are expected to be **skilled** and **professional** at all times. They must meet **deadlines**, work well with others, and behave in a responsible way. Being reliable and hardworking often leads to a **promotion**, which means moving to a higher role with better pay.",
+        "text_vi": "Trong môi trường **làm việc** hiện đại, nhân viên phải luôn **có chuyên môn** và **chuyên nghiệp**. Họ phải hoàn thành công việc đúng **thời hạn**, hợp tác tốt với đồng nghiệp và hành xử có trách nhiệm. Sự đáng tin cậy và chăm chỉ thường dẫn đến việc được **thăng chức**."
+      },
+      {
+        "index": 3,
+        "text_en": "Over time, employees may also receive an **appraisal** — a formal review of their work performance. A positive appraisal can lead to a higher **salary** or new responsibilities. However, if someone is unhappy in their job, they may choose to **resign** and look for work in a different **industry**.",
+        "text_vi": "Theo thời gian, nhân viên cũng có thể được **đánh giá hiệu suất** — một buổi nhận xét chính thức về kết quả công việc. Một đánh giá tích cực có thể dẫn đến **mức lương** cao hơn hoặc trách nhiệm mới. Tuy nhiên, nếu không hài lòng với công việc, họ có thể chọn **từ chức** và tìm việc trong một **ngành** khác."
+      },
+      {
+        "index": 4,
+        "text_en": "Most people work for around 40 years before they **retire**. Choosing a career that is truly **rewarding** — one that gives both financial security and personal satisfaction — is one of the best decisions a person can make.",
+        "text_vi": "Hầu hết mọi người làm việc khoảng 40 năm trước khi **nghỉ hưu**. Chọn một nghề thực sự **có ý nghĩa** — mang lại cả sự ổn định tài chính lẫn sự thỏa mãn cá nhân — là một trong những quyết định tốt nhất một người có thể đưa ra."
+      }
+    ]
+  },
   "glossary": [
-    { "id": 1, "word": "promotion", "ipa": "/prəˈməʊ.ʃən/", "pos": "noun", "meaning_vi": "thăng chức", "meaning_vi_inline": "thăng chức", "example_en": "She got a promotion after two years.", "example_vi": "Cô ấy được thăng chức sau hai năm.", "word_family": { "noun": "promotion", "verb": "promote", "adjective": "promotional", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 2, "word": "deadline", "ipa": "/ˈded.laɪn/", "pos": "noun", "meaning_vi": "thời hạn chót", "meaning_vi_inline": "thời hạn", "example_en": "We must finish before the deadline.", "example_vi": "Chúng tôi phải hoàn thành trước thời hạn.", "word_family": { "noun": "deadline", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 3, "word": "salary", "ipa": "/ˈsæl.ər.i/", "pos": "noun", "meaning_vi": "mức lương (tháng)", "meaning_vi_inline": "lương", "example_en": "His salary increased after the appraisal.", "example_vi": "Lương của anh ấy tăng sau khi được đánh giá.", "word_family": { "noun": "salary", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "wage", "explanation_vi": "'Salary' là lương cố định hàng tháng; 'wage' là lương theo giờ." }, "receptive_productive": "R" },
-    { "id": 4, "word": "resign", "ipa": "/rɪˈzaɪn/", "pos": "verb", "meaning_vi": "từ chức, nghỉ việc", "meaning_vi_inline": "từ chức", "example_en": "She resigned from her job last month.", "example_vi": "Cô ấy đã từ chức vào tháng trước.", "word_family": { "noun": "resignation", "verb": "resign", "adjective": "resigned", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 5, "word": "employer", "ipa": "/ɪmˈplɔɪ.ər/", "pos": "noun", "meaning_vi": "nhà tuyển dụng", "meaning_vi_inline": "nhà tuyển dụng", "example_en": "The employer offered a good contract.", "example_vi": "Nhà tuyển dụng đề nghị một hợp đồng tốt.", "word_family": { "noun": "employer / employee / employment", "verb": "employ", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 6, "word": "professional", "ipa": "/prəˈfeʃ.ən.əl/", "pos": "adjective", "meaning_vi": "chuyên nghiệp", "meaning_vi_inline": "chuyên nghiệp", "example_en": "Always be professional at work.", "example_vi": "Hãy luôn chuyên nghiệp tại nơi làm việc.", "word_family": { "noun": "profession", "verb": null, "adjective": "professional", "adverb": "professionally" }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 7, "word": "workplace", "ipa": "/ˈwɜːk.pleɪs/", "pos": "noun", "meaning_vi": "nơi làm việc", "meaning_vi_inline": "nơi làm việc", "example_en": "A safe workplace is very important.", "example_vi": "Môi trường làm việc an toàn rất quan trọng.", "word_family": { "noun": "workplace", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 8, "word": "skilled", "ipa": "/skɪld/", "pos": "adjective", "meaning_vi": "có kỹ năng, lành nghề", "meaning_vi_inline": "lành nghề", "example_en": "We need skilled workers for this job.", "example_vi": "Chúng tôi cần công nhân lành nghề cho công việc này.", "word_family": { "noun": "skill", "verb": null, "adjective": "skilled / unskilled", "adverb": "skilfully" }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 9, "word": "interview", "ipa": "/ˈɪn.tə.vjuː/", "pos": "noun/verb", "meaning_vi": "phỏng vấn", "meaning_vi_inline": "phỏng vấn", "example_en": "I have a job interview tomorrow.", "example_vi": "Tôi có buổi phỏng vấn xin việc vào ngày mai.", "word_family": { "noun": "interviewer / interviewee", "verb": "interview", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 10, "word": "contract", "ipa": "/ˈkɒn.trækt/", "pos": "noun", "meaning_vi": "hợp đồng", "meaning_vi_inline": "hợp đồng", "example_en": "Read the contract before you sign it.", "example_vi": "Hãy đọc hợp đồng trước khi ký.", "word_family": { "noun": "contractor", "verb": "contract", "adjective": "contractual", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 11, "word": "retire", "ipa": "/rɪˈtaɪər/", "pos": "verb", "meaning_vi": "nghỉ hưu", "meaning_vi_inline": "nghỉ hưu", "example_en": "He plans to retire at 60.", "example_vi": "Anh ấy dự định nghỉ hưu ở tuổi 60.", "word_family": { "noun": "retirement", "verb": "retire", "adjective": "retired", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 12, "word": "industry", "ipa": "/ˈɪn.də.stri/", "pos": "noun", "meaning_vi": "ngành (công nghiệp)", "meaning_vi_inline": "ngành", "example_en": "She works in the tourism industry.", "example_vi": "Cô ấy làm việc trong ngành du lịch.", "word_family": { "noun": "industry", "verb": null, "adjective": "industrial / industrious", "adverb": "industriously" }, "false_friend": { "word_vi": "industrious", "explanation_vi": "'Industry' là ngành nghề; 'industrious' là chăm chỉ — không phải cùng nghĩa." }, "receptive_productive": "R" },
-    { "id": 13, "word": "position", "ipa": "/pəˈzɪʃ.ən/", "pos": "noun", "meaning_vi": "vị trí (công việc)", "meaning_vi_inline": "vị trí", "example_en": "He applied for a senior position.", "example_vi": "Anh ấy nộp đơn cho một vị trí cấp cao.", "word_family": { "noun": "position", "verb": "position", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 14, "word": "appraisal", "ipa": "/əˈpreɪ.zəl/", "pos": "noun", "meaning_vi": "đánh giá hiệu suất", "meaning_vi_inline": "đánh giá", "example_en": "Her appraisal was very positive.", "example_vi": "Kết quả đánh giá của cô ấy rất tích cực.", "word_family": { "noun": "appraisal", "verb": "appraise", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 15, "word": "rewarding", "ipa": "/rɪˈwɔː.dɪŋ/", "pos": "adjective", "meaning_vi": "có ý nghĩa, xứng đáng", "meaning_vi_inline": "có ý nghĩa", "example_en": "Teaching is a very rewarding career.", "example_vi": "Dạy học là một nghề rất có ý nghĩa.", "word_family": { "noun": "reward", "verb": "reward", "adjective": "rewarding / rewarded", "adverb": null }, "false_friend": null, "receptive_productive": "P" }
+    {
+      "id": 1,
+      "word": "promotion",
+      "ipa": "/prəˈməʊ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "thăng chức",
+      "meaning_vi_inline": "thăng chức",
+      "example_en": "She got a promotion after two years.",
+      "example_vi": "Cô ấy được thăng chức sau hai năm.",
+      "word_family": {
+        "noun": "promotion",
+        "verb": "promote",
+        "adjective": "promotional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "deadline",
+      "ipa": "/ˈded.laɪn/",
+      "pos": "noun",
+      "meaning_vi": "thời hạn chót",
+      "meaning_vi_inline": "thời hạn",
+      "example_en": "We must finish before the deadline.",
+      "example_vi": "Chúng tôi phải hoàn thành trước thời hạn.",
+      "word_family": {
+        "noun": "deadline",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "salary",
+      "ipa": "/ˈsæl.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "mức lương (tháng)",
+      "meaning_vi_inline": "lương",
+      "example_en": "His salary increased after the appraisal.",
+      "example_vi": "Lương của anh ấy tăng sau khi được đánh giá.",
+      "word_family": {
+        "noun": "salary",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "wage",
+        "explanation_vi": "'Salary' là lương cố định hàng tháng; 'wage' là lương theo giờ."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "resign",
+      "ipa": "/rɪˈzaɪn/",
+      "pos": "verb",
+      "meaning_vi": "từ chức, nghỉ việc",
+      "meaning_vi_inline": "từ chức",
+      "example_en": "She resigned from her job last month.",
+      "example_vi": "Cô ấy đã từ chức vào tháng trước.",
+      "word_family": {
+        "noun": "resignation",
+        "verb": "resign",
+        "adjective": "resigned",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "employer",
+      "ipa": "/ɪmˈplɔɪ.ər/",
+      "pos": "noun",
+      "meaning_vi": "nhà tuyển dụng",
+      "meaning_vi_inline": "nhà tuyển dụng",
+      "example_en": "The employer offered a good contract.",
+      "example_vi": "Nhà tuyển dụng đề nghị một hợp đồng tốt.",
+      "word_family": {
+        "noun": "employer / employee / employment",
+        "verb": "employ",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "professional",
+      "ipa": "/prəˈfeʃ.ən.əl/",
+      "pos": "adjective",
+      "meaning_vi": "chuyên nghiệp",
+      "meaning_vi_inline": "chuyên nghiệp",
+      "example_en": "Always be professional at work.",
+      "example_vi": "Hãy luôn chuyên nghiệp tại nơi làm việc.",
+      "word_family": {
+        "noun": "profession",
+        "verb": null,
+        "adjective": "professional",
+        "adverb": "professionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "workplace",
+      "ipa": "/ˈwɜːk.pleɪs/",
+      "pos": "noun",
+      "meaning_vi": "nơi làm việc",
+      "meaning_vi_inline": "nơi làm việc",
+      "example_en": "A safe workplace is very important.",
+      "example_vi": "Môi trường làm việc an toàn rất quan trọng.",
+      "word_family": {
+        "noun": "workplace",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "skilled",
+      "ipa": "/skɪld/",
+      "pos": "adjective",
+      "meaning_vi": "có kỹ năng, lành nghề",
+      "meaning_vi_inline": "lành nghề",
+      "example_en": "We need skilled workers for this job.",
+      "example_vi": "Chúng tôi cần công nhân lành nghề cho công việc này.",
+      "word_family": {
+        "noun": "skill",
+        "verb": null,
+        "adjective": "skilled / unskilled",
+        "adverb": "skilfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "interview",
+      "ipa": "/ˈɪn.tə.vjuː/",
+      "pos": "noun/verb",
+      "meaning_vi": "phỏng vấn",
+      "meaning_vi_inline": "phỏng vấn",
+      "example_en": "I have a job interview tomorrow.",
+      "example_vi": "Tôi có buổi phỏng vấn xin việc vào ngày mai.",
+      "word_family": {
+        "noun": "interviewer / interviewee",
+        "verb": "interview",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "contract",
+      "ipa": "/ˈkɒn.trækt/",
+      "pos": "noun",
+      "meaning_vi": "hợp đồng",
+      "meaning_vi_inline": "hợp đồng",
+      "example_en": "Read the contract before you sign it.",
+      "example_vi": "Hãy đọc hợp đồng trước khi ký.",
+      "word_family": {
+        "noun": "contractor",
+        "verb": "contract",
+        "adjective": "contractual",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "retire",
+      "ipa": "/rɪˈtaɪər/",
+      "pos": "verb",
+      "meaning_vi": "nghỉ hưu",
+      "meaning_vi_inline": "nghỉ hưu",
+      "example_en": "He plans to retire at 60.",
+      "example_vi": "Anh ấy dự định nghỉ hưu ở tuổi 60.",
+      "word_family": {
+        "noun": "retirement",
+        "verb": "retire",
+        "adjective": "retired",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 12,
+      "word": "industry",
+      "ipa": "/ˈɪn.də.stri/",
+      "pos": "noun",
+      "meaning_vi": "ngành (công nghiệp)",
+      "meaning_vi_inline": "ngành",
+      "example_en": "She works in the tourism industry.",
+      "example_vi": "Cô ấy làm việc trong ngành du lịch.",
+      "word_family": {
+        "noun": "industry",
+        "verb": null,
+        "adjective": "industrial / industrious",
+        "adverb": "industriously"
+      },
+      "false_friend": {
+        "word_vi": "industrious",
+        "explanation_vi": "'Industry' là ngành nghề; 'industrious' là chăm chỉ — không phải cùng nghĩa."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "position",
+      "ipa": "/pəˈzɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "vị trí (công việc)",
+      "meaning_vi_inline": "vị trí",
+      "example_en": "He applied for a senior position.",
+      "example_vi": "Anh ấy nộp đơn cho một vị trí cấp cao.",
+      "word_family": {
+        "noun": "position",
+        "verb": "position",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "appraisal",
+      "ipa": "/əˈpreɪ.zəl/",
+      "pos": "noun",
+      "meaning_vi": "đánh giá hiệu suất",
+      "meaning_vi_inline": "đánh giá",
+      "example_en": "Her appraisal was very positive.",
+      "example_vi": "Kết quả đánh giá của cô ấy rất tích cực.",
+      "word_family": {
+        "noun": "appraisal",
+        "verb": "appraise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "rewarding",
+      "ipa": "/rɪˈwɔː.dɪŋ/",
+      "pos": "adjective",
+      "meaning_vi": "có ý nghĩa, xứng đáng",
+      "meaning_vi_inline": "có ý nghĩa",
+      "example_en": "Teaching is a very rewarding career.",
+      "example_vi": "Dạy học là một nghề rất có ý nghĩa.",
+      "word_family": {
+        "noun": "reward",
+        "verb": "reward",
+        "adjective": "rewarding / rewarded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
   ],
   "exercises": {
     "combo": "B1",
-    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "Young people must pass an interview before starting most jobs.", "answer": "True" },
-        { "id": 2, "statement": "A contract always includes information about working hours.", "answer": "True" },
-        { "id": 3, "statement": "Most employers prefer workers who have university degrees.", "answer": "Not Given" },
-        { "id": 4, "statement": "Receiving a positive appraisal always leads to a promotion.", "answer": "False" },
-        { "id": 5, "statement": "People generally work for about four decades before retiring.", "answer": "True" }
+        {
+          "id": 1,
+          "statement": "Young people must pass an interview before starting most jobs.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A contract always includes information about working hours.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "Most employers prefer workers who have university degrees.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Receiving a positive appraisal always leads to a promotion.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "People generally work for about four decades before retiring.",
+          "answer": "True"
+        }
       ]
     },
-    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "She worked hard for three years and finally received a _____ to team leader.", "options": ["contract", "deadline", "promotion", "salary"], "answer": "promotion" },
-        { "id": 2, "sentence": "Before accepting the job, he read the _____ carefully to check his rights.", "options": ["appraisal", "industry", "workplace", "contract"], "answer": "contract" },
-        { "id": 3, "sentence": "The project must be finished by Friday — that is our final _____.", "options": ["position", "deadline", "interview", "retirement"], "answer": "deadline" },
-        { "id": 4, "sentence": "He decided to _____ from his job because he was unhappy with the management.", "options": ["retire", "promote", "resign", "employ"], "answer": "resign" },
-        { "id": 5, "sentence": "Working as a nurse is very _____ — you help people every day.", "options": ["skilled", "professional", "industrial", "rewarding"], "answer": "rewarding" }
+        {
+          "id": 1,
+          "sentence": "She worked hard for three years and finally received a _____ to team leader.",
+          "options": [
+            "contract",
+            "deadline",
+            "promotion",
+            "salary"
+          ],
+          "answer": "promotion"
+        },
+        {
+          "id": 2,
+          "sentence": "Before accepting the job, he read the _____ carefully to check his rights.",
+          "options": [
+            "appraisal",
+            "industry",
+            "workplace",
+            "contract"
+          ],
+          "answer": "contract"
+        },
+        {
+          "id": 3,
+          "sentence": "The project must be finished by Friday — that is our final _____.",
+          "options": [
+            "position",
+            "deadline",
+            "interview",
+            "retirement"
+          ],
+          "answer": "deadline"
+        },
+        {
+          "id": 4,
+          "sentence": "He decided to _____ from his job because he was unhappy with the management.",
+          "options": [
+            "retire",
+            "promote",
+            "resign",
+            "employ"
+          ],
+          "answer": "resign"
+        },
+        {
+          "id": 5,
+          "sentence": "Working as a nurse is very _____ — you help people every day.",
+          "options": [
+            "skilled",
+            "professional",
+            "industrial",
+            "rewarding"
+          ],
+          "answer": "rewarding"
+        }
       ]
     },
-    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["industry", "workplace", "salary", "skilled", "employer"],
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "industry",
+        "workplace",
+        "salary",
+        "skilled",
+        "employer"
+      ],
       "items": [
-        { "id": 1, "sentence": "The fashion _____ employs millions of people around the world.", "answer": "industry" },
-        { "id": 2, "sentence": "A positive _____ environment helps workers feel happy and motivated.", "answer": "workplace" },
-        { "id": 3, "sentence": "Her _____ increased by 10% after her excellent appraisal.", "answer": "salary" },
-        { "id": 4, "sentence": "The company is looking for _____ engineers with at least five years of experience.", "answer": "skilled" },
-        { "id": 5, "sentence": "Her _____ offers free training to all new staff members.", "answer": "employer" }
+        {
+          "id": 1,
+          "sentence": "The fashion _____ employs millions of people around the world.",
+          "answer": "industry"
+        },
+        {
+          "id": 2,
+          "sentence": "A positive _____ environment helps workers feel happy and motivated.",
+          "answer": "workplace"
+        },
+        {
+          "id": 3,
+          "sentence": "Her _____ increased by 10% after her excellent appraisal.",
+          "answer": "salary"
+        },
+        {
+          "id": 4,
+          "sentence": "The company is looking for _____ engineers with at least five years of experience.",
+          "answer": "skilled"
+        },
+        {
+          "id": 5,
+          "sentence": "Her _____ offers free training to all new staff members.",
+          "answer": "employer"
+        }
       ]
     },
-    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["a", "she", "received", "promotion", "after", "her", "appraisal", "positive"], "answer": "She received a promotion after her positive appraisal." },
-        { "id": 2, "words": ["you", "should", "read", "contract", "carefully", "your", "before", "signing"], "answer": "You should read your contract carefully before signing." },
-        { "id": 3, "words": ["the", "retire", "plans", "at", "he", "age", "sixty", "of"], "answer": "He plans to retire at the age of sixty." },
-        { "id": 4, "words": ["always", "in", "professional", "be", "the", "workplace"], "answer": "Always be professional in the workplace." },
-        { "id": 5, "words": ["resigned", "she", "unhappy", "because", "was", "with", "her", "salary", "she"], "answer": "She resigned because she was unhappy with her salary." }
+        {
+          "id": 1,
+          "words": [
+            "a",
+            "she",
+            "received",
+            "promotion",
+            "after",
+            "her",
+            "appraisal",
+            "positive"
+          ],
+          "answer": "She received a promotion after her positive appraisal."
+        },
+        {
+          "id": 2,
+          "words": [
+            "you",
+            "should",
+            "read",
+            "contract",
+            "carefully",
+            "your",
+            "before",
+            "signing"
+          ],
+          "answer": "You should read your contract carefully before signing."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "retire",
+            "plans",
+            "at",
+            "he",
+            "age",
+            "sixty",
+            "of"
+          ],
+          "answer": "He plans to retire at the age of sixty."
+        },
+        {
+          "id": 4,
+          "words": [
+            "always",
+            "in",
+            "professional",
+            "be",
+            "the",
+            "workplace"
+          ],
+          "answer": "Always be professional in the workplace."
+        },
+        {
+          "id": 5,
+          "words": [
+            "resigned",
+            "she",
+            "unhappy",
+            "because",
+            "was",
+            "with",
+            "her",
+            "salary",
+            "she"
+          ],
+          "answer": "She resigned because she was unhappy with her salary."
+        }
       ]
     },
-    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "She works in the [finance industry's] as a senior accountant.", "highlighted": "finance industry's", "options": { "A": "finance industry's", "B": "finance industry", "C": "financial industries" }, "answer": "B", "explanation": "No possessive needed — 'industry' stands alone as a noun." },
-        { "id": 2, "sentence": "He received a [promotion's] after three years of hard work.", "highlighted": "promotion's", "options": { "A": "promotion's", "B": "promotion", "C": "promoted" }, "answer": "B", "explanation": "'Promotion' is a countable noun — no apostrophe needed." },
-        { "id": 3, "sentence": "The employer offered her a contract with a very good [salaries].", "highlighted": "salaries", "options": { "A": "salaries", "B": "salary", "C": "salaried" }, "answer": "B", "explanation": "'Salary' is singular here — one person, one salary." },
-        { "id": 4, "sentence": "She is very [skill] in data analysis and report writing.", "highlighted": "skill", "options": { "A": "skill", "B": "skilled", "C": "skilful" }, "answer": "B", "explanation": "'Skilled' is the adjective form — skilled in something." },
-        { "id": 5, "sentence": "He decided to retire from the company after a [reward] career.", "highlighted": "reward", "options": { "A": "reward", "B": "rewarding", "C": "rewarded" }, "answer": "B", "explanation": "'Rewarding' is the adjective form — a rewarding career." }
+        {
+          "id": 1,
+          "sentence": "She works in the [finance industry's] as a senior accountant.",
+          "highlighted": "finance industry's",
+          "options": {
+            "A": "finance industry's",
+            "B": "finance industry",
+            "C": "financial industries"
+          },
+          "answer": "B",
+          "explanation": "No possessive needed — 'industry' stands alone as a noun."
+        },
+        {
+          "id": 2,
+          "sentence": "He received a [promotion's] after three years of hard work.",
+          "highlighted": "promotion's",
+          "options": {
+            "A": "promotion",
+            "B": "promotion's",
+            "C": "promoted"
+          },
+          "answer": "B",
+          "explanation": "'Promotion' is a countable noun — no apostrophe needed."
+        },
+        {
+          "id": 3,
+          "sentence": "The employer offered her a contract with a very good [salaries].",
+          "highlighted": "salaries",
+          "options": {
+            "A": "salaries",
+            "B": "salary",
+            "C": "salaried"
+          },
+          "answer": "B",
+          "explanation": "'Salary' is singular here — one person, one salary."
+        },
+        {
+          "id": 4,
+          "sentence": "She is very [skill] in data analysis and report writing.",
+          "highlighted": "skill",
+          "options": {
+            "A": "skill",
+            "B": "skilled",
+            "C": "skilful"
+          },
+          "answer": "B",
+          "explanation": "'Skilled' is the adjective form — skilled in something."
+        },
+        {
+          "id": 5,
+          "sentence": "He decided to retire from the company after a [reward] career.",
+          "highlighted": "reward",
+          "options": {
+            "A": "rewarding",
+            "B": "reward",
+            "C": "rewarded"
+          },
+          "answer": "B",
+          "explanation": "'Rewarding' is the adjective form — a rewarding career."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "True", "3": "Not Given", "4": "False", "5": "True" },
-    "ex2": { "1": "promotion", "2": "contract", "3": "deadline", "4": "resign", "5": "rewarding" },
-    "ex3": { "1": "industry", "2": "workplace", "3": "salary", "4": "skilled", "5": "employer" },
-    "ex4": { "1": "She received a promotion after her positive appraisal.", "2": "You should read your contract carefully before signing.", "3": "He plans to retire at the age of sixty.", "4": "Always be professional in the workplace.", "5": "She resigned because she was unhappy with her salary." },
-    "ex5": { "1": "B", "2": "B", "3": "B", "4": "B", "5": "B" }
+    "ex1": {
+      "1": "True",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "promotion",
+      "2": "contract",
+      "3": "deadline",
+      "4": "resign",
+      "5": "rewarding"
+    },
+    "ex3": {
+      "1": "industry",
+      "2": "workplace",
+      "3": "salary",
+      "4": "skilled",
+      "5": "employer"
+    },
+    "ex4": {
+      "1": "She received a promotion after her positive appraisal.",
+      "2": "You should read your contract carefully before signing.",
+      "3": "He plans to retire at the age of sixty.",
+      "4": "Always be professional in the workplace.",
+      "5": "She resigned because she was unhappy with her salary."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

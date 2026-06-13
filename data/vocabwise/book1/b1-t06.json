@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 6,
+    "topic_id": "b1-t06",
+    "topic_title": "Health & Body",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    },
+    "emoji": "💊",
+    "topic_title_vi": "Sức Khỏe & Cơ Thể",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 108,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "It is important to keep your **body** **healthy**. I try to **exercise** every day. I also **wash** my **hands** before eating and after coming home from outside.",
+        "text_vi": "Điều quan trọng là phải giữ cho **cơ thể** **khỏe mạnh**. Tôi cố gắng **tập thể dục** mỗi ngày. Tôi cũng **rửa** **tay** trước khi ăn và sau khi về nhà từ bên ngoài."
+      },
+      {
+        "index": 2,
+        "text_en": "Last week, I felt **sick**. I had a **fever** and a **pain** in my **head**. My mother took me to see a **doctor** right away.",
+        "text_vi": "Tuần trước, tôi cảm thấy **bệnh**. Tôi bị **sốt** và đau **đầu**. Mẹ tôi đưa tôi đi gặp **bác sĩ** ngay lập tức."
+      },
+      {
+        "index": 3,
+        "text_en": "The **doctor** checked my whole **body**. She gave me some **medicine** and told me to **rest**. She said I should only go to the **hospital** if I got much worse.",
+        "text_vi": "**Bác sĩ** kiểm tra toàn bộ **cơ thể** tôi. Bà đưa cho tôi một ít **thuốc** và bảo tôi **nghỉ ngơi**. Bà nói tôi chỉ nên vào **bệnh viện** nếu bệnh trở nặng hơn nhiều."
+      },
+      {
+        "index": 4,
+        "text_en": "After two days of **rest**, I began to **feel** better. I felt **strong** again. Now I **wash** my **hands** more carefully to stay **healthy**.",
+        "text_vi": "Sau hai ngày **nghỉ ngơi**, tôi bắt đầu **cảm thấy** tốt hơn. Tôi cảm thấy **mạnh mẽ** trở lại. Bây giờ tôi **rửa** **tay** cẩn thận hơn để giữ **sức khỏe**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "body",
+      "ipa": "/ˈbɒdi/",
+      "pos": "noun",
+      "meaning_vi": "cơ thể",
+      "meaning_vi_inline": "cơ thể",
+      "example_en": "Regular exercise keeps the body strong and healthy.",
+      "example_vi": "Tập thể dục thường xuyên giúp cơ thể khỏe mạnh.",
+      "word_family": {
+        "noun": "body / bodies",
+        "verb": null,
+        "adjective": "bodily",
+        "adverb": "bodily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "healthy",
+      "ipa": "/ˈhelθi/",
+      "pos": "adjective",
+      "meaning_vi": "khỏe mạnh, tốt cho sức khỏe",
+      "meaning_vi_inline": "khỏe mạnh",
+      "example_en": "Eating fresh vegetables and exercising every day keeps you healthy.",
+      "example_vi": "Ăn rau củ tươi và tập thể dục mỗi ngày giúp bạn khỏe mạnh.",
+      "word_family": {
+        "noun": "health",
+        "verb": null,
+        "adjective": "healthy / unhealthy",
+        "adverb": "healthily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "sick",
+      "ipa": "/sɪk/",
+      "pos": "adjective",
+      "meaning_vi": "bệnh, ốm",
+      "meaning_vi_inline": "bệnh",
+      "example_en": "She stayed at home because she felt sick and had a high fever.",
+      "example_vi": "Cô ấy ở nhà vì cảm thấy ốm và sốt cao.",
+      "word_family": {
+        "noun": "sickness / illness",
+        "verb": null,
+        "adjective": "sick / sickly",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "doctor",
+      "ipa": "/ˈdɒktər/",
+      "pos": "noun",
+      "meaning_vi": "bác sĩ",
+      "meaning_vi_inline": "bác sĩ",
+      "example_en": "The doctor checked my temperature and told me to rest.",
+      "example_vi": "Bác sĩ kiểm tra nhiệt độ của tôi và bảo tôi nghỉ ngơi.",
+      "word_family": {
+        "noun": "doctor / doctorate",
+        "verb": "doctor",
+        "adjective": "doctoral",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "hospital",
+      "ipa": "/ˈhɒspɪtl/",
+      "pos": "noun",
+      "meaning_vi": "bệnh viện",
+      "meaning_vi_inline": "bệnh viện",
+      "example_en": "She was taken to hospital after the accident.",
+      "example_vi": "Cô ấy được đưa vào bệnh viện sau vụ tai nạn.",
+      "word_family": {
+        "noun": "hospital / hospitality",
+        "verb": "hospitalise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "hospitality",
+        "explanation_vi": "'Hospital' (bệnh viện) và 'hospitality' (lòng hiếu khách) — cùng gốc nhưng nghĩa hoàn toàn khác."
+      }
+    },
+    {
+      "id": 6,
+      "word": "medicine",
+      "ipa": "/ˈmedɪsɪn/",
+      "pos": "noun",
+      "meaning_vi": "thuốc; y học",
+      "meaning_vi_inline": "thuốc",
+      "example_en": "The doctor gave me medicine and told me to take it three times a day.",
+      "example_vi": "Bác sĩ đưa cho tôi thuốc và bảo tôi uống ba lần một ngày.",
+      "word_family": {
+        "noun": "medicine",
+        "verb": null,
+        "adjective": "medical",
+        "adverb": "medically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "exercise",
+      "ipa": "/ˈeksərsaɪz/",
+      "pos": "noun / verb",
+      "meaning_vi": "bài tập thể dục; tập thể dục",
+      "meaning_vi_inline": "tập thể dục",
+      "example_en": "I exercise every morning — I run for thirty minutes.",
+      "example_vi": "Tôi tập thể dục mỗi sáng — tôi chạy bộ ba mươi phút.",
+      "word_family": {
+        "noun": "exercise",
+        "verb": "exercise / exercised",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "pain",
+      "ipa": "/peɪn/",
+      "pos": "noun",
+      "meaning_vi": "cơn đau, sự đau đớn",
+      "meaning_vi_inline": "cơn đau",
+      "example_en": "She felt a sharp pain in her leg after running too fast.",
+      "example_vi": "Cô ấy cảm thấy đau nhói ở chân sau khi chạy quá nhanh.",
+      "word_family": {
+        "noun": "pain",
+        "verb": null,
+        "adjective": "painful / painless",
+        "adverb": "painfully / painlessly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "fever",
+      "ipa": "/ˈfiːvər/",
+      "pos": "noun",
+      "meaning_vi": "cơn sốt, sốt",
+      "meaning_vi_inline": "sốt",
+      "example_en": "He had a high fever — his temperature was 39 degrees.",
+      "example_vi": "Anh ấy sốt cao — nhiệt độ cơ thể là 39 độ.",
+      "word_family": {
+        "noun": "fever",
+        "verb": null,
+        "adjective": "feverish",
+        "adverb": "feverishly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "rest",
+      "ipa": "/rest/",
+      "pos": "verb / noun",
+      "meaning_vi": "nghỉ ngơi; sự nghỉ ngơi",
+      "meaning_vi_inline": "nghỉ ngơi",
+      "example_en": "The doctor told her to rest for three days.",
+      "example_vi": "Bác sĩ bảo cô ấy nghỉ ngơi trong ba ngày.",
+      "word_family": {
+        "noun": "rest",
+        "verb": "rest / rested",
+        "adjective": "restful / restless",
+        "adverb": "restfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "head",
+      "ipa": "/hed/",
+      "pos": "noun",
+      "meaning_vi": "đầu, cái đầu",
+      "meaning_vi_inline": "đầu",
+      "example_en": "I had a bad headache — my head hurt all day.",
+      "example_vi": "Tôi bị đau đầu nặng — đầu tôi đau suốt cả ngày.",
+      "word_family": {
+        "noun": "head / headache / headline",
+        "verb": "head",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "hand",
+      "ipa": "/hænd/",
+      "pos": "noun",
+      "meaning_vi": "bàn tay",
+      "meaning_vi_inline": "bàn tay",
+      "example_en": "Always wash your hands before eating to stay healthy.",
+      "example_vi": "Luôn rửa tay trước khi ăn để giữ sức khỏe.",
+      "word_family": {
+        "noun": "hand / handful",
+        "verb": "hand",
+        "adjective": "handy / hand-made",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "strong",
+      "ipa": "/strɒŋ/",
+      "pos": "adjective",
+      "meaning_vi": "mạnh, khỏe mạnh",
+      "meaning_vi_inline": "mạnh / khỏe",
+      "example_en": "Regular exercise makes your body strong and your mind clear.",
+      "example_vi": "Tập thể dục thường xuyên làm cơ thể bạn mạnh mẽ và tinh thần sảng khoái.",
+      "word_family": {
+        "noun": "strength",
+        "verb": "strengthen",
+        "adjective": "strong",
+        "adverb": "strongly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "wash",
+      "ipa": "/wɒʃ/",
+      "pos": "verb",
+      "meaning_vi": "rửa, giặt",
+      "meaning_vi_inline": "rửa",
+      "example_en": "She washes her hands carefully before preparing food.",
+      "example_vi": "Cô ấy rửa tay cẩn thận trước khi chuẩn bị thức ăn.",
+      "word_family": {
+        "noun": "wash / washing",
+        "verb": "wash / washed",
+        "adjective": "washable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "feel",
+      "ipa": "/fiːl/",
+      "pos": "verb",
+      "meaning_vi": "cảm thấy, cảm giác",
+      "meaning_vi_inline": "cảm thấy",
+      "example_en": "After resting for two days, she began to feel much better.",
+      "example_vi": "Sau khi nghỉ ngơi hai ngày, cô ấy bắt đầu cảm thấy tốt hơn nhiều.",
+      "word_family": {
+        "noun": "feeling / feel",
+        "verb": "feel / felt / felt",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "fever"
+        },
+        {
+          "id": 2,
+          "word": "medicine"
+        },
+        {
+          "id": 3,
+          "word": "exercise"
+        },
+        {
+          "id": 4,
+          "word": "hospital"
+        },
+        {
+          "id": 5,
+          "word": "pain"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "physical activity done to keep the body fit and strong"
+        },
+        {
+          "id": "B",
+          "text": "a large building where sick people receive medical treatment"
+        },
+        {
+          "id": "C",
+          "text": "a sharp or unpleasant feeling of hurt in part of the body"
+        },
+        {
+          "id": "D",
+          "text": "a substance you take when you are sick to help you recover"
+        },
+        {
+          "id": "E",
+          "text": "a high body temperature that is a sign of illness"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ every morning — I run and do some yoga to stay fit.",
+          "options": [
+            "rest",
+            "exercise",
+            "wash",
+            "feel"
+          ],
+          "answer": "exercise"
+        },
+        {
+          "id": 2,
+          "sentence": "She felt very _____ yesterday — she had a headache and a high fever.",
+          "options": [
+            "healthy",
+            "sick",
+            "strong",
+            "tired"
+          ],
+          "answer": "sick"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ checked my temperature and gave me some medicine.",
+          "options": [
+            "nurse",
+            "teacher",
+            "customer",
+            "doctor"
+          ],
+          "answer": "doctor"
+        },
+        {
+          "id": 4,
+          "sentence": "After a few days of _____, she felt much better and returned to school.",
+          "options": [
+            "pain",
+            "medicine",
+            "exercise",
+            "rest"
+          ],
+          "answer": "rest"
+        },
+        {
+          "id": 5,
+          "sentence": "I always _____ my hands before eating to keep germs away.",
+          "options": [
+            "wash",
+            "feel",
+            "rest",
+            "dry"
+          ],
+          "answer": "wash"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "strong",
+        "fever",
+        "pain",
+        "hospital",
+        "feel",
+        "body"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I had a high _____ — my temperature was 39 degrees.",
+          "answer": "fever"
+        },
+        {
+          "id": 2,
+          "sentence": "She felt a sharp _____ in her leg after running too fast.",
+          "answer": "pain"
+        },
+        {
+          "id": 3,
+          "sentence": "He went to the _____ because he was very sick and needed treatment.",
+          "answer": "hospital"
+        },
+        {
+          "id": 4,
+          "sentence": "After resting for two days, she began to _____ much better.",
+          "answer": "feel"
+        },
+        {
+          "id": 5,
+          "sentence": "Swimming every day makes you _____ and keeps your body healthy.",
+          "answer": "strong"
+        }
+      ],
+      "note": "One word in the box is not used: body"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She had a very _____ stomachache — she could not eat anything all day. (PAIN)",
+          "base_word": "PAIN",
+          "answer": "painful",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "He felt very _____ after his illness — he had no energy at all. (HEALTH)",
+          "base_word": "HEALTH",
+          "answer": "unhealthy",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ her hands carefully before touching any food. (WASH)",
+          "base_word": "WASH",
+          "answer": "washes",
+          "form_used": "verb (3rd person singular)"
+        },
+        {
+          "id": 4,
+          "sentence": "The doctor advised him to do more _____ to build his strength. (EXERCISE)",
+          "base_word": "EXERCISE",
+          "answer": "exercise",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "After a week of rest, she felt _____ enough to return to school. (STRONG)",
+          "base_word": "STRONG",
+          "answer": "strong",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She [feeled] very sick yesterday — she had a headache and a fever.",
+          "highlighted": "feeled",
+          "options": {
+            "A": "felt",
+            "B": "feeled",
+            "C": "feeling"
+          },
+          "answer": "B",
+          "explanation": "'Feel' is an irregular verb: feel → felt (past simple). 'Feeled' does not exist in English."
+        },
+        {
+          "id": 2,
+          "sentence": "The doctor told me to get more [resting] — I should stay in bed for two days.",
+          "highlighted": "resting",
+          "options": {
+            "A": "resting",
+            "B": "rest",
+            "C": "rested"
+          },
+          "answer": "B",
+          "explanation": "After 'get more', use the noun form: 'get more rest'. 'Get more resting' is not natural English."
+        },
+        {
+          "id": 3,
+          "sentence": "She washed her hands [careful] before touching the food.",
+          "highlighted": "careful",
+          "options": {
+            "A": "careful",
+            "B": "carelessly",
+            "C": "carefully"
+          },
+          "answer": "C",
+          "explanation": "'Carefully' (adverb) modifies the verb 'washed'. 'Careful' is an adjective — it cannot modify a verb."
+        },
+        {
+          "id": 4,
+          "sentence": "He [have] a very high fever — his temperature was 39 degrees.",
+          "highlighted": "have",
+          "options": {
+            "A": "has",
+            "B": "have",
+            "C": "having"
+          },
+          "answer": "B",
+          "explanation": "Third-person singular 'he' requires 'has', not 'have' (which is used with I/you/we/they)."
+        },
+        {
+          "id": 5,
+          "sentence": "Exercise [keep] your body strong and your mind healthy every day.",
+          "highlighted": "keep",
+          "options": {
+            "A": "keep",
+            "B": "keeping",
+            "C": "keeps"
+          },
+          "answer": "C",
+          "explanation": "'Exercise' is a singular subject (uncountable noun), so the verb needs 's': 'keeps'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    },
+    "ex2": {
+      "1": "exercise",
+      "2": "sick",
+      "3": "doctor",
+      "4": "rest",
+      "5": "wash"
+    },
+    "ex3": {
+      "1": "fever",
+      "2": "pain",
+      "3": "hospital",
+      "4": "feel",
+      "5": "strong"
+    },
+    "ex4": {
+      "1": "painful",
+      "2": "unhealthy",
+      "3": "washes",
+      "4": "exercise",
+      "5": "strong"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

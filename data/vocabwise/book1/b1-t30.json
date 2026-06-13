@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 30,
+    "topic_id": "b1-t30",
+    "topic_title": "Being a Good Friend",
+    "theme_number": 3,
+    "theme_title": "People & Relationships",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "💛",
+    "topic_title_vi": "Trở Thành Người Bạn Tốt",
+    "theme_title_vi": "Con Người & Các Mối Quan Hệ"
+  },
+  "passage": {
+    "word_count": 104,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "A good friend is always **loyal** — they never say bad things about you. They **stand by** you and **support** you even when times are very difficult.",
+        "text_vi": "Một người bạn tốt luôn **trung thành** — họ không bao giờ nói xấu về bạn. Họ **ủng hộ** và **hỗ trợ** bạn ngay cả khi thời gian rất khó khăn."
+      },
+      {
+        "index": 2,
+        "text_en": "Good friends **encourage** each other and give useful **advice**. When I feel sad, my friend gives me **comfort** and **company** — she just sits with me and listens.",
+        "text_vi": "Những người bạn tốt **khuyến khích** nhau và đưa ra những **lời khuyên** hữu ích. Khi tôi buồn, bạn tôi mang lại cho tôi **sự an ủi** và **sự đồng hành** — cô ấy chỉ ngồi bên tôi và lắng nghe."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes friends **argue**. But good friends always **apologise** and **make up** quickly. They keep each other's **secrets** and never share them with anyone.",
+        "text_vi": "Đôi khi bạn bè **cãi nhau**. Nhưng những người bạn tốt luôn **xin lỗi** và **làm hòa** nhanh chóng. Họ giữ **bí mật** của nhau và không bao giờ chia sẻ với ai."
+      },
+      {
+        "index": 4,
+        "text_en": "I am so **grateful** for my best friend. She always **supports** me and **checks on** me when I am sick. She is very **generous** and I would truly **miss** her if she moved away.",
+        "text_vi": "Tôi rất **biết ơn** người bạn thân nhất của mình. Cô ấy luôn **hỗ trợ** tôi và **hỏi thăm** tôi khi tôi bị bệnh. Cô ấy rất **hào phóng** và tôi thực sự sẽ **nhớ** cô ấy nếu cô chuyển đi."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "loyal",
+      "ipa": "/ˈlɔɪəl/",
+      "pos": "adjective",
+      "meaning_vi": "trung thành, trung tín",
+      "meaning_vi_inline": "trung thành",
+      "example_en": "A loyal friend never betrays your trust — they stand by you no matter what.",
+      "example_vi": "Một người bạn trung thành không bao giờ phản bội sự tin tưởng của bạn — họ ủng hộ bạn dù thế nào.",
+      "word_family": {
+        "noun": "loyalty",
+        "verb": null,
+        "adjective": "loyal / disloyal",
+        "adverb": "loyally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "support",
+      "ipa": "/səˈpɔːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "hỗ trợ, ủng hộ; sự hỗ trợ",
+      "meaning_vi_inline": "hỗ trợ",
+      "example_en": "She supported me through a very difficult time — she called every day to check how I was.",
+      "example_vi": "Cô ấy hỗ trợ tôi qua một giai đoạn rất khó khăn — cô gọi điện mỗi ngày để hỏi thăm tôi.",
+      "word_family": {
+        "noun": "support / supporter",
+        "verb": "support / supported",
+        "adjective": "supportive",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "encourage",
+      "ipa": "/ɪnˈkʌrɪdʒ/",
+      "pos": "verb",
+      "meaning_vi": "khuyến khích, động viên",
+      "meaning_vi_inline": "khuyến khích",
+      "example_en": "My friend always encourages me to try new things and never lets me give up.",
+      "example_vi": "Bạn tôi luôn khuyến khích tôi thử những điều mới và không bao giờ để tôi bỏ cuộc.",
+      "word_family": {
+        "noun": "encouragement",
+        "verb": "encourage / encouraged",
+        "adjective": "encouraging",
+        "adverb": "encouragingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "advice",
+      "ipa": "/ədˈvaɪs/",
+      "pos": "noun",
+      "meaning_vi": "lời khuyên",
+      "meaning_vi_inline": "lời khuyên",
+      "example_en": "She gave me good advice when I did not know what to do — I followed it and things improved.",
+      "example_vi": "Cô ấy cho tôi lời khuyên hay khi tôi không biết phải làm gì — tôi làm theo và mọi thứ tốt hơn.",
+      "word_family": {
+        "noun": "advice (uncountable)",
+        "verb": "advise",
+        "adjective": "advisable",
+        "adverb": null
+      },
+      "false_friend": "advice (noun, uncountable) ≠ advise (verb): không nói 'an advice' — nói 'a piece of advice' hoặc 'some advice'"
+    },
+    {
+      "id": 5,
+      "word": "secret",
+      "ipa": "/ˈsiːkrɪt/",
+      "pos": "noun / adjective",
+      "meaning_vi": "bí mật; bí mật, bí ẩn",
+      "meaning_vi_inline": "bí mật",
+      "example_en": "I told her my biggest secret — and she has never told a single person.",
+      "example_vi": "Tôi kể cho cô ấy nghe bí mật lớn nhất của tôi — và cô chưa bao giờ nói với ai.",
+      "word_family": {
+        "noun": "secret / secrecy",
+        "verb": null,
+        "adjective": "secret / secretive",
+        "adverb": "secretly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "comfort",
+      "ipa": "/ˈkʌmfət/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự an ủi; an ủi, vỗ về",
+      "meaning_vi_inline": "an ủi",
+      "example_en": "She comforted me when I was sad — she held my hand and listened without judging.",
+      "example_vi": "Cô ấy an ủi tôi khi tôi buồn — cô nắm tay tôi và lắng nghe mà không phán xét.",
+      "word_family": {
+        "noun": "comfort",
+        "verb": "comfort / comforted",
+        "adjective": "comfortable / comforting",
+        "adverb": "comfortably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "company",
+      "ipa": "/ˈkʌmpəni/",
+      "pos": "noun",
+      "meaning_vi": "sự đồng hành, sự có mặt bên cạnh; công ty",
+      "meaning_vi_inline": "sự đồng hành",
+      "example_en": "I enjoy her company — being around her always makes me feel better.",
+      "example_vi": "Tôi thích có cô ấy bên cạnh — ở cạnh cô luôn làm tôi cảm thấy tốt hơn.",
+      "word_family": {
+        "noun": "company / companion",
+        "verb": "accompany",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "argue",
+      "ipa": "/ˈɑːɡjuː/",
+      "pos": "verb",
+      "meaning_vi": "cãi nhau, tranh luận",
+      "meaning_vi_inline": "cãi nhau",
+      "example_en": "We argued about who was right, but we said sorry quickly and forgot about it.",
+      "example_vi": "Chúng tôi cãi nhau về ai đúng, nhưng xin lỗi nhanh chóng và bỏ qua.",
+      "word_family": {
+        "noun": "argument",
+        "verb": "argue / argued",
+        "adjective": "argumentative",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "apologise",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "pos": "verb",
+      "meaning_vi": "xin lỗi",
+      "meaning_vi_inline": "xin lỗi",
+      "example_en": "He apologised for being late — he explained that the traffic was very bad.",
+      "example_vi": "Anh ấy xin lỗi vì đến muộn — anh giải thích rằng giao thông rất tắc.",
+      "word_family": {
+        "noun": "apology",
+        "verb": "apologise / apologised",
+        "adjective": "apologetic",
+        "adverb": "apologetically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "make up",
+      "ipa": "/meɪk ʌp/",
+      "pos": "phrasal verb",
+      "meaning_vi": "làm hòa, hòa giải (sau khi cãi nhau)",
+      "meaning_vi_inline": "làm hòa",
+      "example_en": "After their argument, they made up the next day with a hug and a smile.",
+      "example_vi": "Sau cuộc cãi vã, họ làm hòa ngay ngày hôm sau với một cái ôm và nụ cười.",
+      "word_family": {
+        "noun": "make-up (reconciliation, informal)",
+        "verb": "make up / made up",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": "make up (=làm hòa) ≠ make up (=trang điểm) — cùng cụm từ, khác nghĩa tùy ngữ cảnh"
+    },
+    {
+      "id": 11,
+      "word": "stand by",
+      "ipa": "/stænd baɪ/",
+      "pos": "phrasal verb",
+      "meaning_vi": "ủng hộ, đứng về phía (ai đó)",
+      "meaning_vi_inline": "ủng hộ",
+      "example_en": "She stood by me when everyone else walked away — that is a true friend.",
+      "example_vi": "Cô ấy đứng về phía tôi khi mọi người khác rời đi — đó là một người bạn thật sự.",
+      "word_family": {
+        "noun": null,
+        "verb": "stand by / stood by",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "miss",
+      "ipa": "/mɪs/",
+      "pos": "verb",
+      "meaning_vi": "nhớ (ai đó vắng mặt)",
+      "meaning_vi_inline": "nhớ",
+      "example_en": "I miss her every time she travels — the house feels much quieter without her.",
+      "example_vi": "Tôi nhớ cô ấy mỗi khi cô đi du lịch — ngôi nhà cảm thấy yên tĩnh hơn nhiều khi không có cô.",
+      "word_family": {
+        "noun": null,
+        "verb": "miss / missed",
+        "adjective": "missing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "check on",
+      "ipa": "/tʃek ɒn/",
+      "pos": "phrasal verb",
+      "meaning_vi": "hỏi thăm, kiểm tra xem ai đó có ổn không",
+      "meaning_vi_inline": "hỏi thăm",
+      "example_en": "She always checks on me when I am ill — she sends messages and brings food.",
+      "example_vi": "Cô ấy luôn hỏi thăm tôi khi tôi bệnh — cô gửi tin nhắn và mang thức ăn đến.",
+      "word_family": {
+        "noun": null,
+        "verb": "check on / checked on",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "grateful",
+      "ipa": "/ˈɡreɪtfl/",
+      "pos": "adjective",
+      "meaning_vi": "biết ơn, cảm kích",
+      "meaning_vi_inline": "biết ơn",
+      "example_en": "I am so grateful for all the help she gave me — I could not have done it without her.",
+      "example_vi": "Tôi rất biết ơn tất cả sự giúp đỡ cô ấy dành cho tôi — tôi không thể làm được nếu không có cô.",
+      "word_family": {
+        "noun": "gratitude",
+        "verb": null,
+        "adjective": "grateful / ungrateful",
+        "adverb": "gratefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "generous",
+      "ipa": "/ˈdʒenərəs/",
+      "pos": "adjective",
+      "meaning_vi": "hào phóng, rộng rãi",
+      "meaning_vi_inline": "hào phóng",
+      "example_en": "She is very generous — she always shares her food, time, and kind words with others.",
+      "example_vi": "Cô ấy rất hào phóng — cô luôn chia sẻ thức ăn, thời gian và lời tốt đẹp với người khác.",
+      "word_family": {
+        "noun": "generosity",
+        "verb": null,
+        "adjective": "generous",
+        "adverb": "generously"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "loyal" },
+        { "id": 2, "word": "generous" },
+        { "id": 3, "word": "grateful" },
+        { "id": 4, "word": "encourage" },
+        { "id": 5, "word": "comfort" }
+      ],
+      "options": [
+        { "id": "A", "text": "to give someone confidence to continue; to support someone's efforts" },
+        { "id": "B", "text": "feeling thankful for something someone has done for you" },
+        { "id": "C", "text": "always supporting someone even when things are difficult; faithful" },
+        { "id": "D", "text": "to make someone feel less sad or worried; to give emotional support" },
+        { "id": "E", "text": "willing to give your time, money, or help freely and without hesitation" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She gave me very good _____ about what to do — I followed it and things improved.",
+          "options": ["comfort", "company", "advice", "secret"],
+          "answer": "advice"
+        },
+        {
+          "id": 2,
+          "sentence": "A good friend keeps your _____ and never tells anyone, even when they are angry with you.",
+          "options": ["company", "secret", "advice", "comfort"],
+          "answer": "secret"
+        },
+        {
+          "id": 3,
+          "sentence": "After their argument, they _____ the next day — they hugged and everything was fine.",
+          "options": ["made up", "stood by", "checked on", "encouraged"],
+          "answer": "made up"
+        },
+        {
+          "id": 4,
+          "sentence": "He always _____ me when I am unwell — he calls, sends food, and asks if I need anything.",
+          "options": ["apologises", "misses", "checks on", "argues"],
+          "answer": "checks on"
+        },
+        {
+          "id": 5,
+          "sentence": "I am so _____ for everything she has done — she helped me when nobody else did.",
+          "options": ["generous", "grateful", "loyal", "comfortable"],
+          "answer": "grateful"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["apologise", "encourage", "loyal", "stand by", "company", "miss"],
+      "items": [
+        { "id": 1, "sentence": "A true friend will always _____ you, even when others walk away.", "answer": "stand by" },
+        { "id": 2, "sentence": "She always _____ me to try my best — she says I can do anything if I believe in myself.", "answer": "encourage" },
+        { "id": 3, "sentence": "She is a very _____ friend — she never betrays my trust or says bad things about me.", "answer": "loyal" },
+        { "id": 4, "sentence": "He called to _____ for missing my birthday — he felt very bad about forgetting.", "answer": "apologise" },
+        { "id": 5, "sentence": "I really _____ her when she travels abroad — life feels much quieter without her.", "answer": "miss" }
+      ],
+      "note": "One word in the box is not used: company"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She thanked everyone _____ for their help — she shook hands and smiled at each person. (GRATEFUL)",
+          "base_word": "GRATEFUL",
+          "answer": "gratefully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "Her _____ was clear — she gave her umbrella away even though it was still raining. (GENEROUS)",
+          "base_word": "GENEROUS",
+          "answer": "generosity",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "He spoke _____ to his friend — he admitted he was wrong and said he was truly sorry. (APOLOGY)",
+          "base_word": "APOLOGY",
+          "answer": "apologetically",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "His words were very _____ — after listening to him, I felt ready to try again. (ENCOURAGE)",
+          "base_word": "ENCOURAGE",
+          "answer": "encouraging",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "Her _____ to the team never wavered — she supported them even when they were losing. (LOYAL)",
+          "base_word": "LOYAL",
+          "answer": "loyalty",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A good friend always [ignores] you when you feel sad — they sit with you and listen carefully.",
+          "highlighted": "ignores",
+          "options": { "A": "comforts", "B": "ignores", "C": "misses" },
+          "answer": "A",
+          "explanation": "'Ignores' means to pay no attention to someone. A friend who sits with you and listens carefully when you are sad is 'comforting' you, not ignoring you."
+        },
+        {
+          "id": 2,
+          "sentence": "After their [loyalty], they said sorry to each other and became close friends again.",
+          "highlighted": "loyalty",
+          "options": { "A": "secret", "B": "loyalty", "C": "argument" },
+          "answer": "C",
+          "explanation": "'Loyalty' is a positive quality — it means being faithful. Something that leads to saying sorry and rebuilding a friendship is an 'argument', not loyalty."
+        },
+        {
+          "id": 3,
+          "sentence": "She never [argues] when she makes a mistake — she just walks away without saying sorry.",
+          "highlighted": "argues",
+          "options": { "A": "argues", "B": "apologises", "C": "misses" },
+          "answer": "B",
+          "explanation": "'Argues' means to quarrel or disagree. The sentence describes someone who never says sorry — the correct word is 'apologises', which is what she fails to do."
+        },
+        {
+          "id": 4,
+          "sentence": "I am very [sorry] for all the help she gave me — she is truly a wonderful friend.",
+          "highlighted": "sorry",
+          "options": { "A": "grateful", "B": "sorry", "C": "generous" },
+          "answer": "A",
+          "explanation": "'Sorry' expresses regret for something bad. The sentence expresses a positive feeling — thankfulness for someone's help. The correct word is 'grateful'."
+        },
+        {
+          "id": 5,
+          "sentence": "My best friend is very [selfish] — she always shares her food, time, and help with everyone.",
+          "highlighted": "selfish",
+          "options": { "A": "loyal", "B": "selfish", "C": "generous" },
+          "answer": "C",
+          "explanation": "'Selfish' means thinking only of yourself. Someone who freely shares food, time, and help with others is 'generous', which is the opposite of selfish."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "E", "3": "B", "4": "A", "5": "D" },
+    "ex2": { "1": "advice", "2": "secret", "3": "made up", "4": "checks on", "5": "grateful" },
+    "ex3": { "1": "stand by", "2": "encourage", "3": "loyal", "4": "apologise", "5": "miss" },
+    "ex4": { "1": "gratefully", "2": "generosity", "3": "apologetically", "4": "encouraging", "5": "loyalty" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "A", "5": "C" }
+  }
+}

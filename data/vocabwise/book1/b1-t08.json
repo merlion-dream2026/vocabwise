@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 8,
+    "topic_id": "b1-t08",
+    "topic_title": "Free Time & Hobbies",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🎨",
+    "topic_title_vi": "Thời Gian Rảnh & Sở Thích",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 100,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "On **weekends**, I have **free** time to do my **favourite** activities. My **hobby** is **drawing** — I love to **draw** animals and places.",
+        "text_vi": "Vào **cuối tuần**, tôi có thời gian **rảnh** để làm những hoạt động **yêu thích**. **Sở thích** của tôi là **vẽ** — tôi thích **vẽ** động vật và các địa điểm."
+      },
+      {
+        "index": 2,
+        "text_en": "I also **enjoy** listening to **music** and **singing** along to songs. Sometimes I **paint** beautiful pictures with watercolours.",
+        "text_vi": "Tôi cũng **thích** nghe **âm nhạc** và **hát** theo các bài hát. Đôi khi tôi **vẽ tranh** bằng màu nước."
+      },
+      {
+        "index": 3,
+        "text_en": "In the evenings, I **read** a book or watch a **film** with my family. **Reading** is my favourite **pastime** — I love adventure stories.",
+        "text_vi": "Vào buổi tối, tôi **đọc** sách hoặc xem **phim** cùng gia đình. **Đọc sách** là **thú vui** yêu thích của tôi — tôi thích những câu chuyện phiêu lưu."
+      },
+      {
+        "index": 4,
+        "text_en": "When I feel tired, I take a short **nap**. Then I do some **craft** — I make cards and gifts from coloured paper. Free time is always so **fun**!",
+        "text_vi": "Khi cảm thấy mệt, tôi chợp mắt một chút **ngủ ngắn**. Sau đó tôi làm **thủ công** — tôi làm thiệp và quà từ giấy màu. Thời gian rảnh luôn rất **vui**!"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "hobby",
+      "ipa": "/ˈhɒbi/",
+      "pos": "noun",
+      "meaning_vi": "sở thích, niềm đam mê",
+      "meaning_vi_inline": "sở thích",
+      "example_en": "Her hobby is painting — she paints every weekend.",
+      "example_vi": "Sở thích của cô ấy là vẽ tranh — cô ấy vẽ mỗi cuối tuần.",
+      "word_family": {
+        "noun": "hobby / hobbies",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "pos": "verb",
+      "meaning_vi": "thích, tận hưởng",
+      "meaning_vi_inline": "thích",
+      "example_en": "I enjoy reading books in the afternoon — it relaxes me.",
+      "example_vi": "Tôi thích đọc sách vào buổi chiều — nó giúp tôi thư giãn.",
+      "word_family": {
+        "noun": "enjoyment / enjoyable",
+        "verb": "enjoy / enjoyed",
+        "adjective": "enjoyable",
+        "adverb": "enjoyably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "noun",
+      "meaning_vi": "âm nhạc, nhạc",
+      "meaning_vi_inline": "âm nhạc",
+      "example_en": "She listens to music every evening to relax after school.",
+      "example_vi": "Cô ấy nghe nhạc mỗi buổi tối để thư giãn sau giờ học.",
+      "word_family": {
+        "noun": "music / musician",
+        "verb": null,
+        "adjective": "musical",
+        "adverb": "musically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "draw",
+      "ipa": "/drɔː/",
+      "pos": "verb",
+      "meaning_vi": "vẽ (hình)",
+      "meaning_vi_inline": "vẽ",
+      "example_en": "He draws animals and buildings in his notebook every day.",
+      "example_vi": "Anh ấy vẽ động vật và tòa nhà trong sổ tay mỗi ngày.",
+      "word_family": {
+        "noun": "drawing / drawer",
+        "verb": "draw / drew / drawn",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "read",
+      "ipa": "/riːd/",
+      "pos": "verb",
+      "meaning_vi": "đọc",
+      "meaning_vi_inline": "đọc",
+      "example_en": "She reads a book every night before going to sleep.",
+      "example_vi": "Cô ấy đọc một cuốn sách mỗi đêm trước khi đi ngủ.",
+      "word_family": {
+        "noun": "reading / reader",
+        "verb": "read / read / read",
+        "adjective": "readable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "nap",
+      "ipa": "/næp/",
+      "pos": "noun / verb",
+      "meaning_vi": "giấc ngủ ngắn; ngủ ngắn",
+      "meaning_vi_inline": "ngủ ngắn",
+      "example_en": "I take a short nap after lunch to give my brain a rest.",
+      "example_vi": "Tôi chợp mắt một chút sau bữa trưa để cho não bộ nghỉ ngơi.",
+      "word_family": {
+        "noun": "nap",
+        "verb": "nap / napped",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "film",
+      "ipa": "/fɪlm/",
+      "pos": "noun",
+      "meaning_vi": "bộ phim",
+      "meaning_vi_inline": "phim",
+      "example_en": "We watched a funny film together on Friday evening.",
+      "example_vi": "Chúng tôi xem một bộ phim hài vào tối thứ Sáu.",
+      "word_family": {
+        "noun": "film / filmmaker",
+        "verb": "film",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "craft",
+      "ipa": "/krɑːft/",
+      "pos": "noun",
+      "meaning_vi": "thủ công, làm đồ thủ công",
+      "meaning_vi_inline": "thủ công",
+      "example_en": "She loves doing craft — she makes cards, boxes, and decorations.",
+      "example_vi": "Cô ấy thích làm đồ thủ công — cô ấy làm thiệp, hộp và đồ trang trí.",
+      "word_family": {
+        "noun": "craft / craftsman / craftsmanship",
+        "verb": "craft",
+        "adjective": "crafty",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "sing",
+      "ipa": "/sɪŋ/",
+      "pos": "verb",
+      "meaning_vi": "hát",
+      "meaning_vi_inline": "hát",
+      "example_en": "She sings along to pop songs while doing her homework.",
+      "example_vi": "Cô ấy hát theo các bài nhạc pop trong khi làm bài tập về nhà.",
+      "word_family": {
+        "noun": "song / singer / singing",
+        "verb": "sing / sang / sung",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "paint",
+      "ipa": "/peɪnt/",
+      "pos": "verb / noun",
+      "meaning_vi": "vẽ tranh, tô màu; sơn, màu vẽ",
+      "meaning_vi_inline": "vẽ tranh",
+      "example_en": "She paints landscapes with watercolours every weekend.",
+      "example_vi": "Cô ấy vẽ phong cảnh bằng màu nước mỗi cuối tuần.",
+      "word_family": {
+        "noun": "paint / painting / painter",
+        "verb": "paint / painted",
+        "adjective": "painted",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "pastime",
+      "ipa": "/ˈpæstaɪm/",
+      "pos": "noun",
+      "meaning_vi": "thú vui, thú tiêu khiển",
+      "meaning_vi_inline": "thú vui",
+      "example_en": "Reading is her favourite pastime — she reads three books a month.",
+      "example_vi": "Đọc sách là thú vui yêu thích của cô ấy — cô ấy đọc ba cuốn một tháng.",
+      "word_family": {
+        "noun": "pastime",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "pos": "noun",
+      "meaning_vi": "cuối tuần",
+      "meaning_vi_inline": "cuối tuần",
+      "example_en": "On the weekend, I have free time to do my hobbies.",
+      "example_vi": "Vào cuối tuần, tôi có thời gian rảnh để làm sở thích của mình.",
+      "word_family": {
+        "noun": "weekend / weekday",
+        "verb": null,
+        "adjective": "weekly",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "fun",
+      "ipa": "/fʌn/",
+      "pos": "adjective / noun",
+      "meaning_vi": "vui, thú vị; niềm vui",
+      "meaning_vi_inline": "vui",
+      "example_en": "Playing games with friends is always a lot of fun.",
+      "example_vi": "Chơi trò chơi cùng bạn bè luôn rất vui.",
+      "word_family": {
+        "noun": "fun",
+        "verb": null,
+        "adjective": "fun / funny",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "funny",
+        "explanation_vi": "'Fun' (vui vẻ, thú vị) và 'funny' (hài hước, buồn cười) — gần giống nhưng nghĩa khác nhau."
+      }
+    },
+    {
+      "id": 14,
+      "word": "favourite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "pos": "adjective / noun",
+      "meaning_vi": "yêu thích nhất",
+      "meaning_vi_inline": "yêu thích",
+      "example_en": "My favourite hobby is drawing — I draw every evening.",
+      "example_vi": "Sở thích yêu thích của tôi là vẽ — tôi vẽ mỗi buổi tối.",
+      "word_family": {
+        "noun": "favourite / favor",
+        "verb": "favour",
+        "adjective": "favourite",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "free",
+      "ipa": "/friː/",
+      "pos": "adjective",
+      "meaning_vi": "rảnh rỗi; miễn phí; tự do",
+      "meaning_vi_inline": "rảnh / miễn phí",
+      "example_en": "I am free on Sunday — I have no school or homework.",
+      "example_vi": "Tôi rảnh vào Chủ nhật — không có trường học hay bài tập.",
+      "word_family": {
+        "noun": "freedom / free time",
+        "verb": "free",
+        "adjective": "free",
+        "adverb": "freely"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "pastime"
+        },
+        {
+          "id": 2,
+          "word": "craft"
+        },
+        {
+          "id": 3,
+          "word": "nap"
+        },
+        {
+          "id": 4,
+          "word": "hobby"
+        },
+        {
+          "id": 5,
+          "word": "weekend"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a short sleep during the day"
+        },
+        {
+          "id": "B",
+          "text": "an activity you enjoy doing in your free time"
+        },
+        {
+          "id": "C",
+          "text": "making things by hand, e.g. sewing, paper art, or card-making"
+        },
+        {
+          "id": "D",
+          "text": "Saturday and Sunday; the days off from school or work"
+        },
+        {
+          "id": "E",
+          "text": "a leisure activity you do regularly for pleasure; a favourite way to spend time"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She loves to _____ landscapes and animals with her coloured pencils.",
+          "options": [
+            "read",
+            "sing",
+            "paint",
+            "nap"
+          ],
+          "answer": "paint"
+        },
+        {
+          "id": 2,
+          "sentence": "Listening to _____ relaxes me after a long day at school.",
+          "options": [
+            "film",
+            "hobby",
+            "craft",
+            "music"
+          ],
+          "answer": "music"
+        },
+        {
+          "id": 3,
+          "sentence": "I take a short _____ after lunch to give my brain a rest.",
+          "options": [
+            "read",
+            "nap",
+            "sing",
+            "draw"
+          ],
+          "answer": "nap"
+        },
+        {
+          "id": 4,
+          "sentence": "On _____, I have more free time to do my hobbies.",
+          "options": [
+            "evenings",
+            "mornings",
+            "weekends",
+            "weekdays"
+          ],
+          "answer": "weekends"
+        },
+        {
+          "id": 5,
+          "sentence": "My _____ is drawing — I love to sketch animals in my notebook.",
+          "options": [
+            "pastime",
+            "craft",
+            "hobby",
+            "fun"
+          ],
+          "answer": "hobby"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "sing",
+        "film",
+        "read",
+        "paint",
+        "craft",
+        "enjoy"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She loves to _____ pictures of nature with her watercolours every weekend.",
+          "answer": "paint"
+        },
+        {
+          "id": 2,
+          "sentence": "I always _____ a book for thirty minutes before going to sleep at night.",
+          "answer": "read"
+        },
+        {
+          "id": 3,
+          "sentence": "On Friday evenings, we watch a _____ together as a family.",
+          "answer": "film"
+        },
+        {
+          "id": 4,
+          "sentence": "She loves to _____ along to pop songs — she has a beautiful voice.",
+          "answer": "sing"
+        },
+        {
+          "id": 5,
+          "sentence": "I made a birthday card in _____ class — we used paper, glue, and glitter.",
+          "answer": "craft"
+        }
+      ],
+      "note": "One word in the box is not used: enjoy"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ drawing very much — she draws every single day after school. (ENJOY)",
+          "base_word": "ENJOY",
+          "answer": "enjoys",
+          "form_used": "verb (3rd person singular)"
+        },
+        {
+          "id": 2,
+          "sentence": "She is a wonderful _____ — she can sketch any animal perfectly from memory. (DRAW)",
+          "base_word": "DRAW",
+          "answer": "drawer",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "My _____ pastime is reading — I finish one book every week. (FAVOUR)",
+          "base_word": "FAVOUR",
+          "answer": "favourite",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ along to every song on the radio — she knows all the words. (SING)",
+          "base_word": "SING",
+          "answer": "sings",
+          "form_used": "verb (3rd person singular)"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of the school art show was very high — parents loved every painting. (ENJOY)",
+          "base_word": "ENJOY",
+          "answer": "enjoyment",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She [enjoyes] drawing — she draws animals and buildings every day.",
+          "highlighted": "enjoyes",
+          "options": {
+            "A": "enjoyes",
+            "B": "enjoy",
+            "C": "enjoys"
+          },
+          "answer": "C",
+          "explanation": "Third-person singular 'she' needs 'enjoys'. For verbs ending in a consonant + y, change 'y' to 'i' and add 'es'."
+        },
+        {
+          "id": 2,
+          "sentence": "I [readed] three books last month — all of them were very exciting.",
+          "highlighted": "readed",
+          "options": {
+            "A": "read",
+            "B": "readed",
+            "C": "reading"
+          },
+          "answer": "B",
+          "explanation": "'Read' is an irregular verb: read → read (past simple, same spelling, different pronunciation: /red/)."
+        },
+        {
+          "id": 3,
+          "sentence": "She [singed] along to all the songs at the school concert.",
+          "highlighted": "singed",
+          "options": {
+            "A": "sang",
+            "B": "singed",
+            "C": "singing"
+          },
+          "answer": "B",
+          "explanation": "'Sing' is an irregular verb: sing → sang (past simple). 'Singed' does not exist in this context."
+        },
+        {
+          "id": 4,
+          "sentence": "My favourite [past-time] is reading — I read every night before bed.",
+          "highlighted": "past-time",
+          "options": {
+            "A": "past-time",
+            "B": "pasttime",
+            "C": "pastime"
+          },
+          "answer": "C",
+          "explanation": "'Pastime' is one word with no hyphen and no double 't'. It means a leisure activity you enjoy regularly."
+        },
+        {
+          "id": 5,
+          "sentence": "He [drawed] a beautiful picture of his family for the art competition.",
+          "highlighted": "drawed",
+          "options": {
+            "A": "drawed",
+            "B": "drew",
+            "C": "drawn"
+          },
+          "answer": "B",
+          "explanation": "'Draw' is an irregular verb: draw → drew (past simple). 'Drawed' does not exist in English."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "paint",
+      "2": "music",
+      "3": "nap",
+      "4": "weekends",
+      "5": "hobby"
+    },
+    "ex3": {
+      "1": "paint",
+      "2": "read",
+      "3": "film",
+      "4": "sing",
+      "5": "craft"
+    },
+    "ex4": {
+      "1": "enjoys",
+      "2": "drawer",
+      "3": "favourite",
+      "4": "sings",
+      "5": "enjoyment"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

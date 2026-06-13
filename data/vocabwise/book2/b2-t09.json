@@ -544,8 +544,8 @@
           "sentence": "The city's [populate] has grown by 20% in the last ten years.",
           "highlighted": "populate",
           "options": {
-            "A": "populate",
-            "B": "population",
+            "A": "population",
+            "B": "populate",
             "C": "populated"
           },
           "answer": "B",
@@ -580,8 +580,8 @@
           "sentence": "The gap between [urban] and [rural] lifestyle is [grow] every year.",
           "highlighted": "grow",
           "options": {
-            "A": "grow",
-            "B": "growing",
+            "A": "growing",
+            "B": "grow",
             "C": "grown"
           },
           "answer": "B",
@@ -621,10 +621,10 @@
     },
     "ex5": {
       "1": "B",
-      "2": "B",
+      "2": "A",
       "3": "B",
       "4": "B",
-      "5": "B"
+      "5": "A"
     }
   }
 }

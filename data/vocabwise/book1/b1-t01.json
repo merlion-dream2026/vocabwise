@@ -509,8 +509,8 @@
           "sentence": "My family live in a [two-floors] house near the market.",
           "highlighted": "two-floors",
           "options": {
-            "A": "two-floors",
-            "B": "two-floor",
+            "A": "two-floor",
+            "B": "two-floors",
             "C": "two-floored"
           },
           "answer": "B",
@@ -545,9 +545,9 @@
           "sentence": "My parents go to work [in every] morning.",
           "highlighted": "in every",
           "options": {
-            "A": "in every",
-            "B": "at every",
-            "C": "every"
+            "A": "every",
+            "B": "in every",
+            "C": "at every"
           },
           "answer": "C",
           "explanation": "No preposition before 'every': every morning."
@@ -597,10 +597,10 @@
       "5": "shared"
     },
     "ex5": {
-      "1": "B",
+      "1": "A",
       "2": "C",
       "3": "B",
-      "4": "C",
+      "4": "A",
       "5": "C"
     }
   }

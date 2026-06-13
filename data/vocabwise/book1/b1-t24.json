@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 24,
+    "topic_id": "b1-t24",
+    "topic_title": "Family Relationships",
+    "theme_number": 3,
+    "theme_title": "People & Relationships",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "👨‍👩‍👧",
+    "topic_title_vi": "Các Mối Quan Hệ Gia Đình",
+    "theme_title_vi": "Con Người & Các Mối Quan Hệ"
+  },
+  "passage": {
+    "word_count": 111,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My family is very **tight-knit**. I live with my **parents** and my two **siblings** — one **older** sister and one **younger** brother. We do almost everything together.",
+        "text_vi": "Gia đình tôi rất **gắn bó chặt chẽ**. Tôi sống với **bố mẹ** và hai **anh chị em** — một chị **lớn hơn** và một em trai **nhỏ hơn**. Chúng tôi làm hầu hết mọi thứ cùng nhau."
+      },
+      {
+        "index": 2,
+        "text_en": "Every weekend, we visit my **grandparents**. They are the **senior** members of our family, so we always show them great **respect** and listen carefully to their stories.",
+        "text_vi": "Mỗi cuối tuần, chúng tôi thăm **ông bà**. Họ là những thành viên **cao tuổi** nhất trong gia đình, vì vậy chúng tôi luôn thể hiện sự **tôn trọng** lớn và lắng nghe cẩn thận những câu chuyện của họ."
+      },
+      {
+        "index": 3,
+        "text_en": "On special holidays, all our **relatives** come to visit — **uncles**, **aunts**, and **cousins** of all **ages** from different cities. The house is full of noise and laughter.",
+        "text_vi": "Vào những ngày lễ đặc biệt, tất cả **họ hàng** đến thăm — **chú bác**, **cô dì** và **anh chị em họ** thuộc nhiều **lứa tuổi** khác nhau từ các thành phố khác. Ngôi nhà rộn ràng tiếng ồn và tiếng cười."
+      },
+      {
+        "index": 4,
+        "text_en": "We always **care** for each other through good times and bad. I truly believe that **blood** is thicker than water — family members are always there for you, no matter what happens in life.",
+        "text_vi": "Chúng tôi luôn **chăm sóc** lẫn nhau qua những lúc vui và khó khăn. Tôi thực sự tin rằng **máu** đặc hơn nước — các thành viên gia đình luôn ở bên bạn, dù điều gì xảy ra trong cuộc sống."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "parent",
+      "ipa": "/ˈpeərənt/",
+      "pos": "noun",
+      "meaning_vi": "cha hoặc mẹ; phụ huynh",
+      "meaning_vi_inline": "cha/mẹ",
+      "example_en": "Her parents are both teachers — her father teaches maths and her mother teaches English.",
+      "example_vi": "Bố mẹ cô ấy đều là giáo viên — bố dạy toán và mẹ dạy tiếng Anh.",
+      "word_family": {
+        "noun": "parent / parenthood",
+        "verb": null,
+        "adjective": "parental",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "grandparent",
+      "ipa": "/ˈɡrænˌpeərənt/",
+      "pos": "noun",
+      "meaning_vi": "ông hoặc bà (nội/ngoại)",
+      "meaning_vi_inline": "ông/bà",
+      "example_en": "My grandparents live in the countryside and we visit them every school holiday.",
+      "example_vi": "Ông bà tôi sống ở nông thôn và chúng tôi thăm họ mỗi kỳ nghỉ học.",
+      "word_family": {
+        "noun": "grandparent / grandfather / grandmother",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "sibling",
+      "ipa": "/ˈsɪblɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "anh chị em ruột",
+      "meaning_vi_inline": "anh/chị/em",
+      "example_en": "She has three siblings — two brothers and one sister — and they are all very close.",
+      "example_vi": "Cô ấy có ba anh chị em — hai anh/em trai và một chị/em gái — và họ rất thân thiết.",
+      "word_family": {
+        "noun": "sibling / brother / sister",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "uncle",
+      "ipa": "/ˈʌŋkl/",
+      "pos": "noun",
+      "meaning_vi": "chú, bác, cậu (anh/em trai của bố hoặc mẹ)",
+      "meaning_vi_inline": "chú/bác/cậu",
+      "example_en": "My uncle is my father's younger brother — he visits us every month.",
+      "example_vi": "Chú tôi là em trai của bố — chú đến thăm chúng tôi mỗi tháng.",
+      "word_family": {
+        "noun": "uncle",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "aunt",
+      "ipa": "/ɑːnt/",
+      "pos": "noun",
+      "meaning_vi": "cô, dì, thím (chị/em gái của bố hoặc mẹ)",
+      "meaning_vi_inline": "cô/dì/thím",
+      "example_en": "My aunt makes the best bánh mì — she brings it every time she visits.",
+      "example_vi": "Cô tôi làm bánh mì ngon nhất — cô mang đến mỗi khi đến thăm.",
+      "word_family": {
+        "noun": "aunt",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "cousin",
+      "ipa": "/ˈkʌzn/",
+      "pos": "noun",
+      "meaning_vi": "anh/chị/em họ (con của cô/chú/bác/dì/cậu)",
+      "meaning_vi_inline": "anh/chị/em họ",
+      "example_en": "My cousin lives in Da Nang — we see each other only at Tet and summer holidays.",
+      "example_vi": "Anh họ tôi sống ở Đà Nẵng — chúng tôi chỉ gặp nhau vào dịp Tết và nghỉ hè.",
+      "word_family": {
+        "noun": "cousin",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "relative",
+      "ipa": "/ˈrelətɪv/",
+      "pos": "noun",
+      "meaning_vi": "họ hàng, người thân trong gia đình",
+      "meaning_vi_inline": "họ hàng",
+      "example_en": "We have relatives all over Vietnam — some live in Hanoi and some in Ho Chi Minh City.",
+      "example_vi": "Chúng tôi có họ hàng khắp Việt Nam — một số sống ở Hà Nội và một số ở TP.HCM.",
+      "word_family": {
+        "noun": "relative / relation",
+        "verb": "relate",
+        "adjective": "relative / related",
+        "adverb": "relatively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "age",
+      "ipa": "/eɪdʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "tuổi; lão hóa, già đi",
+      "meaning_vi_inline": "tuổi",
+      "example_en": "People of all ages came to the festival — from young children to elderly grandparents.",
+      "example_vi": "Mọi người thuộc mọi lứa tuổi đến lễ hội — từ trẻ nhỏ đến ông bà lớn tuổi.",
+      "word_family": {
+        "noun": "age",
+        "verb": "age / aged",
+        "adjective": "aged / ageing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "respect",
+      "ipa": "/rɪˈspekt/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự tôn trọng; tôn trọng",
+      "meaning_vi_inline": "tôn trọng",
+      "example_en": "In Vietnamese culture, children show respect to their elders by using the correct pronouns.",
+      "example_vi": "Trong văn hóa Việt Nam, trẻ em thể hiện sự tôn trọng với người lớn tuổi bằng cách dùng đại từ xưng hô đúng.",
+      "word_family": {
+        "noun": "respect",
+        "verb": "respect / respected",
+        "adjective": "respectful / respected",
+        "adverb": "respectfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "older",
+      "ipa": "/ˈəʊldər/",
+      "pos": "adjective",
+      "meaning_vi": "lớn hơn, nhiều tuổi hơn",
+      "meaning_vi_inline": "lớn hơn",
+      "example_en": "My older sister is five years older than me — she is now studying at university.",
+      "example_vi": "Chị tôi hơn tôi năm tuổi — chị đang học đại học rồi.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "old / older / oldest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "younger",
+      "ipa": "/ˈjʌŋɡər/",
+      "pos": "adjective",
+      "meaning_vi": "nhỏ hơn, ít tuổi hơn",
+      "meaning_vi_inline": "nhỏ hơn",
+      "example_en": "My younger brother always asks me to help him with his homework.",
+      "example_vi": "Em trai tôi luôn nhờ tôi giúp làm bài tập về nhà.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "young / younger / youngest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "care",
+      "ipa": "/keər/",
+      "pos": "verb / noun",
+      "meaning_vi": "chăm sóc, quan tâm; sự quan tâm",
+      "meaning_vi_inline": "chăm sóc",
+      "example_en": "My parents always care for me when I am sick — they stay home and make soup.",
+      "example_vi": "Bố mẹ luôn chăm sóc tôi khi tôi bị bệnh — họ ở nhà và nấu cháo.",
+      "word_family": {
+        "noun": "care / caregiver",
+        "verb": "care / cared",
+        "adjective": "caring / careful / careless",
+        "adverb": "carefully / carelessly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "senior",
+      "ipa": "/ˈsiːniər/",
+      "pos": "adjective / noun",
+      "meaning_vi": "cao tuổi, bậc trên; người lớn tuổi, cấp bậc cao",
+      "meaning_vi_inline": "cao tuổi / cao cấp",
+      "example_en": "As the senior member of the family, my grandfather sits at the head of the table.",
+      "example_vi": "Là thành viên lớn tuổi nhất trong gia đình, ông tôi ngồi ở đầu bàn.",
+      "word_family": {
+        "noun": "senior / seniority",
+        "verb": null,
+        "adjective": "senior",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "blood",
+      "ipa": "/blʌd/",
+      "pos": "noun",
+      "meaning_vi": "máu; (trong cụm từ) họ hàng ruột thịt",
+      "meaning_vi_inline": "máu",
+      "example_en": "They are blood relatives — their grandfathers were brothers many years ago.",
+      "example_vi": "Họ là họ hàng ruột thịt — ông nội của họ là anh em từ nhiều năm trước.",
+      "word_family": {
+        "noun": "blood",
+        "verb": "bleed (to lose blood)",
+        "adjective": "bloody / bloodless",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "tight-knit",
+      "ipa": "/ˌtaɪtˈnɪt/",
+      "pos": "adjective",
+      "meaning_vi": "gắn bó chặt chẽ, đoàn kết",
+      "meaning_vi_inline": "gắn bó chặt chẽ",
+      "example_en": "Their family is very tight-knit — they support each other through every difficulty.",
+      "example_vi": "Gia đình họ rất gắn bó chặt chẽ — họ hỗ trợ nhau qua mọi khó khăn.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "tight-knit",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "sibling" },
+        { "id": 2, "word": "tight-knit" },
+        { "id": 3, "word": "relative" },
+        { "id": 4, "word": "senior" },
+        { "id": 5, "word": "respect" }
+      ],
+      "options": [
+        { "id": "A", "text": "a person who is older or has a higher rank in a family or group" },
+        { "id": "B", "text": "admiration and care shown to someone; treating others with politeness" },
+        { "id": "C", "text": "closely connected and caring greatly about each other" },
+        { "id": "D", "text": "a member of your family, either close or distant" },
+        { "id": "E", "text": "a brother or sister" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My _____ sister is three years older than me and is now studying at university.",
+          "options": ["older", "younger", "senior", "close"],
+          "answer": "older"
+        },
+        {
+          "id": 2,
+          "sentence": "We always show _____ to our grandparents — we listen carefully and never argue with them.",
+          "options": ["care", "age", "respect", "blood"],
+          "answer": "respect"
+        },
+        {
+          "id": 3,
+          "sentence": "My _____ is the son of my father's brother — we are the same age and love the same games.",
+          "options": ["cousin", "sibling", "aunt", "parent"],
+          "answer": "cousin"
+        },
+        {
+          "id": 4,
+          "sentence": "She has two _____ — an older brother and a younger sister.",
+          "options": ["relatives", "cousins", "siblings", "parents"],
+          "answer": "siblings"
+        },
+        {
+          "id": 5,
+          "sentence": "Our family is very _____ — we call each other every day and meet on weekends.",
+          "options": ["senior", "blood", "distant", "tight-knit"],
+          "answer": "tight-knit"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["uncle", "grandparent", "younger", "care", "blood", "cousin"],
+      "items": [
+        { "id": 1, "sentence": "My _____ is my father's brother — he is very funny and tells great stories.", "answer": "uncle" },
+        { "id": 2, "sentence": "Every Sunday, we visit our _____ at their house on the other side of the city.", "answer": "grandparent" },
+        { "id": 3, "sentence": "She is the _____ sister — she is only six and goes to primary school.", "answer": "younger" },
+        { "id": 4, "sentence": "My parents always _____ for me when I am sick — they stay home all day.", "answer": "care" },
+        { "id": 5, "sentence": "We are _____ relatives — our grandfathers were brothers.", "answer": "blood" }
+      ],
+      "note": "One word in the box is not used: cousin"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He always speaks _____ to his grandparents — he never raises his voice. (RESPECT)",
+          "base_word": "RESPECT",
+          "answer": "respectfully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "She is the _____ child in the family — she was born five years before her brother. (OLD)",
+          "base_word": "OLD",
+          "answer": "oldest",
+          "form_used": "superlative adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "Her grandmother was very _____ — she always made sure everyone had enough to eat. (CARE)",
+          "base_word": "CARE",
+          "answer": "caring",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "All our _____ came to the wedding — it was a huge and joyful family reunion. (RELATE)",
+          "base_word": "RELATE",
+          "answer": "relatives",
+          "form_used": "noun (plural)"
+        },
+        {
+          "id": 5,
+          "sentence": "He is the _____ of the three siblings — he just started primary school this year. (YOUNG)",
+          "base_word": "YOUNG",
+          "answer": "youngest",
+          "form_used": "superlative adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My father's sister is my [uncle] — she visits us every Sunday for lunch.",
+          "highlighted": "uncle",
+          "options": { "A": "aunt", "B": "uncle", "C": "cousin" },
+          "answer": "A",
+          "explanation": "'Uncle' is the word for a father's or mother's brother. A father's sister is called an 'aunt'."
+        },
+        {
+          "id": 2,
+          "sentence": "She always treats her grandparents with great [blood] — she listens carefully and never argues.",
+          "highlighted": "blood",
+          "options": { "A": "care", "B": "respect", "C": "blood" },
+          "answer": "B",
+          "explanation": "'Blood' refers to family connections by birth. The word for treating someone with admiration and politeness is 'respect', not blood."
+        },
+        {
+          "id": 3,
+          "sentence": "He is five years [senior] than his sister — he was born in 2012 and she in 2017.",
+          "highlighted": "senior",
+          "options": { "A": "younger", "B": "senior", "C": "older" },
+          "answer": "C",
+          "explanation": "'Senior' means having a high rank or more experience — it is not used for simple age comparisons. To say someone was born earlier, use 'older'."
+        },
+        {
+          "id": 4,
+          "sentence": "My [cousins] are my mother and my father — they take care of me every day.",
+          "highlighted": "cousins",
+          "options": { "A": "parents", "B": "siblings", "C": "cousins" },
+          "answer": "A",
+          "explanation": "'Cousins' are the children of your aunts and uncles. The people who are your mother and father are called 'parents'."
+        },
+        {
+          "id": 5,
+          "sentence": "Our family is very [loose] — we call each other every day and always meet at weekends.",
+          "highlighted": "loose",
+          "options": { "A": "senior", "B": "tight-knit", "C": "loose" },
+          "answer": "B",
+          "explanation": "'Loose' means not firmly connected. A family that calls daily and meets every weekend is 'tight-knit' — closely connected and caring greatly about each other."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "C", "3": "D", "4": "A", "5": "B" },
+    "ex2": { "1": "older", "2": "respect", "3": "cousin", "4": "siblings", "5": "tight-knit" },
+    "ex3": { "1": "uncle", "2": "grandparent", "3": "younger", "4": "care", "5": "blood" },
+    "ex4": { "1": "respectfully", "2": "oldest", "3": "caring", "4": "relatives", "5": "youngest" },
+    "ex5": { "1": "A", "2": "B", "3": "C", "4": "A", "5": "B" }
+  }
+}

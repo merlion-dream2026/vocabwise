@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 15,
+    "topic_id": "b1-t15",
+    "topic_title": "Parks & Green Spaces",
+    "theme_number": 2,
+    "theme_title": "World Around Us",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🌳",
+    "topic_title_vi": "Công Viên & Không Gian Xanh",
+    "theme_title_vi": "Thế Giới Xung Quanh"
+  },
+  "passage": {
+    "word_count": 110,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every Sunday morning, I go to the **park** near my house. It is a beautiful **open** **space** full of trees and grass. The **air** there is always **fresh** and **clean**.",
+        "text_vi": "Mỗi sáng Chủ Nhật, tôi đến **công viên** gần nhà. Đó là một **không gian** **mở** đẹp đẽ đầy cây cối và cỏ. **Không khí** ở đó luôn **trong lành** và **sạch sẽ**."
+      },
+      {
+        "index": 2,
+        "text_en": "I like to sit on a **bench** beside the **pond** and watch the ducks swim. Sometimes I **jog** around the lake or **stroll** along the path under the tall trees.",
+        "text_vi": "Tôi thích ngồi trên một **chiếc ghế băng** bên cạnh **ao** và xem vịt bơi. Đôi khi tôi **chạy bộ** quanh hồ hoặc **tản bộ** dọc theo con đường dưới những cây cao."
+      },
+      {
+        "index": 3,
+        "text_en": "There is a beautiful **fountain** in the middle of the park. Children **play** around it. Families spread blankets on the grass and have a **picnic** together.",
+        "text_vi": "Có một **đài phun nước** đẹp ở giữa công viên. Trẻ em **chơi đùa** xung quanh đó. Các gia đình trải chăn trên bãi cỏ và có một buổi **dã ngoại** cùng nhau."
+      },
+      {
+        "index": 4,
+        "text_en": "I also enjoy watching **birds** fly from tree to tree. In summer, I sit in the **shade** of a big tree to stay cool. The park is a **peaceful** place — I feel very happy there.",
+        "text_vi": "Tôi cũng thích xem **chim** bay từ cây này sang cây khác. Vào mùa hè, tôi ngồi dưới **bóng mát** của một cây lớn để tránh nóng. Công viên là một nơi **bình yên** — tôi cảm thấy rất hạnh phúc ở đó."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "park",
+      "ipa": "/pɑːrk/",
+      "pos": "noun",
+      "meaning_vi": "công viên",
+      "meaning_vi_inline": "công viên",
+      "example_en": "We go to the park every evening to walk and enjoy the fresh air.",
+      "example_vi": "Chúng tôi đến công viên mỗi tối để đi bộ và hít không khí trong lành.",
+      "word_family": {
+        "noun": "park / parking",
+        "verb": "park (a car)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "bench",
+      "ipa": "/bentʃ/",
+      "pos": "noun",
+      "meaning_vi": "ghế băng dài (ở công viên, ngoài trời)",
+      "meaning_vi_inline": "ghế băng",
+      "example_en": "She sat on a wooden bench and watched the children play in the park.",
+      "example_vi": "Cô ấy ngồi trên một chiếc ghế băng bằng gỗ và nhìn trẻ em chơi trong công viên.",
+      "word_family": {
+        "noun": "bench",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "pond",
+      "ipa": "/pɒnd/",
+      "pos": "noun",
+      "meaning_vi": "cái ao, hồ nhỏ",
+      "meaning_vi_inline": "ao",
+      "example_en": "There are colourful fish and water plants in the pond at the park.",
+      "example_vi": "Có cá nhiều màu và cây thủy sinh trong ao ở công viên.",
+      "word_family": {
+        "noun": "pond",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "bird",
+      "ipa": "/bɜːrd/",
+      "pos": "noun",
+      "meaning_vi": "con chim",
+      "meaning_vi_inline": "chim",
+      "example_en": "I love watching birds sit in the trees and listening to them sing.",
+      "example_vi": "Tôi thích nhìn chim đậu trên cây và nghe chúng hót.",
+      "word_family": {
+        "noun": "bird",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "clean",
+      "ipa": "/kliːn/",
+      "pos": "adjective / verb",
+      "meaning_vi": "sạch sẽ; làm sạch",
+      "meaning_vi_inline": "sạch sẽ",
+      "example_en": "The park is always very clean — there are rubbish bins everywhere.",
+      "example_vi": "Công viên luôn rất sạch sẽ — có thùng rác ở khắp nơi.",
+      "word_family": {
+        "noun": "cleanliness",
+        "verb": "clean / cleaned",
+        "adjective": "clean",
+        "adverb": "cleanly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "peaceful",
+      "ipa": "/ˈpiːsfl/",
+      "pos": "adjective",
+      "meaning_vi": "bình yên, thanh thản, yên tĩnh",
+      "meaning_vi_inline": "bình yên",
+      "example_en": "The park is very peaceful in the early morning — there are almost no people.",
+      "example_vi": "Công viên rất bình yên vào sáng sớm — hầu như không có ai.",
+      "word_family": {
+        "noun": "peace",
+        "verb": null,
+        "adjective": "peaceful",
+        "adverb": "peacefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "stroll",
+      "ipa": "/stroʊl/",
+      "pos": "verb / noun",
+      "meaning_vi": "đi tản bộ, dạo bộ; buổi tản bộ",
+      "meaning_vi_inline": "tản bộ",
+      "example_en": "After lunch, we took a stroll through the park and enjoyed the sunshine.",
+      "example_vi": "Sau bữa trưa, chúng tôi tản bộ qua công viên và tận hưởng ánh nắng.",
+      "word_family": {
+        "noun": "stroll",
+        "verb": "stroll / strolled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "play",
+      "ipa": "/pleɪ/",
+      "pos": "verb / noun",
+      "meaning_vi": "chơi; trò chơi, vở kịch",
+      "meaning_vi_inline": "chơi",
+      "example_en": "The children play in the park every afternoon after school.",
+      "example_vi": "Bọn trẻ chơi trong công viên mỗi chiều sau giờ học.",
+      "word_family": {
+        "noun": "play / player / playground",
+        "verb": "play / played",
+        "adjective": "playful",
+        "adverb": "playfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "fresh",
+      "ipa": "/freʃ/",
+      "pos": "adjective",
+      "meaning_vi": "tươi, trong lành (không khí)",
+      "meaning_vi_inline": "trong lành / tươi",
+      "example_en": "The morning air is fresh and cool — perfect for a walk in the park.",
+      "example_vi": "Không khí buổi sáng trong lành và mát mẻ — rất lý tưởng để đi dạo trong công viên.",
+      "word_family": {
+        "noun": "freshness",
+        "verb": "freshen",
+        "adjective": "fresh",
+        "adverb": "freshly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "open",
+      "ipa": "/ˈoʊpən/",
+      "pos": "adjective / verb",
+      "meaning_vi": "mở, rộng mở; mở ra",
+      "meaning_vi_inline": "mở / rộng mở",
+      "example_en": "I love the open spaces in the park — there is so much room to run and play.",
+      "example_vi": "Tôi yêu những không gian mở trong công viên — có rất nhiều chỗ để chạy và chơi.",
+      "word_family": {
+        "noun": "opening",
+        "verb": "open / opened",
+        "adjective": "open",
+        "adverb": "openly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "space",
+      "ipa": "/speɪs/",
+      "pos": "noun",
+      "meaning_vi": "không gian, khoảng trống",
+      "meaning_vi_inline": "không gian",
+      "example_en": "Children need open space to run, jump, and explore freely.",
+      "example_vi": "Trẻ em cần không gian mở để chạy nhảy và khám phá tự do.",
+      "word_family": {
+        "noun": "space / spaceship",
+        "verb": "space out",
+        "adjective": "spacious",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "fountain",
+      "ipa": "/ˈfaʊntɪn/",
+      "pos": "noun",
+      "meaning_vi": "đài phun nước",
+      "meaning_vi_inline": "đài phun nước",
+      "example_en": "The fountain in the park sprays water high into the air — it is beautiful at night.",
+      "example_vi": "Đài phun nước trong công viên phun nước lên cao — nó rất đẹp vào ban đêm.",
+      "word_family": {
+        "noun": "fountain",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "jog",
+      "ipa": "/dʒɒɡ/",
+      "pos": "verb / noun",
+      "meaning_vi": "chạy bộ nhẹ nhàng; buổi chạy bộ",
+      "meaning_vi_inline": "chạy bộ",
+      "example_en": "She goes for a jog in the park every morning to stay healthy.",
+      "example_vi": "Cô ấy chạy bộ trong công viên mỗi sáng để giữ sức khỏe.",
+      "word_family": {
+        "noun": "jog / jogger",
+        "verb": "jog / jogged",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "picnic",
+      "ipa": "/ˈpɪknɪk/",
+      "pos": "noun / verb",
+      "meaning_vi": "dã ngoại, picnic; đi dã ngoại",
+      "meaning_vi_inline": "dã ngoại",
+      "example_en": "We had a picnic in the park — sandwiches, juice, and a big blanket on the grass.",
+      "example_vi": "Chúng tôi đi dã ngoại trong công viên — bánh mì, nước trái cây và một tấm chăn lớn trên bãi cỏ.",
+      "word_family": {
+        "noun": "picnic",
+        "verb": "picnic / picnicked",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "shade",
+      "ipa": "/ʃeɪd/",
+      "pos": "noun",
+      "meaning_vi": "bóng mát (chỗ khuất nắng)",
+      "meaning_vi_inline": "bóng mát",
+      "example_en": "We sat in the shade of a large oak tree to escape the hot afternoon sun.",
+      "example_vi": "Chúng tôi ngồi trong bóng mát của một cây sồi lớn để tránh cái nắng buổi chiều.",
+      "word_family": {
+        "noun": "shade / shading",
+        "verb": "shade",
+        "adjective": "shady",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "shadow",
+        "explanation_vi": "'Shade' là vùng mát tránh nắng (e.g., sit in the shade). 'Shadow' là hình bóng cụ thể của một vật thể khi có ánh sáng chiếu vào."
+      }
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "stroll"
+        },
+        {
+          "id": 2,
+          "word": "shade"
+        },
+        {
+          "id": 3,
+          "word": "fountain"
+        },
+        {
+          "id": 4,
+          "word": "picnic"
+        },
+        {
+          "id": 5,
+          "word": "bench"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "a meal eaten outdoors, usually on the grass in a park"
+        },
+        {
+          "id": "B",
+          "text": "a cool, dark area protected from direct sunlight"
+        },
+        {
+          "id": "C",
+          "text": "a long seat that several people can sit on, usually in a park"
+        },
+        {
+          "id": "D",
+          "text": "to walk slowly and in a relaxed way for pleasure"
+        },
+        {
+          "id": "E",
+          "text": "a structure that pumps water up into the air as a decoration"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I sat on a _____ beside the pond and watched the ducks swim.",
+          "options": [
+            "fountain",
+            "bench",
+            "shade",
+            "pond"
+          ],
+          "answer": "bench"
+        },
+        {
+          "id": 2,
+          "sentence": "The morning air in the park is always _____ and cool — perfect for a walk.",
+          "options": [
+            "open",
+            "clean",
+            "fresh",
+            "peaceful"
+          ],
+          "answer": "fresh"
+        },
+        {
+          "id": 3,
+          "sentence": "We spread a blanket on the grass and had a _____ in the park.",
+          "options": [
+            "stroll",
+            "picnic",
+            "jog",
+            "shade"
+          ],
+          "answer": "picnic"
+        },
+        {
+          "id": 4,
+          "sentence": "Children need _____ to run and play — a park is the perfect place.",
+          "options": [
+            "space",
+            "bench",
+            "shade",
+            "bird"
+          ],
+          "answer": "space"
+        },
+        {
+          "id": 5,
+          "sentence": "In the summer, I sit in the _____ of a large tree to avoid the hot sun.",
+          "options": [
+            "pond",
+            "fountain",
+            "shade",
+            "park"
+          ],
+          "answer": "shade"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "peaceful",
+        "jog",
+        "bird",
+        "stroll",
+        "pond",
+        "open"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She loves to _____ through the park every evening after dinner.",
+          "answer": "stroll"
+        },
+        {
+          "id": 2,
+          "sentence": "The park is a _____ place — there is no traffic noise and the air is clean.",
+          "answer": "peaceful"
+        },
+        {
+          "id": 3,
+          "sentence": "We fed the ducks at the _____ — they came right up to the edge.",
+          "answer": "pond"
+        },
+        {
+          "id": 4,
+          "sentence": "I go for a morning _____ in the park three times a week to stay fit.",
+          "answer": "jog"
+        },
+        {
+          "id": 5,
+          "sentence": "A colourful _____ landed on the bench beside me and sang for a moment.",
+          "answer": "bird"
+        }
+      ],
+      "note": "One word in the box is not used: open"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She sat _____ on the bench and listened to the birds sing. (PEACE)",
+          "base_word": "PEACE",
+          "answer": "peacefully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The apartment is very _____ — it has large windows and high ceilings. (SPACE)",
+          "base_word": "SPACE",
+          "answer": "spacious",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ along the park path, enjoying the cool morning air. (JOG)",
+          "base_word": "JOG",
+          "answer": "jogged",
+          "form_used": "past simple"
+        },
+        {
+          "id": 4,
+          "sentence": "The park is very _____ — they pick up all the rubbish every morning. (CLEAN)",
+          "base_word": "CLEAN",
+          "answer": "clean",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The corner of the garden under the big tree is very _____ — it is perfect for reading. (SHADE)",
+          "base_word": "SHADE",
+          "answer": "shady",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She sat on a [fountain] in the park and watched the children play.",
+          "highlighted": "fountain",
+          "options": {
+            "A": "fountain",
+            "B": "bench",
+            "C": "pond"
+          },
+          "answer": "B",
+          "explanation": "You sit on a 'bench'. A 'fountain' is a water feature, not something you sit on."
+        },
+        {
+          "id": 2,
+          "sentence": "In summer, we sit in the [shadow] of a big tree to stay cool.",
+          "highlighted": "shadow",
+          "options": {
+            "A": "shade",
+            "B": "shadow",
+            "C": "shady"
+          },
+          "answer": "B",
+          "explanation": "'Shade' means a cool, dark area away from direct sunlight. 'Shadow' refers to the dark shape cast by an object blocking light — it is not used for 'sitting in' to stay cool."
+        },
+        {
+          "id": 3,
+          "sentence": "The park is very [noisy] — there is no traffic and you can hear the birds singing.",
+          "highlighted": "noisy",
+          "options": {
+            "A": "noisy",
+            "B": "peacefully",
+            "C": "peaceful"
+          },
+          "answer": "C",
+          "explanation": "No traffic and birdsong suggest a quiet, calm environment — 'peaceful' (adjective) is correct here. 'Noisy' is the opposite of what the sentence describes."
+        },
+        {
+          "id": 4,
+          "sentence": "We [strolled] through the park — running as fast as we could to the other end.",
+          "highlighted": "strolled",
+          "options": {
+            "A": "jogged",
+            "B": "strolled",
+            "C": "played"
+          },
+          "answer": "B",
+          "explanation": "'Strolled' means walking slowly in a relaxed way, which contradicts 'running as fast as we could'. 'Jogged' (running at a steady pace) fits the context."
+        },
+        {
+          "id": 5,
+          "sentence": "There are many [bird] in the park — they fly between the trees and sing beautifully.",
+          "highlighted": "bird",
+          "options": {
+            "A": "bird",
+            "B": "birdy",
+            "C": "birds"
+          },
+          "answer": "C",
+          "explanation": "'Many' requires a plural noun. Change 'bird' to 'birds'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "D",
+      "2": "B",
+      "3": "E",
+      "4": "A",
+      "5": "C"
+    },
+    "ex2": {
+      "1": "bench",
+      "2": "fresh",
+      "3": "picnic",
+      "4": "space",
+      "5": "shade"
+    },
+    "ex3": {
+      "1": "stroll",
+      "2": "peaceful",
+      "3": "pond",
+      "4": "jog",
+      "5": "bird"
+    },
+    "ex4": {
+      "1": "peacefully",
+      "2": "spacious",
+      "3": "jogged",
+      "4": "clean",
+      "5": "shady"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

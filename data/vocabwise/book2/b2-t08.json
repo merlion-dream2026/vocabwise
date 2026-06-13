@@ -561,8 +561,8 @@
           "sentence": "He [upload] a new video every Friday to keep his followers [engage].",
           "highlighted": "engage",
           "options": {
-            "A": "engage",
-            "B": "engaged",
+            "A": "engaged",
+            "B": "engage",
             "C": "engaging"
           },
           "answer": "B",
@@ -585,8 +585,8 @@
           "sentence": "More [expose] on social media helped her business reach more customers.",
           "highlighted": "expose",
           "options": {
-            "A": "expose",
-            "B": "exposure",
+            "A": "exposure",
+            "B": "expose",
             "C": "exposed"
           },
           "answer": "B",
@@ -627,9 +627,9 @@
     "ex5": {
       "1": "B",
       "2": "B",
-      "3": "B",
+      "3": "A",
       "4": "B",
-      "5": "B"
+      "5": "A"
     }
   }
 }

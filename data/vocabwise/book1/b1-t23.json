@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 23,
+    "topic_id": "b1-t23",
+    "topic_title": "Describing People (Appearance)",
+    "theme_number": 3,
+    "theme_title": "People & Relationships",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "🪞",
+    "topic_title_vi": "Miêu Tả Người (Ngoại Hình)",
+    "theme_title_vi": "Con Người & Các Mối Quan Hệ"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My family all look very different from each other. My father is **tall** and **muscular** with **short**, dark **hair** and a broad smile. My mother is quite **thin** with long, wavy hair.",
+        "text_vi": "Gia đình tôi trông rất khác nhau. Bố tôi **cao** và **cơ bắp** với **tóc** **ngắn**, tối màu và nụ cười rộng. Mẹ tôi khá **gầy** với mái tóc dài, uốn lượn."
+      },
+      {
+        "index": 2,
+        "text_en": "My grandmother is quite **old** but she still has a lovely **smile**. Her **face** is kind and warm. Her **eyes** are dark brown and very bright.",
+        "text_vi": "Bà tôi khá **già** nhưng bà vẫn có nụ **cười** duyên dáng. **Khuôn mặt** bà nhân hậu và ấm áp. **Đôi mắt** bà nâu sẫm và rất sáng."
+      },
+      {
+        "index": 3,
+        "text_en": "My younger brother is still very **young** — he is only eight years old. He is a little **overweight** but growing fast. He **wears** glasses and loves colourful T-shirts.",
+        "text_vi": "Em trai tôi vẫn còn rất **nhỏ** — em chỉ mới tám tuổi. Em hơi **thừa cân** nhưng đang lớn nhanh. Em **mặc** kính và thích áo phông nhiều màu sắc."
+      },
+      {
+        "index": 4,
+        "text_en": "People say I look **similar** to my mother. I think **appearance** is very interesting — family members often look alike in small ways. My family is **beautiful** to me in every way.",
+        "text_vi": "Mọi người nói tôi trông **giống** mẹ. Tôi nghĩ **ngoại hình** rất thú vị — các thành viên trong gia đình thường trông giống nhau ở những điểm nhỏ. Gia đình tôi **đẹp** trong mắt tôi theo mọi cách."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adjective",
+      "meaning_vi": "cao (người)",
+      "meaning_vi_inline": "cao",
+      "example_en": "My uncle is very tall — he has to bend down to walk through most doorways.",
+      "example_vi": "Chú tôi rất cao — chú phải cúi xuống khi đi qua hầu hết các cửa ra vào.",
+      "word_family": {
+        "noun": "height",
+        "verb": null,
+        "adjective": "tall / taller / tallest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adjective",
+      "meaning_vi": "thấp, lùn (người); ngắn",
+      "meaning_vi_inline": "thấp",
+      "example_en": "She is quite short but she is a very fast runner on the athletics team.",
+      "example_vi": "Cô ấy khá thấp nhưng là người chạy rất nhanh trong đội điền kinh.",
+      "word_family": {
+        "noun": "shortness",
+        "verb": null,
+        "adjective": "short / shorter / shortest",
+        "adverb": "shortly (= soon)"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "thin",
+      "ipa": "/θɪn/",
+      "pos": "adjective",
+      "meaning_vi": "gầy, mảnh khảnh",
+      "meaning_vi_inline": "gầy",
+      "example_en": "After being ill for two weeks, he looked very thin and pale.",
+      "example_vi": "Sau khi bị bệnh hai tuần, anh ấy trông rất gầy và xanh xao.",
+      "word_family": {
+        "noun": "thinness",
+        "verb": null,
+        "adjective": "thin / slim / slender",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "overweight",
+      "ipa": "/ˌəʊvəˈweɪt/",
+      "pos": "adjective",
+      "meaning_vi": "thừa cân, béo phì nhẹ",
+      "meaning_vi_inline": "thừa cân",
+      "example_en": "The doctor said he was slightly overweight and advised him to exercise more.",
+      "example_vi": "Bác sĩ nói anh ấy hơi thừa cân và khuyên anh nên tập thể dục nhiều hơn.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "overweight",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "young",
+      "ipa": "/jʌŋ/",
+      "pos": "adjective",
+      "meaning_vi": "trẻ, còn nhỏ",
+      "meaning_vi_inline": "trẻ",
+      "example_en": "She looks very young for her age — most people think she is ten years younger.",
+      "example_vi": "Cô ấy trông rất trẻ so với tuổi — hầu hết mọi người nghĩ cô kém mười tuổi.",
+      "word_family": {
+        "noun": "youth",
+        "verb": null,
+        "adjective": "young / younger / youngest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "old",
+      "ipa": "/əʊld/",
+      "pos": "adjective",
+      "meaning_vi": "già, lớn tuổi; cũ",
+      "meaning_vi_inline": "già",
+      "example_en": "My grandfather is old but he still goes for a walk every single morning.",
+      "example_vi": "Ông tôi già rồi nhưng ông vẫn đi bộ mỗi sáng.",
+      "word_family": {
+        "noun": "old age",
+        "verb": null,
+        "adjective": "old / older / oldest",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "hair",
+      "ipa": "/heər/",
+      "pos": "noun",
+      "meaning_vi": "tóc; lông",
+      "meaning_vi_inline": "tóc",
+      "example_en": "She has beautiful long hair — she washes and brushes it every morning.",
+      "example_vi": "Cô ấy có mái tóc dài đẹp — cô gội và chải mỗi sáng.",
+      "word_family": {
+        "noun": "hair / hairstyle",
+        "verb": null,
+        "adjective": "hairy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "eye",
+      "ipa": "/aɪ/",
+      "pos": "noun",
+      "meaning_vi": "mắt",
+      "meaning_vi_inline": "mắt",
+      "example_en": "She has beautiful dark eyes that shine when she laughs.",
+      "example_vi": "Cô ấy có đôi mắt đen đẹp sáng lên khi cô cười.",
+      "word_family": {
+        "noun": "eye / eyesight",
+        "verb": "eye (to look at carefully)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "face",
+      "ipa": "/feɪs/",
+      "pos": "noun",
+      "meaning_vi": "khuôn mặt, mặt",
+      "meaning_vi_inline": "khuôn mặt",
+      "example_en": "Her face lit up with a big smile when she saw her friends waiting for her.",
+      "example_vi": "Khuôn mặt cô ấy rạng rỡ với nụ cười rộng khi cô thấy bạn bè đang đợi.",
+      "word_family": {
+        "noun": "face",
+        "verb": "face (to look towards / to deal with)",
+        "adjective": "facial",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "smile",
+      "ipa": "/smaɪl/",
+      "pos": "verb / noun",
+      "meaning_vi": "mỉm cười; nụ cười",
+      "meaning_vi_inline": "nụ cười",
+      "example_en": "She always smiles when she greets people — it makes everyone feel welcome.",
+      "example_vi": "Cô ấy luôn mỉm cười khi chào mọi người — điều đó khiến mọi người cảm thấy được chào đón.",
+      "word_family": {
+        "noun": "smile",
+        "verb": "smile / smiled",
+        "adjective": "smiling",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "beautiful",
+      "ipa": "/ˈbjuːtɪfl/",
+      "pos": "adjective",
+      "meaning_vi": "đẹp, xinh đẹp",
+      "meaning_vi_inline": "đẹp",
+      "example_en": "The sunset over the mountains was beautiful — the sky turned orange and pink.",
+      "example_vi": "Hoàng hôn trên dãy núi thật đẹp — bầu trời chuyển sang màu cam và hồng.",
+      "word_family": {
+        "noun": "beauty",
+        "verb": "beautify",
+        "adjective": "beautiful",
+        "adverb": "beautifully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "muscular",
+      "ipa": "/ˈmʌskjʊlər/",
+      "pos": "adjective",
+      "meaning_vi": "cơ bắp, vạm vỡ",
+      "meaning_vi_inline": "cơ bắp",
+      "example_en": "He is very muscular because he trains at the gym six days a week.",
+      "example_vi": "Anh ấy rất vạm vỡ vì anh tập gym sáu ngày một tuần.",
+      "word_family": {
+        "noun": "muscle",
+        "verb": null,
+        "adjective": "muscular",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "wear",
+      "ipa": "/weər/",
+      "pos": "verb",
+      "meaning_vi": "mặc, đeo, đội",
+      "meaning_vi_inline": "mặc",
+      "example_en": "She wears a white uniform to school and always keeps it very clean.",
+      "example_vi": "Cô ấy mặc đồng phục trắng đến trường và luôn giữ sạch sẽ.",
+      "word_family": {
+        "noun": "wear / outfit",
+        "verb": "wear / wore / worn",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "appearance",
+      "ipa": "/əˈpɪərəns/",
+      "pos": "noun",
+      "meaning_vi": "ngoại hình, vẻ ngoài",
+      "meaning_vi_inline": "ngoại hình",
+      "example_en": "His appearance changed a lot after he cut his hair and started going to the gym.",
+      "example_vi": "Ngoại hình của anh ấy thay đổi nhiều sau khi anh cắt tóc và bắt đầu đến phòng gym.",
+      "word_family": {
+        "noun": "appearance",
+        "verb": "appear",
+        "adjective": null,
+        "adverb": "apparently"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "similar",
+      "ipa": "/ˈsɪmɪlər/",
+      "pos": "adjective",
+      "meaning_vi": "giống nhau, tương tự",
+      "meaning_vi_inline": "tương tự",
+      "example_en": "The two sisters look very similar — they have the same eyes, nose, and smile.",
+      "example_vi": "Hai chị em trông rất giống nhau — họ có đôi mắt, chiếc mũi và nụ cười giống nhau.",
+      "word_family": {
+        "noun": "similarity",
+        "verb": null,
+        "adjective": "similar",
+        "adverb": "similarly"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "muscular" },
+        { "id": 2, "word": "overweight" },
+        { "id": 3, "word": "appearance" },
+        { "id": 4, "word": "similar" },
+        { "id": 5, "word": "thin" }
+      ],
+      "options": [
+        { "id": "A", "text": "looking almost the same as someone or something else" },
+        { "id": "B", "text": "having too much body fat; heavier than is healthy" },
+        { "id": "C", "text": "having large, strong muscles from exercise or physical work" },
+        { "id": "D", "text": "the way a person or thing looks on the outside" },
+        { "id": "E", "text": "having very little body fat; slim and light in build" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My father is very _____ — he goes to the gym every day and has very big arms.",
+          "options": ["muscular", "tall", "thin", "old"],
+          "answer": "muscular"
+        },
+        {
+          "id": 2,
+          "sentence": "She has long, dark _____ that reaches all the way down to her waist.",
+          "options": ["face", "hair", "eye", "smile"],
+          "answer": "hair"
+        },
+        {
+          "id": 3,
+          "sentence": "People say I look very _____ to my mother — we have the same nose and eyes.",
+          "options": ["old", "similar", "beautiful", "tall"],
+          "answer": "similar"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ a blue school uniform and carries a black bag every day.",
+          "options": ["looks", "smiles", "wears", "appears"],
+          "answer": "wears"
+        },
+        {
+          "id": 5,
+          "sentence": "His _____ changed a lot after he started exercising — he looks much healthier now.",
+          "options": ["smile", "hair", "eye", "appearance"],
+          "answer": "appearance"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["tall", "old", "smile", "beautiful", "face", "thin"],
+      "items": [
+        { "id": 1, "sentence": "My uncle is very _____ — he is nearly two metres high.", "answer": "tall" },
+        { "id": 2, "sentence": "She has a lovely _____ — everyone feels welcome when she grins at them.", "answer": "smile" },
+        { "id": 3, "sentence": "My grandmother is quite _____ now, but she still walks to the market every morning.", "answer": "old" },
+        { "id": 4, "sentence": "The city has many _____ old buildings that are famous all over the world.", "answer": "beautiful" },
+        { "id": 5, "sentence": "She has a kind _____ — her eyes are warm and her cheeks are round.", "answer": "face" }
+      ],
+      "note": "One word in the box is not used: thin"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was _____ dressed for the wedding — everyone admired her outfit. (BEAUTY)",
+          "base_word": "BEAUTY",
+          "answer": "beautifully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "His _____ changed after he cut his hair short and started wearing glasses. (APPEAR)",
+          "base_word": "APPEAR",
+          "answer": "appearance",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ between the two sisters was clear — they had the same eyes and smile. (SIMILAR)",
+          "base_word": "SIMILAR",
+          "answer": "similarity",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "He has been training for six months and is now quite _____ and strong. (MUSCLE)",
+          "base_word": "MUSCLE",
+          "answer": "muscular",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ kindly at the new student and offered to show him around the school. (SMILE)",
+          "base_word": "SMILE",
+          "answer": "smiled",
+          "form_used": "past simple"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My brother is very [short] — he plays basketball and can reach the highest shelf easily.",
+          "highlighted": "short",
+          "options": { "A": "young", "B": "short", "C": "tall" },
+          "answer": "C",
+          "explanation": "'Short' means not very tall. Someone who plays basketball well and can easily reach the highest shelf must be 'tall', not short."
+        },
+        {
+          "id": 2,
+          "sentence": "She has long dark [eye] that reaches all the way down to her waist.",
+          "highlighted": "eye",
+          "options": { "A": "hair", "B": "eye", "C": "face" },
+          "answer": "A",
+          "explanation": "'Eye' is the part of the face used for seeing — it does not grow or reach the waist. Something long and dark that grows and reaches the waist is 'hair'."
+        },
+        {
+          "id": 3,
+          "sentence": "After losing a lot of weight, he is now quite [young] — he was quite heavy before.",
+          "highlighted": "young",
+          "options": { "A": "young", "B": "thin", "C": "tall" },
+          "answer": "B",
+          "explanation": "'Young' describes age, not body weight. Someone who has lost a lot of weight and was previously heavy is now 'thin', not young."
+        },
+        {
+          "id": 4,
+          "sentence": "My father is [thin] and strong — he goes to the gym every day and has very big arms.",
+          "highlighted": "thin",
+          "options": { "A": "overweight", "B": "thin", "C": "muscular" },
+          "answer": "C",
+          "explanation": "'Thin' means having little body fat. Someone who goes to the gym daily and has very big arms is 'muscular' — that is the correct word for a strong, well-built body."
+        },
+        {
+          "id": 5,
+          "sentence": "People say I look very [different] to my sister — we have the same eyes, nose, and face shape.",
+          "highlighted": "different",
+          "options": { "A": "similar", "B": "beautiful", "C": "different" },
+          "answer": "A",
+          "explanation": "'Different' means not the same. If two people share the same eyes, nose, and face shape, they look 'similar' — not different. The two ideas contradict each other."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "B", "3": "D", "4": "A", "5": "E" },
+    "ex2": { "1": "muscular", "2": "hair", "3": "similar", "4": "wears", "5": "appearance" },
+    "ex3": { "1": "tall", "2": "smile", "3": "old", "4": "beautiful", "5": "face" },
+    "ex4": { "1": "beautifully", "2": "appearance", "3": "similarity", "4": "muscular", "5": "smiled" },
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "C", "5": "A" }
+  }
+}

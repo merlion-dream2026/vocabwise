@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 14,
+    "topic_id": "b1-t14",
+    "topic_title": "Countries & Travel",
+    "theme_number": 2,
+    "theme_title": "World Around Us",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-13"
+    },
+    "emoji": "✈️",
+    "topic_title_vi": "Quốc Gia & Du Lịch",
+    "theme_title_vi": "Thế Giới Xung Quanh"
+  },
+  "passage": {
+    "word_count": 113,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Last summer, my family went on a **travel** adventure. We chose a **different** **country** to **visit** — Japan. I was so excited!",
+        "text_vi": "Mùa hè năm ngoái, gia đình tôi đã có một chuyến **du lịch** phiêu lưu. Chúng tôi chọn một **quốc gia** **khác** để **thăm** — Nhật Bản. Tôi rất hào hứng!"
+      },
+      {
+        "index": 2,
+        "text_en": "We needed a **passport** to enter Japan. My mother checked the **map** before we left. At the **airport**, I saw many **tourists** from all over the world. Each person had a **ticket** to a **foreign** land.",
+        "text_vi": "Chúng tôi cần **hộ chiếu** để vào Nhật Bản. Mẹ tôi kiểm tra **bản đồ** trước khi chúng tôi đi. Ở **sân bay**, tôi nhìn thấy nhiều **khách du lịch** từ khắp nơi trên thế giới. Mỗi người đều có **vé** đến một vùng **nước ngoài**."
+      },
+      {
+        "index": 3,
+        "text_en": "Japan has a rich **culture** and a beautiful **language**. I loved the food, the temples, and the people. Our **hotel** was very clean and comfortable.",
+        "text_vi": "Nhật Bản có **văn hóa** phong phú và **ngôn ngữ** đẹp. Tôi yêu thích đồ ăn, các đền thờ và con người ở đây. **Khách sạn** của chúng tôi rất sạch sẽ và tiện nghi."
+      },
+      {
+        "index": 4,
+        "text_en": "I also loved the **flag** of Japan — a red circle on a white background. Seeing a new **country** is **thrilling**. Travel opens your eyes to the beauty of our world.",
+        "text_vi": "Tôi cũng thích **lá cờ** của Nhật Bản — một vòng tròn đỏ trên nền trắng. Khám phá một **quốc gia** mới thật **thú vị**. Du lịch mở ra tầm mắt của bạn trước vẻ đẹp của thế giới."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "country",
+      "ipa": "/ˈkʌntri/",
+      "pos": "noun",
+      "meaning_vi": "quốc gia, đất nước",
+      "meaning_vi_inline": "quốc gia",
+      "example_en": "Vietnam is a beautiful country with a long history and rich culture.",
+      "example_vi": "Việt Nam là một đất nước tươi đẹp với lịch sử lâu đời và văn hóa phong phú.",
+      "word_family": {
+        "noun": "country / countryside",
+        "verb": null,
+        "adjective": "country (attributive)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "travel",
+      "ipa": "/ˈtrævl/",
+      "pos": "verb / noun",
+      "meaning_vi": "du lịch, đi lại; chuyến đi",
+      "meaning_vi_inline": "du lịch",
+      "example_en": "I want to travel to many different countries before I turn thirty.",
+      "example_vi": "Tôi muốn đi du lịch đến nhiều quốc gia khác nhau trước khi tôi ba mươi tuổi.",
+      "word_family": {
+        "noun": "travel / traveller",
+        "verb": "travel / travelled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "visit",
+      "ipa": "/ˈvɪzɪt/",
+      "pos": "verb / noun",
+      "meaning_vi": "thăm, ghé thăm; chuyến thăm",
+      "meaning_vi_inline": "thăm",
+      "example_en": "We plan to visit the famous temple in Kyoto on our trip.",
+      "example_vi": "Chúng tôi có kế hoạch thăm ngôi đền nổi tiếng ở Kyoto trong chuyến đi.",
+      "word_family": {
+        "noun": "visit / visitor",
+        "verb": "visit / visited",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "passport",
+      "ipa": "/ˈpæspɔːrt/",
+      "pos": "noun",
+      "meaning_vi": "hộ chiếu, sổ thông hành",
+      "meaning_vi_inline": "hộ chiếu",
+      "example_en": "Make sure your passport is valid before you buy your plane ticket.",
+      "example_vi": "Hãy đảm bảo hộ chiếu của bạn còn hiệu lực trước khi mua vé máy bay.",
+      "word_family": {
+        "noun": "passport",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "language",
+      "ipa": "/ˈlæŋɡwɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "ngôn ngữ, tiếng",
+      "meaning_vi_inline": "ngôn ngữ",
+      "example_en": "Japanese is a very interesting language — the writing system is beautiful.",
+      "example_vi": "Tiếng Nhật là một ngôn ngữ rất thú vị — hệ thống chữ viết rất đẹp.",
+      "word_family": {
+        "noun": "language",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "culture",
+      "ipa": "/ˈkʌltʃər/",
+      "pos": "noun",
+      "meaning_vi": "văn hóa",
+      "meaning_vi_inline": "văn hóa",
+      "example_en": "Learning about another culture helps you understand people from different backgrounds.",
+      "example_vi": "Tìm hiểu về một nền văn hóa khác giúp bạn hiểu người từ những bối cảnh khác nhau.",
+      "word_family": {
+        "noun": "culture / cultural",
+        "verb": null,
+        "adjective": "cultural",
+        "adverb": "culturally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "map",
+      "ipa": "/mæp/",
+      "pos": "noun",
+      "meaning_vi": "bản đồ",
+      "meaning_vi_inline": "bản đồ",
+      "example_en": "She opened the map on her phone to find the nearest train station.",
+      "example_vi": "Cô ấy mở bản đồ trên điện thoại để tìm ga tàu gần nhất.",
+      "word_family": {
+        "noun": "map",
+        "verb": "map / mapped",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "airport",
+      "ipa": "/ˈeərpɔːrt/",
+      "pos": "noun",
+      "meaning_vi": "sân bay",
+      "meaning_vi_inline": "sân bay",
+      "example_en": "We arrived at the airport two hours before our flight departed.",
+      "example_vi": "Chúng tôi đến sân bay hai giờ trước khi chuyến bay khởi hành.",
+      "word_family": {
+        "noun": "airport",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "hotel",
+      "ipa": "/hoʊˈtel/",
+      "pos": "noun",
+      "meaning_vi": "khách sạn",
+      "meaning_vi_inline": "khách sạn",
+      "example_en": "Our hotel was in the city centre — very close to all the tourist attractions.",
+      "example_vi": "Khách sạn của chúng tôi ở trung tâm thành phố — rất gần các điểm tham quan.",
+      "word_family": {
+        "noun": "hotel",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "tourist",
+      "ipa": "/ˈtʊərɪst/",
+      "pos": "noun",
+      "meaning_vi": "khách du lịch",
+      "meaning_vi_inline": "khách du lịch",
+      "example_en": "Hoi An is a popular destination for tourists from all over the world.",
+      "example_vi": "Hội An là điểm đến nổi tiếng cho khách du lịch từ khắp nơi trên thế giới.",
+      "word_family": {
+        "noun": "tourist / tourism",
+        "verb": null,
+        "adjective": "touristy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "foreign",
+      "ipa": "/ˈfɒrən/",
+      "pos": "adjective",
+      "meaning_vi": "nước ngoài, ngoại quốc",
+      "meaning_vi_inline": "ngoại quốc",
+      "example_en": "She works at a school where she teaches foreign students who have just arrived.",
+      "example_vi": "Cô ấy làm việc ở một trường dạy học sinh nước ngoài vừa mới đến.",
+      "word_family": {
+        "noun": "foreigner / foreign",
+        "verb": null,
+        "adjective": "foreign",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "pos": "noun",
+      "meaning_vi": "vé (tàu, máy bay, xem phim...)",
+      "meaning_vi_inline": "vé",
+      "example_en": "He bought a return ticket — one flight to Tokyo and one flight back home.",
+      "example_vi": "Anh ấy mua vé khứ hồi — một chuyến bay đến Tokyo và một chuyến về nhà.",
+      "word_family": {
+        "noun": "ticket",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "flag",
+      "ipa": "/flæɡ/",
+      "pos": "noun",
+      "meaning_vi": "lá cờ, quốc kỳ",
+      "meaning_vi_inline": "lá cờ",
+      "example_en": "The flag of Vietnam is red with a yellow star in the centre.",
+      "example_vi": "Lá cờ của Việt Nam màu đỏ với một ngôi sao vàng ở giữa.",
+      "word_family": {
+        "noun": "flag",
+        "verb": "flag (to signal or mark)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "thrilling",
+      "ipa": "/ˈθrɪlɪŋ/",
+      "pos": "adjective",
+      "meaning_vi": "thú vị, hồi hộp, phấn khích",
+      "meaning_vi_inline": "thú vị / hồi hộp",
+      "example_en": "Seeing a new country for the first time is a truly thrilling experience.",
+      "example_vi": "Nhìn thấy một quốc gia mới lần đầu tiên là một trải nghiệm thực sự thú vị.",
+      "word_family": {
+        "noun": "thrill / thriller",
+        "verb": "thrill",
+        "adjective": "thrilling / thrilled",
+        "adverb": "thrillingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "different",
+      "ipa": "/ˈdɪfrənt/",
+      "pos": "adjective",
+      "meaning_vi": "khác, khác nhau",
+      "meaning_vi_inline": "khác",
+      "example_en": "Every country has a different culture, food, and way of life.",
+      "example_vi": "Mỗi quốc gia có văn hóa, ẩm thực và phong cách sống khác nhau.",
+      "word_family": {
+        "noun": "difference",
+        "verb": "differ",
+        "adjective": "different",
+        "adverb": "differently"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "passport"
+        },
+        {
+          "id": 2,
+          "word": "tourist"
+        },
+        {
+          "id": 3,
+          "word": "culture"
+        },
+        {
+          "id": 4,
+          "word": "thrilling"
+        },
+        {
+          "id": 5,
+          "word": "foreign"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "from or belonging to another country"
+        },
+        {
+          "id": "B",
+          "text": "very exciting and full of emotion"
+        },
+        {
+          "id": "C",
+          "text": "an official document you need to travel to another country"
+        },
+        {
+          "id": "D",
+          "text": "the customs, arts, and way of life of a particular society"
+        },
+        {
+          "id": "E",
+          "text": "a person who visits a place for pleasure, not for work"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You need a valid _____ to enter another country — make sure it has not expired.",
+          "options": [
+            "map",
+            "ticket",
+            "passport",
+            "flag"
+          ],
+          "answer": "passport"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of Japan is red and white — it is very simple but beautiful.",
+          "options": [
+            "language",
+            "culture",
+            "flag",
+            "hotel"
+          ],
+          "answer": "flag"
+        },
+        {
+          "id": 3,
+          "sentence": "We stayed at a comfortable _____ in the city centre — it had a pool and a restaurant.",
+          "options": [
+            "airport",
+            "hotel",
+            "country",
+            "ticket"
+          ],
+          "answer": "hotel"
+        },
+        {
+          "id": 4,
+          "sentence": "Every country has a _____ history and unique way of life.",
+          "options": [
+            "thrilling",
+            "foreign",
+            "different",
+            "cultural"
+          ],
+          "answer": "different"
+        },
+        {
+          "id": 5,
+          "sentence": "We checked the _____ to find the best route from the hotel to the temple.",
+          "options": [
+            "tourist",
+            "map",
+            "ticket",
+            "language"
+          ],
+          "answer": "map"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "airport",
+        "tourist",
+        "travel",
+        "visit",
+        "language",
+        "culture"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We arrived at the _____ three hours early to check in and find our gate.",
+          "answer": "airport"
+        },
+        {
+          "id": 2,
+          "sentence": "I want to _____ Japan someday — I love the food and the beautiful temples.",
+          "answer": "visit"
+        },
+        {
+          "id": 3,
+          "sentence": "Japan has a rich _____ — the arts, food, and traditions are all unique.",
+          "answer": "culture"
+        },
+        {
+          "id": 4,
+          "sentence": "She is learning the _____ of the country she will study in next year.",
+          "answer": "language"
+        },
+        {
+          "id": 5,
+          "sentence": "I love to _____ — every new place I see teaches me something new.",
+          "answer": "travel"
+        }
+      ],
+      "note": "One word in the box is not used: tourist"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The food in each country is _____ — Japanese food is very different from Vietnamese food. (DIFFER)",
+          "base_word": "DIFFER",
+          "answer": "different",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ by train across the whole country — it took four days. (TRAVEL)",
+          "base_word": "TRAVEL",
+          "answer": "travelled",
+          "form_used": "past simple"
+        },
+        {
+          "id": 3,
+          "sentence": "There are many _____ attractions near the hotel — temples, gardens, and museums. (TOUR)",
+          "base_word": "TOUR",
+          "answer": "tourist",
+          "form_used": "noun (attributive)"
+        },
+        {
+          "id": 4,
+          "sentence": "Seeing the northern lights for the first time was a _____ experience. (THRILL)",
+          "base_word": "THRILL",
+          "answer": "thrilling",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The exhibition shows how people from many different countries live _____ differently. (CULTURE)",
+          "base_word": "CULTURE",
+          "answer": "culturally",
+          "form_used": "adverb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You need a [ticket] to enter another country — it shows where you are from.",
+          "highlighted": "ticket",
+          "options": {
+            "A": "ticket",
+            "B": "passport",
+            "C": "map"
+          },
+          "answer": "B",
+          "explanation": "A 'ticket' is for transport or events. The document that proves your nationality and allows you to enter another country is a 'passport'."
+        },
+        {
+          "id": 2,
+          "sentence": "She found the museum on the [language] and walked there in ten minutes.",
+          "highlighted": "language",
+          "options": {
+            "A": "map",
+            "B": "language",
+            "C": "ticket"
+          },
+          "answer": "C",
+          "explanation": "A 'language' is a system of communication, not a navigation tool. You find places on a 'map'."
+        },
+        {
+          "id": 3,
+          "sentence": "The journey across the ocean was [boring] — we saw amazing sea life and beautiful sunsets.",
+          "highlighted": "boring",
+          "options": {
+            "A": "boring",
+            "B": "different",
+            "C": "thrilling"
+          },
+          "answer": "C",
+          "explanation": "The sentence describes amazing sea life and sunsets — this is exciting, not boring. 'Thrilling' fits the meaning."
+        },
+        {
+          "id": 4,
+          "sentence": "We checked into our [airport] — it had a swimming pool and a large breakfast buffet.",
+          "highlighted": "airport",
+          "options": {
+            "A": "hotel",
+            "B": "airport",
+            "C": "country"
+          },
+          "answer": "B",
+          "explanation": "An 'airport' is where you board a plane. The place with a swimming pool and breakfast buffet where guests stay is a 'hotel'."
+        },
+        {
+          "id": 5,
+          "sentence": "Many [tourisms] visit this city every summer because of its beautiful old buildings.",
+          "highlighted": "tourisms",
+          "options": {
+            "A": "tourisms",
+            "B": "tourist",
+            "C": "tourists"
+          },
+          "answer": "C",
+          "explanation": "'Tourism' is an uncountable noun for the industry. People who visit are 'tourists' (plural, countable)."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "D",
+      "4": "B",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "passport",
+      "2": "flag",
+      "3": "hotel",
+      "4": "different",
+      "5": "map"
+    },
+    "ex3": {
+      "1": "airport",
+      "2": "visit",
+      "3": "culture",
+      "4": "language",
+      "5": "travel"
+    },
+    "ex4": {
+      "1": "different",
+      "2": "travelled",
+      "3": "tourist",
+      "4": "thrilling",
+      "5": "culturally"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 4,
+    "topic_id": "b1-t04",
+    "topic_title": "Shopping",
+    "theme_number": 1,
+    "theme_title": "Daily Life",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    },
+    "emoji": "🛒",
+    "topic_title_vi": "Mua Sắm",
+    "theme_title_vi": "Đời Sống Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 101,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Last Saturday, I went to a **clothes** **store** with my mother. The shop **sells** many types of **clothes** for all ages. There were many things to **choose** from.",
+        "text_vi": "Thứ Bảy tuần trước, tôi đi đến một **cửa hàng** **quần áo** cùng mẹ. Cửa hàng **bán** nhiều loại **quần áo** cho mọi lứa tuổi. Có rất nhiều thứ để **chọn**."
+      },
+      {
+        "index": 2,
+        "text_en": "I found a shirt in my **size**. The **price** was not too **expensive** — it was quite **cheap**. My mother checked the **cost** carefully before agreeing.",
+        "text_vi": "Tôi tìm được một chiếc áo đúng **cỡ** của mình. **Giá** không quá **đắt** — nó khá **rẻ**. Mẹ tôi kiểm tra **chi phí** cẩn thận trước khi đồng ý."
+      },
+      {
+        "index": 3,
+        "text_en": "My mother **pays** with **money** from her **bag**. She is a careful **customer** — she always compares prices before she **purchases** anything.",
+        "text_vi": "Mẹ tôi **trả tiền** bằng **tiền** trong **túi** xách. Bà là một **khách hàng** cẩn thận — bà luôn so sánh giá trước khi **mua** bất cứ thứ gì."
+      },
+      {
+        "index": 4,
+        "text_en": "After we **paid**, the cashier gave us a **receipt**. We left the **store** very happy. Shopping is fun when you find good **clothes** at a fair **price**.",
+        "text_vi": "Sau khi **trả tiền**, nhân viên thu ngân đưa cho chúng tôi một **biên lai**. Chúng tôi rời **cửa hàng** rất vui. Mua sắm thật vui khi tìm được **quần áo** đẹp với **giá** hợp lý."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "purchase",
+      "ipa": "/ˈpɜːtʃəs/",
+      "pos": "verb / noun",
+      "meaning_vi": "mua; thứ được mua",
+      "meaning_vi_inline": "mua",
+      "example_en": "She purchased a new jacket at the end-of-year sale.",
+      "example_vi": "Cô ấy đã mua một chiếc áo khoác mới vào đợt sale cuối năm.",
+      "word_family": {
+        "noun": "purchase / purchaser",
+        "verb": "purchase / purchased",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "price",
+      "ipa": "/praɪs/",
+      "pos": "noun",
+      "meaning_vi": "giá, giá cả",
+      "meaning_vi_inline": "giá",
+      "example_en": "The price of the shoes was too high, so I did not buy them.",
+      "example_vi": "Giá của đôi giày quá cao nên tôi không mua.",
+      "word_family": {
+        "noun": "price / pricing",
+        "verb": "price",
+        "adjective": "priceless / pricey",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "cheap",
+      "ipa": "/tʃiːp/",
+      "pos": "adjective",
+      "meaning_vi": "rẻ, giá thấp",
+      "meaning_vi_inline": "rẻ",
+      "example_en": "This bag is very cheap — it only costs fifty thousand dong.",
+      "example_vi": "Cái túi này rất rẻ — nó chỉ có năm mươi nghìn đồng.",
+      "word_family": {
+        "noun": null,
+        "verb": "cheapen",
+        "adjective": "cheap",
+        "adverb": "cheaply"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "pos": "adjective",
+      "meaning_vi": "đắt tiền, tốn kém",
+      "meaning_vi_inline": "đắt",
+      "example_en": "That watch is very expensive — I cannot afford it.",
+      "example_vi": "Chiếc đồng hồ đó rất đắt — tôi không đủ tiền mua.",
+      "word_family": {
+        "noun": "expense / expenses",
+        "verb": null,
+        "adjective": "expensive / inexpensive",
+        "adverb": "expensively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "pay",
+      "ipa": "/peɪ/",
+      "pos": "verb",
+      "meaning_vi": "trả tiền, thanh toán",
+      "meaning_vi_inline": "trả tiền",
+      "example_en": "She paid for her groceries with cash.",
+      "example_vi": "Cô ấy thanh toán tiền mua hàng bằng tiền mặt.",
+      "word_family": {
+        "noun": "pay / payment",
+        "verb": "pay / paid / paid",
+        "adjective": "paid / unpaid",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "money",
+      "ipa": "/ˈmʌni/",
+      "pos": "noun",
+      "meaning_vi": "tiền",
+      "meaning_vi_inline": "tiền",
+      "example_en": "I save my pocket money to buy books and stationery.",
+      "example_vi": "Tôi tiết kiệm tiền tiêu vặt để mua sách và đồ dùng học tập.",
+      "word_family": {
+        "noun": "money",
+        "verb": null,
+        "adjective": "monetary",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "bag",
+      "ipa": "/bæɡ/",
+      "pos": "noun",
+      "meaning_vi": "túi, ba-lô, túi xách",
+      "meaning_vi_inline": "túi",
+      "example_en": "She put her shopping into a large bag.",
+      "example_vi": "Cô ấy cho đồ mua về vào một túi lớn.",
+      "word_family": {
+        "noun": "bag / baggage",
+        "verb": "bag",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "clothes",
+      "ipa": "/kloʊðz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "quần áo",
+      "meaning_vi_inline": "quần áo",
+      "example_en": "She buys new clothes at the start of each school year.",
+      "example_vi": "Cô ấy mua quần áo mới vào đầu mỗi năm học.",
+      "word_family": {
+        "noun": "clothes / clothing / cloth",
+        "verb": "clothe",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "cloth",
+        "explanation_vi": "'Clothes' (quần áo, luôn dùng số nhiều) khác với 'cloth' (vải) — đừng nhầm lẫn."
+      }
+    },
+    {
+      "id": 9,
+      "word": "size",
+      "ipa": "/saɪz/",
+      "pos": "noun",
+      "meaning_vi": "kích cỡ, size",
+      "meaning_vi_inline": "cỡ / size",
+      "example_en": "Do you have this shirt in a smaller size?",
+      "example_vi": "Bạn có chiếc áo này ở cỡ nhỏ hơn không?",
+      "word_family": {
+        "noun": "size",
+        "verb": "size up",
+        "adjective": "sizeable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "choose",
+      "ipa": "/tʃuːz/",
+      "pos": "verb",
+      "meaning_vi": "chọn, lựa chọn",
+      "meaning_vi_inline": "chọn",
+      "example_en": "Take your time to choose the right colour and size.",
+      "example_vi": "Hãy từ từ chọn màu sắc và kích cỡ phù hợp.",
+      "word_family": {
+        "noun": "choice / chooser",
+        "verb": "choose / chose / chosen",
+        "adjective": "choosy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "sell",
+      "ipa": "/sel/",
+      "pos": "verb",
+      "meaning_vi": "bán",
+      "meaning_vi_inline": "bán",
+      "example_en": "This shop sells clothes, shoes, and bags for all ages.",
+      "example_vi": "Cửa hàng này bán quần áo, giày và túi xách cho mọi lứa tuổi.",
+      "word_family": {
+        "noun": "seller / sale",
+        "verb": "sell / sold / sold",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "sale",
+        "explanation_vi": "'Sell' (bán, động từ) và 'sale' (đợt giảm giá / sự bán hàng, danh từ) khác nhau — đừng nhầm lẫn."
+      }
+    },
+    {
+      "id": 12,
+      "word": "customer",
+      "ipa": "/ˈkʌstəmər/",
+      "pos": "noun",
+      "meaning_vi": "khách hàng",
+      "meaning_vi_inline": "khách hàng",
+      "example_en": "The shop assistant helped each customer find the right size.",
+      "example_vi": "Nhân viên cửa hàng đã giúp từng khách hàng tìm đúng cỡ.",
+      "word_family": {
+        "noun": "customer / custom",
+        "verb": "customise",
+        "adjective": "customary",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "costume",
+        "explanation_vi": "'Customer' (khách hàng) và 'costume' (trang phục, hóa trang) — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+      }
+    },
+    {
+      "id": 13,
+      "word": "store",
+      "ipa": "/stɔːr/",
+      "pos": "noun",
+      "meaning_vi": "cửa hàng; kho",
+      "meaning_vi_inline": "cửa hàng",
+      "example_en": "There is a big clothes store near the train station.",
+      "example_vi": "Có một cửa hàng quần áo lớn gần nhà ga.",
+      "word_family": {
+        "noun": "store / storage",
+        "verb": "store",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "cost",
+      "ipa": "/kɒst/",
+      "pos": "noun / verb",
+      "meaning_vi": "chi phí; có giá là",
+      "meaning_vi_inline": "chi phí / giá",
+      "example_en": "The total cost of the clothes was two hundred thousand dong.",
+      "example_vi": "Tổng chi phí quần áo là hai trăm nghìn đồng.",
+      "word_family": {
+        "noun": "cost / costs",
+        "verb": "cost / cost / cost",
+        "adjective": "costly",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "coast",
+        "explanation_vi": "'Cost' (chi phí, giá) và 'coast' (bờ biển) — phát âm gần giống nhau nhưng nghĩa hoàn toàn khác."
+      }
+    },
+    {
+      "id": 15,
+      "word": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "pos": "noun",
+      "meaning_vi": "biên lai, hóa đơn",
+      "meaning_vi_inline": "biên lai",
+      "example_en": "Keep your receipt in case you want to return the item.",
+      "example_vi": "Giữ biên lai phòng khi bạn muốn trả lại hàng.",
+      "word_family": {
+        "noun": "receipt",
+        "verb": "receive",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "recipe",
+        "explanation_vi": "'Receipt' (biên lai mua hàng) và 'recipe' (công thức nấu ăn) — phát âm và nghĩa đều khác nhau."
+      }
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        {
+          "id": 1,
+          "word": "purchase"
+        },
+        {
+          "id": 2,
+          "word": "receipt"
+        },
+        {
+          "id": 3,
+          "word": "customer"
+        },
+        {
+          "id": 4,
+          "word": "expensive"
+        },
+        {
+          "id": 5,
+          "word": "choose"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "to select one thing from a number of options"
+        },
+        {
+          "id": "B",
+          "text": "a person who buys things in a shop"
+        },
+        {
+          "id": "C",
+          "text": "to buy something; something that you buy"
+        },
+        {
+          "id": "D",
+          "text": "costing a lot of money"
+        },
+        {
+          "id": "E",
+          "text": "a piece of paper that shows you have paid for something"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The shop _____ clothes, shoes, and bags for every age group.",
+          "options": [
+            "buys",
+            "pays",
+            "sells",
+            "costs"
+          ],
+          "answer": "sells"
+        },
+        {
+          "id": 2,
+          "sentence": "I need a shirt in a smaller _____ — this one is too big for me.",
+          "options": [
+            "price",
+            "size",
+            "cost",
+            "receipt"
+          ],
+          "answer": "size"
+        },
+        {
+          "id": 3,
+          "sentence": "This jacket is very _____ — it costs two million dong.",
+          "options": [
+            "cheap",
+            "fresh",
+            "expensive",
+            "busy"
+          ],
+          "answer": "expensive"
+        },
+        {
+          "id": 4,
+          "sentence": "She is a very careful _____; she always checks the price before buying.",
+          "options": [
+            "seller",
+            "store",
+            "bag",
+            "customer"
+          ],
+          "answer": "customer"
+        },
+        {
+          "id": 5,
+          "sentence": "After paying, the cashier gave me a _____ to keep.",
+          "options": [
+            "receipt",
+            "money",
+            "bag",
+            "clothes"
+          ],
+          "answer": "receipt"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "receipt",
+        "cheap",
+        "store",
+        "bag",
+        "money",
+        "purchase"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I keep my _____ in my pocket so I don't lose it after buying something.",
+          "answer": "receipt"
+        },
+        {
+          "id": 2,
+          "sentence": "This shirt is very _____ — it only costs sixty thousand dong.",
+          "answer": "cheap"
+        },
+        {
+          "id": 3,
+          "sentence": "She put all her shopping into a large paper _____.",
+          "answer": "bag"
+        },
+        {
+          "id": 4,
+          "sentence": "There is a new clothes _____ near our school that opened last week.",
+          "answer": "store"
+        },
+        {
+          "id": 5,
+          "sentence": "She took out her _____ and paid for the jacket in cash.",
+          "answer": "money"
+        }
+      ],
+      "note": "One word in the box is not used: purchase"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of the new shoes were on sale — fifty percent off! (PRICE)",
+          "base_word": "PRICE",
+          "answer": "prices",
+          "form_used": "noun (plural)"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ the blue shirt because it matched her trousers perfectly. (CHOOSE)",
+          "base_word": "CHOOSE",
+          "answer": "chose",
+          "form_used": "verb (past simple)"
+        },
+        {
+          "id": 3,
+          "sentence": "He is a very wise _____ — he always compares prices before buying. (CUSTOM)",
+          "base_word": "CUSTOM",
+          "answer": "customer",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "She kept the _____ safely in her bag in case she needed to return the item. (RECEIVE)",
+          "base_word": "RECEIVE",
+          "answer": "receipt",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "That coat is quite _____ — it costs more than two million dong. (EXPENSE)",
+          "base_word": "EXPENSE",
+          "answer": "expensive",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She [payed] for the jacket with cash at the store.",
+          "highlighted": "payed",
+          "options": {
+            "A": "payed",
+            "B": "pays",
+            "C": "paid"
+          },
+          "answer": "C",
+          "explanation": "'Pay' is an irregular verb: pay → paid (past simple). 'Payed' does not exist in English."
+        },
+        {
+          "id": 2,
+          "sentence": "The [coast] of the new shoes was very high — I could not buy them.",
+          "highlighted": "coast",
+          "options": {
+            "A": "cost",
+            "B": "coast",
+            "C": "costly"
+          },
+          "answer": "B",
+          "explanation": "'Cost' (noun, chi phí/giá) is the right word. 'Coast' means bờ biển — a completely different word."
+        },
+        {
+          "id": 3,
+          "sentence": "She is a good [costumer] — she always checks the price before buying.",
+          "highlighted": "costumer",
+          "options": {
+            "A": "costumer",
+            "B": "costume",
+            "C": "customer"
+          },
+          "answer": "C",
+          "explanation": "'Customer' (khách hàng) is the correct word. 'Costumer' refers to someone who makes theatrical costumes."
+        },
+        {
+          "id": 4,
+          "sentence": "The price of the jacket [were] too expensive for my budget.",
+          "highlighted": "were",
+          "options": {
+            "A": "was",
+            "B": "were",
+            "C": "is"
+          },
+          "answer": "B",
+          "explanation": "'The price' is a singular subject, so use 'was' (past), not 'were' (used with plural subjects)."
+        },
+        {
+          "id": 5,
+          "sentence": "She put her clothes into a paper [bag's] and left the store happily.",
+          "highlighted": "bag's",
+          "options": {
+            "A": "bag's",
+            "B": "bagging",
+            "C": "bag"
+          },
+          "answer": "C",
+          "explanation": "No apostrophe is needed here. 'A paper bag' is simply a noun — no possession is expressed."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "B",
+      "4": "D",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "sells",
+      "2": "size",
+      "3": "expensive",
+      "4": "customer",
+      "5": "receipt"
+    },
+    "ex3": {
+      "1": "receipt",
+      "2": "cheap",
+      "3": "bag",
+      "4": "store",
+      "5": "money"
+    },
+    "ex4": {
+      "1": "prices",
+      "2": "chose",
+      "3": "customer",
+      "4": "receipt",
+      "5": "expensive"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}
