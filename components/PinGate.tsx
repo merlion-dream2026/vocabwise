@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import { getAvatarSrc } from '@/lib/avatars'
 
 const KEYS = ['1','2','3','4','5','6','7','8','9','','0','⌫']
 
@@ -55,7 +56,7 @@ export default function PinGate({ childId, name, emoji, color, onSuccess }: Prop
   return (
     <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4">
       <div className="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-xs text-center">
-        <div className="text-5xl mb-2">{emoji}</div>
+        <img src={getAvatarSrc(emoji)} className="w-16 h-16 rounded-full object-cover mx-auto mb-2" alt="" />
         <h2 className="text-2xl font-black text-gray-800">{name}</h2>
         <p className="text-gray-400 font-semibold text-sm mt-1 mb-6">Nhập PIN 4 chữ số</p>
 
