@@ -193,20 +193,16 @@ export default function LessonPage() {
                 const col = BUCKET_COLORS[i] ?? BUCKET_COLORS[0]
                 return (
                   <div key={bucket.label} className={`${col.bg} px-4 py-3.5`}>
-                    <div className="flex items-start gap-3">
-                      <span className={`font-black text-2xl font-mono ${col.text} w-14 text-center flex-shrink-0 mt-0.5 whitespace-nowrap`}>{bucket.label}</span>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
-                        <p className={`text-xs font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>
-                        <div className="flex flex-wrap gap-1.5">
-                          {bucket.words.slice(0, 5).map(w => (
-                            <button key={w} onClick={() => speak(w, { rate: 0.75 })}
-                              className={`text-xs font-bold px-2 py-0.5 rounded-lg border ${col.chip} active:scale-90 transition-transform`}>
-                              {w} 🔊
-                            </button>
-                          ))}
-                        </div>
-                      </div>
+                    <p className={`font-black text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
+                    <p className="text-xs text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
+                    <p className={`text-xs font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {bucket.words.slice(0, 5).map(w => (
+                        <button key={w} onClick={() => speak(w, { rate: 0.75 })}
+                          className={`text-xs font-bold px-2 py-0.5 rounded-lg border ${col.chip} active:scale-90 transition-transform`}>
+                          {w} 🔊
+                        </button>
+                      ))}
                     </div>
                   </div>
                 )
