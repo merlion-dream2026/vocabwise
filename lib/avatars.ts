@@ -29,6 +29,8 @@ export const AVATARS = [
   { id: 'pig',        src: '/avatars/pig.png' },
   { id: 'kuromi-1',   src: '/avatars/kuromi-1.png' },
   { id: 'kuromi-2',   src: '/avatars/kuromi-2.png' },
+  { id: 'jigglypuff', src: '/avatars/jigglypuff.png' },
+  { id: 'pokeballs',  src: '/avatars/pokeballs.png' },
 ]
 
 export function getAvatarSrc(id: string): string {
