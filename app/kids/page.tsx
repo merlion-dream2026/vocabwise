@@ -289,7 +289,7 @@ export default function HomePage() {
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className={`w-[72px] h-[72px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
+                  <div className={`w-[86px] h-[86px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
                     <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover rounded-2xl" alt="" />
                   </div>
                   <div className="flex-1 min-w-0">

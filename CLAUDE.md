@@ -31,12 +31,57 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 - Data: `/data/words.json` — key là level slug, mỗi level có `topics[]`
 
 ## VocabWise (Academic) — Curriculum
-- **3 books:** Book 1 (A1-A2, 60 topics) · Book 2 (B1-B2, 60 topics) · Book 3 (C1-C2, 30 topics)
-- **150 topics tổng, ~2.250 từ**
+- **3 books:** Book 1 (A1-A2, 60 topics) · Book 2 (B1-B2, 60 topics) · Book 3 (C1-C2, 60 topics)
+- **180 topics tổng**
 - Content pipeline: JSON files `/data/vocabwise/bookN/` → `scripts/vw-seed.js` → Supabase
 - Exercise system: 5 bài × 5 câu = 25 câu/topic (8 loại bài tập E1–E8)
 - DB tables: `vw_books`, `vw_themes`, `vw_topics`, `vw_passages`, `vw_glossary`, `vw_exercises`
 - Progress: `vw_user_topic_progress`, `vw_user_word_progress` — dùng `family_id TEXT` (không phải Supabase UUID)
+
+## Word Plans (authoritative source for topic/vocab)
+- **Vị trí:** `/data/word-plans/`
+- **Files:** `vocabwise-book1-wordplan.csv` · `vocabwise-book2-wordplan.csv` · `vocabwise-book3-wordplan.csv`
+- **Format CSV:** `book, theme_no, theme_title, topic_no, topic_id, topic_title, w1…w15` (Book 3: `w1…w10, c1…c5`)
+- **Book 3** có 10 vocab words + 5 collocations/phrases per topic (format khác Book 1 & 2)
+- **Luôn dùng word plan CSV làm nguồn duy nhất** khi tạo JSON content — không tự đặt topic titles hay vocabulary
+
+| Book | Themes | Topics/theme | Total | Words/topic |
+|---|---|---|---|---|
+| Book 1 (A1-A2) | 6 | 10 | 60 | 15 |
+| Book 2 (B1-B2) | 6 | 10 | 60 | 15 |
+| Book 3 (C1-C2) | 6 | 10 | 60 | 10 vocab + 5 collocations |
+
+### Book 1 — Theme Plan
+| Theme | Title | IDs |
+|---|---|---|
+| 1 | Daily Life | t01–t10 ✅ |
+| 2 | World Around Us | t11–t20 ✅ |
+| 3 | People & Relationships | t21–t30 ✅ |
+| 4 | Learning & School | t31–t40 |
+| 5 | Actions & Events | t41–t50 |
+| 6 | Everyday Communication | t51–t60 |
+
+### Book 2 — Theme Plan
+| Theme | Title | IDs |
+|---|---|---|
+| 1 | Mind & Society | t01–t10 ✅ |
+| 2 | Environment & Science | t11–t20 ✅ |
+| 3 | Business & Money | t21–t30 |
+| 4 | Arts Culture & Society | t31–t40 |
+| 5 | People & Issues | t41–t50 |
+| 6 | Media & Ideas | t51–t60 |
+
+### Book 3 — Theme Plan
+| Theme | Title | IDs |
+|---|---|---|
+| 1 | Self & Society | t01–t10 |
+| 2 | Health & the Human Body | t11–t20 |
+| 3 | The Modern World | t21–t30 |
+| 4 | Knowledge & Ideas | t31–t40 |
+| 5 | Language & Communication | t41–t50 |
+| 6 | Ethics & the Future | t51–t60 |
+
+> ⚠️ Book 3 JSON files hiện có (b3-t01 → b3-t05) dựa trên plan cũ, cần redo theo CSV mới.
 
 ## Key Routes
 | Route | Mô tả |

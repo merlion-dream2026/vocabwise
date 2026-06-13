@@ -168,9 +168,9 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
               <div className="grid grid-cols-2 gap-2">
                 {(['pink', 'blue'] as const).map(t => (
                   <button key={t} type="button" onClick={() => setTheme(t)}
-                    className={`border-2 rounded-2xl p-3 text-center transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
-                    <div className="text-2xl mb-1">{t === 'pink' ? '🩷' : '💙'}</div>
-                    <div className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</div>
+                    className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
+                    <span className="text-3xl leading-none">{t === 'pink' ? '🩷' : '💙'}</span>
+                    <span className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</span>
                   </button>
                 ))}
               </div>
@@ -179,7 +179,7 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
             {/* Avatar */}
             <div>
               <p className="text-xs font-bold text-gray-500 mb-2">Avatar</p>
-              <div className="grid grid-cols-7 gap-1.5">
+              <div className="grid grid-cols-6 gap-1.5">
                 {AVATARS.map(a => (
                   <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
                     className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
@@ -252,16 +252,16 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
             <div className="grid grid-cols-2 gap-2">
               {(['pink', 'blue'] as const).map(t => (
                 <button key={t} type="button" onClick={() => setTheme(t)}
-                  className={`border-2 rounded-2xl p-3 text-center transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
-                  <div className="text-2xl mb-1">{t === 'pink' ? '🩷' : '💙'}</div>
-                  <div className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</div>
+                  className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
+                  <span className="text-3xl leading-none">{t === 'pink' ? '🩷' : '💙'}</span>
+                  <span className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</span>
                 </button>
               ))}
             </div>
           </div>
 
           {/* Avatar */}
-          <div className="grid grid-cols-7 gap-1.5">
+          <div className="grid grid-cols-6 gap-1.5">
             {AVATARS.map(a => (
               <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
                 className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
@@ -552,7 +552,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
               className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                 isActive ? `${c.bar} text-white shadow-md` : 'bg-white text-gray-500 border border-gray-200 hover:border-gray-300'
               }`}>
-              <img src={getAvatarSrc(child.emoji)} className="w-5 h-5 rounded-full object-cover flex-shrink-0" alt="" />
+              <img src={getAvatarSrc(child.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
               <span>{child.name}</span>
             </button>
           )
@@ -1267,7 +1267,7 @@ function SettingsTab({ children, session, onChildrenRefresh }: { children: Child
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                     isActive ? `${c.bar} text-white shadow-sm` : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}>
-                  <img src={getAvatarSrc(child.emoji)} className="w-5 h-5 rounded-full object-cover flex-shrink-0" alt="" />
+                  <img src={getAvatarSrc(child.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
                   <span>{child.name}</span>
                 </button>
               )

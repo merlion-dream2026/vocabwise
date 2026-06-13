@@ -59,7 +59,7 @@ export default function PinGate({ childId, name, emoji, color, onSuccess, onClos
         {onClose && (
           <button onClick={onClose} className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 text-xl leading-none">×</button>
         )}
-        <img src={getAvatarSrc(emoji)} className="w-16 h-16 rounded-full object-cover mx-auto mb-2" alt="" />
+        <img src={getAvatarSrc(emoji)} className="w-[77px] h-[77px] rounded-full object-cover mx-auto mb-2" alt="" />
         <h2 className="text-2xl font-black text-gray-800">{name}</h2>
         <p className="text-gray-400 font-semibold text-sm mt-1 mb-6">Nhập PIN 4 chữ số</p>
 
