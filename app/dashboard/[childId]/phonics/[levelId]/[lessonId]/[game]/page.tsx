@@ -11,6 +11,7 @@ const ListenPickPhonicsGame = dynamic(() => import('@/components/ListenPickPhoni
 const PhonicsSpeak          = dynamic(() => import('@/components/PhonicsSpeak'),          { ssr: false })
 const SortWordsGame         = dynamic(() => import('@/components/SortWordsGame'),         { ssr: false })
 const SortRuleGame          = dynamic(() => import('@/components/SortRuleGame'),          { ssr: false })
+const SentenceRhythmGame    = dynamic(() => import('@/components/SentenceRhythmGame'),    { ssr: false })
 
 type Level  = typeof phonicsLevels.levels[number]
 type Lesson = Level['lessons'][number]
@@ -65,7 +66,8 @@ export default function GamePage() {
     // Rule lesson — only SortRuleGame for now
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const ruleLesson = lesson as any
-    if (game === 'sort-rule') return <SortRuleGame lesson={ruleLesson} childId={childId} backUrl={backUrl} />
+    if (game === 'sort-rule') return <SortRuleGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
+    if (game === 'rhythm')    return <SentenceRhythmGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
     router.push(backUrl); return null
   }
 

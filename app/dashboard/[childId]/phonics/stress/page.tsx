@@ -204,7 +204,7 @@ export default function WordStressPage() {
             <p className="text-center text-gray-600 font-bold text-sm mb-3">
               {phase === 'choosing' ? 'Âm tiết nào được nhấn mạnh?' : (selected === q.stress ? '✅ Đúng rồi!' : `❌ Đúng là: "${q.syllables[q.stress].toUpperCase()}"`)}
             </p>
-            <div className="flex justify-center gap-3 flex-wrap">
+            <div className="flex justify-center gap-2 flex-wrap">
               {q.syllables.map((syl, i) => {
                 const isCorrect = i === q.stress
                 const isSelected = selected === i
@@ -212,9 +212,14 @@ export default function WordStressPage() {
                 let cls = 'bg-white border-2 border-teal-300 text-gray-700 active:scale-90'
                 if (showResult && isCorrect)            cls = 'bg-green-400 border-2 border-green-500 text-white'
                 if (showResult && isSelected && !isCorrect) cls = 'bg-red-300 border-2 border-red-400 text-white'
+                const sizeClass = q.syllables.length >= 5
+                  ? 'px-3 py-3 text-lg min-w-[52px]'
+                  : q.syllables.length === 4
+                    ? 'px-4 py-3.5 text-xl min-w-[64px]'
+                    : 'px-6 py-4 text-2xl min-w-[72px]'
                 return (
                   <button key={i} onClick={() => handleChoose(i)} disabled={phase === 'result'}
-                    className={`${cls} rounded-2xl px-6 py-4 font-black text-2xl transition-all min-w-[72px]`}>
+                    className={`${cls} rounded-2xl ${sizeClass} font-black transition-all`}>
                     {syl}
                     {showResult && isCorrect && <div className="text-xs font-bold mt-1">nhấn đây</div>}
                   </button>

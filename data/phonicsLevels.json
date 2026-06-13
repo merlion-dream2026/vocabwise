@@ -576,6 +576,38 @@
                 "teacher",
                 "together"
               ]
+            },
+            {
+              "en": "The government supports education and development.",
+              "highlight": [
+                "government",
+                "education",
+                "development"
+              ]
+            },
+            {
+              "en": "A professor teaches a combination of subjects.",
+              "highlight": [
+                "professor",
+                "combination"
+              ]
+            },
+            {
+              "en": "The problem with pollution is a matter of concern.",
+              "highlight": [
+                "problem",
+                "pollution",
+                "matter",
+                "concern"
+              ]
+            },
+            {
+              "en": "Humans depend on the environment for survival.",
+              "highlight": [
+                "depend",
+                "environment",
+                "survival"
+              ]
             }
           ]
         }
@@ -2879,6 +2911,57 @@
                 "For instance,", "For example,", "As a result,",
                 "Consequently,", "Therefore,", "In terms of"
               ]
+            }
+          ]
+        },
+        {
+          "id": "sentence-stress-rhythm",
+          "type": "rhythm",
+          "title": "Sentence Rhythm",
+          "subtitle": "Từ nội dung vs từ chức năng",
+          "emoji": "🎶",
+          "games": ["rhythm"],
+          "masteryGames": ["rhythm"],
+          "sentences": [
+            {
+              "en": "Education is extremely important for career development.",
+              "stressed": ["Education", "extremely", "important", "career", "development"],
+              "vi": "Giáo dục cực kỳ quan trọng cho sự phát triển nghề nghiệp."
+            },
+            {
+              "en": "The government should invest more money in public transport.",
+              "stressed": ["government", "invest", "money", "public", "transport"],
+              "vi": "Chính phủ nên đầu tư thêm tiền vào giao thông công cộng."
+            },
+            {
+              "en": "Environmental problems are becoming increasingly serious worldwide.",
+              "stressed": ["Environmental", "problems", "becoming", "increasingly", "serious", "worldwide"],
+              "vi": "Các vấn đề môi trường đang ngày càng trở nên nghiêm trọng trên toàn thế giới."
+            },
+            {
+              "en": "Technology has transformed the way people communicate and learn.",
+              "stressed": ["Technology", "transformed", "way", "people", "communicate", "learn"],
+              "vi": "Công nghệ đã thay đổi cách mọi người giao tiếp và học tập."
+            },
+            {
+              "en": "I strongly believe that education is the key to success.",
+              "stressed": ["strongly", "believe", "education", "key", "success"],
+              "vi": "Tôi tin chắc rằng giáo dục là chìa khóa dẫn đến thành công."
+            },
+            {
+              "en": "Young people today face many challenges in modern society.",
+              "stressed": ["Young", "people", "face", "challenges", "modern", "society"],
+              "vi": "Giới trẻ ngày nay đối mặt với nhiều thách thức trong xã hội hiện đại."
+            },
+            {
+              "en": "Research shows that regular exercise improves both physical and mental health.",
+              "stressed": ["Research", "shows", "regular", "exercise", "improves", "physical", "mental", "health"],
+              "vi": "Nghiên cứu cho thấy tập thể dục đều đặn cải thiện cả sức khỏe thể chất lẫn tâm thần."
+            },
+            {
+              "en": "The economy depends on a combination of political and social factors.",
+              "stressed": ["economy", "depends", "combination", "political", "social", "factors"],
+              "vi": "Nền kinh tế phụ thuộc vào sự kết hợp của các yếu tố chính trị và xã hội."
             }
           ]
         }

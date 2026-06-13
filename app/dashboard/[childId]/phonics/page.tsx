@@ -79,7 +79,7 @@ export default function PhonicsHub() {
           <span className="text-2xl">🔤</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">Luyện Phát Âm</h1>
-            <p className="text-white/70 text-xs">IPA · Minimal Pairs · Quy tắc phát âm</p>
+            <p className="text-white/70 text-xs">IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu</p>
           </div>
         </div>
       </div>

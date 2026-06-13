@@ -24,7 +24,14 @@ function buildQuestions(lesson: Lesson): Question[] {
   return all.sort(() => Math.random() - 0.5).slice(0, 15)
 }
 
-export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Lesson; childId: string; backUrl: string }) {
+export default function SortRuleGame({
+  lesson, childId, backUrl,
+  gradient = 'from-violet-500 to-purple-600',
+  btnColor = 'bg-violet-500',
+}: {
+  lesson: Lesson; childId: string; backUrl: string
+  gradient?: string; btnColor?: string
+}) {
   const router = useRouter()
   const [questions] = useState<Question[]>(() => buildQuestions(lesson))
   const [idx, setIdx]     = useState(0)
@@ -72,11 +79,11 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-12 pb-8 text-white">
+        <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-8 text-white`}>
           <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← {lesson.title}</button>
-          <h1 className="text-2xl font-black">📏 Phân loại đuôi -s</h1>
+          <h1 className="text-2xl font-black">{lesson.emoji} {lesson.title}</h1>
         </div>
-        <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 flex flex-col items-center justify-center px-4 py-8">
+        <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{final === total ? '🏆' : final >= total * 0.7 ? '⭐' : '💪'}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-1">{final}/{total}</h2>
           <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
@@ -84,7 +91,7 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
             <p className="text-sm text-gray-500 font-semibold mb-6 text-center">Cần ≥70% để đánh dấu hoàn thành. Thử lại nhé!</p>
           )}
           <div className="w-full space-y-3">
-            <button onClick={restart} className="w-full bg-violet-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
+            <button onClick={restart} className={`w-full ${btnColor} text-white font-black text-xl py-4 rounded-2xl shadow-lg`}>🔄 Chơi lại</button>
             <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Xem bài học</button>
           </div>
         </div>
@@ -95,10 +102,10 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-12 pb-4 text-white">
+      <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-4 text-white`}>
         <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← {lesson.title}</button>
         <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">📏 Phân loại đuôi -s</h1>
+          <h1 className="text-xl font-black">{lesson.emoji} {lesson.title}</h1>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>
         </div>
         <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
@@ -107,7 +114,7 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
         </div>
       </div>
 
-      <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 flex flex-col items-center justify-center px-4 gap-5">
+      <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 gap-5">
         {/* Score dots */}
         <div className="flex gap-1.5 flex-wrap justify-center">
           {Array.from({ length: questions.length }).map((_, i) => (
@@ -117,25 +124,25 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
 
         {/* Word card */}
         <div className="bg-white rounded-3xl px-6 py-5 shadow-md w-full text-center">
-          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Đuôi -s của từ này phát âm là?</p>
+          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Phân loại đúng:</p>
           <p className="text-4xl font-black text-gray-800 mb-3">{q.word}</p>
           <button onClick={() => speak(q.word, { rate: 0.75 })}
-            className="bg-violet-100 text-violet-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-transform">
+            className="bg-gray-100 text-gray-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-transform">
             🔊 Nghe từ
           </button>
           {isResult && (
             <div className={`mt-3 rounded-xl p-2.5 border ${selected === q.correctIdx ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
               <p className="text-sm font-bold text-gray-800">
                 {selected === q.correctIdx
-                  ? `✅ Đúng! "${q.word}s" → ${lesson.buckets[q.correctIdx].label}`
-                  : `❌ Sai! "${q.word}s" → ${lesson.buckets[q.correctIdx].label}`}
+                  ? `✅ Đúng! "${q.word}" → ${lesson.buckets[q.correctIdx].label}`
+                  : `❌ Sai! "${q.word}" → ${lesson.buckets[q.correctIdx].label}`}
               </p>
               <p className="text-xs text-gray-500 mt-0.5 leading-relaxed">{lesson.buckets[q.correctIdx].condition}</p>
             </div>
           )}
         </div>
 
-        {/* 3 bucket buttons */}
+        {/* Bucket buttons */}
         <div className="w-full space-y-2.5">
           {lesson.buckets.map((bucket, i) => {
             const s = BUCKET_STYLES[i]
@@ -158,7 +165,7 @@ export default function SortRuleGame({ lesson, childId, backUrl }: { lesson: Les
 
         {isResult && (
           <button onClick={advance}
-            className={`w-full font-black text-xl py-4 rounded-2xl shadow-md text-white ${selected === q.correctIdx ? 'bg-green-500' : 'bg-violet-500'}`}>
+            className={`w-full font-black text-xl py-4 rounded-2xl shadow-md text-white ${selected === q.correctIdx ? 'bg-green-500' : btnColor}`}>
             {idx + 1 >= questions.length ? 'Kết quả →' : 'Tiếp theo →'}
           </button>
         )}

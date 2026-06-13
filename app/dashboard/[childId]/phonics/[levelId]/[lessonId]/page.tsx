@@ -22,6 +22,7 @@ const GAME_META: Record<string, { emoji: string; label: string; desc: string }> 
   'speak':         { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Nghe mẫu → đọc to → AI chấm' },
   'sort-words':    { emoji: '🎯', label: 'Phân loại âm',      desc: 'Nghe từ → tap đúng bucket' },
   'sort-rule':     { emoji: '📏', label: 'Phân loại từ',      desc: 'Đọc từ → tap đúng nhóm phát âm' },
+  'rhythm':        { emoji: '🎶', label: 'Nhịp điệu câu',    desc: 'Nghe mẫu → đọc to → AI chấm' },
 }
 
 const BUCKET_COLORS = [
@@ -69,9 +70,8 @@ export default function LessonPage() {
   const seen     = isPairSeen(lessonId)
   const games    = getPairGames(lessonId)
   const mastered = isLessonMastered(lessonId, lesson.masteryGames)
-  const isPair   = lesson.type === 'pair'
-  const pairLesson = isPair ? lesson as PairLesson : null
-  const ruleLesson = !isPair ? lesson as RuleLesson : null
+  const pairLesson = lesson.type === 'pair' ? lesson as PairLesson : null
+  const ruleLesson = lesson.type === 'rule' ? lesson as RuleLesson : null
 
   const handlePlayContrast = () => {
     if (!pairLesson || playing) return
@@ -183,10 +183,10 @@ export default function LessonPage() {
 
         {/* RULE LESSON: rule table */}
         {ruleLesson && (
-          <div className="bg-white rounded-3xl shadow-sm overflow-hidden border-2 border-violet-100">
-            <div className="bg-violet-50 px-4 py-3 border-b border-violet-100">
-              <p className="font-black text-violet-700 text-sm">📊 {ruleLesson.title} — quy tắc</p>
-              <p className="text-xs text-violet-500 font-semibold mt-0.5">Phụ thuộc vào âm CUỐI của từ gốc, không phải chữ cái</p>
+          <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
+            <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
+              <p className={`font-black ${level.text} text-sm`}>📊 {ruleLesson.title} — quy tắc</p>
+              <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>{ruleLesson.subtitle}</p>
             </div>
             <div className="divide-y divide-gray-50">
               {ruleLesson.buckets.map((bucket, i) => {
