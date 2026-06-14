@@ -50,8 +50,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
   const q = questions[idx]
   const total = questions.length
-  // Max words per level: seeker/starter ≤5, others ≤7
-  const maxWords = (level === 'seeker' || level === 'starter') ? 5 : 7
+  const maxWords = level === 'seeker' ? 7 : level === 'starter' ? 9 : 15
   const rawExample = q.examples?.[0]?.en ?? ''
   const exampleOk = rawExample && rawExample.split(' ').length <= maxWords
   // Use example sentence if available + within limit; else fall back to word
