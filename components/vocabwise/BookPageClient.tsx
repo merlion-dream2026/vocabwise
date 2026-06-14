@@ -134,7 +134,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto px-4 pt-3 space-y-3">
+      <div className="max-w-2xl mx-auto px-4 pt-3 pb-24 space-y-3">
 
         {/* Module overview card */}
         <button onClick={() => setShowOverviewDetail(v => !v)}

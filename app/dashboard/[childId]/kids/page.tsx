@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
+import { getAvatarSrc } from '@/lib/avatars'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -52,7 +53,9 @@ export default function KidsLevelPage() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.back()} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
-        <div className="text-4xl">{child!.emoji}</div>
+        <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white/60">
+          <img src={getAvatarSrc(child!.emoji)} className="w-full h-full object-cover" alt="" />
+        </div>
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">VocabWise Daily</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn level · Pre-A1 → C2</p>
