@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 34,
+    "topic_id": "b3-t34",
+    "topic_title": "Psychology & Human Behaviour",
+    "topic_title_vi": "Tâm Lý Học & Hành Vi Con Người",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🧩",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 223,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Human behaviour is shaped by a complex interplay of conscious thought and **unconscious** processes. Modern psychology recognises that much of what drives our decisions operates below the threshold of awareness. **Cognition** — the mental processes of thinking, reasoning, and remembering — does not occur in a vacuum; it is continuously influenced by emotional states, past experiences, and social context. Understanding these mechanisms is central to the discipline and has profound implications for education, health, and public policy.",
+        "text_vi": "Hành vi con người được định hình bởi sự tương tác phức tạp giữa tư duy có ý thức và các quá trình **vô thức**. Tâm lý học hiện đại nhận ra rằng phần lớn những gì thúc đẩy quyết định của chúng ta vận hành dưới ngưỡng nhận thức. **Nhận thức** — các quá trình tâm lý của tư duy, suy luận và ghi nhớ — không xảy ra trong chân không; nó liên tục bị ảnh hưởng bởi trạng thái cảm xúc, kinh nghiệm quá khứ và bối cảnh xã hội. Hiểu các cơ chế này là trọng tâm của ngành học và có hàm ý sâu sắc đối với giáo dục, y tế và chính sách công."
+      },
+      {
+        "index": 2,
+        "text_en": "One powerful framework for understanding behaviour is **attribution** theory, which explores how people explain the causes of events and actions. Errors in attribution — particularly the tendency to overestimate personality factors and underestimate situational ones — are common cognitive distortions. These distortions exist within broader mental frameworks called **schemas**: organised patterns of knowledge that filter and interpret incoming information. When schemas are overly rigid, they can **challenge cognitive biases** that prevent individuals from perceiving reality accurately.",
+        "text_vi": "Một khuôn khổ mạnh mẽ để hiểu hành vi là lý thuyết **quy kết**, khám phá cách mọi người giải thích nguyên nhân của các sự kiện và hành động. Các lỗi trong quy kết — đặc biệt là xu hướng đánh giá quá cao các yếu tố tính cách và đánh giá thấp các yếu tố tình huống — là những méo mó nhận thức phổ biến. Những méo mó này tồn tại trong các khuôn khổ tư duy rộng hơn gọi là **lược đồ**: các mẫu kiến thức có tổ chức lọc và diễn giải thông tin đến. Khi lược đồ quá cứng nhắc, chúng có thể cản trở nỗ lực **thách thức thành kiến nhận thức** vốn ngăn cá nhân nhận thức thực tế một cách chính xác."
+      },
+      {
+        "index": 3,
+        "text_en": "**Motivation** and **reinforcement** are equally critical to understanding why people persist or give up. Intrinsic motivation — driven by genuine interest — tends to be more durable than extrinsic rewards, which can undermine long-term engagement if withdrawn. **Reinforcement**, whether positive or negative, **shapes human motivation** by creating associations between actions and outcomes. Meanwhile, **perception** — how individuals interpret sensory and social information — profoundly affects the choices they make and the risks they are willing to take.",
+        "text_vi": "**Động lực** và **củng cố** cũng đóng vai trò quan trọng không kém trong việc hiểu tại sao người ta kiên trì hay bỏ cuộc. Động lực nội tại — được thúc đẩy bởi sự quan tâm thực sự — có xu hướng bền vững hơn phần thưởng ngoại tại, vốn có thể làm suy yếu sự gắn kết lâu dài nếu bị rút đi. **Củng cố**, dù tích cực hay tiêu cực, **định hình động lực của con người** bằng cách tạo ra mối liên kết giữa hành động và kết quả. Đồng thời, **tri giác** — cách cá nhân giải thích thông tin cảm giác và xã hội — ảnh hưởng sâu sắc đến các lựa chọn họ đưa ra và những rủi ro họ sẵn lòng chấp nhận."
+      },
+      {
+        "index": 4,
+        "text_en": "Two concepts of growing importance in applied psychology are **resilience** and **self-efficacy**. Resilience — the capacity to recover from adversity — is not a fixed trait but a skill that can be cultivated. Similarly, **self-efficacy**, one's belief in one's ability to succeed in specific tasks, profoundly influences performance and persistence. Programmes designed to **develop psychological resilience** and **reinforce positive behaviour** have shown measurable benefits, while efforts to **resist social conformity** through critical thinking remain essential for fostering independent judgement.",
+        "text_vi": "Hai khái niệm ngày càng quan trọng trong tâm lý học ứng dụng là **khả năng phục hồi** và **tự hiệu quả**. Khả năng phục hồi — năng lực phục hồi sau nghịch cảnh — không phải là đặc điểm cố định mà là kỹ năng có thể được rèn luyện. Tương tự, **tự hiệu quả**, niềm tin của một người vào khả năng thành công trong các nhiệm vụ cụ thể, ảnh hưởng sâu sắc đến hiệu suất và sự kiên trì. Các chương trình được thiết kế để **phát triển khả năng phục hồi tâm lý** và **củng cố hành vi tích cực** đã cho thấy những lợi ích có thể đo lường, trong khi nỗ lực **chống lại sự tuân thủ xã hội** thông qua tư duy phê phán vẫn thiết yếu để nuôi dưỡng tư duy độc lập."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "cognition",
+      "ipa": "/kɒɡˈnɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, quá trình tư duy",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "Research in cognition has transformed our understanding of how memory and attention interact.",
+      "example_vi": "Nghiên cứu về nhận thức đã cách mạng hóa sự hiểu biết của chúng ta về cách ký ức và sự chú ý tương tác.",
+      "word_family": {
+        "noun": "cognition",
+        "verb": "cognise",
+        "adjective": "cognitive",
+        "adverb": "cognitively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "motivation",
+      "ipa": "/ˌməʊ.tɪˈveɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "động lực, sự thúc đẩy",
+      "meaning_vi_inline": "động lực",
+      "example_en": "Understanding what drives student motivation is key to designing effective learning environments.",
+      "example_vi": "Hiểu điều gì thúc đẩy động lực của học sinh là chìa khóa để thiết kế môi trường học tập hiệu quả.",
+      "word_family": {
+        "noun": "motivation / motivator",
+        "verb": "motivate",
+        "adjective": "motivated / motivational",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "perception",
+      "ipa": "/pəˈsep.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tri giác, sự cảm nhận và diễn giải thông tin",
+      "meaning_vi_inline": "tri giác",
+      "example_en": "Our perception of risk is often distorted by media coverage and personal experience.",
+      "example_vi": "Tri giác của chúng ta về rủi ro thường bị bóp méo bởi thông tin truyền thông và kinh nghiệm cá nhân.",
+      "word_family": {
+        "noun": "perception",
+        "verb": "perceive",
+        "adjective": "perceptive / perceptual",
+        "adverb": "perceptively"
+      },
+      "false_friend": {
+        "word_vi": "perspective",
+        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận thông tin; 'perspective' là góc nhìn hay quan điểm về một vấn đề — không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "reinforcement",
+      "ipa": "/ˌriː.ɪnˈfɔːs.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự củng cố, sự tăng cường",
+      "meaning_vi_inline": "củng cố",
+      "example_en": "Positive reinforcement, such as praise and reward, is more effective than punishment in shaping desirable behaviour.",
+      "example_vi": "Sự củng cố tích cực, chẳng hạn như khen ngợi và phần thưởng, hiệu quả hơn hình phạt trong việc định hình hành vi mong muốn.",
+      "word_family": {
+        "noun": "reinforcement",
+        "verb": "reinforce",
+        "adjective": "reinforced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "schema",
+      "ipa": "/ˈskiː.mə/",
+      "pos": "noun",
+      "meaning_vi": "lược đồ tâm lý, khuôn khổ nhận thức",
+      "meaning_vi_inline": "lược đồ",
+      "example_en": "Children develop schemas for everyday objects and events that help them make sense of new experiences.",
+      "example_vi": "Trẻ em phát triển các lược đồ về đồ vật và sự kiện thường ngày giúp chúng hiểu các trải nghiệm mới.",
+      "word_family": {
+        "noun": "schema (pl. schemas / schemata)",
+        "verb": null,
+        "adjective": "schematic",
+        "adverb": "schematically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "attribution",
+      "ipa": "/ˌæt.rɪˈbjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự quy kết, cách giải thích nguyên nhân",
+      "meaning_vi_inline": "quy kết",
+      "example_en": "Attribution errors often lead managers to blame employees for failures that are actually caused by systemic problems.",
+      "example_vi": "Lỗi quy kết thường khiến quản lý đổ lỗi cho nhân viên về những thất bại thực ra do các vấn đề hệ thống gây ra.",
+      "word_family": {
+        "noun": "attribution",
+        "verb": "attribute",
+        "adjective": "attributable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "resilience",
+      "ipa": "/rɪˈzɪl.i.əns/",
+      "pos": "noun",
+      "meaning_vi": "khả năng phục hồi, tính kiên cường",
+      "meaning_vi_inline": "khả năng phục hồi",
+      "example_en": "Resilience is not the absence of stress but the ability to recover and adapt when adversity strikes.",
+      "example_vi": "Khả năng phục hồi không phải là sự vắng mặt của stress mà là khả năng phục hồi và thích nghi khi nghịch cảnh ập đến.",
+      "word_family": {
+        "noun": "resilience",
+        "verb": null,
+        "adjective": "resilient",
+        "adverb": "resiliently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "conformity",
+      "ipa": "/kənˈfɔː.mɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự tuân thủ, sự đồng nhất với nhóm",
+      "meaning_vi_inline": "sự tuân thủ",
+      "example_en": "Asch's experiments demonstrated the remarkable power of social conformity even when the group is clearly wrong.",
+      "example_vi": "Các thí nghiệm của Asch đã chứng minh sức mạnh đáng kinh ngạc của sự tuân thủ xã hội ngay cả khi nhóm rõ ràng là sai.",
+      "word_family": {
+        "noun": "conformity / conformist",
+        "verb": "conform",
+        "adjective": "conformist / conforming",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "unconscious",
+      "ipa": "/ʌnˈkɒn.ʃəs/",
+      "pos": "adjective",
+      "meaning_vi": "vô thức, không có ý thức",
+      "meaning_vi_inline": "vô thức",
+      "example_en": "Many of our daily decisions are driven by unconscious associations formed through past experience.",
+      "example_vi": "Nhiều quyết định hàng ngày của chúng ta được thúc đẩy bởi các liên kết vô thức được hình thành qua kinh nghiệm quá khứ.",
+      "word_family": {
+        "noun": "unconscious / unconsciousness",
+        "verb": null,
+        "adjective": "unconscious",
+        "adverb": "unconsciously"
+      },
+      "false_friend": {
+        "word_vi": "subconscious",
+        "explanation_vi": "'Unconscious' thường chỉ những quá trình hoàn toàn ngoài tầm nhận thức; 'subconscious' (đặc biệt trong ngôn ngữ thông thường) chỉ những gì nằm ngay dưới ngưỡng ý thức và có thể tiếp cận được — hai thuật ngữ này thường bị dùng lẫn lộn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "self-efficacy",
+      "ipa": "/ˌself ˈef.ɪ.kə.si/",
+      "pos": "noun",
+      "meaning_vi": "tự hiệu quả, niềm tin vào năng lực bản thân",
+      "meaning_vi_inline": "tự hiệu quả",
+      "example_en": "Bandura's research showed that high self-efficacy is one of the strongest predictors of academic achievement.",
+      "example_vi": "Nghiên cứu của Bandura cho thấy tự hiệu quả cao là một trong những yếu tố dự báo mạnh nhất về thành tích học tập.",
+      "word_family": {
+        "noun": "self-efficacy",
+        "verb": null,
+        "adjective": "efficacious",
+        "adverb": "efficaciously"
+      },
+      "false_friend": {
+        "word_vi": "self-esteem",
+        "explanation_vi": "'Self-efficacy' là niềm tin vào khả năng thực hiện một nhiệm vụ cụ thể; 'self-esteem' là đánh giá chung về giá trị bản thân — hai khái niệm liên quan nhưng khác nhau về phạm vi."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "challenge cognitive biases",
+      "meaning_vi": "thách thức thành kiến nhận thức",
+      "example_en": "Critical thinking courses aim to help students identify and challenge cognitive biases that distort their reasoning.",
+      "example_vi": "Các khóa học tư duy phê phán nhằm giúp học sinh nhận diện và thách thức thành kiến nhận thức làm méo mó lập luận của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "shape human motivation",
+      "meaning_vi": "định hình động lực của con người",
+      "example_en": "Cultural values and social norms profoundly shape human motivation in ways that vary across societies.",
+      "example_vi": "Các giá trị văn hóa và chuẩn mực xã hội định hình sâu sắc động lực của con người theo những cách khác nhau giữa các xã hội.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "reinforce positive behaviour",
+      "meaning_vi": "củng cố hành vi tích cực",
+      "example_en": "Teachers who consistently reinforce positive behaviour tend to create more cooperative and motivated classrooms.",
+      "example_vi": "Những giáo viên nhất quán củng cố hành vi tích cực có xu hướng tạo ra các lớp học hợp tác và có động lực hơn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "develop psychological resilience",
+      "meaning_vi": "phát triển khả năng phục hồi tâm lý",
+      "example_en": "The programme was designed to help adolescents develop psychological resilience before they face the pressures of adult life.",
+      "example_vi": "Chương trình được thiết kế để giúp thanh thiếu niên phát triển khả năng phục hồi tâm lý trước khi họ đối mặt với áp lực của cuộc sống trưởng thành.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "resist social conformity",
+      "meaning_vi": "chống lại sự tuân thủ xã hội",
+      "example_en": "The capacity to resist social conformity and think independently is associated with higher levels of creativity.",
+      "example_vi": "Khả năng chống lại sự tuân thủ xã hội và tư duy độc lập được liên kết với mức độ sáng tạo cao hơn.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that most human decisions are made entirely through conscious deliberation.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, intrinsic motivation tends to be more lasting than motivation driven by external rewards.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage identifies attribution theory as the most widely used framework in clinical psychology.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that resilience is a fixed personality trait that cannot be developed through training.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, programmes that reinforce positive behaviour have produced measurable benefits.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Children raised in supportive environments tend to develop greater _____ and cope better with setbacks later in life.",
+          "options": [
+            "conformity",
+            "attribution",
+            "resilience",
+            "schema"
+          ],
+          "answer": "resilience"
+        },
+        {
+          "id": 2,
+          "sentence": "Her _____ of the situation was coloured by anxiety, leading her to overestimate the risks involved.",
+          "options": [
+            "perception",
+            "reinforcement",
+            "conformity",
+            "cognition"
+          ],
+          "answer": "perception"
+        },
+        {
+          "id": 3,
+          "sentence": "Many leadership failures can be traced to _____ errors — blaming individuals for problems caused by the system.",
+          "options": [
+            "schema",
+            "motivation",
+            "self-efficacy",
+            "attribution"
+          ],
+          "answer": "attribution"
+        },
+        {
+          "id": 4,
+          "sentence": "Variable-ratio _____ — rewarding behaviour unpredictably — produces the most persistent responses in learning experiments.",
+          "options": [
+            "conformity",
+            "reinforcement",
+            "resilience",
+            "cognition"
+          ],
+          "answer": "reinforcement"
+        },
+        {
+          "id": 5,
+          "sentence": "Students with high _____ approach challenging tasks with confidence and are more likely to persist when they encounter difficulties.",
+          "options": [
+            "unconscious",
+            "schema",
+            "conformity",
+            "self-efficacy"
+          ],
+          "answer": "self-efficacy"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "cognition",
+        "schema",
+        "unconscious",
+        "conformity",
+        "motivation",
+        "attribution"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The patient's _____ to social norms was so strong that she found it almost impossible to express a dissenting view.",
+          "answer": "conformity"
+        },
+        {
+          "id": 2,
+          "sentence": "Research in _____ has shown that sleep deprivation severely impairs memory consolidation and problem-solving.",
+          "answer": "cognition"
+        },
+        {
+          "id": 3,
+          "sentence": "When we encounter a new face, we unconsciously apply a pre-existing _____ based on past social experiences.",
+          "answer": "schema"
+        },
+        {
+          "id": 4,
+          "sentence": "Many of our strongest preferences are rooted in _____ processes that we cannot easily access or explain.",
+          "answer": "unconscious"
+        },
+        {
+          "id": 5,
+          "sentence": "The coach focused on building internal _____ by helping athletes connect their effort to personal growth rather than trophies.",
+          "answer": "motivation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "unconscious",
+            "biases",
+            "influence",
+            "our",
+            "decisions",
+            "without",
+            "our",
+            "awareness"
+          ],
+          "answer": "Unconscious biases influence our decisions without our awareness."
+        },
+        {
+          "id": 2,
+          "words": [
+            "positive",
+            "reinforcement",
+            "is",
+            "more",
+            "effective",
+            "than",
+            "punishment",
+            "in",
+            "shaping",
+            "behaviour"
+          ],
+          "answer": "Positive reinforcement is more effective than punishment in shaping behaviour."
+        },
+        {
+          "id": 3,
+          "words": [
+            "high",
+            "self-efficacy",
+            "predicts",
+            "greater",
+            "persistence",
+            "in",
+            "the",
+            "face",
+            "of",
+            "difficulty"
+          ],
+          "answer": "High self-efficacy predicts greater persistence in the face of difficulty."
+        },
+        {
+          "id": 4,
+          "words": [
+            "schemas",
+            "help",
+            "us",
+            "process",
+            "new",
+            "information",
+            "by",
+            "relating",
+            "it",
+            "to",
+            "existing",
+            "knowledge"
+          ],
+          "answer": "Schemas help us process new information by relating it to existing knowledge."
+        },
+        {
+          "id": 5,
+          "words": [
+            "resilience",
+            "can",
+            "be",
+            "developed",
+            "through",
+            "targeted",
+            "psychological",
+            "training",
+            "and",
+            "social",
+            "support"
+          ],
+          "answer": "Resilience can be developed through targeted psychological training and social support."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The therapist helped her identify the [unconsciously] beliefs that were driving her anxiety.",
+          "highlighted": "unconsciously",
+          "options": {
+            "A": "unconscious",
+            "B": "unconsious",
+            "C": "unconsciousness"
+          },
+          "answer": "A",
+          "explanation": "An adjective is required to modify the noun 'beliefs' — 'unconscious', not the adverb 'unconsciously'."
+        },
+        {
+          "id": 2,
+          "sentence": "The study of [cognise] has expanded rapidly since the invention of neuroimaging technology.",
+          "highlighted": "cognise",
+          "options": {
+            "A": "cognitive",
+            "B": "cognitively",
+            "C": "cognition"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the object of 'the study of' — 'cognition', not the verb 'cognise'."
+        },
+        {
+          "id": 3,
+          "sentence": "Her strong [self-efficient] meant she tackled the hardest problems first, confident she could solve them.",
+          "highlighted": "self-efficient",
+          "options": {
+            "A": "self-efficacy",
+            "B": "self-efficacious",
+            "C": "self-effacing"
+          },
+          "answer": "A",
+          "explanation": "'Self-efficacy' is the correct noun form for one's belief in one's own competence; 'self-efficient' is not a standard psychological term."
+        },
+        {
+          "id": 4,
+          "sentence": "The experiment revealed that [motivate] dropped sharply once the external reward was removed.",
+          "highlighted": "motivate",
+          "options": {
+            "A": "motivated",
+            "B": "motivation",
+            "C": "motivating"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the verb 'dropped' — 'motivation', not the verb 'motivate'."
+        },
+        {
+          "id": 5,
+          "sentence": "Social pressure to [conformity] can suppress individual creativity in group settings.",
+          "highlighted": "conformity",
+          "options": {
+            "A": "conform",
+            "B": "conformed",
+            "C": "conformist"
+          },
+          "answer": "A",
+          "explanation": "After the infinitive marker 'to', a base verb is required — 'conform', not the noun 'conformity'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "resilience",
+      "2": "perception",
+      "3": "attribution",
+      "4": "reinforcement",
+      "5": "self-efficacy"
+    },
+    "ex3": {
+      "1": "conformity",
+      "2": "cognition",
+      "3": "schema",
+      "4": "unconscious",
+      "5": "motivation"
+    },
+    "ex4": {
+      "1": "Unconscious biases influence our decisions without our awareness.",
+      "2": "Positive reinforcement is more effective than punishment in shaping behaviour.",
+      "3": "High self-efficacy predicts greater persistence in the face of difficulty.",
+      "4": "Schemas help us process new information by relating it to existing knowledge.",
+      "5": "Resilience can be developed through targeted psychological training and social support."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

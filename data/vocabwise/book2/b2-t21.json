@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 21,
+    "topic_id": "b2-t21",
+    "topic_title": "Personal Finance",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "💰",
+    "topic_title_vi": "Tài Chính Cá Nhân",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Managing personal **money** wisely begins with knowing your **income** — the total you earn from work each month. Once you understand what comes in, you can create a **budget**: a detailed plan that divides your earnings between essential **expenses**, such as rent and food, and other spending goals. A good budget helps you **handle** your finances with greater confidence and prevents overspending.",
+        "text_vi": "Quản lý **tiền** cá nhân một cách khôn ngoan bắt đầu từ việc hiểu rõ **thu nhập** của bạn — tổng số tiền kiếm được từ công việc mỗi tháng. Khi biết thu vào bao nhiêu, bạn có thể lập một **ngân sách**: kế hoạch chi tiết phân chia thu nhập giữa các **chi phí** thiết yếu như tiền thuê nhà và ăn uống, và các mục tiêu chi tiêu khác. Một ngân sách tốt giúp bạn **quản lý** tài chính tự tin hơn và tránh chi tiêu vượt mức."
+      },
+      {
+        "index": 2,
+        "text_en": "Building **savings** — money set aside for the future — is a vital financial habit. Most advisors recommend putting at least 10% of your income aside each month. It is far wiser to **save up** gradually for large purchases than to borrow. Carrying **debt** is costly because the **interest** charged on what you owe can accumulate rapidly and become very difficult to clear.",
+        "text_vi": "Xây dựng **tiền tiết kiệm** — tiền để dành cho tương lai — là thói quen tài chính thiết yếu. Hầu hết các chuyên gia khuyến nghị để dành ít nhất 10% thu nhập mỗi tháng. Việc **để dành dần dần** cho các khoản mua lớn thông minh hơn nhiều so với đi vay. Mang **nợ** rất tốn kém vì **lãi suất** tính trên số tiền bạn nợ có thể tích lũy nhanh và rất khó thanh toán hết."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes people need to **take out** a **loan** — a fixed sum borrowed from a bank and repaid over time. Before applying, confirm that you can **afford** the monthly repayments. Using **credit** — buying goods now and paying for them later — can be useful, but only if managed with care and discipline.",
+        "text_vi": "Đôi khi mọi người cần **vay** một **khoản vay** — số tiền cố định từ ngân hàng được hoàn trả theo thời gian. Trước khi đăng ký, hãy xác nhận rằng bạn **đủ khả năng** trả góp hàng tháng. Sử dụng **tín dụng** — mua ngay và trả sau — có thể hữu ích, nhưng chỉ khi được quản lý cẩn thận và có kỷ luật."
+      },
+      {
+        "index": 4,
+        "text_en": "A further step is to **invest** a portion of your income in assets such as shares or property, allowing your wealth to grow over time. Understanding your **tax** obligations is equally important, as deductions from your earnings reduce what you actually receive. With consistent habits and clear goals, managing your personal finances becomes both simpler and more rewarding.",
+        "text_vi": "Một bước tiếp theo là **đầu tư** một phần thu nhập vào tài sản như cổ phiếu hoặc bất động sản, giúp tài sản tăng trưởng theo thời gian. Hiểu rõ nghĩa vụ **thuế** cũng quan trọng không kém, vì các khoản khấu trừ từ thu nhập làm giảm số tiền bạn thực nhận. Với thói quen nhất quán và mục tiêu rõ ràng, quản lý tài chính cá nhân trở nên đơn giản và có giá trị hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "money",
+      "ipa": "/ˈmʌn.i/",
+      "pos": "noun",
+      "meaning_vi": "tiền",
+      "meaning_vi_inline": "tiền",
+      "example_en": "She saved all her money to pay for the trip.",
+      "example_vi": "Cô ấy tiết kiệm hết tiền để trả cho chuyến đi.",
+      "word_family": {
+        "noun": "money",
+        "verb": null,
+        "adjective": "monetary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "income",
+      "ipa": "/ˈɪn.kʌm/",
+      "pos": "noun",
+      "meaning_vi": "thu nhập",
+      "meaning_vi_inline": "thu nhập",
+      "example_en": "Her monthly income is not enough to cover all her expenses.",
+      "example_vi": "Thu nhập hàng tháng của cô ấy không đủ để trang trải mọi chi phí.",
+      "word_family": {
+        "noun": "income",
+        "verb": null,
+        "adjective": "income-based",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "revenue",
+        "explanation_vi": "'Income' là thu nhập cá nhân hoặc thu nhập từ công việc; 'revenue' là doanh thu của doanh nghiệp hoặc tổ chức — hai từ này không thay thế được cho nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "budget",
+      "ipa": "/ˈbʌdʒ.ɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "ngân sách; lập kế hoạch chi tiêu",
+      "meaning_vi_inline": "ngân sách",
+      "example_en": "She keeps a strict monthly budget to avoid overspending.",
+      "example_vi": "Cô ấy giữ ngân sách hàng tháng nghiêm ngặt để tránh chi tiêu quá mức.",
+      "word_family": {
+        "noun": "budget",
+        "verb": "budget",
+        "adjective": "budgetary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "expense",
+      "ipa": "/ɪkˈspens/",
+      "pos": "noun",
+      "meaning_vi": "chi phí, khoản chi tiêu",
+      "meaning_vi_inline": "chi phí",
+      "example_en": "Rent is his largest monthly expense.",
+      "example_vi": "Tiền thuê nhà là khoản chi hàng tháng lớn nhất của anh ấy.",
+      "word_family": {
+        "noun": "expense / expenses",
+        "verb": null,
+        "adjective": "expensive",
+        "adverb": "expensively"
+      },
+      "false_friend": {
+        "word_vi": "expensive",
+        "explanation_vi": "'Expense' (danh từ) là một khoản chi tiêu cụ thể; 'expensive' (tính từ) có nghĩa là đắt tiền — hai từ này thường bị nhầm lẫn vì cùng gốc."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "handle",
+      "ipa": "/ˈhæn.dəl/",
+      "pos": "verb",
+      "meaning_vi": "quản lý, xử lý (tài chính)",
+      "meaning_vi_inline": "quản lý",
+      "example_en": "She handles all the household finances on her own.",
+      "example_vi": "Cô ấy tự quản lý toàn bộ tài chính gia đình.",
+      "word_family": {
+        "noun": "handle",
+        "verb": "handle",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "savings",
+      "ipa": "/ˈseɪ.vɪŋz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "tiền tiết kiệm",
+      "meaning_vi_inline": "tiền tiết kiệm",
+      "example_en": "She used her savings to pay for the unexpected car repair.",
+      "example_vi": "Cô ấy dùng tiền tiết kiệm để trả cho việc sửa xe bất ngờ.",
+      "word_family": {
+        "noun": "savings / saving",
+        "verb": "save",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "save up",
+      "ipa": "/seɪv ʌp/",
+      "pos": "phrasal verb",
+      "meaning_vi": "để dành tiền dần dần cho một mục tiêu cụ thể",
+      "meaning_vi_inline": "để dành tiền",
+      "example_en": "He is saving up to buy his first car.",
+      "example_vi": "Anh ấy đang để dành tiền để mua chiếc xe đầu tiên.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "debt",
+      "ipa": "/det/",
+      "pos": "noun",
+      "meaning_vi": "nợ (tài chính)",
+      "meaning_vi_inline": "nợ",
+      "example_en": "Many graduates leave university with significant debt.",
+      "example_vi": "Nhiều sinh viên tốt nghiệp rời trường với khoản nợ đáng kể.",
+      "word_family": {
+        "noun": "debt / debtor",
+        "verb": null,
+        "adjective": "indebted",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "loan",
+        "explanation_vi": "'Debt' là tình trạng đang nợ tiền; 'loan' là khoản tiền cụ thể được vay. Chú ý: 'debt' đọc là /det/ — chữ 'b' câm, không đọc."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "interest",
+      "ipa": "/ˈɪn.trəst/",
+      "pos": "noun",
+      "meaning_vi": "lãi suất (trong tài chính)",
+      "meaning_vi_inline": "lãi suất",
+      "example_en": "The bank charges 5% interest on all personal loans.",
+      "example_vi": "Ngân hàng tính lãi suất 5% cho tất cả các khoản vay cá nhân.",
+      "word_family": {
+        "noun": "interest",
+        "verb": "interest",
+        "adjective": "interested / interesting",
+        "adverb": "interestingly"
+      },
+      "false_friend": {
+        "word_vi": "sự quan tâm",
+        "explanation_vi": "'Interest' có hai nghĩa: (1) lãi suất trong tài chính và (2) sự quan tâm/hứng thú. Trong ngữ cảnh tài chính, luôn hiểu là lãi suất."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "take out",
+      "ipa": "/teɪk aʊt/",
+      "pos": "phrasal verb",
+      "meaning_vi": "vay (khoản vay từ ngân hàng)",
+      "meaning_vi_inline": "vay",
+      "example_en": "They had to take out a large loan to buy their first home.",
+      "example_vi": "Họ phải vay một khoản lớn để mua ngôi nhà đầu tiên.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "loan",
+      "ipa": "/ləʊn/",
+      "pos": "noun",
+      "meaning_vi": "khoản vay",
+      "meaning_vi_inline": "khoản vay",
+      "example_en": "She applied for a bank loan to start her small business.",
+      "example_vi": "Cô ấy xin vay ngân hàng để khởi nghiệp kinh doanh nhỏ.",
+      "word_family": {
+        "noun": "loan",
+        "verb": "loan (lend)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "borrow / lend",
+        "explanation_vi": "'Loan' (danh từ) là khoản tiền được vay; 'borrow' (vay tiền — nhận tiền) và 'lend' (cho vay — đưa tiền cho người khác) là động từ mô tả hành động."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "afford",
+      "ipa": "/əˈfɔːd/",
+      "pos": "verb",
+      "meaning_vi": "đủ khả năng tài chính để mua/làm gì",
+      "meaning_vi_inline": "đủ khả năng",
+      "example_en": "He couldn't afford to take a holiday that year.",
+      "example_vi": "Anh ấy không đủ khả năng đi nghỉ vào năm đó.",
+      "word_family": {
+        "noun": null,
+        "verb": "afford",
+        "adjective": "affordable / unaffordable",
+        "adverb": "affordably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "credit",
+      "ipa": "/ˈkred.ɪt/",
+      "pos": "noun",
+      "meaning_vi": "tín dụng (mua trước, trả sau)",
+      "meaning_vi_inline": "tín dụng",
+      "example_en": "She bought the laptop on credit and paid it off over six months.",
+      "example_vi": "Cô ấy mua laptop bằng tín dụng và trả dần trong sáu tháng.",
+      "word_family": {
+        "noun": "credit / creditor",
+        "verb": null,
+        "adjective": "creditworthy",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "debit",
+        "explanation_vi": "'Credit' là vay mượn hoặc tín dụng (trả sau); 'debit' là tiền trực tiếp từ tài khoản (trả ngay). Thẻ credit và thẻ debit hoạt động theo cơ chế ngược nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "invest",
+      "ipa": "/ɪnˈvest/",
+      "pos": "verb",
+      "meaning_vi": "đầu tư",
+      "meaning_vi_inline": "đầu tư",
+      "example_en": "He invested his savings in a small property near the city.",
+      "example_vi": "Anh ấy đầu tư tiền tiết kiệm vào một bất động sản nhỏ gần thành phố.",
+      "word_family": {
+        "noun": "investment / investor",
+        "verb": "invest",
+        "adjective": "invested",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "tax",
+      "ipa": "/tæks/",
+      "pos": "noun / verb",
+      "meaning_vi": "thuế",
+      "meaning_vi_inline": "thuế",
+      "example_en": "The government raised income tax to fund public services.",
+      "example_vi": "Chính phủ tăng thuế thu nhập để tài trợ cho các dịch vụ công.",
+      "word_family": {
+        "noun": "tax / taxation",
+        "verb": "tax",
+        "adjective": "taxable / tax-free",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A budget is a plan that divides income between essential expenses and other spending goals.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage recommends saving at least 20% of your income each month.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "People who use credit always pay higher interest rates than those with bank loans.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Interest is an extra cost charged on money that has been borrowed.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that investing in property always gives better returns than investing in shares.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She listed all her monthly _____, including rent, food, and transport, to understand where her money was going.",
+          "options": [
+            "income",
+            "expenses",
+            "savings",
+            "budget"
+          ],
+          "answer": "expenses"
+        },
+        {
+          "id": 2,
+          "sentence": "He couldn't _____ to buy the new laptop outright, so he decided to pay in monthly instalments.",
+          "options": [
+            "handle",
+            "invest",
+            "afford",
+            "budget"
+          ],
+          "answer": "afford"
+        },
+        {
+          "id": 3,
+          "sentence": "The bank charges 6% _____ per year on the outstanding balance of the personal loan.",
+          "options": [
+            "interest",
+            "expense",
+            "savings",
+            "credit"
+          ],
+          "answer": "interest"
+        },
+        {
+          "id": 4,
+          "sentence": "Rather than borrowing, she chose to _____ for two years before buying the car with cash.",
+          "options": [
+            "invest",
+            "take out",
+            "handle",
+            "save up"
+          ],
+          "answer": "save up"
+        },
+        {
+          "id": 5,
+          "sentence": "He decided to _____ part of his monthly income in shares to grow his wealth over the long term.",
+          "options": [
+            "afford",
+            "budget",
+            "save up",
+            "invest"
+          ],
+          "answer": "invest"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "income",
+        "budget",
+        "debt",
+        "loan",
+        "savings"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She checked her monthly _____ to make sure she was not spending more than she earned.",
+          "answer": "budget"
+        },
+        {
+          "id": 2,
+          "sentence": "His _____ from both part-time jobs was barely enough to cover rent and living costs.",
+          "answer": "income"
+        },
+        {
+          "id": 3,
+          "sentence": "When the car broke down unexpectedly, she used her _____ to pay for the repairs.",
+          "answer": "savings"
+        },
+        {
+          "id": 4,
+          "sentence": "He took out a _____ from the bank to pay for his university tuition fees.",
+          "answer": "loan"
+        },
+        {
+          "id": 5,
+          "sentence": "After years of overspending, he found himself deep in _____ with no easy way out.",
+          "answer": "debt"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "created",
+            "a",
+            "monthly",
+            "budget",
+            "to",
+            "control",
+            "her",
+            "spending"
+          ],
+          "answer": "She created a monthly budget to control her spending."
+        },
+        {
+          "id": 2,
+          "words": [
+            "he",
+            "could",
+            "not",
+            "afford",
+            "to",
+            "take",
+            "out",
+            "another",
+            "loan"
+          ],
+          "answer": "He could not afford to take out another loan."
+        },
+        {
+          "id": 3,
+          "words": [
+            "high",
+            "interest",
+            "rates",
+            "make",
+            "it",
+            "harder",
+            "to",
+            "pay",
+            "off",
+            "debt"
+          ],
+          "answer": "High interest rates make it harder to pay off debt."
+        },
+        {
+          "id": 4,
+          "words": [
+            "she",
+            "decided",
+            "to",
+            "invest",
+            "her",
+            "savings",
+            "in",
+            "a",
+            "small",
+            "property"
+          ],
+          "answer": "She decided to invest her savings in a small property."
+        },
+        {
+          "id": 5,
+          "words": [
+            "understanding",
+            "your",
+            "income",
+            "and",
+            "expenses",
+            "is",
+            "essential",
+            "for",
+            "good",
+            "financial",
+            "management"
+          ],
+          "answer": "Understanding your income and expenses is essential for good financial management."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He created a detailed monthly [plan] to ensure he did not spend more than he earned.",
+          "highlighted": "plan",
+          "options": {
+            "A": "plan",
+            "B": "budget",
+            "C": "record"
+          },
+          "answer": "B",
+          "explanation": "'Budget' is the specific financial term for a plan that allocates income to different expenses; 'plan' and 'record' are too general to carry this precise financial meaning."
+        },
+        {
+          "id": 2,
+          "sentence": "She was shocked by the high [fee] on her loan — it added more than 7% to the total repayment.",
+          "highlighted": "fee",
+          "options": {
+            "A": "interest",
+            "B": "fee",
+            "C": "charge"
+          },
+          "answer": "A",
+          "explanation": "'Interest' is the precise financial term for the percentage-based cost of borrowing money; 'fee' refers to a fixed charge for a service, and 'charge' is too informal in this context."
+        },
+        {
+          "id": 3,
+          "sentence": "After years of living beyond his means, he found himself in serious financial [trouble].",
+          "highlighted": "trouble",
+          "options": {
+            "A": "loss",
+            "B": "trouble",
+            "C": "debt"
+          },
+          "answer": "C",
+          "explanation": "'Debt' is the correct financial term for the state of owing money; 'trouble' is vague and informal, and 'loss' refers to money lost, not money owed."
+        },
+        {
+          "id": 4,
+          "sentence": "Instead of taking a loan, she chose to [accumulate money slowly] for three years before making the purchase.",
+          "highlighted": "accumulate money slowly",
+          "options": {
+            "A": "save up",
+            "B": "accumulate money slowly",
+            "C": "set aside"
+          },
+          "answer": "A",
+          "explanation": "'Save up' is the natural, concise phrasal verb for gradually building funds towards a specific goal; the other options are either wordy or less natural in this financial context."
+        },
+        {
+          "id": 5,
+          "sentence": "A large portion of her salary was taken as [payment] by the government before she received it.",
+          "highlighted": "payment",
+          "options": {
+            "A": "payment",
+            "B": "tax",
+            "C": "fine"
+          },
+          "answer": "B",
+          "explanation": "'Tax' is the specific term for money legally deducted from income by the government; 'payment' is too general, and 'fine' implies a penalty for wrongdoing, which is not the case here."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "expenses",
+      "2": "afford",
+      "3": "interest",
+      "4": "save up",
+      "5": "invest"
+    },
+    "ex3": {
+      "1": "budget",
+      "2": "income",
+      "3": "savings",
+      "4": "loan",
+      "5": "debt"
+    },
+    "ex4": {
+      "1": "She created a monthly budget to control her spending.",
+      "2": "He could not afford to take out another loan.",
+      "3": "High interest rates make it harder to pay off debt.",
+      "4": "She decided to invest her savings in a small property.",
+      "5": "Understanding your income and expenses is essential for good financial management."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

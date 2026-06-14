@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 30,
+    "topic_id": "b3-t30",
+    "topic_title": "Leadership & Influence",
+    "topic_title_vi": "Lãnh Đạo & Ảnh Hưởng",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "👑",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 220,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "What distinguishes enduring leaders from those who merely hold **authority** is rarely power alone. Lasting leadership rests on a combination of **vision** — the capacity to articulate a compelling picture of what could be — and **probity**, the unwavering commitment to ethical conduct that earns and sustains public trust. Leaders who **exercise moral leadership** do not simply pursue results; they shape the values of the institutions and societies they serve.",
+        "text_vi": "Điều phân biệt những nhà lãnh đạo trường tồn với những người chỉ đơn giản nắm giữ **quyền lực** hiếm khi chỉ là quyền lực đơn thuần. Sự lãnh đạo lâu dài dựa trên sự kết hợp giữa **tầm nhìn** — khả năng phác thảo một bức tranh thuyết phục về những gì có thể đạt được — và **đức chính trực**, sự cam kết không lay chuyển với hành vi đạo đức giúp xây dựng và duy trì niềm tin của công chúng. Những nhà lãnh đạo **thực thi sự lãnh đạo có đạo đức** không chỉ đơn thuần theo đuổi kết quả; họ định hình các giá trị của những tổ chức và xã hội mà họ phục vụ."
+      },
+      {
+        "index": 2,
+        "text_en": "**Charisma** — the magnetic personal quality that draws others willingly into a leader's orbit — can amplify a leader's capacity to **inspire collective action**, mobilising large groups around a shared goal. Yet charisma without accountability is dangerous. A culture of **answerability**, in which leaders are expected to **hold leaders accountable** to clear standards and explain their decisions, is essential to preventing the abuse of influence.",
+        "text_vi": "**Sức hút cá nhân** — phẩm chất cá nhân thu hút người khác tự nguyện gia nhập quỹ đạo của một nhà lãnh đạo — có thể khuếch đại khả năng của người lãnh đạo trong việc **truyền cảm hứng hành động tập thể**, tập hợp các nhóm lớn hướng tới một mục tiêu chung. Tuy nhiên, sức hút cá nhân mà không có trách nhiệm giải trình thì rất nguy hiểm. Một nền văn hóa về **tính chịu trách nhiệm**, trong đó các nhà lãnh đạo được kỳ vọng phải **chịu trách nhiệm trước các tiêu chuẩn rõ ràng** và giải thích các quyết định của mình, là điều thiết yếu để ngăn chặn việc lạm dụng ảnh hưởng."
+      },
+      {
+        "index": 3,
+        "text_en": "True **empowerment** — giving individuals the agency, resources, and confidence to lead within their own spheres — multiplies a leader's impact far beyond what any single person could achieve alone. Great leaders cultivate other leaders. Their **inspiration** creates ripple effects: followers who feel trusted and capable become sources of **mobilisation** themselves, driving change across teams, communities, and organisations.",
+        "text_vi": "Sự **trao quyền** thực sự — trao cho các cá nhân quyền tự chủ, nguồn lực và sự tự tin để lãnh đạo trong phạm vi của họ — nhân lên tác động của người lãnh đạo vượt xa những gì bất kỳ cá nhân đơn lẻ nào có thể đạt được một mình. Những nhà lãnh đạo vĩ đại bồi dưỡng những nhà lãnh đạo khác. **Nguồn cảm hứng** của họ tạo ra những vòng tròn gợn sóng: những người theo dõi cảm thấy được tin tưởng và có năng lực sẽ trở thành nguồn **động lực huy động** của chính họ, thúc đẩy sự thay đổi trên các nhóm, cộng đồng và tổ chức."
+      },
+      {
+        "index": 4,
+        "text_en": "The question of **governance** — how institutions make decisions, distribute power, and serve their constituents — is inseparable from leadership quality. Leaders who **build trust through integrity** and who consider carefully what **legacy** they wish to **leave** tend to make decisions with a longer time horizon, resisting short-term pressures in favour of outcomes that endure. It is this long view that most reliably distinguishes leadership from mere management.",
+        "text_vi": "Câu hỏi về **quản trị** — cách các tổ chức ra quyết định, phân bổ quyền lực và phục vụ các thành viên của họ — không thể tách rời khỏi chất lượng lãnh đạo. Những nhà lãnh đạo **xây dựng niềm tin thông qua sự chính trực** và suy nghĩ cẩn thận về **di sản** mà họ muốn **để lại** có xu hướng đưa ra các quyết định với tầm nhìn dài hơi hơn, kháng lại áp lực ngắn hạn để ủng hộ những kết quả bền vững. Chính tầm nhìn dài hạn này mới là điều đáng tin cậy nhất để phân biệt lãnh đạo với quản lý đơn thuần."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "vision",
+      "ipa": "/ˈvɪʒ.ən/",
+      "pos": "noun",
+      "meaning_vi": "tầm nhìn, khả năng hình dung tương lai",
+      "meaning_vi_inline": "tầm nhìn",
+      "example_en": "The CEO's vision for the company inspired employees at every level to work toward a common goal.",
+      "example_vi": "Tầm nhìn của CEO về công ty đã truyền cảm hứng cho nhân viên ở mọi cấp độ cùng hướng tới một mục tiêu chung.",
+      "word_family": {
+        "noun": "vision / visionary",
+        "verb": "envision",
+        "adjective": "visionary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "probity",
+      "ipa": "/ˈprəʊ.bɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "đức chính trực, sự liêm chính",
+      "meaning_vi_inline": "đức chính trực",
+      "example_en": "Her reputation for financial probity made her the obvious choice to lead the public inquiry.",
+      "example_vi": "Danh tiếng về đức chính trực tài chính của bà khiến bà trở thành lựa chọn hiển nhiên để dẫn dắt cuộc điều tra công khai.",
+      "word_family": {
+        "noun": "probity",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "probability",
+        "explanation_vi": "'Probity' là đức chính trực, liêm chính; 'probability' là xác suất — hoàn toàn khác nghĩa, dễ nhầm vì hình thức tương tự."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "charisma",
+      "ipa": "/kəˈrɪz.mə/",
+      "pos": "noun",
+      "meaning_vi": "sức hút cá nhân, sức lôi cuốn",
+      "meaning_vi_inline": "sức hút cá nhân",
+      "example_en": "His natural charisma allowed him to win over even the most sceptical audiences.",
+      "example_vi": "Sức hút cá nhân tự nhiên của ông cho phép ông chinh phục cả những khán giả hoài nghi nhất.",
+      "word_family": {
+        "noun": "charisma",
+        "verb": null,
+        "adjective": "charismatic",
+        "adverb": "charismatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "empowerment",
+      "ipa": "/ɪmˈpaʊ.ə.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự trao quyền, sự trao năng lực",
+      "meaning_vi_inline": "sự trao quyền",
+      "example_en": "Economic empowerment of women has been shown to improve outcomes for entire communities.",
+      "example_vi": "Sự trao quyền kinh tế cho phụ nữ đã được chứng minh là cải thiện kết quả cho toàn bộ cộng đồng.",
+      "word_family": {
+        "noun": "empowerment",
+        "verb": "empower",
+        "adjective": "empowered / empowering",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "governance",
+      "ipa": "/ˈɡʌv.ən.əns/",
+      "pos": "noun",
+      "meaning_vi": "quản trị, cách thức điều hành",
+      "meaning_vi_inline": "quản trị",
+      "example_en": "Poor governance is widely regarded as the root cause of the country's economic decline.",
+      "example_vi": "Quản trị yếu kém được coi rộng rãi là nguyên nhân gốc rễ của sự suy thoái kinh tế của đất nước.",
+      "word_family": {
+        "noun": "governance / government / governor",
+        "verb": "govern",
+        "adjective": "governing / governmental",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "government",
+        "explanation_vi": "'Governance' chỉ hệ thống và quá trình quản trị; 'government' chỉ tổ chức hay cơ quan cụ thể đang nắm quyền — cùng gốc nhưng dùng khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "legacy",
+      "ipa": "/ˈleɡ.ə.si/",
+      "pos": "noun",
+      "meaning_vi": "di sản, những gì để lại cho hậu thế",
+      "meaning_vi_inline": "di sản",
+      "example_en": "The outgoing president's legacy was defined more by his foreign policy failures than his domestic reforms.",
+      "example_vi": "Di sản của vị tổng thống sắp mãn nhiệm được định hình bởi những thất bại chính sách đối ngoại hơn là các cải cách trong nước.",
+      "word_family": {
+        "noun": "legacy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "authority",
+      "ipa": "/ɔːˈθɒr.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "quyền lực, thẩm quyền",
+      "meaning_vi_inline": "quyền lực, thẩm quyền",
+      "example_en": "The committee has the authority to approve or reject all major expenditure proposals.",
+      "example_vi": "Ủy ban có thẩm quyền phê duyệt hoặc từ chối tất cả các đề xuất chi tiêu lớn.",
+      "word_family": {
+        "noun": "authority / authorisation",
+        "verb": "authorise",
+        "adjective": "authoritative / authorised",
+        "adverb": "authoritatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "inspiration",
+      "ipa": "/ˌɪn.spɪˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "nguồn cảm hứng, sự truyền cảm hứng",
+      "meaning_vi_inline": "nguồn cảm hứng",
+      "example_en": "She cited her mother's resilience as the primary inspiration for her career in public service.",
+      "example_vi": "Bà đề cập đến sự kiên cường của mẹ là nguồn cảm hứng chính cho sự nghiệp phục vụ cộng đồng của mình.",
+      "word_family": {
+        "noun": "inspiration",
+        "verb": "inspire",
+        "adjective": "inspired / inspiring / inspirational",
+        "adverb": "inspirationally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "mobilisation",
+      "ipa": "/ˌməʊ.bɪ.laɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự huy động, sự tập hợp lực lượng",
+      "meaning_vi_inline": "sự huy động",
+      "example_en": "The rapid mobilisation of volunteers after the disaster demonstrated the power of community leadership.",
+      "example_vi": "Việc huy động tình nguyện viên nhanh chóng sau thảm họa đã chứng minh sức mạnh của lãnh đạo cộng đồng.",
+      "word_family": {
+        "noun": "mobilisation",
+        "verb": "mobilise",
+        "adjective": "mobile / mobilised",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "answerability",
+      "ipa": "/ˌɑːn.sər.əˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính chịu trách nhiệm, nghĩa vụ giải trình",
+      "meaning_vi_inline": "tính chịu trách nhiệm",
+      "example_en": "Answerability to the public is the cornerstone of democratic governance.",
+      "example_vi": "Tính chịu trách nhiệm trước công chúng là nền tảng của quản trị dân chủ.",
+      "word_family": {
+        "noun": "answerability / accountability",
+        "verb": "answer (to)",
+        "adjective": "answerable / accountable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "exercise moral leadership",
+      "meaning_vi": "thực thi sự lãnh đạo có đạo đức",
+      "example_en": "In times of crisis, citizens look to public figures who are willing to exercise moral leadership rather than pursue narrow interests.",
+      "example_vi": "Trong thời khủng hoảng, người dân trông cậy vào những nhân vật công chúng sẵn sàng thực thi sự lãnh đạo có đạo đức thay vì theo đuổi lợi ích hẹp hòi.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "inspire collective action",
+      "meaning_vi": "truyền cảm hứng hành động tập thể",
+      "example_en": "The most effective social movements are driven by leaders who can inspire collective action across diverse groups.",
+      "example_vi": "Những phong trào xã hội hiệu quả nhất được dẫn dắt bởi những nhà lãnh đạo có thể truyền cảm hứng hành động tập thể xuyên suốt các nhóm đa dạng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "hold leaders accountable",
+      "meaning_vi": "buộc các nhà lãnh đạo phải chịu trách nhiệm",
+      "example_en": "A free press and an independent judiciary are essential institutions to hold leaders accountable for their actions.",
+      "example_vi": "Báo chí tự do và tư pháp độc lập là những thể chế thiết yếu để buộc các nhà lãnh đạo phải chịu trách nhiệm về hành động của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "leave a lasting legacy",
+      "meaning_vi": "để lại một di sản lâu dài",
+      "example_en": "The founder hoped to leave a lasting legacy by establishing a scholarship fund for disadvantaged students.",
+      "example_vi": "Người sáng lập hy vọng để lại một di sản lâu dài bằng cách thành lập quỹ học bổng cho học sinh có hoàn cảnh khó khăn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "build trust through integrity",
+      "meaning_vi": "xây dựng niềm tin thông qua sự chính trực",
+      "example_en": "The most enduring organisations build trust through integrity, maintaining consistent standards even when scrutiny is low.",
+      "example_vi": "Những tổ chức bền vững nhất xây dựng niềm tin thông qua sự chính trực, duy trì các tiêu chuẩn nhất quán ngay cả khi sự giám sát thấp.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, enduring leadership is primarily determined by the extent of a leader's power.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage suggests that charisma alone, without accountability, can be a dangerous quality in a leader.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that charismatic leaders are more likely to be elected than those with probity.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that true empowerment involves giving individuals agency, resources, and confidence.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that leaders who focus on their legacy tend to make worse short-term decisions.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new director brought a compelling _____ for the organisation's future that united a previously fractured team.",
+          "options": [
+            "legacy",
+            "vision",
+            "answerability",
+            "mobilisation"
+          ],
+          "answer": "vision"
+        },
+        {
+          "id": 2,
+          "sentence": "Her unquestioned _____ made her the committee's most trusted voice on matters of public finance.",
+          "options": [
+            "charisma",
+            "authority",
+            "probity",
+            "inspiration"
+          ],
+          "answer": "probity"
+        },
+        {
+          "id": 3,
+          "sentence": "Good _____ demands that decision-makers are transparent about both their methods and their motivations.",
+          "options": [
+            "governance",
+            "legacy",
+            "empowerment",
+            "inspiration"
+          ],
+          "answer": "governance"
+        },
+        {
+          "id": 4,
+          "sentence": "The activist's speech sparked the _____ of thousands of young people who had previously been disengaged from politics.",
+          "options": [
+            "authority",
+            "probity",
+            "answerability",
+            "mobilisation"
+          ],
+          "answer": "mobilisation"
+        },
+        {
+          "id": 5,
+          "sentence": "The school's _____ programme gave student council members the tools and confidence to drive real change.",
+          "options": [
+            "empowerment",
+            "legacy",
+            "charisma",
+            "vision"
+          ],
+          "answer": "empowerment"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "charisma",
+        "legacy",
+        "answerability",
+        "inspiration",
+        "authority",
+        "empowerment"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her natural _____ meant that people were drawn to her ideas long before she held any formal position.",
+          "answer": "charisma"
+        },
+        {
+          "id": 2,
+          "sentence": "The minister abused his _____ by authorising expenditure that had not been approved by the council.",
+          "answer": "authority"
+        },
+        {
+          "id": 3,
+          "sentence": "The late reformer's _____ lives on in the policies he championed, which continue to shape the country decades later.",
+          "answer": "legacy"
+        },
+        {
+          "id": 4,
+          "sentence": "Democratic _____ requires that officials explain their decisions and accept the consequences if they fail.",
+          "answer": "answerability"
+        },
+        {
+          "id": 5,
+          "sentence": "She drew _____ from the lives of ordinary people who had overcome adversity without recognition or reward.",
+          "answer": "inspiration"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "great",
+            "leaders",
+            "inspire",
+            "collective",
+            "action",
+            "through",
+            "vision",
+            "and",
+            "integrity"
+          ],
+          "answer": "Great leaders inspire collective action through vision and integrity."
+        },
+        {
+          "id": 2,
+          "words": [
+            "probity",
+            "is",
+            "essential",
+            "for",
+            "building",
+            "lasting",
+            "public",
+            "trust"
+          ],
+          "answer": "Probity is essential for building lasting public trust."
+        },
+        {
+          "id": 3,
+          "words": [
+            "good",
+            "governance",
+            "requires",
+            "both",
+            "transparency",
+            "and",
+            "answerability"
+          ],
+          "answer": "Good governance requires both transparency and answerability."
+        },
+        {
+          "id": 4,
+          "words": [
+            "empowering",
+            "others",
+            "is",
+            "the",
+            "hallmark",
+            "of",
+            "truly",
+            "effective",
+            "leadership"
+          ],
+          "answer": "Empowering others is the hallmark of truly effective leadership."
+        },
+        {
+          "id": 5,
+          "words": [
+            "leaders",
+            "who",
+            "build",
+            "trust",
+            "through",
+            "integrity",
+            "leave",
+            "a",
+            "lasting",
+            "legacy"
+          ],
+          "answer": "Leaders who build trust through integrity leave a lasting legacy."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her [visionary] for a more inclusive organisation attracted talented people from across the industry.",
+          "highlighted": "visionary",
+          "options": {
+            "A": "vision",
+            "B": "visioned",
+            "C": "envisioning"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the object of 'Her' — 'vision', not the adjective 'visionary', which modifies a person or idea, not a possession."
+        },
+        {
+          "id": 2,
+          "sentence": "The senator's reputation for [probate] in public life made her the natural candidate for the ethics committee.",
+          "highlighted": "probate",
+          "options": {
+            "A": "probable",
+            "B": "probity",
+            "C": "probing"
+          },
+          "answer": "B",
+          "explanation": "'Probity' means moral integrity — the correct word here; 'probate' is a legal term relating to wills and has no connection to ethical conduct."
+        },
+        {
+          "id": 3,
+          "sentence": "The rapid [mobilise] of community volunteers prevented the situation from deteriorating further.",
+          "highlighted": "mobilise",
+          "options": {
+            "A": "mobilisation",
+            "B": "mobilised",
+            "C": "mobile"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the subject of the sentence — 'mobilisation', not the verb 'mobilise'."
+        },
+        {
+          "id": 4,
+          "sentence": "Citizens in a democracy have both the right and the duty to [hold leaders accountably] for their decisions.",
+          "highlighted": "hold leaders accountably",
+          "options": {
+            "A": "hold leaders accountable",
+            "B": "hold leaders accounting",
+            "C": "hold leaders in account"
+          },
+          "answer": "A",
+          "explanation": "The fixed collocation is 'hold someone accountable' using the adjective — 'accountably' (an adverb) does not fit this structure."
+        },
+        {
+          "id": 5,
+          "sentence": "The programme aimed to [empowering] young women to take on leadership roles in their communities.",
+          "highlighted": "empowering",
+          "options": {
+            "A": "empowerment",
+            "B": "empower",
+            "C": "empowered"
+          },
+          "answer": "B",
+          "explanation": "After 'aimed to', the infinitive without 'to' is already implied — 'empower' (bare infinitive form) is required, not the gerund 'empowering'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "vision",
+      "2": "probity",
+      "3": "governance",
+      "4": "mobilisation",
+      "5": "empowerment"
+    },
+    "ex3": {
+      "1": "charisma",
+      "2": "authority",
+      "3": "legacy",
+      "4": "answerability",
+      "5": "inspiration"
+    },
+    "ex4": {
+      "1": "Great leaders inspire collective action through vision and integrity.",
+      "2": "Probity is essential for building lasting public trust.",
+      "3": "Good governance requires both transparency and answerability.",
+      "4": "Empowering others is the hallmark of truly effective leadership.",
+      "5": "Leaders who build trust through integrity leave a lasting legacy."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

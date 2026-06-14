@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 31,
+    "topic_id": "b2-t31",
+    "topic_title": "Visual Arts & Design",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🎨",
+    "topic_title_vi": "Nghệ Thuật Thị Giác & Thiết Kế",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 210,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The visual arts include a wide range of **creative** activities, from painting and **sculpture** to photography and graphic **design**. Artists work in many different **medium**s — the materials or methods they use to make their work. Oil on canvas, watercolour, and digital software are all examples of mediums that can produce strikingly different results even when a painter follows the same **technique**.",
+        "text_vi": "Nghệ thuật thị giác bao gồm nhiều hoạt động **sáng tạo**, từ hội họa và **điêu khắc** đến nhiếp ảnh và **thiết kế** đồ họa. Các nghệ sĩ làm việc với nhiều **chất liệu** khác nhau — nguyên liệu hoặc phương pháp họ dùng để tạo ra tác phẩm. Sơn dầu trên vải, màu nước và phần mềm kỹ thuật số đều là những ví dụ về chất liệu có thể tạo ra kết quả khác biệt đáng kể ngay cả khi một họa sĩ theo cùng một **kỹ thuật**."
+      },
+      {
+        "index": 2,
+        "text_en": "**Modern art** — art created from roughly the late 19th century onward — often challenges traditional ideas about beauty and representation. Many modern works are **non-realistic**, meaning they do not try to copy nature or people exactly. Learning to **read** a painting — to understand its symbols, emotions, and intentions — is a skill that takes time and exposure to develop. The **style** an artist develops over their career often becomes their signature, immediately recognisable to admirers of their work.",
+        "text_vi": "**Nghệ thuật hiện đại** — nghệ thuật được tạo ra từ khoảng cuối thế kỷ 19 trở đi — thường thách thức các quan niệm truyền thống về vẻ đẹp và biểu hiện. Nhiều tác phẩm hiện đại có tính **phi hiện thực**, nghĩa là không cố gắng sao chép tự nhiên hay con người một cách chính xác. Học cách **đọc** một bức tranh — hiểu các biểu tượng, cảm xúc và ý định của nó — là một kỹ năng cần thời gian và tiếp xúc để phát triển. **Phong cách** một nghệ sĩ phát triển trong sự nghiệp thường trở thành chữ ký của họ, ngay lập tức được người hâm mộ nhận ra."
+      },
+      {
+        "index": 3,
+        "text_en": "Art **gallery**s and **exhibition**s provide spaces where the public can encounter works of art. A well-curated **exhibition** — a public **show** or presentation of artworks — can **inspire** viewers in unexpected ways, prompting them to think differently about the world around them. Galleries also protect and maintain **collection**s of works that represent important moments in art history.",
+        "text_vi": "**Phòng trưng bày** và **triển lãm** cung cấp không gian để công chúng có thể tiếp xúc với các tác phẩm nghệ thuật. Một **triển lãm** được tuyển chọn tốt — một **buổi trình bày** hoặc trưng bày tác phẩm công khai — có thể **truyền cảm hứng** cho người xem theo những cách bất ngờ, thôi thúc họ suy nghĩ khác về thế giới xung quanh. Phòng trưng bày cũng bảo vệ và duy trì các **bộ sưu tập** tác phẩm đại diện cho những thời điểm quan trọng trong lịch sử nghệ thuật."
+      },
+      {
+        "index": 4,
+        "text_en": "**Display** — how artworks are arranged and presented to viewers — is itself an art form. A thoughtful **display** can completely change how a visitor experiences a piece. In the digital age, artists increasingly share their work online, reaching audiences far beyond the walls of a traditional gallery. This has made art more accessible but also raises new questions about how we value and **collect** creative work.",
+        "text_vi": "**Trưng bày** — cách các tác phẩm được sắp xếp và giới thiệu đến người xem — bản thân nó cũng là một hình thức nghệ thuật. Một cách **trưng bày** chu đáo có thể thay đổi hoàn toàn cách khách thăm trải nghiệm một tác phẩm. Trong thời đại kỹ thuật số, các nghệ sĩ ngày càng chia sẻ tác phẩm trực tuyến, tiếp cận khán giả vượt ra ngoài phạm vi phòng trưng bày truyền thống. Điều này làm cho nghệ thuật dễ tiếp cận hơn nhưng cũng đặt ra câu hỏi mới về cách chúng ta đánh giá và **sưu tầm** các tác phẩm sáng tạo."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "sculpture",
+      "ipa": "/ˈskʌlp.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "điêu khắc; tác phẩm điêu khắc",
+      "meaning_vi_inline": "điêu khắc",
+      "example_en": "The museum's sculpture garden features works by both classical and contemporary artists.",
+      "example_vi": "Vườn điêu khắc của bảo tàng trưng bày các tác phẩm của cả nghệ sĩ cổ điển lẫn đương đại.",
+      "word_family": {
+        "noun": "sculpture / sculptor",
+        "verb": "sculpt",
+        "adjective": "sculptural",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "exhibition",
+      "ipa": "/ˌek.sɪˈbɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "triển lãm (nghệ thuật)",
+      "meaning_vi_inline": "triển lãm",
+      "example_en": "The Picasso exhibition attracted over 200,000 visitors in just three weeks.",
+      "example_vi": "Triển lãm Picasso thu hút hơn 200.000 khách trong chỉ ba tuần.",
+      "word_family": {
+        "noun": "exhibition / exhibitor",
+        "verb": "exhibit",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "gallery",
+      "ipa": "/ˈɡæl.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "phòng trưng bày, gallery nghệ thuật",
+      "meaning_vi_inline": "phòng trưng bày",
+      "example_en": "She spent the afternoon visiting a small gallery near the city centre.",
+      "example_vi": "Cô ấy dành cả buổi chiều tham quan một phòng trưng bày nhỏ gần trung tâm thành phố.",
+      "word_family": {
+        "noun": "gallery",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "show",
+      "ipa": "/ʃəʊ/",
+      "pos": "noun / verb",
+      "meaning_vi": "buổi trình diễn, triển lãm; trình bày, giới thiệu",
+      "meaning_vi_inline": "triển lãm, trình bày",
+      "example_en": "The artist held a private show for collectors before opening to the general public.",
+      "example_vi": "Nghệ sĩ tổ chức buổi trình bày riêng cho các nhà sưu tầm trước khi mở cửa cho công chúng.",
+      "word_family": {
+        "noun": "show / showing",
+        "verb": "show",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "inspire",
+      "ipa": "/ɪnˈspaɪər/",
+      "pos": "verb",
+      "meaning_vi": "truyền cảm hứng",
+      "meaning_vi_inline": "truyền cảm hứng",
+      "example_en": "The landscapes of Vietnam inspired her to paint with bolder colours.",
+      "example_vi": "Phong cảnh Việt Nam đã truyền cảm hứng cho cô ấy vẽ với những màu sắc táo bạo hơn.",
+      "word_family": {
+        "noun": "inspiration",
+        "verb": "inspire",
+        "adjective": "inspired / inspiring / inspirational",
+        "adverb": "inspiringly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "medium",
+      "ipa": "/ˈmiː.di.əm/",
+      "pos": "noun",
+      "meaning_vi": "chất liệu nghệ thuật; phương tiện biểu đạt",
+      "meaning_vi_inline": "chất liệu",
+      "example_en": "He works primarily in watercolour, but recently he has been exploring digital as a medium.",
+      "example_vi": "Anh ấy làm việc chủ yếu với màu nước, nhưng gần đây đã khám phá kỹ thuật số như một chất liệu.",
+      "word_family": {
+        "noun": "medium (pl. media / mediums)",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "media",
+        "explanation_vi": "'Medium' (số nhiều 'media') trong nghệ thuật chỉ chất liệu hoặc phương pháp tạo tác phẩm; trong truyền thông, 'media' là 'phương tiện truyền thông đại chúng'. Hai nghĩa này hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "technique",
+      "ipa": "/tekˈniːk/",
+      "pos": "noun",
+      "meaning_vi": "kỹ thuật (vẽ, điêu khắc...)",
+      "meaning_vi_inline": "kỹ thuật",
+      "example_en": "The artist's technique of layering thin washes of colour gives the painting great depth.",
+      "example_vi": "Kỹ thuật phủ nhiều lớp màu mỏng của nghệ sĩ mang lại chiều sâu tuyệt vời cho bức tranh.",
+      "word_family": {
+        "noun": "technique",
+        "verb": null,
+        "adjective": "technical",
+        "adverb": "technically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "non-realistic",
+      "ipa": "/ˌnɒn.rɪˈæl.ɪs.tɪk/",
+      "pos": "adjective",
+      "meaning_vi": "phi hiện thực, trừu tượng (nghệ thuật không tả thực)",
+      "meaning_vi_inline": "phi hiện thực",
+      "example_en": "Many people find non-realistic art difficult to understand at first.",
+      "example_vi": "Nhiều người thấy nghệ thuật phi hiện thực khó hiểu lúc đầu.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "non-realistic / abstract",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "modern art",
+      "ipa": "/ˌmɒd.ən ˈɑːt/",
+      "pos": "noun phrase",
+      "meaning_vi": "nghệ thuật hiện đại",
+      "meaning_vi_inline": "nghệ thuật hiện đại",
+      "example_en": "Modern art often challenges the viewer to question their assumptions about beauty.",
+      "example_vi": "Nghệ thuật hiện đại thường thách thức người xem đặt câu hỏi về nhận thức của họ về vẻ đẹp.",
+      "word_family": {
+        "noun": "modern art / contemporary art",
+        "verb": null,
+        "adjective": "modern",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "read",
+      "ipa": "/riːd/",
+      "pos": "verb",
+      "meaning_vi": "đọc (hiểu, diễn giải) tác phẩm nghệ thuật",
+      "meaning_vi_inline": "đọc, diễn giải",
+      "example_en": "Learning to read a painting means understanding its symbols and emotional message.",
+      "example_vi": "Học cách đọc một bức tranh có nghĩa là hiểu các biểu tượng và thông điệp cảm xúc của nó.",
+      "word_family": {
+        "noun": "reading / reader",
+        "verb": "read",
+        "adjective": "readable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "đọc (văn bản)",
+        "explanation_vi": "Trong nghệ thuật, 'read' có nghĩa là giải mã và diễn giải một tác phẩm — không phải đọc chữ viết. Ví dụ: 'to read a painting' = hiểu thông điệp ẩn trong bức tranh đó."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "pos": "noun / verb",
+      "meaning_vi": "thiết kế (đồ họa, sản phẩm, không gian)",
+      "meaning_vi_inline": "thiết kế",
+      "example_en": "Good design combines aesthetics with functionality to create something both beautiful and useful.",
+      "example_vi": "Thiết kế tốt kết hợp thẩm mỹ với chức năng để tạo ra thứ vừa đẹp vừa hữu dụng.",
+      "word_family": {
+        "noun": "design / designer",
+        "verb": "design",
+        "adjective": "designed / designer",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "creative",
+      "ipa": "/kriˈeɪ.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "sáng tạo, có tính nghệ thuật",
+      "meaning_vi_inline": "sáng tạo",
+      "example_en": "She has a very creative mind and is always coming up with original ideas.",
+      "example_vi": "Cô ấy có tư duy rất sáng tạo và luôn đưa ra những ý tưởng độc đáo.",
+      "word_family": {
+        "noun": "creativity / creation / creator",
+        "verb": "create",
+        "adjective": "creative",
+        "adverb": "creatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "style",
+      "ipa": "/staɪl/",
+      "pos": "noun",
+      "meaning_vi": "phong cách (nghệ thuật)",
+      "meaning_vi_inline": "phong cách",
+      "example_en": "Her unique style blends traditional Vietnamese motifs with contemporary abstract forms.",
+      "example_vi": "Phong cách độc đáo của cô kết hợp họa tiết Việt Nam truyền thống với hình thức trừu tượng đương đại.",
+      "word_family": {
+        "noun": "style",
+        "verb": "style",
+        "adjective": "stylish / styled",
+        "adverb": "stylishly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "display",
+      "ipa": "/dɪˈspleɪ/",
+      "pos": "noun / verb",
+      "meaning_vi": "trưng bày; cách trưng bày (tác phẩm)",
+      "meaning_vi_inline": "trưng bày",
+      "example_en": "The way the paintings were displayed made it easy to understand the artist's creative journey.",
+      "example_vi": "Cách các bức tranh được trưng bày giúp dễ hiểu hành trình sáng tạo của nghệ sĩ.",
+      "word_family": {
+        "noun": "display",
+        "verb": "display",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "collection",
+      "ipa": "/kəˈlek.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "bộ sưu tập (tác phẩm nghệ thuật)",
+      "meaning_vi_inline": "bộ sưu tập",
+      "example_en": "The gallery's permanent collection includes works spanning five centuries of European painting.",
+      "example_vi": "Bộ sưu tập thường trực của phòng trưng bày bao gồm các tác phẩm trải dài năm thế kỷ hội họa châu Âu.",
+      "word_family": {
+        "noun": "collection / collector",
+        "verb": "collect",
+        "adjective": "collectible",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Modern art typically tries to copy nature as accurately as possible.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Art galleries protect collections that represent important moments in art history.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that digital art is less valuable than traditional painting.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Learning to read a painting is a skill that develops through time and exposure.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "All artists use the same medium throughout their careers.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ at the national museum included over 50 paintings from the Renaissance period.",
+          "options": [
+            "collection",
+            "gallery",
+            "exhibition",
+            "display"
+          ],
+          "answer": "exhibition"
+        },
+        {
+          "id": 2,
+          "sentence": "She prefers to work in watercolour as her main _____, finding oil paint too slow to dry.",
+          "options": [
+            "style",
+            "technique",
+            "medium",
+            "design"
+          ],
+          "answer": "medium"
+        },
+        {
+          "id": 3,
+          "sentence": "The artist's _____ is instantly recognisable — she always uses bold lines and vivid colours.",
+          "options": [
+            "exhibition",
+            "sculpture",
+            "collection",
+            "style"
+          ],
+          "answer": "style"
+        },
+        {
+          "id": 4,
+          "sentence": "The museum's permanent _____ spans five centuries of European and Asian art.",
+          "options": [
+            "show",
+            "collection",
+            "technique",
+            "display"
+          ],
+          "answer": "collection"
+        },
+        {
+          "id": 5,
+          "sentence": "His travels across Southeast Asia _____ him to create a series of vibrant landscape paintings.",
+          "options": [
+            "showed",
+            "designed",
+            "displayed",
+            "inspired"
+          ],
+          "answer": "inspired"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "sculpture",
+        "technique",
+        "gallery",
+        "creative",
+        "non-realistic"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The bronze _____ outside the entrance took the artist over two years to complete.",
+          "answer": "sculpture"
+        },
+        {
+          "id": 2,
+          "sentence": "His painting _____ involves applying multiple thin layers of colour to build depth.",
+          "answer": "technique"
+        },
+        {
+          "id": 3,
+          "sentence": "The small _____ near our school shows works by local artists every month.",
+          "answer": "gallery"
+        },
+        {
+          "id": 4,
+          "sentence": "She is an incredibly _____ person — she can turn almost any ordinary object into a work of art.",
+          "answer": "creative"
+        },
+        {
+          "id": 5,
+          "sentence": "Many people struggle to appreciate _____ art because it does not show recognisable objects.",
+          "answer": "non-realistic"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "artist",
+            "developed",
+            "a",
+            "unique",
+            "style",
+            "that",
+            "blends",
+            "traditional",
+            "and",
+            "modern",
+            "techniques"
+          ],
+          "answer": "The artist developed a unique style that blends traditional and modern techniques."
+        },
+        {
+          "id": 2,
+          "words": [
+            "learning",
+            "to",
+            "read",
+            "a",
+            "painting",
+            "takes",
+            "time",
+            "and",
+            "a",
+            "lot",
+            "of",
+            "exposure",
+            "to",
+            "art"
+          ],
+          "answer": "Learning to read a painting takes time and a lot of exposure to art."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "gallery",
+            "display",
+            "was",
+            "arranged",
+            "to",
+            "show",
+            "the",
+            "artist's",
+            "creative",
+            "journey"
+          ],
+          "answer": "The gallery display was arranged to show the artist's creative journey."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "exhibition",
+            "inspired",
+            "many",
+            "young",
+            "people",
+            "to",
+            "explore",
+            "modern",
+            "art"
+          ],
+          "answer": "The exhibition inspired many young people to explore modern art."
+        },
+        {
+          "id": 5,
+          "words": [
+            "she",
+            "chose",
+            "watercolour",
+            "as",
+            "her",
+            "medium",
+            "because",
+            "it",
+            "suits",
+            "her",
+            "delicate",
+            "style"
+          ],
+          "answer": "She chose watercolour as her medium because it suits her delicate style."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The museum is famous for its [group] of rare Renaissance paintings.",
+          "highlighted": "group",
+          "options": {
+            "A": "exhibition",
+            "B": "collection",
+            "C": "group"
+          },
+          "answer": "B",
+          "explanation": "'Collection' is the standard term for a set of artworks gathered and owned by a museum or private collector over time. 'Exhibition' refers to a temporary public display, and 'group' is too generic and informal."
+        },
+        {
+          "id": 2,
+          "sentence": "He uses a careful [approach] of building up layers of paint to create texture.",
+          "highlighted": "approach",
+          "options": {
+            "A": "technique",
+            "B": "approach",
+            "C": "method"
+          },
+          "answer": "A",
+          "explanation": "'Technique' is the precise art term for a specific skill or method used in creating artworks. 'Approach' and 'method' are more general words and do not carry the specialised art meaning."
+        },
+        {
+          "id": 3,
+          "sentence": "The [showing] of artworks at the gallery changes every three months.",
+          "highlighted": "showing",
+          "options": {
+            "A": "exhibition",
+            "B": "show",
+            "C": "showing"
+          },
+          "answer": "A",
+          "explanation": "'Exhibition' is the correct and formal term for a public display of artworks. While 'show' can work informally, 'exhibition' is specifically used for formal gallery and museum contexts. 'Showing' is used for films and performances, not art galleries."
+        },
+        {
+          "id": 4,
+          "sentence": "The artist works in a highly [imaginary] style that does not look like the real world.",
+          "highlighted": "imaginary",
+          "options": {
+            "A": "creative",
+            "B": "non-realistic",
+            "C": "imaginary"
+          },
+          "answer": "B",
+          "explanation": "'Non-realistic' is the target vocabulary term for art that does not try to represent the world accurately. 'Imaginary' means something that exists only in the mind (not real), while 'creative' means original and inventive — neither describes a visual style."
+        },
+        {
+          "id": 5,
+          "sentence": "The painting [encouraged] him to think differently about his own culture and identity.",
+          "highlighted": "encouraged",
+          "options": {
+            "A": "inspired",
+            "B": "encouraged",
+            "C": "motivated"
+          },
+          "answer": "A",
+          "explanation": "'Inspired' is the natural verb for describing the effect of art, music, or nature on a person's emotions and imagination. 'Encouraged' suggests pushing someone to take action, and 'motivated' implies giving someone a reason to do something — both lack the emotional/creative dimension of 'inspired'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "exhibition",
+      "2": "medium",
+      "3": "style",
+      "4": "collection",
+      "5": "inspired"
+    },
+    "ex3": {
+      "1": "sculpture",
+      "2": "technique",
+      "3": "gallery",
+      "4": "creative",
+      "5": "non-realistic"
+    },
+    "ex4": {
+      "1": "The artist developed a unique style that blends traditional and modern techniques.",
+      "2": "Learning to read a painting takes time and a lot of exposure to art.",
+      "3": "The gallery display was arranged to show the artist's creative journey.",
+      "4": "The exhibition inspired many young people to explore modern art.",
+      "5": "She chose watercolour as her medium because it suits her delicate style."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "A",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

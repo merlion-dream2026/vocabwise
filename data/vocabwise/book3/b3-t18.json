@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 18,
+    "topic_id": "b3-t18",
+    "topic_title": "Space Exploration & Science",
+    "topic_title_vi": "Khám Phá Không Gian & Khoa Học",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🚀",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Humanity's desire to explore the cosmos has driven some of the most extraordinary scientific achievements in history. When a spacecraft enters **orbit** around a distant planet, it transmits data that allows scientists to map surfaces, measure **atmosphere**, and search for signs of life. The discovery of thousands of **exoplanet** candidates beyond our solar system has fundamentally altered our understanding of how common planetary systems may be across the universe.",
+        "text_vi": "Khát vọng khám phá vũ trụ của con người đã thúc đẩy một số thành tựu khoa học phi thường nhất trong lịch sử. Khi một tàu vũ trụ đi vào **quỹ đạo** quanh một hành tinh xa xôi, nó truyền dữ liệu cho phép các nhà khoa học lập bản đồ bề mặt, đo **bầu khí quyển** và tìm kiếm dấu hiệu sự sống. Việc phát hiện hàng nghìn **ngoại hành tinh** tiềm năng ngoài hệ mặt trời đã thay đổi căn bản hiểu biết của chúng ta về mức độ phổ biến của các hệ hành tinh trong vũ trụ."
+      },
+      {
+        "index": 2,
+        "text_en": "Sending humans beyond Earth presents formidable engineering challenges. The **propulsion** systems required to **launch interstellar missions** must generate thrust on an unprecedented scale, while the precise **trajectory** of any spacecraft must account for **gravitational** forces from multiple celestial bodies simultaneously. Even a small miscalculation in trajectory can result in mission failure millions of kilometres from any possibility of rescue.",
+        "text_vi": "Đưa con người ra ngoài Trái Đất đặt ra những thách thức kỹ thuật ghê gớm. Các hệ thống **đẩy** cần thiết để **phóng các sứ mệnh liên sao** phải tạo ra lực đẩy ở quy mô chưa từng có, trong khi **quỹ đạo bay** chính xác của bất kỳ tàu vũ trụ nào cũng phải tính đến các lực **hấp dẫn** từ nhiều thiên thể đồng thời. Ngay cả một sai lệch nhỏ về quỹ đạo cũng có thể dẫn đến thất bại sứ mệnh khi cách xa hàng triệu kilômét mà không có khả năng cứu hộ."
+      },
+      {
+        "index": 3,
+        "text_en": "The field of **astrophysics** has been revolutionised by instruments capable of **detecting gravitational waves** — ripples in spacetime produced by colliding black holes or neutron stars. These detections, confirmed only since 2015, have opened an entirely new observational window onto the universe and continue to **advance astrophysical understanding** in ways that once seemed purely theoretical. The **magnitude** of such discoveries is difficult to overstate.",
+        "text_vi": "Lĩnh vực **vật lý thiên văn** đã được cách mạng hóa bởi các thiết bị có khả năng **phát hiện sóng hấp dẫn** — những gợn sóng trong không-thời gian được tạo ra bởi các lỗ đen hoặc sao neutron va chạm nhau. Những phát hiện này, chỉ được xác nhận từ năm 2015, đã mở ra một cửa sổ quan sát hoàn toàn mới đối với vũ trụ và tiếp tục **thúc đẩy hiểu biết vật lý thiên văn** theo những cách từng chỉ tồn tại trong lý thuyết. **Tầm quan trọng** của những khám phá như vậy thật khó có thể phóng đại."
+      },
+      {
+        "index": 4,
+        "text_en": "Yet the ultimate challenge remains learning to **sustain human life in space** over long durations. Radiation exposure, muscle atrophy, and psychological isolation all pose serious risks to **extraterrestrial** crews. As space agencies and private enterprises race to **explore the boundaries of the universe**, the need to solve these biological problems becomes as pressing as any purely technical obstacle — reminding us that the human body, not just the rocket, is the limiting factor.",
+        "text_vi": "Tuy nhiên, thách thức tối thượng vẫn là học cách **duy trì sự sống của con người trong không gian** trong thời gian dài. Phơi nhiễm bức xạ, teo cơ và cô lập tâm lý đều đặt ra rủi ro nghiêm trọng cho các phi hành đoàn **ngoài Trái Đất**. Khi các cơ quan vũ trụ và doanh nghiệp tư nhân đua nhau **khám phá ranh giới của vũ trụ**, nhu cầu giải quyết các vấn đề sinh học này trở nên cấp bách không kém bất kỳ trở ngại kỹ thuật thuần túy nào — nhắc nhở chúng ta rằng cơ thể con người, chứ không chỉ tên lửa, mới là yếu tố giới hạn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "orbit",
+      "ipa": "/ˈɔː.bɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "quỹ đạo; bay quanh quỹ đạo",
+      "meaning_vi_inline": "quỹ đạo",
+      "example_en": "The International Space Station completes approximately 15.5 orbits of the Earth every day.",
+      "example_vi": "Trạm Vũ trụ Quốc tế hoàn thành khoảng 15,5 vòng quỹ đạo quanh Trái Đất mỗi ngày.",
+      "word_family": {
+        "noun": "orbit / orbital",
+        "verb": "orbit",
+        "adjective": "orbital",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "gravitational",
+      "ipa": "/ˌɡræv.ɪˈteɪ.ʃən.əl/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về lực hấp dẫn, hấp dẫn (vật lý)",
+      "meaning_vi_inline": "hấp dẫn (lực)",
+      "example_en": "The gravitational pull of Jupiter is so strong that it captures and redirects many comets.",
+      "example_vi": "Lực hấp dẫn của Sao Mộc mạnh đến mức nó bắt giữ và làm lệch hướng nhiều sao chổi.",
+      "word_family": {
+        "noun": "gravity / gravitation",
+        "verb": null,
+        "adjective": "gravitational",
+        "adverb": "gravitationally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "interstellar",
+      "ipa": "/ˌɪn.təˈstel.ər/",
+      "pos": "adjective",
+      "meaning_vi": "liên sao, giữa các vì sao",
+      "meaning_vi_inline": "liên sao",
+      "example_en": "Voyager 1 became the first human-made object to enter interstellar space in 2012.",
+      "example_vi": "Voyager 1 trở thành vật thể do con người tạo ra đầu tiên bước vào không gian liên sao vào năm 2012.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "interstellar",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "intergalactic",
+        "explanation_vi": "'Interstellar' chỉ khoảng không gian giữa các ngôi sao trong cùng một thiên hà; 'intergalactic' chỉ khoảng không gian giữa các thiên hà — quy mô lớn hơn nhiều."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "astrophysics",
+      "ipa": "/ˈæs.trəʊˌfɪz.ɪks/",
+      "pos": "noun",
+      "meaning_vi": "vật lý thiên văn",
+      "meaning_vi_inline": "vật lý thiên văn",
+      "example_en": "Advances in astrophysics have been accelerated by the data collected by the James Webb Space Telescope.",
+      "example_vi": "Những tiến bộ trong vật lý thiên văn đã được thúc đẩy nhờ dữ liệu thu thập từ Kính viễn vọng Không gian James Webb.",
+      "word_family": {
+        "noun": "astrophysics / astrophysicist",
+        "verb": null,
+        "adjective": "astrophysical",
+        "adverb": "astrophysically"
+      },
+      "false_friend": {
+        "word_vi": "astronomy",
+        "explanation_vi": "'Astrophysics' tập trung vào việc áp dụng các nguyên lý vật lý để giải thích các hiện tượng vũ trụ; 'astronomy' là nghiên cứu tổng quát hơn về các thiên thể — astrophysics là một nhánh chuyên sâu hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "trajectory",
+      "ipa": "/trəˈdʒek.tər.i/",
+      "pos": "noun",
+      "meaning_vi": "quỹ đạo bay, đường đạn đạo; hướng phát triển",
+      "meaning_vi_inline": "quỹ đạo bay",
+      "example_en": "Mission controllers calculated the exact trajectory needed to slingshot the probe around Mars.",
+      "example_vi": "Các bộ điều khiển sứ mệnh tính toán quỹ đạo bay chính xác cần thiết để bắn tung tàu thăm dò quanh Sao Hoả.",
+      "word_family": {
+        "noun": "trajectory",
+        "verb": null,
+        "adjective": "trajectorial",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "propulsion",
+      "ipa": "/prəˈpʌl.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lực đẩy, hệ thống đẩy",
+      "meaning_vi_inline": "lực đẩy",
+      "example_en": "Ion propulsion systems are far more fuel-efficient than conventional rocket engines for long-duration missions.",
+      "example_vi": "Các hệ thống đẩy ion hiệu quả nhiên liệu hơn nhiều so với động cơ tên lửa thông thường trong các sứ mệnh dài ngày.",
+      "word_family": {
+        "noun": "propulsion / propellant",
+        "verb": "propel",
+        "adjective": "propulsive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "exoplanet",
+      "ipa": "/ˈek.səʊˌplæn.ɪt/",
+      "pos": "noun",
+      "meaning_vi": "ngoại hành tinh (hành tinh ngoài hệ mặt trời)",
+      "meaning_vi_inline": "ngoại hành tinh",
+      "example_en": "The Kepler space telescope identified over 2,600 confirmed exoplanets during its nine-year mission.",
+      "example_vi": "Kính viễn vọng không gian Kepler đã xác định hơn 2.600 ngoại hành tinh được xác nhận trong sứ mệnh chín năm của nó.",
+      "word_family": {
+        "noun": "exoplanet / planet / planetary system",
+        "verb": null,
+        "adjective": "exoplanetary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "magnitude",
+      "ipa": "/ˈmæɡ.nɪ.tjuːd/",
+      "pos": "noun",
+      "meaning_vi": "độ lớn, tầm quan trọng, quy mô",
+      "meaning_vi_inline": "tầm quan trọng, quy mô",
+      "example_en": "The magnitude of the scientific breakthrough was only fully appreciated decades after it occurred.",
+      "example_vi": "Tầm quan trọng của đột phá khoa học này chỉ được đánh giá đầy đủ hàng thập kỷ sau khi nó xảy ra.",
+      "word_family": {
+        "noun": "magnitude",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "extraterrestrial",
+      "ipa": "/ˌek.strə.təˈres.tri.əl/",
+      "pos": "adjective / noun",
+      "meaning_vi": "ngoài Trái Đất; sinh vật ngoài Trái Đất",
+      "meaning_vi_inline": "ngoài Trái Đất",
+      "example_en": "The search for extraterrestrial intelligence has been ongoing since the 1960s without confirmed results.",
+      "example_vi": "Việc tìm kiếm trí tuệ ngoài Trái Đất đã được tiến hành từ những năm 1960 mà chưa có kết quả xác nhận.",
+      "word_family": {
+        "noun": "extraterrestrial",
+        "verb": null,
+        "adjective": "extraterrestrial",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "terrestrial",
+        "explanation_vi": "'Extraterrestrial' nghĩa là có nguồn gốc hoặc tồn tại ngoài Trái Đất; 'terrestrial' nghĩa là thuộc về hoặc sống trên Trái Đất — hai từ trái nghĩa nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "atmosphere",
+      "ipa": "/ˈæt.mə.sfɪər/",
+      "pos": "noun",
+      "meaning_vi": "bầu khí quyển; bầu không khí (nghĩa bóng)",
+      "meaning_vi_inline": "bầu khí quyển",
+      "example_en": "Mars has a very thin atmosphere composed mainly of carbon dioxide, making it hostile to human life.",
+      "example_vi": "Sao Hoả có bầu khí quyển rất mỏng chủ yếu gồm carbon dioxide, khiến nó không thân thiện với sự sống của con người.",
+      "word_family": {
+        "noun": "atmosphere",
+        "verb": null,
+        "adjective": "atmospheric",
+        "adverb": "atmospherically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "advance astrophysical understanding",
+      "meaning_vi": "thúc đẩy hiểu biết vật lý thiên văn",
+      "example_en": "Each new telescope launched into orbit helps to advance astrophysical understanding of dark matter and energy.",
+      "example_vi": "Mỗi kính viễn vọng mới được phóng vào quỹ đạo góp phần thúc đẩy hiểu biết vật lý thiên văn về vật chất và năng lượng tối.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "explore the boundaries of the universe",
+      "meaning_vi": "khám phá ranh giới của vũ trụ",
+      "example_en": "Future generations of deep-space telescopes will explore the boundaries of the universe and peer back to its earliest moments.",
+      "example_vi": "Các thế hệ kính viễn vọng không gian sâu trong tương lai sẽ khám phá ranh giới của vũ trụ và nhìn ngược về những khoảnh khắc đầu tiên của nó.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "sustain human life in space",
+      "meaning_vi": "duy trì sự sống của con người trong không gian",
+      "example_en": "Engineers must solve the problem of how to sustain human life in space for the duration of a Mars mission.",
+      "example_vi": "Các kỹ sư phải giải quyết vấn đề làm thế nào để duy trì sự sống của con người trong không gian suốt thời gian của một sứ mệnh tới Sao Hoả.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "detect gravitational waves",
+      "meaning_vi": "phát hiện sóng hấp dẫn",
+      "example_en": "The LIGO observatory was specifically designed to detect gravitational waves from cataclysmic cosmic events.",
+      "example_vi": "Đài quan sát LIGO được thiết kế đặc biệt để phát hiện sóng hấp dẫn từ các sự kiện vũ trụ thảm khốc.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "launch interstellar missions",
+      "meaning_vi": "phóng các sứ mệnh liên sao",
+      "example_en": "Many scientists believe it will take centuries of technological development before humanity can launch interstellar missions.",
+      "example_vi": "Nhiều nhà khoa học tin rằng sẽ mất hàng thế kỷ phát triển công nghệ trước khi nhân loại có thể phóng các sứ mệnh liên sao.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that spacecraft in orbit can collect data about a planet's atmosphere.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, gravitational waves were first detected before the twenty-first century.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that private companies have invested more in space exploration than government agencies.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that biological challenges are as significant as technical ones for long-duration space missions.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that ion propulsion is currently used on all crewed spacecraft.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Scientists have now confirmed the existence of thousands of _____ orbiting stars in other parts of the galaxy.",
+          "options": [
+            "trajectories",
+            "atmospheres",
+            "exoplanets",
+            "magnitudes"
+          ],
+          "answer": "exoplanets"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ system of the new spacecraft uses solar energy to generate thrust over long distances.",
+          "options": [
+            "gravitational",
+            "propulsion",
+            "interstellar",
+            "orbital"
+          ],
+          "answer": "propulsion"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers in _____ rely heavily on data from space telescopes to study phenomena beyond direct observation.",
+          "options": [
+            "trajectory",
+            "magnitude",
+            "astrophysics",
+            "atmosphere"
+          ],
+          "answer": "astrophysics"
+        },
+        {
+          "id": 4,
+          "sentence": "The sheer _____ of the universe — billions of light years across — is almost impossible for the human mind to comprehend.",
+          "options": [
+            "orbit",
+            "magnitude",
+            "propulsion",
+            "extraterrestrial"
+          ],
+          "answer": "magnitude"
+        },
+        {
+          "id": 5,
+          "sentence": "Even a slight deviation from the planned _____ could cause the spacecraft to miss its target by millions of kilometres.",
+          "options": [
+            "atmosphere",
+            "exoplanet",
+            "trajectory",
+            "magnitude"
+          ],
+          "answer": "trajectory"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "orbit",
+        "gravitational",
+        "interstellar",
+        "atmosphere",
+        "extraterrestrial",
+        "astrophysics"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The probe will take 72 hours to enter a stable _____ around the moon before its instruments are activated.",
+          "answer": "orbit"
+        },
+        {
+          "id": 2,
+          "sentence": "The thin _____ of Mars lacks sufficient oxygen and pressure to support unprotected human life.",
+          "answer": "atmosphere"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ force exerted by a black hole is so intense that not even light can escape its pull.",
+          "answer": "gravitational"
+        },
+        {
+          "id": 4,
+          "sentence": "The discovery of complex organic molecules in _____ space raises intriguing questions about the origins of life.",
+          "answer": "interstellar"
+        },
+        {
+          "id": 5,
+          "sentence": "SETI researchers scan radio signals for patterns that might indicate _____ intelligence.",
+          "answer": "extraterrestrial"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "spacecraft",
+            "in",
+            "orbit",
+            "transmit",
+            "valuable",
+            "data",
+            "about",
+            "distant",
+            "planets"
+          ],
+          "answer": "Spacecraft in orbit transmit valuable data about distant planets."
+        },
+        {
+          "id": 2,
+          "words": [
+            "gravitational",
+            "waves",
+            "were",
+            "first",
+            "detected",
+            "in",
+            "2015",
+            "by",
+            "the",
+            "LIGO",
+            "observatory"
+          ],
+          "answer": "Gravitational waves were first detected in 2015 by the LIGO observatory."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "trajectory",
+            "of",
+            "a",
+            "spacecraft",
+            "must",
+            "be",
+            "calculated",
+            "with",
+            "extreme",
+            "precision"
+          ],
+          "answer": "The trajectory of a spacecraft must be calculated with extreme precision."
+        },
+        {
+          "id": 4,
+          "words": [
+            "sustaining",
+            "human",
+            "life",
+            "in",
+            "space",
+            "requires",
+            "solving",
+            "complex",
+            "biological",
+            "challenges"
+          ],
+          "answer": "Sustaining human life in space requires solving complex biological challenges."
+        },
+        {
+          "id": 5,
+          "words": [
+            "thousands",
+            "of",
+            "exoplanets",
+            "have",
+            "been",
+            "discovered",
+            "beyond",
+            "our",
+            "solar",
+            "system"
+          ],
+          "answer": "Thousands of exoplanets have been discovered beyond our solar system."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The satellite will [orbiting] the Earth for approximately five years before its systems shut down.",
+          "highlighted": "orbiting",
+          "options": {
+            "A": "orbits",
+            "B": "orbit",
+            "C": "orbited"
+          },
+          "answer": "B",
+          "explanation": "The modal 'will' requires the base infinitive form — 'will orbit'. Option B ('orbit') is the correct base form; 'orbiting' is a present participle and cannot follow a modal verb directly."
+        },
+        {
+          "id": 2,
+          "sentence": "The [gravitate] pull between two massive objects increases as the distance between them decreases.",
+          "highlighted": "gravitate",
+          "options": {
+            "A": "gravitation",
+            "B": "gravitational",
+            "C": "gravitationally"
+          },
+          "answer": "B",
+          "explanation": "An adjective is needed to modify the noun 'pull' — 'gravitational', not the verb 'gravitate'."
+        },
+        {
+          "id": 3,
+          "sentence": "The [magnify] of the challenge involved in reaching the nearest star is almost incomprehensible.",
+          "highlighted": "magnify",
+          "options": {
+            "A": "magnification",
+            "B": "magnificent",
+            "C": "magnitude"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'magnitude' (scale/size), not the verb 'magnify' or 'magnification' which refers to optical enlargement."
+        },
+        {
+          "id": 4,
+          "sentence": "An [atmosphere] composition rich in nitrogen and oxygen is essential for human survival.",
+          "highlighted": "atmosphere",
+          "options": {
+            "A": "atmospheric",
+            "B": "atmospherically",
+            "C": "atmospheres"
+          },
+          "answer": "A",
+          "explanation": "An adjective is needed to modify 'composition' — 'atmospheric', not the noun 'atmosphere'."
+        },
+        {
+          "id": 5,
+          "sentence": "The [propel] used by the next generation of deep-space probes will likely be ion-based.",
+          "highlighted": "propel",
+          "options": {
+            "A": "propulsive",
+            "B": "propulsion",
+            "C": "propelled"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'propulsion' (the system or force), not the verb 'propel'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "exoplanets",
+      "2": "propulsion",
+      "3": "astrophysics",
+      "4": "magnitude",
+      "5": "trajectory"
+    },
+    "ex3": {
+      "1": "orbit",
+      "2": "atmosphere",
+      "3": "gravitational",
+      "4": "interstellar",
+      "5": "extraterrestrial"
+    },
+    "ex4": {
+      "1": "Spacecraft in orbit transmit valuable data about distant planets.",
+      "2": "Gravitational waves were first detected in 2015 by the LIGO observatory.",
+      "3": "The trajectory of a spacecraft must be calculated with extreme precision.",
+      "4": "Sustaining human life in space requires solving complex biological challenges.",
+      "5": "Thousands of exoplanets have been discovered beyond our solar system."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

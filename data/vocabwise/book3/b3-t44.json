@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 44,
+    "topic_id": "b3-t44",
+    "topic_title": "Digital Communication & New Media",
+    "topic_title_vi": "Giao Tiếp Kỹ Thuật Số & Truyền Thông Mới",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "📱",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 220,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The digital revolution has fundamentally altered how individuals communicate, create, and consume information. At the heart of every major social media **platform** lies a proprietary **algorithm** — a set of computational rules that determines which content reaches which audiences. By rewarding high **engagement**, these systems incentivise emotionally charged, attention-grabbing posts over nuanced or factual ones, reshaping the very nature of public discourse.",
+        "text_vi": "Cuộc cách mạng kỹ thuật số đã thay đổi căn bản cách con người giao tiếp, sáng tạo và tiêu thụ thông tin. Cốt lõi của mọi mạng xã hội lớn là một **thuật toán** độc quyền — một tập hợp các quy tắc tính toán xác định nội dung nào tiếp cận đối tượng nào. Bằng cách thưởng cho **tương tác** cao, các hệ thống này khuyến khích những bài đăng mang tính cảm xúc, thu hút sự chú ý hơn là những nội dung tinh tế hay thực chất, qua đó định hình lại bản chất của diễn ngôn công cộng."
+      },
+      {
+        "index": 2,
+        "text_en": "Content that achieves **virality** spreads rapidly across networks, often amplified by **influencer** accounts with large followings. However, viral reach does not guarantee truthfulness. **Disinformation** — deliberately false content designed to mislead — spreads with alarming ease online. Responsible users must **combat digital disinformation** by verifying sources before sharing, yet the pace of social media rarely affords time for critical reflection.",
+        "text_vi": "Nội dung đạt được **tính lan truyền** sẽ lan rộng nhanh chóng qua các mạng lưới, thường được khuếch đại bởi các tài khoản **người có ảnh hưởng** với lượng người theo dõi lớn. Tuy nhiên, tầm tiếp cận lan truyền không đảm bảo tính trung thực. **Thông tin sai lệch** — nội dung cố ý sai được thiết kế để đánh lừa — lan truyền với tốc độ đáng báo động trực tuyến. Người dùng có trách nhiệm phải **chống lại thông tin sai lệch kỹ thuật số** bằng cách xác minh nguồn trước khi chia sẻ, nhưng nhịp độ của mạng xã hội hiếm khi cho phép có thời gian để suy nghĩ phê phán."
+      },
+      {
+        "index": 3,
+        "text_en": "A further concern is the **echo chamber** effect: algorithms feed users **curated** content that confirms existing beliefs, isolating them from opposing viewpoints. This undermines **authenticity** in public debate and makes it easier for bad actors to **exploit algorithmic amplification** to spread propaganda. Meanwhile, the question of **anonymity** complicates accountability — users who **navigate online anonymity** may feel emboldened to behave in ways they would never risk in face-to-face settings.",
+        "text_vi": "Một mối lo ngại khác là hiệu ứng **buồng vang**: các thuật toán cung cấp cho người dùng nội dung **được chọn lọc** xác nhận niềm tin hiện có, cô lập họ khỏi các quan điểm đối lập. Điều này làm suy yếu **tính chân thực** trong tranh luận công khai và khiến những kẻ xấu dễ dàng **khai thác sự khuếch đại thuật toán** để lan truyền tuyên truyền. Trong khi đó, câu hỏi về **tính ẩn danh** làm phức tạp thêm vấn đề trách nhiệm — những người dùng **điều hướng sự ẩn danh trực tuyến** có thể cảm thấy mạnh dạn hành xử theo những cách mà họ không bao giờ dám trong môi trường trực tiếp."
+      },
+      {
+        "index": 4,
+        "text_en": "Despite these challenges, digital media offers genuine opportunity. Creators who **build an online presence** thoughtfully and **curate a personal brand** with consistency can reach global audiences, bypassing traditional gatekeepers. The key lies in balancing self-promotion with genuine value creation — offering content that educates, connects, or inspires, rather than merely chasing metrics. In an age of information overload, **authenticity** and credibility remain the most durable currencies of digital influence.",
+        "text_vi": "Bất chấp những thách thức này, truyền thông kỹ thuật số mang lại cơ hội thực sự. Những người sáng tạo **xây dựng sự hiện diện trực tuyến** một cách chu đáo và **xây dựng thương hiệu cá nhân** nhất quán có thể tiếp cận khán giả toàn cầu, bỏ qua những người gác cổng truyền thống. Chìa khóa nằm ở việc cân bằng giữa tự quảng bá và tạo ra giá trị thực sự — cung cấp nội dung giáo dục, kết nối hoặc truyền cảm hứng, thay vì chỉ đơn giản là chạy theo các chỉ số. Trong thời đại quá tải thông tin, **tính chân thực** và độ tin cậy vẫn là đồng tiền lâu bền nhất của sức ảnh hưởng kỹ thuật số."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "algorithm",
+      "ipa": "/ˈæl.ɡə.rɪ.ðəm/",
+      "pos": "noun",
+      "meaning_vi": "thuật toán (tập hợp quy tắc để giải quyết vấn đề hoặc xử lý dữ liệu)",
+      "meaning_vi_inline": "thuật toán",
+      "example_en": "The platform's algorithm prioritises content that generates strong emotional reactions over informative posts.",
+      "example_vi": "Thuật toán của nền tảng ưu tiên những nội dung tạo ra phản ứng cảm xúc mạnh hơn các bài viết thông tin.",
+      "word_family": {
+        "noun": "algorithm / algorithmics",
+        "verb": null,
+        "adjective": "algorithmic",
+        "adverb": "algorithmically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "engagement",
+      "ipa": "/ɪnˈɡeɪdʒ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "tương tác (lượt thích, bình luận, chia sẻ trên mạng xã hội)",
+      "meaning_vi_inline": "tương tác",
+      "example_en": "High engagement rates signal to the algorithm that content is worth promoting to a wider audience.",
+      "example_vi": "Tỷ lệ tương tác cao báo hiệu cho thuật toán rằng nội dung đáng được quảng bá đến đối tượng rộng hơn.",
+      "word_family": {
+        "noun": "engagement",
+        "verb": "engage",
+        "adjective": "engaging / engaged",
+        "adverb": "engagingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "virality",
+      "ipa": "/vaɪˈræl.ɪ.ti/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "tính lan truyền, khả năng lan rộng trên mạng",
+      "meaning_vi_inline": "tính lan truyền",
+      "example_en": "The video's virality was unexpected — it reached ten million views within forty-eight hours.",
+      "example_vi": "Tính lan truyền của video thật bất ngờ — nó đạt mười triệu lượt xem trong vòng bốn mươi tám giờ.",
+      "word_family": {
+        "noun": "virality / virus / viral",
+        "verb": "go viral",
+        "adjective": "viral",
+        "adverb": "virally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "curated",
+      "ipa": "/kjʊˈreɪ.tɪd/",
+      "pos": "adjective",
+      "meaning_vi": "được chọn lọc và sắp xếp cẩn thận",
+      "meaning_vi_inline": "được chọn lọc",
+      "example_en": "The feed presented a curated selection of news stories tailored to the user's browsing history.",
+      "example_vi": "Nguồn cấp dữ liệu hiển thị một tập hợp tin tức được chọn lọc và điều chỉnh theo lịch sử duyệt web của người dùng.",
+      "word_family": {
+        "noun": "curation / curator",
+        "verb": "curate",
+        "adjective": "curated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "disinformation",
+      "ipa": "/ˌdɪs.ɪn.fəˈmeɪ.ʃən/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "thông tin sai lệch cố ý, tin giả có chủ đích",
+      "meaning_vi_inline": "thông tin sai lệch",
+      "example_en": "State-sponsored disinformation campaigns have been shown to destabilise democratic elections.",
+      "example_vi": "Các chiến dịch thông tin sai lệch do nhà nước bảo trợ đã được chứng minh là làm bất ổn các cuộc bầu cử dân chủ.",
+      "word_family": {
+        "noun": "disinformation / misinformation",
+        "verb": "disinform",
+        "adjective": "disinformative",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "misinformation",
+        "explanation_vi": "'Disinformation' là thông tin sai được cố ý tạo ra để đánh lừa; 'misinformation' là thông tin sai nhưng không nhất thiết có chủ đích — hai từ khác nhau về mức độ cố ý."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "platform",
+      "ipa": "/ˈplæt.fɔːm/",
+      "pos": "noun",
+      "meaning_vi": "nền tảng (kỹ thuật số/mạng xã hội)",
+      "meaning_vi_inline": "nền tảng",
+      "example_en": "Different platforms attract different demographics, requiring tailored content strategies for each.",
+      "example_vi": "Các nền tảng khác nhau thu hút các nhóm nhân khẩu học khác nhau, đòi hỏi chiến lược nội dung riêng cho từng nơi.",
+      "word_family": {
+        "noun": "platform",
+        "verb": "platform (rare)",
+        "adjective": "platform-based",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "influencer",
+      "ipa": "/ˈɪn.flu.ən.sər/",
+      "pos": "noun",
+      "meaning_vi": "người có ảnh hưởng (trên mạng xã hội)",
+      "meaning_vi_inline": "người có ảnh hưởng",
+      "example_en": "Brands increasingly partner with micro-influencers who have smaller but highly engaged followings.",
+      "example_vi": "Các thương hiệu ngày càng hợp tác với những người có ảnh hưởng nhỏ có lượng người theo dõi ít hơn nhưng tương tác cao.",
+      "word_family": {
+        "noun": "influencer / influence",
+        "verb": "influence",
+        "adjective": "influential",
+        "adverb": "influentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "authenticity",
+      "ipa": "/ˌɔː.θenˈtɪs.ɪ.ti/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "tính chân thực, sự thành thật",
+      "meaning_vi_inline": "tính chân thực",
+      "example_en": "Audiences are quick to detect a lack of authenticity in sponsored content, often turning against the brand.",
+      "example_vi": "Khán giả nhanh chóng phát hiện sự thiếu chân thực trong nội dung được tài trợ, thường quay lưng lại với thương hiệu.",
+      "word_family": {
+        "noun": "authenticity / authentication",
+        "verb": "authenticate",
+        "adjective": "authentic",
+        "adverb": "authentically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "anonymity",
+      "ipa": "/ˌæn.əˈnɪm.ɪ.ti/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "tính ẩn danh, sự vô danh",
+      "meaning_vi_inline": "tính ẩn danh",
+      "example_en": "The anonymity afforded by the internet can embolden users to post content they would never say in person.",
+      "example_vi": "Tính ẩn danh mà internet mang lại có thể khiến người dùng mạnh dạn đăng nội dung mà họ không bao giờ nói trực tiếp.",
+      "word_family": {
+        "noun": "anonymity",
+        "verb": "anonymise",
+        "adjective": "anonymous",
+        "adverb": "anonymously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "echo chamber",
+      "ipa": "/ˈek.əʊ ˌtʃeɪm.bər/",
+      "pos": "noun",
+      "meaning_vi": "buồng vang (môi trường mà ý kiến của một người liên tục được củng cố)",
+      "meaning_vi_inline": "buồng vang",
+      "example_en": "Social media echo chambers reinforce partisan views and reduce exposure to balanced information.",
+      "example_vi": "Các buồng vang trên mạng xã hội củng cố quan điểm đảng phái và làm giảm tiếp xúc với thông tin cân bằng.",
+      "word_family": {
+        "noun": "echo chamber",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "build an online presence",
+      "meaning_vi": "xây dựng sự hiện diện trực tuyến",
+      "example_en": "Small businesses that build an online presence through consistent content gain a significant competitive advantage.",
+      "example_vi": "Các doanh nghiệp nhỏ xây dựng sự hiện diện trực tuyến thông qua nội dung nhất quán đạt được lợi thế cạnh tranh đáng kể.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "combat digital disinformation",
+      "meaning_vi": "chống lại thông tin sai lệch kỹ thuật số",
+      "example_en": "Governments and tech companies must collaborate to combat digital disinformation before it undermines public trust.",
+      "example_vi": "Chính phủ và các công ty công nghệ phải hợp tác để chống lại thông tin sai lệch kỹ thuật số trước khi nó làm suy yếu lòng tin công chúng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "exploit algorithmic amplification",
+      "meaning_vi": "khai thác sự khuếch đại thuật toán",
+      "example_en": "Extremist groups have learned to exploit algorithmic amplification by posting content that triggers strong reactions.",
+      "example_vi": "Các nhóm cực đoan đã học cách khai thác sự khuếch đại thuật toán bằng cách đăng nội dung kích thích phản ứng mạnh.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "curate a personal brand",
+      "meaning_vi": "xây dựng thương hiệu cá nhân (có chọn lọc)",
+      "example_en": "Job seekers are advised to curate a personal brand on LinkedIn that highlights their unique expertise.",
+      "example_vi": "Người tìm việc được khuyên nên xây dựng thương hiệu cá nhân trên LinkedIn làm nổi bật chuyên môn độc đáo của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "navigate online anonymity",
+      "meaning_vi": "điều hướng sự ẩn danh trực tuyến",
+      "example_en": "Journalists who navigate online anonymity carefully can protect sources while still holding power to account.",
+      "example_vi": "Những nhà báo điều hướng sự ẩn danh trực tuyến cẩn thận có thể bảo vệ nguồn tin trong khi vẫn giữ quyền lực có trách nhiệm.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, platform algorithms tend to reward content that is factually accurate.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that all influencers deliberately spread disinformation.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, echo chambers expose users to a wide range of opposing viewpoints.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that digital media can help creators reach global audiences without relying on traditional gatekeepers.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that authenticity and credibility remain important in the digital age.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The post's sudden _____ surprised even its creator — millions had shared it within a single day.",
+          "options": [
+            "engagement",
+            "anonymity",
+            "virality",
+            "algorithm"
+          ],
+          "answer": "virality"
+        },
+        {
+          "id": 2,
+          "sentence": "Operating behind a screen gives users a degree of _____ that can lower inhibitions and fuel reckless behaviour.",
+          "options": [
+            "platform",
+            "authenticity",
+            "anonymity",
+            "curation"
+          ],
+          "answer": "anonymity"
+        },
+        {
+          "id": 3,
+          "sentence": "The magazine publishes a _____ list of recommended reads each month, selected by editorial experts.",
+          "options": [
+            "curated",
+            "viral",
+            "disinformation",
+            "algorithmic"
+          ],
+          "answer": "curated"
+        },
+        {
+          "id": 4,
+          "sentence": "The news channel was accused of spreading _____ after publishing fabricated statistics about the election.",
+          "options": [
+            "engagement",
+            "echo chamber",
+            "influencer",
+            "disinformation"
+          ],
+          "answer": "disinformation"
+        },
+        {
+          "id": 5,
+          "sentence": "Audiences responded warmly to her honest, unpolished videos because they valued her _____ over perfection.",
+          "options": [
+            "authenticity",
+            "algorithm",
+            "virality",
+            "platform"
+          ],
+          "answer": "authenticity"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "algorithm",
+        "echo chamber",
+        "engagement",
+        "influencer",
+        "platform",
+        "anonymity"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ determines which posts appear at the top of your feed based on your past interactions.",
+          "answer": "algorithm"
+        },
+        {
+          "id": 2,
+          "sentence": "Each social media _____ has its own culture, audience expectations, and content norms.",
+          "answer": "platform"
+        },
+        {
+          "id": 3,
+          "sentence": "The brand partnered with a fitness _____ to promote its new line of sportswear to younger consumers.",
+          "answer": "influencer"
+        },
+        {
+          "id": 4,
+          "sentence": "Living in an _____ means you rarely encounter perspectives that challenge your existing worldview.",
+          "answer": "echo chamber"
+        },
+        {
+          "id": 5,
+          "sentence": "Metrics such as likes, shares, and comments are collectively referred to as measures of _____.",
+          "answer": "engagement"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "algorithms",
+            "reward",
+            "content",
+            "that",
+            "generates",
+            "high",
+            "engagement",
+            "over",
+            "factual",
+            "reporting"
+          ],
+          "answer": "Algorithms reward content that generates high engagement over factual reporting."
+        },
+        {
+          "id": 2,
+          "words": [
+            "disinformation",
+            "spreads",
+            "rapidly",
+            "when",
+            "users",
+            "share",
+            "without",
+            "verifying",
+            "sources"
+          ],
+          "answer": "Disinformation spreads rapidly when users share without verifying sources."
+        },
+        {
+          "id": 3,
+          "words": [
+            "echo",
+            "chambers",
+            "reinforce",
+            "existing",
+            "beliefs",
+            "and",
+            "reduce",
+            "exposure",
+            "to",
+            "opposing",
+            "views"
+          ],
+          "answer": "Echo chambers reinforce existing beliefs and reduce exposure to opposing views."
+        },
+        {
+          "id": 4,
+          "words": [
+            "building",
+            "an",
+            "online",
+            "presence",
+            "requires",
+            "consistent",
+            "content",
+            "and",
+            "genuine",
+            "audience",
+            "interaction"
+          ],
+          "answer": "Building an online presence requires consistent content and genuine audience interaction."
+        },
+        {
+          "id": 5,
+          "words": [
+            "anonymity",
+            "online",
+            "can",
+            "embolden",
+            "users",
+            "to",
+            "post",
+            "harmful",
+            "or",
+            "misleading",
+            "content"
+          ],
+          "answer": "Anonymity online can embolden users to post harmful or misleading content."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The content's [viral] across three continents demonstrated the power of algorithmic amplification.",
+          "highlighted": "viral",
+          "options": {
+            "A": "virality",
+            "B": "virally",
+            "C": "viralize"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the subject of the sentence; 'virality' is the correct noun form, while 'viral' is an adjective."
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers warn that [disinform] campaigns are becoming increasingly sophisticated and difficult to detect.",
+          "highlighted": "disinform",
+          "options": {
+            "A": "disinforming",
+            "B": "disinformation",
+            "C": "disinformed"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed to pre-modify 'campaigns' as a compound noun; 'disinformation' is the correct noun form, not the bare verb 'disinform'."
+        },
+        {
+          "id": 3,
+          "sentence": "Her feed became an [echo] that only showed content aligning with her pre-existing political beliefs.",
+          "highlighted": "echo",
+          "options": {
+            "A": "echoing",
+            "B": "echoed",
+            "C": "echo chamber"
+          },
+          "answer": "C",
+          "explanation": "'Echo chamber' is the fixed two-word compound noun for this concept; 'echo' alone does not carry the required meaning in this context."
+        },
+        {
+          "id": 4,
+          "sentence": "The startup hired an [influence] with two million followers to launch its new product to a younger demographic.",
+          "highlighted": "influence",
+          "options": {
+            "A": "influencing",
+            "B": "influential",
+            "C": "influencer"
+          },
+          "answer": "C",
+          "explanation": "The noun 'influencer' names the person hired; 'influence' is a noun or verb but does not refer to a content creator, and 'influential' is an adjective."
+        },
+        {
+          "id": 5,
+          "sentence": "Researchers found that [authentic] in online communication builds stronger long-term audience loyalty than viral tactics.",
+          "highlighted": "authentic",
+          "options": {
+            "A": "authentically",
+            "B": "authenticate",
+            "C": "authenticity"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after 'that' to serve as the subject of the subordinate clause; 'authenticity' is the correct noun form, while 'authentic' is an adjective."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "False",
+      "4": "True",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "virality",
+      "2": "anonymity",
+      "3": "curated",
+      "4": "disinformation",
+      "5": "authenticity"
+    },
+    "ex3": {
+      "1": "algorithm",
+      "2": "platform",
+      "3": "influencer",
+      "4": "echo chamber",
+      "5": "engagement"
+    },
+    "ex4": {
+      "1": "Algorithms reward content that generates high engagement over factual reporting.",
+      "2": "Disinformation spreads rapidly when users share without verifying sources.",
+      "3": "Echo chambers reinforce existing beliefs and reduce exposure to opposing views.",
+      "4": "Building an online presence requires consistent content and genuine audience interaction.",
+      "5": "Anonymity online can embolden users to post harmful or misleading content."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

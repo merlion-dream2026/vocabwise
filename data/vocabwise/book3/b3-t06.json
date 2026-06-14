@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 6,
+    "topic_id": "b3-t06",
+    "topic_title": "Sport, Health & Performance",
+    "topic_title_vi": "Thể Thao, Sức Khỏe & Hiệu Suất",
+    "theme_number": 1,
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🏅",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "At the highest levels of competitive sport, the difference between athletes is rarely purely physical. **Elite** performers distinguish themselves not only through raw talent but through extraordinary **endurance**, rigorous **discipline**, and the **psychology** of winning under pressure. The ability to **push physical limits** consistently — training harder, recovering faster, and sustaining peak effort — separates champions from the rest of the field.",
+        "text_vi": "Ở các cấp độ cạnh tranh cao nhất của thể thao, sự khác biệt giữa các vận động viên hiếm khi chỉ thuần túy về thể chất. Các vận động viên **ưu tú** phân biệt bản thân không chỉ qua tài năng thuần túy mà còn qua **sức bền** phi thường, **kỷ luật** nghiêm ngặt và **tâm lý học** chiến thắng dưới áp lực. Khả năng **vượt qua giới hạn thể chất** một cách nhất quán — tập luyện chăm chỉ hơn, hồi phục nhanh hơn và duy trì nỗ lực cao nhất — tạo nên sự khác biệt giữa nhà vô địch và phần còn lại."
+      },
+      {
+        "index": 2,
+        "text_en": "Yet the pressure to **maintain peak performance** can push some athletes towards shortcuts. **Doping** — the use of banned substances to enhance physical capacity — remains a persistent threat to sporting **integrity**. High-profile scandals have damaged public trust and sparked debate over whether current anti-doping frameworks are robust enough to **uphold sporting integrity** at the global level.",
+        "text_vi": "Tuy nhiên, áp lực **duy trì hiệu suất đỉnh cao** có thể đẩy một số vận động viên đến các con đường tắt. **Doping** — việc sử dụng các chất bị cấm để tăng cường thể lực — vẫn là mối đe dọa dai dẳng đối với **chính trực** thể thao. Các vụ bê bối nổi tiếng đã làm tổn hại niềm tin công chúng và châm ngòi cho cuộc tranh luận về việc liệu các khuôn khổ chống doping hiện tại có đủ mạnh để **đề cao chính trực thể thao** ở cấp độ toàn cầu hay không."
+      },
+      {
+        "index": 3,
+        "text_en": "Sport also functions as a powerful **spectacle** — a form of public entertainment that captivates billions of fans worldwide. Intense **rivalry** between competitors and nations elevates tournaments into cultural events, though it occasionally spills over into hostility. Meanwhile, the distinction between **amateur** and professional sport is increasingly blurred, as grassroots participants pursue the same physiological and psychological gains as professionals.",
+        "text_vi": "Thể thao cũng hoạt động như một **màn trình diễn** đầy quyền lực — một hình thức giải trí công cộng thu hút hàng tỷ người hâm mộ trên toàn thế giới. Sự **kình địch** mãnh liệt giữa các đối thủ và quốc gia nâng tầm các giải đấu thành sự kiện văn hóa, dù đôi khi có thể tràn sang thái độ thù địch. Trong khi đó, ranh giới giữa thể thao **nghiệp dư** và chuyên nghiệp ngày càng mờ nhạt khi người tham gia cơ sở theo đuổi những lợi ích sinh lý và tâm lý giống như các vận động viên chuyên nghiệp."
+      },
+      {
+        "index": 4,
+        "text_en": "Beyond competition, sport carries a social responsibility to **overcome psychological barriers** around mental health and to **inspire the next generation** of athletes. **Perseverance** in the face of injury, defeat, and self-doubt mirrors the challenges of everyday life. When athletes speak openly about struggle, they validate the human experience and demonstrate that resilience — not just physical ability — defines true **elite** performance.",
+        "text_vi": "Ngoài thi đấu, thể thao còn có trách nhiệm xã hội là **vượt qua các rào cản tâm lý** xung quanh sức khỏe tâm thần và **truyền cảm hứng cho thế hệ vận động viên tiếp theo**. **Sự kiên trì** khi đối mặt với chấn thương, thất bại và nghi ngờ bản thân phản chiếu những thách thức trong cuộc sống hàng ngày. Khi các vận động viên cởi mở nói về khó khăn, họ xác nhận trải nghiệm con người và chứng minh rằng sự kiên cường — không chỉ năng lực thể chất — mới là định nghĩa của thành tích **ưu tú** thực sự."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "elite",
+      "ipa": "/eɪˈliːt/",
+      "pos": "adjective / noun",
+      "meaning_vi": "ưu tú, xuất sắc nhất; tầng lớp tinh hoa",
+      "meaning_vi_inline": "ưu tú",
+      "example_en": "Elite athletes train for up to eight hours a day under expert supervision.",
+      "example_vi": "Các vận động viên ưu tú tập luyện đến tám tiếng mỗi ngày dưới sự giám sát của chuyên gia.",
+      "word_family": {
+        "noun": "elite / elitism",
+        "verb": null,
+        "adjective": "elite / elitist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "endurance",
+      "ipa": "/ɪnˈdjʊər.əns/",
+      "pos": "noun",
+      "meaning_vi": "sức bền, khả năng chịu đựng",
+      "meaning_vi_inline": "sức bền",
+      "example_en": "Marathon running demands exceptional endurance and mental toughness.",
+      "example_vi": "Chạy marathon đòi hỏi sức bền vượt trội và bản lĩnh tinh thần.",
+      "word_family": {
+        "noun": "endurance",
+        "verb": "endure",
+        "adjective": "enduring",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "discipline",
+      "ipa": "/ˈdɪs.ɪ.plɪn/",
+      "pos": "noun",
+      "meaning_vi": "kỷ luật, sự tự kiểm soát",
+      "meaning_vi_inline": "kỷ luật",
+      "example_en": "Without discipline in diet and training, even talented athletes underperform.",
+      "example_vi": "Thiếu kỷ luật trong chế độ ăn uống và tập luyện, ngay cả vận động viên tài năng cũng kém hiệu quả.",
+      "word_family": {
+        "noun": "discipline",
+        "verb": "discipline",
+        "adjective": "disciplined",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "rivalry",
+      "ipa": "/ˈraɪ.vəl.ri/",
+      "pos": "noun",
+      "meaning_vi": "sự kình địch, ganh đua",
+      "meaning_vi_inline": "kình địch",
+      "example_en": "The rivalry between the two tennis players attracted global media attention.",
+      "example_vi": "Sự kình địch giữa hai tay vợt thu hút sự chú ý của truyền thông toàn cầu.",
+      "word_family": {
+        "noun": "rivalry / rival",
+        "verb": "rival",
+        "adjective": "rival",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "doping",
+      "ipa": "/ˈdoʊ.pɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "việc sử dụng chất kích thích (trong thể thao)",
+      "meaning_vi_inline": "doping",
+      "example_en": "The athlete was banned after testing positive for doping.",
+      "example_vi": "Vận động viên bị cấm thi đấu sau khi kết quả kiểm tra dương tính với doping.",
+      "word_family": {
+        "noun": "doping / dope",
+        "verb": "dope",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "perseverance",
+      "ipa": "/ˌpɜː.sɪˈvɪər.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự kiên trì, bền bỉ",
+      "meaning_vi_inline": "kiên trì",
+      "example_en": "Her perseverance through three knee surgeries inspired teammates and fans alike.",
+      "example_vi": "Sự kiên trì của cô ấy qua ba ca phẫu thuật đầu gối đã truyền cảm hứng cho đồng đội và người hâm mộ.",
+      "word_family": {
+        "noun": "perseverance",
+        "verb": "persevere",
+        "adjective": "perseverant",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "persistence",
+        "explanation_vi": "'Perseverance' nhấn mạnh tiếp tục dù có khó khăn lớn; 'persistence' thường mang nghĩa trung lập hơn — tiếp tục lặp lại. Trong ngữ cảnh thể thao, 'perseverance' là lựa chọn tự nhiên hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "spectacle",
+      "ipa": "/ˈspek.tə.kəl/",
+      "pos": "noun",
+      "meaning_vi": "màn trình diễn, cảnh tượng ấn tượng",
+      "meaning_vi_inline": "màn trình diễn",
+      "example_en": "The opening ceremony was a dazzling spectacle watched by millions.",
+      "example_vi": "Lễ khai mạc là một màn trình diễn rực rỡ được hàng triệu người theo dõi.",
+      "word_family": {
+        "noun": "spectacle / spectator / spectators",
+        "verb": null,
+        "adjective": "spectacular",
+        "adverb": "spectacularly"
+      },
+      "false_friend": {
+        "word_vi": "spectacles",
+        "explanation_vi": "'Spectacle' (số ít) là cảnh tượng/màn trình diễn; 'spectacles' (số nhiều) là kính mắt — hai nghĩa hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "integrity",
+      "ipa": "/ɪnˈteɡ.rɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự chính trực, tính liêm chính",
+      "meaning_vi_inline": "chính trực",
+      "example_en": "An athlete who dopes sacrifices their integrity for short-term gain.",
+      "example_vi": "Một vận động viên dùng doping đánh đổi sự chính trực của mình để đổi lấy lợi ích ngắn hạn.",
+      "word_family": {
+        "noun": "integrity",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "amateur",
+      "ipa": "/ˈæm.ə.tər/",
+      "pos": "noun / adjective",
+      "meaning_vi": "nghiệp dư, không chuyên nghiệp",
+      "meaning_vi_inline": "nghiệp dư",
+      "example_en": "The tournament is open to both amateur and professional cyclists.",
+      "example_vi": "Giải đấu mở cửa cho cả vận động viên nghiệp dư lẫn chuyên nghiệp.",
+      "word_family": {
+        "noun": "amateur / amateurism",
+        "verb": null,
+        "adjective": "amateur / amateurish",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "enthusiast",
+        "explanation_vi": "'Amateur' là người làm việc gì đó không vì tiền lương, dù có thể rất giỏi; 'enthusiast' là người đam mê — không nhất thiết thực hành."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "psychology",
+      "ipa": "/saɪˈkɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "tâm lý học; trạng thái tâm lý",
+      "meaning_vi_inline": "tâm lý học",
+      "example_en": "Sports psychology helps athletes manage anxiety and build mental resilience.",
+      "example_vi": "Tâm lý học thể thao giúp vận động viên kiểm soát lo lắng và xây dựng sức bền tinh thần.",
+      "word_family": {
+        "noun": "psychology / psychologist",
+        "verb": null,
+        "adjective": "psychological",
+        "adverb": "psychologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "push physical limits",
+      "meaning_vi": "vượt qua giới hạn thể chất",
+      "example_en": "Athletes who push physical limits must also prioritise recovery to avoid injury.",
+      "example_vi": "Các vận động viên vượt qua giới hạn thể chất cũng phải ưu tiên việc hồi phục để tránh chấn thương.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "maintain peak performance",
+      "meaning_vi": "duy trì hiệu suất đỉnh cao",
+      "example_en": "Nutrition and sleep are critical factors for athletes seeking to maintain peak performance.",
+      "example_vi": "Dinh dưỡng và giấc ngủ là những yếu tố quan trọng cho các vận động viên muốn duy trì hiệu suất đỉnh cao.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "uphold sporting integrity",
+      "meaning_vi": "đề cao chính trực thể thao",
+      "example_en": "International governing bodies have a duty to uphold sporting integrity through rigorous testing.",
+      "example_vi": "Các tổ chức quản lý quốc tế có nghĩa vụ đề cao chính trực thể thao thông qua kiểm tra nghiêm ngặt.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "overcome psychological barriers",
+      "meaning_vi": "vượt qua các rào cản tâm lý",
+      "example_en": "Many athletes work with coaches to overcome psychological barriers such as fear of failure.",
+      "example_vi": "Nhiều vận động viên làm việc với huấn luyện viên để vượt qua các rào cản tâm lý như nỗi sợ thất bại.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "inspire the next generation",
+      "meaning_vi": "truyền cảm hứng cho thế hệ tiếp theo",
+      "example_en": "Olympic champions have a unique platform to inspire the next generation of young athletes.",
+      "example_vi": "Các nhà vô địch Olympic có nền tảng độc đáo để truyền cảm hứng cho thế hệ vận động viên trẻ tiếp theo.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Elite athletes are distinguished by endurance and discipline as well as physical talent.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that doping scandals have led to permanent bans on all international tournaments.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, doping poses a threat to the integrity of sport.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Sporting rivalry always results in violent conflict between nations.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that resilience is as important as physical ability in defining elite performance.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Long-distance runners require exceptional _____ to complete races of over 40 kilometres.",
+          "options": [
+            "doping",
+            "spectacle",
+            "endurance",
+            "rivalry"
+          ],
+          "answer": "endurance"
+        },
+        {
+          "id": 2,
+          "sentence": "The use of _____ in competitive sport is widely condemned as it gives some athletes an unfair advantage.",
+          "options": [
+            "perseverance",
+            "doping",
+            "discipline",
+            "integrity"
+          ],
+          "answer": "doping"
+        },
+        {
+          "id": 3,
+          "sentence": "The final between the two historic rivals was a breathtaking _____ that drew record television audiences.",
+          "options": [
+            "amateur",
+            "integrity",
+            "psychology",
+            "spectacle"
+          ],
+          "answer": "spectacle"
+        },
+        {
+          "id": 4,
+          "sentence": "Many club players take part as _____ athletes, competing purely for enjoyment rather than financial reward.",
+          "options": [
+            "amateur",
+            "elite",
+            "rival",
+            "disciplined"
+          ],
+          "answer": "amateur"
+        },
+        {
+          "id": 5,
+          "sentence": "Sports coaches increasingly recognise the role of _____ in helping athletes perform under high-pressure conditions.",
+          "options": [
+            "rivalry",
+            "endurance",
+            "psychology",
+            "spectacle"
+          ],
+          "answer": "psychology"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "discipline",
+        "elite",
+        "integrity",
+        "perseverance",
+        "rivalry",
+        "spectacle"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Only a small number of athletes ever reach _____ level, where competition is truly world-class.",
+          "answer": "elite"
+        },
+        {
+          "id": 2,
+          "sentence": "Strict _____ in training schedules and diet is essential for sustained athletic improvement.",
+          "answer": "discipline"
+        },
+        {
+          "id": 3,
+          "sentence": "The intense _____ between the two clubs dates back more than a century.",
+          "answer": "rivalry"
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ through years of setbacks ultimately led her to win a world championship.",
+          "answer": "perseverance"
+        },
+        {
+          "id": 5,
+          "sentence": "Governing bodies must protect the _____ of the sport by enforcing strict anti-doping regulations.",
+          "answer": "integrity"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "elite",
+            "athletes",
+            "combine",
+            "physical",
+            "talent",
+            "with",
+            "exceptional",
+            "discipline",
+            "and",
+            "endurance"
+          ],
+          "answer": "Elite athletes combine physical talent with exceptional discipline and endurance."
+        },
+        {
+          "id": 2,
+          "words": [
+            "doping",
+            "remains",
+            "a",
+            "persistent",
+            "threat",
+            "to",
+            "sporting",
+            "integrity"
+          ],
+          "answer": "Doping remains a persistent threat to sporting integrity."
+        },
+        {
+          "id": 3,
+          "words": [
+            "intense",
+            "rivalry",
+            "between",
+            "nations",
+            "elevates",
+            "tournaments",
+            "into",
+            "cultural",
+            "events"
+          ],
+          "answer": "Intense rivalry between nations elevates tournaments into cultural events."
+        },
+        {
+          "id": 4,
+          "words": [
+            "perseverance",
+            "in",
+            "the",
+            "face",
+            "of",
+            "injury",
+            "and",
+            "defeat",
+            "mirrors",
+            "everyday",
+            "challenges"
+          ],
+          "answer": "Perseverance in the face of injury and defeat mirrors everyday challenges."
+        },
+        {
+          "id": 5,
+          "words": [
+            "sports",
+            "psychology",
+            "helps",
+            "athletes",
+            "manage",
+            "anxiety",
+            "and",
+            "build",
+            "mental",
+            "resilience"
+          ],
+          "answer": "Sports psychology helps athletes manage anxiety and build mental resilience."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The athlete's [perseverance's] through repeated injuries inspired her entire team.",
+          "highlighted": "perseverance's",
+          "options": {
+            "A": "perseverance's",
+            "B": "perseverance",
+            "C": "persevering"
+          },
+          "answer": "B",
+          "explanation": "'Perseverance' is the subject noun here — no possessive apostrophe is needed."
+        },
+        {
+          "id": 2,
+          "sentence": "The governing body failed to [undermine] sporting integrity when the doping scandal broke.",
+          "highlighted": "undermine",
+          "options": {
+            "A": "undermine",
+            "B": "uphold",
+            "C": "ignore"
+          },
+          "answer": "B",
+          "explanation": "'Uphold' means to maintain and protect a standard — 'undermine' means to weaken it, which is the opposite of what a governing body should do."
+        },
+        {
+          "id": 3,
+          "sentence": "Running a marathon requires both physical [endure] and considerable mental strength.",
+          "highlighted": "endure",
+          "options": {
+            "A": "endure",
+            "B": "enduring",
+            "C": "endurance"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed after 'physical' — 'endurance' is the correct noun form; 'endure' is a verb."
+        },
+        {
+          "id": 4,
+          "sentence": "The Opening Ceremony was such a [spectacularly] that it trended worldwide on social media.",
+          "highlighted": "spectacularly",
+          "options": {
+            "A": "spectacle",
+            "B": "spectacularly",
+            "C": "spectacular"
+          },
+          "answer": "A",
+          "explanation": "A noun is required after 'such a' — 'spectacle' is the noun form; 'spectacularly' is an adverb."
+        },
+        {
+          "id": 5,
+          "sentence": "The club tournament is open to [elite] players who compete purely for recreation, not payment.",
+          "highlighted": "elite",
+          "options": {
+            "A": "elite",
+            "B": "rival",
+            "C": "amateur"
+          },
+          "answer": "C",
+          "explanation": "'Amateur' describes someone who participates for enjoyment rather than financial reward — 'elite' describes the very best performers, which contradicts the recreational context."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "endurance",
+      "2": "doping",
+      "3": "spectacle",
+      "4": "amateur",
+      "5": "psychology"
+    },
+    "ex3": {
+      "1": "elite",
+      "2": "discipline",
+      "3": "rivalry",
+      "4": "perseverance",
+      "5": "integrity"
+    },
+    "ex4": {
+      "1": "Elite athletes combine physical talent with exceptional discipline and endurance.",
+      "2": "Doping remains a persistent threat to sporting integrity.",
+      "3": "Intense rivalry between nations elevates tournaments into cultural events.",
+      "4": "Perseverance in the face of injury and defeat mirrors everyday challenges.",
+      "5": "Sports psychology helps athletes manage anxiety and build mental resilience."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 49,
+    "topic_id": "b2-t49",
+    "topic_title": "Protecting the Environment",
+    "theme_number": 5,
+    "theme_title": "People & Issues",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌿",
+    "topic_title_vi": "Bảo Vệ Môi Trường",
+    "theme_title_vi": "Con Người & Vấn Đề Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Protecting the **environment** has become one of the most urgent priorities of the twenty-first century. Human activity has caused significant **damage** to the natural world: forests are being cleared, oceans are filling with **waste**, and rising temperatures are disrupting **local** ecosystems. If we are to slow these trends, both individuals and governments must take **action** — and take it now. Waiting is no longer a **responsible** choice.",
+        "text_vi": "Bảo vệ **môi trường** đã trở thành một trong những ưu tiên cấp bách nhất của thế kỷ hai mươi mốt. Hoạt động của con người đã gây ra **thiệt hại** đáng kể cho thế giới tự nhiên: rừng đang bị chặt phá, đại dương đang đầy **rác thải** và nhiệt độ tăng đang gây rối loạn các hệ sinh thái **địa phương**. Nếu chúng ta muốn làm chậm những xu hướng này, cả cá nhân lẫn chính phủ phải **hành động** — và hành động ngay bây giờ. Chờ đợi không còn là lựa chọn **có trách nhiệm** nữa."
+      },
+      {
+        "index": 2,
+        "text_en": "At the individual level, the three Rs — **reduce**, **reuse**, and **recycle** — offer a clear framework for cutting **waste** and lowering one's **carbon footprint**. Choosing to **reduce** the amount of single-use plastic you buy, finding ways to **reuse** containers and bags, and sorting materials so that they can be **recycle**d are all small steps that add up to significant change. Using **energy saving** appliances and switching to renewable energy at home also helps to lower **pollution**.",
+        "text_vi": "Ở cấp độ cá nhân, ba chữ R — **giảm thiểu**, **tái sử dụng** và **tái chế** — cung cấp một khuôn khổ rõ ràng để cắt giảm **rác thải** và hạ thấp **dấu chân carbon** của một người. Chọn **giảm thiểu** lượng nhựa dùng một lần bạn mua, tìm cách **tái sử dụng** hộp đựng và túi, và phân loại vật liệu để chúng có thể được **tái chế** đều là những bước nhỏ cộng lại thành thay đổi đáng kể. Sử dụng các thiết bị **tiết kiệm năng lượng** và chuyển sang năng lượng tái tạo tại nhà cũng giúp giảm **ô nhiễm**."
+      },
+      {
+        "index": 3,
+        "text_en": "Governments have a critical role in creating the conditions for **green** choices to be easy and affordable. Strong **environment**al policy can **protect** endangered species, limit industrial **pollution**, and invest in clean transportation. Businesses also have a **responsible** role to play: companies that adopt **eco-friendly** practices — such as using sustainable packaging or sourcing materials locally — help to **reduce** their **carbon footprint** while building a positive public image.",
+        "text_vi": "Chính phủ có vai trò quan trọng trong việc tạo ra điều kiện để các lựa chọn **xanh** dễ dàng và hợp túi tiền. Chính sách **môi trường** mạnh mẽ có thể **bảo vệ** các loài có nguy cơ tuyệt chủng, hạn chế **ô nhiễm** công nghiệp và đầu tư vào phương tiện giao thông sạch. Các doanh nghiệp cũng có vai trò **có trách nhiệm** cần thực hiện: các công ty áp dụng các thực hành **thân thiện với môi trường** — chẳng hạn như sử dụng bao bì bền vững hoặc tìm kiếm vật liệu tại địa phương — giúp **giảm thiểu** **dấu chân carbon** của họ trong khi xây dựng hình ảnh công cộng tích cực."
+      },
+      {
+        "index": 4,
+        "text_en": "Education is key to building a culture of environmental **action**. When people understand the connection between everyday choices and global **damage**, they are more motivated to change. Communities that celebrate **local** nature — their rivers, forests, and wildlife — are more likely to **protect** them. The **environment** does not belong to any single generation; we are simply its custodians, with a **responsible** duty to pass it on in better shape than we found it.",
+        "text_vi": "Giáo dục là chìa khóa để xây dựng văn hóa **hành động** môi trường. Khi mọi người hiểu mối liên hệ giữa các lựa chọn hàng ngày và **thiệt hại** toàn cầu, họ có động lực thay đổi hơn. Các cộng đồng tôn vinh thiên nhiên **địa phương** — sông, rừng và động vật hoang dã của họ — có nhiều khả năng **bảo vệ** chúng hơn. **Môi trường** không thuộc về bất kỳ thế hệ đơn lẻ nào; chúng ta chỉ đơn giản là người gìn giữ của nó, với nghĩa vụ **có trách nhiệm** là truyền lại nó trong tình trạng tốt hơn những gì chúng ta tìm thấy."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "recycle",
+      "ipa": "/ˌriːˈsaɪ.kəl/",
+      "pos": "verb",
+      "meaning_vi": "tái chế (chuyển đổi rác thải thành nguyên liệu mới)",
+      "meaning_vi_inline": "tái chế",
+      "example_en": "Most households in this city recycle paper, glass, and plastic as part of their weekly routine.",
+      "example_vi": "Hầu hết các hộ gia đình trong thành phố này tái chế giấy, thủy tinh và nhựa như một phần của thói quen hàng tuần.",
+      "word_family": {
+        "noun": "recycling / recyclable",
+        "verb": "recycle",
+        "adjective": "recyclable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "reduce",
+      "ipa": "/rɪˈdjuːs/",
+      "pos": "verb",
+      "meaning_vi": "giảm thiểu (giảm lượng sử dụng hoặc tiêu thụ)",
+      "meaning_vi_inline": "giảm thiểu",
+      "example_en": "The best way to deal with plastic pollution is to reduce the amount we produce in the first place.",
+      "example_vi": "Cách tốt nhất để đối phó với ô nhiễm nhựa là giảm lượng chúng ta sản xuất ngay từ đầu.",
+      "word_family": {
+        "noun": "reduction",
+        "verb": "reduce",
+        "adjective": "reduced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "reuse",
+      "ipa": "/ˌriːˈjuːz/",
+      "pos": "verb",
+      "meaning_vi": "tái sử dụng (dùng lại thay vì bỏ đi)",
+      "meaning_vi_inline": "tái sử dụng",
+      "example_en": "Instead of buying water in plastic bottles, she started to reuse a metal flask every day.",
+      "example_vi": "Thay vì mua nước trong chai nhựa, cô ấy bắt đầu tái sử dụng bình kim loại mỗi ngày.",
+      "word_family": {
+        "noun": "reuse",
+        "verb": "reuse",
+        "adjective": "reusable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "carbon footprint",
+      "ipa": "/ˈkɑː.bən ˈfʊt.prɪnt/",
+      "pos": "noun phrase",
+      "meaning_vi": "dấu chân carbon (lượng CO₂ thải ra do hoạt động của một người)",
+      "meaning_vi_inline": "dấu chân carbon",
+      "example_en": "Flying frequently is one of the biggest contributors to an individual's carbon footprint.",
+      "example_vi": "Bay thường xuyên là một trong những nguyên nhân lớn nhất góp phần vào dấu chân carbon của một cá nhân.",
+      "word_family": {
+        "noun": "carbon footprint / carbon emissions",
+        "verb": null,
+        "adjective": "carbon-neutral",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "waste",
+      "ipa": "/weɪst/",
+      "pos": "noun / verb",
+      "meaning_vi": "rác thải; lãng phí",
+      "meaning_vi_inline": "rác thải",
+      "example_en": "Reducing food waste is one of the most effective ways individuals can help the environment.",
+      "example_vi": "Giảm lãng phí thực phẩm là một trong những cách hiệu quả nhất mà cá nhân có thể giúp đỡ môi trường.",
+      "word_family": {
+        "noun": "waste",
+        "verb": "waste",
+        "adjective": "wasteful",
+        "adverb": "wastefully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "protect",
+      "ipa": "/prəˈtekt/",
+      "pos": "verb",
+      "meaning_vi": "bảo vệ (môi trường, thiên nhiên, loài động vật)",
+      "meaning_vi_inline": "bảo vệ",
+      "example_en": "New laws were introduced to protect the rainforest from illegal logging and deforestation.",
+      "example_vi": "Các luật mới được ban hành để bảo vệ rừng nhiệt đới khỏi việc khai thác gỗ bất hợp pháp và phá rừng.",
+      "word_family": {
+        "noun": "protection / protector",
+        "verb": "protect",
+        "adjective": "protected / protective",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "pollution",
+      "ipa": "/pəˈluː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "ô nhiễm (không khí, nước, đất)",
+      "meaning_vi_inline": "ô nhiễm",
+      "example_en": "Air pollution in large cities is linked to higher rates of respiratory disease and premature death.",
+      "example_vi": "Ô nhiễm không khí ở các thành phố lớn có liên quan đến tỷ lệ bệnh hô hấp và tử vong sớm cao hơn.",
+      "word_family": {
+        "noun": "pollution / pollutant",
+        "verb": "pollute",
+        "adjective": "polluted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "damage",
+      "ipa": "/ˈdæm.ɪdʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "thiệt hại, tổn hại (gây ra cho môi trường)",
+      "meaning_vi_inline": "thiệt hại",
+      "example_en": "The oil spill caused serious damage to the coastline and killed thousands of seabirds.",
+      "example_vi": "Vụ tràn dầu gây thiệt hại nghiêm trọng cho bờ biển và giết chết hàng nghìn chim biển.",
+      "word_family": {
+        "noun": "damage",
+        "verb": "damage",
+        "adjective": "damaged / damaging",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "action",
+      "ipa": "/ˈæk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "hành động (cụ thể để giải quyết vấn đề)",
+      "meaning_vi_inline": "hành động",
+      "example_en": "Global leaders agreed that urgent action was needed to reduce greenhouse gas emissions.",
+      "example_vi": "Các nhà lãnh đạo toàn cầu đồng ý rằng cần có hành động khẩn cấp để giảm lượng khí thải nhà kính.",
+      "word_family": {
+        "noun": "action",
+        "verb": "act",
+        "adjective": "active",
+        "adverb": "actively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "responsible",
+      "ipa": "/rɪˈspɒn.sɪ.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "có trách nhiệm (với môi trường và cộng đồng)",
+      "meaning_vi_inline": "có trách nhiệm",
+      "example_en": "Companies that adopt responsible practices — such as reducing emissions — are seen as more trustworthy.",
+      "example_vi": "Các công ty áp dụng các thực hành có trách nhiệm — chẳng hạn như giảm khí thải — được xem là đáng tin cậy hơn.",
+      "word_family": {
+        "noun": "responsibility",
+        "verb": null,
+        "adjective": "responsible / irresponsible",
+        "adverb": "responsibly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "green",
+      "ipa": "/ɡriːn/",
+      "pos": "adjective",
+      "meaning_vi": "xanh (thân thiện với môi trường)",
+      "meaning_vi_inline": "thân thiện với môi trường",
+      "example_en": "The government introduced incentives to encourage businesses to switch to green energy sources.",
+      "example_vi": "Chính phủ đã giới thiệu các ưu đãi để khuyến khích doanh nghiệp chuyển sang các nguồn năng lượng xanh.",
+      "word_family": {
+        "noun": "green / greenness",
+        "verb": "go green",
+        "adjective": "green",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪ.rən.mənt/",
+      "pos": "noun",
+      "meaning_vi": "môi trường (tự nhiên hoặc xung quanh)",
+      "meaning_vi_inline": "môi trường",
+      "example_en": "Protecting the natural environment requires cooperation between governments, businesses, and individuals.",
+      "example_vi": "Bảo vệ môi trường tự nhiên đòi hỏi sự hợp tác giữa chính phủ, doanh nghiệp và cá nhân.",
+      "word_family": {
+        "noun": "environment",
+        "verb": null,
+        "adjective": "environmental",
+        "adverb": "environmentally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "local",
+      "ipa": "/ˈləʊ.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "địa phương (gần nơi mình sống; không ở xa)",
+      "meaning_vi_inline": "địa phương",
+      "example_en": "Buying from local farmers reduces food miles and supports the community economy.",
+      "example_vi": "Mua từ nông dân địa phương giảm dặm thực phẩm và hỗ trợ nền kinh tế cộng đồng.",
+      "word_family": {
+        "noun": "locality / locals",
+        "verb": "localise",
+        "adjective": "local",
+        "adverb": "locally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "eco-friendly",
+      "ipa": "/ˌiː.kəʊˈfrend.li/",
+      "pos": "adjective",
+      "meaning_vi": "thân thiện với môi trường (không gây hại cho thiên nhiên)",
+      "meaning_vi_inline": "thân thiện với môi trường",
+      "example_en": "The supermarket replaced plastic bags with eco-friendly alternatives made from recycled paper.",
+      "example_vi": "Siêu thị đã thay thế túi nhựa bằng các sản phẩm thay thế thân thiện với môi trường làm từ giấy tái chế.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "eco-friendly / environmentally friendly",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "energy saving",
+      "ipa": "/ˈen.ə.dʒi ˌseɪ.vɪŋ/",
+      "pos": "adjective / noun phrase",
+      "meaning_vi": "tiết kiệm năng lượng (giảm mức điện hoặc năng lượng tiêu thụ)",
+      "meaning_vi_inline": "tiết kiệm năng lượng",
+      "example_en": "Installing energy saving light bulbs is a simple way to reduce electricity bills and help the environment.",
+      "example_vi": "Lắp đặt bóng đèn tiết kiệm năng lượng là một cách đơn giản để giảm hóa đơn điện và giúp đỡ môi trường.",
+      "word_family": {
+        "noun": "energy saving",
+        "verb": "save energy",
+        "adjective": "energy-saving",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage argues that governments alone are responsible for protecting the environment.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Reducing, reusing, and recycling can help individuals lower their carbon footprint.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "All countries have introduced laws requiring businesses to use eco-friendly packaging.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Communities that value their local natural environment are more likely to take steps to protect it.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage says that deforestation is the most serious environmental problem today.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The factory was fined heavily for releasing toxic chemicals that caused serious _____ to the river.",
+          "options": [
+            "waste",
+            "damage",
+            "pollution",
+            "action"
+          ],
+          "answer": "damage"
+        },
+        {
+          "id": 2,
+          "sentence": "She switched to _____ light bulbs and installed solar panels to reduce her electricity bills.",
+          "options": [
+            "green",
+            "local",
+            "energy saving",
+            "eco-friendly"
+          ],
+          "answer": "energy saving"
+        },
+        {
+          "id": 3,
+          "sentence": "The company has committed to cutting its _____ by switching to electric delivery vehicles.",
+          "options": [
+            "carbon footprint",
+            "pollution",
+            "waste",
+            "damage"
+          ],
+          "answer": "carbon footprint"
+        },
+        {
+          "id": 4,
+          "sentence": "Citizens have a _____ duty to sort their rubbish and use recycling facilities properly.",
+          "options": [
+            "green",
+            "local",
+            "eco-friendly",
+            "responsible"
+          ],
+          "answer": "responsible"
+        },
+        {
+          "id": 5,
+          "sentence": "Many restaurants now use _____ packaging — made from recycled paper or plant-based materials.",
+          "options": [
+            "green",
+            "eco-friendly",
+            "local",
+            "recycled"
+          ],
+          "answer": "eco-friendly"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "recycle",
+        "reduce",
+        "pollution",
+        "protect",
+        "waste"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The simplest way to deal with packaging _____ is to stop producing it in the first place.",
+          "answer": "waste"
+        },
+        {
+          "id": 2,
+          "sentence": "Most cities have bins where residents can _____ paper, glass, metal, and plastic.",
+          "answer": "recycle"
+        },
+        {
+          "id": 3,
+          "sentence": "Governments must act quickly to _____ carbon emissions if they want to slow climate change.",
+          "answer": "reduce"
+        },
+        {
+          "id": 4,
+          "sentence": "Air _____ in major cities is linked to serious health problems including asthma and lung disease.",
+          "answer": "pollution"
+        },
+        {
+          "id": 5,
+          "sentence": "New national parks were created to _____ endangered wildlife and their natural habitats.",
+          "answer": "protect"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "reducing",
+            "reusing",
+            "and",
+            "recycling",
+            "are",
+            "three",
+            "simple",
+            "ways",
+            "that",
+            "individuals",
+            "can",
+            "lower",
+            "their",
+            "carbon",
+            "footprint"
+          ],
+          "answer": "Reducing, reusing, and recycling are three simple ways that individuals can lower their carbon footprint."
+        },
+        {
+          "id": 2,
+          "words": [
+            "strong",
+            "environmental",
+            "policy",
+            "can",
+            "protect",
+            "endangered",
+            "species",
+            "and",
+            "limit",
+            "industrial",
+            "pollution"
+          ],
+          "answer": "Strong environmental policy can protect endangered species and limit industrial pollution."
+        },
+        {
+          "id": 3,
+          "words": [
+            "companies",
+            "that",
+            "adopt",
+            "eco-friendly",
+            "practices",
+            "help",
+            "to",
+            "reduce",
+            "damage",
+            "to",
+            "the",
+            "environment",
+            "and",
+            "build",
+            "a",
+            "positive",
+            "image"
+          ],
+          "answer": "Companies that adopt eco-friendly practices help to reduce damage to the environment and build a positive image."
+        },
+        {
+          "id": 4,
+          "words": [
+            "when",
+            "people",
+            "understand",
+            "how",
+            "everyday",
+            "choices",
+            "damage",
+            "the",
+            "environment",
+            "they",
+            "are",
+            "more",
+            "motivated",
+            "to",
+            "act",
+            "responsibly"
+          ],
+          "answer": "When people understand how everyday choices damage the environment they are more motivated to act responsibly."
+        },
+        {
+          "id": 5,
+          "words": [
+            "we",
+            "have",
+            "a",
+            "responsible",
+            "duty",
+            "to",
+            "pass",
+            "the",
+            "environment",
+            "on",
+            "to",
+            "future",
+            "generations",
+            "in",
+            "better",
+            "shape",
+            "than",
+            "we",
+            "found",
+            "it"
+          ],
+          "answer": "We have a responsible duty to pass the environment on to future generations in better shape than we found it."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She started sorting her [rubbish] into separate bins so that paper and plastic could be recycled.",
+          "highlighted": "rubbish",
+          "options": {
+            "A": "waste",
+            "B": "rubbish",
+            "C": "garbage"
+          },
+          "answer": "A",
+          "explanation": "'Waste' is the target vocabulary word for the general concept of discarded or unwanted material, especially in environmental discussions. 'Rubbish' and 'garbage' are informal terms for household refuse — they work in conversation but 'waste' is the precise academic and environmental vocabulary term used in IELTS-level texts."
+        },
+        {
+          "id": 2,
+          "sentence": "The city launched a campaign to [clean up] air quality by reducing vehicle emissions.",
+          "highlighted": "clean up",
+          "options": {
+            "A": "improve",
+            "B": "reduce",
+            "C": "protect"
+          },
+          "answer": "C",
+          "explanation": "'Protect' is the target vocabulary verb for safeguarding the environment from harm. In context, the goal of the campaign is to protect air quality. 'Clean up' suggests removing existing dirt or mess. 'Improve' is possible but general. 'Reduce' would require a direct object (reduce pollution, not reduce air quality). 'Protect' is the most precise environmental vocabulary here."
+        },
+        {
+          "id": 3,
+          "sentence": "The oil spill caused terrible [harm] to the coastal ecosystem and killed thousands of fish.",
+          "highlighted": "harm",
+          "options": {
+            "A": "ruin",
+            "B": "danger",
+            "C": "damage"
+          },
+          "answer": "C",
+          "explanation": "'Damage' is the target vocabulary word for environmental destruction caused by human activity. 'Harm' is more commonly used for injury to living beings. 'Danger' refers to risk, not the result of an event. 'Ruin' is informal. 'Damage' is the precise word used in environmental and legal contexts for measurable harm to property or nature."
+        },
+        {
+          "id": 4,
+          "sentence": "The new [nature-friendly] packaging uses plant-based ink and recycled cardboard.",
+          "highlighted": "nature-friendly",
+          "options": {
+            "A": "green",
+            "B": "eco-friendly",
+            "C": "nature-friendly"
+          },
+          "answer": "B",
+          "explanation": "'Eco-friendly' is the target vocabulary compound adjective for products or practices that do not harm the environment. 'Nature-friendly' is not a standard English term. 'Green' is also correct in context but less specific to packaging. 'Eco-friendly' is the established and widely used term in environmental and commercial contexts."
+        },
+        {
+          "id": 5,
+          "sentence": "The factory installed [power-saving] devices to cut its electricity use by thirty percent.",
+          "highlighted": "power-saving",
+          "options": {
+            "A": "power-saving",
+            "B": "energy saving",
+            "C": "electricity-reducing"
+          },
+          "answer": "B",
+          "explanation": "'Energy saving' is the target vocabulary compound adjective for devices that reduce energy consumption. 'Power-saving' exists in technology contexts (e.g., phone screens) but is not the standard environmental vocabulary term. 'Electricity-reducing' is not standard English at all. 'Energy saving' is the established phrase in sustainability and environmental discussion."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "damage",
+      "2": "energy saving",
+      "3": "carbon footprint",
+      "4": "responsible",
+      "5": "eco-friendly"
+    },
+    "ex3": {
+      "1": "waste",
+      "2": "recycle",
+      "3": "reduce",
+      "4": "pollution",
+      "5": "protect"
+    },
+    "ex4": {
+      "1": "Reducing, reusing, and recycling are three simple ways that individuals can lower their carbon footprint.",
+      "2": "Strong environmental policy can protect endangered species and limit industrial pollution.",
+      "3": "Companies that adopt eco-friendly practices help to reduce damage to the environment and build a positive image.",
+      "4": "When people understand how everyday choices damage the environment they are more motivated to act responsibly.",
+      "5": "We have a responsible duty to pass the environment on to future generations in better shape than we found it."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "C",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

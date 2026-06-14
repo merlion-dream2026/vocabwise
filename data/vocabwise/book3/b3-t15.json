@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 15,
+    "topic_id": "b3-t15",
+    "topic_title": "The Science of Habit & Behaviour",
+    "topic_title_vi": "Khoa Học Về Thói Quen & Hành Vi",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🔄",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The human brain is, above all, a pattern-seeking machine. Once a behaviour is repeated enough, it graduates from conscious choice to **automaticity** — the effortless execution of an action without deliberate thought. At the heart of this process lies a neurological loop: a **cue** triggers a **routine**, which delivers a reward. The strength of the **reward system** is what locks habits into place, making certain behaviours feel almost compulsory over time.",
+        "text_vi": "Não người, trên hết, là một cỗ máy tìm kiếm quy luật. Khi một hành vi được lặp lại đủ nhiều, nó chuyển từ lựa chọn có ý thức sang **tính tự động** — sự thực thi hành động một cách dễ dàng mà không cần suy nghĩ có chủ đích. Nằm ở trung tâm của quá trình này là một vòng lặp thần kinh: một **tín hiệu kích hoạt** một **thói quen hàng ngày**, từ đó mang lại phần thưởng. Sức mạnh của **hệ thống phần thưởng** là thứ khóa chặt thói quen vào vị trí, khiến một số hành vi cảm thấy gần như bắt buộc theo thời gian."
+      },
+      {
+        "index": 2,
+        "text_en": "Breaking free from unwanted patterns is rarely straightforward. **Conditioning** — the process by which environmental stimuli become associated with specific responses — means that even after a period of abstinence, a single familiar trigger can provoke an **urge** powerful enough to cause **relapse**. This is why experts stress the importance of restructuring one's environment rather than relying solely on **willpower**, which research consistently shows to be a limited and depletable resource.",
+        "text_vi": "Thoát khỏi những khuôn mẫu không mong muốn hiếm khi đơn giản. **Điều kiện hóa** — quá trình mà các kích thích môi trường trở nên liên kết với các phản ứng cụ thể — có nghĩa là ngay cả sau một thời gian kiêng cữ, một tín hiệu quen thuộc duy nhất cũng có thể gây ra **sự thôi thúc** đủ mạnh để dẫn đến **tái nghiện**. Đây là lý do tại sao các chuyên gia nhấn mạnh tầm quan trọng của việc tái cơ cấu môi trường sống thay vì chỉ dựa vào **ý chí**, thứ mà nghiên cứu nhất quán chỉ ra là một nguồn lực hữu hạn và dễ cạn kiệt."
+      },
+      {
+        "index": 3,
+        "text_en": "Neuroscience has shown that the brain remains plastic well into adulthood, meaning **rewiring** of established neural pathways is genuinely possible. To **break destructive habits**, practitioners recommend identifying the specific cue that initiates the unwanted loop and substituting a healthier routine in its place. The goal is not to eliminate the trigger but to redirect it. Programmes that **exploit positive reinforcement** — celebrating small wins rather than punishing failure — have demonstrated significantly higher success rates in clinical settings.",
+        "text_vi": "Khoa học thần kinh đã chỉ ra rằng não bộ vẫn còn tính dẻo dai cho đến khi trưởng thành, nghĩa là việc **tái lập mạch** các con đường thần kinh đã hình thành là hoàn toàn khả thi. Để **phá vỡ những thói quen có hại**, các chuyên gia khuyến nghị xác định tín hiệu cụ thể khởi đầu vòng lặp không mong muốn và thay thế bằng một thói quen lành mạnh hơn. Mục tiêu không phải là loại bỏ tác nhân kích thích mà là định hướng lại nó. Các chương trình **khai thác sự củng cố tích cực** — tôn vinh những thành công nhỏ thay vì trừng phạt thất bại — đã chứng minh tỷ lệ thành công cao hơn đáng kể trong các cơ sở lâm sàng."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, the most resilient approach is to **harness the power of routine** by designing an environment that makes desirable behaviours the path of least resistance. Strategies that **rewire behavioural patterns** — such as habit stacking or implementation intentions — work precisely because they acknowledge the brain's preference for automation. Similarly, efforts to **build lasting willpower** are most effective when framed not as a battle against temptation, but as a gradual shift in identity: becoming, through repeated action, the person one wishes to be.",
+        "text_vi": "Cuối cùng, cách tiếp cận bền vững nhất là **khai thác sức mạnh của thói quen hàng ngày** bằng cách thiết kế một môi trường khiến các hành vi mong muốn trở thành con đường ít trở lực nhất. Các chiến lược **tái lập các khuôn mẫu hành vi** — chẳng hạn như xếp chồng thói quen hay ý định thực hiện — hoạt động chính xác vì chúng thừa nhận sự ưa thích của não bộ đối với tự động hóa. Tương tự, những nỗ lực **xây dựng ý chí bền vững** có hiệu quả nhất khi được định khung không phải là cuộc chiến chống lại cám dỗ, mà là sự thay đổi danh tính dần dần: trở thành, thông qua hành động lặp đi lặp lại, con người mà ta mong muốn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "reward system",
+      "ipa": "/rɪˈwɔːd ˈsɪs.təm/",
+      "pos": "noun phrase",
+      "meaning_vi": "hệ thống phần thưởng (trong não bộ)",
+      "meaning_vi_inline": "hệ thống phần thưởng",
+      "example_en": "The brain's reward system releases dopamine whenever a habitual behaviour is completed, reinforcing the loop.",
+      "example_vi": "Hệ thống phần thưởng của não giải phóng dopamine mỗi khi một hành vi thói quen được hoàn thành, củng cố vòng lặp.",
+      "word_family": {
+        "noun": "reward / reward system",
+        "verb": "reward",
+        "adjective": "rewarding / rewarded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "pos": "noun",
+      "meaning_vi": "thói quen hàng ngày, quy trình thường lệ",
+      "meaning_vi_inline": "thói quen hàng ngày",
+      "example_en": "A consistent morning routine can dramatically improve focus and productivity throughout the day.",
+      "example_vi": "Một thói quen buổi sáng nhất quán có thể cải thiện đáng kể sự tập trung và năng suất trong suốt cả ngày.",
+      "word_family": {
+        "noun": "routine",
+        "verb": null,
+        "adjective": "routine / routine-based",
+        "adverb": "routinely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "rewiring",
+      "ipa": "/ˌriːˈwaɪ.ərɪŋ/",
+      "pos": "noun / gerund",
+      "meaning_vi": "sự tái lập mạch thần kinh, việc định hình lại",
+      "meaning_vi_inline": "tái lập mạch",
+      "example_en": "Cognitive behavioural therapy facilitates the rewiring of negative thought patterns.",
+      "example_vi": "Liệu pháp nhận thức hành vi tạo điều kiện cho việc tái lập mạch các khuôn mẫu suy nghĩ tiêu cực.",
+      "word_family": {
+        "noun": "rewiring",
+        "verb": "rewire",
+        "adjective": "rewired",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "incentive",
+      "ipa": "/ɪnˈsen.tɪv/",
+      "pos": "noun",
+      "meaning_vi": "động cơ khuyến khích, phần thưởng kích thích",
+      "meaning_vi_inline": "động cơ khuyến khích",
+      "example_en": "Financial incentives alone are rarely sufficient to sustain long-term behavioural change.",
+      "example_vi": "Các động cơ tài chính đơn thuần hiếm khi đủ để duy trì sự thay đổi hành vi lâu dài.",
+      "word_family": {
+        "noun": "incentive",
+        "verb": "incentivise / incentivize",
+        "adjective": "incentive-based",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "intent",
+        "explanation_vi": "'Incentive' là thứ khuyến khích hoặc thúc đẩy hành động; 'intent' là mục đích hay ý định — không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "willpower",
+      "ipa": "/ˈwɪl.paʊ.ər/",
+      "pos": "noun",
+      "meaning_vi": "ý chí, nghị lực",
+      "meaning_vi_inline": "ý chí",
+      "example_en": "Studies suggest that willpower functions like a muscle — it can be strengthened but also fatigued.",
+      "example_vi": "Các nghiên cứu cho thấy ý chí hoạt động như một cơ bắp — có thể được củng cố nhưng cũng có thể mệt mỏi.",
+      "word_family": {
+        "noun": "willpower / will",
+        "verb": null,
+        "adjective": "strong-willed / weak-willed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "relapse",
+      "ipa": "/ˈriː.læps/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự tái phát, tái nghiện",
+      "meaning_vi_inline": "tái nghiện",
+      "example_en": "Recognising high-risk situations in advance is key to preventing relapse after addiction treatment.",
+      "example_vi": "Nhận biết trước các tình huống nguy cơ cao là chìa khóa để ngăn ngừa tái nghiện sau khi điều trị nghiện.",
+      "word_family": {
+        "noun": "relapse",
+        "verb": "relapse",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "collapse",
+        "explanation_vi": "'Relapse' là sự trở lại trạng thái xấu sau giai đoạn cải thiện; 'collapse' là sự sụp đổ hoàn toàn — khác nhau về ngữ cảnh và ý nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "conditioning",
+      "ipa": "/kənˈdɪʃ.ən.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "sự điều kiện hóa (hành vi)",
+      "meaning_vi_inline": "điều kiện hóa",
+      "example_en": "Classical conditioning explains why people salivate at the smell of food before they have even tasted it.",
+      "example_vi": "Điều kiện hóa cổ điển giải thích tại sao người ta tiết nước bọt khi ngửi mùi thức ăn trước khi nếm.",
+      "word_family": {
+        "noun": "conditioning / condition",
+        "verb": "condition",
+        "adjective": "conditioned",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "automaticity",
+      "ipa": "/ˌɔː.tə.məˈtɪs.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính tự động (của hành vi), khả năng thực hiện tự động",
+      "meaning_vi_inline": "tính tự động",
+      "example_en": "With enough practice, even complex piano pieces can be performed with near-total automaticity.",
+      "example_vi": "Với đủ luyện tập, ngay cả những bản nhạc piano phức tạp cũng có thể được thực hiện với tính tự động gần như hoàn toàn.",
+      "word_family": {
+        "noun": "automaticity / automation / automaton",
+        "verb": "automate",
+        "adjective": "automatic / automated",
+        "adverb": "automatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "urge",
+      "ipa": "/ɜːdʒ/",
+      "pos": "noun",
+      "meaning_vi": "sự thôi thúc, ham muốn mạnh mẽ",
+      "meaning_vi_inline": "sự thôi thúc",
+      "example_en": "The urge to check social media can be so powerful that it disrupts sustained concentration.",
+      "example_vi": "Sự thôi thúc kiểm tra mạng xã hội có thể mạnh đến mức làm gián đoạn sự tập trung kéo dài.",
+      "word_family": {
+        "noun": "urge",
+        "verb": "urge",
+        "adjective": "urgent",
+        "adverb": "urgently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "cue",
+      "ipa": "/kjuː/",
+      "pos": "noun",
+      "meaning_vi": "tín hiệu kích hoạt, dấu hiệu",
+      "meaning_vi_inline": "tín hiệu kích hoạt",
+      "example_en": "Environmental cues — such as the smell of coffee — can automatically trigger habitual morning behaviours.",
+      "example_vi": "Các tín hiệu môi trường — chẳng hạn như mùi cà phê — có thể tự động kích hoạt các hành vi thói quen buổi sáng.",
+      "word_family": {
+        "noun": "cue",
+        "verb": "cue",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "queue",
+        "explanation_vi": "'Cue' là tín hiệu hoặc dấu hiệu kích hoạt hành vi; 'queue' là hàng đợi — phát âm giống nhau nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "break destructive habits",
+      "meaning_vi": "phá vỡ những thói quen có hại",
+      "example_en": "Therapists often use trigger mapping to help clients break destructive habits more effectively.",
+      "example_vi": "Các nhà trị liệu thường dùng phân tích tác nhân kích thích để giúp khách hàng phá vỡ những thói quen có hại hiệu quả hơn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "harness the power of routine",
+      "meaning_vi": "khai thác sức mạnh của thói quen hàng ngày",
+      "example_en": "Elite athletes harness the power of routine to maintain peak performance under pressure.",
+      "example_vi": "Các vận động viên ưu tú khai thác sức mạnh của thói quen hàng ngày để duy trì hiệu suất đỉnh cao dưới áp lực.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "rewire behavioural patterns",
+      "meaning_vi": "tái lập các khuôn mẫu hành vi",
+      "example_en": "Mindfulness-based interventions are increasingly used to rewire behavioural patterns linked to chronic stress.",
+      "example_vi": "Các can thiệp dựa trên chánh niệm ngày càng được sử dụng để tái lập các khuôn mẫu hành vi liên quan đến căng thẳng mãn tính.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "build lasting willpower",
+      "meaning_vi": "xây dựng ý chí bền vững",
+      "example_en": "Consistent small acts of self-discipline are more effective at building lasting willpower than occasional grand efforts.",
+      "example_vi": "Những hành động kỷ luật bản thân nhỏ nhưng nhất quán hiệu quả hơn trong việc xây dựng ý chí bền vững so với những nỗ lực lớn không thường xuyên.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "exploit positive reinforcement",
+      "meaning_vi": "khai thác sự củng cố tích cực",
+      "example_en": "Schools that exploit positive reinforcement consistently report higher levels of student motivation and engagement.",
+      "example_vi": "Các trường khai thác sự củng cố tích cực nhất quán báo cáo mức độ động lực và gắn kết của học sinh cao hơn.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, automaticity refers to the ability to perform an action without conscious thought.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that willpower can be permanently destroyed by repeated failure.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that restructuring one's environment is more reliable than depending solely on willpower.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, neural rewiring is only possible in children and adolescents.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that programmes using positive reinforcement outperform punishment-based approaches in clinical trials.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The sight of a cigarette packet acted as a powerful _____ that immediately triggered his craving.",
+          "options": [
+            "willpower",
+            "cue",
+            "routine",
+            "relapse"
+          ],
+          "answer": "cue"
+        },
+        {
+          "id": 2,
+          "sentence": "Despite months of progress, a stressful event led to her _____ into old eating behaviours.",
+          "options": [
+            "conditioning",
+            "automaticity",
+            "urge",
+            "relapse"
+          ],
+          "answer": "relapse"
+        },
+        {
+          "id": 3,
+          "sentence": "The sales team was offered a generous financial _____ to exceed their quarterly targets.",
+          "options": [
+            "incentive",
+            "routine",
+            "rewiring",
+            "cue"
+          ],
+          "answer": "incentive"
+        },
+        {
+          "id": 4,
+          "sentence": "After years of practice, the surgeon performed the procedure with complete _____.",
+          "options": [
+            "willpower",
+            "conditioning",
+            "automaticity",
+            "urge"
+          ],
+          "answer": "automaticity"
+        },
+        {
+          "id": 5,
+          "sentence": "The therapist explained that Pavlovian _____ links neutral stimuli to emotional responses over time.",
+          "options": [
+            "relapse",
+            "conditioning",
+            "routine",
+            "rewiring"
+          ],
+          "answer": "conditioning"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "willpower",
+        "urge",
+        "routine",
+        "reward system",
+        "relapse",
+        "cue"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A fixed morning _____ reduces the number of decisions the brain must make before noon.",
+          "answer": "routine"
+        },
+        {
+          "id": 2,
+          "sentence": "The brain's _____ is activated by both natural pleasures and artificially addictive substances.",
+          "answer": "reward system"
+        },
+        {
+          "id": 3,
+          "sentence": "She felt an overwhelming _____ to open her phone the moment she sat down at her desk.",
+          "answer": "urge"
+        },
+        {
+          "id": 4,
+          "sentence": "Stress is a frequent _____ that triggers comfort eating in people who struggle with food habits.",
+          "answer": "cue"
+        },
+        {
+          "id": 5,
+          "sentence": "Relying entirely on _____ is unsustainable; environmental design must also play a role.",
+          "answer": "willpower"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "automaticity",
+            "frees",
+            "the",
+            "brain",
+            "for",
+            "more",
+            "demanding",
+            "tasks"
+          ],
+          "answer": "Automaticity frees the brain for more demanding tasks."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "single",
+            "environmental",
+            "cue",
+            "can",
+            "trigger",
+            "a",
+            "powerful",
+            "urge",
+            "to",
+            "relapse"
+          ],
+          "answer": "A single environmental cue can trigger a powerful urge to relapse."
+        },
+        {
+          "id": 3,
+          "words": [
+            "willpower",
+            "is",
+            "a",
+            "finite",
+            "resource",
+            "that",
+            "diminishes",
+            "with",
+            "repeated",
+            "use"
+          ],
+          "answer": "Willpower is a finite resource that diminishes with repeated use."
+        },
+        {
+          "id": 4,
+          "words": [
+            "conditioning",
+            "explains",
+            "why",
+            "habitual",
+            "responses",
+            "persist",
+            "long",
+            "after",
+            "the",
+            "original",
+            "reward",
+            "disappears"
+          ],
+          "answer": "Conditioning explains why habitual responses persist long after the original reward disappears."
+        },
+        {
+          "id": 5,
+          "words": [
+            "rewiring",
+            "neural",
+            "pathways",
+            "requires",
+            "consistent",
+            "repetition",
+            "over",
+            "time"
+          ],
+          "answer": "Rewiring neural pathways requires consistent repetition over time."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The brain's [reward] of dopamine after exercise reinforces the habit of regular physical activity.",
+          "highlighted": "reward",
+          "options": {
+            "A": "release",
+            "B": "relapse",
+            "C": "rewiring"
+          },
+          "answer": "A",
+          "explanation": "'Release of dopamine' is the correct collocation; 'reward' does not collocate with 'of dopamine' in this way."
+        },
+        {
+          "id": 2,
+          "sentence": "She struggled with a persistent [urging] to abandon her diet whenever she felt stressed.",
+          "highlighted": "urging",
+          "options": {
+            "A": "urged",
+            "B": "urge",
+            "C": "urgently"
+          },
+          "answer": "B",
+          "explanation": "The noun 'urge' is needed after the article 'a'; 'urging' is a gerund or present participle and does not function as a countable noun here."
+        },
+        {
+          "id": 3,
+          "sentence": "Operant [condition] is a form of learning in which behaviour is modified by its consequences.",
+          "highlighted": "condition",
+          "options": {
+            "A": "conditioned",
+            "B": "conditional",
+            "C": "conditioning"
+          },
+          "answer": "C",
+          "explanation": "'Operant conditioning' is the established psychological term; 'condition' alone cannot serve as the second noun in this compound noun phrase."
+        },
+        {
+          "id": 4,
+          "sentence": "Patients who [relapsed] their smoking habit were offered additional counselling sessions.",
+          "highlighted": "relapsed",
+          "options": {
+            "A": "relapse into",
+            "B": "relapsed into",
+            "C": "relapsing"
+          },
+          "answer": "B",
+          "explanation": "'Relapse' requires the preposition 'into' when followed by the habit one returns to — 'relapsed into their smoking habit' is grammatically correct."
+        },
+        {
+          "id": 5,
+          "sentence": "The therapist helped her identify the [automatically] cue that preceded every episode of emotional eating.",
+          "highlighted": "automatically",
+          "options": {
+            "A": "automatic",
+            "B": "automation",
+            "C": "automaticity"
+          },
+          "answer": "A",
+          "explanation": "An adjective is needed to modify the noun 'cue' — 'automatic cue'; the adverb 'automatically' cannot attributively modify a noun in this position."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "cue",
+      "2": "relapse",
+      "3": "incentive",
+      "4": "automaticity",
+      "5": "conditioning"
+    },
+    "ex3": {
+      "1": "routine",
+      "2": "reward system",
+      "3": "urge",
+      "4": "cue",
+      "5": "willpower"
+    },
+    "ex4": {
+      "1": "Automaticity frees the brain for more demanding tasks.",
+      "2": "A single environmental cue can trigger a powerful urge to relapse.",
+      "3": "Willpower is a finite resource that diminishes with repeated use.",
+      "4": "Conditioning explains why habitual responses persist long after the original reward disappears.",
+      "5": "Rewiring neural pathways requires consistent repetition over time."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

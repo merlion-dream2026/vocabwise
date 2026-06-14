@@ -1,0 +1,652 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 26,
+    "topic_id": "b2-t26",
+    "topic_title": "Work & Employment Issues",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "💼",
+    "topic_title_vi": "Công Việc & Các Vấn Đề Lao Động",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 214,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The modern workplace presents both opportunities and challenges. Workers today must be **adaptable** — able to change and respond to new situations — as industries evolve rapidly. Many employees now enjoy **remote** work arrangements, performing their jobs from home rather than in an office. While this offers flexibility, it can also blur the boundaries between personal life and professional **condition**s, raising questions about **workload** and wellbeing.",
+        "text_vi": "Môi trường làm việc hiện đại mang đến cả cơ hội lẫn thách thức. Người lao động ngày nay cần phải **thích nghi** — có khả năng thay đổi và ứng phó với tình huống mới — khi các ngành nghề phát triển nhanh chóng. Nhiều nhân viên hiện được làm việc **từ xa**, thực hiện công việc tại nhà thay vì ở văn phòng. Điều này mang lại sự linh hoạt, nhưng cũng có thể làm mờ ranh giới giữa cuộc sống cá nhân và **điều kiện** nghề nghiệp, đặt ra câu hỏi về **khối lượng công việc** và sức khỏe."
+      },
+      {
+        "index": 2,
+        "text_en": "Every employee is entitled to certain **rights** — legal protections that govern pay, hours, and treatment at work. These rights are typically written into a **contract**: a formal agreement between the employer and worker that outlines duties, salary, and **benefit**s such as paid leave or health insurance. When employers or employees feel these terms are not being met, a **dispute** may arise, requiring careful resolution.",
+        "text_vi": "Mỗi nhân viên có quyền được hưởng các **quyền lợi** nhất định — những bảo vệ pháp lý điều chỉnh mức lương, giờ làm và cách đối xử tại nơi làm việc. Các quyền này thường được ghi vào **hợp đồng**: thỏa thuận chính thức giữa người sử dụng lao động và người lao động, ghi rõ nhiệm vụ, lương và các **phúc lợi** như nghỉ phép có lương hoặc bảo hiểm y tế. Khi người sử dụng lao động hoặc nhân viên cảm thấy các điều khoản không được đáp ứng, một **tranh chấp** có thể nảy sinh, đòi hỏi phải giải quyết cẩn thận."
+      },
+      {
+        "index": 3,
+        "text_en": "If a worker feels they have been treated unfairly, they may file a **complaint** with their manager or human resources department. In serious cases, a **union** — an organisation that represents workers' interests — may step in to **negotiate** better terms on their behalf. Employers are expected to ensure **reasonable** working conditions, meaning hours and expectations that are fair and manageable for the average worker.",
+        "text_vi": "Nếu người lao động cảm thấy bị đối xử bất công, họ có thể nộp **khiếu nại** lên quản lý hoặc bộ phận nhân sự. Trong trường hợp nghiêm trọng, **công đoàn** — tổ chức đại diện cho quyền lợi người lao động — có thể can thiệp để **đàm phán** các điều khoản tốt hơn thay mặt họ. Người sử dụng lao động được kỳ vọng đảm bảo **điều kiện** làm việc **hợp lý**, nghĩa là giờ làm và kỳ vọng công bằng và có thể quản lý được."
+      },
+      {
+        "index": 4,
+        "text_en": "Sometimes an employee chooses to **resign** — to voluntarily leave their job — if they feel the environment no longer suits them. In other cases, an employer may **dismiss** a worker for performance issues or misconduct. Protecting worker **welfare** — their physical and mental health and overall quality of life at work — has become an increasingly important responsibility for modern organisations.",
+        "text_vi": "Đôi khi nhân viên chọn **từ chức** — tự nguyện rời bỏ công việc — nếu cảm thấy môi trường không còn phù hợp. Trong trường hợp khác, người sử dụng lao động có thể **sa thải** nhân viên vì vấn đề hiệu suất hoặc vi phạm. Bảo vệ **phúc lợi** của người lao động — sức khỏe thể chất, tinh thần và chất lượng cuộc sống tổng thể tại nơi làm việc — đã trở thành trách nhiệm ngày càng quan trọng của các tổ chức hiện đại."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "adaptable",
+      "ipa": "/əˈdæp.tə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "có khả năng thích nghi, linh hoạt",
+      "meaning_vi_inline": "thích nghi",
+      "example_en": "Employers prefer candidates who are adaptable and can learn new skills quickly.",
+      "example_vi": "Nhà tuyển dụng thích ứng viên có khả năng thích nghi và học kỹ năng mới nhanh chóng.",
+      "word_family": {
+        "noun": "adaptability",
+        "verb": "adapt",
+        "adjective": "adaptable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "remote",
+      "ipa": "/rɪˈməʊt/",
+      "pos": "adjective",
+      "meaning_vi": "làm việc từ xa (không ở văn phòng)",
+      "meaning_vi_inline": "từ xa",
+      "example_en": "Many companies now offer remote working options to attract talented employees.",
+      "example_vi": "Nhiều công ty hiện cung cấp lựa chọn làm việc từ xa để thu hút nhân tài.",
+      "word_family": {
+        "noun": "remoteness",
+        "verb": null,
+        "adjective": "remote",
+        "adverb": "remotely"
+      },
+      "false_friend": {
+        "word_vi": "distant / far",
+        "explanation_vi": "Trong ngữ cảnh công việc, 'remote' có nghĩa là làm từ nơi khác (không đến văn phòng), không phải 'xa xôi' về mặt địa lý. 'Remote work' = làm việc từ xa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "condition",
+      "ipa": "/kənˈdɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "điều kiện làm việc",
+      "meaning_vi_inline": "điều kiện",
+      "example_en": "The union demanded better working conditions, including safer equipment and shorter hours.",
+      "example_vi": "Công đoàn yêu cầu điều kiện làm việc tốt hơn, bao gồm thiết bị an toàn hơn và giờ làm ngắn hơn.",
+      "word_family": {
+        "noun": "condition / conditions",
+        "verb": "condition",
+        "adjective": "conditional",
+        "adverb": "conditionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "workload",
+      "ipa": "/ˈwɜːk.ləʊd/",
+      "pos": "noun",
+      "meaning_vi": "khối lượng công việc",
+      "meaning_vi_inline": "khối lượng công việc",
+      "example_en": "Her workload increased significantly after two colleagues left the team.",
+      "example_vi": "Khối lượng công việc của cô ấy tăng đáng kể sau khi hai đồng nghiệp rời nhóm.",
+      "word_family": {
+        "noun": "workload",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "rights",
+      "ipa": "/raɪts/",
+      "pos": "noun (plural)",
+      "meaning_vi": "quyền lợi (của người lao động)",
+      "meaning_vi_inline": "quyền lợi",
+      "example_en": "All workers have the right to a safe workplace and fair pay.",
+      "example_vi": "Tất cả người lao động đều có quyền được làm việc trong môi trường an toàn và nhận lương công bằng.",
+      "word_family": {
+        "noun": "right / rights",
+        "verb": null,
+        "adjective": "rightful",
+        "adverb": "rightfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "contract",
+      "ipa": "/ˈkɒn.trækt/",
+      "pos": "noun",
+      "meaning_vi": "hợp đồng lao động",
+      "meaning_vi_inline": "hợp đồng",
+      "example_en": "She read the contract carefully before signing it.",
+      "example_vi": "Cô ấy đọc kỹ hợp đồng trước khi ký.",
+      "word_family": {
+        "noun": "contract / contractor",
+        "verb": "contract",
+        "adjective": "contractual",
+        "adverb": "contractually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "benefit",
+      "ipa": "/ˈben.ɪ.fɪt/",
+      "pos": "noun",
+      "meaning_vi": "phúc lợi, quyền lợi đi kèm (ngoài lương)",
+      "meaning_vi_inline": "phúc lợi",
+      "example_en": "The job offer included excellent benefits such as health insurance and a pension.",
+      "example_vi": "Đề nghị việc làm bao gồm phúc lợi tuyệt vời như bảo hiểm y tế và lương hưu.",
+      "word_family": {
+        "noun": "benefit",
+        "verb": "benefit",
+        "adjective": "beneficial",
+        "adverb": "beneficially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "dispute",
+      "ipa": "/dɪˈspjuːt/",
+      "pos": "noun / verb",
+      "meaning_vi": "tranh chấp lao động",
+      "meaning_vi_inline": "tranh chấp",
+      "example_en": "The dispute between the workers and management lasted for several weeks.",
+      "example_vi": "Tranh chấp giữa người lao động và ban quản lý kéo dài vài tuần.",
+      "word_family": {
+        "noun": "dispute",
+        "verb": "dispute",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "argument",
+        "explanation_vi": "'Dispute' trong bối cảnh lao động là tranh chấp chính thức, thường liên quan đến luật pháp hoặc hợp đồng; 'argument' là bất đồng ý kiến thông thường, không mang tính pháp lý."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "complaint",
+      "ipa": "/kəmˈpleɪnt/",
+      "pos": "noun",
+      "meaning_vi": "khiếu nại, đơn phàn nàn (chính thức)",
+      "meaning_vi_inline": "khiếu nại",
+      "example_en": "She filed a formal complaint about the unsafe conditions in the workplace.",
+      "example_vi": "Cô ấy nộp đơn khiếu nại chính thức về điều kiện làm việc không an toàn.",
+      "word_family": {
+        "noun": "complaint",
+        "verb": "complain",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "union",
+      "ipa": "/ˈjuː.ni.ən/",
+      "pos": "noun",
+      "meaning_vi": "công đoàn (tổ chức bảo vệ quyền lợi lao động)",
+      "meaning_vi_inline": "công đoàn",
+      "example_en": "The union negotiated a 10% pay rise for all its members.",
+      "example_vi": "Công đoàn đàm phán tăng lương 10% cho tất cả thành viên.",
+      "word_family": {
+        "noun": "union",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "negotiate",
+      "ipa": "/nɪˈɡəʊ.ʃi.eɪt/",
+      "pos": "verb",
+      "meaning_vi": "đàm phán (về lương, điều kiện làm việc)",
+      "meaning_vi_inline": "đàm phán",
+      "example_en": "She negotiated a higher salary before accepting the job offer.",
+      "example_vi": "Cô ấy đàm phán mức lương cao hơn trước khi chấp nhận đề nghị việc làm.",
+      "word_family": {
+        "noun": "negotiation / negotiator",
+        "verb": "negotiate",
+        "adjective": "negotiable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "reasonable",
+      "ipa": "/ˈriː.zən.ə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "hợp lý, công bằng (về điều kiện, kỳ vọng)",
+      "meaning_vi_inline": "hợp lý",
+      "example_en": "The manager agreed that the request for flexible hours was reasonable.",
+      "example_vi": "Người quản lý đồng ý rằng yêu cầu về giờ làm linh hoạt là hợp lý.",
+      "word_family": {
+        "noun": "reason / reasonableness",
+        "verb": null,
+        "adjective": "reasonable / unreasonable",
+        "adverb": "reasonably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "resign",
+      "ipa": "/rɪˈzaɪn/",
+      "pos": "verb",
+      "meaning_vi": "từ chức, nghỉ việc tự nguyện",
+      "meaning_vi_inline": "từ chức",
+      "example_en": "He resigned from his position after disagreeing with the new company policy.",
+      "example_vi": "Anh ấy từ chức sau khi bất đồng với chính sách mới của công ty.",
+      "word_family": {
+        "noun": "resignation",
+        "verb": "resign",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "dismiss",
+        "explanation_vi": "'Resign' là chủ động rời bỏ công việc (do người lao động quyết định); 'dismiss' là bị sa thải (do người sử dụng lao động quyết định) — chiều ngược nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "dismiss",
+      "ipa": "/dɪˈsmɪs/",
+      "pos": "verb",
+      "meaning_vi": "sa thải (nhân viên)",
+      "meaning_vi_inline": "sa thải",
+      "example_en": "The employee was dismissed for repeatedly arriving late without explanation.",
+      "example_vi": "Nhân viên bị sa thải vì nhiều lần đi trễ mà không có lý do.",
+      "word_family": {
+        "noun": "dismissal",
+        "verb": "dismiss",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "welfare",
+      "ipa": "/ˈwel.feər/",
+      "pos": "noun",
+      "meaning_vi": "phúc lợi, sức khỏe và hạnh phúc (tổng thể của người lao động)",
+      "meaning_vi_inline": "phúc lợi",
+      "example_en": "The company introduced new programmes to support employee welfare and mental health.",
+      "example_vi": "Công ty giới thiệu các chương trình mới để hỗ trợ phúc lợi nhân viên và sức khỏe tâm thần.",
+      "word_family": {
+        "noun": "welfare",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "benefit",
+        "explanation_vi": "'Welfare' là khái niệm rộng hơn về sức khỏe và hạnh phúc tổng thể; 'benefit' là các khoản lợi ích cụ thể trong hợp đồng như bảo hiểm, nghỉ phép có lương."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Remote work can make it difficult to separate personal life from professional responsibilities.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A contract only outlines an employee's salary and does not cover other benefits.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage explains how long a union dispute typically lasts.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "An employee who is dismissed has chosen to leave their job voluntarily.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that protecting worker welfare has become more important in modern organisations.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company values employees who are _____ and can quickly learn new tools when the job requires it.",
+          "options": [
+            "remote",
+            "adaptable",
+            "reasonable",
+            "dismissable"
+          ],
+          "answer": "adaptable"
+        },
+        {
+          "id": 2,
+          "sentence": "She filed a formal _____ with human resources after her manager treated her unfairly.",
+          "options": [
+            "contract",
+            "benefit",
+            "complaint",
+            "welfare"
+          ],
+          "answer": "complaint"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ successfully negotiated a 15% pay increase and extra holiday for all its members.",
+          "options": [
+            "dispute",
+            "union",
+            "workload",
+            "condition"
+          ],
+          "answer": "union"
+        },
+        {
+          "id": 4,
+          "sentence": "After ten years with the company, he decided to _____ and start his own business.",
+          "options": [
+            "dismiss",
+            "negotiate",
+            "resign",
+            "dispute"
+          ],
+          "answer": "resign"
+        },
+        {
+          "id": 5,
+          "sentence": "All employees are entitled to certain _____ , including the right to safe conditions and fair pay.",
+          "options": [
+            "rights",
+            "contracts",
+            "welfare",
+            "benefits"
+          ],
+          "answer": "rights"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "contract",
+        "workload",
+        "dispute",
+        "negotiate",
+        "welfare"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She always reads her _____ carefully before signing to make sure the terms are fair.",
+          "answer": "contract"
+        },
+        {
+          "id": 2,
+          "sentence": "His _____ doubled after the company lost two members of the team in one month.",
+          "answer": "workload"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ between the workers and management was eventually settled through formal mediation.",
+          "answer": "dispute"
+        },
+        {
+          "id": 4,
+          "sentence": "He was able to _____ a higher salary by presenting evidence of his strong performance.",
+          "answer": "negotiate"
+        },
+        {
+          "id": 5,
+          "sentence": "The new HR policy focused on employee _____, offering mental health support and flexible hours.",
+          "answer": "welfare"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "filed",
+            "a",
+            "complaint",
+            "about",
+            "her",
+            "unfair",
+            "working",
+            "conditions"
+          ],
+          "answer": "She filed a complaint about her unfair working conditions."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "union",
+            "negotiated",
+            "better",
+            "pay",
+            "and",
+            "shorter",
+            "hours",
+            "for",
+            "its",
+            "members"
+          ],
+          "answer": "The union negotiated better pay and shorter hours for its members."
+        },
+        {
+          "id": 3,
+          "words": [
+            "remote",
+            "work",
+            "gives",
+            "employees",
+            "more",
+            "flexibility",
+            "but",
+            "can",
+            "increase",
+            "their",
+            "workload"
+          ],
+          "answer": "Remote work gives employees more flexibility but can increase their workload."
+        },
+        {
+          "id": 4,
+          "words": [
+            "he",
+            "was",
+            "dismissed",
+            "after",
+            "repeatedly",
+            "breaking",
+            "company",
+            "rules"
+          ],
+          "answer": "He was dismissed after repeatedly breaking company rules."
+        },
+        {
+          "id": 5,
+          "words": [
+            "all",
+            "employees",
+            "have",
+            "the",
+            "right",
+            "to",
+            "reasonable",
+            "working",
+            "conditions"
+          ],
+          "answer": "All employees have the right to reasonable working conditions."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She handed in her [firing] letter after deciding the job no longer suited her career goals.",
+          "highlighted": "firing",
+          "options": {
+            "A": "resignation",
+            "B": "firing",
+            "C": "dismissal"
+          },
+          "answer": "A",
+          "explanation": "'Resignation' is the formal term for a document submitted when an employee voluntarily leaves a job; 'firing' and 'dismissal' refer to being removed by an employer, which is the opposite situation."
+        },
+        {
+          "id": 2,
+          "sentence": "The new employee was [terminated] unfairly after raising concerns about safety in the workplace.",
+          "highlighted": "terminated",
+          "options": {
+            "A": "dismissed",
+            "B": "terminated",
+            "C": "resigned"
+          },
+          "answer": "A",
+          "explanation": "'Dismissed' is the standard employment term for being removed from a job by an employer; 'terminated' is American English and less formal in British contexts, while 'resigned' means leaving voluntarily."
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ asked workers to [argue] a new deal directly with the company director.",
+          "highlighted": "argue",
+          "options": {
+            "A": "dispute",
+            "B": "argue",
+            "C": "negotiate"
+          },
+          "answer": "C",
+          "explanation": "'Negotiate' means to have structured formal discussions to reach a mutually acceptable agreement; 'argue' implies conflict without resolution, and 'dispute' is a noun meaning a disagreement, not a verb meaning to hold talks."
+        },
+        {
+          "id": 4,
+          "sentence": "Her [amount of work] became unmanageable after she was asked to cover for three absent colleagues.",
+          "highlighted": "amount of work",
+          "options": {
+            "A": "workload",
+            "B": "amount of work",
+            "C": "tasks"
+          },
+          "answer": "A",
+          "explanation": "'Workload' is the precise professional term for the total amount of work assigned to a person; it is more concise and standard than 'amount of work' or the informal 'tasks'."
+        },
+        {
+          "id": 5,
+          "sentence": "The company introduced a new programme focused on employee [health and happiness] and mental wellbeing.",
+          "highlighted": "health and happiness",
+          "options": {
+            "A": "benefits",
+            "B": "health and happiness",
+            "C": "welfare"
+          },
+          "answer": "C",
+          "explanation": "'Welfare' is the standard term covering an employee's overall physical and mental health and quality of life at work; 'benefits' refers to specific contractual perks, and 'health and happiness' is too informal and vague."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "adaptable",
+      "2": "complaint",
+      "3": "union",
+      "4": "resign",
+      "5": "rights"
+    },
+    "ex3": {
+      "1": "contract",
+      "2": "workload",
+      "3": "dispute",
+      "4": "negotiate",
+      "5": "welfare"
+    },
+    "ex4": {
+      "1": "She filed a complaint about her unfair working conditions.",
+      "2": "The union negotiated better pay and shorter hours for its members.",
+      "3": "Remote work gives employees more flexibility but can increase their workload.",
+      "4": "He was dismissed after repeatedly breaking company rules.",
+      "5": "All employees have the right to reasonable working conditions."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

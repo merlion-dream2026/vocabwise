@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 20,
+    "topic_id": "b3-t20",
+    "topic_title": "Environmental Health & Climate",
+    "topic_title_vi": "Sức Khỏe Môi Trường & Khí Hậu",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🌍",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The relationship between environmental health and human wellbeing has never been clearer. Industrial growth and mass consumption have dramatically increased humanity's **carbon footprint**, pushing atmospheric **emission** levels to concentrations not seen for millions of years. Scientists warn that unless societies act decisively to **reduce carbon emissions**, the cascading consequences for air quality, water supply, and food security will affect billions of lives within this century.",
+        "text_vi": "Mối quan hệ giữa sức khỏe môi trường và phúc lợi con người chưa bao giờ rõ ràng hơn. Tăng trưởng công nghiệp và tiêu thụ đại trà đã làm tăng đáng kể **dấu chân carbon** của nhân loại, đẩy mức độ **phát thải** trong khí quyển đến nồng độ chưa từng thấy trong hàng triệu năm. Các nhà khoa học cảnh báo rằng trừ khi các xã hội hành động quyết đoán để **giảm lượng khí thải carbon**, những hậu quả dây chuyền đối với chất lượng không khí, nguồn nước và an ninh lương thực sẽ ảnh hưởng đến hàng tỷ cuộc sống trong thế kỷ này."
+      },
+      {
+        "index": 2,
+        "text_en": "Among the most alarming signs of planetary stress is the accelerating loss of **biodiversity**. Intact **ecosystem** networks provide services — from pollination to flood regulation — that no human technology can fully replicate. **Deforestation**, driven by agricultural expansion and logging, fragments habitats and silences entire species before scientists have even catalogued them. Campaigners and conservationists alike argue that to **protect biodiversity** is ultimately to protect the ecological foundations of human health itself.",
+        "text_vi": "Một trong những dấu hiệu đáng lo ngại nhất của stress hành tinh là sự mất mát ngày càng nhanh của **đa dạng sinh học**. Các mạng lưới **hệ sinh thái** nguyên vẹn cung cấp các dịch vụ — từ thụ phấn đến điều tiết lũ lụt — mà không có công nghệ nào của con người có thể thay thế hoàn toàn. **Nạn phá rừng**, được thúc đẩy bởi mở rộng nông nghiệp và khai thác gỗ, phân mảnh môi trường sống và xóa sổ toàn bộ các loài trước khi các nhà khoa học kịp lập danh mục. Các nhà hoạt động và nhà bảo tồn đều lập luận rằng **bảo vệ đa dạng sinh học** cuối cùng là bảo vệ nền tảng sinh thái của sức khỏe con người."
+      },
+      {
+        "index": 3,
+        "text_en": "Climate scientists increasingly warn of **tipping point** thresholds — points of no return beyond which self-reinforcing feedback loops make warming unstoppable. To **reach a climate tipping point** would render many current **mitigation** strategies obsolete, demanding instead radical **adaptation** responses. Policymakers must therefore **implement mitigation strategies** urgently, while simultaneously building resilience frameworks to manage the changes already locked into the system.",
+        "text_vi": "Các nhà khoa học khí hậu ngày càng cảnh báo về các ngưỡng **điểm tới hạn** — những điểm không thể quay lại mà sau đó các vòng phản hồi tự tăng cường khiến sự nóng lên trở nên không thể ngăn chặn. **Đạt đến điểm tới hạn khí hậu** sẽ làm cho nhiều chiến lược **giảm thiểu** hiện tại trở nên lỗi thời, thay vào đó đòi hỏi các phản ứng **thích nghi** triệt để. Vì vậy, các nhà hoạch định chính sách phải **thực hiện các chiến lược giảm thiểu** một cách khẩn cấp, đồng thời xây dựng các khung phục hồi để quản lý những thay đổi đã được cố định trong hệ thống."
+      },
+      {
+        "index": 4,
+        "text_en": "Longer-term solutions rest on embedding **sustainability** into the core of economic and social planning. This requires a shift in values — from exploitation to **custodianship**, from short-term gain to intergenerational responsibility. When businesses, governments, and communities agree to **promote environmental stewardship**, they commit not merely to preserving nature but to recognising humanity's fundamental obligation to the living systems that make all life possible.",
+        "text_vi": "Các giải pháp dài hạn hơn phụ thuộc vào việc lồng ghép **tính bền vững** vào cốt lõi của quy hoạch kinh tế và xã hội. Điều này đòi hỏi sự thay đổi giá trị — từ khai thác sang **vai trò quản lý**, từ lợi ích ngắn hạn đến trách nhiệm liên thế hệ. Khi các doanh nghiệp, chính phủ và cộng đồng đồng ý **thúc đẩy quản lý môi trường bền vững**, họ cam kết không chỉ bảo tồn thiên nhiên mà còn thừa nhận nghĩa vụ căn bản của nhân loại đối với các hệ thống sống tạo nền tảng cho mọi sự sống."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "emission",
+      "ipa": "/ɪˈmɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "sự phát thải, khí thải",
+      "meaning_vi_inline": "sự phát thải",
+      "example_en": "Industrial emissions of greenhouse gases have risen steadily since the beginning of the twentieth century.",
+      "example_vi": "Lượng khí thải nhà kính công nghiệp đã tăng đều đặn kể từ đầu thế kỷ hai mươi.",
+      "word_family": {
+        "noun": "emission / emit",
+        "verb": "emit",
+        "adjective": "emitted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "carbon footprint",
+      "ipa": "/ˈkɑː.bən ˈfʊt.prɪnt/",
+      "pos": "noun phrase",
+      "meaning_vi": "dấu chân carbon, lượng khí thải carbon cá nhân/tổ chức tạo ra",
+      "meaning_vi_inline": "dấu chân carbon",
+      "example_en": "Switching to renewable energy is one of the most effective ways to reduce an organisation's carbon footprint.",
+      "example_vi": "Chuyển sang năng lượng tái tạo là một trong những cách hiệu quả nhất để giảm dấu chân carbon của một tổ chức.",
+      "word_family": {
+        "noun": "carbon footprint",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "biodiversity",
+      "ipa": "/ˌbaɪ.əʊ.daɪˈvɜː.sɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "đa dạng sinh học",
+      "meaning_vi_inline": "đa dạng sinh học",
+      "example_en": "Tropical rainforests contain a disproportionate share of the planet's total biodiversity.",
+      "example_vi": "Rừng nhiệt đới chứa một phần không cân xứng trong tổng số đa dạng sinh học của hành tinh.",
+      "word_family": {
+        "noun": "biodiversity",
+        "verb": null,
+        "adjective": "biodiverse",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "ecosystem",
+      "ipa": "/ˈiː.kəʊˌsɪs.təm/",
+      "pos": "noun",
+      "meaning_vi": "hệ sinh thái",
+      "meaning_vi_inline": "hệ sinh thái",
+      "example_en": "The destruction of wetland ecosystems removes natural barriers against coastal flooding.",
+      "example_vi": "Sự phá hủy hệ sinh thái đất ngập nước loại bỏ các rào cản tự nhiên chống lại lũ lụt ven biển.",
+      "word_family": {
+        "noun": "ecosystem / ecology",
+        "verb": null,
+        "adjective": "ecological",
+        "adverb": "ecologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "deforestation",
+      "ipa": "/ˌdiː.fɒr.ɪˈsteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "nạn phá rừng",
+      "meaning_vi_inline": "nạn phá rừng",
+      "example_en": "Deforestation in the Amazon Basin has accelerated at an alarming rate over the past two decades.",
+      "example_vi": "Nạn phá rừng ở lưu vực Amazon đã tăng tốc với tốc độ đáng báo động trong hai thập kỷ qua.",
+      "word_family": {
+        "noun": "deforestation / reforestation",
+        "verb": "deforest",
+        "adjective": "deforested",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "tipping point",
+      "ipa": "/ˈtɪp.ɪŋ pɔɪnt/",
+      "pos": "noun phrase",
+      "meaning_vi": "điểm tới hạn, điểm không thể quay lại",
+      "meaning_vi_inline": "điểm tới hạn",
+      "example_en": "Some climate models suggest we may have already passed the tipping point for Arctic ice sheet stability.",
+      "example_vi": "Một số mô hình khí hậu cho thấy chúng ta có thể đã vượt qua điểm tới hạn cho sự ổn định của tảng băng Bắc Cực.",
+      "word_family": {
+        "noun": "tipping point",
+        "verb": "tip (over)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "mitigation",
+      "ipa": "/ˌmɪt.ɪˈɡeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự giảm thiểu, biện pháp giảm nhẹ",
+      "meaning_vi_inline": "sự giảm thiểu",
+      "example_en": "Climate mitigation efforts focus on reducing the sources of greenhouse gas emissions globally.",
+      "example_vi": "Các nỗ lực giảm thiểu khí hậu tập trung vào việc giảm nguồn phát thải khí nhà kính trên toàn cầu.",
+      "word_family": {
+        "noun": "mitigation",
+        "verb": "mitigate",
+        "adjective": "mitigating",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "adaptation",
+        "explanation_vi": "Trong bối cảnh khí hậu, 'mitigation' là giảm nguyên nhân gây biến đổi khí hậu; 'adaptation' là điều chỉnh để sống với tác động của nó — hai chiến lược bổ sung, không đồng nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "adaptation",
+      "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thích nghi, sự điều chỉnh",
+      "meaning_vi_inline": "sự thích nghi",
+      "example_en": "Coastal cities are investing in adaptation measures such as sea walls and elevated infrastructure.",
+      "example_vi": "Các thành phố ven biển đang đầu tư vào các biện pháp thích nghi như tường biển và cơ sở hạ tầng nâng cao.",
+      "word_family": {
+        "noun": "adaptation / adaptability",
+        "verb": "adapt",
+        "adjective": "adaptable / adaptive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "mitigation",
+        "explanation_vi": "Trong bối cảnh khí hậu, 'adaptation' là điều chỉnh để đối phó với tác động; 'mitigation' là giảm nguyên nhân — hai khái niệm riêng biệt trong chính sách khí hậu."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "sustainability",
+      "ipa": "/səˌsteɪ.nəˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính bền vững",
+      "meaning_vi_inline": "tính bền vững",
+      "example_en": "Corporate sustainability reports are increasingly scrutinised by investors and regulators alike.",
+      "example_vi": "Các báo cáo bền vững doanh nghiệp ngày càng được xem xét kỹ lưỡng bởi cả nhà đầu tư lẫn cơ quan quản lý.",
+      "word_family": {
+        "noun": "sustainability",
+        "verb": "sustain",
+        "adjective": "sustainable",
+        "adverb": "sustainably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "custodianship",
+      "ipa": "/kʌˈstəʊ.di.ən.ʃɪp/",
+      "pos": "noun",
+      "meaning_vi": "vai trò quản lý, trách nhiệm trông giữ",
+      "meaning_vi_inline": "vai trò quản lý",
+      "example_en": "Indigenous communities have long practised a form of custodianship over their ancestral lands and waterways.",
+      "example_vi": "Các cộng đồng bản địa từ lâu đã thực hành một hình thức quản lý đối với vùng đất và đường thủy của tổ tiên.",
+      "word_family": {
+        "noun": "custodianship / custodian",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "reduce carbon emissions",
+      "meaning_vi": "giảm lượng khí thải carbon",
+      "example_en": "The Paris Agreement commits signatory nations to concrete targets to reduce carbon emissions by 2030.",
+      "example_vi": "Hiệp định Paris cam kết các quốc gia ký kết đạt các mục tiêu cụ thể để giảm lượng khí thải carbon vào năm 2030.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "protect biodiversity",
+      "meaning_vi": "bảo vệ đa dạng sinh học",
+      "example_en": "Establishing marine protected areas is one of the most effective ways to protect biodiversity in ocean ecosystems.",
+      "example_vi": "Thành lập các khu bảo tồn biển là một trong những cách hiệu quả nhất để bảo vệ đa dạng sinh học trong hệ sinh thái đại dương.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "reach a climate tipping point",
+      "meaning_vi": "đạt đến điểm tới hạn khí hậu",
+      "example_en": "Many scientists fear we may reach a climate tipping point within decades if emissions are not drastically cut.",
+      "example_vi": "Nhiều nhà khoa học lo ngại rằng chúng ta có thể đạt đến điểm tới hạn khí hậu trong vài thập kỷ nếu lượng khí thải không được cắt giảm mạnh.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "implement mitigation strategies",
+      "meaning_vi": "thực hiện các chiến lược giảm thiểu",
+      "example_en": "Cities are under pressure to implement mitigation strategies that reduce both pollution and energy demand.",
+      "example_vi": "Các thành phố đang chịu áp lực phải thực hiện các chiến lược giảm thiểu nhằm giảm cả ô nhiễm lẫn nhu cầu năng lượng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "promote environmental stewardship",
+      "meaning_vi": "thúc đẩy quản lý môi trường bền vững",
+      "example_en": "Education programmes that promote environmental stewardship from an early age are vital for long-term change.",
+      "example_vi": "Các chương trình giáo dục thúc đẩy quản lý môi trường bền vững từ khi còn nhỏ là điều thiết yếu cho sự thay đổi lâu dài.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that current atmospheric emission levels are higher than at any point in recorded human history.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, deforestation is driven solely by illegal logging operations.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage implies that if a climate tipping point is reached, current mitigation strategies may no longer be sufficient.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage recommends a specific international treaty as the best framework for promoting environmental stewardship.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that sustainability requires a fundamental change in values, not just technical fixes.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Planting trees and protecting wetlands are key _____ measures that help absorb existing greenhouse gases.",
+          "options": [
+            "deforestation",
+            "mitigation",
+            "emission",
+            "biodiversity"
+          ],
+          "answer": "mitigation"
+        },
+        {
+          "id": 2,
+          "sentence": "Consumers are increasingly aware of their _____ and choose products with minimal environmental impact.",
+          "options": [
+            "ecosystem",
+            "custodianship",
+            "carbon footprint",
+            "adaptation"
+          ],
+          "answer": "carbon footprint"
+        },
+        {
+          "id": 3,
+          "sentence": "The widespread _____ of ancient forests destroys irreplaceable habitats and accelerates species extinction.",
+          "options": [
+            "sustainability",
+            "adaptation",
+            "deforestation",
+            "emission"
+          ],
+          "answer": "deforestation"
+        },
+        {
+          "id": 4,
+          "sentence": "Building flood defences and redesigning water systems are examples of _____ to rising sea levels.",
+          "options": [
+            "custodianship",
+            "adaptation",
+            "tipping point",
+            "biodiversity"
+          ],
+          "answer": "adaptation"
+        },
+        {
+          "id": 5,
+          "sentence": "Farmers who adopt regenerative agriculture are embracing long-term _____ over short-term profit.",
+          "options": [
+            "emission",
+            "mitigation",
+            "ecosystem",
+            "sustainability"
+          ],
+          "answer": "sustainability"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "biodiversity",
+        "ecosystem",
+        "custodianship",
+        "tipping point",
+        "emission",
+        "deforestation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Toxic industrial _____ from manufacturing plants have severely degraded air quality in many urban areas.",
+          "answer": "emission"
+        },
+        {
+          "id": 2,
+          "sentence": "Scientists warn that the Amazon has come dangerously close to an ecological _____.",
+          "answer": "tipping point"
+        },
+        {
+          "id": 3,
+          "sentence": "A coral reef _____ provides food and income for millions of coastal communities worldwide.",
+          "answer": "ecosystem"
+        },
+        {
+          "id": 4,
+          "sentence": "The rapid loss of _____ in tropical forests threatens the stability of global food chains.",
+          "answer": "biodiversity"
+        },
+        {
+          "id": 5,
+          "sentence": "Traditional societies have long demonstrated a deep sense of _____ towards the natural world.",
+          "answer": "custodianship"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "carbon",
+            "emissions",
+            "reducing",
+            "climate",
+            "slowing",
+            "to",
+            "is",
+            "essential",
+            "change"
+          ],
+          "answer": "Reducing carbon emissions is essential to slowing climate change."
+        },
+        {
+          "id": 2,
+          "words": [
+            "deforestation",
+            "threatens",
+            "biodiversity",
+            "and",
+            "disrupts",
+            "ecosystem",
+            "services"
+          ],
+          "answer": "Deforestation threatens biodiversity and disrupts ecosystem services."
+        },
+        {
+          "id": 3,
+          "words": [
+            "mitigation",
+            "strategies",
+            "must",
+            "be",
+            "implemented",
+            "before",
+            "tipping",
+            "points",
+            "are",
+            "reached"
+          ],
+          "answer": "Mitigation strategies must be implemented before tipping points are reached."
+        },
+        {
+          "id": 4,
+          "words": [
+            "custodianship",
+            "of",
+            "natural",
+            "resources",
+            "demands",
+            "both",
+            "discipline",
+            "and",
+            "long-term",
+            "vision"
+          ],
+          "answer": "Custodianship of natural resources demands both discipline and long-term vision."
+        },
+        {
+          "id": 5,
+          "words": [
+            "sustainability",
+            "requires",
+            "embedding",
+            "environmental",
+            "into",
+            "thinking",
+            "every",
+            "decision"
+          ],
+          "answer": "Sustainability requires embedding environmental thinking into every decision."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Governments must [emit] mitigation strategies to prevent the worst effects of climate change.",
+          "highlighted": "emit",
+          "options": {
+            "A": "implement",
+            "B": "emitting",
+            "C": "emission"
+          },
+          "answer": "A",
+          "explanation": "The collocation is 'implement mitigation strategies'; 'emit' means to release gases and cannot collocate with 'mitigation strategies'."
+        },
+        {
+          "id": 2,
+          "sentence": "The region's [biodiversify] has been severely reduced by decades of intensive farming and pesticide use.",
+          "highlighted": "biodiversify",
+          "options": {
+            "A": "biodiverse",
+            "B": "biodiversity",
+            "C": "biodiversified"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the sentence — 'biodiversity', not the invented form 'biodiversify'."
+        },
+        {
+          "id": 3,
+          "sentence": "Once we [reach] a climate tipping point, some environmental changes may become self-perpetuating.",
+          "highlighted": "reach",
+          "options": {
+            "A": "reaching",
+            "B": "reached",
+            "C": "reach"
+          },
+          "answer": "C",
+          "explanation": "'Reach' is the correct form here — after 'Once we', the present simple (not a past form) is used to express a future condition in a time clause."
+        },
+        {
+          "id": 4,
+          "sentence": "The factory reduced its carbon [footstep] by switching to solar power and electric delivery vehicles.",
+          "highlighted": "footstep",
+          "options": {
+            "A": "footprint",
+            "B": "foothold",
+            "C": "footnote"
+          },
+          "answer": "A",
+          "explanation": "The correct compound noun is 'carbon footprint' — a measure of environmental impact; 'footstep' refers to the sound or mark of walking."
+        },
+        {
+          "id": 5,
+          "sentence": "Businesses that genuinely [sustainable] their operations reduce waste, lower emissions, and build lasting reputations.",
+          "highlighted": "sustainable",
+          "options": {
+            "A": "sustaining",
+            "B": "sustainably",
+            "C": "sustain"
+          },
+          "answer": "C",
+          "explanation": "A verb is required in the relative clause 'that _____ their operations' — 'sustain' in the present simple, not the adjective 'sustainable'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "mitigation",
+      "2": "carbon footprint",
+      "3": "deforestation",
+      "4": "adaptation",
+      "5": "sustainability"
+    },
+    "ex3": {
+      "1": "emission",
+      "2": "tipping point",
+      "3": "ecosystem",
+      "4": "biodiversity",
+      "5": "custodianship"
+    },
+    "ex4": {
+      "1": "Reducing carbon emissions is essential to slowing climate change.",
+      "2": "Deforestation threatens biodiversity and disrupts ecosystem services.",
+      "3": "Mitigation strategies must be implemented before tipping points are reached.",
+      "4": "Custodianship of natural resources demands both discipline and long-term vision.",
+      "5": "Sustainability requires embedding environmental thinking into every decision."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

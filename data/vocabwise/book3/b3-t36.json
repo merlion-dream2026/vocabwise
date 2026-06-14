@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 36,
+    "topic_id": "b3-t36",
+    "topic_title": "Education & Knowledge Systems",
+    "topic_title_vi": "Giáo Dục & Hệ Thống Tri Thức",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🎓",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Debates about the purpose of education have long centred on the tension between two dominant philosophies. Traditional **transmission** models treat the teacher as an authority who transfers fixed bodies of knowledge to passive students. In contrast, **constructivism** holds that learners build understanding through active engagement with their environment — a position that demands educators rethink both **pedagogy** and the design of the **curriculum** to prioritise meaning-making over rote recall.",
+        "text_vi": "Các cuộc tranh luận về mục đích của giáo dục từ lâu đã xoay quanh sự căng thẳng giữa hai triết lý thống trị. Các mô hình **truyền đạt** truyền thống coi giáo viên là người có thẩm quyền truyền đạt những khối kiến thức cố định cho học sinh thụ động. Ngược lại, **thuyết kiến tạo** cho rằng người học xây dựng sự hiểu biết thông qua việc tích cực tương tác với môi trường — một quan điểm đòi hỏi nhà giáo dục phải suy nghĩ lại cả **phương pháp sư phạm** lẫn thiết kế **chương trình học** để ưu tiên việc tạo ra ý nghĩa thay vì ghi nhớ máy móc."
+      },
+      {
+        "index": 2,
+        "text_en": "Central to contemporary educational reform is the concept of **scaffolding** — the temporary support structures that teachers provide to help learners accomplish tasks slightly beyond their current ability. Effective scaffolding enables educators to **foster critical literacy**, equipping students not merely to read and comprehend but to interrogate the assumptions embedded in texts and media. Such skills grow more urgent as misinformation proliferates across digital platforms.",
+        "text_vi": "Trọng tâm của cải cách giáo dục đương đại là khái niệm **hỗ trợ có cấu trúc** — các cấu trúc hỗ trợ tạm thời mà giáo viên cung cấp để giúp người học hoàn thành các nhiệm vụ vượt quá khả năng hiện tại của họ một chút. Hỗ trợ có cấu trúc hiệu quả cho phép các nhà giáo dục **nuôi dưỡng năng lực đọc hiểu phê phán**, trang bị cho học sinh không chỉ để đọc và hiểu mà còn để đặt câu hỏi về các giả định ẩn trong văn bản và phương tiện truyền thông. Những kỹ năng như vậy ngày càng trở nên cấp thiết khi thông tin sai lệch lan tràn trên các nền tảng kỹ thuật số."
+      },
+      {
+        "index": 3,
+        "text_en": "Meaningful **assessment** must therefore go beyond measuring factual recall and instead capture a learner's capacity for higher-order reasoning. Equally important is the development of **metacognition** — the ability to monitor and regulate one's own thinking processes — which allows students to **develop metacognitive skills** that transfer across disciplines and career contexts. Educators who **promote learner autonomy** understand that self-directed students ultimately outperform those trained only to follow instructions.",
+        "text_vi": "Do đó, **đánh giá** có ý nghĩa phải vượt ra ngoài việc đo lường ghi nhớ thực tế mà thay vào đó nắm bắt năng lực tư duy bậc cao của người học. Không kém phần quan trọng là việc phát triển **siêu nhận thức** — khả năng theo dõi và điều chỉnh quá trình tư duy của chính mình — điều này cho phép học sinh **phát triển kỹ năng siêu nhận thức** có thể chuyển giao qua các lĩnh vực và bối cảnh nghề nghiệp. Các nhà giáo dục **thúc đẩy tự chủ của người học** hiểu rằng học sinh tự định hướng cuối cùng sẽ vượt trội so với những người chỉ được đào tạo để làm theo hướng dẫn."
+      },
+      {
+        "index": 4,
+        "text_en": "Any serious attempt to **challenge transmission models of education** must also address **equity** — the principle that every learner, regardless of socioeconomic background or ability, deserves access to high-quality learning experiences. When educators **design inclusive curricula**, they acknowledge that knowledge systems reflect particular cultural perspectives and that education should empower, rather than marginalise, those whose voices have historically been excluded from formal schooling.",
+        "text_vi": "Bất kỳ nỗ lực nghiêm túc nào nhằm **thách thức các mô hình truyền đạt trong giáo dục** cũng phải giải quyết vấn đề **công bằng** — nguyên tắc rằng mọi người học, bất kể xuất thân kinh tế xã hội hay năng lực, đều xứng đáng được tiếp cận các trải nghiệm học tập chất lượng cao. Khi các nhà giáo dục **thiết kế chương trình học toàn diện**, họ thừa nhận rằng các hệ thống tri thức phản ánh những quan điểm văn hóa cụ thể và rằng giáo dục nên trao quyền, chứ không phải gạt ra ngoài lề, những người có tiếng nói vốn bị loại khỏi nền giáo dục chính quy trong lịch sử."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "pedagogy",
+      "ipa": "/ˈped.ə.ɡɒ.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "phương pháp sư phạm, khoa học giảng dạy",
+      "meaning_vi_inline": "phương pháp sư phạm",
+      "example_en": "The university redesigned its teacher-training programme to reflect advances in digital pedagogy.",
+      "example_vi": "Trường đại học đã thiết kế lại chương trình đào tạo giáo viên để phản ánh những tiến bộ trong phương pháp sư phạm kỹ thuật số.",
+      "word_family": {
+        "noun": "pedagogy / pedagogue",
+        "verb": null,
+        "adjective": "pedagogical / pedagogic",
+        "adverb": "pedagogically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "curriculum",
+      "ipa": "/kəˈrɪk.jʊ.ləm/",
+      "pos": "noun",
+      "meaning_vi": "chương trình học, chương trình giảng dạy",
+      "meaning_vi_inline": "chương trình học",
+      "example_en": "Critics argued that the national curriculum placed too much emphasis on standardised testing and too little on creativity.",
+      "example_vi": "Các nhà phê bình cho rằng chương trình học quốc gia đặt quá nhiều trọng tâm vào kiểm tra chuẩn hóa và quá ít vào sự sáng tạo.",
+      "word_family": {
+        "noun": "curriculum (pl. curricula)",
+        "verb": null,
+        "adjective": "curricular",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "assessment",
+      "ipa": "/əˈses.mənt/",
+      "pos": "noun",
+      "meaning_vi": "đánh giá, sự kiểm tra đánh giá",
+      "meaning_vi_inline": "đánh giá",
+      "example_en": "Formative assessment provides ongoing feedback that guides instruction rather than simply measuring final outcomes.",
+      "example_vi": "Đánh giá hình thành cung cấp phản hồi liên tục định hướng việc giảng dạy thay vì chỉ đơn thuần đo lường kết quả cuối cùng.",
+      "word_family": {
+        "noun": "assessment / assessor",
+        "verb": "assess",
+        "adjective": "assessable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "meaning_vi": "tính tự chủ, quyền tự quyết định",
+      "meaning_vi_inline": "tính tự chủ",
+      "example_en": "Giving students greater autonomy over their learning choices has been shown to increase intrinsic motivation.",
+      "example_vi": "Trao cho học sinh quyền tự chủ cao hơn trong các lựa chọn học tập của mình đã được chứng minh là làm tăng động lực nội tại.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": {
+        "word_vi": "automatic",
+        "explanation_vi": "'Autonomy' là tính tự chủ hay quyền tự quyết; 'automatic' có nghĩa là tự động, hoạt động mà không cần sự kiểm soát có ý thức — khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "critical literacy",
+      "ipa": "/ˈkrɪt.ɪ.kəl ˈlɪt.ər.ə.si/",
+      "pos": "noun phrase",
+      "meaning_vi": "năng lực đọc hiểu phê phán",
+      "meaning_vi_inline": "năng lực đọc hiểu phê phán",
+      "example_en": "Critical literacy equips students to question the power structures and ideologies embedded in everyday texts.",
+      "example_vi": "Năng lực đọc hiểu phê phán trang bị cho học sinh khả năng đặt câu hỏi về các cấu trúc quyền lực và hệ tư tưởng ẩn trong các văn bản hàng ngày.",
+      "word_family": {
+        "noun": "critical literacy / literacy",
+        "verb": null,
+        "adjective": "critically literate",
+        "adverb": "critically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "transmission",
+      "ipa": "/trænsˈmɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "sự truyền đạt, sự chuyển giao (kiến thức)",
+      "meaning_vi_inline": "sự truyền đạt",
+      "example_en": "The transmission of cultural values through formal education has been debated by sociologists for decades.",
+      "example_vi": "Sự truyền đạt các giá trị văn hóa qua giáo dục chính quy đã được các nhà xã hội học tranh luận trong nhiều thập kỷ.",
+      "word_family": {
+        "noun": "transmission",
+        "verb": "transmit",
+        "adjective": "transmissible",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "constructivism",
+      "ipa": "/kənˈstrʌk.tɪ.vɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "thuyết kiến tạo (lý thuyết học tập)",
+      "meaning_vi_inline": "thuyết kiến tạo",
+      "example_en": "Constructivism underpins project-based learning, encouraging students to build knowledge through hands-on exploration.",
+      "example_vi": "Thuyết kiến tạo là nền tảng của việc học qua dự án, khuyến khích học sinh xây dựng kiến thức thông qua khám phá thực hành.",
+      "word_family": {
+        "noun": "constructivism / constructivist",
+        "verb": "construct",
+        "adjective": "constructivist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "scaffolding",
+      "ipa": "/ˈskæf.əl.dɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "hỗ trợ có cấu trúc (trong giáo dục), giàn giáo học tập",
+      "meaning_vi_inline": "hỗ trợ có cấu trúc",
+      "example_en": "Effective scaffolding is gradually withdrawn as learners gain confidence and independence.",
+      "example_vi": "Hỗ trợ có cấu trúc hiệu quả được rút dần khi người học đạt được sự tự tin và tính độc lập.",
+      "word_family": {
+        "noun": "scaffolding",
+        "verb": "scaffold",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "metacognition",
+      "ipa": "/ˌmet.ə.kɒɡˈnɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "siêu nhận thức, sự tự nhận thức về quá trình tư duy",
+      "meaning_vi_inline": "siêu nhận thức",
+      "example_en": "Students who practise metacognition are better able to identify gaps in their own understanding and adjust their study strategies.",
+      "example_vi": "Học sinh thực hành siêu nhận thức có khả năng tốt hơn trong việc xác định những lỗ hổng trong sự hiểu biết của mình và điều chỉnh chiến lược học tập.",
+      "word_family": {
+        "noun": "metacognition",
+        "verb": null,
+        "adjective": "metacognitive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "equity",
+      "ipa": "/ˈek.wɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự công bằng, tính bình đẳng (về cơ hội)",
+      "meaning_vi_inline": "sự công bằng",
+      "example_en": "Educational equity requires not just equal resources but targeted support for disadvantaged learners.",
+      "example_vi": "Công bằng giáo dục đòi hỏi không chỉ nguồn lực bình đẳng mà còn sự hỗ trợ có mục tiêu cho những người học bất lợi.",
+      "word_family": {
+        "noun": "equity",
+        "verb": null,
+        "adjective": "equitable",
+        "adverb": "equitably"
+      },
+      "false_friend": {
+        "word_vi": "equality",
+        "explanation_vi": "'Equity' nhấn mạnh sự công bằng dựa trên nhu cầu cá nhân; 'equality' là sự bình đẳng theo nghĩa mọi người nhận được như nhau — hai khái niệm có sắc thái khác nhau quan trọng trong giáo dục."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "foster critical literacy",
+      "meaning_vi": "nuôi dưỡng năng lực đọc hiểu phê phán",
+      "example_en": "Media studies courses are well placed to foster critical literacy in an era of widespread misinformation.",
+      "example_vi": "Các khóa học truyền thông có vị trí thuận lợi để nuôi dưỡng năng lực đọc hiểu phê phán trong thời đại thông tin sai lệch phổ biến.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "promote learner autonomy",
+      "meaning_vi": "thúc đẩy tính tự chủ của người học",
+      "example_en": "Flipped classroom models promote learner autonomy by shifting responsibility for preparation to the student.",
+      "example_vi": "Các mô hình lớp học đảo ngược thúc đẩy tính tự chủ của người học bằng cách chuyển trách nhiệm chuẩn bị sang học sinh.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "design inclusive curricula",
+      "meaning_vi": "thiết kế chương trình học toàn diện (cho mọi đối tượng)",
+      "example_en": "Schools are increasingly expected to design inclusive curricula that reflect the diversity of their student populations.",
+      "example_vi": "Các trường học ngày càng được kỳ vọng thiết kế chương trình học toàn diện phản ánh sự đa dạng của cộng đồng học sinh.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "develop metacognitive skills",
+      "meaning_vi": "phát triển kỹ năng siêu nhận thức",
+      "example_en": "Asking students to keep reflective journals is one practical way to help them develop metacognitive skills.",
+      "example_vi": "Yêu cầu học sinh viết nhật ký suy ngẫm là một cách thực tế để giúp họ phát triển kỹ năng siêu nhận thức.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "challenge transmission models of education",
+      "meaning_vi": "thách thức các mô hình truyền đạt trong giáo dục",
+      "example_en": "Progressive educators who challenge transmission models of education argue that students learn best by doing, not by listening.",
+      "example_vi": "Các nhà giáo dục tiến bộ thách thức các mô hình truyền đạt trong giáo dục cho rằng học sinh học tốt nhất bằng cách thực hành, không phải bằng cách lắng nghe.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, transmission models treat the teacher as a passive facilitator of student-led discovery.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that constructivism was first developed in the early twentieth century.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage links the development of critical literacy skills to the growing problem of misinformation online.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, self-directed learners tend to outperform students who only follow instructions.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that inclusive curricula should be limited to schools with particularly diverse student populations.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher provided sentence starters and graphic organisers as _____ to help weaker students complete the essay task.",
+          "options": [
+            "transmission",
+            "assessment",
+            "scaffolding",
+            "equity"
+          ],
+          "answer": "scaffolding"
+        },
+        {
+          "id": 2,
+          "sentence": "Reformers argued that the _____ of information from textbook to student does little to build genuine understanding.",
+          "options": [
+            "constructivism",
+            "transmission",
+            "curriculum",
+            "metacognition"
+          ],
+          "answer": "transmission"
+        },
+        {
+          "id": 3,
+          "sentence": "The school board revised its _____ to include more topics in digital citizenship and environmental science.",
+          "options": [
+            "equity",
+            "autonomy",
+            "curriculum",
+            "scaffolding"
+          ],
+          "answer": "curriculum"
+        },
+        {
+          "id": 4,
+          "sentence": "Encouraging students to ask 'What do I still not understand?' is a simple technique for building _____.",
+          "options": [
+            "metacognition",
+            "pedagogy",
+            "assessment",
+            "transmission"
+          ],
+          "answer": "metacognition"
+        },
+        {
+          "id": 5,
+          "sentence": "The report concluded that _____, not just equality of access, must drive future education policy if all students are to thrive.",
+          "options": [
+            "autonomy",
+            "scaffolding",
+            "constructivism",
+            "equity"
+          ],
+          "answer": "equity"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "pedagogy",
+        "assessment",
+        "autonomy",
+        "constructivism",
+        "equity",
+        "metacognition"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Continuous _____ methods, such as portfolio reviews and peer evaluations, can reveal a learner's progress more accurately than a single end-of-term exam.",
+          "answer": "assessment"
+        },
+        {
+          "id": 2,
+          "sentence": "Research in _____ suggests that students who construct their own mental models retain information longer than those who memorise facts passively.",
+          "answer": "constructivism"
+        },
+        {
+          "id": 3,
+          "sentence": "Responsive _____ begins with understanding where each student is, not where the syllabus says they should be.",
+          "answer": "pedagogy"
+        },
+        {
+          "id": 4,
+          "sentence": "Greater learner _____ in choosing research topics increased engagement dramatically in the year-long project.",
+          "answer": "autonomy"
+        },
+        {
+          "id": 5,
+          "sentence": "Addressing _____ in education requires identifying and removing the structural barriers that prevent disadvantaged students from reaching their potential.",
+          "answer": "equity"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "effective",
+            "scaffolding",
+            "is",
+            "withdrawn",
+            "gradually",
+            "as",
+            "learners",
+            "gain",
+            "independence"
+          ],
+          "answer": "Effective scaffolding is withdrawn gradually as learners gain independence."
+        },
+        {
+          "id": 2,
+          "words": [
+            "constructivism",
+            "argues",
+            "that",
+            "learners",
+            "build",
+            "knowledge",
+            "through",
+            "active",
+            "experience"
+          ],
+          "answer": "Constructivism argues that learners build knowledge through active experience."
+        },
+        {
+          "id": 3,
+          "words": [
+            "equity",
+            "in",
+            "education",
+            "requires",
+            "targeted",
+            "support",
+            "for",
+            "disadvantaged",
+            "students"
+          ],
+          "answer": "Equity in education requires targeted support for disadvantaged students."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "curriculum",
+            "should",
+            "reflect",
+            "the",
+            "diversity",
+            "of",
+            "the",
+            "student",
+            "population"
+          ],
+          "answer": "The curriculum should reflect the diversity of the student population."
+        },
+        {
+          "id": 5,
+          "words": [
+            "metacognition",
+            "helps",
+            "students",
+            "monitor",
+            "and",
+            "adjust",
+            "their",
+            "own",
+            "thinking",
+            "processes"
+          ],
+          "answer": "Metacognition helps students monitor and adjust their own thinking processes."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher's [pedagogical] was criticised for relying too heavily on rote memorisation and ignoring higher-order thinking.",
+          "highlighted": "pedagogical",
+          "options": {
+            "A": "pedagogue",
+            "B": "pedagogically",
+            "C": "pedagogy"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'pedagogy', not the adjective 'pedagogical'."
+        },
+        {
+          "id": 2,
+          "sentence": "The school introduced peer assessment to help students become more [autonomous] of their strengths and weaknesses.",
+          "highlighted": "autonomous",
+          "options": {
+            "A": "aware",
+            "B": "autonomy",
+            "C": "autonomously"
+          },
+          "answer": "A",
+          "explanation": "The adjective 'aware' is needed in the phrase 'aware of their strengths and weaknesses'; 'autonomous' means self-governing, which does not fit the sentence's meaning."
+        },
+        {
+          "id": 3,
+          "sentence": "Inclusive [curriculums] should incorporate perspectives from communities that have historically been underrepresented in formal education.",
+          "highlighted": "curriculums",
+          "options": {
+            "A": "curricular",
+            "B": "curricula",
+            "C": "curriculum's"
+          },
+          "answer": "B",
+          "explanation": "'Curriculum' is a Latin-origin noun whose standard academic plural is 'curricula', not 'curriculums'."
+        },
+        {
+          "id": 4,
+          "sentence": "Students who [practise] poor metacognition often repeat the same errors without understanding why they are struggling.",
+          "highlighted": "practise",
+          "options": {
+            "A": "display",
+            "B": "practising",
+            "C": "have practised"
+          },
+          "answer": "A",
+          "explanation": "You 'display' or 'exhibit' a trait such as poor metacognition; the verb 'practise' means to rehearse a skill deliberately, which does not collocate naturally with 'poor metacognition'."
+        },
+        {
+          "id": 5,
+          "sentence": "Providing sentence frames is one form of [scaffold] that helps struggling writers organise their ideas effectively.",
+          "highlighted": "scaffold",
+          "options": {
+            "A": "scaffolded",
+            "B": "scaffolding",
+            "C": "scaffolds"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after 'form of' — 'scaffolding', not the base verb 'scaffold'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "scaffolding",
+      "2": "transmission",
+      "3": "curriculum",
+      "4": "metacognition",
+      "5": "equity"
+    },
+    "ex3": {
+      "1": "assessment",
+      "2": "constructivism",
+      "3": "pedagogy",
+      "4": "autonomy",
+      "5": "equity"
+    },
+    "ex4": {
+      "1": "Effective scaffolding is withdrawn gradually as learners gain independence.",
+      "2": "Constructivism argues that learners build knowledge through active experience.",
+      "3": "Equity in education requires targeted support for disadvantaged students.",
+      "4": "The curriculum should reflect the diversity of the student population.",
+      "5": "Metacognition helps students monitor and adjust their own thinking processes."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

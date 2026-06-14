@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 35,
+    "topic_id": "b1-t35",
+    "topic_title": "Exams & Tests",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📝",
+    "topic_title_vi": "Kiểm Tra & Thi Cử",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 114,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Next week, I have an important **exam**. I need to **prepare** well so I can **pass** it. I do not want to **fail** because this **grade** counts towards my final result.",
+        "text_vi": "Tuần tới, tôi có một kỳ **thi** quan trọng. Tôi cần **chuẩn bị** tốt để có thể **vượt qua** nó. Tôi không muốn **trượt** vì **điểm số** này được tính vào kết quả cuối kỳ của tôi."
+      },
+      {
+        "index": 2,
+        "text_en": "The test lasts one **period** — ninety minutes. I must use my **time** well and not rush. Every **item** on the **paper** has a **mark**, so I read each **sheet** carefully before writing.",
+        "text_vi": "Bài kiểm tra kéo dài một **tiết** — chín mươi phút. Tôi phải sử dụng **thời gian** của mình tốt và không vội vàng. Mỗi **câu hỏi** trên **đề thi** đều có **điểm**, vì vậy tôi đọc kỹ từng **tờ giấy** trước khi viết."
+      },
+      {
+        "index": 3,
+        "text_en": "I feel a little **nervous** before every test. To calm down, I **revise** my notes each evening. I try to **concentrate** and avoid distractions while I study.",
+        "text_vi": "Tôi cảm thấy hơi **hồi hộp** trước mỗi bài kiểm tra. Để bình tĩnh, tôi **ôn tập** ghi chú của mình mỗi buổi tối. Tôi cố gắng **tập trung** và tránh sao nhãng trong khi học."
+      },
+      {
+        "index": 4,
+        "text_en": "When I **finish** the exam, I always check my answers one more time. My teacher says that students who **revise** at home and **concentrate** in class usually **pass** with a good **mark**.",
+        "text_vi": "Khi tôi **hoàn thành** bài thi, tôi luôn kiểm tra lại câu trả lời một lần nữa. Giáo viên của tôi nói rằng những học sinh **ôn tập** ở nhà và **tập trung** ở lớp thường **vượt qua** bài thi với **điểm** cao."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "exam",
+      "ipa": "/ɪɡˈzæm/",
+      "pos": "noun",
+      "meaning_vi": "kỳ thi, bài thi",
+      "meaning_vi_inline": "thi",
+      "example_en": "She studied all weekend because the exam was on Monday morning.",
+      "example_vi": "Cô ấy đã học cả cuối tuần vì bài thi vào sáng thứ Hai.",
+      "word_family": {
+        "noun": "exam / examination",
+        "verb": "examine",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "prepare",
+      "ipa": "/prɪˈpeər/",
+      "pos": "verb",
+      "meaning_vi": "chuẩn bị",
+      "meaning_vi_inline": "chuẩn bị",
+      "example_en": "I prepared for the test by reading my notes three times the night before.",
+      "example_vi": "Tôi chuẩn bị cho bài kiểm tra bằng cách đọc ghi chú của mình ba lần vào đêm hôm trước.",
+      "word_family": {
+        "noun": "preparation",
+        "verb": "prepare / prepared",
+        "adjective": "prepared / unprepared",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "pass",
+      "ipa": "/pɑːs/",
+      "pos": "verb",
+      "meaning_vi": "vượt qua (bài thi), đậu",
+      "meaning_vi_inline": "vượt qua",
+      "example_en": "He was very happy when he found out he had passed all his exams.",
+      "example_vi": "Anh ấy rất vui khi biết mình đã vượt qua tất cả các bài thi.",
+      "word_family": {
+        "noun": "pass / passage",
+        "verb": "pass / passed",
+        "adjective": "passing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "fail",
+      "ipa": "/feɪl/",
+      "pos": "verb",
+      "meaning_vi": "trượt (bài thi), thất bại",
+      "meaning_vi_inline": "trượt",
+      "example_en": "She failed the test because she did not study enough the week before.",
+      "example_vi": "Cô ấy đã trượt bài kiểm tra vì không học đủ trong tuần trước.",
+      "word_family": {
+        "noun": "failure / fail",
+        "verb": "fail / failed",
+        "adjective": "failing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "nervous",
+      "ipa": "/ˈnɜːvəs/",
+      "pos": "adjective",
+      "meaning_vi": "hồi hộp, lo lắng, bồn chồn",
+      "meaning_vi_inline": "hồi hộp",
+      "example_en": "He felt nervous before the exam, but after the first question he calmed down.",
+      "example_vi": "Anh ấy cảm thấy hồi hộp trước kỳ thi, nhưng sau câu hỏi đầu tiên anh ấy bình tĩnh lại.",
+      "word_family": {
+        "noun": "nervousness / nerves",
+        "verb": null,
+        "adjective": "nervous / calm",
+        "adverb": "nervously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "time",
+      "ipa": "/taɪm/",
+      "pos": "noun",
+      "meaning_vi": "thời gian",
+      "meaning_vi_inline": "thời gian",
+      "example_en": "Manage your time well in exams — do not spend too long on one question.",
+      "example_vi": "Hãy quản lý thời gian tốt trong bài thi — đừng dành quá nhiều thời gian cho một câu hỏi.",
+      "word_family": {
+        "noun": "time / timing",
+        "verb": "time / timed",
+        "adjective": "timely",
+        "adverb": "on time / in time"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "mark",
+      "ipa": "/mɑːk/",
+      "pos": "noun / verb",
+      "meaning_vi": "điểm số; chấm điểm",
+      "meaning_vi_inline": "điểm",
+      "example_en": "She got full marks on the listening section — every answer was correct.",
+      "example_vi": "Cô ấy đạt điểm tuyệt đối ở phần nghe — mỗi câu trả lời đều đúng.",
+      "word_family": {
+        "noun": "mark / marker",
+        "verb": "mark / marked",
+        "adjective": "marked",
+        "adverb": "markedly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "grade",
+      "ipa": "/ɡreɪd/",
+      "pos": "noun",
+      "meaning_vi": "điểm số (xếp loại), hạng",
+      "meaning_vi_inline": "điểm số",
+      "example_en": "My grade for this exam is B — I need to study more to get an A next time.",
+      "example_vi": "Điểm của tôi cho bài thi này là B — tôi cần học nhiều hơn để đạt A lần tới.",
+      "word_family": {
+        "noun": "grade",
+        "verb": "grade / graded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "period",
+      "ipa": "/ˈpɪəriəd/",
+      "pos": "noun",
+      "meaning_vi": "tiết học; khoảng thời gian",
+      "meaning_vi_inline": "tiết",
+      "example_en": "The exam takes place during the first period — from eight to nine thirty.",
+      "example_vi": "Bài thi diễn ra trong tiết đầu tiên — từ tám đến chín giờ rưỡi.",
+      "word_family": {
+        "noun": "period",
+        "verb": null,
+        "adjective": "periodic",
+        "adverb": "periodically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "pos": "verb",
+      "meaning_vi": "ôn tập, xem lại bài",
+      "meaning_vi_inline": "ôn tập",
+      "example_en": "I revise my vocabulary notes every evening for thirty minutes before dinner.",
+      "example_vi": "Tôi ôn tập ghi chú từ vựng mỗi buổi tối trong ba mươi phút trước bữa tối.",
+      "word_family": {
+        "noun": "revision",
+        "verb": "revise / revised",
+        "adjective": "revised",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "concentrate",
+      "ipa": "/ˈkɒnsəntreɪt/",
+      "pos": "verb",
+      "meaning_vi": "tập trung, chú tâm",
+      "meaning_vi_inline": "tập trung",
+      "example_en": "It is hard to concentrate when your phone keeps sending notifications.",
+      "example_vi": "Thật khó để tập trung khi điện thoại của bạn liên tục gửi thông báo.",
+      "word_family": {
+        "noun": "concentration",
+        "verb": "concentrate / concentrated",
+        "adjective": "concentrated",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "paper",
+      "ipa": "/ˈpeɪpər/",
+      "pos": "noun",
+      "meaning_vi": "đề thi, bài thi (dạng giấy)",
+      "meaning_vi_inline": "đề thi",
+      "example_en": "The teacher handed out the exam paper and told us to write our names first.",
+      "example_vi": "Giáo viên phát đề thi và bảo chúng tôi viết tên trước.",
+      "word_family": {
+        "noun": "paper / paperwork",
+        "verb": null,
+        "adjective": "paper (as modifier, e.g. paper round)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "item",
+      "ipa": "/ˈaɪtəm/",
+      "pos": "noun",
+      "meaning_vi": "câu hỏi, mục, khoản mục",
+      "meaning_vi_inline": "câu hỏi",
+      "example_en": "There are twenty items on the test — each one is worth five marks.",
+      "example_vi": "Có hai mươi câu hỏi trong bài kiểm tra — mỗi câu trị giá năm điểm.",
+      "word_family": {
+        "noun": "item",
+        "verb": "itemise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "sheet",
+      "ipa": "/ʃiːt/",
+      "pos": "noun",
+      "meaning_vi": "tờ giấy, trang giấy",
+      "meaning_vi_inline": "tờ giấy",
+      "example_en": "The teacher gave each student a separate answer sheet to write their responses on.",
+      "example_vi": "Giáo viên phát cho mỗi học sinh một tờ giấy trả lời riêng để viết câu trả lời.",
+      "word_family": {
+        "noun": "sheet",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "finish",
+      "ipa": "/ˈfɪnɪʃ/",
+      "pos": "verb",
+      "meaning_vi": "hoàn thành, kết thúc",
+      "meaning_vi_inline": "hoàn thành",
+      "example_en": "She finished the exam early and used the extra time to check her answers.",
+      "example_vi": "Cô ấy hoàn thành bài thi sớm và dùng thời gian dư để kiểm tra lại câu trả lời.",
+      "word_family": {
+        "noun": "finish / finishing",
+        "verb": "finish / finished",
+        "adjective": "finished / unfinished",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "revise" },
+        { "id": 2, "word": "nervous" },
+        { "id": 3, "word": "concentrate" },
+        { "id": 4, "word": "mark" },
+        { "id": 5, "word": "fail" }
+      ],
+      "options": [
+        { "id": "A", "text": "to feel anxious or worried, especially before something important" },
+        { "id": "B", "text": "to study material again before a test in order to remember it better" },
+        { "id": "C", "text": "a point or score given for a correct answer in a test or exam" },
+        { "id": "D", "text": "to focus your mind completely on one thing without being distracted" },
+        { "id": "E", "text": "to not reach the required standard in a test or examination" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Please read every _____ on the test carefully before you write your answer.",
+          "options": ["sheet", "grade", "item", "period"],
+          "answer": "item"
+        },
+        {
+          "id": 2,
+          "sentence": "If you do not _____ enough, you might not remember the vocabulary in the exam.",
+          "options": ["finish", "revise", "pass", "mark"],
+          "answer": "revise"
+        },
+        {
+          "id": 3,
+          "sentence": "Turn off your phone so you can _____ and study without interruptions.",
+          "options": ["fail", "prepare", "concentrate", "revise"],
+          "answer": "concentrate"
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher handed out the exam _____ and asked everyone to write their names at the top.",
+          "options": ["grade", "paper", "mark", "item"],
+          "answer": "paper"
+        },
+        {
+          "id": 5,
+          "sentence": "Many students feel _____ before a big exam, but taking deep breaths can help.",
+          "options": ["nervous", "finished", "prepared", "failed"],
+          "answer": "nervous"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["pass", "prepare", "finish", "grade", "time", "fail"],
+      "items": [
+        { "id": 1, "sentence": "You need to _____ well if you want to do well in the exam.", "answer": "prepare" },
+        { "id": 2, "sentence": "She was so happy when she got a good _____ on her maths test.", "answer": "grade" },
+        { "id": 3, "sentence": "Manage your _____ carefully — do not spend too long on one question.", "answer": "time" },
+        { "id": 4, "sentence": "He worked hard all term and managed to _____ every subject.", "answer": "pass" },
+        { "id": 5, "sentence": "Try to _____ before the bell rings so you can check your work.", "answer": "finish" }
+      ],
+      "note": "One word in the box is not used: fail"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Good _____ is the key to doing well — start studying a week before the exam. (PREPARE)",
+          "base_word": "PREPARE",
+          "answer": "preparation",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "The student smiled _____ as she handed in her paper — she knew all the answers. (NERVOUS)",
+          "base_word": "NERVOUS",
+          "answer": "nervously",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "His _____ score improved after he started revising every evening. (EXAM)",
+          "base_word": "EXAM",
+          "answer": "examination",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "She did a _____ version of her essay after the teacher gave feedback. (REVISE)",
+          "base_word": "REVISE",
+          "answer": "revised",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "His poor _____ in the test showed that he had not studied enough. (FAIL)",
+          "base_word": "FAIL",
+          "answer": "failure",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I always feel very [excited] before an exam — my hands shake and I cannot sleep well.",
+          "highlighted": "excited",
+          "options": { "A": "nervous", "B": "excited", "C": "prepared" },
+          "answer": "A",
+          "explanation": "'Excited' usually means looking forward to something with pleasure. When your hands shake and you cannot sleep before a test, the correct word is 'nervous' — feeling worried and anxious."
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher asked us to write our answers on a separate [paper] for each question.",
+          "highlighted": "paper",
+          "options": { "A": "mark", "B": "paper", "C": "sheet" },
+          "answer": "C",
+          "explanation": "A 'paper' refers to the whole exam document. Each single page you write on is a 'sheet'. The sentence is talking about individual pages, so 'sheet' is correct."
+        },
+        {
+          "id": 3,
+          "sentence": "She studied very hard but still [passed] the exam because she ran out of time.",
+          "highlighted": "passed",
+          "options": { "A": "passed", "B": "failed", "C": "finished" },
+          "answer": "B",
+          "explanation": "If someone studied hard but ran out of time and did not do well, they 'failed' — not passed. 'Passed' means they succeeded, which contradicts the meaning of the sentence."
+        },
+        {
+          "id": 4,
+          "sentence": "Each [grade] on the exam paper is worth two marks, and you must answer all of them.",
+          "highlighted": "grade",
+          "options": { "A": "sheet", "B": "grade", "C": "item" },
+          "answer": "C",
+          "explanation": "A 'grade' is the overall score or letter you receive (like A or B). Each individual question on an exam paper is called an 'item'. The sentence is clearly describing separate questions, so 'item' is correct."
+        },
+        {
+          "id": 5,
+          "sentence": "You need to [ignore] on the task — do not look at what your classmates are doing.",
+          "highlighted": "ignore",
+          "options": { "A": "revise", "B": "fail", "C": "concentrate" },
+          "answer": "C",
+          "explanation": "'Ignore' means to pay no attention to something — it does not fit here. The sentence is telling you to focus on your own work, which means to 'concentrate'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "B", "2": "A", "3": "D", "4": "C", "5": "E" },
+    "ex2": { "1": "item", "2": "revise", "3": "concentrate", "4": "paper", "5": "nervous" },
+    "ex3": { "1": "prepare", "2": "grade", "3": "time", "4": "pass", "5": "finish" },
+    "ex4": { "1": "preparation", "2": "nervously", "3": "examination", "4": "revised", "5": "failure" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "C" }
+  }
+}

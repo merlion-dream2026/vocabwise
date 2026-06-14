@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 25,
+    "topic_id": "b3-t25",
+    "topic_title": "Crime, Law & Justice",
+    "topic_title_vi": "Tội Phạm, Luật Pháp & Công Lý",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "⚖️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The **judiciary** sits at the heart of any democratic society, tasked with interpreting the law and delivering justice impartially. Central to this role is the doctrine of **precedent**, whereby earlier court rulings bind future decisions on similar cases. This principle promotes consistency and predictability, yet it also raises difficult questions: when a **statute** enacted decades ago produces manifestly unjust outcomes today, should judges follow the letter of the law or depart from it in the interest of equity?",
+        "text_vi": "**Cơ quan tư pháp** đóng vai trò trung tâm trong bất kỳ xã hội dân chủ nào, với nhiệm vụ giải thích luật pháp và thực thi công lý một cách vô tư. Nền tảng của vai trò này là học thuyết **tiền lệ pháp**, theo đó các phán quyết của tòa án trước đây ràng buộc các quyết định trong tương lai với những vụ án tương tự. Nguyên tắc này thúc đẩy tính nhất quán và khả năng tiên liệu, nhưng đồng thời đặt ra những câu hỏi khó: khi một **đạo luật** được ban hành hàng thập kỷ trước tạo ra kết quả bất công hiển nhiên ngày nay, liệu thẩm phán có nên tuân theo từng chữ của luật hay không?"
+      },
+      {
+        "index": 2,
+        "text_en": "Criminal law rests on a fundamental distinction between being merely involved in wrongdoing and being genuinely **culpable** — that is, morally and legally blameworthy. **Prosecution** must establish culpability beyond reasonable doubt before a **verdict** of guilty can be returned. This high evidentiary threshold reflects a core commitment: it is better to acquit the guilty than to convict the innocent. Yet securing a conviction serves multiple social functions, including **deterrence**, which aims to discourage future offending through the threat of punishment.",
+        "text_vi": "Luật hình sự dựa trên sự phân biệt cơ bản giữa việc chỉ đơn thuần có liên quan đến hành vi sai trái và thực sự **có tội** — tức là đáng bị chê trách về mặt đạo đức và pháp lý. **Công tố** phải chứng minh tội lỗi vượt quá mọi nghi ngờ hợp lý trước khi có thể đưa ra **phán quyết** có tội. Ngưỡng bằng chứng cao này phản ánh một cam kết cốt lõi: tha bổng người có tội còn tốt hơn kết tội người vô tội. Tuy nhiên, việc đạt được bản án kết tội còn phục vụ nhiều chức năng xã hội, trong đó có **tính răn đe**, nhằm ngăn chặn tái phạm thông qua nguy cơ bị trừng phạt."
+      },
+      {
+        "index": 3,
+        "text_en": "Beyond punishment, modern justice systems increasingly pursue **rehabilitation** — equipping offenders with the skills and support needed to reintegrate into society. Evidence suggests that punitive approaches alone do little to curb **recidivism**: the persistent return to criminal behaviour after release. In response, practitioners of **restorative justice** argue that bringing offenders, victims, and communities together to address harm collaboratively yields better long-term outcomes than custodial sentences alone.",
+        "text_vi": "Ngoài hình phạt, các hệ thống tư pháp hiện đại ngày càng theo đuổi **phục hồi nhân phẩm** — trang bị cho người phạm tội những kỹ năng và sự hỗ trợ cần thiết để tái hòa nhập xã hội. Bằng chứng cho thấy các biện pháp trừng phạt đơn thuần ít có tác dụng ngăn chặn **tái phạm**: tức là hành vi liên tục quay lại con đường tội phạm sau khi được thả. Để đáp lại, những người thực hành **tư pháp phục hồi** lập luận rằng việc đưa người phạm tội, nạn nhân và cộng đồng lại với nhau để cùng giải quyết tổn hại sẽ mang lại kết quả lâu dài tốt hơn so với chỉ dùng án tù."
+      },
+      {
+        "index": 4,
+        "text_en": "The debate between retribution and reform lies at the centre of contemporary criminal justice policy. Advocates of reform urge courts to **apply restorative justice** more widely and to **challenge punitive sentencing** that disproportionately harms marginalised communities. Critics, however, insist that courts must **uphold the rule of law** and **assign moral culpability** clearly if public trust in legal institutions is to be maintained. The challenge is to **reduce recidivism rates** while ensuring that justice remains both fair and firm.",
+        "text_vi": "Cuộc tranh luận giữa trừng phạt và cải tạo nằm ở trung tâm của chính sách tư pháp hình sự đương đại. Những người ủng hộ cải cách kêu gọi tòa án **áp dụng tư pháp phục hồi** rộng rãi hơn và **phản đối hình phạt trừng trị** gây hại không cân xứng cho các cộng đồng dễ bị tổn thương. Tuy nhiên, các nhà phê bình khẳng định rằng tòa án phải **duy trì pháp quyền** và **xác định trách nhiệm đạo đức** một cách rõ ràng nếu muốn duy trì niềm tin của công chúng vào các thể chế pháp lý. Thách thức là **giảm tỷ lệ tái phạm** trong khi đảm bảo công lý vẫn vừa công bằng vừa nghiêm minh."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "judiciary",
+      "ipa": "/dʒuːˈdɪʃ.i.er.i/",
+      "pos": "noun",
+      "meaning_vi": "cơ quan tư pháp, hệ thống toà án",
+      "meaning_vi_inline": "cơ quan tư pháp",
+      "example_en": "An independent judiciary is essential to prevent the abuse of state power.",
+      "example_vi": "Một cơ quan tư pháp độc lập là điều thiết yếu để ngăn chặn sự lạm dụng quyền lực nhà nước.",
+      "word_family": {
+        "noun": "judiciary / judge / judgement",
+        "verb": "judge / adjudicate",
+        "adjective": "judicial",
+        "adverb": "judicially"
+      },
+      "false_friend": {
+        "word_vi": "justice",
+        "explanation_vi": "'Judiciary' là hệ thống tòa án và thẩm phán; 'justice' là khái niệm công lý hoặc chức danh thẩm phán cấp cao — không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "precedent",
+      "ipa": "/ˈpres.ɪ.dənt/",
+      "pos": "noun",
+      "meaning_vi": "tiền lệ pháp, án lệ",
+      "meaning_vi_inline": "tiền lệ pháp",
+      "example_en": "The landmark ruling set a precedent that courts have followed for over a century.",
+      "example_vi": "Phán quyết mang tính lịch sử đó đã tạo ra một tiền lệ pháp mà các tòa án đã tuân theo hơn một thế kỷ.",
+      "word_family": {
+        "noun": "precedent",
+        "verb": null,
+        "adjective": "precedent / unprecedented",
+        "adverb": "unprecedentedly"
+      },
+      "false_friend": {
+        "word_vi": "president",
+        "explanation_vi": "'Precedent' (tiền lệ pháp) và 'president' (tổng thống/chủ tịch) phát âm gần giống nhau nhưng hoàn toàn khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "culpable",
+      "ipa": "/ˈkʌl.pə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "có tội, đáng bị chê trách",
+      "meaning_vi_inline": "có tội",
+      "example_en": "The investigation concluded that the company was culpable for the environmental damage caused.",
+      "example_vi": "Cuộc điều tra kết luận rằng công ty phải chịu trách nhiệm về thiệt hại môi trường đã gây ra.",
+      "word_family": {
+        "noun": "culpability / culprit",
+        "verb": null,
+        "adjective": "culpable",
+        "adverb": "culpably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "deterrence",
+      "ipa": "/dɪˈter.əns/",
+      "pos": "noun",
+      "meaning_vi": "tính răn đe, biện pháp ngăn chặn",
+      "meaning_vi_inline": "tính răn đe",
+      "example_en": "Longer prison sentences are often justified on the grounds of deterrence rather than rehabilitation.",
+      "example_vi": "Các bản án tù dài hơn thường được biện minh dựa trên cơ sở răn đe hơn là cải tạo.",
+      "word_family": {
+        "noun": "deterrence / deterrent",
+        "verb": "deter",
+        "adjective": "deterrent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "rehabilitation",
+      "ipa": "/ˌriː.həˌbɪl.ɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phục hồi nhân phẩm, sự tái hoà nhập xã hội",
+      "meaning_vi_inline": "phục hồi nhân phẩm",
+      "example_en": "Prison education programmes are a cornerstone of successful offender rehabilitation.",
+      "example_vi": "Các chương trình giáo dục trong nhà tù là nền tảng của việc phục hồi nhân phẩm cho người phạm tội thành công.",
+      "word_family": {
+        "noun": "rehabilitation",
+        "verb": "rehabilitate",
+        "adjective": "rehabilitative",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "recidivism",
+      "ipa": "/rɪˈsɪd.ɪ.vɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "tái phạm, hành vi tái phạm tội",
+      "meaning_vi_inline": "tái phạm",
+      "example_en": "High recidivism rates suggest that short-term incarceration does little to address the root causes of crime.",
+      "example_vi": "Tỷ lệ tái phạm cao cho thấy việc giam giữ ngắn hạn ít có tác dụng giải quyết nguyên nhân gốc rễ của tội phạm.",
+      "word_family": {
+        "noun": "recidivism / recidivist",
+        "verb": null,
+        "adjective": "recidivist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "prosecution",
+      "ipa": "/ˌprɒs.ɪˈkjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "công tố, việc truy tố",
+      "meaning_vi_inline": "công tố",
+      "example_en": "The prosecution presented overwhelming forensic evidence to support its case.",
+      "example_vi": "Bên công tố đã trình bày bằng chứng pháp y áp đảo để hỗ trợ cho vụ kiện của mình.",
+      "word_family": {
+        "noun": "prosecution / prosecutor",
+        "verb": "prosecute",
+        "adjective": "prosecutorial",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "persecution",
+        "explanation_vi": "'Prosecution' là truy tố pháp lý; 'persecution' là sự ngược đãi hoặc bức hại — dễ nhầm nhưng khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "verdict",
+      "ipa": "/ˈvɜː.dɪkt/",
+      "pos": "noun",
+      "meaning_vi": "phán quyết, kết luận của bồi thẩm đoàn",
+      "meaning_vi_inline": "phán quyết",
+      "example_en": "The jury deliberated for three days before returning a verdict of not guilty.",
+      "example_vi": "Bồi thẩm đoàn thảo luận trong ba ngày trước khi đưa ra phán quyết không có tội.",
+      "word_family": {
+        "noun": "verdict",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "statute",
+      "ipa": "/ˈstætʃ.uːt/",
+      "pos": "noun",
+      "meaning_vi": "đạo luật, luật thành văn",
+      "meaning_vi_inline": "đạo luật",
+      "example_en": "The new statute requires all employers to provide mandatory health insurance to their workers.",
+      "example_vi": "Đạo luật mới yêu cầu tất cả người sử dụng lao động phải cung cấp bảo hiểm sức khỏe bắt buộc cho công nhân.",
+      "word_family": {
+        "noun": "statute / statutory instrument",
+        "verb": null,
+        "adjective": "statutory",
+        "adverb": "statutorily"
+      },
+      "false_friend": {
+        "word_vi": "statue",
+        "explanation_vi": "'Statute' là đạo luật thành văn; 'statue' là tượng điêu khắc — khác nhau hoàn toàn về nghĩa dù phát âm gần giống."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "restorative justice",
+      "ipa": "/rɪˈstɔː.rə.tɪv ˈdʒʌs.tɪs/",
+      "pos": "noun phrase",
+      "meaning_vi": "tư pháp phục hồi",
+      "meaning_vi_inline": "tư pháp phục hồi",
+      "example_en": "Restorative justice programmes encourage dialogue between offenders and victims to repair the harm caused.",
+      "example_vi": "Các chương trình tư pháp phục hồi khuyến khích đối thoại giữa người phạm tội và nạn nhân để sửa chữa tổn hại đã gây ra.",
+      "word_family": {
+        "noun": "restorative justice / restoration",
+        "verb": "restore",
+        "adjective": "restorative",
+        "adverb": "restoratively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "uphold the rule of law",
+      "meaning_vi": "duy trì pháp quyền",
+      "example_en": "Democratic governments have a duty to uphold the rule of law, even when it is politically inconvenient.",
+      "example_vi": "Các chính phủ dân chủ có nghĩa vụ duy trì pháp quyền, ngay cả khi điều đó bất tiện về mặt chính trị.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "reduce recidivism rates",
+      "meaning_vi": "giảm tỷ lệ tái phạm",
+      "example_en": "Investment in vocational training within prisons is one of the most effective ways to reduce recidivism rates.",
+      "example_vi": "Đầu tư vào đào tạo nghề trong nhà tù là một trong những cách hiệu quả nhất để giảm tỷ lệ tái phạm.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "apply restorative justice",
+      "meaning_vi": "áp dụng tư pháp phục hồi",
+      "example_en": "Several countries have begun to apply restorative justice principles in cases involving juvenile offenders.",
+      "example_vi": "Một số quốc gia đã bắt đầu áp dụng các nguyên tắc tư pháp phục hồi trong các vụ án liên quan đến người phạm tội vị thành niên.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "assign moral culpability",
+      "meaning_vi": "xác định trách nhiệm đạo đức",
+      "example_en": "Courts must assign moral culpability carefully when multiple parties are involved in a complex fraud case.",
+      "example_vi": "Tòa án phải xác định trách nhiệm đạo đức một cách cẩn thận khi nhiều bên liên quan đến một vụ gian lận phức tạp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "challenge punitive sentencing",
+      "meaning_vi": "phản đối hình phạt trừng trị",
+      "example_en": "Civil rights lawyers have long sought to challenge punitive sentencing policies that disproportionately affect minority communities.",
+      "example_vi": "Các luật sư dân quyền từ lâu đã tìm cách phản đối các chính sách hình phạt trừng trị ảnh hưởng không cân xứng đến các cộng đồng thiểu số.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that the doctrine of precedent allows judges to freely ignore earlier rulings.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, the prosecution must prove guilt beyond reasonable doubt before a guilty verdict can be returned.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that punitive approaches are the most effective method for reducing recidivism.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage mentions that restorative justice originated in Scandinavia.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, maintaining public trust in legal institutions requires courts to assign moral culpability clearly.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The judge ruled that the defendant was not _____ for the accident, as he had taken all reasonable precautions.",
+          "options": [
+            "culpable",
+            "statutory",
+            "restorative",
+            "unprecedented"
+          ],
+          "answer": "culpable"
+        },
+        {
+          "id": 2,
+          "sentence": "The court's decision established a legal _____ that will influence rulings on similar cases for decades.",
+          "options": [
+            "verdict",
+            "statute",
+            "precedent",
+            "rehabilitation"
+          ],
+          "answer": "precedent"
+        },
+        {
+          "id": 3,
+          "sentence": "Mandatory minimum sentencing was introduced primarily as a _____ measure to discourage drug trafficking.",
+          "options": [
+            "recidivism",
+            "deterrence",
+            "prosecution",
+            "judiciary"
+          ],
+          "answer": "deterrence"
+        },
+        {
+          "id": 4,
+          "sentence": "After ten years of imprisonment, he enrolled in a _____ programme that helped him find stable employment.",
+          "options": [
+            "verdict",
+            "deterrence",
+            "rehabilitation",
+            "precedent"
+          ],
+          "answer": "rehabilitation"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ argued that the evidence presented was circumstantial and insufficient to secure a conviction.",
+          "options": [
+            "prosecution",
+            "statute",
+            "recidivism",
+            "judiciary"
+          ],
+          "answer": "prosecution"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "verdict",
+        "recidivism",
+        "statute",
+        "judiciary",
+        "restorative justice",
+        "culpable"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of not guilty came after three weeks of deliberation, shocking many court observers.",
+          "answer": "verdict"
+        },
+        {
+          "id": 2,
+          "sentence": "A new _____ was passed requiring mandatory disclosure of conflicts of interest by public officials.",
+          "answer": "statute"
+        },
+        {
+          "id": 3,
+          "sentence": "High rates of _____ among released prisoners highlight the failure of purely punitive sentencing.",
+          "answer": "recidivism"
+        },
+        {
+          "id": 4,
+          "sentence": "Practitioners of _____ bring offenders and victims together to repair harm rather than simply impose punishment.",
+          "answer": "restorative justice"
+        },
+        {
+          "id": 5,
+          "sentence": "The independent _____ serves as a vital check on the power of the legislative and executive branches.",
+          "answer": "judiciary"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "judiciary",
+            "must",
+            "remain",
+            "independent",
+            "of",
+            "political",
+            "influence"
+          ],
+          "answer": "The judiciary must remain independent of political influence."
+        },
+        {
+          "id": 2,
+          "words": [
+            "legal",
+            "precedent",
+            "ensures",
+            "consistency",
+            "across",
+            "similar",
+            "court",
+            "cases"
+          ],
+          "answer": "Legal precedent ensures consistency across similar court cases."
+        },
+        {
+          "id": 3,
+          "words": [
+            "rehabilitation",
+            "programmes",
+            "can",
+            "significantly",
+            "reduce",
+            "offender",
+            "recidivism"
+          ],
+          "answer": "Rehabilitation programmes can significantly reduce offender recidivism."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "prosecution",
+            "must",
+            "prove",
+            "guilt",
+            "beyond",
+            "all",
+            "reasonable",
+            "doubt"
+          ],
+          "answer": "The prosecution must prove guilt beyond all reasonable doubt."
+        },
+        {
+          "id": 5,
+          "words": [
+            "restorative",
+            "justice",
+            "focuses",
+            "on",
+            "repairing",
+            "harm",
+            "rather",
+            "than",
+            "imposing",
+            "punishment"
+          ],
+          "answer": "Restorative justice focuses on repairing harm rather than imposing punishment."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The court found the director personally [culpability] for the financial fraud committed by the firm.",
+          "highlighted": "culpability",
+          "options": {
+            "A": "culpably",
+            "B": "culprit",
+            "C": "culpable"
+          },
+          "answer": "C",
+          "explanation": "An adjective is needed after 'personally' to describe the director — 'culpable', not the noun 'culpability'."
+        },
+        {
+          "id": 2,
+          "sentence": "The defence challenged the [precedence] established by the 1998 ruling, arguing it was no longer applicable.",
+          "highlighted": "precedence",
+          "options": {
+            "A": "precedent",
+            "B": "preceding",
+            "C": "precede"
+          },
+          "answer": "A",
+          "explanation": "'Precedent' means a legal ruling that guides future cases; 'precedence' means priority or superiority — different meanings in legal contexts."
+        },
+        {
+          "id": 3,
+          "sentence": "Campaigners argue that longer sentences have little [deter] effect on premeditated crimes.",
+          "highlighted": "deter",
+          "options": {
+            "A": "deterred",
+            "B": "deterrent",
+            "C": "deterrence"
+          },
+          "answer": "B",
+          "explanation": "An adjective is needed to modify 'effect' — 'deterrent effect' is the correct collocation, not the verb 'deter'."
+        },
+        {
+          "id": 4,
+          "sentence": "The jury returned a [verdict] of not guilty after only two hours of deliberations.",
+          "highlighted": "verdict",
+          "options": {
+            "A": "verdicts",
+            "B": "verdict",
+            "C": "judging"
+          },
+          "answer": "B",
+          "explanation": "This sentence is already correct — 'verdict' is the right noun here. The error is in the surrounding grammar only if another option fits; 'verdict' is correct as written."
+        },
+        {
+          "id": 5,
+          "sentence": "The new _____ on data protection came into force last January and applies to all digital platforms.",
+          "highlighted": "statute",
+          "options": {
+            "A": "statue",
+            "B": "statute",
+            "C": "statistical"
+          },
+          "answer": "B",
+          "explanation": "'Statute' means a formally enacted law; 'statue' is a sculptural figure — identical pronunciation but entirely different meaning."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "culpable",
+      "2": "precedent",
+      "3": "deterrence",
+      "4": "rehabilitation",
+      "5": "prosecution"
+    },
+    "ex3": {
+      "1": "verdict",
+      "2": "statute",
+      "3": "recidivism",
+      "4": "restorative justice",
+      "5": "judiciary"
+    },
+    "ex4": {
+      "1": "The judiciary must remain independent of political influence.",
+      "2": "Legal precedent ensures consistency across similar court cases.",
+      "3": "Rehabilitation programmes can significantly reduce offender recidivism.",
+      "4": "The prosecution must prove guilt beyond all reasonable doubt.",
+      "5": "Restorative justice focuses on repairing harm rather than imposing punishment."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

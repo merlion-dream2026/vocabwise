@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 33,
+    "topic_id": "b2-t33",
+    "topic_title": "Stories & Books",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "📚",
+    "topic_title_vi": "Câu Chuyện & Sách",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 211,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Books have shaped human culture for thousands of years. A skilled **author** knows how to build a compelling **storyline** — a sequence of events that keeps the **reader** turning pages. At the heart of every story is the **plot**: what actually happens, how conflicts arise, and how they are — or are not — resolved. A satisfying **plot** feels logical and inevitable in hindsight, even if the twists surprised us along the way.",
+        "text_vi": "Sách đã định hình văn hóa nhân loại trong hàng nghìn năm. Một **tác giả** tài năng biết cách xây dựng một **cốt truyện** hấp dẫn — một chuỗi sự kiện khiến **độc giả** cứ muốn lật trang. Trung tâm của mọi câu chuyện là **cốt truyện**: những gì thực sự xảy ra, xung đột nảy sinh như thế nào, và được — hoặc không được — giải quyết ra sao. Một **cốt truyện** thỏa mãn cảm giác hợp lý và tất yếu khi nhìn lại, dù những tình tiết bất ngờ đã làm chúng ta ngạc nhiên trên đường đi."
+      },
+      {
+        "index": 2,
+        "text_en": "Beyond the **plot**, a great book has rich **character**s — people (or beings) whose personalities, desires, and flaws feel genuinely human. The **theme** — the deeper meaning or message beneath the story — is what stays with a **reader** long after the final **chapter**. A skilled **author** uses **perspective** to control what we know and feel: a story told from the point of view of a villain, for instance, can completely change how we **understand** events.",
+        "text_vi": "Ngoài **cốt truyện**, một cuốn sách hay có những **nhân vật** phong phú — những người (hoặc sinh vật) có cá tính, mong muốn và khiếm khuyết cảm giác thực sự là con người. **Chủ đề** — ý nghĩa sâu sắc hơn hoặc thông điệp bên dưới câu chuyện — là thứ ở lại với **độc giả** lâu sau **chương** cuối cùng. Một **tác giả** tài năng sử dụng **góc nhìn** để kiểm soát những gì chúng ta biết và cảm nhận: một câu chuyện được kể từ góc nhìn của phản diện chẳng hạn, có thể thay đổi hoàn toàn cách chúng ta **hiểu** sự kiện."
+      },
+      {
+        "index": 3,
+        "text_en": "Books are classified into **genre**s — categories such as **fiction**, mystery, romance, and science fiction. **Fiction** — stories that are imagined rather than factually true — includes some of the most celebrated works in world literature. When a book receives outstanding **review**s and captures public attention, it may become a **bestseller**, selling hundreds of thousands or even millions of copies around the world.",
+        "text_vi": "Sách được phân loại theo **thể loại** — các danh mục như **hư cấu**, trinh thám, lãng mạn và khoa học viễn tưởng. **Hư cấu** — những câu chuyện được tưởng tượng thay vì đúng về mặt thực tế — bao gồm một số tác phẩm được tôn vinh nhất trong văn học thế giới. Khi một cuốn sách nhận được **đánh giá** xuất sắc và thu hút sự chú ý của công chúng, nó có thể trở thành **sách bán chạy nhất**, bán hàng trăm nghìn hay thậm chí hàng triệu bản trên khắp thế giới."
+      },
+      {
+        "index": 4,
+        "text_en": "Not all great stories have a happy ending. A **sad ending** — where the protagonist fails, loses someone, or faces an unresolved tragedy — can be just as powerful as a triumphant conclusion, leaving the reader deeply moved. Once completed, a manuscript must be **published** — produced and distributed for the public — before it can reach its audience. Today, writers can self-**publish** digitally, bypassing traditional publishers entirely.",
+        "text_vi": "Không phải tất cả những câu chuyện hay đều có kết thúc vui. **Kết thúc buồn** — khi nhân vật chính thất bại, mất đi ai đó hoặc đối mặt với bi kịch chưa được giải quyết — có thể mạnh mẽ không kém một kết cục thắng lợi, để lại độc giả xúc động sâu sắc. Sau khi hoàn thành, một bản thảo phải được **xuất bản** — sản xuất và phân phối cho công chúng — trước khi có thể đến tay độc giả. Ngày nay, các nhà văn có thể tự **xuất bản** kỹ thuật số, bỏ qua hoàn toàn các nhà xuất bản truyền thống."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "storyline",
+      "ipa": "/ˈstɔː.ri.laɪn/",
+      "pos": "noun",
+      "meaning_vi": "cốt truyện, mạch truyện (chuỗi sự kiện trong câu chuyện)",
+      "meaning_vi_inline": "mạch truyện",
+      "example_en": "The film has a complex storyline with three different narrators telling the same events.",
+      "example_vi": "Bộ phim có cốt truyện phức tạp với ba người kể chuyện khác nhau kể cùng một sự kiện.",
+      "word_family": {
+        "noun": "storyline / story",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "plot",
+        "explanation_vi": "'Storyline' thường chỉ chuỗi sự kiện tổng thể hoặc đường chính của câu chuyện; 'plot' tập trung hơn vào cấu trúc nhân quả — những gì xảy ra và tại sao. Trong thực tế, hai từ thường được dùng thay thế nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "plot",
+      "ipa": "/plɒt/",
+      "pos": "noun",
+      "meaning_vi": "cốt truyện (cấu trúc nhân quả của câu chuyện)",
+      "meaning_vi_inline": "cốt truyện",
+      "example_en": "The novel's plot is full of unexpected twists that keep the reader guessing.",
+      "example_vi": "Cốt truyện của tiểu thuyết đầy những bước ngoặt bất ngờ khiến độc giả phải đoán mãi.",
+      "word_family": {
+        "noun": "plot",
+        "verb": "plot",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "theme",
+      "ipa": "/θiːm/",
+      "pos": "noun",
+      "meaning_vi": "chủ đề (thông điệp sâu sắc của tác phẩm)",
+      "meaning_vi_inline": "chủ đề",
+      "example_en": "The central theme of the novel is the conflict between duty and personal freedom.",
+      "example_vi": "Chủ đề trung tâm của tiểu thuyết là xung đột giữa nghĩa vụ và tự do cá nhân.",
+      "word_family": {
+        "noun": "theme",
+        "verb": null,
+        "adjective": "thematic",
+        "adverb": "thematically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "character",
+      "ipa": "/ˈkær.ɪk.tər/",
+      "pos": "noun",
+      "meaning_vi": "nhân vật (trong sách, phim)",
+      "meaning_vi_inline": "nhân vật",
+      "example_en": "The most memorable characters in fiction feel as real as people we know in real life.",
+      "example_vi": "Những nhân vật đáng nhớ nhất trong văn học hư cấu cảm giác thực như những người chúng ta biết ngoài đời thực.",
+      "word_family": {
+        "noun": "character / characterisation",
+        "verb": "characterise",
+        "adjective": "characteristic",
+        "adverb": "characteristically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "perspective",
+      "ipa": "/pəˈspek.tɪv/",
+      "pos": "noun",
+      "meaning_vi": "góc nhìn (người kể chuyện), quan điểm",
+      "meaning_vi_inline": "góc nhìn",
+      "example_en": "Telling the story from the child's perspective made it far more emotionally powerful.",
+      "example_vi": "Kể câu chuyện từ góc nhìn của đứa trẻ khiến nó mang lại sức mạnh cảm xúc lớn hơn nhiều.",
+      "word_family": {
+        "noun": "perspective",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "fiction",
+      "ipa": "/ˈfɪk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "hư cấu, văn học hư cấu (truyện được tưởng tượng)",
+      "meaning_vi_inline": "hư cấu",
+      "example_en": "She prefers fiction to non-fiction because she loves escaping into imaginary worlds.",
+      "example_vi": "Cô ấy thích văn học hư cấu hơn phi hư cấu vì cô yêu việc thoát vào những thế giới tưởng tượng.",
+      "word_family": {
+        "noun": "fiction / non-fiction",
+        "verb": null,
+        "adjective": "fictional / fictitious",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "genre",
+      "ipa": "/ˈʒɒ̃.rə/",
+      "pos": "noun",
+      "meaning_vi": "thể loại (sách, phim, nhạc)",
+      "meaning_vi_inline": "thể loại",
+      "example_en": "Crime fiction is the most popular book genre in many English-speaking countries.",
+      "example_vi": "Tiểu thuyết trinh thám là thể loại sách phổ biến nhất ở nhiều quốc gia nói tiếng Anh.",
+      "word_family": {
+        "noun": "genre",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "author",
+      "ipa": "/ˈɔː.θər/",
+      "pos": "noun",
+      "meaning_vi": "tác giả (sách, bài viết)",
+      "meaning_vi_inline": "tác giả",
+      "example_en": "The author spent ten years researching before writing her historical novel.",
+      "example_vi": "Tác giả dành mười năm nghiên cứu trước khi viết tiểu thuyết lịch sử của mình.",
+      "word_family": {
+        "noun": "author / authorship",
+        "verb": "author",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "publish",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "pos": "verb",
+      "meaning_vi": "xuất bản (sách, bài viết)",
+      "meaning_vi_inline": "xuất bản",
+      "example_en": "Her first novel was published when she was just 24 years old.",
+      "example_vi": "Cuốn tiểu thuyết đầu tiên của cô được xuất bản khi cô mới 24 tuổi.",
+      "word_family": {
+        "noun": "publication / publisher",
+        "verb": "publish",
+        "adjective": "published / unpublished",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "sad ending",
+      "ipa": "/sæd ˈen.dɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "kết thúc buồn, bi kịch kết thúc",
+      "meaning_vi_inline": "kết thúc buồn",
+      "example_en": "Many readers were upset by the sad ending, but critics praised it as realistic.",
+      "example_vi": "Nhiều độc giả buồn về kết thúc bi thảm, nhưng các nhà phê bình khen ngợi nó là thực tế.",
+      "word_family": {
+        "noun": "ending / tragedy",
+        "verb": null,
+        "adjective": "tragic / unhappy",
+        "adverb": "tragically"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "understand",
+      "ipa": "/ˌʌn.dəˈstænd/",
+      "pos": "verb",
+      "meaning_vi": "hiểu (chủ đề, nhân vật trong văn học)",
+      "meaning_vi_inline": "hiểu",
+      "example_en": "To truly understand this novel, you need to know something about the history of the period.",
+      "example_vi": "Để thực sự hiểu cuốn tiểu thuyết này, bạn cần biết một điều gì đó về lịch sử của giai đoạn đó.",
+      "word_family": {
+        "noun": "understanding",
+        "verb": "understand",
+        "adjective": "understandable",
+        "adverb": "understandably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "reader",
+      "ipa": "/ˈriː.dər/",
+      "pos": "noun",
+      "meaning_vi": "độc giả",
+      "meaning_vi_inline": "độc giả",
+      "example_en": "The author writes with great clarity so that all readers can follow the story easily.",
+      "example_vi": "Tác giả viết rất rõ ràng để tất cả độc giả đều có thể theo dõi câu chuyện dễ dàng.",
+      "word_family": {
+        "noun": "reader / reading",
+        "verb": "read",
+        "adjective": "readable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "chapter",
+      "ipa": "/ˈtʃæp.tər/",
+      "pos": "noun",
+      "meaning_vi": "chương (trong sách)",
+      "meaning_vi_inline": "chương",
+      "example_en": "She always reads exactly two chapters before going to sleep each night.",
+      "example_vi": "Cô ấy luôn đọc đúng hai chương trước khi ngủ mỗi đêm.",
+      "word_family": {
+        "noun": "chapter",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "review",
+      "ipa": "/rɪˈvjuː/",
+      "pos": "noun / verb",
+      "meaning_vi": "bài đánh giá (sách, phim); đánh giá",
+      "meaning_vi_inline": "đánh giá, bình luận",
+      "example_en": "The book received glowing reviews from critics and sold out within days of publication.",
+      "example_vi": "Cuốn sách nhận được đánh giá tuyệt vời từ các nhà phê bình và bán hết trong vài ngày sau khi xuất bản.",
+      "word_family": {
+        "noun": "review / reviewer",
+        "verb": "review",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "bestseller",
+      "ipa": "/ˈbest.sel.ər/",
+      "pos": "noun",
+      "meaning_vi": "sách bán chạy nhất, bestseller",
+      "meaning_vi_inline": "sách bán chạy nhất",
+      "example_en": "Her debut novel became an international bestseller, translated into thirty languages.",
+      "example_vi": "Tiểu thuyết đầu tay của cô trở thành sách bán chạy nhất quốc tế, được dịch ra ba mươi ngôn ngữ.",
+      "word_family": {
+        "noun": "bestseller / bestselling",
+        "verb": null,
+        "adjective": "bestselling",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A book's plot refers to the sequence of events and how conflicts are resolved.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that all great novels must have a happy ending.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Science fiction is the most popular book genre worldwide.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The theme of a book is its deeper meaning that lingers after the reader finishes.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage explains that self-publishing is always more profitable than traditional publishing.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ spent five years travelling the world to gather material for the book.",
+          "options": [
+            "reader",
+            "character",
+            "author",
+            "chapter"
+          ],
+          "answer": "author"
+        },
+        {
+          "id": 2,
+          "sentence": "The story is told from the _____ of a young girl growing up during the war.",
+          "options": [
+            "theme",
+            "perspective",
+            "plot",
+            "genre"
+          ],
+          "answer": "perspective"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the story — that love conquers all — is simple but deeply moving.",
+          "options": [
+            "chapter",
+            "bestseller",
+            "review",
+            "theme"
+          ],
+          "answer": "theme"
+        },
+        {
+          "id": 4,
+          "sentence": "Despite its _____, the novel was a huge commercial success and won several awards.",
+          "options": [
+            "plot",
+            "sad ending",
+            "reader",
+            "fiction"
+          ],
+          "answer": "sad ending"
+        },
+        {
+          "id": 5,
+          "sentence": "The book received five-star _____ from major literary critics across the country.",
+          "options": [
+            "storylines",
+            "perspectives",
+            "reviews",
+            "characters"
+          ],
+          "answer": "reviews"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "fiction",
+        "bestseller",
+        "chapter",
+        "publish",
+        "character"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She prefers reading _____ to non-fiction because she loves stories about imaginary worlds.",
+          "answer": "fiction"
+        },
+        {
+          "id": 2,
+          "sentence": "The novel became a global _____, selling over three million copies in its first year.",
+          "answer": "bestseller"
+        },
+        {
+          "id": 3,
+          "sentence": "I am halfway through the book — I just finished the seventh _____ last night.",
+          "answer": "chapter"
+        },
+        {
+          "id": 4,
+          "sentence": "The young writer dreamed of finding an agent to help her _____ her first novel.",
+          "answer": "publish"
+        },
+        {
+          "id": 5,
+          "sentence": "The main _____ in the story is a teenage girl who discovers she has magical abilities.",
+          "answer": "character"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "author",
+            "used",
+            "the",
+            "villain's",
+            "perspective",
+            "to",
+            "challenge",
+            "the",
+            "reader's",
+            "assumptions"
+          ],
+          "answer": "The author used the villain's perspective to challenge the reader's assumptions."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "novel",
+            "became",
+            "a",
+            "bestseller",
+            "after",
+            "receiving",
+            "outstanding",
+            "reviews",
+            "from",
+            "critics"
+          ],
+          "answer": "The novel became a bestseller after receiving outstanding reviews from critics."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "sad",
+            "ending",
+            "left",
+            "many",
+            "readers",
+            "deeply",
+            "moved",
+            "but",
+            "also",
+            "satisfied"
+          ],
+          "answer": "The sad ending left many readers deeply moved but also satisfied."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "central",
+            "theme",
+            "of",
+            "the",
+            "story",
+            "is",
+            "the",
+            "conflict",
+            "between",
+            "love",
+            "and",
+            "duty"
+          ],
+          "answer": "The central theme of the story is the conflict between love and duty."
+        },
+        {
+          "id": 5,
+          "words": [
+            "she",
+            "published",
+            "her",
+            "first",
+            "novel",
+            "digitally",
+            "without",
+            "going",
+            "through",
+            "a",
+            "traditional",
+            "publisher"
+          ],
+          "answer": "She published her first novel digitally without going through a traditional publisher."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The book's [story] is set in 19th-century London and follows a young detective solving a series of crimes.",
+          "highlighted": "story",
+          "options": {
+            "A": "plot",
+            "B": "story",
+            "C": "script"
+          },
+          "answer": "A",
+          "explanation": "'Plot' is the specific literary term for the structured sequence of events, causes, and consequences in a narrative. 'Story' is more general and informal. 'Script' refers to the written text of a play or film, not a novel."
+        },
+        {
+          "id": 2,
+          "sentence": "The book's [chapter] was about the search for identity and belonging.",
+          "highlighted": "chapter",
+          "options": {
+            "A": "storyline",
+            "B": "genre",
+            "C": "theme"
+          },
+          "answer": "C",
+          "explanation": "'Theme' is the correct literary term for the deeper meaning or underlying message of a story. A 'chapter' is a numbered section of a book. 'Storyline' refers to the sequence of events, and 'genre' refers to the category of fiction — neither describes the abstract meaning of a work."
+        },
+        {
+          "id": 3,
+          "sentence": "The writer [shared] her second novel just two years after her debut.",
+          "highlighted": "shared",
+          "options": {
+            "A": "released",
+            "B": "published",
+            "C": "shared"
+          },
+          "answer": "B",
+          "explanation": "'Published' is the correct formal term for producing and distributing a book for public sale through a publisher. 'Released' is more common for music and films. 'Shared' is informal and implies distributing something personally, not through a formal publication process."
+        },
+        {
+          "id": 4,
+          "sentence": "The book got excellent [opinions] from critics and readers around the world.",
+          "highlighted": "opinions",
+          "options": {
+            "A": "comments",
+            "B": "reviews",
+            "C": "feedback"
+          },
+          "answer": "B",
+          "explanation": "'Reviews' is the standard professional term for published critical evaluations of a book, film, or performance. 'Opinions' are personal views not necessarily shared publicly, 'comments' are informal responses, and 'feedback' implies suggestions for improvement rather than critical assessment."
+        },
+        {
+          "id": 5,
+          "sentence": "She found it hard to follow the [chapter] because the writer kept switching between three different narrators.",
+          "highlighted": "chapter",
+          "options": {
+            "A": "plot",
+            "B": "chapter",
+            "C": "theme"
+          },
+          "answer": "A",
+          "explanation": "'Plot' is the correct term here — it refers to the sequence of events and causal structure of the story, which can be difficult to follow when multiple narrators are used. A 'chapter' is a section of the book, and 'theme' is the deeper meaning, neither of which is affected by switching narrators in the same way."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "author",
+      "2": "perspective",
+      "3": "theme",
+      "4": "sad ending",
+      "5": "reviews"
+    },
+    "ex3": {
+      "1": "fiction",
+      "2": "bestseller",
+      "3": "chapter",
+      "4": "publish",
+      "5": "character"
+    },
+    "ex4": {
+      "1": "The author used the villain's perspective to challenge the reader's assumptions.",
+      "2": "The novel became a bestseller after receiving outstanding reviews from critics.",
+      "3": "The sad ending left many readers deeply moved but also satisfied.",
+      "4": "The central theme of the story is the conflict between love and duty.",
+      "5": "She published her first novel digitally without going through a traditional publisher."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

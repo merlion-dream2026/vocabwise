@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 43,
+    "topic_id": "b1-t43",
+    "topic_title": "Sports Events & Competition",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🏆",
+    "topic_title_vi": "Sự Kiện Thể Thao & Thi Đấu",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 115,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every year, thousands of **fans** come to the **stadium** to watch their favourite **athletes** **compete**. The crowd cheers loudly and **root for** their team from start to finish. The **spirit** of sport fills the air.",
+        "text_vi": "Mỗi năm, hàng nghìn **người hâm mộ** đến **sân vận động** để xem các **vận động viên** yêu thích của họ **thi đấu**. Khán giả cổ vũ ầm vang và **cổ vũ** cho đội của họ từ đầu đến cuối. **Tinh thần** thể thao lan toa khắp nơi."
+      },
+      {
+        "index": 2,
+        "text_en": "Before the big day, athletes must **train** hard for many months. A good **performance** does not happen by chance — it takes daily effort and focus. The **referee** makes sure everyone follows the rules.",
+        "text_vi": "Trước ngày thi đấu lớn, các vận động viên phải **luyện tập** chăm chỉ trong nhiều tháng. Một **màn trình diễn** tốt không xảy ra ngẫu nhiên — nó đòi hỏi sự cố gắng và tập trung hàng ngày. **Trọng tài** đảm bảo mọi người tuân theo luật."
+      },
+      {
+        "index": 3,
+        "text_en": "In each **round**, the weakest players are eliminated. The best two teams or players reach the **final** and fight for the top prize. Breaking a world **record** is the dream of every serious **athlete**.",
+        "text_vi": "Trong mỗi **vòng đấu**, những người chơi yếu nhất bị loại. Hai đội hoặc hai người chơi xuất sắc nhất sẽ vào **trận chung kết** và tranh giành giải thưởng cao nhất. Phá một **kỷ lục** thế giới là giấc mơ của mọi **vận động viên** nghiêm túc."
+      },
+      {
+        "index": 4,
+        "text_en": "The winner receives a gold **medal** and a shining **trophy** to take home. Standing on the podium as **champion** is a moment of pure joy. It rewards not just talent, but the **spirit** to never give up.",
+        "text_vi": "Người chiến thắng nhận được một **huy chương** vàng và một **cúp** sáng bóng để mang về nhà. Đứng trên bục podium với tư cách **nhà vô địch** là một khoảnh khắc hạnh phúc thuần túy. Đó là phần thưởng không chỉ cho tài năng, mà còn cho **tinh thần** không bao giờ bỏ cuộc."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "thi đấu, tranh tài",
+      "meaning_vi_inline": "thi đấu",
+      "example_en": "She trained for six months before she was ready to compete in the national championship.",
+      "example_vi": "Cô ấy đã luyện tập sáu tháng trước khi sẵn sàng thi đấu tại giải vô địch quốc gia.",
+      "word_family": {
+        "noun": "competition / competitor",
+        "verb": "compete / competed",
+        "adjective": "competitive",
+        "adverb": "competitively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "champion",
+      "ipa": "/ˈtʃæmpiən/",
+      "pos": "noun",
+      "meaning_vi": "nhà vô địch",
+      "meaning_vi_inline": "nhà vô địch",
+      "example_en": "He became the school swimming champion after winning all three of his races.",
+      "example_vi": "Anh ấy trở thành nhà vô địch bơi lội của trường sau khi chiến thắng cả ba cuộc đua.",
+      "word_family": {
+        "noun": "champion / championship",
+        "verb": "champion (to support a cause)",
+        "adjective": "champion",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "medal",
+      "ipa": "/ˈmedl/",
+      "pos": "noun",
+      "meaning_vi": "huy chương",
+      "meaning_vi_inline": "huy chương",
+      "example_en": "She was very proud to win a gold medal at the regional athletics competition.",
+      "example_vi": "Cô ấy rất tự hào khi giành được huy chương vàng tại giải điền kinh khu vực.",
+      "word_family": {
+        "noun": "medal / medallist",
+        "verb": null,
+        "adjective": "medal-winning",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "stadium",
+      "ipa": "/ˈsteɪdiəm/",
+      "pos": "noun",
+      "meaning_vi": "sân vận động",
+      "meaning_vi_inline": "sân vận động",
+      "example_en": "The national stadium holds over 50,000 people and is full every match day.",
+      "example_vi": "Sân vận động quốc gia chứa hơn 50.000 người và luôn đầy vào mỗi ngày thi đấu.",
+      "word_family": {
+        "noun": "stadium / stadiums",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "referee",
+      "ipa": "/ˌrefəˈriː/",
+      "pos": "noun",
+      "meaning_vi": "trọng tài",
+      "meaning_vi_inline": "trọng tài",
+      "example_en": "The referee blew the whistle to stop the game when a player broke the rules.",
+      "example_vi": "Trọng tài thổi còi để dừng trận đấu khi một cầu thủ phạm luật.",
+      "word_family": {
+        "noun": "referee",
+        "verb": "referee / refereed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "train",
+      "ipa": "/treɪn/",
+      "pos": "verb",
+      "meaning_vi": "luyện tập, tập luyện",
+      "meaning_vi_inline": "luyện tập",
+      "example_en": "The athletes train for three hours every morning before school to improve their speed.",
+      "example_vi": "Các vận động viên luyện tập ba tiếng mỗi sáng trước giờ học để cải thiện tốc độ.",
+      "word_family": {
+        "noun": "training / trainer",
+        "verb": "train / trained",
+        "adjective": "trained",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "tàu hỏa",
+        "explanation_vi": "'Train' trong thể thao có nghĩa là 'luyện tập', không phải 'tàu hỏa' (cũng là 'train' nhưng là danh từ khác nghĩa)."
+      }
+    },
+    {
+      "id": 7,
+      "word": "athlete",
+      "ipa": "/ˈæθliːt/",
+      "pos": "noun",
+      "meaning_vi": "vận động viên",
+      "meaning_vi_inline": "vận động viên",
+      "example_en": "Professional athletes follow a strict diet and sleep schedule to perform at their best.",
+      "example_vi": "Các vận động viên chuyên nghiệp tuân theo chế độ ăn uống và lịch ngủ nghiêm ngặt để thi đấu tốt nhất.",
+      "word_family": {
+        "noun": "athlete / athletics",
+        "verb": null,
+        "adjective": "athletic",
+        "adverb": "athletically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "final",
+      "ipa": "/ˈfaɪnl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "trận chung kết; cuối cùng",
+      "meaning_vi_inline": "trận chung kết",
+      "example_en": "Our school team reached the final but lost by just one point in the last minute.",
+      "example_vi": "Đội trường chúng tôi vào trận chung kết nhưng thua chỉ một điểm vào phút cuối.",
+      "word_family": {
+        "noun": "final / finalist / finale",
+        "verb": "finalise",
+        "adjective": "final",
+        "adverb": "finally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "round",
+      "ipa": "/raʊnd/",
+      "pos": "noun",
+      "meaning_vi": "vòng đấu",
+      "meaning_vi_inline": "vòng đấu",
+      "example_en": "There are four rounds in this tournament — only eight players move on to the next stage.",
+      "example_vi": "Giải đấu này có bốn vòng — chỉ tám người chơi tiến vào giai đoạn tiếp theo.",
+      "word_family": {
+        "noun": "round",
+        "verb": "round (to go around)",
+        "adjective": "round (circular)",
+        "adverb": "round"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "fans",
+      "ipa": "/fænz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "người hâm mộ, khán giả",
+      "meaning_vi_inline": "người hâm mộ",
+      "example_en": "Thousands of fans waited outside the stadium to cheer for their favourite players.",
+      "example_vi": "Hàng nghìn người hâm mộ đứng ngoài sân vận động để cổ vũ cho các cầu thủ yêu thích của họ.",
+      "word_family": {
+        "noun": "fan / fans / fanbase",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "root for",
+      "ipa": "/ruːt fɔː/",
+      "pos": "phrasal verb",
+      "meaning_vi": "cổ vũ, ủng hộ (ai đó trong cuộc thi)",
+      "meaning_vi_inline": "cổ vũ",
+      "example_en": "All my classmates came to root for me during the school running competition.",
+      "example_vi": "Tất cả bạn cùng lớp đã đến cổ vũ tôi trong cuộc thi chạy của trường.",
+      "word_family": {
+        "noun": null,
+        "verb": "root for",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "record",
+      "ipa": "/ˈrekɔːd/",
+      "pos": "noun",
+      "meaning_vi": "kỷ lục",
+      "meaning_vi_inline": "kỷ lục",
+      "example_en": "She broke the school record for the 100-metre sprint by two full seconds.",
+      "example_vi": "Cô ấy phá kỷ lục của trường ở nội dung chạy 100 mét với cách biệt hai giây.",
+      "word_family": {
+        "noun": "record",
+        "verb": "record (to write down or film)",
+        "adjective": "record-breaking",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "ghi âm / ghi lại",
+        "explanation_vi": "'Record' là danh từ nghĩa là 'kỷ lục', nhưng cũng là động từ nghĩa là 'ghi lại / quay phim'. Trong thể thao, 'record' thường là danh từ."
+      }
+    },
+    {
+      "id": 13,
+      "word": "performance",
+      "ipa": "/pəˈfɔːməns/",
+      "pos": "noun",
+      "meaning_vi": "màn trình diễn, thành tích",
+      "meaning_vi_inline": "màn trình diễn",
+      "example_en": "His performance in the final was outstanding — the crowd cheered after every point.",
+      "example_vi": "Màn trình diễn của anh ấy trong trận chung kết thật xuất sắc — khán giả cổ vũ sau mỗi điểm.",
+      "word_family": {
+        "noun": "performance / performer",
+        "verb": "perform",
+        "adjective": "performing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "trophy",
+      "ipa": "/ˈtrəʊfi/",
+      "pos": "noun",
+      "meaning_vi": "cúp, cúp vô địch",
+      "meaning_vi_inline": "cúp",
+      "example_en": "The captain lifted the trophy above her head and the whole crowd went wild.",
+      "example_vi": "Đội trưởng giơ chiếc cúp lên cao và cả khán giả hò reo vui mừng.",
+      "word_family": {
+        "noun": "trophy / trophies",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "spirit",
+      "ipa": "/ˈspɪrɪt/",
+      "pos": "noun",
+      "meaning_vi": "tinh thần",
+      "meaning_vi_inline": "tinh thần",
+      "example_en": "The spirit of the team was incredible — they never stopped trying even when losing.",
+      "example_vi": "Tinh thần của đội thật đáng kinh ngạc — họ không bao giờ dừng cố gắng dù đang thua.",
+      "word_family": {
+        "noun": "spirit",
+        "verb": null,
+        "adjective": "spirited",
+        "adverb": "spiritedly"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "referee" },
+        { "id": 2, "word": "trophy" },
+        { "id": 3, "word": "compete" },
+        { "id": 4, "word": "spirit" },
+        { "id": 5, "word": "root for" }
+      ],
+      "options": [
+        { "id": "A", "text": "to take part in a sport or contest against others to try to win" },
+        { "id": "B", "text": "a large cup or prize given to the winner of a competition" },
+        { "id": "C", "text": "a person who makes sure players follow the rules during a game" },
+        { "id": "D", "text": "to cheer and show support for someone in a competition" },
+        { "id": "E", "text": "the attitude of trying hard and never giving up, even when things are difficult" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ blew his whistle and gave a yellow card to the player who pushed the other team.",
+          "options": ["champion", "referee", "athlete", "fan"],
+          "answer": "referee"
+        },
+        {
+          "id": 2,
+          "sentence": "She works hard every day and hopes to break the national _____ for the 200-metre sprint.",
+          "options": ["medal", "spirit", "record", "round"],
+          "answer": "record"
+        },
+        {
+          "id": 3,
+          "sentence": "All the _____ in the stadium stood up and cheered when their team scored the winning goal.",
+          "options": ["fans", "referees", "trophies", "rounds"],
+          "answer": "fans"
+        },
+        {
+          "id": 4,
+          "sentence": "After months of hard work, she finally won the gold _____ at the national swimming competition.",
+          "options": ["round", "final", "trophy", "medal"],
+          "answer": "medal"
+        },
+        {
+          "id": 5,
+          "sentence": "The two best teams played each other in the _____ to decide who would be the champion.",
+          "options": ["spirit", "record", "round", "final"],
+          "answer": "final"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["train", "compete", "champion", "performance", "stadium", "spirit"],
+      "items": [
+        { "id": 1, "sentence": "The _____ was packed with 40,000 fans who all came to watch the big match.", "answer": "stadium" },
+        { "id": 2, "sentence": "Good athletes _____ every day to make their bodies stronger and faster.", "answer": "train" },
+        { "id": 3, "sentence": "She gave an amazing _____ — everyone agreed she was the best player on the field.", "answer": "performance" },
+        { "id": 4, "sentence": "We all wanted to _____ in the school sports day, not just watch from the side.", "answer": "compete" },
+        { "id": 5, "sentence": "The team showed great _____ — they never gave up, even when they were losing.", "answer": "spirit" }
+      ],
+      "note": "One word in the box is not used: champion"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The two schools have been _____ rivals for many years — every match between them is exciting. (COMPETE)",
+          "base_word": "COMPETE",
+          "answer": "competitive",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ in three events at the national games and won a medal in two of them. (COMPETE)",
+          "base_word": "COMPETE",
+          "answer": "competed",
+          "form_used": "verb (past)"
+        },
+        {
+          "id": 3,
+          "sentence": "His _____ at the tournament impressed all the coaches who were watching from the stands. (PERFORM)",
+          "base_word": "PERFORM",
+          "answer": "performance",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "The young swimmer showed great _____ ability — she learned new strokes very quickly. (ATHLETE)",
+          "base_word": "ATHLETE",
+          "answer": "athletic",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "After six months of hard _____, the team was finally ready for the national championship. (TRAIN)",
+          "base_word": "TRAIN",
+          "answer": "training",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The crowd started to [medal] loudly when their team scored the first goal.",
+          "highlighted": "medal",
+          "options": { "A": "cheer", "B": "medal", "C": "train" },
+          "answer": "A",
+          "explanation": "A 'medal' is a prize you receive — it is a noun, not an action. When a crowd makes noise to show support, they 'cheer'."
+        },
+        {
+          "id": 2,
+          "sentence": "She needed to [root for] every day to prepare for the final.",
+          "highlighted": "root for",
+          "options": { "A": "compete", "B": "perform", "C": "train" },
+          "answer": "C",
+          "explanation": "'Root for' means to cheer for someone — it is not something you do to prepare yourself. To prepare your body and skills before a competition, you 'train'."
+        },
+        {
+          "id": 3,
+          "sentence": "The [spirit] made sure both teams followed the rules during the match.",
+          "highlighted": "spirit",
+          "options": { "A": "athlete", "B": "referee", "C": "fan" },
+          "answer": "B",
+          "explanation": "'Spirit' refers to a feeling or attitude — it cannot enforce rules. The person whose job is to make sure players follow the rules is the 'referee'."
+        },
+        {
+          "id": 4,
+          "sentence": "He broke the world [trophy] for the longest jump at the international athletics event.",
+          "highlighted": "trophy",
+          "options": { "A": "trophy", "B": "champion", "C": "record" },
+          "answer": "C",
+          "explanation": "A 'trophy' is a physical prize you receive. When someone achieves the best-ever result in a sport, they break a 'record' — not a trophy."
+        },
+        {
+          "id": 5,
+          "sentence": "There are three [fans] in this tournament before the final match.",
+          "highlighted": "fans",
+          "options": { "A": "medals", "B": "rounds", "C": "fans" },
+          "answer": "B",
+          "explanation": "'Fans' are the people who watch a sport — they cannot be counted as stages in a tournament. The stages you go through before a final are called 'rounds'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "B", "3": "A", "4": "E", "5": "D" },
+    "ex2": { "1": "referee", "2": "record", "3": "fans", "4": "medal", "5": "final" },
+    "ex3": { "1": "stadium", "2": "train", "3": "performance", "4": "compete", "5": "spirit" },
+    "ex4": { "1": "competitive", "2": "competed", "3": "performance", "4": "athletic", "5": "training" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "B" }
+  }
+}

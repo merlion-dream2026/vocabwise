@@ -1,0 +1,681 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 55,
+    "topic_id": "b2-t55",
+    "topic_title": "Science in Everyday Life",
+    "theme_number": 6,
+    "theme_title": "Media & Ideas",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🔬",
+    "topic_title_vi": "Khoa Học Trong Cuộc Sống",
+    "theme_title_vi": "Truyền Thông & Ý Tưởng",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Science is not just something that happens in laboratories — it shapes every aspect of our daily lives. The medicines we take, the food we eat, the devices we use, and the buildings we live in are all products of scientific **research**. When a claim is **based on science**, it has been through a rigorous process of testing, questioning, and peer review. Understanding this process helps ordinary people evaluate health advice, environmental warnings, and technology promises more confidently and critically.",
+        "text_vi": "Khoa học không chỉ là thứ xảy ra trong phòng thí nghiệm — nó định hình mọi khía cạnh của cuộc sống hàng ngày của chúng ta. Thuốc chúng ta uống, thực phẩm chúng ta ăn, các thiết bị chúng ta sử dụng và những tòa nhà chúng ta sống đều là sản phẩm của **nghiên cứu** khoa học. Khi một tuyên bố được **dựa trên khoa học**, nó đã trải qua một quá trình nghiêm ngặt về kiểm tra, đặt câu hỏi và đánh giá ngang hàng. Hiểu quá trình này giúp người bình thường đánh giá lời khuyên sức khỏe, cảnh báo môi trường và hứa hẹn công nghệ một cách tự tin và phê phán hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "The scientific method begins with a **question** — something unknown that a researcher wants to understand. They form a **theory** and design an **experiment** to test it. The **result**s of the **experiment** are recorded and analysed: do they support or contradict the **theory**? A single **experiment** is rarely enough; the process must be repeated, and other scientists must be able to **discover** the same **result**s. Only when findings are consistent and independently verified can they begin to **publish** in respected scientific journals.",
+        "text_vi": "Phương pháp khoa học bắt đầu bằng một **câu hỏi** — điều gì đó chưa biết mà nhà nghiên cứu muốn hiểu. Họ hình thành một **lý thuyết** và thiết kế một **thí nghiệm** để kiểm tra nó. Các **kết quả** của **thí nghiệm** được ghi lại và phân tích: chúng có ủng hộ hay mâu thuẫn với **lý thuyết** không? Một **thí nghiệm** duy nhất hiếm khi đủ; quá trình phải được lặp lại, và các nhà khoa học khác phải có thể **khám phá** ra các **kết quả** giống nhau. Chỉ khi các phát hiện nhất quán và được xác minh độc lập, chúng mới có thể bắt đầu được **đăng tải** trên các tạp chí khoa học uy tín."
+      },
+      {
+        "index": 3,
+        "text_en": "Science requires **funding** — money from governments, universities, and businesses — to pay for equipment, researchers, and facilities. Who provides the **fund**ing can **impact** what gets studied and what gets published. **Ethical** questions also arise: should scientists conduct **research** on animals? Is it acceptable to trial new medicines on vulnerable groups? The scientific community has developed strict **ethical** guidelines to ensure that **research** is conducted with honesty, care, and respect for all participants.",
+        "text_vi": "Khoa học cần **nguồn tài trợ** — tiền từ chính phủ, trường đại học và doanh nghiệp — để trả tiền cho thiết bị, nhà nghiên cứu và cơ sở vật chất. Ai cung cấp **kinh phí** có thể **ảnh hưởng** đến những gì được nghiên cứu và những gì được đăng tải. Các câu hỏi **đạo đức** cũng nảy sinh: các nhà khoa học có nên tiến hành **nghiên cứu** trên động vật không? Có thể chấp nhận việc thử nghiệm thuốc mới trên các nhóm dễ bị tổn thương không? Cộng đồng khoa học đã phát triển các hướng dẫn **đạo đức** nghiêm ngặt để đảm bảo rằng **nghiên cứu** được tiến hành với sự trung thực, cẩn thận và tôn trọng tất cả những người tham gia."
+      },
+      {
+        "index": 4,
+        "text_en": "The ultimate goal of science is **progress** — improving human life through better understanding of the world. The **practical use** of scientific knowledge ranges from vaccines and clean energy to satellite navigation and weather forecasting. When scientists **discover** something new and **publish** **reliable** **result**s, they contribute to a shared body of human knowledge that builds over centuries. Every great scientific breakthrough began as a **question** someone dared to ask — and an **experiment** someone cared enough to run.",
+        "text_vi": "Mục tiêu cuối cùng của khoa học là **tiến bộ** — cải thiện cuộc sống con người thông qua hiểu biết tốt hơn về thế giới. **Ứng dụng thực tế** của kiến thức khoa học bao gồm từ vắc-xin và năng lượng sạch đến định vị vệ tinh và dự báo thời tiết. Khi các nhà khoa học **khám phá** điều gì đó mới và **đăng tải** các **kết quả** **đáng tin cậy**, họ đóng góp vào kho tri thức chung của nhân loại được xây dựng qua nhiều thế kỷ. Mọi bước đột phá khoa học vĩ đại đều bắt đầu từ một **câu hỏi** mà ai đó dám đặt ra — và một **thí nghiệm** mà ai đó quan tâm đủ để thực hiện."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "based on science",
+      "ipa": "/beɪst ɒn ˈsaɪ.əns/",
+      "pos": "adjective phrase",
+      "meaning_vi": "dựa trên khoa học (được chứng minh bởi bằng chứng và thử nghiệm)",
+      "meaning_vi_inline": "dựa trên khoa học",
+      "example_en": "Health recommendations should always be based on science, not on popular trends or celebrity endorsements.",
+      "example_vi": "Các khuyến nghị sức khỏe phải luôn dựa trên khoa học, không phải xu hướng phổ biến hay sự chứng thực của người nổi tiếng.",
+      "word_family": {
+        "noun": "science / scientist",
+        "verb": null,
+        "adjective": "scientific / science-based",
+        "adverb": "scientifically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "evidence",
+      "ipa": "/ˈev.ɪ.dəns/",
+      "pos": "noun",
+      "meaning_vi": "bằng chứng (dữ liệu và kết quả thí nghiệm)",
+      "meaning_vi_inline": "bằng chứng",
+      "example_en": "The evidence from multiple studies supports the conclusion that regular exercise reduces the risk of heart disease.",
+      "example_vi": "Bằng chứng từ nhiều nghiên cứu ủng hộ kết luận rằng tập thể dục thường xuyên làm giảm nguy cơ mắc bệnh tim.",
+      "word_family": {
+        "noun": "evidence",
+        "verb": null,
+        "adjective": "evident",
+        "adverb": "evidently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "experiment",
+      "ipa": "/ɪkˈsper.ɪ.mənt/",
+      "pos": "noun / verb",
+      "meaning_vi": "thí nghiệm (quy trình kiểm tra một lý thuyết)",
+      "meaning_vi_inline": "thí nghiệm",
+      "example_en": "Scientists conducted thousands of experiments before developing an effective vaccine for the disease.",
+      "example_vi": "Các nhà khoa học đã tiến hành hàng nghìn thí nghiệm trước khi phát triển được vắc-xin hiệu quả cho căn bệnh này.",
+      "word_family": {
+        "noun": "experiment / experimenter",
+        "verb": "experiment",
+        "adjective": "experimental",
+        "adverb": "experimentally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "theory",
+      "ipa": "/ˈθɪə.ri/",
+      "pos": "noun",
+      "meaning_vi": "lý thuyết (giải thích khoa học được kiểm chứng, không phải đoán mò)",
+      "meaning_vi_inline": "lý thuyết",
+      "example_en": "The theory of evolution is supported by an overwhelming body of fossil, genetic, and biological evidence.",
+      "example_vi": "Lý thuyết tiến hóa được hỗ trợ bởi khối lượng bằng chứng hóa thạch, di truyền và sinh học đáng kể.",
+      "word_family": {
+        "noun": "theory / theorist",
+        "verb": "theorise",
+        "adjective": "theoretical",
+        "adverb": "theoretically"
+      },
+      "false_friend": {
+        "word_vi": "đoán mò",
+        "explanation_vi": "Trong tiếng Anh thông thường, người ta đôi khi nói 'just a theory' với nghĩa 'chỉ là đoán mò'. Nhưng trong khoa học, 'theory' là một giải thích đã được kiểm chứng bởi nhiều bằng chứng — ví dụ: 'the theory of evolution'. Đây là hiểu lầm phổ biến."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "publish",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "pos": "verb",
+      "meaning_vi": "đăng tải, xuất bản (nghiên cứu trên tạp chí khoa học)",
+      "meaning_vi_inline": "đăng tải",
+      "example_en": "Scientists are expected to publish their findings so that other researchers can examine and replicate them.",
+      "example_vi": "Các nhà khoa học được kỳ vọng đăng tải các phát hiện của họ để các nhà nghiên cứu khác có thể kiểm tra và lặp lại.",
+      "word_family": {
+        "noun": "publication / publisher",
+        "verb": "publish",
+        "adjective": "published / unpublished",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "ethical",
+      "ipa": "/ˈeθ.ɪ.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "đạo đức (phù hợp với các nguyên tắc đúng và sai)",
+      "meaning_vi_inline": "đạo đức",
+      "example_en": "All research involving human participants must follow strict ethical guidelines and obtain informed consent.",
+      "example_vi": "Tất cả các nghiên cứu liên quan đến người tham gia phải tuân theo các hướng dẫn đạo đức nghiêm ngặt và có sự đồng ý có thông tin.",
+      "word_family": {
+        "noun": "ethics",
+        "verb": null,
+        "adjective": "ethical / unethical",
+        "adverb": "ethically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "fund",
+      "ipa": "/fʌnd/",
+      "pos": "verb / noun",
+      "meaning_vi": "tài trợ (cung cấp tiền cho nghiên cứu); quỹ",
+      "meaning_vi_inline": "tài trợ",
+      "example_en": "Much of the world's medical research is funded by governments and charitable foundations.",
+      "example_vi": "Phần lớn nghiên cứu y tế trên thế giới được tài trợ bởi chính phủ và các quỹ từ thiện.",
+      "word_family": {
+        "noun": "fund / funding / funder",
+        "verb": "fund",
+        "adjective": "funded / unfunded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "practical use",
+      "ipa": "/ˈpræk.tɪ.kəl juːs/",
+      "pos": "noun phrase",
+      "meaning_vi": "ứng dụng thực tế (cách dùng kiến thức khoa học vào cuộc sống)",
+      "meaning_vi_inline": "ứng dụng thực tế",
+      "example_en": "The practical use of laser technology includes everything from eye surgery to supermarket barcode scanning.",
+      "example_vi": "Ứng dụng thực tế của công nghệ laser bao gồm mọi thứ từ phẫu thuật mắt đến quét mã vạch siêu thị.",
+      "word_family": {
+        "noun": "practical use / application",
+        "verb": "apply",
+        "adjective": "practical",
+        "adverb": "practically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "progress",
+      "ipa": "/ˈprəʊ.ɡres/",
+      "pos": "noun / verb",
+      "meaning_vi": "tiến bộ (sự phát triển và cải thiện thông qua khoa học)",
+      "meaning_vi_inline": "tiến bộ",
+      "example_en": "Scientific progress has dramatically improved life expectancy and quality of life over the past century.",
+      "example_vi": "Tiến bộ khoa học đã cải thiện đáng kể tuổi thọ và chất lượng cuộc sống trong thế kỷ qua.",
+      "word_family": {
+        "noun": "progress",
+        "verb": "progress",
+        "adjective": "progressive",
+        "adverb": "progressively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "discover",
+      "ipa": "/dɪˈskʌv.ər/",
+      "pos": "verb",
+      "meaning_vi": "khám phá (tìm ra điều gì đó chưa biết trước đây)",
+      "meaning_vi_inline": "khám phá",
+      "example_en": "Scientists discovered that a specific gene mutation significantly increases the risk of developing certain cancers.",
+      "example_vi": "Các nhà khoa học đã khám phá ra rằng một đột biến gen cụ thể làm tăng đáng kể nguy cơ phát triển một số loại ung thư nhất định.",
+      "word_family": {
+        "noun": "discovery / discoverer",
+        "verb": "discover",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "impact",
+      "ipa": "/ˈɪm.pækt/",
+      "pos": "noun / verb",
+      "meaning_vi": "ảnh hưởng, tác động (của khoa học đến cuộc sống)",
+      "meaning_vi_inline": "tác động",
+      "example_en": "The impact of the internet on how people access scientific information has been revolutionary.",
+      "example_vi": "Tác động của internet đến cách mọi người tiếp cận thông tin khoa học là cách mạng.",
+      "word_family": {
+        "noun": "impact",
+        "verb": "impact",
+        "adjective": "impactful",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "research",
+      "ipa": "/rɪˈsɜːtʃ/",
+      "pos": "noun / verb",
+      "meaning_vi": "nghiên cứu (điều tra có hệ thống về một chủ đề)",
+      "meaning_vi_inline": "nghiên cứu",
+      "example_en": "Years of research into renewable energy have made solar panels cheaper and more efficient than ever before.",
+      "example_vi": "Nhiều năm nghiên cứu về năng lượng tái tạo đã làm cho các tấm pin mặt trời rẻ hơn và hiệu quả hơn bao giờ hết.",
+      "word_family": {
+        "noun": "research / researcher",
+        "verb": "research",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪ.ə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "đáng tin cậy (nhất quán và chính xác theo kiểm chứng)",
+      "meaning_vi_inline": "đáng tin cậy",
+      "example_en": "Only reliable scientific evidence — gathered through repeated, independent experiments — should inform public health policy.",
+      "example_vi": "Chỉ bằng chứng khoa học đáng tin cậy — được thu thập thông qua các thí nghiệm được lặp lại và độc lập — mới nên hướng dẫn chính sách y tế công cộng.",
+      "word_family": {
+        "noun": "reliability",
+        "verb": "rely on",
+        "adjective": "reliable / unreliable",
+        "adverb": "reliably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "result",
+      "ipa": "/rɪˈzʌlt/",
+      "pos": "noun",
+      "meaning_vi": "kết quả (của thí nghiệm hoặc nghiên cứu)",
+      "meaning_vi_inline": "kết quả",
+      "example_en": "The results of the clinical trial were published in a leading medical journal after independent review.",
+      "example_vi": "Kết quả của thử nghiệm lâm sàng được đăng tải trên một tạp chí y tế hàng đầu sau khi được đánh giá độc lập.",
+      "word_family": {
+        "noun": "result",
+        "verb": "result in / result from",
+        "adjective": "resulting",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "question",
+      "ipa": "/ˈkwes.tʃən/",
+      "pos": "noun / verb",
+      "meaning_vi": "câu hỏi; đặt câu hỏi (bước đầu tiên của phương pháp khoa học)",
+      "meaning_vi_inline": "câu hỏi",
+      "example_en": "Every scientific breakthrough begins with a question that challenges what we think we already know.",
+      "example_vi": "Mọi bước đột phá khoa học đều bắt đầu bằng một câu hỏi thách thức những gì chúng ta nghĩ là đã biết.",
+      "word_family": {
+        "noun": "question / questioner",
+        "verb": "question",
+        "adjective": "questionable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Science shapes not only laboratories but also medicines, buildings, and everyday technology.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A single experiment is usually sufficient to confirm a new scientific theory.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Most scientific research today is funded exclusively by private technology companies.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The scientific community has developed strict ethical guidelines for research involving human participants.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends that all scientific research should be available for free to the public.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government agreed to _____ the research project with a grant of five million dollars.",
+          "options": [
+            "publish",
+            "fund",
+            "discover",
+            "impact"
+          ],
+          "answer": "fund"
+        },
+        {
+          "id": 2,
+          "sentence": "She was the first scientist to _____ the link between the virus and the rare immune disorder.",
+          "options": [
+            "publish",
+            "question",
+            "experiment",
+            "discover"
+          ],
+          "answer": "discover"
+        },
+        {
+          "id": 3,
+          "sentence": "Any claim that is _____ must go through rigorous testing and peer review before being accepted.",
+          "options": [
+            "ethical",
+            "based on science",
+            "reliable",
+            "published"
+          ],
+          "answer": "based on science"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of clean energy technology include cheaper electricity and reduced greenhouse gas emissions.",
+          "options": [
+            "results",
+            "progress",
+            "practical uses",
+            "experiments"
+          ],
+          "answer": "practical uses"
+        },
+        {
+          "id": 5,
+          "sentence": "Before conclusions can be accepted, the _____ of the experiment must be reproduced by other scientists.",
+          "options": [
+            "theory",
+            "evidence",
+            "results",
+            "questions"
+          ],
+          "answer": "results"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "experiment",
+        "theory",
+        "research",
+        "ethical",
+        "progress"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Scientists designed a controlled _____ to test whether the new drug was effective against the bacteria.",
+          "answer": "experiment"
+        },
+        {
+          "id": 2,
+          "sentence": "Darwin's _____ of natural selection changed our understanding of how species evolve over time.",
+          "answer": "theory"
+        },
+        {
+          "id": 3,
+          "sentence": "Years of _____ into solar panel technology have made clean energy more affordable for households.",
+          "answer": "research"
+        },
+        {
+          "id": 4,
+          "sentence": "All studies involving human subjects must receive approval from an _____ review board before proceeding.",
+          "answer": "ethical"
+        },
+        {
+          "id": 5,
+          "sentence": "Medical _____ over the past century has dramatically extended life expectancy in most parts of the world.",
+          "answer": "progress"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "claims",
+            "that",
+            "are",
+            "based",
+            "on",
+            "science",
+            "have",
+            "been",
+            "tested",
+            "through",
+            "repeated",
+            "experiments",
+            "and",
+            "independent",
+            "review"
+          ],
+          "answer": "Claims that are based on science have been tested through repeated experiments and independent review."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "scientific",
+            "theory",
+            "is",
+            "not",
+            "a",
+            "guess",
+            "but",
+            "an",
+            "explanation",
+            "supported",
+            "by",
+            "a",
+            "large",
+            "body",
+            "of",
+            "reliable",
+            "evidence"
+          ],
+          "answer": "A scientific theory is not a guess but an explanation supported by a large body of reliable evidence."
+        },
+        {
+          "id": 3,
+          "words": [
+            "scientists",
+            "must",
+            "publish",
+            "their",
+            "results",
+            "so",
+            "that",
+            "other",
+            "researchers",
+            "can",
+            "evaluate",
+            "replicate",
+            "and",
+            "build",
+            "on",
+            "their",
+            "findings"
+          ],
+          "answer": "Scientists must publish their results so that other researchers can evaluate, replicate, and build on their findings."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "practical",
+            "use",
+            "of",
+            "scientific",
+            "discoveries",
+            "ranges",
+            "from",
+            "vaccines",
+            "to",
+            "satellite",
+            "navigation",
+            "and",
+            "weather",
+            "forecasting"
+          ],
+          "answer": "The practical use of scientific discoveries ranges from vaccines to satellite navigation and weather forecasting."
+        },
+        {
+          "id": 5,
+          "words": [
+            "every",
+            "great",
+            "scientific",
+            "breakthrough",
+            "began",
+            "with",
+            "a",
+            "question",
+            "that",
+            "someone",
+            "dared",
+            "to",
+            "ask",
+            "and",
+            "an",
+            "experiment",
+            "they",
+            "designed",
+            "to",
+            "answer",
+            "it"
+          ],
+          "answer": "Every great scientific breakthrough began with a question that someone dared to ask and an experiment they designed to answer it."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The university received a large [donation] to support its cancer research programme.",
+          "highlighted": "donation",
+          "options": {
+            "A": "grant",
+            "B": "donation",
+            "C": "fund"
+          },
+          "answer": "C",
+          "explanation": "In the context of supporting scientific research, 'fund' (used as a verb or as 'funding') is the target vocabulary term for money specifically provided to pay for research activities. 'Grant' is also acceptable in this context (a grant is a type of funding) but not the specific target word. 'Donation' implies charitable giving, not institutional funding. 'Fund' is the precise vocabulary item for financing research."
+        },
+        {
+          "id": 2,
+          "sentence": "The team ran three hundred [tests] before publishing their final conclusions in a medical journal.",
+          "highlighted": "tests",
+          "options": {
+            "A": "tests",
+            "B": "trials",
+            "C": "experiments"
+          },
+          "answer": "C",
+          "explanation": "'Experiments' is the target vocabulary word for scientific tests designed to investigate a hypothesis or theory. 'Tests' is informal and more general. 'Trials' is used specifically for medical or clinical tests on humans (clinical trials). 'Experiments' is the standard scientific vocabulary for controlled laboratory investigations, and is the precise term used in the passage."
+        },
+        {
+          "id": 3,
+          "sentence": "It would not be [acceptable] to conduct research on patients without their informed consent.",
+          "highlighted": "acceptable",
+          "options": {
+            "A": "ethical",
+            "B": "acceptable",
+            "C": "right"
+          },
+          "answer": "A",
+          "explanation": "'Ethical' is the target vocabulary adjective for research practices that conform to moral principles and professional standards. 'Acceptable' is too vague and depends on context. 'Right' is informal. In academic and scientific writing, 'ethical' is the standard term for evaluating whether research methods respect participants' rights and dignity — as in 'ethical guidelines' and 'ethical review'."
+        },
+        {
+          "id": 4,
+          "sentence": "Scientists were excited to [find out] that the compound had unexpected anti-inflammatory properties.",
+          "highlighted": "find out",
+          "options": {
+            "A": "realise",
+            "B": "discover",
+            "C": "find out"
+          },
+          "answer": "B",
+          "explanation": "'Discover' is the target vocabulary verb for finding something previously unknown — especially in a scientific or research context. 'Find out' is informal and casual, not appropriate for academic or scientific writing. 'Realise' implies a mental recognition, not a physical finding. 'Discover' is the precise and formal scientific vocabulary for identifying new facts or phenomena through research."
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of the drug will not be known until the results of the trial are published next year.",
+          "highlighted": "effectiveness",
+          "options": {
+            "A": "impact",
+            "B": "result",
+            "C": "effectiveness"
+          },
+          "answer": "A",
+          "explanation": "'Impact' is the target vocabulary word for the measurable effect or significance of something — particularly in scientific and social contexts. 'Effectiveness' is a narrow term referring specifically to how well something works. 'Result' refers to the outcome of a specific test. 'Impact' is the broader and more appropriate vocabulary when discussing how scientific research affects medicine, society, or understanding — matching the passage's academic register."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "fund",
+      "2": "discover",
+      "3": "based on science",
+      "4": "practical uses",
+      "5": "results"
+    },
+    "ex3": {
+      "1": "experiment",
+      "2": "theory",
+      "3": "research",
+      "4": "ethical",
+      "5": "progress"
+    },
+    "ex4": {
+      "1": "Claims that are based on science have been tested through repeated experiments and independent review.",
+      "2": "A scientific theory is not a guess but an explanation supported by a large body of reliable evidence.",
+      "3": "Scientists must publish their results so that other researchers can evaluate, replicate, and build on their findings.",
+      "4": "The practical use of scientific discoveries ranges from vaccines to satellite navigation and weather forecasting.",
+      "5": "Every great scientific breakthrough began with a question that someone dared to ask and an experiment they designed to answer it."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

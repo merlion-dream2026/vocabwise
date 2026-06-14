@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 53,
+    "topic_id": "b2-t53",
+    "topic_title": "AI in Daily Life",
+    "theme_number": 6,
+    "theme_title": "Media & Ideas",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🤖",
+    "topic_title_vi": "Trí Tuệ Nhân Tạo Trong Cuộc Sống",
+    "theme_title_vi": "Truyền Thông & Ý Tưởng",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 211,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Artificial intelligence** — the ability of **machine**s to perform tasks that once required human thinking — is no longer the stuff of science fiction. It is embedded in the apps we use every day: recommending music, filtering spam, diagnosing illness from medical scans, and translating languages. As AI **technology** continues to **develop** at an extraordinary pace, it is reshaping industries, changing the nature of work, and raising profound questions about what it means to be human in an automated world.",
+        "text_vi": "**Trí tuệ nhân tạo** — khả năng của các **máy móc** thực hiện các nhiệm vụ từng đòi hỏi tư duy con người — không còn là chủ đề của khoa học viễn tưởng nữa. Nó được nhúng trong các ứng dụng chúng ta sử dụng hàng ngày: đề xuất âm nhạc, lọc thư rác, chẩn đoán bệnh từ hình ảnh y tế và dịch thuật ngôn ngữ. Khi **công nghệ** AI tiếp tục **phát triển** với tốc độ phi thường, nó đang định hình lại các ngành công nghiệp, thay đổi bản chất của công việc và đặt ra những câu hỏi sâu sắc về ý nghĩa của việc là con người trong một thế giới được tự động hóa."
+      },
+      {
+        "index": 2,
+        "text_en": "One of the most debated questions about AI is whether it will **replace** human workers. Certain repetitive or rule-based tasks can already be performed better and faster by **machine**s than by people. However, tasks requiring creativity, emotional intelligence, and ethical judgement remain difficult for AI to **do automatically**. Economists disagree about the net **impact**: some predict widespread job loss, while others argue that new technology always creates as many jobs as it destroys.",
+        "text_vi": "Một trong những câu hỏi được tranh luận nhiều nhất về AI là liệu nó có **thay thế** người lao động không. Một số nhiệm vụ lặp đi lặp lại hoặc dựa trên quy tắc đã có thể được thực hiện tốt hơn và nhanh hơn bởi **máy móc** so với con người. Tuy nhiên, các nhiệm vụ đòi hỏi sự sáng tạo, trí tuệ cảm xúc và phán đoán đạo đức vẫn khó để AI **thực hiện tự động**. Các nhà kinh tế học bất đồng về **tác động** ròng: một số dự đoán mất việc làm rộng rãi, trong khi những người khác lập luận rằng công nghệ mới luôn tạo ra nhiều việc làm như nó phá hủy."
+      },
+      {
+        "index": 3,
+        "text_en": "AI systems are not neutral. They are trained on **data** that reflects human **bias**, which means that AI **decision**s about job applications, loan approvals, or medical diagnoses can discriminate — sometimes without anyone being aware of it. Ensuring that AI is **morally right** in practice requires careful oversight: companies and governments must **regulate** these systems, audit their outputs, and ensure that any **risk** of discrimination is identified and corrected.",
+        "text_vi": "Các hệ thống AI không trung lập. Chúng được đào tạo trên **dữ liệu** phản ánh **thiên kiến** của con người, có nghĩa là các **quyết định** AI về đơn xin việc, phê duyệt khoản vay hoặc chẩn đoán y tế có thể phân biệt đối xử — đôi khi mà không ai biết. Đảm bảo rằng AI là **đúng đắn về mặt đạo đức** trong thực tế đòi hỏi sự giám sát cẩn thận: các công ty và chính phủ phải **quản lý** các hệ thống này, kiểm toán kết quả của chúng và đảm bảo rằng bất kỳ **rủi ro** phân biệt đối xử nào được xác định và sửa chữa."
+      },
+      {
+        "index": 4,
+        "text_en": "Despite these challenges, the **benefit**s of AI are substantial. In medicine, AI can detect cancers from scans earlier than human doctors. In education, it can personalise learning to each student's **risk** profile and pace. In climate science, it processes vast datasets to identify patterns that humans would miss. The key challenge for society is to maximise these **benefit**s while being honest about the **risk**s and ensuring that the **future** of AI **technology** is shaped by human values, not just corporate **decision**s.",
+        "text_vi": "Mặc dù có những thách thức này, **lợi ích** của AI là đáng kể. Trong y học, AI có thể phát hiện ung thư từ hình ảnh sớm hơn các bác sĩ con người. Trong giáo dục, nó có thể cá nhân hóa việc học theo hồ sơ **rủi ro** và tốc độ của từng học sinh. Trong khoa học khí hậu, nó xử lý các bộ dữ liệu khổng lồ để xác định các mẫu mà con người sẽ bỏ lỡ. Thách thức chính cho xã hội là tối đa hóa những **lợi ích** này trong khi trung thực về các **rủi ro** và đảm bảo rằng **tương lai** của **công nghệ** AI được định hình bởi các giá trị con người, không chỉ là các **quyết định** của doanh nghiệp."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "artificial intelligence",
+      "ipa": "/ˌɑː.tɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/",
+      "pos": "noun phrase",
+      "meaning_vi": "trí tuệ nhân tạo (khả năng của máy tính thực hiện nhiệm vụ trí tuệ)",
+      "meaning_vi_inline": "trí tuệ nhân tạo",
+      "example_en": "Artificial intelligence is being used in hospitals to help doctors diagnose illnesses from medical scans.",
+      "example_vi": "Trí tuệ nhân tạo đang được sử dụng trong bệnh viện để giúp các bác sĩ chẩn đoán bệnh từ hình ảnh y tế.",
+      "word_family": {
+        "noun": "artificial intelligence / AI",
+        "verb": null,
+        "adjective": "AI-powered",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "do automatically",
+      "ipa": "/duː ˌɔː.tə.ˈmæt.ɪk.li/",
+      "pos": "verb phrase",
+      "meaning_vi": "thực hiện tự động (không cần con người điều khiển)",
+      "meaning_vi_inline": "thực hiện tự động",
+      "example_en": "Many factory tasks that once required skilled workers can now be done automatically by robots.",
+      "example_vi": "Nhiều nhiệm vụ trong nhà máy từng đòi hỏi công nhân lành nghề hiện có thể được thực hiện tự động bởi robot.",
+      "word_family": {
+        "noun": "automation",
+        "verb": "automate / do automatically",
+        "adjective": "automated / automatic",
+        "adverb": "automatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "replace",
+      "ipa": "/rɪˈpleɪs/",
+      "pos": "verb",
+      "meaning_vi": "thay thế (người lao động hoặc công việc)",
+      "meaning_vi_inline": "thay thế",
+      "example_en": "Some experts warn that AI could replace up to forty percent of current jobs within the next decade.",
+      "example_vi": "Một số chuyên gia cảnh báo rằng AI có thể thay thế tới bốn mươi phần trăm công việc hiện tại trong thập kỷ tới.",
+      "word_family": {
+        "noun": "replacement",
+        "verb": "replace",
+        "adjective": "irreplaceable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "thiên kiến (trong dữ liệu hoặc thuật toán AI)",
+      "meaning_vi_inline": "thiên kiến",
+      "example_en": "If an AI is trained on biased data, its decisions will reflect and even amplify those biases.",
+      "example_vi": "Nếu AI được đào tạo trên dữ liệu có thiên kiến, các quyết định của nó sẽ phản ánh và thậm chí khuếch đại những thiên kiến đó.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "morally right",
+      "ipa": "/ˈmɒr.ə.li raɪt/",
+      "pos": "adjective phrase",
+      "meaning_vi": "đúng đắn về mặt đạo đức (phù hợp với giá trị và nguyên tắc đạo đức)",
+      "meaning_vi_inline": "đúng đắn về mặt đạo đức",
+      "example_en": "Many argue that it is not morally right to allow AI systems to make life-or-death medical decisions without human oversight.",
+      "example_vi": "Nhiều người lập luận rằng không đúng đắn về mặt đạo đức khi cho phép các hệ thống AI đưa ra quyết định y tế sống còn mà không có sự giám sát của con người.",
+      "word_family": {
+        "noun": "morality / ethics",
+        "verb": null,
+        "adjective": "morally right / ethical",
+        "adverb": "morally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "data",
+      "ipa": "/ˈdeɪ.tə/",
+      "pos": "noun",
+      "meaning_vi": "dữ liệu (thông tin dùng để đào tạo AI)",
+      "meaning_vi_inline": "dữ liệu",
+      "example_en": "AI systems require vast amounts of data to learn how to perform tasks accurately.",
+      "example_vi": "Các hệ thống AI cần lượng dữ liệu khổng lồ để học cách thực hiện các nhiệm vụ một cách chính xác.",
+      "word_family": {
+        "noun": "data / dataset",
+        "verb": null,
+        "adjective": "data-driven",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "decision",
+      "ipa": "/dɪˈsɪʒ.ən/",
+      "pos": "noun",
+      "meaning_vi": "quyết định (do AI hoặc con người đưa ra)",
+      "meaning_vi_inline": "quyết định",
+      "example_en": "When an AI makes a decision that affects someone's life, there must be a way to explain and challenge it.",
+      "example_vi": "Khi AI đưa ra quyết định ảnh hưởng đến cuộc sống của ai đó, phải có cách để giải thích và phản biện nó.",
+      "word_family": {
+        "noun": "decision",
+        "verb": "decide",
+        "adjective": "decisive / indecisive",
+        "adverb": "decisively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "risk",
+      "ipa": "/rɪsk/",
+      "pos": "noun",
+      "meaning_vi": "rủi ro (nguy cơ gây hại hoặc hậu quả tiêu cực)",
+      "meaning_vi_inline": "rủi ro",
+      "example_en": "The risks of AI include job displacement, algorithmic bias, and misuse for surveillance.",
+      "example_vi": "Các rủi ro của AI bao gồm mất việc làm, thiên kiến thuật toán và lạm dụng để giám sát.",
+      "word_family": {
+        "noun": "risk",
+        "verb": "risk",
+        "adjective": "risky / at-risk",
+        "adverb": "riskily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "benefit",
+      "ipa": "/ˈben.ɪ.fɪt/",
+      "pos": "noun",
+      "meaning_vi": "lợi ích (điểm tích cực của AI)",
+      "meaning_vi_inline": "lợi ích",
+      "example_en": "The benefits of AI in healthcare — earlier diagnosis and personalised treatment — are already saving lives.",
+      "example_vi": "Lợi ích của AI trong chăm sóc sức khỏe — chẩn đoán sớm hơn và điều trị được cá nhân hóa — đã cứu sống mạng người.",
+      "word_family": {
+        "noun": "benefit",
+        "verb": "benefit",
+        "adjective": "beneficial",
+        "adverb": "beneficially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "develop",
+      "ipa": "/dɪˈvel.əp/",
+      "pos": "verb",
+      "meaning_vi": "phát triển (công nghệ AI ngày càng tiến bộ)",
+      "meaning_vi_inline": "phát triển",
+      "example_en": "Companies are racing to develop more powerful and capable AI systems as demand grows.",
+      "example_vi": "Các công ty đang đua nhau phát triển các hệ thống AI mạnh mẽ và có khả năng hơn khi nhu cầu tăng.",
+      "word_family": {
+        "noun": "development / developer",
+        "verb": "develop",
+        "adjective": "developing / developed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "regulate",
+      "ipa": "/ˈreɡ.jʊ.leɪt/",
+      "pos": "verb",
+      "meaning_vi": "quản lý, kiểm soát (AI bằng luật pháp hoặc quy định)",
+      "meaning_vi_inline": "quản lý",
+      "example_en": "Many governments are struggling to regulate AI fast enough to keep up with its rapid development.",
+      "example_vi": "Nhiều chính phủ đang vật lộn để quản lý AI đủ nhanh để theo kịp sự phát triển nhanh chóng của nó.",
+      "word_family": {
+        "noun": "regulation / regulator",
+        "verb": "regulate",
+        "adjective": "regulated / regulatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "technology",
+      "ipa": "/tekˈnɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "công nghệ (bao gồm cả AI và tự động hóa)",
+      "meaning_vi_inline": "công nghệ",
+      "example_en": "The technology behind AI is advancing so rapidly that ethical frameworks are struggling to keep pace.",
+      "example_vi": "Công nghệ đằng sau AI đang tiến bộ nhanh chóng đến mức các khuôn khổ đạo đức đang vật lộn để theo kịp.",
+      "word_family": {
+        "noun": "technology / technologist",
+        "verb": null,
+        "adjective": "technological",
+        "adverb": "technologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "machine",
+      "ipa": "/məˈʃiːn/",
+      "pos": "noun",
+      "meaning_vi": "máy móc (thiết bị hoặc hệ thống AI)",
+      "meaning_vi_inline": "máy móc",
+      "example_en": "Modern machines can learn from experience and improve their performance without being explicitly programmed.",
+      "example_vi": "Các máy móc hiện đại có thể học từ kinh nghiệm và cải thiện hiệu suất của chúng mà không cần được lập trình rõ ràng.",
+      "word_family": {
+        "noun": "machine",
+        "verb": null,
+        "adjective": "mechanical / machine-like",
+        "adverb": "mechanically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "impact",
+      "ipa": "/ˈɪm.pækt/",
+      "pos": "noun",
+      "meaning_vi": "tác động (ảnh hưởng của AI đến xã hội)",
+      "meaning_vi_inline": "tác động",
+      "example_en": "The impact of AI on employment is one of the most important economic questions of our time.",
+      "example_vi": "Tác động của AI đối với việc làm là một trong những câu hỏi kinh tế quan trọng nhất của thời đại chúng ta.",
+      "word_family": {
+        "noun": "impact",
+        "verb": "impact",
+        "adjective": "impactful",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "future",
+      "ipa": "/ˈfjuː.tʃər/",
+      "pos": "noun / adjective",
+      "meaning_vi": "tương lai (của công nghệ và xã hội AI)",
+      "meaning_vi_inline": "tương lai",
+      "example_en": "The future of AI must be shaped by human values, not just by technical capability or corporate profit.",
+      "example_vi": "Tương lai của AI phải được định hình bởi các giá trị con người, không chỉ bởi khả năng kỹ thuật hoặc lợi nhuận doanh nghiệp.",
+      "word_family": {
+        "noun": "future",
+        "verb": null,
+        "adjective": "future",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Artificial intelligence is already present in many apps that people use every day.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that all economists agree AI will cause widespread job losses.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "AI systems trained on biased data can produce discriminatory decisions.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "AI is now able to perform all tasks that require creativity and emotional intelligence.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends that governments ban AI from being used in medical diagnosis.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "One of the biggest concerns about AI is that it might _____ millions of workers in industries like manufacturing.",
+          "options": [
+            "regulate",
+            "replace",
+            "develop",
+            "impact"
+          ],
+          "answer": "replace"
+        },
+        {
+          "id": 2,
+          "sentence": "If a hiring algorithm is trained on _____ data, it may unfairly favour certain groups of applicants.",
+          "options": [
+            "biased",
+            "morally right",
+            "automated",
+            "digital"
+          ],
+          "answer": "biased"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of AI in healthcare — earlier diagnosis and personalised treatment — could save millions of lives.",
+          "options": [
+            "risk",
+            "impact",
+            "benefit",
+            "data"
+          ],
+          "answer": "benefit"
+        },
+        {
+          "id": 4,
+          "sentence": "Governments are struggling to _____ AI quickly enough to prevent misuse by powerful corporations.",
+          "options": [
+            "develop",
+            "regulate",
+            "impact",
+            "replace"
+          ],
+          "answer": "regulate"
+        },
+        {
+          "id": 5,
+          "sentence": "Routine tasks are increasingly being _____ by software, while humans focus on creative and strategic work.",
+          "options": [
+            "replaced",
+            "regulated",
+            "done automatically",
+            "impacted"
+          ],
+          "answer": "done automatically"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "artificial intelligence",
+        "decision",
+        "machine",
+        "risk",
+        "future"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of AI must be guided by human values — not just technical capability or financial gain.",
+          "answer": "future"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ is already being used in hospitals to detect cancer from scans faster than human doctors.",
+          "answer": "Artificial intelligence"
+        },
+        {
+          "id": 3,
+          "sentence": "Every _____ an AI makes should be explainable and open to challenge by the people it affects.",
+          "answer": "decision"
+        },
+        {
+          "id": 4,
+          "sentence": "One _____ of relying on AI for hiring decisions is that hidden biases in the training data may discriminate unfairly.",
+          "answer": "risk"
+        },
+        {
+          "id": 5,
+          "sentence": "Modern _____ learning allows computers to improve their performance by processing huge quantities of data.",
+          "answer": "machine"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "artificial",
+            "intelligence",
+            "is",
+            "already",
+            "embedded",
+            "in",
+            "the",
+            "apps",
+            "we",
+            "use",
+            "every",
+            "day",
+            "from",
+            "music",
+            "recommendations",
+            "to",
+            "medical",
+            "diagnosis"
+          ],
+          "answer": "Artificial intelligence is already embedded in the apps we use every day from music recommendations to medical diagnosis."
+        },
+        {
+          "id": 2,
+          "words": [
+            "tasks",
+            "that",
+            "are",
+            "repetitive",
+            "or",
+            "rule-based",
+            "can",
+            "now",
+            "be",
+            "done",
+            "automatically",
+            "by",
+            "machines",
+            "more",
+            "efficiently",
+            "than",
+            "by",
+            "humans"
+          ],
+          "answer": "Tasks that are repetitive or rule-based can now be done automatically by machines more efficiently than by humans."
+        },
+        {
+          "id": 3,
+          "words": [
+            "AI",
+            "systems",
+            "trained",
+            "on",
+            "biased",
+            "data",
+            "may",
+            "make",
+            "decisions",
+            "that",
+            "discriminate",
+            "against",
+            "certain",
+            "groups",
+            "without",
+            "anyone",
+            "realising"
+          ],
+          "answer": "AI systems trained on biased data may make decisions that discriminate against certain groups without anyone realising."
+        },
+        {
+          "id": 4,
+          "words": [
+            "governments",
+            "must",
+            "regulate",
+            "artificial",
+            "intelligence",
+            "to",
+            "ensure",
+            "its",
+            "benefits",
+            "are",
+            "shared",
+            "fairly",
+            "and",
+            "its",
+            "risks",
+            "are",
+            "controlled"
+          ],
+          "answer": "Governments must regulate artificial intelligence to ensure its benefits are shared fairly and its risks are controlled."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "future",
+            "of",
+            "AI",
+            "technology",
+            "must",
+            "be",
+            "shaped",
+            "by",
+            "human",
+            "values",
+            "not",
+            "just",
+            "by",
+            "what",
+            "is",
+            "technically",
+            "possible"
+          ],
+          "answer": "The future of AI technology must be shaped by human values not just by what is technically possible."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company is racing to [create] more advanced AI systems that can understand natural language.",
+          "highlighted": "create",
+          "options": {
+            "A": "develop",
+            "B": "create",
+            "C": "build"
+          },
+          "answer": "A",
+          "explanation": "'Develop' is the target vocabulary verb for the process of advancing a technology or system over time through research and refinement. 'Create' and 'build' are more informal and suggest making something from nothing. In academic and technology contexts, 'develop' is the standard verb for the sustained process of improving and advancing AI systems."
+        },
+        {
+          "id": 2,
+          "sentence": "Critics argue that allowing AI to make [choices] about people's lives without human oversight is dangerous.",
+          "highlighted": "choices",
+          "options": {
+            "A": "judgements",
+            "B": "decisions",
+            "C": "choices"
+          },
+          "answer": "B",
+          "explanation": "'Decisions' is the target vocabulary word for formal conclusions or choices that have consequences, especially in official or technical contexts. 'Choices' is more informal and suggests personal preference rather than authoritative determination. In the context of AI systems affecting people's lives (loans, diagnoses, hiring), 'decisions' is the precise and appropriate term."
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of AI on employment is one of the most important economic questions of our time.",
+          "highlighted": "effect",
+          "options": {
+            "A": "influence",
+            "B": "effect",
+            "C": "impact"
+          },
+          "answer": "C",
+          "explanation": "'Impact' is the target vocabulary word for the measurable or significant effect that something has on another thing, especially in formal discussions of social, economic, or environmental change. 'Effect' is a synonym but not the specific vocabulary item. 'Influence' implies shaping over time. 'Impact' is the precise term used in academic and policy contexts for the scale of AI's consequences."
+        },
+        {
+          "id": 4,
+          "sentence": "A [computer] that can learn from experience and improve itself without being reprogrammed is the basis of modern AI.",
+          "highlighted": "computer",
+          "options": {
+            "A": "machine",
+            "B": "computer",
+            "C": "device"
+          },
+          "answer": "A",
+          "explanation": "'Machine' is the target vocabulary word used in AI contexts — specifically 'machine learning' refers to AI systems that improve through data exposure. 'Computer' is too narrow (refers to a physical device). 'Device' is similarly specific. 'Machine' is the standard term in AI discourse for a learning system, as in 'machine learning' and 'machines that replace workers'."
+        },
+        {
+          "id": 5,
+          "sentence": "Ensuring that AI is [ethically acceptable] requires regular audits and clear accountability for its decisions.",
+          "highlighted": "ethically acceptable",
+          "options": {
+            "A": "morally right",
+            "B": "ethically acceptable",
+            "C": "fair and just"
+          },
+          "answer": "A",
+          "explanation": "'Morally right' is the target vocabulary phrase for behaviour or systems that conform to ethical principles and human values. 'Ethically acceptable' is a valid paraphrase but not the specific vocabulary from this topic. 'Fair and just' is informal and vague. 'Morally right' is the specific compound phrase used in the passage to describe the ethical standard AI systems must meet."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "replace",
+      "2": "biased",
+      "3": "benefit",
+      "4": "regulate",
+      "5": "done automatically"
+    },
+    "ex3": {
+      "1": "future",
+      "2": "Artificial intelligence",
+      "3": "decision",
+      "4": "risk",
+      "5": "machine"
+    },
+    "ex4": {
+      "1": "Artificial intelligence is already embedded in the apps we use every day from music recommendations to medical diagnosis.",
+      "2": "Tasks that are repetitive or rule-based can now be done automatically by machines more efficiently than by humans.",
+      "3": "AI systems trained on biased data may make decisions that discriminate against certain groups without anyone realising.",
+      "4": "Governments must regulate artificial intelligence to ensure its benefits are shared fairly and its risks are controlled.",
+      "5": "The future of AI technology must be shaped by human values not just by what is technically possible."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "A"
+    }
+  }
+}

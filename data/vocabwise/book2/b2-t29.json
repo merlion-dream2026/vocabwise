@@ -1,0 +1,650 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 29,
+    "topic_id": "b2-t29",
+    "topic_title": "Media & Journalism",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "📰",
+    "topic_title_vi": "Truyền Thông & Báo Chí",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 215,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Journalism** is the practice of collecting and sharing information through news media. Journalists work for newspapers, websites, radio stations, and TV channels to **broadcast** stories that inform the public. A good **chief editor** oversees the newsroom and decides which stories are worth **publishing**. Strong journalism is essential for a functioning democracy, as it holds governments and powerful organisations accountable to the public.",
+        "text_vi": "**Báo chí** là hoạt động thu thập và chia sẻ thông tin qua các phương tiện truyền thông. Các nhà báo làm việc cho báo, trang web, đài phát thanh và kênh truyền hình để **phát sóng** các câu chuyện thông tin cho công chúng. Một **tổng biên tập** giỏi giám sát toà soạn và quyết định câu chuyện nào đáng được **đăng tải**. Báo chí mạnh là điều thiết yếu cho một nền dân chủ hoạt động hiệu quả, vì nó buộc các chính phủ và tổ chức quyền lực phải chịu trách nhiệm trước công chúng."
+      },
+      {
+        "index": 2,
+        "text_en": "Before a story is published, journalists must **investigate** the facts carefully. A reliable **source** — someone with direct knowledge of an event — is crucial. Without verified sources, a story risks spreading false information, or misinformation, which can seriously mislead the **audience**. A **trustworthy** news organisation takes time to check every fact before broadcasting a story, even when the pressure to **report** quickly is high.",
+        "text_vi": "Trước khi một câu chuyện được đăng, các nhà báo phải **điều tra** kỹ các sự kiện. Một **nguồn tin** đáng tin cậy — người có hiểu biết trực tiếp về sự việc — là rất quan trọng. Nếu không có nguồn tin đã được xác minh, một câu chuyện có nguy cơ lan truyền thông tin sai lệch, có thể đánh lừa **khán giả** nghiêm trọng. Một tổ chức tin tức **đáng tin cậy** dành thời gian kiểm tra mọi sự kiện trước khi phát sóng, dù áp lực phải **đưa tin** nhanh chóng là rất lớn."
+      },
+      {
+        "index": 3,
+        "text_en": "One major challenge in modern journalism is **bias** — the tendency to present news from a particular point of view rather than objectively. **Digital** media and social networks have made **bias** even more difficult to identify, as anyone can now create and share content online. The **platform** on which news is shared — whether a national TV channel or an online blog — also affects how audiences perceive and trust the information.",
+        "text_vi": "Một thách thức lớn trong báo chí hiện đại là **định kiến** — xu hướng trình bày tin tức từ một quan điểm cụ thể thay vì khách quan. Truyền thông **kỹ thuật số** và mạng xã hội đã làm cho **định kiến** khó nhận biết hơn, vì bất kỳ ai bây giờ cũng có thể tạo và chia sẻ nội dung trực tuyến. **Nền tảng** mà tin tức được chia sẻ — dù là kênh TV quốc gia hay blog trực tuyến — cũng ảnh hưởng đến cách khán giả nhận thức và tin tưởng thông tin."
+      },
+      {
+        "index": 4,
+        "text_en": "A well-written **headline** is the first thing a reader notices — it should be accurate and engaging without being misleading. Responsible journalism means using its **influence** wisely: rather than sensationalising events to attract more readers, quality news organisations prioritise accuracy and fairness. In a world overflowing with information, the ability to identify **reliable** sources and think critically about the news is more important than ever.",
+        "text_vi": "Một **tiêu đề** được viết tốt là điều đầu tiên độc giả chú ý — nó phải chính xác và hấp dẫn mà không gây hiểu lầm. Báo chí có trách nhiệm sử dụng **tầm ảnh hưởng** của mình một cách khôn ngoan: thay vì giật tít sự kiện để thu hút nhiều độc giả hơn, các tổ chức tin tức chất lượng ưu tiên sự chính xác và công bằng. Trong một thế giới tràn ngập thông tin, khả năng xác định nguồn **đáng tin** và suy nghĩ phê phán về tin tức quan trọng hơn bao giờ hết."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "journalism",
+      "ipa": "/ˈdʒɜː.nə.lɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "báo chí (nghề và hoạt động)",
+      "meaning_vi_inline": "báo chí",
+      "example_en": "She studied journalism at university before working for a national newspaper.",
+      "example_vi": "Cô ấy học báo chí ở đại học trước khi làm việc cho một tờ báo quốc gia.",
+      "word_family": {
+        "noun": "journalism / journalist",
+        "verb": null,
+        "adjective": "journalistic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "broadcast",
+      "ipa": "/ˈbrɔːd.kɑːst/",
+      "pos": "verb / noun",
+      "meaning_vi": "phát sóng (truyền hình, radio)",
+      "meaning_vi_inline": "phát sóng",
+      "example_en": "The news channel broadcasts live coverage of major events around the world.",
+      "example_vi": "Kênh tin tức phát sóng trực tiếp các sự kiện lớn trên thế giới.",
+      "word_family": {
+        "noun": "broadcast / broadcaster / broadcasting",
+        "verb": "broadcast",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "chief editor",
+      "ipa": "/tʃiːf ˈed.ɪ.tər/",
+      "pos": "noun phrase",
+      "meaning_vi": "tổng biên tập",
+      "meaning_vi_inline": "tổng biên tập",
+      "example_en": "The chief editor rejected the story because the sources had not been properly verified.",
+      "example_vi": "Tổng biên tập đã từ chối câu chuyện vì các nguồn tin chưa được xác minh đúng cách.",
+      "word_family": {
+        "noun": "editor / editorial",
+        "verb": "edit",
+        "adjective": "editorial",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "publish",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "pos": "verb",
+      "meaning_vi": "đăng tải, xuất bản (bài báo, sách)",
+      "meaning_vi_inline": "đăng tải",
+      "example_en": "The newspaper decided to publish the story after confirming the facts with three sources.",
+      "example_vi": "Tờ báo quyết định đăng câu chuyện sau khi xác nhận các sự kiện với ba nguồn tin.",
+      "word_family": {
+        "noun": "publication / publisher / publishing",
+        "verb": "publish",
+        "adjective": "published / unpublished",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "investigate",
+      "ipa": "/ɪnˈves.tɪ.ɡeɪt/",
+      "pos": "verb",
+      "meaning_vi": "điều tra, tìm hiểu kỹ",
+      "meaning_vi_inline": "điều tra",
+      "example_en": "The journalist spent six months investigating the corruption case.",
+      "example_vi": "Nhà báo dành sáu tháng điều tra vụ tham nhũng.",
+      "word_family": {
+        "noun": "investigation / investigator",
+        "verb": "investigate",
+        "adjective": "investigative",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "source",
+      "ipa": "/sɔːs/",
+      "pos": "noun",
+      "meaning_vi": "nguồn tin (trong báo chí)",
+      "meaning_vi_inline": "nguồn tin",
+      "example_en": "Journalists must protect the identity of their sources to maintain trust.",
+      "example_vi": "Các nhà báo phải bảo vệ danh tính nguồn tin để duy trì sự tin tưởng.",
+      "word_family": {
+        "noun": "source",
+        "verb": "source",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪ.ə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "đáng tin cậy, đáng tin",
+      "meaning_vi_inline": "đáng tin cậy",
+      "example_en": "You should always check whether a news source is reliable before sharing the story.",
+      "example_vi": "Bạn nên luôn kiểm tra xem nguồn tin có đáng tin cậy không trước khi chia sẻ câu chuyện.",
+      "word_family": {
+        "noun": "reliability",
+        "verb": "rely",
+        "adjective": "reliable / unreliable",
+        "adverb": "reliably"
+      },
+      "false_friend": {
+        "word_vi": "trustworthy",
+        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và có thể dự đoán được; 'trustworthy' nhấn mạnh vào tính trung thực và phẩm chất đạo đức — hai từ gần nghĩa, nhưng 'reliable' thường dùng cho thông tin/hệ thống, còn 'trustworthy' dùng cho con người và tổ chức."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "audience",
+      "ipa": "/ˈɔː.di.əns/",
+      "pos": "noun",
+      "meaning_vi": "khán giả, độc giả, người xem/nghe",
+      "meaning_vi_inline": "khán giả",
+      "example_en": "The documentary attracted an audience of over five million viewers.",
+      "example_vi": "Bộ phim tài liệu thu hút hơn năm triệu khán giả xem.",
+      "word_family": {
+        "noun": "audience",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "platform",
+      "ipa": "/ˈplæt.fɔːm/",
+      "pos": "noun",
+      "meaning_vi": "nền tảng (truyền thông, mạng xã hội)",
+      "meaning_vi_inline": "nền tảng",
+      "example_en": "Social media platforms have become the main way many people consume news.",
+      "example_vi": "Các nền tảng mạng xã hội đã trở thành cách chính mà nhiều người tiêu thụ tin tức.",
+      "word_family": {
+        "noun": "platform",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "digital",
+      "ipa": "/ˈdɪdʒ.ɪ.təl/",
+      "pos": "adjective",
+      "meaning_vi": "kỹ thuật số, trực tuyến",
+      "meaning_vi_inline": "kỹ thuật số",
+      "example_en": "The rise of digital media has transformed how news is created and consumed.",
+      "example_vi": "Sự trỗi dậy của truyền thông kỹ thuật số đã thay đổi cách tin tức được tạo ra và tiêu thụ.",
+      "word_family": {
+        "noun": "digitisation",
+        "verb": "digitise",
+        "adjective": "digital",
+        "adverb": "digitally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "trustworthy",
+      "ipa": "/ˈtrʌst.wɜː.ði/",
+      "pos": "adjective",
+      "meaning_vi": "đáng tin, trung thực",
+      "meaning_vi_inline": "đáng tin",
+      "example_en": "A trustworthy journalist always reveals their sources when it is safe to do so.",
+      "example_vi": "Một nhà báo đáng tin cậy luôn tiết lộ nguồn của họ khi an toàn để làm như vậy.",
+      "word_family": {
+        "noun": "trustworthiness / trust",
+        "verb": "trust",
+        "adjective": "trustworthy / untrustworthy",
+        "adverb": "trustworthily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "tầm ảnh hưởng; tác động, ảnh hưởng",
+      "meaning_vi_inline": "tầm ảnh hưởng",
+      "example_en": "Major news networks have a great influence on public opinion and political decisions.",
+      "example_vi": "Các mạng tin tức lớn có ảnh hưởng lớn đến dư luận và quyết định chính trị.",
+      "word_family": {
+        "noun": "influence / influencer",
+        "verb": "influence",
+        "adjective": "influential",
+        "adverb": "influentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "report",
+      "ipa": "/rɪˈpɔːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "đưa tin, tường thuật; bài báo, phóng sự",
+      "meaning_vi_inline": "đưa tin",
+      "example_en": "The journalist was sent to the disaster zone to report on the situation.",
+      "example_vi": "Nhà báo được gửi đến khu vực thảm họa để đưa tin về tình hình.",
+      "word_family": {
+        "noun": "report / reporter / reporting",
+        "verb": "report",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "định kiến, thiên kiến, sự thiên vị",
+      "meaning_vi_inline": "định kiến",
+      "example_en": "Some readers accuse the newspaper of political bias in its coverage of the elections.",
+      "example_vi": "Một số độc giả cáo buộc tờ báo có định kiến chính trị trong cách đưa tin về các cuộc bầu cử.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias / be biased towards",
+        "adjective": "biased / unbiased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "headline",
+      "ipa": "/ˈhed.laɪn/",
+      "pos": "noun",
+      "meaning_vi": "tiêu đề (bài báo), tin chính",
+      "meaning_vi_inline": "tiêu đề",
+      "example_en": "The dramatic headline attracted thousands of readers to the online article.",
+      "example_vi": "Tiêu đề ấn tượng đã thu hút hàng nghìn độc giả đến bài viết trực tuyến.",
+      "word_family": {
+        "noun": "headline",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A chief editor is responsible for deciding which stories get published.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "All online bloggers must follow the same ethical standards as professional journalists.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Trustworthy news organisations verify facts before broadcasting a story.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage says that a misleading headline always increases a publication's readership.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "Bias in news reporting is easier to detect in digital media than in traditional print journalism.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The TV channel was the first to _____ the news of the earthquake to the country.",
+          "options": [
+            "publish",
+            "broadcast",
+            "report",
+            "influence"
+          ],
+          "answer": "broadcast"
+        },
+        {
+          "id": 2,
+          "sentence": "Readers trust this newspaper because it always uses _____ information from verified sources.",
+          "options": [
+            "digital",
+            "biased",
+            "reliable",
+            "influential"
+          ],
+          "answer": "reliable"
+        },
+        {
+          "id": 3,
+          "sentence": "The reporter spent three months trying to _____ the financial scandal at the company.",
+          "options": [
+            "broadcast",
+            "publish",
+            "influence",
+            "investigate"
+          ],
+          "answer": "investigate"
+        },
+        {
+          "id": 4,
+          "sentence": "The story's catchy _____ attracted over a million clicks within the first hour.",
+          "options": [
+            "source",
+            "headline",
+            "audience",
+            "platform"
+          ],
+          "answer": "headline"
+        },
+        {
+          "id": 5,
+          "sentence": "Social media has become a powerful _____ for spreading both news and misinformation.",
+          "options": [
+            "platform",
+            "bias",
+            "headline",
+            "report"
+          ],
+          "answer": "platform"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "journalism",
+        "bias",
+        "audience",
+        "trustworthy",
+        "influence"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Investigative _____ plays an important role in exposing government corruption.",
+          "answer": "journalism"
+        },
+        {
+          "id": 2,
+          "sentence": "The report was criticised for showing clear political _____ in its choice of language.",
+          "answer": "bias"
+        },
+        {
+          "id": 3,
+          "sentence": "The documentary reached a global _____ of over 20 million viewers.",
+          "answer": "audience"
+        },
+        {
+          "id": 4,
+          "sentence": "A _____ journalist will always correct mistakes and issue apologies publicly.",
+          "answer": "trustworthy"
+        },
+        {
+          "id": 5,
+          "sentence": "Major newspapers have significant _____ over how the public views important political issues.",
+          "answer": "influence"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "chief",
+            "editor",
+            "decided",
+            "not",
+            "to",
+            "publish",
+            "the",
+            "story",
+            "without",
+            "verified",
+            "sources"
+          ],
+          "answer": "The chief editor decided not to publish the story without verified sources."
+        },
+        {
+          "id": 2,
+          "words": [
+            "digital",
+            "platforms",
+            "have",
+            "changed",
+            "the",
+            "way",
+            "audiences",
+            "consume",
+            "news",
+            "every",
+            "day"
+          ],
+          "answer": "Digital platforms have changed the way audiences consume news every day."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "reliable",
+            "source",
+            "is",
+            "essential",
+            "for",
+            "any",
+            "trustworthy",
+            "news",
+            "report"
+          ],
+          "answer": "A reliable source is essential for any trustworthy news report."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "journalist",
+            "was",
+            "sent",
+            "abroad",
+            "to",
+            "investigate",
+            "and",
+            "broadcast",
+            "the",
+            "story"
+          ],
+          "answer": "The journalist was sent abroad to investigate and broadcast the story."
+        },
+        {
+          "id": 5,
+          "words": [
+            "bias",
+            "in",
+            "reporting",
+            "can",
+            "seriously",
+            "influence",
+            "public",
+            "opinion",
+            "on",
+            "political",
+            "issues"
+          ],
+          "answer": "Bias in reporting can seriously influence public opinion on political issues."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The newspaper decided to [share] the investigation results after checking all the facts.",
+          "highlighted": "share",
+          "options": {
+            "A": "broadcast",
+            "B": "publish",
+            "C": "share"
+          },
+          "answer": "B",
+          "explanation": "'Publish' is the correct term for officially releasing a written story in a newspaper or on a website. 'Broadcast' is used for TV and radio. 'Share' is informal and used for social media, not formal journalism."
+        },
+        {
+          "id": 2,
+          "sentence": "The journalist interviewed three [witnesses] before writing the article about the event.",
+          "highlighted": "witnesses",
+          "options": {
+            "A": "sources",
+            "B": "witnesses",
+            "C": "informants"
+          },
+          "answer": "A",
+          "explanation": "In journalism, the standard term for people who provide information for a story is 'sources'. 'Witnesses' suggests people present at a scene, and 'informants' has a connotation of secrecy or law enforcement contexts."
+        },
+        {
+          "id": 3,
+          "sentence": "Many readers are concerned about [favouritism] in the way the channel presents political news.",
+          "highlighted": "favouritism",
+          "options": {
+            "A": "influence",
+            "B": "favouritism",
+            "C": "bias"
+          },
+          "answer": "C",
+          "explanation": "'Bias' is the standard journalism term for presenting news from a particular viewpoint rather than objectively. 'Favouritism' implies unfair preferential treatment of people, not viewpoints, and 'influence' is the power to affect others, not the skewing of perspective."
+        },
+        {
+          "id": 4,
+          "sentence": "She became the head [journalist] of the newspaper at the age of thirty-five.",
+          "highlighted": "journalist",
+          "options": {
+            "A": "chief editor",
+            "B": "journalist",
+            "C": "reporter"
+          },
+          "answer": "A",
+          "explanation": "'Chief editor' (or editor-in-chief) is the correct title for the person who leads and manages a newspaper. A 'journalist' writes stories, and a 'reporter' gathers and reports news — neither has the leadership role described."
+        },
+        {
+          "id": 5,
+          "sentence": "The radio station [shares] news to millions of listeners across the country every morning.",
+          "highlighted": "shares",
+          "options": {
+            "A": "broadcasts",
+            "B": "shares",
+            "C": "publishes"
+          },
+          "answer": "A",
+          "explanation": "'Broadcasts' is the correct verb for radio and TV transmission of audio or video content. 'Shares' is informal and used for distributing content online, while 'publishes' is specifically for printed or written media."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "broadcast",
+      "2": "reliable",
+      "3": "investigate",
+      "4": "headline",
+      "5": "platform"
+    },
+    "ex3": {
+      "1": "journalism",
+      "2": "bias",
+      "3": "audience",
+      "4": "trustworthy",
+      "5": "influence"
+    },
+    "ex4": {
+      "1": "The chief editor decided not to publish the story without verified sources.",
+      "2": "Digital platforms have changed the way audiences consume news every day.",
+      "3": "A reliable source is essential for any trustworthy news report.",
+      "4": "The journalist was sent abroad to investigate and broadcast the story.",
+      "5": "Bias in reporting can seriously influence public opinion on political issues."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "A"
+    }
+  }
+}

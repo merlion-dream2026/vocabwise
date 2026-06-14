@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 19,
+    "topic_id": "b3-t19",
+    "topic_title": "The Ageing Population",
+    "topic_title_vi": "Dân Số Già Hóa",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "👴",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Across the developed world, rising **longevity** is reshaping the demographic landscape at an unprecedented pace. While longer lives represent a triumph of medicine and public health, they also intensify pressure on **welfare** systems designed for a younger population. Governments are increasingly compelled to **address the ageing population crisis** before fiscal strains become irreversible, recognising that delayed reform carries far greater long-term costs than proactive intervention.",
+        "text_vi": "Trên khắp thế giới phát triển, **tuổi thọ** ngày càng tăng đang định hình lại bức tranh nhân khẩu học với tốc độ chưa từng có. Trong khi cuộc sống dài hơn phản ánh thành tựu của y học và y tế công cộng, chúng cũng tạo áp lực lớn hơn lên các hệ thống **phúc lợi** được thiết kế cho dân số trẻ hơn. Các chính phủ ngày càng bị thôi thúc phải **giải quyết khủng hoảng dân số già hóa** trước khi các căng thẳng tài chính trở nên không thể đảo ngược, nhận ra rằng cải cách trì hoãn mang lại chi phí dài hạn lớn hơn nhiều so với can thiệp chủ động."
+      },
+      {
+        "index": 2,
+        "text_en": "A central concern is the **dependency** ratio — the proportion of retired individuals supported by each working-age adult. As this ratio widens, the need to **reform pension systems** becomes urgent. Many nations face the challenge of sustaining retirement benefits without overburdening younger workers. Concurrently, the prevalence of **dementia** among the elderly imposes enormous costs on healthcare infrastructure and family carers alike, straining systems already stretched thin.",
+        "text_vi": "Một mối quan tâm trọng tâm là tỷ lệ **phụ thuộc** — tỷ lệ người đã nghỉ hưu được mỗi người trong độ tuổi lao động hỗ trợ. Khi tỷ lệ này nới rộng, nhu cầu **cải cách hệ thống lương hưu** trở nên cấp thiết. Nhiều quốc gia đối mặt với thách thức duy trì phúc lợi nghỉ hưu mà không gây gánh nặng quá lớn cho người lao động trẻ. Đồng thời, tỷ lệ mắc **sa sút trí tuệ** trong số người cao tuổi áp đặt chi phí khổng lồ lên cơ sở hạ tầng y tế và người chăm sóc gia đình, gây căng thẳng cho các hệ thống vốn đã quá tải."
+      },
+      {
+        "index": 3,
+        "text_en": "Social **isolation** represents another critical dimension of an ageing society. Many older adults, particularly those who have lost partners or who live far from family, experience profound loneliness that accelerates cognitive and physical **deterioration**. Policymakers and community organisations must **combat elderly isolation** through targeted programmes — volunteer visits, digital literacy initiatives, and local social hubs — that restore meaningful human connection to vulnerable groups.",
+        "text_vi": "**Cô lập** xã hội là một chiều cạnh quan trọng khác của xã hội già hóa. Nhiều người cao tuổi, đặc biệt những người đã mất người thân hoặc sống xa gia đình, trải qua cảm giác cô đơn sâu sắc làm tăng tốc **suy giảm** nhận thức và thể chất. Các nhà hoạch định chính sách và tổ chức cộng đồng phải **chống lại sự cô lập của người cao tuổi** thông qua các chương trình có mục tiêu — thăm hỏi tình nguyện, sáng kiến biết đọc biết viết kỹ thuật số, và các trung tâm xã hội địa phương — nhằm khôi phục kết nối con người có ý nghĩa cho các nhóm dễ bị tổn thương."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, sustainable responses demand more than institutional fixes. Older adults' **contribution** to communities — through volunteering, caregiving, and the transmission of knowledge — must be formally recognised to **sustain intergenerational solidarity** between age groups. For those nearing the end of life, the ability to **provide palliative care** with dignity and compassion remains a moral imperative. Societies that honour their elders reflect the **intergenerational** compact at the heart of civilised life.",
+        "text_vi": "Cuối cùng, các phản ứng bền vững đòi hỏi nhiều hơn là các biện pháp thể chế. **Đóng góp** của người cao tuổi cho cộng đồng — thông qua tình nguyện, chăm sóc và truyền đạt kiến thức — phải được công nhận chính thức để **duy trì tình đoàn kết liên thế hệ** giữa các nhóm tuổi. Với những người gần cuối đời, khả năng **cung cấp chăm sóc giảm nhẹ** với phẩm giá và lòng trắc ẩn vẫn là điều bắt buộc về mặt đạo đức. Những xã hội tôn trọng người cao tuổi của mình phản ánh khế ước **liên thế hệ** nằm ở trung tâm của cuộc sống văn minh."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "longevity",
+      "ipa": "/lɒŋˈdʒev.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tuổi thọ, sự trường thọ",
+      "meaning_vi_inline": "tuổi thọ",
+      "example_en": "Advances in medicine have contributed to remarkable increases in human longevity over the past century.",
+      "example_vi": "Những tiến bộ trong y học đã góp phần tăng đáng kể tuổi thọ của con người trong thế kỷ qua.",
+      "word_family": {
+        "noun": "longevity",
+        "verb": null,
+        "adjective": "long-lived",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "pension",
+      "ipa": "/ˈpen.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lương hưu, tiền trợ cấp hưu trí",
+      "meaning_vi_inline": "lương hưu",
+      "example_en": "Many workers fear that state pension funds will be insufficient to support them in retirement.",
+      "example_vi": "Nhiều người lao động lo ngại rằng quỹ lương hưu nhà nước sẽ không đủ để hỗ trợ họ khi nghỉ hưu.",
+      "word_family": {
+        "noun": "pension / pensioner",
+        "verb": "pension (off)",
+        "adjective": "pensionable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "dependency",
+      "ipa": "/dɪˈpen.dən.si/",
+      "pos": "noun",
+      "meaning_vi": "sự phụ thuộc, tỷ lệ phụ thuộc",
+      "meaning_vi_inline": "sự phụ thuộc",
+      "example_en": "A rising dependency ratio places greater financial pressure on the working-age population.",
+      "example_vi": "Tỷ lệ phụ thuộc tăng cao gây áp lực tài chính lớn hơn lên dân số trong độ tuổi lao động.",
+      "word_family": {
+        "noun": "dependency / dependence / dependent",
+        "verb": "depend",
+        "adjective": "dependent",
+        "adverb": "dependently"
+      },
+      "false_friend": {
+        "word_vi": "dependence",
+        "explanation_vi": "'Dependency' thường dùng trong bối cảnh chính sách (tỷ lệ phụ thuộc); 'dependence' mang nghĩa trạng thái phụ thuộc tổng quát hơn — không hoàn toàn thay thế nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "dementia",
+      "ipa": "/dɪˈmen.ʃə/",
+      "pos": "noun",
+      "meaning_vi": "chứng sa sút trí tuệ",
+      "meaning_vi_inline": "sa sút trí tuệ",
+      "example_en": "Dementia affects millions of elderly people worldwide, placing an immense burden on healthcare systems.",
+      "example_vi": "Chứng sa sút trí tuệ ảnh hưởng đến hàng triệu người cao tuổi trên toàn thế giới, tạo gánh nặng lớn cho các hệ thống y tế.",
+      "word_family": {
+        "noun": "dementia",
+        "verb": null,
+        "adjective": "demented",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "isolation",
+      "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự cô lập, sự cô đơn",
+      "meaning_vi_inline": "sự cô lập",
+      "example_en": "Social isolation among the elderly is increasingly recognised as a serious public health concern.",
+      "example_vi": "Sự cô lập xã hội trong người cao tuổi ngày càng được nhìn nhận là mối lo ngại sức khỏe cộng đồng nghiêm trọng.",
+      "word_family": {
+        "noun": "isolation",
+        "verb": "isolate",
+        "adjective": "isolated / isolating",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "contribution",
+      "ipa": "/ˌkɒn.trɪˈbjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự đóng góp, cống hiến",
+      "meaning_vi_inline": "đóng góp",
+      "example_en": "The voluntary contribution of retired professionals to community projects is often undervalued.",
+      "example_vi": "Sự đóng góp tự nguyện của các chuyên gia đã nghỉ hưu cho các dự án cộng đồng thường bị đánh giá thấp.",
+      "word_family": {
+        "noun": "contribution / contributor",
+        "verb": "contribute",
+        "adjective": "contributory / contributing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "intergenerational",
+      "ipa": "/ˌɪn.tə.dʒen.əˈreɪ.ʃən.əl/",
+      "pos": "adjective",
+      "meaning_vi": "liên thế hệ, giữa các thế hệ",
+      "meaning_vi_inline": "liên thế hệ",
+      "example_en": "Intergenerational housing schemes pair younger tenants with elderly homeowners to reduce isolation.",
+      "example_vi": "Các chương trình nhà ở liên thế hệ ghép đôi người thuê trẻ tuổi với chủ nhà cao tuổi để giảm thiểu sự cô lập.",
+      "word_family": {
+        "noun": "generation",
+        "verb": null,
+        "adjective": "intergenerational",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "welfare",
+      "ipa": "/ˈwel.feər/",
+      "pos": "noun",
+      "meaning_vi": "phúc lợi, phúc lợi xã hội",
+      "meaning_vi_inline": "phúc lợi",
+      "example_en": "Governments must balance welfare spending for the elderly with investment in education and infrastructure.",
+      "example_vi": "Các chính phủ phải cân bằng chi tiêu phúc lợi cho người cao tuổi với đầu tư vào giáo dục và cơ sở hạ tầng.",
+      "word_family": {
+        "noun": "welfare",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "well-being",
+        "explanation_vi": "'Welfare' thường chỉ hệ thống hỗ trợ xã hội của nhà nước; 'well-being' mang nghĩa rộng hơn về trạng thái hạnh phúc tổng thể — không thay thế nhau trong mọi ngữ cảnh."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "deterioration",
+      "ipa": "/dɪˌtɪə.ri.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự suy giảm, sự xuống cấp",
+      "meaning_vi_inline": "sự suy giảm",
+      "example_en": "Regular social engagement can slow the deterioration of cognitive function in older adults.",
+      "example_vi": "Tương tác xã hội thường xuyên có thể làm chậm sự suy giảm chức năng nhận thức ở người cao tuổi.",
+      "word_family": {
+        "noun": "deterioration",
+        "verb": "deteriorate",
+        "adjective": "deteriorating",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "palliative",
+      "ipa": "/ˈpæl.i.ə.tɪv/",
+      "pos": "adjective / noun",
+      "meaning_vi": "giảm nhẹ (triệu chứng), chăm sóc cuối đời",
+      "meaning_vi_inline": "giảm nhẹ",
+      "example_en": "Palliative care focuses on relieving suffering and improving quality of life rather than curing disease.",
+      "example_vi": "Chăm sóc giảm nhẹ tập trung vào việc giảm bớt đau khổ và cải thiện chất lượng cuộc sống thay vì chữa bệnh.",
+      "word_family": {
+        "noun": "palliative",
+        "verb": "palliate",
+        "adjective": "palliative",
+        "adverb": "palliatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "address the ageing population crisis",
+      "meaning_vi": "giải quyết khủng hoảng dân số già hóa",
+      "example_en": "International organisations urge governments to address the ageing population crisis through coordinated policy reform.",
+      "example_vi": "Các tổ chức quốc tế thúc giục các chính phủ giải quyết khủng hoảng dân số già hóa thông qua cải cách chính sách phối hợp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "provide palliative care",
+      "meaning_vi": "cung cấp chăm sóc giảm nhẹ",
+      "example_en": "Hospices are specifically trained to provide palliative care that prioritises comfort and dignity.",
+      "example_vi": "Các trại dưỡng lão được đào tạo đặc biệt để cung cấp chăm sóc giảm nhẹ ưu tiên sự thoải mái và phẩm giá.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "combat elderly isolation",
+      "meaning_vi": "chống lại sự cô lập của người cao tuổi",
+      "example_en": "Community centres play a vital role in helping to combat elderly isolation in urban neighbourhoods.",
+      "example_vi": "Các trung tâm cộng đồng đóng vai trò quan trọng trong việc giúp chống lại sự cô lập của người cao tuổi ở các khu dân cư đô thị.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "sustain intergenerational solidarity",
+      "meaning_vi": "duy trì tình đoàn kết liên thế hệ",
+      "example_en": "Shared public spaces designed for all age groups help to sustain intergenerational solidarity in modern cities.",
+      "example_vi": "Không gian công cộng chung được thiết kế cho mọi lứa tuổi giúp duy trì tình đoàn kết liên thế hệ ở các thành phố hiện đại.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "reform pension systems",
+      "meaning_vi": "cải cách hệ thống lương hưu",
+      "example_en": "Several European governments have faced public protests over proposals to reform pension systems and raise the retirement age.",
+      "example_vi": "Một số chính phủ châu Âu đã phải đối mặt với các cuộc biểu tình công khai liên quan đến đề xuất cải cách hệ thống lương hưu và tăng tuổi nghỉ hưu.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage suggests that increasing longevity is a sign of progress in medicine and public health.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, all developed countries have already successfully reformed their pension systems.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that dementia places financial pressure on both healthcare institutions and family members.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that social isolation only affects elderly people who have never married.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage implies that recognising older adults' contributions is important for maintaining cohesion between generations.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The steady _____ of her memory made it increasingly difficult for her family to provide care at home.",
+          "options": [
+            "contribution",
+            "isolation",
+            "deterioration",
+            "dependency"
+          ],
+          "answer": "deterioration"
+        },
+        {
+          "id": 2,
+          "sentence": "The government's generous _____ scheme was strained by the growing number of retirees drawing benefits.",
+          "options": [
+            "palliative",
+            "pension",
+            "welfare",
+            "longevity"
+          ],
+          "answer": "pension"
+        },
+        {
+          "id": 3,
+          "sentence": "Scientists are investigating whether diet and exercise can meaningfully extend human _____.",
+          "options": [
+            "deterioration",
+            "dependency",
+            "longevity",
+            "isolation"
+          ],
+          "answer": "longevity"
+        },
+        {
+          "id": 4,
+          "sentence": "The volunteer's _____ of time and expertise helped transform the neighbourhood's community garden.",
+          "options": [
+            "welfare",
+            "contribution",
+            "pension",
+            "palliative"
+          ],
+          "answer": "contribution"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ programmes do not aim to cure but to manage pain and maintain dignity during the final stages of illness.",
+          "options": [
+            "Intergenerational",
+            "Welfare",
+            "Dependency",
+            "Palliative"
+          ],
+          "answer": "Palliative"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "dementia",
+        "isolation",
+        "welfare",
+        "dependency",
+        "intergenerational",
+        "deterioration"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "An ageing population increases the _____ ratio, meaning fewer workers must support more retirees.",
+          "answer": "dependency"
+        },
+        {
+          "id": 2,
+          "sentence": "Early diagnosis of _____ allows families and carers to plan appropriate long-term support.",
+          "answer": "dementia"
+        },
+        {
+          "id": 3,
+          "sentence": "Living alone without regular contact accelerates the physical _____ often associated with old age.",
+          "answer": "deterioration"
+        },
+        {
+          "id": 4,
+          "sentence": "Mentoring programmes are a powerful tool for building _____ bonds between school pupils and retired professionals.",
+          "answer": "intergenerational"
+        },
+        {
+          "id": 5,
+          "sentence": "Social _____ among the elderly can be as damaging to health as smoking or physical inactivity.",
+          "answer": "isolation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "longevity",
+            "increasing",
+            "welfare",
+            "on",
+            "systems",
+            "places",
+            "pressure",
+            "unprecedented"
+          ],
+          "answer": "Increasing longevity places unprecedented pressure on welfare systems."
+        },
+        {
+          "id": 2,
+          "words": [
+            "dementia",
+            "enormous",
+            "imposes",
+            "on",
+            "costs",
+            "families",
+            "and",
+            "healthcare",
+            "providers"
+          ],
+          "answer": "Dementia imposes enormous costs on families and healthcare providers."
+        },
+        {
+          "id": 3,
+          "words": [
+            "social",
+            "isolation",
+            "cognitive",
+            "can",
+            "accelerate",
+            "deterioration",
+            "in",
+            "older",
+            "adults"
+          ],
+          "answer": "Social isolation can accelerate cognitive deterioration in older adults."
+        },
+        {
+          "id": 4,
+          "words": [
+            "reform",
+            "to",
+            "governments",
+            "pension",
+            "systems",
+            "must",
+            "rising",
+            "dependency",
+            "ratios",
+            "address"
+          ],
+          "answer": "Governments must reform pension systems to address rising dependency ratios."
+        },
+        {
+          "id": 5,
+          "words": [
+            "palliative",
+            "care",
+            "dignity",
+            "preserves",
+            "and",
+            "reduces",
+            "suffering",
+            "at",
+            "end",
+            "of",
+            "life"
+          ],
+          "answer": "Palliative care preserves dignity and reduces suffering at end of life."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Governments must [isolate] the ageing population crisis before fiscal pressures become unmanageable.",
+          "highlighted": "isolate",
+          "options": {
+            "A": "address",
+            "B": "isolated",
+            "C": "isolation"
+          },
+          "answer": "A",
+          "explanation": "The collocation is 'address the ageing population crisis' — 'address' means to deal with a problem, while 'isolate' has no logical connection here."
+        },
+        {
+          "id": 2,
+          "sentence": "Her rapid [deteriorate] following the stroke required round-the-clock nursing support.",
+          "highlighted": "deteriorate",
+          "options": {
+            "A": "deteriorated",
+            "B": "deterioration",
+            "C": "deteriorating"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the sentence — 'deterioration', not the verb 'deteriorate'."
+        },
+        {
+          "id": 3,
+          "sentence": "The rising [depend] ratio is a key driver of public debt in many ageing societies.",
+          "highlighted": "depend",
+          "options": {
+            "A": "dependable",
+            "B": "dependent",
+            "C": "dependency"
+          },
+          "answer": "C",
+          "explanation": "'Dependency ratio' is a fixed noun phrase; 'depend' is a verb and cannot precede 'ratio'."
+        },
+        {
+          "id": 4,
+          "sentence": "Community volunteers play a crucial role in helping to [combat] elderly [isolating].",
+          "highlighted": "isolating",
+          "options": {
+            "A": "isolate",
+            "B": "isolated",
+            "C": "isolation"
+          },
+          "answer": "C",
+          "explanation": "The collocation is 'combat elderly isolation'; a noun is required as the object of 'combat', not the adjective 'isolating'."
+        },
+        {
+          "id": 5,
+          "sentence": "Hospice nurses are trained to [provide] [palliating] care that prioritises the patient's comfort.",
+          "highlighted": "palliating",
+          "options": {
+            "A": "palliate",
+            "B": "palliative",
+            "C": "palliated"
+          },
+          "answer": "B",
+          "explanation": "'Palliative care' is the correct collocation — 'palliative' is the adjective form that modifies 'care', not the present participle 'palliating'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "deterioration",
+      "2": "pension",
+      "3": "longevity",
+      "4": "contribution",
+      "5": "Palliative"
+    },
+    "ex3": {
+      "1": "dependency",
+      "2": "dementia",
+      "3": "deterioration",
+      "4": "intergenerational",
+      "5": "isolation"
+    },
+    "ex4": {
+      "1": "Increasing longevity places unprecedented pressure on welfare systems.",
+      "2": "Dementia imposes enormous costs on families and healthcare providers.",
+      "3": "Social isolation can accelerate cognitive deterioration in older adults.",
+      "4": "Governments must reform pension systems to address rising dependency ratios.",
+      "5": "Palliative care preserves dignity and reduces suffering at end of life."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

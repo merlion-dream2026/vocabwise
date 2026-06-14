@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 40,
+    "topic_id": "b3-t40",
+    "topic_title": "Mathematics & Abstract Thinking",
+    "topic_title_vi": "Toán Học & Tư Duy Trừu Tượng",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "∞",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 220,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Mathematics is often described as the purest form of human thought precisely because it operates through **abstraction** — the process of stripping away concrete particulars to reveal underlying patterns and structures. A central activity in this enterprise is constructing a **proof**, a rigorous logical argument that establishes the truth of a statement beyond all doubt. Each proven statement may become a **theorem**, a result that can then serve as a stepping stone to further discoveries.",
+        "text_vi": "Toán học thường được mô tả là hình thức tư duy thuần túy nhất của con người chính vì nó hoạt động thông qua **trừu tượng hóa** — quá trình loại bỏ các chi tiết cụ thể để tiết lộ các mô hình và cấu trúc nền tảng. Một hoạt động trọng tâm trong công việc này là xây dựng một **chứng minh**, một lập luận logic chặt chẽ thiết lập tính đúng đắn của một mệnh đề vượt mọi nghi ngờ. Mỗi mệnh đề được chứng minh có thể trở thành một **định lý**, một kết quả có thể được dùng làm bước đệm cho các khám phá xa hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "The engine that drives mathematical progress is **logic** — the study of valid inference — combined with creative intuition. Mathematicians frequently begin by proposing a **conjecture**, an educated guess that appears to be true but remains unverified. Some conjectures stand for centuries before anyone can **construct a formal proof** or disprove them. Foundational to all of this is the concept of an **axiom**: a statement accepted as self-evident, from which all other truths are derived.",
+        "text_vi": "Động cơ thúc đẩy tiến bộ toán học là **logic** — nghiên cứu về suy luận hợp lệ — kết hợp với trực giác sáng tạo. Các nhà toán học thường bắt đầu bằng cách đề xuất một **phỏng đoán**, một suy đoán có căn cứ có vẻ đúng nhưng vẫn chưa được xác minh. Một số phỏng đoán tồn tại trong nhiều thế kỷ trước khi ai đó có thể **xây dựng một chứng minh chính thức** hoặc bác bỏ chúng. Cơ bản cho tất cả những điều này là khái niệm **tiên đề**: một mệnh đề được chấp nhận là hiển nhiên, từ đó tất cả các chân lý khác được suy ra."
+      },
+      {
+        "index": 3,
+        "text_en": "Two concepts that give mathematics its distinctive power are **recursion** — the process of defining something in terms of itself — and **probability**, which quantifies uncertainty and allows us to **apply probabilistic reasoning** to complex real-world phenomena. Together, these tools underpin fields ranging from cryptography to machine learning. Educators increasingly seek to **develop algorithmic thinking** in students, training them to break problems into systematic, repeatable steps.",
+        "text_vi": "Hai khái niệm mang lại sức mạnh đặc thù cho toán học là **đệ quy** — quá trình định nghĩa một thứ theo chính nó — và **xác suất**, vốn lượng hóa sự không chắc chắn và cho phép chúng ta **áp dụng lý luận xác suất** vào các hiện tượng phức tạp trong thế giới thực. Cùng nhau, những công cụ này làm nền tảng cho các lĩnh vực từ mật mã học đến học máy. Các nhà giáo dục ngày càng tìm cách **phát triển tư duy thuật toán** ở học sinh, rèn luyện cho họ khả năng phân tách vấn đề thành các bước có hệ thống và có thể lặp lại."
+      },
+      {
+        "index": 4,
+        "text_en": "Perhaps no concept captures the strangeness of mathematics more vividly than **infinity** — a quantity without bound that defies ordinary intuition. When students learn to **reason about abstract structures**, they often discover that infinity comes in multiple sizes, a fact that shocked even professional mathematicians when first proposed. The ability to **challenge an accepted theorem** and to rebuild knowledge from first principles remains one of the highest expressions of mathematical maturity.",
+        "text_vi": "Có lẽ không có khái niệm nào nắm bắt sự kỳ lạ của toán học một cách sinh động hơn **vô cực** — một đại lượng không có giới hạn thách thức trực giác thông thường. Khi học sinh học cách **lý luận về các cấu trúc trừu tượng**, họ thường khám phá ra rằng vô cực tồn tại ở nhiều kích cỡ, một thực tế đã gây sốc ngay cả các nhà toán học chuyên nghiệp khi lần đầu được đề xuất. Khả năng **thách thức một định lý đã được chấp nhận** và xây dựng lại tri thức từ những nguyên lý cơ bản vẫn là một trong những biểu hiện cao nhất của sự trưởng thành toán học."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "abstraction",
+      "ipa": "/æbˈstræk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự trừu tượng hóa, khái niệm trừu tượng",
+      "meaning_vi_inline": "sự trừu tượng hóa",
+      "example_en": "The power of mathematics lies in its use of abstraction to reveal patterns common to many different phenomena.",
+      "example_vi": "Sức mạnh của toán học nằm ở việc sử dụng sự trừu tượng hóa để tiết lộ các mô hình chung cho nhiều hiện tượng khác nhau.",
+      "word_family": {
+        "noun": "abstraction / abstract",
+        "verb": "abstract",
+        "adjective": "abstract",
+        "adverb": "abstractly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "proof",
+      "ipa": "/pruːf/",
+      "pos": "noun",
+      "meaning_vi": "chứng minh, bằng chứng (trong toán học)",
+      "meaning_vi_inline": "chứng minh",
+      "example_en": "Andrew Wiles spent seven years constructing a complete proof of Fermat's Last Theorem.",
+      "example_vi": "Andrew Wiles đã dành bảy năm để xây dựng một chứng minh hoàn chỉnh cho Định lý cuối cùng của Fermat.",
+      "word_family": {
+        "noun": "proof",
+        "verb": "prove",
+        "adjective": "proven / provable",
+        "adverb": "provably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "theorem",
+      "ipa": "/ˈθɪə.rəm/",
+      "pos": "noun",
+      "meaning_vi": "định lý (trong toán học)",
+      "meaning_vi_inline": "định lý",
+      "example_en": "Pythagoras's theorem, relating the sides of a right triangle, is among the oldest proven results in mathematics.",
+      "example_vi": "Định lý Pythagoras, liên hệ các cạnh của tam giác vuông, là một trong những kết quả được chứng minh lâu đời nhất trong toán học.",
+      "word_family": {
+        "noun": "theorem",
+        "verb": null,
+        "adjective": "theoretical",
+        "adverb": "theoretically"
+      },
+      "false_friend": {
+        "word_vi": "theory",
+        "explanation_vi": "'Theorem' là một mệnh đề đã được chứng minh nghiêm ngặt; 'theory' là một khung giải thích rộng hơn, không nhất thiết phải được chứng minh hoàn toàn — hai từ không dùng thay thế nhau trong toán học."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "logic",
+      "ipa": "/ˈlɒdʒ.ɪk/",
+      "pos": "noun",
+      "meaning_vi": "logic, lý luận, khoa học suy luận",
+      "meaning_vi_inline": "logic",
+      "example_en": "Formal logic provides the rules that guarantee a conclusion follows necessarily from a set of premises.",
+      "example_vi": "Logic hình thức cung cấp các quy tắc đảm bảo rằng một kết luận tất yếu phải suy ra từ một tập hợp tiền đề.",
+      "word_family": {
+        "noun": "logic / logician",
+        "verb": null,
+        "adjective": "logical / illogical",
+        "adverb": "logically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "algorithm",
+      "ipa": "/ˈæl.ɡə.rɪ.ðəm/",
+      "pos": "noun",
+      "meaning_vi": "thuật toán, quy trình giải toán có hệ thống",
+      "meaning_vi_inline": "thuật toán",
+      "example_en": "The sorting algorithm was optimised to process millions of records in a fraction of a second.",
+      "example_vi": "Thuật toán sắp xếp đã được tối ưu để xử lý hàng triệu bản ghi trong một phần nhỏ của giây.",
+      "word_family": {
+        "noun": "algorithm",
+        "verb": null,
+        "adjective": "algorithmic",
+        "adverb": "algorithmically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "probability",
+      "ipa": "/ˌprɒb.əˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "xác suất, khả năng xảy ra",
+      "meaning_vi_inline": "xác suất",
+      "example_en": "The probability of rolling two sixes consecutively with a fair die is one in thirty-six.",
+      "example_vi": "Xác suất tung ra hai mặt sáu liên tiếp với một con xúc xắc công bằng là một trên ba mươi sáu.",
+      "word_family": {
+        "noun": "probability",
+        "verb": null,
+        "adjective": "probable / improbable",
+        "adverb": "probably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "conjecture",
+      "ipa": "/kənˈdʒek.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "phỏng đoán, giả thuyết chưa được chứng minh",
+      "meaning_vi_inline": "phỏng đoán",
+      "example_en": "Goldbach's conjecture, which states that every even number greater than two is the sum of two primes, remains unproven.",
+      "example_vi": "Phỏng đoán Goldbach, phát biểu rằng mọi số chẵn lớn hơn hai đều là tổng của hai số nguyên tố, vẫn chưa được chứng minh.",
+      "word_family": {
+        "noun": "conjecture",
+        "verb": "conjecture",
+        "adjective": "conjectural",
+        "adverb": "conjecturally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "axiom",
+      "ipa": "/ˈæk.si.əm/",
+      "pos": "noun",
+      "meaning_vi": "tiên đề, chân lý hiển nhiên không cần chứng minh",
+      "meaning_vi_inline": "tiên đề",
+      "example_en": "Euclid's geometry rests on five axioms, from which all other geometric truths are logically derived.",
+      "example_vi": "Hình học Euclid dựa trên năm tiên đề, từ đó tất cả các chân lý hình học khác được suy ra một cách logic.",
+      "word_family": {
+        "noun": "axiom",
+        "verb": null,
+        "adjective": "axiomatic",
+        "adverb": "axiomatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "recursion",
+      "ipa": "/rɪˈkɜː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "đệ quy, sự tự tham chiếu trong định nghĩa hoặc quy trình",
+      "meaning_vi_inline": "đệ quy",
+      "example_en": "Recursion is fundamental to computer science: many elegant algorithms solve complex problems by calling themselves on smaller inputs.",
+      "example_vi": "Đệ quy là nền tảng của khoa học máy tính: nhiều thuật toán thanh lịch giải quyết các bài toán phức tạp bằng cách tự gọi chính nó trên các đầu vào nhỏ hơn.",
+      "word_family": {
+        "noun": "recursion",
+        "verb": "recur",
+        "adjective": "recursive",
+        "adverb": "recursively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "infinity",
+      "ipa": "/ɪnˈfɪn.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "vô cực, sự vô hạn",
+      "meaning_vi_inline": "vô cực",
+      "example_en": "Cantor demonstrated that some infinities are strictly larger than others, a finding that transformed set theory.",
+      "example_vi": "Cantor đã chứng minh rằng một số vô cực thực sự lớn hơn những vô cực khác, một phát hiện đã biến đổi lý thuyết tập hợp.",
+      "word_family": {
+        "noun": "infinity",
+        "verb": null,
+        "adjective": "infinite / infinite",
+        "adverb": "infinitely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "construct a formal proof",
+      "meaning_vi": "xây dựng một chứng minh chính thức",
+      "example_en": "It took mathematicians over a century to construct a formal proof of the four-colour theorem.",
+      "example_vi": "Các nhà toán học đã mất hơn một thế kỷ để xây dựng một chứng minh chính thức cho định lý bốn màu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "apply probabilistic reasoning",
+      "meaning_vi": "áp dụng lý luận xác suất",
+      "example_en": "Epidemiologists must apply probabilistic reasoning to estimate the risk of disease spread across a population.",
+      "example_vi": "Các nhà dịch tễ học phải áp dụng lý luận xác suất để ước tính nguy cơ lây lan dịch bệnh trong một cộng đồng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "challenge an accepted theorem",
+      "meaning_vi": "thách thức một định lý đã được chấp nhận",
+      "example_en": "The young researcher caused controversy by attempting to challenge an accepted theorem that had underpinned the field for decades.",
+      "example_vi": "Nhà nghiên cứu trẻ gây tranh cãi khi cố gắng thách thức một định lý đã được chấp nhận làm nền tảng cho lĩnh vực này trong nhiều thập kỷ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "develop algorithmic thinking",
+      "meaning_vi": "phát triển tư duy thuật toán",
+      "example_en": "Coding exercises are increasingly used in primary schools to develop algorithmic thinking from an early age.",
+      "example_vi": "Các bài tập lập trình ngày càng được sử dụng trong các trường tiểu học để phát triển tư duy thuật toán từ sớm.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "reason about abstract structures",
+      "meaning_vi": "lý luận về các cấu trúc trừu tượng",
+      "example_en": "Advanced mathematics training teaches students to reason about abstract structures that have no direct physical counterpart.",
+      "example_vi": "Đào tạo toán học nâng cao dạy học sinh lý luận về các cấu trúc trừu tượng không có đối ứng vật lý trực tiếp.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, a conjecture is a mathematical statement that has already been proven true.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage implies that all conjectures are eventually either proven or disproven within a generation.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that infinity can exist in different sizes.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, probability and recursion are applied in fields such as cryptography and machine learning.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that mathematical intuition is more important than formal logic in producing breakthroughs.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The detective's _____was flawless: she identified the culprit through a chain of airtight deductions.",
+          "options": [
+            "probability",
+            "logic",
+            "recursion",
+            "conjecture"
+          ],
+          "answer": "logic"
+        },
+        {
+          "id": 2,
+          "sentence": "The famous _____ that every even number above two is the sum of two primes has never been disproved.",
+          "options": [
+            "axiom",
+            "abstraction",
+            "conjecture",
+            "infinity"
+          ],
+          "answer": "conjecture"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the square root of two being irrational was first demonstrated by ancient Greek mathematicians.",
+          "options": [
+            "theorem",
+            "algorithm",
+            "recursion",
+            "probability"
+          ],
+          "answer": "theorem"
+        },
+        {
+          "id": 4,
+          "sentence": "The search engine uses a complex _____ to rank millions of pages by relevance within milliseconds.",
+          "options": [
+            "abstraction",
+            "axiom",
+            "infinity",
+            "algorithm"
+          ],
+          "answer": "algorithm"
+        },
+        {
+          "id": 5,
+          "sentence": "The concept of _____ challenges our intuition: there is no largest number, and the sequence of integers never ends.",
+          "options": [
+            "proof",
+            "conjecture",
+            "infinity",
+            "logic"
+          ],
+          "answer": "infinity"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "axiom",
+        "abstraction",
+        "proof",
+        "recursion",
+        "probability",
+        "theorem"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ that parallel lines never meet is one of the foundational assumptions of Euclidean geometry.",
+          "answer": "axiom"
+        },
+        {
+          "id": 2,
+          "sentence": "Without a rigorous _____, a mathematical claim — however plausible — cannot be accepted as established fact.",
+          "answer": "proof"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ that the angles of a triangle sum to 180 degrees follows logically from Euclid's axioms.",
+          "answer": "theorem"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of rain tomorrow is 70%, so you should bring an umbrella just in case.",
+          "answer": "probability"
+        },
+        {
+          "id": 5,
+          "sentence": "The fractal is generated through _____, with the same geometric pattern repeated at every level of magnification.",
+          "answer": "recursion"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "a",
+            "proof",
+            "establishes",
+            "truth",
+            "the",
+            "of",
+            "a",
+            "mathematical",
+            "statement",
+            "with",
+            "certainty"
+          ],
+          "answer": "A proof establishes the truth of a mathematical statement with certainty."
+        },
+        {
+          "id": 2,
+          "words": [
+            "axioms",
+            "are",
+            "the",
+            "unproven",
+            "foundations",
+            "on",
+            "which",
+            "all",
+            "mathematics",
+            "is",
+            "built"
+          ],
+          "answer": "Axioms are the unproven foundations on which all mathematics is built."
+        },
+        {
+          "id": 3,
+          "words": [
+            "recursive",
+            "functions",
+            "call",
+            "themselves",
+            "to",
+            "solve",
+            "problems",
+            "of",
+            "increasing",
+            "complexity"
+          ],
+          "answer": "Recursive functions call themselves to solve problems of increasing complexity."
+        },
+        {
+          "id": 4,
+          "words": [
+            "probability",
+            "theory",
+            "allows",
+            "us",
+            "to",
+            "quantify",
+            "uncertainty",
+            "in",
+            "real-world",
+            "decisions"
+          ],
+          "answer": "Probability theory allows us to quantify uncertainty in real-world decisions."
+        },
+        {
+          "id": 5,
+          "words": [
+            "abstraction",
+            "enables",
+            "mathematicians",
+            "to",
+            "identify",
+            "patterns",
+            "across",
+            "different",
+            "domains"
+          ],
+          "answer": "Abstraction enables mathematicians to identify patterns across different domains."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The researchers struggled to [prove] a formal proof for a conjecture that had stood for two centuries.",
+          "highlighted": "prove",
+          "options": {
+            "A": "construct",
+            "B": "proven",
+            "C": "provable"
+          },
+          "answer": "A",
+          "explanation": "The collocation is 'construct a formal proof', not 'prove a formal proof' — a proof is constructed or produced, not proved."
+        },
+        {
+          "id": 2,
+          "sentence": "Her _____ [logically] was rigorous: she drew precise conclusions from each premise without any logical gap.",
+          "highlighted": "logically",
+          "options": {
+            "A": "logician",
+            "B": "logical",
+            "C": "logic"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject complement after 'Her' — 'logic', not the adverb 'logically'."
+        },
+        {
+          "id": 3,
+          "sentence": "The [probable] of winning the lottery twice is so small it is considered statistically negligible.",
+          "highlighted": "probable",
+          "options": {
+            "A": "probably",
+            "B": "probability",
+            "C": "probabilistic"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the sentence — 'probability', not the adjective 'probable'."
+        },
+        {
+          "id": 4,
+          "sentence": "The [infinite] of the natural numbers means there is always a number larger than any you can name.",
+          "highlighted": "infinite",
+          "options": {
+            "A": "infinitely",
+            "B": "infinity",
+            "C": "infiniteness"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'infinity', not the adjective 'infinite'."
+        },
+        {
+          "id": 5,
+          "sentence": "The [conjectured] remained unresolved for nearly 400 years until a breakthrough proof was published in 1995.",
+          "highlighted": "conjectured",
+          "options": {
+            "A": "conjecture",
+            "B": "conjecturally",
+            "C": "conjectures"
+          },
+          "answer": "A",
+          "explanation": "A singular noun is required as the subject of the sentence — 'conjecture', not the past participle 'conjectured'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "logic",
+      "2": "conjecture",
+      "3": "theorem",
+      "4": "algorithm",
+      "5": "infinity"
+    },
+    "ex3": {
+      "1": "axiom",
+      "2": "proof",
+      "3": "theorem",
+      "4": "probability",
+      "5": "recursion"
+    },
+    "ex4": {
+      "1": "A proof establishes the truth of a mathematical statement with certainty.",
+      "2": "Axioms are the unproven foundations on which all mathematics is built.",
+      "3": "Recursive functions call themselves to solve problems of increasing complexity.",
+      "4": "Probability theory allows us to quantify uncertainty in real-world decisions.",
+      "5": "Abstraction enables mathematicians to identify patterns across different domains."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

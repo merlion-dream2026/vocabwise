@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 57,
+    "topic_id": "b1-t57",
+    "topic_title": "Signs & Instructions",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "⚠️",
+    "topic_title_vi": "Biển Báo & Hướng Dẫn",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 115,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every day we see **signs** around us. A **warning** sign tells us something is dangerous. An **arrow** shows us which way to go. A **marker** on the floor or wall helps us find the right **route** through a building.",
+        "text_vi": "Mỗi ngày chúng ta đều thấy **biển báo** xung quanh mình. Biển **cảnh báo** cho chúng ta biết điều gì đó nguy hiểm. Một **mũi tên** chỉ cho chúng ta biết phải đi hướng nào. Một **dấu hiệu đánh dấu** trên sàn nhà hoặc tường giúp chúng ta tìm đúng **tuyến đường** qua một tòa nhà."
+      },
+      {
+        "index": 2,
+        "text_en": "In a public place, you may see a **notice** on the door with an **instruction** to keep it closed. Some areas are **forbidden** — you must not enter. A **caution** sign often means slow down or be careful near a **risk**.",
+        "text_vi": "Ở nơi công cộng, bạn có thể thấy một **thông báo** trên cửa với **hướng dẫn** phải đóng cửa lại. Một số khu vực bị **cấm** — bạn không được vào. Biển **thận trọng** thường có nghĩa là chậm lại hoặc cẩn thận gần một **rủi ro**."
+      },
+      {
+        "index": 3,
+        "text_en": "In an **emergency**, it is important to **obey** all signs quickly. Follow the **escape route** and **point** others in the right direction. Many signs use a **symbol** so that everyone can understand them, even without words.",
+        "text_vi": "Trong trường hợp **khẩn cấp**, điều quan trọng là **tuân theo** tất cả các biển báo nhanh chóng. Đi theo **đường thoát hiểm** và **chỉ** người khác đi đúng hướng. Nhiều biển báo sử dụng **biểu tượng** để mọi người có thể hiểu, ngay cả khi không có chữ."
+      },
+      {
+        "index": 4,
+        "text_en": "Many places use a **colour coded** system. Red means danger, green means safe, and yellow means **caution**. Learning to read these signs helps us stay safe and follow every **instruction** clearly.",
+        "text_vi": "Nhiều nơi sử dụng hệ thống **mã màu**. Màu đỏ có nghĩa là nguy hiểm, màu xanh lá cây có nghĩa là an toàn, và màu vàng có nghĩa là **thận trọng**. Học cách đọc các biển báo này giúp chúng ta giữ an toàn và làm theo mọi **hướng dẫn** một cách rõ ràng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "notice",
+      "ipa": "/ˈnəʊtɪs/",
+      "pos": "noun / verb",
+      "meaning_vi": "thông báo; nhận ra, để ý",
+      "meaning_vi_inline": "thông báo",
+      "example_en": "There is a notice on the door that says the office is closed on Sundays.",
+      "example_vi": "Có một thông báo trên cửa cho biết văn phòng đóng cửa vào Chủ nhật.",
+      "word_family": {
+        "noun": "notice",
+        "verb": "notice / noticed",
+        "adjective": "noticeable",
+        "adverb": "noticeably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "warning",
+      "ipa": "/ˈwɔːnɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "cảnh báo, lời cảnh báo",
+      "meaning_vi_inline": "cảnh báo",
+      "example_en": "The warning sign on the bottle says do not drink it — it is poison.",
+      "example_vi": "Biển cảnh báo trên chai ghi không được uống — đó là chất độc.",
+      "word_family": {
+        "noun": "warning",
+        "verb": "warn / warned",
+        "adjective": "warned",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "arrow",
+      "ipa": "/ˈærəʊ/",
+      "pos": "noun",
+      "meaning_vi": "mũi tên (ký hiệu chỉ hướng)",
+      "meaning_vi_inline": "mũi tên",
+      "example_en": "Follow the arrow on the wall — it will take you to the exit.",
+      "example_vi": "Hãy đi theo mũi tên trên tường — nó sẽ đưa bạn đến lối ra.",
+      "word_family": {
+        "noun": "arrow",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "marker",
+      "ipa": "/ˈmɑːkər/",
+      "pos": "noun",
+      "meaning_vi": "dấu hiệu đánh dấu, vật đánh dấu",
+      "meaning_vi_inline": "dấu hiệu đánh dấu",
+      "example_en": "There are yellow markers on the floor to show you where to stand in the queue.",
+      "example_vi": "Có các dấu hiệu màu vàng trên sàn nhà cho bạn biết nơi đứng xếp hàng.",
+      "word_family": {
+        "noun": "marker / mark",
+        "verb": "mark / marked",
+        "adjective": "marked",
+        "adverb": "markedly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "instruction",
+      "ipa": "/ɪnˈstrʌkʃən/",
+      "pos": "noun",
+      "meaning_vi": "hướng dẫn, chỉ dẫn",
+      "meaning_vi_inline": "hướng dẫn",
+      "example_en": "Always read the instructions on the medicine bottle before you take it.",
+      "example_vi": "Luôn đọc hướng dẫn trên chai thuốc trước khi uống.",
+      "word_family": {
+        "noun": "instruction / instructor",
+        "verb": "instruct / instructed",
+        "adjective": "instructive",
+        "adverb": "instructively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "escape route",
+      "ipa": "/ɪˈskeɪp ruːt/",
+      "pos": "noun",
+      "meaning_vi": "đường thoát hiểm",
+      "meaning_vi_inline": "đường thoát hiểm",
+      "example_en": "The escape route is clearly marked with green signs on every floor of the building.",
+      "example_vi": "Đường thoát hiểm được đánh dấu rõ ràng bằng biển màu xanh trên mỗi tầng của tòa nhà.",
+      "word_family": {
+        "noun": "escape route / escape",
+        "verb": "escape / escaped",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "risk",
+      "ipa": "/rɪsk/",
+      "pos": "noun / verb",
+      "meaning_vi": "rủi ro, nguy cơ; chấp nhận rủi ro",
+      "meaning_vi_inline": "rủi ro",
+      "example_en": "There is a risk of falling on the wet floor, so please walk carefully.",
+      "example_vi": "Có nguy cơ trượt ngã trên sàn ướt, vì vậy hãy đi cẩn thận.",
+      "word_family": {
+        "noun": "risk",
+        "verb": "risk / risked",
+        "adjective": "risky",
+        "adverb": "riskily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "forbidden",
+      "ipa": "/fəˈbɪdən/",
+      "pos": "adjective",
+      "meaning_vi": "bị cấm, không được phép",
+      "meaning_vi_inline": "bị cấm",
+      "example_en": "Smoking is forbidden inside the building — there are signs on every door.",
+      "example_vi": "Hút thuốc bị cấm trong tòa nhà — có biển báo trên mỗi cánh cửa.",
+      "word_family": {
+        "noun": null,
+        "verb": "forbid / forbade / forbidden",
+        "adjective": "forbidden",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "caution",
+      "ipa": "/ˈkɔːʃən/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự thận trọng; cảnh báo",
+      "meaning_vi_inline": "thận trọng",
+      "example_en": "The yellow caution sign on the stairs reminded everyone to hold the handrail.",
+      "example_vi": "Biển thận trọng màu vàng trên cầu thang nhắc mọi người bám vào tay vịn.",
+      "word_family": {
+        "noun": "caution",
+        "verb": "caution / cautioned",
+        "adjective": "cautious",
+        "adverb": "cautiously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "symbol",
+      "ipa": "/ˈsɪmbəl/",
+      "pos": "noun",
+      "meaning_vi": "biểu tượng, ký hiệu",
+      "meaning_vi_inline": "biểu tượng",
+      "example_en": "The skull and crossbones is an international symbol for poison and danger.",
+      "example_vi": "Hình đầu lâu và xương chéo là biểu tượng quốc tế cho chất độc và nguy hiểm.",
+      "word_family": {
+        "noun": "symbol",
+        "verb": "symbolise / symbolised",
+        "adjective": "symbolic",
+        "adverb": "symbolically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "colour coded",
+      "ipa": "/ˈkʌlər ˌkəʊdɪd/",
+      "pos": "adjective",
+      "meaning_vi": "được mã hoá bằng màu sắc, mã màu",
+      "meaning_vi_inline": "mã màu",
+      "example_en": "The map is colour coded so you can easily see which bus line goes where.",
+      "example_vi": "Bản đồ được mã hoá bằng màu sắc để bạn dễ dàng thấy tuyến xe buýt nào đi đâu.",
+      "word_family": {
+        "noun": "colour code",
+        "verb": "colour code / colour coded",
+        "adjective": "colour coded",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "emergency",
+      "ipa": "/ɪˈmɜːdʒənsi/",
+      "pos": "noun",
+      "meaning_vi": "tình huống khẩn cấp",
+      "meaning_vi_inline": "khẩn cấp",
+      "example_en": "In an emergency, dial 113 and wait for help — do not panic.",
+      "example_vi": "Trong tình huống khẩn cấp, gọi 113 và chờ trợ giúp — đừng hoảng sợ.",
+      "word_family": {
+        "noun": "emergency",
+        "verb": null,
+        "adjective": "emergency",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "obey",
+      "ipa": "/əˈbeɪ/",
+      "pos": "verb",
+      "meaning_vi": "tuân theo, vâng lời",
+      "meaning_vi_inline": "tuân theo",
+      "example_en": "You must obey the traffic signs — they are there to keep everyone safe.",
+      "example_vi": "Bạn phải tuân theo biển báo giao thông — chúng ở đó để giữ an toàn cho mọi người.",
+      "word_family": {
+        "noun": "obedience",
+        "verb": "obey / obeyed",
+        "adjective": "obedient",
+        "adverb": "obediently"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "point",
+      "ipa": "/pɔɪnt/",
+      "pos": "verb / noun",
+      "meaning_vi": "chỉ (hướng); điểm, mũi",
+      "meaning_vi_inline": "chỉ",
+      "example_en": "The security guard pointed to the exit and told us to leave quickly.",
+      "example_vi": "Bảo vệ chỉ về phía lối ra và bảo chúng tôi rời đi nhanh chóng.",
+      "word_family": {
+        "noun": "point",
+        "verb": "point / pointed",
+        "adjective": "pointed",
+        "adverb": "pointedly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "route",
+      "ipa": "/ruːt/",
+      "pos": "noun",
+      "meaning_vi": "tuyến đường, lộ trình",
+      "meaning_vi_inline": "tuyến đường",
+      "example_en": "The teacher showed us the safest route from the classroom to the fire exit.",
+      "example_vi": "Giáo viên chỉ cho chúng tôi tuyến đường an toàn nhất từ lớp học đến lối thoát hiểm.",
+      "word_family": {
+        "noun": "route",
+        "verb": "route / routed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "forbidden" },
+        { "id": 2, "word": "caution" },
+        { "id": 3, "word": "emergency" },
+        { "id": 4, "word": "symbol" },
+        { "id": 5, "word": "obey" }
+      ],
+      "options": [
+        { "id": "A", "text": "a picture or shape that has a special meaning and is used instead of words" },
+        { "id": "B", "text": "care taken to avoid danger or mistakes; a warning to be careful" },
+        { "id": "C", "text": "not allowed; against the rules" },
+        { "id": "D", "text": "to follow a rule, law, or instruction without question" },
+        { "id": "E", "text": "a sudden serious situation that needs immediate action" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The red _____ on the road tells drivers to stop immediately.",
+          "options": ["symbol", "warning", "route", "caution"],
+          "answer": "warning"
+        },
+        {
+          "id": 2,
+          "sentence": "Please _____ all the signs in the hospital — they are there to protect patients.",
+          "options": ["point", "risk", "obey", "notice"],
+          "answer": "obey"
+        },
+        {
+          "id": 3,
+          "sentence": "The green _____ sign on the wall shows the fastest way to the exit.",
+          "options": ["escape route", "colour coded", "warning", "caution"],
+          "answer": "escape route"
+        },
+        {
+          "id": 4,
+          "sentence": "Taking a _____ is part of life, but always think carefully first.",
+          "options": ["notice", "risk", "symbol", "marker"],
+          "answer": "risk"
+        },
+        {
+          "id": 5,
+          "sentence": "The bus map is _____ — each line has a different colour so it is easy to read.",
+          "options": ["forbidden", "cautious", "colour coded", "marked"],
+          "answer": "colour coded"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["arrow", "instruction", "notice", "route", "marker", "forbidden"],
+      "items": [
+        { "id": 1, "sentence": "There is a _____ on the door that says the shop opens at nine o'clock.", "answer": "notice" },
+        { "id": 2, "sentence": "The _____ on the floor shows you exactly where to stand.", "answer": "marker" },
+        { "id": 3, "sentence": "Follow the _____ on the wall — it will lead you to the exit.", "answer": "arrow" },
+        { "id": 4, "sentence": "The safest _____ to the car park is through the main building.", "answer": "route" },
+        { "id": 5, "sentence": "Read the _____ carefully before you start — do not skip any steps.", "answer": "instruction" }
+      ],
+      "note": "One word in the box is not used: forbidden"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He walked _____ towards the wet floor because he did not want to fall. (CAUTION)",
+          "base_word": "CAUTION",
+          "answer": "cautiously",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The painting on the wall _____ peace and hope for the whole community. (SYMBOL)",
+          "base_word": "SYMBOL",
+          "answer": "symbolises",
+          "form_used": "verb"
+        },
+        {
+          "id": 3,
+          "sentence": "The child was very _____ — she always did what her parents and teachers asked. (OBEY)",
+          "base_word": "OBEY",
+          "answer": "obedient",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "Crossing the road without looking is a very _____ thing to do. (RISK)",
+          "base_word": "RISK",
+          "answer": "risky",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The teacher _____ us that the test would begin in five minutes. (WARNING)",
+          "base_word": "WARNING",
+          "answer": "warned",
+          "form_used": "verb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "In an emergency, follow the [warning] to get out of the building safely.",
+          "highlighted": "warning",
+          "options": { "A": "escape route", "B": "warning", "C": "notice" },
+          "answer": "A",
+          "explanation": "A 'warning' tells you there is danger, but it does not show you the way out. In an emergency you follow the 'escape route' — the marked path to safety."
+        },
+        {
+          "id": 2,
+          "sentence": "It is [allowed] to park here — you will get a fine if you do.",
+          "highlighted": "allowed",
+          "options": { "A": "allowed", "B": "safe", "C": "forbidden" },
+          "answer": "C",
+          "explanation": "'Allowed' means you have permission to do something. The sentence says you will get a fine, which means parking is not permitted — the correct word is 'forbidden'."
+        },
+        {
+          "id": 3,
+          "sentence": "The floor [symbols] tell you which areas are for walking and which are for machines.",
+          "highlighted": "symbols",
+          "options": { "A": "routes", "B": "markers", "C": "symbols" },
+          "answer": "B",
+          "explanation": "A 'symbol' is a picture with a meaning, usually on a sign. Lines or stickers on the floor that show where to walk or stand are called 'markers'."
+        },
+        {
+          "id": 4,
+          "sentence": "The arrows on the wall [forbid] you towards the nearest exit.",
+          "highlighted": "forbid",
+          "options": { "A": "warn", "B": "forbid", "C": "point" },
+          "answer": "C",
+          "explanation": "'Forbid' means to say that something is not allowed. Arrows cannot forbid — they show direction. The correct verb is 'point', meaning to indicate a direction."
+        },
+        {
+          "id": 5,
+          "sentence": "The hospital map uses a _____ [warning] system — red for urgent, blue for general.",
+          "highlighted": "warning",
+          "options": { "A": "colour coded", "B": "warning", "C": "cautious" },
+          "answer": "A",
+          "explanation": "A 'warning' system would only alert people to danger. Using different colours to organise or categorise information is called a 'colour coded' system."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "B", "3": "E", "4": "A", "5": "D" },
+    "ex2": { "1": "warning", "2": "obey", "3": "escape route", "4": "risk", "5": "colour coded" },
+    "ex3": { "1": "notice", "2": "marker", "3": "arrow", "4": "route", "5": "instruction" },
+    "ex4": { "1": "cautiously", "2": "symbolises", "3": "obedient", "4": "risky", "5": "warned" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "A" }
+  }
+}

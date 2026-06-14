@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 35,
+    "topic_id": "b3-t35",
+    "topic_title": "Technology & Innovation",
+    "topic_title_vi": "Công Nghệ & Đổi Mới Sáng Tạo",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "💡",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The history of technology is largely a history of **disruption** — the process by which new ideas displace established systems and render previous solutions obsolete. From the printing press to the smartphone, each wave of innovation has accelerated the **diffusion** of knowledge across societies, reshaping economies and daily life in ways that were rarely anticipated. What makes modern technological change distinctive is the speed at which **obsolescence** now arrives, compressing timelines that once spanned decades into just a few years.",
+        "text_vi": "Lịch sử công nghệ phần lớn là lịch sử của **sự gián đoạn** — quá trình mà những ý tưởng mới thay thế các hệ thống hiện có và khiến các giải pháp trước đây trở nên lỗi thời. Từ máy in đến điện thoại thông minh, mỗi làn sóng đổi mới đã đẩy nhanh **sự lan truyền** kiến thức xuyên suốt các xã hội, định hình lại nền kinh tế và cuộc sống hàng ngày theo những cách hiếm khi được dự đoán trước. Điều khiến sự thay đổi công nghệ hiện đại trở nên đặc biệt chính là tốc độ mà **sự lỗi thời** ngày nay đang đến, rút ngắn những mốc thời gian vốn kéo dài hàng thập kỷ xuống chỉ còn vài năm."
+      },
+      {
+        "index": 2,
+        "text_en": "Central to the innovation process is the development of a **prototype** — an early working model that allows engineers and designers to test assumptions before committing resources to full production. Effective **iteration**, the practice of refining a product through repeated cycles of testing and feedback, is what separates successful ventures from those that collapse on first contact with real users. Startups that embrace rapid **iteration** can detect and correct design flaws long before they reach the market.",
+        "text_vi": "Trọng tâm của quá trình đổi mới là việc phát triển một **nguyên mẫu** — một mô hình làm việc ban đầu cho phép các kỹ sư và nhà thiết kế kiểm tra các giả định trước khi cam kết nguồn lực cho sản xuất đầy đủ. **Sự lặp lại cải tiến** hiệu quả — thực hành tinh chỉnh sản phẩm qua các vòng kiểm thử và phản hồi lặp đi lặp lại — là điều phân biệt những dự án thành công với những dự án thất bại khi gặp người dùng thực. Các startup áp dụng **sự lặp lại cải tiến** nhanh chóng có thể phát hiện và sửa lỗi thiết kế từ lâu trước khi đưa ra thị trường."
+      },
+      {
+        "index": 3,
+        "text_en": "Funding this process typically requires the ability to **secure venture capital funding** from investors willing to accept high risk in exchange for potential high returns. During the **incubation** phase — when ideas are nurtured and stress-tested in controlled environments — startups refine their models while protecting their inventions through **patent** law. Firms that fail to **protect intellectual property** early often find that competitors replicate their innovations before they have a chance to establish market presence.",
+        "text_vi": "Việc tài trợ cho quá trình này thường đòi hỏi khả năng **đảm bảo nguồn vốn đầu tư mạo hiểm** từ các nhà đầu tư sẵn sàng chấp nhận rủi ro cao để đổi lấy lợi nhuận tiềm năng cao. Trong giai đoạn **ươm tạo** — khi các ý tưởng được nuôi dưỡng và kiểm tra áp lực trong môi trường kiểm soát — các startup hoàn thiện mô hình của mình trong khi bảo vệ phát minh của họ thông qua luật **bằng sáng chế**. Các công ty không kịp **bảo vệ tài sản trí tuệ** sớm thường thấy rằng đối thủ cạnh tranh đã sao chép đổi mới của họ trước khi họ có cơ hội thiết lập sự hiện diện trên thị trường."
+      },
+      {
+        "index": 4,
+        "text_en": "Perhaps the most critical challenge facing any successful innovation is **scalability** — the capacity of a solution to grow without proportional increases in cost or complexity. A product may perform brilliantly at small scale yet collapse under the demands of millions of users. Entrepreneurs who can **drive technological disruption** and simultaneously **scale an innovative solution** are exceptionally rare, which is why the companies that manage to **accelerate product iteration** while maintaining quality tend to define entire industries for a generation.",
+        "text_vi": "Có lẽ thách thức quan trọng nhất mà bất kỳ đổi mới thành công nào phải đối mặt là **khả năng mở rộng quy mô** — năng lực của một giải pháp để phát triển mà không tăng tỷ lệ chi phí hay độ phức tạp. Một sản phẩm có thể hoạt động xuất sắc ở quy mô nhỏ nhưng lại sụp đổ trước nhu cầu của hàng triệu người dùng. Những doanh nhân có thể **thúc đẩy sự gián đoạn công nghệ** và đồng thời **mở rộng quy mô một giải pháp đổi mới** là cực kỳ hiếm, đó là lý do tại sao các công ty xoay sở để **đẩy nhanh vòng lặp cải tiến sản phẩm** trong khi vẫn duy trì chất lượng thường có xu hướng định hình cả một ngành trong suốt một thế hệ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "disruption",
+      "ipa": "/dɪsˈrʌp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự gián đoạn, sự phá vỡ (hệ thống hiện có)",
+      "meaning_vi_inline": "sự gián đoạn",
+      "example_en": "The rise of streaming services caused massive disruption to the traditional broadcast television industry.",
+      "example_vi": "Sự trỗi dậy của các dịch vụ trực tuyến đã gây ra sự gián đoạn lớn cho ngành truyền hình phát sóng truyền thống.",
+      "word_family": {
+        "noun": "disruption",
+        "verb": "disrupt",
+        "adjective": "disruptive",
+        "adverb": "disruptively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "iteration",
+      "ipa": "/ˌɪt.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự lặp lại cải tiến, vòng lặp phát triển",
+      "meaning_vi_inline": "sự lặp lại cải tiến",
+      "example_en": "Each iteration of the software brought incremental improvements based on user feedback.",
+      "example_vi": "Mỗi vòng lặp cải tiến của phần mềm mang lại những cải tiến dần dần dựa trên phản hồi của người dùng.",
+      "word_family": {
+        "noun": "iteration",
+        "verb": "iterate",
+        "adjective": "iterative",
+        "adverb": "iteratively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "prototype",
+      "ipa": "/ˈprəʊ.tə.taɪp/",
+      "pos": "noun",
+      "meaning_vi": "nguyên mẫu, mô hình thử nghiệm đầu tiên",
+      "meaning_vi_inline": "nguyên mẫu",
+      "example_en": "The engineering team built a working prototype to demonstrate the concept to potential investors.",
+      "example_vi": "Nhóm kỹ thuật đã xây dựng một nguyên mẫu hoạt động để trình bày khái niệm với các nhà đầu tư tiềm năng.",
+      "word_family": {
+        "noun": "prototype",
+        "verb": "prototype",
+        "adjective": "prototypical",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "scalability",
+      "ipa": "/ˌskeɪ.ləˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "khả năng mở rộng quy mô",
+      "meaning_vi_inline": "khả năng mở rộng quy mô",
+      "example_en": "Cloud infrastructure offers the scalability that traditional on-premise servers cannot match.",
+      "example_vi": "Cơ sở hạ tầng đám mây cung cấp khả năng mở rộng quy mô mà các máy chủ truyền thống tại chỗ không thể sánh được.",
+      "word_family": {
+        "noun": "scalability",
+        "verb": "scale",
+        "adjective": "scalable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "intellectual property",
+      "ipa": "/ˌɪn.təˌlek.tʃu.əl ˈprɒp.ə.ti/",
+      "pos": "noun phrase",
+      "meaning_vi": "tài sản trí tuệ",
+      "meaning_vi_inline": "tài sản trí tuệ",
+      "example_en": "Companies invest heavily in legal teams to defend their intellectual property from infringement.",
+      "example_vi": "Các công ty đầu tư nhiều vào đội ngũ pháp lý để bảo vệ tài sản trí tuệ của mình khỏi bị xâm phạm.",
+      "word_family": {
+        "noun": "intellectual property",
+        "verb": null,
+        "adjective": "intellectual",
+        "adverb": "intellectually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "obsolescence",
+      "ipa": "/ˌɒb.səˈles.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự lỗi thời, tình trạng trở nên lạc hậu",
+      "meaning_vi_inline": "sự lỗi thời",
+      "example_en": "Planned obsolescence is a controversial strategy that encourages consumers to replace products frequently.",
+      "example_vi": "Chiến lược lỗi thời có chủ đích là một chiến lược gây tranh cãi khuyến khích người tiêu dùng thay thế sản phẩm thường xuyên.",
+      "word_family": {
+        "noun": "obsolescence",
+        "verb": null,
+        "adjective": "obsolete / obsolescent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "venture capital",
+      "ipa": "/ˈven.tʃə ˌkæp.ɪ.təl/",
+      "pos": "noun phrase",
+      "meaning_vi": "vốn đầu tư mạo hiểm",
+      "meaning_vi_inline": "vốn đầu tư mạo hiểm",
+      "example_en": "Without venture capital, many of today's most successful technology companies would never have launched.",
+      "example_vi": "Nếu không có vốn đầu tư mạo hiểm, nhiều công ty công nghệ thành công nhất hiện nay đã không bao giờ ra đời.",
+      "word_family": {
+        "noun": "venture capital / venture capitalist",
+        "verb": "venture",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "incubation",
+      "ipa": "/ˌɪŋ.kjʊˈbeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự ươm tạo, giai đoạn nuôi dưỡng ý tưởng",
+      "meaning_vi_inline": "sự ươm tạo",
+      "example_en": "The startup spent twelve months in incubation before launching its minimum viable product.",
+      "example_vi": "Startup này trải qua mười hai tháng ươm tạo trước khi ra mắt sản phẩm khả dụng tối thiểu.",
+      "word_family": {
+        "noun": "incubation / incubator",
+        "verb": "incubate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "patent",
+      "ipa": "/ˈpeɪ.tənt/",
+      "pos": "noun",
+      "meaning_vi": "bằng sáng chế, quyền sở hữu phát minh",
+      "meaning_vi_inline": "bằng sáng chế",
+      "example_en": "The inventor filed a patent to prevent competitors from replicating her novel manufacturing process.",
+      "example_vi": "Nhà phát minh đã nộp đơn xin bằng sáng chế để ngăn đối thủ sao chép quy trình sản xuất mới lạ của bà.",
+      "word_family": {
+        "noun": "patent",
+        "verb": "patent",
+        "adjective": "patented / patentable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "pattern",
+        "explanation_vi": "'Patent' là bằng sáng chế hoặc quyền bảo hộ phát minh; 'pattern' là mẫu hoa văn hoặc quy luật — phát âm và nghĩa đều khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "diffusion",
+      "ipa": "/dɪˈfjuː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "sự lan truyền, sự phổ biến rộng rãi",
+      "meaning_vi_inline": "sự lan truyền",
+      "example_en": "The diffusion of social media transformed how news and information spread across populations.",
+      "example_vi": "Sự lan truyền của mạng xã hội đã biến đổi cách tin tức và thông tin phổ biến trong dân chúng.",
+      "word_family": {
+        "noun": "diffusion",
+        "verb": "diffuse",
+        "adjective": "diffuse / diffused",
+        "adverb": "diffusely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "protect intellectual property",
+      "meaning_vi": "bảo vệ tài sản trí tuệ",
+      "example_en": "Governments must strengthen international frameworks to protect intellectual property in the digital age.",
+      "example_vi": "Các chính phủ phải củng cố các khung pháp lý quốc tế để bảo vệ tài sản trí tuệ trong thời đại số.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "drive technological disruption",
+      "meaning_vi": "thúc đẩy sự gián đoạn công nghệ",
+      "example_en": "Artificial intelligence is widely expected to drive technological disruption across virtually every industry.",
+      "example_vi": "Trí tuệ nhân tạo được kỳ vọng rộng rãi sẽ thúc đẩy sự gián đoạn công nghệ trong hầu hết mọi ngành.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "secure venture capital funding",
+      "meaning_vi": "đảm bảo nguồn vốn đầu tư mạo hiểm",
+      "example_en": "The founders pitched to dozens of firms before finally managing to secure venture capital funding for their platform.",
+      "example_vi": "Các nhà sáng lập đã trình bày với hàng chục công ty trước khi cuối cùng xoay sở để đảm bảo nguồn vốn đầu tư mạo hiểm cho nền tảng của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "accelerate product iteration",
+      "meaning_vi": "đẩy nhanh vòng lặp cải tiến sản phẩm",
+      "example_en": "Adopting agile development methodologies allowed the team to accelerate product iteration significantly.",
+      "example_vi": "Áp dụng các phương pháp phát triển linh hoạt cho phép nhóm đẩy nhanh vòng lặp cải tiến sản phẩm một cách đáng kể.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "scale an innovative solution",
+      "meaning_vi": "mở rộng quy mô một giải pháp đổi mới",
+      "example_en": "The real challenge was not inventing the technology but finding a way to scale an innovative solution globally.",
+      "example_vi": "Thách thức thực sự không phải là phát minh ra công nghệ mà là tìm cách mở rộng quy mô một giải pháp đổi mới trên toàn cầu.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, technological disruption is a recent phenomenon that began with the smartphone.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage claims that most engineers prefer physical prototypes over digital simulations.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that companies which fail to protect their intellectual property early may lose their market advantage to competitors.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, venture capital investors typically demand a controlling stake in the companies they fund.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that the ability to both disrupt a market and scale a solution simultaneously is rare.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The design team built a rough _____ out of cardboard and wire to see whether the concept was physically feasible.",
+          "options": [
+            "patent",
+            "diffusion",
+            "prototype",
+            "incubation"
+          ],
+          "answer": "prototype"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of the internet across rural communities transformed access to education and government services.",
+          "options": [
+            "obsolescence",
+            "diffusion",
+            "disruption",
+            "iteration"
+          ],
+          "answer": "diffusion"
+        },
+        {
+          "id": 3,
+          "sentence": "Rapid _____ in mobile phone design means that even recently released handsets can quickly feel outdated.",
+          "options": [
+            "incubation",
+            "scalability",
+            "patent",
+            "obsolescence"
+          ],
+          "answer": "obsolescence"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ phase at the research lab allowed scientists to refine their drug compound before seeking regulatory approval.",
+          "options": [
+            "disruption",
+            "iteration",
+            "incubation",
+            "diffusion"
+          ],
+          "answer": "incubation"
+        },
+        {
+          "id": 5,
+          "sentence": "Questions of _____ delayed the merger, as both firms disputed ownership of several jointly developed algorithms.",
+          "options": [
+            "scalability",
+            "prototype",
+            "patent",
+            "intellectual property"
+          ],
+          "answer": "intellectual property"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "disruption",
+        "scalability",
+        "iteration",
+        "patent",
+        "venture capital",
+        "diffusion"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Each _____ of the app's user interface was shaped by detailed feedback collected from beta testers.",
+          "answer": "iteration"
+        },
+        {
+          "id": 2,
+          "sentence": "The company filed for a _____ to prevent rivals from copying its proprietary battery technology.",
+          "answer": "patent"
+        },
+        {
+          "id": 3,
+          "sentence": "Investors praised the platform's _____, noting that it could handle ten times the current user load without significant cost increases.",
+          "answer": "scalability"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of agricultural techniques from research centres to rural farmers took several decades.",
+          "answer": "diffusion"
+        },
+        {
+          "id": 5,
+          "sentence": "Without _____ funding, the founders had no way to hire engineers or build the infrastructure their idea required.",
+          "answer": "venture capital"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "rapid",
+            "iteration",
+            "allows",
+            "teams",
+            "to",
+            "correct",
+            "design",
+            "flaws",
+            "early"
+          ],
+          "answer": "Rapid iteration allows teams to correct design flaws early."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "patent",
+            "gives",
+            "inventors",
+            "exclusive",
+            "rights",
+            "to",
+            "their",
+            "innovation"
+          ],
+          "answer": "A patent gives inventors exclusive rights to their innovation."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "diffusion",
+            "of",
+            "new",
+            "technology",
+            "reshapes",
+            "industries",
+            "and",
+            "daily",
+            "life"
+          ],
+          "answer": "The diffusion of new technology reshapes industries and daily life."
+        },
+        {
+          "id": 4,
+          "words": [
+            "scalability",
+            "is",
+            "often",
+            "more",
+            "challenging",
+            "than",
+            "the",
+            "original",
+            "invention"
+          ],
+          "answer": "Scalability is often more challenging than the original invention."
+        },
+        {
+          "id": 5,
+          "words": [
+            "startups",
+            "need",
+            "venture",
+            "capital",
+            "to",
+            "fund",
+            "their",
+            "early",
+            "growth",
+            "and",
+            "prototype",
+            "development"
+          ],
+          "answer": "Startups need venture capital to fund their early growth and prototype development."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [disrupt] caused by ride-hailing apps permanently altered how urban transport operates in major cities.",
+          "highlighted": "disrupt",
+          "options": {
+            "A": "disrupted",
+            "B": "disruptive",
+            "C": "disruption"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'."
+        },
+        {
+          "id": 2,
+          "sentence": "Each [iterate] of the vaccine formulation brought researchers closer to a safe and effective final product.",
+          "highlighted": "iterate",
+          "options": {
+            "A": "iteration",
+            "B": "iterating",
+            "C": "iterative"
+          },
+          "answer": "A",
+          "explanation": "'Iteration' is the noun form required as the subject of 'brought'; 'iterate' is a verb and cannot serve as the subject here."
+        },
+        {
+          "id": 3,
+          "sentence": "The firm struggled to [scalability] its operations when demand suddenly tripled after a viral marketing campaign.",
+          "highlighted": "scalability",
+          "options": {
+            "A": "scaled",
+            "B": "scale",
+            "C": "scalable"
+          },
+          "answer": "B",
+          "explanation": "An infinitive verb is required after 'to' — 'scale', not the noun 'scalability'."
+        },
+        {
+          "id": 4,
+          "sentence": "The [diffusing] of electric vehicles across the transport sector has accelerated as battery costs have fallen.",
+          "highlighted": "diffusing",
+          "options": {
+            "A": "diffuse",
+            "B": "diffused",
+            "C": "diffusion"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'diffusion', not the present participle 'diffusing'."
+        },
+        {
+          "id": 5,
+          "sentence": "Rivals copied the design within months, highlighting how costly it is to neglect [patenting] your core innovations.",
+          "highlighted": "patenting",
+          "options": {
+            "A": "patented",
+            "B": "patent",
+            "C": "patents"
+          },
+          "answer": "B",
+          "explanation": "A base-form verb is needed after 'to' in the infinitive clause 'to neglect to _____ your core innovations' — 'patent' as a verb, not the gerund 'patenting' after 'neglect to'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "prototype",
+      "2": "diffusion",
+      "3": "obsolescence",
+      "4": "incubation",
+      "5": "intellectual property"
+    },
+    "ex3": {
+      "1": "iteration",
+      "2": "patent",
+      "3": "scalability",
+      "4": "diffusion",
+      "5": "venture capital"
+    },
+    "ex4": {
+      "1": "Rapid iteration allows teams to correct design flaws early.",
+      "2": "A patent gives inventors exclusive rights to their innovation.",
+      "3": "The diffusion of new technology reshapes industries and daily life.",
+      "4": "Scalability is often more challenging than the original invention.",
+      "5": "Startups need venture capital to fund their early growth and prototype development."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

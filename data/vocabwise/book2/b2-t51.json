@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 51,
+    "topic_id": "b2-t51",
+    "topic_title": "Checking Information Online",
+    "theme_number": 6,
+    "theme_title": "Media & Ideas",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🔍",
+    "topic_title_vi": "Kiểm Chứng Thông Tin Trực Tuyến",
+    "theme_title_vi": "Truyền Thông & Ý Tưởng",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 211,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "In the digital age, anyone can publish information online — which means not all of it is **trustworthy**. **False news** and misleading content **spread** rapidly across **platform**s like social media, sometimes reaching millions of people within hours. The ability to **verify facts** before sharing them has become one of the most essential skills of modern life. Without this skill, we risk becoming unwitting agents of misinformation, spreading stories we have never actually checked.",
+        "text_vi": "Trong thời đại kỹ thuật số, ai cũng có thể đăng tải thông tin trực tuyến — điều đó có nghĩa là không phải tất cả đều **đáng tin cậy**. **Tin tức giả** và nội dung gây hiểu lầm **lan truyền** nhanh chóng qua các **nền tảng** như mạng xã hội, đôi khi tiếp cận hàng triệu người trong vài giờ. Khả năng **kiểm chứng thông tin** trước khi chia sẻ đã trở thành một trong những kỹ năng thiết yếu nhất của cuộc sống hiện đại. Nếu không có kỹ năng này, chúng ta có nguy cơ trở thành những tác nhân vô tình của thông tin sai lệch, lan truyền những câu chuyện mà chúng ta thực sự chưa bao giờ kiểm chứng."
+      },
+      {
+        "index": 2,
+        "text_en": "A key concept in media literacy is **bias** — the tendency of a **source** to present information in a way that favours one perspective. Every journalist, editor, and **platform** has some degree of **bias**, even when they do not intend to **mislead**. **Critical thinking** requires us to recognise this and **check** information against multiple sources before forming a conclusion. A single **source** — even a respected one — is rarely enough to confirm whether something is true.",
+        "text_vi": "Một khái niệm quan trọng trong kiến thức truyền thông là **thiên kiến** — xu hướng của một **nguồn** trình bày thông tin theo cách ưu tiên một quan điểm. Mỗi nhà báo, biên tập viên và **nền tảng** đều có mức độ **thiên kiến** nhất định, ngay cả khi họ không có ý định **đánh lừa**. **Tư duy phê phán** đòi hỏi chúng ta nhận ra điều này và **kiểm tra** thông tin với nhiều nguồn trước khi đưa ra kết luận. Một **nguồn** duy nhất — dù được kính trọng — hiếm khi đủ để xác nhận điều gì đó có đúng không."
+      },
+      {
+        "index": 3,
+        "text_en": "**Platform**s themselves have a growing responsibility for the content they host. Social media companies are increasingly under **pressure** to **reveal** how their algorithms work and what **influence** they have over what users see. Critics argue that these algorithms amplify outrage and division because such content generates more **trust**-breaking engagement. Building **awareness** of how these systems operate is the first step in resisting their manipulation.",
+        "text_vi": "Bản thân các **nền tảng** ngày càng có trách nhiệm đối với nội dung mà chúng lưu trữ. Các công ty mạng xã hội ngày càng chịu áp lực để **tiết lộ** cách thuật toán của họ hoạt động và **ảnh hưởng** gì đến những gì người dùng thấy. Các nhà phê bình lập luận rằng các thuật toán này khuếch đại sự phẫn nộ và chia rẽ vì nội dung đó tạo ra nhiều tương tác phá vỡ **sự tin tưởng** hơn. Xây dựng **nhận thức** về cách các hệ thống này hoạt động là bước đầu tiên để chống lại sự thao túng của chúng."
+      },
+      {
+        "index": 4,
+        "text_en": "The antidote to misinformation is **critical thinking** combined with good habits: always **check** the **source**, look for corroborating evidence from **reliable** outlets, and ask whether the story seems designed to provoke an emotional reaction rather than **trust** in facts. **Awareness** campaigns in schools and workplaces can help build these habits across society. A well-informed public that can **verify facts** and spot attempts to **mislead** is one of the strongest defences against the **spread** of **false news**.",
+        "text_vi": "Giải pháp chữa trị thông tin sai lệch là **tư duy phê phán** kết hợp với thói quen tốt: luôn **kiểm tra** **nguồn**, tìm kiếm bằng chứng xác nhận từ các kênh **đáng tin cậy** và hỏi xem câu chuyện có vẻ được thiết kế để khơi dậy phản ứng cảm xúc thay vì **tin tưởng** vào sự thật không. Các chiến dịch **nâng cao nhận thức** ở trường học và nơi làm việc có thể giúp xây dựng những thói quen này trong toàn xã hội. Một công chúng được thông tin tốt có thể **kiểm chứng thông tin** và phát hiện các nỗ lực **đánh lừa** là một trong những biện pháp phòng thủ mạnh nhất chống lại sự **lan truyền** của **tin tức giả**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "source",
+      "ipa": "/sɔːs/",
+      "pos": "noun",
+      "meaning_vi": "nguồn (thông tin, bài báo, người cung cấp tin)",
+      "meaning_vi_inline": "nguồn",
+      "example_en": "Always check the source of an article before sharing it — anonymous websites are often unreliable.",
+      "example_vi": "Luôn kiểm tra nguồn của một bài báo trước khi chia sẻ — các trang web ẩn danh thường không đáng tin cậy.",
+      "word_family": {
+        "noun": "source",
+        "verb": "source",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "check",
+      "ipa": "/tʃek/",
+      "pos": "verb",
+      "meaning_vi": "kiểm tra (xác minh thông tin trước khi tin hoặc chia sẻ)",
+      "meaning_vi_inline": "kiểm tra",
+      "example_en": "Before forwarding any news story, take a moment to check whether it comes from a credible source.",
+      "example_vi": "Trước khi chuyển tiếp bất kỳ tin tức nào, hãy dành một chút thời gian để kiểm tra xem nó có đến từ nguồn đáng tin cậy không.",
+      "word_family": {
+        "noun": "check / fact-check",
+        "verb": "check / fact-check",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "trustworthy",
+      "ipa": "/ˈtrʌst.wɜː.ði/",
+      "pos": "adjective",
+      "meaning_vi": "đáng tin cậy (có thể tin tưởng được)",
+      "meaning_vi_inline": "đáng tin cậy",
+      "example_en": "A trustworthy news outlet publishes corrections when it makes mistakes rather than hiding them.",
+      "example_vi": "Một kênh tin tức đáng tin cậy đăng tải đính chính khi mắc lỗi thay vì che giấu chúng.",
+      "word_family": {
+        "noun": "trustworthiness",
+        "verb": null,
+        "adjective": "trustworthy / untrustworthy",
+        "adverb": "trustworthily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "thiên kiến (xu hướng ủng hộ một quan điểm nhất định)",
+      "meaning_vi_inline": "thiên kiến",
+      "example_en": "Readers should be aware that every newspaper has some degree of political bias in how it frames stories.",
+      "example_vi": "Độc giả nên biết rằng mỗi tờ báo đều có mức độ thiên kiến chính trị nhất định trong cách họ đặt khung câu chuyện.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased / unbiased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "spread",
+      "ipa": "/spred/",
+      "pos": "verb / noun",
+      "meaning_vi": "lan truyền (thông tin, tin tức)",
+      "meaning_vi_inline": "lan truyền",
+      "example_en": "False information can spread across the internet much faster than corrections or retractions.",
+      "example_vi": "Thông tin sai lệch có thể lan truyền qua internet nhanh hơn nhiều so với các đính chính hoặc thu hồi.",
+      "word_family": {
+        "noun": "spread",
+        "verb": "spread",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "platform",
+      "ipa": "/ˈplæt.fɔːm/",
+      "pos": "noun",
+      "meaning_vi": "nền tảng (mạng xã hội, ứng dụng tin tức, website)",
+      "meaning_vi_inline": "nền tảng",
+      "example_en": "Social media platforms are under pressure to remove misleading content before it goes viral.",
+      "example_vi": "Các nền tảng mạng xã hội đang chịu áp lực phải xóa nội dung gây hiểu lầm trước khi nó lan rộng.",
+      "word_family": {
+        "noun": "platform",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "ảnh hưởng (tác động đến ý kiến hoặc hành vi)",
+      "meaning_vi_inline": "ảnh hưởng",
+      "example_en": "Social media algorithms have a powerful influence over which news stories people are exposed to.",
+      "example_vi": "Thuật toán mạng xã hội có ảnh hưởng mạnh mẽ đến việc người ta tiếp xúc với các câu chuyện tin tức nào.",
+      "word_family": {
+        "noun": "influence",
+        "verb": "influence",
+        "adjective": "influential",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "trust",
+      "ipa": "/trʌst/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự tin tưởng (tin vào sự trung thực của nguồn tin)",
+      "meaning_vi_inline": "sự tin tưởng",
+      "example_en": "Public trust in the media has fallen sharply due to repeated cases of inaccurate reporting.",
+      "example_vi": "Niềm tin của công chúng vào truyền thông đã giảm mạnh do những trường hợp đưa tin không chính xác lặp đi lặp lại.",
+      "word_family": {
+        "noun": "trust / distrust",
+        "verb": "trust",
+        "adjective": "trustworthy / trusted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "false news",
+      "ipa": "/fɔːls njuːz/",
+      "pos": "noun phrase",
+      "meaning_vi": "tin tức giả (thông tin không đúng sự thật được đăng như tin thật)",
+      "meaning_vi_inline": "tin tức giả",
+      "example_en": "False news about the election spread rapidly online despite efforts by fact-checkers to correct it.",
+      "example_vi": "Tin tức giả về cuộc bầu cử lan truyền nhanh chóng trực tuyến mặc dù có nỗ lực của các nhà kiểm chứng thông tin để sửa chữa.",
+      "word_family": {
+        "noun": "false news / misinformation / disinformation",
+        "verb": null,
+        "adjective": "false",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "verify facts",
+      "ipa": "/ˈver.ɪ.faɪ fækts/",
+      "pos": "verb phrase",
+      "meaning_vi": "kiểm chứng thông tin (xác nhận tính đúng đắn của sự kiện)",
+      "meaning_vi_inline": "kiểm chứng thông tin",
+      "example_en": "Journalists have a professional duty to verify facts before publishing a story.",
+      "example_vi": "Nhà báo có nghĩa vụ chuyên nghiệp phải kiểm chứng thông tin trước khi đăng tải một câu chuyện.",
+      "word_family": {
+        "noun": "fact-checking / verification",
+        "verb": "verify / fact-check",
+        "adjective": "verified",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "awareness",
+      "ipa": "/əˈweə.nəs/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức (hiểu biết về một vấn đề)",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "Media literacy programmes aim to raise awareness of how false news is created and shared.",
+      "example_vi": "Các chương trình kiến thức truyền thông nhằm nâng cao nhận thức về cách tin tức giả được tạo ra và chia sẻ.",
+      "word_family": {
+        "noun": "awareness",
+        "verb": null,
+        "adjective": "aware / unaware",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "critical thinking",
+      "ipa": "/ˈkrɪt.ɪ.kəl ˈθɪŋ.kɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "tư duy phê phán (phân tích thông tin một cách có lý, không chấp nhận mù quáng)",
+      "meaning_vi_inline": "tư duy phê phán",
+      "example_en": "Schools should teach critical thinking so that students can evaluate sources and spot misinformation.",
+      "example_vi": "Trường học nên dạy tư duy phê phán để học sinh có thể đánh giá các nguồn và phát hiện thông tin sai lệch.",
+      "word_family": {
+        "noun": "critical thinking",
+        "verb": "think critically",
+        "adjective": "critical",
+        "adverb": "critically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "reveal",
+      "ipa": "/rɪˈviːl/",
+      "pos": "verb",
+      "meaning_vi": "tiết lộ (công khai thông tin ẩn hoặc bí mật)",
+      "meaning_vi_inline": "tiết lộ",
+      "example_en": "The investigation revealed that the story had been fabricated to attract clicks and advertising revenue.",
+      "example_vi": "Cuộc điều tra tiết lộ rằng câu chuyện đã được dựng lên để thu hút lượt nhấp chuột và doanh thu quảng cáo.",
+      "word_family": {
+        "noun": "revelation",
+        "verb": "reveal",
+        "adjective": "revealing / revealed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "reliable",
+      "ipa": "/rɪˈlaɪ.ə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "đáng tin cậy, đáng dựa vào (nhất quán và chính xác)",
+      "meaning_vi_inline": "đáng tin cậy",
+      "example_en": "It is important to get your news from reliable sources that have a strong record of accurate reporting.",
+      "example_vi": "Điều quan trọng là lấy tin tức của bạn từ các nguồn đáng tin cậy có hồ sơ mạnh mẽ về báo cáo chính xác.",
+      "word_family": {
+        "noun": "reliability",
+        "verb": "rely on",
+        "adjective": "reliable / unreliable",
+        "adverb": "reliably"
+      },
+      "false_friend": {
+        "word_vi": "trustworthy",
+        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và chính xác theo thời gian — ta nói 'a reliable source' (nguồn có thể dựa vào vì luôn chính xác). 'Trustworthy' nhấn mạnh sự trung thực và tính chính trực — 'a trustworthy person'. Hai từ gần nghĩa nhưng không hoàn toàn thay thế nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "mislead",
+      "ipa": "/ˌmɪsˈliːd/",
+      "pos": "verb",
+      "meaning_vi": "đánh lừa, gây hiểu lầm (cố ý hoặc vô ý)",
+      "meaning_vi_inline": "đánh lừa",
+      "example_en": "Advertisers are not allowed to mislead consumers by making claims that are exaggerated or false.",
+      "example_vi": "Các nhà quảng cáo không được phép đánh lừa người tiêu dùng bằng cách đưa ra các tuyên bố phóng đại hoặc sai sự thật.",
+      "word_family": {
+        "noun": "misleading (adj)",
+        "verb": "mislead",
+        "adjective": "misleading",
+        "adverb": "misleadingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "False news can spread to millions of people within hours via social media platforms.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage argues that well-known news organisations never show any bias.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "All social media platforms have now introduced laws requiring users to verify facts before posting.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Using multiple sources to check information is part of good critical thinking.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that social media algorithms are designed to spread false news deliberately.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She always _____ a news story with at least two different outlets before she believes it.",
+          "options": [
+            "reveals",
+            "spreads",
+            "verifies",
+            "checks"
+          ],
+          "answer": "checks"
+        },
+        {
+          "id": 2,
+          "sentence": "The research _____ that the platform's algorithm had been prioritising emotionally charged content.",
+          "options": [
+            "revealed",
+            "influenced",
+            "biased",
+            "misled"
+          ],
+          "answer": "revealed"
+        },
+        {
+          "id": 3,
+          "sentence": "Good _____ involves questioning your own assumptions and looking at evidence from multiple perspectives.",
+          "options": [
+            "awareness",
+            "trust",
+            "critical thinking",
+            "source"
+          ],
+          "answer": "critical thinking"
+        },
+        {
+          "id": 4,
+          "sentence": "A _____ news source publishes corrections quickly and transparently when it makes errors.",
+          "options": [
+            "biased",
+            "reliable",
+            "misleading",
+            "false"
+          ],
+          "answer": "reliable"
+        },
+        {
+          "id": 5,
+          "sentence": "Public _____ about how false news spreads is growing, especially among younger internet users.",
+          "options": [
+            "trust",
+            "influence",
+            "awareness",
+            "bias"
+          ],
+          "answer": "awareness"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "source",
+        "bias",
+        "false news",
+        "spread",
+        "trustworthy"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_________ travels faster online than corrections, which is why fact-checking must happen quickly.",
+          "answer": "False news"
+        },
+        {
+          "id": 2,
+          "sentence": "Every journalist and publication has some degree of _____, even if they try to be neutral.",
+          "answer": "bias"
+        },
+        {
+          "id": 3,
+          "sentence": "She refused to share the story because she couldn't identify the original _____.",
+          "answer": "source"
+        },
+        {
+          "id": 4,
+          "sentence": "Before accepting any health claim, make sure it comes from a _____ medical organisation.",
+          "answer": "trustworthy"
+        },
+        {
+          "id": 5,
+          "sentence": "Images showing violence can _____ very quickly on social media, causing panic before the truth is known.",
+          "answer": "spread"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "false",
+            "news",
+            "spreads",
+            "faster",
+            "on",
+            "social",
+            "media",
+            "than",
+            "corrections",
+            "because",
+            "emotional",
+            "content",
+            "generates",
+            "more",
+            "engagement"
+          ],
+          "answer": "False news spreads faster on social media than corrections because emotional content generates more engagement."
+        },
+        {
+          "id": 2,
+          "words": [
+            "every",
+            "source",
+            "of",
+            "information",
+            "has",
+            "some",
+            "degree",
+            "of",
+            "bias",
+            "so",
+            "critical",
+            "thinkers",
+            "always",
+            "check",
+            "multiple",
+            "outlets"
+          ],
+          "answer": "Every source of information has some degree of bias so critical thinkers always check multiple outlets."
+        },
+        {
+          "id": 3,
+          "words": [
+            "social",
+            "media",
+            "platforms",
+            "are",
+            "under",
+            "pressure",
+            "to",
+            "reveal",
+            "how",
+            "their",
+            "algorithms",
+            "influence",
+            "what",
+            "users",
+            "see"
+          ],
+          "answer": "Social media platforms are under pressure to reveal how their algorithms influence what users see."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "best",
+            "way",
+            "to",
+            "avoid",
+            "being",
+            "misled",
+            "is",
+            "to",
+            "verify",
+            "facts",
+            "using",
+            "reliable",
+            "and",
+            "trustworthy",
+            "sources"
+          ],
+          "answer": "The best way to avoid being misled is to verify facts using reliable and trustworthy sources."
+        },
+        {
+          "id": 5,
+          "words": [
+            "raising",
+            "awareness",
+            "about",
+            "false",
+            "news",
+            "in",
+            "schools",
+            "and",
+            "workplaces",
+            "is",
+            "one",
+            "of",
+            "the",
+            "best",
+            "defences",
+            "against",
+            "misinformation"
+          ],
+          "answer": "Raising awareness about false news in schools and workplaces is one of the best defences against misinformation."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The article turned out to be completely [wrong], having been written by an anonymous blogger with no credentials.",
+          "highlighted": "wrong",
+          "options": {
+            "A": "unreliable",
+            "B": "biased",
+            "C": "misleading"
+          },
+          "answer": "C",
+          "explanation": "'Misleading' is the target vocabulary adjective for content that gives a false impression, even if not every individual fact is technically incorrect. 'Wrong' is too blunt and informal. 'Unreliable' applies to a source, not content. 'Biased' means partial, not necessarily false. 'Misleading' is the precise term for content designed or tending to give the wrong impression."
+        },
+        {
+          "id": 2,
+          "sentence": "She has a [prejudice] against any news outlet that is funded by a political party.",
+          "highlighted": "prejudice",
+          "options": {
+            "A": "bias",
+            "B": "prejudice",
+            "C": "opinion"
+          },
+          "answer": "A",
+          "explanation": "'Bias' is the target vocabulary word for a systematic tendency to favour one side or perspective, especially in media and information contexts. 'Prejudice' implies a personal emotional attitude formed without evidence — typically used for attitudes toward people. 'Opinion' is neutral. In media literacy, 'bias' is the standard academic term for partial or slanted coverage."
+        },
+        {
+          "id": 3,
+          "sentence": "The documentary [showed] that the company had been hiding its environmental data for years.",
+          "highlighted": "showed",
+          "options": {
+            "A": "uncovered",
+            "B": "spread",
+            "C": "revealed"
+          },
+          "answer": "C",
+          "explanation": "'Revealed' is the target vocabulary verb for making hidden or secret information public, especially through investigation. 'Showed' is too generic. 'Uncovered' works in context but is not the target vocabulary term. 'Spread' means to distribute information, not to expose it. 'Revealed' is the specific word for exposing information that was previously hidden."
+        },
+        {
+          "id": 4,
+          "sentence": "People who share stories without [checking] them first risk spreading false information to their friends.",
+          "highlighted": "checking",
+          "options": {
+            "A": "checking",
+            "B": "verifying",
+            "C": "reading"
+          },
+          "answer": "B",
+          "explanation": "'Verify facts' is the target vocabulary phrase for the process of confirming that information is accurate before sharing it. 'Checking' is a valid synonym but not the precise vocabulary item from this topic. 'Reading' is too passive and does not imply evaluation. 'Verify' is the formal, academic term used specifically in journalism and media literacy."
+        },
+        {
+          "id": 5,
+          "sentence": "Building [knowledge] about how algorithms work can help people resist media manipulation.",
+          "highlighted": "knowledge",
+          "options": {
+            "A": "understanding",
+            "B": "trust",
+            "C": "awareness"
+          },
+          "answer": "C",
+          "explanation": "'Awareness' is the target vocabulary word for a state of knowing or being conscious of an issue — especially in the context of campaigns and education ('raise awareness'). 'Knowledge' is broader and implies detailed factual information. 'Understanding' is close but usually implies deeper comprehension. 'Awareness' is the specific term used in media literacy programmes and the passage."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "checks",
+      "2": "revealed",
+      "3": "critical thinking",
+      "4": "reliable",
+      "5": "awareness"
+    },
+    "ex3": {
+      "1": "False news",
+      "2": "bias",
+      "3": "source",
+      "4": "trustworthy",
+      "5": "spread"
+    },
+    "ex4": {
+      "1": "False news spreads faster on social media than corrections because emotional content generates more engagement.",
+      "2": "Every source of information has some degree of bias so critical thinkers always check multiple outlets.",
+      "3": "Social media platforms are under pressure to reveal how their algorithms influence what users see.",
+      "4": "The best way to avoid being misled is to verify facts using reliable and trustworthy sources.",
+      "5": "Raising awareness about false news in schools and workplaces is one of the best defences against misinformation."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

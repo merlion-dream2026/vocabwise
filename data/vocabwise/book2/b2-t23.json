@@ -1,0 +1,659 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 23,
+    "topic_id": "b2-t23",
+    "topic_title": "Global Trade",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌍",
+    "topic_title_vi": "Thương Mại Toàn Cầu",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 220,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "International **trade** — the buying and selling of goods and services between countries — is one of the driving forces of the **global** economy. Countries **export** goods that they can produce efficiently and **import** goods that are cheaper or unavailable to make domestically. This specialisation allows nations to benefit from each other's strengths and supports economic growth worldwide.",
+        "text_vi": "**Thương mại** quốc tế — việc mua bán hàng hóa và dịch vụ giữa các quốc gia — là một trong những động lực của nền kinh tế **toàn cầu**. Các quốc gia **xuất khẩu** hàng hóa mà họ có thể sản xuất hiệu quả và **nhập khẩu** hàng hóa rẻ hơn hoặc không có khả năng tự sản xuất trong nước. Sự chuyên môn hóa này cho phép các quốc gia hưởng lợi từ thế mạnh của nhau và thúc đẩy tăng trưởng kinh tế toàn cầu."
+      },
+      {
+        "index": 2,
+        "text_en": "The laws of **supply** and **demand** play a central role in shaping trade patterns. When supply is high and demand is low, prices fall; when demand exceeds supply, prices rise. Nations often **compete** to offer the same goods at lower prices, attracting more buyers. When trading internationally, businesses must also manage differences in **currency** — the money used in each country — and **exchange** rates, which determine how much one currency is worth in another.",
+        "text_vi": "Quy luật **cung** và **cầu** đóng vai trò trung tâm trong việc định hình các mô hình thương mại. Khi cung cao và cầu thấp, giá giảm; khi cầu vượt cung, giá tăng. Các quốc gia thường **cạnh tranh** để cung cấp hàng hóa tương tự với giá thấp hơn, thu hút nhiều người mua hơn. Khi giao thương quốc tế, doanh nghiệp cũng phải xử lý sự khác biệt về **tiền tệ** — đồng tiền sử dụng ở mỗi quốc gia — và tỷ giá **hối đoái**, quyết định giá trị của một đồng tiền so với đồng tiền khác."
+      },
+      {
+        "index": 3,
+        "text_en": "Before countries can trade freely, they often need to **negotiate** — to hold formal discussions to reach a deal that benefits both sides. A successful **agreement** reduces obstacles and opens markets wider. However, some governments impose a **barrier** on imports, such as a **trade tax** — a charge on goods entering the country — to protect local industries from cheaper foreign competition.",
+        "text_vi": "Trước khi các quốc gia có thể tự do giao thương, họ thường cần **đàm phán** — tổ chức các cuộc thảo luận chính thức để đạt được thỏa thuận có lợi cho cả hai bên. Một **hiệp định** thành công sẽ giảm bớt trở ngại và mở rộng thị trường. Tuy nhiên, một số chính phủ áp đặt **rào cản** đối với hàng nhập khẩu, chẳng hạn như **thuế thương mại** — khoản thuế đánh vào hàng hóa nhập khẩu — để bảo vệ các ngành công nghiệp trong nước khỏi cạnh tranh nước ngoài."
+      },
+      {
+        "index": 4,
+        "text_en": "Governments also **regulate** international trade through laws and standards designed to ensure fairness, safety, and environmental responsibility. Countries that **produce** large quantities of raw materials or manufactured goods are particularly active participants in global markets. As more nations engage in open trade, the world economy has become deeply interconnected, creating both new opportunities and significant challenges.",
+        "text_vi": "Các chính phủ cũng **điều tiết** thương mại quốc tế thông qua luật pháp và tiêu chuẩn nhằm đảm bảo sự công bằng, an toàn và trách nhiệm môi trường. Các quốc gia **sản xuất** lượng lớn nguyên liệu thô hoặc hàng hóa chế tạo là những người tham gia đặc biệt tích cực trên thị trường toàn cầu. Khi ngày càng nhiều quốc gia tham gia thương mại tự do, nền kinh tế thế giới trở nên gắn kết sâu sắc, tạo ra cả cơ hội mới lẫn thách thức đáng kể."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "trade",
+      "ipa": "/treɪd/",
+      "pos": "noun / verb",
+      "meaning_vi": "thương mại; giao thương",
+      "meaning_vi_inline": "thương mại",
+      "example_en": "The two countries have a long history of trade in agricultural goods.",
+      "example_vi": "Hai quốc gia có lịch sử lâu dài giao thương hàng nông sản.",
+      "word_family": {
+        "noun": "trade / trader / trading",
+        "verb": "trade",
+        "adjective": "trading",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "global",
+      "ipa": "/ˈɡləʊ.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "toàn cầu",
+      "meaning_vi_inline": "toàn cầu",
+      "example_en": "The company has a global presence in over 50 countries.",
+      "example_vi": "Công ty có mặt trên toàn cầu tại hơn 50 quốc gia.",
+      "word_family": {
+        "noun": "globe / globalisation",
+        "verb": "globalise",
+        "adjective": "global",
+        "adverb": "globally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "export",
+      "ipa": "/ˈek.spɔːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "xuất khẩu; hàng xuất khẩu",
+      "meaning_vi_inline": "xuất khẩu",
+      "example_en": "Vietnam exports large quantities of rice and coffee every year.",
+      "example_vi": "Việt Nam xuất khẩu lượng lớn gạo và cà phê mỗi năm.",
+      "word_family": {
+        "noun": "export / exporter",
+        "verb": "export",
+        "adjective": "exportable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "import",
+        "explanation_vi": "'Export' là xuất khẩu (bán ra nước ngoài); 'import' là nhập khẩu (mua từ nước ngoài) — hai hành động ngược chiều nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "import",
+      "ipa": "/ˈɪm.pɔːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "nhập khẩu; hàng nhập khẩu",
+      "meaning_vi_inline": "nhập khẩu",
+      "example_en": "The country imports most of its technology equipment from abroad.",
+      "example_vi": "Quốc gia này nhập khẩu phần lớn thiết bị công nghệ từ nước ngoài.",
+      "word_family": {
+        "noun": "import / importer",
+        "verb": "import",
+        "adjective": "imported",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "supply",
+      "ipa": "/səˈplaɪ/",
+      "pos": "noun / verb",
+      "meaning_vi": "nguồn cung; cung cấp",
+      "meaning_vi_inline": "cung",
+      "example_en": "A shortage in oil supply caused fuel prices to rise sharply.",
+      "example_vi": "Sự thiếu hụt trong nguồn cung dầu khiến giá nhiên liệu tăng mạnh.",
+      "word_family": {
+        "noun": "supply / supplier",
+        "verb": "supply",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "demand",
+        "explanation_vi": "'Supply' là lượng hàng hóa sẵn có để bán; 'demand' là lượng hàng hóa người mua muốn mua — cung và cầu là hai lực đối lập định giá thị trường."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "demand",
+      "ipa": "/dɪˈmɑːnd/",
+      "pos": "noun / verb",
+      "meaning_vi": "nhu cầu (thị trường); yêu cầu",
+      "meaning_vi_inline": "cầu",
+      "example_en": "The high demand for electric vehicles has boosted production worldwide.",
+      "example_vi": "Nhu cầu cao về xe điện đã thúc đẩy sản xuất trên toàn thế giới.",
+      "word_family": {
+        "noun": "demand",
+        "verb": "demand",
+        "adjective": "in-demand",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "cạnh tranh (trên thị trường quốc tế)",
+      "meaning_vi_inline": "cạnh tranh",
+      "example_en": "Developing countries often struggle to compete with cheaper manufactured goods from larger economies.",
+      "example_vi": "Các nước đang phát triển thường khó cạnh tranh với hàng sản xuất rẻ hơn từ các nền kinh tế lớn.",
+      "word_family": {
+        "noun": "competition / competitor",
+        "verb": "compete",
+        "adjective": "competitive",
+        "adverb": "competitively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "currency",
+      "ipa": "/ˈkʌr.ən.si/",
+      "pos": "noun",
+      "meaning_vi": "tiền tệ, đồng tiền của một quốc gia",
+      "meaning_vi_inline": "tiền tệ",
+      "example_en": "The US dollar is the world's most widely used trading currency.",
+      "example_vi": "Đồng đô la Mỹ là đồng tiền giao thương được sử dụng rộng rãi nhất thế giới.",
+      "word_family": {
+        "noun": "currency",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "exchange",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "tỷ giá hối đoái; trao đổi (tiền tệ)",
+      "meaning_vi_inline": "hối đoái",
+      "example_en": "The exchange rate between the pound and the dollar changes daily.",
+      "example_vi": "Tỷ giá hối đoái giữa đồng bảng và đồng đô la thay đổi hàng ngày.",
+      "word_family": {
+        "noun": "exchange",
+        "verb": "exchange",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "negotiate",
+      "ipa": "/nɪˈɡəʊ.ʃi.eɪt/",
+      "pos": "verb",
+      "meaning_vi": "đàm phán",
+      "meaning_vi_inline": "đàm phán",
+      "example_en": "The two governments agreed to negotiate a new trade deal.",
+      "example_vi": "Hai chính phủ đồng ý đàm phán một hiệp định thương mại mới.",
+      "word_family": {
+        "noun": "negotiation / negotiator",
+        "verb": "negotiate",
+        "adjective": "negotiable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "agreement",
+      "ipa": "/əˈɡriː.mənt/",
+      "pos": "noun",
+      "meaning_vi": "hiệp định, thỏa thuận (chính thức)",
+      "meaning_vi_inline": "hiệp định",
+      "example_en": "The free trade agreement removed tariffs on thousands of goods.",
+      "example_vi": "Hiệp định thương mại tự do đã loại bỏ thuế quan đối với hàng nghìn mặt hàng.",
+      "word_family": {
+        "noun": "agreement",
+        "verb": "agree",
+        "adjective": "agreed / agreeable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "deal",
+        "explanation_vi": "'Agreement' là văn bản chính thức, thường có tính pháp lý; 'deal' mang nghĩa thông thường hơn và thường dùng trong giao tiếp không trang trọng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "barrier",
+      "ipa": "/ˈbær.i.ər/",
+      "pos": "noun",
+      "meaning_vi": "rào cản (thương mại)",
+      "meaning_vi_inline": "rào cản",
+      "example_en": "High import tariffs act as a trade barrier that discourages foreign competition.",
+      "example_vi": "Thuế nhập khẩu cao đóng vai trò rào cản thương mại, ngăn cản cạnh tranh nước ngoài.",
+      "word_family": {
+        "noun": "barrier",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "trade tax",
+      "ipa": "/treɪd tæks/",
+      "pos": "noun phrase",
+      "meaning_vi": "thuế thương mại, thuế quan (đánh vào hàng nhập khẩu)",
+      "meaning_vi_inline": "thuế quan",
+      "example_en": "The government imposed a trade tax on imported steel to protect local manufacturers.",
+      "example_vi": "Chính phủ áp đặt thuế thương mại đối với thép nhập khẩu để bảo vệ nhà sản xuất trong nước.",
+      "word_family": {
+        "noun": "trade tax / tariff",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "tariff",
+        "explanation_vi": "Trong tiếng Anh học thuật và kinh tế, 'tariff' là từ chính xác hơn cho thuế đánh vào hàng nhập khẩu; 'trade tax' là cách diễn đạt đơn giản hơn nhưng có cùng nghĩa."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "regulate",
+      "ipa": "/ˈreɡ.jʊ.leɪt/",
+      "pos": "verb",
+      "meaning_vi": "điều tiết, quản lý (bằng luật pháp)",
+      "meaning_vi_inline": "điều tiết",
+      "example_en": "The government regulates international trade to ensure safety and fair competition.",
+      "example_vi": "Chính phủ điều tiết thương mại quốc tế để đảm bảo an toàn và cạnh tranh công bằng.",
+      "word_family": {
+        "noun": "regulation / regulator",
+        "verb": "regulate",
+        "adjective": "regulatory / regulated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "produce",
+      "ipa": "/prəˈdjuːs/",
+      "pos": "verb / noun",
+      "meaning_vi": "sản xuất; nông/thực phẩm sản xuất",
+      "meaning_vi_inline": "sản xuất",
+      "example_en": "Brazil produces large amounts of coffee, soy, and beef for the global market.",
+      "example_vi": "Brazil sản xuất lượng lớn cà phê, đậu nành và thịt bò cho thị trường toàn cầu.",
+      "word_family": {
+        "noun": "produce / production / producer",
+        "verb": "produce",
+        "adjective": "productive",
+        "adverb": "productively"
+      },
+      "false_friend": {
+        "word_vi": "product",
+        "explanation_vi": "'Produce' (động từ) là hành động sản xuất; 'product' (danh từ) là thứ được sản xuất ra. Phát âm cũng khác: động từ /prəˈdjuːs/, danh từ /ˈprɒd.juːs/."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Countries export goods they can produce efficiently and import goods that are cheaper to buy from abroad.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "When demand exceeds supply, prices in the market will fall.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage explains how trade agreements are formally signed by world leaders.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A trade tax is a charge placed on goods entering a country from abroad.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that open international trade always benefits all participating countries equally.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Japan _____ millions of cars and electronic goods to countries around the world every year.",
+          "options": [
+            "exports",
+            "imports",
+            "negotiates",
+            "regulates"
+          ],
+          "answer": "exports"
+        },
+        {
+          "id": 2,
+          "sentence": "The two governments held talks for months before finally reaching a trade _____ that satisfied both sides.",
+          "options": [
+            "barrier",
+            "exchange",
+            "agreement",
+            "supply"
+          ],
+          "answer": "agreement"
+        },
+        {
+          "id": 3,
+          "sentence": "The government imposed a _____ on imported steel to protect its own manufacturing industry.",
+          "options": [
+            "currency",
+            "trade tax",
+            "demand",
+            "rate"
+          ],
+          "answer": "trade tax"
+        },
+        {
+          "id": 4,
+          "sentence": "A rise in global oil _____ helped stabilise fuel prices across Europe during the winter months.",
+          "options": [
+            "imports",
+            "currency",
+            "barriers",
+            "supply"
+          ],
+          "answer": "supply"
+        },
+        {
+          "id": 5,
+          "sentence": "The government decided to _____ international trade more strictly after several product safety scandals.",
+          "options": [
+            "exchange",
+            "demand",
+            "regulate",
+            "produce"
+          ],
+          "answer": "regulate"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "export",
+        "import",
+        "negotiate",
+        "barrier",
+        "demand"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Both countries agreed to _____ a new deal after their previous trade agreement expired.",
+          "answer": "negotiate"
+        },
+        {
+          "id": 2,
+          "sentence": "The high _____ for electric vehicles has encouraged more countries to increase their production.",
+          "answer": "demand"
+        },
+        {
+          "id": 3,
+          "sentence": "The government imposed a _____ on imported clothing to protect the local textile industry.",
+          "answer": "barrier"
+        },
+        {
+          "id": 4,
+          "sentence": "Vietnam continues to _____ large quantities of coffee and rice to countries around the world.",
+          "answer": "export"
+        },
+        {
+          "id": 5,
+          "sentence": "The country had to _____ most of its technology equipment because it lacked the factories to build it locally.",
+          "answer": "import"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "countries",
+            "export",
+            "goods",
+            "they",
+            "produce",
+            "efficiently",
+            "and",
+            "import",
+            "what",
+            "they",
+            "cannot"
+          ],
+          "answer": "Countries export goods they produce efficiently and import what they cannot."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "government",
+            "imposed",
+            "a",
+            "trade",
+            "tax",
+            "to",
+            "protect",
+            "local",
+            "industries"
+          ],
+          "answer": "The government imposed a trade tax to protect local industries."
+        },
+        {
+          "id": 3,
+          "words": [
+            "rising",
+            "demand",
+            "for",
+            "electric",
+            "vehicles",
+            "has",
+            "changed",
+            "global",
+            "trade",
+            "patterns"
+          ],
+          "answer": "Rising demand for electric vehicles has changed global trade patterns."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "two",
+            "countries",
+            "agreed",
+            "to",
+            "negotiate",
+            "a",
+            "new",
+            "trade",
+            "agreement"
+          ],
+          "answer": "The two countries agreed to negotiate a new trade agreement."
+        },
+        {
+          "id": 5,
+          "words": [
+            "exchange",
+            "rates",
+            "affect",
+            "how",
+            "much",
+            "goods",
+            "cost",
+            "when",
+            "traded",
+            "between",
+            "countries"
+          ],
+          "answer": "Exchange rates affect how much goods cost when traded between countries."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Vietnam sells millions of tonnes of rice to other countries each year, making it a major [seller] of the grain.",
+          "highlighted": "seller",
+          "options": {
+            "A": "exporter",
+            "B": "seller",
+            "C": "supplier"
+          },
+          "answer": "A",
+          "explanation": "'Exporter' is the specific international trade term for a country or company that sells and ships goods to other countries; 'seller' is informal, and 'supplier' focuses on providing goods domestically or to a business partner."
+        },
+        {
+          "id": 2,
+          "sentence": "The two leaders discussed terms for months before finally reaching a trade [deal] that both sides accepted.",
+          "highlighted": "deal",
+          "options": {
+            "A": "deal",
+            "B": "agreement",
+            "C": "conclusion"
+          },
+          "answer": "B",
+          "explanation": "'Agreement' is the formal term used in trade and diplomacy for an official arrangement between parties; 'deal' is informal, and 'conclusion' refers to an ending or result, not a mutual arrangement."
+        },
+        {
+          "id": 3,
+          "sentence": "High import prices act as a [block] that prevents foreign goods from competing with local products.",
+          "highlighted": "block",
+          "options": {
+            "A": "block",
+            "B": "barrier",
+            "C": "penalty"
+          },
+          "answer": "B",
+          "explanation": "'Barrier' is the precise trade term for any obstacle — including taxes or regulations — that restricts the movement of goods between countries; 'block' is informal and imprecise."
+        },
+        {
+          "id": 4,
+          "sentence": "The high [need] for smartphones has encouraged manufacturers to expand production worldwide.",
+          "highlighted": "need",
+          "options": {
+            "A": "demand",
+            "B": "need",
+            "C": "supply"
+          },
+          "answer": "A",
+          "explanation": "'Demand' is the economic term for the desire and ability of consumers to buy goods at a given price; 'need' is informal and lacks the economic precision required in this context."
+        },
+        {
+          "id": 5,
+          "sentence": "The government decided to [control] trade more carefully after unsafe imported food caused public concern.",
+          "highlighted": "control",
+          "options": {
+            "A": "control",
+            "B": "monitor",
+            "C": "regulate"
+          },
+          "answer": "C",
+          "explanation": "'Regulate' means to control trade through official rules and laws — it is the precise term used in economics and government policy; 'control' and 'monitor' are more casual and do not imply the same formal legal framework."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "exports",
+      "2": "agreement",
+      "3": "trade tax",
+      "4": "supply",
+      "5": "regulate"
+    },
+    "ex3": {
+      "1": "negotiate",
+      "2": "demand",
+      "3": "barrier",
+      "4": "export",
+      "5": "import"
+    },
+    "ex4": {
+      "1": "Countries export goods they produce efficiently and import what they cannot.",
+      "2": "The government imposed a trade tax to protect local industries.",
+      "3": "Rising demand for electric vehicles has changed global trade patterns.",
+      "4": "The two countries agreed to negotiate a new trade agreement.",
+      "5": "Exchange rates affect how much goods cost when traded between countries."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

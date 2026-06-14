@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 53,
+    "topic_id": "b3-t53",
+    "topic_title": "Bioethics & Medicine",
+    "topic_title_vi": "Đạo Đức Sinh Y & Y Học",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🏥",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 223,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Modern medicine rests on a set of ethical principles designed to protect both patients and practitioners. Central among these is **consent** — the requirement that patients must voluntarily agree to any medical procedure or **clinical trial** before it proceeds. Closely related is the principle of **autonomy**, which holds that individuals have the right to make informed decisions about their own bodies, even when those decisions conflict with medical advice. Together, these concepts form the ethical foundation of patient-centred care.",
+        "text_vi": "Y học hiện đại được xây dựng trên một tập hợp các nguyên tắc đạo đức nhằm bảo vệ cả bệnh nhân lẫn người hành nghề. Quan trọng nhất trong số đó là **sự đồng ý** — yêu cầu rằng bệnh nhân phải tự nguyện chấp thuận bất kỳ thủ thuật y tế hoặc **thử nghiệm lâm sàng** nào trước khi tiến hành. Liên quan chặt chẽ là nguyên tắc **tự chủ**, khẳng định rằng mỗi cá nhân có quyền đưa ra quyết định sáng suốt về cơ thể của mình, ngay cả khi những quyết định đó mâu thuẫn với lời khuyên y tế. Những khái niệm này cùng nhau tạo thành nền tảng đạo đức của việc chăm sóc lấy bệnh nhân làm trung tâm."
+      },
+      {
+        "index": 2,
+        "text_en": "Two further principles — **beneficence** and **non-maleficence** — oblige healthcare providers to act in a patient's best interest while avoiding harm. These obligations are complicated, however, when resources are scarce. The fair **allocation** of organs, vaccines, or intensive care beds requires transparent criteria; without them, decisions risk becoming arbitrary or discriminatory. Medical professionals must also **uphold medical confidentiality**, ensuring that sensitive health information is never disclosed without a patient's explicit approval.",
+        "text_vi": "Hai nguyên tắc nữa — **nhân từ** và **vô hại** — buộc các nhà cung cấp dịch vụ y tế phải hành động vì lợi ích tốt nhất của bệnh nhân đồng thời tránh gây hại. Tuy nhiên, những nghĩa vụ này trở nên phức tạp khi nguồn lực khan hiếm. Việc **phân bổ** công bằng các cơ quan, vắc-xin hay giường chăm sóc tích cực đòi hỏi tiêu chí minh bạch; nếu thiếu chúng, các quyết định có nguy cơ trở nên tùy tiện hoặc phân biệt đối xử. Các chuyên gia y tế cũng phải **duy trì bảo mật thông tin y tế**, đảm bảo rằng thông tin sức khỏe nhạy cảm không bao giờ bị tiết lộ mà không có sự chấp thuận rõ ràng của bệnh nhân."
+      },
+      {
+        "index": 3,
+        "text_en": "Among the most contentious debates in bioethics is **euthanasia** — the deliberate ending of a life to relieve suffering. Proponents argue that **respect patient autonomy** demands that individuals facing terminal illness be given control over the timing and manner of their death. Critics, however, fear that legalising euthanasia could erode trust in healthcare and expose vulnerable patients to pressure. A related concern is the use of a **placebo** in clinical research: giving patients a dummy treatment without disclosure raises questions about honesty and **consent**.",
+        "text_vi": "Một trong những tranh luận gây tranh cãi nhất trong đạo đức sinh y là **an tử** — việc chủ động chấm dứt sự sống để giảm bớt đau khổ. Những người ủng hộ lập luận rằng **tôn trọng quyền tự chủ của bệnh nhân** đòi hỏi phải trao cho những cá nhân đang đối mặt với bệnh nan y quyền kiểm soát thời điểm và cách thức ra đi. Tuy nhiên, những người phản đối lo ngại rằng việc hợp pháp hóa an tử có thể làm xói mòn niềm tin vào y tế và khiến bệnh nhân dễ bị tổn thương trước áp lực. Một mối lo ngại liên quan là việc sử dụng **giả dược** trong nghiên cứu lâm sàng: cho bệnh nhân một phương pháp điều trị giả mà không thông báo đặt ra câu hỏi về tính trung thực và **sự đồng ý**."
+      },
+      {
+        "index": 4,
+        "text_en": "Finally, bioethicists warn against **paternalism** — the tendency of clinicians to override patient preferences on the grounds that they know best. Although well-intentioned, paternalistic attitudes can silence patient voices and undermine dignity. Healthcare systems that **challenge paternalistic practices** and actively **allocate scarce medical resources** through inclusive deliberation are better positioned to **navigate end-of-life decisions** fairly and compassionately, earning the trust of patients and communities alike.",
+        "text_vi": "Cuối cùng, các nhà đạo đức sinh y cảnh báo về **chủ nghĩa gia trưởng** — xu hướng của các bác sĩ lâm sàng bác bỏ sở thích của bệnh nhân với lý do họ biết điều gì tốt nhất. Dù xuất phát từ thiện chí, thái độ gia trưởng có thể bịt miệng tiếng nói của bệnh nhân và làm suy giảm phẩm giá. Các hệ thống y tế **thách thức những thực hành gia trưởng** và chủ động **phân bổ các nguồn lực y tế khan hiếm** thông qua thảo luận toàn diện sẽ ở vị thế tốt hơn để **điều hướng các quyết định cuối đời** một cách công bằng và nhân văn, từ đó giành được niềm tin của bệnh nhân và cộng đồng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "consent",
+      "ipa": "/kənˈsent/",
+      "pos": "noun",
+      "meaning_vi": "sự đồng ý, sự chấp thuận",
+      "meaning_vi_inline": "sự đồng ý",
+      "example_en": "Informed consent must be obtained from every participant before a clinical trial begins.",
+      "example_vi": "Sự đồng ý có thông tin phải được lấy từ mỗi người tham gia trước khi thử nghiệm lâm sàng bắt đầu.",
+      "word_family": {
+        "noun": "consent",
+        "verb": "consent",
+        "adjective": "consensual",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "meaning_vi": "quyền tự chủ, sự tự quyết",
+      "meaning_vi_inline": "tự chủ",
+      "example_en": "Respecting patient autonomy means allowing individuals to refuse treatment even when doctors disagree.",
+      "example_vi": "Tôn trọng quyền tự chủ của bệnh nhân có nghĩa là cho phép cá nhân từ chối điều trị ngay cả khi bác sĩ không đồng ý.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "confidentiality",
+      "ipa": "/ˌkɒn.fɪˌden.ʃiˈæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính bảo mật, sự giữ bí mật",
+      "meaning_vi_inline": "bảo mật thông tin",
+      "example_en": "Medical confidentiality is a cornerstone of the trust between patient and physician.",
+      "example_vi": "Bảo mật thông tin y tế là nền tảng của sự tin tưởng giữa bệnh nhân và bác sĩ.",
+      "word_family": {
+        "noun": "confidentiality / confidence",
+        "verb": null,
+        "adjective": "confidential",
+        "adverb": "confidentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "beneficence",
+      "ipa": "/bɪˈnef.ɪ.səns/",
+      "pos": "noun",
+      "meaning_vi": "lòng nhân từ, hành động vì lợi ích của người khác",
+      "meaning_vi_inline": "nhân từ",
+      "example_en": "The principle of beneficence requires doctors to actively promote the well-being of their patients.",
+      "example_vi": "Nguyên tắc nhân từ yêu cầu bác sĩ chủ động thúc đẩy sức khỏe của bệnh nhân.",
+      "word_family": {
+        "noun": "beneficence / benefactor",
+        "verb": null,
+        "adjective": "beneficent",
+        "adverb": "beneficently"
+      },
+      "false_friend": {
+        "word_vi": "benevolence",
+        "explanation_vi": "'Beneficence' là hành động cụ thể mang lại lợi ích cho người khác; 'benevolence' là thái độ tốt bụng, thiện chí nói chung — không thay thế nhau trong ngữ cảnh y tế."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "non-maleficence",
+      "ipa": "/nɒn məˈlef.ɪ.səns/",
+      "pos": "noun",
+      "meaning_vi": "nguyên tắc vô hại, nghĩa vụ không gây hại",
+      "meaning_vi_inline": "vô hại",
+      "example_en": "Non-maleficence obliges clinicians to weigh the potential harm of any intervention before proceeding.",
+      "example_vi": "Nguyên tắc vô hại buộc các bác sĩ lâm sàng phải cân nhắc tác hại tiềm tàng của bất kỳ can thiệp nào trước khi tiến hành.",
+      "word_family": {
+        "noun": "non-maleficence / maleficence",
+        "verb": null,
+        "adjective": "maleficent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "clinical trial",
+      "ipa": "/ˈklɪn.ɪ.kəl ˈtraɪ.əl/",
+      "pos": "noun phrase",
+      "meaning_vi": "thử nghiệm lâm sàng",
+      "meaning_vi_inline": "thử nghiệm lâm sàng",
+      "example_en": "The new drug showed promising results during its Phase III clinical trial.",
+      "example_vi": "Loại thuốc mới cho thấy kết quả đầy hứa hẹn trong thử nghiệm lâm sàng Giai đoạn III.",
+      "word_family": {
+        "noun": "clinical trial / trial",
+        "verb": "trial",
+        "adjective": "clinical",
+        "adverb": "clinically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "euthanasia",
+      "ipa": "/ˌjuː.θəˈneɪ.zi.ə/",
+      "pos": "noun",
+      "meaning_vi": "an tử, việc chủ động chấm dứt sự sống để giảm đau",
+      "meaning_vi_inline": "an tử",
+      "example_en": "The debate over euthanasia centres on whether the right to die with dignity outweighs concerns about misuse.",
+      "example_vi": "Cuộc tranh luận về an tử xoay quanh việc liệu quyền được chết có phẩm giá có quan trọng hơn mối lo ngại về sự lạm dụng hay không.",
+      "word_family": {
+        "noun": "euthanasia",
+        "verb": null,
+        "adjective": "euthanasic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "allocation",
+      "ipa": "/ˌæl.əˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân bổ, sự phân chia",
+      "meaning_vi_inline": "phân bổ",
+      "example_en": "The fair allocation of donor organs remains one of the most ethically complex challenges in medicine.",
+      "example_vi": "Việc phân bổ công bằng các cơ quan hiến tặng vẫn là một trong những thách thức phức tạp nhất về mặt đạo đức trong y học.",
+      "word_family": {
+        "noun": "allocation",
+        "verb": "allocate",
+        "adjective": "allocated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "placebo",
+      "ipa": "/pləˈsiː.bəʊ/",
+      "pos": "noun",
+      "meaning_vi": "giả dược, thuốc không có hoạt chất",
+      "meaning_vi_inline": "giả dược",
+      "example_en": "Patients in the control group were given a placebo to compare outcomes with those receiving the actual treatment.",
+      "example_vi": "Bệnh nhân trong nhóm đối chứng được cho dùng giả dược để so sánh kết quả với những người được điều trị thực sự.",
+      "word_family": {
+        "noun": "placebo",
+        "verb": null,
+        "adjective": "placebo (attributive)",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "paternalism",
+      "ipa": "/pəˈtɜː.nə.lɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa gia trưởng, thái độ áp đặt vì lợi ích người khác",
+      "meaning_vi_inline": "chủ nghĩa gia trưởng",
+      "example_en": "Medical paternalism occurs when doctors make decisions for patients without adequately consulting them.",
+      "example_vi": "Chủ nghĩa gia trưởng trong y tế xảy ra khi bác sĩ đưa ra quyết định cho bệnh nhân mà không tham khảo ý kiến của họ đầy đủ.",
+      "word_family": {
+        "noun": "paternalism / paternalist",
+        "verb": null,
+        "adjective": "paternalistic",
+        "adverb": "paternalistically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "respect patient autonomy",
+      "meaning_vi": "tôn trọng quyền tự chủ của bệnh nhân",
+      "example_en": "Healthcare providers are trained to respect patient autonomy even when they personally disagree with a patient's choices.",
+      "example_vi": "Các nhà cung cấp dịch vụ y tế được đào tạo để tôn trọng quyền tự chủ của bệnh nhân ngay cả khi họ cá nhân không đồng ý với lựa chọn của bệnh nhân.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "uphold medical confidentiality",
+      "meaning_vi": "duy trì bảo mật thông tin y tế",
+      "example_en": "Doctors are legally and ethically required to uphold medical confidentiality in all patient interactions.",
+      "example_vi": "Bác sĩ có nghĩa vụ pháp lý và đạo đức phải duy trì bảo mật thông tin y tế trong mọi tương tác với bệnh nhân.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "allocate scarce medical resources",
+      "meaning_vi": "phân bổ các nguồn lực y tế khan hiếm",
+      "example_en": "Ethical frameworks are essential to help hospitals allocate scarce medical resources during a public health crisis.",
+      "example_vi": "Các khung đạo đức là cần thiết để giúp các bệnh viện phân bổ các nguồn lực y tế khan hiếm trong một cuộc khủng hoảng sức khỏe cộng đồng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "challenge paternalistic practices",
+      "meaning_vi": "thách thức những thực hành gia trưởng",
+      "example_en": "Patient advocacy groups have done much to challenge paternalistic practices in clinical settings.",
+      "example_vi": "Các nhóm vận động cho bệnh nhân đã làm rất nhiều để thách thức những thực hành gia trưởng trong môi trường lâm sàng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "navigate end-of-life decisions",
+      "meaning_vi": "điều hướng các quyết định cuối đời",
+      "example_en": "Palliative care teams are specially trained to help families navigate end-of-life decisions with compassion.",
+      "example_vi": "Các nhóm chăm sóc giảm nhẹ được đào tạo đặc biệt để giúp các gia đình điều hướng các quyết định cuối đời với sự nhân từ.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that informed consent is required before any medical procedure or clinical trial can begin.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "All countries that permit euthanasia have seen a decline in trust in healthcare systems.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, giving patients a placebo without disclosure raises ethical concerns about honesty and consent.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage claims that paternalism in medicine is always driven by selfish motives.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that inclusive deliberation improves the fairness of resource allocation decisions.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The surgeon explained the risks thoroughly before asking the patient to sign the _____ form.",
+          "options": [
+            "placebo",
+            "consent",
+            "allocation",
+            "autonomy"
+          ],
+          "answer": "consent"
+        },
+        {
+          "id": 2,
+          "sentence": "Critics of _____ argue that it can pressure terminally ill patients into choosing death prematurely.",
+          "options": [
+            "paternalism",
+            "beneficence",
+            "euthanasia",
+            "confidentiality"
+          ],
+          "answer": "euthanasia"
+        },
+        {
+          "id": 3,
+          "sentence": "Participants in the control arm of the study unknowingly received a _____ instead of the active compound.",
+          "options": [
+            "allocation",
+            "consent",
+            "placebo",
+            "clinical trial"
+          ],
+          "answer": "placebo"
+        },
+        {
+          "id": 4,
+          "sentence": "The hospital's _____ committee was tasked with deciding which patients on the waiting list would receive a donor kidney.",
+          "options": [
+            "autonomy",
+            "non-maleficence",
+            "paternalism",
+            "allocation"
+          ],
+          "answer": "allocation"
+        },
+        {
+          "id": 5,
+          "sentence": "Breaching a patient's _____ by sharing records without permission can result in serious legal consequences.",
+          "options": [
+            "beneficence",
+            "confidentiality",
+            "consent",
+            "autonomy"
+          ],
+          "answer": "confidentiality"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "autonomy",
+        "paternalism",
+        "beneficence",
+        "non-maleficence",
+        "consent",
+        "euthanasia"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The principle of _____ holds that medical professionals must always act in the best interest of the patient.",
+          "answer": "beneficence"
+        },
+        {
+          "id": 2,
+          "sentence": "Patients have the right to _____ — to make their own healthcare decisions without undue pressure from clinicians.",
+          "answer": "autonomy"
+        },
+        {
+          "id": 3,
+          "sentence": "Medical _____ occurs when doctors override a patient's wishes because they believe they know what is best.",
+          "answer": "paternalism"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ doctrine requires physicians to avoid causing unnecessary harm, even when pursuing beneficial outcomes.",
+          "answer": "non-maleficence"
+        },
+        {
+          "id": 5,
+          "sentence": "A patient's written _____ must be obtained and documented before any invasive procedure is performed.",
+          "answer": "consent"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "informed",
+            "consent",
+            "is",
+            "a",
+            "cornerstone",
+            "of",
+            "ethical",
+            "medical",
+            "practice"
+          ],
+          "answer": "Informed consent is a cornerstone of ethical medical practice."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "fair",
+            "allocation",
+            "of",
+            "scarce",
+            "resources",
+            "requires",
+            "transparent",
+            "criteria"
+          ],
+          "answer": "The fair allocation of scarce resources requires transparent criteria."
+        },
+        {
+          "id": 3,
+          "words": [
+            "paternalism",
+            "can",
+            "undermine",
+            "patient",
+            "dignity",
+            "and",
+            "autonomy"
+          ],
+          "answer": "Paternalism can undermine patient dignity and autonomy."
+        },
+        {
+          "id": 4,
+          "words": [
+            "beneficence",
+            "and",
+            "non-maleficence",
+            "are",
+            "complementary",
+            "principles",
+            "in",
+            "bioethics"
+          ],
+          "answer": "Beneficence and non-maleficence are complementary principles in bioethics."
+        },
+        {
+          "id": 5,
+          "words": [
+            "clinical",
+            "trials",
+            "must",
+            "obtain",
+            "consent",
+            "from",
+            "all",
+            "participants",
+            "before",
+            "proceeding"
+          ],
+          "answer": "Clinical trials must obtain consent from all participants before proceeding."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Doctors are required to [confident] all patient records and never share them without explicit permission.",
+          "highlighted": "confident",
+          "options": {
+            "A": "confidentially",
+            "B": "confidence",
+            "C": "confidential"
+          },
+          "answer": "A",
+          "explanation": "An adverb is needed to modify the verb 'keep' (implied: 'keep confidentially') — 'confidentially', not the adjective 'confident'."
+        },
+        {
+          "id": 2,
+          "sentence": "The hospital's [allocate] of ventilators during the crisis was widely criticised as unfair.",
+          "highlighted": "allocate",
+          "options": {
+            "A": "allocating",
+            "B": "allocation",
+            "C": "allocated"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed to serve as the subject of the sentence — 'allocation', not the verb 'allocate'."
+        },
+        {
+          "id": 3,
+          "sentence": "The patient's right to [autonomous] over her own body was consistently respected by the medical team.",
+          "highlighted": "autonomous",
+          "options": {
+            "A": "autonomously",
+            "B": "autonomy",
+            "C": "automate"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after 'right to' — 'autonomy', not the adjective 'autonomous'."
+        },
+        {
+          "id": 4,
+          "sentence": "Participants were told they might receive either the drug or a [placebo] effect, but not which.",
+          "highlighted": "placebo",
+          "options": {
+            "A": "placebos",
+            "B": "placebo",
+            "C": "placid"
+          },
+          "answer": "B",
+          "explanation": "The word 'effect' after 'placebo' creates the unintended compound 'placebo effect' (a different term). The sentence should simply read 'a placebo' — the extra word 'effect' is the error, meaning the bracketed word should remain 'placebo' and 'effect' should be removed. Accept B."
+        },
+        {
+          "id": 5,
+          "sentence": "A [paternalist] approach to medicine assumes that clinicians always know what is best for the patient.",
+          "highlighted": "paternalist",
+          "options": {
+            "A": "paternal",
+            "B": "paternalism",
+            "C": "paternalistic"
+          },
+          "answer": "C",
+          "explanation": "The adjective 'paternalistic' is the standard collocate for 'approach' — 'a paternalistic approach', not the noun 'paternalist'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "consent",
+      "2": "euthanasia",
+      "3": "placebo",
+      "4": "allocation",
+      "5": "confidentiality"
+    },
+    "ex3": {
+      "1": "beneficence",
+      "2": "autonomy",
+      "3": "paternalism",
+      "4": "non-maleficence",
+      "5": "consent"
+    },
+    "ex4": {
+      "1": "Informed consent is a cornerstone of ethical medical practice.",
+      "2": "The fair allocation of scarce resources requires transparent criteria.",
+      "3": "Paternalism can undermine patient dignity and autonomy.",
+      "4": "Beneficence and non-maleficence are complementary principles in bioethics.",
+      "5": "Clinical trials must obtain consent from all participants before proceeding."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "B",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

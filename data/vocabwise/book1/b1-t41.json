@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 41,
+    "topic_id": "b1-t41",
+    "topic_title": "Cooking & Recipes",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🍳",
+    "topic_title_vi": "Nấu Ăn & Công Thức",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 115,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Do you like cooking? A good **recipe** tells you every **step** to make a dish. First, you need to **prepare** your **ingredients** — these are the foods you use. Make sure you have all the right **utensils**, like a knife and a pan.",
+        "text_vi": "Bạn có thích nấu ăn không? Một **công thức nấu ăn** tốt sẽ cho bạn biết từng **bước** để làm một món ăn. Đầu tiên, bạn cần **chuẩn bị** các **nguyên liệu** — đây là những thực phẩm bạn dùng. Hãy chắc chắn rằng bạn có đủ các **dụng cụ nấu bếp**, như dao và chảo."
+      },
+      {
+        "index": 2,
+        "text_en": "Next, **slice** the vegetables into small pieces and **mix** them in a bowl. Check the **amount** of each ingredient carefully. Too much or too little can change the taste of the food.",
+        "text_vi": "Tiếp theo, **thái** rau củ thành những miếng nhỏ và **trộn** chúng trong một cái bát. Kiểm tra **lượng** của từng nguyên liệu cẩn thận. Quá nhiều hoặc quá ít có thể làm thay đổi hương vị của món ăn."
+      },
+      {
+        "index": 3,
+        "text_en": "Then, **heat** the oil in a pan. You can **fry** the meat until it is golden, or **boil** it in water. Some dishes need you to **bake** them in the oven. Always **follow** the recipe so you do not make mistakes.",
+        "text_vi": "Sau đó, **làm nóng** dầu trong chảo. Bạn có thể **chiên** thịt cho đến khi vàng, hoặc **luộc** trong nước. Một số món ăn cần bạn **nướng** trong lò. Luôn **làm theo** công thức để bạn không mắc lỗi."
+      },
+      {
+        "index": 4,
+        "text_en": "Finally, **pour** the sauce over the dish and **serve** it while it is still hot. Cooking is fun when you **follow** each **step** carefully. Try a simple **recipe** today!",
+        "text_vi": "Cuối cùng, **đổ** nước sốt lên món ăn và **dọn ra** khi còn nóng. Nấu ăn thật vui khi bạn **làm theo** từng **bước** cẩn thận. Hãy thử một **công thức nấu ăn** đơn giản ngay hôm nay!"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "recipe",
+      "ipa": "/ˈresɪpi/",
+      "pos": "noun",
+      "meaning_vi": "công thức nấu ăn",
+      "meaning_vi_inline": "công thức nấu ăn",
+      "example_en": "This recipe only has five ingredients and takes twenty minutes to make.",
+      "example_vi": "Công thức nấu ăn này chỉ có năm nguyên liệu và mất hai mươi phút để làm.",
+      "word_family": {
+        "noun": "recipe",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "ingredient",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "pos": "noun",
+      "meaning_vi": "nguyên liệu (nấu ăn)",
+      "meaning_vi_inline": "nguyên liệu",
+      "example_en": "The main ingredient in this soup is chicken and fresh vegetables.",
+      "example_vi": "Nguyên liệu chính trong món súp này là gà và rau củ tươi.",
+      "word_family": {
+        "noun": "ingredient",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "mix",
+      "ipa": "/mɪks/",
+      "pos": "verb / noun",
+      "meaning_vi": "trộn; hỗn hợp",
+      "meaning_vi_inline": "trộn",
+      "example_en": "Mix the flour, sugar, and butter together in a large bowl.",
+      "example_vi": "Trộn bột mì, đường và bơ với nhau trong một cái bát lớn.",
+      "word_family": {
+        "noun": "mix / mixture",
+        "verb": "mix / mixed",
+        "adjective": "mixed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "boil",
+      "ipa": "/bɔɪl/",
+      "pos": "verb",
+      "meaning_vi": "luộc, đun sôi",
+      "meaning_vi_inline": "luộc",
+      "example_en": "Boil the eggs for ten minutes, then put them in cold water.",
+      "example_vi": "Luộc trứng trong mười phút, sau đó cho vào nước lạnh.",
+      "word_family": {
+        "noun": "boil",
+        "verb": "boil / boiled",
+        "adjective": "boiling / boiled",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "fry",
+      "ipa": "/fraɪ/",
+      "pos": "verb",
+      "meaning_vi": "chiên, rán",
+      "meaning_vi_inline": "chiên",
+      "example_en": "She likes to fry fish with garlic and a little oil.",
+      "example_vi": "Cô ấy thích chiên cá với tỏi và một ít dầu.",
+      "word_family": {
+        "noun": "fry / stir-fry",
+        "verb": "fry / fried",
+        "adjective": "fried",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "bake",
+      "ipa": "/beɪk/",
+      "pos": "verb",
+      "meaning_vi": "nướng (bằng lò)",
+      "meaning_vi_inline": "nướng",
+      "example_en": "My mum loves to bake bread every Sunday morning.",
+      "example_vi": "Mẹ tôi thích nướng bánh mì vào mỗi sáng Chủ nhật.",
+      "word_family": {
+        "noun": "baker / bakery",
+        "verb": "bake / baked",
+        "adjective": "baked",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "slice",
+      "ipa": "/slaɪs/",
+      "pos": "verb / noun",
+      "meaning_vi": "thái, cắt lát; lát mỏng",
+      "meaning_vi_inline": "thái",
+      "example_en": "Please slice the tomatoes thinly and place them on the plate.",
+      "example_vi": "Hãy thái cà chua thật mỏng và đặt lên đĩa.",
+      "word_family": {
+        "noun": "slice",
+        "verb": "slice / sliced",
+        "adjective": "sliced",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "pour",
+      "ipa": "/pɔː/",
+      "pos": "verb",
+      "meaning_vi": "đổ, rót",
+      "meaning_vi_inline": "đổ",
+      "example_en": "Pour the milk slowly into the bowl so it does not spill.",
+      "example_vi": "Rót sữa từ từ vào bát để không bị tràn ra.",
+      "word_family": {
+        "noun": null,
+        "verb": "pour / poured",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "heat",
+      "ipa": "/hiːt/",
+      "pos": "verb / noun",
+      "meaning_vi": "làm nóng; nhiệt độ, sức nóng",
+      "meaning_vi_inline": "làm nóng",
+      "example_en": "Heat the pan over medium heat before adding the oil.",
+      "example_vi": "Làm nóng chảo ở nhiệt độ vừa trước khi cho dầu vào.",
+      "word_family": {
+        "noun": "heat",
+        "verb": "heat / heated",
+        "adjective": "heated / hot",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "prepare",
+      "ipa": "/prɪˈpeə/",
+      "pos": "verb",
+      "meaning_vi": "chuẩn bị",
+      "meaning_vi_inline": "chuẩn bị",
+      "example_en": "She prepares all the ingredients before she starts cooking.",
+      "example_vi": "Cô ấy chuẩn bị tất cả nguyên liệu trước khi bắt đầu nấu ăn.",
+      "word_family": {
+        "noun": "preparation",
+        "verb": "prepare / prepared",
+        "adjective": "prepared / unprepared",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "follow",
+      "ipa": "/ˈfɒləʊ/",
+      "pos": "verb",
+      "meaning_vi": "làm theo, tuân theo",
+      "meaning_vi_inline": "làm theo",
+      "example_en": "Always follow the instructions in the recipe carefully.",
+      "example_vi": "Luôn làm theo hướng dẫn trong công thức nấu ăn một cách cẩn thận.",
+      "word_family": {
+        "noun": "follower",
+        "verb": "follow / followed",
+        "adjective": "following",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "serve",
+      "ipa": "/sɜːv/",
+      "pos": "verb",
+      "meaning_vi": "dọn ra, phục vụ",
+      "meaning_vi_inline": "dọn ra",
+      "example_en": "The restaurant serves breakfast from seven o'clock in the morning.",
+      "example_vi": "Nhà hàng dọn bữa sáng từ bảy giờ sáng.",
+      "word_family": {
+        "noun": "service / server",
+        "verb": "serve / served",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "amount",
+      "ipa": "/əˈmaʊnt/",
+      "pos": "noun",
+      "meaning_vi": "lượng, số lượng",
+      "meaning_vi_inline": "lượng",
+      "example_en": "Use only a small amount of salt — too much is not good for your health.",
+      "example_vi": "Chỉ dùng một lượng muối nhỏ — quá nhiều không tốt cho sức khỏe.",
+      "word_family": {
+        "noun": "amount",
+        "verb": "amount to",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "step",
+      "ipa": "/step/",
+      "pos": "noun",
+      "meaning_vi": "bước (trong quy trình)",
+      "meaning_vi_inline": "bước",
+      "example_en": "Read each step carefully before you start making the dish.",
+      "example_vi": "Đọc từng bước cẩn thận trước khi bắt đầu làm món ăn.",
+      "word_family": {
+        "noun": "step",
+        "verb": "step",
+        "adjective": "step-by-step",
+        "adverb": "step by step"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "utensil",
+      "ipa": "/juːˈtensɪl/",
+      "pos": "noun",
+      "meaning_vi": "dụng cụ nấu bếp",
+      "meaning_vi_inline": "dụng cụ nấu bếp",
+      "example_en": "A wooden spoon is a very useful kitchen utensil for stirring soups.",
+      "example_vi": "Muỗng gỗ là một dụng cụ nấu bếp rất hữu ích để khuấy súp.",
+      "word_family": {
+        "noun": "utensil",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "utensil" },
+        { "id": 2, "word": "ingredient" },
+        { "id": 3, "word": "slice" },
+        { "id": 4, "word": "amount" },
+        { "id": 5, "word": "recipe" }
+      ],
+      "options": [
+        { "id": "A", "text": "a food item you use when making a dish" },
+        { "id": "B", "text": "a set of instructions that tells you how to cook a dish" },
+        { "id": "C", "text": "a tool or piece of equipment used in the kitchen" },
+        { "id": "D", "text": "to cut something into thin flat pieces" },
+        { "id": "E", "text": "how much of something there is" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You must _____ the recipe carefully — do not skip any steps.",
+          "options": ["follow", "pour", "bake", "slice"],
+          "answer": "follow"
+        },
+        {
+          "id": 2,
+          "sentence": "She put the cake in the oven to _____ for thirty minutes.",
+          "options": ["mix", "boil", "bake", "serve"],
+          "answer": "bake"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ all the vegetables before we started cooking the soup.",
+          "options": ["poured", "served", "boiled", "prepared"],
+          "answer": "prepared"
+        },
+        {
+          "id": 4,
+          "sentence": "Add only a small _____ of sugar — the fruit is already sweet.",
+          "options": ["recipe", "step", "amount", "utensil"],
+          "answer": "amount"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ the sauce over the noodles just before bringing them to the table.",
+          "options": ["sliced", "poured", "mixed", "heated"],
+          "answer": "poured"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["boil", "fry", "serve", "heat", "step", "mix"],
+      "items": [
+        { "id": 1, "sentence": "First, _____ the oil in a pan over low heat.", "answer": "heat" },
+        { "id": 2, "sentence": "Then _____ the chicken until it turns golden brown.", "answer": "fry" },
+        { "id": 3, "sentence": "Meanwhile, _____ the noodles in a pot of salted water.", "answer": "boil" },
+        { "id": 4, "sentence": "In a bowl, _____ the sauce ingredients until smooth.", "answer": "mix" },
+        { "id": 5, "sentence": "When everything is ready, _____ the dish while it is still hot.", "answer": "serve" }
+      ],
+      "note": "One word in the box is not used: step"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Good _____ is the key to a successful meal — get everything ready before you start. (PREPARE)",
+          "base_word": "PREPARE",
+          "answer": "preparation",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "The soup was _____ for twenty minutes before we added the vegetables. (BOIL)",
+          "base_word": "BOIL",
+          "answer": "boiled",
+          "form_used": "adjective/past participle"
+        },
+        {
+          "id": 3,
+          "sentence": "He put a _____ of cheese on top of each bowl of soup. (SLICE)",
+          "base_word": "SLICE",
+          "answer": "slice",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "The cake tin was _____ with butter so the cake would not stick. (MIX)",
+          "base_word": "MIX",
+          "answer": "mixed",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of this café is very slow — we waited thirty minutes for our food. (SERVE)",
+          "base_word": "SERVE",
+          "answer": "service",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The recipe says to [bake] the eggs in boiling water for ten minutes.",
+          "highlighted": "bake",
+          "options": { "A": "slice", "B": "bake", "C": "boil" },
+          "answer": "C",
+          "explanation": "'Bake' means to cook in an oven using dry heat. Eggs cooked in boiling water are not baked — they are 'boiled'."
+        },
+        {
+          "id": 2,
+          "sentence": "He forgot to check the [recipe] of salt and put in too much.",
+          "highlighted": "recipe",
+          "options": { "A": "amount", "B": "recipe", "C": "step" },
+          "answer": "A",
+          "explanation": "A 'recipe' is a set of instructions for cooking. The word that refers to how much of something you use is 'amount'."
+        },
+        {
+          "id": 3,
+          "sentence": "Please [boil] the olive oil in a pan before adding the garlic.",
+          "highlighted": "boil",
+          "options": { "A": "serve", "B": "pour", "C": "heat" },
+          "answer": "C",
+          "explanation": "You do not boil oil — you heat it. 'Boil' is used for water or liquid. The correct word here is 'heat'."
+        },
+        {
+          "id": 4,
+          "sentence": "This dish is easy — you only need three [utensils]: eggs, flour, and milk.",
+          "highlighted": "utensils",
+          "options": { "A": "utensils", "B": "ingredients", "C": "steps" },
+          "answer": "B",
+          "explanation": "'Utensils' are kitchen tools such as spoons and pans. Eggs, flour, and milk are foods used in cooking — they are 'ingredients'."
+        },
+        {
+          "id": 5,
+          "sentence": "The waiter came to our table and asked if he could [prepare] the food now.",
+          "highlighted": "prepare",
+          "options": { "A": "fry", "B": "slice", "C": "serve" },
+          "answer": "C",
+          "explanation": "A waiter brings food to the table — this action is called 'serve'. 'Prepare' means to get something ready, which happens in the kitchen before the waiter arrives."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "A", "3": "D", "4": "E", "5": "B" },
+    "ex2": { "1": "follow", "2": "bake", "3": "prepared", "4": "amount", "5": "poured" },
+    "ex3": { "1": "heat", "2": "fry", "3": "boil", "4": "mix", "5": "serve" },
+    "ex4": { "1": "preparation", "2": "boiled", "3": "slice", "4": "mixed", "5": "service" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "C" }
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 52,
+    "topic_id": "b1-t52",
+    "topic_title": "Social Media & Online Life",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📱",
+    "topic_title_vi": "Mạng Xã Hội & Cuộc Sống Trực Tuyến",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 113,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Many people have a **digital** life online. They create an **account** on a social media app and build a **profile** with their name and photo. They **follow** friends and famous people to see their latest **update**s and news.",
+        "text_vi": "Nhiều người có cuộc sống **kỹ thuật số** trực tuyến. Họ tạo một **tài khoản** trên ứng dụng mạng xã hội và xây dựng **hồ sơ** với tên và ảnh của mình. Họ **theo dõi** bạn bè và người nổi tiếng để xem những **cập nhật** và tin tức mới nhất."
+      },
+      {
+        "index": 2,
+        "text_en": "People **share** photos and **video**s with their friends online. They also **upload** files to the internet or **download** things to their phone. When they see something interesting, they can write a **comment** to tell others what they think.",
+        "text_vi": "Mọi người **chia sẻ** ảnh và **video** với bạn bè trực tuyến. Họ cũng **tải lên** các tệp lên internet hoặc **tải xuống** mọi thứ vào điện thoại. Khi họ thấy điều gì đó thú vị, họ có thể viết một **bình luận** để nói với người khác suy nghĩ của mình."
+      },
+      {
+        "index": 3,
+        "text_en": "An app will **notify** you when someone likes your post or joins your **group**. It is exciting when a photo becomes a **trend** and many people see it. However, it is important to stay **safe** online and protect your personal information.",
+        "text_vi": "Một ứng dụng sẽ **thông báo** cho bạn khi ai đó thích bài đăng của bạn hoặc tham gia **nhóm** của bạn. Thật thú vị khi một bức ảnh trở thành **xu hướng** và nhiều người xem nó. Tuy nhiên, điều quan trọng là phải ở **an toàn** trực tuyến và bảo vệ thông tin cá nhân của bạn."
+      },
+      {
+        "index": 4,
+        "text_en": "One problem with online life is too much **screen time**. Spending many hours looking at a **digital** screen can be bad for your eyes and sleep. It is a good idea to join a **group** of friends in real life too — not just **follow** them online. A healthy balance makes everyone **safe** and happy.",
+        "text_vi": "Một vấn đề với cuộc sống trực tuyến là quá nhiều **thời gian sử dụng màn hình**. Dành nhiều giờ nhìn vào màn hình **kỹ thuật số** có thể gây hại cho mắt và giấc ngủ của bạn. Sẽ là ý hay nếu tham gia một **nhóm** bạn bè ngoài thực tế — chứ không chỉ **theo dõi** họ trực tuyến. Sự cân bằng lành mạnh giúp mọi người **an toàn** và hạnh phúc."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "share",
+      "ipa": "/ʃeər/",
+      "pos": "verb / noun",
+      "meaning_vi": "chia sẻ; sự chia sẻ",
+      "meaning_vi_inline": "chia sẻ",
+      "example_en": "She shared a funny video with her friends and everyone laughed at it.",
+      "example_vi": "Cô ấy chia sẻ một video hài hước với bạn bè và mọi người đều cười.",
+      "word_family": {
+        "noun": "share / sharing",
+        "verb": "share / shared",
+        "adjective": "shared",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "comment",
+      "ipa": "/ˈkɒment/",
+      "pos": "noun / verb",
+      "meaning_vi": "bình luận; đăng bình luận",
+      "meaning_vi_inline": "bình luận",
+      "example_en": "He left a nice comment on her photo saying it looked beautiful.",
+      "example_vi": "Anh ấy để lại một bình luận hay về bức ảnh của cô ấy và nói rằng nó trông rất đẹp.",
+      "word_family": {
+        "noun": "comment / commentary",
+        "verb": "comment / commented",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "follow",
+      "ipa": "/ˈfɒləʊ/",
+      "pos": "verb",
+      "meaning_vi": "theo dõi (trên mạng xã hội); đi theo",
+      "meaning_vi_inline": "theo dõi",
+      "example_en": "She follows her favourite singer online and reads all their new posts.",
+      "example_vi": "Cô ấy theo dõi ca sĩ yêu thích của mình trực tuyến và đọc tất cả các bài đăng mới của họ.",
+      "word_family": {
+        "noun": "follower / following",
+        "verb": "follow / followed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "upload",
+      "ipa": "/ˈʌpləʊd/",
+      "pos": "verb / noun",
+      "meaning_vi": "tải lên (internet); việc tải lên",
+      "meaning_vi_inline": "tải lên",
+      "example_en": "He uploaded photos from his holiday to share with his family and friends.",
+      "example_vi": "Anh ấy tải lên các bức ảnh từ kỳ nghỉ để chia sẻ với gia đình và bạn bè.",
+      "word_family": {
+        "noun": "upload",
+        "verb": "upload / uploaded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "upload vs download",
+        "explanation_vi": "Học viên hay nhầm 'upload' và 'download'. 'Upload' = tải lên (gửi dữ liệu từ máy của bạn lên internet). 'Download' = tải xuống (lấy dữ liệu từ internet về máy của bạn)."
+      }
+    },
+    {
+      "id": 5,
+      "word": "download",
+      "ipa": "/ˈdaʊnləʊd/",
+      "pos": "verb / noun",
+      "meaning_vi": "tải xuống (từ internet); việc tải xuống",
+      "meaning_vi_inline": "tải xuống",
+      "example_en": "She downloaded a new app to help her study English vocabulary every day.",
+      "example_vi": "Cô ấy tải xuống một ứng dụng mới để giúp cô ấy học từ vựng tiếng Anh mỗi ngày.",
+      "word_family": {
+        "noun": "download",
+        "verb": "download / downloaded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "video",
+      "ipa": "/ˈvɪdiəʊ/",
+      "pos": "noun / verb",
+      "meaning_vi": "video; quay video",
+      "meaning_vi_inline": "video",
+      "example_en": "He made a short video of his cat and posted it on social media.",
+      "example_vi": "Anh ấy làm một video ngắn về con mèo của mình và đăng nó lên mạng xã hội.",
+      "word_family": {
+        "noun": "video",
+        "verb": "video / film",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "account",
+      "ipa": "/əˈkaʊnt/",
+      "pos": "noun",
+      "meaning_vi": "tài khoản (mạng xã hội, ngân hàng...)",
+      "meaning_vi_inline": "tài khoản",
+      "example_en": "You need to create an account before you can use the app and post anything.",
+      "example_vi": "Bạn cần tạo một tài khoản trước khi có thể sử dụng ứng dụng và đăng bất cứ thứ gì.",
+      "word_family": {
+        "noun": "account / accountant",
+        "verb": "account for",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "safe",
+      "ipa": "/seɪf/",
+      "pos": "adjective",
+      "meaning_vi": "an toàn, không nguy hiểm",
+      "meaning_vi_inline": "an toàn",
+      "example_en": "Keep your password private to stay safe when using the internet.",
+      "example_vi": "Giữ mật khẩu của bạn riêng tư để giữ an toàn khi sử dụng internet.",
+      "word_family": {
+        "noun": "safety",
+        "verb": null,
+        "adjective": "safe / unsafe",
+        "adverb": "safely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "group",
+      "ipa": "/ɡruːp/",
+      "pos": "noun / verb",
+      "meaning_vi": "nhóm; tập hợp lại thành nhóm",
+      "meaning_vi_inline": "nhóm",
+      "example_en": "She joined an online group where people share tips for learning English.",
+      "example_vi": "Cô ấy tham gia một nhóm trực tuyến nơi mọi người chia sẻ các mẹo học tiếng Anh.",
+      "word_family": {
+        "noun": "group",
+        "verb": "group / grouped",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "update",
+      "ipa": "/ˈʌpdeɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "cập nhật; sự cập nhật",
+      "meaning_vi_inline": "cập nhật",
+      "example_en": "He posted an update to tell his followers about his new project.",
+      "example_vi": "Anh ấy đăng một bản cập nhật để thông báo cho những người theo dõi về dự án mới của mình.",
+      "word_family": {
+        "noun": "update",
+        "verb": "update / updated",
+        "adjective": "updated / up-to-date",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "profile",
+      "ipa": "/ˈprəʊfaɪl/",
+      "pos": "noun",
+      "meaning_vi": "hồ sơ cá nhân (trên mạng xã hội)",
+      "meaning_vi_inline": "hồ sơ",
+      "example_en": "Her profile shows her name, photo, and a short description of who she is.",
+      "example_vi": "Hồ sơ của cô ấy hiển thị tên, ảnh và mô tả ngắn gọn về con người cô ấy.",
+      "word_family": {
+        "noun": "profile",
+        "verb": "profile / profiled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "trend",
+      "ipa": "/trend/",
+      "pos": "noun / verb",
+      "meaning_vi": "xu hướng; trở thành xu hướng",
+      "meaning_vi_inline": "xu hướng",
+      "example_en": "The dance video became a trend and millions of people copied it online.",
+      "example_vi": "Video vũ đạo đó trở thành xu hướng và hàng triệu người sao chép nó trực tuyến.",
+      "word_family": {
+        "noun": "trend",
+        "verb": "trend / trending",
+        "adjective": "trendy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "notify",
+      "ipa": "/ˈnəʊtɪfaɪ/",
+      "pos": "verb",
+      "meaning_vi": "thông báo, báo cho biết",
+      "meaning_vi_inline": "thông báo",
+      "example_en": "The app will notify you when someone sends you a message or likes your post.",
+      "example_vi": "Ứng dụng sẽ thông báo cho bạn khi ai đó gửi tin nhắn hoặc thích bài đăng của bạn.",
+      "word_family": {
+        "noun": "notification / notice",
+        "verb": "notify / notified",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "screen time",
+      "ipa": "/ˈskriːn taɪm/",
+      "pos": "noun",
+      "meaning_vi": "thời gian sử dụng màn hình (điện thoại, máy tính...)",
+      "meaning_vi_inline": "thời gian sử dụng màn hình",
+      "example_en": "Doctors say that too much screen time before bed can make it hard to sleep.",
+      "example_vi": "Các bác sĩ nói rằng quá nhiều thời gian sử dụng màn hình trước khi ngủ có thể khiến bạn khó ngủ.",
+      "word_family": {
+        "noun": "screen time",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "digital",
+      "ipa": "/ˈdɪdʒɪtl/",
+      "pos": "adjective",
+      "meaning_vi": "kỹ thuật số, thuộc về công nghệ số",
+      "meaning_vi_inline": "kỹ thuật số",
+      "example_en": "We live in a digital world where everything from music to maps is on our phones.",
+      "example_vi": "Chúng ta sống trong một thế giới kỹ thuật số nơi mọi thứ từ âm nhạc đến bản đồ đều có trên điện thoại.",
+      "word_family": {
+        "noun": "digitisation",
+        "verb": "digitise / digitised",
+        "adjective": "digital",
+        "adverb": "digitally"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "profile" },
+        { "id": 2, "word": "trend" },
+        { "id": 3, "word": "notify" },
+        { "id": 4, "word": "upload" },
+        { "id": 5, "word": "screen time" }
+      ],
+      "options": [
+        { "id": "A", "text": "to send a file or data from your device to the internet so others can access it" },
+        { "id": "B", "text": "the amount of time you spend looking at a phone, tablet, or computer screen" },
+        { "id": "C", "text": "a page on a website or app that shows information about a particular user" },
+        { "id": "D", "text": "to officially inform someone about something, usually by sending a message or alert" },
+        { "id": "E", "text": "a topic, style, or activity that becomes very popular among many people at the same time" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ a funny video and all her friends watched and liked it immediately.",
+          "options": ["shared", "downloaded", "notified", "followed"],
+          "answer": "shared"
+        },
+        {
+          "id": 2,
+          "sentence": "Please _____ a strong password to keep your _____ safe from hackers.",
+          "options": ["follow", "use", "notify", "trend"],
+          "answer": "use"
+        },
+        {
+          "id": 3,
+          "sentence": "He checked his phone every five minutes to read new _____ from his friends.",
+          "options": ["profiles", "screen time", "comments", "digital"],
+          "answer": "comments"
+        },
+        {
+          "id": 4,
+          "sentence": "The app will _____ you when someone messages you, even if you are not using it.",
+          "options": ["follow", "notify", "upload", "share"],
+          "answer": "notify"
+        },
+        {
+          "id": 5,
+          "sentence": "Too much _____ is not good for children — they should also play outside.",
+          "options": ["account", "profile", "screen time", "video"],
+          "answer": "screen time"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["follow", "account", "digital", "download", "trend", "safe"],
+      "items": [
+        { "id": 1, "sentence": "You need to create an _____ before you can use the social media app.", "answer": "account" },
+        { "id": 2, "sentence": "She _____ her favourite teacher online to see all their new posts and videos.", "answer": "follow" },
+        { "id": 3, "sentence": "The song became a _____ — everyone was listening to it and sharing it.", "answer": "trend" },
+        { "id": 4, "sentence": "He used his phone to _____ the new app so he could study on the bus.", "answer": "download" },
+        { "id": 5, "sentence": "We live in a _____ world, and it is important to know how to use technology well.", "answer": "digital" }
+      ],
+      "note": "One word in the box is not used: safe"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ a photo of her meal and received many likes within minutes. (UPLOAD)",
+          "base_word": "UPLOAD",
+          "answer": "uploaded",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 2,
+          "sentence": "Keep your personal information private to use the internet _____ . (SAFE)",
+          "base_word": "SAFE",
+          "answer": "safely",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "The video was _____ — it appeared in the top searches for three days in a row. (TREND)",
+          "base_word": "TREND",
+          "answer": "trending",
+          "form_used": "verb (present participle / adjective)"
+        },
+        {
+          "id": 4,
+          "sentence": "He received a _____ from the app saying someone had liked his post. (NOTIFY)",
+          "base_word": "NOTIFY",
+          "answer": "notification",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "Her _____ of the holiday photos took a long time because the files were very large. (UPLOAD)",
+          "base_word": "UPLOAD",
+          "answer": "upload",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She [downloaded] her holiday photos to the internet so her friends could see them.",
+          "highlighted": "downloaded",
+          "options": { "A": "shared", "B": "downloaded", "C": "uploaded" },
+          "answer": "C",
+          "explanation": "'Download' means to get data from the internet onto your device. To send your own photos to the internet for others to see, you 'upload' them."
+        },
+        {
+          "id": 2,
+          "sentence": "The dance became a [comment] and millions of people copied it on social media.",
+          "highlighted": "comment",
+          "options": { "A": "trend", "B": "comment", "C": "profile" },
+          "answer": "A",
+          "explanation": "A 'comment' is a text response or opinion left on a post. Something that becomes very popular and many people copy is called a 'trend'."
+        },
+        {
+          "id": 3,
+          "sentence": "You need to log into your [profile] with your username and password to use the app.",
+          "highlighted": "profile",
+          "options": { "A": "video", "B": "profile", "C": "account" },
+          "answer": "C",
+          "explanation": "A 'profile' is the page that shows your information. What you log into with a username and password is your 'account' — the access point to your online presence."
+        },
+        {
+          "id": 4,
+          "sentence": "Spending too much [digital] can damage your eyesight and disturb your sleep.",
+          "highlighted": "digital",
+          "options": { "A": "screen time", "B": "digital", "C": "trend" },
+          "answer": "A",
+          "explanation": "'Digital' is an adjective (e.g. digital world). It cannot be used as a noun after 'too much'. The correct noun phrase here is 'screen time' — the amount of time spent on digital devices."
+        },
+        {
+          "id": 5,
+          "sentence": "He left a kind [update] on her photo saying it looked really beautiful.",
+          "highlighted": "update",
+          "options": { "A": "update", "B": "group", "C": "comment" },
+          "answer": "C",
+          "explanation": "An 'update' is a post or announcement about new information. When you write a message in reaction to someone's photo or post, you leave a 'comment'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "E", "3": "D", "4": "A", "5": "B" },
+    "ex2": { "1": "shared", "2": "use", "3": "comments", "4": "notify", "5": "screen time" },
+    "ex3": { "1": "account", "2": "follow", "3": "trend", "4": "download", "5": "digital" },
+    "ex4": { "1": "uploaded", "2": "safely", "3": "trending", "4": "notification", "5": "upload" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+  }
+}

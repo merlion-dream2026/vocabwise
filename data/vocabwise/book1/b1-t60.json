@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 60,
+    "topic_id": "b1-t60",
+    "topic_title": "Asking Questions",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "❓",
+    "topic_title_vi": "Đặt Câu Hỏi",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 118,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "On her first day at a new school, Mai did not **know** anyone. She looked around and decided to **ask** a girl sitting nearby. '**What** is your name?' she said. '**Please** tell me — I am new here.'",
+        "text_vi": "Vào ngày đầu tiên ở trường mới, Mai không **biết** ai cả. Cô nhìn xung quanh và quyết định **hỏi** một cô gái đang ngồi gần đó. '**Cái gì** là tên của bạn?' cô nói. '**Làm ơn** cho tôi biết — tôi mới đến đây.'"
+      },
+      {
+        "index": 2,
+        "text_en": "The girl smiled. 'I am Lan. **Where** are you from? **When** did you arrive?' Mai began to **understand** that Lan was very friendly. She was not **sure** about everything yet, but she felt better.",
+        "text_vi": "Cô gái mỉm cười. 'Tôi là Lan. **Ở đâu** bạn đến từ đó? **Khi nào** bạn đến?' Mai bắt đầu **hiểu** rằng Lan rất thân thiện. Cô chưa **chắc chắn** về mọi thứ, nhưng cô cảm thấy tốt hơn."
+      },
+      {
+        "index": 3,
+        "text_en": "'**Who** is the class teacher?' Mai asked. '**Why** do we have class on Saturday?' Lan laughed and gave the **answer** to each question clearly. '**How** do you **mean**?' Mai said **again** when she did not understand one thing.",
+        "text_vi": "'**Ai** là giáo viên chủ nhiệm?' Mai hỏi. '**Tại sao** chúng ta có buổi học vào thứ Bảy?' Lan cười và đưa ra **câu trả lời** cho từng câu hỏi một cách rõ ràng. '**Như thế nào** bạn **có ý gì**?' Mai nói **lại** khi cô không hiểu một điều gì đó."
+      },
+      {
+        "index": 4,
+        "text_en": "Lan offered to **repeat** everything slowly. She was happy to help. Now Mai knew **how** to **ask** for help, **who** to talk to, and **what** to do next. She felt **sure** she would like her new school.",
+        "text_vi": "Lan đề nghị **nhắc lại** mọi thứ một cách chậm rãi. Cô ấy vui lòng giúp đỡ. Bây giờ Mai đã biết **như thế nào** để **hỏi** sự giúp đỡ, **ai** để nói chuyện, và **cái gì** cần làm tiếp theo. Cô cảm thấy **chắc chắn** rằng mình sẽ thích trường mới."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "what",
+      "ipa": "/wɒt/",
+      "pos": "question word",
+      "meaning_vi": "cái gì, điều gì",
+      "meaning_vi_inline": "cái gì",
+      "example_en": "What is your favourite subject at school?",
+      "example_vi": "Môn học yêu thích của bạn ở trường là gì?",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "what"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "where",
+      "ipa": "/weər/",
+      "pos": "question word",
+      "meaning_vi": "ở đâu, nơi nào",
+      "meaning_vi_inline": "ở đâu",
+      "example_en": "Where do you live? I might know your neighbourhood.",
+      "example_vi": "Bạn sống ở đâu? Tôi có thể biết khu phố của bạn.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "where / wherever"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "when",
+      "ipa": "/wen/",
+      "pos": "question word",
+      "meaning_vi": "khi nào, lúc nào",
+      "meaning_vi_inline": "khi nào",
+      "example_en": "When does the school bus leave in the morning?",
+      "example_vi": "Xe buýt trường khởi hành lúc mấy giờ vào buổi sáng?",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "when / whenever"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "who",
+      "ipa": "/huː/",
+      "pos": "question word",
+      "meaning_vi": "ai, người nào",
+      "meaning_vi_inline": "ai",
+      "example_en": "Who is the new student sitting at the front of the class?",
+      "example_vi": "Ai là học sinh mới đang ngồi ở phía trước của lớp?",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "whose",
+        "adverb": "whom / whoever"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "why",
+      "ipa": "/waɪ/",
+      "pos": "question word",
+      "meaning_vi": "tại sao, vì sao",
+      "meaning_vi_inline": "tại sao",
+      "example_en": "Why are you late? The lesson started twenty minutes ago.",
+      "example_vi": "Tại sao bạn đến muộn? Bài học đã bắt đầu hai mươi phút trước.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "why"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "how",
+      "ipa": "/haʊ/",
+      "pos": "question word",
+      "meaning_vi": "như thế nào, bằng cách nào",
+      "meaning_vi_inline": "như thế nào",
+      "example_en": "How do you spell your last name? I want to write it correctly.",
+      "example_vi": "Bạn đánh vần họ của mình như thế nào? Tôi muốn viết đúng.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "how / however"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "ask",
+      "ipa": "/ɑːsk/",
+      "pos": "verb",
+      "meaning_vi": "hỏi, đặt câu hỏi, yêu cầu",
+      "meaning_vi_inline": "hỏi",
+      "example_en": "If you do not understand, please ask the teacher — that is what she is here for.",
+      "example_vi": "Nếu bạn không hiểu, hãy hỏi giáo viên — đó là lý do cô ấy ở đây.",
+      "word_family": {
+        "noun": null,
+        "verb": "ask / asked",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "answer",
+      "ipa": "/ˈɑːnsər/",
+      "pos": "verb / noun",
+      "meaning_vi": "trả lời; câu trả lời",
+      "meaning_vi_inline": "câu trả lời",
+      "example_en": "She gave a clear answer and everyone in the class understood straight away.",
+      "example_vi": "Cô ấy đưa ra câu trả lời rõ ràng và mọi người trong lớp hiểu ngay lập tức.",
+      "word_family": {
+        "noun": "answer",
+        "verb": "answer / answered",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "know",
+      "ipa": "/nəʊ/",
+      "pos": "verb",
+      "meaning_vi": "biết, biết rõ",
+      "meaning_vi_inline": "biết",
+      "example_en": "I know the answer — we studied this topic last week in class.",
+      "example_vi": "Tôi biết câu trả lời — chúng tôi đã học chủ đề này tuần trước trong lớp.",
+      "word_family": {
+        "noun": "knowledge",
+        "verb": "know / knew / known",
+        "adjective": "knowledgeable / known / unknown",
+        "adverb": "knowingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "understand",
+      "ipa": "/ˌʌndəˈstænd/",
+      "pos": "verb",
+      "meaning_vi": "hiểu, nắm được",
+      "meaning_vi_inline": "hiểu",
+      "example_en": "I do not understand this grammar rule — could you explain it again, please?",
+      "example_vi": "Tôi không hiểu quy tắc ngữ pháp này — bạn có thể giải thích lại không?",
+      "word_family": {
+        "noun": "understanding",
+        "verb": "understand / understood",
+        "adjective": "understandable / misunderstood",
+        "adverb": "understandably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "mean",
+      "ipa": "/miːn/",
+      "pos": "verb",
+      "meaning_vi": "có nghĩa là, muốn nói",
+      "meaning_vi_inline": "có ý gì",
+      "example_en": "What does this word mean? I have never seen it before.",
+      "example_vi": "Từ này có nghĩa là gì? Tôi chưa bao giờ thấy nó trước đây.",
+      "word_family": {
+        "noun": "meaning",
+        "verb": "mean / meant",
+        "adjective": "meaningful / meaningless",
+        "adverb": "meaningfully"
+      },
+      "false_friend": {
+        "word_vi": "mean (tính từ)",
+        "explanation_vi": "'Mean' (động từ) nghĩa là 'có nghĩa là'. Nhưng 'mean' (tính từ) nghĩa là 'xấu bụng, độc ác'. Ví dụ: What does it mean? (Nó có nghĩa là gì?) ≠ He is mean. (Anh ấy xấu bụng.)"
+      }
+    },
+    {
+      "id": 12,
+      "word": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "nhắc lại, lặp lại",
+      "meaning_vi_inline": "nhắc lại",
+      "example_en": "Could you repeat that, please? I did not hear you the first time.",
+      "example_vi": "Bạn có thể nhắc lại điều đó không? Tôi đã không nghe bạn lần đầu.",
+      "word_family": {
+        "noun": "repetition / repeat",
+        "verb": "repeat / repeated",
+        "adjective": "repeated / repetitive",
+        "adverb": "repeatedly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "again",
+      "ipa": "/əˈɡen/",
+      "pos": "adverb",
+      "meaning_vi": "lại, một lần nữa",
+      "meaning_vi_inline": "lại",
+      "example_en": "I did not understand the first time, so she explained it again more slowly.",
+      "example_vi": "Tôi đã không hiểu lần đầu, vì vậy cô ấy giải thích lại chậm hơn.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "again"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "please",
+      "ipa": "/pliːz/",
+      "pos": "adverb / verb",
+      "meaning_vi": "làm ơn; làm hài lòng",
+      "meaning_vi_inline": "làm ơn",
+      "example_en": "Please speak more slowly — I am still learning English.",
+      "example_vi": "Làm ơn nói chậm hơn — tôi vẫn đang học tiếng Anh.",
+      "word_family": {
+        "noun": "pleasure",
+        "verb": "please / pleased",
+        "adjective": "pleased / pleasing / pleasant",
+        "adverb": "please / pleasantly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "sure",
+      "ipa": "/ʃʊər/",
+      "pos": "adjective",
+      "meaning_vi": "chắc chắn, tự tin",
+      "meaning_vi_inline": "chắc chắn",
+      "example_en": "Are you sure about the answer? Read the question one more time to check.",
+      "example_vi": "Bạn có chắc chắn về câu trả lời không? Đọc lại câu hỏi một lần nữa để kiểm tra.",
+      "word_family": {
+        "noun": "sureness / certainty",
+        "verb": null,
+        "adjective": "sure / unsure",
+        "adverb": "surely / certainly"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "understand" },
+        { "id": 2, "word": "repeat" },
+        { "id": 3, "word": "mean" },
+        { "id": 4, "word": "ask" },
+        { "id": 5, "word": "answer" }
+      ],
+      "options": [
+        { "id": "A", "text": "to say or write something in reply to a question" },
+        { "id": "B", "text": "to say or do something again so that someone can hear or see it better" },
+        { "id": "C", "text": "to put a question to someone in order to get information" },
+        { "id": "D", "text": "to express or communicate a particular idea or piece of information" },
+        { "id": "E", "text": "to know what something means and be able to make sense of it" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ did you put my bag? I cannot find it anywhere in the room.",
+          "options": ["What", "Why", "Where", "When"],
+          "answer": "Where"
+        },
+        {
+          "id": 2,
+          "sentence": "I am not _____ about the meeting time — could you check the message again?",
+          "options": ["again", "sure", "please", "how"],
+          "answer": "sure"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ are you late every morning? The teacher is getting frustrated.",
+          "options": ["What", "How", "Who", "Why"],
+          "answer": "Why"
+        },
+        {
+          "id": 4,
+          "sentence": "She did not hear the question, so the teacher had to _____ it twice.",
+          "options": ["ask", "know", "repeat", "answer"],
+          "answer": "repeat"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ is responsible for cleaning the classroom today?",
+          "options": ["When", "Who", "What", "Where"],
+          "answer": "Who"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["again", "ask", "know", "please", "understand", "mean"],
+      "items": [
+        { "id": 1, "sentence": "Could you explain that _____, please? I missed the first part.", "answer": "again" },
+        { "id": 2, "sentence": "Do you _____ what this word means? I have never seen it before.", "answer": "know" },
+        { "id": 3, "sentence": "_____ sit down quietly — the exam is about to start.", "answer": "please" },
+        { "id": 4, "sentence": "She did not _____ the instructions, so she made several mistakes.", "answer": "understand" },
+        { "id": 5, "sentence": "If you need help, do not be afraid to _____ your teacher.", "answer": "ask" }
+      ],
+      "note": "One word in the box is not used: mean"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She has a good _____ of grammar after studying it for two years. (UNDERSTAND)",
+          "base_word": "UNDERSTAND",
+          "answer": "understanding",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher _____ the instruction three times before the class began. (REPEAT)",
+          "base_word": "REPEAT",
+          "answer": "repeated",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 3,
+          "sentence": "The new word has a very _____ name — I cannot forget it once I learn it. (MEAN)",
+          "base_word": "MEAN",
+          "answer": "meaningful",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ of science and history impressed all her teachers. (KNOW)",
+          "base_word": "KNOW",
+          "answer": "knowledge",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "She smiled _____ when she found out she had passed the exam. (PLEASE)",
+          "base_word": "PLEASE",
+          "answer": "pleasantly",
+          "form_used": "adverb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I do not [answer] what this word means — can you explain it to me?",
+          "highlighted": "answer",
+          "options": { "A": "say", "B": "know", "C": "answer" },
+          "answer": "B",
+          "explanation": "'Answer' is used when you reply to a question. The sentence is about not having information about a word's meaning. The correct word is 'know' — to have information or understanding of something."
+        },
+        {
+          "id": 2,
+          "sentence": "She asked the teacher to [again] the instructions because she could not hear.",
+          "highlighted": "again",
+          "options": { "A": "repeat", "B": "again", "C": "mean" },
+          "answer": "A",
+          "explanation": "'Again' is an adverb — it cannot follow 'to' as a verb. The sentence needs a verb after 'to'. 'Repeat' means to say something once more, which is exactly what the teacher needs to do."
+        },
+        {
+          "id": 3,
+          "sentence": "[Where] did the accident happen? Was it at six in the evening or later?",
+          "highlighted": "Where",
+          "options": { "A": "Where", "B": "When", "C": "Who" },
+          "answer": "B",
+          "explanation": "'Where' asks about a place. The second part of the sentence asks about six in the evening — this is a time. The correct question word is 'When', which asks about time."
+        },
+        {
+          "id": 4,
+          "sentence": "Are you [know] that the class starts at eight tomorrow morning?",
+          "highlighted": "know",
+          "options": { "A": "sure", "B": "know", "C": "please" },
+          "answer": "A",
+          "explanation": "'Are you know' is grammatically incorrect — you cannot use 'are you' before a base verb like this. The correct structure is 'Are you sure', which means 'Do you feel certain about this?'"
+        },
+        {
+          "id": 5,
+          "sentence": "He did not [understand] to the question, so the teacher explained it again.",
+          "highlighted": "understand",
+          "options": { "A": "reply", "B": "ask", "C": "know" },
+          "answer": "A",
+          "explanation": "'Understand' is followed by an object, not 'to'. 'Understand to a question' is not natural English. The correct phrase is 'reply to a question' — meaning to give an answer back to someone."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "B", "3": "D", "4": "C", "5": "A" },
+    "ex2": { "1": "Where", "2": "sure", "3": "Why", "4": "repeat", "5": "Who" },
+    "ex3": { "1": "again", "2": "know", "3": "please", "4": "understand", "5": "ask" },
+    "ex4": { "1": "understanding", "2": "repeated", "3": "meaningful", "4": "knowledge", "5": "pleasantly" },
+    "ex5": { "1": "B", "2": "A", "3": "B", "4": "A", "5": "A" }
+  }
+}

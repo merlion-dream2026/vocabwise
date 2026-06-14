@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 30,
+    "topic_id": "b2-t30",
+    "topic_title": "Shopping Habits",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🛍️",
+    "topic_title_vi": "Thói Quen Mua Sắm",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Shopping is no longer simply about buying what we need — it has become a complex behaviour shaped by psychology, advertising, and culture. As a **consumer**, each person makes dozens of small decisions every day about what to **purchase**. Factors such as **quality**, price, and personal values all play a role in shaping these **choice**s, though not every decision is as rational as we might think.",
+        "text_vi": "Mua sắm không còn đơn giản là mua những gì chúng ta cần — nó đã trở thành một hành vi phức tạp được định hình bởi tâm lý, quảng cáo và văn hóa. Là một **người tiêu dùng**, mỗi người đưa ra hàng chục quyết định nhỏ mỗi ngày về việc **mua** gì. Các yếu tố như **chất lượng**, giá cả và giá trị cá nhân đều đóng vai trò định hình những **lựa chọn** này, dù không phải quyết định nào cũng hợp lý như chúng ta nghĩ."
+      },
+      {
+        "index": 2,
+        "text_en": "One common behaviour is **unplanned** buying — when people buy items they had no intention of buying before entering a store or website. Clever store layouts, limited-time **discount**s, and emotional marketing all trigger impulsive purchases. Shoppers may also develop **brand loyalty**, preferring one company's products over others even if a competitor offers a similar item at a lower price, simply because of habit or trust.",
+        "text_vi": "Một hành vi phổ biến là mua **không có kế hoạch** — khi mọi người mua những món họ không có ý định mua trước khi vào cửa hàng hoặc trang web. Bố trí cửa hàng thông minh, **giảm giá** có thời hạn và marketing cảm xúc đều kích thích những mua hàng bốc đồng. Người mua cũng có thể phát triển **lòng trung thành với thương hiệu**, ưu tiên sản phẩm của một công ty hơn các công ty khác dù đối thủ cạnh tranh cung cấp sản phẩm tương tự với giá thấp hơn, chỉ vì thói quen hoặc niềm tin."
+      },
+      {
+        "index": 3,
+        "text_en": "The rise of online **retail** has transformed shopping habits significantly. Consumers can now buy **used** items through second-hand platforms, stretching their budget further. However, online shopping has also made it easier to spend more than people can **afford**. Shoppers must also understand their rights: if a product is faulty, they are usually entitled to a **refund** — money returned after an unsatisfactory **purchase**.",
+        "text_vi": "Sự trỗi dậy của **bán lẻ** trực tuyến đã thay đổi đáng kể thói quen mua sắm. Người tiêu dùng hiện có thể mua những món **đã qua sử dụng** qua các nền tảng hàng secondhand, mở rộng ngân sách hơn. Tuy nhiên, mua sắm trực tuyến cũng khiến người ta dễ chi tiêu nhiều hơn mức họ có thể **chi trả**. Người mua cũng phải hiểu quyền của mình: nếu sản phẩm bị lỗi, họ thường có quyền được **hoàn tiền** — tiền được trả lại sau một giao dịch không ổn."
+      },
+      {
+        "index": 4,
+        "text_en": "Today, many consumers are shifting towards more **ethical** shopping habits — choosing products that are responsibly made and minimise harm to people or the planet. This includes buying goods with less **wrapping** to reduce plastic waste, choosing **brand**s with transparent supply chains, and following sustainable consumption **trend**s. As awareness of environmental and social issues grows, **ethical** consumerism is reshaping the **retail** industry itself.",
+        "text_vi": "Ngày nay, nhiều người tiêu dùng đang chuyển sang thói quen mua sắm **đạo đức** hơn — chọn sản phẩm được sản xuất có trách nhiệm và giảm thiểu tác hại đến con người hoặc hành tinh. Điều này bao gồm mua hàng có ít **bao bì** hơn để giảm chất thải nhựa, chọn **thương hiệu** có chuỗi cung ứng minh bạch, và theo dõi các **xu hướng** tiêu dùng bền vững. Khi nhận thức về các vấn đề môi trường và xã hội ngày càng tăng, chủ nghĩa tiêu dùng **đạo đức** đang định hình lại chính ngành **bán lẻ**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "consumer",
+      "ipa": "/kənˈsjuː.mər/",
+      "pos": "noun",
+      "meaning_vi": "người tiêu dùng",
+      "meaning_vi_inline": "người tiêu dùng",
+      "example_en": "Modern consumers are better informed and more demanding than ever before.",
+      "example_vi": "Người tiêu dùng hiện đại được thông tin tốt hơn và đòi hỏi nhiều hơn bao giờ hết.",
+      "word_family": {
+        "noun": "consumer / consumption",
+        "verb": "consume",
+        "adjective": "consumer",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "brand loyalty",
+      "ipa": "/brænd ˈlɔɪ.əl.ti/",
+      "pos": "noun phrase",
+      "meaning_vi": "lòng trung thành với thương hiệu",
+      "meaning_vi_inline": "trung thành thương hiệu",
+      "example_en": "High brand loyalty means customers keep buying the same products even when prices rise.",
+      "example_vi": "Lòng trung thành thương hiệu cao có nghĩa là khách hàng tiếp tục mua cùng một sản phẩm ngay cả khi giá tăng.",
+      "word_family": {
+        "noun": "loyalty / brand loyalty",
+        "verb": "be loyal to",
+        "adjective": "loyal",
+        "adverb": "loyally"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "discount",
+      "ipa": "/ˈdɪs.kaʊnt/",
+      "pos": "noun / verb",
+      "meaning_vi": "giảm giá; chiết khấu",
+      "meaning_vi_inline": "giảm giá",
+      "example_en": "The store offered a 30% discount during the end-of-season sale.",
+      "example_vi": "Cửa hàng giảm giá 30% trong đợt giảm giá cuối mùa.",
+      "word_family": {
+        "noun": "discount",
+        "verb": "discount",
+        "adjective": "discounted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "retail",
+      "ipa": "/ˈriː.teɪl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "bán lẻ",
+      "meaning_vi_inline": "bán lẻ",
+      "example_en": "Online retail has grown rapidly, putting pressure on traditional brick-and-mortar stores.",
+      "example_vi": "Bán lẻ trực tuyến đã phát triển nhanh chóng, tạo áp lực lên các cửa hàng truyền thống.",
+      "word_family": {
+        "noun": "retail / retailer",
+        "verb": "retail",
+        "adjective": "retail",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "ethical",
+      "ipa": "/ˈeθ.ɪ.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "có đạo đức, đúng đạo lý (trong tiêu dùng)",
+      "meaning_vi_inline": "có đạo đức",
+      "example_en": "Ethical consumers prefer to buy products made without exploiting workers or harming the environment.",
+      "example_vi": "Người tiêu dùng có đạo đức ưu tiên mua sản phẩm được làm mà không bóc lột công nhân hoặc gây hại môi trường.",
+      "word_family": {
+        "noun": "ethics",
+        "verb": null,
+        "adjective": "ethical / unethical",
+        "adverb": "ethically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "recycle",
+      "ipa": "/ˌriːˈsaɪ.kəl/",
+      "pos": "verb",
+      "meaning_vi": "tái chế (vật liệu)",
+      "meaning_vi_inline": "tái chế",
+      "example_en": "Many consumers now choose brands that use recycled materials in their packaging.",
+      "example_vi": "Nhiều người tiêu dùng hiện chọn các thương hiệu sử dụng vật liệu tái chế trong bao bì của họ.",
+      "word_family": {
+        "noun": "recycling / recycle",
+        "verb": "recycle",
+        "adjective": "recyclable / recycled",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "wrapping",
+      "ipa": "/ˈræp.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "bao bì, giấy gói (sản phẩm)",
+      "meaning_vi_inline": "bao bì",
+      "example_en": "Supermarkets are reducing plastic wrapping on fruit and vegetables to cut down on waste.",
+      "example_vi": "Các siêu thị đang giảm bao bì nhựa trên trái cây và rau quả để giảm chất thải.",
+      "word_family": {
+        "noun": "wrapping / wrapper",
+        "verb": "wrap",
+        "adjective": "wrapped",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "trend",
+      "ipa": "/trend/",
+      "pos": "noun",
+      "meaning_vi": "xu hướng (thị trường, thời trang, tiêu dùng)",
+      "meaning_vi_inline": "xu hướng",
+      "example_en": "The trend towards sustainable products is growing, especially among younger consumers.",
+      "example_vi": "Xu hướng hướng tới các sản phẩm bền vững đang phát triển, đặc biệt là trong số người tiêu dùng trẻ.",
+      "word_family": {
+        "noun": "trend",
+        "verb": "trend",
+        "adjective": "trendy",
+        "adverb": "trendily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "quality",
+      "ipa": "/ˈkwɒl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "chất lượng",
+      "meaning_vi_inline": "chất lượng",
+      "example_en": "Many shoppers are willing to pay more for a product if its quality is noticeably higher.",
+      "example_vi": "Nhiều người mua sẵn sàng trả nhiều hơn cho sản phẩm nếu chất lượng của nó cao hơn đáng kể.",
+      "word_family": {
+        "noun": "quality",
+        "verb": null,
+        "adjective": "quality / high-quality / low-quality",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "used",
+      "ipa": "/juːzd/",
+      "pos": "adjective",
+      "meaning_vi": "đã qua sử dụng, secondhand",
+      "meaning_vi_inline": "đã qua sử dụng",
+      "example_en": "Buying used electronics is a great way to save money and reduce electronic waste.",
+      "example_vi": "Mua đồ điện tử đã qua sử dụng là cách tuyệt vời để tiết kiệm tiền và giảm rác thải điện tử.",
+      "word_family": {
+        "noun": null,
+        "verb": "use",
+        "adjective": "used / second-hand / pre-owned",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "second-hand",
+        "explanation_vi": "'Used' và 'second-hand' đều có nghĩa đã qua sử dụng — trong bối cảnh mua sắm chúng gần như đồng nghĩa. 'Pre-owned' là từ ngữ thương mại lịch sự hơn, thường dùng cho ô tô và đồ cao cấp."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "unplanned",
+      "ipa": "/ˌʌnˈplænd/",
+      "pos": "adjective",
+      "meaning_vi": "không có kế hoạch, bốc đồng (mua hàng)",
+      "meaning_vi_inline": "không có kế hoạch",
+      "example_en": "Unplanned purchases often happen when shoppers see a limited-time offer at the checkout.",
+      "example_vi": "Những mua hàng không có kế hoạch thường xảy ra khi người mua thấy ưu đãi có thời hạn tại quầy thanh toán.",
+      "word_family": {
+        "noun": null,
+        "verb": "plan",
+        "adjective": "unplanned / planned / impulsive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "afford",
+      "ipa": "/əˈfɔːd/",
+      "pos": "verb",
+      "meaning_vi": "đủ khả năng chi trả",
+      "meaning_vi_inline": "chi trả được",
+      "example_en": "He could not afford the laptop, so he saved for three months before buying it.",
+      "example_vi": "Anh ấy không đủ tiền mua laptop, nên anh tiết kiệm trong ba tháng trước khi mua.",
+      "word_family": {
+        "noun": "affordability",
+        "verb": "afford",
+        "adjective": "affordable / unaffordable",
+        "adverb": "affordably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "purchase",
+      "ipa": "/ˈpɜː.tʃəs/",
+      "pos": "verb / noun",
+      "meaning_vi": "mua (hàng); giao dịch mua",
+      "meaning_vi_inline": "mua",
+      "example_en": "Consumers can purchase tickets online and collect them at the venue.",
+      "example_vi": "Người tiêu dùng có thể mua vé trực tuyến và nhận vé tại nơi tổ chức sự kiện.",
+      "word_family": {
+        "noun": "purchase",
+        "verb": "purchase",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "buy",
+        "explanation_vi": "'Purchase' và 'buy' đều có nghĩa mua — 'purchase' chính thức, thường dùng trong văn bản pháp lý, thương mại hoặc văn viết; 'buy' thông dụng hơn, phù hợp với ngôn ngữ nói hàng ngày."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "choice",
+      "ipa": "/tʃɔɪs/",
+      "pos": "noun",
+      "meaning_vi": "sự lựa chọn; thứ được lựa chọn",
+      "meaning_vi_inline": "lựa chọn",
+      "example_en": "Supermarkets offer a wide choice of products to suit every budget and lifestyle.",
+      "example_vi": "Siêu thị cung cấp nhiều lựa chọn sản phẩm phù hợp với mọi ngân sách và lối sống.",
+      "word_family": {
+        "noun": "choice",
+        "verb": "choose",
+        "adjective": "choosy",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "refund",
+      "ipa": "/ˈriː.fʌnd/",
+      "pos": "noun / verb",
+      "meaning_vi": "hoàn tiền; hoàn trả tiền",
+      "meaning_vi_inline": "hoàn tiền",
+      "example_en": "She returned the faulty kettle and received a full refund within five working days.",
+      "example_vi": "Cô ấy trả lại ấm đun bị hỏng và nhận được hoàn tiền đầy đủ trong vòng năm ngày làm việc.",
+      "word_family": {
+        "noun": "refund",
+        "verb": "refund",
+        "adjective": "refundable / non-refundable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Unplanned buying can be triggered by limited-time discounts and store layouts.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage claims that all consumers now prefer to buy used products over new ones.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Brand loyalty means that customers continue buying from the same brand even when a competitor offers lower prices.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage mentions a specific country that has introduced laws on product refunds.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "Ethical shopping habits are influencing how the retail industry operates.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Shoppers who develop strong _____ will keep buying the same brand for years without comparing prices.",
+          "options": [
+            "trend",
+            "brand loyalty",
+            "discount",
+            "quality"
+          ],
+          "answer": "brand loyalty"
+        },
+        {
+          "id": 2,
+          "sentence": "She received a full _____ after returning the coat because it was the wrong size.",
+          "options": [
+            "purchase",
+            "choice",
+            "discount",
+            "refund"
+          ],
+          "answer": "refund"
+        },
+        {
+          "id": 3,
+          "sentence": "He could not _____ a new phone, so he decided to buy a second-hand one instead.",
+          "options": [
+            "recycle",
+            "purchase",
+            "afford",
+            "refund"
+          ],
+          "answer": "afford"
+        },
+        {
+          "id": 4,
+          "sentence": "Many shoppers today choose brands that use _____ materials to reduce their environmental impact.",
+          "options": [
+            "used",
+            "recycled",
+            "ethical",
+            "affordable"
+          ],
+          "answer": "recycled"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ towards minimalism is encouraging consumers to buy fewer, better-quality items.",
+          "options": [
+            "trend",
+            "brand",
+            "discount",
+            "retail"
+          ],
+          "answer": "trend"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "consumer",
+        "retail",
+        "ethical",
+        "wrapping",
+        "unplanned"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Every _____ has the legal right to ask for a refund if the product is faulty.",
+          "answer": "consumer"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ industry is changing rapidly as more people shift to shopping online.",
+          "answer": "retail"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ shopping means choosing products that are good for both people and the planet.",
+          "answer": "ethical"
+        },
+        {
+          "id": 4,
+          "sentence": "The company reduced plastic _____ on all its products to lower its environmental footprint.",
+          "answer": "wrapping"
+        },
+        {
+          "id": 5,
+          "sentence": "Many supermarkets place sweets near the checkout to encourage _____ buying.",
+          "answer": "unplanned"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "could",
+            "not",
+            "afford",
+            "the",
+            "item",
+            "so",
+            "she",
+            "asked",
+            "for",
+            "a",
+            "discount"
+          ],
+          "answer": "She could not afford the item so she asked for a discount."
+        },
+        {
+          "id": 2,
+          "words": [
+            "many",
+            "consumers",
+            "prefer",
+            "used",
+            "products",
+            "to",
+            "reduce",
+            "both",
+            "cost",
+            "and",
+            "waste"
+          ],
+          "answer": "Many consumers prefer used products to reduce both cost and waste."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "trend",
+            "towards",
+            "ethical",
+            "shopping",
+            "is",
+            "changing",
+            "how",
+            "brands",
+            "operate"
+          ],
+          "answer": "The trend towards ethical shopping is changing how brands operate."
+        },
+        {
+          "id": 4,
+          "words": [
+            "unplanned",
+            "purchases",
+            "often",
+            "happen",
+            "when",
+            "consumers",
+            "see",
+            "a",
+            "tempting",
+            "discount"
+          ],
+          "answer": "Unplanned purchases often happen when consumers see a tempting discount."
+        },
+        {
+          "id": 5,
+          "words": [
+            "reducing",
+            "plastic",
+            "wrapping",
+            "is",
+            "one",
+            "way",
+            "retailers",
+            "can",
+            "show",
+            "they",
+            "care",
+            "about",
+            "the",
+            "environment"
+          ],
+          "answer": "Reducing plastic wrapping is one way retailers can show they care about the environment."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The shop refused to give her a [compensation] even though the product was clearly faulty.",
+          "highlighted": "compensation",
+          "options": {
+            "A": "refund",
+            "B": "discount",
+            "C": "compensation"
+          },
+          "answer": "A",
+          "explanation": "'Refund' is the correct term for money returned when a product is faulty or returned to a store. 'Compensation' implies payment for a loss or injury beyond a simple return, and 'discount' is a price reduction before purchase, not after."
+        },
+        {
+          "id": 2,
+          "sentence": "Online shopping has made it easier for people to spend more than they can [manage].",
+          "highlighted": "manage",
+          "options": {
+            "A": "handle",
+            "B": "afford",
+            "C": "budget"
+          },
+          "answer": "B",
+          "explanation": "'Afford' is the correct verb meaning to have enough money to buy something. 'Handle' means to deal with or manage a situation and does not collocate naturally with 'can' in a financial context. 'Budget' is typically a noun, not used this way."
+        },
+        {
+          "id": 3,
+          "sentence": "The shop used minimal [covering] to reduce the amount of plastic waste it produced.",
+          "highlighted": "covering",
+          "options": {
+            "A": "packaging",
+            "B": "material",
+            "C": "wrapping"
+          },
+          "answer": "C",
+          "explanation": "'Wrapping' is the target vocabulary term specifically referring to the material used to wrap a product. 'Packaging' is a broader term (boxes, bags, etc.) and while close, is not the target word. 'Covering' is too general and informal for a retail context."
+        },
+        {
+          "id": 4,
+          "sentence": "He has great [commitment] to that coffee brand and has never tried any other.",
+          "highlighted": "commitment",
+          "options": {
+            "A": "faithfulness",
+            "B": "brand loyalty",
+            "C": "dedication"
+          },
+          "answer": "B",
+          "explanation": "'Brand loyalty' is the standard marketing and consumer behaviour term for a customer's habitual preference for one brand over others. 'Commitment' and 'faithfulness' describe personal traits or obligations, not consumer purchasing patterns."
+        },
+        {
+          "id": 5,
+          "sentence": "Buying [old] clothing online is a growing trend among environmentally aware consumers.",
+          "highlighted": "old",
+          "options": {
+            "A": "used",
+            "B": "old",
+            "C": "second-hand"
+          },
+          "answer": "A",
+          "explanation": "'Used' is the target vocabulary term for previously owned items in a shopping context. 'Old' merely indicates age without implying prior ownership. 'Second-hand' is also correct in meaning, but 'used' is the specific vocabulary word for this topic."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "brand loyalty",
+      "2": "refund",
+      "3": "afford",
+      "4": "recycled",
+      "5": "trend"
+    },
+    "ex3": {
+      "1": "consumer",
+      "2": "retail",
+      "3": "ethical",
+      "4": "wrapping",
+      "5": "unplanned"
+    },
+    "ex4": {
+      "1": "She could not afford the item so she asked for a discount.",
+      "2": "Many consumers prefer used products to reduce both cost and waste.",
+      "3": "The trend towards ethical shopping is changing how brands operate.",
+      "4": "Unplanned purchases often happen when consumers see a tempting discount.",
+      "5": "Reducing plastic wrapping is one way retailers can show they care about the environment."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

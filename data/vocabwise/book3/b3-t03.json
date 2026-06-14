@@ -3,323 +3,284 @@
     "book": 3,
     "topic_number": 3,
     "topic_id": "b3-t03",
-    "topic_title": "Migration & Cultural Identity",
+    "topic_title": "Relationships & Modern Society",
+    "topic_title_vi": "Mối Quan Hệ & Xã Hội Hiện Đại",
     "theme_number": 1,
-    "theme_title": "Power, Society & Global Affairs",
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
     "cefr_level": "C1-C2",
     "combo": "C1",
-    "emoji": "✈️",
-    "topic_title_vi": "Di Cư & Bản Sắc Văn Hóa",
-    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "emoji": "🤝",
     "status": "qa_pass",
     "qa": {
       "passage": "pass",
       "glossary": "pass",
       "exercises": "pass",
       "answer_key": "pass",
-      "last_checked": "2026-06-12"
+      "last_checked": "2026-06-14"
     }
   },
   "passage": {
-    "word_count": 231,
+    "word_count": 222,
     "paragraphs": [
       {
         "index": 1,
-        "text_en": "**Migration** — the movement of people across national or regional borders — has shaped societies throughout human history. Today, millions of individuals migrate in search of economic opportunities, while others flee conflict or persecution as **refugees**. Forced **displacement** has reached record levels globally, with entire communities uprooted from their homelands. These movements present both profound opportunities and significant challenges for receiving nations.",
-        "text_vi": "**Di cư** — sự di chuyển của con người qua biên giới quốc gia hoặc vùng lãnh thổ — đã định hình các xã hội xuyên suốt lịch sử nhân loại. Ngày nay, hàng triệu người di cư để tìm kiếm cơ hội kinh tế, trong khi những người khác chạy trốn khỏi xung đột hoặc bách hại với tư cách **người tị nạn**. **Sự di dời** cưỡng bức đã đạt mức kỷ lục toàn cầu, với toàn bộ cộng đồng bị bứng khỏi quê hương. Những làn sóng này mang lại cả cơ hội sâu sắc lẫn thách thức đáng kể cho các quốc gia tiếp nhận."
+        "text_en": "In modern society, the nature of human connection is undergoing profound transformation. While people have always sought **intimacy** and a sense of **attachment** with others, digital communication has reshaped how bonds are formed and sustained. The capacity to **build meaningful relationships** now competes with an ever-growing culture of superficial contact, raising questions about whether depth of connection is being sacrificed for breadth.",
+        "text_vi": "Trong xã hội hiện đại, bản chất của sự kết nối giữa con người đang trải qua những thay đổi sâu sắc. Mặc dù con người luôn tìm kiếm **sự thân mật** và cảm giác **gắn bó** với người khác, truyền thông kỹ thuật số đã định hình lại cách các mối quan hệ được hình thành và duy trì. Khả năng **xây dựng mối quan hệ có ý nghĩa** ngày nay phải cạnh tranh với văn hóa giao tiếp hời hợt ngày càng lan rộng, đặt ra câu hỏi liệu chiều sâu của kết nối có đang bị đánh đổi lấy chiều rộng hay không."
       },
       {
         "index": 2,
-        "text_en": "Host societies that embrace **multiculturalism** benefit from the linguistic, cultural, and economic contributions of newcomers. **Integration** — the process by which migrants participate fully in social and economic life — is generally more sustainable than enforced **assimilation**, which requires migrants to abandon their original culture entirely. Many migrants maintain strong links with their country of origin, forming **diaspora** communities that enrich both their adopted and home nations.",
-        "text_vi": "Các xã hội chủ nhà chấp nhận **chủ nghĩa đa văn hóa** được hưởng lợi từ những đóng góp về ngôn ngữ, văn hóa và kinh tế của những người nhập cư. **Hội nhập** — quá trình người di cư tham gia đầy đủ vào đời sống kinh tế và xã hội — thường bền vững hơn so với **đồng hóa** cưỡng bức, vốn đòi hỏi người di cư phải từ bỏ hoàn toàn văn hóa gốc của mình. Nhiều người di cư duy trì mối liên hệ chặt chẽ với quê hương, hình thành cộng đồng **kiều dân** làm phong phú thêm cả quốc gia tiếp nhận lẫn quê hương."
+        "text_en": "Sociologists note that **interdependence** remains fundamental to human wellbeing, yet **alienation** and **estrangement** are rising in urban populations. Many individuals struggle to **navigate emotional vulnerability**, finding it difficult to expose their inner lives to others. This reluctance undermines **reciprocity** — the mutual give-and-take that sustains lasting bonds — and can lead to the gradual **dissolution** of even long-standing relationships.",
+        "text_vi": "Các nhà xã hội học chỉ ra rằng **sự phụ thuộc lẫn nhau** vẫn là nền tảng cho hạnh phúc của con người, tuy nhiên **sự tha hóa** và **sự xa cách** lại đang gia tăng trong các đô thị. Nhiều cá nhân gặp khó khăn trong việc **vượt qua sự dễ tổn thương về cảm xúc**, khó bộc lộ thế giới nội tâm với người khác. Sự e ngại này làm suy yếu **sự có đi có lại** — sự cho và nhận qua lại duy trì các mối quan hệ bền vững — và có thể dẫn đến sự **tan vỡ** dần dần ngay cả những mối quan hệ lâu dài."
       },
       {
         "index": 3,
-        "text_en": "However, large-scale migration can strain social **cohesion**, particularly when host communities feel overwhelmed by rapid **demographic** change. **Xenophobia**, **prejudice**, and **stereotypes** about migrants often escalate into discrimination and political tension. Research consistently shows that these attitudes are fuelled by misinformation and economic insecurity rather than objective evidence.",
-        "text_vi": "Tuy nhiên, di cư quy mô lớn có thể làm suy giảm **sự gắn kết** xã hội, đặc biệt khi cộng đồng chủ nhà cảm thấy choáng ngợp trước sự thay đổi **nhân khẩu học** nhanh chóng. **Tâm lý bài ngoại**, **thành kiến** và **định kiến** về người di cư thường leo thang thành phân biệt đối xử và căng thẳng chính trị. Nghiên cứu nhất quán cho thấy những thái độ này bị thúc đẩy bởi thông tin sai lệch và bất an kinh tế hơn là bằng chứng khách quan."
+        "text_en": "A further challenge is the question of **compatibility**. As people increasingly meet through algorithms rather than shared communities, **commitment** can feel conditional and temporary. Couples who **maintain long-distance relationships** face particular pressure, as physical separation tests both **vulnerability** and trust. Without a conscious effort to **foster mutual understanding**, even compatible partners may drift apart.",
+        "text_vi": "Một thách thức khác là vấn đề **sự tương hợp**. Khi ngày càng nhiều người gặp nhau qua các thuật toán thay vì cộng đồng chung, **sự cam kết** có thể mang cảm giác có điều kiện và tạm thời. Các cặp đôi **duy trì mối quan hệ xa cách** phải chịu áp lực đặc biệt, vì khoảng cách vật lý thử thách cả **sự dễ tổn thương** lẫn niềm tin. Nếu không nỗ lực có ý thức để **nuôi dưỡng sự hiểu biết lẫn nhau**, ngay cả những người bạn đời tương hợp cũng có thể dần xa nhau."
       },
       {
         "index": 4,
-        "text_en": "At the heart of the migration debate lies the question of **identity** — both for migrants navigating **acculturation** and for host societies redefining what it means to belong. Managing **ethnic** diversity sensitively and equitably remains one of the most complex challenges facing contemporary states.",
-        "text_vi": "Trọng tâm của cuộc tranh luận về di cư là câu hỏi về **bản sắc** — cả đối với người di cư đang trải qua quá trình **tiếp biến văn hóa** lẫn đối với xã hội chủ nhà đang tái định nghĩa ý nghĩa của sự thuộc về. Quản lý sự đa dạng **dân tộc** một cách nhạy cảm và công bằng vẫn là một trong những thách thức phức tạp nhất mà các quốc gia hiện đại phải đối mặt."
+        "text_en": "To **overcome social alienation**, communities and mental health professionals advocate for environments that encourage open dialogue and authentic connection. Researchers suggest that acknowledging **vulnerability** as a strength rather than a weakness allows individuals to form deeper ties. Ultimately, the health of a society can be measured not merely by its productivity, but by the quality of the relationships its members are able to build and sustain.",
+        "text_vi": "Để **vượt qua sự tha hóa xã hội**, các cộng đồng và chuyên gia sức khỏe tâm thần ủng hộ các môi trường khuyến khích đối thoại cởi mở và kết nối thực sự. Các nhà nghiên cứu cho rằng thừa nhận **sự dễ tổn thương** như một điểm mạnh thay vì điểm yếu giúp cá nhân hình thành mối quan hệ sâu sắc hơn. Cuối cùng, sức khỏe của một xã hội không chỉ được đo bằng năng suất, mà còn bằng chất lượng của các mối quan hệ mà các thành viên có thể xây dựng và duy trì."
       }
     ]
   },
   "glossary": [
     {
       "id": 1,
-      "word": "migration",
-      "ipa": "/maɪˈɡreɪ.ʃən/",
+      "word": "commitment",
+      "ipa": "/kəˈmɪt.mənt/",
       "pos": "noun",
-      "meaning_vi": "sự di cư",
-      "meaning_vi_inline": "di cư",
-      "example_en": "Economic migration has transformed the demographics of many cities.",
-      "example_vi": "Di cư kinh tế đã làm thay đổi cơ cấu nhân khẩu học của nhiều thành phố.",
+      "meaning_vi": "sự cam kết, sự gắn bó lâu dài",
+      "meaning_vi_inline": "sự cam kết",
+      "example_en": "A successful marriage requires deep commitment from both partners.",
+      "example_vi": "Một cuộc hôn nhân thành công đòi hỏi sự cam kết sâu sắc từ cả hai phía.",
       "word_family": {
-        "noun": "migration / migrant / immigrant / emigrant",
-        "verb": "migrate / immigrate / emigrate",
-        "adjective": "migratory",
+        "noun": "commitment / committee",
+        "verb": "commit",
+        "adjective": "committed",
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "immigrant vs emigrant",
-        "explanation_vi": "'Immigrant' là người nhập cư (đến); 'emigrant' là người xuất cư (đi) — góc nhìn khác nhau của cùng một người."
+        "word_vi": "committee",
+        "explanation_vi": "'Commitment' là sự cam kết hoặc nghĩa vụ; 'committee' là ủy ban — phát âm tương tự nhưng nghĩa hoàn toàn khác."
       },
       "receptive_productive": "P"
     },
     {
       "id": 2,
-      "word": "displacement",
-      "ipa": "/dɪsˈpleɪs.mənt/",
+      "word": "intimacy",
+      "ipa": "/ˈɪn.tɪ.mə.si/",
       "pos": "noun",
-      "meaning_vi": "sự di dời, bị buộc rời đi",
-      "meaning_vi_inline": "di dời cưỡng bức",
-      "example_en": "The war caused the displacement of millions of civilians.",
-      "example_vi": "Chiến tranh đã khiến hàng triệu thường dân bị di dời.",
+      "meaning_vi": "sự thân mật, sự gần gũi",
+      "meaning_vi_inline": "sự thân mật",
+      "example_en": "Emotional intimacy is built through trust and honest communication.",
+      "example_vi": "Sự thân mật về cảm xúc được xây dựng thông qua niềm tin và giao tiếp trung thực.",
       "word_family": {
-        "noun": "displacement",
-        "verb": "displace",
-        "adjective": "displaced",
-        "adverb": null
+        "noun": "intimacy",
+        "verb": null,
+        "adjective": "intimate",
+        "adverb": "intimately"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 3,
-      "word": "refugee",
-      "ipa": "/ˌref.jʊˈdʒiː/",
+      "word": "dissolution",
+      "ipa": "/ˌdɪs.əˈluː.ʃən/",
       "pos": "noun",
-      "meaning_vi": "người tị nạn",
-      "meaning_vi_inline": "tị nạn",
-      "example_en": "Thousands of refugees crossed the border seeking safety.",
-      "example_vi": "Hàng nghìn người tị nạn vượt biên để tìm kiếm sự an toàn.",
+      "meaning_vi": "sự tan vỡ, sự giải tán",
+      "meaning_vi_inline": "sự tan vỡ",
+      "example_en": "The dissolution of their friendship was gradual but inevitable.",
+      "example_vi": "Sự tan vỡ của tình bạn họ diễn ra từ từ nhưng không thể tránh khỏi.",
       "word_family": {
-        "noun": "refugee",
-        "verb": "seek refuge",
+        "noun": "dissolution",
+        "verb": "dissolve",
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word_vi": "resolution",
+        "explanation_vi": "'Dissolution' là sự tan vỡ hoặc chấm dứt; 'resolution' là sự quyết tâm hoặc giải pháp — dễ nhầm vì cùng vần '-olution'."
+      },
       "receptive_productive": "P"
     },
     {
       "id": 4,
-      "word": "multiculturalism",
-      "ipa": "/ˌmʌl.tiˈkʌl.tʃər.ə.lɪ.z(ə)m/",
+      "word": "interdependence",
+      "ipa": "/ˌɪn.tə.dɪˈpen.dəns/",
       "pos": "noun",
-      "meaning_vi": "chủ nghĩa đa văn hóa",
-      "meaning_vi_inline": "đa văn hóa",
-      "example_en": "Multiculturalism celebrates the coexistence of diverse cultures.",
-      "example_vi": "Chủ nghĩa đa văn hóa tôn vinh sự cùng tồn tại của các nền văn hóa đa dạng.",
+      "meaning_vi": "sự phụ thuộc lẫn nhau",
+      "meaning_vi_inline": "sự phụ thuộc lẫn nhau",
+      "example_en": "Healthy families are characterised by emotional interdependence.",
+      "example_vi": "Gia đình lành mạnh được đặc trưng bởi sự phụ thuộc lẫn nhau về cảm xúc.",
       "word_family": {
-        "noun": "multiculturalism / culture",
-        "verb": null,
-        "adjective": "multicultural",
-        "adverb": "multiculturally"
+        "noun": "interdependence",
+        "verb": "depend",
+        "adjective": "interdependent",
+        "adverb": "interdependently"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 5,
-      "word": "integration",
-      "ipa": "/ˌɪn.tɪˈɡreɪ.ʃən/",
+      "word": "compatibility",
+      "ipa": "/kəmˌpæt.ɪˈbɪl.ɪ.ti/",
       "pos": "noun",
-      "meaning_vi": "hội nhập",
-      "meaning_vi_inline": "hội nhập",
-      "example_en": "Successful integration requires support from both migrants and host communities.",
-      "example_vi": "Hội nhập thành công đòi hỏi sự hỗ trợ từ cả người di cư lẫn cộng đồng chủ nhà.",
+      "meaning_vi": "sự tương hợp, sự phù hợp",
+      "meaning_vi_inline": "sự tương hợp",
+      "example_en": "Long-term compatibility depends on shared values, not just initial attraction.",
+      "example_vi": "Sự tương hợp lâu dài phụ thuộc vào các giá trị chung, không chỉ là sức hút ban đầu.",
       "word_family": {
-        "noun": "integration",
-        "verb": "integrate",
-        "adjective": "integrated",
-        "adverb": null
+        "noun": "compatibility",
+        "verb": null,
+        "adjective": "compatible / incompatible",
+        "adverb": "compatibly"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 6,
-      "word": "assimilation",
-      "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/",
+      "word": "estrangement",
+      "ipa": "/ɪˈstreɪndʒ.mənt/",
       "pos": "noun",
-      "meaning_vi": "sự đồng hóa (văn hóa)",
-      "meaning_vi_inline": "đồng hóa",
-      "example_en": "Forced assimilation often leads to the loss of minority languages.",
-      "example_vi": "Đồng hóa cưỡng bức thường dẫn đến sự mất mát các ngôn ngữ thiểu số.",
+      "meaning_vi": "sự xa cách, sự rời bỏ",
+      "meaning_vi_inline": "sự xa cách",
+      "example_en": "Years of misunderstanding led to estrangement between the siblings.",
+      "example_vi": "Nhiều năm hiểu lầm đã dẫn đến sự xa cách giữa hai anh chị em.",
       "word_family": {
-        "noun": "assimilation",
-        "verb": "assimilate",
-        "adjective": "assimilated",
+        "noun": "estrangement",
+        "verb": "estrange",
+        "adjective": "estranged",
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "simulation",
-        "explanation_vi": "'Assimilation' là quá trình hòa nhập văn hóa; 'simulation' là sự mô phỏng — phát âm tương tự nhưng nghĩa khác hoàn toàn."
+        "word_vi": "strange",
+        "explanation_vi": "'Estrangement' là sự xa cách về cảm xúc trong một mối quan hệ; 'strange' là kỳ lạ — cùng gốc từ nhưng nghĩa rất khác."
       },
       "receptive_productive": "P"
     },
     {
       "id": 7,
-      "word": "diaspora",
-      "ipa": "/daɪˈæs.pər.ə/",
+      "word": "reciprocity",
+      "ipa": "/ˌres.ɪˈprɒs.ɪ.ti/",
       "pos": "noun",
-      "meaning_vi": "cộng đồng kiều dân sống xa tổ quốc",
-      "meaning_vi_inline": "kiều dân",
-      "example_en": "The Vietnamese diaspora has established thriving communities worldwide.",
-      "example_vi": "Cộng đồng kiều dân Việt Nam đã xây dựng được những cộng đồng phồn thịnh trên toàn thế giới.",
+      "meaning_vi": "sự có đi có lại, sự tương hỗ",
+      "meaning_vi_inline": "sự tương hỗ",
+      "example_en": "Reciprocity is essential — relationships must involve giving and receiving equally.",
+      "example_vi": "Sự có đi có lại là điều cần thiết — các mối quan hệ phải liên quan đến việc cho và nhận cân bằng.",
       "word_family": {
-        "noun": "diaspora",
-        "verb": null,
-        "adjective": "diasporic",
-        "adverb": null
+        "noun": "reciprocity",
+        "verb": "reciprocate",
+        "adjective": "reciprocal",
+        "adverb": "reciprocally"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 8,
-      "word": "cohesion",
-      "ipa": "/koʊˈhiː.ʒən/",
+      "word": "vulnerability",
+      "ipa": "/ˌvʌl.nər.əˈbɪl.ɪ.ti/",
       "pos": "noun",
-      "meaning_vi": "sự gắn kết (xã hội)",
-      "meaning_vi_inline": "gắn kết",
-      "example_en": "Social cohesion is weakened when communities feel excluded.",
-      "example_vi": "Sự gắn kết xã hội bị suy yếu khi các cộng đồng cảm thấy bị gạt ra ngoài lề.",
+      "meaning_vi": "sự dễ tổn thương, tính mong manh",
+      "meaning_vi_inline": "sự dễ tổn thương",
+      "example_en": "Sharing one's vulnerability can paradoxically strengthen a relationship.",
+      "example_vi": "Bộc lộ sự dễ tổn thương có thể nghịch lý làm củng cố mối quan hệ.",
       "word_family": {
-        "noun": "cohesion",
-        "verb": "cohere",
-        "adjective": "cohesive",
-        "adverb": "cohesively"
+        "noun": "vulnerability",
+        "verb": null,
+        "adjective": "vulnerable",
+        "adverb": "vulnerably"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 9,
-      "word": "demographic",
-      "ipa": "/ˌdem.əˈɡræf.ɪk/",
-      "pos": "adjective / noun",
-      "meaning_vi": "thuộc nhân khẩu học; nhân khẩu học",
-      "meaning_vi_inline": "nhân khẩu học",
-      "example_en": "Rapid demographic change is reshaping the country's cultural landscape.",
-      "example_vi": "Sự thay đổi nhân khẩu học nhanh chóng đang định hình lại bức tranh văn hóa của đất nước.",
+      "word": "attachment",
+      "ipa": "/əˈtætʃ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự gắn bó, sự gắn kết",
+      "meaning_vi_inline": "sự gắn bó",
+      "example_en": "Early childhood attachment shapes our adult relationships profoundly.",
+      "example_vi": "Sự gắn bó từ thời thơ ấu định hình sâu sắc các mối quan hệ khi trưởng thành.",
       "word_family": {
-        "noun": "demographics / demography / demographer",
-        "verb": null,
-        "adjective": "demographic",
-        "adverb": "demographically"
+        "noun": "attachment",
+        "verb": "attach",
+        "adjective": "attached",
+        "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 10,
-      "word": "xenophobia",
-      "ipa": "/ˌzen.əˈfoʊ.bi.ə/",
+      "word": "alienation",
+      "ipa": "/ˌeɪ.li.əˈneɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "tâm lý bài ngoại, kỳ thị người nước ngoài",
-      "meaning_vi_inline": "bài ngoại",
-      "example_en": "Xenophobia increased during periods of economic hardship.",
-      "example_vi": "Tâm lý bài ngoại gia tăng trong những thời kỳ kinh tế khó khăn.",
+      "meaning_vi": "sự tha hóa, cảm giác bị cô lập",
+      "meaning_vi_inline": "sự tha hóa",
+      "example_en": "Urban alienation is a growing concern in densely populated cities.",
+      "example_vi": "Sự tha hóa đô thị là mối lo ngại ngày càng tăng ở các thành phố đông đúc.",
       "word_family": {
-        "noun": "xenophobia / xenophobe",
-        "verb": null,
-        "adjective": "xenophobic",
+        "noun": "alienation",
+        "verb": "alienate",
+        "adjective": "alienated / alien",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word_vi": "alien",
+        "explanation_vi": "'Alienation' là trạng thái cô lập hoặc xa lánh xã hội; 'alien' là người ngoài hành tinh hoặc người nước ngoài — liên quan về gốc từ nhưng khác nhau trong ngữ cảnh học thuật."
+      },
       "receptive_productive": "P"
     },
     {
       "id": 11,
-      "word": "prejudice",
-      "ipa": "/ˈpredʒ.ə.dɪs/",
-      "pos": "noun",
-      "meaning_vi": "thành kiến, định kiến",
-      "meaning_vi_inline": "thành kiến",
-      "example_en": "Prejudice against migrants is often rooted in fear and misinformation.",
-      "example_vi": "Thành kiến đối với người di cư thường bắt nguồn từ nỗi sợ hãi và thông tin sai lệch.",
-      "word_family": {
-        "noun": "prejudice",
-        "verb": "prejudge",
-        "adjective": "prejudiced / prejudicial",
-        "adverb": "prejudicially"
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "build meaningful relationships",
+      "meaning_vi": "xây dựng mối quan hệ có ý nghĩa",
+      "example_en": "It takes time and genuine effort to build meaningful relationships in a new city.",
+      "example_vi": "Cần có thời gian và nỗ lực thực sự để xây dựng mối quan hệ có ý nghĩa ở một thành phố mới.",
       "receptive_productive": "P"
     },
     {
       "id": 12,
-      "word": "stereotype",
-      "ipa": "/ˈster.i.ə.taɪp/",
-      "pos": "noun / verb",
-      "meaning_vi": "định kiến khuôn mẫu; rập khuôn",
-      "meaning_vi_inline": "định kiến khuôn mẫu",
-      "example_en": "Stereotypes about migrants ignore the diversity of individual experiences.",
-      "example_vi": "Những định kiến khuôn mẫu về người di cư bỏ qua sự đa dạng của từng trải nghiệm cá nhân.",
-      "word_family": {
-        "noun": "stereotype",
-        "verb": "stereotype",
-        "adjective": "stereotypical",
-        "adverb": "stereotypically"
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "navigate emotional vulnerability",
+      "meaning_vi": "vượt qua / xử lý sự dễ tổn thương về cảm xúc",
+      "example_en": "Therapy can help individuals learn to navigate emotional vulnerability with courage.",
+      "example_vi": "Trị liệu tâm lý có thể giúp các cá nhân học cách xử lý sự dễ tổn thương về cảm xúc một cách dũng cảm.",
       "receptive_productive": "P"
     },
     {
       "id": 13,
-      "word": "acculturation",
-      "ipa": "/əˌkʌl.tʃərˈeɪ.ʃən/",
-      "pos": "noun",
-      "meaning_vi": "sự tiếp biến văn hóa",
-      "meaning_vi_inline": "tiếp biến văn hóa",
-      "example_en": "Acculturation involves adapting to a new culture while retaining one's original identity.",
-      "example_vi": "Tiếp biến văn hóa là quá trình thích nghi với nền văn hóa mới trong khi vẫn giữ lại bản sắc gốc.",
-      "word_family": {
-        "noun": "acculturation",
-        "verb": "acculturate",
-        "adjective": "acculturated",
-        "adverb": null
-      },
-      "false_friend": null,
-      "receptive_productive": "R"
+      "type": "collocation",
+      "collocation": "maintain long-distance relationships",
+      "meaning_vi": "duy trì mối quan hệ xa cách",
+      "example_en": "Technology makes it easier to maintain long-distance relationships across continents.",
+      "example_vi": "Công nghệ giúp việc duy trì mối quan hệ xa cách qua các châu lục trở nên dễ dàng hơn.",
+      "receptive_productive": "P"
     },
     {
       "id": 14,
-      "word": "ethnic",
-      "ipa": "/ˈeθ.nɪk/",
-      "pos": "adjective",
-      "meaning_vi": "thuộc về dân tộc, sắc tộc",
-      "meaning_vi_inline": "dân tộc",
-      "example_en": "The city's ethnic diversity is one of its greatest cultural strengths.",
-      "example_vi": "Sự đa dạng dân tộc của thành phố là một trong những thế mạnh văn hóa lớn nhất của nó.",
-      "word_family": {
-        "noun": "ethnicity",
-        "verb": null,
-        "adjective": "ethnic",
-        "adverb": "ethnically"
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "overcome social alienation",
+      "meaning_vi": "vượt qua sự tha hóa xã hội",
+      "example_en": "Community programmes are designed to help residents overcome social alienation.",
+      "example_vi": "Các chương trình cộng đồng được thiết kế để giúp cư dân vượt qua sự tha hóa xã hội.",
       "receptive_productive": "P"
     },
     {
       "id": 15,
-      "word": "identity",
-      "ipa": "/aɪˈden.tɪ.ti/",
-      "pos": "noun",
-      "meaning_vi": "bản sắc, căn tính",
-      "meaning_vi_inline": "bản sắc",
-      "example_en": "Migration often prompts individuals to reconsider their cultural identity.",
-      "example_vi": "Di cư thường thúc đẩy cá nhân xem xét lại bản sắc văn hóa của mình.",
-      "word_family": {
-        "noun": "identity / identification",
-        "verb": "identify",
-        "adjective": "identical / identifiable",
-        "adverb": "identically"
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "foster mutual understanding",
+      "meaning_vi": "nuôi dưỡng / thúc đẩy sự hiểu biết lẫn nhau",
+      "example_en": "Open dialogue between different groups can foster mutual understanding and reduce conflict.",
+      "example_vi": "Đối thoại cởi mở giữa các nhóm khác nhau có thể thúc đẩy sự hiểu biết lẫn nhau và giảm xung đột.",
       "receptive_productive": "P"
     }
   ],
@@ -331,27 +292,27 @@
       "items": [
         {
           "id": 1,
-          "statement": "People migrate for a variety of reasons, including economic opportunity and fleeing persecution.",
+          "statement": "Digital communication has changed the way people form and maintain relationships.",
           "answer": "True"
         },
         {
           "id": 2,
-          "statement": "Enforced assimilation is generally considered more effective than integration.",
-          "answer": "False"
-        },
-        {
-          "id": 3,
-          "statement": "Diaspora communities only maintain links with their country of origin, not their adopted nation.",
+          "statement": "Research shows that social media use directly causes alienation in young adults.",
           "answer": "Not Given"
         },
         {
+          "id": 3,
+          "statement": "Reciprocity refers to the mutual give-and-take that sustains lasting bonds.",
+          "answer": "True"
+        },
+        {
           "id": 4,
-          "statement": "Xenophobia and prejudice against migrants are primarily caused by objective economic data.",
-          "answer": "False"
+          "statement": "Long-distance couples have a statistically higher rate of dissolution than co-located couples.",
+          "answer": "Not Given"
         },
         {
           "id": 5,
-          "statement": "Multiculturalism can benefit host societies through diverse cultural and economic contributions.",
+          "statement": "The passage suggests that vulnerability should be seen as a strength rather than a weakness.",
           "answer": "True"
         }
       ]
@@ -362,96 +323,97 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Families forced to flee their homes due to conflict are classified as _____ under international law.",
+          "sentence": "The slow _____ of their friendship was painful for both of them to witness.",
           "options": [
-            "migrants",
-            "diaspora",
-            "refugees",
-            "stereotypes"
+            "dissolution",
+            "reciprocity",
+            "compatibility",
+            "intimacy"
           ],
-          "answer": "refugees"
+          "answer": "dissolution"
         },
         {
           "id": 2,
-          "sentence": "The process of _____ allows migrants to participate fully in their new country without abandoning their roots.",
+          "sentence": "A genuine sense of _____ requires both partners to share equally in the relationship.",
           "options": [
-            "assimilation",
-            "displacement",
-            "integration",
-            "xenophobia"
+            "alienation",
+            "attachment",
+            "commitment",
+            "reciprocity"
           ],
-          "answer": "integration"
+          "answer": "reciprocity"
         },
         {
           "id": 3,
-          "sentence": "The _____ of the region has changed significantly following decades of immigration.",
+          "sentence": "Long years of separation caused deep _____ between the father and his adult children.",
           "options": [
-            "stereotype",
-            "acculturation",
-            "demographic",
-            "cohesion"
+            "interdependence",
+            "estrangement",
+            "vulnerability",
+            "intimacy"
           ],
-          "answer": "demographic"
+          "answer": "estrangement"
         },
         {
           "id": 4,
-          "sentence": "Negative _____ about migrant communities are often based on misinformation rather than fact.",
+          "sentence": "The therapist encouraged her client to embrace _____ as a path to genuine connection.",
           "options": [
-            "diaspora",
-            "stereotypes",
-            "identities",
-            "cohesion"
+            "alienation",
+            "dissolution",
+            "vulnerability",
+            "commitment"
           ],
-          "answer": "stereotypes"
+          "answer": "vulnerability"
         },
         {
           "id": 5,
-          "sentence": "The Chinese _____ in Southeast Asia has built strong cultural and business networks over generations.",
+          "sentence": "Modern cities can paradoxically promote _____, leaving people isolated despite being surrounded by others.",
           "options": [
-            "identity",
-            "diaspora",
-            "integration",
-            "assimilation"
+            "reciprocity",
+            "compatibility",
+            "attachment",
+            "alienation"
           ],
-          "answer": "diaspora"
+          "answer": "alienation"
         }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
-      "instruction": "Fill in the blanks with the correct word from the box.",
+      "instruction": "Fill in the blanks with the correct word from the box. One word is not used.",
       "word_bank": [
-        "refugee",
-        "ethnic",
-        "acculturation",
-        "cohesion",
-        "xenophobia"
+        "intimacy",
+        "commitment",
+        "interdependence",
+        "compatibility",
+        "attachment",
+        "estrangement"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "The UN High Commissioner for Refugees assists _____ populations around the world.",
-          "answer": "refugee"
+          "sentence": "Psychologists study early _____ patterns to understand how adults form bonds later in life.",
+          "answer": "attachment"
         },
         {
           "id": 2,
-          "sentence": "Policies that celebrate _____ diversity tend to strengthen national identity rather than weaken it.",
-          "answer": "ethnic"
+          "sentence": "Emotional _____ grows between people who share their hopes, fears, and personal stories.",
+          "answer": "intimacy"
         },
         {
           "id": 3,
-          "sentence": "Social _____ can be damaged when rapid demographic change creates feelings of insecurity.",
-          "answer": "cohesion"
+          "sentence": "Their _____ was clear from the start — they shared the same values and life goals.",
+          "answer": "compatibility"
         },
         {
           "id": 4,
-          "sentence": "______ — fear and hostility towards foreigners — often rises during periods of economic hardship.",
-          "answer": "xenophobia"
+          "sentence": "True _____ in a relationship means staying loyal and devoted even during difficult times.",
+          "answer": "commitment"
         },
         {
           "id": 5,
-          "sentence": "The process of _____ involves adopting elements of a new culture while retaining one's original identity.",
-          "answer": "acculturation"
+          "sentence": "The _____ between family members means that one person's struggles affect everyone.",
+          "answer": "interdependence"
         }
       ]
     },
@@ -462,144 +424,135 @@
         {
           "id": 1,
           "words": [
+            "reciprocity",
             "the",
-            "movement",
+            "foundation",
+            "lasting",
             "of",
-            "people",
-            "across",
-            "borders",
-            "shapes",
-            "societies"
+            "is",
+            "relationships"
           ],
-          "answer": "The movement of people across borders shapes societies."
+          "answer": "Reciprocity is the foundation of lasting relationships."
         },
         {
           "id": 2,
           "words": [
-            "host",
-            "societies",
-            "that",
-            "embrace",
-            "multiculturalism",
-            "benefit",
-            "from",
-            "diverse",
-            "contributions"
+            "dissolution",
+            "of",
+            "trust",
+            "the",
+            "gradual",
+            "relationships",
+            "weakens"
           ],
-          "answer": "Host societies that embrace multiculturalism benefit from diverse contributions."
+          "answer": "The gradual dissolution of trust weakens relationships."
         },
         {
           "id": 3,
           "words": [
-            "stereotypes",
-            "and",
-            "prejudice",
-            "are",
-            "often",
-            "fuelled",
-            "by",
-            "misinformation"
+            "vulnerability",
+            "allows",
+            "emotional",
+            "to",
+            "people",
+            "form",
+            "deeper",
+            "bonds"
           ],
-          "answer": "Stereotypes and prejudice are often fuelled by misinformation."
+          "answer": "Emotional vulnerability allows people to form deeper bonds."
         },
         {
           "id": 4,
           "words": [
-            "integration",
-            "allows",
-            "migrants",
-            "to",
-            "participate",
-            "fully",
-            "in",
+            "alienation",
+            "communities",
+            "overcome",
             "social",
-            "life"
+            "can",
+            "help",
+            "strong"
           ],
-          "answer": "Integration allows migrants to participate fully in social life."
+          "answer": "Strong communities can help overcome social alienation."
         },
         {
           "id": 5,
           "words": [
-            "at",
-            "the",
-            "heart",
-            "of",
-            "the",
-            "migration",
-            "debate",
-            "lies",
-            "the",
-            "question",
-            "of",
-            "identity"
+            "commitment",
+            "maintain",
+            "required",
+            "is",
+            "to",
+            "a",
+            "relationship",
+            "long-distance"
           ],
-          "answer": "At the heart of the migration debate lies the question of identity."
+          "answer": "Commitment is required to maintain a long-distance relationship."
         }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
-      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "instruction": "Each sentence has one word in brackets that is wrong. Choose the correct replacement.",
       "items": [
         {
           "id": 1,
-          "sentence": "The country has experienced a significant [demographics] shift due to large-scale immigration.",
-          "highlighted": "demographics",
+          "sentence": "The [dissolve] of their marriage was finalised in court last month.",
+          "highlighted": "dissolve",
           "options": {
-            "A": "demographic",
-            "B": "demographics",
-            "C": "demographically"
+            "A": "dissolution",
+            "B": "dissolving",
+            "C": "dissolved"
           },
-          "answer": "C",
-          "explanation": "'Demographic' is the adjective form needed to modify the noun 'shift' — 'demographics' is a noun and cannot modify another noun directly."
+          "answer": "A",
+          "explanation": "A noun is needed after 'The' as the subject — 'dissolution', not the verb 'dissolve'."
         },
         {
           "id": 2,
-          "sentence": "The community suffered significant [displace] after the factory closures and forced evictions.",
-          "highlighted": "displace",
+          "sentence": "Their long [estranged] began after a serious argument over family finances.",
+          "highlighted": "estranged",
           "options": {
-            "A": "displace",
-            "B": "displaced",
-            "C": "displacement"
+            "A": "estrange",
+            "B": "estrangement",
+            "C": "estranging"
           },
-          "answer": "C",
-          "explanation": "After 'suffered', a noun object is needed — 'displacement' (noun), not the verb 'displace'."
+          "answer": "B",
+          "explanation": "A noun is required as the subject after 'Their long' — 'estrangement', not the adjective 'estranged'."
         },
         {
           "id": 3,
-          "sentence": "Many migrants form [diaspora's] communities that maintain strong links with their homeland.",
-          "highlighted": "diaspora's",
+          "sentence": "Good relationships are built on [reciprocal] — both people must give as well as receive.",
+          "highlighted": "reciprocal",
           "options": {
-            "A": "diaspora's",
-            "B": "diaspora",
-            "C": "diasporic"
+            "A": "reciprocally",
+            "B": "reciprocate",
+            "C": "reciprocity"
           },
-          "answer": "B",
-          "explanation": "'Diaspora' functions as an attributive noun modifying 'communities' — no possessive apostrophe is needed."
+          "answer": "C",
+          "explanation": "A noun is required after 'built on' — 'reciprocity', not the adjective 'reciprocal'."
         },
         {
           "id": 4,
-          "sentence": "The community experienced widespread [xenophobic] from local residents during the economic crisis.",
-          "highlighted": "xenophobic",
+          "sentence": "Psychologists warn that social [alienate] is increasingly common in large cities.",
+          "highlighted": "alienate",
           "options": {
-            "A": "xenophobic",
-            "B": "xenophobe",
-            "C": "xenophobia"
+            "A": "alienation",
+            "B": "alienated",
+            "C": "alien"
           },
-          "answer": "C",
-          "explanation": "After 'experienced', a noun is needed — 'xenophobia' (the noun form), not 'xenophobic' (the adjective)."
+          "answer": "A",
+          "explanation": "A noun is required as the grammatical subject — 'alienation', not the verb 'alienate'."
         },
         {
           "id": 5,
-          "sentence": "The city's [ethnic's] diversity has made it one of the most culturally vibrant places in the region.",
-          "highlighted": "ethnic's",
+          "sentence": "She found it hard to achieve true [intimate] with someone she had just met.",
+          "highlighted": "intimate",
           "options": {
-            "A": "ethnic",
-            "B": "ethnic's",
-            "C": "ethnically"
+            "A": "intimately",
+            "B": "intimated",
+            "C": "intimacy"
           },
           "answer": "C",
-          "explanation": "'Ethnic' is an adjective modifying 'diversity' — possessive apostrophe is incorrect for an adjective."
+          "explanation": "A noun is required as the object of 'achieve' — 'intimacy', not the adjective 'intimate'."
         }
       ]
     }
@@ -607,38 +560,38 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "False",
-      "3": "Not Given",
-      "4": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
       "5": "True"
     },
     "ex2": {
-      "1": "refugees",
-      "2": "integration",
-      "3": "demographic",
-      "4": "stereotypes",
-      "5": "diaspora"
+      "1": "dissolution",
+      "2": "reciprocity",
+      "3": "estrangement",
+      "4": "vulnerability",
+      "5": "alienation"
     },
     "ex3": {
-      "1": "refugee",
-      "2": "ethnic",
-      "3": "cohesion",
-      "4": "xenophobia",
-      "5": "acculturation"
+      "1": "attachment",
+      "2": "intimacy",
+      "3": "compatibility",
+      "4": "commitment",
+      "5": "interdependence"
     },
     "ex4": {
-      "1": "The movement of people across borders shapes societies.",
-      "2": "Host societies that embrace multiculturalism benefit from diverse contributions.",
-      "3": "Stereotypes and prejudice are often fuelled by misinformation.",
-      "4": "Integration allows migrants to participate fully in social life.",
-      "5": "At the heart of the migration debate lies the question of identity."
+      "1": "Reciprocity is the foundation of lasting relationships.",
+      "2": "The gradual dissolution of trust weakens relationships.",
+      "3": "Emotional vulnerability allows people to form deeper bonds.",
+      "4": "Strong communities can help overcome social alienation.",
+      "5": "Commitment is required to maintain a long-distance relationship."
     },
     "ex5": {
       "1": "A",
-      "2": "C",
-      "3": "B",
-      "4": "C",
-      "5": "A"
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
     }
   }
 }

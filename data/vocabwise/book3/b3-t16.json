@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 16,
+    "topic_id": "b3-t16",
+    "topic_title": "Food, Diet & Society",
+    "topic_title_vi": "Thực Phẩm, Chế Độ Ăn & Xã Hội",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🥗",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Food is far more than fuel. The choices people make at the table reflect economic realities, cultural identities, and deeply held values. In recent decades, however, the global food system has undergone radical transformation. The rise of ultra-**processed** foods — engineered for palatability rather than **nutrition** — has contributed to epidemic levels of **obesity** and **malnutrition** coexisting within the same communities, sometimes within the same household.",
+        "text_vi": "Thực phẩm không chỉ đơn giản là nhiên liệu. Những lựa chọn con người thực hiện trên bàn ăn phản ánh thực tế kinh tế, bản sắc văn hóa và các giá trị được nắm giữ sâu sắc. Tuy nhiên, trong những thập kỷ gần đây, hệ thống thực phẩm toàn cầu đã trải qua sự chuyển đổi triệt để. Sự trỗi dậy của thực phẩm siêu **chế biến** — được tạo ra để ngon miệng hơn là vì **dinh dưỡng** — đã góp phần vào mức độ dịch bệnh của **béo phì** và **suy dinh dưỡng** cùng tồn tại trong cùng một cộng đồng, đôi khi trong cùng một hộ gia đình."
+      },
+      {
+        "index": 2,
+        "text_en": "Micronutrient **deficiency** remains a silent public health crisis, particularly in low-income populations where affordable food is rarely **organic** or nutrient-dense. Meanwhile, wealthier consumers increasingly demand **sustainable** food systems — from farm to fork — raising urgent questions about whether ethical eating is a privilege of the affluent. These tensions expose the limits of personal responsibility as a framework: structural inequalities, not individual choices, often determine what ends up on the plate.",
+        "text_vi": "Tình trạng **thiếu hụt** vi chất dinh dưỡng vẫn là một cuộc khủng hoảng y tế công cộng âm thầm, đặc biệt ở các quần thể thu nhập thấp, nơi thực phẩm giá cả phải chăng hiếm khi là **hữu cơ** hay giàu dinh dưỡng. Trong khi đó, những người tiêu dùng giàu có hơn ngày càng đòi hỏi hệ thống thực phẩm **bền vững** — từ trang trại đến bàn ăn — đặt ra những câu hỏi cấp bách về việc liệu ăn uống có đạo đức có phải là đặc quyền của người giàu hay không. Những căng thẳng này phơi bày giới hạn của trách nhiệm cá nhân như một khuôn khổ: bất bình đẳng cấu trúc, chứ không phải lựa chọn cá nhân, thường quyết định những gì cuối cùng lên đĩa."
+      },
+      {
+        "index": 3,
+        "text_en": "At the psychological level, **diet culture** has generated its own pathologies. The relentless pursuit of an idealised body, amplified by social media, has fuelled rising rates of **disordered eating** — a spectrum of harmful relationships with food that extend well beyond clinically diagnosed conditions. Efforts to **challenge diet culture** must therefore address not just individual cognition but the commercial forces that profit from body dissatisfaction, making it essential to **regulate food advertising**, especially content targeting young audiences.",
+        "text_vi": "Ở cấp độ tâm lý, **văn hóa ăn kiêng** đã tạo ra những bệnh lý riêng của nó. Việc theo đuổi không ngừng một cơ thể lý tưởng hóa, được khuếch đại bởi mạng xã hội, đã thúc đẩy tỷ lệ ngày càng tăng của **rối loạn ăn uống** — một phổ các mối quan hệ có hại với thức ăn vượt xa các tình trạng được chẩn đoán lâm sàng. Những nỗ lực **thách thức văn hóa ăn kiêng** do đó phải giải quyết không chỉ nhận thức cá nhân mà còn cả các lực lượng thương mại thu lợi từ sự không hài lòng về cơ thể, khiến việc **điều tiết quảng cáo thực phẩm** trở nên cần thiết, đặc biệt là nội dung nhắm vào khán giả trẻ."
+      },
+      {
+        "index": 4,
+        "text_en": "Systemic responses are therefore essential. Policies that **address nutritional deficiencies** — such as school meal programmes and micronutrient fortification — have proven effective across diverse contexts. The more ambitious goal of working to **ensure food security for all** requires a coordinated approach to production, distribution, and **regulation**, tackling supply chains that currently prioritise profit over population health. Food, ultimately, is a political as much as a nutritional question.",
+        "text_vi": "Vì vậy, các phản ứng có hệ thống là điều cần thiết. Các chính sách **giải quyết tình trạng thiếu hụt dinh dưỡng** — chẳng hạn như chương trình bữa ăn học đường và tăng cường vi chất — đã được chứng minh là hiệu quả trong nhiều bối cảnh khác nhau. Mục tiêu tham vọng hơn là **đảm bảo an ninh lương thực cho tất cả mọi người** đòi hỏi một cách tiếp cận phối hợp về sản xuất, phân phối và **điều tiết**, giải quyết các chuỗi cung ứng hiện đang ưu tiên lợi nhuận hơn sức khỏe cộng đồng. Thực phẩm, cuối cùng, là một vấn đề chính trị không kém gì vấn đề dinh dưỡng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "nutrition",
+      "ipa": "/njuːˈtrɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "dinh dưỡng, chất bổ dưỡng",
+      "meaning_vi_inline": "dinh dưỡng",
+      "example_en": "Good nutrition during early childhood has a lasting impact on cognitive development.",
+      "example_vi": "Dinh dưỡng tốt trong thời thơ ấu có tác động lâu dài đến sự phát triển nhận thức.",
+      "word_family": {
+        "noun": "nutrition / nutrient / nutritionist",
+        "verb": null,
+        "adjective": "nutritious / nutritional",
+        "adverb": "nutritionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "deficiency",
+      "ipa": "/dɪˈfɪʃ.ən.si/",
+      "pos": "noun",
+      "meaning_vi": "sự thiếu hụt, tình trạng thiếu",
+      "meaning_vi_inline": "sự thiếu hụt",
+      "example_en": "Iron deficiency is the most common nutritional disorder worldwide, affecting over two billion people.",
+      "example_vi": "Thiếu hụt sắt là rối loạn dinh dưỡng phổ biến nhất trên thế giới, ảnh hưởng đến hơn hai tỷ người.",
+      "word_family": {
+        "noun": "deficiency / deficit",
+        "verb": null,
+        "adjective": "deficient",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "defect",
+        "explanation_vi": "'Deficiency' là sự thiếu hụt về lượng hoặc chất; 'defect' là lỗi hay khuyết điểm về cấu tạo — ngữ cảnh sử dụng khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "obesity",
+      "ipa": "/əʊˈbiː.sɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bệnh béo phì",
+      "meaning_vi_inline": "béo phì",
+      "example_en": "Childhood obesity has tripled in many high-income countries over the past four decades.",
+      "example_vi": "Béo phì ở trẻ em đã tăng gấp ba lần ở nhiều quốc gia có thu nhập cao trong bốn thập kỷ qua.",
+      "word_family": {
+        "noun": "obesity",
+        "verb": null,
+        "adjective": "obese",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "organic",
+      "ipa": "/ɔːˈɡæn.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "hữu cơ (không dùng hóa chất tổng hợp)",
+      "meaning_vi_inline": "hữu cơ",
+      "example_en": "Organic produce is grown without synthetic pesticides, but remains unaffordable for many families.",
+      "example_vi": "Nông sản hữu cơ được trồng không dùng thuốc trừ sâu tổng hợp, nhưng vẫn nằm ngoài tầm với của nhiều gia đình.",
+      "word_family": {
+        "noun": "organism / organ",
+        "verb": null,
+        "adjective": "organic / inorganic",
+        "adverb": "organically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "sustainable",
+      "ipa": "/səˈsteɪ.nə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "bền vững (về môi trường và xã hội)",
+      "meaning_vi_inline": "bền vững",
+      "example_en": "Shifting towards plant-based diets is considered one of the most sustainable choices an individual can make.",
+      "example_vi": "Chuyển sang chế độ ăn dựa trên thực vật được coi là một trong những lựa chọn bền vững nhất mà cá nhân có thể thực hiện.",
+      "word_family": {
+        "noun": "sustainability",
+        "verb": "sustain",
+        "adjective": "sustainable / unsustainable",
+        "adverb": "sustainably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "processed",
+      "ipa": "/ˈprəʊ.sest/",
+      "pos": "adjective",
+      "meaning_vi": "đã qua chế biến (công nghiệp)",
+      "meaning_vi_inline": "chế biến",
+      "example_en": "Heavily processed snack foods are typically high in sodium, sugar, and artificial additives.",
+      "example_vi": "Các loại đồ ăn nhẹ qua chế biến nhiều thường có hàm lượng natri, đường và phụ gia nhân tạo cao.",
+      "word_family": {
+        "noun": "process / processing",
+        "verb": "process",
+        "adjective": "processed / unprocessed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "disordered eating",
+      "ipa": "/dɪsˈɔː.dəd ˈiː.tɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "rối loạn ăn uống",
+      "meaning_vi_inline": "rối loạn ăn uống",
+      "example_en": "Disordered eating encompasses restrictive dieting, binge eating, and obsessive calorie counting.",
+      "example_vi": "Rối loạn ăn uống bao gồm việc ăn kiêng hạn chế, ăn uống vô độ và đếm calo một cách ám ảnh.",
+      "word_family": {
+        "noun": "disorder / disordered eating / eating disorder",
+        "verb": "disorder",
+        "adjective": "disordered",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "regulation",
+      "ipa": "/ˌreɡ.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự điều tiết, quy định (pháp lý)",
+      "meaning_vi_inline": "điều tiết, quy định",
+      "example_en": "Stricter regulation of junk food marketing has been linked to measurable reductions in childhood obesity.",
+      "example_vi": "Điều tiết chặt chẽ hơn về quảng cáo đồ ăn không lành mạnh được liên kết với việc giảm đáng kể béo phì ở trẻ em.",
+      "word_family": {
+        "noun": "regulation / regulator",
+        "verb": "regulate",
+        "adjective": "regulatory / regulated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "diet culture",
+      "ipa": "/ˈdaɪ.ɪt ˈkʌl.tʃər/",
+      "pos": "noun phrase",
+      "meaning_vi": "văn hóa ăn kiêng (hệ thống giá trị đề cao gầy gò và ăn kiêng)",
+      "meaning_vi_inline": "văn hóa ăn kiêng",
+      "example_en": "Diet culture promotes thinness as a moral virtue and conflates body size with health and worth.",
+      "example_vi": "Văn hóa ăn kiêng đề cao sự gầy gò như một đức tính đạo đức và đồng nhất kích thước cơ thể với sức khỏe và giá trị con người.",
+      "word_family": {
+        "noun": "diet culture / diet / dieting",
+        "verb": "diet",
+        "adjective": "diet-centric",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "malnutrition",
+      "ipa": "/ˌmæl.njuːˈtrɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "suy dinh dưỡng",
+      "meaning_vi_inline": "suy dinh dưỡng",
+      "example_en": "Malnutrition affects both those who consume too little and those who consume an excess of nutrient-poor foods.",
+      "example_vi": "Suy dinh dưỡng ảnh hưởng đến cả những người ăn quá ít lẫn những người tiêu thụ quá nhiều thực phẩm nghèo dinh dưỡng.",
+      "word_family": {
+        "noun": "malnutrition / malnourishment",
+        "verb": null,
+        "adjective": "malnourished",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "undernutrition",
+        "explanation_vi": "'Malnutrition' bao gồm cả thiếu lẫn thừa chất dinh dưỡng; 'undernutrition' chỉ đề cập đến tình trạng thiếu hụt — phạm vi hẹp hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "address nutritional deficiencies",
+      "meaning_vi": "giải quyết tình trạng thiếu hụt dinh dưỡng",
+      "example_en": "Fortifying staple foods with key vitamins is a cost-effective strategy to address nutritional deficiencies at scale.",
+      "example_vi": "Tăng cường các loại thực phẩm chủ yếu với các vitamin quan trọng là chiến lược tiết kiệm chi phí để giải quyết tình trạng thiếu hụt dinh dưỡng trên quy mô lớn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "combat rising obesity rates",
+      "meaning_vi": "chống lại tỷ lệ béo phì gia tăng",
+      "example_en": "Governments are under increasing pressure to combat rising obesity rates through taxation on sugary drinks.",
+      "example_vi": "Các chính phủ đang chịu áp lực ngày càng tăng để chống lại tỷ lệ béo phì gia tăng thông qua thuế đánh vào đồ uống có đường.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "challenge diet culture",
+      "meaning_vi": "thách thức văn hóa ăn kiêng",
+      "example_en": "Health professionals and activists are joining forces to challenge diet culture and promote body neutrality.",
+      "example_vi": "Các chuyên gia y tế và nhà hoạt động đang hợp sức để thách thức văn hóa ăn kiêng và thúc đẩy sự trung lập về cơ thể.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "regulate food advertising",
+      "meaning_vi": "điều tiết quảng cáo thực phẩm",
+      "example_en": "Several countries have introduced legislation to regulate food advertising during children's television programmes.",
+      "example_vi": "Một số quốc gia đã ban hành luật để điều tiết quảng cáo thực phẩm trong các chương trình truyền hình dành cho trẻ em.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "ensure food security for all",
+      "meaning_vi": "đảm bảo an ninh lương thực cho tất cả mọi người",
+      "example_en": "The UN has identified the need to ensure food security for all as a central pillar of sustainable development.",
+      "example_vi": "Liên Hợp Quốc đã xác định sự cần thiết phải đảm bảo an ninh lương thực cho tất cả mọi người là trụ cột trung tâm của phát triển bền vững.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage argues that obesity and malnutrition cannot exist within the same community.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, the demand for sustainable food is more prevalent among wealthier consumers than among low-income groups.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that disordered eating only refers to clinically diagnosed conditions.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage recommends that individuals adopt a vegetarian diet to reduce their environmental impact.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, school meal programmes and micronutrient fortification have proved effective in addressing nutritional deficiencies.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The charity's report revealed alarming levels of vitamin D _____ among children in northern regions.",
+          "options": [
+            "obesity",
+            "deficiency",
+            "regulation",
+            "malnutrition"
+          ],
+          "answer": "deficiency"
+        },
+        {
+          "id": 2,
+          "sentence": "Critics of _____ argue that it fosters shame and anxiety rather than genuine health-promoting behaviour.",
+          "options": [
+            "nutrition",
+            "organic",
+            "diet culture",
+            "regulation"
+          ],
+          "answer": "diet culture"
+        },
+        {
+          "id": 3,
+          "sentence": "The new _____ framework requires all food manufacturers to disclose sugar content prominently on packaging.",
+          "options": [
+            "sustainable",
+            "regulation",
+            "deficiency",
+            "processed"
+          ],
+          "answer": "regulation"
+        },
+        {
+          "id": 4,
+          "sentence": "Switching to _____ farming methods reduces chemical run-off into waterways and soil degradation.",
+          "options": [
+            "malnutrition",
+            "disordered eating",
+            "sustainable",
+            "obesity"
+          ],
+          "answer": "sustainable"
+        },
+        {
+          "id": 5,
+          "sentence": "Many convenience foods are heavily _____, containing preservatives that extend shelf life but reduce nutritional value.",
+          "options": [
+            "organic",
+            "processed",
+            "nutritional",
+            "regulated"
+          ],
+          "answer": "processed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "nutrition",
+        "obesity",
+        "malnutrition",
+        "disordered eating",
+        "organic",
+        "deficiency"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Public health campaigns increasingly frame _____ as a systemic problem requiring policy solutions, not just personal discipline.",
+          "answer": "obesity"
+        },
+        {
+          "id": 2,
+          "sentence": "A diet rich in variety and whole foods is the cornerstone of good _____.",
+          "answer": "nutrition"
+        },
+        {
+          "id": 3,
+          "sentence": "Iodine _____ during pregnancy is associated with impaired neurological development in the foetus.",
+          "answer": "deficiency"
+        },
+        {
+          "id": 4,
+          "sentence": "Clinicians warn that _____ can affect people of all body sizes and is often invisible to outside observers.",
+          "answer": "disordered eating"
+        },
+        {
+          "id": 5,
+          "sentence": "In conflict zones, acute _____ remains one of the leading causes of preventable death among young children.",
+          "answer": "malnutrition"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "processed",
+            "foods",
+            "are",
+            "engineered",
+            "for",
+            "palatability",
+            "rather",
+            "than",
+            "nutritional",
+            "value"
+          ],
+          "answer": "Processed foods are engineered for palatability rather than nutritional value."
+        },
+        {
+          "id": 2,
+          "words": [
+            "diet",
+            "culture",
+            "equates",
+            "thinness",
+            "with",
+            "health",
+            "and",
+            "moral",
+            "worth"
+          ],
+          "answer": "Diet culture equates thinness with health and moral worth."
+        },
+        {
+          "id": 3,
+          "words": [
+            "structural",
+            "inequality",
+            "often",
+            "determines",
+            "what",
+            "food",
+            "families",
+            "can",
+            "afford",
+            "to",
+            "eat"
+          ],
+          "answer": "Structural inequality often determines what food families can afford to eat."
+        },
+        {
+          "id": 4,
+          "words": [
+            "regulating",
+            "food",
+            "advertising",
+            "can",
+            "protect",
+            "children",
+            "from",
+            "unhealthy",
+            "dietary",
+            "influences"
+          ],
+          "answer": "Regulating food advertising can protect children from unhealthy dietary influences."
+        },
+        {
+          "id": 5,
+          "words": [
+            "obesity",
+            "and",
+            "malnutrition",
+            "can",
+            "coexist",
+            "in",
+            "the",
+            "same",
+            "community"
+          ],
+          "answer": "Obesity and malnutrition can coexist in the same community."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Calcium [deficient] in elderly women significantly increases the risk of osteoporosis.",
+          "highlighted": "deficient",
+          "options": {
+            "A": "deficiencies",
+            "B": "deficiency",
+            "C": "deficit"
+          },
+          "answer": "B",
+          "explanation": "A singular noun is needed as the subject — 'Calcium deficiency', not the adjective 'deficient', which cannot head a noun phrase in subject position."
+        },
+        {
+          "id": 2,
+          "sentence": "The government pledged to [regulation] the marketing of high-sugar cereals to children under twelve.",
+          "highlighted": "regulation",
+          "options": {
+            "A": "regulate",
+            "B": "regulatory",
+            "C": "regulated"
+          },
+          "answer": "A",
+          "explanation": "A verb is required after the infinitive marker 'to' — 'to regulate', not the noun 'regulation'."
+        },
+        {
+          "id": 3,
+          "sentence": "Campaigners argue that [diet cultured] normalises harmful attitudes towards food and body image.",
+          "highlighted": "diet cultured",
+          "options": {
+            "A": "diet cultures",
+            "B": "dieting culture",
+            "C": "diet culture"
+          },
+          "answer": "C",
+          "explanation": "'Diet culture' is the established compound noun; 'diet cultured' is not a grammatical form and the word 'cultured' here is incorrect."
+        },
+        {
+          "id": 4,
+          "sentence": "Heavily [process] snacks account for more than half of the average teenager's daily calorie intake.",
+          "highlighted": "process",
+          "options": {
+            "A": "processing",
+            "B": "processed",
+            "C": "processable"
+          },
+          "answer": "B",
+          "explanation": "The past participle 'processed' functions as an adjective modifying 'snacks'; the base form 'process' cannot serve this role."
+        },
+        {
+          "id": 5,
+          "sentence": "Achieving global food security requires [sustaining] agricultural practices that protect soil and water resources.",
+          "highlighted": "sustaining",
+          "options": {
+            "A": "sustainably",
+            "B": "sustainability",
+            "C": "sustainable"
+          },
+          "answer": "C",
+          "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable agricultural practices'; 'sustaining' is a gerund/present participle that does not fit this attributive role."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "deficiency",
+      "2": "diet culture",
+      "3": "regulation",
+      "4": "sustainable",
+      "5": "processed"
+    },
+    "ex3": {
+      "1": "obesity",
+      "2": "nutrition",
+      "3": "deficiency",
+      "4": "disordered eating",
+      "5": "malnutrition"
+    },
+    "ex4": {
+      "1": "Processed foods are engineered for palatability rather than nutritional value.",
+      "2": "Diet culture equates thinness with health and moral worth.",
+      "3": "Structural inequality often determines what food families can afford to eat.",
+      "4": "Regulating food advertising can protect children from unhealthy dietary influences.",
+      "5": "Obesity and malnutrition can coexist in the same community."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

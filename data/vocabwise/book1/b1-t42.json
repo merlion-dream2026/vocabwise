@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 42,
+    "topic_id": "b1-t42",
+    "topic_title": "Shopping & Markets",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🛒",
+    "topic_title_vi": "Mua Sắm & Chợ",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "On weekends, my family loves to visit the market. It is always **crowded** with people. We walk past many **stalls** selling fresh fruit, meat, and vegetables. Each **vendor** calls out to attract customers.",
+        "text_vi": "Vào cuối tuần, gia đình tôi thích đến chợ. Chợ luôn **đông đúc** người. Chúng tôi đi ngang qua nhiều **gian hàng** bán trái cây tươi, thịt và rau củ. Mỗi **người bán** gọi to để thu hút khách hàng."
+      },
+      {
+        "index": 2,
+        "text_en": "My mum likes to **compare** prices before she buys anything. She checks the **price tag** on each item and looks for a **discount** or a **sale**. Sometimes she tries to **haggle** to get a better deal.",
+        "text_vi": "Mẹ tôi thích **so sánh** giá trước khi mua bất cứ thứ gì. Bà kiểm tra **nhãn giá** trên từng món và tìm kiếm **giảm giá** hoặc **hàng sale**. Đôi khi bà cố gắng **mặc cả** để được giá tốt hơn."
+      },
+      {
+        "index": 3,
+        "text_en": "The vendor **weighs** the fruit on a scale and **offers** a fair price. We **pick** the freshest tomatoes and **wrap** them carefully. My dad has to **carry** the heavy bags home.",
+        "text_vi": "Người bán **cân** trái cây trên cân và **đề xuất** một mức giá hợp lý. Chúng tôi **chọn** những quả cà chua tươi nhất và **gói** chúng lại cẩn thận. Bố tôi phải **mang** những túi nặng về nhà."
+      },
+      {
+        "index": 4,
+        "text_en": "When the market is busy, we **queue** politely to pay. The **quality** of the food here is always excellent. Shopping at the market is my favourite family activity on weekends.",
+        "text_vi": "Khi chợ đông, chúng tôi **xếp hàng** lịch sự để thanh toán. **Chất lượng** thực phẩm ở đây luôn tuyệt vời. Đi chợ là hoạt động gia đình yêu thích của tôi vào cuối tuần."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "stall",
+      "ipa": "/stɔːl/",
+      "pos": "noun",
+      "meaning_vi": "gian hàng, quầy hàng",
+      "meaning_vi_inline": "gian hàng",
+      "example_en": "There is a stall at the corner that sells the best fresh juice in the market.",
+      "example_vi": "Có một gian hàng ở góc chợ bán nước ép tươi ngon nhất trong chợ.",
+      "word_family": {
+        "noun": "stall",
+        "verb": "stall",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "weigh",
+      "ipa": "/weɪ/",
+      "pos": "verb",
+      "meaning_vi": "cân, đo trọng lượng",
+      "meaning_vi_inline": "cân",
+      "example_en": "The vendor weighs the mangoes before telling you the price.",
+      "example_vi": "Người bán cân xoài trước khi cho bạn biết giá.",
+      "word_family": {
+        "noun": "weight",
+        "verb": "weigh / weighed",
+        "adjective": "weighty",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "way",
+        "explanation_vi": "'Way' /weɪ/ và 'weigh' /weɪ/ phát âm giống nhau nhưng nghĩa khác hoàn toàn: 'way' là con đường hoặc cách thức, còn 'weigh' là đo trọng lượng."
+      }
+    },
+    {
+      "id": 3,
+      "word": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "pos": "noun / verb",
+      "meaning_vi": "giảm giá; chiết khấu",
+      "meaning_vi_inline": "giảm giá",
+      "example_en": "The shop gives a ten percent discount if you buy more than five items.",
+      "example_vi": "Cửa hàng giảm giá mười phần trăm nếu bạn mua hơn năm món.",
+      "word_family": {
+        "noun": "discount",
+        "verb": "discount / discounted",
+        "adjective": "discounted",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "queue",
+      "ipa": "/kjuː/",
+      "pos": "noun / verb",
+      "meaning_vi": "hàng chờ; xếp hàng",
+      "meaning_vi_inline": "xếp hàng",
+      "example_en": "There was a long queue at the checkout, so we waited for fifteen minutes.",
+      "example_vi": "Có một hàng dài ở quầy thanh toán, vì vậy chúng tôi chờ mười lăm phút.",
+      "word_family": {
+        "noun": "queue",
+        "verb": "queue / queued",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "carry",
+      "ipa": "/ˈkæri/",
+      "pos": "verb",
+      "meaning_vi": "mang, vác, xách",
+      "meaning_vi_inline": "mang",
+      "example_en": "Can you help me carry these bags? They are very heavy.",
+      "example_vi": "Bạn có thể giúp tôi mang những túi này không? Chúng rất nặng.",
+      "word_family": {
+        "noun": "carrier",
+        "verb": "carry / carried",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "wrap",
+      "ipa": "/ræp/",
+      "pos": "verb",
+      "meaning_vi": "gói, bọc",
+      "meaning_vi_inline": "gói",
+      "example_en": "The vendor wrapped the fish in newspaper to keep it fresh on the way home.",
+      "example_vi": "Người bán gói cá bằng báo để giữ cá tươi trên đường về.",
+      "word_family": {
+        "noun": "wrapper / wrap",
+        "verb": "wrap / wrapped",
+        "adjective": "wrapped",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "crowded",
+      "ipa": "/ˈkraʊdɪd/",
+      "pos": "adjective",
+      "meaning_vi": "đông đúc, chật người",
+      "meaning_vi_inline": "đông đúc",
+      "example_en": "The market is most crowded on Saturday mornings.",
+      "example_vi": "Chợ đông đúc nhất vào sáng thứ Bảy.",
+      "word_family": {
+        "noun": "crowd",
+        "verb": "crowd / crowded",
+        "adjective": "crowded",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "pick",
+      "ipa": "/pɪk/",
+      "pos": "verb",
+      "meaning_vi": "chọn, chọn lấy",
+      "meaning_vi_inline": "chọn",
+      "example_en": "Take your time to pick the ripest fruit — do not rush.",
+      "example_vi": "Hãy dành thời gian chọn những quả chín nhất — đừng vội.",
+      "word_family": {
+        "noun": "pick / choice",
+        "verb": "pick / picked",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "compare",
+      "ipa": "/kəmˈpeə/",
+      "pos": "verb",
+      "meaning_vi": "so sánh",
+      "meaning_vi_inline": "so sánh",
+      "example_en": "Always compare prices at two or three stalls before you decide to buy.",
+      "example_vi": "Luôn so sánh giá ở hai hoặc ba gian hàng trước khi quyết định mua.",
+      "word_family": {
+        "noun": "comparison",
+        "verb": "compare / compared",
+        "adjective": "comparable / comparative",
+        "adverb": "comparatively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "quality",
+      "ipa": "/ˈkwɒlɪti/",
+      "pos": "noun / adjective",
+      "meaning_vi": "chất lượng",
+      "meaning_vi_inline": "chất lượng",
+      "example_en": "The quality of the vegetables at this market is much better than at the supermarket.",
+      "example_vi": "Chất lượng rau củ ở chợ này tốt hơn nhiều so với siêu thị.",
+      "word_family": {
+        "noun": "quality",
+        "verb": null,
+        "adjective": "quality / high-quality",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "offer",
+      "ipa": "/ˈɒfə/",
+      "pos": "verb / noun",
+      "meaning_vi": "đề xuất giá, đưa ra; ưu đãi",
+      "meaning_vi_inline": "đề xuất",
+      "example_en": "The vendor offered us a lower price when we bought three kilograms of apples.",
+      "example_vi": "Người bán đề xuất giá thấp hơn khi chúng tôi mua ba kilogram táo.",
+      "word_family": {
+        "noun": "offer",
+        "verb": "offer / offered",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "haggle",
+      "ipa": "/ˈhæɡəl/",
+      "pos": "verb",
+      "meaning_vi": "mặc cả, trả giá",
+      "meaning_vi_inline": "mặc cả",
+      "example_en": "In many Asian markets, it is normal to haggle over the price of goods.",
+      "example_vi": "Ở nhiều chợ châu Á, việc mặc cả về giá hàng hóa là bình thường.",
+      "word_family": {
+        "noun": "haggling",
+        "verb": "haggle / haggled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "vendor",
+      "ipa": "/ˈvendə/",
+      "pos": "noun",
+      "meaning_vi": "người bán hàng",
+      "meaning_vi_inline": "người bán",
+      "example_en": "The fruit vendor at stall number five always gives extra fruit to regular customers.",
+      "example_vi": "Người bán trái cây ở gian hàng số năm luôn tặng thêm trái cây cho khách quen.",
+      "word_family": {
+        "noun": "vendor",
+        "verb": "vend",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "price tag",
+      "ipa": "/ˈpraɪs tæɡ/",
+      "pos": "noun",
+      "meaning_vi": "nhãn giá, thẻ giá",
+      "meaning_vi_inline": "nhãn giá",
+      "example_en": "She turned the bag over to look at the price tag before deciding to buy it.",
+      "example_vi": "Cô ấy lật túi ra để xem nhãn giá trước khi quyết định mua.",
+      "word_family": {
+        "noun": "price tag / price",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "sale",
+      "ipa": "/seɪl/",
+      "pos": "noun",
+      "meaning_vi": "đợt bán hàng giảm giá, sale",
+      "meaning_vi_inline": "hàng sale",
+      "example_en": "There is a big sale at the department store this weekend — everything is fifty percent off.",
+      "example_vi": "Có một đợt sale lớn ở trung tâm thương mại cuối tuần này — tất cả giảm năm mươi phần trăm.",
+      "word_family": {
+        "noun": "sale / sales",
+        "verb": "sell / sold",
+        "adjective": "on sale",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "haggle" },
+        { "id": 2, "word": "vendor" },
+        { "id": 3, "word": "queue" },
+        { "id": 4, "word": "discount" },
+        { "id": 5, "word": "crowded" }
+      ],
+      "options": [
+        { "id": "A", "text": "full of many people, with very little space to move" },
+        { "id": "B", "text": "a reduction in the usual price of something" },
+        { "id": "C", "text": "a line of people waiting for something" },
+        { "id": "D", "text": "a person who sells goods, especially at a market" },
+        { "id": "E", "text": "to argue about a price in order to pay less" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ on the jacket says it costs 500,000 dong — is that too expensive?",
+          "options": ["sale", "price tag", "discount", "stall"],
+          "answer": "price tag"
+        },
+        {
+          "id": 2,
+          "sentence": "She loves to _____ the prices at different shops before she spends her money.",
+          "options": ["weigh", "wrap", "compare", "pick"],
+          "answer": "compare"
+        },
+        {
+          "id": 3,
+          "sentence": "The bags were very heavy, so we took turns to _____ them back to the car.",
+          "options": ["carry", "queue", "offer", "weigh"],
+          "answer": "carry"
+        },
+        {
+          "id": 4,
+          "sentence": "Please _____ this gift carefully — I do not want it to get damaged.",
+          "options": ["haggle", "wrap", "pick", "compare"],
+          "answer": "wrap"
+        },
+        {
+          "id": 5,
+          "sentence": "The supermarket is having a big _____ this weekend with many items at half price.",
+          "options": ["quality", "vendor", "queue", "sale"],
+          "answer": "sale"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["pick", "weigh", "stall", "offer", "quality", "haggle"],
+      "items": [
+        { "id": 1, "sentence": "My mum always buys vegetables from the same _____ because she trusts the seller.", "answer": "stall" },
+        { "id": 2, "sentence": "The vendor had to _____ the fish before he could tell us the price.", "answer": "weigh" },
+        { "id": 3, "sentence": "Take your time and _____ the freshest fruit — do not just grab the first ones.", "answer": "pick" },
+        { "id": 4, "sentence": "He tried to _____ but the seller said the price was already very low.", "answer": "haggle" },
+        { "id": 5, "sentence": "The _____ of this cloth is excellent — it is soft and will last a long time.", "answer": "quality" }
+      ],
+      "note": "One word in the box is not used: offer"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She looked at the two bags and made a _____ before deciding which one to buy. (COMPARE)",
+          "base_word": "COMPARE",
+          "answer": "comparison",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "The shop assistant _____ to help me find a smaller size in a different colour. (OFFER)",
+          "base_word": "OFFER",
+          "answer": "offered",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 3,
+          "sentence": "The market was so _____ that I could barely move between the stalls. (CROWD)",
+          "base_word": "CROWD",
+          "answer": "crowded",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of the bag told us it was three kilograms — too heavy for me to carry. (WEIGH)",
+          "base_word": "WEIGH",
+          "answer": "weight",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "All the shoes in the window display are _____ at thirty percent off this week. (DISCOUNT)",
+          "base_word": "DISCOUNT",
+          "answer": "discounted",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She read the [vendor] on the bottle to see how much it cost.",
+          "highlighted": "vendor",
+          "options": { "A": "price tag", "B": "sale", "C": "vendor" },
+          "answer": "A",
+          "explanation": "A 'vendor' is a person who sells things. A label attached to a product showing its price is a 'price tag'."
+        },
+        {
+          "id": 2,
+          "sentence": "The market is always very [quiet] on Sunday mornings — there are hundreds of shoppers.",
+          "highlighted": "quiet",
+          "options": { "A": "empty", "B": "crowded", "C": "quiet" },
+          "answer": "B",
+          "explanation": "If there are hundreds of shoppers, the market is not quiet — it is 'crowded', meaning full of people."
+        },
+        {
+          "id": 3,
+          "sentence": "We had to [haggle] for twenty minutes at the checkout to pay for our groceries.",
+          "highlighted": "haggle",
+          "options": { "A": "wrap", "B": "carry", "C": "queue" },
+          "answer": "C",
+          "explanation": "'Haggle' means to argue about a price. Waiting in a line to pay at the checkout is called 'queue' — you queue, not haggle."
+        },
+        {
+          "id": 4,
+          "sentence": "The seller [compared] the fruit one by one and told us the total price.",
+          "highlighted": "compared",
+          "options": { "A": "weighed", "B": "compared", "C": "wrapped" },
+          "answer": "A",
+          "explanation": "'Compare' means to look at differences between things. When a seller measures how heavy something is to find the price, they 'weigh' it."
+        },
+        {
+          "id": 5,
+          "sentence": "The shop was having a [stall], so everything was twenty percent cheaper than usual.",
+          "highlighted": "stall",
+          "options": { "A": "queue", "B": "stall", "C": "sale" },
+          "answer": "C",
+          "explanation": "A 'stall' is a table or stand where goods are sold, not an event with reduced prices. A period when a shop sells goods at lower prices is called a 'sale'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "D", "3": "C", "4": "B", "5": "A" },
+    "ex2": { "1": "price tag", "2": "compare", "3": "carry", "4": "wrap", "5": "sale" },
+    "ex3": { "1": "stall", "2": "weigh", "3": "pick", "4": "haggle", "5": "quality" },
+    "ex4": { "1": "comparison", "2": "offered", "3": "crowded", "4": "weight", "5": "discounted" },
+    "ex5": { "1": "A", "2": "B", "3": "C", "4": "A", "5": "C" }
+  }
+}

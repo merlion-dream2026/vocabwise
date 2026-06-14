@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 32,
+    "topic_id": "b1-t32",
+    "topic_title": "Subjects & Lessons",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📚",
+    "topic_title_vi": "Các Môn Học & Tiết Học",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 114,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "At school, students study many different subjects. My **favourite** subject is **English** because I love reading and writing. I also enjoy **art** and **music** — they are fun and creative. Some students find **maths** and **science** more exciting.",
+        "text_vi": "Ở trường, học sinh học nhiều môn học khác nhau. Môn **yêu thích** của tôi là **tiếng Anh** vì tôi thích đọc và viết. Tôi cũng thích **mỹ thuật** và **âm nhạc** — chúng thú vị và sáng tạo. Một số học sinh thấy **toán** và **khoa học** thú vị hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "In **history** class, we learn about the past. In **geography**, we study countries, rivers, and mountains around the world. During **sport** lessons, we go outside and play games or run on the field. Every **lesson** starts with the teacher checking who is present.",
+        "text_vi": "Trong tiết **lịch sử**, chúng tôi học về quá khứ. Trong tiết **địa lý**, chúng tôi nghiên cứu các quốc gia, sông ngòi và núi non trên thế giới. Trong các tiết **thể dục**, chúng tôi ra ngoài và chơi các trò chơi hoặc chạy trên sân. Mỗi **tiết học** bắt đầu với việc giáo viên điểm danh."
+      },
+      {
+        "index": 3,
+        "text_en": "Some subjects are **difficult** and others are **easy**. When something is hard, I ask the teacher to **explain** it again. After she explains, I usually **understand** much better. It is important to keep trying even when a topic feels confusing.",
+        "text_vi": "Một số môn học thì **khó** và một số môn thì **dễ**. Khi có điều gì đó khó, tôi nhờ giáo viên **giải thích** lại. Sau khi cô ấy giải thích, tôi thường **hiểu** tốt hơn nhiều. Điều quan trọng là tiếp tục cố gắng ngay cả khi một chủ đề cảm thấy khó hiểu."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end of each test, the teacher gives us a **score**. A good **score** makes me feel happy and proud. Even if the **score** is low, my teacher always says that working hard and trying to **understand** the material is more important than getting a perfect result.",
+        "text_vi": "Vào cuối mỗi bài kiểm tra, giáo viên cho chúng tôi một **điểm số**. Một **điểm số** tốt khiến tôi cảm thấy vui và tự hào. Dù **điểm số** có thấp, giáo viên tôi luôn nói rằng cố gắng hết sức và cố gắng **hiểu** tài liệu quan trọng hơn là đạt kết quả hoàn hảo."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "maths",
+      "ipa": "/mæθs/",
+      "pos": "noun",
+      "meaning_vi": "môn toán học",
+      "meaning_vi_inline": "toán",
+      "example_en": "I practise maths problems every evening — it helps me feel more confident during tests.",
+      "example_vi": "Tôi luyện các bài toán mỗi buổi tối — điều đó giúp tôi cảm thấy tự tin hơn trong các bài kiểm tra.",
+      "word_family": {
+        "noun": "maths / mathematics / mathematician",
+        "verb": null,
+        "adjective": "mathematical",
+        "adverb": "mathematically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "science",
+      "ipa": "/ˈsaɪəns/",
+      "pos": "noun",
+      "meaning_vi": "môn khoa học",
+      "meaning_vi_inline": "khoa học",
+      "example_en": "In science class today, we did an experiment to see how plants grow in different types of soil.",
+      "example_vi": "Trong tiết khoa học hôm nay, chúng tôi làm thí nghiệm để xem cây phát triển như thế nào trong các loại đất khác nhau.",
+      "word_family": {
+        "noun": "science / scientist",
+        "verb": null,
+        "adjective": "scientific",
+        "adverb": "scientifically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "history",
+      "ipa": "/ˈhɪstri/",
+      "pos": "noun",
+      "meaning_vi": "môn lịch sử; lịch sử",
+      "meaning_vi_inline": "lịch sử",
+      "example_en": "Our history teacher told us fascinating stories about life in Vietnam one hundred years ago.",
+      "example_vi": "Giáo viên lịch sử của chúng tôi kể những câu chuyện thú vị về cuộc sống ở Việt Nam một trăm năm trước.",
+      "word_family": {
+        "noun": "history / historian",
+        "verb": null,
+        "adjective": "historic / historical",
+        "adverb": "historically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "geography",
+      "ipa": "/dʒiˈɒɡrəfi/",
+      "pos": "noun",
+      "meaning_vi": "môn địa lý; địa lý học",
+      "meaning_vi_inline": "địa lý",
+      "example_en": "We studied the geography of Southeast Asia and learned about its rivers, mountains, and climate.",
+      "example_vi": "Chúng tôi học địa lý của Đông Nam Á và tìm hiểu về các con sông, núi non và khí hậu của khu vực này.",
+      "word_family": {
+        "noun": "geography / geographer",
+        "verb": null,
+        "adjective": "geographical",
+        "adverb": "geographically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "art",
+      "ipa": "/ɑːt/",
+      "pos": "noun",
+      "meaning_vi": "môn mỹ thuật; nghệ thuật",
+      "meaning_vi_inline": "mỹ thuật",
+      "example_en": "In art class, we painted a picture of a Vietnamese street scene using watercolours.",
+      "example_vi": "Trong tiết mỹ thuật, chúng tôi vẽ một bức tranh về cảnh đường phố Việt Nam bằng màu nước.",
+      "word_family": {
+        "noun": "art / artist / artwork",
+        "verb": null,
+        "adjective": "artistic",
+        "adverb": "artistically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "noun",
+      "meaning_vi": "môn âm nhạc; âm nhạc",
+      "meaning_vi_inline": "âm nhạc",
+      "example_en": "In music class, we learned to play a simple song on the recorder — it was really enjoyable.",
+      "example_vi": "Trong tiết âm nhạc, chúng tôi học chơi một bài nhạc đơn giản trên kèn recorder — thật sự rất thú vị.",
+      "word_family": {
+        "noun": "music / musician",
+        "verb": null,
+        "adjective": "musical",
+        "adverb": "musically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "English",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "pos": "noun / adjective",
+      "meaning_vi": "môn tiếng Anh; tiếng Anh; người Anh / thuộc về Anh",
+      "meaning_vi_inline": "tiếng Anh",
+      "example_en": "My English teacher is very encouraging — she always smiles and says 'Good try!' when we make mistakes.",
+      "example_vi": "Giáo viên tiếng Anh của tôi rất khích lệ — cô ấy luôn mỉm cười và nói 'Cố gắng tốt lắm!' khi chúng tôi mắc lỗi.",
+      "word_family": {
+        "noun": "English / the English",
+        "verb": null,
+        "adjective": "English",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "sport",
+      "ipa": "/spɔːt/",
+      "pos": "noun",
+      "meaning_vi": "thể dục thể thao; môn thể dục",
+      "meaning_vi_inline": "thể dục",
+      "example_en": "My favourite sport at school is badminton — I play it with my classmates every Tuesday.",
+      "example_vi": "Môn thể thao yêu thích của tôi ở trường là cầu lông — tôi chơi với bạn cùng lớp mỗi thứ Ba.",
+      "word_family": {
+        "noun": "sport / sports / sportsman / sportswoman",
+        "verb": null,
+        "adjective": "sporty / sporting",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "lesson",
+      "ipa": "/ˈlesn/",
+      "pos": "noun",
+      "meaning_vi": "tiết học, bài học",
+      "meaning_vi_inline": "tiết học",
+      "example_en": "The first lesson of the day is maths — it starts at seven thirty and lasts forty-five minutes.",
+      "example_vi": "Tiết học đầu tiên trong ngày là toán — bắt đầu lúc bảy giờ rưỡi và kéo dài bốn mươi lăm phút.",
+      "word_family": {
+        "noun": "lesson",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "favourite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "pos": "adjective / noun",
+      "meaning_vi": "yêu thích nhất; điều/người yêu thích",
+      "meaning_vi_inline": "yêu thích",
+      "example_en": "My favourite lesson is English because I love learning new words and talking with my classmates.",
+      "example_vi": "Tiết học yêu thích của tôi là tiếng Anh vì tôi thích học từ mới và trò chuyện với bạn cùng lớp.",
+      "word_family": {
+        "noun": "favourite / favourite (person or thing)",
+        "verb": "favour / favoured",
+        "adjective": "favourite",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "difficult",
+      "ipa": "/ˈdɪfɪkəlt/",
+      "pos": "adjective",
+      "meaning_vi": "khó, khó khăn",
+      "meaning_vi_inline": "khó",
+      "example_en": "The maths test was very difficult — only three students in the class got a perfect score.",
+      "example_vi": "Bài kiểm tra toán rất khó — chỉ có ba học sinh trong lớp đạt điểm hoàn hảo.",
+      "word_family": {
+        "noun": "difficulty",
+        "verb": null,
+        "adjective": "difficult",
+        "adverb": "with difficulty"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "easy",
+      "ipa": "/ˈiːzi/",
+      "pos": "adjective",
+      "meaning_vi": "dễ, dễ dàng",
+      "meaning_vi_inline": "dễ",
+      "example_en": "The geography quiz was quite easy — I answered all ten questions correctly in five minutes.",
+      "example_vi": "Bài kiểm tra địa lý khá dễ — tôi trả lời đúng cả mười câu hỏi trong năm phút.",
+      "word_family": {
+        "noun": "ease",
+        "verb": "ease (to make easier)",
+        "adjective": "easy",
+        "adverb": "easily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "understand",
+      "ipa": "/ˌʌndəˈstænd/",
+      "pos": "verb",
+      "meaning_vi": "hiểu, hiểu được",
+      "meaning_vi_inline": "hiểu",
+      "example_en": "I did not understand the grammar rule at first, but the teacher explained it with a clear example.",
+      "example_vi": "Lúc đầu tôi không hiểu quy tắc ngữ pháp, nhưng giáo viên giải thích nó bằng một ví dụ rõ ràng.",
+      "word_family": {
+        "noun": "understanding",
+        "verb": "understand / understood",
+        "adjective": "understandable",
+        "adverb": "understandably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "verb",
+      "meaning_vi": "giải thích",
+      "meaning_vi_inline": "giải thích",
+      "example_en": "Could you please explain the difference between 'since' and 'for'? I always confuse them.",
+      "example_vi": "Bạn có thể giải thích sự khác biệt giữa 'since' và 'for' không? Tôi luôn nhầm lẫn chúng.",
+      "word_family": {
+        "noun": "explanation",
+        "verb": "explain / explained",
+        "adjective": "explanatory",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "score",
+      "ipa": "/skɔː/",
+      "pos": "noun / verb",
+      "meaning_vi": "điểm số; ghi điểm",
+      "meaning_vi_inline": "điểm số",
+      "example_en": "She was very happy with her score of ninety-five out of one hundred on the English test.",
+      "example_vi": "Cô ấy rất vui với điểm số chín mươi lăm trên một trăm trong bài kiểm tra tiếng Anh.",
+      "word_family": {
+        "noun": "score / scorer",
+        "verb": "score / scored",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "score" },
+        { "id": 2, "word": "explain" },
+        { "id": 3, "word": "geography" },
+        { "id": 4, "word": "difficult" },
+        { "id": 5, "word": "lesson" }
+      ],
+      "options": [
+        { "id": "A", "text": "a period of time in school when students are taught a particular subject" },
+        { "id": "B", "text": "the number of correct answers or points someone gets in a test or game" },
+        { "id": "C", "text": "hard to do or understand; needing a lot of effort or skill" },
+        { "id": "D", "text": "to make something clear by describing it or giving reasons" },
+        { "id": "E", "text": "the study of the Earth's lands, rivers, mountains, countries, and climate" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "In _____ class, we learned how rivers form and why some areas have very little rain.",
+          "options": ["art", "music", "geography", "sport"],
+          "answer": "geography"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher will _____ the new grammar rule with three clear examples on the board.",
+          "options": ["score", "understand", "explain", "favourite"],
+          "answer": "explain"
+        },
+        {
+          "id": 3,
+          "sentence": "Algebra is very _____ for me — I always make mistakes when I solve equations.",
+          "options": ["easy", "favourite", "difficult", "musical"],
+          "answer": "difficult"
+        },
+        {
+          "id": 4,
+          "sentence": "She got a perfect _____ on the science test — ten out of ten for the third time in a row.",
+          "options": ["lesson", "score", "history", "sport"],
+          "answer": "score"
+        },
+        {
+          "id": 5,
+          "sentence": "After the teacher explained it twice, I finally began to _____ how to use the passive voice.",
+          "options": ["explain", "score", "understand", "favourite"],
+          "answer": "understand"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["maths", "history", "easy", "lesson", "favourite", "art"],
+      "items": [
+        { "id": 1, "sentence": "My _____ subject at school is music — I love singing and playing the guitar.", "answer": "favourite" },
+        { "id": 2, "sentence": "The _____ teacher asked us to draw a portrait of someone we admire.", "answer": "art" },
+        { "id": 3, "sentence": "In _____ class, we studied the causes of the First World War.", "answer": "history" },
+        { "id": 4, "sentence": "The first _____ on Monday is always maths — it starts at half past seven.", "answer": "lesson" },
+        { "id": 5, "sentence": "This exercise looks difficult, but it is actually quite _____ once you know the rule.", "answer": "easy" }
+      ],
+      "note": "One word in the box is not used: maths"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She plays the violin very well — she is extremely _____ and practises every day. (MUSIC)",
+          "base_word": "MUSIC",
+          "answer": "musical",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "He solved the maths problem _____ — he finished it in less than two minutes. (EASY)",
+          "base_word": "EASY",
+          "answer": "easily",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher's _____ of the grammar rule was very clear and helped everyone in the class. (EXPLAIN)",
+          "base_word": "EXPLAIN",
+          "answer": "explanation",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "My _____ of the topic improved a lot after I read the chapter again carefully. (UNDERSTAND)",
+          "base_word": "UNDERSTAND",
+          "answer": "understanding",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "The team _____ three goals in the second half and won the match. (SCORE)",
+          "base_word": "SCORE",
+          "answer": "scored",
+          "form_used": "verb (past tense)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She found the new science topic very [easy] — she had to ask the teacher to explain it three times.",
+          "highlighted": "easy",
+          "options": { "A": "easy", "B": "difficult", "C": "favourite" },
+          "answer": "B",
+          "explanation": "If she needed the teacher to explain it three times, the topic was clearly not 'easy'. The correct word is 'difficult' — something that is hard to understand."
+        },
+        {
+          "id": 2,
+          "sentence": "In [sport] class, we painted a landscape and then discussed the colours we used.",
+          "highlighted": "sport",
+          "options": { "A": "music", "B": "sport", "C": "art" },
+          "answer": "C",
+          "explanation": "Painting a landscape is an activity done in 'art' class, not 'sport' class. Sport lessons involve physical activities like running or playing games."
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher asked him to [understand] why the answer was wrong, but he could not find the right words.",
+          "highlighted": "understand",
+          "options": { "A": "score", "B": "explain", "C": "understand" },
+          "answer": "B",
+          "explanation": "'Understand' means to know or grasp something yourself. When the teacher asks a student to say why an answer is wrong, they are asking the student to 'explain' it to others."
+        },
+        {
+          "id": 4,
+          "sentence": "We studied the [music] of ancient civilisations — how they lived, built cities, and fought wars.",
+          "highlighted": "music",
+          "options": { "A": "history", "B": "music", "C": "geography" },
+          "answer": "A",
+          "explanation": "Studying how ancient people lived, built cities, and fought wars is 'history'. 'Music' is about sound, rhythm, and instruments — not events of the past."
+        },
+        {
+          "id": 5,
+          "sentence": "I was so happy because I got a high [lesson] on my English test — ninety-two out of one hundred.",
+          "highlighted": "lesson",
+          "options": { "A": "lesson", "B": "subject", "C": "score" },
+          "answer": "C",
+          "explanation": "A 'lesson' is a period of teaching, not a number on a test. The number of points you receive after a test is called a 'score'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "B", "2": "D", "3": "E", "4": "C", "5": "A" },
+    "ex2": { "1": "geography", "2": "explain", "3": "difficult", "4": "score", "5": "understand" },
+    "ex3": { "1": "favourite", "2": "art", "3": "history", "4": "lesson", "5": "easy" },
+    "ex4": { "1": "musical", "2": "easily", "3": "explanation", "4": "understanding", "5": "scored" },
+    "ex5": { "1": "B", "2": "C", "3": "B", "4": "A", "5": "C" }
+  }
+}

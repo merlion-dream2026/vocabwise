@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 39,
+    "topic_id": "b1-t39",
+    "topic_title": "Simple Experiments at School",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🔬",
+    "topic_title_vi": "Thí Nghiệm Đơn Giản Ở Trường",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Today we do a simple **experiment** in science class. Our teacher tells us to **watch** carefully and **observe** what happens. We must follow each **step** and be very **careful** at all times.",
+        "text_vi": "Hôm nay chúng tôi thực hiện một **thí nghiệm** đơn giản trong giờ khoa học. Giáo viên bảo chúng tôi **quan sát** cẩn thận và **quan sát** những gì xảy ra. Chúng tôi phải thực hiện từng **bước** và phải rất **cẩn thận** mọi lúc."
+      },
+      {
+        "index": 2,
+        "text_en": "We pour a **cold** **liquid** into a glass and then add something **hot**. We **measure** the temperature before and after and **record** the numbers in our notebook. We want to see if a **change** happens.",
+        "text_vi": "Chúng tôi đổ một **chất lỏng** **lạnh** vào cốc rồi thêm thứ gì đó **nóng**. Chúng tôi **đo** nhiệt độ trước và sau rồi **ghi lại** các con số vào vở. Chúng tôi muốn xem liệu có **thay đổi** nào xảy ra không."
+      },
+      {
+        "index": 3,
+        "text_en": "This is our first **trial**, so we do not always **find** the right answer the first time. Our teacher says it is normal to try again. Each **trial** helps us learn more. The most important thing is to stay **safe** during every experiment.",
+        "text_vi": "Đây là **lần thử** đầu tiên của chúng tôi, vì vậy chúng tôi không phải lúc nào cũng **tìm ra** câu trả lời đúng ngay lần đầu. Giáo viên nói điều đó là bình thường và có thể thử lại. Mỗi **lần thử** giúp chúng tôi học được nhiều hơn. Điều quan trọng nhất là giữ **an toàn** trong suốt mọi thí nghiệm."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end, we **observe** the **outcome** together. We talk about what we saw and learned. Science experiments are exciting because we never know the **outcome** before we begin. We love to **find** out new things!",
+        "text_vi": "Vào cuối buổi, chúng tôi cùng nhau **quan sát** **kết quả**. Chúng tôi nói về những gì đã thấy và học được. Thí nghiệm khoa học rất thú vị vì chúng tôi không bao giờ biết **kết quả** trước khi bắt đầu. Chúng tôi thích **tìm hiểu** những điều mới!"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "experiment",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "pos": "noun",
+      "meaning_vi": "thí nghiệm",
+      "meaning_vi_inline": "thí nghiệm",
+      "example_en": "We did a simple experiment to see what happens when you mix vinegar and baking soda.",
+      "example_vi": "Chúng tôi đã làm một thí nghiệm đơn giản để xem điều gì xảy ra khi trộn giấm và baking soda.",
+      "word_family": {
+        "noun": "experiment / experimentation",
+        "verb": "experiment / experimented",
+        "adjective": "experimental",
+        "adverb": "experimentally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "liquid",
+      "ipa": "/ˈlɪkwɪd/",
+      "pos": "noun / adjective",
+      "meaning_vi": "chất lỏng; ở dạng lỏng",
+      "meaning_vi_inline": "chất lỏng",
+      "example_en": "Water is a liquid — it has no shape of its own and takes the shape of its container.",
+      "example_vi": "Nước là chất lỏng — nó không có hình dạng riêng mà nhận hình dạng của vật chứa nó.",
+      "word_family": {
+        "noun": "liquid",
+        "verb": "liquefy",
+        "adjective": "liquid",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "cold",
+      "ipa": "/kəʊld/",
+      "pos": "adjective",
+      "meaning_vi": "lạnh",
+      "meaning_vi_inline": "lạnh",
+      "example_en": "The teacher poured cold water into the glass before starting the experiment.",
+      "example_vi": "Giáo viên rót nước lạnh vào cốc trước khi bắt đầu thí nghiệm.",
+      "word_family": {
+        "noun": "cold / coldness",
+        "verb": null,
+        "adjective": "cold / colder / coldest",
+        "adverb": "coldly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adjective",
+      "meaning_vi": "nóng",
+      "meaning_vi_inline": "nóng",
+      "example_en": "Be careful not to touch the hot water — it can burn your skin.",
+      "example_vi": "Cẩn thận đừng chạm vào nước nóng — nó có thể làm bỏng da bạn.",
+      "word_family": {
+        "noun": "heat",
+        "verb": "heat / heated",
+        "adjective": "hot / hotter / hottest",
+        "adverb": "hotly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự thay đổi; thay đổi",
+      "meaning_vi_inline": "thay đổi",
+      "example_en": "We watched the liquid change colour when we added the new ingredient.",
+      "example_vi": "Chúng tôi quan sát chất lỏng thay đổi màu sắc khi thêm nguyên liệu mới vào.",
+      "word_family": {
+        "noun": "change",
+        "verb": "change / changed",
+        "adjective": "changeable / unchanged",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "watch",
+      "ipa": "/wɒtʃ/",
+      "pos": "verb",
+      "meaning_vi": "quan sát, theo dõi",
+      "meaning_vi_inline": "quan sát",
+      "example_en": "Everyone watched the liquid carefully to see if the colour would change.",
+      "example_vi": "Mọi người quan sát chất lỏng cẩn thận để xem liệu màu sắc có thay đổi không.",
+      "word_family": {
+        "noun": "watch",
+        "verb": "watch / watched",
+        "adjective": "watchful",
+        "adverb": "watchfully"
+      },
+      "false_friend": {
+        "word_vi": "đồng hồ đeo tay",
+        "explanation_vi": "\"Watch\" vừa có nghĩa là \"quan sát\" (động từ) vừa là \"đồng hồ đeo tay\" (danh từ). Trong ngữ cảnh thí nghiệm, \"watch\" có nghĩa là quan sát, không phải đồng hồ."
+      }
+    },
+    {
+      "id": 7,
+      "word": "outcome",
+      "ipa": "/ˈaʊtkʌm/",
+      "pos": "noun",
+      "meaning_vi": "kết quả, kết cục",
+      "meaning_vi_inline": "kết quả",
+      "example_en": "The outcome of the experiment surprised everyone — the liquid turned bright blue.",
+      "example_vi": "Kết quả của thí nghiệm khiến mọi người ngạc nhiên — chất lỏng chuyển sang màu xanh tươi.",
+      "word_family": {
+        "noun": "outcome",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "safe",
+      "ipa": "/seɪf/",
+      "pos": "adjective",
+      "meaning_vi": "an toàn",
+      "meaning_vi_inline": "an toàn",
+      "example_en": "Always wear gloves to stay safe when handling chemicals in the lab.",
+      "example_vi": "Luôn đeo găng tay để đảm bảo an toàn khi xử lý hóa chất trong phòng thí nghiệm.",
+      "word_family": {
+        "noun": "safety",
+        "verb": null,
+        "adjective": "safe / unsafe",
+        "adverb": "safely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "careful",
+      "ipa": "/ˈkeəfəl/",
+      "pos": "adjective",
+      "meaning_vi": "cẩn thận",
+      "meaning_vi_inline": "cẩn thận",
+      "example_en": "Be careful when you pour the liquid — do not spill it on the table.",
+      "example_vi": "Hãy cẩn thận khi rót chất lỏng — đừng làm đổ ra bàn.",
+      "word_family": {
+        "noun": "care / carefulness",
+        "verb": "care",
+        "adjective": "careful / careless",
+        "adverb": "carefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "trial",
+      "ipa": "/ˈtraɪəl/",
+      "pos": "noun",
+      "meaning_vi": "lần thử, thử nghiệm",
+      "meaning_vi_inline": "lần thử",
+      "example_en": "Our first trial did not work, so we changed one step and tried again.",
+      "example_vi": "Lần thử đầu tiên của chúng tôi không thành công, vì vậy chúng tôi thay đổi một bước và thử lại.",
+      "word_family": {
+        "noun": "trial",
+        "verb": "try / tried",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "find",
+      "ipa": "/faɪnd/",
+      "pos": "verb",
+      "meaning_vi": "tìm ra, khám phá",
+      "meaning_vi_inline": "tìm ra",
+      "example_en": "We did three trials before we could find the correct answer.",
+      "example_vi": "Chúng tôi đã thử ba lần trước khi tìm ra câu trả lời đúng.",
+      "word_family": {
+        "noun": "finding / find",
+        "verb": "find / found",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "step",
+      "ipa": "/step/",
+      "pos": "noun",
+      "meaning_vi": "bước (trong quy trình)",
+      "meaning_vi_inline": "bước",
+      "example_en": "The teacher wrote each step on the board so we could follow the experiment correctly.",
+      "example_vi": "Giáo viên viết từng bước lên bảng để chúng tôi có thể thực hiện thí nghiệm đúng cách.",
+      "word_family": {
+        "noun": "step",
+        "verb": "step / stepped",
+        "adjective": "step-by-step",
+        "adverb": "step by step"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "observe",
+      "ipa": "/əbˈzɜːv/",
+      "pos": "verb",
+      "meaning_vi": "quan sát, theo dõi (kỹ)",
+      "meaning_vi_inline": "quan sát",
+      "example_en": "Scientists observe things very carefully before writing down what they see.",
+      "example_vi": "Các nhà khoa học quan sát mọi thứ rất cẩn thận trước khi ghi lại những gì họ thấy.",
+      "word_family": {
+        "noun": "observation / observer",
+        "verb": "observe / observed",
+        "adjective": "observant",
+        "adverb": "observantly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "measure",
+      "ipa": "/ˈmeʒər/",
+      "pos": "verb / noun",
+      "meaning_vi": "đo, đo lường; phép đo",
+      "meaning_vi_inline": "đo",
+      "example_en": "We used a thermometer to measure the temperature of the liquid before and after.",
+      "example_vi": "Chúng tôi dùng nhiệt kế để đo nhiệt độ của chất lỏng trước và sau.",
+      "word_family": {
+        "noun": "measure / measurement",
+        "verb": "measure / measured",
+        "adjective": "measurable",
+        "adverb": "measurably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "record",
+      "ipa": "/rɪˈkɔːd/",
+      "pos": "verb",
+      "meaning_vi": "ghi lại, ghi chép",
+      "meaning_vi_inline": "ghi lại",
+      "example_en": "After each step, we record what we see in our science notebook.",
+      "example_vi": "Sau mỗi bước, chúng tôi ghi lại những gì quan sát được vào vở khoa học.",
+      "word_family": {
+        "noun": "record",
+        "verb": "record / recorded",
+        "adjective": "recorded",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "kỷ lục / đĩa nhạc",
+        "explanation_vi": "\"Record\" (danh từ, đọc là /ˈrekɔːd/) có nghĩa là kỷ lục hoặc đĩa nhạc. \"Record\" (động từ, đọc là /rɪˈkɔːd/) có nghĩa là ghi lại. Trong thí nghiệm, ta dùng động từ \"record\" — ghi chép kết quả."
+      }
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "outcome" },
+        { "id": 2, "word": "trial" },
+        { "id": 3, "word": "observe" },
+        { "id": 4, "word": "measure" },
+        { "id": 5, "word": "record" }
+      ],
+      "options": [
+        { "id": "A", "text": "to look at something carefully and pay attention to what happens" },
+        { "id": "B", "text": "to write down information so that it can be remembered or checked later" },
+        { "id": "C", "text": "the result of an experiment or test" },
+        { "id": "D", "text": "an attempt to do something in order to find out if it works" },
+        { "id": "E", "text": "to find the size, amount, or degree of something using a tool or instrument" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Always be _____ when you use hot water — it can burn your hands.",
+          "options": ["safe", "careful", "cold", "liquid"],
+          "answer": "careful"
+        },
+        {
+          "id": 2,
+          "sentence": "We poured the _____ slowly into the glass so we could watch it closely.",
+          "options": ["outcome", "trial", "liquid", "record"],
+          "answer": "liquid"
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher told us to _____ every number in our science notebook.",
+          "options": ["watch", "change", "find", "record"],
+          "answer": "record"
+        },
+        {
+          "id": 4,
+          "sentence": "Our first _____ did not work, so we tried again with different amounts.",
+          "options": ["step", "trial", "change", "outcome"],
+          "answer": "trial"
+        },
+        {
+          "id": 5,
+          "sentence": "We were excited to _____ the final result of our science experiment.",
+          "options": ["measure", "record", "find", "observe"],
+          "answer": "find"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["experiment", "safe", "step", "change", "observe", "measure"],
+      "items": [
+        { "id": 1, "sentence": "Follow each _____ carefully so you do not make a mistake.", "answer": "step" },
+        { "id": 2, "sentence": "We use a ruler to _____ the length of each object.", "answer": "measure" },
+        { "id": 3, "sentence": "Our science _____ showed that cold water cools hot liquid quickly.", "answer": "experiment" },
+        { "id": 4, "sentence": "The students were quiet so they could _____ what happened in the glass.", "answer": "observe" },
+        { "id": 5, "sentence": "A big _____ happened when we added the powder to the liquid.", "answer": "change" }
+      ],
+      "note": "One word in the box is not used: safe"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She read the instructions _____ before starting the experiment. (CAREFUL)",
+          "base_word": "CAREFUL",
+          "answer": "carefully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ showed that hot liquid cools down faster in a metal cup. (OBSERVE)",
+          "base_word": "OBSERVE",
+          "answer": "observation",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "We were happy because our results were _____ — we could count and compare them. (MEASURE)",
+          "base_word": "MEASURE",
+          "answer": "measurable",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "It is important to carry out science activities _____ so no one gets hurt. (SAFE)",
+          "base_word": "SAFE",
+          "answer": "safely",
+          "form_used": "adverb"
+        },
+        {
+          "id": 5,
+          "sentence": "We did several _____ before writing our final report. (EXPERIMENT)",
+          "base_word": "EXPERIMENT",
+          "answer": "experiments",
+          "form_used": "noun (plural)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We need to [watch] the temperature of the liquid before and after heating.",
+          "highlighted": "watch",
+          "options": { "A": "observe", "B": "watch", "C": "measure" },
+          "answer": "C",
+          "explanation": "'Watch' means to look at something. However, to find out the exact temperature of a liquid, you need to 'measure' it — using a thermometer or other instrument."
+        },
+        {
+          "id": 2,
+          "sentence": "The [outcome] of the experiment is to add hot water and cold water together.",
+          "highlighted": "outcome",
+          "options": { "A": "step", "B": "outcome", "C": "trial" },
+          "answer": "A",
+          "explanation": "The 'outcome' is the result at the end — not a part of the process. Adding hot and cold water is a 'step' — an action you follow in order during the experiment."
+        },
+        {
+          "id": 3,
+          "sentence": "Always stay [careful] when using scissors or hot equipment in the lab.",
+          "highlighted": "careful",
+          "options": { "A": "safe", "B": "careful", "C": "cold" },
+          "answer": "A",
+          "explanation": "While 'careful' describes how you behave, the correct word here is 'safe' — which describes the condition of not being in danger. You 'stay safe', not 'stay careful'."
+        },
+        {
+          "id": 4,
+          "sentence": "After the experiment, we had to [find] all our results in a table.",
+          "highlighted": "find",
+          "options": { "A": "observe", "B": "change", "C": "record" },
+          "answer": "C",
+          "explanation": "'Find' means to discover something. Writing results into a table means you are 'recording' them — saving the information in an organised way."
+        },
+        {
+          "id": 5,
+          "sentence": "The water turned to steam — that was an unexpected [trial] of heat.",
+          "highlighted": "trial",
+          "options": { "A": "trial", "B": "change", "C": "step" },
+          "answer": "B",
+          "explanation": "A 'trial' is an attempt or test. Steam forming from water is not a trial — it is a physical 'change', the result of applying heat to a liquid."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "D", "3": "A", "4": "E", "5": "B" },
+    "ex2": { "1": "careful", "2": "liquid", "3": "record", "4": "trial", "5": "find" },
+    "ex3": { "1": "step", "2": "measure", "3": "experiment", "4": "observe", "5": "change" },
+    "ex4": { "1": "carefully", "2": "observation", "3": "measurable", "4": "safely", "5": "experiments" },
+    "ex5": { "1": "C", "2": "A", "3": "A", "4": "C", "5": "B" }
+  }
+}

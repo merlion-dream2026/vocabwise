@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 48,
+    "topic_id": "b2-t48",
+    "topic_title": "Staying Healthy",
+    "theme_number": 5,
+    "theme_title": "People & Issues",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🏃",
+    "topic_title_vi": "Duy Trì Sức Khỏe",
+    "theme_title_vi": "Con Người & Vấn Đề Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 210,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Good health is not only about avoiding illness — it is about building a **lifestyle** that supports long-term wellbeing. The three most important pillars of a healthy life are **diet**, **exercise**, and **sleep**. A balanced **diet** rich in vegetables, fruit, whole grains, and lean protein provides the **nutrition** your body needs to function at its best. Meanwhile, regular **exercise** — even thirty minutes of moderate activity such as walking — strengthens the heart, improves mood, and helps maintain a healthy weight.",
+        "text_vi": "Sức khỏe tốt không chỉ là về việc tránh bệnh tật — đó là về việc xây dựng một **lối sống** hỗ trợ sức khỏe lâu dài. Ba trụ cột quan trọng nhất của cuộc sống lành mạnh là **chế độ ăn uống**, **tập thể dục** và **giấc ngủ**. Một **chế độ ăn uống** cân bằng giàu rau củ, trái cây, ngũ cốc nguyên hạt và protein nạc cung cấp **dinh dưỡng** mà cơ thể bạn cần để hoạt động tốt nhất. Trong khi đó, **tập thể dục** thường xuyên — ngay cả ba mươi phút hoạt động vừa phải như đi bộ — tăng cường tim mạch, cải thiện tâm trạng và giúp duy trì cân nặng lành mạnh."
+      },
+      {
+        "index": 2,
+        "text_en": "**Sleep** is often underestimated as a health factor, but research consistently shows that adults need seven to nine hours per night to maintain cognitive function, emotional **balance**, and a strong **immune system**. When people are sleep-deprived, they are more likely to eat poorly, exercise less, and become ill more easily. Establishing a consistent **routine** — going to bed and waking at the same time every day — is one of the most effective **habit**s for improving sleep quality.",
+        "text_vi": "**Giấc ngủ** thường bị đánh giá thấp là yếu tố sức khỏe, nhưng nghiên cứu liên tục cho thấy người lớn cần bảy đến chín giờ mỗi đêm để duy trì chức năng nhận thức, **cân bằng** cảm xúc và **hệ miễn dịch** mạnh mẽ. Khi mọi người thiếu ngủ, họ có nhiều khả năng ăn uống kém, tập thể dục ít hơn và dễ bị bệnh hơn. Thiết lập một **thói quen** nhất quán — đi ngủ và thức dậy cùng một thời điểm mỗi ngày — là một trong những **thói quen** hiệu quả nhất để cải thiện chất lượng giấc ngủ."
+      },
+      {
+        "index": 3,
+        "text_en": "**Prevent**ing illness is always better than treating it. Attending regular health **check-up**s allows doctors to detect potential problems early, before they become serious. Staying **active** throughout the day — even with small actions like taking the stairs or going for a short walk after lunch — has a measurable impact on health. Monitoring **calorie** intake is important for those managing their weight, but experts warn against extreme restriction, which can harm **nutrition** and overall wellbeing.",
+        "text_vi": "**Phòng ngừa** bệnh tật luôn tốt hơn điều trị bệnh. Tham dự các buổi **kiểm tra sức khỏe** định kỳ cho phép bác sĩ phát hiện các vấn đề tiềm năng sớm, trước khi chúng trở nên nghiêm trọng. Duy trì **vận động** suốt ngày — ngay cả với các hành động nhỏ như leo cầu thang hoặc đi bộ ngắn sau bữa trưa — có tác động đo lường được đối với sức khỏe. Theo dõi lượng **calo** nạp vào là quan trọng đối với những người quản lý cân nặng, nhưng các chuyên gia cảnh báo về việc hạn chế cực đoan, điều này có thể gây hại cho **dinh dưỡng** và sức khỏe tổng thể."
+      },
+      {
+        "index": 4,
+        "text_en": "One **habit** that many people overlook is staying well **hydrate**d. Drinking enough water each day supports digestion, regulates body temperature, and helps the body remove waste. Good **physical** health also connects closely to mental health: people who maintain a **balance**d **lifestyle** — with time for rest, socialising, and enjoyable **exercise** — report higher levels of satisfaction and lower rates of anxiety. Health is not a destination; it is a daily choice.",
+        "text_vi": "Một **thói quen** mà nhiều người bỏ qua là duy trì **bổ sung nước** đầy đủ. Uống đủ nước mỗi ngày hỗ trợ tiêu hóa, điều hòa nhiệt độ cơ thể và giúp cơ thể thải độc chất. Sức khỏe **thể chất** tốt cũng kết nối chặt chẽ với sức khỏe tâm thần: những người duy trì **lối sống** **cân bằng** — với thời gian để nghỉ ngơi, giao lưu xã hội và **tập thể dục** thú vị — báo cáo mức độ hài lòng cao hơn và tỷ lệ lo lắng thấp hơn. Sức khỏe không phải là đích đến; đó là sự lựa chọn hàng ngày."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "lifestyle",
+      "ipa": "/ˈlaɪf.staɪl/",
+      "pos": "noun",
+      "meaning_vi": "lối sống (cách sống, thói quen hàng ngày)",
+      "meaning_vi_inline": "lối sống",
+      "example_en": "Adopting a healthier lifestyle — with more exercise and less junk food — improved her energy levels significantly.",
+      "example_vi": "Áp dụng lối sống lành mạnh hơn — với nhiều tập thể dục hơn và ít đồ ăn vặt hơn — cải thiện đáng kể mức năng lượng của cô.",
+      "word_family": {
+        "noun": "lifestyle",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "diet",
+      "ipa": "/ˈdaɪ.ɪt/",
+      "pos": "noun",
+      "meaning_vi": "chế độ ăn uống (tổng thể những gì ăn hàng ngày)",
+      "meaning_vi_inline": "chế độ ăn uống",
+      "example_en": "A diet rich in fruit and vegetables can significantly reduce the risk of heart disease.",
+      "example_vi": "Chế độ ăn giàu trái cây và rau củ có thể giảm đáng kể nguy cơ mắc bệnh tim.",
+      "word_family": {
+        "noun": "diet / nutrition",
+        "verb": "diet (to go on a diet)",
+        "adjective": "dietary",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "ăn kiêng",
+        "explanation_vi": "Trong tiếng Anh, 'diet' có thể chỉ toàn bộ chế độ ăn uống hàng ngày (trung lập: 'a healthy diet') HOẶC việc ăn kiêng để giảm cân ('to go on a diet'). 'Diet' không tự động có nghĩa tiêu cực — bối cảnh quyết định nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "exercise",
+      "ipa": "/ˈek.sə.saɪz/",
+      "pos": "noun / verb",
+      "meaning_vi": "tập thể dục; vận động thể chất",
+      "meaning_vi_inline": "tập thể dục",
+      "example_en": "Doctors recommend at least 150 minutes of moderate exercise per week for healthy adults.",
+      "example_vi": "Bác sĩ khuyến nghị ít nhất 150 phút tập thể dục vừa phải mỗi tuần cho người lớn khỏe mạnh.",
+      "word_family": {
+        "noun": "exercise",
+        "verb": "exercise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "pos": "noun",
+      "meaning_vi": "thói quen sinh hoạt hàng ngày (lịch trình đều đặn)",
+      "meaning_vi_inline": "thói quen sinh hoạt",
+      "example_en": "Having a morning routine — including exercise, a healthy breakfast, and planning the day — sets a positive tone.",
+      "example_vi": "Có thói quen buổi sáng — bao gồm tập thể dục, bữa sáng lành mạnh và lên kế hoạch cho ngày — tạo ra giai điệu tích cực.",
+      "word_family": {
+        "noun": "routine",
+        "verb": null,
+        "adjective": "routine",
+        "adverb": "routinely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "balance",
+      "ipa": "/ˈbæl.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "cân bằng (giữa công việc, nghỉ ngơi, sức khỏe)",
+      "meaning_vi_inline": "cân bằng",
+      "example_en": "Achieving a good work-life balance is essential for preventing burnout and maintaining health.",
+      "example_vi": "Đạt được sự cân bằng công việc-cuộc sống tốt là điều cần thiết để ngăn ngừa kiệt sức và duy trì sức khỏe.",
+      "word_family": {
+        "noun": "balance",
+        "verb": "balance",
+        "adjective": "balanced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "sleep",
+      "ipa": "/sliːp/",
+      "pos": "noun / verb",
+      "meaning_vi": "giấc ngủ; ngủ",
+      "meaning_vi_inline": "giấc ngủ",
+      "example_en": "Most adults need between seven and nine hours of sleep per night to function well.",
+      "example_vi": "Hầu hết người lớn cần từ bảy đến chín giờ ngủ mỗi đêm để hoạt động tốt.",
+      "word_family": {
+        "noun": "sleep",
+        "verb": "sleep",
+        "adjective": "sleepy / sleepless",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "habit",
+      "ipa": "/ˈhæb.ɪt/",
+      "pos": "noun",
+      "meaning_vi": "thói quen (hành vi lặp đi lặp lại)",
+      "meaning_vi_inline": "thói quen",
+      "example_en": "Drinking a glass of water first thing in the morning is a simple but powerful health habit.",
+      "example_vi": "Uống một cốc nước ngay khi thức dậy buổi sáng là một thói quen sức khỏe đơn giản nhưng mạnh mẽ.",
+      "word_family": {
+        "noun": "habit",
+        "verb": null,
+        "adjective": "habitual",
+        "adverb": "habitually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "nutrition",
+      "ipa": "/njuːˈtrɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "dinh dưỡng (chất nuôi dưỡng cơ thể)",
+      "meaning_vi_inline": "dinh dưỡng",
+      "example_en": "Poor nutrition during childhood can have long-term effects on growth and cognitive development.",
+      "example_vi": "Dinh dưỡng kém trong thời thơ ấu có thể có tác động lâu dài đến sự phát triển và phát triển nhận thức.",
+      "word_family": {
+        "noun": "nutrition / nutrient",
+        "verb": null,
+        "adjective": "nutritious / nutritional",
+        "adverb": "nutritionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "prevent",
+      "ipa": "/prɪˈvent/",
+      "pos": "verb",
+      "meaning_vi": "phòng ngừa, ngăn chặn (bệnh tật, vấn đề sức khỏe)",
+      "meaning_vi_inline": "phòng ngừa",
+      "example_en": "Washing hands regularly is one of the simplest and most effective ways to prevent the spread of infection.",
+      "example_vi": "Rửa tay thường xuyên là một trong những cách đơn giản và hiệu quả nhất để phòng ngừa sự lây lan của nhiễm trùng.",
+      "word_family": {
+        "noun": "prevention",
+        "verb": "prevent",
+        "adjective": "preventive / preventable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "active",
+      "ipa": "/ˈæk.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "vận động, năng động (về mặt thể chất)",
+      "meaning_vi_inline": "vận động",
+      "example_en": "Staying active as you age helps maintain muscle strength and reduces the risk of falling.",
+      "example_vi": "Duy trì vận động khi già đi giúp duy trì sức mạnh cơ bắp và giảm nguy cơ ngã.",
+      "word_family": {
+        "noun": "activity",
+        "verb": "activate",
+        "adjective": "active / inactive",
+        "adverb": "actively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "check-up",
+      "ipa": "/ˈtʃek.ʌp/",
+      "pos": "noun",
+      "meaning_vi": "kiểm tra sức khỏe định kỳ",
+      "meaning_vi_inline": "kiểm tra sức khỏe",
+      "example_en": "The doctor recommended an annual check-up to monitor his blood pressure and cholesterol levels.",
+      "example_vi": "Bác sĩ khuyến nghị kiểm tra sức khỏe hàng năm để theo dõi huyết áp và mức cholesterol của anh.",
+      "word_family": {
+        "noun": "check-up",
+        "verb": "check up (on)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "physical",
+      "ipa": "/ˈfɪz.ɪ.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "thể chất (liên quan đến cơ thể)",
+      "meaning_vi_inline": "thể chất",
+      "example_en": "Regular physical activity improves not only your body but also your mental wellbeing.",
+      "example_vi": "Hoạt động thể chất thường xuyên không chỉ cải thiện cơ thể mà còn cải thiện sức khỏe tâm thần của bạn.",
+      "word_family": {
+        "noun": "physics / physique",
+        "verb": null,
+        "adjective": "physical",
+        "adverb": "physically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "calorie",
+      "ipa": "/ˈkæl.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "calo (đơn vị năng lượng từ thức ăn)",
+      "meaning_vi_inline": "calo",
+      "example_en": "Most adults need around 2,000 calories per day, though this varies with age, size, and activity level.",
+      "example_vi": "Hầu hết người lớn cần khoảng 2.000 calo mỗi ngày, mặc dù điều này thay đổi theo tuổi, kích thước và mức độ hoạt động.",
+      "word_family": {
+        "noun": "calorie",
+        "verb": null,
+        "adjective": "caloric / high-calorie / low-calorie",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "immune system",
+      "ipa": "/ɪˈmjuːn ˈsɪs.təm/",
+      "pos": "noun phrase",
+      "meaning_vi": "hệ miễn dịch (hệ thống phòng thủ của cơ thể chống lại bệnh tật)",
+      "meaning_vi_inline": "hệ miễn dịch",
+      "example_en": "A lack of sleep can weaken the immune system, making you more likely to catch colds and infections.",
+      "example_vi": "Thiếu ngủ có thể làm suy yếu hệ miễn dịch, khiến bạn dễ mắc cảm lạnh và nhiễm trùng hơn.",
+      "word_family": {
+        "noun": "immune system / immunity",
+        "verb": "immunise",
+        "adjective": "immune",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "hydrate",
+      "ipa": "/ˈhaɪ.dreɪt/",
+      "pos": "verb",
+      "meaning_vi": "bổ sung nước, dưỡng ẩm (cung cấp đủ nước cho cơ thể)",
+      "meaning_vi_inline": "bổ sung nước",
+      "example_en": "It is especially important to hydrate well during hot weather or intense physical activity.",
+      "example_vi": "Điều đặc biệt quan trọng là phải bổ sung nước đầy đủ trong thời tiết nóng hoặc hoạt động thể chất cường độ cao.",
+      "word_family": {
+        "noun": "hydration",
+        "verb": "hydrate",
+        "adjective": "hydrated / dehydrated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that sleep is the most important of the three main pillars of health.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 2,
+          "statement": "Research shows that people who sleep less are more likely to eat poorly and exercise less.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "Attending regular health check-ups allows early detection of potential health problems.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Counting calories is recommended for all adults, regardless of their weight or health goals.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends drinking at least eight glasses of water per day.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She went for a health _____ and the doctor found that her blood pressure was slightly high.",
+          "options": [
+            "balance",
+            "routine",
+            "check-up",
+            "lifestyle"
+          ],
+          "answer": "check-up"
+        },
+        {
+          "id": 2,
+          "sentence": "A diet with enough _____ — especially vitamins and minerals — is essential for a strong immune system.",
+          "options": [
+            "calories",
+            "nutrition",
+            "habits",
+            "hydration"
+          ],
+          "answer": "nutrition"
+        },
+        {
+          "id": 3,
+          "sentence": "Doctors recommend staying _____ throughout the day, even if it's just a short walk after lunch.",
+          "options": [
+            "physical",
+            "active",
+            "balanced",
+            "routine"
+          ],
+          "answer": "active"
+        },
+        {
+          "id": 4,
+          "sentence": "It is important to _____ well during exercise, especially in hot or humid weather.",
+          "options": [
+            "sleep",
+            "exercise",
+            "hydrate",
+            "prevent"
+          ],
+          "answer": "hydrate"
+        },
+        {
+          "id": 5,
+          "sentence": "Getting enough _____ is just as important as diet and exercise for maintaining good health.",
+          "options": [
+            "habit",
+            "sleep",
+            "calorie",
+            "balance"
+          ],
+          "answer": "sleep"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "lifestyle",
+        "routine",
+        "prevent",
+        "immune system",
+        "physical"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A sedentary _____ — with little movement and poor diet — significantly increases the risk of chronic disease.",
+          "answer": "lifestyle"
+        },
+        {
+          "id": 2,
+          "sentence": "She established a bedtime _____ of reading and going to bed at ten o'clock every night.",
+          "answer": "routine"
+        },
+        {
+          "id": 3,
+          "sentence": "Vaccination helps the body _____ serious infections by building immunity before exposure.",
+          "answer": "prevent"
+        },
+        {
+          "id": 4,
+          "sentence": "Regular exercise and a balanced diet help to strengthen the _____ and fight off infections.",
+          "answer": "immune system"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ health is closely linked to mental health — people who exercise feel less anxious and more positive.",
+          "answer": "physical"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "a",
+            "balanced",
+            "diet",
+            "rich",
+            "in",
+            "vegetables",
+            "and",
+            "fruit",
+            "provides",
+            "the",
+            "nutrition",
+            "your",
+            "body",
+            "needs",
+            "to",
+            "stay",
+            "healthy"
+          ],
+          "answer": "A balanced diet rich in vegetables and fruit provides the nutrition your body needs to stay healthy."
+        },
+        {
+          "id": 2,
+          "words": [
+            "getting",
+            "enough",
+            "sleep",
+            "every",
+            "night",
+            "is",
+            "one",
+            "of",
+            "the",
+            "most",
+            "effective",
+            "habits",
+            "for",
+            "maintaining",
+            "a",
+            "strong",
+            "immune",
+            "system"
+          ],
+          "answer": "Getting enough sleep every night is one of the most effective habits for maintaining a strong immune system."
+        },
+        {
+          "id": 3,
+          "words": [
+            "attending",
+            "regular",
+            "health",
+            "check-ups",
+            "helps",
+            "doctors",
+            "detect",
+            "problems",
+            "early",
+            "before",
+            "they",
+            "become",
+            "serious"
+          ],
+          "answer": "Attending regular health check-ups helps doctors detect problems early before they become serious."
+        },
+        {
+          "id": 4,
+          "words": [
+            "staying",
+            "active",
+            "throughout",
+            "the",
+            "day",
+            "has",
+            "a",
+            "measurable",
+            "impact",
+            "on",
+            "both",
+            "physical",
+            "and",
+            "mental",
+            "health"
+          ],
+          "answer": "Staying active throughout the day has a measurable impact on both physical and mental health."
+        },
+        {
+          "id": 5,
+          "words": [
+            "it",
+            "is",
+            "important",
+            "to",
+            "hydrate",
+            "well",
+            "during",
+            "exercise",
+            "especially",
+            "when",
+            "the",
+            "weather",
+            "is",
+            "hot",
+            "or",
+            "humid"
+          ],
+          "answer": "It is important to hydrate well during exercise especially when the weather is hot or humid."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She changed her [way of eating] by reducing processed food and eating more vegetables.",
+          "highlighted": "way of eating",
+          "options": {
+            "A": "diet",
+            "B": "way of eating",
+            "C": "nutrition"
+          },
+          "answer": "A",
+          "explanation": "'Diet' is the target vocabulary word for a person's overall eating pattern. 'Way of eating' is an informal paraphrase. 'Nutrition' refers to the content of food (vitamins, minerals, etc.), not the overall pattern. 'Diet' is the precise and standard vocabulary term here."
+        },
+        {
+          "id": 2,
+          "sentence": "She set a fixed [schedule] of going to bed at ten o'clock and waking up at six every morning.",
+          "highlighted": "schedule",
+          "options": {
+            "A": "timetable",
+            "B": "schedule",
+            "C": "routine"
+          },
+          "answer": "C",
+          "explanation": "'Routine' is the target vocabulary word for a regular, repeated pattern of behaviour. 'Schedule' is a planned list of activities with times — more formal and rigid. 'Timetable' is used mainly for schools or transport. In the context of personal health habits, 'routine' is the correct and natural term."
+        },
+        {
+          "id": 3,
+          "sentence": "Regular hand-washing is one of the best ways to [stop] the spread of common infections.",
+          "highlighted": "stop",
+          "options": {
+            "A": "block",
+            "B": "avoid",
+            "C": "prevent"
+          },
+          "answer": "C",
+          "explanation": "'Prevent' is the target vocabulary verb for stopping something harmful from happening, especially in health contexts. 'Stop' is too informal and general. 'Avoid' suggests staying away from something, not actively stopping its spread. 'Block' is physical. 'Prevent' is the precise public health term."
+        },
+        {
+          "id": 4,
+          "sentence": "Drinking enough water each day is important for [staying fresh] and supporting good digestion.",
+          "highlighted": "staying fresh",
+          "options": {
+            "A": "staying hydrated",
+            "B": "staying fresh",
+            "C": "staying clean"
+          },
+          "answer": "A",
+          "explanation": "'Staying hydrated' is the correct phrase using the target vocabulary verb 'hydrate'. 'Staying fresh' is informal and suggests cleanliness or appearance rather than bodily fluid levels. 'Staying clean' refers to hygiene. 'Hydrate' specifically means maintaining adequate fluid levels in the body."
+        },
+        {
+          "id": 5,
+          "sentence": "People who maintain an [active] way of life report feeling less anxious and more satisfied.",
+          "highlighted": "active",
+          "options": {
+            "A": "active",
+            "B": "balanced",
+            "C": "physical"
+          },
+          "answer": "B",
+          "explanation": "'Balanced' is the target vocabulary adjective most appropriate here — a 'balanced lifestyle' includes rest, socialising, and enjoyable activities alongside work and exercise. 'Active' is too narrow (only implies physical movement). 'Physical' is an adjective, not commonly used before 'way of life'. 'Balanced lifestyle' is the precise phrase from the passage."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "Not Given",
+      "2": "True",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "check-up",
+      "2": "nutrition",
+      "3": "active",
+      "4": "hydrate",
+      "5": "sleep"
+    },
+    "ex3": {
+      "1": "lifestyle",
+      "2": "routine",
+      "3": "prevent",
+      "4": "immune system",
+      "5": "physical"
+    },
+    "ex4": {
+      "1": "A balanced diet rich in vegetables and fruit provides the nutrition your body needs to stay healthy.",
+      "2": "Getting enough sleep every night is one of the most effective habits for maintaining a strong immune system.",
+      "3": "Attending regular health check-ups helps doctors detect problems early before they become serious.",
+      "4": "Staying active throughout the day has a measurable impact on both physical and mental health.",
+      "5": "It is important to hydrate well during exercise especially when the weather is hot or humid."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

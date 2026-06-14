@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 56,
+    "topic_id": "b3-t56",
+    "topic_title": "War, Peace & Conflict Resolution",
+    "topic_title_vi": "Chiến Tranh, Hòa Bình & Giải Quyết Xung Đột",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🕊️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The pursuit of **diplomacy** has long been humanity's primary tool for managing conflict short of war. Yet when diplomatic channels collapse, states have historically relied on **deterrence** — the threat of overwhelming retaliation — to prevent adversaries from attacking. This logic underpins nuclear doctrine and conventional military postures alike, though critics warn that deterrence is inherently fragile and may ultimately fail at catastrophic cost.",
+        "text_vi": "Việc theo đuổi **ngoại giao** từ lâu đã là công cụ chính của nhân loại để quản lý xung đột mà không cần đến chiến tranh. Tuy nhiên, khi các kênh ngoại giao sụp đổ, các quốc gia lịch sử đã dựa vào **răn đe** — mối đe dọa trả đũa áp đảo — để ngăn chặn kẻ thù tấn công. Logic này củng cố học thuyết hạt nhân và các thế trận quân sự thông thường như nhau, mặc dù các nhà phê bình cảnh báo rằng răn đe vốn mong manh và cuối cùng có thể thất bại với cái giá thảm khốc."
+      },
+      {
+        "index": 2,
+        "text_en": "When fighting does break out, international law demands that parties **negotiate a lasting ceasefire** as early as possible to limit civilian suffering. A **ceasefire** may be brokered directly between belligerents or facilitated through **mediation** by a neutral third party. The ethical framework governing armed conflict rests on the concept of **proportionality**: the harm inflicted must not exceed what is militarily necessary, and civilians must never be deliberately targeted. Those who **challenge disproportionate use of force** serve a vital role in holding warring parties to account.",
+        "text_vi": "Khi giao tranh nổ ra, luật quốc tế yêu cầu các bên **đàm phán một lệnh ngừng bắn lâu dài** càng sớm càng tốt để hạn chế thương vong dân thường. Một **lệnh ngừng bắn** có thể được môi giới trực tiếp giữa các bên tham chiến hoặc được tạo điều kiện thông qua **hòa giải** bởi bên thứ ba trung lập. Khuôn khổ đạo đức chi phối xung đột vũ trang dựa trên khái niệm **tương xứng**: thiệt hại gây ra không được vượt quá những gì cần thiết về mặt quân sự, và dân thường không bao giờ được cố ý nhắm mục tiêu. Những ai **thách thức việc sử dụng vũ lực không tương xứng** đóng vai trò quan trọng trong việc buộc các bên tham chiến phải chịu trách nhiệm."
+      },
+      {
+        "index": 3,
+        "text_en": "Modern conflicts are frequently characterised by **asymmetric warfare**, in which a technologically inferior force employs unconventional tactics against a conventionally stronger opponent. Such conflicts blur the line between combatants and civilians, making it harder to **uphold humanitarian principles** on the battlefield. Progress towards **disarmament** has meanwhile stalled, as states weigh the security risks of reducing military capabilities against the long-term benefits of a less militarised world.",
+        "text_vi": "Các cuộc xung đột hiện đại thường được đặc trưng bởi **chiến tranh bất đối xứng**, trong đó một lực lượng kém ưu thế về công nghệ sử dụng chiến thuật phi thông thường để chống lại đối thủ mạnh hơn về mặt thông thường. Những cuộc xung đột như vậy làm mờ ranh giới giữa chiến binh và dân thường, khiến việc **duy trì các nguyên tắc nhân đạo** trên chiến trường trở nên khó khăn hơn. Tiến trình hướng tới **giải trừ quân bị** trong khi đó đã bị đình trệ, khi các quốc gia cân nhắc rủi ro an ninh của việc giảm năng lực quân sự so với những lợi ích lâu dài của một thế giới ít quân sự hóa hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "After the guns fall silent, the harder work of **reconciliation** begins. Fractured societies must find ways to address grievances, restore trust, and build durable institutions if they are to **promote post-conflict reconciliation** and avoid relapse into violence. Crucially, **sovereignty** must not be invoked as an excuse to obstruct peace processes from outside. When parties commit to a **pursue diplomatic resolution**, sustainable peace becomes possible — not merely an absence of war, but a genuine transformation of relationships between former enemies.",
+        "text_vi": "Sau khi tiếng súng im lặng, công việc khó khăn hơn của **hòa giải** bắt đầu. Các xã hội bị chia rẽ phải tìm cách giải quyết những bất bình, khôi phục lòng tin và xây dựng các thể chế bền vững nếu họ muốn **thúc đẩy hòa giải sau xung đột** và tránh tái phát vào bạo lực. Điều quan trọng là **chủ quyền** không được viện dẫn như một cái cớ để cản trở các tiến trình hòa bình từ bên ngoài. Khi các bên cam kết **theo đuổi giải pháp ngoại giao**, hòa bình bền vững trở nên khả thi — không chỉ đơn giản là sự vắng mặt của chiến tranh, mà là sự chuyển đổi thực sự các mối quan hệ giữa những kẻ thù cũ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "deterrence",
+      "ipa": "/dɪˈter.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự răn đe, chiến lược ngăn chặn bằng đe dọa trả đũa",
+      "meaning_vi_inline": "răn đe",
+      "example_en": "Nuclear deterrence rests on the assumption that no rational actor will risk total annihilation.",
+      "example_vi": "Răn đe hạt nhân dựa trên giả định rằng không một chủ thể lý trí nào chấp nhận rủi ro bị tiêu diệt hoàn toàn.",
+      "word_family": {
+        "noun": "deterrence / deterrent",
+        "verb": "deter",
+        "adjective": "deterrent",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "prevention",
+        "explanation_vi": "'Deterrence' ngăn chặn bằng cách đe dọa hậu quả; 'prevention' ngăn chặn bằng cách loại bỏ nguyên nhân hoặc tạo rào cản — khác nhau về cơ chế tác động."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "diplomacy",
+      "ipa": "/dɪˈpləʊ.mə.si/",
+      "pos": "noun",
+      "meaning_vi": "ngoại giao, nghệ thuật quản lý quan hệ quốc tế qua đàm phán",
+      "meaning_vi_inline": "ngoại giao",
+      "example_en": "Skilled diplomacy averted a military confrontation that could have destabilised the entire region.",
+      "example_vi": "Ngoại giao khéo léo đã ngăn chặn một cuộc đối đầu quân sự có thể gây bất ổn cho toàn khu vực.",
+      "word_family": {
+        "noun": "diplomacy / diplomat / diplomatics",
+        "verb": null,
+        "adjective": "diplomatic",
+        "adverb": "diplomatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "ceasefire",
+      "ipa": "/ˈsiːs.faɪər/",
+      "pos": "noun",
+      "meaning_vi": "lệnh ngừng bắn, thỏa thuận dừng giao tranh",
+      "meaning_vi_inline": "lệnh ngừng bắn",
+      "example_en": "A fragile ceasefire was agreed after weeks of intense fighting, though violations were reported within hours.",
+      "example_vi": "Một lệnh ngừng bắn mong manh được thỏa thuận sau nhiều tuần giao tranh ác liệt, dù các vi phạm được báo cáo trong vòng vài giờ.",
+      "word_family": {
+        "noun": "ceasefire",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "armistice / truce",
+        "explanation_vi": "'Ceasefire' là ngừng bắn tạm thời, thường là điều kiện để đàm phán; 'armistice' là thỏa thuận chấm dứt chiến sự chính thức hơn; 'truce' mang tính thông thường và có thể ngắn hạn — cả ba đều khác nhau về mức độ chính thức."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "mediation",
+      "ipa": "/ˌmiː.diˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "hòa giải (qua bên thứ ba), trung gian giải quyết tranh chấp",
+      "meaning_vi_inline": "hòa giải, trung gian",
+      "example_en": "International mediation helped the two factions reach a compromise that neither could achieve alone.",
+      "example_vi": "Hòa giải quốc tế đã giúp hai phe đạt được thỏa hiệp mà cả hai không thể tự đạt được.",
+      "word_family": {
+        "noun": "mediation / mediator",
+        "verb": "mediate",
+        "adjective": "mediatory",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "arbitration",
+        "explanation_vi": "'Mediation' là hòa giải — bên thứ ba hỗ trợ các bên tự thỏa thuận; 'arbitration' là trọng tài — bên thứ ba đưa ra phán quyết ràng buộc. Hai quy trình khác nhau về mức độ thẩm quyền."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "humanitarian",
+      "ipa": "/hjuːˌmæn.ɪˈteə.ri.ən/",
+      "pos": "adjective / noun",
+      "meaning_vi": "nhân đạo; người làm công tác nhân đạo",
+      "meaning_vi_inline": "nhân đạo",
+      "example_en": "Aid workers operated under a humanitarian mandate to provide relief regardless of which side controlled the territory.",
+      "example_vi": "Các nhân viên cứu trợ hoạt động theo sứ mệnh nhân đạo để cung cấp cứu trợ bất kể bên nào kiểm soát lãnh thổ.",
+      "word_family": {
+        "noun": "humanitarian / humanitarianism",
+        "verb": null,
+        "adjective": "humanitarian",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "proportionality",
+      "ipa": "/prəˌpɔː.ʃənˈæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính tương xứng, nguyên tắc cân đối giữa phương tiện và mục tiêu",
+      "meaning_vi_inline": "tính tương xứng",
+      "example_en": "The military operation was scrutinised for its compliance with the principle of proportionality under international law.",
+      "example_vi": "Chiến dịch quân sự bị giám sát về việc tuân thủ nguyên tắc tương xứng theo luật quốc tế.",
+      "word_family": {
+        "noun": "proportionality / proportion",
+        "verb": null,
+        "adjective": "proportional / proportionate",
+        "adverb": "proportionally / proportionately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "disarmament",
+      "ipa": "/dɪsˈɑː.mə.mənt/",
+      "pos": "noun",
+      "meaning_vi": "giải trừ quân bị, việc giảm hoặc loại bỏ vũ khí",
+      "meaning_vi_inline": "giải trừ quân bị",
+      "example_en": "Multilateral disarmament talks broke down when key states refused to reduce their nuclear arsenals.",
+      "example_vi": "Các cuộc đàm phán giải trừ quân bị đa phương đổ vỡ khi các quốc gia chủ chốt từ chối giảm kho vũ khí hạt nhân của họ.",
+      "word_family": {
+        "noun": "disarmament / disarming",
+        "verb": "disarm",
+        "adjective": "disarmed / disarming",
+        "adverb": "disarmingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "sovereignty",
+      "ipa": "/ˈsɒv.rɪn.ti/",
+      "pos": "noun",
+      "meaning_vi": "chủ quyền, quyền tự trị tối cao của một quốc gia",
+      "meaning_vi_inline": "chủ quyền",
+      "example_en": "Some governments invoke sovereignty to resist international pressure to end internal armed conflicts.",
+      "example_vi": "Một số chính phủ viện dẫn chủ quyền để chống lại áp lực quốc tế yêu cầu chấm dứt các xung đột vũ trang nội bộ.",
+      "word_family": {
+        "noun": "sovereignty / sovereign",
+        "verb": null,
+        "adjective": "sovereign",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "autonomy",
+        "explanation_vi": "'Sovereignty' là chủ quyền đầy đủ của một quốc gia độc lập; 'autonomy' là quyền tự quản ở mức độ nhất định, thường của một vùng hay tổ chức bên trong một hệ thống lớn hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "reconciliation",
+      "ipa": "/ˌrek.ənˌsɪl.iˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hòa giải, quá trình khôi phục mối quan hệ sau xung đột",
+      "meaning_vi_inline": "hòa giải, hàn gắn",
+      "example_en": "The truth and reconciliation commission gave victims a platform to tell their stories publicly.",
+      "example_vi": "Ủy ban sự thật và hòa giải trao cho các nạn nhân một diễn đàn để kể câu chuyện của họ trước công chúng.",
+      "word_family": {
+        "noun": "reconciliation",
+        "verb": "reconcile",
+        "adjective": "reconciled / reconciliatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "asymmetric warfare",
+      "ipa": "/ˌeɪ.sɪˈmet.rɪk ˈwɔː.feər/",
+      "pos": "noun phrase",
+      "meaning_vi": "chiến tranh bất đối xứng, xung đột giữa hai bên chênh lệch lớn về sức mạnh",
+      "meaning_vi_inline": "chiến tranh bất đối xứng",
+      "example_en": "Guerrilla tactics and improvised weapons are hallmarks of asymmetric warfare waged by non-state actors.",
+      "example_vi": "Chiến thuật du kích và vũ khí tự chế là đặc trưng của chiến tranh bất đối xứng do các tác nhân phi nhà nước tiến hành.",
+      "word_family": {
+        "noun": "asymmetric warfare / asymmetry",
+        "verb": null,
+        "adjective": "asymmetric / asymmetrical",
+        "adverb": "asymmetrically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "negotiate a lasting ceasefire",
+      "meaning_vi": "đàm phán một lệnh ngừng bắn lâu dài",
+      "example_en": "Both parties were urged to negotiate a lasting ceasefire before the humanitarian situation deteriorated further.",
+      "example_vi": "Cả hai bên được thúc giục đàm phán một lệnh ngừng bắn lâu dài trước khi tình hình nhân đạo xấu đi hơn nữa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "pursue diplomatic resolution",
+      "meaning_vi": "theo đuổi giải pháp ngoại giao",
+      "example_en": "The Security Council called on all parties to pursue diplomatic resolution rather than escalate hostilities.",
+      "example_vi": "Hội đồng Bảo an kêu gọi tất cả các bên theo đuổi giải pháp ngoại giao thay vì leo thang thù địch.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "uphold humanitarian principles",
+      "meaning_vi": "duy trì, tuân thủ các nguyên tắc nhân đạo",
+      "example_en": "Aid agencies insisted they would uphold humanitarian principles and serve all civilians regardless of political affiliation.",
+      "example_vi": "Các tổ chức cứu trợ nhấn mạnh rằng họ sẽ duy trì các nguyên tắc nhân đạo và phục vụ tất cả dân thường bất kể khuynh hướng chính trị.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "promote post-conflict reconciliation",
+      "meaning_vi": "thúc đẩy hòa giải sau xung đột",
+      "example_en": "Education reform was identified as a key strategy to promote post-conflict reconciliation among divided communities.",
+      "example_vi": "Cải cách giáo dục được xác định là chiến lược chủ chốt để thúc đẩy hòa giải sau xung đột trong các cộng đồng bị chia rẽ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "challenge disproportionate use of force",
+      "meaning_vi": "thách thức, phản đối việc sử dụng vũ lực không tương xứng",
+      "example_en": "Human rights monitors have a duty to challenge disproportionate use of force regardless of which party is responsible.",
+      "example_vi": "Các giám sát viên nhân quyền có nghĩa vụ phản đối việc sử dụng vũ lực không tương xứng bất kể bên nào chịu trách nhiệm.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage presents deterrence as a completely reliable method for preventing armed conflict.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, civilians must never be deliberately targeted in armed conflict.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that disarmament talks have achieved significant progress in recent decades.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage mentions the United Nations as a key mediator in modern conflicts.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage defines peace as more than merely the absence of war.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The UN appointed a special envoy to facilitate _____ between the two warring factions.",
+          "options": [
+            "deterrence",
+            "mediation",
+            "disarmament",
+            "ceasefire"
+          ],
+          "answer": "mediation"
+        },
+        {
+          "id": 2,
+          "sentence": "Critics questioned whether the military response was consistent with the principle of _____, arguing that civilian casualties far exceeded any military gain.",
+          "options": [
+            "reconciliation",
+            "sovereignty",
+            "proportionality",
+            "diplomacy"
+          ],
+          "answer": "proportionality"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ strategy deployed by the rebel group relied on guerrilla raids and supply-line disruptions rather than open battle.",
+          "options": [
+            "humanitarian",
+            "asymmetric warfare",
+            "deterrence",
+            "ceasefire"
+          ],
+          "answer": "asymmetric warfare"
+        },
+        {
+          "id": 4,
+          "sentence": "After a decade of civil war, the country's most urgent need was _____ — rebuilding trust across deeply divided communities.",
+          "options": [
+            "disarmament",
+            "mediation",
+            "ceasefire",
+            "reconciliation"
+          ],
+          "answer": "reconciliation"
+        },
+        {
+          "id": 5,
+          "sentence": "The treaty required signatories to pursue _____ of their chemical weapons stockpiles within five years.",
+          "options": [
+            "deterrence",
+            "sovereignty",
+            "disarmament",
+            "proportionality"
+          ],
+          "answer": "disarmament"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "diplomacy",
+        "ceasefire",
+        "humanitarian",
+        "deterrence",
+        "reconciliation",
+        "sovereignty"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The fragile _____ collapsed when shelling resumed just hours after it was announced.",
+          "answer": "ceasefire"
+        },
+        {
+          "id": 2,
+          "sentence": "Aid convoys were granted access under a _____ agreement that required all parties to allow safe passage.",
+          "answer": "humanitarian"
+        },
+        {
+          "id": 3,
+          "sentence": "Quiet _____ conducted behind closed doors proved more effective than public ultimatums.",
+          "answer": "diplomacy"
+        },
+        {
+          "id": 4,
+          "sentence": "Nuclear _____ kept the two superpowers from direct military confrontation throughout the Cold War.",
+          "answer": "deterrence"
+        },
+        {
+          "id": 5,
+          "sentence": "The peace process included a formal _____ commission to address historical grievances on both sides.",
+          "answer": "reconciliation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "diplomacy",
+            "remains",
+            "the",
+            "most",
+            "reliable",
+            "tool",
+            "for",
+            "resolving",
+            "international",
+            "disputes"
+          ],
+          "answer": "Diplomacy remains the most reliable tool for resolving international disputes."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "lasting",
+            "ceasefire",
+            "requires",
+            "the",
+            "genuine",
+            "commitment",
+            "of",
+            "all",
+            "parties"
+          ],
+          "answer": "A lasting ceasefire requires the genuine commitment of all parties."
+        },
+        {
+          "id": 3,
+          "words": [
+            "asymmetric",
+            "warfare",
+            "makes",
+            "it",
+            "harder",
+            "to",
+            "uphold",
+            "humanitarian",
+            "principles",
+            "in",
+            "conflict"
+          ],
+          "answer": "Asymmetric warfare makes it harder to uphold humanitarian principles in conflict."
+        },
+        {
+          "id": 4,
+          "words": [
+            "reconciliation",
+            "is",
+            "essential",
+            "for",
+            "building",
+            "durable",
+            "peace",
+            "after",
+            "conflict"
+          ],
+          "answer": "Reconciliation is essential for building durable peace after conflict."
+        },
+        {
+          "id": 5,
+          "words": [
+            "disarmament",
+            "agreements",
+            "must",
+            "include",
+            "robust",
+            "verification",
+            "mechanisms",
+            "to",
+            "succeed"
+          ],
+          "answer": "Disarmament agreements must include robust verification mechanisms to succeed."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government relied on [deter] as its primary strategy for preventing cross-border military aggression.",
+          "highlighted": "deter",
+          "options": {
+            "A": "deterred",
+            "B": "deterring",
+            "C": "deterrence"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after 'on' as the object of 'relied on' — 'deterrence', not the verb 'deter'."
+        },
+        {
+          "id": 2,
+          "sentence": "The attack was condemned internationally for violating the [proportionate] of response required by the laws of war.",
+          "highlighted": "proportionate",
+          "options": {
+            "A": "proportionality",
+            "B": "proportionally",
+            "C": "proportion"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed after 'the' as the object of 'violating' — 'proportionality', not the adjective 'proportionate'."
+        },
+        {
+          "id": 3,
+          "sentence": "Years of [reconcile] work transformed former enemies into partners in a shared democratic project.",
+          "highlighted": "reconcile",
+          "options": {
+            "A": "reconciled",
+            "B": "reconciliatory",
+            "C": "reconciliation"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed to modify 'work' as a noun premodifier — 'reconciliation', not the verb 'reconcile'."
+        },
+        {
+          "id": 4,
+          "sentence": "The summit called on both states to [diplomatic] resolve their territorial dispute without military action.",
+          "highlighted": "diplomatic",
+          "options": {
+            "A": "diplomacy",
+            "B": "diplomatically",
+            "C": "diplomat"
+          },
+          "answer": "B",
+          "explanation": "An adverb is required to modify the verb 'resolve' — 'diplomatically', not the adjective 'diplomatic'."
+        },
+        {
+          "id": 5,
+          "sentence": "Progress towards [disarm] has been slow because major powers are reluctant to reduce their stockpiles.",
+          "highlighted": "disarm",
+          "options": {
+            "A": "disarmed",
+            "B": "disarming",
+            "C": "disarmament"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after the preposition 'towards' — 'disarmament', not the verb 'disarm'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "mediation",
+      "2": "proportionality",
+      "3": "asymmetric warfare",
+      "4": "reconciliation",
+      "5": "disarmament"
+    },
+    "ex3": {
+      "1": "ceasefire",
+      "2": "humanitarian",
+      "3": "diplomacy",
+      "4": "deterrence",
+      "5": "reconciliation"
+    },
+    "ex4": {
+      "1": "Diplomacy remains the most reliable tool for resolving international disputes.",
+      "2": "A lasting ceasefire requires the genuine commitment of all parties.",
+      "3": "Asymmetric warfare makes it harder to uphold humanitarian principles in conflict.",
+      "4": "Reconciliation is essential for building durable peace after conflict.",
+      "5": "Disarmament agreements must include robust verification mechanisms to succeed."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

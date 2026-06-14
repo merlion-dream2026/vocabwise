@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 53,
+    "topic_id": "b1-t53",
+    "topic_title": "At the Post Office",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📬",
+    "topic_title_vi": "Tại Bưu Điện",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 113,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Lan goes to the post office to **post** a **parcel** to her grandmother. She puts a gift inside a **box** and wraps it carefully. The **parcel** feels quite **heavy**, so she is glad she asked her brother to help carry it.",
+        "text_vi": "Lan đến bưu điện để **gửi** một **bưu kiện** cho bà. Cô đặt một món quà vào trong một **hộp** và gói cẩn thận. **Bưu kiện** cảm giác khá **nặng**, vì vậy cô mừng vì đã nhờ anh giúp mang."
+      },
+      {
+        "index": 2,
+        "text_en": "At the **counter**, a staff member helps Lan. She needs to buy a **stamp** for the envelope and **seal** the **box** with tape. The staff member says the delivery is **urgent**, so Lan pays an extra **fee** for fast service.",
+        "text_vi": "Tại **quầy**, một nhân viên giúp Lan. Cô cần mua một **tem** cho phong bì và **niêm phong** **hộp** bằng băng dính. Nhân viên nói việc giao hàng là **khẩn cấp**, vì vậy Lan trả thêm **phí** cho dịch vụ nhanh."
+      },
+      {
+        "index": 3,
+        "text_en": "Lan writes her name as the **sender** and her grandmother's name as the **recipient**. The address is clear and easy to read. She must **wait** a few minutes while the staff member checks everything.",
+        "text_vi": "Lan ghi tên mình là **người gửi** và tên bà là **người nhận**. Địa chỉ rõ ràng và dễ đọc. Cô phải **chờ** vài phút trong khi nhân viên kiểm tra mọi thứ."
+      },
+      {
+        "index": 4,
+        "text_en": "The parcel is **light** enough to **deliver** by motorbike. Lan can **track** her parcel online using a code. She is happy — her grandmother will receive a lovely gift very soon.",
+        "text_vi": "Bưu kiện đủ **nhẹ** để **giao** bằng xe máy. Lan có thể **theo dõi** bưu kiện của mình trực tuyến bằng một mã. Cô vui mừng — bà sẽ nhận được một món quà đẹp rất sớm."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "parcel",
+      "ipa": "/ˈpɑːsəl/",
+      "pos": "noun",
+      "meaning_vi": "bưu kiện, gói hàng",
+      "meaning_vi_inline": "bưu kiện",
+      "example_en": "I sent a parcel to my friend — it contained a book and a small birthday card.",
+      "example_vi": "Tôi gửi một bưu kiện cho bạn — trong đó có một cuốn sách và một tấm thiệp sinh nhật nhỏ.",
+      "word_family": {
+        "noun": "parcel",
+        "verb": "parcel (up)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "stamp",
+      "ipa": "/stæmp/",
+      "pos": "noun / verb",
+      "meaning_vi": "tem thư; đóng dấu",
+      "meaning_vi_inline": "tem",
+      "example_en": "You need to put a stamp on the envelope before you post the letter.",
+      "example_vi": "Bạn cần dán tem lên phong bì trước khi gửi thư.",
+      "word_family": {
+        "noun": "stamp",
+        "verb": "stamp / stamped",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "post",
+      "ipa": "/pəʊst/",
+      "pos": "verb / noun",
+      "meaning_vi": "gửi bưu điện; bưu chính",
+      "meaning_vi_inline": "gửi",
+      "example_en": "She posted the letter on Monday and it arrived on Wednesday.",
+      "example_vi": "Cô ấy gửi thư vào thứ Hai và thư đến nơi vào thứ Tư.",
+      "word_family": {
+        "noun": "post / postage",
+        "verb": "post / posted",
+        "adjective": "postal",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "box",
+      "ipa": "/bɒks/",
+      "pos": "noun",
+      "meaning_vi": "hộp",
+      "meaning_vi_inline": "hộp",
+      "example_en": "I packed the gift carefully in a strong cardboard box.",
+      "example_vi": "Tôi đóng gói quà cẩn thận trong một hộp carton chắc chắn.",
+      "word_family": {
+        "noun": "box / boxer",
+        "verb": "box / boxed",
+        "adjective": "boxed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "heavy",
+      "ipa": "/ˈhevi/",
+      "pos": "adjective",
+      "meaning_vi": "nặng",
+      "meaning_vi_inline": "nặng",
+      "example_en": "The parcel is very heavy — I cannot carry it on my own.",
+      "example_vi": "Bưu kiện rất nặng — tôi không thể tự mang một mình.",
+      "word_family": {
+        "noun": "heaviness",
+        "verb": null,
+        "adjective": "heavy / heavier / heaviest",
+        "adverb": "heavily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "light",
+      "ipa": "/laɪt/",
+      "pos": "adjective",
+      "meaning_vi": "nhẹ; ánh sáng",
+      "meaning_vi_inline": "nhẹ",
+      "example_en": "The small envelope is light, so the postage fee is very cheap.",
+      "example_vi": "Phong bì nhỏ nhẹ, nên phí bưu chính rất rẻ.",
+      "word_family": {
+        "noun": "light",
+        "verb": "light / lit",
+        "adjective": "light / lighter / lightest",
+        "adverb": "lightly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "wait",
+      "ipa": "/weɪt/",
+      "pos": "verb",
+      "meaning_vi": "chờ, đợi",
+      "meaning_vi_inline": "chờ",
+      "example_en": "We had to wait for twenty minutes because the post office was very busy.",
+      "example_vi": "Chúng tôi phải chờ hai mươi phút vì bưu điện rất đông.",
+      "word_family": {
+        "noun": "wait / waiter",
+        "verb": "wait / waited",
+        "adjective": "waiting",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "counter",
+      "ipa": "/ˈkaʊntər/",
+      "pos": "noun",
+      "meaning_vi": "quầy giao dịch",
+      "meaning_vi_inline": "quầy",
+      "example_en": "Please go to counter number three to pay for your parcel.",
+      "example_vi": "Vui lòng đến quầy số ba để trả tiền cho bưu kiện của bạn.",
+      "word_family": {
+        "noun": "counter",
+        "verb": "counter / countered",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "seal",
+      "ipa": "/siːl/",
+      "pos": "verb / noun",
+      "meaning_vi": "niêm phong, dán kín; con dấu",
+      "meaning_vi_inline": "niêm phong",
+      "example_en": "Make sure you seal the box properly so nothing falls out during delivery.",
+      "example_vi": "Hãy chắc chắn niêm phong hộp đúng cách để không có gì rơi ra trong quá trình giao hàng.",
+      "word_family": {
+        "noun": "seal",
+        "verb": "seal / sealed",
+        "adjective": "sealed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "deliver",
+      "ipa": "/dɪˈlɪvər/",
+      "pos": "verb",
+      "meaning_vi": "giao hàng, phát bưu kiện",
+      "meaning_vi_inline": "giao",
+      "example_en": "The post office will deliver your parcel to your home by tomorrow morning.",
+      "example_vi": "Bưu điện sẽ giao bưu kiện của bạn đến nhà vào sáng mai.",
+      "word_family": {
+        "noun": "delivery / deliverer",
+        "verb": "deliver / delivered",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "track",
+      "ipa": "/træk/",
+      "pos": "verb / noun",
+      "meaning_vi": "theo dõi; đường ray, đường",
+      "meaning_vi_inline": "theo dõi",
+      "example_en": "You can track your parcel on the website using the tracking number.",
+      "example_vi": "Bạn có thể theo dõi bưu kiện trên trang web bằng số theo dõi.",
+      "word_family": {
+        "noun": "track / tracking",
+        "verb": "track / tracked",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "sender",
+      "ipa": "/ˈsendər/",
+      "pos": "noun",
+      "meaning_vi": "người gửi",
+      "meaning_vi_inline": "người gửi",
+      "example_en": "The sender's name and address must be written clearly on the back of the envelope.",
+      "example_vi": "Tên và địa chỉ của người gửi phải được viết rõ ràng ở mặt sau phong bì.",
+      "word_family": {
+        "noun": "sender",
+        "verb": "send / sent",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "recipient",
+      "ipa": "/rɪˈsɪpiənt/",
+      "pos": "noun",
+      "meaning_vi": "người nhận",
+      "meaning_vi_inline": "người nhận",
+      "example_en": "The recipient must sign their name when the parcel arrives at their home.",
+      "example_vi": "Người nhận phải ký tên khi bưu kiện đến nhà họ.",
+      "word_family": {
+        "noun": "recipient",
+        "verb": "receive / received",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "urgent",
+      "ipa": "/ˈɜːdʒənt/",
+      "pos": "adjective",
+      "meaning_vi": "khẩn cấp",
+      "meaning_vi_inline": "khẩn cấp",
+      "example_en": "The document is urgent — please send it by express post today.",
+      "example_vi": "Tài liệu này khẩn cấp — vui lòng gửi bằng bưu chuyển tốc hành hôm nay.",
+      "word_family": {
+        "noun": "urgency",
+        "verb": "urge / urged",
+        "adjective": "urgent",
+        "adverb": "urgently"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "fee",
+      "ipa": "/fiː/",
+      "pos": "noun",
+      "meaning_vi": "phí, lệ phí",
+      "meaning_vi_inline": "phí",
+      "example_en": "There is an extra fee if you want your parcel to arrive the next day.",
+      "example_vi": "Có thêm phí nếu bạn muốn bưu kiện đến vào ngày hôm sau.",
+      "word_family": {
+        "noun": "fee",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "seal" },
+        { "id": 2, "word": "recipient" },
+        { "id": 3, "word": "urgent" },
+        { "id": 4, "word": "track" },
+        { "id": 5, "word": "counter" }
+      ],
+      "options": [
+        { "id": "A", "text": "a desk or surface in a shop or office where customers are served" },
+        { "id": "B", "text": "needing to be done or dealt with very quickly" },
+        { "id": "C", "text": "to follow and check the progress or location of something" },
+        { "id": "D", "text": "the person who receives a letter, parcel, or payment" },
+        { "id": "E", "text": "to close something firmly so that nothing can get in or out" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You must write the _____ address clearly on the front of the parcel.",
+          "options": ["sender", "recipient", "counter", "fee"],
+          "answer": "recipient"
+        },
+        {
+          "id": 2,
+          "sentence": "Please _____ the box tightly with tape so nothing falls out.",
+          "options": ["wait", "post", "track", "seal"],
+          "answer": "seal"
+        },
+        {
+          "id": 3,
+          "sentence": "The parcel is too _____ to carry alone — please ask someone to help.",
+          "options": ["urgent", "light", "heavy", "small"],
+          "answer": "heavy"
+        },
+        {
+          "id": 4,
+          "sentence": "You can _____ your parcel online and see exactly where it is.",
+          "options": ["track", "seal", "wait", "deliver"],
+          "answer": "track"
+        },
+        {
+          "id": 5,
+          "sentence": "There is an extra _____ if you want express delivery.",
+          "options": ["stamp", "parcel", "counter", "fee"],
+          "answer": "fee"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["deliver", "sender", "post", "stamp", "urgent", "wait"],
+      "items": [
+        { "id": 1, "sentence": "I need to buy a _____ before I can send this letter.", "answer": "stamp" },
+        { "id": 2, "sentence": "The package is _____— please send it today, not tomorrow.", "answer": "urgent" },
+        { "id": 3, "sentence": "Write your name as the _____ on the back of the envelope.", "answer": "sender" },
+        { "id": 4, "sentence": "The post office will _____ the parcel to your home address.", "answer": "deliver" },
+        { "id": 5, "sentence": "Please _____ here while I check if your parcel is ready.", "answer": "wait" }
+      ],
+      "note": "One word in the box is not used: post"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of this parcel will arrive in three to five days. (DELIVER)",
+          "base_word": "DELIVER",
+          "answer": "delivery",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "She packed the gift _____ so it would not break during transit. (CARE)",
+          "base_word": "CARE",
+          "answer": "carefully",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "The manager spoke _____ — he said we needed to leave immediately. (URGENT)",
+          "base_word": "URGENT",
+          "answer": "urgently",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "All letters must be _____ in a secure envelope before posting. (SEAL)",
+          "base_word": "SEAL",
+          "answer": "sealed",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ cost for a large parcel is much higher than for a small letter. (POST)",
+          "base_word": "POST",
+          "answer": "postage",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Please write the [sender] address on the front so the postman knows where to deliver it.",
+          "highlighted": "sender",
+          "options": { "A": "counter", "B": "sender", "C": "recipient" },
+          "answer": "C",
+          "explanation": "The address on the front of a parcel is for the person who receives it — the 'recipient'. The 'sender' is the person who sends it, and their address goes on the back."
+        },
+        {
+          "id": 2,
+          "sentence": "I had to [deliver] for thirty minutes because the post office was very crowded.",
+          "highlighted": "deliver",
+          "options": { "A": "wait", "B": "deliver", "C": "track" },
+          "answer": "A",
+          "explanation": "'Deliver' means to bring something to someone. When you stay somewhere until something is ready or until your turn comes, you 'wait', not deliver."
+        },
+        {
+          "id": 3,
+          "sentence": "The parcel is very [light] — I need two people to help me carry it to the counter.",
+          "highlighted": "light",
+          "options": { "A": "urgent", "B": "light", "C": "heavy" },
+          "answer": "C",
+          "explanation": "'Light' means not weighing much and is easy to carry alone. If you need two people to carry it, it must be 'heavy', not light."
+        },
+        {
+          "id": 4,
+          "sentence": "She used tape to [track] the box before handing it to the post office staff.",
+          "highlighted": "track",
+          "options": { "A": "seal", "B": "post", "C": "track" },
+          "answer": "A",
+          "explanation": "'Track' means to follow or check the progress of something online. To close and secure a box with tape before sending it is to 'seal' it."
+        },
+        {
+          "id": 5,
+          "sentence": "The post office charges a small [stamp] for express delivery service.",
+          "highlighted": "stamp",
+          "options": { "A": "box", "B": "stamp", "C": "fee" },
+          "answer": "C",
+          "explanation": "A 'stamp' is a small sticker you put on a letter or envelope — it is not a charge for a service. The money you pay for a service such as express delivery is called a 'fee'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "D", "3": "B", "4": "C", "5": "A" },
+    "ex2": { "1": "recipient", "2": "seal", "3": "heavy", "4": "track", "5": "fee" },
+    "ex3": { "1": "stamp", "2": "urgent", "3": "sender", "4": "deliver", "5": "wait" },
+    "ex4": { "1": "delivery", "2": "carefully", "3": "urgently", "4": "sealed", "5": "postage" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+  }
+}

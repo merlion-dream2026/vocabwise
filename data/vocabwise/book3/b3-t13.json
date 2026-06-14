@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 13,
+    "topic_id": "b3-t13",
+    "topic_title": "Healthcare Systems & Access",
+    "topic_title_vi": "Hệ Thống Y Tế & Quyền Tiếp Cận",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🏥",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The **provision** of healthcare is one of the most contested areas of public policy. Whether a government should **provide universal healthcare access** — ensuring every citizen receives treatment regardless of income — or leave health services to market forces is a question that divides economists, politicians, and citizens alike. Advocates of **universality** argue that access to medical care is a fundamental right, not a commodity to be bought and sold.",
+        "text_vi": "Việc **cung cấp** dịch vụ y tế là một trong những lĩnh vực gây tranh cãi nhất trong chính sách công. Liệu chính phủ có nên **đảm bảo quyền tiếp cận chăm sóc sức khỏe toàn dân** — đảm bảo mọi công dân đều được điều trị bất kể thu nhập — hay để các dịch vụ y tế theo cơ chế thị trường là câu hỏi chia rẽ các nhà kinh tế, chính trị gia và người dân. Những người ủng hộ **tính phổ quát** lập luận rằng quyền tiếp cận dịch vụ y tế là quyền cơ bản, không phải hàng hóa để mua bán."
+      },
+      {
+        "index": 2,
+        "text_en": "A central concern is the **disparity** in health outcomes between wealthy and low-income populations. Studies consistently show that **morbidity** rates — the prevalence of illness and disease — are significantly higher in deprived communities. Similarly, **mortality** figures reveal that **preventable** deaths disproportionately affect the poor. To **reduce preventable mortality**, governments must **allocate scarce medical resources** equitably, directing funds towards the populations most in need rather than those most able to pay.",
+        "text_vi": "Mối quan tâm trọng tâm là sự **chênh lệch** về kết quả y tế giữa người giàu và người có thu nhập thấp. Các nghiên cứu liên tục cho thấy tỷ lệ **bệnh tật** — tần suất mắc bệnh — cao hơn đáng kể ở các cộng đồng nghèo khó. Tương tự, số liệu về **tử vong** cho thấy các ca tử vong **có thể phòng ngừa** ảnh hưởng không cân xứng đến người nghèo. Để **giảm tỷ lệ tử vong có thể phòng ngừa**, các chính phủ phải **phân bổ nguồn lực y tế khan hiếm** một cách công bằng, điều phối nguồn lực về phía những người cần nhất thay vì những người có khả năng chi trả cao nhất."
+      },
+      {
+        "index": 3,
+        "text_en": "Emergency departments rely heavily on **triage** — the process of prioritising patients by urgency — to manage overwhelming demand. However, when systems are underfunded, triage alone cannot compensate for structural failures. Critics who **challenge healthcare privatisation** warn that profit-driven models incentivise providers to treat profitable conditions over urgent but less lucrative ones, deepening existing inequalities rather than resolving them.",
+        "text_vi": "Các phòng cấp cứu phụ thuộc nhiều vào **phân loại bệnh nhân theo mức độ ưu tiên** — quá trình ưu tiên bệnh nhân theo mức độ khẩn cấp — để quản lý nhu cầu vượt quá khả năng đáp ứng. Tuy nhiên, khi hệ thống thiếu kinh phí, phân loại bệnh nhân không thể bù đắp cho những thất bại về mặt cấu trúc. Những người **phản đối tư nhân hóa y tế** cảnh báo rằng các mô hình vì lợi nhuận khuyến khích nhà cung cấp ưu tiên điều trị các bệnh có lợi nhuận cao hơn các bệnh khẩn cấp nhưng ít sinh lời hơn, làm sâu sắc thêm bất bình đẳng hiện có thay vì giải quyết chúng."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, the goal of any healthcare system should be to **address health inequalities** through both better **allocation** of resources and sustained investment in preventive care. The **universal** principle — that no person should suffer or die due to lack of financial means — remains the ethical benchmark against which all systems must be judged. Without equitable **provision**, healthcare risks becoming a privilege rather than a right.",
+        "text_vi": "Cuối cùng, mục tiêu của bất kỳ hệ thống y tế nào cũng phải là **giải quyết bất bình đẳng y tế** thông qua cả việc **phân bổ** nguồn lực tốt hơn và đầu tư bền vững vào chăm sóc phòng ngừa. Nguyên tắc **phổ quát** — rằng không ai nên phải chịu đựng hay tử vong vì thiếu phương tiện tài chính — vẫn là tiêu chuẩn đạo đức để đánh giá mọi hệ thống. Nếu không có **cung cấp** công bằng, chăm sóc sức khỏe có nguy cơ trở thành đặc quyền thay vì quyền lợi."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "universal",
+      "ipa": "/ˌjuː.nɪˈvɜː.səl/",
+      "pos": "adjective",
+      "meaning_vi": "mang tính phổ quát, áp dụng cho tất cả mọi người",
+      "meaning_vi_inline": "phổ quát, toàn dân",
+      "example_en": "Universal education and universal healthcare are often cited as hallmarks of a developed society.",
+      "example_vi": "Giáo dục phổ cập và y tế toàn dân thường được coi là đặc trưng của một xã hội phát triển.",
+      "word_family": {
+        "noun": "universality / universe",
+        "verb": null,
+        "adjective": "universal",
+        "adverb": "universally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "triage",
+      "ipa": "/ˈtriː.ɑːʒ/",
+      "pos": "noun",
+      "meaning_vi": "phân loại bệnh nhân theo mức độ khẩn cấp",
+      "meaning_vi_inline": "phân loại bệnh nhân ưu tiên",
+      "example_en": "Effective triage in emergency rooms ensures that life-threatening cases are treated first.",
+      "example_vi": "Phân loại bệnh nhân hiệu quả ở phòng cấp cứu đảm bảo các ca nguy hiểm tính mạng được điều trị trước.",
+      "word_family": {
+        "noun": "triage",
+        "verb": "triage",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "allocation",
+      "ipa": "/ˌæl.əˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân bổ, sự phân chia nguồn lực",
+      "meaning_vi_inline": "phân bổ",
+      "example_en": "The allocation of hospital beds during a health crisis requires careful prioritisation.",
+      "example_vi": "Việc phân bổ giường bệnh trong cuộc khủng hoảng y tế đòi hỏi phải ưu tiên cẩn thận.",
+      "word_family": {
+        "noun": "allocation",
+        "verb": "allocate",
+        "adjective": "allocated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "disparity",
+      "ipa": "/dɪˈspær.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự chênh lệch, sự không bình đẳng",
+      "meaning_vi_inline": "chênh lệch, bất bình đẳng",
+      "example_en": "The disparity in life expectancy between rich and poor regions is a serious public health concern.",
+      "example_vi": "Sự chênh lệch về tuổi thọ giữa các vùng giàu và nghèo là mối lo ngại y tế công cộng nghiêm trọng.",
+      "word_family": {
+        "noun": "disparity",
+        "verb": null,
+        "adjective": "disparate",
+        "adverb": "disparately"
+      },
+      "false_friend": {
+        "word_vi": "inequality",
+        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch về mức độ hay khoảng cách; 'inequality' nghiêng về sự thiếu công bằng về quyền lợi hay cơ hội — dùng trong những ngữ cảnh khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "preventable",
+      "ipa": "/prɪˈven.tə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "có thể phòng ngừa được",
+      "meaning_vi_inline": "có thể phòng ngừa",
+      "example_en": "Many preventable diseases continue to cause suffering in communities that lack access to basic healthcare.",
+      "example_vi": "Nhiều bệnh có thể phòng ngừa vẫn tiếp tục gây khổ đau ở các cộng đồng thiếu khả năng tiếp cận dịch vụ y tế cơ bản.",
+      "word_family": {
+        "noun": "prevention",
+        "verb": "prevent",
+        "adjective": "preventable / preventive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "morbidity",
+      "ipa": "/mɔːˈbɪd.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tỷ lệ bệnh tật, tình trạng mắc bệnh",
+      "meaning_vi_inline": "tỷ lệ bệnh tật",
+      "example_en": "High morbidity rates in low-income areas reflect inadequate access to preventive medical care.",
+      "example_vi": "Tỷ lệ bệnh tật cao ở các khu vực thu nhập thấp phản ánh sự thiếu hụt khả năng tiếp cận dịch vụ y tế phòng ngừa.",
+      "word_family": {
+        "noun": "morbidity",
+        "verb": null,
+        "adjective": "morbid",
+        "adverb": "morbidly"
+      },
+      "false_friend": {
+        "word_vi": "mortality",
+        "explanation_vi": "'Morbidity' là tỷ lệ mắc bệnh; 'mortality' là tỷ lệ tử vong — cả hai là chỉ số y tế nhưng đo lường những điều khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "mortality",
+      "ipa": "/mɔːˈtæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tỷ lệ tử vong, tình trạng hữu tử",
+      "meaning_vi_inline": "tỷ lệ tử vong",
+      "example_en": "Infant mortality rates have fallen sharply in countries that invested heavily in maternal healthcare.",
+      "example_vi": "Tỷ lệ tử vong trẻ sơ sinh giảm mạnh ở các quốc gia đầu tư lớn vào chăm sóc sức khỏe bà mẹ.",
+      "word_family": {
+        "noun": "mortality",
+        "verb": null,
+        "adjective": "mortal",
+        "adverb": "mortally"
+      },
+      "false_friend": {
+        "word_vi": "morbidity",
+        "explanation_vi": "'Mortality' đề cập đến cái chết; 'morbidity' đề cập đến bệnh tật — không thể thay thế cho nhau trong văn bản học thuật."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "provision",
+      "ipa": "/prəˈvɪʒ.ən/",
+      "pos": "noun",
+      "meaning_vi": "sự cung cấp, việc trang bị dịch vụ",
+      "meaning_vi_inline": "cung cấp, trang bị",
+      "example_en": "The provision of free medication to elderly patients is a central pillar of the national health plan.",
+      "example_vi": "Việc cung cấp thuốc miễn phí cho bệnh nhân cao tuổi là trụ cột trung tâm của kế hoạch y tế quốc gia.",
+      "word_family": {
+        "noun": "provision / provider",
+        "verb": "provide",
+        "adjective": "provisional",
+        "adverb": "provisionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "privatisation",
+      "ipa": "/ˌpraɪ.və.taɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự tư nhân hóa",
+      "meaning_vi_inline": "tư nhân hóa",
+      "example_en": "The privatisation of hospital services sparked widespread protests among healthcare workers and patient groups.",
+      "example_vi": "Việc tư nhân hóa các dịch vụ bệnh viện đã châm ngòi cho các cuộc biểu tình rộng rãi trong giới nhân viên y tế và nhóm bệnh nhân.",
+      "word_family": {
+        "noun": "privatisation",
+        "verb": "privatise",
+        "adjective": "private / privatised",
+        "adverb": "privately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "universality",
+      "ipa": "/ˌjuː.nɪ.vɜːˈsæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính phổ quát, sự áp dụng cho tất cả mọi người",
+      "meaning_vi_inline": "tính phổ quát",
+      "example_en": "The universality of the right to health is enshrined in several international human rights declarations.",
+      "example_vi": "Tính phổ quát của quyền được chăm sóc sức khỏe được ghi nhận trong nhiều tuyên bố nhân quyền quốc tế.",
+      "word_family": {
+        "noun": "universality / universe",
+        "verb": null,
+        "adjective": "universal",
+        "adverb": "universally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "provide universal healthcare access",
+      "meaning_vi": "đảm bảo quyền tiếp cận chăm sóc sức khỏe toàn dân",
+      "example_en": "Many Nordic countries have successfully managed to provide universal healthcare access while maintaining fiscal sustainability.",
+      "example_vi": "Nhiều quốc gia Bắc Âu đã thành công trong việc đảm bảo quyền tiếp cận chăm sóc sức khỏe toàn dân trong khi vẫn duy trì tính bền vững tài khóa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "reduce preventable mortality",
+      "meaning_vi": "giảm tỷ lệ tử vong có thể phòng ngừa",
+      "example_en": "Investing in vaccination programmes is one of the most cost-effective ways to reduce preventable mortality.",
+      "example_vi": "Đầu tư vào các chương trình tiêm chủng là một trong những cách tiết kiệm chi phí nhất để giảm tỷ lệ tử vong có thể phòng ngừa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "allocate scarce medical resources",
+      "meaning_vi": "phân bổ nguồn lực y tế khan hiếm",
+      "example_en": "Ethics committees are often called upon to allocate scarce medical resources fairly during health emergencies.",
+      "example_vi": "Các ủy ban đạo đức thường được kêu gọi để phân bổ nguồn lực y tế khan hiếm một cách công bằng trong các tình huống khẩn cấp y tế.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "challenge healthcare privatisation",
+      "meaning_vi": "phản đối tư nhân hóa y tế",
+      "example_en": "Trade unions and patient advocacy groups have consistently challenged healthcare privatisation on equity grounds.",
+      "example_vi": "Các công đoàn và nhóm vận động cho bệnh nhân liên tục phản đối tư nhân hóa y tế vì lý do công bằng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "address health inequalities",
+      "meaning_vi": "giải quyết bất bình đẳng y tế",
+      "example_en": "Governments must address health inequalities through targeted funding for underserved communities.",
+      "example_vi": "Các chính phủ phải giải quyết bất bình đẳng y tế thông qua nguồn tài trợ có mục tiêu cho các cộng đồng thiếu được phục vụ.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that advocates of universality view healthcare access as a basic right.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, morbidity rates are higher in wealthier communities.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that triage systems were first developed in military medicine.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that profit-driven healthcare models may worsen existing inequalities.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends a specific tax rate to fund universal healthcare provision.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government pledged to reduce the _____ in cancer survival rates between affluent and deprived areas.",
+          "options": [
+            "disparity",
+            "triage",
+            "provision",
+            "universality"
+          ],
+          "answer": "disparity"
+        },
+        {
+          "id": 2,
+          "sentence": "Staff trained in _____ can quickly identify which patients need immediate life-saving intervention.",
+          "options": [
+            "mortality",
+            "privatisation",
+            "universality",
+            "triage"
+          ],
+          "answer": "triage"
+        },
+        {
+          "id": 3,
+          "sentence": "The health minister argued that many deaths were _____ had early screening programmes been in place.",
+          "options": [
+            "mortal",
+            "universal",
+            "preventable",
+            "allocated"
+          ],
+          "answer": "preventable"
+        },
+        {
+          "id": 4,
+          "sentence": "Critics warn that _____ of public hospitals could prioritise profit over patient welfare.",
+          "options": [
+            "allocation",
+            "universality",
+            "privatisation",
+            "morbidity"
+          ],
+          "answer": "privatisation"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of ambulance services to rural districts was expanded as part of the equity reform package.",
+          "options": [
+            "mortality",
+            "disparity",
+            "triage",
+            "provision"
+          ],
+          "answer": "provision"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "allocation",
+        "morbidity",
+        "mortality",
+        "universality",
+        "preventable",
+        "disparity"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of the right to clean water means it should be available to every person, regardless of wealth.",
+          "answer": "universality"
+        },
+        {
+          "id": 2,
+          "sentence": "Child _____ rates fell dramatically after the introduction of free vaccination programmes.",
+          "answer": "mortality"
+        },
+        {
+          "id": 3,
+          "sentence": "High _____ rates among factory workers prompted an investigation into workplace safety conditions.",
+          "answer": "morbidity"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of research funding to chronic disease studies was increased following the pandemic.",
+          "answer": "allocation"
+        },
+        {
+          "id": 5,
+          "sentence": "A significant _____ in healthcare outcomes persists between urban and rural populations.",
+          "answer": "disparity"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "universality",
+            "of",
+            "healthcare",
+            "the",
+            "remains",
+            "a",
+            "contested",
+            "principle",
+            "politically"
+          ],
+          "answer": "The universality of healthcare remains a politically contested principle."
+        },
+        {
+          "id": 2,
+          "words": [
+            "triage",
+            "systems",
+            "help",
+            "emergency",
+            "departments",
+            "prioritise",
+            "the",
+            "most",
+            "critical",
+            "patients"
+          ],
+          "answer": "Triage systems help emergency departments prioritise the most critical patients."
+        },
+        {
+          "id": 3,
+          "words": [
+            "preventable",
+            "deaths",
+            "disproportionately",
+            "affect",
+            "low-income",
+            "communities"
+          ],
+          "answer": "Preventable deaths disproportionately affect low-income communities."
+        },
+        {
+          "id": 4,
+          "words": [
+            "scarce",
+            "medical",
+            "resources",
+            "must",
+            "be",
+            "allocated",
+            "fairly",
+            "across",
+            "all",
+            "populations"
+          ],
+          "answer": "Scarce medical resources must be allocated fairly across all populations."
+        },
+        {
+          "id": 5,
+          "words": [
+            "health",
+            "inequalities",
+            "cannot",
+            "be",
+            "addressed",
+            "without",
+            "equitable",
+            "provision",
+            "of",
+            "services"
+          ],
+          "answer": "Health inequalities cannot be addressed without equitable provision of services."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [disparate] in health outcomes between rich and poor districts widened during the economic crisis.",
+          "highlighted": "disparate",
+          "options": {
+            "A": "disparity",
+            "B": "disparities",
+            "C": "disparately"
+          },
+          "answer": "A",
+          "explanation": "A singular noun is required as the subject — 'disparity', not the adjective 'disparate'."
+        },
+        {
+          "id": 2,
+          "sentence": "Nurses used [triaged] protocols to rapidly assess which patients required immediate surgery.",
+          "highlighted": "triaged",
+          "options": {
+            "A": "triaging",
+            "B": "triage",
+            "C": "triages"
+          },
+          "answer": "B",
+          "explanation": "'Triage' functions as a noun modifier before 'protocols'; the past participle 'triaged' does not work as an adjective in this position."
+        },
+        {
+          "id": 3,
+          "sentence": "Reducing [mortality's] among children under five requires sustained investment in nutrition and sanitation.",
+          "highlighted": "mortality's",
+          "options": {
+            "A": "mortal",
+            "B": "mortally",
+            "C": "mortality"
+          },
+          "answer": "C",
+          "explanation": "The plain noun 'mortality' is needed as the object of 'Reducing'; the possessive form 'mortality's' is grammatically incorrect here."
+        },
+        {
+          "id": 4,
+          "sentence": "The [provisioning] of affordable medicines remains inadequate in many developing countries.",
+          "highlighted": "provisioning",
+          "options": {
+            "A": "provision",
+            "B": "provisional",
+            "C": "provided"
+          },
+          "answer": "A",
+          "explanation": "The noun 'provision' is needed as the subject of the sentence; 'provisioning' is not standard in this formal healthcare context."
+        },
+        {
+          "id": 5,
+          "sentence": "The report called for fairer [allocate] of budgets to underfunded community health centres.",
+          "highlighted": "allocate",
+          "options": {
+            "A": "allocated",
+            "B": "allocating",
+            "C": "allocation"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after 'fairer' to serve as the object of 'for' — 'allocation', not the verb 'allocate'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "disparity",
+      "2": "triage",
+      "3": "preventable",
+      "4": "privatisation",
+      "5": "provision"
+    },
+    "ex3": {
+      "1": "universality",
+      "2": "mortality",
+      "3": "morbidity",
+      "4": "allocation",
+      "5": "disparity"
+    },
+    "ex4": {
+      "1": "The universality of healthcare remains a politically contested principle.",
+      "2": "Triage systems help emergency departments prioritise the most critical patients.",
+      "3": "Preventable deaths disproportionately affect low-income communities.",
+      "4": "Scarce medical resources must be allocated fairly across all populations.",
+      "5": "Health inequalities cannot be addressed without equitable provision of services."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

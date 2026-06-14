@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 54,
+    "topic_id": "b3-t54",
+    "topic_title": "AI Ethics & the Future of Work",
+    "topic_title_vi": "Đạo Đức AI & Tương Lai Công Việc",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🤖",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Artificial intelligence is transforming the world of work at a pace that raises urgent ethical questions. **Automation** is already eliminating routine tasks across manufacturing, logistics, and even professional services, creating the risk of **displacement** for millions of workers who lack the skills to transition into emerging roles. While proponents argue that technology ultimately creates more jobs than it destroys, critics call for stronger policies to **mitigate job displacement** and provide meaningful retraining pathways for those affected.",
+        "text_vi": "Trí tuệ nhân tạo đang thay đổi thế giới công việc với tốc độ đặt ra những câu hỏi đạo đức cấp bách. **Tự động hóa** đã loại bỏ các công việc thường nhật trong lĩnh vực sản xuất, logistics và thậm chí cả dịch vụ chuyên nghiệp, tạo ra nguy cơ **mất việc làm** cho hàng triệu lao động thiếu kỹ năng để chuyển sang các vai trò mới nổi. Trong khi những người ủng hộ lập luận rằng công nghệ cuối cùng tạo ra nhiều việc làm hơn mức phá hủy, các nhà phê bình kêu gọi các chính sách mạnh mẽ hơn để **giảm thiểu tình trạng mất việc làm** và cung cấp các lộ trình đào tạo lại có ý nghĩa cho những người bị ảnh hưởng."
+      },
+      {
+        "index": 2,
+        "text_en": "A second concern is **bias** embedded in AI systems. When training data reflects historical inequalities, **algorithmic decision-making** in hiring, lending, and criminal justice can perpetuate discrimination against marginalised groups. Organisations must therefore **embed fairness in algorithms** from the design stage, rather than attempting to correct discriminatory outputs after deployment. This requires diverse development teams, rigorous testing, and a genuine commitment to **transparency** about how models reach their conclusions.",
+        "text_vi": "Mối lo ngại thứ hai là **sự thiên lệch** được nhúng vào các hệ thống AI. Khi dữ liệu huấn luyện phản ánh sự bất bình đẳng lịch sử, **ra quyết định bằng thuật toán** trong tuyển dụng, cho vay và tư pháp hình sự có thể duy trì sự phân biệt đối xử với các nhóm bị thiệt thòi. Do đó, các tổ chức phải **nhúng sự công bằng vào thuật toán** ngay từ giai đoạn thiết kế, thay vì cố gắng sửa chữa các đầu ra mang tính phân biệt sau khi triển khai. Điều này đòi hỏi các nhóm phát triển đa dạng, kiểm thử nghiêm ngặt và cam kết thực sự về **tính minh bạch** trong cách các mô hình đưa ra kết luận."
+      },
+      {
+        "index": 3,
+        "text_en": "As AI systems gain access to vast personal data sets, **surveillance** and privacy risks intensify. Employers deploying AI tools to monitor productivity, or governments using facial recognition in public spaces, must grapple with whether such practices respect citizens' **digital rights**. Advocates argue the state and corporations must **protect digital rights** through robust legislation, while researchers emphasise that individuals must give meaningful **consent** before their data is harvested or used to profile them.",
+        "text_vi": "Khi các hệ thống AI có quyền truy cập vào các tập dữ liệu cá nhân khổng lồ, rủi ro về **giám sát** và quyền riêng tư ngày càng tăng lên. Các nhà tuyển dụng sử dụng công cụ AI để theo dõi năng suất, hay các chính phủ sử dụng nhận diện khuôn mặt ở nơi công cộng, phải đối mặt với câu hỏi liệu những thực hành đó có tôn trọng **quyền kỹ thuật số** của công dân hay không. Các nhà vận động lập luận rằng nhà nước và tập đoàn phải **bảo vệ quyền kỹ thuật số** thông qua luật pháp mạnh mẽ, trong khi các nhà nghiên cứu nhấn mạnh rằng các cá nhân phải đưa ra **sự đồng ý** có ý nghĩa trước khi dữ liệu của họ được thu thập hoặc sử dụng để lập hồ sơ."
+      },
+      {
+        "index": 4,
+        "text_en": "Underlying all these debates is the question of **accountability**: when an AI system causes harm, who is responsible — the developer, the deploying organisation, or the algorithm itself? Without clear lines of **human oversight**, errors can cascade unchecked. Frameworks that **ensure algorithmic accountability** and **maintain human oversight of AI** are not obstacles to innovation; they are the safeguards that allow technology to serve humanity rather than dominate it.",
+        "text_vi": "Bao trùm tất cả những cuộc tranh luận này là câu hỏi về **trách nhiệm giải trình**: khi một hệ thống AI gây ra thiệt hại, ai chịu trách nhiệm — nhà phát triển, tổ chức triển khai hay chính thuật toán? Nếu không có ranh giới rõ ràng về **sự giám sát của con người**, các lỗi có thể lan rộng mà không bị kiểm soát. Các khung pháp lý **đảm bảo trách nhiệm giải trình của thuật toán** và **duy trì sự giám sát của con người đối với AI** không phải là rào cản cho đổi mới; chúng là các biện pháp bảo vệ cho phép công nghệ phục vụ nhân loại thay vì thống trị nó."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "sự thiên lệch, thành kiến",
+      "meaning_vi_inline": "sự thiên lệch",
+      "example_en": "Algorithmic bias can lead to systematically unfair outcomes for certain demographic groups.",
+      "example_vi": "Sự thiên lệch của thuật toán có thể dẫn đến những kết quả không công bằng một cách có hệ thống cho một số nhóm dân số nhất định.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased / unbiased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "transparency",
+      "ipa": "/trænsˈpær.ən.si/",
+      "pos": "noun",
+      "meaning_vi": "tính minh bạch, sự công khai",
+      "meaning_vi_inline": "tính minh bạch",
+      "example_en": "Transparency in algorithmic decision-making allows affected parties to understand and challenge outcomes.",
+      "example_vi": "Tính minh bạch trong ra quyết định bằng thuật toán cho phép các bên bị ảnh hưởng hiểu và thách thức các kết quả.",
+      "word_family": {
+        "noun": "transparency",
+        "verb": null,
+        "adjective": "transparent",
+        "adverb": "transparently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "accountability",
+      "ipa": "/əˌkaʊn.təˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "trách nhiệm giải trình, sự chịu trách nhiệm",
+      "meaning_vi_inline": "trách nhiệm giải trình",
+      "example_en": "Without clear accountability, it is difficult to seek redress when AI systems cause harm.",
+      "example_vi": "Không có trách nhiệm giải trình rõ ràng, rất khó để tìm kiếm bồi thường khi các hệ thống AI gây ra thiệt hại.",
+      "word_family": {
+        "noun": "accountability / account",
+        "verb": "account (for)",
+        "adjective": "accountable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "responsibility",
+        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ báo cáo và chịu hậu quả trước người khác; 'responsibility' là nghĩa vụ thực hiện nhiệm vụ — có thể chồng chéo nhưng không hoán đổi được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "automation",
+      "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tự động hóa",
+      "meaning_vi_inline": "tự động hóa",
+      "example_en": "Automation has dramatically reduced the need for human labour in many manufacturing processes.",
+      "example_vi": "Tự động hóa đã làm giảm đáng kể nhu cầu lao động của con người trong nhiều quy trình sản xuất.",
+      "word_family": {
+        "noun": "automation / automaton",
+        "verb": "automate",
+        "adjective": "automated / automatic",
+        "adverb": "automatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "displacement",
+      "ipa": "/dɪsˈpleɪs.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự thay thế, sự mất chỗ làm việc",
+      "meaning_vi_inline": "mất việc làm",
+      "example_en": "The displacement of workers by AI-driven systems demands proactive investment in retraining programmes.",
+      "example_vi": "Việc thay thế người lao động bởi các hệ thống dựa trên AI đòi hỏi đầu tư chủ động vào các chương trình đào tạo lại.",
+      "word_family": {
+        "noun": "displacement",
+        "verb": "displace",
+        "adjective": "displaced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "surveillance",
+      "ipa": "/səˈveɪ.ləns/",
+      "pos": "noun",
+      "meaning_vi": "sự giám sát, theo dõi",
+      "meaning_vi_inline": "giám sát",
+      "example_en": "Mass surveillance technologies raise profound questions about privacy and civil liberties.",
+      "example_vi": "Các công nghệ giám sát hàng loạt đặt ra những câu hỏi sâu sắc về quyền riêng tư và các quyền dân sự.",
+      "word_family": {
+        "noun": "surveillance",
+        "verb": "surveil",
+        "adjective": "surveillance (attributive)",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "consent",
+      "ipa": "/kənˈsent/",
+      "pos": "noun",
+      "meaning_vi": "sự đồng ý, sự chấp thuận",
+      "meaning_vi_inline": "sự đồng ý",
+      "example_en": "Users must give informed consent before companies are permitted to collect and process their personal data.",
+      "example_vi": "Người dùng phải đưa ra sự đồng ý có thông tin trước khi các công ty được phép thu thập và xử lý dữ liệu cá nhân của họ.",
+      "word_family": {
+        "noun": "consent",
+        "verb": "consent",
+        "adjective": "consensual",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "algorithmic decision-making",
+      "ipa": "/ˌæl.ɡəˈrɪð.mɪk dɪˈsɪʒ.ən ˈmeɪ.kɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "ra quyết định bằng thuật toán",
+      "meaning_vi_inline": "ra quyết định bằng thuật toán",
+      "example_en": "Algorithmic decision-making in credit scoring can disadvantage applicants from lower-income backgrounds.",
+      "example_vi": "Ra quyết định bằng thuật toán trong chấm điểm tín dụng có thể gây bất lợi cho những người nộp đơn từ nền tảng thu nhập thấp hơn.",
+      "word_family": {
+        "noun": "algorithmic decision-making / algorithm",
+        "verb": null,
+        "adjective": "algorithmic",
+        "adverb": "algorithmically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "human oversight",
+      "ipa": "/ˈhjuː.mən ˈəʊ.vər.saɪt/",
+      "pos": "noun phrase",
+      "meaning_vi": "sự giám sát của con người",
+      "meaning_vi_inline": "giám sát của con người",
+      "example_en": "Effective human oversight ensures that automated systems can be corrected before errors cause widespread harm.",
+      "example_vi": "Sự giám sát hiệu quả của con người đảm bảo rằng các hệ thống tự động có thể được sửa chữa trước khi các lỗi gây ra thiệt hại trên diện rộng.",
+      "word_family": {
+        "noun": "oversight / overseer",
+        "verb": "oversee",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "digital rights",
+      "ipa": "/ˈdɪdʒ.ɪ.təl raɪts/",
+      "pos": "noun phrase",
+      "meaning_vi": "quyền kỹ thuật số",
+      "meaning_vi_inline": "quyền kỹ thuật số",
+      "example_en": "Digital rights activists argue that citizens must retain control over how their online data is used.",
+      "example_vi": "Các nhà hoạt động về quyền kỹ thuật số lập luận rằng công dân phải giữ quyền kiểm soát cách dữ liệu trực tuyến của họ được sử dụng.",
+      "word_family": {
+        "noun": "digital rights / right",
+        "verb": null,
+        "adjective": "digital",
+        "adverb": "digitally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "embed fairness in algorithms",
+      "meaning_vi": "nhúng sự công bằng vào thuật toán",
+      "example_en": "Tech companies must embed fairness in algorithms at the design stage to prevent discriminatory outcomes.",
+      "example_vi": "Các công ty công nghệ phải nhúng sự công bằng vào thuật toán ngay từ giai đoạn thiết kế để ngăn chặn các kết quả mang tính phân biệt.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "ensure algorithmic accountability",
+      "meaning_vi": "đảm bảo trách nhiệm giải trình của thuật toán",
+      "example_en": "Regulators are under pressure to ensure algorithmic accountability in sectors such as finance and law.",
+      "example_vi": "Các cơ quan quản lý đang chịu áp lực phải đảm bảo trách nhiệm giải trình của thuật toán trong các lĩnh vực như tài chính và pháp lý.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "mitigate job displacement",
+      "meaning_vi": "giảm thiểu tình trạng mất việc làm",
+      "example_en": "Governments must invest in social safety nets and retraining schemes to mitigate job displacement caused by automation.",
+      "example_vi": "Các chính phủ phải đầu tư vào mạng lưới an sinh xã hội và các chương trình đào tạo lại để giảm thiểu tình trạng mất việc làm do tự động hóa gây ra.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "protect digital rights",
+      "meaning_vi": "bảo vệ quyền kỹ thuật số",
+      "example_en": "New legislation is needed to protect digital rights in an era of pervasive data collection.",
+      "example_vi": "Cần có luật pháp mới để bảo vệ quyền kỹ thuật số trong kỷ nguyên thu thập dữ liệu lan rộng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "maintain human oversight of AI",
+      "meaning_vi": "duy trì sự giám sát của con người đối với AI",
+      "example_en": "Experts warn that it is critical to maintain human oversight of AI in high-stakes domains such as healthcare and defence.",
+      "example_vi": "Các chuyên gia cảnh báo rằng điều quan trọng là phải duy trì sự giám sát của con người đối với AI trong các lĩnh vực quan trọng như y tế và quốc phòng.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that automation is currently limited to manufacturing and logistics sectors.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, algorithmic bias can cause discrimination in hiring and lending.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that AI-powered surveillance tools are already banned in most democracies.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that frameworks for accountability and oversight hinder technological innovation.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that individuals should give meaningful consent before their data is used to profile them.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The recruitment algorithm was found to contain _____ against female candidates due to flawed training data.",
+          "options": [
+            "displacement",
+            "surveillance",
+            "bias",
+            "consent"
+          ],
+          "answer": "bias"
+        },
+        {
+          "id": 2,
+          "sentence": "Citizens demanded greater _____ from the government about how public facial recognition systems operate.",
+          "options": [
+            "automation",
+            "transparency",
+            "displacement",
+            "oversight"
+          ],
+          "answer": "transparency"
+        },
+        {
+          "id": 3,
+          "sentence": "The widespread _____ of clerical jobs by software has accelerated the need for digital literacy training.",
+          "options": [
+            "consent",
+            "bias",
+            "accountability",
+            "displacement"
+          ],
+          "answer": "displacement"
+        },
+        {
+          "id": 4,
+          "sentence": "The app was found to be harvesting location data without users' _____, in clear violation of privacy laws.",
+          "options": [
+            "automation",
+            "surveillance",
+            "consent",
+            "accountability"
+          ],
+          "answer": "consent"
+        },
+        {
+          "id": 5,
+          "sentence": "When an AI system makes an error that causes financial loss, clear lines of _____ must exist to ensure redress.",
+          "options": [
+            "transparency",
+            "accountability",
+            "displacement",
+            "digital rights"
+          ],
+          "answer": "accountability"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "automation",
+        "surveillance",
+        "human oversight",
+        "algorithmic decision-making",
+        "digital rights",
+        "bias"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Critics argue that _____ in recruitment tools reflects and amplifies existing social inequalities.",
+          "answer": "bias"
+        },
+        {
+          "id": 2,
+          "sentence": "The rapid pace of _____ has outstripped governments' ability to regulate its social consequences.",
+          "answer": "automation"
+        },
+        {
+          "id": 3,
+          "sentence": "Workplace _____ tools that track employees' keystrokes and screen activity are increasingly common but controversial.",
+          "answer": "surveillance"
+        },
+        {
+          "id": 4,
+          "sentence": "Campaigners are pushing for legislation that enshrines _____ as a fundamental aspect of citizenship in the digital age.",
+          "answer": "digital rights"
+        },
+        {
+          "id": 5,
+          "sentence": "Without adequate _____, autonomous systems may pursue objectives that conflict with broader human values.",
+          "answer": "human oversight"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "bias",
+            "in",
+            "training",
+            "data",
+            "leads",
+            "to",
+            "unfair",
+            "algorithmic",
+            "outcomes"
+          ],
+          "answer": "Bias in training data leads to unfair algorithmic outcomes."
+        },
+        {
+          "id": 2,
+          "words": [
+            "automation",
+            "creates",
+            "both",
+            "opportunities",
+            "and",
+            "risks",
+            "of",
+            "job",
+            "displacement"
+          ],
+          "answer": "Automation creates both opportunities and risks of job displacement."
+        },
+        {
+          "id": 3,
+          "words": [
+            "transparency",
+            "and",
+            "accountability",
+            "are",
+            "essential",
+            "for",
+            "trustworthy",
+            "AI",
+            "systems"
+          ],
+          "answer": "Transparency and accountability are essential for trustworthy AI systems."
+        },
+        {
+          "id": 4,
+          "words": [
+            "citizens",
+            "must",
+            "consent",
+            "before",
+            "their",
+            "data",
+            "is",
+            "collected",
+            "or",
+            "processed"
+          ],
+          "answer": "Citizens must consent before their data is collected or processed."
+        },
+        {
+          "id": 5,
+          "words": [
+            "human",
+            "oversight",
+            "of",
+            "AI",
+            "prevents",
+            "unchecked",
+            "errors",
+            "from",
+            "causing",
+            "widespread",
+            "harm"
+          ],
+          "answer": "Human oversight of AI prevents unchecked errors from causing widespread harm."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company faced criticism for the [biased] in its hiring algorithm, which consistently disadvantaged minority applicants.",
+          "highlighted": "biased",
+          "options": {
+            "A": "biases",
+            "B": "bias",
+            "C": "biasedly"
+          },
+          "answer": "B",
+          "explanation": "A singular uncountable noun is needed after 'the' as the subject — 'bias', not the adjective 'biased'."
+        },
+        {
+          "id": 2,
+          "sentence": "New regulations require firms to [transparent] disclose how automated decisions affecting customers are made.",
+          "highlighted": "transparent",
+          "options": {
+            "A": "transparency",
+            "B": "transparence",
+            "C": "transparently"
+          },
+          "answer": "C",
+          "explanation": "An adverb is needed to modify the verb 'disclose' — 'transparently', not the adjective 'transparent'."
+        },
+        {
+          "id": 3,
+          "sentence": "Mass [surveilling] of citizens without legal oversight poses a serious threat to civil liberties.",
+          "highlighted": "surveilling",
+          "options": {
+            "A": "surveillance",
+            "B": "surveil",
+            "C": "surveilled"
+          },
+          "answer": "A",
+          "explanation": "A noun is required after 'Mass' to function as the subject — 'surveillance', not the gerund 'surveilling'."
+        },
+        {
+          "id": 4,
+          "sentence": "The factory's transition to [automate] production resulted in the redundancy of over two hundred workers.",
+          "highlighted": "automate",
+          "options": {
+            "A": "automation",
+            "B": "automatic",
+            "C": "automated"
+          },
+          "answer": "C",
+          "explanation": "An adjective is needed to modify the noun 'production' — 'automated', not the verb 'automate'."
+        },
+        {
+          "id": 5,
+          "sentence": "When AI systems make consequential errors, the question of [accountable] must be addressed by law.",
+          "highlighted": "accountable",
+          "options": {
+            "A": "accounting",
+            "B": "accountably",
+            "C": "accountability"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the object of 'of' — 'accountability', not the adjective 'accountable'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "bias",
+      "2": "transparency",
+      "3": "displacement",
+      "4": "consent",
+      "5": "accountability"
+    },
+    "ex3": {
+      "1": "bias",
+      "2": "automation",
+      "3": "surveillance",
+      "4": "digital rights",
+      "5": "human oversight"
+    },
+    "ex4": {
+      "1": "Bias in training data leads to unfair algorithmic outcomes.",
+      "2": "Automation creates both opportunities and risks of job displacement.",
+      "3": "Transparency and accountability are essential for trustworthy AI systems.",
+      "4": "Citizens must consent before their data is collected or processed.",
+      "5": "Human oversight of AI prevents unchecked errors from causing widespread harm."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

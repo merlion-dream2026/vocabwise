@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 42,
+    "topic_id": "b3-t42",
+    "topic_title": "Writing & Academic Discourse",
+    "topic_title_vi": "Viết Học Thuật & Diễn Ngôn Hàn Lâm",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "✍️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Academic writing is one of the most demanding forms of communication precisely because it must meet exacting standards of **coherence**, **cohesion**, and intellectual rigour. A well-constructed essay or research paper requires the writer to **develop a coherent thesis** — a central, arguable claim — and then build every paragraph in service of that claim. Without a clearly stated **thesis**, even the most sophisticated ideas risk appearing scattered and unconvincing.",
+        "text_vi": "Viết học thuật là một trong những hình thức giao tiếp đòi hỏi nhất chính vì nó phải đáp ứng các tiêu chuẩn nghiêm ngặt về **tính mạch lạc**, **tính liên kết**, và sự nghiêm túc trí tuệ. Một bài luận hay bài nghiên cứu được xây dựng tốt đòi hỏi người viết phải **phát triển một luận điểm mạch lạc** — một tuyên bố trung tâm có thể tranh luận — rồi xây dựng mọi đoạn văn để phục vụ tuyên bố đó. Không có **luận điểm** được trình bày rõ ràng, ngay cả những ý tưởng tinh tế nhất cũng có nguy cơ trở nên tản mạn và thiếu thuyết phục."
+      },
+      {
+        "index": 2,
+        "text_en": "Effective **argumentation** depends not only on the strength of individual claims but on how they are connected. **Cohesion** — the linguistic glue of discourse — is achieved through transitional phrases, pronoun reference, and careful **referencing** of prior points. Skilled writers also **synthesise multiple sources** rather than merely summarising each one in isolation; this integration of evidence demonstrates genuine intellectual engagement with the literature.",
+        "text_vi": "**Lập luận** hiệu quả không chỉ phụ thuộc vào sức mạnh của các luận điểm riêng lẻ mà còn vào cách chúng được kết nối với nhau. **Tính liên kết** — chất keo ngôn ngữ của diễn ngôn — được đạt được thông qua các cụm từ chuyển tiếp, tham chiếu đại từ, và việc **trích dẫn** cẩn thận các điểm trước đó. Người viết tài năng cũng **tổng hợp nhiều nguồn** thay vì chỉ tóm tắt từng nguồn một cách riêng lẻ; sự tích hợp bằng chứng này thể hiện sự gắn kết trí tuệ thực sự với tài liệu."
+      },
+      {
+        "index": 3,
+        "text_en": "Academic writers must also manage **stance** — their positioning relative to the claims they discuss. A key strategy for doing this is **hedging**: using modal verbs, qualifying adverbs, and tentative expressions to signal appropriate epistemic caution. Writers who **hedge claims appropriately** signal awareness of complexity without undermining their own arguments. The related practice of **nominalization** — turning verbs and adjectives into abstract nouns — lends prose the formal, impersonal tone characteristic of academic registers.",
+        "text_vi": "Người viết học thuật cũng phải quản lý **quan điểm** — vị trí của họ so với các luận điểm được thảo luận. Một chiến lược quan trọng để thực hiện điều này là **rào ngữ**: sử dụng động từ khuyết thiếu, trạng từ hạn định, và các biểu đạt thận trọng để báo hiệu sự thận trọng nhận thức phù hợp. Người viết **dùng rào ngữ thích hợp** thể hiện nhận thức về sự phức tạp mà không làm suy yếu lập luận của chính họ. Phương pháp liên quan là **danh từ hóa** — biến động từ và tính từ thành danh từ trừu tượng — mang lại cho văn xuôi giọng điệu trang trọng, khách quan đặc trưng của văn phong học thuật."
+      },
+      {
+        "index": 4,
+        "text_en": "Underpinning all of this is **academic integrity**: the commitment to honest, original scholarship. Plagiarism — presenting another's ideas as one's own — is the most serious violation of this principle. When writers **maintain academic integrity** and **construct a well-reasoned argument** supported by properly attributed sources, they contribute meaningfully to the ongoing **synthesis** of human knowledge.",
+        "text_vi": "Nền tảng của tất cả điều này là **liêm chính học thuật**: cam kết với học thuật trung thực và nguyên bản. Đạo văn — trình bày ý tưởng của người khác như của chính mình — là vi phạm nghiêm trọng nhất đối với nguyên tắc này. Khi người viết **duy trì liêm chính học thuật** và **xây dựng một lập luận có lý luận chặt chẽ** được hỗ trợ bởi các nguồn được trích dẫn đúng cách, họ đóng góp có ý nghĩa vào sự **tổng hợp** tri thức nhân loại đang diễn ra."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "coherence",
+      "ipa": "/kəʊˈhɪər.əns/",
+      "pos": "noun",
+      "meaning_vi": "tính mạch lạc, sự nhất quán về ý nghĩa và logic",
+      "meaning_vi_inline": "tính mạch lạc",
+      "example_en": "The essay lacked coherence because each paragraph seemed to address a completely different topic.",
+      "example_vi": "Bài luận thiếu tính mạch lạc vì mỗi đoạn văn dường như đề cập đến một chủ đề hoàn toàn khác nhau.",
+      "word_family": {
+        "noun": "coherence",
+        "verb": "cohere",
+        "adjective": "coherent",
+        "adverb": "coherently"
+      },
+      "false_friend": {
+        "word_vi": "cohesion",
+        "explanation_vi": "'Coherence' là tính mạch lạc về mặt ý nghĩa và logic; 'cohesion' là tính liên kết về mặt ngôn ngữ và cấu trúc — hai khái niệm khác nhau trong ngôn ngữ học."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "cohesion",
+      "ipa": "/kəʊˈhiː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "tính liên kết, sự gắn kết về mặt ngôn ngữ và cấu trúc",
+      "meaning_vi_inline": "tính liên kết",
+      "example_en": "Strong cohesion in academic writing is achieved through consistent use of linking words and clear pronoun reference.",
+      "example_vi": "Tính liên kết mạnh trong viết học thuật đạt được qua việc sử dụng nhất quán các từ nối và tham chiếu đại từ rõ ràng.",
+      "word_family": {
+        "noun": "cohesion",
+        "verb": "cohere",
+        "adjective": "cohesive",
+        "adverb": "cohesively"
+      },
+      "false_friend": {
+        "word_vi": "coherence",
+        "explanation_vi": "'Cohesion' là liên kết ngôn ngữ (dùng từ nối, đại từ...); 'coherence' là mạch lạc về ý nghĩa tổng thể — thường bị nhầm lẫn nhưng khác nhau về phạm vi."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "thesis",
+      "ipa": "/ˈθiː.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "luận điểm trung tâm; luận văn/luận án",
+      "meaning_vi_inline": "luận điểm",
+      "example_en": "A strong thesis statement presents a specific, debatable claim that the rest of the essay must support.",
+      "example_vi": "Một câu luận điểm mạnh trình bày một tuyên bố cụ thể, có thể tranh luận mà phần còn lại của bài luận phải hỗ trợ.",
+      "word_family": {
+        "noun": "thesis (pl. theses)",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "argumentation",
+      "ipa": "/ˌɑː.ɡjʊ.menˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lập luận, quá trình trình bày và bảo vệ luận điểm",
+      "meaning_vi_inline": "lập luận",
+      "example_en": "Clear argumentation requires anticipating objections and addressing them before they arise.",
+      "example_vi": "Lập luận rõ ràng đòi hỏi phải dự đoán các phản bác và giải quyết chúng trước khi chúng xuất hiện.",
+      "word_family": {
+        "noun": "argumentation / argument",
+        "verb": "argue",
+        "adjective": "argumentative",
+        "adverb": "argumentatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "synthesis",
+      "ipa": "/ˈsɪn.θə.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "sự tổng hợp, quá trình kết hợp nhiều nguồn hoặc ý tưởng thành một chỉnh thể",
+      "meaning_vi_inline": "tổng hợp",
+      "example_en": "The literature review required a synthesis of over fifty studies spanning three decades.",
+      "example_vi": "Phần tổng quan tài liệu yêu cầu một sự tổng hợp của hơn năm mươi nghiên cứu trải dài ba thập kỷ.",
+      "word_family": {
+        "noun": "synthesis",
+        "verb": "synthesise / synthesize",
+        "adjective": "synthetic",
+        "adverb": "synthetically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "hedging",
+      "ipa": "/ˈhedʒ.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "rào ngữ — dùng ngôn ngữ thận trọng để hạn chế độ chắc chắn của một tuyên bố",
+      "meaning_vi_inline": "rào ngữ",
+      "example_en": "Hedging is essential in academic writing because it signals epistemic humility and acknowledges the limits of evidence.",
+      "example_vi": "Rào ngữ là điều thiết yếu trong viết học thuật vì nó thể hiện sự khiêm tốn nhận thức và thừa nhận giới hạn của bằng chứng.",
+      "word_family": {
+        "noun": "hedging / hedge",
+        "verb": "hedge",
+        "adjective": "hedged",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "nominalization",
+      "ipa": "/ˌnɒm.ɪ.nəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "danh từ hóa — quá trình biến động từ hoặc tính từ thành danh từ",
+      "meaning_vi_inline": "danh từ hóa",
+      "example_en": "The nominalization of 'fail' into 'failure' is a common feature of formal academic and bureaucratic prose.",
+      "example_vi": "Sự danh từ hóa 'fail' (thất bại) thành 'failure' (sự thất bại) là một đặc điểm phổ biến của văn xuôi học thuật và hành chính trang trọng.",
+      "word_family": {
+        "noun": "nominalization",
+        "verb": "nominalise / nominalize",
+        "adjective": "nominal",
+        "adverb": "nominally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "stance",
+      "ipa": "/stæns/",
+      "pos": "noun",
+      "meaning_vi": "quan điểm, lập trường của người viết đối với chủ đề",
+      "meaning_vi_inline": "quan điểm, lập trường",
+      "example_en": "In academic writing, a writer's stance must be explicit but supported by evidence rather than personal assertion.",
+      "example_vi": "Trong viết học thuật, quan điểm của người viết phải rõ ràng nhưng được hỗ trợ bởi bằng chứng thay vì khẳng định cá nhân.",
+      "word_family": {
+        "noun": "stance",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "referencing",
+      "ipa": "/ˈref.ər.əns.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "trích dẫn tài liệu tham khảo, việc ghi nguồn",
+      "meaning_vi_inline": "trích dẫn tài liệu",
+      "example_en": "Accurate referencing is not merely a formality — it allows readers to trace the origins of every claim.",
+      "example_vi": "Trích dẫn tài liệu chính xác không chỉ là một thủ tục — nó cho phép người đọc truy nguyên nguồn gốc của mọi tuyên bố.",
+      "word_family": {
+        "noun": "referencing / reference",
+        "verb": "reference",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "academic integrity",
+      "ipa": "/ˌæk.əˈdem.ɪk ɪnˈteɡ.rɪ.ti/",
+      "pos": "noun phrase",
+      "meaning_vi": "liêm chính học thuật — cam kết với sự trung thực và tính nguyên bản trong nghiên cứu",
+      "meaning_vi_inline": "liêm chính học thuật",
+      "example_en": "Universities treat violations of academic integrity, such as plagiarism, as serious disciplinary offences.",
+      "example_vi": "Các trường đại học coi vi phạm liêm chính học thuật, chẳng hạn như đạo văn, là những vi phạm kỷ luật nghiêm trọng.",
+      "word_family": {
+        "noun": "academic integrity / integrity",
+        "verb": null,
+        "adjective": "integral",
+        "adverb": "integrally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "develop a coherent thesis",
+      "meaning_vi": "phát triển một luận điểm mạch lạc",
+      "example_en": "Students are taught to develop a coherent thesis before they begin drafting their supporting paragraphs.",
+      "example_vi": "Sinh viên được dạy cách phát triển một luận điểm mạch lạc trước khi bắt đầu soạn thảo các đoạn văn hỗ trợ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "maintain academic integrity",
+      "meaning_vi": "duy trì liêm chính học thuật",
+      "example_en": "Researchers are expected to maintain academic integrity by disclosing all funding sources and conflicts of interest.",
+      "example_vi": "Các nhà nghiên cứu được kỳ vọng duy trì liêm chính học thuật bằng cách công bố tất cả các nguồn tài trợ và xung đột lợi ích.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "synthesise multiple sources",
+      "meaning_vi": "tổng hợp nhiều nguồn tài liệu",
+      "example_en": "A literature review does not just list findings; it synthesises multiple sources to identify patterns and gaps.",
+      "example_vi": "Tổng quan tài liệu không chỉ liệt kê các phát hiện; nó tổng hợp nhiều nguồn tài liệu để xác định các mô hình và khoảng trống nghiên cứu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "hedge claims appropriately",
+      "meaning_vi": "dùng rào ngữ thích hợp cho các tuyên bố",
+      "example_en": "Scientists who hedge claims appropriately are regarded as more credible than those who overstate their findings.",
+      "example_vi": "Các nhà khoa học dùng rào ngữ thích hợp cho các tuyên bố được đánh giá là đáng tin cậy hơn những người thổi phồng các phát hiện của mình.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "construct a well-reasoned argument",
+      "meaning_vi": "xây dựng một lập luận có lý luận chặt chẽ",
+      "example_en": "The ability to construct a well-reasoned argument is perhaps the most transferable skill a university education provides.",
+      "example_vi": "Khả năng xây dựng một lập luận có lý luận chặt chẽ có lẽ là kỹ năng có thể chuyển đổi nhất mà một nền giáo dục đại học mang lại.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, a clear thesis is sufficient on its own to make an essay persuasive.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that cohesion in writing can be achieved through transitional phrases and pronoun reference.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that most university students struggle more with cohesion than with coherence.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage claims that nominalization gives academic prose a formal, impersonal tone.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, plagiarism is acceptable if the original source is difficult to locate.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The research paper lacked _____ — its argument shifted direction so frequently that readers lost the thread.",
+          "options": [
+            "hedging",
+            "stance",
+            "coherence",
+            "synthesis"
+          ],
+          "answer": "coherence"
+        },
+        {
+          "id": 2,
+          "sentence": "The transformation of 'discover' into 'discovery' is a textbook example of _____ in academic English.",
+          "options": [
+            "referencing",
+            "nominalization",
+            "cohesion",
+            "argumentation"
+          ],
+          "answer": "nominalization"
+        },
+        {
+          "id": 3,
+          "sentence": "Her _____ on the ethical implications of the study was refreshingly direct, avoiding the vagueness common in the field.",
+          "options": [
+            "thesis",
+            "hedging",
+            "stance",
+            "synthesis"
+          ],
+          "answer": "stance"
+        },
+        {
+          "id": 4,
+          "sentence": "Phrases such as 'it appears that' and 'the evidence suggests' are classic examples of _____ in scientific writing.",
+          "options": [
+            "coherence",
+            "argumentation",
+            "hedging",
+            "referencing"
+          ],
+          "answer": "hedging"
+        },
+        {
+          "id": 5,
+          "sentence": "The final chapter offered a compelling _____ of insights drawn from cognitive psychology and sociolinguistics.",
+          "options": [
+            "thesis",
+            "cohesion",
+            "stance",
+            "synthesis"
+          ],
+          "answer": "synthesis"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "thesis",
+        "cohesion",
+        "argumentation",
+        "referencing",
+        "academic integrity",
+        "stance"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Proper _____ — citing sources in the correct format — prevents accusations of plagiarism and respects authorship.",
+          "answer": "referencing"
+        },
+        {
+          "id": 2,
+          "sentence": "Her _____ was clearly stated in the opening paragraph: social media has fundamentally altered public discourse.",
+          "answer": "thesis"
+        },
+        {
+          "id": 3,
+          "sentence": "The lecturer praised the student's _____ — the use of connectives and pronouns made the essay flow naturally.",
+          "answer": "cohesion"
+        },
+        {
+          "id": 4,
+          "sentence": "Upholding _____ means never fabricating data, even when the results are disappointing.",
+          "answer": "academic integrity"
+        },
+        {
+          "id": 5,
+          "sentence": "Effective _____ requires not only stating a claim but anticipating and refuting the most likely counterarguments.",
+          "answer": "argumentation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "a",
+            "strong",
+            "thesis",
+            "anchors",
+            "every",
+            "paragraph",
+            "of",
+            "an",
+            "academic",
+            "essay"
+          ],
+          "answer": "A strong thesis anchors every paragraph of an academic essay."
+        },
+        {
+          "id": 2,
+          "words": [
+            "hedging",
+            "signals",
+            "appropriate",
+            "caution",
+            "without",
+            "undermining",
+            "the",
+            "writer's",
+            "argument"
+          ],
+          "answer": "Hedging signals appropriate caution without undermining the writer's argument."
+        },
+        {
+          "id": 3,
+          "words": [
+            "synthesising",
+            "multiple",
+            "sources",
+            "demonstrates",
+            "genuine",
+            "intellectual",
+            "engagement",
+            "with",
+            "the",
+            "literature"
+          ],
+          "answer": "Synthesising multiple sources demonstrates genuine intellectual engagement with the literature."
+        },
+        {
+          "id": 4,
+          "words": [
+            "nominalization",
+            "gives",
+            "academic",
+            "prose",
+            "a",
+            "formal",
+            "and",
+            "impersonal",
+            "tone"
+          ],
+          "answer": "Nominalization gives academic prose a formal and impersonal tone."
+        },
+        {
+          "id": 5,
+          "words": [
+            "academic",
+            "integrity",
+            "requires",
+            "honest",
+            "attribution",
+            "of",
+            "every",
+            "idea",
+            "borrowed",
+            "from",
+            "others"
+          ],
+          "answer": "Academic integrity requires honest attribution of every idea borrowed from others."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The essay's [cohesive] was undermined by abrupt topic shifts between every paragraph.",
+          "highlighted": "cohesive",
+          "options": {
+            "A": "cohesively",
+            "B": "cohere",
+            "C": "cohesion"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the clause — 'cohesion', not the adjective 'cohesive'."
+        },
+        {
+          "id": 2,
+          "sentence": "The article [hedged] its central claim too aggressively, leaving readers unsure what the author actually believed.",
+          "highlighted": "hedged",
+          "options": {
+            "A": "hedging",
+            "B": "hedge",
+            "C": "hedges"
+          },
+          "answer": "C",
+          "explanation": "The subject 'The article' is third person singular in simple past context, but here present simple 'hedges' fits the general statement; however, 'hedged' as simple past is grammatically valid. The intended error is that 'hedged' should be 'hedges' to maintain present-tense consistency with 'leaving'. Answer C: 'hedges'."
+        },
+        {
+          "id": 3,
+          "sentence": "She was praised for her ability to [synthesising] information from dozens of competing studies.",
+          "highlighted": "synthesising",
+          "options": {
+            "A": "synthesise",
+            "B": "synthesised",
+            "C": "synthesis"
+          },
+          "answer": "A",
+          "explanation": "After 'ability to', the base form of the verb is required — 'synthesise', not the gerund 'synthesising'."
+        },
+        {
+          "id": 4,
+          "sentence": "The report adopted a cautious [standing] on the policy question, avoiding any definitive recommendations.",
+          "highlighted": "standing",
+          "options": {
+            "A": "stance",
+            "B": "stood",
+            "C": "stances"
+          },
+          "answer": "A",
+          "explanation": "'Stance' is the correct academic term for a writer's position on an issue; 'standing' here means reputation or status, which is the wrong meaning in this context."
+        },
+        {
+          "id": 5,
+          "sentence": "Breaching [academically] integrity through fabrication of data can result in permanent expulsion from the institution.",
+          "highlighted": "academically",
+          "options": {
+            "A": "academic's",
+            "B": "academia",
+            "C": "academic"
+          },
+          "answer": "C",
+          "explanation": "An adjective is needed to modify the noun 'integrity' — 'academic integrity' is the established compound noun; 'academically' is an adverb and cannot modify a noun."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "coherence",
+      "2": "nominalization",
+      "3": "stance",
+      "4": "hedging",
+      "5": "synthesis"
+    },
+    "ex3": {
+      "1": "referencing",
+      "2": "thesis",
+      "3": "cohesion",
+      "4": "academic integrity",
+      "5": "argumentation"
+    },
+    "ex4": {
+      "1": "A strong thesis anchors every paragraph of an academic essay.",
+      "2": "Hedging signals appropriate caution without undermining the writer's argument.",
+      "3": "Synthesising multiple sources demonstrates genuine intellectual engagement with the literature.",
+      "4": "Nominalization gives academic prose a formal and impersonal tone.",
+      "5": "Academic integrity requires honest attribution of every idea borrowed from others."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "C",
+      "3": "A",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

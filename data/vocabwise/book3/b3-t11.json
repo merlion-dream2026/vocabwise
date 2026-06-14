@@ -1,0 +1,602 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 11,
+    "topic_id": "b3-t11",
+    "topic_title": "Mental Health & Society",
+    "topic_title_vi": "Sức Khỏe Tâm Thần & Xã Hội",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🧠",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Mental health has emerged as one of the defining public health challenges of the twenty-first century. Despite growing **awareness** of conditions such as **anxiety** and **depression**, a powerful **stigma** continues to surround those who seek help. In many societies, admitting to psychological struggles is still perceived as a sign of weakness, which discourages individuals from accessing the support they need. Addressing this culture of silence is essential for improving **wellbeing** at both individual and community levels.",
+        "text_vi": "Sức khỏe tâm thần đã nổi lên như một trong những thách thức y tế công cộng mang tính thời đại của thế kỷ XXI. Mặc dù **nhận thức** về các tình trạng như **lo âu** và **trầm cảm** ngày càng tăng, một **kỳ thị** mạnh mẽ vẫn bao phủ những người tìm kiếm sự giúp đỡ. Ở nhiều xã hội, thừa nhận những khó khăn tâm lý vẫn bị coi là dấu hiệu của sự yếu đuối, khiến mọi người không dám tiếp cận sự hỗ trợ họ cần. Giải quyết văn hóa im lặng này là điều thiết yếu để cải thiện **sức khỏe toàn diện** ở cấp độ cá nhân lẫn cộng đồng."
+      },
+      {
+        "index": 2,
+        "text_en": "A key step forward is to **raise public awareness** of the fact that mental health **disorder**s are medical conditions, not character flaws. When people understand that **depression** is as physiological as diabetes, they become more likely to **seek professional counselling** rather than suffering in silence. Governments and organisations worldwide are investing in campaigns designed to normalise help-seeking behaviour and dismantle harmful stereotypes.",
+        "text_vi": "Một bước tiến quan trọng là **nâng cao nhận thức cộng đồng** về việc các **rối loạn** sức khỏe tâm thần là những tình trạng y tế, không phải khiếm khuyết nhân cách. Khi mọi người hiểu rằng **trầm cảm** có tính sinh lý giống như bệnh tiểu đường, họ có nhiều khả năng **tìm đến tư vấn chuyên nghiệp** hơn thay vì chịu đựng trong im lặng. Các chính phủ và tổ chức trên toàn thế giới đang đầu tư vào các chiến dịch nhằm bình thường hóa hành vi tìm kiếm sự giúp đỡ và phá bỏ các định kiến có hại."
+      },
+      {
+        "index": 3,
+        "text_en": "**Therapy** plays a central role in mental health **prevention** and recovery. Whether cognitive-behavioural, psychodynamic, or group-based, therapeutic approaches equip individuals with tools to manage distressing emotions and reshape unhelpful thought patterns. Building personal **resilience** is equally important; those who **build emotional resilience** are better placed to withstand life's inevitable setbacks without slipping into crisis.",
+        "text_vi": "**Liệu pháp tâm lý** đóng vai trò trung tâm trong **phòng ngừa** và phục hồi sức khỏe tâm thần. Dù là liệu pháp nhận thức-hành vi, tâm lý động lực hay nhóm trị liệu, các phương pháp điều trị trang bị cho cá nhân công cụ để quản lý cảm xúc đau khổ và định hình lại các mô thức suy nghĩ không có ích. Xây dựng **khả năng phục hồi** cá nhân cũng quan trọng không kém; những ai **xây dựng khả năng phục hồi cảm xúc** sẽ vững vàng hơn trước những thất bại không thể tránh khỏi trong cuộc sống mà không rơi vào khủng hoảng."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, the goal is to **prevent psychological disorders** before they take hold, rather than intervening only when crises occur. This requires a shift from reactive to proactive healthcare: investing in school-based mental health programmes, training community workers, and fostering open conversations about emotional struggles. Societies that succeed in reducing **stigma** and expanding access to **counselling** will be better equipped to support the mental **wellbeing** of all their citizens. Efforts to **reduce mental health stigma** remain among the most urgent priorities in global health today.",
+        "text_vi": "Cuối cùng, mục tiêu là **phòng ngừa các rối loạn tâm lý** trước khi chúng bám rễ, thay vì chỉ can thiệp khi khủng hoảng xảy ra. Điều này đòi hỏi sự chuyển dịch từ chăm sóc sức khỏe phản ứng sang chủ động: đầu tư vào các chương trình sức khỏe tâm thần trong trường học, đào tạo nhân viên cộng đồng, và thúc đẩy các cuộc trò chuyện cởi mở về những khó khăn cảm xúc. Các xã hội thành công trong việc giảm **kỳ thị** và mở rộng tiếp cận **tư vấn tâm lý** sẽ được trang bị tốt hơn để hỗ trợ **sức khỏe toàn diện** về mặt tâm thần cho tất cả công dân. Nỗ lực **giảm kỳ thị sức khỏe tâm thần** vẫn là một trong những ưu tiên cấp bách nhất trong y tế toàn cầu hiện nay."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "stigma",
+      "ipa": "/ˈstɪɡ.mə/",
+      "pos": "noun",
+      "meaning_vi": "sự kỳ thị, vết nhơ xã hội",
+      "meaning_vi_inline": "kỳ thị",
+      "example_en": "The stigma surrounding mental illness prevents many people from seeking help.",
+      "example_vi": "Sự kỳ thị xung quanh bệnh tâm thần ngăn cản nhiều người tìm kiếm sự giúp đỡ.",
+      "word_family": {
+        "noun": "stigma / stigmatisation",
+        "verb": "stigmatise",
+        "adjective": "stigmatised / stigmatic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "anxiety",
+      "ipa": "/æŋˈzaɪ.ə.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự lo âu, chứng lo lắng",
+      "meaning_vi_inline": "lo âu",
+      "example_en": "Generalised anxiety disorder is characterised by persistent and excessive worry.",
+      "example_vi": "Rối loạn lo âu lan toả được đặc trưng bởi sự lo lắng dai dẳng và thái quá.",
+      "word_family": {
+        "noun": "anxiety",
+        "verb": null,
+        "adjective": "anxious",
+        "adverb": "anxiously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "depression",
+      "ipa": "/dɪˈpreʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "chứng trầm cảm, sự suy sụp tinh thần",
+      "meaning_vi_inline": "trầm cảm",
+      "example_en": "Clinical depression requires professional treatment and should not be dismissed as mere sadness.",
+      "example_vi": "Trầm cảm lâm sàng cần được điều trị chuyên nghiệp và không nên bị coi nhẹ là nỗi buồn thông thường.",
+      "word_family": {
+        "noun": "depression",
+        "verb": "depress",
+        "adjective": "depressed / depressing / depressive",
+        "adverb": "depressingly"
+      },
+      "false_friend": {
+        "word_vi": "recession",
+        "explanation_vi": "'Depression' trong y khoa nghĩa là trầm cảm; trong kinh tế là suy thoái nặng — khác với 'recession' (suy thoái nhẹ). Ngữ cảnh quyết định nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "therapy",
+      "ipa": "/ˈθer.ə.pi/",
+      "pos": "noun",
+      "meaning_vi": "liệu pháp, phương pháp điều trị",
+      "meaning_vi_inline": "liệu pháp tâm lý",
+      "example_en": "Cognitive behavioural therapy has proven effective in treating both anxiety and depression.",
+      "example_vi": "Liệu pháp nhận thức hành vi đã được chứng minh là hiệu quả trong điều trị cả lo âu lẫn trầm cảm.",
+      "word_family": {
+        "noun": "therapy / therapist",
+        "verb": null,
+        "adjective": "therapeutic",
+        "adverb": "therapeutically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "resilience",
+      "ipa": "/rɪˈzɪl.i.əns/",
+      "pos": "noun",
+      "meaning_vi": "khả năng phục hồi, sức bật nội tâm",
+      "meaning_vi_inline": "khả năng phục hồi",
+      "example_en": "Children who develop resilience early in life tend to cope better with adversity.",
+      "example_vi": "Trẻ em phát triển khả năng phục hồi từ sớm có xu hướng đối phó tốt hơn với nghịch cảnh.",
+      "word_family": {
+        "noun": "resilience",
+        "verb": null,
+        "adjective": "resilient",
+        "adverb": "resiliently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "disorder",
+      "ipa": "/dɪsˈɔː.dər/",
+      "pos": "noun",
+      "meaning_vi": "rối loạn, bệnh lý",
+      "meaning_vi_inline": "rối loạn",
+      "example_en": "Eating disorders are complex mental health conditions that require specialist support.",
+      "example_vi": "Rối loạn ăn uống là những tình trạng sức khỏe tâm thần phức tạp cần được hỗ trợ chuyên biệt.",
+      "word_family": {
+        "noun": "disorder",
+        "verb": "disorder",
+        "adjective": "disordered",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "awareness",
+      "ipa": "/əˈweə.nəs/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, sự hiểu biết về một vấn đề",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "Mental health awareness campaigns have helped reduce discrimination in many workplaces.",
+      "example_vi": "Các chiến dịch nâng cao nhận thức về sức khỏe tâm thần đã giúp giảm sự phân biệt đối xử tại nhiều nơi làm việc.",
+      "word_family": {
+        "noun": "awareness",
+        "verb": null,
+        "adjective": "aware",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "counselling",
+      "ipa": "/ˈkaʊn.sə.lɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "tư vấn tâm lý, tham vấn",
+      "meaning_vi_inline": "tư vấn tâm lý",
+      "example_en": "Many universities now offer free counselling services to support students' mental health.",
+      "example_vi": "Nhiều trường đại học hiện cung cấp dịch vụ tư vấn tâm lý miễn phí để hỗ trợ sức khỏe tâm thần của sinh viên.",
+      "word_family": {
+        "noun": "counselling / counsellor",
+        "verb": "counsel",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "consulting",
+        "explanation_vi": "'Counselling' là tư vấn tâm lý/cảm xúc; 'consulting' là tư vấn chuyên môn trong lĩnh vực kinh doanh hay kỹ thuật — không dùng thay thế nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "prevention",
+      "ipa": "/prɪˈven.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phòng ngừa, biện pháp ngăn chặn",
+      "meaning_vi_inline": "phòng ngừa",
+      "example_en": "Early intervention is the most cost-effective strategy for mental health prevention.",
+      "example_vi": "Can thiệp sớm là chiến lược hiệu quả về chi phí nhất cho việc phòng ngừa sức khỏe tâm thần.",
+      "word_family": {
+        "noun": "prevention",
+        "verb": "prevent",
+        "adjective": "preventive / preventable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "wellbeing",
+      "ipa": "/ˈwel.biː.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "sức khỏe toàn diện, trạng thái an lành",
+      "meaning_vi_inline": "sức khỏe toàn diện",
+      "example_en": "Employee wellbeing programmes have been linked to higher productivity and lower staff turnover.",
+      "example_vi": "Các chương trình chăm sóc sức khỏe toàn diện cho nhân viên được liên kết với năng suất cao hơn và tỷ lệ nghỉ việc thấp hơn.",
+      "word_family": {
+        "noun": "wellbeing",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "reduce mental health stigma",
+      "meaning_vi": "giảm kỳ thị sức khỏe tâm thần",
+      "example_en": "Public figures who speak openly about their struggles do much to reduce mental health stigma.",
+      "example_vi": "Những nhân vật công chúng cởi mở về khó khăn của họ đóng góp rất nhiều để giảm kỳ thị sức khỏe tâm thần.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "seek professional counselling",
+      "meaning_vi": "tìm đến tư vấn chuyên nghiệp",
+      "example_en": "After months of persistent low mood, she finally decided to seek professional counselling.",
+      "example_vi": "Sau nhiều tháng tâm trạng ủ rũ dai dẳng, cô ấy cuối cùng đã quyết định tìm đến tư vấn chuyên nghiệp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "build emotional resilience",
+      "meaning_vi": "xây dựng khả năng phục hồi cảm xúc",
+      "example_en": "Mindfulness practice is widely recommended as a way to build emotional resilience over time.",
+      "example_vi": "Thực hành chánh niệm được khuyến nghị rộng rãi như một cách để xây dựng khả năng phục hồi cảm xúc theo thời gian.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "raise public awareness",
+      "meaning_vi": "nâng cao nhận thức cộng đồng",
+      "example_en": "The charity launched a social media campaign to raise public awareness of depression in young people.",
+      "example_vi": "Tổ chức từ thiện đã triển khai chiến dịch mạng xã hội để nâng cao nhận thức cộng đồng về chứng trầm cảm ở giới trẻ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "prevent psychological disorders",
+      "meaning_vi": "phòng ngừa các rối loạn tâm lý",
+      "example_en": "School-based mental health programmes are designed to prevent psychological disorders from developing in adolescence.",
+      "example_vi": "Các chương trình sức khỏe tâm thần trong trường học được thiết kế để phòng ngừa các rối loạn tâm lý phát triển trong giai đoạn thanh thiếu niên.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, stigma surrounding mental health encourages people to seek help.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage compares depression to diabetes to illustrate that it is a physiological condition.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that cognitive-behavioural therapy is more effective than group-based therapy.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that reactive healthcare is more cost-effective than proactive approaches.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Reducing mental health stigma is described as an urgent global health priority.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ surrounding mental illness has long prevented patients from discussing their conditions openly.",
+          "options": [
+            "stigma",
+            "therapy",
+            "resilience",
+            "prevention"
+          ],
+          "answer": "stigma"
+        },
+        {
+          "id": 2,
+          "sentence": "After losing her job, she experienced severe _____, finding it difficult to get out of bed each morning.",
+          "options": [
+            "awareness",
+            "counselling",
+            "wellbeing",
+            "depression"
+          ],
+          "answer": "depression"
+        },
+        {
+          "id": 3,
+          "sentence": "The therapist recommended a structured _____ programme to help the patient develop healthier thinking patterns.",
+          "options": [
+            "disorder",
+            "anxiety",
+            "therapy",
+            "stigma"
+          ],
+          "answer": "therapy"
+        },
+        {
+          "id": 4,
+          "sentence": "Post-traumatic stress _____ can affect individuals long after the triggering event has passed.",
+          "options": [
+            "wellbeing",
+            "prevention",
+            "resilience",
+            "disorder"
+          ],
+          "answer": "disorder"
+        },
+        {
+          "id": 5,
+          "sentence": "The school invested in student _____ programmes, including mindfulness sessions and peer support groups.",
+          "options": [
+            "awareness",
+            "stigma",
+            "wellbeing",
+            "counselling"
+          ],
+          "answer": "wellbeing"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "resilience",
+        "anxiety",
+        "counselling",
+        "prevention",
+        "awareness",
+        "stigma"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Public _____ of mental health issues has grown significantly following high-profile celebrity disclosures.",
+          "answer": "awareness"
+        },
+        {
+          "id": 2,
+          "sentence": "Examination _____ is common among students and can be managed through breathing techniques and structured study plans.",
+          "answer": "anxiety"
+        },
+        {
+          "id": 3,
+          "sentence": "School _____ services provide a confidential space where students can discuss emotional difficulties with trained professionals.",
+          "answer": "counselling"
+        },
+        {
+          "id": 4,
+          "sentence": "Building _____ in children means teaching them to recover from failure rather than simply shielding them from it.",
+          "answer": "resilience"
+        },
+        {
+          "id": 5,
+          "sentence": "Early _____ of burnout requires organisations to monitor workloads and foster a culture where rest is valued.",
+          "answer": "prevention"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "stigma",
+            "mental",
+            "health",
+            "many",
+            "prevents",
+            "people",
+            "from",
+            "treatment",
+            "seeking"
+          ],
+          "answer": "Mental health stigma prevents many people from seeking treatment."
+        },
+        {
+          "id": 2,
+          "words": [
+            "therapy",
+            "helps",
+            "patients",
+            "manage",
+            "anxiety",
+            "and",
+            "reshape",
+            "unhelpful",
+            "thinking",
+            "patterns"
+          ],
+          "answer": "Therapy helps patients manage anxiety and reshape unhelpful thinking patterns."
+        },
+        {
+          "id": 3,
+          "words": [
+            "building",
+            "resilience",
+            "emotional",
+            "enables",
+            "people",
+            "to",
+            "cope",
+            "with",
+            "setbacks",
+            "more",
+            "effectively"
+          ],
+          "answer": "Building emotional resilience enables people to cope with setbacks more effectively."
+        },
+        {
+          "id": 4,
+          "words": [
+            "campaigns",
+            "public",
+            "awareness",
+            "normalise",
+            "help",
+            "to",
+            "help-seeking",
+            "behaviour"
+          ],
+          "answer": "Public awareness campaigns help to normalise help-seeking behaviour."
+        },
+        {
+          "id": 5,
+          "words": [
+            "counselling",
+            "access",
+            "to",
+            "professional",
+            "is",
+            "vital",
+            "for",
+            "mental",
+            "health",
+            "prevention"
+          ],
+          "answer": "Access to professional counselling is vital for mental health prevention."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Raising [aware] of mental health issues is the first step towards dismantling harmful stereotypes.",
+          "highlighted": "aware",
+          "options": {
+            "A": "awareness",
+            "B": "awared",
+            "C": "awaring"
+          },
+          "answer": "A",
+          "explanation": "A noun is required after the verb 'Raising' — 'awareness', not the adjective 'aware'."
+        },
+        {
+          "id": 2,
+          "sentence": "She felt overwhelming [anxious] before every public presentation, making it difficult to perform well.",
+          "highlighted": "anxious",
+          "options": {
+            "A": "anxiously",
+            "B": "anxiousness",
+            "C": "anxiety"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed after the adjective 'overwhelming' — 'anxiety', not the adjective 'anxious'."
+        },
+        {
+          "id": 3,
+          "sentence": "The doctor referred him to a specialist in mood [disorder] after ruling out physical causes.",
+          "highlighted": "disorder",
+          "options": {
+            "A": "disordered",
+            "B": "disorders",
+            "C": "disordering"
+          },
+          "answer": "B",
+          "explanation": "A plural noun is required as the object of the preposition 'in' when referring to the general category — 'disorders', not the singular 'disorder'."
+        },
+        {
+          "id": 4,
+          "sentence": "The programme aims to [preventive] psychological disorders by training teachers to identify early warning signs.",
+          "highlighted": "preventive",
+          "options": {
+            "A": "prevention",
+            "B": "prevented",
+            "C": "prevent"
+          },
+          "answer": "C",
+          "explanation": "An infinitive verb is required after the auxiliary 'to' — 'prevent', not the adjective 'preventive'."
+        },
+        {
+          "id": 5,
+          "sentence": "Her years of [therapy] practice as a counsellor made her exceptionally skilled at reading emotional cues.",
+          "highlighted": "therapy",
+          "options": {
+            "A": "therapist",
+            "B": "therapeutic",
+            "C": "therapied"
+          },
+          "answer": "B",
+          "explanation": "An adjective is needed to modify the noun 'practice' — 'therapeutic', not the noun 'therapy'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "stigma",
+      "2": "depression",
+      "3": "therapy",
+      "4": "disorder",
+      "5": "wellbeing"
+    },
+    "ex3": {
+      "1": "awareness",
+      "2": "anxiety",
+      "3": "counselling",
+      "4": "resilience",
+      "5": "prevention"
+    },
+    "ex4": {
+      "1": "Mental health stigma prevents many people from seeking treatment.",
+      "2": "Therapy helps patients manage anxiety and reshape unhelpful thinking patterns.",
+      "3": "Building emotional resilience enables people to cope with setbacks more effectively.",
+      "4": "Public awareness campaigns help to normalise help-seeking behaviour.",
+      "5": "Access to professional counselling is vital for mental health prevention."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

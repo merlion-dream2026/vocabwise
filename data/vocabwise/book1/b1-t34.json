@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 34,
+    "topic_id": "b1-t34",
+    "topic_title": "Numbers & Maths",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🔢",
+    "topic_title_vi": "Số Học & Toán",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 115,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Maths is my favourite subject. Every lesson, we work with **number**s, shapes, and patterns. Our teacher says it is important to **count** carefully before you write your answer. Even a small mistake can give you the wrong **result**.",
+        "text_vi": "Toán là môn học yêu thích của tôi. Mỗi buổi học, chúng tôi làm việc với các **con số**, hình dạng và quy luật. Giáo viên nói rằng điều quan trọng là phải **đếm** cẩn thận trước khi viết câu trả lời. Ngay cả một sai lầm nhỏ cũng có thể cho bạn **kết quả** sai."
+      },
+      {
+        "index": 2,
+        "text_en": "In today's lesson, we learned to **add** and **subtract** small numbers. Then we tried to **multiply** and **divide** them. The teacher showed us how to find the **total** when we **add** several numbers **together**. She also showed us that five **plus** five and ten **divide**d by one are both **equal** to ten.",
+        "text_vi": "Trong bài học hôm nay, chúng tôi học **cộng** và **trừ** các con số nhỏ. Sau đó chúng tôi thử **nhân** và **chia** chúng. Giáo viên chỉ cho chúng tôi cách tìm **tổng** khi **cộng** nhiều con số lại với nhau. Cô ấy cũng chỉ cho chúng tôi rằng năm cộng năm và mười **chia** cho một đều **bằng** mười."
+      },
+      {
+        "index": 3,
+        "text_en": "We also learned to **solve** word **problem**s. A word **problem** is a question written as a short story. It is not always **simple** — you must read it carefully. When you get the **correct** answer, it feels great. When you get it **wrong**, you should try again.",
+        "text_vi": "Chúng tôi cũng học cách **giải** các bài **toán** có lời văn. Một bài **toán** có lời văn là một câu hỏi viết dưới dạng câu chuyện ngắn. Không phải lúc nào cũng **đơn giản** — bạn phải đọc kỹ. Khi bạn trả lời **đúng**, cảm giác rất tuyệt. Khi làm **sai**, bạn nên thử lại."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end of class, our teacher gave us a quiz. One question asked: what is **half** of twenty? I knew the answer was ten. I finished all the questions and got a **correct** **result**. Maths is hard sometimes, but if you practise, it becomes much more **simple**.",
+        "text_vi": "Cuối giờ, giáo viên cho chúng tôi làm bài kiểm tra nhỏ. Một câu hỏi là: **một nửa** của hai mươi là bao nhiêu? Tôi biết câu trả lời là mười. Tôi hoàn thành tất cả các câu hỏi và có được **kết quả** **đúng**. Toán đôi khi khó, nhưng nếu bạn luyện tập, nó sẽ trở nên **đơn giản** hơn nhiều."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "number",
+      "ipa": "/ˈnʌmbər/",
+      "pos": "noun",
+      "meaning_vi": "con số, số",
+      "meaning_vi_inline": "con số",
+      "example_en": "Write the number ten in the box next to the correct answer.",
+      "example_vi": "Viết con số mười vào ô bên cạnh câu trả lời đúng.",
+      "word_family": {
+        "noun": "number",
+        "verb": "number (to label with numbers)",
+        "adjective": "numerical",
+        "adverb": "numerically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "count",
+      "ipa": "/kaʊnt/",
+      "pos": "verb / noun",
+      "meaning_vi": "đếm; lần đếm",
+      "meaning_vi_inline": "đếm",
+      "example_en": "Count all the apples in the picture and write the number in your book.",
+      "example_vi": "Đếm tất cả những quả táo trong tranh và viết con số vào vở của bạn.",
+      "word_family": {
+        "noun": "count / counter",
+        "verb": "count / counted",
+        "adjective": "countable / uncountable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "add",
+      "ipa": "/æd/",
+      "pos": "verb",
+      "meaning_vi": "cộng, thêm vào",
+      "meaning_vi_inline": "cộng",
+      "example_en": "If you add five and three, you get eight.",
+      "example_vi": "Nếu bạn cộng năm với ba, bạn được tám.",
+      "word_family": {
+        "noun": "addition",
+        "verb": "add / added",
+        "adjective": "additional",
+        "adverb": "additionally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "subtract",
+      "ipa": "/səbˈtrækt/",
+      "pos": "verb",
+      "meaning_vi": "trừ",
+      "meaning_vi_inline": "trừ",
+      "example_en": "If you subtract four from nine, the answer is five.",
+      "example_vi": "Nếu bạn trừ bốn từ chín, câu trả lời là năm.",
+      "word_family": {
+        "noun": "subtraction",
+        "verb": "subtract / subtracted",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "multiply",
+      "ipa": "/ˈmʌltɪplaɪ/",
+      "pos": "verb",
+      "meaning_vi": "nhân (trong toán học)",
+      "meaning_vi_inline": "nhân",
+      "example_en": "Three multiplied by four equals twelve.",
+      "example_vi": "Ba nhân bốn bằng mười hai.",
+      "word_family": {
+        "noun": "multiplication",
+        "verb": "multiply / multiplied",
+        "adjective": "multiple",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "divide",
+      "ipa": "/dɪˈvaɪd/",
+      "pos": "verb",
+      "meaning_vi": "chia (trong toán học)",
+      "meaning_vi_inline": "chia",
+      "example_en": "Divide twenty by four and you get five.",
+      "example_vi": "Chia hai mươi cho bốn và bạn được năm.",
+      "word_family": {
+        "noun": "division / divide",
+        "verb": "divide / divided",
+        "adjective": "divisible",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "total",
+      "ipa": "/ˈtəʊtəl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "tổng số; tổng cộng",
+      "meaning_vi_inline": "tổng",
+      "example_en": "Add all the numbers together to find the total.",
+      "example_vi": "Cộng tất cả các con số lại với nhau để tìm tổng.",
+      "word_family": {
+        "noun": "total",
+        "verb": "total (to add up to)",
+        "adjective": "total",
+        "adverb": "totally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "equal",
+      "ipa": "/ˈiːkwəl/",
+      "pos": "adjective / verb",
+      "meaning_vi": "bằng nhau; bằng",
+      "meaning_vi_inline": "bằng",
+      "example_en": "Two plus two equals four — both sides of the equation are equal.",
+      "example_vi": "Hai cộng hai bằng bốn — cả hai vế của phương trình đều bằng nhau.",
+      "word_family": {
+        "noun": "equality",
+        "verb": "equal / equalled",
+        "adjective": "equal / unequal",
+        "adverb": "equally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "solve",
+      "ipa": "/sɒlv/",
+      "pos": "verb",
+      "meaning_vi": "giải (bài toán), tìm ra đáp án",
+      "meaning_vi_inline": "giải",
+      "example_en": "Can you solve this maths problem without using a calculator?",
+      "example_vi": "Bạn có thể giải bài toán này mà không dùng máy tính không?",
+      "word_family": {
+        "noun": "solution / solver",
+        "verb": "solve / solved",
+        "adjective": "solvable / unsolvable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "problem",
+      "ipa": "/ˈprɒbləm/",
+      "pos": "noun",
+      "meaning_vi": "bài toán; vấn đề",
+      "meaning_vi_inline": "toán",
+      "example_en": "The teacher wrote a problem on the board and asked us to find the answer.",
+      "example_vi": "Giáo viên viết một bài toán lên bảng và yêu cầu chúng tôi tìm câu trả lời.",
+      "word_family": {
+        "noun": "problem",
+        "verb": null,
+        "adjective": "problematic",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "correct",
+      "ipa": "/kəˈrekt/",
+      "pos": "adjective / verb",
+      "meaning_vi": "đúng, chính xác; sửa lỗi",
+      "meaning_vi_inline": "đúng",
+      "example_en": "Well done — your answer is correct! You got full marks.",
+      "example_vi": "Giỏi lắm — câu trả lời của bạn đúng rồi! Bạn được điểm tuyệt đối.",
+      "word_family": {
+        "noun": "correction",
+        "verb": "correct / corrected",
+        "adjective": "correct / incorrect",
+        "adverb": "correctly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "wrong",
+      "ipa": "/rɒŋ/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "sai, không đúng",
+      "meaning_vi_inline": "sai",
+      "example_en": "My first answer was wrong, so I checked my work and tried again.",
+      "example_vi": "Câu trả lời đầu tiên của tôi sai, vì vậy tôi kiểm tra lại bài và thử lại.",
+      "word_family": {
+        "noun": "wrong",
+        "verb": "wrong (to treat someone unfairly)",
+        "adjective": "wrong",
+        "adverb": "wrongly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "simple",
+      "ipa": "/ˈsɪmpəl/",
+      "pos": "adjective",
+      "meaning_vi": "đơn giản, dễ",
+      "meaning_vi_inline": "đơn giản",
+      "example_en": "The first exercise is simple — just add the two numbers together.",
+      "example_vi": "Bài tập đầu tiên thì đơn giản — chỉ cần cộng hai con số lại với nhau.",
+      "word_family": {
+        "noun": "simplicity",
+        "verb": "simplify",
+        "adjective": "simple",
+        "adverb": "simply"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "half",
+      "ipa": "/hɑːf/",
+      "pos": "noun / adjective / adverb",
+      "meaning_vi": "một nửa",
+      "meaning_vi_inline": "một nửa",
+      "example_en": "Cut the pizza into two equal pieces — each piece is half.",
+      "example_vi": "Cắt cái bánh pizza thành hai miếng bằng nhau — mỗi miếng là một nửa.",
+      "word_family": {
+        "noun": "half / halves",
+        "verb": "halve / halved",
+        "adjective": "half",
+        "adverb": "halfway"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "result",
+      "ipa": "/rɪˈzʌlt/",
+      "pos": "noun / verb",
+      "meaning_vi": "kết quả; dẫn đến",
+      "meaning_vi_inline": "kết quả",
+      "example_en": "I checked my result three times to make sure it was correct.",
+      "example_vi": "Tôi kiểm tra kết quả ba lần để chắc chắn rằng nó đúng.",
+      "word_family": {
+        "noun": "result",
+        "verb": "result in / result from",
+        "adjective": "resulting",
+        "adverb": "as a result"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "subtract" },
+        { "id": 2, "word": "total" },
+        { "id": 3, "word": "solve" },
+        { "id": 4, "word": "half" },
+        { "id": 5, "word": "equal" }
+      ],
+      "options": [
+        { "id": "A", "text": "to find the answer to a maths problem or a difficult question" },
+        { "id": "B", "text": "the same in amount, number, or value" },
+        { "id": "C", "text": "one of two parts of exactly the same size" },
+        { "id": "D", "text": "to take one number away from another" },
+        { "id": "E", "text": "the final number you get when you add everything together" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Can you _____ this problem? The answer should be a whole number.",
+          "options": ["count", "solve", "divide", "add"],
+          "answer": "solve"
+        },
+        {
+          "id": 2,
+          "sentence": "The question was very _____ — even young students could answer it quickly.",
+          "options": ["wrong", "equal", "simple", "correct"],
+          "answer": "simple"
+        },
+        {
+          "id": 3,
+          "sentence": "Add all five numbers together and write down the _____ at the bottom of the page.",
+          "options": ["result", "total", "number", "half"],
+          "answer": "total"
+        },
+        {
+          "id": 4,
+          "sentence": "My answer was _____, so the teacher asked me to check my work again.",
+          "options": ["wrong", "correct", "simple", "equal"],
+          "answer": "wrong"
+        },
+        {
+          "id": 5,
+          "sentence": "If you _____ twelve by three, you get four.",
+          "options": ["add", "count", "subtract", "divide"],
+          "answer": "divide"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["multiply", "result", "correct", "number", "subtract", "count"],
+      "items": [
+        { "id": 1, "sentence": "Write any _____ between one and ten in the box on the right.", "answer": "number" },
+        { "id": 2, "sentence": "_____ backwards from ten to one as fast as you can.", "answer": "count" },
+        { "id": 3, "sentence": "You need to _____ eight by five to get the answer forty.", "answer": "multiply" },
+        { "id": 4, "sentence": "_____ three from fifteen and you will get twelve.", "answer": "subtract" },
+        { "id": 5, "sentence": "Check your _____ before you hand in your test paper.", "answer": "result" }
+      ],
+      "note": "One word in the box is not used: correct"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She answered all five questions _____, so she got full marks. (CORRECT)",
+          "base_word": "CORRECT",
+          "answer": "correctly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher found one _____ in my work and asked me to fix it. (CORRECT)",
+          "base_word": "CORRECT",
+          "answer": "correction",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "This exercise is not difficult — it only uses _____ and subtraction. (ADD)",
+          "base_word": "ADD",
+          "answer": "addition",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "The problem seems _____ at first, but the solution requires several steps. (SOLVE)",
+          "base_word": "SOLVE",
+          "answer": "solvable",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "You can _____ the number of apples by cutting each one in half. (HALF)",
+          "base_word": "HALF",
+          "answer": "halve",
+          "form_used": "verb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Four [multiplied] four equals eight — that is a simple addition.",
+          "highlighted": "multiplied",
+          "options": { "A": "multiplied", "B": "plus", "C": "divided by" },
+          "answer": "B",
+          "explanation": "Four multiplied by four equals sixteen, not eight. When you add four and four together, you get eight. The correct word here is 'plus' (four plus four equals eight)."
+        },
+        {
+          "id": 2,
+          "sentence": "She checked the [total] of the maths problem three times to be sure it was right.",
+          "highlighted": "total",
+          "options": { "A": "number", "B": "total", "C": "result" },
+          "answer": "C",
+          "explanation": "A 'total' is the sum you get from adding numbers. When you check whether your working and answer are correct, you check your 'result' — the outcome of your calculation."
+        },
+        {
+          "id": 3,
+          "sentence": "The question was very [wrong] — even the youngest student in the class got it right.",
+          "highlighted": "wrong",
+          "options": { "A": "simple", "B": "wrong", "C": "equal" },
+          "answer": "A",
+          "explanation": "'Wrong' describes an incorrect answer, not a question. A question that is easy to answer, even for young students, is described as 'simple'."
+        },
+        {
+          "id": 4,
+          "sentence": "You need to [count] seven from fifteen to get the answer eight.",
+          "highlighted": "count",
+          "options": { "A": "add", "B": "count", "C": "subtract" },
+          "answer": "C",
+          "explanation": "'Count' means to say numbers in order or find how many there are. When you take one number away from another (15 − 7 = 8), you 'subtract' it."
+        },
+        {
+          "id": 5,
+          "sentence": "Three times three [adds] nine — this is a multiplication fact.",
+          "highlighted": "adds",
+          "options": { "A": "counts", "B": "adds", "C": "equals" },
+          "answer": "C",
+          "explanation": "'Adds' is used for addition (e.g. 3 + 3 = 6). When you state the result of a multiplication, you use 'equals' (three times three equals nine)."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "D", "2": "E", "3": "A", "4": "C", "5": "B" },
+    "ex2": { "1": "solve", "2": "simple", "3": "total", "4": "wrong", "5": "divide" },
+    "ex3": { "1": "number", "2": "count", "3": "multiply", "4": "subtract", "5": "result" },
+    "ex4": { "1": "correctly", "2": "correction", "3": "addition", "4": "solvable", "5": "halve" },
+    "ex5": { "1": "B", "2": "C", "3": "A", "4": "C", "5": "C" }
+  }
+}

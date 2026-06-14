@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 9,
+    "topic_id": "b3-t09",
+    "topic_title": "Social Media & Mental Health",
+    "topic_title_vi": "Mạng Xã Hội & Sức Khỏe Tâm Thần",
+    "theme_number": 1,
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "📱",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Social media platforms have transformed how people communicate, yet their impact on mental health is deeply contested. Many users develop a psychological **addiction** to constant scrolling, driven by the need for **validation** through likes and comments. Platforms are designed to maximise **exposure** — the frequency and duration of contact with content — by rewarding engagement with dopamine-triggering notifications. As a result, users often find it difficult to disengage, even when platform use begins to harm their wellbeing.",
+        "text_vi": "Các nền tảng mạng xã hội đã thay đổi cách con người giao tiếp, nhưng tác động của chúng đến sức khỏe tâm thần vẫn còn nhiều tranh cãi. Nhiều người dùng hình thành tâm lý **nghiện** cuộn màn hình liên tục, được thúc đẩy bởi nhu cầu được **công nhận** qua lượt thích và bình luận. Các nền tảng được thiết kế để tối đa hóa **phơi nhiễm** — tần suất và thời gian tiếp xúc với nội dung — bằng cách khen thưởng sự tương tác với các thông báo kích thích dopamine. Kết quả là, người dùng thường thấy khó thoát ra, ngay cả khi việc sử dụng nền tảng bắt đầu gây hại cho sức khỏe của họ."
+      },
+      {
+        "index": 2,
+        "text_en": "A significant concern is the tendency to **curate an idealised self-image** — presenting only the most flattering moments of one's life. This practice promotes **distortion** of reality, as audiences receive a highly selective picture of others' lives. Consequently, regular social media use can **foster unhealthy social comparison**, eroding self-esteem and fuelling feelings of inadequacy, particularly among adolescents.",
+        "text_vi": "Một mối lo ngại đáng kể là xu hướng **tạo dựng hình ảnh bản thân lý tưởng hóa** — chỉ chia sẻ những khoảnh khắc đẹp nhất trong cuộc sống. Thói quen này thúc đẩy sự **bóp méo** thực tế, vì người xem nhận được một bức tranh rất chọn lọc về cuộc sống của người khác. Do đó, việc sử dụng mạng xã hội thường xuyên có thể **nuôi dưỡng sự so sánh xã hội không lành mạnh**, làm xói mòn lòng tự trọng và khơi dậy cảm giác kém cỏi, đặc biệt ở thanh thiếu niên."
+      },
+      {
+        "index": 3,
+        "text_en": "The cloak of **anonymity** online has enabled widespread **harassment**, making digital spaces hostile for many users. Research indicates that those who regularly experience cyberbullying often **experience digital detachment** — a deliberate withdrawal from online life — as a coping mechanism. While this **detachment** can offer temporary relief, it may also deepen social isolation and reduce opportunities for genuine **comparison** and peer connection.",
+        "text_vi": "Sự che đậy của **ẩn danh** trực tuyến đã tạo điều kiện cho **quấy rối** lan rộng, khiến không gian số trở nên thù địch với nhiều người dùng. Nghiên cứu chỉ ra rằng những người thường xuyên trải qua bắt nạt trực tuyến thường **trải nghiệm sự thoát ly kỹ thuật số** — sự rút lui có chủ đích khỏi cuộc sống trực tuyến — như một cơ chế đối phó. Mặc dù sự **thoát ly** này có thể mang lại sự nhẹ nhõm tạm thời, nhưng nó cũng có thể làm sâu sắc thêm sự cô lập xã hội và giảm cơ hội **so sánh** và kết nối với bạn bè thực sự."
+      },
+      {
+        "index": 4,
+        "text_en": "Despite these risks, educators and mental health professionals are increasingly focusing on ways to **combat online harassment** and **build digital resilience**. The **adaptability** of young people is often cited as a key asset; those who develop critical digital literacy skills are better equipped to navigate online environments without compromising their mental health. Ultimately, cultivating a conscious and reflective relationship with social media remains the most sustainable path forward.",
+        "text_vi": "Bất chấp những rủi ro này, các nhà giáo dục và chuyên gia sức khỏe tâm thần ngày càng tập trung vào các cách **chống lại quấy rối trực tuyến** và **xây dựng khả năng phục hồi kỹ thuật số**. **Khả năng thích nghi** của giới trẻ thường được coi là tài sản quan trọng; những người phát triển kỹ năng hiểu biết kỹ thuật số có phê phán được trang bị tốt hơn để điều hướng môi trường trực tuyến mà không ảnh hưởng đến sức khỏe tâm thần của họ. Cuối cùng, nuôi dưỡng một mối quan hệ có ý thức và suy ngẫm với mạng xã hội vẫn là con đường bền vững nhất."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "addiction",
+      "ipa": "/əˈdɪk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự nghiện, chứng nghiện",
+      "meaning_vi_inline": "nghiện",
+      "example_en": "Smartphone addiction affects millions of people worldwide.",
+      "example_vi": "Chứng nghiện điện thoại thông minh ảnh hưởng đến hàng triệu người trên toàn thế giới.",
+      "word_family": {
+        "noun": "addiction / addict",
+        "verb": "be addicted (to)",
+        "adjective": "addictive / addicted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "validation",
+      "ipa": "/ˌvæl.ɪˈdeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự công nhận, sự xác nhận (về mặt cảm xúc)",
+      "meaning_vi_inline": "công nhận",
+      "example_en": "Many teenagers seek validation through the number of likes they receive online.",
+      "example_vi": "Nhiều thanh thiếu niên tìm kiếm sự công nhận qua số lượt thích họ nhận được trực tuyến.",
+      "word_family": {
+        "noun": "validation / validity",
+        "verb": "validate",
+        "adjective": "valid / validated",
+        "adverb": "validly"
+      },
+      "false_friend": {
+        "word_vi": "evaluation",
+        "explanation_vi": "'Validation' là sự xác nhận hoặc công nhận giá trị; 'evaluation' là sự đánh giá chất lượng — khác nghĩa và ngữ cảnh sử dụng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "distortion",
+      "ipa": "/dɪˈstɔː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự bóp méo, sự xuyên tạc",
+      "meaning_vi_inline": "bóp méo",
+      "example_en": "Social media creates a distortion of reality by showing only highlight moments.",
+      "example_vi": "Mạng xã hội tạo ra sự bóp méo thực tế bằng cách chỉ hiển thị những khoảnh khắc nổi bật.",
+      "word_family": {
+        "noun": "distortion",
+        "verb": "distort",
+        "adjective": "distorted / distorting",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "comparison",
+      "ipa": "/kəmˈpær.ɪ.sən/",
+      "pos": "noun",
+      "meaning_vi": "sự so sánh",
+      "meaning_vi_inline": "so sánh",
+      "example_en": "Constant comparison with others online can damage self-esteem.",
+      "example_vi": "So sánh liên tục với người khác trực tuyến có thể làm tổn hại lòng tự trọng.",
+      "word_family": {
+        "noun": "comparison",
+        "verb": "compare",
+        "adjective": "comparable / comparative",
+        "adverb": "comparatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "detachment",
+      "ipa": "/dɪˈtætʃ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự thoát ly, sự rút lui cảm xúc",
+      "meaning_vi_inline": "thoát ly",
+      "example_en": "A sense of detachment from social media helped her regain perspective.",
+      "example_vi": "Cảm giác thoát ly khỏi mạng xã hội đã giúp cô ấy lấy lại góc nhìn đúng đắn.",
+      "word_family": {
+        "noun": "detachment",
+        "verb": "detach",
+        "adjective": "detached",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "distraction",
+        "explanation_vi": "'Detachment' là sự thoát ly hoặc rút lui có chủ đích; 'distraction' là sự phân tâm — hai khái niệm khác nhau về chủ ý."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "curated",
+      "ipa": "/ˈkjʊə.reɪ.tɪd/",
+      "pos": "adjective",
+      "meaning_vi": "được chọn lọc và trình bày kỹ lưỡng",
+      "meaning_vi_inline": "chọn lọc",
+      "example_en": "Her curated Instagram feed gave no hint of her daily struggles.",
+      "example_vi": "Trang Instagram được chọn lọc kỹ của cô ấy không hề gợi lên những khó khăn hàng ngày của cô.",
+      "word_family": {
+        "noun": "curation / curator",
+        "verb": "curate",
+        "adjective": "curated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "harassment",
+      "ipa": "/həˈræs.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự quấy rối, sự sách nhiễu",
+      "meaning_vi_inline": "quấy rối",
+      "example_en": "Online harassment can cause serious psychological harm to victims.",
+      "example_vi": "Quấy rối trực tuyến có thể gây tổn hại tâm lý nghiêm trọng cho nạn nhân.",
+      "word_family": {
+        "noun": "harassment / harasser",
+        "verb": "harass",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "anonymity",
+      "ipa": "/ˌæn.əˈnɪm.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự ẩn danh",
+      "meaning_vi_inline": "ẩn danh",
+      "example_en": "Anonymity online can encourage people to behave in ways they never would in person.",
+      "example_vi": "Sự ẩn danh trực tuyến có thể khuyến khích mọi người hành xử theo những cách họ sẽ không bao giờ làm trực tiếp.",
+      "word_family": {
+        "noun": "anonymity",
+        "verb": "anonymise",
+        "adjective": "anonymous",
+        "adverb": "anonymously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "adaptability",
+      "ipa": "/əˌdæp.təˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "khả năng thích nghi",
+      "meaning_vi_inline": "khả năng thích nghi",
+      "example_en": "Young people's adaptability makes them quick learners in digital environments.",
+      "example_vi": "Khả năng thích nghi của giới trẻ khiến họ học hỏi nhanh trong môi trường kỹ thuật số.",
+      "word_family": {
+        "noun": "adaptability / adaptation",
+        "verb": "adapt",
+        "adjective": "adaptable / adaptive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "exposure",
+      "ipa": "/ɪkˈspəʊ.ʒər/",
+      "pos": "noun",
+      "meaning_vi": "sự phơi nhiễm, mức độ tiếp xúc",
+      "meaning_vi_inline": "phơi nhiễm",
+      "example_en": "Excessive exposure to negative news can increase anxiety levels.",
+      "example_vi": "Tiếp xúc quá nhiều với tin tức tiêu cực có thể làm tăng mức độ lo âu.",
+      "word_family": {
+        "noun": "exposure",
+        "verb": "expose",
+        "adjective": "exposed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "foster unhealthy social comparison",
+      "meaning_vi": "nuôi dưỡng sự so sánh xã hội không lành mạnh",
+      "example_en": "Platforms that display follower counts and likes tend to foster unhealthy social comparison among users.",
+      "example_vi": "Các nền tảng hiển thị số người theo dõi và lượt thích có xu hướng nuôi dưỡng sự so sánh xã hội không lành mạnh giữa người dùng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "curate an idealised self-image",
+      "meaning_vi": "tạo dựng hình ảnh bản thân lý tưởng hóa",
+      "example_en": "Influencers often curate an idealised self-image that bears little resemblance to their actual daily lives.",
+      "example_vi": "Những người có tầm ảnh hưởng thường tạo dựng hình ảnh bản thân lý tưởng hóa, rất ít giống với cuộc sống hàng ngày thực tế của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "experience digital detachment",
+      "meaning_vi": "trải nghiệm sự thoát ly kỹ thuật số",
+      "example_en": "After months of cyberbullying, she chose to experience digital detachment by deactivating all her accounts.",
+      "example_vi": "Sau nhiều tháng bị bắt nạt trực tuyến, cô ấy đã chọn trải nghiệm sự thoát ly kỹ thuật số bằng cách hủy kích hoạt tất cả các tài khoản.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "combat online harassment",
+      "meaning_vi": "chống lại quấy rối trực tuyến",
+      "example_en": "Tech companies are investing in AI tools to help combat online harassment more effectively.",
+      "example_vi": "Các công ty công nghệ đang đầu tư vào các công cụ AI để giúp chống lại quấy rối trực tuyến hiệu quả hơn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "build digital resilience",
+      "meaning_vi": "xây dựng khả năng phục hồi kỹ thuật số",
+      "example_en": "Schools are introducing programmes designed to build digital resilience in young people.",
+      "example_vi": "Các trường học đang triển khai các chương trình được thiết kế để xây dựng khả năng phục hồi kỹ thuật số ở giới trẻ.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Social media platforms are designed to increase the time and frequency of users' content engagement.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Adolescents are more likely than adults to delete their social media accounts permanently.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Presenting a curated self-image online contributes to a distorted view of reality among viewers.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Digital detachment is always an effective long-term solution for victims of cyberbullying.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Young people who develop critical digital literacy skills are better able to protect their mental health online.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her growing _____ to social media meant she checked her phone over a hundred times a day.",
+          "options": [
+            "detachment",
+            "addiction",
+            "exposure",
+            "anonymity"
+          ],
+          "answer": "addiction"
+        },
+        {
+          "id": 2,
+          "sentence": "The report warned that the _____ of harmful content on children's feeds was dangerously high.",
+          "options": [
+            "harassment",
+            "comparison",
+            "validation",
+            "exposure"
+          ],
+          "answer": "exposure"
+        },
+        {
+          "id": 3,
+          "sentence": "The filtered photographs created a _____ of reality that made ordinary life feel inadequate.",
+          "options": [
+            "curated",
+            "distortion",
+            "adaptability",
+            "anonymity"
+          ],
+          "answer": "distortion"
+        },
+        {
+          "id": 4,
+          "sentence": "The organisation launched a campaign to raise awareness about _____ in online gaming communities.",
+          "options": [
+            "validation",
+            "detachment",
+            "comparison",
+            "harassment"
+          ],
+          "answer": "harassment"
+        },
+        {
+          "id": 5,
+          "sentence": "Her rapid _____ to new digital tools impressed her colleagues and supervisors alike.",
+          "options": [
+            "anonymity",
+            "exposure",
+            "adaptability",
+            "distortion"
+          ],
+          "answer": "adaptability"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "anonymity",
+        "curated",
+        "validation",
+        "detachment",
+        "comparison",
+        "harassment"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ provided by an anonymous account emboldened many users to post hateful comments.",
+          "answer": "anonymity"
+        },
+        {
+          "id": 2,
+          "sentence": "Teenagers often post photos seeking _____ from peers in the form of likes and positive comments.",
+          "answer": "validation"
+        },
+        {
+          "id": 3,
+          "sentence": "Her _____ feed showed only luxury travel and gourmet meals, hiding the struggles behind the scenes.",
+          "answer": "curated"
+        },
+        {
+          "id": 4,
+          "sentence": "Experiencing _____ from social media for a week helped him feel calmer and more focused.",
+          "answer": "detachment"
+        },
+        {
+          "id": 5,
+          "sentence": "The school introduced a reporting system to address online _____ among students.",
+          "answer": "harassment"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "platforms",
+            "social",
+            "media",
+            "designed",
+            "are",
+            "to",
+            "maximise",
+            "user",
+            "exposure"
+          ],
+          "answer": "Social media platforms are designed to maximise user exposure."
+        },
+        {
+          "id": 2,
+          "words": [
+            "online",
+            "anonymity",
+            "can",
+            "harmful",
+            "enable",
+            "behaviour"
+          ],
+          "answer": "Online anonymity can enable harmful behaviour."
+        },
+        {
+          "id": 3,
+          "words": [
+            "curating",
+            "an",
+            "idealised",
+            "self-image",
+            "distortion",
+            "promotes",
+            "of",
+            "reality"
+          ],
+          "answer": "Curating an idealised self-image promotes distortion of reality."
+        },
+        {
+          "id": 4,
+          "words": [
+            "young",
+            "people",
+            "must",
+            "build",
+            "digital",
+            "resilience",
+            "to",
+            "harassment",
+            "combat",
+            "online"
+          ],
+          "answer": "Young people must build digital resilience to combat online harassment."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "adaptability",
+            "of",
+            "teenagers",
+            "is",
+            "a",
+            "key",
+            "in",
+            "asset",
+            "environments",
+            "digital"
+          ],
+          "answer": "The adaptability of teenagers is a key asset in digital environments."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her [addiction] to scrolling social media became so severe that she sought professional counselling.",
+          "highlighted": "addiction",
+          "options": {
+            "A": "addict",
+            "B": "addicted",
+            "C": "addiction"
+          },
+          "answer": "C",
+          "explanation": "'Addiction' is the correct noun form here — 'addict' is a person, and 'addicted' is an adjective requiring 'be'."
+        },
+        {
+          "id": 2,
+          "sentence": "Constant [compare] with people on social media erodes self-esteem over time.",
+          "highlighted": "compare",
+          "options": {
+            "A": "comparison",
+            "B": "compare",
+            "C": "comparative"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed as the subject of the sentence — 'comparison', not the verb 'compare'."
+        },
+        {
+          "id": 3,
+          "sentence": "The [anonymous] of online accounts makes it easier for bullies to act without consequences.",
+          "highlighted": "anonymous",
+          "options": {
+            "A": "anonymise",
+            "B": "anonymously",
+            "C": "anonymity"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject — 'anonymity', not the adjective 'anonymous'."
+        },
+        {
+          "id": 4,
+          "sentence": "Researchers found that adolescents who received more [validate] online reported higher levels of anxiety.",
+          "highlighted": "validate",
+          "options": {
+            "A": "validate",
+            "B": "validation",
+            "C": "valid"
+          },
+          "answer": "B",
+          "explanation": "The noun 'validation' is required after 'received more' — 'validate' is a verb and cannot follow a determiner."
+        },
+        {
+          "id": 5,
+          "sentence": "Schools are developing programmes to help students [adapt] a healthy relationship with digital media.",
+          "highlighted": "adapt",
+          "options": {
+            "A": "adaptability",
+            "B": "adaptive",
+            "C": "cultivate"
+          },
+          "answer": "C",
+          "explanation": "'Cultivate a relationship' is the correct collocation — 'adapt' does not collocate with 'relationship' in this context."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "addiction",
+      "2": "exposure",
+      "3": "distortion",
+      "4": "harassment",
+      "5": "adaptability"
+    },
+    "ex3": {
+      "1": "anonymity",
+      "2": "validation",
+      "3": "curated",
+      "4": "detachment",
+      "5": "harassment"
+    },
+    "ex4": {
+      "1": "Social media platforms are designed to maximise user exposure.",
+      "2": "Online anonymity can enable harmful behaviour.",
+      "3": "Curating an idealised self-image promotes distortion of reality.",
+      "4": "Young people must build digital resilience to combat online harassment.",
+      "5": "The adaptability of teenagers is a key asset in digital environments."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

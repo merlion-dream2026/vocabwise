@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 28,
+    "topic_id": "b2-t28",
+    "topic_title": "Tourism & Hospitality",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "✈️",
+    "topic_title_vi": "Du Lịch & Khách Sạn",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Tourism** is one of the world's largest industries, contributing significantly to the economies of many nations. Countries work hard to **attract** **visitor**s by investing in infrastructure, cultural events, and marketing. A skilled **guide** can make a **destination** — a place that people travel to — far more memorable, transforming an ordinary trip into an extraordinary **experience** that visitors carry home with them.",
+        "text_vi": "**Du lịch** là một trong những ngành lớn nhất thế giới, đóng góp đáng kể vào nền kinh tế của nhiều quốc gia. Các quốc gia nỗ lực **thu hút** **khách du lịch** bằng cách đầu tư vào cơ sở hạ tầng, sự kiện văn hóa và marketing. Một **hướng dẫn viên** tài năng có thể làm cho **điểm đến** — nơi mọi người đến thăm — trở nên đáng nhớ hơn nhiều, biến chuyến đi bình thường thành **trải nghiệm** phi thường mà du khách mang về."
+      },
+      {
+        "index": 2,
+        "text_en": "The **hospitality** industry — which includes hotels, restaurants, and tour operators — plays a central role in making visitors feel welcome. Good **accommodation** is essential: travellers need somewhere comfortable and safe to stay. However, popular destinations often face the challenge of **too many visitors** — a situation where tourist numbers exceed what the local environment and infrastructure can comfortably support, putting pressure on public spaces and communities.",
+        "text_vi": "Ngành **khách sạn** — bao gồm khách sạn, nhà hàng và công ty lữ hành — đóng vai trò trung tâm trong việc làm cho du khách cảm thấy được chào đón. **Chỗ ở** tốt là điều cần thiết: khách du lịch cần nơi ở thoải mái và an toàn. Tuy nhiên, các điểm đến nổi tiếng thường đối mặt với thách thức **quá tải khách du lịch** — tình trạng số lượng khách vượt quá khả năng chịu đựng của môi trường và cơ sở hạ tầng địa phương, tạo áp lực lên không gian công cộng và cộng đồng."
+      },
+      {
+        "index": 3,
+        "text_en": "To manage visitor numbers and protect local environments, governments and tourism boards increasingly **promote** **sustainable** travel — a form of tourism that minimises environmental damage and supports **local economy** and culture. This means setting limits on **capacity** — the maximum number of visitors a site or area can handle at one time — and encouraging travellers to visit during off-peak seasons.",
+        "text_vi": "Để quản lý số lượng du khách và bảo vệ môi trường địa phương, các chính phủ và cơ quan du lịch ngày càng **quảng bá** du lịch **bền vững** — hình thức du lịch giảm thiểu tác hại môi trường và hỗ trợ **kinh tế địa phương** và văn hóa. Điều này có nghĩa là đặt giới hạn về **sức chứa** — số lượng khách tối đa mà một địa điểm hoặc khu vực có thể tiếp nhận tại một thời điểm — và khuyến khích du khách thăm vào mùa thấp điểm."
+      },
+      {
+        "index": 4,
+        "text_en": "Protecting **heritage** — the historical buildings, landscapes, and traditions of a place — is another key concern. Sites of great cultural or natural significance must be carefully **preserved** so that future generations can also enjoy them. Balancing the economic benefits of tourism with the need to protect places and communities is one of the most pressing challenges facing the travel industry today.",
+        "text_vi": "Bảo vệ **di sản** — các công trình lịch sử, cảnh quan và truyền thống của một nơi — là mối quan tâm chính khác. Các địa điểm có ý nghĩa văn hóa hoặc tự nhiên lớn phải được **bảo tồn** cẩn thận để các thế hệ tương lai cũng có thể thưởng thức. Cân bằng giữa lợi ích kinh tế của du lịch và nhu cầu bảo vệ địa điểm và cộng đồng là một trong những thách thức cấp bách nhất mà ngành du lịch đối mặt hiện nay."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "tourism",
+      "ipa": "/ˈtʊə.rɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "du lịch (ngành công nghiệp)",
+      "meaning_vi_inline": "du lịch",
+      "example_en": "Tourism accounts for over 10% of the country's national income.",
+      "example_vi": "Du lịch chiếm hơn 10% thu nhập quốc gia của đất nước.",
+      "word_family": {
+        "noun": "tourism / tourist",
+        "verb": null,
+        "adjective": "tourist / touristic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "attract",
+      "ipa": "/əˈtrækt/",
+      "pos": "verb",
+      "meaning_vi": "thu hút (du khách)",
+      "meaning_vi_inline": "thu hút",
+      "example_en": "The city attracts millions of visitors each year with its museums and festivals.",
+      "example_vi": "Thành phố thu hút hàng triệu du khách mỗi năm với các bảo tàng và lễ hội.",
+      "word_family": {
+        "noun": "attraction / attractiveness",
+        "verb": "attract",
+        "adjective": "attractive",
+        "adverb": "attractively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "visitor",
+      "ipa": "/ˈvɪz.ɪ.tər/",
+      "pos": "noun",
+      "meaning_vi": "khách du lịch, người đến thăm",
+      "meaning_vi_inline": "du khách",
+      "example_en": "The number of visitors to the island doubled after the new airport opened.",
+      "example_vi": "Số lượng du khách đến đảo đã tăng gấp đôi sau khi sân bay mới mở cửa.",
+      "word_family": {
+        "noun": "visitor / visit",
+        "verb": "visit",
+        "adjective": "visiting",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "tourist",
+        "explanation_vi": "'Visitor' là bất kỳ ai đến thăm một nơi (cả mục đích du lịch lẫn công việc); 'tourist' cụ thể hơn, chỉ người đi du lịch để nghỉ ngơi và tham quan."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "guide",
+      "ipa": "/ɡaɪd/",
+      "pos": "noun / verb",
+      "meaning_vi": "hướng dẫn viên du lịch; hướng dẫn",
+      "meaning_vi_inline": "hướng dẫn viên",
+      "example_en": "The tour guide explained the history of each building they visited.",
+      "example_vi": "Hướng dẫn viên du lịch giải thích lịch sử của từng tòa nhà họ tham quan.",
+      "word_family": {
+        "noun": "guide / guidance",
+        "verb": "guide",
+        "adjective": "guided",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "destination",
+      "ipa": "/ˌdes.tɪˈneɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "điểm đến (du lịch)",
+      "meaning_vi_inline": "điểm đến",
+      "example_en": "Thailand is one of the most popular tourist destinations in Southeast Asia.",
+      "example_vi": "Thái Lan là một trong những điểm đến du lịch phổ biến nhất ở Đông Nam Á.",
+      "word_family": {
+        "noun": "destination",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "experience",
+      "ipa": "/ɪkˈspɪə.ri.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "trải nghiệm (du lịch)",
+      "meaning_vi_inline": "trải nghiệm",
+      "example_en": "Travelling gives you the experience of meeting people from different cultures.",
+      "example_vi": "Du lịch mang đến cho bạn trải nghiệm gặp gỡ người từ các nền văn hóa khác nhau.",
+      "word_family": {
+        "noun": "experience",
+        "verb": "experience",
+        "adjective": "experienced / experiential",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "hospitality",
+      "ipa": "/ˌhɒs.pɪˈtæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "lòng hiếu khách; ngành khách sạn nhà hàng",
+      "meaning_vi_inline": "khách sạn, lòng hiếu khách",
+      "example_en": "The country is known for the warmth of its hospitality towards foreign visitors.",
+      "example_vi": "Đất nước nổi tiếng với sự nồng hậu trong cách đón tiếp khách nước ngoài.",
+      "word_family": {
+        "noun": "hospitality / host",
+        "verb": "host",
+        "adjective": "hospitable",
+        "adverb": "hospitably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "accommodation",
+      "ipa": "/əˌkɒm.əˈdeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "chỗ ở, nơi lưu trú",
+      "meaning_vi_inline": "chỗ ở",
+      "example_en": "Finding affordable accommodation during the festival season was difficult.",
+      "example_vi": "Tìm chỗ ở giá hợp lý trong mùa lễ hội rất khó khăn.",
+      "word_family": {
+        "noun": "accommodation",
+        "verb": "accommodate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "too many visitors",
+      "ipa": "/tuː ˈmen.i ˈvɪz.ɪ.tərz/",
+      "pos": "noun phrase",
+      "meaning_vi": "tình trạng quá tải khách du lịch, overtourism",
+      "meaning_vi_inline": "quá tải khách",
+      "example_en": "Venice is struggling with too many visitors, which is damaging its historic buildings.",
+      "example_vi": "Venice đang phải vật lộn với tình trạng quá tải khách du lịch, gây hại cho các tòa nhà lịch sử.",
+      "word_family": {
+        "noun": "overtourism",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "promote",
+      "ipa": "/prəˈməʊt/",
+      "pos": "verb",
+      "meaning_vi": "quảng bá (du lịch, điểm đến)",
+      "meaning_vi_inline": "quảng bá",
+      "example_en": "The government spent millions promoting the country as a top travel destination.",
+      "example_vi": "Chính phủ chi hàng triệu để quảng bá đất nước như một điểm du lịch hàng đầu.",
+      "word_family": {
+        "noun": "promotion",
+        "verb": "promote",
+        "adjective": "promotional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "sustainable",
+      "ipa": "/səˈsteɪ.nə.bəl/",
+      "pos": "adjective",
+      "meaning_vi": "bền vững (du lịch thân thiện với môi trường)",
+      "meaning_vi_inline": "bền vững",
+      "example_en": "Sustainable tourism aims to protect the environment while still benefiting local communities.",
+      "example_vi": "Du lịch bền vững nhằm bảo vệ môi trường trong khi vẫn mang lại lợi ích cho cộng đồng địa phương.",
+      "word_family": {
+        "noun": "sustainability",
+        "verb": "sustain",
+        "adjective": "sustainable / unsustainable",
+        "adverb": "sustainably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "local economy",
+      "ipa": "/ˈləʊ.kəl ɪˈkɒn.ə.mi/",
+      "pos": "noun phrase",
+      "meaning_vi": "kinh tế địa phương",
+      "meaning_vi_inline": "kinh tế địa phương",
+      "example_en": "Tourism plays a vital role in supporting the local economy of small island communities.",
+      "example_vi": "Du lịch đóng vai trò quan trọng trong việc hỗ trợ kinh tế địa phương của các cộng đồng đảo nhỏ.",
+      "word_family": {
+        "noun": "local economy / local business",
+        "verb": null,
+        "adjective": "local",
+        "adverb": "locally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "capacity",
+      "ipa": "/kəˈpæs.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sức chứa, công suất tối đa",
+      "meaning_vi_inline": "sức chứa",
+      "example_en": "The national park set a daily visitor capacity of 500 people to protect wildlife.",
+      "example_vi": "Vườn quốc gia đặt giới hạn sức chứa 500 người mỗi ngày để bảo vệ động vật hoang dã.",
+      "word_family": {
+        "noun": "capacity",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "heritage",
+      "ipa": "/ˈher.ɪ.tɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "di sản (văn hóa, lịch sử)",
+      "meaning_vi_inline": "di sản",
+      "example_en": "The old town has been listed as a UNESCO World Heritage Site.",
+      "example_vi": "Phố cổ đã được công nhận là Di sản Thế giới UNESCO.",
+      "word_family": {
+        "noun": "heritage",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "preserve",
+      "ipa": "/prɪˈzɜːv/",
+      "pos": "verb",
+      "meaning_vi": "bảo tồn, gìn giữ (di sản, môi trường)",
+      "meaning_vi_inline": "bảo tồn",
+      "example_en": "Local communities are working hard to preserve their traditional customs and buildings.",
+      "example_vi": "Các cộng đồng địa phương đang nỗ lực bảo tồn phong tục truyền thống và các công trình kiến trúc.",
+      "word_family": {
+        "noun": "preservation / preservative",
+        "verb": "preserve",
+        "adjective": "preserved",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "conserve",
+        "explanation_vi": "'Preserve' nhấn mạnh việc giữ nguyên hiện trạng và ngăn sự thay đổi; 'conserve' thường dùng cho tài nguyên thiên nhiên, hàm ý sử dụng cẩn thận để tránh cạn kiệt — hai từ gần nghĩa nhưng không hoán đổi hoàn toàn."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A good tour guide can make a destination more memorable for visitors.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that all popular tourist destinations now have strict visitor limits.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Sustainable tourism aims to reduce environmental damage and benefit the local economy.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Heritage sites do not need to be protected because they are already well-established.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends that tourists should always visit during off-peak seasons.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government invested in new museums and festivals to _____ more international visitors.",
+          "options": [
+            "preserve",
+            "attract",
+            "promote",
+            "guide"
+          ],
+          "answer": "attract"
+        },
+        {
+          "id": 2,
+          "sentence": "Finding affordable _____ during the summer peak season proved very difficult for the family.",
+          "options": [
+            "destination",
+            "hospitality",
+            "accommodation",
+            "capacity"
+          ],
+          "answer": "accommodation"
+        },
+        {
+          "id": 3,
+          "sentence": "The city introduced a daily visitor _____ to prevent overcrowding in its historic centre.",
+          "options": [
+            "heritage",
+            "capacity",
+            "experience",
+            "sustainability"
+          ],
+          "answer": "capacity"
+        },
+        {
+          "id": 4,
+          "sentence": "Governments are encouraging _____ tourism to reduce the negative impact of travel on the environment.",
+          "options": [
+            "local",
+            "sustainable",
+            "hospitable",
+            "attractive"
+          ],
+          "answer": "sustainable"
+        },
+        {
+          "id": 5,
+          "sentence": "The ancient temple must be carefully _____ so that future generations can also enjoy its beauty.",
+          "options": [
+            "promoted",
+            "attracted",
+            "preserved",
+            "guided"
+          ],
+          "answer": "preserved"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "tourism",
+        "destination",
+        "heritage",
+        "local economy",
+        "hospitality"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The country's _____ industry employs over two million people and is vital to its economy.",
+          "answer": "tourism"
+        },
+        {
+          "id": 2,
+          "sentence": "Bali has become a top _____ for travellers seeking beaches, culture, and adventure.",
+          "answer": "destination"
+        },
+        {
+          "id": 3,
+          "sentence": "The region's cultural _____ includes ancient temples, traditional festivals, and unique cuisine.",
+          "answer": "heritage"
+        },
+        {
+          "id": 4,
+          "sentence": "Visitors who eat in local restaurants and buy local products help support the _____.",
+          "answer": "local economy"
+        },
+        {
+          "id": 5,
+          "sentence": "The hotel was praised for the warmth of its _____ and the quality of its service.",
+          "answer": "hospitality"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "government",
+            "promoted",
+            "sustainable",
+            "tourism",
+            "to",
+            "protect",
+            "the",
+            "local",
+            "environment"
+          ],
+          "answer": "The government promoted sustainable tourism to protect the local environment."
+        },
+        {
+          "id": 2,
+          "words": [
+            "too",
+            "many",
+            "visitors",
+            "can",
+            "damage",
+            "both",
+            "heritage",
+            "sites",
+            "and",
+            "local",
+            "communities"
+          ],
+          "answer": "Too many visitors can damage both heritage sites and local communities."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "tour",
+            "guide",
+            "made",
+            "the",
+            "experience",
+            "unforgettable",
+            "for",
+            "everyone",
+            "in",
+            "the",
+            "group"
+          ],
+          "answer": "The tour guide made the experience unforgettable for everyone in the group."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "city",
+            "set",
+            "a",
+            "daily",
+            "capacity",
+            "limit",
+            "to",
+            "prevent",
+            "overcrowding"
+          ],
+          "answer": "The city set a daily capacity limit to prevent overcrowding."
+        },
+        {
+          "id": 5,
+          "words": [
+            "preserving",
+            "cultural",
+            "heritage",
+            "ensures",
+            "that",
+            "future",
+            "generations",
+            "can",
+            "enjoy",
+            "it"
+          ],
+          "answer": "Preserving cultural heritage ensures that future generations can enjoy it."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The island became a popular [place to go] after a travel magazine named it one of the world's best beaches.",
+          "highlighted": "place to go",
+          "options": {
+            "A": "destination",
+            "B": "place to go",
+            "C": "location"
+          },
+          "answer": "A",
+          "explanation": "'Destination' is the standard travel and tourism term for a specific place that people travel to; 'place to go' is informal and too vague, and 'location' refers to physical position rather than a travel goal."
+        },
+        {
+          "id": 2,
+          "sentence": "The tour operator offered a range of [lodging] options, from budget hostels to luxury hotels.",
+          "highlighted": "lodging",
+          "options": {
+            "A": "accommodation",
+            "B": "lodging",
+            "C": "housing"
+          },
+          "answer": "A",
+          "explanation": "'Accommodation' is the standard British English term used in travel and tourism for places where people stay; 'lodging' is more common in American English and informal, while 'housing' refers to permanent residential arrangements."
+        },
+        {
+          "id": 3,
+          "sentence": "The government wanted to [keep] the ancient ruins so that visitors could continue to enjoy them.",
+          "highlighted": "keep",
+          "options": {
+            "A": "maintain",
+            "B": "preserve",
+            "C": "keep"
+          },
+          "answer": "B",
+          "explanation": "'Preserve' is the correct term for protecting and maintaining something of historical or cultural value in its current state; 'maintain' focuses on upkeep and functionality, and 'keep' is too general and informal."
+        },
+        {
+          "id": 4,
+          "sentence": "The park introduced a maximum [number of people] per day to prevent environmental damage.",
+          "highlighted": "number of people",
+          "options": {
+            "A": "capacity",
+            "B": "number of people",
+            "C": "quota"
+          },
+          "answer": "A",
+          "explanation": "'Capacity' is the precise term for the maximum number of people or things a place can handle at one time; it is standard in tourism planning. 'Number of people' is wordy and informal, and 'quota' implies an assigned target rather than a limit."
+        },
+        {
+          "id": 5,
+          "sentence": "The town is famous for the [kindness] of its residents towards tourists and travellers.",
+          "highlighted": "kindness",
+          "options": {
+            "A": "kindness",
+            "B": "hospitality",
+            "C": "generosity"
+          },
+          "answer": "B",
+          "explanation": "'Hospitality' is the specific term for the friendly and welcoming treatment of guests and visitors — it is the standard word used in travel and service contexts. 'Kindness' and 'generosity' are more general character traits."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "attract",
+      "2": "accommodation",
+      "3": "capacity",
+      "4": "sustainable",
+      "5": "preserved"
+    },
+    "ex3": {
+      "1": "tourism",
+      "2": "destination",
+      "3": "heritage",
+      "4": "local economy",
+      "5": "hospitality"
+    },
+    "ex4": {
+      "1": "The government promoted sustainable tourism to protect the local environment.",
+      "2": "Too many visitors can damage both heritage sites and local communities.",
+      "3": "The tour guide made the experience unforgettable for everyone in the group.",
+      "4": "The city set a daily capacity limit to prevent overcrowding.",
+      "5": "Preserving cultural heritage ensures that future generations can enjoy it."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

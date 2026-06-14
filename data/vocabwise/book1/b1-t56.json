@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 56,
+    "topic_id": "b1-t56",
+    "topic_title": "Phones & Messaging",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📞",
+    "topic_title_vi": "Điện Thoại & Nhắn Tin",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 118,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My phone always **rings** when I am in a meeting. I put it on **silent** mode so it does not disturb others. I also turn off every **alert** to stay focused. If someone needs to reach me, they can leave a **voicemail**.",
+        "text_vi": "Điện thoại của tôi luôn **đổ chuông** khi tôi đang trong cuộc họp. Tôi đặt nó ở chế độ **im lặng** để không làm phiền người khác. Tôi cũng tắt mọi **thông báo** để tập trung. Nếu ai đó cần liên lạc với tôi, họ có thể để lại **hộp thư thoại**."
+      },
+      {
+        "index": 2,
+        "text_en": "When I want to make a **call**, I **dial** the number and wait. If the line is **busy**, I try again later. I always **save** important numbers so I can **call** them quickly without typing the number every time.",
+        "text_vi": "Khi tôi muốn thực hiện một **cuộc gọi**, tôi **quay số** và chờ. Nếu đường dây **bận**, tôi thử lại sau. Tôi luôn **lưu** các số quan trọng để có thể **gọi** họ nhanh chóng mà không cần nhập số mỗi lần."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes I send a **text** instead of calling. It is faster and I do not need a strong **signal**. However, when I travel abroad, I may have to pay extra for **roaming**. In that case, I check my **network** settings first.",
+        "text_vi": "Đôi khi tôi gửi **tin nhắn** thay vì gọi điện. Cách đó nhanh hơn và tôi không cần **sóng** mạnh. Tuy nhiên, khi đi nước ngoài, tôi có thể phải trả thêm phí **chuyển vùng**. Trong trường hợp đó, tôi kiểm tra cài đặt **mạng** trước."
+      },
+      {
+        "index": 4,
+        "text_en": "After a long call, I **hang up** and check my phone. Sometimes I see a **missed** call from a friend. I can use the **speaker** to call back hands-free while I cook or clean. Modern phones make staying in touch very easy.",
+        "text_vi": "Sau một cuộc gọi dài, tôi **cúp máy** và kiểm tra điện thoại. Đôi khi tôi thấy một cuộc gọi **nhỡ** từ bạn bè. Tôi có thể dùng **loa ngoài** để gọi lại mà không cần cầm máy trong lúc nấu ăn hay dọn dẹp. Điện thoại hiện đại giúp việc giữ liên lạc trở nên rất dễ dàng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "call",
+      "ipa": "/kɔːl/",
+      "pos": "verb / noun",
+      "meaning_vi": "gọi điện; cuộc gọi",
+      "meaning_vi_inline": "cuộc gọi",
+      "example_en": "I will call you tonight after dinner to talk about the plan.",
+      "example_vi": "Tôi sẽ gọi cho bạn tối nay sau bữa tối để nói về kế hoạch.",
+      "word_family": {
+        "noun": "call / caller",
+        "verb": "call / called",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "pos": "verb / noun",
+      "meaning_vi": "đổ chuông; tiếng chuông",
+      "meaning_vi_inline": "đổ chuông",
+      "example_en": "My phone rang three times during the film, so I had to turn it off.",
+      "example_vi": "Điện thoại của tôi đổ chuông ba lần trong lúc xem phim, nên tôi phải tắt nó đi.",
+      "word_family": {
+        "noun": "ring / ringtone",
+        "verb": "ring / rang / rung",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "text",
+      "ipa": "/tekst/",
+      "pos": "verb / noun",
+      "meaning_vi": "nhắn tin; tin nhắn",
+      "meaning_vi_inline": "tin nhắn",
+      "example_en": "I sent her a text to say I would be ten minutes late.",
+      "example_vi": "Tôi nhắn tin cho cô ấy để nói rằng tôi sẽ trễ mười phút.",
+      "word_family": {
+        "noun": "text / text message",
+        "verb": "text / texted",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "busy",
+      "ipa": "/ˈbɪzi/",
+      "pos": "adjective",
+      "meaning_vi": "bận (đường dây); bận rộn",
+      "meaning_vi_inline": "bận",
+      "example_en": "I tried to call the office but the line was busy, so I sent an email instead.",
+      "example_vi": "Tôi cố gọi cho văn phòng nhưng đường dây bận, nên tôi đã gửi email thay.",
+      "word_family": {
+        "noun": "business / busyness",
+        "verb": "busy oneself",
+        "adjective": "busy / busier / busiest",
+        "adverb": "busily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "save",
+      "ipa": "/seɪv/",
+      "pos": "verb",
+      "meaning_vi": "lưu (số, danh bạ); tiết kiệm",
+      "meaning_vi_inline": "lưu",
+      "example_en": "Always save a new contact's number so you can find it easily later.",
+      "example_vi": "Hãy luôn lưu số của người liên hệ mới để bạn có thể tìm thấy dễ dàng sau này.",
+      "word_family": {
+        "noun": "savings / save",
+        "verb": "save / saved",
+        "adjective": "saved",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "alert",
+      "ipa": "/əˈlɜːt/",
+      "pos": "noun / verb / adjective",
+      "meaning_vi": "thông báo (trên điện thoại); cảnh báo; cảnh giác",
+      "meaning_vi_inline": "thông báo",
+      "example_en": "I turned off all my phone alerts during the exam so I could focus.",
+      "example_vi": "Tôi đã tắt tất cả thông báo trên điện thoại trong khi thi để có thể tập trung.",
+      "word_family": {
+        "noun": "alert",
+        "verb": "alert / alerted",
+        "adjective": "alert",
+        "adverb": "alertly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "silent",
+      "ipa": "/ˈsaɪlənt/",
+      "pos": "adjective",
+      "meaning_vi": "im lặng, không có tiếng; chế độ im lặng",
+      "meaning_vi_inline": "im lặng",
+      "example_en": "Please put your phone on silent before the meeting starts.",
+      "example_vi": "Vui lòng đặt điện thoại ở chế độ im lặng trước khi cuộc họp bắt đầu.",
+      "word_family": {
+        "noun": "silence",
+        "verb": "silence / silenced",
+        "adjective": "silent",
+        "adverb": "silently"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "signal",
+      "ipa": "/ˈsɪɡnəl/",
+      "pos": "noun / verb",
+      "meaning_vi": "sóng (điện thoại); tín hiệu",
+      "meaning_vi_inline": "sóng",
+      "example_en": "The signal is very weak in this area, so calls often cut out.",
+      "example_vi": "Sóng rất yếu ở khu vực này, nên các cuộc gọi thường bị ngắt.",
+      "word_family": {
+        "noun": "signal",
+        "verb": "signal / signalled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "voicemail",
+      "ipa": "/ˈvɔɪsmeɪl/",
+      "pos": "noun",
+      "meaning_vi": "hộp thư thoại, tin nhắn thoại",
+      "meaning_vi_inline": "hộp thư thoại",
+      "example_en": "I was in a meeting, so the caller left a voicemail for me to listen to later.",
+      "example_vi": "Tôi đang trong cuộc họp, nên người gọi đã để lại hộp thư thoại để tôi nghe sau.",
+      "word_family": {
+        "noun": "voicemail",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "hang up",
+      "ipa": "/hæŋ ʌp/",
+      "pos": "phrasal verb",
+      "meaning_vi": "cúp máy, kết thúc cuộc gọi",
+      "meaning_vi_inline": "cúp máy",
+      "example_en": "She hung up without saying goodbye, which was quite rude.",
+      "example_vi": "Cô ấy cúp máy mà không nói lời tạm biệt, điều đó khá thô lỗ.",
+      "word_family": {
+        "noun": null,
+        "verb": "hang up / hung up",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "missed",
+      "ipa": "/mɪst/",
+      "pos": "adjective (missed call)",
+      "meaning_vi": "nhỡ (cuộc gọi nhỡ — missed call)",
+      "meaning_vi_inline": "nhỡ",
+      "example_en": "I saw three missed calls on my phone and called back straight away.",
+      "example_vi": "Tôi thấy ba cuộc gọi nhỡ trên điện thoại và gọi lại ngay.",
+      "word_family": {
+        "noun": "miss",
+        "verb": "miss / missed",
+        "adjective": "missed / missing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "speaker",
+      "ipa": "/ˈspiːkər/",
+      "pos": "noun",
+      "meaning_vi": "loa ngoài (điện thoại); người nói",
+      "meaning_vi_inline": "loa ngoài",
+      "example_en": "I put the call on speaker so everyone in the room could hear.",
+      "example_vi": "Tôi bật loa ngoài để mọi người trong phòng đều có thể nghe.",
+      "word_family": {
+        "noun": "speaker",
+        "verb": "speak / spoke / spoken",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "dial",
+      "ipa": "/daɪəl/",
+      "pos": "verb / noun",
+      "meaning_vi": "quay số, bấm số; mặt đồng hồ",
+      "meaning_vi_inline": "quay số",
+      "example_en": "He dialled the number slowly and waited for an answer.",
+      "example_vi": "Anh ấy bấm số từng chữ số một và chờ có người nghe máy.",
+      "word_family": {
+        "noun": "dial",
+        "verb": "dial / dialled",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "network",
+      "ipa": "/ˈnetwɜːk/",
+      "pos": "noun",
+      "meaning_vi": "mạng (điện thoại, internet); hệ thống kết nối",
+      "meaning_vi_inline": "mạng",
+      "example_en": "My phone cannot connect because there is no network in this part of the building.",
+      "example_vi": "Điện thoại của tôi không thể kết nối vì không có mạng ở phần này của tòa nhà.",
+      "word_family": {
+        "noun": "network / networking",
+        "verb": "network / networked",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "roaming",
+      "ipa": "/ˈrəʊmɪŋ/",
+      "pos": "noun / adjective",
+      "meaning_vi": "chuyển vùng (dùng mạng ở nước ngoài)",
+      "meaning_vi_inline": "chuyển vùng",
+      "example_en": "I turned off roaming before my trip to avoid unexpected charges on my phone bill.",
+      "example_vi": "Tôi tắt chuyển vùng trước chuyến đi để tránh các khoản phí bất ngờ trên hóa đơn điện thoại.",
+      "word_family": {
+        "noun": "roaming / roam",
+        "verb": "roam / roamed",
+        "adjective": "roaming",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "voicemail" },
+        { "id": 2, "word": "roaming" },
+        { "id": 3, "word": "silent" },
+        { "id": 4, "word": "hang up" },
+        { "id": 5, "word": "dial" }
+      ],
+      "options": [
+        { "id": "A", "text": "to press the numbers on a phone to make a call" },
+        { "id": "B", "text": "making no sound; set to not ring or vibrate" },
+        { "id": "C", "text": "to end a phone call" },
+        { "id": "D", "text": "a recorded message left when someone does not answer their phone" },
+        { "id": "E", "text": "using a phone network in another country, usually at extra cost" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I tried to call but the line was _____, so I sent a text instead.",
+          "options": ["silent", "missed", "busy", "lost"],
+          "answer": "busy"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ in this area is very weak — my calls keep dropping.",
+          "options": ["voicemail", "signal", "speaker", "text"],
+          "answer": "signal"
+        },
+        {
+          "id": 3,
+          "sentence": "After our long conversation, she said goodbye and _____ .",
+          "options": ["dialled", "saved", "hung up", "rang"],
+          "answer": "hung up"
+        },
+        {
+          "id": 4,
+          "sentence": "I checked my phone and saw two _____ calls from my mother.",
+          "options": ["busy", "silent", "roaming", "missed"],
+          "answer": "missed"
+        },
+        {
+          "id": 5,
+          "sentence": "Please _____ all important contacts so you can call them quickly.",
+          "options": ["text", "save", "dial", "ring"],
+          "answer": "save"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["call", "alert", "network", "speaker", "roaming", "ring"],
+      "items": [
+        { "id": 1, "sentence": "Turn off _____ before you travel abroad to avoid high phone bills.", "answer": "roaming" },
+        { "id": 2, "sentence": "I put the phone on _____ so everyone in the office could hear the meeting.", "answer": "speaker" },
+        { "id": 3, "sentence": "My phone showed an _____ saying I had a new message.", "answer": "alert" },
+        { "id": 4, "sentence": "There is no _____ signal in the basement, so I cannot send emails there.", "answer": "network" },
+        { "id": 5, "sentence": "She gave me her number so I could _____ her if I needed help.", "answer": "call" }
+      ],
+      "note": "One word in the box is not used: ring"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The phone _____ loudly during the concert and everyone turned to look. (RING)",
+          "base_word": "RING",
+          "answer": "rang",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 2,
+          "sentence": "She sat in _____ for a moment after the call ended, thinking about what he had said. (SILENT)",
+          "base_word": "SILENT",
+          "answer": "silence",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ the number carefully and pressed call. (DIAL)",
+          "base_word": "DIAL",
+          "answer": "dialled",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher _____ me that class would start five minutes early today. (TEXT)",
+          "base_word": "TEXT",
+          "answer": "texted",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 5,
+          "sentence": "She has _____ all her contacts to a new phone using cloud backup. (SAVE)",
+          "base_word": "SAVE",
+          "answer": "saved",
+          "form_used": "verb (past participle)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Please put your phone on [alert] during the meeting so it does not disturb anyone.",
+          "highlighted": "alert",
+          "options": { "A": "silent", "B": "roaming", "C": "alert" },
+          "answer": "A",
+          "explanation": "'Alert' is a notification or warning — it is not a phone mode. When you want your phone to make no noise during a meeting, you put it on 'silent' mode."
+        },
+        {
+          "id": 2,
+          "sentence": "I left a [text] on her phone because she did not answer when I called.",
+          "highlighted": "text",
+          "options": { "A": "signal", "B": "text", "C": "voicemail" },
+          "answer": "C",
+          "explanation": "A 'text' is a written message sent directly to someone's phone. When you call and no one answers, you can leave a recorded spoken message — this is called a 'voicemail'."
+        },
+        {
+          "id": 3,
+          "sentence": "The call quality was very poor because the [network] was only one bar in the mountains.",
+          "highlighted": "network",
+          "options": { "A": "voicemail", "B": "signal", "C": "network" },
+          "answer": "B",
+          "explanation": "'Network' refers to the phone provider or system. The number of bars shown on a phone indicates the strength of the 'signal', not the network."
+        },
+        {
+          "id": 4,
+          "sentence": "After we finished talking, I [dialled] and said goodbye.",
+          "highlighted": "dialled",
+          "options": { "A": "rang", "B": "dialled", "C": "hung up" },
+          "answer": "C",
+          "explanation": "'Dialled' means you pressed numbers to start a call — not end one. When a conversation is finished and you end the call, you 'hang up'."
+        },
+        {
+          "id": 5,
+          "sentence": "I saw her [busy] on my screen when I got home, so I called her back right away.",
+          "highlighted": "busy",
+          "options": { "A": "missed call", "B": "busy", "C": "silent mode" },
+          "answer": "A",
+          "explanation": "'Busy' describes a phone line that is in use. When someone called you but you did not answer, what you see on your screen is a 'missed call', not a 'busy' notification."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "D", "2": "E", "3": "B", "4": "C", "5": "A" },
+    "ex2": { "1": "busy", "2": "signal", "3": "hung up", "4": "missed", "5": "save" },
+    "ex3": { "1": "roaming", "2": "speaker", "3": "alert", "4": "network", "5": "call" },
+    "ex4": { "1": "rang", "2": "silence", "3": "dialled", "4": "texted", "5": "saved" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "A" }
+  }
+}

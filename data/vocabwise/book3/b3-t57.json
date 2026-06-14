@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 57,
+    "topic_id": "b3-t57",
+    "topic_title": "The Ethics of Technology",
+    "topic_title_vi": "Đạo Đức Công Nghệ",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "💻",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The digital age has brought extraordinary convenience, yet it has also generated profound ethical questions about power, rights, and human dignity. Central among these is **privacy** — the individual's right to control personal information. In an era of **datafication**, where almost every human action is converted into monetisable data, this right is under constant pressure. **Surveillance** systems deployed by both states and corporations monitor behaviour at a scale previously unimaginable, raising urgent questions about who holds **accountability** for protecting citizens.",
+        "text_vi": "Thời đại kỹ thuật số mang lại sự tiện lợi phi thường, nhưng cũng đặt ra những câu hỏi đạo đức sâu sắc về quyền lực, quyền lợi và phẩm giá con người. Trung tâm của những vấn đề này là **quyền riêng tư** — quyền của cá nhân trong việc kiểm soát thông tin cá nhân. Trong kỷ nguyên **dữ liệu hóa**, nơi gần như mọi hành động của con người được chuyển đổi thành dữ liệu có thể kiếm tiền, quyền này liên tục bị xâm phạm. Các hệ thống **giám sát** được triển khai bởi cả nhà nước lẫn tập đoàn theo dõi hành vi ở quy mô chưa từng thấy, đặt ra câu hỏi cấp bách về việc ai chịu **trách nhiệm giải trình** trong việc bảo vệ công dân."
+      },
+      {
+        "index": 2,
+        "text_en": "A related concern is **autonomy** — the capacity to make free, informed choices without undue external influence. Algorithmic systems increasingly shape what people read, buy, and believe, often without their knowledge or **consent**. This silent form of **manipulation** undermines self-determination in ways that are difficult to detect or challenge. Critics argue that without meaningful **transparency** about how these systems operate, users cannot meaningfully **protect data privacy** or exercise genuine agency over their own lives.",
+        "text_vi": "Một mối lo ngại liên quan là **quyền tự chủ** — năng lực đưa ra lựa chọn tự do, có đầy đủ thông tin mà không bị ảnh hưởng không đáng có từ bên ngoài. Các hệ thống thuật toán ngày càng định hình những gì mọi người đọc, mua và tin tưởng, thường không có sự hiểu biết hay **đồng thuận** của họ. Hình thức **thao túng** thầm lặng này làm suy yếu quyền tự quyết theo những cách khó phát hiện hay thách thức. Các nhà phê bình lập luận rằng nếu không có **sự minh bạch** thực sự về cách các hệ thống này vận hành, người dùng không thể thực sự **bảo vệ quyền riêng tư dữ liệu** hay thực hiện quyền tự chủ thực sự trong cuộc sống của mình."
+      },
+      {
+        "index": 3,
+        "text_en": "A further ethical blind spot is the **digital divide** — the gap between those with reliable access to technology and those without. **Techno-solutionism**, the belief that technology alone can resolve complex social problems, often overlooks this divide. Policymakers who fail to **challenge techno-solutionist thinking** risk designing interventions that deepen inequality rather than reduce it. Genuine progress requires efforts to **bridge the digital divide** alongside measures to **ensure transparency in tech development**.",
+        "text_vi": "Một điểm mù đạo đức khác là **khoảng cách số** — khoảng cách giữa những người có khả năng tiếp cận công nghệ đáng tin cậy và những người không có. **Chủ nghĩa kỹ trị**, niềm tin rằng công nghệ đơn thuần có thể giải quyết các vấn đề xã hội phức tạp, thường bỏ qua khoảng cách này. Các nhà hoạch định chính sách không **thách thức tư duy kỹ trị** có nguy cơ thiết kế các can thiệp làm sâu sắc thêm bất bình đẳng thay vì giảm bớt nó. Tiến bộ thực sự đòi hỏi những nỗ lực **thu hẹp khoảng cách số** cùng với các biện pháp **đảm bảo sự minh bạch trong phát triển công nghệ**."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, ethical technology requires more than technical safeguards — it demands structural commitments. Platforms and governments must **resist algorithmic manipulation** by building independent oversight mechanisms. They must treat user consent not as a legal formality but as a genuine ethical obligation. Without such commitments, the technologies designed to connect and empower humanity risk becoming instruments of control, widening the very inequalities they promised to resolve.",
+        "text_vi": "Cuối cùng, công nghệ đạo đức đòi hỏi nhiều hơn là các biện pháp bảo vệ kỹ thuật — nó đòi hỏi các cam kết cơ cấu. Các nền tảng và chính phủ phải **kháng cự thao túng thuật toán** bằng cách xây dựng cơ chế giám sát độc lập. Họ phải coi sự đồng thuận của người dùng không phải là thủ tục pháp lý mà là nghĩa vụ đạo đức thực sự. Nếu không có những cam kết đó, các công nghệ được thiết kế để kết nối và trao quyền cho nhân loại có nguy cơ trở thành công cụ kiểm soát, làm trầm trọng thêm chính những bất bình đẳng mà chúng hứa hẹn sẽ giải quyết."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "privacy",
+      "ipa": "/ˈprɪv.ə.si/",
+      "pos": "noun",
+      "meaning_vi": "quyền riêng tư, sự bảo mật thông tin cá nhân",
+      "meaning_vi_inline": "quyền riêng tư",
+      "example_en": "Concerns about privacy have intensified as social media platforms collect increasingly detailed personal data.",
+      "example_vi": "Lo ngại về quyền riêng tư ngày càng gia tăng khi các nền tảng mạng xã hội thu thập dữ liệu cá nhân ngày càng chi tiết.",
+      "word_family": {
+        "noun": "privacy",
+        "verb": null,
+        "adjective": "private",
+        "adverb": "privately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "surveillance",
+      "ipa": "/səˈveɪ.ləns/",
+      "pos": "noun",
+      "meaning_vi": "sự giám sát, hoạt động theo dõi",
+      "meaning_vi_inline": "giám sát",
+      "example_en": "The expansion of surveillance cameras in public spaces has reignited debates about civil liberties.",
+      "example_vi": "Sự mở rộng camera giám sát ở không gian công cộng đã làm bùng lên trở lại các cuộc tranh luận về tự do dân sự.",
+      "word_family": {
+        "noun": "surveillance",
+        "verb": "surveil",
+        "adjective": "surveillant",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "meaning_vi": "quyền tự chủ, sự độc lập trong quyết định",
+      "meaning_vi_inline": "quyền tự chủ",
+      "example_en": "Philosophers argue that algorithmic nudging erodes individual autonomy by steering choices without awareness.",
+      "example_vi": "Các triết gia lập luận rằng sự dẫn dắt bằng thuật toán làm xói mòn quyền tự chủ cá nhân bằng cách điều hướng lựa chọn mà không có ý thức.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "consent",
+      "ipa": "/kənˈsent/",
+      "pos": "noun",
+      "meaning_vi": "sự đồng thuận, sự cho phép có thông tin đầy đủ",
+      "meaning_vi_inline": "đồng thuận",
+      "example_en": "Many users click 'agree' on lengthy terms of service without understanding what they are consenting to.",
+      "example_vi": "Nhiều người dùng nhấp 'đồng ý' vào các điều khoản dịch vụ dài mà không hiểu mình đang đồng ý điều gì.",
+      "word_family": {
+        "noun": "consent",
+        "verb": "consent",
+        "adjective": "consensual",
+        "adverb": "consensually"
+      },
+      "false_friend": {
+        "word_vi": "consensus",
+        "explanation_vi": "'Consent' là sự đồng ý của một cá nhân; 'consensus' là sự đồng thuận chung của một nhóm — khác nhau về chủ thể và phạm vi sử dụng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "manipulation",
+      "ipa": "/məˌnɪp.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thao túng, hành vi kiểm soát người khác một cách gian dối",
+      "meaning_vi_inline": "thao túng",
+      "example_en": "The campaign was accused of emotional manipulation by deliberately amplifying divisive content online.",
+      "example_vi": "Chiến dịch bị cáo buộc thao túng cảm xúc bằng cách cố tình khuếch đại nội dung gây chia rẽ trực tuyến.",
+      "word_family": {
+        "noun": "manipulation",
+        "verb": "manipulate",
+        "adjective": "manipulative",
+        "adverb": "manipulatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "transparency",
+      "ipa": "/trænsˈpær.ən.si/",
+      "pos": "noun",
+      "meaning_vi": "sự minh bạch, tính công khai rõ ràng",
+      "meaning_vi_inline": "sự minh bạch",
+      "example_en": "Regulators are demanding greater transparency from tech companies about how their algorithms prioritise content.",
+      "example_vi": "Các cơ quan quản lý đang yêu cầu sự minh bạch cao hơn từ các công ty công nghệ về cách thuật toán của họ ưu tiên nội dung.",
+      "word_family": {
+        "noun": "transparency",
+        "verb": null,
+        "adjective": "transparent",
+        "adverb": "transparently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "datafication",
+      "ipa": "/ˌdeɪ.tə.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự dữ liệu hóa, quá trình chuyển đổi mọi thứ thành dữ liệu số",
+      "meaning_vi_inline": "dữ liệu hóa",
+      "example_en": "The datafication of health behaviour allows insurers to assess risk with unprecedented precision.",
+      "example_vi": "Sự dữ liệu hóa hành vi sức khỏe cho phép các công ty bảo hiểm đánh giá rủi ro với độ chính xác chưa từng có.",
+      "word_family": {
+        "noun": "datafication",
+        "verb": "datafy",
+        "adjective": "datafied",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "digital divide",
+      "ipa": "/ˈdɪdʒ.ɪ.təl dɪˈvaɪd/",
+      "pos": "noun phrase",
+      "meaning_vi": "khoảng cách số, sự bất bình đẳng trong tiếp cận công nghệ",
+      "meaning_vi_inline": "khoảng cách số",
+      "example_en": "The digital divide means that remote communities often miss out on the economic benefits of internet connectivity.",
+      "example_vi": "Khoảng cách số đồng nghĩa với việc các cộng đồng vùng xa thường bỏ lỡ những lợi ích kinh tế từ kết nối internet.",
+      "word_family": {
+        "noun": "digital divide",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "accountability",
+      "ipa": "/əˌkaʊn.tə.ˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "trách nhiệm giải trình, nghĩa vụ chịu trách nhiệm",
+      "meaning_vi_inline": "trách nhiệm giải trình",
+      "example_en": "The lack of accountability in AI development has led to calls for independent regulatory bodies.",
+      "example_vi": "Sự thiếu trách nhiệm giải trình trong phát triển AI đã dẫn đến những lời kêu gọi thành lập các cơ quan quản lý độc lập.",
+      "word_family": {
+        "noun": "accountability",
+        "verb": "account (for)",
+        "adjective": "accountable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "techno-solutionism",
+      "ipa": "/ˌtek.nəʊ.səˈluː.ʃən.ɪz.əm/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa kỹ trị, niềm tin rằng công nghệ có thể giải quyết mọi vấn đề xã hội",
+      "meaning_vi_inline": "chủ nghĩa kỹ trị",
+      "example_en": "Critics of techno-solutionism warn that deploying apps to address poverty ignores its structural causes.",
+      "example_vi": "Những người phê bình chủ nghĩa kỹ trị cảnh báo rằng triển khai ứng dụng để giải quyết nghèo đói sẽ bỏ qua các nguyên nhân cơ cấu của nó.",
+      "word_family": {
+        "noun": "techno-solutionism / techno-solutionist",
+        "verb": null,
+        "adjective": "techno-solutionist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "protect data privacy",
+      "meaning_vi": "bảo vệ quyền riêng tư dữ liệu",
+      "example_en": "Legislation alone is insufficient to protect data privacy if users remain unaware of their rights.",
+      "example_vi": "Luật pháp đơn thuần là không đủ để bảo vệ quyền riêng tư dữ liệu nếu người dùng vẫn không biết về quyền của mình.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "challenge techno-solutionist thinking",
+      "meaning_vi": "thách thức tư duy kỹ trị",
+      "example_en": "Academics and activists continue to challenge techno-solutionist thinking by highlighting its social blind spots.",
+      "example_vi": "Các học giả và nhà hoạt động tiếp tục thách thức tư duy kỹ trị bằng cách chỉ ra những điểm mù xã hội của nó.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "ensure transparency in tech development",
+      "meaning_vi": "đảm bảo sự minh bạch trong phát triển công nghệ",
+      "example_en": "Open-source licensing is one mechanism used to ensure transparency in tech development.",
+      "example_vi": "Cấp phép mã nguồn mở là một cơ chế được dùng để đảm bảo sự minh bạch trong phát triển công nghệ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "bridge the digital divide",
+      "meaning_vi": "thu hẹp khoảng cách số",
+      "example_en": "Subsidised internet access programmes aim to bridge the digital divide in underserved rural areas.",
+      "example_vi": "Các chương trình truy cập internet được trợ cấp nhằm mục đích thu hẹp khoảng cách số ở các vùng nông thôn chưa được phục vụ đầy đủ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "resist algorithmic manipulation",
+      "meaning_vi": "kháng cự thao túng thuật toán",
+      "example_en": "Media literacy education helps citizens resist algorithmic manipulation by teaching critical evaluation of online content.",
+      "example_vi": "Giáo dục hiểu biết truyền thông giúp công dân kháng cự thao túng thuật toán bằng cách dạy đánh giá phê phán nội dung trực tuyến.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, datafication refers to the process of converting human actions into monetisable data.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage claims that most surveillance systems are operated exclusively by governments.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that users who click 'agree' on terms of service always understand what they are consenting to.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that techno-solutionism can deepen inequality when it ignores the digital divide.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that independent oversight mechanisms are currently in place in all major technology companies.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government's mass _____ programme was condemned by civil liberties groups as a violation of constitutional rights.",
+          "options": [
+            "datafication",
+            "autonomy",
+            "surveillance",
+            "consent"
+          ],
+          "answer": "surveillance"
+        },
+        {
+          "id": 2,
+          "sentence": "Patients have the right to give informed _____ before any medical procedure is carried out.",
+          "options": [
+            "manipulation",
+            "consent",
+            "transparency",
+            "accountability"
+          ],
+          "answer": "consent"
+        },
+        {
+          "id": 3,
+          "sentence": "The company's reputation collapsed after an investigation revealed a systemic lack of _____ in its financial reporting.",
+          "options": [
+            "autonomy",
+            "surveillance",
+            "datafication",
+            "transparency"
+          ],
+          "answer": "transparency"
+        },
+        {
+          "id": 4,
+          "sentence": "Critics of _____ argue that no app can substitute for the structural reforms needed to tackle urban poverty.",
+          "options": [
+            "privacy",
+            "accountability",
+            "techno-solutionism",
+            "digital divide"
+          ],
+          "answer": "techno-solutionism"
+        },
+        {
+          "id": 5,
+          "sentence": "The board demanded full _____ from the executive team for the data breach that exposed millions of users.",
+          "options": [
+            "transparency",
+            "datafication",
+            "manipulation",
+            "accountability"
+          ],
+          "answer": "accountability"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "privacy",
+        "autonomy",
+        "manipulation",
+        "datafication",
+        "digital divide",
+        "consent"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of daily routines — from sleep patterns to commute routes — has created vast commercial opportunities for data brokers.",
+          "answer": "datafication"
+        },
+        {
+          "id": 2,
+          "sentence": "Closing the _____ requires sustained investment in both infrastructure and digital skills training.",
+          "answer": "digital divide"
+        },
+        {
+          "id": 3,
+          "sentence": "Scholars of political philosophy define _____ as the ability to govern oneself according to one's own values and reasoning.",
+          "answer": "autonomy"
+        },
+        {
+          "id": 4,
+          "sentence": "Targeted advertising that exploits emotional vulnerabilities is widely condemned as a form of commercial _____.",
+          "answer": "manipulation"
+        },
+        {
+          "id": 5,
+          "sentence": "Children's _____ online deserves stronger legal protection than that afforded to adults, given their developmental vulnerabilities.",
+          "answer": "privacy"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "surveillance",
+            "erodes",
+            "mass",
+            "trust",
+            "between",
+            "citizens",
+            "and",
+            "the",
+            "state"
+          ],
+          "answer": "Mass surveillance erodes trust between citizens and the state."
+        },
+        {
+          "id": 2,
+          "words": [
+            "transparency",
+            "is",
+            "essential",
+            "for",
+            "building",
+            "public",
+            "trust",
+            "in",
+            "AI",
+            "systems"
+          ],
+          "answer": "Transparency is essential for building public trust in AI systems."
+        },
+        {
+          "id": 3,
+          "words": [
+            "algorithmic",
+            "manipulation",
+            "threatens",
+            "democratic",
+            "debate",
+            "by",
+            "distorting",
+            "public",
+            "discourse"
+          ],
+          "answer": "Algorithmic manipulation threatens democratic debate by distorting public discourse."
+        },
+        {
+          "id": 4,
+          "words": [
+            "bridging",
+            "the",
+            "digital",
+            "divide",
+            "requires",
+            "both",
+            "infrastructure",
+            "and",
+            "skills",
+            "training"
+          ],
+          "answer": "Bridging the digital divide requires both infrastructure and skills training."
+        },
+        {
+          "id": 5,
+          "words": [
+            "without",
+            "informed",
+            "consent",
+            "data",
+            "collection",
+            "becomes",
+            "a",
+            "form",
+            "of",
+            "surveillance"
+          ],
+          "answer": "Without informed consent, data collection becomes a form of surveillance."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The platform's [transparent] about data usage was praised by regulators as a model for the industry.",
+          "highlighted": "transparent",
+          "options": {
+            "A": "transparently",
+            "B": "transparency",
+            "C": "transparence"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after the possessive 'platform's' to serve as the subject — 'transparency', not the adjective 'transparent'."
+        },
+        {
+          "id": 2,
+          "sentence": "Governments must ensure that citizens can [autonomy] make decisions without algorithmic interference.",
+          "highlighted": "autonomy",
+          "options": {
+            "A": "autonomous",
+            "B": "autonomously",
+            "C": "autonomise"
+          },
+          "answer": "B",
+          "explanation": "An adverb is needed to modify the verb 'make' — 'autonomously', not the noun 'autonomy'."
+        },
+        {
+          "id": 3,
+          "sentence": "The leaked documents revealed that the app had collected user data without explicit [consenting].",
+          "highlighted": "consenting",
+          "options": {
+            "A": "consented",
+            "B": "consensual",
+            "C": "consent"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after the adjective 'explicit' — 'consent', not the present participle 'consenting'."
+        },
+        {
+          "id": 4,
+          "sentence": "The report called for greater [accountable] among executives whose decisions led to the data breach.",
+          "highlighted": "accountable",
+          "options": {
+            "A": "accounting",
+            "B": "accountability",
+            "C": "account"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after the adjective 'greater' — 'accountability', not the adjective 'accountable'."
+        },
+        {
+          "id": 5,
+          "sentence": "Scholars argue that [manipulative] of public opinion through social media poses a serious threat to democracy.",
+          "highlighted": "manipulative",
+          "options": {
+            "A": "manipulate",
+            "B": "manipulation",
+            "C": "manipulatively"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the clause — 'manipulation', not the adjective 'manipulative'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "surveillance",
+      "2": "consent",
+      "3": "transparency",
+      "4": "techno-solutionism",
+      "5": "accountability"
+    },
+    "ex3": {
+      "1": "datafication",
+      "2": "digital divide",
+      "3": "autonomy",
+      "4": "manipulation",
+      "5": "privacy"
+    },
+    "ex4": {
+      "1": "Mass surveillance erodes trust between citizens and the state.",
+      "2": "Transparency is essential for building public trust in AI systems.",
+      "3": "Algorithmic manipulation threatens democratic debate by distorting public discourse.",
+      "4": "Bridging the digital divide requires both infrastructure and skills training.",
+      "5": "Without informed consent, data collection becomes a form of surveillance."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

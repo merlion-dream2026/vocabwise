@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 27,
+    "topic_id": "b2-t27",
+    "topic_title": "Property & Housing",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🏠",
+    "topic_title_vi": "Bất Động Sản & Nhà Ở",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 216,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Finding a place to live is one of the most significant financial decisions a person makes. In most cities, rising **demand** and limited **supply** have pushed **property** prices to levels that many people struggle to **afford**. As a result, people must choose between buying and renting. Those who **rent** pay a regular amount to a **landlord** — the owner of the property — in exchange for the right to live there, usually under the terms of a **lease**.",
+        "text_vi": "Tìm nơi ở là một trong những quyết định tài chính quan trọng nhất mà một người phải đưa ra. Ở hầu hết các thành phố, **nhu cầu** tăng cao và **nguồn cung** hạn chế đã đẩy giá **bất động sản** lên mức mà nhiều người khó lòng **đủ khả năng** chi trả. Do đó, mọi người phải lựa chọn giữa mua và thuê. Những người **thuê nhà** trả một khoản tiền định kỳ cho **chủ nhà** — người sở hữu bất động sản — để đổi lấy quyền sinh sống ở đó, thường theo các điều khoản của một **hợp đồng thuê**."
+      },
+      {
+        "index": 2,
+        "text_en": "For those hoping to buy, most require a **home loan** from a bank to cover the full cost. Before obtaining a loan, a buyer typically needs to save a **down payment** — an initial lump sum paid upfront, usually 10–20% of the property's total price. The **value** of a property depends on many factors, including its size, condition, and **area** — the neighbourhood and surrounding environment where it is located.",
+        "text_vi": "Đối với những người muốn mua, hầu hết cần một **khoản vay mua nhà** từ ngân hàng để trang trải toàn bộ chi phí. Trước khi vay, người mua thường phải tiết kiệm một khoản **đặt cọc ban đầu** — số tiền trả trước một lần, thường là 10–20% tổng giá trị bất động sản. **Giá trị** của một bất động sản phụ thuộc vào nhiều yếu tố, bao gồm diện tích, tình trạng và **khu vực** — khu phố và môi trường xung quanh nơi tọa lạc."
+      },
+      {
+        "index": 3,
+        "text_en": "Many buyers choose to live in a **suburb** — a residential area on the edge of a city — where prices tend to be lower and the environment is quieter. A **tenant** — a person who rents from a landlord — must follow the rules set out in their lease, such as maintaining the property and paying on time. Some owners choose to **renovate** their property — to repair and improve it — in order to increase its market appeal.",
+        "text_vi": "Nhiều người mua chọn sống ở **vùng ngoại ô** — khu dân cư ở rìa thành phố — nơi giá thường thấp hơn và môi trường yên tĩnh hơn. **Người thuê nhà** — người thuê từ chủ nhà — phải tuân theo các quy tắc trong hợp đồng thuê, như bảo trì bất động sản và thanh toán đúng hạn. Một số chủ nhà chọn **cải tạo** bất động sản — sửa chữa và nâng cấp — để tăng sức hấp dẫn trên thị trường."
+      },
+      {
+        "index": 4,
+        "text_en": "Property is also commonly seen as a way to **invest** wealth. Buying and renting out a home can generate a steady income over time, and the property itself often increases in value. However, this requires careful research into local market trends, as not all areas experience consistent price growth. Understanding both the opportunities and risks is essential before making any major property decision.",
+        "text_vi": "Bất động sản cũng thường được xem là cách để **đầu tư** tài sản. Mua nhà và cho thuê có thể tạo ra thu nhập ổn định theo thời gian, và bản thân bất động sản thường tăng giá trị. Tuy nhiên, điều này đòi hỏi nghiên cứu kỹ lưỡng về xu hướng thị trường địa phương, vì không phải khu vực nào cũng có mức tăng giá ổn định. Hiểu rõ cả cơ hội lẫn rủi ro là điều cần thiết trước khi đưa ra bất kỳ quyết định bất động sản lớn nào."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "property",
+      "ipa": "/ˈprɒp.ə.ti/",
+      "pos": "noun",
+      "meaning_vi": "bất động sản, tài sản (nhà, đất)",
+      "meaning_vi_inline": "bất động sản",
+      "example_en": "Property prices in major cities have risen sharply over the past decade.",
+      "example_vi": "Giá bất động sản ở các thành phố lớn đã tăng mạnh trong thập kỷ qua.",
+      "word_family": {
+        "noun": "property",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "demand",
+      "ipa": "/dɪˈmɑːnd/",
+      "pos": "noun",
+      "meaning_vi": "nhu cầu (về nhà ở)",
+      "meaning_vi_inline": "nhu cầu",
+      "example_en": "Strong demand for housing in the city centre has pushed prices very high.",
+      "example_vi": "Nhu cầu nhà ở cao ở trung tâm thành phố đã đẩy giá lên rất cao.",
+      "word_family": {
+        "noun": "demand",
+        "verb": "demand",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "supply",
+      "ipa": "/səˈplaɪ/",
+      "pos": "noun",
+      "meaning_vi": "nguồn cung (nhà ở)",
+      "meaning_vi_inline": "nguồn cung",
+      "example_en": "A lack of housing supply means that families are struggling to find affordable homes.",
+      "example_vi": "Sự thiếu hụt nguồn cung nhà ở khiến các gia đình vất vả tìm nhà giá hợp lý.",
+      "word_family": {
+        "noun": "supply / supplier",
+        "verb": "supply",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "afford",
+      "ipa": "/əˈfɔːd/",
+      "pos": "verb",
+      "meaning_vi": "đủ khả năng tài chính để mua/thuê",
+      "meaning_vi_inline": "đủ khả năng",
+      "example_en": "Many young people cannot afford to buy a home without financial help from their family.",
+      "example_vi": "Nhiều người trẻ không đủ khả năng mua nhà nếu không có sự hỗ trợ tài chính từ gia đình.",
+      "word_family": {
+        "noun": null,
+        "verb": "afford",
+        "adjective": "affordable / unaffordable",
+        "adverb": "affordably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "rent",
+      "ipa": "/rent/",
+      "pos": "verb / noun",
+      "meaning_vi": "thuê nhà; tiền thuê nhà",
+      "meaning_vi_inline": "thuê",
+      "example_en": "She decided to rent a flat near the university rather than buying one.",
+      "example_vi": "Cô ấy quyết định thuê căn hộ gần trường đại học thay vì mua.",
+      "word_family": {
+        "noun": "rent / rental",
+        "verb": "rent",
+        "adjective": "rented",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "landlord",
+      "ipa": "/ˈlænd.lɔːd/",
+      "pos": "noun",
+      "meaning_vi": "chủ nhà, người cho thuê nhà",
+      "meaning_vi_inline": "chủ nhà",
+      "example_en": "The landlord agreed to repair the broken heating before winter.",
+      "example_vi": "Chủ nhà đồng ý sửa hệ thống sưởi hỏng trước mùa đông.",
+      "word_family": {
+        "noun": "landlord / landlady",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "tenant",
+        "explanation_vi": "'Landlord' là người sở hữu bất động sản và cho thuê (chủ nhà); 'tenant' là người thuê bất động sản đó — hai vai trò đối lập trong hợp đồng thuê."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "lease",
+      "ipa": "/liːs/",
+      "pos": "noun / verb",
+      "meaning_vi": "hợp đồng thuê (chính thức, có thời hạn)",
+      "meaning_vi_inline": "hợp đồng thuê",
+      "example_en": "She signed a 12-month lease for the flat and moved in the following week.",
+      "example_vi": "Cô ấy ký hợp đồng thuê 12 tháng cho căn hộ và chuyển vào tuần sau.",
+      "word_family": {
+        "noun": "lease",
+        "verb": "lease",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "rent",
+        "explanation_vi": "'Lease' là văn bản hợp đồng thuê chính thức có thời hạn cố định; 'rent' là khoản tiền trả định kỳ hoặc hành động thuê — 'rent' là số tiền bạn trả, 'lease' là hợp đồng bạn ký."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "home loan",
+      "ipa": "/həʊm ləʊn/",
+      "pos": "noun",
+      "meaning_vi": "khoản vay mua nhà",
+      "meaning_vi_inline": "vay mua nhà",
+      "example_en": "They applied for a home loan to cover the cost of their first apartment.",
+      "example_vi": "Họ đăng ký khoản vay mua nhà để trang trải chi phí căn hộ đầu tiên.",
+      "word_family": {
+        "noun": "home loan / mortgage",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "mortgage",
+        "explanation_vi": "Trong tiếng Anh học thuật, 'mortgage' là từ chính thức hơn cho khoản vay mua bất động sản; 'home loan' là cách nói đơn giản hơn nhưng có cùng nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "down payment",
+      "ipa": "/daʊn ˈpeɪ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "tiền đặt cọc ban đầu khi mua nhà",
+      "meaning_vi_inline": "tiền đặt cọc",
+      "example_en": "She saved for five years to make a down payment on her first home.",
+      "example_vi": "Cô ấy tiết kiệm trong năm năm để đặt cọc cho ngôi nhà đầu tiên.",
+      "word_family": {
+        "noun": "down payment",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "value",
+      "ipa": "/ˈvæl.juː/",
+      "pos": "noun / verb",
+      "meaning_vi": "giá trị (của bất động sản)",
+      "meaning_vi_inline": "giá trị",
+      "example_en": "The value of the house increased by 20% over five years.",
+      "example_vi": "Giá trị ngôi nhà tăng 20% trong vòng năm năm.",
+      "word_family": {
+        "noun": "value / valuation",
+        "verb": "value",
+        "adjective": "valuable / valued",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "area",
+      "ipa": "/ˈeə.ri.ə/",
+      "pos": "noun",
+      "meaning_vi": "khu vực, khu phố (vị trí bất động sản)",
+      "meaning_vi_inline": "khu vực",
+      "example_en": "Location is everything in property — the area matters as much as the building itself.",
+      "example_vi": "Trong bất động sản, vị trí là tất cả — khu vực quan trọng không kém gì bản thân tòa nhà.",
+      "word_family": {
+        "noun": "area",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "suburb",
+      "ipa": "/ˈsʌb.ɜːb/",
+      "pos": "noun",
+      "meaning_vi": "vùng ngoại ô (khu dân cư ven thành phố)",
+      "meaning_vi_inline": "ngoại ô",
+      "example_en": "Many families move to the suburbs for more space and quieter surroundings.",
+      "example_vi": "Nhiều gia đình chuyển ra ngoại ô để có nhiều không gian hơn và môi trường yên tĩnh hơn.",
+      "word_family": {
+        "noun": "suburb / suburbs (plural) / suburbia",
+        "verb": null,
+        "adjective": "suburban",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "tenant",
+      "ipa": "/ˈten.ənt/",
+      "pos": "noun",
+      "meaning_vi": "người thuê nhà",
+      "meaning_vi_inline": "người thuê",
+      "example_en": "The tenant was responsible for keeping the flat clean and reporting any damage.",
+      "example_vi": "Người thuê nhà có trách nhiệm giữ căn hộ sạch sẽ và báo cáo mọi hư hỏng.",
+      "word_family": {
+        "noun": "tenant / tenancy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "renovate",
+      "ipa": "/ˈren.ə.veɪt/",
+      "pos": "verb",
+      "meaning_vi": "cải tạo, tu sửa (bất động sản)",
+      "meaning_vi_inline": "cải tạo",
+      "example_en": "They renovated the old house before putting it back on the market.",
+      "example_vi": "Họ cải tạo ngôi nhà cũ trước khi đưa trở lại thị trường.",
+      "word_family": {
+        "noun": "renovation",
+        "verb": "renovate",
+        "adjective": "renovated",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "repair",
+        "explanation_vi": "'Renovate' là cải tạo toàn diện để nâng cấp và làm mới không gian; 'repair' là sửa chữa một thứ hỏng cụ thể — renovate rộng hơn và tốn kém hơn repair."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "invest",
+      "ipa": "/ɪnˈvest/",
+      "pos": "verb",
+      "meaning_vi": "đầu tư (vào bất động sản)",
+      "meaning_vi_inline": "đầu tư",
+      "example_en": "He decided to invest in a second property to generate rental income.",
+      "example_vi": "Anh ấy quyết định đầu tư vào một bất động sản thứ hai để tạo thu nhập cho thuê.",
+      "word_family": {
+        "noun": "investment / investor",
+        "verb": "invest",
+        "adjective": "invested",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Rising demand and limited supply have pushed property prices up in most cities.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A down payment is typically between 10 and 20 percent of the property's total price.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that suburbs are always cheaper to live in than city centres.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A tenant is responsible for setting the rules of a lease agreement.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Property investment always leads to a guaranteed increase in value over time.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ refused to return the security deposit, claiming the flat had been left in poor condition.",
+          "options": [
+            "tenant",
+            "suburb",
+            "landlord",
+            "investor"
+          ],
+          "answer": "landlord"
+        },
+        {
+          "id": 2,
+          "sentence": "She signed a one-year _____ for the apartment and agreed to pay rent on the first of each month.",
+          "options": [
+            "home loan",
+            "lease",
+            "down payment",
+            "value"
+          ],
+          "answer": "lease"
+        },
+        {
+          "id": 3,
+          "sentence": "They moved to a quiet _____ on the outskirts of the city where houses were much more affordable.",
+          "options": [
+            "area",
+            "suburb",
+            "property",
+            "demand"
+          ],
+          "answer": "suburb"
+        },
+        {
+          "id": 4,
+          "sentence": "Before the house was sold, the owners spent three months and a large sum of money to _____ it.",
+          "options": [
+            "invest",
+            "supply",
+            "renovate",
+            "afford"
+          ],
+          "answer": "renovate"
+        },
+        {
+          "id": 5,
+          "sentence": "He applied for a _____ from the bank and was approved after submitting proof of income.",
+          "options": [
+            "down payment",
+            "lease",
+            "home loan",
+            "value"
+          ],
+          "answer": "home loan"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "property",
+        "rent",
+        "down payment",
+        "value",
+        "tenant"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She saved for years to make a _____ on her first home and finally had enough last spring.",
+          "answer": "down payment"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of the apartment rose by 15% after a new train line opened nearby.",
+          "answer": "value"
+        },
+        {
+          "id": 3,
+          "sentence": "He chose to _____ a flat in the city centre while he saved up to buy his own home.",
+          "answer": "rent"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ was asked to leave after repeatedly paying late and ignoring the landlord's messages.",
+          "answer": "tenant"
+        },
+        {
+          "id": 5,
+          "sentence": "Investing in _____ can generate long-term income, but it requires careful research beforehand.",
+          "answer": "property"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "saved",
+            "for",
+            "five",
+            "years",
+            "to",
+            "make",
+            "a",
+            "down",
+            "payment",
+            "on",
+            "her",
+            "first",
+            "home"
+          ],
+          "answer": "She saved for five years to make a down payment on her first home."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "landlord",
+            "agreed",
+            "to",
+            "renovate",
+            "the",
+            "kitchen",
+            "before",
+            "the",
+            "tenant",
+            "moved",
+            "in"
+          ],
+          "answer": "The landlord agreed to renovate the kitchen before the tenant moved in."
+        },
+        {
+          "id": 3,
+          "words": [
+            "rising",
+            "demand",
+            "and",
+            "limited",
+            "supply",
+            "have",
+            "pushed",
+            "property",
+            "prices",
+            "higher"
+          ],
+          "answer": "Rising demand and limited supply have pushed property prices higher."
+        },
+        {
+          "id": 4,
+          "words": [
+            "many",
+            "families",
+            "move",
+            "to",
+            "the",
+            "suburbs",
+            "for",
+            "more",
+            "space",
+            "and",
+            "quieter",
+            "surroundings"
+          ],
+          "answer": "Many families move to the suburbs for more space and quieter surroundings."
+        },
+        {
+          "id": 5,
+          "words": [
+            "he",
+            "applied",
+            "for",
+            "a",
+            "home",
+            "loan",
+            "to",
+            "cover",
+            "the",
+            "cost",
+            "of",
+            "the",
+            "flat"
+          ],
+          "answer": "He applied for a home loan to cover the cost of the flat."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [renter] refused to fix the broken heating system, even after several requests from the family living there.",
+          "highlighted": "renter",
+          "options": {
+            "A": "landlord",
+            "B": "renter",
+            "C": "tenant"
+          },
+          "answer": "A",
+          "explanation": "'Landlord' is the person who owns and rents out a property and is therefore responsible for major repairs; 'renter' and 'tenant' both refer to the person living in and paying for the property."
+        },
+        {
+          "id": 2,
+          "sentence": "She signed a formal [agreement] for twelve months, which set out the rent, rules, and conditions of living in the flat.",
+          "highlighted": "agreement",
+          "options": {
+            "A": "agreement",
+            "B": "lease",
+            "C": "contract"
+          },
+          "answer": "B",
+          "explanation": "'Lease' is the specific property term for a formal, time-bound rental agreement between a landlord and tenant; while 'contract' and 'agreement' are not wrong, 'lease' is the standard term in a housing context."
+        },
+        {
+          "id": 3,
+          "sentence": "They hired a builder to [repair] the entire house — replacing flooring, updating the kitchen, and repainting every room.",
+          "highlighted": "repair",
+          "options": {
+            "A": "renovate",
+            "B": "repair",
+            "C": "restore"
+          },
+          "answer": "A",
+          "explanation": "'Renovate' means to carry out major improvements that transform and modernise a property; 'repair' means fixing something broken, and 'restore' implies returning something to its original historic state."
+        },
+        {
+          "id": 4,
+          "sentence": "Before buying the house, she paid a large [deposit] of 20% to secure the purchase.",
+          "highlighted": "deposit",
+          "options": {
+            "A": "deposit",
+            "B": "down payment",
+            "C": "prepayment"
+          },
+          "answer": "B",
+          "explanation": "'Down payment' is the standard property term for the initial lump sum paid when purchasing a home; 'deposit' can refer to a smaller holding payment (e.g., to reserve a rental), and 'prepayment' is too general."
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ in this [neighbourhood] has risen significantly, making it one of the most expensive places to buy.",
+          "highlighted": "neighbourhood",
+          "options": {
+            "A": "area",
+            "B": "neighbourhood",
+            "C": "value"
+          },
+          "answer": "C",
+          "explanation": "'Value' is the correct word here — the sentence means that property prices in the area have gone up. 'Neighbourhood' and 'area' cannot replace 'value' in this context as they describe location, not price."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "True",
+      "3": "Not Given",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "landlord",
+      "2": "lease",
+      "3": "suburb",
+      "4": "renovate",
+      "5": "home loan"
+    },
+    "ex3": {
+      "1": "down payment",
+      "2": "value",
+      "3": "rent",
+      "4": "tenant",
+      "5": "property"
+    },
+    "ex4": {
+      "1": "She saved for five years to make a down payment on her first home.",
+      "2": "The landlord agreed to renovate the kitchen before the tenant moved in.",
+      "3": "Rising demand and limited supply have pushed property prices higher.",
+      "4": "Many families move to the suburbs for more space and quieter surroundings.",
+      "5": "He applied for a home loan to cover the cost of the flat."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

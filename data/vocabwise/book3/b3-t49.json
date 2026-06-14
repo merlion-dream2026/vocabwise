@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 49,
+    "topic_id": "b3-t49",
+    "topic_title": "Public Speaking & Presentation",
+    "topic_title_vi": "Nói Trước Công Chúng & Thuyết Trình",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🎙️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Effective public speaking depends far less on what is said than on how it is said. The **delivery** of a speech — encompassing tone, pace, and physical presence — is what transforms a written script into a live, persuasive performance. Speakers who master **pacing** know when to slow down for emphasis, when to pause for impact, and when to accelerate to build momentum. Without this rhythmic control, even a well-researched argument risks losing the room.",
+        "text_vi": "Nói trước công chúng hiệu quả phụ thuộc vào cách trình bày hơn là nội dung. **Cách trình bày** của một bài phát biểu — bao gồm giọng điệu, nhịp độ và sự hiện diện thể chất — là thứ biến một kịch bản viết sẵn thành màn trình diễn sống động, có sức thuyết phục. Những diễn giả thành thạo **nhịp độ** biết khi nào cần chậm lại để nhấn mạnh, khi nào dừng lại để tạo ấn tượng, và khi nào tăng tốc để tạo đà. Nếu thiếu sự kiểm soát nhịp điệu này, ngay cả một lập luận được nghiên cứu kỹ cũng có nguy cơ làm mất sự chú ý của khán phòng."
+      },
+      {
+        "index": 2,
+        "text_en": "Strong **audience awareness** is equally critical. Skilled presenters continuously read the room, adjusting their register, examples, and even humour in response to visible cues. Complementing this sensitivity is deliberate use of **gesture** — purposeful hand and body movement that reinforces meaning and sustains attention. A well-placed gesture can underscore a key point more powerfully than any additional word, provided it arises naturally from **confidence** rather than rehearsed habit.",
+        "text_vi": "**Nhận thức về khán giả** cũng cực kỳ quan trọng. Những người thuyết trình giỏi liên tục đọc không khí khán phòng, điều chỉnh ngôn ngữ, ví dụ và thậm chí cả sự hài hước theo những tín hiệu quan sát được. Bổ trợ cho sự nhạy bén này là việc sử dụng có chủ đích **cử chỉ** — chuyển động tay và cơ thể có mục đích, giúp củng cố ý nghĩa và duy trì sự chú ý. Một cử chỉ được đặt đúng chỗ có thể nhấn mạnh điểm mấu chốt mạnh mẽ hơn bất kỳ từ nào thêm vào, miễn là nó xuất phát tự nhiên từ **sự tự tin** chứ không phải thói quen luyện tập máy móc."
+      },
+      {
+        "index": 3,
+        "text_en": "Clarity of **structure** is the backbone of any compelling presentation. Audiences follow complex ideas far more readily when speakers **use signposting language effectively** — phrases such as 'Moving on to', 'To summarise', or 'The key point here is' act as navigational aids. Paired with a coherent **structure**, **signposting** prevents listeners from becoming lost and ensures that the intended message survives the journey from speaker to audience intact.",
+        "text_vi": "Sự rõ ràng của **cấu trúc** là xương sống của bất kỳ bài thuyết trình hấp dẫn nào. Khán giả dễ theo dõi những ý tưởng phức tạp hơn nhiều khi người nói **sử dụng ngôn ngữ định hướng hiệu quả** — những cụm từ như 'Tiếp theo', 'Tóm lại' hay 'Điểm mấu chốt ở đây là' đóng vai trò như các mốc định hướng. Kết hợp với **cấu trúc** mạch lạc, **định hướng** giúp người nghe không bị lạc và đảm bảo thông điệp được truyền tải nguyên vẹn từ người nói đến khán giả."
+      },
+      {
+        "index": 4,
+        "text_en": "Finally, sustained **engagement** separates a memorable presentation from a forgettable one. Speakers who **tailor delivery to context** — whether addressing a boardroom, a lecture theatre, or a mixed public forum — consistently outperform those who apply a one-size-fits-all approach. **Visual aids**, when used judiciously, support rather than replace spoken content, directing attention and reinforcing key data. The presenter who can **project confidence under pressure** and adapt in real time will always hold the advantage.",
+        "text_vi": "Cuối cùng, **sự thu hút** bền vững phân biệt một bài thuyết trình đáng nhớ với một bài bình thường. Những người nói biết **điều chỉnh cách trình bày phù hợp với bối cảnh** — dù là phòng họp hội đồng, giảng đường hay diễn đàn công cộng hỗn hợp — luôn thể hiện tốt hơn những ai áp dụng một cách duy nhất cho mọi tình huống. **Phương tiện trực quan**, khi được sử dụng khéo léo, hỗ trợ chứ không thay thế nội dung nói, hướng sự chú ý và củng cố dữ liệu then chốt. Người thuyết trình có thể **thể hiện sự tự tin khi chịu áp lực** và thích nghi theo thời gian thực sẽ luôn nắm lợi thế."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "delivery",
+      "ipa": "/dɪˈlɪv.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "cách trình bày, phong thái diễn đạt",
+      "meaning_vi_inline": "cách trình bày",
+      "example_en": "Her confident delivery made even the most technical data feel accessible to the audience.",
+      "example_vi": "Cách trình bày tự tin của cô ấy khiến ngay cả dữ liệu kỹ thuật nhất cũng trở nên dễ tiếp cận với khán giả.",
+      "word_family": {
+        "noun": "delivery",
+        "verb": "deliver",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "pacing",
+      "ipa": "/ˈpeɪ.sɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "nhịp độ, tốc độ trình bày",
+      "meaning_vi_inline": "nhịp độ",
+      "example_en": "The speaker's careful pacing gave the audience time to absorb each key argument before moving on.",
+      "example_vi": "Nhịp độ cẩn thận của diễn giả giúp khán giả có thời gian tiếp thu từng lập luận quan trọng trước khi tiếp tục.",
+      "word_family": {
+        "noun": "pace / pacing",
+        "verb": "pace",
+        "adjective": "paced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "audience awareness",
+      "ipa": "/ˈɔː.di.əns əˈweə.nəs/",
+      "pos": "noun phrase",
+      "meaning_vi": "nhận thức về khán giả, khả năng đọc hiểu khán phòng",
+      "meaning_vi_inline": "nhận thức về khán giả",
+      "example_en": "Strong audience awareness allows a presenter to sense when listeners are disengaged and adjust accordingly.",
+      "example_vi": "Nhận thức tốt về khán giả giúp người thuyết trình nhận ra khi nào người nghe mất tập trung và điều chỉnh kịp thời.",
+      "word_family": {
+        "noun": "audience awareness / audience",
+        "verb": null,
+        "adjective": "audience-aware",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "gesture",
+      "ipa": "/ˈdʒes.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "cử chỉ, điệu bộ",
+      "meaning_vi_inline": "cử chỉ",
+      "example_en": "Open-palm gestures are widely interpreted as a sign of honesty and openness in public speaking contexts.",
+      "example_vi": "Những cử chỉ lòng bàn tay mở thường được hiểu là dấu hiệu của sự trung thực và cởi mở trong bối cảnh nói trước đám đông.",
+      "word_family": {
+        "noun": "gesture",
+        "verb": "gesture",
+        "adjective": "gestural",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "structure",
+      "ipa": "/ˈstrʌk.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "cấu trúc, bố cục",
+      "meaning_vi_inline": "cấu trúc",
+      "example_en": "A clear three-part structure — introduction, body, and conclusion — is the foundation of effective presentations.",
+      "example_vi": "Cấu trúc ba phần rõ ràng — mở đầu, thân bài và kết luận — là nền tảng của một bài thuyết trình hiệu quả.",
+      "word_family": {
+        "noun": "structure",
+        "verb": "structure",
+        "adjective": "structural / structured",
+        "adverb": "structurally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "clarity",
+      "ipa": "/ˈklær.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự rõ ràng, tính minh bạch",
+      "meaning_vi_inline": "sự rõ ràng",
+      "example_en": "The professor was praised for the clarity of her explanations, which made complex theory accessible to all students.",
+      "example_vi": "Giáo sư được khen ngợi vì sự rõ ràng trong giải thích, giúp lý thuyết phức tạp trở nên dễ tiếp cận với mọi sinh viên.",
+      "word_family": {
+        "noun": "clarity",
+        "verb": "clarify",
+        "adjective": "clear",
+        "adverb": "clearly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "engagement",
+      "ipa": "/ɪnˈɡeɪdʒ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự thu hút, mức độ tương tác của khán giả",
+      "meaning_vi_inline": "sự thu hút",
+      "example_en": "Audience engagement dropped sharply after the presenter began reading directly from his slides.",
+      "example_vi": "Sự tương tác của khán giả giảm mạnh sau khi người thuyết trình bắt đầu đọc thẳng từ slide.",
+      "word_family": {
+        "noun": "engagement",
+        "verb": "engage",
+        "adjective": "engaging / engaged",
+        "adverb": "engagingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "confidence",
+      "ipa": "/ˈkɒn.fɪ.dəns/",
+      "pos": "noun",
+      "meaning_vi": "sự tự tin",
+      "meaning_vi_inline": "sự tự tin",
+      "example_en": "Thorough preparation is one of the most reliable ways to build genuine confidence before a major presentation.",
+      "example_vi": "Chuẩn bị kỹ lưỡng là một trong những cách đáng tin cậy nhất để xây dựng sự tự tin thực sự trước một bài thuyết trình quan trọng.",
+      "word_family": {
+        "noun": "confidence",
+        "verb": null,
+        "adjective": "confident",
+        "adverb": "confidently"
+      },
+      "false_friend": {
+        "word_vi": "confidential",
+        "explanation_vi": "'Confidence' là sự tự tin; 'confidential' nghĩa là bí mật, không được tiết lộ — hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "visual aid",
+      "ipa": "/ˈvɪʒ.u.əl eɪd/",
+      "pos": "noun phrase",
+      "meaning_vi": "phương tiện trực quan, công cụ hỗ trợ hình ảnh",
+      "meaning_vi_inline": "phương tiện trực quan",
+      "example_en": "Well-designed visual aids can significantly enhance the impact of a presentation without overshadowing the speaker.",
+      "example_vi": "Phương tiện trực quan được thiết kế tốt có thể nâng cao đáng kể tác động của bài thuyết trình mà không che khuất người nói.",
+      "word_family": {
+        "noun": "visual aid",
+        "verb": null,
+        "adjective": "visual",
+        "adverb": "visually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "signposting",
+      "ipa": "/ˈsaɪnˌpəʊ.stɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "định hướng, sử dụng ngôn ngữ chỉ dẫn cấu trúc",
+      "meaning_vi_inline": "định hướng cấu trúc",
+      "example_en": "Effective signposting helps listeners track the speaker's argument and anticipate what comes next.",
+      "example_vi": "Định hướng cấu trúc hiệu quả giúp người nghe theo dõi lập luận của diễn giả và dự đoán điều tiếp theo.",
+      "word_family": {
+        "noun": "signposting / signpost",
+        "verb": "signpost",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "structure a persuasive presentation",
+      "meaning_vi": "xây dựng cấu trúc cho một bài thuyết trình có sức thuyết phục",
+      "example_en": "Learning to structure a persuasive presentation is a core skill in both academic and professional contexts.",
+      "example_vi": "Học cách xây dựng cấu trúc cho một bài thuyết trình có sức thuyết phục là kỹ năng cốt lõi trong cả môi trường học thuật lẫn chuyên nghiệp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "engage a diverse audience",
+      "meaning_vi": "thu hút một khán giả đa dạng",
+      "example_en": "The keynote speaker used humour and relatable examples to engage a diverse audience of over five hundred people.",
+      "example_vi": "Diễn giả chính sử dụng sự hài hước và các ví dụ gần gũi để thu hút một khán giả đa dạng gồm hơn năm trăm người.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "use signposting language effectively",
+      "meaning_vi": "sử dụng ngôn ngữ định hướng hiệu quả",
+      "example_en": "Presenters who use signposting language effectively make it far easier for their audience to follow complex arguments.",
+      "example_vi": "Những người thuyết trình sử dụng ngôn ngữ định hướng hiệu quả giúp khán giả dễ theo dõi các lập luận phức tạp hơn nhiều.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "project confidence under pressure",
+      "meaning_vi": "thể hiện sự tự tin khi chịu áp lực",
+      "example_en": "The ability to project confidence under pressure is what separates experienced presenters from nervous beginners.",
+      "example_vi": "Khả năng thể hiện sự tự tin khi chịu áp lực là điều phân biệt người thuyết trình có kinh nghiệm với người mới bắt đầu còn lo lắng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "tailor delivery to context",
+      "meaning_vi": "điều chỉnh cách trình bày phù hợp với bối cảnh",
+      "example_en": "A skilled communicator knows how to tailor delivery to context, whether speaking to experts or a general audience.",
+      "example_vi": "Một người giao tiếp giỏi biết cách điều chỉnh cách trình bày phù hợp với bối cảnh, dù nói chuyện với chuyên gia hay khán giả đại chúng.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, the content of a speech is more important than the manner in which it is delivered.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that most professional speakers rehearse their gestures in front of a mirror.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that signposting language helps audiences follow complex ideas more easily.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, visual aids are more effective than spoken content in conveying key data.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage implies that adapting to different audiences gives a speaker a competitive advantage.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The politician's calm _____ during the debate — steady voice, deliberate pauses — conveyed authority even under intense questioning.",
+          "options": [
+            "pacing",
+            "gesture",
+            "delivery",
+            "signposting"
+          ],
+          "answer": "delivery"
+        },
+        {
+          "id": 2,
+          "sentence": "The trainer used diagrams and short video clips as _____ to make the safety procedures easier to understand.",
+          "options": [
+            "clarity",
+            "structure",
+            "visual aids",
+            "engagement"
+          ],
+          "answer": "visual aids"
+        },
+        {
+          "id": 3,
+          "sentence": "Her _____ was excellent: she could tell when the audience was tiring and instantly shifted to a more interactive format.",
+          "options": [
+            "signposting",
+            "audience awareness",
+            "pacing",
+            "confidence"
+          ],
+          "answer": "audience awareness"
+        },
+        {
+          "id": 4,
+          "sentence": "Phrases like 'To summarise' and 'Moving on to our next point' are classic examples of _____ that guide listeners through a presentation.",
+          "options": [
+            "engagement",
+            "delivery",
+            "gesture",
+            "signposting"
+          ],
+          "answer": "signposting"
+        },
+        {
+          "id": 5,
+          "sentence": "The audience's _____ visibly increased when the speaker stepped away from the podium and began telling a personal story.",
+          "options": [
+            "structure",
+            "clarity",
+            "confidence",
+            "engagement"
+          ],
+          "answer": "engagement"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "pacing",
+        "clarity",
+        "confidence",
+        "structure",
+        "gesture",
+        "delivery"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of her argument was impeccable — every section flowed logically into the next, leaving no loose ends.",
+          "answer": "structure"
+        },
+        {
+          "id": 2,
+          "sentence": "A sweeping _____ of the arm towards the screen helped direct the audience's attention to the most critical data point.",
+          "answer": "gesture"
+        },
+        {
+          "id": 3,
+          "sentence": "Slow, deliberate _____ is especially important when presenting statistical information that requires careful processing.",
+          "answer": "pacing"
+        },
+        {
+          "id": 4,
+          "sentence": "Speaking with _____ — choosing simple, precise words over jargon — is the hallmark of an expert presenter.",
+          "answer": "clarity"
+        },
+        {
+          "id": 5,
+          "sentence": "His _____ grew visibly as the presentation progressed; by the final slide, he was speaking freely without notes.",
+          "answer": "confidence"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "effective",
+            "delivery",
+            "combines",
+            "tone",
+            "pacing",
+            "and",
+            "purposeful",
+            "gesture"
+          ],
+          "answer": "Effective delivery combines tone, pacing, and purposeful gesture."
+        },
+        {
+          "id": 2,
+          "words": [
+            "signposting",
+            "language",
+            "guides",
+            "audiences",
+            "through",
+            "complex",
+            "arguments",
+            "clearly"
+          ],
+          "answer": "Signposting language guides audiences through complex arguments clearly."
+        },
+        {
+          "id": 3,
+          "words": [
+            "visual",
+            "aids",
+            "should",
+            "support",
+            "not",
+            "replace",
+            "the",
+            "speaker's",
+            "words"
+          ],
+          "answer": "Visual aids should support, not replace, the speaker's words."
+        },
+        {
+          "id": 4,
+          "words": [
+            "audience",
+            "awareness",
+            "allows",
+            "presenters",
+            "to",
+            "adapt",
+            "their",
+            "style",
+            "in",
+            "real",
+            "time"
+          ],
+          "answer": "Audience awareness allows presenters to adapt their style in real time."
+        },
+        {
+          "id": 5,
+          "words": [
+            "projecting",
+            "confidence",
+            "under",
+            "pressure",
+            "is",
+            "a",
+            "skill",
+            "that",
+            "can",
+            "be",
+            "developed",
+            "through",
+            "practice"
+          ],
+          "answer": "Projecting confidence under pressure is a skill that can be developed through practice."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The speaker's erratic [pace] made it difficult for the audience to process each argument before the next one arrived.",
+          "highlighted": "pace",
+          "options": {
+            "A": "pacing",
+            "B": "paced",
+            "C": "pacer"
+          },
+          "answer": "A",
+          "explanation": "The noun 'pacing' refers to the overall management of speed in a speech; 'pace' as a bare noun does not carry this sustained, technical meaning in this context."
+        },
+        {
+          "id": 2,
+          "sentence": "Her [confident] during the Q&A session impressed the panel, who had expected her to struggle with the technical questions.",
+          "highlighted": "confident",
+          "options": {
+            "A": "confide",
+            "B": "confidently",
+            "C": "confidence"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the sentence — 'confidence', not the adjective 'confident'."
+        },
+        {
+          "id": 3,
+          "sentence": "Presenters who use [signpost] language effectively help their audience navigate even the most complex material.",
+          "highlighted": "signpost",
+          "options": {
+            "A": "signposted",
+            "B": "signposting",
+            "C": "signposts"
+          },
+          "answer": "B",
+          "explanation": "'Signposting' is the gerund/adjective form used to describe this type of language; 'signpost' alone is a noun or verb and does not function as a modifier here."
+        },
+        {
+          "id": 4,
+          "sentence": "The [engage] of the audience fell sharply once the presenter abandoned eye contact and began reading from notes.",
+          "highlighted": "engage",
+          "options": {
+            "A": "engaged",
+            "B": "engaging",
+            "C": "engagement"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after 'The' to serve as the subject — 'engagement', not the verb 'engage'."
+        },
+        {
+          "id": 5,
+          "sentence": "Skilled presenters know how to [structural] their talks so that each section builds logically on the last.",
+          "highlighted": "structural",
+          "options": {
+            "A": "structure",
+            "B": "structured",
+            "C": "structuring"
+          },
+          "answer": "A",
+          "explanation": "A base-form verb is required after the modal 'to' — 'structure', not the adjective 'structural'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "delivery",
+      "2": "visual aids",
+      "3": "audience awareness",
+      "4": "signposting",
+      "5": "engagement"
+    },
+    "ex3": {
+      "1": "structure",
+      "2": "gesture",
+      "3": "pacing",
+      "4": "clarity",
+      "5": "confidence"
+    },
+    "ex4": {
+      "1": "Effective delivery combines tone, pacing, and purposeful gesture.",
+      "2": "Signposting language guides audiences through complex arguments clearly.",
+      "3": "Visual aids should support, not replace, the speaker's words.",
+      "4": "Audience awareness allows presenters to adapt their style in real time.",
+      "5": "Projecting confidence under pressure is a skill that can be developed through practice."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

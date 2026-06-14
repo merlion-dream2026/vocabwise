@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 21,
+    "topic_id": "b3-t21",
+    "topic_title": "Technology & Everyday Life",
+    "topic_title_vi": "Công Nghệ & Cuộc Sống Hàng Ngày",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "💻",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Technological **disruption** has fundamentally reshaped daily life over the past two decades. The rapid **adoption** of smartphones, cloud services, and connected devices has created a profound **convergence** of work, leisure, and communication within a single **interface**. What was once confined to the office or library is now accessible from any location, dramatically improving **efficiency** but simultaneously raising questions about the boundaries between public and private life.",
+        "text_vi": "**Sự gián đoạn** công nghệ đã định hình lại cuộc sống hàng ngày một cách căn bản trong hai thập kỷ qua. Sự **chấp nhận** nhanh chóng của điện thoại thông minh, dịch vụ đám mây và các thiết bị kết nối đã tạo ra sự **hội tụ** sâu sắc giữa công việc, giải trí và giao tiếp trong một **giao diện** duy nhất. Những gì từng bị giới hạn trong văn phòng hay thư viện nay có thể truy cập từ bất kỳ đâu, cải thiện đáng kể **hiệu quả** nhưng đồng thời đặt ra câu hỏi về ranh giới giữa đời sống công cộng và riêng tư."
+      },
+      {
+        "index": 2,
+        "text_en": "Yet the benefits of these advances are not equally distributed. The **digital divide** — the gap between those with reliable access to technology and those without — remains a persistent inequality. Policymakers and NGOs alike work to **bridge the digital divide**, recognising that **automation** is rapidly displacing low-skilled roles, disproportionately affecting communities that already lack digital literacy and infrastructure.",
+        "text_vi": "Tuy nhiên, những lợi ích này không được phân bổ đồng đều. **Khoảng cách kỹ thuật số** — khoảng cách giữa những người có quyền truy cập công nghệ đáng tin cậy và những người không có — vẫn là một bất bình đẳng dai dẳng. Các nhà hoạch định chính sách và tổ chức phi chính phủ đều nỗ lực **thu hẹp khoảng cách kỹ thuật số**, nhận thức rằng **tự động hóa** đang nhanh chóng thay thế các vai trò kỹ năng thấp, ảnh hưởng không cân xứng đến các cộng đồng vốn đã thiếu kiến thức và cơ sở hạ tầng kỹ thuật số."
+      },
+      {
+        "index": 3,
+        "text_en": "A further concern is the growing **dependency** on digital platforms. As societies **create technological dependency** at scale — from navigation apps to online banking — the capacity to function without connectivity steadily erodes. This vulnerability is compounded by increasing threats to **privacy**, as platforms that **disrupt traditional industries** also harvest vast quantities of personal data, often without meaningful user consent or scrutiny.",
+        "text_vi": "Một mối lo ngại khác là sự **lệ thuộc** ngày càng tăng vào các nền tảng kỹ thuật số. Khi các xã hội **tạo ra sự lệ thuộc công nghệ** ở quy mô lớn — từ ứng dụng điều hướng đến ngân hàng trực tuyến — khả năng hoạt động khi không có kết nối dần suy giảm. Tính dễ tổn thương này càng trầm trọng hơn bởi các mối đe dọa ngày càng tăng đối với **quyền riêng tư**, khi các nền tảng **làm gián đoạn các ngành truyền thống** cũng thu thập lượng lớn dữ liệu cá nhân, thường không có sự đồng ý hay giám sát thực chất của người dùng."
+      },
+      {
+        "index": 4,
+        "text_en": "Addressing these challenges requires deliberate policy choices. Governments must **accelerate technology adoption** in underserved regions while simultaneously legislating to **raise privacy concerns** to the level of enforceable rights. The goal is not to slow technological progress but to ensure it serves human flourishing — embedding digital tools into everyday life in ways that are equitable, transparent, and genuinely empowering.",
+        "text_vi": "Giải quyết những thách thức này đòi hỏi các lựa chọn chính sách có chủ đích. Các chính phủ phải **thúc đẩy việc chấp nhận công nghệ** ở các khu vực thiếu phục vụ trong khi đồng thời lập pháp để **nêu cao lo ngại về quyền riêng tư** thành các quyền có thể thực thi. Mục tiêu không phải là làm chậm tiến bộ công nghệ mà là đảm bảo nó phục vụ sự phát triển của con người — tích hợp các công cụ kỹ thuật số vào cuộc sống hàng ngày theo cách công bằng, minh bạch và thực sự trao quyền."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "disruption",
+      "ipa": "/dɪsˈrʌp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự gián đoạn, sự phá vỡ trật tự cũ",
+      "meaning_vi_inline": "sự gián đoạn",
+      "example_en": "The disruption caused by ride-sharing apps forced traditional taxi companies to rethink their business models.",
+      "example_vi": "Sự gián đoạn do các ứng dụng đặt xe gây ra buộc các công ty taxi truyền thống phải suy nghĩ lại mô hình kinh doanh.",
+      "word_family": {
+        "noun": "disruption",
+        "verb": "disrupt",
+        "adjective": "disruptive",
+        "adverb": "disruptively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "obsolescence",
+      "ipa": "/ˌɒb.səˈles.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự lỗi thời, tình trạng không còn được sử dụng",
+      "meaning_vi_inline": "sự lỗi thời",
+      "example_en": "Planned obsolescence is a strategy in which products are designed to become outdated within a few years.",
+      "example_vi": "Lỗi thời có kế hoạch là chiến lược trong đó sản phẩm được thiết kế để trở nên lỗi thời sau vài năm.",
+      "word_family": {
+        "noun": "obsolescence",
+        "verb": null,
+        "adjective": "obsolete / obsolescent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "adoption",
+      "ipa": "/əˈdɒp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự chấp nhận và sử dụng (rộng rãi), sự áp dụng",
+      "meaning_vi_inline": "sự chấp nhận",
+      "example_en": "The rapid adoption of electric vehicles is being driven by government incentives and falling battery costs.",
+      "example_vi": "Sự chấp nhận nhanh chóng của xe điện được thúc đẩy bởi các ưu đãi của chính phủ và chi phí pin giảm xuống.",
+      "word_family": {
+        "noun": "adoption",
+        "verb": "adopt",
+        "adjective": "adoptive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "adaptation",
+        "explanation_vi": "'Adoption' là sự chấp nhận hay áp dụng một cái gì đó mới; 'adaptation' là sự thích nghi hay điều chỉnh — khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "convergence",
+      "ipa": "/kənˈvɜː.dʒəns/",
+      "pos": "noun",
+      "meaning_vi": "sự hội tụ, sự kết hợp lại thành một",
+      "meaning_vi_inline": "sự hội tụ",
+      "example_en": "The convergence of television, internet, and telephony into a single device has transformed media consumption.",
+      "example_vi": "Sự hội tụ của truyền hình, internet và điện thoại vào một thiết bị duy nhất đã chuyển đổi cách tiêu thụ truyền thông.",
+      "word_family": {
+        "noun": "convergence",
+        "verb": "converge",
+        "adjective": "convergent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "dependency",
+      "ipa": "/dɪˈpen.dən.si/",
+      "pos": "noun",
+      "meaning_vi": "sự lệ thuộc, sự phụ thuộc",
+      "meaning_vi_inline": "sự lệ thuộc",
+      "example_en": "The country's dependency on foreign technology suppliers raised national security concerns.",
+      "example_vi": "Sự lệ thuộc của đất nước vào các nhà cung cấp công nghệ nước ngoài đã làm dấy lên lo ngại về an ninh quốc gia.",
+      "word_family": {
+        "noun": "dependency / dependence",
+        "verb": "depend",
+        "adjective": "dependent",
+        "adverb": "dependently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "efficiency",
+      "ipa": "/ɪˈfɪʃ.ən.si/",
+      "pos": "noun",
+      "meaning_vi": "hiệu quả, sự tiết kiệm nguồn lực",
+      "meaning_vi_inline": "hiệu quả",
+      "example_en": "Cloud computing significantly improves operational efficiency by reducing hardware maintenance costs.",
+      "example_vi": "Điện toán đám mây cải thiện đáng kể hiệu quả vận hành bằng cách giảm chi phí bảo trì phần cứng.",
+      "word_family": {
+        "noun": "efficiency",
+        "verb": null,
+        "adjective": "efficient",
+        "adverb": "efficiently"
+      },
+      "false_friend": {
+        "word_vi": "effectiveness",
+        "explanation_vi": "'Efficiency' nhấn mạnh việc đạt kết quả với ít nguồn lực nhất; 'effectiveness' nhấn mạnh việc đạt được mục tiêu đề ra — hai khái niệm khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "automation",
+      "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tự động hóa, quá trình thay thế lao động người bằng máy móc",
+      "meaning_vi_inline": "tự động hóa",
+      "example_en": "Industrial automation has boosted productivity in manufacturing but displaced many routine jobs.",
+      "example_vi": "Tự động hóa công nghiệp đã tăng cường năng suất trong sản xuất nhưng thay thế nhiều công việc thường quy.",
+      "word_family": {
+        "noun": "automation",
+        "verb": "automate",
+        "adjective": "automated / automatic",
+        "adverb": "automatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "interface",
+      "ipa": "/ˈɪn.tə.feɪs/",
+      "pos": "noun",
+      "meaning_vi": "giao diện, điểm kết nối giữa người dùng và hệ thống",
+      "meaning_vi_inline": "giao diện",
+      "example_en": "A well-designed user interface allows people to navigate complex software intuitively.",
+      "example_vi": "Một giao diện người dùng được thiết kế tốt cho phép mọi người điều hướng phần mềm phức tạp một cách trực quan.",
+      "word_family": {
+        "noun": "interface",
+        "verb": "interface",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "digital divide",
+      "ipa": "/ˈdɪdʒ.ɪ.təl dɪˈvaɪd/",
+      "pos": "noun phrase",
+      "meaning_vi": "khoảng cách kỹ thuật số, bất bình đẳng trong tiếp cận công nghệ",
+      "meaning_vi_inline": "khoảng cách kỹ thuật số",
+      "example_en": "The digital divide between urban and rural areas limits economic opportunities for millions of people.",
+      "example_vi": "Khoảng cách kỹ thuật số giữa khu vực thành thị và nông thôn hạn chế cơ hội kinh tế của hàng triệu người.",
+      "word_family": {
+        "noun": "digital divide",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "privacy",
+      "ipa": "/ˈprɪv.ə.si/",
+      "pos": "noun",
+      "meaning_vi": "quyền riêng tư, sự bảo mật thông tin cá nhân",
+      "meaning_vi_inline": "quyền riêng tư",
+      "example_en": "Stricter data privacy laws have forced tech companies to be more transparent about how they use personal information.",
+      "example_vi": "Luật bảo mật dữ liệu nghiêm ngặt hơn đã buộc các công ty công nghệ phải minh bạch hơn về cách họ sử dụng thông tin cá nhân.",
+      "word_family": {
+        "noun": "privacy",
+        "verb": null,
+        "adjective": "private",
+        "adverb": "privately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "bridge the digital divide",
+      "meaning_vi": "thu hẹp khoảng cách kỹ thuật số",
+      "example_en": "Subsidised broadband programmes aim to bridge the digital divide between wealthy and disadvantaged communities.",
+      "example_vi": "Các chương trình băng thông rộng được trợ cấp nhằm thu hẹp khoảng cách kỹ thuật số giữa cộng đồng giàu có và bất lợi.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "disrupt traditional industries",
+      "meaning_vi": "làm gián đoạn các ngành truyền thống",
+      "example_en": "Streaming platforms continue to disrupt traditional industries such as television broadcasting and physical retail.",
+      "example_vi": "Các nền tảng phát trực tuyến tiếp tục làm gián đoạn các ngành truyền thống như phát sóng truyền hình và bán lẻ truyền thống.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "accelerate technology adoption",
+      "meaning_vi": "thúc đẩy việc chấp nhận công nghệ",
+      "example_en": "The pandemic served to accelerate technology adoption in sectors that had previously resisted digital transformation.",
+      "example_vi": "Đại dịch đã thúc đẩy việc chấp nhận công nghệ trong các ngành vốn trước đây đã kháng cự chuyển đổi số.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "raise privacy concerns",
+      "meaning_vi": "nêu lên lo ngại về quyền riêng tư",
+      "example_en": "The widespread use of facial recognition technology has raised privacy concerns among civil liberties groups.",
+      "example_vi": "Việc sử dụng rộng rãi công nghệ nhận dạng khuôn mặt đã nêu lên lo ngại về quyền riêng tư trong các nhóm bảo vệ quyền dân sự.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "create technological dependency",
+      "meaning_vi": "tạo ra sự lệ thuộc công nghệ",
+      "example_en": "Critics argue that free app ecosystems are designed to create technological dependency rather than empower users.",
+      "example_vi": "Các nhà phê bình lập luận rằng các hệ sinh thái ứng dụng miễn phí được thiết kế để tạo ra sự lệ thuộc công nghệ hơn là trao quyền cho người dùng.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage suggests that the convergence of technology has made it harder to separate work from personal life.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage claims that most governments have already passed effective privacy legislation.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, automation disproportionately harms communities with low levels of digital literacy.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage argues that technological progress should be slowed until privacy laws are in place.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage implies that digital platforms collecting personal data without consent is a growing problem.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of social media has permanently altered how political campaigns communicate with voters.",
+          "options": [
+            "obsolescence",
+            "convergence",
+            "adoption",
+            "dependency"
+          ],
+          "answer": "adoption"
+        },
+        {
+          "id": 2,
+          "sentence": "Factory _____ has reduced production costs considerably, though it has also eliminated thousands of jobs.",
+          "options": [
+            "disruption",
+            "automation",
+            "interface",
+            "efficiency"
+          ],
+          "answer": "automation"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the internet and mobile phones has created a single, always-on communication environment.",
+          "options": [
+            "privacy",
+            "adoption",
+            "convergence",
+            "obsolescence"
+          ],
+          "answer": "convergence"
+        },
+        {
+          "id": 4,
+          "sentence": "Users often overlook _____ risks when signing up for free services that collect their personal data.",
+          "options": [
+            "efficiency",
+            "privacy",
+            "interface",
+            "automation"
+          ],
+          "answer": "privacy"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of VHS tapes accelerated once DVD players became affordable for ordinary households.",
+          "options": [
+            "disruption",
+            "dependency",
+            "convergence",
+            "obsolescence"
+          ],
+          "answer": "obsolescence"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "efficiency",
+        "dependency",
+        "interface",
+        "disruption",
+        "digital divide",
+        "adoption"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ caused by e-commerce has forced many high-street retailers to close permanently.",
+          "answer": "disruption"
+        },
+        {
+          "id": 2,
+          "sentence": "Governments are investing in rural broadband to narrow the _____ between urban and remote populations.",
+          "answer": "digital divide"
+        },
+        {
+          "id": 3,
+          "sentence": "A clean, intuitive _____ is often what determines whether users stick with an app or abandon it.",
+          "answer": "interface"
+        },
+        {
+          "id": 4,
+          "sentence": "Renewable energy technologies require mass _____ before they can meaningfully replace fossil fuels.",
+          "answer": "adoption"
+        },
+        {
+          "id": 5,
+          "sentence": "Route-planning apps have increased driving _____ dramatically by calculating real-time traffic conditions.",
+          "answer": "efficiency"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "automation",
+            "is",
+            "replacing",
+            "many",
+            "routine",
+            "jobs",
+            "in",
+            "manufacturing"
+          ],
+          "answer": "Automation is replacing many routine jobs in manufacturing."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "digital",
+            "divide",
+            "limits",
+            "access",
+            "to",
+            "education",
+            "and",
+            "economic",
+            "opportunity"
+          ],
+          "answer": "The digital divide limits access to education and economic opportunity."
+        },
+        {
+          "id": 3,
+          "words": [
+            "technology",
+            "convergence",
+            "has",
+            "blurred",
+            "the",
+            "boundaries",
+            "between",
+            "work",
+            "and",
+            "leisure"
+          ],
+          "answer": "Technology convergence has blurred the boundaries between work and leisure."
+        },
+        {
+          "id": 4,
+          "words": [
+            "growing",
+            "dependency",
+            "on",
+            "digital",
+            "platforms",
+            "poses",
+            "risks",
+            "to",
+            "individual",
+            "autonomy"
+          ],
+          "answer": "Growing dependency on digital platforms poses risks to individual autonomy."
+        },
+        {
+          "id": 5,
+          "words": [
+            "privacy",
+            "laws",
+            "must",
+            "keep",
+            "pace",
+            "with",
+            "rapid",
+            "technological",
+            "disruption"
+          ],
+          "answer": "Privacy laws must keep pace with rapid technological disruption."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [adopt] of digital payment systems has accelerated significantly since the pandemic.",
+          "highlighted": "adopt",
+          "options": {
+            "A": "adopting",
+            "B": "adoption",
+            "C": "adopted"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject of the sentence — 'adoption', not the verb 'adopt'."
+        },
+        {
+          "id": 2,
+          "sentence": "Facial recognition software has raised serious concerns about [privacies] in public spaces.",
+          "highlighted": "privacies",
+          "options": {
+            "A": "private",
+            "B": "privately",
+            "C": "privacy"
+          },
+          "answer": "C",
+          "explanation": "'Privacy' is an uncountable noun and does not take a plural form — 'privacy', not 'privacies'."
+        },
+        {
+          "id": 3,
+          "sentence": "The [disrupt] of retail banking by fintech startups has benefited consumers through lower fees.",
+          "highlighted": "disrupt",
+          "options": {
+            "A": "disruption",
+            "B": "disruptive",
+            "C": "disrupted"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'."
+        },
+        {
+          "id": 4,
+          "sentence": "Smart factories rely on [automate] processes to maintain consistent output with minimal human intervention.",
+          "highlighted": "automate",
+          "options": {
+            "A": "automatic",
+            "B": "automation",
+            "C": "automated"
+          },
+          "answer": "C",
+          "explanation": "An adjective modifying 'processes' is needed — 'automated', meaning controlled by machines, not the verb 'automate'."
+        },
+        {
+          "id": 5,
+          "sentence": "The [convergent] of broadcasting and streaming has given viewers unprecedented control over content.",
+          "highlighted": "convergent",
+          "options": {
+            "A": "converge",
+            "B": "converging",
+            "C": "convergence"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject — 'convergence', not the adjective 'convergent'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "adoption",
+      "2": "automation",
+      "3": "convergence",
+      "4": "privacy",
+      "5": "obsolescence"
+    },
+    "ex3": {
+      "1": "disruption",
+      "2": "digital divide",
+      "3": "interface",
+      "4": "adoption",
+      "5": "efficiency"
+    },
+    "ex4": {
+      "1": "Automation is replacing many routine jobs in manufacturing.",
+      "2": "The digital divide limits access to education and economic opportunity.",
+      "3": "Technology convergence has blurred the boundaries between work and leisure.",
+      "4": "Growing dependency on digital platforms poses risks to individual autonomy.",
+      "5": "Privacy laws must keep pace with rapid technological disruption."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

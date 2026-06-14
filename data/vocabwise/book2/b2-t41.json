@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 41,
+    "topic_id": "b2-t41",
+    "topic_title": "Living Abroad",
+    "theme_number": 5,
+    "theme_title": "People & Issues",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌏",
+    "topic_title_vi": "Sống Ở Nước Ngoài",
+    "theme_title_vi": "Con Người & Vấn Đề Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Millions of people around the world live outside their country of origin — as **immigrant**s, international students, or **foreign** workers. Moving abroad is a life-changing **experience** that brings both extraordinary **challenge**s and tremendous opportunities. The process of trying to **fit in** — to become accepted and comfortable within a new society — can take years and requires patience, resilience, and a willingness to **adapt** to unfamiliar customs and expectations.",
+        "text_vi": "Hàng triệu người trên thế giới sống bên ngoài quê hương của họ — với tư cách là **người nhập cư**, sinh viên quốc tế hoặc công nhân **nước ngoài**. Chuyển đến nước ngoài là một **trải nghiệm** thay đổi cuộc đời mang đến cả những **thách thức** phi thường lẫn cơ hội to lớn. Quá trình cố gắng **hòa nhập** — được chấp nhận và thoải mái trong một xã hội mới — có thể mất nhiều năm và đòi hỏi sự kiên nhẫn, kiên cường và sẵn sàng **thích nghi** với những phong tục và kỳ vọng xa lạ."
+      },
+      {
+        "index": 2,
+        "text_en": "Countries vary enormously in how welcoming they are to newcomers. A generous immigration **policy** can transform a nation's demographic and economic landscape; a restrictive one may limit **diversity** but appeal to those concerned about cultural change. In **diverse** societies — those with people of many different backgrounds — the richness of cultural exchange often outweighs the tensions. Building a shared **community** that respects different **nationality**s and **culture**s requires deliberate effort from both newcomers and long-term residents.",
+        "text_vi": "Các quốc gia khác nhau rất lớn về mức độ chào đón người mới đến. Một **chính sách** nhập cư hào phóng có thể biến đổi cảnh quan nhân khẩu học và kinh tế của một quốc gia; một chính sách hạn chế có thể giới hạn **sự đa dạng** nhưng thu hút những người lo ngại về sự thay đổi văn hóa. Trong các xã hội **đa dạng** — những xã hội có người từ nhiều nền tảng khác nhau — sự phong phú của trao đổi văn hóa thường vượt trội hơn những căng thẳng. Xây dựng một **cộng đồng** chung tôn trọng các **quốc tịch** và **văn hóa** khác nhau đòi hỏi nỗ lực có chủ ý từ cả người mới đến và cư dân lâu năm."
+      },
+      {
+        "index": 3,
+        "text_en": "One of the most painful **challenge**s for those living abroad is **discrimination** — being treated unfairly because of one's **nationality**, race, or **foreign** accent. **Discrimination** can range from subtle social exclusion to outright hostility, and it deeply affects a person's sense of **identity** and belonging. Those who face the worst situations — such as **asylum seeker**s fleeing violence or persecution — must navigate complex legal systems while already dealing with trauma and uncertainty.",
+        "text_vi": "Một trong những **thách thức** đau đớn nhất đối với những người sống ở nước ngoài là **phân biệt đối xử** — bị đối xử không công bằng vì **quốc tịch**, chủng tộc hoặc giọng **nước ngoài** của mình. **Phân biệt đối xử** có thể dao động từ loại trừ xã hội tinh tế đến thù địch công khai, và nó ảnh hưởng sâu sắc đến cảm giác **bản sắc** và thuộc về của một người. Những người đối mặt với tình huống tồi tệ nhất — chẳng hạn như **người xin tị nạn** chạy trốn bạo lực hoặc ngược đãi — phải điều hướng các hệ thống pháp lý phức tạp trong khi đã phải đối phó với chấn thương và sự bất ổn."
+      },
+      {
+        "index": 4,
+        "text_en": "Despite these difficulties, living abroad can profoundly enrich a person's **identity** and worldview. Navigating between two or more **culture**s builds empathy, flexibility, and a richer understanding of what it means to be human. Many **immigrant**s make invaluable contributions to the economies and cultural life of their adopted countries. Ultimately, how well a society treats those who cross its **border**s reflects its deepest values about justice, compassion, and what **community** truly means.",
+        "text_vi": "Dù có những khó khăn này, sống ở nước ngoài có thể làm phong phú thêm sâu sắc **bản sắc** và thế giới quan của một người. Điều hướng giữa hai hoặc nhiều **văn hóa** hơn xây dựng sự đồng cảm, linh hoạt và hiểu biết phong phú hơn về ý nghĩa của việc là con người. Nhiều **người nhập cư** đóng góp vô giá cho nền kinh tế và đời sống văn hóa của các quốc gia họ đã nhận nuôi. Cuối cùng, cách một xã hội đối xử với những người vượt **biên giới** của nó phản ánh các giá trị sâu sắc nhất của nó về công lý, lòng trắc ẩn và ý nghĩa thực sự của **cộng đồng**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "immigrant",
+      "ipa": "/ˈɪm.ɪ.ɡrənt/",
+      "pos": "noun",
+      "meaning_vi": "người nhập cư",
+      "meaning_vi_inline": "người nhập cư",
+      "example_en": "The country has welcomed millions of immigrants who have enriched its culture and economy.",
+      "example_vi": "Quốc gia đã chào đón hàng triệu người nhập cư đã làm phong phú văn hóa và kinh tế của nó.",
+      "word_family": {
+        "noun": "immigrant / immigration",
+        "verb": "immigrate",
+        "adjective": "immigrant",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "emigrant",
+        "explanation_vi": "Một 'immigrant' là người đến một quốc gia mới để định cư; một 'emigrant' là người rời khỏi quê hương của mình. Cùng người, nhưng góc nhìn khác: từ quan điểm của đất nước tiếp nhận, họ là immigrant; từ quan điểm của đất nước gốc, họ là emigrant."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "fit in",
+      "ipa": "/fɪt ɪn/",
+      "pos": "phrasal verb",
+      "meaning_vi": "hòa nhập, được chấp nhận trong nhóm/xã hội mới",
+      "meaning_vi_inline": "hòa nhập",
+      "example_en": "It took her nearly two years to fit in at her new school in a foreign country.",
+      "example_vi": "Phải mất gần hai năm cô mới hòa nhập được vào trường mới ở nước ngoài.",
+      "word_family": {
+        "noun": "fit / fitting in",
+        "verb": "fit in",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "diverse",
+      "ipa": "/daɪˈvɜːs/",
+      "pos": "adjective",
+      "meaning_vi": "đa dạng (về văn hóa, quốc tịch, dân tộc)",
+      "meaning_vi_inline": "đa dạng",
+      "example_en": "London is one of the most culturally diverse cities in the world.",
+      "example_vi": "Luân Đôn là một trong những thành phố đa dạng văn hóa nhất thế giới.",
+      "word_family": {
+        "noun": "diversity",
+        "verb": "diversify",
+        "adjective": "diverse",
+        "adverb": "diversely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "discrimination",
+      "ipa": "/dɪˌskrɪm.ɪˈneɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "phân biệt đối xử (vì quốc tịch, chủng tộc)",
+      "meaning_vi_inline": "phân biệt đối xử",
+      "example_en": "Racial discrimination in the workplace is illegal in most developed countries.",
+      "example_vi": "Phân biệt đối xử về chủng tộc tại nơi làm việc là bất hợp pháp ở hầu hết các nước phát triển.",
+      "word_family": {
+        "noun": "discrimination",
+        "verb": "discriminate",
+        "adjective": "discriminatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "border",
+      "ipa": "/ˈbɔː.dər/",
+      "pos": "noun",
+      "meaning_vi": "biên giới (quốc gia)",
+      "meaning_vi_inline": "biên giới",
+      "example_en": "Crossing the border without the correct documents can result in detention or deportation.",
+      "example_vi": "Vượt biên giới mà không có giấy tờ đúng hạn có thể dẫn đến bị giam giữ hoặc trục xuất.",
+      "word_family": {
+        "noun": "border",
+        "verb": "border",
+        "adjective": "border",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "nationality",
+      "ipa": "/ˌnæʃ.əˈnæl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "quốc tịch",
+      "meaning_vi_inline": "quốc tịch",
+      "example_en": "She holds dual nationality — Vietnamese by birth and Australian by naturalisation.",
+      "example_vi": "Cô có hai quốc tịch — Việt Nam theo nơi sinh và Úc theo nhập tịch.",
+      "word_family": {
+        "noun": "nationality / nation",
+        "verb": "nationalise",
+        "adjective": "national",
+        "adverb": "nationally"
+      },
+      "false_friend": {
+        "word_vi": "citizenship",
+        "explanation_vi": "'Nationality' là thuộc tính pháp lý xác định quốc gia bạn thuộc về; 'citizenship' là quyền công dân — quyền được trao bởi một quốc gia và kèm theo nghĩa vụ. Hai từ thường dùng thay thế nhau nhưng có sắc thái khác nhau trong luật."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "policy",
+      "ipa": "/ˈpɒl.ɪ.si/",
+      "pos": "noun",
+      "meaning_vi": "chính sách (nhập cư, tị nạn)",
+      "meaning_vi_inline": "chính sách",
+      "example_en": "The country's immigration policy was reformed to attract skilled workers from abroad.",
+      "example_vi": "Chính sách nhập cư của đất nước đã được cải cách để thu hút lao động có kỹ năng từ nước ngoài.",
+      "word_family": {
+        "noun": "policy / policymaker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "culture",
+      "ipa": "/ˈkʌl.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "văn hóa (phong tục, lối sống của một cộng đồng)",
+      "meaning_vi_inline": "văn hóa",
+      "example_en": "Moving to a new country means navigating a completely different culture and set of social norms.",
+      "example_vi": "Chuyển đến một quốc gia mới có nghĩa là điều hướng qua một văn hóa và các chuẩn mực xã hội hoàn toàn khác.",
+      "word_family": {
+        "noun": "culture / cultural exchange",
+        "verb": null,
+        "adjective": "cultural",
+        "adverb": "culturally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "community",
+      "ipa": "/kəˈmjuː.nɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "cộng đồng (người cùng nền tảng hoặc địa điểm)",
+      "meaning_vi_inline": "cộng đồng",
+      "example_en": "The Vietnamese community in Australia organises cultural events to maintain its traditions.",
+      "example_vi": "Cộng đồng người Việt ở Úc tổ chức các sự kiện văn hóa để duy trì các truyền thống.",
+      "word_family": {
+        "noun": "community",
+        "verb": null,
+        "adjective": "communal",
+        "adverb": "communally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "identity",
+      "ipa": "/aɪˈden.tɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bản sắc (cảm giác về bản thân và gốc gác)",
+      "meaning_vi_inline": "bản sắc",
+      "example_en": "Many second-generation immigrants struggle to balance their home culture's identity with their adopted country's.",
+      "example_vi": "Nhiều người nhập cư thế hệ thứ hai gặp khó khăn trong việc cân bằng bản sắc văn hóa quê hương với bản sắc của đất nước họ định cư.",
+      "word_family": {
+        "noun": "identity / identification",
+        "verb": "identify",
+        "adjective": "identifiable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "challenge",
+      "ipa": "/ˈtʃæl.ɪndʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "thách thức (khi sống ở nước ngoài)",
+      "meaning_vi_inline": "thách thức",
+      "example_en": "One of the biggest challenges of living abroad is building new friendships from scratch.",
+      "example_vi": "Một trong những thách thức lớn nhất khi sống ở nước ngoài là xây dựng những tình bạn mới từ đầu.",
+      "word_family": {
+        "noun": "challenge",
+        "verb": "challenge",
+        "adjective": "challenging",
+        "adverb": "challengingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "verb",
+      "meaning_vi": "thích nghi (với môi trường, văn hóa mới)",
+      "meaning_vi_inline": "thích nghi",
+      "example_en": "It took her several months to adapt to the cold winters and different social customs.",
+      "example_vi": "Cô mất vài tháng để thích nghi với mùa đông lạnh và các phong tục xã hội khác nhau.",
+      "word_family": {
+        "noun": "adaptation",
+        "verb": "adapt",
+        "adjective": "adaptable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "foreign",
+      "ipa": "/ˈfɒr.ɪn/",
+      "pos": "adjective",
+      "meaning_vi": "nước ngoài, xa lạ (không thuộc về đất nước mình)",
+      "meaning_vi_inline": "nước ngoài",
+      "example_en": "Working in a foreign country can be both exciting and deeply disorienting at the same time.",
+      "example_vi": "Làm việc ở nước ngoài có thể vừa thú vị vừa mất phương hướng sâu sắc cùng một lúc.",
+      "word_family": {
+        "noun": "foreigner",
+        "verb": null,
+        "adjective": "foreign",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "experience",
+      "ipa": "/ɪkˈspɪə.ri.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "trải nghiệm (sống ở nước ngoài)",
+      "meaning_vi_inline": "trải nghiệm",
+      "example_en": "Living in three different countries gave her an invaluable experience of the world.",
+      "example_vi": "Sống ở ba quốc gia khác nhau đã cho cô một trải nghiệm vô giá về thế giới.",
+      "word_family": {
+        "noun": "experience",
+        "verb": "experience",
+        "adjective": "experienced / experiential",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "asylum seeker",
+      "ipa": "/əˈsaɪ.ləm ˌsiː.kər/",
+      "pos": "noun phrase",
+      "meaning_vi": "người xin tị nạn (chạy trốn nguy hiểm)",
+      "meaning_vi_inline": "người xin tị nạn",
+      "example_en": "Asylum seekers have the right to have their case heard fairly under international law.",
+      "example_vi": "Người xin tị nạn có quyền được xét xử công bằng theo luật quốc tế.",
+      "word_family": {
+        "noun": "asylum seeker / refugee / asylum",
+        "verb": "seek asylum",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "refugee",
+        "explanation_vi": "Một 'asylum seeker' đang CHỜ được công nhận là người tị nạn — hồ sơ của họ đang được xem xét; một 'refugee' đã được CÔNG NHẬN chính thức là đang chạy trốn nguy hiểm và được cấp quy chế bảo vệ."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Adapting to a new culture after moving abroad can take years.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that diverse societies always experience more conflict than homogeneous ones.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Asylum seekers are entitled to financial support from the UN from the moment they arrive.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Discrimination can affect a person's sense of identity and belonging.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Immigrants who live abroad never contribute meaningfully to their adopted countries.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It took the family over a year to _____ to the cold climate and new social expectations.",
+          "options": [
+            "discriminate",
+            "fit in",
+            "adapt",
+            "experience"
+          ],
+          "answer": "adapt"
+        },
+        {
+          "id": 2,
+          "sentence": "The government announced a new immigration _____ to attract skilled workers from abroad.",
+          "options": [
+            "border",
+            "culture",
+            "policy",
+            "community"
+          ],
+          "answer": "policy"
+        },
+        {
+          "id": 3,
+          "sentence": "She faced _____ at work simply because of her accent and foreign-sounding name.",
+          "options": [
+            "diversity",
+            "identity",
+            "discrimination",
+            "nationality"
+          ],
+          "answer": "discrimination"
+        },
+        {
+          "id": 4,
+          "sentence": "He finally began to _____ at his new school after joining the football team.",
+          "options": [
+            "fit in",
+            "adapt",
+            "challenge",
+            "border"
+          ],
+          "answer": "fit in"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ seekers must wait months or even years before receiving a decision on their case.",
+          "options": [
+            "Asylum",
+            "Border",
+            "Foreign",
+            "Community"
+          ],
+          "answer": "Asylum"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "immigrant",
+        "diverse",
+        "border",
+        "identity",
+        "foreign"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Many _____ workers send a large portion of their earnings back home to support their families.",
+          "answer": "immigrant"
+        },
+        {
+          "id": 2,
+          "sentence": "The city is culturally _____, with residents from over 100 different countries.",
+          "answer": "diverse"
+        },
+        {
+          "id": 3,
+          "sentence": "Thousands of people tried to cross the _____ without documentation each week.",
+          "answer": "border"
+        },
+        {
+          "id": 4,
+          "sentence": "Living between two cultures can make it difficult to have a clear sense of personal _____.",
+          "answer": "identity"
+        },
+        {
+          "id": 5,
+          "sentence": "He found the language and customs of the _____ country very difficult to adjust to at first.",
+          "answer": "foreign"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "living",
+            "abroad",
+            "is",
+            "a",
+            "challenging",
+            "experience",
+            "that",
+            "can",
+            "also",
+            "be",
+            "deeply",
+            "rewarding"
+          ],
+          "answer": "Living abroad is a challenging experience that can also be deeply rewarding."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "government's",
+            "immigration",
+            "policy",
+            "was",
+            "designed",
+            "to",
+            "attract",
+            "skilled",
+            "workers",
+            "from",
+            "diverse",
+            "backgrounds"
+          ],
+          "answer": "The government's immigration policy was designed to attract skilled workers from diverse backgrounds."
+        },
+        {
+          "id": 3,
+          "words": [
+            "discrimination",
+            "based",
+            "on",
+            "nationality",
+            "or",
+            "culture",
+            "violates",
+            "basic",
+            "human",
+            "rights"
+          ],
+          "answer": "Discrimination based on nationality or culture violates basic human rights."
+        },
+        {
+          "id": 4,
+          "words": [
+            "asylum",
+            "seekers",
+            "face",
+            "enormous",
+            "challenges",
+            "as",
+            "they",
+            "try",
+            "to",
+            "adapt",
+            "to",
+            "a",
+            "new",
+            "country"
+          ],
+          "answer": "Asylum seekers face enormous challenges as they try to adapt to a new country."
+        },
+        {
+          "id": 5,
+          "words": [
+            "immigrants",
+            "often",
+            "contribute",
+            "invaluable",
+            "skills",
+            "and",
+            "perspectives",
+            "to",
+            "their",
+            "adopted",
+            "communities"
+          ],
+          "answer": "Immigrants often contribute invaluable skills and perspectives to their adopted communities."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She found it very hard to [blend in] after moving to a country with such different customs.",
+          "highlighted": "blend in",
+          "options": {
+            "A": "fit in",
+            "B": "blend in",
+            "C": "settle in"
+          },
+          "answer": "A",
+          "explanation": "'Fit in' is the target vocabulary phrasal verb meaning to be accepted as part of a group or society. 'Blend in' means to become invisible or unnoticeable — it lacks the social acceptance dimension. 'Settle in' means to become comfortable in a new place but does not emphasise social acceptance."
+        },
+        {
+          "id": 2,
+          "sentence": "The city's culturally [mixed] population brings enormous energy and creativity.",
+          "highlighted": "mixed",
+          "options": {
+            "A": "different",
+            "B": "mixed",
+            "C": "diverse"
+          },
+          "answer": "C",
+          "explanation": "'Diverse' is the target vocabulary term and the most precise word for a population made up of people from many different cultural, ethnic, or national backgrounds. 'Mixed' is informal and vague. 'Different' does not convey the richness of cultural variety that 'diverse' does."
+        },
+        {
+          "id": 3,
+          "sentence": "People who flee war or persecution and seek protection in another country are called [foreigners].",
+          "highlighted": "foreigners",
+          "options": {
+            "A": "asylum seekers",
+            "B": "immigrants",
+            "C": "foreigners"
+          },
+          "answer": "A",
+          "explanation": "'Asylum seekers' is the precise legal and humanitarian term for people who have fled danger and are formally requesting protection under international law. 'Foreigners' simply means people from another country, and 'immigrants' refers to people who move to another country to live there permanently — neither specifically describes those seeking refuge from persecution."
+        },
+        {
+          "id": 4,
+          "sentence": "He faced unfair [treatment] at work because of his accent and foreign background.",
+          "highlighted": "treatment",
+          "options": {
+            "A": "discrimination",
+            "B": "treatment",
+            "C": "prejudice"
+          },
+          "answer": "A",
+          "explanation": "'Discrimination' is the target vocabulary term specifically meaning unjust treatment based on characteristics such as race, nationality, or religion. 'Treatment' is a general word without the connotation of injustice. 'Prejudice' refers to an attitude or preconceived opinion, not the act of treating someone unfairly."
+        },
+        {
+          "id": 5,
+          "sentence": "The country's open [law] on immigration has attracted skilled professionals from many fields.",
+          "highlighted": "law",
+          "options": {
+            "A": "system",
+            "B": "policy",
+            "C": "law"
+          },
+          "answer": "B",
+          "explanation": "'Policy' is the standard term for a set of principles and rules that guide government decisions on immigration. A 'law' is a specific legal statute, and while immigration laws exist, 'policy' is the broader and more commonly used term in discussions of government immigration approaches. 'System' refers to the overall structure but not the guiding principles."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "adapt",
+      "2": "policy",
+      "3": "discrimination",
+      "4": "fit in",
+      "5": "Asylum"
+    },
+    "ex3": {
+      "1": "immigrant",
+      "2": "diverse",
+      "3": "border",
+      "4": "identity",
+      "5": "foreign"
+    },
+    "ex4": {
+      "1": "Living abroad is a challenging experience that can also be deeply rewarding.",
+      "2": "The government's immigration policy was designed to attract skilled workers from diverse backgrounds.",
+      "3": "Discrimination based on nationality or culture violates basic human rights.",
+      "4": "Asylum seekers face enormous challenges as they try to adapt to a new country.",
+      "5": "Immigrants often contribute invaluable skills and perspectives to their adopted communities."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

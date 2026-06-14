@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 25,
+    "topic_id": "b2-t25",
+    "topic_title": "Advertising & Marketing",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "📢",
+    "topic_title_vi": "Quảng Cáo & Marketing",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 215,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every day, people are exposed to hundreds of messages designed to encourage them to buy something. Companies **advertise** their **products** — goods or services for sale — across a wide range of **media**, from television and social media to outdoor posters. The goal is always to reach the right **consumer** — a person who buys goods for personal use — at the right time and in the right place.",
+        "text_vi": "Mỗi ngày, mọi người tiếp xúc với hàng trăm thông điệp được thiết kế để khuyến khích họ mua hàng. Các công ty **quảng cáo** **sản phẩm** của mình — hàng hóa hoặc dịch vụ để bán — trên nhiều loại **phương tiện truyền thông**, từ truyền hình và mạng xã hội đến biển hiệu ngoài trời. Mục tiêu luôn là tiếp cận đúng **người tiêu dùng** — người mua hàng hóa cho mục đích cá nhân — vào đúng thời điểm và đúng nơi."
+      },
+      {
+        "index": 2,
+        "text_en": "A successful advertising **campaign** — a coordinated series of promotional activities — begins with identifying a clear **target**: the specific group most likely to buy. Once this is defined, the company works to **promote** its product through carefully chosen channels. Building **awareness** — making potential customers familiar with a product or brand — is often the essential first step before any significant sales can be achieved.",
+        "text_vi": "Một **chiến dịch** quảng cáo thành công — loạt hoạt động xúc tiến được phối hợp — bắt đầu bằng việc xác định **đối tượng mục tiêu** rõ ràng: nhóm người có nhiều khả năng mua nhất. Khi đã xác định, công ty nỗ lực **quảng bá** sản phẩm qua các kênh được chọn lọc kỹ càng. Xây dựng **nhận thức** — giúp khách hàng tiềm năng quen thuộc với sản phẩm hoặc thương hiệu — thường là bước đầu tiên thiết yếu trước khi đạt được doanh số đáng kể."
+      },
+      {
+        "index": 3,
+        "text_en": "Effective advertising aims to **persuade** people to choose one product over another, often by creating an emotional connection. A powerful **appeal** — a message that speaks to people's desires, values, or fears — can be extremely effective. The core **message** must be simple and memorable. Many brands use a **tagline**: a short phrase that captures the brand's identity. A clever **catch phrase** repeated across multiple campaigns helps people remember the brand long after seeing it.",
+        "text_vi": "Quảng cáo hiệu quả nhằm **thuyết phục** mọi người chọn sản phẩm này thay vì sản phẩm khác, thường bằng cách tạo ra kết nối cảm xúc. Một **lời kêu gọi** mạnh mẽ — thông điệp chạm vào mong muốn, giá trị hoặc nỗi sợ của mọi người — có thể cực kỳ hiệu quả. **Thông điệp** cốt lõi phải đơn giản và đáng nhớ. Nhiều thương hiệu sử dụng **khẩu hiệu**: cụm từ ngắn gọn nắm bắt bản sắc thương hiệu. Một **câu bắt tai** khéo léo được lặp đi lặp lại qua nhiều chiến dịch giúp mọi người nhớ thương hiệu lâu sau khi xem quảng cáo."
+      },
+      {
+        "index": 4,
+        "text_en": "Behind every effective campaign is a clear **strategy** — a plan that sets goals, timelines, and budgets. Some companies choose to **sponsor** events or organisations, funding them in exchange for brand visibility and positive association. In today's competitive world, great advertising requires both creativity and careful planning to stand out and genuinely connect with the right people.",
+        "text_vi": "Đằng sau mỗi chiến dịch hiệu quả là một **chiến lược** rõ ràng — kế hoạch đặt ra mục tiêu, thời gian và ngân sách. Một số công ty chọn cách **tài trợ** cho các sự kiện hoặc tổ chức, cấp vốn để đổi lấy sự hiện diện thương hiệu và hình ảnh tích cực. Trong thế giới cạnh tranh ngày nay, quảng cáo tốt đòi hỏi cả sự sáng tạo lẫn lập kế hoạch cẩn thận để nổi bật và thực sự kết nối với đúng người."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "advertise",
+      "ipa": "/ˈæd.və.taɪz/",
+      "pos": "verb",
+      "meaning_vi": "quảng cáo (trả tiền để giới thiệu sản phẩm)",
+      "meaning_vi_inline": "quảng cáo",
+      "example_en": "The company advertised its new product on television and social media.",
+      "example_vi": "Công ty quảng cáo sản phẩm mới trên truyền hình và mạng xã hội.",
+      "word_family": {
+        "noun": "advertisement / advert / ad",
+        "verb": "advertise",
+        "adjective": "advertising",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "promote",
+        "explanation_vi": "'Advertise' là đăng quảng cáo trả tiền trên các kênh truyền thông; 'promote' rộng hơn, bao gồm mọi hoạt động nâng cao nhận thức thương hiệu, kể cả không trả tiền."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "product",
+      "ipa": "/ˈprɒd.ʌkt/",
+      "pos": "noun",
+      "meaning_vi": "sản phẩm (hàng hóa hoặc dịch vụ)",
+      "meaning_vi_inline": "sản phẩm",
+      "example_en": "The company launched several new products to attract younger customers.",
+      "example_vi": "Công ty ra mắt một số sản phẩm mới để thu hút khách hàng trẻ hơn.",
+      "word_family": {
+        "noun": "product / production / producer",
+        "verb": "produce",
+        "adjective": "productive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "media",
+      "ipa": "/ˈmiː.di.ə/",
+      "pos": "noun (plural)",
+      "meaning_vi": "phương tiện truyền thông",
+      "meaning_vi_inline": "phương tiện truyền thông",
+      "example_en": "The campaign ran across all major media, including TV, radio, and the internet.",
+      "example_vi": "Chiến dịch chạy trên tất cả các phương tiện truyền thông chính, bao gồm TV, radio và internet.",
+      "word_family": {
+        "noun": "media / medium (singular)",
+        "verb": null,
+        "adjective": "media (as modifier)",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "consumer",
+      "ipa": "/kənˈsjuː.mər/",
+      "pos": "noun",
+      "meaning_vi": "người tiêu dùng",
+      "meaning_vi_inline": "người tiêu dùng",
+      "example_en": "Research shows that consumers are becoming more aware of environmental issues.",
+      "example_vi": "Nghiên cứu cho thấy người tiêu dùng ngày càng có ý thức hơn về các vấn đề môi trường.",
+      "word_family": {
+        "noun": "consumer / consumption",
+        "verb": "consume",
+        "adjective": "consumer (as modifier)",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "customer",
+        "explanation_vi": "'Consumer' là người tiêu dùng chung trong xã hội; 'customer' là người mua hàng từ một công ty cụ thể. 'Consumer rights' = quyền người tiêu dùng (nói chung), 'customer service' = dịch vụ khách hàng (của một công ty)."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "campaign",
+      "ipa": "/kæmˈpeɪn/",
+      "pos": "noun / verb",
+      "meaning_vi": "chiến dịch quảng cáo/truyền thông",
+      "meaning_vi_inline": "chiến dịch",
+      "example_en": "The company ran a six-month campaign to promote its new brand identity.",
+      "example_vi": "Công ty triển khai chiến dịch sáu tháng để quảng bá nhận diện thương hiệu mới.",
+      "word_family": {
+        "noun": "campaign",
+        "verb": "campaign",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "target",
+      "ipa": "/ˈtɑː.ɡɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "đối tượng mục tiêu; nhắm đến (khách hàng)",
+      "meaning_vi_inline": "mục tiêu",
+      "example_en": "The campaign was designed to target young professionals aged 25–35.",
+      "example_vi": "Chiến dịch được thiết kế để nhắm đến người đi làm trẻ trong độ tuổi 25–35.",
+      "word_family": {
+        "noun": "target",
+        "verb": "target",
+        "adjective": "targeted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "promote",
+      "ipa": "/prəˈməʊt/",
+      "pos": "verb",
+      "meaning_vi": "quảng bá, xúc tiến (sản phẩm hoặc thương hiệu)",
+      "meaning_vi_inline": "quảng bá",
+      "example_en": "The company promoted its new service through influencer partnerships and social media.",
+      "example_vi": "Công ty quảng bá dịch vụ mới qua quan hệ đối tác với người có ảnh hưởng và mạng xã hội.",
+      "word_family": {
+        "noun": "promotion",
+        "verb": "promote",
+        "adjective": "promotional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "awareness",
+      "ipa": "/əˈweə.nəs/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, sự quen thuộc (với thương hiệu/sản phẩm)",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "The campaign significantly increased brand awareness among teenagers.",
+      "example_vi": "Chiến dịch đã tăng đáng kể nhận thức về thương hiệu trong giới thanh thiếu niên.",
+      "word_family": {
+        "noun": "awareness",
+        "verb": null,
+        "adjective": "aware",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "popularity",
+        "explanation_vi": "'Awareness' là mức độ mọi người biết đến một thương hiệu (nhận biết); 'popularity' là mức độ mọi người yêu thích nó (ưa chuộng) — biết đến không đồng nghĩa với thích."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "persuade",
+      "ipa": "/pəˈsweɪd/",
+      "pos": "verb",
+      "meaning_vi": "thuyết phục",
+      "meaning_vi_inline": "thuyết phục",
+      "example_en": "Good advertising persuades consumers to choose one brand over its competitors.",
+      "example_vi": "Quảng cáo tốt thuyết phục người tiêu dùng chọn một thương hiệu thay vì đối thủ.",
+      "word_family": {
+        "noun": "persuasion",
+        "verb": "persuade",
+        "adjective": "persuasive",
+        "adverb": "persuasively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "appeal",
+      "ipa": "/əˈpiːl/",
+      "pos": "noun / verb",
+      "meaning_vi": "lời kêu gọi cảm xúc; hấp dẫn, thu hút",
+      "meaning_vi_inline": "lời kêu gọi",
+      "example_en": "The advert made an emotional appeal by showing families enjoying the product together.",
+      "example_vi": "Quảng cáo tạo lời kêu gọi cảm xúc bằng cách cho thấy các gia đình cùng tận hưởng sản phẩm.",
+      "word_family": {
+        "noun": "appeal",
+        "verb": "appeal",
+        "adjective": "appealing",
+        "adverb": "appealingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "message",
+      "ipa": "/ˈmes.ɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "thông điệp (quảng cáo)",
+      "meaning_vi_inline": "thông điệp",
+      "example_en": "The campaign's core message was that the product could simplify everyday life.",
+      "example_vi": "Thông điệp cốt lõi của chiến dịch là sản phẩm có thể đơn giản hóa cuộc sống hàng ngày.",
+      "word_family": {
+        "noun": "message / messaging",
+        "verb": "message",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "tagline",
+      "ipa": "/ˈtæɡ.laɪn/",
+      "pos": "noun",
+      "meaning_vi": "khẩu hiệu thương hiệu (câu slogan ngắn định nghĩa thương hiệu)",
+      "meaning_vi_inline": "khẩu hiệu",
+      "example_en": "Nike's tagline 'Just Do It' has been used since 1988 and is recognised worldwide.",
+      "example_vi": "Khẩu hiệu 'Just Do It' của Nike đã được sử dụng từ năm 1988 và được nhận biết trên toàn thế giới.",
+      "word_family": {
+        "noun": "tagline",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "catch phrase",
+        "explanation_vi": "'Tagline' là câu slogan tóm tắt bản sắc của thương hiệu (gắn với thương hiệu lâu dài); 'catch phrase' là câu nói bắt tai dễ nhớ, thường gắn với một chiến dịch hoặc nhân vật cụ thể."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "catch phrase",
+      "ipa": "/ˈkætʃ freɪz/",
+      "pos": "noun",
+      "meaning_vi": "câu bắt tai, câu nói dễ nhớ trong quảng cáo",
+      "meaning_vi_inline": "câu bắt tai",
+      "example_en": "The cereal brand's catch phrase became so popular that children repeated it daily.",
+      "example_vi": "Câu bắt tai của thương hiệu ngũ cốc trở nên phổ biến đến mức trẻ em nhắc lại hàng ngày.",
+      "word_family": {
+        "noun": "catch phrase",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "strategy",
+      "ipa": "/ˈstræt.ɪ.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "chiến lược (marketing/quảng cáo)",
+      "meaning_vi_inline": "chiến lược",
+      "example_en": "The marketing strategy focused on digital channels to reach a younger audience.",
+      "example_vi": "Chiến lược marketing tập trung vào các kênh kỹ thuật số để tiếp cận đối tượng trẻ hơn.",
+      "word_family": {
+        "noun": "strategy / strategist",
+        "verb": null,
+        "adjective": "strategic",
+        "adverb": "strategically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "sponsor",
+      "ipa": "/ˈspɒn.sər/",
+      "pos": "verb / noun",
+      "meaning_vi": "tài trợ; nhà tài trợ",
+      "meaning_vi_inline": "tài trợ",
+      "example_en": "The bank agreed to sponsor the national marathon in exchange for logo placement.",
+      "example_vi": "Ngân hàng đồng ý tài trợ cho giải marathon quốc gia để đổi lấy việc đặt logo.",
+      "word_family": {
+        "noun": "sponsor / sponsorship",
+        "verb": "sponsor",
+        "adjective": "sponsored",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Companies advertise their products to reach the right consumer at the right time and place.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that television is the most effective medium for advertising.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "A tagline and a catch phrase serve exactly the same purpose in advertising.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "Sponsoring an event can help a company become more visible to potential customers.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that creative ideas are more important than careful planning in advertising.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company spent months developing an advertising _____ that would run across television, radio, and social media.",
+          "options": [
+            "product",
+            "campaign",
+            "message",
+            "appeal"
+          ],
+          "answer": "campaign"
+        },
+        {
+          "id": 2,
+          "sentence": "Good advertising should _____ people to choose one product over another by connecting with their emotions or values.",
+          "options": [
+            "persuade",
+            "promote",
+            "advertise",
+            "sponsor"
+          ],
+          "answer": "persuade"
+        },
+        {
+          "id": 3,
+          "sentence": "The company chose to _____ a popular music festival to increase brand recognition among young people.",
+          "options": [
+            "campaign",
+            "appeal",
+            "advertise",
+            "sponsor"
+          ],
+          "answer": "sponsor"
+        },
+        {
+          "id": 4,
+          "sentence": "Building _____ about a new product often takes months of steady advertising before customers start to notice it.",
+          "options": [
+            "strategy",
+            "message",
+            "awareness",
+            "target"
+          ],
+          "answer": "awareness"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ must be simple and memorable so that people instantly understand the product's main benefit.",
+          "options": [
+            "message",
+            "campaign",
+            "media",
+            "consumer"
+          ],
+          "answer": "message"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "advertise",
+        "consumer",
+        "tagline",
+        "sponsor",
+        "awareness"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The charity launched a campaign to raise _____ about the dangers of plastic pollution.",
+          "answer": "awareness"
+        },
+        {
+          "id": 2,
+          "sentence": "The company decided to _____ its new product on social media to reach a younger audience.",
+          "answer": "advertise"
+        },
+        {
+          "id": 3,
+          "sentence": "The brand's _____ — 'Just Do It' — is one of the most recognisable phrases in advertising history.",
+          "answer": "tagline"
+        },
+        {
+          "id": 4,
+          "sentence": "The bank agreed to _____ the national marathon in exchange for having its logo displayed at the event.",
+          "answer": "sponsor"
+        },
+        {
+          "id": 5,
+          "sentence": "Market research helps companies understand what the modern _____ wants and expects from a product.",
+          "answer": "consumer"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "company",
+            "spent",
+            "months",
+            "planning",
+            "its",
+            "advertising",
+            "campaign"
+          ],
+          "answer": "The company spent months planning its advertising campaign."
+        },
+        {
+          "id": 2,
+          "words": [
+            "good",
+            "advertising",
+            "aims",
+            "to",
+            "persuade",
+            "consumers",
+            "to",
+            "choose",
+            "one",
+            "product",
+            "over",
+            "another"
+          ],
+          "answer": "Good advertising aims to persuade consumers to choose one product over another."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "brand's",
+            "tagline",
+            "was",
+            "short",
+            "memorable",
+            "and",
+            "easy",
+            "to",
+            "repeat"
+          ],
+          "answer": "The brand's tagline was short, memorable, and easy to repeat."
+        },
+        {
+          "id": 4,
+          "words": [
+            "building",
+            "awareness",
+            "is",
+            "the",
+            "first",
+            "step",
+            "in",
+            "any",
+            "successful",
+            "marketing",
+            "strategy"
+          ],
+          "answer": "Building awareness is the first step in any successful marketing strategy."
+        },
+        {
+          "id": 5,
+          "words": [
+            "sponsoring",
+            "events",
+            "helps",
+            "companies",
+            "reach",
+            "new",
+            "audiences",
+            "and",
+            "build",
+            "their",
+            "brand"
+          ],
+          "answer": "Sponsoring events helps companies reach new audiences and build their brand."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was hired to [sell] the new coffee brand to customers aged 25–40 across the country.",
+          "highlighted": "sell",
+          "options": {
+            "A": "sell",
+            "B": "promote",
+            "C": "advertise"
+          },
+          "answer": "B",
+          "explanation": "'Promote' is the marketing term for actively raising the profile of a brand or product through outreach and campaigns; 'sell' refers only to the final transaction, not the broader marketing effort."
+        },
+        {
+          "id": 2,
+          "sentence": "The company ran a [set of adverts] that reached millions of people on social media and television.",
+          "highlighted": "set of adverts",
+          "options": {
+            "A": "campaign",
+            "B": "set of adverts",
+            "C": "series"
+          },
+          "answer": "A",
+          "explanation": "'Campaign' is the marketing term for a coordinated, goal-driven series of advertising efforts; it implies strategic planning and a unified message that 'set of adverts' and 'series' do not convey."
+        },
+        {
+          "id": 3,
+          "sentence": "The two-word phrase on the poster — 'Be Bold' — became the brand's most recognisable [slogan].",
+          "highlighted": "slogan",
+          "options": {
+            "A": "slogan",
+            "B": "tagline",
+            "C": "motto"
+          },
+          "answer": "B",
+          "explanation": "'Tagline' is the advertising term for a short, consistent phrase that defines a brand's identity across all communications; 'slogan' is less precise and 'motto' typically refers to a personal or organisational guiding principle."
+        },
+        {
+          "id": 4,
+          "sentence": "The football club found a major company willing to [fund] the tournament in exchange for having its logo on all materials.",
+          "highlighted": "fund",
+          "options": {
+            "A": "fund",
+            "B": "sponsor",
+            "C": "invest"
+          },
+          "answer": "B",
+          "explanation": "'Sponsor' specifically means to provide financial support to an event or organisation in exchange for advertising exposure and brand association; 'fund' simply means to pay for something without implying any commercial partnership."
+        },
+        {
+          "id": 5,
+          "sentence": "The main goal of the advertising campaign was to increase brand [popularity] among new customers.",
+          "highlighted": "popularity",
+          "options": {
+            "A": "popularity",
+            "B": "recognition",
+            "C": "awareness"
+          },
+          "answer": "C",
+          "explanation": "'Awareness' is the marketing term for how familiar the target audience is with a brand — it is the standard goal of early-stage campaigns; 'popularity' relates to how liked something is, and 'recognition' is narrower, referring only to visual identification."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "False",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "campaign",
+      "2": "persuade",
+      "3": "sponsor",
+      "4": "awareness",
+      "5": "message"
+    },
+    "ex3": {
+      "1": "awareness",
+      "2": "advertise",
+      "3": "tagline",
+      "4": "sponsor",
+      "5": "consumer"
+    },
+    "ex4": {
+      "1": "The company spent months planning its advertising campaign.",
+      "2": "Good advertising aims to persuade consumers to choose one product over another.",
+      "3": "The brand's tagline was short, memorable, and easy to repeat.",
+      "4": "Building awareness is the first step in any successful marketing strategy.",
+      "5": "Sponsoring events helps companies reach new audiences and build their brand."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

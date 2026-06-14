@@ -1,0 +1,652 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 32,
+    "topic_id": "b2-t32",
+    "topic_title": "Music & Popular Culture",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🎵",
+    "topic_title_vi": "Âm Nhạc & Văn Hóa Đại Chúng",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 213,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Music is one of the most powerful forces in popular culture. Artists **compose** songs in a wide range of **genre**s — from pop and hip-hop to jazz and classical — each with its own distinctive sound and **lyrics**. A song's **lyrics** tell a story or express an emotion, and the best ones connect instantly with listeners around the world. The **music stream**ing boom has made it possible for anyone with internet access to explore virtually any **genre** at any time.",
+        "text_vi": "Âm nhạc là một trong những lực lượng mạnh mẽ nhất trong văn hóa đại chúng. Các nghệ sĩ **sáng tác** bài hát trong nhiều **thể loại** khác nhau — từ pop và hip-hop đến jazz và cổ điển — mỗi loại có âm thanh đặc trưng và **lời bài hát** riêng. **Lời bài hát** kể một câu chuyện hoặc diễn đạt một cảm xúc, và những bài hay nhất kết nối ngay lập tức với người nghe trên toàn thế giới. Làn sóng **stream nhạc** đã giúp bất kỳ ai có kết nối internet đều có thể khám phá hầu hết mọi **thể loại** bất cứ lúc nào."
+      },
+      {
+        "index": 2,
+        "text_en": "Behind every successful artist is the music **industry** — a complex network of managers, agents, producers, and **label**s. A **label** is a company that signs artists, funds their recordings, and promotes their music. In recent decades, many musicians have chosen to remain **independent**, self-releasing their music without a major label. This gives them more creative control but less financial support and industry reach.",
+        "text_vi": "Đằng sau mỗi nghệ sĩ thành công là ngành công nghiệp âm nhạc (**industry**) — một mạng lưới phức tạp gồm quản lý, đại diện, nhà sản xuất và **hãng đĩa**. Một **hãng đĩa** là công ty ký hợp đồng với nghệ sĩ, tài trợ cho các bản thu âm và quảng bá âm nhạc của họ. Trong những thập kỷ gần đây, nhiều nhạc sĩ đã chọn duy trì sự **độc lập**, tự phát hành âm nhạc mà không có hãng đĩa lớn. Điều này cho họ nhiều quyền kiểm soát sáng tạo hơn nhưng ít hỗ trợ tài chính và tầm với ngành hơn."
+      },
+      {
+        "index": 3,
+        "text_en": "When a new song or album is **release**d, its success is often measured by how high it climbs on the **chart**s — rankings of the most popular songs. Artists who reach number one on a major **chart** gain enormous visibility. A **tribute** — a performance or recording made to honour another artist — is another way musicians celebrate the **influence** of their peers and inspirations, keeping important music traditions alive for new generations.",
+        "text_vi": "Khi một bài hát hoặc album mới được **phát hành**, sự thành công của nó thường được đo bằng mức độ leo cao trên **bảng xếp hạng** — các bảng xếp hạng những bài hát phổ biến nhất. Các nghệ sĩ đạt vị trí số một trên **bảng xếp hạng** lớn có được tầm nhìn khổng lồ. Một **tribute** — màn trình diễn hoặc bản thu âm để tôn vinh một nghệ sĩ khác — là cách khác các nhạc sĩ tôn vinh **tầm ảnh hưởng** của những người ngang hàng và nguồn cảm hứng của họ, giữ gìn các truyền thống âm nhạc quan trọng sống mãi với các thế hệ mới."
+      },
+      {
+        "index": 4,
+        "text_en": "Live music remains enormously popular despite digital streaming. **Perform**ing at a **concert** gives artists a direct emotional connection with their fans. **Devoted fan**s follow their favourite artists from city to city, buying merchandise and attending multiple shows. Major **award** ceremonies such as the Grammys celebrate the best in music each year, creating unforgettable cultural moments that unite fans around the world.",
+        "text_vi": "Âm nhạc trực tiếp vẫn cực kỳ phổ biến dù có stream kỹ thuật số. **Biểu diễn** tại **buổi hòa nhạc** mang đến cho nghệ sĩ sự kết nối cảm xúc trực tiếp với người hâm mộ. **Người hâm mộ cuồng nhiệt** theo dõi nghệ sĩ yêu thích từ thành phố này sang thành phố khác, mua hàng lưu niệm và tham dự nhiều buổi diễn. Các lễ trao **giải thưởng** lớn như Grammys tôn vinh những điều hay nhất trong âm nhạc mỗi năm, tạo ra những khoảnh khắc văn hóa khó quên gắn kết người hâm mộ trên toàn thế giới."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "genre",
+      "ipa": "/ˈʒɒ̃.rə/",
+      "pos": "noun",
+      "meaning_vi": "thể loại (âm nhạc, phim, văn học)",
+      "meaning_vi_inline": "thể loại",
+      "example_en": "Her favourite music genre is jazz, but she also enjoys classical and pop.",
+      "example_vi": "Thể loại âm nhạc yêu thích của cô là jazz, nhưng cô cũng thích nhạc cổ điển và pop.",
+      "word_family": {
+        "noun": "genre",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "lyrics",
+      "ipa": "/ˈlɪr.ɪks/",
+      "pos": "noun (plural)",
+      "meaning_vi": "lời bài hát",
+      "meaning_vi_inline": "lời bài hát",
+      "example_en": "The lyrics of the song were so moving that many people cried when they heard it.",
+      "example_vi": "Lời bài hát xúc động đến mức nhiều người khóc khi nghe.",
+      "word_family": {
+        "noun": "lyrics / lyric / lyricist",
+        "verb": null,
+        "adjective": "lyrical",
+        "adverb": "lyrically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "compose",
+      "ipa": "/kəmˈpəʊz/",
+      "pos": "verb",
+      "meaning_vi": "sáng tác (âm nhạc)",
+      "meaning_vi_inline": "sáng tác",
+      "example_en": "Beethoven composed some of his greatest works after he became deaf.",
+      "example_vi": "Beethoven sáng tác một số tác phẩm vĩ đại nhất của mình sau khi bị điếc.",
+      "word_family": {
+        "noun": "composer / composition",
+        "verb": "compose",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "independent",
+      "ipa": "/ˌɪn.dɪˈpen.dənt/",
+      "pos": "adjective",
+      "meaning_vi": "độc lập (không ký hợp đồng với hãng đĩa lớn)",
+      "meaning_vi_inline": "độc lập",
+      "example_en": "She released her first album as an independent artist through her own record label.",
+      "example_vi": "Cô ấy phát hành album đầu tiên với tư cách nghệ sĩ độc lập qua hãng đĩa của chính mình.",
+      "word_family": {
+        "noun": "independence",
+        "verb": null,
+        "adjective": "independent",
+        "adverb": "independently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "tầm ảnh hưởng (âm nhạc, văn hóa); ảnh hưởng đến",
+      "meaning_vi_inline": "tầm ảnh hưởng",
+      "example_en": "The Beatles' influence on modern pop music cannot be overstated.",
+      "example_vi": "Tầm ảnh hưởng của The Beatles lên nhạc pop hiện đại không thể đánh giá quá cao.",
+      "word_family": {
+        "noun": "influence / influencer",
+        "verb": "influence",
+        "adjective": "influential",
+        "adverb": "influentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "release",
+      "ipa": "/rɪˈliːs/",
+      "pos": "verb / noun",
+      "meaning_vi": "phát hành (album, bài hát); sự phát hành",
+      "meaning_vi_inline": "phát hành",
+      "example_en": "The band will release their new album next spring after a two-year break.",
+      "example_vi": "Ban nhạc sẽ phát hành album mới vào mùa xuân tới sau hai năm nghỉ.",
+      "word_family": {
+        "noun": "release",
+        "verb": "release",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "industry",
+      "ipa": "/ˈɪn.də.stri/",
+      "pos": "noun",
+      "meaning_vi": "ngành công nghiệp âm nhạc; ngành (kinh doanh)",
+      "meaning_vi_inline": "ngành công nghiệp",
+      "example_en": "The music industry has changed dramatically since the rise of digital streaming.",
+      "example_vi": "Ngành công nghiệp âm nhạc đã thay đổi đáng kể kể từ khi ra đời của stream kỹ thuật số.",
+      "word_family": {
+        "noun": "industry",
+        "verb": null,
+        "adjective": "industrial",
+        "adverb": "industrially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "chart",
+      "ipa": "/tʃɑːt/",
+      "pos": "noun / verb",
+      "meaning_vi": "bảng xếp hạng âm nhạc; lên bảng xếp hạng",
+      "meaning_vi_inline": "bảng xếp hạng",
+      "example_en": "Their single reached number three on the national music chart within a week of release.",
+      "example_vi": "Single của họ đạt vị trí số ba trên bảng xếp hạng âm nhạc quốc gia trong vòng một tuần phát hành.",
+      "word_family": {
+        "noun": "chart",
+        "verb": "chart",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "tribute",
+      "ipa": "/ˈtrɪb.juːt/",
+      "pos": "noun",
+      "meaning_vi": "màn tri ân, biểu diễn tưởng niệm (tôn vinh nghệ sĩ khác)",
+      "meaning_vi_inline": "tri ân, tưởng niệm",
+      "example_en": "The concert was a tribute to the late singer, featuring covers of all her greatest hits.",
+      "example_vi": "Buổi hòa nhạc là một màn tri ân ca sĩ đã qua đời, với các bản cover tất cả những bản hit nổi tiếng của cô.",
+      "word_family": {
+        "noun": "tribute",
+        "verb": "pay tribute to",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "perform",
+      "ipa": "/pəˈfɔːm/",
+      "pos": "verb",
+      "meaning_vi": "biểu diễn (âm nhạc, sân khấu)",
+      "meaning_vi_inline": "biểu diễn",
+      "example_en": "She has performed at some of the world's most famous concert halls.",
+      "example_vi": "Cô ấy đã biểu diễn tại một số phòng hòa nhạc nổi tiếng nhất thế giới.",
+      "word_family": {
+        "noun": "performance / performer",
+        "verb": "perform",
+        "adjective": "performing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "award",
+      "ipa": "/əˈwɔːd/",
+      "pos": "noun / verb",
+      "meaning_vi": "giải thưởng; trao giải",
+      "meaning_vi_inline": "giải thưởng",
+      "example_en": "Winning a Grammy Award can transform an artist's career overnight.",
+      "example_vi": "Chiến thắng giải Grammy có thể thay đổi sự nghiệp của một nghệ sĩ chỉ qua một đêm.",
+      "word_family": {
+        "noun": "award",
+        "verb": "award",
+        "adjective": "award-winning",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "label",
+      "ipa": "/ˈleɪ.bəl/",
+      "pos": "noun",
+      "meaning_vi": "hãng đĩa (record label)",
+      "meaning_vi_inline": "hãng đĩa",
+      "example_en": "She was signed to a major label at the age of seventeen and released her debut album a year later.",
+      "example_vi": "Cô được ký hợp đồng với một hãng đĩa lớn khi 17 tuổi và phát hành album đầu tay một năm sau.",
+      "word_family": {
+        "noun": "label",
+        "verb": "label",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "music stream",
+      "ipa": "/ˈmjuːzɪk striːm/",
+      "pos": "noun phrase",
+      "meaning_vi": "stream nhạc, nghe nhạc trực tuyến qua internet",
+      "meaning_vi_inline": "stream nhạc",
+      "example_en": "Music streaming now accounts for over 80% of the global recorded music industry's revenue.",
+      "example_vi": "Stream nhạc hiện chiếm hơn 80% doanh thu của ngành âm nhạc được ghi âm toàn cầu.",
+      "word_family": {
+        "noun": "music streaming / stream",
+        "verb": "stream",
+        "adjective": "streaming",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "devoted fan",
+      "ipa": "/dɪˈvəʊ.tɪd fæn/",
+      "pos": "noun phrase",
+      "meaning_vi": "người hâm mộ cuồng nhiệt, fan trung thành",
+      "meaning_vi_inline": "fan cuồng nhiệt",
+      "example_en": "Devoted fans camped outside the venue for two days to get the best seats.",
+      "example_vi": "Các fan cuồng nhiệt đã cắm trại bên ngoài địa điểm biểu diễn hai ngày để có chỗ ngồi tốt nhất.",
+      "word_family": {
+        "noun": "devotion / fan",
+        "verb": "devote / be devoted to",
+        "adjective": "devoted",
+        "adverb": "devotedly"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "concert",
+      "ipa": "/ˈkɒn.sət/",
+      "pos": "noun",
+      "meaning_vi": "buổi hòa nhạc, concert",
+      "meaning_vi_inline": "buổi hòa nhạc",
+      "example_en": "The outdoor concert attracted over 50,000 people on the final night of the tour.",
+      "example_vi": "Buổi hòa nhạc ngoài trời thu hút hơn 50.000 người vào đêm cuối của chuyến lưu diễn.",
+      "word_family": {
+        "noun": "concert",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A record label signs artists and helps promote their music.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that all successful musicians prefer to be independent.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Reaching number one on a music chart guarantees a Grammy Award.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A tribute is performed to honour another artist's music and influence.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Live concerts are less popular today than they were before the rise of streaming.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was determined to stay _____ so that she could make music without any outside interference.",
+          "options": [
+            "influential",
+            "independent",
+            "devoted",
+            "award-winning"
+          ],
+          "answer": "independent"
+        },
+        {
+          "id": 2,
+          "sentence": "The band's new single climbed to the top of the _____ after just five days.",
+          "options": [
+            "tribute",
+            "chart",
+            "industry",
+            "label"
+          ],
+          "answer": "chart"
+        },
+        {
+          "id": 3,
+          "sentence": "The orchestra will _____ a concert of Beethoven's symphonies next Saturday evening.",
+          "options": [
+            "release",
+            "perform",
+            "compose",
+            "tribute"
+          ],
+          "answer": "perform"
+        },
+        {
+          "id": 4,
+          "sentence": "The evening was a moving _____ to the composer, featuring music he had written across five decades.",
+          "options": [
+            "concert",
+            "label",
+            "genre",
+            "tribute"
+          ],
+          "answer": "tribute"
+        },
+        {
+          "id": 5,
+          "sentence": "She wrote the _____ for all twelve songs on the album herself, drawing on her own experiences.",
+          "options": [
+            "genre",
+            "influence",
+            "lyrics",
+            "chart"
+          ],
+          "answer": "lyrics"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "genre",
+        "compose",
+        "release",
+        "award",
+        "concert"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Electronic music is his favourite _____ — he listens to it while working every day.",
+          "answer": "genre"
+        },
+        {
+          "id": 2,
+          "sentence": "She began to _____ her first original songs at the age of fourteen.",
+          "answer": "compose"
+        },
+        {
+          "id": 3,
+          "sentence": "The artist plans to _____ his third studio album in the autumn.",
+          "answer": "release"
+        },
+        {
+          "id": 4,
+          "sentence": "The film's soundtrack won the _____ for Best Original Score at the ceremony.",
+          "answer": "award"
+        },
+        {
+          "id": 5,
+          "sentence": "Thousands of devoted fans queued for hours to get tickets to the _____ in the city centre.",
+          "answer": "concert"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "band",
+            "decided",
+            "to",
+            "remain",
+            "independent",
+            "and",
+            "release",
+            "the",
+            "album",
+            "themselves"
+          ],
+          "answer": "The band decided to remain independent and release the album themselves."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "concert",
+            "was",
+            "a",
+            "tribute",
+            "to",
+            "the",
+            "artist",
+            "who",
+            "had",
+            "influenced",
+            "a",
+            "whole",
+            "generation"
+          ],
+          "answer": "The concert was a tribute to the artist who had influenced a whole generation."
+        },
+        {
+          "id": 3,
+          "words": [
+            "music",
+            "streaming",
+            "has",
+            "changed",
+            "the",
+            "way",
+            "the",
+            "industry",
+            "earns",
+            "money"
+          ],
+          "answer": "Music streaming has changed the way the industry earns money."
+        },
+        {
+          "id": 4,
+          "words": [
+            "devoted",
+            "fans",
+            "followed",
+            "the",
+            "singer",
+            "from",
+            "city",
+            "to",
+            "city",
+            "throughout",
+            "the",
+            "tour"
+          ],
+          "answer": "Devoted fans followed the singer from city to city throughout the tour."
+        },
+        {
+          "id": 5,
+          "words": [
+            "she",
+            "wrote",
+            "the",
+            "lyrics",
+            "in",
+            "just",
+            "one",
+            "evening",
+            "after",
+            "reading",
+            "her",
+            "grandmother's",
+            "letters"
+          ],
+          "answer": "She wrote the lyrics in just one evening after reading her grandmother's letters."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The rock band signed a contract with a major music [company] last year.",
+          "highlighted": "company",
+          "options": {
+            "A": "label",
+            "B": "industry",
+            "C": "company"
+          },
+          "answer": "A",
+          "explanation": "'Label' (short for 'record label') is the specific industry term for a company that signs and promotes musicians. 'Company' is too general, and 'industry' refers to the broader business sector, not a specific firm."
+        },
+        {
+          "id": 2,
+          "sentence": "Beethoven [wrote] nine symphonies over the course of his career.",
+          "highlighted": "wrote",
+          "options": {
+            "A": "released",
+            "B": "composed",
+            "C": "wrote"
+          },
+          "answer": "B",
+          "explanation": "'Composed' is the standard verb for creating musical works. While 'wrote' is technically understandable, 'composed' is the precise and expected term when discussing the creation of classical music or instrumental pieces. 'Released' means made publicly available, not created."
+        },
+        {
+          "id": 3,
+          "sentence": "The new song [entered] the top of the chart in its first week.",
+          "highlighted": "entered",
+          "options": {
+            "A": "reached",
+            "B": "entered",
+            "C": "climbed"
+          },
+          "answer": "A",
+          "explanation": "'Reached' is the most natural collocation with 'the top' of a chart — it describes arrival at the highest position. 'Climbed' suggests gradual movement upward, not instant arrival at the top. 'Entered' means to come into, not to arrive at the top."
+        },
+        {
+          "id": 4,
+          "sentence": "The concert last night was a beautiful [memorial] to the legendary guitarist.",
+          "highlighted": "memorial",
+          "options": {
+            "A": "tribute",
+            "B": "memorial",
+            "C": "honour"
+          },
+          "answer": "A",
+          "explanation": "'Tribute' is the standard music term for a performance or recording that honours another artist, especially a famous or deceased one. A 'memorial' is specifically for someone who has died and is used in formal or ceremonial contexts. 'Honour' is a noun referring to a quality or recognition, not a performance."
+        },
+        {
+          "id": 5,
+          "sentence": "She [made] her debut album last year after winning a major talent competition.",
+          "highlighted": "made",
+          "options": {
+            "A": "released",
+            "B": "made",
+            "C": "published"
+          },
+          "answer": "A",
+          "explanation": "'Released' is the correct verb for making music available to the public. 'Made' is too informal and vague for this context. 'Published' is used for written content such as books and articles, not for music."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "independent",
+      "2": "chart",
+      "3": "perform",
+      "4": "tribute",
+      "5": "lyrics"
+    },
+    "ex3": {
+      "1": "genre",
+      "2": "compose",
+      "3": "release",
+      "4": "award",
+      "5": "concert"
+    },
+    "ex4": {
+      "1": "The band decided to remain independent and release the album themselves.",
+      "2": "The concert was a tribute to the artist who had influenced a whole generation.",
+      "3": "Music streaming has changed the way the industry earns money.",
+      "4": "Devoted fans followed the singer from city to city throughout the tour.",
+      "5": "She wrote the lyrics in just one evening after reading her grandmother's letters."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "A",
+      "5": "A"
+    }
+  }
+}

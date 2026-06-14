@@ -3,134 +3,140 @@
     "book": 3,
     "topic_number": 5,
     "topic_id": "b3-t05",
-    "topic_title": "Geopolitics & Conflict",
+    "topic_title": "Gender & Society",
+    "topic_title_vi": "Giới Tính & Xã Hội",
     "theme_number": 1,
-    "theme_title": "Power, Society & Global Affairs",
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
     "cefr_level": "C1-C2",
     "combo": "C1",
-    "emoji": "🌍",
-    "topic_title_vi": "Địa Chính Trị & Xung Đột",
-    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "emoji": "⚖️",
     "status": "qa_pass",
     "qa": {
       "passage": "pass",
       "glossary": "pass",
       "exercises": "pass",
       "answer_key": "pass",
-      "last_checked": "2026-06-12"
+      "last_checked": "2026-06-14"
     }
   },
   "passage": {
-    "word_count": 230,
+    "word_count": 219,
     "paragraphs": [
       {
         "index": 1,
-        "text_en": "**Geopolitics** refers to the study of how geography, resources, and power shape relations between states. Throughout history, competition for **territorial** control, trade routes, and strategic resources has driven interstate conflict. In the contemporary world, rising powers challenge established patterns of **hegemony** — the dominance exerted by a leading nation or bloc over global affairs — generating friction and uncertainty across the international system.",
-        "text_vi": "**Địa chính trị** là nghiên cứu về cách địa lý, tài nguyên và quyền lực định hình quan hệ giữa các quốc gia. Trong suốt lịch sử, sự cạnh tranh giành quyền kiểm soát **lãnh thổ**, tuyến thương mại và tài nguyên chiến lược đã thúc đẩy xung đột giữa các quốc gia. Trong thế giới đương đại, các cường quốc đang nổi lên thách thức những mô hình **bá quyền** đã được thiết lập — sự thống trị của một quốc gia hoặc khối dẫn đầu đối với các vấn đề toàn cầu — tạo ra sự ma sát và bất định trên toàn hệ thống quốc tế."
+        "text_en": "Questions of **equality** and **identity** lie at the heart of contemporary debates about gender. In most societies, rigid **norms** about femininity and masculinity have historically shaped expectations for behaviour, career, and family life. The **patriarchy** — a social system in which men hold primary power — has long reinforced these structures, creating **barriers** that limit opportunity for women and gender minorities alike.",
+        "text_vi": "Các câu hỏi về **bình đẳng** và **bản sắc** nằm ở trung tâm của những cuộc tranh luận đương đại về giới tính. Trong hầu hết các xã hội, những **chuẩn mực** cứng nhắc về nữ tính và nam tính đã định hình kỳ vọng về hành vi, sự nghiệp và cuộc sống gia đình qua nhiều thế hệ. **Chế độ gia trưởng** — một hệ thống xã hội mà đàn ông nắm giữ quyền lực chủ yếu — từ lâu đã củng cố những cấu trúc này, tạo ra các **rào cản** hạn chế cơ hội cho phụ nữ và người thuộc giới thiểu số."
       },
       {
         "index": 2,
-        "text_en": "Nations often seek security through **alliances** with like-minded partners, pooling resources to deter potential aggressors. The principle of **deterrence** — convincing adversaries that the costs of aggression will outweigh any gains — underpins many defence strategies. **Multilateral** organisations such as the United Nations provide forums for **diplomacy** and hold a **mandate** to maintain international peace and security.",
-        "text_vi": "Các quốc gia thường tìm kiếm an ninh thông qua **liên minh** với các đối tác có cùng quan điểm, gộp nguồn lực để răn đe những kẻ xâm lược tiềm năng. Nguyên tắc **răn đe** — thuyết phục đối thủ rằng cái giá của hành vi gây hấn sẽ vượt qua bất kỳ lợi ích nào — là nền tảng của nhiều chiến lược quốc phòng. Các tổ chức **đa phương** như Liên Hợp Quốc cung cấp diễn đàn cho **ngoại giao** và nắm giữ **ủy nhiệm** duy trì hòa bình và an ninh quốc tế."
+        "text_en": "A key goal of gender activism is to **challenge gender stereotypes** — fixed, oversimplified beliefs about how people of a given gender should look or act. Such **stereotypes** distort public **representation** of women in leadership, science, and politics. Advocates argue that unless societies actively **promote equal representation** across institutions, progress will remain superficial.",
+        "text_vi": "Một mục tiêu cốt lõi của hoạt động đấu tranh về giới là **thách thức định kiến giới** — những niềm tin cố định, đơn giản hóa thái quá về cách người thuộc một giới nhất định nên trông như thế nào hay hành xử ra sao. Những **định kiến** như vậy làm méo mó **đại diện** công khai của phụ nữ trong lĩnh vực lãnh đạo, khoa học và chính trị. Những người ủng hộ lập luận rằng trừ khi xã hội chủ động **thúc đẩy đại diện bình đẳng** trong các thể chế, sự tiến bộ sẽ vẫn chỉ là bề mặt."
       },
       {
         "index": 3,
-        "text_en": "When direct confrontation is politically undesirable, powerful states sometimes fund or arm weaker actors in **proxy** conflicts, fuelling violence in distant regions without deploying their own forces. Such wars frequently cause massive civilian suffering and trigger regional **escalation**. The **territorial** and ideological ambitions driving these conflicts are rarely resolved through military means alone.",
-        "text_vi": "Khi đối đầu trực tiếp không phù hợp về mặt chính trị, các cường quốc đôi khi tài trợ hoặc vũ trang cho các tác nhân yếu hơn trong các cuộc xung đột **ủy nhiệm**, tiếp sức cho bạo lực ở các vùng xa mà không cần triển khai lực lượng của chính họ. Những cuộc chiến như vậy thường gây ra đau khổ lớn cho dân thường và kích hoạt **leo thang** trong khu vực. Những tham vọng **lãnh thổ** và ý thức hệ thúc đẩy những cuộc xung đột này hiếm khi được giải quyết chỉ bằng biện pháp quân sự."
+        "text_en": "Progress also requires efforts to **dismantle systemic barriers** — institutional policies and cultural attitudes that perpetuate **discrimination** and **bias** against women. Unconscious **bias**, in particular, affects hiring decisions, salary negotiations, and academic evaluation in ways that are difficult to detect. To address this, organisations are urged to **confront unconscious bias** through structured training and transparent processes.",
+        "text_vi": "Tiến bộ cũng đòi hỏi nỗ lực **phá bỏ các rào cản hệ thống** — những chính sách thể chế và thái độ văn hóa duy trì **phân biệt đối xử** và **thiên kiến** chống lại phụ nữ. **Thiên kiến** vô thức, đặc biệt, ảnh hưởng đến quyết định tuyển dụng, đàm phán lương và đánh giá học thuật theo những cách khó phát hiện. Để giải quyết vấn đề này, các tổ chức được kêu gọi **đối mặt với thiên kiến vô thức** thông qua đào tạo có cấu trúc và quy trình minh bạch."
       },
       {
         "index": 4,
-        "text_en": "Achieving sustainable peace typically requires **ceasefire** negotiations, independent **mediation**, and guarantees of political **autonomy** or recognition for disputing parties. Outside **intervention**, however well-intentioned, risks deepening divisions unless it carries broad **multilateral** support and a clearly defined mandate.",
-        "text_vi": "Đạt được hòa bình bền vững thường đòi hỏi đàm phán **ngừng bắn**, **hòa giải** độc lập, và các bảo đảm về **quyền tự chủ** chính trị hoặc sự công nhận cho các bên tranh chấp. Sự **can thiệp** từ bên ngoài, dù thiện chí đến đâu, đều có nguy cơ làm sâu thêm chia rẽ trừ khi có sự ủng hộ rộng rãi của **đa phương** và ủy nhiệm được xác định rõ ràng."
+        "text_en": "Ultimately, sustainable change depends on the capacity to **empower marginalised groups** — giving women, non-binary individuals, and other minorities the resources, voice, and agency to shape their own futures. **Empowerment** is not merely symbolic; it demands concrete shifts in legislation, education, and workplace culture. Only by addressing inequality at every level can societies move towards genuine **equality**.",
+        "text_vi": "Cuối cùng, sự thay đổi bền vững phụ thuộc vào khả năng **trao quyền cho các nhóm bị thiệt thòi** — cung cấp cho phụ nữ, người phi nhị nguyên giới và các nhóm thiểu số khác các nguồn lực, tiếng nói và quyền tự chủ để định hình tương lai của họ. **Trao quyền** không chỉ mang tính biểu tượng; nó đòi hỏi những thay đổi cụ thể trong luật pháp, giáo dục và văn hóa nơi làm việc. Chỉ bằng cách giải quyết bất bình đẳng ở mọi cấp độ, xã hội mới có thể tiến tới **bình đẳng** thực sự."
       }
     ]
   },
   "glossary": [
     {
       "id": 1,
-      "word": "geopolitics",
-      "ipa": "/ˌdʒiː.oʊˈpɒl.ɪ.tɪks/",
+      "word": "equality",
+      "ipa": "/ɪˈkwɒl.ɪ.ti/",
       "pos": "noun",
-      "meaning_vi": "địa chính trị",
-      "meaning_vi_inline": "địa chính trị",
-      "example_en": "The geopolitics of the region are shaped by oil reserves and trade routes.",
-      "example_vi": "Địa chính trị của khu vực được định hình bởi trữ lượng dầu mỏ và các tuyến thương mại.",
+      "meaning_vi": "sự bình đẳng",
+      "meaning_vi_inline": "bình đẳng",
+      "example_en": "Gender equality remains an unfinished goal in many parts of the world.",
+      "example_vi": "Bình đẳng giới vẫn là mục tiêu chưa hoàn thành ở nhiều nơi trên thế giới.",
       "word_family": {
-        "noun": "geopolitics",
-        "verb": null,
-        "adjective": "geopolitical",
-        "adverb": "geopolitically"
+        "noun": "equality / inequality",
+        "verb": "equalise",
+        "adjective": "equal / unequal",
+        "adverb": "equally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word_vi": "equity",
+        "explanation_vi": "'Equality' là bình đẳng (mọi người nhận cùng một thứ); 'equity' là công bằng theo nhu cầu — không hoán đổi cho nhau."
+      },
       "receptive_productive": "P"
     },
     {
       "id": 2,
-      "word": "hegemony",
-      "ipa": "/hɪˈdʒem.ə.ni/",
-      "pos": "noun",
-      "meaning_vi": "quyền bá chủ, sự thống trị",
-      "meaning_vi_inline": "bá quyền",
-      "example_en": "The country's hegemony over the region began to weaken in the 1990s.",
-      "example_vi": "Quyền bá chủ của đất nước đối với khu vực bắt đầu suy yếu vào những năm 1990.",
+      "word": "stereotype",
+      "ipa": "/ˈster.i.ə.taɪp/",
+      "pos": "noun / verb",
+      "meaning_vi": "định kiến, khuôn mẫu cố định",
+      "meaning_vi_inline": "định kiến",
+      "example_en": "The stereotype that women are less capable in science has been repeatedly disproven.",
+      "example_vi": "Định kiến rằng phụ nữ kém năng lực hơn trong khoa học đã bị bác bỏ nhiều lần.",
       "word_family": {
-        "noun": "hegemony / hegemon",
-        "verb": null,
-        "adjective": "hegemonic",
-        "adverb": null
+        "noun": "stereotype",
+        "verb": "stereotype",
+        "adjective": "stereotypical / stereotyped",
+        "adverb": "stereotypically"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 3,
-      "word": "territorial",
-      "ipa": "/ˌter.ɪˈtɔː.ri.əl/",
-      "pos": "adjective",
-      "meaning_vi": "thuộc về lãnh thổ",
-      "meaning_vi_inline": "lãnh thổ",
-      "example_en": "The territorial dispute over the islands has lasted for decades.",
-      "example_vi": "Tranh chấp lãnh thổ về quần đảo đã kéo dài hàng thập kỷ.",
-      "word_family": {
-        "noun": "territory",
-        "verb": null,
-        "adjective": "territorial",
-        "adverb": "territorially"
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 4,
-      "word": "alliance",
-      "ipa": "/əˈlaɪ.əns/",
+      "word": "representation",
+      "ipa": "/ˌrep.rɪ.zenˈteɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "liên minh",
-      "meaning_vi_inline": "liên minh",
-      "example_en": "NATO is a military alliance formed for collective defence.",
-      "example_vi": "NATO là một liên minh quân sự được thành lập vì mục tiêu phòng thủ tập thể.",
+      "meaning_vi": "sự đại diện",
+      "meaning_vi_inline": "đại diện",
+      "example_en": "Women's representation in parliament has improved but remains insufficient.",
+      "example_vi": "Sự đại diện của phụ nữ trong nghị viện đã cải thiện nhưng vẫn còn thiếu.",
       "word_family": {
-        "noun": "alliance / ally",
-        "verb": "ally",
-        "adjective": "allied",
+        "noun": "representation / representative",
+        "verb": "represent",
+        "adjective": "representative",
         "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
-      "id": 5,
-      "word": "deterrence",
-      "ipa": "/dɪˈter.əns/",
+      "id": 4,
+      "word": "patriarchy",
+      "ipa": "/ˈpeɪ.tri.ɑː.ki/",
       "pos": "noun",
-      "meaning_vi": "sự răn đe",
-      "meaning_vi_inline": "răn đe",
-      "example_en": "Nuclear deterrence has been a cornerstone of defence policy since the Cold War.",
-      "example_vi": "Sự răn đe hạt nhân là nền tảng của chính sách quốc phòng kể từ Chiến tranh Lạnh.",
+      "meaning_vi": "chế độ gia trưởng, xã hội phụ quyền",
+      "meaning_vi_inline": "chế độ gia trưởng",
+      "example_en": "Feminist scholars argue that the patriarchy is embedded in both law and culture.",
+      "example_vi": "Các học giả nữ quyền lập luận rằng chế độ gia trưởng được nhúng vào cả luật pháp lẫn văn hóa.",
       "word_family": {
-        "noun": "deterrence / deterrent",
-        "verb": "deter",
-        "adjective": "deterrent",
+        "noun": "patriarchy / patriarch",
+        "verb": null,
+        "adjective": "patriarchal",
+        "adverb": "patriarchally"
+      },
+      "false_friend": {
+        "word_vi": "matriarchy",
+        "explanation_vi": "'Patriarchy' là xã hội do đàn ông lãnh đạo; 'matriarchy' là xã hội do phụ nữ lãnh đạo — đối lập nhau về nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "empowerment",
+      "ipa": "/ɪmˈpaʊ.ə.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự trao quyền, tăng cường năng lực",
+      "meaning_vi_inline": "trao quyền",
+      "example_en": "Economic empowerment helps women gain independence and security.",
+      "example_vi": "Trao quyền kinh tế giúp phụ nữ có được sự độc lập và an toàn.",
+      "word_family": {
+        "noun": "empowerment",
+        "verb": "empower",
+        "adjective": "empowered / empowering",
         "adverb": null
       },
       "false_friend": null,
@@ -138,74 +144,71 @@
     },
     {
       "id": 6,
-      "word": "multilateral",
-      "ipa": "/ˌmʌl.tiˈlæt.ər.əl/",
-      "pos": "adjective",
-      "meaning_vi": "đa phương",
-      "meaning_vi_inline": "đa phương",
-      "example_en": "A multilateral approach is needed to address global security threats.",
-      "example_vi": "Cần có một cách tiếp cận đa phương để giải quyết các mối đe dọa an ninh toàn cầu.",
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "sự thiên kiến, định kiến ngầm",
+      "meaning_vi_inline": "thiên kiến",
+      "example_en": "Hiring managers may exhibit unconscious bias against female candidates.",
+      "example_vi": "Người quản lý tuyển dụng có thể bộc lộ thiên kiến vô thức chống lại các ứng viên nữ.",
       "word_family": {
-        "noun": null,
-        "verb": null,
-        "adjective": "multilateral / bilateral / unilateral",
-        "adverb": "multilaterally"
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased / unbiased",
+        "adverb": null
       },
-      "false_friend": {
-        "word_vi": "bilateral",
-        "explanation_vi": "'Multilateral' là nhiều bên (3+); 'bilateral' là hai bên — mức độ tham gia khác nhau rõ rệt."
-      },
+      "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 7,
-      "word": "diplomacy",
-      "ipa": "/dɪˈpləʊ.mə.si/",
+      "word": "discrimination",
+      "ipa": "/dɪˌskrɪm.ɪˈneɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "ngoại giao",
-      "meaning_vi_inline": "ngoại giao",
-      "example_en": "Effective diplomacy can prevent conflicts from escalating.",
-      "example_vi": "Ngoại giao hiệu quả có thể ngăn các cuộc xung đột leo thang.",
+      "meaning_vi": "sự phân biệt đối xử",
+      "meaning_vi_inline": "phân biệt đối xử",
+      "example_en": "Legislation alone cannot eliminate discrimination in the workplace.",
+      "example_vi": "Chỉ riêng luật pháp không thể xóa bỏ sự phân biệt đối xử tại nơi làm việc.",
       "word_family": {
-        "noun": "diplomacy / diplomat",
-        "verb": null,
-        "adjective": "diplomatic",
-        "adverb": "diplomatically"
+        "noun": "discrimination",
+        "verb": "discriminate",
+        "adjective": "discriminatory",
+        "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 8,
-      "word": "mandate",
-      "ipa": "/ˈmæn.deɪt/",
+      "word": "norm",
+      "ipa": "/nɔːm/",
       "pos": "noun",
-      "meaning_vi": "ủy nhiệm, quyền hạn được trao",
-      "meaning_vi_inline": "ủy nhiệm",
-      "example_en": "The UN peacekeeping force operates under a clear mandate.",
-      "example_vi": "Lực lượng gìn giữ hòa bình LHQ hoạt động theo một ủy nhiệm rõ ràng.",
+      "meaning_vi": "chuẩn mực xã hội",
+      "meaning_vi_inline": "chuẩn mực",
+      "example_en": "Social norms around gender roles are shifting in many countries.",
+      "example_vi": "Chuẩn mực xã hội về vai trò giới đang thay đổi ở nhiều quốc gia.",
       "word_family": {
-        "noun": "mandate",
-        "verb": "mandate",
-        "adjective": "mandatory",
-        "adverb": "mandatorily"
+        "noun": "norm",
+        "verb": "normalise",
+        "adjective": "normal / normative",
+        "adverb": "normally"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 9,
-      "word": "proxy",
-      "ipa": "/ˈprɒk.si/",
-      "pos": "noun / adjective",
-      "meaning_vi": "ủy nhiệm; chiến tranh ủy nhiệm",
-      "meaning_vi_inline": "ủy nhiệm",
-      "example_en": "The civil war became a proxy conflict between rival superpowers.",
-      "example_vi": "Cuộc nội chiến trở thành một cuộc xung đột ủy nhiệm giữa các siêu cường đối địch.",
+      "word": "identity",
+      "ipa": "/aɪˈden.tɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bản sắc, danh tính",
+      "meaning_vi_inline": "bản sắc",
+      "example_en": "Gender identity refers to a person's internal sense of their own gender.",
+      "example_vi": "Bản sắc giới đề cập đến cảm nhận bên trong của một người về giới tính của chính mình.",
       "word_family": {
-        "noun": "proxy",
-        "verb": null,
-        "adjective": "proxy",
+        "noun": "identity / identification",
+        "verb": "identify",
+        "adjective": "identifiable",
         "adverb": null
       },
       "false_friend": null,
@@ -213,113 +216,68 @@
     },
     {
       "id": 10,
-      "word": "escalation",
-      "ipa": "/ˌes.kəˈleɪ.ʃən/",
+      "word": "barrier",
+      "ipa": "/ˈbær.i.ər/",
       "pos": "noun",
-      "meaning_vi": "sự leo thang",
-      "meaning_vi_inline": "leo thang",
-      "example_en": "Both sides feared that any misstep could lead to escalation.",
-      "example_vi": "Cả hai bên đều lo ngại rằng bất kỳ sai lầm nào cũng có thể dẫn đến leo thang.",
+      "meaning_vi": "rào cản",
+      "meaning_vi_inline": "rào cản",
+      "example_en": "Structural barriers prevent many women from reaching senior leadership positions.",
+      "example_vi": "Các rào cản cấu trúc ngăn nhiều phụ nữ đạt được các vị trí lãnh đạo cấp cao.",
       "word_family": {
-        "noun": "escalation",
-        "verb": "escalate",
-        "adjective": "escalating",
-        "adverb": null
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 11,
-      "word": "ceasefire",
-      "ipa": "/ˈsiːs.faɪər/",
-      "pos": "noun",
-      "meaning_vi": "ngừng bắn",
-      "meaning_vi_inline": "ngừng bắn",
-      "example_en": "A fragile ceasefire was agreed after months of fighting.",
-      "example_vi": "Lệnh ngừng bắn mong manh đã được thỏa thuận sau nhiều tháng giao tranh.",
-      "word_family": {
-        "noun": "ceasefire",
-        "verb": "cease fire",
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 12,
-      "word": "mediation",
-      "ipa": "/ˌmiː.diˈeɪ.ʃən/",
-      "pos": "noun",
-      "meaning_vi": "hòa giải (quốc tế)",
-      "meaning_vi_inline": "hòa giải",
-      "example_en": "International mediation helped broker a peace agreement.",
-      "example_vi": "Hòa giải quốc tế đã giúp đạt được một thỏa thuận hòa bình.",
-      "word_family": {
-        "noun": "mediation / mediator",
-        "verb": "mediate",
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 13,
-      "word": "autonomy",
-      "ipa": "/ɔːˈtɒn.ə.mi/",
-      "pos": "noun",
-      "meaning_vi": "quyền tự chủ, tự trị",
-      "meaning_vi_inline": "tự chủ",
-      "example_en": "The peace deal granted the region greater political autonomy.",
-      "example_vi": "Thỏa thuận hòa bình trao cho khu vực quyền tự chủ chính trị lớn hơn.",
-      "word_family": {
-        "noun": "autonomy",
-        "verb": null,
-        "adjective": "autonomous",
-        "adverb": "autonomously"
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 14,
-      "word": "intervention",
-      "ipa": "/ˌɪn.təˈven.ʃən/",
-      "pos": "noun",
-      "meaning_vi": "sự can thiệp",
-      "meaning_vi_inline": "can thiệp",
-      "example_en": "Military intervention without a mandate risks deepening the conflict.",
-      "example_vi": "Can thiệp quân sự mà không có ủy nhiệm có nguy cơ làm trầm trọng thêm xung đột.",
-      "word_family": {
-        "noun": "intervention / intervener",
-        "verb": "intervene",
-        "adjective": "interventionist",
-        "adverb": null
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
-      "id": 15,
-      "word": "coalition",
-      "ipa": "/ˌkoʊ.əˈlɪʃ.ən/",
-      "pos": "noun",
-      "meaning_vi": "liên minh (tạm thời, đa thành phần)",
-      "meaning_vi_inline": "liên minh đa thành phần",
-      "example_en": "A broad coalition of nations condemned the invasion.",
-      "example_vi": "Một liên minh rộng lớn các quốc gia đã lên án cuộc xâm lược.",
-      "word_family": {
-        "noun": "coalition",
+        "noun": "barrier",
         "verb": null,
         "adjective": null,
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "alliance",
-        "explanation_vi": "'Coalition' thường là liên minh tạm thời vì một mục tiêu cụ thể; 'alliance' là liên minh chính thức lâu dài hơn."
+        "word_vi": "border",
+        "explanation_vi": "'Barrier' là rào cản (vật lý hoặc ẩn dụ); 'border' là biên giới địa lý — nghĩa và cách dùng khác nhau."
       },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "challenge gender stereotypes",
+      "meaning_vi": "thách thức định kiến giới",
+      "example_en": "Media campaigns that challenge gender stereotypes can shift public attitudes over time.",
+      "example_vi": "Các chiến dịch truyền thông thách thức định kiến giới có thể thay đổi thái độ công chúng theo thời gian.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "promote equal representation",
+      "meaning_vi": "thúc đẩy đại diện bình đẳng",
+      "example_en": "The policy aims to promote equal representation of women on corporate boards.",
+      "example_vi": "Chính sách này nhằm thúc đẩy đại diện bình đẳng của phụ nữ trong hội đồng quản trị doanh nghiệp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "dismantle systemic barriers",
+      "meaning_vi": "phá bỏ các rào cản hệ thống",
+      "example_en": "Reforming education and law is essential to dismantle systemic barriers facing women.",
+      "example_vi": "Cải cách giáo dục và pháp luật là điều cần thiết để phá bỏ các rào cản hệ thống mà phụ nữ phải đối mặt.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "empower marginalised groups",
+      "meaning_vi": "trao quyền cho các nhóm bị thiệt thòi",
+      "example_en": "Microfinance programmes are used to empower marginalised groups in rural communities.",
+      "example_vi": "Các chương trình tài chính vi mô được dùng để trao quyền cho các nhóm bị thiệt thòi ở cộng đồng nông thôn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "confront unconscious bias",
+      "meaning_vi": "đối mặt với thiên kiến vô thức",
+      "example_en": "Companies invest in training to help staff confront unconscious bias in decision-making.",
+      "example_vi": "Các công ty đầu tư vào đào tạo để giúp nhân viên đối mặt với thiên kiến vô thức trong quá trình ra quyết định.",
       "receptive_productive": "P"
     }
   ],
@@ -331,28 +289,28 @@
       "items": [
         {
           "id": 1,
-          "statement": "Geopolitics examines the influence of geography and power on international relations.",
+          "statement": "The patriarchy is described as a system in which men hold primary power in society.",
           "answer": "True"
         },
         {
           "id": 2,
-          "statement": "The United Nations was founded specifically to resolve territorial disputes.",
-          "answer": "Not Given"
+          "statement": "The passage states that gender stereotypes have been completely eliminated in most modern workplaces.",
+          "answer": "False"
         },
         {
           "id": 3,
-          "statement": "Deterrence aims to prevent aggression by making its costs outweigh any potential gains.",
-          "answer": "True"
-        },
-        {
-          "id": 4,
-          "statement": "Proxy wars are always more effective than direct military intervention.",
+          "statement": "The passage mentions that gender equality has already been achieved in Nordic countries.",
           "answer": "Not Given"
         },
         {
-          "id": 5,
-          "statement": "Achieving sustainable peace typically requires ceasefire negotiations and independent mediation.",
+          "id": 4,
+          "statement": "Unconscious bias can affect salary negotiations and academic evaluation.",
           "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that legislation alone is sufficient to achieve sustainable gender equality.",
+          "answer": "False"
         }
       ]
     },
@@ -362,96 +320,97 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The term _____ describes the dominance of one nation or bloc over international affairs.",
+          "sentence": "The government introduced a quota system to improve women's _____ in parliament.",
           "options": [
-            "autonomy",
-            "hegemony",
-            "deterrence",
-            "mediation"
+            "stereotype",
+            "representation",
+            "patriarchy",
+            "norm"
           ],
-          "answer": "hegemony"
+          "answer": "representation"
         },
         {
           "id": 2,
-          "sentence": "The UN was given a _____ to protect civilians in the conflict zone.",
+          "sentence": "Unconscious _____ in recruitment can disadvantage female applicants without anyone realising it.",
           "options": [
-            "coalition",
-            "ceasefire",
-            "mandate",
-            "proxy"
+            "identity",
+            "empowerment",
+            "bias",
+            "equality"
           ],
-          "answer": "mandate"
+          "answer": "bias"
         },
         {
           "id": 3,
-          "sentence": "Rival superpowers sometimes fund _____ wars in third countries to advance their interests.",
+          "sentence": "Social _____ around gender roles are gradually shifting as younger generations reject traditional expectations.",
           "options": [
-            "multilateral",
-            "proxy",
-            "territorial",
-            "coalition"
+            "barriers",
+            "norms",
+            "discrimination",
+            "stereotypes"
           ],
-          "answer": "proxy"
+          "answer": "norms"
         },
         {
           "id": 4,
-          "sentence": "After years of fighting, both sides agreed to a _____ and began peace negotiations.",
+          "sentence": "Access to education and healthcare are key tools for achieving genuine _____ between men and women.",
           "options": [
-            "mediation",
-            "alliance",
-            "ceasefire",
-            "deterrence"
+            "barrier",
+            "bias",
+            "equality",
+            "norm"
           ],
-          "answer": "ceasefire"
+          "answer": "equality"
         },
         {
           "id": 5,
-          "sentence": "The peace agreement gave the region significant political _____, allowing it to govern its own affairs.",
+          "sentence": "The campaign sought to challenge the _____ that leadership roles are naturally suited to men.",
           "options": [
-            "hegemony",
-            "escalation",
-            "autonomy",
-            "mandate"
+            "discrimination",
+            "empowerment",
+            "identity",
+            "stereotype"
           ],
-          "answer": "autonomy"
+          "answer": "stereotype"
         }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
-      "instruction": "Fill in the blanks with the correct word from the box.",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
       "word_bank": [
-        "alliance",
-        "escalation",
-        "diplomacy",
-        "territorial",
-        "coalition"
+        "barrier",
+        "discrimination",
+        "empowerment",
+        "identity",
+        "norm",
+        "patriarchy"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "The two nations formed a military _____ to deter aggression from neighbouring states.",
-          "answer": "alliance"
+          "sentence": "Gender _____ is a deeply personal experience that may not align with a person's biological sex.",
+          "answer": "identity"
         },
         {
           "id": 2,
-          "sentence": "Effective _____ requires patience, compromise, and a willingness to listen to all parties.",
-          "answer": "diplomacy"
+          "sentence": "The glass ceiling remains a significant _____ for women aspiring to executive roles.",
+          "answer": "barrier"
         },
         {
           "id": 3,
-          "sentence": "The _____ dispute over the islands has remained unresolved for several decades.",
-          "answer": "territorial"
+          "sentence": "Economic _____ gives women the financial independence to make their own choices.",
+          "answer": "empowerment"
         },
         {
           "id": 4,
-          "sentence": "Both sides feared that a minor incident could lead to rapid _____ of the conflict.",
-          "answer": "escalation"
+          "sentence": "Racial and gender _____ in the workplace is prohibited by law in many countries.",
+          "answer": "discrimination"
         },
         {
           "id": 5,
-          "sentence": "A broad international _____ condemned the invasion and imposed economic sanctions.",
-          "answer": "coalition"
+          "sentence": "It is now a social _____ in many companies to use gender-neutral language in official communications.",
+          "answer": "norm"
         }
       ]
     },
@@ -462,143 +421,146 @@
         {
           "id": 1,
           "words": [
-            "geopolitics",
-            "studies",
-            "how",
-            "geography",
-            "and",
-            "power",
+            "rigid",
+            "gender",
+            "stereotypes",
             "shape",
-            "state",
-            "relations"
+            "expectations",
+            "about",
+            "behaviour",
+            "and",
+            "career"
           ],
-          "answer": "Geopolitics studies how geography and power shape state relations."
+          "answer": "Rigid gender stereotypes shape expectations about behaviour and career."
         },
         {
           "id": 2,
           "words": [
-            "nations",
-            "seek",
-            "security",
-            "by",
-            "forming",
-            "alliances",
+            "unconscious",
+            "bias",
+            "can",
+            "affect",
+            "hiring",
+            "decisions",
+            "in",
+            "ways",
+            "difficult",
             "to",
-            "deter",
-            "conflict"
+            "detect"
           ],
-          "answer": "Nations seek security by forming alliances to deter conflict."
+          "answer": "Unconscious bias can affect hiring decisions in ways difficult to detect."
         },
         {
           "id": 3,
           "words": [
-            "powerful",
-            "states",
-            "often",
-            "fund",
-            "or",
-            "arm",
-            "weaker",
-            "actors",
+            "equal",
+            "representation",
+            "of",
+            "women",
             "in",
-            "proxy",
-            "wars"
+            "leadership",
+            "requires",
+            "systemic",
+            "change"
           ],
-          "answer": "Powerful states often fund or arm weaker actors in proxy wars."
+          "answer": "Equal representation of women in leadership requires systemic change."
         },
         {
           "id": 4,
           "words": [
-            "sustainable",
-            "peace",
-            "typically",
-            "requires",
-            "ceasefire",
-            "negotiations",
+            "empowerment",
+            "demands",
+            "concrete",
+            "shifts",
+            "in",
+            "legislation",
             "and",
-            "mediation"
+            "workplace",
+            "culture"
           ],
-          "answer": "Sustainable peace typically requires ceasefire negotiations and mediation."
+          "answer": "Empowerment demands concrete shifts in legislation and workplace culture."
         },
         {
           "id": 5,
           "words": [
-            "intervention",
-            "without",
-            "broad",
-            "multilateral",
-            "support",
-            "risks",
-            "deepening",
-            "divisions"
+            "the",
+            "patriarchy",
+            "has",
+            "reinforced",
+            "structures",
+            "that",
+            "limit",
+            "opportunity",
+            "for",
+            "women"
           ],
-          "answer": "Intervention without broad multilateral support risks deepening divisions."
+          "answer": "The patriarchy has reinforced structures that limit opportunity for women."
         }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
-      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "instruction": "Each sentence has one word in [brackets] that is wrong. Choose the correct replacement.",
       "items": [
         {
           "id": 1,
-          "sentence": "The two nations formed an [alliance's] to defend against potential regional threats.",
-          "highlighted": "alliance's",
+          "sentence": "The company introduced measures to [strengthen] unconscious bias in its hiring process.",
+          "highlighted": "strengthen",
           "options": {
-            "A": "alliance's",
-            "B": "alliance",
-            "C": "allied"
+            "A": "eliminate",
+            "B": "strengthen",
+            "C": "celebrate"
           },
-          "answer": "B",
-          "explanation": "'Alliance' is the direct object of 'formed' — no possessive apostrophe is needed."
+          "answer": "A",
+          "explanation": "'Eliminate' means to remove — 'strengthen' would mean making the bias worse, which contradicts the purpose of introducing such measures."
         },
         {
           "id": 2,
-          "sentence": "Skilled [diplomatic] is essential when trying to resolve territorial disputes peacefully.",
-          "highlighted": "diplomatic",
+          "sentence": "Gender [equality's] requires not only new laws but also changes in cultural attitudes.",
+          "highlighted": "equality's",
           "options": {
-            "A": "diplomacy",
-            "B": "diplomatic",
-            "C": "diplomat"
+            "A": "equally",
+            "B": "equality's",
+            "C": "equality"
           },
           "answer": "C",
-          "explanation": "'Diplomacy' is the noun form needed as the subject of the sentence — 'diplomatic' is an adjective and cannot be a subject."
+          "explanation": "'Equality' is the subject noun here — no possessive apostrophe is needed."
         },
         {
           "id": 3,
-          "sentence": "The UN's [mandates] to maintain international peace was established in its founding charter.",
-          "highlighted": "mandates",
+          "sentence": "Feminist activists seek to [reinforce] the patriarchal structures that restrict women's freedoms.",
+          "highlighted": "reinforce",
           "options": {
-            "A": "mandates",
-            "B": "mandate",
-            "C": "mandating"
+            "A": "reinforce",
+            "B": "dismantle",
+            "C": "celebrate"
           },
           "answer": "B",
-          "explanation": "The passage refers to one specific institutional mandate (singular) — 'mandates' (plural) is grammatically incorrect here."
+          "explanation": "'Dismantle' means to break down — 'reinforce' would mean making patriarchal structures stronger, the opposite of a feminist goal."
         },
         {
           "id": 4,
-          "sentence": "The conflict continued to [escalate's] despite repeated international calls for a ceasefire.",
-          "highlighted": "escalate's",
+          "sentence": "Access to education is a powerful tool to [disempower] marginalised women in developing countries.",
+          "highlighted": "disempower",
           "options": {
-            "A": "escalate",
-            "B": "escalate's",
-            "C": "escalated"
+            "A": "empower",
+            "B": "disempower",
+            "C": "overpower"
           },
-          "answer": "C",
-          "explanation": "After 'continued to', use the base verb form: 'to escalate' — 'escalate's' is not a valid verb form."
+          "answer": "A",
+          "explanation": "'Empower' means to give agency and confidence — 'disempower' means to take it away, which contradicts the positive role of education described."
         },
         {
           "id": 5,
-          "sentence": "The [territorially] dispute between the two nations has resisted all attempts at resolution.",
-          "highlighted": "territorially",
+          "sentence": "Challenging social [norm] around gender roles is essential for achieving lasting equality.",
+          "highlighted": "norm",
           "options": {
-            "A": "territorially",
-            "B": "territory",
-            "C": "territorial"
+            "A": "norm",
+            "B": "normally",
+            "C": "norms"
           },
           "answer": "C",
-          "explanation": "'Territorial' is the adjective form needed to modify the noun 'dispute' — 'territorially' is an adverb and cannot modify a noun."
+          "explanation": "The sentence refers to multiple social conventions (plural) — 'norms' is the correct form after 'social'."
         }
       ]
     }
@@ -606,35 +568,35 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "Not Given",
-      "3": "True",
-      "4": "Not Given",
-      "5": "True"
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
     },
     "ex2": {
-      "1": "hegemony",
-      "2": "mandate",
-      "3": "proxy",
-      "4": "ceasefire",
-      "5": "autonomy"
+      "1": "representation",
+      "2": "bias",
+      "3": "norms",
+      "4": "equality",
+      "5": "stereotype"
     },
     "ex3": {
-      "1": "alliance",
-      "2": "diplomacy",
-      "3": "territorial",
-      "4": "escalation",
-      "5": "coalition"
+      "1": "identity",
+      "2": "barrier",
+      "3": "empowerment",
+      "4": "discrimination",
+      "5": "norm"
     },
     "ex4": {
-      "1": "Geopolitics studies how geography and power shape state relations.",
-      "2": "Nations seek security by forming alliances to deter conflict.",
-      "3": "Powerful states often fund or arm weaker actors in proxy wars.",
-      "4": "Sustainable peace typically requires ceasefire negotiations and mediation.",
-      "5": "Intervention without broad multilateral support risks deepening divisions."
+      "1": "Rigid gender stereotypes shape expectations about behaviour and career.",
+      "2": "Unconscious bias can affect hiring decisions in ways difficult to detect.",
+      "3": "Equal representation of women in leadership requires systemic change.",
+      "4": "Empowerment demands concrete shifts in legislation and workplace culture.",
+      "5": "The patriarchy has reinforced structures that limit opportunity for women."
     },
     "ex5": {
-      "1": "B",
-      "2": "A",
+      "1": "A",
+      "2": "C",
       "3": "B",
       "4": "A",
       "5": "C"

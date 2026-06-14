@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 37,
+    "topic_id": "b2-t37",
+    "topic_title": "Sport & Competition",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🏆",
+    "topic_title_vi": "Thể Thao & Thi Đấu",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Sport is one of the most universal human activities, bringing together **athlete**s and **spectator**s from every corner of the world. An **athlete** — someone who trains and **compete**s in physical sport — must dedicate years of effort, discipline, and sacrifice to reach the top level. The desire to **compete** drives people to push beyond their limits, and the **motivation** to improve — whether for personal pride, national honour, or financial reward — is what separates good performers from **champion**s.",
+        "text_vi": "Thể thao là một trong những hoạt động phổ quát nhất của con người, quy tụ các **vận động viên** và **khán giả** từ khắp nơi trên thế giới. Một **vận động viên** — người rèn luyện và **thi đấu** trong thể thao thể chất — phải cống hiến nhiều năm nỗ lực, kỷ luật và hy sinh để đạt đến cấp độ cao nhất. Mong muốn **thi đấu** thôi thúc con người vượt qua giới hạn của mình, và **động lực** để cải thiện — dù vì niềm tự hào cá nhân, danh dự quốc gia hay phần thưởng tài chính — là điều tạo ra sự khác biệt giữa những người biểu diễn tốt và **nhà vô địch**."
+      },
+      {
+        "index": 2,
+        "text_en": "Major sporting events such as the Olympics and World Cup are organised as **tournament**s — structured competitions in which many participants **compete** through a series of rounds to determine the ultimate winner. These events are **broadcast** to billions of **spectator**s worldwide, generating enormous advertising revenue for media companies and providing **sponsor**s — businesses that fund athletes or events in exchange for visibility — with a global platform.",
+        "text_vi": "Các sự kiện thể thao lớn như Thế vận hội Olympic và World Cup được tổ chức theo hình thức **giải đấu** — các cuộc thi được cấu trúc trong đó nhiều người tham gia **thi đấu** qua một loạt vòng để xác định người chiến thắng cuối cùng. Các sự kiện này được **phát sóng** đến hàng tỷ **khán giả** trên toàn thế giới, tạo ra doanh thu quảng cáo khổng lồ cho các công ty truyền thông và cung cấp cho các **nhà tài trợ** — các doanh nghiệp tài trợ cho vận động viên hoặc sự kiện để đổi lấy độ nhận diện — một nền tảng toàn cầu."
+      },
+      {
+        "index": 3,
+        "text_en": "However, the pressure to win has led to serious ethical problems. **Performance drug**s — illegal substances that artificially enhance an athlete's **physical** ability — remain a persistent problem in professional sport. Athletes who use **performance drug**s gain an unfair advantage over clean competitors, violating the principle of **fair play** that underpins all honest competition. Major sporting bodies have invested heavily in testing to catch and punish cheaters.",
+        "text_vi": "Tuy nhiên, áp lực phải thắng đã dẫn đến những vấn đề đạo đức nghiêm trọng. **Doping** — các chất bất hợp pháp tăng cường giả tạo khả năng **thể chất** của vận động viên — vẫn là vấn đề dai dẳng trong thể thao chuyên nghiệp. Các vận động viên sử dụng **doping** có lợi thế không công bằng so với các đối thủ sạch, vi phạm nguyên tắc **chơi đẹp** là nền tảng của mọi cuộc thi đấu trung thực. Các tổ chức thể thao lớn đã đầu tư mạnh vào kiểm tra để bắt giữ và trừng phạt những kẻ gian lận."
+      },
+      {
+        "index": 4,
+        "text_en": "A great **coach** can transform an athlete's **career**, unlocking potential that might never otherwise be realised. Choosing to become a **career athlete** — making sport the centre of one's professional life — is a bold decision with great rewards but also real risks, including injury and a short working life. Yet sport's **lasting impact** extends far beyond competition itself: it builds community, inspires young people, and promotes **physical** and mental wellbeing for millions who **participate** at every level.",
+        "text_vi": "Một **huấn luyện viên** giỏi có thể biến đổi **sự nghiệp** của vận động viên, khai mở tiềm năng mà không thể được thực hiện theo cách khác. Chọn trở thành **vận động viên chuyên nghiệp** — đặt thể thao vào trung tâm cuộc sống nghề nghiệp của mình — là một quyết định táo bạo với những phần thưởng lớn nhưng cũng tiềm ẩn rủi ro thực sự, bao gồm chấn thương và cuộc sống công việc ngắn. Tuy nhiên **tác động lâu dài** của thể thao mở rộng ra ngoài chính cuộc thi: nó xây dựng cộng đồng, truyền cảm hứng cho người trẻ và thúc đẩy sức khỏe **thể chất** và tinh thần cho hàng triệu người **tham gia** ở mọi cấp độ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "athlete",
+      "ipa": "/ˈæθ.liːt/",
+      "pos": "noun",
+      "meaning_vi": "vận động viên",
+      "meaning_vi_inline": "vận động viên",
+      "example_en": "The athlete trained for six hours every day in preparation for the national championship.",
+      "example_vi": "Vận động viên tập luyện sáu giờ mỗi ngày để chuẩn bị cho giải vô địch quốc gia.",
+      "word_family": {
+        "noun": "athlete / athletics",
+        "verb": null,
+        "adjective": "athletic",
+        "adverb": "athletically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "thi đấu, cạnh tranh",
+      "meaning_vi_inline": "thi đấu",
+      "example_en": "She will compete against athletes from 40 different countries at the international games.",
+      "example_vi": "Cô ấy sẽ thi đấu với các vận động viên từ 40 quốc gia khác nhau tại các trò chơi quốc tế.",
+      "word_family": {
+        "noun": "competition / competitor",
+        "verb": "compete",
+        "adjective": "competitive",
+        "adverb": "competitively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "sponsor",
+      "ipa": "/ˈspɒn.sər/",
+      "pos": "noun / verb",
+      "meaning_vi": "nhà tài trợ; tài trợ (cho sự kiện, vận động viên)",
+      "meaning_vi_inline": "nhà tài trợ",
+      "example_en": "The young tennis player found a sponsor who covered all her training and travel costs.",
+      "example_vi": "Tay vợt tennis trẻ đã tìm được nhà tài trợ chi trả tất cả chi phí tập luyện và đi lại của cô.",
+      "word_family": {
+        "noun": "sponsor / sponsorship",
+        "verb": "sponsor",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "performance drugs",
+      "ipa": "/pəˈfɔː.məns drʌɡz/",
+      "pos": "noun phrase",
+      "meaning_vi": "doping, chất kích thích thi đấu bất hợp pháp",
+      "meaning_vi_inline": "doping, chất kích thích",
+      "example_en": "The cyclist was banned for two years after testing positive for performance drugs.",
+      "example_vi": "Tay đua xe đạp bị cấm thi đấu hai năm sau khi dương tính với doping.",
+      "word_family": {
+        "noun": "performance drugs / doping / performance-enhancing drugs",
+        "verb": "dope",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "spectator",
+      "ipa": "/spekˈteɪ.tər/",
+      "pos": "noun",
+      "meaning_vi": "khán giả (tại sự kiện thể thao)",
+      "meaning_vi_inline": "khán giả",
+      "example_en": "Over 80,000 spectators filled the stadium to watch the World Cup final.",
+      "example_vi": "Hơn 80.000 khán giả lấp đầy sân vận động để xem trận chung kết World Cup.",
+      "word_family": {
+        "noun": "spectator / spectacle",
+        "verb": "spectate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "audience",
+        "explanation_vi": "'Spectator' chủ yếu dùng cho người xem thể thao trực tiếp tại sân; 'audience' dùng cho người xem biểu diễn nghệ thuật (phim, nhạc, sân khấu) hoặc xem qua TV/phát sóng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "tournament",
+      "ipa": "/ˈtɜː.nə.mənt/",
+      "pos": "noun",
+      "meaning_vi": "giải đấu (gồm nhiều vòng đấu)",
+      "meaning_vi_inline": "giải đấu",
+      "example_en": "The national chess tournament attracted competitors from every province of the country.",
+      "example_vi": "Giải cờ vua quốc gia thu hút các đối thủ từ mọi tỉnh thành trong cả nước.",
+      "word_family": {
+        "noun": "tournament",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "broadcast",
+      "ipa": "/ˈbrɔːd.kɑːst/",
+      "pos": "verb / noun",
+      "meaning_vi": "phát sóng (trực tiếp sự kiện thể thao)",
+      "meaning_vi_inline": "phát sóng",
+      "example_en": "The match was broadcast live to over 200 countries around the world.",
+      "example_vi": "Trận đấu được phát sóng trực tiếp đến hơn 200 quốc gia trên toàn thế giới.",
+      "word_family": {
+        "noun": "broadcast / broadcaster",
+        "verb": "broadcast",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "lasting impact",
+      "ipa": "/ˈlɑːs.tɪŋ ˈɪm.pækt/",
+      "pos": "noun phrase",
+      "meaning_vi": "tác động lâu dài, ảnh hưởng bền lâu",
+      "meaning_vi_inline": "tác động lâu dài",
+      "example_en": "Winning a gold medal had a lasting impact on her confidence and career.",
+      "example_vi": "Chiến thắng huy chương vàng có tác động lâu dài đến sự tự tin và sự nghiệp của cô.",
+      "word_family": {
+        "noun": "lasting impact / long-term effect",
+        "verb": "have a lasting impact on",
+        "adjective": "lasting",
+        "adverb": "lastingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "participate",
+      "ipa": "/pɑːˈtɪs.ɪ.peɪt/",
+      "pos": "verb",
+      "meaning_vi": "tham gia (thể thao, hoạt động)",
+      "meaning_vi_inline": "tham gia",
+      "example_en": "The school encourages all students to participate in at least one sport each semester.",
+      "example_vi": "Trường khuyến khích tất cả học sinh tham gia ít nhất một môn thể thao mỗi học kỳ.",
+      "word_family": {
+        "noun": "participation / participant",
+        "verb": "participate",
+        "adjective": "participatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "motivation",
+      "ipa": "/ˌməʊ.tɪˈveɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "động lực (thi đấu, luyện tập)",
+      "meaning_vi_inline": "động lực",
+      "example_en": "Her main motivation for competing is the joy of pushing herself to new personal records.",
+      "example_vi": "Động lực chính khiến cô thi đấu là niềm vui khi đẩy bản thân đến những kỷ lục cá nhân mới.",
+      "word_family": {
+        "noun": "motivation / motivator",
+        "verb": "motivate",
+        "adjective": "motivated / motivating",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "physical",
+      "ipa": "/ˈfɪz.ɪ.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "thể chất, thuộc về cơ thể",
+      "meaning_vi_inline": "thể chất",
+      "example_en": "Regular physical activity improves both mental and physical health significantly.",
+      "example_vi": "Hoạt động thể chất thường xuyên cải thiện đáng kể cả sức khỏe tâm thần và thể chất.",
+      "word_family": {
+        "noun": "physics / physicality",
+        "verb": null,
+        "adjective": "physical / mental",
+        "adverb": "physically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "champion",
+      "ipa": "/ˈtʃæm.pi.ən/",
+      "pos": "noun / verb",
+      "meaning_vi": "nhà vô địch; ủng hộ, đấu tranh cho",
+      "meaning_vi_inline": "nhà vô địch",
+      "example_en": "She became the national swimming champion at just fifteen years old.",
+      "example_vi": "Cô trở thành nhà vô địch bơi lội quốc gia khi mới mười lăm tuổi.",
+      "word_family": {
+        "noun": "champion / championship",
+        "verb": "champion",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "career athlete",
+      "ipa": "/kəˈrɪər ˈæθ.liːt/",
+      "pos": "noun phrase",
+      "meaning_vi": "vận động viên chuyên nghiệp (người theo đuổi thể thao như nghề nghiệp)",
+      "meaning_vi_inline": "vận động viên chuyên nghiệp",
+      "example_en": "As a career athlete, he devoted his entire twenties to training and competition.",
+      "example_vi": "Là một vận động viên chuyên nghiệp, anh ấy cống hiến toàn bộ những năm hai mươi tuổi của mình cho tập luyện và thi đấu.",
+      "word_family": {
+        "noun": "career athlete / professional athlete",
+        "verb": null,
+        "adjective": "professional",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "coach",
+      "ipa": "/kəʊtʃ/",
+      "pos": "noun / verb",
+      "meaning_vi": "huấn luyện viên; huấn luyện, kèm cặp",
+      "meaning_vi_inline": "huấn luyện viên",
+      "example_en": "A great coach doesn't just teach technique — they build confidence and resilience.",
+      "example_vi": "Một huấn luyện viên giỏi không chỉ dạy kỹ thuật — họ còn xây dựng sự tự tin và khả năng phục hồi.",
+      "word_family": {
+        "noun": "coach / coaching",
+        "verb": "coach",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "fair play",
+      "ipa": "/feə pleɪ/",
+      "pos": "noun phrase",
+      "meaning_vi": "tinh thần thể thao, chơi đẹp, cạnh tranh công bằng",
+      "meaning_vi_inline": "tinh thần thể thao",
+      "example_en": "The athlete was praised for showing fair play by helping an injured competitor finish the race.",
+      "example_vi": "Vận động viên được khen ngợi vì thể hiện tinh thần thể thao bằng cách giúp đối thủ bị thương hoàn thành cuộc đua.",
+      "word_family": {
+        "noun": "fair play / sportsmanship",
+        "verb": null,
+        "adjective": "fair",
+        "adverb": "fairly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Major sporting tournaments are broadcast to audiences around the world.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that all athletes who use performance drugs are immediately banned for life.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "A good coach can help an athlete realise their full potential.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Sport has no positive effects on people who do not compete at a professional level.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Female athletes earn the same prize money as male athletes at most tournaments.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was the first Vietnamese _____ to win a gold medal at the Asian Games.",
+          "options": [
+            "spectator",
+            "champion",
+            "coach",
+            "sponsor"
+          ],
+          "answer": "champion"
+        },
+        {
+          "id": 2,
+          "sentence": "His _____ to succeed came from his desire to make his family proud.",
+          "options": [
+            "participation",
+            "broadcast",
+            "motivation",
+            "tournament"
+          ],
+          "answer": "motivation"
+        },
+        {
+          "id": 3,
+          "sentence": "The company agreed to _____ the national football team for the next three years.",
+          "options": [
+            "compete",
+            "broadcast",
+            "sponsor",
+            "coach"
+          ],
+          "answer": "sponsor"
+        },
+        {
+          "id": 4,
+          "sentence": "The athlete was stripped of her medal after testing positive for _____.",
+          "options": [
+            "fair play",
+            "performance drugs",
+            "lasting impact",
+            "motivation"
+          ],
+          "answer": "performance drugs"
+        },
+        {
+          "id": 5,
+          "sentence": "The tournament attracted 32 national teams, each hoping to _____ for the championship title.",
+          "options": [
+            "participate",
+            "broadcast",
+            "compete",
+            "sponsor"
+          ],
+          "answer": "compete"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "athlete",
+        "tournament",
+        "fair play",
+        "coach",
+        "lasting impact"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The young _____ trained seven days a week to prepare for the national championship.",
+          "answer": "athlete"
+        },
+        {
+          "id": 2,
+          "sentence": "The team won the annual _____ for the third consecutive year.",
+          "answer": "tournament"
+        },
+        {
+          "id": 3,
+          "sentence": "Winning the award for _____ means more to him than winning the gold medal itself.",
+          "answer": "fair play"
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ had a _____ on her career, helping her win three world titles.",
+          "answer": "coach"
+        },
+        {
+          "id": 5,
+          "sentence": "The Olympic Games leave a _____ on the cities that host them.",
+          "answer": "lasting impact"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "athlete",
+            "was",
+            "disqualified",
+            "for",
+            "using",
+            "performance",
+            "drugs",
+            "before",
+            "the",
+            "race"
+          ],
+          "answer": "The athlete was disqualified for using performance drugs before the race."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "tournament",
+            "was",
+            "broadcast",
+            "live",
+            "to",
+            "millions",
+            "of",
+            "spectators",
+            "around",
+            "the",
+            "world"
+          ],
+          "answer": "The tournament was broadcast live to millions of spectators around the world."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "great",
+            "coach",
+            "can",
+            "motivate",
+            "athletes",
+            "to",
+            "achieve",
+            "results",
+            "beyond",
+            "their",
+            "expectations"
+          ],
+          "answer": "A great coach can motivate athletes to achieve results beyond their expectations."
+        },
+        {
+          "id": 4,
+          "words": [
+            "sport",
+            "has",
+            "a",
+            "lasting",
+            "impact",
+            "on",
+            "communities",
+            "by",
+            "building",
+            "teamwork",
+            "and",
+            "resilience"
+          ],
+          "answer": "Sport has a lasting impact on communities by building teamwork and resilience."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "principle",
+            "of",
+            "fair",
+            "play",
+            "means",
+            "competing",
+            "honestly",
+            "without",
+            "gaining",
+            "an",
+            "unfair",
+            "advantage"
+          ],
+          "answer": "The principle of fair play means competing honestly without gaining an unfair advantage."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The stadium was filled with [viewers] who cheered loudly throughout the match.",
+          "highlighted": "viewers",
+          "options": {
+            "A": "spectators",
+            "B": "viewers",
+            "C": "audience"
+          },
+          "answer": "A",
+          "explanation": "'Spectators' is the correct term for people who watch a live sporting event in person at a stadium or venue. 'Viewers' refers to people watching on TV or a screen, and 'audience' is used for theatre, music, or media performances."
+        },
+        {
+          "id": 2,
+          "sentence": "She has been a [professional sportswoman] since the age of eighteen and has competed in four Olympics.",
+          "highlighted": "professional sportswoman",
+          "options": {
+            "A": "career athlete",
+            "B": "professional sportswoman",
+            "C": "champion"
+          },
+          "answer": "A",
+          "explanation": "'Career athlete' is the target vocabulary term for someone who has made sport their full-time profession. 'Professional sportswoman' is wordy and less concise. 'Champion' refers to a winner, not a professional lifestyle choice."
+        },
+        {
+          "id": 3,
+          "sentence": "The company became a key [supporter] of the team, providing funding and equipment.",
+          "highlighted": "supporter",
+          "options": {
+            "A": "backer",
+            "B": "supporter",
+            "C": "sponsor"
+          },
+          "answer": "C",
+          "explanation": "'Sponsor' is the specific business and sports term for a company or organisation that provides financial support to an athlete or event in exchange for advertising exposure. 'Supporter' and 'backer' are more general and informal terms."
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ for joining the team was the chance to [play fair] against the best players in the country.",
+          "highlighted": "play fair",
+          "options": {
+            "A": "compete",
+            "B": "play fair",
+            "C": "participate"
+          },
+          "answer": "A",
+          "explanation": "'Compete' is the precise verb for taking part in a competitive sporting challenge against others. 'Play fair' means to behave honestly and ethically, which is not what the sentence is trying to express. 'Participate' is possible but weaker — it doesn't convey the element of challenge."
+        },
+        {
+          "id": 5,
+          "sentence": "The coach's support had a permanent [effect] on the young swimmer's self-confidence.",
+          "highlighted": "effect",
+          "options": {
+            "A": "effect",
+            "B": "lasting impact",
+            "C": "influence"
+          },
+          "answer": "B",
+          "explanation": "'Lasting impact' is the target vocabulary phrase that captures both the enduring nature and the depth of the change. While 'effect' and 'influence' are grammatically correct, 'lasting impact' is more vivid and specific — particularly appropriate in describing the long-term result of a coach's support."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "champion",
+      "2": "motivation",
+      "3": "sponsor",
+      "4": "performance drugs",
+      "5": "compete"
+    },
+    "ex3": {
+      "1": "athlete",
+      "2": "tournament",
+      "3": "fair play",
+      "4": "coach",
+      "5": "lasting impact"
+    },
+    "ex4": {
+      "1": "The athlete was disqualified for using performance drugs before the race.",
+      "2": "The tournament was broadcast live to millions of spectators around the world.",
+      "3": "A great coach can motivate athletes to achieve results beyond their expectations.",
+      "4": "Sport has a lasting impact on communities by building teamwork and resilience.",
+      "5": "The principle of fair play means competing honestly without gaining an unfair advantage."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

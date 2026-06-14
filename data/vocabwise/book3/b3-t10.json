@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 10,
+    "topic_id": "b3-t10",
+    "topic_title": "Work-Life Balance & Wellbeing",
+    "topic_title_vi": "Cân Bằng Công Việc & Cuộc Sống",
+    "theme_number": 1,
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "⚖️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "In contemporary professional life, the ability to **maintain a healthy work-life balance** has become a critical indicator of long-term wellbeing. When the boundaries between work and personal time collapse, individuals risk chronic **exhaustion** and reduced **productivity**. Research consistently shows that overworked employees make more errors, demonstrate lower creativity, and are far more likely to experience burnout — a state of profound physical and emotional depletion.",
+        "text_vi": "Trong cuộc sống nghề nghiệp hiện đại, khả năng **duy trì sự cân bằng lành mạnh giữa công việc và cuộc sống** đã trở thành chỉ số quan trọng của sức khỏe lâu dài. Khi ranh giới giữa công việc và thời gian cá nhân bị xóa nhòa, các cá nhân có nguy cơ bị **kiệt sức** mãn tính và giảm **năng suất**. Nghiên cứu liên tục chỉ ra rằng những nhân viên làm việc quá sức mắc nhiều lỗi hơn, thể hiện ít sáng tạo hơn, và có nhiều khả năng trải qua kiệt sức nghề nghiệp — một trạng thái suy kiệt thể chất và cảm xúc sâu sắc."
+      },
+      {
+        "index": 2,
+        "text_en": "A key challenge for modern workers is the tendency towards **overcommitment** — accepting more responsibilities than one can realistically manage. This is compounded by the rise of remote working, which blurs the boundary between professional and domestic life. Experts recommend that individuals **set firm personal boundaries** to protect their time for rest and personal pursuits. The desire for **gratification** from career achievement can otherwise override one's deeper need for **restoration** and recovery.",
+        "text_vi": "Một thách thức chính đối với người lao động hiện đại là xu hướng **cam kết quá mức** — nhận nhiều trách nhiệm hơn những gì mình có thể thực tế quản lý. Điều này càng trở nên phức tạp bởi sự gia tăng của làm việc từ xa, vốn làm mờ ranh giới giữa cuộc sống chuyên nghiệp và gia đình. Các chuyên gia khuyến nghị rằng các cá nhân nên **thiết lập ranh giới cá nhân rõ ràng** để bảo vệ thời gian của họ cho việc nghỉ ngơi và theo đuổi sở thích cá nhân. Nếu không, mong muốn **thỏa mãn** từ thành tích nghề nghiệp có thể lấn át nhu cầu sâu xa hơn của mỗi người về **phục hồi** và hồi phục."
+      },
+      {
+        "index": 3,
+        "text_en": "Organisations that prioritise **flexibility** in scheduling and working arrangements tend to report higher employee satisfaction and lower turnover rates. When workers feel empowered through **self-determination**, they are more likely to take ownership of both their professional output and their personal health. Conversely, rigid environments that discourage **disengagement** from work after hours risk depleting the very human capital they depend upon.",
+        "text_vi": "Các tổ chức ưu tiên **tính linh hoạt** trong lịch trình và sắp xếp làm việc có xu hướng báo cáo mức độ hài lòng của nhân viên cao hơn và tỷ lệ nghỉ việc thấp hơn. Khi người lao động cảm thấy được trao quyền thông qua **tự quyết**, họ có nhiều khả năng chịu trách nhiệm hơn về cả kết quả công việc lẫn sức khỏe cá nhân. Ngược lại, môi trường cứng nhắc không khuyến khích **sự thoát khỏi công việc** sau giờ làm có nguy cơ làm cạn kiệt chính nguồn vốn con người mà họ phụ thuộc vào."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, the pursuit of **equilibrium** between professional ambition and personal life is deeply individual. To **prevent professional burnout** and **pursue personal fulfilment**, individuals must learn to **restore mental and physical energy** through sleep, leisure, and meaningful relationships. A sustainable career is one built not on relentless effort alone, but on a conscious **boundary** between output and renewal.",
+        "text_vi": "Cuối cùng, việc theo đuổi **cân bằng** giữa tham vọng nghề nghiệp và cuộc sống cá nhân mang tính cá nhân sâu sắc. Để **ngăn ngừa kiệt sức nghề nghiệp** và **theo đuổi sự thỏa mãn cá nhân**, các cá nhân phải học cách **phục hồi năng lượng thể chất và tinh thần** thông qua giấc ngủ, giải trí và các mối quan hệ có ý nghĩa. Một sự nghiệp bền vững là sự nghiệp được xây dựng không chỉ dựa trên nỗ lực không ngừng nghỉ, mà còn dựa trên **ranh giới** có ý thức giữa đầu ra và sự tái tạo."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "equilibrium",
+      "ipa": "/ˌiː.kwɪˈlɪb.ri.əm/",
+      "pos": "noun",
+      "meaning_vi": "sự cân bằng, trạng thái cân bằng",
+      "meaning_vi_inline": "cân bằng",
+      "example_en": "She finally found equilibrium between her demanding career and family life.",
+      "example_vi": "Cuối cùng cô ấy đã tìm thấy sự cân bằng giữa sự nghiệp đòi hỏi cao và cuộc sống gia đình.",
+      "word_family": {
+        "noun": "equilibrium",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "equality",
+        "explanation_vi": "'Equilibrium' là trạng thái cân bằng ổn định; 'equality' là sự bình đẳng về quyền hoặc cơ hội — hai khái niệm hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "boundary",
+      "ipa": "/ˈbaʊnd.ri/",
+      "pos": "noun",
+      "meaning_vi": "ranh giới, giới hạn",
+      "meaning_vi_inline": "ranh giới",
+      "example_en": "Setting clear boundaries between work and personal time is essential for wellbeing.",
+      "example_vi": "Thiết lập ranh giới rõ ràng giữa công việc và thời gian cá nhân là điều cần thiết cho sức khỏe.",
+      "word_family": {
+        "noun": "boundary / bound",
+        "verb": "bound",
+        "adjective": "boundless / bounded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "gratification",
+      "ipa": "/ˌɡræt.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thỏa mãn, sự hài lòng",
+      "meaning_vi_inline": "thỏa mãn",
+      "example_en": "The immediate gratification of social media likes can become habit-forming.",
+      "example_vi": "Sự thỏa mãn tức thì từ các lượt thích trên mạng xã hội có thể tạo thành thói quen.",
+      "word_family": {
+        "noun": "gratification",
+        "verb": "gratify",
+        "adjective": "gratifying / gratified",
+        "adverb": "gratifyingly"
+      },
+      "false_friend": {
+        "word_vi": "gratitude",
+        "explanation_vi": "'Gratification' là cảm giác thỏa mãn khi đạt được điều mình muốn; 'gratitude' là lòng biết ơn — hai cảm xúc khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "exhaustion",
+      "ipa": "/ɪɡˈzɔːs.tʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự kiệt sức",
+      "meaning_vi_inline": "kiệt sức",
+      "example_en": "Physical exhaustion after long work hours can impair cognitive function.",
+      "example_vi": "Kiệt sức thể chất sau nhiều giờ làm việc có thể làm suy yếu chức năng nhận thức.",
+      "word_family": {
+        "noun": "exhaustion",
+        "verb": "exhaust",
+        "adjective": "exhausted / exhausting / exhaustive",
+        "adverb": "exhaustively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "flexibility",
+      "ipa": "/ˌflek.sɪˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính linh hoạt",
+      "meaning_vi_inline": "linh hoạt",
+      "example_en": "Workplace flexibility allows employees to better manage personal and professional demands.",
+      "example_vi": "Tính linh hoạt tại nơi làm việc cho phép nhân viên quản lý tốt hơn các yêu cầu cá nhân và nghề nghiệp.",
+      "word_family": {
+        "noun": "flexibility",
+        "verb": null,
+        "adjective": "flexible / inflexible",
+        "adverb": "flexibly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "productivity",
+      "ipa": "/ˌprɒd.ʌkˈtɪv.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "năng suất",
+      "meaning_vi_inline": "năng suất",
+      "example_en": "Regular breaks during the workday have been shown to boost overall productivity.",
+      "example_vi": "Nghỉ giải lao thường xuyên trong ngày làm việc được chứng minh là có thể tăng năng suất tổng thể.",
+      "word_family": {
+        "noun": "productivity / production / product",
+        "verb": "produce",
+        "adjective": "productive / unproductive",
+        "adverb": "productively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "overcommitment",
+      "ipa": "/ˌəʊ.vəˌkəˈmɪt.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự cam kết quá mức",
+      "meaning_vi_inline": "cam kết quá mức",
+      "example_en": "Overcommitment at work is a leading cause of burnout in high-pressure industries.",
+      "example_vi": "Cam kết quá mức trong công việc là nguyên nhân hàng đầu gây kiệt sức nghề nghiệp trong các ngành có áp lực cao.",
+      "word_family": {
+        "noun": "overcommitment",
+        "verb": "overcommit",
+        "adjective": "overcommitted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "restoration",
+      "ipa": "/ˌres.tərˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phục hồi, sự tái tạo",
+      "meaning_vi_inline": "phục hồi",
+      "example_en": "Time in nature promotes psychological restoration after periods of intense stress.",
+      "example_vi": "Thời gian trong thiên nhiên thúc đẩy sự phục hồi tâm lý sau những giai đoạn căng thẳng dữ dội.",
+      "word_family": {
+        "noun": "restoration",
+        "verb": "restore",
+        "adjective": "restorative / restored",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "disengagement",
+      "ipa": "/ˌdɪs.ɪnˈɡeɪdʒ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự thoát khỏi, sự rút lui (khỏi công việc)",
+      "meaning_vi_inline": "thoát khỏi công việc",
+      "example_en": "Healthy disengagement from work after hours is vital for long-term employee wellbeing.",
+      "example_vi": "Sự thoát khỏi công việc lành mạnh sau giờ làm là điều quan trọng cho sức khỏe lâu dài của nhân viên.",
+      "word_family": {
+        "noun": "disengagement",
+        "verb": "disengage",
+        "adjective": "disengaged",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "disappointment",
+        "explanation_vi": "'Disengagement' là sự rút lui khỏi hoạt động; 'disappointment' là cảm giác thất vọng — phát âm có phần giống nhau nhưng nghĩa khác hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "self-determination",
+      "ipa": "/ˌself.dɪˌtɜː.mɪˈneɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự tự quyết, quyền tự quyết định",
+      "meaning_vi_inline": "tự quyết",
+      "example_en": "A sense of self-determination at work motivates employees to perform at their best.",
+      "example_vi": "Cảm giác tự quyết trong công việc thúc đẩy nhân viên thực hiện tốt nhất.",
+      "word_family": {
+        "noun": "self-determination",
+        "verb": "determine",
+        "adjective": "self-determined",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "maintain a healthy work-life balance",
+      "meaning_vi": "duy trì sự cân bằng lành mạnh giữa công việc và cuộc sống",
+      "example_en": "It becomes increasingly difficult to maintain a healthy work-life balance when working remotely without fixed hours.",
+      "example_vi": "Ngày càng khó duy trì sự cân bằng lành mạnh giữa công việc và cuộc sống khi làm việc từ xa mà không có giờ cố định.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "set firm personal boundaries",
+      "meaning_vi": "thiết lập ranh giới cá nhân rõ ràng",
+      "example_en": "She decided to set firm personal boundaries by switching off work notifications after 6 p.m.",
+      "example_vi": "Cô ấy quyết định thiết lập ranh giới cá nhân rõ ràng bằng cách tắt thông báo công việc sau 6 giờ tối.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "prevent professional burnout",
+      "meaning_vi": "ngăn ngừa kiệt sức nghề nghiệp",
+      "example_en": "Companies are offering mental health days to help prevent professional burnout among their staff.",
+      "example_vi": "Các công ty đang cung cấp ngày nghỉ sức khỏe tâm thần để giúp ngăn ngừa kiệt sức nghề nghiệp cho nhân viên.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "pursue personal fulfilment",
+      "meaning_vi": "theo đuổi sự thỏa mãn cá nhân",
+      "example_en": "After years in finance, he left his job to pursue personal fulfilment through art and community work.",
+      "example_vi": "Sau nhiều năm trong ngành tài chính, anh ấy đã rời bỏ công việc để theo đuổi sự thỏa mãn cá nhân thông qua nghệ thuật và công tác cộng đồng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "restore mental and physical energy",
+      "meaning_vi": "phục hồi năng lượng thể chất và tinh thần",
+      "example_en": "Taking regular holidays is one of the most effective ways to restore mental and physical energy.",
+      "example_vi": "Đi nghỉ thường xuyên là một trong những cách hiệu quả nhất để phục hồi năng lượng thể chất và tinh thần.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Overworked employees tend to produce lower-quality work and show reduced creativity.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Remote working was introduced primarily to help employees maintain better work-life balance.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Organisations that offer flexible working arrangements experience lower staff turnover.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Self-determination in the workplace has a negative effect on employee wellbeing.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends that all professionals take at least two weeks of holiday per year.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Organisations that allow _____ in scheduling are better positioned to retain talented staff.",
+          "options": [
+            "flexibility",
+            "exhaustion",
+            "equilibrium",
+            "gratification"
+          ],
+          "answer": "flexibility"
+        },
+        {
+          "id": 2,
+          "sentence": "A persistent sense of _____ is often a warning sign that an employee is approaching burnout.",
+          "options": [
+            "restoration",
+            "disengagement",
+            "exhaustion",
+            "self-determination"
+          ],
+          "answer": "exhaustion"
+        },
+        {
+          "id": 3,
+          "sentence": "His tendency towards _____ meant he regularly worked weekends, leaving no time for personal life.",
+          "options": [
+            "equilibrium",
+            "boundary",
+            "restoration",
+            "overcommitment"
+          ],
+          "answer": "overcommitment"
+        },
+        {
+          "id": 4,
+          "sentence": "Workers who feel a sense of _____ over their schedules tend to show greater job satisfaction.",
+          "options": [
+            "exhaustion",
+            "gratification",
+            "self-determination",
+            "disengagement"
+          ],
+          "answer": "self-determination"
+        },
+        {
+          "id": 5,
+          "sentence": "A weekend spent in nature provided the _____ she needed after a gruelling project.",
+          "options": [
+            "overcommitment",
+            "restoration",
+            "flexibility",
+            "boundary"
+          ],
+          "answer": "restoration"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "equilibrium",
+        "boundary",
+        "productivity",
+        "disengagement",
+        "exhaustion",
+        "gratification"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Research shows that regular rest improves _____ more effectively than working extra hours.",
+          "answer": "productivity"
+        },
+        {
+          "id": 2,
+          "sentence": "He drew a clear _____ between work calls and family dinner time.",
+          "answer": "boundary"
+        },
+        {
+          "id": 3,
+          "sentence": "The manager suffered from severe _____ after completing three major projects simultaneously.",
+          "answer": "exhaustion"
+        },
+        {
+          "id": 4,
+          "sentence": "Delayed _____ — the ability to wait for long-term rewards — is linked to higher wellbeing.",
+          "answer": "gratification"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete _____ from work emails during weekends helped him return to the office feeling refreshed.",
+          "answer": "disengagement"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "overcommitment",
+            "is",
+            "a",
+            "leading",
+            "cause",
+            "of",
+            "professional",
+            "burnout"
+          ],
+          "answer": "Overcommitment is a leading cause of professional burnout."
+        },
+        {
+          "id": 2,
+          "words": [
+            "flexibility",
+            "in",
+            "the",
+            "workplace",
+            "reduces",
+            "turnover",
+            "and",
+            "boosts",
+            "satisfaction"
+          ],
+          "answer": "Flexibility in the workplace reduces turnover and boosts satisfaction."
+        },
+        {
+          "id": 3,
+          "words": [
+            "employees",
+            "must",
+            "set",
+            "firm",
+            "boundaries",
+            "to",
+            "protect",
+            "their",
+            "personal",
+            "time"
+          ],
+          "answer": "Employees must set firm boundaries to protect their personal time."
+        },
+        {
+          "id": 4,
+          "words": [
+            "sleep",
+            "and",
+            "leisure",
+            "help",
+            "restore",
+            "mental",
+            "and",
+            "physical",
+            "energy"
+          ],
+          "answer": "Sleep and leisure help restore mental and physical energy."
+        },
+        {
+          "id": 5,
+          "words": [
+            "a",
+            "sense",
+            "of",
+            "self-determination",
+            "motivates",
+            "workers",
+            "to",
+            "take",
+            "ownership",
+            "of",
+            "their",
+            "health"
+          ],
+          "answer": "A sense of self-determination motivates workers to take ownership of their health."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Chronic [exhaust] at work is often a sign that an employee has crossed the threshold into burnout.",
+          "highlighted": "exhaust",
+          "options": {
+            "A": "exhaustion",
+            "B": "exhaust",
+            "C": "exhausted"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed as the subject — 'exhaustion', not the verb 'exhaust' or the adjective 'exhausted'."
+        },
+        {
+          "id": 2,
+          "sentence": "She struggled to find an [equilateral] between her demanding job and her need for rest.",
+          "highlighted": "equilateral",
+          "options": {
+            "A": "equilateral",
+            "B": "equitably",
+            "C": "equilibrium"
+          },
+          "answer": "C",
+          "explanation": "'Equilibrium' means a state of balance; 'equilateral' is a geometry term meaning equal sides — wrong word entirely."
+        },
+        {
+          "id": 3,
+          "sentence": "His [overcommitted] led him to take on seven projects at once, none of which he completed well.",
+          "highlighted": "overcommitted",
+          "options": {
+            "A": "overcommitment",
+            "B": "overcommitted",
+            "C": "overcommit"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the subject of the sentence — 'overcommitment', not the adjective 'overcommitted'."
+        },
+        {
+          "id": 4,
+          "sentence": "The company introduced flexible hours to improve [produce] and reduce absenteeism.",
+          "highlighted": "produce",
+          "options": {
+            "A": "produce",
+            "B": "productive",
+            "C": "productivity"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed after 'improve' — 'productivity', not the verb 'produce' or adjective 'productive'."
+        },
+        {
+          "id": 5,
+          "sentence": "Workers who can [disengagement] from work tasks at home report higher levels of personal wellbeing.",
+          "highlighted": "disengagement",
+          "options": {
+            "A": "disengagement",
+            "B": "disengage",
+            "C": "disengaged"
+          },
+          "answer": "B",
+          "explanation": "A verb is needed after the modal 'can' — 'disengage', not the noun 'disengagement'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "flexibility",
+      "2": "exhaustion",
+      "3": "overcommitment",
+      "4": "self-determination",
+      "5": "restoration"
+    },
+    "ex3": {
+      "1": "productivity",
+      "2": "boundary",
+      "3": "exhaustion",
+      "4": "gratification",
+      "5": "disengagement"
+    },
+    "ex4": {
+      "1": "Overcommitment is a leading cause of professional burnout.",
+      "2": "Flexibility in the workplace reduces turnover and boosts satisfaction.",
+      "3": "Employees must set firm boundaries to protect their personal time.",
+      "4": "Sleep and leisure help restore mental and physical energy.",
+      "5": "A sense of self-determination motivates workers to take ownership of their health."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

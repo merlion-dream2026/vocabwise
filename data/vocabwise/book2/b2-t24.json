@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 24,
+    "topic_id": "b2-t24",
+    "topic_title": "Managing Money",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🏦",
+    "topic_title_vi": "Quản Lý Tiền Bạc",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 208,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Most people manage their finances through a bank **account** — a personal record held at a financial institution where money is stored and tracked. Your **balance** shows how much money you currently have available. At the end of each month, your bank sends a **statement**: a detailed record of every **transaction** — money going in or out — during that period. Reading it carefully helps you stay in control of your spending.",
+        "text_vi": "Hầu hết mọi người quản lý tài chính thông qua **tài khoản** ngân hàng — hồ sơ cá nhân lưu giữ tại tổ chức tài chính nơi tiền được lưu trữ và theo dõi. **Số dư** cho biết bạn hiện có bao nhiêu tiền. Vào cuối mỗi tháng, ngân hàng gửi cho bạn một **sao kê**: hồ sơ chi tiết về mọi **giao dịch** — tiền vào hoặc ra — trong kỳ đó. Đọc kỹ sao kê giúp bạn kiểm soát chi tiêu tốt hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "Modern banking makes it easy to move money. A **transfer** allows you to send funds from one account to another, often instantly and at no extra cost. However, most banks charge a **fee** for certain services, such as international transfers or withdrawals at other banks. Many people use a **debit** card — which takes money directly from their account — for everyday purchases, while a **credit card** lets them spend now and pay the full amount later.",
+        "text_vi": "Ngân hàng hiện đại giúp việc chuyển tiền trở nên dễ dàng. **Chuyển khoản** cho phép bạn gửi tiền từ tài khoản này sang tài khoản khác, thường tức thì và không mất phí. Tuy nhiên, hầu hết các ngân hàng tính **phí** cho một số dịch vụ như chuyển tiền quốc tế hoặc rút tiền tại ngân hàng khác. Nhiều người dùng thẻ **ghi nợ** — lấy tiền trực tiếp từ tài khoản — cho các giao dịch hàng ngày, trong khi **thẻ tín dụng** cho phép chi tiêu trước và trả toàn bộ sau."
+      },
+      {
+        "index": 3,
+        "text_en": "When you do not have enough for a large purchase, you may need to **borrow** from a bank or another person. Banks, in turn, can **lend** money to individuals and businesses at a cost. The price of borrowing is expressed as an interest **rate** — a percentage charged on the amount owed. Comparing rates before taking a loan is essential for finding the best deal.",
+        "text_vi": "Khi không đủ tiền cho một khoản mua lớn, bạn có thể cần **vay** từ ngân hàng hoặc người khác. Ngân hàng, đến lượt mình, có thể **cho vay** tiền cho cá nhân và doanh nghiệp với một khoản chi phí. Giá vay tiền được thể hiện bằng lãi suất **tỷ lệ** — tỷ lệ phần trăm tính trên số tiền còn nợ. So sánh lãi suất trước khi vay là điều cần thiết để tìm được ưu đãi tốt nhất."
+      },
+      {
+        "index": 4,
+        "text_en": "It is important to **pay** your **bills** — regular charges such as electricity, rent, or phone — on time each month. Paying late can result in a **penalty** — an extra charge added to what you already owe. While **cash** is still common for small everyday purchases, digital payments have become increasingly popular. Understanding how your money moves gives you greater control over your financial life.",
+        "text_vi": "Điều quan trọng là phải **trả** các **hóa đơn** — các khoản phí định kỳ như điện, tiền thuê nhà hoặc điện thoại — đúng hạn mỗi tháng. Trả trễ có thể dẫn đến **phạt** — khoản phụ phí cộng thêm vào số tiền bạn đã nợ. Mặc dù **tiền mặt** vẫn phổ biến cho các giao dịch nhỏ hàng ngày, thanh toán kỹ thuật số ngày càng được ưa chuộng. Hiểu rõ dòng tiền của mình giúp bạn kiểm soát cuộc sống tài chính tốt hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "account",
+      "ipa": "/əˈkaʊnt/",
+      "pos": "noun",
+      "meaning_vi": "tài khoản ngân hàng",
+      "meaning_vi_inline": "tài khoản",
+      "example_en": "You need to open a bank account before you can receive your salary.",
+      "example_vi": "Bạn cần mở tài khoản ngân hàng trước khi có thể nhận lương.",
+      "word_family": {
+        "noun": "account / accountant / accounting",
+        "verb": "account for",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "balance",
+      "ipa": "/ˈbæl.əns/",
+      "pos": "noun",
+      "meaning_vi": "số dư tài khoản",
+      "meaning_vi_inline": "số dư",
+      "example_en": "He checked his balance and realised he only had £30 left.",
+      "example_vi": "Anh ấy kiểm tra số dư và nhận ra chỉ còn 30 bảng.",
+      "word_family": {
+        "noun": "balance",
+        "verb": "balance",
+        "adjective": "balanced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "statement",
+      "ipa": "/ˈsteɪt.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sao kê ngân hàng",
+      "meaning_vi_inline": "sao kê",
+      "example_en": "Her monthly bank statement showed several unusual transactions.",
+      "example_vi": "Sao kê ngân hàng hàng tháng của cô ấy cho thấy một số giao dịch bất thường.",
+      "word_family": {
+        "noun": "statement",
+        "verb": "state",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "transaction",
+      "ipa": "/trænˈzæk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "giao dịch tài chính",
+      "meaning_vi_inline": "giao dịch",
+      "example_en": "Every transaction on your account is recorded in your statement.",
+      "example_vi": "Mọi giao dịch trong tài khoản đều được ghi lại trong sao kê.",
+      "word_family": {
+        "noun": "transaction",
+        "verb": "transact",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "transfer",
+      "ipa": "/ˈtræns.fər/",
+      "pos": "noun / verb",
+      "meaning_vi": "chuyển khoản; chuyển tiền",
+      "meaning_vi_inline": "chuyển khoản",
+      "example_en": "She made an online transfer to pay the rent instantly.",
+      "example_vi": "Cô ấy thực hiện chuyển khoản trực tuyến để trả tiền thuê nhà ngay lập tức.",
+      "word_family": {
+        "noun": "transfer",
+        "verb": "transfer",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "fee",
+      "ipa": "/fiː/",
+      "pos": "noun",
+      "meaning_vi": "phí dịch vụ",
+      "meaning_vi_inline": "phí",
+      "example_en": "The bank charges a small fee for international money transfers.",
+      "example_vi": "Ngân hàng tính một khoản phí nhỏ cho các giao dịch chuyển tiền quốc tế.",
+      "word_family": {
+        "noun": "fee",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "fine / interest",
+        "explanation_vi": "'Fee' là khoản phí cố định cho một dịch vụ; 'fine' là tiền phạt vì vi phạm quy định; 'interest' là lãi suất tính theo tỷ lệ phần trăm trên số tiền vay."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "debit",
+      "ipa": "/ˈdeb.ɪt/",
+      "pos": "noun / adjective",
+      "meaning_vi": "ghi nợ; (thẻ) ghi nợ",
+      "meaning_vi_inline": "ghi nợ",
+      "example_en": "He paid for his groceries using his debit card.",
+      "example_vi": "Anh ấy thanh toán tiền mua sắm bằng thẻ ghi nợ.",
+      "word_family": {
+        "noun": "debit",
+        "verb": "debit",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "credit",
+        "explanation_vi": "'Debit' lấy tiền trực tiếp từ tài khoản ngay khi giao dịch; 'credit' cho phép chi tiêu trước và hoàn trả sau. Thẻ debit giống dùng tiền của mình, thẻ credit giống vay tiền tạm thời."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "credit card",
+      "ipa": "/ˈkred.ɪt kɑːd/",
+      "pos": "noun",
+      "meaning_vi": "thẻ tín dụng",
+      "meaning_vi_inline": "thẻ tín dụng",
+      "example_en": "She used her credit card for the holiday and paid it off the next month.",
+      "example_vi": "Cô ấy dùng thẻ tín dụng cho kỳ nghỉ và trả hết vào tháng sau.",
+      "word_family": {
+        "noun": "credit card",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "borrow",
+      "ipa": "/ˈbɒr.əʊ/",
+      "pos": "verb",
+      "meaning_vi": "vay (tiền hoặc đồ vật)",
+      "meaning_vi_inline": "vay",
+      "example_en": "She had to borrow money from her parents to cover the deposit.",
+      "example_vi": "Cô ấy phải vay tiền của bố mẹ để trang trải tiền cọc.",
+      "word_family": {
+        "noun": "borrower / borrowing",
+        "verb": "borrow",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "lend",
+        "explanation_vi": "'Borrow' là nhận tiền hoặc vật từ người khác (người đi vay); 'lend' là đưa tiền hoặc vật cho người khác (người cho vay) — phương hướng ngược nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "lend",
+      "ipa": "/lend/",
+      "pos": "verb",
+      "meaning_vi": "cho vay, cho mượn",
+      "meaning_vi_inline": "cho vay",
+      "example_en": "The bank agreed to lend her £10,000 to start her business.",
+      "example_vi": "Ngân hàng đồng ý cho cô ấy vay 10.000 bảng để khởi nghiệp.",
+      "word_family": {
+        "noun": "lender / lending",
+        "verb": "lend",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "rate",
+      "ipa": "/reɪt/",
+      "pos": "noun",
+      "meaning_vi": "lãi suất; tỷ lệ (tài chính)",
+      "meaning_vi_inline": "lãi suất",
+      "example_en": "The interest rate on the mortgage was fixed at 3.5% for two years.",
+      "example_vi": "Lãi suất vay mua nhà được cố định ở mức 3,5% trong hai năm.",
+      "word_family": {
+        "noun": "rate",
+        "verb": "rate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "pay",
+      "ipa": "/peɪ/",
+      "pos": "verb / noun",
+      "meaning_vi": "trả tiền; thanh toán",
+      "meaning_vi_inline": "trả tiền",
+      "example_en": "She always pays her bills on the same day she receives them.",
+      "example_vi": "Cô ấy luôn trả hóa đơn vào đúng ngày nhận được.",
+      "word_family": {
+        "noun": "payment / pay",
+        "verb": "pay",
+        "adjective": "payable / paid",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "bill",
+      "ipa": "/bɪl/",
+      "pos": "noun",
+      "meaning_vi": "hóa đơn (điện, nước, điện thoại...)",
+      "meaning_vi_inline": "hóa đơn",
+      "example_en": "They received a large electricity bill at the end of winter.",
+      "example_vi": "Họ nhận được hóa đơn điện lớn vào cuối mùa đông.",
+      "word_family": {
+        "noun": "bill",
+        "verb": "bill",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "invoice",
+        "explanation_vi": "'Bill' là yêu cầu thanh toán cho dịch vụ tiêu dùng (điện, nước, điện thoại); 'invoice' là chứng từ thanh toán chính thức trong kinh doanh giữa các doanh nghiệp."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "cash",
+      "ipa": "/kæʃ/",
+      "pos": "noun",
+      "meaning_vi": "tiền mặt",
+      "meaning_vi_inline": "tiền mặt",
+      "example_en": "The market vendor only accepted cash and did not take cards.",
+      "example_vi": "Người bán hàng ở chợ chỉ nhận tiền mặt và không chấp nhận thẻ.",
+      "word_family": {
+        "noun": "cash",
+        "verb": "cash (a cheque)",
+        "adjective": "cash-only",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "penalty",
+      "ipa": "/ˈpen.əl.ti/",
+      "pos": "noun",
+      "meaning_vi": "tiền phạt, khoản phụ phí (do vi phạm điều khoản)",
+      "meaning_vi_inline": "tiền phạt",
+      "example_en": "He was charged a penalty for withdrawing money from his savings account early.",
+      "example_vi": "Anh ấy bị tính phạt vì rút tiền từ tài khoản tiết kiệm trước hạn.",
+      "word_family": {
+        "noun": "penalty",
+        "verb": "penalise",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "fine",
+        "explanation_vi": "'Penalty' trong tài chính là khoản phí phát sinh do vi phạm hợp đồng hoặc điều khoản; 'fine' thường là khoản phạt hành chính do vi phạm luật (ví dụ: phạt giao thông)."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A bank statement records every transaction made on an account during a given period.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that debit cards are more widely used than credit cards worldwide.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "A credit card takes money directly from your bank account at the time of purchase.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "Paying bills late can result in an extra charge being added to the amount owed.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage recommends that people should always use cash instead of digital payments.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She checked her bank _____ at the end of the month to review all the money coming in and going out.",
+          "options": [
+            "transfer",
+            "debit",
+            "statement",
+            "balance"
+          ],
+          "answer": "statement"
+        },
+        {
+          "id": 2,
+          "sentence": "His current _____ was very low after he paid for three large purchases in the same week.",
+          "options": [
+            "balance",
+            "bill",
+            "fee",
+            "rate"
+          ],
+          "answer": "balance"
+        },
+        {
+          "id": 3,
+          "sentence": "He decided to _____ money from the bank rather than use his savings for the new laptop.",
+          "options": [
+            "lend",
+            "transfer",
+            "pay",
+            "borrow"
+          ],
+          "answer": "borrow"
+        },
+        {
+          "id": 4,
+          "sentence": "The gym charges a monthly _____ for membership, which is automatically taken from his account.",
+          "options": [
+            "cash",
+            "fee",
+            "debit",
+            "penalty"
+          ],
+          "answer": "fee"
+        },
+        {
+          "id": 5,
+          "sentence": "She was charged a _____ because she had not made her credit card payment by the deadline.",
+          "options": [
+            "statement",
+            "rate",
+            "penalty",
+            "bill"
+          ],
+          "answer": "penalty"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "account",
+        "transfer",
+        "borrow",
+        "bill",
+        "credit card"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She used her _____ to pay for the new laptop and planned to settle the full amount next month.",
+          "answer": "credit card"
+        },
+        {
+          "id": 2,
+          "sentence": "He asked the bank to _____ £500 from his current account to his savings account.",
+          "answer": "transfer"
+        },
+        {
+          "id": 3,
+          "sentence": "She needed to _____ some money from the bank because she didn't have enough for the car repairs.",
+          "answer": "borrow"
+        },
+        {
+          "id": 4,
+          "sentence": "They received a large electricity _____ at the end of winter because of the cold weather.",
+          "answer": "bill"
+        },
+        {
+          "id": 5,
+          "sentence": "You need to open a bank _____ before you can start saving money or receiving your wages.",
+          "answer": "account"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "checks",
+            "her",
+            "bank",
+            "statement",
+            "every",
+            "month",
+            "to",
+            "track",
+            "her",
+            "spending"
+          ],
+          "answer": "She checks her bank statement every month to track her spending."
+        },
+        {
+          "id": 2,
+          "words": [
+            "paying",
+            "bills",
+            "on",
+            "time",
+            "helps",
+            "you",
+            "avoid",
+            "unnecessary",
+            "penalties"
+          ],
+          "answer": "Paying bills on time helps you avoid unnecessary penalties."
+        },
+        {
+          "id": 3,
+          "words": [
+            "he",
+            "needed",
+            "to",
+            "borrow",
+            "money",
+            "from",
+            "the",
+            "bank",
+            "to",
+            "pay",
+            "for",
+            "the",
+            "repairs"
+          ],
+          "answer": "He needed to borrow money from the bank to pay for the repairs."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "bank",
+            "charges",
+            "a",
+            "fee",
+            "for",
+            "international",
+            "money",
+            "transfers"
+          ],
+          "answer": "The bank charges a fee for international money transfers."
+        },
+        {
+          "id": 5,
+          "words": [
+            "keeping",
+            "a",
+            "healthy",
+            "balance",
+            "in",
+            "your",
+            "account",
+            "helps",
+            "you",
+            "manage",
+            "unexpected",
+            "expenses"
+          ],
+          "answer": "Keeping a healthy balance in your account helps you manage unexpected expenses."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "At the end of each month, the bank sent him a detailed [report] of all his spending and payments.",
+          "highlighted": "report",
+          "options": {
+            "A": "statement",
+            "B": "report",
+            "C": "record"
+          },
+          "answer": "A",
+          "explanation": "'Statement' is the specific banking term for the official document summarising all transactions within a given period; 'report' and 'record' are too general and are not used in this way by banks."
+        },
+        {
+          "id": 2,
+          "sentence": "The gym charges a monthly [cost] for membership, which is automatically deducted from her account.",
+          "highlighted": "cost",
+          "options": {
+            "A": "cost",
+            "B": "fee",
+            "C": "rate"
+          },
+          "answer": "B",
+          "explanation": "'Fee' is the standard term for a fixed charge for a service; 'cost' is informal and imprecise in a financial services context, and 'rate' refers to a percentage or variable amount."
+        },
+        {
+          "id": 3,
+          "sentence": "She forgot to pay her phone [charge] on time and was asked to pay an extra amount.",
+          "highlighted": "charge",
+          "options": {
+            "A": "bill",
+            "B": "charge",
+            "C": "invoice"
+          },
+          "answer": "A",
+          "explanation": "'Bill' is the standard term for a payment request from a utility or service provider (phone, electricity, etc.); 'charge' is informal and less specific, and 'invoice' is used between businesses, not service providers and consumers."
+        },
+        {
+          "id": 4,
+          "sentence": "He forgot to [give] back money to his friend, who had lent him £100 the previous month.",
+          "highlighted": "give",
+          "options": {
+            "A": "give",
+            "B": "repay",
+            "C": "pay back"
+          },
+          "answer": "B",
+          "explanation": "'Repay' is the precise financial term for returning borrowed money; 'pay back' is informal and conversational, while 'give' carries no implication of returning a debt."
+        },
+        {
+          "id": 5,
+          "sentence": "She didn't have enough [money in her account] for the new computer, so she decided to borrow from the bank.",
+          "highlighted": "money in her account",
+          "options": {
+            "A": "money",
+            "B": "funds",
+            "C": "balance"
+          },
+          "answer": "C",
+          "explanation": "'Balance' is the banking term for the amount of money currently available in an account; it is more precise and professional than the wordy phrase 'money in her account' or the general word 'funds'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "False",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "statement",
+      "2": "balance",
+      "3": "borrow",
+      "4": "fee",
+      "5": "penalty"
+    },
+    "ex3": {
+      "1": "credit card",
+      "2": "transfer",
+      "3": "borrow",
+      "4": "bill",
+      "5": "account"
+    },
+    "ex4": {
+      "1": "She checks her bank statement every month to track her spending.",
+      "2": "Paying bills on time helps you avoid unnecessary penalties.",
+      "3": "He needed to borrow money from the bank to pay for the repairs.",
+      "4": "The bank charges a fee for international money transfers.",
+      "5": "Keeping a healthy balance in your account helps you manage unexpected expenses."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

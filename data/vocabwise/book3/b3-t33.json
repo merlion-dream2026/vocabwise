@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 33,
+    "topic_id": "b3-t33",
+    "topic_title": "History & Memory",
+    "topic_title_vi": "Lịch Sử & Ký Ức",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "📜",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The discipline of **historiography** examines not just what happened in the past, but how those events have been recorded, selected, and interpreted across time. Every historical **narrative** is shaped by the values and blind spots of its era, which is why no account of the past can claim perfect **objectivity**. Scholars who study historiography argue that acknowledging this limitation is the first step towards more honest and rigorous historical inquiry.",
+        "text_vi": "Ngành **sử học** không chỉ nghiên cứu những gì đã xảy ra trong quá khứ, mà còn xem xét cách những sự kiện đó được ghi chép, lựa chọn và lý giải qua từng thời đại. Mọi **tường thuật** lịch sử đều chịu ảnh hưởng bởi các giá trị và điểm mù của thời đại mình, do đó không một ghi chép nào về quá khứ có thể tuyên bố đạt được **tính khách quan** hoàn hảo. Các học giả nghiên cứu sử học lập luận rằng thừa nhận hạn chế này là bước đầu tiên hướng tới một nền nghiên cứu lịch sử trung thực và nghiêm túc hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "**Revisionism** — the practice of reinterpreting established historical accounts — is often viewed with suspicion, yet it is a necessary feature of healthy scholarship. When new evidence emerges or **archival** sources are re-examined, historians must be willing to revise long-held conclusions. **Bias**, whether ideological, cultural, or national, inevitably colours the **interpretation** of evidence, making it essential to **challenge historical narratives** that present a single, uncontested view of the past.",
+        "text_vi": "**Chủ nghĩa xét lại** — thực hành diễn giải lại các tài khoản lịch sử đã được công nhận — thường bị nhìn với con mắt nghi ngờ, tuy nhiên đây là một đặc điểm cần thiết của học thuật lành mạnh. Khi bằng chứng mới xuất hiện hoặc các nguồn **lưu trữ** được xem xét lại, các nhà sử học phải sẵn sàng sửa đổi những kết luận đã được giữ lâu. **Thành kiến**, dù là ý thức hệ, văn hóa hay quốc gia, không tránh khỏi tô màu cho việc **diễn giải** bằng chứng, khiến việc **thách thức các tường thuật lịch sử** vốn đưa ra một cái nhìn duy nhất, không bị tranh cãi về quá khứ trở nên thiết yếu."
+      },
+      {
+        "index": 3,
+        "text_en": "**Commemoration** — the public rituals through which societies mark significant events — plays a central role in shaping collective identity. Monuments, national holidays, and school curricula all serve to **preserve collective memory**, embedding particular versions of history into public consciousness. However, whose memory is preserved and whose is silenced raises profound ethical questions, particularly when communities must **reinterpret historical events** in light of previously excluded voices.",
+        "text_vi": "**Lễ tưởng niệm** — các nghi thức công cộng qua đó các xã hội đánh dấu những sự kiện quan trọng — đóng vai trò trung tâm trong việc định hình bản sắc tập thể. Các đài tưởng niệm, ngày lễ quốc gia và chương trình giảng dạy ở trường đều góp phần **gìn giữ ký ức tập thể**, khắc sâu những phiên bản lịch sử nhất định vào ý thức cộng đồng. Tuy nhiên, ký ức của ai được lưu giữ và ký ức của ai bị im lặng đặt ra những câu hỏi đạo đức sâu sắc, đặc biệt khi các cộng đồng phải **tái diễn giải các sự kiện lịch sử** dưới ánh sáng của những tiếng nói trước đây bị gạt ra ngoài lề."
+      },
+      {
+        "index": 4,
+        "text_en": "Societies that have experienced conflict or injustice face the difficult task of constructing a shared **chronicle** of events — one that can **acknowledge a contested legacy** without erasing the pain of those who suffered. To **reconcile conflicting accounts** of the past, historians and communities alike must engage in sustained, sometimes uncomfortable dialogue. The **legacy** of historical events is never fixed; it is continually rewritten as new generations bring fresh questions and fresh eyes to the past.",
+        "text_vi": "Các xã hội từng trải qua xung đột hoặc bất công đối mặt với nhiệm vụ khó khăn là xây dựng một **biên niên sử** chung về các sự kiện — một biên niên sử có thể **thừa nhận một di sản còn tranh cãi** mà không xóa bỏ nỗi đau của những người đã chịu đựng. Để **hòa giải các tài khoản mâu thuẫn** về quá khứ, cả các nhà sử học lẫn cộng đồng đều phải tham gia vào một cuộc đối thoại bền vững, đôi khi không thoải mái. **Di sản** của các sự kiện lịch sử không bao giờ cố định; nó liên tục được viết lại khi các thế hệ mới mang đến những câu hỏi mới và con mắt mới đối với quá khứ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "historiography",
+      "ipa": "/hɪˌstɔː.riˈɒɡ.rə.fi/",
+      "pos": "noun",
+      "meaning_vi": "sử học, ngành nghiên cứu phương pháp viết sử",
+      "meaning_vi_inline": "sử học",
+      "example_en": "A course in historiography teaches students how to critically evaluate historical sources and methods.",
+      "example_vi": "Một khóa học về sử học dạy sinh viên cách đánh giá phê phán các nguồn và phương pháp lịch sử.",
+      "word_family": {
+        "noun": "historiography / historiographer",
+        "verb": null,
+        "adjective": "historiographical",
+        "adverb": "historiographically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "narrative",
+      "ipa": "/ˈnær.ə.tɪv/",
+      "pos": "noun",
+      "meaning_vi": "tường thuật, câu chuyện, diễn ngôn",
+      "meaning_vi_inline": "tường thuật",
+      "example_en": "The dominant narrative of the war was challenged by historians who uncovered suppressed documents.",
+      "example_vi": "Tường thuật chủ đạo về cuộc chiến đã bị thách thức bởi các nhà sử học khi họ phát hiện những tài liệu bị che giấu.",
+      "word_family": {
+        "noun": "narrative / narrator",
+        "verb": "narrate",
+        "adjective": "narrative",
+        "adverb": "narratively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "commemoration",
+      "ipa": "/kəˌmem.əˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lễ tưởng niệm, sự kỷ niệm",
+      "meaning_vi_inline": "lễ tưởng niệm",
+      "example_en": "The annual commemoration of the battle draws thousands of visitors to the historic site.",
+      "example_vi": "Lễ tưởng niệm hàng năm về trận chiến thu hút hàng nghìn du khách đến địa điểm lịch sử.",
+      "word_family": {
+        "noun": "commemoration",
+        "verb": "commemorate",
+        "adjective": "commemorative",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "revisionism",
+      "ipa": "/rɪˈvɪʒ.ə.nɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa xét lại, quan điểm diễn giải lại lịch sử",
+      "meaning_vi_inline": "chủ nghĩa xét lại",
+      "example_en": "Historical revisionism, when grounded in evidence, can correct long-standing myths about the past.",
+      "example_vi": "Chủ nghĩa xét lại lịch sử, khi được đặt trên cơ sở bằng chứng, có thể sửa chữa những huyền thoại lâu đời về quá khứ.",
+      "word_family": {
+        "noun": "revisionism / revisionist",
+        "verb": "revise",
+        "adjective": "revisionist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "legacy",
+      "ipa": "/ˈleɡ.ə.si/",
+      "pos": "noun",
+      "meaning_vi": "di sản, di tích để lại",
+      "meaning_vi_inline": "di sản",
+      "example_en": "The colonial legacy of the region continues to shape its political and economic landscape today.",
+      "example_vi": "Di sản thực dân của vùng này tiếp tục định hình bối cảnh chính trị và kinh tế của nó đến ngày nay.",
+      "word_family": {
+        "noun": "legacy",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "heritage",
+        "explanation_vi": "'Legacy' thường chỉ những gì để lại — cả tích cực lẫn tiêu cực — từ người hay sự kiện cụ thể; 'heritage' thiên về di sản văn hóa hay tự nhiên mang tính tự hào và bảo tồn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "chronicle",
+      "ipa": "/ˈkrɒn.ɪ.kəl/",
+      "pos": "noun",
+      "meaning_vi": "biên niên sử, ghi chép theo thứ tự thời gian",
+      "meaning_vi_inline": "biên niên sử",
+      "example_en": "Medieval chronicles recorded events year by year, blending fact with legend.",
+      "example_vi": "Các biên niên sử thời trung cổ ghi lại các sự kiện theo từng năm, pha trộn sự thật với huyền thoại.",
+      "word_family": {
+        "noun": "chronicle / chronicler",
+        "verb": "chronicle",
+        "adjective": "chronological",
+        "adverb": "chronologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "objectivity",
+      "ipa": "/ˌɒb.dʒekˈtɪv.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính khách quan",
+      "meaning_vi_inline": "tính khách quan",
+      "example_en": "Absolute objectivity in historical writing is widely regarded as an ideal that can never be fully achieved.",
+      "example_vi": "Tính khách quan tuyệt đối trong viết sử được coi rộng rãi là một lý tưởng không bao giờ có thể đạt được hoàn toàn.",
+      "word_family": {
+        "noun": "objectivity",
+        "verb": "objectify",
+        "adjective": "objective",
+        "adverb": "objectively"
+      },
+      "false_friend": {
+        "word_vi": "subjectivity",
+        "explanation_vi": "'Objectivity' là tính khách quan, không bị cảm xúc hay quan điểm cá nhân chi phối; 'subjectivity' là tính chủ quan, phụ thuộc vào cảm nhận riêng — hai khái niệm đối lập nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "thành kiến, sự thiên vị",
+      "meaning_vi_inline": "thành kiến",
+      "example_en": "Historians must remain aware of their own cultural bias when interpreting primary sources.",
+      "example_vi": "Các nhà sử học phải luôn nhận thức được thành kiến văn hóa của bản thân khi diễn giải các nguồn tài liệu gốc.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased / unbiased",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "interpretation",
+      "ipa": "/ɪnˌtɜː.prɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự diễn giải, cách lý giải",
+      "meaning_vi_inline": "sự diễn giải",
+      "example_en": "Different interpretations of the same treaty have fuelled academic debate for decades.",
+      "example_vi": "Các cách diễn giải khác nhau về cùng một hiệp ước đã thổi bùng tranh luận học thuật trong nhiều thập kỷ.",
+      "word_family": {
+        "noun": "interpretation / interpreter",
+        "verb": "interpret",
+        "adjective": "interpretive / interpretative",
+        "adverb": "interpretively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "archival",
+      "ipa": "/ɑːˈkaɪ.vəl/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về lưu trữ, liên quan đến kho lưu trữ",
+      "meaning_vi_inline": "lưu trữ",
+      "example_en": "Archival research uncovered letters that completely changed the accepted account of the diplomat's actions.",
+      "example_vi": "Nghiên cứu lưu trữ đã phát hiện những bức thư hoàn toàn thay đổi câu chuyện được chấp nhận về hành động của nhà ngoại giao.",
+      "word_family": {
+        "noun": "archive / archivist",
+        "verb": "archive",
+        "adjective": "archival",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "challenge historical narratives",
+      "meaning_vi": "thách thức các tường thuật lịch sử",
+      "example_en": "Post-colonial scholars have worked systematically to challenge historical narratives that centred solely on European perspectives.",
+      "example_vi": "Các học giả hậu thực dân đã làm việc có hệ thống để thách thức các tường thuật lịch sử chỉ tập trung vào quan điểm châu Âu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "preserve collective memory",
+      "meaning_vi": "gìn giữ ký ức tập thể",
+      "example_en": "Oral traditions served for centuries as the primary means to preserve collective memory in communities without written records.",
+      "example_vi": "Truyền thống truyền miệng trong nhiều thế kỷ là phương tiện chính để gìn giữ ký ức tập thể trong các cộng đồng không có văn bản.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "reinterpret historical events",
+      "meaning_vi": "tái diễn giải các sự kiện lịch sử",
+      "example_en": "Each generation tends to reinterpret historical events through the lens of its own values and concerns.",
+      "example_vi": "Mỗi thế hệ có xu hướng tái diễn giải các sự kiện lịch sử qua lăng kính giá trị và mối quan tâm của riêng mình.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "acknowledge a contested legacy",
+      "meaning_vi": "thừa nhận một di sản còn tranh cãi",
+      "example_en": "The museum's new exhibition was praised for its willingness to acknowledge a contested legacy rather than present a simplified heroic story.",
+      "example_vi": "Triển lãm mới của bảo tàng được ca ngợi vì sẵn sàng thừa nhận một di sản còn tranh cãi thay vì trình bày một câu chuyện anh hùng đơn giản.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "reconcile conflicting accounts",
+      "meaning_vi": "hòa giải các tài khoản mâu thuẫn",
+      "example_en": "The truth commission's task was to reconcile conflicting accounts of the civil war and establish a shared factual record.",
+      "example_vi": "Nhiệm vụ của ủy ban sự thật là hòa giải các tài khoản mâu thuẫn về nội chiến và thiết lập một hồ sơ sự kiện chung.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage argues that historical narratives can achieve complete objectivity if historians are sufficiently careful.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Revisionism is described in the passage as an essential aspect of legitimate historical scholarship.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, most national governments have accepted the need to revise official historical accounts.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that monuments and school curricula help shape the version of history that a society collectively remembers.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage states that the legacy of historical events becomes fixed once a generation reaches consensus about the past.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The documentary challenged the _____ that had shaped public understanding of the war for half a century.",
+          "options": [
+            "narrative",
+            "objectivity",
+            "chronicle",
+            "commemoration"
+          ],
+          "answer": "narrative"
+        },
+        {
+          "id": 2,
+          "sentence": "The historian's _____ research led her to previously classified government documents.",
+          "options": [
+            "revisionist",
+            "commemorative",
+            "archival",
+            "biased"
+          ],
+          "answer": "archival"
+        },
+        {
+          "id": 3,
+          "sentence": "Any attempt to achieve full _____ in history is complicated by the fact that every historian occupies a particular cultural position.",
+          "options": [
+            "legacy",
+            "bias",
+            "objectivity",
+            "revisionism"
+          ],
+          "answer": "objectivity"
+        },
+        {
+          "id": 4,
+          "sentence": "The town's annual _____ of the founding of the settlement draws participants from across the country.",
+          "options": [
+            "interpretation",
+            "bias",
+            "narrative",
+            "commemoration"
+          ],
+          "answer": "commemoration"
+        },
+        {
+          "id": 5,
+          "sentence": "The disputed _____ of the treaty's terms has divided legal scholars for generations.",
+          "options": [
+            "legacy",
+            "interpretation",
+            "chronicle",
+            "archival"
+          ],
+          "answer": "interpretation"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "bias",
+        "chronicle",
+        "legacy",
+        "revisionism",
+        "historiography",
+        "narrative"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The study of _____ reveals how much the writing of history is shaped by the social context of the historian.",
+          "answer": "historiography"
+        },
+        {
+          "id": 2,
+          "sentence": "The Victorian _____ kept by the explorer documented each stage of the expedition in meticulous detail.",
+          "answer": "chronicle"
+        },
+        {
+          "id": 3,
+          "sentence": "Confirmation _____ leads researchers to seek out evidence that supports what they already believe.",
+          "answer": "bias"
+        },
+        {
+          "id": 4,
+          "sentence": "The industrial revolution left a complex _____ that includes both economic progress and severe social hardship.",
+          "answer": "legacy"
+        },
+        {
+          "id": 5,
+          "sentence": "Responsible _____ is driven by new evidence rather than by a desire to rehabilitate discredited figures.",
+          "answer": "revisionism"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "historical",
+            "narratives",
+            "always",
+            "reflect",
+            "the",
+            "biases",
+            "of",
+            "their",
+            "authors"
+          ],
+          "answer": "Historical narratives always reflect the biases of their authors."
+        },
+        {
+          "id": 2,
+          "words": [
+            "archival",
+            "research",
+            "can",
+            "overturn",
+            "long-accepted",
+            "interpretations",
+            "of",
+            "key",
+            "events"
+          ],
+          "answer": "Archival research can overturn long-accepted interpretations of key events."
+        },
+        {
+          "id": 3,
+          "words": [
+            "commemoration",
+            "rituals",
+            "help",
+            "preserve",
+            "a",
+            "society's",
+            "collective",
+            "memory"
+          ],
+          "answer": "Commemoration rituals help preserve a society's collective memory."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "legacy",
+            "of",
+            "historical",
+            "events",
+            "is",
+            "continually",
+            "rewritten",
+            "by",
+            "new",
+            "generations"
+          ],
+          "answer": "The legacy of historical events is continually rewritten by new generations."
+        },
+        {
+          "id": 5,
+          "words": [
+            "objectivity",
+            "in",
+            "history",
+            "requires",
+            "acknowledging",
+            "one's",
+            "own",
+            "cultural",
+            "bias"
+          ],
+          "answer": "Objectivity in history requires acknowledging one's own cultural bias."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [narrate] of the civil war written by the victors ignored the suffering of the defeated population.",
+          "highlighted": "narrate",
+          "options": {
+            "A": "narrator",
+            "B": "narrating",
+            "C": "narrative"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'narrative', not the verb 'narrate'."
+        },
+        {
+          "id": 2,
+          "sentence": "The research team spent three months examining [archive] documents in the national library.",
+          "highlighted": "archive",
+          "options": {
+            "A": "archival",
+            "B": "archived",
+            "C": "archivist"
+          },
+          "answer": "A",
+          "explanation": "'Archival' is the adjective form required to modify 'documents'; 'archive' is a noun or verb and cannot directly modify another noun in this context."
+        },
+        {
+          "id": 3,
+          "sentence": "Her study of [historiographical] showed that every era rewrites the past to suit its own purposes.",
+          "highlighted": "historiographical",
+          "options": {
+            "A": "historiographer",
+            "B": "historiographically",
+            "C": "historiography"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the object of 'study of' — 'historiography', not the adjective 'historiographical'."
+        },
+        {
+          "id": 4,
+          "sentence": "The annual [commemorate] of the armistice brings together veterans and their families from across the nation.",
+          "highlighted": "commemorate",
+          "options": {
+            "A": "commemorating",
+            "B": "commemoration",
+            "C": "commemorative"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after the adjective 'annual' to serve as the subject — 'commemoration', not the verb 'commemorate'."
+        },
+        {
+          "id": 5,
+          "sentence": "Scholars continue to debate the [interpret] of the ambiguous clause in the original peace agreement.",
+          "highlighted": "interpret",
+          "options": {
+            "A": "interpretive",
+            "B": "interpreted",
+            "C": "interpretation"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the object of the verb 'debate' — 'interpretation', not the verb 'interpret'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "narrative",
+      "2": "archival",
+      "3": "objectivity",
+      "4": "commemoration",
+      "5": "interpretation"
+    },
+    "ex3": {
+      "1": "historiography",
+      "2": "chronicle",
+      "3": "bias",
+      "4": "legacy",
+      "5": "revisionism"
+    },
+    "ex4": {
+      "1": "Historical narratives always reflect the biases of their authors.",
+      "2": "Archival research can overturn long-accepted interpretations of key events.",
+      "3": "Commemoration rituals help preserve a society's collective memory.",
+      "4": "The legacy of historical events is continually rewritten by new generations.",
+      "5": "Objectivity in history requires acknowledging one's own cultural bias."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

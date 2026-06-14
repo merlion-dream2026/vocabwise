@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 40,
+    "topic_id": "b1-t40",
+    "topic_title": "My English Class",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🗣️",
+    "topic_title_vi": "Giờ Học Tiếng Anh",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 114,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I love my English class. Every lesson, we **listen** to our teacher and then **speak** in pairs. Our teacher asks us to **repeat** new words until we say them clearly. She says that **effort** every day is the best way to **improve**.",
+        "text_vi": "Tôi yêu giờ học tiếng Anh của mình. Mỗi buổi học, chúng tôi **lắng nghe** giáo viên rồi **nói** theo cặp. Giáo viên yêu cầu chúng tôi **lặp lại** các từ mới cho đến khi phát âm rõ ràng. Cô ấy nói rằng **nỗ lực** mỗi ngày là cách tốt nhất để **tiến bộ**."
+      },
+      {
+        "index": 2,
+        "text_en": "Today we do a **role**-play **activity**. We work in a **pair** and **take turns** speaking. I **raise** my hand to answer a question, and my partner **volunteer**s to go first. It is fun when everyone wants to join.",
+        "text_vi": "Hôm nay chúng tôi thực hiện hoạt động đóng **vai**. Chúng tôi làm việc theo **cặp** và **lần lượt** nói chuyện. Tôi **giơ tay** lên để trả lời câu hỏi, và bạn cùng cặp **xung phong** đi trước. Thật vui khi mọi người đều muốn tham gia."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes I speak too **fast** and my partner cannot understand me. I also make a **mistake** — I say the wrong word. But our teacher gives us **feedback** and we try again. Making a **mistake** is not bad — it helps us learn.",
+        "text_vi": "Đôi khi tôi nói quá **nhanh** và bạn cùng cặp không hiểu tôi. Tôi cũng mắc **lỗi** — tôi nói sai từ. Nhưng giáo viên cho chúng tôi **phản hồi** và chúng tôi thử lại. Mắc **lỗi** không phải điều xấu — nó giúp chúng tôi học."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end of class, we see our **progress** on a chart. Every week we can **listen**, **speak**, and **repeat** better than before. With good **feedback** and real **effort**, our English **progress** grows a little every day.",
+        "text_vi": "Vào cuối giờ học, chúng tôi xem **tiến độ** của mình trên biểu đồ. Mỗi tuần chúng tôi có thể **lắng nghe**, **nói** và **lặp lại** tốt hơn trước. Với **phản hồi** tốt và **nỗ lực** thực sự, **tiến độ** tiếng Anh của chúng tôi tăng lên một chút mỗi ngày."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "speak",
+      "ipa": "/spiːk/",
+      "pos": "verb",
+      "meaning_vi": "nói, phát biểu",
+      "meaning_vi_inline": "nói",
+      "example_en": "She can speak English very well because she practises every single day.",
+      "example_vi": "Cô ấy có thể nói tiếng Anh rất tốt vì cô ấy luyện tập mỗi ngày.",
+      "word_family": {
+        "noun": "speech / speaker",
+        "verb": "speak / spoke / spoken",
+        "adjective": "spoken",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "listen",
+      "ipa": "/ˈlɪsən/",
+      "pos": "verb",
+      "meaning_vi": "lắng nghe, chú ý lắng nghe",
+      "meaning_vi_inline": "lắng nghe",
+      "example_en": "Please listen carefully when the teacher explains the new grammar rule.",
+      "example_vi": "Hãy lắng nghe cẩn thận khi giáo viên giải thích quy tắc ngữ pháp mới.",
+      "word_family": {
+        "noun": "listener / listening",
+        "verb": "listen / listened",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "lặp lại",
+      "meaning_vi_inline": "lặp lại",
+      "example_en": "The teacher asked us to repeat each new word three times after her.",
+      "example_vi": "Giáo viên yêu cầu chúng tôi lặp lại mỗi từ mới ba lần theo cô.",
+      "word_family": {
+        "noun": "repetition / repeat",
+        "verb": "repeat / repeated",
+        "adjective": "repetitive / repeated",
+        "adverb": "repeatedly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "fast",
+      "ipa": "/fɑːst/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "nhanh; một cách nhanh chóng",
+      "meaning_vi_inline": "nhanh",
+      "example_en": "Do not speak too fast — your partner needs time to understand each word.",
+      "example_vi": "Đừng nói quá nhanh — bạn cùng cặp cần thời gian để hiểu từng từ.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "fast / faster / fastest",
+        "adverb": "fast / quickly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "pair",
+      "ipa": "/peər/",
+      "pos": "noun",
+      "meaning_vi": "cặp đôi, hai người làm việc cùng nhau",
+      "meaning_vi_inline": "cặp",
+      "example_en": "Work with a pair — take turns asking and answering questions in English.",
+      "example_vi": "Hãy làm việc theo cặp — lần lượt đặt câu hỏi và trả lời bằng tiếng Anh.",
+      "word_family": {
+        "noun": "pair",
+        "verb": "pair / paired",
+        "adjective": "paired",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "role",
+      "ipa": "/rəʊl/",
+      "pos": "noun",
+      "meaning_vi": "vai (trong bài tập đóng vai)",
+      "meaning_vi_inline": "vai",
+      "example_en": "In our role-play, I was a shopkeeper and my partner was a customer.",
+      "example_vi": "Trong bài đóng vai, tôi đóng vai người bán hàng còn bạn tôi đóng vai khách hàng.",
+      "word_family": {
+        "noun": "role",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "cuộn (bánh mì) / cuộn",
+        "explanation_vi": "\"Roll\" (cuộn) và \"role\" (vai diễn) phát âm giống nhau nhưng khác nghĩa hoàn toàn. Trong lớp học, \"role\" luôn có nghĩa là vai diễn trong bài tập."
+      }
+    },
+    {
+      "id": 7,
+      "word": "activity",
+      "ipa": "/ækˈtɪvɪti/",
+      "pos": "noun",
+      "meaning_vi": "hoạt động (học tập)",
+      "meaning_vi_inline": "hoạt động",
+      "example_en": "The best activity in English class is the speaking game — everyone has fun.",
+      "example_vi": "Hoạt động hay nhất trong giờ học tiếng Anh là trò chơi nói chuyện — mọi người đều vui.",
+      "word_family": {
+        "noun": "activity / activities",
+        "verb": "act / activate",
+        "adjective": "active",
+        "adverb": "actively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "take turns",
+      "ipa": "/teɪk tɜːnz/",
+      "pos": "phrase (verb)",
+      "meaning_vi": "lần lượt, thay nhau",
+      "meaning_vi_inline": "lần lượt",
+      "example_en": "We take turns reading the story aloud — first me, then my partner.",
+      "example_vi": "Chúng tôi lần lượt đọc to câu chuyện — đầu tiên là tôi, sau đó là bạn tôi.",
+      "word_family": {
+        "noun": "turn",
+        "verb": "take turns / took turns",
+        "adjective": null,
+        "adverb": "in turn"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "raise",
+      "ipa": "/reɪz/",
+      "pos": "verb",
+      "meaning_vi": "giơ (tay) lên",
+      "meaning_vi_inline": "giơ tay",
+      "example_en": "Please raise your hand if you know the answer — do not shout it out.",
+      "example_vi": "Hãy giơ tay lên nếu bạn biết câu trả lời — đừng hét to lên.",
+      "word_family": {
+        "noun": "raise",
+        "verb": "raise / raised",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "volunteer",
+      "ipa": "/ˌvɒlənˈtɪər/",
+      "pos": "verb / noun",
+      "meaning_vi": "xung phong, tình nguyện; người xung phong",
+      "meaning_vi_inline": "xung phong",
+      "example_en": "Nobody wanted to go first, so she volunteered and showed everyone how to do it.",
+      "example_vi": "Không ai muốn đi trước, vì vậy cô ấy đã xung phong và chỉ cho mọi người cách làm.",
+      "word_family": {
+        "noun": "volunteer",
+        "verb": "volunteer / volunteered",
+        "adjective": "voluntary",
+        "adverb": "voluntarily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "pos": "noun",
+      "meaning_vi": "lỗi, sai lầm",
+      "meaning_vi_inline": "lỗi",
+      "example_en": "Everyone makes mistakes when learning a language — it is a normal part of the process.",
+      "example_vi": "Ai cũng mắc lỗi khi học ngôn ngữ — đó là phần bình thường của quá trình học.",
+      "word_family": {
+        "noun": "mistake",
+        "verb": "mistake / mistook / mistaken",
+        "adjective": "mistaken",
+        "adverb": "mistakenly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "meaning_vi": "cải thiện, tiến bộ",
+      "meaning_vi_inline": "tiến bộ",
+      "example_en": "You will improve your speaking if you practise for just ten minutes every day.",
+      "example_vi": "Bạn sẽ cải thiện khả năng nói nếu luyện tập chỉ mười phút mỗi ngày.",
+      "word_family": {
+        "noun": "improvement",
+        "verb": "improve / improved",
+        "adjective": "improved / improving",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "effort",
+      "ipa": "/ˈefət/",
+      "pos": "noun",
+      "meaning_vi": "nỗ lực, cố gắng",
+      "meaning_vi_inline": "nỗ lực",
+      "example_en": "With a little effort every day, you can learn a lot of new vocabulary in a month.",
+      "example_vi": "Với một chút nỗ lực mỗi ngày, bạn có thể học được rất nhiều từ vựng mới trong một tháng.",
+      "word_family": {
+        "noun": "effort",
+        "verb": null,
+        "adjective": "effortless",
+        "adverb": "effortlessly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "feedback",
+      "ipa": "/ˈfiːdbæk/",
+      "pos": "noun",
+      "meaning_vi": "phản hồi, nhận xét",
+      "meaning_vi_inline": "phản hồi",
+      "example_en": "The teacher gave us useful feedback so we knew which words to practise more.",
+      "example_vi": "Giáo viên đưa ra những phản hồi hữu ích để chúng tôi biết từ nào cần luyện tập thêm.",
+      "word_family": {
+        "noun": "feedback",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "progress",
+      "ipa": "/ˈprəʊɡres/",
+      "pos": "noun",
+      "meaning_vi": "sự tiến bộ, tiến triển",
+      "meaning_vi_inline": "tiến bộ",
+      "example_en": "Her progress in English has been great — she can now hold a full conversation.",
+      "example_vi": "Sự tiến bộ trong tiếng Anh của cô ấy rất đáng kể — bây giờ cô ấy có thể nói chuyện trọn vẹn.",
+      "word_family": {
+        "noun": "progress",
+        "verb": "progress / progressed",
+        "adjective": "progressive",
+        "adverb": "progressively"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "effort" },
+        { "id": 2, "word": "feedback" },
+        { "id": 3, "word": "volunteer" },
+        { "id": 4, "word": "progress" },
+        { "id": 5, "word": "mistake" }
+      ],
+      "options": [
+        { "id": "A", "text": "something you do wrong, often without meaning to" },
+        { "id": "B", "text": "the energy and hard work you put into doing something" },
+        { "id": "C", "text": "to offer to do something without being asked" },
+        { "id": "D", "text": "improvement or development over time" },
+        { "id": "E", "text": "comments or information that help you understand how well you are doing" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Our teacher gives us _____ after every speaking activity so we can get better.",
+          "options": ["effort", "activity", "feedback", "mistake"],
+          "answer": "feedback"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ reading the dialogue — first Minh, then Lan, then back to Minh.",
+          "options": ["raise", "repeat", "take turns", "volunteer"],
+          "answer": "take turns"
+        },
+        {
+          "id": 3,
+          "sentence": "If you want to _____ your English, you need to speak it every day.",
+          "options": ["improve", "repeat", "listen", "raise"],
+          "answer": "improve"
+        },
+        {
+          "id": 4,
+          "sentence": "Nobody wanted to go first, so I decided to _____ and do the role-play myself.",
+          "options": ["listen", "speak", "repeat", "volunteer"],
+          "answer": "volunteer"
+        },
+        {
+          "id": 5,
+          "sentence": "Please _____ your hand if you know the answer to the question.",
+          "options": ["take", "raise", "pair", "improve"],
+          "answer": "raise"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["speak", "role", "effort", "pair", "listen", "progress"],
+      "items": [
+        { "id": 1, "sentence": "Work with a _____ — you will both practise speaking at the same time.", "answer": "pair" },
+        { "id": 2, "sentence": "In this _____ play, you are the tourist and I am the tour guide.", "answer": "role" },
+        { "id": 3, "sentence": "Always _____ carefully when the teacher is explaining something new.", "answer": "listen" },
+        { "id": 4, "sentence": "It takes _____ to learn a new language — you have to keep trying every day.", "answer": "effort" },
+        { "id": 5, "sentence": "I can _____ more clearly now than I could at the start of the year.", "answer": "speak" }
+      ],
+      "note": "One word in the box is not used: progress"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I have seen great _____ in your English — your pronunciation is much clearer now. (IMPROVE)",
+          "base_word": "IMPROVE",
+          "answer": "improvement",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "She asked us to _____ the new words until we could say them without looking. (REPEAT)",
+          "base_word": "REPEAT",
+          "answer": "repeat",
+          "form_used": "verb (base form)"
+        },
+        {
+          "id": 3,
+          "sentence": "He answered _____ — he made no mistakes at all during the role-play. (MISTAKE)",
+          "base_word": "MISTAKE",
+          "answer": "mistakenly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "She practises English _____ — she speaks up in every class and never stays silent. (ACTIVE)",
+          "base_word": "ACTIVE",
+          "answer": "actively",
+          "form_used": "adverb"
+        },
+        {
+          "id": 5,
+          "sentence": "Helping at the school event was _____ — the students were not paid or forced. (VOLUNTEER)",
+          "base_word": "VOLUNTEER",
+          "answer": "voluntary",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is making good [effort] in English — she can speak much better than before.",
+          "highlighted": "effort",
+          "options": { "A": "effort", "B": "progress", "C": "feedback" },
+          "answer": "B",
+          "explanation": "'Effort' refers to the hard work you put in. 'Progress' describes the improvement that results from that work — which matches 'speaking much better than before'."
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher told us to [volunteer] the sentence after her to practise pronunciation.",
+          "highlighted": "volunteer",
+          "options": { "A": "repeat", "B": "raise", "C": "volunteer" },
+          "answer": "A",
+          "explanation": "'Volunteer' means to offer to do something. When a teacher says a sentence and asks students to say it after her, she wants them to 'repeat' it."
+        },
+        {
+          "id": 3,
+          "sentence": "In pair work, good students [raise] and give each other a chance to speak.",
+          "highlighted": "raise",
+          "options": { "A": "listen", "B": "raise", "C": "take turns" },
+          "answer": "C",
+          "explanation": "'Raise' means to lift something up (like your hand). When two students alternate speaking in a pair activity, they 'take turns' — not raise."
+        },
+        {
+          "id": 4,
+          "sentence": "Do not worry about making a [progress] — it is how we all learn.",
+          "highlighted": "progress",
+          "options": { "A": "feedback", "B": "mistake", "C": "progress" },
+          "answer": "B",
+          "explanation": "'Progress' is a positive thing — it means getting better. The sentence is about something we worry about when learning, which is making a 'mistake'."
+        },
+        {
+          "id": 5,
+          "sentence": "I made a lot of [progress] in today's lesson — I said the wrong word three times.",
+          "highlighted": "progress",
+          "options": { "A": "activity", "B": "progress", "C": "mistakes" },
+          "answer": "C",
+          "explanation": "'Progress' means getting better or improving. If you said the wrong word three times, that means you made 'mistakes' — not progress."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "B", "2": "E", "3": "C", "4": "D", "5": "A" },
+    "ex2": { "1": "feedback", "2": "take turns", "3": "improve", "4": "volunteer", "5": "raise" },
+    "ex3": { "1": "pair", "2": "role", "3": "listen", "4": "effort", "5": "speak" },
+    "ex4": { "1": "improvement", "2": "repeat", "3": "mistakenly", "4": "actively", "5": "voluntary" },
+    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "C" }
+  }
+}

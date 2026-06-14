@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 7,
+    "topic_id": "b3-t07",
+    "topic_title": "Travel & Cultural Exchange",
+    "topic_title_vi": "Du Lịch & Giao Lưu Văn Hóa",
+    "theme_number": 1,
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "✈️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 219,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Travel has long been regarded as one of the most powerful catalysts for personal growth. When individuals move beyond familiar borders, they gain **exposure** to languages, customs, and worldviews that challenge their **preconceptions** about how life should be lived. This shift in **perspective** — seeing one's own culture through new eyes — is widely considered the true reward of genuine **cultural immersion**, rather than simply visiting tourist attractions.",
+        "text_vi": "Du lịch từ lâu đã được coi là một trong những chất xúc tác mạnh mẽ nhất cho sự phát triển cá nhân. Khi con người vượt ra ngoài biên giới quen thuộc, họ có cơ hội **tiếp xúc** với ngôn ngữ, phong tục và thế giới quan thách thức những **định kiến** của họ về cách sống. Sự thay đổi **nhận thức** này — nhìn văn hóa của mình qua lăng kính mới — được coi là phần thưởng thực sự của việc **đắm mình vào văn hóa** địa phương, chứ không chỉ đơn thuần là tham quan các điểm du lịch."
+      },
+      {
+        "index": 2,
+        "text_en": "Yet immersive travel is rarely comfortable. Travellers often experience **disorientation** when confronted with unfamiliar social norms, and must **navigate cultural disorientation** to function effectively in a new environment. This process demands both **curiosity** and a willingness to suspend judgement. Those who **embrace cultural immersion** wholeheartedly tend to develop greater empathy and a richer understanding of human diversity.",
+        "text_vi": "Tuy nhiên, du lịch có chiều sâu hiếm khi thoải mái. Du khách thường trải qua cảm giác **bối rối, lạc lõng** khi đối mặt với các chuẩn mực xã hội xa lạ, và phải **vượt qua sự lạc lõng văn hóa** để hoạt động hiệu quả trong môi trường mới. Quá trình này đòi hỏi cả **tính tò mò** lẫn sẵn sàng tạm gác phán xét. Những ai thực sự **đón nhận việc đắm mình vào văn hóa địa phương** có xu hướng phát triển sự đồng cảm sâu sắc hơn và hiểu biết phong phú hơn về sự đa dạng của con người."
+      },
+      {
+        "index": 3,
+        "text_en": "A key challenge for travellers is distinguishing genuine **authenticity** from staged cultural performance. Many tourist destinations market carefully curated experiences that confirm rather than challenge stereotypes. To truly **broaden cultural perspectives** and **overcome cultural stereotypes**, travellers must seek out unscripted interactions with local communities — sharing meals, learning crafts, or joining everyday rituals.",
+        "text_vi": "Một thách thức quan trọng đối với du khách là phân biệt **tính xác thực** thực sự với các màn trình diễn văn hóa được dàn dựng. Nhiều điểm du lịch tiếp thị những trải nghiệm được sắp xếp cẩn thận, vốn xác nhận thay vì thách thức các khuôn mẫu. Để thực sự **mở rộng nhãn quan văn hóa** và **vượt qua định kiến văn hóa**, du khách phải tìm kiếm những tương tác tự nhiên với cộng đồng địa phương — chia sẻ bữa ăn, học nghề thủ công, hay tham gia vào các nghi thức thường ngày."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, meaningful travel requires **adaptation** — the ability to adjust one's behaviour and expectations to new contexts — alongside genuine **appreciation** for differences rather than mere tolerance of them. When approached with openness, cross-cultural contact can **foster cross-cultural understanding** that transcends the duration of any single trip, reshaping how travellers relate to the wider world long after they return home.",
+        "text_vi": "Cuối cùng, du lịch có ý nghĩa đòi hỏi **sự thích nghi** — khả năng điều chỉnh hành vi và kỳ vọng trong bối cảnh mới — cùng với **sự trân trọng** thực sự đối với sự khác biệt, chứ không chỉ là sự chấp nhận đơn thuần. Khi được tiếp cận với tâm thế cởi mở, giao lưu giữa các nền văn hóa có thể **nuôi dưỡng sự hiểu biết liên văn hóa** vượt ra ngoài khoảng thời gian của một chuyến đi đơn lẻ, định hình lại cách du khách kết nối với thế giới rộng lớn hơn mãi về sau."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "immersion",
+      "ipa": "/ɪˈmɜː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự đắm mình, sự hòa nhập sâu",
+      "meaning_vi_inline": "đắm mình vào",
+      "example_en": "Language immersion programmes accelerate fluency more effectively than classroom study.",
+      "example_vi": "Các chương trình đắm mình vào ngôn ngữ giúp đạt sự lưu loát nhanh hơn so với học trên lớp.",
+      "word_family": {
+        "noun": "immersion",
+        "verb": "immerse",
+        "adjective": "immersed / immersive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "perception",
+      "ipa": "/pəˈsep.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, cảm nhận",
+      "meaning_vi_inline": "nhận thức",
+      "example_en": "Travel can alter one's perception of what constitutes a normal way of life.",
+      "example_vi": "Du lịch có thể thay đổi nhận thức của một người về thế nào là lối sống bình thường.",
+      "word_family": {
+        "noun": "perception",
+        "verb": "perceive",
+        "adjective": "perceptive / perceptual",
+        "adverb": "perceptively"
+      },
+      "false_friend": {
+        "word_vi": "perspective",
+        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận; 'perspective' là góc nhìn hay quan điểm — không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "authenticity",
+      "ipa": "/ˌɔː.θenˈtɪs.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính xác thực, sự chân thực",
+      "meaning_vi_inline": "tính xác thực",
+      "example_en": "Tourists increasingly seek authenticity rather than manufactured cultural experiences.",
+      "example_vi": "Du khách ngày càng tìm kiếm sự chân thực thay vì những trải nghiệm văn hóa được tạo dựng.",
+      "word_family": {
+        "noun": "authenticity / authentication",
+        "verb": "authenticate",
+        "adjective": "authentic",
+        "adverb": "authentically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "disorientation",
+      "ipa": "/dɪsˌɔː.ri.enˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự mất phương hướng, cảm giác bối rối lạc lõng",
+      "meaning_vi_inline": "bối rối, lạc lõng",
+      "example_en": "Many travellers experience disorientation during the first days in a radically different culture.",
+      "example_vi": "Nhiều du khách trải qua cảm giác lạc lõng trong những ngày đầu ở một nền văn hóa hoàn toàn khác biệt.",
+      "word_family": {
+        "noun": "disorientation",
+        "verb": "disorient / disorientate",
+        "adjective": "disoriented / disorienting",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "curiosity",
+      "ipa": "/ˌkjʊə.riˈɒs.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính tò mò, sự hiếu kỳ",
+      "meaning_vi_inline": "tính tò mò",
+      "example_en": "A spirit of curiosity is essential for any traveller hoping to understand a foreign culture.",
+      "example_vi": "Tinh thần tò mò là điều thiết yếu với bất kỳ du khách nào muốn hiểu một nền văn hóa xa lạ.",
+      "word_family": {
+        "noun": "curiosity",
+        "verb": null,
+        "adjective": "curious",
+        "adverb": "curiously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "appreciation",
+      "ipa": "/əˌpriː.ʃiˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự trân trọng, sự đánh giá cao",
+      "meaning_vi_inline": "sự trân trọng",
+      "example_en": "Living abroad deepens one's appreciation for both the host culture and one's own heritage.",
+      "example_vi": "Sống ở nước ngoài làm sâu sắc thêm sự trân trọng đối với cả văn hóa sở tại lẫn di sản của bản thân.",
+      "word_family": {
+        "noun": "appreciation",
+        "verb": "appreciate",
+        "adjective": "appreciative / appreciable",
+        "adverb": "appreciatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "adaptation",
+      "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thích nghi, sự điều chỉnh",
+      "meaning_vi_inline": "sự thích nghi",
+      "example_en": "Successful adaptation to a new culture requires patience and a willingness to observe.",
+      "example_vi": "Thích nghi thành công với một nền văn hóa mới đòi hỏi sự kiên nhẫn và sẵn lòng quan sát.",
+      "word_family": {
+        "noun": "adaptation / adaptability",
+        "verb": "adapt",
+        "adjective": "adaptable / adaptive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "adoption",
+        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hoặc chấp nhận — khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "exposure",
+      "ipa": "/ɪkˈspəʊ.ʒər/",
+      "pos": "noun",
+      "meaning_vi": "sự tiếp xúc, sự trải nghiệm",
+      "meaning_vi_inline": "sự tiếp xúc",
+      "example_en": "Early exposure to foreign languages significantly improves later acquisition.",
+      "example_vi": "Tiếp xúc sớm với ngoại ngữ cải thiện đáng kể khả năng tiếp thu sau này.",
+      "word_family": {
+        "noun": "exposure",
+        "verb": "expose",
+        "adjective": "exposed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "perspective",
+      "ipa": "/pəˈspek.tɪv/",
+      "pos": "noun",
+      "meaning_vi": "góc nhìn, quan điểm",
+      "meaning_vi_inline": "góc nhìn",
+      "example_en": "Studying abroad provides students with a broader perspective on global issues.",
+      "example_vi": "Du học cung cấp cho sinh viên góc nhìn rộng hơn về các vấn đề toàn cầu.",
+      "word_family": {
+        "noun": "perspective",
+        "verb": null,
+        "adjective": "perspectival",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "perception",
+        "explanation_vi": "'Perspective' là góc nhìn hay quan điểm; 'perception' là quá trình cảm nhận hay nhận thức — dễ nhầm lẫn nhưng khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "preconception",
+      "ipa": "/ˌpriː.kənˈsep.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "định kiến, quan niệm hình thành trước",
+      "meaning_vi_inline": "định kiến",
+      "example_en": "Travel often dismantles the preconceptions we hold about unfamiliar societies.",
+      "example_vi": "Du lịch thường phá vỡ những định kiến chúng ta có về các xã hội xa lạ.",
+      "word_family": {
+        "noun": "preconception",
+        "verb": "preconceive",
+        "adjective": "preconceived",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "broaden cultural perspectives",
+      "meaning_vi": "mở rộng nhãn quan văn hóa",
+      "example_en": "Studying the arts of other civilisations is an effective way to broaden cultural perspectives.",
+      "example_vi": "Nghiên cứu nghệ thuật của các nền văn minh khác là cách hiệu quả để mở rộng nhãn quan văn hóa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "overcome cultural stereotypes",
+      "meaning_vi": "vượt qua định kiến văn hóa",
+      "example_en": "Genuine personal encounters help travellers overcome cultural stereotypes more effectively than any guidebook.",
+      "example_vi": "Những cuộc gặp gỡ cá nhân thực sự giúp du khách vượt qua định kiến văn hóa hiệu quả hơn bất kỳ cuốn cẩm nang nào.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "embrace cultural immersion",
+      "meaning_vi": "đón nhận việc đắm mình vào văn hóa địa phương",
+      "example_en": "Travellers who embrace cultural immersion tend to leave with a far deeper understanding of their destination.",
+      "example_vi": "Những du khách đón nhận việc đắm mình vào văn hóa địa phương thường rời đi với sự hiểu biết sâu sắc hơn nhiều về điểm đến.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "navigate cultural disorientation",
+      "meaning_vi": "vượt qua sự lạc lõng văn hóa",
+      "example_en": "Learning a few local phrases can help travellers navigate cultural disorientation in the early days of their stay.",
+      "example_vi": "Học một vài cụm từ địa phương có thể giúp du khách vượt qua sự lạc lõng văn hóa trong những ngày đầu lưu trú.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "foster cross-cultural understanding",
+      "meaning_vi": "nuôi dưỡng sự hiểu biết liên văn hóa",
+      "example_en": "Exchange programmes are widely praised for their capacity to foster cross-cultural understanding among young people.",
+      "example_vi": "Các chương trình trao đổi được đánh giá cao vì khả năng nuôi dưỡng sự hiểu biết liên văn hóa trong giới trẻ.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage suggests that visiting tourist attractions is the most rewarding form of travel.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Travellers who experience disorientation often abandon their trips early.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, some tourist destinations present cultural experiences that reinforce existing stereotypes.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage states that cultural immersion requires a minimum stay of six months to be effective.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that the effects of meaningful cross-cultural contact can last beyond the trip itself.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Living abroad gave her a completely new _____ on her own society and its unspoken assumptions.",
+          "options": [
+            "authenticity",
+            "perspective",
+            "disorientation",
+            "immersion"
+          ],
+          "answer": "perspective"
+        },
+        {
+          "id": 2,
+          "sentence": "The chef's commitment to using only local, seasonal ingredients was seen as a mark of culinary _____.",
+          "options": [
+            "preconception",
+            "adaptation",
+            "curiosity",
+            "authenticity"
+          ],
+          "answer": "authenticity"
+        },
+        {
+          "id": 3,
+          "sentence": "His childhood _____ to multiple languages made it far easier for him to learn new ones as an adult.",
+          "options": [
+            "curiosity",
+            "exposure",
+            "appreciation",
+            "adaptation"
+          ],
+          "answer": "exposure"
+        },
+        {
+          "id": 4,
+          "sentence": "The researcher's _____ about rural communities was completely overturned once she began fieldwork.",
+          "options": [
+            "appreciation",
+            "immersion",
+            "preconception",
+            "perception"
+          ],
+          "answer": "preconception"
+        },
+        {
+          "id": 5,
+          "sentence": "Successful _____ to a radically different work culture requires both patience and a suspension of prior habits.",
+          "options": [
+            "disorientation",
+            "curiosity",
+            "authenticity",
+            "adaptation"
+          ],
+          "answer": "adaptation"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "immersion",
+        "curiosity",
+        "appreciation",
+        "disorientation",
+        "perception",
+        "exposure"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her _____ of local customs changed significantly after she spent a year living in the community.",
+          "answer": "perception"
+        },
+        {
+          "id": 2,
+          "sentence": "Cultural _____ programmes place students in households where only the target language is spoken.",
+          "answer": "immersion"
+        },
+        {
+          "id": 3,
+          "sentence": "A sense of _____ about unfamiliar places is one of the strongest motivators for exploratory travel.",
+          "answer": "curiosity"
+        },
+        {
+          "id": 4,
+          "sentence": "Repeated _____ to authentic spoken English helps learners develop a natural ear for rhythm and stress.",
+          "answer": "exposure"
+        },
+        {
+          "id": 5,
+          "sentence": "Volunteering abroad fosters a deep _____ for the resilience and resourcefulness of local communities.",
+          "answer": "appreciation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "travel",
+            "our",
+            "of",
+            "preconceptions",
+            "challenges",
+            "about",
+            "societies",
+            "unfamiliar"
+          ],
+          "answer": "Travel challenges our preconceptions about unfamiliar societies."
+        },
+        {
+          "id": 2,
+          "words": [
+            "cultural",
+            "disorientation",
+            "is",
+            "a",
+            "common",
+            "experience",
+            "for",
+            "travellers",
+            "in",
+            "new",
+            "environments"
+          ],
+          "answer": "Cultural disorientation is a common experience for travellers in new environments."
+        },
+        {
+          "id": 3,
+          "words": [
+            "seeking",
+            "authenticity",
+            "requires",
+            "scripted",
+            "avoiding",
+            "tourist",
+            "experiences"
+          ],
+          "answer": "Seeking authenticity requires avoiding scripted tourist experiences."
+        },
+        {
+          "id": 4,
+          "words": [
+            "immersion",
+            "cultural",
+            "the",
+            "develops",
+            "empathy",
+            "and",
+            "broadens",
+            "perspective"
+          ],
+          "answer": "Cultural immersion develops empathy and broadens perspective."
+        },
+        {
+          "id": 5,
+          "words": [
+            "exposure",
+            "to",
+            "diverse",
+            "cultures",
+            "can",
+            "transform",
+            "a",
+            "traveller's",
+            "worldview",
+            "permanently"
+          ],
+          "answer": "Exposure to diverse cultures can transform a traveller's worldview permanently."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Long-term [expose] to a foreign culture gradually reshapes one's values and assumptions.",
+          "highlighted": "expose",
+          "options": {
+            "A": "exposed",
+            "B": "exposes",
+            "C": "exposure"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after the adjective 'Long-term' to serve as the subject — 'exposure', not the verb 'expose'."
+        },
+        {
+          "id": 2,
+          "sentence": "The traveller felt deep [appreciating] for the hospitality shown by the local family.",
+          "highlighted": "appreciating",
+          "options": {
+            "A": "appreciate",
+            "B": "appreciation",
+            "C": "appreciated"
+          },
+          "answer": "B",
+          "explanation": "'Appreciation' is the noun form required after 'deep'; 'appreciating' is a gerund/present participle and does not fit here."
+        },
+        {
+          "id": 3,
+          "sentence": "Overcoming [preconceiving] about a culture is the first step towards genuine understanding.",
+          "highlighted": "preconceiving",
+          "options": {
+            "A": "preconceptions",
+            "B": "preconceive",
+            "C": "preconceived"
+          },
+          "answer": "A",
+          "explanation": "A plural noun is needed as the object of 'Overcoming' — 'preconceptions', not the verb form 'preconceiving'."
+        },
+        {
+          "id": 4,
+          "sentence": "Her [disoriented] during the first week abroad gradually gave way to confidence and ease.",
+          "highlighted": "disoriented",
+          "options": {
+            "A": "disorient",
+            "B": "disorientation",
+            "C": "disorientating"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed to serve as the subject of the sentence — 'disorientation', not the adjective 'disoriented'."
+        },
+        {
+          "id": 5,
+          "sentence": "Travellers who [adaption] quickly to new customs tend to have richer cross-cultural experiences.",
+          "highlighted": "adaption",
+          "options": {
+            "A": "adapt",
+            "B": "adapted",
+            "C": "adaptive"
+          },
+          "answer": "A",
+          "explanation": "A verb is required in the relative clause 'who _____ quickly' — 'adapt' in the present simple, not the noun 'adaption'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "perspective",
+      "2": "authenticity",
+      "3": "exposure",
+      "4": "preconception",
+      "5": "adaptation"
+    },
+    "ex3": {
+      "1": "perception",
+      "2": "immersion",
+      "3": "curiosity",
+      "4": "exposure",
+      "5": "appreciation"
+    },
+    "ex4": {
+      "1": "Travel challenges our preconceptions about unfamiliar societies.",
+      "2": "Cultural disorientation is a common experience for travellers in new environments.",
+      "3": "Seeking authenticity requires avoiding scripted tourist experiences.",
+      "4": "Cultural immersion develops empathy and broadens perspective.",
+      "5": "Exposure to diverse cultures can transform a traveller's worldview permanently."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

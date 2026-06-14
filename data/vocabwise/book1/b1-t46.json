@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 46,
+    "topic_id": "b1-t46",
+    "topic_title": "Getting Ready",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📋",
+    "topic_title_vi": "Chuẩn Bị Sẵn Sàng",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Being **ready** for an important event takes time and effort. You need to **plan** carefully and write a **schedule** so you know what to do each day. I always use a **checklist** to make sure I do not forget anything.",
+        "text_vi": "Để **sẵn sàng** cho một sự kiện quan trọng cần có thời gian và nỗ lực. Bạn cần **lên kế hoạch** cẩn thận và viết một **lịch trình** để biết cần làm gì mỗi ngày. Tôi luôn dùng một **danh sách kiểm tra** để chắc chắn rằng mình không quên gì."
+      },
+      {
+        "index": 2,
+        "text_en": "Before a trip, I like to **pack** my bag the night before. Going **early** to the airport is always a good idea. I also ask my friend to **remind** me about my passport and tickets before I leave.",
+        "text_vi": "Trước khi đi du lịch, tôi thích **đóng gói** hành lý từ đêm hôm trước. Đến sân bay **sớm** luôn là ý hay. Tôi cũng nhờ bạn **nhắc nhở** tôi về hộ chiếu và vé trước khi đi."
+      },
+      {
+        "index": 3,
+        "text_en": "It is also important to **confirm** your booking and check the details. Sometimes you have to **cancel** a plan if something unexpected happens. Setting a clear **target** and a **deadline** helps you stay focused.",
+        "text_vi": "Điều quan trọng cũng là **xác nhận** đặt chỗ và kiểm tra các chi tiết. Đôi khi bạn phải **hủy** một kế hoạch nếu có việc bất ngờ xảy ra. Đặt ra **mục tiêu** rõ ràng và **hạn chót** giúp bạn duy trì sự tập trung."
+      },
+      {
+        "index": 4,
+        "text_en": "Knowing your **priority** is the key to good preparation. Try to **organise** your tasks from most to least important. When you **assess** what you still need to do, you can **complete** each task step by step without feeling stressed.",
+        "text_vi": "Biết **ưu tiên** của mình là chìa khóa để chuẩn bị tốt. Hãy cố **tổ chức** công việc từ quan trọng nhất đến ít quan trọng nhất. Khi bạn **đánh giá** những gì còn cần làm, bạn có thể **hoàn thành** từng nhiệm vụ một cách từng bước mà không cảm thấy căng thẳng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "ready",
+      "ipa": "/ˈredi/",
+      "pos": "adjective",
+      "meaning_vi": "sẵn sàng, chuẩn bị xong",
+      "meaning_vi_inline": "sẵn sàng",
+      "example_en": "Are you ready for the exam tomorrow? You should review your notes tonight.",
+      "example_vi": "Bạn đã sẵn sàng cho kỳ thi ngày mai chưa? Bạn nên xem lại ghi chú tối nay.",
+      "word_family": {
+        "noun": "readiness",
+        "verb": null,
+        "adjective": "ready / unready",
+        "adverb": "readily"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "plan",
+      "ipa": "/plæn/",
+      "pos": "noun / verb",
+      "meaning_vi": "kế hoạch; lên kế hoạch",
+      "meaning_vi_inline": "lên kế hoạch",
+      "example_en": "We made a plan to study for two hours every evening before the test.",
+      "example_vi": "Chúng tôi đã lên kế hoạch học hai tiếng mỗi tối trước kỳ kiểm tra.",
+      "word_family": {
+        "noun": "plan / planner / planning",
+        "verb": "plan / planned",
+        "adjective": "planned / unplanned",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "schedule",
+      "ipa": "/ˈʃedjuːl/",
+      "pos": "noun / verb",
+      "meaning_vi": "lịch trình, thời gian biểu; lên lịch",
+      "meaning_vi_inline": "lịch trình",
+      "example_en": "My daily schedule starts at 6 a.m. and includes exercise, study, and meals.",
+      "example_vi": "Lịch trình hàng ngày của tôi bắt đầu lúc 6 giờ sáng và bao gồm tập thể dục, học bài và các bữa ăn.",
+      "word_family": {
+        "noun": "schedule",
+        "verb": "schedule / scheduled",
+        "adjective": "scheduled",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "organise",
+      "ipa": "/ˈɔːɡənaɪz/",
+      "pos": "verb",
+      "meaning_vi": "tổ chức, sắp xếp",
+      "meaning_vi_inline": "tổ chức",
+      "example_en": "She organised all her school books by subject so she could find them easily.",
+      "example_vi": "Cô ấy đã sắp xếp tất cả sách giáo khoa theo môn học để có thể tìm thấy dễ dàng.",
+      "word_family": {
+        "noun": "organisation / organiser",
+        "verb": "organise / organised",
+        "adjective": "organised / disorganised",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "pack",
+      "ipa": "/pæk/",
+      "pos": "verb / noun",
+      "meaning_vi": "đóng gói, xếp đồ; gói đồ",
+      "meaning_vi_inline": "đóng gói",
+      "example_en": "I always pack my school bag the night before to avoid being late in the morning.",
+      "example_vi": "Tôi luôn chuẩn bị cặp sách từ tối hôm trước để tránh bị muộn vào buổi sáng.",
+      "word_family": {
+        "noun": "pack / package / packet",
+        "verb": "pack / packed",
+        "adjective": "packed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "early",
+      "ipa": "/ˈɜːli/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "sớm, đến sớm; vào buổi sáng sớm",
+      "meaning_vi_inline": "sớm",
+      "example_en": "She arrived early and had time to review her notes before the meeting started.",
+      "example_vi": "Cô ấy đến sớm và có thời gian xem lại ghi chú trước khi cuộc họp bắt đầu.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "early / earlier / earliest",
+        "adverb": "early"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "remind",
+      "ipa": "/rɪˈmaɪnd/",
+      "pos": "verb",
+      "meaning_vi": "nhắc nhở, nhắc lại",
+      "meaning_vi_inline": "nhắc nhở",
+      "example_en": "Please remind me to bring my ID card — I sometimes forget it at home.",
+      "example_vi": "Hãy nhắc tôi mang thẻ căn cước nhé — đôi khi tôi để quên ở nhà.",
+      "word_family": {
+        "noun": "reminder",
+        "verb": "remind / reminded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "confirm",
+      "ipa": "/kənˈfɜːm/",
+      "pos": "verb",
+      "meaning_vi": "xác nhận, khẳng định",
+      "meaning_vi_inline": "xác nhận",
+      "example_en": "I called the hotel to confirm our reservation two days before arrival.",
+      "example_vi": "Tôi đã gọi điện đến khách sạn để xác nhận đặt phòng của chúng tôi hai ngày trước khi đến.",
+      "word_family": {
+        "noun": "confirmation",
+        "verb": "confirm / confirmed",
+        "adjective": "confirmed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "cancel",
+      "ipa": "/ˈkænsəl/",
+      "pos": "verb",
+      "meaning_vi": "hủy bỏ, hủy",
+      "meaning_vi_inline": "hủy",
+      "example_en": "The flight was cancelled because of bad weather — we had to wait until the next day.",
+      "example_vi": "Chuyến bay bị hủy vì thời tiết xấu — chúng tôi phải chờ đến ngày hôm sau.",
+      "word_family": {
+        "noun": "cancellation",
+        "verb": "cancel / cancelled",
+        "adjective": "cancelled",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "priority",
+      "ipa": "/praɪˈɒrɪti/",
+      "pos": "noun",
+      "meaning_vi": "ưu tiên, điều quan trọng nhất",
+      "meaning_vi_inline": "ưu tiên",
+      "example_en": "Finishing the report is my top priority today — everything else can wait.",
+      "example_vi": "Hoàn thành bản báo cáo là ưu tiên hàng đầu của tôi hôm nay — mọi thứ khác có thể chờ.",
+      "word_family": {
+        "noun": "priority",
+        "verb": "prioritise",
+        "adjective": "priority",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "target",
+      "ipa": "/ˈtɑːɡɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "mục tiêu; nhắm vào",
+      "meaning_vi_inline": "mục tiêu",
+      "example_en": "My target is to finish the project before Friday so I can relax at the weekend.",
+      "example_vi": "Mục tiêu của tôi là hoàn thành dự án trước thứ Sáu để tôi có thể nghỉ ngơi vào cuối tuần.",
+      "word_family": {
+        "noun": "target",
+        "verb": "target / targeted",
+        "adjective": "targeted",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "pos": "noun",
+      "meaning_vi": "hạn chót, thời hạn cuối",
+      "meaning_vi_inline": "hạn chót",
+      "example_en": "The deadline for sending your application is this Friday at 5 p.m.",
+      "example_vi": "Hạn chót để nộp đơn là thứ Sáu này lúc 5 giờ chiều.",
+      "word_family": {
+        "noun": "deadline",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "checklist",
+      "ipa": "/ˈtʃeklɪst/",
+      "pos": "noun",
+      "meaning_vi": "danh sách kiểm tra",
+      "meaning_vi_inline": "danh sách kiểm tra",
+      "example_en": "I use a checklist every morning to make sure I have everything I need for school.",
+      "example_vi": "Tôi dùng danh sách kiểm tra mỗi sáng để đảm bảo mình có đủ mọi thứ cần thiết cho trường học.",
+      "word_family": {
+        "noun": "checklist / check",
+        "verb": "check",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "pos": "verb / adjective",
+      "meaning_vi": "hoàn thành; đầy đủ, hoàn chỉnh",
+      "meaning_vi_inline": "hoàn thành",
+      "example_en": "She completed all her homework before dinner and felt very satisfied.",
+      "example_vi": "Cô ấy đã hoàn thành tất cả bài tập về nhà trước bữa tối và cảm thấy rất hài lòng.",
+      "word_family": {
+        "noun": "completion",
+        "verb": "complete / completed",
+        "adjective": "complete / incomplete",
+        "adverb": "completely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "assess",
+      "ipa": "/əˈses/",
+      "pos": "verb",
+      "meaning_vi": "đánh giá, xem xét",
+      "meaning_vi_inline": "đánh giá",
+      "example_en": "Before you start, assess how much time you have and which tasks are most urgent.",
+      "example_vi": "Trước khi bắt đầu, hãy đánh giá xem bạn có bao nhiêu thời gian và nhiệm vụ nào cấp bách nhất.",
+      "word_family": {
+        "noun": "assessment / assessor",
+        "verb": "assess / assessed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "deadline" },
+        { "id": 2, "word": "confirm" },
+        { "id": 3, "word": "priority" },
+        { "id": 4, "word": "cancel" },
+        { "id": 5, "word": "assess" }
+      ],
+      "options": [
+        { "id": "A", "text": "to look at a situation carefully and decide how good, bad, or important it is" },
+        { "id": "B", "text": "the thing that is most important and must be dealt with first" },
+        { "id": "C", "text": "to say officially that something will not happen or is no longer needed" },
+        { "id": "D", "text": "the latest date or time by which something must be finished" },
+        { "id": "E", "text": "to say or show that something is definitely true or will definitely happen" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I made a _____ of things I need to bring so I do not forget anything.",
+          "options": ["target", "checklist", "schedule", "deadline"],
+          "answer": "checklist"
+        },
+        {
+          "id": 2,
+          "sentence": "Can you _____ me to buy milk on the way home?",
+          "options": ["remind", "confirm", "cancel", "assess"],
+          "answer": "remind"
+        },
+        {
+          "id": 3,
+          "sentence": "She is very _____ — her desk is always tidy and she never misses a deadline.",
+          "options": ["ready", "early", "organised", "complete"],
+          "answer": "organised"
+        },
+        {
+          "id": 4,
+          "sentence": "My _____ for this month is to save enough money to buy a new bicycle.",
+          "options": ["deadline", "checklist", "cancel", "target"],
+          "answer": "target"
+        },
+        {
+          "id": 5,
+          "sentence": "The report must be _____ by Thursday — please do not miss the deadline.",
+          "options": ["cancelled", "reminded", "packed", "completed"],
+          "answer": "completed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["plan", "early", "pack", "deadline", "ready", "confirm"],
+      "items": [
+        { "id": 1, "sentence": "We need to _____ the trip carefully before we book any tickets.", "answer": "plan" },
+        { "id": 2, "sentence": "Please arrive _____ so we can start the meeting on time.", "answer": "early" },
+        { "id": 3, "sentence": "I need to _____ my suitcase tonight — the flight leaves at 6 a.m.", "answer": "pack" },
+        { "id": 4, "sentence": "Are you _____ for the presentation? It starts in ten minutes.", "answer": "ready" },
+        { "id": 5, "sentence": "The _____ for this homework is next Monday morning.", "answer": "deadline" }
+      ],
+      "note": "One word in the box is not used: confirm"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She answered all the teacher's questions _____ — she had studied very hard. (READY)",
+          "base_word": "READY",
+          "answer": "readily",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of your booking will be sent to your email within 24 hours. (CONFIRM)",
+          "base_word": "CONFIRM",
+          "answer": "confirmation",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "Good time management helps you finish tasks _____ without missing deadlines. (COMPLETE)",
+          "base_word": "COMPLETE",
+          "answer": "completely",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "Due to bad weather, the match was _____ — tickets will be refunded. (CANCEL)",
+          "base_word": "CANCEL",
+          "answer": "cancelled",
+          "form_used": "past participle (adjective)"
+        },
+        {
+          "id": 5,
+          "sentence": "The teacher used the test results to _____ each student's level of English. (ASSESS)",
+          "base_word": "ASSESS",
+          "answer": "assess",
+          "form_used": "verb (base form)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I wrote a [deadline] to make sure I had everything I needed before the trip.",
+          "highlighted": "deadline",
+          "options": { "A": "deadline", "B": "checklist", "C": "target" },
+          "answer": "B",
+          "explanation": "A 'deadline' is a fixed time by which something must be done. A list of items you check off one by one to make sure nothing is forgotten is called a 'checklist'."
+        },
+        {
+          "id": 2,
+          "sentence": "She always arrives [early] — she is usually the last person in the room.",
+          "highlighted": "early",
+          "options": { "A": "early", "B": "late", "C": "ready" },
+          "answer": "B",
+          "explanation": "The sentence says she is 'usually the last person in the room', which means she arrives after others — not before. The correct word is 'late', the opposite of early."
+        },
+        {
+          "id": 3,
+          "sentence": "Please [remind] your booking at least one day before you arrive.",
+          "highlighted": "remind",
+          "options": { "A": "cancel", "B": "remind", "C": "confirm" },
+          "answer": "C",
+          "explanation": "'Remind' means to make someone remember something. When you contact a hotel or airline to check that your reservation is still valid, you 'confirm' it."
+        },
+        {
+          "id": 4,
+          "sentence": "She tried to [complete] her tasks from most urgent to least urgent.",
+          "highlighted": "complete",
+          "options": { "A": "assess", "B": "organise", "C": "complete" },
+          "answer": "B",
+          "explanation": "'Complete' means to finish a task. When you arrange tasks in a logical order from most to least important, you 'organise' them."
+        },
+        {
+          "id": 5,
+          "sentence": "We had to [confirm] the trip because the main speaker was suddenly ill.",
+          "highlighted": "confirm",
+          "options": { "A": "remind", "B": "confirm", "C": "cancel" },
+          "answer": "C",
+          "explanation": "'Confirm' means to say something will definitely happen. When an event does not take place because of a problem, it is 'cancelled' — the opposite of confirmed."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "D", "2": "E", "3": "B", "4": "C", "5": "A" },
+    "ex2": { "1": "checklist", "2": "remind", "3": "organised", "4": "target", "5": "completed" },
+    "ex3": { "1": "plan", "2": "early", "3": "pack", "4": "ready", "5": "deadline" },
+    "ex4": { "1": "readily", "2": "confirmation", "3": "completely", "4": "cancelled", "5": "assess" },
+    "ex5": { "1": "B", "2": "B", "3": "C", "4": "B", "5": "C" }
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 49,
+    "topic_id": "b1-t49",
+    "topic_title": "Problems & Solutions",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🔧",
+    "topic_title_vi": "Vấn Đề & Giải Pháp",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "One morning, our school **machine** stopped working. Something was **wrong** — it made a loud noise and would not start. The teacher told us to use **caution** and not touch it. She wrote a **report** to send to the office right away.",
+        "text_vi": "Một buổi sáng, **máy móc** ở trường chúng tôi ngừng hoạt động. Có điều gì đó **sai** — nó phát ra tiếng ồn lớn và không chịu khởi động. Giáo viên bảo chúng tôi hãy **cẩn thận** và không chạm vào nó. Cô ấy viết một **báo cáo** để gửi đến văn phòng ngay lập tức."
+      },
+      {
+        "index": 2,
+        "text_en": "The technician came with his **tool** bag. He looked at the **damage** carefully. He said it was **urgent** to find a **solution** before the afternoon class. He decided to **replace** the broken part first.",
+        "text_vi": "Kỹ thuật viên đến với túi **dụng cụ** của anh ấy. Anh ấy xem xét **hư hỏng** một cách cẩn thận. Anh ấy nói rằng thật **khẩn cấp** phải tìm ra **giải pháp** trước giờ học buổi chiều. Anh ấy quyết định **thay thế** bộ phận bị hỏng trước tiên."
+      },
+      {
+        "index": 3,
+        "text_en": "He began to **repair** the machine step by step. He had to **try** several times before it worked. He was careful not to **break** any other parts. After an hour, he started to **fix** the last connection.",
+        "text_vi": "Anh ấy bắt đầu **sửa chữa** máy từng bước một. Anh ấy phải **thử** nhiều lần trước khi máy hoạt động. Anh ấy cẩn thận để không **làm hỏng** thêm bộ phận nào khác. Sau một giờ, anh ấy bắt đầu **sửa** kết nối cuối cùng."
+      },
+      {
+        "index": 4,
+        "text_en": "At last, the machine turned on. The technician was happy to **succeed**. He told us the **problem** was a small broken wire. With the right **tool** and careful work, any **damage** can be fixed. The class could begin on time.",
+        "text_vi": "Cuối cùng, máy bật lên. Kỹ thuật viên rất vui khi **thành công**. Anh ấy nói với chúng tôi rằng **vấn đề** là một sợi dây bị đứt nhỏ. Với **dụng cụ** phù hợp và công việc cẩn thận, bất kỳ **hư hỏng** nào cũng có thể được sửa chữa. Lớp học có thể bắt đầu đúng giờ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "problem",
+      "ipa": "/ˈprɒbləm/",
+      "pos": "noun",
+      "meaning_vi": "vấn đề, sự cố",
+      "meaning_vi_inline": "vấn đề",
+      "example_en": "We had a problem with the computer — it would not turn on this morning.",
+      "example_vi": "Chúng tôi gặp vấn đề với máy tính — sáng nay nó không chịu bật lên.",
+      "word_family": {
+        "noun": "problem",
+        "verb": null,
+        "adjective": "problematic",
+        "adverb": "problematically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "fix",
+      "ipa": "/fɪks/",
+      "pos": "verb",
+      "meaning_vi": "sửa, khắc phục",
+      "meaning_vi_inline": "sửa",
+      "example_en": "Can you fix my bicycle? The wheel is broken and I cannot ride it.",
+      "example_vi": "Bạn có thể sửa xe đạp của tôi không? Bánh xe bị hỏng và tôi không thể đi được.",
+      "word_family": {
+        "noun": "fix",
+        "verb": "fix / fixed",
+        "adjective": "fixed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "repair",
+      "ipa": "/rɪˈpeər/",
+      "pos": "verb / noun",
+      "meaning_vi": "sửa chữa; việc sửa chữa",
+      "meaning_vi_inline": "sửa chữa",
+      "example_en": "The mechanic will repair your car by tomorrow afternoon.",
+      "example_vi": "Thợ cơ khí sẽ sửa chữa ô tô của bạn vào buổi chiều ngày mai.",
+      "word_family": {
+        "noun": "repair / repairs",
+        "verb": "repair / repaired",
+        "adjective": "repairable / irreparable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "break",
+      "ipa": "/breɪk/",
+      "pos": "verb",
+      "meaning_vi": "làm hỏng, làm vỡ",
+      "meaning_vi_inline": "làm hỏng",
+      "example_en": "Please be careful — do not break the glass when you wash it.",
+      "example_vi": "Hãy cẩn thận — đừng làm vỡ cái ly khi bạn rửa nhé.",
+      "word_family": {
+        "noun": "break / breakdown",
+        "verb": "break / broke / broken",
+        "adjective": "broken",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "try",
+      "ipa": "/traɪ/",
+      "pos": "verb",
+      "meaning_vi": "thử, cố gắng",
+      "meaning_vi_inline": "thử",
+      "example_en": "If it does not work the first time, try again — do not give up.",
+      "example_vi": "Nếu lần đầu không được, hãy thử lại — đừng bỏ cuộc.",
+      "word_family": {
+        "noun": "try / attempt",
+        "verb": "try / tried",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "succeed",
+      "ipa": "/səkˈsiːd/",
+      "pos": "verb",
+      "meaning_vi": "thành công, đạt được mục tiêu",
+      "meaning_vi_inline": "thành công",
+      "example_en": "She worked very hard and finally succeeded in passing her driving test.",
+      "example_vi": "Cô ấy đã cố gắng rất nhiều và cuối cùng đã thành công trong kỳ thi bằng lái xe.",
+      "word_family": {
+        "noun": "success / successor",
+        "verb": "succeed / succeeded",
+        "adjective": "successful / unsuccessful",
+        "adverb": "successfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "replace",
+      "ipa": "/rɪˈpleɪs/",
+      "pos": "verb",
+      "meaning_vi": "thay thế, thay mới",
+      "meaning_vi_inline": "thay thế",
+      "example_en": "We need to replace the old light bulb — it stopped working last night.",
+      "example_vi": "Chúng ta cần thay thế bóng đèn cũ — nó đã ngừng hoạt động tối qua.",
+      "word_family": {
+        "noun": "replacement",
+        "verb": "replace / replaced",
+        "adjective": "replaceable / irreplaceable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "tool",
+      "ipa": "/tuːl/",
+      "pos": "noun",
+      "meaning_vi": "dụng cụ, công cụ",
+      "meaning_vi_inline": "dụng cụ",
+      "example_en": "A hammer is a useful tool for fixing things around the house.",
+      "example_vi": "Cái búa là một dụng cụ hữu ích để sửa chữa đồ vật trong nhà.",
+      "word_family": {
+        "noun": "tool",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "machine",
+      "ipa": "/məˈʃiːn/",
+      "pos": "noun",
+      "meaning_vi": "máy, máy móc",
+      "meaning_vi_inline": "máy móc",
+      "example_en": "The washing machine is broken — we need to call someone to repair it.",
+      "example_vi": "Máy giặt bị hỏng rồi — chúng ta cần gọi ai đó đến sửa.",
+      "word_family": {
+        "noun": "machine / machinery",
+        "verb": null,
+        "adjective": "mechanical",
+        "adverb": "mechanically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "wrong",
+      "ipa": "/rɒŋ/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "sai, không đúng",
+      "meaning_vi_inline": "sai",
+      "example_en": "Something is wrong with the printer — it keeps printing blank pages.",
+      "example_vi": "Có gì đó sai với máy in — nó cứ in ra những trang trắng.",
+      "word_family": {
+        "noun": "wrong",
+        "verb": null,
+        "adjective": "wrong",
+        "adverb": "wrongly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "damage",
+      "ipa": "/ˈdæmɪdʒ/",
+      "pos": "noun / verb",
+      "meaning_vi": "hư hỏng, thiệt hại; làm hư hỏng",
+      "meaning_vi_inline": "hư hỏng",
+      "example_en": "The flood caused a lot of damage to the houses in the village.",
+      "example_vi": "Lũ lụt đã gây ra nhiều hư hỏng cho các ngôi nhà trong làng.",
+      "word_family": {
+        "noun": "damage",
+        "verb": "damage / damaged",
+        "adjective": "damaged / undamaged",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "caution",
+      "ipa": "/ˈkɔːʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự cẩn thận, sự thận trọng",
+      "meaning_vi_inline": "cẩn thận",
+      "example_en": "Please use caution when walking on the wet floor — it is very slippery.",
+      "example_vi": "Hãy cẩn thận khi đi trên sàn ướt — rất trơn trượt đấy.",
+      "word_family": {
+        "noun": "caution",
+        "verb": "caution / cautioned",
+        "adjective": "cautious / cautionary",
+        "adverb": "cautiously"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "report",
+      "ipa": "/rɪˈpɔːt/",
+      "pos": "noun / verb",
+      "meaning_vi": "báo cáo; viết/nộp báo cáo",
+      "meaning_vi_inline": "báo cáo",
+      "example_en": "She wrote a report about the broken machine and sent it to the manager.",
+      "example_vi": "Cô ấy đã viết một báo cáo về máy móc bị hỏng và gửi cho người quản lý.",
+      "word_family": {
+        "noun": "report / reporter",
+        "verb": "report / reported",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "solution",
+      "ipa": "/səˈluːʃən/",
+      "pos": "noun",
+      "meaning_vi": "giải pháp, cách giải quyết",
+      "meaning_vi_inline": "giải pháp",
+      "example_en": "We worked together and found a good solution to the problem.",
+      "example_vi": "Chúng tôi cùng nhau làm việc và tìm ra một giải pháp tốt cho vấn đề.",
+      "word_family": {
+        "noun": "solution",
+        "verb": "solve / solved",
+        "adjective": "solvable / unsolvable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "urgent",
+      "ipa": "/ˈɜːdʒənt/",
+      "pos": "adjective",
+      "meaning_vi": "khẩn cấp, gấp",
+      "meaning_vi_inline": "khẩn cấp",
+      "example_en": "This is an urgent matter — we need to fix it before the customers arrive.",
+      "example_vi": "Đây là vấn đề khẩn cấp — chúng ta cần sửa nó trước khi khách hàng đến.",
+      "word_family": {
+        "noun": "urgency",
+        "verb": "urge / urged",
+        "adjective": "urgent",
+        "adverb": "urgently"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "solution" },
+        { "id": 2, "word": "urgent" },
+        { "id": 3, "word": "damage" },
+        { "id": 4, "word": "caution" },
+        { "id": 5, "word": "replace" }
+      ],
+      "options": [
+        { "id": "A", "text": "harm or injury caused to something, making it less useful or good" },
+        { "id": "B", "text": "to put something new in the place of something old or broken" },
+        { "id": "C", "text": "needing to be done immediately because it is very important" },
+        { "id": "D", "text": "care taken to avoid danger or making mistakes" },
+        { "id": "E", "text": "an answer to a problem or a way of dealing with a difficult situation" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The technician used a special _____ to open the back of the machine.",
+          "options": ["tool", "damage", "report", "solution"],
+          "answer": "tool"
+        },
+        {
+          "id": 2,
+          "sentence": "We need to act fast — this is an _____ situation and cannot wait until tomorrow.",
+          "options": ["broken", "urgent", "wrong", "careful"],
+          "answer": "urgent"
+        },
+        {
+          "id": 3,
+          "sentence": "After many tries, she finally managed to _____ in fixing the old clock.",
+          "options": ["break", "damage", "succeed", "replace"],
+          "answer": "succeed"
+        },
+        {
+          "id": 4,
+          "sentence": "Something is _____ with this phone — the screen keeps turning off by itself.",
+          "options": ["wrong", "urgent", "fixed", "damaged"],
+          "answer": "wrong"
+        },
+        {
+          "id": 5,
+          "sentence": "The teacher asked the students to use _____ when handling the science equipment.",
+          "options": ["report", "repair", "solution", "caution"],
+          "answer": "caution"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["repair", "problem", "replace", "fix", "report", "break"],
+      "items": [
+        { "id": 1, "sentence": "We need to _____ this issue before the next class begins.", "answer": "fix" },
+        { "id": 2, "sentence": "The mechanic said he can _____ the engine in about two hours.", "answer": "repair" },
+        { "id": 3, "sentence": "She wrote a _____ about the accident and gave it to her teacher.", "answer": "report" },
+        { "id": 4, "sentence": "We will _____ the old chairs with new ones next week.", "answer": "replace" },
+        { "id": 5, "sentence": "The main _____ is that the battery is completely empty.", "answer": "problem" }
+      ],
+      "note": "One word in the box is not used: break"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She handled the situation _____ and avoided making the problem worse. (CAUTION)",
+          "base_word": "CAUTION",
+          "answer": "cautiously",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "After weeks of hard work, the team celebrated their _____. (SUCCEED)",
+          "base_word": "SUCCEED",
+          "answer": "success",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "The old laptop is _____ — the screen has a large crack on it. (DAMAGE)",
+          "base_word": "DAMAGE",
+          "answer": "damaged",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "We need a _____ part for the printer — the old one is completely broken. (REPLACE)",
+          "base_word": "REPLACE",
+          "answer": "replacement",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "Please send us an _____ email — we must solve this before lunchtime. (URGENT)",
+          "base_word": "URGENT",
+          "answer": "urgently",
+          "form_used": "adverb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The engineer used a [solution] to tighten the screws on the broken machine.",
+          "highlighted": "solution",
+          "options": { "A": "caution", "B": "solution", "C": "tool" },
+          "answer": "C",
+          "explanation": "A 'solution' is an answer to a problem, not a physical object. The word needed here is 'tool' — a physical device used to do a job, like tightening screws."
+        },
+        {
+          "id": 2,
+          "sentence": "Please [fix] when you walk near the broken glass on the floor.",
+          "highlighted": "fix",
+          "options": { "A": "use caution", "B": "fix", "C": "report" },
+          "answer": "A",
+          "explanation": "'Fix' means to repair something. When you need to be careful while walking near danger, the correct phrase is 'use caution' — meaning to act carefully and safely."
+        },
+        {
+          "id": 3,
+          "sentence": "We must find a [damage] to the power problem before the meeting starts.",
+          "highlighted": "damage",
+          "options": { "A": "report", "B": "damage", "C": "solution" },
+          "answer": "C",
+          "explanation": "'Damage' refers to harm or injury to something. When you need to deal with a problem, you find a 'solution' — a way to fix or solve it."
+        },
+        {
+          "id": 4,
+          "sentence": "The student wrote a long [solution] about the damage to the school equipment.",
+          "highlighted": "solution",
+          "options": { "A": "report", "B": "solution", "C": "tool" },
+          "answer": "A",
+          "explanation": "A 'solution' is an answer to a problem. A written document that describes something that happened — like damage to equipment — is a 'report'."
+        },
+        {
+          "id": 5,
+          "sentence": "The old battery stopped working, so we had to [damage] it with a new one.",
+          "highlighted": "damage",
+          "options": { "A": "damage", "B": "replace", "C": "break" },
+          "answer": "B",
+          "explanation": "'Damage' means to harm something. When something stops working and you put a new one in its place, you 'replace' it — not damage it."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "C", "3": "A", "4": "D", "5": "B" },
+    "ex2": { "1": "tool", "2": "urgent", "3": "succeed", "4": "wrong", "5": "caution" },
+    "ex3": { "1": "fix", "2": "repair", "3": "report", "4": "replace", "5": "problem" },
+    "ex4": { "1": "cautiously", "2": "success", "3": "damaged", "4": "replacement", "5": "urgently" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "B" }
+  }
+}

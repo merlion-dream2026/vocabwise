@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 46,
+    "topic_id": "b3-t46",
+    "topic_title": "Negotiation & Persuasion",
+    "topic_title_vi": "Đàm Phán & Thuyết Phục",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🤝",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Negotiation is a structured form of communication in which parties with differing interests work towards a mutually acceptable outcome. At its core, successful negotiation demands the ability to **build rapport strategically** — establishing trust and goodwill from the outset so that the other party feels respected rather than pressured. When **rapport** is absent, even technically sound proposals are often rejected, because people's willingness to **compromise** depends as much on relationship quality as on the merits of any given offer.",
+        "text_vi": "Đàm phán là một hình thức giao tiếp có cấu trúc trong đó các bên có lợi ích khác nhau cùng hướng tới một kết quả được cả hai chấp nhận. Về cơ bản, đàm phán thành công đòi hỏi khả năng **xây dựng mối quan hệ một cách chiến lược** — thiết lập sự tin tưởng và thiện chí ngay từ đầu để bên kia cảm thấy được tôn trọng chứ không bị áp lực. Khi thiếu **mối quan hệ**, ngay cả những đề xuất hợp lý về mặt kỹ thuật cũng thường bị từ chối, bởi vì sự sẵn sàng **nhượng bộ** của mọi người phụ thuộc nhiều vào chất lượng mối quan hệ cũng như vào giá trị của bất kỳ đề nghị nào."
+      },
+      {
+        "index": 2,
+        "text_en": "Experienced negotiators also understand the power of **framing** — presenting an offer in a way that emphasises its benefits rather than its costs. How a position is **framed** dramatically affects the other party's response. Alongside framing, **anchoring** plays a pivotal role: the first figure or condition introduced in a negotiation tends to set the psychological reference point around which all subsequent discussion revolves. Skilled negotiators therefore **frame a negotiating position** carefully before any specific numbers are placed on the table.",
+        "text_vi": "Các nhà đàm phán kinh nghiệm cũng hiểu sức mạnh của **đóng khung** — trình bày một đề nghị theo cách nhấn mạnh lợi ích thay vì chi phí của nó. Cách một lập trường được **đóng khung** ảnh hưởng đáng kể đến phản ứng của bên kia. Bên cạnh việc đóng khung, **neo cố định** đóng vai trò then chốt: con số hoặc điều kiện đầu tiên được đưa ra trong một cuộc đàm phán có xu hướng thiết lập điểm tham chiếu tâm lý mà xung quanh đó mọi thảo luận tiếp theo diễn ra. Do đó các nhà đàm phán lành nghề **đưa ra lập trường đàm phán** một cách cẩn thận trước khi bất kỳ con số cụ thể nào được đặt lên bàn."
+      },
+      {
+        "index": 3,
+        "text_en": "Progress can stall when parties reach a **deadlock** — a point at which neither side is willing to move. In such moments, a trained **mediator** may be brought in to facilitate dialogue, or negotiators themselves must find creative ways to **break a negotiating deadlock**. One proven approach is to **make strategic concessions**: deliberately yielding on lower-priority issues to signal good faith and unlock movement on issues that matter more.",
+        "text_vi": "Tiến trình có thể bị đình trệ khi các bên rơi vào **bế tắc** — một thời điểm mà không bên nào sẵn sàng nhượng bộ. Trong những khoảnh khắc như vậy, một **người hòa giải** được đào tạo có thể được mời vào để tạo điều kiện cho đối thoại, hoặc các nhà đàm phán phải tự tìm ra những cách sáng tạo để **phá vỡ thế bế tắc trong đàm phán**. Một cách tiếp cận đã được chứng minh là **thực hiện những nhượng bộ có chiến lược**: cố tình nhường nhịn về các vấn đề có mức độ ưu tiên thấp hơn để tín hiệu thiện chí và mở ra sự chuyển động về các vấn đề quan trọng hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "A further technique is to exploit **leverage** — any advantage that strengthens one's bargaining position — while maintaining **assertiveness** without aggression. The principle of **reciprocity** also shapes negotiation dynamics profoundly: when one party makes a **concession**, the other typically feels a social obligation to respond in kind. Skilled negotiators deliberately **apply the principle of reciprocity** to create momentum, using carefully timed gestures of goodwill to encourage increasingly cooperative behaviour from the opposing side.",
+        "text_vi": "Một kỹ thuật khác là khai thác **đòn bẩy** — bất kỳ lợi thế nào củng cố vị thế mặc cả của mình — trong khi duy trì **tính quyết đoán** mà không mang tính gây hấn. Nguyên tắc **có qua có lại** cũng định hình sâu sắc động lực đàm phán: khi một bên thực hiện **sự nhượng bộ**, bên kia thường cảm thấy nghĩa vụ xã hội phải đáp lại tương xứng. Các nhà đàm phán lành nghề cố tình **áp dụng nguyên tắc có qua có lại** để tạo đà, sử dụng những cử chỉ thiện chí được tính thời điểm cẩn thận để khuyến khích hành vi hợp tác ngày càng tăng từ phía đối phương."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "compromise",
+      "ipa": "/ˈkɒm.prə.maɪz/",
+      "pos": "noun / verb",
+      "meaning_vi": "sự nhượng bộ, thỏa hiệp; (v) thỏa hiệp, nhượng bộ",
+      "meaning_vi_inline": "nhượng bộ, thỏa hiệp",
+      "example_en": "After hours of discussion, both sides agreed on a compromise that addressed each party's core concerns.",
+      "example_vi": "Sau nhiều giờ thảo luận, cả hai bên đã đồng ý về một sự thỏa hiệp giải quyết những mối quan tâm cốt lõi của mỗi bên.",
+      "word_family": {
+        "noun": "compromise",
+        "verb": "compromise",
+        "adjective": "compromising",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "leverage",
+      "ipa": "/ˈliː.vər.ɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "đòn bẩy, lợi thế trong đàm phán",
+      "meaning_vi_inline": "đòn bẩy",
+      "example_en": "The company's strong market position gave it considerable leverage in the supply contract talks.",
+      "example_vi": "Vị thế thị trường mạnh mẽ của công ty mang lại cho họ đòn bẩy đáng kể trong các cuộc đàm phán hợp đồng cung ứng.",
+      "word_family": {
+        "noun": "leverage",
+        "verb": "leverage",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "concession",
+      "ipa": "/kənˈseʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "sự nhượng bộ, điều được nhường",
+      "meaning_vi_inline": "sự nhượng bộ",
+      "example_en": "The union made several concessions on working hours in exchange for a guaranteed wage increase.",
+      "example_vi": "Công đoàn đã thực hiện một số nhượng bộ về giờ làm việc để đổi lấy mức tăng lương được đảm bảo.",
+      "word_family": {
+        "noun": "concession",
+        "verb": "concede",
+        "adjective": "concessive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "compromise",
+        "explanation_vi": "'Concession' là điều một bên chủ động nhường trong đàm phán; 'compromise' là kết quả mà cả hai bên cùng nhường nhịn để đạt đồng thuận — không hoàn toàn đồng nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "rapport",
+      "ipa": "/ræˈpɔːr/",
+      "pos": "noun",
+      "meaning_vi": "mối quan hệ hài hòa, sự kết nối tin tưởng giữa người với người",
+      "meaning_vi_inline": "mối quan hệ",
+      "example_en": "The sales representative quickly established rapport with the client by asking thoughtful questions.",
+      "example_vi": "Đại diện bán hàng nhanh chóng thiết lập mối quan hệ với khách hàng bằng cách đặt những câu hỏi chu đáo.",
+      "word_family": {
+        "noun": "rapport",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "deadlock",
+      "ipa": "/ˈded.lɒk/",
+      "pos": "noun",
+      "meaning_vi": "thế bế tắc, tình trạng không bên nào chịu nhượng bộ",
+      "meaning_vi_inline": "bế tắc",
+      "example_en": "Negotiations reached a deadlock when neither party would budge on the question of ownership rights.",
+      "example_vi": "Các cuộc đàm phán đã rơi vào bế tắc khi không bên nào chịu nhượng bộ về vấn đề quyền sở hữu.",
+      "word_family": {
+        "noun": "deadlock",
+        "verb": "deadlock",
+        "adjective": "deadlocked",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "framing",
+      "ipa": "/ˈfreɪ.mɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "sự đóng khung, cách trình bày thông tin để ảnh hưởng đến nhận thức",
+      "meaning_vi_inline": "đóng khung",
+      "example_en": "The politician's framing of the tax as an 'investment in the future' helped shift public opinion in its favour.",
+      "example_vi": "Cách đóng khung của chính trị gia về loại thuế này như một 'khoản đầu tư cho tương lai' đã giúp thay đổi dư luận ủng hộ nó.",
+      "word_family": {
+        "noun": "framing / frame",
+        "verb": "frame",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "mediation",
+      "ipa": "/ˌmiː.diˈeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hòa giải, quá trình nhờ bên thứ ba giải quyết tranh chấp",
+      "meaning_vi_inline": "sự hòa giải",
+      "example_en": "The labour dispute was finally resolved through professional mediation rather than legal action.",
+      "example_vi": "Tranh chấp lao động cuối cùng được giải quyết thông qua hòa giải chuyên nghiệp thay vì hành động pháp lý.",
+      "word_family": {
+        "noun": "mediation / mediator",
+        "verb": "mediate",
+        "adjective": "mediatory",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "meditation",
+        "explanation_vi": "'Mediation' là quá trình hòa giải tranh chấp; 'meditation' là sự thiền định — phát âm và nghĩa hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "assertiveness",
+      "ipa": "/əˈsɜː.tɪv.nəs/",
+      "pos": "noun",
+      "meaning_vi": "tính quyết đoán, sự tự tin nêu rõ quan điểm mà không gây hấn",
+      "meaning_vi_inline": "tính quyết đoán",
+      "example_en": "Her assertiveness in the boardroom ensured that her team's proposals were heard and seriously considered.",
+      "example_vi": "Tính quyết đoán của cô ấy trong phòng họp hội đồng đảm bảo rằng các đề xuất của nhóm cô được lắng nghe và xem xét nghiêm túc.",
+      "word_family": {
+        "noun": "assertiveness / assertion",
+        "verb": "assert",
+        "adjective": "assertive",
+        "adverb": "assertively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "reciprocity",
+      "ipa": "/ˌres.ɪˈprɒs.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "nguyên tắc có qua có lại, sự trao đổi tương hỗ",
+      "meaning_vi_inline": "có qua có lại",
+      "example_en": "The principle of reciprocity underpins many social interactions, from gift-giving to trade agreements.",
+      "example_vi": "Nguyên tắc có qua có lại là nền tảng của nhiều tương tác xã hội, từ tặng quà đến các hiệp định thương mại.",
+      "word_family": {
+        "noun": "reciprocity",
+        "verb": "reciprocate",
+        "adjective": "reciprocal",
+        "adverb": "reciprocally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "anchoring",
+      "ipa": "/ˈæŋ.kər.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "neo cố định (hiệu ứng tâm lý: thông tin đầu tiên ảnh hưởng đến các phán đoán tiếp theo)",
+      "meaning_vi_inline": "neo cố định",
+      "example_en": "Anchoring explains why the first price stated in a salary negotiation tends to dominate the entire discussion.",
+      "example_vi": "Neo cố định giải thích tại sao mức lương đầu tiên được đề cập trong một cuộc đàm phán lương có xu hướng chi phối toàn bộ cuộc thảo luận.",
+      "word_family": {
+        "noun": "anchoring / anchor",
+        "verb": "anchor",
+        "adjective": "anchored",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "build rapport strategically",
+      "meaning_vi": "xây dựng mối quan hệ một cách chiến lược",
+      "example_en": "Experienced sales professionals learn to build rapport strategically before discussing any terms or prices.",
+      "example_vi": "Các chuyên gia bán hàng giàu kinh nghiệm học cách xây dựng mối quan hệ một cách chiến lược trước khi thảo luận về bất kỳ điều khoản hay giá cả nào.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "frame a negotiating position",
+      "meaning_vi": "đưa ra lập trường đàm phán (bằng cách đóng khung có chủ đích)",
+      "example_en": "The legal team spent days preparing how to frame a negotiating position that would appear reasonable to all parties.",
+      "example_vi": "Nhóm pháp lý đã dành nhiều ngày chuẩn bị cách đưa ra lập trường đàm phán trông hợp lý với tất cả các bên.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "break a negotiating deadlock",
+      "meaning_vi": "phá vỡ thế bế tắc trong đàm phán",
+      "example_en": "Introducing a new variable — such as a deferred payment option — can sometimes break a negotiating deadlock.",
+      "example_vi": "Đưa ra một biến số mới — chẳng hạn như tùy chọn thanh toán trả chậm — đôi khi có thể phá vỡ thế bế tắc trong đàm phán.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "make strategic concessions",
+      "meaning_vi": "thực hiện những nhượng bộ có chiến lược",
+      "example_en": "Knowing when to make strategic concessions is as important as knowing when to hold firm.",
+      "example_vi": "Biết khi nào cần thực hiện những nhượng bộ có chiến lược quan trọng không kém biết khi nào cần giữ vững lập trường.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "apply the principle of reciprocity",
+      "meaning_vi": "áp dụng nguyên tắc có qua có lại",
+      "example_en": "Negotiators who apply the principle of reciprocity tend to achieve more cooperative outcomes than those who rely solely on pressure.",
+      "example_vi": "Các nhà đàm phán áp dụng nguyên tắc có qua có lại thường đạt được kết quả hợp tác hơn so với những người chỉ dựa vào áp lực.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, people's willingness to compromise depends entirely on the quality of any given offer.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that anchoring refers to the psychological influence of the first figure introduced in a negotiation.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that mediators are more effective than negotiators themselves at resolving deadlocks.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, making concessions on lower-priority issues can signal good faith and unlock progress.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that assertiveness and aggression are essentially the same quality in a negotiation context.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The union's willingness to accept a pay freeze was a significant _____ that helped move talks forward.",
+          "options": [
+            "deadlock",
+            "framing",
+            "concession",
+            "reciprocity"
+          ],
+          "answer": "concession"
+        },
+        {
+          "id": 2,
+          "sentence": "The board's decision to offer an extended warranty gave the company real _____ in the price negotiations.",
+          "options": [
+            "rapport",
+            "mediation",
+            "assertiveness",
+            "leverage"
+          ],
+          "answer": "leverage"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the question — 'Do you want to lose this opportunity?' rather than 'Would you like to take this opportunity?' — strongly influenced the participants' responses.",
+          "options": [
+            "anchoring",
+            "framing",
+            "deadlock",
+            "mediation"
+          ],
+          "answer": "framing"
+        },
+        {
+          "id": 4,
+          "sentence": "After weeks of _____, both parties agreed to bring in an independent _____ to help restart the dialogue.",
+          "options": [
+            "deadlock / mediator",
+            "concession / anchor",
+            "rapport / framing",
+            "leverage / reciprocity"
+          ],
+          "answer": "deadlock / mediator"
+        },
+        {
+          "id": 5,
+          "sentence": "She demonstrated remarkable _____ by clearly stating her terms without raising her voice or making threats.",
+          "options": [
+            "reciprocity",
+            "anchoring",
+            "assertiveness",
+            "compromise"
+          ],
+          "answer": "assertiveness"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "anchoring",
+        "reciprocity",
+        "rapport",
+        "deadlock",
+        "mediation",
+        "framing"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The diplomat spent the first fifteen minutes of the summit simply building _____ before any substantive issues were raised.",
+          "answer": "rapport"
+        },
+        {
+          "id": 2,
+          "sentence": "By quoting an initial price far above the market rate, the seller was exploiting _____ to make later offers appear more reasonable.",
+          "answer": "anchoring"
+        },
+        {
+          "id": 3,
+          "sentence": "Presenting budget cuts as 'protecting core services' rather than 'reducing spending' is a classic example of political _____.",
+          "answer": "framing"
+        },
+        {
+          "id": 4,
+          "sentence": "The principle of _____ means that a small, unexpected favour can generate a surprisingly strong sense of obligation to respond in kind.",
+          "answer": "reciprocity"
+        },
+        {
+          "id": 5,
+          "sentence": "When direct talks collapsed, both sides agreed to external _____ as the only remaining path to a settlement.",
+          "answer": "mediation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "building",
+            "rapport",
+            "is",
+            "the",
+            "foundation",
+            "of",
+            "any",
+            "successful",
+            "negotiation"
+          ],
+          "answer": "Building rapport is the foundation of any successful negotiation."
+        },
+        {
+          "id": 2,
+          "words": [
+            "skilled",
+            "negotiators",
+            "use",
+            "framing",
+            "to",
+            "shape",
+            "how",
+            "offers",
+            "are",
+            "perceived"
+          ],
+          "answer": "Skilled negotiators use framing to shape how offers are perceived."
+        },
+        {
+          "id": 3,
+          "words": [
+            "strategic",
+            "concessions",
+            "can",
+            "break",
+            "a",
+            "deadlock",
+            "and",
+            "restore",
+            "momentum"
+          ],
+          "answer": "Strategic concessions can break a deadlock and restore momentum."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "first",
+            "figure",
+            "mentioned",
+            "anchors",
+            "all",
+            "subsequent",
+            "discussion"
+          ],
+          "answer": "The first figure mentioned anchors all subsequent discussion."
+        },
+        {
+          "id": 5,
+          "words": [
+            "applying",
+            "reciprocity",
+            "encourages",
+            "cooperative",
+            "behaviour",
+            "from",
+            "the",
+            "other",
+            "side"
+          ],
+          "answer": "Applying reciprocity encourages cooperative behaviour from the other side."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "After six hours of talks, both delegations agreed to [compromise] their differences and accept a shared framework.",
+          "highlighted": "compromise",
+          "options": {
+            "A": "concede",
+            "B": "set aside",
+            "C": "mediate"
+          },
+          "answer": "B",
+          "explanation": "The correct collocation is 'set aside differences'; 'compromise' is used intransitively (you compromise, not compromise something) and 'mediate' requires a mediator role."
+        },
+        {
+          "id": 2,
+          "sentence": "The negotiator's [assert] in the final hour of talks secured far better terms than anyone had anticipated.",
+          "highlighted": "assert",
+          "options": {
+            "A": "assertive",
+            "B": "assertiveness",
+            "C": "asserted"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'assertiveness', not the verb 'assert'."
+        },
+        {
+          "id": 3,
+          "sentence": "The two sides reached [deadlocked] on the issue of intellectual property rights and suspended the talks indefinitely.",
+          "highlighted": "deadlocked",
+          "options": {
+            "A": "a deadlock",
+            "B": "deadlocking",
+            "C": "deadlocks"
+          },
+          "answer": "A",
+          "explanation": "'Reach a deadlock' is the correct collocation — a count noun with the indefinite article; 'deadlocked' is an adjective and cannot follow 'reached' here."
+        },
+        {
+          "id": 4,
+          "sentence": "The company leveraged its dominant market position as [leverage] in the contract renewal discussion.",
+          "highlighted": "leverage",
+          "options": {
+            "A": "a lever",
+            "B": "leveraging",
+            "C": "leverage"
+          },
+          "answer": "A",
+          "explanation": "The sentence already uses 'leveraged' as a verb; the noun slot after 'as' requires 'a lever' to avoid awkward repetition and maintain grammatical sense. Accept 'leverage' only if used non-repetitively — here the repetition creates an error."
+        },
+        {
+          "id": 5,
+          "sentence": "Offering a small discount upfront was a deliberate attempt to [reciprocal] and create goodwill for the harder discussions ahead.",
+          "highlighted": "reciprocal",
+          "options": {
+            "A": "reciprocate",
+            "B": "reciprocity",
+            "C": "reciprocating"
+          },
+          "answer": "A",
+          "explanation": "A verb in the base form is required after 'to' in this infinitive structure — 'reciprocate', not the adjective 'reciprocal'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "concession",
+      "2": "leverage",
+      "3": "framing",
+      "4": "deadlock / mediator",
+      "5": "assertiveness"
+    },
+    "ex3": {
+      "1": "rapport",
+      "2": "anchoring",
+      "3": "framing",
+      "4": "reciprocity",
+      "5": "mediation"
+    },
+    "ex4": {
+      "1": "Building rapport is the foundation of any successful negotiation.",
+      "2": "Skilled negotiators use framing to shape how offers are perceived.",
+      "3": "Strategic concessions can break a deadlock and restore momentum.",
+      "4": "The first figure mentioned anchors all subsequent discussion.",
+      "5": "Applying reciprocity encourages cooperative behaviour from the other side."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "A",
+      "4": "A",
+      "5": "A"
+    }
+  }
+}

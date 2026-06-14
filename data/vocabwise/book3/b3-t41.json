@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 41,
+    "topic_id": "b3-t41",
+    "topic_title": "The Power of Rhetoric",
+    "topic_title_vi": "Sức Mạnh Của Hùng Biện",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🎤",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "**Rhetoric** — the art of effective and persuasive communication — has shaped public life since ancient Greece. Classical theorists identified three pillars of **persuasion**: **ethos**, the speaker's authority and moral character; **pathos**, the emotional appeal to an audience; and **logos**, the use of logic and evidence. Together, these tools allow skilled communicators to **craft a compelling argument** that resonates at every level of human understanding.",
+        "text_vi": "**Hùng biện** — nghệ thuật giao tiếp hiệu quả và có sức thuyết phục — đã định hình đời sống công chúng từ thời Hy Lạp cổ đại. Các nhà lý luận cổ điển xác định ba trụ cột của **thuyết phục**: **ethos**, tức uy tín và phẩm cách đạo đức của người nói; **pathos**, tức sự kêu gọi cảm xúc đến người nghe; và **logos**, tức việc sử dụng logic và bằng chứng. Kết hợp lại, những công cụ này cho phép những người giao tiếp tài ba **xây dựng một lập luận thuyết phục** gây tiếng vang ở mọi tầng hiểu biết của con người."
+      },
+      {
+        "index": 2,
+        "text_en": "Great **oratory** depends on the ability to **deploy rhetorical devices effectively**. A skilled speaker may use **hyperbole** — deliberate exaggeration — to intensify a point, or a **metaphor** to reframe an abstract idea in vivid, accessible terms. When a speaker can also **establish credibility through ethos**, listeners are far more likely to accept the argument being presented, even before a single piece of evidence is cited.",
+        "text_vi": "**Diễn thuyết** xuất sắc phụ thuộc vào khả năng **sử dụng các biện pháp tu từ một cách hiệu quả**. Một diễn giả tài ba có thể dùng **phóng đại** — sự cường điệu có chủ đích — để nhấn mạnh một điểm, hoặc dùng **ẩn dụ** để diễn giải lại một ý tưởng trừu tượng bằng những từ ngữ sống động, dễ tiếp cận. Khi người nói còn có thể **thiết lập uy tín qua ethos**, người nghe có xu hướng chấp nhận lập luận được trình bày nhiều hơn, ngay cả trước khi một bằng chứng nào được trích dẫn."
+      },
+      {
+        "index": 3,
+        "text_en": "The power of **eloquence** lies not merely in vocabulary or grammar, but in timing, rhythm, and the strategic use of **allusion**. By referencing a well-known figure, text, or event, a speaker activates shared cultural knowledge and lends depth to the message. To **appeal to audience emotions** effectively, the rhetor must first understand what the audience values, fears, and aspires to.",
+        "text_vi": "Sức mạnh của **lời lẽ hùng hồn** không chỉ nằm ở vốn từ vựng hay ngữ pháp, mà còn ở thời điểm, nhịp điệu, và việc sử dụng **điển tích** một cách chiến lược. Bằng cách viện dẫn một nhân vật, văn bản hay sự kiện nổi tiếng, người nói kích hoạt kiến thức văn hóa chung và tăng chiều sâu cho thông điệp. Để **kêu gọi cảm xúc của khán giả** một cách hiệu quả, nhà hùng biện phải trước tiên hiểu được những gì khán giả trân trọng, lo sợ và khao khát.",
+        "text_vi_note": ""
+      },
+      {
+        "index": 4,
+        "text_en": "Modern rhetoric extends far beyond the podium. Political speeches, advertising campaigns, and social media posts all rely on the same ancient principles. Understanding how speakers **use hyperbole for emphasis** or deploy emotional appeals enables citizens to engage more critically with public discourse. In a world saturated with competing messages, rhetorical literacy is no longer a luxury — it is an essential democratic skill.",
+        "text_vi": "Hùng biện hiện đại mở rộng ra ngoài phạm vi diễn đàn. Các bài phát biểu chính trị, chiến dịch quảng cáo và bài đăng trên mạng xã hội đều dựa trên những nguyên tắc cổ xưa tương tự. Hiểu cách các diễn giả **dùng phóng đại để nhấn mạnh** hoặc triển khai các lời kêu gọi cảm xúc giúp công dân tham gia vào diễn ngôn công chúng một cách phê phán hơn. Trong thế giới bão hòa với vô số thông điệp cạnh tranh, khả năng đọc hiểu hùng biện không còn là điều xa xỉ — đó là một kỹ năng dân chủ thiết yếu."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "rhetoric",
+      "ipa": "/ˈret.ər.ɪk/",
+      "pos": "noun",
+      "meaning_vi": "hùng biện, nghệ thuật diễn thuyết thuyết phục",
+      "meaning_vi_inline": "hùng biện",
+      "example_en": "The politician's rhetoric was so powerful that it swayed even his most sceptical opponents.",
+      "example_vi": "Lời hùng biện của chính trị gia ấy mạnh mẽ đến mức khiến cả những đối thủ hoài nghi nhất cũng bị lay chuyển.",
+      "word_family": {
+        "noun": "rhetoric / rhetorician",
+        "verb": null,
+        "adjective": "rhetorical",
+        "adverb": "rhetorically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "persuasion",
+      "ipa": "/pəˈsweɪ.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "sự thuyết phục",
+      "meaning_vi_inline": "thuyết phục",
+      "example_en": "Gentle persuasion proved far more effective than direct confrontation in resolving the dispute.",
+      "example_vi": "Sự thuyết phục nhẹ nhàng chứng tỏ hiệu quả hơn nhiều so với đối đầu trực tiếp trong việc giải quyết tranh chấp.",
+      "word_family": {
+        "noun": "persuasion",
+        "verb": "persuade",
+        "adjective": "persuasive / persuasible",
+        "adverb": "persuasively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "ethos",
+      "ipa": "/ˈiː.θɒs/",
+      "pos": "noun",
+      "meaning_vi": "ethos — uy tín và phẩm cách đạo đức của người nói; tinh thần đặc trưng của một cộng đồng",
+      "meaning_vi_inline": "uy tín đạo đức (ethos)",
+      "example_en": "A lawyer's ethos in the courtroom is established through a track record of honesty and expertise.",
+      "example_vi": "Ethos của một luật sư tại phòng xét xử được xây dựng qua thành tích trung thực và chuyên môn.",
+      "word_family": {
+        "noun": "ethos",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "pathos",
+      "ipa": "/ˈpeɪ.θɒs/",
+      "pos": "noun",
+      "meaning_vi": "pathos — sức kêu gọi cảm xúc; chất bi thương trong nghệ thuật",
+      "meaning_vi_inline": "kêu gọi cảm xúc (pathos)",
+      "example_en": "The documentary's closing scenes were filled with pathos, leaving the audience visibly moved.",
+      "example_vi": "Các cảnh cuối của bộ phim tài liệu tràn đầy sức bi thương, khiến khán giả xúc động rõ rệt.",
+      "word_family": {
+        "noun": "pathos",
+        "verb": null,
+        "adjective": "pathetic / pathetical",
+        "adverb": "pathetically"
+      },
+      "false_friend": {
+        "word_vi": "pathology",
+        "explanation_vi": "'Pathos' là sức kêu gọi cảm xúc trong tu từ học; 'pathology' là ngành nghiên cứu bệnh tật — hoàn toàn khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "logos",
+      "ipa": "/ˈlɒɡ.ɒs/",
+      "pos": "noun",
+      "meaning_vi": "logos — lập luận dựa trên logic và bằng chứng",
+      "meaning_vi_inline": "lý luận logic (logos)",
+      "example_en": "Her speech relied heavily on logos, presenting data and reasoned analysis rather than emotional appeals.",
+      "example_vi": "Bài phát biểu của cô chủ yếu dựa vào logos, trình bày số liệu và phân tích có lý luận thay vì lời kêu gọi cảm xúc.",
+      "word_family": {
+        "noun": "logos / logic",
+        "verb": null,
+        "adjective": "logical",
+        "adverb": "logically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "eloquence",
+      "ipa": "/ˈel.ə.kwəns/",
+      "pos": "noun",
+      "meaning_vi": "sự hùng hồn, khả năng diễn đạt trôi chảy và ấn tượng",
+      "meaning_vi_inline": "lời lẽ hùng hồn",
+      "example_en": "The barrister's eloquence was legendary; she could hold a jury spellbound for hours.",
+      "example_vi": "Khả năng hùng biện của luật sư ấy đã trở thành huyền thoại; bà có thể giữ bồi thẩm đoàn say mê trong nhiều giờ.",
+      "word_family": {
+        "noun": "eloquence",
+        "verb": null,
+        "adjective": "eloquent",
+        "adverb": "eloquently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "oratory",
+      "ipa": "/ˈɒr.ə.tər.i/",
+      "pos": "noun",
+      "meaning_vi": "nghệ thuật diễn thuyết, tài hùng biện trước công chúng",
+      "meaning_vi_inline": "diễn thuyết",
+      "example_en": "Martin Luther King Jr. demonstrated that oratory could be a catalyst for profound social change.",
+      "example_vi": "Martin Luther King Jr. đã chứng minh rằng nghệ thuật diễn thuyết có thể là chất xúc tác cho sự thay đổi xã hội sâu sắc.",
+      "word_family": {
+        "noun": "oratory / orator / oration",
+        "verb": "orate",
+        "adjective": "oratorical",
+        "adverb": "oratorically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "hyperbole",
+      "ipa": "/haɪˈpɜː.bə.li/",
+      "pos": "noun",
+      "meaning_vi": "phép phóng đại, sự cường điệu có chủ đích",
+      "meaning_vi_inline": "phóng đại",
+      "example_en": "Saying 'I've told you a million times' is a classic example of hyperbole used for comic effect.",
+      "example_vi": "Nói 'Tôi đã nói với bạn cả triệu lần rồi' là một ví dụ điển hình về phóng đại dùng để tạo hiệu ứng hài hước.",
+      "word_family": {
+        "noun": "hyperbole",
+        "verb": "hyperbolise",
+        "adjective": "hyperbolic",
+        "adverb": "hyperbolically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "metaphor",
+      "ipa": "/ˈmet.ə.fɔːr/",
+      "pos": "noun",
+      "meaning_vi": "ẩn dụ, hình ảnh so sánh ngầm",
+      "meaning_vi_inline": "ẩn dụ",
+      "example_en": "Describing life as a journey is one of the most enduring metaphors in literature.",
+      "example_vi": "Mô tả cuộc đời như một hành trình là một trong những ẩn dụ lâu bền nhất trong văn học.",
+      "word_family": {
+        "noun": "metaphor",
+        "verb": null,
+        "adjective": "metaphorical / metaphoric",
+        "adverb": "metaphorically"
+      },
+      "false_friend": {
+        "word_vi": "simile",
+        "explanation_vi": "'Metaphor' là ẩn dụ — so sánh ngầm, không dùng 'like' hay 'as'; 'simile' là so sánh tu từ có dùng 'like' hoặc 'as' — hai biện pháp khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "allusion",
+      "ipa": "/əˈluː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "sự ám chỉ, điển tích — tham chiếu gián tiếp đến nhân vật, sự kiện hoặc tác phẩm nổi tiếng",
+      "meaning_vi_inline": "điển tích, ám chỉ",
+      "example_en": "The speech's allusion to Churchill's wartime broadcasts was immediately recognised by the older members of the audience.",
+      "example_vi": "Điển tích ám chỉ đến các bài phát thanh thời chiến của Churchill trong bài phát biểu được những thành viên lớn tuổi trong khán giả nhận ra ngay.",
+      "word_family": {
+        "noun": "allusion",
+        "verb": "allude",
+        "adjective": "allusive",
+        "adverb": "allusively"
+      },
+      "false_friend": {
+        "word_vi": "illusion",
+        "explanation_vi": "'Allusion' là sự ám chỉ gián tiếp đến điều gì đó; 'illusion' là ảo giác hoặc nhận thức sai lệch — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "deploy rhetorical devices effectively",
+      "meaning_vi": "sử dụng các biện pháp tu từ một cách hiệu quả",
+      "example_en": "Experienced debaters learn to deploy rhetorical devices effectively without making them feel forced or artificial.",
+      "example_vi": "Những người tranh luận dày dạn kinh nghiệm học cách sử dụng các biện pháp tu từ một cách hiệu quả mà không khiến chúng trở nên gượng gạo hay giả tạo.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "appeal to audience emotions",
+      "meaning_vi": "kêu gọi cảm xúc của khán giả",
+      "example_en": "Charities often appeal to audience emotions through personal stories rather than abstract statistics.",
+      "example_vi": "Các tổ chức từ thiện thường kêu gọi cảm xúc của khán giả qua những câu chuyện cá nhân thay vì số liệu thống kê trừu tượng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "establish credibility through ethos",
+      "meaning_vi": "thiết lập uy tín qua ethos",
+      "example_en": "A speaker who openly acknowledges the limits of their knowledge can actually establish credibility through ethos more convincingly.",
+      "example_vi": "Một diễn giả thẳng thắn thừa nhận giới hạn kiến thức của mình thực ra có thể thiết lập uy tín qua ethos một cách thuyết phục hơn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "use hyperbole for emphasis",
+      "meaning_vi": "dùng phóng đại để nhấn mạnh",
+      "example_en": "Comedians routinely use hyperbole for emphasis, turning everyday frustrations into exaggerated spectacles.",
+      "example_vi": "Các diễn viên hài thường xuyên dùng phóng đại để nhấn mạnh, biến những phiền não thường ngày thành những cảnh tượng cường điệu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "craft a compelling argument",
+      "meaning_vi": "xây dựng một lập luận thuyết phục",
+      "example_en": "To craft a compelling argument, a writer must anticipate counterarguments and address them directly.",
+      "example_vi": "Để xây dựng một lập luận thuyết phục, người viết phải dự đoán các phản bác và giải quyết chúng một cách trực tiếp.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that rhetoric originated in ancient Rome.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, a speaker who establishes ethos is more likely to be believed by listeners.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage claims that hyperbole is a more powerful device than metaphor in political speeches.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that allusion works by drawing on knowledge that an audience already shares.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, rhetorical literacy has become less important in the age of social media.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The charity's advertisement relied heavily on _____, showing images of suffering children to move viewers.",
+          "options": [
+            "logos",
+            "allusion",
+            "pathos",
+            "oratory"
+          ],
+          "answer": "pathos"
+        },
+        {
+          "id": 2,
+          "sentence": "Her writing is celebrated for its _____ — every sentence is precise, vivid, and effortlessly persuasive.",
+          "options": [
+            "hyperbole",
+            "eloquence",
+            "rhetoric",
+            "metaphor"
+          ],
+          "answer": "eloquence"
+        },
+        {
+          "id": 3,
+          "sentence": "The defence lawyer built his case through careful _____, presenting forensic evidence and logical deductions.",
+          "options": [
+            "persuasion",
+            "allusion",
+            "logos",
+            "pathos"
+          ],
+          "answer": "logos"
+        },
+        {
+          "id": 4,
+          "sentence": "Describing the city as 'a concrete jungle' is a _____ that evokes both its density and its harshness.",
+          "options": [
+            "allusion",
+            "ethos",
+            "oratory",
+            "metaphor"
+          ],
+          "answer": "metaphor"
+        },
+        {
+          "id": 5,
+          "sentence": "The opening line's _____ to Shakespeare immediately elevated the tone and signalled the speaker's erudition.",
+          "options": [
+            "hyperbole",
+            "allusion",
+            "persuasion",
+            "eloquence"
+          ],
+          "answer": "allusion"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "rhetoric",
+        "oratory",
+        "ethos",
+        "hyperbole",
+        "persuasion",
+        "eloquence"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The professor's _____ was impeccable; decades of published research gave her unmatched authority in the field.",
+          "answer": "ethos"
+        },
+        {
+          "id": 2,
+          "sentence": "Ancient Greeks studied _____ as a formal discipline, teaching students to argue either side of any question.",
+          "answer": "rhetoric"
+        },
+        {
+          "id": 3,
+          "sentence": "Saying the bag weighs 'a ton' is a common example of _____ used to stress inconvenience.",
+          "answer": "hyperbole"
+        },
+        {
+          "id": 4,
+          "sentence": "His _____ in the Senate chamber was so commanding that spectators fell silent the moment he rose to speak.",
+          "answer": "oratory"
+        },
+        {
+          "id": 5,
+          "sentence": "Gentle _____ — rather than force or threats — is usually the most sustainable way to change minds.",
+          "answer": "persuasion"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "rhetoric",
+            "has",
+            "shaped",
+            "public",
+            "life",
+            "since",
+            "ancient",
+            "times"
+          ],
+          "answer": "Rhetoric has shaped public life since ancient times."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "powerful",
+            "metaphor",
+            "can",
+            "make",
+            "an",
+            "abstract",
+            "idea",
+            "instantly",
+            "vivid"
+          ],
+          "answer": "A powerful metaphor can make an abstract idea instantly vivid."
+        },
+        {
+          "id": 3,
+          "words": [
+            "speakers",
+            "who",
+            "establish",
+            "ethos",
+            "are",
+            "more",
+            "readily",
+            "trusted",
+            "by",
+            "their",
+            "audiences"
+          ],
+          "answer": "Speakers who establish ethos are more readily trusted by their audiences."
+        },
+        {
+          "id": 4,
+          "words": [
+            "allusion",
+            "deepens",
+            "a",
+            "message",
+            "by",
+            "activating",
+            "shared",
+            "cultural",
+            "knowledge"
+          ],
+          "answer": "Allusion deepens a message by activating shared cultural knowledge."
+        },
+        {
+          "id": 5,
+          "words": [
+            "rhetorical",
+            "literacy",
+            "is",
+            "an",
+            "essential",
+            "skill",
+            "in",
+            "a",
+            "world",
+            "of",
+            "competing",
+            "messages"
+          ],
+          "answer": "Rhetorical literacy is an essential skill in a world of competing messages."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The senator's [rhetorically] resonated deeply with voters who felt ignored by the political establishment.",
+          "highlighted": "rhetorically",
+          "options": {
+            "A": "rhetorical",
+            "B": "rhetorician",
+            "C": "rhetoric"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the sentence — 'rhetoric', not the adverb 'rhetorically'."
+        },
+        {
+          "id": 2,
+          "sentence": "The activist used vivid [metaphorical] to reframe the debate and connect with ordinary citizens.",
+          "highlighted": "metaphorical",
+          "options": {
+            "A": "metaphors",
+            "B": "metaphorically",
+            "C": "metaphor"
+          },
+          "answer": "A",
+          "explanation": "'Used' requires a noun object; the plural 'metaphors' is needed here, not the adjective 'metaphorical'."
+        },
+        {
+          "id": 3,
+          "sentence": "Her [eloquently] moved the crowd far more than any chart or statistic could have.",
+          "highlighted": "eloquently",
+          "options": {
+            "A": "eloquent",
+            "B": "eloquence",
+            "C": "eloquented"
+          },
+          "answer": "B",
+          "explanation": "A noun is required as the subject — 'eloquence', not the adverb 'eloquently'."
+        },
+        {
+          "id": 4,
+          "sentence": "Recognising when a speaker is [allude] to a historical event requires broad cultural knowledge.",
+          "highlighted": "allude",
+          "options": {
+            "A": "alludes",
+            "B": "alluded",
+            "C": "alluding"
+          },
+          "answer": "C",
+          "explanation": "After 'is', the present participle 'alluding' is required to form the continuous tense, not the base form 'allude'."
+        },
+        {
+          "id": 5,
+          "sentence": "The speech gained immediate [persuade] because the speaker had decades of proven expertise in the field.",
+          "highlighted": "persuade",
+          "options": {
+            "A": "persuasively",
+            "B": "persuaded",
+            "C": "persuasiveness"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed after 'immediate' to function as the object of 'gained' — 'persuasiveness', not the verb 'persuade'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "pathos",
+      "2": "eloquence",
+      "3": "logos",
+      "4": "metaphor",
+      "5": "allusion"
+    },
+    "ex3": {
+      "1": "ethos",
+      "2": "rhetoric",
+      "3": "hyperbole",
+      "4": "oratory",
+      "5": "persuasion"
+    },
+    "ex4": {
+      "1": "Rhetoric has shaped public life since ancient times.",
+      "2": "A powerful metaphor can make an abstract idea instantly vivid.",
+      "3": "Speakers who establish ethos are more readily trusted by their audiences.",
+      "4": "Allusion deepens a message by activating shared cultural knowledge.",
+      "5": "Rhetorical literacy is an essential skill in a world of competing messages."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

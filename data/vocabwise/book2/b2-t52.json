@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 52,
+    "topic_id": "b2-t52",
+    "topic_title": "Privacy & Personal Data",
+    "theme_number": 6,
+    "theme_title": "Media & Ideas",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🔐",
+    "topic_title_vi": "Quyền Riêng Tư & Dữ Liệu Cá Nhân",
+    "theme_title_vi": "Truyền Thông & Ý Tưởng",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 212,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every time we use a smartphone app, visit a website, or make an online payment, we leave behind traces of **personal** information. Companies **gather** this **data** to build detailed profiles of our habits, preferences, and even our emotions. Most users accept this exchange willingly in return for free services, without fully understanding the value of what they are giving away. **Privacy** has become one of the defining legal and ethical issues of the digital century.",
+        "text_vi": "Mỗi khi chúng ta sử dụng ứng dụng điện thoại thông minh, truy cập trang web hoặc thực hiện thanh toán trực tuyến, chúng ta để lại dấu vết thông tin **cá nhân**. Các công ty **thu thập** **dữ liệu** này để xây dựng hồ sơ chi tiết về thói quen, sở thích và thậm chí cảm xúc của chúng ta. Hầu hết người dùng chấp nhận sự trao đổi này một cách tự nguyện để đổi lấy các dịch vụ miễn phí, mà không hiểu đầy đủ giá trị của những gì họ đang cho đi. **Quyền riêng tư** đã trở thành một trong những vấn đề pháp lý và đạo đức xác định của thế kỷ kỹ thuật số."
+      },
+      {
+        "index": 2,
+        "text_en": "Tech companies often **follow** and **watch** users across different websites and apps, building a picture of behaviour that is remarkably detailed. This tracking allows companies to target advertising with extraordinary precision. While this may seem convenient, it raises serious questions about consent: did you actually agree to being tracked? Many **privacy** laws now require companies to make this process transparent and to give users the **right** to control their own **data**.",
+        "text_vi": "Các công ty công nghệ thường **theo dõi** và **giám sát** người dùng trên các trang web và ứng dụng khác nhau, xây dựng một bức tranh về hành vi khá chi tiết. Việc theo dõi này cho phép các công ty nhắm mục tiêu quảng cáo với độ chính xác đáng kinh ngạc. Mặc dù điều này có vẻ thuận tiện, nhưng nó đặt ra những câu hỏi nghiêm trọng về sự đồng ý: bạn có thực sự đồng ý bị theo dõi không? Nhiều luật **quyền riêng tư** hiện yêu cầu các công ty làm cho quá trình này minh bạch và cho người dùng **quyền** kiểm soát **dữ liệu** của chính họ."
+      },
+      {
+        "index": 3,
+        "text_en": "When companies fail to **protect** user **data**, the consequences can be severe. A **data leak** — where **personal** information is accidentally exposed or stolen by hackers — can result in **identity** theft, financial fraud, and lasting damage to individuals' reputations. Governments must **regulate** the way companies **gather**, store, and **share** **data**, setting clear rules about **security** standards and punishing those who fail to meet them.",
+        "text_vi": "Khi các công ty không **bảo vệ** **dữ liệu** người dùng, hậu quả có thể nghiêm trọng. Một **rò rỉ dữ liệu** — nơi thông tin **cá nhân** vô tình bị lộ hoặc bị tin tặc đánh cắp — có thể dẫn đến đánh cắp **danh tính**, gian lận tài chính và thiệt hại lâu dài đối với danh tiếng của cá nhân. Các chính phủ phải **quản lý** cách các công ty **thu thập**, lưu trữ và **chia sẻ** **dữ liệu**, đặt ra các quy tắc rõ ràng về tiêu chuẩn **bảo mật** và trừng phạt những người không đáp ứng được chúng."
+      },
+      {
+        "index": 4,
+        "text_en": "The **right** to **privacy** is not just a legal matter — it is a human value. Knowing that you are being watched changes how you behave, what you say, and even what you think. When companies or governments have unrestricted **access** to **personal** **data**, they gain enormous power over individuals. A healthy **digital** society needs to balance the benefits of **data**-sharing — better services, improved research — with the fundamental need to **protect** people's **identity** and freedom.",
+        "text_vi": "**Quyền** **riêng tư** không chỉ là vấn đề pháp lý — đó là một giá trị con người. Biết rằng bạn đang bị theo dõi thay đổi cách bạn hành xử, những gì bạn nói và thậm chí những gì bạn nghĩ. Khi các công ty hoặc chính phủ có **quyền truy cập** không hạn chế vào **dữ liệu** **cá nhân**, họ có được quyền lực to lớn đối với các cá nhân. Một xã hội **kỹ thuật số** lành mạnh cần cân bằng lợi ích của việc **chia sẻ** **dữ liệu** — dịch vụ tốt hơn, nghiên cứu được cải thiện — với nhu cầu cơ bản để **bảo vệ** **danh tính** và tự do của mọi người."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "privacy",
+      "ipa": "/ˈprɪv.ə.si/",
+      "pos": "noun",
+      "meaning_vi": "quyền riêng tư (quyền không bị theo dõi hoặc can thiệp)",
+      "meaning_vi_inline": "quyền riêng tư",
+      "example_en": "Many people are concerned that smart speakers in their homes are invading their privacy.",
+      "example_vi": "Nhiều người lo ngại rằng loa thông minh trong nhà của họ đang xâm phạm quyền riêng tư của họ.",
+      "word_family": {
+        "noun": "privacy",
+        "verb": null,
+        "adjective": "private",
+        "adverb": "privately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "data",
+      "ipa": "/ˈdeɪ.tə/",
+      "pos": "noun",
+      "meaning_vi": "dữ liệu (thông tin số hoặc thống kê)",
+      "meaning_vi_inline": "dữ liệu",
+      "example_en": "The company collected data on millions of users without clearly informing them of the purpose.",
+      "example_vi": "Công ty đã thu thập dữ liệu của hàng triệu người dùng mà không thông báo rõ ràng cho họ về mục đích.",
+      "word_family": {
+        "noun": "data / dataset",
+        "verb": null,
+        "adjective": "data-driven",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "follow",
+      "ipa": "/ˈfɒl.əʊ/",
+      "pos": "verb",
+      "meaning_vi": "theo dõi (hoạt động trực tuyến của người dùng)",
+      "meaning_vi_inline": "theo dõi",
+      "example_en": "Advertising networks follow users across dozens of websites to build a detailed profile of their interests.",
+      "example_vi": "Các mạng quảng cáo theo dõi người dùng trên hàng chục trang web để xây dựng hồ sơ chi tiết về sở thích của họ.",
+      "word_family": {
+        "noun": "follower / tracking",
+        "verb": "follow / track",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "watch",
+      "ipa": "/wɒtʃ/",
+      "pos": "verb",
+      "meaning_vi": "giám sát, theo dõi (quan sát hành vi người dùng)",
+      "meaning_vi_inline": "giám sát",
+      "example_en": "Government agencies in some countries watch citizens' online activity without their knowledge.",
+      "example_vi": "Các cơ quan chính phủ ở một số quốc gia giám sát hoạt động trực tuyến của công dân mà không có sự hiểu biết của họ.",
+      "word_family": {
+        "noun": "watcher / surveillance",
+        "verb": "watch",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "regulate",
+      "ipa": "/ˈreɡ.jʊ.leɪt/",
+      "pos": "verb",
+      "meaning_vi": "quản lý, kiểm soát (bằng luật pháp hoặc quy tắc)",
+      "meaning_vi_inline": "quản lý",
+      "example_en": "The government is considering new laws to regulate how tech companies collect and use personal data.",
+      "example_vi": "Chính phủ đang xem xét các luật mới để quản lý cách các công ty công nghệ thu thập và sử dụng dữ liệu cá nhân.",
+      "word_family": {
+        "noun": "regulation / regulator",
+        "verb": "regulate",
+        "adjective": "regulated / regulatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "security",
+      "ipa": "/sɪˈkjʊə.rɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bảo mật (bảo vệ dữ liệu khỏi bị truy cập trái phép)",
+      "meaning_vi_inline": "bảo mật",
+      "example_en": "Weak passwords are one of the biggest threats to online security, according to cybersecurity experts.",
+      "example_vi": "Mật khẩu yếu là một trong những mối đe dọa lớn nhất đối với bảo mật trực tuyến, theo các chuyên gia an ninh mạng.",
+      "word_family": {
+        "noun": "security",
+        "verb": "secure",
+        "adjective": "secure / insecure",
+        "adverb": "securely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "digital",
+      "ipa": "/ˈdɪdʒ.ɪ.təl/",
+      "pos": "adjective",
+      "meaning_vi": "kỹ thuật số (liên quan đến công nghệ và internet)",
+      "meaning_vi_inline": "kỹ thuật số",
+      "example_en": "Digital privacy rights are as important as physical privacy rights in the modern world.",
+      "example_vi": "Quyền riêng tư kỹ thuật số quan trọng không kém quyền riêng tư vật lý trong thế giới hiện đại.",
+      "word_family": {
+        "noun": "digitisation",
+        "verb": "digitise",
+        "adjective": "digital",
+        "adverb": "digitally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "right",
+      "ipa": "/raɪt/",
+      "pos": "noun",
+      "meaning_vi": "quyền (pháp lý hoặc đạo đức)",
+      "meaning_vi_inline": "quyền",
+      "example_en": "Every citizen has the right to know what personal data companies hold about them.",
+      "example_vi": "Mọi công dân đều có quyền biết dữ liệu cá nhân mà các công ty nắm giữ về họ.",
+      "word_family": {
+        "noun": "right / rights",
+        "verb": null,
+        "adjective": "rightful",
+        "adverb": "rightly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "access",
+      "ipa": "/ˈæk.ses/",
+      "pos": "noun / verb",
+      "meaning_vi": "truy cập (quyền hoặc khả năng xem/sử dụng dữ liệu)",
+      "meaning_vi_inline": "truy cập",
+      "example_en": "Hackers gained access to the company's database and stole the credit card details of ten million customers.",
+      "example_vi": "Tin tặc đã truy cập vào cơ sở dữ liệu của công ty và đánh cắp thông tin thẻ tín dụng của mười triệu khách hàng.",
+      "word_family": {
+        "noun": "access",
+        "verb": "access",
+        "adjective": "accessible",
+        "adverb": "accessibly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "protect",
+      "ipa": "/prəˈtekt/",
+      "pos": "verb",
+      "meaning_vi": "bảo vệ (dữ liệu và quyền riêng tư)",
+      "meaning_vi_inline": "bảo vệ",
+      "example_en": "All companies that handle customer data have a legal duty to protect it from unauthorised access.",
+      "example_vi": "Tất cả các công ty xử lý dữ liệu khách hàng đều có nghĩa vụ pháp lý bảo vệ nó khỏi bị truy cập trái phép.",
+      "word_family": {
+        "noun": "protection",
+        "verb": "protect",
+        "adjective": "protected",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "gather",
+      "ipa": "/ˈɡæð.ər/",
+      "pos": "verb",
+      "meaning_vi": "thu thập (dữ liệu, thông tin)",
+      "meaning_vi_inline": "thu thập",
+      "example_en": "The app was gathering location data every few minutes, even when it was not actively being used.",
+      "example_vi": "Ứng dụng đang thu thập dữ liệu vị trí mỗi vài phút, ngay cả khi nó không được sử dụng tích cực.",
+      "word_family": {
+        "noun": "gathering / collection",
+        "verb": "gather / collect",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "share",
+      "ipa": "/ʃeər/",
+      "pos": "verb",
+      "meaning_vi": "chia sẻ (dữ liệu với bên thứ ba)",
+      "meaning_vi_inline": "chia sẻ",
+      "example_en": "Many apps share user data with third-party advertisers without making this clear in their terms of service.",
+      "example_vi": "Nhiều ứng dụng chia sẻ dữ liệu người dùng với các nhà quảng cáo bên thứ ba mà không nêu rõ trong điều khoản dịch vụ.",
+      "word_family": {
+        "noun": "share / sharing",
+        "verb": "share",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "data leak",
+      "ipa": "/ˈdeɪ.tə liːk/",
+      "pos": "noun phrase",
+      "meaning_vi": "rò rỉ dữ liệu (thông tin bị lộ hoặc bị đánh cắp)",
+      "meaning_vi_inline": "rò rỉ dữ liệu",
+      "example_en": "The data leak affected over fifty million users whose email addresses and passwords were exposed.",
+      "example_vi": "Vụ rò rỉ dữ liệu ảnh hưởng đến hơn năm mươi triệu người dùng có địa chỉ email và mật khẩu bị lộ.",
+      "word_family": {
+        "noun": "data leak / data breach",
+        "verb": "leak",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "personal",
+      "ipa": "/ˈpɜː.sən.əl/",
+      "pos": "adjective",
+      "meaning_vi": "cá nhân (thông tin riêng tư thuộc về một người)",
+      "meaning_vi_inline": "cá nhân",
+      "example_en": "You should never share personal information — such as your address or bank details — in response to unsolicited emails.",
+      "example_vi": "Bạn không bao giờ nên chia sẻ thông tin cá nhân — chẳng hạn như địa chỉ hoặc chi tiết ngân hàng của bạn — để phản hồi email không được yêu cầu.",
+      "word_family": {
+        "noun": "person / personality",
+        "verb": "personalise",
+        "adjective": "personal",
+        "adverb": "personally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "identity",
+      "ipa": "/aɪˈden.tɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "danh tính (thông tin xác định một người cụ thể)",
+      "meaning_vi_inline": "danh tính",
+      "example_en": "Identity theft occurs when criminals use stolen personal data to impersonate someone for financial gain.",
+      "example_vi": "Đánh cắp danh tính xảy ra khi tội phạm sử dụng dữ liệu cá nhân bị đánh cắp để mạo danh ai đó để trục lợi tài chính.",
+      "word_family": {
+        "noun": "identity",
+        "verb": "identify",
+        "adjective": "identifiable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Companies collect personal data in order to build detailed profiles of users' habits and preferences.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage argues that all users fully understand what they agree to when accepting app terms.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Data leaks only affect companies' financial records, not individual users' personal details.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "Knowing that you are being watched can affect your behaviour and what you say online.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage says that data sharing should be completely banned to protect individual privacy.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The app was secretly _____ users' location data even when the app was closed.",
+          "options": [
+            "watching",
+            "sharing",
+            "gathering",
+            "protecting"
+          ],
+          "answer": "gathering"
+        },
+        {
+          "id": 2,
+          "sentence": "Citizens have the _____ to request that companies delete personal data they no longer need.",
+          "options": [
+            "access",
+            "right",
+            "identity",
+            "security"
+          ],
+          "answer": "right"
+        },
+        {
+          "id": 3,
+          "sentence": "A serious _____ exposed the names and passwords of more than thirty million customers.",
+          "options": [
+            "data leak",
+            "privacy",
+            "identity",
+            "access"
+          ],
+          "answer": "data leak"
+        },
+        {
+          "id": 4,
+          "sentence": "Governments must _____ tech companies more strictly to ensure they do not misuse personal data.",
+          "options": [
+            "gather",
+            "watch",
+            "regulate",
+            "share"
+          ],
+          "answer": "regulate"
+        },
+        {
+          "id": 5,
+          "sentence": "Using a strong, unique password for each account is a basic step in protecting your online _____.",
+          "options": [
+            "right",
+            "identity",
+            "security",
+            "access"
+          ],
+          "answer": "security"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "privacy",
+        "data",
+        "protect",
+        "share",
+        "personal"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You should never enter _____ information — such as your date of birth or address — on an unsecured website.",
+          "answer": "personal"
+        },
+        {
+          "id": 2,
+          "sentence": "The company stores all customer _____ in encrypted form to prevent unauthorised access.",
+          "answer": "data"
+        },
+        {
+          "id": 3,
+          "sentence": "New legislation requires businesses to _____ user data and notify authorities within 72 hours of a breach.",
+          "answer": "protect"
+        },
+        {
+          "id": 4,
+          "sentence": "Many users do not realise that free apps often _____ their information with advertising networks.",
+          "answer": "share"
+        },
+        {
+          "id": 5,
+          "sentence": "The right to _____ is protected by law in most democratic countries, online as well as offline.",
+          "answer": "privacy"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "every",
+            "time",
+            "you",
+            "use",
+            "a",
+            "smartphone",
+            "app",
+            "you",
+            "leave",
+            "behind",
+            "traces",
+            "of",
+            "personal",
+            "data"
+          ],
+          "answer": "Every time you use a smartphone app you leave behind traces of personal data."
+        },
+        {
+          "id": 2,
+          "words": [
+            "companies",
+            "must",
+            "be",
+            "transparent",
+            "about",
+            "how",
+            "they",
+            "gather",
+            "share",
+            "and",
+            "store",
+            "users'",
+            "personal",
+            "data"
+          ],
+          "answer": "Companies must be transparent about how they gather, share, and store users' personal data."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "data",
+            "leak",
+            "can",
+            "lead",
+            "to",
+            "identity",
+            "theft",
+            "and",
+            "cause",
+            "lasting",
+            "damage",
+            "to",
+            "an",
+            "individual's",
+            "reputation"
+          ],
+          "answer": "A data leak can lead to identity theft and cause lasting damage to an individual's reputation."
+        },
+        {
+          "id": 4,
+          "words": [
+            "knowing",
+            "that",
+            "you",
+            "are",
+            "being",
+            "watched",
+            "changes",
+            "how",
+            "you",
+            "behave",
+            "what",
+            "you",
+            "say",
+            "and",
+            "what",
+            "you",
+            "think"
+          ],
+          "answer": "Knowing that you are being watched changes how you behave, what you say, and what you think."
+        },
+        {
+          "id": 5,
+          "words": [
+            "governments",
+            "must",
+            "regulate",
+            "the",
+            "way",
+            "companies",
+            "access",
+            "and",
+            "use",
+            "personal",
+            "data",
+            "to",
+            "protect",
+            "citizens'",
+            "digital",
+            "rights"
+          ],
+          "answer": "Governments must regulate the way companies access and use personal data to protect citizens' digital rights."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new law gives citizens the _____ to request the deletion of their personal information.",
+          "highlighted": "chance",
+          "options": {
+            "A": "chance",
+            "B": "right",
+            "C": "option"
+          },
+          "answer": "B",
+          "explanation": "'Right' is the target vocabulary word for a legal or moral entitlement — something a person is formally entitled to, not just allowed. 'Chance' implies an opportunity, not an entitlement. 'Option' implies a choice but not a formal legal protection. In the context of privacy law, 'right' is the precise term for what citizens are legally guaranteed."
+        },
+        {
+          "id": 2,
+          "sentence": "Hackers broke into the database and [took] the private details of over one million users.",
+          "highlighted": "took",
+          "options": {
+            "A": "stole",
+            "B": "accessed",
+            "C": "gathered"
+          },
+          "answer": "B",
+          "explanation": "In data breach contexts, 'accessed' is the technical and legal vocabulary for entering a system without authorisation. 'Stole' is possible informally but too casual for academic or legal registers. 'Gathered' implies deliberate collection (typically by the data owner, not hackers). 'Accessed' is the standard formal term for unauthorised entry into a data system."
+        },
+        {
+          "id": 3,
+          "sentence": "Apps that secretly [give] user location data to advertisers without consent are breaking privacy laws.",
+          "highlighted": "give",
+          "options": {
+            "A": "reveal",
+            "B": "expose",
+            "C": "share"
+          },
+          "answer": "C",
+          "explanation": "'Share' is the target vocabulary verb for distributing data to third parties, which is the standard term in privacy law and data protection contexts. 'Give' is informal and does not carry the specific meaning of data distribution. 'Reveal' means to expose hidden information. 'Expose' implies unintended disclosure. 'Share' is the precise word for data being transferred between parties."
+        },
+        {
+          "id": 4,
+          "sentence": "The government introduced new rules to better [control] how companies handle sensitive personal information.",
+          "highlighted": "control",
+          "options": {
+            "A": "manage",
+            "B": "regulate",
+            "C": "control"
+          },
+          "answer": "B",
+          "explanation": "'Regulate' is the target vocabulary verb for the formal process by which a government or authority sets rules for how industries or companies must operate. 'Control' is too general. 'Manage' implies internal oversight rather than external legal authority. 'Regulate' is the precise term used in legal, policy, and academic contexts for government oversight of corporate behaviour."
+        },
+        {
+          "id": 5,
+          "sentence": "Strong _____ measures — such as two-factor authentication — help prevent unauthorised access to online accounts.",
+          "highlighted": "protection",
+          "options": {
+            "A": "protection",
+            "B": "privacy",
+            "C": "security"
+          },
+          "answer": "C",
+          "explanation": "'Security' is the target vocabulary word for measures and systems designed to prevent unauthorised access to data or accounts. 'Protection' is broader and applies to many contexts beyond digital systems. 'Privacy' refers to the right not to be observed, not to technical measures preventing access. 'Security' is the standard term for technological safeguards against cyber threats."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "False",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "gathering",
+      "2": "right",
+      "3": "data leak",
+      "4": "regulate",
+      "5": "security"
+    },
+    "ex3": {
+      "1": "personal",
+      "2": "data",
+      "3": "protect",
+      "4": "share",
+      "5": "privacy"
+    },
+    "ex4": {
+      "1": "Every time you use a smartphone app you leave behind traces of personal data.",
+      "2": "Companies must be transparent about how they gather, share, and store users' personal data.",
+      "3": "A data leak can lead to identity theft and cause lasting damage to an individual's reputation.",
+      "4": "Knowing that you are being watched changes how you behave, what you say, and what you think.",
+      "5": "Governments must regulate the way companies access and use personal data to protect citizens' digital rights."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

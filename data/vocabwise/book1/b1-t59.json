@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 59,
+    "topic_id": "b1-t59",
+    "topic_title": "Likes & Dislikes",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "❤️",
+    "topic_title_vi": "Sở Thích & Điều Không Thích",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 113,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I **like** many things, but I **love** music most of all. I **think** it makes every day better. My **favourite** song is a slow one that makes me **feel** calm and happy.",
+        "text_vi": "Tôi **thích** nhiều thứ, nhưng tôi **yêu thích** âm nhạc nhất trong tất cả. Tôi **nghĩ** nó làm cho mỗi ngày tốt hơn. Bài hát **yêu thích** của tôi là một bài chậm khiến tôi **cảm thấy** bình yên và vui vẻ."
+      },
+      {
+        "index": 2,
+        "text_en": "I also **enjoy** cooking with my mum. We **prefer** simple dishes because they are quick and **good**. I **want** to learn more recipes every week.",
+        "text_vi": "Tôi cũng **thích** nấu ăn cùng mẹ. Chúng tôi **thích hơn** những món ăn đơn giản vì chúng nhanh và **ngon**. Tôi **muốn** học thêm nhiều công thức mỗi tuần."
+      },
+      {
+        "index": 3,
+        "text_en": "However, I **hate** rainy days. Staying inside all day is very **boring**. I **say** to my friends that I **prefer** sunny days because outdoor games are more **exciting** and **fun**.",
+        "text_vi": "Tuy nhiên, tôi **ghét** những ngày mưa. Ở trong nhà cả ngày rất **nhàm chán**. Tôi **nói** với bạn bè rằng tôi **thích hơn** những ngày nắng vì các trò chơi ngoài trời **thú vị** và **vui** hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "Some things are simply **bad** for me. I **feel** tired when I watch too much television. I **think** it is important to know what you **like** and what is **bad** for you, and then to **say** so clearly.",
+        "text_vi": "Một số thứ đơn giản là **xấu** đối với tôi. Tôi **cảm thấy** mệt mỏi khi xem ti vi quá nhiều. Tôi **nghĩ** điều quan trọng là biết những gì bạn **thích** và những gì **xấu** với bạn, rồi **nói** ra điều đó một cách rõ ràng."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "like",
+      "ipa": "/laɪk/",
+      "pos": "verb",
+      "meaning_vi": "thích",
+      "meaning_vi_inline": "thích",
+      "example_en": "I like chocolate ice cream more than any other flavour.",
+      "example_vi": "Tôi thích kem sô-cô-la hơn bất kỳ hương vị nào khác.",
+      "word_family": {
+        "noun": "like / liking",
+        "verb": "like / liked",
+        "adjective": "likeable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "love",
+      "ipa": "/lʌv/",
+      "pos": "verb / noun",
+      "meaning_vi": "yêu thích, yêu; tình yêu",
+      "meaning_vi_inline": "yêu thích",
+      "example_en": "She loves reading books — she finishes one almost every week.",
+      "example_vi": "Cô ấy yêu thích đọc sách — cô ấy đọc xong gần một cuốn mỗi tuần.",
+      "word_family": {
+        "noun": "love / lover",
+        "verb": "love / loved",
+        "adjective": "lovely / lovable",
+        "adverb": "lovingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "hate",
+      "ipa": "/heɪt/",
+      "pos": "verb / noun",
+      "meaning_vi": "ghét, căm ghét; sự ghét bỏ",
+      "meaning_vi_inline": "ghét",
+      "example_en": "He hates waking up early — he always feels tired in the morning.",
+      "example_vi": "Anh ấy ghét thức dậy sớm — anh ấy luôn cảm thấy mệt vào buổi sáng.",
+      "word_family": {
+        "noun": "hate / hatred",
+        "verb": "hate / hated",
+        "adjective": "hateful",
+        "adverb": "hatefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "enjoy",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "pos": "verb",
+      "meaning_vi": "thích thú, tận hưởng",
+      "meaning_vi_inline": "thích",
+      "example_en": "We enjoyed the school trip — the museum was really interesting.",
+      "example_vi": "Chúng tôi thích chuyến dã ngoại của trường — bảo tàng thực sự rất thú vị.",
+      "word_family": {
+        "noun": "enjoyment",
+        "verb": "enjoy / enjoyed",
+        "adjective": "enjoyable",
+        "adverb": "enjoyably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "prefer",
+      "ipa": "/prɪˈfɜː/",
+      "pos": "verb",
+      "meaning_vi": "thích hơn, ưa hơn",
+      "meaning_vi_inline": "thích hơn",
+      "example_en": "I prefer tea to coffee — it is less bitter and helps me relax.",
+      "example_vi": "Tôi thích trà hơn cà phê — ít đắng hơn và giúp tôi thư giãn.",
+      "word_family": {
+        "noun": "preference",
+        "verb": "prefer / preferred",
+        "adjective": "preferable / preferred",
+        "adverb": "preferably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "favourite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "pos": "adjective / noun",
+      "meaning_vi": "yêu thích nhất; điều/thứ yêu thích nhất",
+      "meaning_vi_inline": "yêu thích",
+      "example_en": "Blue is my favourite colour — I use it in almost all my drawings.",
+      "example_vi": "Màu xanh là màu yêu thích của tôi — tôi dùng nó trong hầu hết các bức tranh.",
+      "word_family": {
+        "noun": "favourite / favour",
+        "verb": "favour",
+        "adjective": "favourite / favourable",
+        "adverb": "favourably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "good",
+      "ipa": "/ɡʊd/",
+      "pos": "adjective",
+      "meaning_vi": "tốt, ngon, giỏi",
+      "meaning_vi_inline": "ngon",
+      "example_en": "This soup is really good — can I have another bowl, please?",
+      "example_vi": "Món súp này thực sự ngon — tôi có thể xin thêm một bát không?",
+      "word_family": {
+        "noun": "goodness / good",
+        "verb": null,
+        "adjective": "good / better / best",
+        "adverb": "well"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "bad",
+      "ipa": "/bæd/",
+      "pos": "adjective",
+      "meaning_vi": "xấu, tệ, có hại",
+      "meaning_vi_inline": "xấu",
+      "example_en": "Too much sugar is bad for your teeth — try to eat less of it.",
+      "example_vi": "Quá nhiều đường có hại cho răng của bạn — cố gắng ăn ít đi.",
+      "word_family": {
+        "noun": "badness",
+        "verb": null,
+        "adjective": "bad / worse / worst",
+        "adverb": "badly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "boring",
+      "ipa": "/ˈbɔːrɪŋ/",
+      "pos": "adjective",
+      "meaning_vi": "nhàm chán, tẻ nhạt",
+      "meaning_vi_inline": "nhàm chán",
+      "example_en": "The lesson was really boring — nobody was listening after the first ten minutes.",
+      "example_vi": "Bài học thực sự nhàm chán — không ai lắng nghe sau mười phút đầu tiên.",
+      "word_family": {
+        "noun": "boredom",
+        "verb": "bore / bored",
+        "adjective": "boring / bored",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "exciting",
+      "ipa": "/ɪkˈsaɪtɪŋ/",
+      "pos": "adjective",
+      "meaning_vi": "thú vị, hấp dẫn, kích thích",
+      "meaning_vi_inline": "thú vị",
+      "example_en": "The final match was very exciting — both teams played well until the last minute.",
+      "example_vi": "Trận chung kết rất thú vị — cả hai đội chơi tốt cho đến phút cuối.",
+      "word_family": {
+        "noun": "excitement",
+        "verb": "excite / excited",
+        "adjective": "exciting / excited",
+        "adverb": "excitingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "fun",
+      "ipa": "/fʌn/",
+      "pos": "noun / adjective",
+      "meaning_vi": "niềm vui, sự thú vị; vui",
+      "meaning_vi_inline": "vui",
+      "example_en": "Playing board games with the family is always great fun.",
+      "example_vi": "Chơi trò chơi bàn cờ với gia đình luôn rất vui.",
+      "word_family": {
+        "noun": "fun",
+        "verb": null,
+        "adjective": "fun / funny",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "funny",
+        "explanation_vi": "'Fun' nghĩa là vui, thú vị (trải nghiệm tốt). 'Funny' nghĩa là hài hước, buồn cười. Ví dụ: The game was fun (Trò chơi thú vị). The story was funny (Câu chuyện buồn cười)."
+      }
+    },
+    {
+      "id": 12,
+      "word": "want",
+      "ipa": "/wɒnt/",
+      "pos": "verb",
+      "meaning_vi": "muốn",
+      "meaning_vi_inline": "muốn",
+      "example_en": "I want a new bicycle for my birthday — I asked my parents last week.",
+      "example_vi": "Tôi muốn một chiếc xe đạp mới cho sinh nhật của mình — tôi đã hỏi bố mẹ tuần trước.",
+      "word_family": {
+        "noun": "want",
+        "verb": "want / wanted",
+        "adjective": "wanted / unwanted",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "think",
+      "ipa": "/θɪŋk/",
+      "pos": "verb",
+      "meaning_vi": "nghĩ, suy nghĩ",
+      "meaning_vi_inline": "nghĩ",
+      "example_en": "I think this restaurant has the best noodles in the whole street.",
+      "example_vi": "Tôi nghĩ nhà hàng này có món bún ngon nhất cả con phố.",
+      "word_family": {
+        "noun": "thought / thinker",
+        "verb": "think / thought",
+        "adjective": "thoughtful / thoughtless",
+        "adverb": "thoughtfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "feel",
+      "ipa": "/fiːl/",
+      "pos": "verb",
+      "meaning_vi": "cảm thấy, cảm nhận",
+      "meaning_vi_inline": "cảm thấy",
+      "example_en": "I feel much better after a good night's sleep and a warm breakfast.",
+      "example_vi": "Tôi cảm thấy tốt hơn nhiều sau một đêm ngủ ngon và bữa sáng ấm.",
+      "word_family": {
+        "noun": "feeling",
+        "verb": "feel / felt",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "say",
+      "ipa": "/seɪ/",
+      "pos": "verb",
+      "meaning_vi": "nói, phát biểu",
+      "meaning_vi_inline": "nói",
+      "example_en": "She always says what she thinks — I really admire that about her.",
+      "example_vi": "Cô ấy luôn nói những gì cô ấy nghĩ — tôi thực sự ngưỡng mộ điều đó ở cô ấy.",
+      "word_family": {
+        "noun": "saying",
+        "verb": "say / said",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "boring" },
+        { "id": 2, "word": "prefer" },
+        { "id": 3, "word": "exciting" },
+        { "id": 4, "word": "enjoy" },
+        { "id": 5, "word": "favourite" }
+      ],
+      "options": [
+        { "id": "A", "text": "to get pleasure from an activity or experience" },
+        { "id": "B", "text": "the one you like most of all, above everything else" },
+        { "id": "C", "text": "not interesting; making you feel tired and uninterested" },
+        { "id": "D", "text": "making you feel thrilled and full of energy" },
+        { "id": "E", "text": "to like one thing more than another" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ staying at home on weekends — I love going out with friends instead.",
+          "options": ["enjoy", "love", "hate", "prefer"],
+          "answer": "hate"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ that the new café near school has really good food.",
+          "options": ["feels", "wants", "says", "hates"],
+          "answer": "says"
+        },
+        {
+          "id": 3,
+          "sentence": "The football match was so _____ — both teams scored in the last minute!",
+          "options": ["boring", "bad", "exciting", "fun"],
+          "answer": "exciting"
+        },
+        {
+          "id": 4,
+          "sentence": "My _____ subject at school is art because I love drawing and painting.",
+          "options": ["good", "favourite", "fun", "exciting"],
+          "answer": "favourite"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ coffee to tea because he likes the stronger flavour.",
+          "options": ["hates", "wants", "prefers", "enjoys"],
+          "answer": "prefers"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["fun", "bad", "enjoy", "feel", "think", "want"],
+      "items": [
+        { "id": 1, "sentence": "I _____ that learning new words every day is very useful.", "answer": "think" },
+        { "id": 2, "sentence": "We always _____ swimming in the sea during summer holidays.", "answer": "enjoy" },
+        { "id": 3, "sentence": "Eating too much fast food is _____ for your health.", "answer": "bad" },
+        { "id": 4, "sentence": "I _____ happy when I listen to my favourite songs.", "answer": "feel" },
+        { "id": 5, "sentence": "Playing outside with friends is always great _____.", "answer": "fun" }
+      ],
+      "note": "One word in the box is not used: want"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Watching the same film twice was a bit _____. (BORE)",
+          "base_word": "BORE",
+          "answer": "boring",
+          "form_used": "adjective"
+        },
+        {
+          "id": 2,
+          "sentence": "The children screamed with _____ when they saw the fireworks. (EXCITE)",
+          "base_word": "EXCITE",
+          "answer": "excitement",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ admitted that she did not like the gift. (HONEST)",
+          "base_word": "HONEST",
+          "answer": "honestly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 4,
+          "sentence": "My _____ for this job is clear — I have wanted it since I was a child. (PREFER)",
+          "base_word": "PREFER",
+          "answer": "preference",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "He spoke _____ about how he felt after the match. (THOUGHT)",
+          "base_word": "THOUGHT",
+          "answer": "thoughtfully",
+          "form_used": "adverb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I [hate] swimming in the sea — I go there every weekend because it makes me so happy.",
+          "highlighted": "hate",
+          "options": { "A": "love", "B": "hate", "C": "prefer" },
+          "answer": "A",
+          "explanation": "The sentence describes someone who goes swimming every weekend and feels happy. This shows a strong positive feeling, so 'love' is correct — not 'hate', which means a strong dislike."
+        },
+        {
+          "id": 2,
+          "sentence": "Staying inside when it rains is very [exciting] — there is nothing to do and time passes slowly.",
+          "highlighted": "exciting",
+          "options": { "A": "fun", "B": "good", "C": "boring" },
+          "answer": "C",
+          "explanation": "'Exciting' means something that makes you feel thrilled and energetic. The sentence describes nothing to do and slow time — this is the opposite. The correct word is 'boring'."
+        },
+        {
+          "id": 3,
+          "sentence": "My [least] colour is green — I use it in almost all of my paintings.",
+          "highlighted": "least",
+          "options": { "A": "worst", "B": "least", "C": "favourite" },
+          "answer": "C",
+          "explanation": "'Least' means the smallest amount and does not describe preference correctly here. When you use a colour in almost all your paintings, it must be your 'favourite' — the one you like most."
+        },
+        {
+          "id": 4,
+          "sentence": "She [thought] to her friend that the homework was too difficult.",
+          "highlighted": "thought",
+          "options": { "A": "said", "B": "thought", "C": "felt" },
+          "answer": "A",
+          "explanation": "The preposition 'to' after the verb shows communication directed at another person. 'Said to' means you told someone something. 'Thought' is an internal action — you cannot 'thought to' someone."
+        },
+        {
+          "id": 5,
+          "sentence": "Eating too much chocolate is [good] for your teeth and makes them hurt.",
+          "highlighted": "good",
+          "options": { "A": "boring", "B": "exciting", "C": "bad" },
+          "answer": "C",
+          "explanation": "'Good' means positive or helpful. The sentence says eating too much chocolate makes your teeth hurt — this is a negative result. The correct word is 'bad', which means harmful."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "E", "3": "D", "4": "A", "5": "B" },
+    "ex2": { "1": "hate", "2": "says", "3": "exciting", "4": "favourite", "5": "prefers" },
+    "ex3": { "1": "think", "2": "enjoy", "3": "bad", "4": "feel", "5": "fun" },
+    "ex4": { "1": "boring", "2": "excitement", "3": "honestly", "4": "preference", "5": "thoughtfully" },
+    "ex5": { "1": "A", "2": "C", "3": "C", "4": "A", "5": "C" }
+  }
+}

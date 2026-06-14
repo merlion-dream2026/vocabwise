@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 43,
+    "topic_id": "b3-t43",
+    "topic_title": "Cross-Cultural Communication",
+    "topic_title_vi": "Giao Tiếp Liên Văn Hóa",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🌏",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Effective communication across cultures demands far more than fluency in a shared language. Every society develops its own **pragmatics** — the unspoken rules governing what is said, how it is said, and what remains deliberately unsaid. Central to this is the notion of **register**: the ability to shift between formal and informal language according to social context. A speaker who fails to calibrate **register** appropriately may cause unintended offence, regardless of grammatical accuracy.",
+        "text_vi": "Giao tiếp hiệu quả giữa các nền văn hóa đòi hỏi nhiều hơn là sự thành thạo một ngôn ngữ chung. Mỗi xã hội phát triển **ngữ dụng học** riêng — những quy tắc bất thành văn chi phối điều gì được nói, nói như thế nào, và điều gì được cố ý bỏ ngỏ. Cốt lõi của điều này là khái niệm **phong cách ngôn ngữ**: khả năng chuyển đổi giữa ngôn ngữ trang trọng và không trang trọng tùy theo bối cảnh xã hội. Người nói không điều chỉnh **phong cách ngôn ngữ** đúng mức có thể gây ra sự xúc phạm ngoài ý muốn, bất kể độ chính xác ngữ pháp."
+      },
+      {
+        "index": 2,
+        "text_en": "Many cultures place great value on **face-saving** — the preservation of social dignity in public interactions. In these contexts, **indirectness** is not evasiveness but a sophisticated communicative strategy designed to **avoid face-threatening acts** and maintain harmony. A direct refusal, perfectly acceptable in some Western cultures, may be deeply offensive elsewhere. Learners must therefore **interpret indirect communication** carefully, reading between the lines rather than taking words at face value.",
+        "text_vi": "Nhiều nền văn hóa đặt trọng tâm vào **thể diện** — việc bảo vệ phẩm giá xã hội trong các tương tác công khai. Trong những bối cảnh này, **tính gián tiếp** không phải là sự né tránh mà là một chiến lược giao tiếp tinh tế nhằm **tránh các hành động đe dọa thể diện** và duy trì sự hòa hợp. Một lời từ chối thẳng thắn, hoàn toàn chấp nhận được trong một số nền văn hóa phương Tây, có thể rất xúc phạm ở nơi khác. Do đó, người học phải **diễn giải giao tiếp gián tiếp** một cách cẩn thận, đọc hiểu hàm ý thay vì hiểu nguyên nghĩa từng từ."
+      },
+      {
+        "index": 3,
+        "text_en": "Beyond words, **paralanguage** — including tone, pace, gesture, and silence — carries enormous communicative weight. **Intercultural** encounters frequently break down not because of vocabulary gaps but because speakers misread these non-verbal cues. A dangerous pitfall is the **stereotype**: the tendency to assign fixed traits to entire cultural groups. Such generalisations breed **misinterpretation** and obstruct genuine dialogue. Competent communicators consciously challenge stereotypical assumptions in every encounter.",
+        "text_vi": "Ngoài ngôn từ, **ngôn ngữ cận lời** — bao gồm giọng điệu, tốc độ, cử chỉ và sự im lặng — mang trọng lượng giao tiếp rất lớn. Các cuộc gặp gỡ **liên văn hóa** thường đổ vỡ không phải vì thiếu từ vựng mà vì người nói hiểu sai những tín hiệu phi ngôn ngữ này. Một cạm bẫy nguy hiểm là **định kiến**: xu hướng gán các đặc điểm cố định cho toàn bộ một nhóm văn hóa. Những khái quát hóa như vậy sinh ra **sự hiểu nhầm** và cản trở đối thoại chân thật. Những người giao tiếp có năng lực luôn chủ động thách thức các giả định mang tính định kiến trong mỗi cuộc gặp."
+      },
+      {
+        "index": 4,
+        "text_en": "Professional environments often impose their own **protocol** — formal procedures that govern interaction in diplomatic, business, or academic settings. The ability to **navigate cultural communication norms** and **adapt to intercultural contexts** is therefore an indispensable skill in a globalised world. Ultimately, those who succeed in cross-cultural communication do so by combining linguistic competence with cultural humility, treating each interaction as an opportunity to **bridge communication styles** rather than impose their own.",
+        "text_vi": "Môi trường chuyên nghiệp thường áp đặt **nghi thức** riêng — các quy trình chính thức điều chỉnh tương tác trong các bối cảnh ngoại giao, kinh doanh hay học thuật. Do đó, khả năng **định hướng trong các chuẩn mực giao tiếp văn hóa** và **thích nghi với các bối cảnh liên văn hóa** là kỹ năng không thể thiếu trong một thế giới toàn cầu hóa. Cuối cùng, những người thành công trong giao tiếp liên văn hóa làm được điều đó bằng cách kết hợp năng lực ngôn ngữ với sự khiêm tốn văn hóa, coi mỗi tương tác là cơ hội để **kết nối các phong cách giao tiếp** thay vì áp đặt phong cách của mình."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "pragmatics",
+      "ipa": "/præɡˈmæt.ɪks/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "ngữ dụng học (nghiên cứu cách ngôn ngữ được dùng trong bối cảnh xã hội)",
+      "meaning_vi_inline": "ngữ dụng học",
+      "example_en": "A strong grasp of pragmatics allows speakers to infer meaning beyond the literal words used.",
+      "example_vi": "Nắm vững ngữ dụng học giúp người nói suy ra ý nghĩa vượt ra ngoài những từ được dùng theo nghĩa đen.",
+      "word_family": {
+        "noun": "pragmatics / pragmatism",
+        "verb": null,
+        "adjective": "pragmatic",
+        "adverb": "pragmatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "register",
+      "ipa": "/ˈredʒ.ɪ.stər/",
+      "pos": "noun",
+      "meaning_vi": "phong cách ngôn ngữ (mức độ trang trọng phù hợp với bối cảnh)",
+      "meaning_vi_inline": "phong cách ngôn ngữ",
+      "example_en": "Switching register from casual to formal is an essential skill in professional communication.",
+      "example_vi": "Chuyển đổi phong cách ngôn ngữ từ thông thường sang trang trọng là kỹ năng thiết yếu trong giao tiếp chuyên nghiệp.",
+      "word_family": {
+        "noun": "register / registration",
+        "verb": "register",
+        "adjective": "registered",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "registry",
+        "explanation_vi": "'Register' trong ngôn ngữ học là phong cách ngôn ngữ theo bối cảnh; 'registry' là sổ đăng ký hoặc văn phòng lưu trữ hồ sơ — không liên quan."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "face-saving",
+      "ipa": "/ˈfeɪs ˌseɪ.vɪŋ/",
+      "pos": "adjective / noun",
+      "meaning_vi": "giữ thể diện, bảo vệ danh dự",
+      "meaning_vi_inline": "thể diện",
+      "example_en": "The mediator suggested a face-saving compromise that allowed both parties to avoid public embarrassment.",
+      "example_vi": "Người hòa giải đề xuất một giải pháp giữ thể diện giúp cả hai bên tránh khỏi sự bối rối trước công chúng.",
+      "word_family": {
+        "noun": "face-saving / face",
+        "verb": "save face",
+        "adjective": "face-saving",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "indirectness",
+      "ipa": "/ˌɪn.daɪˈrekt.nəs/",
+      "pos": "noun",
+      "meaning_vi": "tính gián tiếp, cách diễn đạt vòng vo",
+      "meaning_vi_inline": "tính gián tiếp",
+      "example_en": "The indirectness of his refusal left the other party uncertain whether consent had been given.",
+      "example_vi": "Sự gián tiếp trong lời từ chối của anh ấy khiến bên kia không chắc liệu sự đồng ý đã được đưa ra chưa.",
+      "word_family": {
+        "noun": "indirectness / indirection",
+        "verb": null,
+        "adjective": "indirect",
+        "adverb": "indirectly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "paralanguage",
+      "ipa": "/ˈpær.ə.læŋ.ɡwɪdʒ/",
+      "pos": "noun (uncountable)",
+      "meaning_vi": "ngôn ngữ cận lời (yếu tố phi ngôn từ như giọng điệu, cử chỉ, tốc độ nói)",
+      "meaning_vi_inline": "ngôn ngữ cận lời",
+      "example_en": "Paralanguage such as sighing or raising one's voice can change the meaning of an utterance completely.",
+      "example_vi": "Ngôn ngữ cận lời như tiếng thở dài hay việc nâng giọng có thể thay đổi hoàn toàn ý nghĩa của một phát ngôn.",
+      "word_family": {
+        "noun": "paralanguage",
+        "verb": null,
+        "adjective": "paralinguistic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "intercultural",
+      "ipa": "/ˌɪn.tə.ˈkʌl.tʃər.əl/",
+      "pos": "adjective",
+      "meaning_vi": "liên văn hóa, giữa các nền văn hóa",
+      "meaning_vi_inline": "liên văn hóa",
+      "example_en": "Intercultural training helps employees work effectively in multinational teams.",
+      "example_vi": "Đào tạo liên văn hóa giúp nhân viên làm việc hiệu quả trong các nhóm đa quốc gia.",
+      "word_family": {
+        "noun": "interculturalism",
+        "verb": null,
+        "adjective": "intercultural",
+        "adverb": "interculturally"
+      },
+      "false_friend": {
+        "word_vi": "multicultural",
+        "explanation_vi": "'Intercultural' nhấn mạnh sự tương tác và trao đổi giữa các nền văn hóa; 'multicultural' chỉ mô tả sự hiện diện của nhiều nền văn hóa trong cùng một không gian."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "stereotype",
+      "ipa": "/ˈster.i.ə.taɪp/",
+      "pos": "noun / verb",
+      "meaning_vi": "định kiến, khuôn mẫu (cố định về một nhóm người)",
+      "meaning_vi_inline": "định kiến",
+      "example_en": "Relying on stereotypes about negotiation styles can lead to serious diplomatic misunderstandings.",
+      "example_vi": "Dựa vào những định kiến về phong cách đàm phán có thể dẫn đến những hiểu nhầm ngoại giao nghiêm trọng.",
+      "word_family": {
+        "noun": "stereotype / stereotyping",
+        "verb": "stereotype",
+        "adjective": "stereotypical / stereotyped",
+        "adverb": "stereotypically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "misinterpretation",
+      "ipa": "/ˌmɪs.ɪnˌtɜː.prɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hiểu nhầm, sự diễn giải sai",
+      "meaning_vi_inline": "sự hiểu nhầm",
+      "example_en": "A single gesture can lead to serious misinterpretation when parties come from different cultural backgrounds.",
+      "example_vi": "Một cử chỉ đơn giản có thể dẫn đến sự hiểu nhầm nghiêm trọng khi các bên đến từ nền tảng văn hóa khác nhau.",
+      "word_family": {
+        "noun": "misinterpretation",
+        "verb": "misinterpret",
+        "adjective": "misinterpreted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "protocol",
+      "ipa": "/ˈprəʊ.tə.kɒl/",
+      "pos": "noun",
+      "meaning_vi": "nghi thức, quy trình chính thức",
+      "meaning_vi_inline": "nghi thức",
+      "example_en": "Diplomatic protocol dictates the precise order in which officials are greeted at state events.",
+      "example_vi": "Nghi thức ngoại giao quy định thứ tự chính xác để chào đón các quan chức tại các sự kiện nhà nước.",
+      "word_family": {
+        "noun": "protocol",
+        "verb": null,
+        "adjective": "protocolled",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "adaptation",
+      "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thích nghi, sự điều chỉnh",
+      "meaning_vi_inline": "sự thích nghi",
+      "example_en": "Successful cross-cultural negotiators credit their adaptation of communication style as the key to their effectiveness.",
+      "example_vi": "Những nhà đàm phán liên văn hóa thành công cho rằng sự thích nghi phong cách giao tiếp là chìa khóa cho hiệu quả của họ.",
+      "word_family": {
+        "noun": "adaptation / adaptability",
+        "verb": "adapt",
+        "adjective": "adaptable / adaptive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "adoption",
+        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hay chấp nhận chính thức — khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "navigate cultural communication norms",
+      "meaning_vi": "định hướng trong các chuẩn mực giao tiếp văn hóa",
+      "example_en": "Expatriate managers must learn to navigate cultural communication norms quickly to earn the trust of local teams.",
+      "example_vi": "Các nhà quản lý người nước ngoài phải học cách định hướng trong các chuẩn mực giao tiếp văn hóa nhanh chóng để giành được sự tin tưởng của nhóm địa phương.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "avoid face-threatening acts",
+      "meaning_vi": "tránh các hành động đe dọa thể diện",
+      "example_en": "Experienced diplomats are trained to avoid face-threatening acts that could derail sensitive negotiations.",
+      "example_vi": "Các nhà ngoại giao giàu kinh nghiệm được đào tạo để tránh các hành động đe dọa thể diện có thể làm hỏng những cuộc đàm phán nhạy cảm.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "interpret indirect communication",
+      "meaning_vi": "diễn giải giao tiếp gián tiếp",
+      "example_en": "The ability to interpret indirect communication is particularly valuable when working in high-context cultures.",
+      "example_vi": "Khả năng diễn giải giao tiếp gián tiếp đặc biệt có giá trị khi làm việc trong các nền văn hóa ngữ cảnh cao.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "bridge communication styles",
+      "meaning_vi": "kết nối các phong cách giao tiếp",
+      "example_en": "A skilled interpreter does more than translate words — they bridge communication styles between cultures.",
+      "example_vi": "Một phiên dịch viên lành nghề không chỉ dịch từ ngữ — họ còn kết nối các phong cách giao tiếp giữa các nền văn hóa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "adapt to intercultural contexts",
+      "meaning_vi": "thích nghi với các bối cảnh liên văn hóa",
+      "example_en": "Professionals who adapt to intercultural contexts with ease are highly sought after in global organisations.",
+      "example_vi": "Những chuyên gia thích nghi dễ dàng với các bối cảnh liên văn hóa rất được săn đón trong các tổ chức toàn cầu.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, a speaker with correct grammar will always avoid causing offence in cross-cultural communication.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that indirectness is used exclusively by East Asian cultures.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that stereotypes can interfere with effective cross-cultural dialogue.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, paralanguage includes tone, pace, gesture, and silence.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that cultural humility is less important than linguistic competence in cross-cultural communication.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The ambassador's remark was seen as a _____ of cultural norms, causing significant diplomatic tension.",
+          "options": [
+            "misinterpretation",
+            "register",
+            "paralanguage",
+            "protocol"
+          ],
+          "answer": "misinterpretation"
+        },
+        {
+          "id": 2,
+          "sentence": "In high-context cultures, _____ is often preferred over blunt refusals to maintain social harmony.",
+          "options": [
+            "stereotype",
+            "protocol",
+            "indirectness",
+            "adaptation"
+          ],
+          "answer": "indirectness"
+        },
+        {
+          "id": 3,
+          "sentence": "The business negotiation failed partly because one team misread the other's _____, such as prolonged silences.",
+          "options": [
+            "face-saving",
+            "adaptation",
+            "pragmatics",
+            "paralanguage"
+          ],
+          "answer": "paralanguage"
+        },
+        {
+          "id": 4,
+          "sentence": "Assigning a fixed personality trait to all members of a nationality is a classic form of _____.",
+          "options": [
+            "register",
+            "intercultural",
+            "protocol",
+            "stereotype"
+          ],
+          "answer": "stereotype"
+        },
+        {
+          "id": 5,
+          "sentence": "Her remarkable _____ to the local business culture won her the trust of colleagues within weeks.",
+          "options": [
+            "misinterpretation",
+            "adaptation",
+            "face-saving",
+            "indirectness"
+          ],
+          "answer": "adaptation"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "pragmatics",
+        "face-saving",
+        "intercultural",
+        "protocol",
+        "register",
+        "misinterpretation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The formal _____ for greeting visiting dignitaries involves a specific sequence of bows and handshakes.",
+          "answer": "protocol"
+        },
+        {
+          "id": 2,
+          "sentence": "A course in _____ teaches learners how context, tone, and social roles shape the meaning of utterances.",
+          "answer": "pragmatics"
+        },
+        {
+          "id": 3,
+          "sentence": "The trainer offered a _____ compromise so neither negotiating team would lose credibility in front of their superiors.",
+          "answer": "face-saving"
+        },
+        {
+          "id": 4,
+          "sentence": "Using an overly casual _____ in a formal written report signals a lack of professional awareness.",
+          "answer": "register"
+        },
+        {
+          "id": 5,
+          "sentence": "Companies investing in _____ competence training report fewer conflicts in their global teams.",
+          "answer": "intercultural"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "paralanguage",
+            "can",
+            "alter",
+            "the",
+            "meaning",
+            "of",
+            "even",
+            "simple",
+            "utterances"
+          ],
+          "answer": "Paralanguage can alter the meaning of even simple utterances."
+        },
+        {
+          "id": 2,
+          "words": [
+            "stereotypes",
+            "about",
+            "cultures",
+            "lead",
+            "to",
+            "serious",
+            "misinterpretation",
+            "in",
+            "negotiations"
+          ],
+          "answer": "Stereotypes about cultures lead to serious misinterpretation in negotiations."
+        },
+        {
+          "id": 3,
+          "words": [
+            "successful",
+            "communicators",
+            "adapt",
+            "their",
+            "register",
+            "to",
+            "suit",
+            "the",
+            "social",
+            "context"
+          ],
+          "answer": "Successful communicators adapt their register to suit the social context."
+        },
+        {
+          "id": 4,
+          "words": [
+            "indirectness",
+            "is",
+            "often",
+            "used",
+            "to",
+            "preserve",
+            "face",
+            "in",
+            "high-context",
+            "cultures"
+          ],
+          "answer": "Indirectness is often used to preserve face in high-context cultures."
+        },
+        {
+          "id": 5,
+          "words": [
+            "protocol",
+            "governs",
+            "interaction",
+            "in",
+            "formal",
+            "diplomatic",
+            "and",
+            "business",
+            "settings"
+          ],
+          "answer": "Protocol governs interaction in formal diplomatic and business settings."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A thorough knowledge of [pragmatic] helps communicators infer meaning from context rather than literal words.",
+          "highlighted": "pragmatic",
+          "options": {
+            "A": "pragmatism",
+            "B": "pragmatically",
+            "C": "pragmatics"
+          },
+          "answer": "C",
+          "explanation": "The uncountable noun 'pragmatics' is the field of study required here; 'pragmatic' is an adjective and cannot serve as the subject complement after 'knowledge of'."
+        },
+        {
+          "id": 2,
+          "sentence": "His [indirect] response confused the client, who expected a clear yes or no.",
+          "highlighted": "indirect",
+          "options": {
+            "A": "indirectly",
+            "B": "indirectness",
+            "C": "indirected"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as a possessive head ('His _____ response' requires a noun, not an adjective — 'His indirectness confused' is the correct structure)."
+        },
+        {
+          "id": 3,
+          "sentence": "The delegation followed strict diplomatic [protocols] to ensure no participant lost face during the summit.",
+          "highlighted": "protocols",
+          "options": {
+            "A": "protocol",
+            "B": "protocolled",
+            "C": "protocolling"
+          },
+          "answer": "A",
+          "explanation": "'Protocol' in formal diplomatic usage is typically treated as an uncountable noun; the plural 'protocols' is incorrect in this academic register."
+        },
+        {
+          "id": 4,
+          "sentence": "Her capacity to [stereotype] quickly to new environments made her an asset on international projects.",
+          "highlighted": "stereotype",
+          "options": {
+            "A": "adaption",
+            "B": "stereotyping",
+            "C": "adapt"
+          },
+          "answer": "C",
+          "explanation": "The verb 'adapt' fits the infinitive slot after 'capacity to'; 'stereotype' has the wrong meaning, and 'stereotyping' is a gerund that does not fit the structure."
+        },
+        {
+          "id": 5,
+          "sentence": "Skilled negotiators learn to read [paralinguistic] cues such as hesitation and eye contact as part of their training.",
+          "highlighted": "paralinguistic",
+          "options": {
+            "A": "paralanguage",
+            "B": "paralleled",
+            "C": "paralingual"
+          },
+          "answer": "A",
+          "explanation": "While 'paralinguistic' is an adjective form, it does not collocate naturally with 'cues' in standard usage; 'paralanguage cues' is the established noun-noun compound used in communication studies."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "misinterpretation",
+      "2": "indirectness",
+      "3": "paralanguage",
+      "4": "stereotype",
+      "5": "adaptation"
+    },
+    "ex3": {
+      "1": "protocol",
+      "2": "pragmatics",
+      "3": "face-saving",
+      "4": "register",
+      "5": "intercultural"
+    },
+    "ex4": {
+      "1": "Paralanguage can alter the meaning of even simple utterances.",
+      "2": "Stereotypes about cultures lead to serious misinterpretation in negotiations.",
+      "3": "Successful communicators adapt their register to suit the social context.",
+      "4": "Indirectness is often used to preserve face in high-context cultures.",
+      "5": "Protocol governs interaction in formal diplomatic and business settings."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "B",
+      "3": "A",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 29,
+    "topic_id": "b3-t29",
+    "topic_title": "Migration & Belonging",
+    "topic_title_vi": "Di Cư & Sự Hòa Nhập",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🌍",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Across the world, millions of people flee **persecution** and conflict each year, **seeking asylum** in countries that may offer safety but rarely offer belonging. The journey toward **integration** — the process by which newcomers participate fully in the social, economic, and civic life of a host society — is rarely swift. Many who arrive must first navigate legal systems that determine whether they will be granted protection or face **deportation** back to the dangers they escaped.",
+        "text_vi": "Trên khắp thế giới, hàng triệu người trốn chạy khỏi **sự bức hại** và xung đột mỗi năm, **tìm kiếm quyền tị nạn** tại những quốc gia có thể mang lại sự an toàn nhưng hiếm khi mang lại cảm giác thân thuộc. Hành trình hướng tới **sự hòa nhập** — quá trình mà những người mới đến tham gia đầy đủ vào đời sống xã hội, kinh tế và dân sự của xã hội tiếp nhận — hiếm khi diễn ra nhanh chóng. Nhiều người đến nơi trước tiên phải điều hướng qua các hệ thống pháp lý để xác định liệu họ có được cấp bảo hộ hay phải đối mặt với **sự trục xuất** trở lại những nguy hiểm họ đã thoát khỏi."
+      },
+      {
+        "index": 2,
+        "text_en": "For those who become **stateless** — stripped of citizenship by conflict, political upheaval, or discriminatory law — the search for **sanctuary** is particularly acute. Without legal identity, they are denied access to education, healthcare, and employment. Meanwhile, the **remittance** flows sent home by those who do find work abroad represent a lifeline for families left behind, often sustaining entire communities through periods of crisis.",
+        "text_vi": "Đối với những người trở thành **người không có quốc tịch** — bị tước bỏ quyền công dân do xung đột, biến động chính trị hay luật pháp phân biệt đối xử — cuộc tìm kiếm **nơi trú ẩn an toàn** càng trở nên cấp bách. Không có danh tính pháp lý, họ bị từ chối tiếp cận giáo dục, chăm sóc y tế và việc làm. Trong khi đó, dòng **kiều hối** gửi về nhà từ những người may mắn tìm được việc ở nước ngoài là nguồn sống cho các gia đình ở quê nhà, thường duy trì cả cộng đồng qua những giai đoạn khủng hoảng."
+      },
+      {
+        "index": 3,
+        "text_en": "**Xenophobia** — a deep-seated fear or hostility toward foreigners — remains one of the most persistent barriers to successful settlement. When host communities resist newcomers, the result can be profound social **displacement**: migrants become physically present but socially invisible. Efforts to **combat xenophobia** through education and community dialogue are therefore as vital as any legal reform. True **assimilation**, if it is to be pursued, must be voluntary rather than coerced.",
+        "text_vi": "**Tâm lý bài ngoại** — nỗi sợ hãi hay sự thù địch sâu ăn rễ đối với người nước ngoài — vẫn là một trong những rào cản dai dẳng nhất đối với việc định cư thành công. Khi cộng đồng tiếp nhận chống đối người mới đến, kết quả có thể là sự **dời chỗ** xã hội sâu sắc: người di cư hiện diện về thể chất nhưng vô hình về mặt xã hội. Các nỗ lực **chống lại tâm lý bài ngoại** thông qua giáo dục và đối thoại cộng đồng vì vậy quan trọng không kém bất kỳ cải cách pháp lý nào. **Sự đồng hóa** thực sự, nếu được theo đuổi, phải là tự nguyện chứ không phải ép buộc."
+      },
+      {
+        "index": 4,
+        "text_en": "The debate over migration ultimately centres on a question of values. Societies that choose to **grant refugee status** generously and **foster social integration** tend to benefit from the resilience and skills that migrants bring. At the same time, migrants themselves face the profound tension between **assimilation** and the desire to **preserve cultural identity abroad** — to rebuild a life in a new land without surrendering the customs, language, and memory that define who they are.",
+        "text_vi": "Cuộc tranh luận về di cư cuối cùng xoay quanh một câu hỏi về các giá trị. Các xã hội chọn cách **cấp quy chế tị nạn** một cách rộng rãi và **thúc đẩy sự hòa nhập xã hội** có xu hướng hưởng lợi từ sự kiên cường và kỹ năng mà người di cư mang lại. Đồng thời, chính bản thân người di cư đối mặt với sự căng thẳng sâu sắc giữa **sự đồng hóa** và mong muốn **gìn giữ bản sắc văn hóa ở nước ngoài** — xây dựng lại cuộc sống ở vùng đất mới mà không từ bỏ những phong tục, ngôn ngữ và ký ức định hình con người họ là ai."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "asylum",
+      "ipa": "/əˈsaɪ.ləm/",
+      "pos": "noun",
+      "meaning_vi": "quyền tị nạn, nơi tị nạn",
+      "meaning_vi_inline": "quyền tị nạn",
+      "example_en": "She applied for asylum after fleeing political violence in her home country.",
+      "example_vi": "Cô ấy nộp đơn xin tị nạn sau khi trốn chạy bạo lực chính trị ở quê nhà.",
+      "word_family": {
+        "noun": "asylum / asylum seeker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "persecution",
+      "ipa": "/ˌpɜː.sɪˈkjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự bức hại, sự ngược đãi",
+      "meaning_vi_inline": "sự bức hại",
+      "example_en": "Members of the minority group fled persecution by the authoritarian regime.",
+      "example_vi": "Các thành viên của nhóm thiểu số đã trốn chạy sự bức hại của chế độ độc tài.",
+      "word_family": {
+        "noun": "persecution / persecutor",
+        "verb": "persecute",
+        "adjective": "persecuted",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "prosecution",
+        "explanation_vi": "'Persecution' là sự bức hại, ngược đãi vì lý do tôn giáo, chính trị; 'prosecution' là sự truy tố hình sự — khác nhau về bản chất."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "xenophobia",
+      "ipa": "/ˌzen.əˈfəʊ.bi.ə/",
+      "pos": "noun",
+      "meaning_vi": "tâm lý bài ngoại, sợ hãi và thù địch với người nước ngoài",
+      "meaning_vi_inline": "tâm lý bài ngoại",
+      "example_en": "Rising unemployment was exploited by politicians to stoke xenophobia against migrant workers.",
+      "example_vi": "Tình trạng thất nghiệp gia tăng đã bị các chính trị gia lợi dụng để kích động tâm lý bài ngoại nhằm vào người lao động nhập cư.",
+      "word_family": {
+        "noun": "xenophobia / xenophobe",
+        "verb": null,
+        "adjective": "xenophobic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "stateless",
+      "ipa": "/ˈsteɪt.ləs/",
+      "pos": "adjective",
+      "meaning_vi": "không có quốc tịch, vô tổ quốc",
+      "meaning_vi_inline": "không có quốc tịch",
+      "example_en": "Thousands of Rohingya people remain stateless, denied citizenship by both Myanmar and neighbouring states.",
+      "example_vi": "Hàng nghìn người Rohingya vẫn không có quốc tịch, bị từ chối quyền công dân bởi cả Myanmar lẫn các quốc gia láng giềng.",
+      "word_family": {
+        "noun": "statelessness",
+        "verb": null,
+        "adjective": "stateless",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "integration",
+      "ipa": "/ˌɪn.tɪˈɡreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hòa nhập, sự tích hợp",
+      "meaning_vi_inline": "sự hòa nhập",
+      "example_en": "Successful integration requires commitment from both the migrant community and the host society.",
+      "example_vi": "Sự hòa nhập thành công đòi hỏi cam kết từ cả cộng đồng di cư lẫn xã hội tiếp nhận.",
+      "word_family": {
+        "noun": "integration",
+        "verb": "integrate",
+        "adjective": "integrated / integrative",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "sanctuary",
+      "ipa": "/ˈsæŋk.tʃu.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "nơi trú ẩn an toàn, nơi nương tựa",
+      "meaning_vi_inline": "nơi trú ẩn an toàn",
+      "example_en": "The neutral country offered sanctuary to refugees fleeing the civil war.",
+      "example_vi": "Quốc gia trung lập cung cấp nơi trú ẩn an toàn cho những người tị nạn trốn chạy nội chiến.",
+      "word_family": {
+        "noun": "sanctuary",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "remittance",
+      "ipa": "/rɪˈmɪt.əns/",
+      "pos": "noun",
+      "meaning_vi": "kiều hối, tiền gửi về nhà",
+      "meaning_vi_inline": "kiều hối",
+      "example_en": "Remittances from overseas workers account for a significant share of the country's GDP.",
+      "example_vi": "Kiều hối từ người lao động ở nước ngoài chiếm tỷ trọng đáng kể trong GDP của đất nước.",
+      "word_family": {
+        "noun": "remittance",
+        "verb": "remit",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "deportation",
+      "ipa": "/ˌdiː.pɔːˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự trục xuất, sự áp giải về nước",
+      "meaning_vi_inline": "sự trục xuất",
+      "example_en": "The failed asylum seeker faced deportation to a country where his safety could not be guaranteed.",
+      "example_vi": "Người xin tị nạn bị từ chối phải đối mặt với sự trục xuất về một quốc gia mà sự an toàn của anh ta không thể được đảm bảo.",
+      "word_family": {
+        "noun": "deportation / deportee",
+        "verb": "deport",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "exportation",
+        "explanation_vi": "'Deportation' là trục xuất người ra khỏi một quốc gia; 'exportation' là xuất khẩu hàng hóa — hai khái niệm hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "assimilation",
+      "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự đồng hóa, sự hấp thu vào văn hóa chủ đạo",
+      "meaning_vi_inline": "sự đồng hóa",
+      "example_en": "Forced assimilation policies have historically been used to erase minority cultures.",
+      "example_vi": "Các chính sách đồng hóa cưỡng bức trong lịch sử đã được dùng để xóa bỏ các nền văn hóa thiểu số.",
+      "word_family": {
+        "noun": "assimilation",
+        "verb": "assimilate",
+        "adjective": "assimilated / assimilatory",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "displacement",
+      "ipa": "/dɪsˈpleɪs.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự dời chỗ, tình trạng phải rời bỏ nơi ở",
+      "meaning_vi_inline": "sự dời chỗ, tình trạng phải rời bỏ nơi ở",
+      "example_en": "The conflict caused the displacement of over two million civilians within a single year.",
+      "example_vi": "Cuộc xung đột đã khiến hơn hai triệu dân thường phải rời bỏ nơi ở chỉ trong vòng một năm.",
+      "word_family": {
+        "noun": "displacement",
+        "verb": "displace",
+        "adjective": "displaced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "seek asylum from persecution",
+      "meaning_vi": "tìm kiếm quyền tị nạn để thoát khỏi sự bức hại",
+      "example_en": "International law protects the right of individuals to seek asylum from persecution on grounds of race, religion, or political opinion.",
+      "example_vi": "Luật quốc tế bảo vệ quyền của các cá nhân được tìm kiếm quyền tị nạn để thoát khỏi sự bức hại vì lý do chủng tộc, tôn giáo hay quan điểm chính trị.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "grant refugee status",
+      "meaning_vi": "cấp quy chế tị nạn",
+      "example_en": "The government agreed to grant refugee status to those who could demonstrate a well-founded fear of persecution.",
+      "example_vi": "Chính phủ đồng ý cấp quy chế tị nạn cho những người có thể chứng minh nỗi sợ hãi có căn cứ về sự bức hại.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "foster social integration",
+      "meaning_vi": "thúc đẩy sự hòa nhập xã hội",
+      "example_en": "Community language classes and mentoring schemes are among the most effective tools to foster social integration.",
+      "example_vi": "Các lớp học ngôn ngữ cộng đồng và chương trình cố vấn là những công cụ hiệu quả nhất để thúc đẩy sự hòa nhập xã hội.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "combat xenophobia",
+      "meaning_vi": "chống lại tâm lý bài ngoại",
+      "example_en": "Schools play a critical role in helping to combat xenophobia by promoting intercultural awareness from an early age.",
+      "example_vi": "Các trường học đóng vai trò quan trọng trong việc chống lại tâm lý bài ngoại bằng cách thúc đẩy nhận thức liên văn hóa từ sớm.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "preserve cultural identity abroad",
+      "meaning_vi": "gìn giữ bản sắc văn hóa ở nước ngoài",
+      "example_en": "Many diaspora communities establish cultural associations to help preserve cultural identity abroad across generations.",
+      "example_vi": "Nhiều cộng đồng người xa xứ thành lập các hội văn hóa để giúp gìn giữ bản sắc văn hóa ở nước ngoài qua nhiều thế hệ.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, integration into a host society is typically a rapid process for most migrants.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that stateless people are unable to access education, healthcare, and employment.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage argues that remittances are primarily used to fund political activities in migrants' home countries.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage claims that xenophobia has declined significantly in recent decades due to globalisation.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that assimilation, if pursued, should be a voluntary process rather than a forced one.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The family was granted _____ after demonstrating a credible fear of violence in their home country.",
+          "options": [
+            "deportation",
+            "remittance",
+            "asylum",
+            "assimilation"
+          ],
+          "answer": "asylum"
+        },
+        {
+          "id": 2,
+          "sentence": "The ethnic minority group faced systematic _____ by the state, including imprisonment and forced labour.",
+          "options": [
+            "sanctuary",
+            "persecution",
+            "integration",
+            "displacement"
+          ],
+          "answer": "persecution"
+        },
+        {
+          "id": 3,
+          "sentence": "Workers sending _____ home play an enormous role in supporting the economies of developing nations.",
+          "options": [
+            "remittances",
+            "deportations",
+            "assimilations",
+            "sanctuaries"
+          ],
+          "answer": "remittances"
+        },
+        {
+          "id": 4,
+          "sentence": "The village was destroyed in the conflict, leading to the _____ of thousands of residents.",
+          "options": [
+            "xenophobia",
+            "integration",
+            "displacement",
+            "remittance"
+          ],
+          "answer": "displacement"
+        },
+        {
+          "id": 5,
+          "sentence": "The neutral nation offered _____ to political dissidents who had been forced to flee overnight.",
+          "options": [
+            "deportation",
+            "sanctuary",
+            "assimilation",
+            "persecution"
+          ],
+          "answer": "sanctuary"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "stateless",
+        "xenophobia",
+        "integration",
+        "assimilation",
+        "deportation",
+        "asylum"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Without recognised citizenship, she was effectively _____, unable to access basic legal protections.",
+          "answer": "stateless"
+        },
+        {
+          "id": 2,
+          "sentence": "Cultural _____, where minorities abandon their heritage to conform to the mainstream, remains a controversial policy goal.",
+          "answer": "assimilation"
+        },
+        {
+          "id": 3,
+          "sentence": "Community dialogue programmes are proving effective in reducing _____ and building trust between local residents and migrants.",
+          "answer": "xenophobia"
+        },
+        {
+          "id": 4,
+          "sentence": "His _____ order was overturned on appeal after evidence emerged that he faced serious risk in his country of origin.",
+          "answer": "deportation"
+        },
+        {
+          "id": 5,
+          "sentence": "Workplace language support is one of the most practical tools for facilitating the economic _____ of newly arrived migrants.",
+          "answer": "integration"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "millions",
+            "of",
+            "people",
+            "seek",
+            "asylum",
+            "from",
+            "persecution",
+            "every",
+            "year"
+          ],
+          "answer": "Millions of people seek asylum from persecution every year."
+        },
+        {
+          "id": 2,
+          "words": [
+            "stateless",
+            "people",
+            "are",
+            "often",
+            "denied",
+            "access",
+            "to",
+            "basic",
+            "services"
+          ],
+          "answer": "Stateless people are often denied access to basic services."
+        },
+        {
+          "id": 3,
+          "words": [
+            "remittances",
+            "sustain",
+            "communities",
+            "left",
+            "behind",
+            "by",
+            "migration"
+          ],
+          "answer": "Remittances sustain communities left behind by migration."
+        },
+        {
+          "id": 4,
+          "words": [
+            "education",
+            "can",
+            "help",
+            "combat",
+            "xenophobia",
+            "in",
+            "divided",
+            "societies"
+          ],
+          "answer": "Education can help combat xenophobia in divided societies."
+        },
+        {
+          "id": 5,
+          "words": [
+            "assimilation",
+            "should",
+            "be",
+            "voluntary",
+            "rather",
+            "than",
+            "imposed",
+            "by",
+            "law"
+          ],
+          "answer": "Assimilation should be voluntary rather than imposed by law."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was [persecute] for her religious beliefs and had no choice but to leave the country.",
+          "highlighted": "persecute",
+          "options": {
+            "A": "persecuted",
+            "B": "persecution",
+            "C": "persecuting"
+          },
+          "answer": "A",
+          "explanation": "A past participle is required here to form the passive — 'persecuted', not the base verb 'persecute'."
+        },
+        {
+          "id": 2,
+          "sentence": "The [deport] of long-term residents without criminal records sparked widespread public protests.",
+          "highlighted": "deport",
+          "options": {
+            "A": "deported",
+            "B": "deportation",
+            "C": "deportee"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'deportation', not the verb 'deport'."
+        },
+        {
+          "id": 3,
+          "sentence": "Cultural [assimilate] policies have been criticised for suppressing minority languages and traditions.",
+          "highlighted": "assimilate",
+          "options": {
+            "A": "assimilation",
+            "B": "assimilated",
+            "C": "assimilating"
+          },
+          "answer": "A",
+          "explanation": "A noun is required to modify 'policies' as a compound noun — 'assimilation', not the verb 'assimilate'."
+        },
+        {
+          "id": 4,
+          "sentence": "The country accepted thousands of [displacing] families from the conflict zone.",
+          "highlighted": "displacing",
+          "options": {
+            "A": "displace",
+            "B": "displacement",
+            "C": "displaced"
+          },
+          "answer": "C",
+          "explanation": "A past-participial adjective is needed to modify 'families' — 'displaced' (meaning forced from their homes), not the active participle 'displacing'."
+        },
+        {
+          "id": 5,
+          "sentence": "Monthly [remit] from workers abroad have become the country's largest source of foreign income.",
+          "highlighted": "remit",
+          "options": {
+            "A": "remittance",
+            "B": "remittances",
+            "C": "remitting"
+          },
+          "answer": "B",
+          "explanation": "A plural noun is required after 'Monthly' to serve as the subject — 'remittances', not the verb 'remit'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "asylum",
+      "2": "persecution",
+      "3": "remittances",
+      "4": "displacement",
+      "5": "sanctuary"
+    },
+    "ex3": {
+      "1": "stateless",
+      "2": "assimilation",
+      "3": "xenophobia",
+      "4": "deportation",
+      "5": "integration"
+    },
+    "ex4": {
+      "1": "Millions of people seek asylum from persecution every year.",
+      "2": "Stateless people are often denied access to basic services.",
+      "3": "Remittances sustain communities left behind by migration.",
+      "4": "Education can help combat xenophobia in divided societies.",
+      "5": "Assimilation should be voluntary rather than imposed by law."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

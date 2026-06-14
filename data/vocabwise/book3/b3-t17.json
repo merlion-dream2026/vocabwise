@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 17,
+    "topic_id": "b3-t17",
+    "topic_title": "Medical Science & Innovation",
+    "topic_title_vi": "Khoa Học Y Tế & Đổi Mới",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🔬",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 223,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Modern medicine has been transformed by a series of landmark breakthroughs, none more consequential than the development of the **vaccine**. By training the immune system to recognise pathogens before exposure, vaccines have eradicated or controlled diseases that once devastated populations worldwide. Equally significant is the emergence of **gene therapy**, which offers the possibility of correcting inherited disorders at their molecular source rather than merely managing symptoms.",
+        "text_vi": "Y học hiện đại đã được cải cách bởi một loạt bước đột phá mang tính bước ngoặt, trong đó không gì quan trọng hơn sự phát triển của **vắc-xin**. Bằng cách huấn luyện hệ miễn dịch nhận biết mầm bệnh trước khi tiếp xúc, vắc-xin đã loại trừ hoặc kiểm soát các dịch bệnh từng tàn phá dân số toàn cầu. Không kém phần quan trọng là sự xuất hiện của **liệu pháp gen**, mang lại khả năng chỉnh sửa các rối loạn di truyền ngay tại nguồn gốc phân tử của chúng thay vì chỉ kiểm soát triệu chứng."
+      },
+      {
+        "index": 2,
+        "text_en": "Before any treatment reaches patients, it must first **conduct clinical trials** to establish both safety and **efficacy**. These trials are governed by strict ethical protocols, and a precise **diagnosis** must underpin every phase of testing. Regulatory bodies **regulate pharmaceutical companies** to ensure that only rigorously validated treatments receive approval, a process that, while time-consuming, protects public health.",
+        "text_vi": "Trước khi bất kỳ phương pháp điều trị nào đến tay bệnh nhân, nó phải trải qua **thử nghiệm lâm sàng** để xác lập cả tính an toàn lẫn **hiệu quả**. Các thử nghiệm này được quản lý bởi các quy trình đạo đức nghiêm ngặt, và một **chẩn đoán** chính xác phải là nền tảng cho mọi giai đoạn thử nghiệm. Các cơ quan quản lý **kiểm soát các công ty dược phẩm** để đảm bảo chỉ những phương pháp điều trị được kiểm chứng chặt chẽ mới được phê duyệt — một quy trình tuy tốn thời gian nhưng bảo vệ sức khỏe cộng đồng."
+      },
+      {
+        "index": 3,
+        "text_en": "Organ and tissue **transplant** surgery represents another frontier of innovation. The availability of a willing **donor** is critical, and advances in anti-rejection **pharmaceutical** therapies have greatly improved long-term outcomes. Alongside these advances, campaigns to **roll out immunisation programmes** at scale have proved essential in low-income settings, where infectious disease burden remains highest.",
+        "text_vi": "Phẫu thuật **cấy ghép** cơ quan và mô là một biên giới đổi mới khác. Sự sẵn có của **người hiến tặng** tự nguyện là yếu tố then chốt, và những tiến bộ trong liệu pháp **dược phẩm** chống thải ghép đã cải thiện đáng kể kết quả dài hạn. Bên cạnh những tiến bộ này, các chiến dịch **triển khai chương trình tiêm chủng** trên diện rộng đã chứng tỏ vai trò thiết yếu ở các bối cảnh thu nhập thấp, nơi gánh nặng bệnh truyền nhiễm vẫn còn cao nhất."
+      },
+      {
+        "index": 4,
+        "text_en": "No medical advance is without trade-offs: every new therapy carries the risk of **side effects**, and researchers must continuously work to **improve diagnostic accuracy** so that interventions are precisely targeted. As **immunisation** coverage expands globally and precision medicine matures, the hope is that science will shift from treating illness reactively to preventing it altogether — redefining what it means to be healthy in the twenty-first century.",
+        "text_vi": "Không có tiến bộ y tế nào mà không có sự đánh đổi: mọi liệu pháp mới đều mang nguy cơ **tác dụng phụ**, và các nhà nghiên cứu phải liên tục nỗ lực **cải thiện độ chính xác chẩn đoán** để can thiệp đúng mục tiêu. Khi độ phủ **tiêm chủng** mở rộng trên toàn cầu và y học chính xác trưởng thành, hy vọng là khoa học sẽ chuyển từ điều trị bệnh theo kiểu phản ứng sang phòng ngừa hoàn toàn — định nghĩa lại ý nghĩa của việc khỏe mạnh trong thế kỷ hai mươi mốt."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "vaccine",
+      "ipa": "/ˈvæk.siːn/",
+      "pos": "noun",
+      "meaning_vi": "vắc-xin",
+      "meaning_vi_inline": "vắc-xin",
+      "example_en": "The development of an effective vaccine against the virus took less than a year thanks to mRNA technology.",
+      "example_vi": "Việc phát triển vắc-xin hiệu quả chống lại vi-rút đã mất chưa đầy một năm nhờ công nghệ mRNA.",
+      "word_family": {
+        "noun": "vaccine / vaccination",
+        "verb": "vaccinate",
+        "adjective": "vaccinated / vaccine-preventable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "clinical trial",
+      "ipa": "/ˈklɪn.ɪ.kəl ˈtraɪ.əl/",
+      "pos": "noun phrase",
+      "meaning_vi": "thử nghiệm lâm sàng",
+      "meaning_vi_inline": "thử nghiệm lâm sàng",
+      "example_en": "Thousands of volunteers enrolled in the clinical trial to test the new cancer treatment.",
+      "example_vi": "Hàng nghìn tình nguyện viên đăng ký tham gia thử nghiệm lâm sàng để kiểm tra phương pháp điều trị ung thư mới.",
+      "word_family": {
+        "noun": "clinical trial / trial / clinic",
+        "verb": "trial",
+        "adjective": "clinical",
+        "adverb": "clinically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "diagnosis",
+      "ipa": "/ˌdaɪ.əɡˈnəʊ.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "chẩn đoán (bệnh)",
+      "meaning_vi_inline": "chẩn đoán",
+      "example_en": "An early diagnosis of diabetes allows patients to manage the condition before complications arise.",
+      "example_vi": "Chẩn đoán sớm bệnh tiểu đường cho phép bệnh nhân kiểm soát tình trạng trước khi biến chứng xảy ra.",
+      "word_family": {
+        "noun": "diagnosis / diagnostics",
+        "verb": "diagnose",
+        "adjective": "diagnostic",
+        "adverb": "diagnostically"
+      },
+      "false_friend": {
+        "word_vi": "prognosis",
+        "explanation_vi": "'Diagnosis' là xác định bệnh đang mắc phải; 'prognosis' là dự đoán diễn tiến hoặc kết quả của bệnh — hai khái niệm khác nhau trong y khoa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "efficacy",
+      "ipa": "/ˈef.ɪ.kə.si/",
+      "pos": "noun",
+      "meaning_vi": "hiệu quả (của thuốc/phương pháp điều trị)",
+      "meaning_vi_inline": "hiệu quả",
+      "example_en": "The drug demonstrated high efficacy in reducing tumour size during phase three trials.",
+      "example_vi": "Thuốc cho thấy hiệu quả cao trong việc giảm kích thước khối u trong giai đoạn thử nghiệm thứ ba.",
+      "word_family": {
+        "noun": "efficacy / efficaciousness",
+        "verb": null,
+        "adjective": "efficacious",
+        "adverb": "efficaciously"
+      },
+      "false_friend": {
+        "word_vi": "efficiency",
+        "explanation_vi": "'Efficacy' chỉ khả năng đạt được kết quả mong muốn (thường dùng trong y tế); 'efficiency' chỉ khả năng thực hiện việc gì đó mà ít lãng phí nguồn lực — không dùng thay thế nhau trong ngữ cảnh y khoa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "gene therapy",
+      "ipa": "/dʒiːn ˈθer.ə.pi/",
+      "pos": "noun phrase",
+      "meaning_vi": "liệu pháp gen",
+      "meaning_vi_inline": "liệu pháp gen",
+      "example_en": "Gene therapy has shown promise in treating rare inherited blood disorders that were previously untreatable.",
+      "example_vi": "Liệu pháp gen đã cho thấy triển vọng trong điều trị các rối loạn máu di truyền hiếm gặp từng không thể chữa trị.",
+      "word_family": {
+        "noun": "gene therapy / gene / therapy",
+        "verb": null,
+        "adjective": "gene-based / therapeutic",
+        "adverb": "therapeutically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "immunisation",
+      "ipa": "/ˌɪm.jʊ.naɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tiêm chủng, sự miễn dịch hoá",
+      "meaning_vi_inline": "tiêm chủng",
+      "example_en": "Childhood immunisation against measles has significantly reduced mortality rates in developing countries.",
+      "example_vi": "Tiêm chủng trẻ em chống bệnh sởi đã giảm đáng kể tỷ lệ tử vong ở các nước đang phát triển.",
+      "word_family": {
+        "noun": "immunisation / immunity / immunology",
+        "verb": "immunise",
+        "adjective": "immune / immunological",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "vaccination",
+        "explanation_vi": "'Immunisation' là quá trình làm cho cơ thể miễn dịch (có thể qua nhiều phương pháp); 'vaccination' cụ thể hơn, chỉ việc tiêm vắc-xin — 'immunisation' là khái niệm rộng hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "donor",
+      "ipa": "/ˈdəʊ.nər/",
+      "pos": "noun",
+      "meaning_vi": "người hiến tặng (nội tạng, máu, v.v.)",
+      "meaning_vi_inline": "người hiến tặng",
+      "example_en": "The transplant could not proceed until a compatible donor was identified.",
+      "example_vi": "Ca ghép tạng không thể tiến hành cho đến khi xác định được người hiến tặng phù hợp.",
+      "word_family": {
+        "noun": "donor / donation",
+        "verb": "donate",
+        "adjective": "donor (attributive)",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "transplant",
+      "ipa": "/ˈtræns.plɑːnt/",
+      "pos": "noun / verb",
+      "meaning_vi": "cấy ghép (nội tạng); ca ghép tạng",
+      "meaning_vi_inline": "cấy ghép, ca ghép tạng",
+      "example_en": "He received a heart transplant after waiting three years on the donor register.",
+      "example_vi": "Anh ấy nhận được ca ghép tim sau ba năm chờ đợi trong danh sách hiến tặng.",
+      "word_family": {
+        "noun": "transplant / transplantation",
+        "verb": "transplant",
+        "adjective": "transplanted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "pharmaceutical",
+      "ipa": "/ˌfɑː.məˈsjuː.tɪ.kəl/",
+      "pos": "adjective / noun",
+      "meaning_vi": "dược phẩm; thuộc về dược phẩm",
+      "meaning_vi_inline": "dược phẩm",
+      "example_en": "The pharmaceutical industry invested billions in developing new antiviral treatments.",
+      "example_vi": "Ngành dược phẩm đã đầu tư hàng tỷ đô la vào việc phát triển các phương pháp điều trị kháng vi-rút mới.",
+      "word_family": {
+        "noun": "pharmaceutical / pharmaceuticals / pharmacology",
+        "verb": null,
+        "adjective": "pharmaceutical / pharmacological",
+        "adverb": "pharmaceutically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "side effect",
+      "ipa": "/ˈsaɪd ɪˌfekt/",
+      "pos": "noun phrase",
+      "meaning_vi": "tác dụng phụ",
+      "meaning_vi_inline": "tác dụng phụ",
+      "example_en": "Nausea and fatigue are common side effects reported during the first weeks of chemotherapy.",
+      "example_vi": "Buồn nôn và mệt mỏi là các tác dụng phụ phổ biến được ghi nhận trong những tuần đầu điều trị hoá chất.",
+      "word_family": {
+        "noun": "side effect",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "conduct clinical trials",
+      "meaning_vi": "tiến hành thử nghiệm lâm sàng",
+      "example_en": "The biotech firm was licensed to conduct clinical trials on its experimental Alzheimer's drug.",
+      "example_vi": "Công ty công nghệ sinh học được cấp phép tiến hành thử nghiệm lâm sàng trên loại thuốc thực nghiệm điều trị Alzheimer của mình.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "develop gene therapy",
+      "meaning_vi": "phát triển liệu pháp gen",
+      "example_en": "Scientists are racing to develop gene therapy treatments for a range of currently incurable conditions.",
+      "example_vi": "Các nhà khoa học đang chạy đua để phát triển liệu pháp gen điều trị nhiều bệnh hiện chưa có thuốc chữa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "improve diagnostic accuracy",
+      "meaning_vi": "cải thiện độ chính xác chẩn đoán",
+      "example_en": "AI-assisted imaging tools have been shown to improve diagnostic accuracy for early-stage cancers.",
+      "example_vi": "Các công cụ chẩn đoán hình ảnh hỗ trợ AI đã được chứng minh là cải thiện độ chính xác chẩn đoán ung thư giai đoạn đầu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "roll out immunisation programmes",
+      "meaning_vi": "triển khai chương trình tiêm chủng",
+      "example_en": "The WHO partnered with governments to roll out immunisation programmes in the most vulnerable regions.",
+      "example_vi": "WHO đã hợp tác với các chính phủ để triển khai chương trình tiêm chủng ở những khu vực dễ bị tổn thương nhất.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "regulate pharmaceutical companies",
+      "meaning_vi": "kiểm soát, quản lý các công ty dược phẩm",
+      "example_en": "Independent agencies must regulate pharmaceutical companies to prevent the prioritisation of profit over patient safety.",
+      "example_vi": "Các cơ quan độc lập phải quản lý các công ty dược phẩm để ngăn chặn việc đặt lợi nhuận lên trên sự an toàn của bệnh nhân.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that vaccines work by exposing patients to a live form of the disease.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, gene therapy targets inherited disorders at a molecular level rather than only relieving symptoms.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that clinical trial approval processes are often too slow to be useful in medical emergencies.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage indicates that immunisation campaigns have been particularly valuable in lower-income settings.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that gene therapy has already replaced organ transplantation as the preferred treatment for inherited disorders.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The drug's _____ was confirmed when 85% of patients showed measurable improvement within six weeks of treatment.",
+          "options": [
+            "diagnosis",
+            "efficacy",
+            "side effect",
+            "transplant"
+          ],
+          "answer": "efficacy"
+        },
+        {
+          "id": 2,
+          "sentence": "Without a suitable _____, patients requiring a new kidney can wait years on the transplant register.",
+          "options": [
+            "pharmaceutical",
+            "vaccine",
+            "immunisation",
+            "donor"
+          ],
+          "answer": "donor"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ industry is subject to rigorous international regulation to ensure the safety of new medicines.",
+          "options": [
+            "pharmaceutical",
+            "clinical trial",
+            "gene therapy",
+            "diagnosis"
+          ],
+          "answer": "pharmaceutical"
+        },
+        {
+          "id": 4,
+          "sentence": "Persistent headaches and dizziness were listed as the most common _____ in the patient information leaflet.",
+          "options": [
+            "immunisation",
+            "transplant",
+            "side effects",
+            "donor"
+          ],
+          "answer": "side effects"
+        },
+        {
+          "id": 5,
+          "sentence": "An accurate _____ is essential before commencing any course of medical treatment.",
+          "options": [
+            "efficacy",
+            "vaccine",
+            "side effect",
+            "diagnosis"
+          ],
+          "answer": "diagnosis"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "vaccine",
+        "transplant",
+        "immunisation",
+        "efficacy",
+        "gene therapy",
+        "clinical trial"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The patient signed an informed-consent form before entering the _____ for the experimental treatment.",
+          "answer": "clinical trial"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers hope that _____ will one day cure sickle cell disease by correcting the faulty gene responsible.",
+          "answer": "gene therapy"
+        },
+        {
+          "id": 3,
+          "sentence": "The flu _____ must be reformulated each year to match the strains predicted to circulate that season.",
+          "answer": "vaccine"
+        },
+        {
+          "id": 4,
+          "sentence": "Global _____ rates for childhood diseases have risen considerably since the introduction of expanded immunisation schedules.",
+          "answer": "immunisation"
+        },
+        {
+          "id": 5,
+          "sentence": "Following the successful kidney _____, the patient was placed on long-term anti-rejection medication.",
+          "answer": "transplant"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "vaccines",
+            "have",
+            "eradicated",
+            "diseases",
+            "that",
+            "once",
+            "threatened",
+            "millions"
+          ],
+          "answer": "Vaccines have eradicated diseases that once threatened millions."
+        },
+        {
+          "id": 2,
+          "words": [
+            "clinical",
+            "trials",
+            "must",
+            "confirm",
+            "both",
+            "safety",
+            "and",
+            "efficacy",
+            "before",
+            "approval"
+          ],
+          "answer": "Clinical trials must confirm both safety and efficacy before approval."
+        },
+        {
+          "id": 3,
+          "words": [
+            "gene",
+            "therapy",
+            "targets",
+            "inherited",
+            "disorders",
+            "at",
+            "the",
+            "molecular",
+            "level"
+          ],
+          "answer": "Gene therapy targets inherited disorders at the molecular level."
+        },
+        {
+          "id": 4,
+          "words": [
+            "all",
+            "new",
+            "treatments",
+            "carry",
+            "the",
+            "risk",
+            "of",
+            "side",
+            "effects"
+          ],
+          "answer": "All new treatments carry the risk of side effects."
+        },
+        {
+          "id": 5,
+          "words": [
+            "immunisation",
+            "programmes",
+            "are",
+            "vital",
+            "for",
+            "protecting",
+            "communities",
+            "from",
+            "infectious",
+            "disease"
+          ],
+          "answer": "Immunisation programmes are vital for protecting communities from infectious disease."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [diagnose] of a rare autoimmune disorder requires a specialist's evaluation over several weeks.",
+          "highlighted": "diagnose",
+          "options": {
+            "A": "diagnostic",
+            "B": "diagnosed",
+            "C": "diagnosis"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'diagnosis', not the verb 'diagnose'."
+        },
+        {
+          "id": 2,
+          "sentence": "Regulators refused to [approval] the drug until further long-term safety data were submitted.",
+          "highlighted": "approval",
+          "options": {
+            "A": "approve",
+            "B": "approved",
+            "C": "approving"
+          },
+          "answer": "A",
+          "explanation": "A base-form verb is required after the modal 'to' (infinitive) — 'approve', not the noun 'approval'."
+        },
+        {
+          "id": 3,
+          "sentence": "The trial demonstrated the drug's [efficacious] in reducing blood pressure over a twelve-week period.",
+          "highlighted": "efficacious",
+          "options": {
+            "A": "efficaciously",
+            "B": "efficacy",
+            "C": "efficient"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after the possessive 'drug's' to act as the object of 'demonstrated' — 'efficacy', not the adjective 'efficacious'."
+        },
+        {
+          "id": 4,
+          "sentence": "The hospital urgently needed a [donate] whose blood type matched that of the patient.",
+          "highlighted": "donate",
+          "options": {
+            "A": "donation",
+            "B": "donated",
+            "C": "donor"
+          },
+          "answer": "C",
+          "explanation": "A noun referring to a person is required — 'donor', not the verb 'donate'. A 'donor' gives; a 'donation' is the thing given."
+        },
+        {
+          "id": 5,
+          "sentence": "Headaches are a [commonly] reported side effect among patients taking this class of medication.",
+          "highlighted": "commonly",
+          "options": {
+            "A": "common",
+            "B": "commonness",
+            "C": "commoner"
+          },
+          "answer": "A",
+          "explanation": "An adjective is needed to modify the noun phrase 'reported side effect' — 'common', not the adverb 'commonly'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "efficacy",
+      "2": "donor",
+      "3": "pharmaceutical",
+      "4": "side effects",
+      "5": "diagnosis"
+    },
+    "ex3": {
+      "1": "clinical trial",
+      "2": "gene therapy",
+      "3": "vaccine",
+      "4": "immunisation",
+      "5": "transplant"
+    },
+    "ex4": {
+      "1": "Vaccines have eradicated diseases that once threatened millions.",
+      "2": "Clinical trials must confirm both safety and efficacy before approval.",
+      "3": "Gene therapy targets inherited disorders at the molecular level.",
+      "4": "All new treatments carry the risk of side effects.",
+      "5": "Immunisation programmes are vital for protecting communities from infectious disease."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 50,
+    "topic_id": "b1-t50",
+    "topic_title": "Giving Directions",
+    "theme_number": 5,
+    "theme_title": "Actions & Events",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🗺️",
+    "topic_title_vi": "Chỉ Đường",
+    "theme_title_vi": "Hành Động & Sự Kiện"
+  },
+  "passage": {
+    "word_count": 114,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Lan did not know the **direction** to the library. A kind man offered to help. He said: \"Go **straight** along this road for one **block**. Then **turn** **left** at the big **corner** — you will see a **sign** that says 'City Library'.\"",
+        "text_vi": "Lan không biết **hướng** đến thư viện. Một người đàn ông tốt bụng đề nghị giúp đỡ. Anh ấy nói: \"Đi **thẳng** dọc con đường này một **dãy nhà**. Sau đó **rẽ** **trái** tại **góc phố** lớn — bạn sẽ thấy một **bảng hiệu** ghi 'Thư Viện Thành Phố'.\""
+      },
+      {
+        "index": 2,
+        "text_en": "Lan walked **straight** and found the **corner**. She turned **left** as the man told her. Then she had to **cross** a busy road carefully. She **passed** a small café on her **right** and kept walking.",
+        "text_vi": "Lan đi **thẳng** và tìm thấy **góc phố**. Cô ấy rẽ **trái** như người đàn ông đã nói. Sau đó cô ấy phải **băng qua** một con đường đông đúc một cách cẩn thận. Cô ấy **đi qua** một quán cà phê nhỏ ở bên **phải** và tiếp tục đi."
+      },
+      {
+        "index": 3,
+        "text_en": "She saw a park **opposite** the post office. She was not sure about the **distance** — was the library **near** or **far**? She checked the map on her phone. It said the library was very **near**, just two minutes away.",
+        "text_vi": "Cô ấy thấy một công viên **đối diện** với bưu điện. Cô ấy không chắc về **khoảng cách** — thư viện ở **gần** hay **xa**? Cô ấy kiểm tra bản đồ trên điện thoại. Bản đồ cho biết thư viện rất **gần**, chỉ cách hai phút."
+      },
+      {
+        "index": 4,
+        "text_en": "Lan followed the **direction** on her phone and walked one more **block**. She could finally **reach** the library. She was happy she found it. The friendly **sign** above the door said: \"Welcome — you have arrived!\"",
+        "text_vi": "Lan đi theo **hướng** trên điện thoại và đi thêm một **dãy nhà** nữa. Cuối cùng cô ấy có thể **đến được** thư viện. Cô ấy vui khi tìm thấy nó. **Bảng hiệu** thân thiện trên cửa viết: \"Chào mừng — bạn đã đến nơi rồi!\""
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "direction",
+      "ipa": "/dɪˈrekʃən/",
+      "pos": "noun",
+      "meaning_vi": "hướng đi, chỉ dẫn đường",
+      "meaning_vi_inline": "hướng",
+      "example_en": "Can you give me directions to the nearest train station from here?",
+      "example_vi": "Bạn có thể chỉ đường cho tôi đến nhà ga tàu hỏa gần nhất từ đây không?",
+      "word_family": {
+        "noun": "direction / director",
+        "verb": "direct / directed",
+        "adjective": "direct / directional",
+        "adverb": "directly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "left",
+      "ipa": "/left/",
+      "pos": "adjective / adverb / noun",
+      "meaning_vi": "trái, bên trái",
+      "meaning_vi_inline": "trái",
+      "example_en": "Turn left at the traffic lights and the school is the second building on your right.",
+      "example_vi": "Rẽ trái tại đèn giao thông và trường học là tòa nhà thứ hai bên phải bạn.",
+      "word_family": {
+        "noun": "left",
+        "verb": null,
+        "adjective": "left",
+        "adverb": "left"
+      },
+      "false_friend": {
+        "word_vi": "left (quá khứ của 'leave')",
+        "explanation_vi": "'Left' vừa có nghĩa là 'bên trái', vừa là quá khứ của động từ 'leave' (rời đi). Hãy chú ý ngữ cảnh để phân biệt: 'Turn left' (rẽ trái) khác với 'She left the room' (cô ấy rời phòng)."
+      }
+    },
+    {
+      "id": 3,
+      "word": "right",
+      "ipa": "/raɪt/",
+      "pos": "adjective / adverb / noun",
+      "meaning_vi": "phải, bên phải; đúng",
+      "meaning_vi_inline": "phải",
+      "example_en": "The supermarket is on the right side of the road, opposite the park.",
+      "example_vi": "Siêu thị ở bên phải đường, đối diện với công viên.",
+      "word_family": {
+        "noun": "right",
+        "verb": null,
+        "adjective": "right",
+        "adverb": "right / rightly"
+      },
+      "false_friend": {
+        "word_vi": "right = đúng",
+        "explanation_vi": "'Right' có hai nghĩa phổ biến: 'bên phải' (về hướng đi) và 'đúng' (về sự chính xác). Ví dụ: 'Turn right' (rẽ phải) và 'That answer is right' (câu trả lời đó đúng). Đừng nhầm lẫn hai nghĩa này."
+      }
+    },
+    {
+      "id": 4,
+      "word": "straight",
+      "ipa": "/streɪt/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "thẳng, đi thẳng",
+      "meaning_vi_inline": "thẳng",
+      "example_en": "Go straight along this road for about five minutes, then turn right.",
+      "example_vi": "Đi thẳng dọc con đường này khoảng năm phút, sau đó rẽ phải.",
+      "word_family": {
+        "noun": "straight",
+        "verb": "straighten",
+        "adjective": "straight",
+        "adverb": "straight / straightly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "turn",
+      "ipa": "/tɜːn/",
+      "pos": "verb / noun",
+      "meaning_vi": "rẽ, quay; cái rẽ",
+      "meaning_vi_inline": "rẽ",
+      "example_en": "Turn right at the corner and walk for two more minutes.",
+      "example_vi": "Rẽ phải tại góc phố và đi thêm hai phút nữa.",
+      "word_family": {
+        "noun": "turn",
+        "verb": "turn / turned",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "cross",
+      "ipa": "/krɒs/",
+      "pos": "verb",
+      "meaning_vi": "băng qua, đi qua",
+      "meaning_vi_inline": "băng qua",
+      "example_en": "Always look both ways before you cross the road.",
+      "example_vi": "Luôn nhìn cả hai hướng trước khi bạn băng qua đường.",
+      "word_family": {
+        "noun": "crossing / crossroads",
+        "verb": "cross / crossed",
+        "adjective": "cross",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "pass",
+      "ipa": "/pɑːs/",
+      "pos": "verb",
+      "meaning_vi": "đi qua, vượt qua",
+      "meaning_vi_inline": "đi qua",
+      "example_en": "You will pass a big supermarket on your left — the library is just after it.",
+      "example_vi": "Bạn sẽ đi qua một siêu thị lớn ở bên trái — thư viện nằm ngay sau đó.",
+      "word_family": {
+        "noun": "pass / passage",
+        "verb": "pass / passed",
+        "adjective": "passing",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "corner",
+      "ipa": "/ˈkɔːnər/",
+      "pos": "noun",
+      "meaning_vi": "góc phố, góc đường",
+      "meaning_vi_inline": "góc phố",
+      "example_en": "Wait for me at the corner of the street — I will be there in five minutes.",
+      "example_vi": "Đợi tôi ở góc đường nhé — tôi sẽ đến đó trong năm phút.",
+      "word_family": {
+        "noun": "corner",
+        "verb": "corner / cornered",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "opposite",
+      "ipa": "/ˈɒpəzɪt/",
+      "pos": "preposition / adjective",
+      "meaning_vi": "đối diện, ở phía đối diện",
+      "meaning_vi_inline": "đối diện",
+      "example_en": "The post office is opposite the bank — you can see both from the main road.",
+      "example_vi": "Bưu điện nằm đối diện với ngân hàng — bạn có thể nhìn thấy cả hai từ đường chính.",
+      "word_family": {
+        "noun": "opposite",
+        "verb": null,
+        "adjective": "opposite",
+        "adverb": "opposite"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "near",
+      "ipa": "/nɪər/",
+      "pos": "adjective / adverb / preposition",
+      "meaning_vi": "gần, ở gần",
+      "meaning_vi_inline": "gần",
+      "example_en": "Is there a pharmacy near here? I need to buy some medicine.",
+      "example_vi": "Có hiệu thuốc nào gần đây không? Tôi cần mua một ít thuốc.",
+      "word_family": {
+        "noun": "nearness",
+        "verb": "near / neared",
+        "adjective": "near / nearest",
+        "adverb": "nearly / near"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "far",
+      "ipa": "/fɑː/",
+      "pos": "adjective / adverb",
+      "meaning_vi": "xa, ở xa",
+      "meaning_vi_inline": "xa",
+      "example_en": "Is the station far from here? I do not want to walk for too long.",
+      "example_vi": "Nhà ga có xa từ đây không? Tôi không muốn đi bộ quá lâu.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "far / farther / farthest",
+        "adverb": "far / farther / farthest"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "block",
+      "ipa": "/blɒk/",
+      "pos": "noun",
+      "meaning_vi": "dãy nhà (một đoạn đường giữa hai ngã tư)",
+      "meaning_vi_inline": "dãy nhà",
+      "example_en": "Walk two blocks north and then turn right — the café will be on your left.",
+      "example_vi": "Đi hai dãy nhà về phía bắc rồi rẽ phải — quán cà phê sẽ ở bên trái bạn.",
+      "word_family": {
+        "noun": "block",
+        "verb": "block / blocked",
+        "adjective": "blocked",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "block = chặn lại",
+        "explanation_vi": "'Block' có nghĩa là 'dãy nhà' khi dùng để chỉ đường ('two blocks away'). Nhưng nó cũng có nghĩa là 'chặn lại' khi dùng như động từ ('the road is blocked'). Đừng nhầm lẫn hai nghĩa này."
+      }
+    },
+    {
+      "id": 13,
+      "word": "sign",
+      "ipa": "/saɪn/",
+      "pos": "noun",
+      "meaning_vi": "bảng hiệu, biển chỉ đường",
+      "meaning_vi_inline": "bảng hiệu",
+      "example_en": "Follow the green signs to the airport — they will guide you all the way.",
+      "example_vi": "Hãy đi theo các bảng hiệu màu xanh lá đến sân bay — chúng sẽ hướng dẫn bạn suốt đường đi.",
+      "word_family": {
+        "noun": "sign / signal",
+        "verb": "sign / signed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "distance",
+      "ipa": "/ˈdɪstəns/",
+      "pos": "noun",
+      "meaning_vi": "khoảng cách",
+      "meaning_vi_inline": "khoảng cách",
+      "example_en": "What is the distance between the school and the bus stop?",
+      "example_vi": "Khoảng cách giữa trường học và trạm xe buýt là bao nhiêu?",
+      "word_family": {
+        "noun": "distance",
+        "verb": "distance / distanced",
+        "adjective": "distant",
+        "adverb": "distantly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "reach",
+      "ipa": "/riːtʃ/",
+      "pos": "verb",
+      "meaning_vi": "đến nơi, tới được",
+      "meaning_vi_inline": "đến được",
+      "example_en": "We finally reached the hotel after driving for three hours.",
+      "example_vi": "Chúng tôi cuối cùng đã đến được khách sạn sau ba giờ lái xe.",
+      "word_family": {
+        "noun": "reach",
+        "verb": "reach / reached",
+        "adjective": "reachable / unreachable",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "opposite" },
+        { "id": 2, "word": "distance" },
+        { "id": 3, "word": "reach" },
+        { "id": 4, "word": "cross" },
+        { "id": 5, "word": "block" }
+      ],
+      "options": [
+        { "id": "A", "text": "a section of a street between two intersections, used to measure walking distance" },
+        { "id": "B", "text": "to arrive at a place after travelling or walking" },
+        { "id": "C", "text": "on the other side; facing something or someone directly" },
+        { "id": "D", "text": "to go from one side of a road or area to the other" },
+        { "id": "E", "text": "the amount of space between two places or things" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Go _____ along this road and do not turn until you see the big church.",
+          "options": ["opposite", "straight", "near", "left"],
+          "answer": "straight"
+        },
+        {
+          "id": 2,
+          "sentence": "The hotel is _____ the shopping mall — you can see it from the main entrance.",
+          "options": ["opposite", "corner", "far", "block"],
+          "answer": "opposite"
+        },
+        {
+          "id": 3,
+          "sentence": "Be careful when you _____ the road — there are many fast cars here.",
+          "options": ["pass", "turn", "cross", "reach"],
+          "answer": "cross"
+        },
+        {
+          "id": 4,
+          "sentence": "How long does it take to _____ the city centre from here by bus?",
+          "options": ["pass", "sign", "reach", "cross"],
+          "answer": "reach"
+        },
+        {
+          "id": 5,
+          "sentence": "We walked _____ the old market and then turned left at the next corner.",
+          "options": ["near", "past", "far", "direction"],
+          "answer": "past"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["turn", "sign", "direction", "corner", "distance", "block"],
+      "items": [
+        { "id": 1, "sentence": "I did not know the _____ to the hospital, so I asked someone for help.", "answer": "direction" },
+        { "id": 2, "sentence": "Walk one _____ north from the school, then you will see the park on your left.", "answer": "block" },
+        { "id": 3, "sentence": "_____ right at the traffic lights and walk for about three minutes.", "answer": "turn" },
+        { "id": 4, "sentence": "There is a green _____ on the wall that shows the way to the exit.", "answer": "sign" },
+        { "id": 5, "sentence": "She waited at the _____ of the road until her friend arrived.", "answer": "corner" }
+      ],
+      "note": "One word in the box is not used: distance"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher _____ the students to the correct classroom. (DIRECTION)",
+          "base_word": "DIRECTION",
+          "answer": "directed",
+          "form_used": "verb"
+        },
+        {
+          "id": 2,
+          "sentence": "The two houses are very _____ from each other — they are in different parts of the city. (DISTANCE)",
+          "base_word": "DISTANCE",
+          "answer": "distant",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "The path was blocked, so they could not _____ the street from that side. (CROSS)",
+          "base_word": "CROSS",
+          "answer": "cross",
+          "form_used": "verb"
+        },
+        {
+          "id": 4,
+          "sentence": "The destination is _____ — you can walk there in less than two minutes. (NEAR)",
+          "base_word": "NEAR",
+          "answer": "nearby",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "The website is _____ on mobile phones — the page will not load. (REACH)",
+          "base_word": "REACH",
+          "answer": "unreachable",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Go [left] along the main road and do not turn until you reach the library.",
+          "highlighted": "left",
+          "options": { "A": "straight", "B": "left", "C": "opposite" },
+          "answer": "A",
+          "explanation": "'Go left' means to turn to the left side, not to continue forward. When someone tells you to keep going without turning, the correct word is 'straight' — meaning forward in a direct line."
+        },
+        {
+          "id": 2,
+          "sentence": "The café is [far] to the school — it is only a two-minute walk.",
+          "highlighted": "far",
+          "options": { "A": "opposite", "B": "far", "C": "near" },
+          "answer": "C",
+          "explanation": "'Far' means a long distance away. If something is only a two-minute walk, it is not far — it is 'near', meaning a short distance away."
+        },
+        {
+          "id": 3,
+          "sentence": "You will [reach] a tall white building on your left — that is the post office.",
+          "highlighted": "reach",
+          "options": { "A": "cross", "B": "pass", "C": "reach" },
+          "answer": "B",
+          "explanation": "'Reach' means to arrive at a destination. In this sentence, the building is not the destination — it is something you go past on the way. The correct word is 'pass', meaning to go by something without stopping."
+        },
+        {
+          "id": 4,
+          "sentence": "Take the first [corner] at the traffic lights and walk north.",
+          "highlighted": "corner",
+          "options": { "A": "corner", "B": "turn", "C": "sign" },
+          "answer": "B",
+          "explanation": "A 'corner' is a place, not an action. When you change the direction you are walking or driving, you 'take a turn' — the correct phrase here is 'take the first turn'."
+        },
+        {
+          "id": 5,
+          "sentence": "The market is [near] the bus station — they are on completely different sides of the city.",
+          "highlighted": "near",
+          "options": { "A": "opposite", "B": "near", "C": "far from" },
+          "answer": "C",
+          "explanation": "'Near' means close by. If two places are on completely different sides of the city, they cannot be near each other. The correct phrase is 'far from' — meaning a long distance away."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "E", "3": "B", "4": "D", "5": "A" },
+    "ex2": { "1": "straight", "2": "opposite", "3": "cross", "4": "reach", "5": "past" },
+    "ex3": { "1": "direction", "2": "block", "3": "turn", "4": "sign", "5": "corner" },
+    "ex4": { "1": "directed", "2": "distant", "3": "cross", "4": "nearby", "5": "unreachable" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "B", "5": "C" }
+  }
+}

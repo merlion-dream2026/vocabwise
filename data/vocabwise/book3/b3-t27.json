@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 27,
+    "topic_id": "b3-t27",
+    "topic_title": "Poverty & Social Welfare",
+    "topic_title_vi": "Đói Nghèo & Phúc Lợi Xã Hội",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🏘️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Poverty is rarely the result of individual failure alone. In most societies, deep **inequality** is sustained by **systemic** barriers — structural forces embedded in education, housing, and labour markets that prevent people from accessing the resources they need. These forces produce **stratification**: a layered social order in which certain groups face persistent **deprivation** of basic needs while others accumulate wealth across generations.",
+        "text_vi": "Đói nghèo hiếm khi chỉ là kết quả của thất bại cá nhân. Ở hầu hết các xã hội, **bất bình đẳng** sâu sắc được duy trì bởi các rào cản **hệ thống** — những lực lượng cơ cấu ẩn trong giáo dục, nhà ở và thị trường lao động ngăn cản mọi người tiếp cận các nguồn lực cần thiết. Những lực lượng này tạo ra **sự phân tầng**: một trật tự xã hội có tầng lớp, trong đó một số nhóm phải chịu **thiếu thốn** dai dẳng những nhu cầu cơ bản trong khi những người khác tích lũy tài sản qua nhiều thế hệ."
+      },
+      {
+        "index": 2,
+        "text_en": "A central concern for policymakers is how to **tackle systemic inequality** without merely treating its symptoms. Programmes that **redistribute economic resources** — through progressive taxation or targeted welfare payments — are widely debated. Critics argue that generous **entitlement** schemes can create dependency, while proponents insist they are essential to **empower marginalised communities** that have long been excluded from economic participation.",
+        "text_vi": "Một mối quan tâm trung tâm của các nhà hoạch định chính sách là làm thế nào để **giải quyết bất bình đẳng hệ thống** mà không chỉ đơn thuần chữa triệu chứng. Các chương trình **phân phối lại nguồn lực kinh tế** — thông qua thuế lũy tiến hoặc các khoản phúc lợi có mục tiêu — được tranh luận rộng rãi. Những người phê bình cho rằng các chương trình **trợ cấp** hào phóng có thể tạo ra sự phụ thuộc, trong khi những người ủng hộ khẳng định rằng chúng rất cần thiết để **trao quyền cho các cộng đồng bị thiệt thòi** vốn đã bị loại trừ khỏi hoạt động kinh tế từ lâu."
+      },
+      {
+        "index": 3,
+        "text_en": "One of the most persistent challenges is **marginalisation**: the process by which certain populations are pushed to the edges of society. Communities affected by **marginalisation** often find themselves caught in a **cycle** of poverty — where poor health, inadequate schooling, and unemployment reinforce one another. Welfare systems that fail to address the root causes of exclusion can inadvertently **disenfranchise** the very people they aim to help.",
+        "text_vi": "Một trong những thách thức dai dẳng nhất là **sự gạt ra ngoài lề**: quá trình mà một số cộng đồng bị đẩy ra ngoài rìa xã hội. Các cộng đồng bị ảnh hưởng bởi **sự gạt ra ngoài lề** thường thấy mình bị mắc kẹt trong một **vòng luẩn quẩn** của đói nghèo — nơi sức khỏe kém, giáo dục không đầy đủ và thất nghiệp củng cố lẫn nhau. Các hệ thống phúc lợi không giải quyết nguyên nhân gốc rễ của sự loại trừ có thể vô tình **tước đoạt quyền lực** của chính những người mà chúng nhằm giúp đỡ."
+      },
+      {
+        "index": 4,
+        "text_en": "Sustainable progress requires both public policy and private initiative. **Philanthropy** from wealthy individuals and corporations can supplement state provision, but it cannot substitute for structural reform. To **break the cycle of poverty**, governments must **challenge structural privilege** — dismantling the inherited advantages that allow some to prosper regardless of merit, while others remain locked out of opportunity.",
+        "text_vi": "Tiến bộ bền vững đòi hỏi cả chính sách công lẫn sáng kiến tư nhân. **Lòng từ thiện** từ các cá nhân và tập đoàn giàu có có thể bổ sung cho việc cung cấp của nhà nước, nhưng không thể thay thế cải cách cơ cấu. Để **phá vỡ vòng luẩn quẩn của đói nghèo**, các chính phủ phải **thách thức đặc quyền cơ cấu** — tháo dỡ những lợi thế thừa hưởng cho phép một số người thịnh vượng bất kể năng lực, trong khi những người khác vẫn bị loại ra khỏi cơ hội."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "deprivation",
+      "ipa": "/ˌdep.rɪˈveɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thiếu thốn, sự tước đoạt (quyền lợi, nhu cầu cơ bản)",
+      "meaning_vi_inline": "thiếu thốn",
+      "example_en": "Children raised in conditions of deprivation are significantly more likely to face health and educational disadvantages.",
+      "example_vi": "Trẻ em lớn lên trong điều kiện thiếu thốn có nhiều khả năng phải đối mặt với những bất lợi về sức khỏe và giáo dục hơn.",
+      "word_family": {
+        "noun": "deprivation",
+        "verb": "deprive",
+        "adjective": "deprived",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "stratification",
+      "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân tầng (xã hội), sự phân chia thành các tầng lớp",
+      "meaning_vi_inline": "sự phân tầng",
+      "example_en": "Social stratification determines which groups have access to quality healthcare and education.",
+      "example_vi": "Sự phân tầng xã hội quyết định nhóm nào có thể tiếp cận dịch vụ y tế và giáo dục chất lượng.",
+      "word_family": {
+        "noun": "stratification / stratum / strata",
+        "verb": "stratify",
+        "adjective": "stratified",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "redistribution",
+      "ipa": "/ˌriː.dɪs.trɪˈbjuː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân phối lại (của cải, tài nguyên)",
+      "meaning_vi_inline": "phân phối lại",
+      "example_en": "Advocates of redistribution argue that progressive taxation reduces harmful wealth gaps.",
+      "example_vi": "Những người ủng hộ phân phối lại cho rằng thuế lũy tiến giúp giảm khoảng cách tài sản có hại.",
+      "word_family": {
+        "noun": "redistribution",
+        "verb": "redistribute",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "philanthropy",
+      "ipa": "/fɪˈlæn.θrə.pi/",
+      "pos": "noun",
+      "meaning_vi": "lòng từ thiện, hành động hào phóng vì lợi ích cộng đồng",
+      "meaning_vi_inline": "lòng từ thiện",
+      "example_en": "Corporate philanthropy has funded schools and hospitals in underserved regions, though critics call for systemic change instead.",
+      "example_vi": "Hoạt động từ thiện của doanh nghiệp đã tài trợ cho các trường học và bệnh viện ở những vùng thiếu dịch vụ, dù các nhà phê bình kêu gọi thay đổi hệ thống hơn.",
+      "word_family": {
+        "noun": "philanthropy / philanthropist",
+        "verb": null,
+        "adjective": "philanthropic",
+        "adverb": "philanthropically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "systemic",
+      "ipa": "/sɪˈstem.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc hệ thống, có tính cơ cấu (ảnh hưởng toàn bộ hệ thống)",
+      "meaning_vi_inline": "hệ thống, cơ cấu",
+      "example_en": "Systemic racism refers to discriminatory practices embedded in institutions rather than overt individual prejudice.",
+      "example_vi": "Phân biệt chủng tộc hệ thống đề cập đến các thực hành phân biệt đối xử được nhúng vào các thể chế chứ không phải là thành kiến cá nhân hiển nhiên.",
+      "word_family": {
+        "noun": "system",
+        "verb": null,
+        "adjective": "systemic / systematic",
+        "adverb": "systemically"
+      },
+      "false_friend": {
+        "word_vi": "systematic",
+        "explanation_vi": "'Systemic' mô tả điều gì đó ảnh hưởng toàn bộ hệ thống (e.g. systemic racism); 'systematic' có nghĩa là có phương pháp, có hệ thống (e.g. a systematic approach). Hai từ không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "marginalisation",
+      "ipa": "/ˌmɑː.dʒɪ.nəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự gạt ra ngoài lề xã hội, sự bị thiệt thòi",
+      "meaning_vi_inline": "gạt ra ngoài lề",
+      "example_en": "The marginalisation of ethnic minorities in the housing market is well-documented in sociological research.",
+      "example_vi": "Sự gạt ra ngoài lề của các dân tộc thiểu số trong thị trường nhà ở được ghi lại rõ ràng trong các nghiên cứu xã hội học.",
+      "word_family": {
+        "noun": "marginalisation / margin",
+        "verb": "marginalise",
+        "adjective": "marginalised / marginal",
+        "adverb": "marginally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "entitlement",
+      "ipa": "/ɪnˈtaɪ.tl.mənt/",
+      "pos": "noun",
+      "meaning_vi": "quyền được hưởng trợ cấp; (tiêu cực) tâm lý đòi hỏi đặc quyền",
+      "meaning_vi_inline": "trợ cấp / quyền được hưởng",
+      "example_en": "Social entitlements such as housing benefits and unemployment support are central to any welfare state.",
+      "example_vi": "Các khoản trợ cấp xã hội như trợ cấp nhà ở và hỗ trợ thất nghiệp là trung tâm của bất kỳ nhà nước phúc lợi nào.",
+      "word_family": {
+        "noun": "entitlement",
+        "verb": "entitle",
+        "adjective": "entitled",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "cycle",
+      "ipa": "/ˈsaɪ.kəl/",
+      "pos": "noun",
+      "meaning_vi": "vòng luẩn quẩn, chu kỳ lặp lại",
+      "meaning_vi_inline": "vòng luẩn quẩn",
+      "example_en": "Without adequate investment in early childhood education, the cycle of poverty passes from parent to child.",
+      "example_vi": "Nếu không có đầu tư đầy đủ vào giáo dục mầm non, vòng luẩn quẩn của đói nghèo sẽ được truyền từ cha mẹ sang con cái.",
+      "word_family": {
+        "noun": "cycle",
+        "verb": "cycle",
+        "adjective": "cyclical / cyclic",
+        "adverb": "cyclically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "disenfranchise",
+      "ipa": "/ˌdɪs.ɪnˈfræn.tʃaɪz/",
+      "pos": "verb",
+      "meaning_vi": "tước đoạt quyền lợi, tước quyền bầu cử hoặc quyền tham gia",
+      "meaning_vi_inline": "tước quyền, gạt ra ngoài lề",
+      "example_en": "Bureaucratic welfare systems can inadvertently disenfranchise the most vulnerable applicants.",
+      "example_vi": "Các hệ thống phúc lợi quan liêu có thể vô tình tước quyền của những người nộp đơn dễ bị tổn thương nhất.",
+      "word_family": {
+        "noun": "disenfranchisement",
+        "verb": "disenfranchise / enfranchise",
+        "adjective": "disenfranchised",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "inequality",
+      "ipa": "/ˌɪn.ɪˈkwɒl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự bất bình đẳng, sự không công bằng",
+      "meaning_vi_inline": "bất bình đẳng",
+      "example_en": "Rising income inequality has been linked to social unrest in several advanced economies.",
+      "example_vi": "Bất bình đẳng thu nhập gia tăng đã được liên kết với bất ổn xã hội ở một số nền kinh tế phát triển.",
+      "word_family": {
+        "noun": "inequality",
+        "verb": null,
+        "adjective": "unequal / inequitable",
+        "adverb": "unequally / inequitably"
+      },
+      "false_friend": {
+        "word_vi": "inequity",
+        "explanation_vi": "'Inequality' là sự không bằng nhau (thường về số lượng, mức độ); 'inequity' nhấn mạnh sự không công bằng về đạo đức. Trong văn cảnh xã hội học, cả hai thường được dùng thay nhau nhưng có sắc thái khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "tackle systemic inequality",
+      "meaning_vi": "giải quyết bất bình đẳng mang tính hệ thống",
+      "example_en": "Governments must tackle systemic inequality through long-term investment in education and social housing.",
+      "example_vi": "Các chính phủ phải giải quyết bất bình đẳng mang tính hệ thống thông qua đầu tư dài hạn vào giáo dục và nhà ở xã hội.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "redistribute economic resources",
+      "meaning_vi": "phân phối lại nguồn lực kinh tế",
+      "example_en": "The new policy aims to redistribute economic resources from wealthy urban centres to rural communities.",
+      "example_vi": "Chính sách mới nhằm mục đích phân phối lại nguồn lực kinh tế từ các trung tâm đô thị giàu có sang các cộng đồng nông thôn.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "break the cycle of poverty",
+      "meaning_vi": "phá vỡ vòng luẩn quẩn của đói nghèo",
+      "example_en": "Access to quality early education is one of the most effective ways to break the cycle of poverty.",
+      "example_vi": "Tiếp cận giáo dục mầm non chất lượng là một trong những cách hiệu quả nhất để phá vỡ vòng luẩn quẩn của đói nghèo.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "challenge structural privilege",
+      "meaning_vi": "thách thức đặc quyền cơ cấu",
+      "example_en": "Progressive reformers argue that it is not enough to offer opportunity — society must actively challenge structural privilege.",
+      "example_vi": "Các nhà cải cách tiến bộ lập luận rằng không đủ chỉ tạo ra cơ hội — xã hội phải chủ động thách thức đặc quyền cơ cấu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "empower marginalised communities",
+      "meaning_vi": "trao quyền cho các cộng đồng bị thiệt thòi",
+      "example_en": "Community-led development projects can empower marginalised communities far more effectively than top-down aid programmes.",
+      "example_vi": "Các dự án phát triển do cộng đồng dẫn dắt có thể trao quyền cho các cộng đồng bị thiệt thòi hiệu quả hơn nhiều so với các chương trình viện trợ từ trên xuống.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, poverty is always caused by the personal failures of individuals.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that progressive taxation has successfully eliminated poverty in most developed nations.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that welfare systems can sometimes harm the people they are designed to assist.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage claims that philanthropy alone is sufficient to replace the role of government in reducing inequality.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "According to the passage, structural privilege allows some people to succeed regardless of their merit.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The report found that _____ racism — embedded in hiring policies and lending practices — was more damaging than individual prejudice.",
+          "options": [
+            "cyclical",
+            "marginalised",
+            "systemic",
+            "philanthropic"
+          ],
+          "answer": "systemic"
+        },
+        {
+          "id": 2,
+          "sentence": "Growing up in a deprived area left many residents feeling trapped in a _____ of unemployment, poor health, and low aspiration.",
+          "options": [
+            "stratification",
+            "redistribution",
+            "cycle",
+            "entitlement"
+          ],
+          "answer": "cycle"
+        },
+        {
+          "id": 3,
+          "sentence": "The billionaire pledged to dedicate a third of his fortune to _____, funding scholarships for students from low-income backgrounds.",
+          "options": [
+            "deprivation",
+            "philanthropy",
+            "inequality",
+            "marginalisation"
+          ],
+          "answer": "philanthropy"
+        },
+        {
+          "id": 4,
+          "sentence": "Critics of the welfare reform argued that it would _____ rural communities by removing the support they depend on.",
+          "options": [
+            "stratify",
+            "redistribute",
+            "empower",
+            "disenfranchise"
+          ],
+          "answer": "disenfranchise"
+        },
+        {
+          "id": 5,
+          "sentence": "Social _____ in the city was stark: wealthy professionals lived within kilometres of families struggling to meet basic needs.",
+          "options": [
+            "entitlement",
+            "stratification",
+            "philanthropy",
+            "cycle"
+          ],
+          "answer": "stratification"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "deprivation",
+        "inequality",
+        "marginalisation",
+        "entitlement",
+        "redistribution",
+        "systemic"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The study revealed severe social _____ in regions where basic services such as clean water and electricity remained scarce.",
+          "answer": "deprivation"
+        },
+        {
+          "id": 2,
+          "sentence": "The government's welfare reform introduced a new _____ scheme guaranteeing minimum monthly payments to all unemployed citizens.",
+          "answer": "entitlement"
+        },
+        {
+          "id": 3,
+          "sentence": "Wealth _____ through higher taxes on inherited estates remains a deeply contentious political issue.",
+          "answer": "redistribution"
+        },
+        {
+          "id": 4,
+          "sentence": "Researchers argue that the _____ of indigenous communities from decision-making processes has worsened environmental outcomes.",
+          "answer": "marginalisation"
+        },
+        {
+          "id": 5,
+          "sentence": "Growing economic _____ between the richest and poorest households has fuelled social tensions across the country.",
+          "answer": "inequality"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "systemic",
+            "barriers",
+            "prevent",
+            "many",
+            "people",
+            "from",
+            "escaping",
+            "poverty"
+          ],
+          "answer": "Systemic barriers prevent many people from escaping poverty."
+        },
+        {
+          "id": 2,
+          "words": [
+            "philanthropy",
+            "can",
+            "supplement",
+            "but",
+            "not",
+            "replace",
+            "structural",
+            "reform"
+          ],
+          "answer": "Philanthropy can supplement but not replace structural reform."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "cycle",
+            "of",
+            "poverty",
+            "is",
+            "difficult",
+            "to",
+            "break",
+            "without",
+            "early",
+            "intervention"
+          ],
+          "answer": "The cycle of poverty is difficult to break without early intervention."
+        },
+        {
+          "id": 4,
+          "words": [
+            "social",
+            "stratification",
+            "determines",
+            "access",
+            "to",
+            "education",
+            "and",
+            "healthcare"
+          ],
+          "answer": "Social stratification determines access to education and healthcare."
+        },
+        {
+          "id": 5,
+          "words": [
+            "welfare",
+            "programmes",
+            "must",
+            "empower",
+            "rather",
+            "than",
+            "disenfranchise",
+            "vulnerable",
+            "communities"
+          ],
+          "answer": "Welfare programmes must empower rather than disenfranchise vulnerable communities."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Generations of [depriving] have left many families without access to adequate nutrition or shelter.",
+          "highlighted": "depriving",
+          "options": {
+            "A": "deprivation",
+            "B": "deprived",
+            "C": "deprive"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed as the subject of 'have left' — 'deprivation', not the gerund 'depriving'."
+        },
+        {
+          "id": 2,
+          "sentence": "The [disenfranchisement] of voters through restrictive ID laws was condemned by civil liberties organisations.",
+          "highlighted": "disenfranchisement",
+          "options": {
+            "A": "disenfranchise",
+            "B": "disenfranchised",
+            "C": "disenfranchising"
+          },
+          "answer": "B",
+          "explanation": "A past participial adjective is needed to pre-modify 'voters' — 'disenfranchised voters' (those who have been deprived of rights). The noun 'disenfranchisement' cannot function as an adjective here."
+        },
+        {
+          "id": 3,
+          "sentence": "Many analysts believe that [systematic] barriers in the labour market keep qualified candidates from disadvantaged backgrounds out of senior roles.",
+          "highlighted": "systematic",
+          "options": {
+            "A": "system",
+            "B": "systemically",
+            "C": "systemic"
+          },
+          "answer": "C",
+          "explanation": "'Systemic' is the correct adjective meaning 'embedded throughout the system'; 'systematic' means 'done in a methodical way' and does not convey the same meaning in this context."
+        },
+        {
+          "id": 4,
+          "sentence": "The charity's goal is to [empowerment] communities by providing skills training and access to microfinance.",
+          "highlighted": "empowerment",
+          "options": {
+            "A": "empowering",
+            "B": "empower",
+            "C": "empowered"
+          },
+          "answer": "B",
+          "explanation": "After 'to' as an infinitive marker, the base form of the verb is required — 'empower', not the noun 'empowerment'."
+        },
+        {
+          "id": 5,
+          "sentence": "The [marginalise] of rural populations from national political discourse has been widely criticised by human rights groups.",
+          "highlighted": "marginalise",
+          "options": {
+            "A": "marginalised",
+            "B": "marginal",
+            "C": "marginalisation"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of 'has been criticised' — 'marginalisation', not the verb 'marginalise'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "systemic",
+      "2": "cycle",
+      "3": "philanthropy",
+      "4": "disenfranchise",
+      "5": "stratification"
+    },
+    "ex3": {
+      "1": "deprivation",
+      "2": "entitlement",
+      "3": "redistribution",
+      "4": "marginalisation",
+      "5": "inequality"
+    },
+    "ex4": {
+      "1": "Systemic barriers prevent many people from escaping poverty.",
+      "2": "Philanthropy can supplement but not replace structural reform.",
+      "3": "The cycle of poverty is difficult to break without early intervention.",
+      "4": "Social stratification determines access to education and healthcare.",
+      "5": "Welfare programmes must empower rather than disenfranchise vulnerable communities."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

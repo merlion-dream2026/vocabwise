@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 33,
+    "topic_id": "b1-t33",
+    "topic_title": "Reading & Writing",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📖",
+    "topic_title_vi": "Đọc & Viết",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "I love reading. My favourite **book** is a long **story** about a brave girl. I read one **chapter** every night before bed. Each **page** is full of exciting ideas and I never feel bored.",
+        "text_vi": "Tôi thích đọc sách. Cuốn **sách** yêu thích của tôi là một **câu chuyện** dài về một cô gái dũng cảm. Tôi đọc một **chương** mỗi tối trước khi đi ngủ. Mỗi **trang** đều đầy ắp những ý tưởng thú vị và tôi không bao giờ cảm thấy chán."
+      },
+      {
+        "index": 2,
+        "text_en": "At school, our teacher asks us to write a **summary** at the end of each **chapter**. She also asks us to write a short **review** — we say what we liked and what we did not like. This helps us understand the **meaning** of the text.",
+        "text_vi": "Ở trường, giáo viên yêu cầu chúng tôi viết một bản **tóm tắt** ở cuối mỗi **chương**. Cô ấy cũng yêu cầu chúng tôi viết một bài **nhận xét** ngắn — chúng tôi nói điều mình thích và không thích. Điều này giúp chúng tôi hiểu **ý nghĩa** của văn bản."
+      },
+      {
+        "index": 3,
+        "text_en": "I also write in my **diary** every evening. I like writing **poem**s too — short ones with rhyming **sentence**s. My **notes** help me remember new words. I always write a **heading** at the top so I know what each page is about.",
+        "text_vi": "Tôi cũng viết **nhật ký** mỗi buổi tối. Tôi cũng thích viết **thơ** — những bài ngắn với các **câu** có vần. Các **ghi chú** của tôi giúp tôi nhớ những từ mới. Tôi luôn viết một **tiêu đề** ở trên cùng để biết mỗi trang nói về điều gì."
+      },
+      {
+        "index": 4,
+        "text_en": "My favourite **author** writes stories that are easy to understand. Before I start a new book, I read the **outline** on the back cover. Then I **copy** important words into my notebook. Reading and writing every day makes me a better student.",
+        "text_vi": "**Tác giả** yêu thích của tôi viết những câu chuyện dễ hiểu. Trước khi bắt đầu một cuốn sách mới, tôi đọc **đề cương** ở bìa sau. Sau đó tôi **chép lại** những từ quan trọng vào vở. Đọc và viết mỗi ngày giúp tôi trở thành học sinh giỏi hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "book",
+      "ipa": "/bʊk/",
+      "pos": "noun",
+      "meaning_vi": "cuốn sách",
+      "meaning_vi_inline": "sách",
+      "example_en": "I borrowed a book from the library and finished reading it in two days.",
+      "example_vi": "Tôi mượn một cuốn sách từ thư viện và đọc xong trong hai ngày.",
+      "word_family": {
+        "noun": "book / booklet / bookshelf",
+        "verb": "book (to reserve)",
+        "adjective": "bookish",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "story",
+      "ipa": "/ˈstɔːri/",
+      "pos": "noun",
+      "meaning_vi": "câu chuyện",
+      "meaning_vi_inline": "câu chuyện",
+      "example_en": "She told us a funny story about her first day at school.",
+      "example_vi": "Cô ấy kể cho chúng tôi nghe một câu chuyện vui về ngày đầu tiên đến trường của cô ấy.",
+      "word_family": {
+        "noun": "story / storyteller",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "page",
+      "ipa": "/peɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "trang sách",
+      "meaning_vi_inline": "trang",
+      "example_en": "Please open your book to page ten and read the first paragraph.",
+      "example_vi": "Hãy mở sách đến trang mười và đọc đoạn đầu tiên.",
+      "word_family": {
+        "noun": "page",
+        "verb": "page (to call someone)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "sentence",
+      "ipa": "/ˈsentəns/",
+      "pos": "noun",
+      "meaning_vi": "câu văn",
+      "meaning_vi_inline": "câu",
+      "example_en": "Write three sentences in your notebook to practise using the new words.",
+      "example_vi": "Viết ba câu vào vở để luyện tập sử dụng các từ mới.",
+      "word_family": {
+        "noun": "sentence",
+        "verb": "sentence (to give a punishment in court)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "diary",
+      "ipa": "/ˈdaɪəri/",
+      "pos": "noun",
+      "meaning_vi": "nhật ký",
+      "meaning_vi_inline": "nhật ký",
+      "example_en": "She writes in her diary every night before going to sleep.",
+      "example_vi": "Cô ấy viết nhật ký mỗi tối trước khi đi ngủ.",
+      "word_family": {
+        "noun": "diary",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "poem",
+      "ipa": "/ˈpəʊɪm/",
+      "pos": "noun",
+      "meaning_vi": "bài thơ",
+      "meaning_vi_inline": "thơ",
+      "example_en": "The teacher asked us to write a short poem about our favourite season.",
+      "example_vi": "Giáo viên yêu cầu chúng tôi viết một bài thơ ngắn về mùa yêu thích của mình.",
+      "word_family": {
+        "noun": "poem / poetry / poet",
+        "verb": null,
+        "adjective": "poetic",
+        "adverb": "poetically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "author",
+      "ipa": "/ˈɔːθər/",
+      "pos": "noun",
+      "meaning_vi": "tác giả",
+      "meaning_vi_inline": "tác giả",
+      "example_en": "My favourite author writes adventure stories for young readers.",
+      "example_vi": "Tác giả yêu thích của tôi viết những câu chuyện phiêu lưu dành cho độc giả trẻ.",
+      "word_family": {
+        "noun": "author / authorship",
+        "verb": "author (to write)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "meaning",
+      "ipa": "/ˈmiːnɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "ý nghĩa",
+      "meaning_vi_inline": "ý nghĩa",
+      "example_en": "I looked up the meaning of the word in my dictionary.",
+      "example_vi": "Tôi tra ý nghĩa của từ đó trong từ điển.",
+      "word_family": {
+        "noun": "meaning",
+        "verb": "mean / meant",
+        "adjective": "meaningful / meaningless",
+        "adverb": "meaningfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "heading",
+      "ipa": "/ˈhedɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "tiêu đề, đầu đề",
+      "meaning_vi_inline": "tiêu đề",
+      "example_en": "Always write a clear heading at the top of your notes so you can find them later.",
+      "example_vi": "Luôn viết một tiêu đề rõ ràng ở đầu ghi chú để bạn có thể tìm lại sau.",
+      "word_family": {
+        "noun": "heading / headline",
+        "verb": "head (to lead)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "chapter",
+      "ipa": "/ˈtʃæptər/",
+      "pos": "noun",
+      "meaning_vi": "chương (trong sách)",
+      "meaning_vi_inline": "chương",
+      "example_en": "We need to read chapter three before our next class on Friday.",
+      "example_vi": "Chúng ta cần đọc chương ba trước buổi học tiếp theo vào thứ Sáu.",
+      "word_family": {
+        "noun": "chapter",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "notes",
+      "ipa": "/nəʊts/",
+      "pos": "noun (plural)",
+      "meaning_vi": "ghi chú, bài ghi",
+      "meaning_vi_inline": "ghi chú",
+      "example_en": "I wrote careful notes during the lesson so I could study them later.",
+      "example_vi": "Tôi ghi chú cẩn thận trong giờ học để có thể ôn lại sau.",
+      "word_family": {
+        "noun": "note / notes / notebook",
+        "verb": "note / noted",
+        "adjective": "notable",
+        "adverb": "notably"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "summary",
+      "ipa": "/ˈsʌməri/",
+      "pos": "noun",
+      "meaning_vi": "bản tóm tắt",
+      "meaning_vi_inline": "tóm tắt",
+      "example_en": "Write a short summary of the story in your own words.",
+      "example_vi": "Hãy viết một bản tóm tắt ngắn về câu chuyện bằng lời của bạn.",
+      "word_family": {
+        "noun": "summary",
+        "verb": "summarise / summarize",
+        "adjective": "summary (brief)",
+        "adverb": "in summary"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "review",
+      "ipa": "/rɪˈvjuː/",
+      "pos": "noun / verb",
+      "meaning_vi": "bài nhận xét; xem lại, nhận xét",
+      "meaning_vi_inline": "nhận xét",
+      "example_en": "She wrote a book review for the school magazine after finishing the novel.",
+      "example_vi": "Cô ấy viết một bài nhận xét sách cho tạp chí trường sau khi đọc xong tiểu thuyết.",
+      "word_family": {
+        "noun": "review / reviewer",
+        "verb": "review / reviewed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "copy",
+      "ipa": "/ˈkɒpi/",
+      "pos": "verb / noun",
+      "meaning_vi": "chép lại, sao chép; bản sao",
+      "meaning_vi_inline": "chép lại",
+      "example_en": "Please copy the new words from the board into your notebook.",
+      "example_vi": "Hãy chép các từ mới từ bảng vào vở của bạn.",
+      "word_family": {
+        "noun": "copy / copies",
+        "verb": "copy / copied",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "outline",
+      "ipa": "/ˈaʊtlaɪn/",
+      "pos": "noun / verb",
+      "meaning_vi": "đề cương, dàn ý; phác thảo",
+      "meaning_vi_inline": "đề cương",
+      "example_en": "The teacher asked us to write an outline before starting our essay.",
+      "example_vi": "Giáo viên yêu cầu chúng tôi viết một dàn ý trước khi bắt đầu bài luận.",
+      "word_family": {
+        "noun": "outline",
+        "verb": "outline / outlined",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "summary" },
+        { "id": 2, "word": "author" },
+        { "id": 3, "word": "outline" },
+        { "id": 4, "word": "heading" },
+        { "id": 5, "word": "review" }
+      ],
+      "options": [
+        { "id": "A", "text": "a short piece of writing that gives an opinion about a book, film, or other work" },
+        { "id": "B", "text": "a title written at the top of a page or section of text" },
+        { "id": "C", "text": "the person who writes a book, story, or article" },
+        { "id": "D", "text": "a short statement of the main points of something" },
+        { "id": "E", "text": "a plan that shows the main ideas of something before it is written in full" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I did not understand the word, so I checked its _____ in the dictionary.",
+          "options": ["heading", "meaning", "outline", "copy"],
+          "answer": "meaning"
+        },
+        {
+          "id": 2,
+          "sentence": "We read the first _____ of the novel in class and discussed the main characters.",
+          "options": ["diary", "poem", "sentence", "chapter"],
+          "answer": "chapter"
+        },
+        {
+          "id": 3,
+          "sentence": "She keeps a _____ and writes in it every night before going to sleep.",
+          "options": ["diary", "copy", "review", "notes"],
+          "answer": "diary"
+        },
+        {
+          "id": 4,
+          "sentence": "Please _____ the vocabulary list from the board into your notebook.",
+          "options": ["review", "outline", "copy", "author"],
+          "answer": "copy"
+        },
+        {
+          "id": 5,
+          "sentence": "The teacher told us to write a _____ of the story in fewer than fifty words.",
+          "options": ["heading", "poem", "page", "summary"],
+          "answer": "summary"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["notes", "sentence", "story", "heading", "review", "poem"],
+      "items": [
+        { "id": 1, "sentence": "The _____ she wrote about the book helped other students decide what to read next.", "answer": "review" },
+        { "id": 2, "sentence": "I took careful _____ during the lesson and studied them again at home.", "answer": "notes" },
+        { "id": 3, "sentence": "He read a short _____ aloud to the class — it rhymed and had a nice rhythm.", "answer": "poem" },
+        { "id": 4, "sentence": "Write the _____ at the top of your page so the reader knows what the section is about.", "answer": "heading" },
+        { "id": 5, "sentence": "Each _____ in the paragraph should begin with a capital letter and end with a full stop.", "answer": "sentence" }
+      ],
+      "note": "One word in the box is not used: story"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The short story had great _____ — it taught us an important lesson about honesty. (MEAN)",
+          "base_word": "MEAN",
+          "answer": "meaning",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ the key information from the three-page article into one paragraph. (SUMMARY)",
+          "base_word": "SUMMARY",
+          "answer": "summarised",
+          "form_used": "verb"
+        },
+        {
+          "id": 3,
+          "sentence": "He is a very _____ person — he reads books about science, history, and art. (BOOK)",
+          "base_word": "BOOK",
+          "answer": "bookish",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "I wrote a _____ note on a piece of paper to remind myself about the homework. (NOTE)",
+          "base_word": "NOTE",
+          "answer": "notable",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "Her writing is very _____ — she uses beautiful images to describe ordinary things. (POEM)",
+          "base_word": "POEM",
+          "answer": "poetic",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I always write a [meaning] at the top of my notes so I know what the page is about.",
+          "highlighted": "meaning",
+          "options": { "A": "copy", "B": "meaning", "C": "heading" },
+          "answer": "C",
+          "explanation": "A 'meaning' is the definition or idea behind a word or phrase. The word written at the top of a page to show what the section is about is a 'heading'."
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher asked us to write a short [outline] about whether we enjoyed the book.",
+          "highlighted": "outline",
+          "options": { "A": "review", "B": "outline", "C": "chapter" },
+          "answer": "A",
+          "explanation": "An 'outline' is a plan of the main points, not an opinion piece. When you write your thoughts about whether you enjoyed a book, you write a 'review'."
+        },
+        {
+          "id": 3,
+          "sentence": "She wrote her feelings in her [summary] every night before going to sleep.",
+          "highlighted": "summary",
+          "options": { "A": "notes", "B": "chapter", "C": "diary" },
+          "answer": "C",
+          "explanation": "A 'summary' is a short retelling of main points — it is not a personal journal. A personal book where you write your private thoughts and feelings every day is a 'diary'."
+        },
+        {
+          "id": 4,
+          "sentence": "Please [review] the new vocabulary list from the board into your notebook.",
+          "highlighted": "review",
+          "options": { "A": "review", "B": "copy", "C": "outline" },
+          "answer": "B",
+          "explanation": "'Review' means to look at something again or give an opinion. When you write down exactly what is on the board into your notebook, you 'copy' it."
+        },
+        {
+          "id": 5,
+          "sentence": "The [page] of the novel was written by a famous Vietnamese writer.",
+          "highlighted": "page",
+          "options": { "A": "story", "B": "page", "C": "author" },
+          "answer": "A",
+          "explanation": "A 'page' is one side of a sheet in a book — it cannot be 'written by' anyone in this sense. The person who writes a novel is its 'author'. However, the sentence is about the work itself, so 'story' fits best here."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "D", "2": "C", "3": "E", "4": "B", "5": "A" },
+    "ex2": { "1": "meaning", "2": "chapter", "3": "diary", "4": "copy", "5": "summary" },
+    "ex3": { "1": "review", "2": "notes", "3": "poem", "4": "heading", "5": "sentence" },
+    "ex4": { "1": "meaning", "2": "summarised", "3": "bookish", "4": "notable", "5": "poetic" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "A" }
+  }
+}

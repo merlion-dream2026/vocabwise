@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 51,
+    "topic_id": "b1-t51",
+    "topic_title": "Saying Hello & Goodbye",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "👋",
+    "topic_title_vi": "Chào Hỏi & Tạm Biệt",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "When you meet someone for the first time, you can say **hello** or **hi**. These are simple **phrase**s that help you start a conversation. It is important to be **polite** and smile. A **stranger** may become a new friend if you greet them well.",
+        "text_vi": "Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói **xin chào** hoặc **chào**. Đây là những **cụm từ** đơn giản giúp bạn bắt đầu một cuộc trò chuyện. Điều quan trọng là phải **lịch sự** và mỉm cười. Một **người lạ** có thể trở thành bạn mới nếu bạn chào hỏi họ đúng cách."
+      },
+      {
+        "index": 2,
+        "text_en": "In some countries, people **bow** or **nod** their head to greet each other. This is a **casual** way to show respect without words. Your **response** to a greeting is just as important as the greeting itself.",
+        "text_vi": "Ở một số quốc gia, người ta **cúi chào** hoặc **gật đầu** để chào nhau. Đây là một cách **thân mật, không trang trọng** để thể hiện sự tôn trọng mà không cần dùng lời. **Phản hồi** của bạn với lời chào cũng quan trọng không kém bản thân lời chào."
+      },
+      {
+        "index": 3,
+        "text_en": "When you leave, you say **goodbye** or **bye**. If you want to meet the person **again**, you can say '**See** you soon!' or '**See** you later!' These small words help people feel **welcome** and comfortable.",
+        "text_vi": "Khi bạn ra về, bạn nói **tạm biệt** hoặc **bye**. Nếu bạn muốn gặp người đó **lần nữa**, bạn có thể nói '**Hẹn gặp** bạn sớm nhé!' hoặc '**Hẹn gặp** lại!' Những từ nhỏ này giúp mọi người cảm thấy được **chào đón** và thoải mái."
+      },
+      {
+        "index": 4,
+        "text_en": "Learning how to greet people well is a very useful skill. A warm **hello** and a friendly **goodbye** can make a big difference. Whether the situation is formal or **casual**, a **polite** **response** always makes a good impression — even with a **stranger**.",
+        "text_vi": "Học cách chào hỏi mọi người tốt là một kỹ năng rất hữu ích. Một lời **xin chào** nồng nhiệt và một lời **tạm biệt** thân thiện có thể tạo ra sự khác biệt lớn. Dù tình huống trang trọng hay **thân mật**, một **phản hồi** **lịch sự** luôn tạo ấn tượng tốt — ngay cả với một **người lạ**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "hello",
+      "ipa": "/həˈləʊ/",
+      "pos": "exclamation / noun",
+      "meaning_vi": "xin chào (lời chào khi gặp mặt)",
+      "meaning_vi_inline": "xin chào",
+      "example_en": "She walked into the classroom and said hello to everyone before sitting down.",
+      "example_vi": "Cô ấy bước vào lớp học và nói xin chào với mọi người trước khi ngồi xuống.",
+      "word_family": {
+        "noun": "hello",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "pos": "exclamation / noun",
+      "meaning_vi": "tạm biệt (lời chào khi chia tay)",
+      "meaning_vi_inline": "tạm biệt",
+      "example_en": "He waved and said goodbye before getting on the bus.",
+      "example_vi": "Anh ấy vẫy tay và nói tạm biệt trước khi lên xe buýt.",
+      "word_family": {
+        "noun": "goodbye",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "hi",
+      "ipa": "/haɪ/",
+      "pos": "exclamation",
+      "meaning_vi": "chào (cách chào thân mật, không trang trọng)",
+      "meaning_vi_inline": "chào",
+      "example_en": "She saw her classmate across the street and called out 'Hi!'",
+      "example_vi": "Cô ấy thấy bạn cùng lớp ở phía bên kia đường và gọi to 'Chào!'",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "bye",
+      "ipa": "/baɪ/",
+      "pos": "exclamation",
+      "meaning_vi": "bye, tạm biệt (cách nói tạm biệt thân mật)",
+      "meaning_vi_inline": "bye",
+      "example_en": "The children said bye to their teacher and ran out to play.",
+      "example_vi": "Các em học sinh nói bye với giáo viên và chạy ra ngoài chơi.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "nice",
+      "ipa": "/naɪs/",
+      "pos": "adjective",
+      "meaning_vi": "tốt, dễ chịu, thú vị",
+      "meaning_vi_inline": "tốt",
+      "example_en": "It is nice to meet you — I have heard so many good things about you.",
+      "example_vi": "Rất vui được gặp bạn — tôi đã nghe nhiều điều tốt về bạn.",
+      "word_family": {
+        "noun": "niceness",
+        "verb": null,
+        "adjective": "nice / nicer / nicest",
+        "adverb": "nicely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "see",
+      "ipa": "/siː/",
+      "pos": "verb",
+      "meaning_vi": "gặp (dùng trong câu 'see you' = hẹn gặp lại)",
+      "meaning_vi_inline": "gặp",
+      "example_en": "She smiled and said, 'See you tomorrow!' as she left the office.",
+      "example_vi": "Cô ấy mỉm cười và nói 'Hẹn gặp lại ngày mai nhé!' khi rời văn phòng.",
+      "word_family": {
+        "noun": null,
+        "verb": "see / saw / seen",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "again",
+      "ipa": "/əˈɡen/",
+      "pos": "adverb",
+      "meaning_vi": "lại, một lần nữa",
+      "meaning_vi_inline": "lần nữa",
+      "example_en": "I hope to see you again soon — today was really fun.",
+      "example_vi": "Tôi hy vọng sớm được gặp lại bạn — hôm nay thật sự rất vui.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": null,
+        "adverb": "again"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "welcome",
+      "ipa": "/ˈwelkəm/",
+      "pos": "verb / adjective / exclamation",
+      "meaning_vi": "chào đón; được chào đón; xin mời",
+      "meaning_vi_inline": "chào đón",
+      "example_en": "Everyone felt welcome at the party because the host greeted them warmly at the door.",
+      "example_vi": "Mọi người đều cảm thấy được chào đón tại bữa tiệc vì chủ nhà chào họ nồng nhiệt ở cửa.",
+      "word_family": {
+        "noun": "welcome",
+        "verb": "welcome / welcomed",
+        "adjective": "welcome / welcoming",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "bow",
+      "ipa": "/baʊ/",
+      "pos": "verb / noun",
+      "meaning_vi": "cúi chào; cái cúi chào",
+      "meaning_vi_inline": "cúi chào",
+      "example_en": "In Japan, people bow when they greet each other as a sign of respect.",
+      "example_vi": "Ở Nhật Bản, người ta cúi chào khi gặp nhau như một dấu hiệu tôn trọng.",
+      "word_family": {
+        "noun": "bow",
+        "verb": "bow / bowed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "bow /bəʊ/ (nơ / cung tên)",
+        "explanation_vi": "Cùng chính tả nhưng phát âm khác: 'bow' /baʊ/ = cúi chào; 'bow' /bəʊ/ = nơ thắt / cây cung. Đây là từ đồng âm dị nghĩa trong tiếng Anh."
+      }
+    },
+    {
+      "id": 10,
+      "word": "nod",
+      "ipa": "/nɒd/",
+      "pos": "verb / noun",
+      "meaning_vi": "gật đầu; cái gật đầu",
+      "meaning_vi_inline": "gật đầu",
+      "example_en": "He gave a friendly nod when he passed his neighbour in the hallway.",
+      "example_vi": "Anh ấy gật đầu thân thiện khi đi ngang qua hàng xóm trong hành lang.",
+      "word_family": {
+        "noun": "nod",
+        "verb": "nod / nodded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "phrase",
+      "ipa": "/freɪz/",
+      "pos": "noun",
+      "meaning_vi": "cụm từ, câu nói",
+      "meaning_vi_inline": "cụm từ",
+      "example_en": "Nice to meet you is a common phrase used when you are introduced to someone new.",
+      "example_vi": "'Rất vui được gặp bạn' là một cụm từ thông dụng được dùng khi bạn được giới thiệu với ai đó mới.",
+      "word_family": {
+        "noun": "phrase",
+        "verb": "phrase / phrased",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "polite",
+      "ipa": "/pəˈlaɪt/",
+      "pos": "adjective",
+      "meaning_vi": "lịch sự, nhã nhặn",
+      "meaning_vi_inline": "lịch sự",
+      "example_en": "It is polite to say thank you whenever someone does something kind for you.",
+      "example_vi": "Việc nói cảm ơn mỗi khi ai đó làm điều tốt cho bạn là một hành động lịch sự.",
+      "word_family": {
+        "noun": "politeness",
+        "verb": null,
+        "adjective": "polite / impolite",
+        "adverb": "politely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "stranger",
+      "ipa": "/ˈstreɪndʒər/",
+      "pos": "noun",
+      "meaning_vi": "người lạ, người không quen biết",
+      "meaning_vi_inline": "người lạ",
+      "example_en": "She was nervous because she had to give a presentation to a room full of strangers.",
+      "example_vi": "Cô ấy lo lắng vì phải thuyết trình trước một căn phòng toàn người lạ.",
+      "word_family": {
+        "noun": "stranger / strangeness",
+        "verb": null,
+        "adjective": "strange",
+        "adverb": "strangely"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "response",
+      "ipa": "/rɪˈspɒns/",
+      "pos": "noun",
+      "meaning_vi": "phản hồi, câu trả lời",
+      "meaning_vi_inline": "phản hồi",
+      "example_en": "His response to my greeting was a big smile and a warm handshake.",
+      "example_vi": "Phản hồi của anh ấy với lời chào của tôi là một nụ cười rộng và cái bắt tay nồng nhiệt.",
+      "word_family": {
+        "noun": "response / responsibility",
+        "verb": "respond / responded",
+        "adjective": "responsive",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "casual",
+      "ipa": "/ˈkæʒuəl/",
+      "pos": "adjective",
+      "meaning_vi": "thân mật, không trang trọng; bình thường",
+      "meaning_vi_inline": "thân mật, không trang trọng",
+      "example_en": "A casual 'hi' is fine for friends, but you should say 'good morning' to your teacher.",
+      "example_vi": "Một câu 'chào' thân mật là được với bạn bè, nhưng bạn nên nói 'chào buổi sáng' với giáo viên.",
+      "word_family": {
+        "noun": "casualness",
+        "verb": null,
+        "adjective": "casual / formal",
+        "adverb": "casually"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "bow" },
+        { "id": 2, "word": "polite" },
+        { "id": 3, "word": "stranger" },
+        { "id": 4, "word": "response" },
+        { "id": 5, "word": "casual" }
+      ],
+      "options": [
+        { "id": "A", "text": "having good manners and showing respect to others in the way you speak or behave" },
+        { "id": "B", "text": "relaxed and informal, not following strict rules of behaviour" },
+        { "id": "C", "text": "to bend the top half of your body forward as a way of greeting someone" },
+        { "id": "D", "text": "something you say or do as a reaction to a greeting or question" },
+        { "id": "E", "text": "a person you have never met before and do not know" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She gave a quick _____ with her head when she saw her neighbour — she was too far away to speak.",
+          "options": ["phrase", "nod", "welcome", "response"],
+          "answer": "nod"
+        },
+        {
+          "id": 2,
+          "sentence": "Nice to meet you is a _____ we use when meeting someone for the first time.",
+          "options": ["bow", "goodbye", "phrase", "stranger"],
+          "answer": "phrase"
+        },
+        {
+          "id": 3,
+          "sentence": "It is important to be _____ and say thank you when someone helps you.",
+          "options": ["casual", "polite", "again", "nice"],
+          "answer": "polite"
+        },
+        {
+          "id": 4,
+          "sentence": "He was nervous about speaking to a _____ on the street, but he asked for directions anyway.",
+          "options": ["stranger", "response", "phrase", "nod"],
+          "answer": "stranger"
+        },
+        {
+          "id": 5,
+          "sentence": "I hope to see you _____ — today was really enjoyable.",
+          "options": ["casual", "goodbye", "again", "welcome"],
+          "answer": "again"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["welcome", "casual", "hello", "response", "bow", "polite"],
+      "items": [
+        { "id": 1, "sentence": "In Japan, it is common to _____ when you greet someone you respect.", "answer": "bow" },
+        { "id": 2, "sentence": "She said _____ to the new student and showed her where to sit.", "answer": "hello" },
+        { "id": 3, "sentence": "Everyone felt _____ because the host was warm and friendly to all the guests.", "answer": "welcome" },
+        { "id": 4, "sentence": "His _____ to my greeting was a big smile and a handshake.", "answer": "response" },
+        { "id": 5, "sentence": "You can use a _____ greeting like 'hi' with your friends, but be more formal with adults.", "answer": "casual" }
+      ],
+      "note": "One word in the box is not used: polite"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She greeted everyone _____ and made them feel comfortable right away. (POLITE)",
+          "base_word": "POLITE",
+          "answer": "politely",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher gave a warm _____ to the visitors when they arrived. (WELCOME)",
+          "base_word": "WELCOME",
+          "answer": "welcome",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ to her question with a simple smile and a nod. (RESPONSE)",
+          "base_word": "RESPONSE",
+          "answer": "responded",
+          "form_used": "verb"
+        },
+        {
+          "id": 4,
+          "sentence": "The atmosphere at the party was very _____ — everyone was relaxed and talking freely. (CASUAL)",
+          "base_word": "CASUAL",
+          "answer": "casual",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She said it was _____ to meet me and hoped we could work together soon. (NICE)",
+          "base_word": "NICE",
+          "answer": "nice",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When you meet someone for the first time, you should say [goodbye] and smile warmly.",
+          "highlighted": "goodbye",
+          "options": { "A": "again", "B": "goodbye", "C": "hello" },
+          "answer": "C",
+          "explanation": "'Goodbye' is used when you are leaving, not when you meet someone for the first time. The correct word is 'hello' — the word used to greet someone at the start of a meeting."
+        },
+        {
+          "id": 2,
+          "sentence": "She was very [impolite] — she said thank you and held the door open for everyone.",
+          "highlighted": "impolite",
+          "options": { "A": "polite", "B": "impolite", "C": "casual" },
+          "answer": "A",
+          "explanation": "'Impolite' means rude or bad-mannered. The sentence describes someone doing kind things like saying thank you and holding the door — this describes a 'polite' person."
+        },
+        {
+          "id": 3,
+          "sentence": "In some Asian countries, people [nod] deeply to show respect when greeting each other.",
+          "highlighted": "nod",
+          "options": { "A": "wave", "B": "bow", "C": "nod" },
+          "answer": "B",
+          "explanation": "A 'nod' is a small movement of the head up and down. A deep movement of the whole upper body as a sign of respect is called a 'bow'."
+        },
+        {
+          "id": 4,
+          "sentence": "I did not know anyone at the party — I was surrounded by [friends].",
+          "highlighted": "friends",
+          "options": { "A": "strangers", "B": "responses", "C": "friends" },
+          "answer": "A",
+          "explanation": "If you do not know anyone at a party, the people around you are not 'friends' — they are 'strangers', people you have never met before."
+        },
+        {
+          "id": 5,
+          "sentence": "She said 'see you [yesterday]!' and waved as she walked out the door.",
+          "highlighted": "yesterday",
+          "options": { "A": "yesterday", "B": "again", "C": "hello" },
+          "answer": "B",
+          "explanation": "'See you yesterday' does not make sense because 'yesterday' refers to the past. When saying goodbye and hoping to meet someone in the future, you say 'see you again' or 'see you soon'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "A", "3": "E", "4": "D", "5": "B" },
+    "ex2": { "1": "nod", "2": "phrase", "3": "polite", "4": "stranger", "5": "again" },
+    "ex3": { "1": "bow", "2": "hello", "3": "welcome", "4": "response", "5": "casual" },
+    "ex4": { "1": "politely", "2": "welcome", "3": "responded", "4": "casual", "5": "nice" },
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "A", "5": "B" }
+  }
+}

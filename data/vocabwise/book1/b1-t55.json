@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 55,
+    "topic_id": "b1-t55",
+    "topic_title": "Asking for Help",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🤝",
+    "topic_title_vi": "Nhờ Giúp Đỡ",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 116,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "When you are **lost** in a new place, it is important to ask for help. You can say '**excuse** me' to get someone's attention. Then **tell** them what you **need**. Most people are happy to **show** you the right **way**.",
+        "text_vi": "Khi bạn bị **lạc** ở một nơi mới, điều quan trọng là nhờ giúp đỡ. Bạn có thể nói '**xin lỗi**' để thu hút sự chú ý của ai đó. Sau đó **nói cho** họ biết bạn **cần** gì. Hầu hết mọi người đều vui lòng **chỉ** cho bạn **đường** đi đúng."
+      },
+      {
+        "index": 2,
+        "text_en": "Always say '**please**' when you ask for something. If you do not understand, say '**say again**, **please**' to hear it one more time. It is also polite to say '**sorry**' before asking a stranger for help.",
+        "text_vi": "Hãy luôn nói '**làm ơn**' khi bạn nhờ điều gì. Nếu bạn không hiểu, hãy nói '**nói lại**, **làm ơn**' để nghe thêm một lần nữa. Cũng lịch sự khi nói '**xin lỗi**' trước khi nhờ một người lạ giúp đỡ."
+      },
+      {
+        "index": 3,
+        "text_en": "Sometimes you **want** to **find** a shop or a bus stop but you do not **know** the area. You can ask someone to **follow** them to the right place, or ask them to draw a simple map. Do not be afraid to speak up.",
+        "text_vi": "Đôi khi bạn **muốn** **tìm** một cửa hàng hay trạm xe buýt nhưng bạn không **biết** khu vực đó. Bạn có thể nhờ ai đó để **đi theo** họ đến đúng nơi, hoặc nhờ họ vẽ một bản đồ đơn giản. Đừng sợ lên tiếng."
+      },
+      {
+        "index": 4,
+        "text_en": "After someone helps you, always **thank** them with a smile. If they say 'you are **welcome**', that means they are happy to help. Good manners make it easier to get help the next time you **need** it.",
+        "text_vi": "Sau khi ai đó giúp bạn, hãy luôn **cảm ơn** họ kèm theo nụ cười. Nếu họ nói 'không có gì — **không có gì**', điều đó có nghĩa là họ vui lòng giúp đỡ. Phép lịch sự giúp bạn dễ dàng nhận được sự giúp đỡ hơn vào lần sau khi bạn **cần**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "please",
+      "ipa": "/pliːz/",
+      "pos": "adverb / interjection",
+      "meaning_vi": "làm ơn, xin",
+      "meaning_vi_inline": "làm ơn",
+      "example_en": "Could you help me find the post office, please?",
+      "example_vi": "Bạn có thể giúp tôi tìm bưu điện được không, làm ơn?",
+      "word_family": {
+        "noun": "pleasure",
+        "verb": "please / pleased",
+        "adjective": "pleased / pleasing",
+        "adverb": "please"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "sorry",
+      "ipa": "/ˈsɒri/",
+      "pos": "adjective / interjection",
+      "meaning_vi": "xin lỗi; tiếc",
+      "meaning_vi_inline": "xin lỗi",
+      "example_en": "Sorry, could you tell me where the nearest bus stop is?",
+      "example_vi": "Xin lỗi, bạn có thể cho tôi biết trạm xe buýt gần nhất ở đâu không?",
+      "word_family": {
+        "noun": "sorrow",
+        "verb": null,
+        "adjective": "sorry",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "excuse",
+      "ipa": "/ɪkˈskjuːz/",
+      "pos": "verb / noun",
+      "meaning_vi": "xin lỗi (để lấy sự chú ý); bỏ qua cho",
+      "meaning_vi_inline": "xin lỗi",
+      "example_en": "Excuse me — do you know how to get to the city centre?",
+      "example_vi": "Xin lỗi — bạn có biết đường đến trung tâm thành phố không?",
+      "word_family": {
+        "noun": "excuse",
+        "verb": "excuse / excused",
+        "adjective": "excusable / inexcusable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "need",
+      "ipa": "/niːd/",
+      "pos": "verb / noun",
+      "meaning_vi": "cần; sự cần thiết",
+      "meaning_vi_inline": "cần",
+      "example_en": "I need some help — I cannot find my hotel.",
+      "example_vi": "Tôi cần giúp đỡ — tôi không tìm được khách sạn của mình.",
+      "word_family": {
+        "noun": "need",
+        "verb": "need / needed",
+        "adjective": "needed / needy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "want",
+      "ipa": "/wɒnt/",
+      "pos": "verb / noun",
+      "meaning_vi": "muốn; sự thiếu thốn",
+      "meaning_vi_inline": "muốn",
+      "example_en": "I want to find a pharmacy — do you know where one is near here?",
+      "example_vi": "Tôi muốn tìm một hiệu thuốc — bạn có biết ở gần đây có không?",
+      "word_family": {
+        "noun": "want",
+        "verb": "want / wanted",
+        "adjective": "wanted / unwanted",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "find",
+      "ipa": "/faɪnd/",
+      "pos": "verb",
+      "meaning_vi": "tìm, tìm thấy",
+      "meaning_vi_inline": "tìm",
+      "example_en": "Can you help me find the correct platform for the train?",
+      "example_vi": "Bạn có thể giúp tôi tìm đúng sân ga cho chuyến tàu không?",
+      "word_family": {
+        "noun": "find / finder",
+        "verb": "find / found",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "show",
+      "ipa": "/ʃəʊ/",
+      "pos": "verb / noun",
+      "meaning_vi": "chỉ, chỉ đường; chương trình",
+      "meaning_vi_inline": "chỉ",
+      "example_en": "Could you show me the way to the nearest supermarket?",
+      "example_vi": "Bạn có thể chỉ đường cho tôi đến siêu thị gần nhất không?",
+      "word_family": {
+        "noun": "show",
+        "verb": "show / showed / shown",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "tell",
+      "ipa": "/tel/",
+      "pos": "verb",
+      "meaning_vi": "nói, nói cho biết, kể",
+      "meaning_vi_inline": "nói cho",
+      "example_en": "Can you tell me which bus I should take to get to the market?",
+      "example_vi": "Bạn có thể nói cho tôi biết tôi nên đi xe buýt nào đến chợ không?",
+      "word_family": {
+        "noun": "teller / tale",
+        "verb": "tell / told",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "know",
+      "ipa": "/nəʊ/",
+      "pos": "verb",
+      "meaning_vi": "biết",
+      "meaning_vi_inline": "biết",
+      "example_en": "I don't know this part of the city — could you help me?",
+      "example_vi": "Tôi không biết khu vực này của thành phố — bạn có thể giúp tôi không?",
+      "word_family": {
+        "noun": "knowledge",
+        "verb": "know / knew / known",
+        "adjective": "known / unknown / knowledgeable",
+        "adverb": "knowingly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "thank",
+      "ipa": "/θæŋk/",
+      "pos": "verb / noun",
+      "meaning_vi": "cảm ơn; lời cảm ơn",
+      "meaning_vi_inline": "cảm ơn",
+      "example_en": "I thanked the woman at the desk for helping me find my way.",
+      "example_vi": "Tôi đã cảm ơn người phụ nữ ở quầy lễ tân vì đã giúp tôi tìm đường.",
+      "word_family": {
+        "noun": "thanks / thankfulness",
+        "verb": "thank / thanked",
+        "adjective": "thankful / thankless",
+        "adverb": "thankfully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "welcome",
+      "ipa": "/ˈwelkəm/",
+      "pos": "adjective / verb / noun",
+      "meaning_vi": "không có gì (you're welcome); chào đón",
+      "meaning_vi_inline": "không có gì",
+      "example_en": "After I said thank you, he smiled and said 'you're welcome'.",
+      "example_vi": "Sau khi tôi cảm ơn, anh ấy mỉm cười và nói 'không có gì'.",
+      "word_family": {
+        "noun": "welcome",
+        "verb": "welcome / welcomed",
+        "adjective": "welcome / unwelcome",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "lost",
+      "ipa": "/lɒst/",
+      "pos": "adjective / verb (past of 'lose')",
+      "meaning_vi": "bị lạc; bị mất",
+      "meaning_vi_inline": "lạc",
+      "example_en": "I got lost on the way to the station and had to ask a local for help.",
+      "example_vi": "Tôi bị lạc trên đường đến ga và phải nhờ người địa phương giúp đỡ.",
+      "word_family": {
+        "noun": "loss",
+        "verb": "lose / lost",
+        "adjective": "lost",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "way",
+      "ipa": "/weɪ/",
+      "pos": "noun",
+      "meaning_vi": "đường, hướng đi; cách",
+      "meaning_vi_inline": "đường",
+      "example_en": "Can you show me the way to the hospital? I am not sure which direction to go.",
+      "example_vi": "Bạn có thể chỉ đường đến bệnh viện cho tôi không? Tôi không chắc đi hướng nào.",
+      "word_family": {
+        "noun": "way",
+        "verb": null,
+        "adjective": null,
+        "adverb": "on the way / this way"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "say again",
+      "ipa": "/seɪ əˈɡen/",
+      "pos": "phrase (verb phrase)",
+      "meaning_vi": "nói lại, nhắc lại",
+      "meaning_vi_inline": "nói lại",
+      "example_en": "Sorry, could you say again? I didn't catch what you said.",
+      "example_vi": "Xin lỗi, bạn có thể nói lại không? Tôi không nghe rõ bạn vừa nói gì.",
+      "word_family": {
+        "noun": null,
+        "verb": "say / said",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "follow",
+      "ipa": "/ˈfɒləʊ/",
+      "pos": "verb",
+      "meaning_vi": "đi theo, làm theo",
+      "meaning_vi_inline": "đi theo",
+      "example_en": "The man told me to follow him and he would take me to the right street.",
+      "example_vi": "Người đàn ông bảo tôi đi theo ông ấy và ông ấy sẽ dẫn tôi đến đúng con đường.",
+      "word_family": {
+        "noun": "follower",
+        "verb": "follow / followed",
+        "adjective": "following",
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "lost" },
+        { "id": 2, "word": "excuse" },
+        { "id": 3, "word": "follow" },
+        { "id": 4, "word": "way" },
+        { "id": 5, "word": "welcome" }
+      ],
+      "options": [
+        { "id": "A", "text": "a polite word used to get someone's attention before asking for help" },
+        { "id": "B", "text": "the direction or route to a place" },
+        { "id": "C", "text": "not knowing where you are or how to get somewhere" },
+        { "id": "D", "text": "a polite reply when someone thanks you, meaning 'I am happy to help'" },
+        { "id": "E", "text": "to walk behind someone or go the same way as them" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ me — could you tell me how to get to the train station?",
+          "options": ["Sorry", "Excuse", "Please", "Thank"],
+          "answer": "Excuse"
+        },
+        {
+          "id": 2,
+          "sentence": "I am completely _____ — I don't recognise any of these streets.",
+          "options": ["welcome", "sorry", "lost", "follow"],
+          "answer": "lost"
+        },
+        {
+          "id": 3,
+          "sentence": "Could you _____ me where the nearest pharmacy is?",
+          "options": ["find", "need", "show", "tell"],
+          "answer": "tell"
+        },
+        {
+          "id": 4,
+          "sentence": "After she helped me, I said thank you and she replied 'You're _____.'",
+          "options": ["sorry", "pleased", "welcome", "kind"],
+          "answer": "welcome"
+        },
+        {
+          "id": 5,
+          "sentence": "I didn't hear you — could you _____, please?",
+          "options": ["say again", "find me", "follow me", "know that"],
+          "answer": "say again"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["please", "need", "find", "show", "follow", "know"],
+      "items": [
+        { "id": 1, "sentence": "I _____ some help — I can't find my hotel.", "answer": "need" },
+        { "id": 2, "sentence": "Could you _____ me the way to the market, please?", "answer": "show" },
+        { "id": 3, "sentence": "I don't _____ this part of the city at all.", "answer": "know" },
+        { "id": 4, "sentence": "He told me to _____ him and he would take me to the right place.", "answer": "follow" },
+        { "id": 5, "sentence": "Could you help me _____ the bus stop near here?", "answer": "find" }
+      ],
+      "note": "One word in the box is not used: please"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ the stranger politely and said she would help him find the hotel. (THANK)",
+          "base_word": "THANK",
+          "answer": "thanked",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher was _____ when we brought her flowers on the last day of school. (PLEASE)",
+          "base_word": "PLEASE",
+          "answer": "pleased",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "We got completely _____ and could not find the exit of the shopping mall. (LOSE)",
+          "base_word": "LOSE",
+          "answer": "lost",
+          "form_used": "adjective (past participle)"
+        },
+        {
+          "id": 4,
+          "sentence": "She has a lot of _____ about local history because she grew up in this town. (KNOW)",
+          "base_word": "KNOW",
+          "answer": "knowledge",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "He has thousands of _____ on social media because he gives useful travel tips. (FOLLOW)",
+          "base_word": "FOLLOW",
+          "answer": "followers",
+          "form_used": "noun (plural)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I am completely [welcome] in this city — I don't know any of the streets.",
+          "highlighted": "welcome",
+          "options": { "A": "lost", "B": "sorry", "C": "welcome" },
+          "answer": "A",
+          "explanation": "'Welcome' means you are happy for someone to be somewhere or it is a polite reply to 'thank you'. The correct word here is 'lost', meaning you do not know where you are."
+        },
+        {
+          "id": 2,
+          "sentence": "Could you [know] me the way to the nearest hospital, please?",
+          "highlighted": "know",
+          "options": { "A": "follow", "B": "need", "C": "show" },
+          "answer": "C",
+          "explanation": "'Know' means to have information about something. You cannot 'know someone the way' — the correct verb is 'show', meaning to lead or point someone in the right direction."
+        },
+        {
+          "id": 3,
+          "sentence": "Sorry, I didn't understand — could you [follow], please?",
+          "highlighted": "follow",
+          "options": { "A": "say again", "B": "tell me", "C": "follow" },
+          "answer": "A",
+          "explanation": "'Follow' means to go behind someone. When you ask someone to repeat what they said because you did not understand, the correct phrase is 'say again'."
+        },
+        {
+          "id": 4,
+          "sentence": "After she helped me, I [wanted] her and she smiled happily.",
+          "highlighted": "wanted",
+          "options": { "A": "excused", "B": "thanked", "C": "wanted" },
+          "answer": "B",
+          "explanation": "'Wanted' means to have a desire for something. When someone helps you and you express gratitude, the correct word is 'thanked', meaning you showed appreciation."
+        },
+        {
+          "id": 5,
+          "sentence": "He said 'You are [sorry]' after I thanked him for giving me directions.",
+          "highlighted": "sorry",
+          "options": { "A": "lost", "B": "sorry", "C": "welcome" },
+          "answer": "C",
+          "explanation": "'Sorry' is used to apologise or to get someone's attention. The correct response to 'thank you' is 'you are welcome', which means you are happy to help."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "A", "3": "E", "4": "B", "5": "D" },
+    "ex2": { "1": "Excuse", "2": "lost", "3": "tell", "4": "welcome", "5": "say again" },
+    "ex3": { "1": "need", "2": "show", "3": "know", "4": "follow", "5": "find" },
+    "ex4": { "1": "thanked", "2": "pleased", "3": "lost", "4": "knowledge", "5": "followers" },
+    "ex5": { "1": "A", "2": "C", "3": "A", "4": "B", "5": "C" }
+  }
+}

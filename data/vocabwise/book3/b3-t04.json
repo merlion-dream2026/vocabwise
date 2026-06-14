@@ -3,97 +3,103 @@
     "book": 3,
     "topic_number": 4,
     "topic_id": "b3-t04",
-    "topic_title": "Environmental Policy & Climate Governance",
+    "topic_title": "Family Structures & Change",
+    "topic_title_vi": "Cấu Trúc Gia Đình & Sự Thay Đổi",
     "theme_number": 1,
-    "theme_title": "Power, Society & Global Affairs",
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
     "cefr_level": "C1-C2",
     "combo": "C1",
-    "emoji": "🌿",
-    "topic_title_vi": "Chính Sách Môi Trường & Khí Hậu",
-    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "emoji": "👨‍👩‍👧‍👦",
     "status": "qa_pass",
     "qa": {
       "passage": "pass",
       "glossary": "pass",
       "exercises": "pass",
       "answer_key": "pass",
-      "last_checked": "2026-06-12"
+      "last_checked": "2026-06-14"
     }
   },
   "passage": {
-    "word_count": 234,
+    "word_count": 219,
     "paragraphs": [
       {
         "index": 1,
-        "text_en": "The scientific community now overwhelmingly agrees that **anthropogenic** climate change — driven primarily by the burning of fossil fuels — poses one of the gravest threats to human civilisation. Rising greenhouse gas **emissions** have already pushed global temperatures above 1°C above pre-industrial levels. Without urgent action, the critical **threshold** of 1.5°C, identified by the IPCC as a tipping point for irreversible impacts, may be crossed within decades.",
-        "text_vi": "Cộng đồng khoa học hiện nay gần như đồng thuận rằng biến đổi khí hậu **do con người gây ra** — chủ yếu do đốt nhiên liệu hóa thạch — là một trong những mối đe dọa nghiêm trọng nhất đối với nền văn minh nhân loại. **Khí thải** nhà kính gia tăng đã đẩy nhiệt độ toàn cầu lên hơn 1°C so với mức tiền công nghiệp. Nếu không có hành động khẩn cấp, **ngưỡng** quan trọng 1,5°C — được IPCC xác định là điểm tới hạn dẫn đến các tác động không thể đảo ngược — có thể bị vượt qua trong vài thập kỷ tới."
+        "text_en": "The concept of the **nuclear** family — two parents and their children living in a single household — has long been regarded as the dominant social unit in many Western societies. However, contemporary research reveals that family life is far more diverse. From multi-generational **extended** households to single-parent homes and **cohabitation** arrangements, the ways in which people organise domestic life continue to evolve as societies **adapt to changing social norms**.",
+        "text_vi": "Khái niệm gia đình **hạt nhân** — hai cha mẹ và con cái sống trong một hộ gia đình — từ lâu được coi là đơn vị xã hội chủ đạo ở nhiều xã hội phương Tây. Tuy nhiên, nghiên cứu đương đại cho thấy cuộc sống gia đình phong phú hơn nhiều. Từ hộ gia đình **mở rộng** nhiều thế hệ đến gia đình đơn thân và các sắp xếp **chung sống**, cách mọi người tổ chức cuộc sống gia đình tiếp tục thay đổi khi xã hội **thích nghi với các chuẩn mực xã hội đang thay đổi**."
       },
       {
         "index": 2,
-        "text_en": "**Mitigation** — reducing the causes of climate change — requires a rapid transition to **renewable** energy sources such as solar and wind power. Halting **deforestation** is equally vital, as forests absorb vast quantities of **carbon** dioxide and support **biodiversity** by providing habitat for countless species. Preserving these **ecosystems** is integral to any credible **sustainability** strategy.",
-        "text_vi": "**Giảm thiểu** — giảm nguyên nhân của biến đổi khí hậu — đòi hỏi quá trình chuyển đổi nhanh sang các nguồn năng lượng **tái tạo** như năng lượng mặt trời và gió. Ngăn chặn **nạn phá rừng** cũng quan trọng không kém, vì rừng hấp thụ lượng lớn khí **carbon** dioxide và hỗ trợ **đa dạng sinh học** bằng cách cung cấp môi trường sống cho vô số loài. Bảo tồn các **hệ sinh thái** này là không thể thiếu trong bất kỳ chiến lược **bền vững** nào đáng tin cậy."
+        "text_en": "When marriages or partnerships dissolve, issues of **custody**, **obligation**, and **kinship** become deeply contested. Courts must balance the rights and **parenting** responsibilities of each adult against the best interests of the child. For many children, this process is complicated further by **dysfunction** within the household — whether caused by conflict, substance abuse, or economic hardship — making it harder to **fulfil parental obligations** in a stable and consistent manner.",
+        "text_vi": "Khi các cuộc hôn nhân hoặc quan hệ đối tác tan vỡ, các vấn đề về **quyền nuôi con**, **nghĩa vụ**, và **quan hệ họ hàng** trở nên tranh chấp gay gắt. Tòa án phải cân bằng giữa quyền lợi và trách nhiệm **làm cha mẹ** của mỗi người lớn với lợi ích tốt nhất của trẻ. Với nhiều đứa trẻ, quá trình này càng phức tạp hơn do **rối loạn chức năng** trong hộ gia đình — dù do xung đột, lạm dụng chất kích thích hay khó khăn kinh tế — khiến việc **thực hiện các nghĩa vụ làm cha mẹ** một cách ổn định và nhất quán trở nên khó khăn hơn."
       },
       {
         "index": 3,
-        "text_en": "Alongside mitigation, **adaptation** measures are essential, as some degree of climate change is now inevitable. Coastal communities face rising sea levels; farmers must adjust to shifting rainfall patterns; and entire **ecosystems** face collapse unless carefully managed. The loss of **biodiversity** — as species struggle to keep pace with environmental changes — represents an irreversible and incalculable cost.",
-        "text_vi": "Song song với giảm thiểu, các biện pháp **thích nghi** là không thể thiếu vì một mức độ biến đổi khí hậu nào đó là điều không thể tránh khỏi. Các cộng đồng ven biển đối mặt với mực nước biển dâng; nông dân phải điều chỉnh theo sự thay đổi của lượng mưa; và toàn bộ **hệ sinh thái** có nguy cơ sụp đổ nếu không được quản lý cẩn thận. Sự mất mát **đa dạng sinh học** — khi các loài không theo kịp những biến đổi môi trường — là một chi phí không thể đảo ngược và không thể tính hết."
+        "text_en": "The rise of **reconstituted** families — households formed when separated parents form new partnerships — requires all members to **navigate custody arrangements** with sensitivity and patience. Children may find themselves moving between households, acquiring new step-parents and step-siblings. While such arrangements can enrich a child's social world, they also risk producing a sense of **fragmentation** — a feeling that one's identity is split across multiple, sometimes conflicting, family units.",
+        "text_vi": "Sự gia tăng của gia đình **tái lập** — hộ gia đình được hình thành khi cha mẹ đã ly hôn tạo nên các mối quan hệ đối tác mới — đòi hỏi tất cả các thành viên phải **giải quyết các thỏa thuận quyền nuôi con** bằng sự nhạy cảm và kiên nhẫn. Trẻ em có thể thấy mình di chuyển giữa các hộ gia đình, có thêm cha dượng, mẹ kế và anh chị em kế. Trong khi các sắp xếp như vậy có thể làm phong phú thêm thế giới xã hội của trẻ, chúng cũng có nguy cơ tạo ra cảm giác **phân mảnh** — cảm giác rằng bản sắc của mình bị chia nhỏ giữa nhiều đơn vị gia đình đôi khi mâu thuẫn nhau."
       },
       {
         "index": 4,
-        "text_en": "Effective climate **governance** requires nations to **ratify** and honour international agreements, maintain **compliance** with emission targets, and create meaningful **incentives** for private-sector investment in clean technology. Without this combination, even the most ambitious policies will fail to alter the current warming **trajectory**.",
-        "text_vi": "Quản trị khí hậu hiệu quả đòi hỏi các quốc gia **phê chuẩn** và tôn trọng các thỏa thuận quốc tế, duy trì **sự tuân thủ** các mục tiêu phát thải, và tạo ra những **ưu đãi** có ý nghĩa cho đầu tư tư nhân vào công nghệ sạch. Nếu thiếu sự kết hợp này, ngay cả những chính sách tham vọng nhất cũng sẽ không thể thay đổi **quỹ đạo** nóng lên hiện tại."
+        "text_en": "Sociologists argue that rather than lamenting the decline of the traditional **nuclear** family, societies should **redefine family structures** to reflect lived realities. Strong **kinship** networks — biological or chosen — provide resilience and support regardless of their formal configuration. The key indicator of a healthy family is not its structure, but its capacity to **cope with family dysfunction** when it arises and to offer its members stability, belonging, and love.",
+        "text_vi": "Các nhà xã hội học cho rằng thay vì than thở về sự suy giảm của gia đình **hạt nhân** truyền thống, các xã hội nên **định nghĩa lại cấu trúc gia đình** để phản ánh thực tế cuộc sống. Các mạng lưới **quan hệ họ hàng** bền chặt — dù ruột thịt hay tự chọn — cung cấp sức đề kháng và hỗ trợ bất kể hình thức chính thức của chúng. Chỉ số quan trọng của một gia đình lành mạnh không phải là cấu trúc của nó, mà là khả năng **đối phó với rối loạn chức năng gia đình** khi nó xảy ra và cung cấp cho các thành viên sự ổn định, cảm giác thuộc về, và tình yêu."
       }
     ]
   },
   "glossary": [
     {
       "id": 1,
-      "word": "anthropogenic",
-      "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/",
+      "word": "nuclear",
+      "ipa": "/ˈnjuː.kli.ər/",
       "pos": "adjective",
-      "meaning_vi": "do con người tạo ra, do hoạt động của con người",
-      "meaning_vi_inline": "do con người gây ra",
-      "example_en": "Scientists attribute most current warming to anthropogenic causes.",
-      "example_vi": "Các nhà khoa học cho rằng phần lớn sự nóng lên hiện nay là do con người gây ra.",
+      "meaning_vi": "hạt nhân (gia đình); thuộc hạt nhân",
+      "meaning_vi_inline": "hạt nhân",
+      "example_en": "The nuclear family model has become less dominant in recent decades.",
+      "example_vi": "Mô hình gia đình hạt nhân đã trở nên kém phổ biến hơn trong những thập kỷ gần đây.",
       "word_family": {
-        "noun": "anthropology / anthropologist",
+        "noun": "nucleus",
         "verb": null,
-        "adjective": "anthropogenic",
+        "adjective": "nuclear",
         "adverb": null
       },
-      "false_friend": null,
-      "receptive_productive": "R"
+      "false_friend": {
+        "word_vi": "unclear",
+        "explanation_vi": "'Nuclear' (hạt nhân) và 'unclear' (không rõ ràng) — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
     },
     {
       "id": 2,
-      "word": "emissions",
-      "ipa": "/ɪˈmɪʃ.ənz/",
-      "pos": "noun (plural)",
-      "meaning_vi": "khí thải",
-      "meaning_vi_inline": "khí thải",
-      "example_en": "Carbon emissions from transport are a major cause of climate change.",
-      "example_vi": "Khí thải carbon từ giao thông là nguyên nhân chính gây ra biến đổi khí hậu.",
+      "word": "extended",
+      "ipa": "/ɪkˈsten.dɪd/",
+      "pos": "adjective",
+      "meaning_vi": "mở rộng, đại gia đình",
+      "meaning_vi_inline": "mở rộng",
+      "example_en": "Many Vietnamese families live in extended households with grandparents.",
+      "example_vi": "Nhiều gia đình Việt Nam sống trong hộ gia đình mở rộng có ông bà.",
       "word_family": {
-        "noun": "emission / emissions",
-        "verb": "emit",
-        "adjective": null,
-        "adverb": null
+        "noun": "extension",
+        "verb": "extend",
+        "adjective": "extended / extensive",
+        "adverb": "extensively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word_vi": "extensive",
+        "explanation_vi": "'Extended family' là đại gia đình nhiều thế hệ; 'extensive' có nghĩa là rộng lớn, bao quát — không dùng thay thế cho nhau."
+      },
       "receptive_productive": "P"
     },
     {
       "id": 3,
-      "word": "threshold",
-      "ipa": "/ˈθreʃ.hoʊld/",
+      "word": "cohabitation",
+      "ipa": "/ˌkəʊ.hæb.ɪˈteɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "ngưỡng giới hạn",
-      "meaning_vi_inline": "ngưỡng",
-      "example_en": "Scientists warn the 1.5°C threshold must not be exceeded.",
-      "example_vi": "Các nhà khoa học cảnh báo không được vượt ngưỡng 1,5°C.",
+      "meaning_vi": "sự chung sống (không kết hôn)",
+      "meaning_vi_inline": "sự chung sống",
+      "example_en": "Cohabitation before marriage is increasingly common among young adults.",
+      "example_vi": "Việc chung sống trước hôn nhân ngày càng phổ biến trong giới trẻ.",
       "word_family": {
-        "noun": "threshold",
-        "verb": null,
+        "noun": "cohabitation",
+        "verb": "cohabit",
         "adjective": null,
         "adverb": null
       },
@@ -102,53 +108,56 @@
     },
     {
       "id": 4,
-      "word": "mitigation",
-      "ipa": "/ˌmɪt.ɪˈɡeɪ.ʃən/",
+      "word": "custody",
+      "ipa": "/ˈkʌs.tə.di/",
       "pos": "noun",
-      "meaning_vi": "giảm thiểu (tác động)",
-      "meaning_vi_inline": "giảm thiểu",
-      "example_en": "Climate mitigation involves reducing greenhouse gas emissions.",
-      "example_vi": "Giảm thiểu biến đổi khí hậu bao gồm việc cắt giảm khí thải nhà kính.",
+      "meaning_vi": "quyền nuôi con; sự giam giữ",
+      "meaning_vi_inline": "quyền nuôi con",
+      "example_en": "The court awarded joint custody to both parents after the divorce.",
+      "example_vi": "Tòa án trao quyền nuôi con chung cho cả hai cha mẹ sau khi ly hôn.",
       "word_family": {
-        "noun": "mitigation",
-        "verb": "mitigate",
-        "adjective": "mitigating",
+        "noun": "custody / custodian",
+        "verb": null,
+        "adjective": "custodial",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "custom",
+        "explanation_vi": "'Custody' là quyền nuôi con hoặc sự giam giữ; 'custom' là tập tục hoặc hải quan — phát âm tương tự nhưng hoàn toàn khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "dysfunction",
+      "ipa": "/dɪsˈfʌŋk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự rối loạn chức năng, sự hoạt động không lành mạnh",
+      "meaning_vi_inline": "rối loạn chức năng",
+      "example_en": "Family dysfunction often has long-term effects on children's mental health.",
+      "example_vi": "Rối loạn chức năng gia đình thường có tác động lâu dài đến sức khỏe tâm thần của trẻ em.",
+      "word_family": {
+        "noun": "dysfunction",
+        "verb": null,
+        "adjective": "dysfunctional",
         "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
-      "id": 5,
-      "word": "renewable",
-      "ipa": "/rɪˈnjuː.ə.bəl/",
-      "pos": "adjective",
-      "meaning_vi": "có thể tái tạo (năng lượng)",
-      "meaning_vi_inline": "tái tạo",
-      "example_en": "Solar and wind are the fastest-growing renewable energy sources.",
-      "example_vi": "Năng lượng mặt trời và gió là các nguồn năng lượng tái tạo tăng trưởng nhanh nhất.",
-      "word_family": {
-        "noun": "renewal",
-        "verb": "renew",
-        "adjective": "renewable / renewed",
-        "adverb": "renewably"
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
       "id": 6,
-      "word": "deforestation",
-      "ipa": "/diːˌfɒr.ɪˈsteɪ.ʃən/",
+      "word": "kinship",
+      "ipa": "/ˈkɪn.ʃɪp/",
       "pos": "noun",
-      "meaning_vi": "nạn phá rừng",
-      "meaning_vi_inline": "phá rừng",
-      "example_en": "Deforestation in the Amazon threatens global climate stability.",
-      "example_vi": "Nạn phá rừng ở Amazon đe dọa sự ổn định khí hậu toàn cầu.",
+      "meaning_vi": "quan hệ họ hàng, mối liên kết thân tộc",
+      "meaning_vi_inline": "quan hệ họ hàng",
+      "example_en": "Kinship networks provide emotional and financial support in times of crisis.",
+      "example_vi": "Mạng lưới quan hệ họ hàng cung cấp sự hỗ trợ về cảm xúc và tài chính trong thời điểm khó khăn.",
       "word_family": {
-        "noun": "deforestation / forest",
-        "verb": "deforest",
-        "adjective": "deforested",
+        "noun": "kinship / kin",
+        "verb": null,
+        "adjective": null,
         "adverb": null
       },
       "false_friend": null,
@@ -156,71 +165,74 @@
     },
     {
       "id": 7,
-      "word": "biodiversity",
-      "ipa": "/ˌbaɪ.oʊ.daɪˈvɜː.sɪ.ti/",
+      "word": "obligation",
+      "ipa": "/ˌɒb.lɪˈɡeɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "đa dạng sinh học",
-      "meaning_vi_inline": "đa dạng sinh học",
-      "example_en": "Biodiversity loss threatens the stability of entire ecosystems.",
-      "example_vi": "Sự mất mát đa dạng sinh học đe dọa sự ổn định của toàn bộ hệ sinh thái.",
+      "meaning_vi": "nghĩa vụ, trách nhiệm bắt buộc",
+      "meaning_vi_inline": "nghĩa vụ",
+      "example_en": "Parents have a legal and moral obligation to provide for their children.",
+      "example_vi": "Cha mẹ có nghĩa vụ pháp lý và đạo đức phải cung cấp cho con cái.",
       "word_family": {
-        "noun": "biodiversity / diversity",
-        "verb": null,
-        "adjective": "biodiverse / diverse",
+        "noun": "obligation",
+        "verb": "oblige",
+        "adjective": "obligatory / obliged",
+        "adverb": "obligatorily"
+      },
+      "false_friend": {
+        "word_vi": "option",
+        "explanation_vi": "'Obligation' là điều bắt buộc phải làm; 'option' là lựa chọn tự nguyện — hai từ mang nghĩa đối lập nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "reconstituted",
+      "ipa": "/ˌriːˈkɒn.stɪ.tjuːtɪd/",
+      "pos": "adjective",
+      "meaning_vi": "tái lập, được tổ chức lại (gia đình)",
+      "meaning_vi_inline": "tái lập",
+      "example_en": "Reconstituted families must navigate complex dynamics involving step-parents and step-children.",
+      "example_vi": "Các gia đình tái lập phải điều hướng các mối quan hệ phức tạp liên quan đến cha mẹ kế và con riêng.",
+      "word_family": {
+        "noun": "reconstitution",
+        "verb": "reconstitute",
+        "adjective": "reconstituted",
         "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
-      "id": 8,
-      "word": "ecosystem",
-      "ipa": "/ˈiː.kəʊ.sɪs.təm/",
-      "pos": "noun",
-      "meaning_vi": "hệ sinh thái",
-      "meaning_vi_inline": "hệ sinh thái",
-      "example_en": "Coral reefs are among the most fragile ecosystems on Earth.",
-      "example_vi": "Rạn san hô là một trong những hệ sinh thái dễ bị tổn thương nhất trên Trái Đất.",
-      "word_family": {
-        "noun": "ecosystem / ecology",
-        "verb": null,
-        "adjective": "ecological",
-        "adverb": "ecologically"
-      },
-      "false_friend": null,
-      "receptive_productive": "P"
-    },
-    {
       "id": 9,
-      "word": "sustainability",
-      "ipa": "/səˌsteɪ.nəˈbɪl.ɪ.ti/",
+      "word": "parenting",
+      "ipa": "/ˈpeər.ən.tɪŋ/",
       "pos": "noun",
-      "meaning_vi": "tính bền vững",
-      "meaning_vi_inline": "bền vững",
-      "example_en": "Corporate sustainability reports are now required by many governments.",
-      "example_vi": "Báo cáo phát triển bền vững của doanh nghiệp hiện được nhiều chính phủ yêu cầu.",
+      "meaning_vi": "việc làm cha mẹ, phương pháp nuôi dạy con",
+      "meaning_vi_inline": "làm cha mẹ",
+      "example_en": "Shared parenting requires cooperation and clear communication between ex-partners.",
+      "example_vi": "Việc làm cha mẹ chung đòi hỏi sự hợp tác và giao tiếp rõ ràng giữa các đối tác cũ.",
       "word_family": {
-        "noun": "sustainability",
-        "verb": "sustain",
-        "adjective": "sustainable / sustained",
-        "adverb": "sustainably"
+        "noun": "parenting / parent",
+        "verb": "parent",
+        "adjective": "parental",
+        "adverb": "parentally"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 10,
-      "word": "adaptation",
-      "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+      "word": "fragmentation",
+      "ipa": "/ˌfræɡ.mənˈteɪ.ʃən/",
       "pos": "noun",
-      "meaning_vi": "sự thích nghi",
-      "meaning_vi_inline": "thích nghi",
-      "example_en": "Climate adaptation includes building sea walls and drought-resistant crops.",
-      "example_vi": "Thích nghi với khí hậu bao gồm xây đê biển và phát triển giống cây chịu hạn.",
+      "meaning_vi": "sự phân mảnh, sự chia nhỏ",
+      "meaning_vi_inline": "sự phân mảnh",
+      "example_en": "The fragmentation of the family unit can cause lasting psychological harm.",
+      "example_vi": "Sự phân mảnh của đơn vị gia đình có thể gây ra tổn hại tâm lý lâu dài.",
       "word_family": {
-        "noun": "adaptation / adaptability",
-        "verb": "adapt",
-        "adjective": "adaptive / adaptable",
+        "noun": "fragmentation / fragment",
+        "verb": "fragment",
+        "adjective": "fragmented",
         "adverb": null
       },
       "false_friend": null,
@@ -228,92 +240,47 @@
     },
     {
       "id": 11,
-      "word": "carbon",
-      "ipa": "/ˈkɑː.bən/",
-      "pos": "noun",
-      "meaning_vi": "carbon",
-      "meaning_vi_inline": "carbon",
-      "example_en": "Reducing carbon emissions is central to every climate strategy.",
-      "example_vi": "Giảm lượng khí thải carbon là trọng tâm của mọi chiến lược ứng phó biến đổi khí hậu.",
-      "word_family": {
-        "noun": "carbon",
-        "verb": "decarbonise",
-        "adjective": "carbon-neutral / low-carbon",
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "redefine family structures",
+      "meaning_vi": "định nghĩa lại cấu trúc gia đình",
+      "example_en": "Changing demographics are forcing societies to redefine family structures.",
+      "example_vi": "Sự thay đổi nhân khẩu học đang buộc các xã hội phải định nghĩa lại cấu trúc gia đình.",
       "receptive_productive": "P"
     },
     {
       "id": 12,
-      "word": "compliance",
-      "ipa": "/kəmˈplaɪ.əns/",
-      "pos": "noun",
-      "meaning_vi": "sự tuân thủ",
-      "meaning_vi_inline": "tuân thủ",
-      "example_en": "Non-compliance with emission targets can trigger international penalties.",
-      "example_vi": "Không tuân thủ các mục tiêu phát thải có thể dẫn đến các hình phạt quốc tế.",
-      "word_family": {
-        "noun": "compliance",
-        "verb": "comply",
-        "adjective": "compliant",
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "navigate custody arrangements",
+      "meaning_vi": "giải quyết / xử lý các thỏa thuận quyền nuôi con",
+      "example_en": "Mediators help separating couples navigate custody arrangements amicably.",
+      "example_vi": "Các hòa giải viên giúp các cặp đôi ly hôn giải quyết các thỏa thuận quyền nuôi con một cách thân thiện.",
       "receptive_productive": "P"
     },
     {
       "id": 13,
-      "word": "incentive",
-      "ipa": "/ɪnˈsen.tɪv/",
-      "pos": "noun",
-      "meaning_vi": "ưu đãi, biện pháp khuyến khích",
-      "meaning_vi_inline": "ưu đãi",
-      "example_en": "Tax incentives encourage businesses to invest in green technology.",
-      "example_vi": "Ưu đãi thuế khuyến khích doanh nghiệp đầu tư vào công nghệ xanh.",
-      "word_family": {
-        "noun": "incentive",
-        "verb": "incentivise",
-        "adjective": "incentivised",
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "fulfil parental obligations",
+      "meaning_vi": "thực hiện các nghĩa vụ làm cha mẹ",
+      "example_en": "Both parents are expected to fulfil parental obligations regardless of their relationship status.",
+      "example_vi": "Cả hai cha mẹ đều được kỳ vọng thực hiện các nghĩa vụ làm cha mẹ bất kể tình trạng quan hệ của họ.",
       "receptive_productive": "P"
     },
     {
       "id": 14,
-      "word": "ratify",
-      "ipa": "/ˈræt.ɪ.faɪ/",
-      "pos": "verb",
-      "meaning_vi": "phê chuẩn (hiệp ước, thỏa thuận)",
-      "meaning_vi_inline": "phê chuẩn",
-      "example_en": "Over 190 countries ratified the Paris Agreement on climate change.",
-      "example_vi": "Hơn 190 quốc gia đã phê chuẩn Hiệp định Paris về biến đổi khí hậu.",
-      "word_family": {
-        "noun": "ratification",
-        "verb": "ratify",
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "cope with family dysfunction",
+      "meaning_vi": "đối phó với rối loạn chức năng gia đình",
+      "example_en": "Counselling services help children cope with family dysfunction in constructive ways.",
+      "example_vi": "Các dịch vụ tư vấn giúp trẻ em đối phó với rối loạn chức năng gia đình theo cách xây dựng.",
       "receptive_productive": "P"
     },
     {
       "id": 15,
-      "word": "trajectory",
-      "ipa": "/trəˈdʒek.tər.i/",
-      "pos": "noun",
-      "meaning_vi": "quỹ đạo, xu hướng phát triển",
-      "meaning_vi_inline": "quỹ đạo / xu hướng",
-      "example_en": "Current policies will not alter the warming trajectory significantly.",
-      "example_vi": "Các chính sách hiện tại sẽ không thay đổi đáng kể xu hướng nóng lên toàn cầu.",
-      "word_family": {
-        "noun": "trajectory",
-        "verb": null,
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "adapt to changing social norms",
+      "meaning_vi": "thích nghi với các chuẩn mực xã hội đang thay đổi",
+      "example_en": "Institutions must adapt to changing social norms around family and gender roles.",
+      "example_vi": "Các tổ chức phải thích nghi với các chuẩn mực xã hội đang thay đổi xung quanh gia đình và vai trò giới.",
       "receptive_productive": "P"
     }
   ],
@@ -325,27 +292,27 @@
       "items": [
         {
           "id": 1,
-          "statement": "Anthropogenic climate change is primarily caused by the burning of fossil fuels.",
+          "statement": "The nuclear family has traditionally been seen as the dominant social unit in many Western societies.",
           "answer": "True"
         },
         {
           "id": 2,
-          "statement": "The 1.5°C threshold was agreed upon at the 2015 Paris Agreement.",
+          "statement": "Research proves that children in extended families perform better academically than those in nuclear families.",
           "answer": "Not Given"
         },
         {
           "id": 3,
-          "statement": "Halting deforestation helps mitigate climate change by preserving carbon-absorbing forests.",
+          "statement": "Reconstituted families are formed when separated parents enter new partnerships.",
           "answer": "True"
         },
         {
           "id": 4,
-          "statement": "All coastal communities have already introduced effective adaptation measures.",
-          "answer": "Not Given"
+          "statement": "The passage argues that family dysfunction is caused primarily by financial hardship.",
+          "answer": "False"
         },
         {
           "id": 5,
-          "statement": "Private-sector investment in clean technology is considered important for climate action.",
+          "statement": "According to the passage, the health of a family is determined more by its functioning than its structure.",
           "answer": "True"
         }
       ]
@@ -356,96 +323,97 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Climate _____ involves reducing greenhouse gas emissions to slow global warming.",
+          "sentence": "After the divorce, the court granted shared _____ so both parents could raise their son.",
           "options": [
-            "adaptation",
-            "mitigation",
-            "compliance",
-            "deforestation"
+            "kinship",
+            "custody",
+            "obligation",
+            "parenting"
           ],
-          "answer": "mitigation"
+          "answer": "custody"
         },
         {
           "id": 2,
-          "sentence": "Solar and wind power are the most important _____ energy sources for a low-carbon future.",
+          "sentence": "The _____ of the family into separate households caused the children significant distress.",
           "options": [
-            "anthropogenic",
-            "sustainable",
-            "renewable",
-            "compliant"
+            "cohabitation",
+            "dysfunction",
+            "fragmentation",
+            "obligation"
           ],
-          "answer": "renewable"
+          "answer": "fragmentation"
         },
         {
           "id": 3,
-          "sentence": "Scientists have identified 1.5°C as a critical _____ beyond which climate impacts become irreversible.",
+          "sentence": "In many cultures, _____ networks — not just immediate family — provide crucial emotional support.",
           "options": [
-            "trajectory",
-            "threshold",
-            "incentive",
-            "emission"
+            "nuclear",
+            "cohabitation",
+            "kinship",
+            "reconstituted"
           ],
-          "answer": "threshold"
+          "answer": "kinship"
         },
         {
           "id": 4,
-          "sentence": "Nations must _____ international climate agreements before they are legally bound by them.",
+          "sentence": "A _____ family typically consists of parents, step-parents, and children from different previous partnerships.",
           "options": [
-            "mitigate",
-            "adapt",
-            "ratify",
-            "comply"
+            "extended",
+            "nuclear",
+            "reconstituted",
+            "dysfunctional"
           ],
-          "answer": "ratify"
+          "answer": "reconstituted"
         },
         {
           "id": 5,
-          "sentence": "Financial _____ for green investment can accelerate the transition to clean energy.",
+          "sentence": "Chronic conflict and substance abuse are common causes of _____ in family environments.",
           "options": [
-            "compliance",
-            "thresholds",
-            "incentives",
-            "trajectories"
+            "parenting",
+            "fragmentation",
+            "cohabitation",
+            "dysfunction"
           ],
-          "answer": "incentives"
+          "answer": "dysfunction"
         }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
-      "instruction": "Fill in the blanks with the correct word from the box.",
+      "instruction": "Fill in the blanks with the correct word from the box. One word is not used.",
       "word_bank": [
-        "adaptation",
-        "ecosystem",
-        "trajectory",
-        "carbon",
-        "biodiversity"
+        "nuclear",
+        "obligation",
+        "cohabitation",
+        "parenting",
+        "extended",
+        "fragmentation"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "Solar and wind energy generate electricity with minimal _____ emissions.",
-          "answer": "carbon"
+          "sentence": "Many couples choose _____ before marriage to test their compatibility as life partners.",
+          "answer": "cohabitation"
         },
         {
           "id": 2,
-          "sentence": "The tropical rainforest _____ supports more species than any other habitat on Earth.",
-          "answer": "ecosystem"
+          "sentence": "Effective _____ requires patience, consistency, and a willingness to listen to your children.",
+          "answer": "parenting"
         },
         {
           "id": 3,
-          "sentence": "Loss of _____ — the variety of life on Earth — weakens ecosystems and reduces their resilience.",
-          "answer": "biodiversity"
+          "sentence": "Parents have a moral _____ to ensure their children are safe, healthy, and educated.",
+          "answer": "obligation"
         },
         {
           "id": 4,
-          "sentence": "_____ to rising sea levels requires significant investment in coastal infrastructure.",
-          "answer": "adaptation"
+          "sentence": "The rapid _____ of communities has weakened the social bonds that once kept neighbourhoods together.",
+          "answer": "fragmentation"
         },
         {
           "id": 5,
-          "sentence": "Current emission levels put the world on a warming _____ that exceeds the 1.5°C target.",
-          "answer": "trajectory"
+          "sentence": "In the traditional _____ family model, both parents and their children live under one roof.",
+          "answer": "nuclear"
         }
       ]
     },
@@ -456,145 +424,139 @@
         {
           "id": 1,
           "words": [
-            "anthropogenic",
-            "climate",
-            "change",
-            "is",
-            "driven",
-            "by",
+            "custody",
+            "awarded",
             "the",
-            "burning",
-            "of",
-            "fossil",
-            "fuels"
+            "court",
+            "both",
+            "to",
+            "parents",
+            "joint"
           ],
-          "answer": "Anthropogenic climate change is driven by the burning of fossil fuels."
+          "answer": "The court awarded joint custody to both parents."
         },
         {
           "id": 2,
           "words": [
-            "halting",
-            "deforestation",
-            "is",
-            "essential",
-            "to",
-            "reducing",
-            "carbon",
-            "emissions"
+            "kinship",
+            "in",
+            "strong",
+            "networks",
+            "provide",
+            "resilience",
+            "times",
+            "of",
+            "crisis"
           ],
-          "answer": "Halting deforestation is essential to reducing carbon emissions."
+          "answer": "Strong kinship networks provide resilience in times of crisis."
         },
         {
           "id": 3,
           "words": [
-            "nations",
-            "must",
-            "ratify",
-            "and",
-            "honour",
-            "international",
-            "climate",
-            "agreements"
+            "fragmentation",
+            "of",
+            "the",
+            "family",
+            "children",
+            "distress",
+            "can",
+            "cause"
           ],
-          "answer": "Nations must ratify and honour international climate agreements."
+          "answer": "The fragmentation of the family can cause children distress."
         },
         {
           "id": 4,
           "words": [
-            "financial",
-            "incentives",
-            "can",
-            "encourage",
-            "private",
-            "sector",
-            "investment",
-            "in",
-            "green",
-            "technology"
+            "norms",
+            "family",
+            "to",
+            "changing",
+            "structures",
+            "adapt",
+            "social",
+            "must"
           ],
-          "answer": "Financial incentives can encourage private sector investment in green technology."
+          "answer": "Family structures must adapt to changing social norms."
         },
         {
           "id": 5,
           "words": [
-            "compliance",
-            "with",
-            "emission",
-            "targets",
-            "is",
-            "essential",
-            "for",
-            "effective",
-            "climate",
-            "governance"
+            "parental",
+            "both",
+            "are",
+            "obligations",
+            "to",
+            "parents",
+            "fulfil",
+            "expected"
           ],
-          "answer": "Compliance with emission targets is essential for effective climate governance."
+          "answer": "Both parents are expected to fulfil parental obligations."
         }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
-      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "instruction": "Each sentence has one word in brackets that is wrong. Choose the correct replacement.",
       "items": [
         {
           "id": 1,
-          "sentence": "The government introduced a new [incentive's] scheme to promote the adoption of solar energy.",
-          "highlighted": "incentive's",
+          "sentence": "The [obligate] to support one's children is both legal and moral.",
+          "highlighted": "obligate",
           "options": {
-            "A": "incentive's",
-            "B": "incentive",
-            "C": "incentivised"
+            "A": "obligatory",
+            "B": "obligation",
+            "C": "obliged"
           },
           "answer": "B",
-          "explanation": "'Incentive' is a noun modifying 'scheme' — no possessive apostrophe is needed."
+          "explanation": "A noun is required as the grammatical subject — 'obligation', not the verb 'obligate'."
         },
         {
           "id": 2,
-          "sentence": "Scientists warn that the 1.5°C [thresholds] for irreversible climate damage could be crossed soon.",
-          "highlighted": "thresholds",
+          "sentence": "Living in an [extend] family means sharing resources across multiple generations.",
+          "highlighted": "extend",
           "options": {
-            "A": "thresholds",
-            "B": "threshold",
-            "C": "thresholding"
+            "A": "extension",
+            "B": "extensive",
+            "C": "extended"
           },
-          "answer": "B",
-          "explanation": "The passage refers to one specific '1.5°C threshold' (singular) — using the plural 'thresholds' is incorrect here."
+          "answer": "C",
+          "explanation": "An adjective is needed to modify 'family' — 'extended', not the verb 'extend'."
         },
         {
           "id": 3,
-          "sentence": "Halting [deforestation's] in the Amazon is critical for maintaining the global carbon cycle.",
-          "highlighted": "deforestation's",
+          "sentence": "The [dysfunctional's] within the household made it difficult for the children to thrive.",
+          "highlighted": "dysfunctional's",
           "options": {
-            "A": "deforestation's",
-            "B": "deforestation",
-            "C": "deforesting"
+            "A": "dysfunction",
+            "B": "dysfunctional",
+            "C": "dysfunctioning"
           },
-          "answer": "B",
-          "explanation": "'Deforestation' is the direct object of 'halting' — no possessive apostrophe is needed."
+          "answer": "A",
+          "explanation": "A noun is required as the subject — 'dysfunction', not the possessive adjective 'dysfunctional's'."
         },
         {
           "id": 4,
-          "sentence": "Solar power is now one of the most cost-effective [renew] energy technologies available.",
-          "highlighted": "renew",
+          "sentence": "After separating, the couple agreed to [reconstitute] their parenting arrangements cooperatively.",
+          "highlighted": "reconstitute",
           "options": {
-            "A": "renewable",
-            "B": "renew",
-            "C": "renewed"
+            "A": "reconstituted",
+            "B": "reconstitution",
+            "C": "reconstituting"
           },
-          "answer": "C",
-          "explanation": "'Renewable' is the adjective form meaning 'naturally replenishable' — 'renew' is a verb and cannot modify a noun."
+          "answer": "A",
+          "explanation": "The sentence needs the infinitive or past form — 'reconstituted' fits better here as an adjective modifying 'parenting arrangements', describing a new arrangement already formed."
         },
         {
           "id": 5,
-          "sentence": "Nations that fail to [complied] with emission targets risk international penalties.",
-          "highlighted": "complied",
+          "sentence": "The [fragment] of society into isolated individuals is a major challenge for modern governments.",
+          "highlighted": "fragment",
           "options": {
-            "A": "comply",
-            "B": "complied",
-            "C": "complying"
+            "A": "fragmenting",
+            "B": "fragmented",
+            "C": "fragmentation"
           },
-          "answer": "B",
-          "explanation": "After the modal verb 'fail to', use the base form 'comply' — 'complied' is the past tense and is grammatically incorrect here."
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the sentence — 'fragmentation', not the verb 'fragment'."
         }
       ]
     }
@@ -604,36 +566,36 @@
       "1": "True",
       "2": "Not Given",
       "3": "True",
-      "4": "Not Given",
+      "4": "False",
       "5": "True"
     },
     "ex2": {
-      "1": "mitigation",
-      "2": "renewable",
-      "3": "threshold",
-      "4": "ratify",
-      "5": "incentives"
+      "1": "custody",
+      "2": "fragmentation",
+      "3": "kinship",
+      "4": "reconstituted",
+      "5": "dysfunction"
     },
     "ex3": {
-      "1": "carbon",
-      "2": "ecosystem",
-      "3": "biodiversity",
-      "4": "adaptation",
-      "5": "trajectory"
+      "1": "cohabitation",
+      "2": "parenting",
+      "3": "obligation",
+      "4": "fragmentation",
+      "5": "nuclear"
     },
     "ex4": {
-      "1": "Anthropogenic climate change is driven by the burning of fossil fuels.",
-      "2": "Halting deforestation is essential to reducing carbon emissions.",
-      "3": "Nations must ratify and honour international climate agreements.",
-      "4": "Financial incentives can encourage private sector investment in green technology.",
-      "5": "Compliance with emission targets is essential for effective climate governance."
+      "1": "The court awarded joint custody to both parents.",
+      "2": "Strong kinship networks provide resilience in times of crisis.",
+      "3": "The fragmentation of the family can cause children distress.",
+      "4": "Family structures must adapt to changing social norms.",
+      "5": "Both parents are expected to fulfil parental obligations."
     },
     "ex5": {
       "1": "B",
-      "2": "B",
-      "3": "B",
+      "2": "C",
+      "3": "A",
       "4": "A",
-      "5": "A"
+      "5": "C"
     }
   }
 }

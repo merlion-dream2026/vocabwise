@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 32,
+    "topic_id": "b3-t32",
+    "topic_title": "Science & Discovery",
+    "topic_title_vi": "Khoa Học & Khám Phá",
+    "theme_number": 4,
+    "theme_title": "Knowledge & Ideas",
+    "theme_title_vi": "Tri Thức & Tư Tưởng",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🔬",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Science advances by proposing and testing ideas in a systematic way. At the heart of this process is the **hypothesis** — a tentative explanation that can be examined through observation and experiment. Researchers who **conduct rigorous research** do not simply collect data; they design studies with careful controls, define their **variable** clearly, and anticipate alternative explanations. The **methodology** a scientist chooses shapes not only what can be discovered but also how confidently conclusions can be drawn.",
+        "text_vi": "Khoa học tiến bộ bằng cách đề xuất và kiểm tra các ý tưởng một cách có hệ thống. Trọng tâm của quá trình này là **giả thuyết** — một lời giải thích tạm thời có thể được kiểm tra qua quan sát và thí nghiệm. Các nhà nghiên cứu **tiến hành nghiên cứu nghiêm ngặt** không chỉ đơn giản là thu thập dữ liệu; họ thiết kế các nghiên cứu với các biện pháp kiểm soát cẩn thận, xác định rõ **biến số** của mình và dự đoán các giải thích thay thế. **Phương pháp luận** mà một nhà khoa học lựa chọn không chỉ định hình những gì có thể được khám phá mà còn định hình mức độ tự tin khi rút ra kết luận."
+      },
+      {
+        "index": 2,
+        "text_en": "A key principle underpinning science is **scepticism** — the refusal to accept claims without sufficient evidence. This is why scientists are expected to **publish peer-reviewed findings** so that independent experts can scrutinise the work for errors and biases. **Replication** — the ability of other researchers to repeat a study and obtain the same results — is considered the gold standard of scientific credibility. When studies fail to replicate, the broader community must **challenge scientific consensus** and re-examine the original evidence.",
+        "text_vi": "Một nguyên tắc quan trọng làm nền tảng cho khoa học là **chủ nghĩa hoài nghi** — sự từ chối chấp nhận các tuyên bố mà không có đủ bằng chứng. Đây là lý do tại sao các nhà khoa học được kỳ vọng **công bố các phát hiện đã được bình duyệt** để các chuyên gia độc lập có thể xem xét kỹ lưỡng công trình nhằm tìm lỗi và sai lệch. **Tính tái lập** — khả năng của các nhà nghiên cứu khác lặp lại một nghiên cứu và thu được kết quả tương tự — được coi là tiêu chuẩn vàng về độ tin cậy khoa học. Khi các nghiên cứu không thể tái lập được, cộng đồng rộng lớn hơn phải **thách thức sự đồng thuận khoa học** và xem xét lại bằng chứng gốc."
+      },
+      {
+        "index": 3,
+        "text_en": "Understanding the difference between **correlation** and **causation** is one of the most important — and most misunderstood — concepts in science. Two variables may rise and fall together, yet one need not cause the other. To **draw causal conclusions**, researchers must design experiments that **identify confounding variables**: hidden factors that might explain the observed relationship. Without this step, even **empirical** data — gathered through direct observation rather than theory alone — can be deeply misleading.",
+        "text_vi": "Hiểu sự khác biệt giữa **tương quan** và **nhân quả** là một trong những khái niệm quan trọng nhất — và bị hiểu nhầm nhiều nhất — trong khoa học. Hai biến số có thể tăng giảm cùng nhau, nhưng cái này không nhất thiết gây ra cái kia. Để **rút ra kết luận nhân quả**, các nhà nghiên cứu phải thiết kế các thí nghiệm để **xác định các biến nhiễu**: các yếu tố ẩn có thể giải thích mối quan hệ được quan sát. Nếu không có bước này, ngay cả dữ liệu **thực nghiệm** — được thu thập qua quan sát trực tiếp chứ không chỉ dựa trên lý thuyết — cũng có thể gây hiểu lầm sâu sắc."
+      },
+      {
+        "index": 4,
+        "text_en": "Science also progresses through shifts in understanding that philosopher Thomas Kuhn called **paradigm** shifts — moments when the entire framework of a field is overturned by new evidence. Such shifts remind us that today's scientific consensus may be tomorrow's outdated model. This is not a weakness; it is the system working as intended. A healthy scientific culture embraces **scepticism**, rewards honest **replication**, and insists that even the most celebrated **hypothesis** must yield to the weight of **empirical** evidence.",
+        "text_vi": "Khoa học cũng tiến bộ thông qua những thay đổi trong hiểu biết mà triết gia Thomas Kuhn gọi là những thay đổi **mô hình** — những khoảnh khắc khi toàn bộ khuôn khổ của một lĩnh vực bị lật đổ bởi bằng chứng mới. Những thay đổi như vậy nhắc nhở chúng ta rằng sự đồng thuận khoa học ngày nay có thể là mô hình lỗi thời của ngày mai. Đây không phải là điểm yếu; đó là hệ thống đang hoạt động đúng như dự định. Một nền văn hóa khoa học lành mạnh đề cao **chủ nghĩa hoài nghi**, khen thưởng **tính tái lập** trung thực và khẳng định rằng ngay cả **giả thuyết** được tôn vinh nhất cũng phải nhường chỗ cho sức nặng của bằng chứng **thực nghiệm**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθ.ɪ.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "giả thuyết, lời giải thích tạm thời cần kiểm tra",
+      "meaning_vi_inline": "giả thuyết",
+      "example_en": "The research team formulated a hypothesis and then designed a series of controlled experiments to test it.",
+      "example_vi": "Nhóm nghiên cứu đề ra một giả thuyết và sau đó thiết kế một loạt các thí nghiệm có kiểm soát để kiểm tra nó.",
+      "word_family": {
+        "noun": "hypothesis / hypothesising",
+        "verb": "hypothesise",
+        "adjective": "hypothetical",
+        "adverb": "hypothetically"
+      },
+      "false_friend": {
+        "word_vi": "theory",
+        "explanation_vi": "'Hypothesis' là một giả thuyết chưa được kiểm chứng; 'theory' trong khoa học là một khuôn khổ giải thích đã được kiểm chứng rộng rãi — không đồng nghĩa nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "methodology",
+      "ipa": "/ˌmeθ.əˈdɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "phương pháp luận, hệ thống các phương pháp nghiên cứu",
+      "meaning_vi_inline": "phương pháp luận",
+      "example_en": "Reviewers questioned the study's methodology, particularly the small sample size and lack of control group.",
+      "example_vi": "Các nhà phê duyệt đặt câu hỏi về phương pháp luận của nghiên cứu, đặc biệt là quy mô mẫu nhỏ và thiếu nhóm đối chứng.",
+      "word_family": {
+        "noun": "methodology / method",
+        "verb": null,
+        "adjective": "methodological",
+        "adverb": "methodologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "replication",
+      "ipa": "/ˌrep.lɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tính tái lập, sự lặp lại thí nghiệm để xác nhận kết quả",
+      "meaning_vi_inline": "tính tái lập",
+      "example_en": "The failure of replication across multiple laboratories cast serious doubt on the original findings.",
+      "example_vi": "Sự thất bại trong việc tái lập kết quả ở nhiều phòng thí nghiệm đã đặt ra nghi ngờ nghiêm trọng về các phát hiện ban đầu.",
+      "word_family": {
+        "noun": "replication / replica",
+        "verb": "replicate",
+        "adjective": "replicable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "paradigm",
+      "ipa": "/ˈpær.ə.daɪm/",
+      "pos": "noun",
+      "meaning_vi": "mô hình, khuôn mẫu tư duy thống trị trong một lĩnh vực",
+      "meaning_vi_inline": "mô hình, khuôn mẫu",
+      "example_en": "The discovery of DNA's double helix structure triggered a paradigm shift in biology and medicine.",
+      "example_vi": "Khám phá về cấu trúc xoắn kép của DNA đã kích hoạt một sự thay đổi mô hình trong sinh học và y học.",
+      "word_family": {
+        "noun": "paradigm",
+        "verb": null,
+        "adjective": "paradigmatic",
+        "adverb": "paradigmatically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "scepticism",
+      "ipa": "/ˈskep.tɪ.sɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa hoài nghi, thái độ nghi ngờ đòi hỏi bằng chứng",
+      "meaning_vi_inline": "chủ nghĩa hoài nghi",
+      "example_en": "Scientific scepticism is not negativity; it is the healthy demand for reproducible evidence before accepting a claim.",
+      "example_vi": "Chủ nghĩa hoài nghi khoa học không phải là tiêu cực; đó là yêu cầu lành mạnh về bằng chứng có thể tái tạo trước khi chấp nhận một tuyên bố.",
+      "word_family": {
+        "noun": "scepticism / sceptic",
+        "verb": null,
+        "adjective": "sceptical",
+        "adverb": "sceptically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "peer review",
+      "ipa": "/ˌpɪər rɪˈvjuː/",
+      "pos": "noun",
+      "meaning_vi": "bình duyệt đồng nghiệp, quá trình chuyên gia đánh giá nghiên cứu trước khi xuất bản",
+      "meaning_vi_inline": "bình duyệt đồng nghiệp",
+      "example_en": "Peer review remains the cornerstone of academic publishing, ensuring that studies meet minimum standards of rigour.",
+      "example_vi": "Bình duyệt đồng nghiệp vẫn là nền tảng của xuất bản học thuật, đảm bảo rằng các nghiên cứu đáp ứng các tiêu chuẩn tối thiểu về tính nghiêm ngặt.",
+      "word_family": {
+        "noun": "peer review",
+        "verb": "peer-review",
+        "adjective": "peer-reviewed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "empirical",
+      "ipa": "/ɪmˈpɪr.ɪ.k(ə)l/",
+      "pos": "adjective",
+      "meaning_vi": "thực nghiệm, dựa trên quan sát và bằng chứng thực tế",
+      "meaning_vi_inline": "thực nghiệm",
+      "example_en": "The theory lacked empirical support; no experiment had yet produced data consistent with its predictions.",
+      "example_vi": "Lý thuyết này thiếu sự hỗ trợ thực nghiệm; chưa có thí nghiệm nào tạo ra dữ liệu phù hợp với các dự đoán của nó.",
+      "word_family": {
+        "noun": "empiricism / empiricist",
+        "verb": null,
+        "adjective": "empirical",
+        "adverb": "empirically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "variable",
+      "ipa": "/ˈveər.i.ə.b(ə)l/",
+      "pos": "noun",
+      "meaning_vi": "biến số, yếu tố có thể thay đổi trong thí nghiệm",
+      "meaning_vi_inline": "biến số",
+      "example_en": "The researchers controlled every variable except the one they were testing in order to isolate its effect.",
+      "example_vi": "Các nhà nghiên cứu kiểm soát mọi biến số ngoại trừ biến số họ đang kiểm tra để tách biệt tác động của nó.",
+      "word_family": {
+        "noun": "variable / variability",
+        "verb": "vary",
+        "adjective": "variable / varying",
+        "adverb": "variably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "correlation",
+      "ipa": "/ˌkɒr.əˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "tương quan, mối liên hệ thống kê giữa hai biến số",
+      "meaning_vi_inline": "tương quan",
+      "example_en": "There is a strong correlation between smoking and lung cancer, though this alone does not prove causation.",
+      "example_vi": "Có mối tương quan mạnh giữa hút thuốc và ung thư phổi, mặc dù điều này đơn thuần không chứng minh được mối quan hệ nhân quả.",
+      "word_family": {
+        "noun": "correlation",
+        "verb": "correlate",
+        "adjective": "correlated / correlational",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "causation",
+        "explanation_vi": "'Correlation' chỉ cho thấy hai biến cùng thay đổi; 'causation' nghĩa là một biến trực tiếp gây ra biến kia — hai khái niệm thường bị nhầm lẫn nhưng hoàn toàn khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "causation",
+      "ipa": "/kɔːˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "quan hệ nhân quả, mối liên hệ nguyên nhân–kết quả",
+      "meaning_vi_inline": "quan hệ nhân quả",
+      "example_en": "Establishing causation requires far more evidence than simply demonstrating that two trends occur together.",
+      "example_vi": "Thiết lập quan hệ nhân quả đòi hỏi bằng chứng nhiều hơn nhiều so với việc chỉ đơn giản chứng minh rằng hai xu hướng xảy ra cùng nhau.",
+      "word_family": {
+        "noun": "causation / cause",
+        "verb": "cause",
+        "adjective": "causal",
+        "adverb": "causally"
+      },
+      "false_friend": {
+        "word_vi": "correlation",
+        "explanation_vi": "'Causation' nghĩa là A trực tiếp gây ra B; 'correlation' chỉ nghĩa là A và B có xu hướng xảy ra cùng nhau — không nhất thiết có quan hệ nhân quả."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "conduct rigorous research",
+      "meaning_vi": "tiến hành nghiên cứu nghiêm ngặt",
+      "example_en": "Only institutions that consistently conduct rigorous research are likely to produce findings that withstand scrutiny.",
+      "example_vi": "Chỉ những tổ chức luôn tiến hành nghiên cứu nghiêm ngặt mới có khả năng tạo ra các phát hiện có thể chịu được sự xem xét kỹ lưỡng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "challenge scientific consensus",
+      "meaning_vi": "thách thức sự đồng thuận khoa học",
+      "example_en": "It takes extraordinary evidence to challenge scientific consensus, but history shows it is sometimes necessary.",
+      "example_vi": "Cần có bằng chứng phi thường để thách thức sự đồng thuận khoa học, nhưng lịch sử cho thấy đôi khi điều đó là cần thiết.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "publish peer-reviewed findings",
+      "meaning_vi": "công bố các phát hiện đã được bình duyệt",
+      "example_en": "Researchers are under pressure to publish peer-reviewed findings quickly, which can sometimes compromise thoroughness.",
+      "example_vi": "Các nhà nghiên cứu đang chịu áp lực phải công bố các phát hiện đã được bình duyệt một cách nhanh chóng, điều này đôi khi có thể ảnh hưởng đến tính toàn diện.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "identify confounding variables",
+      "meaning_vi": "xác định các biến nhiễu",
+      "example_en": "A well-designed study will attempt to identify confounding variables before drawing any conclusions from the data.",
+      "example_vi": "Một nghiên cứu được thiết kế tốt sẽ cố gắng xác định các biến nhiễu trước khi rút ra bất kỳ kết luận nào từ dữ liệu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "draw causal conclusions",
+      "meaning_vi": "rút ra kết luận nhân quả",
+      "example_en": "Without a randomised controlled trial, it is very difficult to draw causal conclusions from observational data alone.",
+      "example_vi": "Nếu không có thử nghiệm ngẫu nhiên có đối chứng, rất khó để rút ra kết luận nhân quả chỉ từ dữ liệu quan sát.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, replication is considered the most important quality standard in science.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that Thomas Kuhn won a Nobel Prize for his theory of paradigm shifts.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage argues that a correlation between two variables proves that one causes the other.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that empirical data gathered without controlling for confounding variables can be misleading.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that scientific consensus never changes once it has been established.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The research team proposed a _____ that increased screen time leads to reduced attention spans in adolescents.",
+          "options": [
+            "paradigm",
+            "hypothesis",
+            "variable",
+            "replication"
+          ],
+          "answer": "hypothesis"
+        },
+        {
+          "id": 2,
+          "sentence": "A strong _____ between hours studied and exam scores does not necessarily mean that studying alone causes high marks.",
+          "options": [
+            "causation",
+            "scepticism",
+            "correlation",
+            "methodology"
+          ],
+          "answer": "correlation"
+        },
+        {
+          "id": 3,
+          "sentence": "The journal required all submitted articles to pass _____ before they were accepted for publication.",
+          "options": [
+            "replication",
+            "peer review",
+            "paradigm",
+            "empirical"
+          ],
+          "answer": "peer review"
+        },
+        {
+          "id": 4,
+          "sentence": "The study's _____ was criticised because participants were not randomly assigned to treatment and control groups.",
+          "options": [
+            "variable",
+            "causation",
+            "hypothesis",
+            "methodology"
+          ],
+          "answer": "methodology"
+        },
+        {
+          "id": 5,
+          "sentence": "Healthy _____ towards bold new claims is a sign of scientific maturity, not closed-mindedness.",
+          "options": [
+            "replication",
+            "paradigm",
+            "empirical",
+            "scepticism"
+          ],
+          "answer": "scepticism"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "hypothesis",
+        "replication",
+        "paradigm",
+        "correlation",
+        "causation",
+        "variable"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The Einstein's theory of relativity triggered a _____ shift that overturned centuries of Newtonian physics.",
+          "answer": "paradigm"
+        },
+        {
+          "id": 2,
+          "sentence": "There is a clear _____ between poverty and poor health outcomes, though the causal pathway is complex.",
+          "answer": "correlation"
+        },
+        {
+          "id": 3,
+          "sentence": "The independent _____ in the experiment was the dosage of medication; everything else was held constant.",
+          "answer": "variable"
+        },
+        {
+          "id": 4,
+          "sentence": "The failure of _____ — three separate labs could not reproduce the results — led to the paper's retraction.",
+          "answer": "replication"
+        },
+        {
+          "id": 5,
+          "sentence": "Proving _____ requires ruling out all plausible alternative explanations for the observed effect.",
+          "answer": "causation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "a",
+            "hypothesis",
+            "must",
+            "be",
+            "testable",
+            "to",
+            "be",
+            "scientifically",
+            "useful"
+          ],
+          "answer": "A hypothesis must be testable to be scientifically useful."
+        },
+        {
+          "id": 2,
+          "words": [
+            "correlation",
+            "does",
+            "not",
+            "imply",
+            "causation",
+            "in",
+            "scientific",
+            "research"
+          ],
+          "answer": "Correlation does not imply causation in scientific research."
+        },
+        {
+          "id": 3,
+          "words": [
+            "peer",
+            "review",
+            "ensures",
+            "that",
+            "published",
+            "findings",
+            "meet",
+            "accepted",
+            "standards"
+          ],
+          "answer": "Peer review ensures that published findings meet accepted standards."
+        },
+        {
+          "id": 4,
+          "words": [
+            "rigorous",
+            "methodology",
+            "is",
+            "the",
+            "foundation",
+            "of",
+            "credible",
+            "scientific",
+            "research"
+          ],
+          "answer": "Rigorous methodology is the foundation of credible scientific research."
+        },
+        {
+          "id": 5,
+          "words": [
+            "scepticism",
+            "drives",
+            "scientists",
+            "to",
+            "demand",
+            "reproducible",
+            "evidence"
+          ],
+          "answer": "Scepticism drives scientists to demand reproducible evidence."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The scientist [hypothetically] that low vitamin D levels contribute to seasonal depression.",
+          "highlighted": "hypothetically",
+          "options": {
+            "A": "hypothesised",
+            "B": "hypothesis",
+            "C": "hypothetical"
+          },
+          "answer": "A",
+          "explanation": "A verb is required in the main clause — 'hypothesised' (past tense), not the adverb 'hypothetically'."
+        },
+        {
+          "id": 2,
+          "sentence": "The journal only accepts articles that have undergone rigorous [peer-reviewing] by at least two independent experts.",
+          "highlighted": "peer-reviewing",
+          "options": {
+            "A": "peer-reviewed",
+            "B": "peer review",
+            "C": "peer-reviewer"
+          },
+          "answer": "B",
+          "explanation": "After 'undergone', a noun is required — 'peer review', not the gerund compound 'peer-reviewing'."
+        },
+        {
+          "id": 3,
+          "sentence": "The study found a [causation] between social media use and loneliness, but did not establish which caused which.",
+          "highlighted": "causation",
+          "options": {
+            "A": "causal",
+            "B": "cause",
+            "C": "correlation"
+          },
+          "answer": "C",
+          "explanation": "'Causation' means one variable directly causes another; since the sentence says the direction is unknown, 'correlation' (a statistical co-occurrence) is the correct term."
+        },
+        {
+          "id": 4,
+          "sentence": "The team's [methodological] was criticised for its failure to control for socioeconomic background.",
+          "highlighted": "methodological",
+          "options": {
+            "A": "methodology",
+            "B": "methodologist",
+            "C": "methodologically"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the subject of the sentence — 'methodology', not the adjective 'methodological'."
+        },
+        {
+          "id": 5,
+          "sentence": "The results were based entirely on [theoretical] observation, with no reliance on mathematical models or prior theory.",
+          "highlighted": "theoretical",
+          "options": {
+            "A": "theory",
+            "B": "theorised",
+            "C": "empirical"
+          },
+          "answer": "C",
+          "explanation": "The sentence describes data gathered through direct observation rather than theory — the correct term is 'empirical', which means based on evidence and observation, not 'theoretical' which means based on theory."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "False",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "hypothesis",
+      "2": "correlation",
+      "3": "peer review",
+      "4": "methodology",
+      "5": "scepticism"
+    },
+    "ex3": {
+      "1": "paradigm",
+      "2": "correlation",
+      "3": "variable",
+      "4": "replication",
+      "5": "causation"
+    },
+    "ex4": {
+      "1": "A hypothesis must be testable to be scientifically useful.",
+      "2": "Correlation does not imply causation in scientific research.",
+      "3": "Peer review ensures that published findings meet accepted standards.",
+      "4": "Rigorous methodology is the foundation of credible scientific research.",
+      "5": "Scepticism drives scientists to demand reproducible evidence."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

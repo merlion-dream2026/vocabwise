@@ -1,0 +1,654 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 36,
+    "topic_id": "b2-t36",
+    "topic_title": "Challenges in Education",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🎓",
+    "topic_title_vi": "Thách Thức Trong Giáo Dục",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 213,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Education is widely recognised as one of the most powerful tools for improving lives, yet **access** to quality schooling remains deeply unequal around the world. Many children in rural or low-income communities face significant **barrier**s — obstacles that prevent them from attending or succeeding at school — including poverty, long distances, and a lack of qualified teachers. Closing this **unfair gap** between those with educational advantages and those without is one of the defining challenges of our time.",
+        "text_vi": "Giáo dục được công nhận rộng rãi là một trong những công cụ mạnh mẽ nhất để cải thiện cuộc sống, nhưng **tiếp cận** nền giáo dục chất lượng vẫn còn rất bất bình đẳng trên toàn thế giới. Nhiều trẻ em ở các cộng đồng nông thôn hoặc thu nhập thấp đối mặt với các **rào cản** đáng kể — những trở ngại ngăn cản họ đến trường hoặc thành công trong học tập — bao gồm nghèo đói, khoảng cách xa xôi và thiếu giáo viên có trình độ. Thu hẹp **khoảng cách bất công** giữa những người có lợi thế về giáo dục và những người không có là một trong những thách thức mang tính quyết định của thời đại chúng ta."
+      },
+      {
+        "index": 2,
+        "text_en": "Governments and international organisations are aware that **resource**s — money, textbooks, technology, and trained teachers — are not distributed fairly between schools. Wealthy **private** schools often have far superior facilities compared to underfunded state schools, creating a two-tier system. Students from disadvantaged backgrounds may struggle to maintain high **standard**s or meet **achievement** targets, not because they lack ability, but because they lack support.",
+        "text_vi": "Các chính phủ và tổ chức quốc tế nhận thức được rằng các **nguồn lực** — tiền bạc, sách giáo khoa, công nghệ và giáo viên được đào tạo — không được phân bổ công bằng giữa các trường. Các trường **tư thục** giàu có thường có cơ sở vật chất vượt trội hơn nhiều so với các trường công lập thiếu kinh phí, tạo ra một hệ thống hai tầng. Học sinh từ các hoàn cảnh khó khăn có thể khó duy trì **tiêu chuẩn** cao hoặc đạt các mục tiêu **thành tích**, không phải vì họ thiếu năng lực, mà vì họ thiếu sự hỗ trợ."
+      },
+      {
+        "index": 3,
+        "text_en": "Tackling educational inequality requires bold **policy** changes. Governments must **put money in** to education — increasing funding for schools in disadvantaged areas — and create **opportunity** for all students, regardless of background. **Scholarship** programmes, which provide financial support to talented students who cannot afford higher education, are one effective way of widening **access** and improving **outcome**s for the most vulnerable learners.",
+        "text_vi": "Giải quyết bất bình đẳng giáo dục đòi hỏi những thay đổi **chính sách** táo bạo. Các chính phủ phải **đầu tư** vào giáo dục — tăng kinh phí cho các trường ở các khu vực khó khăn — và tạo **cơ hội** cho tất cả học sinh, bất kể xuất thân. Các chương trình **học bổng**, cung cấp hỗ trợ tài chính cho những học sinh tài năng không có khả năng chi trả học phí đại học, là một cách hiệu quả để mở rộng **tiếp cận** và cải thiện **kết quả** cho những học sinh dễ bị tổn thương nhất."
+      },
+      {
+        "index": 4,
+        "text_en": "Another pressing problem is the number of students who **leave early** — dropping out before completing their education, often due to financial hardship, family pressures, or a sense that school is irrelevant to their lives. Meaningful **reform** — fundamental changes to the structure and content of education — is needed to make learning more engaging and relevant. Measuring the **gap** between students from different backgrounds, and committing to reducing it, is the first step towards a fairer system.",
+        "text_vi": "Một vấn đề cấp bách khác là số lượng học sinh **bỏ học sớm** — rời trường trước khi hoàn thành chương trình học, thường do khó khăn tài chính, áp lực gia đình, hoặc cảm giác rằng trường học không liên quan đến cuộc sống của họ. Cần có **cải cách** có ý nghĩa — những thay đổi cơ bản đối với cơ cấu và nội dung giáo dục — để làm cho việc học trở nên hấp dẫn và thiết thực hơn. Đo lường **khoảng cách** giữa học sinh từ các hoàn cảnh khác nhau và cam kết thu hẹp nó là bước đầu tiên hướng tới một hệ thống công bằng hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "access",
+      "ipa": "/ˈæk.ses/",
+      "pos": "noun / verb",
+      "meaning_vi": "tiếp cận (quyền sử dụng hoặc cơ hội có được)",
+      "meaning_vi_inline": "tiếp cận",
+      "example_en": "Many rural families still lack access to quality education and healthcare.",
+      "example_vi": "Nhiều gia đình nông thôn vẫn thiếu khả năng tiếp cận giáo dục và chăm sóc sức khỏe chất lượng.",
+      "word_family": {
+        "noun": "access",
+        "verb": "access",
+        "adjective": "accessible / inaccessible",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "opportunity",
+      "ipa": "/ˌɒp.əˈtjuː.nɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "cơ hội",
+      "meaning_vi_inline": "cơ hội",
+      "example_en": "Every child deserves the opportunity to receive a high-quality education.",
+      "example_vi": "Mỗi đứa trẻ đều xứng đáng có cơ hội nhận được nền giáo dục chất lượng cao.",
+      "word_family": {
+        "noun": "opportunity",
+        "verb": null,
+        "adjective": "opportune",
+        "adverb": "opportunely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "barrier",
+      "ipa": "/ˈbær.i.ər/",
+      "pos": "noun",
+      "meaning_vi": "rào cản, trở ngại (trong giáo dục)",
+      "meaning_vi_inline": "rào cản",
+      "example_en": "Language can be a major barrier for children who do not speak the national language at home.",
+      "example_vi": "Ngôn ngữ có thể là rào cản lớn đối với trẻ em không nói ngôn ngữ quốc gia ở nhà.",
+      "word_family": {
+        "noun": "barrier",
+        "verb": "bar",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "unfair gap",
+      "ipa": "/ʌnˈfeər ɡæp/",
+      "pos": "noun phrase",
+      "meaning_vi": "khoảng cách bất công (bất bình đẳng có hệ thống)",
+      "meaning_vi_inline": "khoảng cách bất công",
+      "example_en": "The unfair gap between schools in wealthy and poor areas must be addressed urgently.",
+      "example_vi": "Khoảng cách bất công giữa các trường ở khu vực giàu và nghèo phải được giải quyết khẩn cấp.",
+      "word_family": {
+        "noun": "gap / inequality",
+        "verb": null,
+        "adjective": "unfair",
+        "adverb": "unfairly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "achievement",
+      "ipa": "/əˈtʃiːv.mənt/",
+      "pos": "noun",
+      "meaning_vi": "thành tích (học tập), kết quả đạt được",
+      "meaning_vi_inline": "thành tích",
+      "example_en": "The gap in educational achievement between rich and poor students is widening.",
+      "example_vi": "Khoảng cách về thành tích giáo dục giữa học sinh giàu và nghèo đang ngày càng rộng hơn.",
+      "word_family": {
+        "noun": "achievement",
+        "verb": "achieve",
+        "adjective": "achievable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "resource",
+      "ipa": "/rɪˈzɔːs/",
+      "pos": "noun",
+      "meaning_vi": "nguồn lực (giáo dục, tài chính)",
+      "meaning_vi_inline": "nguồn lực",
+      "example_en": "Schools in rural areas often lack the resources needed to provide high-quality teaching.",
+      "example_vi": "Các trường ở khu vực nông thôn thường thiếu nguồn lực cần thiết để cung cấp giảng dạy chất lượng cao.",
+      "word_family": {
+        "noun": "resource",
+        "verb": "resource",
+        "adjective": "resourceful",
+        "adverb": "resourcefully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "reform",
+      "ipa": "/rɪˈfɔːm/",
+      "pos": "noun / verb",
+      "meaning_vi": "cải cách (hệ thống giáo dục)",
+      "meaning_vi_inline": "cải cách",
+      "example_en": "The government announced a major education reform to improve outcomes for disadvantaged students.",
+      "example_vi": "Chính phủ công bố một cuộc cải cách giáo dục lớn để cải thiện kết quả cho học sinh có hoàn cảnh khó khăn.",
+      "word_family": {
+        "noun": "reform / reformer",
+        "verb": "reform",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "policy",
+      "ipa": "/ˈpɒl.ɪ.si/",
+      "pos": "noun",
+      "meaning_vi": "chính sách (giáo dục, của chính phủ)",
+      "meaning_vi_inline": "chính sách",
+      "example_en": "A good education policy should ensure that every child has access to a qualified teacher.",
+      "example_vi": "Một chính sách giáo dục tốt phải đảm bảo rằng mọi đứa trẻ đều được tiếp cận với giáo viên có trình độ.",
+      "word_family": {
+        "noun": "policy / policymaker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "outcome",
+      "ipa": "/ˈaʊt.kʌm/",
+      "pos": "noun",
+      "meaning_vi": "kết quả (của quá trình học tập)",
+      "meaning_vi_inline": "kết quả",
+      "example_en": "Better nutrition and sleep are linked to significantly better educational outcomes.",
+      "example_vi": "Dinh dưỡng tốt hơn và ngủ đủ giấc có liên quan đến kết quả giáo dục tốt hơn đáng kể.",
+      "word_family": {
+        "noun": "outcome",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "result",
+        "explanation_vi": "'Outcome' thường nhấn mạnh đến kết quả cuối cùng của một quá trình dài hoặc chính sách; 'result' là từ thông dụng hơn, dùng cho cả kết quả ngắn hạn và dài hạn. Trong các văn bản chính sách và học thuật, 'outcome' phổ biến hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "private",
+      "ipa": "/ˈpraɪ.vɪt/",
+      "pos": "adjective",
+      "meaning_vi": "tư thục (trường học do tư nhân tài trợ)",
+      "meaning_vi_inline": "tư thục",
+      "example_en": "Private schools often have smaller class sizes and better facilities than state schools.",
+      "example_vi": "Các trường tư thục thường có quy mô lớp học nhỏ hơn và cơ sở vật chất tốt hơn so với trường công lập.",
+      "word_family": {
+        "noun": "privacy / private sector",
+        "verb": "privatise",
+        "adjective": "private / public / state",
+        "adverb": "privately"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "scholarship",
+      "ipa": "/ˈskɒl.ə.ʃɪp/",
+      "pos": "noun",
+      "meaning_vi": "học bổng",
+      "meaning_vi_inline": "học bổng",
+      "example_en": "She was awarded a full scholarship to study medicine at the national university.",
+      "example_vi": "Cô ấy được trao học bổng toàn phần để học y khoa tại trường đại học quốc gia.",
+      "word_family": {
+        "noun": "scholarship / scholar",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "leave early",
+      "ipa": "/liːv ˈɜː.li/",
+      "pos": "verb phrase",
+      "meaning_vi": "bỏ học sớm, nghỉ học giữa chừng (drop out)",
+      "meaning_vi_inline": "bỏ học sớm",
+      "example_en": "Students who leave early are far more likely to struggle to find stable employment.",
+      "example_vi": "Học sinh bỏ học sớm có khả năng cao hơn nhiều để gặp khó khăn khi tìm việc làm ổn định.",
+      "word_family": {
+        "noun": "early school leaver / dropout",
+        "verb": "leave early / drop out",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "standard",
+      "ipa": "/ˈstæn.dəd/",
+      "pos": "noun",
+      "meaning_vi": "tiêu chuẩn (giáo dục, chất lượng)",
+      "meaning_vi_inline": "tiêu chuẩn",
+      "example_en": "The government set new national standards to ensure all students receive quality education.",
+      "example_vi": "Chính phủ đặt ra các tiêu chuẩn quốc gia mới để đảm bảo tất cả học sinh nhận được giáo dục chất lượng.",
+      "word_family": {
+        "noun": "standard",
+        "verb": "standardise",
+        "adjective": "standard / standardised",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "put money in",
+      "ipa": "/pʊt ˈmʌn.i ɪn/",
+      "pos": "verb phrase",
+      "meaning_vi": "đầu tư tiền vào (giáo dục, cơ sở hạ tầng)",
+      "meaning_vi_inline": "đầu tư vào",
+      "example_en": "The city council promised to put more money into early childhood education.",
+      "example_vi": "Hội đồng thành phố hứa sẽ đầu tư thêm tiền vào giáo dục mầm non.",
+      "word_family": {
+        "noun": "investment",
+        "verb": "put money in / invest in",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "gap",
+      "ipa": "/ɡæp/",
+      "pos": "noun",
+      "meaning_vi": "khoảng cách (về thành tích, thu nhập, cơ hội)",
+      "meaning_vi_inline": "khoảng cách",
+      "example_en": "The achievement gap between students from wealthy and low-income families remains wide.",
+      "example_vi": "Khoảng cách thành tích giữa học sinh từ các gia đình giàu và thu nhập thấp vẫn còn rộng.",
+      "word_family": {
+        "noun": "gap",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Children in rural areas often face barriers such as poverty and a lack of qualified teachers.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Private schools always perform better than state schools in national examinations.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Students who drop out often do so because of financial hardship or family pressures.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage says that education reform is unnecessary in most developed countries.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "Scholarship programmes can help widen access to higher education for talented students.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Many families cannot _____ good healthcare or education because they live too far from any city.",
+          "options": [
+            "access",
+            "reform",
+            "standard",
+            "achieve"
+          ],
+          "answer": "access"
+        },
+        {
+          "id": 2,
+          "sentence": "She was awarded a full _____ to study at one of the country's top universities.",
+          "options": [
+            "resource",
+            "policy",
+            "scholarship",
+            "opportunity"
+          ],
+          "answer": "scholarship"
+        },
+        {
+          "id": 3,
+          "sentence": "The government introduced a bold _____ to reduce class sizes in all state schools.",
+          "options": [
+            "barrier",
+            "outcome",
+            "gap",
+            "reform"
+          ],
+          "answer": "reform"
+        },
+        {
+          "id": 4,
+          "sentence": "The children had strong abilities but lacked access to the _____ they needed to succeed.",
+          "options": [
+            "resources",
+            "standards",
+            "scholarships",
+            "outcomes"
+          ],
+          "answer": "resources"
+        },
+        {
+          "id": 5,
+          "sentence": "The most effective way to improve educational _____ is to invest in teacher training.",
+          "options": [
+            "barriers",
+            "achievements",
+            "policies",
+            "outcomes"
+          ],
+          "answer": "outcomes"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "barrier",
+        "gap",
+        "policy",
+        "leave early",
+        "put money in"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Distance from school remains a significant _____ for children living in remote villages.",
+          "answer": "barrier"
+        },
+        {
+          "id": 2,
+          "sentence": "The educational _____ between wealthy and poor students has widened in recent years.",
+          "answer": "gap"
+        },
+        {
+          "id": 3,
+          "sentence": "The new government _____ requires all children to attend school until the age of 16.",
+          "answer": "policy"
+        },
+        {
+          "id": 4,
+          "sentence": "Many teenagers _____ because they need to help support their families financially.",
+          "answer": "leave early"
+        },
+        {
+          "id": 5,
+          "sentence": "Local businesses agreed to _____ education by donating computers and books.",
+          "answer": "put money in"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "scholarship",
+            "programmes",
+            "help",
+            "talented",
+            "students",
+            "from",
+            "low-income",
+            "families",
+            "access",
+            "higher",
+            "education"
+          ],
+          "answer": "Scholarship programmes help talented students from low-income families access higher education."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "government",
+            "must",
+            "put",
+            "more",
+            "money",
+            "into",
+            "schools",
+            "in",
+            "disadvantaged",
+            "areas"
+          ],
+          "answer": "The government must put more money into schools in disadvantaged areas."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "gap",
+            "between",
+            "private",
+            "and",
+            "state",
+            "school",
+            "outcomes",
+            "is",
+            "growing",
+            "wider",
+            "each",
+            "year"
+          ],
+          "answer": "The gap between private and state school outcomes is growing wider each year."
+        },
+        {
+          "id": 4,
+          "words": [
+            "bold",
+            "education",
+            "reform",
+            "is",
+            "needed",
+            "to",
+            "give",
+            "all",
+            "children",
+            "equal",
+            "opportunity"
+          ],
+          "answer": "Bold education reform is needed to give all children equal opportunity."
+        },
+        {
+          "id": 5,
+          "words": [
+            "students",
+            "who",
+            "leave",
+            "early",
+            "are",
+            "more",
+            "likely",
+            "to",
+            "struggle",
+            "to",
+            "find",
+            "stable",
+            "work"
+          ],
+          "answer": "Students who leave early are more likely to struggle to find stable work."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Many students drop out because they cannot [reach] a good education in their area.",
+          "highlighted": "reach",
+          "options": {
+            "A": "access",
+            "B": "reach",
+            "C": "find"
+          },
+          "answer": "A",
+          "explanation": "'Access' is the correct word for the right or ability to use or obtain something. 'Reach' implies physical distance, not the ability to use a service. 'Find' is too informal and doesn't carry the meaning of having the right or ability to use education."
+        },
+        {
+          "id": 2,
+          "sentence": "The school provided a [prize] to help her pay for her university fees.",
+          "highlighted": "prize",
+          "options": {
+            "A": "grant",
+            "B": "scholarship",
+            "C": "prize"
+          },
+          "answer": "B",
+          "explanation": "'Scholarship' is the specific term for financial support awarded to a student for academic merit or need, allowing them to study. A 'prize' is given for winning a competition, not for funding education. A 'grant' is money given for a specific purpose but is used more in research contexts."
+        },
+        {
+          "id": 3,
+          "sentence": "The new education [law] requires all students to stay in school until age 17.",
+          "highlighted": "law",
+          "options": {
+            "A": "reform",
+            "B": "law",
+            "C": "policy"
+          },
+          "answer": "C",
+          "explanation": "'Policy' is the correct term for a set of principles or rules adopted by a government or organisation to guide decisions. A 'law' is a legal statute, and while similar, an education 'policy' is the broader term used for government strategies in this context. 'Reform' means a fundamental change, not a rule or regulation."
+        },
+        {
+          "id": 4,
+          "sentence": "The country invested heavily in education and saw dramatically better [results] for students.",
+          "highlighted": "results",
+          "options": {
+            "A": "outcomes",
+            "B": "grades",
+            "C": "results"
+          },
+          "answer": "A",
+          "explanation": "'Outcomes' is the standard academic and policy term for the end results of an educational process — particularly used in formal reports and government documents. 'Results' can work but is more informal. 'Grades' refers only to scores, not broader measures of educational success."
+        },
+        {
+          "id": 5,
+          "sentence": "Poverty can be a powerful [blockage] that prevents children from attending school regularly.",
+          "highlighted": "blockage",
+          "options": {
+            "A": "obstacle",
+            "B": "barrier",
+            "C": "blockage"
+          },
+          "answer": "B",
+          "explanation": "'Barrier' is the target vocabulary term for an obstacle that prevents access to something (in this case, education). 'Blockage' is used for physical obstructions (e.g., a pipe blockage) and sounds unnatural in an educational context. 'Obstacle' is correct but 'barrier' is the more standard education vocabulary."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "access",
+      "2": "scholarship",
+      "3": "reform",
+      "4": "resources",
+      "5": "outcomes"
+    },
+    "ex3": {
+      "1": "barrier",
+      "2": "gap",
+      "3": "policy",
+      "4": "leave early",
+      "5": "put money in"
+    },
+    "ex4": {
+      "1": "Scholarship programmes help talented students from low-income families access higher education.",
+      "2": "The government must put more money into schools in disadvantaged areas.",
+      "3": "The gap between private and state school outcomes is growing wider each year.",
+      "4": "Bold education reform is needed to give all children equal opportunity.",
+      "5": "Students who leave early are more likely to struggle to find stable work."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

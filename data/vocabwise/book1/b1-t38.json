@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 38,
+    "topic_id": "b1-t38",
+    "topic_title": "Music & Performance",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🎵",
+    "topic_title_vi": "Âm Nhạc & Biểu Diễn",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 118,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Our school has a music club. Last week, we practised for our first **concert**. I play the **guitar** and my friend Mai plays the **piano**. We also have a student who plays the **drum** and keeps the **rhythm** for the whole **band**.",
+        "text_vi": "Trường của chúng tôi có câu lạc bộ âm nhạc. Tuần trước, chúng tôi luyện tập cho **buổi hòa nhạc** đầu tiên. Tôi chơi **đàn guitar** và bạn tôi là Mai chơi **đàn piano**. Chúng tôi cũng có một học sinh chơi **trống** và giữ **nhịp điệu** cho cả **ban nhạc**."
+      },
+      {
+        "index": 2,
+        "text_en": "Before the show, our teacher asked each of us to play a short **solo**. I felt nervous walking onto the **stage** alone, but I remembered the **tune** and played it well. The **audience** was quiet and listened carefully.",
+        "text_vi": "Trước buổi biểu diễn, giáo viên yêu cầu mỗi chúng tôi chơi một màn **độc tấu** ngắn. Tôi cảm thấy hồi hộp khi bước lên **sân khấu** một mình, nhưng tôi nhớ **giai điệu** và chơi rất tốt. **Khán giả** im lặng và lắng nghe cẩn thận."
+      },
+      {
+        "index": 3,
+        "text_en": "Mai sang with a clear, strong **voice**. Her singing was a little **loud** at first, but she quickly found the right **note** and everything sounded beautiful. Every **instrument** in our **band** worked together perfectly.",
+        "text_vi": "Mai hát với **giọng** trong và mạnh. Giọng hát của cô ấy hơi **to** lúc đầu, nhưng cô ấy nhanh chóng tìm được **nốt nhạc** đúng và mọi thứ nghe rất hay. Mỗi **nhạc cụ** trong **ban nhạc** của chúng tôi phối hợp cùng nhau hoàn hảo."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end of the **concert**, the **audience** began to **applaud** loudly. We all bowed together on the **stage**. It was one of the best days of my school life — music brought all of us closer.",
+        "text_vi": "Cuối **buổi hòa nhạc**, **khán giả** bắt đầu **vỗ tay** thật to. Tất cả chúng tôi cùng cúi chào trên **sân khấu**. Đó là một trong những ngày tuyệt vời nhất trong cuộc đời học sinh của tôi — âm nhạc đã kéo tất cả chúng tôi lại gần nhau hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "instrument",
+      "ipa": "/ˈɪnstrəmənt/",
+      "pos": "noun",
+      "meaning_vi": "nhạc cụ",
+      "meaning_vi_inline": "nhạc cụ",
+      "example_en": "The guitar is the most popular instrument in our music club.",
+      "example_vi": "Đàn guitar là nhạc cụ phổ biến nhất trong câu lạc bộ âm nhạc của chúng tôi.",
+      "word_family": {
+        "noun": "instrument / instrumentation",
+        "verb": null,
+        "adjective": "instrumental",
+        "adverb": "instrumentally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "guitar",
+      "ipa": "/ɡɪˈtɑː/",
+      "pos": "noun",
+      "meaning_vi": "đàn guitar",
+      "meaning_vi_inline": "đàn guitar",
+      "example_en": "He practises the guitar for one hour every evening after dinner.",
+      "example_vi": "Anh ấy luyện đàn guitar một tiếng mỗi tối sau bữa tối.",
+      "word_family": {
+        "noun": "guitar / guitarist",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "piano",
+      "ipa": "/piˈænəʊ/",
+      "pos": "noun",
+      "meaning_vi": "đàn piano",
+      "meaning_vi_inline": "đàn piano",
+      "example_en": "She has played the piano since she was five years old.",
+      "example_vi": "Cô ấy đã chơi đàn piano từ khi năm tuổi.",
+      "word_family": {
+        "noun": "piano / pianist",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "concert",
+      "ipa": "/ˈkɒnsət/",
+      "pos": "noun",
+      "meaning_vi": "buổi hòa nhạc, buổi biểu diễn âm nhạc",
+      "meaning_vi_inline": "buổi hòa nhạc",
+      "example_en": "We went to a school concert and enjoyed every song the students performed.",
+      "example_vi": "Chúng tôi đi xem buổi hòa nhạc của trường và thưởng thức mọi bài hát mà học sinh biểu diễn.",
+      "word_family": {
+        "noun": "concert",
+        "verb": null,
+        "adjective": "concert (as modifier, e.g. concert hall)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "loud",
+      "ipa": "/laʊd/",
+      "pos": "adjective",
+      "meaning_vi": "to, ồn ào",
+      "meaning_vi_inline": "to",
+      "example_en": "The music was very loud — I could hear it from the other side of the school.",
+      "example_vi": "Âm nhạc rất to — tôi có thể nghe thấy từ phía bên kia trường.",
+      "word_family": {
+        "noun": "loudness",
+        "verb": null,
+        "adjective": "loud / louder / loudest",
+        "adverb": "loudly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "rhythm",
+      "ipa": "/ˈrɪðəm/",
+      "pos": "noun",
+      "meaning_vi": "nhịp điệu",
+      "meaning_vi_inline": "nhịp điệu",
+      "example_en": "The drummer kept a steady rhythm so that everyone could play together.",
+      "example_vi": "Tay trống duy trì nhịp điệu đều đặn để mọi người có thể chơi cùng nhau.",
+      "word_family": {
+        "noun": "rhythm",
+        "verb": null,
+        "adjective": "rhythmic / rhythmical",
+        "adverb": "rhythmically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "audience",
+      "ipa": "/ˈɔːdiəns/",
+      "pos": "noun",
+      "meaning_vi": "khán giả",
+      "meaning_vi_inline": "khán giả",
+      "example_en": "The audience clapped and cheered after the band finished their last song.",
+      "example_vi": "Khán giả vỗ tay và hò reo sau khi ban nhạc kết thúc bài hát cuối.",
+      "word_family": {
+        "noun": "audience",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "band",
+      "ipa": "/bænd/",
+      "pos": "noun",
+      "meaning_vi": "ban nhạc",
+      "meaning_vi_inline": "ban nhạc",
+      "example_en": "The school band practises every Saturday morning in the music room.",
+      "example_vi": "Ban nhạc của trường luyện tập mỗi sáng thứ Bảy trong phòng âm nhạc.",
+      "word_family": {
+        "noun": "band",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "note",
+      "ipa": "/nəʊt/",
+      "pos": "noun",
+      "meaning_vi": "nốt nhạc",
+      "meaning_vi_inline": "nốt nhạc",
+      "example_en": "She played each note slowly and carefully until she knew the song perfectly.",
+      "example_vi": "Cô ấy chơi từng nốt nhạc chậm rãi và cẩn thận cho đến khi thuộc bài hát hoàn toàn.",
+      "word_family": {
+        "noun": "note",
+        "verb": "note / noted",
+        "adjective": "noted",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "nốt nhạc vs. ghi chú",
+        "explanation_vi": "Trong tiếng Anh, 'note' vừa có nghĩa là nốt nhạc vừa có nghĩa là ghi chú/lời nhắn. Hãy dựa vào ngữ cảnh để xác định nghĩa đúng."
+      }
+    },
+    {
+      "id": 10,
+      "word": "voice",
+      "ipa": "/vɔɪs/",
+      "pos": "noun",
+      "meaning_vi": "giọng hát, giọng nói",
+      "meaning_vi_inline": "giọng",
+      "example_en": "She has a beautiful voice — everyone stops talking when she starts to sing.",
+      "example_vi": "Cô ấy có giọng hát đẹp — mọi người đều ngừng nói chuyện khi cô ấy bắt đầu hát.",
+      "word_family": {
+        "noun": "voice",
+        "verb": "voice (to express)",
+        "adjective": "vocal",
+        "adverb": "vocally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "drum",
+      "ipa": "/drʌm/",
+      "pos": "noun / verb",
+      "meaning_vi": "cái trống; đánh trống",
+      "meaning_vi_inline": "trống",
+      "example_en": "He has played the drum since he was eight — his beat is always strong and steady.",
+      "example_vi": "Anh ấy chơi trống từ năm tám tuổi — nhịp đánh của anh ấy luôn mạnh và đều.",
+      "word_family": {
+        "noun": "drum / drummer",
+        "verb": "drum / drummed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "tune",
+      "ipa": "/tjuːn/",
+      "pos": "noun",
+      "meaning_vi": "giai điệu, bài nhạc",
+      "meaning_vi_inline": "giai điệu",
+      "example_en": "That is a lovely tune — I have been humming it all day without realising.",
+      "example_vi": "Đó là giai điệu hay quá — tôi đã ngân nga nó cả ngày mà không nhận ra.",
+      "word_family": {
+        "noun": "tune",
+        "verb": "tune / tuned",
+        "adjective": "tuneful / tuneless",
+        "adverb": "tunefully"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "applaud",
+      "ipa": "/əˈplɔːd/",
+      "pos": "verb",
+      "meaning_vi": "vỗ tay, hoan nghênh",
+      "meaning_vi_inline": "vỗ tay",
+      "example_en": "The whole audience applauded when the young pianist finished her piece.",
+      "example_vi": "Toàn bộ khán giả vỗ tay khi nghệ sĩ piano trẻ kết thúc bản nhạc của mình.",
+      "word_family": {
+        "noun": "applause",
+        "verb": "applaud / applauded",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "solo",
+      "ipa": "/ˈsəʊləʊ/",
+      "pos": "noun / adjective",
+      "meaning_vi": "màn độc tấu / độc diễn; một mình",
+      "meaning_vi_inline": "độc tấu",
+      "example_en": "She performed a short guitar solo at the school concert and everyone loved it.",
+      "example_vi": "Cô ấy biểu diễn một màn độc tấu guitar ngắn tại buổi hòa nhạc trường và mọi người đều thích.",
+      "word_family": {
+        "noun": "solo / soloist",
+        "verb": "solo",
+        "adjective": "solo",
+        "adverb": "solo"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "stage",
+      "ipa": "/steɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "sân khấu",
+      "meaning_vi_inline": "sân khấu",
+      "example_en": "The students walked onto the stage and bowed before they began to play.",
+      "example_vi": "Các học sinh bước lên sân khấu và cúi chào trước khi bắt đầu chơi nhạc.",
+      "word_family": {
+        "noun": "stage",
+        "verb": "stage (to organise a performance)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "applaud" },
+        { "id": 2, "word": "rhythm" },
+        { "id": 3, "word": "audience" },
+        { "id": 4, "word": "solo" },
+        { "id": 5, "word": "tune" }
+      ],
+      "options": [
+        { "id": "A", "text": "a group of people who watch or listen to a performance, concert, or show" },
+        { "id": "B", "text": "a performance by one person alone, without other musicians or singers" },
+        { "id": "C", "text": "a simple, pleasing melody that is easy to remember and hum" },
+        { "id": "D", "text": "a regular repeated pattern of sounds or beats in music" },
+        { "id": "E", "text": "to clap your hands together to show that you enjoyed a performance" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ at the concert stood up and clapped loudly at the end of the show.",
+          "options": ["band", "audience", "stage", "solo"],
+          "answer": "audience"
+        },
+        {
+          "id": 2,
+          "sentence": "She played a wrong _____ during the concert, but she stayed calm and carried on.",
+          "options": ["note", "rhythm", "voice", "tune"],
+          "answer": "note"
+        },
+        {
+          "id": 3,
+          "sentence": "The music was too _____ — I had to cover my ears because it hurt.",
+          "options": ["solo", "tuneful", "loud", "rhythmic"],
+          "answer": "loud"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ beat his drum steadily so that everyone could stay in time together.",
+          "options": ["pianist", "guitarist", "drummer", "soloist"],
+          "answer": "drummer"
+        },
+        {
+          "id": 5,
+          "sentence": "They all walked onto the _____ together and bowed before the concert began.",
+          "options": ["concert", "stage", "band", "note"],
+          "answer": "stage"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["concert", "instrument", "guitar", "voice", "applaud", "band"],
+      "items": [
+        { "id": 1, "sentence": "She picked up her _____ and started to play a soft, slow song.", "answer": "guitar" },
+        { "id": 2, "sentence": "Every _____ in the orchestra has a different sound and role.", "answer": "instrument" },
+        { "id": 3, "sentence": "The whole school went to a _____ at the city music hall last Friday.", "answer": "concert" },
+        { "id": 4, "sentence": "Her _____ was so clear and strong that everyone in the hall could hear her.", "answer": "voice" },
+        { "id": 5, "sentence": "When the song ended, the audience began to _____ and cheer.", "answer": "applaud" }
+      ],
+      "note": "One word in the box is not used: band"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The children danced _____ to the music, moving their arms with the beat. (RHYTHM)",
+          "base_word": "RHYTHM",
+          "answer": "rhythmically",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The crowd cheered loudly — their _____ went on for almost two minutes. (APPLAUD)",
+          "base_word": "APPLAUD",
+          "answer": "applause",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "She is a trained _____ who has performed at concert halls all over the country. (PIANO)",
+          "base_word": "PIANO",
+          "answer": "pianist",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "The melody was very _____ — I could not stop singing it for the rest of the day. (TUNE)",
+          "base_word": "TUNE",
+          "answer": "tuneful",
+          "form_used": "adjective"
+        },
+        {
+          "id": 5,
+          "sentence": "She sang _____, filling the whole room with her warm, clear sound. (VOICE)",
+          "base_word": "VOICE",
+          "answer": "vocally",
+          "form_used": "adverb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He walked onto the [audience] and bowed before he started to play.",
+          "highlighted": "audience",
+          "options": { "A": "band", "B": "audience", "C": "stage" },
+          "answer": "C",
+          "explanation": "The 'audience' is the group of people watching a show, not a place. The place where performers stand and play is the 'stage'."
+        },
+        {
+          "id": 2,
+          "sentence": "The [tune] kept a steady beat throughout the song so the others could play together.",
+          "highlighted": "tune",
+          "options": { "A": "drummer", "B": "tune", "C": "soloist" },
+          "answer": "A",
+          "explanation": "A 'tune' is a melody, not a person. The person who plays the drum and keeps the beat for a group is the 'drummer'."
+        },
+        {
+          "id": 3,
+          "sentence": "She has a beautiful [note] — when she sings, everyone stops to listen.",
+          "highlighted": "note",
+          "options": { "A": "rhythm", "B": "voice", "C": "note" },
+          "answer": "B",
+          "explanation": "A 'note' is a single musical sound. The quality of a person's singing or speaking sound is their 'voice'."
+        },
+        {
+          "id": 4,
+          "sentence": "After the final song, the whole room began to [perform] loudly to show how much they enjoyed it.",
+          "highlighted": "perform",
+          "options": { "A": "applaud", "B": "perform", "C": "tune" },
+          "answer": "A",
+          "explanation": "'Perform' means to play or sing in front of others. When an audience shows appreciation by clapping, they 'applaud'."
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ music teacher asked her to play a short [concert] in front of the class.",
+          "highlighted": "concert",
+          "options": { "A": "rhythm", "B": "stage", "C": "solo" },
+          "answer": "C",
+          "explanation": "A 'concert' is a big musical event for an audience, not a short individual performance. A short performance by one person alone is a 'solo'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "D", "3": "A", "4": "B", "5": "C" },
+    "ex2": { "1": "audience", "2": "note", "3": "loud", "4": "drummer", "5": "stage" },
+    "ex3": { "1": "guitar", "2": "instrument", "3": "concert", "4": "voice", "5": "applaud" },
+    "ex4": { "1": "rhythmically", "2": "applause", "3": "pianist", "4": "tuneful", "5": "vocally" },
+    "ex5": { "1": "C", "2": "A", "3": "B", "4": "A", "5": "C" }
+  }
+}

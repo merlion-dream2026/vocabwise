@@ -1,0 +1,592 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 23,
+    "topic_id": "b3-t23",
+    "topic_title": "Media, Journalism & Trust",
+    "topic_title_vi": "Truyền Thông, Báo Chí & Niềm Tin",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "📰",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 221,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "In an era of proliferating information channels, the **trustworthiness** of news sources has become a critical concern for democratic societies. Journalists and media outlets operate within a landscape where **disinformation** — deliberately fabricated or misleading content — spreads far more rapidly than carefully verified reporting. The unchecked **amplification** of false narratives by social media algorithms has made it increasingly difficult for citizens to distinguish credible **editorial** judgement from partisan manipulation.",
+        "text_vi": "Trong một kỷ nguyên mà các kênh thông tin ngày càng nhiều, **độ đáng tin cậy** của các nguồn tin đã trở thành mối quan tâm thiết yếu của các xã hội dân chủ. Các nhà báo và cơ quan truyền thông hoạt động trong một bối cảnh mà **thông tin sai lệch** — nội dung được cố tình bịa đặt hoặc gây hiểu lầm — lan truyền nhanh hơn nhiều so với các bài đưa tin đã được kiểm chứng cẩn thận. Sự **khuếch đại** không được kiểm soát các câu chuyện sai lệch bởi các thuật toán mạng xã hội đã khiến công dân ngày càng khó phân biệt phán đoán **biên tập** đáng tin cậy với sự thao túng phe phái."
+      },
+      {
+        "index": 2,
+        "text_en": "A particularly damaging phenomenon is **agenda setting**, through which powerful media organisations determine which issues receive public attention and which remain invisible. When combined with ideological bias, this practice can lead to significant **distortion** of public understanding. Moreover, authoritarian governments frequently resort to **censorship** to silence dissenting voices, further eroding the public's capacity for independent thought.",
+        "text_vi": "Một hiện tượng đặc biệt gây hại là **định hướng nghị trình**, thông qua đó các tổ chức truyền thông quyền lực xác định vấn đề nào nhận được sự chú ý của công chúng và vấn đề nào vẫn bị bỏ qua. Kết hợp với định kiến ý thức hệ, thực hành này có thể dẫn đến sự **bóp méo** đáng kể trong nhận thức của công chúng. Hơn nữa, các chính phủ độc tài thường xuyên dùng đến **kiểm duyệt** để bịt miệng các tiếng nói bất đồng, càng làm xói mòn thêm khả năng tư duy độc lập của công chúng."
+      },
+      {
+        "index": 3,
+        "text_en": "The rise of digital platforms has also accelerated **polarisation** within public discourse. Recommendation engines push users into **echo chambers** where they are repeatedly exposed to views that confirm their existing beliefs, reducing exposure to alternative perspectives. Such environments are fertile ground for **propaganda**, which exploits emotional language and selective facts to **shape public narrative** in ways that serve narrow political interests.",
+        "text_vi": "Sự trỗi dậy của các nền tảng kỹ thuật số cũng đã thúc đẩy **sự phân cực** trong diễn ngôn công cộng. Các công cụ đề xuất đẩy người dùng vào các **buồng vang** nơi họ liên tục tiếp xúc với những quan điểm xác nhận niềm tin sẵn có của họ, giảm sự tiếp cận với các góc nhìn thay thế. Những môi trường như vậy là mảnh đất màu mỡ cho **tuyên truyền**, vốn khai thác ngôn ngữ cảm xúc và sự chọn lọc thông tin để **định hình câu chuyện công cộng** theo cách phục vụ lợi ích chính trị hẹp."
+      },
+      {
+        "index": 4,
+        "text_en": "To **combat information manipulation**, media literacy education has emerged as an essential tool. Teaching citizens to identify misleading framing, cross-check sources, and question the motives behind breaking news can help **undermine media credibility** of bad-faith actors while restoring trust in rigorous journalism. Ultimately, a healthy media ecosystem depends on both institutional accountability and an informed, critical audience.",
+        "text_vi": "Để **chống lại sự thao túng thông tin**, giáo dục nhận thức truyền thông đã nổi lên như một công cụ thiết yếu. Dạy công dân nhận biết cách đặt vấn đề gây hiểu lầm, đối chiếu các nguồn tin và đặt câu hỏi về động cơ đằng sau các tin tức nóng hổi có thể giúp **làm suy yếu uy tín truyền thông** của các tác nhân thiếu thiện chí trong khi khôi phục niềm tin vào nền báo chí nghiêm túc. Cuối cùng, một hệ sinh thái truyền thông lành mạnh phụ thuộc vào cả trách nhiệm thể chế lẫn khán giả có hiểu biết và tinh thần phê phán."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "trustworthiness",
+      "ipa": "/ˈtrʌst.wɜː.ði.nəs/",
+      "pos": "noun",
+      "meaning_vi": "độ đáng tin cậy, tính trung thực",
+      "meaning_vi_inline": "độ đáng tin cậy",
+      "example_en": "The trustworthiness of a news outlet depends on its transparency about sources and corrections.",
+      "example_vi": "Độ đáng tin cậy của một cơ quan truyền thông phụ thuộc vào sự minh bạch về nguồn tin và các đính chính.",
+      "word_family": {
+        "noun": "trustworthiness / trust",
+        "verb": "trust",
+        "adjective": "trustworthy",
+        "adverb": "trustworthily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "agenda setting",
+      "ipa": "/əˈdʒen.də ˌset.ɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "định hướng nghị trình, việc xác định chủ đề được chú ý",
+      "meaning_vi_inline": "định hướng nghị trình",
+      "example_en": "Agenda setting by major broadcasters can determine which political issues voters consider most important.",
+      "example_vi": "Việc định hướng nghị trình bởi các hãng phát sóng lớn có thể xác định các vấn đề chính trị nào cử tri cho là quan trọng nhất.",
+      "word_family": {
+        "noun": "agenda / agenda setting",
+        "verb": "set the agenda",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "disinformation",
+      "ipa": "/ˌdɪs.ɪn.fəˈmeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "thông tin sai lệch cố ý, tin giả có chủ đích",
+      "meaning_vi_inline": "thông tin sai lệch cố ý",
+      "example_en": "State-sponsored disinformation campaigns have destabilised elections in several democracies.",
+      "example_vi": "Các chiến dịch thông tin sai lệch do nhà nước hậu thuẫn đã làm bất ổn các cuộc bầu cử ở một số nền dân chủ.",
+      "word_family": {
+        "noun": "disinformation / misinformation",
+        "verb": "disinform",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "misinformation",
+        "explanation_vi": "'Disinformation' là thông tin sai lệch được tạo ra có chủ đích để lừa dối; 'misinformation' là thông tin sai nhưng không nhất thiết có ý định xấu — khác nhau về chủ đích."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "polarisation",
+      "ipa": "/ˌpəʊ.lə.raɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự phân cực, sự chia rẽ cực đoan",
+      "meaning_vi_inline": "sự phân cực",
+      "example_en": "Social media has accelerated political polarisation by rewarding outrage over nuanced debate.",
+      "example_vi": "Mạng xã hội đã thúc đẩy sự phân cực chính trị bằng cách khen thưởng sự phẫn nộ hơn là tranh luận có chiều sâu.",
+      "word_family": {
+        "noun": "polarisation / polarity",
+        "verb": "polarise",
+        "adjective": "polarised / polar",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "censorship",
+      "ipa": "/ˈsen.sə.ʃɪp/",
+      "pos": "noun",
+      "meaning_vi": "sự kiểm duyệt, chế độ kiểm duyệt",
+      "meaning_vi_inline": "kiểm duyệt",
+      "example_en": "Internet censorship in authoritarian states restricts citizens' access to independent reporting.",
+      "example_vi": "Kiểm duyệt internet ở các quốc gia độc tài hạn chế khả năng tiếp cận thông tin độc lập của người dân.",
+      "word_family": {
+        "noun": "censorship / censor",
+        "verb": "censor",
+        "adjective": "censored / censorial",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "amplification",
+      "ipa": "/ˌæm.plɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự khuếch đại, sự lan rộng",
+      "meaning_vi_inline": "sự khuếch đại",
+      "example_en": "The amplification of extreme viewpoints by algorithms has distorted public perception of political norms.",
+      "example_vi": "Sự khuếch đại các quan điểm cực đoan bởi các thuật toán đã bóp méo nhận thức công chúng về các chuẩn mực chính trị.",
+      "word_family": {
+        "noun": "amplification / amplifier",
+        "verb": "amplify",
+        "adjective": "amplified",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "echo chamber",
+      "ipa": "/ˈek.əʊ ˌtʃeɪm.bər/",
+      "pos": "noun",
+      "meaning_vi": "buồng vang, môi trường thông tin khép kín đồng thuận",
+      "meaning_vi_inline": "buồng vang",
+      "example_en": "People who only follow like-minded accounts online risk living inside an echo chamber.",
+      "example_vi": "Những người chỉ theo dõi các tài khoản đồng quan điểm trực tuyến có nguy cơ sống trong một buồng vang.",
+      "word_family": {
+        "noun": "echo chamber",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "propaganda",
+      "ipa": "/ˌprɒp.əˈɡæn.də/",
+      "pos": "noun",
+      "meaning_vi": "tuyên truyền, thông tin mang tính thao túng",
+      "meaning_vi_inline": "tuyên truyền",
+      "example_en": "Wartime propaganda portrayed the enemy as subhuman in order to dehumanise opposition.",
+      "example_vi": "Tuyên truyền thời chiến mô tả kẻ thù như là không phải con người để phi nhân hoá phía đối lập.",
+      "word_family": {
+        "noun": "propaganda / propagandist",
+        "verb": "propagandise",
+        "adjective": "propagandistic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "editorial",
+      "ipa": "/ˌed.ɪˈtɔː.ri.əl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "bài xã luận; thuộc về biên tập",
+      "meaning_vi_inline": "biên tập / xã luận",
+      "example_en": "The newspaper's editorial defended the decision to publish the leaked government documents.",
+      "example_vi": "Bài xã luận của tờ báo bảo vệ quyết định đăng tải các tài liệu chính phủ bị rò rỉ.",
+      "word_family": {
+        "noun": "editorial / editor / edition",
+        "verb": "edit",
+        "adjective": "editorial",
+        "adverb": "editorially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "distortion",
+      "ipa": "/dɪˈstɔː.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự bóp méo, sự xuyên tạc",
+      "meaning_vi_inline": "sự bóp méo",
+      "example_en": "Selective quotation is a common form of distortion used to misrepresent a politician's position.",
+      "example_vi": "Trích dẫn có chọn lọc là một hình thức bóp méo phổ biến được dùng để xuyên tạc lập trường của một chính trị gia.",
+      "word_family": {
+        "noun": "distortion",
+        "verb": "distort",
+        "adjective": "distorted / distorting",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "undermine media credibility",
+      "meaning_vi": "làm suy yếu uy tín truyền thông",
+      "example_en": "Repeated errors and retractions can permanently undermine media credibility in the eyes of the public.",
+      "example_vi": "Những sai sót và cải chính lặp đi lặp lại có thể làm suy yếu vĩnh viễn uy tín truyền thông trong mắt công chúng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "reinforce ideological polarisation",
+      "meaning_vi": "củng cố sự phân cực ý thức hệ",
+      "example_en": "Partisan cable news channels often reinforce ideological polarisation rather than fostering informed debate.",
+      "example_vi": "Các kênh truyền hình cáp mang tính đảng phái thường củng cố sự phân cực ý thức hệ thay vì thúc đẩy tranh luận có hiểu biết.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "amplify misinformation",
+      "meaning_vi": "khuếch đại thông tin sai lệch",
+      "example_en": "Sharing unverified posts on social media can inadvertently amplify misinformation to thousands of people.",
+      "example_vi": "Chia sẻ các bài đăng chưa được kiểm chứng trên mạng xã hội có thể vô tình khuếch đại thông tin sai lệch đến hàng nghìn người.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "shape public narrative",
+      "meaning_vi": "định hình câu chuyện công cộng",
+      "example_en": "Governments and corporations invest heavily in communications teams that help shape public narrative around key issues.",
+      "example_vi": "Các chính phủ và tập đoàn đầu tư mạnh vào các đội truyền thông giúp định hình câu chuyện công cộng xung quanh các vấn đề quan trọng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "combat information manipulation",
+      "meaning_vi": "chống lại sự thao túng thông tin",
+      "example_en": "International organisations are collaborating to develop standards that help combat information manipulation online.",
+      "example_vi": "Các tổ chức quốc tế đang hợp tác để xây dựng các tiêu chuẩn giúp chống lại sự thao túng thông tin trực tuyến.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, disinformation spreads more quickly than accurately verified news reporting.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that all major media organisations deliberately practise agenda setting to deceive the public.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that echo chambers reduce citizens' exposure to diverse viewpoints.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, censorship is used exclusively by governments in Asia.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that media literacy education can help restore trust in responsible journalism.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The documentary was criticised for its obvious _____ of the facts, presenting only evidence that supported one side.",
+          "options": [
+            "amplification",
+            "censorship",
+            "distortion",
+            "editorial"
+          ],
+          "answer": "distortion"
+        },
+        {
+          "id": 2,
+          "sentence": "The government's decision to block social media during the protests was widely condemned as _____ of free speech.",
+          "options": [
+            "propaganda",
+            "censorship",
+            "polarisation",
+            "agenda setting"
+          ],
+          "answer": "censorship"
+        },
+        {
+          "id": 3,
+          "sentence": "When people only consume news that confirms their beliefs, they often retreat into an _____ that distorts their view of reality.",
+          "options": [
+            "editorial",
+            "echo chamber",
+            "amplification",
+            "agenda setting"
+          ],
+          "answer": "echo chamber"
+        },
+        {
+          "id": 4,
+          "sentence": "The rapid _____ of conspiracy theories by influencers made it nearly impossible for health authorities to correct the record.",
+          "options": [
+            "distortion",
+            "polarisation",
+            "censorship",
+            "amplification"
+          ],
+          "answer": "amplification"
+        },
+        {
+          "id": 5,
+          "sentence": "The newspaper's _____ board decided not to endorse any candidate in the upcoming election.",
+          "options": [
+            "propaganda",
+            "censorship",
+            "editorial",
+            "echo chamber"
+          ],
+          "answer": "editorial"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "trustworthiness",
+        "disinformation",
+        "propaganda",
+        "polarisation",
+        "distortion",
+        "agenda setting"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The regime's _____ apparatus painted all foreign journalists as enemy spies working to destabilise the nation.",
+          "answer": "propaganda"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers found that _____ campaigns originating abroad had influenced voters' perceptions in the election.",
+          "answer": "disinformation"
+        },
+        {
+          "id": 3,
+          "sentence": "Critics argue that _____ by major broadcasters means that important social issues are often ignored in favour of political drama.",
+          "answer": "agenda setting"
+        },
+        {
+          "id": 4,
+          "sentence": "A journalist's _____ is built over years of accurate reporting and is destroyed by a single fabricated story.",
+          "answer": "trustworthiness"
+        },
+        {
+          "id": 5,
+          "sentence": "Growing political _____ means that citizens find it harder to engage in good-faith dialogue with those who hold opposing views.",
+          "answer": "polarisation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "media",
+            "literacy",
+            "helps",
+            "citizens",
+            "identify",
+            "disinformation",
+            "online"
+          ],
+          "answer": "Media literacy helps citizens identify disinformation online."
+        },
+        {
+          "id": 2,
+          "words": [
+            "echo",
+            "chambers",
+            "reinforce",
+            "existing",
+            "beliefs",
+            "and",
+            "deepen",
+            "political",
+            "polarisation"
+          ],
+          "answer": "Echo chambers reinforce existing beliefs and deepen political polarisation."
+        },
+        {
+          "id": 3,
+          "words": [
+            "censorship",
+            "prevents",
+            "journalists",
+            "from",
+            "reporting",
+            "government",
+            "corruption"
+          ],
+          "answer": "Censorship prevents journalists from reporting government corruption."
+        },
+        {
+          "id": 4,
+          "words": [
+            "propaganda",
+            "exploits",
+            "emotional",
+            "language",
+            "to",
+            "shape",
+            "public",
+            "opinion"
+          ],
+          "answer": "Propaganda exploits emotional language to shape public opinion."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "amplification",
+            "of",
+            "false",
+            "narratives",
+            "undermines",
+            "trust",
+            "in",
+            "mainstream",
+            "journalism"
+          ],
+          "answer": "The amplification of false narratives undermines trust in mainstream journalism."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [distort] of facts in the report was so severe that the broadcaster issued a public apology.",
+          "highlighted": "distort",
+          "options": {
+            "A": "distorted",
+            "B": "distortion",
+            "C": "distorting"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'distortion', not the verb 'distort'."
+        },
+        {
+          "id": 2,
+          "sentence": "The government's [censoring] of the internet was condemned by international press freedom organisations.",
+          "highlighted": "censoring",
+          "options": {
+            "A": "censorship",
+            "B": "censored",
+            "C": "censor"
+          },
+          "answer": "A",
+          "explanation": "'Censorship' is the correct noun form referring to the practice or policy; 'censoring' is a gerund that implies an ongoing action rather than naming the system itself."
+        },
+        {
+          "id": 3,
+          "sentence": "Her research showed that algorithmic [amplify] of extreme content had measurably increased political tension.",
+          "highlighted": "amplify",
+          "options": {
+            "A": "amplified",
+            "B": "amplification",
+            "C": "amplifies"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after 'algorithmic' to serve as the subject of the clause — 'amplification', not the verb 'amplify'."
+        },
+        {
+          "id": 4,
+          "sentence": "The [propagandist] campaign relied on fabricated images and emotional language to sway public opinion.",
+          "highlighted": "propagandist",
+          "options": {
+            "A": "propagandise",
+            "B": "propaganda",
+            "C": "propagandistic"
+          },
+          "answer": "C",
+          "explanation": "An adjective is needed to modify 'campaign' — 'propagandistic', not the noun 'propagandist' which refers to a person."
+        },
+        {
+          "id": 5,
+          "sentence": "A news outlet's [trustworthy] depends on consistent accuracy, transparency, and willingness to issue corrections.",
+          "highlighted": "trustworthy",
+          "options": {
+            "A": "trustworthiness",
+            "B": "trust",
+            "C": "trusted"
+          },
+          "answer": "A",
+          "explanation": "A noun is required as the subject of the sentence — 'trustworthiness', not the adjective 'trustworthy'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "distortion",
+      "2": "censorship",
+      "3": "echo chamber",
+      "4": "amplification",
+      "5": "editorial"
+    },
+    "ex3": {
+      "1": "propaganda",
+      "2": "disinformation",
+      "3": "agenda setting",
+      "4": "trustworthiness",
+      "5": "polarisation"
+    },
+    "ex4": {
+      "1": "Media literacy helps citizens identify disinformation online.",
+      "2": "Echo chambers reinforce existing beliefs and deepen political polarisation.",
+      "3": "Censorship prevents journalists from reporting government corruption.",
+      "4": "Propaganda exploits emotional language to shape public opinion.",
+      "5": "The amplification of false narratives undermines trust in mainstream journalism."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

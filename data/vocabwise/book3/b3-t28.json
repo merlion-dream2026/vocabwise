@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 28,
+    "topic_id": "b3-t28",
+    "topic_title": "Understanding the Economy",
+    "topic_title_vi": "Hiểu Về Kinh Tế",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "📈",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Managing a national economy requires balancing competing forces. When **inflation** rises too sharply, the purchasing power of citizens erodes, making everyday goods and services less affordable. Central banks respond by tightening **monetary** policy — raising interest rates to slow borrowing and spending. The challenge is doing so without tipping the economy into **recession**, a period of contraction that raises unemployment and reduces output.",
+        "text_vi": "Quản lý nền kinh tế quốc gia đòi hỏi cân bằng các lực lượng cạnh tranh nhau. Khi **lạm phát** tăng quá mạnh, sức mua của người dân bị xói mòn, khiến hàng hóa và dịch vụ hàng ngày trở nên kém khả dụng hơn. Các ngân hàng trung ương phản ứng bằng cách thắt chặt chính sách **tiền tệ** — tăng lãi suất để làm chậm đi vay và chi tiêu. Thách thức là làm điều đó mà không đẩy nền kinh tế vào **suy thoái** — một giai đoạn co lại làm tăng thất nghiệp và giảm sản lượng."
+      },
+      {
+        "index": 2,
+        "text_en": "Governments also use **fiscal** tools — taxation and public spending — to steer the economy. When they spend more than they collect in taxes, they **run a budget deficit**, borrowing to cover the gap. Critics argue that large deficits burden future generations, while supporters contend that strategic borrowing can **stimulate economic growth** during downturns. A **subsidy** directed at struggling industries or households is another fiscal instrument, though it must be financed somehow.",
+        "text_vi": "Chính phủ cũng sử dụng các công cụ **tài khóa** — thuế và chi tiêu công — để điều hướng nền kinh tế. Khi chi tiêu nhiều hơn số thu từ thuế, họ sẽ **thâm hụt ngân sách**, phải đi vay để bù đắp phần thiếu hụt. Những người phê bình lập luận rằng thâm hụt lớn sẽ gây gánh nặng cho các thế hệ tương lai, trong khi những người ủng hộ cho rằng vay mượn chiến lược có thể **kích thích tăng trưởng kinh tế** trong giai đoạn suy thoái. Một **khoản trợ cấp** hướng đến các ngành công nghiệp hay hộ gia đình gặp khó khăn là một công cụ tài khóa khác, dù phải có nguồn tài chính để thực hiện."
+      },
+      {
+        "index": 3,
+        "text_en": "In times of crisis, governments sometimes impose **austerity** — cutting public services and welfare to reduce deficits. The social cost can be severe, particularly for lower-income groups who rely on state support. **Deregulation** of markets is another contested policy: proponents argue it encourages competition and innovation; critics warn it can destabilise financial systems. The price of a **commodity** like oil or grain, often set by global supply and demand, can further complicate domestic policymaking.",
+        "text_vi": "Trong thời kỳ khủng hoảng, các chính phủ đôi khi áp đặt **chính sách thắt lưng buộc bụng** — cắt giảm dịch vụ công và phúc lợi để giảm thâm hụt. Chi phí xã hội có thể rất nghiêm trọng, đặc biệt đối với các nhóm thu nhập thấp phụ thuộc vào hỗ trợ của nhà nước. **Bãi bỏ quy định** thị trường là một chính sách khác cũng gây tranh cãi: những người ủng hộ lập luận rằng nó khuyến khích cạnh tranh và đổi mới; những người phê bình cảnh báo nó có thể làm bất ổn hệ thống tài chính. Giá cả của một **hàng hóa** như dầu hay ngũ cốc, thường được xác định bởi cung cầu toàn cầu, có thể làm phức tạp thêm việc hoạch định chính sách trong nước."
+      },
+      {
+        "index": 4,
+        "text_en": "Economists speak of market **equilibrium** as the point where supply meets demand at a stable price. In practice, economies are rarely in perfect balance — external shocks, speculation, and policy errors all cause fluctuations. Policymakers must **control inflationary pressure** without stifling growth, while simultaneously deciding whether to **implement austerity measures** or invest in recovery. Balancing these competing priorities and learning to **liberalise financial markets** responsibly remains one of the defining challenges of modern governance.",
+        "text_vi": "Các nhà kinh tế nói đến **cân bằng** thị trường như là điểm tại đó cung gặp cầu ở một mức giá ổn định. Trong thực tế, các nền kinh tế hiếm khi ở trạng thái cân bằng hoàn hảo — các cú sốc bên ngoài, đầu cơ và sai lầm chính sách đều gây ra biến động. Các nhà hoạch định chính sách phải **kiểm soát áp lực lạm phát** mà không kìm hãm tăng trưởng, đồng thời quyết định có nên **thực thi các biện pháp thắt lưng buộc bụng** hay đầu tư vào phục hồi. Cân bằng những ưu tiên cạnh tranh này và học cách **tự do hóa thị trường tài chính** một cách có trách nhiệm vẫn là một trong những thách thức định hình của quản trị hiện đại."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "inflation",
+      "ipa": "/ɪnˈfleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "lạm phát",
+      "meaning_vi_inline": "lạm phát",
+      "example_en": "Rising inflation erodes the real value of savings and reduces consumer purchasing power.",
+      "example_vi": "Lạm phát tăng làm xói mòn giá trị thực của tiền tiết kiệm và giảm sức mua của người tiêu dùng.",
+      "word_family": {
+        "noun": "inflation / inflationary pressure",
+        "verb": "inflate",
+        "adjective": "inflationary / inflated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "recession",
+      "ipa": "/rɪˈseʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "suy thoái kinh tế",
+      "meaning_vi_inline": "suy thoái",
+      "example_en": "The global recession of 2008 led to widespread job losses across many industries.",
+      "example_vi": "Cuộc suy thoái toàn cầu năm 2008 dẫn đến tình trạng mất việc làm trên diện rộng ở nhiều ngành.",
+      "word_family": {
+        "noun": "recession",
+        "verb": "recede",
+        "adjective": "recessionary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "fiscal",
+      "ipa": "/ˈfɪs.kəl/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về tài khóa, ngân sách nhà nước",
+      "meaning_vi_inline": "tài khóa",
+      "example_en": "The government announced a new fiscal package to support small businesses during the downturn.",
+      "example_vi": "Chính phủ công bố gói tài khóa mới để hỗ trợ các doanh nghiệp vừa và nhỏ trong giai đoạn suy thoái.",
+      "word_family": {
+        "noun": "fiscal policy / fiscal year",
+        "verb": null,
+        "adjective": "fiscal",
+        "adverb": "fiscally"
+      },
+      "false_friend": {
+        "word_vi": "physical",
+        "explanation_vi": "'Fiscal' liên quan đến tài chính công; 'physical' liên quan đến thể chất hoặc vật lý — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "monetary",
+      "ipa": "/ˈmʌn.ɪ.tər.i/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về tiền tệ",
+      "meaning_vi_inline": "tiền tệ",
+      "example_en": "Monetary policy decisions by the central bank affect interest rates and the money supply.",
+      "example_vi": "Các quyết định chính sách tiền tệ của ngân hàng trung ương ảnh hưởng đến lãi suất và cung tiền.",
+      "word_family": {
+        "noun": "money / monetary policy",
+        "verb": "monetise",
+        "adjective": "monetary",
+        "adverb": "monetarily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "deficit",
+      "ipa": "/ˈdef.ɪ.sɪt/",
+      "pos": "noun",
+      "meaning_vi": "thâm hụt, thiếu hụt",
+      "meaning_vi_inline": "thâm hụt",
+      "example_en": "Running a persistent budget deficit can undermine investor confidence in a country's finances.",
+      "example_vi": "Thâm hụt ngân sách kéo dài có thể làm xói mòn niềm tin của nhà đầu tư vào tài chính của một quốc gia.",
+      "word_family": {
+        "noun": "deficit",
+        "verb": null,
+        "adjective": "deficit (attributive)",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "subsidy",
+      "ipa": "/ˈsʌb.sɪ.di/",
+      "pos": "noun",
+      "meaning_vi": "trợ cấp, trợ giá",
+      "meaning_vi_inline": "trợ cấp",
+      "example_en": "Agricultural subsidies help farmers stay competitive against cheaper imported produce.",
+      "example_vi": "Trợ cấp nông nghiệp giúp nông dân duy trì tính cạnh tranh trước hàng nông sản nhập khẩu rẻ hơn.",
+      "word_family": {
+        "noun": "subsidy / subsidisation",
+        "verb": "subsidise",
+        "adjective": "subsidised",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "austerity",
+      "ipa": "/ɒˈster.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "chính sách thắt lưng buộc bụng, khắc khổ tài chính",
+      "meaning_vi_inline": "thắt lưng buộc bụng",
+      "example_en": "Years of austerity reduced public debt but also led to widespread cuts in healthcare and education.",
+      "example_vi": "Nhiều năm thắt lưng buộc bụng đã giảm nợ công nhưng cũng dẫn đến cắt giảm rộng rãi trong y tế và giáo dục.",
+      "word_family": {
+        "noun": "austerity",
+        "verb": null,
+        "adjective": "austere",
+        "adverb": "austerely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "commodity",
+      "ipa": "/kəˈmɒd.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "hàng hóa (đặc biệt là nguyên liệu thô)",
+      "meaning_vi_inline": "hàng hóa",
+      "example_en": "Global commodity prices, such as oil and wheat, are highly sensitive to geopolitical events.",
+      "example_vi": "Giá hàng hóa toàn cầu như dầu và lúa mì rất nhạy cảm với các sự kiện địa chính trị.",
+      "word_family": {
+        "noun": "commodity / commodification",
+        "verb": "commodify",
+        "adjective": "commodified",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "deregulation",
+      "ipa": "/ˌdiː.reg.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "bãi bỏ quy định, tự do hóa",
+      "meaning_vi_inline": "bãi bỏ quy định",
+      "example_en": "Critics argued that financial deregulation in the 1990s contributed to the 2008 banking crisis.",
+      "example_vi": "Những người phê bình cho rằng việc bãi bỏ quy định tài chính trong những năm 1990 đã góp phần vào cuộc khủng hoảng ngân hàng năm 2008.",
+      "word_family": {
+        "noun": "deregulation",
+        "verb": "deregulate",
+        "adjective": "deregulated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "equilibrium",
+      "ipa": "/ˌiː.kwɪˈlɪb.ri.əm/",
+      "pos": "noun",
+      "meaning_vi": "trạng thái cân bằng",
+      "meaning_vi_inline": "cân bằng",
+      "example_en": "Markets tend towards equilibrium when supply and demand are left to adjust freely.",
+      "example_vi": "Thị trường có xu hướng đạt trạng thái cân bằng khi cung và cầu được phép điều chỉnh tự do.",
+      "word_family": {
+        "noun": "equilibrium",
+        "verb": null,
+        "adjective": "equilibrant",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "stimulate economic growth",
+      "meaning_vi": "kích thích tăng trưởng kinh tế",
+      "example_en": "The government introduced a series of infrastructure projects to stimulate economic growth after the recession.",
+      "example_vi": "Chính phủ đã triển khai một loạt dự án cơ sở hạ tầng để kích thích tăng trưởng kinh tế sau suy thoái.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "implement austerity measures",
+      "meaning_vi": "thực thi các biện pháp thắt lưng buộc bụng",
+      "example_en": "The new government was forced to implement austerity measures to bring the budget deficit under control.",
+      "example_vi": "Chính phủ mới buộc phải thực thi các biện pháp thắt lưng buộc bụng để kiểm soát thâm hụt ngân sách.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "run a budget deficit",
+      "meaning_vi": "thâm hụt ngân sách",
+      "example_en": "Many advanced economies ran a budget deficit during the pandemic to fund emergency support packages.",
+      "example_vi": "Nhiều nền kinh tế phát triển đã thâm hụt ngân sách trong đại dịch để tài trợ cho các gói hỗ trợ khẩn cấp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "control inflationary pressure",
+      "meaning_vi": "kiểm soát áp lực lạm phát",
+      "example_en": "Central banks raise interest rates primarily to control inflationary pressure before it becomes entrenched.",
+      "example_vi": "Các ngân hàng trung ương tăng lãi suất chủ yếu để kiểm soát áp lực lạm phát trước khi nó trở nên cố hữu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "liberalise financial markets",
+      "meaning_vi": "tự do hóa thị trường tài chính",
+      "example_en": "Efforts to liberalise financial markets must be accompanied by robust regulatory oversight to prevent systemic risk.",
+      "example_vi": "Nỗ lực tự do hóa thị trường tài chính phải đi kèm với giám sát quy định chặt chẽ để ngăn ngừa rủi ro hệ thống.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, central banks raise interest rates in response to high inflation.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that all economists agree that running a budget deficit is harmful.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage mentions that austerity always leads to political instability.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, commodity prices can complicate domestic economic policymaking.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that perfect market equilibrium is a realistic goal for modern economies.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The central bank cut interest rates to prevent the economy from sliding into a deep _____.",
+          "options": [
+            "austerity",
+            "recession",
+            "subsidy",
+            "commodity"
+          ],
+          "answer": "recession"
+        },
+        {
+          "id": 2,
+          "sentence": "The price of every major _____, from copper to wheat, fell sharply during the trade dispute.",
+          "options": [
+            "deficit",
+            "equilibrium",
+            "commodity",
+            "inflation"
+          ],
+          "answer": "commodity"
+        },
+        {
+          "id": 3,
+          "sentence": "After years of overspending, the government finally committed to reducing the budget _____.",
+          "options": [
+            "subsidy",
+            "deregulation",
+            "deficit",
+            "monetary"
+          ],
+          "answer": "deficit"
+        },
+        {
+          "id": 4,
+          "sentence": "Critics of _____ argued that removing safety regulations exposed consumers to unnecessary financial risk.",
+          "options": [
+            "austerity",
+            "equilibrium",
+            "inflation",
+            "deregulation"
+          ],
+          "answer": "deregulation"
+        },
+        {
+          "id": 5,
+          "sentence": "The export industry depended heavily on a government _____ to keep prices competitive in overseas markets.",
+          "options": [
+            "recession",
+            "subsidy",
+            "fiscal",
+            "monetary"
+          ],
+          "answer": "subsidy"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "inflation",
+        "fiscal",
+        "monetary",
+        "equilibrium",
+        "austerity",
+        "deficit"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When supply and demand are in _____, prices tend to remain stable.",
+          "answer": "equilibrium"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ policy introduced by the government included tax increases and pension reforms.",
+          "answer": "fiscal"
+        },
+        {
+          "id": 3,
+          "sentence": "High _____ reduces the real purchasing power of consumers and erodes fixed incomes.",
+          "answer": "inflation"
+        },
+        {
+          "id": 4,
+          "sentence": "The country's _____ programme involved cutting welfare benefits and public sector wages.",
+          "answer": "austerity"
+        },
+        {
+          "id": 5,
+          "sentence": "The central bank's _____ committee met to decide whether to raise or hold interest rates.",
+          "answer": "monetary"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "rising",
+            "inflation",
+            "erodes",
+            "the",
+            "purchasing",
+            "power",
+            "of",
+            "consumers"
+          ],
+          "answer": "Rising inflation erodes the purchasing power of consumers."
+        },
+        {
+          "id": 2,
+          "words": [
+            "governments",
+            "sometimes",
+            "borrow",
+            "to",
+            "cover",
+            "their",
+            "budget",
+            "deficit"
+          ],
+          "answer": "Governments sometimes borrow to cover their budget deficit."
+        },
+        {
+          "id": 3,
+          "words": [
+            "deregulation",
+            "can",
+            "boost",
+            "competition",
+            "but",
+            "may",
+            "also",
+            "increase",
+            "financial",
+            "risk"
+          ],
+          "answer": "Deregulation can boost competition but may also increase financial risk."
+        },
+        {
+          "id": 4,
+          "words": [
+            "commodity",
+            "prices",
+            "are",
+            "determined",
+            "by",
+            "global",
+            "supply",
+            "and",
+            "demand"
+          ],
+          "answer": "Commodity prices are determined by global supply and demand."
+        },
+        {
+          "id": 5,
+          "words": [
+            "market",
+            "equilibrium",
+            "is",
+            "rarely",
+            "achieved",
+            "in",
+            "modern",
+            "economies"
+          ],
+          "answer": "Market equilibrium is rarely achieved in modern economies."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Rapid [inflate] can quickly wipe out the gains made by wage increases.",
+          "highlighted": "inflate",
+          "options": {
+            "A": "inflating",
+            "B": "inflationary",
+            "C": "inflation"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the sentence — 'inflation', not the verb 'inflate'."
+        },
+        {
+          "id": 2,
+          "sentence": "The government chose to [subsidise] austerity over investment to restore market confidence.",
+          "highlighted": "subsidise",
+          "options": {
+            "A": "prioritise",
+            "B": "implement",
+            "C": "subsidise"
+          },
+          "answer": "A",
+          "explanation": "The context describes a policy choice between austerity and investment — 'prioritise' fits; 'subsidise' contradicts the meaning."
+        },
+        {
+          "id": 3,
+          "sentence": "A prolonged [recessionary] forced the government to abandon its planned infrastructure projects.",
+          "highlighted": "recessionary",
+          "options": {
+            "A": "recede",
+            "B": "recession",
+            "C": "recessive"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after the article 'A' to serve as the sentence subject — 'recession', not the adjective 'recessionary'."
+        },
+        {
+          "id": 4,
+          "sentence": "The market eventually reached [equilibrate] after months of volatile price swings.",
+          "highlighted": "equilibrate",
+          "options": {
+            "A": "equilibrium",
+            "B": "equilibrating",
+            "C": "equilibrated"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed after 'reached' as the object — 'equilibrium', not the verb 'equilibrate'."
+        },
+        {
+          "id": 5,
+          "sentence": "Cutting energy [subsidise] without a transition plan risks pushing vulnerable households into poverty.",
+          "highlighted": "subsidise",
+          "options": {
+            "A": "subsidised",
+            "B": "subsidising",
+            "C": "subsidies"
+          },
+          "answer": "C",
+          "explanation": "A plural noun is required as the object of 'Cutting' — 'subsidies', not the verb 'subsidise'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "recession",
+      "2": "commodity",
+      "3": "deficit",
+      "4": "deregulation",
+      "5": "subsidy"
+    },
+    "ex3": {
+      "1": "equilibrium",
+      "2": "fiscal",
+      "3": "inflation",
+      "4": "austerity",
+      "5": "monetary"
+    },
+    "ex4": {
+      "1": "Rising inflation erodes the purchasing power of consumers.",
+      "2": "Governments sometimes borrow to cover their budget deficit.",
+      "3": "Deregulation can boost competition but may also increase financial risk.",
+      "4": "Commodity prices are determined by global supply and demand.",
+      "5": "Market equilibrium is rarely achieved in modern economies."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

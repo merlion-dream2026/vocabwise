@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 31,
+    "topic_id": "b1-t31",
+    "topic_title": "Classroom & School Life",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🏫",
+    "topic_title_vi": "Lớp Học & Cuộc Sống Học Đường",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 116,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Every morning, students walk through the school **gate** and go to their **classroom**. The teacher writes on the **board** with **chalk**. Each student has a **desk** and a **chair**, and they use a **pen** or **pencil** to take notes.",
+        "text_vi": "Mỗi buổi sáng, học sinh đi qua **cổng** trường và vào **lớp học** của mình. Giáo viên viết lên **bảng** bằng **phấn**. Mỗi học sinh có một **bàn học** và một **ghế**, và các em dùng **bút mực** hoặc **bút chì** để ghi chép."
+      },
+      {
+        "index": 2,
+        "text_en": "The teacher has a **rule** for the class: everyone must be quiet and listen carefully. A **timetable** on the wall shows which lessons happen each day. When the **bell** rings, it is time to start or finish a lesson.",
+        "text_vi": "Giáo viên có một **quy tắc** cho lớp: mọi người phải giữ im lặng và lắng nghe cẩn thận. Một **thời khóa biểu** trên tường cho biết bài học nào diễn ra mỗi ngày. Khi **chuông** reo, đó là lúc bắt đầu hoặc kết thúc một tiết học."
+      },
+      {
+        "index": 3,
+        "text_en": "At lunchtime, there is a **break** and students leave their classrooms. Some walk along the **corridor** to the **canteen**, where they can buy food and drinks. It is a fun time to relax and talk with friends.",
+        "text_vi": "Vào buổi trưa, có một **giờ giải lao** và học sinh rời khỏi phòng học. Một số đi dọc theo **hành lang** đến **căng-tin**, nơi các em có thể mua đồ ăn và nước uống. Đó là khoảng thời gian vui vẻ để thư giãn và trò chuyện với bạn bè."
+      },
+      {
+        "index": 4,
+        "text_en": "All students wear a school **uniform** so everyone looks the same. At the end of the day, the **bell** rings again and students walk out through the **gate**. School life is busy, but it is also exciting and full of new things to learn.",
+        "text_vi": "Tất cả học sinh đều mặc **đồng phục** trường để mọi người trông giống nhau. Cuối ngày, **chuông** lại reo và học sinh đi ra ngoài qua **cổng**. Cuộc sống học đường bận rộn, nhưng cũng thú vị và đầy những điều mới để học."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "classroom",
+      "ipa": "/ˈklɑːsruːm/",
+      "pos": "noun",
+      "meaning_vi": "phòng học, lớp học",
+      "meaning_vi_inline": "lớp học",
+      "example_en": "There are thirty students in our classroom, and the walls are covered with colourful posters.",
+      "example_vi": "Có ba mươi học sinh trong lớp học của chúng tôi, và các bức tường được dán đầy những tờ áp phích đầy màu sắc.",
+      "word_family": {
+        "noun": "classroom / class",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "board",
+      "ipa": "/bɔːd/",
+      "pos": "noun",
+      "meaning_vi": "bảng (viết)",
+      "meaning_vi_inline": "bảng",
+      "example_en": "The teacher wrote the new vocabulary words on the board so that everyone could see them.",
+      "example_vi": "Giáo viên viết các từ vựng mới lên bảng để mọi người có thể nhìn thấy.",
+      "word_family": {
+        "noun": "board / blackboard / whiteboard",
+        "verb": "board",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "chalk",
+      "ipa": "/tʃɔːk/",
+      "pos": "noun",
+      "meaning_vi": "phấn viết bảng",
+      "meaning_vi_inline": "phấn",
+      "example_en": "The teacher used white chalk to draw a map on the blackboard.",
+      "example_vi": "Giáo viên dùng phấn trắng để vẽ một bản đồ lên bảng đen.",
+      "word_family": {
+        "noun": "chalk",
+        "verb": "chalk (to write with chalk)",
+        "adjective": "chalky",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "desk",
+      "ipa": "/desk/",
+      "pos": "noun",
+      "meaning_vi": "bàn học, bàn làm việc",
+      "meaning_vi_inline": "bàn học",
+      "example_en": "Please keep your desk tidy — put your books and pens away after each lesson.",
+      "example_vi": "Hãy giữ bàn học của bạn gọn gàng — cất sách và bút đi sau mỗi tiết học.",
+      "word_family": {
+        "noun": "desk",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "chair",
+      "ipa": "/tʃeə/",
+      "pos": "noun",
+      "meaning_vi": "ghế",
+      "meaning_vi_inline": "ghế",
+      "example_en": "She pulled her chair closer to the desk so she could read the textbook more easily.",
+      "example_vi": "Cô ấy kéo ghế lại gần bàn hơn để có thể đọc sách giáo khoa dễ dàng hơn.",
+      "word_family": {
+        "noun": "chair / armchair",
+        "verb": "chair (to lead a meeting)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "pen",
+      "ipa": "/pen/",
+      "pos": "noun",
+      "meaning_vi": "bút mực, bút bi",
+      "meaning_vi_inline": "bút mực",
+      "example_en": "Remember to bring a blue or black pen to the exam — pencil is not allowed.",
+      "example_vi": "Nhớ mang bút mực màu xanh hoặc đen đến kỳ thi — bút chì không được phép dùng.",
+      "word_family": {
+        "noun": "pen / ballpoint pen",
+        "verb": "pen (to write)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "pencil",
+      "ipa": "/ˈpensl/",
+      "pos": "noun",
+      "meaning_vi": "bút chì",
+      "meaning_vi_inline": "bút chì",
+      "example_en": "She used a pencil to draw the picture so she could erase any mistakes easily.",
+      "example_vi": "Cô ấy dùng bút chì để vẽ tranh để có thể tẩy những lỗi sai dễ dàng.",
+      "word_family": {
+        "noun": "pencil / pencil case",
+        "verb": "pencil (to write or sketch in pencil)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "rule",
+      "ipa": "/ruːl/",
+      "pos": "noun",
+      "meaning_vi": "quy tắc, nội quy; thước kẻ",
+      "meaning_vi_inline": "quy tắc",
+      "example_en": "The most important school rule is to arrive on time and show respect to the teacher.",
+      "example_vi": "Quy tắc quan trọng nhất ở trường là đến đúng giờ và tôn trọng giáo viên.",
+      "word_family": {
+        "noun": "rule / ruler",
+        "verb": "rule (to govern)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "bell",
+      "ipa": "/bel/",
+      "pos": "noun",
+      "meaning_vi": "chuông (trường học)",
+      "meaning_vi_inline": "chuông",
+      "example_en": "The bell rang at eight o'clock and all the students quickly went to their classrooms.",
+      "example_vi": "Chuông reo lúc tám giờ và tất cả học sinh nhanh chóng đi vào lớp học của mình.",
+      "word_family": {
+        "noun": "bell / doorbell",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "break",
+      "ipa": "/breɪk/",
+      "pos": "noun",
+      "meaning_vi": "giờ giải lao, giờ nghỉ giữa tiết",
+      "meaning_vi_inline": "giờ giải lao",
+      "example_en": "During the morning break, students go outside to play or buy a snack from the canteen.",
+      "example_vi": "Trong giờ giải lao buổi sáng, học sinh ra ngoài chơi hoặc mua đồ ăn nhẹ ở căng-tin.",
+      "word_family": {
+        "noun": "break / breaktime",
+        "verb": "break / broke / broken",
+        "adjective": "broken",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "bờ-rếch",
+        "explanation_vi": "Người Việt hay dùng 'break' theo nghĩa 'nghỉ giải lao' (đúng), nhưng đừng nhầm với 'break' nghĩa là 'phá vỡ' (động từ). Ví dụ: 'We have a break now' (nghỉ giải lao) khác với 'Don't break the glass' (đừng làm vỡ cốc)."
+      }
+    },
+    {
+      "id": 11,
+      "word": "corridor",
+      "ipa": "/ˈkɒrɪdɔː/",
+      "pos": "noun",
+      "meaning_vi": "hành lang (trong trường học hoặc tòa nhà)",
+      "meaning_vi_inline": "hành lang",
+      "example_en": "Students must walk quietly in the corridor so they do not disturb other classes.",
+      "example_vi": "Học sinh phải đi lại nhẹ nhàng trong hành lang để không làm phiền các lớp khác.",
+      "word_family": {
+        "noun": "corridor / hallway",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "canteen",
+      "ipa": "/kænˈtiːn/",
+      "pos": "noun",
+      "meaning_vi": "căng-tin, căn-tin (nhà ăn trong trường)",
+      "meaning_vi_inline": "căng-tin",
+      "example_en": "The school canteen serves hot meals every day — my favourite is fried rice with chicken.",
+      "example_vi": "Căng-tin trường phục vụ bữa ăn nóng mỗi ngày — món tôi yêu thích là cơm rang với gà.",
+      "word_family": {
+        "noun": "canteen / cafeteria",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "timetable",
+      "ipa": "/ˈtaɪmˌteɪbl/",
+      "pos": "noun",
+      "meaning_vi": "thời khóa biểu",
+      "meaning_vi_inline": "thời khóa biểu",
+      "example_en": "My timetable shows that I have maths on Monday morning and science on Wednesday afternoon.",
+      "example_vi": "Thời khóa biểu của tôi cho thấy tôi có môn toán vào sáng thứ Hai và khoa học vào chiều thứ Tư.",
+      "word_family": {
+        "noun": "timetable / schedule",
+        "verb": "timetable (to schedule)",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "uniform",
+      "ipa": "/ˈjuːnɪfɔːm/",
+      "pos": "noun",
+      "meaning_vi": "đồng phục (trường học)",
+      "meaning_vi_inline": "đồng phục",
+      "example_en": "Our school uniform is a white shirt and dark blue trousers — we must wear it every day.",
+      "example_vi": "Đồng phục trường tôi là áo sơ mi trắng và quần dài xanh đậm — chúng tôi phải mặc mỗi ngày.",
+      "word_family": {
+        "noun": "uniform",
+        "verb": null,
+        "adjective": "uniform (the same / consistent)",
+        "adverb": "uniformly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "pos": "noun",
+      "meaning_vi": "cổng (trường học)",
+      "meaning_vi_inline": "cổng",
+      "example_en": "My mum waits for me at the school gate every afternoon when school finishes.",
+      "example_vi": "Mẹ tôi chờ tôi ở cổng trường mỗi buổi chiều khi tan học.",
+      "word_family": {
+        "noun": "gate / gateway",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "timetable" },
+        { "id": 2, "word": "canteen" },
+        { "id": 3, "word": "uniform" },
+        { "id": 4, "word": "corridor" },
+        { "id": 5, "word": "break" }
+      ],
+      "options": [
+        { "id": "A", "text": "a set of clothes that all students at a school must wear" },
+        { "id": "B", "text": "a short rest period between lessons when students can eat or play" },
+        { "id": "C", "text": "a long narrow passage inside a school building that connects rooms" },
+        { "id": "D", "text": "a place inside a school where students can buy food and drinks" },
+        { "id": "E", "text": "a chart that shows which subjects are studied on which days and times" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher uses _____ to write on the blackboard, and it leaves white dust on her hands.",
+          "options": ["chalk", "pen", "pencil", "rule"],
+          "answer": "chalk"
+        },
+        {
+          "id": 2,
+          "sentence": "Every student must follow this _____: no mobile phones during lessons.",
+          "options": ["bell", "board", "desk", "rule"],
+          "answer": "rule"
+        },
+        {
+          "id": 3,
+          "sentence": "When the _____ rings at the end of the lesson, students pack their bags and leave.",
+          "options": ["chalk", "pencil", "bell", "chair"],
+          "answer": "bell"
+        },
+        {
+          "id": 4,
+          "sentence": "Look at your _____ — we have geography next, not history.",
+          "options": ["canteen", "gate", "uniform", "timetable"],
+          "answer": "timetable"
+        },
+        {
+          "id": 5,
+          "sentence": "She drew the diagram with a _____ so she could erase and correct any mistakes.",
+          "options": ["corridor", "pencil", "chair", "gate"],
+          "answer": "pencil"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["board", "desk", "break", "gate", "canteen", "uniform"],
+      "items": [
+        { "id": 1, "sentence": "The teacher asked us to copy the sentences from the _____ into our notebooks.", "answer": "board" },
+        { "id": 2, "sentence": "Please put your pencil case on your _____ before the lesson begins.", "answer": "desk" },
+        { "id": 3, "sentence": "During the lunch _____, we go outside to eat and chat with friends.", "answer": "break" },
+        { "id": 4, "sentence": "After school, the students waited at the school _____ for their parents.", "answer": "gate" },
+        { "id": 5, "sentence": "The _____ sells sandwiches, juice, and fruit every day at lunchtime.", "answer": "canteen" }
+      ],
+      "note": "One word in the box is not used: uniform"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The school schedule was _____ changed to add an extra lesson on Friday afternoon. (UNIFORM)",
+          "base_word": "UNIFORM",
+          "answer": "uniformly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The cup fell off the desk and _____ into three pieces on the floor. (BREAK)",
+          "base_word": "BREAK",
+          "answer": "broke",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher drew a clear diagram on the _____ so all students could see it easily. (BOARD)",
+          "base_word": "BOARD",
+          "answer": "board",
+          "form_used": "noun"
+        },
+        {
+          "id": 4,
+          "sentence": "The school _____ two new lessons on Friday to help students prepare for exams. (TIMETABLE)",
+          "base_word": "TIMETABLE",
+          "answer": "timetabled",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 5,
+          "sentence": "She made a _____ note in the margin of her textbook to remind herself to revise this section. (PENCIL)",
+          "base_word": "PENCIL",
+          "answer": "pencilled",
+          "form_used": "verb (adjective form)"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher wrote the homework on the [corridor] so all the students could copy it down.",
+          "highlighted": "corridor",
+          "options": { "A": "corridor", "B": "canteen", "C": "board" },
+          "answer": "C",
+          "explanation": "A 'corridor' is a passageway connecting rooms — you cannot write on it. Teachers write on the 'board' at the front of the classroom for students to see and copy."
+        },
+        {
+          "id": 2,
+          "sentence": "After the [bell] rings at lunchtime, students walk to the canteen to buy food.",
+          "highlighted": "bell",
+          "options": { "A": "gate", "B": "bell", "C": "desk" },
+          "answer": "B",
+          "explanation": "This sentence is correct — the 'bell' signals the end of a lesson or the start of lunchtime. 'Bell' is the right word here and no change is needed."
+        },
+        {
+          "id": 3,
+          "sentence": "All students at this school must wear a [timetable] — a white shirt and dark trousers.",
+          "highlighted": "timetable",
+          "options": { "A": "uniform", "B": "rule", "C": "timetable" },
+          "answer": "A",
+          "explanation": "A 'timetable' is a chart showing lesson times — you cannot wear it. The clothes that all students must wear at school is called a 'uniform'."
+        },
+        {
+          "id": 4,
+          "sentence": "She sharpened her [pen] because the point had worn down and she could not write neatly.",
+          "highlighted": "pen",
+          "options": { "A": "chalk", "B": "pen", "C": "pencil" },
+          "answer": "C",
+          "explanation": "A 'pen' uses ink and does not need to be sharpened. A 'pencil' has a wooden tip that wears down and needs to be sharpened to write neatly."
+        },
+        {
+          "id": 5,
+          "sentence": "During the morning [desk], students go outside to play and buy snacks from the canteen.",
+          "highlighted": "desk",
+          "options": { "A": "break", "B": "desk", "C": "gate" },
+          "answer": "A",
+          "explanation": "A 'desk' is a piece of furniture for studying — students sit at it, they do not 'go outside during' it. The correct word is 'break', which is the short rest period between lessons."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "D", "3": "A", "4": "C", "5": "B" },
+    "ex2": { "1": "chalk", "2": "rule", "3": "bell", "4": "timetable", "5": "pencil" },
+    "ex3": { "1": "board", "2": "desk", "3": "break", "4": "gate", "5": "canteen" },
+    "ex4": { "1": "uniformly", "2": "broke", "3": "board", "4": "timetabled", "5": "pencilled" },
+    "ex5": { "1": "C", "2": "B", "3": "A", "4": "C", "5": "A" }
+  }
+}

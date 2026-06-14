@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 45,
+    "topic_id": "b3-t45",
+    "topic_title": "Listening & Interpretation",
+    "topic_title_vi": "Lắng Nghe & Giải Thích",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "👂",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Effective communication depends as much on listening as on speaking, yet **active listening** remains one of the most undervalued skills in both academic and professional contexts. Unlike passive hearing, **active listening** demands sustained **attentiveness** — the deliberate focus on a speaker's words, tone, and intent. Skilled listeners also attend to **prosody**, the patterns of stress, rhythm, and intonation that convey meaning beyond the literal content of words.",
+        "text_vi": "Giao tiếp hiệu quả phụ thuộc vào việc lắng nghe không kém gì nói, nhưng **lắng nghe chủ động** vẫn là một trong những kỹ năng bị đánh giá thấp nhất trong cả bối cảnh học thuật lẫn chuyên nghiệp. Khác với việc nghe thụ động, **lắng nghe chủ động** đòi hỏi **sự chú tâm** bền bỉ — sự tập trung có chủ đích vào lời nói, giọng điệu và ý định của người nói. Những người nghe có kỹ năng còn chú ý đến **ngữ điệu**, những mẫu trọng âm, nhịp điệu và ngữ điệu truyền tải ý nghĩa vượt ra ngoài nội dung nghĩa đen của từ ngữ."
+      },
+      {
+        "index": 2,
+        "text_en": "A central challenge in real-world listening is handling **ambiguity** — situations where a speaker's words admit more than one interpretation. Proficient listeners draw on **inference** to fill in gaps, using contextual cues to construct the most plausible meaning. This process is closely related to understanding **implicature**: what a speaker implies rather than states outright. To **draw pragmatic inferences** accurately, listeners must integrate linguistic knowledge with awareness of social context and conversational norms.",
+        "text_vi": "Một thách thức trọng tâm trong việc lắng nghe thực tế là xử lý **sự mơ hồ** — những tình huống mà lời nói của người nói có thể hiểu theo nhiều cách khác nhau. Những người nghe thành thạo dựa vào **suy luận** để lấp đầy khoảng trống, sử dụng các tín hiệu ngữ cảnh để xây dựng ý nghĩa hợp lý nhất. Quá trình này liên quan chặt chẽ đến việc hiểu **hàm ý**: điều người nói ngụ ý thay vì nói thẳng. Để **rút ra suy luận ngữ dụng** một cách chính xác, người nghe phải tích hợp kiến thức ngôn ngữ với nhận thức về bối cảnh xã hội và các chuẩn mực hội thoại."
+      },
+      {
+        "index": 3,
+        "text_en": "Beyond words themselves, skilled listeners are alert to **subtext** — the underlying attitudes or emotions that a speaker does not express explicitly. They **attend to non-verbal cues** such as facial expressions, gestures, and silences, which often carry as much communicative weight as speech itself. Signals of agreement or continued engagement, known as **backchannelling** — such as nodding or saying 'mm-hmm' — encourage speakers and signal that the listener is following along.",
+        "text_vi": "Vượt ra ngoài bản thân từ ngữ, những người nghe có kỹ năng chú ý đến **hàm ý ẩn** — những thái độ hoặc cảm xúc tiềm ẩn mà người nói không bày tỏ một cách tường minh. Họ **chú ý đến các tín hiệu phi ngôn ngữ** như nét mặt, cử chỉ và sự im lặng, những yếu tố thường mang trọng lượng giao tiếp không kém lời nói. Các tín hiệu đồng ý hoặc tiếp tục tham gia, được gọi là **phản hồi ngầm** — chẳng hạn như gật đầu hoặc nói 'ừ hm' — khuyến khích người nói và báo hiệu rằng người nghe đang theo dõi."
+      },
+      {
+        "index": 4,
+        "text_en": "When meaning remains unclear, the ability to seek **clarification** without disrupting conversational flow is a hallmark of communicative competence. Skilled listeners also know how to **resolve communicative ambiguity** by paraphrasing or asking targeted questions. Ultimately, those who **practise active listening strategies** consistently — including **interpreting implied meaning** and monitoring their own comprehension — become far more effective communicators, whether in academic discussions, professional meetings, or everyday interactions.",
+        "text_vi": "Khi ý nghĩa vẫn còn chưa rõ, khả năng tìm kiếm **sự làm rõ** mà không làm gián đoạn dòng chảy hội thoại là dấu hiệu của năng lực giao tiếp. Những người nghe có kỹ năng cũng biết cách **giải quyết sự mơ hồ giao tiếp** bằng cách diễn giải lại hoặc đặt câu hỏi có mục tiêu. Cuối cùng, những ai nhất quán **thực hành các chiến lược lắng nghe chủ động** — bao gồm **giải thích ý nghĩa hàm ẩn** và theo dõi khả năng **hiểu** của bản thân — trở thành những người giao tiếp hiệu quả hơn rất nhiều, dù trong các cuộc thảo luận học thuật, cuộc họp chuyên nghiệp hay các tương tác thường ngày."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "inference",
+      "ipa": "/ˈɪn.fər.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự suy luận, kết luận được rút ra từ bằng chứng",
+      "meaning_vi_inline": "suy luận",
+      "example_en": "Skilled readers rely on inference to understand meaning that is not explicitly stated in the text.",
+      "example_vi": "Những người đọc có kỹ năng dựa vào suy luận để hiểu ý nghĩa không được nêu rõ trong văn bản.",
+      "word_family": {
+        "noun": "inference",
+        "verb": "infer",
+        "adjective": "inferential",
+        "adverb": "inferentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "active listening",
+      "ipa": "/ˈæk.tɪv ˈlɪs.ən.ɪŋ/",
+      "pos": "noun phrase",
+      "meaning_vi": "lắng nghe chủ động (tập trung, có chủ đích)",
+      "meaning_vi_inline": "lắng nghe chủ động",
+      "example_en": "Active listening involves giving full attention to the speaker and responding thoughtfully to what is said.",
+      "example_vi": "Lắng nghe chủ động bao gồm việc chú ý hoàn toàn đến người nói và phản hồi có suy nghĩ về những gì được nói.",
+      "word_family": {
+        "noun": "active listening",
+        "verb": "listen actively",
+        "adjective": "active",
+        "adverb": "actively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "ambiguity",
+      "ipa": "/ˌæm.bɪˈɡjuː.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự mơ hồ, tính không rõ ràng",
+      "meaning_vi_inline": "sự mơ hồ",
+      "example_en": "The ambiguity of the instruction led team members to interpret the task in completely different ways.",
+      "example_vi": "Sự mơ hồ của hướng dẫn khiến các thành viên nhóm giải thích nhiệm vụ theo những cách hoàn toàn khác nhau.",
+      "word_family": {
+        "noun": "ambiguity",
+        "verb": null,
+        "adjective": "ambiguous",
+        "adverb": "ambiguously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "prosody",
+      "ipa": "/ˈprɒz.ə.di/",
+      "pos": "noun",
+      "meaning_vi": "ngữ điệu học, các đặc trưng âm thanh của lời nói (trọng âm, nhịp, ngữ điệu)",
+      "meaning_vi_inline": "ngữ điệu",
+      "example_en": "A flat, monotone delivery with no variation in prosody makes even interesting content difficult to follow.",
+      "example_vi": "Cách trình bày đều đều, buồn tẻ không có sự thay đổi ngữ điệu khiến ngay cả nội dung thú vị cũng khó theo dõi.",
+      "word_family": {
+        "noun": "prosody",
+        "verb": null,
+        "adjective": "prosodic",
+        "adverb": "prosodically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "backchannelling",
+      "ipa": "/ˈbæk.tʃæn.əl.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "phản hồi ngầm (gật đầu, nói 'ừ hm' để cho thấy đang lắng nghe)",
+      "meaning_vi_inline": "phản hồi ngầm",
+      "example_en": "Backchannelling such as nodding or saying 'right' reassures speakers that they are being heard.",
+      "example_vi": "Phản hồi ngầm như gật đầu hoặc nói 'đúng rồi' trấn an người nói rằng họ đang được lắng nghe.",
+      "word_family": {
+        "noun": "backchannelling / backchannel",
+        "verb": "backchannel",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "subtext",
+      "ipa": "/ˈsʌb.tekst/",
+      "pos": "noun",
+      "meaning_vi": "hàm ý ẩn, ý nghĩa tiềm ẩn bên dưới lời nói",
+      "meaning_vi_inline": "hàm ý ẩn",
+      "example_en": "Good actors are trained to read and convey the subtext beneath the words on the page.",
+      "example_vi": "Các diễn viên giỏi được đào tạo để đọc và truyền đạt hàm ý ẩn bên dưới những từ ngữ trên trang giấy.",
+      "word_family": {
+        "noun": "subtext",
+        "verb": null,
+        "adjective": "subtextual",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "comprehension",
+      "ipa": "/ˌkɒm.prɪˈhen.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hiểu biết, năng lực hiểu",
+      "meaning_vi_inline": "sự hiểu",
+      "example_en": "Reading comprehension tests assess how well students extract and interpret information from written texts.",
+      "example_vi": "Các bài kiểm tra đọc hiểu đánh giá mức độ học sinh trích xuất và giải thích thông tin từ văn bản viết.",
+      "word_family": {
+        "noun": "comprehension",
+        "verb": "comprehend",
+        "adjective": "comprehensive / comprehensible",
+        "adverb": "comprehensively"
+      },
+      "false_friend": {
+        "word_vi": "comprehensive",
+        "explanation_vi": "'Comprehension' là danh từ chỉ khả năng hiểu; 'comprehensive' là tính từ nghĩa là toàn diện, đầy đủ — không thay thế nhau được."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "attentiveness",
+      "ipa": "/əˈten.tɪv.nəs/",
+      "pos": "noun",
+      "meaning_vi": "sự chú tâm, sự tập trung chú ý",
+      "meaning_vi_inline": "sự chú tâm",
+      "example_en": "Her attentiveness during lectures allowed her to recall details that other students had missed entirely.",
+      "example_vi": "Sự chú tâm của cô ấy trong các buổi giảng cho phép cô nhớ lại những chi tiết mà các sinh viên khác đã bỏ lỡ hoàn toàn.",
+      "word_family": {
+        "noun": "attentiveness / attention",
+        "verb": "attend",
+        "adjective": "attentive",
+        "adverb": "attentively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "clarification",
+      "ipa": "/ˌklær.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự làm rõ, giải thích thêm cho rõ ràng",
+      "meaning_vi_inline": "sự làm rõ",
+      "example_en": "She asked for clarification on the assignment brief before she began writing.",
+      "example_vi": "Cô ấy đã hỏi để làm rõ yêu cầu bài tập trước khi bắt đầu viết.",
+      "word_family": {
+        "noun": "clarification",
+        "verb": "clarify",
+        "adjective": "clarifying",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "implicature",
+      "ipa": "/ɪmˈplɪk.ə.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "hàm ý (điều được ngụ ý trong hội thoại nhưng không được nói thẳng)",
+      "meaning_vi_inline": "hàm ý",
+      "example_en": "When someone says 'It's a bit cold in here', the implicature is often a request to close a window.",
+      "example_vi": "Khi ai đó nói 'Ở đây hơi lạnh đấy', hàm ý thường là một yêu cầu đóng cửa sổ.",
+      "word_family": {
+        "noun": "implicature / implication",
+        "verb": "implicate / imply",
+        "adjective": "implicative",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "implication",
+        "explanation_vi": "'Implicature' là thuật ngữ ngữ dụng học chỉ điều được ngụ ý trong hội thoại; 'implication' nghĩa rộng hơn, chỉ hậu quả hoặc ý nghĩa được ngụ ý nói chung."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "draw pragmatic inferences",
+      "meaning_vi": "rút ra suy luận ngữ dụng (hiểu ý nghĩa dựa trên bối cảnh xã hội và giao tiếp)",
+      "example_en": "To draw pragmatic inferences correctly, listeners must consider the social context as well as the words themselves.",
+      "example_vi": "Để rút ra suy luận ngữ dụng một cách chính xác, người nghe phải xem xét bối cảnh xã hội cũng như bản thân từ ngữ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "attend to non-verbal cues",
+      "meaning_vi": "chú ý đến các tín hiệu phi ngôn ngữ",
+      "example_en": "Therapists are trained to attend to non-verbal cues such as posture and eye contact during sessions.",
+      "example_vi": "Các nhà trị liệu được đào tạo để chú ý đến các tín hiệu phi ngôn ngữ như tư thế và giao tiếp bằng mắt trong các buổi trị liệu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "resolve communicative ambiguity",
+      "meaning_vi": "giải quyết sự mơ hồ giao tiếp",
+      "example_en": "Asking a follow-up question is the most direct way to resolve communicative ambiguity in a conversation.",
+      "example_vi": "Đặt câu hỏi tiếp theo là cách trực tiếp nhất để giải quyết sự mơ hồ giao tiếp trong cuộc trò chuyện.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "interpret implied meaning",
+      "meaning_vi": "giải thích ý nghĩa hàm ẩn",
+      "example_en": "Students in advanced language courses learn to interpret implied meaning in literary and spoken texts.",
+      "example_vi": "Sinh viên trong các khóa học ngôn ngữ nâng cao học cách giải thích ý nghĩa hàm ẩn trong các văn bản văn học và lời nói.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "practise active listening strategies",
+      "meaning_vi": "thực hành các chiến lược lắng nghe chủ động",
+      "example_en": "Communication coaches encourage professionals to practise active listening strategies in every meeting.",
+      "example_vi": "Các huấn luyện viên giao tiếp khuyến khích các chuyên gia thực hành các chiến lược lắng nghe chủ động trong mọi cuộc họp.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage claims that active listening is a skill more widely taught in professional contexts than in academic ones.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, prosody refers to patterns of stress, rhythm, and intonation that convey meaning beyond literal words.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that backchannelling is more common in formal meetings than in casual conversation.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The passage suggests that understanding implicature requires integrating linguistic and social knowledge.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that seeking clarification always disrupts the flow of a conversation.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The judge noted the _____ of the contract language, which could support either party's interpretation.",
+          "options": [
+            "subtext",
+            "prosody",
+            "ambiguity",
+            "clarification"
+          ],
+          "answer": "ambiguity"
+        },
+        {
+          "id": 2,
+          "sentence": "Her _____ during the lecture was evident from the detailed notes she took and the questions she asked afterwards.",
+          "options": [
+            "inference",
+            "attentiveness",
+            "implicature",
+            "backchannelling"
+          ],
+          "answer": "attentiveness"
+        },
+        {
+          "id": 3,
+          "sentence": "The candidate's polished words masked a troubling _____ — a persistent reluctance to commit to any firm policy.",
+          "options": [
+            "prosody",
+            "comprehension",
+            "subtext",
+            "clarification"
+          ],
+          "answer": "subtext"
+        },
+        {
+          "id": 4,
+          "sentence": "Without further _____ from the manager, the team remained uncertain about their individual responsibilities.",
+          "options": [
+            "inference",
+            "clarification",
+            "backchannelling",
+            "attentiveness"
+          ],
+          "answer": "clarification"
+        },
+        {
+          "id": 5,
+          "sentence": "When she said the meeting 'went fine', the _____ was that she found it deeply frustrating.",
+          "options": [
+            "prosody",
+            "ambiguity",
+            "comprehension",
+            "implicature"
+          ],
+          "answer": "implicature"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "inference",
+        "prosody",
+        "comprehension",
+        "backchannelling",
+        "ambiguity",
+        "attentiveness"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of her tone — a slight rise at the end — suggested she was asking a question, not making a statement.",
+          "answer": "prosody"
+        },
+        {
+          "id": 2,
+          "sentence": "Without sufficient contextual clues, making a reliable _____ about the speaker's intent becomes very difficult.",
+          "answer": "inference"
+        },
+        {
+          "id": 3,
+          "sentence": "Gestures such as nodding and brief verbal signals serve as _____, showing the speaker they have your attention.",
+          "answer": "backchannelling"
+        },
+        {
+          "id": 4,
+          "sentence": "The student's reading _____ improved dramatically after she began annotating texts as she read.",
+          "answer": "comprehension"
+        },
+        {
+          "id": 5,
+          "sentence": "His genuine _____ — leaning forward, maintaining eye contact — made every colleague feel truly heard.",
+          "answer": "attentiveness"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "active",
+            "listening",
+            "demands",
+            "sustained",
+            "attentiveness",
+            "to",
+            "both",
+            "words",
+            "and",
+            "tone"
+          ],
+          "answer": "Active listening demands sustained attentiveness to both words and tone."
+        },
+        {
+          "id": 2,
+          "words": [
+            "skilled",
+            "listeners",
+            "use",
+            "inference",
+            "to",
+            "fill",
+            "gaps",
+            "in",
+            "meaning"
+          ],
+          "answer": "Skilled listeners use inference to fill gaps in meaning."
+        },
+        {
+          "id": 3,
+          "words": [
+            "prosody",
+            "reveals",
+            "emotions",
+            "that",
+            "words",
+            "alone",
+            "do",
+            "not",
+            "convey"
+          ],
+          "answer": "Prosody reveals emotions that words alone do not convey."
+        },
+        {
+          "id": 4,
+          "words": [
+            "backchannelling",
+            "encourages",
+            "speakers",
+            "and",
+            "signals",
+            "continued",
+            "engagement"
+          ],
+          "answer": "Backchannelling encourages speakers and signals continued engagement."
+        },
+        {
+          "id": 5,
+          "words": [
+            "seeking",
+            "clarification",
+            "is",
+            "a",
+            "sign",
+            "of",
+            "communicative",
+            "competence",
+            "not",
+            "weakness"
+          ],
+          "answer": "Seeking clarification is a sign of communicative competence, not weakness."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [ambiguous] of the speaker's statement made it difficult to determine her true position.",
+          "highlighted": "ambiguous",
+          "options": {
+            "A": "ambiguously",
+            "B": "ambiguity",
+            "C": "ambiguate"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'ambiguity', not the adjective 'ambiguous'."
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher struggled to [comprehensible] the dense academic text without rereading each paragraph twice.",
+          "highlighted": "comprehensible",
+          "options": {
+            "A": "comprehension",
+            "B": "comprehensively",
+            "C": "comprehend"
+          },
+          "answer": "C",
+          "explanation": "A verb is required after the modal 'to' in this infinitive construction — 'comprehend', not the adjective 'comprehensible'."
+        },
+        {
+          "id": 3,
+          "sentence": "Her careful [attend] to the speaker's tone allowed her to detect the frustration behind the polite words.",
+          "highlighted": "attend",
+          "options": {
+            "A": "attentiveness",
+            "B": "attentively",
+            "C": "attended"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed after the possessive adjective 'Her careful' to serve as the subject — 'attentiveness', not the verb 'attend'."
+        },
+        {
+          "id": 4,
+          "sentence": "When communication breaks down, it is often wise to ask a [clarity] question to re-establish shared understanding.",
+          "highlighted": "clarity",
+          "options": {
+            "A": "clarified",
+            "B": "clarifying",
+            "C": "clarification"
+          },
+          "answer": "B",
+          "explanation": "A participial adjective is needed to modify 'question' — 'clarifying question' is the correct collocation, not the noun 'clarity'."
+        },
+        {
+          "id": 5,
+          "sentence": "Researchers studying [implicature] in everyday talk found that speakers frequently communicate more than their words literally state.",
+          "highlighted": "implicature",
+          "options": {
+            "A": "implicatures",
+            "B": "implicate",
+            "C": "implicating"
+          },
+          "answer": "A",
+          "explanation": "The plural noun 'implicatures' is required as the object of 'studying' to refer to the general phenomenon being researched — the singular is too narrow in this context."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "ambiguity",
+      "2": "attentiveness",
+      "3": "subtext",
+      "4": "clarification",
+      "5": "implicature"
+    },
+    "ex3": {
+      "1": "prosody",
+      "2": "inference",
+      "3": "backchannelling",
+      "4": "comprehension",
+      "5": "attentiveness"
+    },
+    "ex4": {
+      "1": "Active listening demands sustained attentiveness to both words and tone.",
+      "2": "Skilled listeners use inference to fill gaps in meaning.",
+      "3": "Prosody reveals emotions that words alone do not convey.",
+      "4": "Backchannelling encourages speakers and signals continued engagement.",
+      "5": "Seeking clarification is a sign of communicative competence, not weakness."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

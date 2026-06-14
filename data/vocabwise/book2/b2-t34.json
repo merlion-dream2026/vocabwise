@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 34,
+    "topic_id": "b2-t34",
+    "topic_title": "Film & Television",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🎬",
+    "topic_title_vi": "Phim & Truyền Hình",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 214,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The film and television **industry** is one of the most influential creative sectors in the world. Behind every successful film is a **director** who shapes the visual storytelling, a **cast** of performers who bring characters to life, and a dedicated **production** team that manages the enormous logistical and creative challenges of making a movie. The **budget** — the total amount of money available — determines the scale and ambition of a film, from small independent dramas to massive blockbusters.",
+        "text_vi": "Ngành công nghiệp phim và truyền hình là một trong những lĩnh vực sáng tạo có ảnh hưởng nhất thế giới. Đằng sau mỗi bộ phim thành công là một **đạo diễn** định hình cách kể chuyện bằng hình ảnh, một **dàn diễn viên** thổi hồn vào các nhân vật, và một đội **sản xuất** tận tụy quản lý những thách thức hậu cần và sáng tạo khổng lồ khi làm phim. **Ngân sách** — tổng số tiền có sẵn — quyết định quy mô và tham vọng của một bộ phim, từ những bộ phim tâm lý độc lập nhỏ đến những bom tấn khổng lồ."
+      },
+      {
+        "index": 2,
+        "text_en": "A film's **genre** — whether it is a thriller, comedy, romance, or **documentary** — shapes audience expectations from the first frame. **Documentary** films, which explore real events and real people, have seen a major rise in popularity on **stream**ing platforms. When a film is finally **release**d, it opens in cinemas or becomes available online, allowing audiences worldwide to watch it. Major productions are often **released widely** — distributed simultaneously across many countries — to maximise global revenue.",
+        "text_vi": "**Thể loại** phim — dù là phim hồi hộp, hài, lãng mạn hay **phim tài liệu** — định hình kỳ vọng của khán giả ngay từ khung hình đầu tiên. Các **phim tài liệu** khám phá các sự kiện và con người thực đã chứng kiến sự gia tăng lớn về mức độ phổ biến trên các nền tảng **stream**. Khi một bộ phim cuối cùng được **phát hành**, nó ra rạp hoặc có thể xem trực tuyến, cho phép khán giả toàn cầu xem. Các sản phẩm lớn thường được **phát hành rộng rãi** — phân phối đồng thời trên nhiều quốc gia — để tối đa hóa doanh thu toàn cầu."
+      },
+      {
+        "index": 3,
+        "text_en": "Every powerful film is built from carefully crafted **scene**s — individual units of action set in one location and time. A single memorable **scene** can define an entire film. When a production wins major **award**s — such as the Oscars or the Cannes Palme d'Or — it gains enormous prestige. A **film critic**, who writes professional assessments of movies for newspapers or websites, plays a key role in shaping public opinion and influencing what films audiences choose to watch.",
+        "text_vi": "Mỗi bộ phim ấn tượng được xây dựng từ những **cảnh phim** được tạo ra cẩn thận — các đơn vị hành động riêng lẻ diễn ra ở một địa điểm và thời gian nhất định. Một **cảnh phim** đáng nhớ có thể định nghĩa cả một bộ phim. Khi một sản phẩm giành được các **giải thưởng** lớn — như Oscar hay Palme d'Or Cannes — nó có được uy tín to lớn. Một **nhà phê bình phim**, người viết đánh giá chuyên nghiệp về phim cho báo hoặc trang web, đóng vai trò quan trọng trong việc định hình dư luận và ảnh hưởng đến việc khán giả chọn xem phim gì."
+      },
+      {
+        "index": 4,
+        "text_en": "Popular films often inspire a **sequel** — a follow-up story continuing the original narrative. Sometimes studios choose instead to produce a **new version** — a remake that reimagines the original story for a new generation of audiences. Both **sequel**s and remakes carry risks: audiences may feel the original magic is lost, or conversely, they may embrace the new interpretation as a worthy continuation of a beloved story.",
+        "text_vi": "Các bộ phim nổi tiếng thường truyền cảm hứng cho một **phần tiếp theo** — câu chuyện tiếp nối tiếp tục câu chuyện gốc. Đôi khi các hãng phim chọn thay vào đó là sản xuất một **phiên bản mới** — một bộ phim làm lại reimagines câu chuyện gốc cho thế hệ khán giả mới. Cả **phần tiếp theo** lẫn phim làm lại đều mang rủi ro: khán giả có thể cảm thấy sự kỳ diệu của bản gốc đã mất, hoặc ngược lại, họ có thể chào đón cách diễn giải mới như một sự tiếp nối xứng đáng của câu chuyện yêu thích."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "director",
+      "ipa": "/dɪˈrek.tər/",
+      "pos": "noun",
+      "meaning_vi": "đạo diễn (phim)",
+      "meaning_vi_inline": "đạo diễn",
+      "example_en": "The director spent two years developing the script before the film went into production.",
+      "example_vi": "Đạo diễn dành hai năm phát triển kịch bản trước khi bộ phim bắt đầu sản xuất.",
+      "word_family": {
+        "noun": "director / direction",
+        "verb": "direct",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "genre",
+      "ipa": "/ˈʒɒ̃.rə/",
+      "pos": "noun",
+      "meaning_vi": "thể loại (phim, sách, nhạc)",
+      "meaning_vi_inline": "thể loại",
+      "example_en": "Horror is the most popular film genre among teenagers in this survey.",
+      "example_vi": "Phim kinh dị là thể loại phim phổ biến nhất trong số thanh thiếu niên trong cuộc khảo sát này.",
+      "word_family": {
+        "noun": "genre",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "cast",
+      "ipa": "/kɑːst/",
+      "pos": "noun / verb",
+      "meaning_vi": "dàn diễn viên; chọn diễn viên",
+      "meaning_vi_inline": "dàn diễn viên",
+      "example_en": "The film has an impressive cast that includes three Oscar-winning actors.",
+      "example_vi": "Bộ phim có dàn diễn viên ấn tượng bao gồm ba diễn viên đoạt giải Oscar.",
+      "word_family": {
+        "noun": "cast / casting",
+        "verb": "cast",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "production",
+      "ipa": "/prəˈdʌk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sản xuất (phim); ekip làm phim",
+      "meaning_vi_inline": "sản xuất",
+      "example_en": "The film's production was delayed by six months due to bad weather on location.",
+      "example_vi": "Quá trình sản xuất phim bị trì hoãn sáu tháng do thời tiết xấu tại địa điểm quay.",
+      "word_family": {
+        "noun": "production / producer",
+        "verb": "produce",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "budget",
+      "ipa": "/ˈbʌdʒ.ɪt/",
+      "pos": "noun",
+      "meaning_vi": "ngân sách (sản xuất phim)",
+      "meaning_vi_inline": "ngân sách",
+      "example_en": "Despite its small budget, the film won multiple international awards.",
+      "example_vi": "Dù ngân sách nhỏ, bộ phim đã giành nhiều giải thưởng quốc tế.",
+      "word_family": {
+        "noun": "budget",
+        "verb": "budget",
+        "adjective": "budgeted / over budget / under budget",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "release",
+      "ipa": "/rɪˈliːs/",
+      "pos": "verb / noun",
+      "meaning_vi": "phát hành (phim); sự phát hành",
+      "meaning_vi_inline": "phát hành",
+      "example_en": "The studio plans to release the film in December to qualify for the awards season.",
+      "example_vi": "Hãng phim có kế hoạch phát hành bộ phim vào tháng 12 để đủ điều kiện tham dự mùa giải thưởng.",
+      "word_family": {
+        "noun": "release",
+        "verb": "release",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "audience",
+      "ipa": "/ˈɔː.di.əns/",
+      "pos": "noun",
+      "meaning_vi": "khán giả (phim, chương trình TV)",
+      "meaning_vi_inline": "khán giả",
+      "example_en": "The film attracted a global audience of over 100 million viewers in its first weekend.",
+      "example_vi": "Bộ phim thu hút hơn 100 triệu khán giả toàn cầu trong cuối tuần đầu tiên.",
+      "word_family": {
+        "noun": "audience",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "stream",
+      "ipa": "/striːm/",
+      "pos": "verb / noun",
+      "meaning_vi": "xem trực tuyến (phim, series); nền tảng stream",
+      "meaning_vi_inline": "stream, xem trực tuyến",
+      "example_en": "Millions of people stream films at home instead of going to the cinema.",
+      "example_vi": "Hàng triệu người stream phim ở nhà thay vì đến rạp chiếu phim.",
+      "word_family": {
+        "noun": "stream / streaming",
+        "verb": "stream",
+        "adjective": "streaming",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "documentary",
+      "ipa": "/ˌdɒk.jʊˈmen.tər.i/",
+      "pos": "noun / adjective",
+      "meaning_vi": "phim tài liệu",
+      "meaning_vi_inline": "phim tài liệu",
+      "example_en": "The documentary about ocean pollution changed how many viewers thought about plastic waste.",
+      "example_vi": "Bộ phim tài liệu về ô nhiễm đại dương đã thay đổi cách nhiều khán giả nghĩ về rác thải nhựa.",
+      "word_family": {
+        "noun": "documentary",
+        "verb": "document",
+        "adjective": "documentary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "scene",
+      "ipa": "/siːn/",
+      "pos": "noun",
+      "meaning_vi": "cảnh quay, cảnh phim",
+      "meaning_vi_inline": "cảnh phim",
+      "example_en": "The opening scene of the film is set in a busy street market at dawn.",
+      "example_vi": "Cảnh mở đầu của bộ phim diễn ra ở một chợ đường phố nhộn nhịp vào lúc bình minh.",
+      "word_family": {
+        "noun": "scene / scenery",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "award",
+      "ipa": "/əˈwɔːd/",
+      "pos": "noun / verb",
+      "meaning_vi": "giải thưởng (điện ảnh); trao giải",
+      "meaning_vi_inline": "giải thưởng",
+      "example_en": "The film swept the awards season, winning Best Picture, Best Director, and Best Actress.",
+      "example_vi": "Bộ phim thống trị mùa giải thưởng, giành giải Phim xuất sắc nhất, Đạo diễn xuất sắc nhất và Nữ diễn viên xuất sắc nhất.",
+      "word_family": {
+        "noun": "award",
+        "verb": "award",
+        "adjective": "award-winning",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "release widely",
+      "ipa": "/rɪˈliːs ˈwaɪd.li/",
+      "pos": "verb phrase",
+      "meaning_vi": "phát hành rộng rãi (trên toàn quốc / toàn cầu)",
+      "meaning_vi_inline": "phát hành rộng rãi",
+      "example_en": "The film was released widely across 80 countries on the same day.",
+      "example_vi": "Bộ phim được phát hành rộng rãi tại 80 quốc gia trong cùng một ngày.",
+      "word_family": {
+        "noun": "wide release",
+        "verb": "release widely",
+        "adjective": "widely released",
+        "adverb": "widely"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "film critic",
+      "ipa": "/fɪlm ˈkrɪt.ɪk/",
+      "pos": "noun phrase",
+      "meaning_vi": "nhà phê bình phim",
+      "meaning_vi_inline": "nhà phê bình phim",
+      "example_en": "The film critic gave the sequel three out of five stars, calling it 'competent but uninspired'.",
+      "example_vi": "Nhà phê bình phim đã cho phần tiếp theo ba trên năm sao, gọi nó là 'có nghề nhưng thiếu cảm hứng'.",
+      "word_family": {
+        "noun": "film critic / film criticism",
+        "verb": "criticise",
+        "adjective": "critical",
+        "adverb": "critically"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "new version",
+      "ipa": "/njuː ˈvɜː.ʃən/",
+      "pos": "noun phrase",
+      "meaning_vi": "phiên bản mới, phim làm lại (remake)",
+      "meaning_vi_inline": "phiên bản mới, remake",
+      "example_en": "The new version of the 1980s classic disappointed fans who loved the original.",
+      "example_vi": "Phiên bản mới của bộ phim cổ điển thập niên 80 đã làm thất vọng những người hâm mộ yêu thích bản gốc.",
+      "word_family": {
+        "noun": "remake / new version",
+        "verb": "remake / reimagine",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "sequel",
+      "ipa": "/ˈsiː.kwəl/",
+      "pos": "noun",
+      "meaning_vi": "phần tiếp theo (của phim hoặc sách)",
+      "meaning_vi_inline": "phần tiếp theo",
+      "example_en": "The sequel made even more money than the original, breaking box office records worldwide.",
+      "example_vi": "Phần tiếp theo kiếm được nhiều tiền hơn bản gốc, phá vỡ kỷ lục phòng vé trên toàn thế giới.",
+      "word_family": {
+        "noun": "sequel / prequel",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "prequel",
+        "explanation_vi": "Một 'sequel' kể câu chuyện xảy ra SAU câu chuyện gốc; một 'prequel' kể câu chuyện xảy ra TRƯỚC câu chuyện gốc. Ví dụ: Star Wars: Episode I là prequel của Episode IV."
+      },
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A film's budget determines the scale and ambition of the production.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Documentary films have become less popular since the rise of streaming platforms.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage says that all sequels earn more money than the original film.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Film critics help shape public opinion about which films audiences choose to watch.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Studios always prefer to make sequels rather than new versions of old films.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The film's _____ includes some of the most talented young actors in Hollywood.",
+          "options": [
+            "genre",
+            "budget",
+            "cast",
+            "production"
+          ],
+          "answer": "cast"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ took three years to write the script and find funding for the project.",
+          "options": [
+            "film critic",
+            "sequel",
+            "director",
+            "audience"
+          ],
+          "answer": "director"
+        },
+        {
+          "id": 3,
+          "sentence": "The studio decided to make a _____ that continued the story of the original characters.",
+          "options": [
+            "documentary",
+            "sequel",
+            "genre",
+            "scene"
+          ],
+          "answer": "sequel"
+        },
+        {
+          "id": 4,
+          "sentence": "The film will be _____ in over 100 countries simultaneously next month.",
+          "options": [
+            "streamed",
+            "released widely",
+            "awarded",
+            "produced"
+          ],
+          "answer": "released widely"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ gave the film just two stars, criticising its weak plot and poor acting.",
+          "options": [
+            "film critic",
+            "director",
+            "cast",
+            "documentary"
+          ],
+          "answer": "film critic"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "documentary",
+        "scene",
+        "award",
+        "budget",
+        "stream"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ about climate change was watched by millions and sparked a national debate.",
+          "answer": "documentary"
+        },
+        {
+          "id": 2,
+          "sentence": "The final _____ of the film, where the two characters say goodbye at the airport, made many viewers cry.",
+          "answer": "scene"
+        },
+        {
+          "id": 3,
+          "sentence": "She won the Best Actress _____ at the film festival for her powerful performance.",
+          "answer": "award"
+        },
+        {
+          "id": 4,
+          "sentence": "The film was shot on a very small _____ but still managed to look visually stunning.",
+          "answer": "budget"
+        },
+        {
+          "id": 5,
+          "sentence": "Millions of people now _____ movies on their phones during their daily commute.",
+          "answer": "stream"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "director",
+            "spent",
+            "two",
+            "years",
+            "developing",
+            "the",
+            "script",
+            "before",
+            "starting",
+            "production"
+          ],
+          "answer": "The director spent two years developing the script before starting production."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "film",
+            "was",
+            "released",
+            "widely",
+            "in",
+            "over",
+            "80",
+            "countries",
+            "on",
+            "the",
+            "same",
+            "day"
+          ],
+          "answer": "The film was released widely in over 80 countries on the same day."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "sequel",
+            "failed",
+            "to",
+            "capture",
+            "the",
+            "magic",
+            "of",
+            "the",
+            "original",
+            "film"
+          ],
+          "answer": "The sequel failed to capture the magic of the original film."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "documentary",
+            "changed",
+            "the",
+            "way",
+            "many",
+            "people",
+            "thought",
+            "about",
+            "environmental",
+            "issues"
+          ],
+          "answer": "The documentary changed the way many people thought about environmental issues."
+        },
+        {
+          "id": 5,
+          "words": [
+            "a",
+            "film",
+            "critic's",
+            "review",
+            "can",
+            "significantly",
+            "influence",
+            "a",
+            "film's",
+            "box",
+            "office",
+            "success"
+          ],
+          "answer": "A film critic's review can significantly influence a film's box office success."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The film had a massive [funding] of $200 million but still failed to make a profit.",
+          "highlighted": "funding",
+          "options": {
+            "A": "budget",
+            "B": "funding",
+            "C": "investment"
+          },
+          "answer": "A",
+          "explanation": "'Budget' is the standard film industry term for the total amount of money allocated for a production. 'Funding' refers to the act of providing money and is too general in this context. 'Investment' implies money put in expecting a return, which changes the meaning."
+        },
+        {
+          "id": 2,
+          "sentence": "The studio decided to create a [second film] following the events of the original story.",
+          "highlighted": "second film",
+          "options": {
+            "A": "prequel",
+            "B": "sequel",
+            "C": "second film"
+          },
+          "answer": "B",
+          "explanation": "'Sequel' is the specific film term for a follow-up story that continues the narrative after the events of the original. A 'prequel' is a story set before the original, and 'second film' is vague and informal."
+        },
+        {
+          "id": 3,
+          "sentence": "The [producer] used dramatic lighting and close-up shots to make the scene intensely emotional.",
+          "highlighted": "producer",
+          "options": {
+            "A": "director",
+            "B": "cast",
+            "C": "producer"
+          },
+          "answer": "A",
+          "explanation": "'Director' is the person responsible for the visual and artistic choices in a film, including camera angles, lighting, and performance direction. A 'producer' manages the business and logistics of filmmaking, not the creative execution of scenes."
+        },
+        {
+          "id": 4,
+          "sentence": "Hundreds of millions of people now [watch online] films and TV series every evening.",
+          "highlighted": "watch online",
+          "options": {
+            "A": "broadcast",
+            "B": "watch online",
+            "C": "stream"
+          },
+          "answer": "C",
+          "explanation": "'Stream' is the precise modern term for watching digital video content in real time over the internet without downloading it first. 'Watch online' is informal and less specific, and 'broadcast' refers to transmitting content over TV or radio signals."
+        },
+        {
+          "id": 5,
+          "sentence": "The film journalist gave the movie a poor [verdict], calling the plot confusing and the acting weak.",
+          "highlighted": "verdict",
+          "options": {
+            "A": "score",
+            "B": "verdict",
+            "C": "review"
+          },
+          "answer": "C",
+          "explanation": "'Review' is the standard term for a written critical assessment of a film by a professional. A 'verdict' is a formal judgment (typically in law), and a 'score' is a numerical rating. 'Review' specifically captures the published critical analysis that a film critic produces."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "cast",
+      "2": "director",
+      "3": "sequel",
+      "4": "released widely",
+      "5": "film critic"
+    },
+    "ex3": {
+      "1": "documentary",
+      "2": "scene",
+      "3": "award",
+      "4": "budget",
+      "5": "stream"
+    },
+    "ex4": {
+      "1": "The director spent two years developing the script before starting production.",
+      "2": "The film was released widely in over 80 countries on the same day.",
+      "3": "The sequel failed to capture the magic of the original film.",
+      "4": "The documentary changed the way many people thought about environmental issues.",
+      "5": "A film critic's review can significantly influence a film's box office success."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

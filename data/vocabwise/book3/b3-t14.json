@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 14,
+    "topic_id": "b3-t14",
+    "topic_title": "Happiness & Wellbeing Research",
+    "topic_title_vi": "Nghiên Cứu Hạnh Phúc & Sức Khỏe Tinh Thần",
+    "theme_number": 2,
+    "theme_title": "Health & the Human Body",
+    "theme_title_vi": "Sức Khỏe & Cơ Thể Con Người",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "😊",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "What makes a good life? Philosophers have debated this for millennia, but modern science now attempts to **measure subjective wellbeing** with rigorous empirical tools. Researchers distinguish two broad frameworks: the **hedonic** approach, which focuses on maximising pleasure and minimising pain, and the **eudaimonic** approach, which emphasises purpose, growth, and **fulfilment** derived from living in accordance with one's values. Neither framework alone captures the full complexity of human **flourishing**.",
+        "text_vi": "Điều gì tạo nên một cuộc sống tốt đẹp? Các triết gia đã tranh luận về điều này hàng nghìn năm, nhưng khoa học hiện đại ngày nay cố gắng **đo lường sức khỏe tâm lý chủ quan** bằng các công cụ thực nghiệm nghiêm ngặt. Các nhà nghiên cứu phân biệt hai khung lý thuyết chính: cách tiếp cận **khoái lạc chủ nghĩa**, tập trung vào tối đa hóa niềm vui và giảm thiểu đau khổ, và cách tiếp cận **phát triển toàn diện**, nhấn mạnh mục đích, sự trưởng thành và **sự viên mãn** có được từ việc sống phù hợp với các giá trị của bản thân. Không có khung lý thuyết nào một mình nắm bắt được toàn bộ sự phức tạp của sự **phát triển thịnh vượng** của con người."
+      },
+      {
+        "index": 2,
+        "text_en": "A key challenge is that happiness is **subjective** — what generates **contentment** in one person may leave another indifferent. Yet research consistently shows a strong **correlation** between happiness and social connection, suggesting that relationships are a more reliable predictor of wellbeing than income. To **correlate happiness with social connection**, scientists use large-scale longitudinal surveys that track thousands of individuals across decades, controlling for **disposition** and life circumstances.",
+        "text_vi": "Một thách thức quan trọng là hạnh phúc mang tính **chủ quan** — điều tạo ra sự **mãn nguyện** cho người này có thể khiến người khác thờ ơ. Tuy nhiên, nghiên cứu liên tục cho thấy mối **tương quan** mạnh mẽ giữa hạnh phúc và kết nối xã hội, gợi ý rằng các mối quan hệ là yếu tố dự báo sức khỏe tinh thần đáng tin cậy hơn thu nhập. Để **thiết lập tương quan giữa hạnh phúc và kết nối xã hội**, các nhà khoa học sử dụng các khảo sát dài hạn quy mô lớn theo dõi hàng nghìn cá nhân qua nhiều thập kỷ, kiểm soát **xu hướng tính cách** và hoàn cảnh sống."
+      },
+      {
+        "index": 3,
+        "text_en": "One influential concept is hedonic adaptation — the tendency of people to return to a baseline level of happiness following both positive and negative life events. Those who wish to **challenge hedonic adaptation** argue that **gratitude** practices, mindfulness, and deliberate attention to novel experiences can interrupt this process. By cultivating a more appreciative **perception** of daily life, individuals may sustain higher levels of **contentment** over time.",
+        "text_vi": "Một khái niệm có ảnh hưởng là sự thích nghi với khoái lạc — xu hướng con người trở về mức hạnh phúc cơ sở sau cả những sự kiện tích cực lẫn tiêu cực trong cuộc sống. Những người muốn **thách thức sự thích nghi với khoái lạc** lập luận rằng các thực hành về **lòng biết ơn**, chánh niệm, và sự chú ý có chủ đích đến những trải nghiệm mới có thể ngắt quãng quá trình này. Bằng cách nuôi dưỡng **nhận thức** trân trọng hơn về cuộc sống hàng ngày, các cá nhân có thể duy trì mức độ **mãn nguyện** cao hơn theo thời gian."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, researchers who **pursue meaningful fulfilment** — and help others do the same — emphasise that wellbeing is less about external circumstances and more about internal orientation. **Fostering a positive disposition** through community engagement, purposeful work, and authentic relationships appears to be the most robust path to lasting happiness. How one interprets life events, rather than the events themselves, shapes the quality of one's inner life.",
+        "text_vi": "Cuối cùng, các nhà nghiên cứu **theo đuổi sự viên mãn có ý nghĩa** — và giúp người khác làm điều tương tự — nhấn mạnh rằng sức khỏe tinh thần ít liên quan đến hoàn cảnh bên ngoài và nhiều hơn đến định hướng bên trong. **Nuôi dưỡng tư duy tích cực** thông qua gắn kết cộng đồng, công việc có mục đích và các mối quan hệ chân thực có vẻ là con đường vững chắc nhất dẫn đến hạnh phúc lâu dài. Cách một người diễn giải các sự kiện trong cuộc sống, chứ không phải bản thân các sự kiện đó, mới định hình chất lượng của đời sống nội tâm."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "subjective",
+      "ipa": "/səbˈdʒek.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "mang tính chủ quan, phụ thuộc vào cảm nhận cá nhân",
+      "meaning_vi_inline": "chủ quan",
+      "example_en": "Wellbeing is inherently subjective, since different people derive satisfaction from very different sources.",
+      "example_vi": "Sức khỏe tinh thần mang tính chủ quan vốn có, vì những người khác nhau tìm thấy sự thỏa mãn từ những nguồn rất khác nhau.",
+      "word_family": {
+        "noun": "subjectivity",
+        "verb": null,
+        "adjective": "subjective",
+        "adverb": "subjectively"
+      },
+      "false_friend": {
+        "word_vi": "objective",
+        "explanation_vi": "'Subjective' dựa trên cảm nhận hay quan điểm cá nhân; 'objective' dựa trên sự thật có thể kiểm chứng bên ngoài — đây là cặp từ trái nghĩa quan trọng."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "flourishing",
+      "ipa": "/ˈflʌr.ɪ.ʃɪŋ/",
+      "pos": "noun / adjective",
+      "meaning_vi": "sự phát triển thịnh vượng (toàn diện về thể chất lẫn tinh thần)",
+      "meaning_vi_inline": "phát triển thịnh vượng",
+      "example_en": "Positive psychologists argue that the goal of life is not merely survival but genuine flourishing.",
+      "example_vi": "Các nhà tâm lý học tích cực lập luận rằng mục tiêu của cuộc sống không chỉ là sự tồn tại mà là sự phát triển thịnh vượng thực sự.",
+      "word_family": {
+        "noun": "flourishing",
+        "verb": "flourish",
+        "adjective": "flourishing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "gratitude",
+      "ipa": "/ˈɡræt.ɪ.tjuːd/",
+      "pos": "noun",
+      "meaning_vi": "lòng biết ơn",
+      "meaning_vi_inline": "lòng biết ơn",
+      "example_en": "Research shows that regularly expressing gratitude can measurably improve mood and life satisfaction.",
+      "example_vi": "Nghiên cứu cho thấy việc thường xuyên thể hiện lòng biết ơn có thể cải thiện tâm trạng và sự hài lòng với cuộc sống một cách đo lường được.",
+      "word_family": {
+        "noun": "gratitude",
+        "verb": null,
+        "adjective": "grateful",
+        "adverb": "gratefully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "hedonic",
+      "ipa": "/hɪˈdɒn.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về khoái lạc chủ nghĩa, liên quan đến niềm vui và sự hưởng thụ",
+      "meaning_vi_inline": "khoái lạc chủ nghĩa",
+      "example_en": "A purely hedonic lifestyle focused on immediate pleasure may lead to long-term dissatisfaction.",
+      "example_vi": "Lối sống hoàn toàn theo khoái lạc chủ nghĩa tập trung vào niềm vui tức thời có thể dẫn đến sự không thỏa mãn về lâu dài.",
+      "word_family": {
+        "noun": "hedonism / hedonist",
+        "verb": null,
+        "adjective": "hedonic / hedonistic",
+        "adverb": "hedonistically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "eudaimonic",
+      "ipa": "/ˌjuː.daɪˈmɒn.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về phát triển toàn diện, liên quan đến ý nghĩa và mục đích sống",
+      "meaning_vi_inline": "phát triển toàn diện, có ý nghĩa",
+      "example_en": "Eudaimonic wellbeing encompasses a sense of purpose, personal growth, and meaningful contribution to others.",
+      "example_vi": "Sức khỏe tinh thần theo hướng phát triển toàn diện bao gồm cảm giác có mục đích, phát triển bản thân và đóng góp có ý nghĩa cho người khác.",
+      "word_family": {
+        "noun": "eudaimonia",
+        "verb": null,
+        "adjective": "eudaimonic",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "hedonic",
+        "explanation_vi": "'Eudaimonic' liên quan đến ý nghĩa và sự phát triển bản thân; 'hedonic' liên quan đến niềm vui và sự hưởng thụ — đây là hai trường phái triết học khác nhau về hạnh phúc."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "contentment",
+      "ipa": "/kənˈtent.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự mãn nguyện, cảm giác thỏa mãn bình lặng",
+      "meaning_vi_inline": "mãn nguyện, thỏa mãn",
+      "example_en": "Contentment is often described as a quiet, sustainable form of happiness that does not depend on external events.",
+      "example_vi": "Sự mãn nguyện thường được mô tả là dạng hạnh phúc bình lặng và bền vững, không phụ thuộc vào các sự kiện bên ngoài.",
+      "word_family": {
+        "noun": "contentment",
+        "verb": "content",
+        "adjective": "content / contented",
+        "adverb": "contentedly"
+      },
+      "false_friend": {
+        "word_vi": "happiness",
+        "explanation_vi": "'Contentment' gợi sự thỏa mãn bình lặng và lâu dài; 'happiness' thường mang cảm giác vui mừng hoặc phấn khởi ngắn hạn hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "correlation",
+      "ipa": "/ˌkɒr.əˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "mối tương quan, sự liên hệ giữa hai biến số",
+      "meaning_vi_inline": "tương quan",
+      "example_en": "A strong positive correlation between social support and mental health has been found across many cultures.",
+      "example_vi": "Mối tương quan dương mạnh giữa sự hỗ trợ xã hội và sức khỏe tâm thần đã được tìm thấy trong nhiều nền văn hóa.",
+      "word_family": {
+        "noun": "correlation",
+        "verb": "correlate",
+        "adjective": "correlated / correlational",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "causation",
+        "explanation_vi": "'Correlation' cho thấy hai biến số có liên hệ với nhau; 'causation' có nghĩa là một biến gây ra biến kia — đây là sự phân biệt quan trọng trong nghiên cứu khoa học."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "disposition",
+      "ipa": "/ˌdɪs.pəˈzɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "xu hướng tính cách, thiên hướng tự nhiên của một người",
+      "meaning_vi_inline": "xu hướng tính cách, thiên hướng",
+      "example_en": "People with an optimistic disposition tend to recover more quickly from setbacks and adversity.",
+      "example_vi": "Những người có xu hướng tính cách lạc quan có xu hướng phục hồi nhanh hơn sau những thất bại và nghịch cảnh.",
+      "word_family": {
+        "noun": "disposition",
+        "verb": "dispose",
+        "adjective": "disposed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "fulfilment",
+      "ipa": "/fʊlˈfɪl.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự viên mãn, cảm giác thỏa nguyện sâu sắc khi đạt được điều có ý nghĩa",
+      "meaning_vi_inline": "sự viên mãn",
+      "example_en": "Many people find greater fulfilment in careers that contribute to society than in purely high-paying roles.",
+      "example_vi": "Nhiều người tìm thấy sự viên mãn lớn hơn trong những công việc đóng góp cho xã hội hơn là các vai trò đơn thuần thu nhập cao.",
+      "word_family": {
+        "noun": "fulfilment",
+        "verb": "fulfil",
+        "adjective": "fulfilled / fulfilling",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "perception",
+      "ipa": "/pəˈsep.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "nhận thức, cách nhìn nhận và giải thích thực tế",
+      "meaning_vi_inline": "nhận thức, cảm nhận",
+      "example_en": "One's perception of a stressful event determines its emotional impact more than the event itself.",
+      "example_vi": "Nhận thức của một người về một sự kiện căng thẳng quyết định tác động cảm xúc của nó nhiều hơn bản thân sự kiện đó.",
+      "word_family": {
+        "noun": "perception",
+        "verb": "perceive",
+        "adjective": "perceptive / perceptual",
+        "adverb": "perceptively"
+      },
+      "false_friend": {
+        "word_vi": "perspective",
+        "explanation_vi": "'Perception' là cách một người cảm nhận hay diễn giải thực tế; 'perspective' là góc nhìn hay quan điểm — dễ nhầm nhưng dùng trong những bối cảnh khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "measure subjective wellbeing",
+      "meaning_vi": "đo lường sức khỏe tâm lý chủ quan",
+      "example_en": "Psychologists use validated survey scales to measure subjective wellbeing across different age groups and cultures.",
+      "example_vi": "Các nhà tâm lý học sử dụng thang đo khảo sát đã được xác nhận để đo lường sức khỏe tâm lý chủ quan ở các nhóm tuổi và nền văn hóa khác nhau.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "pursue meaningful fulfilment",
+      "meaning_vi": "theo đuổi sự viên mãn có ý nghĩa",
+      "example_en": "Career counsellors help clients identify values-aligned paths that allow them to pursue meaningful fulfilment beyond financial reward.",
+      "example_vi": "Các cố vấn nghề nghiệp giúp khách hàng xác định các con đường phù hợp với giá trị để họ có thể theo đuổi sự viên mãn có ý nghĩa ngoài phần thưởng tài chính.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "challenge hedonic adaptation",
+      "meaning_vi": "thách thức sự thích nghi với khoái lạc",
+      "example_en": "Mindfulness and gratitude journaling are evidence-based strategies to challenge hedonic adaptation and sustain positive emotions.",
+      "example_vi": "Chánh niệm và viết nhật ký biết ơn là những chiến lược dựa trên bằng chứng để thách thức sự thích nghi với khoái lạc và duy trì cảm xúc tích cực.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "foster a positive disposition",
+      "meaning_vi": "nuôi dưỡng tư duy và tính cách tích cực",
+      "example_en": "Schools that emphasise social-emotional learning are more effective at helping students foster a positive disposition towards challenges.",
+      "example_vi": "Các trường học nhấn mạnh việc học kỹ năng xã hội - cảm xúc hiệu quả hơn trong việc giúp học sinh nuôi dưỡng tư duy và tính cách tích cực đối với những thách thức.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "correlate happiness with social connection",
+      "meaning_vi": "thiết lập tương quan giữa hạnh phúc và kết nối xã hội",
+      "example_en": "Decades of longitudinal research consistently correlate happiness with social connection rather than material wealth.",
+      "example_vi": "Nhiều thập kỷ nghiên cứu dài hạn liên tục thiết lập tương quan giữa hạnh phúc và kết nối xã hội hơn là sự giàu có vật chất.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that the hedonic approach to happiness focuses on purpose and growth.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, research has found that income is a more reliable predictor of wellbeing than relationships.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage mentions that gratitude practices can help counteract hedonic adaptation.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage specifies the number of participants required for a valid wellbeing study.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that how people interpret events matters more than the events themselves.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her _____ of the illness as a challenge rather than a defeat helped her maintain psychological resilience.",
+          "options": [
+            "correlation",
+            "contentment",
+            "perception",
+            "disposition"
+          ],
+          "answer": "perception"
+        },
+        {
+          "id": 2,
+          "sentence": "The study found a strong _____ between time spent in nature and reported levels of calm and satisfaction.",
+          "options": [
+            "fulfilment",
+            "correlation",
+            "gratitude",
+            "flourishing"
+          ],
+          "answer": "correlation"
+        },
+        {
+          "id": 3,
+          "sentence": "Volunteers who helped others reported a deep sense of _____ that purely leisure activities failed to provide.",
+          "options": [
+            "hedonic",
+            "subjective",
+            "eudaimonic",
+            "fulfilment"
+          ],
+          "answer": "fulfilment"
+        },
+        {
+          "id": 4,
+          "sentence": "A cheerful _____ does not guarantee immunity from hardship, but it does support faster emotional recovery.",
+          "options": [
+            "gratitude",
+            "disposition",
+            "contentment",
+            "flourishing"
+          ],
+          "answer": "disposition"
+        },
+        {
+          "id": 5,
+          "sentence": "Daily _____ journaling encourages people to notice and savour positive experiences they might otherwise overlook.",
+          "options": [
+            "hedonic",
+            "subjective",
+            "eudaimonic",
+            "gratitude"
+          ],
+          "answer": "gratitude"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "subjective",
+        "flourishing",
+        "contentment",
+        "hedonic",
+        "eudaimonic",
+        "fulfilment"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The researchers argued that _____ wellbeing — based on meaning and purpose — predicts life satisfaction more robustly than pleasure alone.",
+          "answer": "eudaimonic"
+        },
+        {
+          "id": 2,
+          "sentence": "Pain tolerance is highly _____, varying dramatically from one individual to another even under identical conditions.",
+          "answer": "subjective"
+        },
+        {
+          "id": 3,
+          "sentence": "The programme aimed to support community _____ by strengthening social bonds and access to mental health resources.",
+          "answer": "flourishing"
+        },
+        {
+          "id": 4,
+          "sentence": "After years of chasing promotions, she found deeper _____ in teaching than in any corporate role.",
+          "answer": "fulfilment"
+        },
+        {
+          "id": 5,
+          "sentence": "A life of quiet _____ — free from constant craving for more — is often cited in philosophical traditions as the highest form of happiness.",
+          "answer": "contentment"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "happiness",
+            "is",
+            "deeply",
+            "subjective",
+            "and",
+            "varies",
+            "widely",
+            "across",
+            "individuals"
+          ],
+          "answer": "Happiness is deeply subjective and varies widely across individuals."
+        },
+        {
+          "id": 2,
+          "words": [
+            "gratitude",
+            "practices",
+            "can",
+            "help",
+            "people",
+            "overcome",
+            "hedonic",
+            "adaptation"
+          ],
+          "answer": "Gratitude practices can help people overcome hedonic adaptation."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "positive",
+            "disposition",
+            "supports",
+            "resilience",
+            "in",
+            "the",
+            "face",
+            "of",
+            "adversity"
+          ],
+          "answer": "A positive disposition supports resilience in the face of adversity."
+        },
+        {
+          "id": 4,
+          "words": [
+            "social",
+            "connection",
+            "correlates",
+            "more",
+            "strongly",
+            "with",
+            "wellbeing",
+            "than",
+            "wealth"
+          ],
+          "answer": "Social connection correlates more strongly with wellbeing than wealth."
+        },
+        {
+          "id": 5,
+          "words": [
+            "meaningful",
+            "work",
+            "and",
+            "relationships",
+            "are",
+            "central",
+            "to",
+            "eudaimonic",
+            "flourishing"
+          ],
+          "answer": "Meaningful work and relationships are central to eudaimonic flourishing."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The survey was designed to [subjectively] measure reported levels of life satisfaction across different income groups.",
+          "highlighted": "subjectively",
+          "options": {
+            "A": "subjectivity",
+            "B": "subjective",
+            "C": "subject"
+          },
+          "answer": "B",
+          "explanation": "An adjective is needed to modify 'measure' as part of the compound 'subjective measure'; the adverb 'subjectively' changes the meaning unintentionally."
+        },
+        {
+          "id": 2,
+          "sentence": "Her [contented] with a simple lifestyle allowed her to resist the pressure to accumulate material possessions.",
+          "highlighted": "contented",
+          "options": {
+            "A": "content",
+            "B": "contentedly",
+            "C": "contentment"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'contentment', not the adjective 'contented'."
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers found a strong [correlate] between physical exercise and reduced symptoms of depression.",
+          "highlighted": "correlate",
+          "options": {
+            "A": "correlated",
+            "B": "correlation",
+            "C": "correlating"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after 'strong' — 'correlation', not the verb 'correlate'."
+        },
+        {
+          "id": 4,
+          "sentence": "He had a natural [dispose] to see the bright side of difficult situations, which helped him through hardship.",
+          "highlighted": "dispose",
+          "options": {
+            "A": "disposing",
+            "B": "disposable",
+            "C": "disposition"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after the article 'a' and adjective 'natural' — 'disposition', not the verb 'dispose'."
+        },
+        {
+          "id": 5,
+          "sentence": "The psychologist argued that [flourish] depends as much on community ties as on individual achievement.",
+          "highlighted": "flourish",
+          "options": {
+            "A": "flourishing",
+            "B": "flourished",
+            "C": "flourishes"
+          },
+          "answer": "A",
+          "explanation": "A gerund or noun form is needed as the subject of the sentence — 'flourishing', not the bare infinitive 'flourish'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "False",
+      "3": "True",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "perception",
+      "2": "correlation",
+      "3": "fulfilment",
+      "4": "disposition",
+      "5": "gratitude"
+    },
+    "ex3": {
+      "1": "eudaimonic",
+      "2": "subjective",
+      "3": "flourishing",
+      "4": "fulfilment",
+      "5": "contentment"
+    },
+    "ex4": {
+      "1": "Happiness is deeply subjective and varies widely across individuals.",
+      "2": "Gratitude practices can help people overcome hedonic adaptation.",
+      "3": "A positive disposition supports resilience in the face of adversity.",
+      "4": "Social connection correlates more strongly with wellbeing than wealth.",
+      "5": "Meaningful work and relationships are central to eudaimonic flourishing."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 8,
+    "topic_id": "b3-t08",
+    "topic_title": "Consumer Culture & Advertising",
+    "topic_title_vi": "Văn Hóa Tiêu Dùng & Quảng Cáo",
+    "theme_number": 1,
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🛍️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 223,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Modern **consumerism** has transformed the act of purchasing from a practical necessity into a cornerstone of personal identity. Advertisers skillfully **exploit consumer psychology**, using techniques ranging from aspirational imagery to artificial scarcity to trigger **impulse** buying. The goal is rarely to inform; it is to **persuade** — and increasingly, through **subliminal** cues embedded in colour, music, and narrative, to do so without the consumer's conscious awareness.",
+        "text_vi": "Chủ nghĩa tiêu dùng hiện đại đã biến hành động mua sắm từ một nhu cầu thực tế thành nền tảng của bản sắc cá nhân. Các nhà quảng cáo khéo léo **khai thác tâm lý người tiêu dùng**, sử dụng các kỹ thuật từ hình ảnh khao khát đến sự khan hiếm giả tạo để kích thích mua sắm bốc đồng (**impulse buying**). Mục tiêu hiếm khi là thông tin; mà là **thuyết phục** — và ngày càng nhiều, thông qua các gợi ý **tiềm thức** được nhúng vào màu sắc, âm nhạc và câu chuyện, để làm điều đó mà không cần sự nhận biết có ý thức của người tiêu dùng."
+      },
+      {
+        "index": 2,
+        "text_en": "Central to this system is **branding** — the construction of a perceived identity around a product or company. Effective branding does not merely sell goods; it **reinforces materialistic values** by equating ownership with status, success, and happiness. This process of **commodification** — treating social relationships, emotions, and even time as things to be bought and sold — reflects a broader cultural shift in which nearly every human experience becomes a potential market.",
+        "text_vi": "Trọng tâm của hệ thống này là **thương hiệu hóa** — việc xây dựng bản sắc nhận thức xung quanh một sản phẩm hay công ty. Xây dựng thương hiệu hiệu quả không chỉ đơn thuần là bán hàng hóa; nó **củng cố các giá trị vật chất** bằng cách đồng nhất quyền sở hữu với địa vị, thành công và hạnh phúc. Quá trình **hàng hóa hóa** này — đối xử với các mối quan hệ xã hội, cảm xúc và thậm chí thời gian như những thứ có thể mua bán — phản ánh một sự chuyển dịch văn hóa rộng lớn hơn, trong đó gần như mọi trải nghiệm của con người đều trở thành một thị trường tiềm năng."
+      },
+      {
+        "index": 3,
+        "text_en": "Critics argue that advertising frequently crosses into **manipulation** — exploiting cognitive biases, manufacturing **aspiration**, and fostering **materialism** that leaves consumers perpetually dissatisfied. When corporations **commodify human relationships** — marketing friendship, love, or belonging as something that can be purchased — the line between genuine connection and commercial transaction dissolves. This form of **exploitation** undermines autonomy and distorts social values.",
+        "text_vi": "Các nhà phê bình lập luận rằng quảng cáo thường xuyên vượt ranh giới sang **thao túng** — khai thác các thiên kiến nhận thức, tạo ra **khát vọng** và nuôi dưỡng **chủ nghĩa vật chất** khiến người tiêu dùng luôn trong trạng thái bất mãn. Khi các tập đoàn **hàng hóa hóa các mối quan hệ người** — tiếp thị tình bạn, tình yêu hay sự thuộc về như thứ có thể mua được — ranh giới giữa kết nối thực sự và giao dịch thương mại tan biến. Hình thức **bóc lột** này xói mòn quyền tự chủ và bóp méo các giá trị xã hội."
+      },
+      {
+        "index": 4,
+        "text_en": "Growing awareness of these dynamics has prompted many consumers to **resist manipulative advertising** and **challenge throwaway culture**. Movements advocating mindful consumption, product repair, and the secondhand economy represent a pushback against the relentless cycle of desire and disposal that defines contemporary **consumerism**. Whether such movements can achieve systemic change, or merely occupy a niche within the very market they critique, remains an open question.",
+        "text_vi": "Nhận thức ngày càng tăng về những động lực này đã thúc đẩy nhiều người tiêu dùng **chống lại quảng cáo thao túng** và **thách thức văn hóa vứt bỏ**. Các phong trào ủng hộ tiêu dùng có ý thức, sửa chữa sản phẩm và nền kinh tế đồ cũ đại diện cho sự phản kháng chống lại vòng xoáy không ngừng của ham muốn và tiêu hủy vốn xác định **chủ nghĩa tiêu dùng** đương đại. Liệu những phong trào đó có thể đạt được thay đổi mang tính hệ thống, hay chỉ chiếm một ngách trong chính thị trường mà chúng phê phán, vẫn là câu hỏi bỏ ngỏ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "consumerism",
+      "ipa": "/kənˈsjuː.mər.ɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa tiêu dùng",
+      "meaning_vi_inline": "chủ nghĩa tiêu dùng",
+      "example_en": "Critics of consumerism argue that it prioritises material gain over social well-being.",
+      "example_vi": "Những người phê phán chủ nghĩa tiêu dùng cho rằng nó ưu tiên lợi ích vật chất hơn phúc lợi xã hội.",
+      "word_family": {
+        "noun": "consumerism / consumer / consumption",
+        "verb": "consume",
+        "adjective": "consumerist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "manipulation",
+      "ipa": "/məˌnɪp.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự thao túng, sự điều khiển",
+      "meaning_vi_inline": "thao túng",
+      "example_en": "The documentary exposed the manipulation used by advertisers to target children.",
+      "example_vi": "Bộ phim tài liệu phơi bày sự thao túng mà các nhà quảng cáo sử dụng để nhắm vào trẻ em.",
+      "word_family": {
+        "noun": "manipulation / manipulator",
+        "verb": "manipulate",
+        "adjective": "manipulative / manipulated",
+        "adverb": "manipulatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "aspiration",
+      "ipa": "/ˌæs.pɪˈreɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "khát vọng, hoài bão",
+      "meaning_vi_inline": "khát vọng",
+      "example_en": "Luxury brands sell aspiration as much as they sell products.",
+      "example_vi": "Các thương hiệu xa xỉ bán khát vọng không kém gì họ bán sản phẩm.",
+      "word_family": {
+        "noun": "aspiration",
+        "verb": "aspire",
+        "adjective": "aspirational / aspiring",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "inspiration",
+        "explanation_vi": "'Aspiration' là khát vọng hướng tới mục tiêu; 'inspiration' là sự truyền cảm hứng từ bên ngoài — không thay thế cho nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "branding",
+      "ipa": "/ˈbræn.dɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "xây dựng thương hiệu",
+      "meaning_vi_inline": "thương hiệu hóa",
+      "example_en": "Effective branding creates an emotional bond between consumers and a product.",
+      "example_vi": "Xây dựng thương hiệu hiệu quả tạo ra mối liên kết cảm xúc giữa người tiêu dùng và sản phẩm.",
+      "word_family": {
+        "noun": "branding / brand",
+        "verb": "brand",
+        "adjective": "branded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "impulse",
+      "ipa": "/ˈɪm.pʌls/",
+      "pos": "noun",
+      "meaning_vi": "sự bốc đồng, xung động",
+      "meaning_vi_inline": "bốc đồng",
+      "example_en": "Supermarkets place sweets near checkouts to encourage impulse purchases.",
+      "example_vi": "Các siêu thị đặt kẹo gần quầy thanh toán để khuyến khích việc mua sắm bốc đồng.",
+      "word_family": {
+        "noun": "impulse",
+        "verb": "impel",
+        "adjective": "impulsive",
+        "adverb": "impulsively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "subliminal",
+      "ipa": "/sʌbˈlɪm.ɪ.nəl/",
+      "pos": "adjective",
+      "meaning_vi": "tiềm thức, dưới ngưỡng ý thức",
+      "meaning_vi_inline": "tiềm thức",
+      "example_en": "Subliminal advertising influences behaviour without the viewer's conscious awareness.",
+      "example_vi": "Quảng cáo tiềm thức ảnh hưởng đến hành vi mà người xem không nhận biết có ý thức.",
+      "word_family": {
+        "noun": null,
+        "verb": null,
+        "adjective": "subliminal",
+        "adverb": "subliminally"
+      },
+      "false_friend": {
+        "word_vi": "sublime",
+        "explanation_vi": "'Subliminal' liên quan đến tác động dưới ngưỡng ý thức; 'sublime' có nghĩa là tuyệt vời hoặc cao cả — hoàn toàn khác nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "commodification",
+      "ipa": "/kəˌmɒd.ɪ.fɪˈkeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự hàng hóa hóa",
+      "meaning_vi_inline": "hàng hóa hóa",
+      "example_en": "The commodification of healthcare has raised serious ethical concerns in many countries.",
+      "example_vi": "Sự hàng hóa hóa chăm sóc sức khỏe đã làm dấy lên lo ngại đạo đức nghiêm trọng ở nhiều quốc gia.",
+      "word_family": {
+        "noun": "commodification / commodity",
+        "verb": "commodify",
+        "adjective": "commodified",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "persuasion",
+      "ipa": "/pəˈsweɪ.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "sự thuyết phục",
+      "meaning_vi_inline": "thuyết phục",
+      "example_en": "Modern advertising relies on subtle persuasion rather than direct instruction.",
+      "example_vi": "Quảng cáo hiện đại dựa vào sự thuyết phục tinh tế thay vì chỉ dẫn trực tiếp.",
+      "word_family": {
+        "noun": "persuasion",
+        "verb": "persuade",
+        "adjective": "persuasive",
+        "adverb": "persuasively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "materialism",
+      "ipa": "/məˈtɪə.ri.ə.lɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa vật chất",
+      "meaning_vi_inline": "chủ nghĩa vật chất",
+      "example_en": "Research suggests that materialism is negatively correlated with long-term life satisfaction.",
+      "example_vi": "Nghiên cứu cho thấy chủ nghĩa vật chất có tương quan âm với sự hài lòng cuộc sống lâu dài.",
+      "word_family": {
+        "noun": "materialism / materialist",
+        "verb": null,
+        "adjective": "materialist / materialistic",
+        "adverb": "materialistically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "exploitation",
+      "ipa": "/ˌek.splɔɪˈteɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự bóc lột, sự khai thác",
+      "meaning_vi_inline": "bóc lột",
+      "example_en": "Consumer advocacy groups have documented the exploitation of vulnerable groups by predatory marketing.",
+      "example_vi": "Các nhóm bảo vệ người tiêu dùng đã ghi nhận sự bóc lột các nhóm dễ bị tổn thương bởi marketing săn mồi.",
+      "word_family": {
+        "noun": "exploitation / exploit",
+        "verb": "exploit",
+        "adjective": "exploitative / exploited",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "exploration",
+        "explanation_vi": "'Exploitation' là sự bóc lột hay khai thác vì lợi ích riêng; 'exploration' là sự khám phá — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "exploit consumer psychology",
+      "meaning_vi": "khai thác tâm lý người tiêu dùng",
+      "example_en": "Advertisers exploit consumer psychology by linking products to emotions such as fear, desire, and belonging.",
+      "example_vi": "Các nhà quảng cáo khai thác tâm lý người tiêu dùng bằng cách gắn sản phẩm với các cảm xúc như sợ hãi, ham muốn và cảm giác thuộc về.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "reinforce materialistic values",
+      "meaning_vi": "củng cố các giá trị vật chất",
+      "example_en": "Critics claim that mainstream media reinforces materialistic values by celebrating wealth and luxury.",
+      "example_vi": "Các nhà phê bình cho rằng truyền thông đại chúng củng cố các giá trị vật chất bằng cách tôn vinh sự giàu có và xa hoa.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "commodify human relationships",
+      "meaning_vi": "hàng hóa hóa các mối quan hệ người",
+      "example_en": "Social media platforms have been criticised for attempting to commodify human relationships through targeted advertising.",
+      "example_vi": "Các nền tảng mạng xã hội đã bị chỉ trích vì cố gắng hàng hóa hóa các mối quan hệ người thông qua quảng cáo có mục tiêu.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "resist manipulative advertising",
+      "meaning_vi": "chống lại quảng cáo thao túng",
+      "example_en": "Media literacy education helps young people develop the critical skills needed to resist manipulative advertising.",
+      "example_vi": "Giáo dục hiểu biết truyền thông giúp giới trẻ phát triển kỹ năng tư duy phản biện cần thiết để chống lại quảng cáo thao túng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "challenge throwaway culture",
+      "meaning_vi": "thách thức văn hóa vứt bỏ",
+      "example_en": "The repair café movement seeks to challenge throwaway culture by encouraging people to mend rather than discard.",
+      "example_vi": "Phong trào quán cà phê sửa chữa tìm cách thách thức văn hóa vứt bỏ bằng cách khuyến khích mọi người sửa chữa thay vì bỏ đi.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage argues that the primary purpose of advertising is to provide consumers with accurate product information.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "Subliminal advertising techniques are now banned in most countries.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "According to the passage, effective branding links product ownership to concepts such as status and happiness.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage states that mindful consumption movements have already achieved significant systemic change.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage suggests that corporations sometimes market human emotions and relationships as purchasable experiences.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The advertisement used _____ imagery of wealth and success to make viewers aspire to own the product.",
+          "options": [
+            "subliminal",
+            "impulsive",
+            "commodified",
+            "exploited"
+          ],
+          "answer": "subliminal"
+        },
+        {
+          "id": 2,
+          "sentence": "The company's _____ strategy focused on making consumers feel the product reflected their personal values.",
+          "options": [
+            "materialism",
+            "exploitation",
+            "branding",
+            "persuasion"
+          ],
+          "answer": "branding"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers have found that high levels of _____ are associated with lower personal well-being and higher anxiety.",
+          "options": [
+            "aspiration",
+            "commodification",
+            "manipulation",
+            "materialism"
+          ],
+          "answer": "materialism"
+        },
+        {
+          "id": 4,
+          "sentence": "The watchdog report detailed systematic _____ of low-income consumers through deceptive financial products.",
+          "options": [
+            "persuasion",
+            "branding",
+            "exploitation",
+            "impulse"
+          ],
+          "answer": "exploitation"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of social data — converting personal information into advertising revenue — has provoked fierce debate.",
+          "options": [
+            "manipulation",
+            "consumerism",
+            "aspiration",
+            "commodification"
+          ],
+          "answer": "commodification"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "consumerism",
+        "manipulation",
+        "aspiration",
+        "impulse",
+        "persuasion",
+        "branding"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Flash sales create a sense of urgency that triggers _____ buying before rational thought can intervene.",
+          "answer": "impulse"
+        },
+        {
+          "id": 2,
+          "sentence": "Effective _____ goes beyond a logo — it constructs an entire lifestyle identity around a product.",
+          "answer": "branding"
+        },
+        {
+          "id": 3,
+          "sentence": "Philosophers have long argued that _____ corrodes community bonds by replacing shared values with private acquisition.",
+          "answer": "consumerism"
+        },
+        {
+          "id": 4,
+          "sentence": "The campaign's genius lay in its subtle _____ — viewers felt they had chosen freely when they had in fact been guided.",
+          "answer": "persuasion"
+        },
+        {
+          "id": 5,
+          "sentence": "The advertisement sold not a product but an _____ — the promise of a better, more admired version of oneself.",
+          "answer": "aspiration"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "consumerism",
+            "buying",
+            "from",
+            "has",
+            "practical",
+            "transformed",
+            "necessity",
+            "into",
+            "an",
+            "identity",
+            "statement"
+          ],
+          "answer": "Consumerism has transformed buying from a practical necessity into an identity statement."
+        },
+        {
+          "id": 2,
+          "words": [
+            "subliminal",
+            "influence",
+            "cues",
+            "behaviour",
+            "without",
+            "awareness",
+            "conscious"
+          ],
+          "answer": "Subliminal cues influence behaviour without conscious awareness."
+        },
+        {
+          "id": 3,
+          "words": [
+            "advertising",
+            "often",
+            "exploits",
+            "cognitive",
+            "biases",
+            "to",
+            "trigger",
+            "purchases",
+            "impulse"
+          ],
+          "answer": "Advertising often exploits cognitive biases to trigger impulse purchases."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "commodification",
+            "of",
+            "human",
+            "relationships",
+            "erodes",
+            "connection",
+            "genuine"
+          ],
+          "answer": "The commodification of human relationships erodes genuine connection."
+        },
+        {
+          "id": 5,
+          "words": [
+            "movements",
+            "throwaway",
+            "culture",
+            "challenging",
+            "advocate",
+            "mindful",
+            "and",
+            "repair",
+            "consumption"
+          ],
+          "answer": "Movements challenging throwaway culture advocate mindful consumption and repair."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The brand's success lay in its ability to manufacture [aspiring] and sell a vision of a better life.",
+          "highlighted": "aspiring",
+          "options": {
+            "A": "aspirations",
+            "B": "aspired",
+            "C": "aspiringly"
+          },
+          "answer": "A",
+          "explanation": "A plural noun is needed as the object of 'manufacture' — 'aspirations', not the adjective/participle 'aspiring'."
+        },
+        {
+          "id": 2,
+          "sentence": "The regulator concluded that the campaign relied on [manipulate] rather than honest communication.",
+          "highlighted": "manipulate",
+          "options": {
+            "A": "manipulated",
+            "B": "manipulation",
+            "C": "manipulative"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after the preposition 'on' — 'manipulation', not the verb 'manipulate'."
+        },
+        {
+          "id": 3,
+          "sentence": "The report criticised the [commodity] of personal data by technology companies for advertising profit.",
+          "highlighted": "commodity",
+          "options": {
+            "A": "commodified",
+            "B": "commodifying",
+            "C": "commodification"
+          },
+          "answer": "C",
+          "explanation": "The noun form of the process is required after 'the' — 'commodification', not 'commodity' which refers to a tradeable good."
+        },
+        {
+          "id": 4,
+          "sentence": "Many consumers now actively seek out brands that [persuasion] through values rather than manipulation.",
+          "highlighted": "persuasion",
+          "options": {
+            "A": "persuade",
+            "B": "persuaded",
+            "C": "persuasively"
+          },
+          "answer": "A",
+          "explanation": "A verb is required in the relative clause 'that _____ through values' — 'persuade' in the present simple, not the noun 'persuasion'."
+        },
+        {
+          "id": 5,
+          "sentence": "The study found a strong link between high [material] values and reduced life satisfaction.",
+          "highlighted": "material",
+          "options": {
+            "A": "materialism",
+            "B": "materialistic",
+            "C": "materially"
+          },
+          "answer": "B",
+          "explanation": "'Materialistic' is the adjective form needed to modify 'values' — 'material' alone means physical substance, not relating to the pursuit of possessions."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "subliminal",
+      "2": "branding",
+      "3": "materialism",
+      "4": "exploitation",
+      "5": "commodification"
+    },
+    "ex3": {
+      "1": "impulse",
+      "2": "branding",
+      "3": "consumerism",
+      "4": "persuasion",
+      "5": "aspiration"
+    },
+    "ex4": {
+      "1": "Consumerism has transformed buying from a practical necessity into an identity statement.",
+      "2": "Subliminal cues influence behaviour without conscious awareness.",
+      "3": "Advertising often exploits cognitive biases to trigger impulse purchases.",
+      "4": "The commodification of human relationships erodes genuine connection.",
+      "5": "Movements challenging throwaway culture advocate mindful consumption and repair."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
+  }
+}

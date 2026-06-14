@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 51,
+    "topic_id": "b3-t51",
+    "topic_title": "Moral Philosophy & Ethics",
+    "topic_title_vi": "Triết Học Đạo Đức & Đạo Lý",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "⚖️",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Throughout history, philosophers have wrestled with the nature of right and wrong. **Consequentialism** judges actions solely by their outcomes, asserting that any act producing the greatest good for the greatest number is morally justified. This school of thought, most famously expressed as **utilitarianism** by Bentham and Mill, offers a compelling framework for policy decisions yet risks reducing individuals to mere instruments of collective welfare. A society that chooses to **apply consequentialist reasoning** must confront the uncomfortable possibility that harming a few can be justified for the benefit of many.",
+        "text_vi": "Trong suốt lịch sử, các triết gia đã vật lộn với bản chất của đúng và sai. **Chủ nghĩa hệ quả** đánh giá hành động dựa thuần túy vào kết quả, khẳng định rằng bất kỳ hành động nào tạo ra lợi ích lớn nhất cho số đông đều được biện minh về mặt đạo đức. Trường phái tư tưởng này, được thể hiện nổi tiếng nhất dưới dạng **thuyết vị lợi** bởi Bentham và Mill, cung cấp một khung phân tích thuyết phục cho các quyết định chính sách nhưng có nguy cơ biến cá nhân thành công cụ đơn thuần của phúc lợi tập thể. Một xã hội chọn cách **áp dụng lý luận hệ quả** phải đối mặt với khả năng khó chịu rằng việc gây hại cho số ít có thể được biện minh vì lợi ích của số đông."
+      },
+      {
+        "index": 2,
+        "text_en": "In contrast, **deontology** holds that certain actions are intrinsically right or wrong, regardless of consequences. Kant argued that rational beings possess **autonomy** — the capacity for self-governance — and must never be treated merely as means to an end. This approach demands that we **uphold principles of justice** absolutely, even when doing so appears to produce worse outcomes. A key challenge is how to **navigate complex moral dilemmas** in which competing duties cannot all be honoured simultaneously.",
+        "text_vi": "Ngược lại, **thuyết nghĩa vụ** cho rằng một số hành động về bản chất là đúng hoặc sai, bất kể hệ quả. Kant lập luận rằng các sinh linh lý trí sở hữu **quyền tự chủ** — năng lực tự quản — và không bao giờ được đối xử đơn thuần như phương tiện để đạt mục đích. Cách tiếp cận này đòi hỏi chúng ta phải **duy trì các nguyên tắc công lý** một cách tuyệt đối, ngay cả khi làm vậy có vẻ mang lại kết quả tồi hơn. Một thách thức chính là làm thế nào để **vượt qua những tình huống nan giải phức tạp về đạo đức** trong đó các nghĩa vụ cạnh tranh không thể đồng thời được thực hiện."
+      },
+      {
+        "index": 3,
+        "text_en": "**Virtue ethics**, rooted in Aristotle's work, shifts focus from rules and outcomes to character. It asks not 'what should I do?' but 'what kind of person should I be?' Virtues such as **integrity** and prudence guide behaviour, while **culpability** is assessed in light of an agent's character and intentions. This tradition tends to **challenge moral relativism** — the view that ethical standards are purely culturally determined — by arguing that some virtues are universally constitutive of human flourishing.",
+        "text_vi": "**Đạo đức đức hạnh**, bắt nguồn từ tư tưởng của Aristotle, chuyển trọng tâm từ quy tắc và kết quả sang phẩm cách. Nó đặt câu hỏi không phải 'tôi nên làm gì?' mà là 'tôi nên trở thành con người như thế nào?' Các đức tính như **tính chính trực** và sự thận trọng hướng dẫn hành vi, trong khi **trách nhiệm pháp lý/đạo đức** được đánh giá trong bối cảnh phẩm cách và ý định của chủ thể. Truyền thống này có xu hướng **thách thức chủ nghĩa tương đối đạo đức** — quan điểm cho rằng các chuẩn mực đạo đức hoàn toàn do văn hóa quy định — bằng cách lập luận rằng một số đức tính có tính cấu thành phổ quát đối với sự phát triển toàn diện của con người."
+      },
+      {
+        "index": 4,
+        "text_en": "No single theory resolves every moral question, which is why philosophers recognise the enduring importance of the ethical **dilemma**. Real-world **justice** requires practitioners — from judges to policymakers — to **balance competing ethical obligations** thoughtfully, drawing on multiple frameworks rather than adhering rigidly to one. **Moral relativism**, while a useful reminder of cultural diversity, cannot justify atrocities; **integrity** demands that we engage critically with difficult questions rather than retreat into comfortable relativism.",
+        "text_vi": "Không một lý thuyết đơn lẻ nào giải quyết được mọi câu hỏi đạo đức, đó là lý do tại sao các triết gia nhận ra tầm quan trọng lâu dài của **tình huống nan giải** về đạo đức. **Công lý** trong thực tế đòi hỏi những người thực thi — từ thẩm phán đến nhà hoạch định chính sách — phải **cân bằng các nghĩa vụ đạo đức cạnh tranh** một cách thận trọng, dựa trên nhiều khung phân tích thay vì bám chặt vào một khung duy nhất. **Chủ nghĩa tương đối đạo đức**, dù là lời nhắc nhở hữu ích về sự đa dạng văn hóa, không thể biện minh cho những tội ác; **tính chính trực** đòi hỏi chúng ta phải tư duy phê phán với những câu hỏi khó khăn thay vì rút lui vào chủ nghĩa tương đối thoải mái."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "consequentialism",
+      "ipa": "/kənˈsiː.kwən.ʃəl.ɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa hệ quả (đánh giá hành động theo kết quả)",
+      "meaning_vi_inline": "chủ nghĩa hệ quả",
+      "example_en": "Consequentialism evaluates the morality of an action entirely by its outcomes.",
+      "example_vi": "Chủ nghĩa hệ quả đánh giá tính đạo đức của một hành động hoàn toàn theo kết quả của nó.",
+      "word_family": {
+        "noun": "consequentialism / consequentialist",
+        "verb": null,
+        "adjective": "consequentialist",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "deontology",
+      "ipa": "/ˌdiː.ɒnˈtɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "thuyết nghĩa vụ (đạo đức học dựa trên quy tắc và bổn phận)",
+      "meaning_vi_inline": "thuyết nghĩa vụ",
+      "example_en": "Deontology insists that some actions are forbidden even if they would produce good results.",
+      "example_vi": "Thuyết nghĩa vụ khẳng định rằng một số hành động bị cấm ngay cả khi chúng mang lại kết quả tốt.",
+      "word_family": {
+        "noun": "deontology / deontologist",
+        "verb": null,
+        "adjective": "deontological",
+        "adverb": "deontologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "virtue ethics",
+      "ipa": "/ˈvɜː.tʃuː ˈeθ.ɪks/",
+      "pos": "noun",
+      "meaning_vi": "đạo đức đức hạnh (trường phái đạo đức tập trung vào phẩm cách con người)",
+      "meaning_vi_inline": "đạo đức đức hạnh",
+      "example_en": "Virtue ethics asks what kind of character traits we should cultivate rather than which rules to follow.",
+      "example_vi": "Đạo đức đức hạnh đặt câu hỏi về những phẩm cách nào chúng ta nên rèn luyện thay vì quy tắc nào cần tuân theo.",
+      "word_family": {
+        "noun": "virtue ethics / virtue / virtuousness",
+        "verb": null,
+        "adjective": "virtuous",
+        "adverb": "virtuously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "moral relativism",
+      "ipa": "/ˈmɒr.əl ˈrel.ə.tɪ.vɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa tương đối đạo đức (quan điểm cho rằng đạo đức phụ thuộc vào văn hóa)",
+      "meaning_vi_inline": "chủ nghĩa tương đối đạo đức",
+      "example_en": "Moral relativism holds that no ethical framework is universally valid across all cultures.",
+      "example_vi": "Chủ nghĩa tương đối đạo đức cho rằng không có khung đạo đức nào có giá trị phổ quát trên tất cả các nền văn hóa.",
+      "word_family": {
+        "noun": "moral relativism / relativist",
+        "verb": null,
+        "adjective": "relativist / relativistic",
+        "adverb": "relativistically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "utilitarianism",
+      "ipa": "/juːˌtɪl.ɪˈteər.i.ə.nɪ.zəm/",
+      "pos": "noun",
+      "meaning_vi": "thuyết vị lợi (đạo đức nhằm tối đa hóa hạnh phúc tổng thể)",
+      "meaning_vi_inline": "thuyết vị lợi",
+      "example_en": "Utilitarianism was championed by John Stuart Mill, who argued that pleasure and the absence of pain are the ultimate goods.",
+      "example_vi": "Thuyết vị lợi được ủng hộ bởi John Stuart Mill, người lập luận rằng niềm vui và sự vắng mặt của đau khổ là những điều tốt đẹp tối thượng.",
+      "word_family": {
+        "noun": "utilitarianism / utilitarian",
+        "verb": null,
+        "adjective": "utilitarian",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "utility",
+        "explanation_vi": "'Utilitarianism' là một học thuyết đạo đức; 'utility' đơn giản là sự hữu dụng hoặc tiện ích — không đồng nghĩa."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
+      "pos": "noun",
+      "meaning_vi": "quyền tự chủ, sự độc lập",
+      "meaning_vi_inline": "quyền tự chủ",
+      "example_en": "Respecting a patient's autonomy means allowing them to refuse treatment even when doctors disagree.",
+      "example_vi": "Tôn trọng quyền tự chủ của bệnh nhân có nghĩa là cho phép họ từ chối điều trị ngay cả khi bác sĩ không đồng ý.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "justice",
+      "ipa": "/ˈdʒʌs.tɪs/",
+      "pos": "noun",
+      "meaning_vi": "công lý, sự công bằng",
+      "meaning_vi_inline": "công lý",
+      "example_en": "Philosophers debate whether justice demands equal treatment or equal outcomes for all citizens.",
+      "example_vi": "Các triết gia tranh luận liệu công lý đòi hỏi đối xử bình đẳng hay kết quả bình đẳng cho mọi công dân.",
+      "word_family": {
+        "noun": "justice / justness",
+        "verb": "justify",
+        "adjective": "just / justified",
+        "adverb": "justly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "integrity",
+      "ipa": "/ɪnˈteɡ.rɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tính chính trực, sự liêm chính",
+      "meaning_vi_inline": "tính chính trực",
+      "example_en": "A person of integrity adheres to their moral principles even when no one is watching.",
+      "example_vi": "Một người có tính chính trực tuân thủ các nguyên tắc đạo đức của mình ngay cả khi không ai theo dõi.",
+      "word_family": {
+        "noun": "integrity",
+        "verb": null,
+        "adjective": "integral",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "integration",
+        "explanation_vi": "'Integrity' là tính chính trực hoặc sự toàn vẹn về mặt đạo đức; 'integration' là sự hội nhập hoặc tích hợp — hai từ khác nghĩa hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "culpability",
+      "ipa": "/ˌkʌl.pəˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "trách nhiệm pháp lý/đạo đức, sự đáng bị chê trách",
+      "meaning_vi_inline": "trách nhiệm đạo đức",
+      "example_en": "The court examined the degree of culpability of each defendant before determining the sentence.",
+      "example_vi": "Tòa án xem xét mức độ trách nhiệm pháp lý của từng bị cáo trước khi xác định bản án.",
+      "word_family": {
+        "noun": "culpability / culprit",
+        "verb": null,
+        "adjective": "culpable",
+        "adverb": "culpably"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "dilemma",
+      "ipa": "/dɪˈlem.ə/",
+      "pos": "noun",
+      "meaning_vi": "tình huống nan giải, tình thế tiến thoái lưỡng nan",
+      "meaning_vi_inline": "tình huống nan giải",
+      "example_en": "The trolley problem is a classic philosophical dilemma designed to test moral intuitions.",
+      "example_vi": "Bài toán xe điện là một tình huống nan giải triết học kinh điển được thiết kế để kiểm tra trực giác đạo đức.",
+      "word_family": {
+        "noun": "dilemma",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "navigate complex moral dilemmas",
+      "meaning_vi": "vượt qua những tình huống nan giải phức tạp về đạo đức",
+      "example_en": "Medical professionals must navigate complex moral dilemmas when resources are scarce and decisions are urgent.",
+      "example_vi": "Các chuyên gia y tế phải vượt qua những tình huống nan giải phức tạp về đạo đức khi nguồn lực khan hiếm và quyết định cần khẩn cấp.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "uphold principles of justice",
+      "meaning_vi": "duy trì các nguyên tắc công lý",
+      "example_en": "Courts are expected to uphold principles of justice regardless of political pressure.",
+      "example_vi": "Các tòa án được kỳ vọng duy trì các nguyên tắc công lý bất kể áp lực chính trị.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "apply consequentialist reasoning",
+      "meaning_vi": "áp dụng lý luận hệ quả",
+      "example_en": "Economists often apply consequentialist reasoning when evaluating the impact of public health policies.",
+      "example_vi": "Các nhà kinh tế thường áp dụng lý luận hệ quả khi đánh giá tác động của các chính sách y tế công cộng.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "challenge moral relativism",
+      "meaning_vi": "thách thức chủ nghĩa tương đối đạo đức",
+      "example_en": "Human rights advocates frequently challenge moral relativism when it is used to excuse human rights abuses.",
+      "example_vi": "Những người ủng hộ nhân quyền thường xuyên thách thức chủ nghĩa tương đối đạo đức khi nó bị dùng để bào chữa cho các vi phạm nhân quyền.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "balance competing ethical obligations",
+      "meaning_vi": "cân bằng các nghĩa vụ đạo đức cạnh tranh",
+      "example_en": "A good leader must balance competing ethical obligations to employees, customers, and the wider community.",
+      "example_vi": "Một nhà lãnh đạo giỏi phải cân bằng các nghĩa vụ đạo đức cạnh tranh đối với nhân viên, khách hàng và cộng đồng rộng lớn hơn.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage suggests that utilitarianism was developed by both Bentham and Mill.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Deontology permits harmful actions towards individuals provided the overall outcome is positive.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that virtue ethics was rejected by modern philosophers.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, moral relativism can be used to justify atrocities.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage implies that combining multiple ethical frameworks is preferable to relying on just one.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The nurse was praised for her _____ in refusing to falsify patient records despite pressure from management.",
+          "options": [
+            "dilemma",
+            "culpability",
+            "integrity",
+            "autonomy"
+          ],
+          "answer": "integrity"
+        },
+        {
+          "id": 2,
+          "sentence": "The philosopher argued that personal _____ — the right to make one's own choices — is the cornerstone of a just society.",
+          "options": [
+            "justice",
+            "autonomy",
+            "utilitarianism",
+            "deontology"
+          ],
+          "answer": "autonomy"
+        },
+        {
+          "id": 3,
+          "sentence": "The defence lawyer sought to reduce her client's _____ by demonstrating that he had acted under extreme duress.",
+          "options": [
+            "dilemma",
+            "virtue ethics",
+            "culpability",
+            "moral relativism"
+          ],
+          "answer": "culpability"
+        },
+        {
+          "id": 4,
+          "sentence": "Critics of _____ argue that maximising aggregate happiness can mask serious violations of individual rights.",
+          "options": [
+            "deontology",
+            "consequentialism",
+            "virtue ethics",
+            "integrity"
+          ],
+          "answer": "consequentialism"
+        },
+        {
+          "id": 5,
+          "sentence": "Choosing between loyalty to a friend and honesty with an employer presents a genuine ethical _____.",
+          "options": [
+            "justice",
+            "culpability",
+            "autonomy",
+            "dilemma"
+          ],
+          "answer": "dilemma"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "deontology",
+        "justice",
+        "moral relativism",
+        "utilitarianism",
+        "integrity",
+        "virtue ethics"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ holds that the morality of an action depends on whether it conforms to a rule or duty, not on its consequences.",
+          "answer": "deontology"
+        },
+        {
+          "id": 2,
+          "sentence": "She demonstrated remarkable _____ by disclosing the company's wrongdoing at significant personal cost.",
+          "answer": "integrity"
+        },
+        {
+          "id": 3,
+          "sentence": "Aristotle's _____ asks us to cultivate excellence of character rather than simply calculate the best outcome.",
+          "answer": "virtue ethics"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ is often criticised for allowing the majority to exploit minorities as long as overall happiness increases.",
+          "answer": "utilitarianism"
+        },
+        {
+          "id": 5,
+          "sentence": "Reformers argue that the criminal justice system must be redesigned to deliver genuine _____ to all citizens equally.",
+          "answer": "justice"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "deontology",
+            "that",
+            "some",
+            "argues",
+            "actions",
+            "are",
+            "intrinsically",
+            "wrong"
+          ],
+          "answer": "Deontology argues that some actions are intrinsically wrong."
+        },
+        {
+          "id": 2,
+          "words": [
+            "virtue",
+            "ethics",
+            "focuses",
+            "on",
+            "character",
+            "rather",
+            "than",
+            "rules",
+            "or",
+            "outcomes"
+          ],
+          "answer": "Virtue ethics focuses on character rather than rules or outcomes."
+        },
+        {
+          "id": 3,
+          "words": [
+            "moral",
+            "relativism",
+            "cannot",
+            "justify",
+            "serious",
+            "violations",
+            "of",
+            "human",
+            "rights"
+          ],
+          "answer": "Moral relativism cannot justify serious violations of human rights."
+        },
+        {
+          "id": 4,
+          "words": [
+            "autonomy",
+            "the",
+            "right",
+            "is",
+            "to",
+            "govern",
+            "oneself",
+            "without",
+            "interference"
+          ],
+          "answer": "Autonomy is the right to govern oneself without interference."
+        },
+        {
+          "id": 5,
+          "words": [
+            "utilitarianism",
+            "seeks",
+            "to",
+            "maximise",
+            "happiness",
+            "for",
+            "the",
+            "greatest",
+            "number",
+            "of",
+            "people"
+          ],
+          "answer": "Utilitarianism seeks to maximise happiness for the greatest number of people."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The judge acknowledged that the defendant's [culpable] was diminished by the circumstances of the crime.",
+          "highlighted": "culpable",
+          "options": {
+            "A": "culpably",
+            "B": "culprit",
+            "C": "culpability"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the clause after 'that' — 'culpability', not the adjective 'culpable'."
+        },
+        {
+          "id": 2,
+          "sentence": "Kant believed that all rational beings have the [autonomous] to make their own moral choices.",
+          "highlighted": "autonomous",
+          "options": {
+            "A": "autonomy",
+            "B": "autonomously",
+            "C": "autonomise"
+          },
+          "answer": "A",
+          "explanation": "A noun is required after the verb 'have' to serve as the object — 'autonomy', not the adjective 'autonomous'."
+        },
+        {
+          "id": 3,
+          "sentence": "Her [integral] was beyond question; she had never compromised her values in forty years of public service.",
+          "highlighted": "integral",
+          "options": {
+            "A": "integration",
+            "B": "integrally",
+            "C": "integrity"
+          },
+          "answer": "C",
+          "explanation": "'Integrity' (the quality of being honest and having strong moral principles) is required here; 'integral' is an adjective meaning essential or fundamental."
+        },
+        {
+          "id": 4,
+          "sentence": "The committee faced an ethical [dilemmatic] when both available options carried significant moral costs.",
+          "highlighted": "dilemmatic",
+          "options": {
+            "A": "dilemmas",
+            "B": "dilemma",
+            "C": "dilemmata"
+          },
+          "answer": "B",
+          "explanation": "The noun 'dilemma' is required after the adjective 'ethical'; 'dilemmatic' is not a standard English word."
+        },
+        {
+          "id": 5,
+          "sentence": "Consequentialist thinkers [justify] harmful acts on the grounds that they produce a greater overall good.",
+          "highlighted": "justify",
+          "options": {
+            "A": "justifying",
+            "B": "to justify",
+            "C": "justified"
+          },
+          "answer": "C",
+          "explanation": "The past tense 'justified' is required to describe a historical philosophical position — 'thinkers justified'; the present simple 'justify' is grammatically possible but the sentence describes established past arguments, making 'justified' the most precise fit among the options."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "integrity",
+      "2": "autonomy",
+      "3": "culpability",
+      "4": "consequentialism",
+      "5": "dilemma"
+    },
+    "ex3": {
+      "1": "deontology",
+      "2": "integrity",
+      "3": "virtue ethics",
+      "4": "utilitarianism",
+      "5": "justice"
+    },
+    "ex4": {
+      "1": "Deontology argues that some actions are intrinsically wrong.",
+      "2": "Virtue ethics focuses on character rather than rules or outcomes.",
+      "3": "Moral relativism cannot justify serious violations of human rights.",
+      "4": "Autonomy is the right to govern oneself without interference.",
+      "5": "Utilitarianism seeks to maximise happiness for the greatest number of people."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

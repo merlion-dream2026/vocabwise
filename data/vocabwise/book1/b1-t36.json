@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 36,
+    "topic_id": "b1-t36",
+    "topic_title": "Libraries & Books",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📚",
+    "topic_title_vi": "Thư Viện & Sách",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 116,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Our school **library** is a great place to study. It has a **quiet** **zone** where students can sit and read. Each **shelf** is full of books — from **novel**s and **magazine**s to every **dictionary** you could need.",
+        "text_vi": "**Thư viện** trường chúng tôi là nơi tuyệt vời để học. Nó có một **khu vực** **yên tĩnh** nơi học sinh có thể ngồi và đọc sách. Mỗi **kệ sách** chứa đầy sách — từ **tiểu thuyết** và **tạp chí** đến mọi cuốn **từ điển** bạn cần."
+      },
+      {
+        "index": 2,
+        "text_en": "To **borrow** a book, you need a library **card**. You walk down the **aisle**, find the book you want, then show your **card** at the desk. The librarian scans it and records your **reading** loan.",
+        "text_vi": "Để **mượn** sách, bạn cần một **thẻ** thư viện. Bạn đi dọc theo **lối đi**, tìm cuốn sách bạn muốn, rồi xuất trình **thẻ** của mình ở quầy. Thủ thư quét thẻ và ghi lại khoản mượn **đọc** của bạn."
+      },
+      {
+        "index": 3,
+        "text_en": "You must **return** books on time. If you are late, you pay a **fine**. The **catalogue** lists every book in the library — you can search it online or on a screen near the **aisle**.",
+        "text_vi": "Bạn phải **trả** sách đúng hạn. Nếu bạn trả trễ, bạn phải nộp **tiền phạt**. **Danh mục** liệt kê mọi cuốn sách trong thư viện — bạn có thể tra cứu trực tuyến hoặc trên màn hình gần **lối đi**."
+      },
+      {
+        "index": 4,
+        "text_en": "Some books are only available in **print** — they are not online. I love to sit in the **reading** area with a good **novel** and forget about everything else. The library **zone** helps me focus and learn.",
+        "text_vi": "Một số sách chỉ có bản **in** — không có trực tuyến. Tôi thích ngồi trong khu vực **đọc sách** với một cuốn **tiểu thuyết** hay và quên đi mọi thứ khác. **Khu vực** thư viện giúp tôi tập trung và học hỏi."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "library",
+      "ipa": "/ˈlaɪbrəri/",
+      "pos": "noun",
+      "meaning_vi": "thư viện",
+      "meaning_vi_inline": "thư viện",
+      "example_en": "I went to the library after school to find books for my history project.",
+      "example_vi": "Tôi đến thư viện sau giờ học để tìm sách cho dự án lịch sử của mình.",
+      "word_family": {
+        "noun": "library / librarian",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "shelf",
+      "ipa": "/ʃelf/",
+      "pos": "noun",
+      "meaning_vi": "kệ sách, giá sách",
+      "meaning_vi_inline": "kệ sách",
+      "example_en": "She found the book she wanted on the top shelf near the window.",
+      "example_vi": "Cô ấy tìm thấy cuốn sách mình muốn trên kệ cao nhất gần cửa sổ.",
+      "word_family": {
+        "noun": "shelf / shelves (plural) / shelving",
+        "verb": "shelve",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "novel",
+      "ipa": "/ˈnɒvəl/",
+      "pos": "noun",
+      "meaning_vi": "tiểu thuyết",
+      "meaning_vi_inline": "tiểu thuyết",
+      "example_en": "My favourite novel is about a young girl who travels around the world alone.",
+      "example_vi": "Cuốn tiểu thuyết yêu thích của tôi kể về một cô gái trẻ đi vòng quanh thế giới một mình.",
+      "word_family": {
+        "noun": "novel / novelist",
+        "verb": null,
+        "adjective": "novel (meaning new/original)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "magazine",
+      "ipa": "/ˌmæɡəˈziːn/",
+      "pos": "noun",
+      "meaning_vi": "tạp chí",
+      "meaning_vi_inline": "tạp chí",
+      "example_en": "The library has science magazines from the last ten years — they are free to read.",
+      "example_vi": "Thư viện có tạp chí khoa học từ mười năm qua — miễn phí để đọc.",
+      "word_family": {
+        "noun": "magazine",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "dictionary",
+      "ipa": "/ˈdɪkʃənri/",
+      "pos": "noun",
+      "meaning_vi": "từ điển",
+      "meaning_vi_inline": "từ điển",
+      "example_en": "If you do not know a word, look it up in a dictionary — do not just guess.",
+      "example_vi": "Nếu bạn không biết một từ, hãy tra từ điển — đừng đoán mò.",
+      "word_family": {
+        "noun": "dictionary",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "borrow",
+      "ipa": "/ˈbɒrəʊ/",
+      "pos": "verb",
+      "meaning_vi": "mượn (từ người khác hoặc thư viện)",
+      "meaning_vi_inline": "mượn",
+      "example_en": "You can borrow up to five books at a time with your library card.",
+      "example_vi": "Bạn có thể mượn tối đa năm cuốn sách một lúc bằng thẻ thư viện của mình.",
+      "word_family": {
+        "noun": "borrower / borrowing",
+        "verb": "borrow / borrowed",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "mượn vs. cho mượn",
+        "explanation_vi": "Trong tiếng Anh, 'borrow' = nhận mượn (tôi mượn sách từ thư viện), còn 'lend' = cho mượn (thư viện cho tôi mượn sách). Đừng dùng nhầm hai từ này."
+      }
+    },
+    {
+      "id": 7,
+      "word": "return",
+      "ipa": "/rɪˈtɜːn/",
+      "pos": "verb",
+      "meaning_vi": "trả lại (sách); quay lại",
+      "meaning_vi_inline": "trả",
+      "example_en": "Please return the books to the library by the due date shown on your receipt.",
+      "example_vi": "Vui lòng trả sách về thư viện trước ngày đến hạn được ghi trên biên lai của bạn.",
+      "word_family": {
+        "noun": "return",
+        "verb": "return / returned",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "quiet",
+      "ipa": "/ˈkwaɪət/",
+      "pos": "adjective",
+      "meaning_vi": "yên tĩnh, im lặng",
+      "meaning_vi_inline": "yên tĩnh",
+      "example_en": "The library is always quiet — talking loudly is not allowed inside.",
+      "example_vi": "Thư viện luôn yên tĩnh — không được nói to bên trong.",
+      "word_family": {
+        "noun": "quiet / quietness",
+        "verb": "quieten",
+        "adjective": "quiet / noisy",
+        "adverb": "quietly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "aisle",
+      "ipa": "/aɪl/",
+      "pos": "noun",
+      "meaning_vi": "lối đi (giữa các kệ sách)",
+      "meaning_vi_inline": "lối đi",
+      "example_en": "She walked slowly down the aisle, reading the labels on each shelf.",
+      "example_vi": "Cô ấy đi chậm dọc lối đi, đọc nhãn trên mỗi kệ sách.",
+      "word_family": {
+        "noun": "aisle",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "reading",
+      "ipa": "/ˈriːdɪŋ/",
+      "pos": "noun / adjective",
+      "meaning_vi": "việc đọc sách; thuộc về đọc sách",
+      "meaning_vi_inline": "đọc sách",
+      "example_en": "Reading is one of the best habits you can develop — it builds vocabulary fast.",
+      "example_vi": "Đọc sách là một trong những thói quen tốt nhất bạn có thể rèn luyện — nó giúp xây dựng vốn từ vựng nhanh chóng.",
+      "word_family": {
+        "noun": "reading / read",
+        "verb": "read / read (past)",
+        "adjective": "readable",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "card",
+      "ipa": "/kɑːd/",
+      "pos": "noun",
+      "meaning_vi": "thẻ (thư viện), thẻ thành viên",
+      "meaning_vi_inline": "thẻ",
+      "example_en": "You must show your library card every time you borrow or return a book.",
+      "example_vi": "Bạn phải xuất trình thẻ thư viện mỗi khi mượn hoặc trả sách.",
+      "word_family": {
+        "noun": "card / cardboard",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "print",
+      "ipa": "/prɪnt/",
+      "pos": "noun / verb",
+      "meaning_vi": "bản in, in ấn; in (ra giấy)",
+      "meaning_vi_inline": "in",
+      "example_en": "Some older reference books are only available in print — they are not online.",
+      "example_vi": "Một số sách tham khảo cũ chỉ có bản in — chúng không có trực tuyến.",
+      "word_family": {
+        "noun": "print / printer / printing",
+        "verb": "print / printed",
+        "adjective": "printed",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "fine",
+      "ipa": "/faɪn/",
+      "pos": "noun",
+      "meaning_vi": "tiền phạt (trả sách trễ hạn)",
+      "meaning_vi_inline": "tiền phạt",
+      "example_en": "She had to pay a fine because she returned the library book three weeks late.",
+      "example_vi": "Cô ấy phải nộp tiền phạt vì trả sách thư viện trễ ba tuần.",
+      "word_family": {
+        "noun": "fine",
+        "verb": "fine / fined (to fine someone)",
+        "adjective": "fine (meaning good/okay — different meaning)",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "fine (tốt/ổn) vs. fine (tiền phạt)",
+        "explanation_vi": "Trong tiếng Anh, 'fine' có hai nghĩa hoàn toàn khác nhau: (1) tính từ: 'I'm fine' = tôi ổn; (2) danh từ: 'a library fine' = tiền phạt khi trả sách trễ. Đừng nhầm lẫn hai nghĩa này."
+      }
+    },
+    {
+      "id": 14,
+      "word": "zone",
+      "ipa": "/zəʊn/",
+      "pos": "noun",
+      "meaning_vi": "khu vực, vùng",
+      "meaning_vi_inline": "khu vực",
+      "example_en": "The quiet zone in the library is for serious study — no talking is allowed there.",
+      "example_vi": "Khu vực yên tĩnh trong thư viện dành cho việc học nghiêm túc — không được nói chuyện ở đó.",
+      "word_family": {
+        "noun": "zone",
+        "verb": "zone",
+        "adjective": "zonal",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "catalogue",
+      "ipa": "/ˈkætəlɒɡ/",
+      "pos": "noun",
+      "meaning_vi": "danh mục (sách thư viện)",
+      "meaning_vi_inline": "danh mục",
+      "example_en": "I searched the library catalogue and found three books on the topic I needed.",
+      "example_vi": "Tôi tra cứu danh mục thư viện và tìm thấy ba cuốn sách về chủ đề tôi cần.",
+      "word_family": {
+        "noun": "catalogue",
+        "verb": "catalogue / catalogued",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "catalogue" },
+        { "id": 2, "word": "fine" },
+        { "id": 3, "word": "aisle" },
+        { "id": 4, "word": "borrow" },
+        { "id": 5, "word": "shelf" }
+      ],
+      "options": [
+        { "id": "A", "text": "a flat board fixed to a wall or inside a piece of furniture where books are stored" },
+        { "id": "B", "text": "a money penalty you must pay for returning a library book after the due date" },
+        { "id": "C", "text": "a complete list of all the books or items available in a library" },
+        { "id": "D", "text": "a narrow passage between rows of shelves in a library or shop" },
+        { "id": "E", "text": "to take something temporarily from a place with the intention of returning it" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You must _____ the book before the due date or you will have to pay a fine.",
+          "options": ["borrow", "print", "return", "read"],
+          "answer": "return"
+        },
+        {
+          "id": 2,
+          "sentence": "I love reading _____ — my favourite is a mystery story about a young detective.",
+          "options": ["novels", "zones", "catalogues", "aisles"],
+          "answer": "novels"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ shows every book in the library — you can search by title or author.",
+          "options": ["card", "fine", "catalogue", "shelf"],
+          "answer": "catalogue"
+        },
+        {
+          "id": 4,
+          "sentence": "She had to pay a _____ of 5,000 đồng because she returned the book two weeks late.",
+          "options": ["card", "fine", "print", "return"],
+          "answer": "fine"
+        },
+        {
+          "id": 5,
+          "sentence": "Please keep your voice down — this is the _____ zone and people are studying.",
+          "options": ["reading", "quiet", "library", "borrowed"],
+          "answer": "quiet"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["library", "magazine", "card", "aisle", "dictionary", "zone"],
+      "items": [
+        { "id": 1, "sentence": "I walked down the _____ slowly, looking at the titles on each shelf.", "answer": "aisle" },
+        { "id": 2, "sentence": "You need a library _____ to borrow books — it only takes a few minutes to get one.", "answer": "card" },
+        { "id": 3, "sentence": "If you do not know a word, look it up in a _____.", "answer": "dictionary" },
+        { "id": 4, "sentence": "There is a reading _____ on the second floor where you can study in silence.", "answer": "zone" },
+        { "id": 5, "sentence": "She reads a science _____ every month to keep up with new discoveries.", "answer": "magazine" }
+      ],
+      "note": "One word in the box is not used: library"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new school _____ has over ten thousand books and a digital search system. (LIBRARY)",
+          "base_word": "LIBRARY",
+          "answer": "librarian",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "Please speak _____ — other students are trying to concentrate on their work. (QUIET)",
+          "base_word": "QUIET",
+          "answer": "quietly",
+          "form_used": "adverb"
+        },
+        {
+          "id": 3,
+          "sentence": "This book is very _____ — the sentences are clear and the story is easy to follow. (READ)",
+          "base_word": "READ",
+          "answer": "readable",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "The librarian _____ the student 20,000 đồng for returning the book late. (FINE)",
+          "base_word": "FINE",
+          "answer": "fined",
+          "form_used": "verb"
+        },
+        {
+          "id": 5,
+          "sentence": "The books were carefully _____ by subject so students could find them easily. (SHELF)",
+          "base_word": "SHELF",
+          "answer": "shelved",
+          "form_used": "verb"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You need to [lend] a library card before you can take any books home.",
+          "highlighted": "lend",
+          "options": { "A": "return", "B": "lend", "C": "get" },
+          "answer": "C",
+          "explanation": "'Lend' means to give something to someone temporarily — the library lends to you, not the other way around. The sentence means you need to 'get' (or obtain) a library card before borrowing books."
+        },
+        {
+          "id": 2,
+          "sentence": "I searched the library [shelf] online to find books about climate change.",
+          "highlighted": "shelf",
+          "options": { "A": "catalogue", "B": "shelf", "C": "aisle" },
+          "answer": "A",
+          "explanation": "A 'shelf' is the physical board where books sit. You cannot search a shelf online. The system you search to find books in a library is the 'catalogue', which lists all available titles."
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher told us to be [noisy] in the library so we do not disturb other readers.",
+          "highlighted": "noisy",
+          "options": { "A": "quiet", "B": "noisy", "C": "nervous" },
+          "answer": "A",
+          "explanation": "'Noisy' means making a lot of sound — exactly what you should NOT do in a library. The correct word is 'quiet', meaning to keep the noise level low so others can focus."
+        },
+        {
+          "id": 4,
+          "sentence": "She paid a small [grade] because she forgot to return her library book on time.",
+          "highlighted": "grade",
+          "options": { "A": "fine", "B": "grade", "C": "card" },
+          "answer": "A",
+          "explanation": "A 'grade' is a score or level in school — it has nothing to do with late fees. When you return a library book late, you pay a 'fine', which is a money penalty."
+        },
+        {
+          "id": 5,
+          "sentence": "He walked through the quiet [zone] looking for the travel section.",
+          "highlighted": "zone",
+          "options": { "A": "card", "B": "aisle", "C": "zone" },
+          "answer": "B",
+          "explanation": "A 'zone' is a designated area (like a quiet zone or reading zone). When you walk through the rows of shelves looking for a section, you walk through an 'aisle' — the narrow passage between shelves."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "B", "3": "D", "4": "E", "5": "A" },
+    "ex2": { "1": "return", "2": "novels", "3": "catalogue", "4": "fine", "5": "quiet" },
+    "ex3": { "1": "aisle", "2": "card", "3": "dictionary", "4": "zone", "5": "magazine" },
+    "ex4": { "1": "librarian", "2": "quietly", "3": "readable", "4": "fined", "5": "shelved" },
+    "ex5": { "1": "C", "2": "A", "3": "A", "4": "A", "5": "B" }
+  }
+}

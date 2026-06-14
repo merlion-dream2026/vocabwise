@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 22,
+    "topic_id": "b3-t22",
+    "topic_title": "Artificial Intelligence & Society",
+    "topic_title_vi": "Trí Tuệ Nhân Tạo & Xã Hội",
+    "theme_number": 3,
+    "theme_title": "The Modern World",
+    "theme_title_vi": "Thế Giới Hiện Đại",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🤖",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 225,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Artificial intelligence is no longer a distant prospect — it is embedded in the systems that recommend what we watch, decide who receives a loan, and determine which job applicants advance to interview. At the heart of every such decision lies an **algorithm**: a set of computational rules that process data to produce an output. While these systems can enhance **efficiency**, their opacity makes **accountability** difficult to establish when outcomes are unfair or harmful.",
+        "text_vi": "Trí tuệ nhân tạo không còn là một viễn cảnh xa vời — nó được tích hợp vào các hệ thống đề xuất những gì chúng ta xem, quyết định ai nhận được khoản vay, và xác định ứng viên nào tiến đến vòng phỏng vấn. Trọng tâm của mỗi quyết định như vậy là một **thuật toán**: một tập hợp các quy tắc tính toán xử lý dữ liệu để tạo ra kết quả. Mặc dù các hệ thống này có thể nâng cao **hiệu quả**, sự thiếu minh bạch của chúng khiến **trách nhiệm giải trình** khó thiết lập khi kết quả không công bằng hoặc có hại."
+      },
+      {
+        "index": 2,
+        "text_en": "One of the gravest concerns is **bias**. When training data reflects historical inequalities, AI systems **embed algorithmic bias** into their predictions — disproportionately flagging certain ethnic groups as high-risk, or undervaluing female candidates in hiring tools. This problem is compounded by limited **explainability**: the ability to articulate why a model reached a particular conclusion. Without it, those harmed by **autonomous** decision-making systems have little recourse.",
+        "text_vi": "Một trong những lo ngại nghiêm trọng nhất là **sự thiên lệch**. Khi dữ liệu huấn luyện phản ánh những bất bình đẳng lịch sử, các hệ thống AI **nhúng thiên lệch thuật toán** vào dự đoán của chúng — đánh dấu không cân xứng một số nhóm sắc tộc là rủi ro cao, hoặc đánh giá thấp ứng viên nữ trong các công cụ tuyển dụng. Vấn đề này càng trầm trọng hơn bởi **khả năng giải thích** hạn chế: khả năng diễn đạt tại sao một mô hình đạt đến một kết luận cụ thể. Không có điều đó, những người bị tổn hại bởi các hệ thống ra quyết định **tự trị** có ít lựa chọn."
+      },
+      {
+        "index": 3,
+        "text_en": "The scale of AI deployment has also intensified debates about **surveillance**. Governments and corporations increasingly **develop autonomous systems** capable of monitoring populations at scale, tracking movements, communications, and behavioural patterns. Critics warn that without meaningful **oversight**, such tools erode civil liberties and concentrate power dangerously. Meanwhile, the philosophical question of **sentience** — whether advanced AI might one day develop genuine consciousness — remains unresolved but grows more urgent.",
+        "text_vi": "Quy mô triển khai AI cũng đã làm sâu sắc thêm các cuộc tranh luận về **giám sát**. Các chính phủ và tập đoàn ngày càng **phát triển các hệ thống tự trị** có khả năng giám sát dân số ở quy mô lớn, theo dõi chuyển động, liên lạc và các mô hình hành vi. Các nhà phê bình cảnh báo rằng nếu không có **sự giám sát** có ý nghĩa, các công cụ đó xói mòn quyền tự do dân sự và tập trung quyền lực một cách nguy hiểm. Trong khi đó, câu hỏi triết học về **ý thức** — liệu AI tiên tiến có thể một ngày nào đó phát triển ý thức thực sự hay không — vẫn chưa được giải quyết nhưng ngày càng cấp bách hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "To navigate these risks, legislators must **introduce regulatory frameworks** that compel transparency and **hold AI developers accountable** for the consequences of their systems. Effective **regulation** need not stifle innovation; rather, it should **raise ethical concerns about AI** to the status of binding obligations. A future in which AI serves the public good requires both technical rigour and a firm commitment to democratic values.",
+        "text_vi": "Để điều hướng những rủi ro này, các nhà lập pháp phải **đưa ra các khung quy định** buộc sự minh bạch và **buộc các nhà phát triển AI chịu trách nhiệm** về hậu quả của các hệ thống của họ. **Quy định** hiệu quả không cần phải kìm hãm đổi mới; thay vào đó, nó phải **nêu lên lo ngại đạo đức về AI** thành các nghĩa vụ ràng buộc. Một tương lai trong đó AI phục vụ lợi ích công cộng đòi hỏi cả sự nghiêm ngặt kỹ thuật lẫn cam kết vững chắc với các giá trị dân chủ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "algorithm",
+      "ipa": "/ˈæl.ɡə.rɪ.ðəm/",
+      "pos": "noun",
+      "meaning_vi": "thuật toán, tập hợp quy tắc tính toán để giải quyết vấn đề",
+      "meaning_vi_inline": "thuật toán",
+      "example_en": "The recommendation algorithm analyses viewing history to predict which content a user is most likely to enjoy.",
+      "example_vi": "Thuật toán đề xuất phân tích lịch sử xem để dự đoán nội dung mà người dùng có nhiều khả năng thích nhất.",
+      "word_family": {
+        "noun": "algorithm",
+        "verb": null,
+        "adjective": "algorithmic",
+        "adverb": "algorithmically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "pos": "noun",
+      "meaning_vi": "sự thiên lệch, xu hướng ưu tiên một chiều không công bằng",
+      "meaning_vi_inline": "sự thiên lệch",
+      "example_en": "Researchers found significant gender bias in the company's AI-driven recruitment software.",
+      "example_vi": "Các nhà nghiên cứu phát hiện sự thiên lệch giới tính đáng kể trong phần mềm tuyển dụng dựa trên AI của công ty.",
+      "word_family": {
+        "noun": "bias",
+        "verb": "bias",
+        "adjective": "biased / biasedly",
+        "adverb": "biasedly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɒn.ə.məs/",
+      "pos": "adjective",
+      "meaning_vi": "tự trị, hoạt động độc lập không cần sự kiểm soát của con người",
+      "meaning_vi_inline": "tự trị",
+      "example_en": "Autonomous vehicles use sensor arrays and machine learning to navigate roads without human input.",
+      "example_vi": "Xe tự lái sử dụng mảng cảm biến và học máy để điều hướng đường mà không cần sự can thiệp của con người.",
+      "word_family": {
+        "noun": "autonomy",
+        "verb": null,
+        "adjective": "autonomous",
+        "adverb": "autonomously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "surveillance",
+      "ipa": "/səˈveɪ.ləns/",
+      "pos": "noun",
+      "meaning_vi": "sự giám sát, hoạt động theo dõi có hệ thống",
+      "meaning_vi_inline": "sự giám sát",
+      "example_en": "Mass surveillance programmes collect enormous volumes of data, raising serious civil liberties concerns.",
+      "example_vi": "Các chương trình giám sát hàng loạt thu thập khối lượng dữ liệu khổng lồ, đặt ra những lo ngại nghiêm trọng về quyền tự do dân sự.",
+      "word_family": {
+        "noun": "surveillance",
+        "verb": "surveil",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "explainability",
+      "ipa": "/ɪkˌspleɪ.nəˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "khả năng giải thích, mức độ mà một hệ thống AI có thể diễn đạt lý do ra quyết định",
+      "meaning_vi_inline": "khả năng giải thích",
+      "example_en": "Regulators are increasingly demanding greater explainability from AI systems used in criminal justice.",
+      "example_vi": "Các cơ quan quản lý ngày càng yêu cầu khả năng giải thích cao hơn từ các hệ thống AI được sử dụng trong tư pháp hình sự.",
+      "word_family": {
+        "noun": "explainability / explanation",
+        "verb": "explain",
+        "adjective": "explainable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "accountability",
+      "ipa": "/əˌkaʊn.təˈbɪl.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "trách nhiệm giải trình, nghĩa vụ chịu trách nhiệm về hành động và quyết định",
+      "meaning_vi_inline": "trách nhiệm giải trình",
+      "example_en": "Without clear accountability structures, it is impossible to assign responsibility when an AI system causes harm.",
+      "example_vi": "Nếu không có cấu trúc trách nhiệm giải trình rõ ràng, không thể phân công trách nhiệm khi một hệ thống AI gây ra thiệt hại.",
+      "word_family": {
+        "noun": "accountability / account",
+        "verb": "account (for)",
+        "adjective": "accountable",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "responsibility",
+        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ giải trình và chịu hậu quả; 'responsibility' nhấn mạnh bổn phận thực hiện nhiệm vụ — hai khái niệm liên quan nhưng khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "neural network",
+      "ipa": "/ˈnjʊə.rəl ˈnet.wɜːk/",
+      "pos": "noun phrase",
+      "meaning_vi": "mạng nơ-ron, kiến trúc AI mô phỏng cách não bộ xử lý thông tin",
+      "meaning_vi_inline": "mạng nơ-ron",
+      "example_en": "Deep neural networks have achieved remarkable accuracy in image recognition and natural language processing.",
+      "example_vi": "Các mạng nơ-ron sâu đã đạt được độ chính xác đáng kể trong nhận dạng hình ảnh và xử lý ngôn ngữ tự nhiên.",
+      "word_family": {
+        "noun": "neural network",
+        "verb": null,
+        "adjective": "neural",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "regulation",
+      "ipa": "/ˌreɡ.jʊˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "quy định, luật lệ kiểm soát hoạt động của một ngành hay lĩnh vực",
+      "meaning_vi_inline": "quy định",
+      "example_en": "The EU's AI regulation requires high-risk systems to undergo rigorous testing before deployment.",
+      "example_vi": "Quy định AI của EU yêu cầu các hệ thống rủi ro cao phải trải qua kiểm tra nghiêm ngặt trước khi triển khai.",
+      "word_family": {
+        "noun": "regulation / regulator",
+        "verb": "regulate",
+        "adjective": "regulatory / regulated",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "oversight",
+      "ipa": "/ˈəʊ.və.saɪt/",
+      "pos": "noun",
+      "meaning_vi": "sự giám sát (mang tính quản lý), sự kiểm tra để đảm bảo tuân thủ",
+      "meaning_vi_inline": "sự giám sát",
+      "example_en": "Independent oversight of AI systems in the public sector is essential to prevent abuse of power.",
+      "example_vi": "Sự giám sát độc lập đối với các hệ thống AI trong khu vực công là thiết yếu để ngăn chặn lạm dụng quyền lực.",
+      "word_family": {
+        "noun": "oversight",
+        "verb": "oversee",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "surveillance",
+        "explanation_vi": "'Oversight' mang nghĩa giám sát mang tính quản lý nhằm đảm bảo tuân thủ; 'surveillance' là theo dõi thường xuyên nhằm thu thập thông tin — mục đích và hàm ý khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "sentience",
+      "ipa": "/ˈsen.ʃəns/",
+      "pos": "noun",
+      "meaning_vi": "ý thức, khả năng cảm nhận và trải nghiệm chủ quan",
+      "meaning_vi_inline": "ý thức",
+      "example_en": "The question of whether advanced AI could ever achieve genuine sentience divides philosophers and computer scientists.",
+      "example_vi": "Câu hỏi liệu AI tiên tiến có thể đạt được ý thức thực sự hay không chia rẽ các nhà triết học và khoa học máy tính.",
+      "word_family": {
+        "noun": "sentience",
+        "verb": null,
+        "adjective": "sentient",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "raise ethical concerns about AI",
+      "meaning_vi": "nêu lên lo ngại đạo đức về AI",
+      "example_en": "The deployment of AI in healthcare has raised ethical concerns about patient privacy and informed consent.",
+      "example_vi": "Việc triển khai AI trong chăm sóc sức khỏe đã nêu lên lo ngại đạo đức về quyền riêng tư của bệnh nhân và sự đồng ý có thông tin.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "introduce regulatory frameworks",
+      "meaning_vi": "đưa ra các khung quy định",
+      "example_en": "Several countries are working to introduce regulatory frameworks that govern the development and deployment of AI.",
+      "example_vi": "Một số quốc gia đang nỗ lực đưa ra các khung quy định điều chỉnh việc phát triển và triển khai AI.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "embed algorithmic bias",
+      "meaning_vi": "nhúng thiên lệch thuật toán (vào hệ thống)",
+      "example_en": "Training datasets that reflect historical discrimination tend to embed algorithmic bias into automated hiring tools.",
+      "example_vi": "Các tập dữ liệu huấn luyện phản ánh sự phân biệt đối xử lịch sử có xu hướng nhúng thiên lệch thuật toán vào các công cụ tuyển dụng tự động.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "develop autonomous systems",
+      "meaning_vi": "phát triển các hệ thống tự trị",
+      "example_en": "Defence agencies are under pressure to develop autonomous systems responsibly and within international legal norms.",
+      "example_vi": "Các cơ quan quốc phòng đang chịu áp lực phát triển các hệ thống tự trị một cách có trách nhiệm và trong các chuẩn mực pháp lý quốc tế.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "hold AI developers accountable",
+      "meaning_vi": "buộc các nhà phát triển AI chịu trách nhiệm",
+      "example_en": "Consumer advocates argue that legislation must do more to hold AI developers accountable for discriminatory outcomes.",
+      "example_vi": "Các nhà vận động quyền người tiêu dùng lập luận rằng luật pháp phải làm nhiều hơn để buộc các nhà phát triển AI chịu trách nhiệm về các kết quả phân biệt đối xử.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage states that AI is already being used to make decisions about loan applications and job recruitment.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, all AI systems currently in use are required by law to provide explanations for their decisions.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that AI-driven surveillance tools could undermine democratic freedoms if left unchecked.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "The passage claims that most AI scientists believe sentient AI will be developed within the next decade.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage argues that regulation and innovation in AI are mutually exclusive.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The court held the company liable because its hiring _____ had systematically disadvantaged female applicants.",
+          "options": [
+            "sentience",
+            "surveillance",
+            "algorithm",
+            "oversight"
+          ],
+          "answer": "algorithm"
+        },
+        {
+          "id": 2,
+          "sentence": "Without independent _____, there is no mechanism to detect or correct errors in automated public services.",
+          "options": [
+            "bias",
+            "oversight",
+            "sentience",
+            "explainability"
+          ],
+          "answer": "oversight"
+        },
+        {
+          "id": 3,
+          "sentence": "The company faced serious criticism after it emerged that its facial recognition tool displayed racial _____.",
+          "options": [
+            "accountability",
+            "regulation",
+            "bias",
+            "autonomy"
+          ],
+          "answer": "bias"
+        },
+        {
+          "id": 4,
+          "sentence": "Clear _____ requires that when an AI system causes harm, a specific individual or organisation can be held responsible.",
+          "options": [
+            "regulation",
+            "sentience",
+            "explainability",
+            "accountability"
+          ],
+          "answer": "accountability"
+        },
+        {
+          "id": 5,
+          "sentence": "Philosophers debate whether a sufficiently advanced AI system could ever develop true _____ and subjective experience.",
+          "options": [
+            "sentience",
+            "surveillance",
+            "oversight",
+            "bias"
+          ],
+          "answer": "sentience"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "regulation",
+        "autonomous",
+        "explainability",
+        "neural network",
+        "surveillance",
+        "bias"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ used to train the content moderation model had been collected almost entirely from English-speaking users.",
+          "answer": "bias"
+        },
+        {
+          "id": 2,
+          "sentence": "A deep _____ was trained on millions of medical images to detect early signs of diabetic retinopathy.",
+          "answer": "neural network"
+        },
+        {
+          "id": 3,
+          "sentence": "Drone deliveries depend on _____ navigation systems capable of avoiding obstacles without human guidance.",
+          "answer": "autonomous"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ of AI decisions in criminal sentencing is a priority for legal reformers who argue defendants deserve to know why a model flagged them.",
+          "answer": "explainability"
+        },
+        {
+          "id": 5,
+          "sentence": "Comprehensive _____ of the AI sector is needed to prevent monopolistic practices and protect consumer rights.",
+          "answer": "regulation"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "algorithmic",
+            "bias",
+            "can",
+            "perpetuate",
+            "historical",
+            "inequalities",
+            "at",
+            "scale"
+          ],
+          "answer": "Algorithmic bias can perpetuate historical inequalities at scale."
+        },
+        {
+          "id": 2,
+          "words": [
+            "explainability",
+            "is",
+            "essential",
+            "for",
+            "building",
+            "public",
+            "trust",
+            "in",
+            "AI",
+            "systems"
+          ],
+          "answer": "Explainability is essential for building public trust in AI systems."
+        },
+        {
+          "id": 3,
+          "words": [
+            "mass",
+            "surveillance",
+            "threatens",
+            "individual",
+            "privacy",
+            "and",
+            "civil",
+            "liberties"
+          ],
+          "answer": "Mass surveillance threatens individual privacy and civil liberties."
+        },
+        {
+          "id": 4,
+          "words": [
+            "autonomous",
+            "systems",
+            "must",
+            "be",
+            "subject",
+            "to",
+            "independent",
+            "oversight",
+            "and",
+            "regulation"
+          ],
+          "answer": "Autonomous systems must be subject to independent oversight and regulation."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "question",
+            "of",
+            "AI",
+            "sentience",
+            "raises",
+            "profound",
+            "ethical",
+            "and",
+            "legal",
+            "challenges"
+          ],
+          "answer": "The question of AI sentience raises profound ethical and legal challenges."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The recruitment tool was found to [biased] its selections towards candidates from elite universities.",
+          "highlighted": "biased",
+          "options": {
+            "A": "bias",
+            "B": "biasing",
+            "C": "biasedly"
+          },
+          "answer": "A",
+          "explanation": "A base-form verb is needed after the modal 'to' — 'bias', not the adjective 'biased'."
+        },
+        {
+          "id": 2,
+          "sentence": "The tribunal ruled that the company had failed to demonstrate sufficient [account] for the automated decisions it had made.",
+          "highlighted": "account",
+          "options": {
+            "A": "accountable",
+            "B": "accounting",
+            "C": "accountability"
+          },
+          "answer": "C",
+          "explanation": "A noun is required after the adjective 'sufficient' — 'accountability', not the verb or adjective form."
+        },
+        {
+          "id": 3,
+          "sentence": "Critics argue that mass [surveille] without judicial authorisation violates fundamental rights.",
+          "highlighted": "surveille",
+          "options": {
+            "A": "surveilling",
+            "B": "surveillance",
+            "C": "surveilled"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the clause — 'surveillance', not the non-standard verb 'surveille'."
+        },
+        {
+          "id": 4,
+          "sentence": "The proposal calls for [regulatory] that sets clear limits on how AI may be used in public sector decisions.",
+          "highlighted": "regulatory",
+          "options": {
+            "A": "regulate",
+            "B": "regulated",
+            "C": "regulation"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the object of 'calls for' — 'regulation', not the adjective 'regulatory'."
+        },
+        {
+          "id": 5,
+          "sentence": "Neural [networks] process vast quantities of labelled data during training to identify statistical patterns.",
+          "highlighted": "networks",
+          "options": {
+            "A": "network",
+            "B": "networked",
+            "C": "networking"
+          },
+          "answer": "A",
+          "explanation": "'Neural network' is the fixed compound noun phrase — the singular 'network' is correct here as it pairs with 'Neural' to form the subject, not the plural 'networks'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "True",
+      "4": "Not Given",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "algorithm",
+      "2": "oversight",
+      "3": "bias",
+      "4": "accountability",
+      "5": "sentience"
+    },
+    "ex3": {
+      "1": "bias",
+      "2": "neural network",
+      "3": "autonomous",
+      "4": "explainability",
+      "5": "regulation"
+    },
+    "ex4": {
+      "1": "Algorithmic bias can perpetuate historical inequalities at scale.",
+      "2": "Explainability is essential for building public trust in AI systems.",
+      "3": "Mass surveillance threatens individual privacy and civil liberties.",
+      "4": "Autonomous systems must be subject to independent oversight and regulation.",
+      "5": "The question of AI sentience raises profound ethical and legal challenges."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

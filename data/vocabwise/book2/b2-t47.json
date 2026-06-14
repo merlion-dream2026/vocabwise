@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 47,
+    "topic_id": "b2-t47",
+    "topic_title": "The Workplace Today",
+    "theme_number": 5,
+    "theme_title": "People & Issues",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "💼",
+    "topic_title_vi": "Nơi Làm Việc Ngày Nay",
+    "theme_title_vi": "Con Người & Vấn Đề Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 211,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The modern workplace has changed enormously over the past decade. **Remote work** — working from home or another location outside the office — became widespread after the pandemic and has remained popular because it reduces commuting time and gives employees more control over their environment. Many companies now offer **adjustable hours**, allowing staff to start and finish at times that suit their personal lives, rather than working a rigid nine-to-five schedule.",
+        "text_vi": "Nơi làm việc hiện đại đã thay đổi rất nhiều trong thập kỷ qua. **Làm việc từ xa** — làm việc tại nhà hoặc địa điểm khác ngoài văn phòng — đã trở nên phổ biến sau đại dịch và vẫn được ưa chuộng vì nó giảm thời gian đi lại và cho nhân viên kiểm soát nhiều hơn đối với môi trường của họ. Nhiều công ty hiện cung cấp **giờ làm linh hoạt**, cho phép nhân viên bắt đầu và kết thúc vào thời điểm phù hợp với cuộc sống cá nhân của họ, thay vì làm việc theo lịch trình cố định chín giờ đến năm giờ."
+      },
+      {
+        "index": 2,
+        "text_en": "**Teamwork** and communication with **workmate**s remain essential, even when teams are spread across different locations. Video calls, shared documents, and messaging apps allow colleagues to collaborate on projects, meet **deadline**s, and give each other **feedback** on their work. A good manager will **manage** not only tasks but also **performance** — regularly checking that employees are meeting goals and offering support where needed.",
+        "text_vi": "**Làm việc nhóm** và giao tiếp với **đồng nghiệp** vẫn là điều cần thiết, ngay cả khi các nhóm trải rộng trên các địa điểm khác nhau. Cuộc gọi video, tài liệu chia sẻ và ứng dụng nhắn tin cho phép đồng nghiệp cộng tác trên các dự án, đáp ứng **thời hạn** và cho nhau **phản hồi** về công việc của họ. Một người **quản lý** giỏi sẽ không chỉ quản lý công việc mà còn **hiệu suất** — thường xuyên kiểm tra xem nhân viên có đáp ứng mục tiêu không và đề nghị hỗ trợ khi cần."
+      },
+      {
+        "index": 3,
+        "text_en": "**Stress** in the workplace is a serious and growing issue. Heavy **workload**s, unclear expectations, and long hours can all contribute to burnout — a state of complete exhaustion that affects both **performance** and health. Employees who feel they have a fair **salary**, meaningful **benefit**s such as health insurance or paid leave, and a genuine **career path** are generally more motivated and less likely to leave their jobs.",
+        "text_vi": "**Căng thẳng** tại nơi làm việc là một vấn đề nghiêm trọng và ngày càng tăng. **Khối lượng công việc** nặng, kỳ vọng không rõ ràng và giờ làm dài đều có thể góp phần vào kiệt sức — trạng thái kiệt sức hoàn toàn ảnh hưởng đến cả **hiệu suất** và sức khỏe. Nhân viên cảm thấy họ có **mức lương** công bằng, các **lợi ích** có ý nghĩa như bảo hiểm y tế hoặc nghỉ phép được trả lương, và **lộ trình nghề nghiệp** thực sự thường có động lực hơn và ít có khả năng rời bỏ công việc hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "For employees who perform well, there is often an opportunity to **promote** — to move to a position of greater responsibility and higher pay. Measuring **output** — the actual results produced — is increasingly preferred over simply counting the hours someone sits at a desk. This shift reflects a broader change in how companies think about work: not as time spent, but as value created. The best workplaces invest in their people, manage **workload** fairly, and offer clear paths to grow.",
+        "text_vi": "Đối với nhân viên làm tốt, thường có cơ hội được **thăng tiến** — chuyển sang vị trí có trách nhiệm lớn hơn và lương cao hơn. Đo lường **đầu ra** — kết quả thực tế được tạo ra — ngày càng được ưa thích hơn so với việc đơn giản đếm số giờ ai đó ngồi tại bàn làm việc. Sự thay đổi này phản ánh sự thay đổi rộng hơn trong cách các công ty nghĩ về công việc: không phải là thời gian bỏ ra, mà là giá trị được tạo ra. Nơi làm việc tốt nhất đầu tư vào nhân viên của họ, **quản lý** **khối lượng công việc** một cách công bằng và cung cấp các con đường rõ ràng để phát triển."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "remote work",
+      "ipa": "/rɪˈməʊt wɜːk/",
+      "pos": "noun phrase",
+      "meaning_vi": "làm việc từ xa (không cần đến văn phòng)",
+      "meaning_vi_inline": "làm việc từ xa",
+      "example_en": "After the pandemic, many employees prefer remote work because they save time on commuting.",
+      "example_vi": "Sau đại dịch, nhiều nhân viên thích làm việc từ xa vì họ tiết kiệm thời gian đi lại.",
+      "word_family": {
+        "noun": "remote work / telework",
+        "verb": "work remotely",
+        "adjective": "remote",
+        "adverb": "remotely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "adjustable hours",
+      "ipa": "/əˈdʒʌs.tə.bəl ˈaʊərz/",
+      "pos": "noun phrase",
+      "meaning_vi": "giờ làm linh hoạt (không cố định)",
+      "meaning_vi_inline": "giờ làm linh hoạt",
+      "example_en": "The company introduced adjustable hours so that parents could drop their children at school before starting work.",
+      "example_vi": "Công ty đã giới thiệu giờ làm linh hoạt để các bậc phụ huynh có thể đưa con đến trường trước khi bắt đầu làm việc.",
+      "word_family": {
+        "noun": "flexible hours / adjustable hours",
+        "verb": "adjust",
+        "adjective": "adjustable / flexible",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "output",
+      "ipa": "/ˈaʊt.pʊt/",
+      "pos": "noun",
+      "meaning_vi": "đầu ra, kết quả công việc (sản phẩm hoặc thành quả tạo ra)",
+      "meaning_vi_inline": "đầu ra, kết quả",
+      "example_en": "The team's output increased significantly after switching to a four-day working week.",
+      "example_vi": "Đầu ra của nhóm tăng đáng kể sau khi chuyển sang tuần làm việc bốn ngày.",
+      "word_family": {
+        "noun": "output",
+        "verb": "output",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "workmate",
+      "ipa": "/ˈwɜːk.meɪt/",
+      "pos": "noun",
+      "meaning_vi": "đồng nghiệp (người cùng làm việc)",
+      "meaning_vi_inline": "đồng nghiệp",
+      "example_en": "She gets on well with all her workmates and enjoys the team atmosphere in the office.",
+      "example_vi": "Cô ấy hòa thuận tốt với tất cả đồng nghiệp và thích không khí nhóm trong văn phòng.",
+      "word_family": {
+        "noun": "workmate / colleague / coworker",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "teamwork",
+      "ipa": "/ˈtiːm.wɜːk/",
+      "pos": "noun",
+      "meaning_vi": "làm việc nhóm, tinh thần đồng đội",
+      "meaning_vi_inline": "làm việc nhóm",
+      "example_en": "Good teamwork means everyone contributes and communicates openly, even when working from different locations.",
+      "example_vi": "Làm việc nhóm tốt có nghĩa là mọi người đều đóng góp và giao tiếp cởi mở, ngay cả khi làm việc từ các địa điểm khác nhau.",
+      "word_family": {
+        "noun": "teamwork / team",
+        "verb": "work as a team",
+        "adjective": "teamwork-oriented",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "deadline",
+      "ipa": "/ˈded.laɪn/",
+      "pos": "noun",
+      "meaning_vi": "thời hạn (mốc cuối cùng phải hoàn thành công việc)",
+      "meaning_vi_inline": "thời hạn",
+      "example_en": "The project manager set a clear deadline of Friday afternoon for all reports to be submitted.",
+      "example_vi": "Người quản lý dự án đặt thời hạn rõ ràng là chiều thứ Sáu để nộp tất cả các báo cáo.",
+      "word_family": {
+        "noun": "deadline",
+        "verb": "meet a deadline / miss a deadline",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "stress",
+      "ipa": "/stres/",
+      "pos": "noun",
+      "meaning_vi": "căng thẳng (tâm lý do áp lực công việc)",
+      "meaning_vi_inline": "căng thẳng",
+      "example_en": "A heavy workload and tight deadlines are the leading causes of workplace stress.",
+      "example_vi": "Khối lượng công việc nặng và thời hạn chặt chẽ là nguyên nhân hàng đầu gây ra căng thẳng tại nơi làm việc.",
+      "word_family": {
+        "noun": "stress",
+        "verb": "stress",
+        "adjective": "stressed / stressful",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "promote",
+      "ipa": "/prəˈməʊt/",
+      "pos": "verb",
+      "meaning_vi": "thăng chức, thăng tiến (trong công việc)",
+      "meaning_vi_inline": "thăng chức",
+      "example_en": "She was promoted to senior manager after demonstrating outstanding leadership skills.",
+      "example_vi": "Cô ấy được thăng chức lên quản lý cấp cao sau khi thể hiện kỹ năng lãnh đạo xuất sắc.",
+      "word_family": {
+        "noun": "promotion",
+        "verb": "promote",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "manage",
+      "ipa": "/ˈmæn.ɪdʒ/",
+      "pos": "verb",
+      "meaning_vi": "quản lý (người, thời gian, nguồn lực)",
+      "meaning_vi_inline": "quản lý",
+      "example_en": "The ability to manage a diverse team effectively is one of the most valued skills in business.",
+      "example_vi": "Khả năng quản lý một đội ngũ đa dạng một cách hiệu quả là một trong những kỹ năng được đánh giá cao nhất trong kinh doanh.",
+      "word_family": {
+        "noun": "management / manager",
+        "verb": "manage",
+        "adjective": "manageable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "feedback",
+      "ipa": "/ˈfiːd.bæk/",
+      "pos": "noun",
+      "meaning_vi": "phản hồi (đánh giá về công việc hoặc hành vi)",
+      "meaning_vi_inline": "phản hồi",
+      "example_en": "Regular feedback from managers helps employees understand how to improve their performance.",
+      "example_vi": "Phản hồi thường xuyên từ người quản lý giúp nhân viên hiểu cách cải thiện hiệu suất của họ.",
+      "word_family": {
+        "noun": "feedback",
+        "verb": "give feedback",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "performance",
+      "ipa": "/pəˈfɔː.məns/",
+      "pos": "noun",
+      "meaning_vi": "hiệu suất, thành tích công việc",
+      "meaning_vi_inline": "hiệu suất",
+      "example_en": "His performance review showed that he consistently exceeded his monthly targets.",
+      "example_vi": "Đánh giá hiệu suất của anh ấy cho thấy anh ta liên tục vượt quá mục tiêu hàng tháng.",
+      "word_family": {
+        "noun": "performance",
+        "verb": "perform",
+        "adjective": "high-performing",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "salary",
+      "ipa": "/ˈsæl.ər.i/",
+      "pos": "noun",
+      "meaning_vi": "lương tháng (thu nhập cố định từ công việc)",
+      "meaning_vi_inline": "lương tháng",
+      "example_en": "The company offered a competitive salary plus an annual bonus based on performance.",
+      "example_vi": "Công ty cung cấp mức lương cạnh tranh cùng tiền thưởng hàng năm dựa trên hiệu suất.",
+      "word_family": {
+        "noun": "salary / wage",
+        "verb": null,
+        "adjective": "salaried",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "wage",
+        "explanation_vi": "'Salary' thường chỉ lương tháng hoặc năm (dành cho nhân viên văn phòng), trong khi 'wage' thường chỉ lương tính theo giờ hoặc ngày (dành cho lao động thủ công). Cả hai đều là tiền công nhưng cách tính và đối tượng khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "benefit",
+      "ipa": "/ˈben.ɪ.fɪt/",
+      "pos": "noun",
+      "meaning_vi": "phúc lợi (ngoài lương: bảo hiểm, nghỉ phép, thưởng...)",
+      "meaning_vi_inline": "phúc lợi",
+      "example_en": "The job comes with excellent benefits, including private health insurance and 25 days of annual leave.",
+      "example_vi": "Công việc đi kèm với phúc lợi tuyệt vời, bao gồm bảo hiểm y tế tư nhân và 25 ngày nghỉ phép hàng năm.",
+      "word_family": {
+        "noun": "benefit",
+        "verb": "benefit",
+        "adjective": "beneficial",
+        "adverb": "beneficially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "career path",
+      "ipa": "/kəˈrɪər pɑːθ/",
+      "pos": "noun phrase",
+      "meaning_vi": "lộ trình nghề nghiệp (hướng phát triển công việc trong tương lai)",
+      "meaning_vi_inline": "lộ trình nghề nghiệp",
+      "example_en": "She chose this company because it offered a clear career path with opportunities to move into leadership.",
+      "example_vi": "Cô ấy chọn công ty này vì nó cung cấp lộ trình nghề nghiệp rõ ràng với cơ hội chuyển vào vị trí lãnh đạo.",
+      "word_family": {
+        "noun": "career path / career ladder",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "workload",
+      "ipa": "/ˈwɜːk.ləʊd/",
+      "pos": "noun",
+      "meaning_vi": "khối lượng công việc (lượng công việc phải hoàn thành)",
+      "meaning_vi_inline": "khối lượng công việc",
+      "example_en": "After two staff members resigned, the remaining team struggled to handle the increased workload.",
+      "example_vi": "Sau khi hai nhân viên từ chức, đội ngũ còn lại gặp khó khăn trong việc xử lý khối lượng công việc tăng lên.",
+      "word_family": {
+        "noun": "workload",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Remote work became popular mainly because it allowed companies to save money on office space.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 2,
+          "statement": "Video calls and shared documents help teams collaborate even when they are in different locations.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage says that all managers prefer measuring output over counting working hours.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "Heavy workloads and unclear expectations can lead to burnout among employees.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "More than half of all employees prefer adjustable hours over a fixed nine-to-five schedule.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The team was struggling to manage its _____ after three members left during the same week.",
+          "options": [
+            "salary",
+            "workload",
+            "deadline",
+            "career path"
+          ],
+          "answer": "workload"
+        },
+        {
+          "id": 2,
+          "sentence": "She received positive _____ from her manager and was told her reports were excellent.",
+          "options": [
+            "output",
+            "benefit",
+            "feedback",
+            "performance"
+          ],
+          "answer": "feedback"
+        },
+        {
+          "id": 3,
+          "sentence": "The company offers great _____, including a gym membership and private dental care.",
+          "options": [
+            "benefits",
+            "salaries",
+            "outputs",
+            "deadlines"
+          ],
+          "answer": "benefits"
+        },
+        {
+          "id": 4,
+          "sentence": "She was _____ to head of department after only two years in the company.",
+          "options": [
+            "managed",
+            "promoted",
+            "performed",
+            "stressed"
+          ],
+          "answer": "promoted"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ is easier when everyone understands their role and communicates clearly with colleagues.",
+          "options": [
+            "Teamwork",
+            "Deadline",
+            "Workload",
+            "Output"
+          ],
+          "answer": "Teamwork"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "remote work",
+        "deadline",
+        "salary",
+        "career path",
+        "stress"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She chose _____ because she wanted to avoid the two-hour daily commute to the office.",
+          "answer": "remote work"
+        },
+        {
+          "id": 2,
+          "sentence": "The team worked through the weekend to make sure they met the project _____.",
+          "answer": "deadline"
+        },
+        {
+          "id": 3,
+          "sentence": "He negotiated a higher _____ when he accepted the new position at the rival company.",
+          "answer": "salary"
+        },
+        {
+          "id": 4,
+          "sentence": "The company offers training programmes to help employees develop a clear _____ within the organisation.",
+          "answer": "career path"
+        },
+        {
+          "id": 5,
+          "sentence": "Excessive _____ at work can lead to burnout, affecting both physical and mental health.",
+          "answer": "stress"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "remote",
+            "work",
+            "gives",
+            "employees",
+            "more",
+            "flexibility",
+            "but",
+            "requires",
+            "strong",
+            "self-discipline",
+            "to",
+            "manage",
+            "time",
+            "effectively"
+          ],
+          "answer": "Remote work gives employees more flexibility but requires strong self-discipline to manage time effectively."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "heavy",
+            "workload",
+            "and",
+            "tight",
+            "deadlines",
+            "are",
+            "the",
+            "most",
+            "common",
+            "causes",
+            "of",
+            "stress",
+            "in",
+            "the",
+            "modern",
+            "workplace"
+          ],
+          "answer": "A heavy workload and tight deadlines are the most common causes of stress in the modern workplace."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "manager",
+            "gave",
+            "clear",
+            "feedback",
+            "to",
+            "each",
+            "team",
+            "member",
+            "after",
+            "reviewing",
+            "their",
+            "monthly",
+            "output"
+          ],
+          "answer": "The manager gave clear feedback to each team member after reviewing their monthly output."
+        },
+        {
+          "id": 4,
+          "words": [
+            "she",
+            "was",
+            "promoted",
+            "because",
+            "her",
+            "performance",
+            "consistently",
+            "exceeded",
+            "the",
+            "targets",
+            "set",
+            "by",
+            "the",
+            "company"
+          ],
+          "answer": "She was promoted because her performance consistently exceeded the targets set by the company."
+        },
+        {
+          "id": 5,
+          "words": [
+            "a",
+            "clear",
+            "career",
+            "path",
+            "and",
+            "good",
+            "benefits",
+            "make",
+            "employees",
+            "more",
+            "loyal",
+            "and",
+            "less",
+            "likely",
+            "to",
+            "leave"
+          ],
+          "answer": "A clear career path and good benefits make employees more loyal and less likely to leave."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The company offers [flexible time] so that parents can adjust their start and finish times around family needs.",
+          "highlighted": "flexible time",
+          "options": {
+            "A": "adjustable hours",
+            "B": "flexible time",
+            "C": "free time"
+          },
+          "answer": "A",
+          "explanation": "'Adjustable hours' is the target vocabulary phrase for a formal workplace arrangement allowing employees to modify their working schedule. 'Flexible time' is a reasonable paraphrase but not the precise vocabulary term. 'Free time' has a completely different meaning (leisure time, not a scheduling arrangement)."
+        },
+        {
+          "id": 2,
+          "sentence": "Working from home can reduce [travel] time and give employees more control over their day.",
+          "highlighted": "travel",
+          "options": {
+            "A": "travel",
+            "B": "commuting",
+            "C": "moving"
+          },
+          "answer": "B",
+          "explanation": "'Commuting' is the precise term for the daily journey between home and work. 'Travel' is too general and usually implies longer journeys. 'Moving' suggests relocation, not daily transport. In the context of remote work, 'commuting' is the standard and most accurate word."
+        },
+        {
+          "id": 3,
+          "sentence": "Each employee receives a monthly [wage] and an annual performance bonus.",
+          "highlighted": "wage",
+          "options": {
+            "A": "income",
+            "B": "pay",
+            "C": "salary"
+          },
+          "answer": "C",
+          "explanation": "'Salary' is the target vocabulary word for regular fixed pay received monthly or annually by professional employees. 'Wage' typically refers to hourly or daily pay for manual or part-time workers. 'Income' and 'pay' are too general. 'Salary' is the precise term here."
+        },
+        {
+          "id": 4,
+          "sentence": "Measuring [time spent at a desk] is increasingly seen as a poor way to evaluate an employee's contribution.",
+          "highlighted": "time spent at a desk",
+          "options": {
+            "A": "attendance",
+            "B": "output",
+            "C": "performance"
+          },
+          "answer": "B",
+          "explanation": "'Output' is the target vocabulary term for the measurable results and products that an employee creates. The passage contrasts 'output' with 'hours spent', making it the precise replacement. 'Performance' is broader (includes attitude, teamwork, etc.). 'Attendance' refers only to being present, not results."
+        },
+        {
+          "id": 5,
+          "sentence": "Good [working together] is essential when team members are based in different offices or countries.",
+          "highlighted": "working together",
+          "options": {
+            "A": "communication",
+            "B": "teamwork",
+            "C": "collaboration"
+          },
+          "answer": "B",
+          "explanation": "'Teamwork' is the target vocabulary term for the cooperative effort of a group working towards a shared goal. 'Working together' is an informal paraphrase of the same idea. 'Collaboration' and 'communication' overlap in meaning but are not the specific vocabulary item from this topic."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "Not Given",
+      "2": "True",
+      "3": "False",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "workload",
+      "2": "feedback",
+      "3": "benefits",
+      "4": "promoted",
+      "5": "Teamwork"
+    },
+    "ex3": {
+      "1": "remote work",
+      "2": "deadline",
+      "3": "salary",
+      "4": "career path",
+      "5": "stress"
+    },
+    "ex4": {
+      "1": "Remote work gives employees more flexibility but requires strong self-discipline to manage time effectively.",
+      "2": "A heavy workload and tight deadlines are the most common causes of stress in the modern workplace.",
+      "3": "The manager gave clear feedback to each team member after reviewing their monthly output.",
+      "4": "She was promoted because her performance consistently exceeded the targets set by the company.",
+      "5": "A clear career path and good benefits make employees more loyal and less likely to leave."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "B"
+    }
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 54,
+    "topic_id": "b1-t54",
+    "topic_title": "Simple Stories & Books",
+    "theme_number": 6,
+    "theme_title": "Everyday Communication",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "📖",
+    "topic_title_vi": "Truyện & Sách Đơn Giản",
+    "theme_title_vi": "Giao Tiếp Hàng Ngày"
+  },
+  "passage": {
+    "word_count": 112,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "My teacher reads us a story every Friday. The story has a brave **hero** and a mean **villain**. Every good story has a **beginning**, a **middle**, and an **end**. At the **beginning**, we meet the main **character** and learn about the **setting**.",
+        "text_vi": "Giáo viên của tôi đọc cho chúng tôi nghe một câu chuyện mỗi thứ Sáu. Câu chuyện có một **anh hùng** dũng cảm và một **kẻ phản diện** tàn nhẫn. Mỗi câu chuyện hay đều có **phần đầu**, **phần giữa** và **phần cuối**. Ở **phần đầu**, chúng ta gặp **nhân vật** chính và tìm hiểu về **bối cảnh**."
+      },
+      {
+        "index": 2,
+        "text_en": "In the **middle**, the **plot** gets exciting. The **hero** must solve a big problem. Sometimes the story is **made-up** and has magic. Other times it is **real** and tells us about true events.",
+        "text_vi": "Ở **phần giữa**, **cốt truyện** trở nên hấp dẫn. **Anh hùng** phải giải quyết một vấn đề lớn. Đôi khi câu chuyện là **hư cấu** và có phép thuật. Lúc khác thì nó **có thật** và kể về những sự kiện thực."
+      },
+      {
+        "index": 3,
+        "text_en": "At the **end**, the **hero** usually wins. The **narrator** explains what happens and often shares a **moral** — an important life lesson. We should pay attention to every **detail** because it can help us understand the story better.",
+        "text_vi": "Ở **phần cuối**, **anh hùng** thường chiến thắng. **Người kể chuyện** giải thích điều gì xảy ra và thường chia sẻ một **bài học đạo đức** — một bài học quan trọng về cuộc sống. Chúng ta nên chú ý đến từng **chi tiết** vì nó có thể giúp chúng ta hiểu câu chuyện tốt hơn."
+      },
+      {
+        "index": 4,
+        "text_en": "After reading, we **retell** the story to a partner. I also like to **imagine** what happens next. Reading stories helps me learn new words and **imagine** a bigger world.",
+        "text_vi": "Sau khi đọc, chúng tôi **kể lại** câu chuyện cho một người bạn nghe. Tôi cũng thích **tưởng tượng** điều gì xảy ra tiếp theo. Đọc truyện giúp tôi học từ mới và **tưởng tượng** một thế giới rộng lớn hơn."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "character",
+      "ipa": "/ˈkærəktər/",
+      "pos": "noun",
+      "meaning_vi": "nhân vật",
+      "meaning_vi_inline": "nhân vật",
+      "example_en": "My favourite character in the story is a young girl who loves to explore the forest.",
+      "example_vi": "Nhân vật yêu thích của tôi trong câu chuyện là một cô bé thích khám phá khu rừng.",
+      "word_family": {
+        "noun": "character",
+        "verb": null,
+        "adjective": "characteristic",
+        "adverb": "characteristically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "beginning",
+      "ipa": "/bɪˈɡɪnɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "phần đầu, khởi đầu",
+      "meaning_vi_inline": "phần đầu",
+      "example_en": "The beginning of the story is very exciting — it makes you want to keep reading.",
+      "example_vi": "Phần đầu của câu chuyện rất hấp dẫn — nó khiến bạn muốn đọc tiếp.",
+      "word_family": {
+        "noun": "beginning",
+        "verb": "begin / began / begun",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "middle",
+      "ipa": "/ˈmɪdəl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "phần giữa; ở giữa",
+      "meaning_vi_inline": "phần giữa",
+      "example_en": "In the middle of the story, the hero finds a secret door in the old castle.",
+      "example_vi": "Ở phần giữa câu chuyện, anh hùng tìm thấy một cánh cửa bí mật trong lâu đài cũ.",
+      "word_family": {
+        "noun": "middle",
+        "verb": null,
+        "adjective": "middle",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "end",
+      "ipa": "/end/",
+      "pos": "noun / verb",
+      "meaning_vi": "phần cuối, kết thúc; kết thúc",
+      "meaning_vi_inline": "phần cuối",
+      "example_en": "The end of the story is happy — the hero saves the village and everyone celebrates.",
+      "example_vi": "Phần cuối câu chuyện thật vui — anh hùng cứu ngôi làng và mọi người ăn mừng.",
+      "word_family": {
+        "noun": "end / ending",
+        "verb": "end / ended",
+        "adjective": "endless",
+        "adverb": "endlessly"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "hero",
+      "ipa": "/ˈhɪərəʊ/",
+      "pos": "noun",
+      "meaning_vi": "anh hùng, nhân vật chính diện",
+      "meaning_vi_inline": "anh hùng",
+      "example_en": "The hero of the story uses courage and kindness to defeat the villain.",
+      "example_vi": "Anh hùng trong câu chuyện dùng lòng dũng cảm và sự tốt bụng để đánh bại kẻ phản diện.",
+      "word_family": {
+        "noun": "hero / heroine / heroism",
+        "verb": null,
+        "adjective": "heroic",
+        "adverb": "heroically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "villain",
+      "ipa": "/ˈvɪlən/",
+      "pos": "noun",
+      "meaning_vi": "kẻ phản diện, nhân vật xấu",
+      "meaning_vi_inline": "kẻ phản diện",
+      "example_en": "The villain in the story tries to steal the magic ring, but the hero stops him.",
+      "example_vi": "Kẻ phản diện trong câu chuyện cố ăn cắp chiếc nhẫn thần, nhưng anh hùng đã ngăn lại.",
+      "word_family": {
+        "noun": "villain / villainy",
+        "verb": null,
+        "adjective": "villainous",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "plot",
+      "ipa": "/plɒt/",
+      "pos": "noun",
+      "meaning_vi": "cốt truyện",
+      "meaning_vi_inline": "cốt truyện",
+      "example_en": "The plot of the story is simple — a young boy loses his dog and tries to find it.",
+      "example_vi": "Cốt truyện rất đơn giản — một cậu bé mất con chó và cố tìm lại nó.",
+      "word_family": {
+        "noun": "plot",
+        "verb": "plot / plotted",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "setting",
+      "ipa": "/ˈsetɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "bối cảnh (thời gian, địa điểm của câu chuyện)",
+      "meaning_vi_inline": "bối cảnh",
+      "example_en": "The setting of the story is a small village in the mountains a hundred years ago.",
+      "example_vi": "Bối cảnh của câu chuyện là một ngôi làng nhỏ trong núi cách đây một trăm năm.",
+      "word_family": {
+        "noun": "setting",
+        "verb": "set / set",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "made-up",
+      "ipa": "/ˌmeɪd ˈʌp/",
+      "pos": "adjective",
+      "meaning_vi": "hư cấu, bịa đặt",
+      "meaning_vi_inline": "hư cấu",
+      "example_en": "The story about the flying horse is made-up — horses cannot really fly.",
+      "example_vi": "Câu chuyện về con ngựa biết bay là hư cấu — ngựa thực sự không thể bay.",
+      "word_family": {
+        "noun": null,
+        "verb": "make up / made up",
+        "adjective": "made-up",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "real",
+      "ipa": "/rɪəl/",
+      "pos": "adjective",
+      "meaning_vi": "có thật, thực tế",
+      "meaning_vi_inline": "có thật",
+      "example_en": "This book tells a real story about a girl who climbed the highest mountain in Vietnam.",
+      "example_vi": "Cuốn sách này kể một câu chuyện có thật về một cô gái đã leo lên ngọn núi cao nhất Việt Nam.",
+      "word_family": {
+        "noun": "reality",
+        "verb": "realise / realize",
+        "adjective": "real / unreal",
+        "adverb": "really"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "retell",
+      "ipa": "/ˌriːˈtel/",
+      "pos": "verb",
+      "meaning_vi": "kể lại",
+      "meaning_vi_inline": "kể lại",
+      "example_en": "After reading the story, the teacher asked us to retell it in our own words.",
+      "example_vi": "Sau khi đọc câu chuyện, giáo viên yêu cầu chúng tôi kể lại bằng lời của mình.",
+      "word_family": {
+        "noun": "retelling",
+        "verb": "retell / retold",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "moral",
+      "ipa": "/ˈmɒrəl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "bài học đạo đức; có đạo đức",
+      "meaning_vi_inline": "bài học đạo đức",
+      "example_en": "The moral of the story is that hard work and honesty always bring good results.",
+      "example_vi": "Bài học đạo đức của câu chuyện là sự chăm chỉ và trung thực luôn mang lại kết quả tốt.",
+      "word_family": {
+        "noun": "moral / morality",
+        "verb": null,
+        "adjective": "moral / immoral",
+        "adverb": "morally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "detail",
+      "ipa": "/ˈdiːteɪl/",
+      "pos": "noun",
+      "meaning_vi": "chi tiết",
+      "meaning_vi_inline": "chi tiết",
+      "example_en": "She remembers every detail of the story — the names, the places, and even the colours.",
+      "example_vi": "Cô ấy nhớ từng chi tiết của câu chuyện — tên, địa điểm, và cả màu sắc.",
+      "word_family": {
+        "noun": "detail",
+        "verb": "detail / detailed",
+        "adjective": "detailed",
+        "adverb": "in detail"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "narrator",
+      "ipa": "/nəˈreɪtər/",
+      "pos": "noun",
+      "meaning_vi": "người kể chuyện",
+      "meaning_vi_inline": "người kể chuyện",
+      "example_en": "The narrator speaks clearly and slowly so that young children can follow the story.",
+      "example_vi": "Người kể chuyện nói rõ ràng và chậm rãi để trẻ nhỏ có thể theo dõi câu chuyện.",
+      "word_family": {
+        "noun": "narrator / narration",
+        "verb": "narrate / narrated",
+        "adjective": "narrative",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "imagine",
+      "ipa": "/ɪˈmædʒɪn/",
+      "pos": "verb",
+      "meaning_vi": "tưởng tượng",
+      "meaning_vi_inline": "tưởng tượng",
+      "example_en": "Close your eyes and imagine you are standing in the middle of a magical forest.",
+      "example_vi": "Nhắm mắt lại và tưởng tượng bạn đang đứng giữa một khu rừng kỳ diệu.",
+      "word_family": {
+        "noun": "imagination / image",
+        "verb": "imagine / imagined",
+        "adjective": "imaginative / imaginary",
+        "adverb": "imaginatively"
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "narrator" },
+        { "id": 2, "word": "moral" },
+        { "id": 3, "word": "setting" },
+        { "id": 4, "word": "villain" },
+        { "id": 5, "word": "plot" }
+      ],
+      "options": [
+        { "id": "A", "text": "the series of events that happen in a story" },
+        { "id": "B", "text": "the time and place where a story happens" },
+        { "id": "C", "text": "the important life lesson that a story teaches" },
+        { "id": "D", "text": "a bad person in a story who does harmful or evil things" },
+        { "id": "E", "text": "the person who tells the story to the reader or listener" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "At the _____ of every good story, we learn who the main character is and where they live.",
+          "options": ["end", "beginning", "middle", "detail"],
+          "answer": "beginning"
+        },
+        {
+          "id": 2,
+          "sentence": "Dragons and flying carpets are _____ — they do not exist in the real world.",
+          "options": ["real", "moral", "made-up", "detailed"],
+          "answer": "made-up"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the story is 'always be kind to others, even when it is difficult'.",
+          "options": ["plot", "setting", "narrator", "moral"],
+          "answer": "moral"
+        },
+        {
+          "id": 4,
+          "sentence": "Can you _____ what it would feel like to live inside a fairy tale?",
+          "options": ["retell", "imagine", "end", "detail"],
+          "answer": "imagine"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ speaks slowly and clearly so all the children can understand the story.",
+          "options": ["villain", "hero", "narrator", "character"],
+          "answer": "narrator"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["retell", "hero", "end", "detail", "real", "setting"],
+      "items": [
+        { "id": 1, "sentence": "The _____ of the story is a forest in winter — cold, dark, and full of mystery.", "answer": "setting" },
+        { "id": 2, "sentence": "The brave _____ climbs the mountain to rescue the people in the village.", "answer": "hero" },
+        { "id": 3, "sentence": "At the _____ of the book, all the problems are solved and everyone is happy.", "answer": "end" },
+        { "id": 4, "sentence": "This story is _____ — it is based on true events that happened in Vietnam.", "answer": "real" },
+        { "id": 5, "sentence": "Can you _____ the story from the beginning? I missed the first part.", "answer": "retell" }
+      ],
+      "note": "One word in the box is not used: detail"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of reading books is that it helps you think more creatively. (REAL)",
+          "base_word": "REAL",
+          "answer": "reality",
+          "form_used": "noun"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher gave a very _____ description of the story's setting. (DETAIL)",
+          "base_word": "DETAIL",
+          "answer": "detailed",
+          "form_used": "adjective"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ the story in her own words and made it sound even more exciting. (NARRATE)",
+          "base_word": "NARRATE",
+          "answer": "narrated",
+          "form_used": "verb (past tense)"
+        },
+        {
+          "id": 4,
+          "sentence": "Children with a strong _____ enjoy reading fantasy books the most. (IMAGINE)",
+          "base_word": "IMAGINE",
+          "answer": "imagination",
+          "form_used": "noun"
+        },
+        {
+          "id": 5,
+          "sentence": "The story has a _____ message — treat others the way you want to be treated. (MORAL)",
+          "base_word": "MORAL",
+          "answer": "moral",
+          "form_used": "adjective"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [villain] saves the princess from the dragon and becomes a national hero.",
+          "highlighted": "villain",
+          "options": { "A": "narrator", "B": "villain", "C": "hero" },
+          "answer": "C",
+          "explanation": "A 'villain' is the bad character in a story who causes trouble. Someone who saves others and does brave things is a 'hero', not a villain."
+        },
+        {
+          "id": 2,
+          "sentence": "Every story has a [beginning], a middle, and a [narrator].",
+          "highlighted": "narrator",
+          "options": { "A": "end", "B": "narrator", "C": "detail" },
+          "answer": "A",
+          "explanation": "A story has three main parts: a beginning, a middle, and an end. A 'narrator' is the person who tells the story — not a structural part of it."
+        },
+        {
+          "id": 3,
+          "sentence": "Dragons are [real] — they are characters you can only find in made-up stories.",
+          "highlighted": "real",
+          "options": { "A": "real", "B": "heroic", "C": "made-up" },
+          "answer": "C",
+          "explanation": "'Real' means actually existing in the world. Because the sentence says dragons only exist in fiction, the correct word is 'made-up', not real."
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher asked us to [imagine] the story using our own words after reading.",
+          "highlighted": "imagine",
+          "options": { "A": "retell", "B": "begin", "C": "imagine" },
+          "answer": "A",
+          "explanation": "'Imagine' means to create a picture or idea in your mind. To say a story again in your own words after reading it is to 'retell' it."
+        },
+        {
+          "id": 5,
+          "sentence": "The [setting] of the story teaches us that we should always help people in need.",
+          "highlighted": "setting",
+          "options": { "A": "plot", "B": "setting", "C": "moral" },
+          "answer": "C",
+          "explanation": "The 'setting' is the time and place where the story happens. The lesson or message that a story teaches us about life is called the 'moral'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "E", "2": "C", "3": "B", "4": "D", "5": "A" },
+    "ex2": { "1": "beginning", "2": "made-up", "3": "moral", "4": "imagine", "5": "narrator" },
+    "ex3": { "1": "setting", "2": "hero", "3": "end", "4": "real", "5": "retell" },
+    "ex4": { "1": "reality", "2": "detailed", "3": "narrated", "4": "imagination", "5": "moral" },
+    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+  }
+}

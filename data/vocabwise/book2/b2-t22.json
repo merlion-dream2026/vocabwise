@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 22,
+    "topic_id": "b2-t22",
+    "topic_title": "Business & Entrepreneurship",
+    "theme_number": 3,
+    "theme_title": "Business & Money",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🚀",
+    "topic_title_vi": "Kinh Doanh & Khởi Nghiệp",
+    "theme_title_vi": "Kinh Doanh & Tài Chính",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Starting a **new business** is an exciting but challenging undertaking. Before anything else, every entrepreneur must study the **market** — the broader environment in which they will sell their product or service. Understanding who the **customer** is and what they need is essential, as is knowing how to **compete** against existing companies. Entering any market carries **risk**, and those who prepare carefully are far more likely to succeed.",
+        "text_vi": "Bắt đầu một **doanh nghiệp mới** là việc thú vị nhưng đầy thách thức. Trước tiên, mỗi doanh nhân phải nghiên cứu **thị trường** — môi trường rộng lớn hơn nơi họ sẽ bán sản phẩm hoặc dịch vụ. Hiểu rõ **khách hàng** là ai và họ cần gì là điều thiết yếu, cũng như biết cách **cạnh tranh** với các công ty hiện có. Gia nhập bất kỳ thị trường nào đều tiềm ẩn **rủi ro**, và những ai chuẩn bị kỹ càng sẽ có nhiều khả năng thành công hơn."
+      },
+      {
+        "index": 2,
+        "text_en": "Building a strong **brand** — the identity and image that makes a business recognisable — is one of the most valuable investments an owner can make. It is equally important to define a clear **target**: the specific group of people most likely to buy the product. Once ready, the owner will **launch** the business publicly and work hard to **promote** it through advertising, social media, and word of mouth.",
+        "text_vi": "Xây dựng **thương hiệu** mạnh — nhận diện và hình ảnh giúp doanh nghiệp được nhận biết — là một trong những khoản đầu tư có giá trị nhất mà chủ doanh nghiệp có thể thực hiện. Điều quan trọng không kém là xác định **đối tượng mục tiêu** rõ ràng: nhóm người cụ thể có nhiều khả năng mua sản phẩm nhất. Khi đã sẵn sàng, chủ doanh nghiệp sẽ **ra mắt** công khai và nỗ lực **quảng bá** thông qua quảng cáo, mạng xã hội và truyền miệng."
+      },
+      {
+        "index": 3,
+        "text_en": "As the business grows, the next goal is to **expand** — to reach new customers, regions, or product lines. Many entrepreneurs choose to work with a **partner**, sharing responsibilities and combining different skills. Finding a financial **backer** — an investor who provides funds in return for a stake in the company — can also help accelerate growth. Ultimately, sustained **profit** — earning more than you spend — is the clearest sign of a healthy business.",
+        "text_vi": "Khi doanh nghiệp phát triển, mục tiêu tiếp theo là **mở rộng** — tiếp cận khách hàng, khu vực hoặc dòng sản phẩm mới. Nhiều doanh nhân chọn làm việc với **đối tác**, chia sẻ trách nhiệm và kết hợp các kỹ năng khác nhau. Tìm được **nhà tài trợ tài chính** — nhà đầu tư cung cấp vốn để đổi lấy cổ phần trong công ty — cũng có thể giúp đẩy nhanh tăng trưởng. Cuối cùng, **lợi nhuận** bền vững — kiếm nhiều hơn chi tiêu — là dấu hiệu rõ ràng nhất của một doanh nghiệp lành mạnh."
+      },
+      {
+        "index": 4,
+        "text_en": "Behind every successful venture is a well-crafted **strategy**: a long-term plan that guides decisions about growth, competition, and costs. This includes setting clear goals for generating **income** and knowing when to take calculated risks. With the right combination of preparation, persistence, and flexibility, even a small startup can grow into a lasting and meaningful success.",
+        "text_vi": "Đằng sau mọi dự án kinh doanh thành công là một **chiến lược** được xây dựng kỹ lưỡng: kế hoạch dài hạn định hướng các quyết định về tăng trưởng, cạnh tranh và chi phí. Điều này bao gồm việc đặt ra mục tiêu rõ ràng để tạo ra **thu nhập** và biết khi nào nên chấp nhận rủi ro có tính toán. Với sự kết hợp đúng đắn giữa chuẩn bị, kiên trì và linh hoạt, ngay cả một startup nhỏ cũng có thể phát triển thành công ty lớn thành công và có ý nghĩa."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "new business",
+      "ipa": "/njuː ˈbɪz.nɪs/",
+      "pos": "noun phrase",
+      "meaning_vi": "doanh nghiệp mới, công ty mới thành lập",
+      "meaning_vi_inline": "doanh nghiệp mới",
+      "example_en": "Starting a new business requires both capital and careful planning.",
+      "example_vi": "Bắt đầu một doanh nghiệp mới đòi hỏi cả vốn lẫn kế hoạch cẩn thận.",
+      "word_family": {
+        "noun": "business / enterprise / startup",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "market",
+      "ipa": "/ˈmɑː.kɪt/",
+      "pos": "noun",
+      "meaning_vi": "thị trường",
+      "meaning_vi_inline": "thị trường",
+      "example_en": "The company conducted research before entering a new market.",
+      "example_vi": "Công ty đã tiến hành nghiên cứu trước khi gia nhập thị trường mới.",
+      "word_family": {
+        "noun": "market / marketing",
+        "verb": "market",
+        "adjective": "marketable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "customer",
+      "ipa": "/ˈkʌs.tə.mər/",
+      "pos": "noun",
+      "meaning_vi": "khách hàng",
+      "meaning_vi_inline": "khách hàng",
+      "example_en": "The company surveyed its customers to improve the product.",
+      "example_vi": "Công ty khảo sát khách hàng để cải thiện sản phẩm.",
+      "word_family": {
+        "noun": "customer",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "consumer",
+        "explanation_vi": "'Customer' là người mua hàng từ một công ty cụ thể; 'consumer' là người tiêu dùng nói chung — 'consumer' rộng hơn và thường dùng trong kinh tế học."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "pos": "verb",
+      "meaning_vi": "cạnh tranh",
+      "meaning_vi_inline": "cạnh tranh",
+      "example_en": "Small businesses often struggle to compete with large corporations.",
+      "example_vi": "Các doanh nghiệp nhỏ thường vật lộn để cạnh tranh với các tập đoàn lớn.",
+      "word_family": {
+        "noun": "competition / competitor",
+        "verb": "compete",
+        "adjective": "competitive",
+        "adverb": "competitively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "risk",
+      "ipa": "/rɪsk/",
+      "pos": "noun / verb",
+      "meaning_vi": "rủi ro; chấp nhận rủi ro",
+      "meaning_vi_inline": "rủi ro",
+      "example_en": "Every investment carries some degree of financial risk.",
+      "example_vi": "Mỗi khoản đầu tư đều mang một mức độ rủi ro tài chính nhất định.",
+      "word_family": {
+        "noun": "risk",
+        "verb": "risk",
+        "adjective": "risky",
+        "adverb": "riskily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "brand",
+      "ipa": "/brænd/",
+      "pos": "noun",
+      "meaning_vi": "thương hiệu",
+      "meaning_vi_inline": "thương hiệu",
+      "example_en": "Apple is one of the most recognisable brands in the world.",
+      "example_vi": "Apple là một trong những thương hiệu được nhận biết nhiều nhất thế giới.",
+      "word_family": {
+        "noun": "brand",
+        "verb": "brand",
+        "adjective": "branded",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "logo",
+        "explanation_vi": "'Brand' là toàn bộ nhận diện và hình ảnh của công ty (tên, giá trị, cảm xúc); 'logo' chỉ là biểu tượng hình ảnh — logo là một phần nhỏ của brand."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "target",
+      "ipa": "/ˈtɑː.ɡɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "đối tượng mục tiêu; nhắm đến",
+      "meaning_vi_inline": "mục tiêu",
+      "example_en": "The campaign was designed to target young adults aged 18–30.",
+      "example_vi": "Chiến dịch được thiết kế để nhắm đến người trẻ trong độ tuổi 18–30.",
+      "word_family": {
+        "noun": "target",
+        "verb": "target",
+        "adjective": "targeted",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "launch",
+      "ipa": "/lɔːntʃ/",
+      "pos": "verb / noun",
+      "meaning_vi": "ra mắt (sản phẩm hoặc doanh nghiệp)",
+      "meaning_vi_inline": "ra mắt",
+      "example_en": "The company launched its new product at a major trade fair.",
+      "example_vi": "Công ty ra mắt sản phẩm mới tại một hội chợ thương mại lớn.",
+      "word_family": {
+        "noun": "launch",
+        "verb": "launch",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "promote",
+      "ipa": "/prəˈməʊt/",
+      "pos": "verb",
+      "meaning_vi": "quảng bá, xúc tiến (sản phẩm hoặc doanh nghiệp)",
+      "meaning_vi_inline": "quảng bá",
+      "example_en": "They promoted the new app through social media and online adverts.",
+      "example_vi": "Họ quảng bá ứng dụng mới thông qua mạng xã hội và quảng cáo trực tuyến.",
+      "word_family": {
+        "noun": "promotion",
+        "verb": "promote",
+        "adjective": "promotional",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "advertise",
+        "explanation_vi": "'Promote' là nâng cao nhận thức và hình ảnh thương hiệu một cách rộng rãi; 'advertise' cụ thể hơn, chỉ việc đăng quảng cáo trả tiền trên các kênh truyền thông."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "expand",
+      "ipa": "/ɪkˈspænd/",
+      "pos": "verb",
+      "meaning_vi": "mở rộng (quy mô, thị trường)",
+      "meaning_vi_inline": "mở rộng",
+      "example_en": "The company plans to expand into three new markets next year.",
+      "example_vi": "Công ty có kế hoạch mở rộng sang ba thị trường mới vào năm tới.",
+      "word_family": {
+        "noun": "expansion",
+        "verb": "expand",
+        "adjective": "expanding / expandable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "partner",
+      "ipa": "/ˈpɑːt.nər/",
+      "pos": "noun",
+      "meaning_vi": "đối tác, cộng sự (kinh doanh)",
+      "meaning_vi_inline": "đối tác",
+      "example_en": "She decided to take on a business partner to share the workload.",
+      "example_vi": "Cô ấy quyết định nhận thêm một đối tác kinh doanh để chia sẻ khối lượng công việc.",
+      "word_family": {
+        "noun": "partner / partnership",
+        "verb": "partner",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "backer",
+      "ipa": "/ˈbæk.ər/",
+      "pos": "noun",
+      "meaning_vi": "người hậu thuẫn tài chính, nhà tài trợ vốn",
+      "meaning_vi_inline": "nhà tài trợ",
+      "example_en": "The startup found a backer who agreed to invest £50,000 in the first year.",
+      "example_vi": "Công ty khởi nghiệp tìm được nhà tài trợ đồng ý đầu tư 50.000 bảng trong năm đầu.",
+      "word_family": {
+        "noun": "backer / backing",
+        "verb": "back",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "investor",
+        "explanation_vi": "'Backer' thường ngụ ý sự hỗ trợ cá nhân và tin tưởng vào người sáng lập; 'investor' mang tính chất thể chế và chính thức hơn, tập trung vào lợi nhuận tài chính."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "profit",
+      "ipa": "/ˈprɒf.ɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "lợi nhuận",
+      "meaning_vi_inline": "lợi nhuận",
+      "example_en": "The company made a profit of £200,000 in its first full year of trading.",
+      "example_vi": "Công ty đạt lợi nhuận 200.000 bảng trong năm hoạt động đầy đủ đầu tiên.",
+      "word_family": {
+        "noun": "profit / profitability",
+        "verb": "profit",
+        "adjective": "profitable",
+        "adverb": "profitably"
+      },
+      "false_friend": {
+        "word_vi": "income / revenue",
+        "explanation_vi": "'Profit' là tiền còn lại sau khi trừ hết chi phí (lợi nhuận ròng); 'revenue' là tổng doanh thu trước khi trừ chi phí — đây là hai con số rất khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "strategy",
+      "ipa": "/ˈstræt.ɪ.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "chiến lược",
+      "meaning_vi_inline": "chiến lược",
+      "example_en": "The board developed a five-year strategy to double the company's size.",
+      "example_vi": "Hội đồng quản trị xây dựng chiến lược năm năm để tăng gấp đôi quy mô công ty.",
+      "word_family": {
+        "noun": "strategy / strategist",
+        "verb": null,
+        "adjective": "strategic",
+        "adverb": "strategically"
+      },
+      "false_friend": {
+        "word_vi": "tactic",
+        "explanation_vi": "'Strategy' là kế hoạch dài hạn ở cấp độ cao; 'tactic' là hành động cụ thể ngắn hạn để thực thi chiến lược — strategy định hướng, tactics thực hiện."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "income",
+      "ipa": "/ˈɪn.kʌm/",
+      "pos": "noun",
+      "meaning_vi": "thu nhập (của doanh nghiệp hoặc cá nhân)",
+      "meaning_vi_inline": "thu nhập",
+      "example_en": "The business generated a steady income from its online sales.",
+      "example_vi": "Doanh nghiệp tạo ra thu nhập ổn định từ doanh số bán hàng trực tuyến.",
+      "word_family": {
+        "noun": "income",
+        "verb": null,
+        "adjective": "income-generating",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Studying the market before starting a business can reduce the chance of failure.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "A brand refers only to a company's name and logo.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage explains the best way to find a financial backer for a new business.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A backer receives a share of the company in exchange for providing funds.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "The passage claims that all businesses with a good strategy will eventually become successful.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Before entering the _____, every entrepreneur must research who their potential buyers are and what they need.",
+          "options": [
+            "income",
+            "market",
+            "brand",
+            "profit"
+          ],
+          "answer": "market"
+        },
+        {
+          "id": 2,
+          "sentence": "She worked with a designer to build a strong _____ that customers would recognise and trust immediately.",
+          "options": [
+            "target",
+            "risk",
+            "brand",
+            "strategy"
+          ],
+          "answer": "brand"
+        },
+        {
+          "id": 3,
+          "sentence": "The company plans to _____ its services to three new cities in the next financial year.",
+          "options": [
+            "expand",
+            "launch",
+            "compete",
+            "promote"
+          ],
+          "answer": "expand"
+        },
+        {
+          "id": 4,
+          "sentence": "The startup found a wealthy _____ who agreed to fund the business in exchange for a 20% share.",
+          "options": [
+            "customer",
+            "partner",
+            "strategy",
+            "backer"
+          ],
+          "answer": "backer"
+        },
+        {
+          "id": 5,
+          "sentence": "Once the product was ready, the team worked hard to _____ it through social media and online advertising.",
+          "options": [
+            "target",
+            "promote",
+            "compete",
+            "launch"
+          ],
+          "answer": "promote"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "brand",
+        "profit",
+        "strategy",
+        "launch",
+        "risk"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The team spent months preparing before they were finally ready to _____ the product to the public.",
+          "answer": "launch"
+        },
+        {
+          "id": 2,
+          "sentence": "Building a recognisable _____ takes time, but it is one of the most valuable things a business can invest in.",
+          "answer": "brand"
+        },
+        {
+          "id": 3,
+          "sentence": "After all expenses were paid, the company made a _____ of over £200,000 in its first year of trading.",
+          "answer": "profit"
+        },
+        {
+          "id": 4,
+          "sentence": "He knew that starting a business involved _____, but he believed the opportunity was worth taking.",
+          "answer": "risk"
+        },
+        {
+          "id": 5,
+          "sentence": "The management team developed a five-year _____ to guide the company's growth and investment decisions.",
+          "answer": "strategy"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "worked",
+            "hard",
+            "to",
+            "promote",
+            "her",
+            "new",
+            "business",
+            "on",
+            "social",
+            "media"
+          ],
+          "answer": "She worked hard to promote her new business on social media."
+        },
+        {
+          "id": 2,
+          "words": [
+            "a",
+            "financial",
+            "backer",
+            "provided",
+            "the",
+            "funds",
+            "needed",
+            "to",
+            "expand",
+            "the",
+            "company"
+          ],
+          "answer": "A financial backer provided the funds needed to expand the company."
+        },
+        {
+          "id": 3,
+          "words": [
+            "understanding",
+            "your",
+            "target",
+            "customer",
+            "is",
+            "essential",
+            "before",
+            "launching",
+            "a",
+            "product"
+          ],
+          "answer": "Understanding your target customer is essential before launching a product."
+        },
+        {
+          "id": 4,
+          "words": [
+            "the",
+            "company",
+            "competed",
+            "successfully",
+            "by",
+            "offering",
+            "lower",
+            "prices",
+            "than",
+            "its",
+            "rivals"
+          ],
+          "answer": "The company competed successfully by offering lower prices than its rivals."
+        },
+        {
+          "id": 5,
+          "words": [
+            "a",
+            "clear",
+            "strategy",
+            "helps",
+            "a",
+            "business",
+            "stay",
+            "focused",
+            "on",
+            "its",
+            "long-term",
+            "goals"
+          ],
+          "answer": "A clear strategy helps a business stay focused on its long-term goals."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She developed a detailed [plan] to guide the company's decisions over the next five years.",
+          "highlighted": "plan",
+          "options": {
+            "A": "strategy",
+            "B": "plan",
+            "C": "schedule"
+          },
+          "answer": "A",
+          "explanation": "'Strategy' refers to a high-level, long-term plan that guides major business decisions; 'plan' and 'schedule' are too general and often refer to short-term or operational matters."
+        },
+        {
+          "id": 2,
+          "sentence": "After all costs were paid, the business made a healthy [earnings] for the year.",
+          "highlighted": "earnings",
+          "options": {
+            "A": "earnings",
+            "B": "profit",
+            "C": "income"
+          },
+          "answer": "B",
+          "explanation": "'Profit' is the specific financial term for money remaining after all business costs are deducted from revenue; 'earnings' and 'income' refer to revenue before costs are taken into account."
+        },
+        {
+          "id": 3,
+          "sentence": "The new product was [introduced] to the public at a large event in the city centre.",
+          "highlighted": "introduced",
+          "options": {
+            "A": "advertised",
+            "B": "launched",
+            "C": "introduced"
+          },
+          "answer": "B",
+          "explanation": "'Launched' is the standard business term for officially introducing a new product or service to the market for the first time; 'introduced' is informal and less precise in a commercial context."
+        },
+        {
+          "id": 4,
+          "sentence": "The company tried to [sell to] students aged 18–25 by making its product affordable and stylish.",
+          "highlighted": "sell to",
+          "options": {
+            "A": "sell to",
+            "B": "appeal to",
+            "C": "target"
+          },
+          "answer": "C",
+          "explanation": "'Target' is the precise marketing term for directing efforts at a specific group of potential buyers; 'sell to' describes only the final act of selling, not the strategic focus on a particular audience."
+        },
+        {
+          "id": 5,
+          "sentence": "After two successful years in one city, the business was ready to [grow] into new regions.",
+          "highlighted": "grow",
+          "options": {
+            "A": "grow",
+            "B": "expand",
+            "C": "branch out"
+          },
+          "answer": "B",
+          "explanation": "'Expand' specifically means to increase in geographic reach, scale, or product range — it is the correct business term here; 'grow' is more general and 'branch out' is informal."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "market",
+      "2": "brand",
+      "3": "expand",
+      "4": "backer",
+      "5": "promote"
+    },
+    "ex3": {
+      "1": "launch",
+      "2": "brand",
+      "3": "profit",
+      "4": "risk",
+      "5": "strategy"
+    },
+    "ex4": {
+      "1": "She worked hard to promote her new business on social media.",
+      "2": "A financial backer provided the funds needed to expand the company.",
+      "3": "Understanding your target customer is essential before launching a product.",
+      "4": "The company competed successfully by offering lower prices than its rivals.",
+      "5": "A clear strategy helps a business stay focused on its long-term goals."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "B",
+      "4": "C",
+      "5": "B"
+    }
+  }
+}

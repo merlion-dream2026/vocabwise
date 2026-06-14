@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "book": 1,
+    "topic_number": 37,
+    "topic_id": "b1-t37",
+    "topic_title": "Art & Creativity",
+    "theme_number": 4,
+    "theme_title": "Learning & School",
+    "cefr_level": "A1-A2",
+    "combo": "A",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    },
+    "emoji": "🎨",
+    "topic_title_vi": "Nghệ Thuật & Sáng Tạo",
+    "theme_title_vi": "Học Tập & Trường Học"
+  },
+  "passage": {
+    "word_count": 116,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "In art class today, our teacher gave us **clay** and asked us to make a small **sculpture**. I used my hands to shape it into a bird. Then I made a simple **pattern** on its wings using a stick. It was my first time working with **clay** and I loved it.",
+        "text_vi": "Trong giờ mỹ thuật hôm nay, giáo viên cho chúng tôi **đất sét** và yêu cầu chúng tôi làm một **tác phẩm điêu khắc** nhỏ. Tôi dùng tay nặn nó thành hình con chim. Sau đó tôi tạo một **hoa văn** đơn giản trên cánh của nó bằng một cây que. Đó là lần đầu tiên tôi làm việc với **đất sét** và tôi rất thích."
+      },
+      {
+        "index": 2,
+        "text_en": "Next, we learned how to **fold** paper to make flowers. We used **scissors** to **cut** the edges and **glue** the pieces together. Our teacher said a **creative** person always finds new ways to use simple things.",
+        "text_vi": "Tiếp theo, chúng tôi học cách **gấp** giấy để làm hoa. Chúng tôi dùng **kéo** để **cắt** các cạnh và **keo** để dán các mảnh lại với nhau. Giáo viên nói rằng người **sáng tạo** luôn tìm ra cách mới để sử dụng những thứ đơn giản."
+      },
+      {
+        "index": 3,
+        "text_en": "After that, I tried to **sketch** a picture of our classroom. I made a quick **design** for the layout first. Our teacher said every great **artist** starts with a simple **sketch** before making something big and beautiful.",
+        "text_vi": "Sau đó, tôi cố gắng **phác thảo** một bức tranh về lớp học của chúng tôi. Trước tiên tôi tạo một **thiết kế** đơn giản cho bố cục. Giáo viên nói rằng mọi **nghệ sĩ** vĩ đại đều bắt đầu bằng một bản **phác thảo** đơn giản trước khi tạo ra thứ gì đó lớn lao và đẹp đẽ."
+      },
+      {
+        "index": 4,
+        "text_en": "At the end of class, we put our work in a small **exhibit** near the door. My bird **sculpture** was the most **original** piece — no one else made the same thing. It felt wonderful to see my **idea** come to life through **art**.",
+        "text_vi": "Cuối giờ học, chúng tôi trưng bày tác phẩm của mình trong một cuộc **triển lãm** nhỏ gần cửa. Tác phẩm điêu khắc con chim của tôi là tác phẩm **độc đáo** nhất — không ai khác làm cùng thứ đó. Thật tuyệt vời khi thấy **ý tưởng** của mình trở thành hiện thực qua **nghệ thuật**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "art",
+      "ipa": "/ɑːt/",
+      "pos": "noun",
+      "meaning_vi": "nghệ thuật",
+      "meaning_vi_inline": "nghệ thuật",
+      "example_en": "She studies art at school and loves drawing and painting every day.",
+      "example_vi": "Cô ấy học nghệ thuật ở trường và thích vẽ mỗi ngày.",
+      "word_family": {
+        "noun": "art / artist / artwork",
+        "verb": null,
+        "adjective": "artistic / artful",
+        "adverb": "artistically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 2,
+      "word": "clay",
+      "ipa": "/kleɪ/",
+      "pos": "noun",
+      "meaning_vi": "đất sét",
+      "meaning_vi_inline": "đất sét",
+      "example_en": "She used clay to make a small pot in her art class.",
+      "example_vi": "Cô ấy dùng đất sét để làm một chiếc bình nhỏ trong giờ mỹ thuật.",
+      "word_family": {
+        "noun": "clay",
+        "verb": null,
+        "adjective": "clay (as modifier, e.g. clay pot)",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 3,
+      "word": "glue",
+      "ipa": "/ɡluː/",
+      "pos": "noun / verb",
+      "meaning_vi": "keo dán; dán keo",
+      "meaning_vi_inline": "keo",
+      "example_en": "He used glue to stick the pieces of paper together for his art project.",
+      "example_vi": "Anh ấy dùng keo để dán các mảnh giấy lại với nhau cho dự án mỹ thuật.",
+      "word_family": {
+        "noun": "glue",
+        "verb": "glue / glued",
+        "adjective": "gluey",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 4,
+      "word": "scissors",
+      "ipa": "/ˈsɪzəz/",
+      "pos": "noun (plural)",
+      "meaning_vi": "cái kéo",
+      "meaning_vi_inline": "kéo",
+      "example_en": "Please pass me the scissors — I need to cut this piece of paper.",
+      "example_vi": "Hãy đưa tôi cái kéo — tôi cần cắt tờ giấy này.",
+      "word_family": {
+        "noun": "scissors",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 5,
+      "word": "fold",
+      "ipa": "/fəʊld/",
+      "pos": "verb",
+      "meaning_vi": "gấp (giấy, vải)",
+      "meaning_vi_inline": "gấp",
+      "example_en": "She folded the paper carefully to make a small paper crane.",
+      "example_vi": "Cô ấy gấp tờ giấy cẩn thận để làm một con hạc giấy nhỏ.",
+      "word_family": {
+        "noun": "fold",
+        "verb": "fold / folded",
+        "adjective": "folded",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 6,
+      "word": "cut",
+      "ipa": "/kʌt/",
+      "pos": "verb / noun",
+      "meaning_vi": "cắt; vết cắt",
+      "meaning_vi_inline": "cắt",
+      "example_en": "He cut the cardboard into small squares for the art activity.",
+      "example_vi": "Anh ấy cắt bìa cứng thành các hình vuông nhỏ cho hoạt động mỹ thuật.",
+      "word_family": {
+        "noun": "cut",
+        "verb": "cut / cut (irregular)",
+        "adjective": "cut",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 7,
+      "word": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "pos": "noun / verb",
+      "meaning_vi": "thiết kế; thiết kế",
+      "meaning_vi_inline": "thiết kế",
+      "example_en": "She drew a beautiful design for the cover of her school notebook.",
+      "example_vi": "Cô ấy vẽ một thiết kế đẹp cho bìa cuốn sổ tay của mình.",
+      "word_family": {
+        "noun": "design / designer",
+        "verb": "design / designed",
+        "adjective": "designer",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 8,
+      "word": "creative",
+      "ipa": "/kriˈeɪtɪv/",
+      "pos": "adjective",
+      "meaning_vi": "sáng tạo",
+      "meaning_vi_inline": "sáng tạo",
+      "example_en": "She is a very creative student — she always finds interesting new ways to decorate her work.",
+      "example_vi": "Cô ấy là học sinh rất sáng tạo — cô ấy luôn tìm ra những cách thú vị mới để trang trí bài làm của mình.",
+      "word_family": {
+        "noun": "creativity / creation / creator",
+        "verb": "create",
+        "adjective": "creative",
+        "adverb": "creatively"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 9,
+      "word": "sketch",
+      "ipa": "/sketʃ/",
+      "pos": "noun / verb",
+      "meaning_vi": "bản phác thảo; phác thảo",
+      "meaning_vi_inline": "phác thảo",
+      "example_en": "He made a quick sketch of the building before starting to paint it.",
+      "example_vi": "Anh ấy phác thảo nhanh tòa nhà trước khi bắt đầu vẽ màu.",
+      "word_family": {
+        "noun": "sketch / sketchbook",
+        "verb": "sketch / sketched",
+        "adjective": "sketchy",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 10,
+      "word": "artist",
+      "ipa": "/ˈɑːtɪst/",
+      "pos": "noun",
+      "meaning_vi": "nghệ sĩ, họa sĩ",
+      "meaning_vi_inline": "nghệ sĩ",
+      "example_en": "The young artist painted a beautiful picture of the countryside near her village.",
+      "example_vi": "Nghệ sĩ trẻ đã vẽ một bức tranh đẹp về vùng nông thôn gần làng của cô ấy.",
+      "word_family": {
+        "noun": "artist / art",
+        "verb": null,
+        "adjective": "artistic",
+        "adverb": "artistically"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 11,
+      "word": "pattern",
+      "ipa": "/ˈpætən/",
+      "pos": "noun",
+      "meaning_vi": "hoa văn, mẫu họa tiết",
+      "meaning_vi_inline": "hoa văn",
+      "example_en": "She drew a repeating flower pattern along the border of her notebook.",
+      "example_vi": "Cô ấy vẽ một hoa văn hình hoa lặp đi lặp lại dọc theo viền cuốn sổ của mình.",
+      "word_family": {
+        "noun": "pattern",
+        "verb": "pattern",
+        "adjective": "patterned",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 12,
+      "word": "original",
+      "ipa": "/əˈrɪdʒɪnəl/",
+      "pos": "adjective",
+      "meaning_vi": "độc đáo, có tính sáng tạo",
+      "meaning_vi_inline": "độc đáo",
+      "example_en": "Her painting was very original — no one had ever used those colours in that way before.",
+      "example_vi": "Bức tranh của cô ấy rất độc đáo — chưa ai từng sử dụng những màu sắc đó theo cách đó trước đây.",
+      "word_family": {
+        "noun": "origin / originality",
+        "verb": "originate",
+        "adjective": "original",
+        "adverb": "originally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 13,
+      "word": "idea",
+      "ipa": "/aɪˈdɪə/",
+      "pos": "noun",
+      "meaning_vi": "ý tưởng",
+      "meaning_vi_inline": "ý tưởng",
+      "example_en": "She had a great idea to make a poster using recycled paper and leaves.",
+      "example_vi": "Cô ấy có một ý tưởng tuyệt vời để làm áp phích bằng giấy tái chế và lá cây.",
+      "word_family": {
+        "noun": "idea",
+        "verb": null,
+        "adjective": "ideal",
+        "adverb": "ideally"
+      },
+      "false_friend": null
+    },
+    {
+      "id": 14,
+      "word": "sculpture",
+      "ipa": "/ˈskʌlptʃər/",
+      "pos": "noun",
+      "meaning_vi": "tác phẩm điêu khắc",
+      "meaning_vi_inline": "tác phẩm điêu khắc",
+      "example_en": "The students made small clay sculptures of animals for the school art show.",
+      "example_vi": "Các học sinh làm những tác phẩm điêu khắc đất sét nhỏ về các con vật cho triển lãm nghệ thuật của trường.",
+      "word_family": {
+        "noun": "sculpture / sculptor",
+        "verb": "sculpt",
+        "adjective": "sculptural",
+        "adverb": null
+      },
+      "false_friend": null
+    },
+    {
+      "id": 15,
+      "word": "exhibit",
+      "ipa": "/ɪɡˈzɪbɪt/",
+      "pos": "noun / verb",
+      "meaning_vi": "cuộc triển lãm; trưng bày",
+      "meaning_vi_inline": "triển lãm",
+      "example_en": "The school held a small art exhibit where students could show their paintings.",
+      "example_vi": "Trường tổ chức một cuộc triển lãm nghệ thuật nhỏ nơi học sinh có thể trưng bày tranh của mình.",
+      "word_family": {
+        "noun": "exhibit / exhibition",
+        "verb": "exhibit / exhibited",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null
+    }
+  ],
+  "exercises": {
+    "combo": "A",
+    "ex1_matching": {
+      "type": "E1",
+      "instruction": "Match each word (1–5) with its correct meaning (A–E).",
+      "items": [
+        { "id": 1, "word": "sculpture" },
+        { "id": 2, "word": "exhibit" },
+        { "id": 3, "word": "original" },
+        { "id": 4, "word": "pattern" },
+        { "id": 5, "word": "creative" }
+      ],
+      "options": [
+        { "id": "A", "text": "able to think of new and interesting ideas; using imagination to make things" },
+        { "id": "B", "text": "a repeated design or set of shapes used to decorate something" },
+        { "id": "C", "text": "a three-dimensional work of art made by shaping a material such as clay or stone" },
+        { "id": "D", "text": "new and different from anything seen before; not copied from something else" },
+        { "id": "E", "text": "a public display of art or objects for people to look at and enjoy" }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She used _____ to stick all the paper pieces together on her art project.",
+          "options": ["glue", "clay", "scissors", "fold"],
+          "answer": "glue"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ drew a beautiful picture of the sea using only three colours.",
+          "options": ["pattern", "sculptor", "artist", "design"],
+          "answer": "artist"
+        },
+        {
+          "id": 3,
+          "sentence": "Before painting, he always makes a quick _____ to plan where everything will go.",
+          "options": ["exhibit", "fold", "idea", "sketch"],
+          "answer": "sketch"
+        },
+        {
+          "id": 4,
+          "sentence": "Her work was very _____  — she mixed clay and paper to make something nobody had seen before.",
+          "options": ["loud", "original", "creative", "patterned"],
+          "answer": "original"
+        },
+        {
+          "id": 5,
+          "sentence": "The students put all their clay _____ in a glass cabinet for parents to see.",
+          "options": ["ideas", "scissors", "sculptures", "sketches"],
+          "answer": "sculptures"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": ["cut", "fold", "design", "creative", "art", "pattern"],
+      "items": [
+        { "id": 1, "sentence": "He used scissors to _____ the paper into long thin strips.", "answer": "cut" },
+        { "id": 2, "sentence": "She carefully _____ the paper in half before making the next shape.", "answer": "fold" },
+        { "id": 3, "sentence": "Our teacher drew a simple _____ on the board for us to copy.", "answer": "design" },
+        { "id": 4, "sentence": "The flower _____ on the fabric repeated every five centimetres.", "answer": "pattern" },
+        { "id": 5, "sentence": "I enjoy _____ class because I can use my hands to make beautiful things.", "answer": "art" }
+      ],
+      "note": "One word in the box is not used: creative"
+    },
+    "ex4_word_forms": {
+      "type": "E6",
+      "instruction": "Complete each sentence using the correct form of the word in CAPITALS.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She painted the picture very _____, using bright colours and interesting shapes. (CREATE)",
+          "base_word": "CREATE",
+          "answer": "creatively",
+          "form_used": "adverb"
+        },
+        {
+          "id": 2,
+          "sentence": "The young _____ showed her paintings at a gallery in the city centre. (ART)",
+          "base_word": "ART",
+          "answer": "artist",
+          "form_used": "noun"
+        },
+        {
+          "id": 3,
+          "sentence": "The fabric had a beautiful _____ of red and yellow diamonds all over it. (PATTERN)",
+          "base_word": "PATTERN",
+          "answer": "patterned",
+          "form_used": "adjective"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ a clay pot in art class and gave it to his mother as a gift. (SCULPTURE)",
+          "base_word": "SCULPTURE",
+          "answer": "sculpted",
+          "form_used": "verb"
+        },
+        {
+          "id": 5,
+          "sentence": "The teacher praised the _____ of the students' ideas — every project was different. (ORIGINAL)",
+          "base_word": "ORIGINAL",
+          "answer": "originality",
+          "form_used": "noun"
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement (A, B, or C).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She used [glue] to cut the paper into small flower shapes.",
+          "highlighted": "glue",
+          "options": { "A": "scissors", "B": "clay", "C": "glue" },
+          "answer": "A",
+          "explanation": "'Glue' is used to stick things together, not to cut them. The tool you use to cut paper is 'scissors'."
+        },
+        {
+          "id": 2,
+          "sentence": "The students put their clay [patterns] in the glass cabinet for the school art show.",
+          "highlighted": "patterns",
+          "options": { "A": "designs", "B": "sketches", "C": "sculptures" },
+          "answer": "C",
+          "explanation": "A 'pattern' is a repeated decorative design. Objects made from clay that you display in a cabinet are 'sculptures' — three-dimensional artworks."
+        },
+        {
+          "id": 3,
+          "sentence": "Before starting the big painting, he made a quick [exhibit] of the main shapes.",
+          "highlighted": "exhibit",
+          "options": { "A": "exhibit", "B": "sketch", "C": "pattern" },
+          "answer": "B",
+          "explanation": "An 'exhibit' is a public display of art, not a quick drawing. A quick drawing made to plan a painting is a 'sketch'."
+        },
+        {
+          "id": 4,
+          "sentence": "She had a wonderful [sculpture] to make flowers from folded paper and glue.",
+          "highlighted": "sculpture",
+          "options": { "A": "pattern", "B": "artist", "C": "idea" },
+          "answer": "C",
+          "explanation": "A 'sculpture' is a three-dimensional artwork, not a thought or plan. A plan or thought you have in your mind before making something is an 'idea'."
+        },
+        {
+          "id": 5,
+          "sentence": "He [unfolded] the paper twice to make a triangle shape for the hat.",
+          "highlighted": "unfolded",
+          "options": { "A": "cut", "B": "folded", "C": "glued" },
+          "answer": "B",
+          "explanation": "'Unfold' means to open something that was already folded — the opposite of what is needed. To make a shape from paper by bending it, you 'fold' the paper."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": { "1": "C", "2": "E", "3": "D", "4": "B", "5": "A" },
+    "ex2": { "1": "glue", "2": "artist", "3": "sketch", "4": "original", "5": "sculptures" },
+    "ex3": { "1": "cut", "2": "fold", "3": "design", "4": "pattern", "5": "art" },
+    "ex4": { "1": "creatively", "2": "artist", "3": "patterned", "4": "sculpted", "5": "originality" },
+    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "B" }
+  }
+}

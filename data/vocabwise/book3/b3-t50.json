@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 50,
+    "topic_id": "b3-t50",
+    "topic_title": "Translation & Interpretation",
+    "topic_title_vi": "Dịch Thuật & Phiên Dịch",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🔄",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 218,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Translation is frequently misunderstood as a mechanical process of substituting words from one language with their counterparts in another. In reality, it demands a sophisticated grasp of **equivalence** — the degree to which a translated expression reproduces the meaning, tone, and pragmatic force of the **source text**. Achieving true **equivalence** is rarely straightforward, since no two languages carve up reality in identical ways, and concepts central to one culture may have no ready parallel in another.",
+        "text_vi": "Dịch thuật thường bị hiểu nhầm là quá trình cơ học thay thế từ ngữ từ ngôn ngữ này sang ngôn ngữ khác. Trên thực tế, nó đòi hỏi sự nắm bắt tinh tế về **sự tương đương** — mức độ mà một biểu đạt đã dịch tái hiện được ý nghĩa, giọng điệu và lực ngữ dụng của **văn bản gốc**. Đạt được **sự tương đương** thực sự hiếm khi đơn giản, vì không có hai ngôn ngữ nào phân chia thực tại theo cách giống nhau, và những khái niệm trung tâm của một nền văn hóa có thể không có khái niệm tương đương dễ tìm trong nền văn hóa khác."
+      },
+      {
+        "index": 2,
+        "text_en": "A central challenge for any translator is to **resolve translational ambiguity** — the situation in which a word or phrase in the **source text** carries multiple plausible meanings. A seemingly innocuous **nuance** of register, irony, or cultural allusion can completely alter how a passage functions in the **target language**. Skilled translators must therefore **navigate cultural transfer challenges** with analytical precision, deciding which layer of meaning to prioritise and how much adaptation the receiving audience requires.",
+        "text_vi": "Một thách thức trung tâm đối với bất kỳ dịch giả nào là **giải quyết sự mơ hồ trong dịch thuật** — tình huống mà một từ hoặc cụm từ trong **văn bản gốc** mang nhiều nghĩa khả thi. Một **sắc thái** về phong cách, sự mỉa mai hoặc ám chỉ văn hóa tưởng chừng vô hại có thể thay đổi hoàn toàn cách một đoạn văn hoạt động trong **ngôn ngữ đích**. Do đó, những dịch giả giỏi phải **vượt qua các thách thức chuyển giao văn hóa** với sự chính xác phân tích, quyết định ưu tiên tầng nghĩa nào và khán giả tiếp nhận cần điều chỉnh đến mức nào."
+      },
+      {
+        "index": 3,
+        "text_en": "The concept of **fidelity** lies at the heart of translation ethics. To **maintain fidelity to source text** is to honour the author's intent, even when doing so produces awkwardness in the **target language**. **Localisation**, by contrast, prioritises the reader's experience over strict accuracy, adapting idioms, cultural references, and even humour to resonate with a new audience. Neither approach is inherently superior; the best choice depends on purpose, genre, and the need to **adapt for target audience**.",
+        "text_vi": "Khái niệm **sự trung thành** nằm ở trung tâm của đạo đức dịch thuật. **Duy trì sự trung thành với văn bản gốc** là tôn trọng ý định của tác giả, ngay cả khi làm như vậy tạo ra sự gượng gạo trong **ngôn ngữ đích**. **Bản địa hóa**, ngược lại, ưu tiên trải nghiệm của độc giả hơn độ chính xác tuyệt đối, điều chỉnh thành ngữ, tham chiếu văn hóa và thậm chí cả sự hài hước để phù hợp với khán giả mới. Không phương pháp nào vốn dĩ tốt hơn; lựa chọn tốt nhất phụ thuộc vào mục đích, thể loại và nhu cầu **thích nghi cho khán giả đích**."
+      },
+      {
+        "index": 4,
+        "text_en": "**Interpreting** — the oral counterpart of written translation — adds a further layer of complexity, as professionals must **preserve semantic equivalence** in real time, without the luxury of revision. A useful quality-control tool is **back-translation**: retranslating a translated text back into the source language to expose gaps in meaning. Whether working with the written or spoken word, the finest language professionals understand that their craft is ultimately an act of mediation between worlds.",
+        "text_vi": "**Phiên dịch** — hình thức nói tương đương với dịch viết — thêm một tầng phức tạp nữa, vì các chuyên gia phải **bảo toàn sự tương đương ngữ nghĩa** theo thời gian thực, không có điều kiện chỉnh sửa. Một công cụ kiểm soát chất lượng hữu ích là **dịch ngược**: dịch lại một văn bản đã dịch trở lại ngôn ngữ gốc để phát hiện các khoảng trống về nghĩa. Dù làm việc với từ viết hay từ nói, những chuyên gia ngôn ngữ xuất sắc nhất đều hiểu rằng nghề của họ về cơ bản là hành động trung gian giữa các thế giới."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "equivalence",
+      "ipa": "/ɪˈkwɪv.ə.ləns/",
+      "pos": "noun",
+      "meaning_vi": "sự tương đương, mức độ tương ứng về nghĩa",
+      "meaning_vi_inline": "sự tương đương",
+      "example_en": "Finding equivalence between idioms in two unrelated languages is one of the most demanding tasks in translation.",
+      "example_vi": "Tìm sự tương đương giữa các thành ngữ trong hai ngôn ngữ không liên quan là một trong những nhiệm vụ khó khăn nhất trong dịch thuật.",
+      "word_family": {
+        "noun": "equivalence / equivalent",
+        "verb": null,
+        "adjective": "equivalent",
+        "adverb": "equivalently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "source text",
+      "ipa": "/ˈsɔːs tekst/",
+      "pos": "noun phrase",
+      "meaning_vi": "văn bản gốc, tài liệu nguồn cần dịch",
+      "meaning_vi_inline": "văn bản gốc",
+      "example_en": "A translator must read the source text multiple times before committing to any interpretive choices.",
+      "example_vi": "Dịch giả phải đọc văn bản gốc nhiều lần trước khi đưa ra bất kỳ quyết định diễn giải nào.",
+      "word_family": {
+        "noun": "source text / source",
+        "verb": null,
+        "adjective": "source-language",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "target language",
+      "ipa": "/ˈtɑː.ɡɪt ˈlæŋ.ɡwɪdʒ/",
+      "pos": "noun phrase",
+      "meaning_vi": "ngôn ngữ đích, ngôn ngữ được dịch sang",
+      "meaning_vi_inline": "ngôn ngữ đích",
+      "example_en": "The translator had to consider how readers in the target language would interpret this culturally specific reference.",
+      "example_vi": "Dịch giả phải cân nhắc độc giả của ngôn ngữ đích sẽ hiểu tham chiếu đặc thù văn hóa này như thế nào.",
+      "word_family": {
+        "noun": "target language / target",
+        "verb": "target",
+        "adjective": "target-language",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "localisation",
+      "ipa": "/ˌləʊ.kəl.aɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "bản địa hóa, điều chỉnh nội dung cho phù hợp với văn hóa địa phương",
+      "meaning_vi_inline": "bản địa hóa",
+      "example_en": "Software localisation involves not just translating text but also adapting date formats, currency symbols, and cultural references.",
+      "example_vi": "Bản địa hóa phần mềm không chỉ dịch văn bản mà còn điều chỉnh định dạng ngày tháng, ký hiệu tiền tệ và các tham chiếu văn hóa.",
+      "word_family": {
+        "noun": "localisation",
+        "verb": "localise",
+        "adjective": "localised",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "location",
+        "explanation_vi": "'Localisation' là quá trình bản địa hóa sản phẩm/nội dung; 'location' chỉ vị trí địa lý — khác nhau hoàn toàn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "ambiguity",
+      "ipa": "/ˌæm.bɪˈɡjuː.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự mơ hồ, tính đa nghĩa",
+      "meaning_vi_inline": "sự mơ hồ",
+      "example_en": "The legal translator flagged several instances of ambiguity in the contract that could lead to conflicting interpretations.",
+      "example_vi": "Dịch giả pháp lý đã đánh dấu một số trường hợp mơ hồ trong hợp đồng có thể dẫn đến các diễn giải mâu thuẫn.",
+      "word_family": {
+        "noun": "ambiguity",
+        "verb": null,
+        "adjective": "ambiguous",
+        "adverb": "ambiguously"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "nuance",
+      "ipa": "/ˈnjuː.ɑːns/",
+      "pos": "noun",
+      "meaning_vi": "sắc thái, sự tinh tế trong nghĩa",
+      "meaning_vi_inline": "sắc thái",
+      "example_en": "The nuance between 'house' and 'home' — one architectural, one emotional — can be profoundly difficult to capture in translation.",
+      "example_vi": "Sắc thái giữa 'house' và 'home' — một từ mang tính kiến trúc, một từ mang tính cảm xúc — có thể rất khó nắm bắt trong dịch thuật.",
+      "word_family": {
+        "noun": "nuance",
+        "verb": "nuance",
+        "adjective": "nuanced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "cultural transfer",
+      "ipa": "/ˈkʌl.tʃər.əl ˈtræns.fɜːr/",
+      "pos": "noun phrase",
+      "meaning_vi": "chuyển giao văn hóa, quá trình chuyển đổi các yếu tố văn hóa sang ngôn ngữ khác",
+      "meaning_vi_inline": "chuyển giao văn hóa",
+      "example_en": "Cultural transfer is one of the most complex aspects of literary translation, often requiring footnotes or explanatory notes.",
+      "example_vi": "Chuyển giao văn hóa là một trong những khía cạnh phức tạp nhất của dịch thuật văn học, thường đòi hỏi ghi chú chân trang hoặc giải thích bổ sung.",
+      "word_family": {
+        "noun": "cultural transfer / transfer",
+        "verb": "transfer",
+        "adjective": "transferable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "fidelity",
+      "ipa": "/fɪˈdel.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "sự trung thành, độ trung thực với bản gốc",
+      "meaning_vi_inline": "sự trung thành",
+      "example_en": "High fidelity to the source text is essential in legal and medical translation, where any deviation can have serious consequences.",
+      "example_vi": "Sự trung thành cao với văn bản gốc là điều thiết yếu trong dịch thuật pháp lý và y tế, nơi bất kỳ sai lệch nào đều có thể gây hậu quả nghiêm trọng.",
+      "word_family": {
+        "noun": "fidelity",
+        "verb": null,
+        "adjective": "faithful",
+        "adverb": "faithfully"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "back-translation",
+      "ipa": "/ˈbæk trænsˈleɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "dịch ngược, dịch lại văn bản đã dịch về ngôn ngữ gốc để kiểm tra",
+      "meaning_vi_inline": "dịch ngược",
+      "example_en": "Researchers used back-translation to verify that the questionnaire retained its intended meaning across all five language versions.",
+      "example_vi": "Các nhà nghiên cứu đã dùng dịch ngược để xác nhận rằng bảng câu hỏi vẫn giữ được nghĩa ban đầu trong cả năm phiên bản ngôn ngữ.",
+      "word_family": {
+        "noun": "back-translation",
+        "verb": "back-translate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "interpreting",
+      "ipa": "/ɪnˈtɜː.prɪ.tɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "phiên dịch (nói), nghề phiên dịch viên",
+      "meaning_vi_inline": "phiên dịch",
+      "example_en": "Simultaneous interpreting at high-level conferences demands exceptional concentration, as interpreters must listen and speak at the same time.",
+      "example_vi": "Phiên dịch đồng thời tại các hội nghị cấp cao đòi hỏi sự tập trung phi thường, vì phiên dịch viên phải nghe và nói cùng một lúc.",
+      "word_family": {
+        "noun": "interpreting / interpretation / interpreter",
+        "verb": "interpret",
+        "adjective": "interpretive",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "translation",
+        "explanation_vi": "'Interpreting' là phiên dịch nói (oral); 'translation' là dịch thuật viết (written) — đây là hai nghề khác nhau dù liên quan."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "preserve semantic equivalence",
+      "meaning_vi": "bảo toàn sự tương đương ngữ nghĩa",
+      "example_en": "The challenge for any interpreter is to preserve semantic equivalence while still speaking naturally in the target language.",
+      "example_vi": "Thách thức của bất kỳ phiên dịch viên nào là bảo toàn sự tương đương ngữ nghĩa trong khi vẫn nói tự nhiên trong ngôn ngữ đích.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "navigate cultural transfer challenges",
+      "meaning_vi": "vượt qua các thách thức chuyển giao văn hóa",
+      "example_en": "Literary translators must navigate cultural transfer challenges that purely technical translators rarely face.",
+      "example_vi": "Dịch giả văn học phải vượt qua các thách thức chuyển giao văn hóa mà dịch giả thuần kỹ thuật hiếm khi gặp phải.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "resolve translational ambiguity",
+      "meaning_vi": "giải quyết sự mơ hồ trong dịch thuật",
+      "example_en": "Experienced translators consult multiple reference sources to resolve translational ambiguity before finalising their choices.",
+      "example_vi": "Dịch giả có kinh nghiệm tham khảo nhiều nguồn tài liệu để giải quyết sự mơ hồ trong dịch thuật trước khi hoàn thiện lựa chọn của mình.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "maintain fidelity to source text",
+      "meaning_vi": "duy trì sự trung thành với văn bản gốc",
+      "example_en": "Academic translators are expected to maintain fidelity to source text even when this produces slightly awkward phrasing in the translation.",
+      "example_vi": "Dịch giả học thuật được kỳ vọng duy trì sự trung thành với văn bản gốc ngay cả khi điều này tạo ra cách diễn đạt hơi gượng gạo trong bản dịch.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "adapt for target audience",
+      "meaning_vi": "thích nghi nội dung cho khán giả đích",
+      "example_en": "Game localisers must adapt for target audience by replacing culturally specific jokes with equivalents that resonate locally.",
+      "example_vi": "Những người bản địa hóa trò chơi phải thích nghi nội dung cho khán giả đích bằng cách thay thế những trò đùa đặc thù văn hóa bằng những điều tương đương phù hợp với địa phương.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The passage argues that translation is best understood as a straightforward word-for-word substitution process.",
+          "answer": "False"
+        },
+        {
+          "id": 2,
+          "statement": "According to the passage, back-translation is used to identify gaps in meaning between a translation and the original.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "The passage states that localisation always produces a more accurate translation than a fidelity-focused approach.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "The passage mentions that some professional interpreters work in teams during long conferences to manage fatigue.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "The passage describes translators and interpreters as performing an act of mediation between different worlds.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The marketing team commissioned a full _____ of their website to ensure all product names and slogans felt natural to Japanese consumers.",
+          "options": [
+            "back-translation",
+            "fidelity",
+            "localisation",
+            "equivalence"
+          ],
+          "answer": "localisation"
+        },
+        {
+          "id": 2,
+          "sentence": "The word 'saudade' in Portuguese carries an emotional _____ for which no single English word provides a perfect counterpart.",
+          "options": [
+            "ambiguity",
+            "nuance",
+            "fidelity",
+            "interpreting"
+          ],
+          "answer": "nuance"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers used _____ to confirm that the consent form retained its original meaning when translated into Swahili.",
+          "options": [
+            "source text",
+            "back-translation",
+            "cultural transfer",
+            "target language"
+          ],
+          "answer": "back-translation"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ in the original contract was so significant that lawyers disagreed about whether the clause imposed an obligation or merely a recommendation.",
+          "options": [
+            "localisation",
+            "fidelity",
+            "ambiguity",
+            "equivalence"
+          ],
+          "answer": "ambiguity"
+        },
+        {
+          "id": 5,
+          "sentence": "Consecutive _____ — where the speaker pauses while the interpreter renders the speech — is common in diplomatic settings.",
+          "options": [
+            "back-translation",
+            "interpreting",
+            "localisation",
+            "source text"
+          ],
+          "answer": "interpreting"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "fidelity",
+        "equivalence",
+        "ambiguity",
+        "nuance",
+        "source text",
+        "target language"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The translator read the _____ three times to ensure she had fully grasped the author's intended tone before beginning.",
+          "answer": "source text"
+        },
+        {
+          "id": 2,
+          "sentence": "A high degree of _____ to the original was considered essential, as the document was to be used as legal evidence in court.",
+          "answer": "fidelity"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of the phrase 'fair use' — which has distinct legal meanings in different jurisdictions — caused significant problems for the translator.",
+          "answer": "ambiguity"
+        },
+        {
+          "id": 4,
+          "sentence": "Finding a true _____ for a culturally embedded concept is one of the greatest intellectual challenges in translation.",
+          "answer": "equivalence"
+        },
+        {
+          "id": 5,
+          "sentence": "The subtle _____ between 'empathy' and 'sympathy' is notoriously difficult to render precisely in many languages.",
+          "answer": "nuance"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "translation",
+            "requires",
+            "more",
+            "than",
+            "simple",
+            "word-for-word",
+            "substitution"
+          ],
+          "answer": "Translation requires more than simple word-for-word substitution."
+        },
+        {
+          "id": 2,
+          "words": [
+            "fidelity",
+            "to",
+            "the",
+            "source",
+            "text",
+            "is",
+            "essential",
+            "in",
+            "legal",
+            "and",
+            "medical",
+            "translation"
+          ],
+          "answer": "Fidelity to the source text is essential in legal and medical translation."
+        },
+        {
+          "id": 3,
+          "words": [
+            "back-translation",
+            "helps",
+            "identify",
+            "gaps",
+            "in",
+            "meaning",
+            "between",
+            "a",
+            "translation",
+            "and",
+            "the",
+            "original"
+          ],
+          "answer": "Back-translation helps identify gaps in meaning between a translation and the original."
+        },
+        {
+          "id": 4,
+          "words": [
+            "localisation",
+            "adapts",
+            "content",
+            "to",
+            "resonate",
+            "with",
+            "a",
+            "new",
+            "cultural",
+            "audience"
+          ],
+          "answer": "Localisation adapts content to resonate with a new cultural audience."
+        },
+        {
+          "id": 5,
+          "words": [
+            "skilled",
+            "interpreters",
+            "must",
+            "preserve",
+            "semantic",
+            "equivalence",
+            "in",
+            "real",
+            "time"
+          ],
+          "answer": "Skilled interpreters must preserve semantic equivalence in real time."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Achieving true [equivalent] between a source phrase and its translation is rarely as simple as it appears.",
+          "highlighted": "equivalent",
+          "options": {
+            "A": "equivalently",
+            "B": "equivalence",
+            "C": "equivalents"
+          },
+          "answer": "B",
+          "explanation": "A noun is required after 'true' to serve as the object of 'Achieving' — 'equivalence', not the adjective 'equivalent'."
+        },
+        {
+          "id": 2,
+          "sentence": "The [ambiguous] in the contract's phrasing led to a costly dispute between the two parties over their respective obligations.",
+          "highlighted": "ambiguous",
+          "options": {
+            "A": "ambiguity",
+            "B": "ambiguously",
+            "C": "ambiguities"
+          },
+          "answer": "A",
+          "explanation": "A singular noun is required as the subject after 'The' — 'ambiguity', not the adjective 'ambiguous'."
+        },
+        {
+          "id": 3,
+          "sentence": "The translator's strict [faithful] to the original resulted in a version that felt stilted to native speakers of the target language.",
+          "highlighted": "faithful",
+          "options": {
+            "A": "faithfully",
+            "B": "faithfulness",
+            "C": "fidelity"
+          },
+          "answer": "C",
+          "explanation": "The standard technical term in translation studies for loyalty to the source text is 'fidelity'; 'faithful' is an adjective and does not fit the possessive noun-phrase slot here."
+        },
+        {
+          "id": 4,
+          "sentence": "The software company invested heavily in [locate] to ensure their product felt native to users in thirty different markets.",
+          "highlighted": "locate",
+          "options": {
+            "A": "localised",
+            "B": "localisation",
+            "C": "locating"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed after 'in' to complete the prepositional phrase — 'localisation', not the verb 'locate'."
+        },
+        {
+          "id": 5,
+          "sentence": "Conference [interpret] must maintain full concentration for extended periods, often working in booths with a partner to manage fatigue.",
+          "highlighted": "interpret",
+          "options": {
+            "A": "interpreters",
+            "B": "interpreted",
+            "C": "interpretation"
+          },
+          "answer": "A",
+          "explanation": "A plural noun is required as the subject of the sentence — 'interpreters', not the verb 'interpret'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "False",
+      "2": "True",
+      "3": "False",
+      "4": "Not Given",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "localisation",
+      "2": "nuance",
+      "3": "back-translation",
+      "4": "ambiguity",
+      "5": "interpreting"
+    },
+    "ex3": {
+      "1": "source text",
+      "2": "fidelity",
+      "3": "ambiguity",
+      "4": "equivalence",
+      "5": "nuance"
+    },
+    "ex4": {
+      "1": "Translation requires more than simple word-for-word substitution.",
+      "2": "Fidelity to the source text is essential in legal and medical translation.",
+      "3": "Back-translation helps identify gaps in meaning between a translation and the original.",
+      "4": "Localisation adapts content to resonate with a new cultural audience.",
+      "5": "Skilled interpreters must preserve semantic equivalence in real time."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}

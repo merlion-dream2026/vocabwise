@@ -3,143 +3,135 @@
     "book": 3,
     "topic_number": 1,
     "topic_id": "b3-t01",
-    "topic_title": "Globalisation & International Trade",
+    "topic_title": "Education & Learning",
+    "topic_title_vi": "Giáo Dục & Học Tập",
     "theme_number": 1,
-    "theme_title": "Power, Society & Global Affairs",
+    "theme_title": "Self & Society",
+    "theme_title_vi": "Bản Thân & Xã Hội",
     "cefr_level": "C1-C2",
     "combo": "C1",
-    "emoji": "🌐",
-    "topic_title_vi": "Toàn Cầu Hóa & Thương Mại",
-    "theme_title_vi": "Quyền Lực, Xã Hội & Thế Giới",
+    "emoji": "🎓",
     "status": "qa_pass",
     "qa": {
       "passage": "pass",
       "glossary": "pass",
       "exercises": "pass",
       "answer_key": "pass",
-      "last_checked": "2026-06-12"
+      "last_checked": "2026-06-14"
     }
   },
   "passage": {
-    "word_count": 228,
+    "word_count": 221,
     "paragraphs": [
       {
         "index": 1,
-        "text_en": "The process of **globalisation** — the deepening integration of world economies — has fundamentally transformed how nations conduct trade. Over recent decades, governments have signed numerous **bilateral** and multilateral **treaties** to reduce **tariffs** and promote the free exchange of goods and services. These agreements reflect a shared belief that open markets generate prosperity and reduce poverty on a global scale.",
-        "text_vi": "Quá trình **toàn cầu hóa** — sự hội nhập ngày càng sâu rộng của các nền kinh tế thế giới — đã làm thay đổi căn bản cách các quốc gia tiến hành thương mại. Trong vài thập kỷ qua, các chính phủ đã ký kết nhiều **hiệp ước** **song phương** và đa phương nhằm cắt giảm **thuế quan** và thúc đẩy trao đổi hàng hóa, dịch vụ tự do. Những thỏa thuận này phản ánh niềm tin chung rằng thị trường mở tạo ra thịnh vượng và giảm nghèo trên quy mô toàn cầu."
+        "text_en": "Debates around **pedagogy** have intensified in recent decades as educators grapple with rising **disparity** in educational outcomes. While formal **credentials** remain the gatekeepers of professional life, critics argue that rigid **curriculum** design stifles **cognitive** growth and fails to **foster independent thinking**. A system built solely on standardised testing risks rewarding conformity over genuine intellectual development.",
+        "text_vi": "Các cuộc tranh luận xung quanh **phương pháp sư phạm** đã trở nên sôi nổi trong những thập kỷ gần đây khi các nhà giáo dục vật lộn với sự **bất bình đẳng** ngày càng tăng trong kết quả giáo dục. Trong khi các **bằng cấp** chính thức vẫn là cánh cổng vào đời nghề nghiệp, các nhà phê bình cho rằng thiết kế **chương trình học** cứng nhắc kìm hãm sự phát triển **nhận thức** và không **nuôi dưỡng tư duy độc lập**. Một hệ thống được xây dựng hoàn toàn dựa trên kiểm tra tiêu chuẩn hóa có nguy cơ khen thưởng sự tuân thủ hơn là sự phát triển trí tuệ thực sự."
       },
       {
         "index": 2,
-        "text_en": "Proponents argue that globalisation allows **emerging** economies to access wider markets for their **commodities** and manufactured goods. Nations across Southeast Asia and Sub-Saharan Africa have recorded remarkable growth in **exports**, particularly in textiles, raw materials, and electronics, as foreign investment has flowed in and trade barriers have fallen.",
-        "text_vi": "Những người ủng hộ lập luận rằng toàn cầu hóa cho phép các nền kinh tế **mới nổi** tiếp cận thị trường rộng lớn hơn cho **hàng hóa** và sản phẩm chế tạo của họ. Các quốc gia ở Đông Nam Á và châu Phi cận Sahara đã ghi nhận mức tăng trưởng **xuất khẩu** đáng kể, đặc biệt trong ngành dệt may, nguyên liệu thô và điện tử, khi đầu tư nước ngoài đổ vào và rào cản thương mại giảm dần."
+        "text_en": "A key concern is **attainment**: research consistently shows that socioeconomic background strongly predicts academic success. Policymakers who seek to **close the attainment gap** must invest not only in school resources but in early childhood nutrition, housing stability, and family support. Without these structural interventions, education alone cannot overcome entrenched disadvantage.",
+        "text_vi": "Một mối lo ngại chính là **thành tích học tập**: nghiên cứu liên tục cho thấy nền tảng kinh tế xã hội dự đoán mạnh mẽ thành công học thuật. Các nhà hoạch định chính sách muốn **thu hẹp khoảng cách thành tích** phải đầu tư không chỉ vào nguồn lực trường học mà còn vào dinh dưỡng tuổi thơ sớm, sự ổn định nhà ở và hỗ trợ gia đình. Nếu không có những can thiệp cơ cấu này, giáo dục đơn thuần không thể vượt qua bất lợi đã ăn sâu."
       },
       {
         "index": 3,
-        "text_en": "However, critics contend that trade **liberalisation** has produced winners and losers. Nations running persistent **deficits** — importing far more than they export — face economic vulnerabilities, while countries accumulating large **surpluses** often attract resentment and accusations of **protectionism**. In response, some governments have imposed **sanctions** on trading partners deemed to be acting unfairly, undermining the very **treaties** they once championed.",
-        "text_vi": "Tuy nhiên, các nhà phê bình cho rằng **tự do hóa** thương mại đã tạo ra người thắng và người thua. Các quốc gia duy trì **thâm hụt** thương mại kéo dài — nhập khẩu nhiều hơn xuất khẩu — phải đối mặt với tổn thương kinh tế, trong khi những nước tích lũy **thặng dư** lớn thường thu hút sự bất bình và bị cáo buộc theo **chủ nghĩa bảo hộ**. Để đáp lại, một số chính phủ đã áp đặt **trừng phạt** lên các đối tác thương mại bị cho là hành xử không công bằng, làm suy yếu chính những **hiệp ước** mà họ từng ủng hộ."
+        "text_en": "**Literacy** — both in traditional and digital forms — underpins all other learning. Yet access to quality education remains deeply unequal. Efforts to **widen access to higher education** through scholarships, online platforms, and flexible entry requirements have shown promise, but they must be matched by genuine institutional commitment rather than token gestures. Moves to **challenge elitist structures** within universities remain politically contested.",
+        "text_vi": "**Năng lực đọc viết** — cả ở dạng truyền thống lẫn kỹ thuật số — là nền tảng của mọi hoạt động học tập khác. Tuy nhiên, khả năng tiếp cận giáo dục chất lượng vẫn còn rất bất bình đẳng. Những nỗ lực **mở rộng khả năng tiếp cận giáo dục đại học** thông qua học bổng, nền tảng trực tuyến và yêu cầu đầu vào linh hoạt đã cho thấy triển vọng, nhưng chúng phải được đi kèm bằng cam kết thể chế thực sự thay vì những cử chỉ mang tính hình thức. Các động thái nhằm **thách thức những cấu trúc tinh hoa** trong các trường đại học vẫn còn gây tranh cãi về mặt chính trị."
       },
       {
         "index": 4,
-        "text_en": "The tension between economic **interdependence** and the desire to preserve national **sovereignty** remains unresolved. As global supply chains grow increasingly complex, the international trade **regime** — largely governed by the World Trade Organisation — faces mounting pressure to adapt. How nations balance integration with self-reliance will shape the global economy for decades to come.",
-        "text_vi": "Căng thẳng giữa **sự phụ thuộc lẫn nhau** về kinh tế và mong muốn bảo vệ **chủ quyền** quốc gia vẫn chưa được giải quyết. Khi chuỗi cung ứng toàn cầu ngày càng phức tạp, **cơ chế** thương mại quốc tế — chủ yếu được điều hành bởi Tổ chức Thương mại Thế giới — đang đối mặt với áp lực ngày càng lớn phải thích nghi. Cách các quốc gia cân bằng giữa hội nhập và tự lực sẽ định hình nền kinh tế toàn cầu trong nhiều thập kỷ tới."
+        "text_en": "Ultimately, the goal of education should be to cultivate **autonomy**: the capacity to think critically, adapt to change, and **promote lifelong learning**. A true **meritocracy** depends not on who can memorise facts most efficiently but on whether all learners have an equal opportunity to develop their potential. **Retention** of knowledge matters far less than the ability to question, connect ideas, and grow beyond the classroom.",
+        "text_vi": "Cuối cùng, mục tiêu của giáo dục nên là nuôi dưỡng **sự tự chủ**: năng lực tư duy phản biện, thích nghi với thay đổi và **thúc đẩy học tập suốt đời**. Một xã hội **trọng tài năng** thực sự không phụ thuộc vào việc ai có thể ghi nhớ sự kiện hiệu quả nhất mà phụ thuộc vào việc liệu tất cả người học có cơ hội bình đẳng để phát triển tiềm năng của mình hay không. **Khả năng ghi nhớ** kiến thức quan trọng ít hơn nhiều so với khả năng đặt câu hỏi, kết nối ý tưởng và phát triển vượt ra ngoài lớp học."
       }
     ]
   },
   "glossary": [
     {
       "id": 1,
-      "word": "globalisation",
-      "ipa": "/ˌɡloʊ.bəl.aɪˈzeɪ.ʃən/",
+      "word": "pedagogy",
+      "ipa": "/ˈped.ə.ɡɒ.dʒi/",
       "pos": "noun",
-      "meaning_vi": "toàn cầu hóa",
-      "meaning_vi_inline": "toàn cầu hóa",
-      "example_en": "Globalisation has connected markets across the world.",
-      "example_vi": "Toàn cầu hóa đã kết nối các thị trường trên khắp thế giới.",
+      "meaning_vi": "phương pháp sư phạm, khoa học giảng dạy",
+      "example_en": "Modern pedagogy emphasises student-centred learning over rote memorisation.",
+      "example_vi": "Phương pháp sư phạm hiện đại nhấn mạnh học tập lấy học sinh làm trung tâm thay vì học thuộc lòng.",
       "word_family": {
-        "noun": "globalisation / globe / globalism",
-        "verb": "globalise",
-        "adjective": "global / globalised",
-        "adverb": "globally"
+        "noun": "pedagogy / pedagogue",
+        "verb": null,
+        "adjective": "pedagogical",
+        "adverb": "pedagogically"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 2,
-      "word": "tariff",
-      "ipa": "/ˈtær.ɪf/",
+      "word": "attainment",
+      "ipa": "/əˈteɪn.mənt/",
       "pos": "noun",
-      "meaning_vi": "thuế quan",
-      "meaning_vi_inline": "thuế quan",
-      "example_en": "The government reduced tariffs on imported goods.",
-      "example_vi": "Chính phủ đã giảm thuế quan đối với hàng nhập khẩu.",
+      "meaning_vi": "thành tích (học tập), sự đạt được",
+      "example_en": "The school's attainment levels improved significantly after introducing peer tutoring.",
+      "example_vi": "Mức thành tích của trường cải thiện đáng kể sau khi áp dụng hình thức gia sư đồng đẳng.",
       "word_family": {
-        "noun": "tariff",
-        "verb": null,
-        "adjective": null,
+        "noun": "attainment",
+        "verb": "attain",
+        "adjective": "attainable",
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "terrific",
-        "explanation_vi": "'Tariff' (thuế quan) không liên quan đến 'terrific' (tuyệt vời) — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+        "word_vi": "achievement",
+        "explanation_vi": "'Attainment' thường chỉ mức độ đạt được theo chuẩn đánh giá; 'achievement' mang nghĩa thành tựu cá nhân rộng hơn."
       },
       "receptive_productive": "P"
     },
     {
       "id": 3,
-      "word": "bilateral",
-      "ipa": "/ˌbaɪˈlæt.ər.əl/",
-      "pos": "adjective",
-      "meaning_vi": "song phương, hai bên",
-      "meaning_vi_inline": "song phương",
-      "example_en": "The two countries signed a bilateral trade agreement.",
-      "example_vi": "Hai quốc gia đã ký một thỏa thuận thương mại song phương.",
+      "word": "curriculum",
+      "ipa": "/kəˈrɪk.jʊ.ləm/",
+      "pos": "noun",
+      "meaning_vi": "chương trình học, chương trình giảng dạy",
+      "example_en": "The national curriculum was revised to include digital literacy skills.",
+      "example_vi": "Chương trình học quốc gia được sửa đổi để bao gồm các kỹ năng đọc viết kỹ thuật số.",
       "word_family": {
-        "noun": null,
+        "noun": "curriculum / curricula",
         "verb": null,
-        "adjective": "bilateral / multilateral / unilateral",
-        "adverb": "bilaterally"
+        "adjective": "curricular",
+        "adverb": null
       },
-      "false_friend": {
-        "word_vi": "multilateral",
-        "explanation_vi": "'Bilateral' là giữa hai bên; 'multilateral' là giữa nhiều bên — không thay thế cho nhau."
-      },
+      "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 4,
-      "word": "commodity",
-      "ipa": "/kəˈmɒd.ɪ.ti/",
+      "word": "literacy",
+      "ipa": "/ˈlɪt.ər.ə.si/",
       "pos": "noun",
-      "meaning_vi": "hàng hóa cơ bản, mặt hàng",
-      "meaning_vi_inline": "hàng hóa",
-      "example_en": "Oil is the world's most widely traded commodity.",
-      "example_vi": "Dầu mỏ là mặt hàng được giao dịch rộng rãi nhất thế giới.",
+      "meaning_vi": "năng lực đọc viết; khả năng hiểu biết (trong một lĩnh vực)",
+      "example_en": "Financial literacy is increasingly regarded as an essential life skill.",
+      "example_vi": "Năng lực tài chính ngày càng được coi là một kỹ năng sống thiết yếu.",
       "word_family": {
-        "noun": "commodity / commodities",
-        "verb": "commodify",
-        "adjective": "commoditised",
+        "noun": "literacy",
+        "verb": null,
+        "adjective": "literate / illiterate",
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "community",
-        "explanation_vi": "'Commodity' là hàng hóa; 'community' là cộng đồng — hoàn toàn khác nghĩa."
+        "word_vi": "literature",
+        "explanation_vi": "'Literacy' là khả năng đọc viết hoặc hiểu biết; 'literature' là văn học — hai từ này không thay thế cho nhau."
       },
       "receptive_productive": "P"
     },
     {
       "id": 5,
-      "word": "sovereignty",
-      "ipa": "/ˈsɒv.rɪn.ti/",
+      "word": "credential",
+      "ipa": "/krɪˈden.ʃəl/",
       "pos": "noun",
-      "meaning_vi": "chủ quyền",
-      "meaning_vi_inline": "chủ quyền",
-      "example_en": "Nations guard their sovereignty very closely.",
-      "example_vi": "Các quốc gia bảo vệ chủ quyền của mình rất chặt chẽ.",
+      "meaning_vi": "bằng cấp, chứng chỉ; thông tin xác nhận năng lực",
+      "example_en": "Employers often prioritise candidates with internationally recognised credentials.",
+      "example_vi": "Nhà tuyển dụng thường ưu tiên ứng viên có bằng cấp được công nhận quốc tế.",
       "word_family": {
-        "noun": "sovereignty",
-        "verb": null,
-        "adjective": "sovereign",
+        "noun": "credential / credentialing",
+        "verb": "credential",
+        "adjective": "credentialed",
         "adverb": null
       },
       "false_friend": null,
@@ -147,92 +139,87 @@
     },
     {
       "id": 6,
-      "word": "interdependence",
-      "ipa": "/ˌɪn.tə.dɪˈpen.dəns/",
-      "pos": "noun",
-      "meaning_vi": "sự phụ thuộc lẫn nhau",
-      "meaning_vi_inline": "phụ thuộc lẫn nhau",
-      "example_en": "Economic interdependence makes global crises more impactful.",
-      "example_vi": "Sự phụ thuộc kinh tế lẫn nhau khiến các cuộc khủng hoảng toàn cầu có tác động lớn hơn.",
+      "word": "cognitive",
+      "ipa": "/ˈkɒɡ.nɪ.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "thuộc về nhận thức, liên quan đến tư duy",
+      "example_en": "Reading widely enhances cognitive flexibility and analytical thinking.",
+      "example_vi": "Đọc sách rộng rãi nâng cao tính linh hoạt nhận thức và tư duy phân tích.",
       "word_family": {
-        "noun": "interdependence",
-        "verb": "depend",
-        "adjective": "interdependent",
-        "adverb": "interdependently"
+        "noun": "cognition",
+        "verb": null,
+        "adjective": "cognitive",
+        "adverb": "cognitively"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 7,
-      "word": "liberalisation",
-      "ipa": "/ˌlɪb.ər.əl.aɪˈzeɪ.ʃən/",
+      "word": "retention",
+      "ipa": "/rɪˈten.ʃən/",
       "pos": "noun",
-      "meaning_vi": "tự do hóa (thương mại)",
-      "meaning_vi_inline": "tự do hóa",
-      "example_en": "Trade liberalisation opened new markets for exporters.",
-      "example_vi": "Tự do hóa thương mại mở ra thị trường mới cho các nhà xuất khẩu.",
+      "meaning_vi": "khả năng ghi nhớ; sự giữ lại",
+      "example_en": "Spaced repetition is proven to improve long-term retention of vocabulary.",
+      "example_vi": "Lặp lại cách quãng được chứng minh là cải thiện khả năng ghi nhớ từ vựng lâu dài.",
       "word_family": {
-        "noun": "liberalisation / liberalism",
-        "verb": "liberalise",
-        "adjective": "liberal / liberalised",
-        "adverb": "liberally"
+        "noun": "retention",
+        "verb": "retain",
+        "adjective": "retentive",
+        "adverb": null
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
       "id": 8,
-      "word": "deficit",
-      "ipa": "/ˈdef.ɪ.sɪt/",
+      "word": "autonomy",
+      "ipa": "/ɔːˈtɒn.ə.mi/",
       "pos": "noun",
-      "meaning_vi": "thâm hụt",
-      "meaning_vi_inline": "thâm hụt",
-      "example_en": "The country has run a trade deficit for five years.",
-      "example_vi": "Đất nước đã duy trì thâm hụt thương mại trong năm năm.",
+      "meaning_vi": "sự tự chủ, tính độc lập",
+      "example_en": "Teachers who grant students more autonomy often see greater motivation and creativity.",
+      "example_vi": "Giáo viên trao cho học sinh nhiều quyền tự chủ hơn thường thấy động lực và sáng tạo cao hơn.",
       "word_family": {
-        "noun": "deficit",
+        "noun": "autonomy",
         "verb": null,
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": {
-        "word_vi": "deficiency",
-        "explanation_vi": "'Deficit' là thâm hụt tài chính/số lượng; 'deficiency' là sự thiếu hụt về chất lượng hoặc dinh dưỡng."
-      },
-      "receptive_productive": "P"
-    },
-    {
-      "id": 9,
-      "word": "surplus",
-      "ipa": "/ˈsɜː.pləs/",
-      "pos": "noun",
-      "meaning_vi": "thặng dư, dư thừa",
-      "meaning_vi_inline": "thặng dư",
-      "example_en": "Germany has maintained a large trade surplus for years.",
-      "example_vi": "Đức đã duy trì thặng dư thương mại lớn trong nhiều năm.",
-      "word_family": {
-        "noun": "surplus",
-        "verb": null,
-        "adjective": "surplus",
-        "adverb": null
+        "adjective": "autonomous",
+        "adverb": "autonomously"
       },
       "false_friend": null,
       "receptive_productive": "P"
     },
     {
-      "id": 10,
-      "word": "protectionism",
-      "ipa": "/prəˈtek.ʃən.ɪ.z(ə)m/",
+      "id": 9,
+      "word": "disparity",
+      "ipa": "/dɪˈspær.ɪ.ti/",
       "pos": "noun",
-      "meaning_vi": "chủ nghĩa bảo hộ",
-      "meaning_vi_inline": "bảo hộ thương mại",
-      "example_en": "Protectionism may shield local industries but raises consumer prices.",
-      "example_vi": "Chủ nghĩa bảo hộ có thể bảo vệ ngành nội địa nhưng làm tăng giá tiêu dùng.",
+      "meaning_vi": "sự bất bình đẳng, sự chênh lệch đáng kể",
+      "example_en": "There is a stark disparity in educational resources between urban and rural schools.",
+      "example_vi": "Có sự chênh lệch rõ rệt về nguồn lực giáo dục giữa các trường thành thị và nông thôn.",
       "word_family": {
-        "noun": "protectionism / protectionist",
-        "verb": "protect",
-        "adjective": "protectionist / protective",
+        "noun": "disparity",
+        "verb": null,
+        "adjective": "disparate",
+        "adverb": "disparately"
+      },
+      "false_friend": {
+        "word_vi": "inequality",
+        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch cụ thể, đo lường được; 'inequality' là khái niệm bất bình đẳng rộng hơn."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "meritocracy",
+      "ipa": "/ˌmer.ɪˈtɒk.rə.si/",
+      "pos": "noun",
+      "meaning_vi": "chế độ trọng tài năng, xã hội đề cao năng lực",
+      "example_en": "Critics argue that meritocracy is a myth when access to education is unequal.",
+      "example_vi": "Các nhà phê bình cho rằng chế độ trọng tài năng là một huyền thoại khi khả năng tiếp cận giáo dục không bình đẳng.",
+      "word_family": {
+        "noun": "meritocracy / meritocrat",
+        "verb": null,
+        "adjective": "meritocratic",
         "adverb": null
       },
       "false_friend": null,
@@ -240,98 +227,47 @@
     },
     {
       "id": 11,
-      "word": "sanction",
-      "ipa": "/ˈsæŋk.ʃən/",
-      "pos": "noun",
-      "meaning_vi": "lệnh trừng phạt, biện pháp chế tài",
-      "meaning_vi_inline": "trừng phạt",
-      "example_en": "Economic sanctions were imposed to pressure the government.",
-      "example_vi": "Các biện pháp trừng phạt kinh tế được áp đặt để gây sức ép lên chính phủ.",
-      "word_family": {
-        "noun": "sanction",
-        "verb": "sanction",
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": {
-        "word_vi": "sanction (chấp thuận)",
-        "explanation_vi": "'Sanction' có hai nghĩa đối lập: (1) lệnh trừng phạt và (2) sự chấp thuận chính thức — cần xem văn cảnh để phân biệt."
-      },
+      "type": "collocation",
+      "collocation": "close the attainment gap",
+      "meaning_vi": "thu hẹp khoảng cách thành tích (học tập)",
+      "example_en": "Governments must invest in early education to close the attainment gap between rich and poor.",
+      "example_vi": "Các chính phủ phải đầu tư vào giáo dục sớm để thu hẹp khoảng cách thành tích giữa người giàu và người nghèo.",
       "receptive_productive": "P"
     },
     {
       "id": 12,
-      "word": "emerging",
-      "ipa": "/ɪˈmɜː.dʒɪŋ/",
-      "pos": "adjective",
-      "meaning_vi": "mới nổi",
-      "meaning_vi_inline": "mới nổi",
-      "example_en": "Emerging markets in Asia attract billions in investment.",
-      "example_vi": "Các thị trường mới nổi ở châu Á thu hút hàng tỷ đô la đầu tư.",
-      "word_family": {
-        "noun": "emergence",
-        "verb": "emerge",
-        "adjective": "emerging / emergent",
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "foster independent thinking",
+      "meaning_vi": "nuôi dưỡng tư duy độc lập",
+      "example_en": "Good teachers use open-ended questions to foster independent thinking in their students.",
+      "example_vi": "Giáo viên giỏi dùng câu hỏi mở để nuôi dưỡng tư duy độc lập ở học sinh của họ.",
       "receptive_productive": "P"
     },
     {
       "id": 13,
-      "word": "treaty",
-      "ipa": "/ˈtriː.ti/",
-      "pos": "noun",
-      "meaning_vi": "hiệp ước",
-      "meaning_vi_inline": "hiệp ước",
-      "example_en": "The two nations signed a free trade treaty.",
-      "example_vi": "Hai quốc gia đã ký một hiệp ước thương mại tự do.",
-      "word_family": {
-        "noun": "treaty",
-        "verb": null,
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "widen access to higher education",
+      "meaning_vi": "mở rộng khả năng tiếp cận giáo dục đại học",
+      "example_en": "Online learning platforms have helped widen access to higher education in remote communities.",
+      "example_vi": "Các nền tảng học trực tuyến đã giúp mở rộng khả năng tiếp cận giáo dục đại học ở các cộng đồng vùng sâu vùng xa.",
       "receptive_productive": "P"
     },
     {
       "id": 14,
-      "word": "export",
-      "ipa": "n: /ˈek.spɔːt/ · v: /ɪkˈspɔːt/",
-      "pos": "noun / verb",
-      "meaning_vi": "xuất khẩu",
-      "meaning_vi_inline": "xuất khẩu",
-      "example_en": "The country's main exports are oil and gas.",
-      "example_vi": "Các mặt hàng xuất khẩu chính của đất nước là dầu mỏ và khí đốt.",
-      "word_family": {
-        "noun": "export / exporter",
-        "verb": "export",
-        "adjective": "exportable",
-        "adverb": null
-      },
-      "false_friend": null,
+      "type": "collocation",
+      "collocation": "promote lifelong learning",
+      "meaning_vi": "thúc đẩy học tập suốt đời",
+      "example_en": "Public libraries play a vital role in promoting lifelong learning across all age groups.",
+      "example_vi": "Thư viện công cộng đóng vai trò quan trọng trong việc thúc đẩy học tập suốt đời ở mọi lứa tuổi.",
       "receptive_productive": "P"
     },
     {
       "id": 15,
-      "word": "regime",
-      "ipa": "/reɪˈʒiːm/",
-      "pos": "noun",
-      "meaning_vi": "chế độ; cơ chế, hệ thống",
-      "meaning_vi_inline": "cơ chế",
-      "example_en": "The WTO oversees the international trade regime.",
-      "example_vi": "WTO giám sát cơ chế thương mại quốc tế.",
-      "word_family": {
-        "noun": "regime",
-        "verb": null,
-        "adjective": null,
-        "adverb": null
-      },
-      "false_friend": {
-        "word_vi": "region",
-        "explanation_vi": "'Regime' là chế độ hoặc cơ chế; 'region' là vùng địa lý — phát âm và nghĩa đều khác nhau."
-      },
+      "type": "collocation",
+      "collocation": "challenge elitist structures",
+      "meaning_vi": "thách thức những cấu trúc tinh hoa, đặt câu hỏi về hệ thống thiên vị tầng lớp trên",
+      "example_en": "Student movements have long sought to challenge elitist structures that favour the privileged few.",
+      "example_vi": "Các phong trào sinh viên từ lâu đã tìm cách thách thức những cấu trúc tinh hoa có lợi cho thiểu số đặc quyền.",
       "receptive_productive": "P"
     }
   ],
@@ -343,27 +279,27 @@
       "items": [
         {
           "id": 1,
-          "statement": "Bilateral treaties between nations are designed to reduce tariffs and encourage trade.",
+          "statement": "The passage argues that standardised testing may prioritise conformity over genuine intellectual development.",
           "answer": "True"
         },
         {
           "id": 2,
-          "statement": "Southeast Asian nations have benefited primarily from the services sector.",
-          "answer": "Not Given"
+          "statement": "The passage states that online learning platforms have fully solved the problem of educational inequality.",
+          "answer": "False"
         },
         {
           "id": 3,
-          "statement": "Countries with persistent trade deficits face economic vulnerabilities.",
+          "statement": "Socioeconomic background is identified as a strong predictor of academic success.",
           "answer": "True"
         },
         {
           "id": 4,
-          "statement": "The WTO has recently introduced significant reforms to its trade rules.",
+          "statement": "The passage recommends a specific government budget for early childhood nutrition programmes.",
           "answer": "Not Given"
         },
         {
           "id": 5,
-          "statement": "Countries with large trade surpluses are sometimes accused of protectionist behaviour.",
+          "statement": "According to the passage, the ability to question and connect ideas is more valuable than knowledge retention alone.",
           "answer": "True"
         }
       ]
@@ -374,96 +310,97 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The government signed a _____ agreement with its neighbour to eliminate import duties.",
+          "sentence": "The school reformed its _____ to place greater emphasis on critical thinking and project-based learning.",
           "options": [
-            "bilateral",
-            "surplus",
-            "deficit",
-            "commodity"
+            "curriculum",
+            "retention",
+            "disparity",
+            "attainment"
           ],
-          "answer": "bilateral"
+          "answer": "curriculum"
         },
         {
           "id": 2,
-          "sentence": "Running a large trade _____ means a country imports significantly more than it exports.",
+          "sentence": "Students from low-income families often face a significant _____ in academic outcomes compared to wealthier peers.",
           "options": [
-            "surplus",
-            "deficit",
-            "regime",
-            "sanction"
+            "autonomy",
+            "meritocracy",
+            "disparity",
+            "credential"
           ],
-          "answer": "deficit"
+          "answer": "disparity"
         },
         {
           "id": 3,
-          "sentence": "Coffee and cocoa are major agricultural _____ in many developing economies.",
+          "sentence": "Without a recognised _____, many graduates struggle to enter competitive professional fields.",
           "options": [
-            "regimes",
-            "treaties",
-            "commodities",
-            "tariffs"
+            "pedagogy",
+            "literacy",
+            "retention",
+            "credential"
           ],
-          "answer": "commodities"
+          "answer": "credential"
         },
         {
           "id": 4,
-          "sentence": "Economic _____ between nations means a crisis in one country can affect many others.",
+          "sentence": "The professor's _____ approach encouraged students to discover answers through guided inquiry rather than direct instruction.",
           "options": [
-            "liberalisation",
-            "protectionism",
-            "interdependence",
-            "sovereignty"
+            "cognitive",
+            "pedagogical",
+            "autonomous",
+            "literate"
           ],
-          "answer": "interdependence"
+          "answer": "pedagogical"
         },
         {
           "id": 5,
-          "sentence": "The international community imposed _____ on the country to halt its nuclear programme.",
+          "sentence": "A healthy democracy depends on high levels of civic _____ among the general population.",
           "options": [
-            "tariffs",
-            "treaties",
-            "surpluses",
-            "sanctions"
+            "attainment",
+            "disparity",
+            "autonomy",
+            "literacy"
           ],
-          "answer": "sanctions"
+          "answer": "literacy"
         }
       ]
     },
     "ex3_gap_fill": {
       "type": "E4",
-      "instruction": "Fill in the blanks with the correct word from the box.",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
       "word_bank": [
-        "emerging",
-        "treaty",
-        "deficit",
-        "surplus",
-        "regime"
+        "autonomy",
+        "retention",
+        "meritocracy",
+        "cognitive",
+        "attainment",
+        "pedagogy"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "Vietnam is considered an _____ economy that has grown rapidly through manufacturing exports.",
-          "answer": "emerging"
+          "sentence": "The teacher's _____ was shaped by years of experience working with diverse learner groups.",
+          "answer": "pedagogy"
         },
         {
           "id": 2,
-          "sentence": "The two nations signed a free trade _____ that eliminated tariffs on most goods.",
-          "answer": "treaty"
+          "sentence": "Spaced practice and retrieval exercises significantly improve the _____ of new vocabulary.",
+          "answer": "retention"
         },
         {
           "id": 3,
-          "sentence": "The country's persistent trade _____ has weakened its currency and drained its reserves.",
-          "answer": "deficit"
+          "sentence": "Bilingual education is believed to offer _____ benefits, including improved problem-solving and multitasking.",
+          "answer": "cognitive"
         },
         {
           "id": 4,
-          "sentence": "Nations with a large trade _____ often reinvest their earnings in foreign assets.",
-          "answer": "surplus"
+          "sentence": "Allowing students to choose their own research topics builds _____ and a sense of ownership over learning.",
+          "answer": "autonomy"
         },
         {
           "id": 5,
-          "sentence": "The international trade _____ is primarily governed by the World Trade Organisation.",
-          "answer": "regime"
+          "sentence": "A genuine _____ rewards talent and effort regardless of a student's family background.",
+          "answer": "meritocracy"
         }
       ]
     },
@@ -474,143 +411,138 @@
         {
           "id": 1,
           "words": [
-            "globalisation",
-            "has",
-            "the",
-            "of",
-            "fundamentally",
-            "world",
-            "transformed",
-            "economies",
-            "integration"
+            "standardised",
+            "testing",
+            "can",
+            "critical",
+            "stifle",
+            "and",
+            "thinking",
+            "creativity"
           ],
-          "answer": "Globalisation has fundamentally transformed the integration of world economies."
+          "answer": "Standardised testing can stifle critical thinking and creativity."
         },
         {
           "id": 2,
           "words": [
-            "bilateral",
-            "reduce",
-            "tariffs",
-            "help",
-            "treaties",
+            "policies",
+            "are",
+            "needed",
+            "attainment",
             "to",
-            "between",
-            "partners",
-            "trading"
+            "gap",
+            "the",
+            "close"
           ],
-          "answer": "Bilateral treaties help to reduce tariffs between trading partners."
+          "answer": "Policies are needed to close the attainment gap."
         },
         {
           "id": 3,
           "words": [
-            "a",
-            "trade",
-            "deficit",
-            "occurs",
-            "when",
-            "imports",
-            "exports",
-            "exceed"
+            "literacy",
+            "underpins",
+            "all",
+            "other",
+            "forms",
+            "of",
+            "learning"
           ],
-          "answer": "A trade deficit occurs when imports exceed exports."
+          "answer": "Literacy underpins all other forms of learning."
         },
         {
           "id": 4,
           "words": [
-            "were",
-            "imposed",
-            "sanctions",
-            "trading",
-            "the",
-            "on",
-            "partner",
-            "unfair",
-            "for",
-            "practices"
+            "students",
+            "greater",
+            "develop",
+            "when",
+            "autonomy",
+            "they",
+            "are",
+            "granted"
           ],
-          "answer": "Sanctions were imposed on the trading partner for unfair practices."
+          "answer": "Students develop greater autonomy when they are granted it."
         },
         {
           "id": 5,
           "words": [
-            "between",
-            "interdependence",
-            "nations",
-            "has",
-            "grown",
-            "significantly",
-            "the",
-            "since",
-            "1990s"
+            "true",
+            "depends",
+            "on",
+            "equal",
+            "opportunity",
+            "meritocracy",
+            "a",
+            "for",
+            "all"
           ],
-          "answer": "Interdependence between nations has grown significantly since the 1990s."
+          "answer": "A true meritocracy depends on equal opportunity for all."
         }
       ]
     },
     "ex5_error_fix": {
       "type": "E8",
-      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
       "items": [
         {
           "id": 1,
-          "sentence": "The two countries signed a [bilateral's] trade agreement last year.",
-          "highlighted": "bilateral's",
+          "sentence": "The school redesigned its [curriculums] to better reflect twenty-first century skills.",
+          "highlighted": "curriculums",
           "options": {
-            "A": "bilateral's",
-            "B": "bilateral",
-            "C": "bilaterally"
+            "A": "curriculums",
+            "B": "curricular",
+            "C": "curriculum"
           },
-          "answer": "B",
-          "explanation": "'Bilateral' is an adjective modifying 'trade agreement' — no possessive apostrophe is needed."
+          "answer": "C",
+          "explanation": "The standard plural of 'curriculum' is 'curricula'; as a singular noun here, 'curriculum' is correct — 'curriculums' is non-standard."
         },
         {
           "id": 2,
-          "sentence": "Many [emergence] economies rely heavily on commodity exports for growth.",
-          "highlighted": "emergence",
+          "sentence": "Students with greater [autonomous] over their studies tend to be more motivated learners.",
+          "highlighted": "autonomous",
           "options": {
-            "A": "emerging",
-            "B": "emergence",
-            "C": "emerged"
+            "A": "autonomy",
+            "B": "autonomous",
+            "C": "automatically"
           },
-          "answer": "C",
-          "explanation": "'Emerging' is the standard adjective form — 'emergence' is a noun and cannot modify a noun directly."
+          "answer": "A",
+          "explanation": "A noun is required after 'greater' — 'autonomy', not the adjective 'autonomous'."
         },
         {
           "id": 3,
-          "sentence": "Running a large trade [deficit's] can weaken a country's currency significantly.",
-          "highlighted": "deficit's",
+          "sentence": "There is a deep [disparate] in educational funding between wealthy and deprived areas.",
+          "highlighted": "disparate",
           "options": {
-            "A": "deficit's",
-            "B": "deficit",
-            "C": "deficits"
+            "A": "disparately",
+            "B": "disparity",
+            "C": "disparate"
           },
           "answer": "B",
-          "explanation": "'Deficit' is the grammatical subject here — no possessive apostrophe is needed."
+          "explanation": "'Disparity' is the noun needed after the article 'a'; 'disparate' is an adjective and cannot follow 'a' as a noun head."
         },
         {
           "id": 4,
-          "sentence": "Economic [interdependent] between nations has increased dramatically in recent decades.",
-          "highlighted": "interdependent",
+          "sentence": "Neuroscientists study the [cognition] processes involved in language acquisition.",
+          "highlighted": "cognition",
           "options": {
-            "A": "interdependent",
-            "B": "interdependence",
-            "C": "independently"
+            "A": "cognitive",
+            "B": "cognition",
+            "C": "cognitively"
           },
-          "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'interdependence', not the adjective 'interdependent'."
+          "answer": "A",
+          "explanation": "An adjective is needed to modify the noun 'processes' — 'cognitive', not the noun 'cognition'."
         },
         {
           "id": 5,
-          "sentence": "The government imposed [economical] sanctions on the country following the trade dispute.",
-          "highlighted": "economical",
+          "sentence": "The university launched a scheme to [wide] access to higher education for disadvantaged students.",
+          "highlighted": "wide",
           "options": {
-            "A": "economic",
-            "B": "economical",
-            "C": "economics"
+            "A": "widely",
+            "B": "wide",
+            "C": "widen"
           },
           "answer": "C",
-          "explanation": "'Economic' means relating to the economy; 'economical' means cost-saving or thrifty — they are not interchangeable."
+          "explanation": "'Widen' is the verb needed in this infinitive phrase ('to widen access'); 'wide' is an adjective and cannot function as a verb."
         }
       ]
     }
@@ -618,38 +550,38 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "Not Given",
+      "2": "False",
       "3": "True",
       "4": "Not Given",
       "5": "True"
     },
     "ex2": {
-      "1": "bilateral",
-      "2": "deficit",
-      "3": "commodities",
-      "4": "interdependence",
-      "5": "sanctions"
+      "1": "curriculum",
+      "2": "disparity",
+      "3": "credential",
+      "4": "pedagogical",
+      "5": "literacy"
     },
     "ex3": {
-      "1": "emerging",
-      "2": "treaty",
-      "3": "deficit",
-      "4": "surplus",
-      "5": "regime"
+      "1": "pedagogy",
+      "2": "retention",
+      "3": "cognitive",
+      "4": "autonomy",
+      "5": "meritocracy"
     },
     "ex4": {
-      "1": "Globalisation has fundamentally transformed the integration of world economies.",
-      "2": "Bilateral treaties help to reduce tariffs between trading partners.",
-      "3": "A trade deficit occurs when imports exceed exports.",
-      "4": "Sanctions were imposed on the trading partner for unfair practices.",
-      "5": "Interdependence between nations has grown significantly since the 1990s."
+      "1": "Standardised testing can stifle critical thinking and creativity.",
+      "2": "Policies are needed to close the attainment gap.",
+      "3": "Literacy underpins all other forms of learning.",
+      "4": "Students develop greater autonomy when they are granted it.",
+      "5": "A true meritocracy depends on equal opportunity for all."
     },
     "ex5": {
-      "1": "B",
+      "1": "C",
       "2": "A",
       "3": "B",
-      "4": "B",
-      "5": "A"
+      "4": "A",
+      "5": "C"
     }
   }
 }

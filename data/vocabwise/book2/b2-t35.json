@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 35,
+    "topic_id": "b2-t35",
+    "topic_title": "Languages Around the World",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌐",
+    "topic_title_vi": "Ngôn Ngữ Khắp Thế Giới",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 216,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The world is home to over 7,000 languages, making human communication one of the most remarkably **diverse** aspects of our species. However, this diversity is under serious threat. A **dying language** is one with very few remaining speakers, typically elderly people who did not pass it to younger generations. Linguists estimate that almost half of all the world's languages may become **extinct** — no longer spoken by anyone — within the next hundred years.",
+        "text_vi": "Thế giới có hơn 7.000 ngôn ngữ, khiến giao tiếp của con người trở thành một trong những khía cạnh **đa dạng** đáng kinh ngạc nhất của loài người chúng ta. Tuy nhiên, sự đa dạng này đang bị đe dọa nghiêm trọng. Một **ngôn ngữ đang tàn lụi** là ngôn ngữ có rất ít người nói còn lại, thường là người cao tuổi và không truyền lại cho thế hệ trẻ. Các nhà ngôn ngữ học ước tính rằng gần một nửa tất cả ngôn ngữ trên thế giới có thể trở nên **tuyệt chủng** — không còn ai nói — trong vòng một trăm năm tới."
+      },
+      {
+        "index": 2,
+        "text_en": "One reason languages disappear is economic pressure: people choose to **speak well** in a dominant language — one that gives access to education and employment — rather than maintain a minority tongue. Languages naturally **evolve** over time, absorbing new words and structures from other languages. This evolution is healthy, but rapid language shift — when communities switch entirely to a dominant language within just two or three generations — puts minority languages at serious risk.",
+        "text_vi": "Một lý do khiến ngôn ngữ biến mất là áp lực kinh tế: mọi người chọn **nói thành thạo** một ngôn ngữ chiếm ưu thế — ngôn ngữ mang lại cơ hội giáo dục và việc làm — thay vì duy trì tiếng mẹ đẻ thiểu số. Ngôn ngữ tự nhiên **phát triển** theo thời gian, tiếp thu các từ mới và cấu trúc từ các ngôn ngữ khác. Sự tiến hóa này là lành mạnh, nhưng sự chuyển đổi ngôn ngữ nhanh chóng — khi cộng đồng chuyển hoàn toàn sang ngôn ngữ chiếm ưu thế chỉ trong hai hoặc ba thế hệ — đặt các ngôn ngữ thiểu số vào nguy cơ nghiêm trọng."
+      },
+      {
+        "index": 3,
+        "text_en": "Many countries now make efforts to **preserve** endangered languages through schools, media, and community programmes. Being **multilingual** — able to use more than **two languages** fluently — is highly valued in today's globalised world. People who grow up in **two languages** — bilingual families or communities — often find it easier to **pick up** additional languages later in life, as their brains are already trained to switch between systems.",
+        "text_vi": "Nhiều quốc gia nay nỗ lực **bảo tồn** các ngôn ngữ có nguy cơ tuyệt chủng thông qua trường học, truyền thông và các chương trình cộng đồng. Có khả năng **đa ngôn ngữ** — sử dụng thành thạo hơn **hai ngôn ngữ** — rất được đánh giá cao trong thế giới toàn cầu hóa ngày nay. Những người lớn lên với **hai ngôn ngữ** — gia đình hoặc cộng đồng song ngữ — thường thấy dễ dàng hơn để **tiếp thu** thêm ngôn ngữ về sau, vì não của họ đã được rèn luyện để chuyển đổi giữa các hệ thống."
+      },
+      {
+        "index": 4,
+        "text_en": "Languages also vary within themselves: every language has multiple **accent**s and **local accent**s — the distinct ways that people in a particular place pronounce the language. A speaker's **accent** can signal where they come from and can affect how they are perceived. Many countries also have an **official** language — one formally designated by the government for use in law, education, and public administration. The ability to **translate** between languages is a valuable professional skill that helps bridge cultural and linguistic divides.",
+        "text_vi": "Ngôn ngữ cũng thay đổi bên trong chính nó: mỗi ngôn ngữ có nhiều **giọng** và **giọng địa phương** — những cách riêng biệt mà người ở một nơi cụ thể phát âm ngôn ngữ đó. **Giọng** của người nói có thể cho biết họ đến từ đâu và ảnh hưởng đến cách họ được nhìn nhận. Nhiều quốc gia cũng có một ngôn ngữ **chính thức** — được chính phủ chỉ định chính thức để sử dụng trong luật pháp, giáo dục và hành chính công. Khả năng **dịch** giữa các ngôn ngữ là một kỹ năng nghề nghiệp có giá trị giúp thu hẹp khoảng cách văn hóa và ngôn ngữ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "two languages",
+      "ipa": "/tuː ˈlæŋ.ɡwɪdʒɪz/",
+      "pos": "noun phrase",
+      "meaning_vi": "hai ngôn ngữ (song ngữ / bilingual)",
+      "meaning_vi_inline": "hai ngôn ngữ, song ngữ",
+      "example_en": "Children who grow up speaking two languages tend to have better cognitive flexibility.",
+      "example_vi": "Trẻ em lớn lên với hai ngôn ngữ có xu hướng linh hoạt nhận thức tốt hơn.",
+      "word_family": {
+        "noun": "bilingualism",
+        "verb": null,
+        "adjective": "bilingual",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "accent",
+      "ipa": "/ˈæk.sənt/",
+      "pos": "noun",
+      "meaning_vi": "giọng (khi nói một ngôn ngữ)",
+      "meaning_vi_inline": "giọng nói",
+      "example_en": "She speaks English perfectly, but her French accent is immediately noticeable.",
+      "example_vi": "Cô ấy nói tiếng Anh hoàn hảo, nhưng giọng Pháp của cô ấy rất dễ nhận ra ngay lập tức.",
+      "word_family": {
+        "noun": "accent",
+        "verb": "accentuate",
+        "adjective": "accented",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "dialect",
+        "explanation_vi": "Một 'accent' chỉ cách phát âm khác nhau của cùng một ngôn ngữ; một 'dialect' là một biến thể của ngôn ngữ có cả từ vựng, ngữ pháp và phát âm khác — rộng hơn nhiều so với accent."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "translate",
+      "ipa": "/trænsˈleɪt/",
+      "pos": "verb",
+      "meaning_vi": "dịch (ngôn ngữ)",
+      "meaning_vi_inline": "dịch",
+      "example_en": "The document needs to be translated from Vietnamese into English before the meeting.",
+      "example_vi": "Tài liệu cần được dịch từ tiếng Việt sang tiếng Anh trước cuộc họp.",
+      "word_family": {
+        "noun": "translation / translator",
+        "verb": "translate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "native",
+      "ipa": "/ˈneɪ.tɪv/",
+      "pos": "adjective / noun",
+      "meaning_vi": "bản ngữ (tiếng mẹ đẻ); người bản địa",
+      "meaning_vi_inline": "bản ngữ, tiếng mẹ đẻ",
+      "example_en": "There are approximately 400 million native English speakers in the world today.",
+      "example_vi": "Hiện có khoảng 400 triệu người nói tiếng Anh bản ngữ trên thế giới.",
+      "word_family": {
+        "noun": "native / native speaker",
+        "verb": null,
+        "adjective": "native",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "extinct",
+      "ipa": "/ɪkˈstɪŋkt/",
+      "pos": "adjective",
+      "meaning_vi": "tuyệt chủng (ngôn ngữ hoặc loài không còn tồn tại)",
+      "meaning_vi_inline": "tuyệt chủng, không còn tồn tại",
+      "example_en": "Latin is sometimes described as an extinct language, though it lives on in scientific and legal terminology.",
+      "example_vi": "Tiếng Latin đôi khi được mô tả là ngôn ngữ đã tuyệt chủng, dù nó vẫn tồn tại trong thuật ngữ khoa học và pháp lý.",
+      "word_family": {
+        "noun": "extinction",
+        "verb": "become extinct",
+        "adjective": "extinct",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "evolve",
+      "ipa": "/ɪˈvɒlv/",
+      "pos": "verb",
+      "meaning_vi": "phát triển, tiến hóa (ngôn ngữ thay đổi theo thời gian)",
+      "meaning_vi_inline": "phát triển, tiến hóa",
+      "example_en": "English has evolved enormously over the past 500 years, borrowing from French, Latin, and many other languages.",
+      "example_vi": "Tiếng Anh đã phát triển rất nhiều trong 500 năm qua, vay mượn từ tiếng Pháp, Latin và nhiều ngôn ngữ khác.",
+      "word_family": {
+        "noun": "evolution",
+        "verb": "evolve",
+        "adjective": "evolved / evolutionary",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "diverse",
+      "ipa": "/daɪˈvɜːs/",
+      "pos": "adjective",
+      "meaning_vi": "đa dạng",
+      "meaning_vi_inline": "đa dạng",
+      "example_en": "Vietnam is a linguistically diverse country with over 50 different ethnic languages.",
+      "example_vi": "Việt Nam là một quốc gia đa dạng về ngôn ngữ với hơn 50 ngôn ngữ dân tộc khác nhau.",
+      "word_family": {
+        "noun": "diversity",
+        "verb": "diversify",
+        "adjective": "diverse",
+        "adverb": "diversely"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "preserve",
+      "ipa": "/prɪˈzɜːv/",
+      "pos": "verb",
+      "meaning_vi": "bảo tồn (ngôn ngữ, di sản văn hóa)",
+      "meaning_vi_inline": "bảo tồn",
+      "example_en": "Community radio stations help preserve local languages by broadcasting in minority tongues.",
+      "example_vi": "Các đài phát thanh cộng đồng giúp bảo tồn các ngôn ngữ địa phương bằng cách phát sóng bằng các tiếng thiểu số.",
+      "word_family": {
+        "noun": "preservation",
+        "verb": "preserve",
+        "adjective": "preserved",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "communicate",
+      "ipa": "/kəˈmjuː.nɪ.keɪt/",
+      "pos": "verb",
+      "meaning_vi": "giao tiếp, truyền đạt",
+      "meaning_vi_inline": "giao tiếp",
+      "example_en": "Music and art allow people to communicate ideas and emotions that words cannot always express.",
+      "example_vi": "Âm nhạc và nghệ thuật cho phép mọi người giao tiếp những ý tưởng và cảm xúc mà đôi khi lời nói không thể diễn đạt.",
+      "word_family": {
+        "noun": "communication / communicator",
+        "verb": "communicate",
+        "adjective": "communicative",
+        "adverb": "communicatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "speak well",
+      "ipa": "/spiːk wel/",
+      "pos": "verb phrase",
+      "meaning_vi": "nói thành thạo, nói tốt (một ngôn ngữ)",
+      "meaning_vi_inline": "nói thành thạo",
+      "example_en": "She worked hard to speak well in English so she could study abroad.",
+      "example_vi": "Cô ấy nỗ lực để nói tiếng Anh thành thạo để có thể du học nước ngoài.",
+      "word_family": {
+        "noun": "fluency",
+        "verb": "speak / speak well / speak fluently",
+        "adjective": "fluent",
+        "adverb": "fluently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "official",
+      "ipa": "/əˈfɪʃ.əl/",
+      "pos": "adjective",
+      "meaning_vi": "chính thức (ngôn ngữ được chính phủ công nhận)",
+      "meaning_vi_inline": "chính thức",
+      "example_en": "Singapore has four official languages: English, Malay, Mandarin, and Tamil.",
+      "example_vi": "Singapore có bốn ngôn ngữ chính thức: tiếng Anh, Malay, Phổ thông Hoa và Tamil.",
+      "word_family": {
+        "noun": "official / official status",
+        "verb": null,
+        "adjective": "official / unofficial",
+        "adverb": "officially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "dying language",
+      "ipa": "/ˈdaɪ.ɪŋ ˈlæŋ.ɡwɪdʒ/",
+      "pos": "noun phrase",
+      "meaning_vi": "ngôn ngữ đang tàn lụi, ngôn ngữ có nguy cơ biến mất",
+      "meaning_vi_inline": "ngôn ngữ đang tàn lụi",
+      "example_en": "Linguists are racing to document dying languages before the last speakers pass away.",
+      "example_vi": "Các nhà ngôn ngữ học đang gấp rút ghi lại các ngôn ngữ đang tàn lụi trước khi những người nói cuối cùng qua đời.",
+      "word_family": {
+        "noun": "dying language / endangered language",
+        "verb": "die out",
+        "adjective": "dying / endangered",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "pick up",
+      "ipa": "/pɪk ʌp/",
+      "pos": "phrasal verb",
+      "meaning_vi": "học lượm, tiếp thu (ngôn ngữ một cách tự nhiên)",
+      "meaning_vi_inline": "tiếp thu, học tự nhiên",
+      "example_en": "Children who move abroad often pick up the local language within just a few months.",
+      "example_vi": "Trẻ em chuyển ra nước ngoài thường tiếp thu ngôn ngữ địa phương chỉ trong vài tháng.",
+      "word_family": {
+        "noun": null,
+        "verb": "pick up",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "multilingual",
+      "ipa": "/ˌmʌl.tiˈlɪŋ.ɡwəl/",
+      "pos": "adjective",
+      "meaning_vi": "đa ngôn ngữ (biết nhiều ngôn ngữ)",
+      "meaning_vi_inline": "đa ngôn ngữ",
+      "example_en": "Being multilingual is a significant advantage in international business careers.",
+      "example_vi": "Biết nhiều ngôn ngữ là một lợi thế đáng kể trong sự nghiệp kinh doanh quốc tế.",
+      "word_family": {
+        "noun": "multilingualism",
+        "verb": null,
+        "adjective": "multilingual / bilingual / monolingual",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "bilingual",
+        "explanation_vi": "'Multilingual' có nghĩa biết nhiều hơn hai ngôn ngữ; 'bilingual' chính xác hơn là biết hai ngôn ngữ; 'monolingual' là chỉ biết một ngôn ngữ."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "local accent",
+      "ipa": "/ˈləʊ.kəl ˈæk.sənt/",
+      "pos": "noun phrase",
+      "meaning_vi": "giọng địa phương, giọng vùng miền",
+      "meaning_vi_inline": "giọng địa phương",
+      "example_en": "His strong local accent makes it clear that he grew up in the north of England.",
+      "example_vi": "Giọng địa phương đậm đặc của anh ấy cho thấy rõ anh lớn lên ở miền bắc nước Anh.",
+      "word_family": {
+        "noun": "local accent / regional accent",
+        "verb": null,
+        "adjective": "local / regional",
+        "adverb": "locally"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "Almost half of the world's languages may become extinct within the next hundred years.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that languages always disappear because younger people choose not to speak them.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "Economic pressure can cause people to abandon their minority language for a dominant one.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "People who grow up speaking two languages are always better at school than those who speak only one.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 5,
+          "statement": "A speaker's accent can never affect how other people perceive them.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She was able to _____ the contract from French into Vietnamese in just two hours.",
+          "options": [
+            "evolve",
+            "communicate",
+            "translate",
+            "preserve"
+          ],
+          "answer": "translate"
+        },
+        {
+          "id": 2,
+          "sentence": "Children who move abroad often _____ the local language surprisingly quickly.",
+          "options": [
+            "evolve",
+            "speak well",
+            "pick up",
+            "communicate"
+          ],
+          "answer": "pick up"
+        },
+        {
+          "id": 3,
+          "sentence": "The government declared English as the country's only _____ language for use in schools and courts.",
+          "options": [
+            "diverse",
+            "extinct",
+            "native",
+            "official"
+          ],
+          "answer": "official"
+        },
+        {
+          "id": 4,
+          "sentence": "Being _____ — speaking four languages fluently — gives him a huge advantage in his diplomatic career.",
+          "options": [
+            "diverse",
+            "official",
+            "multilingual",
+            "native"
+          ],
+          "answer": "multilingual"
+        },
+        {
+          "id": 5,
+          "sentence": "Linguists are working hard to document _____ before the last remaining speakers pass away.",
+          "options": [
+            "native accents",
+            "dying languages",
+            "local dialects",
+            "official languages"
+          ],
+          "answer": "dying languages"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "accent",
+        "extinct",
+        "evolve",
+        "diverse",
+        "preserve"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Her strong southern _____ immediately revealed where she had grown up.",
+          "answer": "accent"
+        },
+        {
+          "id": 2,
+          "sentence": "Scientists fear that over 3,000 languages could become _____ by the end of this century.",
+          "answer": "extinct"
+        },
+        {
+          "id": 3,
+          "sentence": "Languages naturally _____ over time, borrowing words and structures from neighbouring languages.",
+          "answer": "evolve"
+        },
+        {
+          "id": 4,
+          "sentence": "Vietnam is linguistically _____, with over 50 minority languages spoken across the country.",
+          "answer": "diverse"
+        },
+        {
+          "id": 5,
+          "sentence": "Community groups are working to _____ the local language by teaching it in schools.",
+          "answer": "preserve"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "children",
+            "who",
+            "grow",
+            "up",
+            "speaking",
+            "two",
+            "languages",
+            "often",
+            "find",
+            "it",
+            "easier",
+            "to",
+            "learn",
+            "a",
+            "third"
+          ],
+          "answer": "Children who grow up speaking two languages often find it easier to learn a third."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "government",
+            "introduced",
+            "programmes",
+            "to",
+            "preserve",
+            "dying",
+            "languages",
+            "in",
+            "the",
+            "region"
+          ],
+          "answer": "The government introduced programmes to preserve dying languages in the region."
+        },
+        {
+          "id": 3,
+          "words": [
+            "being",
+            "multilingual",
+            "is",
+            "a",
+            "significant",
+            "advantage",
+            "in",
+            "today's",
+            "globalised",
+            "job",
+            "market"
+          ],
+          "answer": "Being multilingual is a significant advantage in today's globalised job market."
+        },
+        {
+          "id": 4,
+          "words": [
+            "his",
+            "strong",
+            "local",
+            "accent",
+            "shows",
+            "that",
+            "he",
+            "grew",
+            "up",
+            "in",
+            "a",
+            "small",
+            "village",
+            "in",
+            "the",
+            "mountains"
+          ],
+          "answer": "His strong local accent shows that he grew up in a small village in the mountains."
+        },
+        {
+          "id": 5,
+          "words": [
+            "all",
+            "languages",
+            "evolve",
+            "over",
+            "time",
+            "by",
+            "absorbing",
+            "new",
+            "words",
+            "from",
+            "other",
+            "cultures"
+          ],
+          "answer": "All languages evolve over time by absorbing new words from other cultures."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She works as a professional [interpreter] who converts written documents between languages.",
+          "highlighted": "interpreter",
+          "options": {
+            "A": "translator",
+            "B": "interpreter",
+            "C": "editor"
+          },
+          "answer": "A",
+          "explanation": "A 'translator' converts written text from one language to another, while an 'interpreter' works with spoken language in real time. Since the sentence refers to written documents, 'translator' is the correct term."
+        },
+        {
+          "id": 2,
+          "sentence": "He managed to [study] a little Spanish during his three months working in Madrid.",
+          "highlighted": "study",
+          "options": {
+            "A": "learn",
+            "B": "pick up",
+            "C": "study"
+          },
+          "answer": "B",
+          "explanation": "'Pick up' means to learn a language naturally and informally through exposure rather than formal study — perfectly suited here since he learned through immersion, not classroom instruction. 'Learn' is possible but lacks the nuance of informal acquisition. 'Study' implies formal, deliberate effort."
+        },
+        {
+          "id": 3,
+          "sentence": "Tamil, Malay, Mandarin, and English are all [national] languages in Singapore.",
+          "highlighted": "national",
+          "options": {
+            "A": "foreign",
+            "B": "national",
+            "C": "official"
+          },
+          "answer": "C",
+          "explanation": "'Official' is the precise term for a language formally recognised by the government for use in law, education, and public administration. 'National' is informal and less precise — a country can have many 'national' identities without those languages being legislated. 'Foreign' is the opposite of what is meant."
+        },
+        {
+          "id": 4,
+          "sentence": "The language was considered [dead] — only three elderly speakers remained alive.",
+          "highlighted": "dead",
+          "options": {
+            "A": "extinct",
+            "B": "dying",
+            "C": "dead"
+          },
+          "answer": "B",
+          "explanation": "'Dying' is the correct adjective for a language that still has a small number of remaining speakers but is at serious risk of disappearing. 'Extinct' means no speakers remain at all. Since three elderly speakers still exist, 'dying' is accurate; 'dead' is informal and imprecise."
+        },
+        {
+          "id": 5,
+          "sentence": "The country is [similar] in its cultures, with over 70 distinct ethnic groups.",
+          "highlighted": "similar",
+          "options": {
+            "A": "rich",
+            "B": "similar",
+            "C": "diverse"
+          },
+          "answer": "C",
+          "explanation": "'Diverse' is the correct word meaning varied or made up of many different elements. The sentence describes a country with many different ethnic groups, which is diversity. 'Similar' means things are like each other — the opposite of what is intended. 'Rich' could work informally but is less precise than 'diverse'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "Not Given",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "translate",
+      "2": "pick up",
+      "3": "official",
+      "4": "multilingual",
+      "5": "dying languages"
+    },
+    "ex3": {
+      "1": "accent",
+      "2": "extinct",
+      "3": "evolve",
+      "4": "diverse",
+      "5": "preserve"
+    },
+    "ex4": {
+      "1": "Children who grow up speaking two languages often find it easier to learn a third.",
+      "2": "The government introduced programmes to preserve dying languages in the region.",
+      "3": "Being multilingual is a significant advantage in today's globalised job market.",
+      "4": "His strong local accent shows that he grew up in a small village in the mountains.",
+      "5": "All languages evolve over time by absorbing new words from other cultures."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
+  }
+}

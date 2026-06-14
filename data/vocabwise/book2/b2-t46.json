@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 46,
+    "topic_id": "b2-t46",
+    "topic_title": "Crime & Its Consequences",
+    "theme_number": 5,
+    "theme_title": "People & Issues",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "⚖️",
+    "topic_title_vi": "Tội Phạm & Hậu Quả",
+    "theme_title_vi": "Con Người & Vấn Đề Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 213,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "When a court decides to **find guilty** a person of a crime, it must also decide on an appropriate **sentence** — the official **punishment** imposed by law. The range of sentences available depends on the severity of the **offence**. A minor **offence** such as parking illegally may carry only a small **penalty** or fine, while more serious crimes — such as robbery or assault — can result in years in **prison**. The court also considers the rights of the **person harmed** by the crime.",
+        "text_vi": "Khi tòa án quyết định **kết tội** một người về tội phạm, tòa cũng phải quyết định về một **bản án** phù hợp — **hình phạt** chính thức do luật pháp quy định. Phạm vi các bản án có sẵn phụ thuộc vào mức độ nghiêm trọng của **hành vi vi phạm**. Một **hành vi vi phạm** nhỏ như đỗ xe trái phép có thể chỉ bị **phạt tiền** nhỏ, trong khi các tội nghiêm trọng hơn — như cướp hoặc tấn công — có thể dẫn đến nhiều năm trong **tù**. Tòa án cũng xem xét quyền lợi của **người bị hại** trong vụ án."
+      },
+      {
+        "index": 2,
+        "text_en": "A key debate in criminal **justice** is whether **punishment** should primarily aim to **deter** people from committing crimes, or to help offenders **reform**. Those who focus on **deterrence** argue that a harsh **penalty** sends a clear message: crime does not pay. Supporters of **reform**, on the other hand, believe that helping criminals change their behaviour is more effective in the long run than simply sending them to **prison**.",
+        "text_vi": "Một cuộc tranh luận chính trong **công lý** hình sự là liệu **hình phạt** có nên chủ yếu nhằm mục đích **răn đe** mọi người không phạm tội, hay giúp người phạm tội **cải tạo**. Những người tập trung vào **sự răn đe** lập luận rằng **hình phạt** nặng gửi đi thông điệp rõ ràng: tội phạm không có lợi. Những người ủng hộ **cải tạo**, mặt khác, tin rằng giúp tội phạm thay đổi hành vi của họ hiệu quả hơn về lâu dài so với việc chỉ đơn giản gửi họ đến **nhà tù**."
+      },
+      {
+        "index": 3,
+        "text_en": "Courts may also use **legal** alternatives to imprisonment, particularly for first-time or low-risk offenders. **Unpaid work** for the community — sometimes called community service — allows offenders to contribute positively to society rather than becoming idle in **prison**. In some countries, **early release** on good behaviour is possible, under the condition that the offender does not **commit crime again**. This supervised freedom gives people a chance to prove they have changed.",
+        "text_vi": "Tòa án cũng có thể sử dụng các biện pháp thay thế **pháp lý** cho việc giam tù, đặc biệt là đối với người phạm tội lần đầu hoặc rủi ro thấp. **Lao động công ích** cho cộng đồng — đôi khi được gọi là phục vụ cộng đồng — cho phép người phạm tội đóng góp tích cực cho xã hội thay vì ngồi không trong **tù**. Ở một số quốc gia, **ra tù trước thời hạn** vì hành vi tốt là có thể, với điều kiện người phạm tội không **tái phạm**. Tự do có giám sát này cho người ta cơ hội để chứng minh rằng họ đã thay đổi."
+      },
+      {
+        "index": 4,
+        "text_en": "Understanding crime requires looking at its root causes. Poverty, lack of education, and social exclusion are all factors that increase the likelihood of criminal behaviour. **Evidence** from research suggests that societies that invest in education, employment, and community support have lower crime rates than those that rely mainly on harsh punishment. The most effective approach to **justice** combines fair **legal** consequences with genuine opportunities for people to change and **reform**.",
+        "text_vi": "Hiểu tội phạm đòi hỏi phải xem xét nguyên nhân gốc rễ của nó. Nghèo đói, thiếu giáo dục và bị xã hội loại trừ đều là các yếu tố làm tăng khả năng xảy ra hành vi tội phạm. **Bằng chứng** từ nghiên cứu cho thấy rằng các xã hội đầu tư vào giáo dục, việc làm và hỗ trợ cộng đồng có tỷ lệ tội phạm thấp hơn so với những xã hội chủ yếu dựa vào hình phạt nặng. Cách tiếp cận hiệu quả nhất với **công lý** kết hợp hậu quả **pháp lý** công bằng với cơ hội thực sự cho mọi người thay đổi và **cải tạo**."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "find guilty",
+      "ipa": "/faɪnd ˈɡɪl.ti/",
+      "pos": "verb phrase",
+      "meaning_vi": "kết tội (phán quyết tội phạm của tòa án)",
+      "meaning_vi_inline": "kết tội",
+      "example_en": "The jury took three days to find the defendant guilty of fraud.",
+      "example_vi": "Bồi thẩm đoàn mất ba ngày để kết tội bị cáo về tội gian lận.",
+      "word_family": {
+        "noun": "guilt / verdict",
+        "verb": "find guilty",
+        "adjective": "guilty",
+        "adverb": "guiltily"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "sentence",
+      "ipa": "/ˈsen.təns/",
+      "pos": "noun / verb",
+      "meaning_vi": "bản án; kết án (hình phạt chính thức của tòa)",
+      "meaning_vi_inline": "bản án",
+      "example_en": "The judge sentenced him to five years in prison for armed robbery.",
+      "example_vi": "Thẩm phán kết án anh ta năm năm tù vì tội cướp có vũ trang.",
+      "word_family": {
+        "noun": "sentence / sentencing",
+        "verb": "sentence",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "câu (ngữ pháp)",
+        "explanation_vi": "'Sentence' trong ngữ pháp có nghĩa là câu văn; trong luật pháp, 'sentence' là bản án tòa tuyên. Đây là hai nghĩa hoàn toàn khác nhau của cùng một từ."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "person harmed",
+      "ipa": "/ˈpɜː.sən hɑːmd/",
+      "pos": "noun phrase",
+      "meaning_vi": "người bị hại (nạn nhân trong vụ án)",
+      "meaning_vi_inline": "người bị hại",
+      "example_en": "The court heard a statement from the person harmed before deciding on a sentence.",
+      "example_vi": "Tòa án nghe lời khai từ người bị hại trước khi quyết định bản án.",
+      "word_family": {
+        "noun": "victim / person harmed",
+        "verb": "harm",
+        "adjective": "harmed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "justice",
+      "ipa": "/ˈdʒʌs.tɪs/",
+      "pos": "noun",
+      "meaning_vi": "công lý (hệ thống pháp luật và sự công bằng)",
+      "meaning_vi_inline": "công lý",
+      "example_en": "Many families feel that the justice system failed them when offenders received light sentences.",
+      "example_vi": "Nhiều gia đình cảm thấy hệ thống công lý đã thất bại với họ khi người phạm tội nhận được bản án nhẹ.",
+      "word_family": {
+        "noun": "justice",
+        "verb": null,
+        "adjective": "just / unjust",
+        "adverb": "justly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "penalty",
+      "ipa": "/ˈpen.əl.ti/",
+      "pos": "noun",
+      "meaning_vi": "hình phạt, tiền phạt (hậu quả pháp lý)",
+      "meaning_vi_inline": "hình phạt",
+      "example_en": "The maximum penalty for drink-driving in this country is a two-year ban and a heavy fine.",
+      "example_vi": "Hình phạt tối đa cho việc lái xe khi uống rượu ở quốc gia này là lệnh cấm hai năm và khoản tiền phạt nặng.",
+      "word_family": {
+        "noun": "penalty",
+        "verb": "penalise",
+        "adjective": "penal",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "prison",
+      "ipa": "/ˈprɪz.ən/",
+      "pos": "noun",
+      "meaning_vi": "nhà tù, tù giam",
+      "meaning_vi_inline": "nhà tù",
+      "example_en": "He was sent to prison for three years after being convicted of theft.",
+      "example_vi": "Anh ta bị đưa vào tù ba năm sau khi bị kết tội trộm cắp.",
+      "word_family": {
+        "noun": "prison / prisoner / imprisonment",
+        "verb": "imprison",
+        "adjective": "imprisoned",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "reform",
+      "ipa": "/rɪˈfɔːm/",
+      "pos": "noun / verb",
+      "meaning_vi": "cải tạo (thay đổi hành vi); cải cách (hệ thống)",
+      "meaning_vi_inline": "cải tạo",
+      "example_en": "The rehabilitation programme has helped many offenders reform and reintegrate into society.",
+      "example_vi": "Chương trình phục hồi đã giúp nhiều người phạm tội cải tạo và tái hòa nhập vào xã hội.",
+      "word_family": {
+        "noun": "reform / reformation",
+        "verb": "reform",
+        "adjective": "reformed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "evidence",
+      "ipa": "/ˈev.ɪ.dəns/",
+      "pos": "noun",
+      "meaning_vi": "bằng chứng (trong tòa án hoặc nghiên cứu)",
+      "meaning_vi_inline": "bằng chứng",
+      "example_en": "The prosecution presented strong evidence linking the suspect to the crime scene.",
+      "example_vi": "Công tố viên đã trình bày bằng chứng mạnh mẽ liên kết nghi phạm với hiện trường vụ án.",
+      "word_family": {
+        "noun": "evidence",
+        "verb": null,
+        "adjective": "evident",
+        "adverb": "evidently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "legal",
+      "ipa": "/ˈliː.ɡəl/",
+      "pos": "adjective",
+      "meaning_vi": "pháp lý, hợp pháp (liên quan đến luật)",
+      "meaning_vi_inline": "pháp lý",
+      "example_en": "Everyone has the right to receive legal advice before answering questions from the police.",
+      "example_vi": "Mọi người đều có quyền nhận tư vấn pháp lý trước khi trả lời câu hỏi từ cảnh sát.",
+      "word_family": {
+        "noun": "legality / legislation",
+        "verb": "legalise",
+        "adjective": "legal / illegal",
+        "adverb": "legally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "offence",
+      "ipa": "/əˈfens/",
+      "pos": "noun",
+      "meaning_vi": "hành vi vi phạm pháp luật, tội danh",
+      "meaning_vi_inline": "hành vi vi phạm",
+      "example_en": "Driving without a seatbelt is a minor offence that can result in a fine.",
+      "example_vi": "Lái xe không thắt dây an toàn là hành vi vi phạm nhỏ có thể dẫn đến bị phạt tiền.",
+      "word_family": {
+        "noun": "offence / offender",
+        "verb": "offend",
+        "adjective": "offensive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "punishment",
+      "ipa": "/ˈpʌn.ɪʃ.mənt/",
+      "pos": "noun",
+      "meaning_vi": "hình phạt (hậu quả vì hành vi sai trái)",
+      "meaning_vi_inline": "hình phạt",
+      "example_en": "Many people debate whether physical punishment has any place in modern schools.",
+      "example_vi": "Nhiều người tranh luận liệu hình phạt thể xác có chỗ đứng nào trong các trường học hiện đại không.",
+      "word_family": {
+        "noun": "punishment",
+        "verb": "punish",
+        "adjective": "punishable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "deter",
+      "ipa": "/dɪˈtɜːr/",
+      "pos": "verb",
+      "meaning_vi": "răn đe (ngăn chặn hành vi sai trái bằng hình phạt)",
+      "meaning_vi_inline": "răn đe",
+      "example_en": "Harsher penalties may deter some people from speeding, but education is equally important.",
+      "example_vi": "Hình phạt nặng hơn có thể răn đe một số người không lái xe tốc độ cao, nhưng giáo dục cũng quan trọng không kém.",
+      "word_family": {
+        "noun": "deterrence / deterrent",
+        "verb": "deter",
+        "adjective": "deterrent",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "commit crime again",
+      "ipa": "/kəˈmɪt kraɪm əˈɡen/",
+      "pos": "verb phrase",
+      "meaning_vi": "tái phạm (phạm tội lần nữa sau khi đã bị xử phạt)",
+      "meaning_vi_inline": "tái phạm",
+      "example_en": "Statistics show that offenders who receive education in prison are less likely to commit crime again.",
+      "example_vi": "Thống kê cho thấy rằng người phạm tội được giáo dục trong tù ít có khả năng tái phạm hơn.",
+      "word_family": {
+        "noun": "reoffending / recidivism",
+        "verb": "commit crime again / reoffend",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "unpaid work",
+      "ipa": "/ʌnˈpeɪd wɜːk/",
+      "pos": "noun phrase",
+      "meaning_vi": "lao động công ích (không được trả tiền, hình phạt thay thế tù)",
+      "meaning_vi_inline": "lao động công ích",
+      "example_en": "The offender was ordered to complete 200 hours of unpaid work in the local community.",
+      "example_vi": "Người phạm tội bị ra lệnh phải hoàn thành 200 giờ lao động công ích trong cộng đồng địa phương.",
+      "word_family": {
+        "noun": "community service / unpaid work",
+        "verb": null,
+        "adjective": "unpaid",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "early release",
+      "ipa": "/ˈɜː.li rɪˈliːs/",
+      "pos": "noun phrase",
+      "meaning_vi": "ra tù trước thời hạn (do hành vi tốt trong tù)",
+      "meaning_vi_inline": "ra tù trước thời hạn",
+      "example_en": "He was granted early release after serving half his sentence with no disciplinary problems.",
+      "example_vi": "Anh ta được chấp thuận ra tù trước thời hạn sau khi thụ án một nửa mà không có vấn đề kỷ luật.",
+      "word_family": {
+        "noun": "early release / parole",
+        "verb": "release",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "The seriousness of the offence influences the type of sentence a court can give.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "All legal experts agree that sending offenders to prison is the best way to reduce crime.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Community service programmes were introduced in the 1970s in most countries.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "Research shows that investment in education and employment can lower crime rates.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Early release is available to all prisoners in every country.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The court must weigh the rights of the _____ when deciding on an appropriate sentence.",
+          "options": [
+            "offence",
+            "person harmed",
+            "penalty",
+            "evidence"
+          ],
+          "answer": "person harmed"
+        },
+        {
+          "id": 2,
+          "sentence": "The police gathered enough _____ to prove he was at the scene of the robbery.",
+          "options": [
+            "justice",
+            "reform",
+            "evidence",
+            "sentence"
+          ],
+          "answer": "evidence"
+        },
+        {
+          "id": 3,
+          "sentence": "Heavy fines and licence bans are designed to _____ drivers from drinking alcohol before driving.",
+          "options": [
+            "reform",
+            "deter",
+            "punish",
+            "sentence"
+          ],
+          "answer": "deter"
+        },
+        {
+          "id": 4,
+          "sentence": "The judge gave him a suspended _____ instead of prison because it was his first offence.",
+          "options": [
+            "evidence",
+            "penalty",
+            "sentence",
+            "reform"
+          ],
+          "answer": "sentence"
+        },
+        {
+          "id": 5,
+          "sentence": "He was required to complete 150 hours of _____ in a local food bank as part of his sentence.",
+          "options": [
+            "unpaid work",
+            "early release",
+            "legal penalty",
+            "prison time"
+          ],
+          "answer": "unpaid work"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "offence",
+        "prison",
+        "reform",
+        "justice",
+        "punishment"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Texting while driving is a serious traffic _____ that can result in a heavy fine.",
+          "answer": "offence"
+        },
+        {
+          "id": 2,
+          "sentence": "She was sent to _____ for two years after being found guilty of fraud.",
+          "answer": "prison"
+        },
+        {
+          "id": 3,
+          "sentence": "Many believe that the goal of the criminal system should be to _____ offenders, not just punish them.",
+          "answer": "reform"
+        },
+        {
+          "id": 4,
+          "sentence": "The victim's family said they would not feel a sense of _____ until a verdict was reached.",
+          "answer": "justice"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ for this crime is up to ten years in prison, depending on the circumstances.",
+          "answer": "punishment"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "court",
+            "decided",
+            "to",
+            "find",
+            "him",
+            "guilty",
+            "of",
+            "all",
+            "three",
+            "offences"
+          ],
+          "answer": "The court decided to find him guilty of all three offences."
+        },
+        {
+          "id": 2,
+          "words": [
+            "early",
+            "release",
+            "is",
+            "only",
+            "granted",
+            "to",
+            "prisoners",
+            "who",
+            "behave",
+            "well",
+            "and",
+            "do",
+            "not",
+            "commit",
+            "crime",
+            "again"
+          ],
+          "answer": "Early release is only granted to prisoners who behave well and do not commit crime again."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "evidence",
+            "showed",
+            "clearly",
+            "that",
+            "the",
+            "accused",
+            "was",
+            "at",
+            "the",
+            "scene",
+            "of",
+            "the",
+            "crime"
+          ],
+          "answer": "The evidence showed clearly that the accused was at the scene of the crime."
+        },
+        {
+          "id": 4,
+          "words": [
+            "heavier",
+            "penalties",
+            "may",
+            "deter",
+            "some",
+            "offenders",
+            "but",
+            "social",
+            "reform",
+            "is",
+            "equally",
+            "important"
+          ],
+          "answer": "Heavier penalties may deter some offenders but social reform is equally important."
+        },
+        {
+          "id": 5,
+          "words": [
+            "unpaid",
+            "work",
+            "gives",
+            "offenders",
+            "a",
+            "chance",
+            "to",
+            "contribute",
+            "to",
+            "the",
+            "community",
+            "instead",
+            "of",
+            "going",
+            "to",
+            "prison"
+          ],
+          "answer": "Unpaid work gives offenders a chance to contribute to the community instead of going to prison."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The judge decided to [sentence] him to three years of unpaid work and a large fine.",
+          "highlighted": "sentence",
+          "options": {
+            "A": "punish",
+            "B": "sentence",
+            "C": "charge"
+          },
+          "answer": "B",
+          "explanation": "This sentence is already correct — 'sentence' is the right legal verb meaning to formally impose a punishment. However, if we replace it, 'punish' is too general and 'charge' refers to the accusation stage, not the final court decision. 'Sentence' is the precise vocabulary term here."
+        },
+        {
+          "id": 2,
+          "sentence": "The court gave him the lowest [fine] available for a first-time offender with no criminal record.",
+          "highlighted": "fine",
+          "options": {
+            "A": "penalty",
+            "B": "fine",
+            "C": "sentence"
+          },
+          "answer": "A",
+          "explanation": "'Penalty' is the broader target vocabulary term for any legal punishment — it encompasses fines, prison, unpaid work, etc. 'Fine' refers specifically to a monetary payment, which may not fit all contexts. 'Sentence' is a formal court ruling, not a category of punishment. 'Penalty' is more precise here."
+        },
+        {
+          "id": 3,
+          "sentence": "Research provides strong [proof] that rehabilitation programmes reduce the chance of reoffending.",
+          "highlighted": "proof",
+          "options": {
+            "A": "justification",
+            "B": "data",
+            "C": "evidence"
+          },
+          "answer": "C",
+          "explanation": "'Evidence' is the target vocabulary term for research findings and information used to support a claim, especially in legal and academic contexts. 'Proof' is informal and implies absolute certainty. 'Data' is too narrow (numbers only). 'Evidence' is the correct academic and legal term."
+        },
+        {
+          "id": 4,
+          "sentence": "The aim of community service is to help offenders [change] rather than simply punish them.",
+          "highlighted": "change",
+          "options": {
+            "A": "reform",
+            "B": "change",
+            "C": "improve"
+          },
+          "answer": "A",
+          "explanation": "'Reform' is the target vocabulary word for helping offenders transform their behaviour and reintegrate into society. 'Change' is too vague and informal. 'Improve' can work but doesn't carry the specific meaning of rehabilitation in a legal/social context. 'Reform' is the precise term."
+        },
+        {
+          "id": 5,
+          "sentence": "He was released from prison after serving half his sentence with [good actions].",
+          "highlighted": "good actions",
+          "options": {
+            "A": "unpaid work",
+            "B": "legal aid",
+            "C": "good behaviour"
+          },
+          "answer": "C",
+          "explanation": "'Good behaviour' is the standard phrase used in legal and correctional contexts to describe a prisoner's conduct that may qualify them for early release. 'Unpaid work' is a type of punishment, not a condition for release. 'Legal aid' refers to free legal assistance, unrelated to release conditions."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "person harmed",
+      "2": "evidence",
+      "3": "deter",
+      "4": "sentence",
+      "5": "unpaid work"
+    },
+    "ex3": {
+      "1": "offence",
+      "2": "prison",
+      "3": "reform",
+      "4": "justice",
+      "5": "punishment"
+    },
+    "ex4": {
+      "1": "The court decided to find him guilty of all three offences.",
+      "2": "Early release is only granted to prisoners who behave well and do not commit crime again.",
+      "3": "The evidence showed clearly that the accused was at the scene of the crime.",
+      "4": "Heavier penalties may deter some offenders but social reform is equally important.",
+      "5": "Unpaid work gives offenders a chance to contribute to the community instead of going to prison."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
+  }
+}

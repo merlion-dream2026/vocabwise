@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 59,
+    "topic_id": "b3-t59",
+    "topic_title": "The Future of Humanity",
+    "topic_title_vi": "Tương Lai Của Nhân Loại",
+    "theme_number": 6,
+    "theme_title": "Ethics & the Future",
+    "theme_title_vi": "Đạo Đức & Tương Lai",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🚀",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 224,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Advances in biotechnology, artificial intelligence, and neuroscience have made the **speculative** futures once confined to fiction increasingly plausible. The philosophy of **transhumanism** holds that humanity can and should transcend its biological limits through technological **enhancement** — improving cognition, extending **longevity**, and eventually dissolving the boundary between human and machine. Proponents argue that such progress represents the next stage of human evolution, a deliberate redesign of our own nature.",
+        "text_vi": "Những tiến bộ trong công nghệ sinh học, trí tuệ nhân tạo và khoa học thần kinh đã khiến những tương lai **mang tính suy đoán** từng bị giới hạn trong văn học hư cấu ngày càng trở nên khả thi. Triết lý **chủ nghĩa siêu nhân loại** cho rằng nhân loại có thể và nên vượt qua giới hạn sinh học thông qua **sự cải tiến** công nghệ — nâng cao nhận thức, kéo dài **tuổi thọ**, và cuối cùng xóa bỏ ranh giới giữa con người và máy móc. Những người ủng hộ lập luận rằng tiến bộ như vậy đại diện cho giai đoạn tiếp theo của quá trình tiến hóa, một sự thiết kế lại có chủ đích về bản chất của chúng ta."
+      },
+      {
+        "index": 2,
+        "text_en": "Critics, however, warn that we must **mitigate existential risks** before embracing radical transformation. The concept of **posthumanism** challenges the assumption that the human form deserves preservation, yet it raises unsettling questions about **consciousness** and identity: if the mind is fundamentally altered, does the self persist? Those who **challenge posthumanist assumptions** argue that what makes us human — our vulnerability, mortality, and embodied experience — cannot be discarded without profound ethical cost.",
+        "text_vi": "Tuy nhiên, các nhà phê bình cảnh báo rằng chúng ta phải **giảm thiểu các rủi ro hiện hữu** trước khi chấp nhận sự chuyển đổi triệt để. Khái niệm **chủ nghĩa hậu nhân loại** thách thức giả định rằng hình thái con người xứng đáng được bảo tồn, nhưng nó đặt ra những câu hỏi đáng lo ngại về **ý thức** và bản sắc: nếu tâm trí bị thay đổi về căn bản, liệu cái tôi có còn tồn tại không? Những ai **thách thức các giả định của chủ nghĩa hậu nhân loại** lập luận rằng những gì làm cho chúng ta là con người — sự dễ tổn thương, cái chết và trải nghiệm thể xác — không thể bị loại bỏ mà không có cái giá đạo đức sâu sắc."
+      },
+      {
+        "index": 3,
+        "text_en": "The idea of a technological **singularity** — a point at which artificial intelligence surpasses human intelligence irreversibly — intensifies these debates. Some envision a post-scarcity **utopia** in which disease, poverty, and suffering are eliminated; others foresee a **dystopia** in which autonomous systems render human agency obsolete. To **navigate transhumanist debates** responsibly, societies must grapple with questions of access, consent, and the distribution of enhancement technologies.",
+        "text_vi": "Ý tưởng về **điểm kỳ dị** công nghệ — một thời điểm mà trí tuệ nhân tạo vượt qua trí tuệ con người một cách không thể đảo ngược — làm sâu sắc thêm những cuộc tranh luận này. Một số người hình dung một **thế giới lý tưởng** sau khi khan hiếm biến mất, trong đó bệnh tật, nghèo đói và đau khổ bị loại bỏ; những người khác dự báo một **thế giới phản địa đàng** trong đó các hệ thống tự động làm cho tác động của con người trở nên lỗi thời. Để **điều hướng các cuộc tranh luận về chủ nghĩa siêu nhân loại** một cách có trách nhiệm, các xã hội phải đối mặt với các câu hỏi về quyền tiếp cận, sự đồng thuận và phân phối các công nghệ cải tiến."
+      },
+      {
+        "index": 4,
+        "text_en": "Ultimately, to **enhance human cognitive capacity** sustainably, we must ensure that technological power does not become the privilege of a few. The task is not to reject innovation but to **imagine alternative futures** in which enhancement is guided by justice, dignity, and a commitment to what humanity collectively values. The future of humanity may depend less on our technological capabilities than on our ethical wisdom to deploy them well.",
+        "text_vi": "Cuối cùng, để **tăng cường năng lực nhận thức của con người** một cách bền vững, chúng ta phải đảm bảo rằng quyền lực công nghệ không trở thành đặc quyền của một số ít người. Nhiệm vụ không phải là bác bỏ sự đổi mới mà là **tưởng tượng những tương lai thay thế** trong đó sự cải tiến được dẫn dắt bởi công lý, nhân phẩm và cam kết với những gì nhân loại cùng trân trọng. Tương lai của nhân loại có thể phụ thuộc ít hơn vào năng lực công nghệ của chúng ta so với sự khôn ngoan đạo đức để triển khai chúng tốt đẹp."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "transhumanism",
+      "ipa": "/trænsˈhjuː.mə.nɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa siêu nhân loại (triết lý vượt qua giới hạn sinh học con người qua công nghệ)",
+      "meaning_vi_inline": "chủ nghĩa siêu nhân loại",
+      "example_en": "Transhumanism envisions a future in which genetic editing and neural implants redefine what it means to be human.",
+      "example_vi": "Chủ nghĩa siêu nhân loại hình dung một tương lai trong đó chỉnh sửa gene và cấy ghép thần kinh định nghĩa lại thế nào là con người.",
+      "word_family": {
+        "noun": "transhumanism / transhuman / transhumanist",
+        "verb": null,
+        "adjective": "transhumanist",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "posthumanism",
+        "explanation_vi": "'Transhumanism' tin vào việc nâng cấp con người qua công nghệ trong khi vẫn giữ bản sắc người; 'posthumanism' đặt câu hỏi về chính khái niệm 'con người' như một phạm trù đặc quyền — hai hướng tư duy khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "longevity",
+      "ipa": "/lɒŋˈdʒev.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "tuổi thọ, sự trường thọ",
+      "meaning_vi_inline": "tuổi thọ",
+      "example_en": "Advances in regenerative medicine are expected to increase human longevity significantly over the next century.",
+      "example_vi": "Những tiến bộ trong y học tái tạo dự kiến sẽ tăng đáng kể tuổi thọ của con người trong thế kỷ tới.",
+      "word_family": {
+        "noun": "longevity",
+        "verb": null,
+        "adjective": "long-lived",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "posthumanism",
+      "ipa": "/poʊstˈhjuː.mə.nɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "chủ nghĩa hậu nhân loại (tư tưởng đặt câu hỏi về bản chất và đặc quyền của con người)",
+      "meaning_vi_inline": "chủ nghĩa hậu nhân loại",
+      "example_en": "Posthumanism challenges the notion that human beings occupy a uniquely privileged position in the natural world.",
+      "example_vi": "Chủ nghĩa hậu nhân loại thách thức quan niệm rằng con người chiếm vị trí đặc quyền duy nhất trong thế giới tự nhiên.",
+      "word_family": {
+        "noun": "posthumanism / posthuman / posthumanist",
+        "verb": null,
+        "adjective": "posthumanist / posthuman",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "singularity",
+      "ipa": "/ˌsɪŋ.ɡjʊˈlær.ɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "điểm kỳ dị (thời điểm AI vượt qua trí tuệ người); tính đặc thù",
+      "meaning_vi_inline": "điểm kỳ dị",
+      "example_en": "Proponents of the singularity believe that once machine intelligence surpasses our own, progress will become exponential and uncontrollable.",
+      "example_vi": "Những người ủng hộ điểm kỳ dị tin rằng một khi trí tuệ máy móc vượt qua chúng ta, tiến bộ sẽ trở nên theo cấp số nhân và không thể kiểm soát.",
+      "word_family": {
+        "noun": "singularity",
+        "verb": null,
+        "adjective": "singular",
+        "adverb": "singularly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "enhancement",
+      "ipa": "/ɪnˈhɑːns.mənt/",
+      "pos": "noun",
+      "meaning_vi": "sự cải tiến, sự nâng cao (năng lực con người)",
+      "meaning_vi_inline": "sự cải tiến",
+      "example_en": "Cognitive enhancement through drugs or neural implants raises serious questions about fairness in academic and professional settings.",
+      "example_vi": "Cải tiến nhận thức qua thuốc hay cấy ghép thần kinh đặt ra những câu hỏi nghiêm túc về sự công bằng trong môi trường học thuật và nghề nghiệp.",
+      "word_family": {
+        "noun": "enhancement",
+        "verb": "enhance",
+        "adjective": "enhanced",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "existential risk",
+      "ipa": "/ˌeg.zɪˈsten.ʃəl rɪsk/",
+      "pos": "noun phrase",
+      "meaning_vi": "rủi ro hiện hữu (mối đe dọa có thể hủy diệt nền văn minh hoặc loài người)",
+      "meaning_vi_inline": "rủi ro hiện hữu",
+      "example_en": "Many AI researchers classify unaligned superintelligence as the most serious existential risk facing humanity.",
+      "example_vi": "Nhiều nhà nghiên cứu AI xếp siêu trí tuệ không được căn chỉnh vào loại rủi ro hiện hữu nghiêm trọng nhất mà nhân loại phải đối mặt.",
+      "word_family": {
+        "noun": "existential risk",
+        "verb": null,
+        "adjective": "existential",
+        "adverb": "existentially"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "consciousness",
+      "ipa": "/ˈkɒn.ʃəs.nəs/",
+      "pos": "noun",
+      "meaning_vi": "ý thức, nhận thức về bản thân và thế giới",
+      "meaning_vi_inline": "ý thức",
+      "example_en": "Philosophers continue to debate whether artificial systems could ever possess genuine consciousness or merely simulate it.",
+      "example_vi": "Các triết gia tiếp tục tranh luận liệu các hệ thống nhân tạo có thể sở hữu ý thức thực sự hay chỉ đơn thuần mô phỏng nó.",
+      "word_family": {
+        "noun": "consciousness",
+        "verb": null,
+        "adjective": "conscious / unconscious / self-conscious",
+        "adverb": "consciously"
+      },
+      "false_friend": {
+        "word_vi": "conscience",
+        "explanation_vi": "'Consciousness' là ý thức hay sự tỉnh táo về bản thân và môi trường; 'conscience' là lương tâm — cảm giác đúng sai về mặt đạo đức. Hai từ này dễ nhầm."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "utopia",
+      "ipa": "/juːˈtəʊ.pi.ə/",
+      "pos": "noun",
+      "meaning_vi": "thế giới lý tưởng, xã hội hoàn hảo tưởng tượng",
+      "meaning_vi_inline": "thế giới lý tưởng",
+      "example_en": "Early techno-optimists believed automation would usher in a utopia of leisure and universal prosperity.",
+      "example_vi": "Những người lạc quan công nghệ ban đầu tin rằng tự động hóa sẽ dẫn đến một thế giới lý tưởng của thời gian nghỉ ngơi và thịnh vượng phổ quát.",
+      "word_family": {
+        "noun": "utopia / utopianism",
+        "verb": null,
+        "adjective": "utopian",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "dystopia",
+        "explanation_vi": "'Utopia' là xã hội lý tưởng hoàn hảo; 'dystopia' là xã hội phản địa đàng — tồi tệ, áp bức và đau khổ. Hai từ trái nghĩa nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "dystopia",
+      "ipa": "/dɪsˈtəʊ.pi.ə/",
+      "pos": "noun",
+      "meaning_vi": "thế giới phản địa đàng, xã hội tồi tệ và áp bức trong tưởng tượng",
+      "meaning_vi_inline": "thế giới phản địa đàng",
+      "example_en": "Science fiction has long used dystopia as a warning against the unchecked abuse of political or technological power.",
+      "example_vi": "Khoa học viễn tưởng từ lâu đã sử dụng thế giới phản địa đàng như một cảnh báo chống lại việc lạm dụng quyền lực chính trị hay công nghệ không được kiểm soát.",
+      "word_family": {
+        "noun": "dystopia / dystopianism",
+        "verb": null,
+        "adjective": "dystopian",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "speculative",
+      "ipa": "/ˈspek.jʊ.lə.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "mang tính suy đoán, giả định; liên quan đến tư duy đầu cơ hay triết học",
+      "meaning_vi_inline": "mang tính suy đoán",
+      "example_en": "Much of the discourse on superintelligence remains highly speculative, as no one can predict exactly how AI will evolve.",
+      "example_vi": "Phần lớn diễn ngôn về siêu trí tuệ vẫn còn mang tính suy đoán cao, vì không ai có thể dự đoán chính xác AI sẽ phát triển như thế nào.",
+      "word_family": {
+        "noun": "speculation / speculator",
+        "verb": "speculate",
+        "adjective": "speculative",
+        "adverb": "speculatively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "mitigate existential risks",
+      "meaning_vi": "giảm thiểu các rủi ro hiện hữu",
+      "example_en": "International cooperation is essential to mitigate existential risks posed by unregulated biotechnology.",
+      "example_vi": "Hợp tác quốc tế là điều cần thiết để giảm thiểu các rủi ro hiện hữu do công nghệ sinh học không được kiểm soát gây ra.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "navigate transhumanist debates",
+      "meaning_vi": "điều hướng các cuộc tranh luận về chủ nghĩa siêu nhân loại",
+      "example_en": "Policymakers must be equipped with both scientific literacy and philosophical grounding to navigate transhumanist debates effectively.",
+      "example_vi": "Các nhà hoạch định chính sách phải được trang bị cả kiến thức khoa học lẫn nền tảng triết học để điều hướng các cuộc tranh luận về chủ nghĩa siêu nhân loại một cách hiệu quả.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "enhance human cognitive capacity",
+      "meaning_vi": "tăng cường năng lực nhận thức của con người",
+      "example_en": "Critics question whether it is ethical to use pharmacological means to enhance human cognitive capacity.",
+      "example_vi": "Các nhà phê bình đặt câu hỏi liệu có đạo đức hay không khi sử dụng phương tiện dược lý để tăng cường năng lực nhận thức của con người.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "challenge posthumanist assumptions",
+      "meaning_vi": "thách thức các giả định của chủ nghĩa hậu nhân loại",
+      "example_en": "Disability rights scholars challenge posthumanist assumptions by arguing that vulnerability is central, not peripheral, to human experience.",
+      "example_vi": "Các học giả về quyền người khuyết tật thách thức các giả định của chủ nghĩa hậu nhân loại bằng cách lập luận rằng sự dễ tổn thương là trung tâm, không phải ngoại vi, của trải nghiệm con người.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "imagine alternative futures",
+      "meaning_vi": "tưởng tượng những tương lai thay thế",
+      "example_en": "Art and literature play a vital role in helping societies imagine alternative futures beyond the dominant technological narrative.",
+      "example_vi": "Nghệ thuật và văn học đóng vai trò quan trọng trong việc giúp các xã hội tưởng tượng những tương lai thay thế vượt ra ngoài câu chuyện công nghệ thống trị.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, transhumanists believe that extending human longevity is a worthwhile goal.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that a majority of scientists currently support the idea of the technological singularity.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that utopian and dystopian visions of the future are both associated with the concept of the singularity.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "Posthumanism, as described in the passage, argues that the human form should be preserved at all costs.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage concludes that ethical wisdom is more important than technological capability in determining humanity's future.",
+          "answer": "True"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The author's claim that machines might one day surpass human intelligence is largely _____ at this stage, since no model exists that can fully replicate human reasoning.",
+          "options": [
+            "speculative",
+            "dystopian",
+            "posthuman",
+            "transhumanist"
+          ],
+          "answer": "speculative"
+        },
+        {
+          "id": 2,
+          "sentence": "The philosopher argued that memory, emotion, and self-awareness are all components of _____, and that no purely mechanical system could truly possess them.",
+          "options": [
+            "longevity",
+            "enhancement",
+            "consciousness",
+            "singularity"
+          ],
+          "answer": "consciousness"
+        },
+        {
+          "id": 3,
+          "sentence": "The government's new health initiative prioritises _____ by funding research into age-related diseases and preventive medicine.",
+          "options": [
+            "dystopia",
+            "longevity",
+            "posthumanism",
+            "singularity"
+          ],
+          "answer": "longevity"
+        },
+        {
+          "id": 4,
+          "sentence": "Orwell's Nineteen Eighty-Four remains the most influential literary _____ of the twentieth century, depicting a society crushed by surveillance and propaganda.",
+          "options": [
+            "utopia",
+            "enhancement",
+            "dystopia",
+            "speculation"
+          ],
+          "answer": "dystopia"
+        },
+        {
+          "id": 5,
+          "sentence": "Many bioethicists warn that cognitive _____ technologies must be governed by strict international frameworks to prevent exploitation.",
+          "options": [
+            "consciousness",
+            "singularity",
+            "enhancement",
+            "longevity"
+          ],
+          "answer": "enhancement"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "transhumanism",
+        "utopia",
+        "existential risk",
+        "speculative",
+        "posthumanism",
+        "singularity"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The possibility of a runaway artificial superintelligence is considered an _____ by leading researchers at institutions devoted to long-term future safety.",
+          "answer": "existential risk"
+        },
+        {
+          "id": 2,
+          "sentence": "Early science fiction writers imagined a technological _____ in which machines would surpass humanity, triggering an age of incomprehensible change.",
+          "answer": "singularity"
+        },
+        {
+          "id": 3,
+          "sentence": "Unlike traditional humanism, _____ does not treat the human body as fixed or sacred, but as something to be redesigned and improved.",
+          "answer": "transhumanism"
+        },
+        {
+          "id": 4,
+          "sentence": "The novel depicts a post-scarcity _____ where citizens live in perfect health, free from labour, conflict, and material want.",
+          "answer": "utopia"
+        },
+        {
+          "id": 5,
+          "sentence": "Much of the debate remains _____, as the technologies required to upload human consciousness do not yet exist.",
+          "answer": "speculative"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "transhumanism",
+            "believes",
+            "technology",
+            "should",
+            "biological",
+            "overcome",
+            "our",
+            "limits"
+          ],
+          "answer": "Transhumanism believes technology should overcome our biological limits."
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "singularity",
+            "could",
+            "either",
+            "a",
+            "lead",
+            "to",
+            "utopia",
+            "or",
+            "a",
+            "dystopia"
+          ],
+          "answer": "The singularity could either lead to a utopia or a dystopia."
+        },
+        {
+          "id": 3,
+          "words": [
+            "consciousness",
+            "remains",
+            "one",
+            "of",
+            "the",
+            "deepest",
+            "unsolved",
+            "problems",
+            "in",
+            "philosophy"
+          ],
+          "answer": "Consciousness remains one of the deepest unsolved problems in philosophy."
+        },
+        {
+          "id": 4,
+          "words": [
+            "societies",
+            "must",
+            "mitigate",
+            "existential",
+            "risks",
+            "before",
+            "pursuing",
+            "radical",
+            "enhancement"
+          ],
+          "answer": "Societies must mitigate existential risks before pursuing radical enhancement."
+        },
+        {
+          "id": 5,
+          "words": [
+            "imagining",
+            "alternative",
+            "futures",
+            "is",
+            "essential",
+            "to",
+            "responsible",
+            "technological",
+            "policymaking"
+          ],
+          "answer": "Imagining alternative futures is essential to responsible technological policymaking."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The novel presents a [dystopian] in which citizens are monitored by an all-knowing artificial intelligence that controls every aspect of daily life.",
+          "highlighted": "dystopian",
+          "options": {
+            "A": "dystopia",
+            "B": "dystopianism",
+            "C": "dystopically"
+          },
+          "answer": "A",
+          "explanation": "A noun is needed after the article 'a' to serve as the object of 'presents' — 'dystopia', not the adjective 'dystopian'."
+        },
+        {
+          "id": 2,
+          "sentence": "Her [speculate] about the long-term consequences of neural implants was dismissed by colleagues who preferred to focus on immediate applications.",
+          "highlighted": "speculate",
+          "options": {
+            "A": "speculatively",
+            "B": "speculative",
+            "C": "speculation"
+          },
+          "answer": "C",
+          "explanation": "A noun is needed as the subject of the sentence — 'speculation', not the verb 'speculate'."
+        },
+        {
+          "id": 3,
+          "sentence": "Brain-computer interfaces may one day allow scientists to [enhancement] human memory and processing speed far beyond natural limits.",
+          "highlighted": "enhancement",
+          "options": {
+            "A": "enhance",
+            "B": "enhanced",
+            "C": "enhancing"
+          },
+          "answer": "A",
+          "explanation": "A bare infinitive verb is required after the modal 'may … allow scientists to' — 'enhance', not the noun 'enhancement'."
+        },
+        {
+          "id": 4,
+          "sentence": "The [conscience] of self-awareness in machines is a philosophical question that cannot be settled by engineering alone.",
+          "highlighted": "conscience",
+          "options": {
+            "A": "conscious",
+            "B": "consciously",
+            "C": "consciousness"
+          },
+          "answer": "C",
+          "explanation": "'Consciousness' is the noun meaning awareness or sentience; 'conscience' means moral sense of right and wrong — a false friend error here."
+        },
+        {
+          "id": 5,
+          "sentence": "Research into [long] aims to identify the biological mechanisms that allow certain organisms to live for centuries.",
+          "highlighted": "long",
+          "options": {
+            "A": "longevity",
+            "B": "longer",
+            "C": "longest"
+          },
+          "answer": "A",
+          "explanation": "The noun 'longevity' (meaning long lifespan) is required as the object of 'Research into' — 'long' is an adjective and does not fit this slot."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "True",
+      "4": "False",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "speculative",
+      "2": "consciousness",
+      "3": "longevity",
+      "4": "dystopia",
+      "5": "enhancement"
+    },
+    "ex3": {
+      "1": "existential risk",
+      "2": "singularity",
+      "3": "transhumanism",
+      "4": "utopia",
+      "5": "speculative"
+    },
+    "ex4": {
+      "1": "Transhumanism believes technology should overcome our biological limits.",
+      "2": "The singularity could either lead to a utopia or a dystopia.",
+      "3": "Consciousness remains one of the deepest unsolved problems in philosophy.",
+      "4": "Societies must mitigate existential risks before pursuing radical enhancement.",
+      "5": "Imagining alternative futures is essential to responsible technological policymaking."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "A"
+    }
+  }
+}

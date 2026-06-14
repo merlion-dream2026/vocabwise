@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "book": 2,
+    "topic_number": 39,
+    "topic_id": "b2-t39",
+    "topic_title": "Traditional Food & Cooking",
+    "theme_number": 4,
+    "theme_title": "Arts Culture & Society",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🍲",
+    "topic_title_vi": "Ẩm Thực Truyền Thống & Nấu Ăn",
+    "theme_title_vi": "Nghệ Thuật, Văn Hóa & Xã Hội",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pending",
+      "glossary": "pending",
+      "exercises": "pending",
+      "answer_key": "pending",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 213,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Food is one of the most direct expressions of **identity** and **tradition**. Every culture has its **local dish**es — meals that reflect the geography, history, and values of the people who created them. A **local dish** is not just nourishment; it carries memory, meaning, and **heritage**. The **ingredient**s used, the **method** of cooking, and the occasions on which a dish is served all contribute to its **symbolic** importance within a community.",
+        "text_vi": "Thực phẩm là một trong những biểu hiện trực tiếp nhất của **bản sắc** và **truyền thống**. Mỗi nền văn hóa có những **món ăn địa phương** — các bữa ăn phản ánh địa lý, lịch sử và giá trị của những người tạo ra chúng. Một **món ăn địa phương** không chỉ là thức ăn; nó mang ký ức, ý nghĩa và **di sản**. Các **nguyên liệu** được sử dụng, **phương pháp** nấu ăn và dịp mà một món ăn được phục vụ đều đóng góp vào tầm quan trọng **biểu tượng** của nó trong cộng đồng."
+      },
+      {
+        "index": 2,
+        "text_en": "A great **recipe** is more than a list of steps — it is a living document that passes knowledge from one generation to the next. The best recipes often use **real** — authentic, unadulterated — **ingredient**s rather than processed substitutes, and they reflect the ingenuity of communities that adapted their cooking to whatever was locally available. When a skilled **cook** prepares a traditional dish, they are not just making food — they are continuing a culinary conversation that may stretch back centuries.",
+        "text_vi": "Một **công thức** nấu ăn tuyệt vời không chỉ là danh sách các bước — đó là một tài liệu sống truyền kiến thức từ thế hệ này sang thế hệ tiếp theo. Các công thức tốt nhất thường sử dụng **thực** — chính gốc, không pha tạp — các **nguyên liệu** thay vì các chất thay thế đã qua chế biến, và chúng phản ánh sự khéo léo của các cộng đồng đã thích nghi việc nấu ăn với những gì có sẵn ở địa phương. Khi một **đầu bếp** lành nghề chuẩn bị một món ăn truyền thống, họ không chỉ làm thức ăn — họ đang tiếp tục một cuộc trò chuyện ẩm thực có thể kéo dài hàng thế kỷ."
+      },
+      {
+        "index": 3,
+        "text_en": "Food is deeply linked to **ritual** — the meaningful, repeated practices that mark important moments in life. Preparing and sharing a **local food** at weddings, festivals, or family gatherings is a **ritual** act that reinforces bonds between people. The **flavour** of a dish can trigger powerful emotional memories, transporting people back to their childhood or to a specific place and time. This is why **local food** matters so much — it is a sensory form of **heritage**.",
+        "text_vi": "Thực phẩm gắn liền sâu sắc với **nghi lễ** — những thực hành có ý nghĩa, lặp đi lặp lại đánh dấu những thời khắc quan trọng trong cuộc sống. Chuẩn bị và chia sẻ **thực phẩm địa phương** tại đám cưới, lễ hội hoặc các buổi họp gia đình là một hành động **nghi lễ** củng cố mối liên kết giữa mọi người. **Hương vị** của một món ăn có thể kích hoạt những ký ức cảm xúc mạnh mẽ, đưa mọi người trở lại thời thơ ấu hoặc đến một nơi và thời gian cụ thể. Đó là lý do tại sao **thực phẩm địa phương** quan trọng đến vậy — nó là hình thức cảm quan của **di sản**."
+      },
+      {
+        "index": 4,
+        "text_en": "The **influence** of other cultures has always shaped what people **cook** and eat. Globalisation, migration, and trade have introduced new **ingredient**s and techniques around the world, leading to fascinating food fusions. Yet efforts to **preserve** culinary **tradition**s are also growing — from UNESCO listings of intangible food heritage to community cookbooks that document disappearing **recipe**s. Protecting what is **real** and authentic in food culture ensures that future generations can experience the full **flavour** of their shared past.",
+        "text_vi": "**Ảnh hưởng** của các nền văn hóa khác luôn định hình những gì mọi người **nấu** và ăn. Toàn cầu hóa, di cư và thương mại đã giới thiệu các **nguyên liệu** và kỹ thuật mới khắp nơi trên thế giới, dẫn đến những sự kết hợp ẩm thực hấp dẫn. Tuy nhiên, các nỗ lực **bảo tồn** các **truyền thống** ẩm thực cũng ngày càng phát triển — từ danh sách di sản văn hóa phi vật thể của UNESCO đến các sách nấu ăn cộng đồng ghi lại các **công thức** đang biến mất. Bảo vệ những gì **thực** và chính thống trong văn hóa ẩm thực đảm bảo rằng các thế hệ tương lai có thể trải nghiệm đầy đủ **hương vị** của quá khứ chung của họ."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "local food",
+      "ipa": "/ˈləʊ.kəl fuːd/",
+      "pos": "noun phrase",
+      "meaning_vi": "thực phẩm địa phương, ẩm thực vùng miền",
+      "meaning_vi_inline": "thực phẩm địa phương",
+      "example_en": "Eating local food is the best way to understand a culture when travelling.",
+      "example_vi": "Ăn thực phẩm địa phương là cách tốt nhất để hiểu một nền văn hóa khi du lịch.",
+      "word_family": {
+        "noun": "local food / local cuisine",
+        "verb": null,
+        "adjective": "local",
+        "adverb": "locally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "tradition",
+      "ipa": "/trəˈdɪʃ.ən/",
+      "pos": "noun",
+      "meaning_vi": "truyền thống (văn hóa, ẩm thực)",
+      "meaning_vi_inline": "truyền thống",
+      "example_en": "Making bánh chưng is a Vietnamese culinary tradition that dates back thousands of years.",
+      "example_vi": "Làm bánh chưng là truyền thống ẩm thực Việt Nam có lịch sử hàng nghìn năm.",
+      "word_family": {
+        "noun": "tradition",
+        "verb": null,
+        "adjective": "traditional",
+        "adverb": "traditionally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "ingredient",
+      "ipa": "/ɪnˈɡriː.di.ənt/",
+      "pos": "noun",
+      "meaning_vi": "nguyên liệu (nấu ăn)",
+      "meaning_vi_inline": "nguyên liệu",
+      "example_en": "The key ingredient in this soup is a local herb that grows only in the mountains.",
+      "example_vi": "Nguyên liệu chính trong món súp này là một loại thảo mộc địa phương chỉ mọc trên vùng núi.",
+      "word_family": {
+        "noun": "ingredient",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "recipe",
+      "ipa": "/ˈres.ɪ.pi/",
+      "pos": "noun",
+      "meaning_vi": "công thức nấu ăn",
+      "meaning_vi_inline": "công thức nấu ăn",
+      "example_en": "She learned her grandmother's recipe for pho and has made it every New Year since.",
+      "example_vi": "Cô học công thức nấu phở của bà và đã nấu nó mỗi dịp Tết Nguyên Đán kể từ đó.",
+      "word_family": {
+        "noun": "recipe",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "heritage",
+      "ipa": "/ˈher.ɪ.tɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "di sản (ẩm thực, văn hóa)",
+      "meaning_vi_inline": "di sản",
+      "example_en": "Vietnamese cuisine is a rich culinary heritage recognised around the world.",
+      "example_vi": "Ẩm thực Việt Nam là một di sản ẩm thực phong phú được công nhận trên toàn thế giới.",
+      "word_family": {
+        "noun": "heritage",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "real",
+      "ipa": "/rɪəl/",
+      "pos": "adjective",
+      "meaning_vi": "thực, chính gốc, không pha tạp (nguyên liệu, hương vị)",
+      "meaning_vi_inline": "chính gốc, thực sự",
+      "example_en": "The chef insisted on using only real, unprocessed ingredients rather than powders or concentrates.",
+      "example_vi": "Đầu bếp nhất quyết chỉ dùng nguyên liệu thực, không qua chế biến thay vì bột hoặc dạng cô đặc.",
+      "word_family": {
+        "noun": "reality",
+        "verb": null,
+        "adjective": "real / authentic",
+        "adverb": "really"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "preserve",
+      "ipa": "/prɪˈzɜːv/",
+      "pos": "verb",
+      "meaning_vi": "bảo tồn (công thức, truyền thống ẩm thực)",
+      "meaning_vi_inline": "bảo tồn",
+      "example_en": "The community cookbook was created to preserve traditional recipes before they were forgotten.",
+      "example_vi": "Cuốn sách dạy nấu ăn cộng đồng được tạo ra để bảo tồn các công thức truyền thống trước khi chúng bị lãng quên.",
+      "word_family": {
+        "noun": "preservation",
+        "verb": "preserve",
+        "adjective": "preserved",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "local dish",
+      "ipa": "/ˈləʊ.kəl dɪʃ/",
+      "pos": "noun phrase",
+      "meaning_vi": "món ăn địa phương, đặc sản vùng miền",
+      "meaning_vi_inline": "món ăn địa phương",
+      "example_en": "Bún bò Huế is a local dish that has become famous across Vietnam and internationally.",
+      "example_vi": "Bún bò Huế là một món ăn địa phương đã trở nên nổi tiếng khắp Việt Nam và quốc tế.",
+      "word_family": {
+        "noun": "local dish / speciality",
+        "verb": null,
+        "adjective": "local",
+        "adverb": "locally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "pos": "noun / verb",
+      "meaning_vi": "ảnh hưởng (văn hóa khác lên ẩm thực)",
+      "meaning_vi_inline": "ảnh hưởng",
+      "example_en": "Vietnamese cuisine shows clear French influence in its use of baguettes and coffee.",
+      "example_vi": "Ẩm thực Việt Nam cho thấy ảnh hưởng rõ ràng của Pháp trong việc sử dụng bánh mì baguette và cà phê.",
+      "word_family": {
+        "noun": "influence",
+        "verb": "influence",
+        "adjective": "influential",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "identity",
+      "ipa": "/aɪˈden.tɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "bản sắc (văn hóa, dân tộc thể hiện qua ẩm thực)",
+      "meaning_vi_inline": "bản sắc",
+      "example_en": "Food is central to cultural identity — it tells the story of a people's history and values.",
+      "example_vi": "Ẩm thực là trung tâm của bản sắc văn hóa — nó kể câu chuyện về lịch sử và giá trị của một dân tộc.",
+      "word_family": {
+        "noun": "identity / identification",
+        "verb": "identify",
+        "adjective": "identifiable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "ritual",
+      "ipa": "/ˈrɪtʃ.u.əl/",
+      "pos": "noun / adjective",
+      "meaning_vi": "nghi lễ, nghi thức (gắn với ẩm thực)",
+      "meaning_vi_inline": "nghi lễ",
+      "example_en": "Making rice wine together is an important ritual in many traditional harvest celebrations.",
+      "example_vi": "Nấu rượu nếp cùng nhau là một nghi lễ quan trọng trong nhiều lễ hội thu hoạch truyền thống.",
+      "word_family": {
+        "noun": "ritual",
+        "verb": null,
+        "adjective": "ritual / ritualistic",
+        "adverb": "ritually"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "word": "method",
+      "ipa": "/ˈmeθ.əd/",
+      "pos": "noun",
+      "meaning_vi": "phương pháp (nấu ăn, chế biến thực phẩm)",
+      "meaning_vi_inline": "phương pháp",
+      "example_en": "The traditional cooking method for this dish involves slow-simmering for over six hours.",
+      "example_vi": "Phương pháp nấu ăn truyền thống cho món này là đun lửa nhỏ trong hơn sáu giờ.",
+      "word_family": {
+        "noun": "method / methodology",
+        "verb": null,
+        "adjective": "methodical",
+        "adverb": "methodically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "flavour",
+      "ipa": "/ˈfleɪ.vər/",
+      "pos": "noun",
+      "meaning_vi": "hương vị, mùi vị (của thực phẩm)",
+      "meaning_vi_inline": "hương vị",
+      "example_en": "The secret to this dish's unique flavour lies in the combination of spices and slow cooking.",
+      "example_vi": "Bí quyết cho hương vị độc đáo của món ăn này nằm ở sự kết hợp của các loại gia vị và nấu chậm.",
+      "word_family": {
+        "noun": "flavour",
+        "verb": "flavour",
+        "adjective": "flavourful / flavoursome",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "word": "cook",
+      "ipa": "/kʊk/",
+      "pos": "noun / verb",
+      "meaning_vi": "đầu bếp; nấu ăn",
+      "meaning_vi_inline": "đầu bếp, nấu ăn",
+      "example_en": "Her grandmother was an excellent cook who could make a feast from the simplest ingredients.",
+      "example_vi": "Bà ngoại của cô là một đầu bếp xuất sắc có thể tạo ra một bữa tiệc từ những nguyên liệu đơn giản nhất.",
+      "word_family": {
+        "noun": "cook / cooker / cooking",
+        "verb": "cook",
+        "adjective": "cooked / uncooked",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "cooker",
+        "explanation_vi": "Trong tiếng Anh, 'cook' là người nấu ăn; 'cooker' là thiết bị nấu ăn (như bếp lò). Đây là lỗi phổ biến của người học: 'She is a good cook' (đúng) — không dùng 'cooker' chỉ người."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "symbolic",
+      "ipa": "/sɪmˈbɒl.ɪk/",
+      "pos": "adjective",
+      "meaning_vi": "mang tính biểu tượng, có ý nghĩa biểu trưng",
+      "meaning_vi_inline": "mang tính biểu tượng",
+      "example_en": "Sharing food at the table has deep symbolic meaning in most cultures around the world.",
+      "example_vi": "Chia sẻ bữa ăn tại bàn có ý nghĩa biểu tượng sâu sắc trong hầu hết các nền văn hóa trên thế giới.",
+      "word_family": {
+        "noun": "symbol / symbolism",
+        "verb": "symbolise",
+        "adjective": "symbolic",
+        "adverb": "symbolically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "B1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "A local dish can reflect the geography, history, and values of a culture.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage says that all traditional recipes should use processed ingredients for consistency.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Vietnamese pho is mentioned in the passage as an example of a heritage food.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "The flavour of a dish can trigger emotional memories related to a specific time or place.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Globalisation has had no effect on traditional cooking methods or ingredients.",
+          "answer": "False"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The unique _____ of this regional sauce comes from wild herbs that grow only here.",
+          "options": [
+            "method",
+            "heritage",
+            "flavour",
+            "ritual"
+          ],
+          "answer": "flavour"
+        },
+        {
+          "id": 2,
+          "sentence": "Sharing a meal at a family gathering is a deeply _____ act in many Asian cultures.",
+          "options": [
+            "real",
+            "traditional",
+            "symbolic",
+            "local"
+          ],
+          "answer": "symbolic"
+        },
+        {
+          "id": 3,
+          "sentence": "The chef spent months documenting traditional _____ from elderly villagers before they were lost.",
+          "options": [
+            "recipes",
+            "flavours",
+            "rituals",
+            "methods"
+          ],
+          "answer": "recipes"
+        },
+        {
+          "id": 4,
+          "sentence": "The family uses only fresh, _____ ingredients and avoids all processed substitutes.",
+          "options": [
+            "symbolic",
+            "real",
+            "local",
+            "traditional"
+          ],
+          "answer": "real"
+        },
+        {
+          "id": 5,
+          "sentence": "Community organisations are working to _____ traditional cooking techniques for future generations.",
+          "options": [
+            "cook",
+            "influence",
+            "preserve",
+            "identify"
+          ],
+          "answer": "preserve"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "local dish",
+        "heritage",
+        "ingredient",
+        "method",
+        "ritual"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Bánh mì is a famous Vietnamese _____ that has gained international recognition.",
+          "answer": "local dish"
+        },
+        {
+          "id": 2,
+          "sentence": "Vietnamese cuisine is widely celebrated as a rich culinary _____ worthy of preservation.",
+          "answer": "heritage"
+        },
+        {
+          "id": 3,
+          "sentence": "The secret _____ in her grandmother's soup was a rare mushroom from the northern mountains.",
+          "answer": "ingredient"
+        },
+        {
+          "id": 4,
+          "sentence": "The traditional cooking _____ for this dish involves wrapping it in banana leaves and steaming for three hours.",
+          "answer": "method"
+        },
+        {
+          "id": 5,
+          "sentence": "Preparing moon cakes together is a _____ that Vietnamese families observe every Mid-Autumn Festival.",
+          "answer": "ritual"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "local",
+            "food",
+            "is",
+            "the",
+            "most",
+            "direct",
+            "way",
+            "to",
+            "understand",
+            "the",
+            "history",
+            "of",
+            "a",
+            "culture"
+          ],
+          "answer": "Local food is the most direct way to understand the history of a culture."
+        },
+        {
+          "id": 2,
+          "words": [
+            "sharing",
+            "a",
+            "traditional",
+            "dish",
+            "is",
+            "a",
+            "ritual",
+            "that",
+            "brings",
+            "families",
+            "and",
+            "communities",
+            "together"
+          ],
+          "answer": "Sharing a traditional dish is a ritual that brings families and communities together."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "flavour",
+            "of",
+            "her",
+            "grandmother's",
+            "cooking",
+            "brought",
+            "back",
+            "powerful",
+            "childhood",
+            "memories"
+          ],
+          "answer": "The flavour of her grandmother's cooking brought back powerful childhood memories."
+        },
+        {
+          "id": 4,
+          "words": [
+            "efforts",
+            "to",
+            "preserve",
+            "traditional",
+            "recipes",
+            "are",
+            "essential",
+            "for",
+            "protecting",
+            "cultural",
+            "heritage"
+          ],
+          "answer": "Efforts to preserve traditional recipes are essential for protecting cultural heritage."
+        },
+        {
+          "id": 5,
+          "words": [
+            "the",
+            "symbolic",
+            "meaning",
+            "of",
+            "food",
+            "in",
+            "a",
+            "culture",
+            "goes",
+            "far",
+            "beyond",
+            "just",
+            "nutrition"
+          ],
+          "answer": "The symbolic meaning of food in a culture goes far beyond just nutrition."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [taste] of her mother's cooking always reminds her of family celebrations at home.",
+          "highlighted": "taste",
+          "options": {
+            "A": "flavour",
+            "B": "taste",
+            "C": "smell"
+          },
+          "answer": "A",
+          "explanation": "'Flavour' is the target vocabulary term and the more precise culinary word for the combined sensory qualities of food (taste and smell together). 'Taste' is acceptable in everyday speech but is a narrower term — 'flavour' is preferred in formal writing about food and culture."
+        },
+        {
+          "id": 2,
+          "sentence": "The chef documented the [steps] of slow-cooking the stew so future generations could learn it.",
+          "highlighted": "steps",
+          "options": {
+            "A": "process",
+            "B": "method",
+            "C": "steps"
+          },
+          "answer": "B",
+          "explanation": "'Method' is the correct culinary term for the specific technique or approach used in cooking. 'Steps' are the individual actions in a process, not the overall approach. 'Process' is broader and less specific to cooking."
+        },
+        {
+          "id": 3,
+          "sentence": "Using fresh, local [materials] is the key to making this sauce taste authentic.",
+          "highlighted": "materials",
+          "options": {
+            "A": "ingredients",
+            "B": "materials",
+            "C": "products"
+          },
+          "answer": "A",
+          "explanation": "'Ingredients' is the standard culinary term for the components used in a recipe. 'Materials' refers to raw substances used in manufacturing or construction — not food. 'Products' implies finished goods, not components used in cooking."
+        },
+        {
+          "id": 4,
+          "sentence": "Offering rice and fruit on the altar during Tết is a deeply [meaningful] practice in Vietnamese culture.",
+          "highlighted": "meaningful",
+          "options": {
+            "A": "spiritual",
+            "B": "meaningful",
+            "C": "symbolic"
+          },
+          "answer": "C",
+          "explanation": "'Symbolic' is the target vocabulary term describing an act that carries a deeper cultural or spiritual meaning. While 'meaningful' and 'spiritual' are possible, 'symbolic' precisely describes a practice that represents something beyond its literal action — which is the specific vocabulary focus here."
+        },
+        {
+          "id": 5,
+          "sentence": "Community groups are working hard to [keep] traditional cooking techniques from disappearing.",
+          "highlighted": "keep",
+          "options": {
+            "A": "save",
+            "B": "keep",
+            "C": "preserve"
+          },
+          "answer": "C",
+          "explanation": "'Preserve' is the target vocabulary term specifically used for protecting cultural traditions, heritage, and knowledge from being lost over time. 'Keep' is too general, and 'save' implies rescuing from immediate danger rather than active, ongoing protection."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "False"
+    },
+    "ex2": {
+      "1": "flavour",
+      "2": "symbolic",
+      "3": "recipes",
+      "4": "real",
+      "5": "preserve"
+    },
+    "ex3": {
+      "1": "local dish",
+      "2": "heritage",
+      "3": "ingredient",
+      "4": "method",
+      "5": "ritual"
+    },
+    "ex4": {
+      "1": "Local food is the most direct way to understand the history of a culture.",
+      "2": "Sharing a traditional dish is a ritual that brings families and communities together.",
+      "3": "The flavour of her grandmother's cooking brought back powerful childhood memories.",
+      "4": "Efforts to preserve traditional recipes are essential for protecting cultural heritage.",
+      "5": "The symbolic meaning of food in a culture goes far beyond just nutrition."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "C",
+      "5": "C"
+    }
+  }
+}

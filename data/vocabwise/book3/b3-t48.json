@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "book": 3,
+    "topic_number": 48,
+    "topic_id": "b3-t48",
+    "topic_title": "Language Change & Evolution",
+    "topic_title_vi": "Sự Thay Đổi & Tiến Hóa Ngôn Ngữ",
+    "theme_number": 5,
+    "theme_title": "Language & Communication",
+    "theme_title_vi": "Ngôn Ngữ & Giao Tiếp",
+    "cefr_level": "C1-C2",
+    "combo": "C1",
+    "emoji": "🔤",
+    "status": "qa_pass",
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-14"
+    }
+  },
+  "passage": {
+    "word_count": 222,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Language is never static. To **trace linguistic evolution** is to discover that the words speakers use today have travelled through centuries of contact, conquest, and cultural exchange. The study of **etymology** reveals how words carry the traces of distant civilisations within them — a single term may contain layers of Latin, Old Norse, and Arabic influence. Linguists who **document semantic shift** can show how a word's meaning migrates gradually, often driven by social change rather than deliberate choice.",
+        "text_vi": "Ngôn ngữ không bao giờ đứng yên. **Theo dõi sự tiến hóa ngôn ngữ** là khám phá rằng những từ người nói dùng ngày nay đã trải qua nhiều thế kỷ tiếp xúc, chinh phục và giao thoa văn hóa. Nghiên cứu **từ nguyên học** tiết lộ cách các từ mang trong mình dấu vết của những nền văn minh xa xôi — một từ đơn có thể chứa đựng các lớp ảnh hưởng từ tiếng Latin, tiếng Norse cổ và tiếng Ả Rập. Các nhà ngôn ngữ học **ghi chép lại sự chuyển nghĩa** có thể chỉ ra cách nghĩa của một từ dần dần di chuyển, thường được thúc đẩy bởi sự thay đổi xã hội hơn là sự lựa chọn có chủ ý."
+      },
+      {
+        "index": 2,
+        "text_en": "One of the most visible mechanisms of change is **borrowing** — the adoption of words from other languages into a recipient tongue. English, for instance, has one of the largest **lexicons** of any language precisely because it has borrowed prolifically from French, German, and dozens of other sources. Alongside borrowing, **coinage** — the deliberate invention of new words — accelerates when technology or social movements demand expressions that do not yet exist. Writers and marketers who **coin new terminology** often find their inventions absorbed into everyday speech within a generation.",
+        "text_vi": "Một trong những cơ chế thay đổi rõ ràng nhất là **vay mượn từ vựng** — sự tiếp nhận các từ từ ngôn ngữ khác vào ngôn ngữ tiếp nhận. Tiếng Anh, chẳng hạn, có một trong những **kho từ vựng** lớn nhất của bất kỳ ngôn ngữ nào chính xác là vì đã vay mượn phong phú từ tiếng Pháp, tiếng Đức và hàng chục nguồn khác. Bên cạnh vay mượn, **tạo từ mới** — việc cố tình phát minh ra các từ mới — tăng tốc khi công nghệ hay các phong trào xã hội đòi hỏi những cách diễn đạt chưa tồn tại. Các nhà văn và nhà tiếp thị **đặt ra thuật ngữ mới** thường thấy các sáng tạo của họ được hấp thụ vào lời nói hàng ngày trong vòng một thế hệ."
+      },
+      {
+        "index": 3,
+        "text_en": "Contact between populations also gives rise to **pidgin** languages — simplified hybrid systems that emerge when speakers of different tongues must communicate for trade or work. Over generations, a pidgin may develop into a **creole**, acquiring native speakers and the full grammatical complexity of a natural language. Those who **resist linguistic standardisation** argue that imposing a single prestige variety erases the rich diversity encoded in regional speech. The **standardisation** of spelling and grammar, while aiding literacy, can accelerate **obsolescence** by pushing non-standard forms toward extinction.",
+        "text_vi": "Sự tiếp xúc giữa các cộng đồng dân cư cũng tạo ra các ngôn ngữ **pidgin** — những hệ thống lai ghép đơn giản hóa xuất hiện khi những người nói các thứ tiếng khác nhau phải giao tiếp vì mục đích thương mại hay công việc. Qua nhiều thế hệ, một ngôn ngữ pidgin có thể phát triển thành ngôn ngữ **creole**, có người bản ngữ và toàn bộ độ phức tạp ngữ pháp của một ngôn ngữ tự nhiên. Những người **kháng cự việc chuẩn hóa ngôn ngữ** lập luận rằng áp đặt một biến thể uy tín duy nhất xóa bỏ sự đa dạng phong phú được mã hóa trong ngôn ngữ địa phương. **Sự chuẩn hóa** chính tả và ngữ pháp, trong khi hỗ trợ khả năng đọc viết, có thể đẩy nhanh **sự lỗi thời** bằng cách đẩy các hình thức phi chuẩn đến nguy cơ tuyệt chủng."
+      },
+      {
+        "index": 4,
+        "text_en": "Meanwhile, every language carries within it a **semantic shift** history — words that once meant something entirely different. The word 'silly', for example, originally meant 'blessed'. A **neologism** that seems jarring today may become unremarkable within a decade, while established words slip quietly into **obsolescence**. Linguists who work to **preserve endangered dialects** argue that each lost variety represents an irreplaceable way of perceiving and organising human experience, a unique cognitive and cultural heritage that cannot be recovered once gone.",
+        "text_vi": "Trong khi đó, mỗi ngôn ngữ đều mang trong mình lịch sử **chuyển nghĩa** — những từ từng có nghĩa hoàn toàn khác. Từ 'silly' trong tiếng Anh, chẳng hạn, ban đầu có nghĩa là 'được ban phước'. Một **từ mới** nghe có vẻ kỳ lạ ngày hôm nay có thể trở nên bình thường trong vòng một thập kỷ, trong khi những từ đã được thiết lập lại lặng lẽ rơi vào **sự lỗi thời**. Các nhà ngôn ngữ học nỗ lực **bảo tồn các phương ngữ có nguy cơ biến mất** lập luận rằng mỗi biến thể bị mất đi là một cách nhìn nhận và tổ chức trải nghiệm con người không thể thay thế — một di sản nhận thức và văn hóa độc đáo không thể phục hồi khi đã mất."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": 1,
+      "word": "etymology",
+      "ipa": "/ˌet.ɪˈmɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "từ nguyên học, nguồn gốc của từ",
+      "meaning_vi_inline": "từ nguyên học",
+      "example_en": "The etymology of the word 'school' traces back to the Ancient Greek word for leisure.",
+      "example_vi": "Từ nguyên học của từ 'school' có thể truy nguyên về từ tiếng Hy Lạp cổ đại có nghĩa là thời gian rảnh rỗi.",
+      "word_family": {
+        "noun": "etymology / etymologist",
+        "verb": null,
+        "adjective": "etymological",
+        "adverb": "etymologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "neologism",
+      "ipa": "/niˈɒl.ə.dʒɪ.z(ə)m/",
+      "pos": "noun",
+      "meaning_vi": "từ mới, tân ngữ",
+      "meaning_vi_inline": "từ mới",
+      "example_en": "Words like 'selfie' and 'podcast' began as neologisms before entering standard dictionaries.",
+      "example_vi": "Những từ như 'selfie' và 'podcast' bắt đầu là từ mới trước khi được đưa vào từ điển tiêu chuẩn.",
+      "word_family": {
+        "noun": "neologism / neologist",
+        "verb": "neologise",
+        "adjective": "neologistic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "semantic shift",
+      "ipa": "/sɪˈmæn.tɪk ʃɪft/",
+      "pos": "noun phrase",
+      "meaning_vi": "sự chuyển nghĩa, sự thay đổi ý nghĩa của từ",
+      "meaning_vi_inline": "chuyển nghĩa",
+      "example_en": "The semantic shift of 'awful' from 'inspiring awe' to 'very bad' happened gradually over centuries.",
+      "example_vi": "Sự chuyển nghĩa của từ 'awful' từ 'gây cảm giác sợ hãi tôn kính' sang 'rất tệ' diễn ra dần dần qua nhiều thế kỷ.",
+      "word_family": {
+        "noun": "semantic shift / semantics",
+        "verb": null,
+        "adjective": "semantic",
+        "adverb": "semantically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 4,
+      "word": "borrowing",
+      "ipa": "/ˈbɒr.əʊ.ɪŋ/",
+      "pos": "noun",
+      "meaning_vi": "sự vay mượn từ vựng (từ ngôn ngữ khác)",
+      "meaning_vi_inline": "vay mượn từ vựng",
+      "example_en": "Linguistic borrowing has enriched the English lexicon with thousands of words from French and Latin.",
+      "example_vi": "Vay mượn ngôn ngữ đã làm giàu kho từ vựng tiếng Anh với hàng nghìn từ từ tiếng Pháp và tiếng Latin.",
+      "word_family": {
+        "noun": "borrowing / loanword",
+        "verb": "borrow",
+        "adjective": "borrowed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "standardisation",
+      "ipa": "/ˌstæn.də.daɪˈzeɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự chuẩn hóa (ngôn ngữ)",
+      "meaning_vi_inline": "sự chuẩn hóa",
+      "example_en": "The standardisation of English spelling accelerated significantly after the invention of the printing press.",
+      "example_vi": "Sự chuẩn hóa chính tả tiếng Anh tăng tốc đáng kể sau khi máy in được phát minh.",
+      "word_family": {
+        "noun": "standardisation / standard",
+        "verb": "standardise",
+        "adjective": "standardised / standard",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "pidgin",
+      "ipa": "/ˈpɪdʒ.ɪn/",
+      "pos": "noun",
+      "meaning_vi": "ngôn ngữ pidgin, ngôn ngữ lai ghép đơn giản hóa",
+      "meaning_vi_inline": "ngôn ngữ pidgin",
+      "example_en": "Tok Pisin, a pidgin that developed in Papua New Guinea, is now an official language of that country.",
+      "example_vi": "Tok Pisin, một ngôn ngữ pidgin phát triển ở Papua New Guinea, hiện là ngôn ngữ chính thức của quốc gia đó.",
+      "word_family": {
+        "noun": "pidgin",
+        "verb": null,
+        "adjective": "pidginised",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "creole",
+        "explanation_vi": "'Pidgin' là ngôn ngữ lai ghép đơn giản không có người bản ngữ; 'creole' là ngôn ngữ lai đã phát triển đầy đủ với người bản ngữ — đây là hai giai đoạn phát triển khác nhau."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "creole",
+      "ipa": "/ˈkriː.əʊl/",
+      "pos": "noun",
+      "meaning_vi": "ngôn ngữ creole, ngôn ngữ lai phát triển đầy đủ",
+      "meaning_vi_inline": "ngôn ngữ creole",
+      "example_en": "Haitian Creole evolved from a pidgin into a fully developed creole with millions of native speakers.",
+      "example_vi": "Tiếng Creole Haiti phát triển từ một ngôn ngữ pidgin thành một ngôn ngữ creole phát triển đầy đủ với hàng triệu người bản ngữ.",
+      "word_family": {
+        "noun": "creole / creolisation",
+        "verb": "creolise",
+        "adjective": "creolised",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "pidgin",
+        "explanation_vi": "'Creole' là ngôn ngữ lai đã có người bản ngữ và ngữ pháp hoàn chỉnh; 'pidgin' là dạng sơ khai hơn, không có người bản ngữ — cần phân biệt rõ."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "lexicon",
+      "ipa": "/ˈlek.sɪ.kɒn/",
+      "pos": "noun",
+      "meaning_vi": "kho từ vựng, hệ thống từ ngữ của một ngôn ngữ",
+      "meaning_vi_inline": "kho từ vựng",
+      "example_en": "The lexicon of any living language expands and contracts in response to social and technological change.",
+      "example_vi": "Kho từ vựng của bất kỳ ngôn ngữ sống nào đều mở rộng và thu hẹp theo sự thay đổi xã hội và công nghệ.",
+      "word_family": {
+        "noun": "lexicon / lexis / lexicology",
+        "verb": null,
+        "adjective": "lexical",
+        "adverb": "lexically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 9,
+      "word": "obsolescence",
+      "ipa": "/ˌɒb.səˈles.əns/",
+      "pos": "noun",
+      "meaning_vi": "sự lỗi thời, sự trở nên lỗi thời",
+      "meaning_vi_inline": "sự lỗi thời",
+      "example_en": "The obsolescence of words like 'forsooth' reflects the social changes that rendered them irrelevant.",
+      "example_vi": "Sự lỗi thời của những từ như 'forsooth' phản ánh những thay đổi xã hội đã khiến chúng trở nên không còn phù hợp.",
+      "word_family": {
+        "noun": "obsolescence",
+        "verb": "obsolesce",
+        "adjective": "obsolescent / obsolete",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "coinage",
+      "ipa": "/ˈkɔɪ.nɪdʒ/",
+      "pos": "noun",
+      "meaning_vi": "sự tạo từ mới, từ mới được đặt ra",
+      "meaning_vi_inline": "sự tạo từ mới",
+      "example_en": "The coinage of 'cyberspace' by William Gibson proved remarkably enduring.",
+      "example_vi": "Sự tạo ra từ 'cyberspace' của William Gibson đã chứng tỏ sức bền đáng kể.",
+      "word_family": {
+        "noun": "coinage",
+        "verb": "coin",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "type": "collocation",
+      "collocation": "trace linguistic evolution",
+      "meaning_vi": "theo dõi sự tiến hóa ngôn ngữ",
+      "example_en": "Historians of language use written records to trace linguistic evolution over centuries.",
+      "example_vi": "Các nhà sử học ngôn ngữ dùng tài liệu viết để theo dõi sự tiến hóa ngôn ngữ qua nhiều thế kỷ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 12,
+      "type": "collocation",
+      "collocation": "coin new terminology",
+      "meaning_vi": "đặt ra thuật ngữ mới",
+      "example_en": "Scientists frequently need to coin new terminology when describing phenomena that have no existing name.",
+      "example_vi": "Các nhà khoa học thường xuyên cần đặt ra thuật ngữ mới khi mô tả các hiện tượng chưa có tên gọi.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "type": "collocation",
+      "collocation": "resist linguistic standardisation",
+      "meaning_vi": "kháng cự việc chuẩn hóa ngôn ngữ",
+      "example_en": "Many communities resist linguistic standardisation as a way of preserving their cultural identity.",
+      "example_vi": "Nhiều cộng đồng kháng cự việc chuẩn hóa ngôn ngữ như một cách để bảo tồn bản sắc văn hóa của họ.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 14,
+      "type": "collocation",
+      "collocation": "document semantic shift",
+      "meaning_vi": "ghi chép lại sự chuyển nghĩa",
+      "example_en": "The Oxford English Dictionary was designed specifically to document semantic shift across historical periods.",
+      "example_vi": "Từ điển tiếng Anh Oxford được thiết kế đặc biệt để ghi chép lại sự chuyển nghĩa qua các giai đoạn lịch sử.",
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "type": "collocation",
+      "collocation": "preserve endangered dialects",
+      "meaning_vi": "bảo tồn các phương ngữ có nguy cơ biến mất",
+      "example_en": "Oral history projects have been launched to preserve endangered dialects before their last speakers pass away.",
+      "example_vi": "Các dự án lịch sử truyền miệng đã được khởi động để bảo tồn các phương ngữ có nguy cơ biến mất trước khi những người nói cuối cùng qua đời.",
+      "receptive_productive": "P"
+    }
+  ],
+  "exercises": {
+    "combo": "C1",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
+      "items": [
+        {
+          "id": 1,
+          "statement": "According to the passage, English has a large lexicon partly because it has borrowed extensively from other languages.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The passage states that pidgin languages always remain simple and never gain native speakers.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "The passage suggests that the word 'silly' originally had a positive meaning.",
+          "answer": "True"
+        },
+        {
+          "id": 4,
+          "statement": "According to the passage, standardisation of spelling has no negative consequences for language diversity.",
+          "answer": "False"
+        },
+        {
+          "id": 5,
+          "statement": "The passage mentions that the majority of neologisms fail to enter standard dictionaries within ten years.",
+          "answer": "Not Given"
+        }
+      ]
+    },
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of the word 'disaster' reveals that it originally referred to the unfavourable position of a star.",
+          "options": [
+            "coinage",
+            "etymology",
+            "obsolescence",
+            "standardisation"
+          ],
+          "answer": "etymology"
+        },
+        {
+          "id": 2,
+          "sentence": "As horse-drawn transport disappeared, much of the vocabulary associated with it fell into _____.",
+          "options": [
+            "neologism",
+            "borrowing",
+            "lexicon",
+            "obsolescence"
+          ],
+          "answer": "obsolescence"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of 'robot' is credited to the Czech playwright Karel Čapek, who introduced it in a 1920 play.",
+          "options": [
+            "coinage",
+            "creole",
+            "semantic shift",
+            "pidgin"
+          ],
+          "answer": "coinage"
+        },
+        {
+          "id": 4,
+          "sentence": "After two generations of native speakers, the contact language had evolved from a _____ into a fully-fledged creole.",
+          "options": [
+            "borrowing",
+            "neologism",
+            "pidgin",
+            "lexicon"
+          ],
+          "answer": "pidgin"
+        },
+        {
+          "id": 5,
+          "sentence": "The entire _____ of a specialist field such as tax law is largely inaccessible to non-experts.",
+          "options": [
+            "etymology",
+            "lexicon",
+            "coinage",
+            "standardisation"
+          ],
+          "answer": "lexicon"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box. There is one extra word you do not need.",
+      "word_bank": [
+        "neologism",
+        "borrowing",
+        "semantic shift",
+        "creole",
+        "standardisation",
+        "etymology"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ 'to google something' entered common usage so rapidly that dictionaries added it within a few years.",
+          "answer": "neologism"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of words from colonial languages dramatically reshaped local vocabularies across Southeast Asia.",
+          "answer": "borrowing"
+        },
+        {
+          "id": 3,
+          "sentence": "The word 'nice' has undergone considerable _____, shifting from its original meaning of 'foolish' to its current sense of 'pleasant'.",
+          "answer": "semantic shift"
+        },
+        {
+          "id": 4,
+          "sentence": "Linguists debate whether the _____ of written language suppresses the natural evolution of spoken forms.",
+          "answer": "standardisation"
+        },
+        {
+          "id": 5,
+          "sentence": "Gullah, spoken on the Sea Islands of South Carolina, is a _____ that blends English with several West African languages.",
+          "answer": "creole"
+        }
+      ]
+    },
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "etymology",
+            "reveals",
+            "the",
+            "distant",
+            "origins",
+            "of",
+            "everyday",
+            "words"
+          ],
+          "answer": "Etymology reveals the distant origins of everyday words."
+        },
+        {
+          "id": 2,
+          "words": [
+            "borrowing",
+            "from",
+            "other",
+            "languages",
+            "has",
+            "enriched",
+            "the",
+            "English",
+            "lexicon"
+          ],
+          "answer": "Borrowing from other languages has enriched the English lexicon."
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "pidgin",
+            "can",
+            "develop",
+            "into",
+            "a",
+            "creole",
+            "over",
+            "generations"
+          ],
+          "answer": "A pidgin can develop into a creole over generations."
+        },
+        {
+          "id": 4,
+          "words": [
+            "semantic",
+            "shift",
+            "changes",
+            "the",
+            "meaning",
+            "of",
+            "words",
+            "over",
+            "time"
+          ],
+          "answer": "Semantic shift changes the meaning of words over time."
+        },
+        {
+          "id": 5,
+          "words": [
+            "linguists",
+            "work",
+            "to",
+            "preserve",
+            "endangered",
+            "dialects",
+            "before",
+            "they",
+            "disappear"
+          ],
+          "answer": "Linguists work to preserve endangered dialects before they disappear."
+        }
+      ]
+    },
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one word in [brackets] that is incorrect. Choose the correct replacement.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The [etymological] of this term can be traced to a Sanskrit root meaning 'to shine'.",
+          "highlighted": "etymological",
+          "options": {
+            "A": "etymologist",
+            "B": "etymology",
+            "C": "etymologise"
+          },
+          "answer": "B",
+          "explanation": "A noun is needed as the subject of the sentence — 'etymology', not the adjective 'etymological'."
+        },
+        {
+          "id": 2,
+          "sentence": "Many communities actively [standardise] linguistic standardisation to maintain their regional identity.",
+          "highlighted": "standardise",
+          "options": {
+            "A": "resist",
+            "B": "standard",
+            "C": "standardising"
+          },
+          "answer": "A",
+          "explanation": "The collocation is 'resist linguistic standardisation'; 'standardise' contradicts the sentence's meaning entirely."
+        },
+        {
+          "id": 3,
+          "sentence": "The [obsolesce] of many traditional craft terms reflects the decline of the industries they described.",
+          "highlighted": "obsolesce",
+          "options": {
+            "A": "obsolescent",
+            "B": "obsolete",
+            "C": "obsolescence"
+          },
+          "answer": "C",
+          "explanation": "A noun is required as the subject of the sentence — 'obsolescence', not the verb 'obsolesce'."
+        },
+        {
+          "id": 4,
+          "sentence": "The linguist spent a decade working to [preserve] preservation of dialects spoken by fewer than a hundred people.",
+          "highlighted": "preserve",
+          "options": {
+            "A": "document",
+            "B": "ensure",
+            "C": "resist"
+          },
+          "answer": "B",
+          "explanation": "The phrase 'working to [verb] preservation' requires a verb that takes a noun object — 'ensure preservation' is grammatically correct; 'preserve preservation' is redundant."
+        },
+        {
+          "id": 5,
+          "sentence": "The rapid [coined] of internet vocabulary has outpaced the ability of dictionaries to keep up.",
+          "highlighted": "coined",
+          "options": {
+            "A": "coinage",
+            "B": "coin",
+            "C": "coining"
+          },
+          "answer": "A",
+          "explanation": "A noun is required after 'rapid' to serve as the subject — 'coinage', not the past participle 'coined'."
+        }
+      ]
+    }
+  },
+  "answer_key": {
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "True",
+      "4": "False",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "etymology",
+      "2": "obsolescence",
+      "3": "coinage",
+      "4": "pidgin",
+      "5": "lexicon"
+    },
+    "ex3": {
+      "1": "neologism",
+      "2": "borrowing",
+      "3": "semantic shift",
+      "4": "standardisation",
+      "5": "creole"
+    },
+    "ex4": {
+      "1": "Etymology reveals the distant origins of everyday words.",
+      "2": "Borrowing from other languages has enriched the English lexicon.",
+      "3": "A pidgin can develop into a creole over generations.",
+      "4": "Semantic shift changes the meaning of words over time.",
+      "5": "Linguists work to preserve endangered dialects before they disappear."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
+  }
+}
