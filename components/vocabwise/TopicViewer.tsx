@@ -6,12 +6,17 @@ import VWExerciseRunner from './VWExerciseRunner'
 import type { ExercisesData } from './types'
 
 type GlossaryItem = {
-  id: number; word: string; ipa: string; pos: string
+  id: number
+  type?: string
+  // word items (1–10)
+  word?: string; ipa?: string; pos?: string
+  word_family?: Record<string, string | null> | null
+  false_friend?: { word_vi: string; explanation_vi: string } | null
+  // collocation items (11–15)
+  collocation?: string
+  // shared
   meaning_vi: string; example_en: string; example_vi: string
-  word_family: Record<string, string | null> | null
-  false_friend: { word_vi: string; explanation_vi: string } | null
-  receptive_productive: string | null
-  item_type: string
+  receptive_productive?: string | null
 }
 type Paragraph = { index: number; text_en: string; text_vi: string }
 
@@ -257,69 +262,96 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {/* GLOSSARY TAB */}
         {tab === 'glossary' && (
           <div>
-            <p className="text-xs text-gray-400 text-center mb-4">{glossary.length} từ · Nhấn vào từ để xem chi tiết</p>
+            {(() => {
+              const wordCount = glossary.filter(i => i.type !== 'collocation').length
+              const collCount = glossary.filter(i => i.type === 'collocation').length
+              return (
+                <p className="text-xs text-gray-400 text-center mb-4">
+                  {collCount > 0
+                    ? `${wordCount} từ · ${collCount} collocation · Nhấn vào từ để xem chi tiết`
+                    : `${glossary.length} từ · Nhấn vào từ để xem chi tiết`
+                  }
+                </p>
+              )
+            })()}
             <div className="space-y-3">
-              {glossary.map(item => (
-                <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
-                  onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(item.word) }}>
-                  <summary className="px-4 py-3 cursor-pointer list-none flex items-center gap-3">
-                    <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-black text-xs flex items-center justify-center flex-shrink-0">
-                      {item.id}
-                    </span>
-                    <div className="flex-1">
-                      <span className="font-black text-gray-800 text-sm">{item.word}</span>
-                      <span className="text-gray-400 text-xs ml-2">{item.ipa}</span>
-                      <span className="text-gray-400 text-xs ml-2 italic">{item.pos}</span>
-                    </div>
-                    <span className="text-blue-600 font-bold text-sm">{item.meaning_vi.split(';')[0]}</span>
-                    <button
-                      onClick={e => { e.preventDefault(); speak(item.word) }}
-                      className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
-                      aria-label={`Phát âm ${item.word}`}
-                    >
-                      🔊
-                    </button>
-                    <span className="text-gray-300 font-bold group-open:rotate-180 transition-transform">▾</span>
-                  </summary>
-                  <div className="px-4 pb-4 pt-1 border-t border-gray-50 space-y-2">
-                    <p className="text-gray-600 text-xs"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
-                    <div className="flex items-start gap-1">
-                      <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
+              {glossary.map(item => {
+                const isCollocation = item.type === 'collocation'
+                const displayText = isCollocation ? (item.collocation ?? '') : (item.word ?? '')
+                return (
+                  <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
+                    onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(displayText) }}>
+                    <summary className="px-4 py-3 cursor-pointer list-none flex items-center gap-3">
+                      {isCollocation ? (
+                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0">
+                          💬
+                        </span>
+                      ) : (
+                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-black text-xs flex items-center justify-center flex-shrink-0">
+                          {item.id}
+                        </span>
+                      )}
+                      <div className="flex-1 min-w-0">
+                        <span className="font-black text-gray-800 text-sm">{displayText}</span>
+                        {isCollocation ? (
+                          <span className="text-purple-400 text-xs ml-2 italic">collocation</span>
+                        ) : (
+                          <>
+                            <span className="text-gray-400 text-xs ml-2">{item.ipa}</span>
+                            <span className="text-gray-400 text-xs ml-2 italic">{item.pos}</span>
+                          </>
+                        )}
+                      </div>
+                      <span className="text-blue-600 font-bold text-sm flex-shrink-0">{item.meaning_vi.split(';')[0]}</span>
                       <button
-                        onClick={() => speak(item.example_en)}
-                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
-                        aria-label="Phát âm câu ví dụ"
+                        onClick={e => { e.preventDefault(); speak(displayText) }}
+                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
+                        aria-label={`Phát âm ${displayText}`}
                       >
                         🔊
                       </button>
+                      <span className="text-gray-300 font-bold group-open:rotate-180 transition-transform">▾</span>
+                    </summary>
+                    <div className="px-4 pb-4 pt-1 border-t border-gray-50 space-y-2">
+                      <p className="text-gray-600 text-xs"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
+                      <div className="flex items-start gap-1">
+                        <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
+                        <button
+                          onClick={() => speak(item.example_en)}
+                          className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
+                          aria-label="Phát âm câu ví dụ"
+                        >
+                          🔊
+                        </button>
+                      </div>
+                      <p className="text-gray-500 text-xs italic">{item.example_vi}</p>
+                      {!isCollocation && item.word_family && Object.values(item.word_family).some(v => v) && (
+                        <div className="flex flex-wrap gap-1.5 pt-1">
+                          {Object.entries(item.word_family).map(([pos, form]) =>
+                            form ? (
+                              <span key={pos} className="text-xs bg-purple-50 text-purple-600 font-bold px-2 py-0.5 rounded-lg">
+                                {pos}: {form}
+                              </span>
+                            ) : null
+                          )}
+                        </div>
+                      )}
+                      {!isCollocation && item.false_friend && (
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl px-3 py-2">
+                          <p className="text-amber-700 text-xs"><span className="font-black">⚠️ False friend: </span>{item.false_friend.explanation_vi}</p>
+                        </div>
+                      )}
+                      {item.receptive_productive && (
+                        <span className={`inline-block text-xs font-black px-2 py-0.5 rounded-full ${
+                          item.receptive_productive === 'P' ? 'bg-red-100 text-red-600' : 'bg-gray-100 text-gray-500'
+                        }`}>
+                          {item.receptive_productive === 'P' ? 'P — Sản sinh' : 'R — Tiếp nhận'}
+                        </span>
+                      )}
                     </div>
-                    <p className="text-gray-500 text-xs italic">{item.example_vi}</p>
-                    {item.word_family && Object.values(item.word_family).some(v => v) && (
-                      <div className="flex flex-wrap gap-1.5 pt-1">
-                        {Object.entries(item.word_family).map(([pos, form]) =>
-                          form ? (
-                            <span key={pos} className="text-xs bg-purple-50 text-purple-600 font-bold px-2 py-0.5 rounded-lg">
-                              {pos}: {form}
-                            </span>
-                          ) : null
-                        )}
-                      </div>
-                    )}
-                    {item.false_friend && (
-                      <div className="bg-amber-50 border border-amber-200 rounded-xl px-3 py-2">
-                        <p className="text-amber-700 text-xs"><span className="font-black">⚠️ False friend: </span>{item.false_friend.explanation_vi}</p>
-                      </div>
-                    )}
-                    {item.receptive_productive && (
-                      <span className={`inline-block text-xs font-black px-2 py-0.5 rounded-full ${
-                        item.receptive_productive === 'P' ? 'bg-red-100 text-red-600' : 'bg-gray-100 text-gray-500'
-                      }`}>
-                        {item.receptive_productive === 'P' ? 'P — Sản sinh' : 'R — Tiếp nhận'}
-                      </span>
-                    )}
-                  </div>
-                </details>
-              ))}
+                  </details>
+                )
+              })}
             </div>
             <button onClick={() => setTab('exercises')}
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">

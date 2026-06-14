@@ -229,6 +229,48 @@ function buildVocabulary(glossary, bc) {
 
   for (const item of glossary) {
     const shade = item.id % 2 === 0 ? bc.light : C.white
+
+    // ── Collocation item (Book 3 items 11–15) ────────────────────────────────
+    if (item.type === 'collocation') {
+      const r1 = row([
+        cell(
+          [p([r(`${item.id}`, { bold: true, color: C.white, size: SZ.sm })],
+            { spacing: { before: 0, after: 0 } })],
+          { shade: bc.dark, width: 380, margins: { top: 100, bottom: 100, left: 120, right: 60 } }
+        ),
+        cell(
+          [p([
+            r((item.collocation ?? '') + '  ', { bold: true, color: bc.dark, size: SZ.md }),
+            r('collocation', { color: bc.accent, size: SZ.xs, italics: true }),
+          ], { spacing: { before: 0, after: 0 } })],
+          { shade, margins: { top: 100, bottom: 100, left: 140, right: 60 } }
+        ),
+        cell(
+          [p([r(item.meaning_vi, { bold: true, color: C.text, size: SZ.md })],
+            { spacing: { before: 0, after: 0 } })],
+          { shade, width: 2800, margins: { top: 100, bottom: 100, left: 60, right: 180 } }
+        ),
+      ])
+
+      const r2 = row([
+        cell([p([r('')], { spacing: { before: 0, after: 0 } })],
+          { shade, width: 380 }),
+        cell([
+          p([
+            r('✎  ', { color: bc.accent, size: SZ.sm }),
+            r(item.example_en, { italics: true, color: C.text, size: SZ.sm }),
+          ], { spacing: { before: 0, after: 40 } }),
+          p([r('     ' + item.example_vi, { italics: true, color: C.sub, size: SZ.xs })],
+            { spacing: { before: 0, after: 0 } }),
+        ], { shade, span: 2, margins: { top: 60, bottom: 100, left: 140, right: 180 } }),
+      ])
+
+      items.push(tbl([r1, r2]))
+      items.push(gap(80, 0))
+      continue
+    }
+
+    // ── Regular vocabulary item ───────────────────────────────────────────────
     const wf    = item.word_family
     const wfStr = wf
       ? Object.entries(wf).filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`).join('   ·   ')
