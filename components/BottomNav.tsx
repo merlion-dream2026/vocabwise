@@ -45,7 +45,7 @@ type ChildInfo = { id: string; name: string; emoji: string }
 type Child     = { id: string; name: string; emoji: string; pin?: string }
 
 const MODULE_TABS = [
-  { key: 'phonics',   label: 'Phát âm',   icon: '🔊', needsChild: true  },
+  { key: 'phonics',   label: 'Phonics',   icon: '🔊', needsChild: true  },
   { key: 'daily',     label: 'Daily',     icon: '📖', needsChild: true  },
   { key: 'academic',  label: 'Academic',  icon: '🎓', needsChild: false },
   { key: 'dashboard', label: 'Dashboard', icon: '📊', needsChild: false },
