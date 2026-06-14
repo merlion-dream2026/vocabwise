@@ -819,7 +819,7 @@ function ReportSettingsContent({ plan }: { plan: string }) {
         <span className="text-sm font-bold text-gray-700">Tự động gửi hàng tuần</span>
         <button
           onClick={() => setSettings(s => ({ ...s, enabled: !s.enabled, schedule: !s.enabled ? 'weekly' : 'manual' }))}
-          className={`relative flex-shrink-0 w-14 h-7 rounded-full transition-colors ${settings.enabled ? 'bg-purple-500' : 'bg-gray-300'}`}>
+          className={`relative flex-shrink-0 w-14 h-7 rounded-full transition-colors mr-1 ${settings.enabled ? 'bg-purple-500' : 'bg-gray-300'}`}>
           <span className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ${settings.enabled ? 'translate-x-8' : 'translate-x-1'}`} />
         </button>
       </div>
@@ -847,7 +847,7 @@ function ReportSettingsContent({ plan }: { plan: string }) {
           </div>
           <button
             onClick={() => setSettings(s => ({ ...s, monthly_recap: !s.monthly_recap }))}
-            className={`relative flex-shrink-0 w-14 h-7 rounded-full transition-colors ${settings.monthly_recap ? 'bg-indigo-500' : 'bg-gray-300'}`}>
+            className={`relative flex-shrink-0 w-14 h-7 rounded-full transition-colors mr-1 ${settings.monthly_recap ? 'bg-indigo-500' : 'bg-gray-300'}`}>
             <span className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ${settings.monthly_recap ? 'translate-x-8' : 'translate-x-1'}`} />
           </button>
         </div>
@@ -917,6 +917,12 @@ function PushNotificationContent() {
     setStatus('loading')
     setMsg('')
     try {
+      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY
+      if (!vapidKey) {
+        setStatus('error')
+        setMsg('❌ Tính năng thông báo chưa được cấu hình. Vui lòng liên hệ admin.')
+        return
+      }
       const permission = await Notification.requestPermission()
       if (permission !== 'granted') {
         setStatus('denied')
@@ -924,7 +930,6 @@ function PushNotificationContent() {
         return
       }
       const reg = await navigator.serviceWorker.ready
-      const vapidKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY!
       const subscription = await reg.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(vapidKey),
