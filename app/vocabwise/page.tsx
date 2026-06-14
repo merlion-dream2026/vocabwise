@@ -46,13 +46,13 @@ export default function VocabWisePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-6 text-white">
-        <button onClick={() => router.back()} className="text-blue-200 font-bold text-sm flex items-center gap-1 mb-4">← Chọn module</button>
-        <div className="flex items-center gap-3 mb-1">
-          <span className="text-3xl">🎓</span>
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+        <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
+          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <span className="text-2xl flex-shrink-0">🎓</span>
           <div>
-            <h1 className="text-2xl font-black">VocabWise Academic</h1>
-            <p className="text-blue-200 text-sm">Từ vựng học thuật · A1 → C2 · IELTS / SAT</p>
+            <h1 className="font-bold text-lg leading-tight">VocabWise Academic</h1>
+            <p className="text-blue-200 text-xs">Từ vựng học thuật · A1 → C2 · IELTS / SAT</p>
           </div>
         </div>
       </div>
