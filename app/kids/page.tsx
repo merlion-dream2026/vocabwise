@@ -316,48 +316,72 @@ export default function HomePage() {
                 </div>
 
                 {/* Module progress rows */}
-                <div className="space-y-2.5 mb-4">
-                  {/* Phonics */}
-                  <div>
-                    <div className="flex items-center justify-between text-xs mb-1">
-                      <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
-                      <span className="font-black text-gray-600">{phonics.seen}/{phonics.total} bài</span>
+                {totalXP === 0 && phonics.seen === 0 ? (
+                  <div className="bg-white/50 rounded-2xl px-4 py-3 mb-4 space-y-1.5">
+                    <p className={`font-black text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
+                    <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phát âm IPA · Từ vựng theo chủ đề · Bài tập học thuật</p>
+                    <div className="flex flex-wrap gap-1.5 pt-0.5">
+                      <span className="text-[11px] font-bold text-gray-400">🔤 Phát âm</span>
+                      <span className="text-gray-200">·</span>
+                      <span className="text-[11px] font-bold text-gray-400">📚 Kids Daily</span>
+                      <span className="text-gray-200">·</span>
+                      <span className="text-[11px] font-bold text-gray-400">🎓 Academic</span>
                     </div>
-                    <MiniBar value={phonics.seen} max={phonics.total} gradient={cfg.gradient} />
                   </div>
-
-                  {/* Daily */}
-                  <div>
-                    <div className="flex items-center justify-between text-xs mb-1">
-                      <span className={`font-bold ${cfg.text}`}>
-                        📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
-                      </span>
-                      <span className="font-black text-gray-600">
-                        {daily.topicsCompleted}/{daily.totalTopics} chủ đề · {daily.seenWords}/{daily.totalWords} từ
-                      </span>
+                ) : (
+                  <div className="space-y-2.5 mb-4">
+                    {/* Phonics */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
+                        <span className="font-black text-gray-600">{phonics.seen}/{phonics.total} bài</span>
+                      </div>
+                      <MiniBar value={phonics.seen} max={phonics.total} gradient={cfg.gradient} />
                     </div>
-                    <MiniBar value={daily.seenWords} max={daily.totalWords} gradient={cfg.gradient} />
-                  </div>
 
-                  {/* Academic */}
-                  <div>
-                    <div className="flex items-center justify-between text-xs mb-1">
-                      <span className={`font-bold ${cfg.text}`}>
-                        🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}
-                      </span>
-                      {acad.book
-                        ? <span className="font-black text-gray-600">{acad.completed}/{acad.total} chủ đề</span>
-                        : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>
-                      }
+                    {/* Daily */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className={`font-bold ${cfg.text}`}>
+                          📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
+                        </span>
+                        <span className="font-black text-gray-600">
+                          {daily.topicsCompleted}/{daily.totalTopics} chủ đề · {daily.seenWords}/{daily.totalWords} từ
+                        </span>
+                      </div>
+                      <MiniBar value={daily.seenWords} max={daily.totalWords} gradient={cfg.gradient} />
                     </div>
-                    {acad.book && <MiniBar value={acad.completed} max={acad.total} gradient={cfg.gradient} />}
-                  </div>
-                </div>
 
-                {/* CTA */}
-                <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
-                  {child.pin ? '🔒 Nhập PIN để vào học' : 'Bắt đầu học! →'}
-                </div>
+                    {/* Academic */}
+                    <div>
+                      <div className="flex items-center justify-between text-xs mb-1">
+                        <span className={`font-bold ${cfg.text}`}>
+                          🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}
+                        </span>
+                        {acad.book
+                          ? <span className="font-black text-gray-600">{acad.completed}/{acad.total} chủ đề</span>
+                          : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>
+                        }
+                      </div>
+                      {acad.book && <MiniBar value={acad.completed} max={acad.total} gradient={cfg.gradient} />}
+                    </div>
+                  </div>
+                )}
+
+                {/* CTA — streak-risk aware */}
+                {child.pin ? (
+                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
+                    🔒 Nhập PIN để vào học
+                  </div>
+                ) : lastActive === yesterStr && streakCur > 0 ? (
+                  <div className="bg-gradient-to-r from-orange-400 to-amber-400 text-white font-black text-base py-3 rounded-2xl text-center transition-colors duration-150">
+                    ⚡ Học ngay để giữ streak 🔥 {streakCur} ngày!
+                  </div>
+                ) : (
+                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
+                    {totalXP === 0 && phonics.seen === 0 ? '🌟 Bắt đầu học ngay! →' : 'Tiếp tục học! →'}
+                  </div>
+                )}
               </button>
             )
           })

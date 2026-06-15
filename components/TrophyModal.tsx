@@ -1,22 +1,46 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 type Props = {
   topicName: string
   topicEmoji: string
+  childName?: string
+  levelName?: string
   onDone: () => void
 }
 
-export default function TrophyModal({ topicName, topicEmoji, onDone }: Props) {
+const LEVEL_LABELS: Record<string, string> = {
+  seeker: 'Pre-A1', starter: 'A1', ranger: 'A2',
+  explorer: 'B1', scholar: 'B2', master: 'C1',
+}
+
+export default function TrophyModal({ topicName, topicEmoji, childName, levelName, onDone }: Props) {
   const [visible, setVisible] = useState(false)
+  const autoCloseRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
-    // Trigger entrance animation after mount
     const t1 = setTimeout(() => setVisible(true), 50)
-    const t2 = setTimeout(() => onDone(), 3500)
-    return () => { clearTimeout(t1); clearTimeout(t2) }
+    autoCloseRef.current = setTimeout(() => onDone(), 4000)
+    return () => { clearTimeout(t1); if (autoCloseRef.current) clearTimeout(autoCloseRef.current) }
   }, [])
+
+  function handleShare() {
+    if (autoCloseRef.current) { clearTimeout(autoCloseRef.current); autoCloseRef.current = null }
+    const level = levelName ? (LEVEL_LABELS[levelName] ?? levelName) : ''
+    const text = [
+      `🏆 ${childName ? childName + ' vừa' : 'Vừa'} chinh phục chủ đề ${topicEmoji} ${topicName}!`,
+      `📚 VocabWise Kids${level ? ` · ${level}` : ''}`,
+      'Học tiếng Anh vui và hiệu quả',
+      'vocabwise.vercel.app',
+    ].join('\n')
+    if (navigator.share) {
+      navigator.share({ title: 'VocabWise Kids', text, url: 'https://vocabwise.vercel.app' }).catch(() => {})
+    } else {
+      navigator.clipboard?.writeText(text).catch(() => {})
+      alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')
+    }
+  }
 
   return (
     <div
@@ -75,12 +99,23 @@ export default function TrophyModal({ topicName, topicEmoji, onDone }: Props) {
           </p>
         </div>
 
-        <p
-          className="text-white/50 text-xs mt-6 font-semibold"
-          style={{ animation: visible ? 'fadeInUp 0.5s 1s both' : 'none' }}
+        <div
+          className="flex gap-3 mt-6"
+          style={{ animation: visible ? 'fadeInUp 0.5s 0.9s both' : 'none' }}
         >
-          Chạm để đóng
-        </p>
+          <button
+            onClick={handleShare}
+            className="bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-black text-sm px-5 py-2.5 rounded-2xl active:scale-95 transition-transform"
+          >
+            📤 Chia sẻ
+          </button>
+          <button
+            onClick={onDone}
+            className="bg-white/20 hover:bg-white/30 text-white font-black text-sm px-5 py-2.5 rounded-2xl active:scale-95 transition-transform"
+          >
+            Tiếp tục →
+          </button>
+        </div>
       </div>
 
       <style>{`

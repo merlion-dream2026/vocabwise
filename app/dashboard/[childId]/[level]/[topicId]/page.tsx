@@ -216,6 +216,8 @@ export default function TopicPage() {
         <TrophyModal
           topicName={(topic as { name: string }).name}
           topicEmoji={(topic as { emoji: string }).emoji}
+          childName={child?.name}
+          levelName={level}
           onDone={() => setShowTrophy(false)}
         />
       )}
