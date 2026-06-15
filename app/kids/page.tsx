@@ -317,54 +317,39 @@ export default function HomePage() {
                 {totalXP === 0 && phonics.seen === 0 ? (
                   <div className="bg-white/50 rounded-2xl px-4 py-3 mb-4 space-y-1.5">
                     <p className={`font-black text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
-                    <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phát âm IPA · Từ vựng theo chủ đề · Bài tập học thuật</p>
+                    <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phonics · Từ vựng theo chủ đề · Bài tập học thuật</p>
                     <div className="flex flex-wrap gap-1.5 pt-0.5">
-                      <span className="text-[11px] font-bold text-gray-400">🔤 Phát âm</span>
+                      <span className="text-[11px] font-bold text-gray-400">🔤 Phonics</span>
                       <span className="text-gray-200">·</span>
-                      <span className="text-[11px] font-bold text-gray-400">📚 Kids Daily</span>
+                      <span className="text-[11px] font-bold text-gray-400">📚 Daily</span>
                       <span className="text-gray-200">·</span>
                       <span className="text-[11px] font-bold text-gray-400">🎓 Academic</span>
                     </div>
                   </div>
                 ) : (
-                  <div className="space-y-2.5 mb-4">
+                  <div className="space-y-1.5 mb-4">
                     {/* Phonics */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
-                        <span className="font-black text-gray-600">
-                          {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
-                        </span>
-                      </div>
-                      <MiniBar value={phonics.seen} max={phonics.total} gradient={cfg.gradient} />
+                    <div className="flex items-center justify-between text-xs">
+                      <span className={`font-bold ${cfg.text}`}>🔤 Phonics</span>
+                      <span className="font-black text-gray-600">
+                        {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
+                      </span>
                     </div>
 
-                    {/* Daily — all levels combined */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${cfg.text}`}>📚 VocabWise Daily</span>
-                        <span className="font-black text-gray-600">
-                          {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%)
-                        </span>
-                      </div>
-                      <div className="flex justify-end text-xs text-gray-400 mb-1">
-                        {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
-                      </div>
-                      <MiniBar value={allDaily.seenWords} max={allDaily.totalWords} gradient={cfg.gradient} />
+                    {/* Daily */}
+                    <div className="flex items-center justify-between text-xs">
+                      <span className={`font-bold ${cfg.text} flex-shrink-0`}>📚 Daily</span>
+                      <span className="font-black text-gray-600 text-right">
+                        {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
+                      </span>
                     </div>
 
-                    {/* Academic — all books combined */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${cfg.text}`}>🎓 Academic</span>
-                        <span className="font-black text-gray-600">
-                          {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%)
-                        </span>
-                      </div>
-                      <div className="flex justify-end text-xs text-gray-400 mb-1">
-                        {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
-                      </div>
-                      {allAcad.completed > 0 && <MiniBar value={allAcad.completed} max={allAcad.total} gradient={cfg.gradient} />}
+                    {/* Academic */}
+                    <div className="flex items-center justify-between text-xs">
+                      <span className={`font-bold ${cfg.text} flex-shrink-0`}>🎓 Academic</span>
+                      <span className="font-black text-gray-600 text-right">
+                        {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%) · {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
+                      </span>
                     </div>
                   </div>
                 )}
