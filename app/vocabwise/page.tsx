@@ -61,12 +61,14 @@ export default function VocabWisePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <UpgradeBanner
-        plan={session?.plan ?? 'free'}
-        freeTrialExpiresAt={session?.free_trial_expires_at}
-        planEndDate={session?.plan_end_date}
-        username={session?.username}
-      />
+      {session && (
+        <UpgradeBanner
+          plan={session.plan}
+          freeTrialExpiresAt={session.free_trial_expires_at}
+          planEndDate={session.plan_end_date}
+          username={session.username}
+        />
+      )}
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
+import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, type SyncLevel } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 
@@ -102,7 +102,7 @@ function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLev
           <p className="text-xs font-semibold text-amber-600">
             {phonics.seen === 0
               ? `${phonics.total} bài · Nguyên âm · Phụ âm · Khó với người Việt`
-              : `${phonics.seen}/${phonics.total} đã học · 🏆 ${phonics.mastered}/${phonics.total} thành thạo`
+              : `${phonics.seen}/${phonics.total} bài (${Math.floor(phonics.seen / phonics.total * 100)}%)`
             }
           </p>
         </div>
@@ -149,11 +149,11 @@ export default function ChildRoadmap() {
     </div>
   )
 
-  // Count overall Kids progress for the section card
-  const totalSeenWords = LEVEL_ORDER.reduce((sum, lvl) => sum + (syncByLevel[lvl]?.seen?.length ?? 0), 0)
-  const totalMastered  = LEVEL_ORDER.reduce((sum, lvl) =>
-    sum + Object.values(syncByLevel[lvl]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length, 0)
-  const kidsStarted = totalSeenWords > 0
+  // Progress aggregates (consistent with kids profile card)
+  const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
+  const allDaily = getAllDailyProgress(syncByLevel)
+  const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
+  const kidsStarted = allDaily.seenWords > 0
 
   // Daily missions
   const todayStr = new Date().toISOString().split('T')[0]
@@ -246,7 +246,7 @@ export default function ChildRoadmap() {
               </div>
               <p className="text-xs font-semibold text-purple-600">
                 {kidsStarted
-                  ? `${totalSeenWords} từ đã học · ${totalMastered} chủ đề hoàn thành`
+                  ? `${allDaily.topicsCompleted}/${allDaily.totalTopics} chủ đề (${pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · ${allDaily.seenWords}/${allDaily.totalWords} từ (${pf(allDaily.seenWords, allDaily.totalWords)}%)`
                   : '180 chủ đề · 4.500+ từ · 6 cấp độ CEFR'}
               </p>
             </div>
@@ -269,7 +269,9 @@ export default function ChildRoadmap() {
                 <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IELTS · SAT</span>
               </div>
               <p className="text-xs font-semibold text-blue-600">
-                Từ vựng học thuật · Passage · 5 dạng bài tập · B1 → C2
+                {allAcad.completed > 0
+                  ? `${allAcad.completed}/${allAcad.total} chủ đề (${pf(allAcad.completed, allAcad.total)}%) · ${allAcad.seenWords}/${allAcad.totalWords} từ (${pf(allAcad.seenWords, allAcad.totalWords)}%)`
+                  : 'Từ vựng học thuật · Passage · 5 dạng bài tập · B1 → C2'}
               </p>
             </div>
             <span className="text-blue-600 font-black text-lg flex-shrink-0">→</span>
