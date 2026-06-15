@@ -314,7 +314,16 @@ export default function HomePage() {
                 </div>
 
                 {/* Module progress rows */}
-                {totalXP === 0 && phonics.seen === 0 ? (
+                {syncMap[child.id] === undefined ? (
+                  <div className="space-y-2 mb-4 animate-pulse">
+                    {[1, 0.7, 0.5].map((w, i) => (
+                      <div key={i} className="flex items-center justify-between">
+                        <div className="h-2.5 bg-gray-200 rounded-full w-14" />
+                        <div className="h-2.5 bg-gray-100 rounded-full" style={{ width: `${w * 40}%` }} />
+                      </div>
+                    ))}
+                  </div>
+                ) : totalXP === 0 && phonics.seen === 0 ? (
                   <div className="bg-white/50 rounded-2xl px-4 py-3 mb-4 space-y-1.5">
                     <p className={`font-black text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
                     <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phonics · Từ vựng theo chủ đề · Bài tập học thuật</p>
@@ -331,7 +340,7 @@ export default function HomePage() {
                     {/* Phonics */}
                     <div className="flex items-center justify-between text-xs">
                       <span className={`font-bold ${cfg.text}`}>🔤 Phonics</span>
-                      <span className="font-black text-gray-600">
+                      <span className="text-gray-500">
                         {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
                       </span>
                     </div>
@@ -339,7 +348,7 @@ export default function HomePage() {
                     {/* Daily */}
                     <div className="flex items-center justify-between text-xs">
                       <span className={`font-bold ${cfg.text} flex-shrink-0`}>📚 Daily</span>
-                      <span className="font-black text-gray-600 text-right">
+                      <span className="text-gray-500 text-right">
                         {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
                       </span>
                     </div>
@@ -347,7 +356,7 @@ export default function HomePage() {
                     {/* Academic */}
                     <div className="flex items-center justify-between text-xs">
                       <span className={`font-bold ${cfg.text} flex-shrink-0`}>🎓 Academic</span>
-                      <span className="font-black text-gray-600 text-right">
+                      <span className="text-gray-500 text-right">
                         {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%) · {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
                       </span>
                     </div>
@@ -365,7 +374,7 @@ export default function HomePage() {
                   </div>
                 ) : (
                   <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
-                    {totalXP === 0 && phonics.seen === 0 ? '🌟 Bắt đầu học ngay! →' : 'Tiếp tục học! →'}
+                    {syncMap[child.id] !== undefined && totalXP === 0 && phonics.seen === 0 ? '🌟 Bắt đầu học ngay! →' : 'Tiếp tục học! →'}
                   </div>
                 )}
               </button>
