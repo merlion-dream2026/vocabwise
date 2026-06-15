@@ -29,17 +29,17 @@ const SECTIONS = [
     title: 'VocabWise Academic',
     badge: 'Teen & Người lớn · A1→C2',
     badgeCls: 'bg-blue-100 text-blue-700',
-    desc: 'Từ vựng học thuật · Passage · 5 dạng bài tập · IELTS/SAT',
-    available: false,
-    cardCls: 'border-blue-100 bg-blue-50/30',
-    accentCls: 'text-blue-500',
+    desc: '3 books · 180 chủ đề · Passage · 8 dạng bài tập · IELTS/SAT',
+    available: true,
+    cardCls: 'border-blue-200 bg-blue-50/50',
+    accentCls: 'text-blue-600',
   },
 ]
 
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic (sắp ra mắt) — từ vựng học thuật cho IELTS/SAT với passage, glossary và 5 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module học phát âm IPA là gì?',
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
-    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic (sắp ra mắt): dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT (A1–C2).',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
@@ -452,7 +452,7 @@ export default function LandingPage() {
         <div className="mt-3 bg-purple-50 rounded-2xl p-3">
           <p className="text-xs font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
           <div className="flex flex-wrap gap-1.5">
-            {['📚 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🔁 SRS ôn từ yếu', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
+            {['📚 Daily: 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '🔁 SRS ôn từ yếu', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
               <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</span>
             ))}
           </div>

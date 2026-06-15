@@ -650,7 +650,7 @@
               "keyword": "day",
               "emoji": "☀️",
               "vi": "ngày",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-day.ogg.mp3",
               "learnAudio": null
             },
             {
@@ -658,7 +658,7 @@
               "keyword": "fly",
               "emoji": "✈️",
               "vi": "bay",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-fly.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -734,7 +734,7 @@
               "keyword": "go",
               "emoji": "🏃",
               "vi": "đi",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-go.ogg.mp3",
               "learnAudio": null
             },
             {
@@ -742,7 +742,7 @@
               "keyword": "cow",
               "emoji": "🐮",
               "vi": "con bò",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-cow.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -815,7 +815,7 @@
               "keyword": "boy",
               "emoji": "👦",
               "vi": "bé trai",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-boy.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -894,7 +894,7 @@
               "keyword": "ear",
               "emoji": "👂",
               "vi": "cái tai",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-uk-ear.ogg.mp3",
               "learnAudio": null
             },
             {
@@ -902,7 +902,7 @@
               "keyword": "hair",
               "emoji": "💇",
               "vi": "tóc",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-uk-air.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -975,7 +975,7 @@
               "keyword": "pure",
               "emoji": "🌿",
               "vi": "trong sáng",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-pure.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -2158,7 +2158,7 @@
               "keyword": "rake",
               "emoji": "🌾",
               "vi": "cái cào",
-              "wikiAudio": null,
+              "wikiAudio": "/audio/phonemes/En-us-r.ogg.mp3",
               "learnAudio": null
             }
           ],
@@ -2296,6 +2296,92 @@
                 "thumb",
                 "thin",
                 "sin"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "v-w-viet",
+          "type": "pair",
+          "title": "v / w",
+          "subtitle": "van · wet",
+          "emoji": "🚐",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "v",
+              "keyword": "van",
+              "emoji": "🚐",
+              "vi": "xe van",
+              "wikiAudio": "/audio/phonemes/Voiced_labio-dental_fricative.ogg.mp3",
+              "learnAudio": null
+            },
+            {
+              "symbol": "w",
+              "keyword": "wet",
+              "emoji": "💧",
+              "vi": "ướt",
+              "wikiAudio": "/audio/phonemes/Voiced_labio-velar_approximant.ogg.mp3",
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "van",
+            "wan",
+            "very",
+            "wary",
+            "vine",
+            "wine",
+            "vest",
+            "west",
+            "vote",
+            "woke",
+            "vow",
+            "wow"
+          ],
+          "tip": "v: răng trên chạm môi dưới, rung dây thanh · w: môi tròn rồi mở dần, không chạm răng — tiếng Việt không có /w/ thực sự",
+          "practice_sentences": [
+            {
+              "en": "The van drove down the wet road.",
+              "highlight": [
+                "van",
+                "wet"
+              ]
+            },
+            {
+              "en": "Very wary people vote with care in the west.",
+              "highlight": [
+                "very",
+                "wary",
+                "vote",
+                "west"
+              ]
+            },
+            {
+              "en": "I see a vine and taste fine wine near the window.",
+              "highlight": [
+                "vine",
+                "wine",
+                "window"
+              ]
+            },
+            {
+              "en": "Wow, the vest she wore made quite a vow.",
+              "highlight": [
+                "wow",
+                "vest",
+                "vow"
               ]
             }
           ]

@@ -65,6 +65,7 @@ export default function RegisterPage() {
             <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 4.500+ từ vựng</span>
             <span className="text-xs bg-rose-100 text-rose-700 font-bold px-2.5 py-1 rounded-full">🎤 Phát âm AI</span>
             <span className="text-xs bg-amber-100 text-amber-700 font-bold px-2.5 py-1 rounded-full">🔤 Học IPA</span>
+            <span className="text-xs bg-blue-100 text-blue-700 font-bold px-2.5 py-1 rounded-full">🎓 Academic IELTS/SAT</span>
           </div>
         </div>
 
