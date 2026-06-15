@@ -140,7 +140,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
                 <span className="font-black text-gray-500">VocabWise 🏆</span>
               </div>
 
-              <p className="text-[9px] text-gray-300 font-semibold tracking-wide">vocabwise.vercel.app · IELTS CHAMPION</p>
+              <p className="text-[9px] text-gray-300 font-semibold tracking-wide">vocabwise.vercel.app</p>
 
             </div>
           </div>
