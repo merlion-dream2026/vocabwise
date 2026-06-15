@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import CertificateModal from '@/components/vocabwise/CertificateModal'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -45,6 +46,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [showOverviewDetail, setShowOverviewDetail] = useState(false)
   const [showProgressGuide, setShowProgressGuide] = useState(false)
+  const [showCert, setShowCert] = useState(false)
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
@@ -121,6 +123,18 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {showUpgrade && (
         <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />
+      )}
+      {showCert && (
+        <CertificateModal
+          book={book}
+          bookTitle={info.title}
+          cefr={info.cefr}
+          emoji={info.emoji}
+          color={info.color}
+          mastered={masteredCount}
+          total={topics.length}
+          onClose={() => setShowCert(false)}
+        />
       )}
       <UpgradeBanner
         plan={session?.plan ?? 'free'}
@@ -215,6 +229,14 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
             <span className="text-gray-200">·</span>
             <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
           </div>
+          {masteredCount > 0 && (
+            <button
+              onClick={() => setShowCert(true)}
+              className="mt-2 w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all"
+            >
+              🎓 Xem chứng chỉ học tập
+            </button>
+          )}
         </div>
 
         {/* Progress guide modal */}
