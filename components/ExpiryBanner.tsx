@@ -21,7 +21,7 @@ type Props = {
  */
 export default function ExpiryBanner({ session, onUpgrade, className = '' }: Props) {
   const d = daysUntilExpiry(session)
-  if (d === null || d > 3) return null
+  if (d === null || d > 7) return null
 
   const expired = d <= 0
   return (

@@ -81,7 +81,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 | 5 | Language & Communication | t41–t50 |
 | 6 | Ethics & the Future | t51–t60 |
 
-> ⚠️ Book 3 JSON files hiện có (b3-t01 → b3-t05) dựa trên plan cũ, cần redo theo CSV mới.
+> ✅ Book 3 JSON files (b3-t01 → b3-t60) đã hoàn thành đầy đủ theo CSV mới.
 
 ## Key Routes
 | Route | Mô tả |

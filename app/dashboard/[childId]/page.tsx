@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
+import UpgradeBanner from '@/components/UpgradeBanner'
 
 
 const KID_FAQ = [
@@ -77,6 +78,7 @@ const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'mast
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type SyncByLevel = Record<string, SyncLevel>
+type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
 function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLevel: SyncByLevel }) {
   const router = useRouter()
@@ -124,16 +126,19 @@ export default function ChildRoadmap() {
   const [child, setChild] = useState<Child | null>(null)
   const [syncByLevel, setSyncByLevel] = useState<SyncByLevel>({})
   const [loading, setLoading] = useState(true)
+  const [session, setSession] = useState<Session | null>(null)
 
   useEffect(() => {
     Promise.all([
       fetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
-    ]).then(([kids, allSync]) => {
+      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+    ]).then(([kids, allSync, sess]) => {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }
       setChild(found)
       setSyncByLevel(allSync ?? {})
+      setSession(sess)
       setLoading(false)
     })
   }, [childId, router])
@@ -152,6 +157,12 @@ export default function ChildRoadmap() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
+      <UpgradeBanner
+        plan={session?.plan ?? 'free'}
+        freeTrialExpiresAt={session?.free_trial_expires_at}
+        planEndDate={session?.plan_end_date}
+        username={session?.username}
+      />
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>

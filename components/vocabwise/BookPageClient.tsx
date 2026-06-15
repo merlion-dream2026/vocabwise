@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
+import UpgradeBanner from '@/components/UpgradeBanner'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -121,6 +122,12 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
       {showUpgrade && (
         <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />
       )}
+      <UpgradeBanner
+        plan={session?.plan ?? 'free'}
+        freeTrialExpiresAt={session?.free_trial_expires_at}
+        planEndDate={session?.plan_end_date}
+        username={session?.username}
+      />
 
       {/* Compact flat header — mirrors Daily */}
       <div className={`${flatCls} text-white`}>

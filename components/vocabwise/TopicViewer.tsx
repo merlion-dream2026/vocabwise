@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import VWExerciseRunner from './VWExerciseRunner'
+import UpgradeBanner from '@/components/UpgradeBanner'
 import type { ExercisesData } from './types'
 
 type GlossaryItem = {
@@ -34,6 +35,7 @@ type AcademicTopicSync = {
   completed: boolean
   mastered: boolean
 }
+type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
 type Tab = 'passage' | 'glossary' | 'exercises'
 
@@ -60,6 +62,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [speaking, setSpeaking] = useState(false)
 
   const [childId, setChildId]   = useState<string | null>(null)
+  const [session, setSession]   = useState<Session | null>(null)
   const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
   // Preserve existing srs + history so we don't overwrite them on save (Group 2 prep)
@@ -97,16 +100,17 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     const cid = typeof window !== 'undefined' ? localStorage.getItem('vw_active_child') : null
     if (!cid) return
     setChildId(cid)
-    fetch(`/api/sync/${cid}?level=academic`)
-      .then(r => r.ok ? r.json() : null)
-      .then(d => {
-        const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
-        setFullSync(mastery)
-        setTopicSync(mastery[topicId] ?? null)
-        setSavedSrs(d?.srs ?? {})
-        setSavedHistory(d?.history ?? {})
-      })
-      .catch(() => {})
+    Promise.all([
+      fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null),
+      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+    ]).then(([d, sess]) => {
+      const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
+      setFullSync(mastery)
+      setTopicSync(mastery[topicId] ?? null)
+      setSavedSrs(d?.srs ?? {})
+      setSavedHistory(d?.history ?? {})
+      setSession(sess)
+    }).catch(() => {})
   }, [topicId])
 
   const handleExercisesComplete = (scores: number[]) => {
@@ -171,6 +175,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   return (
     <div className="min-h-screen bg-white">
+      <UpgradeBanner
+        plan={session?.plan ?? 'free'}
+        freeTrialExpiresAt={session?.free_trial_expires_at}
+        planEndDate={session?.plan_end_date}
+        username={session?.username}
+      />
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white">
         <button onClick={() => router.back()} className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
