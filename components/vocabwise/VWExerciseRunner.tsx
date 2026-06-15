@@ -186,7 +186,7 @@ export default function VWExerciseRunner({
     <div className="flex flex-col gap-4 pb-4">
       {/* Header */}
       <div className="flex items-center gap-3 pb-2 border-b border-gray-100">
-        <button onClick={onBack} className="text-gray-400 font-bold text-sm hover:text-gray-600">
+        <button onClick={onBack} className="inline-flex items-center gap-1.5 bg-purple-50 hover:bg-purple-100 text-purple-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← {topicTitle}
         </button>
         <span className="ml-auto text-xs font-black text-gray-400">
