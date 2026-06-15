@@ -6,6 +6,9 @@ html {
   color-scheme: light only;
 }
 
+html.vw-large { font-size: 18px; }
+html.vw-xl    { font-size: 20px; }
+
 body {
   background: #FFF8FF;
   -webkit-tap-highlight-color: transparent;

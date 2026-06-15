@@ -142,9 +142,12 @@ export function buildMonthlyRecapHtml(
 }
 
 export type ChildRow = { id: string; name: string; emoji: string; level: string }
+type WeakVal = number | { wrong: number; correctStreak: number; lastWrong: string }
+function weakCount(v: WeakVal): number { return typeof v === 'number' ? v : v.wrong }
+
 export type SyncRow = {
   seen?: string[]
-  weak_words?: Record<string, unknown>
+  weak_words?: Record<string, WeakVal>
   streak?: { current?: number; best?: number; lastActive?: string }
   battle?: { totalAllTime?: number }
   mastery?: Record<string, { flashcard: boolean; games: string[] }>
@@ -177,6 +180,17 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
           ? `⚡ Streak ${streak} ngày — nhớ học hôm nay để giữ streak!`
           : `💤 Chưa học ${daysSinceActive} ngày — streak đang ngủ`
 
+    const weakWords = Object.entries(sync?.weak_words ?? {})
+      .sort((a, b) => weakCount(b[1]) - weakCount(a[1])).slice(0, 8)
+
+    const weakWordBlock = weak > 0 ? `
+      <div style="margin-top:10px;background:#fff7ed;border-radius:10px;padding:10px 12px;">
+        <p style="margin:0 0 6px;font-size:12px;color:#ea580c;font-weight:700;">⚠️ ${weak} từ cần ôn luyện thêm:</p>
+        <p style="margin:0;font-size:13px;color:#9a3412;font-weight:600;line-height:1.7;">
+          ${weakWords.map(([w, v]) => `${w} <span style="color:#f97316;font-size:11px;">×${weakCount(v)}</span>`).join(' &nbsp;·&nbsp; ')}${weak > 8 ? ` <span style="color:#9ca3af;font-size:11px;">+${weak - 8} từ khác</span>` : ''}
+        </p>
+      </div>` : ''
+
     return `
       <div style="background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;border:1px solid #e5e7eb;">
         <table style="width:100%;border-collapse:collapse;margin-bottom:12px;"><tr>
@@ -196,10 +210,11 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
             <td style="padding:6px 0;font-size:13px;color:#1f2937;font-weight:700;text-align:right;">${summary.masteredTopics} topics</td>
           </tr>
           <tr>
-            <td style="padding:6px 0;font-size:13px;color:#6b7280;font-weight:600;">⚠️ Từ cần ôn</td>
+            <td style="padding:6px 0;font-size:13px;color:${weak > 0 ? '#f97316' : '#22c55e'};font-weight:600;">⚠️ Từ cần ôn</td>
             <td style="padding:6px 0;font-size:13px;color:${weak > 0 ? '#f97316' : '#22c55e'};font-weight:700;text-align:right;">${weak > 0 ? `${weak} từ` : 'Không có ✓'}</td>
           </tr>
         </table>
+        ${weakWordBlock}
         <p style="margin:10px 0 0;font-size:13px;color:#4b5563;font-weight:600;">${streakNote}</p>
         ${badgeRow}
       </div>`

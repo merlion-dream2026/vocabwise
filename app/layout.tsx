@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import PwaRegister from '@/components/PwaRegister'
 import NoVoiceBanner from '@/components/NoVoiceBanner'
 import BottomNav from '@/components/BottomNav'
+import FontSizeApplier from '@/components/FontSizeApplier'
 import './globals.css'
 
 const nunito = Nunito({
@@ -189,6 +190,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className={`min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 ${nunito.className}`}>
+        <FontSizeApplier />
         <main className="max-w-md mx-auto min-h-screen pb-16">
           {children}
         </main>

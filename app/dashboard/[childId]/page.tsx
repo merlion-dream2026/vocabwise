@@ -155,6 +155,15 @@ export default function ChildRoadmap() {
     sum + Object.values(syncByLevel[lvl]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length, 0)
   const kidsStarted = totalSeenWords > 0
 
+  // Daily missions
+  const todayStr = new Date().toISOString().split('T')[0]
+  type DayEntry = { games?: number; topics?: number; words?: number }
+  const todayPhonics  = ((syncByLevel['phonics'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0
+  const todayDaily    = LEVEL_ORDER.some(l => ((syncByLevel[l] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0)
+  const todayAcademic = ((syncByLevel['academic'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.topics ?? 0) > 0
+  const missionsDone  = [todayPhonics, todayDaily, todayAcademic].filter(Boolean).length
+  const allMissions   = missionsDone === 3
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
       <UpgradeBanner
@@ -170,6 +179,44 @@ export default function ChildRoadmap() {
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
+        </div>
+      </div>
+
+      {/* Daily missions */}
+      <div className="max-w-lg mx-auto mb-4">
+        <div className={`rounded-2xl border-2 p-4 ${allMissions ? 'bg-gradient-to-br from-yellow-50 to-amber-50 border-yellow-200' : 'bg-white/70 border-purple-100'}`}>
+          <div className="flex items-center justify-between mb-3">
+            <div>
+              <p className={`font-black text-sm ${allMissions ? 'text-yellow-700' : 'text-purple-700'}`}>
+                {allMissions ? '🎉 Hoàn thành nhiệm vụ hôm nay!' : `🎯 Nhiệm vụ hôm nay — ${missionsDone}/3`}
+              </p>
+              {!allMissions && <p className="text-xs text-gray-400 font-semibold mt-0.5">Hoàn thành cả 3 để nhận ngôi sao vàng ⭐</p>}
+            </div>
+            <div className="flex gap-1">
+              {[todayPhonics, todayDaily, todayAcademic].map((done, i) => (
+                <div key={i} className={`w-5 h-5 rounded-full flex items-center justify-center text-xs ${done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-300'}`}>
+                  {done ? '✓' : '○'}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="space-y-1.5">
+            {[
+              { done: todayPhonics,  icon: '🔤', label: 'Luyện Phát Âm', desc: 'Học 1 bài phonics' },
+              { done: todayDaily,    icon: '📚', label: 'VocabWise Daily', desc: 'Chơi 1 game từ vựng' },
+              { done: todayAcademic, icon: '🎓', label: 'Academic', desc: 'Làm 1 bài tập chủ đề' },
+            ].map(m => (
+              <div key={m.label} className="flex items-center gap-2.5">
+                <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 ${m.done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-400'}`}>
+                  {m.done ? '✓' : '○'}
+                </div>
+                <span className={`text-xs font-bold ${m.done ? 'text-green-600 line-through decoration-green-400' : 'text-gray-600'}`}>
+                  {m.icon} {m.label}
+                </span>
+                {!m.done && <span className="text-xs text-gray-400">{m.desc}</span>}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
