@@ -9,7 +9,7 @@ type Session = { plan: string; username?: string; free_trial_expires_at?: string
 
 const BOOKS = [
   {
-    id: 1, slug: 'book1', title: 'VocabWise Starter',
+    id: 1, slug: 'book1', title: 'VocabWise Foundation',
     cefr: 'A1–A2', maxTopics: 60, color: 'from-green-400 to-emerald-500',
     badge: 'bg-green-100 text-green-700', bar: 'bg-green-500', emoji: '🌱',
     themes: ['Daily Life', 'World Around Us', 'People & Relationships', 'Learning & School', 'Actions & Events', 'Everyday Communication'],

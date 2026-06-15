@@ -11,7 +11,7 @@ type TopicMeta = {
 }
 
 const BOOK_INFO: Record<string, { title: string; cefr: string; color: string; emoji: string }> = {
-  book1: { title: 'VocabWise Starter',  cefr: 'A1–A2', color: 'from-green-400 to-emerald-500', emoji: '🌱' },
+  book1: { title: 'VocabWise Foundation',  cefr: 'A1–A2', color: 'from-green-400 to-emerald-500', emoji: '🌱' },
   book2: { title: 'VocabWise Progress', cefr: 'B1–B2', color: 'from-blue-500 to-cyan-500',     emoji: '🚀' },
   book3: { title: 'VocabWise Mastery',  cefr: 'C1–C2', color: 'from-purple-600 to-violet-600', emoji: '🎓' },
 }

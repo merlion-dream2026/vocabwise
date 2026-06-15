@@ -80,7 +80,7 @@ const QUESTIONS: Question[] = [
 const BOOK_INFO = {
   1: {
     slug: 'book1', emoji: '🌱',
-    title: 'VocabWise Starter',
+    title: 'VocabWise Foundation',
     cefr: 'A1–A2',
     color: 'from-green-400 to-emerald-500',
     bg: 'bg-gradient-to-br from-green-50 to-emerald-50',
