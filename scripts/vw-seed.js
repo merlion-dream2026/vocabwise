@@ -124,7 +124,7 @@ async function seedTopic(filePath) {
         ex_name:    key,
         instruction: ex.instruction,
         items:      ex.items,
-        word_bank:  ex.word_bank || null,
+        word_bank:  ex.word_bank || ex.options || null,
         answer_key: answer_key[`ex${exNum}`],
       }, { onConflict: 'topic_id,ex_number' })
     if (error) console.error(`  Exercise ${exNum} (${key}) error:`, error.message)

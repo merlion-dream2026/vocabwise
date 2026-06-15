@@ -57,7 +57,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const router = useRouter()
   const [tab, setTab]       = useState<Tab>('passage')
   const [showVI, setShowVI] = useState(false)
-  const [exMode, setExMode] = useState(false)
   const [speaking, setSpeaking] = useState(false)
 
   const [childId, setChildId]   = useState<string | null>(null)
@@ -111,7 +110,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   }, [topicId])
 
   const handleExercisesComplete = (scores: number[]) => {
-    setExMode(false)
     const exTypes  = getExerciseTypes(data.exercises)
     const prevSync = fullSync[topicId]
     const ex_scores: Record<string, number> = {}
@@ -170,22 +168,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   const { meta, passage, glossary, exercises, answer_key } = data
   const prevTotal = topicSync ? Object.values(topicSync.ex_scores ?? {}).reduce((s, v) => s + v, 0) : 0
-
-  if (exMode) {
-    return (
-      <div className="min-h-screen bg-white">
-        <div className="max-w-2xl mx-auto px-4 pt-8 pb-12">
-          <VWExerciseRunner
-            exercises={exercises}
-            answerKey={answer_key}
-            topicTitle={meta.topic_title}
-            onBack={() => setExMode(false)}
-            onComplete={handleExercisesComplete}
-          />
-        </div>
-      </div>
-    )
-  }
 
   return (
     <div className="min-h-screen bg-white">
@@ -362,78 +344,14 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
         {/* EXERCISES TAB */}
         {tab === 'exercises' && (
-          <div>
-            {topicSync?.completed ? (
-              /* Previous result view */
-              <div className="py-4 space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2.5">
-                    <span className="text-2xl">{topicSync.mastered ? '🏆' : '⚠️'}</span>
-                    <div>
-                      <p className="font-black text-gray-800 text-base leading-tight">
-                        {topicSync.mastered ? 'Thành thạo' : 'Cần cải thiện'}
-                      </p>
-                      <p className="text-xs text-gray-400 mt-0.5">
-                        {topicSync.mastered ? 'Đạt chuẩn ≥ 80%' : 'Cần ≥ 80% để thành thạo'}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <div className="flex items-baseline gap-0.5 justify-end">
-                      <span className="text-3xl font-black text-purple-600">{prevTotal}</span>
-                      <span className="text-gray-400 font-bold text-lg">/25</span>
-                    </div>
-                    <p className="text-xs text-gray-400">{Math.round((prevTotal / 25) * 100)}%</p>
-                  </div>
-                </div>
-
-                <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
-                    style={{ width: `${Math.round((prevTotal / 25) * 100)}%` }} />
-                </div>
-
-                <div className="space-y-2.5">
-                  {Object.entries(topicSync.ex_scores).map(([type, score]) => (
-                    <div key={type} className="flex items-center gap-3">
-                      <span className="text-xs font-bold text-gray-400 w-20 flex-shrink-0 truncate">
-                        {({ E1:'Matching', E2:'MCQ', E3:'MCQ', E4:'Gap-fill', E5:'T/F/NG', E6:'Word Forms', E7:'Sentence', E8:'Error Fix' } as Record<string,string>)[type] ?? type}
-                      </span>
-                      <div className="flex gap-1 flex-1">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <div key={i} className={`flex-1 h-3 rounded-full ${i < score ? 'bg-purple-500' : 'bg-gray-200'}`} />
-                        ))}
-                      </div>
-                      <span className="text-xs font-bold text-gray-500 w-7 text-right flex-shrink-0">{score}/5</span>
-                    </div>
-                  ))}
-                </div>
-
-                <button onClick={() => setExMode(true)}
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
-                  🔄 Làm lại để cải thiện điểm
-                </button>
-                <p className="text-xs text-gray-400 text-center">Điểm tốt nhất sẽ được lưu lại</p>
-              </div>
-            ) : (
-              /* First attempt view */
-              <div className="text-center py-8">
-                <div className="text-5xl mb-4">✏️</div>
-                <h2 className="font-black text-gray-800 text-xl mb-2">5 bài tập</h2>
-                <p className="text-gray-500 text-sm mb-1">25 câu hỏi · Tối đa 25 điểm</p>
-                <p className="text-gray-400 text-xs mb-2">
-                  Matching · MCQ · Gap-fill · Word Forms · Error Fix
-                </p>
-                <p className="text-gray-400 text-xs mb-8">
-                  Đạt ≥ 20/25 (80%) để tính <span className="font-black text-yellow-600">🏆 Thành thạo</span>
-                </p>
-                <button onClick={() => setExMode(true)}
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-lg">
-                  🚀 Bắt đầu làm bài
-                </button>
-                <p className="text-xs text-gray-400 mt-3">Đọc bài đọc và từ vựng trước để đạt kết quả tốt nhất</p>
-              </div>
-            )}
-          </div>
+          <VWExerciseRunner
+            exercises={exercises}
+            answerKey={answer_key}
+            topicTitle={meta.topic_title}
+            prevScores={topicSync?.ex_scores}
+            onBack={() => setTab('passage')}
+            onComplete={handleExercisesComplete}
+          />
         )}
 
       </div>

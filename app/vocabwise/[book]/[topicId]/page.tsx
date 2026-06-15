@@ -44,7 +44,11 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   const answerKey: Record<string, Record<string, string>> = {}
   for (const ex of exercises) {
     const exObj: any = { type: ex.ex_type, instruction: ex.instruction, items: ex.items }
-    if (ex.word_bank) exObj.word_bank = ex.word_bank
+    if (ex.ex_type === 'E1') {
+      if (ex.word_bank) exObj.options = ex.word_bank  // E1 stores options in word_bank
+    } else if (ex.word_bank) {
+      exObj.word_bank = ex.word_bank
+    }
     ;(exercisesData as any)[ex.ex_name] = exObj
     answerKey[`ex${ex.ex_number}`] = ex.answer_key
   }
