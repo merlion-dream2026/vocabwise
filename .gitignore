@@ -35,3 +35,6 @@ next-env.d.ts
 .claude/
 .playwright-mcp/
 print-book/
+
+# one-time admin scripts
+scripts/reset-*.js

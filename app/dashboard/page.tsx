@@ -321,8 +321,8 @@ const FAQ_ITEMS = [
         a: '% · X/N từ → Số từ bé đã học / tổng từ của level đó\n✅ X/30 chủ đề → Chủ đề hoàn thành đủ flashcard + 3 games\n🔤 Phát âm X/23 nhóm 🏆 → Nhóm âm IPA bé đã thành thạo (học + 3 game đạt ≥70%)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
       },
       {
-        q: '🔤 Module Luyện Phát Âm IPA là gì?',
-        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module "Luyện Phát Âm" xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\nCó 3 nhóm âm:\n• 🎵 Nguyên âm: /iː/ vs /ɪ/, /æ/ vs /e/, và các diphthongs\n• 🔊 Phụ âm: /p/ vs /b/, /θ/ vs /ð/...\n• 🇻🇳 Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm thành thạo khi bé: học xem thẻ âm + hoàn thành 3 game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/23 nhóm 🏆',
+        q: '🔤 Module Phonics là gì?',
+        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module Phonics xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\nCó 3 nhóm âm:\n• 🎵 Nguyên âm: /iː/ vs /ɪ/, /æ/ vs /e/, và các diphthongs\n• 🔊 Phụ âm: /p/ vs /b/, /θ/ vs /ð/...\n• 🇻🇳 Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm thành thạo khi bé: học xem thẻ âm + hoàn thành 3 game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/23 nhóm 🏆',
       },
       {
         q: 'Các huy hiệu (badges) có ý nghĩa gì?',

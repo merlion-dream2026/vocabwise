@@ -77,7 +77,7 @@ export default function PhonicsHub() {
           <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
           <span className="text-2xl">🔤</span>
           <div>
-            <h1 className="font-bold text-lg leading-tight">Luyện Phát Âm</h1>
+            <h1 className="font-bold text-lg leading-tight">Phonics</h1>
             <p className="text-white/70 text-xs">IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu</p>
           </div>
         </div>

@@ -52,7 +52,7 @@ export default function LevelPage() {
       {/* Header */}
       <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-12 pb-6 text-white`}>
         <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
-          ← Luyện Phát Âm
+          ← Phonics
         </button>
         <div className="flex items-center gap-3 mb-4">
           <span className="text-4xl">{level.emoji}</span>

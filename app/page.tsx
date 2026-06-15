@@ -6,7 +6,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 const SECTIONS = [
   {
     emoji: '🎤',
-    title: 'Luyện Phát Âm',
+    title: 'Phonics',
     badge: 'Mọi lứa tuổi',
     badgeCls: 'bg-green-100 text-green-700',
     desc: 'IPA chuẩn Cambridge · minimal pairs · AI chấm phát âm',
@@ -39,11 +39,11 @@ const SECTIONS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Luyện Phát Âm — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
-    q: 'Module học phát âm IPA là gì?',
-    a: 'Module "Luyện Phát Âm" là tính năng độc lập giúp bé học phát âm tiếng Anh đúng chuẩn theo ký hiệu IPA.\n\nBé sẽ học qua 3 nhóm âm:\n• Nguyên âm (dài & ngắn): /iː/ vs /ɪ/, /æ/ vs /e/...\n• Phụ âm (cặp hữu thanh/vô thanh): /p/ vs /b/, /θ/ vs /ð/...\n• Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm có 3 game: Nghe & Phân biệt · Nghe & Chọn · Luyện đọc (AI chấm điểm).\nBé nghe phát âm mẫu từ native speaker rồi tự đọc theo — AI cho biết đúng hay sai ngay lập tức!',
+    q: 'Module Phonics là gì?',
+    a: 'Module Phonics là tính năng độc lập giúp bé học phát âm tiếng Anh đúng chuẩn theo ký hiệu IPA.\n\nBé sẽ học qua 3 nhóm âm:\n• Nguyên âm (dài & ngắn): /iː/ vs /ɪ/, /æ/ vs /e/...\n• Phụ âm (cặp hữu thanh/vô thanh): /p/ vs /b/, /θ/ vs /ð/...\n• Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm có 3 game: Nghe & Phân biệt · Nghe & Chọn · Luyện đọc (AI chấm điểm).\nBé nghe phát âm mẫu từ native speaker rồi tự đọc theo — AI cho biết đúng hay sai ngay lập tức!',
   },
   {
     q: 'Bé có thể tự học một mình không?',
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
-    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Luyện Phát Âm: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Phonics: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',

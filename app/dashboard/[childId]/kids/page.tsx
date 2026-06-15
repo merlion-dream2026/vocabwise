@@ -57,7 +57,7 @@ export default function KidsLevelPage() {
           <img src={getAvatarSrc(child!.emoji)} className="w-full h-full object-cover" alt="" />
         </div>
         <div>
-          <h1 className="text-xl font-black text-gray-800 leading-tight">VocabWise Daily</h1>
+          <h1 className="text-xl font-black text-gray-800 leading-tight">Daily</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn level · Pre-A1 → C2</p>
         </div>
       </div>

@@ -29,8 +29,8 @@ const KID_FAQ = [
     a: 'Bấm nút micro 🎤 → đọc to từ (hoặc câu) hiển thị trên màn hình.\nApp sẽ nhận diện giọng bạn và cho biết đúng hay sai.\nBấm 🔊 "Nghe mẫu" để nghe phát âm chuẩn trước.\nSau khi đọc, bấm ▶️ để nghe lại giọng của chính mình!\n\n⚠️ Cần cho phép quyền Microphone khi trình duyệt hỏi.',
   },
   {
-    q: '🔤 Module Luyện Phát Âm là gì?',
-    a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Luyện Phát Âm" ở màn hình chọn level để vào.\n\nCó 3 nhóm âm cần học theo thứ tự:\n① 🎵 Nguyên âm — /iː/ vs /ɪ/, /æ/ vs /e/...\n② 🔊 Phụ âm — /p/ vs /b/, /θ/ vs /ð/...\n③ 🇻🇳 Khó với người Việt — /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm: học → 3 game đạt ≥70% = 🏆 Thành thạo!',
+    q: '🔤 Module Phonics là gì?',
+    a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\nCó 3 nhóm âm cần học theo thứ tự:\n① 🎵 Nguyên âm — /iː/ vs /ɪ/, /æ/ vs /e/...\n② 🔊 Phụ âm — /p/ vs /b/, /θ/ vs /ð/...\n③ 🇻🇳 Khó với người Việt — /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm: học → 3 game đạt ≥70% = 🏆 Thành thạo!',
   },
 ]
 
@@ -96,7 +96,7 @@ function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLev
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap mb-0.5">
-            <span className="font-black text-amber-700 text-base">Luyện Phát Âm</span>
+            <span className="font-black text-amber-700 text-base">Phonics</span>
             <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IPA</span>
           </div>
           <p className="text-xs font-semibold text-amber-600">
@@ -202,8 +202,8 @@ export default function ChildRoadmap() {
           </div>
           <div className="space-y-1.5">
             {[
-              { done: todayPhonics,  icon: '🔤', label: 'Luyện Phát Âm', desc: 'Học 1 bài phonics' },
-              { done: todayDaily,    icon: '📚', label: 'VocabWise Daily', desc: 'Chơi 1 game từ vựng' },
+              { done: todayPhonics,  icon: '🔤', label: 'Phonics', desc: 'Học 1 bài phonics' },
+              { done: todayDaily,    icon: '📚', label: 'Daily', desc: 'Chơi 1 game từ vựng' },
               { done: todayAcademic, icon: '🎓', label: 'Academic', desc: 'Làm 1 bài tập chủ đề' },
             ].map(m => (
               <div key={m.label} className="flex items-center gap-2.5">
@@ -241,7 +241,7 @@ export default function ChildRoadmap() {
             </div>
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                <span className="font-black text-purple-700 text-base">VocabWise Daily</span>
+                <span className="font-black text-purple-700 text-base">Daily</span>
                 <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">Pre-A1 → C2</span>
               </div>
               <p className="text-xs font-semibold text-purple-600">
