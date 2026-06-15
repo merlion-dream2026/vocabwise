@@ -10,19 +10,19 @@ const BOOKS = [
     id: 1, slug: 'book1', title: 'VocabWise Starter',
     cefr: 'A1–A2', maxTopics: 60, color: 'from-green-400 to-emerald-500',
     badge: 'bg-green-100 text-green-700', bar: 'bg-green-500', emoji: '🌱',
-    themes: ['Daily Life', 'People & Society', 'Nature & Science', 'Work & Learning', 'Culture & Lifestyle', 'Global Topics'],
+    themes: ['Daily Life', 'World Around Us', 'People & Relationships', 'Learning & School', 'Actions & Events', 'Everyday Communication'],
   },
   {
     id: 2, slug: 'book2', title: 'VocabWise Progress',
     cefr: 'B1–B2', maxTopics: 60, color: 'from-blue-500 to-cyan-500',
     badge: 'bg-blue-100 text-blue-700', bar: 'bg-blue-500', emoji: '🚀',
-    themes: ['Academic Life', 'Science & Technology', 'Society & Culture', 'Economy & Business', 'Health & Medicine', 'Global Issues'],
+    themes: ['Mind & Society', 'Environment & Science', 'Business & Money', 'Arts Culture & Society', 'People & Issues', 'Media & Ideas'],
   },
   {
     id: 3, slug: 'book3', title: 'VocabWise Mastery',
-    cefr: 'C1–C2', maxTopics: 30, color: 'from-purple-600 to-violet-600',
+    cefr: 'C1–C2', maxTopics: 60, color: 'from-purple-600 to-violet-600',
     badge: 'bg-purple-100 text-purple-700', bar: 'bg-purple-500', emoji: '🎓',
-    themes: ['Advanced Academic', 'Critical & Analytical', 'Leadership & Ethics'],
+    themes: ['Self & Society', 'Health & the Human Body', 'The Modern World', 'Knowledge & Ideas', 'Language & Communication', 'Ethics & the Future'],
   },
 ]
 
@@ -116,11 +116,6 @@ export default function VocabWisePage() {
           )
         })}
 
-        <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 mt-4">
-          <p className="text-xs text-amber-700 font-bold text-center">
-            🚧 VocabWise Academic đang được phát triển — Book 1 T01 đã sẵn sàng để thử nghiệm
-          </p>
-        </div>
       </div>
     </div>
   )

@@ -38,7 +38,7 @@ type AcademicTopicSync = {
 type Tab = 'passage' | 'glossary' | 'exercises'
 
 function renderPassage(text: string) {
-  return text.replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
+  return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
 }
 
 
@@ -169,7 +169,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   }
 
   const { meta, passage, glossary, exercises, answer_key } = data
-  const prevTotal = topicSync ? Object.values(topicSync.ex_scores).reduce((s, v) => s + v, 0) : 0
+  const prevTotal = topicSync ? Object.values(topicSync.ex_scores ?? {}).reduce((s, v) => s + v, 0) : 0
 
   if (exMode) {
     return (
@@ -302,7 +302,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                           </>
                         )}
                       </div>
-                      <span className="text-blue-600 font-bold text-sm flex-shrink-0">{item.meaning_vi.split(';')[0]}</span>
+                      <span className="text-blue-600 font-bold text-sm flex-shrink-0">{(item.meaning_vi ?? '').split(';')[0]}</span>
                       <button
                         onClick={e => { e.preventDefault(); speak(displayText) }}
                         className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
