@@ -4,7 +4,7 @@ import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 import {
-  getPhonicsProgress, getDailyHighestLevel, getDailyProgress, getAcademicProgress, getXPAndBadge,
+  getPhonicsProgress, getDailyHighestLevel, getAllDailyProgress, getAllAcademicProgress, getXPAndBadge,
   type SyncLevel, type SyncAllLevels,
 } from '@/lib/childProgress'
 import UpgradeBanner from '@/components/UpgradeBanner'
@@ -576,13 +576,9 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
             const activeLevel   = highestLevel ?? child.level
             const { totalXP, badge: xpBadge } = getXPAndBadge(syncAll as SyncAllLevels)
             const phonics = getPhonicsProgress(syncAll['phonics'] as SyncLevel | undefined)
-            const daily   = getDailyProgress(syncAll[activeLevel] as SyncLevel | undefined, activeLevel)
-            const acad    = getAcademicProgress(syncAll['academic'] as SyncLevel | undefined)
-            const levelInfo = LEVEL_INFO_MAP[activeLevel]
-
-            const dailyPct   = daily.totalWords  > 0 ? Math.round(daily.seenWords   / daily.totalWords  * 100) : 0
-            const phonicsPct = phonics.total     > 0 ? Math.round(phonics.seen      / phonics.total     * 100) : 0
-            const acadPct    = acad.total        > 0 ? Math.round(acad.completed    / acad.total        * 100) : 0
+            const allDaily = getAllDailyProgress(syncAll as SyncAllLevels)
+            const allAcad  = getAllAcademicProgress(syncAll['academic'] as SyncLevel | undefined)
+            const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
 
             // Streak + last active from child record
             const streakCur   = child.streak?.current ?? 0
@@ -637,50 +633,30 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
 
                 {/* Module progress rows (clickable → navigate to child) */}
                 <button onClick={() => onChildClick(child)} className="w-full px-4 pb-3 text-left active:bg-gray-50/80 transition-colors">
-                  <div className="space-y-2.5">
-
-                    {/* Daily */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${c.text}`}>📚 {levelInfo?.label ?? activeLevel} · {levelInfo?.cefr ?? ''}</span>
-                        <span className="text-gray-500 font-semibold">{daily.topicsCompleted}/30 chủ đề · {daily.seenWords}/{daily.totalWords} từ</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                          <div className={`h-full ${c.bar} rounded-full transition-all`} style={{ width: `${Math.max(dailyPct, daily.seenWords > 0 ? 2 : 0)}%` }} />
-                        </div>
-                        <span className="text-[11px] text-gray-400 font-semibold flex-shrink-0">{dailyPct}%</span>
-                      </div>
-                    </div>
+                  <div className="space-y-1.5">
 
                     {/* Phonics */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className="font-bold text-amber-600">🔤 Phát âm</span>
-                        <span className="text-gray-500 font-semibold">
-                          {phonics.seen === 0 ? `0/${phonics.total} bài` : `${phonics.seen}/${phonics.total} bài · 🏆 ${phonics.mastered} thành thạo`}
-                        </span>
-                      </div>
-                      <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-all"
-                          style={{ width: `${Math.max(phonicsPct, phonics.seen > 0 ? 2 : 0)}%` }} />
-                      </div>
+                    <div className="flex items-center justify-between text-xs">
+                      <span className="font-bold text-amber-600 flex-shrink-0">🔤 Phonics</span>
+                      <span className="text-gray-500 font-semibold">
+                        {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
+                      </span>
+                    </div>
+
+                    {/* Daily */}
+                    <div className="flex items-center justify-between text-xs">
+                      <span className={`font-bold ${c.text} flex-shrink-0`}>📚 Daily</span>
+                      <span className="text-gray-500 font-semibold text-right">
+                        {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
+                      </span>
                     </div>
 
                     {/* Academic */}
-                    <div>
-                      <div className="flex items-center justify-between text-xs mb-1">
-                        <span className="font-bold text-blue-600">🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}</span>
-                        {acad.book
-                          ? <span className="text-gray-500 font-semibold">{acad.completed}/{acad.total} chủ đề</span>
-                          : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>}
-                      </div>
-                      {acad.book && (
-                        <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                          <div className="h-full bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full transition-all"
-                            style={{ width: `${Math.max(acadPct, acad.completed > 0 ? 2 : 0)}%` }} />
-                        </div>
-                      )}
+                    <div className="flex items-center justify-between text-xs">
+                      <span className="font-bold text-blue-600 flex-shrink-0">🎓 Academic</span>
+                      <span className="text-gray-500 font-semibold text-right">
+                        {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%) · {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
+                      </span>
                     </div>
                   </div>
 
