@@ -23,8 +23,10 @@ export const DAILY_TOTAL_TOPICS = 30
 export const ACADEMIC_BOOK_META: Record<string, { label: string; cefr: string; total: number }> = {
   'b1': { label: 'Book 1', cefr: 'A1–A2', total: 60 },
   'b2': { label: 'Book 2', cefr: 'B1–B2', total: 60 },
-  'b3': { label: 'Book 3', cefr: 'C1–C2', total: 30 },
+  'b3': { label: 'Book 3', cefr: 'C1–C2', total: 60 },
 }
+
+export const ACADEMIC_WORDS_PER_TOPIC = 15
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -104,6 +106,41 @@ export function getAcademicProgress(academicSync: SyncLevel | undefined): Academ
     }
   }
   return { book: null, cefr: null, completed: 0, total: 0 }
+}
+
+// ─── All-levels aggregates (for parent overview card) ────────────────────────
+
+export type AllDailyProgress = {
+  seenWords: number; totalWords: number
+  topicsCompleted: number; totalTopics: number
+}
+
+export function getAllDailyProgress(sync: SyncAllLevels): AllDailyProgress {
+  let seenWords = 0, topicsCompleted = 0
+  for (const lv of DAILY_LEVEL_ORDER) {
+    seenWords += sync[lv]?.seen?.length ?? 0
+    topicsCompleted += Object.values(sync[lv]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
+  }
+  const totalWords  = DAILY_LEVEL_ORDER.reduce((s, lv) => s + (DAILY_WORD_COUNTS[lv] ?? 400), 0)
+  const totalTopics = DAILY_TOTAL_TOPICS * DAILY_LEVEL_ORDER.length
+  return { seenWords, totalWords, topicsCompleted, totalTopics }
+}
+
+export type AllAcademicProgress = {
+  completed: number; total: number
+  seenWords: number; totalWords: number
+}
+
+export function getAllAcademicProgress(academicSync: SyncLevel | undefined): AllAcademicProgress {
+  const mastery = (academicSync?.mastery ?? {}) as Record<string, { completed?: boolean }>
+  const total     = Object.values(ACADEMIC_BOOK_META).reduce((s, b) => s + b.total, 0)
+  const completed = Object.values(mastery).filter(v => v.completed).length
+  return {
+    completed,
+    total,
+    seenWords:  completed * ACADEMIC_WORDS_PER_TOPIC,
+    totalWords: total     * ACADEMIC_WORDS_PER_TOPIC,
+  }
 }
 
 // ─── XP & Badge ───────────────────────────────────────────────────────────────

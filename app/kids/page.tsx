@@ -6,9 +6,8 @@ import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import { getAvatarSrc } from '@/lib/avatars'
 import {
-  PHONICS_TOTAL_LESSONS, DAILY_TOTAL_TOPICS, DAILY_WORD_COUNTS, ACADEMIC_BOOK_META,
   DAILY_LEVEL_ORDER, XP_BADGES,
-  getPhonicsProgress, getDailyHighestLevel, getDailyProgress, getAcademicProgress, getXPAndBadge,
+  getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
 
@@ -274,12 +273,11 @@ export default function HomePage() {
                   : { icon: '💤', label: `${streakCur} ngày`, cls: 'bg-gray-100 text-gray-400' }
 
             const sync = (syncMap[child.id] ?? {}) as SyncAllLevels
-            const highestLevel = getDailyHighestLevel(sync)
             const { totalXP, badge } = getXPAndBadge(sync)
-            const phonics = getPhonicsProgress(sync['phonics'])
-            const daily   = getDailyProgress(sync[highestLevel ?? child.level], highestLevel ?? child.level)
-            const acad    = getAcademicProgress(sync['academic'])
-            const activeLevelLbl = LEVEL_LABEL[highestLevel ?? child.level]
+            const phonics  = getPhonicsProgress(sync['phonics'])
+            const allDaily = getAllDailyProgress(sync)
+            const allAcad  = getAllAcademicProgress(sync['academic'])
+            const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
 
             return (
               <button
@@ -334,36 +332,39 @@ export default function HomePage() {
                     <div>
                       <div className="flex items-center justify-between text-xs mb-1">
                         <span className={`font-bold ${cfg.text}`}>🔤 Phát âm</span>
-                        <span className="font-black text-gray-600">{phonics.seen}/{phonics.total} bài</span>
+                        <span className="font-black text-gray-600">
+                          {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
+                        </span>
                       </div>
                       <MiniBar value={phonics.seen} max={phonics.total} gradient={cfg.gradient} />
                     </div>
 
-                    {/* Daily */}
+                    {/* Daily — all levels combined */}
                     <div>
                       <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${cfg.text}`}>
-                          📚 {activeLevelLbl ? `${activeLevelLbl.label} · ${activeLevelLbl.desc.split(' · ')[0]}` : 'Daily'}
-                        </span>
+                        <span className={`font-bold ${cfg.text}`}>📚 VocabWise Daily</span>
                         <span className="font-black text-gray-600">
-                          {daily.topicsCompleted}/{daily.totalTopics} chủ đề · {daily.seenWords}/{daily.totalWords} từ
+                          {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%)
                         </span>
                       </div>
-                      <MiniBar value={daily.seenWords} max={daily.totalWords} gradient={cfg.gradient} />
+                      <div className="flex justify-end text-xs text-gray-400 mb-1">
+                        {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
+                      </div>
+                      <MiniBar value={allDaily.seenWords} max={allDaily.totalWords} gradient={cfg.gradient} />
                     </div>
 
-                    {/* Academic */}
+                    {/* Academic — all books combined */}
                     <div>
                       <div className="flex items-center justify-between text-xs mb-1">
-                        <span className={`font-bold ${cfg.text}`}>
-                          🎓 {acad.book ? `${acad.book} · ${acad.cefr}` : 'Academic'}
+                        <span className={`font-bold ${cfg.text}`}>🎓 Academic</span>
+                        <span className="font-black text-gray-600">
+                          {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%)
                         </span>
-                        {acad.book
-                          ? <span className="font-black text-gray-600">{acad.completed}/{acad.total} chủ đề</span>
-                          : <span className="text-gray-400 font-semibold">Chưa bắt đầu</span>
-                        }
                       </div>
-                      {acad.book && <MiniBar value={acad.completed} max={acad.total} gradient={cfg.gradient} />}
+                      <div className="flex justify-end text-xs text-gray-400 mb-1">
+                        {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
+                      </div>
+                      {allAcad.completed > 0 && <MiniBar value={allAcad.completed} max={allAcad.total} gradient={cfg.gradient} />}
                     </div>
                   </div>
                 )}

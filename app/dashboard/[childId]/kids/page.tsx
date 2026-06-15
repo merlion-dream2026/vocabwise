@@ -69,7 +69,7 @@ export default function KidsLevelPage() {
           const syncRow = syncByLevel[level]
           const seenWords = syncRow?.seen?.length ?? 0
           const masteredTopics = Object.values(syncRow?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
-          const pct = totalWords > 0 ? Math.round((seenWords / totalWords) * 100) : 0
+          const pct = seenWords >= totalWords ? 100 : totalWords > 0 ? Math.floor((seenWords / totalWords) * 100) : 0
           const isNotStarted = seenWords === 0 && masteredTopics === 0
           // Show "Đang học" on the last level the child was active in (auto-tracked, not assigned)
           const isCurrent = level === child!.level && !isNotStarted
