@@ -130,7 +130,7 @@ export function buildMonthlyRecapHtml(
     </div>
     ${childBlocks}
     <div style="text-align:center;margin-top:20px;">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabkids.vn'}/dashboard"
+      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'}/dashboard"
         style="display:inline-block;background:linear-gradient(135deg,#4f46e5,#ec4899);color:#fff;font-weight:900;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
         Xem Dashboard →
       </a>
@@ -232,7 +232,7 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
     </div>
     ${childBlocks}
     <div style="text-align:center;margin-top:20px;">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabkids.vn'}/dashboard"
+      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'}/dashboard"
         style="display:inline-block;background:linear-gradient(135deg,#7c3aed,#ec4899);color:#fff;font-weight:900;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
         Vào học ngay →
       </a>

@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState, useCallback, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { getAvatarSrc } from '@/lib/avatars'
 
@@ -42,7 +42,6 @@ function getActiveTab(pathname: string, childId: string | null): string {
 }
 
 type ChildInfo = { id: string; name: string; emoji: string }
-type Child     = { id: string; name: string; emoji: string; pin?: string }
 
 const MODULE_TABS = [
   { key: 'phonics',   label: 'Phonics',   icon: '🔊', needsChild: true  },
@@ -64,9 +63,6 @@ export default function BottomNav() {
 
   const [childId,   setChildId]   = useState<string | null>(null)
   const [childInfo, setChildInfo] = useState<ChildInfo | null>(null)
-  const [showSheet, setShowSheet] = useState(false)
-  const [children,  setChildren]  = useState<Child[]>([])
-  const [loadingChildren, setLoadingChildren] = useState(false)
   const [navVisible, setNavVisible] = useState(true)
   const lastScrollY  = useRef(0)
   const ticking      = useRef(false)
@@ -112,7 +108,7 @@ export default function BottomNav() {
         const diff = cur - lastScrollY.current
         // Don't hide if sheet is open or near page bottom
         const nearBottom = cur + window.innerHeight >= document.body.scrollHeight - 60
-        if (!showSheet && !nearBottom) {
+        if (!nearBottom) {
           if (diff > 8)  setNavVisible(false) // scrolling down
           if (diff < -5) setNavVisible(true)  // scrolling up
         } else {
@@ -125,48 +121,7 @@ export default function BottomNav() {
 
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
-  }, [pathname, showSheet])
-
-  // Always fetch fresh children when sheet opens — keeps emoji/name in sync
-  const openProfileSheet = useCallback(async () => {
-    setShowSheet(true)
-    setLoadingChildren(true)
-    try {
-      const data = await fetch('/api/children').then(r => r.ok ? r.json() : [])
-      const list: Child[] = Array.isArray(data) ? data : []
-      setChildren(list)
-      // Refresh active child info in case emoji/name changed since last login
-      const cur = list.find(c => c.id === (localStorage.getItem('nav_child_id') ?? childId))
-      if (cur) {
-        const info: ChildInfo = { id: cur.id, name: cur.name, emoji: cur.emoji }
-        localStorage.setItem('nav_child_info', JSON.stringify(info))
-        setChildInfo(info)
-      }
-    } catch { /* ignore */ }
-    setLoadingChildren(false)
-  }, [childId])
-
-  function selectChild(child: Child) {
-    // PIN-protected and not yet verified this session → route through /kids PIN gate
-    if (child.pin && !sessionStorage.getItem(`pinVerified_${child.id}`)) {
-      setShowSheet(false)
-      router.push(`/kids?select=${child.id}`)
-      return
-    }
-
-    const info: ChildInfo = { id: child.id, name: child.name, emoji: child.emoji }
-    localStorage.setItem('nav_child_id',   child.id)
-    localStorage.setItem('nav_child_info', JSON.stringify(info))
-    setChildId(child.id)
-    setChildInfo(info)
-    setShowSheet(false)
-
-    // Stay on same module for new child, or fall back to their dashboard
-    const cur = getActiveTab(pathname, childId)
-    if (cur === 'phonics') { router.push(DEST.phonics(child.id)); return }
-    if (cur === 'daily')   { router.push(DEST.daily(child.id));   return }
-    router.push(`/dashboard/${child.id}`)
-  }
+  }, [pathname])
 
   if (!shouldShowNav(pathname)) return null
 
@@ -190,67 +145,6 @@ export default function BottomNav() {
 
   return (
     <>
-      {/* Profile switcher bottom sheet */}
-      {showSheet && (
-        <div
-          className="fixed inset-0 z-50 flex items-end justify-center bg-black/40"
-          onClick={() => setShowSheet(false)}
-        >
-          <div
-            className="bg-white w-full max-w-md rounded-t-3xl px-5 pt-4 pb-8 shadow-2xl"
-            onClick={e => e.stopPropagation()}
-          >
-            {/* Drag handle */}
-            <div className="w-10 h-1 bg-gray-200 rounded-full mx-auto mb-5" />
-            <h2 className="font-black text-gray-700 text-base mb-4 text-center">Chọn hồ sơ học</h2>
-
-            {loadingChildren ? (
-              <div className="flex justify-center py-6">
-                <span className="text-3xl animate-pulse">👤</span>
-              </div>
-            ) : children.length === 0 ? (
-              <p className="text-center text-gray-400 text-sm py-6">Chưa có hồ sơ nào</p>
-            ) : (
-              <div className="grid grid-cols-2 gap-3">
-                {children.map(child => {
-                  const isActive = childId === child.id
-                  return (
-                    <button
-                      key={child.id}
-                      onClick={() => selectChild(child)}
-                      className={`flex flex-col items-center gap-2 py-4 px-3 rounded-2xl border-2 transition-all active:scale-95 ${
-                        isActive
-                          ? 'border-purple-400 bg-purple-50'
-                          : 'border-gray-100 bg-gray-50 hover:border-gray-200'
-                      }`}
-                    >
-                      <span className={`w-14 h-14 flex items-center justify-center rounded-full overflow-hidden ${
-                        isActive ? 'bg-purple-100' : 'bg-white border border-gray-100'
-                      }`}>
-                        <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover" alt="" />
-                      </span>
-                      <span className="font-black text-gray-700 text-sm leading-tight">{child.name}</span>
-                      {isActive && (
-                        <span className="text-[10px] font-bold text-purple-500 bg-purple-100 px-2 py-0.5 rounded-full">
-                          ✓ Đang học
-                        </span>
-                      )}
-                    </button>
-                  )
-                })}
-              </div>
-            )}
-
-            <button
-              onClick={() => { setShowSheet(false); router.push('/dashboard') }}
-              className="mt-5 w-full text-center text-sm text-gray-400 font-semibold py-2 active:text-gray-600 transition-colors"
-            >
-              Quản lý hồ sơ →
-            </button>
-          </div>
-        </div>
-      )}
-
       {/* Bottom nav */}
       <nav
         className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)] transition-transform duration-300 ease-in-out ${
@@ -268,7 +162,7 @@ export default function BottomNav() {
 
           {/* Profile tab — circular avatar, visually distinct */}
           <button
-            onClick={openProfileSheet}
+            onClick={() => router.push('/kids')}
             className="relative flex flex-col items-center justify-center gap-1 w-16 flex-shrink-0 active:bg-gray-50/70 transition-colors duration-100"
           >
             {profileActive && (

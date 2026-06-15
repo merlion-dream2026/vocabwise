@@ -200,7 +200,7 @@ export default function ListenPickPhonicsGame({ group, childId, backUrl, lessonI
               <div className="text-6xl mb-3">👂</div>
               <p className="text-gray-700 font-black text-lg">Âm này là ký hiệu nào?</p>
               <button
-                onClick={() => playQuestion(q)}
+                onClick={() => { speakingRef.current = false; playQuestion(q) }}
                 className="mt-2 bg-amber-100 text-amber-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-all"
               >
                 🔊 Nghe lại
