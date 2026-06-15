@@ -358,6 +358,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             exercises={exercises}
             answerKey={answer_key}
             topicTitle={meta.topic_title}
+            cefr={meta.cefr_level}
             prevScores={topicSync?.ex_scores}
             onBack={() => setTab('passage')}
             onComplete={handleExercisesComplete}

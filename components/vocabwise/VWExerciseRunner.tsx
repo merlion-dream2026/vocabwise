@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { ExercisesData } from './types'
+import ShareCardModal from './ShareCardModal'
 import E1Matching        from './E1Matching'
 import E3MCQContext      from './E3MCQContext'
 import E4GapFill        from './E4GapFill'
@@ -16,6 +17,7 @@ type Props = {
   exercises:   ExercisesData
   answerKey:   Record<string, Record<string, string>>
   topicTitle:  string
+  cefr?:       string
   prevScores?: Record<string, number>
   onBack:      () => void
   onComplete?: (scores: number[]) => void
@@ -54,10 +56,11 @@ function scoreBar(score: number) {
 }
 
 export default function VWExerciseRunner({
-  exercises, answerKey, topicTitle, prevScores, onBack, onComplete,
+  exercises, answerKey, topicTitle, cefr, prevScores, onBack, onComplete,
 }: Props) {
-  const [phase,  setPhase]  = useState<Phase>('menu')
-  const [scores, setScores] = useState<Record<string, number>>({})
+  const [phase,     setPhase]     = useState<Phase>('menu')
+  const [scores,    setScores]    = useState<Record<string, number>>({})
+  const [showShare, setShowShare] = useState(false)
 
   const availablePhases = PHASE_ORDER.filter(p => getExData(exercises, p))
   const doneCount  = availablePhases.filter(p => scores[p] !== undefined).length
@@ -86,6 +89,16 @@ export default function VWExerciseRunner({
     const medal = pct === 100 ? '🏆' : pct >= 80 ? '⭐' : pct >= 60 ? '👏' : '💪'
     return (
       <div className="flex flex-col gap-4 pb-8">
+        {showShare && (
+          <ShareCardModal
+            topicTitle={topicTitle}
+            score={totalScore}
+            maxScore={maxScore}
+            pct={pct}
+            cefr={cefr}
+            onClose={() => setShowShare(false)}
+          />
+        )}
         <div className="text-center py-6">
           <div className="text-6xl mb-3">{medal}</div>
           <h2 className="text-2xl font-black text-gray-800">Hoàn thành!</h2>
@@ -122,6 +135,13 @@ export default function VWExerciseRunner({
             )
           })}
         </div>
+
+        <button
+          onClick={() => setShowShare(true)}
+          className="w-full flex items-center justify-center gap-2 bg-white border-2 border-purple-200 text-purple-600 font-black py-3 rounded-2xl active:scale-95 transition-all"
+        >
+          📤 Chia sẻ kết quả
+        </button>
 
         <button onClick={onBack}
           className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3.5 rounded-2xl shadow-lg active:scale-95 transition-all">
