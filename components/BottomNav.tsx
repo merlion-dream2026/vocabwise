@@ -266,6 +266,36 @@ export default function BottomNav() {
           }}
         >
 
+          {/* Profile tab — circular avatar, visually distinct */}
+          <button
+            onClick={openProfileSheet}
+            className="relative flex flex-col items-center justify-center gap-1 w-16 flex-shrink-0 active:bg-gray-50/70 transition-colors duration-100"
+          >
+            {profileActive && (
+              <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
+            )}
+            {/* Circular avatar — key visual differentiator */}
+            <span className={`w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
+              profileActive
+                ? 'border-purple-400 bg-purple-50'
+                : childInfo
+                  ? 'border-gray-200 bg-gray-50'
+                  : 'border-dashed border-gray-300 bg-white'
+            }`}>
+              {childInfo
+                ? <img src={getAvatarSrc(childInfo.emoji)} className="w-full h-full object-cover" alt="" />
+                : <span className="text-xl">👤</span>}
+            </span>
+            <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
+              profileActive ? 'text-purple-600' : 'text-gray-400'
+            }`}>
+              {childInfo?.name ?? 'Hồ sơ'}
+            </span>
+          </button>
+
+          {/* Thin separator after Profile tab */}
+          <div className="w-px bg-gray-100 my-3" />
+
           {/* 4 module tabs */}
           {MODULE_TABS.map(({ key, label, icon, needsChild }) => {
             const isActive = active === key
@@ -293,36 +323,6 @@ export default function BottomNav() {
               </button>
             )
           })}
-
-          {/* Thin separator before Profile tab */}
-          <div className="w-px bg-gray-100 my-3" />
-
-          {/* Profile tab — circular avatar, visually distinct */}
-          <button
-            onClick={openProfileSheet}
-            className="relative flex flex-col items-center justify-center gap-1 w-16 flex-shrink-0 active:bg-gray-50/70 transition-colors duration-100"
-          >
-            {profileActive && (
-              <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
-            )}
-            {/* Circular avatar — key visual differentiator */}
-            <span className={`w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
-              profileActive
-                ? 'border-purple-400 bg-purple-50'
-                : childInfo
-                  ? 'border-gray-200 bg-gray-50'
-                  : 'border-dashed border-gray-300 bg-white'
-            }`}>
-              {childInfo
-                ? <img src={getAvatarSrc(childInfo.emoji)} className="w-full h-full object-cover" alt="" />
-                : <span className="text-xl">👤</span>}
-            </span>
-            <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
-              profileActive ? 'text-purple-600' : 'text-gray-400'
-            }`}>
-              {childInfo?.name ?? 'Hồ sơ'}
-            </span>
-          </button>
 
         </div>
       </nav>
