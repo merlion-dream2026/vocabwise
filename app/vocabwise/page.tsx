@@ -48,6 +48,8 @@ export default function VocabWisePage() {
     }).catch(() => {})
   }, [])
 
+  const hasAnyProgress = Object.values(syncMap).some(s => s.completed || s.mastered)
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       <UpgradeBanner
@@ -69,7 +71,28 @@ export default function VocabWisePage() {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-6 space-y-4">
-        <p className="text-gray-500 text-sm text-center">Chọn cấp độ phù hợp với bạn</p>
+
+        {/* Placement quiz entry */}
+        {hasAnyProgress ? (
+          <Link href="/vocabwise/placement"
+            className="flex items-center gap-2 text-indigo-500 text-xs font-bold justify-center py-1 hover:text-indigo-700 transition-colors">
+            🎯 Làm lại bài kiểm tra xếp lớp
+          </Link>
+        ) : (
+          <Link href="/vocabwise/placement"
+            className="block bg-gradient-to-r from-indigo-500 to-blue-500 rounded-2xl px-5 py-4 text-white shadow-md active:scale-[0.99] transition-all">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl flex-shrink-0">🎯</span>
+              <div className="flex-1">
+                <p className="font-black text-base leading-tight">Chưa biết nên bắt đầu từ đâu?</p>
+                <p className="text-white/80 text-xs mt-0.5">Làm bài kiểm tra 10 câu · 2 phút · Nhận gợi ý cấp độ phù hợp</p>
+              </div>
+              <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
+            </div>
+          </Link>
+        )}
+
+        <p className="text-gray-500 text-sm text-center">Hoặc chọn cấp độ trực tiếp</p>
 
         {BOOKS.map(book => {
           const prefix = topicPrefix(book.slug)
