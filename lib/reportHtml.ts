@@ -1,5 +1,11 @@
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+
+function avatarImg(emoji: string, name: string, size = 40): string {
+  return `<img src="${APP_URL}/avatars/${emoji}.png" width="${size}" height="${size}" alt="${name}" style="border-radius:50%;display:block;">`
+}
+
 const LEVEL_TOTAL: Record<string, number> = {
   seeker: 399, starter: 356, ranger: 400, explorer: 368, scholar: 387, master: 303,
 }
@@ -81,13 +87,13 @@ export function buildMonthlyRecapHtml(
 
     return `
       <div style="background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;border:1px solid #e5e7eb;">
-        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
-          <span style="font-size:30px;">${child.emoji}</span>
-          <div>
+        <table style="width:100%;border-collapse:collapse;margin-bottom:14px;"><tr>
+          <td style="width:48px;vertical-align:middle;">${avatarImg(child.emoji, child.name, 40)}</td>
+          <td style="vertical-align:middle;padding-left:10px;">
             <p style="margin:0;font-weight:900;font-size:17px;color:#1f2937;">${child.name}</p>
             <p style="margin:0;font-size:11px;color:#7c3aed;font-weight:700;">${xpInfo.emoji} ${xpInfo.name} · ${summary.xp} XP tổng</p>
-          </div>
-        </div>
+          </td>
+        </tr></table>
         <table style="width:100%;border-collapse:collapse;margin-bottom:10px;">
           <tr>
             ${kpi('Ngày học', '📅', thisMonth.activeDays, prevMonth.activeDays, `/${totalDays}`)}
@@ -173,13 +179,13 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
 
     return `
       <div style="background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;border:1px solid #e5e7eb;">
-        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
-          <span style="font-size:32px;">${child.emoji}</span>
-          <div>
+        <table style="width:100%;border-collapse:collapse;margin-bottom:12px;"><tr>
+          <td style="width:48px;vertical-align:middle;">${avatarImg(child.emoji, child.name, 40)}</td>
+          <td style="vertical-align:middle;padding-left:10px;">
             <p style="margin:0;font-weight:900;font-size:18px;color:#1f2937;">${child.name}</p>
             <p style="margin:0;font-size:12px;color:#7c3aed;font-weight:700;">${xpInfo.emoji} ${xpInfo.name} · ${summary.xp} XP</p>
-          </div>
-        </div>
+          </td>
+        </tr></table>
         <table style="width:100%;border-collapse:collapse;">
           <tr>
             <td style="padding:6px 0;font-size:13px;color:#6b7280;font-weight:600;">📚 Từ đã học</td>

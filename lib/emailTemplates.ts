@@ -1,5 +1,9 @@
 const BASE_URL = 'https://vocabwise.vercel.app'
 
+function avatarImg(id: string, name: string, size = 40): string {
+  return `<img src="${BASE_URL}/avatars/${id}.png" width="${size}" height="${size}" alt="${name}" style="border-radius:50%;display:block;">`
+}
+
 const BANK = {
   bank: 'Timo Bank',
   account: '0977347707',
@@ -141,7 +145,7 @@ export function welcomeEmailHtml(name: string, tempPassword?: string): string {
 }
 
 export function renewalReminderEmailHtml(name: string, daysLeft: number, planLabel: string): string {
-  const urgency = daysLeft <= 1 ? 'bg-red-600' : 'bg-amber-500'
+  const urgency = daysLeft <= 1 ? '#dc2626' : '#f59e0b'
   const urgencyText = daysLeft <= 1 ? '🚨 Hết hạn ngay hôm nay!' : `⏰ Còn ${daysLeft} ngày là hết hạn!`
 
   return `
@@ -172,19 +176,7 @@ export function renewalReminderEmailHtml(name: string, daysLeft: number, planLab
 
       <!-- Plans -->
       <p style="color:#374151;font-weight:900;font-size:13px;margin:20px 0 10px">Chọn gói gia hạn:</p>
-      <div style="display:flex;gap:8px;margin-bottom:16px">
-        ${[
-          { label: '1 tháng', price: '59.000đ', note: null, popular: false },
-          { label: '3 tháng', price: '159.000đ', note: 'Tiết kiệm 10%', popular: true },
-          { label: '6 tháng', price: '299.000đ', note: 'Tiết kiệm 16%', popular: false },
-        ].map(p => `
-        <div style="flex:1;border:2px solid ${p.popular ? '#9333ea' : '#e9d5ff'};border-radius:10px;padding:10px 6px;text-align:center;background:${p.popular ? '#faf5ff' : '#fff'}">
-          ${p.popular ? '<p style="color:#f97316;font-size:9px;font-weight:900;margin:0 0 4px;text-transform:uppercase">PHỔ BIẾN</p>' : '<p style="margin:0 0 13px"> </p>'}
-          <p style="color:#374151;font-weight:900;font-size:12px;margin:0">${p.label}</p>
-          <p style="color:#9333ea;font-weight:900;font-size:14px;margin:4px 0">${p.price}</p>
-          ${p.note ? `<p style="color:#16a34a;font-size:10px;font-weight:700;margin:0">${p.note}</p>` : '<p style="margin:0"> </p>'}
-        </div>`).join('')}
-      </div>
+      ${planCards()}
 
       <!-- Payment info -->
       <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:13px">
@@ -211,7 +203,7 @@ export function renewalReminderEmailHtml(name: string, daysLeft: number, planLab
 }
 
 export function trialExpiryReminderEmailHtml(name: string, daysLeft: number): string {
-  const urgency = daysLeft <= 1 ? 'bg-orange-500' : 'bg-blue-500'
+  const urgency = daysLeft <= 1 ? '#f97316' : '#3b82f6'
   const urgencyText = daysLeft <= 1
     ? '⏰ Hôm nay là ngày cuối dùng thử miễn phí!'
     : `⏰ Còn ${daysLeft} ngày dùng thử miễn phí!`
@@ -254,19 +246,7 @@ export function trialExpiryReminderEmailHtml(name: string, daysLeft: number): st
 
       <!-- Plans -->
       <p style="color:#374151;font-weight:900;font-size:13px;margin:20px 0 10px">Chọn gói phù hợp:</p>
-      <div style="display:flex;gap:8px;margin-bottom:16px">
-        ${[
-          { label: '1 tháng', price: '59.000đ', note: null, popular: false },
-          { label: '3 tháng', price: '159.000đ', note: 'Tiết kiệm 10%', popular: true },
-          { label: '6 tháng', price: '299.000đ', note: 'Tiết kiệm 16%', popular: false },
-        ].map(p => `
-        <div style="flex:1;border:2px solid ${p.popular ? '#9333ea' : '#e9d5ff'};border-radius:10px;padding:10px 6px;text-align:center;background:${p.popular ? '#faf5ff' : '#fff'}">
-          ${p.popular ? '<p style="color:#f97316;font-size:9px;font-weight:900;margin:0 0 4px;text-transform:uppercase">PHỔ BIẾN</p>' : '<p style="margin:0 0 13px"> </p>'}
-          <p style="color:#374151;font-weight:900;font-size:12px;margin:0">${p.label}</p>
-          <p style="color:#9333ea;font-weight:900;font-size:14px;margin:4px 0">${p.price}</p>
-          ${p.note ? `<p style="color:#16a34a;font-size:10px;font-weight:700;margin:0">${p.note}</p>` : '<p style="margin:0"> </p>'}
-        </div>`).join('')}
-      </div>
+      ${planCards()}
 
       <!-- Payment info -->
       <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:13px">
@@ -377,15 +357,15 @@ export function inactiveChildEmailHtml(
   inactiveKids: { name: string; emoji: string; daysInactive: number }[]
 ): string {
   const kidBlocks = inactiveKids.map(kid => `
-    <div style="display:flex;align-items:center;gap:14px;background:#fef3c7;border:1px solid #fde68a;border-radius:12px;padding:14px 16px;margin-bottom:10px">
-      <span style="font-size:36px;line-height:1">${kid.emoji}</span>
-      <div>
-        <p style="margin:0;font-weight:900;font-size:16px;color:#92400e">${kid.name}</p>
-        <p style="margin:3px 0 0;font-size:13px;color:#b45309;font-weight:600">
-          😴 Chưa học ${kid.daysInactive} ngày rồi${kid.daysInactive >= 7 ? ' — streak đã mất!' : ''}
-        </p>
-      </div>
-    </div>`).join('')
+    <table width="100%" cellpadding="0" cellspacing="0" style="background:#fef3c7;border:1px solid #fde68a;border-radius:12px;margin-bottom:10px;">
+      <tr>
+        <td width="54" style="padding:14px 0 14px 16px;vertical-align:middle;">${avatarImg(kid.emoji, kid.name, 40)}</td>
+        <td style="padding:14px 16px 14px 10px;vertical-align:middle;">
+          <p style="margin:0;font-weight:900;font-size:16px;color:#92400e">${kid.name}</p>
+          <p style="margin:3px 0 0;font-size:13px;color:#b45309;font-weight:600">😴 Chưa học ${kid.daysInactive} ngày rồi${kid.daysInactive >= 7 ? ' — streak đã mất!' : ''}</p>
+        </td>
+      </tr>
+    </table>`).join('')
 
   return `
 <!DOCTYPE html>
