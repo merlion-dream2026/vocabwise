@@ -32,12 +32,16 @@ function topicPrefix(slug: string) {
   return slug === 'book1' ? 'b1-' : slug === 'book2' ? 'b2-' : 'b3-'
 }
 
+const WELCOME_KEY = 'vw_academic_welcome_v1'
+
 export default function VocabWisePage() {
   const router = useRouter()
   const [syncMap, setSyncMap] = useState<Record<string, AcademicTopicSync>>({})
   const [session, setSession] = useState<Session | null>(null)
+  const [welcomeDismissed, setWelcomeDismissed] = useState(true)
 
   useEffect(() => {
+    setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
     const cid = localStorage.getItem('vw_active_child')
     Promise.all([
       fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
@@ -47,6 +51,11 @@ export default function VocabWisePage() {
       setSyncMap(d?.mastery ?? {})
     }).catch(() => {})
   }, [])
+
+  function dismissWelcome() {
+    localStorage.setItem(WELCOME_KEY, '1')
+    setWelcomeDismissed(true)
+  }
 
   const hasAnyProgress = Object.values(syncMap).some(s => s.completed || s.mastered)
 
@@ -71,6 +80,38 @@ export default function VocabWisePage() {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-6 space-y-4">
+
+        {/* First-time welcome */}
+        {!hasAnyProgress && !welcomeDismissed && (
+          <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-100 rounded-3xl p-5">
+            <div className="flex items-start justify-between gap-2 mb-4">
+              <div>
+                <h3 className="font-black text-gray-800 text-base">👋 Chào mừng đến VocabWise Academic!</h3>
+                <p className="text-xs text-gray-400 font-semibold mt-0.5">Từ vựng học thuật · A1 → C2 · IELTS / SAT</p>
+              </div>
+              <button onClick={dismissWelcome} className="text-gray-300 hover:text-gray-500 text-lg leading-none flex-shrink-0">✕</button>
+            </div>
+            <div className="space-y-2.5 mb-4">
+              {[
+                { n: '1', icon: '🎯', title: 'Làm bài kiểm tra xếp lớp', desc: '10 câu · 2 phút · tìm đúng cấp độ' },
+                { n: '2', icon: '📄', title: 'Đọc bài passage & xem từ vựng', desc: 'Đọc bài văn ngữ cảnh + glossary song ngữ' },
+                { n: '3', icon: '✏️', title: 'Làm 5 bài tập luyện từ', desc: 'Matching · MCQ · Gap Fill · TFNG · Word Forms' },
+              ].map(step => (
+                <div key={step.n} className="flex items-center gap-3">
+                  <div className="w-7 h-7 rounded-full bg-indigo-500 text-white text-xs font-black flex items-center justify-center flex-shrink-0">{step.n}</div>
+                  <div>
+                    <p className="text-sm font-bold text-gray-700">{step.icon} {step.title}</p>
+                    <p className="text-xs text-gray-400">{step.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <Link href="/vocabwise/placement" onClick={dismissWelcome}
+              className="w-full flex items-center justify-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white font-black text-sm py-3 rounded-2xl active:scale-95 transition-all">
+              🎯 Bắt đầu với bài kiểm tra xếp lớp →
+            </Link>
+          </div>
+        )}
 
         {/* Placement quiz entry */}
         {hasAnyProgress ? (

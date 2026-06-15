@@ -182,14 +182,14 @@ export default function LandingPage() {
 
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-5">
-              <button onClick={() => setShowUpgrade(true)}
-                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-base px-8 py-3.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
-                ⭐ Xem gói Pro
-              </button>
               <Link href="/register"
-                className="bg-white text-gray-500 font-black text-base px-8 py-3.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
+                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-base px-8 py-3.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
                 🚀 Dùng thử miễn phí
               </Link>
+              <button onClick={() => setShowUpgrade(true)}
+                className="bg-white text-gray-500 font-black text-base px-8 py-3.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
+                ⭐ Xem gói Pro
+              </button>
             </div>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-8">
@@ -342,6 +342,37 @@ export default function LandingPage() {
                 Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* VocabWise Academic section */}
+      <div className="max-w-6xl mx-auto px-4 pb-10">
+        <div className="bg-gradient-to-br from-indigo-600 to-blue-700 rounded-3xl overflow-hidden shadow-lg">
+          <div className="px-6 pt-6 pb-4 text-white">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="bg-white/20 text-white text-xs font-black px-2.5 py-1 rounded-full">MỚI</span>
+              <span className="text-white/70 text-xs font-semibold">Dành cho teen & người lớn</span>
+            </div>
+            <h2 className="text-2xl font-black leading-tight mb-1">🎓 VocabWise Academic</h2>
+            <p className="text-blue-200 text-sm mb-4">Từ vựng học thuật · A1 → C2 · Luyện thi IELTS / SAT</p>
+            <div className="grid grid-cols-2 gap-2 mb-5">
+              {[
+                { icon: '📚', label: '180 chủ đề', desc: '3 cuốn · A1 đến C2' },
+                { icon: '✏️', label: '8 loại bài tập', desc: 'Matching · MCQ · Gap Fill · TFNG...' },
+                { icon: '📄', label: 'Bài văn ngữ cảnh', desc: 'Đọc passage + glossary song ngữ' },
+                { icon: '🎯', label: 'Kiểm tra xếp lớp', desc: '10 câu · 2 phút · Tìm đúng level' },
+              ].map(f => (
+                <div key={f.label} className="bg-white/10 rounded-2xl px-3 py-2.5">
+                  <p className="font-black text-sm text-white">{f.icon} {f.label}</p>
+                  <p className="text-blue-200 text-xs mt-0.5">{f.desc}</p>
+                </div>
+              ))}
+            </div>
+            <Link href="/register"
+              className="inline-flex items-center gap-2 bg-white text-indigo-700 font-black text-sm px-5 py-3 rounded-2xl shadow active:scale-95 transition-all hover:bg-blue-50">
+              🎯 Thử bài kiểm tra xếp lớp →
+            </Link>
           </div>
         </div>
       </div>
