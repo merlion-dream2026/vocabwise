@@ -75,12 +75,11 @@ export function getDailyHighestLevel(sync: SyncAllLevels): string | null {
 
 export function getDailyProgress(levelSync: SyncLevel | undefined, level: string): DailyProgress {
   const mastery = levelSync?.mastery ?? {}
-  return {
-    seenWords:       levelSync?.seen?.length ?? 0,
-    totalWords:      DAILY_WORD_COUNTS[level] ?? 400,
-    topicsCompleted: Object.values(mastery).filter(m => m.flashcard && m.games.length >= 3).length,
-    totalTopics:     DAILY_TOTAL_TOPICS,
-  }
+  const topicsCompleted = Object.values(mastery).filter(m => m.flashcard && m.games.length >= 3).length
+  const totalWords = DAILY_WORD_COUNTS[level] ?? 400
+  // All topics done → treat all words as seen (seen array can be 1 short due to edge cases)
+  const seenWords = topicsCompleted >= DAILY_TOTAL_TOPICS ? totalWords : (levelSync?.seen?.length ?? 0)
+  return { seenWords, totalWords, topicsCompleted, totalTopics: DAILY_TOTAL_TOPICS }
 }
 
 // ─── Academic ─────────────────────────────────────────────────────────────────
@@ -118,8 +117,10 @@ export type AllDailyProgress = {
 export function getAllDailyProgress(sync: SyncAllLevels): AllDailyProgress {
   let seenWords = 0, topicsCompleted = 0
   for (const lv of DAILY_LEVEL_ORDER) {
-    seenWords += sync[lv]?.seen?.length ?? 0
-    topicsCompleted += Object.values(sync[lv]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
+    const lvCompleted = Object.values(sync[lv]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
+    const lvTotal = DAILY_WORD_COUNTS[lv] ?? 400
+    seenWords += lvCompleted >= DAILY_TOTAL_TOPICS ? lvTotal : (sync[lv]?.seen?.length ?? 0)
+    topicsCompleted += lvCompleted
   }
   const totalWords  = DAILY_LEVEL_ORDER.reduce((s, lv) => s + (DAILY_WORD_COUNTS[lv] ?? 400), 0)
   const totalTopics = DAILY_TOTAL_TOPICS * DAILY_LEVEL_ORDER.length
