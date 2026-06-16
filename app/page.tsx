@@ -36,6 +36,77 @@ const SECTIONS = [
   },
 ]
 
+const MODULE_CARDS = [
+  {
+    emoji: '🎤',
+    title: 'Phonics',
+    subtitle: 'Phát âm chuẩn IPA',
+    badge: 'Mọi lứa tuổi',
+    gradient: 'from-green-500 to-emerald-600',
+    bgLight: 'from-green-50 to-emerald-50',
+    border: 'border-green-200',
+    accent: 'text-green-700',
+    features: [
+      { icon: '📐', text: 'IPA chuẩn Cambridge — nguyên âm, phụ âm, minimal pairs' },
+      { icon: '🔊', text: 'Nghe phát âm chuẩn từ native speaker' },
+      { icon: '🤖', text: 'AI chấm phát âm ngay lập tức — biết sai biết đúng' },
+      { icon: '🎮', text: '3 game/nhóm âm: Phân biệt · Chọn hình · Luyện đọc' },
+      { icon: '🌍', text: 'Phù hợp mọi lứa tuổi — từ bé đến người đi làm' },
+    ],
+  },
+  {
+    emoji: '📚',
+    title: 'VocabWise Kids',
+    subtitle: 'Từ vựng cho trẻ em',
+    badge: '4–15 tuổi',
+    gradient: 'from-purple-500 to-pink-500',
+    bgLight: 'from-purple-50 to-pink-50',
+    border: 'border-purple-200',
+    accent: 'text-purple-700',
+    features: [
+      { icon: '🌱', text: '6 cấp độ CEFR: Pre-A1 → C1-C2 (Seeker → Master)' },
+      { icon: '📖', text: '4.500+ từ vựng chọn lọc, 30 chủ đề/cấp độ' },
+      { icon: '🎮', text: '10 trò chơi tương tác: Flashcard · Nghe · Đánh vần...' },
+      { icon: '🎵', text: 'Mini story audio — nghe chuyện có chứa từ vựng' },
+      { icon: '🔥', text: 'Streak · XP · Huy hiệu — tạo thói quen học mỗi ngày' },
+    ],
+  },
+  {
+    emoji: '🎓',
+    title: 'VocabWise Academic',
+    subtitle: 'Từ vựng học thuật IELTS/SAT',
+    badge: 'Teen & Người lớn',
+    gradient: 'from-indigo-500 to-blue-600',
+    bgLight: 'from-indigo-50 to-blue-50',
+    border: 'border-indigo-200',
+    accent: 'text-indigo-700',
+    features: [
+      { icon: '📚', text: '3 books · 180 chủ đề học thuật · A1 → C2' },
+      { icon: '📄', text: 'Passage ngữ cảnh + glossary song ngữ Việt–Anh' },
+      { icon: '✏️', text: '8 loại bài tập: MCQ · Gap Fill · TFNG · Word Forms...' },
+      { icon: '🎯', text: 'Kiểm tra cấp độ tự động — tìm đúng level chỉ 2 phút' },
+      { icon: '🏆', text: 'Chuẩn format IELTS/SAT — luyện đúng dạng thi thật' },
+    ],
+  },
+  {
+    emoji: '📊',
+    title: 'Dashboard Phụ Huynh',
+    subtitle: 'Quản lý & theo dõi tiến độ',
+    badge: 'Cho ba mẹ',
+    gradient: 'from-amber-500 to-orange-500',
+    bgLight: 'from-amber-50 to-orange-50',
+    border: 'border-amber-200',
+    accent: 'text-amber-700',
+    features: [
+      { icon: '👧', text: 'Tạo 1–3 hồ sơ bé — mỗi bé tiến độ & streak riêng' },
+      { icon: '🔥', text: 'Theo dõi streak, XP, cấp độ từng bé mỗi ngày' },
+      { icon: '🏆', text: 'Huy hiệu thành tích — bé phấn đấu, ba mẹ tự hào' },
+      { icon: '📋', text: 'Danh sách từ yếu cần ôn — app tự nhắc đúng lúc' },
+      { icon: '📧', text: 'Báo cáo tiến độ email hàng tuần (gói Pro 3/6 tháng)' },
+    ],
+  },
+]
+
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
@@ -220,6 +291,39 @@ export default function LandingPage() {
           </div>
 
         </div>
+      </div>
+
+      {/* Module feature carousel */}
+      <div className="max-w-6xl mx-auto pb-8">
+        <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
+        <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
+        <div
+          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:grid lg:grid-cols-4 lg:overflow-visible lg:pb-0 lg:gap-4"
+          style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
+        >
+          {MODULE_CARDS.map(card => (
+            <div
+              key={card.title}
+              className={`flex-none snap-center w-[260px] lg:w-auto bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 flex flex-col`}
+            >
+              <div className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${card.gradient} text-white text-xs font-black px-2.5 py-1 rounded-full self-start mb-3`}>
+                <span>{card.emoji}</span>
+                <span>{card.badge}</span>
+              </div>
+              <p className={`font-black text-base ${card.accent} leading-tight mb-0.5`}>{card.title}</p>
+              <p className="text-gray-500 text-xs mb-3">{card.subtitle}</p>
+              <ul className="space-y-2 flex-1">
+                {card.features.map(f => (
+                  <li key={f.text} className="flex items-start gap-2">
+                    <span className="text-base flex-shrink-0 leading-none mt-0.5">{f.icon}</span>
+                    <span className="text-gray-600 text-xs leading-snug">{f.text}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem tất cả 4 module →</p>
       </div>
 
       {/* Trust signals strip */}
