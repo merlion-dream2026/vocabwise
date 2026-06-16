@@ -43,7 +43,7 @@ export type ExScores = { ex1: number; ex2: number; ex3: number; ex4: number; ex5
 
 // ── Bonus exercise item types (ex6) ──
 
-export type OddItem = { id: number; words: string[]; answer: string; reason: string }
+export type OddItem = { id: number; words: string[]; answer: string; reason: string; reason_vi?: string }
 export type SDItem  = { id: number; a: string; b: string; answer: 'S' | 'D'; explanation: string }
 export type CatItem = { id: number; word: string; answer: string }
 export type SubItem = { id: number; sentence: string; highlighted: string; options: string[]; answer: string }

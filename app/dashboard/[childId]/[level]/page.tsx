@@ -385,7 +385,7 @@ export default function LevelTopicsPage() {
                   <div className="flex items-center gap-2.5 mb-2">
                     <span className="text-3xl flex-shrink-0">{topic.emoji}</span>
                     <div className="min-w-0">
-                      <p className="font-semibold text-gray-800 text-sm leading-snug">{topic.name}</p>
+                      <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(idx + 1).padStart(2, '0')}</span>{topic.name}</p>
                       <p className="text-xs text-gray-400 mt-0.5">{total} từ</p>
                     </div>
                   </div>
@@ -450,7 +450,7 @@ export default function LevelTopicsPage() {
 
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
-                      <p className="font-semibold text-gray-800 text-sm truncate">{topic.name}</p>
+                      <p className="font-semibold text-gray-800 text-sm truncate"><span className="text-gray-400 font-bold mr-1">{String(idx + 1).padStart(2, '0')}</span>{topic.name}</p>
                       {locked && <span className="text-sm">🔒</span>}
                       {!locked && status === 'done' && (
                         <span className="text-xs bg-green-100 text-green-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">🏆 Xong</span>

@@ -372,7 +372,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                             <div className="flex items-center gap-2.5 mb-2">
                               <span className="text-3xl flex-shrink-0">{t.emoji ?? '📚'}</span>
                               <div className="min-w-0">
-                                <p className="font-semibold text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
+                                <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}</span>{t.topic_title_vi ?? t.topic_title}</p>
                                 <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
                               </div>
                             </div>
@@ -386,7 +386,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           <div className="flex items-center gap-2.5 mb-2">
                             <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
                             <div className="min-w-0">
-                              <p className="font-semibold text-gray-800 text-sm leading-snug">{t.topic_title_vi ?? t.topic_title}</p>
+                              <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}</span>{t.topic_title_vi ?? t.topic_title}</p>
                               <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
                             </div>
                           </div>
@@ -433,7 +433,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   </span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
-                      <p className="font-semibold text-gray-800 text-sm truncate">{t.topic_title_vi ?? t.topic_title}</p>
+                      <p className="font-semibold text-gray-800 text-sm truncate"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}</span>{t.topic_title_vi ?? t.topic_title}</p>
                       {locked && <span className="text-sm flex-shrink-0">🔒</span>}
                       {!locked && isMastered && (
                         <span className="text-xs bg-green-100 text-green-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">🏆 Xong</span>

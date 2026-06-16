@@ -91,7 +91,10 @@ export default function EOddOneOut({ instruction, items, onDone }: Props) {
           <p className="text-sm font-black mb-1">
             {selected === current.answer ? '✅ Chính xác!' : `❌ Đáp án đúng: ${current.answer}`}
           </p>
-          <p className="text-xs text-gray-600 leading-relaxed">{current.reason}</p>
+          {current.reason_vi && (
+            <p className="text-xs text-gray-700 leading-relaxed font-semibold">{current.reason_vi}</p>
+          )}
+          <p className="text-xs text-gray-400 leading-relaxed mt-1 italic">{current.reason}</p>
         </div>
       )}
 
