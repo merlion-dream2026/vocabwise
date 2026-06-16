@@ -136,6 +136,13 @@ export default function VWExerciseRunner({
           })}
         </div>
 
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4">
+          <p className="text-amber-800 text-sm font-black">💡 Luyện thêm</p>
+          <p className="text-amber-700 text-xs mt-1 leading-relaxed">
+            Thử đặt 2–3 câu của riêng bạn dùng những từ vừa học — viết ra giấy hoặc nói to. Không cần nộp, nhưng rất hiệu quả!
+          </p>
+        </div>
+
         <button
           onClick={() => setShowShare(true)}
           className="w-full flex items-center justify-center gap-2 bg-white border-2 border-purple-200 text-purple-600 font-black py-3 rounded-2xl active:scale-95 transition-all"

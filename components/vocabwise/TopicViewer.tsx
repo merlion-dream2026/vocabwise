@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import VWExerciseRunner from './VWExerciseRunner'
+import VWFlashcard from './VWFlashcard'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import type { ExercisesData } from './types'
 
@@ -60,6 +61,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [tab, setTab]       = useState<Tab>('passage')
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
+  const [flashcardMode, setFlashcardMode] = useState(false)
 
   const [childId, setChildId]   = useState<string | null>(null)
   const [session, setSession]   = useState<Session | null>(null)
@@ -254,16 +256,28 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {/* GLOSSARY TAB */}
         {tab === 'glossary' && (
           <div>
+            {flashcardMode ? (
+              <VWFlashcard glossary={glossary} onExit={() => setFlashcardMode(false)} />
+            ) : (
+            <>
             {(() => {
               const wordCount = glossary.filter(i => i.type !== 'collocation').length
               const collCount = glossary.filter(i => i.type === 'collocation').length
               return (
-                <p className="text-xs text-gray-400 text-center mb-4">
-                  {collCount > 0
-                    ? `${wordCount} từ · ${collCount} collocation · Nhấn vào từ để xem chi tiết`
-                    : `${glossary.length} từ · Nhấn vào từ để xem chi tiết`
-                  }
-                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-xs text-gray-400">
+                    {collCount > 0
+                      ? `${wordCount} từ · ${collCount} collocation · Nhấn để xem chi tiết`
+                      : `${glossary.length} từ · Nhấn vào từ để xem chi tiết`
+                    }
+                  </p>
+                  <button
+                    onClick={() => setFlashcardMode(true)}
+                    className="text-xs font-black px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 hover:bg-indigo-200 transition-colors flex-shrink-0 ml-2"
+                  >
+                    🃏 Tự kiểm tra
+                  </button>
+                </div>
               )
             })()}
             <div className="space-y-3">
@@ -349,6 +363,8 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
               ✏️ Làm bài tập →
             </button>
+            </>
+            )}
           </div>
         )}
 
