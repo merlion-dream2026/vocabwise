@@ -425,8 +425,8 @@ export default function HomePage() {
         >
           <span className="text-4xl">⚔️</span>
           <div className="flex-1 text-left">
-            <p className="text-white font-black text-lg leading-tight">Sibling Battle</p>
-            <p className="text-white/80 text-sm font-semibold">Xem ai học nhiều hơn tuần này!</p>
+            <p className="text-white font-black text-lg leading-tight">Bảng Thành Tích</p>
+            <p className="text-white/80 text-sm font-semibold">Mỗi bé học được bao nhiêu?</p>
           </div>
           <span className="text-white/80 font-black text-lg">→</span>
         </button>
@@ -439,7 +439,7 @@ export default function HomePage() {
             {/* Header */}
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
               <p className="text-4xl mb-1">⚔️</p>
-              <h2 className="text-white font-black text-xl">Sibling Battle</h2>
+              <h2 className="text-white font-black text-xl">Bảng Thành Tích</h2>
               <p className="text-white/80 text-sm font-semibold mt-0.5">
                 {battlePeriod === 'today' ? 'Học hôm nay' : `${BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days} ngày gần nhất`}
               </p>
@@ -507,12 +507,18 @@ export default function HomePage() {
                                 </div>
                               </div>
                               {/* XP bar */}
-                              <div className="h-2.5 bg-white rounded-full overflow-hidden border border-gray-200">
+                              <div className="h-2.5 bg-white rounded-full overflow-hidden border border-gray-200 mb-2">
                                 <div
                                   className={`h-full bg-gradient-to-r ${cfg.gradient} rounded-full transition-all duration-700`}
                                   style={{ width: `${Math.max(barPct, d.xp > 0 ? 4 : 0)}%` }}
                                 />
                               </div>
+                              <button
+                                onClick={() => { setBattleOpen(false); router.push(`/dashboard/${d.child.id}`) }}
+                                className="text-xs font-bold text-purple-500 hover:text-purple-700 transition-colors"
+                              >
+                                Xem lịch sử học →
+                              </button>
                             </div>
                           )
                         })}
