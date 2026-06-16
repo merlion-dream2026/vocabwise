@@ -9,8 +9,13 @@ import E5TFNG           from './E5TFNG'
 import E6WordForms      from './E6WordForms'
 import E7SentenceBuilding from './E7SentenceBuilding'
 import E8ErrorFix       from './E8ErrorFix'
+import EOddOneOut       from './EOddOneOut'
+import ESDSameDiff      from './ESDSameDiff'
+import ECategorize      from './ECategorize'
+import ESynSub          from './ESynSub'
+import ECollocBuilder   from './ECollocBuilder'
 
-type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5'
+type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
 type Phase   = 'menu' | ExPhase | 'results'
 
 type Props = {
@@ -28,14 +33,18 @@ const EX_NAMES: Record<string, string> = {
   E3: 'MCQ — Context',  E4: 'Gap Fill',
   E5: 'True/False/NG',  E6: 'Word Forms',
   E7: 'Reordering',     E8: 'Error Fix',
+  E_ODD: 'Odd One Out', E_SD: 'Same or Different',
+  E_CAT: 'Categorize',  E_SUB: 'Synonym Substitute',
+  E_COL: 'Collocation Builder',
 }
 
 const EX_ICONS: Record<string, string> = {
   E1: '🔗', E2: '🅰️', E3: '🧠', E4: '✏️',
   E5: '✅', E6: '📝', E7: '🔄', E8: '🔍',
+  E_ODD: '🔎', E_SD: '⚖️', E_CAT: '🗂️', E_SUB: '🔁', E_COL: '🧩',
 }
 
-const PHASE_ORDER: ExPhase[] = ['ex1', 'ex2', 'ex3', 'ex4', 'ex5']
+const PHASE_ORDER: ExPhase[] = ['ex1', 'ex2', 'ex3', 'ex4', 'ex5', 'ex6']
 
 function getExData(exercises: ExercisesData, phase: ExPhase) {
   const n    = Number(phase.replace('ex', ''))
@@ -124,7 +133,7 @@ export default function VWExerciseRunner({
               <div key={p}>
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-xs font-bold text-gray-500">
-                    {EX_ICONS[d.type] ?? ''} Bài {i + 1} — {EX_NAMES[d.type] ?? d.type}
+                    {EX_ICONS[d.type] ?? ''} {p === 'ex6' ? 'Bài thêm' : `Bài ${i + 1}`} — {EX_NAMES[d.type] ?? d.type}
                   </span>
                   <span className="text-xs font-black text-gray-600">{s}/5</span>
                 </div>
@@ -182,9 +191,14 @@ export default function VWExerciseRunner({
         </div>
 
         <div className="flex items-center gap-2">
-          <span className="bg-purple-100 text-purple-700 text-xs font-black px-2.5 py-1 rounded-full">
-            {EX_ICONS[exData.type] ?? ''} Bài {phaseIdx}
-          </span>
+          {exPhase === 'ex6'
+            ? <span className="bg-amber-100 text-amber-700 text-xs font-black px-2.5 py-1 rounded-full">
+                {EX_ICONS[exData.type] ?? ''} Bài thêm
+              </span>
+            : <span className="bg-purple-100 text-purple-700 text-xs font-black px-2.5 py-1 rounded-full">
+                {EX_ICONS[exData.type] ?? ''} Bài {phaseIdx}
+              </span>
+          }
           <span className="font-black text-gray-700 text-sm">
             {EX_NAMES[exData.type] ?? exData.type}
           </span>
@@ -199,6 +213,11 @@ export default function VWExerciseRunner({
           if (d.type === 'E6') return <E6WordForms instruction={d.instruction} items={d.items} onDone={done} />
           if (d.type === 'E7') return <E7SentenceBuilding instruction={d.instruction} items={d.items} onDone={done} />
           if (d.type === 'E8') return <E8ErrorFix instruction={d.instruction} items={d.items} onDone={done} />
+          if (d.type === 'E_ODD') return <EOddOneOut instruction={d.instruction} items={d.items} onDone={done} />
+          if (d.type === 'E_SD')  return <ESDSameDiff instruction={d.instruction} items={d.items} onDone={done} />
+          if (d.type === 'E_CAT') return <ECategorize instruction={d.instruction} categories={d.categories ?? []} items={d.items} onDone={done} />
+          if (d.type === 'E_SUB') return <ESynSub instruction={d.instruction} items={d.items} onDone={done} />
+          if (d.type === 'E_COL') return <ECollocBuilder instruction={d.instruction} items={d.items} onDone={done} />
           return null
         })()}
       </div>
@@ -248,17 +267,21 @@ export default function VWExerciseRunner({
       {/* Exercise list */}
       <div className="space-y-2.5">
         {availablePhases.map((exPhase, i) => {
-          const d    = getExData(exercises, exPhase)
+          const d       = getExData(exercises, exPhase)
           if (!d) return null
-          const done = scores[exPhase] !== undefined
-          const s    = scores[exPhase] ?? 0
+          const done    = scores[exPhase] !== undefined
+          const s       = scores[exPhase] ?? 0
+          const isBonus = exPhase === 'ex6'
           return (
             <button key={exPhase} onClick={() => setPhase(exPhase)}
-              className="w-full flex items-center gap-3 bg-white border-2 rounded-2xl px-4 py-3.5 active:scale-[0.99] transition-all text-left hover:shadow-sm
-                         border-gray-100 hover:border-purple-200">
+              className={`w-full flex items-center gap-3 bg-white border-2 rounded-2xl px-4 py-3.5 active:scale-[0.99] transition-all text-left hover:shadow-sm ${
+                isBonus ? 'border-amber-100 hover:border-amber-300' : 'border-gray-100 hover:border-purple-200'
+              }`}>
               {/* Icon */}
               <span className={`w-10 h-10 rounded-xl font-black text-lg flex items-center justify-center flex-shrink-0 ${
-                done ? 'bg-green-50 text-green-500' : 'bg-purple-50 text-purple-400'
+                done ? 'bg-green-50 text-green-500'
+                : isBonus ? 'bg-amber-50 text-amber-500'
+                : 'bg-purple-50 text-purple-400'
               }`}>
                 {done ? '✓' : EX_ICONS[d.type] ?? `${i+1}`}
               </span>
@@ -266,9 +289,9 @@ export default function VWExerciseRunner({
               {/* Info */}
               <div className="flex-1 min-w-0">
                 <p className="font-black text-gray-800 text-sm">
-                  Bài {i + 1} — {EX_NAMES[d.type] ?? d.type}
+                  {isBonus ? 'Bài thêm' : `Bài ${i + 1}`} — {EX_NAMES[d.type] ?? d.type}
                 </p>
-                <p className="text-xs text-gray-400 mt-0.5">5 câu · tối đa 5 điểm</p>
+                <p className="text-xs text-gray-400 mt-0.5">{isBonus ? '10 câu' : '5 câu'} · tối đa 5 điểm</p>
               </div>
 
               {/* Status */}
@@ -278,7 +301,9 @@ export default function VWExerciseRunner({
                   {scoreBar(s)}
                 </div>
               ) : (
-                <span className="text-xs font-black text-purple-500 bg-purple-50 px-3 py-1.5 rounded-full flex-shrink-0">
+                <span className={`text-xs font-black px-3 py-1.5 rounded-full flex-shrink-0 ${
+                  isBonus ? 'text-amber-600 bg-amber-50' : 'text-purple-500 bg-purple-50'
+                }`}>
                   Làm →
                 </span>
               )}

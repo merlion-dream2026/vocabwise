@@ -45,7 +45,9 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   for (const ex of exercises) {
     const exObj: any = { type: ex.ex_type, instruction: ex.instruction, items: ex.items }
     if (ex.ex_type === 'E1') {
-      if (ex.word_bank) exObj.options = ex.word_bank  // E1 stores options in word_bank
+      if (ex.word_bank) exObj.options = ex.word_bank
+    } else if (ex.ex_type === 'E_CAT') {
+      if (ex.word_bank) exObj.categories = ex.word_bank
     } else if (ex.word_bank) {
       exObj.word_bank = ex.word_bank
     }

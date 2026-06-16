@@ -30,6 +30,7 @@ const EX_KEY_MAP = {
   ex3_gap_fill:    3,
   ex4_word_forms:  4, ex4_reordering: 4,
   ex5_error_fix:   5, ex5_collocation: 5,
+  ex6_odd: 6, ex6_sd: 6, ex6_cat: 6, ex6_sub: 6, ex6_col: 6,
 }
 
 async function upsertTheme(bookId, themeNumber, themeTitle, themeTitleVi) {
@@ -124,8 +125,8 @@ async function seedTopic(filePath) {
         ex_name:    key,
         instruction: ex.instruction,
         items:      ex.items,
-        word_bank:  ex.word_bank || ex.options || null,
-        answer_key: answer_key[`ex${exNum}`],
+        word_bank:  ex.word_bank || ex.options || ex.categories || null,
+        answer_key: answer_key[`ex${exNum}`] ?? {},
       }, { onConflict: 'topic_id,ex_number' })
     if (error) console.error(`  Exercise ${exNum} (${key}) error:`, error.message)
     else exCount++

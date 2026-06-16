@@ -25,7 +25,8 @@ export default function ESDSameDiff({ instruction, items, onDone }: Props) {
   const goNext = () => {
     const isCorrect = selected === current.answer
     if (idx + 1 >= total) {
-      onDone([...scores, isCorrect].filter(Boolean).length)
+      const correct = [...scores, isCorrect].filter(Boolean).length
+      onDone(Math.round(correct / total * 5))
     } else {
       setIdx(i => i + 1)
       setSelected(null)

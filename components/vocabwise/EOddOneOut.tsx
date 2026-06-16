@@ -32,8 +32,8 @@ export default function EOddOneOut({ instruction, items, onDone }: Props) {
   const goNext = () => {
     const isCorrect = selected === current.answer
     if (idx + 1 >= total) {
-      const finalScores = [...scores, isCorrect]
-      onDone(finalScores.filter(Boolean).length)
+      const correct = [...scores, isCorrect].filter(Boolean).length
+      onDone(Math.round(correct / total * 5))
     } else {
       setIdx(i => i + 1)
       setSelected(null)

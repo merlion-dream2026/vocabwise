@@ -34,11 +34,17 @@ export type ExercisesData = {
   // Bonus exercises — optional, added per topic after user approval
   ex6_odd?:            { type: 'E_ODD'; instruction: string; items: OddItem[] }
   ex6_sd?:             { type: 'E_SD';  instruction: string; items: SDItem[]  }
+  ex6_cat?:            { type: 'E_CAT'; instruction: string; categories: string[]; items: CatItem[] }
+  ex6_sub?:            { type: 'E_SUB'; instruction: string; items: SubItem[] }
+  ex6_col?:            { type: 'E_COL'; instruction: string; items: ColItem[] }
 }
 
 export type ExScores = { ex1: number; ex2: number; ex3: number; ex4: number; ex5: number }
 
-// ── New exercise types (components created, not yet wired into ExerciseRunner) ──
+// ── Bonus exercise item types (ex6) ──
 
 export type OddItem = { id: number; words: string[]; answer: string; reason: string }
 export type SDItem  = { id: number; a: string; b: string; answer: 'S' | 'D'; explanation: string }
+export type CatItem = { id: number; word: string; answer: string }
+export type SubItem = { id: number; sentence: string; highlighted: string; options: string[]; answer: string }
+export type ColItem = { id: number; sentence: string; options: string[]; answer: string; collocation: string }
