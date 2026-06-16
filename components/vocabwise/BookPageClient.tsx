@@ -136,12 +136,14 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           onClose={() => setShowCert(false)}
         />
       )}
-      <UpgradeBanner
-        plan={session?.plan ?? 'free'}
-        freeTrialExpiresAt={session?.free_trial_expires_at}
-        planEndDate={session?.plan_end_date}
-        username={session?.username}
-      />
+      {session && (
+        <UpgradeBanner
+          plan={session.plan}
+          freeTrialExpiresAt={session.free_trial_expires_at}
+          planEndDate={session.plan_end_date}
+          username={session.username}
+        />
+      )}
 
       {/* Compact flat header — mirrors Daily */}
       <div className={`${flatCls} text-white`}>

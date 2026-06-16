@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "nervous" },
-        { "id": 2, "word": "proud" },
-        { "id": 3, "word": "lonely" },
-        { "id": 4, "word": "calm" },
-        { "id": 5, "word": "upset" }
+        {
+          "id": 1,
+          "word": "nervous"
+        },
+        {
+          "id": 2,
+          "word": "proud"
+        },
+        {
+          "id": 3,
+          "word": "lonely"
+        },
+        {
+          "id": 4,
+          "word": "calm"
+        },
+        {
+          "id": 5,
+          "word": "upset"
+        }
       ],
       "options": [
-        { "id": "A", "text": "feeling pleased and satisfied about something you or someone else has achieved" },
-        { "id": "B", "text": "feeling sad because you are alone and have no friends nearby" },
-        { "id": "C", "text": "feeling worried and uncomfortable about something that might happen" },
-        { "id": "D", "text": "relaxed and not worried or excited; not disturbed" },
-        { "id": "E", "text": "unhappy or disappointed because of something bad that has happened" }
+        {
+          "id": "A",
+          "text": "feeling pleased and satisfied about something you or someone else has achieved"
+        },
+        {
+          "id": "B",
+          "text": "feeling sad because you are alone and have no friends nearby"
+        },
+        {
+          "id": "C",
+          "text": "feeling worried and uncomfortable about something that might happen"
+        },
+        {
+          "id": "D",
+          "text": "relaxed and not worried or excited; not disturbed"
+        },
+        {
+          "id": "E",
+          "text": "unhappy or disappointed because of something bad that has happened"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "I feel very _____ before a big exam — my hands shake and I cannot sleep.",
-          "options": ["nervous", "happy", "excited", "calm"],
+          "options": [
+            "nervous",
+            "happy",
+            "excited",
+            "calm"
+          ],
           "answer": "nervous"
         },
         {
           "id": 2,
           "sentence": "She was so _____ of her result — she got the top score in the whole class.",
-          "options": ["proud", "lonely", "upset", "calm"],
+          "options": [
+            "proud",
+            "lonely",
+            "upset",
+            "calm"
+          ],
           "answer": "proud"
         },
         {
           "id": 3,
           "sentence": "He felt very _____ when all his friends went to the party without him.",
-          "options": ["angry", "sad", "lonely", "scared"],
+          "options": [
+            "angry",
+            "sad",
+            "lonely",
+            "scared"
+          ],
           "answer": "lonely"
         },
         {
           "id": 4,
           "sentence": "I was _____ to see snow for the first time — I had never seen it before.",
-          "options": ["nervous", "upset", "surprised", "worried"],
+          "options": [
+            "nervous",
+            "upset",
+            "surprised",
+            "worried"
+          ],
           "answer": "surprised"
         },
         {
           "id": 5,
           "sentence": "Take a deep breath and stay _____ — the exam is not as hard as you think.",
-          "options": ["happy", "excited", "calm", "proud"],
+          "options": [
+            "happy",
+            "excited",
+            "calm",
+            "proud"
+          ],
           "answer": "calm"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["nervous", "scared", "happy", "show", "worried", "feeling"],
+      "word_bank": [
+        "nervous",
+        "scared",
+        "happy",
+        "show",
+        "worried",
+        "feeling"
+      ],
       "items": [
-        { "id": 1, "sentence": "She was very _____ before her first performance — it was her first time on stage.", "answer": "nervous" },
-        { "id": 2, "sentence": "My little brother is _____ of the dark — he always sleeps with a small light on.", "answer": "scared" },
-        { "id": 3, "sentence": "I was so _____ when I got a perfect score — I jumped up and cheered.", "answer": "happy" },
-        { "id": 4, "sentence": "It is important to _____ your feelings — do not keep them hidden inside.", "answer": "show" },
-        { "id": 5, "sentence": "My mum is always _____ when I come home late from school.", "answer": "worried" }
+        {
+          "id": 1,
+          "sentence": "She was very _____ before her first performance — it was her first time on stage.",
+          "answer": "nervous"
+        },
+        {
+          "id": 2,
+          "sentence": "My little brother is _____ of the dark — he always sleeps with a small light on.",
+          "answer": "scared"
+        },
+        {
+          "id": 3,
+          "sentence": "I was so _____ when I got a perfect score — I jumped up and cheered.",
+          "answer": "happy"
+        },
+        {
+          "id": 4,
+          "sentence": "It is important to _____ your feelings — do not keep them hidden inside.",
+          "answer": "show"
+        },
+        {
+          "id": 5,
+          "sentence": "My mum is always _____ when I come home late from school.",
+          "answer": "worried"
+        }
       ],
       "note": "One word in the box is not used: feeling"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "She felt very [lonely] when she won the race — all her friends cheered for her.",
           "highlighted": "lonely",
-          "options": { "A": "proud", "B": "lonely", "C": "excited" },
+          "options": {
+            "A": "proud",
+            "B": "lonely",
+            "C": "excited"
+          },
           "answer": "A",
           "explanation": "When you win a race and friends cheer for you, you feel 'proud' — happy and satisfied about your achievement. 'Lonely' means feeling sad because you are alone, which does not match this positive situation."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "He was so [calm] before the exam — his hands were shaking and he could not sleep.",
           "highlighted": "calm",
-          "options": { "A": "upset", "B": "calm", "C": "nervous" },
+          "options": {
+            "A": "upset",
+            "B": "calm",
+            "C": "nervous"
+          },
           "answer": "C",
           "explanation": "Someone whose hands shake and who cannot sleep is not calm at all. The word that describes feeling worried and uncomfortable before something important is 'nervous'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "I always [show] my feelings and keep everything inside.",
           "highlighted": "show",
-          "options": { "A": "show", "B": "hide", "C": "ignore" },
+          "options": {
+            "A": "show",
+            "B": "hide",
+            "C": "ignore"
+          },
           "answer": "B",
           "explanation": "The second part of the sentence says 'keep everything inside', which means not sharing feelings with others. This contradicts 'show'. The correct word is 'hide' — to not let others see how you feel."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She was very [scared] of her son's excellent exam results — she gave him a big proud hug.",
           "highlighted": "scared",
-          "options": { "A": "proud", "B": "scared", "C": "surprised" },
+          "options": {
+            "A": "proud",
+            "B": "scared",
+            "C": "surprised"
+          },
           "answer": "A",
           "explanation": "When a child gets excellent results, a parent feels 'proud' — happy and pleased about the achievement. 'Scared' means frightened, which does not match a happy situation like this."
         },
@@ -452,18 +550,112 @@
           "id": 5,
           "sentence": "He felt [excited] when he heard that his grandmother was seriously ill in hospital.",
           "highlighted": "excited",
-          "options": { "A": "excited", "B": "sad", "C": "worried" },
+          "options": {
+            "A": "excited",
+            "B": "sad",
+            "C": "worried"
+          },
           "answer": "C",
           "explanation": "'Excited' is a positive feeling about something good happening. Hearing that a grandmother is seriously ill is bad news — the natural response is to feel 'worried', not excited."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each feeling belong to?",
+      "categories": [
+        "Cảm xúc tích cực",
+        "Cảm xúc tiêu cực"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "happy",
+          "answer": "Cảm xúc tích cực"
+        },
+        {
+          "id": 2,
+          "word": "sad",
+          "answer": "Cảm xúc tiêu cực"
+        },
+        {
+          "id": 3,
+          "word": "excited",
+          "answer": "Cảm xúc tích cực"
+        },
+        {
+          "id": 4,
+          "word": "angry",
+          "answer": "Cảm xúc tiêu cực"
+        },
+        {
+          "id": 5,
+          "word": "proud",
+          "answer": "Cảm xúc tích cực"
+        },
+        {
+          "id": 6,
+          "word": "worried",
+          "answer": "Cảm xúc tiêu cực"
+        },
+        {
+          "id": 7,
+          "word": "calm",
+          "answer": "Cảm xúc tích cực"
+        },
+        {
+          "id": 8,
+          "word": "nervous",
+          "answer": "Cảm xúc tiêu cực"
+        },
+        {
+          "id": 9,
+          "word": "surprised",
+          "answer": "Cảm xúc tích cực"
+        },
+        {
+          "id": 10,
+          "word": "scared",
+          "answer": "Cảm xúc tiêu cực"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "B", "4": "D", "5": "E" },
-    "ex2": { "1": "nervous", "2": "proud", "3": "lonely", "4": "surprised", "5": "calm" },
-    "ex3": { "1": "nervous", "2": "scared", "3": "happy", "4": "show", "5": "worried" },
-    "ex4": { "1": "happily", "2": "nervously", "3": "worried", "4": "excited", "5": "proudly" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "D",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "nervous",
+      "2": "proud",
+      "3": "lonely",
+      "4": "surprised",
+      "5": "calm"
+    },
+    "ex3": {
+      "1": "nervous",
+      "2": "scared",
+      "3": "happy",
+      "4": "show",
+      "5": "worried"
+    },
+    "ex4": {
+      "1": "happily",
+      "2": "nervously",
+      "3": "worried",
+      "4": "excited",
+      "5": "proudly"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

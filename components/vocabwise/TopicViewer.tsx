@@ -177,12 +177,14 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   return (
     <div className="min-h-screen bg-white">
-      <UpgradeBanner
-        plan={session?.plan ?? 'free'}
-        freeTrialExpiresAt={session?.free_trial_expires_at}
-        planEndDate={session?.plan_end_date}
-        username={session?.username}
-      />
+      {session && (
+        <UpgradeBanner
+          plan={session.plan}
+          freeTrialExpiresAt={session.free_trial_expires_at}
+          planEndDate={session.plan_end_date}
+          username={session.username}
+        />
+      )}
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white">
         <button onClick={() => router.back()} className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">

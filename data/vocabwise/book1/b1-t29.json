@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "shy" },
-        { "id": 2, "word": "patient" },
-        { "id": 3, "word": "talkative" },
-        { "id": 4, "word": "well-known" },
-        { "id": 5, "word": "lazy" }
+        {
+          "id": 1,
+          "word": "shy"
+        },
+        {
+          "id": 2,
+          "word": "patient"
+        },
+        {
+          "id": 3,
+          "word": "talkative"
+        },
+        {
+          "id": 4,
+          "word": "well-known"
+        },
+        {
+          "id": 5,
+          "word": "lazy"
+        }
       ],
       "options": [
-        { "id": "A", "text": "not wanting to do any work; avoiding effort and responsibility" },
-        { "id": "B", "text": "known and recognised by many people; famous" },
-        { "id": "C", "text": "nervous and uncomfortable around other people; not confident socially" },
-        { "id": "D", "text": "able to wait for a long time without getting angry or upset" },
-        { "id": "E", "text": "liking to talk a lot; speaking more than most people" }
+        {
+          "id": "A",
+          "text": "not wanting to do any work; avoiding effort and responsibility"
+        },
+        {
+          "id": "B",
+          "text": "known and recognised by many people; famous"
+        },
+        {
+          "id": "C",
+          "text": "nervous and uncomfortable around other people; not confident socially"
+        },
+        {
+          "id": "D",
+          "text": "able to wait for a long time without getting angry or upset"
+        },
+        {
+          "id": "E",
+          "text": "liking to talk a lot; speaking more than most people"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "He is very _____ — he always finds the right answer before anyone else in the class.",
-          "options": ["lazy", "clever", "shy", "quiet"],
+          "options": [
+            "lazy",
+            "clever",
+            "shy",
+            "quiet"
+          ],
           "answer": "clever"
         },
         {
           "id": 2,
           "sentence": "She is a little _____ at first, but once she knows you, she talks a lot.",
-          "options": ["noisy", "talkative", "shy", "serious"],
+          "options": [
+            "noisy",
+            "talkative",
+            "shy",
+            "serious"
+          ],
           "answer": "shy"
         },
         {
           "id": 3,
           "sentence": "My _____ and I sit next to each other and share notes after every lesson.",
-          "options": ["manager", "classmate", "neighbour", "person"],
+          "options": [
+            "manager",
+            "classmate",
+            "neighbour",
+            "person"
+          ],
           "answer": "classmate"
         },
         {
           "id": 4,
           "sentence": "He is very _____ — he never wants to clean, cook, or do anything around the house.",
-          "options": ["funny", "warm", "lazy", "patient"],
+          "options": [
+            "funny",
+            "warm",
+            "lazy",
+            "patient"
+          ],
           "answer": "lazy"
         },
         {
           "id": 5,
           "sentence": "She is a very _____ teacher — she explains things slowly and never gets angry when students ask questions.",
-          "options": ["noisy", "talkative", "patient", "well-known"],
+          "options": [
+            "noisy",
+            "talkative",
+            "patient",
+            "well-known"
+          ],
           "answer": "patient"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["funny", "helpful", "quiet", "serious", "warm", "noisy"],
+      "word_bank": [
+        "funny",
+        "helpful",
+        "quiet",
+        "serious",
+        "warm",
+        "noisy"
+      ],
       "items": [
-        { "id": 1, "sentence": "He is very _____ — he always makes jokes and everyone laughs.", "answer": "funny" },
-        { "id": 2, "sentence": "She is _____ about her exams — she studies for three hours every day.", "answer": "serious" },
-        { "id": 3, "sentence": "My neighbour is always _____ — she carries my bags and opens doors for me.", "answer": "helpful" },
-        { "id": 4, "sentence": "She has a _____ personality — she smiles at everyone and makes them feel welcome.", "answer": "warm" },
-        { "id": 5, "sentence": "He is a _____ person — he never shouts or makes loud sounds in public.", "answer": "quiet" }
+        {
+          "id": 1,
+          "sentence": "He is very _____ — he always makes jokes and everyone laughs.",
+          "answer": "funny"
+        },
+        {
+          "id": 2,
+          "sentence": "She is _____ about her exams — she studies for three hours every day.",
+          "answer": "serious"
+        },
+        {
+          "id": 3,
+          "sentence": "My neighbour is always _____ — she carries my bags and opens doors for me.",
+          "answer": "helpful"
+        },
+        {
+          "id": 4,
+          "sentence": "She has a _____ personality — she smiles at everyone and makes them feel welcome.",
+          "answer": "warm"
+        },
+        {
+          "id": 5,
+          "sentence": "He is a _____ person — he never shouts or makes loud sounds in public.",
+          "answer": "quiet"
+        }
       ],
       "note": "One word in the box is not used: noisy"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "My classmate is very [patient] — she talks so much that the teacher has to ask her to be quiet.",
           "highlighted": "patient",
-          "options": { "A": "quiet", "B": "talkative", "C": "patient" },
+          "options": {
+            "A": "quiet",
+            "B": "talkative",
+            "C": "patient"
+          },
           "answer": "B",
           "explanation": "'Patient' means calm and willing to wait. Someone who talks so much that the teacher must ask them to stop is 'talkative', not patient."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "She is very [noisy] — she never speaks loudly and always listens carefully to others.",
           "highlighted": "noisy",
-          "options": { "A": "quiet", "B": "noisy", "C": "shy" },
+          "options": {
+            "A": "quiet",
+            "B": "noisy",
+            "C": "shy"
+          },
           "answer": "A",
           "explanation": "'Noisy' means loud and disruptive. Someone who never speaks loudly and listens carefully is 'quiet', not noisy."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "She is very [lazy] about her studies — she always gets top marks and never misses a class.",
           "highlighted": "lazy",
-          "options": { "A": "helpful", "B": "lazy", "C": "serious" },
+          "options": {
+            "A": "helpful",
+            "B": "lazy",
+            "C": "serious"
+          },
           "answer": "C",
           "explanation": "'Lazy' means not wanting to work. Someone who gets top marks and never misses class is 'serious' about their studies, not lazy."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "My uncle is very [shy] — he speaks in front of hundreds of people at meetings every week.",
           "highlighted": "shy",
-          "options": { "A": "shy", "B": "talkative", "C": "patient" },
+          "options": {
+            "A": "shy",
+            "B": "talkative",
+            "C": "patient"
+          },
           "answer": "B",
           "explanation": "'Shy' means uncomfortable around others. Someone who regularly speaks in front of hundreds of people is 'talkative' and confident, not shy."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "He always works hard and is never [helpful] — he loves doing nothing and hates responsibilities.",
           "highlighted": "helpful",
-          "options": { "A": "lazy", "B": "helpful", "C": "serious" },
+          "options": {
+            "A": "lazy",
+            "B": "helpful",
+            "C": "serious"
+          },
           "answer": "A",
           "explanation": "'Helpful' describes someone who assists others — it does not match someone who loves doing nothing. A person who avoids work and hates responsibility is 'lazy'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "funny",
+            "clever",
+            "shy",
+            "classmate"
+          ],
+          "answer": "classmate",
+          "reason": "funny, clever, and shy are adjectives that describe a person's personality. 'classmate' is a noun — a person who studies in the same class as you.",
+          "reason_vi": "funny, clever và shy đều là tính từ mô tả tính cách. 'classmate' là danh từ — người học cùng lớp với bạn."
+        },
+        {
+          "id": 2,
+          "words": [
+            "quiet",
+            "shy",
+            "noisy",
+            "serious"
+          ],
+          "answer": "noisy",
+          "reason": "quiet, shy, and serious describe people who are calm or reserved. 'noisy' describes someone who makes a lot of sound — the opposite personality.",
+          "reason_vi": "quiet, shy và serious mô tả người điềm tĩnh hoặc khép kín. 'noisy' mô tả người tạo ra nhiều tiếng ồn — tính cách ngược lại."
+        },
+        {
+          "id": 3,
+          "words": [
+            "talkative",
+            "noisy",
+            "warm",
+            "patient"
+          ],
+          "answer": "patient",
+          "reason": "talkative, noisy, and warm all describe outward, expressive personality traits. 'patient' describes someone who can wait calmly — a more internal quality.",
+          "reason_vi": "talkative, noisy và warm đều mô tả đặc điểm tính cách hướng ngoại, biểu cảm. 'patient' mô tả người có thể chờ đợi bình tĩnh — phẩm chất nội tâm hơn."
+        },
+        {
+          "id": 4,
+          "words": [
+            "funny",
+            "clever",
+            "lazy",
+            "manager"
+          ],
+          "answer": "manager",
+          "reason": "funny, clever, and lazy are adjectives describing personality traits. 'manager' is a noun — a person who is in charge of others at work.",
+          "reason_vi": "funny, clever và lazy đều là tính từ mô tả đặc điểm tính cách. 'manager' là danh từ — người phụ trách người khác trong công việc."
+        },
+        {
+          "id": 5,
+          "words": [
+            "quiet",
+            "serious",
+            "patient",
+            "person"
+          ],
+          "answer": "person",
+          "reason": "quiet, serious, and patient are adjectives used to describe how someone behaves. 'person' is a general noun — any human being, not a description.",
+          "reason_vi": "quiet, serious và patient đều là tính từ mô tả cách ai đó hành xử. 'person' là danh từ chung — bất kỳ người nào, không phải mô tả."
+        },
+        {
+          "id": 6,
+          "words": [
+            "helpful",
+            "warm",
+            "clever",
+            "well-known"
+          ],
+          "answer": "well-known",
+          "reason": "helpful, warm, and clever describe personal qualities or character. 'well-known' means famous or recognised by many people — it describes social status, not character.",
+          "reason_vi": "helpful, warm và clever mô tả phẩm chất cá nhân hoặc tính cách. 'well-known' có nghĩa là nổi tiếng — mô tả địa vị xã hội, không phải tính cách."
+        },
+        {
+          "id": 7,
+          "words": [
+            "funny",
+            "talkative",
+            "noisy",
+            "shy"
+          ],
+          "answer": "shy",
+          "reason": "funny, talkative, and noisy all describe a person who is expressive and outgoing. 'shy' describes someone who is quiet and uncomfortable in social situations — the opposite type.",
+          "reason_vi": "funny, talkative và noisy đều mô tả người biểu cảm và hướng ngoại. 'shy' mô tả người yên lặng và không thoải mái trong tình huống xã hội — kiểu tính cách ngược lại."
+        },
+        {
+          "id": 8,
+          "words": [
+            "clever",
+            "lazy",
+            "serious",
+            "classmate"
+          ],
+          "answer": "classmate",
+          "reason": "clever, lazy, and serious are adjectives that describe someone's personality or attitude. 'classmate' is a noun — a person who sits in the same class, not a personality description.",
+          "reason_vi": "clever, lazy và serious đều là tính từ mô tả tính cách hoặc thái độ. 'classmate' là danh từ — người ngồi cùng lớp, không phải mô tả tính cách."
+        },
+        {
+          "id": 9,
+          "words": [
+            "helpful",
+            "warm",
+            "patient",
+            "noisy"
+          ],
+          "answer": "noisy",
+          "reason": "helpful, warm, and patient are all positive personality traits of a kind person. 'noisy' describes someone who makes a lot of noise — not typically seen as a positive quality.",
+          "reason_vi": "helpful, warm và patient đều là đặc điểm tính cách tích cực của người tốt bụng. 'noisy' mô tả người tạo ra nhiều tiếng ồn — thường không được xem là phẩm chất tốt."
+        },
+        {
+          "id": 10,
+          "words": [
+            "funny",
+            "clever",
+            "lazy",
+            "quiet"
+          ],
+          "answer": "lazy",
+          "reason": "funny, clever, and quiet describe how a person acts or thinks. 'lazy' describes a person's level of effort or motivation — someone who does not like to work.",
+          "reason_vi": "funny, clever và quiet mô tả cách một người hành xử hoặc suy nghĩ. 'lazy' mô tả mức độ nỗ lực hoặc động lực — người không thích làm việc."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "D", "3": "E", "4": "B", "5": "A" },
-    "ex2": { "1": "clever", "2": "shy", "3": "classmate", "4": "lazy", "5": "patient" },
-    "ex3": { "1": "funny", "2": "serious", "3": "helpful", "4": "warm", "5": "quiet" },
-    "ex4": { "1": "seriously", "2": "warmly", "3": "shyness", "4": "patiently", "5": "cleverly" },
-    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "C",
+      "2": "D",
+      "3": "E",
+      "4": "B",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "clever",
+      "2": "shy",
+      "3": "classmate",
+      "4": "lazy",
+      "5": "patient"
+    },
+    "ex3": {
+      "1": "funny",
+      "2": "serious",
+      "3": "helpful",
+      "4": "warm",
+      "5": "quiet"
+    },
+    "ex4": {
+      "1": "seriously",
+      "2": "warmly",
+      "3": "shyness",
+      "4": "patiently",
+      "5": "cleverly"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

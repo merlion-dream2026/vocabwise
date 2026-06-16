@@ -16,7 +16,7 @@ const SECTIONS = [
   },
   {
     emoji: '📚',
-    title: 'VocabWise Daily',
+    title: 'VocabWise Kids',
     badge: 'Trẻ em · 4–15 tuổi',
     badgeCls: 'bg-purple-100 text-purple-700',
     desc: '4.500+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
@@ -39,7 +39,7 @@ const SECTIONS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Kids — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module Phonics là gì?',
@@ -55,7 +55,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
-    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Phonics: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Kids: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Phonics: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
@@ -222,6 +222,25 @@ export default function LandingPage() {
         </div>
       </div>
 
+      {/* Trust signals strip */}
+      <div className="max-w-6xl mx-auto px-4 pb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {[
+            { icon: '🎓', val: 'IELTS 8.5', label: 'Điểm của người tạo app', sub: 'Writing 8.5 · Speaking 8.0' },
+            { icon: '📚', val: '4.500+ từ', label: 'Từ vựng chọn lọc theo CEFR', sub: 'Pre-A1 → C2' },
+            { icon: '🛡️', val: 'Bảo mật', label: 'Dữ liệu không mất khi hết hạn', sub: 'No thẻ tín dụng cần' },
+            { icon: '⭐', val: '7 ngày Free', label: 'Thử trước, trả sau', sub: 'Không cần cài đặt' },
+          ].map(t => (
+            <div key={t.val} className="bg-white rounded-2xl px-4 py-3.5 shadow-sm border border-gray-100 text-center">
+              <p className="text-2xl mb-1">{t.icon}</p>
+              <p className="font-black text-gray-800 text-sm leading-tight">{t.val}</p>
+              <p className="text-gray-500 text-xs mt-0.5 leading-snug">{t.label}</p>
+              <p className="text-gray-400 text-[10px] mt-0.5">{t.sub}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Video demos */}
       <div className="max-w-6xl mx-auto pb-10">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
@@ -374,6 +393,68 @@ export default function LandingPage() {
               🎯 Thử bài kiểm tra xếp lớp →
             </Link>
           </div>
+        </div>
+      </div>
+
+      {/* Academic workflow deep-dive */}
+      <div className="max-w-6xl mx-auto px-4 pb-10">
+        <h2 className="text-xl font-black text-gray-800 text-center mb-1">📖 Một topic Academic gồm những gì?</h2>
+        <p className="text-gray-400 text-sm text-center mb-5">Lộ trình học hoàn chỉnh từ đọc hiểu → từ vựng → bài tập</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {[
+            {
+              step: '① Đọc bài',
+              icon: '📄',
+              gradient: 'from-emerald-50 to-teal-50',
+              border: 'border-emerald-200',
+              accent: 'text-emerald-700',
+              title: 'Passage ngữ cảnh',
+              desc: 'Bài đọc ngắn ~150 từ bằng tiếng Anh chuẩn học thuật. Từ vựng xuất hiện trong bối cảnh thực — không học chay thuần túy.',
+              tags: ['A1–C2', 'Song ngữ Việt–Anh', '~150 từ/passage'],
+            },
+            {
+              step: '② Học từ',
+              icon: '🔤',
+              gradient: 'from-blue-50 to-indigo-50',
+              border: 'border-blue-200',
+              accent: 'text-blue-700',
+              title: 'Glossary song ngữ',
+              desc: '10–15 từ trọng tâm kèm nghĩa tiếng Việt, ví dụ câu và phát âm. Học từ trong context bài đọc — nhớ nhanh, nhớ lâu.',
+              tags: ['10–15 từ/topic', 'IPA + phát âm', 'Ví dụ câu'],
+            },
+            {
+              step: '③ Luyện tập',
+              icon: '✏️',
+              gradient: 'from-purple-50 to-violet-50',
+              border: 'border-purple-200',
+              accent: 'text-purple-700',
+              title: '5 bài × 5 câu = 25 câu',
+              desc: '8 loại bài tập đa dạng: Matching, MCQ, Gap Fill, TFNG, Word Forms, Reordering, Error Fix... chuẩn IELTS/SAT.',
+              tags: ['E1–E8 exercise types', 'Tự động chấm điểm', 'IELTS/SAT format'],
+            },
+          ].map(s => (
+            <div key={s.step} className={`bg-gradient-to-br ${s.gradient} rounded-2xl border-2 ${s.border} p-5`}>
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-2xl">{s.icon}</span>
+                <div>
+                  <p className={`text-xs font-black uppercase tracking-wide ${s.accent}`}>{s.step}</p>
+                  <p className={`font-black text-sm text-gray-800`}>{s.title}</p>
+                </div>
+              </div>
+              <p className="text-gray-600 text-xs leading-relaxed mb-3">{s.desc}</p>
+              <div className="flex flex-wrap gap-1.5">
+                {s.tags.map(t => (
+                  <span key={t} className={`text-[11px] font-bold px-2 py-0.5 rounded-full bg-white/70 ${s.accent}`}>{t}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="text-center mt-5">
+          <Link href="/register"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-black text-sm px-6 py-3 rounded-2xl shadow active:scale-95 transition-all hover:shadow-md">
+            🎓 Thử VocabWise Academic miễn phí →
+          </Link>
         </div>
       </div>
 

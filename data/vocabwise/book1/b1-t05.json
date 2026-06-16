@@ -562,6 +562,132 @@
           "explanation": "Use 'a pocket' (singular) after the article 'a'. 'A pockets' is grammatically incorrect."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "shirt",
+            "jacket",
+            "coat",
+            "wear"
+          ],
+          "answer": "wear",
+          "reason": "shirt, jacket, and coat are clothing items (things you put on). 'wear' is a verb — the action of putting clothes on.",
+          "reason_vi": "shirt, jacket và coat đều là trang phục (thứ bạn mặc vào). 'wear' là động từ — hành động mặc quần áo."
+        },
+        {
+          "id": 2,
+          "words": [
+            "shoes",
+            "hat",
+            "pocket",
+            "pretty"
+          ],
+          "answer": "pretty",
+          "reason": "shoes, hat, and pocket are physical clothing items or parts. 'pretty' is an adjective describing how something looks.",
+          "reason_vi": "shoes, hat và pocket đều là trang phục hoặc bộ phận của trang phục. 'pretty' là tính từ mô tả ngoại hình."
+        },
+        {
+          "id": 3,
+          "words": [
+            "shirt",
+            "jacket",
+            "coat",
+            "hat"
+          ],
+          "answer": "hat",
+          "reason": "shirt, jacket, and coat cover the body (torso or upper body). 'hat' is headwear — it covers the head, not the body.",
+          "reason_vi": "shirt, jacket và coat đều che phần thân người. 'hat' là đồ đội đầu — che đầu, không phải thân."
+        },
+        {
+          "id": 4,
+          "words": [
+            "comfortable",
+            "pretty",
+            "colour",
+            "shirt"
+          ],
+          "answer": "shirt",
+          "reason": "comfortable, pretty, and colour are all words used to describe clothing. 'shirt' is the clothing item itself, not a descriptor.",
+          "reason_vi": "comfortable, pretty và colour đều được dùng để mô tả trang phục. 'shirt' là bản thân trang phục, không phải từ mô tả."
+        },
+        {
+          "id": 5,
+          "words": [
+            "wear",
+            "fit",
+            "look",
+            "jacket"
+          ],
+          "answer": "jacket",
+          "reason": "wear, fit, and look are verbs used when talking about clothes. 'jacket' is a noun — a clothing item.",
+          "reason_vi": "wear, fit và look đều là động từ dùng khi nói về quần áo. 'jacket' là danh từ — một loại trang phục."
+        },
+        {
+          "id": 6,
+          "words": [
+            "shoes",
+            "hat",
+            "pocket",
+            "season"
+          ],
+          "answer": "season",
+          "reason": "shoes, hat, and pocket are clothing items or parts of clothing. 'season' is a time of year (spring, summer, autumn, winter).",
+          "reason_vi": "shoes, hat và pocket đều là trang phục hoặc bộ phận trang phục. 'season' là mùa trong năm (xuân, hạ, thu, đông)."
+        },
+        {
+          "id": 7,
+          "words": [
+            "shirt",
+            "coat",
+            "uniform",
+            "comfortable"
+          ],
+          "answer": "comfortable",
+          "reason": "shirt, coat, and uniform are clothing items. 'comfortable' is an adjective describing how something feels to wear.",
+          "reason_vi": "shirt, coat và uniform đều là trang phục. 'comfortable' là tính từ mô tả cảm giác khi mặc."
+        },
+        {
+          "id": 8,
+          "words": [
+            "outfit",
+            "shoes",
+            "uniform",
+            "colour"
+          ],
+          "answer": "colour",
+          "reason": "outfit, shoes, and uniform are things you wear. 'colour' is a property or quality of clothing, not something you wear.",
+          "reason_vi": "outfit, shoes và uniform đều là thứ bạn mặc. 'colour' là tính chất của trang phục, không phải thứ bạn mặc."
+        },
+        {
+          "id": 9,
+          "words": [
+            "wear",
+            "fit",
+            "look",
+            "comfortable"
+          ],
+          "answer": "comfortable",
+          "reason": "wear, fit, and look can all be used as verbs when talking about clothes. 'comfortable' is an adjective only.",
+          "reason_vi": "wear, fit và look đều có thể dùng như động từ khi nói về quần áo. 'comfortable' chỉ là tính từ."
+        },
+        {
+          "id": 10,
+          "words": [
+            "shoes",
+            "jacket",
+            "hat",
+            "fit"
+          ],
+          "answer": "fit",
+          "reason": "shoes, jacket, and hat are clothing items or accessories. 'fit' is a verb — it describes whether clothes are the right size.",
+          "reason_vi": "shoes, jacket và hat đều là trang phục hoặc phụ kiện. 'fit' là động từ — mô tả việc quần áo có vừa không."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -23,10 +23,12 @@ function soundex(s: string): string {
   return code.padEnd(4, '0')
 }
 
-/** Whisper đôi khi hallucinate sang ngôn ngữ khác → chứa ký tự non-ASCII */
+/** Whisper đôi khi hallucinate sang ngôn ngữ khác → không có ký tự a-z nào */
 function isEnglishLike(s: string): boolean {
   if (!s || s.trim().length < 2) return false
-  return !/[^\x00-\x7F]/.test(s)
+  // Only reject when there are NO ASCII letters (e.g. pure CJK/Vietnamese hallucination)
+  // Em-dash, smart quotes added by Whisper still pass if the sentence has real letters
+  return /[a-zA-Z]/.test(s)
 }
 
 function isCorrect(transcript: string, target: string, word: string, contrastWords: string[]): boolean {
@@ -105,7 +107,7 @@ export async function POST(req: NextRequest) {
   groqForm.append('model',           'whisper-large-v3-turbo')
   groqForm.append('language',        'en')
   groqForm.append('temperature',     '0')          // deterministic → ít hallucinate hơn
-  groqForm.append('prompt',          target)       // full sentence làm context hint → giảm language-switch
+  groqForm.append('prompt',          target.replace(/[^\x20-\x7E]/g, '').trim()) // ASCII only → tránh Whisper echo em-dash
   groqForm.append('response_format', 'json')
 
   let transcript = ''

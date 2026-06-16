@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "subtract" },
-        { "id": 2, "word": "total" },
-        { "id": 3, "word": "solve" },
-        { "id": 4, "word": "half" },
-        { "id": 5, "word": "equal" }
+        {
+          "id": 1,
+          "word": "subtract"
+        },
+        {
+          "id": 2,
+          "word": "total"
+        },
+        {
+          "id": 3,
+          "word": "solve"
+        },
+        {
+          "id": 4,
+          "word": "half"
+        },
+        {
+          "id": 5,
+          "word": "equal"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to find the answer to a maths problem or a difficult question" },
-        { "id": "B", "text": "the same in amount, number, or value" },
-        { "id": "C", "text": "one of two parts of exactly the same size" },
-        { "id": "D", "text": "to take one number away from another" },
-        { "id": "E", "text": "the final number you get when you add everything together" }
+        {
+          "id": "A",
+          "text": "to find the answer to a maths problem or a difficult question"
+        },
+        {
+          "id": "B",
+          "text": "the same in amount, number, or value"
+        },
+        {
+          "id": "C",
+          "text": "one of two parts of exactly the same size"
+        },
+        {
+          "id": "D",
+          "text": "to take one number away from another"
+        },
+        {
+          "id": "E",
+          "text": "the final number you get when you add everything together"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "Can you _____ this problem? The answer should be a whole number.",
-          "options": ["count", "solve", "divide", "add"],
+          "options": [
+            "count",
+            "solve",
+            "divide",
+            "add"
+          ],
           "answer": "solve"
         },
         {
           "id": 2,
           "sentence": "The question was very _____ — even young students could answer it quickly.",
-          "options": ["wrong", "equal", "simple", "correct"],
+          "options": [
+            "wrong",
+            "equal",
+            "simple",
+            "correct"
+          ],
           "answer": "simple"
         },
         {
           "id": 3,
           "sentence": "Add all five numbers together and write down the _____ at the bottom of the page.",
-          "options": ["result", "total", "number", "half"],
+          "options": [
+            "result",
+            "total",
+            "number",
+            "half"
+          ],
           "answer": "total"
         },
         {
           "id": 4,
           "sentence": "My answer was _____, so the teacher asked me to check my work again.",
-          "options": ["wrong", "correct", "simple", "equal"],
+          "options": [
+            "wrong",
+            "correct",
+            "simple",
+            "equal"
+          ],
           "answer": "wrong"
         },
         {
           "id": 5,
           "sentence": "If you _____ twelve by three, you get four.",
-          "options": ["add", "count", "subtract", "divide"],
+          "options": [
+            "add",
+            "count",
+            "subtract",
+            "divide"
+          ],
           "answer": "divide"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["multiply", "result", "correct", "number", "subtract", "count"],
+      "word_bank": [
+        "multiply",
+        "result",
+        "correct",
+        "number",
+        "subtract",
+        "count"
+      ],
       "items": [
-        { "id": 1, "sentence": "Write any _____ between one and ten in the box on the right.", "answer": "number" },
-        { "id": 2, "sentence": "_____ backwards from ten to one as fast as you can.", "answer": "count" },
-        { "id": 3, "sentence": "You need to _____ eight by five to get the answer forty.", "answer": "multiply" },
-        { "id": 4, "sentence": "_____ three from fifteen and you will get twelve.", "answer": "subtract" },
-        { "id": 5, "sentence": "Check your _____ before you hand in your test paper.", "answer": "result" }
+        {
+          "id": 1,
+          "sentence": "Write any _____ between one and ten in the box on the right.",
+          "answer": "number"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ backwards from ten to one as fast as you can.",
+          "answer": "count"
+        },
+        {
+          "id": 3,
+          "sentence": "You need to _____ eight by five to get the answer forty.",
+          "answer": "multiply"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ three from fifteen and you will get twelve.",
+          "answer": "subtract"
+        },
+        {
+          "id": 5,
+          "sentence": "Check your _____ before you hand in your test paper.",
+          "answer": "result"
+        }
       ],
       "note": "One word in the box is not used: correct"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Four [multiplied] four equals eight — that is a simple addition.",
           "highlighted": "multiplied",
-          "options": { "A": "multiplied", "B": "plus", "C": "divided by" },
+          "options": {
+            "A": "multiplied",
+            "B": "plus",
+            "C": "divided by"
+          },
           "answer": "B",
           "explanation": "Four multiplied by four equals sixteen, not eight. When you add four and four together, you get eight. The correct word here is 'plus' (four plus four equals eight)."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "She checked the [total] of the maths problem three times to be sure it was right.",
           "highlighted": "total",
-          "options": { "A": "number", "B": "total", "C": "result" },
+          "options": {
+            "A": "number",
+            "B": "total",
+            "C": "result"
+          },
           "answer": "C",
           "explanation": "A 'total' is the sum you get from adding numbers. When you check whether your working and answer are correct, you check your 'result' — the outcome of your calculation."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The question was very [wrong] — even the youngest student in the class got it right.",
           "highlighted": "wrong",
-          "options": { "A": "simple", "B": "wrong", "C": "equal" },
+          "options": {
+            "A": "simple",
+            "B": "wrong",
+            "C": "equal"
+          },
           "answer": "A",
           "explanation": "'Wrong' describes an incorrect answer, not a question. A question that is easy to answer, even for young students, is described as 'simple'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "You need to [count] seven from fifteen to get the answer eight.",
           "highlighted": "count",
-          "options": { "A": "add", "B": "count", "C": "subtract" },
+          "options": {
+            "A": "add",
+            "B": "count",
+            "C": "subtract"
+          },
           "answer": "C",
           "explanation": "'Count' means to say numbers in order or find how many there are. When you take one number away from another (15 − 7 = 8), you 'subtract' it."
         },
@@ -452,18 +550,128 @@
           "id": 5,
           "sentence": "Three times three [adds] nine — this is a multiplication fact.",
           "highlighted": "adds",
-          "options": { "A": "counts", "B": "adds", "C": "equals" },
+          "options": {
+            "A": "counts",
+            "B": "adds",
+            "C": "equals"
+          },
           "answer": "C",
           "explanation": "'Adds' is used for addition (e.g. 3 + 3 = 6). When you state the result of a multiplication, you use 'equals' (three times three equals nine)."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Can you add these two numbers?",
+          "b": "Can you subtract these two numbers?",
+          "answer": "D",
+          "explanation": "Add means to put two numbers together to make a larger one. Subtract means to take one number away from another to get a smaller one. They are opposite operations."
+        },
+        {
+          "id": 2,
+          "a": "Is this answer correct?",
+          "b": "Is this answer right?",
+          "answer": "S",
+          "explanation": "Correct and right both mean that something has no mistakes and matches the expected answer. They can replace each other in this sentence."
+        },
+        {
+          "id": 3,
+          "a": "The total is 100.",
+          "b": "The result is 100.",
+          "answer": "S",
+          "explanation": "In simple maths, total and result both refer to the final number you get. In this sentence, they express the same idea."
+        },
+        {
+          "id": 4,
+          "a": "This problem is very simple.",
+          "b": "This problem is very easy.",
+          "answer": "S",
+          "explanation": "Simple and easy both describe something that is not difficult or complicated. In everyday use, these two sentences mean the same thing."
+        },
+        {
+          "id": 5,
+          "a": "He got the answer wrong.",
+          "b": "He got the answer incorrect.",
+          "answer": "S",
+          "explanation": "Wrong and incorrect both mean that something is not right. They are near-synonyms and can replace each other when talking about a mistake."
+        },
+        {
+          "id": 6,
+          "a": "Can you multiply 6 by 3?",
+          "b": "Can you divide 6 by 3?",
+          "answer": "D",
+          "explanation": "Multiply means to add a number to itself a certain number of times (6 × 3 = 18). Divide means to split a number into equal parts (6 ÷ 3 = 2). They are opposite operations."
+        },
+        {
+          "id": 7,
+          "a": "Two is equal to two.",
+          "b": "Two is the same as two.",
+          "answer": "S",
+          "explanation": "Equal to and the same as both say that two things have the same value or amount. These sentences carry exactly the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The total is 50.",
+          "b": "The half is 50.",
+          "answer": "D",
+          "explanation": "Total means the complete sum of all numbers added together. Half means one of two equal parts. These refer to very different numerical ideas."
+        },
+        {
+          "id": 9,
+          "a": "Please count the apples.",
+          "b": "Please solve the problem.",
+          "answer": "D",
+          "explanation": "Count means to find how many there are by going one by one. Solve means to find the answer to a maths problem. These are completely different actions."
+        },
+        {
+          "id": 10,
+          "a": "Can you solve this problem?",
+          "b": "Can you find the answer to this problem?",
+          "answer": "S",
+          "explanation": "Solve and find the answer both mean working through a problem until you reach the correct answer. These two sentences ask for the same thing."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "D", "2": "E", "3": "A", "4": "C", "5": "B" },
-    "ex2": { "1": "solve", "2": "simple", "3": "total", "4": "wrong", "5": "divide" },
-    "ex3": { "1": "number", "2": "count", "3": "multiply", "4": "subtract", "5": "result" },
-    "ex4": { "1": "correctly", "2": "correction", "3": "addition", "4": "solvable", "5": "halve" },
-    "ex5": { "1": "B", "2": "C", "3": "A", "4": "C", "5": "C" }
+    "ex1": {
+      "1": "D",
+      "2": "E",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "solve",
+      "2": "simple",
+      "3": "total",
+      "4": "wrong",
+      "5": "divide"
+    },
+    "ex3": {
+      "1": "number",
+      "2": "count",
+      "3": "multiply",
+      "4": "subtract",
+      "5": "result"
+    },
+    "ex4": {
+      "1": "correctly",
+      "2": "correction",
+      "3": "addition",
+      "4": "solvable",
+      "5": "halve"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "C"
+    }
   }
 }

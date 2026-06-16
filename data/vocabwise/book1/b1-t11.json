@@ -562,6 +562,132 @@
           "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "dog",
+            "cat",
+            "pet",
+            "feed"
+          ],
+          "answer": "feed",
+          "reason": "dog, cat, and pet are all nouns for animals. 'feed' is a verb — the action of giving food to an animal.",
+          "reason_vi": "dog, cat và pet đều là danh từ chỉ động vật. 'feed' là động từ — hành động cho động vật ăn."
+        },
+        {
+          "id": 2,
+          "words": [
+            "wild",
+            "dangerous",
+            "tame",
+            "zoo"
+          ],
+          "answer": "zoo",
+          "reason": "wild, dangerous, and tame are adjectives describing an animal's nature. 'zoo' is a noun — a place where animals are kept.",
+          "reason_vi": "wild, dangerous và tame đều là tính từ mô tả bản chất của động vật. 'zoo' là danh từ — nơi nuôi giữ động vật."
+        },
+        {
+          "id": 3,
+          "words": [
+            "farm",
+            "zoo",
+            "cage",
+            "owner"
+          ],
+          "answer": "owner",
+          "reason": "farm, zoo, and cage are places or structures where animals live. 'owner' is a person — the one who has a pet.",
+          "reason_vi": "farm, zoo và cage đều là nơi chốn hoặc công trình để giữ động vật. 'owner' là người — người nuôi thú cưng."
+        },
+        {
+          "id": 4,
+          "words": [
+            "fur",
+            "tail",
+            "cage",
+            "tame"
+          ],
+          "answer": "tame",
+          "reason": "fur, tail, and cage are physical objects or body parts. 'tame' is an adjective — it describes how gentle or domesticated an animal is.",
+          "reason_vi": "fur, tail và cage đều là đồ vật hoặc bộ phận cơ thể. 'tame' là tính từ — mô tả mức độ thuần hóa của động vật."
+        },
+        {
+          "id": 5,
+          "words": [
+            "feed",
+            "care",
+            "tame",
+            "animal"
+          ],
+          "answer": "animal",
+          "reason": "feed, care, and tame can all function as verbs. 'animal' is a noun — a living creature.",
+          "reason_vi": "feed, care và tame đều có thể dùng như động từ. 'animal' là danh từ — sinh vật sống."
+        },
+        {
+          "id": 6,
+          "words": [
+            "dog",
+            "cat",
+            "animal",
+            "wild"
+          ],
+          "answer": "wild",
+          "reason": "dog, cat, and animal are nouns for living creatures. 'wild' is an adjective — it describes animals that live in nature, not with humans.",
+          "reason_vi": "dog, cat và animal đều là danh từ chỉ sinh vật sống. 'wild' là tính từ — mô tả động vật sống trong tự nhiên, không với người."
+        },
+        {
+          "id": 7,
+          "words": [
+            "farm",
+            "zoo",
+            "cage",
+            "dangerous"
+          ],
+          "answer": "dangerous",
+          "reason": "farm, zoo, and cage are physical places or structures for animals. 'dangerous' is an adjective describing how risky something is.",
+          "reason_vi": "farm, zoo và cage đều là nơi chốn hoặc cấu trúc dành cho động vật. 'dangerous' là tính từ mô tả mức độ nguy hiểm."
+        },
+        {
+          "id": 8,
+          "words": [
+            "zoo",
+            "farm",
+            "cage",
+            "care"
+          ],
+          "answer": "care",
+          "reason": "zoo, farm, and cage are physical locations where animals are kept. 'care' is a verb (or noun) — the act of looking after an animal.",
+          "reason_vi": "zoo, farm và cage đều là nơi chốn để giữ động vật. 'care' là động từ (hoặc danh từ) — hành động chăm sóc động vật."
+        },
+        {
+          "id": 9,
+          "words": [
+            "dog",
+            "cat",
+            "pet",
+            "owner"
+          ],
+          "answer": "owner",
+          "reason": "dog, cat, and pet are all words for animals themselves. 'owner' is a person — the human who has or cares for a pet.",
+          "reason_vi": "dog, cat và pet đều là từ chỉ bản thân con vật. 'owner' là người — con người nuôi và chăm sóc thú cưng."
+        },
+        {
+          "id": 10,
+          "words": [
+            "dangerous",
+            "wild",
+            "tame",
+            "fur"
+          ],
+          "answer": "fur",
+          "reason": "dangerous, wild, and tame are adjectives describing the nature or character of animals. 'fur' is a noun — the soft hair that covers an animal's body.",
+          "reason_vi": "dangerous, wild và tame đều là tính từ mô tả tính cách hoặc bản chất của động vật. 'fur' là danh từ — lông mềm bao phủ cơ thể động vật."
+        }
+      ]
     }
   },
   "answer_key": {

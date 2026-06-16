@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "effort" },
-        { "id": 2, "word": "feedback" },
-        { "id": 3, "word": "volunteer" },
-        { "id": 4, "word": "progress" },
-        { "id": 5, "word": "mistake" }
+        {
+          "id": 1,
+          "word": "effort"
+        },
+        {
+          "id": 2,
+          "word": "feedback"
+        },
+        {
+          "id": 3,
+          "word": "volunteer"
+        },
+        {
+          "id": 4,
+          "word": "progress"
+        },
+        {
+          "id": 5,
+          "word": "mistake"
+        }
       ],
       "options": [
-        { "id": "A", "text": "something you do wrong, often without meaning to" },
-        { "id": "B", "text": "the energy and hard work you put into doing something" },
-        { "id": "C", "text": "to offer to do something without being asked" },
-        { "id": "D", "text": "improvement or development over time" },
-        { "id": "E", "text": "comments or information that help you understand how well you are doing" }
+        {
+          "id": "A",
+          "text": "something you do wrong, often without meaning to"
+        },
+        {
+          "id": "B",
+          "text": "the energy and hard work you put into doing something"
+        },
+        {
+          "id": "C",
+          "text": "to offer to do something without being asked"
+        },
+        {
+          "id": "D",
+          "text": "improvement or development over time"
+        },
+        {
+          "id": "E",
+          "text": "comments or information that help you understand how well you are doing"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "Our teacher gives us _____ after every speaking activity so we can get better.",
-          "options": ["effort", "activity", "feedback", "mistake"],
+          "options": [
+            "effort",
+            "activity",
+            "feedback",
+            "mistake"
+          ],
           "answer": "feedback"
         },
         {
           "id": 2,
           "sentence": "We _____ reading the dialogue — first Minh, then Lan, then back to Minh.",
-          "options": ["raise", "repeat", "take turns", "volunteer"],
+          "options": [
+            "raise",
+            "repeat",
+            "take turns",
+            "volunteer"
+          ],
           "answer": "take turns"
         },
         {
           "id": 3,
           "sentence": "If you want to _____ your English, you need to speak it every day.",
-          "options": ["improve", "repeat", "listen", "raise"],
+          "options": [
+            "improve",
+            "repeat",
+            "listen",
+            "raise"
+          ],
           "answer": "improve"
         },
         {
           "id": 4,
           "sentence": "Nobody wanted to go first, so I decided to _____ and do the role-play myself.",
-          "options": ["listen", "speak", "repeat", "volunteer"],
+          "options": [
+            "listen",
+            "speak",
+            "repeat",
+            "volunteer"
+          ],
           "answer": "volunteer"
         },
         {
           "id": 5,
           "sentence": "Please _____ your hand if you know the answer to the question.",
-          "options": ["take", "raise", "pair", "improve"],
+          "options": [
+            "take",
+            "raise",
+            "pair",
+            "improve"
+          ],
           "answer": "raise"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["speak", "role", "effort", "pair", "listen", "progress"],
+      "word_bank": [
+        "speak",
+        "role",
+        "effort",
+        "pair",
+        "listen",
+        "progress"
+      ],
       "items": [
-        { "id": 1, "sentence": "Work with a _____ — you will both practise speaking at the same time.", "answer": "pair" },
-        { "id": 2, "sentence": "In this _____ play, you are the tourist and I am the tour guide.", "answer": "role" },
-        { "id": 3, "sentence": "Always _____ carefully when the teacher is explaining something new.", "answer": "listen" },
-        { "id": 4, "sentence": "It takes _____ to learn a new language — you have to keep trying every day.", "answer": "effort" },
-        { "id": 5, "sentence": "I can _____ more clearly now than I could at the start of the year.", "answer": "speak" }
+        {
+          "id": 1,
+          "sentence": "Work with a _____ — you will both practise speaking at the same time.",
+          "answer": "pair"
+        },
+        {
+          "id": 2,
+          "sentence": "In this _____ play, you are the tourist and I am the tour guide.",
+          "answer": "role"
+        },
+        {
+          "id": 3,
+          "sentence": "Always _____ carefully when the teacher is explaining something new.",
+          "answer": "listen"
+        },
+        {
+          "id": 4,
+          "sentence": "It takes _____ to learn a new language — you have to keep trying every day.",
+          "answer": "effort"
+        },
+        {
+          "id": 5,
+          "sentence": "I can _____ more clearly now than I could at the start of the year.",
+          "answer": "speak"
+        }
       ],
       "note": "One word in the box is not used: progress"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "She is making good [effort] in English — she can speak much better than before.",
           "highlighted": "effort",
-          "options": { "A": "effort", "B": "progress", "C": "feedback" },
+          "options": {
+            "A": "effort",
+            "B": "progress",
+            "C": "feedback"
+          },
           "answer": "B",
           "explanation": "'Effort' refers to the hard work you put in. 'Progress' describes the improvement that results from that work — which matches 'speaking much better than before'."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "The teacher told us to [volunteer] the sentence after her to practise pronunciation.",
           "highlighted": "volunteer",
-          "options": { "A": "repeat", "B": "raise", "C": "volunteer" },
+          "options": {
+            "A": "repeat",
+            "B": "raise",
+            "C": "volunteer"
+          },
           "answer": "A",
           "explanation": "'Volunteer' means to offer to do something. When a teacher says a sentence and asks students to say it after her, she wants them to 'repeat' it."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "In pair work, good students [raise] and give each other a chance to speak.",
           "highlighted": "raise",
-          "options": { "A": "listen", "B": "raise", "C": "take turns" },
+          "options": {
+            "A": "listen",
+            "B": "raise",
+            "C": "take turns"
+          },
           "answer": "C",
           "explanation": "'Raise' means to lift something up (like your hand). When two students alternate speaking in a pair activity, they 'take turns' — not raise."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "Do not worry about making a [progress] — it is how we all learn.",
           "highlighted": "progress",
-          "options": { "A": "feedback", "B": "mistake", "C": "progress" },
+          "options": {
+            "A": "feedback",
+            "B": "mistake",
+            "C": "progress"
+          },
           "answer": "B",
           "explanation": "'Progress' is a positive thing — it means getting better. The sentence is about something we worry about when learning, which is making a 'mistake'."
         },
@@ -455,18 +553,178 @@
           "id": 5,
           "sentence": "I made a lot of [progress] in today's lesson — I said the wrong word three times.",
           "highlighted": "progress",
-          "options": { "A": "activity", "B": "progress", "C": "mistakes" },
+          "options": {
+            "A": "activity",
+            "B": "progress",
+            "C": "mistakes"
+          },
           "answer": "C",
           "explanation": "'Progress' means getting better or improving. If you said the wrong word three times, that means you made 'mistakes' — not progress."
+        }
+      ]
+    },
+    "ex6_sub": {
+      "type": "E_SUB",
+      "instruction": "Choose the word or phrase closest in meaning to the underlined word.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Please **speak** more slowly.",
+          "highlighted": "speak",
+          "options": [
+            "talk",
+            "sleep",
+            "walk",
+            "stop"
+          ],
+          "answer": "talk"
+        },
+        {
+          "id": 2,
+          "sentence": "She always **listens** carefully in class.",
+          "highlighted": "listens",
+          "options": [
+            "pays attention",
+            "talks",
+            "ignores",
+            "plays"
+          ],
+          "answer": "pays attention"
+        },
+        {
+          "id": 3,
+          "sentence": "Can you **repeat** that word?",
+          "highlighted": "repeat",
+          "options": [
+            "say again",
+            "forget",
+            "skip",
+            "change"
+          ],
+          "answer": "say again"
+        },
+        {
+          "id": 4,
+          "sentence": "He works very **fast** in class.",
+          "highlighted": "fast",
+          "options": [
+            "quickly",
+            "slowly",
+            "quietly",
+            "lazily"
+          ],
+          "answer": "quickly"
+        },
+        {
+          "id": 5,
+          "sentence": "We work in **pairs** in this activity.",
+          "highlighted": "pairs",
+          "options": [
+            "groups of two",
+            "big teams",
+            "rows",
+            "circles"
+          ],
+          "answer": "groups of two"
+        },
+        {
+          "id": 6,
+          "sentence": "She made a **mistake** in her answer.",
+          "highlighted": "mistake",
+          "options": [
+            "error",
+            "mark",
+            "point",
+            "score"
+          ],
+          "answer": "error"
+        },
+        {
+          "id": 7,
+          "sentence": "He wants to **improve** his English.",
+          "highlighted": "improve",
+          "options": [
+            "get better at",
+            "forget",
+            "change",
+            "stop"
+          ],
+          "answer": "get better at"
+        },
+        {
+          "id": 8,
+          "sentence": "She puts in a lot of **effort** every day.",
+          "highlighted": "effort",
+          "options": [
+            "hard work",
+            "spare time",
+            "money",
+            "energy"
+          ],
+          "answer": "hard work"
+        },
+        {
+          "id": 9,
+          "sentence": "The teacher gave **feedback** on my writing.",
+          "highlighted": "feedback",
+          "options": [
+            "comments",
+            "marks",
+            "grades",
+            "scores"
+          ],
+          "answer": "comments"
+        },
+        {
+          "id": 10,
+          "sentence": "She made great **progress** this term.",
+          "highlighted": "progress",
+          "options": [
+            "improvement",
+            "mistakes",
+            "effort",
+            "changes"
+          ],
+          "answer": "improvement"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "B", "2": "E", "3": "C", "4": "D", "5": "A" },
-    "ex2": { "1": "feedback", "2": "take turns", "3": "improve", "4": "volunteer", "5": "raise" },
-    "ex3": { "1": "pair", "2": "role", "3": "listen", "4": "effort", "5": "speak" },
-    "ex4": { "1": "improvement", "2": "repeat", "3": "mistakenly", "4": "actively", "5": "voluntary" },
-    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "B",
+      "2": "E",
+      "3": "C",
+      "4": "D",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "feedback",
+      "2": "take turns",
+      "3": "improve",
+      "4": "volunteer",
+      "5": "raise"
+    },
+    "ex3": {
+      "1": "pair",
+      "2": "role",
+      "3": "listen",
+      "4": "effort",
+      "5": "speak"
+    },
+    "ex4": {
+      "1": "improvement",
+      "2": "repeat",
+      "3": "mistakenly",
+      "4": "actively",
+      "5": "voluntary"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

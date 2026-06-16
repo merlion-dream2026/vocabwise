@@ -562,6 +562,82 @@
           "explanation": "Third-person singular 'she' requires the verb to end in 's' in simple present tense: 'runs'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do these pairs of sentences have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Our team won the game last night.",
+          "b": "Our team came first in the game last night.",
+          "answer": "S",
+          "explanation": "'won' and 'came first' both mean the team finished in first place. The sentences describe the same outcome."
+        },
+        {
+          "id": 2,
+          "a": "The team won the tournament.",
+          "b": "The team lost the tournament.",
+          "answer": "D",
+          "explanation": "'won' means the team finished first; 'lost' means they did not win. These are opposite outcomes."
+        },
+        {
+          "id": 3,
+          "a": "She practises every morning to improve.",
+          "b": "She trains every morning to get better.",
+          "answer": "S",
+          "explanation": "'practises' and 'trains' both mean repeating an activity to improve. 'improve' and 'get better' mean the same thing. The sentences are equivalent."
+        },
+        {
+          "id": 4,
+          "a": "He is a skilled player.",
+          "b": "He is part of a strong team.",
+          "answer": "D",
+          "explanation": "A 'player' is one individual person; a 'team' is a group of players. 'skilled player' describes one person's ability; 'strong team' describes a group."
+        },
+        {
+          "id": 5,
+          "a": "It was a great game last night.",
+          "b": "It was a great match last night.",
+          "answer": "S",
+          "explanation": "'game' and 'match' both refer to a sporting event or competition. In everyday English, they are used interchangeably."
+        },
+        {
+          "id": 6,
+          "a": "Let's play football after school.",
+          "b": "Let's practise football after school.",
+          "answer": "D",
+          "explanation": "'play' means to compete or take part for fun; 'practise' means to repeat skills to improve. Playing and practising football are different activities."
+        },
+        {
+          "id": 7,
+          "a": "She joined the running club at school.",
+          "b": "She became a member of the running club at school.",
+          "answer": "S",
+          "explanation": "'joined' and 'became a member of' both mean she is now part of the club. The sentences describe the same action."
+        },
+        {
+          "id": 8,
+          "a": "She runs every morning for exercise.",
+          "b": "She swims every morning for exercise.",
+          "answer": "D",
+          "explanation": "'runs' and 'swims' are different physical activities. The sentences describe different sports even though both are for exercise."
+        },
+        {
+          "id": 9,
+          "a": "Staying active is good for your health.",
+          "b": "Exercising regularly is good for your health.",
+          "answer": "S",
+          "explanation": "'staying active' and 'exercising regularly' both describe the same idea — moving your body to stay healthy."
+        },
+        {
+          "id": 10,
+          "a": "The final score was 4–3.",
+          "b": "The final team had four players.",
+          "answer": "D",
+          "explanation": "'score' refers to the points each team earned (4 to 3); 'team' refers to the group of players. These sentences give completely different information."
+        }
+      ]
     }
   },
   "answer_key": {

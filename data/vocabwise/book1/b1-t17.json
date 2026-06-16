@@ -559,6 +559,82 @@
           "explanation": "Your 'teacher' is a person — a person cannot 'improve'. What improves is your 'learning' (or skill). 'My learning has improved' is the correct phrasing."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "I have an exam tomorrow morning.",
+          "b": "I have a quiz tomorrow morning.",
+          "answer": "S",
+          "explanation": "Both exam and quiz are tests that check your knowledge. An exam is usually more formal and longer than a quiz, but both test what you have learned."
+        },
+        {
+          "id": 2,
+          "a": "I need to learn this word.",
+          "b": "I need to study this word.",
+          "answer": "S",
+          "explanation": "Both learn and study involve gaining knowledge. In everyday use, \"learn this word\" and \"study this word\" mean the same thing — to understand and remember it."
+        },
+        {
+          "id": 3,
+          "a": "The topic today is climate change.",
+          "b": "The subject today is climate change.",
+          "answer": "S",
+          "explanation": "Topic and subject can both refer to what you are learning or discussing. In a school context, they are often used interchangeably."
+        },
+        {
+          "id": 4,
+          "a": "The lesson starts at 8 a.m.",
+          "b": "The class starts at 8 a.m.",
+          "answer": "S",
+          "explanation": "Lesson and class both refer to a period of teaching. You can say \"my English lesson\" or \"my English class\" and they mean the same thing."
+        },
+        {
+          "id": 5,
+          "a": "She is a teacher in this school.",
+          "b": "She is a student in this school.",
+          "answer": "D",
+          "explanation": "A teacher instructs and explains. A student learns and listens. They have opposite roles in a classroom."
+        },
+        {
+          "id": 6,
+          "a": "I go to the school to borrow books.",
+          "b": "I go to the library to borrow books.",
+          "answer": "D",
+          "explanation": "You borrow books from a library, not from a school in general. A school is a place for lessons; a library is a place specifically for books."
+        },
+        {
+          "id": 7,
+          "a": "I finished my homework last night.",
+          "b": "I passed my exam last night.",
+          "answer": "D",
+          "explanation": "Homework is daily practice done at home. An exam is a formal test, usually taken at school. They happen in different places and for different reasons."
+        },
+        {
+          "id": 8,
+          "a": "Write your notes in a notebook.",
+          "b": "Do your research in the library.",
+          "answer": "D",
+          "explanation": "A notebook is a personal book for writing. A library is a public place for reading and finding information. These are very different tools and places."
+        },
+        {
+          "id": 9,
+          "a": "She got a good grade on her essay.",
+          "b": "She did well in school this year.",
+          "answer": "D",
+          "explanation": "A grade is a specific mark or score for one piece of work. \"Doing well in school\" describes overall performance throughout the year — much broader."
+        },
+        {
+          "id": 10,
+          "a": "Do your homework every evening.",
+          "b": "You should study every evening.",
+          "answer": "S",
+          "explanation": "Both sentences suggest doing academic work in the evenings. In practice, doing homework and studying often overlap — they both help you learn."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -562,6 +562,66 @@
           "explanation": "'Exercise' is a singular subject (uncountable noun), so the verb needs 's': 'keeps'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Put each word into the correct group.",
+      "categories": [
+        "Staying healthy",
+        "Being sick"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "healthy",
+          "answer": "Staying healthy"
+        },
+        {
+          "id": 2,
+          "word": "sick",
+          "answer": "Being sick"
+        },
+        {
+          "id": 3,
+          "word": "exercise",
+          "answer": "Staying healthy"
+        },
+        {
+          "id": 4,
+          "word": "fever",
+          "answer": "Being sick"
+        },
+        {
+          "id": 5,
+          "word": "strong",
+          "answer": "Staying healthy"
+        },
+        {
+          "id": 6,
+          "word": "pain",
+          "answer": "Being sick"
+        },
+        {
+          "id": 7,
+          "word": "rest",
+          "answer": "Staying healthy"
+        },
+        {
+          "id": 8,
+          "word": "medicine",
+          "answer": "Being sick"
+        },
+        {
+          "id": 9,
+          "word": "wash",
+          "answer": "Staying healthy"
+        },
+        {
+          "id": 10,
+          "word": "hospital",
+          "answer": "Being sick"
+        }
+      ]
     }
   },
   "answer_key": {

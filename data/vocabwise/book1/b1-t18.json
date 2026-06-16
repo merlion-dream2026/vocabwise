@@ -559,6 +559,132 @@
           "explanation": "'Work' and 'job' refer to the activity or position, not a gathering. When all staff attend and the boss speaks, that is a 'meeting'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "nurse",
+            "farmer",
+            "engineer",
+            "tired"
+          ],
+          "answer": "tired",
+          "reason": "nurse, farmer, and engineer are all job titles — names for specific occupations. 'tired' is an adjective describing how someone feels.",
+          "reason_vi": "nurse, farmer và engineer đều là tên nghề nghiệp cụ thể. 'tired' là tính từ mô tả cảm giác của một người."
+        },
+        {
+          "id": 2,
+          "words": [
+            "office",
+            "meeting",
+            "shift",
+            "driver"
+          ],
+          "answer": "driver",
+          "reason": "office, meeting, and shift are all nouns related to the workplace or work schedule. 'driver' is a job title — a person who drives for work.",
+          "reason_vi": "office, meeting và shift đều là danh từ liên quan đến nơi làm việc hoặc lịch làm việc. 'driver' là tên nghề — người lái xe."
+        },
+        {
+          "id": 3,
+          "words": [
+            "salary",
+            "task",
+            "apron",
+            "nurse"
+          ],
+          "answer": "nurse",
+          "reason": "salary, task, and apron are all things or concepts related to work. 'nurse' is a job title — a person who cares for sick people.",
+          "reason_vi": "salary, task và apron đều là thứ hoặc khái niệm liên quan đến công việc. 'nurse' là tên nghề — người chăm sóc bệnh nhân."
+        },
+        {
+          "id": 4,
+          "words": [
+            "tired",
+            "dream",
+            "shift",
+            "office"
+          ],
+          "answer": "office",
+          "reason": "tired, dream, and shift all relate to the experience or feeling of work. 'office' is a physical place — a building or room where people work.",
+          "reason_vi": "tired, dream và shift đều liên quan đến trải nghiệm hoặc cảm xúc về công việc. 'office' là nơi chốn vật lý — tòa nhà hoặc phòng làm việc."
+        },
+        {
+          "id": 5,
+          "words": [
+            "nurse",
+            "farmer",
+            "engineer",
+            "boss"
+          ],
+          "answer": "boss",
+          "reason": "nurse, farmer, and engineer are specific profession names describing what the job involves. 'boss' describes authority at work — the person in charge, regardless of their specific job.",
+          "reason_vi": "nurse, farmer và engineer đều là tên nghề nghiệp cụ thể mô tả công việc. 'boss' mô tả quyền hạn trong công việc — người phụ trách, bất kể nghề cụ thể là gì."
+        },
+        {
+          "id": 6,
+          "words": [
+            "salary",
+            "task",
+            "apron",
+            "dream"
+          ],
+          "answer": "dream",
+          "reason": "salary, task, and apron are all concrete things connected to doing a job. 'dream' is abstract — it refers to a hope or ambition for the future.",
+          "reason_vi": "salary, task và apron đều là thứ cụ thể gắn với việc làm. 'dream' là trừu tượng — chỉ hy vọng hoặc tham vọng cho tương lai."
+        },
+        {
+          "id": 7,
+          "words": [
+            "work",
+            "job",
+            "shift",
+            "farmer"
+          ],
+          "answer": "farmer",
+          "reason": "work, job, and shift are general words about employment and schedules. 'farmer' is a specific job title — a person who grows crops or raises animals.",
+          "reason_vi": "work, job và shift đều là từ chung về việc làm và lịch trình. 'farmer' là tên nghề cụ thể — người trồng trọt hoặc chăn nuôi."
+        },
+        {
+          "id": 8,
+          "words": [
+            "office",
+            "salary",
+            "boss",
+            "apron"
+          ],
+          "answer": "apron",
+          "reason": "office, salary, and boss are all abstract or intangible work concepts. 'apron' is a physical item — a piece of clothing worn to protect clothes while working.",
+          "reason_vi": "office, salary và boss đều là khái niệm công việc trừu tượng hoặc vô hình. 'apron' là đồ vật thực tế — trang phục mặc để bảo vệ quần áo khi làm việc."
+        },
+        {
+          "id": 9,
+          "words": [
+            "nurse",
+            "farmer",
+            "driver",
+            "task"
+          ],
+          "answer": "task",
+          "reason": "nurse, farmer, and driver are all job titles — names for people with specific occupations. 'task' is a noun for a piece of work or an activity to be done.",
+          "reason_vi": "nurse, farmer và driver đều là tên nghề — tên gọi cho người có nghề nghiệp cụ thể. 'task' là danh từ chỉ một công việc hoặc nhiệm vụ cần hoàn thành."
+        },
+        {
+          "id": 10,
+          "words": [
+            "meeting",
+            "shift",
+            "salary",
+            "engineer"
+          ],
+          "answer": "engineer",
+          "reason": "meeting, shift, and salary are all things that happen or are received at work. 'engineer' is a job title — a person who designs or builds things.",
+          "reason_vi": "meeting, shift và salary đều là thứ xảy ra hoặc nhận được ở nơi làm việc. 'engineer' là tên nghề — người thiết kế hoặc xây dựng các công trình."
+        }
+      ]
     }
   },
   "answer_key": {

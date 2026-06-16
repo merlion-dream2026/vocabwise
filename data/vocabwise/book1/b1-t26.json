@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "dispute" },
-        { "id": 2, "word": "lend" },
-        { "id": 3, "word": "community" },
-        { "id": 4, "word": "peace" },
-        { "id": 5, "word": "neighbour" }
+        {
+          "id": 1,
+          "word": "dispute"
+        },
+        {
+          "id": 2,
+          "word": "lend"
+        },
+        {
+          "id": 3,
+          "word": "community"
+        },
+        {
+          "id": 4,
+          "word": "peace"
+        },
+        {
+          "id": 5,
+          "word": "neighbour"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to give something to someone temporarily, expecting it to be returned" },
-        { "id": "B", "text": "a person who lives next door or very near to you" },
-        { "id": "C", "text": "a group of people living in the same area and sharing its facilities" },
-        { "id": "D", "text": "a state of calm and quiet; freedom from noise or disturbance" },
-        { "id": "E", "text": "a disagreement or argument between two people or groups" }
+        {
+          "id": "A",
+          "text": "to give something to someone temporarily, expecting it to be returned"
+        },
+        {
+          "id": "B",
+          "text": "a person who lives next door or very near to you"
+        },
+        {
+          "id": "C",
+          "text": "a group of people living in the same area and sharing its facilities"
+        },
+        {
+          "id": "D",
+          "text": "a state of calm and quiet; freedom from noise or disturbance"
+        },
+        {
+          "id": "E",
+          "text": "a disagreement or argument between two people or groups"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "Our _____ organises a street festival every year — everyone joins in.",
-          "options": ["fence", "dispute", "community", "peace"],
+          "options": [
+            "fence",
+            "dispute",
+            "community",
+            "peace"
+          ],
           "answer": "community"
         },
         {
           "id": 2,
           "sentence": "The barking dog made a lot of _____ at night — nobody could sleep.",
-          "options": ["peace", "noise", "dispute", "garden"],
+          "options": [
+            "peace",
+            "noise",
+            "dispute",
+            "garden"
+          ],
           "answer": "noise"
         },
         {
           "id": 3,
           "sentence": "Can you _____ me your umbrella? It is raining and I forgot mine.",
-          "options": ["share", "lend", "knock", "help"],
+          "options": [
+            "share",
+            "lend",
+            "knock",
+            "help"
+          ],
           "answer": "lend"
         },
         {
           "id": 4,
           "sentence": "The two families had a _____ about the fence — they could not agree where to put it.",
-          "options": ["peace", "noise", "dispute", "garden"],
+          "options": [
+            "peace",
+            "noise",
+            "dispute",
+            "garden"
+          ],
           "answer": "dispute"
         },
         {
           "id": 5,
           "sentence": "After the busy week, I love the _____ and quiet of my neighbourhood on Sunday mornings.",
-          "options": ["noise", "dispute", "peace", "fence"],
+          "options": [
+            "noise",
+            "dispute",
+            "peace",
+            "fence"
+          ],
           "answer": "peace"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["warm", "garden", "share", "outside", "knock", "fence"],
+      "word_bank": [
+        "warm",
+        "garden",
+        "share",
+        "outside",
+        "knock",
+        "fence"
+      ],
       "items": [
-        { "id": 1, "sentence": "She is a very _____ person — she always greets everyone with a big smile.", "answer": "warm" },
-        { "id": 2, "sentence": "We grow vegetables and flowers in our small _____.", "answer": "garden" },
-        { "id": 3, "sentence": "We _____ the communal space with three other families in our building.", "answer": "share" },
-        { "id": 4, "sentence": "The children love to play _____ in the street after school.", "answer": "outside" },
-        { "id": 5, "sentence": "She _____ on the door three times but nobody answered.", "answer": "knock" }
+        {
+          "id": 1,
+          "sentence": "She is a very _____ person — she always greets everyone with a big smile.",
+          "answer": "warm"
+        },
+        {
+          "id": 2,
+          "sentence": "We grow vegetables and flowers in our small _____.",
+          "answer": "garden"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ the communal space with three other families in our building.",
+          "answer": "share"
+        },
+        {
+          "id": 4,
+          "sentence": "The children love to play _____ in the street after school.",
+          "answer": "outside"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ on the door three times but nobody answered.",
+          "answer": "knock"
+        }
       ],
       "note": "One word in the box is not used: fence"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "The late-night music from next door was very [peaceful] — nobody in our street could sleep.",
           "highlighted": "peaceful",
-          "options": { "A": "quiet", "B": "peaceful", "C": "loud" },
+          "options": {
+            "A": "quiet",
+            "B": "peaceful",
+            "C": "loud"
+          },
           "answer": "C",
           "explanation": "'Peaceful' means calm and quiet — it describes the opposite of the problem. Music that stops people sleeping is 'loud', not peaceful."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "Can I [borrow] you my umbrella? You can return it tomorrow.",
           "highlighted": "borrow",
-          "options": { "A": "lend", "B": "borrow", "C": "share" },
+          "options": {
+            "A": "lend",
+            "B": "borrow",
+            "C": "share"
+          },
           "answer": "A",
           "explanation": "'Borrow' means to take something from someone. When you give something to another person temporarily, you 'lend' it to them — not borrow it."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "They had a small [peace] about where to put the fence between their gardens.",
           "highlighted": "peace",
-          "options": { "A": "noise", "B": "peace", "C": "dispute" },
+          "options": {
+            "A": "noise",
+            "B": "peace",
+            "C": "dispute"
+          },
           "answer": "C",
           "explanation": "'Peace' means calm and harmony. A disagreement between two people about where to place a fence is a 'dispute', not peace."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She always [argues] on my door before entering — she is very polite about coming into my room.",
           "highlighted": "argues",
-          "options": { "A": "argues", "B": "knocks", "C": "shares" },
+          "options": {
+            "A": "argues",
+            "B": "knocks",
+            "C": "shares"
+          },
           "answer": "B",
           "explanation": "'Argues' means to quarrel or disagree. The polite action of tapping on a door to ask for permission to enter is to 'knock', not argue."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "I love the [noise] and calm of Sunday mornings — no traffic, no people, just birds singing outside.",
           "highlighted": "noise",
-          "options": { "A": "peace", "B": "noise", "C": "dispute" },
+          "options": {
+            "A": "peace",
+            "B": "noise",
+            "C": "dispute"
+          },
           "answer": "A",
           "explanation": "'Noise' means loud, unwanted sound — it is the opposite of calm. A quiet and relaxing Sunday morning is described as 'peace', not noise."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "help",
+            "lend",
+            "share",
+            "fence"
+          ],
+          "answer": "fence",
+          "reason": "help, lend, and share are verbs for kind, cooperative actions between neighbours. 'fence' is a noun — a physical structure that separates two properties.",
+          "reason_vi": "help, lend và share đều là động từ chỉ hành động tốt bụng giữa hàng xóm. 'fence' là danh từ — cấu trúc vật lý ngăn cách hai mảnh đất."
+        },
+        {
+          "id": 2,
+          "words": [
+            "noise",
+            "dispute",
+            "loud",
+            "peace"
+          ],
+          "answer": "peace",
+          "reason": "noise, dispute, and loud all relate to conflict and disturbance in a neighbourhood. 'peace' is the opposite — a calm, harmonious state without problems.",
+          "reason_vi": "noise, dispute và loud đều liên quan đến xung đột và sự phiền nhiễu trong khu phố. 'peace' là điều ngược lại — trạng thái yên bình, hài hòa."
+        },
+        {
+          "id": 3,
+          "words": [
+            "neighbour",
+            "community",
+            "door",
+            "outside"
+          ],
+          "answer": "outside",
+          "reason": "neighbour, community, and door are nouns for people, groups, or parts of a home. 'outside' is an adverb or adjective describing a location, not a person or object.",
+          "reason_vi": "neighbour, community và door đều là danh từ chỉ người, nhóm hoặc bộ phận của ngôi nhà. 'outside' là trạng từ hoặc tính từ mô tả vị trí, không phải người hay đồ vật."
+        },
+        {
+          "id": 4,
+          "words": [
+            "noise",
+            "loud",
+            "dispute",
+            "warm"
+          ],
+          "answer": "warm",
+          "reason": "noise, loud, and dispute all relate to a problem in the neighbourhood — sound or conflict. 'warm' describes a friendly, welcoming personality — the opposite feeling.",
+          "reason_vi": "noise, loud và dispute đều liên quan đến vấn đề trong khu phố — tiếng ồn hoặc xung đột. 'warm' mô tả tính cách thân thiện, nhiệt tình — cảm giác ngược lại."
+        },
+        {
+          "id": 5,
+          "words": [
+            "help",
+            "lend",
+            "share",
+            "knock"
+          ],
+          "answer": "knock",
+          "reason": "help, lend, and share are giving or cooperative actions — they benefit the other person. 'knock' is just announcing your presence at someone's door — it is neutral, not an act of giving.",
+          "reason_vi": "help, lend và share đều là hành động cho đi hoặc hợp tác — mang lại lợi ích cho người khác. 'knock' chỉ là thông báo sự có mặt ở cửa ai đó — trung tính, không phải hành động cho đi."
+        },
+        {
+          "id": 6,
+          "words": [
+            "fence",
+            "garden",
+            "door",
+            "loud"
+          ],
+          "answer": "loud",
+          "reason": "fence, garden, and door are physical parts of a house and its exterior. 'loud' is an adjective describing the volume of a sound — it is not a physical object.",
+          "reason_vi": "fence, garden và door đều là bộ phận vật lý của ngôi nhà và bên ngoài. 'loud' là tính từ mô tả âm lượng của tiếng động — không phải đồ vật vật lý."
+        },
+        {
+          "id": 7,
+          "words": [
+            "help",
+            "share",
+            "lend",
+            "dispute"
+          ],
+          "answer": "dispute",
+          "reason": "help, share, and lend are cooperative acts between good neighbours. 'dispute' is a serious argument — it breaks cooperation and creates tension.",
+          "reason_vi": "help, share và lend đều là hành động hợp tác giữa những người hàng xóm tốt. 'dispute' là mâu thuẫn nghiêm trọng — phá vỡ sự hợp tác và tạo ra căng thẳng."
+        },
+        {
+          "id": 8,
+          "words": [
+            "neighbour",
+            "fence",
+            "garden",
+            "peace"
+          ],
+          "answer": "peace",
+          "reason": "neighbour, fence, and garden are physical or social elements of a neighbourhood. 'peace' is an abstract concept — a feeling of calm and harmony.",
+          "reason_vi": "neighbour, fence và garden đều là yếu tố vật chất hoặc xã hội của khu phố. 'peace' là khái niệm trừu tượng — cảm giác yên tĩnh và hài hòa."
+        },
+        {
+          "id": 9,
+          "words": [
+            "noise",
+            "loud",
+            "knock",
+            "community"
+          ],
+          "answer": "community",
+          "reason": "noise, loud, and knock all relate to sounds in a neighbourhood. 'community' is a group of people living in the same area — not a sound.",
+          "reason_vi": "noise, loud và knock đều liên quan đến âm thanh trong khu phố. 'community' là nhóm người sống trong cùng khu vực — không phải âm thanh."
+        },
+        {
+          "id": 10,
+          "words": [
+            "warm",
+            "helpful",
+            "courteous",
+            "dispute"
+          ],
+          "answer": "dispute",
+          "reason": "warm, helpful, and courteous are positive personality traits of a good neighbour. 'dispute' is a conflict — the opposite of being a good neighbour.",
+          "reason_vi": "warm, helpful và courteous đều là phẩm chất tích cực của người hàng xóm tốt. 'dispute' là xung đột — điều ngược lại với việc là người hàng xóm tốt."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "A", "3": "C", "4": "D", "5": "B" },
-    "ex2": { "1": "community", "2": "noise", "3": "lend", "4": "dispute", "5": "peace" },
-    "ex3": { "1": "warm", "2": "garden", "3": "share", "4": "outside", "5": "knock" },
-    "ex4": { "1": "warmly", "2": "noisy", "3": "helpful", "4": "peaceful", "5": "neighbouring" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "E",
+      "2": "A",
+      "3": "C",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "community",
+      "2": "noise",
+      "3": "lend",
+      "4": "dispute",
+      "5": "peace"
+    },
+    "ex3": {
+      "1": "warm",
+      "2": "garden",
+      "3": "share",
+      "4": "outside",
+      "5": "knock"
+    },
+    "ex4": {
+      "1": "warmly",
+      "2": "noisy",
+      "3": "helpful",
+      "4": "peaceful",
+      "5": "neighbouring"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

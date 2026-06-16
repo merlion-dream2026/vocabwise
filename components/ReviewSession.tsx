@@ -257,12 +257,12 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
               return (
                 <button key={choice.word} onClick={() => handleSelect(choice.word)}
                   disabled={selected !== null}
-                  className={`${cellClass} border-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-md transition-all duration-200 active:scale-95 min-h-[120px] p-3`}>
-                  <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-5xl leading-none select-none" iconSize={60} />
+                  className={`${cellClass} border-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-md transition-all duration-200 active:scale-95 min-h-[120px] p-4`}>
+                  <span className={`font-black text-xl leading-tight text-center ${textWhite ? 'text-white' : 'text-gray-800'}`}>
+                    {choice.word}
+                  </span>
                   {showResult && (
-                    <span className={`text-sm font-black ${textWhite ? 'text-white' : 'text-gray-600'}`}>
-                      {choice.word}
-                    </span>
+                    <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-3xl leading-none select-none" iconSize={40} />
                   )}
                 </button>
               )

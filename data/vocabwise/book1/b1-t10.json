@@ -562,6 +562,66 @@
           "explanation": "Use simple present tense ('rains') for general facts and habits. 'Often' + simple present is the natural pattern."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Put each word into the correct group.",
+      "categories": [
+        "Warm/dry weather",
+        "Cold/wet weather"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "hot",
+          "answer": "Warm/dry weather"
+        },
+        {
+          "id": 2,
+          "word": "rain",
+          "answer": "Cold/wet weather"
+        },
+        {
+          "id": 3,
+          "word": "sun",
+          "answer": "Warm/dry weather"
+        },
+        {
+          "id": 4,
+          "word": "cold",
+          "answer": "Cold/wet weather"
+        },
+        {
+          "id": 5,
+          "word": "warm",
+          "answer": "Warm/dry weather"
+        },
+        {
+          "id": 6,
+          "word": "cloud",
+          "answer": "Cold/wet weather"
+        },
+        {
+          "id": 7,
+          "word": "dry",
+          "answer": "Warm/dry weather"
+        },
+        {
+          "id": 8,
+          "word": "storm",
+          "answer": "Cold/wet weather"
+        },
+        {
+          "id": 9,
+          "word": "wet",
+          "answer": "Cold/wet weather"
+        },
+        {
+          "id": 10,
+          "word": "snow",
+          "answer": "Cold/wet weather"
+        }
+      ]
     }
   },
   "answer_key": {

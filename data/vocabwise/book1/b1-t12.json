@@ -562,6 +562,67 @@
           "explanation": "'Leafs' is not the standard plural of 'leaf' — the correct plural is 'leaves'. However, 'a yellow' requires a singular noun: 'a yellow leaf'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Địa hình tự nhiên",
+        "Nguồn nước",
+        "Thực vật & đất"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "rock",
+          "answer": "Địa hình tự nhiên"
+        },
+        {
+          "id": 2,
+          "word": "stream",
+          "answer": "Nguồn nước"
+        },
+        {
+          "id": 3,
+          "word": "hill",
+          "answer": "Địa hình tự nhiên"
+        },
+        {
+          "id": 4,
+          "word": "lake",
+          "answer": "Nguồn nước"
+        },
+        {
+          "id": 5,
+          "word": "mountain",
+          "answer": "Địa hình tự nhiên"
+        },
+        {
+          "id": 6,
+          "word": "leaf",
+          "answer": "Thực vật & đất"
+        },
+        {
+          "id": 7,
+          "word": "river",
+          "answer": "Nguồn nước"
+        },
+        {
+          "id": 8,
+          "word": "sprout",
+          "answer": "Thực vật & đất"
+        },
+        {
+          "id": 9,
+          "word": "forest",
+          "answer": "Địa hình tự nhiên"
+        },
+        {
+          "id": 10,
+          "word": "soil",
+          "answer": "Thực vật & đất"
+        }
+      ]
     }
   },
   "answer_key": {

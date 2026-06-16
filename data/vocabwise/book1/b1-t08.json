@@ -562,6 +562,132 @@
           "explanation": "'Draw' is an irregular verb: draw → drew (past simple). 'Drawed' does not exist in English."
         }
       ]
+    },
+    "ex6_sub": {
+      "type": "E_SUB",
+      "instruction": "Choose the word or phrase closest in meaning to the word in bold.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Reading is my favourite **hobby**.",
+          "highlighted": "hobby",
+          "options": [
+            "pastime",
+            "lesson",
+            "chore",
+            "exercise"
+          ],
+          "answer": "pastime"
+        },
+        {
+          "id": 2,
+          "sentence": "She really **enjoys** playing music.",
+          "highlighted": "enjoys",
+          "options": [
+            "loves",
+            "hates",
+            "studies",
+            "avoids"
+          ],
+          "answer": "loves"
+        },
+        {
+          "id": 3,
+          "sentence": "We had a lot of **fun** at the festival.",
+          "highlighted": "fun",
+          "options": [
+            "enjoyment",
+            "difficulty",
+            "work",
+            "rest"
+          ],
+          "answer": "enjoyment"
+        },
+        {
+          "id": 4,
+          "sentence": "He spent the evening watching a **film**.",
+          "highlighted": "film",
+          "options": [
+            "movie",
+            "song",
+            "book",
+            "game"
+          ],
+          "answer": "movie"
+        },
+        {
+          "id": 5,
+          "sentence": "She likes to **draw** in her free time.",
+          "highlighted": "draw",
+          "options": [
+            "sketch",
+            "sing",
+            "run",
+            "cook"
+          ],
+          "answer": "sketch"
+        },
+        {
+          "id": 6,
+          "sentence": "Saturday is my **favourite** day of the week.",
+          "highlighted": "favourite",
+          "options": [
+            "most loved",
+            "busiest",
+            "hardest",
+            "earliest"
+          ],
+          "answer": "most loved"
+        },
+        {
+          "id": 7,
+          "sentence": "Reading is a relaxing **pastime** on weekends.",
+          "highlighted": "pastime",
+          "options": [
+            "hobby",
+            "chore",
+            "lesson",
+            "duty"
+          ],
+          "answer": "hobby"
+        },
+        {
+          "id": 8,
+          "sentence": "I have a **free** afternoon with nothing planned.",
+          "highlighted": "free",
+          "options": [
+            "spare",
+            "busy",
+            "long",
+            "hot"
+          ],
+          "answer": "spare"
+        },
+        {
+          "id": 9,
+          "sentence": "He took a short **nap** after lunch.",
+          "highlighted": "nap",
+          "options": [
+            "sleep",
+            "walk",
+            "meal",
+            "sport"
+          ],
+          "answer": "sleep"
+        },
+        {
+          "id": 10,
+          "sentence": "She relaxes during the **weekend** by reading and drawing.",
+          "highlighted": "weekend",
+          "options": [
+            "days off",
+            "weekday",
+            "holiday",
+            "evening"
+          ],
+          "answer": "days off"
+        }
+      ]
     }
   },
   "answer_key": {

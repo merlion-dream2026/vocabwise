@@ -314,18 +314,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "catalogue" },
-        { "id": 2, "word": "fine" },
-        { "id": 3, "word": "aisle" },
-        { "id": 4, "word": "borrow" },
-        { "id": 5, "word": "shelf" }
+        {
+          "id": 1,
+          "word": "catalogue"
+        },
+        {
+          "id": 2,
+          "word": "fine"
+        },
+        {
+          "id": 3,
+          "word": "aisle"
+        },
+        {
+          "id": 4,
+          "word": "borrow"
+        },
+        {
+          "id": 5,
+          "word": "shelf"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a flat board fixed to a wall or inside a piece of furniture where books are stored" },
-        { "id": "B", "text": "a money penalty you must pay for returning a library book after the due date" },
-        { "id": "C", "text": "a complete list of all the books or items available in a library" },
-        { "id": "D", "text": "a narrow passage between rows of shelves in a library or shop" },
-        { "id": "E", "text": "to take something temporarily from a place with the intention of returning it" }
+        {
+          "id": "A",
+          "text": "a flat board fixed to a wall or inside a piece of furniture where books are stored"
+        },
+        {
+          "id": "B",
+          "text": "a money penalty you must pay for returning a library book after the due date"
+        },
+        {
+          "id": "C",
+          "text": "a complete list of all the books or items available in a library"
+        },
+        {
+          "id": "D",
+          "text": "a narrow passage between rows of shelves in a library or shop"
+        },
+        {
+          "id": "E",
+          "text": "to take something temporarily from a place with the intention of returning it"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -335,31 +365,56 @@
         {
           "id": 1,
           "sentence": "You must _____ the book before the due date or you will have to pay a fine.",
-          "options": ["borrow", "print", "return", "read"],
+          "options": [
+            "borrow",
+            "print",
+            "return",
+            "read"
+          ],
           "answer": "return"
         },
         {
           "id": 2,
           "sentence": "I love reading _____ — my favourite is a mystery story about a young detective.",
-          "options": ["novels", "zones", "catalogues", "aisles"],
+          "options": [
+            "novels",
+            "zones",
+            "catalogues",
+            "aisles"
+          ],
           "answer": "novels"
         },
         {
           "id": 3,
           "sentence": "The _____ shows every book in the library — you can search by title or author.",
-          "options": ["card", "fine", "catalogue", "shelf"],
+          "options": [
+            "card",
+            "fine",
+            "catalogue",
+            "shelf"
+          ],
           "answer": "catalogue"
         },
         {
           "id": 4,
           "sentence": "She had to pay a _____ of 5,000 đồng because she returned the book two weeks late.",
-          "options": ["card", "fine", "print", "return"],
+          "options": [
+            "card",
+            "fine",
+            "print",
+            "return"
+          ],
           "answer": "fine"
         },
         {
           "id": 5,
           "sentence": "Please keep your voice down — this is the _____ zone and people are studying.",
-          "options": ["reading", "quiet", "library", "borrowed"],
+          "options": [
+            "reading",
+            "quiet",
+            "library",
+            "borrowed"
+          ],
           "answer": "quiet"
         }
       ]
@@ -367,13 +422,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["library", "magazine", "card", "aisle", "dictionary", "zone"],
+      "word_bank": [
+        "library",
+        "magazine",
+        "card",
+        "aisle",
+        "dictionary",
+        "zone"
+      ],
       "items": [
-        { "id": 1, "sentence": "I walked down the _____ slowly, looking at the titles on each shelf.", "answer": "aisle" },
-        { "id": 2, "sentence": "You need a library _____ to borrow books — it only takes a few minutes to get one.", "answer": "card" },
-        { "id": 3, "sentence": "If you do not know a word, look it up in a _____.", "answer": "dictionary" },
-        { "id": 4, "sentence": "There is a reading _____ on the second floor where you can study in silence.", "answer": "zone" },
-        { "id": 5, "sentence": "She reads a science _____ every month to keep up with new discoveries.", "answer": "magazine" }
+        {
+          "id": 1,
+          "sentence": "I walked down the _____ slowly, looking at the titles on each shelf.",
+          "answer": "aisle"
+        },
+        {
+          "id": 2,
+          "sentence": "You need a library _____ to borrow books — it only takes a few minutes to get one.",
+          "answer": "card"
+        },
+        {
+          "id": 3,
+          "sentence": "If you do not know a word, look it up in a _____.",
+          "answer": "dictionary"
+        },
+        {
+          "id": 4,
+          "sentence": "There is a reading _____ on the second floor where you can study in silence.",
+          "answer": "zone"
+        },
+        {
+          "id": 5,
+          "sentence": "She reads a science _____ every month to keep up with new discoveries.",
+          "answer": "magazine"
+        }
       ],
       "note": "One word in the box is not used: library"
     },
@@ -426,7 +508,11 @@
           "id": 1,
           "sentence": "You need to [lend] a library card before you can take any books home.",
           "highlighted": "lend",
-          "options": { "A": "return", "B": "lend", "C": "get" },
+          "options": {
+            "A": "return",
+            "B": "lend",
+            "C": "get"
+          },
           "answer": "C",
           "explanation": "'Lend' means to give something to someone temporarily — the library lends to you, not the other way around. The sentence means you need to 'get' (or obtain) a library card before borrowing books."
         },
@@ -434,7 +520,11 @@
           "id": 2,
           "sentence": "I searched the library [shelf] online to find books about climate change.",
           "highlighted": "shelf",
-          "options": { "A": "catalogue", "B": "shelf", "C": "aisle" },
+          "options": {
+            "A": "catalogue",
+            "B": "shelf",
+            "C": "aisle"
+          },
           "answer": "A",
           "explanation": "A 'shelf' is the physical board where books sit. You cannot search a shelf online. The system you search to find books in a library is the 'catalogue', which lists all available titles."
         },
@@ -442,7 +532,11 @@
           "id": 3,
           "sentence": "The teacher told us to be [noisy] in the library so we do not disturb other readers.",
           "highlighted": "noisy",
-          "options": { "A": "quiet", "B": "noisy", "C": "nervous" },
+          "options": {
+            "A": "quiet",
+            "B": "noisy",
+            "C": "nervous"
+          },
           "answer": "A",
           "explanation": "'Noisy' means making a lot of sound — exactly what you should NOT do in a library. The correct word is 'quiet', meaning to keep the noise level low so others can focus."
         },
@@ -450,7 +544,11 @@
           "id": 4,
           "sentence": "She paid a small [grade] because she forgot to return her library book on time.",
           "highlighted": "grade",
-          "options": { "A": "fine", "B": "grade", "C": "card" },
+          "options": {
+            "A": "fine",
+            "B": "grade",
+            "C": "card"
+          },
           "answer": "A",
           "explanation": "A 'grade' is a score or level in school — it has nothing to do with late fees. When you return a library book late, you pay a 'fine', which is a money penalty."
         },
@@ -458,18 +556,113 @@
           "id": 5,
           "sentence": "He walked through the quiet [zone] looking for the travel section.",
           "highlighted": "zone",
-          "options": { "A": "card", "B": "aisle", "C": "zone" },
+          "options": {
+            "A": "card",
+            "B": "aisle",
+            "C": "zone"
+          },
           "answer": "B",
           "explanation": "A 'zone' is a designated area (like a quiet zone or reading zone). When you walk through the rows of shelves looking for a section, you walk through an 'aisle' — the narrow passage between shelves."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Đồ vật & tài liệu",
+        "Hành động trong thư viện",
+        "Quy tắc & khu vực"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "novel",
+          "answer": "Đồ vật & tài liệu"
+        },
+        {
+          "id": 2,
+          "word": "borrow",
+          "answer": "Hành động trong thư viện"
+        },
+        {
+          "id": 3,
+          "word": "shelf",
+          "answer": "Đồ vật & tài liệu"
+        },
+        {
+          "id": 4,
+          "word": "quiet",
+          "answer": "Quy tắc & khu vực"
+        },
+        {
+          "id": 5,
+          "word": "dictionary",
+          "answer": "Đồ vật & tài liệu"
+        },
+        {
+          "id": 6,
+          "word": "return",
+          "answer": "Hành động trong thư viện"
+        },
+        {
+          "id": 7,
+          "word": "fine",
+          "answer": "Quy tắc & khu vực"
+        },
+        {
+          "id": 8,
+          "word": "catalogue",
+          "answer": "Đồ vật & tài liệu"
+        },
+        {
+          "id": 9,
+          "word": "print",
+          "answer": "Hành động trong thư viện"
+        },
+        {
+          "id": 10,
+          "word": "zone",
+          "answer": "Quy tắc & khu vực"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "B", "3": "D", "4": "E", "5": "A" },
-    "ex2": { "1": "return", "2": "novels", "3": "catalogue", "4": "fine", "5": "quiet" },
-    "ex3": { "1": "aisle", "2": "card", "3": "dictionary", "4": "zone", "5": "magazine" },
-    "ex4": { "1": "librarian", "2": "quietly", "3": "readable", "4": "fined", "5": "shelved" },
-    "ex5": { "1": "C", "2": "A", "3": "A", "4": "A", "5": "B" }
+    "ex1": {
+      "1": "C",
+      "2": "B",
+      "3": "D",
+      "4": "E",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "return",
+      "2": "novels",
+      "3": "catalogue",
+      "4": "fine",
+      "5": "quiet"
+    },
+    "ex3": {
+      "1": "aisle",
+      "2": "card",
+      "3": "dictionary",
+      "4": "zone",
+      "5": "magazine"
+    },
+    "ex4": {
+      "1": "librarian",
+      "2": "quietly",
+      "3": "readable",
+      "4": "fined",
+      "5": "shelved"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "A",
+      "4": "A",
+      "5": "B"
+    }
   }
 }

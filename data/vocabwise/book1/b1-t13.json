@@ -559,6 +559,132 @@
           "explanation": "If you can 'walk there in just two minutes', the café is not 'far' — it is 'nearby' (close to where you are)."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "street",
+            "road",
+            "pavement",
+            "quiet"
+          ],
+          "answer": "quiet",
+          "reason": "street, road, and pavement are nouns for paths where people walk or drive. 'quiet' is an adjective describing the sound level of a place.",
+          "reason_vi": "street, road và pavement đều là danh từ chỉ đường đi. 'quiet' là tính từ mô tả mức độ yên tĩnh."
+        },
+        {
+          "id": 2,
+          "words": [
+            "cottage",
+            "building",
+            "tower",
+            "nearby"
+          ],
+          "answer": "nearby",
+          "reason": "cottage, building, and tower are nouns for types of structures. 'nearby' is an adjective meaning close in distance.",
+          "reason_vi": "cottage, building và tower đều là danh từ chỉ loại công trình. 'nearby' là tính từ có nghĩa là gần đây."
+        },
+        {
+          "id": 3,
+          "words": [
+            "area",
+            "district",
+            "park",
+            "busy"
+          ],
+          "answer": "busy",
+          "reason": "area, district, and park are nouns for zones or parts of a city. 'busy' is an adjective describing how much activity there is.",
+          "reason_vi": "area, district và park đều là danh từ chỉ khu vực trong thành phố. 'busy' là tính từ mô tả mức độ nhộn nhịp."
+        },
+        {
+          "id": 4,
+          "words": [
+            "quiet",
+            "busy",
+            "nearby",
+            "junction"
+          ],
+          "answer": "junction",
+          "reason": "quiet, busy, and nearby are adjectives describing a neighbourhood. 'junction' is a noun — a place where roads meet.",
+          "reason_vi": "quiet, busy và nearby đều là tính từ mô tả khu phố. 'junction' là danh từ — điểm giao nhau của các con đường."
+        },
+        {
+          "id": 5,
+          "words": [
+            "school",
+            "park",
+            "building",
+            "street"
+          ],
+          "answer": "street",
+          "reason": "school, park, and building are destinations — places you go to or enter. 'street' is a path or road that connects places.",
+          "reason_vi": "school, park và building đều là nơi bạn đến hoặc vào bên trong. 'street' là đường đi nối các nơi lại với nhau."
+        },
+        {
+          "id": 6,
+          "words": [
+            "cottage",
+            "archway",
+            "tower",
+            "district"
+          ],
+          "answer": "district",
+          "reason": "cottage, archway, and tower are physical structures you can see or enter. 'district' is a large administrative area of a city.",
+          "reason_vi": "cottage, archway và tower đều là công trình vật lý bạn có thể nhìn thấy hoặc đi vào. 'district' là khu vực hành chính lớn trong thành phố."
+        },
+        {
+          "id": 7,
+          "words": [
+            "quiet",
+            "busy",
+            "nearby",
+            "school"
+          ],
+          "answer": "school",
+          "reason": "quiet, busy, and nearby are adjectives used to describe a place or neighbourhood. 'school' is a noun — a building for learning.",
+          "reason_vi": "quiet, busy và nearby đều là tính từ mô tả một nơi hoặc khu phố. 'school' là danh từ — tòa nhà dùng để học."
+        },
+        {
+          "id": 8,
+          "words": [
+            "street",
+            "road",
+            "pavement",
+            "junction"
+          ],
+          "answer": "junction",
+          "reason": "street, road, and pavement are long, linear paths for walking or driving. 'junction' is a specific point where two or more roads meet.",
+          "reason_vi": "street, road và pavement đều là đường đi thẳng để đi bộ hoặc lái xe. 'junction' là điểm cụ thể nơi hai hoặc nhiều con đường gặp nhau."
+        },
+        {
+          "id": 9,
+          "words": [
+            "area",
+            "district",
+            "building",
+            "quiet"
+          ],
+          "answer": "quiet",
+          "reason": "area, district, and building are nouns for places or structures. 'quiet' is an adjective describing the sound level.",
+          "reason_vi": "area, district và building đều là danh từ chỉ nơi chốn hoặc công trình. 'quiet' là tính từ mô tả mức độ yên tĩnh."
+        },
+        {
+          "id": 10,
+          "words": [
+            "park",
+            "school",
+            "district",
+            "tower"
+          ],
+          "answer": "tower",
+          "reason": "park, school, and district are wide open areas or zones. 'tower' is a tall, narrow vertical structure.",
+          "reason_vi": "park, school và district đều là không gian rộng hoặc khu vực. 'tower' là công trình thẳng đứng cao và hẹp."
+        }
+      ]
     }
   },
   "answer_key": {

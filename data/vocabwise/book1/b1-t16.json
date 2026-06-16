@@ -559,6 +559,132 @@
           "explanation": "A 'device' is physical hardware (like a phone or tablet). The software program you open to practise a language is an 'app'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "phone",
+            "computer",
+            "camera",
+            "search"
+          ],
+          "answer": "search",
+          "reason": "phone, computer, and camera are all physical devices. 'search' is a verb — an action you do on a device.",
+          "reason_vi": "phone, computer và camera đều là thiết bị vật lý. 'search' là động từ — hành động bạn thực hiện trên thiết bị."
+        },
+        {
+          "id": 2,
+          "words": [
+            "message",
+            "email",
+            "app",
+            "screen"
+          ],
+          "answer": "screen",
+          "reason": "message, email, and app are types of digital content or tools. 'screen' is a physical display surface on a device.",
+          "reason_vi": "message, email và app đều là loại nội dung hoặc công cụ kỹ thuật số. 'screen' là bề mặt hiển thị vật lý trên thiết bị."
+        },
+        {
+          "id": 3,
+          "words": [
+            "online",
+            "internet",
+            "email",
+            "battery"
+          ],
+          "answer": "battery",
+          "reason": "online, internet, and email all relate to digital connectivity. 'battery' is a physical power source inside a device.",
+          "reason_vi": "online, internet và email đều liên quan đến kết nối kỹ thuật số. 'battery' là nguồn điện vật lý bên trong thiết bị."
+        },
+        {
+          "id": 4,
+          "words": [
+            "search",
+            "connect",
+            "power",
+            "device"
+          ],
+          "answer": "device",
+          "reason": "search, connect, and power can all be used as verbs — actions you perform with technology. 'device' is a noun — a physical gadget.",
+          "reason_vi": "search, connect và power đều có thể dùng như động từ — hành động bạn thực hiện với công nghệ. 'device' là danh từ — thiết bị điện tử."
+        },
+        {
+          "id": 5,
+          "words": [
+            "phone",
+            "computer",
+            "camera",
+            "internet"
+          ],
+          "answer": "internet",
+          "reason": "phone, computer, and camera are physical devices you can hold or carry. 'internet' is a network — not a physical device.",
+          "reason_vi": "phone, computer và camera đều là thiết bị vật lý bạn có thể cầm nắm. 'internet' là mạng lưới — không phải thiết bị vật lý."
+        },
+        {
+          "id": 6,
+          "words": [
+            "message",
+            "email",
+            "app",
+            "button"
+          ],
+          "answer": "button",
+          "reason": "message, email, and app are digital content or software tools. 'button' is a physical control you press on a device.",
+          "reason_vi": "message, email và app đều là nội dung kỹ thuật số hoặc công cụ phần mềm. 'button' là nút vật lý bạn bấm trên thiết bị."
+        },
+        {
+          "id": 7,
+          "words": [
+            "search",
+            "connect",
+            "power",
+            "screen"
+          ],
+          "answer": "screen",
+          "reason": "search, connect, and power can all function as verbs. 'screen' is a noun — the display surface of a device.",
+          "reason_vi": "search, connect và power đều có thể dùng như động từ. 'screen' là danh từ — màn hình hiển thị của thiết bị."
+        },
+        {
+          "id": 8,
+          "words": [
+            "online",
+            "internet",
+            "app",
+            "phone"
+          ],
+          "answer": "phone",
+          "reason": "online, internet, and app are all digital or virtual concepts. 'phone' is a physical device you can touch.",
+          "reason_vi": "online, internet và app đều là khái niệm kỹ thuật số hoặc ảo. 'phone' là thiết bị vật lý bạn có thể chạm vào."
+        },
+        {
+          "id": 9,
+          "words": [
+            "phone",
+            "computer",
+            "camera",
+            "connect"
+          ],
+          "answer": "connect",
+          "reason": "phone, computer, and camera are devices (nouns). 'connect' is a verb — the action of linking devices or joining a network.",
+          "reason_vi": "phone, computer và camera đều là thiết bị (danh từ). 'connect' là động từ — hành động kết nối thiết bị hoặc tham gia mạng lưới."
+        },
+        {
+          "id": 10,
+          "words": [
+            "battery",
+            "power",
+            "screen",
+            "search"
+          ],
+          "answer": "search",
+          "reason": "battery, power, and screen are physical components of a device. 'search' is a verb — the action of looking for information online.",
+          "reason_vi": "battery, power và screen đều là bộ phận vật lý của thiết bị. 'search' là động từ — hành động tìm kiếm thông tin trực tuyến."
+        }
+      ]
     }
   },
   "answer_key": {

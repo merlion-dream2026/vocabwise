@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "applaud" },
-        { "id": 2, "word": "rhythm" },
-        { "id": 3, "word": "audience" },
-        { "id": 4, "word": "solo" },
-        { "id": 5, "word": "tune" }
+        {
+          "id": 1,
+          "word": "applaud"
+        },
+        {
+          "id": 2,
+          "word": "rhythm"
+        },
+        {
+          "id": 3,
+          "word": "audience"
+        },
+        {
+          "id": 4,
+          "word": "solo"
+        },
+        {
+          "id": 5,
+          "word": "tune"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a group of people who watch or listen to a performance, concert, or show" },
-        { "id": "B", "text": "a performance by one person alone, without other musicians or singers" },
-        { "id": "C", "text": "a simple, pleasing melody that is easy to remember and hum" },
-        { "id": "D", "text": "a regular repeated pattern of sounds or beats in music" },
-        { "id": "E", "text": "to clap your hands together to show that you enjoyed a performance" }
+        {
+          "id": "A",
+          "text": "a group of people who watch or listen to a performance, concert, or show"
+        },
+        {
+          "id": "B",
+          "text": "a performance by one person alone, without other musicians or singers"
+        },
+        {
+          "id": "C",
+          "text": "a simple, pleasing melody that is easy to remember and hum"
+        },
+        {
+          "id": "D",
+          "text": "a regular repeated pattern of sounds or beats in music"
+        },
+        {
+          "id": "E",
+          "text": "to clap your hands together to show that you enjoyed a performance"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "The _____ at the concert stood up and clapped loudly at the end of the show.",
-          "options": ["band", "audience", "stage", "solo"],
+          "options": [
+            "band",
+            "audience",
+            "stage",
+            "solo"
+          ],
           "answer": "audience"
         },
         {
           "id": 2,
           "sentence": "She played a wrong _____ during the concert, but she stayed calm and carried on.",
-          "options": ["note", "rhythm", "voice", "tune"],
+          "options": [
+            "note",
+            "rhythm",
+            "voice",
+            "tune"
+          ],
           "answer": "note"
         },
         {
           "id": 3,
           "sentence": "The music was too _____ — I had to cover my ears because it hurt.",
-          "options": ["solo", "tuneful", "loud", "rhythmic"],
+          "options": [
+            "solo",
+            "tuneful",
+            "loud",
+            "rhythmic"
+          ],
           "answer": "loud"
         },
         {
           "id": 4,
           "sentence": "The _____ beat his drum steadily so that everyone could stay in time together.",
-          "options": ["pianist", "guitarist", "drummer", "soloist"],
+          "options": [
+            "pianist",
+            "guitarist",
+            "drummer",
+            "soloist"
+          ],
           "answer": "drummer"
         },
         {
           "id": 5,
           "sentence": "They all walked onto the _____ together and bowed before the concert began.",
-          "options": ["concert", "stage", "band", "note"],
+          "options": [
+            "concert",
+            "stage",
+            "band",
+            "note"
+          ],
           "answer": "stage"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["concert", "instrument", "guitar", "voice", "applaud", "band"],
+      "word_bank": [
+        "concert",
+        "instrument",
+        "guitar",
+        "voice",
+        "applaud",
+        "band"
+      ],
       "items": [
-        { "id": 1, "sentence": "She picked up her _____ and started to play a soft, slow song.", "answer": "guitar" },
-        { "id": 2, "sentence": "Every _____ in the orchestra has a different sound and role.", "answer": "instrument" },
-        { "id": 3, "sentence": "The whole school went to a _____ at the city music hall last Friday.", "answer": "concert" },
-        { "id": 4, "sentence": "Her _____ was so clear and strong that everyone in the hall could hear her.", "answer": "voice" },
-        { "id": 5, "sentence": "When the song ended, the audience began to _____ and cheer.", "answer": "applaud" }
+        {
+          "id": 1,
+          "sentence": "She picked up her _____ and started to play a soft, slow song.",
+          "answer": "guitar"
+        },
+        {
+          "id": 2,
+          "sentence": "Every _____ in the orchestra has a different sound and role.",
+          "answer": "instrument"
+        },
+        {
+          "id": 3,
+          "sentence": "The whole school went to a _____ at the city music hall last Friday.",
+          "answer": "concert"
+        },
+        {
+          "id": 4,
+          "sentence": "Her _____ was so clear and strong that everyone in the hall could hear her.",
+          "answer": "voice"
+        },
+        {
+          "id": 5,
+          "sentence": "When the song ended, the audience began to _____ and cheer.",
+          "answer": "applaud"
+        }
       ],
       "note": "One word in the box is not used: band"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "He walked onto the [audience] and bowed before he started to play.",
           "highlighted": "audience",
-          "options": { "A": "band", "B": "audience", "C": "stage" },
+          "options": {
+            "A": "band",
+            "B": "audience",
+            "C": "stage"
+          },
           "answer": "C",
           "explanation": "The 'audience' is the group of people watching a show, not a place. The place where performers stand and play is the 'stage'."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "The [tune] kept a steady beat throughout the song so the others could play together.",
           "highlighted": "tune",
-          "options": { "A": "drummer", "B": "tune", "C": "soloist" },
+          "options": {
+            "A": "drummer",
+            "B": "tune",
+            "C": "soloist"
+          },
           "answer": "A",
           "explanation": "A 'tune' is a melody, not a person. The person who plays the drum and keeps the beat for a group is the 'drummer'."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "She has a beautiful [note] — when she sings, everyone stops to listen.",
           "highlighted": "note",
-          "options": { "A": "rhythm", "B": "voice", "C": "note" },
+          "options": {
+            "A": "rhythm",
+            "B": "voice",
+            "C": "note"
+          },
           "answer": "B",
           "explanation": "A 'note' is a single musical sound. The quality of a person's singing or speaking sound is their 'voice'."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "After the final song, the whole room began to [perform] loudly to show how much they enjoyed it.",
           "highlighted": "perform",
-          "options": { "A": "applaud", "B": "perform", "C": "tune" },
+          "options": {
+            "A": "applaud",
+            "B": "perform",
+            "C": "tune"
+          },
           "answer": "A",
           "explanation": "'Perform' means to play or sing in front of others. When an audience shows appreciation by clapping, they 'applaud'."
         },
@@ -455,18 +553,113 @@
           "id": 5,
           "sentence": "The _____ music teacher asked her to play a short [concert] in front of the class.",
           "highlighted": "concert",
-          "options": { "A": "rhythm", "B": "stage", "C": "solo" },
+          "options": {
+            "A": "rhythm",
+            "B": "stage",
+            "C": "solo"
+          },
           "answer": "C",
           "explanation": "A 'concert' is a big musical event for an audience, not a short individual performance. A short performance by one person alone is a 'solo'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nhạc cụ",
+        "Về buổi biểu diễn",
+        "Âm thanh & hành động"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "guitar",
+          "answer": "Nhạc cụ"
+        },
+        {
+          "id": 2,
+          "word": "concert",
+          "answer": "Về buổi biểu diễn"
+        },
+        {
+          "id": 3,
+          "word": "piano",
+          "answer": "Nhạc cụ"
+        },
+        {
+          "id": 4,
+          "word": "applaud",
+          "answer": "Âm thanh & hành động"
+        },
+        {
+          "id": 5,
+          "word": "drum",
+          "answer": "Nhạc cụ"
+        },
+        {
+          "id": 6,
+          "word": "audience",
+          "answer": "Về buổi biểu diễn"
+        },
+        {
+          "id": 7,
+          "word": "rhythm",
+          "answer": "Âm thanh & hành động"
+        },
+        {
+          "id": 8,
+          "word": "band",
+          "answer": "Về buổi biểu diễn"
+        },
+        {
+          "id": 9,
+          "word": "tune",
+          "answer": "Âm thanh & hành động"
+        },
+        {
+          "id": 10,
+          "word": "stage",
+          "answer": "Về buổi biểu diễn"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "D", "3": "A", "4": "B", "5": "C" },
-    "ex2": { "1": "audience", "2": "note", "3": "loud", "4": "drummer", "5": "stage" },
-    "ex3": { "1": "guitar", "2": "instrument", "3": "concert", "4": "voice", "5": "applaud" },
-    "ex4": { "1": "rhythmically", "2": "applause", "3": "pianist", "4": "tuneful", "5": "vocally" },
-    "ex5": { "1": "C", "2": "A", "3": "B", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    },
+    "ex2": {
+      "1": "audience",
+      "2": "note",
+      "3": "loud",
+      "4": "drummer",
+      "5": "stage"
+    },
+    "ex3": {
+      "1": "guitar",
+      "2": "instrument",
+      "3": "concert",
+      "4": "voice",
+      "5": "applaud"
+    },
+    "ex4": {
+      "1": "rhythmically",
+      "2": "applause",
+      "3": "pianist",
+      "4": "tuneful",
+      "5": "vocally"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

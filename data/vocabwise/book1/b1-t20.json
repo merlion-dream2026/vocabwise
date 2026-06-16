@@ -559,6 +559,132 @@
           "explanation": "The sentence says 'the whole family sits at one table', which shows they are all in the same place. 'Separate' (apart from each other) contradicts this — 'together' is correct."
         }
       ]
+    },
+    "ex6_sub": {
+      "type": "E_SUB",
+      "instruction": "Choose the word closest in meaning to the underlined word.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Everyone **celebrates** the New Year.",
+          "highlighted": "celebrates",
+          "options": [
+            "marks",
+            "forgets",
+            "plans",
+            "watches"
+          ],
+          "answer": "marks"
+        },
+        {
+          "id": 2,
+          "sentence": "The streets were **colourful** with lights and flags.",
+          "highlighted": "colourful",
+          "options": [
+            "bright",
+            "dark",
+            "quiet",
+            "empty"
+          ],
+          "answer": "bright"
+        },
+        {
+          "id": 3,
+          "sentence": "The **parade** moved slowly down the street.",
+          "highlighted": "parade",
+          "options": [
+            "procession",
+            "party",
+            "match",
+            "storm"
+          ],
+          "answer": "procession"
+        },
+        {
+          "id": 4,
+          "sentence": "It is a **tradition** to light fireworks.",
+          "highlighted": "tradition",
+          "options": [
+            "custom",
+            "problem",
+            "noise",
+            "time"
+          ],
+          "answer": "custom"
+        },
+        {
+          "id": 5,
+          "sentence": "Everyone was **happy** at the festival.",
+          "highlighted": "happy",
+          "options": [
+            "joyful",
+            "tired",
+            "quiet",
+            "hungry"
+          ],
+          "answer": "joyful"
+        },
+        {
+          "id": 6,
+          "sentence": "Everyone enjoyed the **music** at the festival.",
+          "highlighted": "music",
+          "options": [
+            "songs",
+            "silence",
+            "food",
+            "colour"
+          ],
+          "answer": "songs"
+        },
+        {
+          "id": 7,
+          "sentence": "She was a **spectator** at the parade.",
+          "highlighted": "spectator",
+          "options": [
+            "watcher",
+            "dancer",
+            "singer",
+            "runner"
+          ],
+          "answer": "watcher"
+        },
+        {
+          "id": 8,
+          "sentence": "The whole **nation** celebrated together.",
+          "highlighted": "nation",
+          "options": [
+            "country",
+            "street",
+            "family",
+            "class"
+          ],
+          "answer": "country"
+        },
+        {
+          "id": 9,
+          "sentence": "They came **together** to celebrate the holiday.",
+          "highlighted": "together",
+          "options": [
+            "as one",
+            "alone",
+            "quickly",
+            "early"
+          ],
+          "answer": "as one"
+        },
+        {
+          "id": 10,
+          "sentence": "It was a national **holiday** and schools were closed.",
+          "highlighted": "holiday",
+          "options": [
+            "day off",
+            "party",
+            "song",
+            "match"
+          ],
+          "answer": "day off"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "summary" },
-        { "id": 2, "word": "author" },
-        { "id": 3, "word": "outline" },
-        { "id": 4, "word": "heading" },
-        { "id": 5, "word": "review" }
+        {
+          "id": 1,
+          "word": "summary"
+        },
+        {
+          "id": 2,
+          "word": "author"
+        },
+        {
+          "id": 3,
+          "word": "outline"
+        },
+        {
+          "id": 4,
+          "word": "heading"
+        },
+        {
+          "id": 5,
+          "word": "review"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a short piece of writing that gives an opinion about a book, film, or other work" },
-        { "id": "B", "text": "a title written at the top of a page or section of text" },
-        { "id": "C", "text": "the person who writes a book, story, or article" },
-        { "id": "D", "text": "a short statement of the main points of something" },
-        { "id": "E", "text": "a plan that shows the main ideas of something before it is written in full" }
+        {
+          "id": "A",
+          "text": "a short piece of writing that gives an opinion about a book, film, or other work"
+        },
+        {
+          "id": "B",
+          "text": "a title written at the top of a page or section of text"
+        },
+        {
+          "id": "C",
+          "text": "the person who writes a book, story, or article"
+        },
+        {
+          "id": "D",
+          "text": "a short statement of the main points of something"
+        },
+        {
+          "id": "E",
+          "text": "a plan that shows the main ideas of something before it is written in full"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "I did not understand the word, so I checked its _____ in the dictionary.",
-          "options": ["heading", "meaning", "outline", "copy"],
+          "options": [
+            "heading",
+            "meaning",
+            "outline",
+            "copy"
+          ],
           "answer": "meaning"
         },
         {
           "id": 2,
           "sentence": "We read the first _____ of the novel in class and discussed the main characters.",
-          "options": ["diary", "poem", "sentence", "chapter"],
+          "options": [
+            "diary",
+            "poem",
+            "sentence",
+            "chapter"
+          ],
           "answer": "chapter"
         },
         {
           "id": 3,
           "sentence": "She keeps a _____ and writes in it every night before going to sleep.",
-          "options": ["diary", "copy", "review", "notes"],
+          "options": [
+            "diary",
+            "copy",
+            "review",
+            "notes"
+          ],
           "answer": "diary"
         },
         {
           "id": 4,
           "sentence": "Please _____ the vocabulary list from the board into your notebook.",
-          "options": ["review", "outline", "copy", "author"],
+          "options": [
+            "review",
+            "outline",
+            "copy",
+            "author"
+          ],
           "answer": "copy"
         },
         {
           "id": 5,
           "sentence": "The teacher told us to write a _____ of the story in fewer than fifty words.",
-          "options": ["heading", "poem", "page", "summary"],
+          "options": [
+            "heading",
+            "poem",
+            "page",
+            "summary"
+          ],
           "answer": "summary"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["notes", "sentence", "story", "heading", "review", "poem"],
+      "word_bank": [
+        "notes",
+        "sentence",
+        "story",
+        "heading",
+        "review",
+        "poem"
+      ],
       "items": [
-        { "id": 1, "sentence": "The _____ she wrote about the book helped other students decide what to read next.", "answer": "review" },
-        { "id": 2, "sentence": "I took careful _____ during the lesson and studied them again at home.", "answer": "notes" },
-        { "id": 3, "sentence": "He read a short _____ aloud to the class — it rhymed and had a nice rhythm.", "answer": "poem" },
-        { "id": 4, "sentence": "Write the _____ at the top of your page so the reader knows what the section is about.", "answer": "heading" },
-        { "id": 5, "sentence": "Each _____ in the paragraph should begin with a capital letter and end with a full stop.", "answer": "sentence" }
+        {
+          "id": 1,
+          "sentence": "The _____ she wrote about the book helped other students decide what to read next.",
+          "answer": "review"
+        },
+        {
+          "id": 2,
+          "sentence": "I took careful _____ during the lesson and studied them again at home.",
+          "answer": "notes"
+        },
+        {
+          "id": 3,
+          "sentence": "He read a short _____ aloud to the class — it rhymed and had a nice rhythm.",
+          "answer": "poem"
+        },
+        {
+          "id": 4,
+          "sentence": "Write the _____ at the top of your page so the reader knows what the section is about.",
+          "answer": "heading"
+        },
+        {
+          "id": 5,
+          "sentence": "Each _____ in the paragraph should begin with a capital letter and end with a full stop.",
+          "answer": "sentence"
+        }
       ],
       "note": "One word in the box is not used: story"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "I always write a [meaning] at the top of my notes so I know what the page is about.",
           "highlighted": "meaning",
-          "options": { "A": "copy", "B": "meaning", "C": "heading" },
+          "options": {
+            "A": "copy",
+            "B": "meaning",
+            "C": "heading"
+          },
           "answer": "C",
           "explanation": "A 'meaning' is the definition or idea behind a word or phrase. The word written at the top of a page to show what the section is about is a 'heading'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "The teacher asked us to write a short [outline] about whether we enjoyed the book.",
           "highlighted": "outline",
-          "options": { "A": "review", "B": "outline", "C": "chapter" },
+          "options": {
+            "A": "review",
+            "B": "outline",
+            "C": "chapter"
+          },
           "answer": "A",
           "explanation": "An 'outline' is a plan of the main points, not an opinion piece. When you write your thoughts about whether you enjoyed a book, you write a 'review'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "She wrote her feelings in her [summary] every night before going to sleep.",
           "highlighted": "summary",
-          "options": { "A": "notes", "B": "chapter", "C": "diary" },
+          "options": {
+            "A": "notes",
+            "B": "chapter",
+            "C": "diary"
+          },
           "answer": "C",
           "explanation": "A 'summary' is a short retelling of main points — it is not a personal journal. A personal book where you write your private thoughts and feelings every day is a 'diary'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "Please [review] the new vocabulary list from the board into your notebook.",
           "highlighted": "review",
-          "options": { "A": "review", "B": "copy", "C": "outline" },
+          "options": {
+            "A": "review",
+            "B": "copy",
+            "C": "outline"
+          },
           "answer": "B",
           "explanation": "'Review' means to look at something again or give an opinion. When you write down exactly what is on the board into your notebook, you 'copy' it."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "The [page] of the novel was written by a famous Vietnamese writer.",
           "highlighted": "page",
-          "options": { "A": "story", "B": "page", "C": "author" },
+          "options": {
+            "A": "story",
+            "B": "page",
+            "C": "author"
+          },
           "answer": "A",
           "explanation": "A 'page' is one side of a sheet in a book — it cannot be 'written by' anyone in this sense. The person who writes a novel is its 'author'. However, the sentence is about the work itself, so 'story' fits best here."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "book",
+            "story",
+            "poem",
+            "copy"
+          ],
+          "answer": "copy",
+          "reason": "book, story, and poem are types of written material you read for pleasure. 'copy' is a verb — the action of writing out exactly what you see somewhere else.",
+          "reason_vi": "book, story và poem đều là loại tài liệu viết bạn đọc để giải trí. 'copy' là động từ — hành động chép lại chính xác những gì bạn thấy."
+        },
+        {
+          "id": 2,
+          "words": [
+            "page",
+            "heading",
+            "chapter",
+            "review"
+          ],
+          "answer": "review",
+          "reason": "page, heading, and chapter are structural parts of a book — they tell you how it is organised. 'review' is a written opinion about the book — it exists outside the text, not inside it.",
+          "reason_vi": "page, heading và chapter đều là bộ phận cấu trúc của cuốn sách. 'review' là bài nhận xét về sách — nó tồn tại bên ngoài văn bản, không phải bên trong."
+        },
+        {
+          "id": 3,
+          "words": [
+            "book",
+            "diary",
+            "poem",
+            "author"
+          ],
+          "answer": "author",
+          "reason": "book, diary, and poem are types of written material — things you read or write. 'author' is a person — the one who writes those things.",
+          "reason_vi": "book, diary và poem đều là loại tài liệu viết. 'author' là người — người viết ra những thứ đó."
+        },
+        {
+          "id": 4,
+          "words": [
+            "story",
+            "poem",
+            "summary",
+            "sentence"
+          ],
+          "answer": "sentence",
+          "reason": "story, poem, and summary are complete pieces of writing — each one has a beginning and an end. 'sentence' is a single unit of language — a building block, not a complete text.",
+          "reason_vi": "story, poem và summary đều là bài viết hoàn chỉnh. 'sentence' là đơn vị ngôn ngữ đơn lẻ — thành phần cấu tạo, không phải văn bản hoàn chỉnh."
+        },
+        {
+          "id": 5,
+          "words": [
+            "notes",
+            "summary",
+            "outline",
+            "page"
+          ],
+          "answer": "page",
+          "reason": "notes, summary, and outline are things you write to help you study or plan. 'page' is a physical part of a book — a numbered sheet that holds the written text.",
+          "reason_vi": "notes, summary và outline đều là thứ bạn viết để học hoặc lên kế hoạch. 'page' là bộ phận vật lý của sách — tờ giấy đánh số chứa nội dung."
+        },
+        {
+          "id": 6,
+          "words": [
+            "notes",
+            "summary",
+            "review",
+            "story"
+          ],
+          "answer": "story",
+          "reason": "notes, summary, and review are things you write to help you understand or evaluate a text. 'story' is a creative narrative — written for enjoyment, not for study.",
+          "reason_vi": "notes, summary và review đều là thứ bạn viết để hiểu hoặc đánh giá một văn bản. 'story' là câu chuyện sáng tạo — viết để giải trí, không phải để học."
+        },
+        {
+          "id": 7,
+          "words": [
+            "book",
+            "diary",
+            "poem",
+            "chapter"
+          ],
+          "answer": "chapter",
+          "reason": "book, diary, and poem are complete, independent written works. 'chapter' is one part of a book — it cannot stand alone as a complete work on its own.",
+          "reason_vi": "book, diary và poem đều là tác phẩm viết độc lập hoàn chỉnh. 'chapter' là một phần của sách — không thể tồn tại độc lập như tác phẩm hoàn chỉnh."
+        },
+        {
+          "id": 8,
+          "words": [
+            "heading",
+            "outline",
+            "chapter",
+            "meaning"
+          ],
+          "answer": "meaning",
+          "reason": "heading, outline, and chapter all describe the structure and organisation of a text. 'meaning' is an abstract idea — what the words actually tell us, not how a text is arranged.",
+          "reason_vi": "heading, outline và chapter đều mô tả cấu trúc và tổ chức của văn bản. 'meaning' là ý tưởng trừu tượng — điều các từ thực sự truyền đạt, không phải cách sắp xếp."
+        },
+        {
+          "id": 9,
+          "words": [
+            "diary",
+            "poem",
+            "story",
+            "notes"
+          ],
+          "answer": "notes",
+          "reason": "diary, poem, and story are original creative writings — written to express yourself or tell a tale. 'notes' are made to help you remember information, not for creative expression.",
+          "reason_vi": "diary, poem và story đều là bài viết sáng tạo gốc — viết để bày tỏ bản thân hoặc kể chuyện. 'notes' được viết để giúp bạn ghi nhớ thông tin, không phải để sáng tạo."
+        },
+        {
+          "id": 10,
+          "words": [
+            "diary",
+            "poem",
+            "story",
+            "summary"
+          ],
+          "answer": "summary",
+          "reason": "diary, poem, and story are original works — they contain new ideas or events from the writer. 'summary' is not original — it is a shorter version of something else you have already read.",
+          "reason_vi": "diary, poem và story đều là tác phẩm gốc — chứa ý tưởng hoặc sự kiện mới của người viết. 'summary' không phải tác phẩm gốc — nó là phiên bản rút gọn của thứ bạn đã đọc."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "D", "2": "C", "3": "E", "4": "B", "5": "A" },
-    "ex2": { "1": "meaning", "2": "chapter", "3": "diary", "4": "copy", "5": "summary" },
-    "ex3": { "1": "review", "2": "notes", "3": "poem", "4": "heading", "5": "sentence" },
-    "ex4": { "1": "meaning", "2": "summarised", "3": "bookish", "4": "notable", "5": "poetic" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "D",
+      "2": "C",
+      "3": "E",
+      "4": "B",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "meaning",
+      "2": "chapter",
+      "3": "diary",
+      "4": "copy",
+      "5": "summary"
+    },
+    "ex3": {
+      "1": "review",
+      "2": "notes",
+      "3": "poem",
+      "4": "heading",
+      "5": "sentence"
+    },
+    "ex4": {
+      "1": "meaning",
+      "2": "summarised",
+      "3": "bookish",
+      "4": "notable",
+      "5": "poetic"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

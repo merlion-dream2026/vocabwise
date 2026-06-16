@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "sibling" },
-        { "id": 2, "word": "tight-knit" },
-        { "id": 3, "word": "relative" },
-        { "id": 4, "word": "senior" },
-        { "id": 5, "word": "respect" }
+        {
+          "id": 1,
+          "word": "sibling"
+        },
+        {
+          "id": 2,
+          "word": "tight-knit"
+        },
+        {
+          "id": 3,
+          "word": "relative"
+        },
+        {
+          "id": 4,
+          "word": "senior"
+        },
+        {
+          "id": 5,
+          "word": "respect"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a person who is older or has a higher rank in a family or group" },
-        { "id": "B", "text": "admiration and care shown to someone; treating others with politeness" },
-        { "id": "C", "text": "closely connected and caring greatly about each other" },
-        { "id": "D", "text": "a member of your family, either close or distant" },
-        { "id": "E", "text": "a brother or sister" }
+        {
+          "id": "A",
+          "text": "a person who is older or has a higher rank in a family or group"
+        },
+        {
+          "id": "B",
+          "text": "admiration and care shown to someone; treating others with politeness"
+        },
+        {
+          "id": "C",
+          "text": "closely connected and caring greatly about each other"
+        },
+        {
+          "id": "D",
+          "text": "a member of your family, either close or distant"
+        },
+        {
+          "id": "E",
+          "text": "a brother or sister"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "My _____ sister is three years older than me and is now studying at university.",
-          "options": ["older", "younger", "senior", "close"],
+          "options": [
+            "older",
+            "younger",
+            "senior",
+            "close"
+          ],
           "answer": "older"
         },
         {
           "id": 2,
           "sentence": "We always show _____ to our grandparents — we listen carefully and never argue with them.",
-          "options": ["care", "age", "respect", "blood"],
+          "options": [
+            "care",
+            "age",
+            "respect",
+            "blood"
+          ],
           "answer": "respect"
         },
         {
           "id": 3,
           "sentence": "My _____ is the son of my father's brother — we are the same age and love the same games.",
-          "options": ["cousin", "sibling", "aunt", "parent"],
+          "options": [
+            "cousin",
+            "sibling",
+            "aunt",
+            "parent"
+          ],
           "answer": "cousin"
         },
         {
           "id": 4,
           "sentence": "She has two _____ — an older brother and a younger sister.",
-          "options": ["relatives", "cousins", "siblings", "parents"],
+          "options": [
+            "relatives",
+            "cousins",
+            "siblings",
+            "parents"
+          ],
           "answer": "siblings"
         },
         {
           "id": 5,
           "sentence": "Our family is very _____ — we call each other every day and meet on weekends.",
-          "options": ["senior", "blood", "distant", "tight-knit"],
+          "options": [
+            "senior",
+            "blood",
+            "distant",
+            "tight-knit"
+          ],
           "answer": "tight-knit"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["uncle", "grandparent", "younger", "care", "blood", "cousin"],
+      "word_bank": [
+        "uncle",
+        "grandparent",
+        "younger",
+        "care",
+        "blood",
+        "cousin"
+      ],
       "items": [
-        { "id": 1, "sentence": "My _____ is my father's brother — he is very funny and tells great stories.", "answer": "uncle" },
-        { "id": 2, "sentence": "Every Sunday, we visit our _____ at their house on the other side of the city.", "answer": "grandparent" },
-        { "id": 3, "sentence": "She is the _____ sister — she is only six and goes to primary school.", "answer": "younger" },
-        { "id": 4, "sentence": "My parents always _____ for me when I am sick — they stay home all day.", "answer": "care" },
-        { "id": 5, "sentence": "We are _____ relatives — our grandfathers were brothers.", "answer": "blood" }
+        {
+          "id": 1,
+          "sentence": "My _____ is my father's brother — he is very funny and tells great stories.",
+          "answer": "uncle"
+        },
+        {
+          "id": 2,
+          "sentence": "Every Sunday, we visit our _____ at their house on the other side of the city.",
+          "answer": "grandparent"
+        },
+        {
+          "id": 3,
+          "sentence": "She is the _____ sister — she is only six and goes to primary school.",
+          "answer": "younger"
+        },
+        {
+          "id": 4,
+          "sentence": "My parents always _____ for me when I am sick — they stay home all day.",
+          "answer": "care"
+        },
+        {
+          "id": 5,
+          "sentence": "We are _____ relatives — our grandfathers were brothers.",
+          "answer": "blood"
+        }
       ],
       "note": "One word in the box is not used: cousin"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "My father's sister is my [uncle] — she visits us every Sunday for lunch.",
           "highlighted": "uncle",
-          "options": { "A": "aunt", "B": "uncle", "C": "cousin" },
+          "options": {
+            "A": "aunt",
+            "B": "uncle",
+            "C": "cousin"
+          },
           "answer": "A",
           "explanation": "'Uncle' is the word for a father's or mother's brother. A father's sister is called an 'aunt'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "She always treats her grandparents with great [blood] — she listens carefully and never argues.",
           "highlighted": "blood",
-          "options": { "A": "care", "B": "respect", "C": "blood" },
+          "options": {
+            "A": "care",
+            "B": "respect",
+            "C": "blood"
+          },
           "answer": "B",
           "explanation": "'Blood' refers to family connections by birth. The word for treating someone with admiration and politeness is 'respect', not blood."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "He is five years [senior] than his sister — he was born in 2012 and she in 2017.",
           "highlighted": "senior",
-          "options": { "A": "younger", "B": "senior", "C": "older" },
+          "options": {
+            "A": "younger",
+            "B": "senior",
+            "C": "older"
+          },
           "answer": "C",
           "explanation": "'Senior' means having a high rank or more experience — it is not used for simple age comparisons. To say someone was born earlier, use 'older'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "My [cousins] are my mother and my father — they take care of me every day.",
           "highlighted": "cousins",
-          "options": { "A": "parents", "B": "siblings", "C": "cousins" },
+          "options": {
+            "A": "parents",
+            "B": "siblings",
+            "C": "cousins"
+          },
           "answer": "A",
           "explanation": "'Cousins' are the children of your aunts and uncles. The people who are your mother and father are called 'parents'."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "Our family is very [loose] — we call each other every day and always meet at weekends.",
           "highlighted": "loose",
-          "options": { "A": "senior", "B": "tight-knit", "C": "loose" },
+          "options": {
+            "A": "senior",
+            "B": "tight-knit",
+            "C": "loose"
+          },
           "answer": "B",
           "explanation": "'Loose' means not firmly connected. A family that calls daily and meets every weekend is 'tight-knit' — closely connected and caring greatly about each other."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thành viên gia đình",
+        "Liên quan đến tuổi tác",
+        "Giá trị & mối quan hệ"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "parent",
+          "answer": "Thành viên gia đình"
+        },
+        {
+          "id": 2,
+          "word": "older",
+          "answer": "Liên quan đến tuổi tác"
+        },
+        {
+          "id": 3,
+          "word": "sibling",
+          "answer": "Thành viên gia đình"
+        },
+        {
+          "id": 4,
+          "word": "respect",
+          "answer": "Giá trị & mối quan hệ"
+        },
+        {
+          "id": 5,
+          "word": "grandparent",
+          "answer": "Thành viên gia đình"
+        },
+        {
+          "id": 6,
+          "word": "senior",
+          "answer": "Liên quan đến tuổi tác"
+        },
+        {
+          "id": 7,
+          "word": "uncle",
+          "answer": "Thành viên gia đình"
+        },
+        {
+          "id": 8,
+          "word": "care",
+          "answer": "Giá trị & mối quan hệ"
+        },
+        {
+          "id": 9,
+          "word": "younger",
+          "answer": "Liên quan đến tuổi tác"
+        },
+        {
+          "id": 10,
+          "word": "tight-knit",
+          "answer": "Giá trị & mối quan hệ"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "C", "3": "D", "4": "A", "5": "B" },
-    "ex2": { "1": "older", "2": "respect", "3": "cousin", "4": "siblings", "5": "tight-knit" },
-    "ex3": { "1": "uncle", "2": "grandparent", "3": "younger", "4": "care", "5": "blood" },
-    "ex4": { "1": "respectfully", "2": "oldest", "3": "caring", "4": "relatives", "5": "youngest" },
-    "ex5": { "1": "A", "2": "B", "3": "C", "4": "A", "5": "B" }
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "D",
+      "4": "A",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "older",
+      "2": "respect",
+      "3": "cousin",
+      "4": "siblings",
+      "5": "tight-knit"
+    },
+    "ex3": {
+      "1": "uncle",
+      "2": "grandparent",
+      "3": "younger",
+      "4": "care",
+      "5": "blood"
+    },
+    "ex4": {
+      "1": "respectfully",
+      "2": "oldest",
+      "3": "caring",
+      "4": "relatives",
+      "5": "youngest"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
   }
 }

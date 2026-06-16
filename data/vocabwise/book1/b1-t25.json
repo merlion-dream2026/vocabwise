@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "courteous" },
-        { "id": 2, "word": "handshake" },
-        { "id": 3, "word": "gesture" },
-        { "id": 4, "word": "contact" },
-        { "id": 5, "word": "conversation" }
+        {
+          "id": 1,
+          "word": "courteous"
+        },
+        {
+          "id": 2,
+          "word": "handshake"
+        },
+        {
+          "id": 3,
+          "word": "gesture"
+        },
+        {
+          "id": 4,
+          "word": "contact"
+        },
+        {
+          "id": 5,
+          "word": "conversation"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a greeting where two people briefly hold and shake each other's hands" },
-        { "id": "B", "text": "a talk between two or more people who share ideas and information" },
-        { "id": "C", "text": "polite and respectful in the way you speak and behave towards others" },
-        { "id": "D", "text": "communication with someone; a person's phone number or address" },
-        { "id": "E", "text": "a movement of the hand or body that expresses a feeling or meaning" }
+        {
+          "id": "A",
+          "text": "a greeting where two people briefly hold and shake each other's hands"
+        },
+        {
+          "id": "B",
+          "text": "a talk between two or more people who share ideas and information"
+        },
+        {
+          "id": "C",
+          "text": "polite and respectful in the way you speak and behave towards others"
+        },
+        {
+          "id": "D",
+          "text": "communication with someone; a person's phone number or address"
+        },
+        {
+          "id": "E",
+          "text": "a movement of the hand or body that expresses a feeling or meaning"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She gave me her phone number so we could stay in _____ after the class.",
-          "options": ["contact", "gesture", "name", "handshake"],
+          "options": [
+            "contact",
+            "gesture",
+            "name",
+            "handshake"
+          ],
           "answer": "contact"
         },
         {
           "id": 2,
           "sentence": "I always _____ myself when I meet someone new — I say my name and smile.",
-          "options": ["reply", "introduce", "talk", "forget"],
+          "options": [
+            "reply",
+            "introduce",
+            "talk",
+            "forget"
+          ],
           "answer": "introduce"
         },
         {
           "id": 3,
           "sentence": "He was very _____ — he held the door open and thanked everyone around him.",
-          "options": ["courteous", "nervous", "shy", "quiet"],
+          "options": [
+            "courteous",
+            "nervous",
+            "shy",
+            "quiet"
+          ],
           "answer": "courteous"
         },
         {
           "id": 4,
           "sentence": "I _____ her name after the meeting — I had to check my notebook to find it again.",
-          "options": ["remembered", "enjoyed", "forgot", "replied"],
+          "options": [
+            "remembered",
+            "enjoyed",
+            "forgot",
+            "replied"
+          ],
           "answer": "forgot"
         },
         {
           "id": 5,
           "sentence": "In many countries, a _____ is the normal way to greet someone you meet for the first time.",
-          "options": ["conversation", "gesture", "handshake", "contact"],
+          "options": [
+            "conversation",
+            "gesture",
+            "handshake",
+            "contact"
+          ],
           "answer": "handshake"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["introduce", "reply", "enjoy", "first", "remember", "conversation"],
+      "word_bank": [
+        "introduce",
+        "reply",
+        "enjoy",
+        "first",
+        "remember",
+        "conversation"
+      ],
       "items": [
-        { "id": 1, "sentence": "I always _____ myself clearly when I meet someone new.", "answer": "introduce" },
-        { "id": 2, "sentence": "Please _____ to my message when you are free — I need your answer.", "answer": "reply" },
-        { "id": 3, "sentence": "Nice to meet you — it is my _____ time visiting this city.", "answer": "first" },
-        { "id": 4, "sentence": "I _____ meeting new people — it always leads to great experiences.", "answer": "enjoy" },
-        { "id": 5, "sentence": "I try hard to _____ everyone's name when I first meet them.", "answer": "remember" }
+        {
+          "id": 1,
+          "sentence": "I always _____ myself clearly when I meet someone new.",
+          "answer": "introduce"
+        },
+        {
+          "id": 2,
+          "sentence": "Please _____ to my message when you are free — I need your answer.",
+          "answer": "reply"
+        },
+        {
+          "id": 3,
+          "sentence": "Nice to meet you — it is my _____ time visiting this city.",
+          "answer": "first"
+        },
+        {
+          "id": 4,
+          "sentence": "I _____ meeting new people — it always leads to great experiences.",
+          "answer": "enjoy"
+        },
+        {
+          "id": 5,
+          "sentence": "I try hard to _____ everyone's name when I first meet them.",
+          "answer": "remember"
+        }
       ],
       "note": "One word in the box is not used: conversation"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "When I met her for the first time, I [forgot] myself and told her my name clearly.",
           "highlighted": "forgot",
-          "options": { "A": "forgot", "B": "introduced", "C": "replied" },
+          "options": {
+            "A": "forgot",
+            "B": "introduced",
+            "C": "replied"
+          },
           "answer": "B",
           "explanation": "'Forgot' means failed to remember something. When you meet someone and tell them your name for the first time, you 'introduce' yourself — not forget yourself."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "He is a very [forgetful] person — he always holds doors open and speaks very politely.",
           "highlighted": "forgetful",
-          "options": { "A": "courteous", "B": "forgetful", "C": "shy" },
+          "options": {
+            "A": "courteous",
+            "B": "forgetful",
+            "C": "shy"
+          },
           "answer": "A",
           "explanation": "'Forgetful' means often forgetting things. Someone who holds doors open and speaks politely is 'courteous' — polite and respectful in behaviour."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "After the meeting, we stayed in [reply] — we sent messages to each other every week.",
           "highlighted": "reply",
-          "options": { "A": "reply", "B": "conversation", "C": "contact" },
+          "options": {
+            "A": "reply",
+            "B": "conversation",
+            "C": "contact"
+          },
           "answer": "C",
           "explanation": "'Reply' means a single answer to a message. Staying in touch with someone regularly over time means staying in 'contact', not in reply."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She waved and gave a big [handshake] when she saw her friend across the busy road.",
           "highlighted": "handshake",
-          "options": { "A": "handshake", "B": "gesture", "C": "contact" },
+          "options": {
+            "A": "handshake",
+            "B": "gesture",
+            "C": "contact"
+          },
           "answer": "B",
           "explanation": "A 'handshake' requires you to be physically close — you hold hands. Waving to someone far across a road is a 'gesture', not a handshake."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "I find it easy to [remember] names, so I always write them down in my notebook.",
           "highlighted": "remember",
-          "options": { "A": "remember", "B": "recall", "C": "forget" },
+          "options": {
+            "A": "remember",
+            "B": "recall",
+            "C": "forget"
+          },
           "answer": "C",
           "explanation": "If you find it easy to remember names, you would not need to write them down. The sentence makes sense only if you find it hard — meaning you often 'forget' names."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "introduce",
+            "talk",
+            "reply",
+            "handshake"
+          ],
+          "answer": "handshake",
+          "reason": "introduce, talk, and reply are verbs — things you say or do with words. 'handshake' is a physical greeting — you do it with your hand, not your words.",
+          "reason_vi": "introduce, talk và reply đều là động từ — thứ bạn nói hoặc làm bằng lời. 'handshake' là lời chào vật lý — bạn làm bằng tay, không phải bằng lời."
+        },
+        {
+          "id": 2,
+          "words": [
+            "name",
+            "country",
+            "conversation",
+            "ask"
+          ],
+          "answer": "ask",
+          "reason": "name, country, and conversation are nouns — things you exchange or have when meeting someone. 'ask' is a verb — the action of requesting information.",
+          "reason_vi": "name, country và conversation đều là danh từ — thứ bạn trao đổi khi gặp ai đó. 'ask' là động từ — hành động yêu cầu thông tin."
+        },
+        {
+          "id": 3,
+          "words": [
+            "remember",
+            "forget",
+            "enjoy",
+            "courteous"
+          ],
+          "answer": "courteous",
+          "reason": "remember, forget, and enjoy are verbs — actions or mental states. 'courteous' is an adjective — it describes how polite or respectful a person is.",
+          "reason_vi": "remember, forget và enjoy đều là động từ — hành động hoặc trạng thái tâm trí. 'courteous' là tính từ — mô tả mức độ lịch sự của một người."
+        },
+        {
+          "id": 4,
+          "words": [
+            "name",
+            "country",
+            "gesture",
+            "talk"
+          ],
+          "answer": "talk",
+          "reason": "name, country, and gesture are nouns — things or actions that exist as objects. 'talk' is a verb — the action of speaking with someone.",
+          "reason_vi": "name, country và gesture đều là danh từ — thứ tồn tại như đồ vật hoặc hành động. 'talk' là động từ — hành động nói chuyện với ai đó."
+        },
+        {
+          "id": 5,
+          "words": [
+            "introduce",
+            "ask",
+            "reply",
+            "gesture"
+          ],
+          "answer": "gesture",
+          "reason": "introduce, ask, and reply are verbal actions — they all involve speaking. 'gesture' is a non-verbal, physical action, such as waving or nodding.",
+          "reason_vi": "introduce, ask và reply đều là hành động lời nói — đều liên quan đến nói. 'gesture' là hành động vật lý phi lời nói, ví dụ như vẫy tay hoặc gật đầu."
+        },
+        {
+          "id": 6,
+          "words": [
+            "name",
+            "conversation",
+            "contact",
+            "first"
+          ],
+          "answer": "first",
+          "reason": "name, conversation, and contact are nouns for things or concepts related to meeting people. 'first' is an adverb describing order or sequence.",
+          "reason_vi": "name, conversation và contact đều là danh từ về thứ liên quan đến gặp gỡ. 'first' là trạng từ mô tả thứ tự hoặc trình tự."
+        },
+        {
+          "id": 7,
+          "words": [
+            "introduce",
+            "ask",
+            "talk",
+            "enjoy"
+          ],
+          "answer": "enjoy",
+          "reason": "introduce, ask, and talk are communication actions — they happen when two people meet and speak. 'enjoy' expresses a feeling of pleasure, not a communication act.",
+          "reason_vi": "introduce, ask và talk đều là hành động giao tiếp — xảy ra khi hai người gặp nhau và nói chuyện. 'enjoy' thể hiện cảm giác vui thích, không phải hành động giao tiếp."
+        },
+        {
+          "id": 8,
+          "words": [
+            "name",
+            "handshake",
+            "gesture",
+            "forget"
+          ],
+          "answer": "forget",
+          "reason": "name, handshake, and gesture are all part of meeting someone — they happen in the moment. 'forget' is the failure to remember — it happens after the meeting, not during it.",
+          "reason_vi": "name, handshake và gesture đều là phần của việc gặp gỡ ai đó — xảy ra trong khoảnh khắc đó. 'forget' là sự thất bại trong việc nhớ — xảy ra sau cuộc gặp."
+        },
+        {
+          "id": 9,
+          "words": [
+            "introduce",
+            "reply",
+            "talk",
+            "contact"
+          ],
+          "answer": "contact",
+          "reason": "introduce, reply, and talk are face-to-face communication actions. 'contact' is broader — it includes phone, email, and any other way of reaching someone.",
+          "reason_vi": "introduce, reply và talk đều là hành động giao tiếp trực tiếp. 'contact' rộng hơn — bao gồm điện thoại, email và mọi cách liên lạc khác."
+        },
+        {
+          "id": 10,
+          "words": [
+            "remember",
+            "introduce",
+            "ask",
+            "forget"
+          ],
+          "answer": "forget",
+          "reason": "remember, introduce, and ask are all positive, active choices you make when meeting someone. 'forget' is passive and unwanted — it is something that happens to you, not something you choose.",
+          "reason_vi": "remember, introduce và ask đều là lựa chọn tích cực, chủ động khi gặp ai đó. 'forget' là thụ động và không mong muốn — nó xảy ra với bạn, không phải điều bạn chọn."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "E", "4": "D", "5": "B" },
-    "ex2": { "1": "contact", "2": "introduce", "3": "courteous", "4": "forgot", "5": "handshake" },
-    "ex3": { "1": "introduce", "2": "reply", "3": "first", "4": "enjoy", "5": "remember" },
-    "ex4": { "1": "introduction", "2": "enjoyable", "3": "courteously", "4": "conversation", "5": "forgetful" },
-    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "E",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "contact",
+      "2": "introduce",
+      "3": "courteous",
+      "4": "forgot",
+      "5": "handshake"
+    },
+    "ex3": {
+      "1": "introduce",
+      "2": "reply",
+      "3": "first",
+      "4": "enjoy",
+      "5": "remember"
+    },
+    "ex4": {
+      "1": "introduction",
+      "2": "enjoyable",
+      "3": "courteously",
+      "4": "conversation",
+      "5": "forgetful"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

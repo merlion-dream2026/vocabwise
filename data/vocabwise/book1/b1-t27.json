@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "invite" },
-        { "id": 2, "word": "candle" },
-        { "id": 3, "word": "gift" },
-        { "id": 4, "word": "special" },
-        { "id": 5, "word": "remember" }
+        {
+          "id": 1,
+          "word": "invite"
+        },
+        {
+          "id": 2,
+          "word": "candle"
+        },
+        {
+          "id": 3,
+          "word": "gift"
+        },
+        {
+          "id": 4,
+          "word": "special"
+        },
+        {
+          "id": 5,
+          "word": "remember"
+        }
       ],
       "options": [
-        { "id": "A", "text": "different from ordinary; important and worthy of attention" },
-        { "id": "B", "text": "to keep something in your mind; to not forget" },
-        { "id": "C", "text": "to ask someone to come to an event or celebration" },
-        { "id": "D", "text": "something you give to someone to show you care or to celebrate an occasion" },
-        { "id": "E", "text": "a stick of wax with a wick that gives light when burning" }
+        {
+          "id": "A",
+          "text": "different from ordinary; important and worthy of attention"
+        },
+        {
+          "id": "B",
+          "text": "to keep something in your mind; to not forget"
+        },
+        {
+          "id": "C",
+          "text": "to ask someone to come to an event or celebration"
+        },
+        {
+          "id": "D",
+          "text": "something you give to someone to show you care or to celebrate an occasion"
+        },
+        {
+          "id": "E",
+          "text": "a stick of wax with a wick that gives light when burning"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She blew out all the _____ on the cake in one breath — everyone cheered!",
-          "options": ["gifts", "photos", "candles", "dresses"],
+          "options": [
+            "gifts",
+            "photos",
+            "candles",
+            "dresses"
+          ],
           "answer": "candles"
         },
         {
           "id": 2,
           "sentence": "Each guest brought a _____ — some gave books and others gave toys.",
-          "options": ["party", "photo", "gift", "candle"],
+          "options": [
+            "party",
+            "photo",
+            "gift",
+            "candle"
+          ],
           "answer": "gift"
         },
         {
           "id": 3,
           "sentence": "We _____ all her classmates to the birthday party — twenty children came.",
-          "options": ["remembered", "ate", "sang", "invited"],
+          "options": [
+            "remembered",
+            "ate",
+            "sang",
+            "invited"
+          ],
           "answer": "invited"
         },
         {
           "id": 4,
           "sentence": "We took a lot of _____ to keep the memory of the happy day.",
-          "options": ["candles", "photos", "gifts", "cakes"],
+          "options": [
+            "candles",
+            "photos",
+            "gifts",
+            "cakes"
+          ],
           "answer": "photos"
         },
         {
           "id": 5,
           "sentence": "Her birthday is a very _____ day — the whole family comes together to celebrate.",
-          "options": ["happy", "special", "loud", "shared"],
+          "options": [
+            "happy",
+            "special",
+            "loud",
+            "shared"
+          ],
           "answer": "special"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["cake", "sing", "together", "birthday", "dress", "party"],
+      "word_bank": [
+        "cake",
+        "sing",
+        "together",
+        "birthday",
+        "dress",
+        "party"
+      ],
       "items": [
-        { "id": 1, "sentence": "We always _____ the birthday song before blowing out the candles.", "answer": "sing" },
-        { "id": 2, "sentence": "She wore a beautiful pink _____ to her birthday celebration.", "answer": "dress" },
-        { "id": 3, "sentence": "Happy _____! I hope you have a wonderful and special day.", "answer": "birthday" },
-        { "id": 4, "sentence": "Mum baked a big chocolate _____ with colourful icing on top.", "answer": "cake" },
-        { "id": 5, "sentence": "We sat _____ and looked at all the birthday photos from past years.", "answer": "together" }
+        {
+          "id": 1,
+          "sentence": "We always _____ the birthday song before blowing out the candles.",
+          "answer": "sing"
+        },
+        {
+          "id": 2,
+          "sentence": "She wore a beautiful pink _____ to her birthday celebration.",
+          "answer": "dress"
+        },
+        {
+          "id": 3,
+          "sentence": "Happy _____! I hope you have a wonderful and special day.",
+          "answer": "birthday"
+        },
+        {
+          "id": 4,
+          "sentence": "Mum baked a big chocolate _____ with colourful icing on top.",
+          "answer": "cake"
+        },
+        {
+          "id": 5,
+          "sentence": "We sat _____ and looked at all the birthday photos from past years.",
+          "answer": "together"
+        }
       ],
       "note": "One word in the box is not used: party"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "She [forgot] her birthday and planned a big party for all her friends.",
           "highlighted": "forgot",
-          "options": { "A": "forgot", "B": "celebrated", "C": "missed" },
+          "options": {
+            "A": "forgot",
+            "B": "celebrated",
+            "C": "missed"
+          },
           "answer": "B",
           "explanation": "'Forgot' means failed to remember. Someone who planned a big party did not forget their birthday — they 'celebrated' it."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "We sang the birthday song and then she [ate] all the candles in one breath.",
           "highlighted": "ate",
-          "options": { "A": "blew out", "B": "ate", "C": "forgot" },
+          "options": {
+            "A": "blew out",
+            "B": "ate",
+            "C": "forgot"
+          },
           "answer": "A",
           "explanation": "'Ate' means consumed food. You do not eat candles — you 'blow out' candles on a birthday cake after making a wish."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "Each guest [forgot] a small gift — books, chocolates, and pretty hair clips.",
           "highlighted": "forgot",
-          "options": { "A": "sang", "B": "forgot", "C": "brought" },
+          "options": {
+            "A": "sang",
+            "B": "forgot",
+            "C": "brought"
+          },
           "answer": "C",
           "explanation": "'Forgot' means failed to remember something. Guests who give presents at a party have 'brought' gifts, not forgotten them."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She wore a beautiful [photo] to the party — it was pink with small white flowers.",
           "highlighted": "photo",
-          "options": { "A": "photo", "B": "dress", "C": "gift" },
+          "options": {
+            "A": "photo",
+            "B": "dress",
+            "C": "gift"
+          },
           "answer": "B",
           "explanation": "A 'photo' is a picture taken by a camera — it is not something you wear. Something beautiful and pink with flowers that you put on is a 'dress'."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "It was a very [ordinary] party — everyone said they had never seen anything so beautiful and fun.",
           "highlighted": "ordinary",
-          "options": { "A": "ordinary", "B": "noisy", "C": "special" },
+          "options": {
+            "A": "ordinary",
+            "B": "noisy",
+            "C": "special"
+          },
           "answer": "C",
           "explanation": "'Ordinary' means usual and not different from others. A party that people described as beautiful and unlike anything they had seen before is 'special', not ordinary."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Đồ vật trong tiệc sinh nhật",
+        "Hoạt động trong tiệc",
+        "Tính từ & cảm xúc"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "cake",
+          "answer": "Đồ vật trong tiệc sinh nhật"
+        },
+        {
+          "id": 2,
+          "word": "invite",
+          "answer": "Hoạt động trong tiệc"
+        },
+        {
+          "id": 3,
+          "word": "candle",
+          "answer": "Đồ vật trong tiệc sinh nhật"
+        },
+        {
+          "id": 4,
+          "word": "happy",
+          "answer": "Tính từ & cảm xúc"
+        },
+        {
+          "id": 5,
+          "word": "sing",
+          "answer": "Hoạt động trong tiệc"
+        },
+        {
+          "id": 6,
+          "word": "gift",
+          "answer": "Đồ vật trong tiệc sinh nhật"
+        },
+        {
+          "id": 7,
+          "word": "special",
+          "answer": "Tính từ & cảm xúc"
+        },
+        {
+          "id": 8,
+          "word": "eat",
+          "answer": "Hoạt động trong tiệc"
+        },
+        {
+          "id": 9,
+          "word": "photo",
+          "answer": "Đồ vật trong tiệc sinh nhật"
+        },
+        {
+          "id": 10,
+          "word": "dress",
+          "answer": "Hoạt động trong tiệc"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "E", "3": "D", "4": "A", "5": "B" },
-    "ex2": { "1": "candles", "2": "gift", "3": "invited", "4": "photos", "5": "special" },
-    "ex3": { "1": "sing", "2": "dress", "3": "birthday", "4": "cake", "5": "together" },
-    "ex4": { "1": "happily", "2": "invitation", "3": "memorable", "4": "singer", "5": "ate" },
-    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "D",
+      "4": "A",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "candles",
+      "2": "gift",
+      "3": "invited",
+      "4": "photos",
+      "5": "special"
+    },
+    "ex3": {
+      "1": "sing",
+      "2": "dress",
+      "3": "birthday",
+      "4": "cake",
+      "5": "together"
+    },
+    "ex4": {
+      "1": "happily",
+      "2": "invitation",
+      "3": "memorable",
+      "4": "singer",
+      "5": "ate"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

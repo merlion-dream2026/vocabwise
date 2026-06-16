@@ -559,6 +559,132 @@
           "explanation": "'Drive' is an irregular verb: drive → drove (past simple). 'Drived' does not exist in English."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "bus",
+            "bike",
+            "car",
+            "walk"
+          ],
+          "answer": "walk",
+          "reason": "bus, bike, and car are all vehicles — machines or objects used for transport. 'walk' is a verb describing movement on foot, without a vehicle.",
+          "reason_vi": "bus, bike và car đều là phương tiện — máy móc dùng để di chuyển. 'walk' là động từ mô tả việc đi bộ, không dùng phương tiện."
+        },
+        {
+          "id": 2,
+          "words": [
+            "drive",
+            "walk",
+            "arrive",
+            "road"
+          ],
+          "answer": "road",
+          "reason": "drive, walk, and arrive are verbs (actions related to travel). 'road' is a noun — a physical surface for vehicles.",
+          "reason_vi": "drive, walk và arrive đều là động từ (hành động liên quan đến di chuyển). 'road' là danh từ — mặt đường cho xe cộ."
+        },
+        {
+          "id": 3,
+          "words": [
+            "near",
+            "far",
+            "slow",
+            "bus"
+          ],
+          "answer": "bus",
+          "reason": "near, far, and slow are adjectives describing distance or speed. 'bus' is a noun — a type of vehicle.",
+          "reason_vi": "near, far và slow đều là tính từ mô tả khoảng cách hoặc tốc độ. 'bus' là danh từ — một loại phương tiện."
+        },
+        {
+          "id": 4,
+          "words": [
+            "arrive",
+            "leave",
+            "drive",
+            "ticket"
+          ],
+          "answer": "ticket",
+          "reason": "arrive, leave, and drive are verbs (actions when travelling). 'ticket' is a noun — a piece of paper that allows you to travel.",
+          "reason_vi": "arrive, leave và drive đều là động từ (hành động khi di chuyển). 'ticket' là danh từ — tờ giấy cho phép bạn đi lại."
+        },
+        {
+          "id": 5,
+          "words": [
+            "bus",
+            "bike",
+            "car",
+            "journey"
+          ],
+          "answer": "journey",
+          "reason": "bus, bike, and car are vehicles (things you travel in or on). 'journey' is a noun describing the act of travelling from one place to another.",
+          "reason_vi": "bus, bike và car đều là phương tiện (thứ bạn đi trong/trên đó). 'journey' là danh từ mô tả hành trình từ nơi này đến nơi khác."
+        },
+        {
+          "id": 6,
+          "words": [
+            "station",
+            "road",
+            "traffic",
+            "slow"
+          ],
+          "answer": "slow",
+          "reason": "station, road, and traffic are nouns related to transport. 'slow' is an adjective describing speed.",
+          "reason_vi": "station, road và traffic đều là danh từ liên quan đến giao thông. 'slow' là tính từ mô tả tốc độ."
+        },
+        {
+          "id": 7,
+          "words": [
+            "near",
+            "far",
+            "slow",
+            "station"
+          ],
+          "answer": "station",
+          "reason": "near, far, and slow are adjectives. 'station' is a noun — a place where buses or trains stop.",
+          "reason_vi": "near, far và slow đều là tính từ. 'station' là danh từ — nơi xe buýt hoặc tàu dừng."
+        },
+        {
+          "id": 8,
+          "words": [
+            "walk",
+            "drive",
+            "arrive",
+            "traffic"
+          ],
+          "answer": "traffic",
+          "reason": "walk, drive, and arrive are verbs (movement actions). 'traffic' is a noun — the vehicles moving on a road.",
+          "reason_vi": "walk, drive và arrive đều là động từ (hành động di chuyển). 'traffic' là danh từ — các phương tiện đang lưu thông trên đường."
+        },
+        {
+          "id": 9,
+          "words": [
+            "ticket",
+            "station",
+            "road",
+            "leave"
+          ],
+          "answer": "leave",
+          "reason": "ticket, station, and road are nouns related to transport. 'leave' is a verb — the action of departing from a place.",
+          "reason_vi": "ticket, station và road đều là danh từ liên quan đến giao thông. 'leave' là động từ — hành động rời khỏi một nơi."
+        },
+        {
+          "id": 10,
+          "words": [
+            "near",
+            "far",
+            "slow",
+            "arrive"
+          ],
+          "answer": "arrive",
+          "reason": "near, far, and slow are adjectives. 'arrive' is a verb — the action of reaching a place.",
+          "reason_vi": "near, far và slow đều là tính từ. 'arrive' là động từ — hành động đến một nơi."
+        }
+      ]
     }
   },
   "answer_key": {

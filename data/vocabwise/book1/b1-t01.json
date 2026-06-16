@@ -565,6 +565,132 @@
           "explanation": "'Children' is already the plural of 'child' — no 's' needed."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "kitchen",
+            "bedroom",
+            "garden",
+            "tidy"
+          ],
+          "answer": "tidy",
+          "reason": "kitchen, bedroom, and garden are places in or around a house. 'tidy' is an adjective describing neatness, not a place.",
+          "reason_vi": "kitchen, bedroom và garden đều là những không gian trong hoặc quanh nhà. 'tidy' là tính từ chỉ sự ngăn nắp, không phải một địa điểm."
+        },
+        {
+          "id": 2,
+          "words": [
+            "family",
+            "parent",
+            "child",
+            "floor"
+          ],
+          "answer": "floor",
+          "reason": "family, parent, and child are all words for people or groups of people. 'floor' is a physical surface in a house.",
+          "reason_vi": "family, parent và child đều là những từ chỉ người hoặc nhóm người. 'floor' là bề mặt vật lý trong nhà."
+        },
+        {
+          "id": 3,
+          "words": [
+            "live",
+            "share",
+            "clean",
+            "bedroom"
+          ],
+          "answer": "bedroom",
+          "reason": "live, share, and clean are verbs (actions). 'bedroom' is a noun — a room in a house.",
+          "reason_vi": "live, share và clean đều là động từ (hành động). 'bedroom' là danh từ — một phòng trong nhà."
+        },
+        {
+          "id": 4,
+          "words": [
+            "house",
+            "room",
+            "kitchen",
+            "together"
+          ],
+          "answer": "together",
+          "reason": "house, room, and kitchen are nouns for places or spaces. 'together' is an adverb describing how people do something.",
+          "reason_vi": "house, room và kitchen là các danh từ chỉ nơi chốn. 'together' là trạng từ mô tả cách người ta làm gì đó."
+        },
+        {
+          "id": 5,
+          "words": [
+            "floor",
+            "garden",
+            "bedroom",
+            "member"
+          ],
+          "answer": "member",
+          "reason": "floor, garden, and bedroom are physical spaces in or around a home. 'member' refers to a person in a group.",
+          "reason_vi": "floor, garden và bedroom đều là các không gian vật lý trong hoặc quanh nhà. 'member' chỉ người trong một nhóm."
+        },
+        {
+          "id": 6,
+          "words": [
+            "parent",
+            "child",
+            "family",
+            "kitchen"
+          ],
+          "answer": "kitchen",
+          "reason": "parent, child, and family are words for people and relationships. 'kitchen' is a room, not a person.",
+          "reason_vi": "parent, child và family là những từ chỉ người và mối quan hệ. 'kitchen' là một căn phòng, không phải người."
+        },
+        {
+          "id": 7,
+          "words": [
+            "kitchen",
+            "bedroom",
+            "room",
+            "garden"
+          ],
+          "answer": "garden",
+          "reason": "kitchen, bedroom, and room are indoor spaces. 'garden' is an outdoor area.",
+          "reason_vi": "kitchen, bedroom và room đều là không gian trong nhà. 'garden' là khu vực ngoài trời."
+        },
+        {
+          "id": 8,
+          "words": [
+            "house",
+            "kitchen",
+            "bedroom",
+            "child"
+          ],
+          "answer": "child",
+          "reason": "house, kitchen, and bedroom are physical parts of a home. 'child' is a person, not a place.",
+          "reason_vi": "house, kitchen và bedroom đều là các phần vật lý của ngôi nhà. 'child' là người, không phải nơi chốn."
+        },
+        {
+          "id": 9,
+          "words": [
+            "live",
+            "share",
+            "clean",
+            "family"
+          ],
+          "answer": "family",
+          "reason": "live, share, and clean are verbs (actions you do). 'family' is a noun — a group of people.",
+          "reason_vi": "live, share và clean đều là động từ (hành động bạn thực hiện). 'family' là danh từ — một nhóm người."
+        },
+        {
+          "id": 10,
+          "words": [
+            "tidy",
+            "clean",
+            "share",
+            "house"
+          ],
+          "answer": "house",
+          "reason": "tidy, clean, and share can all be used as verbs in English. 'house' is a noun only.",
+          "reason_vi": "tidy, clean và share đều có thể dùng như động từ trong tiếng Anh. 'house' chỉ là danh từ."
+        }
+      ]
     }
   },
   "answer_key": {

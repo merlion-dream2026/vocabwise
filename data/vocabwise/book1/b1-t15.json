@@ -562,6 +562,67 @@
           "explanation": "'Many' requires a plural noun. Change 'bird' to 'birds'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Đồ vật & nơi chốn trong công viên",
+        "Hoạt động trong công viên",
+        "Tính từ mô tả công viên"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "bench",
+          "answer": "Đồ vật & nơi chốn trong công viên"
+        },
+        {
+          "id": 2,
+          "word": "peaceful",
+          "answer": "Tính từ mô tả công viên"
+        },
+        {
+          "id": 3,
+          "word": "stroll",
+          "answer": "Hoạt động trong công viên"
+        },
+        {
+          "id": 4,
+          "word": "pond",
+          "answer": "Đồ vật & nơi chốn trong công viên"
+        },
+        {
+          "id": 5,
+          "word": "jog",
+          "answer": "Hoạt động trong công viên"
+        },
+        {
+          "id": 6,
+          "word": "fresh",
+          "answer": "Tính từ mô tả công viên"
+        },
+        {
+          "id": 7,
+          "word": "fountain",
+          "answer": "Đồ vật & nơi chốn trong công viên"
+        },
+        {
+          "id": 8,
+          "word": "play",
+          "answer": "Hoạt động trong công viên"
+        },
+        {
+          "id": 9,
+          "word": "open",
+          "answer": "Tính từ mô tả công viên"
+        },
+        {
+          "id": 10,
+          "word": "shade",
+          "answer": "Đồ vật & nơi chốn trong công viên"
+        }
+      ]
     }
   },
   "answer_key": {

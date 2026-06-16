@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "bond" },
-        { "id": 2, "word": "forgive" },
-        { "id": 3, "word": "argument" },
-        { "id": 4, "word": "support" },
-        { "id": 5, "word": "honest" }
+        {
+          "id": 1,
+          "word": "bond"
+        },
+        {
+          "id": 2,
+          "word": "forgive"
+        },
+        {
+          "id": 3,
+          "word": "argument"
+        },
+        {
+          "id": 4,
+          "word": "support"
+        },
+        {
+          "id": 5,
+          "word": "honest"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to stop being angry with someone and no longer hold their mistake against them" },
-        { "id": "B", "text": "to help someone through a difficult time and give them encouragement" },
-        { "id": "C", "text": "a strong connection between two people that makes them feel close" },
-        { "id": "D", "text": "a disagreement or quarrel between two or more people" },
-        { "id": "E", "text": "always telling the truth and not hiding information from others" }
+        {
+          "id": "A",
+          "text": "to stop being angry with someone and no longer hold their mistake against them"
+        },
+        {
+          "id": "B",
+          "text": "to help someone through a difficult time and give them encouragement"
+        },
+        {
+          "id": "C",
+          "text": "a strong connection between two people that makes them feel close"
+        },
+        {
+          "id": "D",
+          "text": "a disagreement or quarrel between two or more people"
+        },
+        {
+          "id": "E",
+          "text": "always telling the truth and not hiding information from others"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She is a very _____ person — she never tells lies and always says what she thinks.",
-          "options": ["honest", "kind", "close", "true"],
+          "options": [
+            "honest",
+            "kind",
+            "close",
+            "true"
+          ],
           "answer": "honest"
         },
         {
           "id": 2,
           "sentence": "We had a small _____ but said sorry quickly — now everything is fine.",
-          "options": ["bond", "trust", "argument", "laugh"],
+          "options": [
+            "bond",
+            "trust",
+            "argument",
+            "laugh"
+          ],
           "answer": "argument"
         },
         {
           "id": 3,
           "sentence": "Good friends _____ each other when they feel sad or worried.",
-          "options": ["forget", "miss", "argue", "support"],
+          "options": [
+            "forget",
+            "miss",
+            "argue",
+            "support"
+          ],
           "answer": "support"
         },
         {
           "id": 4,
           "sentence": "It is important to _____ your friends — never share their secrets with others.",
-          "options": ["miss", "trust", "meet", "forgive"],
+          "options": [
+            "miss",
+            "trust",
+            "meet",
+            "forgive"
+          ],
           "answer": "trust"
         },
         {
           "id": 5,
           "sentence": "I really _____ my friend when she moved to another city.",
-          "options": ["forgot", "missed", "argued", "trusted"],
+          "options": [
+            "forgot",
+            "missed",
+            "argued",
+            "trusted"
+          ],
           "answer": "missed"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["close", "support", "laugh", "together", "honest", "bond"],
+      "word_bank": [
+        "close",
+        "support",
+        "laugh",
+        "together",
+        "honest",
+        "bond"
+      ],
       "items": [
-        { "id": 1, "sentence": "My best friend and I always walk to school _____.", "answer": "together" },
-        { "id": 2, "sentence": "She is very _____ with me — she tells me the truth even when it is hard to hear.", "answer": "honest" },
-        { "id": 3, "sentence": "We often _____ at the same funny videos online.", "answer": "laugh" },
-        { "id": 4, "sentence": "Good friends _____ each other through good times and bad.", "answer": "support" },
-        { "id": 5, "sentence": "I feel very _____ to her — she knows everything about me.", "answer": "close" }
+        {
+          "id": 1,
+          "sentence": "My best friend and I always walk to school _____.",
+          "answer": "together"
+        },
+        {
+          "id": 2,
+          "sentence": "She is very _____ with me — she tells me the truth even when it is hard to hear.",
+          "answer": "honest"
+        },
+        {
+          "id": 3,
+          "sentence": "We often _____ at the same funny videos online.",
+          "answer": "laugh"
+        },
+        {
+          "id": 4,
+          "sentence": "Good friends _____ each other through good times and bad.",
+          "answer": "support"
+        },
+        {
+          "id": 5,
+          "sentence": "I feel very _____ to her — she knows everything about me.",
+          "answer": "close"
+        }
       ],
       "note": "One word in the box is not used: bond"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "My best friend always [argues] me when I feel sad or worried.",
           "highlighted": "argues",
-          "options": { "A": "argues", "B": "supports", "C": "misses" },
+          "options": {
+            "A": "argues",
+            "B": "supports",
+            "C": "misses"
+          },
           "answer": "B",
           "explanation": "'Argue' means to disagree or quarrel with someone. When a friend helps you feel better when you are sad, they 'support' you — not argue with you."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "A good friend keeps your [laughter] and never tells it to others.",
           "highlighted": "laughter",
-          "options": { "A": "secret", "B": "laughter", "C": "trust" },
+          "options": {
+            "A": "secret",
+            "B": "laughter",
+            "C": "trust"
+          },
           "answer": "A",
           "explanation": "'Laughter' is the sound or act of laughing — it is not something private. Something you share privately with a friend and must never tell others is a 'secret'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "After our [bond], we said sorry to each other and became close again.",
           "highlighted": "bond",
-          "options": { "A": "trust", "B": "laugh", "C": "argument" },
+          "options": {
+            "A": "trust",
+            "B": "laugh",
+            "C": "argument"
+          },
           "answer": "C",
           "explanation": "A 'bond' is a positive connection between people. The sentence describes a situation where they needed to apologise — this is the result of an 'argument', not a bond."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "Good friends [meet] each other even when they live far apart.",
           "highlighted": "meet",
-          "options": { "A": "forget", "B": "miss", "C": "meet" },
+          "options": {
+            "A": "forget",
+            "B": "miss",
+            "C": "meet"
+          },
           "answer": "B",
           "explanation": "If friends live far apart, they cannot easily meet in person. The correct word is 'miss' — to feel sad because someone you care about is not with you."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "She is very [forgetful] — she always says what she really thinks and never lies.",
           "highlighted": "forgetful",
-          "options": { "A": "honest", "B": "forgetful", "C": "kind" },
+          "options": {
+            "A": "honest",
+            "B": "forgetful",
+            "C": "kind"
+          },
           "answer": "A",
           "explanation": "'Forgetful' means often forgetting things — it has nothing to do with telling the truth. Someone who always says what they think and never lies is 'honest'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "kind",
+            "honest",
+            "true",
+            "trust"
+          ],
+          "answer": "trust",
+          "reason": "kind, honest, and true are adjectives describing a person's character. 'trust' is a verb — the action of believing in someone.",
+          "reason_vi": "kind, honest và true đều là tính từ mô tả tính cách. 'trust' là động từ — hành động tin tưởng vào ai đó."
+        },
+        {
+          "id": 2,
+          "words": [
+            "friend",
+            "bond",
+            "support",
+            "argument"
+          ],
+          "answer": "argument",
+          "reason": "friend, bond, and support are all positive parts of a friendship. 'argument' is a disagreement — it causes conflict, not connection.",
+          "reason_vi": "friend, bond và support đều là những khía cạnh tích cực của tình bạn. 'argument' là mâu thuẫn — gây xung đột, không phải gắn kết."
+        },
+        {
+          "id": 3,
+          "words": [
+            "laugh",
+            "meet",
+            "forgive",
+            "bond"
+          ],
+          "answer": "bond",
+          "reason": "laugh, meet, and forgive are verbs — actions you do in a friendship. 'bond' is a noun — the connection between two people.",
+          "reason_vi": "laugh, meet và forgive đều là động từ — hành động trong tình bạn. 'bond' là danh từ — sự kết nối giữa hai người."
+        },
+        {
+          "id": 4,
+          "words": [
+            "kind",
+            "honest",
+            "close",
+            "laugh"
+          ],
+          "answer": "laugh",
+          "reason": "kind, honest, and close are adjectives describing a good friend. 'laugh' is a verb — an action you do together.",
+          "reason_vi": "kind, honest và close đều là tính từ mô tả người bạn tốt. 'laugh' là động từ — hành động bạn cùng nhau thực hiện."
+        },
+        {
+          "id": 5,
+          "words": [
+            "friend",
+            "support",
+            "trust",
+            "miss"
+          ],
+          "answer": "miss",
+          "reason": "friend, support, and trust are positive things you have in a friendship. 'miss' is a feeling of sadness — the longing you feel when a friend is away.",
+          "reason_vi": "friend, support và trust đều là những điều tích cực trong tình bạn. 'miss' là cảm giác buồn — nỗi nhớ khi bạn vắng mặt."
+        },
+        {
+          "id": 6,
+          "words": [
+            "laugh",
+            "forgive",
+            "meet",
+            "together"
+          ],
+          "answer": "together",
+          "reason": "laugh, forgive, and meet are verbs — actions in a friendship. 'together' is an adverb — it describes how you do something, not an action itself.",
+          "reason_vi": "laugh, forgive và meet đều là động từ — hành động trong tình bạn. 'together' là trạng từ — mô tả cách bạn làm gì đó, không phải bản thân hành động."
+        },
+        {
+          "id": 7,
+          "words": [
+            "honest",
+            "close",
+            "kind",
+            "remember"
+          ],
+          "answer": "remember",
+          "reason": "honest, close, and kind are adjectives describing a person's character. 'remember' is a verb — the mental act of keeping someone in your thoughts.",
+          "reason_vi": "honest, close và kind đều là tính từ mô tả tính cách. 'remember' là động từ — hành động tâm trí ghi nhớ ai đó."
+        },
+        {
+          "id": 8,
+          "words": [
+            "trust",
+            "support",
+            "meet",
+            "close"
+          ],
+          "answer": "close",
+          "reason": "trust, support, and meet are verbs — things you do in a friendship. 'close' is an adjective — it describes how deep or near a relationship is.",
+          "reason_vi": "trust, support và meet đều là động từ — hành động trong tình bạn. 'close' là tính từ — mô tả mức độ thân thiết của mối quan hệ."
+        },
+        {
+          "id": 9,
+          "words": [
+            "bond",
+            "support",
+            "trust",
+            "friend"
+          ],
+          "answer": "friend",
+          "reason": "bond, support, and trust are abstract qualities or acts of friendship. 'friend' is a person — the one you share these things with.",
+          "reason_vi": "bond, support và trust đều là phẩm chất hoặc hành động trừu tượng của tình bạn. 'friend' là người — người bạn chia sẻ những điều này."
+        },
+        {
+          "id": 10,
+          "words": [
+            "remember",
+            "miss",
+            "laugh",
+            "forgive"
+          ],
+          "answer": "forgive",
+          "reason": "remember, miss, and laugh all relate to positive feelings or happy memories. 'forgive' involves healing after a hurt or conflict — a different kind of act.",
+          "reason_vi": "remember, miss và laugh đều liên quan đến cảm xúc tích cực hoặc kỷ niệm vui. 'forgive' là hành động hàn gắn sau mâu thuẫn hoặc tổn thương — một loại hành động khác."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "D", "4": "B", "5": "E" },
-    "ex2": { "1": "honest", "2": "argument", "3": "support", "4": "trust", "5": "missed" },
-    "ex3": { "1": "together", "2": "honest", "3": "laugh", "4": "support", "5": "close" },
-    "ex4": { "1": "kindly", "2": "honestly", "3": "friendship", "4": "trusted", "5": "supportive" },
-    "ex5": { "1": "B", "2": "A", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "D",
+      "4": "B",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "honest",
+      "2": "argument",
+      "3": "support",
+      "4": "trust",
+      "5": "missed"
+    },
+    "ex3": {
+      "1": "together",
+      "2": "honest",
+      "3": "laugh",
+      "4": "support",
+      "5": "close"
+    },
+    "ex4": {
+      "1": "kindly",
+      "2": "honestly",
+      "3": "friendship",
+      "4": "trusted",
+      "5": "supportive"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

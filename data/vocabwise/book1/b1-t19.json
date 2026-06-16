@@ -559,6 +559,67 @@
           "explanation": "The sentence says sushi is 'eaten fresh and unheated'. This describes 'raw' (not cooked) fish. Sushi is famous for using raw fish, not cooked fish."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Món ăn",
+        "Hương vị",
+        "Dụng cụ & hoạt động nấu ăn"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "noodle",
+          "answer": "Món ăn"
+        },
+        {
+          "id": 2,
+          "word": "spicy",
+          "answer": "Hương vị"
+        },
+        {
+          "id": 3,
+          "word": "bread",
+          "answer": "Món ăn"
+        },
+        {
+          "id": 4,
+          "word": "sweet",
+          "answer": "Hương vị"
+        },
+        {
+          "id": 5,
+          "word": "chopstick",
+          "answer": "Dụng cụ & hoạt động nấu ăn"
+        },
+        {
+          "id": 6,
+          "word": "sour",
+          "answer": "Hương vị"
+        },
+        {
+          "id": 7,
+          "word": "soup",
+          "answer": "Món ăn"
+        },
+        {
+          "id": 8,
+          "word": "plate",
+          "answer": "Dụng cụ & hoạt động nấu ăn"
+        },
+        {
+          "id": 9,
+          "word": "salty",
+          "answer": "Hương vị"
+        },
+        {
+          "id": 10,
+          "word": "cook",
+          "answer": "Dụng cụ & hoạt động nấu ăn"
+        }
+      ]
     }
   },
   "answer_key": {

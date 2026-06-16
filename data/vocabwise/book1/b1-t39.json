@@ -314,18 +314,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "outcome" },
-        { "id": 2, "word": "trial" },
-        { "id": 3, "word": "observe" },
-        { "id": 4, "word": "measure" },
-        { "id": 5, "word": "record" }
+        {
+          "id": 1,
+          "word": "outcome"
+        },
+        {
+          "id": 2,
+          "word": "trial"
+        },
+        {
+          "id": 3,
+          "word": "observe"
+        },
+        {
+          "id": 4,
+          "word": "measure"
+        },
+        {
+          "id": 5,
+          "word": "record"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to look at something carefully and pay attention to what happens" },
-        { "id": "B", "text": "to write down information so that it can be remembered or checked later" },
-        { "id": "C", "text": "the result of an experiment or test" },
-        { "id": "D", "text": "an attempt to do something in order to find out if it works" },
-        { "id": "E", "text": "to find the size, amount, or degree of something using a tool or instrument" }
+        {
+          "id": "A",
+          "text": "to look at something carefully and pay attention to what happens"
+        },
+        {
+          "id": "B",
+          "text": "to write down information so that it can be remembered or checked later"
+        },
+        {
+          "id": "C",
+          "text": "the result of an experiment or test"
+        },
+        {
+          "id": "D",
+          "text": "an attempt to do something in order to find out if it works"
+        },
+        {
+          "id": "E",
+          "text": "to find the size, amount, or degree of something using a tool or instrument"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -335,31 +365,56 @@
         {
           "id": 1,
           "sentence": "Always be _____ when you use hot water — it can burn your hands.",
-          "options": ["safe", "careful", "cold", "liquid"],
+          "options": [
+            "safe",
+            "careful",
+            "cold",
+            "liquid"
+          ],
           "answer": "careful"
         },
         {
           "id": 2,
           "sentence": "We poured the _____ slowly into the glass so we could watch it closely.",
-          "options": ["outcome", "trial", "liquid", "record"],
+          "options": [
+            "outcome",
+            "trial",
+            "liquid",
+            "record"
+          ],
           "answer": "liquid"
         },
         {
           "id": 3,
           "sentence": "The teacher told us to _____ every number in our science notebook.",
-          "options": ["watch", "change", "find", "record"],
+          "options": [
+            "watch",
+            "change",
+            "find",
+            "record"
+          ],
           "answer": "record"
         },
         {
           "id": 4,
           "sentence": "Our first _____ did not work, so we tried again with different amounts.",
-          "options": ["step", "trial", "change", "outcome"],
+          "options": [
+            "step",
+            "trial",
+            "change",
+            "outcome"
+          ],
           "answer": "trial"
         },
         {
           "id": 5,
           "sentence": "We were excited to _____ the final result of our science experiment.",
-          "options": ["measure", "record", "find", "observe"],
+          "options": [
+            "measure",
+            "record",
+            "find",
+            "observe"
+          ],
           "answer": "find"
         }
       ]
@@ -367,13 +422,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["experiment", "safe", "step", "change", "observe", "measure"],
+      "word_bank": [
+        "experiment",
+        "safe",
+        "step",
+        "change",
+        "observe",
+        "measure"
+      ],
       "items": [
-        { "id": 1, "sentence": "Follow each _____ carefully so you do not make a mistake.", "answer": "step" },
-        { "id": 2, "sentence": "We use a ruler to _____ the length of each object.", "answer": "measure" },
-        { "id": 3, "sentence": "Our science _____ showed that cold water cools hot liquid quickly.", "answer": "experiment" },
-        { "id": 4, "sentence": "The students were quiet so they could _____ what happened in the glass.", "answer": "observe" },
-        { "id": 5, "sentence": "A big _____ happened when we added the powder to the liquid.", "answer": "change" }
+        {
+          "id": 1,
+          "sentence": "Follow each _____ carefully so you do not make a mistake.",
+          "answer": "step"
+        },
+        {
+          "id": 2,
+          "sentence": "We use a ruler to _____ the length of each object.",
+          "answer": "measure"
+        },
+        {
+          "id": 3,
+          "sentence": "Our science _____ showed that cold water cools hot liquid quickly.",
+          "answer": "experiment"
+        },
+        {
+          "id": 4,
+          "sentence": "The students were quiet so they could _____ what happened in the glass.",
+          "answer": "observe"
+        },
+        {
+          "id": 5,
+          "sentence": "A big _____ happened when we added the powder to the liquid.",
+          "answer": "change"
+        }
       ],
       "note": "One word in the box is not used: safe"
     },
@@ -426,7 +508,11 @@
           "id": 1,
           "sentence": "We need to [watch] the temperature of the liquid before and after heating.",
           "highlighted": "watch",
-          "options": { "A": "observe", "B": "watch", "C": "measure" },
+          "options": {
+            "A": "observe",
+            "B": "watch",
+            "C": "measure"
+          },
           "answer": "C",
           "explanation": "'Watch' means to look at something. However, to find out the exact temperature of a liquid, you need to 'measure' it — using a thermometer or other instrument."
         },
@@ -434,7 +520,11 @@
           "id": 2,
           "sentence": "The [outcome] of the experiment is to add hot water and cold water together.",
           "highlighted": "outcome",
-          "options": { "A": "step", "B": "outcome", "C": "trial" },
+          "options": {
+            "A": "step",
+            "B": "outcome",
+            "C": "trial"
+          },
           "answer": "A",
           "explanation": "The 'outcome' is the result at the end — not a part of the process. Adding hot and cold water is a 'step' — an action you follow in order during the experiment."
         },
@@ -442,7 +532,11 @@
           "id": 3,
           "sentence": "Always stay [careful] when using scissors or hot equipment in the lab.",
           "highlighted": "careful",
-          "options": { "A": "safe", "B": "careful", "C": "cold" },
+          "options": {
+            "A": "safe",
+            "B": "careful",
+            "C": "cold"
+          },
           "answer": "A",
           "explanation": "While 'careful' describes how you behave, the correct word here is 'safe' — which describes the condition of not being in danger. You 'stay safe', not 'stay careful'."
         },
@@ -450,7 +544,11 @@
           "id": 4,
           "sentence": "After the experiment, we had to [find] all our results in a table.",
           "highlighted": "find",
-          "options": { "A": "observe", "B": "change", "C": "record" },
+          "options": {
+            "A": "observe",
+            "B": "change",
+            "C": "record"
+          },
           "answer": "C",
           "explanation": "'Find' means to discover something. Writing results into a table means you are 'recording' them — saving the information in an organised way."
         },
@@ -458,18 +556,178 @@
           "id": 5,
           "sentence": "The water turned to steam — that was an unexpected [trial] of heat.",
           "highlighted": "trial",
-          "options": { "A": "trial", "B": "change", "C": "step" },
+          "options": {
+            "A": "trial",
+            "B": "change",
+            "C": "step"
+          },
           "answer": "B",
           "explanation": "A 'trial' is an attempt or test. Steam forming from water is not a trial — it is a physical 'change', the result of applying heat to a liquid."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "observe",
+            "watch",
+            "find",
+            "liquid"
+          ],
+          "answer": "liquid",
+          "reason": "observe, watch, and find are verbs — actions you perform during an experiment. 'liquid' is a noun — a physical substance that flows, like water or oil.",
+          "reason_vi": "observe, watch và find đều là động từ — hành động bạn thực hiện trong thí nghiệm. 'liquid' là danh từ — chất lỏng vật lý như nước hoặc dầu."
+        },
+        {
+          "id": 2,
+          "words": [
+            "cold",
+            "hot",
+            "liquid",
+            "change"
+          ],
+          "answer": "change",
+          "reason": "cold, hot, and liquid are all physical states or properties — ways of describing matter. 'change' is a verb or noun describing a process — something that happens over time, not a state.",
+          "reason_vi": "cold, hot và liquid đều là trạng thái hoặc tính chất vật lý — cách mô tả vật chất. 'change' là động từ hoặc danh từ mô tả quá trình — thứ xảy ra theo thời gian, không phải trạng thái."
+        },
+        {
+          "id": 3,
+          "words": [
+            "observe",
+            "measure",
+            "record",
+            "safe"
+          ],
+          "answer": "safe",
+          "reason": "observe, measure, and record are verbs — actions you perform during an experiment. 'safe' is an adjective — it describes a condition or environment, not an action.",
+          "reason_vi": "observe, measure và record đều là động từ — hành động trong thí nghiệm. 'safe' là tính từ — mô tả điều kiện hoặc môi trường, không phải hành động."
+        },
+        {
+          "id": 4,
+          "words": [
+            "step",
+            "trial",
+            "outcome",
+            "observe"
+          ],
+          "answer": "observe",
+          "reason": "step, trial, and outcome are nouns — parts of the experiment process (stages and results). 'observe' is a verb — the action of watching closely to gather information.",
+          "reason_vi": "step, trial và outcome đều là danh từ — các bộ phận của quá trình thí nghiệm. 'observe' là động từ — hành động quan sát kỹ để thu thập thông tin."
+        },
+        {
+          "id": 5,
+          "words": [
+            "cold",
+            "hot",
+            "safe",
+            "experiment"
+          ],
+          "answer": "experiment",
+          "reason": "cold, hot, and safe are adjectives — they describe the conditions or properties in an investigation. 'experiment' is a noun — the entire scientific activity itself.",
+          "reason_vi": "cold, hot và safe đều là tính từ — mô tả điều kiện hoặc tính chất trong cuộc điều tra. 'experiment' là danh từ — toàn bộ hoạt động khoa học."
+        },
+        {
+          "id": 6,
+          "words": [
+            "observe",
+            "watch",
+            "measure",
+            "outcome"
+          ],
+          "answer": "outcome",
+          "reason": "observe, watch, and measure are verbs — things you actively do during an experiment. 'outcome' is a noun — the result that happens at the end, not an action.",
+          "reason_vi": "observe, watch và measure đều là động từ — thứ bạn chủ động làm trong thí nghiệm. 'outcome' là danh từ — kết quả xảy ra ở cuối, không phải hành động."
+        },
+        {
+          "id": 7,
+          "words": [
+            "experiment",
+            "trial",
+            "step",
+            "careful"
+          ],
+          "answer": "careful",
+          "reason": "experiment, trial, and step are nouns for parts of a scientific investigation. 'careful' is an adjective — it describes how you should behave, not a stage of the process.",
+          "reason_vi": "experiment, trial và step đều là danh từ cho các phần của cuộc điều tra khoa học. 'careful' là tính từ — mô tả cách bạn nên hành xử, không phải giai đoạn của quá trình."
+        },
+        {
+          "id": 8,
+          "words": [
+            "observe",
+            "find",
+            "measure",
+            "cold"
+          ],
+          "answer": "cold",
+          "reason": "observe, find, and measure are verbs — things you do to investigate and gather data. 'cold' is an adjective — it describes a temperature, not an action.",
+          "reason_vi": "observe, find và measure đều là động từ — thứ bạn làm để điều tra và thu thập dữ liệu. 'cold' là tính từ — mô tả nhiệt độ, không phải hành động."
+        },
+        {
+          "id": 9,
+          "words": [
+            "record",
+            "find",
+            "change",
+            "liquid"
+          ],
+          "answer": "liquid",
+          "reason": "record, find, and change are verbs — actions or processes in an experiment. 'liquid' is a noun — a physical substance you might use or observe in the experiment.",
+          "reason_vi": "record, find và change đều là động từ — hành động hoặc quá trình trong thí nghiệm. 'liquid' là danh từ — chất lỏng vật lý bạn có thể dùng hoặc quan sát."
+        },
+        {
+          "id": 10,
+          "words": [
+            "safe",
+            "careful",
+            "hot",
+            "measure"
+          ],
+          "answer": "measure",
+          "reason": "safe, careful, and hot are adjectives — they describe conditions or qualities. 'measure' is a verb — the action of finding out the size, amount, or temperature of something.",
+          "reason_vi": "safe, careful và hot đều là tính từ — mô tả điều kiện hoặc chất lượng. 'measure' là động từ — hành động tìm ra kích thước, lượng hoặc nhiệt độ của thứ gì đó."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "D", "3": "A", "4": "E", "5": "B" },
-    "ex2": { "1": "careful", "2": "liquid", "3": "record", "4": "trial", "5": "find" },
-    "ex3": { "1": "step", "2": "measure", "3": "experiment", "4": "observe", "5": "change" },
-    "ex4": { "1": "carefully", "2": "observation", "3": "measurable", "4": "safely", "5": "experiments" },
-    "ex5": { "1": "C", "2": "A", "3": "A", "4": "C", "5": "B" }
+    "ex1": {
+      "1": "C",
+      "2": "D",
+      "3": "A",
+      "4": "E",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "careful",
+      "2": "liquid",
+      "3": "record",
+      "4": "trial",
+      "5": "find"
+    },
+    "ex3": {
+      "1": "step",
+      "2": "measure",
+      "3": "experiment",
+      "4": "observe",
+      "5": "change"
+    },
+    "ex4": {
+      "1": "carefully",
+      "2": "observation",
+      "3": "measurable",
+      "4": "safely",
+      "5": "experiments"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
   }
 }

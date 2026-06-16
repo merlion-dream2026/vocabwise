@@ -22,7 +22,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
       .order('para_index'),
     supabase
       .from('vw_glossary')
-      .select('item_order, word, ipa, pos, collocation, meaning_vi, example_en, example_vi, word_family, false_friend, receptive_productive, item_type')
+      .select('item_order, word, ipa, pos, meaning_vi, example_en, example_vi, word_family, false_friend, receptive_productive, item_type')
       .eq('topic_id', topicId)
       .order('item_order'),
     supabase
@@ -72,7 +72,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
       word:                 g.word,
       ipa:                  g.ipa,
       pos:                  g.pos,
-      collocation:          g.collocation ?? undefined,
+      collocation:          g.item_type === 'collocation' ? g.word : undefined,
       meaning_vi:           g.meaning_vi ?? '',
       example_en:           g.example_en ?? '',
       example_vi:           g.example_vi ?? '',

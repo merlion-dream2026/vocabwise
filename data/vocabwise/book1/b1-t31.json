@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "timetable" },
-        { "id": 2, "word": "canteen" },
-        { "id": 3, "word": "uniform" },
-        { "id": 4, "word": "corridor" },
-        { "id": 5, "word": "break" }
+        {
+          "id": 1,
+          "word": "timetable"
+        },
+        {
+          "id": 2,
+          "word": "canteen"
+        },
+        {
+          "id": 3,
+          "word": "uniform"
+        },
+        {
+          "id": 4,
+          "word": "corridor"
+        },
+        {
+          "id": 5,
+          "word": "break"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a set of clothes that all students at a school must wear" },
-        { "id": "B", "text": "a short rest period between lessons when students can eat or play" },
-        { "id": "C", "text": "a long narrow passage inside a school building that connects rooms" },
-        { "id": "D", "text": "a place inside a school where students can buy food and drinks" },
-        { "id": "E", "text": "a chart that shows which subjects are studied on which days and times" }
+        {
+          "id": "A",
+          "text": "a set of clothes that all students at a school must wear"
+        },
+        {
+          "id": "B",
+          "text": "a short rest period between lessons when students can eat or play"
+        },
+        {
+          "id": "C",
+          "text": "a long narrow passage inside a school building that connects rooms"
+        },
+        {
+          "id": "D",
+          "text": "a place inside a school where students can buy food and drinks"
+        },
+        {
+          "id": "E",
+          "text": "a chart that shows which subjects are studied on which days and times"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "The teacher uses _____ to write on the blackboard, and it leaves white dust on her hands.",
-          "options": ["chalk", "pen", "pencil", "rule"],
+          "options": [
+            "chalk",
+            "pen",
+            "pencil",
+            "rule"
+          ],
           "answer": "chalk"
         },
         {
           "id": 2,
           "sentence": "Every student must follow this _____: no mobile phones during lessons.",
-          "options": ["bell", "board", "desk", "rule"],
+          "options": [
+            "bell",
+            "board",
+            "desk",
+            "rule"
+          ],
           "answer": "rule"
         },
         {
           "id": 3,
           "sentence": "When the _____ rings at the end of the lesson, students pack their bags and leave.",
-          "options": ["chalk", "pencil", "bell", "chair"],
+          "options": [
+            "chalk",
+            "pencil",
+            "bell",
+            "chair"
+          ],
           "answer": "bell"
         },
         {
           "id": 4,
           "sentence": "Look at your _____ — we have geography next, not history.",
-          "options": ["canteen", "gate", "uniform", "timetable"],
+          "options": [
+            "canteen",
+            "gate",
+            "uniform",
+            "timetable"
+          ],
           "answer": "timetable"
         },
         {
           "id": 5,
           "sentence": "She drew the diagram with a _____ so she could erase and correct any mistakes.",
-          "options": ["corridor", "pencil", "chair", "gate"],
+          "options": [
+            "corridor",
+            "pencil",
+            "chair",
+            "gate"
+          ],
           "answer": "pencil"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["board", "desk", "break", "gate", "canteen", "uniform"],
+      "word_bank": [
+        "board",
+        "desk",
+        "break",
+        "gate",
+        "canteen",
+        "uniform"
+      ],
       "items": [
-        { "id": 1, "sentence": "The teacher asked us to copy the sentences from the _____ into our notebooks.", "answer": "board" },
-        { "id": 2, "sentence": "Please put your pencil case on your _____ before the lesson begins.", "answer": "desk" },
-        { "id": 3, "sentence": "During the lunch _____, we go outside to eat and chat with friends.", "answer": "break" },
-        { "id": 4, "sentence": "After school, the students waited at the school _____ for their parents.", "answer": "gate" },
-        { "id": 5, "sentence": "The _____ sells sandwiches, juice, and fruit every day at lunchtime.", "answer": "canteen" }
+        {
+          "id": 1,
+          "sentence": "The teacher asked us to copy the sentences from the _____ into our notebooks.",
+          "answer": "board"
+        },
+        {
+          "id": 2,
+          "sentence": "Please put your pencil case on your _____ before the lesson begins.",
+          "answer": "desk"
+        },
+        {
+          "id": 3,
+          "sentence": "During the lunch _____, we go outside to eat and chat with friends.",
+          "answer": "break"
+        },
+        {
+          "id": 4,
+          "sentence": "After school, the students waited at the school _____ for their parents.",
+          "answer": "gate"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ sells sandwiches, juice, and fruit every day at lunchtime.",
+          "answer": "canteen"
+        }
       ],
       "note": "One word in the box is not used: uniform"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "The teacher wrote the homework on the [corridor] so all the students could copy it down.",
           "highlighted": "corridor",
-          "options": { "A": "corridor", "B": "canteen", "C": "board" },
+          "options": {
+            "A": "corridor",
+            "B": "canteen",
+            "C": "board"
+          },
           "answer": "C",
           "explanation": "A 'corridor' is a passageway connecting rooms — you cannot write on it. Teachers write on the 'board' at the front of the classroom for students to see and copy."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "After the [bell] rings at lunchtime, students walk to the canteen to buy food.",
           "highlighted": "bell",
-          "options": { "A": "gate", "B": "bell", "C": "desk" },
+          "options": {
+            "A": "gate",
+            "B": "bell",
+            "C": "desk"
+          },
           "answer": "B",
           "explanation": "This sentence is correct — the 'bell' signals the end of a lesson or the start of lunchtime. 'Bell' is the right word here and no change is needed."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "All students at this school must wear a [timetable] — a white shirt and dark trousers.",
           "highlighted": "timetable",
-          "options": { "A": "uniform", "B": "rule", "C": "timetable" },
+          "options": {
+            "A": "uniform",
+            "B": "rule",
+            "C": "timetable"
+          },
           "answer": "A",
           "explanation": "A 'timetable' is a chart showing lesson times — you cannot wear it. The clothes that all students must wear at school is called a 'uniform'."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "She sharpened her [pen] because the point had worn down and she could not write neatly.",
           "highlighted": "pen",
-          "options": { "A": "chalk", "B": "pen", "C": "pencil" },
+          "options": {
+            "A": "chalk",
+            "B": "pen",
+            "C": "pencil"
+          },
           "answer": "C",
           "explanation": "A 'pen' uses ink and does not need to be sharpened. A 'pencil' has a wooden tip that wears down and needs to be sharpened to write neatly."
         },
@@ -455,18 +553,113 @@
           "id": 5,
           "sentence": "During the morning [desk], students go outside to play and buy snacks from the canteen.",
           "highlighted": "desk",
-          "options": { "A": "break", "B": "desk", "C": "gate" },
+          "options": {
+            "A": "break",
+            "B": "desk",
+            "C": "gate"
+          },
           "answer": "A",
           "explanation": "A 'desk' is a piece of furniture for studying — students sit at it, they do not 'go outside during' it. The correct word is 'break', which is the short rest period between lessons."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Đồ dùng học tập",
+        "Nơi chốn trong trường",
+        "Quy tắc & lịch trình"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "pen",
+          "answer": "Đồ dùng học tập"
+        },
+        {
+          "id": 2,
+          "word": "corridor",
+          "answer": "Nơi chốn trong trường"
+        },
+        {
+          "id": 3,
+          "word": "chalk",
+          "answer": "Đồ dùng học tập"
+        },
+        {
+          "id": 4,
+          "word": "timetable",
+          "answer": "Quy tắc & lịch trình"
+        },
+        {
+          "id": 5,
+          "word": "desk",
+          "answer": "Đồ dùng học tập"
+        },
+        {
+          "id": 6,
+          "word": "canteen",
+          "answer": "Nơi chốn trong trường"
+        },
+        {
+          "id": 7,
+          "word": "bell",
+          "answer": "Quy tắc & lịch trình"
+        },
+        {
+          "id": 8,
+          "word": "pencil",
+          "answer": "Đồ dùng học tập"
+        },
+        {
+          "id": 9,
+          "word": "gate",
+          "answer": "Nơi chốn trong trường"
+        },
+        {
+          "id": 10,
+          "word": "uniform",
+          "answer": "Quy tắc & lịch trình"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "D", "3": "A", "4": "C", "5": "B" },
-    "ex2": { "1": "chalk", "2": "rule", "3": "bell", "4": "timetable", "5": "pencil" },
-    "ex3": { "1": "board", "2": "desk", "3": "break", "4": "gate", "5": "canteen" },
-    "ex4": { "1": "uniformly", "2": "broke", "3": "board", "4": "timetabled", "5": "pencilled" },
-    "ex5": { "1": "C", "2": "B", "3": "A", "4": "C", "5": "A" }
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "chalk",
+      "2": "rule",
+      "3": "bell",
+      "4": "timetable",
+      "5": "pencil"
+    },
+    "ex3": {
+      "1": "board",
+      "2": "desk",
+      "3": "break",
+      "4": "gate",
+      "5": "canteen"
+    },
+    "ex4": {
+      "1": "uniformly",
+      "2": "broke",
+      "3": "board",
+      "4": "timetabled",
+      "5": "pencilled"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "B",
+      "3": "A",
+      "4": "C",
+      "5": "A"
+    }
   }
 }

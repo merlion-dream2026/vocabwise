@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "loyal" },
-        { "id": 2, "word": "generous" },
-        { "id": 3, "word": "grateful" },
-        { "id": 4, "word": "encourage" },
-        { "id": 5, "word": "comfort" }
+        {
+          "id": 1,
+          "word": "loyal"
+        },
+        {
+          "id": 2,
+          "word": "generous"
+        },
+        {
+          "id": 3,
+          "word": "grateful"
+        },
+        {
+          "id": 4,
+          "word": "encourage"
+        },
+        {
+          "id": 5,
+          "word": "comfort"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to give someone confidence to continue; to support someone's efforts" },
-        { "id": "B", "text": "feeling thankful for something someone has done for you" },
-        { "id": "C", "text": "always supporting someone even when things are difficult; faithful" },
-        { "id": "D", "text": "to make someone feel less sad or worried; to give emotional support" },
-        { "id": "E", "text": "willing to give your time, money, or help freely and without hesitation" }
+        {
+          "id": "A",
+          "text": "to give someone confidence to continue; to support someone's efforts"
+        },
+        {
+          "id": "B",
+          "text": "feeling thankful for something someone has done for you"
+        },
+        {
+          "id": "C",
+          "text": "always supporting someone even when things are difficult; faithful"
+        },
+        {
+          "id": "D",
+          "text": "to make someone feel less sad or worried; to give emotional support"
+        },
+        {
+          "id": "E",
+          "text": "willing to give your time, money, or help freely and without hesitation"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She gave me very good _____ about what to do — I followed it and things improved.",
-          "options": ["comfort", "company", "advice", "secret"],
+          "options": [
+            "comfort",
+            "company",
+            "advice",
+            "secret"
+          ],
           "answer": "advice"
         },
         {
           "id": 2,
           "sentence": "A good friend keeps your _____ and never tells anyone, even when they are angry with you.",
-          "options": ["company", "secret", "advice", "comfort"],
+          "options": [
+            "company",
+            "secret",
+            "advice",
+            "comfort"
+          ],
           "answer": "secret"
         },
         {
           "id": 3,
           "sentence": "After their argument, they _____ the next day — they hugged and everything was fine.",
-          "options": ["made up", "stood by", "checked on", "encouraged"],
+          "options": [
+            "made up",
+            "stood by",
+            "checked on",
+            "encouraged"
+          ],
           "answer": "made up"
         },
         {
           "id": 4,
           "sentence": "He always _____ me when I am unwell — he calls, sends food, and asks if I need anything.",
-          "options": ["apologises", "misses", "checks on", "argues"],
+          "options": [
+            "apologises",
+            "misses",
+            "checks on",
+            "argues"
+          ],
           "answer": "checks on"
         },
         {
           "id": 5,
           "sentence": "I am so _____ for everything she has done — she helped me when nobody else did.",
-          "options": ["generous", "grateful", "loyal", "comfortable"],
+          "options": [
+            "generous",
+            "grateful",
+            "loyal",
+            "comfortable"
+          ],
           "answer": "grateful"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["apologise", "encourage", "loyal", "stand by", "company", "miss"],
+      "word_bank": [
+        "apologise",
+        "encourage",
+        "loyal",
+        "stand by",
+        "company",
+        "miss"
+      ],
       "items": [
-        { "id": 1, "sentence": "A true friend will always _____ you, even when others walk away.", "answer": "stand by" },
-        { "id": 2, "sentence": "She always _____ me to try my best — she says I can do anything if I believe in myself.", "answer": "encourage" },
-        { "id": 3, "sentence": "She is a very _____ friend — she never betrays my trust or says bad things about me.", "answer": "loyal" },
-        { "id": 4, "sentence": "He called to _____ for missing my birthday — he felt very bad about forgetting.", "answer": "apologise" },
-        { "id": 5, "sentence": "I really _____ her when she travels abroad — life feels much quieter without her.", "answer": "miss" }
+        {
+          "id": 1,
+          "sentence": "A true friend will always _____ you, even when others walk away.",
+          "answer": "stand by"
+        },
+        {
+          "id": 2,
+          "sentence": "She always _____ me to try my best — she says I can do anything if I believe in myself.",
+          "answer": "encourage"
+        },
+        {
+          "id": 3,
+          "sentence": "She is a very _____ friend — she never betrays my trust or says bad things about me.",
+          "answer": "loyal"
+        },
+        {
+          "id": 4,
+          "sentence": "He called to _____ for missing my birthday — he felt very bad about forgetting.",
+          "answer": "apologise"
+        },
+        {
+          "id": 5,
+          "sentence": "I really _____ her when she travels abroad — life feels much quieter without her.",
+          "answer": "miss"
+        }
       ],
       "note": "One word in the box is not used: company"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "A good friend always [ignores] you when you feel sad — they sit with you and listen carefully.",
           "highlighted": "ignores",
-          "options": { "A": "comforts", "B": "ignores", "C": "misses" },
+          "options": {
+            "A": "comforts",
+            "B": "ignores",
+            "C": "misses"
+          },
           "answer": "A",
           "explanation": "'Ignores' means to pay no attention to someone. A friend who sits with you and listens carefully when you are sad is 'comforting' you, not ignoring you."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "After their [loyalty], they said sorry to each other and became close friends again.",
           "highlighted": "loyalty",
-          "options": { "A": "secret", "B": "loyalty", "C": "argument" },
+          "options": {
+            "A": "secret",
+            "B": "loyalty",
+            "C": "argument"
+          },
           "answer": "C",
           "explanation": "'Loyalty' is a positive quality — it means being faithful. Something that leads to saying sorry and rebuilding a friendship is an 'argument', not loyalty."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "She never [argues] when she makes a mistake — she just walks away without saying sorry.",
           "highlighted": "argues",
-          "options": { "A": "argues", "B": "apologises", "C": "misses" },
+          "options": {
+            "A": "argues",
+            "B": "apologises",
+            "C": "misses"
+          },
           "answer": "B",
           "explanation": "'Argues' means to quarrel or disagree. The sentence describes someone who never says sorry — the correct word is 'apologises', which is what she fails to do."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "I am very [sorry] for all the help she gave me — she is truly a wonderful friend.",
           "highlighted": "sorry",
-          "options": { "A": "grateful", "B": "sorry", "C": "generous" },
+          "options": {
+            "A": "grateful",
+            "B": "sorry",
+            "C": "generous"
+          },
           "answer": "A",
           "explanation": "'Sorry' expresses regret for something bad. The sentence expresses a positive feeling — thankfulness for someone's help. The correct word is 'grateful'."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "My best friend is very [selfish] — she always shares her food, time, and help with everyone.",
           "highlighted": "selfish",
-          "options": { "A": "loyal", "B": "selfish", "C": "generous" },
+          "options": {
+            "A": "loyal",
+            "B": "selfish",
+            "C": "generous"
+          },
           "answer": "C",
           "explanation": "'Selfish' means thinking only of yourself. Someone who freely shares food, time, and help with others is 'generous', which is the opposite of selfish."
+        }
+      ]
+    },
+    "ex6_sub": {
+      "type": "E_SUB",
+      "instruction": "Choose the word closest in meaning to the underlined word.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is a very **loyal** friend.",
+          "highlighted": "loyal",
+          "options": [
+            "faithful",
+            "lazy",
+            "quiet",
+            "rude"
+          ],
+          "answer": "faithful"
+        },
+        {
+          "id": 2,
+          "sentence": "He gave me some useful **advice**.",
+          "highlighted": "advice",
+          "options": [
+            "guidance",
+            "noise",
+            "argument",
+            "game"
+          ],
+          "answer": "guidance"
+        },
+        {
+          "id": 3,
+          "sentence": "She offered **comfort** when I was sad.",
+          "highlighted": "comfort",
+          "options": [
+            "support",
+            "noise",
+            "money",
+            "food"
+          ],
+          "answer": "support"
+        },
+        {
+          "id": 4,
+          "sentence": "I am **grateful** for your help.",
+          "highlighted": "grateful",
+          "options": [
+            "thankful",
+            "sorry",
+            "tired",
+            "hungry"
+          ],
+          "answer": "thankful"
+        },
+        {
+          "id": 5,
+          "sentence": "They **argued** about the plan.",
+          "highlighted": "argued",
+          "options": [
+            "disagreed",
+            "played",
+            "laughed",
+            "agreed"
+          ],
+          "answer": "disagreed"
+        },
+        {
+          "id": 6,
+          "sentence": "She **encourages** me to try new things.",
+          "highlighted": "encourages",
+          "options": [
+            "supports",
+            "stops",
+            "ignores",
+            "forgets"
+          ],
+          "answer": "supports"
+        },
+        {
+          "id": 7,
+          "sentence": "He is a very **generous** person.",
+          "highlighted": "generous",
+          "options": [
+            "giving",
+            "lazy",
+            "quiet",
+            "serious"
+          ],
+          "answer": "giving"
+        },
+        {
+          "id": 8,
+          "sentence": "They keep each other's **secrets**.",
+          "highlighted": "secrets",
+          "options": [
+            "private matters",
+            "news",
+            "stories",
+            "games"
+          ],
+          "answer": "private matters"
+        },
+        {
+          "id": 9,
+          "sentence": "She needs some **company** tonight.",
+          "highlighted": "company",
+          "options": [
+            "companionship",
+            "food",
+            "sleep",
+            "work"
+          ],
+          "answer": "companionship"
+        },
+        {
+          "id": 10,
+          "sentence": "He **stands by** his friends no matter what.",
+          "highlighted": "stands by",
+          "options": [
+            "supports",
+            "ignores",
+            "leaves",
+            "forgets"
+          ],
+          "answer": "supports"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "E", "3": "B", "4": "A", "5": "D" },
-    "ex2": { "1": "advice", "2": "secret", "3": "made up", "4": "checks on", "5": "grateful" },
-    "ex3": { "1": "stand by", "2": "encourage", "3": "loyal", "4": "apologise", "5": "miss" },
-    "ex4": { "1": "gratefully", "2": "generosity", "3": "apologetically", "4": "encouraging", "5": "loyalty" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "B",
+      "4": "A",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "advice",
+      "2": "secret",
+      "3": "made up",
+      "4": "checks on",
+      "5": "grateful"
+    },
+    "ex3": {
+      "1": "stand by",
+      "2": "encourage",
+      "3": "loyal",
+      "4": "apologise",
+      "5": "miss"
+    },
+    "ex4": {
+      "1": "gratefully",
+      "2": "generosity",
+      "3": "apologetically",
+      "4": "encouraging",
+      "5": "loyalty"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

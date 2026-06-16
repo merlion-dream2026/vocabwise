@@ -574,6 +574,82 @@
           "explanation": "No apostrophe is needed here. 'A paper bag' is simply a noun — no possession is expressed."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do these pairs of sentences have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The shoes were too expensive for me to buy.",
+          "b": "The shoes were too cheap for me to buy.",
+          "answer": "D",
+          "explanation": "'expensive' means costing a lot of money; 'cheap' means costing very little. These are opposites — the sentences have completely different meanings."
+        },
+        {
+          "id": 2,
+          "a": "She purchased a new jacket at the store.",
+          "b": "She bought a new jacket at the store.",
+          "answer": "S",
+          "explanation": "'purchase' and 'buy' mean the same thing — to give money in exchange for something. 'purchase' is simply more formal."
+        },
+        {
+          "id": 3,
+          "a": "Can I pay for the bag here?",
+          "b": "Can I choose the bag here?",
+          "answer": "D",
+          "explanation": "'pay' means to give money for something; 'choose' means to select or decide. These describe completely different actions."
+        },
+        {
+          "id": 4,
+          "a": "What is the price of this shirt?",
+          "b": "How much does this shirt cost?",
+          "answer": "S",
+          "explanation": "Both sentences ask for the same information — how much money the shirt is. 'price' (noun) and 'cost' (verb) express the same idea in different grammatical forms."
+        },
+        {
+          "id": 5,
+          "a": "She is the customer.",
+          "b": "She is the person who sells.",
+          "answer": "D",
+          "explanation": "A 'customer' is someone who buys things; the person who 'sells' is the seller or shop assistant. These are opposite roles in a transaction."
+        },
+        {
+          "id": 6,
+          "a": "The bag is very cheap.",
+          "b": "The bag does not cost much money.",
+          "answer": "S",
+          "explanation": "Both sentences say the bag has a low price. 'cheap' and 'does not cost much' express the same idea."
+        },
+        {
+          "id": 7,
+          "a": "He wants to buy the shoes.",
+          "b": "He wants to sell the shoes.",
+          "answer": "D",
+          "explanation": "'buy' means to get something by paying money; 'sell' means to give something to someone who pays you. These are opposite actions."
+        },
+        {
+          "id": 8,
+          "a": "She checked her receipt after paying.",
+          "b": "She looked at her proof of purchase after paying.",
+          "answer": "S",
+          "explanation": "A 'receipt' is a document that proves you paid for something — the same as 'proof of purchase'. Both sentences describe the same action."
+        },
+        {
+          "id": 9,
+          "a": "What size do you need?",
+          "b": "What is the cost?",
+          "answer": "D",
+          "explanation": "'size' refers to how big or small something is (small, medium, large). 'cost' refers to the price. These are completely different pieces of information."
+        },
+        {
+          "id": 10,
+          "a": "She went to the store to buy clothes.",
+          "b": "She went to the shop to buy clothes.",
+          "answer": "S",
+          "explanation": "'store' and 'shop' both refer to a place where you can buy things. In everyday English, they mean the same thing."
+        }
+      ]
     }
   },
   "answer_key": {

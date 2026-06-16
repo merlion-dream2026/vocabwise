@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "muscular" },
-        { "id": 2, "word": "overweight" },
-        { "id": 3, "word": "appearance" },
-        { "id": 4, "word": "similar" },
-        { "id": 5, "word": "thin" }
+        {
+          "id": 1,
+          "word": "muscular"
+        },
+        {
+          "id": 2,
+          "word": "overweight"
+        },
+        {
+          "id": 3,
+          "word": "appearance"
+        },
+        {
+          "id": 4,
+          "word": "similar"
+        },
+        {
+          "id": 5,
+          "word": "thin"
+        }
       ],
       "options": [
-        { "id": "A", "text": "looking almost the same as someone or something else" },
-        { "id": "B", "text": "having too much body fat; heavier than is healthy" },
-        { "id": "C", "text": "having large, strong muscles from exercise or physical work" },
-        { "id": "D", "text": "the way a person or thing looks on the outside" },
-        { "id": "E", "text": "having very little body fat; slim and light in build" }
+        {
+          "id": "A",
+          "text": "looking almost the same as someone or something else"
+        },
+        {
+          "id": "B",
+          "text": "having too much body fat; heavier than is healthy"
+        },
+        {
+          "id": "C",
+          "text": "having large, strong muscles from exercise or physical work"
+        },
+        {
+          "id": "D",
+          "text": "the way a person or thing looks on the outside"
+        },
+        {
+          "id": "E",
+          "text": "having very little body fat; slim and light in build"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "My father is very _____ — he goes to the gym every day and has very big arms.",
-          "options": ["muscular", "tall", "thin", "old"],
+          "options": [
+            "muscular",
+            "tall",
+            "thin",
+            "old"
+          ],
           "answer": "muscular"
         },
         {
           "id": 2,
           "sentence": "She has long, dark _____ that reaches all the way down to her waist.",
-          "options": ["face", "hair", "eye", "smile"],
+          "options": [
+            "face",
+            "hair",
+            "eye",
+            "smile"
+          ],
           "answer": "hair"
         },
         {
           "id": 3,
           "sentence": "People say I look very _____ to my mother — we have the same nose and eyes.",
-          "options": ["old", "similar", "beautiful", "tall"],
+          "options": [
+            "old",
+            "similar",
+            "beautiful",
+            "tall"
+          ],
           "answer": "similar"
         },
         {
           "id": 4,
           "sentence": "He _____ a blue school uniform and carries a black bag every day.",
-          "options": ["looks", "smiles", "wears", "appears"],
+          "options": [
+            "looks",
+            "smiles",
+            "wears",
+            "appears"
+          ],
           "answer": "wears"
         },
         {
           "id": 5,
           "sentence": "His _____ changed a lot after he started exercising — he looks much healthier now.",
-          "options": ["smile", "hair", "eye", "appearance"],
+          "options": [
+            "smile",
+            "hair",
+            "eye",
+            "appearance"
+          ],
           "answer": "appearance"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["tall", "old", "smile", "beautiful", "face", "thin"],
+      "word_bank": [
+        "tall",
+        "old",
+        "smile",
+        "beautiful",
+        "face",
+        "thin"
+      ],
       "items": [
-        { "id": 1, "sentence": "My uncle is very _____ — he is nearly two metres high.", "answer": "tall" },
-        { "id": 2, "sentence": "She has a lovely _____ — everyone feels welcome when she grins at them.", "answer": "smile" },
-        { "id": 3, "sentence": "My grandmother is quite _____ now, but she still walks to the market every morning.", "answer": "old" },
-        { "id": 4, "sentence": "The city has many _____ old buildings that are famous all over the world.", "answer": "beautiful" },
-        { "id": 5, "sentence": "She has a kind _____ — her eyes are warm and her cheeks are round.", "answer": "face" }
+        {
+          "id": 1,
+          "sentence": "My uncle is very _____ — he is nearly two metres high.",
+          "answer": "tall"
+        },
+        {
+          "id": 2,
+          "sentence": "She has a lovely _____ — everyone feels welcome when she grins at them.",
+          "answer": "smile"
+        },
+        {
+          "id": 3,
+          "sentence": "My grandmother is quite _____ now, but she still walks to the market every morning.",
+          "answer": "old"
+        },
+        {
+          "id": 4,
+          "sentence": "The city has many _____ old buildings that are famous all over the world.",
+          "answer": "beautiful"
+        },
+        {
+          "id": 5,
+          "sentence": "She has a kind _____ — her eyes are warm and her cheeks are round.",
+          "answer": "face"
+        }
       ],
       "note": "One word in the box is not used: thin"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "My brother is very [short] — he plays basketball and can reach the highest shelf easily.",
           "highlighted": "short",
-          "options": { "A": "young", "B": "short", "C": "tall" },
+          "options": {
+            "A": "young",
+            "B": "short",
+            "C": "tall"
+          },
           "answer": "C",
           "explanation": "'Short' means not very tall. Someone who plays basketball well and can easily reach the highest shelf must be 'tall', not short."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "She has long dark [eye] that reaches all the way down to her waist.",
           "highlighted": "eye",
-          "options": { "A": "hair", "B": "eye", "C": "face" },
+          "options": {
+            "A": "hair",
+            "B": "eye",
+            "C": "face"
+          },
           "answer": "A",
           "explanation": "'Eye' is the part of the face used for seeing — it does not grow or reach the waist. Something long and dark that grows and reaches the waist is 'hair'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "After losing a lot of weight, he is now quite [young] — he was quite heavy before.",
           "highlighted": "young",
-          "options": { "A": "young", "B": "thin", "C": "tall" },
+          "options": {
+            "A": "young",
+            "B": "thin",
+            "C": "tall"
+          },
           "answer": "B",
           "explanation": "'Young' describes age, not body weight. Someone who has lost a lot of weight and was previously heavy is now 'thin', not young."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "My father is [thin] and strong — he goes to the gym every day and has very big arms.",
           "highlighted": "thin",
-          "options": { "A": "overweight", "B": "thin", "C": "muscular" },
+          "options": {
+            "A": "overweight",
+            "B": "thin",
+            "C": "muscular"
+          },
           "answer": "C",
           "explanation": "'Thin' means having little body fat. Someone who goes to the gym daily and has very big arms is 'muscular' — that is the correct word for a strong, well-built body."
         },
@@ -452,18 +550,128 @@
           "id": 5,
           "sentence": "People say I look very [different] to my sister — we have the same eyes, nose, and face shape.",
           "highlighted": "different",
-          "options": { "A": "similar", "B": "beautiful", "C": "different" },
+          "options": {
+            "A": "similar",
+            "B": "beautiful",
+            "C": "different"
+          },
           "answer": "A",
           "explanation": "'Different' means not the same. If two people share the same eyes, nose, and face shape, they look 'similar' — not different. The two ideas contradict each other."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She has beautiful eyes.",
+          "b": "She has lovely eyes.",
+          "answer": "S",
+          "explanation": "Beautiful and lovely both describe something that looks very good. They can replace each other in most sentences about appearance."
+        },
+        {
+          "id": 2,
+          "a": "He wears glasses every day.",
+          "b": "He puts on glasses every day.",
+          "answer": "S",
+          "explanation": "\"Wear\" and \"put on\" both describe having glasses on your face. In everyday use, these two sentences mean the same thing."
+        },
+        {
+          "id": 3,
+          "a": "Her appearance is very neat.",
+          "b": "She looks very neat.",
+          "answer": "S",
+          "explanation": "Both sentences say that she looks tidy and well-presented. \"Appearance is neat\" and \"looks neat\" express the same idea."
+        },
+        {
+          "id": 4,
+          "a": "They look very similar.",
+          "b": "They look very alike.",
+          "answer": "S",
+          "explanation": "Similar and alike both mean that two people share many of the same features. They are near-synonyms in the context of describing people."
+        },
+        {
+          "id": 5,
+          "a": "She has a warm smile.",
+          "b": "She has a nice smile.",
+          "answer": "S",
+          "explanation": "Warm and nice both describe a smile in a positive way. Both sentences compliment the same thing about her face."
+        },
+        {
+          "id": 6,
+          "a": "He is tall and athletic.",
+          "b": "He is short and athletic.",
+          "answer": "D",
+          "explanation": "Tall and short are opposites. Tall means above average height; short means below average height. These describe very different bodies."
+        },
+        {
+          "id": 7,
+          "a": "She looks young for her age.",
+          "b": "She looks old for her age.",
+          "answer": "D",
+          "explanation": "Young and old describe opposite stages of life. Someone who looks young appears less than their age; someone who looks old appears more than their age."
+        },
+        {
+          "id": 8,
+          "a": "He is thin and energetic.",
+          "b": "He is overweight and energetic.",
+          "answer": "D",
+          "explanation": "Thin and overweight describe opposite body types. A thin person has little body fat; an overweight person has more body weight than is typical."
+        },
+        {
+          "id": 9,
+          "a": "She has long, dark hair.",
+          "b": "She has big, bright eyes.",
+          "answer": "D",
+          "explanation": "Hair and eyes are different parts of the face. The sentences describe completely different physical features, so they do not mean the same thing."
+        },
+        {
+          "id": 10,
+          "a": "She is young and full of energy.",
+          "b": "She is beautiful and full of energy.",
+          "answer": "D",
+          "explanation": "Young describes age; beautiful describes how someone looks. These are different types of descriptions, so the sentences have different meanings."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "B", "3": "D", "4": "A", "5": "E" },
-    "ex2": { "1": "muscular", "2": "hair", "3": "similar", "4": "wears", "5": "appearance" },
-    "ex3": { "1": "tall", "2": "smile", "3": "old", "4": "beautiful", "5": "face" },
-    "ex4": { "1": "beautifully", "2": "appearance", "3": "similarity", "4": "muscular", "5": "smiled" },
-    "ex5": { "1": "C", "2": "A", "3": "B", "4": "C", "5": "A" }
+    "ex1": {
+      "1": "C",
+      "2": "B",
+      "3": "D",
+      "4": "A",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "muscular",
+      "2": "hair",
+      "3": "similar",
+      "4": "wears",
+      "5": "appearance"
+    },
+    "ex3": {
+      "1": "tall",
+      "2": "smile",
+      "3": "old",
+      "4": "beautiful",
+      "5": "face"
+    },
+    "ex4": {
+      "1": "beautifully",
+      "2": "appearance",
+      "3": "similarity",
+      "4": "muscular",
+      "5": "smiled"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
   }
 }

@@ -571,6 +571,67 @@
           "explanation": "'Usually' (adverb) modifies the verb 'wakes up'. 'Usual' is an adjective, not an adverb."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Put each word into the correct group.",
+      "categories": [
+        "Meals",
+        "Times of day",
+        "Adverbs"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "breakfast",
+          "answer": "Meals"
+        },
+        {
+          "id": 2,
+          "word": "morning",
+          "answer": "Times of day"
+        },
+        {
+          "id": 3,
+          "word": "early",
+          "answer": "Adverbs"
+        },
+        {
+          "id": 4,
+          "word": "lunch",
+          "answer": "Meals"
+        },
+        {
+          "id": 5,
+          "word": "afternoon",
+          "answer": "Times of day"
+        },
+        {
+          "id": 6,
+          "word": "late",
+          "answer": "Adverbs"
+        },
+        {
+          "id": 7,
+          "word": "dinner",
+          "answer": "Meals"
+        },
+        {
+          "id": 8,
+          "word": "evening",
+          "answer": "Times of day"
+        },
+        {
+          "id": 9,
+          "word": "always",
+          "answer": "Adverbs"
+        },
+        {
+          "id": 10,
+          "word": "usually",
+          "answer": "Adverbs"
+        }
+      ]
     }
   },
   "answer_key": {

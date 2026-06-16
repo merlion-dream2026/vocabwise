@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "ambition" },
-        { "id": 2, "word": "independent" },
-        { "id": 3, "word": "teenager" },
-        { "id": 4, "word": "brave" },
-        { "id": 5, "word": "memory" }
+        {
+          "id": 1,
+          "word": "ambition"
+        },
+        {
+          "id": 2,
+          "word": "independent"
+        },
+        {
+          "id": 3,
+          "word": "teenager"
+        },
+        {
+          "id": 4,
+          "word": "brave"
+        },
+        {
+          "id": 5,
+          "word": "memory"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a strong desire to achieve something important in your life" },
-        { "id": "B", "text": "something from the past that you remember; the ability to recall information" },
-        { "id": "C", "text": "a young person between the ages of 13 and 19" },
-        { "id": "D", "text": "willing to do difficult or dangerous things without being afraid" },
-        { "id": "E", "text": "not needing help from others; able to do things on your own" }
+        {
+          "id": "A",
+          "text": "a strong desire to achieve something important in your life"
+        },
+        {
+          "id": "B",
+          "text": "something from the past that you remember; the ability to recall information"
+        },
+        {
+          "id": "C",
+          "text": "a young person between the ages of 13 and 19"
+        },
+        {
+          "id": "D",
+          "text": "willing to do difficult or dangerous things without being afraid"
+        },
+        {
+          "id": "E",
+          "text": "not needing help from others; able to do things on your own"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She is very _____ — she does her homework, cooks her own meals, and manages her time well.",
-          "options": ["brave", "young", "independent", "ambitious"],
+          "options": [
+            "brave",
+            "young",
+            "independent",
+            "ambitious"
+          ],
           "answer": "independent"
         },
         {
           "id": 2,
           "sentence": "My favourite _____ from childhood is flying kites with my grandfather at the park.",
-          "options": ["ambition", "memory", "future", "game"],
+          "options": [
+            "ambition",
+            "memory",
+            "future",
+            "game"
+          ],
           "answer": "memory"
         },
         {
           "id": 3,
           "sentence": "It takes a _____ person to stand up and speak in front of the whole school.",
-          "options": ["young", "brave", "adult", "future"],
+          "options": [
+            "young",
+            "brave",
+            "adult",
+            "future"
+          ],
           "answer": "brave"
         },
         {
           "id": 4,
           "sentence": "Her _____ is to become a scientist and discover something that helps the world.",
-          "options": ["memory", "age", "game", "ambition"],
+          "options": [
+            "memory",
+            "age",
+            "game",
+            "ambition"
+          ],
           "answer": "ambition"
         },
         {
           "id": 5,
           "sentence": "I think a lot about my _____ — what job I will have and where I will live.",
-          "options": ["memory", "game", "future", "child"],
+          "options": [
+            "memory",
+            "game",
+            "future",
+            "child"
+          ],
           "answer": "future"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["grow", "teenager", "change", "learn", "adult", "hope"],
+      "word_bank": [
+        "grow",
+        "teenager",
+        "change",
+        "learn",
+        "adult",
+        "hope"
+      ],
       "items": [
-        { "id": 1, "sentence": "Children _____ very fast — before you know it, they are taller than you.", "answer": "grow" },
-        { "id": 2, "sentence": "As a _____, I sometimes feel stuck between being a child and an adult.", "answer": "teenager" },
-        { "id": 3, "sentence": "I _____ something new every day — at school, at home, and from the people I meet.", "answer": "learn" },
-        { "id": 4, "sentence": "A lot of things _____ when you move from primary to secondary school.", "answer": "change" },
-        { "id": 5, "sentence": "I _____ to become a kind and successful person when I grow up.", "answer": "hope" }
+        {
+          "id": 1,
+          "sentence": "Children _____ very fast — before you know it, they are taller than you.",
+          "answer": "grow"
+        },
+        {
+          "id": 2,
+          "sentence": "As a _____, I sometimes feel stuck between being a child and an adult.",
+          "answer": "teenager"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ something new every day — at school, at home, and from the people I meet.",
+          "answer": "learn"
+        },
+        {
+          "id": 4,
+          "sentence": "A lot of things _____ when you move from primary to secondary school.",
+          "answer": "change"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ to become a kind and successful person when I grow up.",
+          "answer": "hope"
+        }
       ],
       "note": "One word in the box is not used: adult"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "She is only twelve years old — she is still a [adult], not yet grown up.",
           "highlighted": "adult",
-          "options": { "A": "adult", "B": "teenager", "C": "child" },
+          "options": {
+            "A": "adult",
+            "B": "teenager",
+            "C": "child"
+          },
           "answer": "C",
           "explanation": "An 'adult' is a fully grown person. Someone who is twelve years old is still a 'child', not an adult."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "My [hope] is to become a doctor — it is a big dream but I believe I can do it.",
           "highlighted": "hope",
-          "options": { "A": "memory", "B": "ambition", "C": "hope" },
+          "options": {
+            "A": "memory",
+            "B": "ambition",
+            "C": "hope"
+          },
           "answer": "B",
           "explanation": "'Hope' is a feeling or a wish. A strong goal or dream that you are working towards is an 'ambition'. The sentence describes a career goal, not just a wish."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "I always feel [dependent] when I travel alone — I can handle everything by myself.",
           "highlighted": "dependent",
-          "options": { "A": "young", "B": "dependent", "C": "independent" },
+          "options": {
+            "A": "young",
+            "B": "dependent",
+            "C": "independent"
+          },
           "answer": "C",
           "explanation": "'Dependent' means relying on others for help. Someone who handles everything alone and travels by themselves is 'independent', not dependent."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She has a happy [future] from her school days — playing in the garden with her cousins.",
           "highlighted": "future",
-          "options": { "A": "memory", "B": "future", "C": "ambition" },
+          "options": {
+            "A": "memory",
+            "B": "future",
+            "C": "ambition"
+          },
           "answer": "A",
           "explanation": "'Future' refers to the time ahead. Something from your school days is in the past, not the future. A pleasant thought about the past is a 'memory'."
         },
@@ -452,18 +550,128 @@
           "id": 5,
           "sentence": "The little girl was very [afraid] — she climbed the highest tree and rescued the kitten all by herself.",
           "highlighted": "afraid",
-          "options": { "A": "afraid", "B": "young", "C": "brave" },
+          "options": {
+            "A": "afraid",
+            "B": "young",
+            "C": "brave"
+          },
           "answer": "C",
           "explanation": "'Afraid' means scared and unwilling to act. Someone who climbs a high tree alone to rescue a kitten is acting without fear — that is 'brave', not afraid."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She has big hopes for the future.",
+          "b": "She has big ambitions for the future.",
+          "answer": "S",
+          "explanation": "Hope and ambition both describe a strong desire for something good in the future. In everyday use, these two sentences carry the same basic meaning."
+        },
+        {
+          "id": 2,
+          "a": "Children grow up very quickly.",
+          "b": "Children change very quickly.",
+          "answer": "S",
+          "explanation": "In this context, \"grow up\" and \"change\" both describe how children develop and become different as they get older. The sentences mean essentially the same thing."
+        },
+        {
+          "id": 3,
+          "a": "She is a teenager.",
+          "b": "She is an adult.",
+          "answer": "D",
+          "explanation": "A teenager is between 13 and 19 years old. An adult is fully grown, usually 18 or over. These describe very different life stages."
+        },
+        {
+          "id": 4,
+          "a": "He acted in a brave way.",
+          "b": "He acted in an independent way.",
+          "answer": "D",
+          "explanation": "Brave means facing something scary without giving up. Independent means doing things without relying on others. These describe different kinds of behaviour."
+        },
+        {
+          "id": 5,
+          "a": "She has a happy memory of childhood.",
+          "b": "She has a strong memory of childhood.",
+          "answer": "D",
+          "explanation": "A happy memory is a pleasant recollection. A strong memory means it is vivid and clear. These describe different qualities of the same memory."
+        },
+        {
+          "id": 6,
+          "a": "He is young and full of hope.",
+          "b": "He is a child and full of hope.",
+          "answer": "S",
+          "explanation": "In this context, young and child both describe someone at an early stage of life. The sentences suggest the same idea — a person who is not yet grown up."
+        },
+        {
+          "id": 7,
+          "a": "She wants to be independent one day.",
+          "b": "She wants to grow up one day.",
+          "answer": "S",
+          "explanation": "Becoming independent and growing up are closely linked ideas. Both suggest the same desire — to become a self-reliant adult in the future."
+        },
+        {
+          "id": 8,
+          "a": "He changed a lot this year.",
+          "b": "He learned a lot this year.",
+          "answer": "D",
+          "explanation": "Change means becoming different in some way. Learn means gaining knowledge or skill. You can change without learning, and learn without changing — they are different things."
+        },
+        {
+          "id": 9,
+          "a": "She is a brave child.",
+          "b": "She is a young child.",
+          "answer": "D",
+          "explanation": "Brave describes personality — someone who is not afraid. Young describes age. These tell us completely different things about the child."
+        },
+        {
+          "id": 10,
+          "a": "He has great ambition.",
+          "b": "He has great hope.",
+          "answer": "S",
+          "explanation": "Ambition and hope both describe a strong desire for a better future. While ambition suggests a more specific goal, in casual use these sentences carry very similar meanings."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "A", "2": "E", "3": "C", "4": "D", "5": "B" },
-    "ex2": { "1": "independent", "2": "memory", "3": "brave", "4": "ambition", "5": "future" },
-    "ex3": { "1": "grow", "2": "teenager", "3": "learn", "4": "change", "5": "hope" },
-    "ex4": { "1": "bravely", "2": "ambitious", "3": "learned / learnt", "4": "independence", "5": "hope / are hoping" },
-    "ex5": { "1": "C", "2": "B", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "A",
+      "2": "E",
+      "3": "C",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "independent",
+      "2": "memory",
+      "3": "brave",
+      "4": "ambition",
+      "5": "future"
+    },
+    "ex3": {
+      "1": "grow",
+      "2": "teenager",
+      "3": "learn",
+      "4": "change",
+      "5": "hope"
+    },
+    "ex4": {
+      "1": "bravely",
+      "2": "ambitious",
+      "3": "learned / learnt",
+      "4": "independence",
+      "5": "hope / are hoping"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

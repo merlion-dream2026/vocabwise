@@ -565,6 +565,132 @@
           "explanation": "'My favourite meal is ...' — the singular subject requires a singular noun: 'meal', not 'meals'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "vegetable",
+            "fruit",
+            "meat",
+            "eat"
+          ],
+          "answer": "eat",
+          "reason": "vegetable, fruit, and meat are types of food. 'eat' is a verb — something you do with food.",
+          "reason_vi": "vegetable, fruit và meat đều là các loại thực phẩm. 'eat' là động từ — hành động bạn làm với thức ăn."
+        },
+        {
+          "id": 2,
+          "words": [
+            "rice",
+            "meat",
+            "fruit",
+            "cook"
+          ],
+          "answer": "cook",
+          "reason": "rice, meat, and fruit are foods you can eat. 'cook' is a verb — an action you do to prepare food.",
+          "reason_vi": "rice, meat và fruit đều là thức ăn. 'cook' là động từ — hành động bạn làm để chuẩn bị thức ăn."
+        },
+        {
+          "id": 3,
+          "words": [
+            "hungry",
+            "fresh",
+            "delicious",
+            "meal"
+          ],
+          "answer": "meal",
+          "reason": "hungry, fresh, and delicious are adjectives. 'meal' is a noun — a time when you eat food.",
+          "reason_vi": "hungry, fresh và delicious đều là tính từ. 'meal' là danh từ — bữa ăn."
+        },
+        {
+          "id": 4,
+          "words": [
+            "market",
+            "water",
+            "fruit",
+            "eat"
+          ],
+          "answer": "eat",
+          "reason": "market, water, and fruit are nouns (things or places). 'eat' is a verb.",
+          "reason_vi": "market, water và fruit đều là danh từ. 'eat' là động từ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "vegetable",
+            "fruit",
+            "rice",
+            "drink"
+          ],
+          "answer": "drink",
+          "reason": "vegetable, fruit, and rice are solid foods. 'drink' is a verb (or refers to a liquid), not a solid food.",
+          "reason_vi": "vegetable, fruit và rice đều là thức ăn rắn. 'drink' là động từ (hoặc chỉ chất lỏng), không phải thức ăn rắn."
+        },
+        {
+          "id": 6,
+          "words": [
+            "eat",
+            "cook",
+            "buy",
+            "water"
+          ],
+          "answer": "water",
+          "reason": "eat, cook, and buy are verbs (actions). 'water' is a noun — a liquid.",
+          "reason_vi": "eat, cook và buy đều là động từ (hành động). 'water' là danh từ — một loại chất lỏng."
+        },
+        {
+          "id": 7,
+          "words": [
+            "hungry",
+            "delicious",
+            "fresh",
+            "cook"
+          ],
+          "answer": "cook",
+          "reason": "hungry, delicious, and fresh are adjectives describing how food feels or tastes. 'cook' is a verb.",
+          "reason_vi": "hungry, delicious và fresh đều là tính từ mô tả cảm giác hoặc hương vị. 'cook' là động từ."
+        },
+        {
+          "id": 8,
+          "words": [
+            "meat",
+            "rice",
+            "fruit",
+            "taste"
+          ],
+          "answer": "taste",
+          "reason": "meat, rice, and fruit are solid foods. 'taste' is a verb (to taste something) or a noun (the taste of food).",
+          "reason_vi": "meat, rice và fruit đều là thức ăn rắn. 'taste' là động từ (nếm) hoặc danh từ (hương vị)."
+        },
+        {
+          "id": 9,
+          "words": [
+            "fresh",
+            "delicious",
+            "hungry",
+            "vegetable"
+          ],
+          "answer": "vegetable",
+          "reason": "fresh, delicious, and hungry are adjectives. 'vegetable' is a noun — a type of food.",
+          "reason_vi": "fresh, delicious và hungry đều là tính từ. 'vegetable' là danh từ — một loại thực phẩm."
+        },
+        {
+          "id": 10,
+          "words": [
+            "eat",
+            "cook",
+            "buy",
+            "market"
+          ],
+          "answer": "market",
+          "reason": "eat, cook, and buy are verbs (actions). 'market' is a noun — a place where you buy things.",
+          "reason_vi": "eat, cook và buy đều là động từ (hành động). 'market' là danh từ — nơi bạn mua đồ."
+        }
+      ]
     }
   },
   "answer_key": {

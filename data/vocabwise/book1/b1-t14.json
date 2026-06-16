@@ -559,6 +559,132 @@
           "explanation": "'Tourism' is an uncountable noun for the industry. People who visit are 'tourists' (plural, countable)."
         }
       ]
+    },
+    "ex6_sub": {
+      "type": "E_SUB",
+      "instruction": "Choose the word closest in meaning to the underlined word.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The trip was **thrilling**.",
+          "highlighted": "thrilling",
+          "options": [
+            "exciting",
+            "boring",
+            "tiring",
+            "ordinary"
+          ],
+          "answer": "exciting"
+        },
+        {
+          "id": 2,
+          "sentence": "She speaks a **foreign** language.",
+          "highlighted": "foreign",
+          "options": [
+            "different",
+            "local",
+            "easy",
+            "common"
+          ],
+          "answer": "different"
+        },
+        {
+          "id": 3,
+          "sentence": "We plan to **visit** the old city.",
+          "highlighted": "visit",
+          "options": [
+            "explore",
+            "leave",
+            "build",
+            "clean"
+          ],
+          "answer": "explore"
+        },
+        {
+          "id": 4,
+          "sentence": "He is a **tourist** here.",
+          "highlighted": "tourist",
+          "options": [
+            "visitor",
+            "driver",
+            "student",
+            "worker"
+          ],
+          "answer": "visitor"
+        },
+        {
+          "id": 5,
+          "sentence": "The **culture** here is very rich.",
+          "highlighted": "culture",
+          "options": [
+            "customs",
+            "weather",
+            "sport",
+            "noise"
+          ],
+          "answer": "customs"
+        },
+        {
+          "id": 6,
+          "sentence": "I need a **ticket** to get on the train.",
+          "highlighted": "ticket",
+          "options": [
+            "pass",
+            "book",
+            "bag",
+            "map"
+          ],
+          "answer": "pass"
+        },
+        {
+          "id": 7,
+          "sentence": "She tried to learn the **language** of the country.",
+          "highlighted": "language",
+          "options": [
+            "tongue",
+            "music",
+            "dress",
+            "food"
+          ],
+          "answer": "tongue"
+        },
+        {
+          "id": 8,
+          "sentence": "It was a **different** experience from home.",
+          "highlighted": "different",
+          "options": [
+            "unique",
+            "same",
+            "boring",
+            "easy"
+          ],
+          "answer": "unique"
+        },
+        {
+          "id": 9,
+          "sentence": "We stayed at a nice **hotel** near the beach.",
+          "highlighted": "hotel",
+          "options": [
+            "guesthouse",
+            "park",
+            "café",
+            "school"
+          ],
+          "answer": "guesthouse"
+        },
+        {
+          "id": 10,
+          "sentence": "The **map** helped us find our way.",
+          "highlighted": "map",
+          "options": [
+            "guide",
+            "photo",
+            "camera",
+            "ticket"
+          ],
+          "answer": "guide"
+        }
+      ]
     }
   },
   "answer_key": {

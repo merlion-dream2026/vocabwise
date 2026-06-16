@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "score" },
-        { "id": 2, "word": "explain" },
-        { "id": 3, "word": "geography" },
-        { "id": 4, "word": "difficult" },
-        { "id": 5, "word": "lesson" }
+        {
+          "id": 1,
+          "word": "score"
+        },
+        {
+          "id": 2,
+          "word": "explain"
+        },
+        {
+          "id": 3,
+          "word": "geography"
+        },
+        {
+          "id": 4,
+          "word": "difficult"
+        },
+        {
+          "id": 5,
+          "word": "lesson"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a period of time in school when students are taught a particular subject" },
-        { "id": "B", "text": "the number of correct answers or points someone gets in a test or game" },
-        { "id": "C", "text": "hard to do or understand; needing a lot of effort or skill" },
-        { "id": "D", "text": "to make something clear by describing it or giving reasons" },
-        { "id": "E", "text": "the study of the Earth's lands, rivers, mountains, countries, and climate" }
+        {
+          "id": "A",
+          "text": "a period of time in school when students are taught a particular subject"
+        },
+        {
+          "id": "B",
+          "text": "the number of correct answers or points someone gets in a test or game"
+        },
+        {
+          "id": "C",
+          "text": "hard to do or understand; needing a lot of effort or skill"
+        },
+        {
+          "id": "D",
+          "text": "to make something clear by describing it or giving reasons"
+        },
+        {
+          "id": "E",
+          "text": "the study of the Earth's lands, rivers, mountains, countries, and climate"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "In _____ class, we learned how rivers form and why some areas have very little rain.",
-          "options": ["art", "music", "geography", "sport"],
+          "options": [
+            "art",
+            "music",
+            "geography",
+            "sport"
+          ],
           "answer": "geography"
         },
         {
           "id": 2,
           "sentence": "The teacher will _____ the new grammar rule with three clear examples on the board.",
-          "options": ["score", "understand", "explain", "favourite"],
+          "options": [
+            "score",
+            "understand",
+            "explain",
+            "favourite"
+          ],
           "answer": "explain"
         },
         {
           "id": 3,
           "sentence": "Algebra is very _____ for me — I always make mistakes when I solve equations.",
-          "options": ["easy", "favourite", "difficult", "musical"],
+          "options": [
+            "easy",
+            "favourite",
+            "difficult",
+            "musical"
+          ],
           "answer": "difficult"
         },
         {
           "id": 4,
           "sentence": "She got a perfect _____ on the science test — ten out of ten for the third time in a row.",
-          "options": ["lesson", "score", "history", "sport"],
+          "options": [
+            "lesson",
+            "score",
+            "history",
+            "sport"
+          ],
           "answer": "score"
         },
         {
           "id": 5,
           "sentence": "After the teacher explained it twice, I finally began to _____ how to use the passive voice.",
-          "options": ["explain", "score", "understand", "favourite"],
+          "options": [
+            "explain",
+            "score",
+            "understand",
+            "favourite"
+          ],
           "answer": "understand"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["maths", "history", "easy", "lesson", "favourite", "art"],
+      "word_bank": [
+        "maths",
+        "history",
+        "easy",
+        "lesson",
+        "favourite",
+        "art"
+      ],
       "items": [
-        { "id": 1, "sentence": "My _____ subject at school is music — I love singing and playing the guitar.", "answer": "favourite" },
-        { "id": 2, "sentence": "The _____ teacher asked us to draw a portrait of someone we admire.", "answer": "art" },
-        { "id": 3, "sentence": "In _____ class, we studied the causes of the First World War.", "answer": "history" },
-        { "id": 4, "sentence": "The first _____ on Monday is always maths — it starts at half past seven.", "answer": "lesson" },
-        { "id": 5, "sentence": "This exercise looks difficult, but it is actually quite _____ once you know the rule.", "answer": "easy" }
+        {
+          "id": 1,
+          "sentence": "My _____ subject at school is music — I love singing and playing the guitar.",
+          "answer": "favourite"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ teacher asked us to draw a portrait of someone we admire.",
+          "answer": "art"
+        },
+        {
+          "id": 3,
+          "sentence": "In _____ class, we studied the causes of the First World War.",
+          "answer": "history"
+        },
+        {
+          "id": 4,
+          "sentence": "The first _____ on Monday is always maths — it starts at half past seven.",
+          "answer": "lesson"
+        },
+        {
+          "id": 5,
+          "sentence": "This exercise looks difficult, but it is actually quite _____ once you know the rule.",
+          "answer": "easy"
+        }
       ],
       "note": "One word in the box is not used: maths"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "She found the new science topic very [easy] — she had to ask the teacher to explain it three times.",
           "highlighted": "easy",
-          "options": { "A": "easy", "B": "difficult", "C": "favourite" },
+          "options": {
+            "A": "easy",
+            "B": "difficult",
+            "C": "favourite"
+          },
           "answer": "B",
           "explanation": "If she needed the teacher to explain it three times, the topic was clearly not 'easy'. The correct word is 'difficult' — something that is hard to understand."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "In [sport] class, we painted a landscape and then discussed the colours we used.",
           "highlighted": "sport",
-          "options": { "A": "music", "B": "sport", "C": "art" },
+          "options": {
+            "A": "music",
+            "B": "sport",
+            "C": "art"
+          },
           "answer": "C",
           "explanation": "Painting a landscape is an activity done in 'art' class, not 'sport' class. Sport lessons involve physical activities like running or playing games."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The teacher asked him to [understand] why the answer was wrong, but he could not find the right words.",
           "highlighted": "understand",
-          "options": { "A": "score", "B": "explain", "C": "understand" },
+          "options": {
+            "A": "score",
+            "B": "explain",
+            "C": "understand"
+          },
           "answer": "B",
           "explanation": "'Understand' means to know or grasp something yourself. When the teacher asks a student to say why an answer is wrong, they are asking the student to 'explain' it to others."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "We studied the [music] of ancient civilisations — how they lived, built cities, and fought wars.",
           "highlighted": "music",
-          "options": { "A": "history", "B": "music", "C": "geography" },
+          "options": {
+            "A": "history",
+            "B": "music",
+            "C": "geography"
+          },
           "answer": "A",
           "explanation": "Studying how ancient people lived, built cities, and fought wars is 'history'. 'Music' is about sound, rhythm, and instruments — not events of the past."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "I was so happy because I got a high [lesson] on my English test — ninety-two out of one hundred.",
           "highlighted": "lesson",
-          "options": { "A": "lesson", "B": "subject", "C": "score" },
+          "options": {
+            "A": "lesson",
+            "B": "subject",
+            "C": "score"
+          },
           "answer": "C",
           "explanation": "A 'lesson' is a period of teaching, not a number on a test. The number of points you receive after a test is called a 'score'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "maths",
+            "science",
+            "history",
+            "explain"
+          ],
+          "answer": "explain",
+          "reason": "maths, science, and history are school subjects — nouns for areas of knowledge you study. 'explain' is a verb — the action of making something clear to someone.",
+          "reason_vi": "maths, science và history đều là môn học — danh từ cho lĩnh vực kiến thức bạn học. 'explain' là động từ — hành động làm rõ điều gì đó cho ai đó."
+        },
+        {
+          "id": 2,
+          "words": [
+            "geography",
+            "art",
+            "music",
+            "understand"
+          ],
+          "answer": "understand",
+          "reason": "geography, art, and music are school subjects — things you study in lessons. 'understand' is a verb — the mental action of grasping the meaning of something.",
+          "reason_vi": "geography, art và music đều là môn học — thứ bạn học trong giờ học. 'understand' là động từ — hành động tâm trí để nắm bắt ý nghĩa."
+        },
+        {
+          "id": 3,
+          "words": [
+            "difficult",
+            "easy",
+            "favourite",
+            "score"
+          ],
+          "answer": "score",
+          "reason": "difficult, easy, and favourite are adjectives — they describe how you feel about a subject. 'score' is a verb — the action of getting marks in a test.",
+          "reason_vi": "difficult, easy và favourite đều là tính từ — mô tả cảm nhận của bạn về môn học. 'score' là động từ — hành động đạt điểm trong bài kiểm tra."
+        },
+        {
+          "id": 4,
+          "words": [
+            "maths",
+            "science",
+            "lesson",
+            "favourite"
+          ],
+          "answer": "favourite",
+          "reason": "maths, science, and lesson are nouns — things that exist as subjects or events in your school day. 'favourite' is an adjective — it describes which one you like best.",
+          "reason_vi": "maths, science và lesson đều là danh từ — thứ tồn tại trong ngày học của bạn. 'favourite' là tính từ — mô tả cái bạn thích nhất."
+        },
+        {
+          "id": 5,
+          "words": [
+            "difficult",
+            "easy",
+            "favourite",
+            "explain"
+          ],
+          "answer": "explain",
+          "reason": "difficult, easy, and favourite are adjectives that describe a subject or how you feel about it. 'explain' is a verb — the action of giving a clear description or reason.",
+          "reason_vi": "difficult, easy và favourite đều là tính từ mô tả môn học. 'explain' là động từ — hành động đưa ra mô tả hoặc lý do rõ ràng."
+        },
+        {
+          "id": 6,
+          "words": [
+            "science",
+            "history",
+            "geography",
+            "sport"
+          ],
+          "answer": "sport",
+          "reason": "science, history, and geography are academic subjects — you study facts and ideas. 'sport' is a physical activity — you move your body, not just your mind.",
+          "reason_vi": "science, history và geography là môn học hàn lâm — bạn học sự kiện và ý tưởng. 'sport' là hoạt động thể chất — bạn dùng cơ thể, không chỉ tư duy."
+        },
+        {
+          "id": 7,
+          "words": [
+            "understand",
+            "explain",
+            "score",
+            "easy"
+          ],
+          "answer": "easy",
+          "reason": "understand, explain, and score are verbs — actions in the learning process. 'easy' is an adjective — it describes how simple or effortless a subject feels.",
+          "reason_vi": "understand, explain và score đều là động từ — hành động trong quá trình học. 'easy' là tính từ — mô tả mức độ đơn giản của môn học."
+        },
+        {
+          "id": 8,
+          "words": [
+            "lesson",
+            "maths",
+            "history",
+            "understand"
+          ],
+          "answer": "understand",
+          "reason": "lesson, maths, and history are nouns — things in your school life that you attend or study. 'understand' is a verb — an action that happens in your mind.",
+          "reason_vi": "lesson, maths và history đều là danh từ — thứ bạn tham dự hoặc học. 'understand' là động từ — hành động xảy ra trong tâm trí."
+        },
+        {
+          "id": 9,
+          "words": [
+            "difficult",
+            "favourite",
+            "easy",
+            "English"
+          ],
+          "answer": "English",
+          "reason": "difficult, favourite, and easy are adjectives — they describe how we feel about something. 'English' is a noun — the name of a language and a school subject.",
+          "reason_vi": "difficult, favourite và easy đều là tính từ — mô tả cảm nhận của ta. 'English' là danh từ — tên của một ngôn ngữ và môn học."
+        },
+        {
+          "id": 10,
+          "words": [
+            "maths",
+            "geography",
+            "music",
+            "favourite"
+          ],
+          "answer": "favourite",
+          "reason": "maths, geography, and music are school subjects — nouns for specific areas of study. 'favourite' is an adjective — it tells us which subject you enjoy most.",
+          "reason_vi": "maths, geography và music đều là môn học — danh từ cho các lĩnh vực học. 'favourite' là tính từ — cho biết môn bạn thích nhất."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "B", "2": "D", "3": "E", "4": "C", "5": "A" },
-    "ex2": { "1": "geography", "2": "explain", "3": "difficult", "4": "score", "5": "understand" },
-    "ex3": { "1": "favourite", "2": "art", "3": "history", "4": "lesson", "5": "easy" },
-    "ex4": { "1": "musical", "2": "easily", "3": "explanation", "4": "understanding", "5": "scored" },
-    "ex5": { "1": "B", "2": "C", "3": "B", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "B",
+      "2": "D",
+      "3": "E",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "geography",
+      "2": "explain",
+      "3": "difficult",
+      "4": "score",
+      "5": "understand"
+    },
+    "ex3": {
+      "1": "favourite",
+      "2": "art",
+      "3": "history",
+      "4": "lesson",
+      "5": "easy"
+    },
+    "ex4": {
+      "1": "musical",
+      "2": "easily",
+      "3": "explanation",
+      "4": "understanding",
+      "5": "scored"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "B",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

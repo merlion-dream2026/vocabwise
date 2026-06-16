@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "revise" },
-        { "id": 2, "word": "nervous" },
-        { "id": 3, "word": "concentrate" },
-        { "id": 4, "word": "mark" },
-        { "id": 5, "word": "fail" }
+        {
+          "id": 1,
+          "word": "revise"
+        },
+        {
+          "id": 2,
+          "word": "nervous"
+        },
+        {
+          "id": 3,
+          "word": "concentrate"
+        },
+        {
+          "id": 4,
+          "word": "mark"
+        },
+        {
+          "id": 5,
+          "word": "fail"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to feel anxious or worried, especially before something important" },
-        { "id": "B", "text": "to study material again before a test in order to remember it better" },
-        { "id": "C", "text": "a point or score given for a correct answer in a test or exam" },
-        { "id": "D", "text": "to focus your mind completely on one thing without being distracted" },
-        { "id": "E", "text": "to not reach the required standard in a test or examination" }
+        {
+          "id": "A",
+          "text": "to feel anxious or worried, especially before something important"
+        },
+        {
+          "id": "B",
+          "text": "to study material again before a test in order to remember it better"
+        },
+        {
+          "id": "C",
+          "text": "a point or score given for a correct answer in a test or exam"
+        },
+        {
+          "id": "D",
+          "text": "to focus your mind completely on one thing without being distracted"
+        },
+        {
+          "id": "E",
+          "text": "to not reach the required standard in a test or examination"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "Please read every _____ on the test carefully before you write your answer.",
-          "options": ["sheet", "grade", "item", "period"],
+          "options": [
+            "sheet",
+            "grade",
+            "item",
+            "period"
+          ],
           "answer": "item"
         },
         {
           "id": 2,
           "sentence": "If you do not _____ enough, you might not remember the vocabulary in the exam.",
-          "options": ["finish", "revise", "pass", "mark"],
+          "options": [
+            "finish",
+            "revise",
+            "pass",
+            "mark"
+          ],
           "answer": "revise"
         },
         {
           "id": 3,
           "sentence": "Turn off your phone so you can _____ and study without interruptions.",
-          "options": ["fail", "prepare", "concentrate", "revise"],
+          "options": [
+            "fail",
+            "prepare",
+            "concentrate",
+            "revise"
+          ],
           "answer": "concentrate"
         },
         {
           "id": 4,
           "sentence": "The teacher handed out the exam _____ and asked everyone to write their names at the top.",
-          "options": ["grade", "paper", "mark", "item"],
+          "options": [
+            "grade",
+            "paper",
+            "mark",
+            "item"
+          ],
           "answer": "paper"
         },
         {
           "id": 5,
           "sentence": "Many students feel _____ before a big exam, but taking deep breaths can help.",
-          "options": ["nervous", "finished", "prepared", "failed"],
+          "options": [
+            "nervous",
+            "finished",
+            "prepared",
+            "failed"
+          ],
           "answer": "nervous"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["pass", "prepare", "finish", "grade", "time", "fail"],
+      "word_bank": [
+        "pass",
+        "prepare",
+        "finish",
+        "grade",
+        "time",
+        "fail"
+      ],
       "items": [
-        { "id": 1, "sentence": "You need to _____ well if you want to do well in the exam.", "answer": "prepare" },
-        { "id": 2, "sentence": "She was so happy when she got a good _____ on her maths test.", "answer": "grade" },
-        { "id": 3, "sentence": "Manage your _____ carefully — do not spend too long on one question.", "answer": "time" },
-        { "id": 4, "sentence": "He worked hard all term and managed to _____ every subject.", "answer": "pass" },
-        { "id": 5, "sentence": "Try to _____ before the bell rings so you can check your work.", "answer": "finish" }
+        {
+          "id": 1,
+          "sentence": "You need to _____ well if you want to do well in the exam.",
+          "answer": "prepare"
+        },
+        {
+          "id": 2,
+          "sentence": "She was so happy when she got a good _____ on her maths test.",
+          "answer": "grade"
+        },
+        {
+          "id": 3,
+          "sentence": "Manage your _____ carefully — do not spend too long on one question.",
+          "answer": "time"
+        },
+        {
+          "id": 4,
+          "sentence": "He worked hard all term and managed to _____ every subject.",
+          "answer": "pass"
+        },
+        {
+          "id": 5,
+          "sentence": "Try to _____ before the bell rings so you can check your work.",
+          "answer": "finish"
+        }
       ],
       "note": "One word in the box is not used: fail"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "I always feel very [excited] before an exam — my hands shake and I cannot sleep well.",
           "highlighted": "excited",
-          "options": { "A": "nervous", "B": "excited", "C": "prepared" },
+          "options": {
+            "A": "nervous",
+            "B": "excited",
+            "C": "prepared"
+          },
           "answer": "A",
           "explanation": "'Excited' usually means looking forward to something with pleasure. When your hands shake and you cannot sleep before a test, the correct word is 'nervous' — feeling worried and anxious."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "The teacher asked us to write our answers on a separate [paper] for each question.",
           "highlighted": "paper",
-          "options": { "A": "mark", "B": "paper", "C": "sheet" },
+          "options": {
+            "A": "mark",
+            "B": "paper",
+            "C": "sheet"
+          },
           "answer": "C",
           "explanation": "A 'paper' refers to the whole exam document. Each single page you write on is a 'sheet'. The sentence is talking about individual pages, so 'sheet' is correct."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "She studied very hard but still [passed] the exam because she ran out of time.",
           "highlighted": "passed",
-          "options": { "A": "passed", "B": "failed", "C": "finished" },
+          "options": {
+            "A": "passed",
+            "B": "failed",
+            "C": "finished"
+          },
           "answer": "B",
           "explanation": "If someone studied hard but ran out of time and did not do well, they 'failed' — not passed. 'Passed' means they succeeded, which contradicts the meaning of the sentence."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "Each [grade] on the exam paper is worth two marks, and you must answer all of them.",
           "highlighted": "grade",
-          "options": { "A": "sheet", "B": "grade", "C": "item" },
+          "options": {
+            "A": "sheet",
+            "B": "grade",
+            "C": "item"
+          },
           "answer": "C",
           "explanation": "A 'grade' is the overall score or letter you receive (like A or B). Each individual question on an exam paper is called an 'item'. The sentence is clearly describing separate questions, so 'item' is correct."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "You need to [ignore] on the task — do not look at what your classmates are doing.",
           "highlighted": "ignore",
-          "options": { "A": "revise", "B": "fail", "C": "concentrate" },
+          "options": {
+            "A": "revise",
+            "B": "fail",
+            "C": "concentrate"
+          },
           "answer": "C",
           "explanation": "'Ignore' means to pay no attention to something — it does not fit here. The sentence is telling you to focus on your own work, which means to 'concentrate'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "prepare",
+            "revise",
+            "concentrate",
+            "nervous"
+          ],
+          "answer": "nervous",
+          "reason": "prepare, revise, and concentrate are things you DO to get ready for an exam — study actions. 'nervous' is an adjective — it describes how you FEEL, not what you do.",
+          "reason_vi": "prepare, revise và concentrate đều là hành động bạn làm để chuẩn bị cho kỳ thi. 'nervous' là tính từ — mô tả cảm giác, không phải hành động."
+        },
+        {
+          "id": 2,
+          "words": [
+            "exam",
+            "paper",
+            "sheet",
+            "mark"
+          ],
+          "answer": "mark",
+          "reason": "exam, paper, and sheet are physical things you hold or look at during a test. 'mark' is the score you receive as a result — it is not a physical object.",
+          "reason_vi": "exam, paper và sheet đều là thứ vật lý bạn cầm hoặc nhìn trong kỳ thi. 'mark' là điểm số bạn nhận được — không phải đồ vật."
+        },
+        {
+          "id": 3,
+          "words": [
+            "prepare",
+            "revise",
+            "concentrate",
+            "pass"
+          ],
+          "answer": "pass",
+          "reason": "prepare, revise, and concentrate are actions you do while studying for an exam. 'pass' is an outcome — it describes what happens after the exam, not what you do to prepare.",
+          "reason_vi": "prepare, revise và concentrate đều là hành động khi ôn tập. 'pass' là kết quả — mô tả điều xảy ra sau kỳ thi, không phải cách chuẩn bị."
+        },
+        {
+          "id": 4,
+          "words": [
+            "exam",
+            "paper",
+            "sheet",
+            "item"
+          ],
+          "answer": "item",
+          "reason": "exam, paper, and sheet refer to the test as a whole or its physical form. 'item' is one individual question or task within the exam — a single part, not the whole.",
+          "reason_vi": "exam, paper và sheet đề cập đến toàn bộ bài thi hoặc dạng vật lý. 'item' là một câu hỏi hoặc nhiệm vụ đơn lẻ — một phần, không phải toàn bộ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "mark",
+            "grade",
+            "pass",
+            "nervous"
+          ],
+          "answer": "nervous",
+          "reason": "mark, grade, and pass are all outcomes or results of an exam — they tell you how well you did. 'nervous' is an emotion — how you feel before the test, not a result.",
+          "reason_vi": "mark, grade và pass đều là kết quả của kỳ thi — cho biết bạn làm tốt như thế nào. 'nervous' là cảm xúc — cách bạn cảm thấy trước khi thi, không phải kết quả."
+        },
+        {
+          "id": 6,
+          "words": [
+            "prepare",
+            "revise",
+            "concentrate",
+            "finish"
+          ],
+          "answer": "finish",
+          "reason": "prepare, revise, and concentrate are active study strategies you use to get better. 'finish' means to complete something — it is the final action, not a strategy for improving.",
+          "reason_vi": "prepare, revise và concentrate là chiến lược học tập để cải thiện. 'finish' có nghĩa là hoàn thành — là hành động cuối cùng, không phải chiến lược."
+        },
+        {
+          "id": 7,
+          "words": [
+            "pass",
+            "fail",
+            "mark",
+            "nervous"
+          ],
+          "answer": "nervous",
+          "reason": "pass, fail, and mark are possible outcomes or measurements from a test. 'nervous' is a feeling — it describes your emotional state before the test, not the result.",
+          "reason_vi": "pass, fail và mark đều là kết quả hoặc đo lường từ bài thi. 'nervous' là cảm xúc — trạng thái trước khi thi, không phải kết quả."
+        },
+        {
+          "id": 8,
+          "words": [
+            "exam",
+            "period",
+            "time",
+            "concentrate"
+          ],
+          "answer": "concentrate",
+          "reason": "exam, period, and time relate to what happens and when in your school schedule. 'concentrate' is a verb — the active effort of focusing your attention while studying.",
+          "reason_vi": "exam, period và time liên quan đến thứ xảy ra và thời điểm trong lịch học. 'concentrate' là động từ — nỗ lực chủ động tập trung khi học."
+        },
+        {
+          "id": 9,
+          "words": [
+            "mark",
+            "grade",
+            "item",
+            "nervous"
+          ],
+          "answer": "nervous",
+          "reason": "mark, grade, and item are all parts of how an exam is scored or structured. 'nervous' is an emotion — how you feel about the exam, not part of the exam itself.",
+          "reason_vi": "mark, grade và item đều là phần của cách tính điểm hoặc cấu trúc bài thi. 'nervous' là cảm xúc — cách bạn cảm thấy về kỳ thi, không phải phần của bài thi."
+        },
+        {
+          "id": 10,
+          "words": [
+            "prepare",
+            "revise",
+            "finish",
+            "fail"
+          ],
+          "answer": "fail",
+          "reason": "prepare, revise, and finish are all things you do during the exam process — they are actions. 'fail' is an outcome — a negative result that can happen if the actions above are not done well.",
+          "reason_vi": "prepare, revise và finish đều là hành động trong quá trình thi. 'fail' là kết quả — kết quả tiêu cực có thể xảy ra nếu các hành động trên không được thực hiện tốt."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "B", "2": "A", "3": "D", "4": "C", "5": "E" },
-    "ex2": { "1": "item", "2": "revise", "3": "concentrate", "4": "paper", "5": "nervous" },
-    "ex3": { "1": "prepare", "2": "grade", "3": "time", "4": "pass", "5": "finish" },
-    "ex4": { "1": "preparation", "2": "nervously", "3": "examination", "4": "revised", "5": "failure" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "C" }
+    "ex1": {
+      "1": "B",
+      "2": "A",
+      "3": "D",
+      "4": "C",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "item",
+      "2": "revise",
+      "3": "concentrate",
+      "4": "paper",
+      "5": "nervous"
+    },
+    "ex3": {
+      "1": "prepare",
+      "2": "grade",
+      "3": "time",
+      "4": "pass",
+      "5": "finish"
+    },
+    "ex4": {
+      "1": "preparation",
+      "2": "nervously",
+      "3": "examination",
+      "4": "revised",
+      "5": "failure"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "C"
+    }
   }
 }
