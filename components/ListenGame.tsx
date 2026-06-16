@@ -112,6 +112,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
   }
 
   const pct = Math.round((score / total) * 100)
+  const xpEarned = Math.round(score * 1.5)
 
   if (done) {
     return (
@@ -133,7 +134,11 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
           <h2 className="text-4xl font-black text-gray-800 mb-1">
             {score}/{total}
           </h2>
-          <p className="text-gray-500 font-bold text-xl mb-6">{pct}% chính xác</p>
+          <p className="text-gray-500 font-bold text-xl mb-2">{pct}% chính xác</p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
 
           {wrongWords.length > 0 && (
             <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 mb-6 w-full">

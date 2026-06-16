@@ -114,6 +114,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
   }
 
   if (done) {
+    const xpEarned = Math.max(0, total - mistakes)
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
@@ -129,9 +130,13 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
           <p className="text-gray-500 font-bold text-lg mb-1">
             {total}/{total} cặp đúng
           </p>
-          <p className="text-gray-400 font-semibold mb-8">
+          <p className="text-gray-400 font-semibold mb-3">
             {mistakes === 0 ? 'Không sai lần nào! 🎉' : `Sai ${mistakes} lần`}
           </p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-6">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
           <div className="w-full space-y-3">
             <button
               onClick={restart}

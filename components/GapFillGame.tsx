@@ -106,6 +106,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
 
   if (done) {
     const pct = Math.round((score / total) * 100)
+    const xpEarned = Math.round(score * 1.5)
     return (
       <div className="flex flex-col min-h-screen">
         <div className={`${styles.headerBg} px-4 pt-12 pb-8 text-white`}>
@@ -116,8 +117,12 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
           <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
           <p className="text-gray-500 font-bold text-lg mb-1">{score}/{total} câu đúng ({pct}%)</p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
           {wrongWords.length > 0 && (
-            <div className="mt-4 w-full bg-white rounded-2xl border-2 border-orange-200 p-4 mb-4">
+            <div className="mt-0 w-full bg-white rounded-2xl border-2 border-orange-200 p-4 mb-4">
               <p className="text-orange-600 font-black text-sm mb-2">⚠️ Cần ôn lại:</p>
               <div className="flex flex-wrap gap-2">
                 {wrongWords.map((w) => (

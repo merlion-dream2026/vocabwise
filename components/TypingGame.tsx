@@ -124,6 +124,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
 
   if (done) {
     const pct = Math.round((score / total) * 100)
+    const xpEarned = score * 2
     return (
       <div className="flex flex-col min-h-screen">
         <div className="bg-gradient-to-br from-blue-500 to-cyan-400 px-4 pt-12 pb-8 text-white">
@@ -133,7 +134,11 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         <div className="flex-1 bg-gradient-to-b from-blue-50 to-cyan-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-1">{score}/{total} chính xác</h2>
-          <p className="text-gray-500 font-bold text-xl mb-6">{pct}%</p>
+          <p className="text-gray-500 font-bold text-xl mb-2">{pct}%</p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
           {wrongWords.length > 0 && (
             <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 mb-6 w-full">
               <p className="text-orange-700 font-bold text-sm mb-2">📝 Cần ôn thêm:</p>

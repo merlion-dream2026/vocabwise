@@ -101,6 +101,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
 
   if (done) {
     const pct = Math.round((score / total) * 100)
+    const xpEarned = score
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
@@ -111,7 +112,11 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
         <div className="flex-1 bg-gradient-to-b from-green-50 to-emerald-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-1">{score}/{total} chính xác</h2>
-          <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
+          <p className="text-gray-500 font-bold text-xl mb-2">{pct}%</p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-6">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
           <div className="w-full space-y-3">
             <button onClick={restart} className="w-full bg-green-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
             <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn chế độ khác</button>

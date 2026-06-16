@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel, ALL_BADGES, XP_LEVELS } from '@/lib/badges'
+import { DAILY_XP_GOAL } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
@@ -149,6 +150,9 @@ export default function LevelTopicsPage() {
   const xpInfo = getXpLevel(summary.xp)
   const earnedBadges = computeEarnedBadges(summary)
   const earnedIds = new Set(earnedBadges.map(b => b.id))
+  const todayXP = (syncRaw?.history?.[today]?.xp ?? 0) as number
+  const todayXPDone = todayXP >= DAILY_XP_GOAL
+  const todayXPPct = Math.min(100, Math.round((todayXP / DAILY_XP_GOAL) * 100))
 
   function topicStatus(topic: Topic): 'done' | 'in_progress' | 'not_started' {
     const m = mastery[topic.id]
@@ -268,6 +272,22 @@ export default function LevelTopicsPage() {
                 Level tiếp: {xpInfo.maxXp + 1 - summary.xp} XP nữa
               </p>
             )}
+          </div>
+
+          {/* Daily XP goal */}
+          <div>
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-xs font-bold text-gray-500">⚡ Mục tiêu hôm nay</span>
+              <span className={`text-xs font-black ${todayXPDone ? 'text-green-600' : 'text-gray-500'}`}>
+                {todayXP}/{DAILY_XP_GOAL} XP {todayXPDone ? '✅' : ''}
+              </span>
+            </div>
+            <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all duration-500 ${todayXPDone ? 'bg-gradient-to-r from-green-400 to-emerald-400' : 'bg-gradient-to-r from-yellow-400 to-orange-400'}`}
+                style={{ width: `${Math.max(todayXPPct, todayXP > 0 ? 3 : 0)}%` }}
+              />
+            </div>
           </div>
 
           <div>
@@ -492,7 +512,24 @@ export default function LevelTopicsPage() {
               <h2 className="font-black text-gray-800 text-base">⭐ XP là gì?</h2>
               <button onClick={() => setShowXpGuide(false)} className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
             </div>
-            <p className="text-sm text-gray-500 mb-4">XP (điểm kinh nghiệm) tăng mỗi khi bạn trả lời đúng trong các trò chơi. Càng chơi nhiều, XP càng cao!</p>
+            <p className="text-sm text-gray-500 mb-3">XP (điểm kinh nghiệm) tăng mỗi khi bạn trả lời đúng trong các trò chơi. Game khó → nhiều XP hơn!</p>
+            {/* Game multiplier tiers */}
+            <div className="space-y-1.5 mb-4">
+              {[
+                { dot: 'bg-red-400',    label: '2 XP/câu',   games: 'Đánh vần · Gõ từ nhanh · Điền chữ thiếu · Speed Round' },
+                { dot: 'bg-yellow-400', label: '1.5 XP/câu', games: 'Trắc nghiệm · Điền từ · Nghe & Chọn · Sắp xếp câu · Câu chuyện · Phát âm AI · Ghép định nghĩa' },
+                { dot: 'bg-green-400',  label: '1 XP/câu',   games: 'Nối từ · Lật thẻ · Đúng/Sai · Bắn bong bóng' },
+              ].map(row => (
+                <div key={row.label} className="flex items-start gap-2 bg-gray-50 rounded-xl px-3 py-2">
+                  <span className={`mt-1 w-2.5 h-2.5 rounded-full flex-shrink-0 ${row.dot}`} />
+                  <div>
+                    <span className="text-xs font-black text-gray-700">{row.label} — </span>
+                    <span className="text-xs text-gray-500">{row.games}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs font-bold text-purple-600 mb-3">Cấp độ XP của bạn</p>
             <div className="space-y-2">
               {XP_LEVELS.map(lvl => {
                 const isCurrentLevel = xpInfo.level === lvl.level

@@ -650,7 +650,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
                       {!xpBadge && totalXP === 0 && <span className="text-[11px] text-gray-400 font-semibold">{xpInfo.emoji} {xpInfo.name}</span>}
                       {streakCur > 0 && <span className="text-[11px] font-black text-orange-500">🔥 {streakCur} ngày</span>}
                       <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpGoalDone ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'}`}>
-                        {xpGoalDone ? '✅' : `⚡ ${todayXP}/${DAILY_XP_GOAL} XP hôm nay`}
+                        {xpGoalDone ? `✅ ${DAILY_XP_GOAL} XP hôm nay` : `⚡ ${todayXP}/${DAILY_XP_GOAL} XP hôm nay`}
                       </span>
                       {lastActive && <span className="text-[11px] text-gray-400 font-semibold">📅 {lastActive}</span>}
                     </div>

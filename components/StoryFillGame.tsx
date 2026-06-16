@@ -91,6 +91,9 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
       {submitted && (
         <div className={`px-4 py-3 text-center font-black text-lg ${score === total ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'}`}>
           {score === total ? '🏆 Hoàn hảo!' : `${score}/${total} đúng`}
+          <span className="ml-3 inline-flex items-center gap-1 bg-yellow-50 border border-yellow-200 text-yellow-700 text-xs font-black px-2.5 py-0.5 rounded-full">
+            ⭐ +{Math.round(score * 1.5)} XP
+          </span>
         </div>
       )}
 

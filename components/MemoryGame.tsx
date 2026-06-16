@@ -121,6 +121,7 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
   }
 
   const starEmoji = moves <= total + 3 ? '🏆' : moves <= total * 2 ? '⭐' : '💪'
+  const xpEarned = total
 
   if (done) {
     return (
@@ -134,8 +135,12 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
           <div className="text-7xl mb-4">{starEmoji}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
           <p className="text-gray-500 font-bold text-lg mb-1">Ghép đúng {total} cặp</p>
-          <p className="text-gray-400 font-semibold">{moves} lượt lật thẻ</p>
-          <div className="w-full space-y-3 mt-6">
+          <p className="text-gray-400 font-semibold mb-3">{moves} lượt lật thẻ</p>
+          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
+            <span className="text-base">⭐</span>
+            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          </div>
+          <div className="w-full space-y-3 mt-2">
             <button onClick={restart} className={`w-full ${styles.finishBg} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}>
               🔄 Chơi lại
             </button>
