@@ -10,6 +10,17 @@ import {
 } from '@/lib/phonicsSync'
 import QuickRecordButton from '@/components/QuickRecordButton'
 import phonicsLevels from '@/data/phonicsLevels.json'
+import phonicsKnowledge from '@/data/phonicsKnowledge.json'
+
+type KnowledgeEntry = {
+  how_to?: string[]
+  vs_vietnamese?: string
+  spelling?: { pattern: string; examples: string[] }[]
+  mistakes?: string[]
+  mnemonic?: string
+  why?: string
+  exceptions?: string[]
+}
 
 type Level  = typeof phonicsLevels.levels[number]
 type Lesson = Level['lessons'][number]
@@ -30,6 +41,123 @@ const BUCKET_COLORS = [
   { bg: 'bg-blue-50',  border: 'border-blue-200',  text: 'text-blue-700',  chip: 'bg-blue-100 text-blue-700 border-blue-200' },
   { bg: 'bg-rose-50',  border: 'border-rose-200',  text: 'text-rose-700',  chip: 'bg-rose-100 text-rose-700 border-rose-200' },
 ]
+
+function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
+  lessonId: string
+  levelText: string
+  levelBorder: string
+  levelBg: string
+}) {
+  const [open, setOpen] = useState(false)
+  const knowledge = (phonicsKnowledge as Record<string, KnowledgeEntry>)[lessonId]
+  if (!knowledge) return null
+
+  return (
+    <div className={`bg-white rounded-2xl border-2 ${levelBorder} overflow-hidden`}>
+      <button
+        onClick={() => setOpen(o => !o)}
+        className={`w-full flex items-center justify-between px-4 py-3.5 ${levelBg} active:opacity-80`}
+      >
+        <div className="flex items-center gap-2">
+          <span className="text-lg">📖</span>
+          <span className={`font-black text-sm ${levelText}`}>Bài học chi tiết</span>
+        </div>
+        <span className={`text-sm font-bold ${levelText} transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▼</span>
+      </button>
+
+      {open && (
+        <div className="px-4 py-4 space-y-4 border-t border-gray-100">
+
+          {/* How to */}
+          {knowledge.why && (
+            <div>
+              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">💡 Tại sao có quy tắc này?</p>
+              <p className="text-xs text-gray-700 font-semibold leading-relaxed">{knowledge.why}</p>
+            </div>
+          )}
+
+          {knowledge.how_to && knowledge.how_to.length > 0 && (
+            <div>
+              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">
+                {knowledge.why ? '📋 Cách áp dụng' : '👄 Cách tạo âm'}
+              </p>
+              <ol className="space-y-1.5">
+                {knowledge.how_to.map((step, i) => (
+                  <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
+                    <span className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${levelBg} ${levelText} border ${levelBorder}`}>{i + 1}</span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
+          {/* vs Vietnamese */}
+          {knowledge.vs_vietnamese && (
+            <div className="bg-yellow-50 rounded-xl px-3 py-2.5 border border-yellow-200">
+              <p className="text-xs font-black text-yellow-700 mb-1">🇻🇳 So sánh với tiếng Việt</p>
+              <p className="text-xs text-yellow-800 font-semibold leading-relaxed">{knowledge.vs_vietnamese}</p>
+            </div>
+          )}
+
+          {/* Spelling patterns */}
+          {knowledge.spelling && knowledge.spelling.length > 0 && (
+            <div>
+              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">✍️ Chính tả → Phát âm</p>
+              <div className="space-y-1.5">
+                {knowledge.spelling.map((s, i) => (
+                  <div key={i} className="flex gap-2 text-xs">
+                    <span className={`shrink-0 font-black ${levelText} font-mono`}>{s.pattern}</span>
+                    <span className="text-gray-500">→</span>
+                    <span className="text-gray-600 font-semibold">{s.examples.join(', ')}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Common mistakes */}
+          {knowledge.mistakes && knowledge.mistakes.length > 0 && (
+            <div>
+              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">⚠️ Lỗi thường gặp</p>
+              <ul className="space-y-1">
+                {knowledge.mistakes.map((m, i) => (
+                  <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
+                    <span className="text-red-400 shrink-0">✗</span>
+                    <span>{m}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Exceptions (for rule lessons) */}
+          {knowledge.exceptions && knowledge.exceptions.length > 0 && (
+            <div>
+              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">🔀 Ngoại lệ</p>
+              <ul className="space-y-1">
+                {knowledge.exceptions.map((e, i) => (
+                  <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
+                    <span className="text-orange-400 shrink-0">•</span>
+                    <span>{e}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Mnemonic */}
+          {knowledge.mnemonic && (
+            <div className="bg-purple-50 rounded-xl px-3 py-2.5 border border-purple-200">
+              <p className="text-xs font-black text-purple-700 mb-1">🧠 Mẹo nhớ</p>
+              <p className="text-xs text-purple-800 font-semibold leading-relaxed">{knowledge.mnemonic}</p>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export default function LessonPage() {
   const router = useRouter()
@@ -163,6 +291,9 @@ export default function LessonPage() {
               </div>
             )}
 
+            {/* Knowledge article */}
+            <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
+
             {/* Practice words */}
             <div>
               <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Đọc thử từng từ</p>
@@ -183,35 +314,40 @@ export default function LessonPage() {
 
         {/* RULE LESSON: rule table */}
         {ruleLesson && (
-          <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
-            <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
-              <p className={`font-black ${level.text} text-sm`}>📊 {ruleLesson.title} — quy tắc</p>
-              <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>{ruleLesson.subtitle}</p>
-            </div>
-            <div className="divide-y divide-gray-50">
-              {ruleLesson.buckets.map((bucket, i) => {
-                const col = BUCKET_COLORS[i] ?? BUCKET_COLORS[0]
-                return (
-                  <div key={bucket.label} className={`${col.bg} px-4 py-3.5`}>
-                    <p className={`font-black text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
-                    <p className="text-xs text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
-                    <p className={`text-xs font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {bucket.words.slice(0, 5).map(w => (
-                        <button key={w} onClick={() => speak(w, { rate: 0.75 })}
-                          className={`text-xs font-bold px-2 py-0.5 rounded-lg border ${col.chip} active:scale-90 transition-transform`}>
-                          {w} 🔊
-                        </button>
-                      ))}
+          <>
+            <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
+              <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
+                <p className={`font-black ${level.text} text-sm`}>📊 {ruleLesson.title} — quy tắc</p>
+                <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>{ruleLesson.subtitle}</p>
+              </div>
+              <div className="divide-y divide-gray-50">
+                {ruleLesson.buckets.map((bucket, i) => {
+                  const col = BUCKET_COLORS[i] ?? BUCKET_COLORS[0]
+                  return (
+                    <div key={bucket.label} className={`${col.bg} px-4 py-3.5`}>
+                      <p className={`font-black text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
+                      <p className="text-xs text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
+                      <p className={`text-xs font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {bucket.words.slice(0, 5).map(w => (
+                          <button key={w} onClick={() => speak(w, { rate: 0.75 })}
+                            className={`text-xs font-bold px-2 py-0.5 rounded-lg border ${col.chip} active:scale-90 transition-transform`}>
+                            {w} 🔊
+                          </button>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )
-              })}
+                  )
+                })}
+              </div>
             </div>
-          </div>
+            {/* Knowledge article for rule lessons */}
+            <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
+          </>
         )}
 
         {/* RHYTHM LESSON: sentence preview */}
+        {lesson.type === 'rhythm' && <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />}
         {lesson.type === 'rhythm' && (
           <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
             <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
