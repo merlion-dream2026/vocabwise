@@ -314,18 +314,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "referee" },
-        { "id": 2, "word": "trophy" },
-        { "id": 3, "word": "compete" },
-        { "id": 4, "word": "spirit" },
-        { "id": 5, "word": "root for" }
+        {
+          "id": 1,
+          "word": "referee"
+        },
+        {
+          "id": 2,
+          "word": "trophy"
+        },
+        {
+          "id": 3,
+          "word": "compete"
+        },
+        {
+          "id": 4,
+          "word": "spirit"
+        },
+        {
+          "id": 5,
+          "word": "root for"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to take part in a sport or contest against others to try to win" },
-        { "id": "B", "text": "a large cup or prize given to the winner of a competition" },
-        { "id": "C", "text": "a person who makes sure players follow the rules during a game" },
-        { "id": "D", "text": "to cheer and show support for someone in a competition" },
-        { "id": "E", "text": "the attitude of trying hard and never giving up, even when things are difficult" }
+        {
+          "id": "A",
+          "text": "to take part in a sport or contest against others to try to win"
+        },
+        {
+          "id": "B",
+          "text": "a large cup or prize given to the winner of a competition"
+        },
+        {
+          "id": "C",
+          "text": "a person who makes sure players follow the rules during a game"
+        },
+        {
+          "id": "D",
+          "text": "to cheer and show support for someone in a competition"
+        },
+        {
+          "id": "E",
+          "text": "the attitude of trying hard and never giving up, even when things are difficult"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -335,31 +365,56 @@
         {
           "id": 1,
           "sentence": "The _____ blew his whistle and gave a yellow card to the player who pushed the other team.",
-          "options": ["champion", "referee", "athlete", "fan"],
+          "options": [
+            "champion",
+            "referee",
+            "athlete",
+            "fan"
+          ],
           "answer": "referee"
         },
         {
           "id": 2,
           "sentence": "She works hard every day and hopes to break the national _____ for the 200-metre sprint.",
-          "options": ["medal", "spirit", "record", "round"],
+          "options": [
+            "medal",
+            "spirit",
+            "record",
+            "round"
+          ],
           "answer": "record"
         },
         {
           "id": 3,
           "sentence": "All the _____ in the stadium stood up and cheered when their team scored the winning goal.",
-          "options": ["fans", "referees", "trophies", "rounds"],
+          "options": [
+            "fans",
+            "referees",
+            "trophies",
+            "rounds"
+          ],
           "answer": "fans"
         },
         {
           "id": 4,
           "sentence": "After months of hard work, she finally won the gold _____ at the national swimming competition.",
-          "options": ["round", "final", "trophy", "medal"],
+          "options": [
+            "round",
+            "final",
+            "trophy",
+            "medal"
+          ],
           "answer": "medal"
         },
         {
           "id": 5,
           "sentence": "The two best teams played each other in the _____ to decide who would be the champion.",
-          "options": ["spirit", "record", "round", "final"],
+          "options": [
+            "spirit",
+            "record",
+            "round",
+            "final"
+          ],
           "answer": "final"
         }
       ]
@@ -367,13 +422,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["train", "compete", "champion", "performance", "stadium", "spirit"],
+      "word_bank": [
+        "train",
+        "compete",
+        "champion",
+        "performance",
+        "stadium",
+        "spirit"
+      ],
       "items": [
-        { "id": 1, "sentence": "The _____ was packed with 40,000 fans who all came to watch the big match.", "answer": "stadium" },
-        { "id": 2, "sentence": "Good athletes _____ every day to make their bodies stronger and faster.", "answer": "train" },
-        { "id": 3, "sentence": "She gave an amazing _____ — everyone agreed she was the best player on the field.", "answer": "performance" },
-        { "id": 4, "sentence": "We all wanted to _____ in the school sports day, not just watch from the side.", "answer": "compete" },
-        { "id": 5, "sentence": "The team showed great _____ — they never gave up, even when they were losing.", "answer": "spirit" }
+        {
+          "id": 1,
+          "sentence": "The _____ was packed with 40,000 fans who all came to watch the big match.",
+          "answer": "stadium"
+        },
+        {
+          "id": 2,
+          "sentence": "Good athletes _____ every day to make their bodies stronger and faster.",
+          "answer": "train"
+        },
+        {
+          "id": 3,
+          "sentence": "She gave an amazing _____ — everyone agreed she was the best player on the field.",
+          "answer": "performance"
+        },
+        {
+          "id": 4,
+          "sentence": "We all wanted to _____ in the school sports day, not just watch from the side.",
+          "answer": "compete"
+        },
+        {
+          "id": 5,
+          "sentence": "The team showed great _____ — they never gave up, even when they were losing.",
+          "answer": "spirit"
+        }
       ],
       "note": "One word in the box is not used: champion"
     },
@@ -426,7 +508,11 @@
           "id": 1,
           "sentence": "The crowd started to [medal] loudly when their team scored the first goal.",
           "highlighted": "medal",
-          "options": { "A": "cheer", "B": "medal", "C": "train" },
+          "options": {
+            "A": "cheer",
+            "B": "medal",
+            "C": "train"
+          },
           "answer": "A",
           "explanation": "A 'medal' is a prize you receive — it is a noun, not an action. When a crowd makes noise to show support, they 'cheer'."
         },
@@ -434,7 +520,11 @@
           "id": 2,
           "sentence": "She needed to [root for] every day to prepare for the final.",
           "highlighted": "root for",
-          "options": { "A": "compete", "B": "perform", "C": "train" },
+          "options": {
+            "A": "compete",
+            "B": "perform",
+            "C": "train"
+          },
           "answer": "C",
           "explanation": "'Root for' means to cheer for someone — it is not something you do to prepare yourself. To prepare your body and skills before a competition, you 'train'."
         },
@@ -442,7 +532,11 @@
           "id": 3,
           "sentence": "The [spirit] made sure both teams followed the rules during the match.",
           "highlighted": "spirit",
-          "options": { "A": "athlete", "B": "referee", "C": "fan" },
+          "options": {
+            "A": "athlete",
+            "B": "referee",
+            "C": "fan"
+          },
           "answer": "B",
           "explanation": "'Spirit' refers to a feeling or attitude — it cannot enforce rules. The person whose job is to make sure players follow the rules is the 'referee'."
         },
@@ -450,7 +544,11 @@
           "id": 4,
           "sentence": "He broke the world [trophy] for the longest jump at the international athletics event.",
           "highlighted": "trophy",
-          "options": { "A": "trophy", "B": "champion", "C": "record" },
+          "options": {
+            "A": "trophy",
+            "B": "champion",
+            "C": "record"
+          },
           "answer": "C",
           "explanation": "A 'trophy' is a physical prize you receive. When someone achieves the best-ever result in a sport, they break a 'record' — not a trophy."
         },
@@ -458,18 +556,113 @@
           "id": 5,
           "sentence": "There are three [fans] in this tournament before the final match.",
           "highlighted": "fans",
-          "options": { "A": "medals", "B": "rounds", "C": "fans" },
+          "options": {
+            "A": "medals",
+            "B": "rounds",
+            "C": "fans"
+          },
           "answer": "B",
           "explanation": "'Fans' are the people who watch a sport — they cannot be counted as stages in a tournament. The stages you go through before a final are called 'rounds'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Người & vật trong thể thao",
+        "Giai đoạn thi đấu",
+        "Hành động thể thao"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "athlete",
+          "answer": "Người & vật trong thể thao"
+        },
+        {
+          "id": 2,
+          "word": "compete",
+          "answer": "Hành động thể thao"
+        },
+        {
+          "id": 3,
+          "word": "medal",
+          "answer": "Người & vật trong thể thao"
+        },
+        {
+          "id": 4,
+          "word": "final",
+          "answer": "Giai đoạn thi đấu"
+        },
+        {
+          "id": 5,
+          "word": "referee",
+          "answer": "Người & vật trong thể thao"
+        },
+        {
+          "id": 6,
+          "word": "train",
+          "answer": "Hành động thể thao"
+        },
+        {
+          "id": 7,
+          "word": "round",
+          "answer": "Giai đoạn thi đấu"
+        },
+        {
+          "id": 8,
+          "word": "fans",
+          "answer": "Người & vật trong thể thao"
+        },
+        {
+          "id": 9,
+          "word": "root for",
+          "answer": "Hành động thể thao"
+        },
+        {
+          "id": 10,
+          "word": "record",
+          "answer": "Giai đoạn thi đấu"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "B", "3": "A", "4": "E", "5": "D" },
-    "ex2": { "1": "referee", "2": "record", "3": "fans", "4": "medal", "5": "final" },
-    "ex3": { "1": "stadium", "2": "train", "3": "performance", "4": "compete", "5": "spirit" },
-    "ex4": { "1": "competitive", "2": "competed", "3": "performance", "4": "athletic", "5": "training" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "B" }
+    "ex1": {
+      "1": "C",
+      "2": "B",
+      "3": "A",
+      "4": "E",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "referee",
+      "2": "record",
+      "3": "fans",
+      "4": "medal",
+      "5": "final"
+    },
+    "ex3": {
+      "1": "stadium",
+      "2": "train",
+      "3": "performance",
+      "4": "compete",
+      "5": "spirit"
+    },
+    "ex4": {
+      "1": "competitive",
+      "2": "competed",
+      "3": "performance",
+      "4": "athletic",
+      "5": "training"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "B"
+    }
   }
 }

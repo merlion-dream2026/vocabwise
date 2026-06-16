@@ -198,6 +198,27 @@ export default function TopicPage() {
     audio.load()
   }
 
+  const LEVEL_LABELS: Record<string, string> = {
+    seeker: 'Pre-A1', starter: 'A1', ranger: 'A2',
+    explorer: 'B1', scholar: 'B2', master: 'C1',
+  }
+
+  function handleShare() {
+    const lvLabel = LEVEL_LABELS[level] ?? level
+    const text = [
+      `🏆 ${child?.name ? child.name + ' vừa' : 'Vừa'} chinh phục chủ đề ${(topic as { emoji: string }).emoji} ${(topic as { name: string }).name}!`,
+      `📚 VocabWise Daily${lvLabel ? ` · ${lvLabel}` : ''}`,
+      'Học tiếng Anh vui và hiệu quả',
+      'vocabwise.vercel.app',
+    ].join('\n')
+    if (navigator.share) {
+      navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.vercel.app' }).catch(() => {})
+    } else {
+      navigator.clipboard?.writeText(text).catch(() => {})
+      alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')
+    }
+  }
+
   function resetExercise() {
     setExerciseAnswers({})
     setExerciseSubmitted(false)
@@ -273,7 +294,16 @@ export default function TopicPage() {
                   </span>
                 </div>
               </div>
-              {isDone && <span className="text-2xl">🏆</span>}
+              {isDone && (
+                <div className="flex flex-col items-center gap-1 flex-shrink-0">
+                  <span className="text-2xl">🏆</span>
+                  <button
+                    onClick={handleShare}
+                    className="text-[11px] font-bold text-green-600 hover:text-green-700 leading-none">
+                    📤 Chia sẻ
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 

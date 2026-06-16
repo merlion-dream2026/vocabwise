@@ -2,7 +2,7 @@
 // Call initGameSync() before each game/review, flush() at completion.
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
-export type HistoryEntry = { words: number; games: number; xp: number }
+export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[] }
 export type SrsEntry = { interval: number; due: string; ef: number }
 
 let _childId = ''
@@ -31,6 +31,15 @@ function bumpHistory(field: 'words' | 'games' | 'xp', amount = 1) {
   const today = todayKey()
   const prev = _history[today] ?? { words: 0, games: 0, xp: 0 }
   _history = { ..._history, [today]: { ...prev, [field]: prev[field] + amount } }
+}
+
+function bumpTopic(topicId: string) {
+  const today = todayKey()
+  const prev = _history[today] ?? { words: 0, games: 0, xp: 0 }
+  const ids = prev.topicIds ?? []
+  if (!ids.includes(topicId)) {
+    _history = { ..._history, [today]: { ...prev, topicIds: [...ids, topicId] } }
+  }
 }
 
 export function initGameSync(childId: string, level: string, data: SyncData) {
@@ -145,6 +154,7 @@ export function recordFlashcardDone(_level: string, topicId: string) {
     _mastery = { ..._mastery, [topicId]: { ...entry, flashcard: true } }
     bumpHistory('games')
   }
+  bumpTopic(topicId)
 }
 
 export function recordPerfectGame(_level: string, topicId: string, gameKey: string) {
@@ -153,6 +163,7 @@ export function recordPerfectGame(_level: string, topicId: string, gameKey: stri
     _mastery = { ..._mastery, [topicId]: { ...entry, games: [...entry.games, gameKey] } }
     bumpHistory('games')
   }
+  bumpTopic(topicId)
 }
 
 export async function flush() {

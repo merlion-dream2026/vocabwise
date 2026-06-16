@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "boring" },
-        { "id": 2, "word": "prefer" },
-        { "id": 3, "word": "exciting" },
-        { "id": 4, "word": "enjoy" },
-        { "id": 5, "word": "favourite" }
+        {
+          "id": 1,
+          "word": "boring"
+        },
+        {
+          "id": 2,
+          "word": "prefer"
+        },
+        {
+          "id": 3,
+          "word": "exciting"
+        },
+        {
+          "id": 4,
+          "word": "enjoy"
+        },
+        {
+          "id": 5,
+          "word": "favourite"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to get pleasure from an activity or experience" },
-        { "id": "B", "text": "the one you like most of all, above everything else" },
-        { "id": "C", "text": "not interesting; making you feel tired and uninterested" },
-        { "id": "D", "text": "making you feel thrilled and full of energy" },
-        { "id": "E", "text": "to like one thing more than another" }
+        {
+          "id": "A",
+          "text": "to get pleasure from an activity or experience"
+        },
+        {
+          "id": "B",
+          "text": "the one you like most of all, above everything else"
+        },
+        {
+          "id": "C",
+          "text": "not interesting; making you feel tired and uninterested"
+        },
+        {
+          "id": "D",
+          "text": "making you feel thrilled and full of energy"
+        },
+        {
+          "id": "E",
+          "text": "to like one thing more than another"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "I _____ staying at home on weekends — I love going out with friends instead.",
-          "options": ["enjoy", "love", "hate", "prefer"],
+          "options": [
+            "enjoy",
+            "love",
+            "hate",
+            "prefer"
+          ],
           "answer": "hate"
         },
         {
           "id": 2,
           "sentence": "She _____ that the new café near school has really good food.",
-          "options": ["feels", "wants", "says", "hates"],
+          "options": [
+            "feels",
+            "wants",
+            "says",
+            "hates"
+          ],
           "answer": "says"
         },
         {
           "id": 3,
           "sentence": "The football match was so _____ — both teams scored in the last minute!",
-          "options": ["boring", "bad", "exciting", "fun"],
+          "options": [
+            "boring",
+            "bad",
+            "exciting",
+            "fun"
+          ],
           "answer": "exciting"
         },
         {
           "id": 4,
           "sentence": "My _____ subject at school is art because I love drawing and painting.",
-          "options": ["good", "favourite", "fun", "exciting"],
+          "options": [
+            "good",
+            "favourite",
+            "fun",
+            "exciting"
+          ],
           "answer": "favourite"
         },
         {
           "id": 5,
           "sentence": "He _____ coffee to tea because he likes the stronger flavour.",
-          "options": ["hates", "wants", "prefers", "enjoys"],
+          "options": [
+            "hates",
+            "wants",
+            "prefers",
+            "enjoys"
+          ],
           "answer": "prefers"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["fun", "bad", "enjoy", "feel", "think", "want"],
+      "word_bank": [
+        "fun",
+        "bad",
+        "enjoy",
+        "feel",
+        "think",
+        "want"
+      ],
       "items": [
-        { "id": 1, "sentence": "I _____ that learning new words every day is very useful.", "answer": "think" },
-        { "id": 2, "sentence": "We always _____ swimming in the sea during summer holidays.", "answer": "enjoy" },
-        { "id": 3, "sentence": "Eating too much fast food is _____ for your health.", "answer": "bad" },
-        { "id": 4, "sentence": "I _____ happy when I listen to my favourite songs.", "answer": "feel" },
-        { "id": 5, "sentence": "Playing outside with friends is always great _____.", "answer": "fun" }
+        {
+          "id": 1,
+          "sentence": "I _____ that learning new words every day is very useful.",
+          "answer": "think"
+        },
+        {
+          "id": 2,
+          "sentence": "We always _____ swimming in the sea during summer holidays.",
+          "answer": "enjoy"
+        },
+        {
+          "id": 3,
+          "sentence": "Eating too much fast food is _____ for your health.",
+          "answer": "bad"
+        },
+        {
+          "id": 4,
+          "sentence": "I _____ happy when I listen to my favourite songs.",
+          "answer": "feel"
+        },
+        {
+          "id": 5,
+          "sentence": "Playing outside with friends is always great _____.",
+          "answer": "fun"
+        }
       ],
       "note": "One word in the box is not used: want"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "I [hate] swimming in the sea — I go there every weekend because it makes me so happy.",
           "highlighted": "hate",
-          "options": { "A": "love", "B": "hate", "C": "prefer" },
+          "options": {
+            "A": "love",
+            "B": "hate",
+            "C": "prefer"
+          },
           "answer": "A",
           "explanation": "The sentence describes someone who goes swimming every weekend and feels happy. This shows a strong positive feeling, so 'love' is correct — not 'hate', which means a strong dislike."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "Staying inside when it rains is very [exciting] — there is nothing to do and time passes slowly.",
           "highlighted": "exciting",
-          "options": { "A": "fun", "B": "good", "C": "boring" },
+          "options": {
+            "A": "fun",
+            "B": "good",
+            "C": "boring"
+          },
           "answer": "C",
           "explanation": "'Exciting' means something that makes you feel thrilled and energetic. The sentence describes nothing to do and slow time — this is the opposite. The correct word is 'boring'."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "My [least] colour is green — I use it in almost all of my paintings.",
           "highlighted": "least",
-          "options": { "A": "worst", "B": "least", "C": "favourite" },
+          "options": {
+            "A": "worst",
+            "B": "least",
+            "C": "favourite"
+          },
           "answer": "C",
           "explanation": "'Least' means the smallest amount and does not describe preference correctly here. When you use a colour in almost all your paintings, it must be your 'favourite' — the one you like most."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "She [thought] to her friend that the homework was too difficult.",
           "highlighted": "thought",
-          "options": { "A": "said", "B": "thought", "C": "felt" },
+          "options": {
+            "A": "said",
+            "B": "thought",
+            "C": "felt"
+          },
           "answer": "A",
           "explanation": "The preposition 'to' after the verb shows communication directed at another person. 'Said to' means you told someone something. 'Thought' is an internal action — you cannot 'thought to' someone."
         },
@@ -455,18 +553,128 @@
           "id": 5,
           "sentence": "Eating too much chocolate is [good] for your teeth and makes them hurt.",
           "highlighted": "good",
-          "options": { "A": "boring", "B": "exciting", "C": "bad" },
+          "options": {
+            "A": "boring",
+            "B": "exciting",
+            "C": "bad"
+          },
           "answer": "C",
           "explanation": "'Good' means positive or helpful. The sentence says eating too much chocolate makes your teeth hurt — this is a negative result. The correct word is 'bad', which means harmful."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "I like swimming.",
+          "b": "I enjoy swimming.",
+          "answer": "S",
+          "explanation": "Like and enjoy both express a positive feeling toward an activity. In this context, these two sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "This book is boring.",
+          "b": "This book is exciting.",
+          "answer": "D",
+          "explanation": "Boring means dull and uninteresting. Exciting means thrilling and full of interest. These are opposites — the sentences say completely different things about the book."
+        },
+        {
+          "id": 3,
+          "a": "She loves chocolate.",
+          "b": "She hates chocolate.",
+          "answer": "D",
+          "explanation": "Love and hate are opposites. Love means a very strong positive feeling; hate means a very strong negative feeling. These sentences mean the opposite of each other."
+        },
+        {
+          "id": 4,
+          "a": "It's my favourite song.",
+          "b": "It's a good song.",
+          "answer": "D",
+          "explanation": "\"Favourite\" means the one you like most out of all. \"Good\" just means positive quality. Something can be good without being your favourite, so these sentences have different meanings."
+        },
+        {
+          "id": 5,
+          "a": "I prefer tea to coffee.",
+          "b": "I like tea more than coffee.",
+          "answer": "S",
+          "explanation": "\"Prefer\" and \"like more than\" both express that one option is chosen over another. These two sentences express the same comparison."
+        },
+        {
+          "id": 6,
+          "a": "What do you think about this?",
+          "b": "How do you feel about this?",
+          "answer": "S",
+          "explanation": "In everyday conversation, \"think about\" and \"feel about\" are both used to ask for someone's opinion. These sentences invite the same type of response."
+        },
+        {
+          "id": 7,
+          "a": "This film is fun.",
+          "b": "This film is exciting.",
+          "answer": "S",
+          "explanation": "Fun and exciting both describe something that is enjoyable and engaging. In casual use, these sentences give the same positive impression of the film."
+        },
+        {
+          "id": 8,
+          "a": "I want a new phone.",
+          "b": "I love my new phone.",
+          "answer": "D",
+          "explanation": "\"Want\" describes a desire for something you do not yet have. \"Love\" describes a strong positive feeling about something you already have. These sentences describe different situations."
+        },
+        {
+          "id": 9,
+          "a": "She said she liked it.",
+          "b": "She thought she liked it.",
+          "answer": "D",
+          "explanation": "\"Said\" means she stated this out loud. \"Thought\" means it was in her mind. One is a spoken statement; the other is an internal feeling — these describe different things."
+        },
+        {
+          "id": 10,
+          "a": "She loves this song.",
+          "b": "This is her favourite song.",
+          "answer": "S",
+          "explanation": "\"Love\" and \"favourite\" both express the highest level of enjoyment for a song. In everyday use, these two sentences carry the same meaning."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "E", "3": "D", "4": "A", "5": "B" },
-    "ex2": { "1": "hate", "2": "says", "3": "exciting", "4": "favourite", "5": "prefers" },
-    "ex3": { "1": "think", "2": "enjoy", "3": "bad", "4": "feel", "5": "fun" },
-    "ex4": { "1": "boring", "2": "excitement", "3": "honestly", "4": "preference", "5": "thoughtfully" },
-    "ex5": { "1": "A", "2": "C", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "D",
+      "4": "A",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "hate",
+      "2": "says",
+      "3": "exciting",
+      "4": "favourite",
+      "5": "prefers"
+    },
+    "ex3": {
+      "1": "think",
+      "2": "enjoy",
+      "3": "bad",
+      "4": "feel",
+      "5": "fun"
+    },
+    "ex4": {
+      "1": "boring",
+      "2": "excitement",
+      "3": "honestly",
+      "4": "preference",
+      "5": "thoughtfully"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

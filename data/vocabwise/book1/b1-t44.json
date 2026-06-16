@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "depart" },
-        { "id": 2, "word": "souvenir" },
-        { "id": 3, "word": "itinerary" },
-        { "id": 4, "word": "exhausted" },
-        { "id": 5, "word": "scenery" }
+        {
+          "id": 1,
+          "word": "depart"
+        },
+        {
+          "id": 2,
+          "word": "souvenir"
+        },
+        {
+          "id": 3,
+          "word": "itinerary"
+        },
+        {
+          "id": 4,
+          "word": "exhausted"
+        },
+        {
+          "id": 5,
+          "word": "scenery"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a planned schedule that shows where you will go and what you will do on a trip" },
-        { "id": "B", "text": "the natural features of an area, such as mountains, rivers, and countryside, that are pleasant to look at" },
-        { "id": "C", "text": "a small object you buy or keep to remind you of a place you have visited" },
-        { "id": "D", "text": "feeling extremely tired after a lot of physical activity or effort" },
-        { "id": "E", "text": "to leave a place, especially at the start of a journey" }
+        {
+          "id": "A",
+          "text": "a planned schedule that shows where you will go and what you will do on a trip"
+        },
+        {
+          "id": "B",
+          "text": "the natural features of an area, such as mountains, rivers, and countryside, that are pleasant to look at"
+        },
+        {
+          "id": "C",
+          "text": "a small object you buy or keep to remind you of a place you have visited"
+        },
+        {
+          "id": "D",
+          "text": "feeling extremely tired after a lot of physical activity or effort"
+        },
+        {
+          "id": "E",
+          "text": "to leave a place, especially at the start of a journey"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She bought a small painted fan as a _____ for her grandmother from the old market.",
-          "options": ["scenery", "souvenir", "photo", "itinerary"],
+          "options": [
+            "scenery",
+            "souvenir",
+            "photo",
+            "itinerary"
+          ],
           "answer": "souvenir"
         },
         {
           "id": 2,
           "sentence": "The bus will _____ at eight o'clock sharp, so please do not be late.",
-          "options": ["enjoy", "explore", "depart", "head back"],
+          "options": [
+            "enjoy",
+            "explore",
+            "depart",
+            "head back"
+          ],
           "answer": "depart"
         },
         {
           "id": 3,
           "sentence": "We had free time in the afternoon to _____ the market and try local food.",
-          "options": ["depart", "explore", "get lost", "enjoy"],
+          "options": [
+            "depart",
+            "explore",
+            "get lost",
+            "enjoy"
+          ],
           "answer": "explore"
         },
         {
           "id": 4,
           "sentence": "After a long day of walking, we were completely _____ and fell asleep on the bus.",
-          "options": ["lost", "scenic", "exhausted", "departed"],
+          "options": [
+            "lost",
+            "scenic",
+            "exhausted",
+            "departed"
+          ],
           "answer": "exhausted"
         },
         {
           "id": 5,
           "sentence": "The mountains provided beautiful _____ for our photos near the waterfall.",
-          "options": ["trip", "scenery", "destination", "booth"],
+          "options": [
+            "trip",
+            "scenery",
+            "destination",
+            "booth"
+          ],
           "answer": "scenery"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["get lost", "tour guide", "head back", "sightseeing", "ticket booth", "photo"],
+      "word_bank": [
+        "get lost",
+        "tour guide",
+        "head back",
+        "sightseeing",
+        "ticket booth",
+        "photo"
+      ],
       "items": [
-        { "id": 1, "sentence": "We queued for fifteen minutes at the _____ before we could enter the museum.", "answer": "ticket booth" },
-        { "id": 2, "sentence": "Our _____ showed us all the important places and explained the history of each one.", "answer": "tour guide" },
-        { "id": 3, "sentence": "We spent the morning _____ around the old town before stopping for lunch.", "answer": "sightseeing" },
-        { "id": 4, "sentence": "It was getting dark, so we decided to _____ before the roads became too busy.", "answer": "head back" },
-        { "id": 5, "sentence": "If you do not have a map, it is very easy to _____ in a big city.", "answer": "get lost" }
+        {
+          "id": 1,
+          "sentence": "We queued for fifteen minutes at the _____ before we could enter the museum.",
+          "answer": "ticket booth"
+        },
+        {
+          "id": 2,
+          "sentence": "Our _____ showed us all the important places and explained the history of each one.",
+          "answer": "tour guide"
+        },
+        {
+          "id": 3,
+          "sentence": "We spent the morning _____ around the old town before stopping for lunch.",
+          "answer": "sightseeing"
+        },
+        {
+          "id": 4,
+          "sentence": "It was getting dark, so we decided to _____ before the roads became too busy.",
+          "answer": "head back"
+        },
+        {
+          "id": 5,
+          "sentence": "If you do not have a map, it is very easy to _____ in a big city.",
+          "answer": "get lost"
+        }
       ],
       "note": "One word in the box is not used: photo"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "We bought our entry tickets at the [souvenir] near the main entrance.",
           "highlighted": "souvenir",
-          "options": { "A": "souvenir", "B": "scenery", "C": "ticket booth" },
+          "options": {
+            "A": "souvenir",
+            "B": "scenery",
+            "C": "ticket booth"
+          },
           "answer": "C",
           "explanation": "A 'souvenir' is a small gift or keepsake — you cannot buy entry tickets there. The place where you purchase tickets to enter a venue is a 'ticket booth'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "After a long day of walking, we decided to [depart] to our hotel and rest.",
           "highlighted": "depart",
-          "options": { "A": "head back", "B": "depart", "C": "get lost" },
+          "options": {
+            "A": "head back",
+            "B": "depart",
+            "C": "get lost"
+          },
           "answer": "A",
           "explanation": "'Depart' means to leave a place at the start of a journey — not to return. When you go back to where you started, you 'head back'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The [itinerary] in the countryside was stunning — green hills and a wide blue river.",
           "highlighted": "itinerary",
-          "options": { "A": "destination", "B": "trip", "C": "scenery" },
+          "options": {
+            "A": "destination",
+            "B": "trip",
+            "C": "scenery"
+          },
           "answer": "C",
           "explanation": "An 'itinerary' is a travel schedule, not a visual description of a place. Beautiful natural views such as hills and rivers are described as 'scenery'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "Our [exhausted] took us to all the famous sites and explained the local history.",
           "highlighted": "exhausted",
-          "options": { "A": "souvenir", "B": "tour guide", "C": "exhausted" },
+          "options": {
+            "A": "souvenir",
+            "B": "tour guide",
+            "C": "exhausted"
+          },
           "answer": "B",
           "explanation": "'Exhausted' is an adjective meaning very tired — a person cannot be described as a job title. The person who leads tourists and explains history is a 'tour guide'."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "She [enjoyed] in the narrow streets and couldn't find her way back to the group.",
           "highlighted": "enjoyed",
-          "options": { "A": "got lost", "B": "headed back", "C": "enjoyed" },
+          "options": {
+            "A": "got lost",
+            "B": "headed back",
+            "C": "enjoyed"
+          },
           "answer": "A",
           "explanation": "'Enjoyed' means to have a pleasant time — it does not describe the situation of not being able to find your way. The correct phrase is 'got lost'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "depart",
+            "explore",
+            "enjoy",
+            "souvenir"
+          ],
+          "answer": "souvenir",
+          "reason": "depart, explore, and enjoy are verbs — things you do on a trip. 'souvenir' is a noun — an object you buy to remember the place you visited.",
+          "reason_vi": "depart, explore và enjoy đều là động từ — thứ bạn làm trong chuyến đi. 'souvenir' là danh từ — đồ vật bạn mua để nhớ nơi đã thăm."
+        },
+        {
+          "id": 2,
+          "words": [
+            "trip",
+            "destination",
+            "scenery",
+            "explore"
+          ],
+          "answer": "explore",
+          "reason": "trip, destination, and scenery are nouns — the journey, the place you go to, and the views you see. 'explore' is a verb — the active action of discovering and looking around.",
+          "reason_vi": "trip, destination và scenery đều là danh từ. 'explore' là động từ — hành động chủ động khám phá và nhìn xung quanh."
+        },
+        {
+          "id": 3,
+          "words": [
+            "depart",
+            "get lost",
+            "head back",
+            "exhausted"
+          ],
+          "answer": "exhausted",
+          "reason": "depart, get lost, and head back are all verbs describing movement on a trip. 'exhausted' is an adjective — it describes how you feel after a long day of travelling.",
+          "reason_vi": "depart, get lost và head back đều là động từ mô tả sự di chuyển trong chuyến đi. 'exhausted' là tính từ — mô tả cảm giác sau một ngày dài di chuyển."
+        },
+        {
+          "id": 4,
+          "words": [
+            "itinerary",
+            "souvenir",
+            "photo",
+            "depart"
+          ],
+          "answer": "depart",
+          "reason": "itinerary, souvenir, and photo are all nouns — things you plan, bring back, or take on a trip. 'depart' is a verb — the action of leaving a place to start your journey.",
+          "reason_vi": "itinerary, souvenir và photo đều là danh từ. 'depart' là động từ — hành động rời đi để bắt đầu hành trình."
+        },
+        {
+          "id": 5,
+          "words": [
+            "trip",
+            "destination",
+            "ticket booth",
+            "tour guide"
+          ],
+          "answer": "tour guide",
+          "reason": "trip, destination, and ticket booth are all things related to the journey or place. 'tour guide' is a person — the professional who leads you and explains the sights.",
+          "reason_vi": "trip, destination và ticket booth đều liên quan đến hành trình hoặc địa điểm. 'tour guide' là người — chuyên gia dẫn đường và giải thích các điểm tham quan."
+        },
+        {
+          "id": 6,
+          "words": [
+            "depart",
+            "explore",
+            "head back",
+            "scenery"
+          ],
+          "answer": "scenery",
+          "reason": "depart, explore, and head back are verbs describing movement during a trip. 'scenery' is a noun — the natural or urban views you see along the way.",
+          "reason_vi": "depart, explore và head back đều là động từ mô tả sự di chuyển. 'scenery' là danh từ — phong cảnh thiên nhiên hoặc đô thị bạn nhìn thấy trên đường."
+        },
+        {
+          "id": 7,
+          "words": [
+            "trip",
+            "destination",
+            "itinerary",
+            "enjoy"
+          ],
+          "answer": "enjoy",
+          "reason": "trip, destination, and itinerary are all nouns related to planning and going on a journey. 'enjoy' is a verb — it expresses a feeling of pleasure, not a planning concept.",
+          "reason_vi": "trip, destination và itinerary đều là danh từ liên quan đến lập kế hoạch và đi du lịch. 'enjoy' là động từ — thể hiện cảm giác vui thích, không phải khái niệm lên kế hoạch."
+        },
+        {
+          "id": 8,
+          "words": [
+            "souvenir",
+            "photo",
+            "scenery",
+            "sightseeing"
+          ],
+          "answer": "sightseeing",
+          "reason": "souvenir, photo, and scenery are all things — objects, images, or views from a trip. 'sightseeing' is an activity — the act of visiting places to see interesting things.",
+          "reason_vi": "souvenir, photo và scenery đều là thứ vật thể hoặc hình ảnh. 'sightseeing' là hoạt động — hành động ghé thăm các nơi để xem những điều thú vị."
+        },
+        {
+          "id": 9,
+          "words": [
+            "depart",
+            "explore",
+            "enjoy",
+            "itinerary"
+          ],
+          "answer": "itinerary",
+          "reason": "depart, explore, and enjoy are all verbs — actions you take during a trip. 'itinerary' is a noun — the written plan or schedule made before the trip begins.",
+          "reason_vi": "depart, explore và enjoy đều là động từ — hành động trong chuyến đi. 'itinerary' là danh từ — kế hoạch hoặc lịch trình được viết ra trước chuyến đi."
+        },
+        {
+          "id": 10,
+          "words": [
+            "destination",
+            "scenery",
+            "souvenir",
+            "get lost"
+          ],
+          "answer": "get lost",
+          "reason": "destination, scenery, and souvenir are all positive parts of a trip — the place, the views, and the keepsakes. 'get lost' is a problem — something that goes wrong, not a planned highlight.",
+          "reason_vi": "destination, scenery và souvenir đều là phần tích cực của chuyến đi. 'get lost' là sự cố — thứ xảy ra không mong muốn, không phải điểm nhấn đã lên kế hoạch."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "C", "3": "A", "4": "D", "5": "B" },
-    "ex2": { "1": "souvenir", "2": "depart", "3": "explore", "4": "exhausted", "5": "scenery" },
-    "ex3": { "1": "ticket booth", "2": "tour guide", "3": "sightseeing", "4": "head back", "5": "get lost" },
-    "ex4": { "1": "enjoyable", "2": "scenic", "3": "exploration", "4": "exhaustion", "5": "departure" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "A",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "souvenir",
+      "2": "depart",
+      "3": "explore",
+      "4": "exhausted",
+      "5": "scenery"
+    },
+    "ex3": {
+      "1": "ticket booth",
+      "2": "tour guide",
+      "3": "sightseeing",
+      "4": "head back",
+      "5": "get lost"
+    },
+    "ex4": {
+      "1": "enjoyable",
+      "2": "scenic",
+      "3": "exploration",
+      "4": "exhaustion",
+      "5": "departure"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }

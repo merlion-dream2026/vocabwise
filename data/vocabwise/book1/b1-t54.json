@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "narrator" },
-        { "id": 2, "word": "moral" },
-        { "id": 3, "word": "setting" },
-        { "id": 4, "word": "villain" },
-        { "id": 5, "word": "plot" }
+        {
+          "id": 1,
+          "word": "narrator"
+        },
+        {
+          "id": 2,
+          "word": "moral"
+        },
+        {
+          "id": 3,
+          "word": "setting"
+        },
+        {
+          "id": 4,
+          "word": "villain"
+        },
+        {
+          "id": 5,
+          "word": "plot"
+        }
       ],
       "options": [
-        { "id": "A", "text": "the series of events that happen in a story" },
-        { "id": "B", "text": "the time and place where a story happens" },
-        { "id": "C", "text": "the important life lesson that a story teaches" },
-        { "id": "D", "text": "a bad person in a story who does harmful or evil things" },
-        { "id": "E", "text": "the person who tells the story to the reader or listener" }
+        {
+          "id": "A",
+          "text": "the series of events that happen in a story"
+        },
+        {
+          "id": "B",
+          "text": "the time and place where a story happens"
+        },
+        {
+          "id": "C",
+          "text": "the important life lesson that a story teaches"
+        },
+        {
+          "id": "D",
+          "text": "a bad person in a story who does harmful or evil things"
+        },
+        {
+          "id": "E",
+          "text": "the person who tells the story to the reader or listener"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "At the _____ of every good story, we learn who the main character is and where they live.",
-          "options": ["end", "beginning", "middle", "detail"],
+          "options": [
+            "end",
+            "beginning",
+            "middle",
+            "detail"
+          ],
           "answer": "beginning"
         },
         {
           "id": 2,
           "sentence": "Dragons and flying carpets are _____ — they do not exist in the real world.",
-          "options": ["real", "moral", "made-up", "detailed"],
+          "options": [
+            "real",
+            "moral",
+            "made-up",
+            "detailed"
+          ],
           "answer": "made-up"
         },
         {
           "id": 3,
           "sentence": "The _____ of the story is 'always be kind to others, even when it is difficult'.",
-          "options": ["plot", "setting", "narrator", "moral"],
+          "options": [
+            "plot",
+            "setting",
+            "narrator",
+            "moral"
+          ],
           "answer": "moral"
         },
         {
           "id": 4,
           "sentence": "Can you _____ what it would feel like to live inside a fairy tale?",
-          "options": ["retell", "imagine", "end", "detail"],
+          "options": [
+            "retell",
+            "imagine",
+            "end",
+            "detail"
+          ],
           "answer": "imagine"
         },
         {
           "id": 5,
           "sentence": "The _____ speaks slowly and clearly so all the children can understand the story.",
-          "options": ["villain", "hero", "narrator", "character"],
+          "options": [
+            "villain",
+            "hero",
+            "narrator",
+            "character"
+          ],
           "answer": "narrator"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["retell", "hero", "end", "detail", "real", "setting"],
+      "word_bank": [
+        "retell",
+        "hero",
+        "end",
+        "detail",
+        "real",
+        "setting"
+      ],
       "items": [
-        { "id": 1, "sentence": "The _____ of the story is a forest in winter — cold, dark, and full of mystery.", "answer": "setting" },
-        { "id": 2, "sentence": "The brave _____ climbs the mountain to rescue the people in the village.", "answer": "hero" },
-        { "id": 3, "sentence": "At the _____ of the book, all the problems are solved and everyone is happy.", "answer": "end" },
-        { "id": 4, "sentence": "This story is _____ — it is based on true events that happened in Vietnam.", "answer": "real" },
-        { "id": 5, "sentence": "Can you _____ the story from the beginning? I missed the first part.", "answer": "retell" }
+        {
+          "id": 1,
+          "sentence": "The _____ of the story is a forest in winter — cold, dark, and full of mystery.",
+          "answer": "setting"
+        },
+        {
+          "id": 2,
+          "sentence": "The brave _____ climbs the mountain to rescue the people in the village.",
+          "answer": "hero"
+        },
+        {
+          "id": 3,
+          "sentence": "At the _____ of the book, all the problems are solved and everyone is happy.",
+          "answer": "end"
+        },
+        {
+          "id": 4,
+          "sentence": "This story is _____ — it is based on true events that happened in Vietnam.",
+          "answer": "real"
+        },
+        {
+          "id": 5,
+          "sentence": "Can you _____ the story from the beginning? I missed the first part.",
+          "answer": "retell"
+        }
       ],
       "note": "One word in the box is not used: detail"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "The [villain] saves the princess from the dragon and becomes a national hero.",
           "highlighted": "villain",
-          "options": { "A": "narrator", "B": "villain", "C": "hero" },
+          "options": {
+            "A": "narrator",
+            "B": "villain",
+            "C": "hero"
+          },
           "answer": "C",
           "explanation": "A 'villain' is the bad character in a story who causes trouble. Someone who saves others and does brave things is a 'hero', not a villain."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "Every story has a [beginning], a middle, and a [narrator].",
           "highlighted": "narrator",
-          "options": { "A": "end", "B": "narrator", "C": "detail" },
+          "options": {
+            "A": "end",
+            "B": "narrator",
+            "C": "detail"
+          },
           "answer": "A",
           "explanation": "A story has three main parts: a beginning, a middle, and an end. A 'narrator' is the person who tells the story — not a structural part of it."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "Dragons are [real] — they are characters you can only find in made-up stories.",
           "highlighted": "real",
-          "options": { "A": "real", "B": "heroic", "C": "made-up" },
+          "options": {
+            "A": "real",
+            "B": "heroic",
+            "C": "made-up"
+          },
           "answer": "C",
           "explanation": "'Real' means actually existing in the world. Because the sentence says dragons only exist in fiction, the correct word is 'made-up', not real."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "The teacher asked us to [imagine] the story using our own words after reading.",
           "highlighted": "imagine",
-          "options": { "A": "retell", "B": "begin", "C": "imagine" },
+          "options": {
+            "A": "retell",
+            "B": "begin",
+            "C": "imagine"
+          },
           "answer": "A",
           "explanation": "'Imagine' means to create a picture or idea in your mind. To say a story again in your own words after reading it is to 'retell' it."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "The [setting] of the story teaches us that we should always help people in need.",
           "highlighted": "setting",
-          "options": { "A": "plot", "B": "setting", "C": "moral" },
+          "options": {
+            "A": "plot",
+            "B": "setting",
+            "C": "moral"
+          },
           "answer": "C",
           "explanation": "The 'setting' is the time and place where the story happens. The lesson or message that a story teaches us about life is called the 'moral'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nhân vật",
+        "Cấu trúc câu chuyện",
+        "Hành động & khái niệm"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "hero",
+          "answer": "Nhân vật"
+        },
+        {
+          "id": 2,
+          "word": "beginning",
+          "answer": "Cấu trúc câu chuyện"
+        },
+        {
+          "id": 3,
+          "word": "villain",
+          "answer": "Nhân vật"
+        },
+        {
+          "id": 4,
+          "word": "retell",
+          "answer": "Hành động & khái niệm"
+        },
+        {
+          "id": 5,
+          "word": "plot",
+          "answer": "Cấu trúc câu chuyện"
+        },
+        {
+          "id": 6,
+          "word": "narrator",
+          "answer": "Nhân vật"
+        },
+        {
+          "id": 7,
+          "word": "moral",
+          "answer": "Hành động & khái niệm"
+        },
+        {
+          "id": 8,
+          "word": "setting",
+          "answer": "Cấu trúc câu chuyện"
+        },
+        {
+          "id": 9,
+          "word": "character",
+          "answer": "Nhân vật"
+        },
+        {
+          "id": 10,
+          "word": "imagine",
+          "answer": "Hành động & khái niệm"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "C", "3": "B", "4": "D", "5": "A" },
-    "ex2": { "1": "beginning", "2": "made-up", "3": "moral", "4": "imagine", "5": "narrator" },
-    "ex3": { "1": "setting", "2": "hero", "3": "end", "4": "real", "5": "retell" },
-    "ex4": { "1": "reality", "2": "detailed", "3": "narrated", "4": "imagination", "5": "moral" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "B",
+      "4": "D",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "beginning",
+      "2": "made-up",
+      "3": "moral",
+      "4": "imagine",
+      "5": "narrator"
+    },
+    "ex3": {
+      "1": "setting",
+      "2": "hero",
+      "3": "end",
+      "4": "real",
+      "5": "retell"
+    },
+    "ex4": {
+      "1": "reality",
+      "2": "detailed",
+      "3": "narrated",
+      "4": "imagination",
+      "5": "moral"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "solution" },
-        { "id": 2, "word": "urgent" },
-        { "id": 3, "word": "damage" },
-        { "id": 4, "word": "caution" },
-        { "id": 5, "word": "replace" }
+        {
+          "id": 1,
+          "word": "solution"
+        },
+        {
+          "id": 2,
+          "word": "urgent"
+        },
+        {
+          "id": 3,
+          "word": "damage"
+        },
+        {
+          "id": 4,
+          "word": "caution"
+        },
+        {
+          "id": 5,
+          "word": "replace"
+        }
       ],
       "options": [
-        { "id": "A", "text": "harm or injury caused to something, making it less useful or good" },
-        { "id": "B", "text": "to put something new in the place of something old or broken" },
-        { "id": "C", "text": "needing to be done immediately because it is very important" },
-        { "id": "D", "text": "care taken to avoid danger or making mistakes" },
-        { "id": "E", "text": "an answer to a problem or a way of dealing with a difficult situation" }
+        {
+          "id": "A",
+          "text": "harm or injury caused to something, making it less useful or good"
+        },
+        {
+          "id": "B",
+          "text": "to put something new in the place of something old or broken"
+        },
+        {
+          "id": "C",
+          "text": "needing to be done immediately because it is very important"
+        },
+        {
+          "id": "D",
+          "text": "care taken to avoid danger or making mistakes"
+        },
+        {
+          "id": "E",
+          "text": "an answer to a problem or a way of dealing with a difficult situation"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "The technician used a special _____ to open the back of the machine.",
-          "options": ["tool", "damage", "report", "solution"],
+          "options": [
+            "tool",
+            "damage",
+            "report",
+            "solution"
+          ],
           "answer": "tool"
         },
         {
           "id": 2,
           "sentence": "We need to act fast — this is an _____ situation and cannot wait until tomorrow.",
-          "options": ["broken", "urgent", "wrong", "careful"],
+          "options": [
+            "broken",
+            "urgent",
+            "wrong",
+            "careful"
+          ],
           "answer": "urgent"
         },
         {
           "id": 3,
           "sentence": "After many tries, she finally managed to _____ in fixing the old clock.",
-          "options": ["break", "damage", "succeed", "replace"],
+          "options": [
+            "break",
+            "damage",
+            "succeed",
+            "replace"
+          ],
           "answer": "succeed"
         },
         {
           "id": 4,
           "sentence": "Something is _____ with this phone — the screen keeps turning off by itself.",
-          "options": ["wrong", "urgent", "fixed", "damaged"],
+          "options": [
+            "wrong",
+            "urgent",
+            "fixed",
+            "damaged"
+          ],
           "answer": "wrong"
         },
         {
           "id": 5,
           "sentence": "The teacher asked the students to use _____ when handling the science equipment.",
-          "options": ["report", "repair", "solution", "caution"],
+          "options": [
+            "report",
+            "repair",
+            "solution",
+            "caution"
+          ],
           "answer": "caution"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["repair", "problem", "replace", "fix", "report", "break"],
+      "word_bank": [
+        "repair",
+        "problem",
+        "replace",
+        "fix",
+        "report",
+        "break"
+      ],
       "items": [
-        { "id": 1, "sentence": "We need to _____ this issue before the next class begins.", "answer": "fix" },
-        { "id": 2, "sentence": "The mechanic said he can _____ the engine in about two hours.", "answer": "repair" },
-        { "id": 3, "sentence": "She wrote a _____ about the accident and gave it to her teacher.", "answer": "report" },
-        { "id": 4, "sentence": "We will _____ the old chairs with new ones next week.", "answer": "replace" },
-        { "id": 5, "sentence": "The main _____ is that the battery is completely empty.", "answer": "problem" }
+        {
+          "id": 1,
+          "sentence": "We need to _____ this issue before the next class begins.",
+          "answer": "fix"
+        },
+        {
+          "id": 2,
+          "sentence": "The mechanic said he can _____ the engine in about two hours.",
+          "answer": "repair"
+        },
+        {
+          "id": 3,
+          "sentence": "She wrote a _____ about the accident and gave it to her teacher.",
+          "answer": "report"
+        },
+        {
+          "id": 4,
+          "sentence": "We will _____ the old chairs with new ones next week.",
+          "answer": "replace"
+        },
+        {
+          "id": 5,
+          "sentence": "The main _____ is that the battery is completely empty.",
+          "answer": "problem"
+        }
       ],
       "note": "One word in the box is not used: break"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "The engineer used a [solution] to tighten the screws on the broken machine.",
           "highlighted": "solution",
-          "options": { "A": "caution", "B": "solution", "C": "tool" },
+          "options": {
+            "A": "caution",
+            "B": "solution",
+            "C": "tool"
+          },
           "answer": "C",
           "explanation": "A 'solution' is an answer to a problem, not a physical object. The word needed here is 'tool' — a physical device used to do a job, like tightening screws."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "Please [fix] when you walk near the broken glass on the floor.",
           "highlighted": "fix",
-          "options": { "A": "use caution", "B": "fix", "C": "report" },
+          "options": {
+            "A": "use caution",
+            "B": "fix",
+            "C": "report"
+          },
           "answer": "A",
           "explanation": "'Fix' means to repair something. When you need to be careful while walking near danger, the correct phrase is 'use caution' — meaning to act carefully and safely."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "We must find a [damage] to the power problem before the meeting starts.",
           "highlighted": "damage",
-          "options": { "A": "report", "B": "damage", "C": "solution" },
+          "options": {
+            "A": "report",
+            "B": "damage",
+            "C": "solution"
+          },
           "answer": "C",
           "explanation": "'Damage' refers to harm or injury to something. When you need to deal with a problem, you find a 'solution' — a way to fix or solve it."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "The student wrote a long [solution] about the damage to the school equipment.",
           "highlighted": "solution",
-          "options": { "A": "report", "B": "solution", "C": "tool" },
+          "options": {
+            "A": "report",
+            "B": "solution",
+            "C": "tool"
+          },
           "answer": "A",
           "explanation": "A 'solution' is an answer to a problem. A written document that describes something that happened — like damage to equipment — is a 'report'."
         },
@@ -452,18 +550,128 @@
           "id": 5,
           "sentence": "The old battery stopped working, so we had to [damage] it with a new one.",
           "highlighted": "damage",
-          "options": { "A": "damage", "B": "replace", "C": "break" },
+          "options": {
+            "A": "damage",
+            "B": "replace",
+            "C": "break"
+          },
           "answer": "B",
           "explanation": "'Damage' means to harm something. When something stops working and you put a new one in its place, you 'replace' it — not damage it."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Can you fix the machine?",
+          "b": "Can you repair the machine?",
+          "answer": "S",
+          "explanation": "Fix and repair both mean to correct a problem and make something work again. They are near-synonyms and can replace each other in most contexts."
+        },
+        {
+          "id": 2,
+          "a": "The machine is broken.",
+          "b": "The machine is damaged.",
+          "answer": "S",
+          "explanation": "Broken and damaged both describe something that is not working or in its full condition. These sentences carry the same basic meaning."
+        },
+        {
+          "id": 3,
+          "a": "This answer is wrong.",
+          "b": "This answer is incorrect.",
+          "answer": "S",
+          "explanation": "Wrong and incorrect both mean that something does not match the right answer. They are near-synonyms in this context."
+        },
+        {
+          "id": 4,
+          "a": "She tried many times.",
+          "b": "She succeeded many times.",
+          "answer": "D",
+          "explanation": "Try means to make an attempt. Succeed means to achieve the goal. You can try without succeeding, so these describe different things."
+        },
+        {
+          "id": 5,
+          "a": "We need to replace the old part.",
+          "b": "We need to fix the old part.",
+          "answer": "D",
+          "explanation": "Replace means to swap the old part for a new one. Fix means to repair the old part so it works again. These are different solutions to the same problem."
+        },
+        {
+          "id": 6,
+          "a": "The problem is urgent.",
+          "b": "The problem is important.",
+          "answer": "S",
+          "explanation": "Urgent and important both describe something that needs attention. In everyday use, these two sentences suggest the problem cannot wait."
+        },
+        {
+          "id": 7,
+          "a": "Please use the right tool.",
+          "b": "Please use the right machine.",
+          "answer": "D",
+          "explanation": "A tool is a small, hand-held instrument (like a hammer). A machine is a larger device with many parts. These describe very different objects."
+        },
+        {
+          "id": 8,
+          "a": "She found the solution.",
+          "b": "She found the answer.",
+          "answer": "S",
+          "explanation": "Solution and answer both refer to what you find when you solve a problem. In everyday use, these sentences mean the same thing."
+        },
+        {
+          "id": 9,
+          "a": "He reported the problem to his manager.",
+          "b": "He fixed the problem himself.",
+          "answer": "D",
+          "explanation": "Report means to tell someone in authority about an issue. Fix means to solve it directly. These describe completely different responses to the same problem."
+        },
+        {
+          "id": 10,
+          "a": "Exercise caution when using this tool.",
+          "b": "Be careful when using this tool.",
+          "answer": "S",
+          "explanation": "Caution and careful both advise someone to act slowly and safely. In this context, the two sentences give the same warning."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "C", "3": "A", "4": "D", "5": "B" },
-    "ex2": { "1": "tool", "2": "urgent", "3": "succeed", "4": "wrong", "5": "caution" },
-    "ex3": { "1": "fix", "2": "repair", "3": "report", "4": "replace", "5": "problem" },
-    "ex4": { "1": "cautiously", "2": "success", "3": "damaged", "4": "replacement", "5": "urgently" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "B" }
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "A",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "tool",
+      "2": "urgent",
+      "3": "succeed",
+      "4": "wrong",
+      "5": "caution"
+    },
+    "ex3": {
+      "1": "fix",
+      "2": "repair",
+      "3": "report",
+      "4": "replace",
+      "5": "problem"
+    },
+    "ex4": {
+      "1": "cautiously",
+      "2": "success",
+      "3": "damaged",
+      "4": "replacement",
+      "5": "urgently"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "B"
+    }
   }
 }

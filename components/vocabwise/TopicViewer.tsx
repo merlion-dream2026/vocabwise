@@ -69,7 +69,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
   // Preserve existing srs + history so we don't overwrite them on save (Group 2 prep)
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
-  const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number }>>({})
+  const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
 
   // Stop speech on unmount or tab switch away from passage
   useEffect(() => { return () => { window.speechSynthesis?.cancel() } }, [])
@@ -144,13 +144,15 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       // XP history — merge into existing, keyed by date
       const today = new Date().toISOString().split('T')[0]
       const prev  = savedHistory[today] ?? {}
+      const prevTopicIds: string[] = prev.topicIds ?? []
       const newHistory = {
         ...savedHistory,
         [today]: {
-          topics:  (prev.topics  ?? 0) + 1,
-          xp:      (prev.xp      ?? 0) + total,
-          games:   (prev.games   ?? 0) + 1,
-          words:    prev.words   ?? 0,
+          topics:   (prev.topics  ?? 0) + 1,
+          xp:       (prev.xp      ?? 0) + total,
+          games:    (prev.games   ?? 0) + 1,
+          words:     prev.words   ?? 0,
+          topicIds: prevTopicIds.includes(topicId) ? prevTopicIds : [...prevTopicIds, topicId],
         },
       }
       setSavedHistory(newHistory)

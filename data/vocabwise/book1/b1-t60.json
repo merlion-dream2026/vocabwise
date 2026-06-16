@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "understand" },
-        { "id": 2, "word": "repeat" },
-        { "id": 3, "word": "mean" },
-        { "id": 4, "word": "ask" },
-        { "id": 5, "word": "answer" }
+        {
+          "id": 1,
+          "word": "understand"
+        },
+        {
+          "id": 2,
+          "word": "repeat"
+        },
+        {
+          "id": 3,
+          "word": "mean"
+        },
+        {
+          "id": 4,
+          "word": "ask"
+        },
+        {
+          "id": 5,
+          "word": "answer"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to say or write something in reply to a question" },
-        { "id": "B", "text": "to say or do something again so that someone can hear or see it better" },
-        { "id": "C", "text": "to put a question to someone in order to get information" },
-        { "id": "D", "text": "to express or communicate a particular idea or piece of information" },
-        { "id": "E", "text": "to know what something means and be able to make sense of it" }
+        {
+          "id": "A",
+          "text": "to say or write something in reply to a question"
+        },
+        {
+          "id": "B",
+          "text": "to say or do something again so that someone can hear or see it better"
+        },
+        {
+          "id": "C",
+          "text": "to put a question to someone in order to get information"
+        },
+        {
+          "id": "D",
+          "text": "to express or communicate a particular idea or piece of information"
+        },
+        {
+          "id": "E",
+          "text": "to know what something means and be able to make sense of it"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "_____ did you put my bag? I cannot find it anywhere in the room.",
-          "options": ["What", "Why", "Where", "When"],
+          "options": [
+            "What",
+            "Why",
+            "Where",
+            "When"
+          ],
           "answer": "Where"
         },
         {
           "id": 2,
           "sentence": "I am not _____ about the meeting time — could you check the message again?",
-          "options": ["again", "sure", "please", "how"],
+          "options": [
+            "again",
+            "sure",
+            "please",
+            "how"
+          ],
           "answer": "sure"
         },
         {
           "id": 3,
           "sentence": "_____ are you late every morning? The teacher is getting frustrated.",
-          "options": ["What", "How", "Who", "Why"],
+          "options": [
+            "What",
+            "How",
+            "Who",
+            "Why"
+          ],
           "answer": "Why"
         },
         {
           "id": 4,
           "sentence": "She did not hear the question, so the teacher had to _____ it twice.",
-          "options": ["ask", "know", "repeat", "answer"],
+          "options": [
+            "ask",
+            "know",
+            "repeat",
+            "answer"
+          ],
           "answer": "repeat"
         },
         {
           "id": 5,
           "sentence": "_____ is responsible for cleaning the classroom today?",
-          "options": ["When", "Who", "What", "Where"],
+          "options": [
+            "When",
+            "Who",
+            "What",
+            "Where"
+          ],
           "answer": "Who"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["again", "ask", "know", "please", "understand", "mean"],
+      "word_bank": [
+        "again",
+        "ask",
+        "know",
+        "please",
+        "understand",
+        "mean"
+      ],
       "items": [
-        { "id": 1, "sentence": "Could you explain that _____, please? I missed the first part.", "answer": "again" },
-        { "id": 2, "sentence": "Do you _____ what this word means? I have never seen it before.", "answer": "know" },
-        { "id": 3, "sentence": "_____ sit down quietly — the exam is about to start.", "answer": "please" },
-        { "id": 4, "sentence": "She did not _____ the instructions, so she made several mistakes.", "answer": "understand" },
-        { "id": 5, "sentence": "If you need help, do not be afraid to _____ your teacher.", "answer": "ask" }
+        {
+          "id": 1,
+          "sentence": "Could you explain that _____, please? I missed the first part.",
+          "answer": "again"
+        },
+        {
+          "id": 2,
+          "sentence": "Do you _____ what this word means? I have never seen it before.",
+          "answer": "know"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ sit down quietly — the exam is about to start.",
+          "answer": "please"
+        },
+        {
+          "id": 4,
+          "sentence": "She did not _____ the instructions, so she made several mistakes.",
+          "answer": "understand"
+        },
+        {
+          "id": 5,
+          "sentence": "If you need help, do not be afraid to _____ your teacher.",
+          "answer": "ask"
+        }
       ],
       "note": "One word in the box is not used: mean"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "I do not [answer] what this word means — can you explain it to me?",
           "highlighted": "answer",
-          "options": { "A": "say", "B": "know", "C": "answer" },
+          "options": {
+            "A": "say",
+            "B": "know",
+            "C": "answer"
+          },
           "answer": "B",
           "explanation": "'Answer' is used when you reply to a question. The sentence is about not having information about a word's meaning. The correct word is 'know' — to have information or understanding of something."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "She asked the teacher to [again] the instructions because she could not hear.",
           "highlighted": "again",
-          "options": { "A": "repeat", "B": "again", "C": "mean" },
+          "options": {
+            "A": "repeat",
+            "B": "again",
+            "C": "mean"
+          },
           "answer": "A",
           "explanation": "'Again' is an adverb — it cannot follow 'to' as a verb. The sentence needs a verb after 'to'. 'Repeat' means to say something once more, which is exactly what the teacher needs to do."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "[Where] did the accident happen? Was it at six in the evening or later?",
           "highlighted": "Where",
-          "options": { "A": "Where", "B": "When", "C": "Who" },
+          "options": {
+            "A": "Where",
+            "B": "When",
+            "C": "Who"
+          },
           "answer": "B",
           "explanation": "'Where' asks about a place. The second part of the sentence asks about six in the evening — this is a time. The correct question word is 'When', which asks about time."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "Are you [know] that the class starts at eight tomorrow morning?",
           "highlighted": "know",
-          "options": { "A": "sure", "B": "know", "C": "please" },
+          "options": {
+            "A": "sure",
+            "B": "know",
+            "C": "please"
+          },
           "answer": "A",
           "explanation": "'Are you know' is grammatically incorrect — you cannot use 'are you' before a base verb like this. The correct structure is 'Are you sure', which means 'Do you feel certain about this?'"
         },
@@ -455,18 +553,178 @@
           "id": 5,
           "sentence": "He did not [understand] to the question, so the teacher explained it again.",
           "highlighted": "understand",
-          "options": { "A": "reply", "B": "ask", "C": "know" },
+          "options": {
+            "A": "reply",
+            "B": "ask",
+            "C": "know"
+          },
           "answer": "A",
           "explanation": "'Understand' is followed by an object, not 'to'. 'Understand to a question' is not natural English. The correct phrase is 'reply to a question' — meaning to give an answer back to someone."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "what",
+            "where",
+            "when",
+            "ask"
+          ],
+          "answer": "ask",
+          "reason": "what, where, and when are question words — they start a question about things, places, or time. 'ask' is a verb — the action of posing a question.",
+          "reason_vi": "what, where và when đều là từ để hỏi — bắt đầu câu hỏi về thứ, nơi hoặc thời gian. 'ask' là động từ — hành động đặt câu hỏi."
+        },
+        {
+          "id": 2,
+          "words": [
+            "who",
+            "why",
+            "how",
+            "answer"
+          ],
+          "answer": "answer",
+          "reason": "who, why, and how are question words — used to ask about people, reasons, and methods. 'answer' is a verb — the action of responding to a question.",
+          "reason_vi": "who, why và how đều là từ để hỏi. 'answer' là động từ — hành động trả lời câu hỏi."
+        },
+        {
+          "id": 3,
+          "words": [
+            "what",
+            "where",
+            "when",
+            "know"
+          ],
+          "answer": "know",
+          "reason": "what, where, and when are question words — used to form questions. 'know' is a verb describing a mental state — having information in your mind, not asking for it.",
+          "reason_vi": "what, where và when đều là từ để hỏi. 'know' là động từ mô tả trạng thái tâm trí — có thông tin trong đầu, không phải hỏi về nó."
+        },
+        {
+          "id": 4,
+          "words": [
+            "ask",
+            "answer",
+            "repeat",
+            "who"
+          ],
+          "answer": "who",
+          "reason": "ask, answer, and repeat are verbs — active communication actions. 'who' is a question word — used to ask about a person, not an action itself.",
+          "reason_vi": "ask, answer và repeat đều là động từ — hành động giao tiếp chủ động. 'who' là từ để hỏi — dùng để hỏi về một người, không phải bản thân hành động."
+        },
+        {
+          "id": 5,
+          "words": [
+            "what",
+            "how",
+            "again",
+            "why"
+          ],
+          "answer": "again",
+          "reason": "what, how, and why are question words — used to start a question. 'again' is an adverb — it means 'one more time' and is used to modify a verb, not to start a question.",
+          "reason_vi": "what, how và why đều là từ để hỏi. 'again' là trạng từ — có nghĩa là 'một lần nữa', dùng để bổ nghĩa động từ, không phải bắt đầu câu hỏi."
+        },
+        {
+          "id": 6,
+          "words": [
+            "know",
+            "understand",
+            "mean",
+            "where"
+          ],
+          "answer": "where",
+          "reason": "know, understand, and mean are all about mental comprehension — processing or conveying meaning. 'where' is a question word — used to ask about location, not about understanding.",
+          "reason_vi": "know, understand và mean đều liên quan đến sự hiểu biết tâm trí. 'where' là từ để hỏi — dùng để hỏi về vị trí, không phải về sự hiểu biết."
+        },
+        {
+          "id": 7,
+          "words": [
+            "what",
+            "who",
+            "why",
+            "sure"
+          ],
+          "answer": "sure",
+          "reason": "what, who, and why are question words — each begins a different type of question. 'sure' is an adjective — it expresses certainty, not a question.",
+          "reason_vi": "what, who và why đều là từ để hỏi. 'sure' là tính từ — thể hiện sự chắc chắn, không phải câu hỏi."
+        },
+        {
+          "id": 8,
+          "words": [
+            "ask",
+            "answer",
+            "repeat",
+            "please"
+          ],
+          "answer": "please",
+          "reason": "ask, answer, and repeat are verbs — active communication actions. 'please' is a polite word used to make a request softer — it is not an action verb.",
+          "reason_vi": "ask, answer và repeat đều là động từ — hành động giao tiếp chủ động. 'please' là từ lịch sự để làm mềm lời yêu cầu — không phải động từ hành động."
+        },
+        {
+          "id": 9,
+          "words": [
+            "know",
+            "understand",
+            "answer",
+            "when"
+          ],
+          "answer": "when",
+          "reason": "know, understand, and answer are all verbs relating to knowledge or communication. 'when' is a question word — used to ask about time, not to describe an action.",
+          "reason_vi": "know, understand và answer đều là động từ liên quan đến kiến thức hoặc giao tiếp. 'when' là từ để hỏi — dùng để hỏi về thời gian, không phải mô tả hành động."
+        },
+        {
+          "id": 10,
+          "words": [
+            "what",
+            "where",
+            "how",
+            "repeat"
+          ],
+          "answer": "repeat",
+          "reason": "what, where, and how are question words — each begins a specific type of question. 'repeat' is a verb — the action of saying or doing something one more time.",
+          "reason_vi": "what, where và how đều là từ để hỏi. 'repeat' là động từ — hành động nói hoặc làm gì đó thêm một lần nữa."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "B", "3": "D", "4": "C", "5": "A" },
-    "ex2": { "1": "Where", "2": "sure", "3": "Why", "4": "repeat", "5": "Who" },
-    "ex3": { "1": "again", "2": "know", "3": "please", "4": "understand", "5": "ask" },
-    "ex4": { "1": "understanding", "2": "repeated", "3": "meaningful", "4": "knowledge", "5": "pleasantly" },
-    "ex5": { "1": "B", "2": "A", "3": "B", "4": "A", "5": "A" }
+    "ex1": {
+      "1": "E",
+      "2": "B",
+      "3": "D",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "Where",
+      "2": "sure",
+      "3": "Why",
+      "4": "repeat",
+      "5": "Who"
+    },
+    "ex3": {
+      "1": "again",
+      "2": "know",
+      "3": "please",
+      "4": "understand",
+      "5": "ask"
+    },
+    "ex4": {
+      "1": "understanding",
+      "2": "repeated",
+      "3": "meaningful",
+      "4": "knowledge",
+      "5": "pleasantly"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "A"
+    }
   }
 }

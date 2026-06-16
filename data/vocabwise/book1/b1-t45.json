@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "hazard" },
-        { "id": 2, "word": "rescue" },
-        { "id": 3, "word": "alert" },
-        { "id": 4, "word": "escape" },
-        { "id": 5, "word": "ambulance" }
+        {
+          "id": 1,
+          "word": "hazard"
+        },
+        {
+          "id": 2,
+          "word": "rescue"
+        },
+        {
+          "id": 3,
+          "word": "alert"
+        },
+        {
+          "id": 4,
+          "word": "escape"
+        },
+        {
+          "id": 5,
+          "word": "ambulance"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a vehicle that takes injured or ill people to hospital quickly" },
-        { "id": "B", "text": "something that is dangerous and could cause injury or harm" },
-        { "id": "C", "text": "to get away from a dangerous or difficult situation" },
-        { "id": "D", "text": "to warn someone about danger so they can take action" },
-        { "id": "E", "text": "to save someone from a dangerous situation" }
+        {
+          "id": "A",
+          "text": "a vehicle that takes injured or ill people to hospital quickly"
+        },
+        {
+          "id": "B",
+          "text": "something that is dangerous and could cause injury or harm"
+        },
+        {
+          "id": "C",
+          "text": "to get away from a dangerous or difficult situation"
+        },
+        {
+          "id": "D",
+          "text": "to warn someone about danger so they can take action"
+        },
+        {
+          "id": "E",
+          "text": "to save someone from a dangerous situation"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She slipped on the wet floor and had a bad _____.",
-          "options": ["fall", "crash", "bleed", "burn"],
+          "options": [
+            "fall",
+            "crash",
+            "bleed",
+            "burn"
+          ],
           "answer": "fall"
         },
         {
           "id": 2,
           "sentence": "The two cars had a serious _____ at the traffic lights.",
-          "options": ["hazard", "accident", "crash", "fire"],
+          "options": [
+            "hazard",
+            "accident",
+            "crash",
+            "fire"
+          ],
           "answer": "crash"
         },
         {
           "id": 3,
           "sentence": "Always stay _____ by following the rules in the laboratory.",
-          "options": ["alert", "hurt", "safe", "ready"],
+          "options": [
+            "alert",
+            "hurt",
+            "safe",
+            "ready"
+          ],
           "answer": "safe"
         },
         {
           "id": 4,
           "sentence": "He cut his finger on the knife and it started to _____.",
-          "options": ["burn", "bite", "rescue", "bleed"],
+          "options": [
+            "burn",
+            "bite",
+            "rescue",
+            "bleed"
+          ],
           "answer": "bleed"
         },
         {
           "id": 5,
           "sentence": "The firefighters managed to _____ the child from the burning house.",
-          "options": ["escape", "alert", "rescue", "fall"],
+          "options": [
+            "escape",
+            "alert",
+            "rescue",
+            "fall"
+          ],
           "answer": "rescue"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["accident", "police", "escape", "fire", "alert", "burn"],
+      "word_bank": [
+        "accident",
+        "police",
+        "escape",
+        "fire",
+        "alert",
+        "burn"
+      ],
       "items": [
-        { "id": 1, "sentence": "There was a bad _____ on the road outside the school this morning.", "answer": "accident" },
-        { "id": 2, "sentence": "If you see a crime, call the _____ immediately.", "answer": "police" },
-        { "id": 3, "sentence": "Everyone must _____ the building quickly when the alarm sounds.", "answer": "escape" },
-        { "id": 4, "sentence": "The teacher put up signs to _____ students about the slippery floor.", "answer": "alert" },
-        { "id": 5, "sentence": "Do not touch a hot pan — you could get a serious _____ on your hand.", "answer": "burn" }
+        {
+          "id": 1,
+          "sentence": "There was a bad _____ on the road outside the school this morning.",
+          "answer": "accident"
+        },
+        {
+          "id": 2,
+          "sentence": "If you see a crime, call the _____ immediately.",
+          "answer": "police"
+        },
+        {
+          "id": 3,
+          "sentence": "Everyone must _____ the building quickly when the alarm sounds.",
+          "answer": "escape"
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher put up signs to _____ students about the slippery floor.",
+          "answer": "alert"
+        },
+        {
+          "id": 5,
+          "sentence": "Do not touch a hot pan — you could get a serious _____ on your hand.",
+          "answer": "burn"
+        }
       ],
       "note": "One word in the box is not used: fire"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Call the [fire] when you see someone injured on the road.",
           "highlighted": "fire",
-          "options": { "A": "police", "B": "hazard", "C": "fire" },
+          "options": {
+            "A": "police",
+            "B": "hazard",
+            "C": "fire"
+          },
           "answer": "A",
           "explanation": "'Fire' is a dangerous blaze, not a person or service you call for road injuries. When someone is hurt on the road, you should call the 'police' (or ambulance)."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "The [rescue] of spilled oil on the factory floor caused a serious accident.",
           "highlighted": "rescue",
-          "options": { "A": "burn", "B": "rescue", "C": "hazard" },
+          "options": {
+            "A": "burn",
+            "B": "rescue",
+            "C": "hazard"
+          },
           "answer": "C",
           "explanation": "'Rescue' means saving someone from danger — it cannot describe a slippery substance. Spilled oil on a floor is a 'hazard' — something that makes a place dangerous."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The dog suddenly [escaped] the young boy on the hand.",
           "highlighted": "escaped",
-          "options": { "A": "rescued", "B": "bit", "C": "escaped" },
+          "options": {
+            "A": "rescued",
+            "B": "bit",
+            "C": "escaped"
+          },
           "answer": "B",
           "explanation": "'Escaped' means got away from danger. When a dog attacks someone and its teeth break the skin, we say it 'bit' them — the past tense of 'bite'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She [alerted] her leg badly when she tripped over the step.",
           "highlighted": "alerted",
-          "options": { "A": "alerted", "B": "rescued", "C": "hurt" },
+          "options": {
+            "A": "alerted",
+            "B": "rescued",
+            "C": "hurt"
+          },
           "answer": "C",
           "explanation": "'Alerted' means warned someone about danger. When you trip and injure a body part, you 'hurt' it — the correct verb for physical injury."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "Everyone ran to the nearest exit to [fall] from the burning building.",
           "highlighted": "fall",
-          "options": { "A": "bleed", "B": "fall", "C": "escape" },
+          "options": {
+            "A": "bleed",
+            "B": "fall",
+            "C": "escape"
+          },
           "answer": "C",
           "explanation": "'Fall' means to drop to a lower position — it does not describe getting out of a dangerous place. When people leave a burning building quickly to reach safety, they 'escape'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Tai nạn & nguy hiểm",
+        "Dịch vụ khẩn cấp",
+        "Hành động trong tình huống khẩn cấp"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "accident",
+          "answer": "Tai nạn & nguy hiểm"
+        },
+        {
+          "id": 2,
+          "word": "ambulance",
+          "answer": "Dịch vụ khẩn cấp"
+        },
+        {
+          "id": 3,
+          "word": "fall",
+          "answer": "Tai nạn & nguy hiểm"
+        },
+        {
+          "id": 4,
+          "word": "escape",
+          "answer": "Hành động trong tình huống khẩn cấp"
+        },
+        {
+          "id": 5,
+          "word": "fire",
+          "answer": "Tai nạn & nguy hiểm"
+        },
+        {
+          "id": 6,
+          "word": "police",
+          "answer": "Dịch vụ khẩn cấp"
+        },
+        {
+          "id": 7,
+          "word": "bleed",
+          "answer": "Tai nạn & nguy hiểm"
+        },
+        {
+          "id": 8,
+          "word": "alert",
+          "answer": "Hành động trong tình huống khẩn cấp"
+        },
+        {
+          "id": 9,
+          "word": "rescue",
+          "answer": "Dịch vụ khẩn cấp"
+        },
+        {
+          "id": 10,
+          "word": "safe",
+          "answer": "Hành động trong tình huống khẩn cấp"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "B", "2": "E", "3": "D", "4": "C", "5": "A" },
-    "ex2": { "1": "fall", "2": "crash", "3": "safe", "4": "bleed", "5": "rescue" },
-    "ex3": { "1": "accident", "2": "police", "3": "escape", "4": "alert", "5": "burn" },
-    "ex4": { "1": "accidental", "2": "safely", "3": "bleeding", "4": "hazardous", "5": "rescue" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "C" }
+    "ex1": {
+      "1": "B",
+      "2": "E",
+      "3": "D",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "fall",
+      "2": "crash",
+      "3": "safe",
+      "4": "bleed",
+      "5": "rescue"
+    },
+    "ex3": {
+      "1": "accident",
+      "2": "police",
+      "3": "escape",
+      "4": "alert",
+      "5": "burn"
+    },
+    "ex4": {
+      "1": "accidental",
+      "2": "safely",
+      "3": "bleeding",
+      "4": "hazardous",
+      "5": "rescue"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "C"
+    }
   }
 }

@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "forbidden" },
-        { "id": 2, "word": "caution" },
-        { "id": 3, "word": "emergency" },
-        { "id": 4, "word": "symbol" },
-        { "id": 5, "word": "obey" }
+        {
+          "id": 1,
+          "word": "forbidden"
+        },
+        {
+          "id": 2,
+          "word": "caution"
+        },
+        {
+          "id": 3,
+          "word": "emergency"
+        },
+        {
+          "id": 4,
+          "word": "symbol"
+        },
+        {
+          "id": 5,
+          "word": "obey"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a picture or shape that has a special meaning and is used instead of words" },
-        { "id": "B", "text": "care taken to avoid danger or mistakes; a warning to be careful" },
-        { "id": "C", "text": "not allowed; against the rules" },
-        { "id": "D", "text": "to follow a rule, law, or instruction without question" },
-        { "id": "E", "text": "a sudden serious situation that needs immediate action" }
+        {
+          "id": "A",
+          "text": "a picture or shape that has a special meaning and is used instead of words"
+        },
+        {
+          "id": "B",
+          "text": "care taken to avoid danger or mistakes; a warning to be careful"
+        },
+        {
+          "id": "C",
+          "text": "not allowed; against the rules"
+        },
+        {
+          "id": "D",
+          "text": "to follow a rule, law, or instruction without question"
+        },
+        {
+          "id": "E",
+          "text": "a sudden serious situation that needs immediate action"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "The red _____ on the road tells drivers to stop immediately.",
-          "options": ["symbol", "warning", "route", "caution"],
+          "options": [
+            "symbol",
+            "warning",
+            "route",
+            "caution"
+          ],
           "answer": "warning"
         },
         {
           "id": 2,
           "sentence": "Please _____ all the signs in the hospital — they are there to protect patients.",
-          "options": ["point", "risk", "obey", "notice"],
+          "options": [
+            "point",
+            "risk",
+            "obey",
+            "notice"
+          ],
           "answer": "obey"
         },
         {
           "id": 3,
           "sentence": "The green _____ sign on the wall shows the fastest way to the exit.",
-          "options": ["escape route", "colour coded", "warning", "caution"],
+          "options": [
+            "escape route",
+            "colour coded",
+            "warning",
+            "caution"
+          ],
           "answer": "escape route"
         },
         {
           "id": 4,
           "sentence": "Taking a _____ is part of life, but always think carefully first.",
-          "options": ["notice", "risk", "symbol", "marker"],
+          "options": [
+            "notice",
+            "risk",
+            "symbol",
+            "marker"
+          ],
           "answer": "risk"
         },
         {
           "id": 5,
           "sentence": "The bus map is _____ — each line has a different colour so it is easy to read.",
-          "options": ["forbidden", "cautious", "colour coded", "marked"],
+          "options": [
+            "forbidden",
+            "cautious",
+            "colour coded",
+            "marked"
+          ],
           "answer": "colour coded"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["arrow", "instruction", "notice", "route", "marker", "forbidden"],
+      "word_bank": [
+        "arrow",
+        "instruction",
+        "notice",
+        "route",
+        "marker",
+        "forbidden"
+      ],
       "items": [
-        { "id": 1, "sentence": "There is a _____ on the door that says the shop opens at nine o'clock.", "answer": "notice" },
-        { "id": 2, "sentence": "The _____ on the floor shows you exactly where to stand.", "answer": "marker" },
-        { "id": 3, "sentence": "Follow the _____ on the wall — it will lead you to the exit.", "answer": "arrow" },
-        { "id": 4, "sentence": "The safest _____ to the car park is through the main building.", "answer": "route" },
-        { "id": 5, "sentence": "Read the _____ carefully before you start — do not skip any steps.", "answer": "instruction" }
+        {
+          "id": 1,
+          "sentence": "There is a _____ on the door that says the shop opens at nine o'clock.",
+          "answer": "notice"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ on the floor shows you exactly where to stand.",
+          "answer": "marker"
+        },
+        {
+          "id": 3,
+          "sentence": "Follow the _____ on the wall — it will lead you to the exit.",
+          "answer": "arrow"
+        },
+        {
+          "id": 4,
+          "sentence": "The safest _____ to the car park is through the main building.",
+          "answer": "route"
+        },
+        {
+          "id": 5,
+          "sentence": "Read the _____ carefully before you start — do not skip any steps.",
+          "answer": "instruction"
+        }
       ],
       "note": "One word in the box is not used: forbidden"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "In an emergency, follow the [warning] to get out of the building safely.",
           "highlighted": "warning",
-          "options": { "A": "escape route", "B": "warning", "C": "notice" },
+          "options": {
+            "A": "escape route",
+            "B": "warning",
+            "C": "notice"
+          },
           "answer": "A",
           "explanation": "A 'warning' tells you there is danger, but it does not show you the way out. In an emergency you follow the 'escape route' — the marked path to safety."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "It is [allowed] to park here — you will get a fine if you do.",
           "highlighted": "allowed",
-          "options": { "A": "allowed", "B": "safe", "C": "forbidden" },
+          "options": {
+            "A": "allowed",
+            "B": "safe",
+            "C": "forbidden"
+          },
           "answer": "C",
           "explanation": "'Allowed' means you have permission to do something. The sentence says you will get a fine, which means parking is not permitted — the correct word is 'forbidden'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The floor [symbols] tell you which areas are for walking and which are for machines.",
           "highlighted": "symbols",
-          "options": { "A": "routes", "B": "markers", "C": "symbols" },
+          "options": {
+            "A": "routes",
+            "B": "markers",
+            "C": "symbols"
+          },
           "answer": "B",
           "explanation": "A 'symbol' is a picture with a meaning, usually on a sign. Lines or stickers on the floor that show where to walk or stand are called 'markers'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "The arrows on the wall [forbid] you towards the nearest exit.",
           "highlighted": "forbid",
-          "options": { "A": "warn", "B": "forbid", "C": "point" },
+          "options": {
+            "A": "warn",
+            "B": "forbid",
+            "C": "point"
+          },
           "answer": "C",
           "explanation": "'Forbid' means to say that something is not allowed. Arrows cannot forbid — they show direction. The correct verb is 'point', meaning to indicate a direction."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "The hospital map uses a _____ [warning] system — red for urgent, blue for general.",
           "highlighted": "warning",
-          "options": { "A": "colour coded", "B": "warning", "C": "cautious" },
+          "options": {
+            "A": "colour coded",
+            "B": "warning",
+            "C": "cautious"
+          },
           "answer": "A",
           "explanation": "A 'warning' system would only alert people to danger. Using different colours to organise or categorise information is called a 'colour coded' system."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "notice",
+            "warning",
+            "caution",
+            "escape route"
+          ],
+          "answer": "escape route",
+          "reason": "notice, warning, and caution are all types of sign or message that alert you to something. 'escape route' is a path — the physical way out of a building in an emergency.",
+          "reason_vi": "notice, warning và caution đều là loại biển báo hoặc thông điệp cảnh báo bạn về điều gì. 'escape route' là con đường — lối thoát hiểm vật lý khỏi tòa nhà trong tình huống khẩn cấp."
+        },
+        {
+          "id": 2,
+          "words": [
+            "arrow",
+            "marker",
+            "symbol",
+            "notice"
+          ],
+          "answer": "notice",
+          "reason": "arrow, marker, and symbol are visual signs — you understand them by looking at their shape or image. 'notice' is a written text sign — it uses words to communicate information.",
+          "reason_vi": "arrow, marker và symbol đều là biển báo hình ảnh — bạn hiểu chúng qua hình dạng hoặc hình ảnh. 'notice' là biển báo chữ viết — dùng từ ngữ để truyền đạt thông tin."
+        },
+        {
+          "id": 3,
+          "words": [
+            "forbidden",
+            "caution",
+            "warning",
+            "emergency"
+          ],
+          "answer": "emergency",
+          "reason": "forbidden, caution, and warning are all types of instruction — they tell you what to avoid or be careful about. 'emergency' is a situation — a sudden dangerous event that requires immediate action.",
+          "reason_vi": "forbidden, caution và warning đều là loại hướng dẫn — cho bạn biết cần tránh hoặc cẩn thận điều gì. 'emergency' là tình huống — sự kiện nguy hiểm đột ngột cần hành động ngay."
+        },
+        {
+          "id": 4,
+          "words": [
+            "notice",
+            "warning",
+            "instruction",
+            "obey"
+          ],
+          "answer": "obey",
+          "reason": "notice, warning, and instruction are all types of communication — things you read on signs. 'obey' is a verb — the action of following or doing what the sign tells you.",
+          "reason_vi": "notice, warning và instruction đều là loại thông tin liên lạc — thứ bạn đọc trên biển báo. 'obey' là động từ — hành động tuân theo hoặc làm theo những gì biển báo yêu cầu."
+        },
+        {
+          "id": 5,
+          "words": [
+            "arrow",
+            "marker",
+            "point",
+            "symbol"
+          ],
+          "answer": "symbol",
+          "reason": "arrow, marker, and point are all directional indicators — they show you where to go. 'symbol' is a visual representation — it can represent any idea, not just a direction.",
+          "reason_vi": "arrow, marker và point đều là chỉ báo hướng — chúng cho bạn biết nên đi đâu. 'symbol' là biểu tượng hình ảnh — có thể đại diện cho bất kỳ ý tưởng nào, không chỉ hướng đi."
+        },
+        {
+          "id": 6,
+          "words": [
+            "forbidden",
+            "caution",
+            "risk",
+            "colour coded"
+          ],
+          "answer": "colour coded",
+          "reason": "forbidden, caution, and risk are all warning concepts — they describe danger or restriction. 'colour coded' describes a system of organisation using colours, not a danger itself.",
+          "reason_vi": "forbidden, caution và risk đều là khái niệm cảnh báo — mô tả nguy hiểm hoặc hạn chế. 'colour coded' mô tả hệ thống tổ chức bằng màu sắc, không phải bản thân nguy hiểm."
+        },
+        {
+          "id": 7,
+          "words": [
+            "route",
+            "escape route",
+            "arrow",
+            "forbidden"
+          ],
+          "answer": "forbidden",
+          "reason": "route, escape route, and arrow all relate to direction and where to go. 'forbidden' is a restriction — it tells you where you CANNOT go or what you must not do.",
+          "reason_vi": "route, escape route và arrow đều liên quan đến hướng đi và nơi bạn nên đến. 'forbidden' là hạn chế — cho biết bạn KHÔNG ĐƯỢC đi đâu hoặc làm gì."
+        },
+        {
+          "id": 8,
+          "words": [
+            "notice",
+            "warning",
+            "instruction",
+            "risk"
+          ],
+          "answer": "risk",
+          "reason": "notice, warning, and instruction are all types of sign or written communication. 'risk' is not a type of sign — it describes the possibility of danger that signs help you avoid.",
+          "reason_vi": "notice, warning và instruction đều là loại biển báo hoặc thông tin viết. 'risk' không phải loại biển báo — mô tả khả năng xảy ra nguy hiểm mà biển báo giúp bạn tránh."
+        },
+        {
+          "id": 9,
+          "words": [
+            "arrow",
+            "marker",
+            "point",
+            "route"
+          ],
+          "answer": "route",
+          "reason": "arrow, marker, and point are all used to show a direction or location at a single spot. 'route' is the entire path from one place to another — a full journey, not just a point.",
+          "reason_vi": "arrow, marker và point đều dùng để chỉ hướng hoặc vị trí tại một điểm. 'route' là toàn bộ con đường từ nơi này đến nơi khác — hành trình đầy đủ, không chỉ một điểm."
+        },
+        {
+          "id": 10,
+          "words": [
+            "symbol",
+            "marker",
+            "arrow",
+            "instruction"
+          ],
+          "answer": "instruction",
+          "reason": "symbol, marker, and arrow are visual signs — understood through their image or shape. 'instruction' is a written directive — it uses words to tell you exactly what to do.",
+          "reason_vi": "symbol, marker và arrow đều là biển báo hình ảnh — hiểu qua hình ảnh hoặc hình dạng. 'instruction' là chỉ thị viết — dùng từ ngữ để nói chính xác bạn phải làm gì."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "B", "3": "E", "4": "A", "5": "D" },
-    "ex2": { "1": "warning", "2": "obey", "3": "escape route", "4": "risk", "5": "colour coded" },
-    "ex3": { "1": "notice", "2": "marker", "3": "arrow", "4": "route", "5": "instruction" },
-    "ex4": { "1": "cautiously", "2": "symbolises", "3": "obedient", "4": "risky", "5": "warned" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "A" }
+    "ex1": {
+      "1": "C",
+      "2": "B",
+      "3": "E",
+      "4": "A",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "warning",
+      "2": "obey",
+      "3": "escape route",
+      "4": "risk",
+      "5": "colour coded"
+    },
+    "ex3": {
+      "1": "notice",
+      "2": "marker",
+      "3": "arrow",
+      "4": "route",
+      "5": "instruction"
+    },
+    "ex4": {
+      "1": "cautiously",
+      "2": "symbolises",
+      "3": "obedient",
+      "4": "risky",
+      "5": "warned"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
   }
 }

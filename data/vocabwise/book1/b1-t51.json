@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "bow" },
-        { "id": 2, "word": "polite" },
-        { "id": 3, "word": "stranger" },
-        { "id": 4, "word": "response" },
-        { "id": 5, "word": "casual" }
+        {
+          "id": 1,
+          "word": "bow"
+        },
+        {
+          "id": 2,
+          "word": "polite"
+        },
+        {
+          "id": 3,
+          "word": "stranger"
+        },
+        {
+          "id": 4,
+          "word": "response"
+        },
+        {
+          "id": 5,
+          "word": "casual"
+        }
       ],
       "options": [
-        { "id": "A", "text": "having good manners and showing respect to others in the way you speak or behave" },
-        { "id": "B", "text": "relaxed and informal, not following strict rules of behaviour" },
-        { "id": "C", "text": "to bend the top half of your body forward as a way of greeting someone" },
-        { "id": "D", "text": "something you say or do as a reaction to a greeting or question" },
-        { "id": "E", "text": "a person you have never met before and do not know" }
+        {
+          "id": "A",
+          "text": "having good manners and showing respect to others in the way you speak or behave"
+        },
+        {
+          "id": "B",
+          "text": "relaxed and informal, not following strict rules of behaviour"
+        },
+        {
+          "id": "C",
+          "text": "to bend the top half of your body forward as a way of greeting someone"
+        },
+        {
+          "id": "D",
+          "text": "something you say or do as a reaction to a greeting or question"
+        },
+        {
+          "id": "E",
+          "text": "a person you have never met before and do not know"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "She gave a quick _____ with her head when she saw her neighbour — she was too far away to speak.",
-          "options": ["phrase", "nod", "welcome", "response"],
+          "options": [
+            "phrase",
+            "nod",
+            "welcome",
+            "response"
+          ],
           "answer": "nod"
         },
         {
           "id": 2,
           "sentence": "Nice to meet you is a _____ we use when meeting someone for the first time.",
-          "options": ["bow", "goodbye", "phrase", "stranger"],
+          "options": [
+            "bow",
+            "goodbye",
+            "phrase",
+            "stranger"
+          ],
           "answer": "phrase"
         },
         {
           "id": 3,
           "sentence": "It is important to be _____ and say thank you when someone helps you.",
-          "options": ["casual", "polite", "again", "nice"],
+          "options": [
+            "casual",
+            "polite",
+            "again",
+            "nice"
+          ],
           "answer": "polite"
         },
         {
           "id": 4,
           "sentence": "He was nervous about speaking to a _____ on the street, but he asked for directions anyway.",
-          "options": ["stranger", "response", "phrase", "nod"],
+          "options": [
+            "stranger",
+            "response",
+            "phrase",
+            "nod"
+          ],
           "answer": "stranger"
         },
         {
           "id": 5,
           "sentence": "I hope to see you _____ — today was really enjoyable.",
-          "options": ["casual", "goodbye", "again", "welcome"],
+          "options": [
+            "casual",
+            "goodbye",
+            "again",
+            "welcome"
+          ],
           "answer": "again"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["welcome", "casual", "hello", "response", "bow", "polite"],
+      "word_bank": [
+        "welcome",
+        "casual",
+        "hello",
+        "response",
+        "bow",
+        "polite"
+      ],
       "items": [
-        { "id": 1, "sentence": "In Japan, it is common to _____ when you greet someone you respect.", "answer": "bow" },
-        { "id": 2, "sentence": "She said _____ to the new student and showed her where to sit.", "answer": "hello" },
-        { "id": 3, "sentence": "Everyone felt _____ because the host was warm and friendly to all the guests.", "answer": "welcome" },
-        { "id": 4, "sentence": "His _____ to my greeting was a big smile and a handshake.", "answer": "response" },
-        { "id": 5, "sentence": "You can use a _____ greeting like 'hi' with your friends, but be more formal with adults.", "answer": "casual" }
+        {
+          "id": 1,
+          "sentence": "In Japan, it is common to _____ when you greet someone you respect.",
+          "answer": "bow"
+        },
+        {
+          "id": 2,
+          "sentence": "She said _____ to the new student and showed her where to sit.",
+          "answer": "hello"
+        },
+        {
+          "id": 3,
+          "sentence": "Everyone felt _____ because the host was warm and friendly to all the guests.",
+          "answer": "welcome"
+        },
+        {
+          "id": 4,
+          "sentence": "His _____ to my greeting was a big smile and a handshake.",
+          "answer": "response"
+        },
+        {
+          "id": 5,
+          "sentence": "You can use a _____ greeting like 'hi' with your friends, but be more formal with adults.",
+          "answer": "casual"
+        }
       ],
       "note": "One word in the box is not used: polite"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "When you meet someone for the first time, you should say [goodbye] and smile warmly.",
           "highlighted": "goodbye",
-          "options": { "A": "again", "B": "goodbye", "C": "hello" },
+          "options": {
+            "A": "again",
+            "B": "goodbye",
+            "C": "hello"
+          },
           "answer": "C",
           "explanation": "'Goodbye' is used when you are leaving, not when you meet someone for the first time. The correct word is 'hello' — the word used to greet someone at the start of a meeting."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "She was very [impolite] — she said thank you and held the door open for everyone.",
           "highlighted": "impolite",
-          "options": { "A": "polite", "B": "impolite", "C": "casual" },
+          "options": {
+            "A": "polite",
+            "B": "impolite",
+            "C": "casual"
+          },
           "answer": "A",
           "explanation": "'Impolite' means rude or bad-mannered. The sentence describes someone doing kind things like saying thank you and holding the door — this describes a 'polite' person."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "In some Asian countries, people [nod] deeply to show respect when greeting each other.",
           "highlighted": "nod",
-          "options": { "A": "wave", "B": "bow", "C": "nod" },
+          "options": {
+            "A": "wave",
+            "B": "bow",
+            "C": "nod"
+          },
           "answer": "B",
           "explanation": "A 'nod' is a small movement of the head up and down. A deep movement of the whole upper body as a sign of respect is called a 'bow'."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "I did not know anyone at the party — I was surrounded by [friends].",
           "highlighted": "friends",
-          "options": { "A": "strangers", "B": "responses", "C": "friends" },
+          "options": {
+            "A": "strangers",
+            "B": "responses",
+            "C": "friends"
+          },
           "answer": "A",
           "explanation": "If you do not know anyone at a party, the people around you are not 'friends' — they are 'strangers', people you have never met before."
         },
@@ -455,18 +553,178 @@
           "id": 5,
           "sentence": "She said 'see you [yesterday]!' and waved as she walked out the door.",
           "highlighted": "yesterday",
-          "options": { "A": "yesterday", "B": "again", "C": "hello" },
+          "options": {
+            "A": "yesterday",
+            "B": "again",
+            "C": "hello"
+          },
           "answer": "B",
           "explanation": "'See you yesterday' does not make sense because 'yesterday' refers to the past. When saying goodbye and hoping to meet someone in the future, you say 'see you again' or 'see you soon'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "hello",
+            "goodbye",
+            "hi",
+            "bow"
+          ],
+          "answer": "bow",
+          "reason": "hello, goodbye, and hi are all words you say when greeting or parting. 'bow' is a physical action — you bend your body forward, not say a word.",
+          "reason_vi": "hello, goodbye và hi đều là từ bạn nói khi chào hỏi hoặc tạm biệt. 'bow' là hành động vật lý — bạn cúi người về phía trước, không phải nói từ gì."
+        },
+        {
+          "id": 2,
+          "words": [
+            "polite",
+            "casual",
+            "nice",
+            "stranger"
+          ],
+          "answer": "stranger",
+          "reason": "polite, casual, and nice are adjectives — they describe how a greeting is given or how a person behaves. 'stranger' is a noun — a person you do not know.",
+          "reason_vi": "polite, casual và nice đều là tính từ. 'stranger' là danh từ — người bạn không quen biết."
+        },
+        {
+          "id": 3,
+          "words": [
+            "hello",
+            "hi",
+            "welcome",
+            "goodbye"
+          ],
+          "answer": "goodbye",
+          "reason": "hello, hi, and welcome are all greetings — things you say when someone arrives. 'goodbye' is a farewell — it is said when someone is leaving, not arriving.",
+          "reason_vi": "hello, hi và welcome đều là lời chào — thứ bạn nói khi ai đó đến. 'goodbye' là lời tạm biệt — nói khi ai đó rời đi, không phải đến."
+        },
+        {
+          "id": 4,
+          "words": [
+            "bow",
+            "nod",
+            "see",
+            "polite"
+          ],
+          "answer": "polite",
+          "reason": "bow, nod, and see are all physical actions or acts of perception when meeting someone. 'polite' is an adjective — it describes how someone behaves, not an action.",
+          "reason_vi": "bow, nod và see đều là hành động vật lý hoặc nhận thức khi gặp ai đó. 'polite' là tính từ — mô tả cách ai đó hành xử, không phải hành động."
+        },
+        {
+          "id": 5,
+          "words": [
+            "hello",
+            "bye",
+            "hi",
+            "casual"
+          ],
+          "answer": "casual",
+          "reason": "hello, bye, and hi are greeting or farewell words — things you say. 'casual' is an adjective — it describes the informal style of a greeting, not the greeting itself.",
+          "reason_vi": "hello, bye và hi đều là từ chào hỏi hoặc tạm biệt. 'casual' là tính từ — mô tả phong cách thân mật của lời chào, không phải bản thân lời chào."
+        },
+        {
+          "id": 6,
+          "words": [
+            "phrase",
+            "response",
+            "stranger",
+            "welcome"
+          ],
+          "answer": "welcome",
+          "reason": "phrase, response, and stranger are nouns related to a social interaction — language used and people involved. 'welcome' is a greeting expression — specifically what you say when someone arrives.",
+          "reason_vi": "phrase, response và stranger đều là danh từ liên quan đến tương tác xã hội. 'welcome' là biểu thức chào hỏi — cụ thể là thứ bạn nói khi ai đó đến."
+        },
+        {
+          "id": 7,
+          "words": [
+            "polite",
+            "casual",
+            "nice",
+            "nod"
+          ],
+          "answer": "nod",
+          "reason": "polite, casual, and nice are adjectives describing the tone or quality of a greeting. 'nod' is a verb — a physical movement of the head used to greet or agree.",
+          "reason_vi": "polite, casual và nice đều là tính từ mô tả tông điệu hoặc chất lượng lời chào. 'nod' là động từ — cử động vật lý của đầu để chào hoặc đồng ý."
+        },
+        {
+          "id": 8,
+          "words": [
+            "hello",
+            "goodbye",
+            "welcome",
+            "again"
+          ],
+          "answer": "again",
+          "reason": "hello, goodbye, and welcome are greeting or farewell expressions. 'again' is an adverb — it means 'one more time' and modifies a verb, not a greeting itself.",
+          "reason_vi": "hello, goodbye và welcome đều là biểu thức chào hỏi hoặc tạm biệt. 'again' là trạng từ — có nghĩa là 'một lần nữa', bổ nghĩa cho động từ chứ không phải lời chào."
+        },
+        {
+          "id": 9,
+          "words": [
+            "phrase",
+            "response",
+            "stranger",
+            "see"
+          ],
+          "answer": "see",
+          "reason": "phrase, response, and stranger are all nouns in a social context — language, replies, and people. 'see' is a verb — the action of using your eyes or meeting someone again.",
+          "reason_vi": "phrase, response và stranger đều là danh từ trong bối cảnh xã hội. 'see' là động từ — hành động dùng mắt hoặc gặp lại ai đó."
+        },
+        {
+          "id": 10,
+          "words": [
+            "bow",
+            "nod",
+            "see",
+            "response"
+          ],
+          "answer": "response",
+          "reason": "bow, nod, and see are all physical actions or perceptual acts in a greeting. 'response' is a noun — something said or done in reply, not a physical greeting action.",
+          "reason_vi": "bow, nod và see đều là hành động vật lý hoặc nhận thức trong lời chào. 'response' là danh từ — thứ nói hoặc làm để trả lời, không phải hành động chào vật lý."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "E", "4": "D", "5": "B" },
-    "ex2": { "1": "nod", "2": "phrase", "3": "polite", "4": "stranger", "5": "again" },
-    "ex3": { "1": "bow", "2": "hello", "3": "welcome", "4": "response", "5": "casual" },
-    "ex4": { "1": "politely", "2": "welcome", "3": "responded", "4": "casual", "5": "nice" },
-    "ex5": { "1": "C", "2": "A", "3": "B", "4": "A", "5": "B" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "E",
+      "4": "D",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "nod",
+      "2": "phrase",
+      "3": "polite",
+      "4": "stranger",
+      "5": "again"
+    },
+    "ex3": {
+      "1": "bow",
+      "2": "hello",
+      "3": "welcome",
+      "4": "response",
+      "5": "casual"
+    },
+    "ex4": {
+      "1": "politely",
+      "2": "welcome",
+      "3": "responded",
+      "4": "casual",
+      "5": "nice"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "A",
+      "5": "B"
+    }
   }
 }

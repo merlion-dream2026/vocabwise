@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "deadline" },
-        { "id": 2, "word": "confirm" },
-        { "id": 3, "word": "priority" },
-        { "id": 4, "word": "cancel" },
-        { "id": 5, "word": "assess" }
+        {
+          "id": 1,
+          "word": "deadline"
+        },
+        {
+          "id": 2,
+          "word": "confirm"
+        },
+        {
+          "id": 3,
+          "word": "priority"
+        },
+        {
+          "id": 4,
+          "word": "cancel"
+        },
+        {
+          "id": 5,
+          "word": "assess"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to look at a situation carefully and decide how good, bad, or important it is" },
-        { "id": "B", "text": "the thing that is most important and must be dealt with first" },
-        { "id": "C", "text": "to say officially that something will not happen or is no longer needed" },
-        { "id": "D", "text": "the latest date or time by which something must be finished" },
-        { "id": "E", "text": "to say or show that something is definitely true or will definitely happen" }
+        {
+          "id": "A",
+          "text": "to look at a situation carefully and decide how good, bad, or important it is"
+        },
+        {
+          "id": "B",
+          "text": "the thing that is most important and must be dealt with first"
+        },
+        {
+          "id": "C",
+          "text": "to say officially that something will not happen or is no longer needed"
+        },
+        {
+          "id": "D",
+          "text": "the latest date or time by which something must be finished"
+        },
+        {
+          "id": "E",
+          "text": "to say or show that something is definitely true or will definitely happen"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "I made a _____ of things I need to bring so I do not forget anything.",
-          "options": ["target", "checklist", "schedule", "deadline"],
+          "options": [
+            "target",
+            "checklist",
+            "schedule",
+            "deadline"
+          ],
           "answer": "checklist"
         },
         {
           "id": 2,
           "sentence": "Can you _____ me to buy milk on the way home?",
-          "options": ["remind", "confirm", "cancel", "assess"],
+          "options": [
+            "remind",
+            "confirm",
+            "cancel",
+            "assess"
+          ],
           "answer": "remind"
         },
         {
           "id": 3,
           "sentence": "She is very _____ — her desk is always tidy and she never misses a deadline.",
-          "options": ["ready", "early", "organised", "complete"],
+          "options": [
+            "ready",
+            "early",
+            "organised",
+            "complete"
+          ],
           "answer": "organised"
         },
         {
           "id": 4,
           "sentence": "My _____ for this month is to save enough money to buy a new bicycle.",
-          "options": ["deadline", "checklist", "cancel", "target"],
+          "options": [
+            "deadline",
+            "checklist",
+            "cancel",
+            "target"
+          ],
           "answer": "target"
         },
         {
           "id": 5,
           "sentence": "The report must be _____ by Thursday — please do not miss the deadline.",
-          "options": ["cancelled", "reminded", "packed", "completed"],
+          "options": [
+            "cancelled",
+            "reminded",
+            "packed",
+            "completed"
+          ],
           "answer": "completed"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["plan", "early", "pack", "deadline", "ready", "confirm"],
+      "word_bank": [
+        "plan",
+        "early",
+        "pack",
+        "deadline",
+        "ready",
+        "confirm"
+      ],
       "items": [
-        { "id": 1, "sentence": "We need to _____ the trip carefully before we book any tickets.", "answer": "plan" },
-        { "id": 2, "sentence": "Please arrive _____ so we can start the meeting on time.", "answer": "early" },
-        { "id": 3, "sentence": "I need to _____ my suitcase tonight — the flight leaves at 6 a.m.", "answer": "pack" },
-        { "id": 4, "sentence": "Are you _____ for the presentation? It starts in ten minutes.", "answer": "ready" },
-        { "id": 5, "sentence": "The _____ for this homework is next Monday morning.", "answer": "deadline" }
+        {
+          "id": 1,
+          "sentence": "We need to _____ the trip carefully before we book any tickets.",
+          "answer": "plan"
+        },
+        {
+          "id": 2,
+          "sentence": "Please arrive _____ so we can start the meeting on time.",
+          "answer": "early"
+        },
+        {
+          "id": 3,
+          "sentence": "I need to _____ my suitcase tonight — the flight leaves at 6 a.m.",
+          "answer": "pack"
+        },
+        {
+          "id": 4,
+          "sentence": "Are you _____ for the presentation? It starts in ten minutes.",
+          "answer": "ready"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ for this homework is next Monday morning.",
+          "answer": "deadline"
+        }
       ],
       "note": "One word in the box is not used: confirm"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "I wrote a [deadline] to make sure I had everything I needed before the trip.",
           "highlighted": "deadline",
-          "options": { "A": "deadline", "B": "checklist", "C": "target" },
+          "options": {
+            "A": "deadline",
+            "B": "checklist",
+            "C": "target"
+          },
           "answer": "B",
           "explanation": "A 'deadline' is a fixed time by which something must be done. A list of items you check off one by one to make sure nothing is forgotten is called a 'checklist'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "She always arrives [early] — she is usually the last person in the room.",
           "highlighted": "early",
-          "options": { "A": "early", "B": "late", "C": "ready" },
+          "options": {
+            "A": "early",
+            "B": "late",
+            "C": "ready"
+          },
           "answer": "B",
           "explanation": "The sentence says she is 'usually the last person in the room', which means she arrives after others — not before. The correct word is 'late', the opposite of early."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "Please [remind] your booking at least one day before you arrive.",
           "highlighted": "remind",
-          "options": { "A": "cancel", "B": "remind", "C": "confirm" },
+          "options": {
+            "A": "cancel",
+            "B": "remind",
+            "C": "confirm"
+          },
           "answer": "C",
           "explanation": "'Remind' means to make someone remember something. When you contact a hotel or airline to check that your reservation is still valid, you 'confirm' it."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She tried to [complete] her tasks from most urgent to least urgent.",
           "highlighted": "complete",
-          "options": { "A": "assess", "B": "organise", "C": "complete" },
+          "options": {
+            "A": "assess",
+            "B": "organise",
+            "C": "complete"
+          },
           "answer": "B",
           "explanation": "'Complete' means to finish a task. When you arrange tasks in a logical order from most to least important, you 'organise' them."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "We had to [confirm] the trip because the main speaker was suddenly ill.",
           "highlighted": "confirm",
-          "options": { "A": "remind", "B": "confirm", "C": "cancel" },
+          "options": {
+            "A": "remind",
+            "B": "confirm",
+            "C": "cancel"
+          },
           "answer": "C",
           "explanation": "'Confirm' means to say something will definitely happen. When an event does not take place because of a problem, it is 'cancelled' — the opposite of confirmed."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "plan",
+            "schedule",
+            "organise",
+            "early"
+          ],
+          "answer": "early",
+          "reason": "plan, schedule, and organise are verbs — actions you take to get ready. 'early' is an adverb or adjective — it describes when you do something, not what you do.",
+          "reason_vi": "plan, schedule và organise đều là động từ — hành động để chuẩn bị. 'early' là trạng từ hoặc tính từ — mô tả thời điểm bạn làm gì đó, không phải bản thân hành động."
+        },
+        {
+          "id": 2,
+          "words": [
+            "priority",
+            "target",
+            "deadline",
+            "cancel"
+          ],
+          "answer": "cancel",
+          "reason": "priority, target, and deadline are all planning concepts — things you set to help achieve a goal. 'cancel' is a verb — the action of stopping or removing something that was already planned.",
+          "reason_vi": "priority, target và deadline đều là khái niệm lập kế hoạch. 'cancel' là động từ — hành động dừng hoặc hủy bỏ thứ đã được lên kế hoạch."
+        },
+        {
+          "id": 3,
+          "words": [
+            "plan",
+            "remind",
+            "confirm",
+            "checklist"
+          ],
+          "answer": "checklist",
+          "reason": "plan, remind, and confirm are verbs — actions you take during preparation. 'checklist' is a noun — a written list of things to do or verify.",
+          "reason_vi": "plan, remind và confirm đều là động từ — hành động trong quá trình chuẩn bị. 'checklist' là danh từ — danh sách viết ra những việc cần làm hoặc kiểm tra."
+        },
+        {
+          "id": 4,
+          "words": [
+            "ready",
+            "early",
+            "complete",
+            "plan"
+          ],
+          "answer": "plan",
+          "reason": "ready, early, and complete are all adjectives — they describe a state of being finished, prepared, or on time. 'plan' is a verb or noun — an action or thing, not a description of a state.",
+          "reason_vi": "ready, early và complete đều là tính từ — mô tả trạng thái hoàn thành, sẵn sàng hoặc đúng giờ. 'plan' là động từ hoặc danh từ — hành động hoặc thứ cụ thể, không phải mô tả trạng thái."
+        },
+        {
+          "id": 5,
+          "words": [
+            "priority",
+            "target",
+            "deadline",
+            "remind"
+          ],
+          "answer": "remind",
+          "reason": "priority, target, and deadline are nouns — planning concepts related to goals and timing. 'remind' is a verb — the action of prompting someone not to forget something.",
+          "reason_vi": "priority, target và deadline đều là danh từ — khái niệm lập kế hoạch. 'remind' là động từ — hành động nhắc nhở ai đó không quên điều gì."
+        },
+        {
+          "id": 6,
+          "words": [
+            "plan",
+            "schedule",
+            "organise",
+            "deadline"
+          ],
+          "answer": "deadline",
+          "reason": "plan, schedule, and organise are verbs — things you do to prepare. 'deadline' is a noun — the final date or time by which something must be completed.",
+          "reason_vi": "plan, schedule và organise đều là động từ — thứ bạn làm để chuẩn bị. 'deadline' là danh từ — ngày hoặc giờ cuối mà thứ gì đó phải hoàn thành."
+        },
+        {
+          "id": 7,
+          "words": [
+            "checklist",
+            "priority",
+            "target",
+            "pack"
+          ],
+          "answer": "pack",
+          "reason": "checklist, priority, and target are nouns — tools or concepts used when planning. 'pack' is a verb — the physical action of putting things into a bag or case.",
+          "reason_vi": "checklist, priority và target đều là danh từ — công cụ hoặc khái niệm khi lập kế hoạch. 'pack' là động từ — hành động vật lý bỏ đồ vào túi hoặc vali."
+        },
+        {
+          "id": 8,
+          "words": [
+            "confirm",
+            "cancel",
+            "assess",
+            "ready"
+          ],
+          "answer": "ready",
+          "reason": "confirm, cancel, and assess are verbs — specific actions in the planning process. 'ready' is an adjective — it describes the state of being fully prepared, not an action.",
+          "reason_vi": "confirm, cancel và assess đều là động từ — hành động cụ thể trong quá trình chuẩn bị. 'ready' là tính từ — mô tả trạng thái sẵn sàng, không phải hành động."
+        },
+        {
+          "id": 9,
+          "words": [
+            "priority",
+            "deadline",
+            "schedule",
+            "assess"
+          ],
+          "answer": "assess",
+          "reason": "priority, deadline, and schedule are nouns — planning concepts related to goals and time. 'assess' is a verb — the action of evaluating a situation before making a decision.",
+          "reason_vi": "priority, deadline và schedule đều là danh từ — khái niệm lập kế hoạch. 'assess' là động từ — hành động đánh giá tình huống trước khi đưa ra quyết định."
+        },
+        {
+          "id": 10,
+          "words": [
+            "deadline",
+            "target",
+            "checklist",
+            "confirm"
+          ],
+          "answer": "confirm",
+          "reason": "deadline, target, and checklist are nouns — planning tools or goals. 'confirm' is a verb — the action of making sure that something is definite or agreed upon.",
+          "reason_vi": "deadline, target và checklist đều là danh từ — công cụ hoặc mục tiêu lập kế hoạch. 'confirm' là động từ — hành động xác nhận rằng điều gì đó chắc chắn hoặc đã được đồng ý."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "D", "2": "E", "3": "B", "4": "C", "5": "A" },
-    "ex2": { "1": "checklist", "2": "remind", "3": "organised", "4": "target", "5": "completed" },
-    "ex3": { "1": "plan", "2": "early", "3": "pack", "4": "ready", "5": "deadline" },
-    "ex4": { "1": "readily", "2": "confirmation", "3": "completely", "4": "cancelled", "5": "assess" },
-    "ex5": { "1": "B", "2": "B", "3": "C", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "D",
+      "2": "E",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "checklist",
+      "2": "remind",
+      "3": "organised",
+      "4": "target",
+      "5": "completed"
+    },
+    "ex3": {
+      "1": "plan",
+      "2": "early",
+      "3": "pack",
+      "4": "ready",
+      "5": "deadline"
+    },
+    "ex4": {
+      "1": "readily",
+      "2": "confirmation",
+      "3": "completely",
+      "4": "cancelled",
+      "5": "assess"
+    },
+    "ex5": {
+      "1": "B",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

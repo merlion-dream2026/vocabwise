@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "ancient" },
-        { "id": 2, "word": "tag" },
-        { "id": 3, "word": "collection" },
-        { "id": 4, "word": "wing" },
-        { "id": 5, "word": "exhibit" }
+        {
+          "id": 1,
+          "word": "ancient"
+        },
+        {
+          "id": 2,
+          "word": "tag"
+        },
+        {
+          "id": 3,
+          "word": "collection"
+        },
+        {
+          "id": 4,
+          "word": "wing"
+        },
+        {
+          "id": 5,
+          "word": "exhibit"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a group of objects of the same type that have been gathered together in one place" },
-        { "id": "B", "text": "a section of a large building that extends from the main part" },
-        { "id": "C", "text": "a small piece of card or paper attached to an object to give information about it" },
-        { "id": "D", "text": "something that is put on display for people to look at in a museum or gallery" },
-        { "id": "E", "text": "very old, from a time long ago in history" }
+        {
+          "id": "A",
+          "text": "a group of objects of the same type that have been gathered together in one place"
+        },
+        {
+          "id": "B",
+          "text": "a section of a large building that extends from the main part"
+        },
+        {
+          "id": "C",
+          "text": "a small piece of card or paper attached to an object to give information about it"
+        },
+        {
+          "id": "D",
+          "text": "something that is put on display for people to look at in a museum or gallery"
+        },
+        {
+          "id": "E",
+          "text": "very old, from a time long ago in history"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "The _____ gave us a map and told us where to go inside the museum.",
-          "options": ["object", "guide", "tag", "tour"],
+          "options": [
+            "object",
+            "guide",
+            "tag",
+            "tour"
+          ],
           "answer": "guide"
         },
         {
           "id": 2,
           "sentence": "We borrowed an _____ guide and listened to information about the paintings.",
-          "options": ["ancient", "entrance", "audio", "floor"],
+          "options": [
+            "ancient",
+            "entrance",
+            "audio",
+            "floor"
+          ],
           "answer": "audio"
         },
         {
           "id": 3,
           "sentence": "Each jar in the glass _____ had a number written on it.",
-          "options": ["wing", "tour", "level", "showcase"],
+          "options": [
+            "wing",
+            "tour",
+            "level",
+            "showcase"
+          ],
           "answer": "showcase"
         },
         {
           "id": 4,
           "sentence": "The gift shop is on the second _____ — take the stairs on your right.",
-          "options": ["level", "entrance", "wing", "object"],
+          "options": [
+            "level",
+            "entrance",
+            "wing",
+            "object"
+          ],
           "answer": "level"
         },
         {
           "id": 5,
           "sentence": "We picked up a _____ at the entrance to help us find each room.",
-          "options": ["tag", "tour", "audio", "floor plan"],
+          "options": [
+            "tag",
+            "tour",
+            "audio",
+            "floor plan"
+          ],
           "answer": "floor plan"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["entrance", "collection", "ancient", "tour", "way out", "exhibit"],
+      "word_bank": [
+        "entrance",
+        "collection",
+        "ancient",
+        "tour",
+        "way out",
+        "exhibit"
+      ],
       "items": [
-        { "id": 1, "sentence": "The _____ of Greek coins is on the third floor of the museum.", "answer": "collection" },
-        { "id": 2, "sentence": "We met our school group at the _____ before going inside.", "answer": "entrance" },
-        { "id": 3, "sentence": "The pottery in this room is very _____ — it is over three thousand years old.", "answer": "ancient" },
-        { "id": 4, "sentence": "Please follow the green signs to find the _____ when you are ready to leave.", "answer": "way out" },
-        { "id": 5, "sentence": "The guided _____ lasted two hours and covered all the main rooms.", "answer": "tour" }
+        {
+          "id": 1,
+          "sentence": "The _____ of Greek coins is on the third floor of the museum.",
+          "answer": "collection"
+        },
+        {
+          "id": 2,
+          "sentence": "We met our school group at the _____ before going inside.",
+          "answer": "entrance"
+        },
+        {
+          "id": 3,
+          "sentence": "The pottery in this room is very _____ — it is over three thousand years old.",
+          "answer": "ancient"
+        },
+        {
+          "id": 4,
+          "sentence": "Please follow the green signs to find the _____ when you are ready to leave.",
+          "answer": "way out"
+        },
+        {
+          "id": 5,
+          "sentence": "The guided _____ lasted two hours and covered all the main rooms.",
+          "answer": "tour"
+        }
       ],
       "note": "One word in the box is not used: exhibit"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Please pick up a [tag] at the front desk — it shows all the rooms and where they are.",
           "highlighted": "tag",
-          "options": { "A": "floor plan", "B": "tag", "C": "object" },
+          "options": {
+            "A": "floor plan",
+            "B": "tag",
+            "C": "object"
+          },
           "answer": "A",
           "explanation": "A 'tag' is a small label on an object. Something that shows you all the rooms in a building and where they are is a 'floor plan'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "The museum has an exciting [collection] on ancient Rome — go to level two to see it.",
           "highlighted": "collection",
-          "options": { "A": "object", "B": "audio", "C": "exhibit" },
+          "options": {
+            "A": "object",
+            "B": "audio",
+            "C": "exhibit"
+          },
           "answer": "C",
           "explanation": "A 'collection' is a group of objects. A single display or show about a topic in a museum is an 'exhibit'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "We followed the signs to the [entrance] after we finished looking at the last room.",
           "highlighted": "entrance",
-          "options": { "A": "entrance", "B": "way out", "C": "wing" },
+          "options": {
+            "A": "entrance",
+            "B": "way out",
+            "C": "wing"
+          },
           "answer": "B",
           "explanation": "The 'entrance' is where you go IN. After finishing a visit and leaving, you follow signs to the 'way out'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "Each small [showcase] in the display had the object's name and the year it was made.",
           "highlighted": "showcase",
-          "options": { "A": "wing", "B": "level", "C": "tag" },
+          "options": {
+            "A": "wing",
+            "B": "level",
+            "C": "tag"
+          },
           "answer": "C",
           "explanation": "A 'showcase' is a glass cabinet for displaying objects. A small label attached to an object with its name and date is a 'tag'."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "The museum is very big, so we used the [guide] on the wall to find each room.",
           "highlighted": "guide",
-          "options": { "A": "guide", "B": "tag", "C": "floor plan" },
+          "options": {
+            "A": "guide",
+            "B": "tag",
+            "C": "floor plan"
+          },
           "answer": "C",
           "explanation": "'Guide' usually refers to a person or audio device. Something fixed on a wall that shows you a map of all the rooms in a building is a 'floor plan'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nơi chốn & cấu trúc",
+        "Đồ vật được trưng bày",
+        "Người & công cụ hỗ trợ"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "museum",
+          "answer": "Nơi chốn & cấu trúc"
+        },
+        {
+          "id": 2,
+          "word": "exhibit",
+          "answer": "Đồ vật được trưng bày"
+        },
+        {
+          "id": 3,
+          "word": "entrance",
+          "answer": "Nơi chốn & cấu trúc"
+        },
+        {
+          "id": 4,
+          "word": "guide",
+          "answer": "Người & công cụ hỗ trợ"
+        },
+        {
+          "id": 5,
+          "word": "collection",
+          "answer": "Đồ vật được trưng bày"
+        },
+        {
+          "id": 6,
+          "word": "level",
+          "answer": "Nơi chốn & cấu trúc"
+        },
+        {
+          "id": 7,
+          "word": "audio",
+          "answer": "Người & công cụ hỗ trợ"
+        },
+        {
+          "id": 8,
+          "word": "object",
+          "answer": "Đồ vật được trưng bày"
+        },
+        {
+          "id": 9,
+          "word": "wing",
+          "answer": "Nơi chốn & cấu trúc"
+        },
+        {
+          "id": 10,
+          "word": "floor plan",
+          "answer": "Người & công cụ hỗ trợ"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "C", "3": "A", "4": "B", "5": "D" },
-    "ex2": { "1": "guide", "2": "audio", "3": "showcase", "4": "level", "5": "floor plan" },
-    "ex3": { "1": "collection", "2": "entrance", "3": "ancient", "4": "way out", "5": "tour" },
-    "ex4": { "1": "collects", "2": "guided", "3": "tourist", "4": "exhibit", "5": "collectively" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "C" }
+    "ex1": {
+      "1": "E",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "guide",
+      "2": "audio",
+      "3": "showcase",
+      "4": "level",
+      "5": "floor plan"
+    },
+    "ex3": {
+      "1": "collection",
+      "2": "entrance",
+      "3": "ancient",
+      "4": "way out",
+      "5": "tour"
+    },
+    "ex4": {
+      "1": "collects",
+      "2": "guided",
+      "3": "tourist",
+      "4": "exhibit",
+      "5": "collectively"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "C"
+    }
   }
 }

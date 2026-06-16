@@ -380,7 +380,7 @@ export default function LandingPage() {
                 { icon: '📚', label: '180 chủ đề', desc: '3 cuốn · A1 đến C2' },
                 { icon: '✏️', label: '8 loại bài tập', desc: 'Matching · MCQ · Gap Fill · TFNG...' },
                 { icon: '📄', label: 'Bài văn ngữ cảnh', desc: 'Đọc passage + glossary song ngữ' },
-                { icon: '🎯', label: 'Kiểm tra xếp lớp', desc: '10 câu · 2 phút · Tìm đúng level' },
+                { icon: '🎯', label: 'Kiểm tra cấp độ', desc: '10 câu · 2 phút · Tìm đúng level' },
               ].map(f => (
                 <div key={f.label} className="bg-white/10 rounded-2xl px-3 py-2.5">
                   <p className="font-black text-sm text-white">{f.icon} {f.label}</p>
@@ -390,7 +390,7 @@ export default function LandingPage() {
             </div>
             <Link href="/register"
               className="inline-flex items-center gap-2 bg-white text-indigo-700 font-black text-sm px-5 py-3 rounded-2xl shadow active:scale-95 transition-all hover:bg-blue-50">
-              🎯 Thử bài kiểm tra xếp lớp →
+              🎯 Thử bài kiểm tra cấp độ →
             </Link>
           </div>
         </div>

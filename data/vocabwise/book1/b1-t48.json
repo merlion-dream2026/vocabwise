@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "applause" },
-        { "id": 2, "word": "arrange" },
-        { "id": 3, "word": "ceremony" },
-        { "id": 4, "word": "host" },
-        { "id": 5, "word": "formal" }
+        {
+          "id": 1,
+          "word": "applause"
+        },
+        {
+          "id": 2,
+          "word": "arrange"
+        },
+        {
+          "id": 3,
+          "word": "ceremony"
+        },
+        {
+          "id": 4,
+          "word": "host"
+        },
+        {
+          "id": 5,
+          "word": "formal"
+        }
       ],
       "options": [
-        { "id": "A", "text": "the person who introduces speakers or performers and keeps an event running" },
-        { "id": "B", "text": "a formal public event that follows a set of traditional actions in a fixed order" },
-        { "id": "C", "text": "the sound of people clapping their hands together to show they enjoyed something" },
-        { "id": "D", "text": "to plan and organise something so that it is ready to happen" },
-        { "id": "E", "text": "serious and polite in style or behaviour, following rules about dress and manners" }
+        {
+          "id": "A",
+          "text": "the person who introduces speakers or performers and keeps an event running"
+        },
+        {
+          "id": "B",
+          "text": "a formal public event that follows a set of traditional actions in a fixed order"
+        },
+        {
+          "id": "C",
+          "text": "the sound of people clapping their hands together to show they enjoyed something"
+        },
+        {
+          "id": "D",
+          "text": "to plan and organise something so that it is ready to happen"
+        },
+        {
+          "id": "E",
+          "text": "serious and polite in style or behaviour, following rules about dress and manners"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She gave a short _____ to thank all the teachers who helped her during the year.",
-          "options": ["applause", "speech", "award", "reception"],
+          "options": [
+            "applause",
+            "speech",
+            "award",
+            "reception"
+          ],
           "answer": "speech"
         },
         {
           "id": 2,
           "sentence": "All students must _____ the year-end ceremony — it is not optional.",
-          "options": ["cheer", "dress up", "attend", "arrange"],
+          "options": [
+            "cheer",
+            "dress up",
+            "attend",
+            "arrange"
+          ],
           "answer": "attend"
         },
         {
           "id": 3,
           "sentence": "The winner walked onto the stage and accepted his _____ with a big smile.",
-          "options": ["guest", "microphone", "award", "programme"],
+          "options": [
+            "guest",
+            "microphone",
+            "award",
+            "programme"
+          ],
           "answer": "award"
         },
         {
           "id": 4,
           "sentence": "After the show, everyone moved to the _____ area for food and drinks.",
-          "options": ["event", "formal", "ceremony", "reception"],
+          "options": [
+            "event",
+            "formal",
+            "ceremony",
+            "reception"
+          ],
           "answer": "reception"
         },
         {
           "id": 5,
           "sentence": "The audience began to _____ when the team ran out onto the stage.",
-          "options": ["attend", "arrange", "cheer", "dress up"],
+          "options": [
+            "attend",
+            "arrange",
+            "cheer",
+            "dress up"
+          ],
           "answer": "cheer"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["guest", "programme", "microphone", "formal", "dress up", "applause"],
+      "word_bank": [
+        "guest",
+        "programme",
+        "microphone",
+        "formal",
+        "dress up",
+        "applause"
+      ],
       "items": [
-        { "id": 1, "sentence": "Could you please speak into the _____ so that everyone in the room can hear you?", "answer": "microphone" },
-        { "id": 2, "sentence": "The _____ listed five performances and a short film for the evening.", "answer": "programme" },
-        { "id": 3, "sentence": "Each _____ received a name card and a welcome gift at the entrance.", "answer": "guest" },
-        { "id": 4, "sentence": "Please _____ for the evening — smart trousers and a blouse or jacket are suitable.", "answer": "dress up" },
-        { "id": 5, "sentence": "The _____ was so loud that we could hear it from outside the hall.", "answer": "applause" }
+        {
+          "id": 1,
+          "sentence": "Could you please speak into the _____ so that everyone in the room can hear you?",
+          "answer": "microphone"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ listed five performances and a short film for the evening.",
+          "answer": "programme"
+        },
+        {
+          "id": 3,
+          "sentence": "Each _____ received a name card and a welcome gift at the entrance.",
+          "answer": "guest"
+        },
+        {
+          "id": 4,
+          "sentence": "Please _____ for the evening — smart trousers and a blouse or jacket are suitable.",
+          "answer": "dress up"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ was so loud that we could hear it from outside the hall.",
+          "answer": "applause"
+        }
       ],
       "note": "One word in the box is not used: formal"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "The [cheer] will begin at seven o'clock — the principal will speak first.",
           "highlighted": "cheer",
-          "options": { "A": "ceremony", "B": "cheer", "C": "reception" },
+          "options": {
+            "A": "ceremony",
+            "B": "cheer",
+            "C": "reception"
+          },
           "answer": "A",
           "explanation": "'Cheer' means to shout or clap to show support. A formal event with a set order of actions — like one that begins with a speech — is a 'ceremony'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "Everyone clapped and gave loud [speech] after the final performance of the night.",
           "highlighted": "speech",
-          "options": { "A": "event", "B": "applause", "C": "speech" },
+          "options": {
+            "A": "event",
+            "B": "applause",
+            "C": "speech"
+          },
           "answer": "B",
           "explanation": "A 'speech' is something a person says out loud. The sound of an audience clapping to show appreciation is 'applause'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "She had to [attend] the flowers and chairs before the guests arrived.",
           "highlighted": "attend",
-          "options": { "A": "attend", "B": "cheer", "C": "arrange" },
+          "options": {
+            "A": "attend",
+            "B": "cheer",
+            "C": "arrange"
+          },
           "answer": "C",
           "explanation": "'Attend' means to go to or be present at an event. To plan and organise things so they are ready in the right order or position is to 'arrange' them."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "The speaker held the [award] close to her mouth so we could all hear her clearly.",
           "highlighted": "award",
-          "options": { "A": "microphone", "B": "award", "C": "programme" },
+          "options": {
+            "A": "microphone",
+            "B": "award",
+            "C": "programme"
+          },
           "answer": "A",
           "explanation": "An 'award' is a prize given to recognise achievement. The device you hold near your mouth to make your voice louder so others can hear is a 'microphone'."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "The new student was the special [host] at the dinner — she received a warm welcome.",
           "highlighted": "host",
-          "options": { "A": "programme", "B": "host", "C": "guest" },
+          "options": {
+            "A": "programme",
+            "B": "host",
+            "C": "guest"
+          },
           "answer": "C",
           "explanation": "The 'host' is the person who organises or runs the event. Someone who is invited to an event and receives a welcome is a 'guest'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "attend",
+            "arrange",
+            "host",
+            "ceremony"
+          ],
+          "answer": "ceremony",
+          "reason": "attend, arrange, and host are all verbs — things you do in relation to an event. 'ceremony' is a noun — a formal occasion or event itself.",
+          "reason_vi": "attend, arrange và host đều là động từ — thứ bạn làm liên quan đến sự kiện. 'ceremony' là danh từ — buổi lễ trang trọng hoặc bản thân sự kiện."
+        },
+        {
+          "id": 2,
+          "words": [
+            "speech",
+            "programme",
+            "microphone",
+            "cheer"
+          ],
+          "answer": "cheer",
+          "reason": "speech, programme, and microphone are all things used at or during a formal event. 'cheer' is a verb — what the audience does to show excitement or support.",
+          "reason_vi": "speech, programme và microphone đều là thứ được dùng trong sự kiện trang trọng. 'cheer' là động từ — thứ khán giả làm để thể hiện sự phấn khích hoặc ủng hộ."
+        },
+        {
+          "id": 3,
+          "words": [
+            "event",
+            "ceremony",
+            "reception",
+            "programme"
+          ],
+          "answer": "programme",
+          "reason": "event, ceremony, and reception are all types of formal occasion. 'programme' is a printed schedule or document — it describes what will happen, not the occasion itself.",
+          "reason_vi": "event, ceremony và reception đều là loại dịp trang trọng. 'programme' là lịch trình in ra — mô tả những gì sẽ xảy ra, không phải bản thân buổi lễ."
+        },
+        {
+          "id": 4,
+          "words": [
+            "attend",
+            "dress up",
+            "arrange",
+            "speech"
+          ],
+          "answer": "speech",
+          "reason": "attend, dress up, and arrange are all verbs — things you do for or at an event. 'speech' is a noun — the prepared talk given by someone at the event.",
+          "reason_vi": "attend, dress up và arrange đều là động từ. 'speech' là danh từ — bài phát biểu được chuẩn bị sẵn của ai đó tại sự kiện."
+        },
+        {
+          "id": 5,
+          "words": [
+            "award",
+            "microphone",
+            "guest",
+            "applause"
+          ],
+          "answer": "applause",
+          "reason": "award, microphone, and guest are all physical or tangible — an object, a device, or a person. 'applause' is a sound — the clapping of the audience, not a physical object.",
+          "reason_vi": "award, microphone và guest đều là thứ vật lý hoặc hữu hình — vật, thiết bị hoặc người. 'applause' là âm thanh — tiếng vỗ tay của khán giả, không phải đồ vật."
+        },
+        {
+          "id": 6,
+          "words": [
+            "attend",
+            "arrange",
+            "host",
+            "award"
+          ],
+          "answer": "award",
+          "reason": "attend, arrange, and host are verbs — things you do in relation to an event. 'award' is a noun — a prize given to someone for an achievement.",
+          "reason_vi": "attend, arrange và host đều là động từ. 'award' là danh từ — giải thưởng trao cho ai đó vì thành tích."
+        },
+        {
+          "id": 7,
+          "words": [
+            "event",
+            "ceremony",
+            "reception",
+            "guest"
+          ],
+          "answer": "guest",
+          "reason": "event, ceremony, and reception are all types or contexts of a formal occasion. 'guest' is a person — someone invited to attend, not a type of occasion.",
+          "reason_vi": "event, ceremony và reception đều là loại hoặc bối cảnh của dịp trang trọng. 'guest' là người — người được mời tham dự, không phải loại dịp."
+        },
+        {
+          "id": 8,
+          "words": [
+            "cheer",
+            "dress up",
+            "attend",
+            "microphone"
+          ],
+          "answer": "microphone",
+          "reason": "cheer, dress up, and attend are all verbs — things participants do at an event. 'microphone' is a noun — a piece of equipment used to amplify a speaker's voice.",
+          "reason_vi": "cheer, dress up và attend đều là động từ — thứ người tham dự làm tại sự kiện. 'microphone' là danh từ — thiết bị khuếch đại giọng nói của người phát biểu."
+        },
+        {
+          "id": 9,
+          "words": [
+            "speech",
+            "programme",
+            "microphone",
+            "arrange"
+          ],
+          "answer": "arrange",
+          "reason": "speech, programme, and microphone are all things present or used at the event itself. 'arrange' is a verb done before the event — to organise and prepare so it can happen.",
+          "reason_vi": "speech, programme và microphone đều là thứ có mặt hoặc được dùng tại sự kiện. 'arrange' là động từ làm trước sự kiện — tổ chức và chuẩn bị để sự kiện diễn ra."
+        },
+        {
+          "id": 10,
+          "words": [
+            "host",
+            "cheer",
+            "dress up",
+            "reception"
+          ],
+          "answer": "reception",
+          "reason": "host, cheer, and dress up are verbs — active things you do at or for an event. 'reception' is a noun — a type of formal gathering or party that follows a ceremony.",
+          "reason_vi": "host, cheer và dress up đều là động từ — thứ bạn chủ động làm tại hoặc cho sự kiện. 'reception' là danh từ — loại tiệc chiêu đãi trang trọng sau một buổi lễ."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "D", "3": "B", "4": "A", "5": "E" },
-    "ex2": { "1": "speech", "2": "attend", "3": "award", "4": "reception", "5": "cheer" },
-    "ex3": { "1": "microphone", "2": "programme", "3": "guest", "4": "dress up", "5": "applause" },
-    "ex4": { "1": "attended", "2": "arrangements", "3": "formally", "4": "cheered", "5": "awarded" },
-    "ex5": { "1": "A", "2": "B", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "D",
+      "3": "B",
+      "4": "A",
+      "5": "E"
+    },
+    "ex2": {
+      "1": "speech",
+      "2": "attend",
+      "3": "award",
+      "4": "reception",
+      "5": "cheer"
+    },
+    "ex3": {
+      "1": "microphone",
+      "2": "programme",
+      "3": "guest",
+      "4": "dress up",
+      "5": "applause"
+    },
+    "ex4": {
+      "1": "attended",
+      "2": "arrangements",
+      "3": "formally",
+      "4": "cheered",
+      "5": "awarded"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "proofread" },
-        { "id": 2, "word": "attachment" },
-        { "id": 3, "word": "tone" },
-        { "id": 4, "word": "greeting" },
-        { "id": 5, "word": "forward" }
+        {
+          "id": 1,
+          "word": "proofread"
+        },
+        {
+          "id": 2,
+          "word": "attachment"
+        },
+        {
+          "id": 3,
+          "word": "tone"
+        },
+        {
+          "id": 4,
+          "word": "greeting"
+        },
+        {
+          "id": 5,
+          "word": "forward"
+        }
       ],
       "options": [
-        { "id": "A", "text": "the feeling or attitude expressed in a piece of writing — friendly, formal, cold, etc." },
-        { "id": "B", "text": "a word or phrase used at the start of a message to welcome the reader" },
-        { "id": "C", "text": "to send a message you received to a different person" },
-        { "id": "D", "text": "to read a piece of writing carefully to find and fix mistakes" },
-        { "id": "E", "text": "a file or document sent together with an email" }
+        {
+          "id": "A",
+          "text": "the feeling or attitude expressed in a piece of writing — friendly, formal, cold, etc."
+        },
+        {
+          "id": "B",
+          "text": "a word or phrase used at the start of a message to welcome the reader"
+        },
+        {
+          "id": "C",
+          "text": "to send a message you received to a different person"
+        },
+        {
+          "id": "D",
+          "text": "to read a piece of writing carefully to find and fix mistakes"
+        },
+        {
+          "id": "E",
+          "text": "a file or document sent together with an email"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "She wrote 'Best wishes, Lan' at the bottom — this is the _____ of the email.",
-          "options": ["greeting", "topic", "closing", "tone"],
+          "options": [
+            "greeting",
+            "topic",
+            "closing",
+            "tone"
+          ],
           "answer": "closing"
         },
         {
           "id": 2,
           "sentence": "You should _____ your work before sending it so there are no spelling mistakes.",
-          "options": ["compose", "proofread", "forward", "reply"],
+          "options": [
+            "compose",
+            "proofread",
+            "forward",
+            "reply"
+          ],
           "answer": "proofread"
         },
         {
           "id": 3,
           "sentence": "His email was very _____ — he used short, simple sentences that everyone could understand.",
-          "options": ["informal", "clear", "professional", "composed"],
+          "options": [
+            "informal",
+            "clear",
+            "professional",
+            "composed"
+          ],
           "answer": "clear"
         },
         {
           "id": 4,
           "sentence": "I need to _____ a thank-you email to my teacher before the end of the day.",
-          "options": ["spell", "reply", "compose", "proofread"],
+          "options": [
+            "spell",
+            "reply",
+            "compose",
+            "proofread"
+          ],
           "answer": "compose"
         },
         {
           "id": 5,
           "sentence": "Can you _____ that email to my mother? She wants to know the meeting time too.",
-          "options": ["forward", "cc", "reply", "spell"],
+          "options": [
+            "forward",
+            "cc",
+            "reply",
+            "spell"
+          ],
           "answer": "forward"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["signature", "informal", "tone", "reply", "greeting", "attachment"],
+      "word_bank": [
+        "signature",
+        "informal",
+        "tone",
+        "reply",
+        "greeting",
+        "attachment"
+      ],
       "items": [
-        { "id": 1, "sentence": "I use an _____ style with my friends — lots of short phrases and emoji.", "answer": "informal" },
-        { "id": 2, "sentence": "The _____ of his message was too aggressive — it sounded angry and rude.", "answer": "tone" },
-        { "id": 3, "sentence": "She started her email with the _____ 'Dear Madam' — very polite and formal.", "answer": "greeting" },
-        { "id": 4, "sentence": "Please _____ to my email when you have time — I need your answer by Friday.", "answer": "reply" },
-        { "id": 5, "sentence": "My _____ at the bottom of every email includes my phone number and job title.", "answer": "signature" }
+        {
+          "id": 1,
+          "sentence": "I use an _____ style with my friends — lots of short phrases and emoji.",
+          "answer": "informal"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of his message was too aggressive — it sounded angry and rude.",
+          "answer": "tone"
+        },
+        {
+          "id": 3,
+          "sentence": "She started her email with the _____ 'Dear Madam' — very polite and formal.",
+          "answer": "greeting"
+        },
+        {
+          "id": 4,
+          "sentence": "Please _____ to my email when you have time — I need your answer by Friday.",
+          "answer": "reply"
+        },
+        {
+          "id": 5,
+          "sentence": "My _____ at the bottom of every email includes my phone number and job title.",
+          "answer": "signature"
+        }
       ],
       "note": "One word in the box is not used: attachment"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Start your formal email with a polite [closing] such as 'Dear Sir or Madam'.",
           "highlighted": "closing",
-          "options": { "A": "topic", "B": "closing", "C": "greeting" },
+          "options": {
+            "A": "topic",
+            "B": "closing",
+            "C": "greeting"
+          },
           "answer": "C",
           "explanation": "A 'closing' comes at the end of an email. The words at the beginning that welcome the reader are called a 'greeting', such as 'Dear Sir or Madam'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "I forgot to add the [signature] — I sent the photo without it and had to send the email again.",
           "highlighted": "signature",
-          "options": { "A": "attachment", "B": "signature", "C": "topic" },
+          "options": {
+            "A": "attachment",
+            "B": "signature",
+            "C": "topic"
+          },
           "answer": "A",
           "explanation": "A 'signature' is your name at the end. A photo or document sent with an email is called an 'attachment' — forgetting it means you must resend the email."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "His message was very difficult to read — it was not [professional] at all.",
           "highlighted": "professional",
-          "options": { "A": "clear", "B": "informal", "C": "professional" },
+          "options": {
+            "A": "clear",
+            "B": "informal",
+            "C": "professional"
+          },
           "answer": "A",
           "explanation": "'Professional' describes the correct style for a work context. The sentence says the message was hard to read — the right word is 'clear', meaning easy to understand."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She used a very [informal] style in her job application — 'Dear Mr Smith' and 'Yours sincerely'.",
           "highlighted": "informal",
-          "options": { "A": "informal", "B": "clear", "C": "formal" },
+          "options": {
+            "A": "informal",
+            "B": "clear",
+            "C": "formal"
+          },
           "answer": "C",
           "explanation": "'Dear Mr Smith' and 'Yours sincerely' are formal expressions used in professional writing. Using these phrases means the style is 'formal', not 'informal'."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "Can you [reply] this email to our manager? She needs to see it as well.",
           "highlighted": "reply",
-          "options": { "A": "cc", "B": "forward", "C": "reply" },
+          "options": {
+            "A": "cc",
+            "B": "forward",
+            "C": "reply"
+          },
           "answer": "B",
           "explanation": "'Reply' means to respond to the person who sent you the email. Sending an email you received to a different person is called 'forward' — that is what the sentence is asking for."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Hành động viết thư/tin",
+        "Phần của thư/tin",
+        "Phong cách & chất lượng"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "compose",
+          "answer": "Hành động viết thư/tin"
+        },
+        {
+          "id": 2,
+          "word": "greeting",
+          "answer": "Phần của thư/tin"
+        },
+        {
+          "id": 3,
+          "word": "reply",
+          "answer": "Hành động viết thư/tin"
+        },
+        {
+          "id": 4,
+          "word": "professional",
+          "answer": "Phong cách & chất lượng"
+        },
+        {
+          "id": 5,
+          "word": "signature",
+          "answer": "Phần của thư/tin"
+        },
+        {
+          "id": 6,
+          "word": "proofread",
+          "answer": "Hành động viết thư/tin"
+        },
+        {
+          "id": 7,
+          "word": "informal",
+          "answer": "Phong cách & chất lượng"
+        },
+        {
+          "id": 8,
+          "word": "attachment",
+          "answer": "Phần của thư/tin"
+        },
+        {
+          "id": 9,
+          "word": "forward",
+          "answer": "Hành động viết thư/tin"
+        },
+        {
+          "id": 10,
+          "word": "tone",
+          "answer": "Phong cách & chất lượng"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "D", "2": "E", "3": "A", "4": "B", "5": "C" },
-    "ex2": { "1": "closing", "2": "proofread", "3": "clear", "4": "compose", "5": "forward" },
-    "ex3": { "1": "informal", "2": "tone", "3": "greeting", "4": "reply", "5": "signature" },
-    "ex4": { "1": "clearly", "2": "professionally", "3": "spelling", "4": "composed", "5": "formally" },
-    "ex5": { "1": "C", "2": "A", "3": "A", "4": "C", "5": "B" }
+    "ex1": {
+      "1": "D",
+      "2": "E",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    },
+    "ex2": {
+      "1": "closing",
+      "2": "proofread",
+      "3": "clear",
+      "4": "compose",
+      "5": "forward"
+    },
+    "ex3": {
+      "1": "informal",
+      "2": "tone",
+      "3": "greeting",
+      "4": "reply",
+      "5": "signature"
+    },
+    "ex4": {
+      "1": "clearly",
+      "2": "professionally",
+      "3": "spelling",
+      "4": "composed",
+      "5": "formally"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "A",
+      "4": "C",
+      "5": "B"
+    }
   }
 }

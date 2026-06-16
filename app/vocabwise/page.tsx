@@ -95,7 +95,7 @@ export default function VocabWisePage() {
             </div>
             <div className="space-y-2.5 mb-4">
               {[
-                { n: '1', icon: '🎯', title: 'Làm bài kiểm tra xếp lớp', desc: '10 câu · 2 phút · tìm đúng cấp độ' },
+                { n: '1', icon: '🎯', title: 'Làm bài kiểm tra cấp độ', desc: '10 câu · 2 phút · tìm đúng cấp độ' },
                 { n: '2', icon: '📄', title: 'Đọc bài passage & xem từ vựng', desc: 'Đọc bài văn ngữ cảnh + glossary song ngữ' },
                 { n: '3', icon: '✏️', title: 'Làm 5 bài tập luyện từ', desc: 'Matching · MCQ · Gap Fill · TFNG · Word Forms' },
               ].map(step => (
@@ -110,7 +110,7 @@ export default function VocabWisePage() {
             </div>
             <Link href="/vocabwise/placement" onClick={dismissWelcome}
               className="w-full flex items-center justify-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white font-black text-sm py-3 rounded-2xl active:scale-95 transition-all">
-              🎯 Bắt đầu với bài kiểm tra xếp lớp →
+              🎯 Bắt đầu với bài kiểm tra cấp độ →
             </Link>
           </div>
         )}
@@ -119,7 +119,7 @@ export default function VocabWisePage() {
         {hasAnyProgress ? (
           <Link href="/vocabwise/placement"
             className="flex items-center gap-2 text-indigo-500 text-xs font-bold justify-center py-1 hover:text-indigo-700 transition-colors">
-            🎯 Làm lại bài kiểm tra xếp lớp
+            🎯 Làm lại bài kiểm tra cấp độ
           </Link>
         ) : (
           <Link href="/vocabwise/placement"

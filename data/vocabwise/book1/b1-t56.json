@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "voicemail" },
-        { "id": 2, "word": "roaming" },
-        { "id": 3, "word": "silent" },
-        { "id": 4, "word": "hang up" },
-        { "id": 5, "word": "dial" }
+        {
+          "id": 1,
+          "word": "voicemail"
+        },
+        {
+          "id": 2,
+          "word": "roaming"
+        },
+        {
+          "id": 3,
+          "word": "silent"
+        },
+        {
+          "id": 4,
+          "word": "hang up"
+        },
+        {
+          "id": 5,
+          "word": "dial"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to press the numbers on a phone to make a call" },
-        { "id": "B", "text": "making no sound; set to not ring or vibrate" },
-        { "id": "C", "text": "to end a phone call" },
-        { "id": "D", "text": "a recorded message left when someone does not answer their phone" },
-        { "id": "E", "text": "using a phone network in another country, usually at extra cost" }
+        {
+          "id": "A",
+          "text": "to press the numbers on a phone to make a call"
+        },
+        {
+          "id": "B",
+          "text": "making no sound; set to not ring or vibrate"
+        },
+        {
+          "id": "C",
+          "text": "to end a phone call"
+        },
+        {
+          "id": "D",
+          "text": "a recorded message left when someone does not answer their phone"
+        },
+        {
+          "id": "E",
+          "text": "using a phone network in another country, usually at extra cost"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "I tried to call but the line was _____, so I sent a text instead.",
-          "options": ["silent", "missed", "busy", "lost"],
+          "options": [
+            "silent",
+            "missed",
+            "busy",
+            "lost"
+          ],
           "answer": "busy"
         },
         {
           "id": 2,
           "sentence": "The _____ in this area is very weak — my calls keep dropping.",
-          "options": ["voicemail", "signal", "speaker", "text"],
+          "options": [
+            "voicemail",
+            "signal",
+            "speaker",
+            "text"
+          ],
           "answer": "signal"
         },
         {
           "id": 3,
           "sentence": "After our long conversation, she said goodbye and _____ .",
-          "options": ["dialled", "saved", "hung up", "rang"],
+          "options": [
+            "dialled",
+            "saved",
+            "hung up",
+            "rang"
+          ],
           "answer": "hung up"
         },
         {
           "id": 4,
           "sentence": "I checked my phone and saw two _____ calls from my mother.",
-          "options": ["busy", "silent", "roaming", "missed"],
+          "options": [
+            "busy",
+            "silent",
+            "roaming",
+            "missed"
+          ],
           "answer": "missed"
         },
         {
           "id": 5,
           "sentence": "Please _____ all important contacts so you can call them quickly.",
-          "options": ["text", "save", "dial", "ring"],
+          "options": [
+            "text",
+            "save",
+            "dial",
+            "ring"
+          ],
           "answer": "save"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["call", "alert", "network", "speaker", "roaming", "ring"],
+      "word_bank": [
+        "call",
+        "alert",
+        "network",
+        "speaker",
+        "roaming",
+        "ring"
+      ],
       "items": [
-        { "id": 1, "sentence": "Turn off _____ before you travel abroad to avoid high phone bills.", "answer": "roaming" },
-        { "id": 2, "sentence": "I put the phone on _____ so everyone in the office could hear the meeting.", "answer": "speaker" },
-        { "id": 3, "sentence": "My phone showed an _____ saying I had a new message.", "answer": "alert" },
-        { "id": 4, "sentence": "There is no _____ signal in the basement, so I cannot send emails there.", "answer": "network" },
-        { "id": 5, "sentence": "She gave me her number so I could _____ her if I needed help.", "answer": "call" }
+        {
+          "id": 1,
+          "sentence": "Turn off _____ before you travel abroad to avoid high phone bills.",
+          "answer": "roaming"
+        },
+        {
+          "id": 2,
+          "sentence": "I put the phone on _____ so everyone in the office could hear the meeting.",
+          "answer": "speaker"
+        },
+        {
+          "id": 3,
+          "sentence": "My phone showed an _____ saying I had a new message.",
+          "answer": "alert"
+        },
+        {
+          "id": 4,
+          "sentence": "There is no _____ signal in the basement, so I cannot send emails there.",
+          "answer": "network"
+        },
+        {
+          "id": 5,
+          "sentence": "She gave me her number so I could _____ her if I needed help.",
+          "answer": "call"
+        }
       ],
       "note": "One word in the box is not used: ring"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Please put your phone on [alert] during the meeting so it does not disturb anyone.",
           "highlighted": "alert",
-          "options": { "A": "silent", "B": "roaming", "C": "alert" },
+          "options": {
+            "A": "silent",
+            "B": "roaming",
+            "C": "alert"
+          },
           "answer": "A",
           "explanation": "'Alert' is a notification or warning — it is not a phone mode. When you want your phone to make no noise during a meeting, you put it on 'silent' mode."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "I left a [text] on her phone because she did not answer when I called.",
           "highlighted": "text",
-          "options": { "A": "signal", "B": "text", "C": "voicemail" },
+          "options": {
+            "A": "signal",
+            "B": "text",
+            "C": "voicemail"
+          },
           "answer": "C",
           "explanation": "A 'text' is a written message sent directly to someone's phone. When you call and no one answers, you can leave a recorded spoken message — this is called a 'voicemail'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The call quality was very poor because the [network] was only one bar in the mountains.",
           "highlighted": "network",
-          "options": { "A": "voicemail", "B": "signal", "C": "network" },
+          "options": {
+            "A": "voicemail",
+            "B": "signal",
+            "C": "network"
+          },
           "answer": "B",
           "explanation": "'Network' refers to the phone provider or system. The number of bars shown on a phone indicates the strength of the 'signal', not the network."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "After we finished talking, I [dialled] and said goodbye.",
           "highlighted": "dialled",
-          "options": { "A": "rang", "B": "dialled", "C": "hung up" },
+          "options": {
+            "A": "rang",
+            "B": "dialled",
+            "C": "hung up"
+          },
           "answer": "C",
           "explanation": "'Dialled' means you pressed numbers to start a call — not end one. When a conversation is finished and you end the call, you 'hang up'."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "I saw her [busy] on my screen when I got home, so I called her back right away.",
           "highlighted": "busy",
-          "options": { "A": "missed call", "B": "busy", "C": "silent mode" },
+          "options": {
+            "A": "missed call",
+            "B": "busy",
+            "C": "silent mode"
+          },
           "answer": "A",
           "explanation": "'Busy' describes a phone line that is in use. When someone called you but you did not answer, what you see on your screen is a 'missed call', not a 'busy' notification."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "call",
+            "ring",
+            "text",
+            "silent"
+          ],
+          "answer": "silent",
+          "reason": "call, ring, and text are verbs — actions you take when communicating by phone. 'silent' is an adjective — a mode that stops your phone from making noise.",
+          "reason_vi": "call, ring và text đều là động từ — hành động khi liên lạc bằng điện thoại. 'silent' là tính từ — chế độ tắt tiếng điện thoại."
+        },
+        {
+          "id": 2,
+          "words": [
+            "signal",
+            "network",
+            "roaming",
+            "voicemail"
+          ],
+          "answer": "voicemail",
+          "reason": "signal, network, and roaming are all technical terms about mobile connectivity — how your phone connects. 'voicemail' is a recorded voice message — about communication content, not connectivity.",
+          "reason_vi": "signal, network và roaming đều là thuật ngữ kỹ thuật về kết nối điện thoại. 'voicemail' là tin nhắn thoại được ghi âm — về nội dung liên lạc, không phải kết nối."
+        },
+        {
+          "id": 3,
+          "words": [
+            "call",
+            "dial",
+            "ring",
+            "missed"
+          ],
+          "answer": "missed",
+          "reason": "call, dial, and ring are verbs — active actions for making a phone connection. 'missed' is an adjective — it describes a call that happened but was not answered.",
+          "reason_vi": "call, dial và ring đều là động từ — hành động chủ động để kết nối điện thoại. 'missed' là tính từ — mô tả cuộc gọi đã xảy ra nhưng không được trả lời."
+        },
+        {
+          "id": 4,
+          "words": [
+            "signal",
+            "network",
+            "speaker",
+            "roaming"
+          ],
+          "answer": "speaker",
+          "reason": "signal, network, and roaming are all related to mobile connectivity — how and where your phone connects. 'speaker' is a physical part of the phone — the component that produces sound.",
+          "reason_vi": "signal, network và roaming đều liên quan đến kết nối di động. 'speaker' là bộ phận vật lý của điện thoại — linh kiện tạo ra âm thanh."
+        },
+        {
+          "id": 5,
+          "words": [
+            "busy",
+            "silent",
+            "missed",
+            "call"
+          ],
+          "answer": "call",
+          "reason": "busy, silent, and missed are adjectives describing the state of a phone or a call. 'call' is a verb — the action of contacting someone by phone.",
+          "reason_vi": "busy, silent và missed đều là tính từ mô tả trạng thái điện thoại hoặc cuộc gọi. 'call' là động từ — hành động liên lạc với ai đó qua điện thoại."
+        },
+        {
+          "id": 6,
+          "words": [
+            "hang up",
+            "dial",
+            "text",
+            "signal"
+          ],
+          "answer": "signal",
+          "reason": "hang up, dial, and text are verbs — things you actively do on a phone. 'signal' is a noun — the strength or presence of a network connection, not an action.",
+          "reason_vi": "hang up, dial và text đều là động từ — thứ bạn chủ động làm trên điện thoại. 'signal' là danh từ — mức độ hoặc sự hiện diện của kết nối mạng, không phải hành động."
+        },
+        {
+          "id": 7,
+          "words": [
+            "busy",
+            "silent",
+            "missed",
+            "alert"
+          ],
+          "answer": "alert",
+          "reason": "busy, silent, and missed all describe states that prevent or interrupt a normal call. 'alert' is different — it is a notification that draws your attention to something new.",
+          "reason_vi": "busy, silent và missed đều mô tả trạng thái ngăn hoặc làm gián đoạn cuộc gọi bình thường. 'alert' khác — là thông báo thu hút sự chú ý của bạn đến điều gì mới."
+        },
+        {
+          "id": 8,
+          "words": [
+            "call",
+            "ring",
+            "dial",
+            "network"
+          ],
+          "answer": "network",
+          "reason": "call, ring, and dial are verbs — active actions for making or starting a phone call. 'network' is a noun — the infrastructure or system that allows phone communication.",
+          "reason_vi": "call, ring và dial đều là động từ — hành động chủ động để thực hiện hoặc bắt đầu cuộc gọi. 'network' là danh từ — cơ sở hạ tầng hoặc hệ thống cho phép liên lạc điện thoại."
+        },
+        {
+          "id": 9,
+          "words": [
+            "save",
+            "hang up",
+            "dial",
+            "roaming"
+          ],
+          "answer": "roaming",
+          "reason": "save, hang up, and dial are verbs — things you do on your phone. 'roaming' describes a status — when your phone connects to a foreign network while you are travelling.",
+          "reason_vi": "save, hang up và dial đều là động từ — thứ bạn làm trên điện thoại. 'roaming' mô tả trạng thái — khi điện thoại kết nối mạng nước ngoài lúc bạn đi du lịch."
+        },
+        {
+          "id": 10,
+          "words": [
+            "busy",
+            "silent",
+            "missed",
+            "hang up"
+          ],
+          "answer": "hang up",
+          "reason": "busy, silent, and missed are adjectives — they describe the state of a phone or a call. 'hang up' is a verb — the action of ending a phone call.",
+          "reason_vi": "busy, silent và missed đều là tính từ — mô tả trạng thái điện thoại hoặc cuộc gọi. 'hang up' là động từ — hành động kết thúc cuộc gọi điện thoại."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "D", "2": "E", "3": "B", "4": "C", "5": "A" },
-    "ex2": { "1": "busy", "2": "signal", "3": "hung up", "4": "missed", "5": "save" },
-    "ex3": { "1": "roaming", "2": "speaker", "3": "alert", "4": "network", "5": "call" },
-    "ex4": { "1": "rang", "2": "silence", "3": "dialled", "4": "texted", "5": "saved" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "C", "5": "A" }
+    "ex1": {
+      "1": "D",
+      "2": "E",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "busy",
+      "2": "signal",
+      "3": "hung up",
+      "4": "missed",
+      "5": "save"
+    },
+    "ex3": {
+      "1": "roaming",
+      "2": "speaker",
+      "3": "alert",
+      "4": "network",
+      "5": "call"
+    },
+    "ex4": {
+      "1": "rang",
+      "2": "silence",
+      "3": "dialled",
+      "4": "texted",
+      "5": "saved"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
   }
 }

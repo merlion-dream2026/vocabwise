@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "seal" },
-        { "id": 2, "word": "recipient" },
-        { "id": 3, "word": "urgent" },
-        { "id": 4, "word": "track" },
-        { "id": 5, "word": "counter" }
+        {
+          "id": 1,
+          "word": "seal"
+        },
+        {
+          "id": 2,
+          "word": "recipient"
+        },
+        {
+          "id": 3,
+          "word": "urgent"
+        },
+        {
+          "id": 4,
+          "word": "track"
+        },
+        {
+          "id": 5,
+          "word": "counter"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a desk or surface in a shop or office where customers are served" },
-        { "id": "B", "text": "needing to be done or dealt with very quickly" },
-        { "id": "C", "text": "to follow and check the progress or location of something" },
-        { "id": "D", "text": "the person who receives a letter, parcel, or payment" },
-        { "id": "E", "text": "to close something firmly so that nothing can get in or out" }
+        {
+          "id": "A",
+          "text": "a desk or surface in a shop or office where customers are served"
+        },
+        {
+          "id": "B",
+          "text": "needing to be done or dealt with very quickly"
+        },
+        {
+          "id": "C",
+          "text": "to follow and check the progress or location of something"
+        },
+        {
+          "id": "D",
+          "text": "the person who receives a letter, parcel, or payment"
+        },
+        {
+          "id": "E",
+          "text": "to close something firmly so that nothing can get in or out"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "You must write the _____ address clearly on the front of the parcel.",
-          "options": ["sender", "recipient", "counter", "fee"],
+          "options": [
+            "sender",
+            "recipient",
+            "counter",
+            "fee"
+          ],
           "answer": "recipient"
         },
         {
           "id": 2,
           "sentence": "Please _____ the box tightly with tape so nothing falls out.",
-          "options": ["wait", "post", "track", "seal"],
+          "options": [
+            "wait",
+            "post",
+            "track",
+            "seal"
+          ],
           "answer": "seal"
         },
         {
           "id": 3,
           "sentence": "The parcel is too _____ to carry alone — please ask someone to help.",
-          "options": ["urgent", "light", "heavy", "small"],
+          "options": [
+            "urgent",
+            "light",
+            "heavy",
+            "small"
+          ],
           "answer": "heavy"
         },
         {
           "id": 4,
           "sentence": "You can _____ your parcel online and see exactly where it is.",
-          "options": ["track", "seal", "wait", "deliver"],
+          "options": [
+            "track",
+            "seal",
+            "wait",
+            "deliver"
+          ],
           "answer": "track"
         },
         {
           "id": 5,
           "sentence": "There is an extra _____ if you want express delivery.",
-          "options": ["stamp", "parcel", "counter", "fee"],
+          "options": [
+            "stamp",
+            "parcel",
+            "counter",
+            "fee"
+          ],
           "answer": "fee"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["deliver", "sender", "post", "stamp", "urgent", "wait"],
+      "word_bank": [
+        "deliver",
+        "sender",
+        "post",
+        "stamp",
+        "urgent",
+        "wait"
+      ],
       "items": [
-        { "id": 1, "sentence": "I need to buy a _____ before I can send this letter.", "answer": "stamp" },
-        { "id": 2, "sentence": "The package is _____— please send it today, not tomorrow.", "answer": "urgent" },
-        { "id": 3, "sentence": "Write your name as the _____ on the back of the envelope.", "answer": "sender" },
-        { "id": 4, "sentence": "The post office will _____ the parcel to your home address.", "answer": "deliver" },
-        { "id": 5, "sentence": "Please _____ here while I check if your parcel is ready.", "answer": "wait" }
+        {
+          "id": 1,
+          "sentence": "I need to buy a _____ before I can send this letter.",
+          "answer": "stamp"
+        },
+        {
+          "id": 2,
+          "sentence": "The package is _____— please send it today, not tomorrow.",
+          "answer": "urgent"
+        },
+        {
+          "id": 3,
+          "sentence": "Write your name as the _____ on the back of the envelope.",
+          "answer": "sender"
+        },
+        {
+          "id": 4,
+          "sentence": "The post office will _____ the parcel to your home address.",
+          "answer": "deliver"
+        },
+        {
+          "id": 5,
+          "sentence": "Please _____ here while I check if your parcel is ready.",
+          "answer": "wait"
+        }
       ],
       "note": "One word in the box is not used: post"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "Please write the [sender] address on the front so the postman knows where to deliver it.",
           "highlighted": "sender",
-          "options": { "A": "counter", "B": "sender", "C": "recipient" },
+          "options": {
+            "A": "counter",
+            "B": "sender",
+            "C": "recipient"
+          },
           "answer": "C",
           "explanation": "The address on the front of a parcel is for the person who receives it — the 'recipient'. The 'sender' is the person who sends it, and their address goes on the back."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "I had to [deliver] for thirty minutes because the post office was very crowded.",
           "highlighted": "deliver",
-          "options": { "A": "wait", "B": "deliver", "C": "track" },
+          "options": {
+            "A": "wait",
+            "B": "deliver",
+            "C": "track"
+          },
           "answer": "A",
           "explanation": "'Deliver' means to bring something to someone. When you stay somewhere until something is ready or until your turn comes, you 'wait', not deliver."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "The parcel is very [light] — I need two people to help me carry it to the counter.",
           "highlighted": "light",
-          "options": { "A": "urgent", "B": "light", "C": "heavy" },
+          "options": {
+            "A": "urgent",
+            "B": "light",
+            "C": "heavy"
+          },
           "answer": "C",
           "explanation": "'Light' means not weighing much and is easy to carry alone. If you need two people to carry it, it must be 'heavy', not light."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "She used tape to [track] the box before handing it to the post office staff.",
           "highlighted": "track",
-          "options": { "A": "seal", "B": "post", "C": "track" },
+          "options": {
+            "A": "seal",
+            "B": "post",
+            "C": "track"
+          },
           "answer": "A",
           "explanation": "'Track' means to follow or check the progress of something online. To close and secure a box with tape before sending it is to 'seal' it."
         },
@@ -452,18 +550,113 @@
           "id": 5,
           "sentence": "The post office charges a small [stamp] for express delivery service.",
           "highlighted": "stamp",
-          "options": { "A": "box", "B": "stamp", "C": "fee" },
+          "options": {
+            "A": "box",
+            "B": "stamp",
+            "C": "fee"
+          },
           "answer": "C",
           "explanation": "A 'stamp' is a small sticker you put on a letter or envelope — it is not a charge for a service. The money you pay for a service such as express delivery is called a 'fee'."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Đồ vật & bưu kiện",
+        "Hành động tại bưu điện",
+        "Tính từ mô tả bưu kiện"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "parcel",
+          "answer": "Đồ vật & bưu kiện"
+        },
+        {
+          "id": 2,
+          "word": "deliver",
+          "answer": "Hành động tại bưu điện"
+        },
+        {
+          "id": 3,
+          "word": "stamp",
+          "answer": "Đồ vật & bưu kiện"
+        },
+        {
+          "id": 4,
+          "word": "heavy",
+          "answer": "Tính từ mô tả bưu kiện"
+        },
+        {
+          "id": 5,
+          "word": "seal",
+          "answer": "Hành động tại bưu điện"
+        },
+        {
+          "id": 6,
+          "word": "box",
+          "answer": "Đồ vật & bưu kiện"
+        },
+        {
+          "id": 7,
+          "word": "urgent",
+          "answer": "Tính từ mô tả bưu kiện"
+        },
+        {
+          "id": 8,
+          "word": "track",
+          "answer": "Hành động tại bưu điện"
+        },
+        {
+          "id": 9,
+          "word": "counter",
+          "answer": "Đồ vật & bưu kiện"
+        },
+        {
+          "id": 10,
+          "word": "light",
+          "answer": "Tính từ mô tả bưu kiện"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "D", "3": "B", "4": "C", "5": "A" },
-    "ex2": { "1": "recipient", "2": "seal", "3": "heavy", "4": "track", "5": "fee" },
-    "ex3": { "1": "stamp", "2": "urgent", "3": "sender", "4": "deliver", "5": "wait" },
-    "ex4": { "1": "delivery", "2": "carefully", "3": "urgently", "4": "sealed", "5": "postage" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "recipient",
+      "2": "seal",
+      "3": "heavy",
+      "4": "track",
+      "5": "fee"
+    },
+    "ex3": {
+      "1": "stamp",
+      "2": "urgent",
+      "3": "sender",
+      "4": "deliver",
+      "5": "wait"
+    },
+    "ex4": {
+      "1": "delivery",
+      "2": "carefully",
+      "3": "urgently",
+      "4": "sealed",
+      "5": "postage"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

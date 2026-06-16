@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "utensil" },
-        { "id": 2, "word": "ingredient" },
-        { "id": 3, "word": "slice" },
-        { "id": 4, "word": "amount" },
-        { "id": 5, "word": "recipe" }
+        {
+          "id": 1,
+          "word": "utensil"
+        },
+        {
+          "id": 2,
+          "word": "ingredient"
+        },
+        {
+          "id": 3,
+          "word": "slice"
+        },
+        {
+          "id": 4,
+          "word": "amount"
+        },
+        {
+          "id": 5,
+          "word": "recipe"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a food item you use when making a dish" },
-        { "id": "B", "text": "a set of instructions that tells you how to cook a dish" },
-        { "id": "C", "text": "a tool or piece of equipment used in the kitchen" },
-        { "id": "D", "text": "to cut something into thin flat pieces" },
-        { "id": "E", "text": "how much of something there is" }
+        {
+          "id": "A",
+          "text": "a food item you use when making a dish"
+        },
+        {
+          "id": "B",
+          "text": "a set of instructions that tells you how to cook a dish"
+        },
+        {
+          "id": "C",
+          "text": "a tool or piece of equipment used in the kitchen"
+        },
+        {
+          "id": "D",
+          "text": "to cut something into thin flat pieces"
+        },
+        {
+          "id": "E",
+          "text": "how much of something there is"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "You must _____ the recipe carefully — do not skip any steps.",
-          "options": ["follow", "pour", "bake", "slice"],
+          "options": [
+            "follow",
+            "pour",
+            "bake",
+            "slice"
+          ],
           "answer": "follow"
         },
         {
           "id": 2,
           "sentence": "She put the cake in the oven to _____ for thirty minutes.",
-          "options": ["mix", "boil", "bake", "serve"],
+          "options": [
+            "mix",
+            "boil",
+            "bake",
+            "serve"
+          ],
           "answer": "bake"
         },
         {
           "id": 3,
           "sentence": "We _____ all the vegetables before we started cooking the soup.",
-          "options": ["poured", "served", "boiled", "prepared"],
+          "options": [
+            "poured",
+            "served",
+            "boiled",
+            "prepared"
+          ],
           "answer": "prepared"
         },
         {
           "id": 4,
           "sentence": "Add only a small _____ of sugar — the fruit is already sweet.",
-          "options": ["recipe", "step", "amount", "utensil"],
+          "options": [
+            "recipe",
+            "step",
+            "amount",
+            "utensil"
+          ],
           "answer": "amount"
         },
         {
           "id": 5,
           "sentence": "He _____ the sauce over the noodles just before bringing them to the table.",
-          "options": ["sliced", "poured", "mixed", "heated"],
+          "options": [
+            "sliced",
+            "poured",
+            "mixed",
+            "heated"
+          ],
           "answer": "poured"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["boil", "fry", "serve", "heat", "step", "mix"],
+      "word_bank": [
+        "boil",
+        "fry",
+        "serve",
+        "heat",
+        "step",
+        "mix"
+      ],
       "items": [
-        { "id": 1, "sentence": "First, _____ the oil in a pan over low heat.", "answer": "heat" },
-        { "id": 2, "sentence": "Then _____ the chicken until it turns golden brown.", "answer": "fry" },
-        { "id": 3, "sentence": "Meanwhile, _____ the noodles in a pot of salted water.", "answer": "boil" },
-        { "id": 4, "sentence": "In a bowl, _____ the sauce ingredients until smooth.", "answer": "mix" },
-        { "id": 5, "sentence": "When everything is ready, _____ the dish while it is still hot.", "answer": "serve" }
+        {
+          "id": 1,
+          "sentence": "First, _____ the oil in a pan over low heat.",
+          "answer": "heat"
+        },
+        {
+          "id": 2,
+          "sentence": "Then _____ the chicken until it turns golden brown.",
+          "answer": "fry"
+        },
+        {
+          "id": 3,
+          "sentence": "Meanwhile, _____ the noodles in a pot of salted water.",
+          "answer": "boil"
+        },
+        {
+          "id": 4,
+          "sentence": "In a bowl, _____ the sauce ingredients until smooth.",
+          "answer": "mix"
+        },
+        {
+          "id": 5,
+          "sentence": "When everything is ready, _____ the dish while it is still hot.",
+          "answer": "serve"
+        }
       ],
       "note": "One word in the box is not used: step"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "The recipe says to [bake] the eggs in boiling water for ten minutes.",
           "highlighted": "bake",
-          "options": { "A": "slice", "B": "bake", "C": "boil" },
+          "options": {
+            "A": "slice",
+            "B": "bake",
+            "C": "boil"
+          },
           "answer": "C",
           "explanation": "'Bake' means to cook in an oven using dry heat. Eggs cooked in boiling water are not baked — they are 'boiled'."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "He forgot to check the [recipe] of salt and put in too much.",
           "highlighted": "recipe",
-          "options": { "A": "amount", "B": "recipe", "C": "step" },
+          "options": {
+            "A": "amount",
+            "B": "recipe",
+            "C": "step"
+          },
           "answer": "A",
           "explanation": "A 'recipe' is a set of instructions for cooking. The word that refers to how much of something you use is 'amount'."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "Please [boil] the olive oil in a pan before adding the garlic.",
           "highlighted": "boil",
-          "options": { "A": "serve", "B": "pour", "C": "heat" },
+          "options": {
+            "A": "serve",
+            "B": "pour",
+            "C": "heat"
+          },
           "answer": "C",
           "explanation": "You do not boil oil — you heat it. 'Boil' is used for water or liquid. The correct word here is 'heat'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "This dish is easy — you only need three [utensils]: eggs, flour, and milk.",
           "highlighted": "utensils",
-          "options": { "A": "utensils", "B": "ingredients", "C": "steps" },
+          "options": {
+            "A": "utensils",
+            "B": "ingredients",
+            "C": "steps"
+          },
           "answer": "B",
           "explanation": "'Utensils' are kitchen tools such as spoons and pans. Eggs, flour, and milk are foods used in cooking — they are 'ingredients'."
         },
@@ -452,18 +550,178 @@
           "id": 5,
           "sentence": "The waiter came to our table and asked if he could [prepare] the food now.",
           "highlighted": "prepare",
-          "options": { "A": "fry", "B": "slice", "C": "serve" },
+          "options": {
+            "A": "fry",
+            "B": "slice",
+            "C": "serve"
+          },
           "answer": "C",
           "explanation": "A waiter brings food to the table — this action is called 'serve'. 'Prepare' means to get something ready, which happens in the kitchen before the waiter arrives."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "mix",
+            "boil",
+            "fry",
+            "utensil"
+          ],
+          "answer": "utensil",
+          "reason": "mix, boil, and fry are cooking verbs — things you do to food. 'utensil' is a noun — a tool or piece of equipment used in the kitchen.",
+          "reason_vi": "mix, boil và fry đều là động từ nấu ăn. 'utensil' là danh từ — dụng cụ hoặc thiết bị dùng trong bếp."
+        },
+        {
+          "id": 2,
+          "words": [
+            "recipe",
+            "ingredient",
+            "amount",
+            "slice"
+          ],
+          "answer": "slice",
+          "reason": "recipe, ingredient, and amount are nouns related to cooking instructions and quantities. 'slice' is a verb — the action of cutting something into thin pieces.",
+          "reason_vi": "recipe, ingredient và amount đều là danh từ liên quan đến hướng dẫn nấu và định lượng. 'slice' là động từ — hành động cắt thứ gì thành lát mỏng."
+        },
+        {
+          "id": 3,
+          "words": [
+            "recipe",
+            "ingredient",
+            "utensil",
+            "pour"
+          ],
+          "answer": "pour",
+          "reason": "recipe, ingredient, and utensil are nouns — things you consult or use in the kitchen. 'pour' is a verb — the action of moving a liquid from one container to another.",
+          "reason_vi": "recipe, ingredient và utensil đều là danh từ. 'pour' là động từ — hành động đổ chất lỏng từ nơi này sang nơi khác."
+        },
+        {
+          "id": 4,
+          "words": [
+            "mix",
+            "slice",
+            "pour",
+            "recipe"
+          ],
+          "answer": "recipe",
+          "reason": "mix, slice, and pour are verbs — active cooking actions done while preparing food. 'recipe' is a noun — the set of written instructions that tells you how to cook a dish.",
+          "reason_vi": "mix, slice và pour đều là động từ — hành động nấu ăn. 'recipe' là danh từ — tập hướng dẫn viết bảo bạn cách nấu một món."
+        },
+        {
+          "id": 5,
+          "words": [
+            "boil",
+            "fry",
+            "bake",
+            "follow"
+          ],
+          "answer": "follow",
+          "reason": "boil, fry, and bake are all cooking methods — ways of applying heat to food. 'follow' is a general verb — the action of doing what instructions tell you to do.",
+          "reason_vi": "boil, fry và bake đều là phương pháp nấu — cách áp dụng nhiệt vào thức ăn. 'follow' là động từ chung — hành động làm theo hướng dẫn."
+        },
+        {
+          "id": 6,
+          "words": [
+            "recipe",
+            "ingredient",
+            "amount",
+            "serve"
+          ],
+          "answer": "serve",
+          "reason": "recipe, ingredient, and amount are all things you find in or use from a recipe. 'serve' is a verb for the final action — presenting the finished food for someone to eat.",
+          "reason_vi": "recipe, ingredient và amount đều là thứ bạn tìm thấy trong hay dùng từ công thức nấu. 'serve' là động từ cho hành động cuối — bày thức ăn đã nấu xong cho ai đó ăn."
+        },
+        {
+          "id": 7,
+          "words": [
+            "mix",
+            "boil",
+            "fry",
+            "step"
+          ],
+          "answer": "step",
+          "reason": "mix, boil, and fry are cooking verbs — physical actions done while preparing food. 'step' is a noun — one stage in a sequence of instructions.",
+          "reason_vi": "mix, boil và fry đều là động từ nấu ăn. 'step' là danh từ — một giai đoạn trong chuỗi hướng dẫn."
+        },
+        {
+          "id": 8,
+          "words": [
+            "recipe",
+            "utensil",
+            "ingredient",
+            "prepare"
+          ],
+          "answer": "prepare",
+          "reason": "recipe, utensil, and ingredient are all nouns — things you use or refer to in the kitchen. 'prepare' is a verb — the action of getting everything ready before cooking begins.",
+          "reason_vi": "recipe, utensil và ingredient đều là danh từ. 'prepare' là động từ — hành động chuẩn bị mọi thứ trước khi nấu."
+        },
+        {
+          "id": 9,
+          "words": [
+            "slice",
+            "pour",
+            "heat",
+            "amount"
+          ],
+          "answer": "amount",
+          "reason": "slice, pour, and heat are verbs — physical cooking actions done to food. 'amount' is a noun — the quantity or measurement of an ingredient used in a recipe.",
+          "reason_vi": "slice, pour và heat đều là động từ — hành động nấu ăn. 'amount' là danh từ — lượng hoặc đơn vị đo của một nguyên liệu."
+        },
+        {
+          "id": 10,
+          "words": [
+            "step",
+            "amount",
+            "utensil",
+            "heat"
+          ],
+          "answer": "heat",
+          "reason": "step, amount, and utensil are all nouns — things found in a recipe or kitchen. 'heat' is a verb — the cooking action of making food warm using a stove or oven.",
+          "reason_vi": "step, amount và utensil đều là danh từ — thứ tìm thấy trong công thức hoặc bếp. 'heat' là động từ — hành động làm nóng thức ăn bằng bếp hoặc lò."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "D", "4": "E", "5": "B" },
-    "ex2": { "1": "follow", "2": "bake", "3": "prepared", "4": "amount", "5": "poured" },
-    "ex3": { "1": "heat", "2": "fry", "3": "boil", "4": "mix", "5": "serve" },
-    "ex4": { "1": "preparation", "2": "boiled", "3": "slice", "4": "mixed", "5": "service" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "D",
+      "4": "E",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "follow",
+      "2": "bake",
+      "3": "prepared",
+      "4": "amount",
+      "5": "poured"
+    },
+    "ex3": {
+      "1": "heat",
+      "2": "fry",
+      "3": "boil",
+      "4": "mix",
+      "5": "serve"
+    },
+    "ex4": {
+      "1": "preparation",
+      "2": "boiled",
+      "3": "slice",
+      "4": "mixed",
+      "5": "service"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

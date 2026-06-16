@@ -308,18 +308,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "lost" },
-        { "id": 2, "word": "excuse" },
-        { "id": 3, "word": "follow" },
-        { "id": 4, "word": "way" },
-        { "id": 5, "word": "welcome" }
+        {
+          "id": 1,
+          "word": "lost"
+        },
+        {
+          "id": 2,
+          "word": "excuse"
+        },
+        {
+          "id": 3,
+          "word": "follow"
+        },
+        {
+          "id": 4,
+          "word": "way"
+        },
+        {
+          "id": 5,
+          "word": "welcome"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a polite word used to get someone's attention before asking for help" },
-        { "id": "B", "text": "the direction or route to a place" },
-        { "id": "C", "text": "not knowing where you are or how to get somewhere" },
-        { "id": "D", "text": "a polite reply when someone thanks you, meaning 'I am happy to help'" },
-        { "id": "E", "text": "to walk behind someone or go the same way as them" }
+        {
+          "id": "A",
+          "text": "a polite word used to get someone's attention before asking for help"
+        },
+        {
+          "id": "B",
+          "text": "the direction or route to a place"
+        },
+        {
+          "id": "C",
+          "text": "not knowing where you are or how to get somewhere"
+        },
+        {
+          "id": "D",
+          "text": "a polite reply when someone thanks you, meaning 'I am happy to help'"
+        },
+        {
+          "id": "E",
+          "text": "to walk behind someone or go the same way as them"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -329,31 +359,56 @@
         {
           "id": 1,
           "sentence": "_____ me — could you tell me how to get to the train station?",
-          "options": ["Sorry", "Excuse", "Please", "Thank"],
+          "options": [
+            "Sorry",
+            "Excuse",
+            "Please",
+            "Thank"
+          ],
           "answer": "Excuse"
         },
         {
           "id": 2,
           "sentence": "I am completely _____ — I don't recognise any of these streets.",
-          "options": ["welcome", "sorry", "lost", "follow"],
+          "options": [
+            "welcome",
+            "sorry",
+            "lost",
+            "follow"
+          ],
           "answer": "lost"
         },
         {
           "id": 3,
           "sentence": "Could you _____ me where the nearest pharmacy is?",
-          "options": ["find", "need", "show", "tell"],
+          "options": [
+            "find",
+            "need",
+            "show",
+            "tell"
+          ],
           "answer": "tell"
         },
         {
           "id": 4,
           "sentence": "After she helped me, I said thank you and she replied 'You're _____.'",
-          "options": ["sorry", "pleased", "welcome", "kind"],
+          "options": [
+            "sorry",
+            "pleased",
+            "welcome",
+            "kind"
+          ],
           "answer": "welcome"
         },
         {
           "id": 5,
           "sentence": "I didn't hear you — could you _____, please?",
-          "options": ["say again", "find me", "follow me", "know that"],
+          "options": [
+            "say again",
+            "find me",
+            "follow me",
+            "know that"
+          ],
           "answer": "say again"
         }
       ]
@@ -361,13 +416,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["please", "need", "find", "show", "follow", "know"],
+      "word_bank": [
+        "please",
+        "need",
+        "find",
+        "show",
+        "follow",
+        "know"
+      ],
       "items": [
-        { "id": 1, "sentence": "I _____ some help — I can't find my hotel.", "answer": "need" },
-        { "id": 2, "sentence": "Could you _____ me the way to the market, please?", "answer": "show" },
-        { "id": 3, "sentence": "I don't _____ this part of the city at all.", "answer": "know" },
-        { "id": 4, "sentence": "He told me to _____ him and he would take me to the right place.", "answer": "follow" },
-        { "id": 5, "sentence": "Could you help me _____ the bus stop near here?", "answer": "find" }
+        {
+          "id": 1,
+          "sentence": "I _____ some help — I can't find my hotel.",
+          "answer": "need"
+        },
+        {
+          "id": 2,
+          "sentence": "Could you _____ me the way to the market, please?",
+          "answer": "show"
+        },
+        {
+          "id": 3,
+          "sentence": "I don't _____ this part of the city at all.",
+          "answer": "know"
+        },
+        {
+          "id": 4,
+          "sentence": "He told me to _____ him and he would take me to the right place.",
+          "answer": "follow"
+        },
+        {
+          "id": 5,
+          "sentence": "Could you help me _____ the bus stop near here?",
+          "answer": "find"
+        }
       ],
       "note": "One word in the box is not used: please"
     },
@@ -420,7 +502,11 @@
           "id": 1,
           "sentence": "I am completely [welcome] in this city — I don't know any of the streets.",
           "highlighted": "welcome",
-          "options": { "A": "lost", "B": "sorry", "C": "welcome" },
+          "options": {
+            "A": "lost",
+            "B": "sorry",
+            "C": "welcome"
+          },
           "answer": "A",
           "explanation": "'Welcome' means you are happy for someone to be somewhere or it is a polite reply to 'thank you'. The correct word here is 'lost', meaning you do not know where you are."
         },
@@ -428,7 +514,11 @@
           "id": 2,
           "sentence": "Could you [know] me the way to the nearest hospital, please?",
           "highlighted": "know",
-          "options": { "A": "follow", "B": "need", "C": "show" },
+          "options": {
+            "A": "follow",
+            "B": "need",
+            "C": "show"
+          },
           "answer": "C",
           "explanation": "'Know' means to have information about something. You cannot 'know someone the way' — the correct verb is 'show', meaning to lead or point someone in the right direction."
         },
@@ -436,7 +526,11 @@
           "id": 3,
           "sentence": "Sorry, I didn't understand — could you [follow], please?",
           "highlighted": "follow",
-          "options": { "A": "say again", "B": "tell me", "C": "follow" },
+          "options": {
+            "A": "say again",
+            "B": "tell me",
+            "C": "follow"
+          },
           "answer": "A",
           "explanation": "'Follow' means to go behind someone. When you ask someone to repeat what they said because you did not understand, the correct phrase is 'say again'."
         },
@@ -444,7 +538,11 @@
           "id": 4,
           "sentence": "After she helped me, I [wanted] her and she smiled happily.",
           "highlighted": "wanted",
-          "options": { "A": "excused", "B": "thanked", "C": "wanted" },
+          "options": {
+            "A": "excused",
+            "B": "thanked",
+            "C": "wanted"
+          },
           "answer": "B",
           "explanation": "'Wanted' means to have a desire for something. When someone helps you and you express gratitude, the correct word is 'thanked', meaning you showed appreciation."
         },
@@ -452,18 +550,128 @@
           "id": 5,
           "sentence": "He said 'You are [sorry]' after I thanked him for giving me directions.",
           "highlighted": "sorry",
-          "options": { "A": "lost", "B": "sorry", "C": "welcome" },
+          "options": {
+            "A": "lost",
+            "B": "sorry",
+            "C": "welcome"
+          },
           "answer": "C",
           "explanation": "'Sorry' is used to apologise or to get someone's attention. The correct response to 'thank you' is 'you are welcome', which means you are happy to help."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "I'm sorry, I don't understand.",
+          "b": "Excuse me, I don't understand.",
+          "answer": "S",
+          "explanation": "\"Sorry\" and \"excuse me\" can both be used as polite openers when you need help or did not understand something. In this context, the two sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "Can you show me the way?",
+          "b": "Can you tell me the way?",
+          "answer": "S",
+          "explanation": "\"Show me the way\" and \"tell me the way\" are both common requests for directions. In everyday use, they mean the same thing — you want help finding where to go."
+        },
+        {
+          "id": 3,
+          "a": "I need help.",
+          "b": "I want help.",
+          "answer": "D",
+          "explanation": "\"Need\" expresses necessity — help is required. \"Want\" expresses desire — it would be nice to have help. Need is more urgent than want."
+        },
+        {
+          "id": 4,
+          "a": "Can you say again, please?",
+          "b": "Can you repeat that, please?",
+          "answer": "S",
+          "explanation": "\"Say again\" and \"repeat\" both ask someone to say something one more time. These two sentences make the same polite request."
+        },
+        {
+          "id": 5,
+          "a": "I'm lost.",
+          "b": "I don't know the way.",
+          "answer": "S",
+          "explanation": "Being lost and not knowing the way both describe the same situation — you do not know where you are or how to get somewhere. The sentences mean the same thing."
+        },
+        {
+          "id": 6,
+          "a": "I need to find the exit.",
+          "b": "I need to follow the signs.",
+          "answer": "D",
+          "explanation": "\"Find the exit\" means to locate the door or way out. \"Follow the signs\" means to look at signs and walk in the direction they point. These are different actions."
+        },
+        {
+          "id": 7,
+          "a": "Thank you very much.",
+          "b": "You're welcome.",
+          "answer": "D",
+          "explanation": "\"Thank you\" expresses gratitude — the speaker is saying they are grateful. \"You're welcome\" is the response to thanks — it means no problem. These are opposite sides of the same exchange."
+        },
+        {
+          "id": 8,
+          "a": "Could you show me?",
+          "b": "Could you follow me?",
+          "answer": "D",
+          "explanation": "\"Show me\" means to demonstrate or guide someone toward something. \"Follow me\" means to walk behind the speaker. These describe opposite directions of movement or guidance."
+        },
+        {
+          "id": 9,
+          "a": "She knows the answer.",
+          "b": "She understands the answer.",
+          "answer": "S",
+          "explanation": "\"Know\" and \"understand\" both describe having mental knowledge or comprehension. In this context, the two sentences carry the same basic meaning."
+        },
+        {
+          "id": 10,
+          "a": "Please help me.",
+          "b": "Sorry to bother you.",
+          "answer": "D",
+          "explanation": "\"Please help me\" is a direct request. \"Sorry to bother you\" is a polite apology before making a request. These have different functions in a conversation."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "A", "3": "E", "4": "B", "5": "D" },
-    "ex2": { "1": "Excuse", "2": "lost", "3": "tell", "4": "welcome", "5": "say again" },
-    "ex3": { "1": "need", "2": "show", "3": "know", "4": "follow", "5": "find" },
-    "ex4": { "1": "thanked", "2": "pleased", "3": "lost", "4": "knowledge", "5": "followers" },
-    "ex5": { "1": "A", "2": "C", "3": "A", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "A",
+      "3": "E",
+      "4": "B",
+      "5": "D"
+    },
+    "ex2": {
+      "1": "Excuse",
+      "2": "lost",
+      "3": "tell",
+      "4": "welcome",
+      "5": "say again"
+    },
+    "ex3": {
+      "1": "need",
+      "2": "show",
+      "3": "know",
+      "4": "follow",
+      "5": "find"
+    },
+    "ex4": {
+      "1": "thanked",
+      "2": "pleased",
+      "3": "lost",
+      "4": "knowledge",
+      "5": "followers"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

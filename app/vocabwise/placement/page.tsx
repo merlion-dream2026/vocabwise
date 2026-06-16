@@ -160,7 +160,7 @@ export default function PlacementPage() {
           <div className="max-w-lg mx-auto flex items-center gap-3">
             <button onClick={() => router.push('/vocabwise')} className="text-white/70 hover:text-white text-xl">←</button>
             <div>
-              <h1 className="font-black text-lg">Kết quả xếp lớp</h1>
+              <h1 className="font-black text-lg">Kết quả cấp độ</h1>
               <p className="text-white/70 text-xs">Đúng {totalCorrect}/10 câu</p>
             </div>
           </div>
@@ -244,7 +244,7 @@ export default function PlacementPage() {
           <button onClick={() => router.push('/vocabwise')} className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
           <div className="flex-1">
             <div className="flex justify-between text-xs text-white/80 font-semibold mb-1.5">
-              <span>Bài kiểm tra xếp lớp</span>
+              <span>Bài kiểm tra cấp độ</span>
               <span>{current + 1} / {QUESTIONS.length}</span>
             </div>
             <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">

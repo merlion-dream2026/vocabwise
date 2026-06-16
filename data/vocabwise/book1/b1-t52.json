@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "profile" },
-        { "id": 2, "word": "trend" },
-        { "id": 3, "word": "notify" },
-        { "id": 4, "word": "upload" },
-        { "id": 5, "word": "screen time" }
+        {
+          "id": 1,
+          "word": "profile"
+        },
+        {
+          "id": 2,
+          "word": "trend"
+        },
+        {
+          "id": 3,
+          "word": "notify"
+        },
+        {
+          "id": 4,
+          "word": "upload"
+        },
+        {
+          "id": 5,
+          "word": "screen time"
+        }
       ],
       "options": [
-        { "id": "A", "text": "to send a file or data from your device to the internet so others can access it" },
-        { "id": "B", "text": "the amount of time you spend looking at a phone, tablet, or computer screen" },
-        { "id": "C", "text": "a page on a website or app that shows information about a particular user" },
-        { "id": "D", "text": "to officially inform someone about something, usually by sending a message or alert" },
-        { "id": "E", "text": "a topic, style, or activity that becomes very popular among many people at the same time" }
+        {
+          "id": "A",
+          "text": "to send a file or data from your device to the internet so others can access it"
+        },
+        {
+          "id": "B",
+          "text": "the amount of time you spend looking at a phone, tablet, or computer screen"
+        },
+        {
+          "id": "C",
+          "text": "a page on a website or app that shows information about a particular user"
+        },
+        {
+          "id": "D",
+          "text": "to officially inform someone about something, usually by sending a message or alert"
+        },
+        {
+          "id": "E",
+          "text": "a topic, style, or activity that becomes very popular among many people at the same time"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "She _____ a funny video and all her friends watched and liked it immediately.",
-          "options": ["shared", "downloaded", "notified", "followed"],
+          "options": [
+            "shared",
+            "downloaded",
+            "notified",
+            "followed"
+          ],
           "answer": "shared"
         },
         {
           "id": 2,
           "sentence": "Please _____ a strong password to keep your _____ safe from hackers.",
-          "options": ["follow", "use", "notify", "trend"],
+          "options": [
+            "follow",
+            "use",
+            "notify",
+            "trend"
+          ],
           "answer": "use"
         },
         {
           "id": 3,
           "sentence": "He checked his phone every five minutes to read new _____ from his friends.",
-          "options": ["profiles", "screen time", "comments", "digital"],
+          "options": [
+            "profiles",
+            "screen time",
+            "comments",
+            "digital"
+          ],
           "answer": "comments"
         },
         {
           "id": 4,
           "sentence": "The app will _____ you when someone messages you, even if you are not using it.",
-          "options": ["follow", "notify", "upload", "share"],
+          "options": [
+            "follow",
+            "notify",
+            "upload",
+            "share"
+          ],
           "answer": "notify"
         },
         {
           "id": 5,
           "sentence": "Too much _____ is not good for children — they should also play outside.",
-          "options": ["account", "profile", "screen time", "video"],
+          "options": [
+            "account",
+            "profile",
+            "screen time",
+            "video"
+          ],
           "answer": "screen time"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["follow", "account", "digital", "download", "trend", "safe"],
+      "word_bank": [
+        "follow",
+        "account",
+        "digital",
+        "download",
+        "trend",
+        "safe"
+      ],
       "items": [
-        { "id": 1, "sentence": "You need to create an _____ before you can use the social media app.", "answer": "account" },
-        { "id": 2, "sentence": "She _____ her favourite teacher online to see all their new posts and videos.", "answer": "follow" },
-        { "id": 3, "sentence": "The song became a _____ — everyone was listening to it and sharing it.", "answer": "trend" },
-        { "id": 4, "sentence": "He used his phone to _____ the new app so he could study on the bus.", "answer": "download" },
-        { "id": 5, "sentence": "We live in a _____ world, and it is important to know how to use technology well.", "answer": "digital" }
+        {
+          "id": 1,
+          "sentence": "You need to create an _____ before you can use the social media app.",
+          "answer": "account"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ her favourite teacher online to see all their new posts and videos.",
+          "answer": "follow"
+        },
+        {
+          "id": 3,
+          "sentence": "The song became a _____ — everyone was listening to it and sharing it.",
+          "answer": "trend"
+        },
+        {
+          "id": 4,
+          "sentence": "He used his phone to _____ the new app so he could study on the bus.",
+          "answer": "download"
+        },
+        {
+          "id": 5,
+          "sentence": "We live in a _____ world, and it is important to know how to use technology well.",
+          "answer": "digital"
+        }
       ],
       "note": "One word in the box is not used: safe"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "She [downloaded] her holiday photos to the internet so her friends could see them.",
           "highlighted": "downloaded",
-          "options": { "A": "shared", "B": "downloaded", "C": "uploaded" },
+          "options": {
+            "A": "shared",
+            "B": "downloaded",
+            "C": "uploaded"
+          },
           "answer": "C",
           "explanation": "'Download' means to get data from the internet onto your device. To send your own photos to the internet for others to see, you 'upload' them."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "The dance became a [comment] and millions of people copied it on social media.",
           "highlighted": "comment",
-          "options": { "A": "trend", "B": "comment", "C": "profile" },
+          "options": {
+            "A": "trend",
+            "B": "comment",
+            "C": "profile"
+          },
           "answer": "A",
           "explanation": "A 'comment' is a text response or opinion left on a post. Something that becomes very popular and many people copy is called a 'trend'."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "You need to log into your [profile] with your username and password to use the app.",
           "highlighted": "profile",
-          "options": { "A": "video", "B": "profile", "C": "account" },
+          "options": {
+            "A": "video",
+            "B": "profile",
+            "C": "account"
+          },
           "answer": "C",
           "explanation": "A 'profile' is the page that shows your information. What you log into with a username and password is your 'account' — the access point to your online presence."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "Spending too much [digital] can damage your eyesight and disturb your sleep.",
           "highlighted": "digital",
-          "options": { "A": "screen time", "B": "digital", "C": "trend" },
+          "options": {
+            "A": "screen time",
+            "B": "digital",
+            "C": "trend"
+          },
           "answer": "A",
           "explanation": "'Digital' is an adjective (e.g. digital world). It cannot be used as a noun after 'too much'. The correct noun phrase here is 'screen time' — the amount of time spent on digital devices."
         },
@@ -455,18 +553,178 @@
           "id": 5,
           "sentence": "He left a kind [update] on her photo saying it looked really beautiful.",
           "highlighted": "update",
-          "options": { "A": "update", "B": "group", "C": "comment" },
+          "options": {
+            "A": "update",
+            "B": "group",
+            "C": "comment"
+          },
           "answer": "C",
           "explanation": "An 'update' is a post or announcement about new information. When you write a message in reaction to someone's photo or post, you leave a 'comment'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "share",
+            "comment",
+            "follow",
+            "screen time"
+          ],
+          "answer": "screen time",
+          "reason": "share, comment, and follow are verbs — actions you take on social media. 'screen time' is a compound noun — the amount of time you spend looking at a device, not an action.",
+          "reason_vi": "share, comment và follow đều là động từ — hành động trên mạng xã hội. 'screen time' là danh từ ghép — lượng thời gian nhìn vào thiết bị, không phải hành động."
+        },
+        {
+          "id": 2,
+          "words": [
+            "video",
+            "account",
+            "profile",
+            "upload"
+          ],
+          "answer": "upload",
+          "reason": "video, account, and profile are nouns — digital items or identities you have online. 'upload' is a verb — the action of sending a file or content to the internet.",
+          "reason_vi": "video, account và profile đều là danh từ — thứ hoặc danh tính kỹ thuật số bạn có trực tuyến. 'upload' là động từ — hành động gửi file hoặc nội dung lên mạng."
+        },
+        {
+          "id": 3,
+          "words": [
+            "share",
+            "comment",
+            "follow",
+            "digital"
+          ],
+          "answer": "digital",
+          "reason": "share, comment, and follow are verbs — things you do actively on social media. 'digital' is an adjective — it describes the type of technology, not an action.",
+          "reason_vi": "share, comment và follow đều là động từ — thứ bạn chủ động làm trên mạng xã hội. 'digital' là tính từ — mô tả loại công nghệ, không phải hành động."
+        },
+        {
+          "id": 4,
+          "words": [
+            "video",
+            "account",
+            "profile",
+            "trend"
+          ],
+          "answer": "trend",
+          "reason": "video, account, and profile are personal digital items — content you create or an identity you control. 'trend' is a collective phenomenon — a topic or style that many people share at once, not something you own.",
+          "reason_vi": "video, account và profile đều là thứ kỹ thuật số cá nhân — nội dung hoặc danh tính bạn kiểm soát. 'trend' là hiện tượng tập thể — chủ đề hoặc phong cách nhiều người cùng chia sẻ, không phải thứ bạn sở hữu."
+        },
+        {
+          "id": 5,
+          "words": [
+            "upload",
+            "download",
+            "notify",
+            "safe"
+          ],
+          "answer": "safe",
+          "reason": "upload, download, and notify are verbs — actions you perform online. 'safe' is an adjective — it describes a condition (being protected from danger), not an online action.",
+          "reason_vi": "upload, download và notify đều là động từ — hành động thực hiện trực tuyến. 'safe' là tính từ — mô tả điều kiện (được bảo vệ khỏi nguy hiểm), không phải hành động trực tuyến."
+        },
+        {
+          "id": 6,
+          "words": [
+            "share",
+            "follow",
+            "update",
+            "group"
+          ],
+          "answer": "group",
+          "reason": "share, follow, and update are verbs — individual actions you take online. 'group' is a noun — a collection of people or accounts connected together.",
+          "reason_vi": "share, follow và update đều là động từ — hành động cá nhân bạn thực hiện trực tuyến. 'group' là danh từ — tập hợp người hoặc tài khoản kết nối với nhau."
+        },
+        {
+          "id": 7,
+          "words": [
+            "video",
+            "account",
+            "trend",
+            "notify"
+          ],
+          "answer": "notify",
+          "reason": "video, account, and trend are nouns — digital content, identities, and phenomena. 'notify' is a verb — the action of sending someone an alert or message.",
+          "reason_vi": "video, account và trend đều là danh từ — nội dung, danh tính và hiện tượng kỹ thuật số. 'notify' là động từ — hành động gửi thông báo hoặc tin nhắn cho ai đó."
+        },
+        {
+          "id": 8,
+          "words": [
+            "profile",
+            "trend",
+            "account",
+            "download"
+          ],
+          "answer": "download",
+          "reason": "profile, trend, and account are nouns — digital identities or phenomena. 'download' is a verb — the action of transferring data from the internet to your device.",
+          "reason_vi": "profile, trend và account đều là danh từ — danh tính hoặc hiện tượng kỹ thuật số. 'download' là động từ — hành động chuyển dữ liệu từ internet về thiết bị."
+        },
+        {
+          "id": 9,
+          "words": [
+            "screen time",
+            "digital",
+            "safe",
+            "comment"
+          ],
+          "answer": "comment",
+          "reason": "screen time, digital, and safe are not action words — they describe concepts or qualities. 'comment' is a verb — the action of leaving a written reply or opinion on a post.",
+          "reason_vi": "screen time, digital và safe đều không phải từ chỉ hành động — chúng mô tả khái niệm hoặc phẩm chất. 'comment' là động từ — hành động để lại phản hồi hoặc ý kiến về bài đăng."
+        },
+        {
+          "id": 10,
+          "words": [
+            "share",
+            "comment",
+            "upload",
+            "video"
+          ],
+          "answer": "video",
+          "reason": "share, comment, and upload are verbs — things you DO with content online. 'video' is a noun — a type of digital content that you share or upload.",
+          "reason_vi": "share, comment và upload đều là động từ — thứ bạn làm với nội dung trực tuyến. 'video' là danh từ — loại nội dung kỹ thuật số mà bạn chia sẻ hoặc tải lên."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "E", "3": "D", "4": "A", "5": "B" },
-    "ex2": { "1": "shared", "2": "use", "3": "comments", "4": "notify", "5": "screen time" },
-    "ex3": { "1": "account", "2": "follow", "3": "trend", "4": "download", "5": "digital" },
-    "ex4": { "1": "uploaded", "2": "safely", "3": "trending", "4": "notification", "5": "upload" },
-    "ex5": { "1": "C", "2": "A", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "D",
+      "4": "A",
+      "5": "B"
+    },
+    "ex2": {
+      "1": "shared",
+      "2": "use",
+      "3": "comments",
+      "4": "notify",
+      "5": "screen time"
+    },
+    "ex3": {
+      "1": "account",
+      "2": "follow",
+      "3": "trend",
+      "4": "download",
+      "5": "digital"
+    },
+    "ex4": {
+      "1": "uploaded",
+      "2": "safely",
+      "3": "trending",
+      "4": "notification",
+      "5": "upload"
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

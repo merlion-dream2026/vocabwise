@@ -311,18 +311,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "haggle" },
-        { "id": 2, "word": "vendor" },
-        { "id": 3, "word": "queue" },
-        { "id": 4, "word": "discount" },
-        { "id": 5, "word": "crowded" }
+        {
+          "id": 1,
+          "word": "haggle"
+        },
+        {
+          "id": 2,
+          "word": "vendor"
+        },
+        {
+          "id": 3,
+          "word": "queue"
+        },
+        {
+          "id": 4,
+          "word": "discount"
+        },
+        {
+          "id": 5,
+          "word": "crowded"
+        }
       ],
       "options": [
-        { "id": "A", "text": "full of many people, with very little space to move" },
-        { "id": "B", "text": "a reduction in the usual price of something" },
-        { "id": "C", "text": "a line of people waiting for something" },
-        { "id": "D", "text": "a person who sells goods, especially at a market" },
-        { "id": "E", "text": "to argue about a price in order to pay less" }
+        {
+          "id": "A",
+          "text": "full of many people, with very little space to move"
+        },
+        {
+          "id": "B",
+          "text": "a reduction in the usual price of something"
+        },
+        {
+          "id": "C",
+          "text": "a line of people waiting for something"
+        },
+        {
+          "id": "D",
+          "text": "a person who sells goods, especially at a market"
+        },
+        {
+          "id": "E",
+          "text": "to argue about a price in order to pay less"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -332,31 +362,56 @@
         {
           "id": 1,
           "sentence": "The _____ on the jacket says it costs 500,000 dong — is that too expensive?",
-          "options": ["sale", "price tag", "discount", "stall"],
+          "options": [
+            "sale",
+            "price tag",
+            "discount",
+            "stall"
+          ],
           "answer": "price tag"
         },
         {
           "id": 2,
           "sentence": "She loves to _____ the prices at different shops before she spends her money.",
-          "options": ["weigh", "wrap", "compare", "pick"],
+          "options": [
+            "weigh",
+            "wrap",
+            "compare",
+            "pick"
+          ],
           "answer": "compare"
         },
         {
           "id": 3,
           "sentence": "The bags were very heavy, so we took turns to _____ them back to the car.",
-          "options": ["carry", "queue", "offer", "weigh"],
+          "options": [
+            "carry",
+            "queue",
+            "offer",
+            "weigh"
+          ],
           "answer": "carry"
         },
         {
           "id": 4,
           "sentence": "Please _____ this gift carefully — I do not want it to get damaged.",
-          "options": ["haggle", "wrap", "pick", "compare"],
+          "options": [
+            "haggle",
+            "wrap",
+            "pick",
+            "compare"
+          ],
           "answer": "wrap"
         },
         {
           "id": 5,
           "sentence": "The supermarket is having a big _____ this weekend with many items at half price.",
-          "options": ["quality", "vendor", "queue", "sale"],
+          "options": [
+            "quality",
+            "vendor",
+            "queue",
+            "sale"
+          ],
           "answer": "sale"
         }
       ]
@@ -364,13 +419,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["pick", "weigh", "stall", "offer", "quality", "haggle"],
+      "word_bank": [
+        "pick",
+        "weigh",
+        "stall",
+        "offer",
+        "quality",
+        "haggle"
+      ],
       "items": [
-        { "id": 1, "sentence": "My mum always buys vegetables from the same _____ because she trusts the seller.", "answer": "stall" },
-        { "id": 2, "sentence": "The vendor had to _____ the fish before he could tell us the price.", "answer": "weigh" },
-        { "id": 3, "sentence": "Take your time and _____ the freshest fruit — do not just grab the first ones.", "answer": "pick" },
-        { "id": 4, "sentence": "He tried to _____ but the seller said the price was already very low.", "answer": "haggle" },
-        { "id": 5, "sentence": "The _____ of this cloth is excellent — it is soft and will last a long time.", "answer": "quality" }
+        {
+          "id": 1,
+          "sentence": "My mum always buys vegetables from the same _____ because she trusts the seller.",
+          "answer": "stall"
+        },
+        {
+          "id": 2,
+          "sentence": "The vendor had to _____ the fish before he could tell us the price.",
+          "answer": "weigh"
+        },
+        {
+          "id": 3,
+          "sentence": "Take your time and _____ the freshest fruit — do not just grab the first ones.",
+          "answer": "pick"
+        },
+        {
+          "id": 4,
+          "sentence": "He tried to _____ but the seller said the price was already very low.",
+          "answer": "haggle"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of this cloth is excellent — it is soft and will last a long time.",
+          "answer": "quality"
+        }
       ],
       "note": "One word in the box is not used: offer"
     },
@@ -423,7 +505,11 @@
           "id": 1,
           "sentence": "She read the [vendor] on the bottle to see how much it cost.",
           "highlighted": "vendor",
-          "options": { "A": "price tag", "B": "sale", "C": "vendor" },
+          "options": {
+            "A": "price tag",
+            "B": "sale",
+            "C": "vendor"
+          },
           "answer": "A",
           "explanation": "A 'vendor' is a person who sells things. A label attached to a product showing its price is a 'price tag'."
         },
@@ -431,7 +517,11 @@
           "id": 2,
           "sentence": "The market is always very [quiet] on Sunday mornings — there are hundreds of shoppers.",
           "highlighted": "quiet",
-          "options": { "A": "empty", "B": "crowded", "C": "quiet" },
+          "options": {
+            "A": "empty",
+            "B": "crowded",
+            "C": "quiet"
+          },
           "answer": "B",
           "explanation": "If there are hundreds of shoppers, the market is not quiet — it is 'crowded', meaning full of people."
         },
@@ -439,7 +529,11 @@
           "id": 3,
           "sentence": "We had to [haggle] for twenty minutes at the checkout to pay for our groceries.",
           "highlighted": "haggle",
-          "options": { "A": "wrap", "B": "carry", "C": "queue" },
+          "options": {
+            "A": "wrap",
+            "B": "carry",
+            "C": "queue"
+          },
           "answer": "C",
           "explanation": "'Haggle' means to argue about a price. Waiting in a line to pay at the checkout is called 'queue' — you queue, not haggle."
         },
@@ -447,7 +541,11 @@
           "id": 4,
           "sentence": "The seller [compared] the fruit one by one and told us the total price.",
           "highlighted": "compared",
-          "options": { "A": "weighed", "B": "compared", "C": "wrapped" },
+          "options": {
+            "A": "weighed",
+            "B": "compared",
+            "C": "wrapped"
+          },
           "answer": "A",
           "explanation": "'Compare' means to look at differences between things. When a seller measures how heavy something is to find the price, they 'weigh' it."
         },
@@ -455,18 +553,128 @@
           "id": 5,
           "sentence": "The shop was having a [stall], so everything was twenty percent cheaper than usual.",
           "highlighted": "stall",
-          "options": { "A": "queue", "B": "stall", "C": "sale" },
+          "options": {
+            "A": "queue",
+            "B": "stall",
+            "C": "sale"
+          },
           "answer": "C",
           "explanation": "A 'stall' is a table or stand where goods are sold, not an event with reduced prices. A period when a shop sells goods at lower prices is called a 'sale'."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "There is a 20% discount on this item.",
+          "b": "This item is on sale.",
+          "answer": "S",
+          "explanation": "Discount and sale both describe a reduction in the original price. In everyday shopping, these two sentences carry the same basic meaning."
+        },
+        {
+          "id": 2,
+          "a": "The market was very crowded.",
+          "b": "The market was very busy.",
+          "answer": "S",
+          "explanation": "Crowded and busy both describe a place full of people and activity. In this context, the two sentences mean the same thing."
+        },
+        {
+          "id": 3,
+          "a": "She will haggle with the vendor.",
+          "b": "She will argue with the vendor.",
+          "answer": "D",
+          "explanation": "Haggle means to negotiate a lower price in a friendly way. Argue means to disagree or fight. These describe very different interactions."
+        },
+        {
+          "id": 4,
+          "a": "Please weigh the fruit.",
+          "b": "Please pick the fruit.",
+          "answer": "D",
+          "explanation": "Weigh means to measure how heavy something is. Pick means to choose or select something. These are completely different actions."
+        },
+        {
+          "id": 5,
+          "a": "The vendor is selling fresh vegetables.",
+          "b": "The stall is selling fresh vegetables.",
+          "answer": "D",
+          "explanation": "A vendor is a person — the seller. A stall is the physical booth or counter. One refers to the person, the other to the place."
+        },
+        {
+          "id": 6,
+          "a": "Can you wrap this as a gift?",
+          "b": "Can you pack this as a gift?",
+          "answer": "S",
+          "explanation": "Wrap and pack both describe putting something into a covering or container. In a shopping context, these two sentences ask for the same thing."
+        },
+        {
+          "id": 7,
+          "a": "She compared two products carefully.",
+          "b": "She chose one product carefully.",
+          "answer": "D",
+          "explanation": "Compare means to look at both products side by side to find differences. Choose means to make a final decision. These describe different stages of shopping."
+        },
+        {
+          "id": 8,
+          "a": "She picked up the item to carry it home.",
+          "b": "She picked up the item to hold it for a moment.",
+          "answer": "S",
+          "explanation": "In this context, carry and hold both describe supporting something with your hands. The sentences describe the same physical action."
+        },
+        {
+          "id": 9,
+          "a": "He checked the quality before buying.",
+          "b": "He checked the price tag before buying.",
+          "answer": "D",
+          "explanation": "Quality refers to how good something is. Price tag refers to how much it costs. These are two different things a shopper considers."
+        },
+        {
+          "id": 10,
+          "a": "The stall has a special offer today.",
+          "b": "The stall has a special discount today.",
+          "answer": "S",
+          "explanation": "Offer and discount both describe a reduced or special price available for a limited time. In this context, the two sentences mean the same thing."
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "E", "2": "D", "3": "C", "4": "B", "5": "A" },
-    "ex2": { "1": "price tag", "2": "compare", "3": "carry", "4": "wrap", "5": "sale" },
-    "ex3": { "1": "stall", "2": "weigh", "3": "pick", "4": "haggle", "5": "quality" },
-    "ex4": { "1": "comparison", "2": "offered", "3": "crowded", "4": "weight", "5": "discounted" },
-    "ex5": { "1": "A", "2": "B", "3": "C", "4": "A", "5": "C" }
+    "ex1": {
+      "1": "E",
+      "2": "D",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "price tag",
+      "2": "compare",
+      "3": "carry",
+      "4": "wrap",
+      "5": "sale"
+    },
+    "ex3": {
+      "1": "stall",
+      "2": "weigh",
+      "3": "pick",
+      "4": "haggle",
+      "5": "quality"
+    },
+    "ex4": {
+      "1": "comparison",
+      "2": "offered",
+      "3": "crowded",
+      "4": "weight",
+      "5": "discounted"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "C"
+    }
   }
 }

@@ -317,18 +317,48 @@
       "type": "E1",
       "instruction": "Match each word (1–5) with its correct meaning (A–E).",
       "items": [
-        { "id": 1, "word": "opposite" },
-        { "id": 2, "word": "distance" },
-        { "id": 3, "word": "reach" },
-        { "id": 4, "word": "cross" },
-        { "id": 5, "word": "block" }
+        {
+          "id": 1,
+          "word": "opposite"
+        },
+        {
+          "id": 2,
+          "word": "distance"
+        },
+        {
+          "id": 3,
+          "word": "reach"
+        },
+        {
+          "id": 4,
+          "word": "cross"
+        },
+        {
+          "id": 5,
+          "word": "block"
+        }
       ],
       "options": [
-        { "id": "A", "text": "a section of a street between two intersections, used to measure walking distance" },
-        { "id": "B", "text": "to arrive at a place after travelling or walking" },
-        { "id": "C", "text": "on the other side; facing something or someone directly" },
-        { "id": "D", "text": "to go from one side of a road or area to the other" },
-        { "id": "E", "text": "the amount of space between two places or things" }
+        {
+          "id": "A",
+          "text": "a section of a street between two intersections, used to measure walking distance"
+        },
+        {
+          "id": "B",
+          "text": "to arrive at a place after travelling or walking"
+        },
+        {
+          "id": "C",
+          "text": "on the other side; facing something or someone directly"
+        },
+        {
+          "id": "D",
+          "text": "to go from one side of a road or area to the other"
+        },
+        {
+          "id": "E",
+          "text": "the amount of space between two places or things"
+        }
       ]
     },
     "ex2_mcq_context": {
@@ -338,31 +368,56 @@
         {
           "id": 1,
           "sentence": "Go _____ along this road and do not turn until you see the big church.",
-          "options": ["opposite", "straight", "near", "left"],
+          "options": [
+            "opposite",
+            "straight",
+            "near",
+            "left"
+          ],
           "answer": "straight"
         },
         {
           "id": 2,
           "sentence": "The hotel is _____ the shopping mall — you can see it from the main entrance.",
-          "options": ["opposite", "corner", "far", "block"],
+          "options": [
+            "opposite",
+            "corner",
+            "far",
+            "block"
+          ],
           "answer": "opposite"
         },
         {
           "id": 3,
           "sentence": "Be careful when you _____ the road — there are many fast cars here.",
-          "options": ["pass", "turn", "cross", "reach"],
+          "options": [
+            "pass",
+            "turn",
+            "cross",
+            "reach"
+          ],
           "answer": "cross"
         },
         {
           "id": 4,
           "sentence": "How long does it take to _____ the city centre from here by bus?",
-          "options": ["pass", "sign", "reach", "cross"],
+          "options": [
+            "pass",
+            "sign",
+            "reach",
+            "cross"
+          ],
           "answer": "reach"
         },
         {
           "id": 5,
           "sentence": "We walked _____ the old market and then turned left at the next corner.",
-          "options": ["near", "past", "far", "direction"],
+          "options": [
+            "near",
+            "past",
+            "far",
+            "direction"
+          ],
           "answer": "past"
         }
       ]
@@ -370,13 +425,40 @@
     "ex3_gap_fill": {
       "type": "E4",
       "instruction": "Fill in the blanks with the correct word from the box.",
-      "word_bank": ["turn", "sign", "direction", "corner", "distance", "block"],
+      "word_bank": [
+        "turn",
+        "sign",
+        "direction",
+        "corner",
+        "distance",
+        "block"
+      ],
       "items": [
-        { "id": 1, "sentence": "I did not know the _____ to the hospital, so I asked someone for help.", "answer": "direction" },
-        { "id": 2, "sentence": "Walk one _____ north from the school, then you will see the park on your left.", "answer": "block" },
-        { "id": 3, "sentence": "_____ right at the traffic lights and walk for about three minutes.", "answer": "turn" },
-        { "id": 4, "sentence": "There is a green _____ on the wall that shows the way to the exit.", "answer": "sign" },
-        { "id": 5, "sentence": "She waited at the _____ of the road until her friend arrived.", "answer": "corner" }
+        {
+          "id": 1,
+          "sentence": "I did not know the _____ to the hospital, so I asked someone for help.",
+          "answer": "direction"
+        },
+        {
+          "id": 2,
+          "sentence": "Walk one _____ north from the school, then you will see the park on your left.",
+          "answer": "block"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ right at the traffic lights and walk for about three minutes.",
+          "answer": "turn"
+        },
+        {
+          "id": 4,
+          "sentence": "There is a green _____ on the wall that shows the way to the exit.",
+          "answer": "sign"
+        },
+        {
+          "id": 5,
+          "sentence": "She waited at the _____ of the road until her friend arrived.",
+          "answer": "corner"
+        }
       ],
       "note": "One word in the box is not used: distance"
     },
@@ -429,7 +511,11 @@
           "id": 1,
           "sentence": "Go [left] along the main road and do not turn until you reach the library.",
           "highlighted": "left",
-          "options": { "A": "straight", "B": "left", "C": "opposite" },
+          "options": {
+            "A": "straight",
+            "B": "left",
+            "C": "opposite"
+          },
           "answer": "A",
           "explanation": "'Go left' means to turn to the left side, not to continue forward. When someone tells you to keep going without turning, the correct word is 'straight' — meaning forward in a direct line."
         },
@@ -437,7 +523,11 @@
           "id": 2,
           "sentence": "The café is [far] to the school — it is only a two-minute walk.",
           "highlighted": "far",
-          "options": { "A": "opposite", "B": "far", "C": "near" },
+          "options": {
+            "A": "opposite",
+            "B": "far",
+            "C": "near"
+          },
           "answer": "C",
           "explanation": "'Far' means a long distance away. If something is only a two-minute walk, it is not far — it is 'near', meaning a short distance away."
         },
@@ -445,7 +535,11 @@
           "id": 3,
           "sentence": "You will [reach] a tall white building on your left — that is the post office.",
           "highlighted": "reach",
-          "options": { "A": "cross", "B": "pass", "C": "reach" },
+          "options": {
+            "A": "cross",
+            "B": "pass",
+            "C": "reach"
+          },
           "answer": "B",
           "explanation": "'Reach' means to arrive at a destination. In this sentence, the building is not the destination — it is something you go past on the way. The correct word is 'pass', meaning to go by something without stopping."
         },
@@ -453,7 +547,11 @@
           "id": 4,
           "sentence": "Take the first [corner] at the traffic lights and walk north.",
           "highlighted": "corner",
-          "options": { "A": "corner", "B": "turn", "C": "sign" },
+          "options": {
+            "A": "corner",
+            "B": "turn",
+            "C": "sign"
+          },
           "answer": "B",
           "explanation": "A 'corner' is a place, not an action. When you change the direction you are walking or driving, you 'take a turn' — the correct phrase here is 'take the first turn'."
         },
@@ -461,18 +559,113 @@
           "id": 5,
           "sentence": "The market is [near] the bus station — they are on completely different sides of the city.",
           "highlighted": "near",
-          "options": { "A": "opposite", "B": "near", "C": "far from" },
+          "options": {
+            "A": "opposite",
+            "B": "near",
+            "C": "far from"
+          },
           "answer": "C",
           "explanation": "'Near' means close by. If two places are on completely different sides of the city, they cannot be near each other. The correct phrase is 'far from' — meaning a long distance away."
+        }
+      ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Hướng & vị trí",
+        "Hành động chỉ đường",
+        "Mốc & khoảng cách"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "left",
+          "answer": "Hướng & vị trí"
+        },
+        {
+          "id": 2,
+          "word": "turn",
+          "answer": "Hành động chỉ đường"
+        },
+        {
+          "id": 3,
+          "word": "right",
+          "answer": "Hướng & vị trí"
+        },
+        {
+          "id": 4,
+          "word": "corner",
+          "answer": "Mốc & khoảng cách"
+        },
+        {
+          "id": 5,
+          "word": "straight",
+          "answer": "Hướng & vị trí"
+        },
+        {
+          "id": 6,
+          "word": "cross",
+          "answer": "Hành động chỉ đường"
+        },
+        {
+          "id": 7,
+          "word": "sign",
+          "answer": "Mốc & khoảng cách"
+        },
+        {
+          "id": 8,
+          "word": "near",
+          "answer": "Hướng & vị trí"
+        },
+        {
+          "id": 9,
+          "word": "pass",
+          "answer": "Hành động chỉ đường"
+        },
+        {
+          "id": 10,
+          "word": "distance",
+          "answer": "Mốc & khoảng cách"
         }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "C", "2": "E", "3": "B", "4": "D", "5": "A" },
-    "ex2": { "1": "straight", "2": "opposite", "3": "cross", "4": "reach", "5": "past" },
-    "ex3": { "1": "direction", "2": "block", "3": "turn", "4": "sign", "5": "corner" },
-    "ex4": { "1": "directed", "2": "distant", "3": "cross", "4": "nearby", "5": "unreachable" },
-    "ex5": { "1": "A", "2": "C", "3": "B", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "C",
+      "2": "E",
+      "3": "B",
+      "4": "D",
+      "5": "A"
+    },
+    "ex2": {
+      "1": "straight",
+      "2": "opposite",
+      "3": "cross",
+      "4": "reach",
+      "5": "past"
+    },
+    "ex3": {
+      "1": "direction",
+      "2": "block",
+      "3": "turn",
+      "4": "sign",
+      "5": "corner"
+    },
+    "ex4": {
+      "1": "directed",
+      "2": "distant",
+      "3": "cross",
+      "4": "nearby",
+      "5": "unreachable"
+    },
+    "ex5": {
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "B",
+      "5": "C"
+    }
   }
 }
