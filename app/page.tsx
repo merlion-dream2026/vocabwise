@@ -251,23 +251,6 @@ export default function LandingPage() {
               ))}
             </div>
 
-            {/* Primary CTA */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-5">
-              <Link href="/register"
-                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-base px-8 py-3.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
-                🚀 Dùng thử miễn phí
-              </Link>
-              <button onClick={() => setShowUpgrade(true)}
-                className="bg-white text-gray-500 font-black text-base px-8 py-3.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
-                ⭐ Xem gói Pro
-              </button>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-8">
-              <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full">✅ Không cần cài app</span>
-              <span className="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1.5 rounded-full">🔄 Tự động cập nhật</span>
-              <span className="bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1.5 rounded-full">📲 Dùng như app thật</span>
-            </div>
           </div>
 
           {/* Phone mockup — desktop only */}
@@ -326,22 +309,22 @@ export default function LandingPage() {
         <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem tất cả 4 module →</p>
       </div>
 
-      {/* Trust signals strip */}
-      <div className="max-w-6xl mx-auto px-4 pb-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {[
-            { icon: '🎓', val: 'IELTS 8.5', label: 'Điểm của người tạo app', sub: 'Writing 8.5 · Speaking 8.0' },
-            { icon: '📚', val: '4.500+ từ', label: 'Từ vựng chọn lọc theo CEFR', sub: 'Pre-A1 → C2' },
-            { icon: '🛡️', val: 'Bảo mật', label: 'Dữ liệu không mất khi hết hạn', sub: 'No thẻ tín dụng cần' },
-            { icon: '⭐', val: '7 ngày Free', label: 'Thử trước, trả sau', sub: 'Không cần cài đặt' },
-          ].map(t => (
-            <div key={t.val} className="bg-white rounded-2xl px-4 py-3.5 shadow-sm border border-gray-100 text-center">
-              <p className="text-2xl mb-1">{t.icon}</p>
-              <p className="font-black text-gray-800 text-sm leading-tight">{t.val}</p>
-              <p className="text-gray-500 text-xs mt-0.5 leading-snug">{t.label}</p>
-              <p className="text-gray-400 text-[10px] mt-0.5">{t.sub}</p>
-            </div>
-          ))}
+      {/* CTA buttons */}
+      <div className="max-w-6xl mx-auto px-4 pb-8 text-center">
+        <div className="flex flex-row gap-3 justify-center mb-3">
+          <Link href="/register"
+            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
+            🚀 Dùng thử miễn phí
+          </Link>
+          <button onClick={() => setShowUpgrade(true)}
+            className="bg-white text-gray-500 font-black text-sm px-5 py-2.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
+            ⭐ Xem gói Pro
+          </button>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-2">
+          <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full">✅ Không cần cài app</span>
+          <span className="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1.5 rounded-full">🔄 Tự động cập nhật</span>
+          <span className="bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1.5 rounded-full">📲 Dùng như app thật</span>
         </div>
       </div>
 
@@ -466,99 +449,6 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* VocabWise Academic section */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
-        <div className="bg-gradient-to-br from-indigo-600 to-blue-700 rounded-3xl overflow-hidden shadow-lg">
-          <div className="px-6 pt-6 pb-4 text-white">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="bg-white/20 text-white text-xs font-black px-2.5 py-1 rounded-full">MỚI</span>
-              <span className="text-white/70 text-xs font-semibold">Dành cho teen & người lớn</span>
-            </div>
-            <h2 className="text-2xl font-black leading-tight mb-1">🎓 VocabWise Academic</h2>
-            <p className="text-blue-200 text-sm mb-4">Từ vựng học thuật · A1 → C2 · Luyện thi IELTS / SAT</p>
-            <div className="grid grid-cols-2 gap-2 mb-5">
-              {[
-                { icon: '📚', label: '180 chủ đề', desc: '3 cuốn · A1 đến C2' },
-                { icon: '✏️', label: '8 loại bài tập', desc: 'Matching · MCQ · Gap Fill · TFNG...' },
-                { icon: '📄', label: 'Bài văn ngữ cảnh', desc: 'Đọc passage + glossary song ngữ' },
-                { icon: '🎯', label: 'Kiểm tra cấp độ', desc: '10 câu · 2 phút · Tìm đúng level' },
-              ].map(f => (
-                <div key={f.label} className="bg-white/10 rounded-2xl px-3 py-2.5">
-                  <p className="font-black text-sm text-white">{f.icon} {f.label}</p>
-                  <p className="text-blue-200 text-xs mt-0.5">{f.desc}</p>
-                </div>
-              ))}
-            </div>
-            <Link href="/register"
-              className="inline-flex items-center gap-2 bg-white text-indigo-700 font-black text-sm px-5 py-3 rounded-2xl shadow active:scale-95 transition-all hover:bg-blue-50">
-              🎯 Thử bài kiểm tra cấp độ →
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Academic workflow deep-dive */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1">📖 Một topic Academic gồm những gì?</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">Lộ trình học hoàn chỉnh từ đọc hiểu → từ vựng → bài tập</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {[
-            {
-              step: '① Đọc bài',
-              icon: '📄',
-              gradient: 'from-emerald-50 to-teal-50',
-              border: 'border-emerald-200',
-              accent: 'text-emerald-700',
-              title: 'Passage ngữ cảnh',
-              desc: 'Bài đọc ngắn ~150 từ bằng tiếng Anh chuẩn học thuật. Từ vựng xuất hiện trong bối cảnh thực — không học chay thuần túy.',
-              tags: ['A1–C2', 'Song ngữ Việt–Anh', '~150 từ/passage'],
-            },
-            {
-              step: '② Học từ',
-              icon: '🔤',
-              gradient: 'from-blue-50 to-indigo-50',
-              border: 'border-blue-200',
-              accent: 'text-blue-700',
-              title: 'Glossary song ngữ',
-              desc: '10–15 từ trọng tâm kèm nghĩa tiếng Việt, ví dụ câu và phát âm. Học từ trong context bài đọc — nhớ nhanh, nhớ lâu.',
-              tags: ['10–15 từ/topic', 'IPA + phát âm', 'Ví dụ câu'],
-            },
-            {
-              step: '③ Luyện tập',
-              icon: '✏️',
-              gradient: 'from-purple-50 to-violet-50',
-              border: 'border-purple-200',
-              accent: 'text-purple-700',
-              title: '5 bài × 5 câu = 25 câu',
-              desc: '8 loại bài tập đa dạng: Matching, MCQ, Gap Fill, TFNG, Word Forms, Reordering, Error Fix... chuẩn IELTS/SAT.',
-              tags: ['E1–E8 exercise types', 'Tự động chấm điểm', 'IELTS/SAT format'],
-            },
-          ].map(s => (
-            <div key={s.step} className={`bg-gradient-to-br ${s.gradient} rounded-2xl border-2 ${s.border} p-5`}>
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-2xl">{s.icon}</span>
-                <div>
-                  <p className={`text-xs font-black uppercase tracking-wide ${s.accent}`}>{s.step}</p>
-                  <p className={`font-black text-sm text-gray-800`}>{s.title}</p>
-                </div>
-              </div>
-              <p className="text-gray-600 text-xs leading-relaxed mb-3">{s.desc}</p>
-              <div className="flex flex-wrap gap-1.5">
-                {s.tags.map(t => (
-                  <span key={t} className={`text-[11px] font-bold px-2 py-0.5 rounded-full bg-white/70 ${s.accent}`}>{t}</span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="text-center mt-5">
-          <Link href="/register"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-blue-500 text-white font-black text-sm px-6 py-3 rounded-2xl shadow active:scale-95 transition-all hover:shadow-md">
-            🎓 Thử VocabWise Academic miễn phí →
-          </Link>
         </div>
       </div>
 
