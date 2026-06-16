@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, type SyncLevel } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 
 
 const KID_FAQ = [
@@ -127,7 +128,6 @@ export default function ChildRoadmap() {
   const [syncByLevel, setSyncByLevel] = useState<SyncByLevel>({})
   const [loading, setLoading] = useState(true)
   const [session, setSession] = useState<Session | null>(null)
-  const [showHistory, setShowHistory] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -155,44 +155,6 @@ export default function ChildRoadmap() {
   const allDaily = getAllDailyProgress(syncByLevel)
   const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
   const kidsStarted = allDaily.seenWords > 0
-
-  // History — last 30 days, per module
-  type HistDayEntry = { words?: number; games?: number; xp?: number; topics?: number; topicIds?: string[] }
-  const phonicsHistRaw = (syncByLevel['phonics'] as { history?: Record<string, HistDayEntry> } | undefined)?.history ?? {}
-  const acadHistRaw    = (syncByLevel['academic'] as { history?: Record<string, HistDayEntry> } | undefined)?.history ?? {}
-  const dailyHistMap: Record<string, { words: number; games: number; topicIds: string[] }> = {}
-  for (const lvl of LEVEL_ORDER) {
-    const h = (syncByLevel[lvl] as { history?: Record<string, HistDayEntry> } | undefined)?.history ?? {}
-    for (const [day, e] of Object.entries(h)) {
-      if ((e.words ?? 0) + (e.games ?? 0) === 0) continue
-      if (!dailyHistMap[day]) dailyHistMap[day] = { words: 0, games: 0, topicIds: [] }
-      dailyHistMap[day].words += e.words ?? 0
-      dailyHistMap[day].games += e.games ?? 0
-      for (const id of e.topicIds ?? []) {
-        if (!dailyHistMap[day].topicIds.includes(id)) dailyHistMap[day].topicIds.push(id)
-      }
-    }
-  }
-  const cutoffDate = new Date(); cutoffDate.setDate(cutoffDate.getDate() - 30)
-  const cutoffStr30 = cutoffDate.toISOString().split('T')[0]
-  const DOW = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7']
-  const historyDays = Array.from(new Set([...Object.keys(phonicsHistRaw), ...Object.keys(dailyHistMap), ...Object.keys(acadHistRaw)]))
-    .filter(d => d >= cutoffStr30)
-    .sort((a, b) => b.localeCompare(a))
-    .map(date => {
-      const [, m, d] = date.split('-')
-      const dow = DOW[new Date(date).getDay()]
-      const p  = phonicsHistRaw[date]
-      const dl = dailyHistMap[date]
-      const ac = acadHistRaw[date]
-      return {
-        date, label: `${dow} ${d}/${m}`,
-        phonics:  p && (p.games ?? 0) > 0 ? { games: p.games! } : null,
-        daily:    dl && (dl.words + dl.games) > 0 ? dl : null,
-        academic: ac && (ac.topics ?? 0) > 0 ? { topics: ac.topics!, topicIds: ac.topicIds ?? [] } : null,
-      }
-    })
-    .filter(h => h.phonics || h.daily || h.academic)
 
   // Daily missions
   const todayStr = new Date().toISOString().split('T')[0]
@@ -322,49 +284,7 @@ export default function ChildRoadmap() {
       {/* Learning history */}
       <div className="max-w-lg mx-auto mt-3">
         <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-          <button
-            onClick={() => setShowHistory(h => !h)}
-            className="w-full px-4 py-3 flex items-center justify-between hover:bg-gray-50 transition-colors">
-            <span className="font-black text-gray-600 text-sm">📅 Lịch sử học (30 ngày)</span>
-            <span className={`text-gray-400 text-xs font-black transition-transform duration-200 ${showHistory ? 'rotate-180' : ''}`}>▾</span>
-          </button>
-          {showHistory && (
-            <div className="border-t border-gray-100 divide-y divide-gray-50 max-h-96 overflow-y-auto">
-              {historyDays.length === 0 ? (
-                <p className="text-xs text-gray-400 text-center py-4">Chưa có hoạt động nào trong 30 ngày qua</p>
-              ) : historyDays.map(h => (
-                <div key={h.date} className="px-4 py-2.5">
-                  <p className="text-[11px] font-black text-gray-400 mb-1.5">{h.label}</p>
-                  <div className="space-y-1">
-                    {h.phonics && (
-                      <div className="flex items-center gap-2 text-xs">
-                        <span className="text-amber-500 font-bold w-20 flex-shrink-0">🔤 Phonics</span>
-                        <span className="text-gray-500">{h.phonics.games} bài</span>
-                      </div>
-                    )}
-                    {h.daily && (
-                      <div className="flex items-start gap-2 text-xs">
-                        <span className="text-purple-500 font-bold w-20 flex-shrink-0 pt-px">📚 Daily</span>
-                        <span className="text-gray-500">
-                          {[
-                            h.daily.words > 0 && `${h.daily.words} từ`,
-                            h.daily.games > 0 && `${h.daily.games} game`,
-                            h.daily.topicIds.length > 0 && `${h.daily.topicIds.length} chủ đề`,
-                          ].filter(Boolean).join(' · ')}
-                        </span>
-                      </div>
-                    )}
-                    {h.academic && (
-                      <div className="flex items-center gap-2 text-xs">
-                        <span className="text-blue-500 font-bold w-20 flex-shrink-0">🎓 Academic</span>
-                        <span className="text-gray-500">{h.academic.topics} bài tập{h.academic.topicIds.length > 0 ? ` · ${h.academic.topicIds.length} chủ đề` : ''}</span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+          <LearningHistoryPanel syncByLevel={syncByLevel as Record<string, { history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }> } | undefined>} />
         </div>
       </div>
     </div>

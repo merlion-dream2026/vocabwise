@@ -13,6 +13,7 @@ import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import ReferralTab from './ReferralTab'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
 import { AVATARS, getAvatarSrc } from '@/lib/avatars'
+import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 
 type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
@@ -707,7 +708,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
                   </div>
                 </button>
 
-                {/* History — collapsible, combined across all modules */}
+                {/* History 7 ngày — collapsible, combined across all modules */}
                 <div className="border-t border-gray-100">
                   <button
                     onClick={() => setExpandedHistory(prev => ({ ...prev, [child.id]: !isHistExpanded }))}
@@ -740,6 +741,9 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
                     </div>
                   )}
                 </div>
+
+                {/* History 30 ngày — per module breakdown */}
+                <LearningHistoryPanel syncByLevel={syncAll as Record<string, { history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }> } | undefined>} />
               </div>
             )
           })}

@@ -33,7 +33,7 @@ export const ACADEMIC_WORDS_PER_TOPIC = 15
 export type SyncLevel = {
   seen?: string[]
   mastery?: Record<string, { flashcard: boolean; games: string[] }>
-  history?: Record<string, { words: number; games: number; xp: number }>
+  history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }>
 }
 
 export type SyncAllLevels = Record<string, SyncLevel>
