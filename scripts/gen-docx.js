@@ -359,9 +359,11 @@ function buildExercises(exercises, bc) {
     E1: 'Matching', E3: 'Choose the Best Answer', E4: 'Fill in the Blanks',
     E5: 'True / False / Not Given', E6: 'Word Forms',
     E7: 'Sentence Building', E8: 'Error Correction',
+    E_ODD: 'Odd One Out', E_CAT: 'Categorisation',
+    E_SD: 'Same or Different', E_SUB: 'Choose the Best Synonym',
   }
 
-  for (let n = 1; n <= 5; n++) {
+  for (let n = 1; n <= 6; n++) {
     const ex = getEx(n)
     if (!ex) continue
     const title = TITLES[ex.type] ?? ex.type
@@ -491,6 +493,129 @@ function buildExercises(exercises, bc) {
       }
     }
 
+    // ── E_ODD: Odd One Out ────────────────────────────────
+    else if (ex.type === 'E_ODD') {
+      const half = Math.ceil(ex.items.length / 2)
+      const left  = ex.items.slice(0, half)
+      const right = ex.items.slice(half)
+      const dataRows = left.map((item, i) => {
+        const rItem  = right[i]
+        const shade  = i % 2 === 0 ? C.white : bc.light
+        const wordStr = item.words.join('  ·  ')
+        const rWordStr = rItem ? rItem.words.join('  ·  ') : ''
+        return row([
+          cell([
+            p([
+              r(`${item.id}.  `, { bold: true, color: bc.dark, size: SZ.sm }),
+              r(wordStr, { size: SZ.sm }),
+            ], { spacing: { before: 0, after: 40 } }),
+            p([r('→  _______________________', { color: C.sub, size: SZ.xs })],
+              { spacing: { before: 0, after: 0 } }),
+          ], { shade, borders: gridBorder }),
+          cell([
+            ...(rItem ? [
+              p([
+                r(`${rItem.id}.  `, { bold: true, color: bc.dark, size: SZ.sm }),
+                r(rWordStr, { size: SZ.sm }),
+              ], { spacing: { before: 0, after: 40 } }),
+              p([r('→  _______________________', { color: C.sub, size: SZ.xs })],
+                { spacing: { before: 0, after: 0 } }),
+            ] : [p([r('')], { spacing: { before: 0, after: 0 } })]),
+          ], { shade, borders: gridBorder }),
+        ])
+      })
+      items.push(tbl(dataRows, gridBorder))
+    }
+
+    // ── E_CAT: Categorisation ─────────────────────────────
+    else if (ex.type === 'E_CAT') {
+      const cats = ex.categories ?? []
+      items.push(p([
+        r('Categories:   ', { bold: true, color: bc.dark, size: SZ.sm }),
+        ...cats.flatMap((c, i) => [
+          r(c, { bold: true, color: bc.dark, size: SZ.sm }),
+          ...(i < cats.length - 1 ? [r('   ·   ', { color: C.sub, size: SZ.sm })] : []),
+        ]),
+      ], {
+        shading: { type: ShadingType.SOLID, color: bc.light },
+        spacing: { before: 0, after: 140 },
+        border: {
+          top:    { style: BorderStyle.SINGLE, size: 6, color: bc.mid },
+          bottom: { style: BorderStyle.SINGLE, size: 6, color: bc.mid },
+          left:   { style: BorderStyle.THICK,  size: 12, color: bc.accent },
+          right:  { style: BorderStyle.SINGLE, size: 6, color: bc.mid },
+        },
+        indent: { left: 120, right: 120 },
+      }))
+      const half = Math.ceil(ex.items.length / 2)
+      const left  = ex.items.slice(0, half)
+      const right = ex.items.slice(half)
+      const dataRows = left.map((item, i) => {
+        const rItem = right[i]
+        const shade = i % 2 === 0 ? C.white : bc.light
+        return row([
+          cell([p([
+            r(`${item.id}.  `, { bold: true, color: bc.dark, size: SZ.sm }),
+            r(item.word + '   ', { size: SZ.sm }),
+            r('→  _______________', { color: C.sub, size: SZ.sm }),
+          ], { spacing: { before: 0, after: 0 } })], { shade, borders: gridBorder }),
+          cell([p(rItem ? [
+            r(`${rItem.id}.  `, { bold: true, color: bc.dark, size: SZ.sm }),
+            r(rItem.word + '   ', { size: SZ.sm }),
+            r('→  _______________', { color: C.sub, size: SZ.sm }),
+          ] : [r('')], { spacing: { before: 0, after: 0 } })], { shade, borders: gridBorder }),
+        ])
+      })
+      items.push(tbl(dataRows, gridBorder))
+    }
+
+    // ── E_SD: Same or Different ───────────────────────────
+    else if (ex.type === 'E_SD') {
+      for (const item of ex.items) {
+        const shade = item.id % 2 === 0 ? bc.light : C.white
+        items.push(tbl([row([
+          cell(
+            [p([r(`${item.id}`, { bold: true, color: C.white, size: SZ.sm })],
+              { spacing: { before: 0, after: 0 } })],
+            { shade: bc.dark, width: 380, margins: { top: 80, bottom: 80, left: 120, right: 80 } }
+          ),
+          cell([
+            p([
+              r('A:  ', { bold: true, color: bc.accent, size: SZ.sm }),
+              r(item.a, { size: SZ.sm }),
+            ], { spacing: { before: 0, after: 60 } }),
+            p([
+              r('B:  ', { bold: true, color: bc.accent, size: SZ.sm }),
+              r(item.b, { size: SZ.sm }),
+            ], { spacing: { before: 0, after: 60 } }),
+            p([r('□  Same (S)      □  Different (D)', { color: C.sub, size: SZ.sm })],
+              { spacing: { before: 0, after: 0 } }),
+          ], { shade, margins: { top: 80, bottom: 80, left: 160, right: 160 } }),
+        ])]))
+        items.push(gap(80, 0))
+      }
+    }
+
+    // ── E_SUB: Synonym Substitution ───────────────────────
+    else if (ex.type === 'E_SUB') {
+      for (const item of ex.items) {
+        items.push(new Paragraph({
+          children: [
+            r(`${item.id}.  `, { bold: true, color: bc.dark, size: SZ.md }),
+            ...item.sentence.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+              r(part, i % 2 === 1
+                ? { bold: true, underline: { type: UnderlineType.SINGLE }, color: bc.dark, size: SZ.md }
+                : { size: SZ.md })
+            ),
+          ],
+          spacing: { before: 100, after: 40 },
+        }))
+        const opts = item.options.map((o, i) => `${String.fromCharCode(65 + i)}.  ${o}`).join('      ')
+        items.push(p([r(opts, { color: C.sub, size: SZ.sm })],
+          { indent: { left: 400 }, spacing: { before: 0, after: 100 } }))
+      }
+    }
+
     items.push(gap(120, 0))
   }
 
@@ -546,7 +671,17 @@ async function generateTopic(book, topicId, bc) {
   }
 
   const data  = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
-  const { meta, passage, glossary, exercises, answer_key } = data
+  const { meta, passage, glossary, exercises } = data
+  const answer_key = { ...data.answer_key }
+
+  // Auto-build ex6 answer key from inline item answers
+  const ex6Key = Object.keys(exercises).find(k => k.startsWith('ex6_'))
+  if (ex6Key && exercises[ex6Key]?.items) {
+    answer_key.ex6 = {}
+    for (const item of exercises[ex6Key].items) {
+      answer_key.ex6[String(item.id)] = item.answer
+    }
+  }
 
   const children = [
     ...buildHeader(meta, bc),

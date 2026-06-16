@@ -118,6 +118,19 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const today = new Date().toISOString().split('T')[0]
   const srsDueCount = Object.values(srsMap).filter(e => e.due <= today).length
 
+  function startReview(mode: 'srs' | 'improve') {
+    const queue = mode === 'srs'
+      ? topics
+          .filter(t => srsMap[t.topic_id]?.due <= today)
+          .map(t => ({ topicId: t.topic_id, topicTitle: t.topic_title_vi ?? t.topic_title, cefrLevel: t.combo }))
+      : topics
+          .filter(t => syncMap[t.topic_id]?.completed && !syncMap[t.topic_id]?.mastered)
+          .map(t => ({ topicId: t.topic_id, topicTitle: t.topic_title_vi ?? t.topic_title, cefrLevel: t.combo }))
+    if (!queue.length) return
+    localStorage.setItem('vw_review_queue', JSON.stringify(queue))
+    router.push(`/vocabwise/${book}/review`)
+  }
+
   // ─── Render ─────────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -278,7 +291,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           </div>
         )}
 
-        {/* SRS due banner — Group 2: populated once TopicViewer writes SRS data */}
+        {/* SRS due banner */}
         {srsDueCount > 0 && (
           <div className="bg-teal-50 border-2 border-teal-200 rounded-2xl px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -288,7 +301,12 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                 <p className="text-xs text-teal-500">{srsDueCount} chủ đề cần ôn theo lịch</p>
               </div>
             </div>
-            <span className="text-teal-400 font-black text-sm">{srsDueCount} chủ đề</span>
+            <button
+              onClick={() => startReview('srs')}
+              className="text-teal-700 font-black text-sm bg-teal-100 hover:bg-teal-200 px-3 py-1.5 rounded-full active:scale-95 transition-all flex-shrink-0"
+            >
+              Bắt đầu →
+            </button>
           </div>
         )}
 
@@ -302,7 +320,12 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                 <p className="text-xs text-orange-500">{needsReviewCount} chủ đề chưa thành thạo</p>
               </div>
             </div>
-            <span className="text-orange-400 font-black text-sm">Ôn thêm</span>
+            <button
+              onClick={() => startReview('improve')}
+              className="text-orange-700 font-black text-sm bg-orange-100 hover:bg-orange-200 px-3 py-1.5 rounded-full active:scale-95 transition-all flex-shrink-0"
+            >
+              Ôn thêm →
+            </button>
           </div>
         )}
 
