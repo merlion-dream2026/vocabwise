@@ -65,7 +65,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, score)
+      addScore(level, Math.round(score * 1.5))
       if (score === total) recordPerfectGame(level, topic.id, 'gapfill')
       if (score === total) setShowConfetti(true)
       flush()

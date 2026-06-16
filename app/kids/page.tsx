@@ -34,6 +34,39 @@ const THEME_CONFIG: Record<string, {
   blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
 }
 
+// ── Sibling Battle ────────────────────────────────────────────
+const BATTLE_PERIODS = [
+  { key: 'today', label: 'Hôm nay', days: 1  },
+  { key: '3d',    label: '3 ngày',  days: 3  },
+  { key: '7d',    label: '7 ngày',  days: 7  },
+  { key: '14d',   label: '14 ngày', days: 14 },
+  { key: '30d',   label: '30 ngày', days: 30 },
+] as const
+type BattlePeriod = typeof BATTLE_PERIODS[number]['key']
+type SyncCache = Record<string, Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }>>
+
+function computeBattleResults(
+  kids: Child[],
+  cache: SyncCache,
+  days: number
+): Array<{ child: Child; words: number; games: number; xp: number }> {
+  const keys = Array.from({ length: days }, (_, i) => {
+    const d = new Date(); d.setDate(d.getDate() - i)
+    return d.toISOString().split('T')[0]
+  })
+  return kids.map(child => {
+    let words = 0, games = 0, xp = 0
+    for (const lvl of Object.values(cache[child.id] ?? {})) {
+      for (const key of keys) {
+        const h = lvl?.history?.[key]
+        if (h) { words += h.words ?? 0; games += h.games ?? 0; xp += h.xp ?? 0 }
+      }
+    }
+    return { child, words, games, xp }
+  }).sort((a, b) => b.xp - a.xp)
+}
+// ─────────────────────────────────────────────────────────────
+
 // ── Local helpers ────────────────────────────────────────────
 function MiniBar({ value, max, gradient }: { value: number; max: number; gradient: string }) {
   const pct = max > 0 ? Math.min(100, Math.round(value / max * 100)) : 0
@@ -79,34 +112,35 @@ export default function HomePage() {
   const [battleOpen, setBattleOpen] = useState(false)
   const [battleData, setBattleData] = useState<Array<{ child: Child; words: number; games: number; xp: number }>>([])
   const [battleLoading, setBattleLoading] = useState(false)
+  const [battlePeriod, setBattlePeriod] = useState<BattlePeriod>('7d')
+  const [battleSyncCache, setBattleSyncCache] = useState<SyncCache>({})
   const [syncMap, setSyncMap] = useState<Record<string, SyncAllLevels>>({})
 
   useExpiryGuard(session)
 
-  function getLast7DayKeys() {
-    return Array.from({ length: 7 }, (_, i) => {
-      const d = new Date(); d.setDate(d.getDate() - i)
-      return d.toISOString().split('T')[0]
-    })
-  }
-
   async function openBattle() {
     setBattleOpen(true)
+    if (Object.keys(battleSyncCache).length > 0) {
+      setBattleData(computeBattleResults(children, battleSyncCache, BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days))
+      return
+    }
     setBattleLoading(true)
-    const keys = getLast7DayKeys()
-    const results = await Promise.all(children.map(async (child) => {
-      const sync = await fetch(`/api/sync/${child.id}`).then(r => r.json()).catch(() => ({}))
-      let words = 0, games = 0, xp = 0
-      for (const lvl of Object.values(sync as Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }>)) {
-        for (const key of keys) {
-          const h = lvl?.history?.[key]
-          if (h) { words += h.words ?? 0; games += h.games ?? 0; xp += h.xp ?? 0 }
-        }
-      }
-      return { child, words, games, xp }
-    }))
-    setBattleData(results.sort((a, b) => b.xp - a.xp))
+    const fetched = await Promise.all(children.map(async child => ({
+      id: child.id,
+      data: await fetch(`/api/sync/${child.id}`).then(r => r.json()).catch(() => ({})) as SyncCache[string],
+    })))
+    const cache: SyncCache = {}
+    for (const { id, data } of fetched) cache[id] = data
+    setBattleSyncCache(cache)
+    setBattleData(computeBattleResults(children, cache, BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days))
     setBattleLoading(false)
+  }
+
+  function changeBattlePeriod(period: BattlePeriod) {
+    setBattlePeriod(period)
+    if (Object.keys(battleSyncCache).length > 0) {
+      setBattleData(computeBattleResults(children, battleSyncCache, BATTLE_PERIODS.find(p => p.key === period)!.days))
+    }
   }
 
   async function logout() {
@@ -406,7 +440,25 @@ export default function HomePage() {
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
               <p className="text-4xl mb-1">⚔️</p>
               <h2 className="text-white font-black text-xl">Sibling Battle</h2>
-              <p className="text-white/80 text-sm font-semibold mt-0.5">7 ngày gần nhất</p>
+              <p className="text-white/80 text-sm font-semibold mt-0.5">
+                {battlePeriod === 'today' ? 'Học hôm nay' : `${BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days} ngày gần nhất`}
+              </p>
+              {/* Period pills */}
+              <div className="flex gap-1.5 justify-center mt-3 flex-wrap">
+                {BATTLE_PERIODS.map(p => (
+                  <button
+                    key={p.key}
+                    onClick={() => changeBattlePeriod(p.key)}
+                    className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
+                      battlePeriod === p.key
+                        ? 'bg-white text-purple-600'
+                        : 'bg-white/20 text-white hover:bg-white/30'
+                    }`}
+                  >
+                    {p.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="p-5 space-y-3">
@@ -430,7 +482,10 @@ export default function HomePage() {
                         )}
                         {allZero && (
                           <div className="text-center bg-purple-50 rounded-2xl py-2 px-4 text-sm font-bold text-purple-600">
-                            🌱 Chưa ai học tuần này — bắt đầu thôi!
+                            🌱 {battlePeriod === 'today'
+                              ? 'Chưa ai học hôm nay'
+                              : `Chưa ai học trong ${BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days} ngày qua`
+                            } — bắt đầu thôi!
                           </div>
                         )}
                         {battleData.map((d, i) => {

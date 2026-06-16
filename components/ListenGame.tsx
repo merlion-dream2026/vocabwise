@@ -61,7 +61,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
 
   useEffect(() => {
     if (done) {
-      addScore(level, score)
+      addScore(level, Math.round(score * 1.5))
       if (score === total) recordPerfectGame(level, topic.id, 'listen')
       if (score === total) setShowConfetti(true)
       flush()

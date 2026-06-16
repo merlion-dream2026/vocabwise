@@ -59,7 +59,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, score)
+      addScore(level, score * 2)
       if (score === total) { recordPerfectGame(level, topic.id, 'fillletter'); setShowConfetti(true) }
       flush()
     }

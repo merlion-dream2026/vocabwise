@@ -49,7 +49,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
   }, [roundIdx])
 
   useEffect(() => {
-    if (done) { addScore(level, score); if (score === total) { recordPerfectGame(level, topic.id, 'definitionmatch'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'definitionmatch'); setShowConfetti(true) }; flush() }
   }, [done])
 
   if (topic.words.length === 0) { router.push(backUrl); return null }

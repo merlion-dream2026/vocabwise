@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 import {
   getPhonicsProgress, getDailyHighestLevel, getAllDailyProgress, getAllAcademicProgress, getXPAndBadge,
+  getGlobalStreak, getDailyXP, DAILY_XP_GOAL,
   type SyncLevel, type SyncAllLevels,
 } from '@/lib/childProgress'
 import UpgradeBanner from '@/components/UpgradeBanner'
@@ -319,7 +320,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Các ký hiệu trên thẻ tiến độ nghĩa là gì?',
-        a: '% · X/N từ → Số từ bé đã học / tổng từ của level đó\n✅ X/30 chủ đề → Chủ đề hoàn thành đủ flashcard + 3 games\n🔤 Phát âm X/23 nhóm 🏆 → Nhóm âm IPA bé đã thành thạo (học + 3 game đạt ≥70%)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
+        a: '% · X/N từ → Số từ bé đã học / tổng từ của level đó\n✅ X/30 chủ đề → Chủ đề hoàn thành đủ flashcard + 3 games\n🔤 Phát âm X/23 nhóm 🏆 → Nhóm âm IPA bé đã thành thạo (học + 3 game đạt ≥70%)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào (tính gộp toàn app)\n⚡ X/20 XP hôm nay → Mục tiêu XP mỗi ngày — đạt 20 XP là hoàn thành mục tiêu\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
       },
       {
         q: '🔤 Module Phonics là gì?',
@@ -327,7 +328,11 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Các huy hiệu (badges) có ý nghĩa gì?',
-        a: 'Hệ thống huy hiệu tạo động lực cho bé:\n🌱 Ham Học — học 10 từ đầu tiên\n🎯 Tập Trung — hoàn thành 5 lượt game\n🏅 Chinh Phục — xong 1 chủ đề hoàn toàn\n🏆 Xuất Sắc — xong 5 chủ đề\n⭐ Toàn Vẹn — streak 7 ngày liên tiếp\n... và nhiều huy hiệu khác khi đạt các cột mốc cao hơn.',
+        a: 'Hệ thống huy hiệu tạo động lực cho bé:\n🌱 Ham Học — học 10 từ đầu tiên\n🏅 Chinh Phục — xong 1 chủ đề hoàn toàn\n🏆 Xuất Sắc — xong 5 chủ đề\n⚡ Kiên Trì — streak 7 ngày liên tiếp\n⭐ Chăm Chỉ — đạt 100 XP tổng\n... và nhiều huy hiệu khác khi đạt các cột mốc cao hơn.',
+      },
+      {
+        q: '⭐ XP là gì? Tính như thế nào?',
+        a: 'XP (Experience Points) là điểm kinh nghiệm — chỉ số đo lượng kiến thức bé đã luyện tập.\n\nCách tính XP theo độ khó game:\n🟢 Game nhận biết (Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng): 1 XP/câu đúng\n🟡 Game hiểu nghĩa (Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa): 1,5 XP/câu đúng\n🔴 Game sản xuất (Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round): 2 XP/câu đúng\n\nMục tiêu hàng ngày: 20 XP — hiển thị trên dashboard.\n\nXP tích lũy → lên cấp độ:\n🌱 Mầm Non (0–99) → 🔍 Nhà Thám Hiểm (100–299) → ⚔️ Chiến Binh (300–699) → 📜 Học Giả (700–1499) → 👑 Vô Địch (1500+)',
       },
     ],
   },
@@ -340,7 +345,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Lịch học như thế nào là tốt nhất?',
-        a: '15–20 phút/ngày đều đặn tốt hơn học dồn 1–2 tiếng/tuần.\n\nStreak 🔥 chính là chỉ số đo tính kiên trì — hãy giúp bé duy trì streak càng dài càng tốt. Chỉ cần học 1 chủ đề mỗi ngày là đủ để giữ streak.',
+        a: '15–20 phút/ngày đều đặn tốt hơn học dồn 1–2 tiếng/tuần.\n\nStreak 🔥 chính là chỉ số đo tính kiên trì — hãy giúp bé duy trì streak càng dài càng tốt. Chỉ cần học bất kỳ game nào trong ngày (Phonics, Daily hay Academic) là đủ để giữ streak — streak được tính gộp toàn app.\n\nMục tiêu XP hàng ngày: 20 XP. Bé đạt 20 XP trong ngày → ✅ hiển thị trên dashboard. Game khó (Đánh vần, Gõ từ) cho nhiều XP hơn game dễ!',
       },
       {
         q: 'Thứ tự học trong một chủ đề?',
@@ -600,9 +605,11 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
             const allAcad  = getAllAcademicProgress(syncAll['academic'] as SyncLevel | undefined)
             const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
 
-            // Streak + last active from child record
-            const streakCur   = child.streak?.current ?? 0
+            // Global streak computed from combined history across all modules
+            const { current: streakCur } = getGlobalStreak(syncAll as SyncAllLevels)
             const lastActive  = formatLastActive(child.streak?.lastActive)
+            const todayXP     = getDailyXP(syncAll as SyncAllLevels)
+            const xpGoalDone  = todayXP >= DAILY_XP_GOAL
 
             // Weak words from active Daily level
             const weakEntries = Object.entries(syncAll[activeLevel]?.weak_words ?? {})
@@ -642,6 +649,9 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
                       {xpBadge && <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpBadge.cls}`}>{xpBadge.icon} {xpBadge.label}</span>}
                       {!xpBadge && totalXP === 0 && <span className="text-[11px] text-gray-400 font-semibold">{xpInfo.emoji} {xpInfo.name}</span>}
                       {streakCur > 0 && <span className="text-[11px] font-black text-orange-500">🔥 {streakCur} ngày</span>}
+                      <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpGoalDone ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'}`}>
+                        {xpGoalDone ? '✅' : `⚡ ${todayXP}/${DAILY_XP_GOAL} XP hôm nay`}
+                      </span>
                       {lastActive && <span className="text-[11px] text-gray-400 font-semibold">📅 {lastActive}</span>}
                     </div>
                   </div>

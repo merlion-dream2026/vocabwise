@@ -61,7 +61,7 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, score)
+      addScore(level, Math.round(score * 1.5))
       if (score === total) recordPerfectGame(level, topic.id, 'quiz')
       if (score === total) setShowConfetti(true)
       flush()

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, type SyncLevel } from '@/lib/childProgress'
+import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
@@ -164,6 +164,11 @@ export default function ChildRoadmap() {
   const todayAcademic = ((syncByLevel['academic'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.topics ?? 0) > 0
   const missionsDone  = [todayPhonics, todayDaily, todayAcademic].filter(Boolean).length
   const allMissions   = missionsDone === 3
+
+  const todayXP       = getDailyXP(syncByLevel as Record<string, SyncLevel>)
+  const xpGoalDone    = todayXP >= DAILY_XP_GOAL
+  const xpPct         = Math.min(100, Math.round((todayXP / DAILY_XP_GOAL) * 100))
+  const { current: globalStreak } = getGlobalStreak(syncByLevel as Record<string, SyncLevel>)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">

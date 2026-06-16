@@ -69,7 +69,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (gameDone) {
-      addScore(level, score)
+      addScore(level, Math.round(score * 1.5))
       if (score === total) { recordPerfectGame(level, topic.id, 'speak'); setShowConfetti(true) }
       flush()
     }

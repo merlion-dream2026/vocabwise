@@ -50,7 +50,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
   const total = questions.length
 
   useEffect(() => {
-    if (done) { addScore(level, score); if (score === total) { recordPerfectGame(level, topic.id, 'sentenceorder'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'sentenceorder'); setShowConfetti(true) }; flush() }
   }, [done])
 
   useEffect(() => {

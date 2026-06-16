@@ -70,7 +70,7 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
   const handleSubmit = () => {
     const correctCount = blanks.filter((b, i) => answers[i]?.toLowerCase() === b.word.toLowerCase()).length
     setSubmitted(true)
-    addScore(level, correctCount)
+    addScore(level, Math.round(correctCount * 1.5))
     if (correctCount === total) { recordPerfectGame(level, topic.id, 'storyfill'); setShowConfetti(true) }
     blanks.forEach((b, i) => recordAnswer(level, topic.id, topic.words.find(w => w.word === b.word) ?? { word: b.word, meaning: '', emoji: '' } as Word, answers[i]?.toLowerCase() === b.word.toLowerCase()))
     recordActivity(level)

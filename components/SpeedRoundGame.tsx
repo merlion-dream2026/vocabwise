@@ -35,7 +35,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, score)
+      addScore(level, score * 2)
       if (score === total) recordPerfectGame(level, topic.id, 'speedround')
       if (score === total) setShowConfetti(true)
       flush()

@@ -144,6 +144,39 @@ export function getAllAcademicProgress(academicSync: SyncLevel | undefined): All
   }
 }
 
+// ─── Global streak (computed from combined history across all modules) ────────
+
+export function getGlobalStreak(sync: SyncAllLevels): { current: number } {
+  const activeDates = new Set<string>()
+  for (const lv of Object.values(sync)) {
+    for (const [date, entry] of Object.entries((lv as SyncLevel).history ?? {})) {
+      const e = entry as { words?: number; games?: number; xp?: number }
+      if ((e.words ?? 0) + (e.games ?? 0) + (e.xp ?? 0) > 0) activeDates.add(date)
+    }
+  }
+  let current = 0
+  const d = new Date()
+  while (current < 365) {
+    if (!activeDates.has(d.toISOString().split('T')[0])) break
+    current++
+    d.setDate(d.getDate() - 1)
+  }
+  return { current }
+}
+
+// ─── Daily XP goal ────────────────────────────────────────────────────────────
+
+export const DAILY_XP_GOAL = 20
+
+export function getDailyXP(sync: SyncAllLevels): number {
+  const today = new Date().toISOString().split('T')[0]
+  let xp = 0
+  for (const lv of Object.values(sync)) {
+    xp += ((lv as SyncLevel).history?.[today]?.xp ?? 0)
+  }
+  return xp
+}
+
 // ─── XP & Badge ───────────────────────────────────────────────────────────────
 
 export const XP_BADGES = [
