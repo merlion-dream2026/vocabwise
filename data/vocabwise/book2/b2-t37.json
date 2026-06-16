@@ -613,6 +613,132 @@
           "explanation": "'Lasting impact' is the target vocabulary phrase that captures both the enduring nature and the depth of the change. While 'effect' and 'influence' are grammatically correct, 'lasting impact' is more vivid and specific — particularly appropriate in describing the long-term result of a coach's support."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "athlete",
+            "coach",
+            "spectator",
+            "fair play"
+          ],
+          "answer": "fair play",
+          "reason": "athlete, coach, and spectator are all people involved in a sporting event. 'fair play' is a principle — the idea of competing honestly and within the rules, not a person.",
+          "reason_vi": "athlete, coach và spectator đều là người liên quan đến sự kiện thể thao. 'fair play' là nguyên tắc — ý tưởng thi đấu trung thực và theo quy tắc, không phải người."
+        },
+        {
+          "id": 2,
+          "words": [
+            "compete",
+            "broadcast",
+            "participate",
+            "performance drugs"
+          ],
+          "answer": "performance drugs",
+          "reason": "compete, broadcast, and participate are all verbs — actions people take in sport. 'performance drugs' is a noun phrase — a substance that is misused to gain an unfair advantage, not an action.",
+          "reason_vi": "compete, broadcast và participate đều là động từ — hành động mọi người thực hiện trong thể thao. 'performance drugs' là cụm danh từ — chất bị lạm dụng để có lợi thế không công bằng, không phải hành động."
+        },
+        {
+          "id": 3,
+          "words": [
+            "tournament",
+            "sponsor",
+            "champion",
+            "fair play"
+          ],
+          "answer": "fair play",
+          "reason": "tournament, sponsor, and champion are all nouns in sport — an event, a financial backer, and a winner. 'fair play' is a value or principle — an idea about how sport should be conducted.",
+          "reason_vi": "tournament, sponsor và champion đều là danh từ trong thể thao — sự kiện, nhà tài trợ và người chiến thắng. 'fair play' là giá trị hoặc nguyên tắc — ý tưởng về cách thể thao nên được tiến hành."
+        },
+        {
+          "id": 4,
+          "words": [
+            "athlete",
+            "coach",
+            "career athlete",
+            "performance drugs"
+          ],
+          "answer": "performance drugs",
+          "reason": "athlete, coach, and career athlete are all people — individuals in the sporting world. 'performance drugs' is a substance — a banned chemical, not a person.",
+          "reason_vi": "athlete, coach và career athlete đều là người — cá nhân trong thế giới thể thao. 'performance drugs' là chất — hóa chất bị cấm, không phải người."
+        },
+        {
+          "id": 5,
+          "words": [
+            "tournament",
+            "broadcast",
+            "sponsor",
+            "lasting impact"
+          ],
+          "answer": "lasting impact",
+          "reason": "tournament, broadcast, and sponsor are all concrete things in the sport world — events, media, and money. 'lasting impact' is an abstract concept — a long-term effect on society or culture.",
+          "reason_vi": "tournament, broadcast và sponsor đều là thứ cụ thể trong thể thao — sự kiện, truyền thông và tiền bạc. 'lasting impact' là khái niệm trừu tượng — tác động lâu dài lên xã hội hoặc văn hóa."
+        },
+        {
+          "id": 6,
+          "words": [
+            "compete",
+            "participate",
+            "broadcast",
+            "physical"
+          ],
+          "answer": "physical",
+          "reason": "compete, participate, and broadcast are all verbs — actions taken by athletes or media in sport. 'physical' is an adjective — it describes the bodily nature of sport, not an action.",
+          "reason_vi": "compete, participate và broadcast đều là động từ — hành động của vận động viên hoặc truyền thông. 'physical' là tính từ — mô tả tính chất thể chất của thể thao, không phải hành động."
+        },
+        {
+          "id": 7,
+          "words": [
+            "athlete",
+            "spectator",
+            "coach",
+            "motivation"
+          ],
+          "answer": "motivation",
+          "reason": "athlete, spectator, and coach are all people with specific roles in sport. 'motivation' is an abstract quality — the drive or reason behind someone's effort, not a person.",
+          "reason_vi": "athlete, spectator và coach đều là người với vai trò cụ thể trong thể thao. 'motivation' là phẩm chất trừu tượng — động lực hoặc lý do đằng sau nỗ lực của ai đó, không phải người."
+        },
+        {
+          "id": 8,
+          "words": [
+            "tournament",
+            "sponsor",
+            "champion",
+            "motivation"
+          ],
+          "answer": "motivation",
+          "reason": "tournament, sponsor, and champion are all concrete nouns in sport. 'motivation' is abstract — an internal drive that cannot be seen or touched.",
+          "reason_vi": "tournament, sponsor và champion đều là danh từ cụ thể trong thể thao. 'motivation' là trừu tượng — động lực nội tâm không thể nhìn thấy hay chạm vào."
+        },
+        {
+          "id": 9,
+          "words": [
+            "compete",
+            "participate",
+            "broadcast",
+            "lasting impact"
+          ],
+          "answer": "lasting impact",
+          "reason": "compete, participate, and broadcast are actions — things athletes and media do. 'lasting impact' is an outcome concept — the long-term effect of sport on society, not something you do.",
+          "reason_vi": "compete, participate và broadcast đều là hành động — thứ vận động viên và truyền thông làm. 'lasting impact' là khái niệm kết quả — tác động lâu dài của thể thao lên xã hội, không phải thứ bạn làm."
+        },
+        {
+          "id": 10,
+          "words": [
+            "fair play",
+            "lasting impact",
+            "motivation",
+            "physical"
+          ],
+          "answer": "physical",
+          "reason": "fair play, lasting impact, and motivation are all abstract concepts — values, effects, and drives. 'physical' is a concrete descriptive adjective — it describes the bodily nature of sport.",
+          "reason_vi": "fair play, lasting impact và motivation đều là khái niệm trừu tượng — giá trị, tác động và động lực. 'physical' là tính từ mô tả cụ thể — mô tả tính chất thể chất của thể thao."
+        }
+      ]
     }
   },
   "answer_key": {

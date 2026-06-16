@@ -557,6 +557,67 @@
           "explanation": "The plural noun 'implicatures' is required as the object of 'studying' to refer to the general phenomenon being researched — the singular is too narrow in this context."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Kỹ năng phân tích",
+        "Thành phần văn bản",
+        "Đánh giá nguồn thông tin"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "deconstruct",
+          "answer": "Kỹ năng phân tích"
+        },
+        {
+          "id": 2,
+          "word": "undertone",
+          "answer": "Thành phần văn bản"
+        },
+        {
+          "id": 3,
+          "word": "source",
+          "answer": "Đánh giá nguồn thông tin"
+        },
+        {
+          "id": 4,
+          "word": "deduction",
+          "answer": "Kỹ năng phân tích"
+        },
+        {
+          "id": 5,
+          "word": "implication",
+          "answer": "Thành phần văn bản"
+        },
+        {
+          "id": 6,
+          "word": "verifiability",
+          "answer": "Đánh giá nguồn thông tin"
+        },
+        {
+          "id": 7,
+          "word": "verify",
+          "answer": "Kỹ năng phân tích"
+        },
+        {
+          "id": 8,
+          "word": "presupposition",
+          "answer": "Thành phần văn bản"
+        },
+        {
+          "id": 9,
+          "word": "consistency",
+          "answer": "Đánh giá nguồn thông tin"
+        },
+        {
+          "id": 10,
+          "word": "slant",
+          "answer": "Thành phần văn bản"
+        }
+      ]
     }
   },
   "answer_key": {

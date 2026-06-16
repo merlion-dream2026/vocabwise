@@ -559,6 +559,132 @@
           "explanation": "A verb is required in the relative clause 'who _____ quickly' — 'adapt' in the present simple, not the noun 'adaption'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "immersion",
+            "adaptation",
+            "exposure",
+            "disorientation"
+          ],
+          "answer": "disorientation",
+          "reason": "immersion, adaptation, and exposure are all positive or neutral processes — things that happen when engaging with a new culture. 'disorientation' is a negative experience — the feeling of confusion that comes when everything is unfamiliar.",
+          "reason_vi": "immersion, adaptation và exposure đều là quá trình tích cực hoặc trung tính. 'disorientation' là trải nghiệm tiêu cực — cảm giác bối rối khi mọi thứ đều xa lạ."
+        },
+        {
+          "id": 2,
+          "words": [
+            "perception",
+            "perspective",
+            "preconception",
+            "appreciation"
+          ],
+          "answer": "preconception",
+          "reason": "perception, perspective, and appreciation all describe open or active ways of understanding. 'preconception' is a closed, fixed idea formed before experience — an assumption that may prevent genuine understanding.",
+          "reason_vi": "perception, perspective và appreciation đều mô tả cách hiểu cởi mở hoặc chủ động. 'preconception' là ý tưởng cố định được hình thành trước kinh nghiệm — giả định có thể ngăn cản hiểu biết thực sự."
+        },
+        {
+          "id": 3,
+          "words": [
+            "immersion",
+            "exposure",
+            "adaptation",
+            "preconception"
+          ],
+          "answer": "preconception",
+          "reason": "immersion, exposure, and adaptation all describe what happens when you engage with a new culture over time. 'preconception' is what you bring before the experience — it is a mental barrier rather than a result of engagement.",
+          "reason_vi": "immersion, exposure và adaptation đều mô tả điều xảy ra khi bạn tiếp xúc với văn hóa mới theo thời gian. 'preconception' là thứ bạn mang đến trước trải nghiệm — rào cản tinh thần chứ không phải kết quả của tiếp xúc."
+        },
+        {
+          "id": 4,
+          "words": [
+            "curiosity",
+            "appreciation",
+            "authenticity",
+            "disorientation"
+          ],
+          "answer": "disorientation",
+          "reason": "curiosity, appreciation, and authenticity are all positive qualities in cross-cultural experience. 'disorientation' is a negative or uncomfortable state — the confusion of being in an unfamiliar environment.",
+          "reason_vi": "curiosity, appreciation và authenticity đều là phẩm chất tích cực trong trải nghiệm giao thoa văn hóa. 'disorientation' là trạng thái tiêu cực hoặc khó chịu — sự bối rối khi ở trong môi trường xa lạ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "perception",
+            "perspective",
+            "preconception",
+            "adaptation"
+          ],
+          "answer": "adaptation",
+          "reason": "perception, perspective, and preconception are all cognitive states — how the mind processes and frames reality. 'adaptation' is a process — the active adjustment of behaviour to a new environment, not a mental frame.",
+          "reason_vi": "perception, perspective và preconception đều là trạng thái nhận thức — cách tâm trí xử lý và đóng khung thực tại. 'adaptation' là quá trình — điều chỉnh hành vi chủ động cho môi trường mới, không phải khung tinh thần."
+        },
+        {
+          "id": 6,
+          "words": [
+            "immersion",
+            "exposure",
+            "curiosity",
+            "disorientation"
+          ],
+          "answer": "disorientation",
+          "reason": "immersion, exposure, and curiosity all facilitate positive cultural engagement. 'disorientation' describes a setback — the confusion and unsettlement of unfamiliarity.",
+          "reason_vi": "immersion, exposure và curiosity đều thúc đẩy tiếp xúc văn hóa tích cực. 'disorientation' mô tả trở ngại — sự bối rối và bất an của sự xa lạ."
+        },
+        {
+          "id": 7,
+          "words": [
+            "authenticity",
+            "appreciation",
+            "curiosity",
+            "preconception"
+          ],
+          "answer": "preconception",
+          "reason": "authenticity, appreciation, and curiosity are all positive attributes that enrich travel or cultural experience. 'preconception' is a limiting assumption — a prejudgement that reduces the depth of experience.",
+          "reason_vi": "authenticity, appreciation và curiosity đều là phẩm chất tích cực làm phong phú trải nghiệm du lịch hoặc văn hóa. 'preconception' là giả định hạn chế — phán xét trước giảm thiểu chiều sâu của trải nghiệm."
+        },
+        {
+          "id": 8,
+          "words": [
+            "immersion",
+            "exposure",
+            "adaptation",
+            "authenticity"
+          ],
+          "answer": "authenticity",
+          "reason": "immersion, exposure, and adaptation are all dynamic processes — things that happen to a traveller over time. 'authenticity' is a quality — a characteristic of a culture or experience being genuine, not a process.",
+          "reason_vi": "immersion, exposure và adaptation đều là quá trình năng động — thứ xảy ra với người du lịch theo thời gian. 'authenticity' là phẩm chất — đặc điểm của văn hóa hoặc trải nghiệm là chân thực, không phải quá trình."
+        },
+        {
+          "id": 9,
+          "words": [
+            "perception",
+            "perspective",
+            "appreciation",
+            "preconception"
+          ],
+          "answer": "preconception",
+          "reason": "perception, perspective, and appreciation all describe how people actively engage with what they encounter. 'preconception' is passive and prior — a fixed idea held before direct engagement takes place.",
+          "reason_vi": "perception, perspective và appreciation đều mô tả cách mọi người chủ động tiếp xúc với những gì họ gặp. 'preconception' là thụ động và có trước — ý tưởng cố định được giữ trước khi tiếp xúc trực tiếp xảy ra."
+        },
+        {
+          "id": 10,
+          "words": [
+            "curiosity",
+            "appreciation",
+            "adaptation",
+            "disorientation"
+          ],
+          "answer": "disorientation",
+          "reason": "curiosity, appreciation, and adaptation are all positive experiences or qualities linked to travel. 'disorientation' is a negative experience — it describes the difficulty, not the enrichment, of encountering the unfamiliar.",
+          "reason_vi": "curiosity, appreciation và adaptation đều là trải nghiệm hoặc phẩm chất tích cực gắn với du lịch. 'disorientation' là trải nghiệm tiêu cực — mô tả sự khó khăn, không phải sự phong phú, khi gặp điều xa lạ."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -560,6 +560,67 @@
           "explanation": "An adjective is needed to modify the noun 'practice' — 'therapeutic', not the noun 'therapy'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Tình trạng tâm lý",
+        "Biện pháp hỗ trợ",
+        "Mục tiêu & kết quả"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "anxiety",
+          "answer": "Tình trạng tâm lý"
+        },
+        {
+          "id": 2,
+          "word": "therapy",
+          "answer": "Biện pháp hỗ trợ"
+        },
+        {
+          "id": 3,
+          "word": "wellbeing",
+          "answer": "Mục tiêu & kết quả"
+        },
+        {
+          "id": 4,
+          "word": "depression",
+          "answer": "Tình trạng tâm lý"
+        },
+        {
+          "id": 5,
+          "word": "counselling",
+          "answer": "Biện pháp hỗ trợ"
+        },
+        {
+          "id": 6,
+          "word": "resilience",
+          "answer": "Mục tiêu & kết quả"
+        },
+        {
+          "id": 7,
+          "word": "disorder",
+          "answer": "Tình trạng tâm lý"
+        },
+        {
+          "id": 8,
+          "word": "prevention",
+          "answer": "Biện pháp hỗ trợ"
+        },
+        {
+          "id": 9,
+          "word": "stigma",
+          "answer": "Tình trạng tâm lý"
+        },
+        {
+          "id": 10,
+          "word": "awareness",
+          "answer": "Mục tiêu & kết quả"
+        }
+      ]
     }
   },
   "answer_key": {

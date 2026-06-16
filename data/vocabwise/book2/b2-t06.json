@@ -594,6 +594,82 @@
           "explanation": "Plural needed: many different beliefs."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "This place is considered sacred.",
+          "b": "This place is considered spiritual.",
+          "answer": "S",
+          "explanation": "Sacred and spiritual both describe something connected to religion or deep belief. In this context, the two sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "They perform a ritual every year.",
+          "b": "They follow a custom every year.",
+          "answer": "S",
+          "explanation": "A ritual and a custom are both traditional practices that are repeated regularly. In everyday use, these sentences describe the same kind of behaviour."
+        },
+        {
+          "id": 3,
+          "a": "She has a strong belief in her religion.",
+          "b": "She has a strong faith in her religion.",
+          "answer": "S",
+          "explanation": "Belief and faith both describe a deep personal conviction in something. In a religious context, these two sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "The country has a rich heritage.",
+          "b": "The country has a rich identity.",
+          "answer": "D",
+          "explanation": "Heritage refers to what has been inherited from the past — traditions, history, buildings. Identity refers to who a group is in the present. These are related but different concepts."
+        },
+        {
+          "id": 5,
+          "a": "They worship at the temple every week.",
+          "b": "They practise their religion at the temple every week.",
+          "answer": "S",
+          "explanation": "Worship and practise (a religion) both describe the act of observing religious duties. These sentences express the same activity."
+        },
+        {
+          "id": 6,
+          "a": "The society promotes tolerance.",
+          "b": "The society promotes diversity.",
+          "answer": "D",
+          "explanation": "Tolerance means accepting people who are different. Diversity means having many different types of people. You can have diversity without tolerance, and vice versa — these are different concepts."
+        },
+        {
+          "id": 7,
+          "a": "He is from a minority group.",
+          "b": "He is from a diverse group.",
+          "answer": "D",
+          "explanation": "Minority describes a group that is small in number relative to the majority. Diverse describes a group that contains many different types of people. These describe different characteristics."
+        },
+        {
+          "id": 8,
+          "a": "The government is secular.",
+          "b": "The government is tolerant.",
+          "answer": "D",
+          "explanation": "Secular means not connected to religion. Tolerant means accepting of differences. A government can be one without being the other — these describe different qualities."
+        },
+        {
+          "id": 9,
+          "a": "The religion spread quickly across the region.",
+          "b": "The religion grew quickly across the region.",
+          "answer": "S",
+          "explanation": "Spread and grow both describe an increase in reach or number. In this context, both sentences say the religion reached more people over time."
+        },
+        {
+          "id": 10,
+          "a": "Their customs have been preserved for centuries.",
+          "b": "Their heritage has been preserved for centuries.",
+          "answer": "S",
+          "explanation": "Customs and heritage both refer to traditions passed down over generations. In this context, the two sentences carry the same meaning about long-term preservation."
+        }
+      ]
     }
   },
   "answer_key": {

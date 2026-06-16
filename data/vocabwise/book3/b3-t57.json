@@ -557,6 +557,82 @@
           "explanation": "A noun is required as the subject of the clause — 'manipulation', not the adjective 'manipulative'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "A multilateral agreement requires cooperation between many states.",
+          "b": "A bilateral agreement requires cooperation between many states.",
+          "answer": "D",
+          "explanation": "Multilateral means involving many parties. Bilateral means involving exactly two. These sentences make different claims about the number of parties."
+        },
+        {
+          "id": 2,
+          "a": "Economic sanctions restrict trade with a target country.",
+          "b": "Diplomatic sanctions expel ambassadors from a target country.",
+          "answer": "D",
+          "explanation": "Economic sanctions target trade and financial activity. Diplomatic sanctions affect diplomatic relations. These are different tools of international pressure."
+        },
+        {
+          "id": 3,
+          "a": "The coalition was built to address a shared threat.",
+          "b": "The coalition was built to compete for influence.",
+          "answer": "D",
+          "explanation": "A coalition addressing a shared threat implies cooperation. Competing for influence implies rivalry. These sentences describe opposite motivations."
+        },
+        {
+          "id": 4,
+          "a": "The intervention was justified on humanitarian grounds.",
+          "b": "The intervention was condemned as interference in sovereignty.",
+          "answer": "D",
+          "explanation": "Justified on humanitarian grounds argues for the legitimacy of the intervention. Condemned as interference challenges that legitimacy. These represent opposite perspectives on the same event."
+        },
+        {
+          "id": 5,
+          "a": "Diplomacy seeks to resolve conflicts through negotiation.",
+          "b": "Negotiation is a key tool in diplomatic conflict resolution.",
+          "answer": "S",
+          "explanation": "Diplomacy and negotiation are closely related — diplomacy uses negotiation as its primary method. These sentences express the same relationship in different directions."
+        },
+        {
+          "id": 6,
+          "a": "The state's sovereignty was violated.",
+          "b": "The state's independence was compromised.",
+          "answer": "S",
+          "explanation": "Sovereignty and independence both refer to a state's right to govern itself without external interference. Violated and compromised both describe the same breach. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "The sanctions were lifted after the agreement was signed.",
+          "b": "The sanctions were tightened after the agreement was signed.",
+          "answer": "D",
+          "explanation": "Lifted means removed. Tightened means made stricter. These are opposite outcomes of the agreement."
+        },
+        {
+          "id": 8,
+          "a": "The humanitarian crisis required urgent international action.",
+          "b": "The humanitarian crisis was resolved without external involvement.",
+          "answer": "D",
+          "explanation": "Requiring urgent action means external help was needed. Resolved without external involvement means help was neither needed nor provided. These are opposite claims."
+        },
+        {
+          "id": 9,
+          "a": "Dissuasion aims to prevent aggressive behaviour.",
+          "b": "Deterrence aims to prevent aggressive behaviour.",
+          "answer": "S",
+          "explanation": "Dissuasion and deterrence both describe strategies of preventing unwanted action by making the cost appear too high. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The geopolitical situation was volatile.",
+          "b": "The international political situation was unstable.",
+          "answer": "S",
+          "explanation": "Geopolitical and international political situation describe the same thing. Volatile and unstable both mean prone to sudden change. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

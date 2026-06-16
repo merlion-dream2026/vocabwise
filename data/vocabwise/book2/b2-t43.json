@@ -616,6 +616,82 @@
           "explanation": "'For everyone' is the target vocabulary phrase emphasising that rights and access should be available without exception to all people. 'To all' is natural English but not the target term. 'Universally' is an adverb and would require restructuring the sentence."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Everyone has the right to free speech.",
+          "b": "Everyone has the freedom to speak freely.",
+          "answer": "S",
+          "explanation": "Right to free speech and freedom to speak freely are different phrasings of the same concept — the legal and social right to express your opinions without censorship."
+        },
+        {
+          "id": 2,
+          "a": "Citizens have responsibilities as well as rights.",
+          "b": "Citizens have only rights, not responsibilities.",
+          "answer": "D",
+          "explanation": "The first sentence says both rights and responsibilities exist. The second says only rights. These are clearly opposite claims."
+        },
+        {
+          "id": 3,
+          "a": "She was a victim of discrimination.",
+          "b": "She was treated unfairly because of who she is.",
+          "answer": "S",
+          "explanation": "Discrimination means being treated unfairly based on characteristics such as gender, race, or religion — the same idea as being treated unfairly because of who you are."
+        },
+        {
+          "id": 4,
+          "a": "Equality means treating everyone the same.",
+          "b": "Equality means everyone has the same opportunities.",
+          "answer": "D",
+          "explanation": "These are two different concepts. Treating everyone the same ignores individual differences. Having the same opportunities focuses on fair access. Equality of outcome vs. equality of opportunity are debated ideas."
+        },
+        {
+          "id": 5,
+          "a": "The law protects people from discrimination.",
+          "b": "The law prevents all discrimination.",
+          "answer": "D",
+          "explanation": "Protecting from discrimination means providing legal recourse when it happens. Preventing all discrimination implies no discrimination can occur. A law can protect without completely preventing."
+        },
+        {
+          "id": 6,
+          "a": "He fought for civil rights.",
+          "b": "He fought for basic human rights.",
+          "answer": "S",
+          "explanation": "Civil rights and basic human rights are closely related — both refer to fundamental rights such as equality and freedom. In general use, these sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "The company has an equal opportunities policy.",
+          "b": "The company treats all employees the same.",
+          "answer": "D",
+          "explanation": "An equal opportunities policy ensures fair access and no discrimination in hiring. Treating all employees the same could ignore relevant differences. These describe different approaches."
+        },
+        {
+          "id": 8,
+          "a": "She campaigned for women's rights.",
+          "b": "She protested against discrimination.",
+          "answer": "S",
+          "explanation": "Campaigning for women's rights and protesting against discrimination (against women) describe the same kind of activist action. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Everyone deserves to be treated with dignity.",
+          "b": "Everyone deserves to be treated equally.",
+          "answer": "D",
+          "explanation": "Dignity refers to being treated with respect as a human being. Equality refers to receiving the same treatment as others. These are related but different concepts."
+        },
+        {
+          "id": 10,
+          "a": "Free speech has limits in most democracies.",
+          "b": "Free speech is absolute in most democracies.",
+          "answer": "D",
+          "explanation": "Having limits means free speech is restricted in some cases (e.g. hate speech). Being absolute means no restrictions exist. These are opposing statements."
+        }
+      ]
     }
   },
   "answer_key": {

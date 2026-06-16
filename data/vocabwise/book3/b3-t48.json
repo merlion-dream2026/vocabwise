@@ -556,6 +556,67 @@
           "explanation": "A noun is required after 'rapid' to serve as the subject — 'coinage', not the past participle 'coined'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Kỹ năng phân tích phê bình",
+        "Yếu tố lập luận",
+        "Thách thức & giới hạn"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "deconstruct",
+          "answer": "Kỹ năng phân tích phê bình"
+        },
+        {
+          "id": 2,
+          "word": "counterargument",
+          "answer": "Yếu tố lập luận"
+        },
+        {
+          "id": 3,
+          "word": "limitation",
+          "answer": "Thách thức & giới hạn"
+        },
+        {
+          "id": 4,
+          "word": "problematise",
+          "answer": "Kỹ năng phân tích phê bình"
+        },
+        {
+          "id": 5,
+          "word": "substantiate",
+          "answer": "Yếu tố lập luận"
+        },
+        {
+          "id": 6,
+          "word": "nuance",
+          "answer": "Thách thức & giới hạn"
+        },
+        {
+          "id": 7,
+          "word": "evaluate",
+          "answer": "Kỹ năng phân tích phê bình"
+        },
+        {
+          "id": 8,
+          "word": "qualify",
+          "answer": "Yếu tố lập luận"
+        },
+        {
+          "id": 9,
+          "word": "implication",
+          "answer": "Thách thức & giới hạn"
+        },
+        {
+          "id": 10,
+          "word": "critique",
+          "answer": "Kỹ năng phân tích phê bình"
+        }
+      ]
     }
   },
   "answer_key": {

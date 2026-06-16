@@ -641,6 +641,82 @@
           "explanation": "'Spread' is the most contextually precise target vocabulary word here — it captures the idea of remote work becoming widespread across industries, companies, and geographies. 'Rise' and 'growth' focus on increasing numbers or scale. 'Spread' implies that remote work has expanded to many new areas and groups, which is the specific meaning intended — matching the passage's description of technology changing the way people work broadly."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Technology is changing the way we work.",
+          "b": "Technology is replacing all human workers.",
+          "answer": "D",
+          "explanation": "Changing the way we work means technology is transforming how work is done. Replacing all workers makes a much stronger claim — that no human jobs will remain. These are very different statements."
+        },
+        {
+          "id": 2,
+          "a": "Automation may lead to job losses.",
+          "b": "Automation will definitely eliminate all jobs.",
+          "answer": "D",
+          "explanation": "\"May lead to\" expresses possibility. \"Will definitely eliminate all\" expresses certainty and totality. These are very different in scope and certainty."
+        },
+        {
+          "id": 3,
+          "a": "She learned to use the new software quickly.",
+          "b": "She adapted to the new technology easily.",
+          "answer": "S",
+          "explanation": "Learning to use software quickly and adapting to technology easily both describe someone who picks up new tools without much difficulty. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "Remote work requires good digital skills.",
+          "b": "Remote work requires a fast internet connection.",
+          "answer": "D",
+          "explanation": "Digital skills and internet connection are different requirements. Both may be needed for remote work, but these sentences each point to a different factor."
+        },
+        {
+          "id": 5,
+          "a": "Technology has made communication faster.",
+          "b": "Technology has improved the quality of communication.",
+          "answer": "D",
+          "explanation": "Faster describes speed. Improved quality describes clarity, depth, or effectiveness. These are different dimensions of communication."
+        },
+        {
+          "id": 6,
+          "a": "Many jobs now require digital literacy.",
+          "b": "Many jobs now require physical strength.",
+          "answer": "D",
+          "explanation": "Digital literacy and physical strength are completely different job requirements. These sentences describe very different types of work demands."
+        },
+        {
+          "id": 7,
+          "a": "He uses technology to stay organised.",
+          "b": "He uses technology to manage his time.",
+          "answer": "S",
+          "explanation": "Staying organised and managing time are closely related — both describe using tools to work efficiently. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The rise of AI is creating new ethical questions.",
+          "b": "The rise of AI is solving all ethical questions.",
+          "answer": "D",
+          "explanation": "Creating new ethical questions means AI raises difficult issues that need to be resolved. Solving all questions means it eliminates ethical concerns. These are opposite claims."
+        },
+        {
+          "id": 9,
+          "a": "Digital tools can help people work more flexibly.",
+          "b": "Digital tools force people to be always available.",
+          "answer": "D",
+          "explanation": "Working flexibly describes freedom and choice in working hours. Being always available describes the pressure to respond at any time. These are opposite experiences of digital work."
+        },
+        {
+          "id": 10,
+          "a": "Technology has both advantages and disadvantages.",
+          "b": "Technology has more disadvantages than advantages.",
+          "answer": "D",
+          "explanation": "Having both advantages and disadvantages is a balanced view. Having more disadvantages than advantages is a negative assessment. These are different conclusions about the same topic."
+        }
+      ]
     }
   },
   "answer_key": {

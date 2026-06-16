@@ -636,6 +636,132 @@
           "explanation": "'Spread' is the target vocabulary verb for information, culture, or ideas moving across regions or populations. 'Expand' means to grow in size or scope — more physical. 'Grow' and 'increase' focus on volume. 'Spread' captures the movement of knowledge outward to new audiences and locations, which is the specific meaning in a globalisation context — as used throughout the passage."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "globalisation",
+            "interconnected",
+            "cultural exchange",
+            "trade barrier"
+          ],
+          "answer": "trade barrier",
+          "reason": "globalisation, interconnected, and cultural exchange are all about increased connections between countries. 'trade barrier' is an obstacle — something that limits global exchange, working against these trends.",
+          "reason_vi": "globalisation, interconnected và cultural exchange đều nói về các kết nối ngày càng tăng giữa các quốc gia. 'trade barrier' là trở ngại — thứ hạn chế trao đổi toàn cầu, chống lại các xu hướng này."
+        },
+        {
+          "id": 2,
+          "words": [
+            "spread",
+            "share",
+            "exchange",
+            "inequality"
+          ],
+          "answer": "inequality",
+          "reason": "spread, share, and exchange are all verbs about moving ideas or things between people. 'inequality' is a noun describing an imbalance — it's a result or problem, not a verb about sharing.",
+          "reason_vi": "spread, share và exchange đều là động từ về việc chuyển ý tưởng hoặc thứ gì đó giữa mọi người. 'inequality' là danh từ mô tả sự mất cân bằng — là kết quả hoặc vấn đề, không phải động từ về chia sẻ."
+        },
+        {
+          "id": 3,
+          "words": [
+            "globalisation",
+            "interconnected",
+            "cultural exchange",
+            "inequality"
+          ],
+          "answer": "inequality",
+          "reason": "globalisation, interconnected, and cultural exchange describe the process of countries becoming more linked. 'inequality' is a negative consequence — when benefits are unevenly distributed.",
+          "reason_vi": "globalisation, interconnected và cultural exchange mô tả quá trình các quốc gia trở nên liên kết hơn. 'inequality' là hậu quả tiêu cực — khi lợi ích được phân phối không đều."
+        },
+        {
+          "id": 4,
+          "words": [
+            "trade",
+            "import",
+            "export",
+            "dependency"
+          ],
+          "answer": "dependency",
+          "reason": "trade, import, and export are all economic activities — moving goods between countries. 'dependency' is a reliance — the problematic situation of relying too heavily on another country.",
+          "reason_vi": "trade, import và export đều là hoạt động kinh tế — di chuyển hàng hóa giữa các quốc gia. 'dependency' là sự phụ thuộc — tình huống có vấn đề khi phụ thuộc quá nhiều vào một quốc gia khác."
+        },
+        {
+          "id": 5,
+          "words": [
+            "spread",
+            "share",
+            "exchange",
+            "trade barrier"
+          ],
+          "answer": "trade barrier",
+          "reason": "spread, share, and exchange are all about moving things between people and places. 'trade barrier' works against this — it limits the flow of goods and ideas.",
+          "reason_vi": "spread, share và exchange đều nói về việc chuyển thứ gì đó giữa mọi người và địa điểm. 'trade barrier' chống lại điều này — hạn chế luồng hàng hóa và ý tưởng."
+        },
+        {
+          "id": 6,
+          "words": [
+            "globalisation",
+            "cultural exchange",
+            "interconnected",
+            "export"
+          ],
+          "answer": "export",
+          "reason": "globalisation, cultural exchange, and interconnected are all broad concepts describing the links between countries. 'export' is a specific economic action — sending goods from one country to be sold in another.",
+          "reason_vi": "globalisation, cultural exchange và interconnected đều là các khái niệm rộng mô tả các liên kết giữa các quốc gia. 'export' là hành động kinh tế cụ thể — gửi hàng từ một quốc gia để bán ở quốc gia khác."
+        },
+        {
+          "id": 7,
+          "words": [
+            "trade",
+            "import",
+            "export",
+            "spread"
+          ],
+          "answer": "spread",
+          "reason": "trade, import, and export are all economic terms about moving goods. 'spread' is more general — it describes the movement of ideas, culture, or information, not specifically goods.",
+          "reason_vi": "trade, import và export đều là thuật ngữ kinh tế về di chuyển hàng hóa. 'spread' mang tính tổng quát hơn — mô tả sự lan rộng của ý tưởng, văn hóa hoặc thông tin, không đặc biệt là hàng hóa."
+        },
+        {
+          "id": 8,
+          "words": [
+            "inequality",
+            "dependency",
+            "trade barrier",
+            "cultural exchange"
+          ],
+          "answer": "cultural exchange",
+          "reason": "inequality, dependency, and trade barrier are all negative aspects or problems of globalisation. 'cultural exchange' is a positive outcome — the sharing and appreciation of different cultures.",
+          "reason_vi": "inequality, dependency và trade barrier đều là các khía cạnh tiêu cực hoặc vấn đề của toàn cầu hóa. 'cultural exchange' là kết quả tích cực — việc chia sẻ và trân trọng các nền văn hóa khác nhau."
+        },
+        {
+          "id": 9,
+          "words": [
+            "spread",
+            "share",
+            "exchange",
+            "dependency"
+          ],
+          "answer": "dependency",
+          "reason": "spread, share, and exchange are verbs describing the movement of things between people or places. 'dependency' is a noun — the state of relying on another country, not a verb about exchange.",
+          "reason_vi": "spread, share và exchange đều là động từ mô tả sự di chuyển của thứ gì đó giữa mọi người hoặc địa điểm. 'dependency' là danh từ — trạng thái phụ thuộc vào một quốc gia khác, không phải động từ về trao đổi."
+        },
+        {
+          "id": 10,
+          "words": [
+            "trade barrier",
+            "dependency",
+            "inequality",
+            "import"
+          ],
+          "answer": "import",
+          "reason": "trade barrier, dependency, and inequality are all problems or negative aspects of international trade and globalisation. 'import' is a neutral economic action — buying goods from another country, which is neither inherently good nor bad.",
+          "reason_vi": "trade barrier, dependency và inequality đều là vấn đề hoặc khía cạnh tiêu cực của thương mại quốc tế và toàn cầu hóa. 'import' là hành động kinh tế trung tính — mua hàng từ quốc gia khác, không tốt cũng không xấu về bản chất."
+        }
+      ]
     }
   },
   "answer_key": {

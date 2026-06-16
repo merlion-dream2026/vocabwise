@@ -598,6 +598,132 @@
           "explanation": "'Patience' is the noun form needed here."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "conflict",
+            "tension",
+            "expectation",
+            "freedom"
+          ],
+          "answer": "freedom",
+          "reason": "conflict, tension, and expectation can all create stress or pressure in family relationships. 'freedom' is a positive concept — the ability to make your own choices without restriction.",
+          "reason_vi": "conflict, tension và expectation đều có thể tạo ra căng thẳng trong mối quan hệ gia đình. 'freedom' là khái niệm tích cực — khả năng tự lựa chọn mà không bị giới hạn."
+        },
+        {
+          "id": 2,
+          "words": [
+            "generation",
+            "upbringing",
+            "parenting",
+            "bond"
+          ],
+          "answer": "bond",
+          "reason": "generation, upbringing, and parenting all describe stages or processes in how people develop within a family. 'bond' is an emotional connection — the feeling of closeness, not a process.",
+          "reason_vi": "generation, upbringing và parenting đều mô tả giai đoạn hoặc quá trình trong sự phát triển. 'bond' là kết nối cảm xúc — cảm giác thân thiết, không phải quá trình."
+        },
+        {
+          "id": 3,
+          "words": [
+            "values",
+            "respect",
+            "responsibility",
+            "conflict"
+          ],
+          "answer": "conflict",
+          "reason": "values, respect, and responsibility are all positive principles that help hold a family together. 'conflict' is a disagreement — something that can damage those family bonds.",
+          "reason_vi": "values, respect và responsibility đều là nguyên tắc tích cực giúp gắn kết gia đình. 'conflict' là mâu thuẫn — thứ có thể làm tổn hại các mối liên kết gia đình đó."
+        },
+        {
+          "id": 4,
+          "words": [
+            "generation",
+            "shift",
+            "upbringing",
+            "tension"
+          ],
+          "answer": "tension",
+          "reason": "generation, shift, and upbringing all describe phases or changes across time in a family or society. 'tension' is an emotional state — the stress that can arise between people.",
+          "reason_vi": "generation, shift và upbringing đều mô tả giai đoạn hoặc thay đổi theo thời gian. 'tension' là trạng thái cảm xúc — căng thẳng có thể phát sinh giữa mọi người."
+        },
+        {
+          "id": 5,
+          "words": [
+            "freedom",
+            "support",
+            "bond",
+            "responsibility"
+          ],
+          "answer": "responsibility",
+          "reason": "freedom, support, and bond are all things you feel or give freely in a healthy relationship. 'responsibility' implies obligation — it is something you must do, not something freely chosen.",
+          "reason_vi": "freedom, support và bond đều là thứ bạn cảm nhận hoặc cho đi tự nguyện trong mối quan hệ lành mạnh. 'responsibility' ngụ ý nghĩa vụ — thứ bạn phải làm, không phải tự nguyện."
+        },
+        {
+          "id": 6,
+          "words": [
+            "values",
+            "respect",
+            "attitude",
+            "parenting"
+          ],
+          "answer": "parenting",
+          "reason": "values, respect, and attitude are all internal qualities — things a person believes, feels, or thinks. 'parenting' is an active, ongoing process — the act of raising and caring for a child.",
+          "reason_vi": "values, respect và attitude đều là phẩm chất nội tâm — thứ một người tin, cảm hoặc nghĩ. 'parenting' là quá trình chủ động, liên tục — hành động nuôi dưỡng và chăm sóc con cái."
+        },
+        {
+          "id": 7,
+          "words": [
+            "conflict",
+            "tension",
+            "expectation",
+            "impact"
+          ],
+          "answer": "impact",
+          "reason": "conflict, tension, and expectation all describe pressures or problems that arise in relationships. 'impact' is a broader, more neutral term — the effect of something, which can be positive or negative.",
+          "reason_vi": "conflict, tension và expectation đều mô tả áp lực hoặc vấn đề trong các mối quan hệ. 'impact' là thuật ngữ rộng hơn, trung tính hơn — tác động của điều gì đó, có thể tích cực hoặc tiêu cực."
+        },
+        {
+          "id": 8,
+          "words": [
+            "values",
+            "respect",
+            "responsibility",
+            "upbringing"
+          ],
+          "answer": "upbringing",
+          "reason": "values, respect, and responsibility are abstract principles — things you hold or practise. 'upbringing' is the way you were raised — a past experience that shaped you, not a principle you follow.",
+          "reason_vi": "values, respect và responsibility đều là nguyên tắc trừu tượng — thứ bạn giữ hoặc thực hành. 'upbringing' là cách bạn được nuôi dưỡng — trải nghiệm trong quá khứ định hình bạn, không phải nguyên tắc bạn theo."
+        },
+        {
+          "id": 9,
+          "words": [
+            "generation",
+            "shift",
+            "impact",
+            "values"
+          ],
+          "answer": "values",
+          "reason": "generation, shift, and impact all describe how things change or affect society over time. 'values' are personal beliefs — what people hold as important, not a change or its effect.",
+          "reason_vi": "generation, shift và impact đều mô tả cách mọi thứ thay đổi hoặc ảnh hưởng đến xã hội. 'values' là niềm tin cá nhân — thứ mọi người coi là quan trọng, không phải sự thay đổi."
+        },
+        {
+          "id": 10,
+          "words": [
+            "freedom",
+            "support",
+            "attitude",
+            "bond"
+          ],
+          "answer": "attitude",
+          "reason": "freedom, support, and bond are all things that exist between people — they describe how you treat or feel about someone else. 'attitude' is internal — it describes how you think or feel in your own mind.",
+          "reason_vi": "freedom, support và bond đều là thứ tồn tại giữa mọi người — mô tả cách bạn đối xử hoặc cảm nhận về người khác. 'attitude' là nội tâm — mô tả cách bạn suy nghĩ hoặc cảm nhận trong tâm trí riêng."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -563,6 +563,82 @@
           "explanation": "A predicate adjective is required after 'was' — 'valid', not the present participle 'validating', which implies an ongoing action rather than a quality."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Her argument contained a logical fallacy.",
+          "b": "Her argument was poorly written.",
+          "answer": "D",
+          "explanation": "A logical fallacy is a specific error in reasoning — a flaw in the structure of an argument. Poor writing is a stylistic issue. You can have a flawed argument that is clearly written, or a sound argument that is poorly expressed."
+        },
+        {
+          "id": 2,
+          "a": "The conclusion was drawn by deductive reasoning.",
+          "b": "The conclusion was based on observation and probability.",
+          "answer": "D",
+          "explanation": "Deductive reasoning moves from general principles to specific conclusions with certainty. Observation and probability describe inductive reasoning, which builds generalisations from evidence. These are different logical methods."
+        },
+        {
+          "id": 3,
+          "a": "His claim was supported by corroborating evidence.",
+          "b": "His claim was confirmed by additional evidence.",
+          "answer": "S",
+          "explanation": "Corroborate and confirm with additional evidence mean the same thing — providing extra support that makes a claim more credible. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "The argument was cogent.",
+          "b": "The argument was persuasive and logically sound.",
+          "answer": "S",
+          "explanation": "Cogent means both logically valid and persuasive. A cogent argument is one that is well-structured and convincing. These sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "She challenged the premise of his argument.",
+          "b": "She questioned the conclusion of his argument.",
+          "answer": "D",
+          "explanation": "The premise is the starting assumption. The conclusion is what is derived from it. Challenging the premise questions the foundation; questioning the conclusion targets the end point. These are different parts of an argument."
+        },
+        {
+          "id": 6,
+          "a": "His conjecture was later proved correct.",
+          "b": "His hypothesis was later confirmed.",
+          "answer": "S",
+          "explanation": "Conjecture and hypothesis both refer to an educated guess or proposed explanation not yet verified. Proved correct and confirmed describe the same outcome. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "The refutation was successful.",
+          "b": "The counter-argument was convincing.",
+          "answer": "S",
+          "explanation": "Refutation and a convincing counter-argument both describe the same thing — successfully disproving or undermining an opposing position. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The reasoning was inductive.",
+          "b": "The reasoning was deductive.",
+          "answer": "D",
+          "explanation": "Inductive reasoning builds general conclusions from specific observations. Deductive reasoning applies general rules to specific cases. These are opposite logical directions."
+        },
+        {
+          "id": 9,
+          "a": "He identified an unstated assumption in the argument.",
+          "b": "He identified an implicit premise.",
+          "answer": "S",
+          "explanation": "An unstated assumption and an implicit premise are the same thing — a belief that is taken for granted in an argument without being explicitly stated. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The argument lacked a valid premise.",
+          "b": "The argument lacked evidence.",
+          "answer": "D",
+          "explanation": "A premise is a stated assumption or claim. Evidence supports claims with facts or data. An argument can have a valid premise that lacks empirical evidence, or be unsupported without a clear premise."
+        }
+      ]
     }
   },
   "answer_key": {

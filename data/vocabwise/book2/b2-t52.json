@@ -627,6 +627,67 @@
           "explanation": "'Security' is the target vocabulary word for measures and systems designed to prevent unauthorised access to data or accounts. 'Protection' is broader and applies to many contexts beyond digital systems. 'Privacy' refers to the right not to be observed, not to technical measures preventing access. 'Security' is the standard term for technological safeguards against cyber threats."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Loại dữ liệu cá nhân",
+        "Rủi ro & mối đe dọa",
+        "Biện pháp bảo vệ"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "personal details",
+          "answer": "Loại dữ liệu cá nhân"
+        },
+        {
+          "id": 2,
+          "word": "identity theft",
+          "answer": "Rủi ro & mối đe dọa"
+        },
+        {
+          "id": 3,
+          "word": "encryption",
+          "answer": "Biện pháp bảo vệ"
+        },
+        {
+          "id": 4,
+          "word": "browsing history",
+          "answer": "Loại dữ liệu cá nhân"
+        },
+        {
+          "id": 5,
+          "word": "data breach",
+          "answer": "Rủi ro & mối đe dọa"
+        },
+        {
+          "id": 6,
+          "word": "privacy settings",
+          "answer": "Biện pháp bảo vệ"
+        },
+        {
+          "id": 7,
+          "word": "location data",
+          "answer": "Loại dữ liệu cá nhân"
+        },
+        {
+          "id": 8,
+          "word": "hacking",
+          "answer": "Rủi ro & mối đe dọa"
+        },
+        {
+          "id": 9,
+          "word": "consent",
+          "answer": "Biện pháp bảo vệ"
+        },
+        {
+          "id": 10,
+          "word": "financial records",
+          "answer": "Loại dữ liệu cá nhân"
+        }
+      ]
     }
   },
   "answer_key": {

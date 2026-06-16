@@ -596,6 +596,67 @@
           "explanation": "'Academic' is the adjective form — used to describe a person's attitude or ability."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Loại hình giáo dục",
+        "Hành động trong giáo dục",
+        "Khái niệm & quy định"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "academic",
+          "answer": "Loại hình giáo dục"
+        },
+        {
+          "id": 2,
+          "word": "enrol",
+          "answer": "Hành động trong giáo dục"
+        },
+        {
+          "id": 3,
+          "word": "vocational",
+          "answer": "Loại hình giáo dục"
+        },
+        {
+          "id": 4,
+          "word": "curriculum",
+          "answer": "Khái niệm & quy định"
+        },
+        {
+          "id": 5,
+          "word": "boarding",
+          "answer": "Loại hình giáo dục"
+        },
+        {
+          "id": 6,
+          "word": "graduate",
+          "answer": "Hành động trong giáo dục"
+        },
+        {
+          "id": 7,
+          "word": "compulsory",
+          "answer": "Khái niệm & quy định"
+        },
+        {
+          "id": 8,
+          "word": "state school",
+          "answer": "Loại hình giáo dục"
+        },
+        {
+          "id": 9,
+          "word": "assessment",
+          "answer": "Hành động trong giáo dục"
+        },
+        {
+          "id": 10,
+          "word": "term",
+          "answer": "Khái niệm & quy định"
+        }
+      ]
     }
   },
   "answer_key": {

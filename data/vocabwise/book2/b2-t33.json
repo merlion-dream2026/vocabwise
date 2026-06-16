@@ -611,6 +611,82 @@
           "explanation": "'Plot' is the correct term here — it refers to the sequence of events and causal structure of the story, which can be difficult to follow when multiple narrators are used. A 'chapter' is a section of the book, and 'theme' is the deeper meaning, neither of which is affected by switching narrators in the same way."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The novel has an interesting storyline.",
+          "b": "The novel has an interesting plot.",
+          "answer": "S",
+          "explanation": "Storyline and plot both refer to the sequence of events in a story. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The book became a bestseller.",
+          "b": "The book became very popular.",
+          "answer": "S",
+          "explanation": "A bestseller is a book that sells in very large numbers — it is, by definition, very popular. These sentences express the same idea."
+        },
+        {
+          "id": 3,
+          "a": "The author published her third novel.",
+          "b": "The author wrote her third novel.",
+          "answer": "D",
+          "explanation": "Publish means to make a book available to the public through a publisher. Write means to create the content. An author writes first and then publishes — these are different stages."
+        },
+        {
+          "id": 4,
+          "a": "The story is told from a first-person perspective.",
+          "b": "The story is told from a first-person point of view.",
+          "answer": "S",
+          "explanation": "Perspective and point of view are used interchangeably in literature to describe whose eyes the story is seen through. These sentences mean the same thing."
+        },
+        {
+          "id": 5,
+          "a": "The book explores a dark theme.",
+          "b": "The book explores a dark genre.",
+          "answer": "D",
+          "explanation": "Theme refers to the central idea or message of a story. Genre refers to the category or type of story (e.g. thriller, fantasy). These are different literary concepts."
+        },
+        {
+          "id": 6,
+          "a": "The reviewer gave the book a positive review.",
+          "b": "The reviewer said the book was a bestseller.",
+          "answer": "D",
+          "explanation": "A positive review is the reviewer's opinion of the book's quality. A bestseller is a commercial fact — how many copies sold. These describe different things."
+        },
+        {
+          "id": 7,
+          "a": "The character changed a lot throughout the story.",
+          "b": "The character developed throughout the story.",
+          "answer": "S",
+          "explanation": "Changed and developed both describe a character who is different by the end of the story from how they began. In this literary context, these sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The story is set in a fictional city.",
+          "b": "The story is set in a made-up city.",
+          "answer": "S",
+          "explanation": "Fictional and made-up both mean invented — not a real place. These sentences describe the same type of setting."
+        },
+        {
+          "id": 9,
+          "a": "The author wrote from the reader's perspective.",
+          "b": "The author wrote from the character's perspective.",
+          "answer": "D",
+          "explanation": "Writing from the reader's perspective means anticipating what the audience understands. Writing from a character's perspective means telling the story through that character's eyes. These are different narrative choices."
+        },
+        {
+          "id": 10,
+          "a": "The book received excellent reviews.",
+          "b": "The book had a sad ending.",
+          "answer": "D",
+          "explanation": "Receiving excellent reviews describes critics' reactions to the book. Having a sad ending describes the content of the book. These are unrelated facts about the same book."
+        }
+      ]
     }
   },
   "answer_key": {

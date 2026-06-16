@@ -645,6 +645,132 @@
           "explanation": "'Reduce' is the target vocabulary verb for deliberately decreasing screen time or its negative effects. 'Cut' is informal and vague. 'Lower' and 'decrease' are synonyms but not the specific target vocabulary item. 'Reduce' is the precise academic and practical verb used throughout the topic for actions taken to manage screen time."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "scroll",
+            "browse",
+            "post",
+            "sleep deprivation"
+          ],
+          "answer": "sleep deprivation",
+          "reason": "scroll, browse, and post are all actions people do on screens or online. 'sleep deprivation' is a health consequence — the negative effect of too much screen time, not an online action.",
+          "reason_vi": "scroll, browse và post đều là hành động mọi người thực hiện trên màn hình hoặc trực tuyến. 'sleep deprivation' là hậu quả sức khỏe — tác động tiêu cực của quá nhiều thời gian trên màn hình, không phải hành động trực tuyến."
+        },
+        {
+          "id": 2,
+          "words": [
+            "reduce",
+            "limit",
+            "manage",
+            "social comparison"
+          ],
+          "answer": "social comparison",
+          "reason": "reduce, limit, and manage are all verbs — actions taken to control screen time. 'social comparison' is a psychological phenomenon — comparing yourself to others online, not an action for managing technology.",
+          "reason_vi": "reduce, limit và manage đều là động từ — hành động để kiểm soát thời gian dùng màn hình. 'social comparison' là hiện tượng tâm lý — so sánh bản thân với người khác trực tuyến, không phải hành động quản lý công nghệ."
+        },
+        {
+          "id": 3,
+          "words": [
+            "sleep deprivation",
+            "anxiety",
+            "distraction",
+            "digital wellbeing"
+          ],
+          "answer": "digital wellbeing",
+          "reason": "sleep deprivation, anxiety, and distraction are all negative effects of excessive screen time. 'digital wellbeing' is a positive goal — the healthy relationship with technology that people aim for.",
+          "reason_vi": "sleep deprivation, anxiety và distraction đều là tác động tiêu cực của việc dùng màn hình quá mức. 'digital wellbeing' là mục tiêu tích cực — mối quan hệ lành mạnh với công nghệ mà mọi người hướng đến."
+        },
+        {
+          "id": 4,
+          "words": [
+            "scroll",
+            "browse",
+            "post",
+            "anxiety"
+          ],
+          "answer": "anxiety",
+          "reason": "scroll, browse, and post are all online actions. 'anxiety' is an emotional state — a psychological effect that excessive online activity can cause, not an action itself.",
+          "reason_vi": "scroll, browse và post đều là hành động trực tuyến. 'anxiety' là trạng thái cảm xúc — tác động tâm lý mà hoạt động trực tuyến quá mức có thể gây ra, không phải hành động."
+        },
+        {
+          "id": 5,
+          "words": [
+            "reduce",
+            "limit",
+            "manage",
+            "digital wellbeing"
+          ],
+          "answer": "digital wellbeing",
+          "reason": "reduce, limit, and manage are verbs — active steps taken to control screen time. 'digital wellbeing' is a noun — the overall healthy state that results from those steps.",
+          "reason_vi": "reduce, limit và manage đều là động từ — các bước chủ động để kiểm soát thời gian dùng màn hình. 'digital wellbeing' là danh từ — trạng thái lành mạnh tổng thể là kết quả của những bước đó."
+        },
+        {
+          "id": 6,
+          "words": [
+            "sleep deprivation",
+            "anxiety",
+            "social comparison",
+            "reduce"
+          ],
+          "answer": "reduce",
+          "reason": "sleep deprivation, anxiety, and social comparison are all negative consequences of screen time. 'reduce' is a verb — an action taken to improve the situation.",
+          "reason_vi": "sleep deprivation, anxiety và social comparison đều là hậu quả tiêu cực của thời gian dùng màn hình. 'reduce' là động từ — hành động để cải thiện tình hình."
+        },
+        {
+          "id": 7,
+          "words": [
+            "scroll",
+            "browse",
+            "post",
+            "distraction"
+          ],
+          "answer": "distraction",
+          "reason": "scroll, browse, and post are all things you do online. 'distraction' is an effect — the result of these activities pulling your attention away from other things.",
+          "reason_vi": "scroll, browse và post đều là thứ bạn làm trực tuyến. 'distraction' là tác động — kết quả của những hoạt động này kéo sự chú ý khỏi các thứ khác."
+        },
+        {
+          "id": 8,
+          "words": [
+            "limit",
+            "manage",
+            "reduce",
+            "social comparison"
+          ],
+          "answer": "social comparison",
+          "reason": "limit, manage, and reduce are all verbs for controlling screen time. 'social comparison' is a noun — the psychological behaviour of measuring yourself against others online.",
+          "reason_vi": "limit, manage và reduce đều là động từ để kiểm soát thời gian dùng màn hình. 'social comparison' là danh từ — hành vi tâm lý so sánh bản thân với người khác trực tuyến."
+        },
+        {
+          "id": 9,
+          "words": [
+            "digital wellbeing",
+            "reduce",
+            "limit",
+            "manage"
+          ],
+          "answer": "digital wellbeing",
+          "reason": "reduce, limit, and manage are all verbs — actions. 'digital wellbeing' is a noun — the outcome or goal of those actions.",
+          "reason_vi": "reduce, limit và manage đều là động từ — hành động. 'digital wellbeing' là danh từ — kết quả hoặc mục tiêu của những hành động đó."
+        },
+        {
+          "id": 10,
+          "words": [
+            "sleep deprivation",
+            "anxiety",
+            "distraction",
+            "manage"
+          ],
+          "answer": "manage",
+          "reason": "sleep deprivation, anxiety, and distraction are all negative effects of screen time. 'manage' is a verb — a positive action to control or improve screen use.",
+          "reason_vi": "sleep deprivation, anxiety và distraction đều là tác động tiêu cực của thời gian dùng màn hình. 'manage' là động từ — hành động tích cực để kiểm soát hoặc cải thiện việc dùng màn hình."
+        }
+      ]
     }
   },
   "answer_key": {

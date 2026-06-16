@@ -566,6 +566,82 @@
           "explanation": "After the infinitive marker 'to', a base verb is required — 'conform', not the noun 'conformity'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Spaced repetition enhances long-term retention.",
+          "b": "Reviewing material at intervals improves memory.",
+          "answer": "S",
+          "explanation": "Spaced repetition and reviewing at intervals describe the same study technique. Enhanced long-term retention and improved memory describe the same outcome. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The memory trace was consolidated during sleep.",
+          "b": "The memory trace was retrieved during sleep.",
+          "answer": "D",
+          "explanation": "Consolidation is the process of stabilising a memory after encoding. Retrieval is accessing that memory later. These are different stages of memory processing."
+        },
+        {
+          "id": 3,
+          "a": "She used mnemonics to aid recall.",
+          "b": "She used spaced repetition to aid recall.",
+          "answer": "D",
+          "explanation": "Mnemonics are memory devices — techniques like acronyms or images to aid encoding. Spaced repetition is a scheduling technique. These are different strategies with different mechanisms."
+        },
+        {
+          "id": 4,
+          "a": "Interference disrupted his retrieval.",
+          "b": "Prior learning blocked his ability to recall new information.",
+          "answer": "S",
+          "explanation": "Interference is when older or newer learning disrupts retrieval. Blocking the ability to recall describes the same effect. These sentences describe the same phenomenon."
+        },
+        {
+          "id": 5,
+          "a": "She demonstrated strong metacognitive awareness.",
+          "b": "She knew how and when to adjust her learning strategies.",
+          "answer": "S",
+          "explanation": "Metacognition is the awareness of one's own thinking and learning. Knowing when to adjust strategies is exactly what metacognitive awareness enables. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Neuroplasticity enables the brain to rewire itself.",
+          "b": "Neuroplasticity limits the brain's ability to change.",
+          "answer": "D",
+          "explanation": "Neuroplasticity is the brain's capacity to form new connections and reorganise itself. The second sentence contradicts this definition. These are opposite claims."
+        },
+        {
+          "id": 7,
+          "a": "Elaborative encoding leads to deeper processing.",
+          "b": "Rote repetition leads to deeper processing.",
+          "answer": "D",
+          "explanation": "Elaborative encoding connects new information to existing knowledge, producing deep processing. Rote repetition is surface-level memorisation — it does not produce the same depth of understanding."
+        },
+        {
+          "id": 8,
+          "a": "Her existing schema shaped how she interpreted new information.",
+          "b": "Prior knowledge influenced how she made sense of new content.",
+          "answer": "S",
+          "explanation": "A schema is a mental framework built from prior knowledge. Both sentences describe how existing understanding shapes the interpretation of new input. These carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Memory consolidation occurs primarily during REM sleep.",
+          "b": "Memory retrieval occurs primarily during REM sleep.",
+          "answer": "D",
+          "explanation": "Consolidation — strengthening memory traces — is associated with sleep. Retrieval typically happens during waking hours. These are different memory processes with different timing."
+        },
+        {
+          "id": 10,
+          "a": "He struggled with retrieval despite strong encoding.",
+          "b": "He struggled with encoding despite strong retrieval.",
+          "answer": "D",
+          "explanation": "Strong encoding means the information was well-stored. Struggling with retrieval means difficulty accessing it. The second sentence reverses the relationship. These describe opposite problems."
+        }
+      ]
     }
   },
   "answer_key": {

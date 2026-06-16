@@ -553,6 +553,82 @@
           "explanation": "An adjective is needed to modify the noun 'works' — 'canonical', not the adverb 'canonically'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The prototype revealed unforeseen limitations.",
+          "b": "The prototype confirmed the design was successful.",
+          "answer": "D",
+          "explanation": "Revealing limitations means problems were discovered. Confirming success means it worked as intended. These are opposite outcomes of prototyping."
+        },
+        {
+          "id": 2,
+          "a": "Divergent thinking generates multiple possibilities.",
+          "b": "Convergent thinking selects the best solution.",
+          "answer": "D",
+          "explanation": "Divergent thinking expands options. Convergent thinking narrows down to a single answer. These describe opposite cognitive processes in creativity."
+        },
+        {
+          "id": 3,
+          "a": "She entered an incubation phase before the breakthrough.",
+          "b": "She worked continuously until the breakthrough.",
+          "answer": "D",
+          "explanation": "Incubation is the period when conscious effort stops and the subconscious continues processing. Working continuously is the opposite — no pause. These describe different approaches to creative discovery."
+        },
+        {
+          "id": 4,
+          "a": "The design went through multiple iterations.",
+          "b": "The design was completed in a single attempt.",
+          "answer": "D",
+          "explanation": "Multiple iterations mean repeated cycles of refinement. A single attempt means no revision. These describe opposite design processes."
+        },
+        {
+          "id": 5,
+          "a": "The aesthetic quality of the work was striking.",
+          "b": "The visual impact of the work was striking.",
+          "answer": "S",
+          "explanation": "Aesthetic quality and visual impact both describe the sensory and artistic impression made by a work. In context, these sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Constraints can stimulate creativity.",
+          "b": "Constraints always block creativity.",
+          "answer": "D",
+          "explanation": "Stimulate means to encourage or energise. Always block means to consistently prevent. Research suggests limits can drive creative solutions. These are opposite claims."
+        },
+        {
+          "id": 7,
+          "a": "The ideation phase generated diverse concepts.",
+          "b": "The synthesis phase generated diverse concepts.",
+          "answer": "D",
+          "explanation": "Ideation is the generation of raw ideas, usually divergent. Synthesis combines ideas to form something new. These are different stages of the creative process."
+        },
+        {
+          "id": 8,
+          "a": "Originality distinguishes great work from imitation.",
+          "b": "Originality distinguishes great work from mediocrity.",
+          "answer": "D",
+          "explanation": "Imitation is work that copies another. Mediocrity is work that is uninspired or average but not necessarily copied. These sentences identify different contrasts for originality."
+        },
+        {
+          "id": 9,
+          "a": "The design drew on existing prototypes.",
+          "b": "The design drew on existing inspiration.",
+          "answer": "D",
+          "explanation": "Drawing on prototypes means using previous physical models or tested designs. Drawing on inspiration means being influenced by ideas or feelings. These are different sources."
+        },
+        {
+          "id": 10,
+          "a": "The creative process involved synthesis of different ideas.",
+          "b": "The creative process involved the integration of contrasting perspectives.",
+          "answer": "S",
+          "explanation": "Synthesis and integration both describe combining different things into a unified whole. Different ideas and contrasting perspectives describe the same type of varied input. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

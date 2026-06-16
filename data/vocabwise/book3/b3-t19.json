@@ -559,6 +559,67 @@
           "explanation": "'Palliative care' is the correct collocation — 'palliative' is the adjective form that modifies 'care', not the present participle 'palliating'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thách thức của tuổi già",
+        "Hỗ trợ xã hội & chính sách",
+        "Ý nghĩa đóng góp"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "dementia",
+          "answer": "Thách thức của tuổi già"
+        },
+        {
+          "id": 2,
+          "word": "pension",
+          "answer": "Hỗ trợ xã hội & chính sách"
+        },
+        {
+          "id": 3,
+          "word": "contribution",
+          "answer": "Ý nghĩa đóng góp"
+        },
+        {
+          "id": 4,
+          "word": "isolation",
+          "answer": "Thách thức của tuổi già"
+        },
+        {
+          "id": 5,
+          "word": "welfare",
+          "answer": "Hỗ trợ xã hội & chính sách"
+        },
+        {
+          "id": 6,
+          "word": "intergenerational",
+          "answer": "Ý nghĩa đóng góp"
+        },
+        {
+          "id": 7,
+          "word": "deterioration",
+          "answer": "Thách thức của tuổi già"
+        },
+        {
+          "id": 8,
+          "word": "palliative",
+          "answer": "Hỗ trợ xã hội & chính sách"
+        },
+        {
+          "id": 9,
+          "word": "dependency",
+          "answer": "Thách thức của tuổi già"
+        },
+        {
+          "id": 10,
+          "word": "longevity",
+          "answer": "Ý nghĩa đóng góp"
+        }
+      ]
     }
   },
   "answer_key": {

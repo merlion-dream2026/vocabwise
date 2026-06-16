@@ -556,6 +556,67 @@
           "explanation": "A noun is required as the object of 'Building' — 'resilience', not the adjective 'resilient'. ('Resiliency' is a valid but less standard form; 'resilience' is preferred.)"
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Quyền & sự đồng ý",
+        "Vấn đề y đức",
+        "Lỗi & trách nhiệm"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "informed consent",
+          "answer": "Quyền & sự đồng ý"
+        },
+        {
+          "id": 2,
+          "word": "euthanasia",
+          "answer": "Vấn đề y đức"
+        },
+        {
+          "id": 3,
+          "word": "malpractice",
+          "answer": "Lỗi & trách nhiệm"
+        },
+        {
+          "id": 4,
+          "word": "patient autonomy",
+          "answer": "Quyền & sự đồng ý"
+        },
+        {
+          "id": 5,
+          "word": "cloning",
+          "answer": "Vấn đề y đức"
+        },
+        {
+          "id": 6,
+          "word": "negligence",
+          "answer": "Lỗi & trách nhiệm"
+        },
+        {
+          "id": 7,
+          "word": "sanctity",
+          "answer": "Quyền & sự đồng ý"
+        },
+        {
+          "id": 8,
+          "word": "experimentation",
+          "answer": "Vấn đề y đức"
+        },
+        {
+          "id": 9,
+          "word": "dilemma",
+          "answer": "Vấn đề y đức"
+        },
+        {
+          "id": 10,
+          "word": "allocation",
+          "answer": "Lỗi & trách nhiệm"
+        }
+      ]
     }
   },
   "answer_key": {

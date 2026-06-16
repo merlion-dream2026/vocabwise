@@ -612,6 +612,67 @@
           "explanation": "'Barrier' is the target vocabulary term for an obstacle that prevents access to something (in this case, education). 'Blockage' is used for physical obstructions (e.g., a pipe blockage) and sounds unnatural in an educational context. 'Obstacle' is correct but 'barrier' is the more standard education vocabulary."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Vấn đề trong giáo dục",
+        "Giải pháp & cải cách",
+        "Nguồn lực & kết quả"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "barrier",
+          "answer": "Vấn đề trong giáo dục"
+        },
+        {
+          "id": 2,
+          "word": "reform",
+          "answer": "Giải pháp & cải cách"
+        },
+        {
+          "id": 3,
+          "word": "unfair gap",
+          "answer": "Vấn đề trong giáo dục"
+        },
+        {
+          "id": 4,
+          "word": "scholarship",
+          "answer": "Nguồn lực & kết quả"
+        },
+        {
+          "id": 5,
+          "word": "policy",
+          "answer": "Giải pháp & cải cách"
+        },
+        {
+          "id": 6,
+          "word": "leave early",
+          "answer": "Vấn đề trong giáo dục"
+        },
+        {
+          "id": 7,
+          "word": "put money in",
+          "answer": "Giải pháp & cải cách"
+        },
+        {
+          "id": 8,
+          "word": "achievement",
+          "answer": "Nguồn lực & kết quả"
+        },
+        {
+          "id": 9,
+          "word": "access",
+          "answer": "Nguồn lực & kết quả"
+        },
+        {
+          "id": 10,
+          "word": "standard",
+          "answer": "Giải pháp & cải cách"
+        }
+      ]
     }
   },
   "answer_key": {

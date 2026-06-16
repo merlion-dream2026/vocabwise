@@ -558,6 +558,132 @@
           "explanation": "A noun is required as the object of the verb 'debate' — 'interpretation', not the verb 'interpret'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "coherence",
+            "cohesion",
+            "precision",
+            "substantiate"
+          ],
+          "answer": "substantiate",
+          "reason": "coherence, cohesion, and precision are all qualities of academic writing — how ideas connect, how sentences link, and how exact the language is. 'substantiate' is a verb — the act of providing evidence to support a claim.",
+          "reason_vi": "coherence, cohesion và precision đều là phẩm chất của viết học thuật. 'substantiate' là động từ — hành động cung cấp bằng chứng để ủng hộ một luận điểm."
+        },
+        {
+          "id": 2,
+          "words": [
+            "thesis",
+            "position",
+            "qualification",
+            "integration"
+          ],
+          "answer": "integration",
+          "reason": "thesis, position, and qualification all relate to the writer's stance and how it is presented. 'integration' refers to how sources are incorporated into the argument — a technical skill, not a stance.",
+          "reason_vi": "thesis, position và qualification đều liên quan đến quan điểm của tác giả và cách trình bày. 'integration' đề cập đến cách tích hợp các nguồn vào lập luận — kỹ năng kỹ thuật, không phải quan điểm."
+        },
+        {
+          "id": 3,
+          "words": [
+            "coherence",
+            "cohesion",
+            "formality",
+            "referencing"
+          ],
+          "answer": "referencing",
+          "reason": "coherence, cohesion, and formality are all characteristics of academic register and writing quality. 'referencing' is a procedural practice — citing sources — not a quality of how the writing reads.",
+          "reason_vi": "coherence, cohesion và formality đều là đặc điểm của văn phong học thuật và chất lượng viết. 'referencing' là thực hành thủ tục — trích dẫn nguồn — không phải chất lượng cách viết."
+        },
+        {
+          "id": 4,
+          "words": [
+            "thesis",
+            "position",
+            "integration",
+            "precision"
+          ],
+          "answer": "integration",
+          "reason": "thesis, position, and precision describe what a writer aims for and how clearly it is expressed. 'integration' is a structural technique — the method of blending quoted or paraphrased material into prose.",
+          "reason_vi": "thesis, position và precision mô tả những gì tác giả hướng đến và cách diễn đạt rõ ràng. 'integration' là kỹ thuật cấu trúc — phương pháp kết hợp tài liệu trích dẫn hoặc paraphrase vào bài văn."
+        },
+        {
+          "id": 5,
+          "words": [
+            "coherence",
+            "cohesion",
+            "qualification",
+            "substantiate"
+          ],
+          "answer": "substantiate",
+          "reason": "coherence, cohesion, and qualification are all qualities of academic writing style — how ideas flow and how claims are hedged. 'substantiate' is an action — actively proving a claim with evidence.",
+          "reason_vi": "coherence, cohesion và qualification đều là phẩm chất của phong cách viết học thuật. 'substantiate' là hành động — chủ động chứng minh một luận điểm bằng bằng chứng."
+        },
+        {
+          "id": 6,
+          "words": [
+            "thesis",
+            "position",
+            "precision",
+            "formality"
+          ],
+          "answer": "precision",
+          "reason": "thesis, position, and formality are all macro-level academic writing concerns — the writer's central argument, stance, and register. 'precision' is a micro-level concern — the accuracy and exactness of specific word choices.",
+          "reason_vi": "thesis, position và formality đều là mối quan tâm viết học thuật cấp vĩ mô. 'precision' là mối quan tâm cấp vi mô — độ chính xác của lựa chọn từ cụ thể."
+        },
+        {
+          "id": 7,
+          "words": [
+            "referencing",
+            "integration",
+            "substantiate",
+            "coherence"
+          ],
+          "answer": "coherence",
+          "reason": "referencing, integration, and substantiate are all active processes — actions the writer takes to incorporate and prove claims. 'coherence' is a passive quality — a property of the text as a whole.",
+          "reason_vi": "referencing, integration và substantiate đều là quá trình chủ động — hành động tác giả thực hiện để tích hợp và chứng minh luận điểm. 'coherence' là phẩm chất thụ động — thuộc tính của toàn bộ văn bản."
+        },
+        {
+          "id": 8,
+          "words": [
+            "qualification",
+            "precision",
+            "formality",
+            "integration"
+          ],
+          "answer": "integration",
+          "reason": "qualification, precision, and formality are all about how language is used. 'integration' is about how sources are structurally embedded in the argument — a textual architecture skill.",
+          "reason_vi": "qualification, precision và formality đều liên quan đến cách ngôn ngữ được sử dụng. 'integration' là về cách nguồn được nhúng vào cấu trúc lập luận — kỹ năng kiến trúc văn bản."
+        },
+        {
+          "id": 9,
+          "words": [
+            "coherence",
+            "cohesion",
+            "formality",
+            "thesis"
+          ],
+          "answer": "thesis",
+          "reason": "coherence, cohesion, and formality are ongoing qualities that run through the whole piece of writing. 'thesis' is a single element — the central claim stated, usually in the introduction.",
+          "reason_vi": "coherence, cohesion và formality là phẩm chất liên tục xuyên suốt toàn bộ bài viết. 'thesis' là yếu tố đơn lẻ — luận điểm trung tâm được phát biểu, thường trong phần giới thiệu."
+        },
+        {
+          "id": 10,
+          "words": [
+            "referencing",
+            "integration",
+            "substantiate",
+            "thesis"
+          ],
+          "answer": "thesis",
+          "reason": "referencing, integration, and substantiate are all techniques — things the writer does throughout the text. 'thesis' is a concept — the central argument of the piece, not a technique applied throughout.",
+          "reason_vi": "referencing, integration và substantiate đều là kỹ thuật — thứ tác giả làm xuyên suốt văn bản. 'thesis' là khái niệm — lập luận trung tâm của bài viết, không phải kỹ thuật được áp dụng xuyên suốt."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -615,6 +615,67 @@
           "explanation": "'Preserve' is the target vocabulary term specifically used for protecting cultural traditions, heritage, and knowledge from being lost over time. 'Keep' is too general, and 'save' implies rescuing from immediate danger rather than active, ongoing protection."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nguyên liệu & phương pháp",
+        "Truyền thống & ý nghĩa",
+        "Hành động & quá trình"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "ingredient",
+          "answer": "Nguyên liệu & phương pháp"
+        },
+        {
+          "id": 2,
+          "word": "heritage",
+          "answer": "Truyền thống & ý nghĩa"
+        },
+        {
+          "id": 3,
+          "word": "recipe",
+          "answer": "Nguyên liệu & phương pháp"
+        },
+        {
+          "id": 4,
+          "word": "cook",
+          "answer": "Hành động & quá trình"
+        },
+        {
+          "id": 5,
+          "word": "ritual",
+          "answer": "Truyền thống & ý nghĩa"
+        },
+        {
+          "id": 6,
+          "word": "method",
+          "answer": "Nguyên liệu & phương pháp"
+        },
+        {
+          "id": 7,
+          "word": "preserve",
+          "answer": "Hành động & quá trình"
+        },
+        {
+          "id": 8,
+          "word": "symbolic",
+          "answer": "Truyền thống & ý nghĩa"
+        },
+        {
+          "id": 9,
+          "word": "flavour",
+          "answer": "Nguyên liệu & phương pháp"
+        },
+        {
+          "id": 10,
+          "word": "influence",
+          "answer": "Hành động & quá trình"
+        }
+      ]
     }
   },
   "answer_key": {

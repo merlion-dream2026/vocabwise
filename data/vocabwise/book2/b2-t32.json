@@ -610,6 +610,67 @@
           "explanation": "'Released' is the correct verb for making music available to the public. 'Made' is too informal and vague for this context. 'Published' is used for written content such as books and articles, not for music."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Ngành công nghiệp âm nhạc",
+        "Hành động nghệ sĩ",
+        "Ảnh hưởng & tác động"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "label",
+          "answer": "Ngành công nghiệp âm nhạc"
+        },
+        {
+          "id": 2,
+          "word": "compose",
+          "answer": "Hành động nghệ sĩ"
+        },
+        {
+          "id": 3,
+          "word": "music stream",
+          "answer": "Ngành công nghiệp âm nhạc"
+        },
+        {
+          "id": 4,
+          "word": "influence",
+          "answer": "Ảnh hưởng & tác động"
+        },
+        {
+          "id": 5,
+          "word": "perform",
+          "answer": "Hành động nghệ sĩ"
+        },
+        {
+          "id": 6,
+          "word": "chart",
+          "answer": "Ngành công nghiệp âm nhạc"
+        },
+        {
+          "id": 7,
+          "word": "tribute",
+          "answer": "Ảnh hưởng & tác động"
+        },
+        {
+          "id": 8,
+          "word": "release",
+          "answer": "Hành động nghệ sĩ"
+        },
+        {
+          "id": 9,
+          "word": "devoted fan",
+          "answer": "Ảnh hưởng & tác động"
+        },
+        {
+          "id": 10,
+          "word": "award",
+          "answer": "Ngành công nghiệp âm nhạc"
+        }
+      ]
     }
   },
   "answer_key": {

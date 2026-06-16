@@ -558,6 +558,132 @@
           "explanation": "A noun is required after 'cultural' to name the concept being discussed — 'imperialism', not the adjective 'imperial'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "homogenisation",
+            "absorption",
+            "acculturation",
+            "diaspora"
+          ],
+          "answer": "diaspora",
+          "reason": "homogenisation, absorption, and acculturation are all processes — ways in which cultures change or merge. 'diaspora' is a noun describing a group of people — those who have dispersed from their homeland and live elsewhere.",
+          "reason_vi": "homogenisation, absorption và acculturation đều là quá trình — cách văn hóa thay đổi hoặc hòa nhập. 'diaspora' là danh từ mô tả một nhóm người — những người đã rời khỏi quê hương và sống ở nơi khác."
+        },
+        {
+          "id": 2,
+          "words": [
+            "cosmopolitan",
+            "hybrid",
+            "interconnectedness",
+            "imperialism"
+          ],
+          "answer": "imperialism",
+          "reason": "cosmopolitan, hybrid, and interconnectedness all describe positive or neutral aspects of globalisation — openness, mixing, and global links. 'imperialism' is a critical concept — the domination of one culture or power over another.",
+          "reason_vi": "cosmopolitan, hybrid và interconnectedness đều mô tả khía cạnh tích cực hoặc trung tính của toàn cầu hóa. 'imperialism' là khái niệm phê bình — sự thống trị của một nền văn hóa hoặc quyền lực đối với nền khác."
+        },
+        {
+          "id": 3,
+          "words": [
+            "homogenisation",
+            "absorption",
+            "acculturation",
+            "localisation"
+          ],
+          "answer": "localisation",
+          "reason": "homogenisation, absorption, and acculturation all describe processes by which cultural differences diminish. 'localisation' is the opposite — adapting global content to fit local cultural preferences.",
+          "reason_vi": "homogenisation, absorption và acculturation đều mô tả quá trình sự khác biệt văn hóa giảm đi. 'localisation' là ngược lại — điều chỉnh nội dung toàn cầu cho phù hợp với sở thích văn hóa địa phương."
+        },
+        {
+          "id": 4,
+          "words": [
+            "cosmopolitan",
+            "hybrid",
+            "diaspora",
+            "localisation"
+          ],
+          "answer": "diaspora",
+          "reason": "cosmopolitan, hybrid, and localisation are all descriptive concepts about cultural identity or adaptation. 'diaspora' is a demographic term — a specific community of people dispersed from their place of origin.",
+          "reason_vi": "cosmopolitan, hybrid và localisation đều là khái niệm mô tả về danh tính hoặc thích nghi văn hóa. 'diaspora' là thuật ngữ nhân khẩu học — cộng đồng cụ thể của người phân tán từ nơi xuất xứ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "homogenisation",
+            "imperialism",
+            "commodification",
+            "interconnectedness"
+          ],
+          "answer": "interconnectedness",
+          "reason": "homogenisation, imperialism, and commodification are all critiques of globalisation — concerns about cultural loss, power imbalance, or commercial exploitation. 'interconnectedness' is positive or neutral — the state of being globally linked.",
+          "reason_vi": "homogenisation, imperialism và commodification đều là phê bình về toàn cầu hóa. 'interconnectedness' là tích cực hoặc trung tính — trạng thái được kết nối toàn cầu."
+        },
+        {
+          "id": 6,
+          "words": [
+            "acculturation",
+            "absorption",
+            "homogenisation",
+            "cosmopolitan"
+          ],
+          "answer": "cosmopolitan",
+          "reason": "acculturation, absorption, and homogenisation are all processes of cultural change over time. 'cosmopolitan' is a personality or lifestyle descriptor — describing someone who is globally aware and at ease in many cultures.",
+          "reason_vi": "acculturation, absorption và homogenisation đều là quá trình thay đổi văn hóa theo thời gian. 'cosmopolitan' là mô tả tính cách hoặc lối sống — mô tả ai đó có nhận thức toàn cầu và thoải mái trong nhiều nền văn hóa."
+        },
+        {
+          "id": 7,
+          "words": [
+            "imperialism",
+            "commodification",
+            "absorption",
+            "diaspora"
+          ],
+          "answer": "diaspora",
+          "reason": "imperialism, commodification, and absorption are all processes describing power relations or cultural dynamics. 'diaspora' is a demographic category — a group of people, not a process.",
+          "reason_vi": "imperialism, commodification và absorption đều là quá trình mô tả quan hệ quyền lực hoặc động lực văn hóa. 'diaspora' là danh mục nhân khẩu học — nhóm người, không phải quá trình."
+        },
+        {
+          "id": 8,
+          "words": [
+            "cosmopolitan",
+            "hybrid",
+            "localisation",
+            "acculturation"
+          ],
+          "answer": "acculturation",
+          "reason": "cosmopolitan, hybrid, and localisation describe stable characteristics or strategies. 'acculturation' is a process of change — the adjustment of one cultural group to another's norms over time.",
+          "reason_vi": "cosmopolitan, hybrid và localisation mô tả đặc điểm ổn định hoặc chiến lược. 'acculturation' là quá trình thay đổi — sự điều chỉnh của một nhóm văn hóa theo chuẩn mực của nhóm khác theo thời gian."
+        },
+        {
+          "id": 9,
+          "words": [
+            "homogenisation",
+            "imperialism",
+            "commodification",
+            "hybrid"
+          ],
+          "answer": "hybrid",
+          "reason": "homogenisation, imperialism, and commodification all describe threats to cultural authenticity. 'hybrid' is positive — it describes the creative mixing of cultural elements that produces something new.",
+          "reason_vi": "homogenisation, imperialism và commodification đều mô tả mối đe dọa đối với tính xác thực văn hóa. 'hybrid' là tích cực — mô tả sự pha trộn sáng tạo các yếu tố văn hóa tạo ra thứ gì đó mới."
+        },
+        {
+          "id": 10,
+          "words": [
+            "acculturation",
+            "absorption",
+            "localisation",
+            "imperialism"
+          ],
+          "answer": "imperialism",
+          "reason": "acculturation, absorption, and localisation are all cultural processes — ways that cultures adapt or are adapted. 'imperialism' is a political and historical concept — the exercise of power and dominance by one culture or state over another.",
+          "reason_vi": "acculturation, absorption và localisation đều là quá trình văn hóa — cách văn hóa thích nghi hoặc được thích nghi. 'imperialism' là khái niệm chính trị và lịch sử — sự thực thi quyền lực và thống trị của một nền văn hóa hoặc nhà nước đối với nền khác."
+        }
+      ]
     }
   },
   "answer_key": {

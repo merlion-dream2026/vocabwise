@@ -610,6 +610,67 @@
           "explanation": "'Welfare' is the standard term covering an employee's overall physical and mental health and quality of life at work; 'benefits' refers to specific contractual perks, and 'health and happiness' is too informal and vague."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Quyền lợi người lao động",
+        "Vấn đề trong công việc",
+        "Hành động & quyết định"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "rights",
+          "answer": "Quyền lợi người lao động"
+        },
+        {
+          "id": 2,
+          "word": "dispute",
+          "answer": "Vấn đề trong công việc"
+        },
+        {
+          "id": 3,
+          "word": "benefit",
+          "answer": "Quyền lợi người lao động"
+        },
+        {
+          "id": 4,
+          "word": "negotiate",
+          "answer": "Hành động & quyết định"
+        },
+        {
+          "id": 5,
+          "word": "workload",
+          "answer": "Vấn đề trong công việc"
+        },
+        {
+          "id": 6,
+          "word": "contract",
+          "answer": "Quyền lợi người lao động"
+        },
+        {
+          "id": 7,
+          "word": "dismiss",
+          "answer": "Hành động & quyết định"
+        },
+        {
+          "id": 8,
+          "word": "complaint",
+          "answer": "Vấn đề trong công việc"
+        },
+        {
+          "id": 9,
+          "word": "welfare",
+          "answer": "Quyền lợi người lao động"
+        },
+        {
+          "id": 10,
+          "word": "resign",
+          "answer": "Hành động & quyết định"
+        }
+      ]
     }
   },
   "answer_key": {

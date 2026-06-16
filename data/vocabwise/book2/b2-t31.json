@@ -615,6 +615,132 @@
           "explanation": "'Inspired' is the natural verb for describing the effect of art, music, or nature on a person's emotions and imagination. 'Encouraged' suggests pushing someone to take action, and 'motivated' implies giving someone a reason to do something — both lack the emotional/creative dimension of 'inspired'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "gallery",
+            "exhibition",
+            "collection",
+            "inspire"
+          ],
+          "answer": "inspire",
+          "reason": "gallery, exhibition, and collection are all nouns — places or groups of art objects. 'inspire' is a verb — the effect that art has on a person's imagination.",
+          "reason_vi": "gallery, exhibition và collection đều là danh từ — nơi chốn hoặc nhóm đồ vật nghệ thuật. 'inspire' là động từ — tác động mà nghệ thuật có lên trí tưởng tượng của người ta."
+        },
+        {
+          "id": 2,
+          "words": [
+            "sculpture",
+            "medium",
+            "technique",
+            "modern art"
+          ],
+          "answer": "sculpture",
+          "reason": "medium, technique, and modern art are all concepts describing how or what type of art is made. 'sculpture' is a specific art form — a three-dimensional work of art, not a method or concept.",
+          "reason_vi": "medium, technique và modern art đều là khái niệm mô tả cách hoặc loại nghệ thuật được tạo ra. 'sculpture' là hình thức nghệ thuật cụ thể — tác phẩm ba chiều, không phải phương pháp hay khái niệm."
+        },
+        {
+          "id": 3,
+          "words": [
+            "display",
+            "show",
+            "exhibit",
+            "design"
+          ],
+          "answer": "design",
+          "reason": "display, show, and exhibit are all verbs meaning to present art or objects for others to see. 'design' is different — it refers to the planning or visual style of something, not the act of showing it.",
+          "reason_vi": "display, show và exhibit đều là động từ có nghĩa trình bày nghệ thuật hoặc đồ vật cho người khác xem. 'design' khác — đề cập đến việc lên kế hoạch hoặc phong cách hình ảnh, không phải hành động trình bày."
+        },
+        {
+          "id": 4,
+          "words": [
+            "gallery",
+            "exhibition",
+            "collection",
+            "creative"
+          ],
+          "answer": "creative",
+          "reason": "gallery, exhibition, and collection are all nouns in the art world. 'creative' is an adjective — it describes a quality of thinking or style, not a place or group of objects.",
+          "reason_vi": "gallery, exhibition và collection đều là danh từ trong thế giới nghệ thuật. 'creative' là tính từ — mô tả phẩm chất của tư duy hoặc phong cách, không phải nơi chốn hay nhóm đồ vật."
+        },
+        {
+          "id": 5,
+          "words": [
+            "sculpture",
+            "non-realistic",
+            "modern art",
+            "style"
+          ],
+          "answer": "sculpture",
+          "reason": "non-realistic, modern art, and style are all descriptive concepts — ways of categorising or describing how art looks or feels. 'sculpture' is a specific medium — a type of three-dimensional art, not a style label.",
+          "reason_vi": "non-realistic, modern art và style đều là khái niệm mô tả — cách phân loại hoặc mô tả cảm quan của nghệ thuật. 'sculpture' là phương tiện cụ thể — loại nghệ thuật ba chiều, không phải nhãn phong cách."
+        },
+        {
+          "id": 6,
+          "words": [
+            "inspire",
+            "display",
+            "show",
+            "collection"
+          ],
+          "answer": "collection",
+          "reason": "inspire, display, and show are all verbs — things you do with or through art. 'collection' is a noun — a group of artworks gathered together.",
+          "reason_vi": "inspire, display và show đều là động từ — thứ bạn làm với hoặc qua nghệ thuật. 'collection' là danh từ — nhóm tác phẩm nghệ thuật được tập hợp lại."
+        },
+        {
+          "id": 7,
+          "words": [
+            "technique",
+            "medium",
+            "style",
+            "gallery"
+          ],
+          "answer": "gallery",
+          "reason": "technique, medium, and style are all concepts used to describe how an artist works. 'gallery' is a physical place — a space where art is displayed.",
+          "reason_vi": "technique, medium và style đều là khái niệm mô tả cách nghệ sĩ làm việc. 'gallery' là nơi chốn vật lý — không gian trưng bày nghệ thuật."
+        },
+        {
+          "id": 8,
+          "words": [
+            "inspire",
+            "design",
+            "creative",
+            "non-realistic"
+          ],
+          "answer": "inspire",
+          "reason": "design, creative, and non-realistic are all adjectives or concepts describing the nature or style of art. 'inspire' is a verb — the action of stirring someone's imagination or emotions.",
+          "reason_vi": "design, creative và non-realistic đều là tính từ hoặc khái niệm mô tả bản chất hoặc phong cách nghệ thuật. 'inspire' là động từ — hành động khơi dậy trí tưởng tượng hoặc cảm xúc."
+        },
+        {
+          "id": 9,
+          "words": [
+            "exhibition",
+            "gallery",
+            "display",
+            "medium"
+          ],
+          "answer": "medium",
+          "reason": "exhibition, gallery, and display all refer to how or where art is presented to the public. 'medium' refers to the material or method used to create art — the making process, not the showing.",
+          "reason_vi": "exhibition, gallery và display đều đề cập đến cách hoặc nơi nghệ thuật được trình bày cho công chúng. 'medium' đề cập đến vật liệu hoặc phương pháp tạo ra nghệ thuật — quá trình tạo, không phải trình bày."
+        },
+        {
+          "id": 10,
+          "words": [
+            "inspire",
+            "display",
+            "show",
+            "exhibit"
+          ],
+          "answer": "inspire",
+          "reason": "display, show, and exhibit are all verbs for presenting art to an audience. 'inspire' is different — it describes what art does to a viewer emotionally, not a way of presenting it.",
+          "reason_vi": "display, show và exhibit đều là động từ để trình bày nghệ thuật cho khán giả. 'inspire' khác — mô tả điều nghệ thuật làm với người xem về mặt cảm xúc, không phải cách trình bày."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -561,6 +561,67 @@
           "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable agricultural practices'; 'sustaining' is a gerund/present participle that does not fit this attributive role."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Vấn đề sức khỏe",
+        "Thực phẩm & chất lượng",
+        "Kiểm soát & chính sách"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "obesity",
+          "answer": "Vấn đề sức khỏe"
+        },
+        {
+          "id": 2,
+          "word": "organic",
+          "answer": "Thực phẩm & chất lượng"
+        },
+        {
+          "id": 3,
+          "word": "regulation",
+          "answer": "Kiểm soát & chính sách"
+        },
+        {
+          "id": 4,
+          "word": "malnutrition",
+          "answer": "Vấn đề sức khỏe"
+        },
+        {
+          "id": 5,
+          "word": "processed",
+          "answer": "Thực phẩm & chất lượng"
+        },
+        {
+          "id": 6,
+          "word": "diet culture",
+          "answer": "Kiểm soát & chính sách"
+        },
+        {
+          "id": 7,
+          "word": "deficiency",
+          "answer": "Vấn đề sức khỏe"
+        },
+        {
+          "id": 8,
+          "word": "sustainable",
+          "answer": "Thực phẩm & chất lượng"
+        },
+        {
+          "id": 9,
+          "word": "disordered eating",
+          "answer": "Vấn đề sức khỏe"
+        },
+        {
+          "id": 10,
+          "word": "nutrition",
+          "answer": "Thực phẩm & chất lượng"
+        }
+      ]
     }
   },
   "answer_key": {

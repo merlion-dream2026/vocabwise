@@ -556,6 +556,132 @@
           "explanation": "A noun is required as the subject of 'has been criticised' — 'marginalisation', not the verb 'marginalise'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "deprivation",
+            "marginalisation",
+            "stratification",
+            "redistribution"
+          ],
+          "answer": "redistribution",
+          "reason": "deprivation, marginalisation, and stratification are all conditions of social inequality — the experience or structure of disadvantage. 'redistribution' is a policy response — the transfer of resources to address those inequalities.",
+          "reason_vi": "deprivation, marginalisation và stratification đều là tình trạng bất bình đẳng xã hội. 'redistribution' là phản ứng chính sách — chuyển giao nguồn lực để giải quyết những bất bình đẳng đó."
+        },
+        {
+          "id": 2,
+          "words": [
+            "systemic",
+            "structural",
+            "inequality",
+            "entitlement"
+          ],
+          "answer": "entitlement",
+          "reason": "systemic, structural, and inequality all describe the nature and scale of social disadvantage — how deeply embedded it is. 'entitlement' describes what a person is legitimately owed — a benefit or right, not a structural description.",
+          "reason_vi": "systemic, structural và inequality đều mô tả bản chất và quy mô của bất lợi xã hội. 'entitlement' mô tả những gì một người hợp lệ được nhận — lợi ích hoặc quyền, không phải mô tả cấu trúc."
+        },
+        {
+          "id": 3,
+          "words": [
+            "deprivation",
+            "marginalisation",
+            "inequality",
+            "philanthropy"
+          ],
+          "answer": "philanthropy",
+          "reason": "deprivation, marginalisation, and inequality are all problems — conditions of social injustice. 'philanthropy' is a response — the voluntary giving of money or time to address social problems.",
+          "reason_vi": "deprivation, marginalisation và inequality đều là vấn đề — tình trạng bất công xã hội. 'philanthropy' là phản ứng — sự cho đi tự nguyện tiền hoặc thời gian để giải quyết các vấn đề xã hội."
+        },
+        {
+          "id": 4,
+          "words": [
+            "redistribution",
+            "philanthropy",
+            "cycle",
+            "disenfranchise"
+          ],
+          "answer": "disenfranchise",
+          "reason": "redistribution, philanthropy, and cycle can all be part of a discussion about how poverty is managed or perpetuated. 'disenfranchise' is a political concept — the removal of voting rights or political participation, not directly an economic or poverty concept.",
+          "reason_vi": "redistribution, philanthropy và cycle đều có thể là một phần của cuộc thảo luận về cách đói nghèo được quản lý hoặc duy trì. 'disenfranchise' là khái niệm chính trị — tước quyền bầu cử hoặc tham gia chính trị, không trực tiếp là khái niệm kinh tế hay đói nghèo."
+        },
+        {
+          "id": 5,
+          "words": [
+            "systemic",
+            "marginalisation",
+            "stratification",
+            "redistribution"
+          ],
+          "answer": "redistribution",
+          "reason": "systemic, marginalisation, and stratification describe the nature and experience of inequality. 'redistribution' is a corrective mechanism — a policy to shift resources towards those who lack them.",
+          "reason_vi": "systemic, marginalisation và stratification mô tả bản chất và trải nghiệm của bất bình đẳng. 'redistribution' là cơ chế khắc phục — chính sách chuyển dịch nguồn lực cho những người thiếu thốn."
+        },
+        {
+          "id": 6,
+          "words": [
+            "deprivation",
+            "inequality",
+            "marginalisation",
+            "entitlement"
+          ],
+          "answer": "entitlement",
+          "reason": "deprivation, inequality, and marginalisation are all negative social conditions. 'entitlement' is a legitimate claim — something a person is owed by law or social contract, which is a positive concept in welfare contexts.",
+          "reason_vi": "deprivation, inequality và marginalisation đều là tình trạng xã hội tiêu cực. 'entitlement' là yêu cầu hợp lệ — thứ một người được nhận theo luật pháp hoặc hợp đồng xã hội, là khái niệm tích cực trong bối cảnh phúc lợi."
+        },
+        {
+          "id": 7,
+          "words": [
+            "redistribution",
+            "philanthropy",
+            "entitlement",
+            "cycle"
+          ],
+          "answer": "cycle",
+          "reason": "redistribution, philanthropy, and entitlement are all responses or rights related to poverty. 'cycle' describes the self-perpetuating nature of poverty — not a response or right.",
+          "reason_vi": "redistribution, philanthropy và entitlement đều là phản ứng hoặc quyền liên quan đến đói nghèo. 'cycle' mô tả bản chất tự duy trì của đói nghèo — không phải phản ứng hay quyền."
+        },
+        {
+          "id": 8,
+          "words": [
+            "systemic",
+            "structural",
+            "marginalisation",
+            "philanthropy"
+          ],
+          "answer": "philanthropy",
+          "reason": "systemic, structural, and marginalisation all describe deep-rooted social conditions. 'philanthropy' is a voluntary act — charitable giving that seeks to address those conditions from outside.",
+          "reason_vi": "systemic, structural và marginalisation đều mô tả tình trạng xã hội ăn sâu. 'philanthropy' là hành động tự nguyện — từ thiện tìm cách giải quyết những điều kiện đó từ bên ngoài."
+        },
+        {
+          "id": 9,
+          "words": [
+            "deprivation",
+            "inequality",
+            "disenfranchise",
+            "cycle"
+          ],
+          "answer": "disenfranchise",
+          "reason": "deprivation, inequality, and cycle all describe poverty as a condition or pattern. 'disenfranchise' specifically means removing political rights — it is a political concept, not inherently about economic poverty.",
+          "reason_vi": "deprivation, inequality và cycle đều mô tả đói nghèo như một tình trạng hoặc mẫu. 'disenfranchise' đặc biệt có nghĩa là tước bỏ quyền chính trị — là khái niệm chính trị, không vốn dĩ liên quan đến đói nghèo kinh tế."
+        },
+        {
+          "id": 10,
+          "words": [
+            "systemic",
+            "structural",
+            "marginalisation",
+            "redistribution"
+          ],
+          "answer": "redistribution",
+          "reason": "systemic, structural, and marginalisation are all analytical concepts describing how inequality exists. 'redistribution' is a prescriptive policy — what should be done in response.",
+          "reason_vi": "systemic, structural và marginalisation đều là khái niệm phân tích mô tả cách bất bình đẳng tồn tại. 'redistribution' là chính sách quy định — những gì nên làm để đáp lại."
+        }
+      ]
     }
   },
   "answer_key": {

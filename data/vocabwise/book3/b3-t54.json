@@ -557,6 +557,82 @@
           "explanation": "A noun is required as the object of 'of' — 'accountability', not the adjective 'accountable'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Anthropocentrism places human interests above all else.",
+          "b": "Biocentrism places all living things at the centre of moral concern.",
+          "answer": "D",
+          "explanation": "Anthropocentrism prioritises humans. Biocentrism extends moral concern to all life. These are opposite ethical frameworks in environmental ethics."
+        },
+        {
+          "id": 2,
+          "a": "Nature has intrinsic value.",
+          "b": "Nature has value only insofar as it serves humans.",
+          "answer": "D",
+          "explanation": "Intrinsic value means nature is valuable in itself, regardless of use. Value only insofar as it serves humans is the anthropocentric view. These are opposite positions."
+        },
+        {
+          "id": 3,
+          "a": "We have an obligation to future generations.",
+          "b": "Intergenerational equity requires us to preserve resources.",
+          "answer": "S",
+          "explanation": "An obligation to future generations and intergenerational equity both describe the same ethical duty — ensuring the current generation does not exhaust what future ones will need. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "The precautionary principle advises acting before full certainty.",
+          "b": "The precautionary principle advises waiting for complete evidence.",
+          "answer": "D",
+          "explanation": "The precautionary principle says you should act to prevent harm even before full scientific certainty. Waiting for complete evidence is the opposite approach. These sentences make contradictory claims."
+        },
+        {
+          "id": 5,
+          "a": "Stewardship involves caring for the environment on behalf of others.",
+          "b": "Custodianship involves caring for the environment on behalf of others.",
+          "answer": "S",
+          "explanation": "Stewardship and custodianship are near-synonyms — both describe the responsible management of something held in trust for others, including future generations. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Speciesism prioritises humans over other animals.",
+          "b": "Speciesism denies that species membership is morally relevant.",
+          "answer": "D",
+          "explanation": "Speciesism is the belief that one species (typically humans) deserves preferential treatment. The second sentence contradicts this — denying the relevance of species membership. These are opposite claims."
+        },
+        {
+          "id": 7,
+          "a": "The global commons should be shared by all nations.",
+          "b": "The global commons should be privatised.",
+          "answer": "D",
+          "explanation": "Shared by all nations describes a collective, non-exclusive ownership model. Privatisation means transferring to private ownership. These are opposing positions on common resources."
+        },
+        {
+          "id": 8,
+          "a": "Environmental ethics has an anthropocentric bias.",
+          "b": "Environmental ethics has historically favoured human interests.",
+          "answer": "S",
+          "explanation": "An anthropocentric bias and historically favouring human interests both describe the same tendency — placing humans at the centre of moral frameworks. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Sustainability protects the environment for future generations.",
+          "b": "Sustainability prioritises economic growth in the short term.",
+          "answer": "D",
+          "explanation": "Sustainability is defined by intergenerational responsibility and balance. Prioritising short-term growth at the expense of the environment contradicts this. These are opposing ideas."
+        },
+        {
+          "id": 10,
+          "a": "She felt an obligation to protect the natural world.",
+          "b": "She felt that nature had intrinsic value worth protecting.",
+          "answer": "S",
+          "explanation": "Feeling an obligation and recognising intrinsic value both express the same ethical commitment — a moral duty to protect the environment independent of its utility to humans. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -556,6 +556,132 @@
           "explanation": "'Cultivate a relationship' is the correct collocation — 'adapt' does not collocate with 'relationship' in this context."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "addiction",
+            "harassment",
+            "anonymity",
+            "curated"
+          ],
+          "answer": "curated",
+          "reason": "addiction, harassment, and anonymity are all nouns — conditions or phenomena of social media. 'curated' is an adjective — describing content that has been selectively chosen to project a particular image.",
+          "reason_vi": "addiction, harassment và anonymity đều là danh từ — tình trạng hoặc hiện tượng của mạng xã hội. 'curated' là tính từ — mô tả nội dung được chọn lọc để chiếu một hình ảnh cụ thể."
+        },
+        {
+          "id": 2,
+          "words": [
+            "validation",
+            "comparison",
+            "distortion",
+            "adaptability"
+          ],
+          "answer": "adaptability",
+          "reason": "validation, comparison, and distortion are all psychological phenomena caused by social media. 'adaptability' is a personal quality — the ability to adjust to new conditions, which is a positive resilience skill.",
+          "reason_vi": "validation, comparison và distortion đều là hiện tượng tâm lý do mạng xã hội gây ra. 'adaptability' là phẩm chất cá nhân — khả năng điều chỉnh với điều kiện mới, là kỹ năng phục hồi tích cực."
+        },
+        {
+          "id": 3,
+          "words": [
+            "addiction",
+            "validation",
+            "comparison",
+            "anonymity"
+          ],
+          "answer": "anonymity",
+          "reason": "addiction, validation, and comparison are all psychological drives or effects that fuel excessive social media use. 'anonymity' is a structural feature — the ability to remain unidentified online, not a psychological drive.",
+          "reason_vi": "addiction, validation và comparison đều là động lực tâm lý hoặc tác động thúc đẩy sử dụng mạng xã hội quá mức. 'anonymity' là đặc điểm cấu trúc — khả năng ẩn danh trực tuyến, không phải động lực tâm lý."
+        },
+        {
+          "id": 4,
+          "words": [
+            "distortion",
+            "detachment",
+            "harassment",
+            "adaptability"
+          ],
+          "answer": "adaptability",
+          "reason": "distortion, detachment, and harassment are all negative consequences or experiences on social media. 'adaptability' is a positive coping quality — not a harm caused by social media.",
+          "reason_vi": "distortion, detachment và harassment đều là hậu quả hoặc trải nghiệm tiêu cực trên mạng xã hội. 'adaptability' là phẩm chất đối phó tích cực — không phải tác hại do mạng xã hội gây ra."
+        },
+        {
+          "id": 5,
+          "words": [
+            "validation",
+            "comparison",
+            "distortion",
+            "exposure"
+          ],
+          "answer": "exposure",
+          "reason": "validation, comparison, and distortion are all psychological processes driven by social media content. 'exposure' is more neutral — it simply means being seen or reached by information, which can be positive or negative.",
+          "reason_vi": "validation, comparison và distortion đều là quá trình tâm lý được thúc đẩy bởi nội dung mạng xã hội. 'exposure' trung tính hơn — đơn giản là được nhìn thấy hoặc tiếp cận thông tin, có thể tích cực hoặc tiêu cực."
+        },
+        {
+          "id": 6,
+          "words": [
+            "addiction",
+            "harassment",
+            "detachment",
+            "adaptability"
+          ],
+          "answer": "adaptability",
+          "reason": "addiction, harassment, and detachment are all negative experiences or effects of social media. 'adaptability' is a positive trait — the capacity to manage change and build resilience.",
+          "reason_vi": "addiction, harassment và detachment đều là trải nghiệm hoặc tác động tiêu cực của mạng xã hội. 'adaptability' là đặc điểm tích cực — khả năng quản lý thay đổi và xây dựng sức bền."
+        },
+        {
+          "id": 7,
+          "words": [
+            "curated",
+            "anonymous",
+            "distorted",
+            "validated"
+          ],
+          "answer": "validated",
+          "reason": "curated, anonymous, and distorted are all negative or deceptive characteristics of social media content or identity. 'validated' is a positive experience — feeling affirmed or accepted through online engagement.",
+          "reason_vi": "curated, anonymous và distorted đều là đặc điểm tiêu cực hoặc lừa dối của nội dung hoặc danh tính trên mạng xã hội. 'validated' là trải nghiệm tích cực — cảm giác được khẳng định hoặc chấp nhận qua tương tác trực tuyến."
+        },
+        {
+          "id": 8,
+          "words": [
+            "addiction",
+            "validation",
+            "harassment",
+            "anonymity"
+          ],
+          "answer": "anonymity",
+          "reason": "addiction, validation, and harassment all describe what users experience psychologically or behaviourally. 'anonymity' describes a platform feature — the absence of identifiable information — not an experience itself.",
+          "reason_vi": "addiction, validation và harassment đều mô tả những gì người dùng trải qua về mặt tâm lý hoặc hành vi. 'anonymity' mô tả đặc điểm nền tảng — sự vắng mặt của thông tin nhận dạng — không phải trải nghiệm."
+        },
+        {
+          "id": 9,
+          "words": [
+            "distortion",
+            "detachment",
+            "comparison",
+            "curated"
+          ],
+          "answer": "curated",
+          "reason": "distortion, detachment, and comparison are all psychological effects — what happens to the user's mind. 'curated' is an adjective describing content itself — deliberately selected to shape appearance.",
+          "reason_vi": "distortion, detachment và comparison đều là tác động tâm lý — điều xảy ra với tâm trí người dùng. 'curated' là tính từ mô tả chính nội dung — được chọn lọc cố ý để định hình diện mạo."
+        },
+        {
+          "id": 10,
+          "words": [
+            "addiction",
+            "comparison",
+            "adaptability",
+            "exposure"
+          ],
+          "answer": "adaptability",
+          "reason": "addiction, comparison, and exposure are all phenomena connected to social media behaviour and its effects. 'adaptability' is a general cognitive trait — useful in many contexts beyond social media.",
+          "reason_vi": "addiction, comparison và exposure đều là hiện tượng liên quan đến hành vi mạng xã hội và tác động của nó. 'adaptability' là đặc điểm nhận thức chung — hữu ích trong nhiều bối cảnh ngoài mạng xã hội."
+        }
+      ]
     }
   },
   "answer_key": {

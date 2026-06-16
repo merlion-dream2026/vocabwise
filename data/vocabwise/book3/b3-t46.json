@@ -557,6 +557,132 @@
           "explanation": "A verb in the base form is required after 'to' in this infinitive structure — 'reciprocate', not the adjective 'reciprocal'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "hegemony",
+            "ideology",
+            "discourse",
+            "lexical choice"
+          ],
+          "answer": "lexical choice",
+          "reason": "hegemony, ideology, and discourse are all broad theoretical concepts in critical language studies — how power and beliefs are structured and communicated. 'lexical choice' is a micro-level linguistic decision — the selection of specific words, not a structural concept.",
+          "reason_vi": "hegemony, ideology và discourse đều là khái niệm lý thuyết rộng trong nghiên cứu ngôn ngữ phê bình. 'lexical choice' là quyết định ngôn ngữ cấp vi mô — lựa chọn từ cụ thể, không phải khái niệm cấu trúc."
+        },
+        {
+          "id": 2,
+          "words": [
+            "subtext",
+            "undertone",
+            "euphemism",
+            "positioning"
+          ],
+          "answer": "positioning",
+          "reason": "subtext, undertone, and euphemism are all indirect or implicit elements of communication — meanings beneath the surface. 'positioning' is a rhetorical strategy — how the speaker places themselves in relation to the audience or the topic.",
+          "reason_vi": "subtext, undertone và euphemism đều là các yếu tố giao tiếp gián tiếp hoặc tiềm ẩn. 'positioning' là chiến lược tu từ — cách người nói định vị mình liên quan đến khán giả hoặc chủ đề."
+        },
+        {
+          "id": 3,
+          "words": [
+            "hegemony",
+            "ideology",
+            "discourse",
+            "implicit bias"
+          ],
+          "answer": "implicit bias",
+          "reason": "hegemony, ideology, and discourse are macro-level theoretical frameworks. 'implicit bias' is a psychological concept — an unconscious preference or prejudice held by an individual.",
+          "reason_vi": "hegemony, ideology và discourse là khuôn khổ lý thuyết cấp vĩ mô. 'implicit bias' là khái niệm tâm lý — sự ưu tiên hoặc thành kiến vô thức của một cá nhân."
+        },
+        {
+          "id": 4,
+          "words": [
+            "intertextuality",
+            "subtext",
+            "narrative control",
+            "lexical choice"
+          ],
+          "answer": "lexical choice",
+          "reason": "intertextuality, subtext, and narrative control are all macro-level textual strategies — how texts relate to each other and how meaning is managed. 'lexical choice' is a micro-level decision — choosing individual words.",
+          "reason_vi": "intertextuality, subtext và narrative control đều là chiến lược văn bản cấp vĩ mô. 'lexical choice' là quyết định cấp vi mô — chọn từ riêng lẻ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "hegemony",
+            "ideology",
+            "implicit bias",
+            "positioning"
+          ],
+          "answer": "positioning",
+          "reason": "hegemony, ideology, and implicit bias are all underlying conditions — structures or biases that shape communication without being explicit. 'positioning' is an active technique — deliberately locating oneself in a discourse.",
+          "reason_vi": "hegemony, ideology và implicit bias đều là điều kiện nền tảng — cấu trúc hoặc thành kiến định hình giao tiếp mà không rõ ràng. 'positioning' là kỹ thuật chủ động — cố ý định vị bản thân trong một diễn ngôn."
+        },
+        {
+          "id": 6,
+          "words": [
+            "subtext",
+            "undertone",
+            "euphemism",
+            "intertextuality"
+          ],
+          "answer": "intertextuality",
+          "reason": "subtext, undertone, and euphemism are all about concealed or softened meaning within a single text. 'intertextuality' is about the relationship between multiple texts — how one text references or builds on another.",
+          "reason_vi": "subtext, undertone và euphemism đều liên quan đến ý nghĩa ẩn hoặc được làm mềm trong một văn bản. 'intertextuality' là về mối quan hệ giữa nhiều văn bản."
+        },
+        {
+          "id": 7,
+          "words": [
+            "hegemony",
+            "discourse",
+            "narrative control",
+            "ideology"
+          ],
+          "answer": "narrative control",
+          "reason": "hegemony, discourse, and ideology are established theoretical concepts in critical theory. 'narrative control' is a more applied, strategic concept — the deliberate management of what stories are told and how.",
+          "reason_vi": "hegemony, discourse và ideology là khái niệm lý thuyết đã được thiết lập trong lý thuyết phê bình. 'narrative control' là khái niệm ứng dụng hơn — quản lý có chủ ý về những câu chuyện được kể và như thế nào."
+        },
+        {
+          "id": 8,
+          "words": [
+            "intertextuality",
+            "positioning",
+            "narrative control",
+            "implicit bias"
+          ],
+          "answer": "implicit bias",
+          "reason": "intertextuality, positioning, and narrative control are all communication strategies — deliberate or structural ways of shaping meaning. 'implicit bias' is a psychological state — an unconscious assumption, not a communication strategy.",
+          "reason_vi": "intertextuality, positioning và narrative control đều là chiến lược giao tiếp. 'implicit bias' là trạng thái tâm lý — giả định vô thức, không phải chiến lược giao tiếp."
+        },
+        {
+          "id": 9,
+          "words": [
+            "subtext",
+            "undertone",
+            "lexical choice",
+            "euphemism"
+          ],
+          "answer": "lexical choice",
+          "reason": "subtext, undertone, and euphemism all describe what is implied or hidden in communication. 'lexical choice' is about the actual words selected — a technical dimension, not about implied meaning.",
+          "reason_vi": "subtext, undertone và euphemism đều mô tả những gì được ngụ ý hoặc ẩn trong giao tiếp. 'lexical choice' là về các từ thực sự được chọn — một chiều kỹ thuật, không phải về ý nghĩa ngụ ý."
+        },
+        {
+          "id": 10,
+          "words": [
+            "hegemony",
+            "ideology",
+            "discourse",
+            "intertextuality"
+          ],
+          "answer": "intertextuality",
+          "reason": "hegemony, ideology, and discourse are all macro-level social and political concepts. 'intertextuality' is a literary and linguistic concept — the web of references between texts, not a social power concept.",
+          "reason_vi": "hegemony, ideology và discourse đều là khái niệm xã hội và chính trị cấp vĩ mô. 'intertextuality' là khái niệm văn học và ngôn ngữ — mạng tham chiếu giữa các văn bản, không phải khái niệm quyền lực xã hội."
+        }
+      ]
     }
   },
   "answer_key": {

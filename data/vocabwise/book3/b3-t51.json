@@ -559,6 +559,82 @@
           "explanation": "The past tense 'justified' is required to describe a historical philosophical position — 'thinkers justified'; the present simple 'justify' is grammatically possible but the sentence describes established past arguments, making 'justified' the most precise fit among the options."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Consequentialism judges actions by their outcomes.",
+          "b": "Deontology judges actions by their adherence to rules.",
+          "answer": "D",
+          "explanation": "These are two contrasting ethical frameworks. Consequentialism evaluates outcomes (the ends). Deontology evaluates the act itself (the means). These sentences describe opposing moral philosophies."
+        },
+        {
+          "id": 2,
+          "a": "He faced a moral dilemma.",
+          "b": "He was morally culpable.",
+          "answer": "D",
+          "explanation": "A moral dilemma is a situation where two competing ethical demands cannot both be met. Moral culpability is being responsible or blameworthy for a wrongdoing. These describe different situations."
+        },
+        {
+          "id": 3,
+          "a": "The action was morally justified.",
+          "b": "The action was proportionate to the threat.",
+          "answer": "D",
+          "explanation": "Justification refers to whether there are sufficient reasons to permit an act. Proportionality refers to whether the response matches the level of the threat. These are related but distinct ethical criteria."
+        },
+        {
+          "id": 4,
+          "a": "She acted under coercion.",
+          "b": "She acted out of free choice.",
+          "answer": "D",
+          "explanation": "Coercion means she was forced or pressured. Free choice means she acted voluntarily. These are opposites in terms of moral agency."
+        },
+        {
+          "id": 5,
+          "a": "He was found complicit in the wrongdoing.",
+          "b": "He was held responsible for the wrongdoing.",
+          "answer": "S",
+          "explanation": "Complicit means being involved in or contributing to a wrongdoing. Being held responsible describes the same kind of moral accountability. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Virtue ethics focuses on the character of the moral agent.",
+          "b": "Virtue ethics focuses on the consequences of actions.",
+          "answer": "D",
+          "explanation": "Virtue ethics is about the moral character and dispositions of the person acting. Focusing on consequences is the approach of consequentialism. These are different ethical frameworks."
+        },
+        {
+          "id": 7,
+          "a": "The punishment was proportionate to the offence.",
+          "b": "The punishment was just.",
+          "answer": "S",
+          "explanation": "Proportionality and justice are closely related — a proportionate punishment is generally considered a just one. These sentences carry the same meaning in most ethical contexts."
+        },
+        {
+          "id": 8,
+          "a": "His integrity was never questioned.",
+          "b": "His honesty was never in doubt.",
+          "answer": "S",
+          "explanation": "Integrity and honesty are closely related — both describe a commitment to ethical behaviour. Not being questioned or in doubt both affirm the same positive quality. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "She felt complicit in the harm caused.",
+          "b": "She felt morally responsible for the harm caused.",
+          "answer": "S",
+          "explanation": "Feeling complicit and feeling morally responsible both describe the same sense of ethical involvement in an outcome. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The action lacked moral justification.",
+          "b": "The action could not be ethically defended.",
+          "answer": "S",
+          "explanation": "Lacking moral justification and being indefensible on ethical grounds both describe the same thing — an act that has no valid moral reason to support it. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

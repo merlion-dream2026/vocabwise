@@ -566,6 +566,132 @@
           "explanation": "A noun is needed as the subject of the sentence — 'propulsion' (the system or force), not the verb 'propel'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "orbit",
+            "trajectory",
+            "propulsion",
+            "astrophysics"
+          ],
+          "answer": "astrophysics",
+          "reason": "orbit, trajectory, and propulsion are all physical phenomena or mechanics — how objects move through space. 'astrophysics' is an academic discipline — the branch of science that studies the physics of the universe, not a physical phenomenon.",
+          "reason_vi": "orbit, trajectory và propulsion đều là hiện tượng vật lý hoặc cơ học — cách vật thể di chuyển trong không gian. 'astrophysics' là ngành học thuật — ngành khoa học nghiên cứu vật lý của vũ trụ, không phải hiện tượng vật lý."
+        },
+        {
+          "id": 2,
+          "words": [
+            "exoplanet",
+            "interstellar",
+            "extraterrestrial",
+            "gravitational"
+          ],
+          "answer": "gravitational",
+          "reason": "exoplanet, interstellar, and extraterrestrial are all terms describing things beyond Earth. 'gravitational' is an adjective describing a force — the pull of mass — which applies everywhere, not specifically beyond Earth.",
+          "reason_vi": "exoplanet, interstellar và extraterrestrial đều là thuật ngữ mô tả thứ gì đó ngoài Trái Đất. 'gravitational' là tính từ mô tả lực — lực hút của khối lượng — áp dụng ở khắp nơi, không đặc biệt ngoài Trái Đất."
+        },
+        {
+          "id": 3,
+          "words": [
+            "orbit",
+            "trajectory",
+            "propulsion",
+            "magnitude"
+          ],
+          "answer": "magnitude",
+          "reason": "orbit, trajectory, and propulsion are all motion-related concepts — the paths and forces of movement in space. 'magnitude' is a measurement concept — it describes scale or size, and is used across many fields, not just motion.",
+          "reason_vi": "orbit, trajectory và propulsion đều là khái niệm liên quan đến chuyển động. 'magnitude' là khái niệm đo lường — mô tả quy mô hoặc kích thước, được dùng trong nhiều lĩnh vực, không chỉ chuyển động."
+        },
+        {
+          "id": 4,
+          "words": [
+            "exoplanet",
+            "atmosphere",
+            "interstellar",
+            "extraterrestrial"
+          ],
+          "answer": "atmosphere",
+          "reason": "exoplanet, interstellar, and extraterrestrial all refer to things or spaces beyond our solar system or beyond Earth. 'atmosphere' is a layer of gas surrounding a planet — not inherently about deep space.",
+          "reason_vi": "exoplanet, interstellar và extraterrestrial đều đề cập đến thứ gì đó hoặc không gian ngoài hệ mặt trời hoặc ngoài Trái Đất. 'atmosphere' là lớp khí bao quanh một hành tinh — không vốn dĩ liên quan đến không gian sâu."
+        },
+        {
+          "id": 5,
+          "words": [
+            "astrophysics",
+            "gravitational",
+            "magnitude",
+            "extraterrestrial"
+          ],
+          "answer": "extraterrestrial",
+          "reason": "astrophysics, gravitational, and magnitude are all scientific terms — disciplines, forces, and measurements. 'extraterrestrial' is a descriptive term — it simply means originating outside Earth, not a scientific concept or measurement.",
+          "reason_vi": "astrophysics, gravitational và magnitude đều là thuật ngữ khoa học — ngành học, lực và thước đo. 'extraterrestrial' là thuật ngữ mô tả — đơn giản có nghĩa là có nguồn gốc từ ngoài Trái Đất, không phải khái niệm hoặc thước đo khoa học."
+        },
+        {
+          "id": 6,
+          "words": [
+            "orbit",
+            "trajectory",
+            "propulsion",
+            "atmosphere"
+          ],
+          "answer": "atmosphere",
+          "reason": "orbit, trajectory, and propulsion are all related to how a spacecraft or celestial body moves through space. 'atmosphere' is the gas layer around a planet — relevant to flight, but not a movement concept.",
+          "reason_vi": "orbit, trajectory và propulsion đều liên quan đến cách tàu vũ trụ hoặc thiên thể di chuyển trong không gian. 'atmosphere' là lớp khí bao quanh hành tinh — liên quan đến chuyến bay, nhưng không phải khái niệm chuyển động."
+        },
+        {
+          "id": 7,
+          "words": [
+            "astrophysics",
+            "gravitational",
+            "magnitude",
+            "propulsion"
+          ],
+          "answer": "propulsion",
+          "reason": "astrophysics, gravitational, and magnitude are all concepts from theoretical or observational science. 'propulsion' is an engineering concept — the physical mechanism that drives a spacecraft forward.",
+          "reason_vi": "astrophysics, gravitational và magnitude đều là khái niệm từ khoa học lý thuyết hoặc quan sát. 'propulsion' là khái niệm kỹ thuật — cơ chế vật lý đẩy tàu vũ trụ về phía trước."
+        },
+        {
+          "id": 8,
+          "words": [
+            "exoplanet",
+            "interstellar",
+            "extraterrestrial",
+            "orbit"
+          ],
+          "answer": "orbit",
+          "reason": "exoplanet, interstellar, and extraterrestrial all refer to phenomena or things beyond Earth or outside our solar system. 'orbit' is a general term for any circular path around a body — it applies to Earth's moon, artificial satellites, and local objects, not only deep space.",
+          "reason_vi": "exoplanet, interstellar và extraterrestrial đều đề cập đến hiện tượng hoặc thứ gì đó ngoài Trái Đất hoặc ngoài hệ mặt trời. 'orbit' là thuật ngữ chung cho bất kỳ quỹ đạo vòng tròn nào — áp dụng cho mặt trăng, vệ tinh nhân tạo và vật thể gần, không chỉ không gian sâu."
+        },
+        {
+          "id": 9,
+          "words": [
+            "astrophysics",
+            "magnitude",
+            "atmosphere",
+            "gravitational"
+          ],
+          "answer": "atmosphere",
+          "reason": "astrophysics, magnitude, and gravitational are all scientific concepts with precise technical definitions. 'atmosphere' is a physical layer of gas — a tangible structure, not a scientific principle or measurement.",
+          "reason_vi": "astrophysics, magnitude và gravitational đều là khái niệm khoa học với định nghĩa kỹ thuật chính xác. 'atmosphere' là lớp khí vật lý — cấu trúc hữu hình, không phải nguyên lý hoặc thước đo khoa học."
+        },
+        {
+          "id": 10,
+          "words": [
+            "orbit",
+            "trajectory",
+            "interstellar",
+            "propulsion"
+          ],
+          "answer": "interstellar",
+          "reason": "orbit, trajectory, and propulsion are all concepts about how objects move. 'interstellar' is a spatial descriptor — describing the region between stars, not a concept about movement or force.",
+          "reason_vi": "orbit, trajectory và propulsion đều là khái niệm về cách vật thể di chuyển. 'interstellar' là mô tả không gian — mô tả vùng giữa các ngôi sao, không phải khái niệm về chuyển động hay lực."
+        }
+      ]
     }
   },
   "answer_key": {

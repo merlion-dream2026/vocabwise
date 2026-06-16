@@ -613,6 +613,67 @@
           "explanation": "'Used' is the target vocabulary term for previously owned items in a shopping context. 'Old' merely indicates age without implying prior ownership. 'Second-hand' is also correct in meaning, but 'used' is the specific vocabulary word for this topic."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thái độ người tiêu dùng",
+        "Hành vi mua sắm",
+        "Tính chất sản phẩm & lựa chọn"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "brand loyalty",
+          "answer": "Thái độ người tiêu dùng"
+        },
+        {
+          "id": 2,
+          "word": "unplanned",
+          "answer": "Hành vi mua sắm"
+        },
+        {
+          "id": 3,
+          "word": "ethical",
+          "answer": "Thái độ người tiêu dùng"
+        },
+        {
+          "id": 4,
+          "word": "discount",
+          "answer": "Tính chất sản phẩm & lựa chọn"
+        },
+        {
+          "id": 5,
+          "word": "purchase",
+          "answer": "Hành vi mua sắm"
+        },
+        {
+          "id": 6,
+          "word": "trend",
+          "answer": "Thái độ người tiêu dùng"
+        },
+        {
+          "id": 7,
+          "word": "quality",
+          "answer": "Tính chất sản phẩm & lựa chọn"
+        },
+        {
+          "id": 8,
+          "word": "refund",
+          "answer": "Hành vi mua sắm"
+        },
+        {
+          "id": 9,
+          "word": "used",
+          "answer": "Tính chất sản phẩm & lựa chọn"
+        },
+        {
+          "id": 10,
+          "word": "recycle",
+          "answer": "Hành vi mua sắm"
+        }
+      ]
     }
   },
   "answer_key": {

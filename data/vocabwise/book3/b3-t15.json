@@ -564,6 +564,132 @@
           "explanation": "An adjective is needed to modify the noun 'cue' — 'automatic cue'; the adverb 'automatically' cannot attributively modify a noun in this position."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "routine",
+            "conditioning",
+            "automaticity",
+            "relapse"
+          ],
+          "answer": "relapse",
+          "reason": "routine, conditioning, and automaticity are all mechanisms by which behaviour becomes habitual and automatic. 'relapse' is a setback — a return to an unwanted habit after a period of change, not a mechanism of habit formation.",
+          "reason_vi": "routine, conditioning và automaticity đều là cơ chế mà hành vi trở thành thói quen và tự động. 'relapse' là thụt lùi — trở lại thói quen không mong muốn sau một thời gian thay đổi, không phải cơ chế hình thành thói quen."
+        },
+        {
+          "id": 2,
+          "words": [
+            "cue",
+            "trigger",
+            "urge",
+            "willpower"
+          ],
+          "answer": "willpower",
+          "reason": "cue, trigger, and urge are all stimuli or internal drives that initiate a behaviour. 'willpower' is a cognitive resource — the mental strength to resist or override those drives.",
+          "reason_vi": "cue, trigger và urge đều là kích thích hoặc động lực nội tâm khởi động hành vi. 'willpower' là nguồn lực nhận thức — sức mạnh tinh thần để kháng cự hoặc ghi đè những động lực đó."
+        },
+        {
+          "id": 3,
+          "words": [
+            "routine",
+            "automaticity",
+            "conditioning",
+            "incentive"
+          ],
+          "answer": "incentive",
+          "reason": "routine, automaticity, and conditioning describe how habits develop and become automatic. 'incentive' is a motivational tool — an external reward that encourages behaviour, not a mechanism of habit formation.",
+          "reason_vi": "routine, automaticity và conditioning mô tả cách thói quen phát triển và trở thành tự động. 'incentive' là công cụ động lực — phần thưởng bên ngoài khuyến khích hành vi, không phải cơ chế hình thành thói quen."
+        },
+        {
+          "id": 4,
+          "words": [
+            "cue",
+            "trigger",
+            "urge",
+            "rewiring"
+          ],
+          "answer": "rewiring",
+          "reason": "cue, trigger, and urge all describe factors that initiate or intensify a habitual behaviour. 'rewiring' is a process of change — restructuring neural pathways to alter how the brain responds.",
+          "reason_vi": "cue, trigger và urge đều mô tả các yếu tố khởi tạo hoặc tăng cường hành vi thói quen. 'rewiring' là quá trình thay đổi — tái cấu trúc đường dẫn thần kinh để thay đổi cách não phản ứng."
+        },
+        {
+          "id": 5,
+          "words": [
+            "willpower",
+            "incentive",
+            "reward system",
+            "relapse"
+          ],
+          "answer": "relapse",
+          "reason": "willpower, incentive, and reward system are all tools or mechanisms used to build or sustain positive behaviour. 'relapse' is a failure — the unwanted return to a bad habit, not a tool.",
+          "reason_vi": "willpower, incentive và reward system đều là công cụ hoặc cơ chế dùng để xây dựng hoặc duy trì hành vi tích cực. 'relapse' là thất bại — sự quay trở lại không mong muốn với thói quen xấu, không phải công cụ."
+        },
+        {
+          "id": 6,
+          "words": [
+            "routine",
+            "automaticity",
+            "rewiring",
+            "conditioning"
+          ],
+          "answer": "rewiring",
+          "reason": "routine, automaticity, and conditioning describe the process of embedding behaviour into the brain. 'rewiring' is the active restructuring of those patterns — a deliberate change to what has already been embedded.",
+          "reason_vi": "routine, automaticity và conditioning mô tả quá trình nhúng hành vi vào não. 'rewiring' là việc tái cấu trúc chủ động những mẫu đó — thay đổi có chủ đích những gì đã được nhúng vào."
+        },
+        {
+          "id": 7,
+          "words": [
+            "cue",
+            "trigger",
+            "relapse",
+            "urge"
+          ],
+          "answer": "relapse",
+          "reason": "cue, trigger, and urge are all inputs or pressures that lead to a habitual response. 'relapse' is an output — the result when those inputs overwhelm resistance.",
+          "reason_vi": "cue, trigger và urge đều là đầu vào hoặc áp lực dẫn đến phản ứng thói quen. 'relapse' là đầu ra — kết quả khi những đầu vào đó áp đảo sức kháng cự."
+        },
+        {
+          "id": 8,
+          "words": [
+            "incentive",
+            "willpower",
+            "reward system",
+            "automaticity"
+          ],
+          "answer": "automaticity",
+          "reason": "incentive, willpower, and reward system are all conscious elements — they involve deliberate choice or motivation. 'automaticity' describes behaviour that occurs without conscious thought — it is the opposite of deliberate engagement.",
+          "reason_vi": "incentive, willpower và reward system đều là các yếu tố có ý thức — liên quan đến lựa chọn hoặc động lực có chủ đích. 'automaticity' mô tả hành vi xảy ra mà không cần suy nghĩ có ý thức."
+        },
+        {
+          "id": 9,
+          "words": [
+            "conditioning",
+            "routine",
+            "rewiring",
+            "relapse"
+          ],
+          "answer": "relapse",
+          "reason": "conditioning, routine, and rewiring are all processes — they describe how behaviour changes over time. 'relapse' is an event — a specific moment of regression, not an ongoing process.",
+          "reason_vi": "conditioning, routine và rewiring đều là quá trình — mô tả cách hành vi thay đổi theo thời gian. 'relapse' là sự kiện — một khoảnh khắc cụ thể của sự thụt lùi, không phải quá trình liên tục."
+        },
+        {
+          "id": 10,
+          "words": [
+            "incentive",
+            "reward system",
+            "willpower",
+            "conditioning"
+          ],
+          "answer": "conditioning",
+          "reason": "incentive, reward system, and willpower are all factors in sustaining or changing behaviour. 'conditioning' is a deeper mechanism — the process by which behaviour becomes an automatic response to stimuli.",
+          "reason_vi": "incentive, reward system và willpower đều là yếu tố trong việc duy trì hoặc thay đổi hành vi. 'conditioning' là cơ chế sâu hơn — quá trình mà hành vi trở thành phản ứng tự động với kích thích."
+        }
+      ]
     }
   },
   "answer_key": {

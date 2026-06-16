@@ -632,6 +632,82 @@
           "explanation": "'Balanced' is the target vocabulary adjective most appropriate here — a 'balanced lifestyle' includes rest, socialising, and enjoyable activities alongside work and exercise. 'Active' is too narrow (only implies physical movement). 'Physical' is an adjective, not commonly used before 'way of life'. 'Balanced lifestyle' is the precise phrase from the passage."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Exercise is good for your mental health.",
+          "b": "Exercise improves your mood.",
+          "answer": "S",
+          "explanation": "Being good for mental health and improving mood are closely related — both describe positive psychological effects of exercise. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "A balanced diet helps prevent disease.",
+          "b": "A balanced diet cures disease.",
+          "answer": "D",
+          "explanation": "Prevent means to stop something from happening. Cure means to fix it after it has happened. These are opposite stages of health management."
+        },
+        {
+          "id": 3,
+          "a": "She leads an active lifestyle.",
+          "b": "She goes to the gym every day.",
+          "answer": "D",
+          "explanation": "An active lifestyle includes any regular physical activity — walking, sport, cycling. Going to the gym every day is one specific activity. You can have an active lifestyle without ever going to a gym."
+        },
+        {
+          "id": 4,
+          "a": "Mental health is just as important as physical health.",
+          "b": "Mental health is more important than physical health.",
+          "answer": "D",
+          "explanation": "Just as important means equal in importance. More important means a higher priority. These sentences make different claims about relative importance."
+        },
+        {
+          "id": 5,
+          "a": "Sleep is essential for good health.",
+          "b": "Sleep is beneficial for good health.",
+          "answer": "D",
+          "explanation": "Essential means necessary — you cannot be healthy without it. Beneficial means it helps but may not be strictly required. These describe different levels of importance."
+        },
+        {
+          "id": 6,
+          "a": "She takes care of her wellbeing.",
+          "b": "She stays healthy.",
+          "answer": "S",
+          "explanation": "Taking care of wellbeing and staying healthy both describe actively maintaining good physical and mental condition. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "Stress can cause physical health problems.",
+          "b": "Stress is always harmless to the body.",
+          "answer": "D",
+          "explanation": "Causing physical problems means stress has a negative bodily effect. Always harmless means it has no negative effect. These are opposite claims."
+        },
+        {
+          "id": 8,
+          "a": "He has a healthy diet.",
+          "b": "He only eats vegetables.",
+          "answer": "D",
+          "explanation": "A healthy diet includes a balanced range of foods. Only eating vegetables is a restricted diet. A healthy diet is not limited to only one food group."
+        },
+        {
+          "id": 9,
+          "a": "Regular check-ups help detect health issues early.",
+          "b": "Regular check-ups prevent all health issues.",
+          "answer": "D",
+          "explanation": "Detecting issues early means finding problems sooner, but not preventing them. Preventing all issues means they never happen. These describe different outcomes."
+        },
+        {
+          "id": 10,
+          "a": "Good sleep quality is important for concentration.",
+          "b": "Getting enough sleep helps you focus better.",
+          "answer": "S",
+          "explanation": "Good sleep quality and getting enough sleep both describe adequate, restorative rest. Concentration and focus better are the same cognitive benefit. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

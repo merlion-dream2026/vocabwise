@@ -588,6 +588,132 @@
           "explanation": "'Healthy' is the adjective needed to describe her condition."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "vaccination",
+            "immunity",
+            "prevention",
+            "diagnosis"
+          ],
+          "answer": "diagnosis",
+          "reason": "vaccination, immunity, and prevention all relate to stopping illness before it happens. 'diagnosis' is the process of identifying an illness that already exists — not prevention.",
+          "reason_vi": "vaccination, immunity và prevention đều liên quan đến ngăn chặn bệnh tật trước khi xảy ra. 'diagnosis' là quá trình xác định bệnh đã tồn tại — không phải phòng ngừa."
+        },
+        {
+          "id": 2,
+          "words": [
+            "specialist",
+            "patient",
+            "clinic",
+            "symptom"
+          ],
+          "answer": "symptom",
+          "reason": "specialist, patient, and clinic are all people or places in a healthcare setting. 'symptom' is a sign of illness — something you experience, not a person or place.",
+          "reason_vi": "specialist, patient và clinic đều là người hoặc nơi chốn trong y tế. 'symptom' là dấu hiệu của bệnh — thứ bạn trải qua, không phải người hay nơi."
+        },
+        {
+          "id": 3,
+          "words": [
+            "chronic",
+            "disorder",
+            "condition",
+            "recovery"
+          ],
+          "answer": "recovery",
+          "reason": "chronic, disorder, and condition all describe negative or ongoing health states. 'recovery' is a positive outcome — the process of getting better.",
+          "reason_vi": "chronic, disorder và condition đều mô tả trạng thái sức khỏe tiêu cực hoặc kéo dài. 'recovery' là kết quả tích cực — quá trình hồi phục."
+        },
+        {
+          "id": 4,
+          "words": [
+            "treatment",
+            "prescription",
+            "refer",
+            "diagnosis"
+          ],
+          "answer": "refer",
+          "reason": "treatment, prescription, and diagnosis are direct medical actions or decisions made by a doctor for a patient. 'refer' means to send a patient to another specialist — it redirects care rather than providing it.",
+          "reason_vi": "treatment, prescription và diagnosis đều là hành động y tế trực tiếp hoặc quyết định của bác sĩ. 'refer' có nghĩa là chuyển bệnh nhân đến chuyên gia khác — chuyển hướng chăm sóc thay vì cung cấp trực tiếp."
+        },
+        {
+          "id": 5,
+          "words": [
+            "vaccination",
+            "prevention",
+            "immunity",
+            "chronic"
+          ],
+          "answer": "chronic",
+          "reason": "vaccination, prevention, and immunity all relate to keeping the body safe from illness. 'chronic' describes a condition that lasts a long time — it describes a problem, not a way to avoid one.",
+          "reason_vi": "vaccination, prevention và immunity đều liên quan đến bảo vệ cơ thể khỏi bệnh. 'chronic' mô tả tình trạng kéo dài lâu — mô tả vấn đề, không phải cách tránh nó."
+        },
+        {
+          "id": 6,
+          "words": [
+            "specialist",
+            "patient",
+            "clinic",
+            "prescription"
+          ],
+          "answer": "prescription",
+          "reason": "specialist, patient, and clinic are people or places involved in healthcare. 'prescription' is a written document from a doctor — not a person or place.",
+          "reason_vi": "specialist, patient và clinic đều là người hoặc nơi chốn trong y tế. 'prescription' là tài liệu viết từ bác sĩ — không phải người hay nơi."
+        },
+        {
+          "id": 7,
+          "words": [
+            "symptom",
+            "condition",
+            "disorder",
+            "treatment"
+          ],
+          "answer": "treatment",
+          "reason": "symptom, condition, and disorder all describe an illness or its signs. 'treatment' is what is done to address the illness — a response, not a description of the problem itself.",
+          "reason_vi": "symptom, condition và disorder đều mô tả bệnh hoặc dấu hiệu của nó. 'treatment' là thứ được làm để giải quyết bệnh — phản hồi, không phải mô tả vấn đề."
+        },
+        {
+          "id": 8,
+          "words": [
+            "recovery",
+            "prevention",
+            "immunity",
+            "diagnosis"
+          ],
+          "answer": "diagnosis",
+          "reason": "recovery, prevention, and immunity are all positive health outcomes or states. 'diagnosis' is the identification of illness — it is a step toward treatment, not a positive health state.",
+          "reason_vi": "recovery, prevention và immunity đều là kết quả hoặc trạng thái sức khỏe tích cực. 'diagnosis' là việc xác định bệnh — bước tiến tới điều trị, không phải trạng thái tích cực."
+        },
+        {
+          "id": 9,
+          "words": [
+            "chronic",
+            "symptom",
+            "disorder",
+            "specialist"
+          ],
+          "answer": "specialist",
+          "reason": "chronic, symptom, and disorder are all medical terms describing illness or its characteristics. 'specialist' is a person — a highly trained doctor with expertise in a particular area.",
+          "reason_vi": "chronic, symptom và disorder đều là thuật ngữ y tế mô tả bệnh. 'specialist' là người — bác sĩ được đào tạo chuyên sâu về một lĩnh vực cụ thể."
+        },
+        {
+          "id": 10,
+          "words": [
+            "treatment",
+            "prescription",
+            "recovery",
+            "refer"
+          ],
+          "answer": "refer",
+          "reason": "treatment, prescription, and recovery are all things that happen directly between a doctor and patient. 'refer' is different — it means to redirect a patient to a different doctor or clinic for further care.",
+          "reason_vi": "treatment, prescription và recovery đều là thứ xảy ra trực tiếp giữa bác sĩ và bệnh nhân. 'refer' khác — có nghĩa là chuyển bệnh nhân đến bác sĩ hoặc phòng khám khác để được chăm sóc thêm."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -618,6 +618,132 @@
           "explanation": "'Participate in' is the correct collocation for taking part in an event or activity. 'Join' can be used with groups but not events. 'Adapt to' means to adjust to something new, not to take part in it — the sentence is about involvement, not adjustment."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "tradition",
+            "ritual",
+            "heritage",
+            "adapt"
+          ],
+          "answer": "adapt",
+          "reason": "tradition, ritual, and heritage are all nouns — things that have been passed down from past generations. 'adapt' is a verb — the action of changing something to suit new circumstances.",
+          "reason_vi": "tradition, ritual và heritage đều là danh từ — thứ được truyền lại từ các thế hệ trước. 'adapt' là động từ — hành động thay đổi thứ gì đó để phù hợp với hoàn cảnh mới."
+        },
+        {
+          "id": 2,
+          "words": [
+            "festival",
+            "celebration event",
+            "community",
+            "participate"
+          ],
+          "answer": "participate",
+          "reason": "festival, celebration event, and community are all nouns — things or groups associated with cultural celebrations. 'participate' is a verb — the action of taking part in something.",
+          "reason_vi": "festival, celebration event và community đều là danh từ. 'participate' là động từ — hành động tham gia vào thứ gì đó."
+        },
+        {
+          "id": 3,
+          "words": [
+            "tradition",
+            "ritual",
+            "heritage",
+            "modern"
+          ],
+          "answer": "modern",
+          "reason": "tradition, ritual, and heritage all relate to the past — practices and values passed down through time. 'modern' is an adjective describing the present — it contrasts with tradition.",
+          "reason_vi": "tradition, ritual và heritage đều liên quan đến quá khứ — thực hành và giá trị được truyền qua thời gian. 'modern' là tính từ mô tả hiện tại — tương phản với truyền thống."
+        },
+        {
+          "id": 4,
+          "words": [
+            "preserve",
+            "adapt",
+            "participate",
+            "ancient"
+          ],
+          "answer": "ancient",
+          "reason": "preserve, adapt, and participate are all verbs — actions people take in relation to culture. 'ancient' is an adjective — it describes something very old, not an action.",
+          "reason_vi": "preserve, adapt và participate đều là động từ — hành động mọi người thực hiện liên quan đến văn hóa. 'ancient' là tính từ — mô tả thứ rất cũ, không phải hành động."
+        },
+        {
+          "id": 5,
+          "words": [
+            "generation",
+            "community",
+            "religion",
+            "stand for"
+          ],
+          "answer": "stand for",
+          "reason": "generation, community, and religion are all nouns — groups, beliefs, or time spans. 'stand for' is a verb phrase — meaning to represent or symbolise something.",
+          "reason_vi": "generation, community và religion đều là danh từ — nhóm, niềm tin hoặc khoảng thời gian. 'stand for' là cụm động từ — có nghĩa là đại diện hoặc tượng trưng cho điều gì đó."
+        },
+        {
+          "id": 6,
+          "words": [
+            "tradition",
+            "ritual",
+            "meaning",
+            "modern"
+          ],
+          "answer": "modern",
+          "reason": "tradition, ritual, and meaning are all things that define a cultural celebration — its roots, practices, and purpose. 'modern' is an external descriptor — it describes today's world rather than the celebration itself.",
+          "reason_vi": "tradition, ritual và meaning đều là thứ xác định lễ kỷ niệm văn hóa — nguồn gốc, thực hành và mục đích. 'modern' là mô tả bên ngoài — mô tả thế giới ngày nay chứ không phải bản thân lễ kỷ niệm."
+        },
+        {
+          "id": 7,
+          "words": [
+            "preserve",
+            "adapt",
+            "participate",
+            "meaning"
+          ],
+          "answer": "meaning",
+          "reason": "preserve, adapt, and participate are verbs — active things people do regarding cultural events. 'meaning' is a noun — the purpose or significance behind a tradition, not an action.",
+          "reason_vi": "preserve, adapt và participate đều là động từ — thứ mọi người chủ động làm liên quan đến sự kiện văn hóa. 'meaning' là danh từ — mục đích hoặc ý nghĩa đằng sau một truyền thống, không phải hành động."
+        },
+        {
+          "id": 8,
+          "words": [
+            "generation",
+            "community",
+            "religion",
+            "ancient"
+          ],
+          "answer": "ancient",
+          "reason": "generation, community, and religion are all nouns describing people or belief systems. 'ancient' is an adjective — it describes how old something is, not a group or belief.",
+          "reason_vi": "generation, community và religion đều là danh từ mô tả người hoặc hệ thống niềm tin. 'ancient' là tính từ — mô tả tuổi tác của thứ gì đó, không phải nhóm hay niềm tin."
+        },
+        {
+          "id": 9,
+          "words": [
+            "festival",
+            "celebration event",
+            "participate",
+            "heritage"
+          ],
+          "answer": "participate",
+          "reason": "festival, celebration event, and heritage are nouns — the events and what has been passed down. 'participate' is a verb — the active choice to join in.",
+          "reason_vi": "festival, celebration event và heritage đều là danh từ — các sự kiện và thứ được truyền lại. 'participate' là động từ — lựa chọn chủ động tham gia."
+        },
+        {
+          "id": 10,
+          "words": [
+            "adapt",
+            "preserve",
+            "stand for",
+            "generation"
+          ],
+          "answer": "generation",
+          "reason": "adapt, preserve, and stand for are all verbs — actions people take in relation to culture and tradition. 'generation' is a noun — a group of people born around the same time.",
+          "reason_vi": "adapt, preserve và stand for đều là động từ — hành động mọi người thực hiện liên quan đến văn hóa và truyền thống. 'generation' là danh từ — nhóm người sinh ra vào khoảng thời gian giống nhau."
+        }
+      ]
     }
   },
   "answer_key": {

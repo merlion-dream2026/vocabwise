@@ -621,6 +621,82 @@
           "explanation": "'Diverse' is the correct word meaning varied or made up of many different elements. The sentence describes a country with many different ethnic groups, which is diversity. 'Similar' means things are like each other — the opposite of what is intended. 'Rich' could work informally but is less precise than 'diverse'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She speaks two languages.",
+          "b": "She is multilingual.",
+          "answer": "D",
+          "explanation": "Speaking two languages means she knows exactly two. Multilingual typically means knowing several languages. These describe different levels of language ability."
+        },
+        {
+          "id": 2,
+          "a": "The language is dying out.",
+          "b": "The language is becoming extinct.",
+          "answer": "S",
+          "explanation": "Dying out and becoming extinct both describe a language that is being spoken by fewer and fewer people and may disappear. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "He has a strong local accent.",
+          "b": "He speaks with a strong regional accent.",
+          "answer": "S",
+          "explanation": "Local and regional both describe an accent connected to a specific area or community. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "She picked up Spanish very quickly.",
+          "b": "She translated Spanish very quickly.",
+          "answer": "D",
+          "explanation": "Pick up means to learn a language naturally, often without formal study. Translate means to convert language from one to another. These are different skills."
+        },
+        {
+          "id": 5,
+          "a": "The language is evolving.",
+          "b": "The language is dying out.",
+          "answer": "D",
+          "explanation": "Evolve means to change and develop over time. Die out means to disappear. A language can evolve and remain alive, or die out — these are opposite fates."
+        },
+        {
+          "id": 6,
+          "a": "English is the official language here.",
+          "b": "English is the native language here.",
+          "answer": "D",
+          "explanation": "An official language is designated by the government. A native language is the one people grew up speaking. A language can be official without being native to most speakers."
+        },
+        {
+          "id": 7,
+          "a": "They want to preserve the language.",
+          "b": "They want to promote the language.",
+          "answer": "S",
+          "explanation": "Preserve and promote both describe efforts to keep a language alive and in use. In this context, these sentences carry the same general meaning."
+        },
+        {
+          "id": 8,
+          "a": "Languages around the world are very diverse.",
+          "b": "Languages around the world are very similar.",
+          "answer": "D",
+          "explanation": "Diverse means having many different types. Similar means sharing many features. These sentences describe opposite situations."
+        },
+        {
+          "id": 9,
+          "a": "She communicates well in English.",
+          "b": "She speaks well in English.",
+          "answer": "S",
+          "explanation": "Communicate well and speak well both describe someone who uses English effectively. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The accent reveals where she is from.",
+          "b": "The translate reveals where she is from.",
+          "answer": "D",
+          "explanation": "An accent is a way of pronouncing words that shows your background. Translate is an action — converting between languages. These are completely different things."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -552,6 +552,82 @@
           "explanation": "A plural noun is required as the object of 'Cutting' — 'subsidies', not the verb 'subsidise'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Austerity measures reduced public spending.",
+          "b": "Stimulus packages increased public spending.",
+          "answer": "D",
+          "explanation": "Austerity reduces spending to manage debt. Stimulus packages increase spending to boost growth. These are opposite economic policies."
+        },
+        {
+          "id": 2,
+          "a": "The country ran a budget deficit.",
+          "b": "The country was spending more than it earned.",
+          "answer": "S",
+          "explanation": "A budget deficit is defined as spending exceeding revenue. The second sentence describes the same financial situation in plain language. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "Inflation erodes purchasing power.",
+          "b": "Deflation reduces the price of goods.",
+          "answer": "D",
+          "explanation": "Inflation refers to prices rising, reducing what money can buy. Deflation refers to prices falling. These describe opposite economic conditions."
+        },
+        {
+          "id": 4,
+          "a": "The government applied a fiscal stimulus.",
+          "b": "The government applied a monetary stimulus.",
+          "answer": "D",
+          "explanation": "A fiscal stimulus involves government spending or tax cuts. A monetary stimulus involves the central bank adjusting interest rates or money supply. These are different policy tools."
+        },
+        {
+          "id": 5,
+          "a": "A subsidy lowers the cost for producers.",
+          "b": "A tax raises the cost for producers.",
+          "answer": "D",
+          "explanation": "Subsidies reduce costs by providing financial support. Taxes increase costs by extracting revenue. These have opposite effects on producers."
+        },
+        {
+          "id": 6,
+          "a": "Deregulation removes government restrictions on markets.",
+          "b": "Regulation imposes government restrictions on markets.",
+          "answer": "D",
+          "explanation": "Deregulation and regulation are opposites — one removes rules, the other imposes them. These sentences describe contrasting policy stances."
+        },
+        {
+          "id": 7,
+          "a": "The economy reached equilibrium.",
+          "b": "Supply and demand were balanced.",
+          "answer": "S",
+          "explanation": "Economic equilibrium is defined as the point where supply and demand balance. These sentences describe the same market condition."
+        },
+        {
+          "id": 8,
+          "a": "The recession led to high unemployment.",
+          "b": "Economic growth led to high unemployment.",
+          "answer": "D",
+          "explanation": "Recessions reduce economic activity and typically increase unemployment. Growth typically reduces unemployment. These are opposite economic conditions with opposite effects."
+        },
+        {
+          "id": 9,
+          "a": "A commodity is a basic good traded in bulk.",
+          "b": "A luxury good is a commodity.",
+          "answer": "D",
+          "explanation": "Commodities are standardised, essential goods traded in large quantities (e.g. oil, wheat). Luxury goods are high-value, non-essential items. These are different categories."
+        },
+        {
+          "id": 10,
+          "a": "A deficit occurs when expenditure exceeds revenue.",
+          "b": "A surplus occurs when revenue exceeds expenditure.",
+          "answer": "D",
+          "explanation": "A deficit and a surplus are opposite financial positions. The first describes spending too much; the second describes earning more than you spend. These sentences describe contrasting outcomes."
+        }
+      ]
     }
   },
   "answer_key": {

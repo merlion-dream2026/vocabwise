@@ -623,6 +623,132 @@
           "explanation": "'Value' is the correct word here — the sentence means that property prices in the area have gone up. 'Neighbourhood' and 'area' cannot replace 'value' in this context as they describe location, not price."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "landlord",
+            "tenant",
+            "property",
+            "renovate"
+          ],
+          "answer": "renovate",
+          "reason": "landlord, tenant, and property are all nouns in the housing context — people and things involved in renting. 'renovate' is a verb — the action of improving or repairing a property.",
+          "reason_vi": "landlord, tenant và property đều là danh từ trong bối cảnh nhà ở — người và thứ liên quan đến cho thuê. 'renovate' là động từ — hành động cải thiện hoặc sửa chữa bất động sản."
+        },
+        {
+          "id": 2,
+          "words": [
+            "rent",
+            "home loan",
+            "lease",
+            "down payment"
+          ],
+          "answer": "down payment",
+          "reason": "rent, home loan, and lease are all ongoing financial arrangements for housing. 'down payment' is a one-time initial payment made when buying property — not an ongoing arrangement.",
+          "reason_vi": "rent, home loan và lease đều là thỏa thuận tài chính liên tục cho nhà ở. 'down payment' là khoản thanh toán ban đầu một lần khi mua bất động sản — không phải thỏa thuận liên tục."
+        },
+        {
+          "id": 3,
+          "words": [
+            "property",
+            "value",
+            "demand",
+            "landlord"
+          ],
+          "answer": "landlord",
+          "reason": "property, value, and demand are all market concepts — things used to describe how housing is priced or sought after. 'landlord' is a person — the owner who rents out the property.",
+          "reason_vi": "property, value và demand đều là khái niệm thị trường — thứ dùng để mô tả cách nhà ở được định giá hoặc tìm kiếm. 'landlord' là người — chủ sở hữu cho thuê bất động sản."
+        },
+        {
+          "id": 4,
+          "words": [
+            "rent",
+            "home loan",
+            "afford",
+            "lease"
+          ],
+          "answer": "afford",
+          "reason": "rent, home loan, and lease are all financial arrangements for obtaining housing. 'afford' is a verb — the ability to pay for something, not a financial arrangement.",
+          "reason_vi": "rent, home loan và lease đều là thỏa thuận tài chính để có được nhà ở. 'afford' là động từ — khả năng trả tiền cho thứ gì đó, không phải thỏa thuận tài chính."
+        },
+        {
+          "id": 5,
+          "words": [
+            "invest",
+            "renovate",
+            "afford",
+            "demand"
+          ],
+          "answer": "demand",
+          "reason": "invest, renovate, and afford are all verbs related to what a person does with property. 'demand' is a market concept — the level of desire for housing from buyers or renters.",
+          "reason_vi": "invest, renovate và afford đều là động từ liên quan đến những gì một người làm với bất động sản. 'demand' là khái niệm thị trường — mức độ mong muốn về nhà ở từ người mua hoặc thuê."
+        },
+        {
+          "id": 6,
+          "words": [
+            "landlord",
+            "tenant",
+            "property",
+            "suburb"
+          ],
+          "answer": "suburb",
+          "reason": "landlord, tenant, and property are all directly involved in a rental relationship. 'suburb' is a location — a residential area outside the city centre, not a person or legal item.",
+          "reason_vi": "landlord, tenant và property đều trực tiếp liên quan đến mối quan hệ cho thuê. 'suburb' là vị trí — khu dân cư ngoài trung tâm thành phố, không phải người hay vật pháp lý."
+        },
+        {
+          "id": 7,
+          "words": [
+            "value",
+            "demand",
+            "supply",
+            "renovate"
+          ],
+          "answer": "renovate",
+          "reason": "value, demand, and supply are all economic forces in the property market. 'renovate' is a physical action — improving or repairing a building, not a market force.",
+          "reason_vi": "value, demand và supply đều là lực kinh tế trong thị trường bất động sản. 'renovate' là hành động vật lý — cải thiện hoặc sửa chữa tòa nhà, không phải lực thị trường."
+        },
+        {
+          "id": 8,
+          "words": [
+            "home loan",
+            "down payment",
+            "rent",
+            "invest"
+          ],
+          "answer": "invest",
+          "reason": "home loan, down payment, and rent are all specific financial commitments related to housing. 'invest' is a broader verb — it means to put money into something for future return, which can apply far beyond housing.",
+          "reason_vi": "home loan, down payment và rent đều là cam kết tài chính cụ thể liên quan đến nhà ở. 'invest' là động từ rộng hơn — đặt tiền vào thứ gì để thu lợi trong tương lai, không chỉ trong nhà ở."
+        },
+        {
+          "id": 9,
+          "words": [
+            "landlord",
+            "tenant",
+            "suburb",
+            "area"
+          ],
+          "answer": "landlord",
+          "reason": "tenant, suburb, and area are all neutral terms — a person who rents, or locations. 'landlord' is the person who owns and rents out property — their role defines the rental relationship.",
+          "reason_vi": "tenant, suburb và area đều là thuật ngữ trung tính — người thuê hoặc vị trí. 'landlord' là người sở hữu và cho thuê bất động sản — vai trò của họ xác định mối quan hệ cho thuê."
+        },
+        {
+          "id": 10,
+          "words": [
+            "value",
+            "demand",
+            "supply",
+            "home loan"
+          ],
+          "answer": "home loan",
+          "reason": "value, demand, and supply are abstract market forces — they describe how the property market behaves. 'home loan' is a specific financial product — money borrowed to buy a home.",
+          "reason_vi": "value, demand và supply là các lực thị trường trừu tượng — mô tả cách thị trường bất động sản hoạt động. 'home loan' là sản phẩm tài chính cụ thể — tiền vay để mua nhà."
+        }
+      ]
     }
   },
   "answer_key": {

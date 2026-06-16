@@ -625,6 +625,82 @@
           "explanation": "'Inspired' is the target vocabulary verb for the emotional and creative effect of something that makes a person want to act or create. 'Motivated' can work here but suggests a more rational push toward action. 'Inspired' captures the imaginative, emotional dimension of being moved by something meaningful — the expected answer for this topic."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Young people today face a lot of pressure.",
+          "b": "Young people today feel a lot of stress.",
+          "answer": "S",
+          "explanation": "Pressure and stress are closely related — both describe the burden of demands and expectations. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "Social media can negatively affect mental health.",
+          "b": "Social media is always harmful to mental health.",
+          "answer": "D",
+          "explanation": "\"Can negatively affect\" means it has the potential to cause harm in some cases. \"Always harmful\" means it harms everyone, every time. These are very different claims about extent."
+        },
+        {
+          "id": 3,
+          "a": "She found her sense of identity online.",
+          "b": "She found a community online.",
+          "answer": "D",
+          "explanation": "Finding a sense of identity means discovering who she is. Finding a community means finding people to belong to. These are related but different outcomes."
+        },
+        {
+          "id": 4,
+          "a": "Peer pressure can lead to poor decisions.",
+          "b": "Friends can influence your choices.",
+          "answer": "S",
+          "explanation": "Peer pressure and influence from friends both describe how social relationships shape decisions. In this general sense, these sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "She is under a lot of academic pressure.",
+          "b": "She is struggling to cope with schoolwork.",
+          "answer": "S",
+          "explanation": "Being under academic pressure and struggling to cope with schoolwork both describe a student who finds the demands of study difficult. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Young people need more mental health support.",
+          "b": "Young people need better career guidance.",
+          "answer": "D",
+          "explanation": "Mental health support addresses emotional wellbeing. Career guidance addresses professional direction. These are different types of support."
+        },
+        {
+          "id": 7,
+          "a": "He felt isolated from his peers.",
+          "b": "He had no friends at school.",
+          "answer": "S",
+          "explanation": "Feeling isolated from peers and having no friends both describe social exclusion at school. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The pressure to succeed is common among students.",
+          "b": "The fear of failure is common among students.",
+          "answer": "S",
+          "explanation": "The pressure to succeed and the fear of failure are two sides of the same coin — both describe the anxiety that comes from high expectations. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Social media creates unrealistic expectations.",
+          "b": "Social media makes young people feel insecure.",
+          "answer": "D",
+          "explanation": "Creating unrealistic expectations describes what social media does. Making people feel insecure describes an emotional result. These are cause and effect — related but distinct."
+        },
+        {
+          "id": 10,
+          "a": "Young people today are more connected than ever.",
+          "b": "Young people today are less lonely than ever.",
+          "answer": "D",
+          "explanation": "Being more connected (via technology) does not mean being less lonely. Research suggests the opposite can be true. These sentences describe different things."
+        }
+      ]
     }
   },
   "answer_key": {

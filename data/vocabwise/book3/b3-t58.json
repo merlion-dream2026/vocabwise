@@ -570,6 +570,67 @@
           "explanation": "The complete compound noun 'tipping point' is required — 'tipping' alone does not convey the intended meaning of an irreversible climate threshold."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Danh tính & khái niệm bản thân",
+        "Áp lực & ảnh hưởng xã hội",
+        "Trải nghiệm & thuộc về"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "intersectionality",
+          "answer": "Danh tính & khái niệm bản thân"
+        },
+        {
+          "id": 2,
+          "word": "performativity",
+          "answer": "Áp lực & ảnh hưởng xã hội"
+        },
+        {
+          "id": 3,
+          "word": "belonging",
+          "answer": "Trải nghiệm & thuộc về"
+        },
+        {
+          "id": 4,
+          "word": "authenticity",
+          "answer": "Danh tính & khái niệm bản thân"
+        },
+        {
+          "id": 5,
+          "word": "internalise",
+          "answer": "Áp lực & ảnh hưởng xã hội"
+        },
+        {
+          "id": 6,
+          "word": "embodiment",
+          "answer": "Trải nghiệm & thuộc về"
+        },
+        {
+          "id": 7,
+          "word": "fluidity",
+          "answer": "Danh tính & khái niệm bản thân"
+        },
+        {
+          "id": 8,
+          "word": "construct",
+          "answer": "Áp lực & ảnh hưởng xã hội"
+        },
+        {
+          "id": 9,
+          "word": "subjectivity",
+          "answer": "Trải nghiệm & thuộc về"
+        },
+        {
+          "id": 10,
+          "word": "marginalised",
+          "answer": "Áp lực & ảnh hưởng xã hội"
+        }
+      ]
     }
   },
   "answer_key": {

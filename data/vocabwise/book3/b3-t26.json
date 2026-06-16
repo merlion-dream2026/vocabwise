@@ -560,6 +560,67 @@
           "explanation": "A noun is needed as the subject of the sentence — 'fragmentation', not the bare verb 'fragment'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Quá trình dân chủ",
+        "Thách thức & rủi ro",
+        "Chủ thể & tổ chức"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "referendum",
+          "answer": "Quá trình dân chủ"
+        },
+        {
+          "id": 2,
+          "word": "misinformation",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 3,
+          "word": "civil society",
+          "answer": "Chủ thể & tổ chức"
+        },
+        {
+          "id": 4,
+          "word": "legislation",
+          "answer": "Quá trình dân chủ"
+        },
+        {
+          "id": 5,
+          "word": "populism",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 6,
+          "word": "lobbying",
+          "answer": "Chủ thể & tổ chức"
+        },
+        {
+          "id": 7,
+          "word": "electoral",
+          "answer": "Quá trình dân chủ"
+        },
+        {
+          "id": 8,
+          "word": "fragmentation",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 9,
+          "word": "accountability",
+          "answer": "Chủ thể & tổ chức"
+        },
+        {
+          "id": 10,
+          "word": "mandate",
+          "answer": "Quá trình dân chủ"
+        }
+      ]
     }
   },
   "answer_key": {

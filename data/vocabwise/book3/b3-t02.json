@@ -547,6 +547,67 @@
           "explanation": "A noun is needed after 'performance' to complete the noun phrase — 'appraisal', not the verb 'appraise'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thách thức nghề nghiệp",
+        "Tham vọng & phát triển",
+        "Điều kiện & đãi ngộ"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "burnout",
+          "answer": "Thách thức nghề nghiệp"
+        },
+        {
+          "id": 2,
+          "word": "aspiration",
+          "answer": "Tham vọng & phát triển"
+        },
+        {
+          "id": 3,
+          "word": "remuneration",
+          "answer": "Điều kiện & đãi ngộ"
+        },
+        {
+          "id": 4,
+          "word": "redundancy",
+          "answer": "Thách thức nghề nghiệp"
+        },
+        {
+          "id": 5,
+          "word": "mentorship",
+          "answer": "Tham vọng & phát triển"
+        },
+        {
+          "id": 6,
+          "word": "workload",
+          "answer": "Điều kiện & đãi ngộ"
+        },
+        {
+          "id": 7,
+          "word": "disillusionment",
+          "answer": "Thách thức nghề nghiệp"
+        },
+        {
+          "id": 8,
+          "word": "mobility",
+          "answer": "Tham vọng & phát triển"
+        },
+        {
+          "id": 9,
+          "word": "appraisal",
+          "answer": "Điều kiện & đãi ngộ"
+        },
+        {
+          "id": 10,
+          "word": "vocation",
+          "answer": "Tham vọng & phát triển"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -623,6 +623,132 @@
           "explanation": "'Expand' specifically means to increase in geographic reach, scale, or product range — it is the correct business term here; 'grow' is more general and 'branch out' is informal."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "profit",
+            "income",
+            "revenue",
+            "backer"
+          ],
+          "answer": "backer",
+          "reason": "profit, income, and revenue are all financial terms describing money a business receives or earns. 'backer' is a person — someone who provides financial support to a business.",
+          "reason_vi": "profit, income và revenue đều là thuật ngữ tài chính mô tả tiền doanh nghiệp nhận được. 'backer' là người — ai đó cung cấp hỗ trợ tài chính cho doanh nghiệp."
+        },
+        {
+          "id": 2,
+          "words": [
+            "launch",
+            "expand",
+            "promote",
+            "strategy"
+          ],
+          "answer": "strategy",
+          "reason": "launch, expand, and promote are all verbs — active business actions. 'strategy' is a noun — a plan for how to achieve a goal, not an action itself.",
+          "reason_vi": "launch, expand và promote đều là động từ — hành động kinh doanh chủ động. 'strategy' là danh từ — kế hoạch để đạt mục tiêu, không phải bản thân hành động."
+        },
+        {
+          "id": 3,
+          "words": [
+            "compete",
+            "market",
+            "brand",
+            "customer"
+          ],
+          "answer": "compete",
+          "reason": "market, brand, and customer are all nouns — things or people in a business context. 'compete' is a verb — the action of trying to win against other businesses.",
+          "reason_vi": "market, brand và customer đều là danh từ — thứ hoặc người trong bối cảnh kinh doanh. 'compete' là động từ — hành động cố gắng vượt trội so với các doanh nghiệp khác."
+        },
+        {
+          "id": 4,
+          "words": [
+            "profit",
+            "income",
+            "risk",
+            "revenue"
+          ],
+          "answer": "risk",
+          "reason": "profit, income, and revenue are all positive financial inflows — money a business earns. 'risk' is a negative concept — the possibility of losing money or failing.",
+          "reason_vi": "profit, income và revenue đều là dòng tiền vào tích cực — tiền doanh nghiệp kiếm được. 'risk' là khái niệm tiêu cực — khả năng mất tiền hoặc thất bại."
+        },
+        {
+          "id": 5,
+          "words": [
+            "launch",
+            "expand",
+            "promote",
+            "partner"
+          ],
+          "answer": "partner",
+          "reason": "launch, expand, and promote are verbs — things a business does to grow. 'partner' is a noun — a person or company that works alongside the business.",
+          "reason_vi": "launch, expand và promote đều là động từ — thứ doanh nghiệp làm để phát triển. 'partner' là danh từ — người hoặc công ty làm việc cùng doanh nghiệp."
+        },
+        {
+          "id": 6,
+          "words": [
+            "strategy",
+            "brand",
+            "new business",
+            "backer"
+          ],
+          "answer": "backer",
+          "reason": "strategy, brand, and new business are all concepts related to how a business is built or positioned. 'backer' is a person — an investor or supporter who provides funding.",
+          "reason_vi": "strategy, brand và new business đều là khái niệm liên quan đến cách doanh nghiệp được xây dựng. 'backer' là người — nhà đầu tư hoặc người hỗ trợ cung cấp vốn."
+        },
+        {
+          "id": 7,
+          "words": [
+            "target",
+            "expand",
+            "launch",
+            "compete"
+          ],
+          "answer": "target",
+          "reason": "expand, launch, and compete are all verbs — business actions. 'target' is a noun (or adjective when used to modify a noun) — the audience or goal you aim for.",
+          "reason_vi": "expand, launch và compete đều là động từ — hành động kinh doanh. 'target' là danh từ — đối tượng hoặc mục tiêu bạn hướng đến."
+        },
+        {
+          "id": 8,
+          "words": [
+            "profit",
+            "risk",
+            "income",
+            "market"
+          ],
+          "answer": "risk",
+          "reason": "profit, income, and market are all neutral or positive business concepts — things you earn or operate within. 'risk' is negative — the danger of loss that every business faces.",
+          "reason_vi": "profit, income và market đều là khái niệm kinh doanh trung tính hoặc tích cực. 'risk' là tiêu cực — nguy cơ thua lỗ mà mọi doanh nghiệp phải đối mặt."
+        },
+        {
+          "id": 9,
+          "words": [
+            "launch",
+            "expand",
+            "promote",
+            "customer"
+          ],
+          "answer": "customer",
+          "reason": "launch, expand, and promote are verbs — active things a business does. 'customer' is a person — the one the business is trying to attract or serve.",
+          "reason_vi": "launch, expand và promote đều là động từ — thứ doanh nghiệp chủ động làm. 'customer' là người — người doanh nghiệp đang cố gắng thu hút hoặc phục vụ."
+        },
+        {
+          "id": 10,
+          "words": [
+            "brand",
+            "strategy",
+            "new business",
+            "compete"
+          ],
+          "answer": "compete",
+          "reason": "brand, strategy, and new business are all nouns — concepts related to building a business. 'compete' is a verb — the action of operating against rivals in a market.",
+          "reason_vi": "brand, strategy và new business đều là danh từ — khái niệm liên quan đến xây dựng doanh nghiệp. 'compete' là động từ — hành động hoạt động chống lại đối thủ trên thị trường."
+        }
+      ]
     }
   },
   "answer_key": {

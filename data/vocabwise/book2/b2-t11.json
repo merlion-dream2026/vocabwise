@@ -592,6 +592,67 @@
           "explanation": "Plural needed: new agreements (multiple countries)."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nguyên nhân",
+        "Hậu quả",
+        "Giải pháp"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "emission",
+          "answer": "Nguyên nhân"
+        },
+        {
+          "id": 2,
+          "word": "drought",
+          "answer": "Hậu quả"
+        },
+        {
+          "id": 3,
+          "word": "fossil fuel",
+          "answer": "Nguyên nhân"
+        },
+        {
+          "id": 4,
+          "word": "renewable",
+          "answer": "Giải pháp"
+        },
+        {
+          "id": 5,
+          "word": "greenhouse",
+          "answer": "Nguyên nhân"
+        },
+        {
+          "id": 6,
+          "word": "flood",
+          "answer": "Hậu quả"
+        },
+        {
+          "id": 7,
+          "word": "cut down",
+          "answer": "Giải pháp"
+        },
+        {
+          "id": 8,
+          "word": "carbon",
+          "answer": "Nguyên nhân"
+        },
+        {
+          "id": 9,
+          "word": "extreme",
+          "answer": "Hậu quả"
+        },
+        {
+          "id": 10,
+          "word": "agreement",
+          "answer": "Giải pháp"
+        }
+      ]
     }
   },
   "answer_key": {

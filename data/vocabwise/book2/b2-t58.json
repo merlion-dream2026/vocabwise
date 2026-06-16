@@ -649,6 +649,67 @@
           "explanation": "'Rule of life' is the target vocabulary phrase for a personal framework of guiding principles that a person applies when making difficult decisions. 'Values' is accurate but generic. 'Moral code' is a synonym but not the specific vocabulary term from this topic. 'Rule of life' is the precise compound phrase introduced in the passage to describe the personal ethical framework that guides decision-making beyond immediate self-interest."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Quá trình ra quyết định",
+        "Yếu tố ảnh hưởng",
+        "Kết quả & đánh giá"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "consider",
+          "answer": "Quá trình ra quyết định"
+        },
+        {
+          "id": 2,
+          "word": "peer pressure",
+          "answer": "Yếu tố ảnh hưởng"
+        },
+        {
+          "id": 3,
+          "word": "outcome",
+          "answer": "Kết quả & đánh giá"
+        },
+        {
+          "id": 4,
+          "word": "weigh up",
+          "answer": "Quá trình ra quyết định"
+        },
+        {
+          "id": 5,
+          "word": "media influence",
+          "answer": "Yếu tố ảnh hưởng"
+        },
+        {
+          "id": 6,
+          "word": "consequence",
+          "answer": "Kết quả & đánh giá"
+        },
+        {
+          "id": 7,
+          "word": "evaluate",
+          "answer": "Quá trình ra quyết định"
+        },
+        {
+          "id": 8,
+          "word": "personal values",
+          "answer": "Yếu tố ảnh hưởng"
+        },
+        {
+          "id": 9,
+          "word": "reflect on",
+          "answer": "Kết quả & đánh giá"
+        },
+        {
+          "id": 10,
+          "word": "prioritise",
+          "answer": "Quá trình ra quyết định"
+        }
+      ]
     }
   },
   "answer_key": {

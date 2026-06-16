@@ -614,6 +614,82 @@
           "explanation": "'Recycle' is the target vocabulary word and the most widely understood term for reprocessing or reusing materials to avoid waste. While 'upcycle' (transforming into something new) is technically more precise here, 'recycle' is the target word for this topic and the expected answer."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The brand promotes sustainable fashion.",
+          "b": "The brand promotes ethical fashion.",
+          "answer": "S",
+          "explanation": "Sustainable and ethical are closely related in fashion — both describe clothing that is produced responsibly, with care for people and the planet. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The item is luxury fashion.",
+          "b": "The item is affordable fashion.",
+          "answer": "D",
+          "explanation": "Luxury means expensive and exclusive. Affordable means reasonably priced. These describe opposite ends of the fashion market."
+        },
+        {
+          "id": 3,
+          "a": "She follows the latest trend.",
+          "b": "She follows the latest fashion style.",
+          "answer": "S",
+          "explanation": "Trend and fashion style both describe the popular or current direction in clothing and appearance. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "Fashion is a way to express your identity.",
+          "b": "Fashion is a way to make a statement.",
+          "answer": "S",
+          "explanation": "Expressing your identity and making a statement both describe using fashion to communicate who you are or what you believe. These sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "The brand influences consumer choices.",
+          "b": "The brand controls consumer choices.",
+          "answer": "D",
+          "explanation": "Influence means to have an effect on someone's decisions. Control means to have complete power over them. These are different degrees of impact."
+        },
+        {
+          "id": 6,
+          "a": "She prefers unique clothing.",
+          "b": "She prefers affordable clothing.",
+          "answer": "D",
+          "explanation": "Unique means one-of-a-kind or distinctively different. Affordable means reasonably priced. These describe different qualities — a garment can be unique and expensive, or affordable and common."
+        },
+        {
+          "id": 7,
+          "a": "The industry needs to recycle more materials.",
+          "b": "The industry needs to use more sustainable materials.",
+          "answer": "S",
+          "explanation": "Recycling and using sustainable materials are both environmentally responsible practices in fashion. In this context, both sentences call for more eco-friendly production."
+        },
+        {
+          "id": 8,
+          "a": "His fashion choices reflect his cultural background.",
+          "b": "His fashion choices reflect his identity.",
+          "answer": "S",
+          "explanation": "Cultural background and identity are closely connected — your background shapes your identity. In this context, both sentences say the same thing about fashion as self-expression."
+        },
+        {
+          "id": 9,
+          "a": "The item is from a well-known brand.",
+          "b": "The item is a luxury brand product.",
+          "answer": "D",
+          "explanation": "Well-known means recognised by many people. Luxury means expensive and exclusive. A brand can be well-known without being a luxury brand."
+        },
+        {
+          "id": 10,
+          "a": "Fast fashion has a big impact on the environment.",
+          "b": "Sustainable fashion has a big impact on the environment.",
+          "answer": "D",
+          "explanation": "Fast fashion harms the environment through waste and pollution. Sustainable fashion aims to reduce environmental harm. These describe opposite impacts."
+        }
+      ]
     }
   },
   "answer_key": {

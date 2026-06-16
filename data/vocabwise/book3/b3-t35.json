@@ -558,6 +558,67 @@
           "explanation": "A base-form verb is needed after 'to' in the infinitive clause 'to neglect to _____ your core innovations' — 'patent' as a verb, not the gerund 'patenting' after 'neglect to'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Quá trình nhận thức",
+        "Hành vi xã hội",
+        "Động lực & niềm tin"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "perception",
+          "answer": "Quá trình nhận thức"
+        },
+        {
+          "id": 2,
+          "word": "conformity",
+          "answer": "Hành vi xã hội"
+        },
+        {
+          "id": 3,
+          "word": "self-efficacy",
+          "answer": "Động lực & niềm tin"
+        },
+        {
+          "id": 4,
+          "word": "cognition",
+          "answer": "Quá trình nhận thức"
+        },
+        {
+          "id": 5,
+          "word": "attribution",
+          "answer": "Hành vi xã hội"
+        },
+        {
+          "id": 6,
+          "word": "intrinsic motivation",
+          "answer": "Động lực & niềm tin"
+        },
+        {
+          "id": 7,
+          "word": "heuristic",
+          "answer": "Quá trình nhận thức"
+        },
+        {
+          "id": 8,
+          "word": "reinforcement",
+          "answer": "Hành vi xã hội"
+        },
+        {
+          "id": 9,
+          "word": "mental model",
+          "answer": "Quá trình nhận thức"
+        },
+        {
+          "id": 10,
+          "word": "unconscious",
+          "answer": "Động lực & niềm tin"
+        }
+      ]
     }
   },
   "answer_key": {

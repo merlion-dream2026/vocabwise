@@ -617,6 +617,132 @@
           "explanation": "'Contribute' is the target vocabulary verb for providing something valuable (time, skills, knowledge) to a community or society. 'Give back' is informal and often implies returning something previously received. 'Help out' is also informal and suggests casual, temporary assistance rather than meaningful, ongoing contribution."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "elderly",
+            "senior citizen",
+            "pensioner",
+            "aging population"
+          ],
+          "answer": "aging population",
+          "reason": "elderly, senior citizen, and pensioner all refer to specific older individuals. 'aging population' is a demographic concept — the overall trend of a population becoming older, not an individual person.",
+          "reason_vi": "elderly, senior citizen và pensioner đều chỉ những người lớn tuổi cụ thể. 'aging population' là khái niệm nhân khẩu học — xu hướng tổng thể của dân số trở nên già hơn, không phải một cá nhân."
+        },
+        {
+          "id": 2,
+          "words": [
+            "retire",
+            "pension",
+            "care home",
+            "cognitive decline"
+          ],
+          "answer": "cognitive decline",
+          "reason": "retire, pension, and care home are all things directly associated with old age and life decisions. 'cognitive decline' is a medical/health term — the gradual loss of mental functions — not a life event or social institution.",
+          "reason_vi": "retire, pension và care home đều là thứ liên quan trực tiếp đến tuổi già và quyết định cuộc sống. 'cognitive decline' là thuật ngữ y tế/sức khỏe — sự suy giảm dần dần các chức năng tư duy — không phải sự kiện cuộc sống hay tổ chức xã hội."
+        },
+        {
+          "id": 3,
+          "words": [
+            "elderly",
+            "senior citizen",
+            "pensioner",
+            "isolation"
+          ],
+          "answer": "isolation",
+          "reason": "elderly, senior citizen, and pensioner all describe older people. 'isolation' is a condition — the state of being alone or cut off from others — not a type of person.",
+          "reason_vi": "elderly, senior citizen và pensioner đều mô tả người lớn tuổi. 'isolation' là tình trạng — trạng thái cô đơn hoặc bị cắt đứt khỏi người khác — không phải loại người."
+        },
+        {
+          "id": 4,
+          "words": [
+            "wisdom",
+            "experience",
+            "isolation",
+            "life skills"
+          ],
+          "answer": "isolation",
+          "reason": "wisdom, experience, and life skills are all positive qualities or assets that come with age. 'isolation' is a social problem — feeling cut off from others — not a positive trait.",
+          "reason_vi": "wisdom, experience và life skills đều là phẩm chất hoặc tài sản tích cực đến với tuổi tác. 'isolation' là vấn đề xã hội — cảm giác bị cắt đứt khỏi người khác — không phải đặc điểm tích cực."
+        },
+        {
+          "id": 5,
+          "words": [
+            "retire",
+            "age",
+            "grow older",
+            "cognitive decline"
+          ],
+          "answer": "cognitive decline",
+          "reason": "retire, age, and grow older are all neutral processes — natural stages of life. 'cognitive decline' is specifically a negative medical condition — the loss of mental ability — not a general life process.",
+          "reason_vi": "retire, age và grow older đều là quá trình trung tính — giai đoạn tự nhiên của cuộc sống. 'cognitive decline' đặc biệt là tình trạng y tế tiêu cực — mất khả năng tư duy — không phải quá trình cuộc sống chung."
+        },
+        {
+          "id": 6,
+          "words": [
+            "wisdom",
+            "experience",
+            "life skills",
+            "aging population"
+          ],
+          "answer": "aging population",
+          "reason": "wisdom, experience, and life skills are all personal qualities developed over a lifetime. 'aging population' is a societal concept — a demographic shift, not an individual quality.",
+          "reason_vi": "wisdom, experience và life skills đều là phẩm chất cá nhân được phát triển qua cả cuộc đời. 'aging population' là khái niệm xã hội — sự dịch chuyển nhân khẩu học, không phải phẩm chất cá nhân."
+        },
+        {
+          "id": 7,
+          "words": [
+            "retire",
+            "pension",
+            "care home",
+            "isolation"
+          ],
+          "answer": "isolation",
+          "reason": "retire, pension, and care home are all social and economic structures related to old age. 'isolation' is an emotional and social state — not a structure or system.",
+          "reason_vi": "retire, pension và care home đều là cấu trúc xã hội và kinh tế liên quan đến tuổi già. 'isolation' là trạng thái cảm xúc và xã hội — không phải cấu trúc hay hệ thống."
+        },
+        {
+          "id": 8,
+          "words": [
+            "elderly",
+            "senior citizen",
+            "aging population",
+            "pensioner"
+          ],
+          "answer": "aging population",
+          "reason": "elderly, senior citizen, and pensioner are all terms for individual older people. 'aging population' refers to a group trend — the statistical change in society as a whole.",
+          "reason_vi": "elderly, senior citizen và pensioner đều là thuật ngữ cho từng người lớn tuổi. 'aging population' đề cập đến xu hướng nhóm — sự thay đổi thống kê trong toàn xã hội."
+        },
+        {
+          "id": 9,
+          "words": [
+            "retire",
+            "care home",
+            "pension",
+            "wisdom"
+          ],
+          "answer": "wisdom",
+          "reason": "retire, care home, and pension are all specific aspects of old-age life planning. 'wisdom' is an abstract quality — the insight and judgement that comes with experience — not a specific plan or institution.",
+          "reason_vi": "retire, care home và pension đều là khía cạnh cụ thể của lập kế hoạch cuộc sống tuổi già. 'wisdom' là phẩm chất trừu tượng — sự hiểu biết và phán đoán đến từ kinh nghiệm — không phải kế hoạch hay tổ chức cụ thể."
+        },
+        {
+          "id": 10,
+          "words": [
+            "cognitive decline",
+            "isolation",
+            "aging population",
+            "wisdom"
+          ],
+          "answer": "wisdom",
+          "reason": "cognitive decline, isolation, and aging population are all challenges or phenomena associated with getting older. 'wisdom' is a positive quality — it is what older people gain, not a problem they face.",
+          "reason_vi": "cognitive decline, isolation và aging population đều là thách thức hoặc hiện tượng gắn với việc già đi. 'wisdom' là phẩm chất tích cực — thứ người lớn tuổi đạt được, không phải vấn đề họ đối mặt."
+        }
+      ]
     }
   },
   "answer_key": {

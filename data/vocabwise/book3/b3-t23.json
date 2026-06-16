@@ -550,6 +550,82 @@
           "explanation": "A noun is required as the subject of the sentence — 'trustworthiness', not the adjective 'trustworthy'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The report was biased.",
+          "b": "The report contained disinformation.",
+          "answer": "D",
+          "explanation": "Biased means presenting a one-sided or slanted view. Disinformation means deliberately false information. A biased report may be factually accurate but unbalanced; disinformation is intentionally untrue. These are different."
+        },
+        {
+          "id": 2,
+          "a": "The algorithm amplified divisive content.",
+          "b": "The algorithm created an echo chamber.",
+          "answer": "D",
+          "explanation": "Amplifying divisive content means boosting extreme or polarising posts. Creating an echo chamber means filtering so users only see views they already hold. These are related but different mechanisms."
+        },
+        {
+          "id": 3,
+          "a": "Editorial independence is essential for trustworthy journalism.",
+          "b": "Advertiser pressure undermines editorial independence.",
+          "answer": "D",
+          "explanation": "The first claims that independence is a condition for trust. The second identifies a threat to that independence. These sentences address different aspects of the same issue."
+        },
+        {
+          "id": 4,
+          "a": "Censorship suppresses free expression.",
+          "b": "Regulation limits harmful content.",
+          "answer": "D",
+          "explanation": "Censorship typically implies authoritarian suppression of legitimate speech. Regulation limits specifically harmful content, often with legal safeguards. These are conceptually and legally distinct."
+        },
+        {
+          "id": 5,
+          "a": "Media polarisation divides society.",
+          "b": "Echo chambers reinforce existing beliefs.",
+          "answer": "D",
+          "explanation": "Polarisation is a societal outcome — people moving towards opposing extremes. Echo chambers are a mechanism — the environment in which only agreeable views are heard. These describe different phenomena."
+        },
+        {
+          "id": 6,
+          "a": "Propaganda is used to manipulate public opinion.",
+          "b": "Advertising is used to manipulate public opinion.",
+          "answer": "S",
+          "explanation": "Both propaganda and advertising use persuasive techniques to influence what people think or do. In this context, these sentences make the same fundamental claim about intent."
+        },
+        {
+          "id": 7,
+          "a": "The newspaper had a clear editorial agenda.",
+          "b": "The newspaper prioritised speed over accuracy.",
+          "answer": "D",
+          "explanation": "An editorial agenda is a set of values or positions shaping coverage. Prioritising speed over accuracy is a news production decision. These describe different aspects of journalism."
+        },
+        {
+          "id": 8,
+          "a": "Disinformation is always accidental.",
+          "b": "Disinformation is always deliberate.",
+          "answer": "D",
+          "explanation": "Disinformation is defined as deliberately false information. The first sentence is incorrect; the second matches the definition. These sentences make opposite claims."
+        },
+        {
+          "id": 9,
+          "a": "The story was distorted.",
+          "b": "The story was fabricated.",
+          "answer": "D",
+          "explanation": "Distorted means partially true but warped or misrepresented. Fabricated means entirely made up. A distorted story contains some true elements; a fabricated one does not."
+        },
+        {
+          "id": 10,
+          "a": "The journalist set the agenda.",
+          "b": "The journalist influenced what the public thought about.",
+          "answer": "S",
+          "explanation": "Agenda-setting in media theory means the media shapes which issues the public considers important. Influencing what the public thinks about is the same concept. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

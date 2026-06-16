@@ -559,6 +559,132 @@
           "explanation": "A noun is required after 'form of' — 'scaffolding', not the base verb 'scaffold'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "groupthink",
+            "obedience",
+            "deindividuation",
+            "empathy"
+          ],
+          "answer": "empathy",
+          "reason": "groupthink, obedience, and deindividuation are all phenomena where individual judgement is suppressed by group or authority pressure. 'empathy' is a positive cognitive quality — the ability to understand others' feelings, not a form of social compliance.",
+          "reason_vi": "groupthink, obedience và deindividuation đều là hiện tượng mà phán xét cá nhân bị áp đặt bởi áp lực nhóm hoặc quyền lực. 'empathy' là phẩm chất nhận thức tích cực — khả năng hiểu cảm xúc của người khác, không phải dạng tuân thủ xã hội."
+        },
+        {
+          "id": 2,
+          "words": [
+            "socialisation",
+            "norm",
+            "ingroup",
+            "prejudice"
+          ],
+          "answer": "prejudice",
+          "reason": "socialisation, norm, and ingroup are all neutral sociological concepts describing how society shapes and groups individuals. 'prejudice' is a negative bias — a preconceived and unfair attitude towards members of an outgroup.",
+          "reason_vi": "socialisation, norm và ingroup đều là khái niệm xã hội học trung tính. 'prejudice' là thành kiến tiêu cực — thái độ không công bằng định sẵn đối với thành viên của nhóm ngoài."
+        },
+        {
+          "id": 3,
+          "words": [
+            "groupthink",
+            "obedience",
+            "deindividuation",
+            "socialisation"
+          ],
+          "answer": "socialisation",
+          "reason": "groupthink, obedience, and deindividuation are all negative or problematic group dynamics — situations where individuals lose autonomous judgement. 'socialisation' is neutral or positive — the process of learning to function within society.",
+          "reason_vi": "groupthink, obedience và deindividuation đều là các động lực nhóm tiêu cực hoặc có vấn đề. 'socialisation' là trung tính hoặc tích cực — quá trình học cách hoạt động trong xã hội."
+        },
+        {
+          "id": 4,
+          "words": [
+            "persuasion",
+            "prejudice",
+            "bystander effect",
+            "deindividuation"
+          ],
+          "answer": "persuasion",
+          "reason": "prejudice, bystander effect, and deindividuation are all social psychology problems — ways individuals fail or are harmed by social dynamics. 'persuasion' is a neutral or positive communication strategy — the use of reasoning or appeal to change minds.",
+          "reason_vi": "prejudice, bystander effect và deindividuation đều là vấn đề tâm lý xã hội. 'persuasion' là chiến lược giao tiếp trung tính hoặc tích cực — sử dụng lý luận hoặc kêu gọi để thay đổi suy nghĩ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "socialisation",
+            "norm",
+            "ingroup",
+            "bystander effect"
+          ],
+          "answer": "bystander effect",
+          "reason": "socialisation, norm, and ingroup are foundational sociological concepts — how society shapes people. 'bystander effect' is a specific behavioural phenomenon — the tendency to not help in emergencies when others are present.",
+          "reason_vi": "socialisation, norm và ingroup là khái niệm xã hội học nền tảng. 'bystander effect' là hiện tượng hành vi cụ thể — xu hướng không giúp đỡ trong tình huống khẩn cấp khi có người khác hiện diện."
+        },
+        {
+          "id": 6,
+          "words": [
+            "groupthink",
+            "obedience",
+            "prejudice",
+            "empathy"
+          ],
+          "answer": "empathy",
+          "reason": "groupthink, obedience, and prejudice are all psychological tendencies with negative social consequences. 'empathy' is a positive quality — it builds understanding and connection, not conformity or bias.",
+          "reason_vi": "groupthink, obedience và prejudice đều là xu hướng tâm lý với hậu quả xã hội tiêu cực. 'empathy' là phẩm chất tích cực — xây dựng sự hiểu biết và kết nối, không phải sự tuân thủ hay thành kiến."
+        },
+        {
+          "id": 7,
+          "words": [
+            "persuasion",
+            "norm",
+            "ingroup",
+            "socialisation"
+          ],
+          "answer": "persuasion",
+          "reason": "norm, ingroup, and socialisation are all sociological concepts about group membership and social structure. 'persuasion' is a communication process — influencing beliefs through argument, not a structural social concept.",
+          "reason_vi": "norm, ingroup và socialisation đều là khái niệm xã hội học về thành viên nhóm và cấu trúc xã hội. 'persuasion' là quá trình giao tiếp — ảnh hưởng đến niềm tin qua lập luận, không phải khái niệm xã hội cấu trúc."
+        },
+        {
+          "id": 8,
+          "words": [
+            "groupthink",
+            "deindividuation",
+            "bystander effect",
+            "empathy"
+          ],
+          "answer": "empathy",
+          "reason": "groupthink, deindividuation, and bystander effect all describe failures of individual responsibility in social settings. 'empathy' is a capacity that, if present, would counter those failures.",
+          "reason_vi": "groupthink, deindividuation và bystander effect đều mô tả sự thất bại trách nhiệm cá nhân trong môi trường xã hội. 'empathy' là năng lực mà nếu có mặt, sẽ chống lại những thất bại đó."
+        },
+        {
+          "id": 9,
+          "words": [
+            "socialisation",
+            "norm",
+            "prejudice",
+            "ingroup"
+          ],
+          "answer": "prejudice",
+          "reason": "socialisation, norm, and ingroup are all descriptive sociological concepts — how society functions. 'prejudice' is a negative evaluative bias — an unfair attitude not inherent to social structure itself.",
+          "reason_vi": "socialisation, norm và ingroup đều là khái niệm xã hội học mô tả — cách xã hội vận hành. 'prejudice' là thành kiến đánh giá tiêu cực — thái độ không công bằng không vốn có trong cấu trúc xã hội."
+        },
+        {
+          "id": 10,
+          "words": [
+            "persuasion",
+            "bystander effect",
+            "deindividuation",
+            "groupthink"
+          ],
+          "answer": "persuasion",
+          "reason": "bystander effect, deindividuation, and groupthink are all situations where individual agency breaks down under social pressure. 'persuasion' is a deliberate communicative strategy — it involves reasoned influence, not loss of individual agency.",
+          "reason_vi": "bystander effect, deindividuation và groupthink đều là tình huống mà sự tự chủ cá nhân bị sụp đổ dưới áp lực xã hội. 'persuasion' là chiến lược giao tiếp có chủ đích — liên quan đến ảnh hưởng có lý luận, không phải mất đi sự tự chủ cá nhân."
+        }
+      ]
     }
   },
   "answer_key": {

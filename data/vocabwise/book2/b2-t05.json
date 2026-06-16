@@ -591,6 +591,132 @@
           "explanation": "'Opposition' is the noun — the party not in power."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "democracy",
+            "election",
+            "vote",
+            "candidate"
+          ],
+          "answer": "candidate",
+          "reason": "democracy, election, and vote are all concepts or processes in a political system. 'candidate' is a person — someone who stands to be elected, not a process.",
+          "reason_vi": "democracy, election và vote đều là khái niệm hoặc quy trình trong hệ thống chính trị. 'candidate' là người — người đứng ra để được bầu, không phải quy trình."
+        },
+        {
+          "id": 2,
+          "words": [
+            "policy",
+            "constitution",
+            "reform",
+            "govern"
+          ],
+          "answer": "govern",
+          "reason": "policy, constitution, and reform are all nouns — documents, rules, or changes in a political system. 'govern' is a verb — the action of running a country or organisation.",
+          "reason_vi": "policy, constitution và reform đều là danh từ — tài liệu, quy tắc hoặc thay đổi trong hệ thống chính trị. 'govern' là động từ — hành động điều hành một đất nước hoặc tổ chức."
+        },
+        {
+          "id": 3,
+          "words": [
+            "parliament",
+            "authority",
+            "lawmaker",
+            "debate"
+          ],
+          "answer": "debate",
+          "reason": "parliament, authority, and lawmaker are all institutions or people involved in making decisions. 'debate' is a process — a formal discussion of ideas and arguments.",
+          "reason_vi": "parliament, authority và lawmaker đều là tổ chức hoặc người tham gia ra quyết định. 'debate' là quá trình — thảo luận chính thức về ý kiến và lập luận."
+        },
+        {
+          "id": 4,
+          "words": [
+            "taxation",
+            "election",
+            "vote",
+            "citizen"
+          ],
+          "answer": "citizen",
+          "reason": "taxation, election, and vote are all processes or systems in governance. 'citizen' is a person — a member of a country with legal rights and responsibilities.",
+          "reason_vi": "taxation, election và vote đều là quy trình hoặc hệ thống trong quản trị. 'citizen' là người — thành viên của đất nước với quyền và trách nhiệm pháp lý."
+        },
+        {
+          "id": 5,
+          "words": [
+            "policy",
+            "constitution",
+            "reform",
+            "opposition"
+          ],
+          "answer": "opposition",
+          "reason": "policy, constitution, and reform are documents or concepts about how a country is governed. 'opposition' is a group of people — politicians who challenge the government in power.",
+          "reason_vi": "policy, constitution và reform là tài liệu hoặc khái niệm về cách đất nước được quản lý. 'opposition' là nhóm người — chính trị gia phản đối chính phủ đương quyền."
+        },
+        {
+          "id": 6,
+          "words": [
+            "democracy",
+            "parliament",
+            "constitution",
+            "taxation"
+          ],
+          "answer": "taxation",
+          "reason": "democracy, parliament, and constitution all relate to the structure and system of government. 'taxation' is a government function — raising money through taxes, not a structural concept.",
+          "reason_vi": "democracy, parliament và constitution đều liên quan đến cấu trúc và hệ thống chính phủ. 'taxation' là chức năng của chính phủ — thu tiền qua thuế, không phải khái niệm cấu trúc."
+        },
+        {
+          "id": 7,
+          "words": [
+            "candidate",
+            "citizen",
+            "lawmaker",
+            "election"
+          ],
+          "answer": "election",
+          "reason": "candidate, citizen, and lawmaker are all people who play a role in a political system. 'election' is an event — the process of choosing representatives by voting.",
+          "reason_vi": "candidate, citizen và lawmaker đều là người đóng vai trò trong hệ thống chính trị. 'election' là sự kiện — quá trình lựa chọn đại diện bằng cách bỏ phiếu."
+        },
+        {
+          "id": 8,
+          "words": [
+            "taxation",
+            "policy",
+            "reform",
+            "authority"
+          ],
+          "answer": "authority",
+          "reason": "taxation, policy, and reform are all actions or changes that a government takes. 'authority' is the power or right to make decisions — it is what enables those actions, not an action itself.",
+          "reason_vi": "taxation, policy và reform đều là hành động hoặc thay đổi mà chính phủ thực hiện. 'authority' là quyền lực hoặc quyền ra quyết định — thứ cho phép những hành động đó, không phải bản thân hành động."
+        },
+        {
+          "id": 9,
+          "words": [
+            "debate",
+            "vote",
+            "election",
+            "parliament"
+          ],
+          "answer": "parliament",
+          "reason": "debate, vote, and election are all processes or actions that happen in a democratic system. 'parliament' is an institution — the building and body where those processes take place.",
+          "reason_vi": "debate, vote và election đều là quy trình hoặc hành động trong hệ thống dân chủ. 'parliament' là tổ chức — tòa nhà và cơ quan nơi các quy trình đó diễn ra."
+        },
+        {
+          "id": 10,
+          "words": [
+            "candidate",
+            "citizen",
+            "lawmaker",
+            "govern"
+          ],
+          "answer": "govern",
+          "reason": "candidate, citizen, and lawmaker are all nouns — types of people in a political system. 'govern' is a verb — the action of leading or controlling a country.",
+          "reason_vi": "candidate, citizen và lawmaker đều là danh từ — loại người trong hệ thống chính trị. 'govern' là động từ — hành động lãnh đạo hoặc kiểm soát một đất nước."
+        }
+      ]
     }
   },
   "answer_key": {

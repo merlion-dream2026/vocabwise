@@ -588,6 +588,82 @@
           "explanation": "Present continuous form needed: is growing."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The population is increasing rapidly.",
+          "b": "The area is becoming more crowded.",
+          "answer": "S",
+          "explanation": "A rapidly increasing population and a place becoming more crowded both describe the same situation — more people are living in the same space."
+        },
+        {
+          "id": 2,
+          "a": "She prefers rural living.",
+          "b": "She prefers peaceful living.",
+          "answer": "S",
+          "explanation": "Rural and peaceful are often used together to describe the calm, quiet lifestyle of the countryside. In this context, the sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "People migrate to the city for a better life.",
+          "b": "People move to the city for a better life.",
+          "answer": "S",
+          "explanation": "Migrate and move both describe the action of going from one place to live in another. These sentences express the same idea."
+        },
+        {
+          "id": 4,
+          "a": "The gap between rich and poor is large.",
+          "b": "The difference between rich and poor is large.",
+          "answer": "S",
+          "explanation": "Gap and difference both describe an inequality between two things. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "The city offers many opportunities for young people.",
+          "b": "The city offers many chances for young people.",
+          "answer": "S",
+          "explanation": "Opportunity and chance both mean a favourable situation that allows someone to do something. These sentences say the same thing."
+        },
+        {
+          "id": 6,
+          "a": "The area is very urban.",
+          "b": "The area is very rural.",
+          "answer": "D",
+          "explanation": "Urban and rural are opposites. Urban describes a city environment; rural describes a countryside environment. These sentences describe completely different areas."
+        },
+        {
+          "id": 7,
+          "a": "The neighbourhood is crowded.",
+          "b": "The neighbourhood is peaceful.",
+          "answer": "D",
+          "explanation": "Crowded and peaceful are opposites in this context. Crowded means full of people and noise; peaceful means calm and quiet."
+        },
+        {
+          "id": 8,
+          "a": "She migrates to the city permanently.",
+          "b": "She commutes to the city every day.",
+          "answer": "D",
+          "explanation": "Migrate means to move permanently to a new place. Commute means to travel regularly between home and work without moving permanently. These describe very different situations."
+        },
+        {
+          "id": 9,
+          "a": "The area suffers from poverty.",
+          "b": "The area has good access to services.",
+          "answer": "D",
+          "explanation": "Poverty describes a severe lack of money and resources. Having good access to services describes a well-connected area. These sentences describe opposite situations."
+        },
+        {
+          "id": 10,
+          "a": "She lives in the suburb.",
+          "b": "She lives in the urban centre.",
+          "answer": "D",
+          "explanation": "A suburb is a residential area on the edge of a city. An urban centre is the city itself. These describe different locations relative to the city."
+        }
+      ]
     }
   },
   "answer_key": {

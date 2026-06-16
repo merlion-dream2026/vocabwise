@@ -560,6 +560,82 @@
           "explanation": "'Statute' means a formally enacted law; 'statue' is a sculptural figure — identical pronunciation but entirely different meaning."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Rehabilitation focuses on reintegrating offenders into society.",
+          "b": "Deterrence focuses on preventing future crime through punishment.",
+          "answer": "D",
+          "explanation": "Rehabilitation and deterrence are two distinct criminal justice philosophies. Rehabilitation aims to reform; deterrence aims to discourage through fear of consequences. These sentences describe different approaches."
+        },
+        {
+          "id": 2,
+          "a": "The verdict was based on legal precedent.",
+          "b": "The verdict followed established law.",
+          "answer": "S",
+          "explanation": "Legal precedent and established law are closely related — both refer to prior rulings and statutes that guide current judicial decisions. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "He was found culpable.",
+          "b": "He was found guilty.",
+          "answer": "S",
+          "explanation": "Culpable means morally or legally responsible for wrongdoing. Guilty means the same in a legal context. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "Restorative justice brings offenders and victims together.",
+          "b": "Punitive sentencing removes offenders from society.",
+          "answer": "D",
+          "explanation": "Restorative justice focuses on repair and dialogue between parties. Punitive sentencing focuses on punishment and exclusion. These are contrasting justice philosophies."
+        },
+        {
+          "id": 5,
+          "a": "The prosecution presented insufficient evidence.",
+          "b": "The defendant was acquitted.",
+          "answer": "D",
+          "explanation": "The first sentence describes a weakness in the prosecution's case. The second describes the verdict. Insufficient evidence may lead to acquittal, but these sentences describe different things."
+        },
+        {
+          "id": 6,
+          "a": "Recidivism rates remain high despite longer sentences.",
+          "b": "Longer sentences have not reduced reoffending.",
+          "answer": "S",
+          "explanation": "High recidivism rates mean offenders reoffend. Not reducing reoffending is the same outcome. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "The statute was repealed.",
+          "b": "The law was overturned.",
+          "answer": "S",
+          "explanation": "Statute and law refer to the same thing in this context — a written rule enacted by a legislature. Repealed and overturned both mean officially removed or cancelled. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "Deterrence requires the threat of punishment to be credible.",
+          "b": "Rehabilitation requires the punishment to be harsh.",
+          "answer": "D",
+          "explanation": "Deterrence theory requires that punishments be credible threats. Rehabilitation theory focuses on reforming the individual — it does not require harsh punishment, and may in fact oppose it."
+        },
+        {
+          "id": 9,
+          "a": "The judiciary is independent.",
+          "b": "The courts are free from political interference.",
+          "answer": "S",
+          "explanation": "An independent judiciary and courts free from political interference are the same concept — a legal system that operates without pressure from the government or other powers. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The suspect was prosecuted.",
+          "b": "The suspect was convicted.",
+          "answer": "D",
+          "explanation": "Prosecution means being formally charged and tried. Conviction means being found guilty at trial. You can be prosecuted without being convicted if found not guilty. These describe different outcomes."
+        }
+      ]
     }
   },
   "answer_key": {

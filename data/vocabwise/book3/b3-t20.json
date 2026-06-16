@@ -556,6 +556,82 @@
           "explanation": "A verb is required in the relative clause 'that _____ their operations' — 'sustain' in the present simple, not the adjective 'sustainable'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Mitigation reduces the severity of climate change.",
+          "b": "Adaptation adjusts society to the effects of climate change.",
+          "answer": "D",
+          "explanation": "Mitigation and adaptation are two distinct climate strategies. Mitigation reduces the causes (e.g. cutting emissions). Adaptation manages consequences (e.g. building flood defences). These sentences describe different approaches."
+        },
+        {
+          "id": 2,
+          "a": "Deforestation threatens biodiversity.",
+          "b": "Deforestation reduces ecosystem health.",
+          "answer": "S",
+          "explanation": "Biodiversity and ecosystem health are closely linked — destroying forests reduces species diversity and destabilises ecosystems. These sentences describe the same environmental harm."
+        },
+        {
+          "id": 3,
+          "a": "Sustainability requires reducing carbon footprints.",
+          "b": "Custodianship of the environment is a moral obligation.",
+          "answer": "D",
+          "explanation": "Sustainability is an environmental practice. Custodianship refers to a sense of moral duty to care for the Earth. These are related but conceptually distinct — one is practical, the other ethical."
+        },
+        {
+          "id": 4,
+          "a": "Emissions must be cut to avoid the climate tipping point.",
+          "b": "Emissions must be cut to reverse climate change already in progress.",
+          "answer": "D",
+          "explanation": "Avoiding a tipping point means preventing an irreversible threshold from being crossed. Reversing change already in progress means undoing damage already done. These are different stages of climate action."
+        },
+        {
+          "id": 5,
+          "a": "Protecting biodiversity is essential for ecosystem stability.",
+          "b": "Protecting biodiversity is one factor in ecosystem health.",
+          "answer": "D",
+          "explanation": "Essential means it is necessary. One factor means it contributes but is not solely decisive. These sentences make different claims about the importance of biodiversity."
+        },
+        {
+          "id": 6,
+          "a": "The planet's carbon footprint is rising.",
+          "b": "Global emissions are increasing.",
+          "answer": "S",
+          "explanation": "Carbon footprint and emissions both refer to the volume of greenhouse gases released. Rising and increasing describe the same trend. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "Climate mitigation aims to prevent future damage.",
+          "b": "Climate mitigation aims to repair past damage.",
+          "answer": "D",
+          "explanation": "Mitigation is forward-looking — it acts on causes to limit future harm. Repairing past damage is remediation — undoing harm already done. These are different goals."
+        },
+        {
+          "id": 8,
+          "a": "Sustainable development meets present needs without compromising future ones.",
+          "b": "Sustainable development prioritises economic growth above all else.",
+          "answer": "D",
+          "explanation": "The first sentence is the classic definition of sustainability — balancing present and future. Prioritising economic growth above all else is the opposite of sustainability. These are conflicting ideas."
+        },
+        {
+          "id": 9,
+          "a": "Deforestation is a major driver of biodiversity loss.",
+          "b": "Habitat destruction is a major driver of biodiversity loss.",
+          "answer": "S",
+          "explanation": "Deforestation is a specific form of habitat destruction — clearing forests. Both sentences identify the same causal relationship: destroying habitat leads to losing species."
+        },
+        {
+          "id": 10,
+          "a": "We have a moral duty as custodians of the Earth.",
+          "b": "We are legally obligated to protect the environment.",
+          "answer": "D",
+          "explanation": "Custodianship implies a moral or ethical responsibility. Legal obligation means it is required by law. These sentences describe different types of duty."
+        }
+      ]
     }
   },
   "answer_key": {

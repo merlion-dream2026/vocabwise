@@ -643,6 +643,82 @@
           "explanation": "'Judge carefully' is the target vocabulary phrase for the deliberate, analytical process of evaluating arguments and evidence before forming a conclusion. 'Careful' is an adjective, not the specific action phrase. 'Thoughtful' describes a personality trait. 'Judging carefully' is an acceptable alternative form, but 'judge carefully' is the precise target phrase from this topic — the verb form used in the passage and exercises."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She made a strong argument.",
+          "b": "She made a convincing point.",
+          "answer": "S",
+          "explanation": "A strong argument and a convincing point both describe reasoning that persuades others. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "He agreed with the speaker.",
+          "b": "He disagreed with the speaker.",
+          "answer": "D",
+          "explanation": "Agreed and disagreed are opposites. These sentences describe opposite responses to the speaker."
+        },
+        {
+          "id": 3,
+          "a": "She expressed her opinion clearly.",
+          "b": "She gave her point of view clearly.",
+          "answer": "S",
+          "explanation": "Expressing your opinion and giving your point of view both describe communicating your personal views. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "He interrupted the speaker.",
+          "b": "He listened carefully to the speaker.",
+          "answer": "D",
+          "explanation": "Interrupting means breaking in while someone is speaking. Listening carefully means giving full attention without interruption. These are opposite behaviours."
+        },
+        {
+          "id": 5,
+          "a": "I see your point, but I disagree.",
+          "b": "I understand what you are saying, but I have a different view.",
+          "answer": "S",
+          "explanation": "Seeing your point and understanding what you are saying both acknowledge the speaker's position. Having a different view and disagreeing both express a contrasting opinion. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "The debate was one-sided.",
+          "b": "The debate had balanced perspectives.",
+          "answer": "D",
+          "explanation": "One-sided means only one perspective was presented. Balanced means multiple views were given equal consideration. These describe opposite types of discussion."
+        },
+        {
+          "id": 7,
+          "a": "She backed up her claim with evidence.",
+          "b": "She supported her argument with facts.",
+          "answer": "S",
+          "explanation": "Backing up a claim with evidence and supporting an argument with facts both describe the same practice — providing proof to strengthen your position."
+        },
+        {
+          "id": 8,
+          "a": "He changed his mind after the discussion.",
+          "b": "He remained firm in his opinion after the discussion.",
+          "answer": "D",
+          "explanation": "Changing his mind means his view shifted. Remaining firm means he kept the same view. These are opposite outcomes of the discussion."
+        },
+        {
+          "id": 9,
+          "a": "She was persuaded by his argument.",
+          "b": "She was not convinced by his argument.",
+          "answer": "D",
+          "explanation": "Being persuaded means she changed her view. Not being convinced means she did not. These are opposite responses."
+        },
+        {
+          "id": 10,
+          "a": "They came to an agreement after the discussion.",
+          "b": "They reached a compromise after the discussion.",
+          "answer": "S",
+          "explanation": "Coming to an agreement and reaching a compromise both describe a situation where two parties find a shared position or solution. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

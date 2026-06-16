@@ -614,6 +614,82 @@
           "explanation": "'Awareness' is the marketing term for how familiar the target audience is with a brand — it is the standard goal of early-stage campaigns; 'popularity' relates to how liked something is, and 'recognition' is narrower, referring only to visual identification."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The company advertises its product online.",
+          "b": "The company promotes its product online.",
+          "answer": "S",
+          "explanation": "Advertise and promote both mean to make people aware of and interested in a product. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The ad has a clever tagline.",
+          "b": "The ad has a clever catch phrase.",
+          "answer": "S",
+          "explanation": "Tagline and catch phrase both refer to a short, memorable phrase used in advertising. These sentences describe the same thing."
+        },
+        {
+          "id": 3,
+          "a": "The campaign targets young consumers.",
+          "b": "The campaign aims at young consumers.",
+          "answer": "S",
+          "explanation": "Target and aim at both mean to direct something at a specific group. These sentences express the same marketing intention."
+        },
+        {
+          "id": 4,
+          "a": "The ad appeals to emotions.",
+          "b": "The ad raises awareness.",
+          "answer": "D",
+          "explanation": "Appeal to emotions means using feelings to persuade. Raise awareness means informing people about an issue. These are different advertising strategies."
+        },
+        {
+          "id": 5,
+          "a": "The sponsor funds the event.",
+          "b": "The sponsor promotes the event.",
+          "answer": "D",
+          "explanation": "A sponsor funds an event by providing money. Promoting an event means marketing it. These are different roles — one provides money, the other creates visibility."
+        },
+        {
+          "id": 6,
+          "a": "The message is very persuasive.",
+          "b": "The message is very effective.",
+          "answer": "S",
+          "explanation": "A persuasive message and an effective message both describe something that successfully achieves its goal of influencing the audience. In context, these sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "The brand has a strong strategy.",
+          "b": "The brand has a strong campaign.",
+          "answer": "D",
+          "explanation": "A strategy is the overall plan for achieving goals. A campaign is a specific, time-limited set of activities. A brand can have a strategy that includes many campaigns."
+        },
+        {
+          "id": 8,
+          "a": "The product targets a specific audience.",
+          "b": "The product appeals to a specific audience.",
+          "answer": "S",
+          "explanation": "Target and appeal to both describe directing a product or message toward a particular group. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "They use social media to promote the brand.",
+          "b": "They use social media to advertise the brand.",
+          "answer": "S",
+          "explanation": "Promote and advertise both describe activities used to increase awareness and interest in a brand. In this context, these sentences mean the same thing."
+        },
+        {
+          "id": 10,
+          "a": "The campaign raised consumer awareness.",
+          "b": "The campaign persuaded consumers to buy.",
+          "answer": "D",
+          "explanation": "Raising awareness means informing people. Persuading to buy means influencing a purchasing decision. These are different outcomes of an advertising campaign."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -560,6 +560,132 @@
           "explanation": "A noun is required after 'fairer' to serve as the object of 'for' — 'allocation', not the verb 'allocate'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "morbidity",
+            "mortality",
+            "disparity",
+            "provision"
+          ],
+          "answer": "provision",
+          "reason": "morbidity, mortality, and disparity are all outcome measures — statistics used to evaluate population health. 'provision' is a resource concept — the supply of healthcare services, not a health outcome.",
+          "reason_vi": "morbidity, mortality và disparity đều là thước đo kết quả — thống kê dùng để đánh giá sức khỏe dân số. 'provision' là khái niệm về nguồn lực — nguồn cung cấp dịch vụ chăm sóc sức khỏe, không phải kết quả sức khỏe."
+        },
+        {
+          "id": 2,
+          "words": [
+            "universal",
+            "universality",
+            "privatisation",
+            "triage"
+          ],
+          "answer": "triage",
+          "reason": "universal, universality, and privatisation are all concepts about the scope and ownership of healthcare. 'triage' is a clinical process — the prioritisation of patients based on urgency of need, not a systemic policy concept.",
+          "reason_vi": "universal, universality và privatisation đều là khái niệm về phạm vi và sở hữu của y tế. 'triage' là quá trình lâm sàng — ưu tiên bệnh nhân dựa trên mức độ cấp bách, không phải khái niệm chính sách hệ thống."
+        },
+        {
+          "id": 3,
+          "words": [
+            "morbidity",
+            "mortality",
+            "preventable",
+            "allocation"
+          ],
+          "answer": "allocation",
+          "reason": "morbidity, mortality, and preventable are all measures or qualities of health outcomes. 'allocation' is a process — the distribution of limited medical resources, not an outcome measure.",
+          "reason_vi": "morbidity, mortality và preventable đều là thước đo hoặc phẩm chất của kết quả sức khỏe. 'allocation' là quá trình — phân phối nguồn lực y tế hạn chế, không phải thước đo kết quả."
+        },
+        {
+          "id": 4,
+          "words": [
+            "universal",
+            "universality",
+            "provision",
+            "disparity"
+          ],
+          "answer": "disparity",
+          "reason": "universal, universality, and provision describe the reach and supply of healthcare. 'disparity' is a problem — an unequal gap in access or outcomes between different groups.",
+          "reason_vi": "universal, universality và provision mô tả phạm vi và nguồn cung của chăm sóc sức khỏe. 'disparity' là vấn đề — khoảng cách bất bình đẳng về khả năng tiếp cận hoặc kết quả giữa các nhóm khác nhau."
+        },
+        {
+          "id": 5,
+          "words": [
+            "triage",
+            "allocation",
+            "privatisation",
+            "morbidity"
+          ],
+          "answer": "morbidity",
+          "reason": "triage, allocation, and privatisation are all system-level processes or structures in healthcare. 'morbidity' is an epidemiological measure — the rate at which people fall ill in a given population.",
+          "reason_vi": "triage, allocation và privatisation đều là quá trình hoặc cấu trúc ở cấp độ hệ thống trong y tế. 'morbidity' là thước đo dịch tễ học — tỷ lệ mắc bệnh trong một dân số nhất định."
+        },
+        {
+          "id": 6,
+          "words": [
+            "preventable",
+            "universal",
+            "mortality",
+            "morbidity"
+          ],
+          "answer": "preventable",
+          "reason": "universal, mortality, and morbidity are all technical healthcare or population health concepts. 'preventable' is an evaluative adjective — it judges whether a death or illness could have been avoided with appropriate care.",
+          "reason_vi": "universal, mortality và morbidity đều là khái niệm y tế hoặc sức khỏe dân số kỹ thuật. 'preventable' là tính từ đánh giá — phán xét liệu tử vong hoặc bệnh tật có thể tránh được với chăm sóc thích hợp không."
+        },
+        {
+          "id": 7,
+          "words": [
+            "allocation",
+            "provision",
+            "triage",
+            "disparity"
+          ],
+          "answer": "disparity",
+          "reason": "allocation, provision, and triage are all operational concepts — actions or processes in the delivery of healthcare. 'disparity' is an outcome concept — describing an unequal result rather than a process.",
+          "reason_vi": "allocation, provision và triage đều là khái niệm vận hành — hành động hoặc quá trình trong cung cấp chăm sóc sức khỏe. 'disparity' là khái niệm kết quả — mô tả kết quả bất bình đẳng thay vì quá trình."
+        },
+        {
+          "id": 8,
+          "words": [
+            "universal",
+            "universality",
+            "privatisation",
+            "preventable"
+          ],
+          "answer": "preventable",
+          "reason": "universal, universality, and privatisation are systemic or ideological concepts about how healthcare should be organised. 'preventable' is a clinical descriptor — a judgement about whether a condition could have been avoided.",
+          "reason_vi": "universal, universality và privatisation là khái niệm hệ thống hoặc ý thức hệ về cách tổ chức y tế. 'preventable' là mô tả lâm sàng — phán xét về việc liệu tình trạng có thể tránh được không."
+        },
+        {
+          "id": 9,
+          "words": [
+            "morbidity",
+            "mortality",
+            "provision",
+            "disparity"
+          ],
+          "answer": "provision",
+          "reason": "morbidity, mortality, and disparity are all evaluative measures — ways of assessing how well a population is served by healthcare. 'provision' is what is being evaluated — the actual supply and delivery of services.",
+          "reason_vi": "morbidity, mortality và disparity đều là thước đo đánh giá — cách đánh giá dân số được phục vụ bởi y tế. 'provision' là thứ được đánh giá — nguồn cung và cung cấp dịch vụ thực tế."
+        },
+        {
+          "id": 10,
+          "words": [
+            "triage",
+            "allocation",
+            "privatisation",
+            "preventable"
+          ],
+          "answer": "preventable",
+          "reason": "triage, allocation, and privatisation are all operational or structural healthcare concepts. 'preventable' is a clinical judgement — the assessment of whether a health event was avoidable.",
+          "reason_vi": "triage, allocation và privatisation đều là khái niệm y tế vận hành hoặc cấu trúc. 'preventable' là phán quyết lâm sàng — đánh giá liệu sự kiện sức khỏe có thể tránh được không."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -559,6 +559,132 @@
           "explanation": "A noun is required as the subject of the sentence — 'fragmentation', not the verb 'fragment'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "nuclear",
+            "extended",
+            "reconstituted",
+            "cohabitation"
+          ],
+          "answer": "cohabitation",
+          "reason": "nuclear, extended, and reconstituted are all adjectives describing types of family structure. 'cohabitation' is a noun — a living arrangement where partners live together without marrying, not a family type adjective.",
+          "reason_vi": "nuclear, extended và reconstituted đều là tính từ mô tả các loại cấu trúc gia đình. 'cohabitation' là danh từ — sắp xếp sống chung không kết hôn, không phải tính từ chỉ loại gia đình."
+        },
+        {
+          "id": 2,
+          "words": [
+            "dysfunction",
+            "fragmentation",
+            "obligation",
+            "kinship"
+          ],
+          "answer": "obligation",
+          "reason": "dysfunction, fragmentation, and kinship are all concepts that describe the nature or condition of a family. 'obligation' describes a duty — something a person must do, which is a personal or legal matter, not a description of family condition.",
+          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm mô tả bản chất hoặc tình trạng của gia đình. 'obligation' mô tả nghĩa vụ — thứ một người phải làm, không phải mô tả tình trạng gia đình."
+        },
+        {
+          "id": 3,
+          "words": [
+            "nuclear",
+            "extended",
+            "reconstituted",
+            "dysfunction"
+          ],
+          "answer": "dysfunction",
+          "reason": "nuclear, extended, and reconstituted are all structural types of family — labels for how families are composed. 'dysfunction' is a characteristic — a description of a troubled or unhealthy family dynamic, not a structural type.",
+          "reason_vi": "nuclear, extended và reconstituted đều là các loại cấu trúc gia đình. 'dysfunction' là đặc điểm — mô tả gia đình có vấn đề hoặc không lành mạnh, không phải loại cấu trúc."
+        },
+        {
+          "id": 4,
+          "words": [
+            "custody",
+            "cohabitation",
+            "obligation",
+            "parenting"
+          ],
+          "answer": "obligation",
+          "reason": "custody, cohabitation, and parenting are all practices — specific ways of living and caring within a family. 'obligation' is an abstract duty — a moral or legal requirement, not a concrete family practice.",
+          "reason_vi": "custody, cohabitation và parenting đều là thực hành — cách cụ thể để sống và chăm sóc trong gia đình. 'obligation' là nghĩa vụ trừu tượng — yêu cầu đạo đức hoặc pháp lý, không phải thực hành gia đình cụ thể."
+        },
+        {
+          "id": 5,
+          "words": [
+            "dysfunction",
+            "fragmentation",
+            "kinship",
+            "custody"
+          ],
+          "answer": "custody",
+          "reason": "dysfunction, fragmentation, and kinship are all concepts about the nature or quality of family bonds. 'custody' is a legal arrangement — specifying who is responsible for a child after a family separation.",
+          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm về bản chất hoặc chất lượng của quan hệ gia đình. 'custody' là sắp xếp pháp lý — chỉ định ai chịu trách nhiệm với trẻ sau khi gia đình ly tán."
+        },
+        {
+          "id": 6,
+          "words": [
+            "nuclear",
+            "extended",
+            "reconstituted",
+            "fragmentation"
+          ],
+          "answer": "fragmentation",
+          "reason": "nuclear, extended, and reconstituted describe the composition or structure of a family. 'fragmentation' describes a process — the breaking apart of a family unit, not a stable structural type.",
+          "reason_vi": "nuclear, extended và reconstituted mô tả thành phần hoặc cấu trúc của gia đình. 'fragmentation' mô tả quá trình — sự tan rã của đơn vị gia đình, không phải loại cấu trúc ổn định."
+        },
+        {
+          "id": 7,
+          "words": [
+            "kinship",
+            "obligation",
+            "custody",
+            "cohabitation"
+          ],
+          "answer": "obligation",
+          "reason": "kinship, custody, and cohabitation are all specific relational or living arrangements. 'obligation' is a moral or legal duty — a broader concept not exclusive to family arrangements.",
+          "reason_vi": "kinship, custody và cohabitation đều là sắp xếp quan hệ hoặc sống cụ thể. 'obligation' là nghĩa vụ đạo đức hoặc pháp lý — khái niệm rộng hơn không chỉ riêng sắp xếp gia đình."
+        },
+        {
+          "id": 8,
+          "words": [
+            "dysfunction",
+            "fragmentation",
+            "parenting",
+            "kinship"
+          ],
+          "answer": "parenting",
+          "reason": "dysfunction, fragmentation, and kinship are all abstract concepts about the nature and quality of family bonds. 'parenting' is a practice — the active process of raising and caring for children.",
+          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm trừu tượng về bản chất và chất lượng của quan hệ gia đình. 'parenting' là thực hành — quá trình chủ động nuôi dưỡng và chăm sóc trẻ."
+        },
+        {
+          "id": 9,
+          "words": [
+            "nuclear",
+            "extended",
+            "reconstituted",
+            "obligation"
+          ],
+          "answer": "obligation",
+          "reason": "nuclear, extended, and reconstituted classify the type of family by its membership and structure. 'obligation' is a duty — a concept about what family members owe each other, not a classification.",
+          "reason_vi": "nuclear, extended và reconstituted phân loại loại gia đình theo thành viên và cấu trúc. 'obligation' là nghĩa vụ — khái niệm về những gì thành viên gia đình nợ nhau, không phải phân loại."
+        },
+        {
+          "id": 10,
+          "words": [
+            "cohabitation",
+            "custody",
+            "parenting",
+            "kinship"
+          ],
+          "answer": "kinship",
+          "reason": "cohabitation, custody, and parenting are all specific practices within family life. 'kinship' is a concept — the network of blood or social relationships that defines who is family, not a practice.",
+          "reason_vi": "cohabitation, custody và parenting đều là thực hành cụ thể trong cuộc sống gia đình. 'kinship' là khái niệm — mạng lưới quan hệ huyết thống hoặc xã hội xác định ai là gia đình, không phải thực hành."
+        }
+      ]
     }
   },
   "answer_key": {

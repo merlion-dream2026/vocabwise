@@ -595,6 +595,82 @@
           "explanation": "'Rewarding' is the adjective form — a rewarding career."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She is a very skilled worker.",
+          "b": "She is a very professional worker.",
+          "answer": "S",
+          "explanation": "Skilled and professional both describe someone who does their job well and to a high standard. In this context, the two sentences carry the same basic meaning."
+        },
+        {
+          "id": 2,
+          "a": "She applied for the position of manager.",
+          "b": "She applied for the job of manager.",
+          "answer": "S",
+          "explanation": "Position and job both refer to a role or vacancy at a company. These two sentences express the same idea."
+        },
+        {
+          "id": 3,
+          "a": "His work is very rewarding.",
+          "b": "His work is very satisfying.",
+          "answer": "S",
+          "explanation": "Rewarding and satisfying both describe a feeling of fulfilment and worth from doing something. In this context, the sentences mean the same thing."
+        },
+        {
+          "id": 4,
+          "a": "She signed the contract before starting work.",
+          "b": "She signed the agreement before starting work.",
+          "answer": "S",
+          "explanation": "Contract and agreement both refer to a formal document that sets out the terms of employment. These sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "The workplace has changed a great deal.",
+          "b": "The work environment has changed a great deal.",
+          "answer": "S",
+          "explanation": "Workplace and work environment both refer to the physical and social conditions where someone works. In this context, these sentences say the same thing."
+        },
+        {
+          "id": 6,
+          "a": "She resigned from her job last month.",
+          "b": "She retired from her job last month.",
+          "answer": "D",
+          "explanation": "Resign means to voluntarily leave a job before the end of a career. Retire means to stop working permanently, usually at the end of a long career. These are different decisions."
+        },
+        {
+          "id": 7,
+          "a": "She received a promotion.",
+          "b": "She received an appraisal.",
+          "answer": "D",
+          "explanation": "A promotion means moving to a higher position with more responsibility. An appraisal is a formal review of someone's performance. These describe very different outcomes."
+        },
+        {
+          "id": 8,
+          "a": "She has worked in the industry for decades.",
+          "b": "She has worked in the position for decades.",
+          "answer": "D",
+          "explanation": "Industry refers to a broad field of work (e.g. healthcare, education). Position refers to a specific role. Working in an industry and working in a position describe different scopes of experience."
+        },
+        {
+          "id": 9,
+          "a": "The interview took place on Monday.",
+          "b": "The appraisal took place on Monday.",
+          "answer": "D",
+          "explanation": "An interview happens before hiring — to assess a candidate. An appraisal happens during employment — to review ongoing performance. These serve different purposes."
+        },
+        {
+          "id": 10,
+          "a": "The employer has final authority over decisions.",
+          "b": "The employee has final authority over decisions.",
+          "answer": "D",
+          "explanation": "Employer and employee are opposites. The employer owns or manages the business; the employee works for the employer. These sentences describe opposite situations."
+        }
+      ]
     }
   },
   "answer_key": {

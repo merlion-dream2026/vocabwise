@@ -556,6 +556,132 @@
           "explanation": "A noun is required as the subject of the sentence — 'theology', not the adjective 'theological'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "empirical",
+            "quantitative",
+            "longitudinal",
+            "falsifiability"
+          ],
+          "answer": "falsifiability",
+          "reason": "empirical, quantitative, and longitudinal are all adjectives describing the nature of research and data. 'falsifiability' is a philosophical criterion — the property of a claim that makes it testable and potentially disprovable.",
+          "reason_vi": "empirical, quantitative và longitudinal đều là tính từ mô tả bản chất của nghiên cứu và dữ liệu. 'falsifiability' là tiêu chí triết học — thuộc tính của một luận điểm làm cho nó có thể kiểm tra và có thể bác bỏ."
+        },
+        {
+          "id": 2,
+          "words": [
+            "hypothesis",
+            "inference",
+            "paradigm shift",
+            "causation"
+          ],
+          "answer": "paradigm shift",
+          "reason": "hypothesis, inference, and causation are all elements of scientific reasoning — the claims, deductions, and relationships scientists work with. 'paradigm shift' is a historical and sociological concept — a fundamental change in the dominant framework of a field.",
+          "reason_vi": "hypothesis, inference và causation đều là yếu tố của lý luận khoa học. 'paradigm shift' là khái niệm lịch sử và xã hội học — sự thay đổi cơ bản trong khuôn khổ thống trị của một lĩnh vực."
+        },
+        {
+          "id": 3,
+          "words": [
+            "empirical",
+            "longitudinal",
+            "quantitative",
+            "paradigm shift"
+          ],
+          "answer": "paradigm shift",
+          "reason": "empirical, longitudinal, and quantitative are all descriptors for the type of research being conducted. 'paradigm shift' is an outcome — what happens when evidence accumulates enough to overturn an existing scientific framework.",
+          "reason_vi": "empirical, longitudinal và quantitative đều là mô tả cho loại nghiên cứu được tiến hành. 'paradigm shift' là kết quả — điều xảy ra khi bằng chứng tích lũy đủ để lật đổ khuôn khổ khoa học hiện có."
+        },
+        {
+          "id": 4,
+          "words": [
+            "replication",
+            "methodology",
+            "variables",
+            "falsifiability"
+          ],
+          "answer": "falsifiability",
+          "reason": "replication, methodology, and variables are all practical components of conducting scientific research. 'falsifiability' is a theoretical criterion — a philosophical standard for what counts as science.",
+          "reason_vi": "replication, methodology và variables đều là thành phần thực tế của việc tiến hành nghiên cứu khoa học. 'falsifiability' là tiêu chí lý thuyết — tiêu chuẩn triết học cho thứ được tính là khoa học."
+        },
+        {
+          "id": 5,
+          "words": [
+            "hypothesis",
+            "inference",
+            "causation",
+            "replication"
+          ],
+          "answer": "replication",
+          "reason": "hypothesis, inference, and causation are all conceptual elements of scientific reasoning. 'replication' is a procedural element — the process of repeating a study to verify its results.",
+          "reason_vi": "hypothesis, inference và causation đều là yếu tố khái niệm của lý luận khoa học. 'replication' là yếu tố thủ tục — quá trình lặp lại một nghiên cứu để xác minh kết quả."
+        },
+        {
+          "id": 6,
+          "words": [
+            "empirical",
+            "longitudinal",
+            "quantitative",
+            "replication"
+          ],
+          "answer": "replication",
+          "reason": "empirical, longitudinal, and quantitative are all adjectives — descriptors of research type or approach. 'replication' is a noun — the process of repeating a study.",
+          "reason_vi": "empirical, longitudinal và quantitative đều là tính từ — mô tả loại hoặc cách tiếp cận nghiên cứu. 'replication' là danh từ — quá trình lặp lại một nghiên cứu."
+        },
+        {
+          "id": 7,
+          "words": [
+            "hypothesis",
+            "causation",
+            "inference",
+            "methodology"
+          ],
+          "answer": "methodology",
+          "reason": "hypothesis, causation, and inference are all about the content of scientific thinking — what is claimed, inferred, and caused. 'methodology' is about the process — how the research is designed and conducted.",
+          "reason_vi": "hypothesis, causation và inference đều liên quan đến nội dung của tư duy khoa học. 'methodology' liên quan đến quá trình — cách thiết kế và tiến hành nghiên cứu."
+        },
+        {
+          "id": 8,
+          "words": [
+            "replication",
+            "methodology",
+            "variables",
+            "paradigm shift"
+          ],
+          "answer": "paradigm shift",
+          "reason": "replication, methodology, and variables are all operational elements of running a scientific study. 'paradigm shift' is a macro-level historical event — the revolution in thought that occurs when old scientific models fail.",
+          "reason_vi": "replication, methodology và variables đều là yếu tố vận hành của một nghiên cứu khoa học. 'paradigm shift' là sự kiện lịch sử cấp vĩ mô — cuộc cách mạng tư tưởng xảy ra khi các mô hình khoa học cũ thất bại."
+        },
+        {
+          "id": 9,
+          "words": [
+            "empirical",
+            "falsifiability",
+            "longitudinal",
+            "quantitative"
+          ],
+          "answer": "falsifiability",
+          "reason": "empirical, longitudinal, and quantitative are all adjectives describing research methods. 'falsifiability' is a noun — an abstract philosophical property of scientific claims, not a descriptor of research type.",
+          "reason_vi": "empirical, longitudinal và quantitative đều là tính từ mô tả phương pháp nghiên cứu. 'falsifiability' là danh từ — thuộc tính triết học trừu tượng của các tuyên bố khoa học, không phải mô tả loại nghiên cứu."
+        },
+        {
+          "id": 10,
+          "words": [
+            "hypothesis",
+            "causation",
+            "paradigm shift",
+            "inference"
+          ],
+          "answer": "paradigm shift",
+          "reason": "hypothesis, causation, and inference are all micro-level scientific concepts used within individual studies. 'paradigm shift' is a macro-level concept — a revolution in the thinking of an entire scientific community.",
+          "reason_vi": "hypothesis, causation và inference đều là khái niệm khoa học cấp vi mô được sử dụng trong các nghiên cứu riêng lẻ. 'paradigm shift' là khái niệm cấp vĩ mô — cuộc cách mạng trong tư duy của toàn bộ cộng đồng khoa học."
+        }
+      ]
     }
   },
   "answer_key": {

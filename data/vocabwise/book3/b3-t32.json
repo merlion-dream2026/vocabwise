@@ -557,6 +557,67 @@
           "explanation": "The sentence describes data gathered through direct observation rather than theory — the correct term is 'empirical', which means based on evidence and observation, not 'theoretical' which means based on theory."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thiết kế nghiên cứu",
+        "Đánh giá chất lượng",
+        "Phương pháp thu thập dữ liệu"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "scope",
+          "answer": "Thiết kế nghiên cứu"
+        },
+        {
+          "id": 2,
+          "word": "validity",
+          "answer": "Đánh giá chất lượng"
+        },
+        {
+          "id": 3,
+          "word": "qualitative",
+          "answer": "Phương pháp thu thập dữ liệu"
+        },
+        {
+          "id": 4,
+          "word": "methodology",
+          "answer": "Thiết kế nghiên cứu"
+        },
+        {
+          "id": 5,
+          "word": "reliability",
+          "answer": "Đánh giá chất lượng"
+        },
+        {
+          "id": 6,
+          "word": "quantitative",
+          "answer": "Phương pháp thu thập dữ liệu"
+        },
+        {
+          "id": 7,
+          "word": "sample",
+          "answer": "Thiết kế nghiên cứu"
+        },
+        {
+          "id": 8,
+          "word": "peer review",
+          "answer": "Đánh giá chất lượng"
+        },
+        {
+          "id": 9,
+          "word": "triangulation",
+          "answer": "Phương pháp thu thập dữ liệu"
+        },
+        {
+          "id": 10,
+          "word": "confounding",
+          "answer": "Đánh giá chất lượng"
+        }
+      ]
     }
   },
   "answer_key": {

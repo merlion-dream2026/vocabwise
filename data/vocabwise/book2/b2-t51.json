@@ -632,6 +632,82 @@
           "explanation": "'Awareness' is the target vocabulary word for a state of knowing or being conscious of an issue — especially in the context of campaigns and education ('raise awareness'). 'Knowledge' is broader and implies detailed factual information. 'Understanding' is close but usually implies deeper comprehension. 'Awareness' is the specific term used in media literacy programmes and the passage."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "You should check the source before sharing information.",
+          "b": "You should verify facts before sharing information.",
+          "answer": "S",
+          "explanation": "Checking the source and verifying facts both describe the practice of confirming information is reliable before passing it on. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The article contained misinformation.",
+          "b": "The article contained disinformation.",
+          "answer": "D",
+          "explanation": "Misinformation is false information spread without intent to deceive. Disinformation is false information spread deliberately to mislead. These are different by intent."
+        },
+        {
+          "id": 3,
+          "a": "She cross-referenced multiple sources.",
+          "b": "She read many articles.",
+          "answer": "D",
+          "explanation": "Cross-referencing means actively comparing different sources to check consistency. Reading many articles is passive — you may not compare them. These describe different levels of critical engagement."
+        },
+        {
+          "id": 4,
+          "a": "The post was unreliable.",
+          "b": "The post was fake.",
+          "answer": "D",
+          "explanation": "Unreliable means the information cannot be fully trusted. Fake means it is completely false. Something can be unreliable without being entirely fabricated."
+        },
+        {
+          "id": 5,
+          "a": "He shared the video without checking if it was true.",
+          "b": "He spread misinformation.",
+          "answer": "S",
+          "explanation": "Sharing unverified content and spreading misinformation describe the same action — passing on information that may be false without confirming it first."
+        },
+        {
+          "id": 6,
+          "a": "The headline was misleading.",
+          "b": "The headline was incorrect.",
+          "answer": "D",
+          "explanation": "Misleading means the headline gives a false impression without being strictly false. Incorrect means factually wrong. These describe different types of inaccuracy."
+        },
+        {
+          "id": 7,
+          "a": "She trusted the information without questioning it.",
+          "b": "She thought critically about the information.",
+          "answer": "D",
+          "explanation": "Trusting without questioning means accepting at face value. Thinking critically means evaluating the evidence. These describe opposite approaches."
+        },
+        {
+          "id": 8,
+          "a": "Social media makes it easier to spread false information.",
+          "b": "Social media is the main source of false information.",
+          "answer": "D",
+          "explanation": "Making it easier to spread describes a facilitative role. Being the main source claims social media produces most false information. These are different claims."
+        },
+        {
+          "id": 9,
+          "a": "You can check if a source is credible.",
+          "b": "You can evaluate whether information is reliable.",
+          "answer": "S",
+          "explanation": "Checking credibility and evaluating reliability both describe the same process of assessing whether information can be trusted. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The news story was biased.",
+          "b": "The news story was false.",
+          "answer": "D",
+          "explanation": "Biased means it presents a one-sided perspective. False means it is factually incorrect. A biased story can still contain true facts presented selectively."
+        }
+      ]
     }
   },
   "answer_key": {

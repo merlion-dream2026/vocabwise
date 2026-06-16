@@ -622,6 +622,67 @@
           "explanation": "'Good behaviour' is the standard phrase used in legal and correctional contexts to describe a prisoner's conduct that may qualify them for early release. 'Unpaid work' is a type of punishment, not a condition for release. 'Legal aid' refers to free legal assistance, unrelated to release conditions."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Tội phạm & hành vi",
+        "Hệ thống pháp lý",
+        "Kết quả & hình phạt"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "offend",
+          "answer": "Tội phạm & hành vi"
+        },
+        {
+          "id": 2,
+          "word": "court",
+          "answer": "Hệ thống pháp lý"
+        },
+        {
+          "id": 3,
+          "word": "imprison",
+          "answer": "Kết quả & hình phạt"
+        },
+        {
+          "id": 4,
+          "word": "commit a crime",
+          "answer": "Tội phạm & hành vi"
+        },
+        {
+          "id": 5,
+          "word": "judge",
+          "answer": "Hệ thống pháp lý"
+        },
+        {
+          "id": 6,
+          "word": "sentence",
+          "answer": "Kết quả & hình phạt"
+        },
+        {
+          "id": 7,
+          "word": "break the law",
+          "answer": "Tội phạm & hành vi"
+        },
+        {
+          "id": 8,
+          "word": "legal system",
+          "answer": "Hệ thống pháp lý"
+        },
+        {
+          "id": 9,
+          "word": "rehabilitation",
+          "answer": "Kết quả & hình phạt"
+        },
+        {
+          "id": 10,
+          "word": "reoffend",
+          "answer": "Tội phạm & hành vi"
+        }
+      ]
     }
   },
   "answer_key": {

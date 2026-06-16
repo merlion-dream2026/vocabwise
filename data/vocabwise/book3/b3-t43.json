@@ -562,6 +562,132 @@
           "explanation": "While 'paralinguistic' is an adjective form, it does not collocate naturally with 'cues' in standard usage; 'paralanguage cues' is the established noun-noun compound used in communication studies."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "misunderstanding",
+            "misinterpretation",
+            "generalisation",
+            "mediation"
+          ],
+          "answer": "mediation",
+          "reason": "misunderstanding, misinterpretation, and generalisation are all communication failures — ways that meaning is lost or distorted across cultures. 'mediation' is a solution — actively bridging communication gaps.",
+          "reason_vi": "misunderstanding, misinterpretation và generalisation đều là thất bại giao tiếp. 'mediation' là giải pháp — chủ động thu hẹp khoảng cách giao tiếp."
+        },
+        {
+          "id": 2,
+          "words": [
+            "adaptation",
+            "etiquette",
+            "equivalence",
+            "pragmatic transfer"
+          ],
+          "answer": "pragmatic transfer",
+          "reason": "adaptation, etiquette, and equivalence are all strategies or standards used to navigate cross-cultural communication. 'pragmatic transfer' is an error — using the communication rules of one culture inappropriately in another.",
+          "reason_vi": "adaptation, etiquette và equivalence đều là chiến lược hoặc tiêu chuẩn trong giao tiếp giao thoa văn hóa. 'pragmatic transfer' là lỗi — dùng quy tắc giao tiếp của một nền văn hóa không phù hợp trong nền khác."
+        },
+        {
+          "id": 3,
+          "words": [
+            "misunderstanding",
+            "misinterpretation",
+            "pragmatic transfer",
+            "adaptation"
+          ],
+          "answer": "adaptation",
+          "reason": "misunderstanding, misinterpretation, and pragmatic transfer are all communicative failures in cross-cultural settings. 'adaptation' is a successful strategy — modifying communication to suit the cultural context.",
+          "reason_vi": "misunderstanding, misinterpretation và pragmatic transfer đều là thất bại giao tiếp trong môi trường giao thoa văn hóa. 'adaptation' là chiến lược thành công — điều chỉnh giao tiếp cho phù hợp với bối cảnh văn hóa."
+        },
+        {
+          "id": 4,
+          "words": [
+            "convention",
+            "etiquette",
+            "equivalence",
+            "generalisation"
+          ],
+          "answer": "equivalence",
+          "reason": "convention, etiquette, and generalisation are all cultural or social phenomena — shared rules and assumptions. 'equivalence' is a translation concept — the degree to which meaning is maintained when converting between languages.",
+          "reason_vi": "convention, etiquette và generalisation đều là hiện tượng văn hóa hoặc xã hội. 'equivalence' là khái niệm dịch thuật — mức độ ý nghĩa được duy trì khi chuyển đổi giữa các ngôn ngữ."
+        },
+        {
+          "id": 5,
+          "words": [
+            "mediation",
+            "adaptation",
+            "etiquette",
+            "misinterpretation"
+          ],
+          "answer": "misinterpretation",
+          "reason": "mediation, adaptation, and etiquette are all strategies or norms that facilitate successful cross-cultural communication. 'misinterpretation' is a failure — when meaning is incorrectly decoded.",
+          "reason_vi": "mediation, adaptation và etiquette đều là chiến lược hoặc chuẩn mực tạo điều kiện cho giao tiếp giao thoa văn hóa thành công. 'misinterpretation' là thất bại — khi ý nghĩa bị giải mã sai."
+        },
+        {
+          "id": 6,
+          "words": [
+            "connotative",
+            "generalisation",
+            "misunderstanding",
+            "misinterpretation"
+          ],
+          "answer": "connotative",
+          "reason": "generalisation, misunderstanding, and misinterpretation are all errors or failures in cross-cultural communication. 'connotative' is an adjective describing meaning that goes beyond the literal — the associations a word carries.",
+          "reason_vi": "generalisation, misunderstanding và misinterpretation đều là lỗi hoặc thất bại trong giao tiếp giao thoa văn hóa. 'connotative' là tính từ mô tả ý nghĩa vượt ra ngoài nghĩa đen — các liên tưởng mà một từ mang."
+        },
+        {
+          "id": 7,
+          "words": [
+            "convention",
+            "etiquette",
+            "adaptation",
+            "generalisation"
+          ],
+          "answer": "generalisation",
+          "reason": "convention, etiquette, and adaptation are all tools or norms that can improve cross-cultural interaction. 'generalisation' is a risk — applying assumptions too broadly, which can lead to stereotyping.",
+          "reason_vi": "convention, etiquette và adaptation đều là công cụ hoặc chuẩn mực có thể cải thiện tương tác giao thoa văn hóa. 'generalisation' là rủi ro — áp dụng giả định quá rộng, có thể dẫn đến định kiến."
+        },
+        {
+          "id": 8,
+          "words": [
+            "mediation",
+            "equivalence",
+            "adaptation",
+            "pragmatic transfer"
+          ],
+          "answer": "pragmatic transfer",
+          "reason": "mediation, equivalence, and adaptation are all positive strategies in cross-cultural and translation contexts. 'pragmatic transfer' is a specific type of error — not a strategy.",
+          "reason_vi": "mediation, equivalence và adaptation đều là chiến lược tích cực trong bối cảnh giao thoa văn hóa và dịch thuật. 'pragmatic transfer' là loại lỗi cụ thể — không phải chiến lược."
+        },
+        {
+          "id": 9,
+          "words": [
+            "convention",
+            "etiquette",
+            "equivalence",
+            "mediation"
+          ],
+          "answer": "mediation",
+          "reason": "convention, etiquette, and equivalence are all existing norms or standards — things that already exist in communication. 'mediation' is an active process — the work of a person who bridges communication gaps.",
+          "reason_vi": "convention, etiquette và equivalence đều là chuẩn mực hoặc tiêu chuẩn hiện có. 'mediation' là quá trình chủ động — công việc của người thu hẹp khoảng cách giao tiếp."
+        },
+        {
+          "id": 10,
+          "words": [
+            "misunderstanding",
+            "misinterpretation",
+            "pragmatic transfer",
+            "connotative"
+          ],
+          "answer": "connotative",
+          "reason": "misunderstanding, misinterpretation, and pragmatic transfer are all communication failures. 'connotative' is a descriptive adjective about the nature of meaning — the associations words carry — not a failure or error.",
+          "reason_vi": "misunderstanding, misinterpretation và pragmatic transfer đều là thất bại giao tiếp. 'connotative' là tính từ mô tả về bản chất của ý nghĩa — không phải thất bại hay lỗi."
+        }
+      ]
     }
   },
   "answer_key": {

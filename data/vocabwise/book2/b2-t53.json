@@ -638,6 +638,132 @@
           "explanation": "'Morally right' is the target vocabulary phrase for behaviour or systems that conform to ethical principles and human values. 'Ethically acceptable' is a valid paraphrase but not the specific vocabulary from this topic. 'Fair and just' is informal and vague. 'Morally right' is the specific compound phrase used in the passage to describe the ethical standard AI systems must meet."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "automate",
+            "replace",
+            "assist",
+            "algorithm"
+          ],
+          "answer": "algorithm",
+          "reason": "automate, replace, and assist are all verbs — actions that AI and technology can perform in relation to human work. 'algorithm' is a noun — the set of rules or instructions that makes AI work, not an action.",
+          "reason_vi": "automate, replace và assist đều là động từ — hành động mà AI và công nghệ có thể thực hiện liên quan đến công việc của con người. 'algorithm' là danh từ — tập hợp quy tắc hoặc hướng dẫn làm cho AI hoạt động, không phải hành động."
+        },
+        {
+          "id": 2,
+          "words": [
+            "facial recognition",
+            "chatbot",
+            "machine learning",
+            "automate"
+          ],
+          "answer": "automate",
+          "reason": "facial recognition, chatbot, and machine learning are all specific AI technologies or systems. 'automate' is a verb — the action of making something run automatically, not an AI system itself.",
+          "reason_vi": "facial recognition, chatbot và machine learning đều là công nghệ hoặc hệ thống AI cụ thể. 'automate' là động từ — hành động làm cho thứ gì đó chạy tự động, không phải hệ thống AI."
+        },
+        {
+          "id": 3,
+          "words": [
+            "efficient",
+            "bias",
+            "accurate",
+            "intelligent"
+          ],
+          "answer": "bias",
+          "reason": "efficient, accurate, and intelligent are all positive adjectives describing qualities of AI. 'bias' is a problem — unfair patterns built into data or algorithms that lead to unequal outcomes.",
+          "reason_vi": "efficient, accurate và intelligent đều là tính từ tích cực mô tả phẩm chất của AI. 'bias' là vấn đề — các mẫu không công bằng được tích hợp vào dữ liệu hoặc thuật toán dẫn đến kết quả bất bình đẳng."
+        },
+        {
+          "id": 4,
+          "words": [
+            "facial recognition",
+            "chatbot",
+            "machine learning",
+            "bias"
+          ],
+          "answer": "bias",
+          "reason": "facial recognition, chatbot, and machine learning are all AI tools or methods. 'bias' is an ethical concern — a flaw in how AI systems are trained, not a type of AI.",
+          "reason_vi": "facial recognition, chatbot và machine learning đều là công cụ hoặc phương pháp AI. 'bias' là mối lo ngại đạo đức — lỗi trong cách các hệ thống AI được huấn luyện, không phải loại AI."
+        },
+        {
+          "id": 5,
+          "words": [
+            "automate",
+            "replace",
+            "assist",
+            "bias"
+          ],
+          "answer": "bias",
+          "reason": "automate, replace, and assist are all verbs — things AI does. 'bias' is a noun — a problem that AI may carry, not something it does.",
+          "reason_vi": "automate, replace và assist đều là động từ — thứ AI làm. 'bias' là danh từ — vấn đề mà AI có thể mang theo, không phải thứ nó làm."
+        },
+        {
+          "id": 6,
+          "words": [
+            "efficient",
+            "accurate",
+            "intelligent",
+            "algorithm"
+          ],
+          "answer": "algorithm",
+          "reason": "efficient, accurate, and intelligent are all adjectives — qualities used to describe AI. 'algorithm' is a noun — the technical mechanism that powers AI decisions.",
+          "reason_vi": "efficient, accurate và intelligent đều là tính từ — phẩm chất dùng để mô tả AI. 'algorithm' là danh từ — cơ chế kỹ thuật cung cấp năng lượng cho các quyết định AI."
+        },
+        {
+          "id": 7,
+          "words": [
+            "chatbot",
+            "facial recognition",
+            "machine learning",
+            "efficient"
+          ],
+          "answer": "efficient",
+          "reason": "chatbot, facial recognition, and machine learning are all specific AI systems or technologies. 'efficient' is an adjective — a quality that these systems may have, not a system itself.",
+          "reason_vi": "chatbot, facial recognition và machine learning đều là hệ thống hoặc công nghệ AI cụ thể. 'efficient' là tính từ — phẩm chất mà các hệ thống này có thể có, không phải hệ thống."
+        },
+        {
+          "id": 8,
+          "words": [
+            "automate",
+            "assist",
+            "replace",
+            "intelligent"
+          ],
+          "answer": "intelligent",
+          "reason": "automate, assist, and replace are verbs — actions AI performs. 'intelligent' is an adjective — a quality that describes AI, not an action it takes.",
+          "reason_vi": "automate, assist và replace đều là động từ — hành động AI thực hiện. 'intelligent' là tính từ — phẩm chất mô tả AI, không phải hành động nó thực hiện."
+        },
+        {
+          "id": 9,
+          "words": [
+            "algorithm",
+            "chatbot",
+            "machine learning",
+            "accurate"
+          ],
+          "answer": "accurate",
+          "reason": "algorithm, chatbot, and machine learning are all technical AI concepts or tools. 'accurate' is an adjective — it describes how reliably correct these tools are.",
+          "reason_vi": "algorithm, chatbot và machine learning đều là khái niệm hoặc công cụ AI kỹ thuật. 'accurate' là tính từ — mô tả mức độ chính xác đáng tin cậy của các công cụ này."
+        },
+        {
+          "id": 10,
+          "words": [
+            "facial recognition",
+            "machine learning",
+            "algorithm",
+            "bias"
+          ],
+          "answer": "bias",
+          "reason": "facial recognition, machine learning, and algorithm are all technical AI concepts. 'bias' is an ethical issue — a problem that can affect AI systems, not a concept within AI design itself.",
+          "reason_vi": "facial recognition, machine learning và algorithm đều là khái niệm AI kỹ thuật. 'bias' là vấn đề đạo đức — vấn đề có thể ảnh hưởng đến các hệ thống AI, không phải khái niệm trong thiết kế AI."
+        }
+      ]
     }
   },
   "answer_key": {

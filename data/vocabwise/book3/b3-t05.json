@@ -563,6 +563,67 @@
           "explanation": "The sentence refers to multiple social conventions (plural) — 'norms' is the correct form after 'social'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Vấn đề & bất bình đẳng",
+        "Khái niệm & hệ thống",
+        "Hành động & thay đổi"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "discrimination",
+          "answer": "Vấn đề & bất bình đẳng"
+        },
+        {
+          "id": 2,
+          "word": "patriarchy",
+          "answer": "Khái niệm & hệ thống"
+        },
+        {
+          "id": 3,
+          "word": "empowerment",
+          "answer": "Hành động & thay đổi"
+        },
+        {
+          "id": 4,
+          "word": "bias",
+          "answer": "Vấn đề & bất bình đẳng"
+        },
+        {
+          "id": 5,
+          "word": "norm",
+          "answer": "Khái niệm & hệ thống"
+        },
+        {
+          "id": 6,
+          "word": "representation",
+          "answer": "Hành động & thay đổi"
+        },
+        {
+          "id": 7,
+          "word": "barrier",
+          "answer": "Vấn đề & bất bình đẳng"
+        },
+        {
+          "id": 8,
+          "word": "identity",
+          "answer": "Khái niệm & hệ thống"
+        },
+        {
+          "id": 9,
+          "word": "stereotype",
+          "answer": "Vấn đề & bất bình đẳng"
+        },
+        {
+          "id": 10,
+          "word": "equality",
+          "answer": "Hành động & thay đổi"
+        }
+      ]
     }
   },
   "answer_key": {

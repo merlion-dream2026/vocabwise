@@ -567,6 +567,132 @@
           "explanation": "A noun is required after the preposition 'towards' — 'disarmament', not the verb 'disarm'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "legitimacy",
+            "mandate",
+            "social contract",
+            "civil disobedience"
+          ],
+          "answer": "civil disobedience",
+          "reason": "legitimacy, mandate, and social contract are all concepts about why and how authority is justified. 'civil disobedience' is an act — the deliberate, nonviolent refusal to obey a law or authority.",
+          "reason_vi": "legitimacy, mandate và social contract đều là khái niệm về tại sao và cách quyền lực được biện hộ. 'civil disobedience' là hành động — sự từ chối có chủ ý, bất bạo động để tuân theo luật hoặc quyền lực."
+        },
+        {
+          "id": 2,
+          "words": [
+            "oppression",
+            "disenfranchise",
+            "solidarity",
+            "dissent"
+          ],
+          "answer": "solidarity",
+          "reason": "oppression, disenfranchise, and dissent all describe power imbalances or responses to injustice. 'solidarity' is a positive social value — unity and mutual support in a shared cause, not a problem or act of resistance.",
+          "reason_vi": "oppression, disenfranchise và dissent đều mô tả sự mất cân bằng quyền lực hoặc phản ứng với bất công. 'solidarity' là giá trị xã hội tích cực — sự đoàn kết và hỗ trợ lẫn nhau trong mục tiêu chung, không phải vấn đề hay hành động kháng cự."
+        },
+        {
+          "id": 3,
+          "words": [
+            "legitimacy",
+            "mandate",
+            "social contract",
+            "oppression"
+          ],
+          "answer": "oppression",
+          "reason": "legitimacy, mandate, and social contract are all concepts about rightful authority and its basis. 'oppression' is a condition of injustice — when power is used to harm or restrict, not a concept about legitimate authority.",
+          "reason_vi": "legitimacy, mandate và social contract đều là khái niệm về quyền lực chính đáng và cơ sở của nó. 'oppression' là tình trạng bất công — khi quyền lực được sử dụng để gây hại hoặc hạn chế, không phải khái niệm về quyền lực chính đáng."
+        },
+        {
+          "id": 4,
+          "words": [
+            "civil disobedience",
+            "dissent",
+            "solidarity",
+            "redress"
+          ],
+          "answer": "solidarity",
+          "reason": "civil disobedience, dissent, and redress are all responses to injustice — acts or demands for change. 'solidarity' is an attitude or value — the emotional and political unity that motivates those responses, not a response itself.",
+          "reason_vi": "civil disobedience, dissent và redress đều là phản ứng với bất công. 'solidarity' là thái độ hoặc giá trị — sự đoàn kết cảm xúc và chính trị thúc đẩy những phản ứng đó, không phải bản thân phản ứng."
+        },
+        {
+          "id": 5,
+          "words": [
+            "legitimacy",
+            "social contract",
+            "self-governance",
+            "mandate"
+          ],
+          "answer": "self-governance",
+          "reason": "legitimacy, social contract, and mandate are all theoretical concepts about the foundation of political authority. 'self-governance' is a practice — the actual exercise of collective decision-making, not a foundational concept.",
+          "reason_vi": "legitimacy, social contract và mandate đều là khái niệm lý thuyết về nền tảng của quyền lực chính trị. 'self-governance' là thực hành — việc thực tế thực thi quyết định tập thể, không phải khái niệm nền tảng."
+        },
+        {
+          "id": 6,
+          "words": [
+            "oppression",
+            "disenfranchise",
+            "dissent",
+            "legitimacy"
+          ],
+          "answer": "legitimacy",
+          "reason": "oppression, disenfranchise, and dissent are all phenomena of political injustice or resistance. 'legitimacy' is a positive concept — the property of authority that makes it rightfully accepted.",
+          "reason_vi": "oppression, disenfranchise và dissent đều là hiện tượng của bất công chính trị hoặc kháng cự. 'legitimacy' là khái niệm tích cực — thuộc tính của quyền lực làm cho nó được chấp nhận đúng đắn."
+        },
+        {
+          "id": 7,
+          "words": [
+            "civil disobedience",
+            "solidarity",
+            "redress",
+            "dissent"
+          ],
+          "answer": "redress",
+          "reason": "civil disobedience, solidarity, and dissent are all acts or values of political activism. 'redress' is a remedy — the correction of a wrong, typically through legal or institutional means, not an act of resistance.",
+          "reason_vi": "civil disobedience, solidarity và dissent đều là hành động hoặc giá trị của hoạt động chính trị. 'redress' là biện pháp khắc phục — sửa chữa sai trái, thường qua phương tiện pháp lý hoặc thể chế, không phải hành động kháng cự."
+        },
+        {
+          "id": 8,
+          "words": [
+            "legitimacy",
+            "mandate",
+            "social contract",
+            "redress"
+          ],
+          "answer": "redress",
+          "reason": "legitimacy, mandate, and social contract are all concepts about the basis and limits of political power. 'redress' is an action or right — the seeking of correction for a wrong, not a concept about power's foundations.",
+          "reason_vi": "legitimacy, mandate và social contract đều là khái niệm về cơ sở và giới hạn của quyền lực chính trị. 'redress' là hành động hoặc quyền — tìm kiếm sửa chữa cho sai trái, không phải khái niệm về nền tảng quyền lực."
+        },
+        {
+          "id": 9,
+          "words": [
+            "oppression",
+            "disenfranchise",
+            "solidarity",
+            "self-governance"
+          ],
+          "answer": "self-governance",
+          "reason": "oppression, disenfranchise, and solidarity are all political concepts about injustice and collective response. 'self-governance' is about political structure — a community's ability to make its own decisions, not about injustice or solidarity.",
+          "reason_vi": "oppression, disenfranchise và solidarity đều là khái niệm chính trị về bất công và phản ứng tập thể. 'self-governance' là về cấu trúc chính trị — khả năng của cộng đồng để đưa ra quyết định của mình, không phải về bất công hay đoàn kết."
+        },
+        {
+          "id": 10,
+          "words": [
+            "civil disobedience",
+            "dissent",
+            "redress",
+            "mandate"
+          ],
+          "answer": "mandate",
+          "reason": "civil disobedience, dissent, and redress are all concepts about challenging or correcting power. 'mandate' is a concept about the basis of power — the authorisation or permission to govern, not about challenging it.",
+          "reason_vi": "civil disobedience, dissent và redress đều là khái niệm về thách thức hoặc sửa chữa quyền lực. 'mandate' là khái niệm về cơ sở của quyền lực — ủy quyền hoặc cho phép cai trị, không phải về thách thức nó."
+        }
+      ]
     }
   },
   "answer_key": {

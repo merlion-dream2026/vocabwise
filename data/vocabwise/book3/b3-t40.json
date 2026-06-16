@@ -560,6 +560,82 @@
           "explanation": "A singular noun is required as the subject of the sentence — 'conjecture', not the past participle 'conjectured'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Empiricism holds that knowledge comes from experience.",
+          "b": "Rationalism holds that knowledge comes from reason.",
+          "answer": "D",
+          "explanation": "Empiricism and rationalism are competing philosophical traditions with opposite claims about the source of knowledge. These sentences describe fundamentally different epistemological positions."
+        },
+        {
+          "id": 2,
+          "a": "She adopted a sceptical approach to the claim.",
+          "b": "She questioned the evidence before accepting the claim.",
+          "answer": "S",
+          "explanation": "Scepticism and questioning evidence before accepting a claim both describe the same intellectual practice — withholding acceptance until sufficient proof is provided. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "The argument rested on a verifiable axiom.",
+          "b": "The argument rested on an untestable assumption.",
+          "answer": "D",
+          "explanation": "A verifiable axiom can be confirmed by evidence or observation. An untestable assumption cannot. These describe opposite epistemic foundations for an argument."
+        },
+        {
+          "id": 4,
+          "a": "His account of events was entirely subjective.",
+          "b": "His account of events was biased by personal experience.",
+          "answer": "S",
+          "explanation": "Subjective and biased by personal experience both describe a perspective shaped by individual feelings rather than objective facts. These sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "Relativism holds that truth is culturally determined.",
+          "b": "Objectivity holds that truth is universal.",
+          "answer": "D",
+          "explanation": "Relativism denies universal truth, arguing it depends on context or culture. Objectivity asserts that truth exists independently of perspective. These are opposing philosophical positions."
+        },
+        {
+          "id": 6,
+          "a": "Epistemology is the study of knowledge.",
+          "b": "Epistemology is the study of morality.",
+          "answer": "D",
+          "explanation": "Epistemology studies knowledge — its nature, sources, and limits. The study of morality is ethics. These are different philosophical disciplines."
+        },
+        {
+          "id": 7,
+          "a": "She challenged the postulate on logical grounds.",
+          "b": "She challenged the underlying assumption on logical grounds.",
+          "answer": "S",
+          "explanation": "A postulate and an underlying assumption are both claims taken as a starting point for argument, accepted without proof. Challenging on logical grounds describes the same kind of critique. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "Moral relativism holds that no action is universally wrong.",
+          "b": "Moral absolutism holds that some actions are always wrong.",
+          "answer": "D",
+          "explanation": "Relativism and absolutism are opposing moral philosophies. The first denies universal moral standards; the second asserts them. These sentences express contradictory positions."
+        },
+        {
+          "id": 9,
+          "a": "She took an empirical approach to the question.",
+          "b": "She took an evidence-based approach to the question.",
+          "answer": "S",
+          "explanation": "An empirical approach relies on observation and evidence. An evidence-based approach means the same thing. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "Scepticism and relativism are the same philosophical position.",
+          "b": "Scepticism and relativism are distinct philosophical positions.",
+          "answer": "D",
+          "explanation": "Scepticism is a methodological stance — suspending judgement until sufficient evidence. Relativism is a metaphysical claim — that truth is perspective-dependent. They are related but distinct."
+        }
+      ]
     }
   },
   "answer_key": {

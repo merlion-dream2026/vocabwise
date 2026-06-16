@@ -608,6 +608,132 @@
           "explanation": "'Broadcasts' is the correct verb for radio and TV transmission of audio or video content. 'Shares' is informal and used for distributing content online, while 'publishes' is specifically for printed or written media."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "reliable",
+            "trustworthy",
+            "bias",
+            "accurate"
+          ],
+          "answer": "bias",
+          "reason": "reliable, trustworthy, and accurate are all positive qualities of good journalism. 'bias' is a negative quality — an unfair tendency to favour one side over another.",
+          "reason_vi": "reliable, trustworthy và accurate đều là phẩm chất tích cực của báo chí tốt. 'bias' là phẩm chất tiêu cực — xu hướng không công bằng thiên vị một phía."
+        },
+        {
+          "id": 2,
+          "words": [
+            "broadcast",
+            "publish",
+            "investigate",
+            "chief editor"
+          ],
+          "answer": "chief editor",
+          "reason": "broadcast, publish, and investigate are all verbs — actions journalists take when producing news. 'chief editor' is a person — the senior journalist who oversees a publication.",
+          "reason_vi": "broadcast, publish và investigate đều là động từ — hành động nhà báo thực hiện khi sản xuất tin tức. 'chief editor' là người — nhà báo cấp cao giám sát ấn phẩm."
+        },
+        {
+          "id": 3,
+          "words": [
+            "source",
+            "headline",
+            "platform",
+            "bias"
+          ],
+          "answer": "bias",
+          "reason": "source, headline, and platform are all neutral parts of the news process. 'bias' is a problem — an unfair influence on how news is presented, not a neutral element.",
+          "reason_vi": "source, headline và platform đều là phần trung tính của quy trình tin tức. 'bias' là vấn đề — ảnh hưởng không công bằng đến cách tin tức được trình bày."
+        },
+        {
+          "id": 4,
+          "words": [
+            "reliable",
+            "trustworthy",
+            "accurate",
+            "broadcast"
+          ],
+          "answer": "broadcast",
+          "reason": "reliable, trustworthy, and accurate are adjectives — qualities that describe good journalism. 'broadcast' is a verb — the action of transmitting news through TV or radio.",
+          "reason_vi": "reliable, trustworthy và accurate đều là tính từ — phẩm chất mô tả báo chí tốt. 'broadcast' là động từ — hành động truyền tin qua TV hoặc đài."
+        },
+        {
+          "id": 5,
+          "words": [
+            "journalism",
+            "platform",
+            "digital",
+            "audience"
+          ],
+          "answer": "digital",
+          "reason": "journalism, platform, and audience are all nouns — the field, the channel, and the people involved in news. 'digital' is an adjective — it describes the type of technology used, not a person or place.",
+          "reason_vi": "journalism, platform và audience đều là danh từ — lĩnh vực, kênh và người liên quan đến tin tức. 'digital' là tính từ — mô tả loại công nghệ được dùng, không phải người hay nơi."
+        },
+        {
+          "id": 6,
+          "words": [
+            "bias",
+            "headline",
+            "source",
+            "influence"
+          ],
+          "answer": "headline",
+          "reason": "bias, source, and influence are all abstract concepts affecting the credibility of journalism. 'headline' is a concrete text element — the title at the top of a news article.",
+          "reason_vi": "bias, source và influence đều là khái niệm trừu tượng ảnh hưởng đến độ tin cậy của báo chí. 'headline' là yếu tố văn bản cụ thể — tiêu đề ở đầu bài báo."
+        },
+        {
+          "id": 7,
+          "words": [
+            "broadcast",
+            "publish",
+            "investigate",
+            "report"
+          ],
+          "answer": "investigate",
+          "reason": "broadcast, publish, and report are all ways of sharing finished news content with an audience. 'investigate' is the process of finding out the truth — it happens before the news is shared, not during.",
+          "reason_vi": "broadcast, publish và report đều là cách chia sẻ nội dung tin tức đã hoàn thiện với khán giả. 'investigate' là quá trình tìm ra sự thật — xảy ra trước khi tin tức được chia sẻ."
+        },
+        {
+          "id": 8,
+          "words": [
+            "reliable",
+            "trustworthy",
+            "bias",
+            "source"
+          ],
+          "answer": "bias",
+          "reason": "reliable, trustworthy, and source are all things a good journalist aims to have or verify. 'bias' is a risk in journalism — an unfair slant that undermines good reporting.",
+          "reason_vi": "reliable, trustworthy và source đều là thứ nhà báo tốt cố có hoặc kiểm chứng. 'bias' là rủi ro trong báo chí — góc nhìn không công bằng làm suy yếu báo cáo tốt."
+        },
+        {
+          "id": 9,
+          "words": [
+            "journalism",
+            "platform",
+            "audience",
+            "headline"
+          ],
+          "answer": "headline",
+          "reason": "journalism, platform, and audience are broad concepts in the media industry. 'headline' is a specific part of a single news article — not a broad concept.",
+          "reason_vi": "journalism, platform và audience đều là khái niệm rộng trong ngành truyền thông. 'headline' là phần cụ thể của một bài báo đơn lẻ — không phải khái niệm rộng."
+        },
+        {
+          "id": 10,
+          "words": [
+            "reliable",
+            "trustworthy",
+            "accurate",
+            "chief editor"
+          ],
+          "answer": "chief editor",
+          "reason": "reliable, trustworthy, and accurate are adjectives — qualities of good journalism. 'chief editor' is a person — the senior figure who ensures these qualities in a publication.",
+          "reason_vi": "reliable, trustworthy và accurate đều là tính từ — phẩm chất của báo chí tốt. 'chief editor' là người — nhân vật cấp cao đảm bảo những phẩm chất này trong ấn phẩm."
+        }
+      ]
     }
   },
   "answer_key": {

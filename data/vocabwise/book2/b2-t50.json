@@ -630,6 +630,132 @@
           "explanation": "'Afford' is the target vocabulary verb for having enough money to pay for something — it implies financial capacity, not just the act of paying. 'Pay for' is too literal and doesn't capture the idea of economic ability. 'Buy' implies ownership, but renting is mentioned. 'Afford' is the precise word when discussing housing costs in relation to income and purchasing power."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "urban",
+            "suburban",
+            "rural",
+            "population growth"
+          ],
+          "answer": "population growth",
+          "reason": "urban, suburban, and rural are all adjectives describing types of areas based on settlement density. 'population growth' is a dynamic process — an increase in the number of people over time, not an area type.",
+          "reason_vi": "urban, suburban và rural đều là tính từ mô tả các loại khu vực dựa trên mật độ định cư. 'population growth' là quá trình năng động — sự gia tăng số lượng người theo thời gian, không phải loại khu vực."
+        },
+        {
+          "id": 2,
+          "words": [
+            "congestion",
+            "overcrowding",
+            "pollution",
+            "green space"
+          ],
+          "answer": "green space",
+          "reason": "congestion, overcrowding, and pollution are all urban problems — negative consequences of too many people in a limited area. 'green space' is a solution or positive feature — parks and nature within a city.",
+          "reason_vi": "congestion, overcrowding và pollution đều là vấn đề đô thị — hậu quả tiêu cực của quá nhiều người trong khu vực giới hạn. 'green space' là giải pháp hoặc đặc điểm tích cực — công viên và thiên nhiên trong thành phố."
+        },
+        {
+          "id": 3,
+          "words": [
+            "migrate",
+            "move to",
+            "urbanise",
+            "population growth"
+          ],
+          "answer": "population growth",
+          "reason": "migrate, move to, and urbanise are all verbs — actions describing movement of people. 'population growth' is a noun phrase — the statistical increase in total numbers of people, not an action.",
+          "reason_vi": "migrate, move to và urbanise đều là động từ — hành động mô tả sự di chuyển của người. 'population growth' là cụm danh từ — sự gia tăng thống kê về tổng số người, không phải hành động."
+        },
+        {
+          "id": 4,
+          "words": [
+            "congestion",
+            "overcrowding",
+            "pollution",
+            "infrastructure"
+          ],
+          "answer": "infrastructure",
+          "reason": "congestion, overcrowding, and pollution are all urban problems. 'infrastructure' is a neutral or positive concept — the physical systems (roads, water, power) that support a city's function.",
+          "reason_vi": "congestion, overcrowding và pollution đều là vấn đề đô thị. 'infrastructure' là khái niệm trung tính hoặc tích cực — các hệ thống vật lý (đường, nước, điện) hỗ trợ chức năng của thành phố."
+        },
+        {
+          "id": 5,
+          "words": [
+            "urban",
+            "rural",
+            "suburban",
+            "housing shortage"
+          ],
+          "answer": "housing shortage",
+          "reason": "urban, rural, and suburban are adjectives classifying types of areas. 'housing shortage' is a social problem — not enough homes for the people who need them — not an area type.",
+          "reason_vi": "urban, rural và suburban là tính từ phân loại các loại khu vực. 'housing shortage' là vấn đề xã hội — không đủ nhà cho những người cần — không phải loại khu vực."
+        },
+        {
+          "id": 6,
+          "words": [
+            "congestion",
+            "overcrowding",
+            "housing shortage",
+            "green space"
+          ],
+          "answer": "green space",
+          "reason": "congestion, overcrowding, and housing shortage are all urban problems. 'green space' is a positive urban feature — it is often a solution to these problems, not a problem itself.",
+          "reason_vi": "congestion, overcrowding và housing shortage đều là vấn đề đô thị. 'green space' là đặc điểm đô thị tích cực — thường là giải pháp cho các vấn đề này, không phải vấn đề."
+        },
+        {
+          "id": 7,
+          "words": [
+            "migrate",
+            "urbanise",
+            "move to",
+            "infrastructure"
+          ],
+          "answer": "infrastructure",
+          "reason": "migrate, urbanise, and move to are verbs describing movement and change of location. 'infrastructure' is a noun — the physical systems that support a city, not a movement.",
+          "reason_vi": "migrate, urbanise và move to là động từ mô tả sự di chuyển và thay đổi địa điểm. 'infrastructure' là danh từ — hệ thống vật lý hỗ trợ thành phố, không phải sự di chuyển."
+        },
+        {
+          "id": 8,
+          "words": [
+            "congestion",
+            "pollution",
+            "housing shortage",
+            "population growth"
+          ],
+          "answer": "population growth",
+          "reason": "congestion, pollution, and housing shortage are all specific urban problems — things city dwellers experience directly. 'population growth' is an underlying cause or trend — a demographic fact, not a direct problem experienced in daily life.",
+          "reason_vi": "congestion, pollution và housing shortage đều là vấn đề đô thị cụ thể — thứ người thành thị trải qua trực tiếp. 'population growth' là nguyên nhân hoặc xu hướng cơ bản — thực tế nhân khẩu học, không phải vấn đề trực tiếp hàng ngày."
+        },
+        {
+          "id": 9,
+          "words": [
+            "urban",
+            "suburban",
+            "rural",
+            "migrate"
+          ],
+          "answer": "migrate",
+          "reason": "urban, suburban, and rural are adjectives — they classify areas. 'migrate' is a verb — the action of moving from one place to another.",
+          "reason_vi": "urban, suburban và rural là tính từ — phân loại khu vực. 'migrate' là động từ — hành động di chuyển từ nơi này sang nơi khác."
+        },
+        {
+          "id": 10,
+          "words": [
+            "green space",
+            "infrastructure",
+            "housing shortage",
+            "urbanise"
+          ],
+          "answer": "urbanise",
+          "reason": "green space, infrastructure, and housing shortage are all nouns — aspects of city life. 'urbanise' is a verb — the process of an area becoming more city-like.",
+          "reason_vi": "green space, infrastructure và housing shortage đều là danh từ — các khía cạnh của cuộc sống thành thị. 'urbanise' là động từ — quá trình một khu vực trở nên giống thành phố hơn."
+        }
+      ]
     }
   },
   "answer_key": {

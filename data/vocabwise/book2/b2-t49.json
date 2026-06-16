@@ -629,6 +629,67 @@
           "explanation": "'Energy saving' is the target vocabulary compound adjective for devices that reduce energy consumption. 'Power-saving' exists in technology contexts (e.g., phone screens) but is not the standard environmental vocabulary term. 'Electricity-reducing' is not standard English at all. 'Energy saving' is the established phrase in sustainability and environmental discussion."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Vấn đề môi trường",
+        "Hành động & giải pháp",
+        "Tác động & kết quả"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "pollution",
+          "answer": "Vấn đề môi trường"
+        },
+        {
+          "id": 2,
+          "word": "recycle",
+          "answer": "Hành động & giải pháp"
+        },
+        {
+          "id": 3,
+          "word": "deforestation",
+          "answer": "Vấn đề môi trường"
+        },
+        {
+          "id": 4,
+          "word": "biodiversity loss",
+          "answer": "Tác động & kết quả"
+        },
+        {
+          "id": 5,
+          "word": "renewable energy",
+          "answer": "Hành động & giải pháp"
+        },
+        {
+          "id": 6,
+          "word": "habitat destruction",
+          "answer": "Vấn đề môi trường"
+        },
+        {
+          "id": 7,
+          "word": "species extinction",
+          "answer": "Tác động & kết quả"
+        },
+        {
+          "id": 8,
+          "word": "carbon footprint",
+          "answer": "Tác động & kết quả"
+        },
+        {
+          "id": 9,
+          "word": "conservation",
+          "answer": "Hành động & giải pháp"
+        },
+        {
+          "id": 10,
+          "word": "emissions",
+          "answer": "Vấn đề môi trường"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -611,6 +611,132 @@
           "explanation": "'Review' is the standard term for a written critical assessment of a film by a professional. A 'verdict' is a formal judgment (typically in law), and a 'score' is a numerical rating. 'Review' specifically captures the published critical analysis that a film critic produces."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "director",
+            "cast",
+            "film critic",
+            "budget"
+          ],
+          "answer": "budget",
+          "reason": "director, cast, and film critic are all people involved in the film world. 'budget' is financial — the amount of money available to make a film, not a person.",
+          "reason_vi": "director, cast và film critic đều là người liên quan đến thế giới điện ảnh. 'budget' là tài chính — số tiền dùng để làm phim, không phải người."
+        },
+        {
+          "id": 2,
+          "words": [
+            "release",
+            "stream",
+            "broadcast",
+            "sequel"
+          ],
+          "answer": "sequel",
+          "reason": "release, stream, and broadcast are all ways of distributing or sharing a film or programme with an audience. 'sequel' is a type of film — one that continues a previous story, not a method of distribution.",
+          "reason_vi": "release, stream và broadcast đều là cách phân phối hoặc chia sẻ phim với khán giả. 'sequel' là loại phim — phim tiếp nối câu chuyện trước, không phải phương pháp phân phối."
+        },
+        {
+          "id": 3,
+          "words": [
+            "genre",
+            "documentary",
+            "new version",
+            "production"
+          ],
+          "answer": "production",
+          "reason": "genre, documentary, and new version are all types or categories of film content. 'production' is the process of making a film — the set of activities behind the scenes.",
+          "reason_vi": "genre, documentary và new version đều là loại hoặc danh mục nội dung phim. 'production' là quá trình làm phim — tập hợp hoạt động hậu trường."
+        },
+        {
+          "id": 4,
+          "words": [
+            "director",
+            "cast",
+            "audience",
+            "release"
+          ],
+          "answer": "release",
+          "reason": "director, cast, and audience are all people involved in or watching a film. 'release' is an event — the moment a film becomes available to the public.",
+          "reason_vi": "director, cast và audience đều là người liên quan đến hoặc xem phim. 'release' là sự kiện — khoảnh khắc phim được công chiếu rộng rãi."
+        },
+        {
+          "id": 5,
+          "words": [
+            "genre",
+            "documentary",
+            "sequel",
+            "scene"
+          ],
+          "answer": "scene",
+          "reason": "genre, documentary, and sequel are all ways of categorising or describing whole films. 'scene' is a single moment within a film — not a category or type of film.",
+          "reason_vi": "genre, documentary và sequel đều là cách phân loại hoặc mô tả toàn bộ phim. 'scene' là một khoảnh khắc trong phim — không phải danh mục hay loại phim."
+        },
+        {
+          "id": 6,
+          "words": [
+            "release",
+            "stream",
+            "broadcast",
+            "budget"
+          ],
+          "answer": "budget",
+          "reason": "release, stream, and broadcast are all actions — ways of sharing a film with an audience. 'budget' is a financial concept — the money available to make the film.",
+          "reason_vi": "release, stream và broadcast đều là hành động — cách chia sẻ phim với khán giả. 'budget' là khái niệm tài chính — tiền dùng để làm phim."
+        },
+        {
+          "id": 7,
+          "words": [
+            "director",
+            "film critic",
+            "cast",
+            "production"
+          ],
+          "answer": "production",
+          "reason": "director, film critic, and cast are all people in the film industry. 'production' is a process or company — it refers to the making of a film, not a person.",
+          "reason_vi": "director, film critic và cast đều là người trong ngành điện ảnh. 'production' là quá trình hoặc công ty — đề cập đến việc làm phim, không phải người."
+        },
+        {
+          "id": 8,
+          "words": [
+            "genre",
+            "documentary",
+            "sequel",
+            "award"
+          ],
+          "answer": "award",
+          "reason": "genre, documentary, and sequel are all terms describing types or forms of film. 'award' is a prize — recognition given to a film or person after release, not a type of film.",
+          "reason_vi": "genre, documentary và sequel đều là thuật ngữ mô tả loại hoặc hình thức phim. 'award' là giải thưởng — sự ghi nhận trao cho phim hoặc người sau khi phát hành, không phải loại phim."
+        },
+        {
+          "id": 9,
+          "words": [
+            "release",
+            "stream",
+            "broadcast",
+            "film critic"
+          ],
+          "answer": "film critic",
+          "reason": "release, stream, and broadcast are all actions related to distributing or transmitting films. 'film critic' is a person — someone who reviews and analyses films professionally.",
+          "reason_vi": "release, stream và broadcast đều là hành động liên quan đến phân phối hoặc truyền phim. 'film critic' là người — ai đó chuyên nghiệp đánh giá và phân tích phim."
+        },
+        {
+          "id": 10,
+          "words": [
+            "genre",
+            "scene",
+            "new version",
+            "documentary"
+          ],
+          "answer": "scene",
+          "reason": "genre, new version, and documentary are all ways of describing or classifying a complete film. 'scene' is a single section within a film — too small to classify the whole work.",
+          "reason_vi": "genre, new version và documentary đều là cách mô tả hoặc phân loại một bộ phim hoàn chỉnh. 'scene' là một đoạn đơn lẻ trong phim — quá nhỏ để phân loại toàn bộ tác phẩm."
+        }
+      ]
     }
   },
   "answer_key": {

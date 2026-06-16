@@ -619,6 +619,132 @@
           "explanation": "'Policy' is the standard term for a set of principles and rules that guide government decisions on immigration. A 'law' is a specific legal statute, and while immigration laws exist, 'policy' is the broader and more commonly used term in discussions of government immigration approaches. 'System' refers to the overall structure but not the guiding principles."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "adapt",
+            "settle in",
+            "fit in",
+            "struggle"
+          ],
+          "answer": "struggle",
+          "reason": "adapt, settle in, and fit in are all positive outcomes — they describe successfully adjusting to a new environment. 'struggle' is different — it describes the difficulty of the adjustment, not a successful result.",
+          "reason_vi": "adapt, settle in và fit in đều là kết quả tích cực — mô tả việc thích nghi thành công với môi trường mới. 'struggle' khác — mô tả khó khăn trong quá trình thích nghi, không phải kết quả thành công."
+        },
+        {
+          "id": 2,
+          "words": [
+            "culture shock",
+            "language barrier",
+            "miss home",
+            "blend in"
+          ],
+          "answer": "blend in",
+          "reason": "culture shock, language barrier, and miss home are all challenges faced when living abroad. 'blend in' is a positive outcome — successfully becoming part of the new community.",
+          "reason_vi": "culture shock, language barrier và miss home đều là thách thức khi sống ở nước ngoài. 'blend in' là kết quả tích cực — thành công hòa nhập vào cộng đồng mới."
+        },
+        {
+          "id": 3,
+          "words": [
+            "adapt",
+            "settle in",
+            "blend in",
+            "language barrier"
+          ],
+          "answer": "language barrier",
+          "reason": "adapt, settle in, and blend in describe ways of adjusting successfully to life abroad. 'language barrier' is an obstacle — a difficulty that makes adjustment harder.",
+          "reason_vi": "adapt, settle in và blend in mô tả cách thích nghi thành công với cuộc sống ở nước ngoài. 'language barrier' là trở ngại — khó khăn khiến việc thích nghi khó hơn."
+        },
+        {
+          "id": 4,
+          "words": [
+            "community",
+            "network",
+            "culture shock",
+            "support"
+          ],
+          "answer": "culture shock",
+          "reason": "community, network, and support are all resources that help someone living abroad. 'culture shock' is a problem — the disorientation of being in a very different culture.",
+          "reason_vi": "community, network và support đều là nguồn lực giúp người sống ở nước ngoài. 'culture shock' là vấn đề — sự mất phương hướng khi ở trong một nền văn hóa rất khác."
+        },
+        {
+          "id": 5,
+          "words": [
+            "miss home",
+            "culture shock",
+            "language barrier",
+            "diverse"
+          ],
+          "answer": "diverse",
+          "reason": "miss home, culture shock, and language barrier are all challenges or negative experiences of living abroad. 'diverse' is a positive adjective — it describes a richly varied environment.",
+          "reason_vi": "miss home, culture shock và language barrier đều là thách thức hoặc trải nghiệm tiêu cực khi sống ở nước ngoài. 'diverse' là tính từ tích cực — mô tả môi trường phong phú đa dạng."
+        },
+        {
+          "id": 6,
+          "words": [
+            "adapt",
+            "struggle",
+            "blend in",
+            "fit in"
+          ],
+          "answer": "struggle",
+          "reason": "adapt, blend in, and fit in are all success verbs — they describe positive adjustment. 'struggle' means to have difficulty — it describes the hard part of the process, not success.",
+          "reason_vi": "adapt, blend in và fit in đều là động từ thành công — mô tả sự thích nghi tích cực. 'struggle' có nghĩa là gặp khó khăn — mô tả phần khó của quá trình, không phải thành công."
+        },
+        {
+          "id": 7,
+          "words": [
+            "community",
+            "network",
+            "support",
+            "settle in"
+          ],
+          "answer": "settle in",
+          "reason": "community, network, and support are all nouns — things or groups that help someone abroad. 'settle in' is a verb phrase — the act of becoming comfortable in a new place.",
+          "reason_vi": "community, network và support đều là danh từ — thứ hoặc nhóm giúp đỡ người ở nước ngoài. 'settle in' là cụm động từ — hành động trở nên thoải mái ở nơi mới."
+        },
+        {
+          "id": 8,
+          "words": [
+            "culture shock",
+            "miss home",
+            "language barrier",
+            "identity"
+          ],
+          "answer": "identity",
+          "reason": "culture shock, miss home, and language barrier are all specific challenges of living abroad. 'identity' is an abstract concept — the sense of who you are — not a specific challenge.",
+          "reason_vi": "culture shock, miss home và language barrier đều là thách thức cụ thể khi sống ở nước ngoài. 'identity' là khái niệm trừu tượng — cảm giác về việc bạn là ai — không phải thách thức cụ thể."
+        },
+        {
+          "id": 9,
+          "words": [
+            "network",
+            "community",
+            "support",
+            "struggle"
+          ],
+          "answer": "struggle",
+          "reason": "network, community, and support are all positive resources for someone living abroad. 'struggle' is a negative experience — the difficulty of adjusting, not a source of help.",
+          "reason_vi": "network, community và support đều là nguồn lực tích cực cho người sống ở nước ngoài. 'struggle' là trải nghiệm tiêu cực — sự khó khăn trong việc thích nghi, không phải nguồn trợ giúp."
+        },
+        {
+          "id": 10,
+          "words": [
+            "adapt",
+            "blend in",
+            "diverse",
+            "identity"
+          ],
+          "answer": "identity",
+          "reason": "adapt, blend in, and diverse are all process or description words — things that happen when adjusting to life abroad. 'identity' is a core concept — who a person is — not specifically about the process of living abroad.",
+          "reason_vi": "adapt, blend in và diverse đều là từ mô tả quá trình — thứ xảy ra khi thích nghi với cuộc sống ở nước ngoài. 'identity' là khái niệm cốt lõi — con người là ai — không đặc biệt về quá trình sống ở nước ngoài."
+        }
+      ]
     }
   },
   "answer_key": {

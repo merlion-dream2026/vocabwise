@@ -563,6 +563,82 @@
           "explanation": "'Amateur' describes someone who participates for enjoyment rather than financial reward — 'elite' describes the very best performers, which contradicts the recreational context."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "He showed remarkable endurance during the race.",
+          "b": "He showed remarkable perseverance throughout his career.",
+          "answer": "D",
+          "explanation": "Endurance refers to the ability to sustain physical or mental effort over a prolonged period in a specific challenge. Perseverance refers to persistence in the face of difficulty over a longer time span. These are related but describe different scales and contexts."
+        },
+        {
+          "id": 2,
+          "a": "Doping undermines the integrity of sport.",
+          "b": "Cheating undermines the integrity of sport.",
+          "answer": "S",
+          "explanation": "Doping is a form of cheating — using prohibited substances to gain an unfair advantage. Both sentences say that dishonest practices damage the fundamental fairness of sport."
+        },
+        {
+          "id": 3,
+          "a": "The athlete competed at elite level.",
+          "b": "The athlete competed at amateur level.",
+          "answer": "D",
+          "explanation": "Elite means the highest competitive level, involving professional or highly skilled competitors. Amateur means non-professional. These are opposite ends of the competitive spectrum."
+        },
+        {
+          "id": 4,
+          "a": "Discipline is what separates champions from the rest.",
+          "b": "Psychology is what separates champions from the rest.",
+          "answer": "D",
+          "explanation": "Discipline refers to consistent, structured habits of training and behaviour. Psychology refers to mental factors — focus, confidence, resilience. These are different (though complementary) explanations for athletic excellence."
+        },
+        {
+          "id": 5,
+          "a": "The match attracted a huge spectacle.",
+          "b": "The match drew a large crowd.",
+          "answer": "D",
+          "explanation": "A spectacle is not a crowd — it refers to the grand, dramatic quality of the event itself. Drawing a large crowd refers to the number of people present. These are different facts about the same event."
+        },
+        {
+          "id": 6,
+          "a": "Rivalry between competitors can enhance performance.",
+          "b": "Competition between athletes can raise standards.",
+          "answer": "S",
+          "explanation": "Rivalry and competition describe the same dynamic between athletes striving to outperform each other. Enhanced performance and raised standards describe the same positive outcome."
+        },
+        {
+          "id": 7,
+          "a": "He is an elite athlete.",
+          "b": "He is a professional athlete.",
+          "answer": "S",
+          "explanation": "Elite and professional both describe a high-performing athlete who competes at the top level. In most sporting contexts, these sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "Sporting integrity requires fair play.",
+          "b": "Sporting integrity requires victory.",
+          "answer": "D",
+          "explanation": "Integrity requires honesty, fairness, and ethical conduct. Victory is a result that can be achieved fairly or unfairly. These are fundamentally different requirements."
+        },
+        {
+          "id": 9,
+          "a": "His psychological resilience was evident under pressure.",
+          "b": "His mental strength was evident under pressure.",
+          "answer": "S",
+          "explanation": "Psychological resilience and mental strength both describe the capacity to remain composed and effective in difficult or high-pressure situations. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The event became a global spectacle.",
+          "b": "The event attracted global attention.",
+          "answer": "S",
+          "explanation": "A global spectacle and attracting global attention both describe an event that drew widespread international interest and admiration. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

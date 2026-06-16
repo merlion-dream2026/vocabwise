@@ -563,6 +563,82 @@
           "explanation": "A verb is needed after the modal 'can' — 'disengage', not the noun 'disengagement'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "He suffered from professional exhaustion.",
+          "b": "He experienced burnout.",
+          "answer": "S",
+          "explanation": "Professional exhaustion and burnout are near-synonyms — both describe a state of severe physical and emotional depletion caused by sustained workplace stress. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "She set a firm boundary between work and personal life.",
+          "b": "She achieved a perfect work-life balance.",
+          "answer": "D",
+          "explanation": "Setting a boundary is a specific protective action — deciding when work ends. Achieving a perfect balance implies an ideal equilibrium. The first is a deliberate act; the second is a state of ideal harmony."
+        },
+        {
+          "id": 3,
+          "a": "Flexibility in working hours improved her wellbeing.",
+          "b": "Autonomy over her schedule improved her wellbeing.",
+          "answer": "S",
+          "explanation": "Flexibility in working hours and autonomy over schedule both describe the same condition — having control over when one works. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "He experienced overcommitment at work.",
+          "b": "He struggled to prioritise his workload.",
+          "answer": "S",
+          "explanation": "Overcommitment means taking on too many tasks; struggling to prioritise describes the same inability to manage competing demands. In context, these sentences describe the same situation."
+        },
+        {
+          "id": 5,
+          "a": "Restoration is essential after a period of intense work.",
+          "b": "Productivity requires periods of rest and recovery.",
+          "answer": "S",
+          "explanation": "Restoration and rest/recovery both refer to the same process — allowing the body and mind to recover from effort. Both sentences make the case that recovery is necessary for sustained performance."
+        },
+        {
+          "id": 6,
+          "a": "Disengagement from work can be healthy.",
+          "b": "Disconnecting from work is beneficial.",
+          "answer": "S",
+          "explanation": "Disengagement from work and disconnecting from work both describe the same practice of mentally or physically switching off from professional demands. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "He sought immediate gratification.",
+          "b": "He planned for long-term fulfilment.",
+          "answer": "D",
+          "explanation": "Immediate gratification means seeking short-term rewards. Long-term fulfilment refers to deeper, more sustained satisfaction. These are contrasting orientations to wellbeing."
+        },
+        {
+          "id": 8,
+          "a": "She lacked self-determination in her career.",
+          "b": "She had no say in decisions that affected her life.",
+          "answer": "S",
+          "explanation": "Self-determination is the capacity to make choices about one's own life. Having no say means being excluded from decisions. Both sentences describe a lack of personal agency."
+        },
+        {
+          "id": 9,
+          "a": "A poor work-life balance led to exhaustion.",
+          "b": "Overcommitment led to exhaustion.",
+          "answer": "S",
+          "explanation": "A poor work-life balance and overcommitment are closely related — both describe a state where too much is given to work at the expense of personal wellbeing, leading to the same result."
+        },
+        {
+          "id": 10,
+          "a": "She restored her energy through rest.",
+          "b": "She improved her productivity through rest.",
+          "answer": "D",
+          "explanation": "Restoring energy refers to physical and mental recovery. Improving productivity refers to doing more or better work. Rest may achieve both, but these sentences emphasise different outcomes."
+        }
+      ]
     }
   },
   "answer_key": {

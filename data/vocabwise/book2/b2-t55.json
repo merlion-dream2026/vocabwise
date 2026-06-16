@@ -639,6 +639,67 @@
           "explanation": "'Impact' is the target vocabulary word for the measurable effect or significance of something — particularly in scientific and social contexts. 'Effectiveness' is a narrow term referring specifically to how well something works. 'Result' refers to the outcome of a specific test. 'Impact' is the broader and more appropriate vocabulary when discussing how scientific research affects medicine, society, or understanding — matching the passage's academic register."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Khái niệm khoa học",
+        "Ứng dụng thực tế",
+        "Thái độ & tiếp cận"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "hypothesis",
+          "answer": "Khái niệm khoa học"
+        },
+        {
+          "id": 2,
+          "word": "medical treatment",
+          "answer": "Ứng dụng thực tế"
+        },
+        {
+          "id": 3,
+          "word": "critical thinking",
+          "answer": "Thái độ & tiếp cận"
+        },
+        {
+          "id": 4,
+          "word": "evidence",
+          "answer": "Khái niệm khoa học"
+        },
+        {
+          "id": 5,
+          "word": "technology in daily life",
+          "answer": "Ứng dụng thực tế"
+        },
+        {
+          "id": 6,
+          "word": "questioning",
+          "answer": "Thái độ & tiếp cận"
+        },
+        {
+          "id": 7,
+          "word": "data",
+          "answer": "Khái niệm khoa học"
+        },
+        {
+          "id": 8,
+          "word": "engineering solutions",
+          "answer": "Ứng dụng thực tế"
+        },
+        {
+          "id": 9,
+          "word": "open-mindedness",
+          "answer": "Thái độ & tiếp cận"
+        },
+        {
+          "id": 10,
+          "word": "experiment",
+          "answer": "Khái niệm khoa học"
+        }
+      ]
     }
   },
   "answer_key": {

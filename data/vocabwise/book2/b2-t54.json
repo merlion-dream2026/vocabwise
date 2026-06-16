@@ -641,6 +641,82 @@
           "explanation": "'Suggested' is the target vocabulary verb for proposing an idea in a community or discussion context. 'Voted for' implies a formal ballot rather than a community proposal. 'Agreed on' implies consensus was already reached. 'Suggested' correctly represents the act of bringing a new idea to the table for consideration — the appropriate vocabulary in community problem-solving contexts."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The local area faces some social challenges.",
+          "b": "The local area has some community problems.",
+          "answer": "S",
+          "explanation": "Social challenges and community problems both describe difficulties that affect people living in the same area. These sentences carry the same meaning."
+        },
+        {
+          "id": 2,
+          "a": "The government should invest more in public services.",
+          "b": "The government should cut spending on public services.",
+          "answer": "D",
+          "explanation": "Invest more means increase funding. Cut spending means reduce funding. These are opposite policy positions."
+        },
+        {
+          "id": 3,
+          "a": "Volunteering helps build a stronger community.",
+          "b": "Volunteering is required by law.",
+          "answer": "D",
+          "explanation": "Building a stronger community describes the social benefit of volunteering. Being required by law describes a legal obligation. By definition, volunteering is not compulsory."
+        },
+        {
+          "id": 4,
+          "a": "The neighbourhood has improved over the past year.",
+          "b": "The neighbourhood has declined over the past year.",
+          "answer": "D",
+          "explanation": "Improved means conditions have become better. Declined means they have become worse. These are opposite trajectories."
+        },
+        {
+          "id": 5,
+          "a": "The area lacks affordable housing.",
+          "b": "There is a housing shortage in the area.",
+          "answer": "S",
+          "explanation": "Lacking affordable housing and having a housing shortage both describe a situation where there are not enough homes for people who need them. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Community groups can help reduce local crime.",
+          "b": "Community groups are responsible for local crime.",
+          "answer": "D",
+          "explanation": "Helping reduce crime means groups contribute to safety. Being responsible for crime means they cause it. These are opposite roles."
+        },
+        {
+          "id": 7,
+          "a": "The area has good public transport links.",
+          "b": "The area is well-connected.",
+          "answer": "S",
+          "explanation": "Good public transport links and being well-connected both describe a place that is easy to travel to and from. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "Youth clubs can keep young people out of trouble.",
+          "b": "Youth clubs are a waste of public money.",
+          "answer": "D",
+          "explanation": "The first sentence describes a social benefit of youth clubs. The second questions their value. These make completely opposite claims."
+        },
+        {
+          "id": 9,
+          "a": "Litter is a big problem in the town centre.",
+          "b": "The town centre is poorly maintained.",
+          "answer": "S",
+          "explanation": "A litter problem and poor maintenance both describe a neglected environment. These sentences describe the same underlying issue."
+        },
+        {
+          "id": 10,
+          "a": "Local residents are unhappy about the new development.",
+          "b": "Local residents protested against the new development.",
+          "answer": "D",
+          "explanation": "Being unhappy describes a feeling. Protesting describes an active public action. You can feel unhappy without protesting."
+        }
+      ]
     }
   },
   "answer_key": {

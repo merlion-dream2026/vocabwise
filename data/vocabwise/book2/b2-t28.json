@@ -609,6 +609,82 @@
           "explanation": "'Hospitality' is the specific term for the friendly and welcoming treatment of guests and visitors — it is the standard word used in travel and service contexts. 'Kindness' and 'generosity' are more general character traits."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The city attracts many visitors each year.",
+          "b": "The city promotes itself to many visitors each year.",
+          "answer": "D",
+          "explanation": "Attract means visitors come naturally or because of what is there. Promote means actively marketing the city. One is a result; the other is an action."
+        },
+        {
+          "id": 2,
+          "a": "The government wants to preserve the heritage site.",
+          "b": "The government wants to promote the heritage site.",
+          "answer": "D",
+          "explanation": "Preserve means to protect something from damage or change. Promote means to advertise it. These are different — and sometimes conflicting — goals in tourism."
+        },
+        {
+          "id": 3,
+          "a": "The town has a good tourism experience.",
+          "b": "The town welcomes many visitors.",
+          "answer": "S",
+          "explanation": "A good tourism experience and welcoming many visitors both describe a place that successfully engages tourists. In context, these sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "The destination is very popular.",
+          "b": "The destination is very sustainable.",
+          "answer": "D",
+          "explanation": "Popular means many people want to visit. Sustainable means the tourism does not harm the environment or community. A place can be popular without being sustainable."
+        },
+        {
+          "id": 5,
+          "a": "Too many visitors can damage the local economy.",
+          "b": "Too many visitors can damage the environment.",
+          "answer": "D",
+          "explanation": "The local economy and the environment are different things. Overcrowding can affect both, but these sentences describe different types of harm."
+        },
+        {
+          "id": 6,
+          "a": "The guide explained the history of the site.",
+          "b": "The guide promoted the history of the site.",
+          "answer": "D",
+          "explanation": "Explain means to describe or clarify something. Promote means to market or increase interest in something. These are different activities, even if done about the same topic."
+        },
+        {
+          "id": 7,
+          "a": "The resort has reached its capacity.",
+          "b": "The resort is fully booked.",
+          "answer": "S",
+          "explanation": "Reaching capacity and being fully booked both mean the resort cannot accept more guests. These sentences carry the same practical meaning."
+        },
+        {
+          "id": 8,
+          "a": "The tourism industry supports the local economy.",
+          "b": "The hospitality industry supports the local economy.",
+          "answer": "S",
+          "explanation": "Tourism and hospitality are closely related industries — both involve serving visitors. In this context, the sentences carry the same broad meaning."
+        },
+        {
+          "id": 9,
+          "a": "The community wants to preserve its culture.",
+          "b": "The community wants to adapt its culture.",
+          "answer": "D",
+          "explanation": "Preserve means to keep something unchanged. Adapt means to change it to suit new circumstances. These are opposite approaches to cultural change."
+        },
+        {
+          "id": 10,
+          "a": "The area is known for its natural heritage.",
+          "b": "The area is known for its visitor experience.",
+          "answer": "D",
+          "explanation": "Natural heritage refers to the environment and landscape. Visitor experience refers to what tourists feel and do there. These describe different aspects of a destination."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -561,6 +561,82 @@
           "explanation": "An adjective is needed to modify the noun phrase 'reported side effect' — 'common', not the adverb 'commonly'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The drug was approved after extensive clinical trials.",
+          "b": "The drug was approved based on anecdotal evidence.",
+          "answer": "D",
+          "explanation": "Clinical trials are rigorous, controlled scientific studies. Anecdotal evidence is informal, uncontrolled observation. These represent opposite standards of scientific proof."
+        },
+        {
+          "id": 2,
+          "a": "The vaccine demonstrated high efficacy.",
+          "b": "The vaccine was highly effective.",
+          "answer": "S",
+          "explanation": "Efficacy is a technical term for the ability to produce the desired result under controlled conditions. Highly effective means the same in general usage. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "She required a kidney transplant.",
+          "b": "She required a kidney donation.",
+          "answer": "D",
+          "explanation": "A transplant is the surgical procedure of placing a donated organ. A donation is the act of giving the organ. Both may be needed, but these sentences describe different events."
+        },
+        {
+          "id": 4,
+          "a": "Gene therapy can correct genetic disorders.",
+          "b": "Immunisation can correct genetic disorders.",
+          "answer": "D",
+          "explanation": "Gene therapy targets faulty genes. Immunisation stimulates the immune system against pathogens. These are completely different medical interventions with different targets."
+        },
+        {
+          "id": 5,
+          "a": "The patient experienced serious side effects.",
+          "b": "The treatment caused unexpected complications.",
+          "answer": "S",
+          "explanation": "Side effects and unexpected complications both describe negative, unintended consequences of medical treatment. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "The diagnosis was confirmed by laboratory tests.",
+          "b": "The diagnosis was based on the patient's symptoms alone.",
+          "answer": "D",
+          "explanation": "Confirmation by laboratory tests is an objective, evidence-based method. Diagnosis based on symptoms alone is clinical and potentially less definitive. These describe different diagnostic processes."
+        },
+        {
+          "id": 7,
+          "a": "Immunisation protects against preventable diseases.",
+          "b": "Vaccination protects against preventable diseases.",
+          "answer": "S",
+          "explanation": "Immunisation and vaccination describe the same process — administering a vaccine to produce immunity. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "The pharmaceutical company conducted the clinical trial.",
+          "b": "The regulatory authority conducted the clinical trial.",
+          "answer": "D",
+          "explanation": "Pharmaceutical companies design and fund trials to test their products. Regulatory authorities oversee or approve those trials. These are different institutions with different roles."
+        },
+        {
+          "id": 9,
+          "a": "Gene therapy is an established treatment for all cancers.",
+          "b": "Gene therapy is an emerging treatment for some cancers.",
+          "answer": "D",
+          "explanation": "Established means widely accepted and proven. Emerging means developing and not yet fully proven. All cancers vs. some cancers is also a significant difference in scope."
+        },
+        {
+          "id": 10,
+          "a": "The organ donor saved three lives.",
+          "b": "The organ transplant saved three lives.",
+          "answer": "D",
+          "explanation": "The donor is the person who gives the organs. The transplant is the medical procedure. These sentences attribute the outcome to different actors."
+        }
+      ]
     }
   },
   "answer_key": {

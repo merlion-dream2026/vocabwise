@@ -558,6 +558,132 @@
           "explanation": "A base-form verb is required after the modal 'to' — 'structure', not the adjective 'structural'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "narrative",
+            "plot",
+            "archetype",
+            "voice"
+          ],
+          "answer": "archetype",
+          "reason": "narrative, plot, and voice are all elements within a story — how it is told, what happens, and how the narrator sounds. 'archetype' is a character or theme template — a universal pattern that recurs across stories, not a structural element of one.",
+          "reason_vi": "narrative, plot và voice đều là yếu tố trong một câu chuyện. 'archetype' là mẫu nhân vật hoặc chủ đề — mẫu phổ quát xuất hiện xuyên suốt các câu chuyện, không phải yếu tố cấu trúc của một câu chuyện."
+        },
+        {
+          "id": 2,
+          "words": [
+            "symbolism",
+            "motif",
+            "subtext",
+            "catharsis"
+          ],
+          "answer": "catharsis",
+          "reason": "symbolism, motif, and subtext are all elements embedded in the narrative structure. 'catharsis' is an emotional effect on the reader or audience — the release of emotion at the end of a powerful story.",
+          "reason_vi": "symbolism, motif và subtext đều là yếu tố nhúng vào cấu trúc tường thuật. 'catharsis' là tác động cảm xúc lên người đọc hoặc khán giả — sự giải tỏa cảm xúc ở cuối một câu chuyện mạnh mẽ."
+        },
+        {
+          "id": 3,
+          "words": [
+            "narrative",
+            "plot",
+            "voice",
+            "unreliable narrator"
+          ],
+          "answer": "unreliable narrator",
+          "reason": "narrative, plot, and voice are general structural or stylistic features of storytelling. 'unreliable narrator' is a specific narrative device — a narrator whose account cannot be fully trusted.",
+          "reason_vi": "narrative, plot và voice là đặc điểm cấu trúc hoặc phong cách chung của kể chuyện. 'unreliable narrator' là thiết bị tường thuật cụ thể — người kể chuyện có tài khoản không thể tin cậy hoàn toàn."
+        },
+        {
+          "id": 4,
+          "words": [
+            "symbolism",
+            "motif",
+            "subtext",
+            "perspective"
+          ],
+          "answer": "perspective",
+          "reason": "symbolism, motif, and subtext are all devices of meaning-making — ways that stories communicate ideas indirectly. 'perspective' is a point of view — the narrative position from which the story is told.",
+          "reason_vi": "symbolism, motif và subtext đều là thiết bị tạo ý nghĩa — cách câu chuyện giao tiếp ý tưởng gián tiếp. 'perspective' là quan điểm — vị trí tường thuật từ đó câu chuyện được kể."
+        },
+        {
+          "id": 5,
+          "words": [
+            "archetype",
+            "motif",
+            "catharsis",
+            "symbolism"
+          ],
+          "answer": "catharsis",
+          "reason": "archetype, motif, and symbolism are all literary patterns or devices embedded in the text. 'catharsis' is a response — the emotional release experienced by the audience, not a textual element.",
+          "reason_vi": "archetype, motif và symbolism đều là mẫu văn học hoặc thiết bị nhúng vào văn bản. 'catharsis' là phản ứng — sự giải tỏa cảm xúc của khán giả, không phải yếu tố văn bản."
+        },
+        {
+          "id": 6,
+          "words": [
+            "narrative",
+            "plot",
+            "voice",
+            "catharsis"
+          ],
+          "answer": "catharsis",
+          "reason": "narrative, plot, and voice are structural storytelling elements — how the story is constructed. 'catharsis' is an outcome — the emotional effect experienced after engaging with the story.",
+          "reason_vi": "narrative, plot và voice là các yếu tố kể chuyện cấu trúc — cách câu chuyện được xây dựng. 'catharsis' là kết quả — tác động cảm xúc sau khi tiếp nhận câu chuyện."
+        },
+        {
+          "id": 7,
+          "words": [
+            "unreliable narrator",
+            "perspective",
+            "voice",
+            "archetype"
+          ],
+          "answer": "archetype",
+          "reason": "unreliable narrator, perspective, and voice are all narrator-related concepts — features of who is telling the story and how. 'archetype' is a character pattern — a recurring universal type, not a narrator feature.",
+          "reason_vi": "unreliable narrator, perspective và voice đều là khái niệm liên quan đến người kể — đặc điểm của ai đang kể câu chuyện và như thế nào. 'archetype' là mẫu nhân vật — loại phổ quát lặp đi lặp lại, không phải đặc điểm người kể."
+        },
+        {
+          "id": 8,
+          "words": [
+            "symbolism",
+            "motif",
+            "subtext",
+            "unreliable narrator"
+          ],
+          "answer": "unreliable narrator",
+          "reason": "symbolism, motif, and subtext are all techniques of implied meaning — messages beneath the surface of the text. 'unreliable narrator' is a specific character feature — the narrator's trustworthiness, not a meaning device.",
+          "reason_vi": "symbolism, motif và subtext đều là kỹ thuật ý nghĩa ngụ ý. 'unreliable narrator' là đặc điểm nhân vật cụ thể — sự đáng tin cậy của người kể, không phải thiết bị ý nghĩa."
+        },
+        {
+          "id": 9,
+          "words": [
+            "plot",
+            "narrative",
+            "perspective",
+            "catharsis"
+          ],
+          "answer": "catharsis",
+          "reason": "plot, narrative, and perspective are all features of how a story is shaped and told. 'catharsis' is what the audience feels at the end — a response, not a storytelling feature.",
+          "reason_vi": "plot, narrative và perspective đều là đặc điểm của cách câu chuyện được định hình và kể. 'catharsis' là cảm giác của khán giả ở cuối — phản ứng, không phải đặc điểm kể chuyện."
+        },
+        {
+          "id": 10,
+          "words": [
+            "archetype",
+            "motif",
+            "symbolism",
+            "voice"
+          ],
+          "answer": "voice",
+          "reason": "archetype, motif, and symbolism are all meaning-bearing patterns and devices. 'voice' is a stylistic and narrative quality — the distinct tone and character of the narrator or author.",
+          "reason_vi": "archetype, motif và symbolism đều là mẫu và thiết bị mang ý nghĩa. 'voice' là phẩm chất phong cách và tường thuật — giọng điệu và cá tính riêng biệt của người kể hoặc tác giả."
+        }
+      ]
     }
   },
   "answer_key": {

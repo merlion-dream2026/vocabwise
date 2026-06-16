@@ -561,6 +561,82 @@
           "explanation": "A noun is required after 'that' to serve as the subject of the subordinate clause; 'authenticity' is the correct noun form, while 'authentic' is an adjective."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The speech used rhetorical devices effectively.",
+          "b": "The speech was persuasive.",
+          "answer": "S",
+          "explanation": "Rhetorical devices are techniques of persuasion. Using them effectively produces persuasion. These sentences describe the same speech outcome."
+        },
+        {
+          "id": 2,
+          "a": "The headline used loaded language.",
+          "b": "The headline was factually accurate.",
+          "answer": "D",
+          "explanation": "Loaded language carries strong emotional connotations designed to influence. It may or may not be factually accurate. These sentences describe different dimensions of the text."
+        },
+        {
+          "id": 3,
+          "a": "He framed the issue as a security threat.",
+          "b": "He framed the issue as an economic opportunity.",
+          "answer": "D",
+          "explanation": "Framing shapes how an issue is perceived. Security threat and economic opportunity represent completely different framings of the same issue. These sentences are opposites."
+        },
+        {
+          "id": 4,
+          "a": "The spokesperson used a euphemism.",
+          "b": "The spokesperson used plain, direct language.",
+          "answer": "D",
+          "explanation": "A euphemism is a mild or indirect expression used to avoid saying something harsh. Plain, direct language is the opposite. These sentences describe contrasting communication choices."
+        },
+        {
+          "id": 5,
+          "a": "The endorsement increased the speaker's credibility.",
+          "b": "The endorsement boosted public trust in the speaker.",
+          "answer": "S",
+          "explanation": "Credibility and public trust both describe the degree to which an audience believes and respects a speaker. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "He used spin to present the failure positively.",
+          "b": "He presented the failure honestly.",
+          "answer": "D",
+          "explanation": "Spin is the technique of managing information to create a more favourable impression. Honest presentation means giving an unfiltered account. These are opposite communication strategies."
+        },
+        {
+          "id": 7,
+          "a": "The appeal was made to the audience's emotions.",
+          "b": "The appeal was made to logic and evidence.",
+          "answer": "D",
+          "explanation": "Emotional appeals and logical appeals (pathos vs. logos in rhetoric) are different persuasive strategies. These sentences describe different approaches."
+        },
+        {
+          "id": 8,
+          "a": "The politician took a clear stance on the issue.",
+          "b": "The politician avoided committing to a position.",
+          "answer": "D",
+          "explanation": "Taking a clear stance means expressing a definite opinion. Avoiding commitment means remaining deliberately vague. These are opposite communication behaviours."
+        },
+        {
+          "id": 9,
+          "a": "Manipulation exploits psychological vulnerabilities.",
+          "b": "Persuasion uses evidence to change minds.",
+          "answer": "D",
+          "explanation": "Manipulation bypasses rational thought to influence behaviour. Persuasion uses evidence and reason. These are ethically and methodologically distinct approaches to influence."
+        },
+        {
+          "id": 10,
+          "a": "The message was framed to downplay the risks.",
+          "b": "The message was deliberately misleading about the risks.",
+          "answer": "S",
+          "explanation": "Framing to downplay and being deliberately misleading both describe selective presentation of information to minimise the perceived severity of risks. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

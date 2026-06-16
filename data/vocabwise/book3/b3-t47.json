@@ -554,6 +554,82 @@
           "explanation": "A noun is required as the subject of the sentence — 'characterisation', not the verb 'characterise'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The essay lacked cohesion.",
+          "b": "The essay lacked coherence.",
+          "answer": "D",
+          "explanation": "Cohesion refers to the grammatical and lexical links between sentences (e.g. pronouns, connectives). Coherence refers to the logical flow of ideas. An essay can have one without the other."
+        },
+        {
+          "id": 2,
+          "a": "The writer used hedging language appropriately.",
+          "b": "The writer avoided making claims that were too strong.",
+          "answer": "S",
+          "explanation": "Hedging language is used to qualify claims — to signal uncertainty or caution. Avoiding overly strong claims is the same practice described differently. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "The passage used nominalisation extensively.",
+          "b": "The passage was written in an abstract style.",
+          "answer": "S",
+          "explanation": "Nominalisation converts verbs or adjectives into nouns, which creates a more abstract, formal style. These sentences describe the same stylistic feature of academic prose."
+        },
+        {
+          "id": 4,
+          "a": "The citation was incorrectly formatted.",
+          "b": "The citation was plagiarised.",
+          "answer": "D",
+          "explanation": "Incorrect formatting is a technical error. Plagiarism is presenting someone else's work as your own. These are different problems with different ethical implications."
+        },
+        {
+          "id": 5,
+          "a": "She wrote with formality and concision.",
+          "b": "She wrote in an informal, detailed style.",
+          "answer": "D",
+          "explanation": "Formal and concise means professional and brief. Informal and detailed means the opposite on both dimensions. These describe contrasting styles."
+        },
+        {
+          "id": 6,
+          "a": "The thesis statement was clear and specific.",
+          "b": "The essay had a strong, focused argument.",
+          "answer": "S",
+          "explanation": "A clear, specific thesis statement is the foundation of a strong, focused argument. These sentences describe the same quality in different terms."
+        },
+        {
+          "id": 7,
+          "a": "The transition sentence guided the reader between sections.",
+          "b": "The essay had a clear organisational structure.",
+          "answer": "D",
+          "explanation": "A transition sentence is a specific connective device. Organisational structure refers to the overall arrangement of sections. These describe related but distinct aspects of academic writing."
+        },
+        {
+          "id": 8,
+          "a": "The register was inappropriate for an academic context.",
+          "b": "The essay was written in too casual a tone.",
+          "answer": "S",
+          "explanation": "Inappropriate register for academic writing and too casual a tone both describe the same problem — the style does not match the formal expectations of the context."
+        },
+        {
+          "id": 9,
+          "a": "The argument lacked concision.",
+          "b": "The argument was too wordy.",
+          "answer": "S",
+          "explanation": "Lacking concision and being too wordy both describe an argument that uses more words than necessary. These sentences carry the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The essay lacked a clear thesis statement.",
+          "b": "The essay's main argument was hard to identify.",
+          "answer": "S",
+          "explanation": "The absence of a clear thesis statement means the central argument is unclear. These sentences describe the same problem from different angles."
+        }
+      ]
     }
   },
   "answer_key": {

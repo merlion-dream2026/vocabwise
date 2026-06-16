@@ -1,87 +1,769 @@
 {
   "meta": {
-    "book": 2, "topic_number": 20, "topic_id": "b2-t20",
-    "topic_title": "Scientific Research & Discovery", "theme_number": 2, "theme_title": "Environment & Science",
-    "cefr_level": "B1-B2", "combo": "B2", "emoji": "🔬", "topic_title_vi": "Nghiên Cứu Khoa Học & Khám Phá", "theme_title_vi": "Môi Trường & Khoa Học",
+    "book": 2,
+    "topic_number": 20,
+    "topic_id": "b2-t20",
+    "topic_title": "Scientific Research & Discovery",
+    "theme_number": 2,
+    "theme_title": "Environment & Science",
+    "cefr_level": "B1-B2",
+    "combo": "B2",
+    "emoji": "🔬",
+    "topic_title_vi": "Nghiên Cứu Khoa Học & Khám Phá",
+    "theme_title_vi": "Môi Trường & Khoa Học",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    }
   },
-  "passage": { "word_count": 203, "paragraphs": [
-    { "index": 1, "text_en": "Science advances through a structured process designed to uncover truth about the natural world. A scientist begins by forming a **hypothesis** — a testable prediction about how something works. This idea is then tested through an **experiment**, which measures the effect of one **variable** while keeping all others constant. Most experiments take place in a **laboratory**, where conditions can be precisely controlled.", "text_vi": "Khoa học tiến bộ thông qua một quy trình có cấu trúc nhằm khám phá sự thật về thế giới tự nhiên. Một nhà khoa học bắt đầu bằng cách hình thành một **giả thuyết** — một dự đoán có thể kiểm chứng về cách thức hoạt động của một thứ gì đó. Ý tưởng này sau đó được kiểm tra qua một **thí nghiệm**, đo lường tác động của một **biến số** trong khi giữ nguyên tất cả các yếu tố khác. Hầu hết các thí nghiệm diễn ra trong **phòng thí nghiệm**, nơi các điều kiện có thể được kiểm soát chính xác." },
-    { "index": 2, "text_en": "After running an experiment, researchers collect **data** — measurements and results — which they then **analyse** to identify patterns and trends. Scientists must also **observe** carefully, recording what actually happens rather than what they expect to see. A clear **methodology** — the specific procedures followed during the study — must be documented so that the work can be evaluated and repeated by others.", "text_vi": "Sau khi thực hiện thí nghiệm, các nhà nghiên cứu thu thập **dữ liệu** — các số liệu và kết quả — rồi **phân tích** để xác định các mô hình và xu hướng. Các nhà khoa học cũng phải **quan sát** cẩn thận, ghi lại những gì thực sự xảy ra thay vì những gì họ kỳ vọng thấy. Một **phương pháp luận** rõ ràng — quy trình cụ thể được tuân theo trong nghiên cứu — phải được ghi lại để người khác có thể đánh giá và lặp lại công việc này." },
-    { "index": 3, "text_en": "When enough **evidence** has been gathered, a scientist may propose a **theory** — a well-supported explanation for an observed pattern in nature. Before findings are shared publicly, they must go through **peer review**, in which other experts assess the quality of the research. Work that passes this process is then **published** in academic journals, contributing to the shared body of scientific knowledge.", "text_vi": "Khi thu thập đủ **bằng chứng**, một nhà khoa học có thể đề xuất một **lý thuyết** — giải thích được hỗ trợ tốt cho một mô hình được quan sát trong tự nhiên. Trước khi công bố công khai, các phát hiện phải trải qua **bình duyệt**, trong đó các chuyên gia khác đánh giá chất lượng nghiên cứu. Công trình vượt qua quy trình này sau đó được **xuất bản** trên các tạp chí học thuật, đóng góp vào kho tri thức khoa học chung." },
-    { "index": 4, "text_en": "For a study to be trusted, other researchers must be able to **replicate** it — to repeat the experiment and reach the same **conclusion**. This process of independent verification is what makes science reliable. Occasionally, a single discovery changes everything: a **breakthrough** — a sudden, major advance — opens new fields of study, shifts understanding, and inspires generations of future scientists.", "text_vi": "Để một nghiên cứu được tin cậy, các nhà nghiên cứu khác phải có thể **tái tạo** nó — lặp lại thí nghiệm và đạt cùng **kết luận**. Quá trình xác minh độc lập này là điều làm cho khoa học đáng tin cậy. Đôi khi, một khám phá duy nhất thay đổi tất cả: một **đột phá** — bước tiến lớn đột ngột — mở ra các lĩnh vực nghiên cứu mới, thay đổi sự hiểu biết và truyền cảm hứng cho các thế hệ nhà khoa học trong tương lai." }
-  ]},
+  "passage": {
+    "word_count": 203,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Science advances through a structured process designed to uncover truth about the natural world. A scientist begins by forming a **hypothesis** — a testable prediction about how something works. This idea is then tested through an **experiment**, which measures the effect of one **variable** while keeping all others constant. Most experiments take place in a **laboratory**, where conditions can be precisely controlled.",
+        "text_vi": "Khoa học tiến bộ thông qua một quy trình có cấu trúc nhằm khám phá sự thật về thế giới tự nhiên. Một nhà khoa học bắt đầu bằng cách hình thành một **giả thuyết** — một dự đoán có thể kiểm chứng về cách thức hoạt động của một thứ gì đó. Ý tưởng này sau đó được kiểm tra qua một **thí nghiệm**, đo lường tác động của một **biến số** trong khi giữ nguyên tất cả các yếu tố khác. Hầu hết các thí nghiệm diễn ra trong **phòng thí nghiệm**, nơi các điều kiện có thể được kiểm soát chính xác."
+      },
+      {
+        "index": 2,
+        "text_en": "After running an experiment, researchers collect **data** — measurements and results — which they then **analyse** to identify patterns and trends. Scientists must also **observe** carefully, recording what actually happens rather than what they expect to see. A clear **methodology** — the specific procedures followed during the study — must be documented so that the work can be evaluated and repeated by others.",
+        "text_vi": "Sau khi thực hiện thí nghiệm, các nhà nghiên cứu thu thập **dữ liệu** — các số liệu và kết quả — rồi **phân tích** để xác định các mô hình và xu hướng. Các nhà khoa học cũng phải **quan sát** cẩn thận, ghi lại những gì thực sự xảy ra thay vì những gì họ kỳ vọng thấy. Một **phương pháp luận** rõ ràng — quy trình cụ thể được tuân theo trong nghiên cứu — phải được ghi lại để người khác có thể đánh giá và lặp lại công việc này."
+      },
+      {
+        "index": 3,
+        "text_en": "When enough **evidence** has been gathered, a scientist may propose a **theory** — a well-supported explanation for an observed pattern in nature. Before findings are shared publicly, they must go through **peer review**, in which other experts assess the quality of the research. Work that passes this process is then **published** in academic journals, contributing to the shared body of scientific knowledge.",
+        "text_vi": "Khi thu thập đủ **bằng chứng**, một nhà khoa học có thể đề xuất một **lý thuyết** — giải thích được hỗ trợ tốt cho một mô hình được quan sát trong tự nhiên. Trước khi công bố công khai, các phát hiện phải trải qua **bình duyệt**, trong đó các chuyên gia khác đánh giá chất lượng nghiên cứu. Công trình vượt qua quy trình này sau đó được **xuất bản** trên các tạp chí học thuật, đóng góp vào kho tri thức khoa học chung."
+      },
+      {
+        "index": 4,
+        "text_en": "For a study to be trusted, other researchers must be able to **replicate** it — to repeat the experiment and reach the same **conclusion**. This process of independent verification is what makes science reliable. Occasionally, a single discovery changes everything: a **breakthrough** — a sudden, major advance — opens new fields of study, shifts understanding, and inspires generations of future scientists.",
+        "text_vi": "Để một nghiên cứu được tin cậy, các nhà nghiên cứu khác phải có thể **tái tạo** nó — lặp lại thí nghiệm và đạt cùng **kết luận**. Quá trình xác minh độc lập này là điều làm cho khoa học đáng tin cậy. Đôi khi, một khám phá duy nhất thay đổi tất cả: một **đột phá** — bước tiến lớn đột ngột — mở ra các lĩnh vực nghiên cứu mới, thay đổi sự hiểu biết và truyền cảm hứng cho các thế hệ nhà khoa học trong tương lai."
+      }
+    ]
+  },
   "glossary": [
-    { "id": 1, "word": "hypothesis", "ipa": "/haɪˈpɒθ.ɪ.sɪs/", "pos": "noun", "meaning_vi": "giả thuyết", "meaning_vi_inline": "giả thuyết", "example_en": "The scientist formed a hypothesis before designing the experiment.", "example_vi": "Nhà khoa học hình thành giả thuyết trước khi thiết kế thí nghiệm.", "word_family": { "noun": "hypothesis", "verb": "hypothesise", "adjective": "hypothetical", "adverb": "hypothetically" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 2, "word": "experiment", "ipa": "/ɪkˈsper.ɪ.mənt/", "pos": "noun/verb", "meaning_vi": "thí nghiệm / thực nghiệm", "meaning_vi_inline": "thí nghiệm", "example_en": "The team ran a series of experiments to test their hypothesis.", "example_vi": "Nhóm nghiên cứu thực hiện một loạt thí nghiệm để kiểm tra giả thuyết.", "word_family": { "noun": "experiment", "verb": "experiment", "adjective": "experimental", "adverb": "experimentally" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 3, "word": "variable", "ipa": "/ˈveər.i.ə.bəl/", "pos": "noun/adjective", "meaning_vi": "biến số (trong thí nghiệm)", "meaning_vi_inline": "biến số", "example_en": "Temperature was the key variable being tested in the experiment.", "example_vi": "Nhiệt độ là biến số chính được kiểm tra trong thí nghiệm.", "word_family": { "noun": "variable / variation", "verb": "vary", "adjective": "variable / varying", "adverb": "variably" }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 4, "word": "laboratory", "ipa": "/ləˈbɒr.ə.tər.i/", "pos": "noun", "meaning_vi": "phòng thí nghiệm", "meaning_vi_inline": "phòng thí nghiệm", "example_en": "The vaccine was developed and tested in a laboratory.", "example_vi": "Vắc-xin được phát triển và thử nghiệm trong phòng thí nghiệm.", "word_family": { "noun": "laboratory", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 5, "word": "data", "ipa": "/ˈdeɪ.tə/", "pos": "noun", "meaning_vi": "dữ liệu", "meaning_vi_inline": "dữ liệu", "example_en": "The researchers collected data from 500 participants over six months.", "example_vi": "Các nhà nghiên cứu thu thập dữ liệu từ 500 người tham gia trong sáu tháng.", "word_family": { "noun": "data / datum (singular)", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 6, "word": "analyse", "ipa": "/ˈæn.ə.laɪz/", "pos": "verb", "meaning_vi": "phân tích", "meaning_vi_inline": "phân tích", "example_en": "Scientists analyse the data to identify patterns and draw conclusions.", "example_vi": "Các nhà khoa học phân tích dữ liệu để xác định các mô hình và rút ra kết luận.", "word_family": { "noun": "analysis", "verb": "analyse", "adjective": "analytical", "adverb": "analytically" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 7, "word": "observe", "ipa": "/əbˈzɜːv/", "pos": "verb", "meaning_vi": "quan sát", "meaning_vi_inline": "quan sát", "example_en": "The astronomer observed the movement of planets over several months.", "example_vi": "Nhà thiên văn học quan sát chuyển động của các hành tinh trong vài tháng.", "word_family": { "noun": "observation / observer", "verb": "observe", "adjective": "observational", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 8, "word": "methodology", "ipa": "/ˌmeθ.əˈdɒl.ə.dʒi/", "pos": "noun", "meaning_vi": "phương pháp luận, quy trình nghiên cứu", "meaning_vi_inline": "phương pháp luận", "example_en": "The study's methodology was clearly explained so other researchers could replicate it.", "example_vi": "Phương pháp luận của nghiên cứu được giải thích rõ ràng để các nhà nghiên cứu khác có thể tái tạo.", "word_family": { "noun": "methodology / method", "verb": null, "adjective": "methodological", "adverb": "methodologically" }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 9, "word": "evidence", "ipa": "/ˈev.ɪ.dəns/", "pos": "noun", "meaning_vi": "bằng chứng", "meaning_vi_inline": "bằng chứng", "example_en": "The evidence strongly supports the hypothesis that the drug is effective.", "example_vi": "Bằng chứng ủng hộ mạnh mẽ giả thuyết rằng loại thuốc này có hiệu quả.", "word_family": { "noun": "evidence", "verb": null, "adjective": "evident", "adverb": "evidently" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 10, "word": "theory", "ipa": "/ˈθɪə.ri/", "pos": "noun", "meaning_vi": "lý thuyết (khoa học)", "meaning_vi_inline": "lý thuyết", "example_en": "Darwin's theory of evolution is supported by vast amounts of evidence.", "example_vi": "Lý thuyết tiến hóa của Darwin được hỗ trợ bởi lượng bằng chứng khổng lồ.", "word_family": { "noun": "theory", "verb": "theorise", "adjective": "theoretical", "adverb": "theoretically" }, "false_friend": { "word_vi": "guess / opinion", "explanation_vi": "Trong khoa học, 'theory' không phải là đoán mò — đó là giải thích được chứng minh bằng nhiều bằng chứng. Nhiều người nhầm 'theory' với 'guess' hoặc 'opinion'." }, "receptive_productive": "P" },
-    { "id": 11, "word": "peer review", "ipa": "/ˈpɪər rɪˌvjuː/", "pos": "noun", "meaning_vi": "bình duyệt (đánh giá ngang hàng)", "meaning_vi_inline": "bình duyệt", "example_en": "The paper was accepted after passing rigorous peer review.", "example_vi": "Bài báo được chấp nhận sau khi vượt qua quá trình bình duyệt nghiêm ngặt.", "word_family": { "noun": "peer review", "verb": "peer-review", "adjective": "peer-reviewed", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 12, "word": "publish", "ipa": "/ˈpʌb.lɪʃ/", "pos": "verb", "meaning_vi": "xuất bản, công bố (nghiên cứu)", "meaning_vi_inline": "xuất bản", "example_en": "The findings were published in the journal Nature.", "example_vi": "Các phát hiện được công bố trên tạp chí Nature.", "word_family": { "noun": "publication / publisher", "verb": "publish", "adjective": "published", "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 13, "word": "replicate", "ipa": "/ˈrep.lɪ.keɪt/", "pos": "verb", "meaning_vi": "tái tạo, lặp lại (thí nghiệm)", "meaning_vi_inline": "tái tạo", "example_en": "Independent labs were unable to replicate the original findings.", "example_vi": "Các phòng thí nghiệm độc lập không thể tái tạo được kết quả ban đầu.", "word_family": { "noun": "replication", "verb": "replicate", "adjective": null, "adverb": null }, "false_friend": { "word_vi": "repeat / copy", "explanation_vi": "'Replicate' trong khoa học có nghĩa là lặp lại thí nghiệm với điều kiện giống hệt để xác minh kết quả — mang hàm ý kiểm chứng nghiêm ngặt hơn 'repeat' hay 'copy'." }, "receptive_productive": "R" },
-    { "id": 14, "word": "conclusion", "ipa": "/kənˈkluː.ʒən/", "pos": "noun", "meaning_vi": "kết luận", "meaning_vi_inline": "kết luận", "example_en": "The researchers reached the conclusion that the vaccine was highly effective.", "example_vi": "Các nhà nghiên cứu đi đến kết luận rằng vắc-xin có hiệu quả cao.", "word_family": { "noun": "conclusion", "verb": "conclude", "adjective": "conclusive", "adverb": "conclusively" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 15, "word": "breakthrough", "ipa": "/ˈbreɪk.θruː/", "pos": "noun", "meaning_vi": "bước đột phá (khoa học)", "meaning_vi_inline": "đột phá", "example_en": "The discovery of penicillin was one of the greatest breakthroughs in medicine.", "example_vi": "Việc phát hiện ra penicillin là một trong những bước đột phá vĩ đại nhất trong y học.", "word_family": { "noun": "breakthrough", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "invention", "explanation_vi": "A 'breakthrough' là khám phá hoặc tiến bộ đột ngột; 'invention' là việc tạo ra một thứ mới hoàn toàn — khám phá DNA là breakthrough, không phải invention." }, "receptive_productive": "R" }
+    {
+      "id": 1,
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθ.ɪ.sɪs/",
+      "pos": "noun",
+      "meaning_vi": "giả thuyết",
+      "meaning_vi_inline": "giả thuyết",
+      "example_en": "The scientist formed a hypothesis before designing the experiment.",
+      "example_vi": "Nhà khoa học hình thành giả thuyết trước khi thiết kế thí nghiệm.",
+      "word_family": {
+        "noun": "hypothesis",
+        "verb": "hypothesise",
+        "adjective": "hypothetical",
+        "adverb": "hypothetically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 2,
+      "word": "experiment",
+      "ipa": "/ɪkˈsper.ɪ.mənt/",
+      "pos": "noun/verb",
+      "meaning_vi": "thí nghiệm / thực nghiệm",
+      "meaning_vi_inline": "thí nghiệm",
+      "example_en": "The team ran a series of experiments to test their hypothesis.",
+      "example_vi": "Nhóm nghiên cứu thực hiện một loạt thí nghiệm để kiểm tra giả thuyết.",
+      "word_family": {
+        "noun": "experiment",
+        "verb": "experiment",
+        "adjective": "experimental",
+        "adverb": "experimentally"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 3,
+      "word": "variable",
+      "ipa": "/ˈveər.i.ə.bəl/",
+      "pos": "noun/adjective",
+      "meaning_vi": "biến số (trong thí nghiệm)",
+      "meaning_vi_inline": "biến số",
+      "example_en": "Temperature was the key variable being tested in the experiment.",
+      "example_vi": "Nhiệt độ là biến số chính được kiểm tra trong thí nghiệm.",
+      "word_family": {
+        "noun": "variable / variation",
+        "verb": "vary",
+        "adjective": "variable / varying",
+        "adverb": "variably"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "laboratory",
+      "ipa": "/ləˈbɒr.ə.tər.i/",
+      "pos": "noun",
+      "meaning_vi": "phòng thí nghiệm",
+      "meaning_vi_inline": "phòng thí nghiệm",
+      "example_en": "The vaccine was developed and tested in a laboratory.",
+      "example_vi": "Vắc-xin được phát triển và thử nghiệm trong phòng thí nghiệm.",
+      "word_family": {
+        "noun": "laboratory",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 5,
+      "word": "data",
+      "ipa": "/ˈdeɪ.tə/",
+      "pos": "noun",
+      "meaning_vi": "dữ liệu",
+      "meaning_vi_inline": "dữ liệu",
+      "example_en": "The researchers collected data from 500 participants over six months.",
+      "example_vi": "Các nhà nghiên cứu thu thập dữ liệu từ 500 người tham gia trong sáu tháng.",
+      "word_family": {
+        "noun": "data / datum (singular)",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 6,
+      "word": "analyse",
+      "ipa": "/ˈæn.ə.laɪz/",
+      "pos": "verb",
+      "meaning_vi": "phân tích",
+      "meaning_vi_inline": "phân tích",
+      "example_en": "Scientists analyse the data to identify patterns and draw conclusions.",
+      "example_vi": "Các nhà khoa học phân tích dữ liệu để xác định các mô hình và rút ra kết luận.",
+      "word_family": {
+        "noun": "analysis",
+        "verb": "analyse",
+        "adjective": "analytical",
+        "adverb": "analytically"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 7,
+      "word": "observe",
+      "ipa": "/əbˈzɜːv/",
+      "pos": "verb",
+      "meaning_vi": "quan sát",
+      "meaning_vi_inline": "quan sát",
+      "example_en": "The astronomer observed the movement of planets over several months.",
+      "example_vi": "Nhà thiên văn học quan sát chuyển động của các hành tinh trong vài tháng.",
+      "word_family": {
+        "noun": "observation / observer",
+        "verb": "observe",
+        "adjective": "observational",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 8,
+      "word": "methodology",
+      "ipa": "/ˌmeθ.əˈdɒl.ə.dʒi/",
+      "pos": "noun",
+      "meaning_vi": "phương pháp luận, quy trình nghiên cứu",
+      "meaning_vi_inline": "phương pháp luận",
+      "example_en": "The study's methodology was clearly explained so other researchers could replicate it.",
+      "example_vi": "Phương pháp luận của nghiên cứu được giải thích rõ ràng để các nhà nghiên cứu khác có thể tái tạo.",
+      "word_family": {
+        "noun": "methodology / method",
+        "verb": null,
+        "adjective": "methodological",
+        "adverb": "methodologically"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "evidence",
+      "ipa": "/ˈev.ɪ.dəns/",
+      "pos": "noun",
+      "meaning_vi": "bằng chứng",
+      "meaning_vi_inline": "bằng chứng",
+      "example_en": "The evidence strongly supports the hypothesis that the drug is effective.",
+      "example_vi": "Bằng chứng ủng hộ mạnh mẽ giả thuyết rằng loại thuốc này có hiệu quả.",
+      "word_family": {
+        "noun": "evidence",
+        "verb": null,
+        "adjective": "evident",
+        "adverb": "evidently"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 10,
+      "word": "theory",
+      "ipa": "/ˈθɪə.ri/",
+      "pos": "noun",
+      "meaning_vi": "lý thuyết (khoa học)",
+      "meaning_vi_inline": "lý thuyết",
+      "example_en": "Darwin's theory of evolution is supported by vast amounts of evidence.",
+      "example_vi": "Lý thuyết tiến hóa của Darwin được hỗ trợ bởi lượng bằng chứng khổng lồ.",
+      "word_family": {
+        "noun": "theory",
+        "verb": "theorise",
+        "adjective": "theoretical",
+        "adverb": "theoretically"
+      },
+      "false_friend": {
+        "word_vi": "guess / opinion",
+        "explanation_vi": "Trong khoa học, 'theory' không phải là đoán mò — đó là giải thích được chứng minh bằng nhiều bằng chứng. Nhiều người nhầm 'theory' với 'guess' hoặc 'opinion'."
+      },
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "peer review",
+      "ipa": "/ˈpɪər rɪˌvjuː/",
+      "pos": "noun",
+      "meaning_vi": "bình duyệt (đánh giá ngang hàng)",
+      "meaning_vi_inline": "bình duyệt",
+      "example_en": "The paper was accepted after passing rigorous peer review.",
+      "example_vi": "Bài báo được chấp nhận sau khi vượt qua quá trình bình duyệt nghiêm ngặt.",
+      "word_family": {
+        "noun": "peer review",
+        "verb": "peer-review",
+        "adjective": "peer-reviewed",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 12,
+      "word": "publish",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "pos": "verb",
+      "meaning_vi": "xuất bản, công bố (nghiên cứu)",
+      "meaning_vi_inline": "xuất bản",
+      "example_en": "The findings were published in the journal Nature.",
+      "example_vi": "Các phát hiện được công bố trên tạp chí Nature.",
+      "word_family": {
+        "noun": "publication / publisher",
+        "verb": "publish",
+        "adjective": "published",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "replicate",
+      "ipa": "/ˈrep.lɪ.keɪt/",
+      "pos": "verb",
+      "meaning_vi": "tái tạo, lặp lại (thí nghiệm)",
+      "meaning_vi_inline": "tái tạo",
+      "example_en": "Independent labs were unable to replicate the original findings.",
+      "example_vi": "Các phòng thí nghiệm độc lập không thể tái tạo được kết quả ban đầu.",
+      "word_family": {
+        "noun": "replication",
+        "verb": "replicate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "repeat / copy",
+        "explanation_vi": "'Replicate' trong khoa học có nghĩa là lặp lại thí nghiệm với điều kiện giống hệt để xác minh kết quả — mang hàm ý kiểm chứng nghiêm ngặt hơn 'repeat' hay 'copy'."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "conclusion",
+      "ipa": "/kənˈkluː.ʒən/",
+      "pos": "noun",
+      "meaning_vi": "kết luận",
+      "meaning_vi_inline": "kết luận",
+      "example_en": "The researchers reached the conclusion that the vaccine was highly effective.",
+      "example_vi": "Các nhà nghiên cứu đi đến kết luận rằng vắc-xin có hiệu quả cao.",
+      "word_family": {
+        "noun": "conclusion",
+        "verb": "conclude",
+        "adjective": "conclusive",
+        "adverb": "conclusively"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 15,
+      "word": "breakthrough",
+      "ipa": "/ˈbreɪk.θruː/",
+      "pos": "noun",
+      "meaning_vi": "bước đột phá (khoa học)",
+      "meaning_vi_inline": "đột phá",
+      "example_en": "The discovery of penicillin was one of the greatest breakthroughs in medicine.",
+      "example_vi": "Việc phát hiện ra penicillin là một trong những bước đột phá vĩ đại nhất trong y học.",
+      "word_family": {
+        "noun": "breakthrough",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "invention",
+        "explanation_vi": "A 'breakthrough' là khám phá hoặc tiến bộ đột ngột; 'invention' là việc tạo ra một thứ mới hoàn toàn — khám phá DNA là breakthrough, không phải invention."
+      },
+      "receptive_productive": "R"
+    }
   ],
   "exercises": {
     "combo": "B2",
-    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "A hypothesis is a testable prediction formed before an experiment begins.", "answer": "True" },
-        { "id": 2, "statement": "Most scientific experiments are now conducted outside of laboratories.", "answer": "False" },
-        { "id": 3, "statement": "Peer review involves scientists paying other experts to check their work.", "answer": "Not Given" },
-        { "id": 4, "statement": "A study must be replicable for its results to be trusted by the scientific community.", "answer": "True" },
-        { "id": 5, "statement": "A breakthrough always requires the work of more than one scientist.", "answer": "Not Given" }
+        {
+          "id": 1,
+          "statement": "A hypothesis is a testable prediction formed before an experiment begins.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Most scientific experiments are now conducted outside of laboratories.",
+          "answer": "False"
+        },
+        {
+          "id": 3,
+          "statement": "Peer review involves scientists paying other experts to check their work.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 4,
+          "statement": "A study must be replicable for its results to be trusted by the scientific community.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "A breakthrough always requires the work of more than one scientist.",
+          "answer": "Not Given"
+        }
       ]
     },
-    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "Before designing an experiment, a scientist must first form a clear _____.", "options": ["conclusion", "theory", "hypothesis", "methodology"], "answer": "hypothesis" },
-        { "id": 2, "sentence": "The research paper was accepted only after passing a rigorous _____ by three independent experts.", "options": ["publication", "peer review", "experiment", "replication"], "answer": "peer review" },
-        { "id": 3, "sentence": "In a controlled experiment, only one _____ should be changed at a time to ensure reliable results.", "options": ["evidence", "conclusion", "variable", "data"], "answer": "variable" },
-        { "id": 4, "sentence": "Scientists _____ thousands of data points to look for patterns in climate change records.", "options": ["observe", "replicate", "publish", "analyse"], "answer": "analyse" },
-        { "id": 5, "sentence": "The discovery of DNA's double helix structure was a major _____ that transformed biology.", "options": ["theory", "breakthrough", "hypothesis", "methodology"], "answer": "breakthrough" }
+        {
+          "id": 1,
+          "sentence": "Before designing an experiment, a scientist must first form a clear _____.",
+          "options": [
+            "conclusion",
+            "theory",
+            "hypothesis",
+            "methodology"
+          ],
+          "answer": "hypothesis"
+        },
+        {
+          "id": 2,
+          "sentence": "The research paper was accepted only after passing a rigorous _____ by three independent experts.",
+          "options": [
+            "publication",
+            "peer review",
+            "experiment",
+            "replication"
+          ],
+          "answer": "peer review"
+        },
+        {
+          "id": 3,
+          "sentence": "In a controlled experiment, only one _____ should be changed at a time to ensure reliable results.",
+          "options": [
+            "evidence",
+            "conclusion",
+            "variable",
+            "data"
+          ],
+          "answer": "variable"
+        },
+        {
+          "id": 4,
+          "sentence": "Scientists _____ thousands of data points to look for patterns in climate change records.",
+          "options": [
+            "observe",
+            "replicate",
+            "publish",
+            "analyse"
+          ],
+          "answer": "analyse"
+        },
+        {
+          "id": 5,
+          "sentence": "The discovery of DNA's double helix structure was a major _____ that transformed biology.",
+          "options": [
+            "theory",
+            "breakthrough",
+            "hypothesis",
+            "methodology"
+          ],
+          "answer": "breakthrough"
+        }
       ]
     },
-    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["evidence", "replicate", "laboratory", "conclusion", "publish"],
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "evidence",
+        "replicate",
+        "laboratory",
+        "conclusion",
+        "publish"
+      ],
       "items": [
-        { "id": 1, "sentence": "The scientists gathered _____ from hundreds of studies before making their announcement.", "answer": "evidence" },
-        { "id": 2, "sentence": "The team attempted to _____ the original experiment to verify the results.", "answer": "replicate" },
-        { "id": 3, "sentence": "The new drug was developed and tested in a _____ before being trialled on patients.", "answer": "laboratory" },
-        { "id": 4, "sentence": "After analysing all the data, the researchers drew a _____ about the cause of the disease.", "answer": "conclusion" },
-        { "id": 5, "sentence": "Scientists must _____ their findings in a journal to share knowledge with the wider community.", "answer": "publish" }
+        {
+          "id": 1,
+          "sentence": "The scientists gathered _____ from hundreds of studies before making their announcement.",
+          "answer": "evidence"
+        },
+        {
+          "id": 2,
+          "sentence": "The team attempted to _____ the original experiment to verify the results.",
+          "answer": "replicate"
+        },
+        {
+          "id": 3,
+          "sentence": "The new drug was developed and tested in a _____ before being trialled on patients.",
+          "answer": "laboratory"
+        },
+        {
+          "id": 4,
+          "sentence": "After analysing all the data, the researchers drew a _____ about the cause of the disease.",
+          "answer": "conclusion"
+        },
+        {
+          "id": 5,
+          "sentence": "Scientists must _____ their findings in a journal to share knowledge with the wider community.",
+          "answer": "publish"
+        }
       ]
     },
-    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["scientists", "form", "a", "hypothesis", "before", "running", "an", "experiment"], "answer": "Scientists form a hypothesis before running an experiment." },
-        { "id": 2, "words": ["peer", "review", "ensures", "the", "quality", "of", "published", "research"], "answer": "Peer review ensures the quality of published research." },
-        { "id": 3, "words": ["researchers", "analyse", "data", "to", "identify", "patterns", "and", "trends"], "answer": "Researchers analyse data to identify patterns and trends." },
-        { "id": 4, "words": ["a", "breakthrough", "can", "change", "our", "understanding", "of", "the", "world"], "answer": "A breakthrough can change our understanding of the world." },
-        { "id": 5, "words": ["other", "scientists", "must", "be", "able", "to", "replicate", "the", "experiment"], "answer": "Other scientists must be able to replicate the experiment." }
+        {
+          "id": 1,
+          "words": [
+            "scientists",
+            "form",
+            "a",
+            "hypothesis",
+            "before",
+            "running",
+            "an",
+            "experiment"
+          ],
+          "answer": "Scientists form a hypothesis before running an experiment."
+        },
+        {
+          "id": 2,
+          "words": [
+            "peer",
+            "review",
+            "ensures",
+            "the",
+            "quality",
+            "of",
+            "published",
+            "research"
+          ],
+          "answer": "Peer review ensures the quality of published research."
+        },
+        {
+          "id": 3,
+          "words": [
+            "researchers",
+            "analyse",
+            "data",
+            "to",
+            "identify",
+            "patterns",
+            "and",
+            "trends"
+          ],
+          "answer": "Researchers analyse data to identify patterns and trends."
+        },
+        {
+          "id": 4,
+          "words": [
+            "a",
+            "breakthrough",
+            "can",
+            "change",
+            "our",
+            "understanding",
+            "of",
+            "the",
+            "world"
+          ],
+          "answer": "A breakthrough can change our understanding of the world."
+        },
+        {
+          "id": 5,
+          "words": [
+            "other",
+            "scientists",
+            "must",
+            "be",
+            "able",
+            "to",
+            "replicate",
+            "the",
+            "experiment"
+          ],
+          "answer": "Other scientists must be able to replicate the experiment."
+        }
       ]
     },
-    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "Before running the experiment, the team formed a [guess] about what the results would show.", "highlighted": "guess", "options": { "A": "prediction", "B": "hypothesis", "C": "guess" }, "answer": "B", "explanation": "A 'hypothesis' is a precise, testable scientific prediction based on prior knowledge; a 'guess' is random and unsystematic — it has no place in formal scientific writing." },
-        { "id": 2, "sentence": "The paper was evaluated through [expert verification] before being accepted for publication.", "highlighted": "expert verification", "options": { "A": "fact-checking", "B": "expert verification", "C": "peer review" }, "answer": "C", "explanation": "'Peer review' is the standard academic term for the process of having research evaluated by other specialists in the same field." },
-        { "id": 3, "sentence": "In a fair experiment, scientists should change only one [element] at a time to measure its effect.", "highlighted": "element", "options": { "A": "variable", "B": "element", "C": "factor" }, "answer": "A", "explanation": "'Variable' is the precise scientific term for a factor that is deliberately changed or measured in an experiment; 'element' and 'factor' are less specific." },
-        { "id": 4, "sentence": "To verify the results, other teams must be able to [copy] the experiment under the same conditions.", "highlighted": "copy", "options": { "A": "repeat", "B": "replicate", "C": "copy" }, "answer": "B", "explanation": "'Replicate' carries the specific scientific meaning of repeating an experiment under identical controlled conditions to verify its results; 'copy' and 'repeat' are informal and imprecise." },
-        { "id": 5, "sentence": "The discovery of penicillin was a remarkable scientific [invention] that saved millions of lives.", "highlighted": "invention", "options": { "A": "achievement", "B": "invention", "C": "breakthrough" }, "answer": "C", "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented." }
+        {
+          "id": 1,
+          "sentence": "Before running the experiment, the team formed a [guess] about what the results would show.",
+          "highlighted": "guess",
+          "options": {
+            "A": "prediction",
+            "B": "hypothesis",
+            "C": "guess"
+          },
+          "answer": "B",
+          "explanation": "A 'hypothesis' is a precise, testable scientific prediction based on prior knowledge; a 'guess' is random and unsystematic — it has no place in formal scientific writing."
+        },
+        {
+          "id": 2,
+          "sentence": "The paper was evaluated through [expert verification] before being accepted for publication.",
+          "highlighted": "expert verification",
+          "options": {
+            "A": "fact-checking",
+            "B": "expert verification",
+            "C": "peer review"
+          },
+          "answer": "C",
+          "explanation": "'Peer review' is the standard academic term for the process of having research evaluated by other specialists in the same field."
+        },
+        {
+          "id": 3,
+          "sentence": "In a fair experiment, scientists should change only one [element] at a time to measure its effect.",
+          "highlighted": "element",
+          "options": {
+            "A": "variable",
+            "B": "element",
+            "C": "factor"
+          },
+          "answer": "A",
+          "explanation": "'Variable' is the precise scientific term for a factor that is deliberately changed or measured in an experiment; 'element' and 'factor' are less specific."
+        },
+        {
+          "id": 4,
+          "sentence": "To verify the results, other teams must be able to [copy] the experiment under the same conditions.",
+          "highlighted": "copy",
+          "options": {
+            "A": "repeat",
+            "B": "replicate",
+            "C": "copy"
+          },
+          "answer": "B",
+          "explanation": "'Replicate' carries the specific scientific meaning of repeating an experiment under identical controlled conditions to verify its results; 'copy' and 'repeat' are informal and imprecise."
+        },
+        {
+          "id": 5,
+          "sentence": "The discovery of penicillin was a remarkable scientific [invention] that saved millions of lives.",
+          "highlighted": "invention",
+          "options": {
+            "A": "achievement",
+            "B": "invention",
+            "C": "breakthrough"
+          },
+          "answer": "C",
+          "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "earthquake",
+            "tsunami",
+            "hurricane",
+            "rescue"
+          ],
+          "answer": "rescue",
+          "reason": "earthquake, tsunami, and hurricane are all natural disasters — events caused by nature. 'rescue' is a human response — the action of saving people after a disaster.",
+          "reason_vi": "earthquake, tsunami và hurricane đều là thiên tai — sự kiện do thiên nhiên gây ra. 'rescue' là phản ứng của con người — hành động cứu người sau thảm họa."
+        },
+        {
+          "id": 2,
+          "words": [
+            "prepare",
+            "warning",
+            "predict",
+            "tsunami"
+          ],
+          "answer": "tsunami",
+          "reason": "prepare, warning, and predict are all actions taken before or during a disaster to reduce harm. 'tsunami' is the disaster itself — a natural event, not an action.",
+          "reason_vi": "prepare, warning và predict đều là hành động thực hiện trước hoặc trong thảm họa để giảm thiệt hại. 'tsunami' là bản thân thảm họa — sự kiện tự nhiên, không phải hành động."
+        },
+        {
+          "id": 3,
+          "words": [
+            "rescue",
+            "rebuild",
+            "survive",
+            "damage"
+          ],
+          "answer": "damage",
+          "reason": "rescue, rebuild, and survive are all human responses to a disaster — positive actions or outcomes. 'damage' is what a disaster does — a negative result, not a response.",
+          "reason_vi": "rescue, rebuild và survive đều là phản ứng của con người với thảm họa — hành động hoặc kết quả tích cực. 'damage' là điều thảm họa gây ra — kết quả tiêu cực, không phải phản ứng."
+        },
+        {
+          "id": 4,
+          "words": [
+            "earthquake",
+            "flood",
+            "hurricane",
+            "warning"
+          ],
+          "answer": "warning",
+          "reason": "earthquake, flood, and hurricane are all natural disasters — events that cause harm. 'warning' is a system or message — something humans use to alert people before a disaster strikes.",
+          "reason_vi": "earthquake, flood và hurricane đều là thiên tai — sự kiện gây thiệt hại. 'warning' là hệ thống hoặc thông điệp — thứ con người dùng để cảnh báo trước thảm họa."
+        },
+        {
+          "id": 5,
+          "words": [
+            "rescue",
+            "relief",
+            "rebuild",
+            "emergency"
+          ],
+          "answer": "emergency",
+          "reason": "rescue, relief, and rebuild are all positive actions taken after a disaster to help people recover. 'emergency' describes the crisis situation itself — not an action taken to address it.",
+          "reason_vi": "rescue, relief và rebuild đều là hành động tích cực sau thảm họa để giúp mọi người hồi phục. 'emergency' mô tả bản thân tình huống khủng hoảng — không phải hành động giải quyết nó."
+        },
+        {
+          "id": 6,
+          "words": [
+            "prepare",
+            "predict",
+            "warning",
+            "survive"
+          ],
+          "answer": "survive",
+          "reason": "prepare, predict, and warning are all actions taken before a disaster to reduce risk. 'survive' is an outcome — what happens to people after a disaster, not a preparation action.",
+          "reason_vi": "prepare, predict và warning đều là hành động thực hiện trước thảm họa để giảm rủi ro. 'survive' là kết quả — điều xảy ra với mọi người sau thảm họa, không phải hành động chuẩn bị."
+        },
+        {
+          "id": 7,
+          "words": [
+            "damage",
+            "disaster",
+            "flood",
+            "relief"
+          ],
+          "answer": "relief",
+          "reason": "damage, disaster, and flood are all negative outcomes or events. 'relief' is a positive human response — aid provided to those affected by a disaster.",
+          "reason_vi": "damage, disaster và flood đều là kết quả hoặc sự kiện tiêu cực. 'relief' là phản ứng tích cực của con người — viện trợ cung cấp cho những người bị ảnh hưởng bởi thảm họa."
+        },
+        {
+          "id": 8,
+          "words": [
+            "earthquake",
+            "tsunami",
+            "hurricane",
+            "rebuild"
+          ],
+          "answer": "rebuild",
+          "reason": "earthquake, tsunami, and hurricane are all natural disasters. 'rebuild' is a human action — the process of constructing again after a disaster has destroyed something.",
+          "reason_vi": "earthquake, tsunami và hurricane đều là thiên tai. 'rebuild' là hành động của con người — quá trình xây dựng lại sau khi thảm họa phá hủy thứ gì đó."
+        },
+        {
+          "id": 9,
+          "words": [
+            "rescue",
+            "relief",
+            "survive",
+            "predict"
+          ],
+          "answer": "predict",
+          "reason": "rescue, relief, and survive are all things that happen after a disaster strikes. 'predict' is something done before a disaster — it means to forecast that it will happen.",
+          "reason_vi": "rescue, relief và survive đều là thứ xảy ra sau khi thảm họa ập đến. 'predict' là thứ được làm trước thảm họa — có nghĩa là dự báo rằng nó sẽ xảy ra."
+        },
+        {
+          "id": 10,
+          "words": [
+            "damage",
+            "disaster",
+            "emergency",
+            "leave safely"
+          ],
+          "answer": "leave safely",
+          "reason": "damage, disaster, and emergency all describe negative events or situations. 'leave safely' is a positive human action — escaping from danger without being hurt.",
+          "reason_vi": "damage, disaster và emergency đều mô tả sự kiện hoặc tình huống tiêu cực. 'leave safely' là hành động tích cực của con người — thoát khỏi nguy hiểm mà không bị tổn thương."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "False", "3": "Not Given", "4": "True", "5": "Not Given" },
-    "ex2": { "1": "hypothesis", "2": "peer review", "3": "variable", "4": "analyse", "5": "breakthrough" },
-    "ex3": { "1": "evidence", "2": "replicate", "3": "laboratory", "4": "conclusion", "5": "publish" },
-    "ex4": { "1": "Scientists form a hypothesis before running an experiment.", "2": "Peer review ensures the quality of published research.", "3": "Researchers analyse data to identify patterns and trends.", "4": "A breakthrough can change our understanding of the world.", "5": "Other scientists must be able to replicate the experiment." },
-    "ex5": { "1": "B", "2": "C", "3": "A", "4": "B", "5": "C" }
+    "ex1": {
+      "1": "True",
+      "2": "False",
+      "3": "Not Given",
+      "4": "True",
+      "5": "Not Given"
+    },
+    "ex2": {
+      "1": "hypothesis",
+      "2": "peer review",
+      "3": "variable",
+      "4": "analyse",
+      "5": "breakthrough"
+    },
+    "ex3": {
+      "1": "evidence",
+      "2": "replicate",
+      "3": "laboratory",
+      "4": "conclusion",
+      "5": "publish"
+    },
+    "ex4": {
+      "1": "Scientists form a hypothesis before running an experiment.",
+      "2": "Peer review ensures the quality of published research.",
+      "3": "Researchers analyse data to identify patterns and trends.",
+      "4": "A breakthrough can change our understanding of the world.",
+      "5": "Other scientists must be able to replicate the experiment."
+    },
+    "ex5": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "B",
+      "5": "C"
+    }
   }
 }

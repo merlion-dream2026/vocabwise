@@ -559,6 +559,67 @@
           "explanation": "'Materialistic' is the adjective form needed to modify 'values' — 'material' alone means physical substance, not relating to the pursuit of possessions."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Kỹ thuật thao túng",
+        "Khái niệm xã hội",
+        "Hành vi tiêu dùng"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "manipulation",
+          "answer": "Kỹ thuật thao túng"
+        },
+        {
+          "id": 2,
+          "word": "consumerism",
+          "answer": "Khái niệm xã hội"
+        },
+        {
+          "id": 3,
+          "word": "impulse",
+          "answer": "Hành vi tiêu dùng"
+        },
+        {
+          "id": 4,
+          "word": "subliminal",
+          "answer": "Kỹ thuật thao túng"
+        },
+        {
+          "id": 5,
+          "word": "materialism",
+          "answer": "Khái niệm xã hội"
+        },
+        {
+          "id": 6,
+          "word": "aspiration",
+          "answer": "Hành vi tiêu dùng"
+        },
+        {
+          "id": 7,
+          "word": "exploitation",
+          "answer": "Kỹ thuật thao túng"
+        },
+        {
+          "id": 8,
+          "word": "commodification",
+          "answer": "Khái niệm xã hội"
+        },
+        {
+          "id": 9,
+          "word": "branding",
+          "answer": "Kỹ thuật thao túng"
+        },
+        {
+          "id": 10,
+          "word": "persuasion",
+          "answer": "Kỹ thuật thao túng"
+        }
+      ]
     }
   },
   "answer_key": {

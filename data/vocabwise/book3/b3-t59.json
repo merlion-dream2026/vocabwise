@@ -562,6 +562,132 @@
           "explanation": "The noun 'longevity' (meaning long lifespan) is required as the object of 'Research into' — 'long' is an adjective and does not fit this slot."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "free will",
+            "determinism",
+            "agency",
+            "qualia"
+          ],
+          "answer": "qualia",
+          "reason": "free will, determinism, and agency are all concepts about whether and how beings make choices. 'qualia' is about subjective experience — the way things feel from the inside (e.g. the redness of red), not about choice or causation.",
+          "reason_vi": "free will, determinism và agency đều là khái niệm về việc liệu và cách sinh vật đưa ra lựa chọn. 'qualia' là về trải nghiệm chủ quan — cách mọi thứ cảm nhận từ bên trong, không phải về lựa chọn hay nhân quả."
+        },
+        {
+          "id": 2,
+          "words": [
+            "consciousness",
+            "phenomenology",
+            "qualia",
+            "determinism"
+          ],
+          "answer": "determinism",
+          "reason": "consciousness, phenomenology, and qualia are all about subjective experience — the inner, felt quality of mental life. 'determinism' is about causation — whether all events are caused by prior events, not about the nature of experience.",
+          "reason_vi": "consciousness, phenomenology và qualia đều liên quan đến trải nghiệm chủ quan. 'determinism' là về nhân quả — liệu tất cả sự kiện có được gây ra bởi các sự kiện trước đó không, không phải về bản chất của trải nghiệm."
+        },
+        {
+          "id": 3,
+          "words": [
+            "free will",
+            "volition",
+            "agency",
+            "intentionality"
+          ],
+          "answer": "intentionality",
+          "reason": "free will, volition, and agency are all about the capacity and exercise of choice. 'intentionality' is a philosophical concept about the directedness of mental states — the fact that thoughts are always about something — which is related but conceptually distinct.",
+          "reason_vi": "free will, volition và agency đều về năng lực và thực thi lựa chọn. 'intentionality' là khái niệm triết học về tính định hướng của các trạng thái tinh thần — thực tế là suy nghĩ luôn về điều gì đó — liên quan nhưng khác biệt về mặt khái niệm."
+        },
+        {
+          "id": 4,
+          "words": [
+            "consciousness",
+            "phenomenology",
+            "qualia",
+            "rational"
+          ],
+          "answer": "rational",
+          "reason": "consciousness, phenomenology, and qualia are all concerned with the subjective, experiential quality of mind. 'rational' is a cognitive attribute — the capacity for logical reason — not a feature of inner experience.",
+          "reason_vi": "consciousness, phenomenology và qualia đều liên quan đến chất lượng chủ quan, trải nghiệm của tâm trí. 'rational' là thuộc tính nhận thức — khả năng lý luận logic — không phải đặc điểm của trải nghiệm nội tâm."
+        },
+        {
+          "id": 5,
+          "words": [
+            "free will",
+            "determinism",
+            "volition",
+            "emergent"
+          ],
+          "answer": "emergent",
+          "reason": "free will, determinism, and volition are all concepts directly about the nature of choice and causation. 'emergent' refers to properties that arise from complex systems — it is a systems theory concept, not directly a concept about choice.",
+          "reason_vi": "free will, determinism và volition đều là khái niệm trực tiếp về bản chất của lựa chọn và nhân quả. 'emergent' đề cập đến thuộc tính nảy sinh từ các hệ thống phức tạp — là khái niệm lý thuyết hệ thống, không trực tiếp là khái niệm về lựa chọn."
+        },
+        {
+          "id": 6,
+          "words": [
+            "consciousness",
+            "qualia",
+            "phenomenology",
+            "agency"
+          ],
+          "answer": "agency",
+          "reason": "consciousness, qualia, and phenomenology are all concerned with the felt, experiential side of mind. 'agency' is about action and capacity — the ability to act and make choices, not about the quality of experience.",
+          "reason_vi": "consciousness, qualia và phenomenology đều liên quan đến mặt cảm nhận, trải nghiệm của tâm trí. 'agency' là về hành động và năng lực — khả năng hành động và đưa ra lựa chọn, không phải về chất lượng trải nghiệm."
+        },
+        {
+          "id": 7,
+          "words": [
+            "free will",
+            "volition",
+            "rational",
+            "determinism"
+          ],
+          "answer": "rational",
+          "reason": "free will, volition, and determinism are all about whether choice exists and how. 'rational' is an evaluative attribute — describing the quality of thinking, not a position on whether free choice is possible.",
+          "reason_vi": "free will, volition và determinism đều về việc liệu lựa chọn có tồn tại và như thế nào. 'rational' là thuộc tính đánh giá — mô tả chất lượng của tư duy, không phải lập trường về việc liệu lựa chọn tự do có thể tồn tại."
+        },
+        {
+          "id": 8,
+          "words": [
+            "consciousness",
+            "intentionality",
+            "emergent",
+            "qualia"
+          ],
+          "answer": "emergent",
+          "reason": "consciousness, intentionality, and qualia are all core concepts of philosophy of mind. 'emergent' is borrowed from complexity theory — it describes how higher-level properties arise from lower-level systems.",
+          "reason_vi": "consciousness, intentionality và qualia đều là khái niệm cốt lõi của triết học tâm trí. 'emergent' được vay mượn từ lý thuyết phức tạp — mô tả cách các thuộc tính cấp cao nảy sinh từ các hệ thống cấp thấp."
+        },
+        {
+          "id": 9,
+          "words": [
+            "determinism",
+            "free will",
+            "volition",
+            "consciousness"
+          ],
+          "answer": "consciousness",
+          "reason": "determinism, free will, and volition are all about choice — whether it exists, and how it is exercised. 'consciousness' is about awareness — the state of being aware of one's own existence and thoughts.",
+          "reason_vi": "determinism, free will và volition đều về lựa chọn — liệu nó có tồn tại và được thực thi như thế nào. 'consciousness' là về nhận thức — trạng thái nhận thức về sự tồn tại và suy nghĩ của chính mình."
+        },
+        {
+          "id": 10,
+          "words": [
+            "phenomenology",
+            "qualia",
+            "intentionality",
+            "rational"
+          ],
+          "answer": "rational",
+          "reason": "phenomenology, qualia, and intentionality are all philosophical concepts about the inner structure of mind and experience. 'rational' is a quality — an evaluative description of thinking, not a philosophical concept about mental structure.",
+          "reason_vi": "phenomenology, qualia và intentionality đều là khái niệm triết học về cấu trúc nội tâm của tâm trí và trải nghiệm. 'rational' là phẩm chất — mô tả đánh giá về tư duy, không phải khái niệm triết học về cấu trúc tâm trí."
+        }
+      ]
     }
   },
   "answer_key": {

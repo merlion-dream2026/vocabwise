@@ -616,6 +616,67 @@
           "explanation": "'Awareness' is the target vocabulary term for understanding or consciousness of an issue — particularly used in public health and social campaigns. 'Recognition' implies formally acknowledging something already known. 'Knowledge' is information you possess, not necessarily an understanding of its importance or implications."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Hành động hỗ trợ",
+        "Người & tổ chức",
+        "Thái độ & giá trị"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "donate",
+          "answer": "Hành động hỗ trợ"
+        },
+        {
+          "id": 2,
+          "word": "charity",
+          "answer": "Người & tổ chức"
+        },
+        {
+          "id": 3,
+          "word": "empathy",
+          "answer": "Thái độ & giá trị"
+        },
+        {
+          "id": 4,
+          "word": "volunteer",
+          "answer": "Người & tổ chức"
+        },
+        {
+          "id": 5,
+          "word": "fundraise",
+          "answer": "Hành động hỗ trợ"
+        },
+        {
+          "id": 6,
+          "word": "compassion",
+          "answer": "Thái độ & giá trị"
+        },
+        {
+          "id": 7,
+          "word": "campaign",
+          "answer": "Hành động hỗ trợ"
+        },
+        {
+          "id": 8,
+          "word": "non-profit",
+          "answer": "Người & tổ chức"
+        },
+        {
+          "id": 9,
+          "word": "solidarity",
+          "answer": "Thái độ & giá trị"
+        },
+        {
+          "id": 10,
+          "word": "support",
+          "answer": "Hành động hỗ trợ"
+        }
+      ]
     }
   },
   "answer_key": {

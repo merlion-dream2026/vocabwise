@@ -628,6 +628,132 @@
           "explanation": "'Teamwork' is the target vocabulary term for the cooperative effort of a group working towards a shared goal. 'Working together' is an informal paraphrase of the same idea. 'Collaboration' and 'communication' overlap in meaning but are not the specific vocabulary item from this topic."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "remote work",
+            "flexible hours",
+            "job security",
+            "career"
+          ],
+          "answer": "career",
+          "reason": "remote work, flexible hours, and job security are all specific working conditions or benefits in modern employment. 'career' is a broad concept — the overall progression of a person's professional life, not a specific condition.",
+          "reason_vi": "remote work, flexible hours và job security đều là điều kiện làm việc hoặc phúc lợi cụ thể trong môi trường việc làm hiện đại. 'career' là khái niệm rộng — tiến trình tổng thể của cuộc sống nghề nghiệp, không phải điều kiện cụ thể."
+        },
+        {
+          "id": 2,
+          "words": [
+            "burnout",
+            "workplace stress",
+            "unfair treatment",
+            "promotion"
+          ],
+          "answer": "promotion",
+          "reason": "burnout, workplace stress, and unfair treatment are all problems or negative experiences at work. 'promotion' is a positive outcome — a step up in career or pay.",
+          "reason_vi": "burnout, workplace stress và unfair treatment đều là vấn đề hoặc trải nghiệm tiêu cực tại nơi làm việc. 'promotion' là kết quả tích cực — thăng tiến trong sự nghiệp hoặc tăng lương."
+        },
+        {
+          "id": 3,
+          "words": [
+            "remote work",
+            "flexible hours",
+            "gig economy",
+            "job security"
+          ],
+          "answer": "gig economy",
+          "reason": "remote work, flexible hours, and job security are all characteristics of a job or workplace. 'gig economy' is a broader economic system — the trend of short-term or freelance work, not a single workplace feature.",
+          "reason_vi": "remote work, flexible hours và job security đều là đặc điểm của công việc hoặc nơi làm việc. 'gig economy' là hệ thống kinh tế rộng hơn — xu hướng công việc ngắn hạn hoặc tự do, không phải đặc điểm nơi làm việc đơn lẻ."
+        },
+        {
+          "id": 4,
+          "words": [
+            "burnout",
+            "workplace stress",
+            "automation",
+            "unfair treatment"
+          ],
+          "answer": "automation",
+          "reason": "burnout, workplace stress, and unfair treatment are all problems experienced by individual workers. 'automation' is a broader technological trend — machines replacing human tasks — not a personal workplace problem.",
+          "reason_vi": "burnout, workplace stress và unfair treatment đều là vấn đề cá nhân người lao động gặp phải. 'automation' là xu hướng công nghệ rộng hơn — máy móc thay thế nhiệm vụ con người — không phải vấn đề nơi làm việc cá nhân."
+        },
+        {
+          "id": 5,
+          "words": [
+            "career",
+            "promotion",
+            "salary",
+            "burnout"
+          ],
+          "answer": "burnout",
+          "reason": "career, promotion, and salary are all positive or neutral aspects of professional life. 'burnout' is a negative health condition — physical and emotional exhaustion from overwork.",
+          "reason_vi": "career, promotion và salary đều là khía cạnh tích cực hoặc trung tính của cuộc sống nghề nghiệp. 'burnout' là tình trạng sức khỏe tiêu cực — kiệt sức thể chất và cảm xúc do làm việc quá mức."
+        },
+        {
+          "id": 6,
+          "words": [
+            "remote work",
+            "flexible hours",
+            "gig economy",
+            "automation"
+          ],
+          "answer": "automation",
+          "reason": "remote work, flexible hours, and gig economy are all trends related to how and where people choose to work. 'automation' is about machines replacing workers — a different kind of change.",
+          "reason_vi": "remote work, flexible hours và gig economy đều là xu hướng liên quan đến cách và nơi mọi người chọn làm việc. 'automation' là về máy móc thay thế người lao động — một loại thay đổi khác."
+        },
+        {
+          "id": 7,
+          "words": [
+            "salary",
+            "promotion",
+            "job security",
+            "unfair treatment"
+          ],
+          "answer": "unfair treatment",
+          "reason": "salary, promotion, and job security are all positive or neutral job factors. 'unfair treatment' is a negative experience — being treated worse than others without a just reason.",
+          "reason_vi": "salary, promotion và job security đều là yếu tố công việc tích cực hoặc trung tính. 'unfair treatment' là trải nghiệm tiêu cực — bị đối xử tệ hơn người khác mà không có lý do chính đáng."
+        },
+        {
+          "id": 8,
+          "words": [
+            "burnout",
+            "workplace stress",
+            "job security",
+            "unfair treatment"
+          ],
+          "answer": "job security",
+          "reason": "burnout, workplace stress, and unfair treatment are all problems at work. 'job security' is positive — the reassurance that you will keep your job.",
+          "reason_vi": "burnout, workplace stress và unfair treatment đều là vấn đề tại nơi làm việc. 'job security' là tích cực — sự đảm bảo rằng bạn sẽ giữ được công việc."
+        },
+        {
+          "id": 9,
+          "words": [
+            "remote work",
+            "flexible hours",
+            "gig economy",
+            "salary"
+          ],
+          "answer": "salary",
+          "reason": "remote work, flexible hours, and gig economy are all concepts about the structure and style of modern work. 'salary' is simply the pay — a basic component of any job, not a new trend.",
+          "reason_vi": "remote work, flexible hours và gig economy đều là khái niệm về cấu trúc và phong cách làm việc hiện đại. 'salary' đơn giản là tiền lương — thành phần cơ bản của bất kỳ công việc nào, không phải xu hướng mới."
+        },
+        {
+          "id": 10,
+          "words": [
+            "automation",
+            "gig economy",
+            "remote work",
+            "promotion"
+          ],
+          "answer": "promotion",
+          "reason": "automation, gig economy, and remote work are all broader trends shaping the future of work. 'promotion' is a personal career milestone — it relates to an individual's progress, not a wider economic trend.",
+          "reason_vi": "automation, gig economy và remote work đều là xu hướng rộng hơn định hình tương lai công việc. 'promotion' là cột mốc sự nghiệp cá nhân — liên quan đến tiến trình của một người, không phải xu hướng kinh tế rộng hơn."
+        }
+      ]
     }
   },
   "answer_key": {

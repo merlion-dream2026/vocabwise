@@ -560,6 +560,82 @@
           "explanation": "A noun is required after 'True' to serve as the grammatical subject of 'is rarely found' — 'fulfilment', not the verb 'fulfil'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Civilisation requires long-term foresight.",
+          "b": "Civilisation requires short-term planning.",
+          "answer": "D",
+          "explanation": "Long-term foresight means thinking far into the future. Short-term planning means addressing immediate needs. These are different — and somewhat opposed — orientations."
+        },
+        {
+          "id": 2,
+          "a": "She demonstrated collective agency in her community.",
+          "b": "She acted independently to improve her community.",
+          "answer": "D",
+          "explanation": "Collective agency means working together as a group. Acting independently means doing it alone. These describe opposite approaches to change."
+        },
+        {
+          "id": 3,
+          "a": "Humanity's trajectory will depend on the choices we make today.",
+          "b": "The future of civilisation is determined by present decisions.",
+          "answer": "S",
+          "explanation": "Trajectory and the future of civilisation both refer to the direction humanity will take. Choices we make today and present decisions describe the same current actions. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "She showed remarkable resilience in the face of existential threats.",
+          "b": "She was overwhelmed by existential threats.",
+          "answer": "D",
+          "explanation": "Remarkable resilience means she adapted and persevered. Being overwhelmed means she was unable to cope. These are opposite responses to the same type of threat."
+        },
+        {
+          "id": 5,
+          "a": "Our collective legacy will outlast individual achievement.",
+          "b": "Individual achievement will determine our collective legacy.",
+          "answer": "D",
+          "explanation": "The first sentence prioritises collective memory over individual acts. The second argues that individual acts create the collective record. These place weight differently."
+        },
+        {
+          "id": 6,
+          "a": "Human flourishing depends on social connection.",
+          "b": "Human flourishing depends on individual accomplishment.",
+          "answer": "D",
+          "explanation": "Social connection emphasises relationships and community. Individual accomplishment emphasises personal achievement. Research suggests both matter, but these sentences identify different foundations."
+        },
+        {
+          "id": 7,
+          "a": "Transcendence involves going beyond ordinary human limits.",
+          "b": "Transcendence involves accepting ordinary human limits.",
+          "answer": "D",
+          "explanation": "Going beyond limits and accepting limits are opposite orientations. These sentences describe different — and contradictory — understandings of transcendence."
+        },
+        {
+          "id": 8,
+          "a": "We must exercise foresight to protect future generations.",
+          "b": "We have an intergenerational obligation to act wisely now.",
+          "answer": "S",
+          "explanation": "Foresight and intergenerational obligation both express the same ethical duty — thinking ahead and acting responsibly for those who will come after us. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Stewardship of the planet is a collective responsibility.",
+          "b": "Stewardship of the planet is a personal choice.",
+          "answer": "D",
+          "explanation": "Collective responsibility means everyone shares the duty. Personal choice means individuals may opt in or out. These are different framings of environmental obligation."
+        },
+        {
+          "id": 10,
+          "a": "The existential risks facing humanity demand global cooperation.",
+          "b": "The existential risks facing humanity can be managed independently by individual nations.",
+          "answer": "D",
+          "explanation": "Global cooperation means all nations working together. Individual management means each nation acts alone. These are opposite approaches to shared threats."
+        }
+      ]
     }
   },
   "answer_key": {

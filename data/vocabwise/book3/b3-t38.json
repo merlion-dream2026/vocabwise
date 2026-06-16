@@ -551,6 +551,67 @@
           "explanation": "An adjective is required to modify the noun 'view' — 'deterministic', not the bare verb 'determine'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Phong trào & phong cách",
+        "Kỹ thuật & phân tích",
+        "Hiệu ứng & phản ứng"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "avant-garde",
+          "answer": "Phong trào & phong cách"
+        },
+        {
+          "id": 2,
+          "word": "semiotics",
+          "answer": "Kỹ thuật & phân tích"
+        },
+        {
+          "id": 3,
+          "word": "provocation",
+          "answer": "Hiệu ứng & phản ứng"
+        },
+        {
+          "id": 4,
+          "word": "postmodern",
+          "answer": "Phong trào & phong cách"
+        },
+        {
+          "id": 5,
+          "word": "juxtaposition",
+          "answer": "Kỹ thuật & phân tích"
+        },
+        {
+          "id": 6,
+          "word": "sublimation",
+          "answer": "Hiệu ứng & phản ứng"
+        },
+        {
+          "id": 7,
+          "word": "subversive",
+          "answer": "Phong trào & phong cách"
+        },
+        {
+          "id": 8,
+          "word": "leitmotif",
+          "answer": "Kỹ thuật & phân tích"
+        },
+        {
+          "id": 9,
+          "word": "transcend",
+          "answer": "Hiệu ứng & phản ứng"
+        },
+        {
+          "id": 10,
+          "word": "patronage",
+          "answer": "Kỹ thuật & phân tích"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -555,6 +555,132 @@
           "explanation": "After 'aimed to', the infinitive without 'to' is already implied — 'empower' (bare infinitive form) is required, not the gerund 'empowering'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "charisma",
+            "inspiration",
+            "vision",
+            "answerability"
+          ],
+          "answer": "answerability",
+          "reason": "charisma, inspiration, and vision are all personal qualities that make a leader compelling and effective. 'answerability' is an accountability concept — the obligation to explain and justify one's decisions to others.",
+          "reason_vi": "charisma, inspiration và vision đều là phẩm chất cá nhân làm cho nhà lãnh đạo hấp dẫn và hiệu quả. 'answerability' là khái niệm trách nhiệm giải trình — nghĩa vụ giải thích và biện hộ quyết định với người khác."
+        },
+        {
+          "id": 2,
+          "words": [
+            "probity",
+            "integrity",
+            "authority",
+            "legacy"
+          ],
+          "answer": "legacy",
+          "reason": "probity, integrity, and authority are all qualities a leader possesses during their tenure. 'legacy' is what remains after — the impact and memory left behind, not a current quality.",
+          "reason_vi": "probity, integrity và authority đều là phẩm chất một nhà lãnh đạo sở hữu trong nhiệm kỳ. 'legacy' là thứ còn lại sau đó — tác động và ký ức để lại, không phải phẩm chất hiện tại."
+        },
+        {
+          "id": 3,
+          "words": [
+            "charisma",
+            "vision",
+            "inspiration",
+            "governance"
+          ],
+          "answer": "governance",
+          "reason": "charisma, vision, and inspiration are all personal or communicative leadership qualities. 'governance' is a structural concept — the systems and processes by which an organisation or state is managed.",
+          "reason_vi": "charisma, vision và inspiration đều là phẩm chất lãnh đạo cá nhân hoặc giao tiếp. 'governance' là khái niệm cấu trúc — hệ thống và quy trình quản lý một tổ chức hoặc nhà nước."
+        },
+        {
+          "id": 4,
+          "words": [
+            "probity",
+            "answerability",
+            "accountability",
+            "empowerment"
+          ],
+          "answer": "empowerment",
+          "reason": "probity, answerability, and accountability are all ethical obligations — ways a leader is held responsible for their conduct. 'empowerment' is an outcome — giving others the power and confidence to act, not a form of accountability.",
+          "reason_vi": "probity, answerability và accountability đều là nghĩa vụ đạo đức — cách nhà lãnh đạo chịu trách nhiệm về hành vi. 'empowerment' là kết quả — trao cho người khác quyền lực và sự tự tin để hành động, không phải hình thức trách nhiệm giải trình."
+        },
+        {
+          "id": 5,
+          "words": [
+            "vision",
+            "inspiration",
+            "charisma",
+            "mobilisation"
+          ],
+          "answer": "mobilisation",
+          "reason": "vision, inspiration, and charisma are qualities that a leader personally embodies. 'mobilisation' is a process — the action of getting people to act collectively toward a goal, not a quality in itself.",
+          "reason_vi": "vision, inspiration và charisma là phẩm chất nhà lãnh đạo thân thể hiện. 'mobilisation' là quá trình — hành động để mọi người hành động chung hướng đến mục tiêu, không phải phẩm chất."
+        },
+        {
+          "id": 6,
+          "words": [
+            "probity",
+            "answerability",
+            "governance",
+            "legacy"
+          ],
+          "answer": "legacy",
+          "reason": "probity, answerability, and governance are all active, ongoing concepts about how leadership is practised. 'legacy' is retrospective — it refers to what a leader is remembered for after their time in power.",
+          "reason_vi": "probity, answerability và governance đều là khái niệm chủ động, liên tục về cách lãnh đạo được thực hành. 'legacy' là hồi cố — đề cập đến những gì nhà lãnh đạo được nhớ đến sau thời gian nắm quyền."
+        },
+        {
+          "id": 7,
+          "words": [
+            "charisma",
+            "inspiration",
+            "authority",
+            "probity"
+          ],
+          "answer": "authority",
+          "reason": "charisma, inspiration, and probity are all soft qualities — personal attributes of an effective leader. 'authority' is a structural concept — the formal power or right to make decisions.",
+          "reason_vi": "charisma, inspiration và probity đều là phẩm chất mềm — thuộc tính cá nhân của nhà lãnh đạo hiệu quả. 'authority' là khái niệm cấu trúc — quyền lực chính thức hoặc quyền ra quyết định."
+        },
+        {
+          "id": 8,
+          "words": [
+            "mobilisation",
+            "empowerment",
+            "governance",
+            "legacy"
+          ],
+          "answer": "legacy",
+          "reason": "mobilisation, empowerment, and governance are all active processes — ongoing actions in the practice of leadership. 'legacy' is a future or retrospective concept — what will be remembered, not what is being done now.",
+          "reason_vi": "mobilisation, empowerment và governance đều là quá trình chủ động — hành động liên tục trong thực hành lãnh đạo. 'legacy' là khái niệm tương lai hoặc hồi cố — những gì sẽ được nhớ đến, không phải những gì đang làm bây giờ."
+        },
+        {
+          "id": 9,
+          "words": [
+            "probity",
+            "integrity",
+            "answerability",
+            "empowerment"
+          ],
+          "answer": "empowerment",
+          "reason": "probity, integrity, and answerability are all ethical accountability concepts — obligations a leader has to uphold standards and justify actions. 'empowerment' is about giving agency to others, not about a leader's personal ethics.",
+          "reason_vi": "probity, integrity và answerability đều là khái niệm trách nhiệm đạo đức — nghĩa vụ nhà lãnh đạo phải duy trì tiêu chuẩn và biện hộ hành động. 'empowerment' là về việc trao quyền cho người khác, không phải đạo đức cá nhân của nhà lãnh đạo."
+        },
+        {
+          "id": 10,
+          "words": [
+            "vision",
+            "charisma",
+            "inspiration",
+            "governance"
+          ],
+          "answer": "governance",
+          "reason": "vision, charisma, and inspiration are all leadership qualities that reside in a person. 'governance' is a system — the institutional framework through which decisions are made and enforced.",
+          "reason_vi": "vision, charisma và inspiration đều là phẩm chất lãnh đạo nằm trong một người. 'governance' là hệ thống — khuôn khổ thể chế qua đó quyết định được đưa ra và thực thi."
+        }
+      ]
     }
   },
   "answer_key": {

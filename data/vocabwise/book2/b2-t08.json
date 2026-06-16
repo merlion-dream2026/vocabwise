@@ -593,6 +593,67 @@
           "explanation": "'Exposure' is the noun form needed here."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Hành động người dùng",
+        "Nội dung & hiện tượng",
+        "Nơi chốn & người"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "post",
+          "answer": "Hành động người dùng"
+        },
+        {
+          "id": 2,
+          "word": "viral",
+          "answer": "Nội dung & hiện tượng"
+        },
+        {
+          "id": 3,
+          "word": "share",
+          "answer": "Hành động người dùng"
+        },
+        {
+          "id": 4,
+          "word": "platform",
+          "answer": "Nơi chốn & người"
+        },
+        {
+          "id": 5,
+          "word": "trend",
+          "answer": "Nội dung & hiện tượng"
+        },
+        {
+          "id": 6,
+          "word": "follow",
+          "answer": "Hành động người dùng"
+        },
+        {
+          "id": 7,
+          "word": "audience",
+          "answer": "Nơi chốn & người"
+        },
+        {
+          "id": 8,
+          "word": "engage",
+          "answer": "Hành động người dùng"
+        },
+        {
+          "id": 9,
+          "word": "content",
+          "answer": "Nội dung & hiện tượng"
+        },
+        {
+          "id": 10,
+          "word": "creator",
+          "answer": "Nơi chốn & người"
+        }
+      ]
     }
   },
   "answer_key": {

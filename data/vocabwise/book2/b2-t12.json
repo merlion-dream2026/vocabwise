@@ -1,87 +1,717 @@
 {
   "meta": {
-    "book": 2, "topic_number": 12, "topic_id": "b2-t12",
-    "topic_title": "Biodiversity & Ecosystems", "theme_number": 2, "theme_title": "Environment & Science",
-    "cefr_level": "B1-B2", "combo": "B1", "emoji": "🌿", "topic_title_vi": "Đa Dạng Sinh Học & Hệ Sinh Thái", "theme_title_vi": "Môi Trường & Khoa Học",
+    "book": 2,
+    "topic_number": 12,
+    "topic_id": "b2-t12",
+    "topic_title": "Biodiversity & Ecosystems",
+    "theme_number": 2,
+    "theme_title": "Environment & Science",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌿",
+    "topic_title_vi": "Đa Dạng Sinh Học & Hệ Sinh Thái",
+    "theme_title_vi": "Môi Trường & Khoa Học",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    }
   },
-  "passage": { "word_count": 196, "paragraphs": [
-    { "index": 1, "text_en": "The natural world is made up of millions of different **species** — plants, animals, fungi, and microscopic **organisms** that all interact with one another. Together, they form complex **ecosystems** such as rainforests, coral reefs, and grasslands. The total variety of life on Earth is called **biodiversity**, and it includes both the **flora** (plant life) and **fauna** (animal life) found in every region of the world.", "text_vi": "Thế giới tự nhiên bao gồm hàng triệu **loài** khác nhau — thực vật, động vật, nấm và các **sinh vật** vi sinh vật cùng tương tác với nhau. Cùng nhau, chúng tạo thành các **hệ sinh thái** phức tạp như rừng nhiệt đới, rạn san hô và đồng cỏ. Tổng thể sự đa dạng của sự sống trên Trái Đất được gọi là **đa dạng sinh học**, bao gồm cả **hệ thực vật** và **hệ động vật** có ở mọi vùng trên thế giới." },
-    { "index": 2, "text_en": "Within each ecosystem, energy flows through a **food chain**. Plants use sunlight to produce food, which is eaten by small animals. These animals in turn become **prey** for larger **predators** — creatures that hunt and kill for food. This balance is essential; if one species disappears, it can disrupt many others in the chain.", "text_vi": "Trong mỗi hệ sinh thái, năng lượng lưu chuyển qua **chuỗi thức ăn**. Thực vật dùng ánh sáng mặt trời để tạo ra thức ăn, sau đó bị các loài động vật nhỏ ăn. Những động vật này lại trở thành **con mồi** của các **động vật săn mồi** lớn hơn — những sinh vật săn bắt để kiếm thức ăn. Sự cân bằng này rất quan trọng; nếu một loài biến mất, nó có thể làm xáo trộn nhiều loài khác trong chuỗi." },
-    { "index": 3, "text_en": "Today, **biodiversity** is under serious threat. Human activities such as deforestation destroy the **habitat** of countless species, leaving animals with nowhere to live. When **invasive** species — plants or animals not **native** to an area — are introduced, they can outcompete local wildlife. If a species loses too many individuals, it may face **extinction** — disappearing from the Earth forever.", "text_vi": "Ngày nay, **đa dạng sinh học** đang bị đe dọa nghiêm trọng. Các hoạt động của con người như phá rừng phá hủy **môi trường sống** của vô số loài, khiến động vật không còn nơi để sinh tồn. Khi các loài **xâm lấn** — thực vật hoặc động vật không **bản địa** của một khu vực — được đưa vào, chúng có thể cạnh tranh vượt trội hơn động vật địa phương. Nếu một loài mất quá nhiều cá thể, nó có thể đối mặt với **sự tuyệt chủng** — biến mất khỏi Trái Đất mãi mãi." },
-    { "index": 4, "text_en": "**Conservation** efforts aim to protect biodiversity before it is too late. Wildlife reserves, national parks, and international agreements all help animals and plants **adapt** to changing conditions or recover their numbers. Protecting biodiversity is not just about saving animals — it is about preserving the systems that support all life, including our own.", "text_vi": "Các nỗ lực **bảo tồn** nhằm bảo vệ đa dạng sinh học trước khi quá muộn. Các khu bảo tồn động vật hoang dã, vườn quốc gia và các hiệp ước quốc tế đều giúp động thực vật **thích nghi** với điều kiện thay đổi hoặc phục hồi số lượng. Bảo vệ đa dạng sinh học không chỉ là cứu động vật — mà là gìn giữ các hệ thống hỗ trợ mọi sự sống, kể cả của chúng ta." }
-  ]},
+  "passage": {
+    "word_count": 196,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "The natural world is made up of millions of different **species** — plants, animals, fungi, and microscopic **organisms** that all interact with one another. Together, they form complex **ecosystems** such as rainforests, coral reefs, and grasslands. The total variety of life on Earth is called **biodiversity**, and it includes both the **flora** (plant life) and **fauna** (animal life) found in every region of the world.",
+        "text_vi": "Thế giới tự nhiên bao gồm hàng triệu **loài** khác nhau — thực vật, động vật, nấm và các **sinh vật** vi sinh vật cùng tương tác với nhau. Cùng nhau, chúng tạo thành các **hệ sinh thái** phức tạp như rừng nhiệt đới, rạn san hô và đồng cỏ. Tổng thể sự đa dạng của sự sống trên Trái Đất được gọi là **đa dạng sinh học**, bao gồm cả **hệ thực vật** và **hệ động vật** có ở mọi vùng trên thế giới."
+      },
+      {
+        "index": 2,
+        "text_en": "Within each ecosystem, energy flows through a **food chain**. Plants use sunlight to produce food, which is eaten by small animals. These animals in turn become **prey** for larger **predators** — creatures that hunt and kill for food. This balance is essential; if one species disappears, it can disrupt many others in the chain.",
+        "text_vi": "Trong mỗi hệ sinh thái, năng lượng lưu chuyển qua **chuỗi thức ăn**. Thực vật dùng ánh sáng mặt trời để tạo ra thức ăn, sau đó bị các loài động vật nhỏ ăn. Những động vật này lại trở thành **con mồi** của các **động vật săn mồi** lớn hơn — những sinh vật săn bắt để kiếm thức ăn. Sự cân bằng này rất quan trọng; nếu một loài biến mất, nó có thể làm xáo trộn nhiều loài khác trong chuỗi."
+      },
+      {
+        "index": 3,
+        "text_en": "Today, **biodiversity** is under serious threat. Human activities such as deforestation destroy the **habitat** of countless species, leaving animals with nowhere to live. When **invasive** species — plants or animals not **native** to an area — are introduced, they can outcompete local wildlife. If a species loses too many individuals, it may face **extinction** — disappearing from the Earth forever.",
+        "text_vi": "Ngày nay, **đa dạng sinh học** đang bị đe dọa nghiêm trọng. Các hoạt động của con người như phá rừng phá hủy **môi trường sống** của vô số loài, khiến động vật không còn nơi để sinh tồn. Khi các loài **xâm lấn** — thực vật hoặc động vật không **bản địa** của một khu vực — được đưa vào, chúng có thể cạnh tranh vượt trội hơn động vật địa phương. Nếu một loài mất quá nhiều cá thể, nó có thể đối mặt với **sự tuyệt chủng** — biến mất khỏi Trái Đất mãi mãi."
+      },
+      {
+        "index": 4,
+        "text_en": "**Conservation** efforts aim to protect biodiversity before it is too late. Wildlife reserves, national parks, and international agreements all help animals and plants **adapt** to changing conditions or recover their numbers. Protecting biodiversity is not just about saving animals — it is about preserving the systems that support all life, including our own.",
+        "text_vi": "Các nỗ lực **bảo tồn** nhằm bảo vệ đa dạng sinh học trước khi quá muộn. Các khu bảo tồn động vật hoang dã, vườn quốc gia và các hiệp ước quốc tế đều giúp động thực vật **thích nghi** với điều kiện thay đổi hoặc phục hồi số lượng. Bảo vệ đa dạng sinh học không chỉ là cứu động vật — mà là gìn giữ các hệ thống hỗ trợ mọi sự sống, kể cả của chúng ta."
+      }
+    ]
+  },
   "glossary": [
-    { "id": 1, "word": "biodiversity", "ipa": "/ˌbaɪ.əʊ.daɪˈvɜː.sɪ.ti/", "pos": "noun", "meaning_vi": "đa dạng sinh học", "meaning_vi_inline": "đa dạng sinh học", "example_en": "Tropical rainforests are rich in biodiversity.", "example_vi": "Rừng nhiệt đới rất phong phú về đa dạng sinh học.", "word_family": { "noun": "biodiversity", "verb": null, "adjective": "biodiverse", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 2, "word": "ecosystem", "ipa": "/ˈiː.kəʊˌsɪs.təm/", "pos": "noun", "meaning_vi": "hệ sinh thái", "meaning_vi_inline": "hệ sinh thái", "example_en": "The coral reef is a fragile ecosystem.", "example_vi": "Rạn san hô là một hệ sinh thái mong manh.", "word_family": { "noun": "ecosystem", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 3, "word": "species", "ipa": "/ˈspiː.ʃiːz/", "pos": "noun", "meaning_vi": "loài (sinh vật)", "meaning_vi_inline": "loài", "example_en": "Over 8,000 species of bird exist worldwide.", "example_vi": "Có hơn 8.000 loài chim tồn tại trên toàn thế giới.", "word_family": { "noun": "species", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "specie", "explanation_vi": "'Species' là dạng dùng cho cả số ít lẫn số nhiều — không có dạng 'specie' trong sinh học." }, "receptive_productive": "R" },
-    { "id": 4, "word": "organism", "ipa": "/ˈɔː.ɡən.ɪ.z.əm/", "pos": "noun", "meaning_vi": "sinh vật, cơ thể sống", "meaning_vi_inline": "sinh vật", "example_en": "Bacteria are tiny organisms found everywhere.", "example_vi": "Vi khuẩn là những sinh vật nhỏ bé có mặt ở khắp nơi.", "word_family": { "noun": "organism", "verb": null, "adjective": "organic", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 5, "word": "flora", "ipa": "/ˈflɔː.rə/", "pos": "noun", "meaning_vi": "hệ thực vật", "meaning_vi_inline": "hệ thực vật", "example_en": "The island has a unique flora found nowhere else.", "example_vi": "Hòn đảo có hệ thực vật độc đáo không tìm thấy ở nơi nào khác.", "word_family": { "noun": "flora", "verb": null, "adjective": "floral", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 6, "word": "fauna", "ipa": "/ˈfɔː.nə/", "pos": "noun", "meaning_vi": "hệ động vật", "meaning_vi_inline": "hệ động vật", "example_en": "Australia's fauna includes many unique marsupials.", "example_vi": "Hệ động vật của Úc bao gồm nhiều loài thú có túi độc đáo.", "word_family": { "noun": "fauna", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 7, "word": "food chain", "ipa": "/ˈfuːd tʃeɪn/", "pos": "noun", "meaning_vi": "chuỗi thức ăn", "meaning_vi_inline": "chuỗi thức ăn", "example_en": "Plants are at the base of the food chain.", "example_vi": "Thực vật ở đáy chuỗi thức ăn.", "word_family": { "noun": "food chain", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 8, "word": "prey", "ipa": "/preɪ/", "pos": "noun/verb", "meaning_vi": "con mồi / săn mồi", "meaning_vi_inline": "con mồi", "example_en": "Rabbits are easy prey for foxes.", "example_vi": "Thỏ là con mồi dễ dàng cho cáo.", "word_family": { "noun": "prey", "verb": "prey", "adjective": null, "adverb": null }, "false_friend": { "word_vi": "pray", "explanation_vi": "'Prey' (con mồi) và 'pray' (cầu nguyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm." }, "receptive_productive": "R" },
-    { "id": 9, "word": "predator", "ipa": "/ˈpred.ə.tər/", "pos": "noun", "meaning_vi": "động vật săn mồi", "meaning_vi_inline": "động vật săn mồi", "example_en": "The shark is a top predator in the ocean.", "example_vi": "Cá mập là động vật săn mồi hàng đầu trong đại dương.", "word_family": { "noun": "predator", "verb": null, "adjective": "predatory", "adverb": null }, "false_friend": { "word_vi": "predictor", "explanation_vi": "'Predator' là động vật săn mồi; 'predictor' là thứ dự báo hoặc dự đoán — hai từ hoàn toàn khác nhau." }, "receptive_productive": "R" },
-    { "id": 10, "word": "habitat", "ipa": "/ˈhæb.ɪ.tæt/", "pos": "noun", "meaning_vi": "môi trường sống (tự nhiên)", "meaning_vi_inline": "môi trường sống", "example_en": "The panda's natural habitat is bamboo forest.", "example_vi": "Môi trường sống tự nhiên của gấu trúc là rừng tre.", "word_family": { "noun": "habitat", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "habitant", "explanation_vi": "'Habitat' là nơi sinh sống của động vật; 'habitant' là người cư dân — không dùng 'habitant' cho động vật." }, "receptive_productive": "R" },
-    { "id": 11, "word": "invasive", "ipa": "/ɪnˈveɪ.sɪv/", "pos": "adjective", "meaning_vi": "xâm lấn (loài ngoại lai)", "meaning_vi_inline": "xâm lấn", "example_en": "Invasive plants can destroy local ecosystems.", "example_vi": "Thực vật xâm lấn có thể phá hủy hệ sinh thái địa phương.", "word_family": { "noun": "invasion", "verb": "invade", "adjective": "invasive", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 12, "word": "native", "ipa": "/ˈneɪ.tɪv/", "pos": "adjective", "meaning_vi": "bản địa, có nguồn gốc từ", "meaning_vi_inline": "bản địa", "example_en": "The kangaroo is native to Australia.", "example_vi": "Kangaroo là loài bản địa của Úc.", "word_family": { "noun": "native", "verb": null, "adjective": "native", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 13, "word": "extinction", "ipa": "/ɪkˈstɪŋk.ʃən/", "pos": "noun", "meaning_vi": "sự tuyệt chủng", "meaning_vi_inline": "tuyệt chủng", "example_en": "The dodo bird was hunted to extinction.", "example_vi": "Chim Dodo đã bị săn bắt đến mức tuyệt chủng.", "word_family": { "noun": "extinction", "verb": "extinguish", "adjective": "extinct", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 14, "word": "conservation", "ipa": "/ˌkɒn.səˈveɪ.ʃən/", "pos": "noun", "meaning_vi": "bảo tồn (thiên nhiên)", "meaning_vi_inline": "bảo tồn", "example_en": "Conservation programs have helped tigers recover.", "example_vi": "Các chương trình bảo tồn đã giúp hổ phục hồi.", "word_family": { "noun": "conservation", "verb": "conserve", "adjective": "conservative", "adverb": null }, "false_friend": { "word_vi": "conservatory", "explanation_vi": "'Conservation' là bảo tồn thiên nhiên; 'conservatory' là nhà kính hoặc nhạc viện — hoàn toàn khác nhau." }, "receptive_productive": "R" },
-    { "id": 15, "word": "adapt", "ipa": "/əˈdæpt/", "pos": "verb", "meaning_vi": "thích nghi", "meaning_vi_inline": "thích nghi", "example_en": "Some animals cannot adapt to rapid climate change.", "example_vi": "Một số loài động vật không thể thích nghi với biến đổi khí hậu nhanh chóng.", "word_family": { "noun": "adaptation", "verb": "adapt", "adjective": "adaptable", "adverb": null }, "false_friend": null, "receptive_productive": "P" }
+    {
+      "id": 1,
+      "word": "biodiversity",
+      "ipa": "/ˌbaɪ.əʊ.daɪˈvɜː.sɪ.ti/",
+      "pos": "noun",
+      "meaning_vi": "đa dạng sinh học",
+      "meaning_vi_inline": "đa dạng sinh học",
+      "example_en": "Tropical rainforests are rich in biodiversity.",
+      "example_vi": "Rừng nhiệt đới rất phong phú về đa dạng sinh học.",
+      "word_family": {
+        "noun": "biodiversity",
+        "verb": null,
+        "adjective": "biodiverse",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "ecosystem",
+      "ipa": "/ˈiː.kəʊˌsɪs.təm/",
+      "pos": "noun",
+      "meaning_vi": "hệ sinh thái",
+      "meaning_vi_inline": "hệ sinh thái",
+      "example_en": "The coral reef is a fragile ecosystem.",
+      "example_vi": "Rạn san hô là một hệ sinh thái mong manh.",
+      "word_family": {
+        "noun": "ecosystem",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "species",
+      "ipa": "/ˈspiː.ʃiːz/",
+      "pos": "noun",
+      "meaning_vi": "loài (sinh vật)",
+      "meaning_vi_inline": "loài",
+      "example_en": "Over 8,000 species of bird exist worldwide.",
+      "example_vi": "Có hơn 8.000 loài chim tồn tại trên toàn thế giới.",
+      "word_family": {
+        "noun": "species",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "specie",
+        "explanation_vi": "'Species' là dạng dùng cho cả số ít lẫn số nhiều — không có dạng 'specie' trong sinh học."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "organism",
+      "ipa": "/ˈɔː.ɡən.ɪ.z.əm/",
+      "pos": "noun",
+      "meaning_vi": "sinh vật, cơ thể sống",
+      "meaning_vi_inline": "sinh vật",
+      "example_en": "Bacteria are tiny organisms found everywhere.",
+      "example_vi": "Vi khuẩn là những sinh vật nhỏ bé có mặt ở khắp nơi.",
+      "word_family": {
+        "noun": "organism",
+        "verb": null,
+        "adjective": "organic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "flora",
+      "ipa": "/ˈflɔː.rə/",
+      "pos": "noun",
+      "meaning_vi": "hệ thực vật",
+      "meaning_vi_inline": "hệ thực vật",
+      "example_en": "The island has a unique flora found nowhere else.",
+      "example_vi": "Hòn đảo có hệ thực vật độc đáo không tìm thấy ở nơi nào khác.",
+      "word_family": {
+        "noun": "flora",
+        "verb": null,
+        "adjective": "floral",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "fauna",
+      "ipa": "/ˈfɔː.nə/",
+      "pos": "noun",
+      "meaning_vi": "hệ động vật",
+      "meaning_vi_inline": "hệ động vật",
+      "example_en": "Australia's fauna includes many unique marsupials.",
+      "example_vi": "Hệ động vật của Úc bao gồm nhiều loài thú có túi độc đáo.",
+      "word_family": {
+        "noun": "fauna",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "food chain",
+      "ipa": "/ˈfuːd tʃeɪn/",
+      "pos": "noun",
+      "meaning_vi": "chuỗi thức ăn",
+      "meaning_vi_inline": "chuỗi thức ăn",
+      "example_en": "Plants are at the base of the food chain.",
+      "example_vi": "Thực vật ở đáy chuỗi thức ăn.",
+      "word_family": {
+        "noun": "food chain",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "prey",
+      "ipa": "/preɪ/",
+      "pos": "noun/verb",
+      "meaning_vi": "con mồi / săn mồi",
+      "meaning_vi_inline": "con mồi",
+      "example_en": "Rabbits are easy prey for foxes.",
+      "example_vi": "Thỏ là con mồi dễ dàng cho cáo.",
+      "word_family": {
+        "noun": "prey",
+        "verb": "prey",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "pray",
+        "explanation_vi": "'Prey' (con mồi) và 'pray' (cầu nguyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "predator",
+      "ipa": "/ˈpred.ə.tər/",
+      "pos": "noun",
+      "meaning_vi": "động vật săn mồi",
+      "meaning_vi_inline": "động vật săn mồi",
+      "example_en": "The shark is a top predator in the ocean.",
+      "example_vi": "Cá mập là động vật săn mồi hàng đầu trong đại dương.",
+      "word_family": {
+        "noun": "predator",
+        "verb": null,
+        "adjective": "predatory",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "predictor",
+        "explanation_vi": "'Predator' là động vật săn mồi; 'predictor' là thứ dự báo hoặc dự đoán — hai từ hoàn toàn khác nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "habitat",
+      "ipa": "/ˈhæb.ɪ.tæt/",
+      "pos": "noun",
+      "meaning_vi": "môi trường sống (tự nhiên)",
+      "meaning_vi_inline": "môi trường sống",
+      "example_en": "The panda's natural habitat is bamboo forest.",
+      "example_vi": "Môi trường sống tự nhiên của gấu trúc là rừng tre.",
+      "word_family": {
+        "noun": "habitat",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "habitant",
+        "explanation_vi": "'Habitat' là nơi sinh sống của động vật; 'habitant' là người cư dân — không dùng 'habitant' cho động vật."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 11,
+      "word": "invasive",
+      "ipa": "/ɪnˈveɪ.sɪv/",
+      "pos": "adjective",
+      "meaning_vi": "xâm lấn (loài ngoại lai)",
+      "meaning_vi_inline": "xâm lấn",
+      "example_en": "Invasive plants can destroy local ecosystems.",
+      "example_vi": "Thực vật xâm lấn có thể phá hủy hệ sinh thái địa phương.",
+      "word_family": {
+        "noun": "invasion",
+        "verb": "invade",
+        "adjective": "invasive",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 12,
+      "word": "native",
+      "ipa": "/ˈneɪ.tɪv/",
+      "pos": "adjective",
+      "meaning_vi": "bản địa, có nguồn gốc từ",
+      "meaning_vi_inline": "bản địa",
+      "example_en": "The kangaroo is native to Australia.",
+      "example_vi": "Kangaroo là loài bản địa của Úc.",
+      "word_family": {
+        "noun": "native",
+        "verb": null,
+        "adjective": "native",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 13,
+      "word": "extinction",
+      "ipa": "/ɪkˈstɪŋk.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "sự tuyệt chủng",
+      "meaning_vi_inline": "tuyệt chủng",
+      "example_en": "The dodo bird was hunted to extinction.",
+      "example_vi": "Chim Dodo đã bị săn bắt đến mức tuyệt chủng.",
+      "word_family": {
+        "noun": "extinction",
+        "verb": "extinguish",
+        "adjective": "extinct",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "conservation",
+      "ipa": "/ˌkɒn.səˈveɪ.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "bảo tồn (thiên nhiên)",
+      "meaning_vi_inline": "bảo tồn",
+      "example_en": "Conservation programs have helped tigers recover.",
+      "example_vi": "Các chương trình bảo tồn đã giúp hổ phục hồi.",
+      "word_family": {
+        "noun": "conservation",
+        "verb": "conserve",
+        "adjective": "conservative",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "conservatory",
+        "explanation_vi": "'Conservation' là bảo tồn thiên nhiên; 'conservatory' là nhà kính hoặc nhạc viện — hoàn toàn khác nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "verb",
+      "meaning_vi": "thích nghi",
+      "meaning_vi_inline": "thích nghi",
+      "example_en": "Some animals cannot adapt to rapid climate change.",
+      "example_vi": "Một số loài động vật không thể thích nghi với biến đổi khí hậu nhanh chóng.",
+      "word_family": {
+        "noun": "adaptation",
+        "verb": "adapt",
+        "adjective": "adaptable",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    }
   ],
   "exercises": {
     "combo": "B1",
-    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "Biodiversity refers to the total variety of life found on Earth.", "answer": "True" },
-        { "id": 2, "statement": "Coral reefs contain more species than any other ecosystem on Earth.", "answer": "Not Given" },
-        { "id": 3, "statement": "In a food chain, large predators eat plants directly.", "answer": "False" },
-        { "id": 4, "statement": "Introducing non-native species to an area can damage local wildlife.", "answer": "True" },
-        { "id": 5, "statement": "Once a species becomes extinct, it disappears from the Earth permanently.", "answer": "True" }
+        {
+          "id": 1,
+          "statement": "Biodiversity refers to the total variety of life found on Earth.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "Coral reefs contain more species than any other ecosystem on Earth.",
+          "answer": "Not Given"
+        },
+        {
+          "id": 3,
+          "statement": "In a food chain, large predators eat plants directly.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "Introducing non-native species to an area can damage local wildlife.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Once a species becomes extinct, it disappears from the Earth permanently.",
+          "answer": "True"
+        }
       ]
     },
-    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "Tigers are powerful _____ that hunt deer and wild pigs for food.", "options": ["organisms", "predators", "prey", "species"], "answer": "predators" },
-        { "id": 2, "sentence": "The Amazon rainforest is one of the most diverse _____ on the planet.", "options": ["habitats", "ecosystems", "food chains", "extinctions"], "answer": "ecosystems" },
-        { "id": 3, "sentence": "Rabbits were introduced to Australia and became an _____ species that damaged native plants.", "options": ["native", "extinct", "invasive", "diverse"], "answer": "invasive" },
-        { "id": 4, "sentence": "The blue whale is an endangered _____ that urgently needs international protection.", "options": ["organism", "habitat", "predator", "species"], "answer": "species" },
-        { "id": 5, "sentence": "Wildlife _____ programmes have helped elephant populations recover in parts of Africa.", "options": ["extinction", "adaptation", "conservation", "habitat"], "answer": "conservation" }
+        {
+          "id": 1,
+          "sentence": "Tigers are powerful _____ that hunt deer and wild pigs for food.",
+          "options": [
+            "organisms",
+            "predators",
+            "prey",
+            "species"
+          ],
+          "answer": "predators"
+        },
+        {
+          "id": 2,
+          "sentence": "The Amazon rainforest is one of the most diverse _____ on the planet.",
+          "options": [
+            "habitats",
+            "ecosystems",
+            "food chains",
+            "extinctions"
+          ],
+          "answer": "ecosystems"
+        },
+        {
+          "id": 3,
+          "sentence": "Rabbits were introduced to Australia and became an _____ species that damaged native plants.",
+          "options": [
+            "native",
+            "extinct",
+            "invasive",
+            "diverse"
+          ],
+          "answer": "invasive"
+        },
+        {
+          "id": 4,
+          "sentence": "The blue whale is an endangered _____ that urgently needs international protection.",
+          "options": [
+            "organism",
+            "habitat",
+            "predator",
+            "species"
+          ],
+          "answer": "species"
+        },
+        {
+          "id": 5,
+          "sentence": "Wildlife _____ programmes have helped elephant populations recover in parts of Africa.",
+          "options": [
+            "extinction",
+            "adaptation",
+            "conservation",
+            "habitat"
+          ],
+          "answer": "conservation"
+        }
       ]
     },
-    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["habitat", "flora", "adapt", "extinction", "prey"],
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "habitat",
+        "flora",
+        "adapt",
+        "extinction",
+        "prey"
+      ],
       "items": [
-        { "id": 1, "sentence": "The forest fires destroyed the natural _____ of hundreds of rare animals.", "answer": "habitat" },
-        { "id": 2, "sentence": "Many species struggle to _____ quickly enough when the climate changes rapidly.", "answer": "adapt" },
-        { "id": 3, "sentence": "Small fish often become easy _____ for larger creatures in the open ocean.", "answer": "prey" },
-        { "id": 4, "sentence": "The tropical _____ of this island includes hundreds of rare orchid species.", "answer": "flora" },
-        { "id": 5, "sentence": "Scientists warn that many animals could face _____ within just a few decades.", "answer": "extinction" }
+        {
+          "id": 1,
+          "sentence": "The forest fires destroyed the natural _____ of hundreds of rare animals.",
+          "answer": "habitat"
+        },
+        {
+          "id": 2,
+          "sentence": "Many species struggle to _____ quickly enough when the climate changes rapidly.",
+          "answer": "adapt"
+        },
+        {
+          "id": 3,
+          "sentence": "Small fish often become easy _____ for larger creatures in the open ocean.",
+          "answer": "prey"
+        },
+        {
+          "id": 4,
+          "sentence": "The tropical _____ of this island includes hundreds of rare orchid species.",
+          "answer": "flora"
+        },
+        {
+          "id": 5,
+          "sentence": "Scientists warn that many animals could face _____ within just a few decades.",
+          "answer": "extinction"
+        }
       ]
     },
-    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["is", "the", "home", "rainforest", "species", "thousands", "of", "to"], "answer": "The rainforest is home to thousands of species." },
-        { "id": 2, "words": ["flows", "energy", "a", "through", "chain", "food"], "answer": "Energy flows through a food chain." },
-        { "id": 3, "words": ["invasive", "species", "can", "harm", "native", "wildlife"], "answer": "Invasive species can harm native wildlife." },
-        { "id": 4, "words": ["many", "face", "species", "loss", "habitat", "due", "to", "extinction"], "answer": "Many species face extinction due to habitat loss." },
-        { "id": 5, "words": ["to", "conservation", "protect", "biodiversity", "aim", "efforts"], "answer": "Conservation efforts aim to protect biodiversity." }
+        {
+          "id": 1,
+          "words": [
+            "is",
+            "the",
+            "home",
+            "rainforest",
+            "species",
+            "thousands",
+            "of",
+            "to"
+          ],
+          "answer": "The rainforest is home to thousands of species."
+        },
+        {
+          "id": 2,
+          "words": [
+            "flows",
+            "energy",
+            "a",
+            "through",
+            "chain",
+            "food"
+          ],
+          "answer": "Energy flows through a food chain."
+        },
+        {
+          "id": 3,
+          "words": [
+            "invasive",
+            "species",
+            "can",
+            "harm",
+            "native",
+            "wildlife"
+          ],
+          "answer": "Invasive species can harm native wildlife."
+        },
+        {
+          "id": 4,
+          "words": [
+            "many",
+            "face",
+            "species",
+            "loss",
+            "habitat",
+            "due",
+            "to",
+            "extinction"
+          ],
+          "answer": "Many species face extinction due to habitat loss."
+        },
+        {
+          "id": 5,
+          "words": [
+            "to",
+            "conservation",
+            "protect",
+            "biodiversity",
+            "aim",
+            "efforts"
+          ],
+          "answer": "Conservation efforts aim to protect biodiversity."
+        }
       ]
     },
-    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The [specie] was found only in the deep forests of the Amazon.", "highlighted": "specie", "options": { "A": "specimen", "B": "specie", "C": "species" }, "answer": "C", "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology." },
-        { "id": 2, "sentence": "Deforestation destroys the natural [habitant] of thousands of wild animals.", "highlighted": "habitant", "options": { "A": "habitat", "B": "habitant", "C": "habitats" }, "answer": "A", "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place." },
-        { "id": 3, "sentence": "The lion is a powerful [predictor] that hunts large animals on the savanna.", "highlighted": "predictor", "options": { "A": "predictor", "B": "predator", "C": "predating" }, "answer": "B", "explanation": "'Predator' is an animal that hunts for food; 'predictor' means something that forecasts or predicts events." },
-        { "id": 4, "sentence": "When a species completely disappears from Earth, it is called [extinguish].", "highlighted": "extinguish", "options": { "A": "extinguishing", "B": "extinguish", "C": "extinct" }, "answer": "C", "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire." },
-        { "id": 5, "sentence": "The WWF runs many [conservatory] programmes to protect endangered species.", "highlighted": "conservatory", "options": { "A": "conservation", "B": "conserving", "C": "conservatory" }, "answer": "A", "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school." }
+        {
+          "id": 1,
+          "sentence": "The [specie] was found only in the deep forests of the Amazon.",
+          "highlighted": "specie",
+          "options": {
+            "A": "specimen",
+            "B": "specie",
+            "C": "species"
+          },
+          "answer": "C",
+          "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology."
+        },
+        {
+          "id": 2,
+          "sentence": "Deforestation destroys the natural [habitant] of thousands of wild animals.",
+          "highlighted": "habitant",
+          "options": {
+            "A": "habitat",
+            "B": "habitant",
+            "C": "habitats"
+          },
+          "answer": "A",
+          "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place."
+        },
+        {
+          "id": 3,
+          "sentence": "The lion is a powerful [predictor] that hunts large animals on the savanna.",
+          "highlighted": "predictor",
+          "options": {
+            "A": "predictor",
+            "B": "predator",
+            "C": "predating"
+          },
+          "answer": "B",
+          "explanation": "'Predator' is an animal that hunts for food; 'predictor' means something that forecasts or predicts events."
+        },
+        {
+          "id": 4,
+          "sentence": "When a species completely disappears from Earth, it is called [extinguish].",
+          "highlighted": "extinguish",
+          "options": {
+            "A": "extinguishing",
+            "B": "extinguish",
+            "C": "extinct"
+          },
+          "answer": "C",
+          "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire."
+        },
+        {
+          "id": 5,
+          "sentence": "The WWF runs many [conservatory] programmes to protect endangered species.",
+          "highlighted": "conservatory",
+          "options": {
+            "A": "conservation",
+            "B": "conserving",
+            "C": "conservatory"
+          },
+          "answer": "A",
+          "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school."
+        }
+      ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "They use solar energy.",
+          "b": "They use renewable energy.",
+          "answer": "S",
+          "explanation": "Solar energy is a type of renewable energy. In this broad context, both sentences describe using energy that comes from natural, sustainable sources."
+        },
+        {
+          "id": 2,
+          "a": "The new device is very efficient.",
+          "b": "The new device is very smart.",
+          "answer": "S",
+          "explanation": "Efficient and smart both describe something that works well without wasting resources. In everyday use, these sentences carry the same positive meaning."
+        },
+        {
+          "id": 3,
+          "a": "There is a shortage of water.",
+          "b": "There is a good supply of water.",
+          "answer": "D",
+          "explanation": "Shortage means there is not enough of something. Supply means the available amount. These sentences describe opposite situations."
+        },
+        {
+          "id": 4,
+          "a": "The country needs to generate more energy.",
+          "b": "The country needs to consume more energy.",
+          "answer": "D",
+          "explanation": "Generate means to produce or create energy. Consume means to use it up. These describe opposite actions in an energy system."
+        },
+        {
+          "id": 5,
+          "a": "We need to find an alternative source.",
+          "b": "We need to find a clean source.",
+          "answer": "S",
+          "explanation": "Alternative and clean both describe an energy source that is different from fossil fuels. In this context, the sentences suggest the same type of solution."
+        },
+        {
+          "id": 6,
+          "a": "Demand for electricity is rising.",
+          "b": "Supply of electricity is rising.",
+          "answer": "D",
+          "explanation": "Demand refers to how much people want or need. Supply refers to how much is available. Rising demand and rising supply describe different sides of an energy market."
+        },
+        {
+          "id": 7,
+          "a": "The network needs upgrading.",
+          "b": "The capacity needs upgrading.",
+          "answer": "D",
+          "explanation": "Network refers to the system of connections (e.g. power lines). Capacity refers to the maximum amount it can handle. These describe different aspects of an energy system."
+        },
+        {
+          "id": 8,
+          "a": "The government will fund the project.",
+          "b": "The government will support the project.",
+          "answer": "S",
+          "explanation": "Fund and support both mean to give resources or backing to something. In this context, both sentences say the government will help the project go ahead."
+        },
+        {
+          "id": 9,
+          "a": "The transition to clean energy is slow.",
+          "b": "The shift to clean energy is slow.",
+          "answer": "S",
+          "explanation": "Transition and shift both describe a process of changing from one state to another. These sentences carry exactly the same meaning."
+        },
+        {
+          "id": 10,
+          "a": "The country plans to consume less energy.",
+          "b": "The country plans to use less energy.",
+          "answer": "S",
+          "explanation": "Consume and use both mean to make use of something. In this context, both sentences say the country will reduce its energy usage."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "Not Given", "3": "False", "4": "True", "5": "True" },
-    "ex2": { "1": "predators", "2": "ecosystems", "3": "invasive", "4": "species", "5": "conservation" },
-    "ex3": { "1": "habitat", "2": "adapt", "3": "prey", "4": "flora", "5": "extinction" },
-    "ex4": { "1": "The rainforest is home to thousands of species.", "2": "Energy flows through a food chain.", "3": "Invasive species can harm native wildlife.", "4": "Many species face extinction due to habitat loss.", "5": "Conservation efforts aim to protect biodiversity." },
-    "ex5": { "1": "C", "2": "A", "3": "B", "4": "C", "5": "A" }
+    "ex1": {
+      "1": "True",
+      "2": "Not Given",
+      "3": "False",
+      "4": "True",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "predators",
+      "2": "ecosystems",
+      "3": "invasive",
+      "4": "species",
+      "5": "conservation"
+    },
+    "ex3": {
+      "1": "habitat",
+      "2": "adapt",
+      "3": "prey",
+      "4": "flora",
+      "5": "extinction"
+    },
+    "ex4": {
+      "1": "The rainforest is home to thousands of species.",
+      "2": "Energy flows through a food chain.",
+      "3": "Invasive species can harm native wildlife.",
+      "4": "Many species face extinction due to habitat loss.",
+      "5": "Conservation efforts aim to protect biodiversity."
+    },
+    "ex5": {
+      "1": "C",
+      "2": "A",
+      "3": "B",
+      "4": "C",
+      "5": "A"
+    }
   }
 }

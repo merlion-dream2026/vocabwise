@@ -617,6 +617,67 @@
           "explanation": "'Regulate' means to control trade through official rules and laws — it is the precise term used in economics and government policy; 'control' and 'monitor' are more casual and do not imply the same formal legal framework."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Dòng chảy thương mại",
+        "Thỏa thuận & hợp tác",
+        "Rào cản & vấn đề"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "export",
+          "answer": "Dòng chảy thương mại"
+        },
+        {
+          "id": 2,
+          "word": "agreement",
+          "answer": "Thỏa thuận & hợp tác"
+        },
+        {
+          "id": 3,
+          "word": "import",
+          "answer": "Dòng chảy thương mại"
+        },
+        {
+          "id": 4,
+          "word": "barrier",
+          "answer": "Rào cản & vấn đề"
+        },
+        {
+          "id": 5,
+          "word": "supply",
+          "answer": "Dòng chảy thương mại"
+        },
+        {
+          "id": 6,
+          "word": "negotiate",
+          "answer": "Thỏa thuận & hợp tác"
+        },
+        {
+          "id": 7,
+          "word": "trade tax",
+          "answer": "Rào cản & vấn đề"
+        },
+        {
+          "id": 8,
+          "word": "currency",
+          "answer": "Dòng chảy thương mại"
+        },
+        {
+          "id": 9,
+          "word": "regulate",
+          "answer": "Thỏa thuận & hợp tác"
+        },
+        {
+          "id": 10,
+          "word": "compete",
+          "answer": "Rào cản & vấn đề"
+        }
+      ]
     }
   },
   "answer_key": {

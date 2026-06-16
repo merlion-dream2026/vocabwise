@@ -619,6 +619,132 @@
           "explanation": "'Balance' is the banking term for the amount of money currently available in an account; it is more precise and professional than the wordy phrase 'money in her account' or the general word 'funds'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "transfer",
+            "pay",
+            "borrow",
+            "statement"
+          ],
+          "answer": "statement",
+          "reason": "transfer, pay, and borrow are all verbs — financial actions you take with money. 'statement' is a noun — a document that records your transactions, not an action.",
+          "reason_vi": "transfer, pay và borrow đều là động từ — hành động tài chính bạn thực hiện với tiền. 'statement' là danh từ — tài liệu ghi lại các giao dịch, không phải hành động."
+        },
+        {
+          "id": 2,
+          "words": [
+            "account",
+            "balance",
+            "credit card",
+            "fee"
+          ],
+          "answer": "fee",
+          "reason": "account, balance, and credit card are all things you have or manage in banking. 'fee' is a charge — money you pay for a service, not something you own or hold.",
+          "reason_vi": "account, balance và credit card đều là thứ bạn có hoặc quản lý trong ngân hàng. 'fee' là khoản phí — tiền bạn trả cho dịch vụ, không phải thứ bạn sở hữu."
+        },
+        {
+          "id": 3,
+          "words": [
+            "borrow",
+            "lend",
+            "transfer",
+            "cash"
+          ],
+          "answer": "cash",
+          "reason": "borrow, lend, and transfer are all verbs — financial actions. 'cash' is a noun — physical money in the form of notes and coins.",
+          "reason_vi": "borrow, lend và transfer đều là động từ — hành động tài chính. 'cash' là danh từ — tiền vật lý dưới dạng tờ tiền và đồng xu."
+        },
+        {
+          "id": 4,
+          "words": [
+            "account",
+            "statement",
+            "balance",
+            "pay"
+          ],
+          "answer": "pay",
+          "reason": "account, statement, and balance are all nouns — things that exist in a banking record. 'pay' is a verb — the action of giving money for something.",
+          "reason_vi": "account, statement và balance đều là danh từ — thứ tồn tại trong hồ sơ ngân hàng. 'pay' là động từ — hành động đưa tiền cho thứ gì đó."
+        },
+        {
+          "id": 5,
+          "words": [
+            "rate",
+            "fee",
+            "penalty",
+            "transfer"
+          ],
+          "answer": "transfer",
+          "reason": "rate, fee, and penalty are all charges or costs you may encounter in financial services. 'transfer' is a financial action — moving money from one place to another.",
+          "reason_vi": "rate, fee và penalty đều là khoản phí hoặc chi phí bạn có thể gặp trong dịch vụ tài chính. 'transfer' là hành động tài chính — chuyển tiền từ nơi này sang nơi khác."
+        },
+        {
+          "id": 6,
+          "words": [
+            "account",
+            "credit card",
+            "debit",
+            "cash"
+          ],
+          "answer": "debit",
+          "reason": "account, credit card, and cash are all things you hold or use to store and access money. 'debit' describes an action or entry — the removal of money from an account, not a physical item.",
+          "reason_vi": "account, credit card và cash đều là thứ bạn giữ hoặc dùng để lưu trữ và truy cập tiền. 'debit' mô tả hành động hoặc bút toán — việc rút tiền khỏi tài khoản, không phải vật thể."
+        },
+        {
+          "id": 7,
+          "words": [
+            "borrow",
+            "lend",
+            "pay",
+            "penalty"
+          ],
+          "answer": "penalty",
+          "reason": "borrow, lend, and pay are all verbs — financial actions you take. 'penalty' is a noun — a charge you must pay as a punishment for breaking a rule.",
+          "reason_vi": "borrow, lend và pay đều là động từ — hành động tài chính. 'penalty' là danh từ — khoản phí bạn phải trả như hình phạt vì vi phạm quy tắc."
+        },
+        {
+          "id": 8,
+          "words": [
+            "account",
+            "balance",
+            "statement",
+            "fee"
+          ],
+          "answer": "fee",
+          "reason": "account, balance, and statement are all parts of your banking record — things that describe or hold your money. 'fee' is what you pay for a service — it reduces your balance, not a record of it.",
+          "reason_vi": "account, balance và statement đều là phần trong hồ sơ ngân hàng của bạn. 'fee' là thứ bạn trả cho dịch vụ — làm giảm số dư của bạn, không phải ghi lại nó."
+        },
+        {
+          "id": 9,
+          "words": [
+            "rate",
+            "fee",
+            "penalty",
+            "bill"
+          ],
+          "answer": "bill",
+          "reason": "rate, fee, and penalty are all costs associated with financial services or missed payments. 'bill' is a statement of what you owe for goods or services — a request for payment, not a financial service charge.",
+          "reason_vi": "rate, fee và penalty đều là chi phí liên quan đến dịch vụ tài chính hoặc thanh toán trễ. 'bill' là tuyên bố về số tiền bạn nợ — yêu cầu thanh toán, không phải phí dịch vụ tài chính."
+        },
+        {
+          "id": 10,
+          "words": [
+            "borrow",
+            "lend",
+            "transfer",
+            "rate"
+          ],
+          "answer": "rate",
+          "reason": "borrow, lend, and transfer are verbs — actions you take when managing money. 'rate' is a noun — a figure (like an interest rate) that describes a financial condition, not an action.",
+          "reason_vi": "borrow, lend và transfer đều là động từ — hành động bạn thực hiện khi quản lý tiền. 'rate' là danh từ — con số (như lãi suất) mô tả điều kiện tài chính, không phải hành động."
+        }
+      ]
     }
   },
   "answer_key": {

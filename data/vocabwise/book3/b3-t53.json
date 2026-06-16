@@ -552,6 +552,132 @@
           "explanation": "The adjective 'paternalistic' is the standard collocate for 'approach' — 'a paternalistic approach', not the noun 'paternalist'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "accountability",
+            "transparency",
+            "liability",
+            "surveillance capitalism"
+          ],
+          "answer": "surveillance capitalism",
+          "reason": "accountability, transparency, and liability are all principles or requirements for ethical tech governance. 'surveillance capitalism' is a socioeconomic model — the practice of collecting personal data as a commodity, not a governance principle.",
+          "reason_vi": "accountability, transparency và liability đều là nguyên tắc hoặc yêu cầu cho quản trị công nghệ đạo đức. 'surveillance capitalism' là mô hình kinh tế xã hội — thực hành thu thập dữ liệu cá nhân như hàng hóa, không phải nguyên tắc quản trị."
+        },
+        {
+          "id": 2,
+          "words": [
+            "digital rights",
+            "data sovereignty",
+            "consent",
+            "algorithmic justice"
+          ],
+          "answer": "consent",
+          "reason": "digital rights, data sovereignty, and algorithmic justice are all broad rights-based frameworks. 'consent' is a specific mechanism — the individual act of agreeing to the use of data, not a structural framework.",
+          "reason_vi": "digital rights, data sovereignty và algorithmic justice đều là khuôn khổ dựa trên quyền rộng. 'consent' là cơ chế cụ thể — hành động cá nhân đồng ý sử dụng dữ liệu, không phải khuôn khổ cấu trúc."
+        },
+        {
+          "id": 3,
+          "words": [
+            "accountability",
+            "transparency",
+            "liability",
+            "whistleblowing"
+          ],
+          "answer": "whistleblowing",
+          "reason": "accountability, transparency, and liability are structural governance principles — ongoing requirements for ethical operation. 'whistleblowing' is a specific act — the disclosure of wrongdoing by an insider, not a standing principle.",
+          "reason_vi": "accountability, transparency và liability là nguyên tắc quản trị cấu trúc. 'whistleblowing' là hành động cụ thể — tiết lộ sai trái bởi người nội bộ, không phải nguyên tắc lâu dài."
+        },
+        {
+          "id": 4,
+          "words": [
+            "digital rights",
+            "data sovereignty",
+            "autonomy",
+            "surveillance capitalism"
+          ],
+          "answer": "surveillance capitalism",
+          "reason": "digital rights, data sovereignty, and autonomy are all rights or values that protect individuals. 'surveillance capitalism' is a threat to those rights — a system that monetises personal data.",
+          "reason_vi": "digital rights, data sovereignty và autonomy đều là quyền hoặc giá trị bảo vệ cá nhân. 'surveillance capitalism' là mối đe dọa đối với những quyền đó — hệ thống kiếm tiền từ dữ liệu cá nhân."
+        },
+        {
+          "id": 5,
+          "words": [
+            "consent",
+            "transparency",
+            "accountability",
+            "data sovereignty"
+          ],
+          "answer": "data sovereignty",
+          "reason": "consent, transparency, and accountability are all active processes or principles — things that happen in governance. 'data sovereignty' is a structural claim — the right of individuals or states to control data about themselves, not a process.",
+          "reason_vi": "consent, transparency và accountability đều là quá trình hoặc nguyên tắc chủ động. 'data sovereignty' là yêu cầu cấu trúc — quyền của cá nhân hoặc quốc gia kiểm soát dữ liệu về bản thân, không phải quá trình."
+        },
+        {
+          "id": 6,
+          "words": [
+            "algorithmic justice",
+            "digital rights",
+            "data sovereignty",
+            "liability"
+          ],
+          "answer": "liability",
+          "reason": "algorithmic justice, digital rights, and data sovereignty are all rights-focused concepts specific to the digital domain. 'liability' is a general legal concept — responsibility for harm — which applies across all domains, not just digital technology.",
+          "reason_vi": "algorithmic justice, digital rights và data sovereignty đều là khái niệm tập trung vào quyền riêng cho lĩnh vực số. 'liability' là khái niệm pháp lý chung — trách nhiệm về thiệt hại — áp dụng trong tất cả các lĩnh vực, không chỉ công nghệ số."
+        },
+        {
+          "id": 7,
+          "words": [
+            "whistleblowing",
+            "transparency",
+            "consent",
+            "liability"
+          ],
+          "answer": "whistleblowing",
+          "reason": "transparency, consent, and liability are all systemic requirements — ongoing conditions for ethical governance. 'whistleblowing' is an event-driven act — something that happens when a person inside a system decides to expose wrongdoing.",
+          "reason_vi": "transparency, consent và liability đều là yêu cầu hệ thống — điều kiện liên tục cho quản trị đạo đức. 'whistleblowing' là hành động theo sự kiện — thứ xảy ra khi người bên trong hệ thống quyết định phơi bày sai trái."
+        },
+        {
+          "id": 8,
+          "words": [
+            "surveillance capitalism",
+            "algorithmic justice",
+            "accountability",
+            "digital rights"
+          ],
+          "answer": "algorithmic justice",
+          "reason": "surveillance capitalism, accountability, and digital rights are all commonly discussed concepts in tech ethics. 'algorithmic justice' is the most specialised — specifically addressing fairness in automated decision-making systems.",
+          "reason_vi": "surveillance capitalism, accountability và digital rights đều là khái niệm được thảo luận phổ biến trong đạo đức công nghệ. 'algorithmic justice' là khái niệm chuyên biệt nhất — đặc biệt giải quyết sự công bằng trong các hệ thống ra quyết định tự động."
+        },
+        {
+          "id": 9,
+          "words": [
+            "consent",
+            "transparency",
+            "liability",
+            "digital rights"
+          ],
+          "answer": "digital rights",
+          "reason": "consent, transparency, and liability are all principles that apply across governance contexts generally. 'digital rights' is specifically about the rights individuals hold in digital and online environments.",
+          "reason_vi": "consent, transparency và liability đều là nguyên tắc áp dụng trong các bối cảnh quản trị chung. 'digital rights' đặc biệt là về quyền mà cá nhân có trong môi trường số và trực tuyến."
+        },
+        {
+          "id": 10,
+          "words": [
+            "data sovereignty",
+            "algorithmic justice",
+            "whistleblowing",
+            "surveillance capitalism"
+          ],
+          "answer": "surveillance capitalism",
+          "reason": "data sovereignty, algorithmic justice, and whistleblowing are all responses to or protections against the misuse of digital power. 'surveillance capitalism' is the system they respond to — the underlying practice that creates the need for these protections.",
+          "reason_vi": "data sovereignty, algorithmic justice và whistleblowing đều là phản ứng hoặc bảo vệ chống lại việc lạm dụng quyền lực số. 'surveillance capitalism' là hệ thống mà họ phản ứng lại — thực hành cơ bản tạo ra nhu cầu bảo vệ."
+        }
+      ]
     }
   },
   "answer_key": {

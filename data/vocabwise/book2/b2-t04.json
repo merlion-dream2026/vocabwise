@@ -595,6 +595,67 @@
           "explanation": "'Penalty' is the noun — the punishment given."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Người liên quan",
+        "Quá trình pháp lý",
+        "Tội phạm & hình phạt"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "suspect",
+          "answer": "Người liên quan"
+        },
+        {
+          "id": 2,
+          "word": "verdict",
+          "answer": "Quá trình pháp lý"
+        },
+        {
+          "id": 3,
+          "word": "witness",
+          "answer": "Người liên quan"
+        },
+        {
+          "id": 4,
+          "word": "fraud",
+          "answer": "Tội phạm & hình phạt"
+        },
+        {
+          "id": 5,
+          "word": "prosecute",
+          "answer": "Quá trình pháp lý"
+        },
+        {
+          "id": 6,
+          "word": "offender",
+          "answer": "Người liên quan"
+        },
+        {
+          "id": 7,
+          "word": "corruption",
+          "answer": "Tội phạm & hình phạt"
+        },
+        {
+          "id": 8,
+          "word": "trial",
+          "answer": "Quá trình pháp lý"
+        },
+        {
+          "id": 9,
+          "word": "penalty",
+          "answer": "Tội phạm & hình phạt"
+        },
+        {
+          "id": 10,
+          "word": "appeal",
+          "answer": "Quá trình pháp lý"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -559,6 +559,67 @@
           "explanation": "'Neural network' is the fixed compound noun phrase — the singular 'network' is correct here as it pairs with 'Neural' to form the subject, not the plural 'networks'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Rủi ro & vấn đề đạo đức",
+        "Công nghệ AI",
+        "Kiểm soát & trách nhiệm"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "bias",
+          "answer": "Rủi ro & vấn đề đạo đức"
+        },
+        {
+          "id": 2,
+          "word": "neural network",
+          "answer": "Công nghệ AI"
+        },
+        {
+          "id": 3,
+          "word": "accountability",
+          "answer": "Kiểm soát & trách nhiệm"
+        },
+        {
+          "id": 4,
+          "word": "surveillance",
+          "answer": "Rủi ro & vấn đề đạo đức"
+        },
+        {
+          "id": 5,
+          "word": "algorithm",
+          "answer": "Công nghệ AI"
+        },
+        {
+          "id": 6,
+          "word": "regulation",
+          "answer": "Kiểm soát & trách nhiệm"
+        },
+        {
+          "id": 7,
+          "word": "sentience",
+          "answer": "Rủi ro & vấn đề đạo đức"
+        },
+        {
+          "id": 8,
+          "word": "autonomous",
+          "answer": "Công nghệ AI"
+        },
+        {
+          "id": 9,
+          "word": "oversight",
+          "answer": "Kiểm soát & trách nhiệm"
+        },
+        {
+          "id": 10,
+          "word": "explainability",
+          "answer": "Kiểm soát & trách nhiệm"
+        }
+      ]
     }
   },
   "answer_key": {

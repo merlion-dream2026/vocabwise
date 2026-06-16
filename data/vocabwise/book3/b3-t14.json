@@ -566,6 +566,82 @@
           "explanation": "A gerund or noun form is needed as the subject of the sentence — 'flourishing', not the bare infinitive 'flourish'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "He pursued hedonic happiness.",
+          "b": "He pursued eudaimonic happiness.",
+          "answer": "D",
+          "explanation": "Hedonic happiness is based on pleasure and the avoidance of pain. Eudaimonic happiness is based on meaning, virtue, and flourishing. These are distinct philosophical models of wellbeing."
+        },
+        {
+          "id": 2,
+          "a": "Gratitude is positively correlated with wellbeing.",
+          "b": "People who feel grateful tend to be happier.",
+          "answer": "S",
+          "explanation": "A positive correlation means the two things tend to go together. Tending to be happier describes the same relationship between gratitude and wellbeing. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "Her subjective experience of happiness was strong.",
+          "b": "Her objective life circumstances were favourable.",
+          "answer": "D",
+          "explanation": "Subjective experience is how things feel from the inside. Objective circumstances are external, measurable facts. These are different dimensions of wellbeing."
+        },
+        {
+          "id": 4,
+          "a": "He reported high levels of contentment.",
+          "b": "He reported high levels of fulfilment.",
+          "answer": "D",
+          "explanation": "Contentment is satisfaction with one's current state — a quiet, passive form of happiness. Fulfilment is deeper — the sense that one is realising potential and living meaningfully. These are related but distinct."
+        },
+        {
+          "id": 5,
+          "a": "Flourishing involves more than the absence of distress.",
+          "b": "Mental health is not merely the absence of illness.",
+          "answer": "S",
+          "explanation": "Both sentences assert the same idea — that positive wellbeing is a richer concept than simply not being ill or unhappy. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "His perception of happiness was influenced by social comparison.",
+          "b": "He felt happy because of his actual achievements.",
+          "answer": "D",
+          "explanation": "Perception influenced by social comparison means his happiness depended on how he ranked relative to others. Feeling happy because of achievements focuses on intrinsic satisfaction. These are different sources of wellbeing."
+        },
+        {
+          "id": 7,
+          "a": "A positive disposition contributes to wellbeing.",
+          "b": "An optimistic outlook contributes to wellbeing.",
+          "answer": "S",
+          "explanation": "A positive disposition and an optimistic outlook are both stable tendencies to perceive the world in a positive light. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "He sought immediate pleasure.",
+          "b": "He sought lasting fulfilment.",
+          "answer": "D",
+          "explanation": "Immediate pleasure describes hedonic, short-term satisfaction. Lasting fulfilment describes eudaimonic, long-term meaning. These are contrasting approaches to happiness."
+        },
+        {
+          "id": 9,
+          "a": "Flourishing is a state of overall human thriving.",
+          "b": "Contentment is a state of overall human thriving.",
+          "answer": "D",
+          "explanation": "Flourishing is a rich, active state of achieving potential and living well. Contentment is a quieter state of satisfaction with what one has. These are different levels of positive psychology."
+        },
+        {
+          "id": 10,
+          "a": "Research shows that gratitude improves wellbeing.",
+          "b": "There is a correlation between gratitude and wellbeing.",
+          "answer": "S",
+          "explanation": "Research showing improvement and a correlation both describe the same empirical finding — that gratitude and wellbeing go together. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

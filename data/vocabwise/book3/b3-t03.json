@@ -555,6 +555,82 @@
           "explanation": "A noun is required as the object of 'achieve' — 'intimacy', not the adjective 'intimate'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The relationship lacked reciprocity.",
+          "b": "One person in the relationship gave more than the other.",
+          "answer": "S",
+          "explanation": "Lacking reciprocity means the exchange of care or effort was unequal — one person giving more than the other. These sentences describe the same relational dynamic."
+        },
+        {
+          "id": 2,
+          "a": "He struggled with emotional vulnerability in relationships.",
+          "b": "He found it difficult to open up to others.",
+          "answer": "S",
+          "explanation": "Emotional vulnerability and opening up both describe the willingness to expose one's inner feelings to another person. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "The marriage ended in dissolution.",
+          "b": "The marriage ended in estrangement.",
+          "answer": "D",
+          "explanation": "Dissolution refers to the legal ending of a marriage. Estrangement refers to emotional distance and a broken relationship without necessarily legal separation. These are different outcomes."
+        },
+        {
+          "id": 4,
+          "a": "They developed a strong attachment.",
+          "b": "They became deeply interdependent.",
+          "answer": "D",
+          "explanation": "Attachment refers to an emotional bond. Interdependence describes mutual reliance — each person needing the other. These are related but conceptually distinct."
+        },
+        {
+          "id": 5,
+          "a": "The relationship ended due to incompatibility.",
+          "b": "The relationship ended because they had nothing in common.",
+          "answer": "S",
+          "explanation": "Incompatibility and having nothing in common both describe a failure of alignment between two people's values, personalities, or lifestyles."
+        },
+        {
+          "id": 6,
+          "a": "She felt alienated from her partner.",
+          "b": "She felt estranged from her partner.",
+          "answer": "S",
+          "explanation": "Alienation and estrangement both describe a feeling of emotional distance, disconnection, or becoming a stranger to someone once close. These sentences carry the same meaning."
+        },
+        {
+          "id": 7,
+          "a": "Vulnerability in relationships is a sign of weakness.",
+          "b": "Vulnerability in relationships enables deeper connection.",
+          "answer": "D",
+          "explanation": "The first sentence frames vulnerability negatively. The second frames it positively — as a condition for intimacy. These express opposite perspectives."
+        },
+        {
+          "id": 8,
+          "a": "Commitment is essential to a long-term relationship.",
+          "b": "Compatibility is essential to a long-term relationship.",
+          "answer": "D",
+          "explanation": "Commitment refers to the decision to stay and invest in the relationship. Compatibility refers to how well two people naturally fit. These are different (though both may be necessary) foundations."
+        },
+        {
+          "id": 9,
+          "a": "Their relationship was characterised by mutual respect.",
+          "b": "Their relationship was characterised by reciprocity.",
+          "answer": "S",
+          "explanation": "Mutual respect and reciprocity are very closely related — both describe a relationship where both people give and receive equally. In context, these sentences convey the same idea."
+        },
+        {
+          "id": 10,
+          "a": "The couple experienced interdependence.",
+          "b": "The couple experienced dissolution.",
+          "answer": "D",
+          "explanation": "Interdependence describes a mutually reliant partnership. Dissolution describes the ending of a relationship. These are opposite relationship states."
+        }
+      ]
     }
   },
   "answer_key": {

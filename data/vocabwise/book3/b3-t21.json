@@ -559,6 +559,132 @@
           "explanation": "A noun is required as the subject — 'convergence', not the adjective 'convergent'."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "disruption",
+            "obsolescence",
+            "digital divide",
+            "efficiency"
+          ],
+          "answer": "efficiency",
+          "reason": "disruption, obsolescence, and digital divide are all negative or challenging consequences of technology. 'efficiency' is a positive outcome — technology enabling greater output with less effort.",
+          "reason_vi": "disruption, obsolescence và digital divide đều là hậu quả tiêu cực hoặc thách thức của công nghệ. 'efficiency' là kết quả tích cực — công nghệ cho phép đầu ra lớn hơn với ít nỗ lực hơn."
+        },
+        {
+          "id": 2,
+          "words": [
+            "adoption",
+            "convergence",
+            "interface",
+            "automation"
+          ],
+          "answer": "interface",
+          "reason": "adoption, convergence, and automation are all processes or trends in technology. 'interface' is a structural feature — the point of interaction between a user and a system.",
+          "reason_vi": "adoption, convergence và automation đều là quá trình hoặc xu hướng trong công nghệ. 'interface' là đặc điểm cấu trúc — điểm tương tác giữa người dùng và hệ thống."
+        },
+        {
+          "id": 3,
+          "words": [
+            "disruption",
+            "dependency",
+            "digital divide",
+            "privacy"
+          ],
+          "answer": "disruption",
+          "reason": "dependency, digital divide, and privacy are all ongoing concerns or conditions of the digital age. 'disruption' is specifically about change — an industry or behaviour being fundamentally altered by new technology.",
+          "reason_vi": "dependency, digital divide và privacy đều là mối lo ngại hoặc điều kiện liên tục của kỷ nguyên số. 'disruption' đặc biệt về thay đổi — một ngành hoặc hành vi bị thay đổi cơ bản bởi công nghệ mới."
+        },
+        {
+          "id": 4,
+          "words": [
+            "adoption",
+            "efficiency",
+            "automation",
+            "obsolescence"
+          ],
+          "answer": "obsolescence",
+          "reason": "adoption, efficiency, and automation are all positive or neutral aspects of technological progress. 'obsolescence' is a negative outcome — the process by which something becomes outdated and no longer used.",
+          "reason_vi": "adoption, efficiency và automation đều là khía cạnh tích cực hoặc trung tính của tiến bộ công nghệ. 'obsolescence' là kết quả tiêu cực — quá trình mà thứ gì đó trở nên lỗi thời và không còn được sử dụng."
+        },
+        {
+          "id": 5,
+          "words": [
+            "convergence",
+            "adoption",
+            "interface",
+            "digital divide"
+          ],
+          "answer": "digital divide",
+          "reason": "convergence, adoption, and interface are all neutral technical concepts — how systems come together, are taken up, or are interacted with. 'digital divide' is a social justice issue — the inequality in access to technology.",
+          "reason_vi": "convergence, adoption và interface đều là khái niệm kỹ thuật trung tính. 'digital divide' là vấn đề công bằng xã hội — sự bất bình đẳng trong tiếp cận công nghệ."
+        },
+        {
+          "id": 6,
+          "words": [
+            "disruption",
+            "obsolescence",
+            "dependency",
+            "convergence"
+          ],
+          "answer": "convergence",
+          "reason": "disruption, obsolescence, and dependency are all problems or risks associated with technology change. 'convergence' is a positive or neutral trend — different technologies coming together into unified platforms.",
+          "reason_vi": "disruption, obsolescence và dependency đều là vấn đề hoặc rủi ro liên quan đến thay đổi công nghệ. 'convergence' là xu hướng tích cực hoặc trung tính — các công nghệ khác nhau hội tụ thành nền tảng thống nhất."
+        },
+        {
+          "id": 7,
+          "words": [
+            "automation",
+            "efficiency",
+            "adoption",
+            "privacy"
+          ],
+          "answer": "privacy",
+          "reason": "automation, efficiency, and adoption are all concepts about how technology is implemented and used. 'privacy' is a rights concept — the protection of personal information, not a technology implementation concept.",
+          "reason_vi": "automation, efficiency và adoption đều là khái niệm về cách công nghệ được triển khai và sử dụng. 'privacy' là khái niệm quyền — bảo vệ thông tin cá nhân, không phải khái niệm triển khai công nghệ."
+        },
+        {
+          "id": 8,
+          "words": [
+            "disruption",
+            "obsolescence",
+            "digital divide",
+            "automation"
+          ],
+          "answer": "automation",
+          "reason": "disruption, obsolescence, and digital divide are all problems or unintended consequences of technology. 'automation' is a process — the replacement of manual tasks by machines, which can be planned and managed.",
+          "reason_vi": "disruption, obsolescence và digital divide đều là vấn đề hoặc hậu quả không mong đợi của công nghệ. 'automation' là quá trình — thay thế nhiệm vụ thủ công bằng máy móc, có thể được lên kế hoạch và quản lý."
+        },
+        {
+          "id": 9,
+          "words": [
+            "convergence",
+            "interface",
+            "efficiency",
+            "adoption"
+          ],
+          "answer": "efficiency",
+          "reason": "convergence, interface, and adoption are all structural or behavioural technology concepts. 'efficiency' is a performance metric — how well a system uses resources to achieve results.",
+          "reason_vi": "convergence, interface và adoption đều là khái niệm công nghệ cấu trúc hoặc hành vi. 'efficiency' là thước đo hiệu suất — mức độ hệ thống sử dụng nguồn lực để đạt kết quả."
+        },
+        {
+          "id": 10,
+          "words": [
+            "dependency",
+            "privacy",
+            "digital divide",
+            "efficiency"
+          ],
+          "answer": "efficiency",
+          "reason": "dependency, privacy, and digital divide are all concerns or risks in the digital world. 'efficiency' is a benefit — the positive gain in productivity made possible by technology.",
+          "reason_vi": "dependency, privacy và digital divide đều là mối lo ngại hoặc rủi ro trong thế giới số. 'efficiency' là lợi ích — lợi ích tích cực trong năng suất do công nghệ mang lại."
+        }
+      ]
     }
   },
   "answer_key": {

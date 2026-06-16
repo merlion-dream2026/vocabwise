@@ -617,6 +617,82 @@
           "explanation": "'Tax' is the specific term for money legally deducted from income by the government; 'payment' is too general, and 'fine' implies a penalty for wrongdoing, which is not the case here."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She has a monthly budget.",
+          "b": "She tracks her monthly expenses.",
+          "answer": "D",
+          "explanation": "A budget is a plan for how to spend money. Expenses are the actual amounts spent. Planning spending and tracking it are different financial actions."
+        },
+        {
+          "id": 2,
+          "a": "He has significant savings.",
+          "b": "He has significant debt.",
+          "answer": "D",
+          "explanation": "Savings is money set aside. Debt is money owed. These describe opposite financial situations."
+        },
+        {
+          "id": 3,
+          "a": "She decided to invest her money.",
+          "b": "She decided to save up her money.",
+          "answer": "S",
+          "explanation": "Invest and save up both describe putting money aside to grow or use in the future. In everyday use, these sentences carry the same general meaning."
+        },
+        {
+          "id": 4,
+          "a": "He took out a loan.",
+          "b": "He borrowed money.",
+          "answer": "S",
+          "explanation": "Taking out a loan and borrowing money both mean receiving money that must be paid back later. These sentences describe the same financial action."
+        },
+        {
+          "id": 5,
+          "a": "She cannot afford a new car.",
+          "b": "She cannot handle the cost of a new car.",
+          "answer": "S",
+          "explanation": "Afford and handle the cost both mean having enough money for something. These sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "The interest rate is high.",
+          "b": "The tax rate is high.",
+          "answer": "D",
+          "explanation": "Interest is charged on borrowed money. Tax is paid to the government. These are different types of financial charges."
+        },
+        {
+          "id": 7,
+          "a": "She earns a good income.",
+          "b": "She spends a good income.",
+          "answer": "D",
+          "explanation": "Earn means to receive money for work. Spend means to use money. These describe opposite directions of money flow."
+        },
+        {
+          "id": 8,
+          "a": "His credit score is excellent.",
+          "b": "His financial record is excellent.",
+          "answer": "S",
+          "explanation": "A credit score and a financial record both describe how reliably someone manages their money. In this context, these sentences carry the same general meaning."
+        },
+        {
+          "id": 9,
+          "a": "She paid off her debt.",
+          "b": "She took out more debt.",
+          "answer": "D",
+          "explanation": "Paying off debt means clearing what you owe. Taking out more debt means borrowing additional money. These describe opposite financial actions."
+        },
+        {
+          "id": 10,
+          "a": "He invested his savings wisely.",
+          "b": "He spent his savings wisely.",
+          "answer": "D",
+          "explanation": "Invest means to put money into something with the expectation of a return. Spend means to use money to buy things. These describe different uses of savings."
+        }
+      ]
     }
   },
   "answer_key": {

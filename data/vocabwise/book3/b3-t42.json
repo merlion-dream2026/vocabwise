@@ -561,6 +561,82 @@
           "explanation": "An adjective is needed to modify the noun 'integrity' — 'academic integrity' is the established compound noun; 'academically' is an adverb and cannot modify a noun."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "The dialect became extinct.",
+          "b": "The dialect underwent revitalisation.",
+          "answer": "D",
+          "explanation": "Becoming extinct means the dialect died out completely. Revitalisation means efforts were made to preserve and restore it. These are opposite outcomes."
+        },
+        {
+          "id": 2,
+          "a": "The word was a neologism.",
+          "b": "The word was an archaism.",
+          "answer": "D",
+          "explanation": "A neologism is a newly coined word or expression. An archaism is an old word that is no longer in common use. These are opposite types of lexical change."
+        },
+        {
+          "id": 3,
+          "a": "The language evolved over centuries.",
+          "b": "The language changed gradually over time.",
+          "answer": "S",
+          "explanation": "Evolved and changed gradually over time both describe a slow process of linguistic development. These sentences carry the same meaning."
+        },
+        {
+          "id": 4,
+          "a": "The vernacular was more widely spoken than the standard form.",
+          "b": "The standard form was more widely spoken than the vernacular.",
+          "answer": "D",
+          "explanation": "The vernacular is the informal, everyday language of a community. The standard form is the official or formal version. These sentences make opposite claims about which was more widespread."
+        },
+        {
+          "id": 5,
+          "a": "The language underwent standardisation.",
+          "b": "Regional varieties of the language were suppressed.",
+          "answer": "S",
+          "explanation": "Standardisation often involves promoting one variety as the official form, which can suppress regional dialects. These sentences describe the same sociolinguistic process."
+        },
+        {
+          "id": 6,
+          "a": "The creole emerged from contact between two languages.",
+          "b": "The contact language was developed from a single source.",
+          "answer": "D",
+          "explanation": "A creole develops from the mixing of two or more languages. A single source means only one origin language. These sentences make different claims about language origin."
+        },
+        {
+          "id": 7,
+          "a": "Language revitalisation efforts have grown in recent decades.",
+          "b": "Fewer languages have become extinct in recent decades.",
+          "answer": "D",
+          "explanation": "Revitalisation efforts describe active programmes to save languages. Fewer extinctions would be the hoped-for outcome, but the two are not the same — efforts can increase while extinction rates remain high."
+        },
+        {
+          "id": 8,
+          "a": "The dialectal variation reflected regional identity.",
+          "b": "The regional accent reflected cultural identity.",
+          "answer": "S",
+          "explanation": "Dialectal variation and regional accent both describe features of language tied to geographic origin. Reflecting regional and cultural identity express the same relationship. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "The archaism was preserved in formal literary texts.",
+          "b": "The archaism fell out of everyday use.",
+          "answer": "S",
+          "explanation": "Being preserved in formal texts and falling out of everyday use both describe an archaism — a word no longer in common use but retained in specific contexts. These sentences describe the same state."
+        },
+        {
+          "id": 10,
+          "a": "Language change is natural and inevitable.",
+          "b": "Language change should be resisted.",
+          "answer": "D",
+          "explanation": "The first accepts language evolution as a natural process. The second advocates against it. These express opposite attitudes to linguistic change."
+        }
+      ]
     }
   },
   "answer_key": {

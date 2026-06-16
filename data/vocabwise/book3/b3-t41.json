@@ -566,6 +566,67 @@
           "explanation": "A noun is needed after 'immediate' to function as the object of 'gained' — 'persuasiveness', not the verb 'persuade'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Cấu trúc & hình thức",
+        "Ý nghĩa & sử dụng",
+        "Biến thể & ngữ cảnh"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "syntax",
+          "answer": "Cấu trúc & hình thức"
+        },
+        {
+          "id": 2,
+          "word": "semantics",
+          "answer": "Ý nghĩa & sử dụng"
+        },
+        {
+          "id": 3,
+          "word": "dialect",
+          "answer": "Biến thể & ngữ cảnh"
+        },
+        {
+          "id": 4,
+          "word": "morphology",
+          "answer": "Cấu trúc & hình thức"
+        },
+        {
+          "id": 5,
+          "word": "pragmatics",
+          "answer": "Ý nghĩa & sử dụng"
+        },
+        {
+          "id": 6,
+          "word": "register",
+          "answer": "Biến thể & ngữ cảnh"
+        },
+        {
+          "id": 7,
+          "word": "phonology",
+          "answer": "Cấu trúc & hình thức"
+        },
+        {
+          "id": 8,
+          "word": "connotation",
+          "answer": "Ý nghĩa & sử dụng"
+        },
+        {
+          "id": 9,
+          "word": "code-switching",
+          "answer": "Biến thể & ngữ cảnh"
+        },
+        {
+          "id": 10,
+          "word": "lexical",
+          "answer": "Cấu trúc & hình thức"
+        }
+      ]
     }
   },
   "answer_key": {

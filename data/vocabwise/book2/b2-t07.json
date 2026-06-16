@@ -592,6 +592,132 @@
           "explanation": "Plural needed: breaking down barriers."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "stereotype",
+            "bias",
+            "prejudice",
+            "empower"
+          ],
+          "answer": "empower",
+          "reason": "stereotype, bias, and prejudice are all negative attitudes — unfair judgements or assumptions about people. 'empower' is a positive action — giving people the power to make their own choices.",
+          "reason_vi": "stereotype, bias và prejudice đều là thái độ tiêu cực — phán xét hoặc giả định không công bằng. 'empower' là hành động tích cực — trao cho mọi người quyền lực để tự quyết định."
+        },
+        {
+          "id": 2,
+          "words": [
+            "equality",
+            "inclusion",
+            "rights",
+            "discrimination"
+          ],
+          "answer": "discrimination",
+          "reason": "equality, inclusion, and rights are all positive principles that promote fairness. 'discrimination' is the opposite — it describes unfair treatment based on who someone is.",
+          "reason_vi": "equality, inclusion và rights đều là nguyên tắc tích cực thúc đẩy sự công bằng. 'discrimination' là điều ngược lại — mô tả sự đối xử không công bằng dựa trên danh tính."
+        },
+        {
+          "id": 3,
+          "words": [
+            "campaign",
+            "protest",
+            "inclusion",
+            "barrier"
+          ],
+          "answer": "barrier",
+          "reason": "campaign, protest, and inclusion are all positive forces — things people do or strive for to create equality. 'barrier' is an obstacle — something that prevents equality from happening.",
+          "reason_vi": "campaign, protest và inclusion đều là lực lượng tích cực — thứ mọi người làm để tạo ra bình đẳng. 'barrier' là chướng ngại vật — thứ ngăn cản bình đẳng xảy ra."
+        },
+        {
+          "id": 4,
+          "words": [
+            "stereotype",
+            "bias",
+            "prejudice",
+            "gender"
+          ],
+          "answer": "gender",
+          "reason": "stereotype, bias, and prejudice are all negative judgements or attitudes. 'gender' is a demographic category — a neutral term for a characteristic that people have, not a judgement.",
+          "reason_vi": "stereotype, bias và prejudice đều là phán xét hoặc thái độ tiêu cực. 'gender' là danh mục nhân khẩu học — thuật ngữ trung tính cho đặc điểm của người, không phải phán xét."
+        },
+        {
+          "id": 5,
+          "words": [
+            "empower",
+            "campaign",
+            "protest",
+            "representation"
+          ],
+          "answer": "representation",
+          "reason": "empower, campaign, and protest are all active verbs — things you do to fight for change. 'representation' is a state or condition — the degree to which different groups are included, not an action.",
+          "reason_vi": "empower, campaign và protest đều là động từ chủ động — thứ bạn làm để đấu tranh cho thay đổi. 'representation' là trạng thái hoặc điều kiện — mức độ các nhóm khác nhau được đưa vào, không phải hành động."
+        },
+        {
+          "id": 6,
+          "words": [
+            "equality",
+            "inclusion",
+            "rights",
+            "empower"
+          ],
+          "answer": "empower",
+          "reason": "equality, inclusion, and rights are nouns — principles or goals in a fair society. 'empower' is a verb — the active process of giving someone confidence and authority.",
+          "reason_vi": "equality, inclusion và rights đều là danh từ — nguyên tắc hoặc mục tiêu trong xã hội công bằng. 'empower' là động từ — quá trình chủ động trao cho ai đó sự tự tin và quyền hạn."
+        },
+        {
+          "id": 7,
+          "words": [
+            "stereotype",
+            "discrimination",
+            "prejudice",
+            "awareness"
+          ],
+          "answer": "awareness",
+          "reason": "stereotype, discrimination, and prejudice are all forms of unfair thinking or behaviour. 'awareness' is positive — it is the understanding of these problems, which is the first step to solving them.",
+          "reason_vi": "stereotype, discrimination và prejudice đều là hình thức suy nghĩ hoặc hành vi không công bằng. 'awareness' là tích cực — sự hiểu biết về những vấn đề này, là bước đầu tiên để giải quyết chúng."
+        },
+        {
+          "id": 8,
+          "words": [
+            "background",
+            "gender",
+            "rights",
+            "protest"
+          ],
+          "answer": "protest",
+          "reason": "background, gender, and rights are nouns — characteristics or principles that describe a person's identity or status. 'protest' is a verb — an active, public action taken to demand change.",
+          "reason_vi": "background, gender và rights đều là danh từ — đặc điểm hoặc nguyên tắc mô tả danh tính hoặc địa vị. 'protest' là động từ — hành động công khai chủ động để yêu cầu thay đổi."
+        },
+        {
+          "id": 9,
+          "words": [
+            "stereotype",
+            "bias",
+            "prejudice",
+            "background"
+          ],
+          "answer": "background",
+          "reason": "stereotype, bias, and prejudice are all negative attitudes — unfair judgements people hold. 'background' is neutral — it simply describes a person's history, culture, or origin without judgement.",
+          "reason_vi": "stereotype, bias và prejudice đều là thái độ tiêu cực. 'background' là trung tính — chỉ mô tả lịch sử, văn hóa hoặc nguồn gốc của một người, không phán xét."
+        },
+        {
+          "id": 10,
+          "words": [
+            "representation",
+            "inclusion",
+            "rights",
+            "bias"
+          ],
+          "answer": "bias",
+          "reason": "representation, inclusion, and rights are all positive principles in an equal society. 'bias' is a negative concept — an unfair tendency to favour one group over another.",
+          "reason_vi": "representation, inclusion và rights đều là nguyên tắc tích cực trong xã hội bình đẳng. 'bias' là khái niệm tiêu cực — xu hướng không công bằng thiên vị một nhóm hơn nhóm khác."
+        }
+      ]
     }
   },
   "answer_key": {

@@ -562,6 +562,82 @@
           "explanation": "A plural noun is required as the subject of the sentence — 'interpreters', not the verb 'interpret'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "She acquired the language naturally.",
+          "b": "She studied the language formally.",
+          "answer": "D",
+          "explanation": "Natural acquisition happens through immersion and use, typically without explicit instruction. Formal study involves deliberate, structured learning. These describe different processes."
+        },
+        {
+          "id": 2,
+          "a": "The critical period affects language acquisition.",
+          "b": "Language learning is equally easy at any age.",
+          "answer": "D",
+          "explanation": "The critical period hypothesis holds that there is an optimal window for language acquisition, typically in early childhood. The second sentence denies this. These are opposite claims."
+        },
+        {
+          "id": 3,
+          "a": "He showed high communicative competence.",
+          "b": "He was grammatically accurate in his speech.",
+          "answer": "D",
+          "explanation": "Communicative competence includes knowing how to use language appropriately in social contexts, beyond just accuracy. Grammatical accuracy is one component. These describe related but distinct abilities."
+        },
+        {
+          "id": 4,
+          "a": "The child had not yet reached full fluency.",
+          "b": "The child had not yet achieved native-speaker proficiency.",
+          "answer": "S",
+          "explanation": "Fluency and native-speaker proficiency both refer to a high level of language mastery. Not yet reaching or achieving either describes the same incomplete development. These sentences carry the same meaning."
+        },
+        {
+          "id": 5,
+          "a": "First-language interference slowed her progress.",
+          "b": "Her L1 helped her learn the L2 more quickly.",
+          "answer": "D",
+          "explanation": "Interference means the first language creates errors in the second. Helping learn more quickly describes positive transfer. These are opposite influences."
+        },
+        {
+          "id": 6,
+          "a": "Neurolinguistics studies how language is processed in the brain.",
+          "b": "Neurolinguistics studies how language is used in society.",
+          "answer": "D",
+          "explanation": "Neurolinguistics is concerned with the brain — neural structures and language processing. The social use of language is the domain of sociolinguistics. These are different disciplines."
+        },
+        {
+          "id": 7,
+          "a": "Language lateralisation refers to the dominance of one hemisphere.",
+          "b": "Language processing is distributed equally across both hemispheres.",
+          "answer": "D",
+          "explanation": "Lateralisation means language is primarily controlled by one side of the brain (typically the left). Equal distribution contradicts this. These are opposite claims."
+        },
+        {
+          "id": 8,
+          "a": "She had strong receptive competence but weaker productive skills.",
+          "b": "She understood well but struggled to produce language.",
+          "answer": "S",
+          "explanation": "Receptive competence is the ability to understand. Productive skills relate to speaking and writing. Understanding well but struggling to produce describe the same contrast. These sentences carry the same meaning."
+        },
+        {
+          "id": 9,
+          "a": "Bilingualism enhances cognitive flexibility.",
+          "b": "Bilingualism impairs cognitive development.",
+          "answer": "D",
+          "explanation": "Enhances means improves. Impairs means damages or slows. Research generally supports the former. These sentences make opposite claims about the cognitive effects of bilingualism."
+        },
+        {
+          "id": 10,
+          "a": "She achieved high-level comprehension but limited fluency.",
+          "b": "She understood spoken English well but found it hard to speak.",
+          "answer": "S",
+          "explanation": "High-level comprehension and understanding well describe the same skill. Limited fluency and finding it hard to speak describe the same gap. These sentences carry the same meaning."
+        }
+      ]
     }
   },
   "answer_key": {

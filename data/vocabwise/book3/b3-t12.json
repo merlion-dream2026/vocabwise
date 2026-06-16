@@ -568,6 +568,82 @@
           "explanation": "'Cortisol' is an uncountable noun and does not take a plural form — 'cortisol', not 'cortisols'."
         }
       ]
+    },
+    "ex6_sd": {
+      "type": "E_SD",
+      "instruction": "Do sentences A and B have the same meaning (S) or different meanings (D)?",
+      "items": [
+        {
+          "id": 1,
+          "a": "Her cortisol levels rose sharply under stress.",
+          "b": "Her body showed a clear physiological stress response.",
+          "answer": "S",
+          "explanation": "Cortisol is the primary stress hormone. A rise in cortisol is exactly what a physiological stress response entails. These sentences describe the same biological event."
+        },
+        {
+          "id": 2,
+          "a": "He identified the trigger for his anxiety.",
+          "b": "He identified the cue that prompted his anxiety.",
+          "answer": "S",
+          "explanation": "Trigger and cue are functionally synonymous in psychology — both describe the stimulus that initiates an emotional or behavioural response. These sentences carry the same meaning."
+        },
+        {
+          "id": 3,
+          "a": "His condition reached a critical threshold.",
+          "b": "His condition was deteriorating rapidly.",
+          "answer": "D",
+          "explanation": "Reaching a threshold means hitting a decisive limit or tipping point. Deteriorating rapidly means it is getting worse, but may not yet have reached a critical point. These describe related but distinct states."
+        },
+        {
+          "id": 4,
+          "a": "Early intervention can prevent chronic stress.",
+          "b": "Early intervention can treat chronic stress.",
+          "answer": "D",
+          "explanation": "Prevention means stopping something from occurring. Treatment means managing something that has already occurred. These describe different stages of healthcare response."
+        },
+        {
+          "id": 5,
+          "a": "She struggled to control her compulsion.",
+          "b": "She struggled to control her urge.",
+          "answer": "S",
+          "explanation": "Compulsion and urge both describe a powerful internal drive to do something, often experienced as difficult to resist. In this context, these sentences carry the same meaning."
+        },
+        {
+          "id": 6,
+          "a": "Stress accumulated over several months.",
+          "b": "Stress appeared suddenly.",
+          "answer": "D",
+          "explanation": "Accumulated means it built up gradually. Appeared suddenly means it arrived at once. These are opposite patterns of stress onset."
+        },
+        {
+          "id": 7,
+          "a": "The manifestation of stress was physical.",
+          "b": "The stress showed itself through bodily symptoms.",
+          "answer": "S",
+          "explanation": "Manifestation and showing itself both describe how something becomes visible or apparent. Physical and bodily symptoms describe the same type of expression. These sentences carry the same meaning."
+        },
+        {
+          "id": 8,
+          "a": "Chronic stress poses serious health risks.",
+          "b": "Occasional stress is harmless.",
+          "answer": "D",
+          "explanation": "Chronic means persistent and ongoing — a serious concern. Occasional means infrequent. The first warns of danger; the second dismisses it. These are opposite claims."
+        },
+        {
+          "id": 9,
+          "a": "She implemented effective coping strategies.",
+          "b": "She relied on the same old compulsive patterns.",
+          "answer": "D",
+          "explanation": "Effective coping strategies represent adaptive behaviour. Relying on compulsive patterns represents maladaptive behaviour. These describe opposite approaches to managing stress."
+        },
+        {
+          "id": 10,
+          "a": "Psychological deterioration can result from untreated stress.",
+          "b": "Early treatment can prevent psychological deterioration.",
+          "answer": "D",
+          "explanation": "The first describes a consequence of no treatment. The second describes an outcome of treatment. These sentences make different causal claims about the same condition."
+        }
+      ]
     }
   },
   "answer_key": {

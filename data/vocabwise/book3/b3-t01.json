@@ -545,6 +545,132 @@
           "explanation": "'Widen' is the verb needed in this infinitive phrase ('to widen access'); 'wide' is an adjective and cannot function as a verb."
         }
       ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "pedagogy",
+            "curriculum",
+            "retention",
+            "cognitive"
+          ],
+          "answer": "cognitive",
+          "reason": "pedagogy, curriculum, and retention are all nouns referring to elements of education — how it is taught, what is taught, and how much is kept. 'cognitive' is an adjective — it describes mental processes, not a component of an educational system.",
+          "reason_vi": "pedagogy, curriculum và retention đều là danh từ chỉ các yếu tố giáo dục. 'cognitive' là tính từ — mô tả quá trình tinh thần, không phải thành phần của hệ thống giáo dục."
+        },
+        {
+          "id": 2,
+          "words": [
+            "attainment",
+            "literacy",
+            "retention",
+            "disparity"
+          ],
+          "answer": "disparity",
+          "reason": "attainment, literacy, and retention are all positive educational outcomes — things students achieve or develop. 'disparity' is a social problem — the unequal gap in educational outcomes between different groups.",
+          "reason_vi": "attainment, literacy và retention đều là kết quả giáo dục tích cực. 'disparity' là vấn đề xã hội — khoảng cách bất bình đẳng trong kết quả giáo dục giữa các nhóm khác nhau."
+        },
+        {
+          "id": 3,
+          "words": [
+            "meritocracy",
+            "autonomy",
+            "disparity",
+            "credential"
+          ],
+          "answer": "credential",
+          "reason": "meritocracy, autonomy, and disparity are all abstract social or philosophical concepts — systems of belief about how society should work. 'credential' is concrete — a certificate or qualification that proves achievement.",
+          "reason_vi": "meritocracy, autonomy và disparity đều là khái niệm xã hội hoặc triết học trừu tượng. 'credential' là cụ thể — bằng chứng hoặc bằng cấp chứng minh thành tích."
+        },
+        {
+          "id": 4,
+          "words": [
+            "pedagogy",
+            "curriculum",
+            "meritocracy",
+            "autonomy"
+          ],
+          "answer": "pedagogy",
+          "reason": "meritocracy, autonomy, and curriculum are all broad frameworks or principles — systems or concepts about education and society. 'pedagogy' is the specific practice of teaching — the methods used in the classroom, not an abstract social theory.",
+          "reason_vi": "meritocracy, autonomy và curriculum đều là khuôn khổ hoặc nguyên tắc rộng. 'pedagogy' là thực hành giảng dạy cụ thể — các phương pháp dùng trong lớp học, không phải lý thuyết xã hội trừu tượng."
+        },
+        {
+          "id": 5,
+          "words": [
+            "attainment",
+            "retention",
+            "literacy",
+            "disparity"
+          ],
+          "answer": "disparity",
+          "reason": "attainment, retention, and literacy all measure what a learner gains — achievements, memory, and skills. 'disparity' measures an inequality in the system — it is not something an individual student achieves.",
+          "reason_vi": "attainment, retention và literacy đều đo lường những gì người học đạt được. 'disparity' đo lường sự bất bình đẳng trong hệ thống — không phải thứ học sinh cá nhân đạt được."
+        },
+        {
+          "id": 6,
+          "words": [
+            "cognitive",
+            "autonomy",
+            "meritocracy",
+            "curriculum"
+          ],
+          "answer": "curriculum",
+          "reason": "cognitive, autonomy, and meritocracy are all abstract concepts about how minds and societies function. 'curriculum' is a structured plan — the specific content and subjects taught in a course of study.",
+          "reason_vi": "cognitive, autonomy và meritocracy đều là khái niệm trừu tượng về cách tâm trí và xã hội vận hành. 'curriculum' là kế hoạch có cấu trúc — nội dung và môn học cụ thể trong một chương trình học."
+        },
+        {
+          "id": 7,
+          "words": [
+            "attainment",
+            "credential",
+            "literacy",
+            "pedagogy"
+          ],
+          "answer": "pedagogy",
+          "reason": "attainment, credential, and literacy are all outcomes — things a student gains or earns through education. 'pedagogy' is a process — the approach and methods used to teach, not a result.",
+          "reason_vi": "attainment, credential và literacy đều là kết quả — thứ học sinh đạt được qua giáo dục. 'pedagogy' là quá trình — phương pháp và cách tiếp cận để dạy học, không phải kết quả."
+        },
+        {
+          "id": 8,
+          "words": [
+            "disparity",
+            "meritocracy",
+            "autonomy",
+            "retention"
+          ],
+          "answer": "retention",
+          "reason": "disparity, meritocracy, and autonomy are all social or political concepts — about fairness, systems of reward, and independence. 'retention' is a cognitive and institutional concept — keeping knowledge in the mind or keeping students in education.",
+          "reason_vi": "disparity, meritocracy và autonomy đều là khái niệm xã hội hoặc chính trị. 'retention' là khái niệm nhận thức và thể chế — giữ kiến thức trong trí nhớ hoặc giữ học sinh trong hệ thống giáo dục."
+        },
+        {
+          "id": 9,
+          "words": [
+            "meritocracy",
+            "autonomy",
+            "credential",
+            "disparity"
+          ],
+          "answer": "credential",
+          "reason": "meritocracy, autonomy, and disparity are intangible — you cannot hold them. 'credential' is tangible — a physical or verifiable document that certifies competence.",
+          "reason_vi": "meritocracy, autonomy và disparity đều vô hình — bạn không thể nắm giữ chúng. 'credential' hữu hình — tài liệu vật lý hoặc có thể xác minh chứng nhận năng lực."
+        },
+        {
+          "id": 10,
+          "words": [
+            "pedagogy",
+            "curriculum",
+            "cognitive",
+            "disparity"
+          ],
+          "answer": "disparity",
+          "reason": "pedagogy, curriculum, and cognitive all relate to how education is designed and experienced. 'disparity' is a societal critique — an unequal outcome in education, not part of its design.",
+          "reason_vi": "pedagogy, curriculum và cognitive đều liên quan đến cách giáo dục được thiết kế và trải nghiệm. 'disparity' là phê bình xã hội — kết quả bất bình đẳng trong giáo dục, không phải một phần trong thiết kế của nó."
+        }
+      ]
     }
   },
   "answer_key": {

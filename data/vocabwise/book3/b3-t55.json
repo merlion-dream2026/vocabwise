@@ -570,6 +570,67 @@
           "explanation": "A noun is required as the object of 'sought' — 'reparation', not the non-standard 'reparate'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Thách thức & rủi ro",
+        "Giải pháp & chính sách",
+        "Hình thức lao động mới"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "marginalisation",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 2,
+          "word": "universal basic income",
+          "answer": "Giải pháp & chính sách"
+        },
+        {
+          "id": 3,
+          "word": "gig economy",
+          "answer": "Hình thức lao động mới"
+        },
+        {
+          "id": 4,
+          "word": "deskilling",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 5,
+          "word": "reskilling",
+          "answer": "Giải pháp & chính sách"
+        },
+        {
+          "id": 6,
+          "word": "telework",
+          "answer": "Hình thức lao động mới"
+        },
+        {
+          "id": 7,
+          "word": "precariat",
+          "answer": "Thách thức & rủi ro"
+        },
+        {
+          "id": 8,
+          "word": "adaptability",
+          "answer": "Giải pháp & chính sách"
+        },
+        {
+          "id": 9,
+          "word": "platform",
+          "answer": "Hình thức lao động mới"
+        },
+        {
+          "id": 10,
+          "word": "automation",
+          "answer": "Thách thức & rủi ro"
+        }
+      ]
     }
   },
   "answer_key": {

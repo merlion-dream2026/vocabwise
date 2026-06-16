@@ -554,6 +554,67 @@
           "explanation": "A plural noun is required after 'Monthly' to serve as the subject — 'remittances', not the verb 'remit'."
         }
       ]
+    },
+    "ex6_cat": {
+      "type": "E_CAT",
+      "instruction": "Which group does each word belong to?",
+      "categories": [
+        "Nguyên nhân & hành trình",
+        "Thách thức & kỳ thị",
+        "Hội nhập & quyền"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "word": "persecution",
+          "answer": "Nguyên nhân & hành trình"
+        },
+        {
+          "id": 2,
+          "word": "xenophobia",
+          "answer": "Thách thức & kỳ thị"
+        },
+        {
+          "id": 3,
+          "word": "integration",
+          "answer": "Hội nhập & quyền"
+        },
+        {
+          "id": 4,
+          "word": "displacement",
+          "answer": "Nguyên nhân & hành trình"
+        },
+        {
+          "id": 5,
+          "word": "stateless",
+          "answer": "Thách thức & kỳ thị"
+        },
+        {
+          "id": 6,
+          "word": "assimilation",
+          "answer": "Hội nhập & quyền"
+        },
+        {
+          "id": 7,
+          "word": "asylum",
+          "answer": "Nguyên nhân & hành trình"
+        },
+        {
+          "id": 8,
+          "word": "deportation",
+          "answer": "Thách thức & kỳ thị"
+        },
+        {
+          "id": 9,
+          "word": "sanctuary",
+          "answer": "Hội nhập & quyền"
+        },
+        {
+          "id": 10,
+          "word": "remittance",
+          "answer": "Hội nhập & quyền"
+        }
+      ]
     }
   },
   "answer_key": {

@@ -1,87 +1,765 @@
 {
   "meta": {
-    "book": 2, "topic_number": 15, "topic_id": "b2-t15",
-    "topic_title": "Natural Disasters", "theme_number": 2, "theme_title": "Environment & Science",
-    "cefr_level": "B1-B2", "combo": "B1", "emoji": "🌪️", "topic_title_vi": "Thiên Tai", "theme_title_vi": "Môi Trường & Khoa Học",
+    "book": 2,
+    "topic_number": 15,
+    "topic_id": "b2-t15",
+    "topic_title": "Natural Disasters",
+    "theme_number": 2,
+    "theme_title": "Environment & Science",
+    "cefr_level": "B1-B2",
+    "combo": "B1",
+    "emoji": "🌪️",
+    "topic_title_vi": "Thiên Tai",
+    "theme_title_vi": "Môi Trường & Khoa Học",
     "status": "qa_pass",
-    "qa": { "passage": "pass", "glossary": "pass", "exercises": "pass", "answer_key": "pass", "last_checked": "2026-06-12" }
+    "qa": {
+      "passage": "pass",
+      "glossary": "pass",
+      "exercises": "pass",
+      "answer_key": "pass",
+      "last_checked": "2026-06-12"
+    }
   },
-  "passage": { "word_count": 204, "paragraphs": [
-    { "index": 1, "text_en": "Natural disasters are extreme events caused by natural forces that can result in widespread destruction and loss of life. Every year, events such as **earthquakes**, **floods**, **droughts**, and **volcanic eruptions** affect millions of people around the world. While these events cannot always be prevented, improved **forecasting** and early warning systems have helped save many lives.", "text_vi": "Thiên tai là những sự kiện cực đoan do các lực lượng tự nhiên gây ra, có thể dẫn đến sự phá hủy diện rộng và thiệt hại về sinh mạng. Hàng năm, các sự kiện như **động đất**, **lũ lụt**, **hạn hán** và **núi lửa phun trào** ảnh hưởng đến hàng triệu người trên thế giới. Mặc dù những sự kiện này không phải lúc nào cũng có thể ngăn chặn được, việc **dự báo** cải tiến và hệ thống cảnh báo sớm đã giúp cứu được nhiều sinh mạng." },
-    { "index": 2, "text_en": "An **earthquake** occurs when tectonic plates beneath the Earth's surface suddenly shift. The strength of an earthquake is measured by its **magnitude** on the Richter scale. When a powerful earthquake strikes underwater, it can trigger a **tsunami** — a series of enormous waves that **devastate** coastal communities with little warning. Roads, bridges, and power systems — the **infrastructure** of a region — can be destroyed in minutes.", "text_vi": "**Động đất** xảy ra khi các mảng kiến tạo bên dưới bề mặt Trái Đất đột ngột dịch chuyển. Cường độ của động đất được đo bằng **độ lớn** theo thang Richter. Khi một trận động đất mạnh xảy ra dưới nước, nó có thể tạo ra **sóng thần** — một loạt sóng khổng lồ **tàn phá** các cộng đồng ven biển với rất ít cảnh báo trước. Đường sá, cầu cống và hệ thống điện — **cơ sở hạ tầng** của một vùng — có thể bị phá hủy trong vài phút." },
-    { "index": 3, "text_en": "Prolonged rainfall can cause **floods** that submerge homes and farmland, while long periods without rain create **droughts** that destroy crops. In tropical regions, powerful storms called **hurricanes** bring violent winds and heavy rain. In mountainous areas, loose soil and rock can suddenly slide in a **landslide**, blocking roads and burying villages below.", "text_vi": "Mưa kéo dài có thể gây ra **lũ lụt** nhấn chìm nhà cửa và đất nông nghiệp, trong khi thời gian dài không có mưa tạo ra **hạn hán** phá hủy mùa màng. Ở các vùng nhiệt đới, những cơn bão mạnh gọi là **bão lớn** mang theo gió dữ dội và mưa lớn. Ở các vùng núi, đất và đá tơi xốp có thể đột ngột trượt xuống trong một vụ **sạt lở đất**, chặn đường và vùi lấp các làng mạc bên dưới." },
-    { "index": 4, "text_en": "When a disaster strikes, authorities must **evacuate** people from dangerous areas as quickly as possible to reduce **casualties** — deaths and injuries. International **relief** organisations then provide emergency food, water, and medical aid. Over time, communities rebuild and develop greater **resilience** — the ability to withstand and recover from future disasters.", "text_vi": "Khi thiên tai ập đến, các cơ quan chức năng phải **sơ tán** người dân ra khỏi các khu vực nguy hiểm càng nhanh càng tốt để giảm **thương vong** — số người chết và bị thương. Các tổ chức **cứu trợ** quốc tế sau đó cung cấp thực phẩm, nước và viện trợ y tế khẩn cấp. Theo thời gian, các cộng đồng tái thiết và phát triển **khả năng phục hồi** cao hơn — khả năng chống chịu và phục hồi sau các thảm họa trong tương lai." }
-  ]},
+  "passage": {
+    "word_count": 204,
+    "paragraphs": [
+      {
+        "index": 1,
+        "text_en": "Natural disasters are extreme events caused by natural forces that can result in widespread destruction and loss of life. Every year, events such as **earthquakes**, **floods**, **droughts**, and **volcanic eruptions** affect millions of people around the world. While these events cannot always be prevented, improved **forecasting** and early warning systems have helped save many lives.",
+        "text_vi": "Thiên tai là những sự kiện cực đoan do các lực lượng tự nhiên gây ra, có thể dẫn đến sự phá hủy diện rộng và thiệt hại về sinh mạng. Hàng năm, các sự kiện như **động đất**, **lũ lụt**, **hạn hán** và **núi lửa phun trào** ảnh hưởng đến hàng triệu người trên thế giới. Mặc dù những sự kiện này không phải lúc nào cũng có thể ngăn chặn được, việc **dự báo** cải tiến và hệ thống cảnh báo sớm đã giúp cứu được nhiều sinh mạng."
+      },
+      {
+        "index": 2,
+        "text_en": "An **earthquake** occurs when tectonic plates beneath the Earth's surface suddenly shift. The strength of an earthquake is measured by its **magnitude** on the Richter scale. When a powerful earthquake strikes underwater, it can trigger a **tsunami** — a series of enormous waves that **devastate** coastal communities with little warning. Roads, bridges, and power systems — the **infrastructure** of a region — can be destroyed in minutes.",
+        "text_vi": "**Động đất** xảy ra khi các mảng kiến tạo bên dưới bề mặt Trái Đất đột ngột dịch chuyển. Cường độ của động đất được đo bằng **độ lớn** theo thang Richter. Khi một trận động đất mạnh xảy ra dưới nước, nó có thể tạo ra **sóng thần** — một loạt sóng khổng lồ **tàn phá** các cộng đồng ven biển với rất ít cảnh báo trước. Đường sá, cầu cống và hệ thống điện — **cơ sở hạ tầng** của một vùng — có thể bị phá hủy trong vài phút."
+      },
+      {
+        "index": 3,
+        "text_en": "Prolonged rainfall can cause **floods** that submerge homes and farmland, while long periods without rain create **droughts** that destroy crops. In tropical regions, powerful storms called **hurricanes** bring violent winds and heavy rain. In mountainous areas, loose soil and rock can suddenly slide in a **landslide**, blocking roads and burying villages below.",
+        "text_vi": "Mưa kéo dài có thể gây ra **lũ lụt** nhấn chìm nhà cửa và đất nông nghiệp, trong khi thời gian dài không có mưa tạo ra **hạn hán** phá hủy mùa màng. Ở các vùng nhiệt đới, những cơn bão mạnh gọi là **bão lớn** mang theo gió dữ dội và mưa lớn. Ở các vùng núi, đất và đá tơi xốp có thể đột ngột trượt xuống trong một vụ **sạt lở đất**, chặn đường và vùi lấp các làng mạc bên dưới."
+      },
+      {
+        "index": 4,
+        "text_en": "When a disaster strikes, authorities must **evacuate** people from dangerous areas as quickly as possible to reduce **casualties** — deaths and injuries. International **relief** organisations then provide emergency food, water, and medical aid. Over time, communities rebuild and develop greater **resilience** — the ability to withstand and recover from future disasters.",
+        "text_vi": "Khi thiên tai ập đến, các cơ quan chức năng phải **sơ tán** người dân ra khỏi các khu vực nguy hiểm càng nhanh càng tốt để giảm **thương vong** — số người chết và bị thương. Các tổ chức **cứu trợ** quốc tế sau đó cung cấp thực phẩm, nước và viện trợ y tế khẩn cấp. Theo thời gian, các cộng đồng tái thiết và phát triển **khả năng phục hồi** cao hơn — khả năng chống chịu và phục hồi sau các thảm họa trong tương lai."
+      }
+    ]
+  },
   "glossary": [
-    { "id": 1, "word": "earthquake", "ipa": "/ˈɜːθ.kweɪk/", "pos": "noun", "meaning_vi": "động đất", "meaning_vi_inline": "động đất", "example_en": "A powerful earthquake struck the city at dawn.", "example_vi": "Một trận động đất mạnh xảy ra ở thành phố vào lúc bình minh.", "word_family": { "noun": "earthquake", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 2, "word": "flood", "ipa": "/flʌd/", "pos": "noun/verb", "meaning_vi": "lũ lụt / gây ngập lụt", "meaning_vi_inline": "lũ lụt", "example_en": "Heavy rains caused severe flooding in the valley.", "example_vi": "Mưa lớn gây ra lũ lụt nghiêm trọng ở thung lũng.", "word_family": { "noun": "flood / flooding", "verb": "flood", "adjective": "flooded", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 3, "word": "drought", "ipa": "/draʊt/", "pos": "noun", "meaning_vi": "hạn hán", "meaning_vi_inline": "hạn hán", "example_en": "The drought destroyed most of the region's crops.", "example_vi": "Hạn hán đã phá hủy hầu hết mùa màng của vùng.", "word_family": { "noun": "drought", "verb": null, "adjective": "drought-prone", "adverb": null }, "false_friend": { "word_vi": "dry", "explanation_vi": "'Drought' là hạn hán — một thời kỳ dài không có mưa; không chỉ đơn giản là 'khô' như 'dry'." }, "receptive_productive": "R" },
-    { "id": 4, "word": "hurricane", "ipa": "/ˈhʌr.ɪ.keɪn/", "pos": "noun", "meaning_vi": "bão lớn (vùng Đại Tây Dương)", "meaning_vi_inline": "bão lớn", "example_en": "The hurricane caused enormous damage along the coast.", "example_vi": "Cơn bão lớn gây thiệt hại khổng lồ dọc theo bờ biển.", "word_family": { "noun": "hurricane", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "typhoon", "explanation_vi": "'Hurricane' và 'typhoon' đều là bão nhiệt đới mạnh — nhưng 'hurricane' ở Đại Tây Dương, 'typhoon' ở Thái Bình Dương." }, "receptive_productive": "R" },
-    { "id": 5, "word": "volcanic eruption", "ipa": "/vɒlˌkæn.ɪk ɪˈrʌp.ʃən/", "pos": "noun", "meaning_vi": "núi lửa phun trào", "meaning_vi_inline": "núi lửa phun trào", "example_en": "The volcanic eruption covered nearby towns in ash.", "example_vi": "Núi lửa phun trào phủ tro lên các thị trấn lân cận.", "word_family": { "noun": "volcano / eruption", "verb": "erupt", "adjective": "volcanic", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 6, "word": "tsunami", "ipa": "/tsuːˈnɑː.mi/", "pos": "noun", "meaning_vi": "sóng thần", "meaning_vi_inline": "sóng thần", "example_en": "The tsunami reached the shore within 30 minutes.", "example_vi": "Sóng thần đến bờ trong vòng 30 phút.", "word_family": { "noun": "tsunami", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 7, "word": "landslide", "ipa": "/ˈlænd.slaɪd/", "pos": "noun", "meaning_vi": "sạt lở đất", "meaning_vi_inline": "sạt lở đất", "example_en": "A landslide blocked the mountain road for three days.", "example_vi": "Một vụ sạt lở đất đã chặn con đường núi trong ba ngày.", "word_family": { "noun": "landslide", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 8, "word": "magnitude", "ipa": "/ˈmæɡ.nɪ.tjuːd/", "pos": "noun", "meaning_vi": "cường độ, độ lớn (của động đất)", "meaning_vi_inline": "cường độ", "example_en": "The earthquake had a magnitude of 6.5.", "example_vi": "Trận động đất có cường độ 6,5.", "word_family": { "noun": "magnitude", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 9, "word": "forecast", "ipa": "/ˈfɔː.kɑːst/", "pos": "noun/verb", "meaning_vi": "dự báo / dự đoán", "meaning_vi_inline": "dự báo", "example_en": "The weather forecast warned of heavy rain.", "example_vi": "Dự báo thời tiết cảnh báo về mưa lớn.", "word_family": { "noun": "forecast / forecaster", "verb": "forecast", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 10, "word": "devastate", "ipa": "/ˈdev.ə.steɪt/", "pos": "verb", "meaning_vi": "tàn phá, phá hủy hoàn toàn", "meaning_vi_inline": "tàn phá", "example_en": "The hurricane devastated several coastal towns.", "example_vi": "Cơn bão đã tàn phá một số thị trấn ven biển.", "word_family": { "noun": "devastation", "verb": "devastate", "adjective": "devastating / devastated", "adverb": "devastatingly" }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 11, "word": "infrastructure", "ipa": "/ˈɪn.frəˌstrʌk.tʃər/", "pos": "noun", "meaning_vi": "cơ sở hạ tầng", "meaning_vi_inline": "cơ sở hạ tầng", "example_en": "The earthquake destroyed the region's infrastructure.", "example_vi": "Trận động đất đã phá hủy cơ sở hạ tầng của vùng.", "word_family": { "noun": "infrastructure", "verb": null, "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 12, "word": "evacuate", "ipa": "/ɪˈvæk.ju.eɪt/", "pos": "verb", "meaning_vi": "sơ tán", "meaning_vi_inline": "sơ tán", "example_en": "Thousands of people were evacuated before the flood.", "example_vi": "Hàng nghìn người đã được sơ tán trước khi lũ đến.", "word_family": { "noun": "evacuation", "verb": "evacuate", "adjective": null, "adverb": null }, "false_friend": null, "receptive_productive": "P" },
-    { "id": 13, "word": "casualty", "ipa": "/ˈkæʒ.u.əl.ti/", "pos": "noun", "meaning_vi": "người thương vong (chết hoặc bị thương)", "meaning_vi_inline": "thương vong", "example_en": "Fortunately, there were few casualties in the earthquake.", "example_vi": "May mắn thay, có rất ít thương vong trong trận động đất.", "word_family": { "noun": "casualty", "verb": null, "adjective": null, "adverb": null }, "false_friend": { "word_vi": "casually", "explanation_vi": "'Casualty' (thương vong) không liên quan đến 'casually' (một cách bình thản) — đây là hai từ hoàn toàn khác nhau." }, "receptive_productive": "R" },
-    { "id": 14, "word": "relief", "ipa": "/rɪˈliːf/", "pos": "noun", "meaning_vi": "cứu trợ; sự nhẹ nhõm", "meaning_vi_inline": "cứu trợ", "example_en": "International relief teams arrived within 24 hours.", "example_vi": "Các đội cứu trợ quốc tế đến trong vòng 24 giờ.", "word_family": { "noun": "relief", "verb": "relieve", "adjective": "relieved", "adverb": null }, "false_friend": null, "receptive_productive": "R" },
-    { "id": 15, "word": "resilience", "ipa": "/rɪˈzɪl.i.əns/", "pos": "noun", "meaning_vi": "khả năng phục hồi, sức bền", "meaning_vi_inline": "khả năng phục hồi", "example_en": "The community showed great resilience after the disaster.", "example_vi": "Cộng đồng cho thấy khả năng phục hồi tuyệt vời sau thảm họa.", "word_family": { "noun": "resilience", "verb": null, "adjective": "resilient", "adverb": "resiliently" }, "false_friend": null, "receptive_productive": "R" }
+    {
+      "id": 1,
+      "word": "earthquake",
+      "ipa": "/ˈɜːθ.kweɪk/",
+      "pos": "noun",
+      "meaning_vi": "động đất",
+      "meaning_vi_inline": "động đất",
+      "example_en": "A powerful earthquake struck the city at dawn.",
+      "example_vi": "Một trận động đất mạnh xảy ra ở thành phố vào lúc bình minh.",
+      "word_family": {
+        "noun": "earthquake",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 2,
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "pos": "noun/verb",
+      "meaning_vi": "lũ lụt / gây ngập lụt",
+      "meaning_vi_inline": "lũ lụt",
+      "example_en": "Heavy rains caused severe flooding in the valley.",
+      "example_vi": "Mưa lớn gây ra lũ lụt nghiêm trọng ở thung lũng.",
+      "word_family": {
+        "noun": "flood / flooding",
+        "verb": "flood",
+        "adjective": "flooded",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 3,
+      "word": "drought",
+      "ipa": "/draʊt/",
+      "pos": "noun",
+      "meaning_vi": "hạn hán",
+      "meaning_vi_inline": "hạn hán",
+      "example_en": "The drought destroyed most of the region's crops.",
+      "example_vi": "Hạn hán đã phá hủy hầu hết mùa màng của vùng.",
+      "word_family": {
+        "noun": "drought",
+        "verb": null,
+        "adjective": "drought-prone",
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "dry",
+        "explanation_vi": "'Drought' là hạn hán — một thời kỳ dài không có mưa; không chỉ đơn giản là 'khô' như 'dry'."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 4,
+      "word": "hurricane",
+      "ipa": "/ˈhʌr.ɪ.keɪn/",
+      "pos": "noun",
+      "meaning_vi": "bão lớn (vùng Đại Tây Dương)",
+      "meaning_vi_inline": "bão lớn",
+      "example_en": "The hurricane caused enormous damage along the coast.",
+      "example_vi": "Cơn bão lớn gây thiệt hại khổng lồ dọc theo bờ biển.",
+      "word_family": {
+        "noun": "hurricane",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "typhoon",
+        "explanation_vi": "'Hurricane' và 'typhoon' đều là bão nhiệt đới mạnh — nhưng 'hurricane' ở Đại Tây Dương, 'typhoon' ở Thái Bình Dương."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 5,
+      "word": "volcanic eruption",
+      "ipa": "/vɒlˌkæn.ɪk ɪˈrʌp.ʃən/",
+      "pos": "noun",
+      "meaning_vi": "núi lửa phun trào",
+      "meaning_vi_inline": "núi lửa phun trào",
+      "example_en": "The volcanic eruption covered nearby towns in ash.",
+      "example_vi": "Núi lửa phun trào phủ tro lên các thị trấn lân cận.",
+      "word_family": {
+        "noun": "volcano / eruption",
+        "verb": "erupt",
+        "adjective": "volcanic",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 6,
+      "word": "tsunami",
+      "ipa": "/tsuːˈnɑː.mi/",
+      "pos": "noun",
+      "meaning_vi": "sóng thần",
+      "meaning_vi_inline": "sóng thần",
+      "example_en": "The tsunami reached the shore within 30 minutes.",
+      "example_vi": "Sóng thần đến bờ trong vòng 30 phút.",
+      "word_family": {
+        "noun": "tsunami",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 7,
+      "word": "landslide",
+      "ipa": "/ˈlænd.slaɪd/",
+      "pos": "noun",
+      "meaning_vi": "sạt lở đất",
+      "meaning_vi_inline": "sạt lở đất",
+      "example_en": "A landslide blocked the mountain road for three days.",
+      "example_vi": "Một vụ sạt lở đất đã chặn con đường núi trong ba ngày.",
+      "word_family": {
+        "noun": "landslide",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 8,
+      "word": "magnitude",
+      "ipa": "/ˈmæɡ.nɪ.tjuːd/",
+      "pos": "noun",
+      "meaning_vi": "cường độ, độ lớn (của động đất)",
+      "meaning_vi_inline": "cường độ",
+      "example_en": "The earthquake had a magnitude of 6.5.",
+      "example_vi": "Trận động đất có cường độ 6,5.",
+      "word_family": {
+        "noun": "magnitude",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 9,
+      "word": "forecast",
+      "ipa": "/ˈfɔː.kɑːst/",
+      "pos": "noun/verb",
+      "meaning_vi": "dự báo / dự đoán",
+      "meaning_vi_inline": "dự báo",
+      "example_en": "The weather forecast warned of heavy rain.",
+      "example_vi": "Dự báo thời tiết cảnh báo về mưa lớn.",
+      "word_family": {
+        "noun": "forecast / forecaster",
+        "verb": "forecast",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 10,
+      "word": "devastate",
+      "ipa": "/ˈdev.ə.steɪt/",
+      "pos": "verb",
+      "meaning_vi": "tàn phá, phá hủy hoàn toàn",
+      "meaning_vi_inline": "tàn phá",
+      "example_en": "The hurricane devastated several coastal towns.",
+      "example_vi": "Cơn bão đã tàn phá một số thị trấn ven biển.",
+      "word_family": {
+        "noun": "devastation",
+        "verb": "devastate",
+        "adjective": "devastating / devastated",
+        "adverb": "devastatingly"
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 11,
+      "word": "infrastructure",
+      "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+      "pos": "noun",
+      "meaning_vi": "cơ sở hạ tầng",
+      "meaning_vi_inline": "cơ sở hạ tầng",
+      "example_en": "The earthquake destroyed the region's infrastructure.",
+      "example_vi": "Trận động đất đã phá hủy cơ sở hạ tầng của vùng.",
+      "word_family": {
+        "noun": "infrastructure",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 12,
+      "word": "evacuate",
+      "ipa": "/ɪˈvæk.ju.eɪt/",
+      "pos": "verb",
+      "meaning_vi": "sơ tán",
+      "meaning_vi_inline": "sơ tán",
+      "example_en": "Thousands of people were evacuated before the flood.",
+      "example_vi": "Hàng nghìn người đã được sơ tán trước khi lũ đến.",
+      "word_family": {
+        "noun": "evacuation",
+        "verb": "evacuate",
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "P"
+    },
+    {
+      "id": 13,
+      "word": "casualty",
+      "ipa": "/ˈkæʒ.u.əl.ti/",
+      "pos": "noun",
+      "meaning_vi": "người thương vong (chết hoặc bị thương)",
+      "meaning_vi_inline": "thương vong",
+      "example_en": "Fortunately, there were few casualties in the earthquake.",
+      "example_vi": "May mắn thay, có rất ít thương vong trong trận động đất.",
+      "word_family": {
+        "noun": "casualty",
+        "verb": null,
+        "adjective": null,
+        "adverb": null
+      },
+      "false_friend": {
+        "word_vi": "casually",
+        "explanation_vi": "'Casualty' (thương vong) không liên quan đến 'casually' (một cách bình thản) — đây là hai từ hoàn toàn khác nhau."
+      },
+      "receptive_productive": "R"
+    },
+    {
+      "id": 14,
+      "word": "relief",
+      "ipa": "/rɪˈliːf/",
+      "pos": "noun",
+      "meaning_vi": "cứu trợ; sự nhẹ nhõm",
+      "meaning_vi_inline": "cứu trợ",
+      "example_en": "International relief teams arrived within 24 hours.",
+      "example_vi": "Các đội cứu trợ quốc tế đến trong vòng 24 giờ.",
+      "word_family": {
+        "noun": "relief",
+        "verb": "relieve",
+        "adjective": "relieved",
+        "adverb": null
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    },
+    {
+      "id": 15,
+      "word": "resilience",
+      "ipa": "/rɪˈzɪl.i.əns/",
+      "pos": "noun",
+      "meaning_vi": "khả năng phục hồi, sức bền",
+      "meaning_vi_inline": "khả năng phục hồi",
+      "example_en": "The community showed great resilience after the disaster.",
+      "example_vi": "Cộng đồng cho thấy khả năng phục hồi tuyệt vời sau thảm họa.",
+      "word_family": {
+        "noun": "resilience",
+        "verb": null,
+        "adjective": "resilient",
+        "adverb": "resiliently"
+      },
+      "false_friend": null,
+      "receptive_productive": "R"
+    }
   ],
   "exercises": {
     "combo": "B1",
-    "ex1_tfng": { "type": "E5", "instruction": "Read the passage. Write True, False, or Not Given.",
+    "ex1_tfng": {
+      "type": "E5",
+      "instruction": "Read the passage. Write True, False, or Not Given.",
       "items": [
-        { "id": 1, "statement": "Better forecasting has helped reduce deaths caused by natural disasters.", "answer": "True" },
-        { "id": 2, "statement": "The strength of an earthquake is measured using the Richter scale.", "answer": "True" },
-        { "id": 3, "statement": "Coastal communities always receive at least one hour of warning before a tsunami.", "answer": "False" },
-        { "id": 4, "statement": "International relief organisations provide emergency food, water, and medical aid.", "answer": "True" },
-        { "id": 5, "statement": "Rebuilding after a disaster makes communities more prepared for future events.", "answer": "True" }
+        {
+          "id": 1,
+          "statement": "Better forecasting has helped reduce deaths caused by natural disasters.",
+          "answer": "True"
+        },
+        {
+          "id": 2,
+          "statement": "The strength of an earthquake is measured using the Richter scale.",
+          "answer": "True"
+        },
+        {
+          "id": 3,
+          "statement": "Coastal communities always receive at least one hour of warning before a tsunami.",
+          "answer": "False"
+        },
+        {
+          "id": 4,
+          "statement": "International relief organisations provide emergency food, water, and medical aid.",
+          "answer": "True"
+        },
+        {
+          "id": 5,
+          "statement": "Rebuilding after a disaster makes communities more prepared for future events.",
+          "answer": "True"
+        }
       ]
     },
-    "ex2_mcq_context": { "type": "E3", "instruction": "Choose the best word to complete each sentence.",
+    "ex2_mcq_context": {
+      "type": "E3",
+      "instruction": "Choose the best word to complete each sentence.",
       "items": [
-        { "id": 1, "sentence": "Authorities ordered residents to _____ after the tsunami warning was issued.", "options": ["forecast", "devastate", "evacuate", "recover"], "answer": "evacuate" },
-        { "id": 2, "sentence": "The _____ of the earthquake was 7.8, making it one of the strongest in decades.", "options": ["casualty", "magnitude", "infrastructure", "forecast"], "answer": "magnitude" },
-        { "id": 3, "sentence": "The floods _____ the town — hundreds of homes were completely destroyed.", "options": ["forecast", "evacuated", "devastated", "recovered"], "answer": "devastated" },
-        { "id": 4, "sentence": "The government provided emergency _____ to victims of the hurricane.", "options": ["resilience", "infrastructure", "magnitude", "relief"], "answer": "relief" },
-        { "id": 5, "sentence": "The storm _____ predicted heavy rain and strong winds for the entire coast.", "options": ["casualty", "forecast", "evacuation", "tsunami"], "answer": "forecast" }
+        {
+          "id": 1,
+          "sentence": "Authorities ordered residents to _____ after the tsunami warning was issued.",
+          "options": [
+            "forecast",
+            "devastate",
+            "evacuate",
+            "recover"
+          ],
+          "answer": "evacuate"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of the earthquake was 7.8, making it one of the strongest in decades.",
+          "options": [
+            "casualty",
+            "magnitude",
+            "infrastructure",
+            "forecast"
+          ],
+          "answer": "magnitude"
+        },
+        {
+          "id": 3,
+          "sentence": "The floods _____ the town — hundreds of homes were completely destroyed.",
+          "options": [
+            "forecast",
+            "evacuated",
+            "devastated",
+            "recovered"
+          ],
+          "answer": "devastated"
+        },
+        {
+          "id": 4,
+          "sentence": "The government provided emergency _____ to victims of the hurricane.",
+          "options": [
+            "resilience",
+            "infrastructure",
+            "magnitude",
+            "relief"
+          ],
+          "answer": "relief"
+        },
+        {
+          "id": 5,
+          "sentence": "The storm _____ predicted heavy rain and strong winds for the entire coast.",
+          "options": [
+            "casualty",
+            "forecast",
+            "evacuation",
+            "tsunami"
+          ],
+          "answer": "forecast"
+        }
       ]
     },
-    "ex3_gap_fill": { "type": "E4", "instruction": "Fill in the blanks with the correct word from the box.", "word_bank": ["casualties", "infrastructure", "landslide", "drought", "resilience"],
+    "ex3_gap_fill": {
+      "type": "E4",
+      "instruction": "Fill in the blanks with the correct word from the box.",
+      "word_bank": [
+        "casualties",
+        "infrastructure",
+        "landslide",
+        "drought",
+        "resilience"
+      ],
       "items": [
-        { "id": 1, "sentence": "The earthquake caused many _____, with over 200 people killed or injured.", "answer": "casualties" },
-        { "id": 2, "sentence": "The town's _____ — roads, bridges, and power lines — was completely destroyed.", "answer": "infrastructure" },
-        { "id": 3, "sentence": "A _____ blocked the mountain road after three days of continuous heavy rain.", "answer": "landslide" },
-        { "id": 4, "sentence": "The long _____ destroyed most of the region's rice crops and caused food shortages.", "answer": "drought" },
-        { "id": 5, "sentence": "After years of rebuilding, the community showed remarkable _____ in the face of hardship.", "answer": "resilience" }
+        {
+          "id": 1,
+          "sentence": "The earthquake caused many _____, with over 200 people killed or injured.",
+          "answer": "casualties"
+        },
+        {
+          "id": 2,
+          "sentence": "The town's _____ — roads, bridges, and power lines — was completely destroyed.",
+          "answer": "infrastructure"
+        },
+        {
+          "id": 3,
+          "sentence": "A _____ blocked the mountain road after three days of continuous heavy rain.",
+          "answer": "landslide"
+        },
+        {
+          "id": 4,
+          "sentence": "The long _____ destroyed most of the region's rice crops and caused food shortages.",
+          "answer": "drought"
+        },
+        {
+          "id": 5,
+          "sentence": "After years of rebuilding, the community showed remarkable _____ in the face of hardship.",
+          "answer": "resilience"
+        }
       ]
     },
-    "ex4_reordering": { "type": "E7", "instruction": "Arrange the words to make a correct sentence.",
+    "ex4_reordering": {
+      "type": "E7",
+      "instruction": "Arrange the words to make a correct sentence.",
       "items": [
-        { "id": 1, "words": ["occurs", "an", "earthquake", "tectonic", "when", "plates", "shift"], "answer": "An earthquake occurs when tectonic plates shift." },
-        { "id": 2, "words": ["people", "were", "from", "the", "evacuated", "area", "danger", "quickly"], "answer": "People were quickly evacuated from the danger area." },
-        { "id": 3, "words": ["the", "destroyed", "roads", "earthquake", "bridges", "and", "all"], "answer": "The earthquake destroyed all roads and bridges." },
-        { "id": 4, "words": ["provide", "food", "and", "relief", "organisations", "water", "emergency"], "answer": "Relief organisations provide emergency food and water." },
-        { "id": 5, "words": ["recover", "disasters", "communities", "can", "from", "natural", "stronger", "and", "grow"], "answer": "Communities can recover from natural disasters and grow stronger." }
+        {
+          "id": 1,
+          "words": [
+            "occurs",
+            "an",
+            "earthquake",
+            "tectonic",
+            "when",
+            "plates",
+            "shift"
+          ],
+          "answer": "An earthquake occurs when tectonic plates shift."
+        },
+        {
+          "id": 2,
+          "words": [
+            "people",
+            "were",
+            "from",
+            "the",
+            "evacuated",
+            "area",
+            "danger",
+            "quickly"
+          ],
+          "answer": "People were quickly evacuated from the danger area."
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "destroyed",
+            "roads",
+            "earthquake",
+            "bridges",
+            "and",
+            "all"
+          ],
+          "answer": "The earthquake destroyed all roads and bridges."
+        },
+        {
+          "id": 4,
+          "words": [
+            "provide",
+            "food",
+            "and",
+            "relief",
+            "organisations",
+            "water",
+            "emergency"
+          ],
+          "answer": "Relief organisations provide emergency food and water."
+        },
+        {
+          "id": 5,
+          "words": [
+            "recover",
+            "disasters",
+            "communities",
+            "can",
+            "from",
+            "natural",
+            "stronger",
+            "and",
+            "grow"
+          ],
+          "answer": "Communities can recover from natural disasters and grow stronger."
+        }
       ]
     },
-    "ex5_error_fix": { "type": "E8", "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
+    "ex5_error_fix": {
+      "type": "E8",
+      "instruction": "Each sentence has one underlined word or phrase that is wrong. Choose the correct replacement.",
       "items": [
-        { "id": 1, "sentence": "The village was completely [devastation] by the tsunami in just a few minutes.", "highlighted": "devastation", "options": { "A": "devastated", "B": "devastating", "C": "devastation" }, "answer": "A", "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice)." },
-        { "id": 2, "sentence": "Hundreds of [causality] were reported after the powerful earthquake struck the city.", "highlighted": "causality", "options": { "A": "casualty", "B": "casualties", "C": "causality" }, "answer": "B", "explanation": "'Casualties' (plural) refers to deaths and injuries; 'causality' means cause-and-effect — a completely different word." },
-        { "id": 3, "sentence": "Authorities ordered everyone to [evacuated] the coastal area before the storm arrived.", "highlighted": "evacuated", "options": { "A": "evacuating", "B": "evacuated", "C": "evacuate" }, "answer": "C", "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'." },
-        { "id": 4, "sentence": "The town's [infrastructure's] was severely damaged, including roads and power lines.", "highlighted": "infrastructure's", "options": { "A": "infrastructures", "B": "infrastructure", "C": "infrastructure's" }, "answer": "B", "explanation": "No possessive needed here — 'infrastructure' is an uncountable noun and stands alone." },
-        { "id": 5, "sentence": "After the floods, the community showed great [resilient] in rebuilding their homes.", "highlighted": "resilient", "options": { "A": "resilience", "B": "resiliently", "C": "resilient" }, "answer": "A", "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'." }
+        {
+          "id": 1,
+          "sentence": "The village was completely [devastation] by the tsunami in just a few minutes.",
+          "highlighted": "devastation",
+          "options": {
+            "A": "devastated",
+            "B": "devastating",
+            "C": "devastation"
+          },
+          "answer": "A",
+          "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice)."
+        },
+        {
+          "id": 2,
+          "sentence": "Hundreds of [causality] were reported after the powerful earthquake struck the city.",
+          "highlighted": "causality",
+          "options": {
+            "A": "casualty",
+            "B": "casualties",
+            "C": "causality"
+          },
+          "answer": "B",
+          "explanation": "'Casualties' (plural) refers to deaths and injuries; 'causality' means cause-and-effect — a completely different word."
+        },
+        {
+          "id": 3,
+          "sentence": "Authorities ordered everyone to [evacuated] the coastal area before the storm arrived.",
+          "highlighted": "evacuated",
+          "options": {
+            "A": "evacuating",
+            "B": "evacuated",
+            "C": "evacuate"
+          },
+          "answer": "C",
+          "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'."
+        },
+        {
+          "id": 4,
+          "sentence": "The town's [infrastructure's] was severely damaged, including roads and power lines.",
+          "highlighted": "infrastructure's",
+          "options": {
+            "A": "infrastructures",
+            "B": "infrastructure",
+            "C": "infrastructure's"
+          },
+          "answer": "B",
+          "explanation": "No possessive needed here — 'infrastructure' is an uncountable noun and stands alone."
+        },
+        {
+          "id": 5,
+          "sentence": "After the floods, the community showed great [resilient] in rebuilding their homes.",
+          "highlighted": "resilient",
+          "options": {
+            "A": "resilience",
+            "B": "resiliently",
+            "C": "resilient"
+          },
+          "answer": "A",
+          "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'."
+        }
+      ]
+    },
+    "ex6_odd": {
+      "type": "E_ODD",
+      "instruction": "Three words belong to the same group. Which word is the odd one out?",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "pollution",
+            "waste",
+            "flooding",
+            "ocean"
+          ],
+          "answer": "ocean",
+          "reason": "pollution, waste, and flooding are all environmental problems — things that harm the water environment. 'ocean' is a place — a large body of saltwater, not a problem itself.",
+          "reason_vi": "pollution, waste và flooding đều là vấn đề môi trường — thứ gây hại cho môi trường nước. 'ocean' là nơi chốn — khối nước mặn lớn, không phải vấn đề."
+        },
+        {
+          "id": 2,
+          "words": [
+            "preserve",
+            "protect",
+            "clean water",
+            "shortage"
+          ],
+          "answer": "shortage",
+          "reason": "preserve, protect, and clean water are all positive concepts — actions or conditions related to saving water resources. 'shortage' is a negative condition — when there is not enough water.",
+          "reason_vi": "preserve, protect và clean water đều là khái niệm tích cực — hành động hoặc điều kiện liên quan đến bảo tồn tài nguyên nước. 'shortage' là điều kiện tiêu cực — khi không có đủ nước."
+        },
+        {
+          "id": 3,
+          "words": [
+            "marine",
+            "coastal",
+            "freshwater",
+            "flow"
+          ],
+          "answer": "flow",
+          "reason": "marine, coastal, and freshwater are adjectives — they describe types of water environments. 'flow' is a verb or noun — it describes the movement of water, not a type of environment.",
+          "reason_vi": "marine, coastal và freshwater đều là tính từ — mô tả loại môi trường nước. 'flow' là động từ hoặc danh từ — mô tả sự chuyển động của nước, không phải loại môi trường."
+        },
+        {
+          "id": 4,
+          "words": [
+            "pollution",
+            "waste",
+            "shortage",
+            "tide"
+          ],
+          "answer": "tide",
+          "reason": "pollution, waste, and shortage are all problems related to water quality or availability. 'tide' is a natural phenomenon — the rise and fall of sea levels, not a problem caused by humans.",
+          "reason_vi": "pollution, waste và shortage đều là vấn đề liên quan đến chất lượng hoặc tình trạng khan hiếm nước. 'tide' là hiện tượng tự nhiên — sự lên xuống của mực nước biển, không phải vấn đề do con người gây ra."
+        },
+        {
+          "id": 5,
+          "words": [
+            "preserve",
+            "protect",
+            "clean water",
+            "flood"
+          ],
+          "answer": "flood",
+          "reason": "preserve, protect, and clean water are all positive goals or outcomes for water management. 'flood' is a disaster — too much water causing damage, not a goal to aim for.",
+          "reason_vi": "preserve, protect và clean water đều là mục tiêu hoặc kết quả tích cực trong quản lý nước. 'flood' là thảm họa — quá nhiều nước gây thiệt hại, không phải mục tiêu cần đạt."
+        },
+        {
+          "id": 6,
+          "words": [
+            "marine",
+            "coastal",
+            "deep water",
+            "waste"
+          ],
+          "answer": "waste",
+          "reason": "marine, coastal, and deep water all describe types or parts of the ocean environment. 'waste' is something that pollutes — material discarded into the water, not a description of it.",
+          "reason_vi": "marine, coastal và deep water đều mô tả loại hoặc phần của môi trường đại dương. 'waste' là thứ gây ô nhiễm — chất thải đổ vào nước, không phải mô tả về nó."
+        },
+        {
+          "id": 7,
+          "words": [
+            "coral",
+            "ocean",
+            "tide",
+            "preserve"
+          ],
+          "answer": "preserve",
+          "reason": "coral, ocean, and tide are all natural parts of the sea environment. 'preserve' is a verb — the action of protecting these things from damage.",
+          "reason_vi": "coral, ocean và tide đều là bộ phận tự nhiên của môi trường biển. 'preserve' là động từ — hành động bảo vệ những thứ này khỏi bị tổn hại."
+        },
+        {
+          "id": 8,
+          "words": [
+            "pollution",
+            "flooding",
+            "drought",
+            "freshwater"
+          ],
+          "answer": "freshwater",
+          "reason": "pollution, flooding, and drought are all environmental problems — things that harm or disrupt water resources. 'freshwater' is a type of water — a resource, not a problem.",
+          "reason_vi": "pollution, flooding và drought đều là vấn đề môi trường — thứ gây hại hoặc làm gián đoạn tài nguyên nước. 'freshwater' là loại nước — tài nguyên, không phải vấn đề."
+        },
+        {
+          "id": 9,
+          "words": [
+            "flow",
+            "preserve",
+            "protect",
+            "clean water"
+          ],
+          "answer": "flow",
+          "reason": "preserve, protect, and clean water are all conservation-related concepts. 'flow' is about movement — the natural or managed movement of water, not a conservation goal.",
+          "reason_vi": "preserve, protect và clean water đều là khái niệm liên quan đến bảo tồn. 'flow' liên quan đến sự chuyển động — chuyển động tự nhiên hoặc có quản lý của nước, không phải mục tiêu bảo tồn."
+        },
+        {
+          "id": 10,
+          "words": [
+            "coral",
+            "marine",
+            "coastal",
+            "shortage"
+          ],
+          "answer": "shortage",
+          "reason": "coral, marine, and coastal are all terms describing natural parts of the ocean. 'shortage' describes a lack of something — it is a human concern, not a feature of the natural sea environment.",
+          "reason_vi": "coral, marine và coastal đều là thuật ngữ mô tả bộ phận tự nhiên của đại dương. 'shortage' mô tả sự thiếu hụt — mối lo ngại của con người, không phải đặc điểm của môi trường biển tự nhiên."
+        }
       ]
     }
   },
   "answer_key": {
-    "ex1": { "1": "True", "2": "True", "3": "False", "4": "True", "5": "True" },
-    "ex2": { "1": "evacuate", "2": "magnitude", "3": "devastated", "4": "relief", "5": "forecast" },
-    "ex3": { "1": "casualties", "2": "infrastructure", "3": "landslide", "4": "drought", "5": "resilience" },
-    "ex4": { "1": "An earthquake occurs when tectonic plates shift.", "2": "People were quickly evacuated from the danger area.", "3": "The earthquake destroyed all roads and bridges.", "4": "Relief organisations provide emergency food and water.", "5": "Communities can recover from natural disasters and grow stronger." },
-    "ex5": { "1": "A", "2": "B", "3": "C", "4": "B", "5": "A" }
+    "ex1": {
+      "1": "True",
+      "2": "True",
+      "3": "False",
+      "4": "True",
+      "5": "True"
+    },
+    "ex2": {
+      "1": "evacuate",
+      "2": "magnitude",
+      "3": "devastated",
+      "4": "relief",
+      "5": "forecast"
+    },
+    "ex3": {
+      "1": "casualties",
+      "2": "infrastructure",
+      "3": "landslide",
+      "4": "drought",
+      "5": "resilience"
+    },
+    "ex4": {
+      "1": "An earthquake occurs when tectonic plates shift.",
+      "2": "People were quickly evacuated from the danger area.",
+      "3": "The earthquake destroyed all roads and bridges.",
+      "4": "Relief organisations provide emergency food and water.",
+      "5": "Communities can recover from natural disasters and grow stronger."
+    },
+    "ex5": {
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "B",
+      "5": "A"
+    }
   }
 }
