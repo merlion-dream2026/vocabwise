@@ -22,6 +22,10 @@ const KID_FAQ = [
     a: 'Cần đủ 2 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nHoàn thành rồi thì chủ đề sẽ hiện 🏆!',
   },
   {
+    q: '⭐ XP là gì? Tính như thế nào?',
+    a: 'XP (điểm kinh nghiệm) được tặng mỗi khi hoàn thành game.\n\nGame khó → nhiều XP hơn:\n🔴 Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round: 2 XP/câu đúng\n🟡 Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa: 1,5 XP/câu\n🟢 Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng: 1 XP/câu\n\nMục tiêu mỗi ngày: đạt 20 XP → thanh XP trên màn hình này sẽ đầy!\n\nXP tích lũy giúp bạn lên cấp: 🌱 → 🔍 → ⚔️ → 📜 → 👑',
+  },
+  {
     q: '📚 Mini Story là gì?',
     a: 'Mỗi chủ đề có 1 câu chuyện ngắn dùng các từ vừa học.\nVào trang chủ đề → cuộn xuống → bấm "Mini Story".\nĐọc chuyện tiếng Anh + tiếng Việt, nghe audio.\nBấm "Làm bài" → điền từ vào chỗ trống trong chuyện!',
   },
@@ -222,6 +226,25 @@ export default function ChildRoadmap() {
                 {!m.done && <span className="text-xs text-gray-400">{m.desc}</span>}
               </div>
             ))}
+          </div>
+
+          {/* Daily XP goal + global streak */}
+          <div className="mt-3 pt-3 border-t border-purple-100/60 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-gray-500">⭐ XP hôm nay</span>
+              <span className={`text-xs font-black ${xpGoalDone ? 'text-green-600' : 'text-gray-600'}`}>
+                {todayXP}/{DAILY_XP_GOAL} XP {xpGoalDone ? '✅' : ''}
+              </span>
+            </div>
+            <div className="h-2 bg-white/60 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all duration-500 ${xpGoalDone ? 'bg-gradient-to-r from-green-400 to-emerald-400' : 'bg-gradient-to-r from-purple-400 to-pink-400'}`}
+                style={{ width: `${Math.max(xpPct, todayXP > 0 ? 3 : 0)}%` }}
+              />
+            </div>
+            {globalStreak > 0 && (
+              <p className="text-xs font-bold text-orange-500">🔥 Streak {globalStreak} ngày liên tiếp</p>
+            )}
           </div>
         </div>
       </div>
