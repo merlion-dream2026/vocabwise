@@ -779,8 +779,8 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
         >
           <span className="text-3xl">⚔️</span>
           <div className="flex-1 text-left">
-            <p className="text-white font-black text-base leading-tight">Sibling Battle</p>
-            <p className="text-white/80 text-sm font-semibold">Xem ai học nhiều hơn tuần này!</p>
+            <p className="text-white font-black text-base leading-tight">Bảng Thành Tích</p>
+            <p className="text-white/80 text-sm font-semibold">Mỗi bé học được bao nhiêu?</p>
           </div>
           <span className="text-white/80 font-black text-lg">→</span>
         </button>
@@ -800,7 +800,7 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
           <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
               <p className="text-4xl mb-1">⚔️</p>
-              <h2 className="text-white font-black text-xl">Sibling Battle</h2>
+              <h2 className="text-white font-black text-xl">Bảng Thành Tích</h2>
               <p className="text-white/80 text-sm font-semibold mt-0.5">7 ngày gần nhất</p>
             </div>
             <div className="p-5 space-y-3">
