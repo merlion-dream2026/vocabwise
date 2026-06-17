@@ -107,12 +107,12 @@ export default function BangThanhTich({ entries, variant = 'dashboard' }: Props)
                 {period === 'today' ? 'Học hôm nay' : `${days} ngày gần nhất`}
               </p>
               {/* Period pills */}
-              <div className="flex gap-1.5 justify-center mt-3 flex-wrap">
+              <div className="flex gap-1 justify-center mt-3">
                 {PERIODS.map(p => (
                   <button
                     key={p.key}
                     onClick={() => setPeriod(p.key)}
-                    className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
+                    className={`px-2.5 py-1 rounded-full text-xs font-bold transition-colors whitespace-nowrap ${
                       period === p.key
                         ? 'bg-white text-purple-600'
                         : 'bg-white/20 text-white hover:bg-white/30'
