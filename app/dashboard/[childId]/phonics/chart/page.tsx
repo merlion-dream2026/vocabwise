@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import phonemesData from '@/data/phonemes.json'
 import { initPhonicsSync, isPairSeen, isPairMastered } from '@/lib/phonicsSync'
@@ -55,32 +55,32 @@ function PhonemeCell({
 
   const isTwoPartCombo = sym === 'tʃ' || sym === 'dʒ'
   const isMultiChar = sym.length > 1
-  const fontSizeCls = isTwoPartCombo ? 'text-[10px]' : isMultiChar ? 'text-[11px]' : 'text-sm'
+  const symFontCls = isTwoPartCombo ? 'text-[11px]' : isMultiChar ? 'text-[13px]' : 'text-base'
 
   let containerCls = 'bg-gray-50 border-gray-200'
-  let symCls = 'text-gray-500'
-  let kwCls = 'text-gray-300'
+  let symCls = 'text-gray-600'
+  let kwCls = 'text-gray-400'
 
   if (entry?.mastered) {
     containerCls = 'bg-amber-400 border-amber-500'
     symCls = 'text-white'
-    kwCls = 'text-white/70'
+    kwCls = 'text-white/80'
   } else if (entry?.seen) {
     containerCls = 'bg-indigo-100 border-indigo-300'
     symCls = 'text-indigo-700'
-    kwCls = 'text-indigo-400'
+    kwCls = 'text-indigo-500'
   }
 
   return (
     <button
       onClick={onTap}
-      className={`border-2 rounded-lg flex flex-col items-center justify-center aspect-square w-full transition-all duration-100 active:scale-90 ${containerCls} ${isPlaying ? 'ring-2 ring-blue-400 ring-offset-1 scale-110 shadow-md z-10 relative' : ''}`}
+      className={`border-2 rounded-lg flex flex-col items-center justify-center py-1 w-full transition-all duration-100 active:scale-90 ${containerCls} ${isPlaying ? 'ring-2 ring-blue-400 ring-offset-1 scale-110 shadow-md z-10 relative' : ''}`}
     >
-      <span className={`font-black font-mono leading-none ${symCls} ${fontSizeCls}`}>
+      <span className={`font-black font-mono leading-none ${symCls} ${symFontCls}`}>
         {sym}
       </span>
       {entry && (
-        <span className={`text-[7px] font-semibold leading-none mt-0.5 truncate w-full text-center px-0.5 ${kwCls}`}>
+        <span className={`text-[9px] font-semibold leading-tight mt-0.5 truncate w-full text-center px-0.5 ${kwCls}`}>
           {entry.sound.keyword}
         </span>
       )}
@@ -94,24 +94,28 @@ export default function IPAChartPage() {
   const [soundMap, setSoundMap] = useState<Record<string, SoundEntry>>({})
   const [loading, setLoading] = useState(true)
   const [playing, setPlaying] = useState<string | null>(null)
+  // Ref so handleTap always reads the latest map without stale closure
+  const soundMapRef = useRef<Record<string, SoundEntry>>({})
 
   useEffect(() => {
     fetch(`/api/sync/${childId}?level=phonics`)
       .then(r => r.json()).catch(() => null)
       .then(data => {
         initPhonicsSync(childId, data)
-        setSoundMap(buildSoundMap())
+        const map = buildSoundMap()
+        soundMapRef.current = map
+        setSoundMap(map)
         setLoading(false)
       })
   }, [childId])
 
-  const handleTap = useCallback((symbol: string) => {
-    if (!symbol || playing) return
-    const entry = soundMap[symbol]
+  const handleTap = (symbol: string) => {
+    if (!symbol) return
+    const entry = soundMapRef.current[symbol]
     if (!entry) return
     setPlaying(symbol)
     playPhoneme(entry.sound, { thenKeyword: true, onDone: () => setPlaying(null) })
-  }, [soundMap, playing])
+  }
 
   if (loading) return (
     <div className="min-h-screen bg-indigo-50 flex items-center justify-center">
