@@ -252,6 +252,9 @@ export default function LessonPage() {
           </div>
         </div>
 
+        {/* Knowledge article — always shown below progress */}
+        <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
+
         {/* PAIR LESSON: sounds + practice */}
         {pairLesson && (
           <>
@@ -290,9 +293,6 @@ export default function LessonPage() {
                 </p>
               </div>
             )}
-
-            {/* Knowledge article */}
-            <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
 
             {/* Practice words */}
             <div>
@@ -341,13 +341,10 @@ export default function LessonPage() {
                 })}
               </div>
             </div>
-            {/* Knowledge article for rule lessons */}
-            <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
           </>
         )}
 
         {/* RHYTHM LESSON: sentence preview */}
-        {lesson.type === 'rhythm' && <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />}
         {lesson.type === 'rhythm' && (
           <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
             <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>

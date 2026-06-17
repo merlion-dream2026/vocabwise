@@ -38,7 +38,7 @@
               "emoji": "🌳",
               "vi": "cây",
               "wikiAudio": "/audio/phonemes/american/PHONEME-GREEN.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-GREEN.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ɪ",
@@ -46,7 +46,7 @@
               "emoji": "🐟",
               "vi": "cá",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PINK.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PINK.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -125,7 +125,7 @@
               "emoji": "🌕",
               "vi": "mặt trăng",
               "wikiAudio": "/audio/phonemes/american/PHONEME-BLUE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-BLUE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ʊ",
@@ -133,7 +133,7 @@
               "emoji": "📖",
               "vi": "sách",
               "wikiAudio": "/audio/phonemes/american/PHONEME-WOOD.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-WOOD.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -207,7 +207,7 @@
               "emoji": "🚗",
               "vi": "xe hơi",
               "wikiAudio": "/audio/phonemes/american/PHONEME-COFFEE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-COFFEE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ʌ",
@@ -295,7 +295,7 @@
               "emoji": "⚽",
               "vi": "quả bóng",
               "wikiAudio": "/audio/phonemes/american/PHONEME-MAUVE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-MAUVE.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -370,7 +370,7 @@
               "emoji": "🛏️",
               "vi": "cái giường",
               "wikiAudio": "/audio/phonemes/american/PHONEME-RED.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-RED.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "æ",
@@ -378,7 +378,7 @@
               "emoji": "👜",
               "vi": "cái túi",
               "wikiAudio": "/audio/phonemes/american/PHONEME-SAND.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-SAND.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -453,7 +453,7 @@
               "emoji": "🐦",
               "vi": "con chim",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PURPLE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PURPLE.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -528,7 +528,7 @@
               "emoji": "💬",
               "vi": "schwa — âm trung tâm",
               "wikiAudio": "/audio/phonemes/american/PHONEME-DUST.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-DUST.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -651,7 +651,7 @@
               "emoji": "☀️",
               "vi": "ngày",
               "wikiAudio": "/audio/phonemes/american/PHONEME-JADE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-JADE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "aɪ",
@@ -659,7 +659,7 @@
               "emoji": "✈️",
               "vi": "bay",
               "wikiAudio": "/audio/phonemes/american/PHONEME-LIME.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-LIME.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -735,7 +735,7 @@
               "emoji": "🏃",
               "vi": "đi",
               "wikiAudio": "/audio/phonemes/american/PHONEME-GOLD.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-GOLD.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "aʊ",
@@ -743,7 +743,7 @@
               "emoji": "🐮",
               "vi": "con bò",
               "wikiAudio": "/audio/phonemes/american/PHONEME-BROWN.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-BROWN.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -816,7 +816,7 @@
               "emoji": "👦",
               "vi": "bé trai",
               "wikiAudio": "/audio/phonemes/american/PHONEME-TURQUOISE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-TURQUOISE.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1069,7 +1069,7 @@
               "emoji": "🍳",
               "vi": "cái chảo",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PIG.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PIG.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "b",
@@ -1077,7 +1077,7 @@
               "emoji": "🚫",
               "vi": "cấm",
               "wikiAudio": "/audio/phonemes/american/PHONEME-BEAR.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-BEAR.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1153,7 +1153,7 @@
               "emoji": "🔢",
               "vi": "mười",
               "wikiAudio": "/audio/phonemes/american/PHONEME-TURTLE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-TURTLE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "d",
@@ -1161,7 +1161,7 @@
               "emoji": "🏠",
               "vi": "cái hang",
               "wikiAudio": "/audio/phonemes/american/PHONEME-DOG.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-DOG.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1238,7 +1238,7 @@
               "emoji": "🐱",
               "vi": "con mèo",
               "wikiAudio": "/audio/phonemes/american/PHONEME-CAT.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-CAT.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "g",
@@ -1246,7 +1246,7 @@
               "emoji": "🐐",
               "vi": "con dê",
               "wikiAudio": "/audio/phonemes/american/PHONEME-GOAT.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-GOAT.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1323,7 +1323,7 @@
               "emoji": "🌀",
               "vi": "cái quạt",
               "wikiAudio": "/audio/phonemes/american/PHONEME-FROG.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-FROG.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "v",
@@ -1331,7 +1331,7 @@
               "emoji": "🚐",
               "vi": "xe van",
               "wikiAudio": "/audio/phonemes/american/PHONEME-BEAVER.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-BEAVER.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1408,7 +1408,7 @@
               "emoji": "💭",
               "vi": "suy nghĩ",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PANTHER.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PANTHER.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ð",
@@ -1416,7 +1416,7 @@
               "emoji": "👆",
               "vi": "cái này",
               "wikiAudio": "/audio/phonemes/american/PHONEME-FEATHER.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-FEATHER.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1496,7 +1496,7 @@
               "emoji": "☀️",
               "vi": "mặt trời",
               "wikiAudio": "/audio/phonemes/american/PHONEME-SNAKE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-SNAKE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "z",
@@ -1504,7 +1504,7 @@
               "emoji": "🦁",
               "vi": "vườn thú",
               "wikiAudio": "/audio/phonemes/american/PHONEME-ZEBRA.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-ZEBRA.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1580,7 +1580,7 @@
               "emoji": "🚢",
               "vi": "con tàu",
               "wikiAudio": "/audio/phonemes/american/PHONEME-SHEEP.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-SHEEP.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ʒ",
@@ -1588,7 +1588,7 @@
               "emoji": "📏",
               "vi": "đo lường",
               "wikiAudio": "/audio/phonemes/american/PHONEME-TELEVISION.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-TELEVISION.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1666,7 +1666,7 @@
               "emoji": "🪑",
               "vi": "cái ghế",
               "wikiAudio": "/audio/phonemes/american/PHONEME-CHICKEN.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-CHICKEN.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "dʒ",
@@ -1674,7 +1674,7 @@
               "emoji": "🏃",
               "vi": "nhảy",
               "wikiAudio": "/audio/phonemes/american/PHONEME-GIRAFFE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-GIRAFFE.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1764,7 +1764,7 @@
               "emoji": "🗺️",
               "vi": "bản đồ",
               "wikiAudio": "/audio/phonemes/american/PHONEME-MOUSE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-MOUSE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "n",
@@ -1772,7 +1772,7 @@
               "emoji": "😴",
               "vi": "ngủ trưa",
               "wikiAudio": "/audio/phonemes/american/PHONEME-DINOSAUR.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-DINOSAUR.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "ŋ",
@@ -1780,7 +1780,7 @@
               "emoji": "💍",
               "vi": "cái nhẫn",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PENGUIN.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PENGUIN.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -1859,7 +1859,7 @@
               "emoji": "🎩",
               "vi": "cái mũ",
               "wikiAudio": "/audio/phonemes/american/PHONEME-HORSE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-HORSE.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "w",
@@ -1867,7 +1867,7 @@
               "emoji": "💧",
               "vi": "ướt",
               "wikiAudio": "/audio/phonemes/american/PHONEME-WOLF.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-WOLF.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "j",
@@ -1875,7 +1875,7 @@
               "emoji": "✅",
               "vi": "có",
               "wikiAudio": "/audio/phonemes/american/PHONEME-YAK.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-YAK.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -2151,7 +2151,7 @@
               "emoji": "🏞️",
               "vi": "hồ nước",
               "wikiAudio": "/audio/phonemes/american/PHONEME-LION.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-LION.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "r",
@@ -2159,7 +2159,7 @@
               "emoji": "🌾",
               "vi": "cái cào",
               "wikiAudio": "/audio/phonemes/american/PHONEME-RABBIT.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-RABBIT.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -2236,7 +2236,7 @@
               "emoji": "3️⃣",
               "vi": "ba",
               "wikiAudio": "/audio/phonemes/american/PHONEME-PANTHER.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-PANTHER.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "s",
@@ -2244,7 +2244,7 @@
               "emoji": "🌊",
               "vi": "biển",
               "wikiAudio": "/audio/phonemes/american/PHONEME-SNAKE.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-SNAKE.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
@@ -2325,7 +2325,7 @@
               "emoji": "🚐",
               "vi": "xe van",
               "wikiAudio": "/audio/phonemes/american/PHONEME-BEAVER.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-BEAVER.mp3"
+              "learnAudio": null
             },
             {
               "symbol": "w",
@@ -2333,7 +2333,7 @@
               "emoji": "💧",
               "vi": "ướt",
               "wikiAudio": "/audio/phonemes/american/PHONEME-WOLF.mp3",
-              "learnAudio": "/audio/phonemes/american/NORMAL-WOLF.mp3"
+              "learnAudio": null
             }
           ],
           "practice_words": [
