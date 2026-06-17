@@ -231,7 +231,7 @@ export default function IPAChartPage() {
         </div>
 
         <p className="text-center text-[10px] text-gray-300 pb-2">
-          Audio: Wikimedia Commons CC BY-SA
+          Phoneme audio: americanipachart.com · Alan Adelberg
         </p>
       </div>
     </div>

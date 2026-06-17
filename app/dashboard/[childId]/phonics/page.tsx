@@ -216,7 +216,7 @@ export default function PhonicsHub() {
         </div>
 
         <p className="text-center text-xs text-gray-300 pt-2">
-          Phoneme audio: <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer" className="underline">Wikimedia Commons</a> CC BY-SA
+          Phoneme audio: americanipachart.com · Alan Adelberg
         </p>
       </div>
     </div>
