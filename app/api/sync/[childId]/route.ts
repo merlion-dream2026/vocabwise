@@ -29,6 +29,8 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
 
   const level = new URL(req.url).searchParams.get('level')
 
+  const cacheHeaders = { 'Cache-Control': 'private, max-age=10, stale-while-revalidate=30' }
+
   if (level) {
     const { data } = await supabase
       .from('vocab_sync')
@@ -36,7 +38,7 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
       .eq('child_id', params.childId)
       .eq('level', level)
       .single()
-    return NextResponse.json(data ?? null)
+    return NextResponse.json(data ?? null, { headers: cacheHeaders })
   }
 
   // No level param → return all levels as { [level]: syncData }
@@ -50,7 +52,7 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
     const { level: lvl, ...rest } = row
     byLevel[lvl] = rest
   }
-  return NextResponse.json(byLevel)
+  return NextResponse.json(byLevel, { headers: cacheHeaders })
 }
 
 // POST /api/sync/[childId] — push sync data for a specific level

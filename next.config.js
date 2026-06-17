@@ -24,8 +24,25 @@ const securityHeaders = [
 ]
 
 const nextConfig = {
+  poweredByHeader: false,
+  compress: true,
   async headers() {
-    return [{ source: '/(.*)', headers: securityHeaders }]
+    return [
+      {
+        source: '/(.*)',
+        headers: securityHeaders,
+      },
+      {
+        // Long-lived cache for immutable static assets (Next.js/_next/static)
+        source: '/_next/static/(.*)',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      },
+      {
+        // Cache audio files — content never changes for a given filename
+        source: '/audio/(.*)',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }],
+      },
+    ]
   },
 }
 

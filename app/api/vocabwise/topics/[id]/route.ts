@@ -61,5 +61,5 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     exercises:   exercisesData,
     answerKey,
     exTypes,
-  })
+  }, { headers: { 'Cache-Control': 'private, max-age=300, stale-while-revalidate=3600' } })
 }

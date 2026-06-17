@@ -29,20 +29,17 @@ export async function GET() {
   for (const row of configs ?? []) configMap[row.key] = parseInt(row.value)
   const globalDefault = data.plan === 'free' ? (configMap.free_max_kids ?? 1) : (configMap.pro_max_kids ?? 3)
 
-  // 2B: Release signup rewards đã đủ 24h (lazy check mỗi lần load dashboard)
-  // Nếu có reward mới → cập nhật bonus_pro_expires_at trong response
-  let bonusProExpiresAt = data.bonus_pro_expires_at ?? null
-  const released = await releasePendingSignupRewards(session.familyId, bonusProExpiresAt)
-  if (released) bonusProExpiresAt = released
+  // 2B: Release signup rewards — fire-and-forget, không block response
+  releasePendingSignupRewards(session.familyId, data.bonus_pro_expires_at ?? null).catch(() => {})
 
   return NextResponse.json({
     ...session,
     plan: data.plan,
     free_trial_expires_at: data.free_trial_expires_at ?? null,
     plan_end_date: data.plan_end_date ?? null,
-    bonus_pro_expires_at: bonusProExpiresAt,
+    bonus_pro_expires_at: data.bonus_pro_expires_at ?? null,
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
     max_kids: data.max_kids ?? globalDefault,
-  })
+  }, { headers: { 'Cache-Control': 'private, max-age=30, stale-while-revalidate=60' } })
 }
