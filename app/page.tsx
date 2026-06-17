@@ -16,8 +16,8 @@ const SECTIONS = [
   },
   {
     emoji: '📚',
-    title: 'VocabWise Kids',
-    badge: 'Trẻ em · 4–15 tuổi',
+    title: 'VocabWise Daily',
+    badge: '5–15 tuổi',
     badgeCls: 'bg-purple-100 text-purple-700',
     desc: '4.500+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
     available: true,
@@ -51,14 +51,13 @@ const MODULE_CARDS = [
       { icon: '🔊', text: 'Nghe phát âm chuẩn từ native speaker' },
       { icon: '🤖', text: 'AI chấm phát âm ngay lập tức — biết sai biết đúng' },
       { icon: '🎮', text: '3 game/nhóm âm: Phân biệt · Chọn hình · Luyện đọc' },
-      { icon: '🌍', text: 'Phù hợp mọi lứa tuổi — từ bé đến người đi làm' },
     ],
   },
   {
     emoji: '📚',
-    title: 'VocabWise Kids',
-    subtitle: 'Từ vựng cho trẻ em',
-    badge: '4–15 tuổi',
+    title: 'VocabWise Daily',
+    subtitle: 'Từ vựng hàng ngày: cơ bản đến nâng cao',
+    badge: '5–15 tuổi',
     gradient: 'from-purple-500 to-pink-500',
     bgLight: 'from-purple-50 to-pink-50',
     border: 'border-purple-200',
@@ -68,7 +67,6 @@ const MODULE_CARDS = [
       { icon: '📖', text: '4.500+ từ vựng chọn lọc, 30 chủ đề/cấp độ' },
       { icon: '🎮', text: '10 trò chơi tương tác: Flashcard · Nghe · Đánh vần...' },
       { icon: '🎵', text: 'Mini story audio — nghe chuyện có chứa từ vựng' },
-      { icon: '🔥', text: 'Streak · XP · Huy hiệu — tạo thói quen học mỗi ngày' },
     ],
   },
   {
@@ -85,7 +83,6 @@ const MODULE_CARDS = [
       { icon: '📄', text: 'Passage ngữ cảnh + glossary song ngữ Việt–Anh' },
       { icon: '✏️', text: '8 loại bài tập: MCQ · Gap Fill · TFNG · Word Forms...' },
       { icon: '🎯', text: 'Kiểm tra cấp độ tự động — tìm đúng level chỉ 2 phút' },
-      { icon: '🏆', text: 'Chuẩn format IELTS/SAT — luyện đúng dạng thi thật' },
     ],
   },
   {
@@ -102,7 +99,6 @@ const MODULE_CARDS = [
       { icon: '🔥', text: 'Theo dõi streak, XP, cấp độ từng bé mỗi ngày' },
       { icon: '🏆', text: 'Huy hiệu thành tích — bé phấn đấu, ba mẹ tự hào' },
       { icon: '📋', text: 'Danh sách từ yếu cần ôn — app tự nhắc đúng lúc' },
-      { icon: '📧', text: 'Báo cáo tiến độ email hàng tuần (gói Pro 3/6 tháng)' },
     ],
   },
 ]
@@ -110,7 +106,7 @@ const MODULE_CARDS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Kids — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 4–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module Phonics là gì?',
@@ -126,7 +122,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
-    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Kids: dành cho bé 4–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Phonics: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
+    a: 'VocabWise phục vụ 3 nhóm người học:\n\n📚 VocabWise Daily: dành cho bé 5–15 tuổi. Level Seeker (Pre-A1) cho bé mới bắt đầu, đến Master (C1-C2) cho bé nâng cao.\n\n🎤 Phonics: phù hợp mọi lứa tuổi — từ bé học phát âm cơ bản đến người lớn muốn hoàn thiện IPA.\n\n🎓 VocabWise Academic: dành cho học sinh cấp 2, cấp 3, sinh viên và người đi làm luyện từ vựng học thuật IELTS/SAT — 3 books · 180 chủ đề · A1–C2.',
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
@@ -147,14 +143,14 @@ const FAQ_ITEMS = [
 ]
 
 const FEATURES = [
-  { emoji: '🌱', label: '6 cấp độ', desc: 'Pre-A1 → C1-C2 (Seeker → Master)' },
-  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR' },
-  { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...' },
-  { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay!' },
-  { emoji: '🔤', label: 'Học phát âm IPA', desc: 'Nguyên âm, phụ âm, minimal pairs theo chuẩn Cambridge' },
-  { emoji: '📅', label: 'Ôn tập thông minh', desc: 'App tự nhắc từ chưa thuộc đúng lúc' },
-  { emoji: '📊', label: 'Dashboard phụ huynh', desc: 'Theo dõi streak, XP, tiến độ' },
-  { emoji: '📲', label: 'Không cài app · Tự cập nhật', desc: 'Chạy như app thật trên iPhone, Android, iPad, PC — luôn phiên bản mới nhất, không cần lên App Store', wide: true },
+  { emoji: '🌱', label: '6 cấp độ', desc: 'Pre-A1 → C1-C2 (Seeker → Master)', color: 'border-green-200' },
+  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR', color: 'border-blue-200' },
+  { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...', color: 'border-orange-200' },
+  { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay!', color: 'border-pink-200' },
+  { emoji: '🔤', label: 'Học phát âm IPA', desc: 'Nguyên âm, phụ âm, minimal pairs theo chuẩn Cambridge', color: 'border-teal-200' },
+  { emoji: '📅', label: 'Ôn tập thông minh', desc: 'App tự nhắc từ chưa thuộc đúng lúc', color: 'border-indigo-200' },
+  { emoji: '📊', label: 'Dashboard phụ huynh', desc: 'Theo dõi streak, XP, tiến độ', color: 'border-amber-200' },
+  { emoji: '📲', label: 'Không cài app · Tự cập nhật', desc: 'Dùng như app thật trên mọi thiết bị — không cần cài đặt, tự động cập nhật', color: 'border-sky-200' },
 ]
 
 const SCREENSHOTS = [
@@ -311,7 +307,7 @@ export default function LandingPage() {
 
       {/* CTA buttons */}
       <div className="max-w-6xl mx-auto px-4 pb-8 text-center">
-        <div className="flex flex-row gap-3 justify-center mb-3">
+        <div className="flex flex-row gap-3 justify-center">
           <Link href="/register"
             className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
             🚀 Dùng thử miễn phí
@@ -320,11 +316,6 @@ export default function LandingPage() {
             className="bg-white text-gray-500 font-black text-sm px-5 py-2.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
             ⭐ Xem gói Pro
           </button>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-2">
-          <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full">✅ Không cần cài app</span>
-          <span className="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1.5 rounded-full">🔄 Tự động cập nhật</span>
-          <span className="bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1.5 rounded-full">📲 Dùng như app thật</span>
         </div>
       </div>
 
@@ -409,54 +400,10 @@ export default function LandingPage() {
         </div>
       )}
 
-      {/* Features */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {FEATURES.map(f => (
-            <div key={f.label} className={`bg-white rounded-2xl p-4 shadow-sm border border-white${'wide' in f && f.wide ? ' col-span-2 md:col-span-4 flex items-center gap-4' : ''}`}>
-              <div className={`text-3xl${'wide' in f && f.wide ? ' flex-shrink-0' : ' mb-2'}`}>{f.emoji}</div>
-              <div>
-                <p className="font-black text-gray-800 text-sm">{f.label}</p>
-                <p className="text-gray-400 text-xs mt-0.5 leading-snug">{f.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* How it works */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {STEPS.map(s => (
-            <div key={s.n} className="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg flex-shrink-0">{s.n}</div>
-              <div>
-                <p className="font-black text-gray-800 text-sm">{s.emoji} {s.title}</p>
-                <p className="text-gray-400 text-xs mt-0.5">{s.desc}</p>
-              </div>
-            </div>
-          ))}
-          {/* Parental involvement tip */}
-          <div className="md:col-span-2 bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start">
-            <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
-            <div>
-              <p className="font-black text-amber-800 text-sm">Lời khuyên từ người tạo ra app</p>
-              <p className="text-amber-700 text-xs mt-1 leading-relaxed">
-                Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Screenshots carousel */}
       <div className="max-w-6xl mx-auto pb-12">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng tính năng</h2>
         <p className="text-gray-400 text-sm text-center mb-5 px-4">Screenshots thực tế từ app · Không chỉnh sửa</p>
-        {/* Carousel — mobile scroll, desktop shows ~5-6 at once */}
         <div className="flex gap-4 overflow-x-auto pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {SCREENSHOTS.map((s, i) => (
             <button key={i} onClick={() => setActiveScreenshot(s)}
@@ -475,6 +422,22 @@ export default function LandingPage() {
           ))}
         </div>
         <p className="text-center text-xs text-gray-300 px-4">← Vuốt để xem tất cả {SCREENSHOTS.length} màn hình →</p>
+      </div>
+
+      {/* Features */}
+      <div className="max-w-6xl mx-auto px-4 pb-10">
+        <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {FEATURES.map(f => (
+            <div key={f.label} className={`bg-white rounded-2xl p-4 shadow-sm border-2 ${f.color}`}>
+              <div className="text-3xl mb-2">{f.emoji}</div>
+              <div>
+                <p className="font-black text-gray-800 text-sm">{f.label}</p>
+                <p className="text-gray-400 text-xs mt-0.5 leading-snug">{f.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Pricing */}
@@ -563,15 +526,38 @@ export default function LandingPage() {
             ))}
           </div>
         </div>
+      </div>
 
-        <p className="text-center text-xs text-gray-400 mt-3">
-          Thanh toán chuyển khoản · Kích hoạt trong 12h · Dữ liệu không mất khi hết hạn
-        </p>
+      {/* How it works */}
+      <div className="max-w-6xl mx-auto px-4 pb-10">
+        <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
+        <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {STEPS.map(s => (
+            <div key={s.n} className="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg flex-shrink-0">{s.n}</div>
+              <div>
+                <p className="font-black text-gray-800 text-sm">{s.emoji} {s.title}</p>
+                <p className="text-gray-400 text-xs mt-0.5">{s.desc}</p>
+              </div>
+            </div>
+          ))}
+          {/* Parental involvement tip */}
+          <div className="md:col-span-2 bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start">
+            <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
+            <div>
+              <p className="font-black text-amber-800 text-sm">Lời khuyên từ người tạo ra app</p>
+              <p className="text-amber-700 text-xs mt-1 leading-relaxed">
+                Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Founder trust */}
       <div className="max-w-6xl mx-auto px-4 pb-10">
-        <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100 flex gap-4 items-start">
+        <div className="bg-white rounded-3xl p-6 shadow-sm border-2 border-purple-200 flex gap-4 items-start">
           <div className="text-4xl flex-shrink-0">👨‍🏫</div>
           <div>
             <p className="font-black text-gray-800 text-sm mb-1">Được thiết kế bởi Thầy Andie Nguyễn</p>
@@ -592,7 +578,7 @@ export default function LandingPage() {
         <div className="space-y-3">
           {FAQ_ITEMS.map((item) => (
             <details key={item.q} className="bg-white rounded-2xl shadow-sm border border-gray-100 group">
-              <summary className="px-5 py-4 font-black text-gray-800 text-sm cursor-pointer list-none flex items-center justify-between gap-3">
+              <summary className="px-5 py-4 font-medium text-gray-800 text-sm cursor-pointer list-none flex items-center justify-between gap-3">
                 {item.q}
                 <span className="text-purple-400 text-lg flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
               </summary>
