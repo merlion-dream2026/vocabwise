@@ -10,6 +10,7 @@ import {
   getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
+import BangThanhTich from '@/components/BangThanhTich'
 
 type Child = {
   id: string; name: string; emoji: string; level: string
@@ -33,39 +34,6 @@ const THEME_CONFIG: Record<string, {
   pink: { gradient: 'from-pink-400 to-rose-400',  bg: 'bg-gradient-to-br from-pink-50 to-rose-50',  border: 'border-pink-200',  text: 'text-pink-600',  btn: 'bg-pink-500 hover:bg-pink-600',  badge: 'bg-pink-100 text-pink-700'  },
   blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
 }
-
-// ── Sibling Battle ────────────────────────────────────────────
-const BATTLE_PERIODS = [
-  { key: 'today', label: 'Hôm nay', days: 1  },
-  { key: '3d',    label: '3 ngày',  days: 3  },
-  { key: '7d',    label: '7 ngày',  days: 7  },
-  { key: '14d',   label: '14 ngày', days: 14 },
-  { key: '30d',   label: '30 ngày', days: 30 },
-] as const
-type BattlePeriod = typeof BATTLE_PERIODS[number]['key']
-type SyncCache = Record<string, Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }>>
-
-function computeBattleResults(
-  kids: Child[],
-  cache: SyncCache,
-  days: number
-): Array<{ child: Child; words: number; games: number; xp: number }> {
-  const keys = Array.from({ length: days }, (_, i) => {
-    const d = new Date(); d.setDate(d.getDate() - i)
-    return d.toISOString().split('T')[0]
-  })
-  return kids.map(child => {
-    let words = 0, games = 0, xp = 0
-    for (const lvl of Object.values(cache[child.id] ?? {})) {
-      for (const key of keys) {
-        const h = lvl?.history?.[key]
-        if (h) { words += h.words ?? 0; games += h.games ?? 0; xp += h.xp ?? 0 }
-      }
-    }
-    return { child, words, games, xp }
-  }).sort((a, b) => b.xp - a.xp)
-}
-// ─────────────────────────────────────────────────────────────
 
 // ── Local helpers ────────────────────────────────────────────
 function MiniBar({ value, max, gradient }: { value: number; max: number; gradient: string }) {
@@ -109,39 +77,9 @@ export default function HomePage() {
   const [forgotUsername, setForgotUsername] = useState('')
   const [forgotState, setForgotState] = useState<'idle' | 'loading' | 'sent'>('idle')
 
-  const [battleOpen, setBattleOpen] = useState(false)
-  const [battleData, setBattleData] = useState<Array<{ child: Child; words: number; games: number; xp: number }>>([])
-  const [battleLoading, setBattleLoading] = useState(false)
-  const [battlePeriod, setBattlePeriod] = useState<BattlePeriod>('7d')
-  const [battleSyncCache, setBattleSyncCache] = useState<SyncCache>({})
   const [syncMap, setSyncMap] = useState<Record<string, SyncAllLevels>>({})
 
   useExpiryGuard(session)
-
-  async function openBattle() {
-    setBattleOpen(true)
-    if (Object.keys(battleSyncCache).length > 0) {
-      setBattleData(computeBattleResults(children, battleSyncCache, BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days))
-      return
-    }
-    setBattleLoading(true)
-    const fetched = await Promise.all(children.map(async child => ({
-      id: child.id,
-      data: await fetch(`/api/sync/${child.id}`).then(r => r.json()).catch(() => ({})) as SyncCache[string],
-    })))
-    const cache: SyncCache = {}
-    for (const { id, data } of fetched) cache[id] = data
-    setBattleSyncCache(cache)
-    setBattleData(computeBattleResults(children, cache, BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days))
-    setBattleLoading(false)
-  }
-
-  function changeBattlePeriod(period: BattlePeriod) {
-    setBattlePeriod(period)
-    if (Object.keys(battleSyncCache).length > 0) {
-      setBattleData(computeBattleResults(children, battleSyncCache, BATTLE_PERIODS.find(p => p.key === period)!.days))
-    }
-  }
 
   async function logout() {
     await fetch('/api/auth/logout', { method: 'POST' })
@@ -417,127 +355,12 @@ export default function HomePage() {
         )}
       </div>
 
-      {/* Sibling Battle (if 2+ children) */}
-      {children.length >= 2 && (
-        <button
-          onClick={openBattle}
-          className="w-full max-w-sm mt-6 bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl p-4 flex items-center gap-4 shadow-lg active:scale-95 transition-transform"
-        >
-          <span className="text-4xl">⚔️</span>
-          <div className="flex-1 text-left">
-            <p className="text-white font-black text-lg leading-tight">Bảng Thành Tích</p>
-            <p className="text-white/80 text-sm font-semibold">Mỗi bé học được bao nhiêu?</p>
-          </div>
-          <span className="text-white/80 font-black text-lg">→</span>
-        </button>
-      )}
-
-      {/* Sibling Battle modal */}
-      {battleOpen && (
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-end justify-center px-4 pb-4 sm:items-center" onClick={() => setBattleOpen(false)}>
-          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
-            {/* Header */}
-            <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
-              <p className="text-4xl mb-1">⚔️</p>
-              <h2 className="text-white font-black text-xl">Bảng Thành Tích</h2>
-              <p className="text-white/80 text-sm font-semibold mt-0.5">
-                {battlePeriod === 'today' ? 'Học hôm nay' : `${BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days} ngày gần nhất`}
-              </p>
-              {/* Period pills */}
-              <div className="flex gap-1.5 justify-center mt-3 flex-wrap">
-                {BATTLE_PERIODS.map(p => (
-                  <button
-                    key={p.key}
-                    onClick={() => changeBattlePeriod(p.key)}
-                    className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                      battlePeriod === p.key
-                        ? 'bg-white text-purple-600'
-                        : 'bg-white/20 text-white hover:bg-white/30'
-                    }`}
-                  >
-                    {p.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="p-5 space-y-3">
-              {battleLoading ? (
-                <div className="text-center py-8 text-3xl animate-pulse">⏳</div>
-              ) : (
-                <>
-                  {(() => {
-                    const maxXp = Math.max(...battleData.map(d => d.xp), 1)
-                    const medals = ['🥇', '🥈', '🥉']
-                    const allZero = battleData.every(d => d.xp === 0)
-                    const topXp = battleData[0]?.xp ?? 0
-                    const isTie = battleData.filter(d => d.xp === topXp).length > 1 && topXp > 0
-
-                    return (
-                      <>
-                        {isTie && (
-                          <div className="text-center bg-yellow-50 rounded-2xl py-2 px-4 text-sm font-bold text-yellow-700">
-                            🤝 Hai bé đang hòa nhau!
-                          </div>
-                        )}
-                        {allZero && (
-                          <div className="text-center bg-purple-50 rounded-2xl py-2 px-4 text-sm font-bold text-purple-600">
-                            🌱 {battlePeriod === 'today'
-                              ? 'Chưa ai học hôm nay'
-                              : `Chưa ai học trong ${BATTLE_PERIODS.find(p => p.key === battlePeriod)!.days} ngày qua`
-                            } — bắt đầu thôi!
-                          </div>
-                        )}
-                        {battleData.map((d, i) => {
-                          const barPct = maxXp > 0 ? Math.round((d.xp / maxXp) * 100) : 0
-                          const isWinner = !isTie && i === 0 && d.xp > 0
-                          const cfg = THEME_CONFIG[d.child.theme ?? 'pink'] ?? THEME_CONFIG.pink
-                          return (
-                            <div key={d.child.id} className={`rounded-2xl p-4 border-2 ${isWinner ? 'border-yellow-300 bg-yellow-50' : 'border-gray-100 bg-gray-50'}`}>
-                              <div className="flex items-center gap-3 mb-2">
-                                <span className="text-2xl">{medals[i] ?? '🎖️'}</span>
-                                <img src={getAvatarSrc(d.child.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
-                                <div className="flex-1">
-                                  <p className={`font-black text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
-                                    {d.child.name} {isWinner && '👑'}
-                                  </p>
-                                  <p className="text-xs text-gray-400 font-semibold">
-                                    📝 {d.words} từ · 🎮 {d.games} games · ⭐ {d.xp} XP
-                                  </p>
-                                </div>
-                              </div>
-                              {/* XP bar */}
-                              <div className="h-2.5 bg-white rounded-full overflow-hidden border border-gray-200 mb-2">
-                                <div
-                                  className={`h-full bg-gradient-to-r ${cfg.gradient} rounded-full transition-all duration-700`}
-                                  style={{ width: `${Math.max(barPct, d.xp > 0 ? 4 : 0)}%` }}
-                                />
-                              </div>
-                              <button
-                                onClick={() => { setBattleOpen(false); router.push(`/dashboard/${d.child.id}`) }}
-                                className="text-xs font-bold text-purple-500 hover:text-purple-700 transition-colors"
-                              >
-                                Xem lịch sử học →
-                              </button>
-                            </div>
-                          )
-                        })}
-                      </>
-                    )
-                  })()}
-                </>
-              )}
-
-              <button
-                onClick={() => setBattleOpen(false)}
-                className="w-full mt-1 bg-gray-100 hover:bg-gray-200 text-gray-600 font-black rounded-2xl py-3 transition-colors"
-              >
-                Đóng
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      <div className="w-full max-w-sm mt-6">
+        <BangThanhTich
+          entries={children.map(c => ({ child: c, syncAll: (syncMap[c.id] ?? {}) as Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }> }))}
+          variant="kids"
+        />
+      </div>
 
       {/* Footer */}
       <div className="mt-10 flex flex-col items-center gap-2">

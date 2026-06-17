@@ -15,6 +15,7 @@ import ReferralTab from './ReferralTab'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
 import { AVATARS, getAvatarSrc } from '@/lib/avatars'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
+import BangThanhTich from '@/components/BangThanhTich'
 
 type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
@@ -493,25 +494,6 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
   const [lastRefresh, setLastRefresh] = useState<string | null>(null)
   const [expandedHistory, setExpandedHistory] = useState<Record<string, boolean>>({})
   const [selectedChildId, setSelectedChildId] = useState<string | null>(null)
-  const [battleOpen, setBattleOpen] = useState(false)
-
-  // Battle data derived from already-loaded stats (no re-fetch needed)
-  const battleData = (() => {
-    const keys = Array.from({ length: 7 }, (_, i) => {
-      const d = new Date(); d.setDate(d.getDate() - i)
-      return d.toISOString().split('T')[0]
-    })
-    return stats.map(({ child, syncAll }) => {
-      let words = 0, games = 0, xp = 0
-      for (const lv of Object.values(syncAll)) {
-        for (const key of keys) {
-          const h = (lv as { history?: Record<string, { words: number; games: number; xp: number }> }).history?.[key]
-          if (h) { words += h.words ?? 0; games += h.games ?? 0; xp += h.xp ?? 0 }
-        }
-      }
-      return { child, words, games, xp }
-    }).sort((a, b) => b.xp - a.xp)
-  })()
 
   useEffect(() => {
     setSelectedChildId(prev => {
@@ -771,20 +753,9 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
         </div>
       )}
 
-      {/* Sibling Battle */}
-      {stats.length >= 2 && (
-        <button
-          onClick={() => setBattleOpen(true)}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-4 flex items-center gap-4 shadow-sm active:scale-95 transition-transform"
-        >
-          <span className="text-3xl">⚔️</span>
-          <div className="flex-1 text-left">
-            <p className="text-white font-black text-base leading-tight">Bảng Thành Tích</p>
-            <p className="text-white/80 text-sm font-semibold">Mỗi bé học được bao nhiêu?</p>
-          </div>
-          <span className="text-white/80 font-black text-lg">→</span>
-        </button>
-      )}
+      <BangThanhTich
+        entries={stats.map(({ child, syncAll }) => ({ child, syncAll: syncAll as Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }> }))}
+      />
 
       <button onClick={onRefresh} disabled={loading}
         className="w-full bg-white border-2 border-gray-200 rounded-2xl py-3 font-black text-gray-500 active:scale-95 transition-transform disabled:opacity-50">
@@ -794,61 +765,6 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
         )}
       </button>
 
-      {/* Sibling Battle modal */}
-      {battleOpen && (
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-end justify-center px-4 pb-4 sm:items-center" onClick={() => setBattleOpen(false)}>
-          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
-            <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
-              <p className="text-4xl mb-1">⚔️</p>
-              <h2 className="text-white font-black text-xl">Bảng Thành Tích</h2>
-              <p className="text-white/80 text-sm font-semibold mt-0.5">7 ngày gần nhất</p>
-            </div>
-            <div className="p-5 space-y-3">
-              {(() => {
-                const maxXp  = Math.max(...battleData.map(d => d.xp), 1)
-                const medals = ['🥇', '🥈', '🥉']
-                const allZero = battleData.every(d => d.xp === 0)
-                const topXp   = battleData[0]?.xp ?? 0
-                const isTie   = battleData.filter(d => d.xp === topXp).length > 1 && topXp > 0
-                return (
-                  <>
-                    {isTie   && <div className="text-center bg-yellow-50 rounded-2xl py-2 px-4 text-sm font-bold text-yellow-700">🤝 Hai bé đang hòa nhau!</div>}
-                    {allZero && <div className="text-center bg-purple-50 rounded-2xl py-2 px-4 text-sm font-bold text-purple-600">🌱 Chưa ai học tuần này — bắt đầu thôi!</div>}
-                    {battleData.map((d, i) => {
-                      const barPct   = maxXp > 0 ? Math.round((d.xp / maxXp) * 100) : 0
-                      const isWinner = !isTie && i === 0 && d.xp > 0
-                      const c = d.child.theme && THEME_COLORS[d.child.theme as 'pink' | 'blue']
-                        ? THEME_COLORS[d.child.theme as 'pink' | 'blue'] : DEFAULT_COLOR
-                      return (
-                        <div key={d.child.id} className={`rounded-2xl p-4 border-2 ${isWinner ? 'border-yellow-300 bg-yellow-50' : 'border-gray-100 bg-gray-50'}`}>
-                          <div className="flex items-center gap-3 mb-2">
-                            <span className="text-2xl">{medals[i] ?? '🎖️'}</span>
-                            <img src={getAvatarSrc(d.child.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
-                            <div className="flex-1">
-                              <p className={`font-black text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
-                                {d.child.name} {isWinner && '👑'}
-                              </p>
-                              <p className="text-xs text-gray-400 font-semibold">📝 {d.words} từ · 🎮 {d.games} games · ⭐ {d.xp} XP</p>
-                            </div>
-                          </div>
-                          <div className="h-2.5 bg-white rounded-full overflow-hidden border border-gray-200">
-                            <div className={`h-full bg-gradient-to-r ${c.grad} rounded-full transition-all duration-700`}
-                              style={{ width: `${Math.max(barPct, d.xp > 0 ? 4 : 0)}%` }} />
-                          </div>
-                        </div>
-                      )
-                    })}
-                  </>
-                )
-              })()}
-              <button onClick={() => setBattleOpen(false)}
-                className="w-full mt-1 bg-gray-100 hover:bg-gray-200 text-gray-600 font-black rounded-2xl py-3 transition-colors">
-                Đóng
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
