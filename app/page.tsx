@@ -201,79 +201,76 @@ export default function LandingPage() {
   const [activeScreenshot, setActiveScreenshot] = useState<{ src: string; caption: string } | null>(null)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 pb-20">
+    <div className="min-h-screen bg-gray-50">
 
       {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} />}
 
       {/* Nav */}
-      <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <span className="font-black text-xl text-gray-800">📚 VocabWise</span>
-        <Link href="/login"
-          className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow hover:shadow-md transition-all">
-          🔐 Đăng nhập
-        </Link>
+      <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+          <span className="font-black text-xl text-gray-800">📚 VocabWise</span>
+          <Link href="/login"
+            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow hover:shadow-md transition-all">
+            🔐 Đăng nhập
+          </Link>
+        </div>
       </nav>
 
       {/* Hero */}
-      <div className="max-w-6xl mx-auto px-4 lg:px-8 pt-8 pb-4">
-        <div className="lg:flex lg:items-center lg:gap-16">
+      <section className="bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
+      <div className="max-w-7xl mx-auto px-4 lg:px-12 pt-12 pb-12 text-center">
+        <p className="text-purple-500 font-black text-sm mb-3 tracking-widest uppercase">Nền tảng học tiếng Anh toàn diện</p>
+        <h1 className="text-3xl lg:text-6xl font-black text-gray-800 leading-tight mb-4 max-w-4xl mx-auto">
+          Học tiếng Anh{' '}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
+        </h1>
+        <p className="text-gray-500 text-sm lg:text-lg leading-relaxed mb-7 max-w-xl mx-auto">
+          3 module học tập — phát âm IPA chuẩn, từ vựng CEFR cho trẻ em, và học thuật cho Teen &amp; người lớn.
+        </p>
 
-          {/* Text content */}
-          <div className="flex-1 text-center lg:text-left">
-            <div className="text-7xl mb-4 lg:hidden">🌟</div>
-            <p className="text-purple-500 font-black text-sm mb-2 tracking-wide uppercase">Nền tảng học tiếng Anh toàn diện</p>
-            <h1 className="text-3xl lg:text-5xl font-black text-gray-800 leading-tight mb-4">
-              Học tiếng Anh{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
-            </h1>
-            <p className="text-gray-500 text-sm lg:text-base leading-relaxed mb-4 lg:max-w-lg">
-              VocabWise có 3 module học tập — phù hợp cho mọi lứa tuổi, từ phát âm chuẩn IPA đến từ vựng CEFR cho trẻ em và học thuật cho người lớn.
-            </p>
+        {/* CTA buttons */}
+        <div className="flex flex-row gap-3 justify-center mb-8">
+          <Link href="/register"
+            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
+            🚀 Dùng thử miễn phí
+          </Link>
+          <button onClick={() => setShowUpgrade(true)}
+            className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
+            ⭐ Xem gói Pro
+          </button>
+        </div>
 
-            {/* 3 section cards */}
-            <div className="grid grid-cols-3 gap-2 mb-5">
-              {SECTIONS.map(s => (
-                <div key={s.title} className={`rounded-2xl border-2 p-2.5 text-left ${s.cardCls} ${!s.available ? 'opacity-70' : ''}`}>
-                  <div className="flex flex-wrap items-center gap-1 mb-1">
-                    <span className="text-xl">{s.emoji}</span>
-                    {!s.available && (
-                      <span className="text-[10px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 whitespace-nowrap">🔜 Sắp ra</span>
-                    )}
-                  </div>
-                  <p className={`font-black text-xs ${s.accentCls} leading-tight`}>{s.title}</p>
-                  <p className={`text-[10px] font-black px-1.5 py-0.5 rounded-full mt-1 inline-block ${s.badgeCls}`}>{s.badge}</p>
-                  <p className="text-gray-500 text-[10px] mt-1 leading-snug hidden sm:block">{s.desc}</p>
-                </div>
-              ))}
-            </div>
+        {/* Stats bar */}
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs lg:text-sm text-gray-400 mb-10">
+          <span>📚 <strong className="text-gray-700">4.500+</strong> từ vựng</span>
+          <span>📊 <strong className="text-gray-700">180+</strong> chủ đề học thuật</span>
+          <span>🎮 <strong className="text-gray-700">10</strong> trò chơi/chủ đề</span>
+          <span>🎤 AI <strong className="text-gray-700">chấm phát âm</strong> ngay lập tức</span>
+          <span>🆓 Thử <strong className="text-gray-700">miễn phí</strong> 7 ngày</span>
+        </div>
 
-          </div>
-
-          {/* Phone mockup — desktop only */}
-          <div className="hidden lg:flex flex-shrink-0 gap-4 items-end">
-            <div className="w-[200px] rounded-[28px] border-4 border-gray-800 bg-gray-800 shadow-2xl overflow-hidden rotate-[-3deg] translate-y-4">
-              <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
-              <div className="overflow-hidden bg-white h-[400px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/select%20profile.jpg" alt="VocabWise" className="w-full h-full object-cover object-top" />
+        {/* 3 module cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          {SECTIONS.map(s => (
+            <div key={s.title} className={`rounded-2xl border-2 p-4 text-left ${s.cardCls} ${!s.available ? 'opacity-70' : ''}`}>
+              <div className="flex flex-wrap items-center gap-1 mb-2">
+                <span className="text-2xl">{s.emoji}</span>
+                {!s.available && (
+                  <span className="text-[10px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 whitespace-nowrap">🔜 Sắp ra</span>
+                )}
               </div>
-              <div className="h-3 bg-gray-800" />
+              <p className={`font-black text-sm ${s.accentCls} leading-tight`}>{s.title}</p>
+              <p className={`text-[10px] font-black px-1.5 py-0.5 rounded-full mt-1 inline-block ${s.badgeCls}`}>{s.badge}</p>
+              <p className="text-gray-500 text-xs mt-1.5 leading-snug">{s.desc}</p>
             </div>
-            <div className="w-[200px] rounded-[28px] border-4 border-gray-800 bg-gray-800 shadow-2xl overflow-hidden rotate-[3deg]">
-              <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
-              <div className="overflow-hidden bg-white h-[400px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/select%20game.jpg" alt="VocabWise games" className="w-full h-full object-cover object-top" />
-              </div>
-              <div className="h-3 bg-gray-800" />
-            </div>
-          </div>
-
+          ))}
         </div>
       </div>
+      </section>
 
       {/* Module feature carousel */}
-      <div className="max-w-6xl mx-auto pb-8">
+      <section className="bg-white py-10">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
         <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
         <div
@@ -304,23 +301,10 @@ export default function LandingPage() {
         </div>
         <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem tất cả 4 module →</p>
       </div>
-
-      {/* CTA buttons */}
-      <div className="max-w-6xl mx-auto px-4 pb-8 text-center">
-        <div className="flex flex-row gap-3 justify-center">
-          <Link href="/register"
-            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
-            🚀 Dùng thử miễn phí
-          </Link>
-          <button onClick={() => setShowUpgrade(true)}
-            className="bg-white text-gray-500 font-black text-sm px-5 py-2.5 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
-            ⭐ Xem gói Pro
-          </button>
-        </div>
-      </div>
+      </section>
 
       {/* Video demos */}
-      <div className="max-w-6xl mx-auto pb-10">
+      <div className="max-w-7xl mx-auto pb-10">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
         <p className="text-gray-400 text-sm text-center mb-5 px-4">Video thật · Các bé đang học</p>
         {/* Mobile: scroll · Desktop: 3-col grid */}
@@ -401,7 +385,7 @@ export default function LandingPage() {
       )}
 
       {/* Screenshots carousel */}
-      <div className="max-w-6xl mx-auto pb-12">
+      <div className="max-w-7xl mx-auto pb-12">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng tính năng</h2>
         <p className="text-gray-400 text-sm text-center mb-5 px-4">Screenshots thực tế từ app · Không chỉnh sửa</p>
         <div className="flex gap-4 overflow-x-auto pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
@@ -425,7 +409,8 @@ export default function LandingPage() {
       </div>
 
       {/* Features */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
+      <section className="bg-purple-50/60 py-10">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {FEATURES.map(f => (
@@ -439,9 +424,11 @@ export default function LandingPage() {
           ))}
         </div>
       </div>
+      </section>
 
       {/* Pricing */}
-      <div className="max-w-6xl mx-auto px-4 pb-12">
+      <section className="bg-white py-12">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
         <p className="text-gray-400 text-sm text-center mb-4">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
 
@@ -527,9 +514,11 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      </section>
 
       {/* How it works */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
+      <section className="bg-gray-50 py-10">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
         <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -554,9 +543,11 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      </section>
 
       {/* Founder trust */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
+      <section className="bg-white py-10">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="bg-white rounded-3xl p-6 shadow-sm border-2 border-purple-200 flex gap-4 items-start">
           <div className="text-4xl flex-shrink-0">👨‍🏫</div>
           <div>
@@ -570,9 +561,11 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      </section>
 
       {/* FAQ — SEO structured content */}
-      <div className="max-w-6xl mx-auto px-4 pb-10">
+      <section className="bg-gray-50 py-10">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
         <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise</p>
         <div className="space-y-3">
@@ -587,10 +580,11 @@ export default function LandingPage() {
           ))}
         </div>
       </div>
+      </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white/60">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-xs text-gray-400">
+      <footer className="border-t border-gray-200 bg-white">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-xs text-gray-400">
           <span className="font-semibold">📚 © 2026 VocabWise</span>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="hover:text-gray-600 transition-colors">📄 Điều khoản</Link>
