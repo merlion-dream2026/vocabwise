@@ -266,8 +266,8 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
           <div className="flex items-center gap-3">
             <div className="flex flex-col items-end gap-0.5">
               <button type="button" onClick={() => setDisabled(!disabled)}
-                className={`relative flex-shrink-0 w-14 h-7 rounded-full transition-colors ${disabled ? 'bg-red-500' : 'bg-green-500'}`}>
-                <span className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ${disabled ? 'translate-x-1' : 'translate-x-8'}`} />
+                className={`relative flex-shrink-0 w-12 h-6 rounded-full transition-colors ${disabled ? 'bg-red-400' : 'bg-green-500'}`}>
+                <span className={`absolute top-1 left-1 w-4 h-4 bg-white rounded-full shadow-md transition-transform duration-200 ${disabled ? 'translate-x-0' : 'translate-x-6'}`} />
               </button>
               <span className="text-xs text-slate-500 whitespace-nowrap">
                 {disabled ? '🔒 Đang khóa' : '✅ Hoạt động'}

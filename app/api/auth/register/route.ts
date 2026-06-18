@@ -234,11 +234,10 @@ export async function POST(req: NextRequest) {
         </div>`,
     })
   } catch (emailError) {
-    const e = emailError as { code?: string; response?: string; message?: string; command?: string }
     console.error('[register] Gmail error:', emailError)
     await supabase.from('families').delete().eq('id', family.id)
     return NextResponse.json(
-      { error: 'Không gửi được email xác thực. Vui lòng kiểm tra lại email và thử lại.', _debug: { code: e.code, response: e.response, message: e.message, command: e.command } },
+      { error: 'Không gửi được email xác thực. Vui lòng kiểm tra lại email và thử lại.' },
       { status: 500 }
     )
   }
