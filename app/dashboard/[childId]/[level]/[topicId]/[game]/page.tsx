@@ -19,6 +19,7 @@ const FillLetterGame     = dynamic(() => import('@/components/FillLetterGame'), 
 const DefinitionMatchGame = dynamic(() => import('@/components/DefinitionMatchGame'), { ssr: false })
 const SentenceOrderGame  = dynamic(() => import('@/components/SentenceOrderGame'),   { ssr: false })
 const SpeakGame          = dynamic(() => import('@/components/SpeakGame'),           { ssr: false })
+const SpeedRoundGame     = dynamic(() => import('@/components/SpeedRoundGame'),      { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
 
@@ -88,6 +89,8 @@ export default function GamePage() {
       return <SentenceOrderGame {...props} isStarter={isSimpleLevel} />
     case 'speak':
       return <SpeakGame {...props} isStarter={isSimpleLevel} />
+    case 'speedround':
+      return <SpeedRoundGame {...props} />
     default:
       router.push(backUrl)
       return null

@@ -60,7 +60,7 @@ function VerifyEmailForm() {
       })
       const data = await res.json()
       if (!res.ok) { setError(data.error || 'Mã không đúng'); return }
-      router.push('/kids')
+      router.push('/onboarding')
     } catch {
       setError('Lỗi kết nối, thử lại nhé')
     } finally {

@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import VWExerciseRunner from './VWExerciseRunner'
 import VWFlashcard from './VWFlashcard'
+import EWordClass from './EWordClass'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import type { ExercisesData } from './types'
 
@@ -62,6 +63,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
   const [flashcardMode, setFlashcardMode] = useState(false)
+  const [wordClassMode, setWordClassMode] = useState(false)
 
   const [childId, setChildId]   = useState<string | null>(null)
   const [session, setSession]   = useState<Session | null>(null)
@@ -262,11 +264,17 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           <div>
             {flashcardMode ? (
               <VWFlashcard glossary={glossary} onExit={() => setFlashcardMode(false)} />
+            ) : wordClassMode ? (
+              <div className="space-y-4">
+                <button onClick={() => setWordClassMode(false)} className="text-sm font-bold text-gray-400 hover:text-gray-600 flex items-center gap-1">← Quay lại</button>
+                <EWordClass glossary={glossary} onDone={() => setWordClassMode(false)} />
+              </div>
             ) : (
             <>
             {(() => {
               const wordCount = glossary.filter(i => i.type !== 'collocation').length
               const collCount = glossary.filter(i => i.type === 'collocation').length
+              const hasPosWords = glossary.filter(i => i.type !== 'collocation' && i.word && i.pos).length >= 4
               return (
                 <div className="flex items-center justify-between mb-4">
                   <p className="text-xs text-gray-400">
@@ -275,12 +283,22 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       : `${glossary.length} từ · Nhấn vào từ để xem chi tiết`
                     }
                   </p>
-                  <button
-                    onClick={() => setFlashcardMode(true)}
-                    className="text-xs font-black px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 hover:bg-indigo-200 transition-colors flex-shrink-0 ml-2"
-                  >
-                    🃏 Tự kiểm tra
-                  </button>
+                  <div className="flex gap-2 ml-2">
+                    {hasPosWords && (
+                      <button
+                        onClick={() => setWordClassMode(true)}
+                        className="text-xs font-black px-3 py-1.5 rounded-full bg-purple-100 text-purple-600 hover:bg-purple-200 transition-colors flex-shrink-0"
+                      >
+                        🏷️ Từ loại
+                      </button>
+                    )}
+                    <button
+                      onClick={() => setFlashcardMode(true)}
+                      className="text-xs font-black px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 hover:bg-indigo-200 transition-colors flex-shrink-0"
+                    >
+                      🃏 Tự kiểm tra
+                    </button>
+                  </div>
                 </div>
               )
             })()}

@@ -7,7 +7,6 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './data/**/*.json',
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       colors: {

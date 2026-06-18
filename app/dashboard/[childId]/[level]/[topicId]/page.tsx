@@ -37,6 +37,7 @@ const EXPLORER_GAMES = [
   { key: 'speak',           label: 'Phát âm cùng AI ✨',   emoji: '🎤' }, // row 4
   { key: 'typing',          label: 'Gõ từ nhanh 15s',    emoji: '⌨️' }, // row 5
   { key: 'sentenceorder',   label: 'Sắp xếp câu',        emoji: '🔁' }, // row 5
+  { key: 'speedround',      label: 'Speed Round ⚡',       emoji: '⚡' }, // row 6
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string }> = {

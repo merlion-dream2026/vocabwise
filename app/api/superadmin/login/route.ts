@@ -11,7 +11,7 @@ const supabase = createClient(
 
 export async function POST(req: NextRequest) {
   const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? 'unknown'
-  if (!rateLimit(`superadmin:${ip}`, 3, 300).allowed) {
+  if (!(await rateLimit(`superadmin:${ip}`, 3, 300)).allowed) {
     return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 5 phút.' }, { status: 429 })
   }
 

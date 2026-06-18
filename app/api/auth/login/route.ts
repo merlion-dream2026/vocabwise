@@ -8,9 +8,11 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY!
 )
 
+const MAX_ATTEMPTS = 5
+const LOCKOUT_MINUTES = 15
+
 function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate: string | null, bonusProExpiresAt: string | null): boolean {
   const now = new Date()
-  // Bonus Pro active → không block đăng nhập
   if (bonusProExpiresAt && new Date(bonusProExpiresAt) > now) return false
   if (plan === 'free') return freeTrialExpiresAt ? new Date(freeTrialExpiresAt) < now : false
   return planEndDate ? new Date(planEndDate) < now : false
@@ -18,7 +20,7 @@ function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate:
 
 export async function POST(req: NextRequest) {
   const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? 'unknown'
-  if (!rateLimit(`login:${ip}`, 5, 60).allowed) {
+  if (!(await rateLimit(`login:${ip}`, 10, 60)).allowed) {
     return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 1 phút.' }, { status: 429 })
   }
 
@@ -30,7 +32,7 @@ export async function POST(req: NextRequest) {
 
   const { data: family, error } = await supabase
     .from('families')
-    .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at')
+    .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, failed_login_count, lockout_until')
     .eq('username', username.trim().toLowerCase())
     .single()
 
@@ -39,13 +41,43 @@ export async function POST(req: NextRequest) {
   }
 
   if (family.disabled) {
-    return NextResponse.json({ error: 'Tài khoản đã bị khóa' }, { status: 403 })
+    return NextResponse.json({ error: 'Tài khoản đã bị khóa. Vui lòng liên hệ hỗ trợ.' }, { status: 403 })
+  }
+
+  // Account lockout check
+  if (family.lockout_until && new Date(family.lockout_until) > new Date()) {
+    const minutesLeft = Math.ceil((new Date(family.lockout_until).getTime() - Date.now()) / 60000)
+    return NextResponse.json(
+      { error: `Tài khoản tạm khóa do đăng nhập sai nhiều lần. Thử lại sau ${minutesLeft} phút.` },
+      { status: 423 }
+    )
   }
 
   const valid = await verifyPassword(password, family.password_hash)
+
   if (!valid) {
-    return NextResponse.json({ error: 'Sai tên đăng nhập hoặc mật khẩu' }, { status: 401 })
+    const newCount = (family.failed_login_count ?? 0) + 1
+    const shouldLock = newCount >= MAX_ATTEMPTS
+    await supabase.from('families').update({
+      failed_login_count: newCount,
+      ...(shouldLock ? { lockout_until: new Date(Date.now() + LOCKOUT_MINUTES * 60000).toISOString() } : {}),
+    }).eq('id', family.id)
+
+    if (shouldLock) {
+      return NextResponse.json(
+        { error: `Sai mật khẩu quá ${MAX_ATTEMPTS} lần. Tài khoản tạm khóa ${LOCKOUT_MINUTES} phút.` },
+        { status: 423 }
+      )
+    }
+    const remaining = MAX_ATTEMPTS - newCount
+    return NextResponse.json(
+      { error: `Sai mật khẩu. Còn ${remaining} lần thử trước khi bị khóa tạm thời.` },
+      { status: 401 }
+    )
   }
+
+  // Successful login — reset lockout counters
+  await supabase.from('families').update({ failed_login_count: 0, lockout_until: null }).eq('id', family.id)
 
   if (isExpired(family.plan, family.free_trial_expires_at, family.plan_end_date, family.bonus_pro_expires_at)) {
     return NextResponse.json({ error: 'expired', expired: true }, { status: 403 })
