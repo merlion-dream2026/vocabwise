@@ -45,6 +45,25 @@ export async function POST(req: NextRequest) {
     html: welcomeEmailHtml(family.name),
   }).catch(err => console.error('[verify-otp] welcome email error:', err))
 
+  // Thông báo admin có user mới xác thực thành công (fire-and-forget)
+  sendEmail({
+    to: 'vocabwise.admin@gmail.com',
+    subject: `🆕 [VocabWise] Người dùng mới: ${family.name}`,
+    html: `
+      <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
+        <h2 style="color:#9333ea">📚 VocabWise — Tài khoản mới đã kích hoạt</h2>
+        <table style="width:100%;border-collapse:collapse;font-size:15px">
+          <tr><td style="padding:8px 0;color:#666;width:120px">Họ tên</td><td><strong>${family.name}</strong></td></tr>
+          <tr><td style="padding:8px 0;color:#666">Email</td><td>${family.email}</td></tr>
+          <tr><td style="padding:8px 0;color:#666">Thời gian</td><td>${new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })}</td></tr>
+        </table>
+        <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'}/superadmin"
+           style="display:inline-block;margin-top:20px;background:#9333ea;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:bold">
+          Xem Superadmin →
+        </a>
+      </div>`,
+  }).catch(err => console.error('[verify-otp] admin notify error:', err))
+
   const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan })
   const res = NextResponse.json({ ok: true })
   res.cookies.set(sessionCookieOptions(token))
