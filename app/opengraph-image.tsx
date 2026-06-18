@@ -5,7 +5,22 @@ export const alt = 'VocabWise — Học từ vựng tiếng Anh cho bé'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
-export default function Image() {
+async function loadVietnameseFont(text: string) {
+  const url = `https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700;900&text=${encodeURIComponent(text)}`
+  const css = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    },
+  }).then(r => r.text())
+  const resource = css.match(/src: url\((.+?)\) format\('(opentype|truetype|woff2)'\)/)
+  if (!resource) throw new Error('Font not found')
+  return fetch(resource[1]).then(r => r.arrayBuffer())
+}
+
+export default async function Image() {
+  const text = 'VocabWise Học từ vựng tiếng Anh — vui, hiệu quả, không áp lực 4.500+ từ vựng 6 cấp độ 10+ trò chơi'
+  const fontData = await loadVietnameseFont(text).catch(() => null)
+
   return new ImageResponse(
     (
       <div
@@ -17,7 +32,7 @@ export default function Image() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          fontFamily: 'sans-serif',
+          fontFamily: 'NotoSans, sans-serif',
           padding: '60px',
         }}
       >
@@ -26,10 +41,10 @@ export default function Image() {
           VocabWise
         </div>
         <div style={{ fontSize: 30, color: 'rgba(255,255,255,0.85)', textAlign: 'center', marginBottom: 40, lineHeight: 1.4 }}>
-          Hoc tu vung tieng Anh — vui, hieu qua, khong ap luc
+          Học từ vựng tiếng Anh — vui, hiệu quả, không áp lực
         </div>
         <div style={{ display: 'flex', gap: 24 }}>
-          {['4.500+ tu vung', '6 cap do', '10+ tro choi'].map(item => (
+          {['4.500+ từ vựng', '6 cấp độ', '10+ trò chơi'].map(item => (
             <div key={item} style={{
               background: 'rgba(255,255,255,0.2)',
               borderRadius: 50,
@@ -44,6 +59,15 @@ export default function Image() {
         </div>
       </div>
     ),
-    { ...size }
+    {
+      ...size,
+      ...(fontData ? {
+        fonts: [{
+          name: 'NotoSans',
+          data: fontData,
+          style: 'normal',
+        }],
+      } : {}),
+    }
   )
 }
