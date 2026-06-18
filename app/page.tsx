@@ -272,9 +272,10 @@ export default function LandingPage() {
       <section className="bg-white py-10">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
-        <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
+        <p className="text-gray-400 text-sm text-center mb-4 px-4 lg:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
+        <p className="text-gray-400 text-sm text-center mb-6 px-4 hidden lg:block">Tính năng nổi bật của từng module</p>
         <div
-          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:grid lg:grid-cols-4 lg:overflow-visible lg:pb-0 lg:gap-4"
+          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:grid lg:grid-cols-2 lg:overflow-visible lg:pb-0 lg:gap-5 xl:grid-cols-4"
           style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
         >
           {MODULE_CARDS.map(card => (
@@ -299,7 +300,7 @@ export default function LandingPage() {
             </div>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem tất cả 4 module →</p>
+        <p className="text-center text-xs text-gray-300 mt-1 px-4 xl:hidden">← Vuốt để xem tất cả 4 module →</p>
       </div>
       </section>
 
