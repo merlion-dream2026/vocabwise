@@ -2,9 +2,26 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 
+async function hasActivePlan(familyId: string): Promise<boolean> {
+  const { data } = await supabase
+    .from('families')
+    .select('plan, free_trial_expires_at, plan_end_date, bonus_pro_expires_at')
+    .eq('id', familyId)
+    .single()
+  if (!data) return false
+  const now = new Date()
+  if (data.bonus_pro_expires_at && new Date(data.bonus_pro_expires_at) > now) return true
+  if (data.plan === 'free') return data.free_trial_expires_at ? new Date(data.free_trial_expires_at) > now : false
+  return data.plan_end_date ? new Date(data.plan_end_date) > now : false
+}
+
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (session.familyId !== 'superadmin' && !(await hasActivePlan(session.familyId))) {
+    return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
+  }
 
   const topicId = params.id
   if (!/^b[123]-t\d{2,3}$/.test(topicId)) {
