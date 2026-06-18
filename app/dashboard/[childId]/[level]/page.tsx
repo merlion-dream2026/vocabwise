@@ -7,6 +7,7 @@ import { DAILY_XP_GOAL } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -139,8 +140,8 @@ export default function LevelTopicsPage() {
     )
   }
 
-  const isPaid = session!.plan !== 'free' ||
-    (!!session!.bonus_pro_expires_at && new Date(session!.bonus_pro_expires_at) > new Date())
+  const { isProActive } = getEffectivePlan(session!)
+  const isPaid = isProActive
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
   const levelInfo = LEVEL_LABELS[level] ?? { label: level, cefr: '' }
   const totalWeak = weakKeys.size

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import CertificateModal from '@/components/vocabwise/CertificateModal'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -102,8 +103,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   // ─── Derived state ──────────────────────────────────────────────────────────
-  const isPaid = !session || session.plan !== 'free' ||
-    (!!session.bonus_pro_expires_at && new Date(session.bonus_pro_expires_at) > new Date())
+  const { isProActive } = session ? getEffectivePlan(session) : { isProActive: true }
+  const isPaid = !session || isProActive
 
   const flatCls  = FLAT_COLOR[book] ?? 'bg-blue-500'
   const numGrad  = NUM_GRAD[book]   ?? 'from-blue-400 to-indigo-500'

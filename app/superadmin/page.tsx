@@ -226,6 +226,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
       setMsg('✅ Đã lưu thành công!')
       onSaved(updated)
     } else {
+      if (res.status === 401) { window.location.reload(); return }
       const d = await res.json()
       setMsg(`❌ ${d.error}`)
     }
@@ -300,7 +301,11 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
           </div>
           <div>
             <label className="text-xs text-slate-500 mb-1 block">Gói</label>
-            <select value={plan} onChange={(e) => setPlan(e.target.value)}
+            <select value={plan} onChange={(e) => {
+              const newPlan = e.target.value
+              setPlan(newPlan)
+              if (PLAN_DURATIONS[newPlan]) setPlanStartDate(today())
+            }}
               className="w-full bg-white border-2 border-slate-200 rounded-2xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
               {PLAN_OPTIONS.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
             </select>
@@ -1858,8 +1863,8 @@ export default function SuperAdminPage() {
   const [checking, setChecking] = useState(true)
 
   useEffect(() => {
-    fetch('/api/auth/me').then(r => r.json()).then(d => {
-      if (d?.familyId === 'superadmin') setAuthed(true)
+    fetch('/api/superadmin/me').then(r => {
+      if (r.ok) setAuthed(true)
       setChecking(false)
     })
   }, [])

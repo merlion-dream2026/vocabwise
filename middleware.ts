@@ -15,7 +15,7 @@ const PUBLIC_PATHS = [
   '/api/auth/forgot-password',
   '/api/auth/reset-password',
   '/superadmin',
-  '/api/superadmin/login',
+  '/api/superadmin',
 ]
 
 // Rate limit config: [max requests, window in ms]

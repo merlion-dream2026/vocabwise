@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { getSession, hashPassword } from '@/lib/auth'
+import { getAdminSession, hashPassword } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { welcomeEmailHtml, proActivatedEmailHtml } from '@/lib/emailTemplates'
 import { logAudit } from '@/lib/auditLog'
@@ -11,7 +11,7 @@ const supabase = createClient(
 )
 
 async function requireSuperAdmin(req: NextRequest) {
-  const session = await getSession(req)
+  const session = await getAdminSession(req)
   return session?.familyId === 'superadmin'
 }
 

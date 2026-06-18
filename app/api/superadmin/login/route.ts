@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { verifyPassword, createSession, sessionCookieOptions } from '@/lib/auth'
-import { ADMIN_SESSION_MAX_AGE } from '@/lib/session'
+import { verifyPassword, createSession, adminSessionCookieOptions } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
 import { sendEmail } from '@/lib/email'
 
@@ -32,7 +31,7 @@ export async function POST(req: NextRequest) {
 
   const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin' }, '8h')
   const res = NextResponse.json({ ok: true })
-  res.cookies.set(sessionCookieOptions(token, ADMIN_SESSION_MAX_AGE))
+  res.cookies.set(adminSessionCookieOptions(token))
 
   const alertEmail = process.env.ADMIN_ALERT_EMAIL ?? process.env.GMAIL_USER
   if (alertEmail) {
