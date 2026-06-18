@@ -46,11 +46,12 @@ export async function POST(req: NextRequest) {
   }).catch(err => console.error('[verify-otp] welcome email error:', err))
 
   // Thông báo admin có user mới xác thực thành công (fire-and-forget)
-  supabase
-    .from('families')
-    .select('id', { count: 'exact', head: true })
-    .eq('email_verified', true)
-    .then(({ count }) => {
+  void Promise.resolve(
+    supabase
+      .from('families')
+      .select('id', { count: 'exact', head: true })
+      .eq('email_verified', true)
+  ).then(({ count }) => {
       const userNo = count ?? '?'
       const trialExpires = family.free_trial_expires_at
         ? new Date(family.free_trial_expires_at).toLocaleDateString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
@@ -80,8 +81,7 @@ export async function POST(req: NextRequest) {
             </a>
           </div>`,
       }).catch(err => console.error('[verify-otp] admin notify error:', err))
-    })
-    .catch(err => console.error('[verify-otp] user count error:', err))
+  }).catch(err => console.error('[verify-otp] user count error:', err))
 
   const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan })
   const res = NextResponse.json({ ok: true })
