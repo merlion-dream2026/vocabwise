@@ -98,5 +98,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/kids/:path*', '/dashboard/:path*', '/superadmin/:path*', '/api/children/:path*', '/api/sync/:path*', '/api/family/:path*', '/api/superadmin/families/:path*', '/api/superadmin/notify', '/api/vocabwise/:path*', '/api/words/:path*', '/api/stories/:path*'],
+  matcher: ['/', '/kids/:path*', '/dashboard/:path*', '/vocabwise', '/vocabwise/:path*', '/superadmin/:path*', '/api/children/:path*', '/api/sync/:path*', '/api/family/:path*', '/api/superadmin/families/:path*', '/api/superadmin/notify', '/api/vocabwise/:path*', '/api/words/:path*', '/api/stories/:path*'],
 }
