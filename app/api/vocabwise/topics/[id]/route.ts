@@ -3,22 +3,10 @@ import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { checkDailyCap } from '@/lib/rateLimit'
 import {
-  HONEYPOT_TOPICS, blockFamily, isFamilyBlocked,
-  detectSequential, getAgeCap, detectImpossibleTravel,
+  HONEYPOT_TOPICS, blockFamily,
+  getFamilyProfile, detectSequential,
+  checkImpossibleTravel, updateRequestMetadata,
 } from '@/lib/security'
-
-async function hasActivePlan(familyId: string): Promise<boolean> {
-  const { data } = await supabase
-    .from('families')
-    .select('plan, free_trial_expires_at, plan_end_date, bonus_pro_expires_at')
-    .eq('id', familyId)
-    .single()
-  if (!data) return false
-  const now = new Date()
-  if (data.bonus_pro_expires_at && new Date(data.bonus_pro_expires_at) > now) return true
-  if (data.plan === 'free') return data.free_trial_expires_at ? new Date(data.free_trial_expires_at) > now : false
-  return data.plan_end_date ? new Date(data.plan_end_date) > now : false
-}
 
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   const session = await getSession(req)
@@ -28,9 +16,9 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   const familyId = session.familyId
   const isAdmin  = familyId === 'superadmin'
 
-  // E: Honeypot — these IDs never appear in the UI; only scrapers hit them
+  // E: Honeypot — never shown in UI; only scrapers request these IDs
   if (!isAdmin && HONEYPOT_TOPICS.has(topicId)) {
-    console.error(`[SECURITY] Honeypot triggered: family=${familyId} topic=${topicId}`)
+    console.error(`[SECURITY] Honeypot: family=${familyId} topic=${topicId}`)
     blockFamily(familyId).catch(() => {})
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
@@ -40,36 +28,49 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   }
 
   if (!isAdmin) {
-    // E cont.: block families flagged by honeypot or previous violations
-    if (await isFamilyBlocked(familyId)) {
+    // Single DB query (Redis-cached 5 min) — replaces 4 separate queries
+    const profile = await getFamilyProfile(familyId)
+    if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
+
+    // E: blocked check
+    if (profile.is_blocked) {
       return NextResponse.json({ error: 'Account suspended.' }, { status: 403 })
     }
 
-    if (!(await hasActivePlan(familyId))) {
+    // Plan check (inline from profile — no extra query)
+    const now    = new Date()
+    const active =
+      (profile.bonus_pro_expires_at && new Date(profile.bonus_pro_expires_at) > now) ||
+      (profile.plan === 'free'
+        ? (profile.free_trial_expires_at ? new Date(profile.free_trial_expires_at) > now : false)
+        : (profile.plan_end_date ? new Date(profile.plan_end_date) > now : false))
+    if (!active) {
       return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
     }
 
-    // C: tighter cap for accounts < 24h old
-    const cap = await getAgeCap(familyId)
+    // C: new-account cap (from profile — no extra query)
+    const ageHrs = (Date.now() - new Date(profile.created_at).getTime()) / 3_600_000
+    const cap    = ageHrs < 24 ? 5 : 20
     if (!(await checkDailyCap(familyId, cap))) {
       return NextResponse.json({ error: 'Daily request limit reached. Try again tomorrow.' }, { status: 429 })
     }
 
-    // B: sequential topic scraping
+    // B: sequential scraping
     if (detectSequential(familyId, topicId)) {
-      console.warn(`[SECURITY] Sequential scraping: family=${familyId} topic=${topicId}`)
+      console.warn(`[SECURITY] Sequential: family=${familyId} topic=${topicId}`)
       return NextResponse.json({ error: 'Too many sequential requests. Please slow down.' }, { status: 429 })
     }
 
-    // F: impossible travel (log only — VPNs are common, don't hard-block)
+    // F: impossible travel (uses cached profile — no extra query)
     const ip        = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
     const cfCountry = req.headers.get('cf-ipcountry') ?? undefined
-    const travel    = await detectImpossibleTravel(familyId, ip, cfCountry)
-    if (travel) {
+    if (checkImpossibleTravel(profile, ip, cfCountry)) {
       console.warn(`[SECURITY] Impossible travel: family=${familyId} ip=${ip} country=${cfCountry}`)
     }
+    updateRequestMetadata(familyId, ip, cfCountry)
   }
 
+  // Run both queries in parallel
   const [topicRes, exercisesRes] = await Promise.all([
     supabase
       .from('vw_topics')

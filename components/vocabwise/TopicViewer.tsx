@@ -57,9 +57,17 @@ function getExerciseTypes(exercises: ExercisesData): string[] {
     .filter((t): t is string => t !== null)
 }
 
+// ZWSP (U+200B)=0 · ZWNJ (U+200C)=1 — invisible to readers, survives copy-paste
+function embedWatermark(text: string, seed: string): string {
+  const mark = seed.replace(/-/g, '').slice(0, 8).split('')
+    .map(c => c.charCodeAt(0) % 2 === 0 ? '​' : '‌').join('')
+  return text.replace(/(\. )/, `$1${mark}`)
+}
+
 export default function TopicViewer({ data, book, topicId }: { data: TopicData; book: string; topicId: string }) {
   const router = useRouter()
   const [tab, setTab]       = useState<Tab>('passage')
+  const [wmId, setWmId]     = useState('')
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
   const [flashcardMode, setFlashcardMode] = useState(false)
@@ -87,7 +95,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       setSpeaking(false)
       return
     }
-    const chunks = passage.paragraphs.map(p => p.text_en.replace(/\*\*(.+?)\*\*/g, '$1'))
+    const chunks = passage.paragraphs.map(p => (wmId ? embedWatermark(p.text_en, wmId) : p.text_en).replace(/\*\*(.+?)\*\*/g, '$1'))
     setSpeaking(true)
     let idx = 0
     const playNext = () => {
@@ -117,6 +125,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       setSavedSrs(d?.srs ?? {})
       setSavedHistory(d?.history ?? {})
       setSession(sess)
+      if (sess?.familyId && sess.familyId !== 'superadmin') setWmId(sess.familyId)
       setSavedWords(new Set((wl.saved ?? []).map((w: { word: string }) => w.word)))
     }).catch(() => {})
   }, [topicId])
@@ -298,7 +307,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
               {passage.paragraphs.map(para => (
                 <div key={para.index} className="bg-gray-50 rounded-2xl p-4 border border-gray-100">
                   <p className="text-gray-800 leading-relaxed text-sm"
-                    dangerouslySetInnerHTML={{ __html: renderPassage(para.text_en) }} />
+                    dangerouslySetInnerHTML={{ __html: renderPassage(wmId ? embedWatermark(para.text_en, wmId) : para.text_en) }} />
                   {showVI && (
                     <p className="text-gray-500 text-xs leading-relaxed mt-3 pt-3 border-t border-gray-200 italic"
                       dangerouslySetInnerHTML={{ __html: renderPassage(para.text_vi) }} />

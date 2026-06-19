@@ -1,16 +1,10 @@
 import { notFound } from 'next/navigation'
 import { supabase } from '@/lib/supabaseServer'
-import { getSession } from '@/lib/session'
 import TopicViewer from '@/components/vocabwise/TopicViewer'
 import type { TopicData } from '@/components/vocabwise/TopicViewer'
 import type { ExercisesData } from '@/components/vocabwise/types'
 
-// ZWSP (U+200B)=0 · ZWNJ (U+200C)=1 — invisible to readers, survives copy-paste
-function embedWatermark(text: string, seed: string): string {
-  const mark = seed.replace(/-/g, '').slice(0, 8).split('')
-    .map(c => c.charCodeAt(0) % 2 === 0 ? '​' : '‌').join('')
-  return text.replace(/(\. )/, `$1${mark}`)
-}
+export const revalidate = 3600
 
 async function loadTopic(topicId: string): Promise<TopicData | null> {
   if (!/^b[123]-t\d{2,3}$/.test(topicId)) return null
@@ -45,7 +39,6 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   const glossary  = glossaryRes.data  ?? []
   const exercises = exercisesRes.data ?? []
 
-  // Reconstruct exercises & answer_key from flat DB rows
   const exercisesData: ExercisesData = { combo: topic.combo ?? 'B1' }
   const answerKey: Record<string, Record<string, string>> = {}
   for (const ex of exercises) {
@@ -93,17 +86,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
 
 export default async function TopicPage({ params }: { params: Promise<{ book: string; topicId: string }> }) {
   const { book, topicId } = await params
-  const [data, session] = await Promise.all([loadTopic(topicId), getSession()])
+  const data = await loadTopic(topicId)
   if (!data) notFound()
-
-  // Embed per-family invisible watermark in passage paragraphs for leak tracing
-  const familyId = session?.familyId ?? ''
-  if (familyId && familyId !== 'superadmin') {
-    data.passage.paragraphs = data.passage.paragraphs.map(p => ({
-      ...p,
-      text_en: embedWatermark(p.text_en, familyId),
-    }))
-  }
-
   return <TopicViewer data={data} book={book} topicId={topicId} />
 }
