@@ -24,7 +24,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
   }
 
-  if (session.familyId !== 'superadmin' && !(await checkDailyCap(session.familyId, 150))) {
+  if (session.familyId !== 'superadmin' && !(await checkDailyCap(session.familyId, 20))) {
     return NextResponse.json({ error: 'Daily request limit reached. Try again tomorrow.' }, { status: 429 })
   }
 
