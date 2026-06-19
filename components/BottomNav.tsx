@@ -128,17 +128,18 @@ export default function BottomNav() {
   const active = getActiveTab(pathname, childId)
 
   function go(key: string) {
+    if (active === key) return
     const tab = MODULE_TABS.find(t => t.key === key)!
     if (tab.needsChild) {
       const id = childId
         ?? localStorage.getItem('nav_child_id')
         ?? localStorage.getItem('vw_active_child')
-      if (!id) { router.push('/kids'); return }
+      if (!id) { router.replace('/kids'); return }
       if (!childId) setChildId(id)
-      router.push(DEST[key](id))
+      router.replace(DEST[key](id))
       return
     }
-    router.push(DEST[key](childId ?? ''))
+    router.replace(DEST[key](childId ?? ''))
   }
 
   const profileActive = active === 'profile'
