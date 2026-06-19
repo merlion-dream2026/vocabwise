@@ -115,13 +115,22 @@ export default function VocabWisePage() {
           </div>
         )}
 
-        {/* Placement quiz entry */}
-        {hasAnyProgress ? (
-          <Link href="/vocabwise/placement"
-            className="flex items-center gap-2 text-indigo-500 text-xs font-bold justify-center py-1 hover:text-indigo-700 transition-colors">
-            🎯 Làm lại bài kiểm tra cấp độ
+        {/* Quick links */}
+        <div className="flex gap-2 justify-center">
+          <Link href="/vocabwise/wordlist"
+            className="flex items-center gap-1.5 text-indigo-500 text-xs font-bold py-1 px-3 rounded-full bg-indigo-50 hover:bg-indigo-100 transition-colors">
+            📌 Từ của tôi
           </Link>
-        ) : (
+          {hasAnyProgress && (
+            <Link href="/vocabwise/placement"
+              className="flex items-center gap-1.5 text-gray-400 text-xs font-bold py-1 px-3 rounded-full bg-gray-50 hover:bg-gray-100 transition-colors">
+              🎯 Kiểm tra cấp độ
+            </Link>
+          )}
+        </div>
+
+        {/* Placement quiz entry — only for new users */}
+        {!hasAnyProgress && (
           <Link href="/vocabwise/placement"
             className="block bg-gradient-to-r from-indigo-500 to-blue-500 rounded-2xl px-5 py-4 text-white shadow-md active:scale-[0.99] transition-all">
             <div className="flex items-center gap-3">

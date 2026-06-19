@@ -69,9 +69,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [session, setSession]   = useState<Session | null>(null)
   const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
-  // Preserve existing srs + history so we don't overwrite them on save (Group 2 prep)
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
+  const [savedWords, setSavedWords] = useState<Set<string>>(new Set())
 
   // Stop speech on unmount or tab switch away from passage
   useEffect(() => { return () => { window.speechSynthesis?.cancel() } }, [])
@@ -107,13 +107,15 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     Promise.all([
       fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null),
       fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-    ]).then(([d, sess]) => {
+      fetch(`/api/vocabwise/wordlist?topic_id=${topicId}`).then(r => r.ok ? r.json() : { saved: [] }),
+    ]).then(([d, sess, wl]) => {
       const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
       setFullSync(mastery)
       setTopicSync(mastery[topicId] ?? null)
       setSavedSrs(d?.srs ?? {})
       setSavedHistory(d?.history ?? {})
       setSession(sess)
+      setSavedWords(new Set((wl.saved ?? []).map((w: { word: string }) => w.word)))
     }).catch(() => {})
   }, [topicId])
 
@@ -171,6 +173,39 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           battle:     {},
           history:    newHistory,
           srs:        newSrs,
+        }),
+      }).catch(() => {})
+    }
+  }
+
+  function toggleSave(item: GlossaryItem) {
+    const word = item.word ?? item.collocation ?? ''
+    if (!word) return
+    const isSaved = savedWords.has(word)
+    setSavedWords(prev => {
+      const next = new Set(prev)
+      isSaved ? next.delete(word) : next.add(word)
+      return next
+    })
+    if (isSaved) {
+      fetch('/api/vocabwise/wordlist', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word, topic_id: topicId }),
+      }).catch(() => {})
+    } else {
+      fetch('/api/vocabwise/wordlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          word,
+          meaning_vi: item.meaning_vi,
+          pos: item.pos ?? '',
+          ipa: item.ipa ?? '',
+          example_en: item.example_en,
+          book_id: book,
+          topic_id: topicId,
+          topic_title: meta.topic_title,
         }),
       }).catch(() => {})
     }
@@ -333,10 +368,17 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       <span className="text-blue-600 font-bold text-sm flex-shrink-0">{(item.meaning_vi ?? '').split(';')[0]}</span>
                       <button
                         onClick={e => { e.preventDefault(); speak(displayText) }}
-                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1 -mr-1"
+                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1"
                         aria-label={`Phát âm ${displayText}`}
                       >
                         🔊
+                      </button>
+                      <button
+                        onClick={e => { e.preventDefault(); toggleSave(item) }}
+                        className={`flex-shrink-0 p-1 -mr-1 transition-colors ${savedWords.has(displayText) ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
+                        aria-label={savedWords.has(displayText) ? 'Bỏ lưu' : 'Lưu từ này'}
+                      >
+                        {savedWords.has(displayText) ? '⭐' : '☆'}
                       </button>
                       <span className="text-gray-300 font-bold group-open:rotate-180 transition-transform">▾</span>
                     </summary>
