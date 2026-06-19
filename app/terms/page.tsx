@@ -42,9 +42,10 @@ export default function TermsPage() {
           <section>
             <h2 className="font-black text-gray-800 text-base mb-2">4. Nội dung và bản quyền</h2>
             <ul className="list-disc pl-5 space-y-1">
-              <li>Toàn bộ nội dung trong Dịch vụ (từ vựng, trò chơi, câu chuyện, âm thanh) thuộc quyền sở hữu của IELTS CHAMPION.</li>
-              <li>Bạn không được sao chép, phân phối, hoặc sử dụng nội dung cho mục đích thương mại.</li>
-              <li>Nội dung chỉ được sử dụng cho mục đích học tập cá nhân trong phạm vi gia đình.</li>
+              <li>Toàn bộ nội dung trong Dịch vụ — bao gồm giáo trình, từ vựng, bài đọc, bài tập, trò chơi, câu chuyện và âm thanh — là tài sản trí tuệ độc quyền của VocabWise / IELTS CHAMPION, được bảo hộ theo pháp luật Việt Nam và quốc tế về quyền tác giả.</li>
+              <li><strong>Nghiêm cấm</strong> sao chép, trích xuất, tái phân phối hoặc sử dụng bất kỳ phần nội dung nào dưới bất kỳ hình thức nào — dù có hay không có mục đích thương mại — mà không có văn bản chấp thuận của chúng tôi.</li>
+              <li>Nội dung chỉ được sử dụng cho mục đích học tập cá nhân trong phạm vi gia đình đăng ký.</li>
+              <li>Chúng tôi áp dụng kỹ thuật nhận dạng nguồn gốc nội dung. Mọi hành vi vi phạm đều có thể bị truy vết và xử lý theo quy định pháp luật.</li>
             </ul>
           </section>
 
@@ -54,7 +55,8 @@ export default function TermsPage() {
               <li>Chia sẻ tài khoản cho người ngoài gia đình.</li>
               <li>Cố gắng truy cập trái phép vào hệ thống hoặc tài khoản người dùng khác.</li>
               <li>Sử dụng Dịch vụ để phát tán nội dung độc hại, không phù hợp với trẻ em.</li>
-              <li>Sử dụng bot, script tự động để tương tác với Dịch vụ.</li>
+              <li>Sử dụng bot, script tự động hoặc bất kỳ công cụ nào để thu thập, khai thác hoặc sao chép nội dung từ Dịch vụ (web scraping, API crawling, v.v.).</li>
+              <li>Tái sử dụng nội dung giáo trình để xây dựng sản phẩm, dịch vụ hoặc tài liệu cạnh tranh.</li>
             </ul>
           </section>
 

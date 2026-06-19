@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
+import { checkDailyCap } from '@/lib/rateLimit'
 
 async function hasActivePlan(familyId: string): Promise<boolean> {
   const { data } = await supabase
@@ -21,6 +22,10 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
 
   if (session.familyId !== 'superadmin' && !(await hasActivePlan(session.familyId))) {
     return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
+  }
+
+  if (session.familyId !== 'superadmin' && !(await checkDailyCap(session.familyId, 150))) {
+    return NextResponse.json({ error: 'Daily request limit reached. Try again tomorrow.' }, { status: 429 })
   }
 
   const topicId = params.id

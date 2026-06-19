@@ -71,7 +71,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
-  const [savedWords, setSavedWords] = useState<Set<string>>(new Set())
+  const [savedWords,   setSavedWords]   = useState<Set<string>>(new Set())
+  const [explanations, setExplanations] = useState<Record<string, string>>({})
+  const [explaining,   setExplaining]   = useState<Set<string>>(new Set())
 
   // Stop speech on unmount or tab switch away from passage
   useEffect(() => { return () => { window.speechSynthesis?.cancel() } }, [])
@@ -175,6 +177,23 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           srs:        newSrs,
         }),
       }).catch(() => {})
+    }
+  }
+
+  async function explainWord(item: GlossaryItem) {
+    const word = item.word ?? ''
+    if (!word || explanations[word] || explaining.has(word)) return
+    setExplaining(prev => new Set(prev).add(word))
+    try {
+      const res = await fetch('/api/vocabwise/explain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word, pos: item.pos ?? '', meaning_vi: item.meaning_vi, example_en: item.example_en }),
+      })
+      const d = await res.json()
+      if (d.explanation) setExplanations(prev => ({ ...prev, [word]: d.explanation }))
+    } finally {
+      setExplaining(prev => { const s = new Set(prev); s.delete(word); return s })
     }
   }
 
@@ -417,6 +436,23 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         }`}>
                           {item.receptive_productive === 'P' ? 'P — Sản sinh' : 'R — Tiếp nhận'}
                         </span>
+                      )}
+                      {!isCollocation && item.word && (
+                        <div className="pt-1">
+                          {explanations[item.word] ? (
+                            <div className="bg-indigo-50 border border-indigo-100 rounded-xl px-3 py-2">
+                              <p className="text-indigo-700 text-xs leading-relaxed">💡 {explanations[item.word]}</p>
+                            </div>
+                          ) : (
+                            <button
+                              onClick={() => explainWord(item)}
+                              disabled={explaining.has(item.word)}
+                              className="text-xs font-bold text-indigo-400 hover:text-indigo-600 disabled:opacity-50 transition-colors"
+                            >
+                              {explaining.has(item.word) ? '⏳ Đang giải thích...' : '💡 Giải thích AI'}
+                            </button>
+                          )}
+                        </div>
                       )}
                     </div>
                   </details>

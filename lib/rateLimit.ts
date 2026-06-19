@@ -59,3 +59,24 @@ export async function rateLimit(
   }
   return { allowed: inMemoryLimit(key, limit, windowSec) }
 }
+
+// Daily cap: 150 topic page requests per family per UTC day
+const capStore = new Map<string, { count: number; resetAt: number }>()
+
+export async function checkDailyCap(familyId: string, limit = 150): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key  = `vw:cap:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch { /* fall through */ }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = capStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; capStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
