@@ -154,7 +154,7 @@ export default function HomePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-8 flex flex-col items-center">
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-8 pb-nav flex flex-col items-center">
         <div className="w-full max-w-sm space-y-4 animate-pulse">
           <div className="h-5 bg-gray-200 rounded-full w-2/3 mx-auto mb-6" />
           {[0, 1].map(i => (
@@ -179,7 +179,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-8 flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-8 pb-nav flex flex-col items-center">
       <UpgradeBanner
         plan={session?.plan ?? 'free'}
         freeTrialExpiresAt={session?.free_trial_expires_at}

@@ -361,7 +361,7 @@ export default function KidsRevisionPage() {
         </div>
       </div>
 
-      <div className="max-w-lg mx-auto px-4 pt-5 pb-24">
+      <div className="max-w-lg mx-auto px-4 pt-5 pb-nav">
 
         {/* Intro */}
         {phase === 'intro' && (

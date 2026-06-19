@@ -65,7 +65,7 @@ export default function WordListPage() {
         )}
       </div>
 
-      <div className="max-w-2xl mx-auto px-4 py-5 pb-24">
+      <div className="max-w-2xl mx-auto px-4 py-5 pb-nav">
         {loading && (
           <div className="flex items-center justify-center py-16 text-gray-400 text-sm">Đang tải...</div>
         )}

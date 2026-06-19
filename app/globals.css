@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bottom-nav-h: 5rem; /* 56px nav + 24px breathing room — update once here if nav changes */
+}
+
 html {
   color-scheme: light only;
 }
@@ -32,5 +36,8 @@ body {
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+  .pb-nav {
+    padding-bottom: var(--bottom-nav-h);
   }
 }

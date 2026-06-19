@@ -191,7 +191,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 ${nunito.className}`}>
         <FontSizeApplier />
-        <main className="max-w-md mx-auto min-h-screen pb-16">
+        <main className="max-w-md mx-auto min-h-screen pb-nav">
           {children}
         </main>
         <NoVoiceBanner />
