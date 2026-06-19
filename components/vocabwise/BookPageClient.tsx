@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
@@ -37,6 +37,34 @@ const BOOK_CARD_DONE: Record<string, string> = {
   book3: 'bg-purple-50 border-purple-300',
 }
 
+function RevisionCard({ book, revNum, score }: { book: string; revNum: number; score?: { score: number; max: number } }) {
+  const startT = (revNum - 1) * 5 + 1
+  const endT   = revNum * 5
+  const rid    = `r${String(revNum).padStart(2, '0')}`
+  return (
+    <Link href={`/vocabwise/${book}/revision/${rid}`}
+      className="block bg-gradient-to-r from-amber-400 to-yellow-400 border-2 border-amber-400 rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2.5 min-w-0">
+          <span className="text-xl flex-shrink-0">✨</span>
+          <div className="min-w-0">
+            <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+            <p className="text-white/80 text-xs mt-0.5">30 câu · 3 dạng bài</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+          {score ? (
+            <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
+          ) : (
+            <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+          )}
+          <span className="text-white/70 text-sm">›</span>
+        </div>
+      </div>
+    </Link>
+  )
+}
+
 export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const router = useRouter()
   const [session, setSession]   = useState<Session | null>(null)
@@ -48,11 +76,22 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [showOverviewDetail, setShowOverviewDetail] = useState(false)
   const [showProgressGuide, setShowProgressGuide] = useState(false)
   const [showCert, setShowCert] = useState(false)
+  const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
     if (saved) setViewMode(saved)
   }, [])
+
+  useEffect(() => {
+    const scores: Record<string, { score: number; max: number }> = {}
+    for (let i = 1; i <= 12; i++) {
+      const rid = `r${String(i).padStart(2, '0')}`
+      const raw = localStorage.getItem(`revision_${book}_${rid}`)
+      if (raw) { try { scores[rid] = JSON.parse(raw) } catch {} }
+    }
+    setRevScores(scores)
+  }, [book])
 
   function toggleView() {
     setViewMode(v => {
@@ -374,7 +413,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                     📂 {themeViTitle ?? themeTitle}
                   </h2>
                   <div className="grid grid-cols-2 gap-3">
-                    {themeTopics.map(t => {
+                    {themeTopics.map((t, themeIdx) => {
                       const globalIdx  = topics.findIndex(x => x.topic_id === t.topic_id)
                       const locked     = !isPaid && globalIdx >= FREE_TOPIC_LIMIT
                       const sync       = syncMap[t.topic_id]
@@ -388,26 +427,26 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                         : needsWork   ? 'bg-amber-50 border-amber-300'
                         : 'bg-white border-transparent'
 
-                      if (locked) {
-                        return (
-                          <button key={t.topic_id} onClick={() => setShowUpgrade(true)}
-                            className={`${cardCls} border-2 rounded-2xl p-4 text-left shadow-sm relative opacity-60`}>
-                            <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/60">
-                              <span className="text-2xl">🔒</span>
-                            </div>
-                            <div className="flex items-center gap-2.5 mb-2">
-                              <span className="text-3xl flex-shrink-0">{t.emoji ?? '📚'}</span>
-                              <div className="min-w-0">
-                                <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}.</span>{t.topic_title_vi ?? t.topic_title}</p>
-                                <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
-                              </div>
-                            </div>
-                          </button>
-                        )
-                      }
+                      const isRevPoint = (themeIdx + 1) % 5 === 0
+                      const revNum = Math.floor(globalIdx / 5) + 1
+                      const rid = `r${String(revNum).padStart(2, '0')}`
 
-                      return (
-                        <Link key={t.topic_id} href={`/vocabwise/${book}/${t.topic_id}`}
+                      const topicCard = locked ? (
+                        <button onClick={() => setShowUpgrade(true)}
+                          className={`${cardCls} border-2 rounded-2xl p-4 text-left shadow-sm relative opacity-60`}>
+                          <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-white/60">
+                            <span className="text-2xl">🔒</span>
+                          </div>
+                          <div className="flex items-center gap-2.5 mb-2">
+                            <span className="text-3xl flex-shrink-0">{t.emoji ?? '📚'}</span>
+                            <div className="min-w-0">
+                              <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}.</span>{t.topic_title_vi ?? t.topic_title}</p>
+                              <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
+                            </div>
+                          </div>
+                        </button>
+                      ) : (
+                        <Link href={`/vocabwise/${book}/${t.topic_id}`}
                           className={`${cardCls} border-2 rounded-2xl p-4 text-left block shadow-sm active:scale-95 transition-all duration-150`}>
                           <div className="flex items-center gap-2.5 mb-2">
                             <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
@@ -428,6 +467,17 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           )}
                         </Link>
                       )
+
+                      return (
+                        <React.Fragment key={t.topic_id}>
+                          {topicCard}
+                          {isRevPoint && (
+                            <div className="col-span-2">
+                              <RevisionCard book={book} revNum={revNum} score={revScores[rid]} />
+                            </div>
+                          )}
+                        </React.Fragment>
+                      )
                     })}
                   </div>
                 </div>
@@ -444,9 +494,13 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               const sync       = syncMap[t.topic_id]
               const isMastered = !!sync?.mastered
               const needsWork  = !!sync?.completed && !isMastered
+              const isRevPoint = (globalIdx + 1) % 5 === 0
+              const revNum     = Math.floor(globalIdx / 5) + 1
+              const rid        = `r${String(revNum).padStart(2, '0')}`
 
               return (
-                <button key={t.topic_id}
+                <React.Fragment key={t.topic_id}>
+                <button
                   onClick={() => {
                     if (locked) { setShowUpgrade(true); return }
                     router.push(`/vocabwise/${book}/${t.topic_id}`)
@@ -472,6 +526,12 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   </div>
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
+                {isRevPoint && (
+                  <div className="px-3 py-2 bg-amber-50">
+                    <RevisionCard book={book} revNum={revNum} score={revScores[rid]} />
+                  </div>
+                )}
+                </React.Fragment>
               )
             })}
           </div>

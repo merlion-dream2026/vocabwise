@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import Link from 'next/link'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel, ALL_BADGES, XP_LEVELS } from '@/lib/badges'
 import { DAILY_XP_GOAL } from '@/lib/childProgress'
 import { getAvatarSrc } from '@/lib/avatars'
@@ -79,11 +80,23 @@ export default function LevelTopicsPage() {
   const [showBadgeGuide, setShowBadgeGuide] = useState(false)
   const [showXpGuide, setShowXpGuide] = useState(false)
   const [showAllBadges, setShowAllBadges] = useState(false)
+  const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
 
   useEffect(() => {
     const saved = localStorage.getItem('topicViewMode') as 'grid' | 'list' | null
     if (saved) setViewMode(saved)
   }, [])
+
+  useEffect(() => {
+    if (!level) return
+    const scores: Record<string, { score: number; max: number }> = {}
+    for (let i = 1; i <= 6; i++) {
+      const rid = `r${String(i).padStart(2, '0')}`
+      const raw = localStorage.getItem(`revision_kids_${level}_${rid}`)
+      if (raw) { try { scores[rid] = JSON.parse(raw) } catch {} }
+    }
+    setRevScores(scores)
+  }, [level])
 
   function toggleView() {
     setViewMode(v => {
@@ -143,6 +156,35 @@ export default function LevelTopicsPage() {
   const { isProActive } = getEffectivePlan(session!)
   const isPaid = isProActive
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
+
+  function renderRevCard(revNum: number) {
+    const startT = (revNum - 1) * 5 + 1
+    const endT   = revNum * 5
+    const rid    = `r${String(revNum).padStart(2, '0')}`
+    const score  = revScores[rid]
+    return (
+      <Link href={`/dashboard/${childId}/${level}/revision/${rid}`}
+        className={`block ${colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <span className="text-xl flex-shrink-0">✨</span>
+            <div className="min-w-0">
+              <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+              <p className="text-white/80 text-xs mt-0.5">30 câu · 3 dạng bài</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+            {score ? (
+              <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
+            ) : (
+              <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+            )}
+            <span className="text-white/70 text-sm">›</span>
+          </div>
+        </div>
+      </Link>
+    )
+  }
   const levelInfo = LEVEL_LABELS[level] ?? { label: level, cefr: '' }
   const totalWeak = weakKeys.size
   const today = new Date().toISOString().split('T')[0]
@@ -390,8 +432,11 @@ export default function LevelTopicsPage() {
                     ? 'bg-amber-50 border-2 border-amber-300'
                     : 'bg-white border-2 border-transparent'
 
+              const isRevPoint = (idx + 1) % 5 === 0
+              const revNum = Math.floor(idx / 5) + 1
               return (
-                <button key={topic.id}
+                <React.Fragment key={topic.id}>
+                <button
                   onClick={() => handleTopicClick(topic, idx)}
                   className={`relative ${cardCls} rounded-2xl p-4 text-left shadow-sm transition-all ${
                     locked ? '' : 'hover:shadow-md active:scale-95'
@@ -442,6 +487,12 @@ export default function LevelTopicsPage() {
                     </div>
                   )}
                 </button>
+                {isRevPoint && (
+                  <div className="col-span-2">
+                    {renderRevCard(revNum)}
+                  </div>
+                )}
+                </React.Fragment>
               )
             })}
           </div>
@@ -460,8 +511,11 @@ export default function LevelTopicsPage() {
               const pct = total > 0 ? Math.round((seenCount / total) * 100) : 0
               const weakCount = topicWeakCount(topic)
 
+              const isRevPoint = (idx + 1) % 5 === 0
+              const revNum = Math.floor(idx / 5) + 1
               return (
-                <button key={topic.id}
+                <React.Fragment key={topic.id}>
+                <button
                   onClick={() => handleTopicClick(topic, idx)}
                   className={`w-full text-left px-4 py-3 flex items-center gap-3 transition-colors ${
                     locked ? 'opacity-50' : 'hover:bg-gray-50 active:bg-gray-100'
@@ -499,6 +553,12 @@ export default function LevelTopicsPage() {
 
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
+                {isRevPoint && (
+                  <div className="px-3 py-2 bg-gray-50">
+                    {renderRevCard(revNum)}
+                  </div>
+                )}
+                </React.Fragment>
               )
             })}
           </div>
