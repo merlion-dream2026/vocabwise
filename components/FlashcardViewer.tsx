@@ -303,7 +303,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           <div className="w-full mt-3">
             {explanations[word.word] ? (
               <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-left">
-                <p className="text-xs font-black text-amber-600 mb-1">✨ Giải nghĩa với AI</p>
+                <p className="text-xs font-black text-amber-600 mb-1">✨ Giải nghĩa</p>
                 <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
               </div>
             ) : (
@@ -312,7 +312,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 disabled={explaining.has(word.word)}
                 className="w-full bg-amber-50 border border-amber-200 text-amber-700 font-black text-sm py-2.5 rounded-2xl active:scale-95 transition-all disabled:opacity-60"
               >
-                {explaining.has(word.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa với AI'}
+                {explaining.has(word.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
               </button>
             )}
           </div>

@@ -451,7 +451,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         <div className="pt-1">
                           {explanations[item.word] ? (
                             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
-                              <p className="text-xs font-black text-indigo-600 mb-1.5">✨ Giải nghĩa với AI</p>
+                              <p className="text-xs font-black text-indigo-600 mb-1.5">✨ Giải nghĩa</p>
                               <p className="text-indigo-800 text-xs leading-relaxed">{explanations[item.word]}</p>
                             </div>
                           ) : (
@@ -460,7 +460,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                               disabled={explaining.has(item.word)}
                               className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
                             >
-                              {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa với AI'}
+                              {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
                             </button>
                           )}
                         </div>
