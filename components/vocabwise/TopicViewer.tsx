@@ -393,7 +393,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                           </>
                         )}
                       </div>
-                      <span className="text-blue-600 font-bold text-sm flex-shrink-0">{(item.meaning_vi ?? '').split(';')[0]}</span>
+                      <span className="text-blue-600 font-bold text-sm min-w-0 shrink max-w-[40%] truncate">{(item.meaning_vi ?? '').split(';')[0]}</span>
                       <button
                         onClick={e => { e.preventDefault(); speak(displayText) }}
                         className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1"
@@ -438,13 +438,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         <div className="bg-amber-50 border border-amber-200 rounded-xl px-3 py-2">
                           <p className="text-amber-700 text-xs"><span className="font-black">⚠️ False friend: </span>{item.false_friend.explanation_vi}</p>
                         </div>
-                      )}
-                      {item.receptive_productive && (
-                        <span className={`inline-block text-xs font-black px-2 py-0.5 rounded-full ${
-                          item.receptive_productive === 'P' ? 'bg-red-100 text-red-600' : 'bg-gray-100 text-gray-500'
-                        }`}>
-                          {item.receptive_productive === 'P' ? 'P — Sản sinh' : 'R — Tiếp nhận'}
-                        </span>
                       )}
                       {!isCollocation && item.word && (
                         <div className="pt-1">

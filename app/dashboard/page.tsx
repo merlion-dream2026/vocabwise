@@ -363,7 +363,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Vừa mua Pro xong, tôi cần làm những gì?',
-        a: 'Sau khi thanh toán và được kích hoạt Pro, bạn nên làm 3 việc ngay:\n\n① Đổi mật khẩu (bắt buộc)\nMật khẩu ban đầu do admin đặt. Vào Dashboard → Settings → "🔑 Đổi mật khẩu" để đổi sang mật khẩu riêng của gia đình.\n\n② Tạo hồ sơ cho bé\nVào Dashboard → "➕ Thêm hồ sơ bé". Tạo hồ sơ riêng cho từng bé với tên và emoji. Bé có thể tự chọn level phù hợp khi bắt đầu học. Gói Pro mặc định tối đa 3 bé.\n\n③ Cài app lên màn hình chính\nMở trình duyệt trên điện thoại → Bấm "Chia sẻ" (iPhone) hoặc menu "⋮" (Android) → "Thêm vào màn hình chính" — dùng như app thật, không cần cài từ App Store.',
+        a: 'Sau khi thanh toán và được kích hoạt Pro, bạn nên làm 3 việc ngay:\n\n① Đổi mật khẩu (bắt buộc)\nMật khẩu ban đầu do admin đặt. Vào Dashboard → Settings → "🔑 Đổi mật khẩu" để đổi sang mật khẩu riêng của gia đình.\n\n② Tạo hồ sơ cho bé\nVào Dashboard → "➕ Thêm hồ sơ bé". Tạo hồ sơ riêng cho từng bé với tên và emoji. Bé có thể tự chọn level phù hợp khi bắt đầu học. Gói Pro mặc định tối đa 3 bé.\n\n③ Cài app lên màn hình chính\nMở như app thật, tự cập nhật, không cần App Store!\n🍎 iPhone/iPad: Bấm nút Share ⬆ (thanh dưới Safari) → chọn "Thêm vào Màn hình chính" → bấm Thêm.\n🤖 Android: Bấm menu ⋮ (góc trên phải Chrome) → chọn "Thêm vào Màn hình chính" → bấm Thêm.',
       },
       {
         q: 'Làm sao đổi mật khẩu?',

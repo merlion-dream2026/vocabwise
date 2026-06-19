@@ -6,14 +6,6 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 
-const FEATURES = [
-  { emoji: '🎯', title: '6 Levels', sub: 'Pre-A1 → C1-C2' },
-  { emoji: '📖', title: '4.500+ từ', sub: 'Chọn lọc theo CEFR' },
-  { emoji: '🎮', title: '10 Games', sub: 'Học mà như chơi' },
-  { emoji: '🎤', title: 'Phát âm cùng AI ✨', sub: 'Bé phát âm, AI chấm điểm ngay!' },
-  { emoji: '📲', title: 'Dùng như app thật', sub: 'Không cài · Tự cập nhật · iPhone, Android, iPad, PC', wide: true },
-]
-
 function LoginForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -84,25 +76,6 @@ function LoginForm() {
           <p className="text-gray-500 mt-1.5 font-semibold text-sm leading-snug">
             Từ vựng tiếng Anh — vui học mỗi ngày
           </p>
-        </div>
-
-        {/* No-install callout */}
-        <div className="flex items-center justify-center gap-1.5 mb-4">
-          <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full">✅ Không cần cài app</span>
-          <span className="bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1.5 rounded-full">🆓 Đăng ký miễn phí</span>
-        </div>
-
-        {/* Feature grid */}
-        <div className="grid grid-cols-2 gap-2.5 mb-6">
-          {FEATURES.map((f) => (
-            <div key={f.title} className={`bg-white/70 backdrop-blur-sm border border-white rounded-2xl px-3 py-3 flex items-center gap-2.5 shadow-sm${'wide' in f && f.wide ? ' col-span-2' : ''}`}>
-              <span className="text-2xl flex-shrink-0">{f.emoji}</span>
-              <div className="min-w-0">
-                <p className="font-black text-gray-800 text-sm leading-tight">{f.title}</p>
-                <p className="text-gray-400 text-xs leading-tight truncate">{f.sub}</p>
-              </div>
-            </div>
-          ))}
         </div>
 
         {/* Expired account banner */}
@@ -197,9 +170,9 @@ function LoginForm() {
         {/* PWA install tip */}
         <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-100 rounded-2xl px-4 py-3 text-center">
           <p className="text-purple-600 text-xs font-semibold leading-snug">
-            📲 <span className="font-black">Cài lên màn hình chính:</span>{' '}
+            📲 <span className="font-black">Cài lên màn hình chính:</span> Mở như app thật, <span className="font-black">tự cập nhật</span>, không cần App Store!{' '}
             🍎 iPhone/iPad: Bấm nút <span className="font-bold">Share ⬆</span> (thanh dưới Safari) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>.{' '}
-            🤖 Android: Bấm menu <span className="font-bold">⋮</span> (góc trên phải Chrome) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>. Mở như app thật, <span className="font-black">tự cập nhật</span>, không cần App Store!
+            🤖 Android: Bấm menu <span className="font-bold">⋮</span> (góc trên phải Chrome) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>.
           </p>
         </div>
 

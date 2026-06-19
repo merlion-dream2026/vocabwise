@@ -118,7 +118,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'App VocabWise có cần cài xuống không?',
-    a: 'Không! VocabWise là PWA (Progressive Web App) — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể "Thêm vào màn hình chính" để dùng như app thật trên iPhone, Android, iPad và PC, tự động cập nhật, không cần lên App Store.',
+    a: 'Không! VocabWise là PWA — bé chỉ cần vào trình duyệt là học ngay.\n\n🍎 iPhone/iPad (Safari): Bấm nút Share ⬆ ở thanh dưới → chọn "Thêm vào Màn hình chính" → bấm Thêm.\n\n🤖 Android (Chrome): Bấm menu ⋮ góc trên phải → chọn "Thêm vào Màn hình chính" → bấm Thêm.\n\nSau đó mở app từ icon vừa tạo — dùng như app thật, tự cập nhật, không cần App Store!',
   },
   {
     q: 'VocabWise phù hợp với lứa tuổi nào?',
@@ -272,16 +272,15 @@ export default function LandingPage() {
       <section className="bg-white py-10">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
-        <p className="text-gray-400 text-sm text-center mb-4 px-4 lg:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
-        <p className="text-gray-400 text-sm text-center mb-6 px-4 hidden lg:block">Tính năng nổi bật của từng module</p>
+        <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
         <div
-          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:grid lg:grid-cols-2 lg:overflow-visible lg:pb-0 lg:gap-5 xl:grid-cols-4"
+          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory"
           style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
         >
           {MODULE_CARDS.map(card => (
             <div
               key={card.title}
-              className={`flex-none snap-center w-[260px] lg:w-auto bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 flex flex-col`}
+              className={`flex-none snap-center w-[280px] bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 flex flex-col`}
             >
               <div className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${card.gradient} text-white text-xs font-black px-2.5 py-1 rounded-full self-start mb-3`}>
                 <span>{card.emoji}</span>
@@ -300,7 +299,7 @@ export default function LandingPage() {
             </div>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-300 mt-1 px-4 xl:hidden">← Vuốt để xem tất cả 4 module →</p>
+        <p className="text-center text-xs text-gray-300 mt-1 px-4">← Vuốt để xem tất cả 4 module →</p>
       </div>
       </section>
 
