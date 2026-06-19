@@ -30,6 +30,18 @@ function LoginForm() {
   const [loading, setLoading] = useState(false)
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [expiredUser, setExpiredUser] = useState(isExpiredParam)
+  const [turnstileToken, setTurnstileToken] = useState('')
+  const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
+
+  useEffect(() => {
+    if (!turnstileSiteKey) return
+    ;(window as Window & { onTurnstileVerify?: (t: string) => void }).onTurnstileVerify = t => setTurnstileToken(t)
+    const s = document.createElement('script')
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'
+    s.async = true
+    document.body.appendChild(s)
+    return () => { document.body.removeChild(s) }
+  }, [turnstileSiteKey])
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -40,7 +52,7 @@ function LoginForm() {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ username, password, turnstileToken }),
       })
       const data = await res.json()
       if (!res.ok) {
@@ -157,6 +169,10 @@ function LoginForm() {
             </div>
           )}
 
+          {turnstileSiteKey && (
+            <div className="cf-turnstile" data-sitekey={turnstileSiteKey} data-callback="onTurnstileVerify" data-theme="light" />
+          )}
+
           <button
             type="submit"
             disabled={loading}
@@ -181,7 +197,9 @@ function LoginForm() {
         {/* PWA install tip */}
         <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-100 rounded-2xl px-4 py-3 text-center">
           <p className="text-purple-600 text-xs font-semibold leading-snug">
-            📲 <span className="font-black">Cài lên màn hình chính:</span> Safari/Chrome → "Thêm vào màn hình chính" → mở như app thật, <span className="font-black">tự cập nhật</span>, không cần lên App Store!
+            📲 <span className="font-black">Cài lên màn hình chính:</span>{' '}
+            🍎 iPhone/iPad: Bấm nút <span className="font-bold">Share ⬆</span> (thanh dưới Safari) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>.{' '}
+            🤖 Android: Bấm menu <span className="font-bold">⋮</span> (góc trên phải Chrome) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>. Mở như app thật, <span className="font-black">tự cập nhật</span>, không cần App Store!
           </p>
         </div>
 

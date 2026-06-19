@@ -2,6 +2,10 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { checkDailyCap } from '@/lib/rateLimit'
+import {
+  HONEYPOT_TOPICS, blockFamily, isFamilyBlocked,
+  detectSequential, getAgeCap, detectImpossibleTravel,
+} from '@/lib/security'
 
 async function hasActivePlan(familyId: string): Promise<boolean> {
   const { data } = await supabase
@@ -20,17 +24,50 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  if (session.familyId !== 'superadmin' && !(await hasActivePlan(session.familyId))) {
-    return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
+  const topicId  = params.id
+  const familyId = session.familyId
+  const isAdmin  = familyId === 'superadmin'
+
+  // E: Honeypot — these IDs never appear in the UI; only scrapers hit them
+  if (!isAdmin && HONEYPOT_TOPICS.has(topicId)) {
+    console.error(`[SECURITY] Honeypot triggered: family=${familyId} topic=${topicId}`)
+    blockFamily(familyId).catch(() => {})
+    return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
-  if (session.familyId !== 'superadmin' && !(await checkDailyCap(session.familyId, 20))) {
-    return NextResponse.json({ error: 'Daily request limit reached. Try again tomorrow.' }, { status: 429 })
-  }
-
-  const topicId = params.id
   if (!/^b[123]-t\d{2,3}$/.test(topicId)) {
     return NextResponse.json({ error: 'Invalid topic ID' }, { status: 400 })
+  }
+
+  if (!isAdmin) {
+    // E cont.: block families flagged by honeypot or previous violations
+    if (await isFamilyBlocked(familyId)) {
+      return NextResponse.json({ error: 'Account suspended.' }, { status: 403 })
+    }
+
+    if (!(await hasActivePlan(familyId))) {
+      return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
+    }
+
+    // C: tighter cap for accounts < 24h old
+    const cap = await getAgeCap(familyId)
+    if (!(await checkDailyCap(familyId, cap))) {
+      return NextResponse.json({ error: 'Daily request limit reached. Try again tomorrow.' }, { status: 429 })
+    }
+
+    // B: sequential topic scraping
+    if (detectSequential(familyId, topicId)) {
+      console.warn(`[SECURITY] Sequential scraping: family=${familyId} topic=${topicId}`)
+      return NextResponse.json({ error: 'Too many sequential requests. Please slow down.' }, { status: 429 })
+    }
+
+    // F: impossible travel (log only — VPNs are common, don't hard-block)
+    const ip        = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
+    const cfCountry = req.headers.get('cf-ipcountry') ?? undefined
+    const travel    = await detectImpossibleTravel(familyId, ip, cfCountry)
+    if (travel) {
+      console.warn(`[SECURITY] Impossible travel: family=${familyId} ip=${ip} country=${cfCountry}`)
+    }
   }
 
   const [topicRes, exercisesRes] = await Promise.all([
@@ -53,7 +90,6 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   const topic  = topicRes.data as any
   const exRows = exercisesRes.data ?? []
 
-  // Build exercises object (same shape as TopicViewer)
   const exercisesData: Record<string, unknown> = { combo: topic.combo ?? 'B1' }
   const answerKey: Record<string, Record<string, string>> = {}
   for (const ex of exRows) {
@@ -69,7 +105,6 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     answerKey[`ex${ex.ex_number}`] = ex.answer_key
   }
 
-  // ex_types for mastery scoring — ex1–ex5 only (matches getExerciseTypes in TopicViewer)
   const exTypes: string[] = []
   for (let n = 1; n <= 5; n++) {
     const row = exRows.find(ex => ex.ex_number === n)

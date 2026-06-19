@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { verifyPassword, createSession, sessionCookieOptions } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
+import { verifyTurnstile } from '@/lib/security'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -24,7 +25,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 1 phút.' }, { status: 429 })
   }
 
-  const { username, password } = await req.json().catch(() => ({}))
+  const { username, password, turnstileToken } = await req.json().catch(() => ({}))
+
+  if (!(await verifyTurnstile(turnstileToken))) {
+    return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
+  }
 
   if (!username || !password) {
     return NextResponse.json({ error: 'Thiếu thông tin đăng nhập' }, { status: 400 })

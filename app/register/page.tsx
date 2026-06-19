@@ -1,5 +1,5 @@
 'use client'
-import { useState, FormEvent } from 'react'
+import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
@@ -23,6 +23,18 @@ export default function RegisterPage() {
   const [showPw, setShowPw] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [turnstileToken, setTurnstileToken] = useState('')
+  const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
+
+  useEffect(() => {
+    if (!turnstileSiteKey) return
+    ;(window as Window & { onTurnstileVerify?: (t: string) => void }).onTurnstileVerify = t => setTurnstileToken(t)
+    const s = document.createElement('script')
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js'
+    s.async = true
+    document.body.appendChild(s)
+    return () => { document.body.removeChild(s) }
+  }, [turnstileSiteKey])
 
   // SĐT VN hợp lệ: đầu số 03x, 05x, 07x, 08x, 09x — đúng 10 số
   const VN_PHONE_REGEX = /^(03[2-9]|05[6-9]|07[06-9]|08[0-9]|09[0-9])\d{7}$/
@@ -41,7 +53,7 @@ export default function RegisterPage() {
       const res = await fetch('/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, phone, email, referral_source: referralSource, password }),
+        body: JSON.stringify({ name, phone, email, referral_source: referralSource, password, turnstileToken }),
       })
       const data = await res.json()
       if (!res.ok) { setError(data.error || 'Đăng ký thất bại'); return }
@@ -150,6 +162,10 @@ export default function RegisterPage() {
 
             {error && (
               <div className="bg-red-50 border border-red-100 text-red-500 text-sm rounded-2xl px-4 py-3 font-semibold">⚠️ {error}</div>
+            )}
+
+            {turnstileSiteKey && (
+              <div className="cf-turnstile" data-sitekey={turnstileSiteKey} data-callback="onTurnstileVerify" data-theme="light" />
             )}
 
             <button type="submit" disabled={loading}

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { hashPassword } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
+import { verifyTurnstile } from '@/lib/security'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -97,7 +98,11 @@ async function generateUniqueReferralCode(): Promise<string> {
 }
 
 export async function POST(req: NextRequest) {
-  const { name, phone, email, referral_source, password } = await req.json().catch(() => ({}))
+  const { name, phone, email, referral_source, password, turnstileToken } = await req.json().catch(() => ({}))
+
+  if (!(await verifyTurnstile(turnstileToken))) {
+    return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
+  }
   const username = phone?.trim().replace(/\D/g, '') || ''
 
   if (!username || !password || !email || !name || !phone) {
