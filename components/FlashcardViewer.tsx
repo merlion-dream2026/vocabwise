@@ -89,6 +89,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [speakingId, setSpeakingId] = useState<string | null>(null)
   const [completed, setCompleted] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
+  const [explanations, setExplanations] = useState<Record<string, string>>({})
+  const [explaining, setExplaining] = useState<Set<string>>(new Set())
 
   const styles = levelConfig[level as keyof typeof levelConfig] ?? levelConfig.explorer
   const word = topic.words[currentIndex]
@@ -130,6 +132,23 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1)
     }
+  }
+
+  async function explainWord(w: Word) {
+    if (explanations[w.word] || explaining.has(w.word)) return
+    setExplaining(prev => new Set(prev).add(w.word))
+    try {
+      const res = await fetch('/api/vocabwise/explain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word: w.word, pos: w.class, meaning_vi: w.meaning, example_en: w.examples[0]?.en, mode: 'kids' }),
+      })
+      if (res.ok) {
+        const data = await res.json()
+        setExplanations(prev => ({ ...prev, [w.word]: data.explanation }))
+      }
+    } catch {}
+    setExplaining(prev => { const s = new Set(prev); s.delete(w.word); return s })
   }
 
   const restart = () => {
@@ -278,6 +297,24 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* AI Explainer */}
+          <div className="w-full mt-3">
+            {explanations[word.word] ? (
+              <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-left">
+                <p className="text-xs font-black text-amber-600 mb-1">💡 Giải thích AI</p>
+                <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+              </div>
+            ) : (
+              <button
+                onClick={() => explainWord(word)}
+                disabled={explaining.has(word.word)}
+                className="w-full bg-amber-50 border border-amber-200 text-amber-700 font-black text-sm py-2.5 rounded-2xl active:scale-95 transition-all disabled:opacity-60"
+              >
+                {explaining.has(word.word) ? '⏳ Đang giải thích...' : '💡 Giải thích AI'}
+              </button>
+            )}
           </div>
         </div>
 

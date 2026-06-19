@@ -5,10 +5,16 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const { word, pos, meaning_vi, example_en } = await req.json()
+  const { word, pos, meaning_vi, example_en, mode } = await req.json()
   if (!word) return NextResponse.json({ error: 'Missing word' }, { status: 400 })
 
-  const prompt = `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học IELTS.
+  const prompt = mode === 'kids'
+    ? `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học tiếng Anh.
+Nghĩa: ${meaning_vi}
+Ví dụ: ${example_en}
+
+Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống, và 1 ví dụ mới gần gũi dễ nhớ. Không lặp lại ví dụ gốc. Dùng ngôn ngữ đơn giản, dễ hiểu.`
+    : `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học IELTS.
 Nghĩa: ${meaning_vi}
 Ví dụ: ${example_en}
 
