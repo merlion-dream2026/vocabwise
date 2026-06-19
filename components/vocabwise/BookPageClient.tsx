@@ -38,12 +38,13 @@ const BOOK_CARD_DONE: Record<string, string> = {
 }
 
 function RevisionCard({ book, revNum, score }: { book: string; revNum: number; score?: { score: number; max: number } }) {
-  const startT = (revNum - 1) * 5 + 1
-  const endT   = revNum * 5
-  const rid    = `r${String(revNum).padStart(2, '0')}`
+  const startT  = (revNum - 1) * 5 + 1
+  const endT    = revNum * 5
+  const rid     = `r${String(revNum).padStart(2, '0')}`
+  const grad    = NUM_GRAD[book] ?? 'from-blue-400 to-indigo-500'
   return (
     <Link href={`/vocabwise/${book}/revision/${rid}`}
-      className="block bg-gradient-to-r from-amber-400 to-yellow-400 border-2 border-amber-400 rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all">
+      className={`block bg-gradient-to-r ${grad} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5 min-w-0">
           <span className="text-xl flex-shrink-0">✨</span>
