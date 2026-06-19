@@ -45,6 +45,15 @@ function renderPassage(text: string) {
   return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
 }
 
+const POS_SHORT: Record<string, string> = {
+  noun: 'n', verb: 'v', adjective: 'adj', adverb: 'adv',
+  preposition: 'prep', conjunction: 'conj', pronoun: 'pron',
+  phrase: 'phr', idiom: 'idiom', interjection: 'interj',
+}
+function posShort(pos: string): string {
+  return POS_SHORT[pos?.toLowerCase()] ?? pos
+}
+
 
 function getExerciseTypes(exercises: ExercisesData): string[] {
   return ['ex1', 'ex2', 'ex3', 'ex4', 'ex5']
@@ -372,45 +381,46 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 return (
                   <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
                     onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(displayText) }}>
-                    <summary className="px-4 py-3 cursor-pointer list-none flex items-center gap-3">
+                    <summary className="px-4 py-3 cursor-pointer list-none flex items-start gap-2">
+                      {/* Badge */}
                       {isCollocation ? (
-                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0">
-                          💬
-                        </span>
+                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">💬</span>
                       ) : (
-                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-black text-xs flex items-center justify-center flex-shrink-0">
-                          {item.id}
-                        </span>
+                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">{item.id}</span>
                       )}
+                      {/* Word + POS */}
                       <div className="flex-1 min-w-0">
-                        <span className="font-black text-gray-800 text-sm">{displayText}</span>
-                        {isCollocation ? (
-                          <span className="text-purple-400 text-xs ml-2 italic">collocation</span>
-                        ) : (
-                          <>
-                            <span className="text-gray-400 text-xs ml-2">{item.ipa}</span>
-                            <span className="text-gray-400 text-xs ml-2 italic">{item.pos}</span>
-                          </>
-                        )}
+                        <p className="font-black text-gray-800 text-sm leading-snug">{displayText}</p>
+                        {isCollocation
+                          ? <p className="text-purple-400 text-[11px]">col</p>
+                          : item.pos && <p className="text-gray-400 text-[11px] italic">{posShort(item.pos)}</p>
+                        }
                       </div>
-                      <span className="text-blue-600 font-bold text-sm min-w-0 shrink max-w-[40%] truncate">{(item.meaning_vi ?? '').split(';')[0]}</span>
-                      <button
-                        onClick={e => { e.preventDefault(); speak(displayText) }}
-                        className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-1"
-                        aria-label={`Phát âm ${displayText}`}
-                      >
-                        🔊
-                      </button>
-                      <button
-                        onClick={e => { e.preventDefault(); toggleSave(item) }}
-                        className={`flex-shrink-0 p-1 -mr-1 transition-colors ${savedWords.has(displayText) ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
-                        aria-label={savedWords.has(displayText) ? 'Bỏ lưu' : 'Lưu từ này'}
-                      >
-                        {savedWords.has(displayText) ? '⭐' : '☆'}
-                      </button>
-                      <span className="text-gray-300 font-bold group-open:rotate-180 transition-transform">▾</span>
+                      {/* Meaning — full, up to 2 lines */}
+                      <span className="text-blue-600 font-bold text-sm text-right leading-snug line-clamp-2 max-w-[38%]">
+                        {(item.meaning_vi ?? '').split(';')[0]}
+                      </span>
+                      {/* Speaker + Star stacked */}
+                      <div className="flex flex-col items-center flex-shrink-0">
+                        <button
+                          onClick={e => { e.preventDefault(); speak(displayText) }}
+                          className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors p-1"
+                          aria-label={`Phát âm ${displayText}`}
+                        >🔊</button>
+                        <button
+                          onClick={e => { e.preventDefault(); toggleSave(item) }}
+                          className={`p-1 transition-colors ${savedWords.has(displayText) ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
+                          aria-label={savedWords.has(displayText) ? 'Bỏ lưu' : 'Lưu từ này'}
+                        >{savedWords.has(displayText) ? '⭐' : '☆'}</button>
+                      </div>
+                      {/* Arrow */}
+                      <span className="text-gray-300 group-open:rotate-180 transition-transform flex-shrink-0 self-center text-sm">▾</span>
                     </summary>
-                    <div className="px-4 pb-4 pt-1 border-t border-gray-50 space-y-2">
+                    <div className="px-4 pb-4 pt-2 border-t border-gray-100 space-y-2">
+                      {/* IPA — shown only in expanded */}
+                      {!isCollocation && item.ipa && (
+                        <p className="text-gray-400 text-xs font-mono">{item.ipa}</p>
+                      )}
                       <p className="text-gray-600 text-xs"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
                       <div className="flex items-start gap-1">
                         <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
@@ -418,9 +428,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                           onClick={() => speak(item.example_en)}
                           className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
                           aria-label="Phát âm câu ví dụ"
-                        >
-                          🔊
-                        </button>
+                        >🔊</button>
                       </div>
                       <p className="text-gray-500 text-xs italic">{item.example_vi}</p>
                       {!isCollocation && item.word_family && Object.values(item.word_family).some(v => v) && (
@@ -442,14 +450,15 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.word && (
                         <div className="pt-1">
                           {explanations[item.word] ? (
-                            <div className="bg-indigo-50 border border-indigo-100 rounded-xl px-3 py-2">
-                              <p className="text-indigo-700 text-xs leading-relaxed">💡 {explanations[item.word]}</p>
+                            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
+                              <p className="text-xs font-black text-indigo-600 mb-1.5">💡 Giải thích AI</p>
+                              <p className="text-indigo-800 text-xs leading-relaxed">{explanations[item.word]}</p>
                             </div>
                           ) : (
                             <button
                               onClick={() => explainWord(item)}
                               disabled={explaining.has(item.word)}
-                              className="text-xs font-bold text-indigo-400 hover:text-indigo-600 disabled:opacity-50 transition-colors"
+                              className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
                             >
                               {explaining.has(item.word) ? '⏳ Đang giải thích...' : '💡 Giải thích AI'}
                             </button>
