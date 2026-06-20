@@ -33,15 +33,18 @@ function topicPrefix(slug: string) {
 }
 
 const WELCOME_KEY = 'vw_academic_welcome_v1'
+const PLACEMENT_DISMISS_KEY = 'vw_placement_dismissed_v1'
 
 export default function VocabWisePage() {
   const router = useRouter()
   const [syncMap, setSyncMap] = useState<Record<string, AcademicTopicSync>>({})
   const [session, setSession] = useState<Session | null>(null)
   const [welcomeDismissed, setWelcomeDismissed] = useState(true)
+  const [placementDismissed, setPlacementDismissed] = useState(true)
 
   useEffect(() => {
     setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
+    setPlacementDismissed(!!localStorage.getItem(PLACEMENT_DISMISS_KEY))
     const cid = localStorage.getItem('vw_active_child')
     Promise.all([
       fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
@@ -55,6 +58,11 @@ export default function VocabWisePage() {
   function dismissWelcome() {
     localStorage.setItem(WELCOME_KEY, '1')
     setWelcomeDismissed(true)
+  }
+
+  function dismissPlacement() {
+    localStorage.setItem(PLACEMENT_DISMISS_KEY, '1')
+    setPlacementDismissed(true)
   }
 
   const hasAnyProgress = Object.values(syncMap).some(s => s.completed || s.mastered)
@@ -125,22 +133,32 @@ export default function VocabWisePage() {
           </div>
         )}
 
-        {/* Placement quiz entry — only for new users */}
-        {!hasAnyProgress && (
-          <Link href="/vocabwise/placement"
-            className="block bg-gradient-to-r from-indigo-500 to-blue-500 rounded-2xl px-5 py-4 text-white shadow-md active:scale-[0.99] transition-all">
-            <div className="flex items-center gap-3">
-              <span className="text-3xl flex-shrink-0">🎯</span>
-              <div className="flex-1">
-                <p className="font-black text-base leading-tight">Chưa biết nên bắt đầu từ đâu?</p>
-                <p className="text-white/80 text-xs mt-0.5">Làm bài kiểm tra 10 câu · 2 phút · Nhận gợi ý cấp độ phù hợp</p>
+        {/* Placement quiz entry — only for new users who haven't dismissed */}
+        {!hasAnyProgress && !placementDismissed && (
+          <div className="relative">
+            <Link href="/vocabwise/placement"
+              className="block bg-gradient-to-r from-indigo-500 to-blue-500 rounded-2xl px-5 py-4 text-white shadow-md active:scale-[0.99] transition-all">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl flex-shrink-0">🎯</span>
+                <div className="flex-1">
+                  <p className="font-black text-base leading-tight">Chưa biết nên bắt đầu từ đâu?</p>
+                  <p className="text-white/80 text-xs mt-0.5">Làm bài kiểm tra 10 câu · 2 phút · Nhận gợi ý cấp độ phù hợp</p>
+                </div>
+                <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
               </div>
-              <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
-            </div>
-          </Link>
+            </Link>
+            <button
+              onClick={e => { e.preventDefault(); dismissPlacement() }}
+              className="absolute top-2 right-2 w-6 h-6 rounded-full bg-white/20 hover:bg-white/30 text-white/80 text-xs flex items-center justify-center transition-colors"
+              aria-label="Ẩn gợi ý">
+              ✕
+            </button>
+          </div>
         )}
 
-        <p className="text-gray-500 text-sm text-center">Hoặc chọn cấp độ trực tiếp</p>
+        {!hasAnyProgress && !placementDismissed && (
+          <p className="text-gray-500 text-sm text-center">Hoặc chọn cấp độ trực tiếp</p>
+        )}
 
         {BOOKS.map(book => {
           const prefix = topicPrefix(book.slug)
