@@ -178,7 +178,15 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
   const [deleteConfirm, setDeleteConfirm] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [showChildren, setShowChildren] = useState(false)
-  const [childrenData, setChildrenData] = useState<{ id: string; name: string; emoji: string; level: string; word_count: number; phonics_count: number; topics_count: number; last_active: string | null }[]>([])
+  const [childrenData, setChildrenData] = useState<{
+    id: string; name: string; emoji: string; level: string
+    word_count: number; phonics_count: number; topics_count: number; last_active: string | null
+    total_xp: number; badge_icon: string | null; badge_label: string | null; badge_cls: string | null
+    streak_current: number; streak_last_active: string
+    phonics_seen: number; phonics_mastered: number; phonics_total: number
+    daily_words: number; daily_words_total: number
+    daily_topics: number; daily_topics_total: number
+  }[]>([])
   const [childrenLoading, setChildrenLoading] = useState(false)
 
   const savedUsername = username.trim().toLowerCase()
@@ -537,23 +545,67 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
               ) : (
                 <div className="space-y-2">
                   {childrenData.map(c => (
-                    <div key={c.id} className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2.5 flex items-center justify-between gap-3">
-                      <div className="flex items-center gap-2">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={getAvatarSrc(c.emoji)} alt={c.name} className="w-10 h-10 rounded-full object-cover bg-slate-100" />
-                        <div>
-                          <p className="font-semibold text-sm">{c.name}</p>
-                          <p className="text-slate-500 text-xs">
-                            {c.level}
-                            {c.word_count > 0 && ` · 📖 ${c.word_count} từ`}
-                            {c.topics_count > 0 && ` · ${c.topics_count} chủ đề`}
-                            {c.phonics_count > 0 && ` · 🔤 ${c.phonics_count} phonics`}
-                          </p>
+                    <div key={c.id} className="bg-slate-50 border border-slate-200 rounded-2xl p-3 space-y-2">
+                      {/* Row 1: avatar + name + meta */}
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-2.5">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={getAvatarSrc(c.emoji)} alt={c.name} className="w-10 h-10 rounded-full object-cover bg-slate-100 flex-shrink-0" />
+                          <div>
+                            <p className="font-bold text-sm text-slate-800">{c.name}</p>
+                            <div className="flex items-center gap-1.5 flex-wrap mt-0.5">
+                              <span className="text-[11px] font-semibold text-slate-400 capitalize">{c.level}</span>
+                              {c.total_xp > 0 && (
+                                <span className="text-[11px] font-black text-yellow-600">⭐ {c.total_xp.toLocaleString()} XP</span>
+                              )}
+                              {c.badge_icon && c.badge_label && (
+                                <span className={`text-[10px] font-black px-1.5 py-0.5 rounded-full ${c.badge_cls ?? ''}`}>
+                                  {c.badge_icon} {c.badge_label}
+                                </span>
+                              )}
+                              {c.streak_current > 0 && (() => {
+                                const todayStr = new Date().toISOString().split('T')[0]
+                                const yesterStr = new Date(Date.now() - 86400000).toISOString().split('T')[0]
+                                const la = c.streak_last_active
+                                const icon = la === todayStr ? '🔥' : la === yesterStr ? '⚡' : '💤'
+                                return (
+                                  <span className="text-[11px] font-bold text-orange-500">{icon} {c.streak_current}d</span>
+                                )
+                              })()}
+                            </div>
+                          </div>
                         </div>
+                        <span className="text-[11px] text-slate-400 flex-shrink-0">
+                          {c.last_active ? new Date(c.last_active).toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' }) : 'Chưa học'}
+                        </span>
                       </div>
-                      <p className="text-slate-400 text-xs flex-shrink-0">
-                        {c.last_active ? `🟢 ${new Date(c.last_active).toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' })}` : 'Chưa học'}
-                      </p>
+
+                      {/* Row 2: progress stats */}
+                      {(c.total_xp > 0 || c.phonics_seen > 0 || c.daily_words > 0) && (
+                        <div className="bg-white rounded-xl px-3 py-2 space-y-1.5">
+                          {/* Phonics */}
+                          <div className="flex items-center gap-2 text-[11px]">
+                            <span className="text-slate-500 w-14 flex-shrink-0">🔤 Phonics</span>
+                            <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                              <div className="h-full bg-teal-400 rounded-full" style={{ width: `${c.phonics_total > 0 ? Math.round(c.phonics_seen / c.phonics_total * 100) : 0}%` }} />
+                            </div>
+                            <span className="text-slate-400 w-20 text-right flex-shrink-0">
+                              {c.phonics_seen}/{c.phonics_total} bài
+                              {c.phonics_mastered > 0 && ` · ✓${c.phonics_mastered}`}
+                            </span>
+                          </div>
+                          {/* Daily vocab */}
+                          <div className="flex items-center gap-2 text-[11px]">
+                            <span className="text-slate-500 w-14 flex-shrink-0">📚 Daily</span>
+                            <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                              <div className="h-full bg-purple-400 rounded-full" style={{ width: `${c.daily_words_total > 0 ? Math.round(c.daily_words / c.daily_words_total * 100) : 0}%` }} />
+                            </div>
+                            <span className="text-slate-400 w-20 text-right flex-shrink-0">
+                              {c.daily_words.toLocaleString()} từ · {c.daily_topics} CĐ
+                            </span>
+                          </div>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>

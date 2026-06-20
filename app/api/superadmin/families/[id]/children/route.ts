@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getAdminSession } from '@/lib/auth'
+import {
+  getXPAndBadge, getPhonicsProgress, getAllDailyProgress,
+  type SyncAllLevels,
+} from '@/lib/childProgress'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -25,41 +29,67 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   if (!children || children.length === 0) return NextResponse.json([])
 
   const childIds = children.map(c => c.id)
+
+  // Same columns as /api/sync/[childId] — guarantees consistent computation
   const { data: syncs } = await supabase
     .from('vocab_sync')
-    .select('child_id, level, seen, mastery, updated_at')
+    .select('child_id, level, seen, mastery, history, streak, updated_at')
     .in('child_id', childIds)
 
-  const syncMap: Record<string, { wordCount: number; phonicsCount: number; topicsCount: number; lastActive: string | null }> = {}
+  // Shape into SyncAllLevels per child (same format kids page receives)
+  const syncByChild: Record<string, SyncAllLevels> = {}
+  const lastActiveByChild: Record<string, string> = {}
+  const streakByChild: Record<string, { current: number; lastActive: string }> = {}
 
-  for (const s of syncs ?? []) {
-    const entry = syncMap[s.child_id] ?? { wordCount: 0, phonicsCount: 0, topicsCount: 0, lastActive: null }
+  for (const row of syncs ?? []) {
+    const { child_id, level, seen, mastery, history, streak, updated_at } = row
 
-    if (s.level === 'phonics') {
-      // phonicsCount = number of sound pairs with at least flashcard done
-      const mastery = s.mastery as Record<string, { flashcard?: boolean }> | null
-      if (mastery) {
-        entry.phonicsCount += Object.values(mastery).filter(p => p?.flashcard).length
-      }
-    } else {
-      // wordCount = total words seen across all vocab levels
-      const seen = s.seen as string[] | null
-      entry.wordCount += seen?.length ?? 0
+    if (!syncByChild[child_id]) syncByChild[child_id] = {}
+    syncByChild[child_id][level] = { seen, mastery, history }
 
-      // topicsCount = topics with mastery progress
-      const mastery = s.mastery as Record<string, unknown> | null
-      if (mastery) entry.topicsCount += Object.keys(mastery).length
+    // last active: max updated_at across all levels
+    if (!lastActiveByChild[child_id] || updated_at > lastActiveByChild[child_id]) {
+      lastActiveByChild[child_id] = updated_at
     }
 
-    if (!entry.lastActive || s.updated_at > entry.lastActive) entry.lastActive = s.updated_at
-    syncMap[s.child_id] = entry
+    // streak: same logic as /api/children — max current across all levels
+    const s = streak as { current?: number; lastActive?: string } | null
+    const cur = s?.current ?? 0
+    const la  = s?.lastActive ?? ''
+    const prev = streakByChild[child_id]
+    if (!prev || cur > prev.current) {
+      streakByChild[child_id] = { current: cur, lastActive: la }
+    }
   }
 
-  return NextResponse.json(children.map(c => ({
-    ...c,
-    word_count:    syncMap[c.id]?.wordCount    ?? 0,
-    phonics_count: syncMap[c.id]?.phonicsCount ?? 0,
-    topics_count:  syncMap[c.id]?.topicsCount  ?? 0,
-    last_active:   syncMap[c.id]?.lastActive   ?? null,
-  })))
+  return NextResponse.json(children.map(c => {
+    const sync  = syncByChild[c.id] ?? {}
+    const { totalXP, badge }  = getXPAndBadge(sync)
+    const phonics             = getPhonicsProgress(sync['phonics'])
+    const daily               = getAllDailyProgress(sync)
+    const streak              = streakByChild[c.id] ?? { current: 0, lastActive: '' }
+
+    return {
+      ...c,
+      // raw counts (kept for back-compat)
+      word_count:    daily.seenWords,
+      phonics_count: phonics.seen,
+      topics_count:  daily.topicsCompleted,
+      last_active:   lastActiveByChild[c.id] ?? null,
+      // rich stats
+      total_xp:         totalXP,
+      badge_icon:        badge?.icon  ?? null,
+      badge_label:       badge?.label ?? null,
+      badge_cls:         badge?.cls   ?? null,
+      streak_current:    streak.current,
+      streak_last_active: streak.lastActive,
+      phonics_seen:      phonics.seen,
+      phonics_mastered:  phonics.mastered,
+      phonics_total:     phonics.total,
+      daily_words:       daily.seenWords,
+      daily_words_total: daily.totalWords,
+      daily_topics:      daily.topicsCompleted,
+      daily_topics_total: daily.totalTopics,
+    }
+  }))
 }
