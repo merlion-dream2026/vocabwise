@@ -15,14 +15,34 @@
 | **VocabWise** | Academic · A1 → C2 | Teen/Adult |
 
 ## Business Model
-| Plan | Giá | Tính năng |
-|---|---|---|
-| Free | 0đ | 7 ngày trial · 1 topic/level · 1 hồ sơ bé |
-| Pro 1 tháng | 59.000đ | Toàn bộ nội dung · 10 games · AI phát âm · tối đa 3 bé |
-| Pro 3 tháng | 159.000đ | Như trên |
-| Pro 6 tháng | 299.000đ | Như trên |
+| Plan | Giá | Bé | Gating đặc biệt |
+|---|---|---|---|
+| Free | 0đ | 1 | 7 ngày trial · xem bên dưới |
+| Pro 1 tháng | 59.000đ | 2 | AI Speak 30/ngày · email thủ công |
+| Pro 3 tháng | 159.000đ | 3 | AI Speak ∞ · Word Stress · email auto tuần |
+| Pro 6 tháng | 299.000đ | 3 | + Monthly recap · Gift Pro 14 ngày |
 
 Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
+
+## Feature Gating (nguồn duy nhất: `lib/planUtils.ts`)
+
+| Tính năng | Free | Pro 1T | Pro 3T | Pro 6T |
+|---|---|---|---|---|
+| Kids topics | 1/level | ✅ Full | ✅ Full | ✅ Full |
+| Academic topics | 1/book | ✅ Full | ✅ Full | ✅ Full |
+| Phonics IPA | 1 bài (vowels-short idx 0) | ✅ Full | ✅ Full | ✅ Full |
+| Word Stress | ❌ | ❌ | ✅ | ✅ |
+| My Words | ❌ | ✅ | ✅ | ✅ |
+| SRS ôn từ yếu | ❌ | ✅ | ✅ | ✅ |
+| AI Speak | 5/ngày | 30/ngày | ∞ | ∞ |
+| Push notification | ❌ | ✅ | ✅ | ✅ |
+| Email report | ❌ | Thủ công | Auto tuần | Auto tuần |
+| Monthly recap | ❌ | ❌ | ❌ | ✅ |
+| Gift Pro 14 ngày | ❌ | ❌ | ❌ | ✅ |
+
+Gate helpers (all in `lib/planUtils.ts`): `getPlanTier()`, `canAccessPhonicsLesson(family, levelId, lessonIdx)`, `canAccessWordStress()`, `canAccessMyWords()`, `canAccessSRS()`, `getAISpeakLimit()`.
+
+Gating phụ thuộc vào DB (fetch `/api/auth/me` với `cache: 'no-store'`) — áp dụng ngay khi superadmin thay đổi plan.
 
 ## VocabWise Kids — Curriculum
 - **6 levels:** Seeker (Pre-A1) · Starter (A1) · Ranger (A2) · Explorer (B1) · Scholar (B2) · Master (C1)

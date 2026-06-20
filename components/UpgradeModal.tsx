@@ -57,19 +57,43 @@ export default function UpgradeModal({ onClose, username }: Props) {
         </div>
 
         <div className="p-5 space-y-4 max-h-[80vh] overflow-y-auto">
-          {/* Base features — all plans */}
-          <div className="bg-purple-50 rounded-2xl p-3 space-y-1.5">
-            <p className="text-[11px] font-black text-purple-500 uppercase tracking-wide mb-1">Tất cả gói Pro đều có:</p>
-            {[
-              '📚 Kids: 180 chủ đề · 4.500+ từ · 6 cấp độ CEFR',
-              '🎓 Academic: 3 books · 180 chủ đề · IELTS/SAT',
-              '🎮 10 trò chơi/chủ đề · Mini Story audio',
-              '🔤 Module phát âm IPA đầy đủ',
-              '🔁 SRS ôn tập từ yếu thông minh',
-              '🏆 XP · Streak · Badges · Dashboard phụ huynh',
-            ].map(item => (
-              <p key={item} className="text-xs font-semibold text-purple-700">{item}</p>
-            ))}
+          {/* Comparison table */}
+          <div className="overflow-x-auto rounded-2xl border border-gray-100">
+            <table className="w-full text-xs min-w-[300px]">
+              <thead>
+                <tr className="bg-gray-50 border-b border-gray-100">
+                  <th className="text-left px-3 py-2 font-black text-gray-500 w-[38%]">Tính năng</th>
+                  <th className="px-1 py-2 font-black text-gray-400 text-center">Free</th>
+                  <th className="px-1 py-2 font-black text-purple-600 text-center">1T</th>
+                  <th className="px-1 py-2 font-black text-purple-600 text-center">3T</th>
+                  <th className="px-1 py-2 font-black text-indigo-600 text-center">6T</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-50">
+                {[
+                  ['Hồ sơ bé',       '1',        '2',   '3',   '3'  ],
+                  ['Kids topics',    '1/level',  '✅',  '✅',  '✅' ],
+                  ['Academic topics','1/book',   '✅',  '✅',  '✅' ],
+                  ['Phonics IPA',    '1 bài',    '✅',  '✅',  '✅' ],
+                  ['Word Stress',    '❌',       '❌',  '✅',  '✅' ],
+                  ['My Words ⭐',    '❌',       '✅',  '✅',  '✅' ],
+                  ['SRS ôn từ yếu', '❌',       '✅',  '✅',  '✅' ],
+                  ['AI Speak',       '5/ngày',   '30/ngày', '∞', '∞'],
+                  ['Push notif.',    '❌',       '✅',  '✅',  '✅' ],
+                  ['Email report',   '❌',       'Thủ công','Auto','Auto'],
+                  ['Monthly recap',  '❌',       '❌',  '❌',  '✅' ],
+                  ['🎁 Gift Pro',    '❌',       '❌',  '❌',  '✅' ],
+                ].map(([feat, free, p1, p3, p6]) => (
+                  <tr key={feat} className="hover:bg-gray-50">
+                    <td className="px-3 py-2 font-semibold text-gray-700">{feat}</td>
+                    <td className="px-1 py-2 text-center text-gray-400">{free}</td>
+                    <td className="px-1 py-2 text-center text-purple-600 font-bold">{p1}</td>
+                    <td className="px-1 py-2 text-center text-purple-600 font-bold">{p3}</td>
+                    <td className="px-1 py-2 text-center text-indigo-600 font-bold">{p6}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
 
           {/* Plan selector */}

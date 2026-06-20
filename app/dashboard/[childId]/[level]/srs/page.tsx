@@ -4,6 +4,10 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { initGameSync, recordSrsAnswer, flush } from '@/lib/gameSync'
 import { speak as speakWord } from '@/lib/speak'
+import UpgradeModal from '@/components/UpgradeModal'
+import { canAccessSRS } from '@/lib/planUtils'
+
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
 
 type Word = { word: string; meaning: string; emoji: string }
 
@@ -15,6 +19,8 @@ const LEVEL_LABELS: Record<string, string> = {
 export default function SrsReviewPage() {
   const router = useRouter()
   const { childId, level } = useParams<{ childId: string; level: string }>()
+  const [session, setSession]   = useState<Session | null>(null)
+  const [sessionLoaded, setSessionLoaded] = useState(false)
   const [dueWords, setDueWords] = useState<Word[]>([])
   const [idx, setIdx] = useState(0)
   const [revealed, setRevealed] = useState(false)
@@ -24,6 +30,12 @@ export default function SrsReviewPage() {
 
   const backUrl = `/dashboard/${childId}/${level}`
   const speak = useCallback((t: string) => speakWord(t, { rate: 0.85 }), [])
+
+  useEffect(() => {
+    fetch('/api/auth/me', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(s => { setSession(s); setSessionLoaded(true) })
+  }, [])
 
   useEffect(() => {
     async function load() {
@@ -75,9 +87,15 @@ export default function SrsReviewPage() {
     }
   }
 
-  if (loading) return (
+  if (!sessionLoaded || loading) return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 flex items-center justify-center">
       <div className="text-4xl animate-pulse">📅</div>
+    </div>
+  )
+
+  if (session && !canAccessSRS(session)) return (
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 flex flex-col items-center justify-center px-4 text-center">
+      <UpgradeModal onClose={() => router.back()} username={session.username} />
     </div>
   )
 

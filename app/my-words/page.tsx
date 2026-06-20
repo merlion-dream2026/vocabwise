@@ -1,8 +1,13 @@
 'use client'
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import type { WordList } from '@/components/WordListPicker'
+import UpgradeModal from '@/components/UpgradeModal'
+import { canAccessMyWords } from '@/lib/planUtils'
+
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
 
 type SavedWord = {
   id: number
@@ -40,6 +45,9 @@ function sortWords(words: SavedWord[], key: SortKey) {
 }
 
 export default function MyWordsPage() {
+  const router = useRouter()
+  const [session, setSession]       = useState<Session | null>(null)
+  const [sessionLoaded, setSessionLoaded] = useState(false)
   const [words, setWords]           = useState<SavedWord[]>([])
   const [lists, setLists]           = useState<WordList[]>([])
   const [loading, setLoading]       = useState(true)
@@ -59,9 +67,12 @@ export default function MyWordsPage() {
 
   useEffect(() => {
     Promise.all([
+      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
       fetch('/api/vocabwise/wordlist').then(r => r.ok ? r.json() : { saved: [] }),
       fetch('/api/wordlists').then(r => r.ok ? r.json() : { lists: [] }),
-    ]).then(([wData, lData]) => {
+    ]).then(([sess, wData, lData]) => {
+      setSession(sess)
+      setSessionLoaded(true)
       setWords(wData.saved ?? [])
       setLists(lData.lists ?? [])
     }).finally(() => setLoading(false))
@@ -144,6 +155,18 @@ export default function MyWordsPage() {
     if (w.source === 'academic') return `/vocabwise/${w.book_id}/${w.topic_id}`
     return null
   }
+
+  if (!sessionLoaded) return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="text-4xl animate-pulse">⭐</div>
+    </div>
+  )
+
+  if (session && !canAccessMyWords(session)) return (
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
+      <UpgradeModal onClose={() => router.back()} username={session.username} />
+    </div>
+  )
 
   return (
     <div className="min-h-screen bg-gray-50">

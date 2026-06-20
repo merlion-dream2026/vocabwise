@@ -59,6 +59,53 @@ export function getEffectivePlan(family: FamilyPlanData): EffectivePlanResult {
   return { isProActive, isTrialActive, effectiveEndDate }
 }
 
+// ─── Plan tier ──────────────────────────────────────────────────────────────
+
+export type PlanTier = 'free' | 'pro1' | 'pro3' | 'pro6'
+
+/** Trả về tier thực tế (tính cả bonus Pro, nhưng tier dựa vào plan field). */
+export function getPlanTier(family: FamilyPlanData): PlanTier {
+  const { isProActive } = getEffectivePlan(family)
+  if (!isProActive) return 'free'
+  if (family.plan === '6months') return 'pro6'
+  if (family.plan === '3months') return 'pro3'
+  return 'pro1'
+}
+
+// ─── Feature access gates ────────────────────────────────────────────────────
+
+/** Phonics: free chỉ được bài đầu tiên của level đầu tiên (vowels-short, idx 0). */
+export function canAccessPhonicsLesson(family: FamilyPlanData, levelId: string, lessonIdx: number): boolean {
+  if (getEffectivePlan(family).isProActive) return true
+  return levelId === 'vowels-short' && lessonIdx === 0
+}
+
+/** Word Stress: Pro 3 tháng trở lên. */
+export function canAccessWordStress(family: FamilyPlanData): boolean {
+  const tier = getPlanTier(family)
+  return tier === 'pro3' || tier === 'pro6'
+}
+
+/** My Words: Pro bất kỳ. */
+export function canAccessMyWords(family: FamilyPlanData): boolean {
+  return getEffectivePlan(family).isProActive
+}
+
+/** SRS ôn từ yếu: Pro bất kỳ. */
+export function canAccessSRS(family: FamilyPlanData): boolean {
+  return getEffectivePlan(family).isProActive
+}
+
+/** AI Speak limit: null = unlimited (Pro 3+), 30 (Pro 1), 5 (Free). */
+export function getAISpeakLimit(family: FamilyPlanData): number | null {
+  const tier = getPlanTier(family)
+  if (tier === 'free')  return 5
+  if (tier === 'pro1')  return 30
+  return null
+}
+
+// ─── Bonus days ──────────────────────────────────────────────────────────────
+
 /**
  * Tính bonus_pro_expires_at mới sau khi cộng thêm ngày.
  * Nếu user đã có bonus chưa hết → cộng tiếp từ ngày đó.

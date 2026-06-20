@@ -4,6 +4,10 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { initPhonicsSync, isPairSeen, isLessonMastered, getPairGames } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
+import UpgradeModal from '@/components/UpgradeModal'
+import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
+
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
 
 type ArticleSection = { heading: string; body: string }
 const LEVEL_ARTICLES: Record<string, { intro: string; sections: ArticleSection[] }> = {
@@ -117,21 +121,27 @@ export default function LevelPage() {
   const levelId = decodeURIComponent(params.levelId)
   const [mastery, setMastery] = useState<Record<string, { flashcard: boolean; games: string[] }>>({})
   const [loading, setLoading] = useState(true)
+  const [session, setSession] = useState<Session | null>(null)
+  const [showUpgrade, setShowUpgrade] = useState(false)
 
   const level = phonicsLevels.levels.find(l => l.id === levelId) as Level | undefined
   const backUrl = `/dashboard/${childId}/phonics`
 
   useEffect(() => {
     if (!level) { router.push(backUrl); return }
-    fetch(`/api/sync/${childId}?level=phonics`)
-      .then(r => r.json()).catch(() => null)
-      .then(data => {
-        initPhonicsSync(childId, data)
-        setMastery(data?.mastery ?? {})
-        setLoading(false)
-      })
+    Promise.all([
+      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
+      fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
+    ]).then(([sess, data]) => {
+      setSession(sess)
+      initPhonicsSync(childId, data)
+      setMastery(data?.mastery ?? {})
+      setLoading(false)
+    })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [childId, levelId])
+
+  const isPro = session ? getEffectivePlan(session).isProActive : false
 
   if (!level || loading) return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -145,6 +155,7 @@ export default function LevelPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-10">
+      {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />}
       {/* Header */}
       <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-12 pb-6 text-white`}>
         <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
@@ -177,18 +188,19 @@ export default function LevelPage() {
           border={level.border}
         />
         {level.lessons.map((lesson, idx) => {
-          const seen     = mastery[lesson.id]?.flashcard ?? false
-          const games    = mastery[lesson.id]?.games ?? []
-          const mastered = lessonMastered(lesson, mastery)
+          const seen        = mastery[lesson.id]?.flashcard ?? false
+          const games       = mastery[lesson.id]?.games ?? []
+          const mastered    = lessonMastered(lesson, mastery)
           const gamesPlayed = games.length
+          const lessonFree  = !isPro && !canAccessPhonicsLesson(session ?? { plan: 'free' }, levelId, idx)
 
           return (
             <button key={lesson.id}
-              onClick={() => router.push(`/dashboard/${childId}/phonics/${levelId}/${lesson.id}`)}
-              className={`w-full text-left rounded-2xl p-4 shadow-sm border-2 border-gray-100 bg-white active:scale-95 transition-transform`}>
+              onClick={() => lessonFree ? setShowUpgrade(true) : router.push(`/dashboard/${childId}/phonics/${levelId}/${lesson.id}`)}
+              className={`w-full text-left rounded-2xl p-4 shadow-sm border-2 border-gray-100 bg-white active:scale-95 transition-transform ${lessonFree ? 'opacity-60' : ''}`}>
               <div className="flex items-center gap-3">
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl flex-shrink-0 bg-gradient-to-br ${level.gradient}`}>
-                  {mastered ? '🏆' : lesson.emoji}
+                  {lessonFree ? '🔒' : mastered ? '🏆' : lesson.emoji}
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
@@ -196,19 +208,20 @@ export default function LevelPage() {
                     <span className="text-xs text-gray-400 font-semibold">{lesson.subtitle}</span>
                   </div>
                   <div className="flex gap-1.5 mt-1 flex-wrap">
-                    {!seen && <span className="text-xs text-gray-400 font-semibold">Chưa học</span>}
-                    {seen && !mastered && gamesPlayed === 0 && (
+                    {lessonFree && <span className="text-xs text-amber-600 font-bold">Pro để mở 🔓</span>}
+                    {!lessonFree && !seen && <span className="text-xs text-gray-400 font-semibold">Chưa học</span>}
+                    {!lessonFree && seen && !mastered && gamesPlayed === 0 && (
                       <span className="text-xs bg-green-100 text-green-700 font-bold px-2 py-0.5 rounded-full">📖 Đã học</span>
                     )}
-                    {seen && !mastered && gamesPlayed > 0 && (
+                    {!lessonFree && seen && !mastered && gamesPlayed > 0 && (
                       <span className="text-xs bg-blue-100 text-blue-700 font-bold px-2 py-0.5 rounded-full">
                         {gamesPlayed}/{lesson.masteryGames.length} 🎮
                       </span>
                     )}
-                    {mastered && <span className="text-xs bg-amber-100 text-amber-700 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
+                    {!lessonFree && mastered && <span className="text-xs bg-amber-100 text-amber-700 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
                   </div>
                 </div>
-                <span className={`${level.text} font-black text-lg flex-shrink-0`}>→</span>
+                <span className={`${lessonFree ? 'text-gray-300' : level.text} font-black text-lg flex-shrink-0`}>{lessonFree ? '🔒' : '→'}</span>
               </div>
             </button>
           )

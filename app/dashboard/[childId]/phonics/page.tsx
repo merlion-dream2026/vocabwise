@@ -4,10 +4,13 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { initPhonicsSync, getPhonicsStreak, getWeakSounds } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
+import UpgradeModal from '@/components/UpgradeModal'
+import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
 
 type Level     = typeof phonicsLevels.levels[number]
 type MasteryMap = Record<string, { flashcard: boolean; games: string[] }>
 type LessonBase = { id: string; masteryGames: string[] }
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
 
 const TOTAL_LESSONS = phonicsLevels.levels.reduce((s, l) => s + l.lessons.length, 0)
 
@@ -29,26 +32,33 @@ function isLessonMasteredLocal(lesson: LessonBase, mastery: MasteryMap): boolean
   return lesson.masteryGames.every(g => m.games.includes(g))
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function isLevelUnlocked(_levelIdx: number, _mastery: MasteryMap): boolean {
-  return true
-}
+// Free tier: only first level (vowels-short) is accessible
+const FREE_PHONICS_LEVEL = 'vowels-short'
 
 export default function PhonicsHub() {
   const router = useRouter()
   const { childId } = useParams<{ childId: string }>()
   const [mastery, setMastery] = useState<MasteryMap>({})
   const [loading, setLoading] = useState(true)
+  const [session, setSession] = useState<Session | null>(null)
+  const [showUpgrade, setShowUpgrade] = useState(false)
 
   useEffect(() => {
-    fetch(`/api/sync/${childId}?level=phonics`)
-      .then(r => r.json()).catch(() => null)
-      .then(data => {
-        initPhonicsSync(childId, data)
-        setMastery(data?.mastery ?? {})
-        setLoading(false)
-      })
+    Promise.all([
+      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
+      fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
+    ]).then(([sess, data]) => {
+      setSession(sess)
+      initPhonicsSync(childId, data)
+      setMastery(data?.mastery ?? {})
+      setLoading(false)
+    })
   }, [childId])
+
+  const isPro = session ? getEffectivePlan(session).isProActive : false
+  const hasWordStress = session ? canAccessWordStress(session) : false
+
+  if (showUpgrade) return <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />
 
   if (loading) return (
     <div className="min-h-screen bg-gray-50 animate-pulse">
@@ -137,8 +147,8 @@ export default function PhonicsHub() {
         <div className="space-y-2">
           <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-1">📚 CÁC LEVEL ({phonicsLevels.levels.length})</p>
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden divide-y divide-gray-100">
-            {phonicsLevels.levels.map((level: Level, idx) => {
-              const unlocked      = isLevelUnlocked(idx, mastery)
+            {phonicsLevels.levels.map((level: Level) => {
+              const unlocked      = isPro || level.id === FREE_PHONICS_LEVEL
               const masteredCount = (level.lessons as LessonBase[]).filter(l => isLessonMasteredLocal(l, mastery)).length
               const seenCount     = level.lessons.filter(l => mastery[l.id]?.flashcard).length
               const masteredPct   = level.lessons.length > 0 ? Math.round((masteredCount / level.lessons.length) * 100) : 0
@@ -146,9 +156,8 @@ export default function PhonicsHub() {
 
               return (
                 <button key={level.id}
-                  onClick={() => unlocked && router.push(`/dashboard/${childId}/phonics/${level.id}`)}
-                  disabled={!unlocked}
-                  className={`w-full text-left px-4 py-3.5 flex items-center gap-3 transition-colors ${unlocked ? 'hover:bg-gray-50 active:bg-gray-100' : 'opacity-50'}`}>
+                  onClick={() => unlocked ? router.push(`/dashboard/${childId}/phonics/${level.id}`) : setShowUpgrade(true)}
+                  className={`w-full text-left px-4 py-3.5 flex items-center gap-3 transition-colors ${unlocked ? 'hover:bg-gray-50 active:bg-gray-100' : 'opacity-60'}`}>
 
                   {/* Level icon */}
                   <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${level.gradient} flex items-center justify-center text-2xl flex-shrink-0 shadow-sm`}>
@@ -176,10 +185,8 @@ export default function PhonicsHub() {
                     {unlocked && seenCount === 0 && (
                       <p className="text-xs text-gray-400 mt-0.5">{level.subtitle}</p>
                     )}
-                    {!unlocked && idx > 0 && (
-                      <p className="text-xs text-gray-400 mt-0.5">
-                        Thành thạo ≥3 bài &ldquo;{phonicsLevels.levels[idx - 1].titleVi}&rdquo; để mở 🔓
-                      </p>
+                    {!unlocked && (
+                      <p className="text-xs text-gray-400 mt-0.5">Nâng cấp Pro để mở 🔓</p>
                     )}
                   </div>
 
@@ -203,14 +210,17 @@ export default function PhonicsHub() {
               </div>
               <span className="text-gray-300 text-sm">›</span>
             </button>
-            <button onClick={() => router.push(`/dashboard/${childId}/phonics/stress`)}
-              className="w-full flex items-center gap-3 px-4 py-3.5 hover:bg-gray-50 active:bg-gray-100 transition-colors">
+            <button
+              onClick={() => hasWordStress ? router.push(`/dashboard/${childId}/phonics/stress`) : setShowUpgrade(true)}
+              className={`w-full flex items-center gap-3 px-4 py-3.5 hover:bg-gray-50 active:bg-gray-100 transition-colors ${!hasWordStress ? 'opacity-60' : ''}`}>
               <span className="text-2xl">📢</span>
               <div className="text-left flex-1">
-                <p className="font-semibold text-gray-800 text-sm">Trọng âm từ</p>
+                <p className="font-semibold text-gray-800 text-sm">Trọng âm từ
+                  {!hasWordStress && <span className="ml-2 text-[10px] font-black bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">Pro 3 tháng+</span>}
+                </p>
                 <p className="text-xs text-gray-400">Nghe → tap âm tiết được nhấn</p>
               </div>
-              <span className="text-gray-300 text-sm">›</span>
+              <span className="text-gray-300 text-sm">{hasWordStress ? '›' : '🔒'}</span>
             </button>
           </div>
         </div>

@@ -3,11 +3,15 @@
 // Word Stress module — hear a word, tap the stressed syllable.
 // Based on Cambridge PIU Elementary Section B (Units 28-32).
 
-import { useState, useCallback, useRef } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import Confetti from '@/components/Confetti'
+import UpgradeModal from '@/components/UpgradeModal'
 import wordStressData from '@/data/wordStress.json'
+import { canAccessWordStress } from '@/lib/planUtils'
+
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
 
 type StressWord = { word: string; syllables: string[]; stress: number; emoji: string; vi: string }
 type Group = { id: string; title: string; subtitle: string; emoji: string; words: StressWord[] }
@@ -26,6 +30,14 @@ type Phase = 'listening' | 'choosing' | 'result'
 export default function WordStressPage() {
   const router = useRouter()
   const { childId } = useParams<{ childId: string }>()
+  const [session, setSession] = useState<Session | null>(null)
+  const [sessionLoaded, setSessionLoaded] = useState(false)
+
+  useEffect(() => {
+    fetch('/api/auth/me', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(s => { setSession(s); setSessionLoaded(true) })
+  }, [])
 
   const groups = wordStressData.groups as Group[]
   const [questions] = useState<StressWord[]>(() => buildRound(groups))
@@ -89,6 +101,19 @@ export default function WordStressPage() {
     setGameDone(false); setShowConfetti(false); setGameStarted(false)
     speakingRef.current = false
   }
+
+  // Gate: Pro 3+ only
+  if (!sessionLoaded) return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="text-4xl animate-pulse">📢</div>
+    </div>
+  )
+
+  if (session && !canAccessWordStress(session)) return (
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
+      <UpgradeModal onClose={() => router.back()} username={session.username} />
+    </div>
+  )
 
   if (gameDone) {
     const finalScore = score
