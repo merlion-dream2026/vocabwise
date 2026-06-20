@@ -177,7 +177,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
   const [deleteConfirm, setDeleteConfirm] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [showChildren, setShowChildren] = useState(false)
-  const [childrenData, setChildrenData] = useState<{ id: string; name: string; avatar: string; level: string; word_count: number; phonics_count: number; last_active: string | null }[]>([])
+  const [childrenData, setChildrenData] = useState<{ id: string; name: string; emoji: string; level: string; word_count: number; phonics_count: number; last_active: string | null }[]>([])
   const [childrenLoading, setChildrenLoading] = useState(false)
 
   const savedUsername = username.trim().toLowerCase()
@@ -538,7 +538,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                   {childrenData.map(c => (
                     <div key={c.id} className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2.5 flex items-center justify-between gap-3">
                       <div className="flex items-center gap-2">
-                        <span className="text-2xl">{c.avatar || '👤'}</span>
+                        <span className="text-2xl">{c.emoji || '👤'}</span>
                         <div>
                           <p className="font-semibold text-sm">{c.name}</p>
                           <p className="text-slate-500 text-xs">{c.level} · {c.word_count} từ{c.phonics_count > 0 ? ` · 🔤 ${c.phonics_count} cặp phonics` : ''}</p>

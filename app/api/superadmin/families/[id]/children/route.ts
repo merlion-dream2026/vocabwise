@@ -18,7 +18,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
 
   const { data: children } = await supabase
     .from('children')
-    .select('id, name, avatar, color, level, created_at')
+    .select('id, name, emoji, level, created_at')
     .eq('family_id', params.id)
     .order('created_at')
 
