@@ -186,6 +186,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     phonics_seen: number; phonics_mastered: number; phonics_total: number
     daily_words: number; daily_words_total: number
     daily_topics: number; daily_topics_total: number
+    academic_completed: number; academic_total: number
   }[]>([])
   const [childrenLoading, setChildrenLoading] = useState(false)
 
@@ -581,7 +582,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                       </div>
 
                       {/* Row 2: progress stats */}
-                      {(c.total_xp > 0 || c.phonics_seen > 0 || c.daily_words > 0) && (
+                      {(c.total_xp > 0 || c.phonics_seen > 0 || c.daily_words > 0 || c.academic_completed > 0) && (
                         <div className="bg-white rounded-xl px-3 py-2 space-y-1.5">
                           {/* Phonics */}
                           <div className="flex items-center gap-2 text-[11px]">
@@ -604,6 +605,18 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                               {c.daily_words.toLocaleString()} từ · {c.daily_topics} CĐ
                             </span>
                           </div>
+                          {/* Academic */}
+                          {c.academic_completed > 0 && (
+                            <div className="flex items-center gap-2 text-[11px]">
+                              <span className="text-slate-500 w-14 flex-shrink-0">🎓 Academic</span>
+                              <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                                <div className="h-full bg-indigo-400 rounded-full" style={{ width: `${c.academic_total > 0 ? Math.round(c.academic_completed / c.academic_total * 100) : 0}%` }} />
+                              </div>
+                              <span className="text-slate-400 w-20 text-right flex-shrink-0">
+                                {c.academic_completed}/{c.academic_total} CĐ
+                              </span>
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>

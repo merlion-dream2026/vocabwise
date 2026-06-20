@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getAdminSession } from '@/lib/auth'
 import {
-  getXPAndBadge, getPhonicsProgress, getAllDailyProgress,
+  getXPAndBadge, getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
 
@@ -63,11 +63,12 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   }
 
   return NextResponse.json(children.map(c => {
-    const sync  = syncByChild[c.id] ?? {}
-    const { totalXP, badge }  = getXPAndBadge(sync)
-    const phonics             = getPhonicsProgress(sync['phonics'])
-    const daily               = getAllDailyProgress(sync)
-    const streak              = streakByChild[c.id] ?? { current: 0, lastActive: '' }
+    const sync    = syncByChild[c.id] ?? {}
+    const { totalXP, badge } = getXPAndBadge(sync)
+    const phonics            = getPhonicsProgress(sync['phonics'])
+    const daily              = getAllDailyProgress(sync)
+    const academic           = getAllAcademicProgress(sync['academic'])
+    const streak             = streakByChild[c.id] ?? { current: 0, lastActive: '' }
 
     return {
       ...c,
@@ -77,19 +78,21 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
       topics_count:  daily.topicsCompleted,
       last_active:   lastActiveByChild[c.id] ?? null,
       // rich stats
-      total_xp:         totalXP,
-      badge_icon:        badge?.icon  ?? null,
-      badge_label:       badge?.label ?? null,
-      badge_cls:         badge?.cls   ?? null,
-      streak_current:    streak.current,
-      streak_last_active: streak.lastActive,
-      phonics_seen:      phonics.seen,
-      phonics_mastered:  phonics.mastered,
-      phonics_total:     phonics.total,
-      daily_words:       daily.seenWords,
-      daily_words_total: daily.totalWords,
-      daily_topics:      daily.topicsCompleted,
-      daily_topics_total: daily.totalTopics,
+      total_xp:           totalXP,
+      badge_icon:          badge?.icon  ?? null,
+      badge_label:         badge?.label ?? null,
+      badge_cls:           badge?.cls   ?? null,
+      streak_current:      streak.current,
+      streak_last_active:  streak.lastActive,
+      phonics_seen:        phonics.seen,
+      phonics_mastered:    phonics.mastered,
+      phonics_total:       phonics.total,
+      daily_words:         daily.seenWords,
+      daily_words_total:   daily.totalWords,
+      daily_topics:        daily.topicsCompleted,
+      daily_topics_total:  daily.totalTopics,
+      academic_completed:  academic.completed,
+      academic_total:      academic.total,
     }
   }))
 }
