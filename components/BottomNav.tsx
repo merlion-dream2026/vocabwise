@@ -48,7 +48,7 @@ const MODULE_TABS = [
   { key: 'phonics',   label: 'Phonics',      icon: '🔊', needsChild: true  },
   { key: 'daily',     label: 'Daily',        icon: '📖', needsChild: true  },
   { key: 'academic',  label: 'Academic',     icon: '🎓', needsChild: false },
-  { key: 'mywords',   label: 'Từ của tôi',  icon: '⭐', needsChild: false },
+  { key: 'mywords',   label: 'My Words',    icon: '⭐', needsChild: false },
   { key: 'dashboard', label: 'Dashboard',    icon: '📊', needsChild: false },
 ]
 
