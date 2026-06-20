@@ -240,31 +240,6 @@ export default function LandingPage() {
           </button>
         </div>
 
-        {/* Stats bar */}
-        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs lg:text-sm text-gray-400 mb-10">
-          <span>📚 <strong className="text-gray-700">4.500+</strong> từ vựng</span>
-          <span>📊 <strong className="text-gray-700">180+</strong> chủ đề học thuật</span>
-          <span>🎮 <strong className="text-gray-700">10</strong> trò chơi/chủ đề</span>
-          <span>🎤 AI <strong className="text-gray-700">chấm phát âm</strong> ngay lập tức</span>
-          <span>🆓 Thử <strong className="text-gray-700">miễn phí</strong> 7 ngày</span>
-        </div>
-
-        {/* 3 module cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
-          {SECTIONS.map(s => (
-            <div key={s.title} className={`rounded-2xl border-2 p-4 text-left ${s.cardCls} ${!s.available ? 'opacity-70' : ''}`}>
-              <div className="flex flex-wrap items-center gap-1 mb-2">
-                <span className="text-2xl">{s.emoji}</span>
-                {!s.available && (
-                  <span className="text-[10px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 whitespace-nowrap">🔜 Sắp ra</span>
-                )}
-              </div>
-              <p className={`font-black text-sm ${s.accentCls} leading-tight`}>{s.title}</p>
-              <p className={`text-[10px] font-black px-1.5 py-0.5 rounded-full mt-1 inline-block ${s.badgeCls}`}>{s.badge}</p>
-              <p className="text-gray-500 text-xs mt-1.5 leading-snug">{s.desc}</p>
-            </div>
-          ))}
-        </div>
       </div>
       </section>
 
