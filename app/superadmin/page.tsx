@@ -178,7 +178,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
   const [deleteConfirm, setDeleteConfirm] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [showChildren, setShowChildren] = useState(false)
-  const [childrenData, setChildrenData] = useState<{ id: string; name: string; emoji: string; level: string; word_count: number; phonics_count: number; last_active: string | null }[]>([])
+  const [childrenData, setChildrenData] = useState<{ id: string; name: string; emoji: string; level: string; word_count: number; phonics_count: number; topics_count: number; last_active: string | null }[]>([])
   const [childrenLoading, setChildrenLoading] = useState(false)
 
   const savedUsername = username.trim().toLowerCase()
@@ -543,7 +543,12 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                         <img src={getAvatarSrc(c.emoji)} alt={c.name} className="w-10 h-10 rounded-full object-cover bg-slate-100" />
                         <div>
                           <p className="font-semibold text-sm">{c.name}</p>
-                          <p className="text-slate-500 text-xs">{c.level} · {c.word_count} từ{c.phonics_count > 0 ? ` · 🔤 ${c.phonics_count} cặp phonics` : ''}</p>
+                          <p className="text-slate-500 text-xs">
+                            {c.level}
+                            {c.word_count > 0 && ` · 📖 ${c.word_count} từ`}
+                            {c.topics_count > 0 && ` · ${c.topics_count} chủ đề`}
+                            {c.phonics_count > 0 && ` · 🔤 ${c.phonics_count} phonics`}
+                          </p>
                         </div>
                       </div>
                       <p className="text-slate-400 text-xs flex-shrink-0">
