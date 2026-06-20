@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, FormEvent } from 'react'
 import { AreaChart, Area, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts'
+import { getAvatarSrc } from '@/lib/avatars'
 
 
 type Family = {
@@ -538,7 +539,8 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                   {childrenData.map(c => (
                     <div key={c.id} className="bg-slate-50 border border-slate-200 rounded-2xl px-3 py-2.5 flex items-center justify-between gap-3">
                       <div className="flex items-center gap-2">
-                        <span className="text-2xl">{c.emoji || '👤'}</span>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={getAvatarSrc(c.emoji)} alt={c.name} className="w-10 h-10 rounded-full object-cover bg-slate-100" />
                         <div>
                           <p className="font-semibold text-sm">{c.name}</p>
                           <p className="text-slate-500 text-xs">{c.level} · {c.word_count} từ{c.phonics_count > 0 ? ` · 🔤 ${c.phonics_count} cặp phonics` : ''}</p>
