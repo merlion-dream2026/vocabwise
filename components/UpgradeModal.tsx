@@ -53,7 +53,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
           <button onClick={onClose} className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
           <p className="text-4xl mb-1">⭐</p>
           <h2 className="text-white font-black text-xl">Nâng cấp Pro</h2>
-          <p className="text-white/80 text-sm font-semibold mt-0.5">180 chủ đề · 2.300+ từ · Gói dài = nhiều ưu đãi hơn</p>
+          <p className="text-white/80 text-sm font-semibold mt-0.5">4.500+ từ · Kids + Academic · Gói dài = nhiều ưu đãi hơn</p>
         </div>
 
         <div className="p-5 space-y-4 max-h-[80vh] overflow-y-auto">
@@ -61,7 +61,8 @@ export default function UpgradeModal({ onClose, username }: Props) {
           <div className="bg-purple-50 rounded-2xl p-3 space-y-1.5">
             <p className="text-[11px] font-black text-purple-500 uppercase tracking-wide mb-1">Tất cả gói Pro đều có:</p>
             {[
-              '📚 180 chủ đề · 2.300+ từ vựng (6 levels)',
+              '📚 Kids: 180 chủ đề · 4.500+ từ · 6 cấp độ CEFR',
+              '🎓 Academic: 3 books · 180 chủ đề · IELTS/SAT',
               '🎮 10 trò chơi/chủ đề · Mini Story audio',
               '🔤 Module phát âm IPA đầy đủ',
               '🔁 SRS ôn tập từ yếu thông minh',

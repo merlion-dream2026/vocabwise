@@ -19,9 +19,9 @@ const MESSAGE = (pct: number) =>
 
 export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr, onClose }: Props) {
   function handleShare() {
-    const text = `${MEDAL(pct)} ${MESSAGE(pct)}\n\n📖 Chủ đề: "${topicTitle}"\n🎯 Điểm: ${score}/${maxScore} (${pct}%)\n\n🎓 VocabWise Academic${cefr ? ` · ${cefr}` : ''}\nvocabwise.vercel.app`
+    const text = `${MEDAL(pct)} ${MESSAGE(pct)}\n\n📖 Chủ đề: "${topicTitle}"\n🎯 Điểm: ${score}/${maxScore} (${pct}%)\n\n🎓 VocabWise Academic${cefr ? ` · ${cefr}` : ''}\nvocabwise.id.vn`
     if (navigator.share) {
-      navigator.share({ title: 'VocabWise — Kết quả học tập', text, url: 'https://vocabwise.vercel.app' }).catch(() => {})
+      navigator.share({ title: 'VocabWise — Kết quả học tập', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
     } else {
       navigator.clipboard?.writeText(text).catch(() => {})
       alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')
@@ -67,7 +67,7 @@ export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr,
 
             {/* Message */}
             <p className="font-black text-lg leading-tight mb-1">{MESSAGE(pct)}</p>
-            <p className="text-white/70 text-xs mb-5">vocabwise.vercel.app</p>
+            <p className="text-white/70 text-xs mb-5">vocabwise.id.vn</p>
 
             {/* Score card */}
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl px-4 py-4 space-y-3 mb-5">

@@ -32,10 +32,10 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
       `🏆 ${childName ? childName + ' vừa' : 'Vừa'} chinh phục chủ đề ${topicEmoji} ${topicName}!`,
       `📚 VocabWise Daily${level ? ` · ${level}` : ''}`,
       'Học tiếng Anh vui và hiệu quả',
-      'vocabwise.vercel.app',
+      'vocabwise.id.vn',
     ].join('\n')
     if (navigator.share) {
-      navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.vercel.app' }).catch(() => {})
+      navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
     } else {
       navigator.clipboard?.writeText(text).catch(() => {})
       alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 type ReferralItem = {
   id: string

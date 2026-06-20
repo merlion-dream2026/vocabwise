@@ -13,7 +13,7 @@ const nunito = Nunito({
   display: 'swap',
 })
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 export const viewport: Viewport = {
   themeColor: '#9333ea',

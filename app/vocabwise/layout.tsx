@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 export const metadata: Metadata = {
   title: 'VocabWise Academic — Từ Vựng IELTS/SAT A1–C2',

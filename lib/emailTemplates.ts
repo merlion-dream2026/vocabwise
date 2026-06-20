@@ -1,4 +1,4 @@
-const BASE_URL = 'https://vocabwise.vercel.app'
+const BASE_URL = 'https://vocabwise.id.vn'
 
 function avatarImg(id: string, name: string, size = 40): string {
   return `<img src="${BASE_URL}/avatars/${id}.png" width="${size}" height="${size}" alt="${name}" style="border-radius:50%;display:block;">`

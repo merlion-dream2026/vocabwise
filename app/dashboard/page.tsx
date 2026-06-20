@@ -1010,7 +1010,7 @@ function PushNotificationContent() {
           )}
           {status === 'denied' && (
             <p className="text-xs text-orange-500 font-semibold mt-2 text-center">
-              Vào Cài đặt → trình duyệt → Thông báo → cho phép vocabwise.vercel.app
+              Vào Cài đặt → trình duyệt → Thông báo → cho phép vocabwise.id.vn
             </p>
           )}
         </>
@@ -1055,7 +1055,7 @@ function CollapsibleCard({ title, subtitle, defaultOpen = true, warn = false, ch
 }
 
 // ── Settings tab ──────────────────────────────────────────────────────────────
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 const FONT_OPTIONS = [
   { value: '', label: 'Mặc định', size: 'A' },

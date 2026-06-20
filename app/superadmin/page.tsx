@@ -187,7 +187,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
         <tr><td style="padding:8px 0;color:#666">Gói:</td><td style="padding:8px 0;font-weight:bold">${planLabel}</td></tr>
         ${planEndDate ? `<tr><td style="padding:8px 0;color:#666">Hết hạn:</td><td style="padding:8px 0;font-weight:bold">${fmtDate(planEndDate)}</td></tr>` : ''}
       </table>
-      <p style="margin-top:24px">Truy cập tại: <a href="https://vocabwise.vercel.app">VocabWise</a></p>
+      <p style="margin-top:24px">Truy cập tại: <a href="https://vocabwise.id.vn">VocabWise</a></p>
     </div>`
 
   const messageText =
@@ -196,7 +196,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     (notifPassword ? `• Mật khẩu: ${notifPassword}\n` : '') +
     `• Gói: ${planLabel}\n` +
     (planEndDate ? `• Hết hạn: ${fmtDate(planEndDate)}\n` : '') +
-    `\nTruy cập: https://vocabwise.vercel.app`
+    `\nTruy cập: https://vocabwise.id.vn`
 
   async function save(e: FormEvent) {
     e.preventDefault()

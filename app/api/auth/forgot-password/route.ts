@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
     .update({ reset_token: token, reset_token_expires_at: expiresAt })
     .eq('id', family.id)
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
   const resetUrl = `${appUrl}/reset-password?token=${token}`
 
   await sendEmail({

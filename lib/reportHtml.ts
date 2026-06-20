@@ -1,6 +1,6 @@
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 function avatarImg(emoji: string, name: string, size = 40): string {
   return `<img src="${APP_URL}/avatars/${emoji}.png" width="${size}" height="${size}" alt="${name}" style="border-radius:50%;display:block;">`
@@ -130,7 +130,7 @@ export function buildMonthlyRecapHtml(
     </div>
     ${childBlocks}
     <div style="text-align:center;margin-top:20px;">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'}/dashboard"
+      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'}/dashboard"
         style="display:inline-block;background:linear-gradient(135deg,#4f46e5,#ec4899);color:#fff;font-weight:900;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
         Xem Dashboard →
       </a>
@@ -232,7 +232,7 @@ export function buildReportHtml(username: string, rows: { child: ChildRow; sync:
     </div>
     ${childBlocks}
     <div style="text-align:center;margin-top:20px;">
-      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'}/dashboard"
+      <a href="${process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'}/dashboard"
         style="display:inline-block;background:linear-gradient(135deg,#7c3aed,#ec4899);color:#fff;font-weight:900;font-size:15px;padding:14px 32px;border-radius:50px;text-decoration:none;">
         Vào học ngay →
       </a>

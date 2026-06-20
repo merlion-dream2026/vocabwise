@@ -66,6 +66,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     const cfCountry = req.headers.get('cf-ipcountry') ?? undefined
     if (checkImpossibleTravel(profile, ip, cfCountry)) {
       console.warn(`[SECURITY] Impossible travel: family=${familyId} ip=${ip} country=${cfCountry}`)
+      return NextResponse.json({ error: 'Access denied.' }, { status: 429 })
     }
     updateRequestMetadata(familyId, ip, cfCountry)
   }

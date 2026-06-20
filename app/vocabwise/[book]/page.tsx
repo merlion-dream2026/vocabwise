@@ -19,7 +19,7 @@ const BOOK_INFO: Record<string, { title: string; cefr: string; color: string; em
 
 const BOOK_ID: Record<string, number> = { book1: 1, book2: 2, book3: 3 }
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 export async function generateMetadata({ params }: { params: Promise<{ book: string }> }): Promise<Metadata> {
   const { book } = await params

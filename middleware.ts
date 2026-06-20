@@ -30,7 +30,7 @@ const RATE_LIMITS: Record<string, [number, number]> = {
 
 // Content endpoint rate limits by user (family_id): [max, window ms]
 const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
-  '/api/vocabwise/topics': [120, 60_000],  // 120/min per user (~2/sec, normal usage)
+  '/api/vocabwise/topics': [60, 60_000],   // 60/min per user (industry standard)
   '/api/words':            [60,  60_000],  // 60/min per user
   '/api/stories':          [60,  60_000],  // 60/min per user
 }

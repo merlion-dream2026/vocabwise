@@ -32,9 +32,9 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
   function handleShare() {
     const text = `Tôi vừa đạt ${mastered}/${total} chủ đề thành thạo trong ${bookTitle} (${cefr}) trên VocabWise! 🎓`
     if (navigator.share) {
-      navigator.share({ title: 'VocabWise — Chứng nhận học tập', text, url: 'https://vocabwise.vercel.app' }).catch(() => {})
+      navigator.share({ title: 'VocabWise — Chứng nhận học tập', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
     } else {
-      navigator.clipboard?.writeText(text + '\nhttps://vocabwise.vercel.app').catch(() => {})
+      navigator.clipboard?.writeText(text + '\nhttps://vocabwise.id.vn').catch(() => {})
       alert('Đã sao chép nội dung! Dán vào Zalo/Facebook để chia sẻ.')
     }
   }
@@ -140,7 +140,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
                 <span className="font-black text-gray-500">VocabWise 🏆</span>
               </div>
 
-              <p className="text-[9px] text-gray-300 font-semibold tracking-wide">vocabwise.vercel.app</p>
+              <p className="text-[9px] text-gray-300 font-semibold tracking-wide">vocabwise.id.vn</p>
 
             </div>
           </div>

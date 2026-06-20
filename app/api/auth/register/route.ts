@@ -61,7 +61,7 @@ async function trackRegistrationIP(ip: string): Promise<void> {
     reviewed: false,
   })
 
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
   sendEmail({
     to: SUPERADMIN_EMAIL,
     subject: `⚠️ [VocabWise] IP đăng ký bất thường: ${ip}`,

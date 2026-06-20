@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
       const trialExpires = family.free_trial_expires_at
         ? new Date(family.free_trial_expires_at).toLocaleDateString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
         : '—'
-      const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.vercel.app'
+      const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
       const row = (label: string, value: string) =>
         `<tr><td style="padding:7px 0;color:#888;width:130px;font-size:14px">${label}</td><td style="font-size:14px;color:#111">${value}</td></tr>`
 
