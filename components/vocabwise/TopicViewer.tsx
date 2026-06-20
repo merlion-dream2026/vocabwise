@@ -7,6 +7,7 @@ import VWFlashcard from './VWFlashcard'
 import EWordClass from './EWordClass'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import type { ExercisesData } from './types'
+import WordListPicker from '@/components/WordListPicker'
 
 type GlossaryItem = {
   id: number
@@ -89,6 +90,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
   const [savedWords,   setSavedWords]   = useState<Set<string>>(new Set())
+  const [pickerItem,   setPickerItem]   = useState<GlossaryItem | null>(null)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining,   setExplaining]   = useState<Set<string>>(new Set())
 
@@ -218,34 +220,39 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   function toggleSave(item: GlossaryItem) {
     const word = item.word ?? item.collocation ?? ''
     if (!word) return
-    const isSaved = savedWords.has(word)
-    setSavedWords(prev => {
-      const next = new Set(prev)
-      isSaved ? next.delete(word) : next.add(word)
-      return next
-    })
-    if (isSaved) {
+    if (savedWords.has(word)) {
+      setSavedWords(prev => { const s = new Set(prev); s.delete(word); return s })
       fetch('/api/vocabwise/wordlist', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ word, topic_id: topicId }),
       }).catch(() => {})
     } else {
-      fetch('/api/vocabwise/wordlist', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          word,
-          meaning_vi: item.meaning_vi,
-          pos: item.pos ?? '',
-          ipa: item.ipa ?? '',
-          example_en: item.example_en,
-          book_id: book,
-          topic_id: topicId,
-          topic_title: meta.topic_title,
-        }),
-      }).catch(() => {})
+      setPickerItem(item)
     }
+  }
+
+  function saveItemToList(item: GlossaryItem, listId: number | null) {
+    const word = item.word ?? item.collocation ?? ''
+    if (!word) return
+    setSavedWords(prev => new Set(prev).add(word))
+    setPickerItem(null)
+    fetch('/api/vocabwise/wordlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        word,
+        meaning_vi: item.meaning_vi,
+        pos: item.pos ?? '',
+        ipa: item.ipa ?? '',
+        example_en: item.example_en,
+        book_id: book,
+        topic_id: topicId,
+        topic_title: meta.topic_title,
+        source: 'academic',
+        list_id: listId,
+      }),
+    }).catch(() => {})
   }
 
   const { meta, passage, glossary, exercises, answer_key } = data
@@ -493,6 +500,15 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         )}
 
       </div>
+
+      {/* WordListPicker modal */}
+      {pickerItem && (
+        <WordListPicker
+          word={pickerItem.word ?? pickerItem.collocation ?? ''}
+          onConfirm={listId => saveItemToList(pickerItem, listId)}
+          onCancel={() => setPickerItem(null)}
+        />
+      )}
     </div>
   )
 }

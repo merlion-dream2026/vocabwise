@@ -30,8 +30,9 @@ function getChildIdFromPath(pathname: string): string | null {
 }
 
 function getActiveTab(pathname: string, childId: string | null): string {
-  if (pathname === '/kids')      return 'profile'
-  if (pathname === '/dashboard') return 'dashboard'
+  if (pathname === '/kids')         return 'profile'
+  if (pathname === '/dashboard')    return 'dashboard'
+  if (pathname === '/my-words')     return 'mywords'
   if (pathname.startsWith('/vocabwise')) return 'academic'
   if (!childId) return ''
   const base  = `/dashboard/${childId}`
@@ -44,16 +45,18 @@ function getActiveTab(pathname: string, childId: string | null): string {
 type ChildInfo = { id: string; name: string; emoji: string }
 
 const MODULE_TABS = [
-  { key: 'phonics',   label: 'Phonics',   icon: '🔊', needsChild: true  },
-  { key: 'daily',     label: 'Daily',     icon: '📖', needsChild: true  },
-  { key: 'academic',  label: 'Academic',  icon: '🎓', needsChild: false },
-  { key: 'dashboard', label: 'Dashboard', icon: '📊', needsChild: false },
+  { key: 'phonics',   label: 'Phonics',      icon: '🔊', needsChild: true  },
+  { key: 'daily',     label: 'Daily',        icon: '📖', needsChild: true  },
+  { key: 'academic',  label: 'Academic',     icon: '🎓', needsChild: false },
+  { key: 'mywords',   label: 'Từ của tôi',  icon: '⭐', needsChild: false },
+  { key: 'dashboard', label: 'Dashboard',    icon: '📊', needsChild: false },
 ]
 
 const DEST: Record<string, (id: string) => string> = {
   phonics:   id => `/dashboard/${id}/phonics`,
   daily:     id => `/dashboard/${id}/kids`,
   academic:  ()  => '/vocabwise',
+  mywords:   ()  => '/my-words',
   dashboard: ()  => '/dashboard',
 }
 
@@ -88,6 +91,7 @@ export default function BottomNav() {
     router.prefetch('/kids')
     router.prefetch('/dashboard')
     router.prefetch('/vocabwise')
+    router.prefetch('/my-words')
     if (childId) {
       router.prefetch(`/dashboard/${childId}/phonics`)
       router.prefetch(`/dashboard/${childId}/kids`)
@@ -210,7 +214,7 @@ export default function BottomNav() {
                 >
                   {icon}
                 </span>
-                <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 ${
+                <span className={`text-[9px] font-bold leading-none tracking-tight transition-colors duration-100 ${
                   isActive ? 'text-purple-600' : isDim ? 'text-gray-300' : 'text-gray-400'
                 }`}>
                   {label}

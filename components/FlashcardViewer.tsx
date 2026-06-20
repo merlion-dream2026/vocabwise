@@ -6,6 +6,7 @@ import { speak as speakWord } from '@/lib/speak'
 import { markSeen, recordActivity, recordFlashcardDone, flush } from '@/lib/gameSync'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
+import WordListPicker from '@/components/WordListPicker'
 
 type Example = {
   en: string
@@ -91,6 +92,51 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [showConfetti, setShowConfetti] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining, setExplaining] = useState<Set<string>>(new Set())
+  const [savedWords, setSavedWords] = useState<Set<string>>(new Set())
+  const [pickerWord, setPickerWord] = useState<{ word: string; meaning: string; cls: string } | null>(null)
+
+  // Load saved words for this topic on mount
+  useEffect(() => {
+    fetch(`/api/vocabwise/wordlist?topic_id=${encodeURIComponent(topic.id)}`)
+      .then(r => r.ok ? r.json() : { saved: [] })
+      .then(d => setSavedWords(new Set((d.saved ?? []).map((w: { word: string }) => w.word))))
+      .catch(() => {})
+  }, [topic.id])
+
+  function handleStarClick(w: Word) {
+    const isSaved = savedWords.has(w.word)
+    if (isSaved) {
+      setSavedWords(prev => { const s = new Set(prev); s.delete(w.word); return s })
+      fetch('/api/vocabwise/wordlist', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word: w.word, topic_id: topic.id }),
+      }).catch(() => {})
+    } else {
+      setPickerWord({ word: w.word, meaning: w.meaning, cls: w.class ?? '' })
+    }
+  }
+
+  function saveWord(w: Word, listId: number | null) {
+    setSavedWords(prev => new Set(prev).add(w.word))
+    setPickerWord(null)
+    fetch('/api/vocabwise/wordlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        word: w.word,
+        meaning_vi: w.meaning,
+        pos: w.class ?? '',
+        ipa: '',
+        example_en: w.examples[0]?.en ?? '',
+        book_id: level,
+        topic_id: topic.id,
+        topic_title: topic.name,
+        source: 'kids',
+        list_id: listId,
+      }),
+    }).catch(() => {})
+  }
 
   const styles = levelConfig[level as keyof typeof levelConfig] ?? levelConfig.explorer
   const word = topic.words[currentIndex]
@@ -221,8 +267,18 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
         <div className={`
           ${styles.cardBg} ${styles.cardBorder} border-2 rounded-3xl
           p-6 shadow-xl flex flex-col items-center text-center
-          flex-1 justify-center
+          flex-1 justify-center relative
         `}>
+          {/* Star button */}
+          <button
+            onClick={() => handleStarClick(word)}
+            className="absolute top-3 right-3 p-2 transition-all active:scale-90"
+            aria-label={savedWords.has(word.word) ? 'Bỏ lưu' : 'Lưu từ này'}
+          >
+            <span className={`text-2xl transition-all ${savedWords.has(word.word) ? '' : 'opacity-30 hover:opacity-70'}`}>
+              {savedWords.has(word.word) ? '⭐' : '☆'}
+            </span>
+          </button>
           {/* Illustration: Phosphor icon (abstract words) or emoji */}
           <div className={`mb-4 flex items-center justify-center`}>
             <WordIcon
@@ -358,6 +414,15 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           ))}
         </div>
       </div>
+
+      {/* WordListPicker modal */}
+      {pickerWord && (
+        <WordListPicker
+          word={pickerWord.word}
+          onConfirm={listId => saveWord(word, listId)}
+          onCancel={() => setPickerWord(null)}
+        />
+      )}
     </div>
   )
 }
