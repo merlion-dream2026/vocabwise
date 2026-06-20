@@ -20,8 +20,30 @@ type Family = {
   plan_end_date: string | null
   max_kids: number | null
   admin_note: string | null
+  bonus_features: string[] | null
   last_active?: string | null
   children_count?: number
+}
+
+// Features that can be manually granted to individual users
+const BONUS_FEATURES = [
+  { key: 'phonics_full',       icon: '🔤', label: 'Phonics đầy đủ',   desc: 'Tất cả bài Phonics (mặc định Free chỉ 1 bài)' },
+  { key: 'word_stress',        icon: '📢', label: 'Word Stress',        desc: 'Module trọng âm (thường cần Pro 3T+)' },
+  { key: 'my_words',           icon: '⭐', label: 'My Words',           desc: 'Lưu & quản lý từ vựng cá nhân' },
+  { key: 'srs',                icon: '📅', label: 'SRS ôn từ',         desc: 'Ôn tập từ yếu theo lịch' },
+  { key: 'kids_full',          icon: '📚', label: 'Kids đầy đủ',       desc: 'Tất cả 180 chủ đề VocabWise Kids' },
+  { key: 'academic_full',      icon: '🎓', label: 'Academic đầy đủ',  desc: 'Tất cả 3 books Academic (180 chủ đề)' },
+  { key: 'ai_speak_unlimited', icon: '🎤', label: 'AI Speak ∞',        desc: 'Không giới hạn lần chấm phát âm AI' },
+] as const
+
+type BonusFeatureKey = typeof BONUS_FEATURES[number]['key']
+
+// Features already included in each plan (no need to grant manually)
+function getPlanIncludes(plan: string): BonusFeatureKey[] {
+  if (plan === 'free') return []
+  const base: BonusFeatureKey[] = ['phonics_full', 'my_words', 'srs', 'kids_full', 'academic_full']
+  if (plan === '3months' || plan === '6months') return [...base, 'word_stress', 'ai_speak_unlimited']
+  return base
 }
 
 const PLAN_OPTIONS = [
@@ -143,6 +165,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
   const [planStartDate, setPlanStartDate] = useState(family.plan_start_date ?? today())
   const [maxKids, setMaxKids] = useState<string>(family.max_kids !== null && family.max_kids !== undefined ? String(family.max_kids) : '')
   const [adminNote, setAdminNote] = useState(family.admin_note ?? '')
+  const [bonusFeatures, setBonusFeatures] = useState<string[]>(family.bonus_features ?? [])
   const [newPassword, setNewPassword] = useState('')
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
@@ -212,6 +235,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     }
     body.max_kids = maxKids === '' ? null : parseInt(maxKids)
     body.admin_note = adminNote || null
+    body.bonus_features = bonusFeatures.length > 0 ? bonusFeatures : null
     if (newPassword) body.password = newPassword
     const res = await fetch(`/api/superadmin/families/${family.id}`, {
       method: 'PATCH',
@@ -345,6 +369,59 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
               placeholder="VIP, test account, ghi chú nội bộ..."
               rows={2}
               className="w-full bg-white border-2 border-slate-200 rounded-2xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none" />
+          </div>
+
+          {/* Feature Grants */}
+          <div className="border-2 border-dashed border-indigo-200 rounded-2xl p-3 bg-indigo-50/30">
+            <div className="flex items-center justify-between mb-2.5">
+              <div>
+                <p className="text-xs font-black text-indigo-700">🎁 Feature Grants</p>
+                <p className="text-[10px] text-slate-400 mt-0.5">Mở thêm tính năng ngoài gói — chỉ áp dụng cho user này</p>
+              </div>
+              {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length > 0 && (
+                <button type="button" onClick={() => setBonusFeatures([])}
+                  className="text-[10px] text-red-400 hover:text-red-600 font-bold px-2 py-0.5 rounded-full hover:bg-red-50 transition-colors">
+                  Xóa grants
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {BONUS_FEATURES.map(feat => {
+                const inPlan = getPlanIncludes(plan).includes(feat.key as BonusFeatureKey)
+                const granted = bonusFeatures.includes(feat.key)
+                return (
+                  <button
+                    type="button"
+                    key={feat.key}
+                    onClick={() => {
+                      if (inPlan) return
+                      setBonusFeatures(prev =>
+                        prev.includes(feat.key) ? prev.filter(f => f !== feat.key) : [...prev, feat.key]
+                      )
+                    }}
+                    title={feat.desc}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold transition-all select-none ${
+                      inPlan
+                        ? 'bg-green-100 text-green-600 cursor-default opacity-70'
+                        : granted
+                          ? 'bg-indigo-600 text-white shadow-sm ring-2 ring-indigo-300'
+                          : 'bg-white text-slate-500 border border-slate-200 hover:border-indigo-300 hover:text-indigo-600 cursor-pointer'
+                    }`}
+                  >
+                    <span>{feat.icon}</span>
+                    <span>{feat.label}</span>
+                    {inPlan  && <span className="text-[9px] opacity-60 ml-0.5">gói</span>}
+                    {!inPlan && granted  && <span className="text-[9px] ml-0.5">✓</span>}
+                    {!inPlan && !granted && <span className="text-[9px] ml-0.5 opacity-40">+</span>}
+                  </button>
+                )
+              })}
+            </div>
+            {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length > 0 && (
+              <p className="text-[10px] text-indigo-500 font-semibold mt-2">
+                ✓ {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length} grant đang hoạt động
+              </p>
+            )}
           </div>
 
           <div>

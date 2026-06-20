@@ -7,7 +7,7 @@ import { speak as speakWord } from '@/lib/speak'
 import UpgradeModal from '@/components/UpgradeModal'
 import { canAccessSRS } from '@/lib/planUtils'
 
-type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 type Word = { word: string; meaning: string; emoji: string }
 

@@ -11,7 +11,7 @@ import ExpiryBanner from '@/components/ExpiryBanner'
 import { getEffectivePlan } from '@/lib/planUtils'
 
 type Child = { id: string; name: string; emoji: string; level: string }
-type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null }
+type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
 type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[] }
 type MasteryData = { flashcard: boolean; games: string[] }
 
@@ -153,8 +153,7 @@ export default function LevelTopicsPage() {
     )
   }
 
-  const { isProActive } = getEffectivePlan(session!)
-  const isPaid = isProActive
+  const isPaid = getEffectivePlan(session!).isProActive || !!(session!.bonus_features?.includes('kids_full'))
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
 
   function renderRevCard(revNum: number) {

@@ -3,6 +3,7 @@ export interface FamilyPlanData {
   plan_end_date?: string | null
   free_trial_expires_at?: string | null
   bonus_pro_expires_at?: string | null
+  bonus_features?: string[] | null
 }
 
 export interface EffectivePlanResult {
@@ -77,27 +78,44 @@ export function getPlanTier(family: FamilyPlanData): PlanTier {
 /** Phonics: free chỉ được bài đầu tiên của level đầu tiên (vowels-short, idx 0). */
 export function canAccessPhonicsLesson(family: FamilyPlanData, levelId: string, lessonIdx: number): boolean {
   if (getEffectivePlan(family).isProActive) return true
+  if (family.bonus_features?.includes('phonics_full')) return true
   return levelId === 'vowels-short' && lessonIdx === 0
 }
 
-/** Word Stress: Pro 3 tháng trở lên. */
+/** Word Stress: Pro 3 tháng trở lên (hoặc bonus grant). */
 export function canAccessWordStress(family: FamilyPlanData): boolean {
+  if (family.bonus_features?.includes('word_stress')) return true
   const tier = getPlanTier(family)
   return tier === 'pro3' || tier === 'pro6'
 }
 
-/** My Words: Pro bất kỳ. */
+/** My Words: Pro bất kỳ (hoặc bonus grant). */
 export function canAccessMyWords(family: FamilyPlanData): boolean {
+  if (family.bonus_features?.includes('my_words')) return true
   return getEffectivePlan(family).isProActive
 }
 
-/** SRS ôn từ yếu: Pro bất kỳ. */
+/** SRS ôn từ yếu: Pro bất kỳ (hoặc bonus grant). */
 export function canAccessSRS(family: FamilyPlanData): boolean {
+  if (family.bonus_features?.includes('srs')) return true
   return getEffectivePlan(family).isProActive
 }
 
-/** AI Speak limit: null = unlimited (Pro 3+), 30 (Pro 1), 5 (Free). */
+/** Kids content: Pro bất kỳ (hoặc bonus grant). */
+export function canAccessKidsFull(family: FamilyPlanData): boolean {
+  if (family.bonus_features?.includes('kids_full')) return true
+  return getEffectivePlan(family).isProActive
+}
+
+/** Academic content: Pro bất kỳ (hoặc bonus grant). */
+export function canAccessAcademicFull(family: FamilyPlanData): boolean {
+  if (family.bonus_features?.includes('academic_full')) return true
+  return getEffectivePlan(family).isProActive
+}
+
+/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 30 (Pro 1), 5 (Free). */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('ai_speak_unlimited')) return null
   const tier = getPlanTier(family)
   if (tier === 'free')  return 5
   if (tier === 'pro1')  return 30

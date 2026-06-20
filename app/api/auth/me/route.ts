@@ -17,7 +17,7 @@ export async function GET() {
   const [{ data }, { data: configs }] = await Promise.all([
     supabase
       .from('families')
-      .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token')
+      .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token, bonus_features')
       .eq('id', session.familyId)
       .single(),
     supabase.from('admin_config').select('key, value'),
@@ -38,6 +38,7 @@ export async function GET() {
     free_trial_expires_at: data.free_trial_expires_at ?? null,
     plan_end_date: data.plan_end_date ?? null,
     bonus_pro_expires_at: data.bonus_pro_expires_at ?? null,
+    bonus_features: data.bonus_features ?? null,
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
     max_kids: data.max_kids ?? globalDefault,

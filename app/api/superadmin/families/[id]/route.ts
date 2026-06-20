@@ -38,6 +38,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   if ('admin_note' in body) updates.admin_note = body.admin_note || null
   if ('max_kids' in body) updates.max_kids = body.max_kids === null || body.max_kids === '' ? null : parseInt(body.max_kids)
   if ('email_verified' in body) updates.email_verified = body.email_verified
+  if ('bonus_features' in body) updates.bonus_features = Array.isArray(body.bonus_features) && body.bonus_features.length > 0 ? body.bonus_features : null
 
   if (body.password) {
     updates.password_hash = await hashPassword(body.password)
@@ -57,7 +58,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     .from('families')
     .update(updates)
     .eq('id', params.id)
-    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note')
+    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note, bonus_features')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

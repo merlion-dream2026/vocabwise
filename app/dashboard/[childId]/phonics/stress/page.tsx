@@ -11,7 +11,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import wordStressData from '@/data/wordStress.json'
 import { canAccessWordStress } from '@/lib/planUtils'
 
-type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 type StressWord = { word: string; syllables: string[]; stress: number; emoji: string; vi: string }
 type Group = { id: string; title: string; subtitle: string; emoji: string; words: StressWord[] }

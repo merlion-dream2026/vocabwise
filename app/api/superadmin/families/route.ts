@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
 
   const { data, error } = await supabase
     .from('families')
-    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note')
+    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note, bonus_features')
     .order('created_at', { ascending: false })
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
   const { data, error } = await supabase
     .from('families')
     .insert(insert)
-    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note')
+    .select('id, username, email, name, phone, referral_source, plan, plan_start_date, plan_end_date, free_trial_expires_at, disabled, created_at, max_kids, email_verified, admin_note, bonus_features')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

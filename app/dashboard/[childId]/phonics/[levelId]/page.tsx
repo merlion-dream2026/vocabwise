@@ -7,7 +7,7 @@ import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
 
-type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 type ArticleSection = { heading: string; body: string }
 const LEVEL_ARTICLES: Record<string, { intro: string; sections: ArticleSection[] }> = {

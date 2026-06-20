@@ -10,7 +10,7 @@ import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
 type Level     = typeof phonicsLevels.levels[number]
 type MasteryMap = Record<string, { flashcard: boolean; games: string[] }>
 type LessonBase = { id: string; masteryGames: string[] }
-type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null }
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 const TOTAL_LESSONS = phonicsLevels.levels.reduce((s, l) => s + l.lessons.length, 0)
 
