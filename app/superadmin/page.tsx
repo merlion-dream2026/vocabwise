@@ -103,16 +103,16 @@ function daysUntil(dateStr: string | null): number | null {
 function planBadge(f: Family): { label: string; color: string } {
   if (f.plan === 'free') {
     const d = daysUntil(f.free_trial_expires_at)
-    if (d === null || d < 0) return { label: 'Free (hết hạn)', color: 'bg-red-700 text-red-200' }
-    return { label: `Free (còn ${d}d)`, color: 'bg-slate-100 text-slate-700' }
+    if (d === null || d < 0) return { label: 'FREE ✗', color: 'bg-red-700 text-red-200' }
+    return { label: `FREE (${d}d)`, color: 'bg-slate-100 text-slate-700' }
   }
-  const PLAN_SHORT: Record<string, string> = { '2weeks': 'Gift2W', '1month': '1month', '3months': '3months', '6months': '6months' }
-  const planShort = PLAN_SHORT[f.plan] ?? f.plan
+  const PLAN_SHORT: Record<string, string> = { '2weeks': 'GIFT', '1month': 'PRO1', '3months': 'PRO3', '6months': 'PRO6' }
+  const planShort = PLAN_SHORT[f.plan] ?? f.plan.toUpperCase()
   const d = daysUntil(f.plan_end_date)
-  if (d === null || d < 0) return { label: `${planShort} (hết hạn)`, color: 'bg-red-700 text-red-200' }
-  if (d <= 7) return { label: `${planShort} (còn ${d}d ⚠️)`, color: 'bg-yellow-600 text-yellow-100' }
+  if (d === null || d < 0) return { label: `${planShort} ✗`, color: 'bg-red-700 text-red-200' }
+  if (d <= 7) return { label: `${planShort} (${d}d ⚠)`, color: 'bg-yellow-600 text-yellow-100' }
   const giftColor = f.plan === '2weeks' ? 'bg-pink-600 text-pink-100' : 'bg-indigo-700 text-indigo-100'
-  return { label: `${planShort} (còn ${d}d)`, color: giftColor }
+  return { label: `${planShort} (${d}d)`, color: giftColor }
 }
 
 function EyeIcon({ show }: { show: boolean }) {
@@ -375,51 +375,57 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
           <div className="border-2 border-dashed border-indigo-200 rounded-2xl p-3 bg-indigo-50/30">
             <div className="flex items-center justify-between mb-2.5">
               <div>
-                <p className="text-xs font-black text-indigo-700">🎁 Feature Grants</p>
-                <p className="text-[10px] text-slate-400 mt-0.5">Mở thêm tính năng ngoài gói — chỉ áp dụng cho user này</p>
+                <p className="text-sm font-black text-indigo-700">🎁 Feature Grants</p>
+                <p className="text-xs text-slate-400 mt-0.5">Mở thêm tính năng ngoài gói — chỉ áp dụng cho user này</p>
               </div>
               {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length > 0 && (
                 <button type="button" onClick={() => setBonusFeatures([])}
-                  className="text-[10px] text-red-400 hover:text-red-600 font-bold px-2 py-0.5 rounded-full hover:bg-red-50 transition-colors">
+                  className="text-xs text-red-400 hover:text-red-600 font-bold px-2 py-0.5 rounded-full hover:bg-red-50 transition-colors">
                   Xóa grants
                 </button>
               )}
             </div>
-            <div className="flex flex-wrap gap-1.5">
-              {BONUS_FEATURES.map(feat => {
-                const inPlan = getPlanIncludes(plan).includes(feat.key as BonusFeatureKey)
-                const granted = bonusFeatures.includes(feat.key)
-                return (
-                  <button
-                    type="button"
-                    key={feat.key}
-                    onClick={() => {
-                      if (inPlan) return
-                      setBonusFeatures(prev =>
-                        prev.includes(feat.key) ? prev.filter(f => f !== feat.key) : [...prev, feat.key]
-                      )
-                    }}
-                    title={feat.desc}
-                    className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold transition-all select-none ${
-                      inPlan
-                        ? 'bg-green-100 text-green-600 cursor-default opacity-70'
-                        : granted
-                          ? 'bg-indigo-600 text-white shadow-sm ring-2 ring-indigo-300'
-                          : 'bg-white text-slate-500 border border-slate-200 hover:border-indigo-300 hover:text-indigo-600 cursor-pointer'
-                    }`}
-                  >
-                    <span>{feat.icon}</span>
-                    <span>{feat.label}</span>
-                    {inPlan  && <span className="text-[9px] opacity-60 ml-0.5">gói</span>}
-                    {!inPlan && granted  && <span className="text-[9px] ml-0.5">✓</span>}
-                    {!inPlan && !granted && <span className="text-[9px] ml-0.5 opacity-40">+</span>}
-                  </button>
-                )
-              })}
-            </div>
+            {getPlanIncludes(plan).length === BONUS_FEATURES.length ? (
+              <p className="text-xs text-green-600 font-semibold bg-green-50 rounded-xl px-3 py-2">
+                ✅ Gói {plan === '3months' ? 'Pro 3T' : plan === '6months' ? 'Pro 6T' : plan} đã bao gồm tất cả tính năng — không cần grant thêm.
+              </p>
+            ) : (
+              <div className="flex flex-wrap gap-2">
+                {BONUS_FEATURES.map(feat => {
+                  const inPlan = getPlanIncludes(plan).includes(feat.key as BonusFeatureKey)
+                  const granted = bonusFeatures.includes(feat.key)
+                  return (
+                    <button
+                      type="button"
+                      key={feat.key}
+                      onClick={() => {
+                        if (inPlan) return
+                        setBonusFeatures(prev =>
+                          prev.includes(feat.key) ? prev.filter(f => f !== feat.key) : [...prev, feat.key]
+                        )
+                      }}
+                      title={feat.desc}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all select-none ${
+                        inPlan
+                          ? 'bg-green-100 text-green-600 cursor-default opacity-70'
+                          : granted
+                            ? 'bg-indigo-600 text-white shadow-sm ring-2 ring-indigo-300'
+                            : 'bg-white text-slate-600 border border-slate-200 hover:border-indigo-400 hover:text-indigo-600 cursor-pointer active:scale-95'
+                      }`}
+                    >
+                      <span>{feat.icon}</span>
+                      <span>{feat.label}</span>
+                      {inPlan   && <span className="text-[10px] opacity-60">gói</span>}
+                      {!inPlan && granted   && <span className="text-[10px]">✓</span>}
+                      {!inPlan && !granted  && <span className="text-[10px] opacity-40">＋</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            )}
             {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length > 0 && (
-              <p className="text-[10px] text-indigo-500 font-semibold mt-2">
-                ✓ {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length} grant đang hoạt động
+              <p className="text-xs text-indigo-600 font-semibold mt-2 bg-indigo-50 rounded-lg px-2 py-1">
+                🎁 {bonusFeatures.filter(f => !getPlanIncludes(plan).includes(f as BonusFeatureKey)).length} grant đang hoạt động · lưu để áp dụng
               </p>
             )}
           </div>
@@ -518,7 +524,7 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
               }
             }}
             className="w-full flex items-center justify-between text-sm text-slate-600 hover:text-slate-900 py-1">
-            <span>👶 Hồ sơ bé ({childrenData.length > 0 || showChildren ? childrenData.length : (family.children_count ?? '?')} hồ sơ{family.max_kids != null ? ` · giới hạn ${family.max_kids}` : ''})</span>
+            <span>👶 Hồ sơ bé ({childrenLoading || (!showChildren && childrenData.length === 0) ? (family.children_count ?? '?') : childrenData.length} hồ sơ{family.max_kids != null ? ` · giới hạn ${family.max_kids}` : ''})</span>
             <span>{showChildren ? '▲' : '▼'}</span>
           </button>
           {showChildren && (
