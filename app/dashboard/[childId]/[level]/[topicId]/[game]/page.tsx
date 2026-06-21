@@ -35,7 +35,7 @@ export default function GamePage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/children').then(r => r.json()),
+      fetch('/api/children').then(r => r.ok ? r.json() : []),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()).catch(() => null),
       fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
     ]).then(([kids, syncData, levelData]) => {
