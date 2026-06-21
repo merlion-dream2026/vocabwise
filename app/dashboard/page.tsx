@@ -329,11 +329,11 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Các huy hiệu (badges) có ý nghĩa gì?',
-        a: 'Hệ thống huy hiệu tạo động lực cho bé:\n🌱 Ham Học — học 10 từ đầu tiên\n🏅 Chinh Phục — xong 1 chủ đề hoàn toàn\n🏆 Xuất Sắc — xong 5 chủ đề\n⚡ Kiên Trì — streak 7 ngày liên tiếp\n⭐ Chăm Chỉ — đạt 100 XP tổng\n... và nhiều huy hiệu khác khi đạt các cột mốc cao hơn.',
+        a: 'Hệ thống huy hiệu VocabWise gồm 2 loại:\n\n🌟 XP Rank — hiện trên màn hình chọn hồ sơ\nTích lũy XP toàn app để lên hạng:\n🌱 Beginner (50 XP) · 🌟 Rising (300 XP) · 🏆 Champion (1000 XP) · 👑 Master (3000 XP)\n\n🏅 Huy hiệu cột mốc — hiện trong màn hình level\n🌱 Mầm Non — học từ đầu tiên\n📚 Ham Học — học được 50 từ · 🎓 Học Giỏi — 100 từ · 🌟 Siêu Sao — 300 từ\n🏅 Chinh Phục — xong 1 chủ đề · 🏆 Xuất Sắc — 5 chủ đề · 🌈 Thiên Tài — 10 chủ đề\n🔥 Học Đều — streak 3 ngày · ⚡ Kiên Trì — 7 ngày · 💎 Bền Bỉ — 14 ngày · 👑 Sắt Đá — 30 ngày\n⭐ Chăm Chỉ — 100 XP · 💫 Giỏi Giang — 500 XP · 🚀 Huyền Thoại — 1000 XP',
       },
       {
         q: '⭐ XP là gì? Tính như thế nào?',
-        a: 'XP (Experience Points) là điểm kinh nghiệm — chỉ số đo lượng kiến thức bé đã luyện tập.\n\nCách tính XP theo độ khó game:\n🟢 Game nhận biết (Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng): 1 XP/câu đúng\n🟡 Game hiểu nghĩa (Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa): 1,5 XP/câu đúng\n🔴 Game sản xuất (Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round): 2 XP/câu đúng\n\nMục tiêu hàng ngày: 20 XP — hiển thị trên dashboard.\n\nXP tích lũy → lên cấp độ:\n🌱 Mầm Non (0–99) → 🔍 Nhà Thám Hiểm (100–299) → ⚔️ Chiến Binh (300–699) → 📜 Học Giả (700–1499) → 👑 Vô Địch (1500+)',
+        a: 'XP (Experience Points) là điểm kinh nghiệm — chỉ số đo lượng kiến thức bé đã luyện tập.\n\nCách tính XP theo độ khó game:\n🟢 Game nhận biết (Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng): 1 XP/câu đúng\n🟡 Game hiểu nghĩa (Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa): 1,5 XP/câu đúng\n🔴 Game sản xuất (Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round): 2 XP/câu đúng\n\nMục tiêu hàng ngày: 20 XP — hiển thị trên dashboard.\n\nXP tích lũy toàn app → XP Rank hiện trên màn hình chọn hồ sơ:\n🌱 Beginner (50+) → 🌟 Rising (300+) → 🏆 Champion (1000+) → 👑 Master (3000+)\n\nTrong màn hình level của từng bé, XP còn hiện cấp độ riêng của level đó:\n🌱 Khởi Đầu → 🔍 Nhà Thám Hiểm → ⚔️ Chiến Binh → 📜 Học Giả → 👑 Vô Địch',
       },
     ],
   },

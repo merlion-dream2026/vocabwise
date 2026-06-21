@@ -304,14 +304,11 @@ export default function HomePage() {
                           {streakBadge.icon} {streakBadge.label}
                         </span>
                       )}
-                      {profileBadges.length > 0 && (
-                        <>
-                          <span className="text-gray-300 text-xs select-none">·</span>
-                          {profileBadges.map(b => (
-                            <span key={b.id} title={`${b.name}: ${b.desc}`} className="text-sm leading-none">{b.emoji}</span>
-                          ))}
-                        </>
-                      )}
+                      {profileBadges.map(b => (
+                        <span key={b.id} className="text-[11px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
+                          {b.emoji} {b.name}
+                        </span>
+                      ))}
                     </div>
                     {nextXPBadge && totalXP > 0 && (
                       <div className="mt-1.5">
