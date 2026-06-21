@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bottom-nav-h: 5rem; /* 56px nav + 24px breathing room — update once here if nav changes */
+  --bottom-nav-h: calc(3.5rem + env(safe-area-inset-bottom, 0px) + 1.5rem); /* 56px nav + safe-area + 24px breathing room */
 }
 
 html {

@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { AVATARS, getAvatarSrc } from '@/lib/avatars'
 
 type Entry = {
   rank: number
@@ -57,7 +58,10 @@ export default function LeaderboardCard() {
                     <span className="text-sm w-6 text-center flex-shrink-0 font-black text-gray-500">
                       {MEDALS[e.rank - 1] ?? e.rank}
                     </span>
-                    <span className="text-base">{e.emoji}</span>
+                    {AVATARS.some(a => a.id === e.emoji)
+                      ? <img src={getAvatarSrc(e.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
+                      : <span className="text-base flex-shrink-0">{e.emoji}</span>
+                    }
                     <span className={`text-sm font-black flex-1 truncate ${e.isCurrentFamily ? 'text-purple-700' : 'text-gray-700'}`}>
                       {e.name}
                       {e.isCurrentFamily && <span className="text-purple-400 font-normal text-xs ml-1">← bé nhà bạn</span>}
