@@ -48,52 +48,54 @@ export async function POST(req: NextRequest) {
     .update({ email_verified: true, otp: null, otp_expires_at: null })
     .eq('id', family.id)
 
-  // Send welcome email (fire-and-forget)
+  // Send welcome email to user (fire-and-forget — user doesn't need to wait)
   sendEmail({
     to: family.email,
     subject: 'Chào mừng bạn đến với VocabWise! 🎉',
     html: welcomeEmailHtml(family.name),
   }).catch(err => console.error('[verify-otp] welcome email error:', err))
 
-  // Thông báo admin có user mới xác thực thành công (fire-and-forget)
-  void Promise.resolve(
-    supabase
+  // Admin notification — must be awaited before return, otherwise Vercel terminates the function
+  try {
+    const { count } = await supabase
       .from('families')
       .select('id', { count: 'exact', head: true })
       .eq('email_verified', true)
-  ).then(({ count }) => {
-      const userNo = count ?? '?'
-      const trialExpires = family.free_trial_expires_at
-        ? new Date(family.free_trial_expires_at).toLocaleDateString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
-        : '—'
-      const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
-      const esc = (s: string | null | undefined) =>
-        (s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-      const row = (label: string, value: string) =>
-        `<tr><td style="padding:7px 0;color:#888;width:130px;font-size:14px">${label}</td><td style="font-size:14px;color:#111">${value}</td></tr>`
 
-      sendEmail({
-        to: 'vocabwise.admin@gmail.com',
-        subject: `🆕 [VocabWise] #${userNo} — ${esc(family.name)}`,
-        html: `
-          <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
-            <h2 style="color:#9333ea;margin-bottom:16px">📚 VocabWise — Tài khoản mới đã kích hoạt</h2>
-            <table style="width:100%;border-collapse:collapse">
-              ${row('👤 Họ tên', `<strong>${esc(family.name)}</strong>`)}
-              ${row('📧 Email', esc(family.email))}
-              ${row('📱 SĐT', esc(family.phone ?? '—'))}
-              ${row('📣 Nguồn', esc(family.referral_source ?? '—'))}
-              ${row('⏳ Trial hết hạn', trialExpires)}
-              ${row('🏅 User thứ', `#${userNo}`)}
-              ${row('🕐 Thời gian', new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }))}
-            </table>
-            <a href="${appUrl}/superadmin"
-               style="display:inline-block;margin-top:20px;background:#9333ea;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:bold">
-              Xem Superadmin →
-            </a>
-          </div>`,
-      }).catch(err => console.error('[verify-otp] admin notify error:', err))
-  }).catch(err => console.error('[verify-otp] user count error:', err))
+    const userNo = count ?? '?'
+    const trialExpires = family.free_trial_expires_at
+      ? new Date(family.free_trial_expires_at).toLocaleDateString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
+      : '—'
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
+    const esc = (s: string | null | undefined) =>
+      (s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+    const row = (label: string, value: string) =>
+      `<tr><td style="padding:7px 0;color:#888;width:130px;font-size:14px">${label}</td><td style="font-size:14px;color:#111">${value}</td></tr>`
+
+    await sendEmail({
+      to: 'vocabwise.admin@gmail.com',
+      subject: `🆕 [VocabWise] #${userNo} — ${esc(family.name)}`,
+      html: `
+        <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
+          <h2 style="color:#9333ea;margin-bottom:16px">📚 VocabWise — Tài khoản mới đã kích hoạt</h2>
+          <table style="width:100%;border-collapse:collapse">
+            ${row('👤 Họ tên', `<strong>${esc(family.name)}</strong>`)}
+            ${row('📧 Email', esc(family.email))}
+            ${row('📱 SĐT', esc(family.phone ?? '—'))}
+            ${row('📣 Nguồn', esc(family.referral_source ?? '—'))}
+            ${row('⏳ Trial hết hạn', trialExpires)}
+            ${row('🏅 User thứ', `#${userNo}`)}
+            ${row('🕐 Thời gian', new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }))}
+          </table>
+          <a href="${appUrl}/superadmin"
+             style="display:inline-block;margin-top:20px;background:#9333ea;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:bold">
+            Xem Superadmin →
+          </a>
+        </div>`,
+    })
+  } catch (err) {
+    console.error('[verify-otp] admin notify error:', err)
+  }
 
   const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan })
   const res = NextResponse.json({ ok: true })
