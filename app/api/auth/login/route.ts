@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 1 phút.' }, { status: 429 })
   }
 
-  const { username, password, turnstileToken, totpCode } = await req.json().catch(() => ({}))
+  const { username, password, turnstileToken, totpCode, emailOtp } = await req.json().catch(() => ({}))
 
   if (!(await verifyTurnstile(turnstileToken))) {
     return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
@@ -89,12 +89,25 @@ export async function POST(req: NextRequest) {
   if (family.id === 'superadmin') {
     const { data: totpRow } = await supabase.from('admin_config').select('value').eq('key', 'totp_secret').single()
     if (totpRow?.value) {
-      if (!totpCode) {
+      if (!totpCode && !emailOtp) {
         return NextResponse.json({ requires2fa: true }, { status: 200 })
       }
-      const totpOk = await verifyTotp(totpRow.value, totpCode)
-      if (!totpOk) {
-        return NextResponse.json({ error: 'Mã 2FA không đúng.' }, { status: 401 })
+      if (emailOtp) {
+        // Email OTP recovery path
+        const { data: otpRow } = await supabase.from('admin_config').select('value').eq('key', 'totp_email_otp').single()
+        const { data: expiryRow } = await supabase.from('admin_config').select('value').eq('key', 'totp_email_otp_expires').single()
+        const expired = !expiryRow?.value || new Date(expiryRow.value) < new Date()
+        const match = otpRow?.value === String(emailOtp).trim()
+        // Always clean up OTP after use (one-time)
+        await supabase.from('admin_config').delete().in('key', ['totp_email_otp', 'totp_email_otp_expires'])
+        if (expired || !match) {
+          return NextResponse.json({ error: 'Mã OTP email không đúng hoặc đã hết hạn.' }, { status: 401 })
+        }
+      } else {
+        const totpOk = await verifyTotp(totpRow.value, totpCode)
+        if (!totpOk) {
+          return NextResponse.json({ error: 'Mã 2FA không đúng.' }, { status: 401 })
+        }
       }
     }
   }

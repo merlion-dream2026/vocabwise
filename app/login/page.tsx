@@ -25,6 +25,10 @@ function LoginForm() {
   const [turnstileToken, setTurnstileToken] = useState('')
   const [totpCode, setTotpCode] = useState('')
   const [needs2fa, setNeeds2fa] = useState(false)
+  const [emailOtpMode, setEmailOtpMode] = useState(false)
+  const [emailOtp, setEmailOtp] = useState('')
+  const [emailOtpSent, setEmailOtpSent] = useState(false)
+  const [emailOtpLoading, setEmailOtpLoading] = useState(false)
   const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
 
   useEffect(() => {
@@ -44,7 +48,8 @@ function LoginForm() {
     setLoading(true)
     try {
       const body: Record<string, string> = { username, password, turnstileToken }
-      if (needs2fa && totpCode) body.totpCode = totpCode
+      if (needs2fa && emailOtpMode && emailOtp) body.emailOtp = emailOtp
+      else if (needs2fa && totpCode) body.totpCode = totpCode
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -68,6 +73,26 @@ function LoginForm() {
       setError('Lỗi kết nối, thử lại nhé')
     } finally {
       setLoading(false)
+    }
+  }
+
+  async function handleSendEmailOtp() {
+    setEmailOtpLoading(true)
+    setError('')
+    try {
+      const res = await fetch('/api/superadmin/totp/email-otp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password }),
+      })
+      const d = await res.json()
+      if (!res.ok) { setError(d.error || 'Không gửi được email'); return }
+      setEmailOtpSent(true)
+      setEmailOtpMode(true)
+    } catch {
+      setError('Lỗi kết nối')
+    } finally {
+      setEmailOtpLoading(false)
     }
   }
 
@@ -144,7 +169,7 @@ function LoginForm() {
             </div>
           </div>
 
-          {needs2fa && (
+          {needs2fa && !emailOtpMode && (
             <div>
               <label className="block text-sm font-bold text-gray-600 mb-1.5">Mã xác thực 2FA <span className="text-gray-400 font-normal">(6 chữ số từ ứng dụng)</span></label>
               <input
@@ -159,6 +184,43 @@ function LoginForm() {
                 autoFocus
                 autoComplete="one-time-code"
               />
+              <button
+                type="button"
+                onClick={handleSendEmailOtp}
+                disabled={emailOtpLoading}
+                className="mt-2 text-xs text-purple-500 hover:text-purple-700 font-semibold disabled:opacity-50"
+              >
+                {emailOtpLoading ? '⏳ Đang gửi...' : '📧 Quên mã? Gửi OTP qua email'}
+              </button>
+            </div>
+          )}
+
+          {needs2fa && emailOtpMode && (
+            <div>
+              {emailOtpSent && (
+                <div className="bg-green-50 border border-green-100 rounded-2xl px-4 py-3 mb-3 text-sm text-green-700 font-semibold">
+                  ✅ Đã gửi mã OTP tới <strong>vocabwise.admin@gmail.com</strong>. Hiệu lực 10 phút.
+                </div>
+              )}
+              <label className="block text-sm font-bold text-gray-600 mb-1.5">Mã OTP từ email <span className="text-gray-400 font-normal">(6 chữ số)</span></label>
+              <input
+                type="text"
+                inputMode="numeric"
+                maxLength={6}
+                value={emailOtp}
+                onChange={(e) => setEmailOtp(e.target.value.replace(/\D/g, ''))}
+                className="w-full bg-green-50 border border-green-200 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-green-300 transition tracking-widest text-center text-lg"
+                placeholder="000000"
+                autoFocus
+                autoComplete="one-time-code"
+              />
+              <button
+                type="button"
+                onClick={() => { setEmailOtpMode(false); setEmailOtp(''); setEmailOtpSent(false) }}
+                className="mt-2 text-xs text-gray-400 hover:text-gray-600 font-semibold"
+              >
+                ← Quay lại nhập mã từ ứng dụng
+              </button>
             </div>
           )}
 
