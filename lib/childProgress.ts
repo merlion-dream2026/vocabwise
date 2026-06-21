@@ -180,10 +180,10 @@ export function getDailyXP(sync: SyncAllLevels): number {
 // ─── XP & Badge ───────────────────────────────────────────────────────────────
 
 export const XP_BADGES = [
-  { minXP: 3000, icon: '👑', label: 'Master',   cls: 'bg-yellow-100 text-yellow-700' },
-  { minXP: 1000, icon: '🏆', label: 'Champion', cls: 'bg-orange-100 text-orange-700' },
-  { minXP:  300, icon: '🌟', label: 'Rising',   cls: 'bg-sky-100 text-sky-700'       },
-  { minXP:   50, icon: '🌱', label: 'Beginner', cls: 'bg-green-100 text-green-700'   },
+  { minXP: 3000, icon: '👑', label: 'Master',    cls: 'bg-yellow-100 text-yellow-700' },
+  { minXP: 1000, icon: '🏆', label: 'Champion',  cls: 'bg-orange-100 text-orange-700' },
+  { minXP:  300, icon: '🌟', label: 'Rising',    cls: 'bg-sky-100 text-sky-700'       },
+  { minXP:   50, icon: '🌱', label: 'Beginner',  cls: 'bg-green-100 text-green-700'   },
 ] as const
 
 export type XPBadge = typeof XP_BADGES[number]

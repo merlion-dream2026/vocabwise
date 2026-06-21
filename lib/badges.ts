@@ -14,7 +14,7 @@ export type XpLevel = {
 }
 
 export const XP_LEVELS: XpLevel[] = [
-  { level: 1, emoji: '🌱', name: 'Mầm Non',        minXp: 0,    maxXp: 99   },
+  { level: 1, emoji: '🌱', name: 'Khởi Đầu',        minXp: 0,    maxXp: 99   },
   { level: 2, emoji: '🔍', name: 'Nhà Thám Hiểm',  minXp: 100,  maxXp: 299  },
   { level: 3, emoji: '⚔️', name: 'Chiến Binh',      minXp: 300,  maxXp: 699  },
   { level: 4, emoji: '📜', name: 'Học Giả',         minXp: 700,  maxXp: 1499 },
@@ -31,7 +31,7 @@ export const ALL_BADGES: BadgeDef[] = [
   { id: 'streak_3',    emoji: '🔥', name: 'Học Đều',     desc: 'Streak 3 ngày liên tiếp' },
   { id: 'streak_7',    emoji: '⚡', name: 'Kiên Trì',    desc: 'Streak 7 ngày liên tiếp' },
   { id: 'streak_14',   emoji: '💎', name: 'Bền Bỉ',      desc: 'Streak 14 ngày liên tiếp' },
-  { id: 'streak_30',   emoji: '👑', name: 'Huyền Thoại', desc: 'Streak 30 ngày liên tiếp' },
+  { id: 'streak_30',   emoji: '👑', name: 'Sắt Đá',      desc: 'Streak 30 ngày liên tiếp' },
   // Topic mastery
   { id: 'master_1',    emoji: '🏅', name: 'Chinh Phục',  desc: 'Chinh phục 1 chủ đề' },
   { id: 'master_5',    emoji: '🏆', name: 'Xuất Sắc',    desc: 'Chinh phục 5 chủ đề' },

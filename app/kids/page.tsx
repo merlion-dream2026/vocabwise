@@ -10,6 +10,7 @@ import {
   getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
+import { ALL_BADGES } from '@/lib/badges'
 import BangThanhTich from '@/components/BangThanhTich'
 
 type Child = {
@@ -57,7 +58,7 @@ const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
 function PlanBadge({ plan, planEndDate }: { plan: string; planEndDate?: string | null }) {
   const isPremiumExpired = plan !== 'free' && planEndDate && new Date(planEndDate) < new Date()
   const cfg = isPremiumExpired
-    ? { label: 'EXPIRED', cls: 'bg-red-100 text-red-500' }
+    ? { label: 'HẾT HẠN', cls: 'bg-red-100 text-red-500' }
     : (PLAN_BADGE[plan] ?? PLAN_BADGE.free)
   return (
     <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${cfg.cls}`}>
@@ -242,7 +243,7 @@ export default function HomePage() {
                 ? { icon: '🔥', label: `${streakCur} ngày`, cls: 'bg-orange-100 text-orange-600' }
                 : lastActive === yesterStr
                   ? { icon: '⚡', label: `${streakCur} ngày`, cls: 'bg-yellow-100 text-yellow-700' }
-                  : { icon: '💤', label: `${streakCur} ngày`, cls: 'bg-gray-100 text-gray-400' }
+                  : { icon: '💤', label: 'Đã nghỉ', cls: 'bg-gray-100 text-gray-400' }
 
             const sync = (syncMap[child.id] ?? {}) as SyncAllLevels
             const { totalXP, badge } = getXPAndBadge(sync)
@@ -250,6 +251,28 @@ export default function HomePage() {
             const allDaily = getAllDailyProgress(sync)
             const allAcad  = getAllAcademicProgress(sync['academic'])
             const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
+
+            // XP progress to next badge tier
+            const badgeIdx = badge ? XP_BADGES.findIndex(b => b.minXP === badge.minXP) : XP_BADGES.length
+            const nextXPBadge = badgeIdx > 0 ? XP_BADGES[badgeIdx - 1] ?? null : null
+            const xpPct = nextXPBadge
+              ? Math.min(100, Math.round((totalXP - (badge?.minXP ?? 0)) / (nextXPBadge.minXP - (badge?.minXP ?? 0)) * 100))
+              : 0
+
+            // Top earned achievement badges (from data available at profile level)
+            const earnedBadgeIds = new Set([
+              allDaily.seenWords >= 1   && 'first_word',
+              allDaily.seenWords >= 50  && 'words_50',
+              allDaily.seenWords >= 100 && 'words_100',
+              allDaily.seenWords >= 300 && 'words_300',
+              allDaily.topicsCompleted >= 1  && 'master_1',
+              allDaily.topicsCompleted >= 5  && 'master_5',
+              allDaily.topicsCompleted >= 10 && 'master_10',
+              totalXP >= 100  && 'xp_100',
+              totalXP >= 500  && 'xp_500',
+              totalXP >= 1000 && 'xp_1000',
+            ].filter(Boolean) as string[])
+            const profileBadges = ALL_BADGES.filter(b => earnedBadgeIds.has(b.id)).slice(-3)
 
             return (
               <button
@@ -281,7 +304,25 @@ export default function HomePage() {
                           {streakBadge.icon} {streakBadge.label}
                         </span>
                       )}
+                      {profileBadges.length > 0 && (
+                        <>
+                          <span className="text-gray-300 text-xs select-none">·</span>
+                          {profileBadges.map(b => (
+                            <span key={b.id} title={`${b.name}: ${b.desc}`} className="text-sm leading-none">{b.emoji}</span>
+                          ))}
+                        </>
+                      )}
                     </div>
+                    {nextXPBadge && totalXP > 0 && (
+                      <div className="mt-1.5">
+                        <div className="h-1 bg-white/50 rounded-full overflow-hidden">
+                          <div className="h-full bg-yellow-400 rounded-full transition-all duration-500" style={{ width: `${xpPct}%` }} />
+                        </div>
+                        <p className="text-[10px] text-gray-400 font-semibold mt-0.5">
+                          {totalXP.toLocaleString()} / {nextXPBadge.minXP.toLocaleString()} XP → {nextXPBadge.icon} {nextXPBadge.label}
+                        </p>
+                      </div>
+                    )}
                   </div>
                 </div>
 
