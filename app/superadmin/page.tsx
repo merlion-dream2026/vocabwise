@@ -229,7 +229,12 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     (notifPassword ? `• Mật khẩu: ${notifPassword}\n` : '') +
     `• Gói: ${planLabel}\n` +
     (planEndDate ? `• Hết hạn: ${fmtDate(planEndDate)}\n` : '') +
-    `\nTruy cập: https://vocabwise.id.vn`
+    `\n🔤 Học phát âm Phonics chuẩn IPA quốc tế\n` +
+    `📖 Từ vựng hàng ngày VocabWise Daily Pre-A1→C2\n` +
+    `🎓 Từ vựng học thuật VocabWise Academic IELTS/SAT\n` +
+    `🇻🇳🇬🇧 Song ngữ Việt–Anh · 🎤 Phát âm cùng AI\n` +
+    `✨ Dùng thử miễn phí!\n` +
+    `\n🌐 Truy cập: https://vocabwise.id.vn`
 
   async function save(e: FormEvent) {
     e.preventDefault()
@@ -713,6 +718,13 @@ function TotpPanel() {
   const [code, setCode] = useState('')
   const [msg, setMsg] = useState('')
   const [saving, setSaving] = useState(false)
+  const [showSecret, setShowSecret] = useState(false)
+  type QRCType = React.ComponentType<{ value: string; size?: number; bgColor?: string; fgColor?: string; level?: string }>
+  const [qrBundle, setQrBundle] = useState<{ C: QRCType } | null>(null)
+
+  useEffect(() => {
+    import('qrcode.react').then(m => setQrBundle({ C: m.QRCodeSVG as QRCType }))
+  }, [])
 
   async function load() {
     const res = await fetch('/api/superadmin/totp')
@@ -754,17 +766,46 @@ function TotpPanel() {
           {msg && <span className="text-sm ml-3">{msg}</span>}
         </div>
       )}
-      {status === 'disabled' && (
-        <div className="space-y-3">
-          <p className="text-sm text-slate-500">2FA chưa bật. Quét hoặc nhập thủ công vào Google Authenticator / Authy:</p>
-          <div className="bg-slate-50 rounded-xl p-3 space-y-2">
-            <p className="text-xs text-slate-400 font-semibold">Secret (nhập thủ công):</p>
-            <code className="text-xs font-mono text-slate-700 break-all select-all block">{secret}</code>
-            <p className="text-xs text-slate-400 font-semibold mt-2">URI (copy vào app):</p>
-            <code className="text-[10px] font-mono text-slate-600 break-all select-all block">{uri}</code>
+      {status === 'disabled' && uri && (
+        <div className="space-y-4">
+          <p className="text-sm text-slate-500">2FA chưa bật. Mở <strong>Google Authenticator</strong> hoặc <strong>Authy</strong> → quét mã QR bên dưới:</p>
+
+          {/* QR Code */}
+          <div className="flex justify-center">
+            <div className="bg-white border-2 border-slate-200 rounded-2xl p-4 inline-block">
+              {qrBundle
+                ? <qrBundle.C value={uri} size={180} bgColor="#ffffff" fgColor="#1e1b4b" level="M" />
+                : <div className="w-[180px] h-[180px] bg-slate-100 rounded-xl animate-pulse" />
+              }
+            </div>
           </div>
+
+          {/* Manual entry fallback */}
+          <details className="group">
+            <summary className="text-xs text-slate-400 cursor-pointer select-none hover:text-slate-600 list-none flex items-center gap-1">
+              <span className="group-open:rotate-90 transition-transform inline-block">▶</span>
+              Không quét được? Nhập thủ công
+            </summary>
+            <div className="mt-2 bg-slate-50 rounded-xl p-3 space-y-2">
+              <p className="text-xs text-slate-400 font-semibold">Secret key:</p>
+              <div className="flex items-center gap-2">
+                <code className="text-sm font-mono text-slate-700 tracking-widest select-all flex-1">
+                  {showSecret ? secret : '••••••••••••••••••••'}
+                </code>
+                <button onClick={() => setShowSecret(v => !v)}
+                  className="text-xs text-slate-400 hover:text-slate-600 font-semibold flex-shrink-0">
+                  {showSecret ? 'Ẩn' : 'Hiện'}
+                </button>
+              </div>
+              <p className="text-[10px] text-slate-400 leading-relaxed">
+                Trong app → Thêm tài khoản → Nhập thủ công → Tên: <em>VocabWise Admin</em> → Dán secret key trên.
+              </p>
+            </div>
+          </details>
+
+          {/* Verify code */}
           <div>
-            <label className="text-xs text-slate-500 mb-1 block">Nhập mã 6 số từ ứng dụng để xác nhận:</label>
+            <label className="text-xs text-slate-500 mb-1 block font-semibold">Nhập mã 6 số từ ứng dụng để xác nhận:</label>
             <div className="flex gap-2">
               <input
                 type="text" inputMode="numeric" maxLength={6} value={code}
