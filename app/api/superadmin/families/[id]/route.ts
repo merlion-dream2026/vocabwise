@@ -54,6 +54,15 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     if (!cur?.gift_token) updates.gift_token = generateGiftToken()
   }
 
+  // Fetch current values before update for audit diff
+  const auditFields = Object.keys(updates).filter(k => k !== 'password_hash' && k !== 'gift_token')
+  let beforeVals: Record<string, unknown> = {}
+  if (auditFields.length > 0) {
+    const { data: cur } = await supabase
+      .from('families').select(auditFields.join(', ')).eq('id', params.id).single()
+    if (cur) beforeVals = cur as unknown as Record<string, unknown>
+  }
+
   const { data, error } = await supabase
     .from('families')
     .update(updates)
@@ -78,15 +87,22 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
       }).catch(err => console.error('[superadmin] pro email error:', err))
     }
 
-    // 2C: Trigger paid referral reward cho referrer (nếu family này được giới thiệu)
-    // Fire-and-forget — không block admin response
     triggerPaidReward(params.id).catch(err =>
       console.error('[superadmin] referral paid reward error:', err)
     )
   }
 
-  const changedFields = Object.keys(updates).filter(k => k !== 'password_hash')
-  logAudit('update_family', params.id, data.username, { changed: changedFields, plan: data.plan })
+  const allData = data as Record<string, unknown>
+  const afterVals: Record<string, unknown> = {}
+  auditFields.forEach(k => { afterVals[k] = allData[k] ?? null })
+  if ('password_hash' in updates) afterVals.password_hash = '(đã đổi)'
+
+  const changedFields = Object.keys(updates).filter(k => k !== 'gift_token')
+  logAudit('update_family', params.id, data.username, {
+    changed: changedFields,
+    before: beforeVals,
+    after: afterVals,
+  })
 
   return NextResponse.json(data)
 }
