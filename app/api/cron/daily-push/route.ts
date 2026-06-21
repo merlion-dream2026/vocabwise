@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { sendPushToAll } from '@/lib/pushNotifications'
+import { sendSmartDailyPush } from '@/lib/pushNotifications'
 
 export async function GET(req: NextRequest) {
   const auth = req.headers.get('authorization')
@@ -9,11 +9,7 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const result = await sendPushToAll({
-      title: '📚 Học từ vựng hôm nay nào!',
-      body: 'Duy trì streak — bé học 10 phút mỗi ngày!',
-      url: '/kids',
-    })
+    const result = await sendSmartDailyPush()
     return NextResponse.json(result)
   } catch (e) {
     return NextResponse.json({ error: String(e) }, { status: 500 })

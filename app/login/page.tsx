@@ -23,6 +23,8 @@ function LoginForm() {
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [expiredUser, setExpiredUser] = useState(isExpiredParam)
   const [turnstileToken, setTurnstileToken] = useState('')
+  const [totpCode, setTotpCode] = useState('')
+  const [needs2fa, setNeeds2fa] = useState(false)
   const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
 
   useEffect(() => {
@@ -41,12 +43,18 @@ function LoginForm() {
     setExpiredUser(false)
     setLoading(true)
     try {
+      const body: Record<string, string> = { username, password, turnstileToken }
+      if (needs2fa && totpCode) body.totpCode = totpCode
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password, turnstileToken }),
+        body: JSON.stringify(body),
       })
       const data = await res.json()
+      if (data.requires2fa) {
+        setNeeds2fa(true)
+        return
+      }
       if (!res.ok) {
         if (data.expired) {
           setExpiredUser(true)
@@ -135,6 +143,24 @@ function LoginForm() {
               </button>
             </div>
           </div>
+
+          {needs2fa && (
+            <div>
+              <label className="block text-sm font-bold text-gray-600 mb-1.5">Mã xác thực 2FA <span className="text-gray-400 font-normal">(6 chữ số từ ứng dụng)</span></label>
+              <input
+                type="text"
+                inputMode="numeric"
+                pattern="\d{6}"
+                maxLength={6}
+                value={totpCode}
+                onChange={(e) => setTotpCode(e.target.value.replace(/\D/g, ''))}
+                className="w-full bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-amber-300 transition tracking-widest text-center text-lg"
+                placeholder="000000"
+                autoFocus
+                autoComplete="one-time-code"
+              />
+            </div>
+          )}
 
           {error && (
             <div className="bg-red-50 border border-red-100 text-red-500 text-sm rounded-2xl px-4 py-3 font-semibold">

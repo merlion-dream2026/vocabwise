@@ -80,3 +80,52 @@ export async function checkDailyCap(familyId: string, limit = 150): Promise<bool
   e.count++
   return e.count <= limit
 }
+
+// ── AI Speak daily usage ──────────────────────────────────────────────────────
+const aiSpeakStore = new Map<string, { count: number; resetAt: number }>()
+
+/** Increments usage and returns false if the daily limit is exceeded. */
+export async function checkAndIncrementAISpeakUsage(familyId: string, limit: number): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key = `vw:ai:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch { /* fall through */ }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = aiSpeakStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; aiSpeakStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
+
+// ── OTP attempt tracking ──────────────────────────────────────────────────────
+const otpAttemptStore = new Map<string, { count: number; resetAt: number }>()
+
+/** Increments OTP failure counter. Returns new count. TTL matches OTP expiry (15 min). */
+export async function incrementOtpAttempts(familyId: string): Promise<number> {
+  const key = `vw:otp-att:${familyId}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 900) // 15 min
+      return count
+    } catch { /* fall through */ }
+  }
+  const now = Date.now()
+  const ttl = 15 * 60 * 1000
+  let e = otpAttemptStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; otpAttemptStore.set(key, e) }
+  e.count++
+  return e.count
+}
+
+/** Resets OTP failure counter on successful verification. */
+export async function resetOtpAttempts(familyId: string): Promise<void> {
+  if (redis) redis.del(`vw:otp-att:${familyId}`).catch(() => {})
+  otpAttemptStore.delete(`vw:otp-att:${familyId}`)
+}

@@ -706,6 +706,85 @@ function GlobalConfigPanel() {
   )
 }
 
+function TotpPanel() {
+  const [status, setStatus] = useState<'loading' | 'enabled' | 'disabled'>('loading')
+  const [secret, setSecret] = useState('')
+  const [uri, setUri] = useState('')
+  const [code, setCode] = useState('')
+  const [msg, setMsg] = useState('')
+  const [saving, setSaving] = useState(false)
+
+  async function load() {
+    const res = await fetch('/api/superadmin/totp')
+    const d = await res.json()
+    if (d.enabled) { setStatus('enabled') }
+    else { setStatus('disabled'); setSecret(d.secret ?? ''); setUri(d.uri ?? '') }
+  }
+
+  useEffect(() => { load() }, [])
+
+  async function enable() {
+    setSaving(true); setMsg('')
+    const res = await fetch('/api/superadmin/totp', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ secret, code }),
+    })
+    const d = await res.json()
+    setSaving(false)
+    if (res.ok) { setStatus('enabled'); setMsg('✅ 2FA đã bật!'); setCode('') }
+    else setMsg('❌ ' + (d.error || 'Lỗi'))
+  }
+
+  async function disable() {
+    if (!confirm('Tắt 2FA cho tài khoản superadmin?')) return
+    await fetch('/api/superadmin/totp', { method: 'DELETE' })
+    setMsg('✅ 2FA đã tắt.')
+    load()
+  }
+
+  return (
+    <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm p-5 mb-6">
+      <h2 className="font-semibold text-red-600 mb-3">🔐 Xác thực 2 bước (2FA) — Superadmin</h2>
+      {status === 'loading' && <p className="text-sm text-slate-400">Đang tải...</p>}
+      {status === 'enabled' && (
+        <div>
+          <p className="text-sm text-green-600 font-semibold mb-3">✅ 2FA đang bật — đăng nhập admin yêu cầu mã xác thực.</p>
+          <button onClick={disable} className="text-sm bg-red-50 hover:bg-red-100 text-red-600 font-semibold px-4 py-2 rounded-xl">Tắt 2FA</button>
+          {msg && <span className="text-sm ml-3">{msg}</span>}
+        </div>
+      )}
+      {status === 'disabled' && (
+        <div className="space-y-3">
+          <p className="text-sm text-slate-500">2FA chưa bật. Quét hoặc nhập thủ công vào Google Authenticator / Authy:</p>
+          <div className="bg-slate-50 rounded-xl p-3 space-y-2">
+            <p className="text-xs text-slate-400 font-semibold">Secret (nhập thủ công):</p>
+            <code className="text-xs font-mono text-slate-700 break-all select-all block">{secret}</code>
+            <p className="text-xs text-slate-400 font-semibold mt-2">URI (copy vào app):</p>
+            <code className="text-[10px] font-mono text-slate-600 break-all select-all block">{uri}</code>
+          </div>
+          <div>
+            <label className="text-xs text-slate-500 mb-1 block">Nhập mã 6 số từ ứng dụng để xác nhận:</label>
+            <div className="flex gap-2">
+              <input
+                type="text" inputMode="numeric" maxLength={6} value={code}
+                onChange={e => setCode(e.target.value.replace(/\D/g, ''))}
+                placeholder="000000"
+                className="w-32 bg-white border-2 border-slate-200 rounded-xl px-3 py-2 text-sm font-mono tracking-widest focus:outline-none focus:ring-2 focus:ring-red-400"
+              />
+              <button onClick={enable} disabled={saving || code.length !== 6}
+                className="bg-red-600 hover:bg-red-700 disabled:opacity-50 text-white text-sm font-semibold px-4 py-2 rounded-xl">
+                {saving ? 'Đang lưu...' : 'Bật 2FA'}
+              </button>
+            </div>
+          </div>
+          {msg && <p className="text-sm">{msg}</p>}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function LoginPanel({ onLogin }: { onLogin: () => void }) {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
@@ -1973,6 +2052,7 @@ function AdminPanel() {
         {adminTab === 'settings' && (
           <div>
             <GlobalConfigPanel />
+            <TotpPanel />
             <AuditLogPanel />
           </div>
         )}

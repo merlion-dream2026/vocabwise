@@ -3,6 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 import { createSession, sessionCookieOptions } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { welcomeEmailHtml } from '@/lib/emailTemplates'
+import { incrementOtpAttempts, resetOtpAttempts } from '@/lib/rateLimit'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -28,11 +29,20 @@ export async function POST(req: NextRequest) {
     return res
   }
 
-  if (family.otp !== otp) return NextResponse.json({ error: 'Mã xác thực không đúng' }, { status: 400 })
+  if (family.otp !== otp) {
+    const attempts = await incrementOtpAttempts(family.id)
+    if (attempts >= 5) {
+      // Invalidate OTP to force re-request
+      await supabase.from('families').update({ otp: null, otp_expires_at: null }).eq('id', family.id)
+      return NextResponse.json({ error: 'Quá nhiều lần thử sai. Vui lòng yêu cầu mã xác thực mới.' }, { status: 429 })
+    }
+    return NextResponse.json({ error: 'Mã xác thực không đúng' }, { status: 400 })
+  }
   if (!family.otp_expires_at || new Date(family.otp_expires_at) < new Date()) {
     return NextResponse.json({ error: 'Mã đã hết hạn. Vui lòng gửi lại mã mới.' }, { status: 400 })
   }
 
+  await resetOtpAttempts(family.id)
   await supabase
     .from('families')
     .update({ email_verified: true, otp: null, otp_expires_at: null })
@@ -57,20 +67,22 @@ export async function POST(req: NextRequest) {
         ? new Date(family.free_trial_expires_at).toLocaleDateString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })
         : '—'
       const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
+      const esc = (s: string | null | undefined) =>
+        (s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
       const row = (label: string, value: string) =>
         `<tr><td style="padding:7px 0;color:#888;width:130px;font-size:14px">${label}</td><td style="font-size:14px;color:#111">${value}</td></tr>`
 
       sendEmail({
         to: 'vocabwise.admin@gmail.com',
-        subject: `🆕 [VocabWise] #${userNo} — ${family.name}`,
+        subject: `🆕 [VocabWise] #${userNo} — ${esc(family.name)}`,
         html: `
           <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
             <h2 style="color:#9333ea;margin-bottom:16px">📚 VocabWise — Tài khoản mới đã kích hoạt</h2>
             <table style="width:100%;border-collapse:collapse">
-              ${row('👤 Họ tên', `<strong>${family.name}</strong>`)}
-              ${row('📧 Email', family.email)}
-              ${row('📱 SĐT', family.phone ?? '—')}
-              ${row('📣 Nguồn', family.referral_source ?? '—')}
+              ${row('👤 Họ tên', `<strong>${esc(family.name)}</strong>`)}
+              ${row('📧 Email', esc(family.email))}
+              ${row('📱 SĐT', esc(family.phone ?? '—'))}
+              ${row('📣 Nguồn', esc(family.referral_source ?? '—'))}
               ${row('⏳ Trial hết hạn', trialExpires)}
               ${row('🏅 User thứ', `#${userNo}`)}
               ${row('🕐 Thời gian', new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }))}

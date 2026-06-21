@@ -184,7 +184,7 @@ export default function ChildRoadmap() {
       />
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
-        <button onClick={() => router.push('/kids')} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
+        <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <img src={getAvatarSrc(child!.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>

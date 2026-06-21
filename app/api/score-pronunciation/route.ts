@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { getFamilyProfile } from '@/lib/security'
+import { getAISpeakLimit } from '@/lib/planUtils'
+import { checkAndIncrementAISpeakUsage } from '@/lib/rateLimit'
 
 function normalize(s: string) {
   return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim()
@@ -72,6 +75,21 @@ function isCorrect(transcript: string, target: string, word: string, contrastWor
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  // AI Speak daily limit — skip for superadmin
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    const aiLimit = profile ? getAISpeakLimit(profile) : 5
+    if (aiLimit !== null) {
+      const allowed = await checkAndIncrementAISpeakUsage(session.familyId, aiLimit)
+      if (!allowed) {
+        return NextResponse.json(
+          { error: 'Daily AI Speak limit reached. Upgrade to Pro for more.' },
+          { status: 429 },
+        )
+      }
+    }
+  }
 
   let formData: FormData
   try { formData = await req.formData() } catch {

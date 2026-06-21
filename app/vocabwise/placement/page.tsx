@@ -158,7 +158,7 @@ export default function PlacementPage() {
         {/* Header */}
         <div className={`bg-gradient-to-r ${info.color} text-white px-4 py-5`}>
           <div className="max-w-lg mx-auto flex items-center gap-3">
-            <button onClick={() => router.push('/vocabwise')} className="text-white/70 hover:text-white text-xl">←</button>
+            <button onClick={() => router.push('/vocabwise')} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
             <div>
               <h1 className="font-black text-lg">Kết quả cấp độ</h1>
               <p className="text-white/70 text-xs">Đúng {totalCorrect}/10 câu</p>

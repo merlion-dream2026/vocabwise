@@ -1,7 +1,7 @@
-'use client'
 import Link from 'next/link'
-import { useState } from 'react'
-import UpgradeModal from '@/components/UpgradeModal'
+import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
+import LandingVideoGallery from '@/components/landing/LandingVideoGallery'
+import LandingScreenshotGallery from '@/components/landing/LandingScreenshotGallery'
 
 const SECTIONS = [
   {
@@ -161,40 +161,6 @@ const FEATURES = [
   { emoji: '📲', label: 'Không cài app', desc: 'Dùng như app thật — không cần App Store, tự cập nhật', color: 'border-sky-200' },
 ]
 
-const SCREENSHOTS = [
-  { src: '/screenshots/select%20profile.jpg',              caption: 'Mỗi bé một hồ sơ riêng' },
-  { src: '/screenshots/select%20level.jpg',                caption: '6 cấp độ từ Pre-A1 đến C1-C2' },
-  { src: '/screenshots/select%20vocab%20topic.jpg',        caption: '30 chủ đề · 4.500+ từ vựng' },
-  { src: '/screenshots/select%20game.jpg',                 caption: '10 trò chơi đa dạng mỗi chủ đề' },
-  { src: '/screenshots/demo%20flashcard.jpg',              caption: 'Flashcard — học từ trong ngữ cảnh' },
-  { src: '/screenshots/demo%20game%20ghep%20chu.jpg',      caption: 'Ghép chữ — luyện chính tả vui' },
-  { src: '/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg', caption: '🎤 AI chấm phát âm ngay lập tức' },
-  { src: '/screenshots/demo%20game%20sap%20xep%20cau.jpg', caption: 'Sắp xếp câu — hiểu ngữ pháp tự nhiên' },
-  { src: '/screenshots/luyen%20phat%20am.jpg',             caption: 'Phát âm IPA — nguyên âm & phụ âm' },
-  { src: '/screenshots/parent%20dashboard%201.jpg',        caption: 'Ba/Mẹ theo dõi tiến độ mỗi ngày' },
-  { src: '/screenshots/parent%20dashboard%202.jpg',        caption: 'Streak · Badges · Từ yếu cần ôn' },
-]
-
-const VIDEOS = [
-  {
-    src: '/videos/demo%20game%20nghe%20va%20chon%20hinh%20(Mia).mp4',
-    poster: '/screenshots/select%20game.jpg',
-    title: 'Bé Mia chơi Nghe & Chọn hình',
-    tag: '🖼️ Nhận diện từ qua hình ảnh',
-  },
-  {
-    src: '/videos/demo%20game%20phat%20am%20cung%20AI%20(Tim).mp4',
-    poster: '/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg',
-    title: 'Bé Tim luyện Phát âm cùng AI ✨',
-    tag: '🎤 AI chấm phát âm ngay',
-  },
-  {
-    src: '/videos/demo%20mastery%20screen%20(Tim).mp4',
-    poster: '/screenshots/select%20level.jpg',
-    title: 'Bé Tim hoàn thành chủ đề',
-    tag: '🏆 Chiến thắng sau 3 game',
-  },
-]
 
 const STEPS = [
   { n: '1', emoji: '🆕', title: 'Đăng ký miễn phí trong 1 phút', desc: 'Tạo tài khoản và hồ sơ cho bé — không cần thẻ tín dụng' },
@@ -204,14 +170,8 @@ const STEPS = [
 ]
 
 export default function LandingPage() {
-  const [showUpgrade, setShowUpgrade] = useState(false)
-  const [activeVideo, setActiveVideo] = useState<string | null>(null)
-  const [activeScreenshot, setActiveScreenshot] = useState<{ src: string; caption: string } | null>(null)
-
   return (
     <div className="min-h-screen bg-white">
-
-      {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} />}
 
       {/* Nav */}
       <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-gray-100">
@@ -242,10 +202,9 @@ export default function LandingPage() {
             className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
             🚀 Dùng thử miễn phí
           </Link>
-          <button onClick={() => setShowUpgrade(true)}
-            className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap">
-            ⭐ Xem gói Pro
-          </button>
+          <LandingUpgradeButton
+            label="⭐ Xem gói Pro"
+            className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap" />
         </div>
 
       </div>
@@ -286,110 +245,9 @@ export default function LandingPage() {
       </div>
       </section>
 
-      {/* Video demos */}
-      <div className="max-w-7xl mx-auto pb-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
-        <p className="text-gray-400 text-sm text-center mb-5 px-4">Video thật · Các bé đang học</p>
-        {/* Mobile: scroll · Desktop: 3-col grid */}
-        <div className="flex gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-3 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
-          {VIDEOS.map((v, i) => (
-            <button key={i} onClick={() => setActiveVideo(v.src)}
-              className="flex-none snap-center w-[150px] lg:w-auto text-left group active:scale-95 transition-transform">
-              <div className="relative rounded-[20px] border-[3px] border-gray-800 bg-gray-900 overflow-hidden shadow-xl h-[268px] lg:h-auto lg:aspect-[9/16]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={v.poster} alt={v.title} className="w-full h-full object-cover object-top" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-14 h-14 lg:w-20 lg:h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 group-active:scale-90 transition-transform">
-                    <span className="text-2xl lg:text-3xl ml-1">▶</span>
-                  </div>
-                </div>
-                <div className="absolute bottom-2 left-2 right-2 lg:bottom-4 lg:left-4">
-                  <span className="text-xs lg:text-sm font-black text-white/90 bg-black/40 px-2 py-0.5 rounded-full">{v.tag}</span>
-                </div>
-              </div>
-              <p className="text-xs lg:text-sm font-black text-gray-700 mt-2 leading-snug px-0.5">{v.title}</p>
-            </button>
-          ))}
-        </div>
-        <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem thêm</p>
-      </div>
+      <LandingVideoGallery />
 
-      {/* Video modal */}
-      {activeVideo && (
-        <div className="fixed inset-0 bg-black/92 z-50 flex items-center justify-center px-4" onClick={() => setActiveVideo(null)}>
-          <div className="relative w-full max-w-[320px]" onClick={e => e.stopPropagation()}>
-            <button onClick={() => setActiveVideo(null)}
-              className="absolute -top-11 right-0 text-white/80 font-black text-sm flex items-center gap-1.5 hover:text-white">
-              ✕ Đóng
-            </button>
-            {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-            <video src={activeVideo} controls autoPlay playsInline
-              className="w-full rounded-[24px] shadow-2xl border-[3px] border-gray-700" />
-          </div>
-        </div>
-      )}
-
-      {/* Screenshot lightbox */}
-      {activeScreenshot && (
-        <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center px-4"
-          onClick={() => setActiveScreenshot(null)}>
-          <div className="relative w-full max-w-sm flex flex-col items-center" onClick={e => e.stopPropagation()}>
-            <div className="flex items-center justify-between w-full mb-3 px-1">
-              <p className="text-white font-black text-sm">{activeScreenshot.caption}</p>
-              <button onClick={() => setActiveScreenshot(null)} className="text-white/70 hover:text-white font-black text-sm ml-4 flex-shrink-0">✕ Đóng</button>
-            </div>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={activeScreenshot.src} alt={activeScreenshot.caption}
-              className="w-full rounded-2xl shadow-2xl" style={{ maxHeight: '80dvh', objectFit: 'contain' }} />
-            {/* Prev / Next */}
-            <div className="flex gap-3 mt-4">
-              {(() => {
-                const idx = SCREENSHOTS.findIndex(s => s.src === activeScreenshot.src)
-                return (
-                  <>
-                    <button
-                      onClick={() => setActiveScreenshot(SCREENSHOTS[(idx - 1 + SCREENSHOTS.length) % SCREENSHOTS.length])}
-                      className="bg-white/10 hover:bg-white/20 text-white font-black px-4 py-2 rounded-xl text-sm transition-colors">
-                      ← Trước
-                    </button>
-                    <span className="text-white/40 text-xs self-center">{idx + 1} / {SCREENSHOTS.length}</span>
-                    <button
-                      onClick={() => setActiveScreenshot(SCREENSHOTS[(idx + 1) % SCREENSHOTS.length])}
-                      className="bg-white/10 hover:bg-white/20 text-white font-black px-4 py-2 rounded-xl text-sm transition-colors">
-                      Sau →
-                    </button>
-                  </>
-                )
-              })()}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Screenshots carousel */}
-      <div className="max-w-7xl mx-auto pb-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng tính năng</h2>
-        <p className="text-gray-400 text-sm text-center mb-5 px-4">Screenshots thực tế từ app · Không chỉnh sửa</p>
-        <div className="flex gap-4 overflow-x-auto pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
-          {SCREENSHOTS.map((s, i) => (
-            <button key={i} onClick={() => setActiveScreenshot(s)}
-              className="flex-none snap-center active:scale-95 hover:scale-105 transition-transform"
-              style={{ width: 148 }}>
-              <div className="rounded-[22px] border-[3px] border-gray-800 bg-gray-800 shadow-xl overflow-hidden">
-                <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
-                <div className="overflow-hidden bg-white" style={{ height: 264 }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={s.src} alt={s.caption} className="w-full h-full object-cover object-top" loading="lazy" />
-                </div>
-                <div className="h-3 bg-gray-800" />
-              </div>
-              <p className="text-xs font-black text-gray-600 mt-2 text-center leading-tight px-0.5">{s.caption}</p>
-            </button>
-          ))}
-        </div>
-        <p className="text-center text-xs text-gray-300 px-4">← Vuốt để xem tất cả {SCREENSHOTS.length} màn hình →</p>
-      </div>
+      <LandingScreenshotGallery />
 
       {/* Features */}
       <section className="bg-white border-t border-gray-100 py-4">
@@ -440,10 +298,9 @@ export default function LandingPage() {
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
             </ul>
-            <button onClick={() => setShowUpgrade(true)}
-              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs py-2 rounded-xl hover:bg-purple-200 transition-colors active:scale-95">
-              Chọn
-            </button>
+            <LandingUpgradeButton
+              label="Chọn"
+              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs py-2 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
           </div>
 
           {/* 3 tháng — most popular */}
@@ -460,10 +317,9 @@ export default function LandingPage() {
               <li>✅ Module Word Stress</li>
               <li>✅ Báo cáo email<br/><span className="text-white/70">tự động hàng tuần</span></li>
             </ul>
-            <button onClick={() => setShowUpgrade(true)}
-              className="mt-3 w-full bg-white text-purple-600 font-black text-xs py-2 rounded-xl hover:bg-purple-50 transition-colors active:scale-95">
-              Chọn
-            </button>
+            <LandingUpgradeButton
+              label="Chọn"
+              className="mt-3 w-full bg-white text-purple-600 font-black text-xs py-2 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
           </div>
 
           {/* 6 tháng — best value */}
@@ -480,10 +336,9 @@ export default function LandingPage() {
               <li>🎁 Tặng bạn bè<br/><span className="text-white/70">14 ngày Pro</span></li>
               <li>📅 Tổng kết học<br/><span className="text-white/70">hàng tháng</span></li>
             </ul>
-            <button onClick={() => setShowUpgrade(true)}
-              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs py-2 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95">
-              Chọn
-            </button>
+            <LandingUpgradeButton
+              label="Chọn"
+              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs py-2 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
           </div>
         </div>
 

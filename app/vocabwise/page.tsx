@@ -80,7 +80,7 @@ export default function VocabWisePage() {
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
           <span className="text-2xl flex-shrink-0">🎓</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">VocabWise Academic</h1>
@@ -99,7 +99,7 @@ export default function VocabWisePage() {
                 <h3 className="font-black text-gray-800 text-base">👋 Chào mừng đến VocabWise Academic!</h3>
                 <p className="text-xs text-gray-400 font-semibold mt-0.5">Từ vựng học thuật · A1 → C2 · IELTS / SAT</p>
               </div>
-              <button onClick={dismissWelcome} className="text-gray-300 hover:text-gray-500 text-lg leading-none flex-shrink-0">✕</button>
+              <button onClick={dismissWelcome} aria-label="Đóng thông báo chào mừng" className="text-gray-300 hover:text-gray-500 text-lg leading-none flex-shrink-0">✕</button>
             </div>
             <div className="space-y-2.5 mb-4">
               {[

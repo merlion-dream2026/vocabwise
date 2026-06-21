@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from './lib/session'
+import { rateLimit } from './lib/rateLimit'
 
 const PUBLIC_PATHS = [
   '/',
@@ -19,44 +20,32 @@ const PUBLIC_PATHS = [
   '/onboarding',
 ]
 
-// Rate limit config: [max requests, window in ms]
+// Auth endpoint rate limits: [max, window seconds]
 const RATE_LIMITS: Record<string, [number, number]> = {
-  '/api/auth/login':           [10, 60_000],   // 10 per minute
-  '/api/auth/register':        [5,  300_000],  // 5 per 5 min
-  '/api/auth/forgot-password': [5,  300_000],  // 5 per 5 min
-  '/api/auth/verify-otp':      [10, 60_000],   // 10 per minute
-  '/api/auth/resend-otp':      [3,  300_000],  // 3 per 5 min
+  '/api/auth/login':           [10, 60],   // 10/min
+  '/api/auth/register':        [5,  300],  // 5/5min
+  '/api/auth/forgot-password': [5,  300],  // 5/5min
+  '/api/auth/verify-otp':      [10, 60],   // 10/min
+  '/api/auth/resend-otp':      [3,  300],  // 3/5min
 }
 
-// Content endpoint rate limits by user (family_id): [max, window ms]
+// Content endpoint rate limits by user: [max, window seconds]
 const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
-  '/api/vocabwise/topics': [60, 60_000],   // 60/min per user (industry standard)
-  '/api/words':            [60,  60_000],  // 60/min per user
-  '/api/stories':          [60,  60_000],  // 60/min per user
-}
-
-// In-memory store: key → timestamps[]
-const rateLimitStore = new Map<string, number[]>()
-
-function isRateLimited(key: string, max: number, windowMs: number): boolean {
-  const now = Date.now()
-  const timestamps = (rateLimitStore.get(key) ?? []).filter(t => now - t < windowMs)
-  if (timestamps.length >= max) return true
-  timestamps.push(now)
-  rateLimitStore.set(key, timestamps)
-  return false
+  '/api/vocabwise/topics': [60, 60],
+  '/api/words':            [60, 60],
+  '/api/stories':          [60, 60],
 }
 
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
-  // Rate limiting for auth endpoints (by IP)
+  // Rate limiting for auth endpoints (by IP) — uses distributed Upstash limiter
   if (req.method === 'POST') {
     const limit = RATE_LIMITS[pathname]
     if (limit) {
       const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
-      const key = `${pathname}:${ip}`
-      if (isRateLimited(key, limit[0], limit[1])) {
+      const { allowed } = await rateLimit(`mw:${pathname}:${ip}`, limit[0], limit[1])
+      if (!allowed) {
         return NextResponse.json(
           { error: 'Quá nhiều yêu cầu. Vui lòng thử lại sau.' },
           { status: 429 }
@@ -71,9 +60,9 @@ export async function middleware(req: NextRequest) {
     if (contentPrefix) {
       const session = await getSession(req)
       const userId = session?.familyId ?? req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'anon'
-      const key = `${contentPrefix}:${userId}`
-      const [max, window] = CONTENT_RATE_LIMITS[contentPrefix]
-      if (isRateLimited(key, max, window)) {
+      const [max, windowSec] = CONTENT_RATE_LIMITS[contentPrefix]
+      const { allowed } = await rateLimit(`mw:${contentPrefix}:${userId}`, max, windowSec)
+      if (!allowed) {
         return NextResponse.json(
           { error: 'Quá nhiều yêu cầu. Vui lòng thử lại sau.' },
           { status: 429 }

@@ -190,7 +190,7 @@ export default function ReviewPage() {
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <div className={`${headerCls} text-white`}>
           <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-            <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
+            <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
             <div>
               <p className="font-bold text-lg">📅 Ôn lại hôm nay</p>
               <p className="text-white/70 text-xs">{queue.length} chủ đề trong hàng đợi</p>
@@ -243,7 +243,7 @@ export default function ReviewPage() {
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <div className={`${headerCls} text-white`}>
           <div className="max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
-            <button onClick={() => router.replace(`/vocabwise/${book}`)} className="text-white/70 hover:text-white flex-shrink-0">←</button>
+            <button onClick={() => router.replace(`/vocabwise/${book}`)} aria-label="Quay lại" className="text-white/70 hover:text-white flex-shrink-0">←</button>
             <div className="flex-1 min-w-0">
               <p className="text-xs text-white/70 font-medium">📅 Ôn lại · {currentIdx + 1}/{queue.length}</p>
               <p className="font-bold text-sm truncate">{currentEx.topicTitle}</p>

@@ -14,6 +14,7 @@ export interface FamilyProfile {
   free_trial_expires_at: string | null
   plan_end_date: string | null
   bonus_pro_expires_at: string | null
+  bonus_features: string[] | null
   is_blocked: boolean
   created_at: string
   last_request_ip: string | null
@@ -31,7 +32,7 @@ export async function getFamilyProfile(familyId: string): Promise<FamilyProfile 
   }
   const { data } = await supabase
     .from('families')
-    .select('plan, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, is_blocked, created_at, last_request_ip, last_request_at, last_request_country')
+    .select('plan, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, bonus_features, is_blocked, created_at, last_request_ip, last_request_at, last_request_country')
     .eq('id', familyId)
     .single()
   if (!data) return null
@@ -52,15 +53,34 @@ export async function blockFamily(familyId: string): Promise<void> {
   await supabase.from('families').update({ is_blocked: true }).eq('id', familyId)
 }
 
-// ── B: Sequential scraping detection ────────────────────────────────────────
+// ── B: Sequential scraping detection ─────────────────────────────────────────
+// Uses Redis sorted set (score=timestamp, member=topicNum) for distributed tracking.
+// Falls back to in-memory Map per instance when Redis unavailable.
 const seqStore = new Map<string, { nums: number[]; times: number[] }>()
 
-export function detectSequential(familyId: string, topicId: string): boolean {
+export async function detectSequential(familyId: string, topicId: string): Promise<boolean> {
   const match = topicId.match(/t(\d+)$/)
   if (!match) return false
   const num = parseInt(match[1])
   const now = Date.now()
   const cutoff = now - 10 * 60_000
+  const key = `vw:seq:${familyId}`
+
+  if (redis) {
+    try {
+      await redis.zadd(key, { score: now, member: `${now}:${num}` })
+      await redis.zremrangebyscore(key, 0, cutoff)
+      await redis.expire(key, 600)
+      const members = await redis.zrange(key, 0, -1)
+      const nums = (members as string[]).map((m) => parseInt(m.split(':')[1])).filter((n) => !isNaN(n))
+      if (nums.length < 5) return false
+      const recent = nums.slice(-5).sort((a: number, b: number) => a - b)
+      for (let i = 1; i < recent.length; i++) {
+        if (recent[i] - recent[i - 1] > 2) return false
+      }
+      return true
+    } catch { /* fall through to in-memory */ }
+  }
 
   const prev = seqStore.get(familyId) ?? { nums: [], times: [] }
   const valid = prev.nums
@@ -123,7 +143,8 @@ export async function verifyTurnstile(token: string | undefined): Promise<boolea
     })
     const data = await res.json() as { success: boolean }
     return data.success === true
-  } catch {
-    return true
+  } catch (err) {
+    console.warn('[Turnstile] verification error — blocking request:', err)
+    return false
   }
 }

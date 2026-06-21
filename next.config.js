@@ -27,6 +27,9 @@ const securityHeaders = [
 const nextConfig = {
   poweredByHeader: false,
   compress: true,
+  experimental: {
+    optimizePackageImports: ['@phosphor-icons/react', 'recharts'],
+  },
   async headers() {
     return [
       {

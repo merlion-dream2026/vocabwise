@@ -102,7 +102,7 @@ export default function WordListPage() {
                           <span className="font-black text-gray-800 text-sm">{w.word}</span>
                           {w.ipa && <span className="text-gray-400 text-xs">{w.ipa}</span>}
                           {w.pos && <span className="text-gray-400 text-xs italic">{w.pos}</span>}
-                          <button onClick={() => speak(w.word)} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>
+                          <button onClick={() => speak(w.word)} aria-label={`Nghe phát âm ${w.word}`} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>
                         </div>
                         <p className="text-blue-700 font-bold text-xs mt-0.5">{w.meaning_vi}</p>
                         {w.example_en && (

@@ -224,7 +224,7 @@ export default function LevelTopicsPage() {
       {/* Header */}
       <div className={`${colors.header} text-white`}>
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(`/dashboard/${childId}/kids`)} className="text-white/70 hover:text-white text-xl">←</button>
+          <button onClick={() => router.push(`/dashboard/${childId}/kids`)} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
           <img src={getAvatarSrc(child!.emoji)} className="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="" />
           <div>
             <h1 className="font-bold text-lg leading-tight">{child!.name}</h1>
@@ -585,7 +585,7 @@ export default function LevelTopicsPage() {
           <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-black text-gray-800 text-base">⭐ XP là gì?</h2>
-              <button onClick={() => setShowXpGuide(false)} className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
+              <button onClick={() => setShowXpGuide(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
             </div>
             <p className="text-sm text-gray-500 mb-3">XP (điểm kinh nghiệm) tăng mỗi khi bạn trả lời đúng trong các trò chơi. Game khó → nhiều XP hơn!</p>
             {/* Game multiplier tiers */}
@@ -635,7 +635,7 @@ export default function LevelTopicsPage() {
           <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8 max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-black text-gray-800 text-base">🏅 Các huy hiệu</h2>
-              <button onClick={() => setShowBadgeGuide(false)} className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
+              <button onClick={() => setShowBadgeGuide(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
             </div>
             <div className="space-y-1">
               {ALL_BADGES.map(badge => {

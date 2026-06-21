@@ -37,15 +37,21 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
       return NextResponse.json({ error: 'Account suspended.' }, { status: 403 })
     }
 
-    // Plan check (inline from profile — no extra query)
-    const now    = new Date()
-    const active =
-      (profile.bonus_pro_expires_at && new Date(profile.bonus_pro_expires_at) > now) ||
-      (profile.plan === 'free'
-        ? (profile.free_trial_expires_at ? new Date(profile.free_trial_expires_at) > now : false)
-        : (profile.plan_end_date ? new Date(profile.plan_end_date) > now : false))
-    if (!active) {
-      return NextResponse.json({ error: 'Subscription required' }, { status: 403 })
+    // Plan/feature gating — free users get 1 topic per book only (b[123]-t01)
+    const now = new Date()
+    const isProActive =
+      profile.bonus_features?.includes('academic_full') ||
+      !!(profile.bonus_pro_expires_at && new Date(profile.bonus_pro_expires_at) > now) ||
+      (profile.plan !== 'free' && !!profile.plan_end_date && new Date(profile.plan_end_date) > now)
+    const isTrialActive =
+      profile.plan === 'free' &&
+      !!profile.free_trial_expires_at &&
+      new Date(profile.free_trial_expires_at) > now
+
+    if (!isProActive && !isTrialActive) {
+      if (!/^b[123]-t01$/.test(topicId)) {
+        return NextResponse.json({ error: 'Upgrade to Pro to access this topic.' }, { status: 403 })
+      }
     }
 
     // C: new-account cap (from profile — no extra query)
@@ -56,7 +62,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     }
 
     // B: sequential scraping
-    if (detectSequential(familyId, topicId)) {
+    if (await detectSequential(familyId, topicId)) {
       console.warn(`[SECURITY] Sequential: family=${familyId} topic=${topicId}`)
       return NextResponse.json({ error: 'Too many sequential requests. Please slow down.' }, { status: 429 })
     }

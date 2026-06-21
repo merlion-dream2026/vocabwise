@@ -1,0 +1,72 @@
+'use client'
+import { useState } from 'react'
+
+const VIDEOS = [
+  {
+    src: '/videos/demo%20game%20nghe%20va%20chon%20hinh%20(Mia).mp4',
+    poster: '/screenshots/select%20game.jpg',
+    title: 'Bé Mia chơi Nghe & Chọn hình',
+    tag: '🖼️ Nhận diện từ qua hình ảnh',
+  },
+  {
+    src: '/videos/demo%20game%20phat%20am%20cung%20AI%20(Tim).mp4',
+    poster: '/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg',
+    title: 'Bé Tim luyện Phát âm cùng AI ✨',
+    tag: '🎤 AI chấm phát âm ngay',
+  },
+  {
+    src: '/videos/demo%20mastery%20screen%20(Tim).mp4',
+    poster: '/screenshots/select%20level.jpg',
+    title: 'Bé Tim hoàn thành chủ đề',
+    tag: '🏆 Chiến thắng sau 3 game',
+  },
+]
+
+export default function LandingVideoGallery() {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null)
+
+  return (
+    <>
+      <div className="max-w-7xl mx-auto pb-4">
+        <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
+        <p className="text-gray-400 text-sm text-center mb-5 px-4">Video thật · Các bé đang học</p>
+        <div className="flex gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-3 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
+          {VIDEOS.map((v, i) => (
+            <button key={i} onClick={() => setActiveVideo(v.src)}
+              className="flex-none snap-center w-[150px] lg:w-auto text-left group active:scale-95 transition-transform">
+              <div className="relative rounded-[20px] border-[3px] border-gray-800 bg-gray-900 overflow-hidden shadow-xl h-[268px] lg:h-auto lg:aspect-[9/16]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={v.poster} alt={v.title} className="w-full h-full object-cover object-top" loading="lazy" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-14 h-14 lg:w-20 lg:h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 group-active:scale-90 transition-transform">
+                    <span className="text-2xl lg:text-3xl ml-1">▶</span>
+                  </div>
+                </div>
+                <div className="absolute bottom-2 left-2 right-2 lg:bottom-4 lg:left-4">
+                  <span className="text-xs lg:text-sm font-black text-white/90 bg-black/40 px-2 py-0.5 rounded-full">{v.tag}</span>
+                </div>
+              </div>
+              <p className="text-xs lg:text-sm font-black text-gray-700 mt-2 leading-snug px-0.5">{v.title}</p>
+            </button>
+          ))}
+        </div>
+        <p className="text-center text-xs text-gray-300 mt-1 px-4 lg:hidden">← Vuốt để xem thêm</p>
+      </div>
+
+      {activeVideo && (
+        <div className="fixed inset-0 bg-black/92 z-50 flex items-center justify-center px-4" onClick={() => setActiveVideo(null)}>
+          <div className="relative w-full max-w-[320px]" onClick={e => e.stopPropagation()}>
+            <button onClick={() => setActiveVideo(null)}
+              className="absolute -top-11 right-0 text-white/80 font-black text-sm flex items-center gap-1.5 hover:text-white">
+              ✕ Đóng
+            </button>
+            {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+            <video src={activeVideo} controls autoPlay playsInline
+              className="w-full rounded-[24px] shadow-2xl border-[3px] border-gray-700" />
+          </div>
+        </div>
+      )}
+    </>
+  )
+}

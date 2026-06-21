@@ -16,6 +16,7 @@ import OnboardingChecklist from '@/components/OnboardingChecklist'
 import { AVATARS, getAvatarSrc } from '@/lib/avatars'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import BangThanhTich from '@/components/BangThanhTich'
+import LeaderboardCard from './LeaderboardCard'
 
 type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
@@ -152,7 +153,7 @@ function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
       <div className="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl my-4" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between mb-5">
           <h2 className="font-black text-lg text-gray-800">➕ Thêm hồ sơ bé</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
+          <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
         </div>
         {blocked ? (
           <div className="text-center py-6">
@@ -243,7 +244,7 @@ function EditChildModal({ child, onClose, onSaved, onDeleted }: {
       <div className="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl my-4" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between mb-5">
           <h2 className="font-black text-lg text-gray-800">✏️ Sửa hồ sơ</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
+          <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
         </div>
         <form onSubmit={save} className="space-y-4">
           <input value={name} onChange={e => setName(e.target.value)} required
@@ -544,6 +545,9 @@ function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditChild, se
           <p className="text-xs text-purple-500 mt-1">Nâng cấp Pro để mở toàn bộ 4.500+ từ và 10 game</p>
         </div>
       )}
+
+      {/* Leaderboard */}
+      <LeaderboardCard />
 
       {/* FAQ */}
       <FaqCard />
