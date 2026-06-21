@@ -112,8 +112,13 @@ function planBadge(f: Family): { label: string; color: string } {
   const d = daysUntil(f.plan_end_date)
   if (d === null || d < 0) return { label: `${planShort} ✗`, color: 'bg-red-700 text-red-200' }
   if (d <= 7) return { label: `${planShort} (${d}d ⚠)`, color: 'bg-yellow-600 text-yellow-100' }
-  const giftColor = f.plan === '2weeks' ? 'bg-pink-600 text-pink-100' : 'bg-indigo-700 text-indigo-100'
-  return { label: `${planShort} (${d}d)`, color: giftColor }
+  const PLAN_COLOR: Record<string, string> = {
+    '2weeks':  'bg-pink-500 text-white',
+    '1month':  'bg-sky-500 text-white',
+    '3months': 'bg-violet-600 text-white',
+    '6months': 'bg-indigo-700 text-white',
+  }
+  return { label: `${planShort} (${d}d)`, color: PLAN_COLOR[f.plan] ?? 'bg-indigo-700 text-white' }
 }
 
 function EyeIcon({ show }: { show: boolean }) {
