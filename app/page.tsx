@@ -251,7 +251,7 @@ export default function LandingPage() {
       </section>
 
       {/* Module feature carousel */}
-      <section className="bg-white py-8">
+      <section className="bg-white py-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
         <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
@@ -391,7 +391,7 @@ export default function LandingPage() {
       </div>
 
       {/* Features */}
-      <section className="bg-purple-50/60 py-8">
+      <section className="bg-purple-50/60 py-6">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -409,7 +409,7 @@ export default function LandingPage() {
       </section>
 
       {/* Pricing */}
-      <section className="bg-white py-8">
+      <section className="bg-white py-6">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
         <p className="text-gray-400 text-sm text-center mb-4">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
@@ -499,7 +499,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section className="bg-gray-50 py-8">
+      <section className="bg-gray-50 py-6">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
         <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
@@ -528,7 +528,7 @@ export default function LandingPage() {
       </section>
 
       {/* Founder trust */}
-      <section className="bg-white py-8">
+      <section className="bg-white py-6">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-white rounded-3xl p-6 shadow-sm border-2 border-purple-200 flex gap-4 items-start">
           <div className="text-4xl flex-shrink-0">👨‍🏫</div>
@@ -546,7 +546,7 @@ export default function LandingPage() {
       </section>
 
       {/* FAQ — SEO structured content */}
-      <section className="bg-gray-50 py-8">
+      <section className="bg-gray-50 py-6">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
         <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise</p>
