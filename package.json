@@ -22,7 +22,7 @@
     "bcryptjs": "^3.0.3",
     "jose": "^6.2.3",
     "next": "^14.2.35",
-    "nodemailer": "^8.0.8",
+    "nodemailer": "^9.0.1",
     "openai": "^6.39.0",
     "qrcode.react": "^4.2.0",
     "react": "^18",
