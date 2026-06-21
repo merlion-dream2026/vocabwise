@@ -67,6 +67,7 @@ const MODULE_CARDS = [
       { icon: '📖', text: '4.500+ từ vựng chọn lọc, 30 chủ đề/cấp độ' },
       { icon: '🎮', text: '10 trò chơi tương tác: Flashcard · Nghe · Đánh vần...' },
       { icon: '🎵', text: 'Mini story audio — nghe chuyện có chứa từ vựng' },
+      { icon: '⭐', text: 'Từ của tôi — lưu từ yêu thích, tự tạo bộ ôn tập (Free: 20 từ)' },
     ],
   },
   {
@@ -82,6 +83,7 @@ const MODULE_CARDS = [
       { icon: '📚', text: '3 books · 180 chủ đề học thuật · A1 → C2' },
       { icon: '📄', text: 'Passage ngữ cảnh + glossary song ngữ Việt–Anh' },
       { icon: '✏️', text: '8 loại bài tập: MCQ · Gap Fill · TFNG · Word Forms...' },
+      { icon: '⭐', text: 'Từ của tôi — lưu từ quan trọng, tạo danh sách IELTS/SAT (Free: 20 từ)' },
       { icon: '🎯', text: 'Kiểm tra cấp độ tự động — tìm đúng level chỉ 2 phút' },
     ],
   },
@@ -134,11 +136,15 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Dùng thử miễn phí được không?',
-    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho bé học 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi, module phát âm IPA đầy đủ và dashboard phụ huynh trong 7 ngày.\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ 180 chủ đề · 4.500+ từ · AI phát âm không giới hạn và nhiều tính năng độc quyền hơn.',
+    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho học 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi, module phát âm IPA đầy đủ, dashboard phụ huynh trong 7 ngày — và tính năng ⭐ Từ của tôi (lưu tối đa 20 từ).\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ 180 chủ đề · 4.500+ từ · AI phát âm không giới hạn · Từ của tôi không giới hạn và nhiều tính năng độc quyền hơn.',
+  },
+  {
+    q: '⭐ Tính năng "Từ của tôi" là gì?',
+    a: '"Từ của tôi" là tính năng lưu từ vựng cá nhân — có sẵn cho mọi người dùng kể cả Free!\n\nCách dùng:\n• Nhấn ⭐ cạnh bất kỳ từ nào trong Academic (tab Từ vựng) hoặc Daily (Flashcard) để lưu lại\n• Tự tạo nhiều danh sách riêng: IELTS Writing, SAT Vocab, Ôn thi tuần này...\n• Xem lại và ôn tập nhanh tất cả từ đã lưu tại mục ⭐ Từ của tôi\n\nGiới hạn:\n• Free: lưu tối đa 20 từ\n• Pro (mọi gói): lưu không giới hạn, tạo không giới hạn danh sách',
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có: 180 chủ đề · 4.500+ từ · 10 trò chơi/chủ đề · Phonics IPA đầy đủ · SRS ôn từ yếu · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có: 180 chủ đề · 4.500+ từ · 10 trò chơi/chủ đề · Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 
@@ -148,6 +154,7 @@ const FEATURES = [
   { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...', color: 'border-orange-200' },
   { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay!', color: 'border-pink-200' },
   { emoji: '🔤', label: 'Học phát âm IPA', desc: 'Nguyên âm, phụ âm, minimal pairs theo chuẩn Cambridge', color: 'border-teal-200' },
+  { emoji: '⭐', label: 'Từ của tôi 🆕', desc: 'Lưu từ yêu thích, tạo danh sách ôn tập riêng — Free 20 từ, Pro không giới hạn', color: 'border-yellow-300' },
   { emoji: '📅', label: 'Ôn tập thông minh', desc: 'App tự nhắc từ chưa thuộc đúng lúc', color: 'border-indigo-200' },
   { emoji: '📊', label: 'Dashboard phụ huynh', desc: 'Theo dõi streak, XP, tiến độ', color: 'border-amber-200' },
   { emoji: '📲', label: 'Không cài app · Tự cập nhật', desc: 'Dùng như app thật trên mọi thiết bị — không cần cài đặt, tự động cập nhật', color: 'border-sky-200' },
@@ -483,7 +490,7 @@ export default function LandingPage() {
         <div className="mt-3 bg-purple-50 rounded-2xl p-3">
           <p className="text-xs font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
           <div className="flex flex-wrap gap-1.5">
-            {['📚 Daily: 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '🔁 SRS ôn từ yếu', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
+            {['📚 Daily: 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '⭐ Từ của tôi không giới hạn', '🔁 SRS ôn từ yếu không giới hạn', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
               <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</span>
             ))}
           </div>

@@ -272,6 +272,21 @@ export default function LevelTopicsPage() {
         </div>
       )}
 
+      {/* My Words shortcut */}
+      <div className="max-w-2xl mx-auto px-4 pt-3">
+        <button onClick={() => router.push('/my-words')}
+          className="w-full bg-yellow-50 border-2 border-yellow-200 rounded-2xl px-4 py-3 flex items-center justify-between active:scale-95 transition-transform">
+          <div className="flex items-center gap-2">
+            <span className="text-xl">⭐</span>
+            <div className="text-left">
+              <p className="text-sm font-black text-yellow-700">Từ của tôi</p>
+              <p className="text-xs text-yellow-600">Xem và ôn lại các từ đã lưu</p>
+            </div>
+          </div>
+          <span className="text-yellow-600 font-black text-sm">Xem →</span>
+        </button>
+      </div>
+
       {/* Free plan banner */}
       {!isPaid && (
         <div className="max-w-2xl mx-auto px-4 pt-4">

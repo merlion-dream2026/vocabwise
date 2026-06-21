@@ -51,8 +51,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
         {/* Header */}
         <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center relative">
           <button onClick={onClose} className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
-          <p className="text-4xl mb-1">⭐</p>
-          <h2 className="text-white font-black text-xl">Nâng cấp Pro</h2>
+          <h2 className="text-white font-black text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
           <p className="text-white/80 text-sm font-semibold mt-0.5">4.500+ từ · Kids + Academic · Gói dài = nhiều ưu đãi hơn</p>
         </div>
 
@@ -71,18 +70,18 @@ export default function UpgradeModal({ onClose, username }: Props) {
               </thead>
               <tbody className="divide-y divide-gray-50">
                 {[
-                  ['Hồ sơ bé',       '1',        '2',   '3',   '3'  ],
-                  ['Kids topics',    '1/level',  '✅',  '✅',  '✅' ],
-                  ['Academic topics','1/book',   '✅',  '✅',  '✅' ],
-                  ['Phonics IPA',    '1 bài',    '✅',  '✅',  '✅' ],
-                  ['Word Stress',    '❌',       '❌',  '✅',  '✅' ],
-                  ['My Words ⭐',    '❌',       '✅',  '✅',  '✅' ],
-                  ['SRS ôn từ yếu', '❌',       '✅',  '✅',  '✅' ],
-                  ['AI Speak',       '5/ngày',   '30/ngày', '∞', '∞'],
-                  ['Push notif.',    '❌',       '✅',  '✅',  '✅' ],
-                  ['Email report',   '❌',       'Thủ công','Auto','Auto'],
-                  ['Monthly recap',  '❌',       '❌',  '❌',  '✅' ],
-                  ['🎁 Gift Pro',    '❌',       '❌',  '❌',  '✅' ],
+                  ['Hồ sơ bé',          '1',       '2',        '3',     '3'  ],
+                  ['Chủ đề Kids',        '1/level', '✅',       '✅',    '✅' ],
+                  ['Chủ đề Academic',    '1/book',  '✅',       '✅',    '✅' ],
+                  ['Phát âm IPA',        '1 bài',   '✅',       '✅',    '✅' ],
+                  ['Trọng âm từ',        '❌',      '❌',       '✅',    '✅' ],
+                  ['Từ của tôi ⭐',      '20 từ',   '✅',       '✅',    '✅' ],
+                  ['Ôn SRS từ yếu',      '20 từ',   '✅',       '✅',    '✅' ],
+                  ['Luyện phát âm AI',   '5/ngày',  '30/ngày',  '∞',    '∞'  ],
+                  ['Nhắc học (Push)',     '❌',      '✅',       '✅',    '✅' ],
+                  ['Báo cáo email',       '❌',      'Thủ công', 'Auto', 'Auto'],
+                  ['Tổng kết tháng',     '❌',      '❌',       '❌',    '✅' ],
+                  ['🎁 Tặng bạn bè',     '❌',      '❌',       '❌',    '✅' ],
                 ].map(([feat, free, p1, p3, p6]) => (
                   <tr key={feat} className="hover:bg-gray-50">
                     <td className="px-3 py-2 font-semibold text-gray-700">{feat}</td>
@@ -182,7 +181,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-black py-3 rounded-xl text-sm transition-colors active:scale-95"
             >
-              💬 Nhắn Zalo Thầy Andie ngay
+              📸 Gửi ảnh xác nhận thanh toán
             </a>
             <p className="text-[11px] text-gray-400 mt-2 text-center">Admin xác nhận và kích hoạt Pro, chậm nhất 12h</p>
           </div>

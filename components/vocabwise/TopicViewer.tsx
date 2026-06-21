@@ -6,6 +6,7 @@ import VWExerciseRunner from './VWExerciseRunner'
 import VWFlashcard from './VWFlashcard'
 import EWordClass from './EWordClass'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import UpgradeModal from '@/components/UpgradeModal'
 import type { ExercisesData } from './types'
 import WordListPicker from '@/components/WordListPicker'
 
@@ -89,8 +90,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
-  const [savedWords,   setSavedWords]   = useState<Set<string>>(new Set())
-  const [pickerItem,   setPickerItem]   = useState<GlossaryItem | null>(null)
+  const [savedWords,     setSavedWords]     = useState<Set<string>>(new Set())
+  const [pickerItem,     setPickerItem]     = useState<GlossaryItem | null>(null)
+  const [showLimitModal, setShowLimitModal] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining,   setExplaining]   = useState<Set<string>>(new Set())
 
@@ -232,12 +234,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     }
   }
 
-  function saveItemToList(item: GlossaryItem, listId: number | null) {
+  async function saveItemToList(item: GlossaryItem, listId: number | null) {
     const word = item.word ?? item.collocation ?? ''
     if (!word) return
     setSavedWords(prev => new Set(prev).add(word))
     setPickerItem(null)
-    fetch('/api/vocabwise/wordlist', {
+    const res = await fetch('/api/vocabwise/wordlist', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -252,7 +254,11 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         source: 'academic',
         list_id: listId,
       }),
-    }).catch(() => {})
+    }).catch(() => null)
+    if (res?.status === 403) {
+      setSavedWords(prev => { const s = new Set(prev); s.delete(word); return s })
+      setShowLimitModal(true)
+    }
   }
 
   const { meta, passage, glossary, exercises, answer_key } = data
@@ -260,6 +266,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   return (
     <div className="min-h-screen bg-white">
+      {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
       {session && (
         <UpgradeBanner
           plan={session.plan}

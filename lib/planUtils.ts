@@ -89,16 +89,28 @@ export function canAccessWordStress(family: FamilyPlanData): boolean {
   return tier === 'pro3' || tier === 'pro6'
 }
 
-/** My Words: Pro bất kỳ (hoặc bonus grant). */
-export function canAccessMyWords(family: FamilyPlanData): boolean {
-  if (family.bonus_features?.includes('my_words')) return true
-  return getEffectivePlan(family).isProActive
+/** My Words: tất cả users (Free giới hạn 20 từ, Pro không giới hạn). */
+export function canAccessMyWords(_family: FamilyPlanData): boolean {
+  return true
 }
 
-/** SRS ôn từ yếu: Pro bất kỳ (hoặc bonus grant). */
-export function canAccessSRS(family: FamilyPlanData): boolean {
-  if (family.bonus_features?.includes('srs')) return true
-  return getEffectivePlan(family).isProActive
+/** My Words word limit: null = unlimited (Pro), 20 = Free cap. */
+export function getMyWordsLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('my_words')) return null
+  if (getEffectivePlan(family).isProActive) return null
+  return 20
+}
+
+/** SRS ôn từ yếu: tất cả users (Free giới hạn 20 từ/phiên, Pro không giới hạn). */
+export function canAccessSRS(_family: FamilyPlanData): boolean {
+  return true
+}
+
+/** SRS session limit: null = unlimited (Pro), 20 = Free cap. */
+export function getSRSLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('srs')) return null
+  if (getEffectivePlan(family).isProActive) return null
+  return 20
 }
 
 /** Kids content: Pro bất kỳ (hoặc bonus grant). */

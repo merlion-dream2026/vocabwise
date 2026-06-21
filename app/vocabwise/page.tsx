@@ -124,14 +124,18 @@ export default function VocabWisePage() {
         )}
 
         {/* Quick links */}
-        {hasAnyProgress && (
-          <div className="flex gap-2 justify-center">
+        <div className="flex gap-2 flex-wrap justify-center">
+          {hasAnyProgress && (
             <Link href="/vocabwise/placement"
               className="flex items-center gap-1.5 text-gray-400 text-xs font-bold py-1 px-3 rounded-full bg-gray-50 hover:bg-gray-100 transition-colors">
               🎯 Kiểm tra cấp độ
             </Link>
-          </div>
-        )}
+          )}
+          <Link href="/my-words"
+            className="flex items-center gap-1.5 text-yellow-700 text-xs font-bold py-1 px-3 rounded-full bg-yellow-50 border border-yellow-200 hover:bg-yellow-100 transition-colors">
+            ⭐ Từ của tôi
+          </Link>
+        </div>
 
         {/* Placement quiz entry — only for new users who haven't dismissed */}
         {!hasAnyProgress && !placementDismissed && (
@@ -159,6 +163,19 @@ export default function VocabWisePage() {
         {!hasAnyProgress && !placementDismissed && (
           <p className="text-gray-500 text-sm text-center">Hoặc chọn cấp độ trực tiếp</p>
         )}
+
+        {/* My Words feature highlight */}
+        <Link href="/my-words"
+          className="block bg-gradient-to-r from-yellow-50 to-amber-50 border-2 border-yellow-200 rounded-2xl px-5 py-4 active:scale-[0.99] transition-all">
+          <div className="flex items-center gap-3">
+            <span className="text-3xl flex-shrink-0">⭐</span>
+            <div className="flex-1">
+              <p className="font-black text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
+              <p className="text-yellow-700 text-xs mt-0.5">Nhấn ⭐ cạnh từ trong bài học để lưu vào danh sách ôn tập riêng · Free: 20 từ · Pro: không giới hạn</p>
+            </div>
+            <span className="text-yellow-500 font-black text-xl flex-shrink-0">›</span>
+          </div>
+        </Link>
 
         {BOOKS.map(book => {
           const prefix = topicPrefix(book.slug)

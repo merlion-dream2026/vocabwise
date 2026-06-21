@@ -5,7 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { initGameSync, recordSrsAnswer, flush } from '@/lib/gameSync'
 import { speak as speakWord } from '@/lib/speak'
 import UpgradeModal from '@/components/UpgradeModal'
-import { canAccessSRS } from '@/lib/planUtils'
+import { getSRSLimit } from '@/lib/planUtils'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -67,7 +67,11 @@ export default function SrsReviewPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [childId, level])
 
-  const current = dueWords[idx]
+  const srsLimit = session ? getSRSLimit(session) : null
+  const cappedDueWords = srsLimit !== null ? dueWords.slice(0, srsLimit) : dueWords
+  const isCapped = srsLimit !== null && dueWords.length > srsLimit
+
+  const current = cappedDueWords[idx]
 
   useEffect(() => {
     if (current) { const t = setTimeout(() => speak(current.word), 250); return () => clearTimeout(t) }
@@ -78,7 +82,7 @@ export default function SrsReviewPage() {
     recordSrsAnswer(current.word, isCorrect)
     if (isCorrect) setCorrect(c => c + 1)
     const next = idx + 1
-    if (next >= dueWords.length) {
+    if (next >= cappedDueWords.length) {
       flush()
       setDone(true)
     } else {
@@ -93,13 +97,7 @@ export default function SrsReviewPage() {
     </div>
   )
 
-  if (session && !canAccessSRS(session)) return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 flex flex-col items-center justify-center px-4 text-center">
-      <UpgradeModal onClose={() => router.back()} username={session.username} />
-    </div>
-  )
-
-  if (done || dueWords.length === 0) {
+  if (done || cappedDueWords.length === 0) {
     return (
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-teal-50 to-cyan-50">
         <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-12 pb-8 text-white">
@@ -107,7 +105,7 @@ export default function SrsReviewPage() {
           <h1 className="text-2xl font-black">📅 Ôn SRS</h1>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 text-center">
-          {dueWords.length === 0 ? (
+          {cappedDueWords.length === 0 ? (
             <>
               <div className="text-7xl mb-4">🎉</div>
               <h2 className="text-2xl font-black text-gray-800 mb-2">Tất cả đã ôn rồi!</h2>
@@ -115,10 +113,11 @@ export default function SrsReviewPage() {
             </>
           ) : (
             <>
-              <div className="text-7xl mb-4">{correct === dueWords.length ? '🏆' : correct >= dueWords.length * 0.7 ? '⭐' : '💪'}</div>
-              <h2 className="text-3xl font-black text-gray-800 mb-1">{correct}/{dueWords.length} từ</h2>
-              <p className="text-gray-500 font-bold text-lg mb-2">{Math.round((correct / dueWords.length) * 100)}% nhớ được</p>
+              <div className="text-7xl mb-4">{correct === cappedDueWords.length ? '🏆' : correct >= cappedDueWords.length * 0.7 ? '⭐' : '💪'}</div>
+              <h2 className="text-3xl font-black text-gray-800 mb-1">{correct}/{cappedDueWords.length} từ</h2>
+              <p className="text-gray-500 font-bold text-lg mb-2">{Math.round((correct / cappedDueWords.length) * 100)}% nhớ được</p>
               <p className="text-gray-400 text-sm mb-8">Các từ đã được lên lịch ôn lại tự động.</p>
+              {isCapped && <p className="text-amber-600 text-xs font-bold">⭐ Gói Free: ôn tối đa {srsLimit} từ/phiên. Nâng cấp để ôn không giới hạn.</p>}
             </>
           )}
           <button onClick={() => router.back()}
@@ -136,10 +135,10 @@ export default function SrsReviewPage() {
         <button onClick={() => router.back()} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-3">← {LEVEL_LABELS[level]}</button>
         <div className="flex items-center justify-between mb-3">
           <h1 className="text-2xl font-black">📅 Ôn SRS</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{dueWords.length}</span>
+          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{cappedDueWords.length}</span>
         </div>
         <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / dueWords.length) * 100}%` }} />
+          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / cappedDueWords.length) * 100}%` }} />
         </div>
       </div>
 

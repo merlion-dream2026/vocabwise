@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import type { WordList } from '@/components/WordListPicker'
 import UpgradeModal from '@/components/UpgradeModal'
-import { canAccessMyWords } from '@/lib/planUtils'
+import { getMyWordsLimit } from '@/lib/planUtils'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -63,6 +63,7 @@ export default function MyWordsPage() {
   const [creatingList, setCreatingList] = useState(false)
   const [editingList, setEditingList] = useState<WordList | null>(null)
   const [deletingList, setDeletingList] = useState<number | null>(null)
+  const [showUpgrade, setShowUpgrade]   = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -162,14 +163,13 @@ export default function MyWordsPage() {
     </div>
   )
 
-  if (session && !canAccessMyWords(session)) return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
-      <UpgradeModal onClose={() => router.back()} username={session.username} />
-    </div>
-  )
+  const wordsLimit = session ? getMyWordsLimit(session) : null
 
   return (
     <div className="min-h-screen bg-gray-50">
+      {showUpgrade && session && (
+        <UpgradeModal onClose={() => setShowUpgrade(false)} username={session.username} />
+      )}
       {/* Header */}
       <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-12 pb-5 text-white">
         <h1 className="text-xl font-black">⭐ Từ của tôi</h1>
@@ -179,6 +179,23 @@ export default function MyWordsPage() {
       </div>
 
       <div className="max-w-2xl mx-auto">
+        {/* Free limit banner */}
+        {wordsLimit !== null && (
+          <div className={`mx-4 mt-4 rounded-2xl px-4 py-3 flex items-center justify-between gap-3 ${totalAll >= wordsLimit ? 'bg-red-50 border border-red-200' : 'bg-amber-50 border border-amber-200'}`}>
+            <p className={`text-xs font-bold ${totalAll >= wordsLimit ? 'text-red-700' : 'text-amber-700'}`}>
+              {totalAll >= wordsLimit
+                ? `⚠️ Đã đạt giới hạn ${wordsLimit} từ (Free). Nâng cấp để lưu không giới hạn.`
+                : `⭐ Gói Free: ${totalAll}/${wordsLimit} từ đã lưu`}
+            </p>
+            <button
+              onClick={() => setShowUpgrade(true)}
+              className="text-xs font-black text-purple-600 bg-purple-100 hover:bg-purple-200 px-3 py-1.5 rounded-full whitespace-nowrap transition-colors"
+            >
+              Nâng cấp
+            </button>
+          </div>
+        )}
+
         {/* How-to guide (collapsible) */}
         <div className="mx-4 mt-4">
           <button

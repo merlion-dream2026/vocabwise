@@ -2,6 +2,7 @@
 import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import UpgradeModal from '@/components/UpgradeModal'
 
 const REFERRAL_OPTIONS = [
   'Google / Tìm kiếm trên mạng',
@@ -24,6 +25,7 @@ export default function RegisterPage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [turnstileToken, setTurnstileToken] = useState('')
+  const [showUpgrade, setShowUpgrade] = useState(false)
   const turnstileSiteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
 
   useEffect(() => {
@@ -67,6 +69,7 @@ export default function RegisterPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 flex items-center justify-center p-4">
+      {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} />}
       <div className="w-full max-w-sm">
 
         <div className="text-center mb-6">
@@ -176,7 +179,29 @@ export default function RegisterPage() {
 
         </div>
 
-        <p className="text-center text-sm text-gray-400 font-semibold mt-5">
+        {/* Pro upsell */}
+        <div className="mt-4 rounded-3xl border border-purple-200 bg-white/70 backdrop-blur-sm p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-base">⭐</span>
+            <p className="font-black text-gray-800 text-sm">Muốn học không giới hạn ngay?</p>
+          </div>
+          <ul className="space-y-1 text-xs font-semibold text-gray-600 mb-3">
+            <li>✅ Toàn bộ 4.500+ từ · Kids &amp; Academic</li>
+            <li>✅ Luyện phát âm AI không giới hạn</li>
+            <li>✅ Lưu từ &amp; ôn SRS không giới hạn</li>
+          </ul>
+          <div className="flex items-center justify-between gap-3">
+            <p className="text-xs text-gray-400 font-bold">Từ <span className="text-purple-600 font-black">59.000đ</span>/tháng</p>
+            <button
+              onClick={() => setShowUpgrade(true)}
+              className="text-xs font-black bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-xl active:scale-95 transition-all"
+            >
+              Xem gói Pro →
+            </button>
+          </div>
+        </div>
+
+        <p className="text-center text-sm text-gray-400 font-semibold mt-4">
           Đã có tài khoản?{' '}
           <Link href="/login" className="text-purple-500 font-bold hover:underline">Đăng nhập</Link>
         </p>

@@ -7,6 +7,7 @@ import { markSeen, recordActivity, recordFlashcardDone, flush } from '@/lib/game
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 import WordListPicker from '@/components/WordListPicker'
+import UpgradeModal from '@/components/UpgradeModal'
 
 type Example = {
   en: string
@@ -92,8 +93,9 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [showConfetti, setShowConfetti] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining, setExplaining] = useState<Set<string>>(new Set())
-  const [savedWords, setSavedWords] = useState<Set<string>>(new Set())
-  const [pickerWord, setPickerWord] = useState<{ word: string; meaning: string; cls: string } | null>(null)
+  const [savedWords,     setSavedWords]     = useState<Set<string>>(new Set())
+  const [pickerWord,     setPickerWord]     = useState<{ word: string; meaning: string; cls: string } | null>(null)
+  const [showLimitModal, setShowLimitModal] = useState(false)
 
   // Load saved words for this topic on mount
   useEffect(() => {
@@ -117,10 +119,10 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     }
   }
 
-  function saveWord(w: Word, listId: number | null) {
+  async function saveWord(w: Word, listId: number | null) {
     setSavedWords(prev => new Set(prev).add(w.word))
     setPickerWord(null)
-    fetch('/api/vocabwise/wordlist', {
+    const res = await fetch('/api/vocabwise/wordlist', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -135,7 +137,11 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
         source: 'kids',
         list_id: listId,
       }),
-    }).catch(() => {})
+    }).catch(() => null)
+    if (res?.status === 403) {
+      setSavedWords(prev => { const s = new Set(prev); s.delete(w.word); return s })
+      setShowLimitModal(true)
+    }
   }
 
   const styles = levelConfig[level as keyof typeof levelConfig] ?? levelConfig.explorer
@@ -240,6 +246,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
 
   return (
     <div className="flex flex-col min-h-screen">
+      {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
       {/* Header */}
       <div className={`${styles.headerBg} px-4 pt-12 pb-6 text-white`}>
         <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-3 opacity-90`}>
