@@ -427,7 +427,7 @@ export default function LandingPage() {
         </div>
 
         {/* Pro plans — 3 tiers */}
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-3 mt-5">
           {/* 1 tháng */}
           <div className="bg-white rounded-2xl p-3 border-2 border-purple-100 flex flex-col">
             <p className="text-sm font-black text-purple-400 uppercase tracking-wide">1 tháng</p>
