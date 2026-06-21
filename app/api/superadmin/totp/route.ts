@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { getSession } from '@/lib/auth'
+import { getAdminSession } from '@/lib/auth'
 import { generateTotpSecret, verifyTotp, totpUri } from '@/lib/totp'
 
 const supabase = createClient(
@@ -9,7 +9,7 @@ const supabase = createClient(
 )
 
 async function requireSuperadmin(req: NextRequest) {
-  const session = await getSession(req)
+  const session = await getAdminSession(req)
   return session?.familyId === 'superadmin' ? session : null
 }
 
