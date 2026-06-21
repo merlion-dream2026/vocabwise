@@ -149,15 +149,16 @@ const FAQ_ITEMS = [
 ]
 
 const FEATURES = [
-  { emoji: '🌱', label: '6 cấp độ', desc: 'Pre-A1 → C1-C2 (Seeker → Master)', color: 'border-green-200' },
-  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR', color: 'border-blue-200' },
+  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR — Kids & Academic', color: 'border-blue-200' },
+  { emoji: '🌱', label: '6 cấp độ CEFR', desc: 'Pre-A1 → C1-C2 (Seeker → Master)', color: 'border-green-200' },
   { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...', color: 'border-orange-200' },
-  { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay!', color: 'border-pink-200' },
-  { emoji: '🔤', label: 'Học phát âm IPA', desc: 'Nguyên âm, phụ âm, minimal pairs theo chuẩn Cambridge', color: 'border-teal-200' },
-  { emoji: '⭐', label: 'Từ của tôi 🆕', desc: 'Lưu từ yêu thích, tạo danh sách ôn tập riêng — Free 20 từ, Pro không giới hạn', color: 'border-yellow-300' },
-  { emoji: '📅', label: 'Ôn tập thông minh', desc: 'App tự nhắc từ chưa thuộc đúng lúc', color: 'border-indigo-200' },
-  { emoji: '📊', label: 'Dashboard phụ huynh', desc: 'Theo dõi streak, XP, tiến độ', color: 'border-amber-200' },
-  { emoji: '📲', label: 'Không cài app · Tự cập nhật', desc: 'Dùng như app thật trên mọi thiết bị — không cần cài đặt, tự động cập nhật', color: 'border-sky-200' },
+  { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay lập tức', color: 'border-pink-200' },
+  { emoji: '🔤', label: 'Phonics IPA', desc: 'Nguyên âm, phụ âm, minimal pairs chuẩn Cambridge', color: 'border-teal-200' },
+  { emoji: '⭐', label: 'Từ của tôi 🆕', desc: 'Lưu từ yêu thích, tạo danh sách ôn riêng', color: 'border-yellow-300' },
+  { emoji: '📅', label: 'Ôn tập SRS', desc: 'App tự lên lịch nhắc từ chưa thuộc đúng lúc', color: 'border-indigo-200' },
+  { emoji: '🔥', label: 'Streak & Huy hiệu', desc: 'Học đều mỗi ngày, tích XP, mở huy hiệu thành tích', color: 'border-red-200' },
+  { emoji: '📊', label: 'Dashboard phụ huynh', desc: 'Theo dõi streak, XP, tiến độ từng bé', color: 'border-amber-200' },
+  { emoji: '📲', label: 'Không cài app', desc: 'Dùng như app thật — không cần App Store, tự cập nhật', color: 'border-sky-200' },
 ]
 
 const SCREENSHOTS = [
@@ -208,7 +209,7 @@ export default function LandingPage() {
   const [activeScreenshot, setActiveScreenshot] = useState<{ src: string; caption: string } | null>(null)
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
 
       {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} />}
 
@@ -391,10 +392,10 @@ export default function LandingPage() {
       </div>
 
       {/* Features */}
-      <section className="bg-purple-50/60 py-4">
+      <section className="bg-white border-t border-gray-100 py-4">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
           {FEATURES.map(f => (
             <div key={f.label} className={`bg-white rounded-2xl p-4 shadow-sm border-2 ${f.color}`}>
               <div className="text-3xl mb-2">{f.emoji}</div>
@@ -499,7 +500,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section className="bg-gray-50 py-4">
+      <section className="bg-white border-t border-gray-100 py-4">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
         <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
@@ -546,7 +547,7 @@ export default function LandingPage() {
       </section>
 
       {/* FAQ — SEO structured content */}
-      <section className="bg-gray-50 py-4">
+      <section className="bg-white border-t border-gray-100 py-4">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
         <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise</p>
