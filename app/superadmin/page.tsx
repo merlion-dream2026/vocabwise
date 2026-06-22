@@ -158,6 +158,43 @@ function PasswordInput({ value, onChange, placeholder, className }: {
   )
 }
 
+const EMAIL_TYPE_INFO: Record<string, { icon: string; subject: string }> = {
+  // Onboarding drip
+  onboarding_d1:        { icon: '👋', subject: 'D+1 · Bắt đầu chỉ mất 5 phút' },
+  onboarding_d3:        { icon: '🔥', subject: 'D+3 · Bạn đang đi đúng hướng!' },
+  onboarding_d7:        { icon: '📖', subject: 'D+7 · 1 tuần với VocabWise' },
+  // Trial conversion
+  trial_d4:             { icon: '⏰', subject: 'D+4 · Còn 3 ngày dùng thử' },
+  trial_d6:             { icon: '🚨', subject: 'D+6 · Ngày cuối dùng thử' },
+  trial_d7:             { icon: '📋', subject: 'D+7 · Chuyển về Free' },
+  trial_d8:             { icon: '🤔', subject: 'D+8 · FAQ phân vân nâng cấp' },
+  // Milestones
+  streak_7:             { icon: '🔥', subject: 'Milestone · Streak 7 ngày' },
+  streak_30:            { icon: '🏆', subject: 'Milestone · Streak 30 ngày' },
+  topic_mastered_first: { icon: '✅', subject: 'Milestone · Topic Academic đầu tiên đạt MASTERED' },
+  // Re-engagement
+  inactive_3d:          { icon: '🐣', subject: 'Re-engage · Chưa học 3 ngày' },
+  inactive_7d:          { icon: '📚', subject: 'Re-engage · Chưa học 7 ngày' },
+  inactive_14d:         { icon: '🙏', subject: 'Re-engage · Chưa học 14 ngày (Pro)' },
+  winback_30d:          { icon: '👀', subject: 'Win-back · Chưa học 30 ngày' },
+  // Pro lifecycle
+  pro_expiry_14d:       { icon: '⏰', subject: 'Pro · Còn 14 ngày — nhắc gia hạn sớm' },
+  renewal_reminder_7d:  { icon: '⏰', subject: 'Pro · Còn 7 ngày — nhắc gia hạn' },
+  renewal_reminder_1d:  { icon: '🚨', subject: 'Pro · Còn 1 ngày — nhắc gia hạn gấp' },
+  pro_expiry_d1:        { icon: '📋', subject: 'Pro · Hết hạn hôm qua (D+1)' },
+  pro_expiry_d7:        { icon: '🐣', subject: 'Pro · Nhắc gia hạn lần cuối (D+7)' },
+}
+
+function getEmailTypeInfo(emailType: string): { icon: string; subject: string } {
+  if (emailType in EMAIL_TYPE_INFO) return EMAIL_TYPE_INFO[emailType]
+  if (emailType.startsWith('level_up_')) {
+    const parts = emailType.split('_')
+    const level = parts[parts.length - 1]
+    return { icon: '🎓', subject: `Milestone · Bé lên level ${level}` }
+  }
+  return { icon: '📧', subject: emailType }
+}
+
 function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
   family: Family
   onClose: () => void
@@ -194,6 +231,11 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     academic_completed: number; academic_total: number
   }[]>([])
   const [childrenLoading, setChildrenLoading] = useState(false)
+  const [showEmailLog, setShowEmailLog] = useState(false)
+  const [emailLogData, setEmailLogData] = useState<{
+    id: number; email_type: string; sent_at: string; metadata: Record<string, unknown> | null
+  }[]>([])
+  const [emailLogLoading, setEmailLogLoading] = useState(false)
 
   const savedUsername = username.trim().toLowerCase()
   const planEndDate = PLAN_DURATIONS[plan] ? addDays(planStartDate, PLAN_DURATIONS[plan]) : null
@@ -631,6 +673,55 @@ function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                       )}
                     </div>
                   ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Email log */}
+        <div className="mt-4 border-t border-slate-200 pt-4">
+          <button type="button"
+            onClick={async () => {
+              setShowEmailLog(s => !s)
+              if (!showEmailLog && emailLogData.length === 0) {
+                setEmailLogLoading(true)
+                const res = await fetch(`/api/superadmin/families/${family.id}/email-log`)
+                if (res.ok) setEmailLogData(await res.json())
+                setEmailLogLoading(false)
+              }
+            }}
+            className="w-full flex items-center justify-between text-sm text-slate-600 hover:text-slate-900 py-1">
+            <span>📧 Emails tự động đã gửi {showEmailLog && emailLogData.length > 0 ? `(${emailLogData.length})` : ''}</span>
+            <span>{showEmailLog ? '▲' : '▼'}</span>
+          </button>
+          {showEmailLog && (
+            <div className="mt-3">
+              {emailLogLoading ? (
+                <p className="text-slate-500 text-sm text-center py-2">Đang tải...</p>
+              ) : emailLogData.length === 0 ? (
+                <p className="text-slate-400 text-sm text-center py-2">Chưa có email tự động nào được gửi.</p>
+              ) : (
+                <div className="space-y-1">
+                  {emailLogData.map(log => {
+                    const info = getEmailTypeInfo(log.email_type)
+                    const dt = new Date(log.sent_at)
+                    const dateStr = dt.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric' })
+                    const timeStr = dt.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })
+                    return (
+                      <div key={log.id} className="flex items-start gap-2 bg-slate-50 border border-slate-200 rounded-xl px-3 py-2">
+                        <span className="text-base flex-shrink-0 mt-0.5">{info.icon}</span>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs font-bold text-slate-700 truncate">{info.subject}</p>
+                          <p className="text-[10px] text-slate-400 mt-0.5 font-mono">{log.email_type}</p>
+                        </div>
+                        <div className="text-right flex-shrink-0">
+                          <p className="text-[10px] font-semibold text-slate-500">{dateStr}</p>
+                          <p className="text-[10px] text-slate-400">{timeStr}</p>
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               )}
             </div>
