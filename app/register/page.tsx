@@ -186,7 +186,7 @@ export default function RegisterPage() {
             <p className="font-black text-gray-800 text-sm">Muốn học không giới hạn ngay?</p>
           </div>
           <ul className="space-y-1 text-xs font-semibold text-gray-600 mb-3">
-            <li>✅ Toàn bộ 4.500+ từ · Kids &amp; Academic</li>
+            <li>✅ Toàn bộ 4.500+ từ · Daily &amp; Academic</li>
             <li>✅ Luyện phát âm AI không giới hạn</li>
             <li>✅ Lưu từ &amp; ôn SRS không giới hạn</li>
           </ul>

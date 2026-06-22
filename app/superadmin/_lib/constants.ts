@@ -4,7 +4,7 @@ export const BONUS_FEATURES = [
   { key: 'word_stress',        icon: '📢', label: 'Word Stress',        desc: 'Module trọng âm (thường cần Pro 3T+)' },
   { key: 'my_words',           icon: '⭐', label: 'My Words',           desc: 'Lưu & quản lý từ vựng cá nhân' },
   { key: 'srs',                icon: '📅', label: 'SRS ôn từ',         desc: 'Ôn tập từ yếu theo lịch' },
-  { key: 'kids_full',          icon: '📚', label: 'Kids đầy đủ',       desc: 'Tất cả 180 chủ đề VocabWise Kids' },
+  { key: 'kids_full',          icon: '📖', label: 'Daily đầy đủ',      desc: 'Tất cả 180 chủ đề Daily' },
   { key: 'academic_full',      icon: '🎓', label: 'Academic đầy đủ',  desc: 'Tất cả 3 books Academic (180 chủ đề)' },
   { key: 'ai_speak_unlimited', icon: '🎤', label: 'AI Speak ∞',        desc: 'Không giới hạn lần chấm phát âm AI' },
 ] as const

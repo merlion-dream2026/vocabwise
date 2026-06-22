@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'VocabWise — App Học Từ Vựng Tiếng Anh Toàn Diện',
-    description: '3 module tiếng Anh: Phonics IPA · VocabWise Kids Pre-A1→C1 · VocabWise Academic IELTS/SAT. 4.500+ từ vựng. Song ngữ Việt–Anh. Dùng thử miễn phí!',
+    description: '3 module tiếng Anh: Phonics IPA · Daily Pre-A1→C1 · VocabWise Academic IELTS/SAT. 4.500+ từ vựng. Song ngữ Việt–Anh. Dùng thử miễn phí!',
     url: APP_URL,
     siteName: 'VocabWise',
     type: 'website',
@@ -66,7 +66,7 @@ const faqJsonLd = {
     {
       '@type': 'Question',
       name: 'VocabWise là gì?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise là app học tiếng Anh toàn diện song ngữ Việt–Anh với 3 module: Phonics IPA (luyện phát âm), VocabWise Kids (4.500+ từ, Pre-A1→C1 cho trẻ em) và VocabWise Academic (từ vựng IELTS/SAT, A1→C2).' },
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise là app học tiếng Anh toàn diện song ngữ Việt–Anh với 3 module: Phonics IPA (luyện phát âm), Daily (4.500+ từ, Pre-A1→C1 cho trẻ em) và VocabWise Academic (từ vựng IELTS/SAT, A1→C2).' },
     },
     {
       '@type': 'Question',
@@ -86,7 +86,7 @@ const faqJsonLd = {
     {
       '@type': 'Question',
       name: 'VocabWise phù hợp với lứa tuổi nào?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho mọi lứa tuổi: VocabWise Kids dành cho bé 4–15 tuổi (Pre-A1→C1), Phonics IPA cho mọi người, và VocabWise Academic cho học sinh cấp 2-3, sinh viên luyện IELTS/SAT (A1→C2).' },
+      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho mọi lứa tuổi: Daily dành cho bé 4–15 tuổi (Pre-A1→C1), Phonics IPA cho mọi người, và VocabWise Academic cho học sinh cấp 2-3, sinh viên luyện IELTS/SAT (A1→C2).' },
     },
   ],
 }
@@ -104,10 +104,10 @@ const jsonLd = {
       applicationSubCategory: 'Language Learning',
       operatingSystem: 'Web, iOS, Android, Windows',
       inLanguage: ['vi', 'en'],
-      description: 'App học tiếng Anh toàn diện song ngữ Việt–Anh: Phonics IPA, VocabWise Kids 4.500+ từ Pre-A1→C1, VocabWise Academic IELTS/SAT A1→C2.',
+      description: 'App học tiếng Anh toàn diện song ngữ Việt–Anh: Phonics IPA, Daily 4.500+ từ Pre-A1→C1, VocabWise Academic IELTS/SAT A1→C2.',
       featureList: [
         '4.500+ từ vựng tiếng Anh theo khung CEFR Pre-A1→C2',
-        'VocabWise Kids: 6 cấp độ Seeker→Master cho trẻ em',
+        'Daily: 6 cấp độ Seeker→Master cho trẻ em',
         'VocabWise Academic: từ vựng IELTS/SAT A1→C2',
         'Phonics IPA chuẩn Cambridge',
         '10+ trò chơi học từ vựng tương tác',

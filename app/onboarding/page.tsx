@@ -84,7 +84,7 @@ export default function OnboardingPage() {
                 <div className="flex items-center gap-4">
                   <span className="text-4xl">👶</span>
                   <div>
-                    <p className="font-black text-gray-800">VocabWise Kids</p>
+                    <p className="font-black text-gray-800">Daily</p>
                     <p className="text-gray-400 text-xs mt-0.5">Dành cho trẻ em · Pre-A1 đến C1 · 20+ mini-games</p>
                   </div>
                   {section === 'kids' && <span className="ml-auto text-purple-500 text-xl">✓</span>}
@@ -162,7 +162,7 @@ export default function OnboardingPage() {
                 onClick={() => finish(section === 'academic' ? '/vocabwise' : '/kids')}
                 className="w-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-black text-lg py-4 rounded-2xl shadow-lg active:scale-95 transition-all"
               >
-                {section === 'academic' ? '📚 Vào VocabWise Academic' : '👶 Vào VocabWise Kids'}
+                {section === 'academic' ? '📚 Vào VocabWise Academic' : '📖 Vào Daily'}
               </button>
               <button
                 onClick={() => finish('/dashboard')}

@@ -149,7 +149,7 @@ const FAQ_ITEMS = [
 ]
 
 const FEATURES = [
-  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR — Kids & Academic', color: 'border-blue-200' },
+  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR — Daily & Academic', color: 'border-blue-200' },
   { emoji: '🌱', label: '6 cấp độ CEFR', desc: 'Pre-A1 → C1-C2 (Seeker → Master)', color: 'border-green-200' },
   { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...', color: 'border-orange-200' },
   { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay lập tức', color: 'border-pink-200' },
