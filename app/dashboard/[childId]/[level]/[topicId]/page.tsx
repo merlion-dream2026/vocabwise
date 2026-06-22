@@ -182,7 +182,8 @@ export default function TopicPage() {
       setSpeaking(false)
       return
     }
-    const mp3Src = `/audio/stories/${level}.${topicId}.mp3`
+    const topicNum = String(topicIdx + 1).padStart(2, '0')
+    const mp3Src = `/audio/stories/${level}.${topicNum}.${topicId}.mp3`
     const audio = new Audio(mp3Src)
     audioRef.current = audio
     audio.addEventListener('canplaythrough', () => { audio.play(); setSpeaking(true) }, { once: true })

@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import VWExerciseRunner from './VWExerciseRunner'
@@ -95,32 +95,54 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [showLimitModal, setShowLimitModal] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining,   setExplaining]   = useState<Set<string>>(new Set())
+  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   // Stop speech on unmount or tab switch away from passage
-  useEffect(() => { return () => { window.speechSynthesis?.cancel() } }, [])
   useEffect(() => {
-    if (tab !== 'passage') { window.speechSynthesis?.cancel(); setSpeaking(false) }
+    return () => {
+      audioRef.current?.pause()
+      audioRef.current = null
+      window.speechSynthesis?.cancel()
+    }
+  }, [])
+  useEffect(() => {
+    if (tab !== 'passage') {
+      audioRef.current?.pause()
+      audioRef.current = null
+      window.speechSynthesis?.cancel()
+      setSpeaking(false)
+    }
   }, [tab])
 
   function handleSpeak() {
     if (speaking) {
-      window.speechSynthesis.cancel()
+      audioRef.current?.pause()
+      audioRef.current = null
+      window.speechSynthesis?.cancel()
       setSpeaking(false)
       return
     }
-    const chunks = passage.paragraphs.map(p => (wmId ? embedWatermark(p.text_en, wmId) : p.text_en).replace(/\*\*(.+?)\*\*/g, '$1'))
-    setSpeaking(true)
-    let idx = 0
-    const playNext = () => {
-      if (idx >= chunks.length) { setSpeaking(false); return }
-      const chunk = chunks[idx]; idx++
-      speak(chunk, {
-        rate: 0.9,
-        onEnd: () => setTimeout(playNext, 50),
-        onError: () => setSpeaking(false),
-      })
+    const ttsPlayback = () => {
+      const chunks = passage.paragraphs.map(p => (wmId ? embedWatermark(p.text_en, wmId) : p.text_en).replace(/\*\*(.+?)\*\*/g, '$1'))
+      setSpeaking(true)
+      let idx = 0
+      const playNext = () => {
+        if (idx >= chunks.length) { setSpeaking(false); return }
+        const chunk = chunks[idx]; idx++
+        speak(chunk, {
+          rate: 0.9,
+          onEnd: () => setTimeout(playNext, 50),
+          onError: () => setSpeaking(false),
+        })
+      }
+      playNext()
     }
-    playNext()
+    const audio = new Audio(`/audio/academic/${topicId}.mp3`)
+    audioRef.current = audio
+    audio.addEventListener('canplaythrough', () => { audio.play(); setSpeaking(true) }, { once: true })
+    audio.addEventListener('ended', () => { setSpeaking(false); audioRef.current = null }, { once: true })
+    audio.addEventListener('error', () => { audioRef.current = null; ttsPlayback() }, { once: true })
+    audio.load()
   }
 
   useEffect(() => {
