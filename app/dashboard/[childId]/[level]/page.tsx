@@ -87,12 +87,10 @@ export default function LevelTopicsPage() {
   const [dlCount, setDlCount] = useState(0)
 
   useEffect(() => {
-    // Total downloaded pages across both modules (shared cache, shared cap)
-    if (!('caches' in window)) return
-    caches.open('vocabwise-downloads-v1')
-      .then(cache => cache.keys())
-      .then(keys => setDlCount(keys.length))
-      .catch(() => { getDownloadedCount().then(setDlCount).catch(() => {}) })
+    getDownloadedCount().then(setDlCount).catch(() => {})
+    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
+    window.addEventListener('offline-cache-changed', handler)
+    return () => window.removeEventListener('offline-cache-changed', handler)
   }, [])
 
   useEffect(() => {

@@ -372,6 +372,9 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
 
   useEffect(() => {
     getDownloadedCount().then(setDlCount).catch(() => {})
+    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
+    window.addEventListener('offline-cache-changed', handler)
+    return () => window.removeEventListener('offline-cache-changed', handler)
   }, [])
   const [pinInputs, setPinInputs] = useState<Record<string, string>>({})
   const [pinMsg, setPinMsg] = useState<Record<string, string>>({})

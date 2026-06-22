@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/session'
 import { supabase } from '@/lib/supabaseServer'
-import { getEffectivePlan, getPlanTier } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
 
 type RouteParams = { params: Promise<{ id: string }> }
 
@@ -28,9 +28,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
     return NextResponse.json({ error: 'Pro plan required for offline downloads.' }, { status: 403 })
   }
 
-  // Plan tier — for client to enforce download cap
-  const tier = getPlanTier(family)
-  const limit = tier === 'pro1' ? 20 : null
-
+  const limit = getOfflineDownloadLimit(family)
   return NextResponse.json({ ok: true, topicId, limit })
 }

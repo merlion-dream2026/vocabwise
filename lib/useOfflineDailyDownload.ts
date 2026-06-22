@@ -9,6 +9,12 @@ function pageUrl(childId: string, level: string, topicId: string) {
   return `/dashboard/${childId}/${level}/${topicId}`
 }
 
+function emitCacheChange() {
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('offline-cache-changed'))
+  }
+}
+
 export function useOfflineDailyDownload(childId: string, level: string, topicId: string) {
   const [state, setState] = useState<DownloadState>('idle')
 
@@ -46,18 +52,26 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
       const sw = navigator.serviceWorker?.controller
 
       if (sw) {
-        // SW handles fetch + cache asynchronously
-        sw.postMessage({ type: 'DOWNLOAD_DAILY_TOPIC', childId, level, topicId })
-        // Optimistically mark as downloaded — SW will cache in background
-        setState('downloaded')
+        // Use MessageChannel to wait for SW confirmation before marking as downloaded
+        await new Promise<void>((resolve, reject) => {
+          const mc = new MessageChannel()
+          const timer = setTimeout(() => reject(new Error('sw_timeout')), 30_000)
+          mc.port1.onmessage = (e) => {
+            clearTimeout(timer)
+            e.data.ok ? resolve() : reject(new Error('cache_failed'))
+          }
+          sw.postMessage({ type: 'DOWNLOAD_DAILY_TOPIC', childId, level, topicId }, [mc.port2])
+        })
       } else {
         // Fallback: fetch and cache directly (SW not yet controlling)
         const cache = await caches.open(DOWNLOAD_CACHE)
         const res = await fetch(url, { credentials: 'include' })
         if (!res.ok) throw new Error('fetch_failed')
         await cache.put(url, res)
-        setState('downloaded')
       }
+
+      setState('downloaded')
+      emitCacheChange()
     } catch {
       setState('error')
       setTimeout(() => setState('idle'), 3000)
@@ -66,14 +80,13 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
 
   const remove = useCallback(async () => {
     if (!('caches' in window)) return
-    const sw = navigator.serviceWorker?.controller
-    if (sw) {
-      sw.postMessage({ type: 'REMOVE_DAILY_DOWNLOAD', childId, level, topicId })
-    } else {
-      const cache = await caches.open(DOWNLOAD_CACHE)
-      await cache.delete(pageUrl(childId, level, topicId))
-    }
+    // Direct delete for immediate guaranteed removal
+    const cache = await caches.open(DOWNLOAD_CACHE)
+    await cache.delete(pageUrl(childId, level, topicId))
+    // Notify SW (informational)
+    navigator.serviceWorker?.controller?.postMessage({ type: 'REMOVE_DAILY_DOWNLOAD', childId, level, topicId })
     setState('idle')
+    emitCacheChange()
   }, [childId, level, topicId])
 
   return { state, download, remove }

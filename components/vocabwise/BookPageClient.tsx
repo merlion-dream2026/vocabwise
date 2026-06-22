@@ -84,6 +84,9 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
   useEffect(() => {
     getDownloadedCount().then(setDlCount).catch(() => {})
+    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
+    window.addEventListener('offline-cache-changed', handler)
+    return () => window.removeEventListener('offline-cache-changed', handler)
   }, [])
 
   useEffect(() => {

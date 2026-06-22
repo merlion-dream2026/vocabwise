@@ -32,21 +32,29 @@ self.addEventListener('message', e => {
 
   if (type === 'DOWNLOAD_TOPIC' && book && topicId) {
     const url = `/vocabwise/${book}/${topicId}`
+    const port = e.ports?.[0]
     e.waitUntil(
       caches.open(DOWNLOAD_CACHE).then(cache =>
         fetch(url, { credentials: 'include' })
-          .then(res => { if (res.ok) return cache.put(url, res) })
-          .catch(() => {})
+          .then(res => {
+            if (res.ok) return cache.put(url, res).then(() => { port?.postMessage({ ok: true }) })
+            port?.postMessage({ ok: false })
+          })
+          .catch(() => { port?.postMessage({ ok: false }) })
       )
     )
 
   } else if (type === 'DOWNLOAD_DAILY_TOPIC' && childId && level && topicId) {
     const url = `/dashboard/${childId}/${level}/${topicId}`
+    const port = e.ports?.[0]
     e.waitUntil(
       caches.open(DOWNLOAD_CACHE).then(cache =>
         fetch(url, { credentials: 'include' })
-          .then(res => { if (res.ok) return cache.put(url, res) })
-          .catch(() => {})
+          .then(res => {
+            if (res.ok) return cache.put(url, res).then(() => { port?.postMessage({ ok: true }) })
+            port?.postMessage({ ok: false })
+          })
+          .catch(() => { port?.postMessage({ ok: false }) })
       )
     )
 

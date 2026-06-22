@@ -21,7 +21,9 @@ export async function POST(req: NextRequest) {
   const level   = typeof body?.level === 'string' ? body.level : ''
   const topicId = typeof body?.topicId === 'string' ? body.topicId : ''
 
-  if (!childId || !VALID_LEVELS.has(level) || !topicId) {
+  // topicId: alphanumeric + hyphens/underscores, 1–100 chars
+  const validTopicId = /^[\w-]{1,100}$/.test(topicId)
+  if (!childId || !VALID_LEVELS.has(level) || !validTopicId) {
     return NextResponse.json({ error: 'Invalid request' }, { status: 400 })
   }
 
