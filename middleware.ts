@@ -35,6 +35,7 @@ const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
   '/api/words':            [60, 60],
   '/api/stories':          [60, 60],
   '/api/offline/topic':    [30, 3600], // 30 downloads/hour/family
+  '/api/offline/daily':    [30, 3600], // 30 downloads/hour/family (POST also limited in-route)
 }
 
 function buildCsp(nonce: string): string {

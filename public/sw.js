@@ -2,8 +2,11 @@ const CACHE          = 'vocabwise-v1'
 const AUDIO_CACHE    = 'vocabwise-audio-v1'
 const DOWNLOAD_CACHE = 'vocabwise-downloads-v1'
 
-// Regex: matches topic page URLs like /vocabwise/book1/b1-t01
+// Regex: matches Academic topic page URLs like /vocabwise/book1/b1-t01
 const TOPIC_PAGE_RE = /^\/vocabwise\/book[123]\/b[123]-t\d+$/
+
+// Regex: matches Daily (Kids) topic page URLs like /dashboard/<uuid>/seeker/<topicId>
+const DAILY_PAGE_RE = /^\/dashboard\/[0-9a-f-]{36}\/(seeker|starter|ranger|explorer|scholar|master)\/[^/]+$/
 
 self.addEventListener('install', e => {
   self.skipWaiting()
@@ -25,10 +28,20 @@ self.addEventListener('activate', e => {
 // ─── Message API ─────────────────────────────────────────────────────────────
 
 self.addEventListener('message', e => {
-  const { type, book, topicId } = e.data ?? {}
+  const { type, book, topicId, childId, level } = e.data ?? {}
 
   if (type === 'DOWNLOAD_TOPIC' && book && topicId) {
     const url = `/vocabwise/${book}/${topicId}`
+    e.waitUntil(
+      caches.open(DOWNLOAD_CACHE).then(cache =>
+        fetch(url, { credentials: 'include' })
+          .then(res => { if (res.ok) return cache.put(url, res) })
+          .catch(() => {})
+      )
+    )
+
+  } else if (type === 'DOWNLOAD_DAILY_TOPIC' && childId && level && topicId) {
+    const url = `/dashboard/${childId}/${level}/${topicId}`
     e.waitUntil(
       caches.open(DOWNLOAD_CACHE).then(cache =>
         fetch(url, { credentials: 'include' })
@@ -44,6 +57,13 @@ self.addEventListener('message', e => {
       )
     )
 
+  } else if (type === 'REMOVE_DAILY_DOWNLOAD' && childId && level && topicId) {
+    e.waitUntil(
+      caches.open(DOWNLOAD_CACHE).then(cache =>
+        cache.delete(`/dashboard/${childId}/${level}/${topicId}`)
+      )
+    )
+
   } else if (type === 'CLEAR_DOWNLOADS') {
     e.waitUntil(caches.delete(DOWNLOAD_CACHE))
   }
@@ -56,8 +76,11 @@ self.addEventListener('fetch', e => {
 
   if (url.hostname !== self.location.hostname) return
 
-  // Topic pages: network-first with offline fallback from downloads cache
-  if (TOPIC_PAGE_RE.test(url.pathname) && e.request.mode === 'navigate') {
+  // Topic pages (Academic + Daily): network-first with offline fallback from downloads cache
+  const isAcademicPage = TOPIC_PAGE_RE.test(url.pathname)
+  const isDailyPage    = DAILY_PAGE_RE.test(url.pathname)
+  if ((isAcademicPage || isDailyPage) && e.request.mode === 'navigate') {
+    const backHref = isDailyPage ? '/kids' : '/vocabwise'
     e.respondWith(
       fetch(e.request).catch(() =>
         caches.open(DOWNLOAD_CACHE).then(cache =>
@@ -70,7 +93,7 @@ self.addEventListener('fetch', e => {
               .box{text-align:center;padding:2rem}h2{color:#7c3aed}a{color:#7c3aed}</style></head>
               <body><div class="box"><h2>📴 Đang offline</h2>
               <p>Chủ đề này chưa được tải offline.</p>
-              <a href="/vocabwise">← Quay lại danh sách</a></div></body></html>`,
+              <a href="${backHref}">← Quay lại danh sách</a></div></body></html>`,
               { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
             )
           )

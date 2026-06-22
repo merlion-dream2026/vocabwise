@@ -9,7 +9,9 @@ import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
-import { getEffectivePlan } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
+import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
+import { getDownloadedCount } from '@/lib/useOfflineDownload'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
@@ -82,6 +84,16 @@ export default function LevelTopicsPage() {
   const [showXpGuide, setShowXpGuide] = useState(false)
   const [showAllBadges, setShowAllBadges] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
+  const [dlCount, setDlCount] = useState(0)
+
+  useEffect(() => {
+    // Total downloaded pages across both modules (shared cache, shared cap)
+    if (!('caches' in window)) return
+    caches.open('vocabwise-downloads-v1')
+      .then(cache => cache.keys())
+      .then(keys => setDlCount(keys.length))
+      .catch(() => { getDownloadedCount().then(setDlCount).catch(() => {}) })
+  }, [])
 
   useEffect(() => {
     const saved = localStorage.getItem('topicViewMode') as 'grid' | 'list' | null
@@ -155,6 +167,8 @@ export default function LevelTopicsPage() {
   }
 
   const isPaid = getEffectivePlan(session!).isProActive || !!(session!.bonus_features?.includes('kids_full'))
+  const isProForDl = getEffectivePlan(session!).isProActive
+  const dlLimit = getOfflineDownloadLimit(session!)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
 
   function renderRevCard(revNum: number) {
@@ -451,9 +465,10 @@ export default function LevelTopicsPage() {
               const revNum = Math.floor(idx / 5) + 1
               return (
                 <React.Fragment key={topic.id}>
+                <div className="relative">
                 <button
                   onClick={() => handleTopicClick(topic, idx)}
-                  className={`relative ${cardCls} rounded-2xl p-4 text-left shadow-sm transition-all ${
+                  className={`w-full relative ${cardCls} rounded-2xl p-4 text-left shadow-sm transition-all ${
                     locked ? '' : 'hover:shadow-md active:scale-95'
                   }`}>
 
@@ -502,6 +517,17 @@ export default function LevelTopicsPage() {
                     </div>
                   )}
                 </button>
+                {isProForDl && !locked && (
+                  <OfflineDailyDownloadButton
+                    childId={childId}
+                    level={level}
+                    topicId={topic.id}
+                    downloadedCount={dlCount}
+                    downloadLimit={dlLimit}
+                    className="absolute top-2 right-2 z-10"
+                  />
+                )}
+                </div>
                 {isRevPoint && (
                   <div className="col-span-2">
                     {renderRevCard(revNum)}
@@ -530,9 +556,10 @@ export default function LevelTopicsPage() {
               const revNum = Math.floor(idx / 5) + 1
               return (
                 <React.Fragment key={topic.id}>
+                <div className="relative flex items-center">
                 <button
                   onClick={() => handleTopicClick(topic, idx)}
-                  className={`w-full text-left px-4 py-3 flex items-center gap-3 transition-colors ${
+                  className={`flex-1 min-w-0 text-left px-4 py-3 flex items-center gap-3 transition-colors ${
                     locked ? 'opacity-50' : 'hover:bg-gray-50 active:bg-gray-100'
                   }`}>
 
@@ -568,6 +595,17 @@ export default function LevelTopicsPage() {
 
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
+                {isProForDl && !locked && (
+                  <OfflineDailyDownloadButton
+                    childId={childId}
+                    level={level}
+                    topicId={topic.id}
+                    downloadedCount={dlCount}
+                    downloadLimit={dlLimit}
+                    className="absolute right-9 top-1/2 -translate-y-1/2 z-10"
+                  />
+                )}
+                </div>
                 {isRevPoint && (
                   <div className="px-3 py-2 bg-gray-50">
                     {renderRevCard(revNum)}
