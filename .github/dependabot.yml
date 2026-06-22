@@ -5,7 +5,11 @@ updates:
     schedule:
       interval: weekly
       day: monday
+      time: "09:00"
+      timezone: Asia/Ho_Chi_Minh
     open-pull-requests-limit: 5
+    labels:
+      - dependencies
     groups:
       # Group minor/patch updates together to reduce PR noise
       non-major:
@@ -19,6 +23,9 @@ updates:
       - dependency-name: react
         update-types: [version-update:semver-major]
       - dependency-name: react-dom
+        update-types: [version-update:semver-major]
+      # Supabase client breaking changes — review manually
+      - dependency-name: '@supabase/supabase-js'
         update-types: [version-update:semver-major]
       # eslint 10 breaks peer dep with eslint-config-next@14; upgrade together with Next
       - dependency-name: eslint
