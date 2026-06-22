@@ -1,5 +1,5 @@
-const CACHE = 'vocabkids-v1'
-const AUDIO_CACHE = 'vocabkids-audio-v1'
+const CACHE = 'vocabwise-v1'
+const AUDIO_CACHE = 'vocabwise-audio-v1'
 
 self.addEventListener('install', e => {
   self.skipWaiting()

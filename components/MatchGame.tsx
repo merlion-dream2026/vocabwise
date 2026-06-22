@@ -130,7 +130,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
           <p className="text-gray-500 font-bold text-lg mb-1">
             {total}/{total} cặp đúng
           </p>
-          <p className="text-gray-400 font-semibold mb-3">
+          <p className="text-gray-500 font-semibold mb-3">
             {mistakes === 0 ? 'Không sai lần nào! 🎉' : `Sai ${mistakes} lần`}
           </p>
           <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-6">
@@ -179,7 +179,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-3 py-4 flex gap-3 overflow-y-auto">
         {/* LEFT: Words */}
         <div className="flex-1 flex flex-col gap-2">
-          <p className="text-xs font-black text-gray-400 uppercase tracking-wider text-center mb-1">
+          <p className="text-xs font-black text-gray-500 uppercase tracking-wider text-center mb-1">
             TỪ
           </p>
           {leftWords.map((w) => {
@@ -213,7 +213,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
 
         {/* RIGHT: Emojis */}
         <div className="flex-1 flex flex-col gap-2">
-          <p className="text-xs font-black text-gray-400 uppercase tracking-wider text-center mb-1">
+          <p className="text-xs font-black text-gray-500 uppercase tracking-wider text-center mb-1">
             HÌNH
           </p>
           {rightEmojis.map((w) => {

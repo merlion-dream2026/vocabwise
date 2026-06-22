@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 const PLANS = [
   { key: '1month',  label: '1 tháng',  price: '59.000đ',  amount: 59000,  note: '2 bé',                          badge: null,            badgeCls: '' },
@@ -30,6 +30,20 @@ export default function UpgradeModal({ onClose, username }: Props) {
   const [selectedPlan, setSelectedPlan] = useState('3months')
   const [copied, setCopied] = useState(false)
   const [phone, setPhone] = useState(username ?? '')
+  const closeBtnRef = useRef<HTMLButtonElement>(null)
+  const triggerRef = useRef<HTMLElement | null>(null)
+
+  // Esc to close + focus management (focus close btn on open, restore on unmount)
+  useEffect(() => {
+    triggerRef.current = (document.activeElement as HTMLElement) ?? null
+    closeBtnRef.current?.focus()
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', handler)
+    return () => {
+      document.removeEventListener('keydown', handler)
+      triggerRef.current?.focus?.()
+    }
+  }, [onClose])
 
   const chosen = PLANS.find(p => p.key === selectedPlan) ?? PLANS[1]
   const transferContent = `VocabWise ${chosen.label}${phone.trim() ? ` ${phone.trim()}` : ''}`
@@ -46,12 +60,12 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
   return (
     <div className="fixed inset-0 bg-black/60 z-50 flex items-end justify-center px-4 pb-4 sm:items-center" onClick={onClose}>
-      <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
+      <div role="dialog" aria-modal="true" aria-labelledby="upgrade-modal-title" className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden" onClick={e => e.stopPropagation()}>
 
         {/* Header */}
         <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center relative">
-          <button onClick={onClose} className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
-          <h2 className="text-white font-black text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
+          <button ref={closeBtnRef} onClick={onClose} aria-label="Đóng" className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
+          <h2 id="upgrade-modal-title" className="text-white font-black text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
           <p className="text-white/80 text-sm font-semibold mt-0.5">4.500+ từ · Kids + Academic · Gói dài = nhiều ưu đãi hơn</p>
         </div>
 

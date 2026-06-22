@@ -1,5 +1,5 @@
 'use client'
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 type Props = {
   book: string
@@ -23,6 +23,12 @@ function pad2(n: number) { return String(n).padStart(2, '0') }
 export default function CertificateModal({ book, bookTitle, cefr, emoji, color, mastered, total, onClose }: Props) {
   const [name, setName] = useState('')
   const certRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [onClose])
 
   const today = new Date()
   const dateStr = `${pad2(today.getDate())}/${pad2(today.getMonth() + 1)}/${today.getFullYear()}`
@@ -56,6 +62,9 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
 
       {/* Backdrop */}
       <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="vw-certificate-title"
         className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 no-print"
         onClick={e => { if (e.target === e.currentTarget) onClose() }}
       >
@@ -63,7 +72,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
 
           {/* Action bar */}
           <div className="no-print flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-gray-100">
-            <button onClick={onClose} className="text-gray-400 hover:text-gray-600 font-black text-lg">✕</button>
+            <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 font-black text-lg">✕</button>
             <p className="text-xs text-gray-400 font-semibold">Chụp màn hình để lưu &amp; chia sẻ</p>
             <div className="flex gap-2">
               <button
@@ -87,7 +96,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
             {/* Header gradient */}
             <div className={`bg-gradient-to-r ${color} px-6 py-5 text-white text-center`}>
               <div className="text-5xl mb-2">{emoji}</div>
-              <p className="font-black text-lg leading-tight">{bookTitle}</p>
+              <p id="vw-certificate-title" className="font-black text-lg leading-tight">{bookTitle}</p>
               <p className="text-white/80 text-xs font-semibold mt-0.5">{cefr} · VocabWise Academic</p>
             </div>
 

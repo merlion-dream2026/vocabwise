@@ -22,7 +22,13 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
   useEffect(() => {
     const t1 = setTimeout(() => setVisible(true), 50)
     autoCloseRef.current = setTimeout(() => onDone(), 4000)
-    return () => { clearTimeout(t1); if (autoCloseRef.current) clearTimeout(autoCloseRef.current) }
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onDone() }
+    document.addEventListener('keydown', handler)
+    return () => {
+      clearTimeout(t1)
+      if (autoCloseRef.current) clearTimeout(autoCloseRef.current)
+      document.removeEventListener('keydown', handler)
+    }
   }, [])
 
   function handleShare() {
@@ -44,6 +50,9 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="trophy-modal-title"
       className="fixed inset-0 z-50 flex flex-col items-center justify-center"
       style={{ background: 'rgba(0,0,0,0.55)' }}
       onClick={onDone}
@@ -93,7 +102,7 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
           className="text-center px-6"
           style={{ animation: visible ? 'fadeInUp 0.5s 0.6s both' : 'none' }}
         >
-          <p className="text-white font-black text-2xl mb-1">Chinh phục hoàn toàn!</p>
+          <p id="trophy-modal-title" className="text-white font-black text-2xl mb-1">Chinh phục hoàn toàn!</p>
           <p className="text-yellow-200 font-bold text-lg">
             {topicEmoji} {topicName}
           </p>

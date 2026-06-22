@@ -165,7 +165,7 @@ export default function SortWordsGame({ group, childId, backUrl }: { group: Grou
           {(phase === 'choosing' || phase === 'result') && (
             <>
               <p className="text-4xl font-black text-gray-800 mb-1">{q.word}</p>
-              <p className="text-xs text-gray-400 font-semibold mb-2">Từ này chứa âm nào?</p>
+              <p className="text-xs text-gray-500 font-semibold mb-2">Từ này chứa âm nào?</p>
               {phase === 'choosing' && (
                 <button onClick={() => { speakingRef.current = false; playQuestion(q) }}
                   className="bg-amber-100 text-amber-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90">

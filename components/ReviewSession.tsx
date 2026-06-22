@@ -214,7 +214,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
         {/* Word card */}
         <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-xl p-5 flex flex-col items-center text-center mb-4">
           <div className="mb-3 flex justify-center leading-none"><WordIcon word={current.entry.word} emoji={current.entry.emoji} emojiClass="text-7xl" iconSize={88} /></div>
-          <p className="text-gray-400 font-bold text-xs uppercase tracking-wider mb-1">Nghĩa tiếng Việt</p>
+          <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-1">Nghĩa tiếng Việt</p>
           <h2 className="text-2xl font-black text-gray-800 mb-3">{current.entry.meaning}</h2>
           <button onClick={() => speak(current.entry.word)}
             className={`${accentBtn} text-white w-12 h-12 rounded-2xl text-xl flex items-center justify-center shadow-md active:scale-90 transition-all mb-3`}>
@@ -225,7 +225,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
           <div className="flex items-center gap-4 text-xs font-bold">
             <span className="text-orange-500">⚠️ Sai {current.entry.wrong} lần</span>
             {days !== null && (
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 {days === 0 ? 'Hôm nay' : `${days} ngày trước`}
               </span>
             )}
@@ -233,13 +233,13 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
 
           {/* Streak progress dots */}
           <div className="flex items-center gap-1.5 mt-2">
-            <span className="text-xs text-gray-400 font-semibold mr-1">Thuộc:</span>
+            <span className="text-xs text-gray-500 font-semibold mr-1">Thuộc:</span>
             {[0, 1, 2].map(i => (
               <div key={i} className={`w-3 h-3 rounded-full transition-all ${
                 i < currentStreak ? 'bg-green-400 scale-110' : 'bg-gray-200'
               }`} />
             ))}
-            <span className="text-xs text-gray-400 font-semibold ml-1">{currentStreak}/3</span>
+            <span className="text-xs text-gray-500 font-semibold ml-1">{currentStreak}/3</span>
           </div>
         </div>
 

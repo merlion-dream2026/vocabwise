@@ -124,7 +124,7 @@ export default function SortRuleGame({
 
         {/* Word card */}
         <div className="bg-white rounded-3xl px-6 py-5 shadow-md w-full text-center">
-          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Phân loại đúng:</p>
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-wide mb-2">Phân loại đúng:</p>
           <p className="text-4xl font-black text-gray-800 mb-3">{q.word}</p>
           <button onClick={() => speak(q.word, { rate: 0.75 })}
             className="bg-gray-100 text-gray-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-transform">

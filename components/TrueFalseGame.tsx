@@ -164,7 +164,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           <p className="text-4xl font-black text-gray-800 mb-1">{round.word.word}</p>
           <button
             onClick={() => speak(round.word.word)}
-            className="text-gray-400 text-sm font-semibold mb-4 flex items-center gap-1 hover:text-gray-600"
+            className="text-gray-500 text-sm font-semibold mb-4 flex items-center gap-1 hover:text-gray-600"
           >
             🔊 nghe lại
           </button>
@@ -172,7 +172,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           {/* Divider label */}
           <div className="flex items-center gap-2 w-full mb-3">
             <div className="flex-1 h-px bg-gray-200" />
-            <span className="text-xs font-bold text-gray-400 uppercase tracking-wide">có nghĩa là</span>
+            <span className="text-xs font-bold text-gray-500 uppercase tracking-wide">có nghĩa là</span>
             <div className="flex-1 h-px bg-gray-200" />
           </div>
 

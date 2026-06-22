@@ -52,7 +52,7 @@ export async function sendPushToAll(payload: PushPayload): Promise<{ sent: numbe
 
 function initVapid() {
   webpush.setVapidDetails(
-    process.env.VAPID_SUBJECT ?? 'mailto:vocab.kids.pro@gmail.com',
+    process.env.VAPID_SUBJECT ?? `mailto:${process.env.ADMIN_ALERT_EMAIL ?? process.env.GMAIL_USER ?? 'admin@vocabwise.id.vn'}`,
     process.env.VAPID_PUBLIC_KEY!,
     process.env.VAPID_PRIVATE_KEY!
   )

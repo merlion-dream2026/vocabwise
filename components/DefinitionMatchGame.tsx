@@ -156,7 +156,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
       </div>
 
       <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 px-4 py-5 flex flex-col gap-3">
-        <p className="text-xs font-bold text-gray-400 text-center uppercase tracking-wide">Ghép từ tiếng Anh với nghĩa tiếng Việt</p>
+        <p className="text-xs font-bold text-gray-500 text-center uppercase tracking-wide">Ghép từ tiếng Anh với nghĩa tiếng Việt</p>
 
         {/* Matching grid */}
         <div className="flex gap-3 flex-1">

@@ -195,7 +195,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} /></div>
         <p className="text-gray-700 font-bold text-2xl mb-1 text-center">{word.meaning}</p>
         {word.class && (
-          <p className="text-gray-400 text-sm mb-3">({word.class})</p>
+          <p className="text-gray-500 text-sm mb-3">({word.class})</p>
         )}
 
         {/* Speak button */}

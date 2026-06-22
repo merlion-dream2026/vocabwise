@@ -300,9 +300,9 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
             </button>
             {micError
               ? <p className="text-red-600 font-semibold text-sm text-center max-w-xs">{micError}</p>
-              : <p className="text-gray-400 font-semibold text-sm text-center">Bấm micro rồi đọc to</p>
+              : <p className="text-gray-500 font-semibold text-sm text-center">Bấm micro rồi đọc to</p>
             }
-            <button onClick={() => advance(1)} className="text-gray-400 font-semibold text-sm underline active:scale-95 transition-all">
+            <button onClick={() => advance(1)} className="text-gray-500 font-semibold text-sm underline active:scale-95 transition-all">
               Bỏ qua →
             </button>
           </div>

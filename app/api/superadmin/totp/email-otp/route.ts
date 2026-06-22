@@ -11,7 +11,7 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY!
 )
 
-const ADMIN_EMAIL = 'vocabwise.admin@gmail.com'
+const ADMIN_EMAIL = process.env.ADMIN_ALERT_EMAIL ?? process.env.GMAIL_USER ?? ''
 const OTP_TTL_MS = 10 * 60_000 // 10 minutes
 
 export async function POST(req: NextRequest) {

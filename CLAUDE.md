@@ -32,8 +32,8 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 | Academic topics | 1/book | ✅ Full | ✅ Full | ✅ Full |
 | Phonics IPA | 1 bài (vowels-short idx 0) | ✅ Full | ✅ Full | ✅ Full |
 | Word Stress | ❌ | ❌ | ✅ | ✅ |
-| My Words | ❌ | ✅ | ✅ | ✅ |
-| SRS ôn từ yếu | ❌ | ✅ | ✅ | ✅ |
+| My Words | 20 từ | ✅ | ✅ | ✅ |
+| SRS ôn từ yếu | 20 từ | ✅ | ✅ | ✅ |
 | AI Speak | 5/ngày | 30/ngày | ∞ | ∞ |
 | Push notification | ❌ | ✅ | ✅ | ✅ |
 | Email report | ❌ | Thủ công | Auto tuần | Auto tuần |

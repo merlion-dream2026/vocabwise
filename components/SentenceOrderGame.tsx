@@ -152,7 +152,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
       <div className="flex-1 bg-gradient-to-b from-indigo-50 to-blue-50 px-4 py-5 flex flex-col gap-4">
         {/* Word prompt */}
         <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-1">Sắp xếp câu với từ</p>
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Sắp xếp câu với từ</p>
           <div className="flex items-center gap-2">
             <WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-3xl" iconSize={36} />
             <div>
@@ -164,13 +164,13 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
           <button onClick={() => setShowHint(h => !h)} className="mt-2 text-xs text-indigo-500 font-semibold">
             {showHint ? '🙈 Ẩn gợi ý' : '💡 Xem nghĩa câu'}
           </button>
-          {showHint && <p className="mt-1 text-sm text-gray-400 italic">{q.viHint}</p>}
+          {showHint && <p className="mt-1 text-sm text-gray-500 italic">{q.viHint}</p>}
         </div>
 
         {/* Answer area */}
         <div className={`bg-white rounded-2xl p-4 shadow-sm min-h-[72px] border-2 transition-colors
           ${submitted ? (isCorrect ? 'border-green-400' : 'border-red-400') : 'border-dashed border-indigo-200'}`}>
-          <p className="text-xs font-bold text-gray-400 mb-2">Câu của bạn:</p>
+          <p className="text-xs font-bold text-gray-500 mb-2">Câu của bạn:</p>
           {placed.length === 0
             ? <p className="text-gray-300 text-sm italic">Nhấn vào các từ bên dưới...</p>
             : <div className="flex flex-wrap gap-2">
@@ -198,7 +198,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         {/* Token pool */}
         {!submitted && (
           <div className="bg-white rounded-2xl p-4 shadow-sm">
-            <p className="text-xs font-bold text-gray-400 mb-2">Các từ:</p>
+            <p className="text-xs font-bold text-gray-500 mb-2">Các từ:</p>
             <div className="flex flex-wrap gap-2">
               {remaining.map(token => (
                 <button key={token.id} onClick={() => tapToken(token)}

@@ -125,7 +125,7 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
         {/* Option pickers — hidden after submit */}
         {!submitted && blanks.map((blank, i) => (
           <div key={i} className="mb-4">
-            <p className="text-xs font-bold text-gray-400 mb-2">Ô trống {i + 1}:</p>
+            <p className="text-xs font-bold text-gray-500 mb-2">Ô trống {i + 1}:</p>
             <div className="grid grid-cols-2 gap-2">
               {blank.options.map(opt => (
                 <button key={opt} onClick={() => handleSelect(i, opt)}

@@ -3,6 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 import { hashPassword } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { verifyTurnstile } from '@/lib/security'
+import { esc, ADMIN_ALERT_EMAIL } from '@/lib/escHtml'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -12,7 +13,7 @@ const supabase = createClient(
 // SĐT VN hợp lệ: đầu số 03x, 05x, 07x, 08x, 09x — đúng 10 số
 const VN_PHONE_REGEX = /^(03[2-9]|05[6-9]|07[06-9]|08[0-9]|09[0-9])\d{7}$/
 
-const SUPERADMIN_EMAIL = process.env.GMAIL_USER ?? ''
+const SUPERADMIN_EMAIL = ADMIN_ALERT_EMAIL
 const FLAG_THRESHOLD = 5   // số accounts/24h trước khi flag
 
 /**
@@ -68,7 +69,7 @@ async function trackRegistrationIP(ip: string): Promise<void> {
     html: `
       <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
         <h2 style="color:#dc2626">⚠️ Cảnh báo đăng ký bất thường</h2>
-        <p>IP <strong>${ip}</strong> đã đăng ký <strong>${count} tài khoản</strong> trong 24 giờ qua.</p>
+        <p>IP <strong>${esc(ip)}</strong> đã đăng ký <strong>${count} tài khoản</strong> trong 24 giờ qua.</p>
         <p style="color:#6b7280;font-size:14px">Vào Superadmin → tab Cảnh báo để xem xét.</p>
         <a href="${appUrl}/superadmin"
            style="display:inline-block;margin-top:16px;background:#9333ea;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:bold">
@@ -229,7 +230,7 @@ export async function POST(req: NextRequest) {
       html: `
         <div style="font-family:sans-serif;max-width:480px;margin:auto;padding:24px">
           <h2 style="color:#9333ea">📚 VocabWise</h2>
-          <p>Xin chào <strong>${name.trim()}</strong>,</p>
+          <p>Xin chào <strong>${esc(name.trim())}</strong>,</p>
           <p>Mã xác thực tài khoản của bạn là:</p>
           <div style="background:#f3e8ff;border-radius:12px;padding:20px;text-align:center;margin:20px 0">
             <span style="font-size:36px;font-weight:900;letter-spacing:8px;color:#7c3aed">${otp}</span>

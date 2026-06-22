@@ -164,7 +164,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col px-4 py-6">
         {/* Sentence card */}
         <div className="bg-white rounded-3xl border-2 border-teal-100 shadow-xl p-6 mb-6">
-          <p className="text-gray-400 font-bold text-xs uppercase tracking-wider mb-4 text-center">Điền từ đúng vào chỗ trống:</p>
+          <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-4 text-center">Điền từ đúng vào chỗ trống:</p>
           <p className="text-xl font-bold text-gray-800 leading-relaxed text-center">
             {parts[0]}
             <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-black text-xl transition-all ${
@@ -178,7 +178,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
             </span>
             {parts[1]}
           </p>
-          <p className="text-gray-400 text-sm italic text-center mt-3">{current.translation}</p>
+          <p className="text-gray-500 text-sm italic text-center mt-3">{current.translation}</p>
         </div>
 
         {/* Choices */}

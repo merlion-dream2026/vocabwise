@@ -190,9 +190,9 @@ export default function SentenceRhythmGame({
 
         {/* Sentence card */}
         <div className="bg-white rounded-3xl px-5 py-5 shadow-md w-full">
-          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-3 text-center">Đọc với nhịp tự nhiên</p>
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-wide mb-3 text-center">Đọc với nhịp tự nhiên</p>
           <HighlightedSentence sentence={q.en} stressed={q.stressed} />
-          <p className="text-xs text-gray-400 font-semibold text-center mt-2">{q.vi}</p>
+          <p className="text-xs text-gray-500 font-semibold text-center mt-2">{q.vi}</p>
           <p className="text-xs text-amber-600 font-bold text-center mt-1.5">↑ Từ gạch chân = nhấn mạnh</p>
         </div>
 
@@ -202,7 +202,7 @@ export default function SentenceRhythmGame({
           <span className="text-xl">🔊</span>
           <div className="text-left">
             <p className="font-black text-sm text-gray-800">Nghe mẫu</p>
-            <p className="text-gray-400 text-xs">Nghe kỹ nhịp điệu trước khi đọc</p>
+            <p className="text-gray-500 text-xs">Nghe kỹ nhịp điệu trước khi đọc</p>
           </div>
         </button>
 

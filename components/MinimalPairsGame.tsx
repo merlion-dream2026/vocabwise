@@ -205,7 +205,7 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
             <>
               <div className="text-6xl mb-3 animate-pulse">🔊</div>
               <p className="text-gray-700 font-black text-base">Đang phát từ...</p>
-              <p className="text-gray-400 text-sm mt-1">Nghe rồi chọn âm bạn nghe được</p>
+              <p className="text-gray-500 text-sm mt-1">Nghe rồi chọn âm bạn nghe được</p>
             </>
           )}
           {phase === 'choosing' && (
@@ -235,7 +235,7 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
                     &nbsp;≠&nbsp;
                     <span className="font-mono text-red-500">/{selected.symbol}/</span> "{selected.keyword}"
                   </p>
-                  <p className="text-gray-400 text-xs">Nghe lại hai từ để cảm nhận sự khác biệt 👆</p>
+                  <p className="text-gray-500 text-xs">Nghe lại hai từ để cảm nhận sự khác biệt 👆</p>
                   <button
                     onClick={() => speak(q.answer.keyword, {
                       rate: 0.75,

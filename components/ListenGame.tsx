@@ -207,7 +207,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
           >
             🔊
           </button>
-          <p className="text-gray-400 text-sm font-semibold mt-2">Bấm để nghe lại</p>
+          <p className="text-gray-500 text-sm font-semibold mt-2">Bấm để nghe lại</p>
         </div>
 
         {/* 2×2 choice grid */}
@@ -252,7 +252,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
           })}
         </div>
 
-        <p className="text-center text-gray-400 text-sm font-medium mt-4">
+        <p className="text-center text-gray-500 text-sm font-medium mt-4">
           Chọn hình đúng với từ bạn vừa nghe
         </p>
       </div>

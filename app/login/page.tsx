@@ -199,7 +199,7 @@ function LoginForm() {
             <div>
               {emailOtpSent && (
                 <div className="bg-green-50 border border-green-100 rounded-2xl px-4 py-3 mb-3 text-sm text-green-700 font-semibold">
-                  ✅ Đã gửi mã OTP tới <strong>vocabwise.admin@gmail.com</strong>. Hiệu lực 10 phút.
+                  ✅ Đã gửi mã OTP tới email admin. Hiệu lực 10 phút.
                 </div>
               )}
               <label className="block text-sm font-bold text-gray-600 mb-1.5">Mã OTP từ email <span className="text-gray-400 font-normal">(6 chữ số)</span></label>

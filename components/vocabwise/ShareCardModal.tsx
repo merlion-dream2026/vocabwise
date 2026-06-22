@@ -1,4 +1,5 @@
 'use client'
+import { useEffect } from 'react'
 
 type Props = {
   topicTitle: string
@@ -18,6 +19,12 @@ const MESSAGE = (pct: number) =>
                 'Tôi đang nỗ lực học từng ngày!'
 
 export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr, onClose }: Props) {
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [onClose])
+
   function handleShare() {
     const text = `${MEDAL(pct)} ${MESSAGE(pct)}\n\n📖 Chủ đề: "${topicTitle}"\n🎯 Điểm: ${score}/${maxScore} (${pct}%)\n\n🎓 VocabWise Academic${cefr ? ` · ${cefr}` : ''}\nvocabwise.id.vn`
     if (navigator.share) {
@@ -42,6 +49,9 @@ export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr,
 
       <div
         id="vw-share-card-print"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="vw-share-card-title"
         className="fixed inset-0 z-50 flex items-center justify-center p-5 bg-black/70"
         onClick={e => { if (e.target === e.currentTarget) onClose() }}
       >
@@ -49,7 +59,7 @@ export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr,
 
           {/* Action bar */}
           <div className="no-print flex items-center justify-between px-4 py-2.5 bg-gray-900/80 backdrop-blur-sm">
-            <button onClick={onClose} className="text-white/50 hover:text-white text-lg font-black">✕</button>
+            <button onClick={onClose} aria-label="Đóng" className="text-white/50 hover:text-white text-lg font-black">✕</button>
             <p className="text-white/50 text-xs font-semibold">Chụp màn hình để chia sẻ</p>
             <button
               onClick={handleShare}
@@ -66,7 +76,7 @@ export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr,
             <div className="text-6xl mb-3">{MEDAL(pct)}</div>
 
             {/* Message */}
-            <p className="font-black text-lg leading-tight mb-1">{MESSAGE(pct)}</p>
+            <p id="vw-share-card-title" className="font-black text-lg leading-tight mb-1">{MESSAGE(pct)}</p>
             <p className="text-white/70 text-xs mb-5">vocabwise.id.vn</p>
 
             {/* Score card */}

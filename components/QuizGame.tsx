@@ -160,7 +160,7 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
           <div className="mb-4 flex justify-center"><WordIcon word={current.word.word} emoji={current.word.emoji} emojiClass="text-7xl" iconSize={88} /></div>
           <p className="text-gray-500 font-bold text-sm uppercase tracking-wider mb-2">Nghĩa tiếng Việt là:</p>
           <h2 className="text-3xl font-black text-gray-800">{current.word.meaning}</h2>
-          <p className="text-gray-400 font-semibold text-sm mt-3">Từ tiếng Anh tương ứng là gì?</p>
+          <p className="text-gray-500 font-semibold text-sm mt-3">Từ tiếng Anh tương ứng là gì?</p>
         </div>
 
         {/* Choices */}

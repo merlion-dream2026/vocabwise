@@ -111,7 +111,11 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
 
       {/* Card */}
       <div
+        role="button"
+        tabIndex={0}
+        aria-label="Lật thẻ từ vựng"
         onClick={handleFlip}
+        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleFlip() } }}
         className="relative cursor-pointer select-none"
         style={{ perspective: '1000px', minHeight: 220 }}
       >
