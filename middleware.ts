@@ -36,8 +36,34 @@ const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
   '/api/stories':          [60, 60],
 }
 
+function buildCsp(nonce: string): string {
+  return [
+    "default-src 'self'",
+    // 'strict-dynamic' lets scripts loaded by nonced scripts (e.g. Turnstile injected by React) run
+    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://va.vercel-scripts.com https://challenges.cloudflare.com`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: blob: https://img.vietqr.io",
+    "font-src 'self'",
+    "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://va.vercel-scripts.com https://*.sentry.io https://challenges.cloudflare.com",
+    "media-src 'self' blob:",
+    "worker-src 'self' blob:",
+    "frame-src 'none' https://challenges.cloudflare.com",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+  ].join('; ')
+}
+
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
+
+  // Generate a per-request nonce for CSP (base64 of a random UUID)
+  const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
+  const cspHeader = buildCsp(nonce)
+
+  // Inject nonce into request headers so Server Components can read it via headers()
+  const requestHeaders = new Headers(req.headers)
+  requestHeaders.set('x-nonce', nonce)
 
   // Rate limiting for auth endpoints (by IP) — uses distributed Upstash limiter
   if (req.method === 'POST') {
@@ -71,8 +97,15 @@ export async function middleware(req: NextRequest) {
     }
   }
 
+  // Build the next response with nonce forwarded to Server Components
+  const makeNext = () => {
+    const res = NextResponse.next({ request: { headers: requestHeaders } })
+    res.headers.set('content-security-policy', cspHeader)
+    return res
+  }
+
   if (PUBLIC_PATHS.some((p) => pathname.startsWith(p))) {
-    return NextResponse.next()
+    return makeNext()
   }
 
   const session = await getSession(req)
@@ -83,9 +116,10 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(loginUrl)
   }
 
-  return NextResponse.next()
+  return makeNext()
 }
 
 export const config = {
-  matcher: ['/', '/kids/:path*', '/dashboard/:path*', '/vocabwise', '/vocabwise/:path*', '/superadmin/:path*', '/api/children/:path*', '/api/sync/:path*', '/api/family/:path*', '/api/superadmin/families/:path*', '/api/superadmin/notify', '/api/vocabwise/:path*', '/api/words/:path*', '/api/stories/:path*'],
+  // Match all routes except Next.js internals and static files
+  matcher: ['/((?!_next/static|_next/image|favicon\\.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp3|mp4|pdf)).*)'],
 }
