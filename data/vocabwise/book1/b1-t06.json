@@ -510,7 +510,7 @@
             "B": "feeled",
             "C": "feeling"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'Feel' is an irregular verb: feel → felt (past simple). 'Feeled' does not exist in English."
         },
         {
@@ -546,7 +546,7 @@
             "B": "have",
             "C": "having"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "Third-person singular 'he' requires 'has', not 'have' (which is used with I/you/we/they)."
         },
         {

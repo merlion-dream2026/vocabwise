@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import type { ExercisesData } from './types'
 import ShareCardModal from './ShareCardModal'
 import E1Matching        from './E1Matching'
@@ -70,6 +70,7 @@ export default function VWExerciseRunner({
   const [phase,     setPhase]     = useState<Phase>('menu')
   const [scores,    setScores]    = useState<Record<string, number>>({})
   const [showShare, setShowShare] = useState(false)
+  const savedRef = useRef(false)
 
   const availablePhases = PHASE_ORDER.filter(p => getExData(exercises, p))
   const doneCount  = availablePhases.filter(p => scores[p] !== undefined).length
@@ -83,13 +84,24 @@ export default function VWExerciseRunner({
     : 0
 
   const handleExDone = (exPhase: ExPhase, score: number) => {
-    setScores(s => ({ ...s, [exPhase]: score }))
+    const newScores = { ...scores, [exPhase]: score }
+    setScores(newScores)
     setPhase('menu')
+    // Auto-save when last exercise completes — user doesn't need to click Nộp bài
+    const newDone = availablePhases.filter(p => newScores[p] !== undefined).length
+    if (newDone === availablePhases.length && !savedRef.current) {
+      savedRef.current = true
+      const scoreArray = PHASE_ORDER.map(p => newScores[p] ?? 0)
+      onComplete?.(scoreArray)
+    }
   }
 
   const handleFinish = () => {
-    const scoreArray = PHASE_ORDER.map(p => scores[p] ?? 0)
-    onComplete?.(scoreArray)
+    if (!savedRef.current) {
+      savedRef.current = true
+      const scoreArray = PHASE_ORDER.map(p => scores[p] ?? 0)
+      onComplete?.(scoreArray)
+    }
     setPhase('results')
   }
 

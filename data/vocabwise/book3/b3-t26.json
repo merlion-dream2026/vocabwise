@@ -537,15 +537,15 @@
         },
         {
           "id": 4,
-          "sentence": "The party's [populist] rhetoric appealed to voters who felt ignored by mainstream political parties.",
-          "highlighted": "populist",
+          "sentence": "The party's [populism] rhetoric appealed to voters who felt ignored by mainstream political parties.",
+          "highlighted": "populism",
           "options": {
             "A": "popular",
             "B": "populism",
             "C": "populist"
           },
           "answer": "C",
-          "explanation": "This sentence is correct — 'populist' is the right adjective to modify 'rhetoric'. No change is needed."
+          "explanation": "'Populism' is a noun — it cannot directly modify a noun like 'rhetoric'. The adjective form 'populist' is needed to describe the style of rhetoric."
         },
         {
           "id": 5,

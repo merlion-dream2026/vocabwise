@@ -515,15 +515,15 @@
         },
         {
           "id": 2,
-          "sentence": "After the [bell] rings at lunchtime, students walk to the canteen to buy food.",
-          "highlighted": "bell",
+          "sentence": "After the [gate] rings at lunchtime, students walk to the canteen to buy food.",
+          "highlighted": "gate",
           "options": {
             "A": "gate",
             "B": "bell",
             "C": "desk"
           },
           "answer": "B",
-          "explanation": "This sentence is correct — the 'bell' signals the end of a lesson or the start of lunchtime. 'Bell' is the right word here and no change is needed."
+          "explanation": "A gate is an entrance, not something that rings. The word 'bell' signals the end of a lesson or the start of lunchtime."
         },
         {
           "id": 3,

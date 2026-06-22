@@ -515,8 +515,8 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           </div>
         )}
 
-        {/* EXERCISES TAB */}
-        {tab === 'exercises' && (
+        {/* EXERCISES TAB — always mounted to preserve in-progress state */}
+        <div className={tab !== 'exercises' ? 'hidden' : ''}>
           <VWExerciseRunner
             exercises={exercises}
             answerKey={answer_key}
@@ -526,7 +526,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             onBack={() => setTab('passage')}
             onComplete={handleExercisesComplete}
           />
-        )}
+        </div>
 
       </div>
 

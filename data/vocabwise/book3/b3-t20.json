@@ -521,15 +521,15 @@
         },
         {
           "id": 3,
-          "sentence": "Once we [reach] a climate tipping point, some environmental changes may become self-perpetuating.",
-          "highlighted": "reach",
+          "sentence": "Once we [reaching] a climate tipping point, some environmental changes may become self-perpetuating.",
+          "highlighted": "reaching",
           "options": {
             "A": "reaching",
             "B": "reached",
             "C": "reach"
           },
           "answer": "C",
-          "explanation": "'Reach' is the correct form here — after 'Once we', the present simple (not a past form) is used to express a future condition in a time clause."
+          "explanation": "In time clauses with 'once', use the present simple verb form: 'once we reach', not 'once we reaching' (which is grammatically incorrect)."
         },
         {
           "id": 4,

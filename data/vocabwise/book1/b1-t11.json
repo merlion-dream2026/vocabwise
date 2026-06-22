@@ -522,7 +522,7 @@
             "B": "dangerously",
             "C": "dangerousness"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "After the verb 'are', use an adjective: 'dangerous'. 'Dangerously' is an adverb — it cannot describe a noun here."
         },
         {
@@ -558,7 +558,7 @@
             "B": "large cage",
             "C": "a large cage"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here."
         }
       ]

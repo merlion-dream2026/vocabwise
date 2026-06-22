@@ -539,7 +539,7 @@
             "B": "citizens",
             "C": "citizenship"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'Every' takes a singular noun: every citizen."
         },
         {
@@ -563,7 +563,7 @@
             "B": "Lawmaker",
             "C": "The lawmaker"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "Plural needed: multiple people from both parties."
         },
         {

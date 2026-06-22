@@ -513,7 +513,7 @@
             "B": "buyed",
             "C": "buys"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'Buy' is an irregular verb: buy → bought (past simple). 'Buyed' does not exist in English."
         },
         {
@@ -549,7 +549,7 @@
             "B": "markets",
             "C": "marketing"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'The market' (singular with 'the') refers to a specific place. 'Markets' (plural) is incorrect here."
         },
         {

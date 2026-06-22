@@ -29,7 +29,7 @@ export default function E4GapFill({ instruction, wordBank, items, onDone }: Prop
 
   const goNext = () => {
     if (idx + 1 >= total) {
-      onDone(scores.filter(Boolean).length + (filled === current.answer ? 1 : 0))
+      onDone(scores.filter(Boolean).length)
     } else {
       setIdx(i => i + 1)
       setFilled(null)

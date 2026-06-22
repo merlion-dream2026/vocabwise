@@ -537,27 +537,27 @@
         },
         {
           "id": 4,
-          "sentence": "The jury returned a [verdict] of not guilty after only two hours of deliberations.",
-          "highlighted": "verdict",
+          "sentence": "The jury returned a [verdicts] of not guilty after only two hours of deliberations.",
+          "highlighted": "verdicts",
           "options": {
             "A": "verdicts",
             "B": "verdict",
             "C": "judging"
           },
           "answer": "B",
-          "explanation": "This sentence is already correct — 'verdict' is the right noun here. The error is in the surrounding grammar only if another option fits; 'verdict' is correct as written."
+          "explanation": "After the indefinite article 'a', a singular noun is required: 'a verdict'. 'Verdicts' is plural and cannot follow 'a'."
         },
         {
           "id": 5,
-          "sentence": "The new _____ on data protection came into force last January and applies to all digital platforms.",
-          "highlighted": "statute",
+          "sentence": "The new [statue] on data protection came into force last January and applies to all digital platforms.",
+          "highlighted": "statue",
           "options": {
             "A": "statue",
             "B": "statute",
             "C": "statistical"
           },
           "answer": "B",
-          "explanation": "'Statute' means a formally enacted law; 'statue' is a sculptural figure — identical pronunciation but entirely different meaning."
+          "explanation": "'Statue' means a sculptural figure. 'Statute' means a formally enacted law — they sound nearly identical but have completely different meanings."
         }
       ]
     },

@@ -529,15 +529,15 @@
         },
         {
           "id": 4,
-          "sentence": "Participants were told they might receive either the drug or a [placebo] effect, but not which.",
-          "highlighted": "placebo",
+          "sentence": "Participants were told they might receive the real drug or a [placid], but not which one.",
+          "highlighted": "placid",
           "options": {
             "A": "placebos",
             "B": "placebo",
             "C": "placid"
           },
           "answer": "B",
-          "explanation": "The word 'effect' after 'placebo' creates the unintended compound 'placebo effect' (a different term). The sentence should simply read 'a placebo' — the extra word 'effect' is the error, meaning the bracketed word should remain 'placebo' and 'effect' should be removed. Accept B."
+          "explanation": "'Placid' means calm or peaceful — it is completely unrelated to medical trials. A 'placebo' is an inactive substance given instead of active medicine in a clinical study."
         },
         {
           "id": 5,

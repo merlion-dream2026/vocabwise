@@ -507,7 +507,7 @@
             "B": "battery",
             "C": "button"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "A cracked surface with wrong colours describes a damaged 'screen', not a battery. The battery stores power; the screen displays images."
         },
         {
@@ -531,7 +531,7 @@
             "B": "online",
             "C": "connection"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "'Online' is an adjective/adverb — it cannot follow 'without' as a standalone noun. 'Power' (electricity) is what devices need to work."
         },
         {

@@ -497,15 +497,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Her [addiction] to scrolling social media became so severe that she sought professional counselling.",
-          "highlighted": "addiction",
+          "sentence": "Her [addict] to scrolling social media became so severe that she sought professional counselling.",
+          "highlighted": "addict",
           "options": {
             "A": "addict",
             "B": "addicted",
             "C": "addiction"
           },
           "answer": "C",
-          "explanation": "'Addiction' is the correct noun form here — 'addict' is a person, and 'addicted' is an adjective requiring 'be'."
+          "explanation": "'Addict' is a noun meaning a person — it cannot replace an abstract noun like 'addiction'. 'Addiction' is the correct form after a possessive like 'her'."
         },
         {
           "id": 2,

@@ -513,7 +513,7 @@
             "B": "two-floors",
             "C": "two-floored"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "Compound adjectives before a noun use the singular form: two-floor house."
         },
         {
@@ -549,7 +549,7 @@
             "B": "in every",
             "C": "at every"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "No preposition before 'every': every morning."
         },
         {

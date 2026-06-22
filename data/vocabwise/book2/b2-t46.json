@@ -563,15 +563,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The judge decided to [sentence] him to three years of unpaid work and a large fine.",
-          "highlighted": "sentence",
+          "sentence": "The judge decided to [charge] him to three years of unpaid work and a large fine.",
+          "highlighted": "charge",
           "options": {
             "A": "punish",
             "B": "sentence",
             "C": "charge"
           },
           "answer": "B",
-          "explanation": "This sentence is already correct — 'sentence' is the right legal verb meaning to formally impose a punishment. However, if we replace it, 'punish' is too general and 'charge' refers to the accusation stage, not the final court decision. 'Sentence' is the precise vocabulary term here."
+          "explanation": "'Charge' means to formally accuse someone — it is not used to impose a punishment. The correct legal verb is 'sentence to': the judge sentences someone to X years."
         },
         {
           "id": 2,

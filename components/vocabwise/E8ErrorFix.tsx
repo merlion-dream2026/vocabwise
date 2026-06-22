@@ -47,7 +47,7 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
 
   const goNext = () => {
     if (idx + 1 >= total) {
-      onDone(scores.filter(Boolean).length + (selected === current.answer ? 1 : 0))
+      onDone(scores.filter(Boolean).length)
     } else {
       setIdx(i => i + 1)
       setSelected(null)

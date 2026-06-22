@@ -555,7 +555,7 @@
             "B": "fraudulent",
             "C": "fraudulence"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'Fraud' is the noun — the name of the crime."
         },
         {
@@ -591,7 +591,7 @@
             "B": "penalise",
             "C": "penalised"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "'Penalty' is the noun — the punishment given."
         }
       ]

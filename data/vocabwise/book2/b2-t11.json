@@ -564,7 +564,7 @@
             "B": "degree",
             "C": "degreed"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "Plural needed after a number: two degrees."
         },
         {
@@ -588,7 +588,7 @@
             "B": "agreement",
             "C": "agreeing"
           },
-          "answer": "B",
+          "answer": "A",
           "explanation": "Plural needed: new agreements (multiple countries)."
         }
       ]
