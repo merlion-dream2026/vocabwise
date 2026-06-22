@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { AVATARS, getAvatarSrc } from '@/lib/avatars'
 
 type Entry = {
@@ -59,7 +60,7 @@ export default function LeaderboardCard() {
                       {MEDALS[e.rank - 1] ?? e.rank}
                     </span>
                     {AVATARS.some(a => a.id === e.emoji)
-                      ? <img src={getAvatarSrc(e.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
+                      ? <Image src={getAvatarSrc(e.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                       : <span className="text-base flex-shrink-0">{e.emoji}</span>
                     }
                     <span className={`text-sm font-black flex-1 truncate ${e.isCurrentFamily ? 'text-purple-700' : 'text-gray-700'}`}>

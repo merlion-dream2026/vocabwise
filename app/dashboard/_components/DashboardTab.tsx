@@ -7,6 +7,7 @@ import {
   getGlobalStreak, getDailyXP, DAILY_XP_GOAL,
 } from '@/lib/childProgress'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import BangThanhTich from '@/components/BangThanhTich'
@@ -98,7 +99,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
               className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                 isActive ? `${c.bar} text-white shadow-md` : 'bg-white text-gray-500 border border-gray-200 hover:border-gray-300'
               }`}>
-              <img src={getAvatarSrc(child.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
+              <Image src={getAvatarSrc(child.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
               <span>{child.name}</span>
             </button>
           )
@@ -160,8 +161,8 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
 
                 {/* Header: avatar + name + XP/streak + edit */}
                 <div className="flex items-start gap-3 px-4 pt-4 pb-3">
-                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${c.grad} flex items-center justify-center flex-shrink-0 shadow-sm overflow-hidden`}>
-                    <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover rounded-2xl" alt="" />
+                  <div className={`relative w-12 h-12 rounded-2xl bg-gradient-to-br ${c.grad} flex items-center justify-center flex-shrink-0 shadow-sm overflow-hidden`}>
+                    <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-black text-gray-800 text-base leading-tight truncate">{child.name}</p>

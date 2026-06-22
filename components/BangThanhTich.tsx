@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 
 // ─── Types ────────────────────────────────────────────────────
@@ -156,7 +157,7 @@ export default function BangThanhTich({ entries, variant = 'dashboard' }: Props)
                       >
                         <div className="flex items-center gap-3 mb-2">
                           <span className="text-2xl">{medals[i] ?? '🎖️'}</span>
-                          <img src={getAvatarSrc(d.child.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
+                          <Image src={getAvatarSrc(d.child.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                           <div className="flex-1">
                             <p className={`font-black text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
                               {d.child.name} {isWinner && '👑'}

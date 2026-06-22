@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const VIDEOS = [
   {
@@ -35,8 +36,7 @@ export default function LandingVideoGallery() {
             <button key={i} onClick={() => setActiveVideo(v.src)}
               className="flex-none snap-center w-[150px] lg:w-auto text-left group active:scale-95 transition-transform">
               <div className="relative rounded-[20px] border-[3px] border-gray-800 bg-gray-900 overflow-hidden shadow-xl h-[268px] lg:h-auto lg:aspect-[9/16]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={v.poster} alt={v.title} className="w-full h-full object-cover object-top" loading="lazy" />
+                <Image src={v.poster} alt={v.title} fill className="object-cover object-top" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-14 h-14 lg:w-20 lg:h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 group-active:scale-90 transition-transform">

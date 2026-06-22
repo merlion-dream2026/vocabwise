@@ -2,6 +2,7 @@
 
 import { useState, useEffect, FormEvent } from 'react'
 import UpgradeModal from '@/components/UpgradeModal'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import type { Child, Session, ReportSettings } from '../_types'
 import {
@@ -511,7 +512,7 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                     isActive ? `${c.bar} text-white shadow-sm` : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}>
-                  <img src={getAvatarSrc(child.emoji)} className="w-6 h-6 rounded-full object-cover flex-shrink-0" alt="" />
+                  <Image src={getAvatarSrc(child.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                   <span>{child.name}</span>
                 </button>
               )
@@ -580,7 +581,7 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
             {children.map(child => (
               <div key={child.id} className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <img src={getAvatarSrc(child.emoji)} className="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="" />
+                  <Image src={getAvatarSrc(child.emoji)} width={32} height={32} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                   <div>
                     <p className="font-black text-gray-800 text-sm">{child.name}</p>
                     <p className="text-xs text-gray-400">{LEVEL_INFO_MAP[child.level]?.label ?? child.level} · {LEVEL_INFO_MAP[child.level]?.cefr ?? ''}</p>

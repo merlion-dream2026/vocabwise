@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 
 const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scholar','master'])
@@ -174,7 +175,7 @@ export default function BottomNav() {
               <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
             )}
             {/* Circular avatar — key visual differentiator */}
-            <span className={`w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
+            <span className={`relative w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
               profileActive
                 ? 'border-purple-400 bg-purple-50'
                 : childInfo
@@ -182,7 +183,7 @@ export default function BottomNav() {
                   : 'border-dashed border-gray-300 bg-white'
             }`}>
               {childInfo
-                ? <img src={getAvatarSrc(childInfo.emoji)} className="w-full h-full object-cover" alt="" />
+                ? <Image src={getAvatarSrc(childInfo.emoji)} fill className="object-cover" alt="" unoptimized />
                 : <span className="text-xl">👤</span>}
             </span>
             <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${

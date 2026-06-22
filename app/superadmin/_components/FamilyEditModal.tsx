@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, FormEvent } from 'react'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import type { Family } from '../_types'
 import { BONUS_FEATURES, BonusFeatureKey, getPlanIncludes, PLAN_OPTIONS, PLAN_DURATIONS } from '../_lib/constants'
@@ -451,8 +452,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                       {/* Row 1: avatar + name + meta */}
                       <div className="flex items-center justify-between gap-2">
                         <div className="flex items-center gap-2.5">
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={getAvatarSrc(c.emoji)} alt={c.name} className="w-10 h-10 rounded-full object-cover bg-slate-100 flex-shrink-0" />
+                          <Image src={getAvatarSrc(c.emoji)} alt={c.name} width={40} height={40} className="rounded-full object-cover bg-slate-100 flex-shrink-0" unoptimized />
                           <div>
                             <p className="font-bold text-sm text-slate-800">{c.name}</p>
                             <div className="flex items-center gap-1.5 flex-wrap mt-0.5">

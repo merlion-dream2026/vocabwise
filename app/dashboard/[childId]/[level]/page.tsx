@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel, ALL_BADGES, XP_LEVELS } from '@/lib/badges'
 import { DAILY_XP_GOAL } from '@/lib/childProgress'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
@@ -225,7 +226,7 @@ export default function LevelTopicsPage() {
       <div className={`${colors.header} text-white`}>
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
           <button onClick={() => router.push(`/dashboard/${childId}/kids`)} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
-          <img src={getAvatarSrc(child!.emoji)} className="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="" />
+          <Image src={getAvatarSrc(child!.emoji)} width={32} height={32} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
           <div>
             <h1 className="font-bold text-lg leading-tight">{child!.name}</h1>
             <p className="text-white/70 text-xs">{levelInfo.label} · {levelInfo.cefr}</p>

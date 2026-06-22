@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import {
   DAILY_LEVEL_ORDER, XP_BADGES,
@@ -282,8 +283,8 @@ export default function HomePage() {
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className={`w-[86px] h-[86px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
-                    <img src={getAvatarSrc(child.emoji)} className="w-full h-full object-cover rounded-2xl" alt="" />
+                  <div className={`relative w-[86px] h-[86px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
+                    <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5`}>

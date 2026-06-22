@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel } from '@/lib/childProgress'
+import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
@@ -185,7 +186,7 @@ export default function ChildRoadmap() {
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
-        <img src={getAvatarSrc(child!.emoji)} className="w-10 h-10 rounded-full object-cover flex-shrink-0" alt="" />
+        <Image src={getAvatarSrc(child!.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
         <div>
           <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>

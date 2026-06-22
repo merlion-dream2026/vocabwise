@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const SCREENSHOTS = [
   { src: '/screenshots/select%20profile.jpg',              caption: 'Mỗi bé một hồ sơ riêng' },
@@ -67,9 +68,8 @@ export default function LandingScreenshotGallery() {
               style={{ width: 148 }}>
               <div className="rounded-[22px] border-[3px] border-gray-800 bg-gray-800 shadow-xl overflow-hidden">
                 <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
-                <div className="overflow-hidden bg-white" style={{ height: 264 }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={s.src} alt={s.caption} className="w-full h-full object-cover object-top" loading="lazy" />
+                <div className="relative overflow-hidden bg-white" style={{ height: 264 }}>
+                  <Image src={s.src} alt={s.caption} fill className="object-cover object-top" />
                 </div>
                 <div className="h-3 bg-gray-800" />
               </div>

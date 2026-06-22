@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, FormEvent } from 'react'
+import Image from 'next/image'
 import { AVATARS } from '@/lib/avatars'
 import type { Child } from '../_types'
 
@@ -70,7 +71,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
                 {AVATARS.map(a => (
                   <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
                     className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
-                    <img src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} />
+                    <Image src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} unoptimized />
                   </button>
                 ))}
               </div>
@@ -152,7 +153,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
             {AVATARS.map(a => (
               <button key={a.id} type="button" onClick={() => setEmoji(a.id)}
                 className={`p-0.5 rounded-xl transition-all ${emoji === a.id ? ringCls : 'hover:bg-gray-100'}`}>
-                <img src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} />
+                <Image src={a.src} width={56} height={56} className="rounded-lg object-cover w-full aspect-square" alt={a.id} unoptimized />
               </button>
             ))}
           </div>
