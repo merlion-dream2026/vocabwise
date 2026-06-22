@@ -36,5 +36,10 @@ next-env.d.ts
 .playwright-mcp/
 print-book/
 
+# playwright e2e
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
 # one-time admin scripts
 scripts/reset-*.js
