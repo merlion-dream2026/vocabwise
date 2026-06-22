@@ -81,7 +81,7 @@ function exportCSV(families: Family[]) {
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = `vocabkids-users-${new Date().toISOString().split('T')[0]}.csv`
+  a.download = `vocabwise-users-${new Date().toISOString().split('T')[0]}.csv`
   a.click()
   URL.revokeObjectURL(url)
 }
