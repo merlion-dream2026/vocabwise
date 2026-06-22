@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import { clearAllDownloads } from '@/lib/useOfflineDownload'
 import ReferralTab from './ReferralTab'
 import type { Child, Session, ChildStats } from './_types'
 import { getPlanBadge } from './_utils'
@@ -96,6 +97,7 @@ export default function DashboardPage() {
   }, [])
 
   async function logout() {
+    await clearAllDownloads()
     await fetch('/api/auth/logout', { method: 'POST' })
     router.push('/login')
   }

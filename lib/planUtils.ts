@@ -125,6 +125,14 @@ export function canAccessAcademicFull(family: FamilyPlanData): boolean {
   return getEffectivePlan(family).isProActive
 }
 
+/** Offline download limit: 0 (free), 20 (pro1), null = unlimited (pro3+). */
+export function getOfflineDownloadLimit(family: FamilyPlanData): number | null {
+  const tier = getPlanTier(family)
+  if (tier === 'free') return 0
+  if (tier === 'pro1') return 20
+  return null
+}
+
 /** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 30 (Pro 1), 5 (Free). */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null

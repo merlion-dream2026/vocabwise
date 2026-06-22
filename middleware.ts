@@ -34,6 +34,7 @@ const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
   '/api/vocabwise/topics': [60, 60],
   '/api/words':            [60, 60],
   '/api/stories':          [60, 60],
+  '/api/offline/topic':    [30, 3600], // 30 downloads/hour/family
 }
 
 function buildCsp(nonce: string): string {

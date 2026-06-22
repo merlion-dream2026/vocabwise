@@ -4,6 +4,7 @@ import { Nunito } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
 import PwaRegister from '@/components/PwaRegister'
 import NoVoiceBanner from '@/components/NoVoiceBanner'
+import OfflineBanner from '@/components/OfflineBanner'
 import BottomNav from '@/components/BottomNav'
 import FontSizeApplier from '@/components/FontSizeApplier'
 import './globals.css'
@@ -198,6 +199,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <main className="max-w-md mx-auto min-h-screen pb-nav">
           {children}
         </main>
+        <OfflineBanner />
         <NoVoiceBanner />
         <BottomNav />
         <Analytics />

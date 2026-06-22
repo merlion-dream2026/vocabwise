@@ -4,6 +4,7 @@ import { useState, useEffect, FormEvent } from 'react'
 import UpgradeModal from '@/components/UpgradeModal'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
+import { getDownloadedCount, clearAllDownloads } from '@/lib/useOfflineDownload'
 import type { Child, Session, ReportSettings } from '../_types'
 import {
   LEVEL_INFO_MAP, THEME_COLORS, DEFAULT_COLOR, VN_DAYS, getPlanBadge, fmtDateTime, urlBase64ToUint8Array, APP_URL,
@@ -366,6 +367,12 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
   const [pwSaving, setPwSaving] = useState(false)
   const [resetMsg, setResetMsg] = useState<Record<string, string>>({})
   const [resetConfirm, setResetConfirm] = useState<string | null>(null)
+  const [dlCount, setDlCount] = useState(0)
+  const [dlClearing, setDlClearing] = useState(false)
+
+  useEffect(() => {
+    getDownloadedCount().then(setDlCount).catch(() => {})
+  }, [])
   const [pinInputs, setPinInputs] = useState<Record<string, string>>({})
   const [pinMsg, setPinMsg] = useState<Record<string, string>>({})
   const [pinSaving, setPinSaving] = useState<Record<string, boolean>>({})
@@ -600,6 +607,36 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
           </div>
         </CollapsibleCard>
       )}
+
+      {/* Offline storage management */}
+      <CollapsibleCard title="💾 Bài tải offline">
+        <div className="space-y-3">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-sm font-bold text-gray-700">Đã tải: {dlCount} chủ đề</p>
+              <p className="text-xs text-gray-400 mt-0.5">
+                {dlCount === 0
+                  ? 'Bấm ↓ trên từng chủ đề để tải offline (Gói Pro).'
+                  : 'Các bài này có thể xem khi không có mạng.'}
+              </p>
+            </div>
+            {dlCount > 0 && (
+              <button
+                onClick={async () => {
+                  setDlClearing(true)
+                  await clearAllDownloads()
+                  setDlCount(0)
+                  setDlClearing(false)
+                }}
+                disabled={dlClearing}
+                className="text-xs px-3 py-1.5 rounded-xl font-black bg-red-50 text-red-400 hover:bg-red-100 transition-colors disabled:opacity-50"
+              >
+                {dlClearing ? 'Đang xóa...' : 'Xóa tất cả'}
+              </button>
+            )}
+          </div>
+        </div>
+      </CollapsibleCard>
     </div>
   )
 }

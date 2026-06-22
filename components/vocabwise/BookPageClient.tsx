@@ -5,7 +5,9 @@ import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import CertificateModal from '@/components/vocabwise/CertificateModal'
-import { getEffectivePlan } from '@/lib/planUtils'
+import OfflineDownloadButton from '@/components/OfflineDownloadButton'
+import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
+import { getDownloadedCount } from '@/lib/useOfflineDownload'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -78,6 +80,11 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [showProgressGuide, setShowProgressGuide] = useState(false)
   const [showCert, setShowCert] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
+  const [dlCount, setDlCount]     = useState(0)
+
+  useEffect(() => {
+    getDownloadedCount().then(setDlCount).catch(() => {})
+  }, [])
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
@@ -143,7 +150,9 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   // ─── Derived state ──────────────────────────────────────────────────────────
-  const isPaid = !session || getEffectivePlan(session).isProActive || !!(session.bonus_features?.includes('academic_full'))
+  const isPaid       = !session || getEffectivePlan(session).isProActive || !!(session.bonus_features?.includes('academic_full'))
+  const isProForDl   = !!(session && getEffectivePlan(session).isProActive)
+  const dlLimit      = session ? getOfflineDownloadLimit(session) : 0
 
   const flatCls  = FLAT_COLOR[book] ?? 'bg-blue-500'
   const numGrad  = NUM_GRAD[book]   ?? 'from-blue-400 to-indigo-500'
@@ -446,26 +455,37 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           </div>
                         </button>
                       ) : (
-                        <Link href={`/vocabwise/${book}/${t.topic_id}`}
-                          className={`${cardCls} border-2 rounded-2xl p-4 text-left block shadow-sm active:scale-95 transition-all duration-150`}>
-                          <div className="flex items-center gap-2.5 mb-2">
-                            <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
-                            <div className="min-w-0">
-                              <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}.</span>{t.topic_title_vi ?? t.topic_title}</p>
-                              <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
+                        <div className="relative">
+                          <Link href={`/vocabwise/${book}/${t.topic_id}`}
+                            className={`${cardCls} border-2 rounded-2xl p-4 text-left block shadow-sm active:scale-95 transition-all duration-150`}>
+                            <div className="flex items-center gap-2.5 mb-2">
+                              <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
+                              <div className="min-w-0 pr-6">
+                                <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}.</span>{t.topic_title_vi ?? t.topic_title}</p>
+                                <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
+                              </div>
                             </div>
-                          </div>
-                          {(isMastered || needsWork) && (
-                            <div className="mt-2 space-y-1.5">
-                              {isMastered && (
-                                <span className="inline-block text-xs bg-green-100 text-green-600 px-2 py-0.5 rounded-full font-medium">🏆 Xong</span>
-                              )}
-                              {needsWork && (
-                                <span className="inline-block text-xs bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full font-medium">⚠️ Ôn thêm</span>
-                              )}
-                            </div>
+                            {(isMastered || needsWork) && (
+                              <div className="mt-2 space-y-1.5">
+                                {isMastered && (
+                                  <span className="inline-block text-xs bg-green-100 text-green-600 px-2 py-0.5 rounded-full font-medium">🏆 Xong</span>
+                                )}
+                                {needsWork && (
+                                  <span className="inline-block text-xs bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full font-medium">⚠️ Ôn thêm</span>
+                                )}
+                              </div>
+                            )}
+                          </Link>
+                          {isProForDl && (
+                            <OfflineDownloadButton
+                              book={book}
+                              topicId={t.topic_id}
+                              downloadedCount={dlCount}
+                              downloadLimit={dlLimit}
+                              className="absolute top-2 right-2 z-10"
+                            />
                           )}
-                        </Link>
+                        </div>
                       )
 
                       return (
@@ -524,6 +544,15 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                     </div>
                     <p className="text-xs text-gray-400 mt-0.5">{t.topic_title_vi ? t.topic_title : (t.theme_title_vi ?? t.theme_title)}</p>
                   </div>
+                  {isProForDl && !locked && (
+                    <OfflineDownloadButton
+                      book={book}
+                      topicId={t.topic_id}
+                      downloadedCount={dlCount}
+                      downloadLimit={dlLimit}
+                      className="flex-shrink-0"
+                    />
+                  )}
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
                 {isRevPoint && (
