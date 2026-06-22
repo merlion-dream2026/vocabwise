@@ -3,8 +3,7 @@ name: Lighthouse CI
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   lighthouse:
@@ -12,29 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-        env:
-          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
-          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
-          JWT_SECRET: ${{ secrets.JWT_SECRET }}
-          NEXT_PUBLIC_APP_URL: https://vocabwise.id.vn
-
-      - name: Run Lighthouse CI
+      - name: Run Lighthouse CI against production
         uses: treosh/lighthouse-ci-action@v11
         with:
           urls: |
-            http://localhost:3000/
-            http://localhost:3000/login
+            https://vocabwise.id.vn/
+            https://vocabwise.id.vn/login
           uploadArtifacts: true
           temporaryPublicStorage: true
           configPath: '.lighthouserc.json'
