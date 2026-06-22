@@ -58,7 +58,7 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
         <span className="bg-teal-100 text-teal-700 font-black text-sm px-4 py-1.5 rounded-full tracking-widest">
           {current.base_word}
         </span>
-        <p className="text-xs text-gray-400 mt-1">Dùng dạng đúng của từ trên</p>
+        <p className="text-xs text-gray-500 mt-1">Dùng dạng đúng của từ trên</p>
       </div>
 
       {/* Sentence */}
@@ -83,6 +83,11 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
         )}
       </div>
 
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {checked && (correct ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.answer}.`)}
+      </div>
+
       {/* Input */}
       {!checked && (
         <input
@@ -91,6 +96,7 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
           onChange={e => setTyped(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && typed.trim() && handleCheck()}
           placeholder="Nhập dạng từ đúng..."
+          aria-label="Nhập dạng từ đúng"
           className="w-full border-2 border-teal-200 rounded-xl px-4 py-3 text-base font-bold text-gray-800 outline-none focus:border-teal-400 text-center"
           autoCapitalize="none"
           autoCorrect="off"

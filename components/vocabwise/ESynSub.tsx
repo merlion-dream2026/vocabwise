@@ -85,7 +85,7 @@ export default function ESynSub({ instruction, items, onDone }: Props) {
         </p>
       </div>
 
-      <p className="text-xs text-gray-400 text-center">Chọn từ có nghĩa gần nhất với từ gạch chân</p>
+      <p className="text-xs text-gray-500 text-center">Chọn từ có nghĩa gần nhất với từ gạch chân</p>
 
       {/* Options */}
       <div className="grid grid-cols-2 gap-2">
@@ -100,6 +100,11 @@ export default function ESynSub({ instruction, items, onDone }: Props) {
             {selected !== null && opt === current.answer && <span className="ml-auto text-green-500">✓</span>}
           </button>
         ))}
+      </div>
+
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {selected !== null && (isCorrect ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current?.answer}.`)}
       </div>
 
       {selected !== null && (

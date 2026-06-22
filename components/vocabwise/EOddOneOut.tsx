@@ -63,7 +63,7 @@ export default function EOddOneOut({ instruction, items, onDone }: Props) {
         ))}
       </div>
 
-      <p className="text-xs text-gray-400 text-center">Ba từ có điểm chung — một từ khác nhóm. Tìm từ đó!</p>
+      <p className="text-xs text-gray-500 text-center">Ba từ có điểm chung — một từ khác nhóm. Tìm từ đó!</p>
 
       {/* Word grid */}
       <div className="grid grid-cols-2 gap-3">
@@ -83,7 +83,7 @@ export default function EOddOneOut({ instruction, items, onDone }: Props) {
 
       {/* Reason reveal */}
       {selected !== null && (
-        <div className={`rounded-2xl p-4 border-2 ${
+        <div role="status" aria-live="polite" className={`rounded-2xl p-4 border-2 ${
           selected === current.answer
             ? 'bg-green-50 border-green-200'
             : 'bg-red-50 border-red-200'
@@ -94,7 +94,7 @@ export default function EOddOneOut({ instruction, items, onDone }: Props) {
           {current.reason_vi && (
             <p className="text-xs text-gray-700 leading-relaxed font-semibold">{current.reason_vi}</p>
           )}
-          <p className="text-xs text-gray-400 leading-relaxed mt-1 italic">{current.reason}</p>
+          <p className="text-xs text-gray-500 leading-relaxed mt-1 italic">{current.reason}</p>
         </div>
       )}
 

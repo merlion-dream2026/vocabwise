@@ -108,6 +108,11 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
         ))}
       </div>
 
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {selected !== null && (isCorrect ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current?.answer}.`)}
+      </div>
+
       {selected !== null && (
         <button onClick={goNext}
           className="w-full bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">

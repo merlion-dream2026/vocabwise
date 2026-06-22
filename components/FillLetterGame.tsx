@@ -157,6 +157,10 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
       </div>
 
       <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 gap-5">
+        {/* Screen-reader feedback */}
+        <div role="alert" aria-live="assertive" className="sr-only">
+          {selected !== null && (selected === q.word.word[q.hiddenIdx].toLowerCase() ? 'Chính xác!' : `Sai rồi. Chữ đúng là ${q.word.word[q.hiddenIdx]}.`)}
+        </div>
         <div className="flex justify-center select-none"><WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-8xl" iconSize={100} /></div>
         <p className="text-xl font-bold text-gray-600 text-center">{q.word.meaning}</p>
 

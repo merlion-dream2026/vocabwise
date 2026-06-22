@@ -72,7 +72,7 @@ export default function ESDSameDiff({ instruction, items, onDone }: Props) {
         </div>
       </div>
 
-      <p className="text-xs text-gray-400 text-center">Hai câu này có nghĩa giống hay khác nhau?</p>
+      <p className="text-xs text-gray-500 text-center">Hai câu này có nghĩa giống hay khác nhau?</p>
 
       {/* S / D buttons */}
       <div className="grid grid-cols-2 gap-3">
@@ -96,7 +96,7 @@ export default function ESDSameDiff({ instruction, items, onDone }: Props) {
 
       {/* Explanation reveal */}
       {selected !== null && (
-        <div className={`rounded-2xl p-4 border-2 ${
+        <div role="status" aria-live="polite" className={`rounded-2xl p-4 border-2 ${
           selected === current.answer ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'
         }`}>
           <p className="text-sm font-black mb-1">

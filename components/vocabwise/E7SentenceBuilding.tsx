@@ -92,6 +92,11 @@ export default function E7SentenceBuilding({ instruction, items, onDone }: Props
         )}
       </div>
 
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {checked && (correct ? 'Chính xác!' : `Sai rồi. Câu đúng là ${current.answer}.`)}
+      </div>
+
       {checked && !correct && (
         <div className="bg-green-50 border-2 border-green-200 rounded-xl px-4 py-2">
           <p className="text-xs text-green-700 font-bold text-center">✓ Câu đúng: <em>{current.answer}</em></p>

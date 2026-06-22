@@ -81,8 +81,13 @@ export default function E4GapFill({ instruction, wordBank, items, onDone }: Prop
       </div>
 
       {/* Word bank */}
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {filled !== null && (filled === current.answer ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.answer}.`)}
+      </div>
+
       <div>
-        <p className="text-xs text-gray-400 font-bold mb-2 uppercase tracking-wide text-center">Hộp từ</p>
+        <p className="text-xs text-gray-500 font-bold mb-2 uppercase tracking-wide text-center">Hộp từ</p>
         <div className="flex flex-wrap gap-2 justify-center">
           {wordBank.map(word => (
             <button key={word} onClick={() => handlePick(word)}

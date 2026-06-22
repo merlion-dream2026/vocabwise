@@ -118,6 +118,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
                   value={name}
                   onChange={e => setName(e.target.value)}
                   placeholder="Nhập tên của bạn"
+                  aria-label="Tên học viên trên chứng nhận"
                   className={`text-center text-xl font-black ${accent.text} bg-transparent outline-none w-full placeholder:text-gray-300 placeholder:font-normal placeholder:text-base`}
                 />
               </div>

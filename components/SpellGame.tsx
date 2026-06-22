@@ -243,8 +243,10 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
             ⌫ Xóa
           </button>
 
-          {result === 'correct' && <p className="mt-5 text-green-500 font-black text-2xl">✅ Đúng rồi!</p>}
-          {result === 'wrong'   && <p className="mt-5 text-red-500 font-black text-xl">❌ Thử lại nào!</p>}
+          <div role="status" aria-live="polite">
+            {result === 'correct' && <p className="mt-5 text-green-500 font-black text-2xl">✅ Đúng rồi!</p>}
+            {result === 'wrong'   && <p className="mt-5 text-red-500 font-black text-xl">❌ Thử lại nào!</p>}
+          </div>
 
           {/* Dots */}
           <div className="flex justify-center gap-1.5 mt-6 flex-wrap">

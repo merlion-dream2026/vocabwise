@@ -69,7 +69,7 @@ export default function ECategorize({ instruction, categories, items, onDone }: 
         <span className="text-3xl font-black text-gray-800">{current?.word}</span>
       </div>
 
-      <p className="text-xs text-gray-400 text-center">Từ này thuộc nhóm nào?</p>
+      <p className="text-xs text-gray-500 text-center">Từ này thuộc nhóm nào?</p>
 
       {/* Category buttons */}
       <div className="flex flex-col gap-2">
@@ -89,7 +89,7 @@ export default function ECategorize({ instruction, categories, items, onDone }: 
 
       {/* Feedback */}
       {selected !== null && (
-        <div className={`rounded-2xl p-3 border-2 ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
+        <div role="status" aria-live="polite" className={`rounded-2xl p-3 border-2 ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
           <p className="text-sm font-black">
             {isCorrect ? '✅ Chính xác!' : `❌ Nhóm đúng: ${current.answer}`}
           </p>

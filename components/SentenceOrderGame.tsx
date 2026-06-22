@@ -188,12 +188,17 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         </div>
 
         {/* Feedback */}
-        {submitted && !isCorrect && (
-          <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3">
-            <p className="text-orange-700 font-bold text-sm">✅ Đáp án đúng:</p>
-            <p className="text-gray-700 font-semibold mt-1">{q.answer}</p>
-          </div>
-        )}
+        <div role="status" aria-live="polite">
+          {submitted && isCorrect && (
+            <p className="text-green-600 font-black text-base">✅ Chính xác!</p>
+          )}
+          {submitted && !isCorrect && (
+            <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3">
+              <p className="text-orange-700 font-bold text-sm">❌ Chưa đúng. Đáp án đúng:</p>
+              <p className="text-gray-700 font-semibold mt-1">{q.answer}</p>
+            </div>
+          )}
+        </div>
 
         {/* Token pool */}
         {!submitted && (

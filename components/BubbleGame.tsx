@@ -156,6 +156,10 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
         </div>
 
         <div className="flex-1 bg-gradient-to-b from-sky-50 to-purple-50 flex flex-col px-4 py-6">
+          {/* Screen-reader feedback */}
+          <div role="alert" aria-live="assertive" className="sr-only">
+            {selected !== null && (selected === current.target.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.target.word}.`)}
+          </div>
           {/* Audio prompt */}
           <div className="text-center mb-6">
             <p className="text-gray-500 font-bold text-sm uppercase tracking-wider mb-3">Nghe và chạm đúng bong bóng!</p>

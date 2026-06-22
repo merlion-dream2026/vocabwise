@@ -71,12 +71,12 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
         : correct ? 'border-green-400 bg-green-50'
         : 'border-red-300 bg-red-50'
       }`}>
-        <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2 text-center">Câu phát biểu</p>
+        <p className="text-xs text-gray-500 font-bold uppercase tracking-wide mb-2 text-center">Câu phát biểu</p>
         <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
           {current.statement}
         </p>
         {selected !== null && (
-          <p className={`text-center text-sm font-black mt-3 ${correct ? 'text-green-600' : 'text-red-500'}`}>
+          <p role="status" aria-live="polite" className={`text-center text-sm font-black mt-3 ${correct ? 'text-green-600' : 'text-red-500'}`}>
             {correct ? '✅ Chính xác!' : `❌ Đáp án đúng: ${current.answer}`}
           </p>
         )}

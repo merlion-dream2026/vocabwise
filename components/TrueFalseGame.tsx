@@ -195,7 +195,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
 
           {/* Result feedback */}
           {result !== 'idle' && (
-            <p className={`text-xl font-black mt-2 ${isCorrectResult ? 'text-green-600' : 'text-red-500'}`}>
+            <p role="status" aria-live="polite" className={`text-xl font-black mt-2 ${isCorrectResult ? 'text-green-600' : 'text-red-500'}`}>
               {isCorrectResult
                 ? '✅ Chính xác!'
                 : `❌ Nghĩa này là ${round.isCorrect ? 'ĐÚNG' : 'SAI'}`}

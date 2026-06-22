@@ -161,16 +161,17 @@ export default function UpgradeModal({ onClose, username }: Props) {
               <div><span className="text-gray-400">Số TK:</span> <strong>{BANK_INFO.account}</strong></div>
               <div><span className="text-gray-400">Tên:</span> <strong>{BANK_INFO.name}</strong></div>
               <div>
-                <span className="text-gray-400">Nội dung:</span>{' '}
+                <span className="text-gray-500">Nội dung:</span>{' '}
                 <strong className="text-purple-700 break-all">{transferContent}</strong>
               </div>
               <div className="pt-1 border-t border-gray-100">
-                <p className="text-gray-400 mb-1">SĐT của bạn (thêm vào nội dung CK):</p>
+                <p className="text-gray-500 mb-1">SĐT của bạn (thêm vào nội dung CK):</p>
                 <input
                   type="tel"
                   value={phone}
                   onChange={e => setPhone(e.target.value)}
                   placeholder="09xxxxxxxx"
+                  aria-label="Số điện thoại của bạn"
                   className="w-full border border-purple-200 rounded-lg px-2 py-1.5 text-xs font-semibold text-gray-700 focus:outline-none focus:ring-1 focus:ring-purple-400"
                 />
               </div>

@@ -462,12 +462,13 @@ export default function HomePage() {
               </>
             ) : (
               <>
-                <p className="text-gray-400 text-sm mb-5">Nhập số điện thoại đăng ký — link đặt lại mật khẩu sẽ được gửi vào email của phụ huynh.</p>
+                <p className="text-gray-500 text-sm mb-5">Nhập số điện thoại đăng ký — link đặt lại mật khẩu sẽ được gửi vào email của phụ huynh.</p>
                 <input
                   type="tel"
                   value={forgotUsername}
                   onChange={e => setForgotUsername(e.target.value)}
                   placeholder="Số điện thoại (VD: 0901234567)"
+                  aria-label="Số điện thoại đăng ký"
                   className="w-full border border-gray-200 rounded-xl px-4 py-3 text-center font-bold text-gray-800 mb-4 focus:outline-none focus:ring-2 focus:ring-purple-400"
                 />
                 <button

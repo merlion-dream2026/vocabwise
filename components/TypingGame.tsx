@@ -216,6 +216,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
           onKeyDown={(e) => { if (e.key === 'Enter') handleSubmit() }}
           disabled={result !== 'idle'}
           placeholder="Gõ từ tiếng Anh..."
+          aria-label="Gõ từ tiếng Anh"
           autoComplete="off"
           autoCorrect="off"
           autoCapitalize="none"
@@ -225,15 +226,17 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         />
 
         {/* Feedback */}
-        {result === 'correct' && (
-          <p className="text-green-500 font-black text-xl mb-4">✅ Chính xác!</p>
-        )}
-        {result === 'wrong' && (
-          <p className="text-red-500 font-black text-xl mb-4">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
-        )}
-        {result === 'timeout' && (
-          <p className="text-orange-500 font-black text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
-        )}
+        <div role="status" aria-live="polite">
+          {result === 'correct' && (
+            <p className="text-green-500 font-black text-xl mb-4">✅ Chính xác!</p>
+          )}
+          {result === 'wrong' && (
+            <p className="text-red-500 font-black text-xl mb-4">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
+          )}
+          {result === 'timeout' && (
+            <p className="text-orange-500 font-black text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
+          )}
+        </div>
 
         {/* Submit */}
         {result === 'idle' && (

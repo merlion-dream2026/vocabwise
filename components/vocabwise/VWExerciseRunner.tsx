@@ -108,7 +108,7 @@ export default function VWExerciseRunner({
             onClose={() => setShowShare(false)}
           />
         )}
-        <div className="text-center py-6">
+        <div role="status" aria-live="polite" className="text-center py-6">
           <div className="text-6xl mb-3">{medal}</div>
           <h2 className="text-2xl font-black text-gray-800">Hoàn thành!</h2>
           <p className="text-gray-500 text-sm mt-1">{topicTitle}</p>

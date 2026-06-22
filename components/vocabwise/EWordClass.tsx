@@ -93,7 +93,7 @@ export default function EWordClass({ glossary, onDone }: Props) {
       {/* Word display */}
       <div className="bg-white border-2 border-purple-100 rounded-2xl p-6 flex flex-col items-center gap-2 shadow-sm">
         <span className="text-3xl font-black text-gray-800">{current?.word}</span>
-        <p className="text-xs text-gray-400 italic">{current?.meaning_vi?.split(';')[0]}</p>
+        <p className="text-xs text-gray-500 italic">{current?.meaning_vi?.split(';')[0]}</p>
         <button
           onClick={() => speak(current?.word ?? '')}
           className="text-gray-300 hover:text-blue-500 transition-colors text-lg mt-1"

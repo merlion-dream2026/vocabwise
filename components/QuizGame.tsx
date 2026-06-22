@@ -155,6 +155,10 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
       </div>
 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col px-4 py-6">
+        {/* Screen-reader feedback */}
+        <div role="alert" aria-live="assertive" className="sr-only">
+          {selected !== null && (selected === current.word.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.word.word}.`)}
+        </div>
         {/* Question card */}
         <div className="bg-white rounded-3xl border-2 border-indigo-100 shadow-xl p-6 flex flex-col items-center text-center mb-6">
           <div className="mb-4 flex justify-center"><WordIcon word={current.word.word} emoji={current.word.emoji} emojiClass="text-7xl" iconSize={88} /></div>

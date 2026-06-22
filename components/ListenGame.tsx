@@ -198,6 +198,10 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
 
       {/* Body */}
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-5 flex flex-col">
+        {/* Screen-reader feedback */}
+        <div role="alert" aria-live="assertive" className="sr-only">
+          {selected !== null && (selected === current.word.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.word.word}.`)}
+        </div>
         {/* Speaker */}
         <div className="flex flex-col items-center mb-6">
           <button

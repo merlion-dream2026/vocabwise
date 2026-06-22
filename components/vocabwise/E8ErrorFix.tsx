@@ -101,6 +101,11 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
         ))}
       </div>
 
+      {/* Screen-reader feedback */}
+      <div role="alert" aria-live="assertive" className="sr-only">
+        {selected !== null && (selected === current.answer ? 'Chính xác!' : 'Sai rồi.')}
+      </div>
+
       {/* Explanation after answer */}
       {selected !== null && current.explanation && (
         <div className="bg-blue-50 border-2 border-blue-100 rounded-xl p-3">

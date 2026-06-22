@@ -119,6 +119,7 @@ export default function WordListPicker({ word, onConfirm, onCancel }: Props) {
                 onChange={e => setNewName(e.target.value)}
                 onKeyDown={e => { if (e.key === 'Enter') createList() }}
                 placeholder="Tên danh sách..."
+                aria-label="Tên danh sách mới"
                 className="w-full border border-gray-200 rounded-xl px-3 py-2 text-sm font-bold focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
                 maxLength={40}
               />
