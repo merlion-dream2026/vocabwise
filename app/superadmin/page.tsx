@@ -836,7 +836,7 @@ function TotpPanel() {
     const res = await fetch('/api/superadmin/totp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ secret, code }),
+      body: JSON.stringify({ code }),
     })
     const d = await res.json()
     setSaving(false)
@@ -864,14 +864,21 @@ function TotpPanel() {
       )}
       {status === 'disabled' && uri && (
         <div className="space-y-4">
-          <p className="text-sm text-slate-500">2FA chưa bật. Mở <strong>Google Authenticator</strong> hoặc <strong>Authy</strong> → quét mã QR bên dưới:</p>
+          {/* Step-by-step guide */}
+          <div className="bg-amber-50 border border-amber-100 rounded-xl px-4 py-3 text-xs text-amber-800 space-y-1 leading-relaxed">
+            <p className="font-bold text-amber-900">📱 Hướng dẫn quét mã (iPhone / Android):</p>
+            <p>1. Mở app <strong>Google Authenticator</strong> hoặc <strong>Authy</strong> (không dùng camera thường)</p>
+            <p>2. Nhấn <strong>+</strong> → chọn <strong>Quét mã QR</strong></p>
+            <p>3. Hướng camera vào mã QR bên dưới</p>
+            <p>4. App tự thêm tài khoản → nhập mã 6 số vào ô xác nhận</p>
+          </div>
 
           {/* QR Code */}
           <div className="flex justify-center">
             <div className="bg-white border-2 border-slate-200 rounded-2xl p-4 inline-block">
               {qrBundle
-                ? <qrBundle.C value={uri} size={180} bgColor="#ffffff" fgColor="#1e1b4b" level="M" />
-                : <div className="w-[180px] h-[180px] bg-slate-100 rounded-xl animate-pulse" />
+                ? <qrBundle.C value={uri} size={192} bgColor="#ffffff" fgColor="#111827" level="M" />
+                : <div className="w-[192px] h-[192px] bg-slate-100 rounded-xl animate-pulse" />
               }
             </div>
           </div>
@@ -880,13 +887,13 @@ function TotpPanel() {
           <details className="group">
             <summary className="text-xs text-slate-400 cursor-pointer select-none hover:text-slate-600 list-none flex items-center gap-1">
               <span className="group-open:rotate-90 transition-transform inline-block">▶</span>
-              Không quét được? Nhập thủ công
+              Không quét được? Nhập thủ công vào app
             </summary>
             <div className="mt-2 bg-slate-50 rounded-xl p-3 space-y-2">
               <p className="text-xs text-slate-400 font-semibold">Secret key:</p>
               <div className="flex items-center gap-2">
                 <code className="text-sm font-mono text-slate-700 tracking-widest select-all flex-1">
-                  {showSecret ? secret : '••••••••••••••••••••'}
+                  {showSecret ? secret : '•'.repeat(secret.length || 20)}
                 </code>
                 <button onClick={() => setShowSecret(v => !v)}
                   className="text-xs text-slate-400 hover:text-slate-600 font-semibold flex-shrink-0">
@@ -894,7 +901,7 @@ function TotpPanel() {
                 </button>
               </div>
               <p className="text-[10px] text-slate-400 leading-relaxed">
-                Trong app → Thêm tài khoản → Nhập thủ công → Tên: <em>VocabWise Admin</em> → Dán secret key trên.
+                Trong app → Thêm tài khoản → Nhập thủ công → Tài khoản: <em>superadmin</em> → Khóa: dán secret key trên.
               </p>
             </div>
           </details>
