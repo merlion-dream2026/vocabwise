@@ -20,3 +20,11 @@ updates:
         update-types: [version-update:semver-major]
       - dependency-name: react-dom
         update-types: [version-update:semver-major]
+      # eslint 10 breaks peer dep with eslint-config-next@14; upgrade together with Next
+      - dependency-name: eslint
+        update-types: [version-update:semver-major]
+      - dependency-name: eslint-config-next
+        update-types: [version-update:semver-major]
+      # tailwindcss v4 has breaking changes; migrate intentionally
+      - dependency-name: tailwindcss
+        update-types: [version-update:semver-major]
