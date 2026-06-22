@@ -106,7 +106,7 @@ export async function middleware(req: NextRequest) {
     return res
   }
 
-  if (PUBLIC_PATHS.some((p) => pathname.startsWith(p))) {
+  if (PUBLIC_PATHS.some((p) => p === '/' ? pathname === '/' : pathname.startsWith(p))) {
     return makeNext()
   }
 
