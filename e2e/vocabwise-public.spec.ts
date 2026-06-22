@@ -1,19 +1,17 @@
 import { test, expect } from '@playwright/test'
 
-// The Academic (VocabWise) book + topic pages are NOT hard-gated: they render
-// a server shell publicly and apply free-tier / upgrade gating client-side
-// after fetching /api/auth/me. So for a guest we assert the page loads (does
-// not redirect to /login) and shows the VocabWise shell.
-test.describe('VocabWise Academic — public render', () => {
-  test('book page renders for guests (no login redirect)', async ({ page }) => {
+// After middleware security fix, all Academic routes require auth.
+// Guests are redirected to /login — login page renders with VocabWise branding.
+test.describe('VocabWise Academic — guest redirect', () => {
+  test('book page redirects guests to /login', async ({ page }) => {
     await page.goto('/vocabwise/book1')
-    await expect(page).toHaveURL(/\/vocabwise\/book1/)
-    await expect(page.locator('body')).toContainText(/VocabWise/i)
+    await expect(page).toHaveURL(/\/login/, { timeout: 15_000 })
+    await expect(page.locator('body')).not.toBeEmpty()
   })
 
-  test('topic page renders for guests (no login redirect)', async ({ page }) => {
+  test('topic page redirects guests to /login', async ({ page }) => {
     await page.goto('/vocabwise/book1/b1-t01')
-    await expect(page).toHaveURL(/\/vocabwise\/book1\/b1-t01/)
+    await expect(page).toHaveURL(/\/login/, { timeout: 15_000 })
     await expect(page.locator('body')).not.toBeEmpty()
   })
 })

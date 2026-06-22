@@ -27,9 +27,8 @@ test.describe('Public navigation', () => {
     await expect(page.locator('body')).toContainText(/.{50,}/)
   })
 
-  test('unknown route shows 404 not-found page', async ({ page }) => {
-    const res = await page.goto('/nonexistent-page-xyz')
-    expect(res?.status()).toBe(404)
-    await expect(page.locator('body')).toContainText(/404|không tìm thấy/i)
+  test('unknown protected route redirects guests to /login', async ({ page }) => {
+    await page.goto('/nonexistent-page-xyz')
+    await expect(page).toHaveURL(/\/login/, { timeout: 15_000 })
   })
 })
