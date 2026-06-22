@@ -10,6 +10,14 @@
       "schedule": "0 3 * * *"
     },
     {
+      "path": "/api/cron/onboarding",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/milestones",
+      "schedule": "0 4 * * *"
+    },
+    {
       "path": "/api/cron/ping",
       "schedule": "0 0 */3 * *"
     },

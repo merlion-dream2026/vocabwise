@@ -41,9 +41,10 @@ export default function OnboardingPage() {
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 w-full text-left space-y-3">
               {[
-                { icon: '👶', title: 'VocabWise Kids', desc: 'Games & flashcard cho trẻ em Pre-A1 → C1' },
-                { icon: '📚', title: 'VocabWise Academic', desc: 'Bài đọc + bài tập từ vựng A1 → C2' },
-                { icon: '🎤', title: 'Luyện phát âm AI', desc: 'Nhận xét phát âm ngay lập tức' },
+                { icon: '🔤', title: 'Phonics IPA', desc: 'Luyện phát âm chuẩn IPA quốc tế · mọi lứa tuổi' },
+                { icon: '📖', title: 'VocabWise Daily', desc: 'Từ vựng hàng ngày · Pre-A1 → C2 · song ngữ Việt–Anh' },
+                { icon: '🎓', title: 'VocabWise Academic', desc: 'Từ vựng học thuật IELTS/SAT · A1 → C2' },
+                { icon: '🎤', title: 'Phát âm cùng AI', desc: '🇻🇳🇬🇧 Song ngữ Việt–Anh · AI chấm điểm ngay lập tức' },
               ].map(f => (
                 <div key={f.title} className="flex items-start gap-3">
                   <span className="text-2xl flex-shrink-0">{f.icon}</span>

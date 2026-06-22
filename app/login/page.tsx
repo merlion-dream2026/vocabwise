@@ -256,12 +256,21 @@ function LoginForm() {
         </p>
 
         {/* PWA install tip */}
-        <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-100 rounded-2xl px-4 py-3 text-center">
-          <p className="text-purple-600 text-xs font-semibold leading-snug">
-            📲 <span className="font-black">Cài lên màn hình chính:</span> Mở như app thật, <span className="font-black">tự cập nhật</span>, không cần App Store!{' '}
-            🍎 iPhone/iPad: Bấm nút <span className="font-bold">Share ⬆</span> (thanh dưới Safari) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>.{' '}
-            🤖 Android: Bấm menu <span className="font-bold">⋮</span> (góc trên phải Chrome) → chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> → bấm <span className="font-bold">Thêm</span>.
-          </p>
+        <div className="mt-4 bg-blue-50 border border-blue-100 rounded-2xl p-3.5 space-y-2.5">
+          <p className="text-xs font-black text-blue-700">📲 Cách cài app lên màn hình chính:</p>
+          <div className="space-y-1.5">
+            <p className="text-xs font-black text-gray-600">🍎 iPhone / iPad (Safari)</p>
+            <p className="text-xs text-gray-500 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
+            <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
+            <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
+          </div>
+          <div className="border-t border-blue-100 pt-2 space-y-1.5">
+            <p className="text-xs font-black text-gray-600">🤖 Android (Chrome)</p>
+            <p className="text-xs text-gray-500 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
+            <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
+            <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
+          </div>
+          <p className="text-[11px] text-blue-400 font-semibold text-center pt-1">Mở như app thật · tự cập nhật · không cần App Store</p>
         </div>
 
       </div>
