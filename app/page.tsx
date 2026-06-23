@@ -108,7 +108,7 @@ const MODULE_CARDS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1), 10+ trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10–11 trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module Phonics là gì?',
@@ -136,7 +136,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Dùng thử miễn phí được không?',
-    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho học 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi, module phát âm IPA đầy đủ, dashboard phụ huynh trong 7 ngày — và tính năng ⭐ Từ của tôi (lưu tối đa 20 từ).\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ 180 chủ đề · 4.500+ từ · AI phát âm không giới hạn · Từ của tôi không giới hạn và nhiều tính năng độc quyền hơn.',
+    a: 'Có! Đăng ký miễn phí — không cần thẻ tín dụng. Gói Free cho học:\n• Daily: 1 chủ đề đầu tiên mỗi level (6 chủ đề), toàn bộ 10 trò chơi\n• Academic: 1 chủ đề đầu tiên mỗi book (3 chủ đề)\n• Phonics IPA: 1 bài thử\n• Dashboard phụ huynh trong 7 ngày · ⭐ Từ của tôi (tối đa 20 từ)\n\nSau 7 ngày, nâng cấp Pro để mở toàn bộ Daily 180 chủ đề · Academic 180 chủ đề · Phonics IPA đầy đủ · AI phát âm không giới hạn · Từ của tôi không giới hạn và nhiều tính năng độc quyền hơn.',
   },
   {
     q: '⭐ Tính năng "Từ của tôi" là gì?',
@@ -144,7 +144,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có: 180 chủ đề · 4.500+ từ · 10 trò chơi/chủ đề · Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 4.500+ từ · 10–11 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 
@@ -277,7 +277,7 @@ export default function LandingPage() {
         <div className="bg-white rounded-2xl p-4 border-2 border-gray-100 mb-3 flex items-center justify-between gap-3">
           <div>
             <p className="font-black text-gray-700 text-sm">🆓 Dùng thử 7 ngày miễn phí</p>
-            <p className="text-xs text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA đầy đủ · Không cần thẻ tín dụng</p>
+            <p className="text-xs text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
           </div>
           <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs px-3 py-2 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
             Thử miễn phí →

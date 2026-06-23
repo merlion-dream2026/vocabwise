@@ -16,7 +16,7 @@ const KID_FAQ = [
   },
   {
     q: '🎮 Có những trò chơi gì?',
-    a: 'Level Seeker / Starter / Ranger:\n📖 Flashcard từ mới\n👂 Nghe & Chọn\n✅ Đúng / Sai\n🖼️ Nối từ với hình\n🧠 Lật thẻ\n🫧 Bắn bong bóng\n🔡 Điền chữ thiếu\n🔤 Đánh vần\n🔁 Sắp xếp câu\n🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master: thêm\n❓ Trắc nghiệm · ✏️ Điền từ\n⌨️ Gõ từ nhanh 15s · 🔀 Ghép định nghĩa',
+    a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (11 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
   },
   {
     q: '🏆 Khi nào chủ đề được tính là hoàn thành?',

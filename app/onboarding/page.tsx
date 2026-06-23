@@ -85,7 +85,7 @@ export default function OnboardingPage() {
                   <span className="text-4xl">👶</span>
                   <div>
                     <p className="font-black text-gray-800">Daily</p>
-                    <p className="text-gray-400 text-xs mt-0.5">Dành cho trẻ em · Pre-A1 đến C1 · 20+ mini-games</p>
+                    <p className="text-gray-400 text-xs mt-0.5">Dành cho trẻ em · Pre-A1 đến C1-C2 · 10 trò chơi/chủ đề</p>
                   </div>
                   {section === 'kids' && <span className="ml-auto text-purple-500 text-xl">✓</span>}
                 </div>
