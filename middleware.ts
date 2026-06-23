@@ -122,6 +122,6 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // Match all routes except Next.js internals and static files
-  matcher: ['/((?!_next/static|_next/image|favicon\\.ico|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp3|mp4|pdf)).*)'],
+  // Match all routes except Next.js internals, static files, and PWA assets
+  matcher: ['/((?!_next/static|_next/image|favicon\\.ico|sw\\.js|manifest\\.webmanifest|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp3|mp4|pdf)).*)'],
 }
