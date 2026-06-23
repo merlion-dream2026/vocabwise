@@ -153,7 +153,7 @@ export default function BottomNav() {
     <>
       {/* Bottom nav */}
       <nav
-        className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)] transition-transform duration-300 ease-in-out ${
+        className={`fixed bottom-0 inset-x-0 mx-auto w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)] transition-transform duration-300 ease-in-out ${
           navVisible ? 'translate-y-0' : 'translate-y-full'
         }`}
         style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}

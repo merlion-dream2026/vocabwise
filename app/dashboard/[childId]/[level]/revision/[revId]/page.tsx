@@ -293,6 +293,12 @@ export default function KidsRevisionPage() {
   const [fibScore,    setFibScore]    = useState(0)
   const [match1Score, setMatch1Score] = useState(0)
   const [match2Score, setMatch2Score] = useState(0)
+  const [savedScore, setSavedScore]   = useState<{ score: number; max: number } | null>(null)
+
+  useEffect(() => {
+    const raw = localStorage.getItem(`revision_kids_${level}_${revId}`)
+    if (raw) { try { setSavedScore(JSON.parse(raw)) } catch {} }
+  }, [level, revId])
 
   useEffect(() => {
     fetch(`/api/words/${level}`)
@@ -388,9 +394,14 @@ export default function KidsRevisionPage() {
                 </div>
               ))}
             </div>
+            {savedScore && (
+              <div className="bg-green-50 border-2 border-green-200 rounded-2xl px-4 py-2.5 w-full max-w-xs text-center">
+                <p className="text-xs font-bold text-green-700">✓ Lần trước: {savedScore.score}/{savedScore.max} điểm · Làm lại để cải thiện!</p>
+              </div>
+            )}
             <button onClick={() => setPhase('mcq')}
               className={`w-full max-w-xs ${colors.accent} text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md`}>
-              Bắt đầu →
+              {savedScore ? 'Làm lại →' : 'Bắt đầu →'}
             </button>
           </div>
         )}

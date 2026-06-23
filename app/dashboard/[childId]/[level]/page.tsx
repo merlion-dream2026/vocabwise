@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel, ALL_BADGES, XP_LEVELS } from '@/lib/badges'
@@ -98,7 +98,7 @@ export default function LevelTopicsPage() {
     if (saved) setViewMode(saved)
   }, [])
 
-  useEffect(() => {
+  const loadRevScores = useCallback(() => {
     if (!level) return
     const scores: Record<string, { score: number; max: number }> = {}
     for (let i = 1; i <= 6; i++) {
@@ -108,6 +108,12 @@ export default function LevelTopicsPage() {
     }
     setRevScores(scores)
   }, [level])
+
+  useEffect(() => {
+    loadRevScores()
+    window.addEventListener('focus', loadRevScores)
+    return () => window.removeEventListener('focus', loadRevScores)
+  }, [loadRevScores])
 
   function toggleView() {
     setViewMode(v => {
@@ -177,10 +183,10 @@ export default function LevelTopicsPage() {
     const score  = revScores[rid]
     return (
       <Link href={`/dashboard/${childId}/${level}/revision/${rid}`}
-        className={`block ${colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
+        className={`block ${score ? 'bg-green-500' : colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-xl flex-shrink-0">✨</span>
+            <span className="text-xl flex-shrink-0">{score ? '✅' : '✨'}</span>
             <div className="min-w-0">
               <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
               <p className="text-white/80 text-xs mt-0.5">30 câu · 3 dạng bài</p>
@@ -188,7 +194,9 @@ export default function LevelTopicsPage() {
           </div>
           <div className="flex items-center gap-2 flex-shrink-0 ml-2">
             {score ? (
-              <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
+              <>
+                <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">Xong · {score.score}/{score.max}</span>
+              </>
             ) : (
               <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
             )}
