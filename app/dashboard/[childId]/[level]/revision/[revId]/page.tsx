@@ -4,7 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 
 type WordItem = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type FlatWord = { word: string; meaning_vi: string; example_en: string; emoji: string }
-type MCQQuestion = { word: string; emoji: string; correct: string; options: string[] }
+type MCQQuestion = { word: string; correct: string; options: string[] }
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[] }
 type MatchPair  = { word: string; meaning: string }
 
@@ -69,7 +69,7 @@ function buildQuestions(pool: FlatWord[]) {
   }
 
   const mcq: MCQQuestion[] = mcqW.map(item => ({
-    word: item.word, emoji: item.emoji,
+    word: item.word,
     correct: item.meaning_vi,
     options: shuffle([item.meaning_vi, ...distractMeanings(item.meaning_vi)]),
   }))
@@ -115,7 +115,6 @@ function MCQRound({ questions, accentCls, onDone }: { questions: MCQQuestion[]; 
           style={{ width: `${(idx / questions.length) * 100}%` }} />
       </div>
       <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-6 text-center">
-        <p className="text-5xl mb-2">{q.emoji}</p>
         <p className="text-2xl font-black text-gray-800 mb-1">{q.word}</p>
         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mt-3">Nghĩa tiếng Việt là gì?</p>
       </div>
