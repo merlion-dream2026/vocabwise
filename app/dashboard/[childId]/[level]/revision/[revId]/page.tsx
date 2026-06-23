@@ -50,10 +50,22 @@ function buildQuestions(pool: FlatWord[]) {
   const match2  = words.slice(25, 30)
 
   function distractMeanings(exclude: string): string[] {
-    return shuffle(pool.filter(w => w.meaning_vi !== exclude)).slice(0, 3).map(w => w.meaning_vi)
+    const seen = new Set([exclude])
+    const result: string[] = []
+    for (const w of shuffle([...pool])) {
+      if (!seen.has(w.meaning_vi)) { seen.add(w.meaning_vi); result.push(w.meaning_vi) }
+      if (result.length === 3) break
+    }
+    return result
   }
   function distractWords(exclude: string): string[] {
-    return shuffle(pool.filter(w => w.word !== exclude)).slice(0, 3).map(w => w.word)
+    const seen = new Set([exclude])
+    const result: string[] = []
+    for (const w of shuffle([...pool])) {
+      if (!seen.has(w.word)) { seen.add(w.word); result.push(w.word) }
+      if (result.length === 3) break
+    }
+    return result
   }
 
   const mcq: MCQQuestion[] = mcqW.map(item => ({

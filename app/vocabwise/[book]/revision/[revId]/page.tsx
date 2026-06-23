@@ -40,7 +40,14 @@ function blankWord(sentence: string, word: string): string {
 }
 
 function getDistractors(pool: GlossaryItem[], exclude: string, count: number, field: 'meaning_vi' | 'word'): string[] {
-  return shuffle(pool.filter(w => w[field] !== exclude)).slice(0, count).map(w => w[field])
+  const seen = new Set([exclude])
+  const result: string[] = []
+  for (const w of shuffle([...pool])) {
+    const val = w[field]
+    if (!seen.has(val)) { seen.add(val); result.push(val) }
+    if (result.length === count) break
+  }
+  return result
 }
 
 function buildQuestions(pool: GlossaryItem[]) {
