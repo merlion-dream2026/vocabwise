@@ -286,9 +286,43 @@ export default function MyWordsPage() {
               const cnt = words.filter(w => w.list_id === l.id).length
               const isActive = activeList === l.id
               const isConfirming = confirmDeleteList === l.id
+              const isEditing = editingList?.id === l.id
               return (
                 <div key={l.id} className="relative group">
-                  {isConfirming ? (
+                  {isEditing ? (
+                    <div className="flex items-center gap-1.5 bg-white border-2 border-indigo-300 rounded-2xl px-3 py-2 shadow-sm">
+                      <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: editingList!.color }} />
+                      <input
+                        autoFocus
+                        value={editingList!.name}
+                        onChange={e => setEditingList({ ...editingList!, name: e.target.value })}
+                        onKeyDown={e => {
+                          if (e.key === 'Enter') renameList(editingList!.id, editingList!.name, editingList!.color)
+                          if (e.key === 'Escape') setEditingList(null)
+                        }}
+                        className="text-xs font-black focus:outline-none w-24"
+                        maxLength={40}
+                      />
+                      <div className="flex gap-1">
+                        {LIST_COLORS.map(c => (
+                          <button
+                            key={c}
+                            onClick={() => setEditingList({ ...editingList!, color: c })}
+                            className={`w-3.5 h-3.5 rounded-full transition-all ${editingList!.color === c ? 'ring-1 ring-offset-1 ring-gray-400 scale-110' : 'opacity-70 hover:opacity-100'}`}
+                            style={{ backgroundColor: c }}
+                          />
+                        ))}
+                      </div>
+                      <button
+                        onClick={() => renameList(editingList!.id, editingList!.name, editingList!.color)}
+                        className="text-[10px] font-black text-white bg-indigo-500 rounded-full px-2 py-0.5 hover:bg-indigo-600 transition-colors"
+                      >✓</button>
+                      <button
+                        onClick={() => setEditingList(null)}
+                        className="text-[10px] font-black text-gray-400 hover:text-gray-600 transition-colors"
+                      >✕</button>
+                    </div>
+                  ) : isConfirming ? (
                     <div className="flex items-center gap-1.5 bg-red-50 border border-red-200 rounded-full px-3 py-1.5">
                       <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: l.color }} />
                       <span className="text-xs font-black text-red-700 whitespace-nowrap">Xóa "{l.name}"?</span>
@@ -314,6 +348,11 @@ export default function MyWordsPage() {
                         <span className="w-2 h-2 rounded-full" style={{ backgroundColor: l.color }} />
                         {l.name} ({cnt})
                       </button>
+                      <button
+                        onClick={() => setEditingList(l)}
+                        className="absolute -top-1 -left-1 w-4 h-4 bg-indigo-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
+                        title="Đổi tên danh sách"
+                      >✎</button>
                       <button
                         onClick={() => setConfirmDeleteList(l.id)}
                         className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
