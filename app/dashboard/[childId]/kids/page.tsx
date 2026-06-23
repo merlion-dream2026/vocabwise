@@ -3,8 +3,6 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
-import Image from 'next/image'
-import { getAvatarSrc } from '@/lib/avatars'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -52,18 +50,20 @@ export default function KidsLevelPage() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-4">
-      <div className="flex items-center gap-3 mb-3 max-w-lg mx-auto">
-        <button onClick={() => router.back()} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
-        <div className="relative w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white/60">
-          <Image src={getAvatarSrc(child!.emoji)} fill className="object-cover" alt="" unoptimized />
-        </div>
-        <div>
-          <h1 className="text-xl font-black text-gray-800 leading-tight">Daily</h1>
-          <p className="text-gray-400 text-xs font-semibold">Chọn level · Pre-A1 → C2</p>
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
+      {/* Header */}
+      <div className="bg-gradient-to-r from-purple-500 to-violet-600 text-white">
+        <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
+          <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <span className="text-2xl flex-shrink-0">📚</span>
+          <div>
+            <h1 className="font-bold text-lg leading-tight">VocabWise Daily</h1>
+            <p className="text-purple-200 text-xs">Từ vựng hàng ngày · Pre-A1 → C2</p>
+          </div>
         </div>
       </div>
 
+      <div className="px-4 py-4">
       {/* My Words card */}
       <div className="max-w-lg mx-auto mb-3">
         <Link href="/my-words"
@@ -125,6 +125,7 @@ export default function KidsLevelPage() {
             </button>
           )
         })}
+      </div>
       </div>
     </div>
   )
