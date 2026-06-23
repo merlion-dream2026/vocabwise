@@ -64,6 +64,7 @@ export default function MyWordsPage() {
   const [editingList, setEditingList] = useState<WordList | null>(null)
   const [deletingList, setDeletingList] = useState<number | null>(null)
   const [confirmDeleteList, setConfirmDeleteList] = useState<number | null>(null)
+  const [assigningWord, setAssigningWord] = useState<number | null>(null)
   const [showUpgrade, setShowUpgrade]   = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -123,6 +124,16 @@ export default function MyWordsPage() {
     setWords(prev => prev.map(w => w.list_id === id ? { ...w, list_id: null } : w))
     if (activeList === id) setActiveList('all')
     setDeletingList(null)
+  }
+
+  async function assignToList(wordId: number, listId: number | null) {
+    setAssigningWord(null)
+    await fetch('/api/vocabwise/wordlist', {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: wordId, list_id: listId }),
+    })
+    setWords(prev => prev.map(w => w.id === wordId ? { ...w, list_id: listId } : w))
   }
 
   async function renameList(id: number, name: string, color: string) {
@@ -384,15 +395,45 @@ export default function MyWordsPage() {
                       <button onClick={() => speak(w.word)} aria-label={`Nghe phát âm ${w.word}`} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>
                       {/* Source badge */}
                       <span className={`text-[10px] font-black px-1.5 py-0.5 rounded-full ${src.color}`}>{src.label}</span>
-                      {/* List badge */}
-                      {listInfo && (
-                        <span className="text-[10px] font-black px-1.5 py-0.5 rounded-full text-white"
-                          style={{ backgroundColor: listInfo.color }}>
-                          {listInfo.name}
-                        </span>
-                      )}
+                      {/* List badge — click to reassign */}
+                      <button
+                        onClick={() => setAssigningWord(assigningWord === w.id ? null : w.id)}
+                        className={`text-[10px] font-black px-1.5 py-0.5 rounded-full transition-colors ${
+                          listInfo
+                            ? 'text-white hover:opacity-80'
+                            : 'bg-gray-100 text-gray-400 hover:bg-indigo-100 hover:text-indigo-600'
+                        }`}
+                        style={listInfo ? { backgroundColor: listInfo.color } : {}}
+                        title="Đổi danh sách"
+                      >
+                        {listInfo ? listInfo.name : '+ list'}
+                      </button>
                     </div>
-                    <p className="text-blue-700 font-bold text-xs">{w.meaning_vi}</p>
+                    {/* Inline list picker */}
+                    {assigningWord === w.id && (
+                      <div className="mt-1.5 flex flex-wrap gap-1.5">
+                        <button
+                          onClick={() => assignToList(w.id, null)}
+                          className={`text-[10px] font-black px-2 py-0.5 rounded-full border transition-colors ${
+                            !w.list_id ? 'bg-gray-200 text-gray-700 border-gray-300' : 'bg-white border-gray-200 text-gray-400 hover:border-gray-400'
+                          }`}
+                        >Không có</button>
+                        {lists.map(l => (
+                          <button
+                            key={l.id}
+                            onClick={() => assignToList(w.id, l.id)}
+                            className={`text-[10px] font-black px-2 py-0.5 rounded-full border transition-colors ${
+                              w.list_id === l.id ? 'text-white border-transparent' : 'bg-white border-gray-200 text-gray-600 hover:border-gray-400'
+                            }`}
+                            style={w.list_id === l.id ? { backgroundColor: l.color, borderColor: l.color } : {}}
+                          >
+                            <span className="inline-block w-1.5 h-1.5 rounded-full mr-1 align-middle" style={{ backgroundColor: l.color }} />
+                            {l.name}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                    <p className="text-blue-700 font-bold text-xs mt-0.5">{w.meaning_vi}</p>
                     {w.example_en && <p className="text-gray-400 text-xs italic mt-0.5 line-clamp-1">{w.example_en}</p>}
                     {w.topic_title && (
                       link
