@@ -63,6 +63,7 @@ export default function MyWordsPage() {
   const [creatingList, setCreatingList] = useState(false)
   const [editingList, setEditingList] = useState<WordList | null>(null)
   const [deletingList, setDeletingList] = useState<number | null>(null)
+  const [confirmDeleteList, setConfirmDeleteList] = useState<number | null>(null)
   const [showUpgrade, setShowUpgrade]   = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -273,25 +274,42 @@ export default function MyWordsPage() {
             {lists.map(l => {
               const cnt = words.filter(w => w.list_id === l.id).length
               const isActive = activeList === l.id
+              const isConfirming = confirmDeleteList === l.id
               return (
                 <div key={l.id} className="relative group">
-                  <button
-                    onClick={() => setActiveList(isActive ? 'all' : l.id)}
-                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black transition-all ${
-                      isActive ? 'text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
-                    }`}
-                    style={isActive ? { backgroundColor: l.color } : {}}
-                  >
-                    <span className="w-2 h-2 rounded-full" style={{ backgroundColor: l.color }} />
-                    {l.name} ({cnt})
-                  </button>
-                  {/* Edit/Delete on long tap — simplified: small x on hover */}
-                  <button
-                    onClick={() => deleteList(l.id)}
-                    disabled={deletingList === l.id}
-                    className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
-                    title="Xóa danh sách"
-                  >✕</button>
+                  {isConfirming ? (
+                    <div className="flex items-center gap-1.5 bg-red-50 border border-red-200 rounded-full px-3 py-1.5">
+                      <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: l.color }} />
+                      <span className="text-xs font-black text-red-700 whitespace-nowrap">Xóa "{l.name}"?</span>
+                      <button
+                        onClick={() => setConfirmDeleteList(null)}
+                        className="text-[10px] font-black text-gray-500 bg-white border border-gray-200 rounded-full px-2 py-0.5 hover:bg-gray-100 transition-colors"
+                      >Hủy</button>
+                      <button
+                        onClick={() => { setConfirmDeleteList(null); deleteList(l.id) }}
+                        disabled={deletingList === l.id}
+                        className="text-[10px] font-black text-white bg-red-500 rounded-full px-2 py-0.5 hover:bg-red-600 transition-colors disabled:opacity-50"
+                      >{deletingList === l.id ? '...' : 'Xóa'}</button>
+                    </div>
+                  ) : (
+                    <>
+                      <button
+                        onClick={() => setActiveList(isActive ? 'all' : l.id)}
+                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black transition-all ${
+                          isActive ? 'text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
+                        }`}
+                        style={isActive ? { backgroundColor: l.color } : {}}
+                      >
+                        <span className="w-2 h-2 rounded-full" style={{ backgroundColor: l.color }} />
+                        {l.name} ({cnt})
+                      </button>
+                      <button
+                        onClick={() => setConfirmDeleteList(l.id)}
+                        className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
+                        title="Xóa danh sách"
+                      >✕</button>
+                    </>
+                  )}
                 </div>
               )
             })}
