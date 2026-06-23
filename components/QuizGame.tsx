@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
 import Confetti from '@/components/Confetti'
-import WordIcon from '@/components/WordIcon'
+
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -161,7 +161,6 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
         </div>
         {/* Question card */}
         <div className="bg-white rounded-3xl border-2 border-indigo-100 shadow-xl p-6 flex flex-col items-center text-center mb-6">
-          <div className="mb-4 flex justify-center"><WordIcon word={current.word.word} emoji={current.word.emoji} emojiClass="text-7xl" iconSize={88} /></div>
           <p className="text-gray-500 font-bold text-sm uppercase tracking-wider mb-2">Nghĩa tiếng Việt là:</p>
           <h2 className="text-3xl font-black text-gray-800">{current.word.meaning}</h2>
           <p className="text-gray-500 font-semibold text-sm mt-3">Từ tiếng Anh tương ứng là gì?</p>

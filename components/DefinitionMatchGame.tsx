@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
-import WordIcon from '@/components/WordIcon'
+
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; words: Word[] }
@@ -173,7 +173,6 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
                 <button key={word.word} onClick={() => handleLeft(word)}
                   disabled={state === 'matched'}
                   className={`${style} font-bold text-base py-4 px-3 rounded-2xl transition-all active:scale-95 text-center flex items-center justify-center gap-1.5`}>
-                  <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-xl" iconSize={24} />
                   <span>{word.word}</span>
                   {state === 'matched' && <span className="text-green-500 text-lg">✓</span>}
                 </button>

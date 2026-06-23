@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
-import WordIcon from '@/components/WordIcon'
+
 
 type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -159,8 +159,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           transition-all duration-200
           ${result === 'idle' ? 'border-gray-100' : isCorrectResult ? 'border-green-400 bg-green-50' : 'border-red-400 bg-red-50'}
         `}>
-          {/* Emoji + English word */}
-          <div className="mb-3 flex justify-center select-none"><WordIcon word={round.word.word} emoji={round.word.emoji} emojiClass="text-7xl" iconSize={88} /></div>
+          {/* English word */}
           <p className="text-4xl font-black text-gray-800 mb-1">{round.word.word}</p>
           <button
             onClick={() => speak(round.word.word)}
