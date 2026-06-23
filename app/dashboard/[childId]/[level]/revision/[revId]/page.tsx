@@ -5,7 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 type WordItem = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type FlatWord = { word: string; meaning_vi: string; example_en: string; emoji: string }
 type MCQQuestion = { word: string; emoji: string; correct: string; options: string[] }
-type FIBQuestion = { blanked: string; word: string; correct: string; options: string[] }
+type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[] }
 type MatchPair  = { word: string; meaning: string }
 
 type Phase =
@@ -76,7 +76,7 @@ function buildQuestions(pool: FlatWord[]) {
 
   const fib: FIBQuestion[] = fibW.map(item => ({
     blanked: blankWord(item.example_en, item.word),
-    word: item.word, correct: item.word,
+    word: item.word, meaning_vi: item.meaning_vi, correct: item.word,
     options: shuffle([item.word, ...distractWords(item.word)]),
   }))
 
@@ -171,6 +171,7 @@ function FIBRound({ questions, accentCls, onDone }: { questions: FIBQuestion[]; 
       <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5">
         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Điền từ vào chỗ trống</p>
         <p className="text-base font-semibold text-gray-800 leading-relaxed">{q.blanked}</p>
+        <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
       </div>
       <div className="grid grid-cols-2 gap-2.5">
         {q.options.map(opt => {

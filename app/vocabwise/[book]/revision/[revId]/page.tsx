@@ -4,7 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
-type FIBQuestion = { blanked: string; word: string; correct: string; options: string[] }
+type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[] }
 type MatchPair = { word: string; meaning: string }
 
 type Phase =
@@ -66,6 +66,7 @@ function buildQuestions(pool: GlossaryItem[]) {
   const fib: FIBQuestion[] = fibWords.map(item => ({
     blanked: blankWord(item.example_en, item.word),
     word: item.word,
+    meaning_vi: item.meaning_vi,
     correct: item.word,
     options: shuffle([item.word, ...getDistractors(pool, item.word, 3, 'word')]),
   }))
@@ -187,6 +188,7 @@ function FIBRound({
       <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-5">
         <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-3">Điền từ vào chỗ trống</p>
         <p className="text-base font-semibold text-gray-800 leading-relaxed">{q.blanked}</p>
+        <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
       </div>
 
       {/* Word options */}
