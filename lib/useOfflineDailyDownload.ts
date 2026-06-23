@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import type { DownloadState } from './useOfflineDownload'
+import { saveDailyTopicOffline, deleteDailyTopicOffline } from './offlineStorage'
 
 const DOWNLOAD_CACHE = 'vocabwise-downloads-v1'
 
@@ -72,6 +73,26 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
 
       setState('downloaded')
       emitCacheChange()
+
+      // Fetch and persist topic data to localStorage for offline rendering.
+      // Fire-and-forget — UI is already updated; don't await this.
+      void (async () => {
+        try {
+          const [levelData, storyData] = await Promise.all([
+            fetch(`/api/words/${level}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`/api/stories/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
+          ])
+          const topics: { id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[] }[] = levelData?.topics ?? []
+          const topic = topics.find(t => t.id === topicId)
+          if (topic) {
+            saveDailyTopicOffline(level, topicId, {
+              topic,
+              story: storyData,
+              topicList: topics.map(t => ({ id: t.id, name: t.name })),
+            })
+          }
+        } catch { /* silent — offline data is best-effort */ }
+      })()
     } catch {
       setState('error')
       setTimeout(() => setState('idle'), 3000)
@@ -85,6 +106,8 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
     await cache.delete(pageUrl(childId, level, topicId))
     // Notify SW (informational)
     navigator.serviceWorker?.controller?.postMessage({ type: 'REMOVE_DAILY_DOWNLOAD', childId, level, topicId })
+    // Also remove from localStorage
+    deleteDailyTopicOffline(level, topicId)
     setState('idle')
     emitCacheChange()
   }, [childId, level, topicId])

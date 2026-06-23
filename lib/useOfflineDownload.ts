@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import { clearAllOfflineData } from './offlineStorage'
 
 export type DownloadState = 'idle' | 'downloading' | 'downloaded' | 'error'
 
@@ -126,11 +127,13 @@ export async function getDownloadedTopics(): Promise<string[]> {
   }
 }
 
-/** Clears all offline downloads. Awaits direct cache deletion (guaranteed before logout). */
+/** Clears all offline downloads (Cache Storage + localStorage). Awaits cache deletion before logout. */
 export async function clearAllDownloads(): Promise<void> {
   if (!('caches' in window)) return
   await caches.delete(DOWNLOAD_CACHE).catch(() => {})
   // Notify SW to sync its state
   navigator.serviceWorker?.controller?.postMessage({ type: 'CLEAR_DOWNLOADS' })
+  // Also clear localStorage offline data
+  clearAllOfflineData()
   emitCacheChange()
 }

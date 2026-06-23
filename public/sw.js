@@ -145,6 +145,34 @@ self.addEventListener('fetch', e => {
     )
     return
   }
+
+  // Catch-all: prevent native Safari "can't open the page" error when offline.
+  // Topic pages already handled above; this covers /, /login, /kids, etc.
+  if (e.request.mode === 'navigate') {
+    e.respondWith(
+      fetch(e.request).catch(() => new Response(
+        `<!doctype html><html lang="vi"><head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>VocabWise — Offline</title>
+        <style>
+          *{box-sizing:border-box;margin:0;padding:0}
+          body{font-family:-apple-system,sans-serif;background:#f5f3ff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+          .card{background:white;border-radius:1.5rem;padding:2rem;text-align:center;max-width:320px;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+          h2{color:#7c3aed;font-size:1.25rem;margin:1rem 0 .5rem}
+          p{color:#6b7280;font-size:.875rem;line-height:1.5}
+          a{display:inline-block;margin-top:1.25rem;background:#7c3aed;color:white;padding:.75rem 1.5rem;border-radius:.75rem;text-decoration:none;font-weight:700;font-size:.875rem}
+        </style></head>
+        <body><div class="card">
+          <div style="font-size:3rem">📴</div>
+          <h2>Đang offline</h2>
+          <p>VocabWise cần kết nối internet. Mở lại khi có mạng, hoặc dùng các chủ đề đã tải offline.</p>
+          <a href="javascript:history.back()">← Quay lại</a>
+        </div></body></html>`,
+        { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
+      ))
+    )
+    return
+  }
 })
 
 // ─── Push notifications ───────────────────────────────────────────────────────

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
+import { loadDailyTopicOffline } from '@/lib/offlineStorage'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -98,6 +99,7 @@ export default function TopicPage() {
   const [allTopics, setAllTopics] = useState<{ id: string; name: string }[]>([])
   const [story, setStory] = useState<{ emojis: string[]; en: string; vi: string } | null>(null)
   const [loading, setLoading] = useState(true)
+  const [offlineUnavailable, setOfflineUnavailable] = useState(false)
   const [showTrophy, setShowTrophy] = useState(false)
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
@@ -110,6 +112,24 @@ export default function TopicPage() {
   const exerciseCacheRef = useRef<{ key: string; data: ParsedExercise | null } | null>(null)
 
   useEffect(() => {
+    // Offline path: serve from localStorage (avoids failed API calls)
+    if (!navigator.onLine) {
+      const cached = loadDailyTopicOffline(level, topicId)
+      if (cached) {
+        const childInfo = JSON.parse(localStorage.getItem('vw_child_' + childId) ?? 'null') as Child | null
+        setChild(childInfo ?? { id: childId, name: '', emoji: '🧒', level })
+        setTopic(cached.topic)
+        setAllTopics(cached.topicList)
+        setStory(cached.story)
+        setMastery({ flashcard: false, games: [] })
+        setLoading(false)
+      } else {
+        setOfflineUnavailable(true)
+        setLoading(false)
+      }
+      return
+    }
+
     Promise.all([
       fetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()),
@@ -144,7 +164,32 @@ export default function TopicPage() {
     }
   }, [])
 
-  if (loading || !topic) return null
+  if (loading) return null
+
+  if (offlineUnavailable || !topic) {
+    const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
+    return (
+      <div className={`min-h-screen bg-gradient-to-br ${colors.bg} flex flex-col`}>
+        <div className={`${colors.header} text-white px-4 py-4 flex items-center gap-3`}>
+          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
+          <span className="font-bold text-lg">Đang offline</span>
+        </div>
+        <div className="flex-1 flex items-center justify-center p-8">
+          <div className="text-center">
+            <div className="text-6xl mb-4">📴</div>
+            <h2 className="text-xl font-black text-gray-800 mb-2">Chủ đề chưa được tải offline</h2>
+            <p className="text-gray-500 text-sm mb-6 max-w-xs mx-auto">Kết nối internet để xem nội dung này, hoặc nhấn nút tải (↓) khi có mạng trước khi vào chế độ offline.</p>
+            <button
+              onClick={() => router.back()}
+              className={`${colors.header} text-white font-bold px-6 py-3 rounded-2xl active:scale-95 transition-all`}
+            >
+              ← Quay lại danh sách
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   const games = getGamesForLevel(level)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
