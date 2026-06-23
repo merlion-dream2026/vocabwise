@@ -156,17 +156,35 @@ self.addEventListener('fetch', e => {
         <title>VocabWise — Offline</title>
         <style>
           *{box-sizing:border-box;margin:0;padding:0}
-          body{font-family:-apple-system,sans-serif;background:#f5f3ff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
-          .card{background:white;border-radius:1.5rem;padding:2rem;text-align:center;max-width:320px;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-          h2{color:#7c3aed;font-size:1.25rem;margin:1rem 0 .5rem}
-          p{color:#6b7280;font-size:.875rem;line-height:1.5}
-          a{display:inline-block;margin-top:1.25rem;background:#7c3aed;color:white;padding:.75rem 1.5rem;border-radius:.75rem;text-decoration:none;font-weight:700;font-size:.875rem}
+          body{font-family:-apple-system,sans-serif;background:#f5f3ff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem}
+          .card{background:white;border-radius:1.5rem;padding:1.75rem 1.5rem;max-width:320px;width:100%;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+          h2{color:#7c3aed;font-size:1.2rem;font-weight:800;margin:.75rem 0 .5rem;text-align:center}
+          .sub{color:#6b7280;font-size:.8125rem;text-align:center;margin-bottom:1.25rem}
+          .steps{background:#f5f3ff;border-radius:1rem;padding:1rem 1rem 1rem 1.25rem;margin-bottom:1.25rem}
+          .steps p{color:#5b21b6;font-size:.75rem;font-weight:700;margin-bottom:.5rem}
+          .steps ol{padding-left:1rem}
+          .steps li{color:#4b5563;font-size:.8125rem;line-height:1.6;margin-bottom:.2rem}
+          .steps li b{color:#1f2937}
+          .btns{display:flex;flex-direction:column;gap:.625rem}
+          .btn-primary{background:#7c3aed;color:white;padding:.75rem;border-radius:.875rem;text-decoration:none;font-weight:700;font-size:.875rem;text-align:center;cursor:pointer;border:none;width:100%}
+          .btn-secondary{background:white;color:#7c3aed;border:1.5px solid #ddd8fe;padding:.625rem;border-radius:.875rem;text-decoration:none;font-weight:600;font-size:.8125rem;text-align:center;cursor:pointer;width:100%}
         </style></head>
         <body><div class="card">
-          <div style="font-size:3rem">📴</div>
-          <h2>Đang offline</h2>
-          <p>VocabWise cần kết nối internet. Mở lại khi có mạng, hoặc dùng các chủ đề đã tải offline.</p>
-          <a href="javascript:history.back()">← Quay lại</a>
+          <div style="font-size:2.5rem;text-align:center">📴</div>
+          <h2>Không có kết nối mạng</h2>
+          <p class="sub">VocabWise cần internet để tải trang này.</p>
+          <div class="steps">
+            <p>Nên làm gì?</p>
+            <ol>
+              <li><b>Bật lại wifi</b> hoặc dữ liệu di động</li>
+              <li>Nhấn <b>"Thử lại"</b> bên dưới để tải lại</li>
+              <li>Hoặc mở app → vào <b>Daily</b> → chọn chủ đề đã tải (↓) để học offline</li>
+            </ol>
+          </div>
+          <div class="btns">
+            <button class="btn-primary" onclick="location.reload()">🔄 Thử lại</button>
+            <button class="btn-secondary" onclick="history.back()">← Quay lại trang trước</button>
+          </div>
         </div></body></html>`,
         { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
       ))
