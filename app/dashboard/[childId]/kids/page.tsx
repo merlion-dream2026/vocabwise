@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import Link from 'next/link'
 import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
@@ -51,8 +52,8 @@ export default function KidsLevelPage() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
-      <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-4">
+      <div className="flex items-center gap-3 mb-3 max-w-lg mx-auto">
         <button onClick={() => router.back()} className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <div className="relative w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white/60">
           <Image src={getAvatarSrc(child!.emoji)} fill className="object-cover" alt="" unoptimized />
@@ -63,7 +64,22 @@ export default function KidsLevelPage() {
         </div>
       </div>
 
-      <div className="space-y-3 max-w-lg mx-auto">
+      {/* My Words card */}
+      <div className="max-w-lg mx-auto mb-3">
+        <Link href="/my-words"
+          className="block bg-gradient-to-r from-yellow-50 to-amber-50 border-2 border-yellow-200 rounded-2xl px-4 py-3 active:scale-[0.99] transition-all">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl flex-shrink-0">⭐</span>
+            <div className="flex-1">
+              <p className="font-black text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
+              <p className="text-yellow-700 text-xs mt-0.5">Nhấn ⭐ cạnh từ trong bài học để lưu vào danh sách ôn tập riêng · Free: 20 từ · Pro: không giới hạn</p>
+            </div>
+            <span className="text-yellow-500 font-black text-xl flex-shrink-0">›</span>
+          </div>
+        </Link>
+      </div>
+
+      <div className="space-y-2 max-w-lg mx-auto">
         {LEVEL_ORDER.map(level => {
           const cfg = LEVEL_CONFIG[level]
           const totalWords = WORD_COUNTS[level] ?? 400
@@ -78,15 +94,15 @@ export default function KidsLevelPage() {
           return (
             <button key={level}
               onClick={() => router.push(`/dashboard/${childId}/${level}`)}
-              className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150`}
+              className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-2xl p-3 shadow-sm active:scale-95 transition-transform duration-150`}
             >
               <div className="flex items-center gap-3">
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-3xl shadow-sm flex-shrink-0`}>
+                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${cfg.gradient} flex items-center justify-center text-2xl shadow-sm flex-shrink-0`}>
                   {cfg.emoji}
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                    <span className={`font-black ${cfg.text} text-base`}>{cfg.label}</span>
+                    <span className={`font-black ${cfg.text} text-sm`}>{cfg.label}</span>
                     <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">{cfg.cefr}</span>
                     {isCurrent && (
                       <span className={`text-xs px-2 py-0.5 rounded-full font-bold text-white ${cfg.btn}`}>Đang học</span>
@@ -97,15 +113,15 @@ export default function KidsLevelPage() {
                       ? `30 chủ đề · ${totalWords} từ · Chưa bắt đầu`
                       : `${pct}% · ${seenWords}/${totalWords} từ · ${masteredTopics}/30 chủ đề hoàn thành`}
                   </p>
+                  {!isNotStarted && (
+                    <div className="mt-1.5 h-1.5 bg-white/60 rounded-full overflow-hidden">
+                      <div className={`h-full bg-gradient-to-r ${cfg.bar} rounded-full transition-all duration-500`}
+                        style={{ width: `${Math.max(pct, 1)}%` }} />
+                    </div>
+                  )}
                 </div>
                 <span className={`${cfg.text} font-black text-lg flex-shrink-0`}>→</span>
               </div>
-              {!isNotStarted && (
-                <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
-                  <div className={`h-full bg-gradient-to-r ${cfg.bar} rounded-full transition-all duration-500`}
-                    style={{ width: `${Math.max(pct, 1)}%` }} />
-                </div>
-              )}
             </button>
           )
         })}

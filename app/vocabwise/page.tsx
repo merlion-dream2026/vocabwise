@@ -124,18 +124,14 @@ export default function VocabWisePage() {
         )}
 
         {/* Quick links */}
-        <div className="flex gap-2 flex-wrap justify-center">
-          {hasAnyProgress && (
+        {hasAnyProgress && (
+          <div className="flex gap-2 flex-wrap justify-center">
             <Link href="/vocabwise/placement"
               className="flex items-center gap-1.5 text-gray-400 text-xs font-bold py-1 px-3 rounded-full bg-gray-50 hover:bg-gray-100 transition-colors">
               🎯 Kiểm tra cấp độ
             </Link>
-          )}
-          <Link href="/my-words"
-            className="flex items-center gap-1.5 text-yellow-700 text-xs font-bold py-1 px-3 rounded-full bg-yellow-50 border border-yellow-200 hover:bg-yellow-100 transition-colors">
-            ⭐ Từ của tôi
-          </Link>
-        </div>
+          </div>
+        )}
 
         {/* Placement quiz entry — only for new users who haven't dismissed */}
         {!hasAnyProgress && !placementDismissed && (
