@@ -532,6 +532,7 @@ export default function LevelTopicsPage() {
                     childId={childId}
                     level={level}
                     topicId={topic.id}
+                    topicName={topic.name}
                     downloadedCount={dlCount}
                     downloadLimit={dlLimit}
                     className="absolute top-2 right-2 z-10"
@@ -616,6 +617,7 @@ export default function LevelTopicsPage() {
                     childId={childId}
                     level={level}
                     topicId={topic.id}
+                    topicName={topic.name}
                     downloadedCount={dlCount}
                     downloadLimit={dlLimit}
                     className="absolute right-9 top-1/2 -translate-y-1/2 z-10"
