@@ -530,7 +530,7 @@
         },
         {
           "id": 3,
-          "sentence": "We [share] our works at home — I clean and my sister cooks.",
+          "sentence": "We share our [works] at home — I clean and my sister cooks.",
           "highlighted": "works",
           "options": {
             "A": "works",
