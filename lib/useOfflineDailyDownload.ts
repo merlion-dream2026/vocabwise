@@ -91,6 +91,17 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
               topicList: topics.map(t => ({ id: t.id, name: t.name })),
             })
           }
+          // Pre-cache audio file so mini story plays offline
+          const topicIdx = topics.findIndex(t => t.id === topicId)
+          if (topicIdx >= 0 && 'caches' in window) {
+            const topicNum = String(topicIdx + 1).padStart(2, '0')
+            const audioUrl = `/audio/stories/${level}.${topicNum}.${topicId}.mp3`
+            const audioResp = await fetch(audioUrl).catch(() => null)
+            if (audioResp?.ok) {
+              const audioCache = await caches.open('vocabwise-audio-v1')
+              await audioCache.put(audioUrl, audioResp).catch(() => {})
+            }
+          }
         } catch { /* silent — offline data is best-effort */ }
       })()
     } catch {

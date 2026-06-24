@@ -1,12 +1,16 @@
 // Module-level in-memory sync for commercial app.
 // Call initGameSync() before each game/review, flush() at completion.
 
+import { saveOfflineProgress } from './offlineStorage'
+
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
 export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[] }
 export type SrsEntry = { interval: number; due: string; ef: number }
 
 let _childId = ''
 let _level = ''
+let _topicId = ''
+let _topicName = ''
 let _seen: string[] = []
 let _weakWords: Record<string, WeakEntry> = {}
 let _streak = { current: 0, best: 0, lastActive: '' }
@@ -15,7 +19,7 @@ let _mastery: Record<string, { flashcard: boolean; games: string[] }> = {}
 let _history: Record<string, HistoryEntry> = {}
 let _srs: Record<string, SrsEntry> = {}
 
-type SyncData = {
+export type SyncData = {
   seen?: string[]
   weak_words?: Record<string, WeakEntry | number>
   streak?: { current?: number; best?: number; lastActive?: string }
@@ -42,9 +46,11 @@ function bumpTopic(topicId: string) {
   }
 }
 
-export function initGameSync(childId: string, level: string, data: SyncData) {
+export function initGameSync(childId: string, level: string, data: SyncData, topicId = '', topicName = '') {
   _childId = childId
   _level = level
+  _topicId = topicId
+  _topicName = topicName
   _seen = data?.seen ?? []
   // migrate old number format → WeakEntry
   const rawWeak = (data?.weak_words ?? {}) as Record<string, WeakEntry | number>
@@ -168,9 +174,18 @@ export function recordPerfectGame(_level: string, topicId: string, gameKey: stri
 
 export async function flush() {
   if (!_childId || !_level) return
+
+  const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }
+
+  // Offline: queue progress in localStorage for deferred sync
+  if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
+    saveOfflineProgress(_childId, _level, _topicId, { topicName: _topicName, ...payload })
+    return
+  }
+
   await fetch(`/api/sync/${_childId}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }),
+    body: JSON.stringify(payload),
   }).catch(() => {})
 }

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import { loadDailyTopicOffline } from '@/lib/offlineStorage'
+import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -100,6 +100,8 @@ export default function TopicPage() {
   const [story, setStory] = useState<{ emojis: string[]; en: string; vi: string } | null>(null)
   const [loading, setLoading] = useState(true)
   const [offlineUnavailable, setOfflineUnavailable] = useState(false)
+  const [pendingSync, setPendingSync] = useState<{ topicName: string } | null>(null)
+  const [syncing, setSyncing] = useState(false)
   const [showTrophy, setShowTrophy] = useState(false)
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
@@ -144,6 +146,14 @@ export default function TopicPage() {
       setTopic(foundTopic)
       setAllTopics(levelData?.topics ?? [])
       setStory(storyData ?? null)
+
+      // Cache sync data for offline game initialization
+      saveLastSync(childId, level, syncData)
+
+      // Check for offline-accumulated progress waiting to be synced
+      const pending = loadOfflineProgress(childId, level, topicId)
+      if (pending) setPendingSync({ topicName: pending.topicName })
+
       const m: MasteryData = syncData?.mastery?.[topicId] ?? { flashcard: false, games: [] }
       setMastery(m)
       const done = m.flashcard && m.games.length >= 3
@@ -266,6 +276,42 @@ export default function TopicPage() {
     }
   }
 
+  async function handleSyncProgress(accept: boolean) {
+    if (!accept) {
+      clearOfflineProgress(childId, level, topicId)
+      setPendingSync(null)
+      return
+    }
+    setSyncing(true)
+    try {
+      const { loadOfflineProgress: reload } = await import('@/lib/offlineStorage')
+      const pending = reload(childId, level, topicId)
+      if (pending) {
+        const { level: lvl, seen, weak_words, streak, battle, mastery: offlineMastery, history, srs } = pending
+        const res = await fetch(`/api/sync/${childId}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ level: lvl, seen, weak_words, streak, battle, mastery: offlineMastery, history, srs }),
+        })
+        if (res.ok) {
+          clearOfflineProgress(childId, level, topicId)
+          // Refresh mastery display from synced data
+          const m: MasteryData = offlineMastery[topicId] ?? { flashcard: false, games: [] }
+          setMastery(m)
+          if (m.flashcard && m.games.length >= 3) {
+            const flagKey = `trophy_${childId}_${level}_${topicId}`
+            if (!sessionStorage.getItem(flagKey)) {
+              sessionStorage.setItem(flagKey, '1')
+              setShowTrophy(true)
+            }
+          }
+        }
+      }
+    } catch { /* silent */ }
+    setSyncing(false)
+    setPendingSync(null)
+  }
+
   function resetExercise() {
     setExerciseAnswers({})
     setExerciseSubmitted(false)
@@ -288,6 +334,32 @@ export default function TopicPage() {
           levelName={level}
           onDone={() => setShowTrophy(false)}
         />
+      )}
+
+      {/* Offline progress sync banner */}
+      {pendingSync && (
+        <div className="fixed bottom-20 left-0 right-0 z-50 px-4">
+          <div className="max-w-xl mx-auto bg-white rounded-2xl shadow-xl border border-purple-100 p-4">
+            <p className="text-sm font-bold text-gray-800 mb-1">📶 Bạn vừa có mạng trở lại</p>
+            <p className="text-xs text-gray-500 mb-3">Tiến độ học offline của chủ đề <span className="font-semibold text-gray-700">{pendingSync.topicName}</span> chưa được lưu. Đồng bộ ngay?</p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => handleSyncProgress(true)}
+                disabled={syncing}
+                className={`flex-1 text-sm font-bold py-2.5 rounded-xl transition-all ${syncing ? 'bg-gray-100 text-gray-400' : `${colors.header} text-white active:scale-95`}`}
+              >
+                {syncing ? 'Đang đồng bộ...' : '✓ Đồng bộ'}
+              </button>
+              <button
+                onClick={() => handleSyncProgress(false)}
+                disabled={syncing}
+                className="flex-1 text-sm font-bold py-2.5 rounded-xl bg-gray-100 text-gray-500 active:scale-95 transition-all"
+              >
+                Bỏ qua
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {/* Header */}
