@@ -13,6 +13,8 @@ import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import BangThanhTich from '@/components/BangThanhTich'
 import LeaderboardCard from '../LeaderboardCard'
 import { FaqCard } from './FaqCard'
+import { OfflineStoragePanel } from '@/components/OfflineStoragePanel'
+import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import type { Child, Session, ChildStats, HistEntry, SyncLevel, SyncAllLevels } from '../_types'
 import {
   THEME_COLORS, DEFAULT_COLOR, weakCount, getLast7Days, histDotColor, fmtHistEntry, formatLastActive,
@@ -31,6 +33,15 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
   const [lastRefresh, setLastRefresh] = useState<string | null>(null)
   const [expandedHistory, setExpandedHistory] = useState<Record<string, boolean>>({})
   const [selectedChildId, setSelectedChildId] = useState<string | null>(null)
+  const [dlCount, setDlCount] = useState(0)
+  const [showOffline, setShowOffline] = useState(false)
+
+  useEffect(() => {
+    getDownloadedCount().then(setDlCount).catch(() => {})
+    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
+    window.addEventListener('offline-cache-changed', handler)
+    return () => window.removeEventListener('offline-cache-changed', handler)
+  }, [])
 
   useEffect(() => {
     setSelectedChildId(prev => {
@@ -296,6 +307,28 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       <BangThanhTich
         entries={stats.map(({ child, syncAll }) => ({ child, syncAll: syncAll as Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }> }))}
       />
+
+      {/* Offline downloads card */}
+      <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
+        <button
+          onClick={() => setShowOffline(v => !v)}
+          className="w-full px-4 py-3.5 flex items-center justify-between hover:bg-gray-50 transition-colors"
+        >
+          <div className="flex items-center gap-2">
+            <span className="text-base">💾</span>
+            <span className="font-black text-gray-700 text-sm">Bài tải offline</span>
+            {dlCount > 0 && (
+              <span className="text-xs font-bold bg-purple-100 text-purple-600 px-2 py-0.5 rounded-full">{dlCount} chủ đề</span>
+            )}
+          </div>
+          <span className={`text-gray-400 text-xs font-black transition-transform duration-200 ${showOffline ? 'rotate-180' : ''}`}>▾</span>
+        </button>
+        {showOffline && (
+          <div className="px-4 pb-4 border-t border-gray-100 pt-3">
+            <OfflineStoragePanel />
+          </div>
+        )}
+      </div>
 
       <button onClick={onRefresh} disabled={loading}
         className="w-full bg-white border-2 border-gray-200 rounded-2xl py-3 font-black text-gray-500 active:scale-95 transition-transform disabled:opacity-50">

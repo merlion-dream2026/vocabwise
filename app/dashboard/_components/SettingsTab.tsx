@@ -4,8 +4,6 @@ import { useState, useEffect, FormEvent } from 'react'
 import UpgradeModal from '@/components/UpgradeModal'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
-import { getDownloadedCount } from '@/lib/useOfflineDownload'
-import { OfflineStoragePanel } from '@/components/OfflineStoragePanel'
 import type { Child, Session, ReportSettings } from '../_types'
 import {
   LEVEL_INFO_MAP, THEME_COLORS, DEFAULT_COLOR, VN_DAYS, getPlanBadge, fmtDateTime, urlBase64ToUint8Array, APP_URL,
@@ -368,14 +366,6 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
   const [pwSaving, setPwSaving] = useState(false)
   const [resetMsg, setResetMsg] = useState<Record<string, string>>({})
   const [resetConfirm, setResetConfirm] = useState<string | null>(null)
-  const [dlCount, setDlCount] = useState(0)
-
-  useEffect(() => {
-    getDownloadedCount().then(setDlCount).catch(() => {})
-    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
-    window.addEventListener('offline-cache-changed', handler)
-    return () => window.removeEventListener('offline-cache-changed', handler)
-  }, [])
   const [pinInputs, setPinInputs] = useState<Record<string, string>>({})
   const [pinMsg, setPinMsg] = useState<Record<string, string>>({})
   const [pinSaving, setPinSaving] = useState<Record<string, boolean>>({})
@@ -611,10 +601,6 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
         </CollapsibleCard>
       )}
 
-      {/* Offline storage management */}
-      <CollapsibleCard title="💾 Bài tải offline" subtitle={dlCount > 0 ? `${dlCount} chủ đề · có thể xem khi không có mạng` : 'Tải chủ đề để học offline'} defaultOpen={false}>
-        <OfflineStoragePanel />
-      </CollapsibleCard>
     </div>
   )
 }
