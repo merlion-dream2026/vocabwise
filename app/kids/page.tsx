@@ -156,9 +156,15 @@ export default function HomePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-8 pb-nav flex flex-col items-center">
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-5 pb-nav flex flex-col items-center">
         <div className="w-full max-w-sm space-y-4 animate-pulse">
-          <div className="h-5 bg-gray-200 rounded-full w-2/3 mx-auto mb-6" />
+          <div className="flex items-center justify-between mb-5">
+            <div className="space-y-2">
+              <div className="h-7 bg-gray-200 rounded-full w-36" />
+              <div className="h-3 bg-gray-100 rounded-full w-52" />
+            </div>
+            <div className="w-10 h-10 rounded-full bg-gray-200 flex-shrink-0" />
+          </div>
           {[0, 1].map(i => (
             <div key={i} className="bg-white rounded-3xl p-6 shadow-sm border-2 border-gray-100">
               <div className="flex items-center gap-4 mb-4">
@@ -181,17 +187,42 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-8 pb-nav flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-5 pb-nav flex flex-col items-center">
       <UpgradeBanner
         plan={session?.plan ?? 'free'}
         freeTrialExpiresAt={session?.free_trial_expires_at}
         planEndDate={session?.plan_end_date}
       />
+
+      {/* Header row: title + slogan left, parent button + plan badge right */}
+      <div className="w-full max-w-sm mb-5 flex items-start justify-between">
+        <div>
+          <div className="flex items-center gap-2">
+            <span className="text-3xl leading-none">🌟</span>
+            <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabWise</h1>
+          </div>
+          <p className="text-gray-500 text-sm font-semibold mt-1 leading-snug">
+            Từ vựng tiếng Anh — vui học mỗi ngày
+          </p>
+        </div>
+        <div className="flex flex-col items-end gap-1.5 flex-shrink-0 ml-3 pt-0.5">
+          <button
+            onClick={() => router.push('/dashboard')}
+            className="w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm shadow-md flex items-center justify-center text-xl hover:bg-white transition-colors"
+            title="Phụ huynh"
+          >
+            👨‍👩
+          </button>
+          {session && <PlanBadge plan={session.plan} planEndDate={session.plan_end_date} />}
+        </div>
+      </div>
+
+      {/* Expiry warning */}
       {session && (() => {
         const d = daysUntilExpiry(session)
         if (d === null || d > 3) return null
         return (
-          <div className="fixed top-16 left-1/2 -translate-x-1/2 z-20 w-[calc(100%-2rem)] max-w-sm bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-2.5 flex items-center gap-2.5 shadow-md">
+          <div className="w-full max-w-sm mb-4 bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-2.5 flex items-center gap-2.5 shadow-sm">
             <span className="text-xl flex-shrink-0">⏰</span>
             <p className="text-orange-700 text-xs font-bold leading-snug">
               {d <= 0 ? 'Tài khoản đã hết hạn!' : `Tài khoản hết hạn sau ${d} ngày!`}
@@ -200,27 +231,6 @@ export default function HomePage() {
           </div>
         )
       })()}
-
-      {/* Parent shortcut + plan badge — top right */}
-      <div className="fixed top-4 right-4 z-10 flex flex-col items-end gap-1.5">
-        <button
-          onClick={() => router.push('/dashboard')}
-          className="w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm shadow-md flex items-center justify-center text-xl hover:bg-white transition-colors"
-          title="Phụ huynh"
-        >
-          👨‍👩
-        </button>
-        {session && <PlanBadge plan={session.plan} planEndDate={session.plan_end_date} />}
-      </div>
-
-      {/* Header */}
-      <div className="text-center mb-8">
-        <div className="text-6xl mb-3">🌟</div>
-        <h1 className="text-4xl font-black text-gray-800 tracking-tight">VocabWise</h1>
-        <p className="text-gray-500 mt-2 text-lg font-semibold">
-          Từ vựng tiếng Anh — vui học mỗi ngày
-        </p>
-      </div>
 
       {/* Child cards */}
       <div className="w-full max-w-sm space-y-5">
