@@ -15,9 +15,12 @@ import ECategorize      from './ECategorize'
 import ESynSub          from './ESynSub'
 import ECollocBuilder   from './ECollocBuilder'
 import WritingCheck     from './WritingCheck'
+import PracticeMore    from './PracticeMore'
 
 type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
 type Phase   = 'menu' | ExPhase | 'results'
+
+type GlossaryEntry = { word: string; meaning_vi: string }
 
 type Props = {
   exercises:      ExercisesData
@@ -26,6 +29,7 @@ type Props = {
   cefr?:          string
   prevScores?:    Record<string, number>
   glossaryWords?: string[]
+  glossary?:      GlossaryEntry[]
   isPro?:         boolean
   onBack:         () => void
   onComplete?:    (scores: number[]) => void
@@ -68,7 +72,7 @@ function scoreBar(score: number) {
 }
 
 export default function VWExerciseRunner({
-  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, isPro, onBack, onComplete,
+  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, glossary, isPro, onBack, onComplete,
 }: Props) {
   const [phase,     setPhase]     = useState<Phase>('menu')
   const [scores,    setScores]    = useState<Record<string, number>>({})
@@ -167,6 +171,17 @@ export default function VWExerciseRunner({
             <p className="text-indigo-800 text-sm font-black">✍️ Thực hành viết câu</p>
             <p className="text-indigo-600 text-xs mt-1 leading-relaxed">
               Nâng cấp Pro để dùng AI chấm câu viết — chọn từ vừa học, viết câu, nhận nhận xét và gợi ý cải thiện ngay lập tức.
+            </p>
+          </div>
+        )}
+
+        {isPro && glossary && glossary.length >= 5 ? (
+          <PracticeMore glossary={glossary} topicTitle={topicTitle} cefr={cefr ?? 'B1-C1'} />
+        ) : !isPro && (
+          <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4">
+            <p className="text-emerald-800 text-sm font-black">🔄 Luyện tập thêm</p>
+            <p className="text-emerald-600 text-xs mt-1 leading-relaxed">
+              Nâng cấp Pro để AI tạo bài tập mới vô hạn từ từ vựng của chủ đề này — không bao giờ làm bài cũ hai lần.
             </p>
           </div>
         )}

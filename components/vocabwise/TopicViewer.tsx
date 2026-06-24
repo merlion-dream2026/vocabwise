@@ -525,6 +525,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             cefr={meta.cefr_level}
             prevScores={topicSync?.ex_scores}
             glossaryWords={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => i.word!)}
+            glossary={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => ({ word: i.word!, meaning_vi: i.meaning_vi }))}
             isPro={!!session && session.plan !== 'free'}
             onBack={() => setTab('passage')}
             onComplete={handleExercisesComplete}
