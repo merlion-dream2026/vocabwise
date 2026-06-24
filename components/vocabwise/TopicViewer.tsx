@@ -9,6 +9,7 @@ import UpgradeBanner from '@/components/UpgradeBanner'
 import UpgradeModal from '@/components/UpgradeModal'
 import type { ExercisesData } from './types'
 import WordListPicker from '@/components/WordListPicker'
+import PassageGrammarNote from './PassageGrammarNote'
 
 type GlossaryItem = {
   id: number
@@ -348,16 +349,16 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 </button>
               </div>
             </div>
+            <p className="text-xs text-gray-400 mb-3 text-center">Nhấn vào câu bất kỳ để phân tích ngữ pháp</p>
             <div className="space-y-4">
               {passage.paragraphs.map(para => (
-                <div key={para.index} className="bg-gray-50 rounded-2xl p-4 border border-gray-100">
-                  <p className="text-gray-800 leading-relaxed text-sm"
-                    dangerouslySetInnerHTML={{ __html: renderPassage(wmId ? embedWatermark(para.text_en, wmId) : para.text_en) }} />
-                  {showVI && (
-                    <p className="text-gray-500 text-xs leading-relaxed mt-3 pt-3 border-t border-gray-200 italic"
-                      dangerouslySetInnerHTML={{ __html: renderPassage(para.text_vi) }} />
-                  )}
-                </div>
+                <PassageGrammarNote
+                  key={para.index}
+                  textEn={wmId ? embedWatermark(para.text_en, wmId) : para.text_en}
+                  textVi={para.text_vi}
+                  showVI={showVI}
+                  cefr={meta.cefr_level}
+                />
               ))}
             </div>
             <button onClick={() => setTab('glossary')}
