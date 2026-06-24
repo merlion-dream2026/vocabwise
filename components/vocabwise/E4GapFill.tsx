@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { GapFillItem } from './types'
+import HintButton from './HintButton'
 
 type Props = {
   instruction: string
@@ -79,6 +80,11 @@ export default function E4GapFill({ instruction, wordBank, items, onDone }: Prop
           </p>
         )}
       </div>
+
+      {/* Hint */}
+      {filled === null && (
+        <HintButton key={idx} exerciseType="E4" question={current.sentence} options={wordBank} />
+      )}
 
       {/* Word bank */}
       {/* Screen-reader feedback */}

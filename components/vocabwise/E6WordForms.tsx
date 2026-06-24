@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { WordFormItem } from './types'
+import HintButton from './HintButton'
 
 type Props = {
   instruction: string
@@ -87,6 +88,11 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
       <div role="alert" aria-live="assertive" className="sr-only">
         {checked && (correct ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.answer}.`)}
       </div>
+
+      {/* Hint */}
+      {!checked && (
+        <HintButton key={idx} exerciseType="E6" question={current.sentence} baseWord={current.base_word} />
+      )}
 
       {/* Input */}
       {!checked && (

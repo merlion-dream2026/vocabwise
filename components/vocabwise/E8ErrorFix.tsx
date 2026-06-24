@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { ErrorFixItem } from './types'
+import HintButton from './HintButton'
 
 type Props = {
   instruction: string
@@ -84,6 +85,16 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
           ↑ Từ/cụm gạch chân bị sai — chọn cách sửa đúng
         </p>
       </div>
+
+      {/* Hint */}
+      {selected === null && (
+        <HintButton
+          key={idx}
+          exerciseType="E8"
+          question={current.sentence}
+          options={Object.values(current.options)}
+        />
+      )}
 
       {/* Options A / B / C */}
       <div className="flex flex-col gap-2">

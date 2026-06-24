@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { TFNGItem } from './types'
+import HintButton from './HintButton'
 
 type Choice = 'True' | 'False' | 'Not Given'
 type Props = {
@@ -81,6 +82,11 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
           </p>
         )}
       </div>
+
+      {/* Hint */}
+      {selected === null && (
+        <HintButton key={idx} exerciseType="E5" question={current.statement} />
+      )}
 
       {/* T / F / NG buttons */}
       <div className="flex gap-2">

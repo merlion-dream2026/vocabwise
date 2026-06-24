@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { MCQItem } from './types'
+import HintButton from './HintButton'
 
 type Props = {
   instruction: string
@@ -73,6 +74,11 @@ export default function E3MCQContext({ instruction, items, onDone }: Props) {
           {parts[1]}
         </p>
       </div>
+
+      {/* Hint */}
+      {selected === null && (
+        <HintButton key={idx} exerciseType="E3" question={current.sentence} options={current.options} />
+      )}
 
       {/* Options */}
       <div className="grid grid-cols-2 gap-2">
