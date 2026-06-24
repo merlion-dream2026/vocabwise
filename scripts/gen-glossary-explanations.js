@@ -1,17 +1,15 @@
 // ═══════════════════════════════════════════════════════════════════════════
-// Pre-generate explanation_vi for all vw_glossary words via Groq 8b-instant.
+// Pre-generate explanation_vi for all vw_glossary words via Groq API.
 // Saves to DB → UI shows instantly with zero API calls at runtime.
 //
 // Usage:
-//   node scripts/gen-glossary-explanations.js           → all books
-//   node scripts/gen-glossary-explanations.js --book 1  → Book 1 only (~900 words)
-//   node scripts/gen-glossary-explanations.js --book 2  → Book 2 only
-//   node scripts/gen-glossary-explanations.js --book 3  → Book 3 only (~600 words)
+//   node scripts/gen-glossary-explanations.js           → all books (8b)
+//   node scripts/gen-glossary-explanations.js --book 1  → Book 1 only
+//   node scripts/gen-glossary-explanations.js --book 3 --model 70b → Book 3 with 70b
 //   node scripts/gen-glossary-explanations.js --dry-run → preview count only
 //
-// Token budget (8b-instant free tier: 500k TPD):
-//   ~370 tokens/word → max ~1,350 words/day
-//   Book 1 (900 words) = ~1 day | Book 2 (900) = ~1 day | Book 3 (600) = ~1 day
+// --model 8b  → llama-3.1-8b-instant  (500k TPD) [default]
+// --model 70b → llama-3.3-70b-versatile (100k TPD) — Book 3 needs 2 days
 //
 // Requires env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY
 // ═══════════════════════════════════════════════════════════════════════════
@@ -32,10 +30,18 @@ if (!SUPABASE_URL || !SERVICE_KEY || !GROQ_API_KEY) {
 
 const supabase = createClient(SUPABASE_URL, SERVICE_KEY)
 
-const args    = process.argv.slice(2)
-const bookArg = args.includes('--book') ? args[args.indexOf('--book') + 1] : null
-const dryRun  = args.includes('--dry-run')
-const DELAY_MS = 2200  // ~27 RPM, safely under 30 RPM limit
+const args      = process.argv.slice(2)
+const bookArg   = args.includes('--book')  ? args[args.indexOf('--book')  + 1] : null
+const modelArg  = args.includes('--model') ? args[args.indexOf('--model') + 1] : '8b'
+const dryRun    = args.includes('--dry-run')
+
+const MODEL_ID  = modelArg === '70b' ? 'llama-3.3-70b-versatile'
+                : modelArg === 'cerebras' ? 'gpt-oss-120b'
+                : 'llama-3.1-8b-instant'
+const MODEL_TPD = modelArg === '70b' ? 100_000 : modelArg === 'cerebras' ? 1_000_000 : 500_000
+const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'https://api.groq.com/openai/v1'
+const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
+const DELAY_MS  = 2200  // ~27 RPM, safely under 30 RPM limit
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
@@ -46,11 +52,11 @@ Ví dụ: ${example_en}
 
 Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+  const res = await fetch(`${API_BASE}/chat/completions`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${GROQ_API_KEY}`, 'Content-Type': 'application/json' },
+    headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 250,
       temperature: 0.7,
@@ -82,11 +88,13 @@ async function main() {
 
   const total = items?.length ?? 0
   const estTokens = total * 370
-  const estDays   = Math.ceil(estTokens / 500000)
+  const estDays   = Math.ceil(estTokens / MODEL_TPD)
 
   console.log(`\n📚 Words to process: ${total}`)
+  console.log(`🤖 Model: ${MODEL_ID}`)
   console.log(`⏱  Est. time: ${Math.ceil(total * DELAY_MS / 60000)} min at ${Math.round(60000 / DELAY_MS)} RPM`)
-  console.log(`🔋 Est. tokens: ~${estTokens.toLocaleString()} → ~${estDays} day(s) of 8b-instant free quota`)
+  console.log(`🔋 Est. tokens: ~${estTokens.toLocaleString()} → ~${estDays} day(s) of free quota (${(MODEL_TPD/1000).toFixed(0)}k TPD)`)
+  if (estDays > 1) console.log(`⚠️  Needs ${estDays} days — script stops when daily limit hit, re-run tomorrow to continue`)
 
   if (dryRun || total === 0) {
     if (total === 0) console.log('\n✅ All words already have explanations!')
