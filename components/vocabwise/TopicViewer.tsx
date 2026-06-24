@@ -83,6 +83,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [wmId, setWmId]     = useState('')
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
+  const [grammarMode, setGrammarMode] = useState(false)
   const [flashcardMode, setFlashcardMode] = useState(false)
   const [wordClassMode, setWordClassMode] = useState(false)
 
@@ -348,19 +349,42 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                   className="text-xs font-black px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
                   {showVI ? '🇬🇧 Ẩn dịch' : '🇻🇳 Xem dịch'}
                 </button>
+                <button onClick={() => setGrammarMode(v => !v)}
+                  className={`text-xs font-black px-3 py-1.5 rounded-full transition-colors ${
+                    grammarMode
+                      ? 'bg-amber-200 text-amber-700 hover:bg-amber-300'
+                      : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                  }`}>
+                  📖 Phân tích
+                </button>
               </div>
             </div>
-            <p className="text-xs text-gray-400 mb-3 text-center">Nhấn vào câu bất kỳ để phân tích ngữ pháp</p>
+            {grammarMode && (
+              <p className="text-xs text-amber-600 bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 mb-3 text-center font-bold">
+                📖 Nhấn vào câu bất kỳ để phân tích ngữ pháp
+              </p>
+            )}
             <div className="space-y-4">
-              {passage.paragraphs.map(para => (
-                <PassageGrammarNote
-                  key={para.index}
-                  textEn={wmId ? embedWatermark(para.text_en, wmId) : para.text_en}
-                  textVi={para.text_vi}
-                  showVI={showVI}
-                  cefr={meta.cefr_level}
-                />
-              ))}
+              {passage.paragraphs.map(para =>
+                grammarMode ? (
+                  <PassageGrammarNote
+                    key={para.index}
+                    textEn={wmId ? embedWatermark(para.text_en, wmId) : para.text_en}
+                    textVi={para.text_vi}
+                    showVI={showVI}
+                    cefr={meta.cefr_level}
+                  />
+                ) : (
+                  <div key={para.index} className="bg-gray-50 rounded-2xl p-4 border border-gray-100">
+                    <p className="text-gray-800 leading-relaxed text-sm"
+                      dangerouslySetInnerHTML={{ __html: renderPassage(wmId ? embedWatermark(para.text_en, wmId) : para.text_en) }} />
+                    {showVI && (
+                      <p className="text-gray-500 text-xs leading-relaxed mt-3 pt-3 border-t border-gray-200 italic"
+                        dangerouslySetInnerHTML={{ __html: renderPassage(para.text_vi) }} />
+                    )}
+                  </div>
+                )
+              )}
             </div>
             <button onClick={() => setTab('glossary')}
               className="w-full mt-6 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
