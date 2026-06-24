@@ -23,6 +23,7 @@ type GlossaryItem = {
   // shared
   meaning_vi: string; example_en: string; example_vi: string
   receptive_productive?: string | null
+  explanation_vi?: string | null
 }
 type Paragraph = { index: number; text_en: string; text_vi: string }
 
@@ -486,10 +487,10 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       )}
                       {!isCollocation && item.word && (
                         <div className="pt-1">
-                          {explanations[item.word] ? (
+                          {(item.explanation_vi || explanations[item.word]) ? (
                             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
                               <p className="text-xs font-black text-indigo-600 mb-1.5">✨ Giải nghĩa</p>
-                              <p className="text-indigo-800 text-xs leading-relaxed">{explanations[item.word]}</p>
+                              <p className="text-indigo-800 text-xs leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
                             </div>
                           ) : (
                             <button

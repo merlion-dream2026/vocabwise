@@ -62,7 +62,7 @@ Cho một gợi ý ngắn bằng tiếng Việt, không tiết lộ đáp án. T
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 150,
       temperature: 0.7,
