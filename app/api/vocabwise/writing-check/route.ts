@@ -8,8 +8,8 @@ export async function POST(req: NextRequest) {
   const { targetWord, sentence, cefr } = await req.json()
   if (!targetWord || !sentence) return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
 
-  const apiKey = process.env.GROQ_API_KEY
-  if (!apiKey) return NextResponse.json({ error: 'GROQ_API_KEY not configured' }, { status: 500 })
+  const apiKey = process.env.CEREBRAS_API_KEY
+  if (!apiKey) return NextResponse.json({ error: 'CEREBRAS_API_KEY not configured' }, { status: 500 })
 
   const prompt = `Bạn là giáo viên IELTS chấm bài viết câu cho học sinh Việt Nam (trình độ ${cefr ?? 'B1-C1'}).
 
@@ -25,14 +25,14 @@ Hãy đánh giá và trả lời theo đúng format JSON sau (không thêm text 
   "improved": "<câu đã được cải thiện nếu cần, giữ ý nghĩa gốc. Để trống '' nếu câu đã tốt>"
 }`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+  const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'gpt-oss-120b',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 300,
       temperature: 0.4,

@@ -32,8 +32,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Not enough vocabulary' }, { status: 400 })
   }
 
-  const apiKey = process.env.GROQ_API_KEY
-  if (!apiKey) return NextResponse.json({ error: 'GROQ_API_KEY not configured' }, { status: 500 })
+  const apiKey = process.env.CEREBRAS_API_KEY
+  if (!apiKey) return NextResponse.json({ error: 'CEREBRAS_API_KEY not configured' }, { status: 500 })
 
   const wordList = glossary
     .map(g => `${g.word} (${g.meaning_vi})`)
@@ -64,14 +64,14 @@ Return ONLY this JSON (no extra text):
   ]
 }`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+  const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'gpt-oss-120b',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 800,
       temperature: 0.8,
