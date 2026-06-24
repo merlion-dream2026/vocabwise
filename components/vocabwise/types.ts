@@ -8,7 +8,8 @@ export type WordFormItem   = { id: number; sentence: string; base_word: string; 
 export type SentenceItem   = { id: number; words: string[]; answer: string }
 export type ErrorFixItem   = {
   id: number; sentence: string; highlighted: string
-  options: { A: string; B: string; C: string }; answer: string; explanation: string
+  options: { A: string; B: string; C: string }; answer: string
+  explanation: string; explanation_vi?: string
 }
 
 export type Exercise =

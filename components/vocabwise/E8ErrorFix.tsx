@@ -110,7 +110,7 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
       {selected !== null && current.explanation && (
         <div className="bg-blue-50 border-2 border-blue-100 rounded-xl p-3">
           <p className="text-sm text-blue-700 leading-relaxed">
-            <span className="font-black">💡 Giải thích: </span>{current.explanation}
+            <span className="font-black">💡 Giải thích: </span>{current.explanation_vi ?? current.explanation}
           </p>
         </div>
       )}
