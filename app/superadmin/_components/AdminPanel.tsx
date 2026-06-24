@@ -15,7 +15,6 @@ import { AnalyticsPanel } from './AnalyticsPanel'
 import { TrendsPanel } from './TrendsPanel'
 import { ReferralStatsPanel } from './ReferralStatsPanel'
 import { FlagsPanel } from './FlagsPanel'
-import { OfflineStoragePanel } from './OfflineStoragePanel'
 
 // ── Admin Panel ───────────────────────────────────────────────────────────────
 export function AdminPanel() {
@@ -26,7 +25,7 @@ export function AdminPanel() {
   const [createMsg, setCreateMsg] = useState('')
   const [editing, setEditing] = useState<Family | null>(null)
   const [search, setSearch] = useState('')
-  const [adminTab, setAdminTab] = useState<'users' | 'finance' | 'settings' | 'flags' | 'referral' | 'analytics' | 'offline'>('users')
+  const [adminTab, setAdminTab] = useState<'users' | 'finance' | 'settings' | 'flags' | 'referral' | 'analytics'>('users')
   const [flagCount, setFlagCount] = useState(0)
   const [filterPlan, setFilterPlan] = useState('all')
   const [filterStatus, setFilterStatus] = useState('all')
@@ -217,7 +216,6 @@ export function AdminPanel() {
     { key: 'referral',  icon: '🎯', text: 'Referral' },
     { key: 'flags',     icon: '⚠️', text: 'Flags' },
     { key: 'settings',  icon: '⚙️', text: 'Settings' },
-    { key: 'offline',   icon: '📴', text: 'Offline' },
   ] as const
 
   return (
@@ -591,14 +589,6 @@ export function AdminPanel() {
           <FlagsPanel onReviewed={() => { setFlagCount(c => Math.max(0, c - 1)) }} />
         )}
 
-        {/* Tab: Offline storage */}
-        {adminTab === 'offline' && (
-          <div className="space-y-4">
-            <h2 className="text-base font-black text-slate-800">📴 Quản lý Offline (thiết bị này)</h2>
-            <p className="text-xs text-slate-500">Danh sách các topic đã tải xuống trong trình duyệt hiện tại. Xóa để giải phóng bộ nhớ.</p>
-            <OfflineStoragePanel />
-          </div>
-        )}
       </div>
     </div>
   )
