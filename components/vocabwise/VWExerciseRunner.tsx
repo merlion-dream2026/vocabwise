@@ -14,18 +14,21 @@ import ESDSameDiff      from './ESDSameDiff'
 import ECategorize      from './ECategorize'
 import ESynSub          from './ESynSub'
 import ECollocBuilder   from './ECollocBuilder'
+import WritingCheck     from './WritingCheck'
 
 type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
 type Phase   = 'menu' | ExPhase | 'results'
 
 type Props = {
-  exercises:   ExercisesData
-  answerKey:   Record<string, Record<string, string>>
-  topicTitle:  string
-  cefr?:       string
-  prevScores?: Record<string, number>
-  onBack:      () => void
-  onComplete?: (scores: number[]) => void
+  exercises:      ExercisesData
+  answerKey:      Record<string, Record<string, string>>
+  topicTitle:     string
+  cefr?:          string
+  prevScores?:    Record<string, number>
+  glossaryWords?: string[]
+  isPro?:         boolean
+  onBack:         () => void
+  onComplete?:    (scores: number[]) => void
 }
 
 const EX_NAMES: Record<string, string> = {
@@ -65,7 +68,7 @@ function scoreBar(score: number) {
 }
 
 export default function VWExerciseRunner({
-  exercises, answerKey, topicTitle, cefr, prevScores, onBack, onComplete,
+  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, isPro, onBack, onComplete,
 }: Props) {
   const [phase,     setPhase]     = useState<Phase>('menu')
   const [scores,    setScores]    = useState<Record<string, number>>({})
@@ -157,12 +160,16 @@ export default function VWExerciseRunner({
           })}
         </div>
 
-        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4">
-          <p className="text-amber-800 text-sm font-black">💡 Luyện thêm</p>
-          <p className="text-amber-700 text-xs mt-1 leading-relaxed">
-            Thử đặt 2–3 câu của riêng bạn dùng những từ vừa học — viết ra giấy hoặc nói to. Không cần nộp, nhưng rất hiệu quả!
-          </p>
-        </div>
+        {isPro && glossaryWords && glossaryWords.length > 0 ? (
+          <WritingCheck words={glossaryWords} cefr={cefr ?? 'B1-C1'} />
+        ) : (
+          <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-4">
+            <p className="text-indigo-800 text-sm font-black">✍️ Thực hành viết câu</p>
+            <p className="text-indigo-600 text-xs mt-1 leading-relaxed">
+              Nâng cấp Pro để dùng AI chấm câu viết — chọn từ vừa học, viết câu, nhận nhận xét và gợi ý cải thiện ngay lập tức.
+            </p>
+          </div>
+        )}
 
         <button
           onClick={() => setShowShare(true)}
