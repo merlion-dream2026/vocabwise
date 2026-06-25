@@ -19,7 +19,7 @@ export async function GET(req: NextRequest) {
     .order('created_at', { ascending: true })
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
-  if (!data?.length) return NextResponse.json([], { headers: { 'Cache-Control': 'private, max-age=60' } })
+  if (!data?.length) return NextResponse.json([], { headers: { 'Cache-Control': 'no-store' } })
 
   // Enrich with streak data from vocab_sync (one query, all levels)
   const childIds = data.map(c => c.id)
@@ -46,7 +46,7 @@ export async function GET(req: NextRequest) {
     streak: streakMap[c.id] ?? { current: 0, lastActive: '' },
   }))
 
-  return NextResponse.json(result, { headers: { 'Cache-Control': 'private, max-age=60' } })
+  return NextResponse.json(result, { headers: { 'Cache-Control': 'no-store' } })
 }
 
 async function getEffectiveMaxKids(familyId: string, plan: string): Promise<{ maxKids: number; isEffectivelyPro: boolean }> {

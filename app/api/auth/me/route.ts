@@ -42,5 +42,5 @@ export async function GET() {
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
     max_kids: data.max_kids ?? globalDefault,
-  }, { headers: { 'Cache-Control': 'private, max-age=30, stale-while-revalidate=60' } })
+  }, { headers: { 'Cache-Control': 'no-store' } })
 }
