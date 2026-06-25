@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -7,6 +8,16 @@ export async function POST(req: NextRequest) {
 
   const { word, pos, meaning_vi, example_en, mode } = await req.json()
   if (!word) return NextResponse.json({ error: 'Missing word' }, { status: 400 })
+
+  // Check DB cache first
+  if (mode === 'kids') {
+    const { data } = await supabase
+      .from('kids_explanations')
+      .select('explanation_vi')
+      .eq('word', word.toLowerCase())
+      .single()
+    if (data?.explanation_vi) return NextResponse.json({ explanation: data.explanation_vi })
+  }
 
   const prompt = mode === 'kids'
     ? `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học tiếng Anh.
@@ -27,7 +38,7 @@ Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phâ
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 250,
       temperature: 0.7,
@@ -41,5 +52,11 @@ Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phâ
 
   const d = await res.json()
   const explanation = d.choices?.[0]?.message?.content?.trim() ?? ''
+
+  // Save to DB for future requests
+  if (mode === 'kids' && explanation) {
+    await supabase.from('kids_explanations').upsert({ word: word.toLowerCase(), explanation_vi: explanation })
+  }
+
   return NextResponse.json({ explanation })
 }
