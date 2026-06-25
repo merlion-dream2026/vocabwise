@@ -16,5 +16,7 @@ Sentry.init({
     'Non-Error promise rejection captured',
     /^Network request failed/,
     /^Load failed/,
+    // Zalo in-app browser injects zaloJSV2 SDK — not our code
+    /zaloJSV2 is not defined/,
   ],
 })

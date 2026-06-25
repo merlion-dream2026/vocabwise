@@ -187,7 +187,7 @@ export default function TopicPage() {
     return () => {
       audioRef.current?.pause()
       audioRef.current = null
-      if (typeof window !== 'undefined') window.speechSynthesis.cancel()
+      if (typeof window !== 'undefined') window.speechSynthesis?.cancel()
     }
   }, [])
 
@@ -250,7 +250,7 @@ export default function TopicPage() {
     if (speaking) {
       audioRef.current?.pause()
       audioRef.current = null
-      window.speechSynthesis.cancel()
+      window.speechSynthesis?.cancel()
       setSpeaking(false)
       return
     }
