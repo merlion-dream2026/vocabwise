@@ -15,7 +15,7 @@ import { getDownloadedCount } from '@/lib/useOfflineDownload'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
-type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[] }
+type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[]; audioSize?: number }
 type MasteryData = { flashcard: boolean; games: string[] }
 
 const FREE_TOPIC_LIMIT = 1
@@ -541,7 +541,7 @@ export default function LevelTopicsPage() {
                       )}
                       {downloadedTopics.has(topic.id) && (
                         <span className="inline-block text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full">
-                          📴 Offline
+                          📴 {topic.audioSize ? `~${Math.round((topic.audioSize + 30720) / 1024)}KB` : 'Offline'}
                         </span>
                       )}
                     </div>
@@ -553,6 +553,7 @@ export default function LevelTopicsPage() {
                     level={level}
                     topicId={topic.id}
                     topicName={topic.name}
+                    audioSize={topic.audioSize ?? 0}
                     downloadedCount={dlCount}
                     downloadLimit={dlLimit}
                     className="absolute top-2 right-2 z-10"
@@ -641,6 +642,7 @@ export default function LevelTopicsPage() {
                     level={level}
                     topicId={topic.id}
                     topicName={topic.name}
+                    audioSize={topic.audioSize ?? 0}
                     downloadedCount={dlCount}
                     downloadLimit={dlLimit}
                     className="absolute right-9 top-1/2 -translate-y-1/2 z-10"

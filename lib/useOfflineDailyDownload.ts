@@ -82,13 +82,14 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
             fetch(`/api/words/${level}`).then(r => r.ok ? r.json() : null).catch(() => null),
             fetch(`/api/stories/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
           ])
-          const topics: { id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[] }[] = levelData?.topics ?? []
+          const topics: { id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[]; audioSize?: number }[] = levelData?.topics ?? []
           const topic = topics.find(t => t.id === topicId)
           if (topic) {
             saveDailyTopicOffline(level, topicId, {
               topic,
               story: storyData,
               topicList: topics.map(t => ({ id: t.id, name: t.name })),
+              audioSize: topic.audioSize ?? 0,
             })
           }
           // Pre-cache audio file so mini story plays offline

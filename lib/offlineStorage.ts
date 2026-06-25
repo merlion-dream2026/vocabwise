@@ -17,6 +17,7 @@ export type DailyOfflineBundle = {
   }
   story: { emojis: string[]; en: string; vi: string } | null
   topicList: { id: string; name: string }[]
+  audioSize: number  // bytes — pre-measured from audio file
 }
 
 export function saveDailyTopicOffline(level: string, topicId: string, data: DailyOfflineBundle): void {

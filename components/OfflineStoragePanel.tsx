@@ -7,23 +7,26 @@ type DownloadEntry = {
   path: string
   type: 'daily' | 'academic'
   label: string
-  dataSize: number
+  downloadSize: number  // audioSize + data overhead, from stored bundle
 }
 
 const DOWNLOAD_CACHE = 'vocabwise-downloads-v1'
+const DATA_OVERHEAD  = 30 * 1024  // ~30KB for words+story JSON
 
 function formatBytes(bytes: number): string {
   if (bytes === 0) return ''
-  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)}KB`
-  return `${(bytes / (1024 * 1024)).toFixed(1)}MB`
+  if (bytes < 1024 * 1024) return `~${Math.round(bytes / 1024)}KB`
+  return `~${(bytes / (1024 * 1024)).toFixed(1)}MB`
 }
 
-function getDailyDataSize(path: string): number {
+function getDailyDownloadSize(path: string): number {
   const m = path.match(/^\/dashboard\/[0-9a-f-]{36}\/([^/]+)\/([^/]+)$/)
   if (!m) return 0
   try {
     const raw = localStorage.getItem(`vw_dl_daily_${m[1]}_${m[2]}`)
-    return raw ? new Blob([raw]).size : 0
+    const bundle = raw ? JSON.parse(raw) : null
+    const audio = (bundle?.audioSize as number) ?? 0
+    return audio > 0 ? audio + DATA_OVERHEAD : 0
   } catch { return 0 }
 }
 
@@ -57,14 +60,14 @@ export function OfflineStoragePanel() {
             const bundle = raw ? JSON.parse(raw) : null
             if (bundle?.topic?.name) label = `${bundle.topic.name}`
           } catch {}
-          return { cacheKey: req.url, path, type: 'daily' as const, label, dataSize: getDailyDataSize(path) }
+          return { cacheKey: req.url, path, type: 'daily' as const, label, downloadSize: getDailyDownloadSize(path) }
         }
         const academic = path.match(/^\/vocabwise\/(book[123])\/(b[123]-t\d+)$/)
         if (academic) {
           const [, book, topicId] = academic
-          return { cacheKey: req.url, path, type: 'academic' as const, label: `${book} / ${topicId}`, dataSize: 0 }
+          return { cacheKey: req.url, path, type: 'academic' as const, label: `${book} / ${topicId}`, downloadSize: 0 }
         }
-        return { cacheKey: req.url, path, type: 'academic' as const, label: path, dataSize: 0 }
+        return { cacheKey: req.url, path, type: 'academic' as const, label: path, downloadSize: 0 }
       })
       setEntries(result)
     } catch {}
@@ -145,7 +148,7 @@ export function OfflineStoragePanel() {
             {selected.size > 0 ? `Đã chọn ${selected.size}` : (
               <>
                 {entries.length} chủ đề đã tải
-                {(() => { const total = entries.reduce((s, e) => s + e.dataSize, 0); return total > 0 ? <span className="text-gray-400 ml-1">· {formatBytes(total)} data</span> : null })()}
+                {(() => { const total = entries.reduce((s, e) => s + e.downloadSize, 0); return total > 0 ? <span className="text-gray-400 ml-1">· {formatBytes(total)}</span> : null })()}
               </>
             )}
           </span>
@@ -169,8 +172,8 @@ export function OfflineStoragePanel() {
               <p className="text-sm font-semibold text-gray-700 truncate">{entry.label}</p>
               <p className="text-xs text-gray-400">
                 {entry.type === 'daily' ? '📱 Daily' : '🎓 Academic'}
-                {entry.dataSize > 0 && <span className="ml-1.5 text-gray-300">·</span>}
-                {entry.dataSize > 0 && <span className="ml-1.5">{formatBytes(entry.dataSize)} data</span>}
+                {entry.downloadSize > 0 && <span className="ml-1.5 text-gray-300">·</span>}
+                {entry.downloadSize > 0 && <span className="ml-1.5 font-medium">{formatBytes(entry.downloadSize)}</span>}
               </p>
             </div>
           </div>
