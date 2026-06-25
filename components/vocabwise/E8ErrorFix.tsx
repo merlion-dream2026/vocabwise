@@ -19,22 +19,27 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
 
   // Highlight the error in the sentence
   const renderSentence = () => {
-    const before = current.sentence.split('[')[0]
-    const after  = current.sentence.split(']')[1] ?? ''
+    const before      = current.sentence.split('[')[0]
+    const after       = current.sentence.split(']')[1] ?? ''
+    const correctWord = current.options[current.answer as keyof typeof current.options]
+
     return (
       <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
         {before}
-        <span className={`inline mx-1 px-2 py-0.5 rounded font-black underline decoration-wavy decoration-red-400 transition-all ${
-          selected === null
-            ? 'bg-red-50 text-red-600'
-            : selected === current.answer
-            ? 'bg-green-100 text-green-700 no-underline'
-            : 'bg-red-100 text-red-600'
-        }`}>
-          {selected !== null && selected !== current.answer
-            ? current.options[current.answer as keyof typeof current.options]
-            : current.highlighted}
-        </span>
+        {selected === null ? (
+          <span className="inline mx-1 px-2 py-0.5 rounded font-black underline decoration-wavy decoration-red-400 bg-orange-50 text-orange-600">
+            {current.highlighted}
+          </span>
+        ) : (
+          <>
+            <span className="inline mx-1 px-1.5 py-0.5 rounded font-black line-through text-red-500 bg-red-50">
+              {current.highlighted}
+            </span>
+            <span className="inline mx-1 px-2 py-0.5 rounded font-black text-green-700 bg-green-100 border border-green-300">
+              {correctWord}
+            </span>
+          </>
+        )}
         {after}
       </p>
     )
