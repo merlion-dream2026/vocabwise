@@ -350,10 +350,10 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                     {speakingId === `ex-${idx}` ? '⏸' : '🔊'}
                   </button>
                   <div>
-                    <p className={`${styles.exampleText} font-bold text-sm leading-snug italic`}>
+                    <p className={`${styles.exampleText} font-bold text-base leading-snug italic`}>
                       "{ex.en}"
                     </p>
-                    <p className="text-gray-500 text-xs mt-0.5 leading-snug">
+                    <p className="text-gray-500 text-sm mt-0.5 leading-snug">
                       {ex.vi}
                     </p>
                   </div>
@@ -367,7 +367,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             {explanations[word.word] ? (
               <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-left">
                 <p className="text-xs font-black text-amber-600 mb-1">✨ Giải nghĩa</p>
-                <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+                <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
               </div>
             ) : (
               <button

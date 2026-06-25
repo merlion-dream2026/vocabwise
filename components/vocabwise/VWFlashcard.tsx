@@ -155,8 +155,8 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
           >
             <span className="text-xl font-black text-indigo-700 text-center">{current.meaning_vi}</span>
-            <p className="text-sm text-gray-600 italic text-center leading-relaxed">"{current.example_en}"</p>
-            <p className="text-xs text-gray-400 italic text-center">{current.example_vi}</p>
+            <p className="text-base text-gray-600 italic text-center leading-relaxed">"{current.example_en}"</p>
+            <p className="text-sm text-gray-400 italic text-center">{current.example_vi}</p>
           </div>
         </div>
       </div>

@@ -483,16 +483,16 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.ipa && (
                         <p className="text-gray-400 text-xs font-mono">{item.ipa}</p>
                       )}
-                      <p className="text-gray-600 text-xs"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
+                      <p className="text-gray-600 text-sm"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
                       <div className="flex items-start gap-1">
-                        <p className="text-blue-700 text-xs font-bold italic flex-1">{item.example_en}</p>
+                        <p className="text-blue-700 text-sm font-bold italic flex-1">{item.example_en}</p>
                         <button
                           onClick={() => speak(item.example_en)}
                           className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors flex-shrink-0 p-0.5 mt-0.5"
                           aria-label="Phát âm câu ví dụ"
                         >🔊</button>
                       </div>
-                      <p className="text-gray-500 text-xs italic">{item.example_vi}</p>
+                      <p className="text-gray-500 text-sm italic">{item.example_vi}</p>
                       {!isCollocation && item.word_family && Object.values(item.word_family).some(v => v) && (
                         <div className="flex flex-wrap gap-1.5 pt-1">
                           {Object.entries(item.word_family).map(([pos, form]) =>
@@ -514,7 +514,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                           {(item.explanation_vi || explanations[item.word]) ? (
                             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
                               <p className="text-xs font-black text-indigo-600 mb-1.5">✨ Giải nghĩa</p>
-                              <p className="text-indigo-800 text-xs leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
+                              <p className="text-indigo-800 text-sm leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
                             </div>
                           ) : (
                             <button
