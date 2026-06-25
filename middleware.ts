@@ -22,7 +22,7 @@ const PUBLIC_PATHS = [
 
 // Auth endpoint rate limits: [max, window seconds]
 const RATE_LIMITS: Record<string, [number, number]> = {
-  '/api/auth/login':           [10, 60],   // 10/min
+  '/api/auth/login':           [20, 60],   // 20/min — shared mobile IPs
   '/api/auth/register':        [5,  300],  // 5/5min
   '/api/auth/forgot-password': [5,  300],  // 5/5min
   '/api/auth/verify-otp':      [10, 60],   // 10/min

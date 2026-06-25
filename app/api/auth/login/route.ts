@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { verifyPassword, createSession, sessionCookieOptions } from '@/lib/auth'
-import { rateLimit } from '@/lib/rateLimit'
 import { verifyTurnstile } from '@/lib/security'
 import { verifyTotp } from '@/lib/totp'
 
@@ -21,11 +20,6 @@ function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate:
 }
 
 export async function POST(req: NextRequest) {
-  const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? 'unknown'
-  if (!(await rateLimit(`login:${ip}`, 20, 60)).allowed) {
-    return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 1 phút.' }, { status: 429 })
-  }
-
   const { username, password, turnstileToken, totpCode, emailOtp } = await req.json().catch(() => ({}))
 
   if (!(await verifyTurnstile(turnstileToken))) {
