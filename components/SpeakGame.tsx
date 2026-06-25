@@ -21,7 +21,7 @@ function getBestMime() {
 }
 
 const MAX_SECS = 8
-type Phase = 'idle' | 'recording' | 'processing' | 'done'
+type Phase = 'idle' | 'countdown' | 'recording' | 'processing' | 'done'
 
 export default function SpeakGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
@@ -33,6 +33,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const [showConfetti, setShowConfetti] = useState(false)
 
   const [phase, setPhase] = useState<Phase>('idle')
+  const [countdown, setCountdown] = useState(3)
   const [transcript, setTranscript] = useState('')
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [unclear, setUnclear] = useState(false)
@@ -45,7 +46,9 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const chunksRef = useRef<BlobPart[]>([])
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const autoStopRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const countdownRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const answeredRef = useRef(false)
+  const autoSpeakCancelRef = useRef(false)
   const speak = useCallback((t: string) => speakWord(t, { rate: 0.85 }), [])
 
   const q = questions[idx]
@@ -63,8 +66,9 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   }, [])
 
   const clearTimers = useCallback(() => {
-    if (timerRef.current)   { clearInterval(timerRef.current);  timerRef.current = null }
-    if (autoStopRef.current){ clearTimeout(autoStopRef.current); autoStopRef.current = null }
+    if (timerRef.current)    { clearInterval(timerRef.current);   timerRef.current = null }
+    if (autoStopRef.current) { clearTimeout(autoStopRef.current); autoStopRef.current = null }
+    if (countdownRef.current){ clearInterval(countdownRef.current); countdownRef.current = null }
   }, [])
 
   useEffect(() => {
@@ -86,8 +90,20 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
     setTimeLeft(MAX_SECS)
     answeredRef.current = false
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
-    const t = setTimeout(() => speak(q.word), 300)
+    autoSpeakCancelRef.current = false
+    const t = setTimeout(() => {
+      speakWord(q.word, {
+        rate: 0.85,
+        onEnd: () => {
+          if (autoSpeakCancelRef.current || !isSentence) return
+          setTimeout(() => {
+            if (!autoSpeakCancelRef.current) speakWord(speakTarget, { rate: 0.85 })
+          }, 400)
+        }
+      })
+    }, 300)
     return () => {
+      autoSpeakCancelRef.current = true
       clearTimeout(t)
       clearTimers()
       window.speechSynthesis?.cancel()
@@ -116,20 +132,32 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
       }
       mr.start()
       mediaRecorderRef.current = mr
-      setPhase('recording')
-      setTimeLeft(MAX_SECS)
 
-      timerRef.current = setInterval(() => {
-        setTimeLeft(prev => {
-          if (prev <= 1) { clearTimers(); return 0 }
-          return prev - 1
-        })
+      // Countdown 3-2-1: MediaRecorder warms up during this time
+      setPhase('countdown')
+      setCountdown(3)
+      let count = 3
+      countdownRef.current = setInterval(() => {
+        count--
+        if (count > 0) {
+          setCountdown(count)
+        } else {
+          clearInterval(countdownRef.current!)
+          countdownRef.current = null
+          setPhase('recording')
+          setTimeLeft(MAX_SECS)
+          timerRef.current = setInterval(() => {
+            setTimeLeft(prev => {
+              if (prev <= 1) { clearTimers(); return 0 }
+              return prev - 1
+            })
+          }, 1000)
+          autoStopRef.current = setTimeout(() => {
+            if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
+            clearTimers()
+          }, MAX_SECS * 1000)
+        }
       }, 1000)
-
-      autoStopRef.current = setTimeout(() => {
-        if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
-        clearTimers()
-      }, MAX_SECS * 1000)
 
     } catch (e: unknown) {
       const name = (e as { name?: string }).name
@@ -241,11 +269,12 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-rose-50">
+      {/* Header */}
       <div className="bg-gradient-to-br from-rose-400 to-pink-500 px-4 pt-12 pb-4 text-white">
         <button onClick={() => router.push(backUrl)} className="text-rose-100 font-bold text-sm flex items-center gap-1 mb-3">← {topic.name}</button>
         <div className="flex items-center justify-between mb-3">
-          <h1 className="text-2xl font-black">🎤 Phát âm cùng AI ✨</h1>
+          <h1 className="text-xl font-black">🎤 Phát âm cùng AI</h1>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{total}</span>
         </div>
         <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
@@ -253,150 +282,143 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
         </div>
       </div>
 
-      <div className="flex-1 bg-gradient-to-b from-rose-50 to-pink-50 flex flex-col items-center justify-center px-4 gap-3">
-        {/* Word card */}
-        <div className="bg-white rounded-3xl p-5 shadow-md w-full text-center">
-          <div className="mb-2 flex justify-center"><WordIcon word={q.word} emoji={q.emoji} emojiClass="text-6xl" iconSize={72} /></div>
-          <p className="text-3xl font-black text-gray-800">{q.word}</p>
-          <p className="text-lg text-gray-500 font-semibold mt-1">{q.meaning}</p>
+      <div className="flex-1 flex flex-col px-4 py-4 gap-4">
+        {/* Target card — word + sentence unified */}
+        <div className="bg-white rounded-3xl p-5 shadow-md w-full">
+          <div className="flex flex-col items-center text-center">
+            <div className="mb-2 flex justify-center">
+              <WordIcon word={q.word} emoji={q.emoji} emojiClass="text-5xl" iconSize={60} />
+            </div>
+            <p className="text-3xl font-black text-gray-800">{q.word}</p>
+            <p className="text-base text-gray-400 font-semibold mt-0.5">{q.meaning}</p>
+          </div>
+
+          {isSentence ? (
+            <>
+              <div className="my-3 border-t border-gray-100" />
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1">
+                  <p className="text-base font-bold text-gray-700 leading-snug">&ldquo;{speakTarget}&rdquo;</p>
+                  {q.examples?.[0]?.vi && (
+                    <p className="text-sm text-gray-400 font-medium mt-1">{q.examples[0].vi}</p>
+                  )}
+                </div>
+                <button onClick={() => speak(speakTarget)}
+                  className="flex-shrink-0 w-9 h-9 rounded-full bg-rose-50 flex items-center justify-center text-lg active:scale-90 transition-all">
+                  🔊
+                </button>
+              </div>
+            </>
+          ) : (
+            <div className="flex justify-center mt-3">
+              <button onClick={() => speak(speakTarget)}
+                className="bg-rose-50 text-rose-400 font-bold px-5 py-2 rounded-xl text-sm flex items-center gap-1.5 active:scale-90 transition-all">
+                🔊 Nghe phát âm
+              </button>
+            </div>
+          )}
         </div>
 
-        {/* Sentence target box */}
-        <div className="bg-indigo-50 border-2 border-indigo-200 rounded-2xl px-4 py-3 w-full text-center">
-          <p className="text-xs text-indigo-400 font-bold uppercase tracking-wide mb-1">
-            {isSentence ? 'Đọc câu này' : 'Đọc từ này'}
-          </p>
-          <p className="text-lg font-black text-indigo-700">"{speakTarget}"</p>
+        {/* Action zone */}
+        <div className="flex-1 flex flex-col items-center justify-center gap-4">
 
-          {/* Scoring criteria */}
-          <div className="mt-2.5 pt-2 border-t border-indigo-200 flex items-center justify-center gap-1.5 flex-wrap">
-            <span className="text-indigo-400 text-xs">🎯</span>
-            <span className="text-xs text-indigo-500 font-semibold">Đúng khi:</span>
-            <span className="bg-indigo-100 text-indigo-700 text-xs font-black px-2 py-0.5 rounded-full">
-              đúng &quot;{q.word}&quot;
-            </span>
-            {isSentence && (
-              <>
-                <span className="text-xs text-indigo-400 font-bold">+</span>
-                <span className="bg-indigo-100 text-indigo-700 text-xs font-black px-2 py-0.5 rounded-full">
-                  ≥{Math.ceil(speakTarget.split(' ').length * 0.7)}/{speakTarget.split(' ').length} từ
-                </span>
-              </>
-            )}
-          </div>
+          {phase === 'idle' && (
+            <>
+              <button onClick={startRecording}
+                className="w-20 h-20 rounded-full bg-rose-400 shadow-xl flex items-center justify-center text-4xl active:scale-90 hover:bg-rose-500 transition-all">
+                🎤
+              </button>
+              {micError
+                ? <p className="text-red-500 font-semibold text-sm text-center max-w-xs">{micError}</p>
+                : <p className="text-gray-400 font-semibold text-sm">Bấm để đọc</p>
+              }
+            </>
+          )}
+
+          {phase === 'countdown' && (
+            <>
+              <div className="w-20 h-20 rounded-full bg-rose-100 border-4 border-rose-300 flex items-center justify-center animate-pulse">
+                <span className="text-5xl font-black text-rose-500">{countdown}</span>
+              </div>
+              <p className="text-rose-400 font-bold text-sm">Chuẩn bị đọc...</p>
+              <button onClick={retry} className="text-gray-300 text-xs font-semibold underline active:scale-95 transition-all">Huỷ</button>
+            </>
+          )}
+
+          {phase === 'recording' && (
+            <>
+              <button onClick={stopRecording}
+                className="w-20 h-20 rounded-full bg-rose-600 shadow-xl flex items-center justify-center text-3xl animate-pulse active:scale-95 transition-all">
+                ⏹️
+              </button>
+              <p className="text-rose-500 font-bold text-sm animate-pulse">Đang thu âm...</p>
+              <div className="w-full">
+                <div className="w-full bg-rose-100 rounded-full h-2 overflow-hidden">
+                  <div className="h-full bg-rose-400 rounded-full transition-all duration-1000"
+                    style={{ width: `${(timeLeft / MAX_SECS) * 100}%` }} />
+                </div>
+                <p className="text-rose-300 text-xs font-semibold text-center mt-1">{timeLeft}s · bấm ⏹️ để dừng</p>
+              </div>
+            </>
+          )}
+
+          {phase === 'processing' && (
+            <>
+              <div className="w-16 h-16 rounded-full bg-indigo-50 flex items-center justify-center text-3xl animate-spin">⏳</div>
+              <p className="text-indigo-400 font-bold text-sm">Đang chấm điểm...</p>
+            </>
+          )}
+
+          {phase === 'done' && unclear && (
+            <div className="w-full flex flex-col gap-3">
+              <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 text-center">
+                <p className="text-2xl mb-1">🔄</p>
+                <p className="font-black text-amber-700">Chưa nghe rõ tiếng Anh</p>
+                <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
+              </div>
+              {playbackUrl && (
+                <button onClick={() => new Audio(playbackUrl).play()}
+                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                  ▶️ Nghe lại giọng của bạn
+                </button>
+              )}
+              <div className="flex gap-3">
+                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-black py-3 rounded-2xl shadow-md active:scale-95 transition-all">🎤 Thử lại</button>
+                <button onClick={() => advance(1)} className="flex-1 bg-white border-2 border-gray-100 text-gray-400 font-bold py-3 rounded-2xl active:scale-95 transition-all">Bỏ qua →</button>
+              </div>
+            </div>
+          )}
+
+          {phase === 'done' && !unclear && (
+            <div className="w-full flex flex-col gap-3">
+              <div className={`rounded-2xl p-4 text-center border-2 ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
+                <p className="text-2xl mb-1">{isCorrect ? '✅' : '❌'}</p>
+                {transcript && (
+                  <p className="font-bold text-gray-600 text-sm">Bạn đọc: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
+                )}
+                {!isCorrect && (
+                  <p className="text-green-600 font-bold text-sm mt-1">Đáp án: &ldquo;{speakTarget}&rdquo;</p>
+                )}
+              </div>
+              {playbackUrl && (
+                <button onClick={() => new Audio(playbackUrl).play()}
+                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                  ▶️ Nghe lại giọng của bạn
+                </button>
+              )}
+              <div className="flex gap-3">
+                <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
+                <button onClick={() => advance(1)} className={`flex-1 font-black py-3 rounded-2xl shadow-md text-white active:scale-95 transition-all ${isCorrect ? 'bg-green-500' : 'bg-rose-500'}`}>
+                  {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
+                </button>
+              </div>
+            </div>
+          )}
         </div>
-
-        <button onClick={() => speak(speakTarget)}
-          className="bg-rose-100 text-rose-600 font-bold px-6 py-2.5 rounded-xl text-sm flex items-center gap-2 active:scale-90 transition-all">
-          🔊 Nghe mẫu
-        </button>
-
-        {/* Idle */}
-        {phase === 'idle' && (
-          <div className="flex flex-col items-center gap-3 w-full">
-            <button onClick={startRecording}
-              className="w-24 h-24 rounded-full bg-rose-400 shadow-lg flex items-center justify-center text-4xl active:scale-90 hover:bg-rose-500 transition-all">
-              🎤
-            </button>
-            {micError
-              ? <p className="text-red-600 font-semibold text-sm text-center max-w-xs">{micError}</p>
-              : <p className="text-gray-500 font-semibold text-sm text-center">Bấm micro rồi đọc to</p>
-            }
-            <button onClick={() => advance(1)} className="text-gray-500 font-semibold text-sm underline active:scale-95 transition-all">
-              Bỏ qua →
-            </button>
-          </div>
-        )}
-
-        {/* Recording */}
-        {phase === 'recording' && (
-          <div className="flex flex-col items-center gap-3 w-full">
-            <button onClick={stopRecording}
-              className="w-24 h-24 rounded-full bg-rose-600 shadow-lg flex items-center justify-center text-4xl animate-pulse active:scale-95 transition-all">
-              ⏹️
-            </button>
-            <p className="text-rose-500 font-bold text-sm animate-pulse">Đang thu âm... · bấm ⏹️ để dừng</p>
-            <div className="w-full bg-rose-100 rounded-full h-2.5 overflow-hidden">
-              <div
-                className="h-full bg-rose-400 rounded-full transition-all duration-1000"
-                style={{ width: `${(timeLeft / MAX_SECS) * 100}%` }}
-              />
-            </div>
-            <p className="text-rose-400 text-xs font-semibold">Tự động dừng sau {timeLeft}s</p>
-          </div>
-        )}
-
-        {/* Processing */}
-        {phase === 'processing' && (
-          <div className="flex flex-col items-center gap-3 py-4">
-            <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center text-3xl animate-spin">
-              ⏳
-            </div>
-            <p className="text-indigo-500 font-bold text-sm">Đang chấm điểm...</p>
-          </div>
-        )}
-
-        {/* Done — Unclear (Whisper hallucinated to another language) */}
-        {phase === 'done' && unclear && (
-          <div className="w-full flex flex-col gap-3">
-            <div className="rounded-2xl p-4 text-center border-2 bg-amber-50 border-amber-300">
-              <p className="text-3xl mb-2">🔄</p>
-              <p className="font-black text-amber-700 text-base">Chưa nghe rõ tiếng Anh</p>
-              <p className="text-amber-600 text-sm mt-1 font-semibold">Đọc to hơn và gần micro hơn nhé!</p>
-            </div>
-            {playbackUrl && (
-              <button onClick={() => new Audio(playbackUrl).play()}
-                className="w-full bg-white border-2 border-rose-200 text-rose-600 font-bold text-base py-3 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
-                ▶️ Nghe lại giọng của bạn
-              </button>
-            )}
-            <div className="flex gap-3">
-              <button onClick={retry}
-                className="flex-1 bg-rose-500 text-white font-black text-base py-3 rounded-2xl shadow-md active:scale-95 transition-all">
-                🎤 Thử lại
-              </button>
-              <button onClick={() => advance(1)}
-                className="flex-1 bg-white border-2 border-gray-200 text-gray-500 font-bold text-base py-3 rounded-2xl active:scale-95 transition-all">
-                Bỏ qua →
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* Done — Correct / Wrong */}
-        {phase === 'done' && !unclear && (
-          <div className="w-full flex flex-col gap-3">
-            <div className={`rounded-2xl p-4 text-center border-2 ${isCorrect ? 'bg-green-50 border-green-400' : 'bg-red-50 border-red-400'}`}>
-              <p className="text-3xl mb-2">{isCorrect ? '✅' : '❌'}</p>
-              {transcript && (
-                <p className="font-bold text-gray-700 text-sm">Bạn đọc: <span className="italic">"{transcript}"</span></p>
-              )}
-              {!isCorrect && (
-                <p className="text-green-700 font-bold text-sm mt-1">Đáp án: <span className="not-italic">"{speakTarget}"</span></p>
-              )}
-            </div>
-            {playbackUrl && (
-              <button onClick={() => new Audio(playbackUrl).play()}
-                className="w-full bg-white border-2 border-rose-200 text-rose-600 font-bold text-base py-3 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
-                ▶️ Nghe lại giọng của bạn
-              </button>
-            )}
-            <div className="flex gap-3">
-              <button onClick={retry}
-                className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-bold text-base py-3 rounded-2xl active:scale-95 transition-all">
-                🔄 Thử lại
-              </button>
-              <button onClick={() => advance(1)}
-                className={`flex-1 font-black text-base py-3 rounded-2xl shadow-md text-white ${isCorrect ? 'bg-green-500' : 'bg-rose-500'}`}>
-                {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
-              </button>
-            </div>
-          </div>
-        )}
 
         {/* Prev / Next nav */}
-        {(phase === 'idle' || phase === 'done') && (
-          <div className="flex justify-between w-full">
+        {(phase === 'idle' || phase === 'countdown' || phase === 'done') && (
+          <div className="flex justify-between w-full pb-2">
             <button onClick={() => advance(-1)} disabled={idx === 0}
               className="text-gray-300 disabled:opacity-30 font-bold text-sm flex items-center gap-1 active:scale-95 transition-all">
               ← Từ trước

@@ -149,24 +149,79 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   }
 
   useEffect(() => {
-    const cid = typeof window !== 'undefined' ? localStorage.getItem('vw_active_child') : null
-    if (!cid) return
-    setChildId(cid)
-    Promise.all([
-      fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null),
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-      fetch(`/api/vocabwise/wordlist?topic_id=${topicId}`).then(r => r.ok ? r.json() : { saved: [] }),
-    ]).then(([d, sess, wl]) => {
-      const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
-      setFullSync(mastery)
-      setTopicSync(mastery[topicId] ?? null)
-      setSavedSrs(d?.srs ?? {})
-      setSavedHistory(d?.history ?? {})
-      setSession(sess)
-      if (sess?.familyId && sess.familyId !== 'superadmin') setWmId(sess.familyId)
-      setSavedWords(new Set((wl.saved ?? []).map((w: { word: string }) => w.word)))
-    }).catch(() => {})
+    const storedCid = typeof window !== 'undefined'
+      ? (localStorage.getItem('vw_active_child') ?? localStorage.getItem('nav_child_id'))
+      : null
+
+    const initWithChild = (resolvedCid: string | null) => {
+      if (resolvedCid && !localStorage.getItem('vw_active_child')) {
+        localStorage.setItem('vw_active_child', resolvedCid)
+      }
+      if (!resolvedCid) {
+        fetch('/api/auth/me').then(r => r.ok ? r.json() : null).then(setSession).catch(() => {})
+        return
+      }
+      setChildId(resolvedCid)
+      Promise.all([
+        fetch(`/api/sync/${resolvedCid}?level=academic`).then(r => r.ok ? r.json() : null),
+        fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+        fetch(`/api/vocabwise/wordlist?topic_id=${topicId}`).then(r => r.ok ? r.json() : { saved: [] }),
+      ]).then(([d, sess, wl]) => {
+        const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}
+        setFullSync(mastery)
+        setTopicSync(mastery[topicId] ?? null)
+        setSavedSrs(d?.srs ?? {})
+        setSavedHistory(d?.history ?? {})
+        setSession(sess)
+        if (sess?.familyId && sess.familyId !== 'superadmin') setWmId(sess.familyId)
+        setSavedWords(new Set((wl.saved ?? []).map((w: { word: string }) => w.word)))
+      }).catch(() => {})
+    }
+
+    if (storedCid) {
+      initWithChild(storedCid)
+    } else {
+      fetch('/api/children').then(r => r.ok ? r.json() : [])
+        .then((children: { id: string }[]) => initWithChild(children[0]?.id ?? null))
+        .catch(() => initWithChild(null))
+    }
   }, [topicId])
+
+  const saveAcademicSync = (newFull: Record<string, AcademicTopicSync>, history: typeof savedHistory, srs: typeof savedSrs) => {
+    if (!childId) return
+    fetch(`/api/sync/${childId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        level: 'academic',
+        mastery: newFull,
+        seen: [],
+        weak_words: {},
+        streak: {},
+        battle: {},
+        history,
+        srs,
+      }),
+    }).catch(() => {})
+  }
+
+  const handleSingleExDone = (_exPhase: string, score: number, exType: string) => {
+    if (!childId || !exType) return
+    const prevSync = fullSync[topicId]
+    const prevExScores = prevSync?.ex_scores ?? {}
+    const ex_scores = { ...prevExScores, [exType]: Math.max(score, prevExScores[exType] ?? 0) }
+    const total = Object.values(ex_scores).reduce((s, v) => s + v, 0)
+    const newSync: AcademicTopicSync = {
+      read: prevSync?.read ?? true,
+      ex_scores,
+      completed: true,
+      mastered: total >= 20,
+    }
+    const newFull = { ...fullSync, [topicId]: newSync }
+    setFullSync(newFull)
+    setTopicSync(newSync)
+    saveAcademicSync(newFull, savedHistory, savedSrs)
+  }
 
   const handleExercisesComplete = (scores: number[]) => {
     const exTypes  = getExerciseTypes(data.exercises)
@@ -210,20 +265,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       }
       setSavedHistory(newHistory)
 
-      fetch(`/api/sync/${childId}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          level: 'academic',
-          mastery:    newFull,
-          seen:       [],
-          weak_words: {},
-          streak:     {},
-          battle:     {},
-          history:    newHistory,
-          srs:        newSrs,
-        }),
-      }).catch(() => {})
+      saveAcademicSync(newFull, newHistory, newSrs)
     }
   }
 
@@ -554,6 +596,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             isPro={!!session && session.plan !== 'free'}
             onBack={() => setTab('passage')}
             onComplete={handleExercisesComplete}
+            onExDone={handleSingleExDone}
           />
         </div>
 

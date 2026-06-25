@@ -33,6 +33,7 @@ type Props = {
   isPro?:         boolean
   onBack:         () => void
   onComplete?:    (scores: number[]) => void
+  onExDone?:      (exPhase: ExPhase, score: number, exType: string) => void
 }
 
 const EX_NAMES: Record<string, string> = {
@@ -72,7 +73,7 @@ function scoreBar(score: number) {
 }
 
 export default function VWExerciseRunner({
-  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, glossary, isPro, onBack, onComplete,
+  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, glossary, isPro, onBack, onComplete, onExDone,
 }: Props) {
   const [phase,     setPhase]     = useState<Phase>('menu')
   const [scores,    setScores]    = useState<Record<string, number>>({})
@@ -80,12 +81,24 @@ export default function VWExerciseRunner({
   const savedRef = useRef(false)
 
   const availablePhases = PHASE_ORDER.filter(p => getExData(exercises, p))
-  const doneCount  = availablePhases.filter(p => scores[p] !== undefined).length
-  const totalScore = availablePhases.reduce((s, p) => s + (scores[p] ?? 0), 0)
+
+  // Map prevScores (keyed by ex TYPE like E1, E3) back to phase (ex1, ex2…)
+  const getPrevScore = (exPhase: ExPhase): number | undefined => {
+    const d = getExData(exercises, exPhase)
+    if (!d || !prevScores) return undefined
+    return prevScores[d.type]
+  }
+
+  const doneCount  = availablePhases.filter(p => scores[p] !== undefined || getPrevScore(p) !== undefined).length
+  const totalScore = availablePhases.reduce((s, p) => {
+    const cur = scores[p]
+    if (cur !== undefined) return s + cur
+    return s + (getPrevScore(p) ?? 0)
+  }, 0)
   const maxScore   = availablePhases.length * 5
   const pct        = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0
 
-  // Previous session total
+  // Previous session total (used for banner when no current session scores yet)
   const prevTotal = prevScores
     ? Object.values(prevScores).reduce((s, v) => s + v, 0)
     : 0
@@ -94,9 +107,14 @@ export default function VWExerciseRunner({
     const newScores = { ...scores, [exPhase]: score }
     setScores(newScores)
     setPhase('menu')
-    // Auto-save when last exercise completes — user doesn't need to click Nộp bài
-    const newDone = availablePhases.filter(p => newScores[p] !== undefined).length
-    if (newDone === availablePhases.length && !savedRef.current) {
+
+    // Per-exercise save — fires immediately after each exercise
+    const exType = getExData(exercises, exPhase)?.type ?? ''
+    onExDone?.(exPhase, score, exType)
+
+    // Auto-save full completion when last exercise finishes
+    const newCurrentDone = availablePhases.filter(p => newScores[p] !== undefined).length
+    if (newCurrentDone === availablePhases.length && !savedRef.current) {
       savedRef.current = true
       const scoreArray = PHASE_ORDER.map(p => newScores[p] ?? 0)
       onComplete?.(scoreArray)
@@ -259,8 +277,9 @@ export default function VWExerciseRunner({
   }
 
   // ── MENU ───────────────────────────────────────────────────────────────────
-  const hasPrev   = prevTotal > 0 && doneCount === 0
-  const allDone   = doneCount === availablePhases.length
+  const hasNoCurrentSession = availablePhases.every(p => scores[p] === undefined)
+  const hasPrev   = prevTotal > 0 && hasNoCurrentSession
+  const allDone   = availablePhases.every(p => scores[p] !== undefined || getPrevScore(p) !== undefined)
 
   return (
     <div className="flex flex-col gap-4 pb-4">
@@ -284,16 +303,16 @@ export default function VWExerciseRunner({
         </div>
       )}
 
-      {/* Session progress bar */}
-      {doneCount > 0 && (
+      {/* Session progress bar — only shown when at least one exercise done this session */}
+      {availablePhases.some(p => scores[p] !== undefined) && (
         <div>
           <div className="flex justify-between text-xs font-bold text-gray-400 mb-1">
-            <span>Tiến độ phiên này</span>
-            <span>{totalScore}/{maxScore} · {pct}%</span>
+            <span>Phiên này</span>
+            <span>{availablePhases.reduce((s, p) => s + (scores[p] ?? 0), 0)}/{maxScore}</span>
           </div>
           <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
             <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
-              style={{ width: `${pct}%` }} />
+              style={{ width: `${maxScore > 0 ? Math.round((availablePhases.reduce((s, p) => s + (scores[p] ?? 0), 0) / maxScore) * 100) : 0}%` }} />
           </div>
         </div>
       )}
@@ -301,11 +320,15 @@ export default function VWExerciseRunner({
       {/* Exercise list */}
       <div className="space-y-2.5">
         {availablePhases.map((exPhase, i) => {
-          const d       = getExData(exercises, exPhase)
+          const d             = getExData(exercises, exPhase)
           if (!d) return null
-          const done    = scores[exPhase] !== undefined
-          const s       = scores[exPhase] ?? 0
-          const isBonus = exPhase === 'ex6'
+          const currentScore  = scores[exPhase]
+          const prevScore     = getPrevScore(exPhase)
+          const hasCurrentScore = currentScore !== undefined
+          const isDone        = hasCurrentScore || prevScore !== undefined
+          const displayScore  = hasCurrentScore ? currentScore : prevScore
+          const isBonus       = exPhase === 'ex6'
+          const isPrevOnly    = !hasCurrentScore && prevScore !== undefined
           return (
             <button key={exPhase} onClick={() => setPhase(exPhase)}
               className={`w-full flex items-center gap-3 bg-white border-2 rounded-2xl px-4 py-3.5 active:scale-[0.99] transition-all text-left hover:shadow-sm ${
@@ -313,11 +336,11 @@ export default function VWExerciseRunner({
               }`}>
               {/* Icon */}
               <span className={`w-10 h-10 rounded-xl font-black text-lg flex items-center justify-center flex-shrink-0 ${
-                done ? 'bg-green-50 text-green-500'
+                isDone ? 'bg-green-50 text-green-500'
                 : isBonus ? 'bg-amber-50 text-amber-500'
                 : 'bg-purple-50 text-purple-400'
               }`}>
-                {done ? '✓' : EX_ICONS[d.type] ?? `${i+1}`}
+                {isDone ? '✓' : EX_ICONS[d.type] ?? `${i+1}`}
               </span>
 
               {/* Info */}
@@ -329,10 +352,15 @@ export default function VWExerciseRunner({
               </div>
 
               {/* Status */}
-              {done ? (
+              {isDone ? (
                 <div className="text-right flex-shrink-0 flex flex-col items-end gap-1">
-                  <span className="text-sm font-black text-green-600">{s}/5</span>
-                  {scoreBar(s)}
+                  <span className={`text-sm font-black ${hasCurrentScore ? 'text-green-600' : 'text-gray-400'}`}>
+                    {displayScore}/5
+                  </span>
+                  {scoreBar(displayScore ?? 0)}
+                  {isPrevOnly && (
+                    <span className="text-[10px] text-gray-400 font-bold">lần trước · Làm lại →</span>
+                  )}
                 </div>
               ) : (
                 <span className={`text-xs font-black px-3 py-1.5 rounded-full flex-shrink-0 ${

@@ -113,18 +113,32 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   useEffect(() => {
-    const cid = localStorage.getItem('vw_active_child')
-    Promise.all([
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-      cid
-        ? fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null)
-        : Promise.resolve(null),
-    ]).then(([sess, syncData]) => {
-      setSession(sess)
-      setSyncMap(syncData?.mastery ?? {})
-      setSrsMap(syncData?.srs ?? {})
-      setLoaded(true)
-    }).catch(() => setLoaded(true))
+    const storedCid = localStorage.getItem('vw_active_child') ?? localStorage.getItem('nav_child_id')
+
+    const fetchData = (cid: string | null) => {
+      if (cid && !localStorage.getItem('vw_active_child')) {
+        localStorage.setItem('vw_active_child', cid)
+      }
+      Promise.all([
+        fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+        cid
+          ? fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null)
+          : Promise.resolve(null),
+      ]).then(([sess, syncData]) => {
+        setSession(sess)
+        setSyncMap(syncData?.mastery ?? {})
+        setSrsMap(syncData?.srs ?? {})
+        setLoaded(true)
+      }).catch(() => setLoaded(true))
+    }
+
+    if (storedCid) {
+      fetchData(storedCid)
+    } else {
+      fetch('/api/children').then(r => r.ok ? r.json() : [])
+        .then((children: { id: string }[]) => fetchData(children[0]?.id ?? null))
+        .catch(() => fetchData(null))
+    }
   }, [])
 
   // ─── Skeleton ───────────────────────────────────────────────────────────────
