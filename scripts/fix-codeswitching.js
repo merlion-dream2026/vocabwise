@@ -29,12 +29,15 @@ if (!SUPABASE_URL || !SERVICE_KEY || !GROQ_API_KEY) {
 
 const supabase   = createClient(SUPABASE_URL, SERVICE_KEY)
 const args       = process.argv.slice(2)
-const bookArg    = args.includes('--book') ? args[args.indexOf('--book') + 1] : null
+const bookArg    = args.includes('--book')  ? args[args.indexOf('--book')  + 1] : null
+const modelArg   = args.includes('--model') ? args[args.indexOf('--model') + 1] : '8b'
 const detectOnly = args.includes('--detect-only')
 const dryRun     = args.includes('--dry-run')
 const DELAY_MS   = 2200
 
-if (!bookArg) { console.error('Usage: --book 1|2|3'); process.exit(1) }
+const MODEL_ID = modelArg === '70b' ? 'llama-3.3-70b-versatile' : 'llama-3.1-8b-instant'
+
+if (!bookArg) { console.error('Usage: --book 1|2|3 [--model 8b|70b]'); process.exit(1) }
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
@@ -115,7 +118,7 @@ ${explanationVi}`
     method: 'POST',
     headers: { Authorization: `Bearer ${GROQ_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 400,
       temperature: 0.3,
@@ -172,7 +175,7 @@ async function main() {
     return
   }
 
-  console.log(`\nFixing ${flagged.length} entries with Groq 8b (targeted correction)...`)
+  console.log(`\nFixing ${flagged.length} entries with ${MODEL_ID} (targeted correction)...`)
   console.log('Starting in 3 seconds...')
   await sleep(3000)
 

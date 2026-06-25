@@ -43,3 +43,4 @@ print-book/
 
 # one-time admin scripts
 scripts/reset-*.js
+.env*
