@@ -85,6 +85,7 @@ export default function LevelTopicsPage() {
   const [showAllBadges, setShowAllBadges] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
   const [dlCount, setDlCount] = useState(0)
+  const [downloadedTopics, setDownloadedTopics] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     getDownloadedCount().then(setDlCount).catch(() => {})
@@ -92,6 +93,20 @@ export default function LevelTopicsPage() {
     window.addEventListener('offline-cache-changed', handler)
     return () => window.removeEventListener('offline-cache-changed', handler)
   }, [])
+
+  useEffect(() => {
+    function refresh() {
+      const dl = new Set<string>()
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i)
+        if (k?.startsWith(`vw_dl_daily_${level}_`)) dl.add(k.replace(`vw_dl_daily_${level}_`, ''))
+      }
+      setDownloadedTopics(dl)
+    }
+    refresh()
+    window.addEventListener('offline-cache-changed', refresh)
+    return () => window.removeEventListener('offline-cache-changed', refresh)
+  }, [level])
 
   useEffect(() => {
     const saved = localStorage.getItem('topicViewMode') as 'grid' | 'list' | null
@@ -524,6 +539,11 @@ export default function LevelTopicsPage() {
                           ⚠️ {weakCount} từ yếu
                         </span>
                       )}
+                      {downloadedTopics.has(topic.id) && (
+                        <span className="inline-block text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full">
+                          📴 Offline
+                        </span>
+                      )}
                     </div>
                   )}
                 </button>
@@ -591,6 +611,9 @@ export default function LevelTopicsPage() {
                       )}
                       {!locked && weakCount > 0 && (
                         <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">⚠️ {weakCount}</span>
+                      )}
+                      {!locked && downloadedTopics.has(topic.id) && (
+                        <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full flex-shrink-0">📴</span>
                       )}
                     </div>
                     {!locked && status === 'in_progress' && (
