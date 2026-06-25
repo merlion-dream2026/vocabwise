@@ -23,8 +23,8 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
 const SERVICE_KEY  = process.env.SUPABASE_SERVICE_ROLE_KEY
 const GROQ_API_KEY = process.env.GROQ_API_KEY
 
-if (!SUPABASE_URL || !SERVICE_KEY || !GROQ_API_KEY) {
-  console.error('Missing env vars: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY')
+if (!SUPABASE_URL || !SERVICE_KEY) {
+  console.error('Missing env vars: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY')
   process.exit(1)
 }
 
@@ -34,6 +34,7 @@ const args      = process.argv.slice(2)
 const bookArg   = args.includes('--book')  ? args[args.indexOf('--book')  + 1] : null
 const modelArg  = args.includes('--model') ? args[args.indexOf('--model') + 1] : '8b'
 const dryRun    = args.includes('--dry-run')
+const force     = args.includes('--force')  // overwrite existing entries
 
 const MODEL_ID  = modelArg === '70b' ? 'llama-3.3-70b-versatile'
                 : modelArg === 'cerebras' ? 'gpt-oss-120b'
@@ -43,6 +44,11 @@ const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'http
 const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
 const DELAY_MS  = 2200  // ~27 RPM, safely under 30 RPM limit
 
+if (!API_KEY) {
+  console.error(`Missing env var: ${modelArg === 'cerebras' ? 'CEREBRAS_API_KEY' : 'GROQ_API_KEY'}`)
+  process.exit(1)
+}
+
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
 async function generateExplanation(word, pos, meaning_vi, example_en) {
@@ -50,7 +56,9 @@ async function generateExplanation(word, pos, meaning_vi, example_en) {
 Nghĩa: ${meaning_vi}
 Ví dụ: ${example_en}
 
-Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.`
+Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.
+
+QUY TẮC BẮT BUỘC: Toàn bộ nội dung phải viết hoàn toàn bằng tiếng Việt. Tuyệt đối không dùng từ tiếng Anh trong câu tiếng Việt (ví dụ sai: "bạn nên consider"; đúng: "bạn nên cân nhắc"). Chỉ chấp nhận từ tiếng Anh ở tiêu đề hoặc ký hiệu phiên âm IPA.`
 
   const res = await fetch(`${API_BASE}/chat/completions`, {
     method: 'POST',
@@ -58,7 +66,7 @@ Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phâ
     body: JSON.stringify({
       model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
-      max_tokens: 250,
+      max_tokens: modelArg === 'cerebras' ? 450 : 300,
       temperature: 0.7,
     }),
   })
@@ -71,13 +79,14 @@ Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phâ
 }
 
 async function main() {
-  // Build query — only words (not collocations), missing explanation_vi
+  // Build query — only words (not collocations)
+  // --force: regenerate all (overwrite existing); default: only NULL entries
   let query = supabase
     .from('vw_glossary')
     .select('id, word, pos, meaning_vi, example_en, topic_id')
-    .is('explanation_vi', null)
     .eq('item_type', 'word')
     .order('id')
+  if (!force) query = query.is('explanation_vi', null)
 
   if (bookArg) {
     query = query.like('topic_id', `b${bookArg}-%`)
@@ -90,7 +99,7 @@ async function main() {
   const estTokens = total * 370
   const estDays   = Math.ceil(estTokens / MODEL_TPD)
 
-  console.log(`\n📚 Words to process: ${total}`)
+  console.log(`\n📚 Words to process: ${total}${force ? ' (--force: overwriting existing)' : ''}`)
   console.log(`🤖 Model: ${MODEL_ID}`)
   console.log(`⏱  Est. time: ${Math.ceil(total * DELAY_MS / 60000)} min at ${Math.round(60000 / DELAY_MS)} RPM`)
   console.log(`🔋 Est. tokens: ~${estTokens.toLocaleString()} → ~${estDays} day(s) of free quota (${(MODEL_TPD/1000).toFixed(0)}k TPD)`)
