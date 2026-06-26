@@ -775,5 +775,169 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cleft sentences — introduction (It is...that / What...is)",
+    "vi_grammar_point": "Câu chẻ — cấu trúc nhấn mạnh",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be + focused element + that + clause",
+      "negative": "It + be + not + focused element + that + clause",
+      "question": "It + be + focused element + that + clause?",
+      "variant": "What + clause + be + focused element"
+    },
+    "rule_vi": "Dùng câu chẻ để nhấn mạnh một thành phần trong câu, thường dùng cấu trúc It is/was … that … hoặc What … is ….",
+    "rule_en": "Use cleft sentences to highlight a particular part of a sentence, with the pattern It is/was … that … or What … is ….",
+    "common_error": "❌ *It is the budget determines the scale* → ✅ *It is the budget that determines the scale*",
+    "in_context": [
+      "It is the budget — the total amount of money available — that determines the scale of a film, from small independent dramas to massive blockbusters.",
+      "It is a film's genre — whether it is a thriller, comedy, romance, or documentary — that shapes audience expectations from the first frame.",
+      "It is documentary films that have seen a major rise in popularity on streaming platforms."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu chẻ.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the director who shaped the visual storytelling, the film would have been very different.",
+          "options": [
+            "What",
+            "It is",
+            "That",
+            "It was"
+          ],
+          "answer": "It was"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the most influential sector is the film and television industry.",
+          "options": [
+            "It is",
+            "Which",
+            "What",
+            "That"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the budget determines the scale of a production, the film may be limited.",
+          "options": [
+            "It is",
+            "That",
+            "What",
+            "It was"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the audience loves is a memorable scene.",
+          "options": [
+            "Which",
+            "It is",
+            "What",
+            "That"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the awards that a film wins can boost its prestige.",
+          "options": [
+            "What",
+            "It is",
+            "That",
+            "Which"
+          ],
+          "answer": "What"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "the",
+            "budget",
+            "that",
+            "determines",
+            "the",
+            "scale"
+          ],
+          "answer": "It is the budget that determines the scale"
+        },
+        {
+          "id": 2,
+          "words": [
+            "What",
+            "shapes",
+            "audience",
+            "expectations",
+            "is",
+            "the",
+            "genre"
+          ],
+          "answer": "What shapes audience expectations is the genre"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "was",
+            "the",
+            "director",
+            "who",
+            "guided",
+            "the",
+            "story"
+          ],
+          "answer": "It was the director who guided the story"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ hoặc cụm từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "It is",
+        "It was",
+        "What",
+        "that",
+        "who",
+        "budget"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the budget — the total amount of money available — that determines the scale of a film.",
+          "answer": "It is"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the director who shaped the visual storytelling, the film succeeded.",
+          "answer": "It was"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the genre — whether thriller or comedy — that shapes audience expectations.",
+          "answer": "It is"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the most influential sector is the film and television industry.",
+          "answer": "What"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the awards that a film wins can boost its prestige.",
+          "answer": "What"
+        }
+      ]
+    }
   }
 }

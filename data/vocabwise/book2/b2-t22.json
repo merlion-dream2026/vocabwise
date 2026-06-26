@@ -787,5 +787,162 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Gerunds as subjects and objects",
+    "vi_grammar_point": "Danh động từ làm chủ ngữ và tân ngữ",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Gerund (subject) + verb … | verb + Gerund (object)"
+    },
+    "rule_vi": "Dùng danh động từ làm chủ ngữ khi hành động được xem như một khái niệm chung; dùng làm tân ngữ sau các động từ như enjoy, consider, prefer, …",
+    "rule_en": "Use a gerund as the subject when the action is treated as a thing, and as an object after verbs that take -ing forms.",
+    "common_error": "❌ *To start* a business is risky → ✅ Starting a business is risky",
+    "in_context": [
+      "Starting a new business is an exciting but challenging undertaking.",
+      "Understanding who the customer is and what they need is essential.",
+      "Building a strong brand — the identity and image that makes a business recognisable — is one of the most valuable investments an owner can make."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng danh động từ (‑ing) phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ a business plan helps you stay organized.",
+          "options": [
+            "To write",
+            "Writing",
+            "Write",
+            "Wrote"
+          ],
+          "answer": "Writing"
+        },
+        {
+          "id": 2,
+          "sentence": "She enjoys _____ new markets.",
+          "options": [
+            "exploring",
+            "explored",
+            "explore",
+            "explores"
+          ],
+          "answer": "exploring"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the competition early can give you an advantage.",
+          "options": [
+            "Analyzed",
+            "Analyzing",
+            "Analyze",
+            "Analysis"
+          ],
+          "answer": "Analyzing"
+        },
+        {
+          "id": 4,
+          "sentence": "They consider _____ a partner before signing the contract.",
+          "options": [
+            "hiring",
+            "to hire",
+            "hire",
+            "hired"
+          ],
+          "answer": "hiring"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ profits is the main goal of most startups.",
+          "options": [
+            "Increase",
+            "Increasing",
+            "Increased",
+            "Increases"
+          ],
+          "answer": "Increasing"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Launching",
+            "a",
+            "product",
+            "requires",
+            "careful",
+            "planning"
+          ],
+          "answer": "Launching a product requires careful planning"
+        },
+        {
+          "id": 2,
+          "words": [
+            "They",
+            "appreciate",
+            "investing",
+            "in",
+            "innovative",
+            "ideas"
+          ],
+          "answer": "They appreciate investing in innovative ideas"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Managing",
+            "cash",
+            "flow",
+            "is",
+            "crucial",
+            "for",
+            "growth"
+          ],
+          "answer": "Managing cash flow is crucial for growth"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền danh động từ (‑ing) thích hợp vào chỗ trống.",
+      "word_bank": [
+        "writing",
+        "analyzing",
+        "hiring",
+        "expanding",
+        "saving",
+        "negotiating"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ a clear mission statement is the first step.",
+          "answer": "writing"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ market trends helps you stay ahead.",
+          "answer": "analyzing"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ new talent can boost your team's capabilities.",
+          "answer": "hiring"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ into new regions should be done after solidifying the home market.",
+          "answer": "expanding"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ costs where possible improves profitability.",
+          "answer": "saving"
+        }
+      ]
+    }
   }
 }

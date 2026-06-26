@@ -709,5 +709,165 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Collocations with get (get a promotion / get fired)",
+    "vi_grammar_point": "Collocation với get trong ngữ cảnh công việc",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + get + Noun (e.g., get a promotion) / Subject + get + past participle (e.g., get fired)",
+      "negative": "Subject + do/does not + get + Noun (e.g., does not get a raise)",
+      "question": "Do/Does + subject + get + Noun? (e.g., Does she get a promotion?)",
+      "variant": "Subject + get + into + Noun (e.g., get into management)"
+    },
+    "rule_vi": "Dùng 'get' + danh từ hoặc động từ dạng quá khứ để nói về việc nhận được một kết quả trong công việc.",
+    "rule_en": "Use 'get' + noun or past participle to express receiving or experiencing something at work.",
+    "common_error": "❌ He get a promotion  →  ✅ He gets a promotion",
+    "in_context": [
+      "Being reliable and hardworking often gets a promotion.",
+      "However, if someone is unhappy in their job, they may get fired.",
+      "Most people get a retirement after about 40 years."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "After three years at the company, Maria ___ a promotion.",
+          "options": [
+            "gets",
+            "got",
+            "getting",
+            "get"
+          ],
+          "answer": "gets"
+        },
+        {
+          "id": 2,
+          "sentence": "If you constantly miss deadlines, you might ___ fired.",
+          "options": [
+            "be",
+            "got",
+            "get",
+            "gets"
+          ],
+          "answer": "get"
+        },
+        {
+          "id": 3,
+          "sentence": "Tom ___ a raise after his performance review.",
+          "options": [
+            "gets",
+            "got",
+            "getting",
+            "get"
+          ],
+          "answer": "gets"
+        },
+        {
+          "id": 4,
+          "sentence": "Employees who are dishonest often ___ dismissed.",
+          "options": [
+            "gets",
+            "get",
+            "got",
+            "getting"
+          ],
+          "answer": "get"
+        },
+        {
+          "id": 5,
+          "sentence": "She hopes to ___ a new position in the marketing department.",
+          "options": [
+            "get",
+            "gets",
+            "got",
+            "getting"
+          ],
+          "answer": "get"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "gets",
+            "a",
+            "promotion",
+            "after",
+            "hard",
+            "work"
+          ],
+          "answer": "she gets a promotion after hard work"
+        },
+        {
+          "id": 2,
+          "words": [
+            "they",
+            "get",
+            "fired",
+            "if",
+            "late",
+            "again"
+          ],
+          "answer": "they get fired if late again"
+        },
+        {
+          "id": 3,
+          "words": [
+            "John",
+            "gets",
+            "a",
+            "raise",
+            "next",
+            "month"
+          ],
+          "answer": "John gets a raise next month"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "promotion",
+        "fired",
+        "raise",
+        "dismissed",
+        "transfer",
+        "vacation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She will get ___ after the successful project.",
+          "answer": "promotion"
+        },
+        {
+          "id": 2,
+          "sentence": "If you break the company rules, you may get ___ .",
+          "answer": "fired"
+        },
+        {
+          "id": 3,
+          "sentence": "Hard work can lead you to get a ___.",
+          "answer": "raise"
+        },
+        {
+          "id": 4,
+          "sentence": "Employees who are repeatedly absent might get ___.",
+          "answer": "dismissed"
+        },
+        {
+          "id": 5,
+          "sentence": "After the reorganization, many staff will get ___ to another department.",
+          "answer": "transfer"
+        }
+      ]
+    }
   }
 }

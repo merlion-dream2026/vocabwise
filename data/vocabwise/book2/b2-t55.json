@@ -738,5 +738,177 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Impersonal passive + reporting verbs",
+    "vi_grammar_point": "Bị động phi nhân xưng",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be (is/was) + past participle (said, believed, reported, claimed) + that + clause",
+      "negative": "It + be + not + past participle + that + clause",
+      "question": "Is it + past participle + that + clause?",
+      "variant": "It has been + past participle + that + clause"
+    },
+    "rule_vi": "Cấu trúc bị động phi nhân xưng được dùng để truyền đạt thông tin chung mà không nêu rõ người thực hiện, thường đi kèm các động từ báo cáo như *said, believed, reported*.",
+    "rule_en": "The impersonal passive is used to report statements or opinions without specifying the source, using verbs such as *said, believed, reported*.",
+    "common_error": "❌ It said that the experiment succeeded.  →  ✅ It is said that the experiment succeeded.",
+    "in_context": [
+      "It is believed that the scientific method begins with a question — something unknown that a researcher wants to understand.",
+      "It is reported that funding can impact what gets studied and what gets published.",
+      "It is said that every great scientific breakthrough began as a question someone dared to ask."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It _____ that the new vaccine reduces infection rates by 80%.",
+          "options": [
+            "is believed",
+            "has believed",
+            "was believed",
+            "is believing"
+          ],
+          "answer": "is believed"
+        },
+        {
+          "id": 2,
+          "sentence": "It _____ that the climate model predicts a rise of 2°C by 2050.",
+          "options": [
+            "has been reported",
+            "is reported",
+            "was reported",
+            "is reporting"
+          ],
+          "answer": "has been reported"
+        },
+        {
+          "id": 3,
+          "sentence": "It _____ that the study's findings were replicated in three independent labs.",
+          "options": [
+            "were confirmed",
+            "is confirmed",
+            "has been confirmed",
+            "is being confirmed"
+          ],
+          "answer": "has been confirmed"
+        },
+        {
+          "id": 4,
+          "sentence": "It _____ that the government will increase funding for renewable energy research.",
+          "options": [
+            "is said",
+            "was said",
+            "has said",
+            "is saying"
+          ],
+          "answer": "is said"
+        },
+        {
+          "id": 5,
+          "sentence": "It _____ that the peer‑review process helps ensure the reliability of scientific articles.",
+          "options": [
+            "has been argued",
+            "is argued",
+            "was argued",
+            "is arguing"
+          ],
+          "answer": "has been argued"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "believed",
+            "that",
+            "the",
+            "results",
+            "will",
+            "be",
+            "published",
+            "soon"
+          ],
+          "answer": "It is believed that the results will be published soon"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "has",
+            "been",
+            "reported",
+            "that",
+            "the",
+            "experiment",
+            "failed",
+            "due",
+            "to",
+            "equipment",
+            "malfunction"
+          ],
+          "answer": "It has been reported that the experiment failed due to equipment malfunction"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "said",
+            "that",
+            "climate",
+            "change",
+            "impacts",
+            "biodiversity",
+            "worldwide"
+          ],
+          "answer": "It is said that climate change impacts biodiversity worldwide"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "is believed",
+        "has been reported",
+        "is said",
+        "has been confirmed",
+        "is argued",
+        "was suggested"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the new policy will reduce carbon emissions.",
+          "answer": "is believed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that the laboratory results were duplicated by another team.",
+          "answer": "has been confirmed"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that the scientist received the award for her breakthrough.",
+          "answer": "is said"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that the data analysis was flawed, according to the review committee.",
+          "answer": "has been reported"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that the theory will be revised after further testing.",
+          "answer": "is argued"
+        }
+      ]
+    }
   }
 }

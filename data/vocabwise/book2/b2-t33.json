@@ -725,5 +725,177 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Narrative tenses (past simple / continuous / perfect together)",
+    "vi_grammar_point": "Phối hợp các thì quá khứ trong tự sự",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb‑ed (Past Simple) | Subject + was/were + Verb‑ing (Past Continuous) | Subject + had + Verb‑ed (Past Perfect)",
+      "negative": "Subject + did not + Verb (Past Simple) | Subject + was/were not + Verb‑ing (Past Continuous) | Subject + had not + Verb‑ed (Past Perfect)",
+      "question": "Did + Subject + Verb? | Was + Subject + Verb‑ing? | Had + Subject + Verb‑ed?",
+      "variant": "Subject + had been + Verb‑ing (Past Perfect Continuous) – optional for extended narrative"
+    },
+    "rule_vi": "Dùng Past Simple để mô tả hành động hoàn thành, Past Continuous cho hành động đang diễn ra trong quá khứ, và Past Perfect để chỉ hành động đã xảy ra trước một thời điểm hoặc hành động khác trong quá khứ.",
+    "rule_en": "Use Past Simple for completed actions, Past Continuous for ongoing past actions, and Past Perfect for actions that happened before another past event.",
+    "common_error": "❌ *She was wrote the chapter yesterday.* → ✅ *She wrote the chapter yesterday.*",
+    "in_context": [
+      "Books had shaped human culture for thousands of years.",
+      "A skilled author was building a compelling storyline — a sequence of events that keeps the reader turning pages.",
+      "The theme stayed with the reader long after the final chapter."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ trong ngoặc để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When the writer _____ (arrive) at the publisher, he realized the manuscript was missing.",
+          "options": [
+            "arrived",
+            "had arrived",
+            "was arriving",
+            "has arrived"
+          ],
+          "answer": "had arrived"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ (write) the novel for three years before she finally published it.",
+          "options": [
+            "wrote",
+            "had written",
+            "was writing",
+            "writes"
+          ],
+          "answer": "had written"
+        },
+        {
+          "id": 3,
+          "sentence": "While the audience _____ (listen) to the story, the narrator whispered a secret.",
+          "options": [
+            "listened",
+            "was listening",
+            "had listened",
+            "listens"
+          ],
+          "answer": "was listening"
+        },
+        {
+          "id": 4,
+          "sentence": "The protagonist _____ (discover) the hidden door just as the clock struck midnight.",
+          "options": [
+            "discovered",
+            "had discovered",
+            "was discovering",
+            "discovers"
+          ],
+          "answer": "discovered"
+        },
+        {
+          "id": 5,
+          "sentence": "By the time the book _____ (become) a bestseller, the author was already famous.",
+          "options": [
+            "became",
+            "had become",
+            "was becoming",
+            "becomes"
+          ],
+          "answer": "had become"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "had",
+            "the",
+            "author",
+            "finished",
+            "the",
+            "manuscript",
+            "when",
+            "the",
+            "deadline",
+            "approached"
+          ],
+          "answer": "The author had finished the manuscript when the deadline approached"
+        },
+        {
+          "id": 2,
+          "words": [
+            "was",
+            "reading",
+            "the",
+            "novel",
+            "she",
+            "while",
+            "waiting",
+            "for",
+            "her",
+            "coffee"
+          ],
+          "answer": "She was reading the novel while waiting for her coffee"
+        },
+        {
+          "id": 3,
+          "words": [
+            "had",
+            "they",
+            "already",
+            "released",
+            "the",
+            "book",
+            "when",
+            "the",
+            "award",
+            "was",
+            "announced"
+          ],
+          "answer": "They had already released the book when the award was announced"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ đúng để hoàn thành câu.",
+      "word_bank": [
+        "had",
+        "was",
+        "had been",
+        "arrived",
+        "wrote",
+        "become"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The critic _____ at the launch party early.",
+          "answer": "arrived"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ the preface before the main chapters were printed.",
+          "answer": "wrote"
+        },
+        {
+          "id": 3,
+          "sentence": "By 2020, the series _____ a global phenomenon.",
+          "answer": "had been"
+        },
+        {
+          "id": 4,
+          "sentence": "The hall _____ quiet after the final chapter ended.",
+          "answer": "was"
+        },
+        {
+          "id": 5,
+          "sentence": "After the interview, the author _____ exhausted but satisfied.",
+          "answer": "had"
+        }
+      ]
+    }
   }
 }

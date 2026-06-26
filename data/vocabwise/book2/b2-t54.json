@@ -755,5 +755,169 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cause-effect essay language (leads to / results in / is caused by)",
+    "vi_grammar_point": "Ngôn ngữ nhân quả trong văn nghị luận",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + ... + leads to / results in + noun phrase",
+      "negative": "Subject + verb + ... + does not lead to / does not result in + noun phrase",
+      "question": "What leads to / results in ...?",
+      "variant": "Subject + is caused by + noun phrase"
+    },
+    "rule_vi": "Dùng các cụm từ này để diễn tả mối quan hệ nhân‑quả trong các bài luận, nhấn mạnh nguyên nhân và hậu quả.",
+    "rule_en": "Use these expressions to link cause and effect in academic essays.",
+    "common_error": "❌ *Traffic congestion leads the increase of pollution.* → ✅ *Traffic congestion leads to an increase in pollution.*",
+    "in_context": [
+      "Communities that engage their residents in open discussion lead to more durable solutions than those that impose decisions from the top down.",
+      "When residents come together to suggest ideas and deal with shared problems, the results in remarkable improvements.",
+      "High crime rates are caused by a lack of community cohesion."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Traffic congestion ___ increased pollution levels in the city.",
+          "options": [
+            "results in",
+            "leads to",
+            "prevents",
+            "is caused by"
+          ],
+          "answer": "leads to"
+        },
+        {
+          "id": 2,
+          "sentence": "The lack of green spaces ___ higher temperatures during summer.",
+          "options": [
+            "prevents",
+            "causes",
+            "results in",
+            "is caused by"
+          ],
+          "answer": "results in"
+        },
+        {
+          "id": 3,
+          "sentence": "A sense of insecurity among residents ___ high crime rates.",
+          "options": [
+            "leads to",
+            "is caused by",
+            "results in",
+            "eliminates"
+          ],
+          "answer": "leads to"
+        },
+        {
+          "id": 4,
+          "sentence": "Community engagement ___ better decision‑making.",
+          "options": [
+            "reduces",
+            "is caused by",
+            "leads to",
+            "prevents"
+          ],
+          "answer": "leads to"
+        },
+        {
+          "id": 5,
+          "sentence": "Poor waste management ___ health problems in the neighbourhood.",
+          "options": [
+            "prevents",
+            "results in",
+            "leads to",
+            "is caused by"
+          ],
+          "answer": "results in"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "lack",
+            "of",
+            "public",
+            "transport",
+            "leads",
+            "to",
+            "traffic",
+            "congestion"
+          ],
+          "answer": "lack of public transport leads to traffic congestion"
+        },
+        {
+          "id": 2,
+          "words": [
+            "community",
+            "watch",
+            "programmes",
+            "result",
+            "in",
+            "lower",
+            "crime",
+            "rates"
+          ],
+          "answer": "community watch programmes result in lower crime rates"
+        },
+        {
+          "id": 3,
+          "words": [
+            "poor",
+            "planning",
+            "is",
+            "caused",
+            "by",
+            "insufficient",
+            "consultation"
+          ],
+          "answer": "poor planning is caused by insufficient consultation"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ/ cụm từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "leads to",
+        "results in",
+        "is caused by",
+        "caused by",
+        "contribute to",
+        "prevents"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Increasing the number of bike lanes ___ a reduction in car usage.",
+          "answer": "leads to"
+        },
+        {
+          "id": 2,
+          "sentence": "Neglecting maintenance ___ higher risk of infrastructure failure.",
+          "answer": "results in"
+        },
+        {
+          "id": 3,
+          "sentence": "The rise in homelessness ___ a lack of affordable housing.",
+          "answer": "is caused by"
+        },
+        {
+          "id": 4,
+          "sentence": "Effective communication ___ better teamwork.",
+          "answer": "contribute to"
+        },
+        {
+          "id": 5,
+          "sentence": "Ignoring community feedback ___ improved solutions.",
+          "answer": "prevents"
+        }
+      ]
+    }
   }
 }

@@ -692,5 +692,159 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Gerunds vs Infinitives (avoid posting vs choose to post)",
+    "vi_grammar_point": "Danh động từ vs Động từ nguyên thể",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb (avoid) + V‑ing   /   Subject + verb (choose) + to + V",
+      "negative": "Subject + verb (avoid) + not + V‑ing   /   Subject + verb (choose) + not to + V",
+      "question": "Do/Does Subject verb (avoid) + V‑ing?   /   Do/Does Subject verb (choose) + to + V?",
+      "variant": "Subject + verb (prefer) + V‑ing / to + V"
+    },
+    "rule_vi": "Dùng danh động từ (V‑ing) sau các động từ như avoid, enjoy; dùng động từ nguyên thể (to + V) sau các động từ như choose, plan.",
+    "rule_en": "Use a gerund after verbs such as avoid, enjoy; use an infinitive after verbs such as choose, plan.",
+    "common_error": "❌ He avoid to post  →  ✅ He avoids posting",
+    "in_context": [
+      "Users avoid posting offensive comments to keep the community friendly.",
+      "It is important to use social media wisely, choosing what to follow and what to share with care.",
+      "Successful creators choose to post regularly to keep their audience engaged."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ posting pictures of her meals on Instagram.",
+          "options": [
+            "enjoy",
+            "enjoyed",
+            "enjoying",
+            "enjoys"
+          ],
+          "answer": "enjoys"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ to post a video every week to keep followers interested.",
+          "options": [
+            "plan",
+            "planned",
+            "planning",
+            "plans"
+          ],
+          "answer": "plan"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ posting offensive comments, so the moderator warned him.",
+          "options": [
+            "avoid",
+            "avoids",
+            "avoided",
+            "avoiding"
+          ],
+          "answer": "avoids"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ to post our project updates by Friday.",
+          "options": [
+            "need",
+            "needs",
+            "needed",
+            "needing"
+          ],
+          "answer": "need"
+        },
+        {
+          "id": 5,
+          "sentence": "Maria _____ posting early in the morning because she feels more creative.",
+          "options": [
+            "prefer",
+            "prefers",
+            "preferred",
+            "preferring"
+          ],
+          "answer": "prefers"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "post",
+            "plan",
+            "they",
+            "to"
+          ],
+          "answer": "they plan to post"
+        },
+        {
+          "id": 2,
+          "words": [
+            "reading",
+            "she",
+            "enjoys",
+            "books"
+          ],
+          "answer": "she enjoys reading books"
+        },
+        {
+          "id": 3,
+          "words": [
+            "share",
+            "choose",
+            "ideas",
+            "we",
+            "to"
+          ],
+          "answer": "we choose to share ideas"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "posting",
+        "to",
+        "avoid",
+        "choose",
+        "plan",
+        "like"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He decided _____ a live stream for his followers.",
+          "answer": "to"
+        },
+        {
+          "id": 2,
+          "sentence": "She enjoys _____ on Instagram.",
+          "answer": "posting"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ posting offensive content.",
+          "answer": "avoid"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ to post every day to keep the audience engaged.",
+          "answer": "plan"
+        },
+        {
+          "id": 5,
+          "sentence": "You should _____ what you share carefully.",
+          "answer": "choose"
+        }
+      ]
+    }
   }
 }

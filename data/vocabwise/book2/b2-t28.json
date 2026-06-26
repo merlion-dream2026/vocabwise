@@ -723,5 +723,164 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Question tags (isn't it? / don't they?)",
+    "vi_grammar_point": "Câu hỏi đuôi",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Statement (affirmative) + , + auxiliary (negative) + pronoun + ?",
+      "negative": "Statement (negative) + , + auxiliary (affirmative) + pronoun + ?",
+      "variant": "If the main clause already contains a negative, the tag is positive, and vice‑versa."
+    },
+    "rule_vi": "Dùng câu hỏi đuôi để xác nhận lại thông tin vừa nói, thường để nhận được đồng ý hoặc phản hồi ngắn.",
+    "rule_en": "Use a question tag to check or confirm a statement.",
+    "common_error": "❌ The tourism industry is growing, does it?  →  ✅ The tourism industry is growing, isn't it?",
+    "in_context": [
+      "Tourism is one of the world's largest industries, contributing significantly to the economies of many nations, isn't it?",
+      "The hospitality industry — which includes hotels, restaurants, and tour operators — plays a central role in making visitors feel welcome, doesn't it?",
+      "Governments and tourism boards increasingly promote sustainable travel, don't they?"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn thẻ câu hỏi đuôi đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The guide gave us useful information, _____?",
+          "options": [
+            "doesn't he?",
+            "didn't he?",
+            "aren't they?",
+            "isn't it?"
+          ],
+          "answer": "didn't he?"
+        },
+        {
+          "id": 2,
+          "sentence": "Visitors often stay in hotels, _____?",
+          "options": [
+            "don't they?",
+            "doesn't they?",
+            "aren't they?",
+            "isn't it?"
+          ],
+          "answer": "don't they?"
+        },
+        {
+          "id": 3,
+          "sentence": "Sustainable travel reduces environmental damage, _____?",
+          "options": [
+            "doesn't it?",
+            "don't they?",
+            "aren't they?",
+            "isn't it?"
+          ],
+          "answer": "doesn't it?"
+        },
+        {
+          "id": 4,
+          "sentence": "The local community benefits from tourism, _____?",
+          "options": [
+            "doesn't it?",
+            "does it?",
+            "aren't they?",
+            "isn't it?"
+          ],
+          "answer": "doesn't it?"
+        },
+        {
+          "id": 5,
+          "sentence": "Off‑peak seasons attract fewer crowds, _____?",
+          "options": [
+            "do they?",
+            "don't they?",
+            "doesn't it?",
+            "isn't it?"
+          ],
+          "answer": "don't they?"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "tourism",
+            "is",
+            "booming",
+            "now",
+            "isn't",
+            "it"
+          ],
+          "answer": "tourism is booming now isn't it"
+        },
+        {
+          "id": 2,
+          "words": [
+            "tourists",
+            "love",
+            "local",
+            "food",
+            "don't",
+            "they"
+          ],
+          "answer": "tourists love local food don't they"
+        },
+        {
+          "id": 3,
+          "words": [
+            "sustainable",
+            "practices",
+            "help",
+            "the",
+            "environment",
+            "don't",
+            "they"
+          ],
+          "answer": "sustainable practices help the environment don't they"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền thẻ câu hỏi đuôi thích hợp vào chỗ trống.",
+      "word_bank": [
+        "doesn't it?",
+        "didn't he?",
+        "don't they?",
+        "aren't they?",
+        "doesn't she?",
+        "isn't it?"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The hotel offers free Wi‑Fi, _____?",
+          "answer": "doesn't it?"
+        },
+        {
+          "id": 2,
+          "sentence": "The guide explained the history of the site, _____?",
+          "answer": "didn't he?"
+        },
+        {
+          "id": 3,
+          "sentence": "Visitors can book tours online, _____?",
+          "answer": "don't they?"
+        },
+        {
+          "id": 4,
+          "sentence": "The cultural festival attracts many tourists, _____?",
+          "answer": "isn't it?"
+        },
+        {
+          "id": 5,
+          "sentence": "The staff are friendly, _____?",
+          "answer": "aren't they?"
+        }
+      ]
+    }
   }
 }

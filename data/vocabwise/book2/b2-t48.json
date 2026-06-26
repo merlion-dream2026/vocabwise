@@ -746,5 +746,164 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Collocations with make / do / take / have",
+    "vi_grammar_point": "Collocations với make / do / take / have",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb (make/do/take/have) + Noun Phrase",
+      "negative": "Subject + do not + Verb (make/do/take/have) + Noun Phrase",
+      "question": "Do/Does + Subject + Verb (make/do/take/have) + Noun Phrase?",
+      "variant": "Subject + Verb + something + for + Noun Phrase"
+    },
+    "rule_vi": "Dùng các động từ make, do, take, have với danh từ để diễn tả hành động hoặc trạng thái thường gặp.",
+    "rule_en": "Use make, do, take, have with a noun to form common collocations.",
+    "common_error": "❌ She have a habit of jogging.  →  ✅ She has a habit of jogging.",
+    "in_context": [
+      "Staying active throughout the day — even with small actions like take the stairs or going for a short walk after lunch — has a measurable impact on health.",
+      "Regular exercise — even thirty minutes of moderate activity such as walking — makes a big difference to your heart health.",
+      "Good physical health also connects closely to mental health: people who maintain a balanced lifestyle — with time for rest, socialising, and enjoyable exercise — have higher levels of satisfaction and lower rates of anxiety."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ a habit of drinking water every morning.",
+          "options": [
+            "do",
+            "make",
+            "have",
+            "take"
+          ],
+          "answer": "make"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ a break after two hours of studying.",
+          "options": [
+            "have",
+            "do",
+            "take",
+            "make"
+          ],
+          "answer": "take"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ regular exercise to stay fit.",
+          "options": [
+            "make",
+            "do",
+            "have",
+            "take"
+          ],
+          "answer": "do"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ a decision to quit smoking.",
+          "options": [
+            "do",
+            "have",
+            "make",
+            "take"
+          ],
+          "answer": "make"
+        },
+        {
+          "id": 5,
+          "sentence": "You _____ a look at the schedule before the meeting.",
+          "options": [
+            "do",
+            "have",
+            "make",
+            "take"
+          ],
+          "answer": "take"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "She",
+            "makes",
+            "a",
+            "habit",
+            "of",
+            "reading"
+          ],
+          "answer": "She makes a habit of reading"
+        },
+        {
+          "id": 2,
+          "words": [
+            "They",
+            "take",
+            "the",
+            "stairs",
+            "every",
+            "morning"
+          ],
+          "answer": "They take the stairs every morning"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "have",
+            "a",
+            "meeting",
+            "at",
+            "3pm"
+          ],
+          "answer": "We have a meeting at 3pm"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "make",
+        "do",
+        "take",
+        "have",
+        "keep",
+        "get"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ a walk after dinner to relax.",
+          "answer": "take"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ a decision to study abroad.",
+          "answer": "make"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ regular check-ups with their doctor.",
+          "answer": "have"
+        },
+        {
+          "id": 4,
+          "sentence": "You _____ your homework before watching TV.",
+          "answer": "do"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ a break during the long lecture.",
+          "answer": "take"
+        }
+      ]
+    }
   }
 }

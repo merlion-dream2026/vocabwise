@@ -731,5 +731,182 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "First and Second Conditional review",
+    "vi_grammar_point": "Ôn tập câu điều kiện loại 1 và loại 2",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + Verb (present simple), Subject + will/would + Verb (base form)",
+      "negative": "If + Subject + Verb (present simple), Subject + will/would not + Verb (base form)",
+      "question": "If + Subject + Verb (present simple), will/would Subject + Verb?",
+      "variant": "If + Subject + Verb (present simple), Subject + can + Verb (base form)"
+    },
+    "rule_vi": "Dùng câu điều kiện loại 1 khi nói về một khả năng thực tế trong tương lai; dùng câu điều kiện loại 2 khi nói về một tình huống không có thật hoặc khó xảy ra trong hiện tại.",
+    "rule_en": "Use the first conditional for real future possibilities and the second conditional for unreal or unlikely present situations.",
+    "common_error": "❌ If I will have more money, I would travel.  →  ✅ If I have more money, I will travel. (or If I had more money, I would travel.)",
+    "in_context": [
+      "If you understand your income, you can create a budget.",
+      "If you saved at least 10% of your earnings, you will build a safety net.",
+      "If you borrowed money without a plan, you would struggle to repay it."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If you ___ extra cash, you can invest in shares.",
+          "options": [
+            "will have",
+            "have",
+            "had",
+            "would have"
+          ],
+          "answer": "have"
+        },
+        {
+          "id": 2,
+          "sentence": "If she ___ the tax rules, she would claim more deductions.",
+          "options": [
+            "will know",
+            "knows",
+            "knew",
+            "would know"
+          ],
+          "answer": "knew"
+        },
+        {
+          "id": 3,
+          "sentence": "If they ___ the loan on time, they will avoid interest charges.",
+          "options": [
+            "paid",
+            "pay",
+            "will pay",
+            "would pay"
+          ],
+          "answer": "pay"
+        },
+        {
+          "id": 4,
+          "sentence": "If I ___ richer, I would travel the world.",
+          "options": [
+            "am",
+            "were",
+            "was",
+            "will be"
+          ],
+          "answer": "were"
+        },
+        {
+          "id": 5,
+          "sentence": "If you ___ the budget, you will overspend.",
+          "options": [
+            "do not understand",
+            "did not understand",
+            "will not understand",
+            "would not understand"
+          ],
+          "answer": "do not understand"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "you",
+            "save",
+            "10%",
+            "of",
+            "your",
+            "income",
+            "you",
+            "will",
+            "have",
+            "a",
+            "buffer"
+          ],
+          "answer": "If you save 10% of your income you will have a buffer"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "he",
+            "had",
+            "a",
+            "steady",
+            "job",
+            "he",
+            "would",
+            "invest",
+            "in",
+            "property"
+          ],
+          "answer": "If he had a steady job he would invest in property"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "they",
+            "do",
+            "not",
+            "track",
+            "their",
+            "expenses",
+            "they",
+            "will",
+            "run",
+            "out",
+            "of",
+            "money"
+          ],
+          "answer": "If they do not track their expenses they will run out of money"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "have",
+        "had",
+        "save",
+        "saved",
+        "would",
+        "could"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If you ___ a clear goal, budgeting becomes easier.",
+          "answer": "have"
+        },
+        {
+          "id": 2,
+          "sentence": "If she ___ more time, she would research investment options.",
+          "answer": "had"
+        },
+        {
+          "id": 3,
+          "sentence": "If they ___ a portion of each paycheck, they will reach their savings target.",
+          "answer": "save"
+        },
+        {
+          "id": 4,
+          "sentence": "If we ___ more last year, we could have bought a car.",
+          "answer": "saved"
+        },
+        {
+          "id": 5,
+          "sentence": "If you ___ afford a loan, you would consider it carefully.",
+          "answer": "could"
+        }
+      ]
+    }
   }
 }

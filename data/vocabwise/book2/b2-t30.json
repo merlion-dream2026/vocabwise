@@ -712,5 +712,167 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Adverbs of degree (extremely / fairly / quite / rather)",
+    "vi_grammar_point": "Trạng từ chỉ mức độ",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + adverb of degree + adjective/adverb",
+      "negative": "Subject + Verb + not + adverb of degree + adjective/adverb",
+      "question": "Do/Does Subject + adverb of degree + adjective?",
+      "variant": "Linking verb + adverb of degree + adjective (e.g., is extremely cheap)"
+    },
+    "rule_vi": "Trạng từ chỉ mức độ được đặt trước tính từ hoặc trạng từ để biểu thị mức độ của chúng.",
+    "rule_en": "Adverbs of degree are placed before adjectives or other adverbs to show intensity.",
+    "common_error": "❌ The product is cheap extremely.  →  ✅ The product is extremely cheap.",
+    "in_context": [
+      "The rise of online retail has quite transformed shopping habits significantly.",
+      "Consumers can now buy used items through second‑hand platforms, stretching their budget fairly further.",
+      "Shoppers must also understand their rights: if a product is faulty, they are rather entitled to a refund."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new smartphone is _____ expensive, but its features are impressive.",
+          "options": [
+            "fairly",
+            "rather",
+            "quite",
+            "extremely"
+          ],
+          "answer": "extremely"
+        },
+        {
+          "id": 2,
+          "sentence": "She found the online store's return policy _____ generous.",
+          "options": [
+            "rather",
+            "fairly",
+            "quite",
+            "extremely"
+          ],
+          "answer": "fairly"
+        },
+        {
+          "id": 3,
+          "sentence": "The packaging was _____ minimal, which pleased the eco‑conscious buyers.",
+          "options": [
+            "quite",
+            "rather",
+            "extremely",
+            "fairly"
+          ],
+          "answer": "quite"
+        },
+        {
+          "id": 4,
+          "sentence": "The discount made the shoes _____ affordable for students.",
+          "options": [
+            "rather",
+            "extremely",
+            "fairly",
+            "quite"
+          ],
+          "answer": "rather"
+        },
+        {
+          "id": 5,
+          "sentence": "His loyalty to the brand is _____ strong, even when cheaper alternatives exist.",
+          "options": [
+            "fairly",
+            "quite",
+            "rather",
+            "extremely"
+          ],
+          "answer": "quite"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "shopping",
+            "is",
+            "quite",
+            "enjoyable",
+            "for",
+            "many",
+            "people"
+          ],
+          "answer": "Shopping is quite enjoyable for many people"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "product",
+            "was",
+            "rather",
+            "expensive",
+            "than",
+            "expected"
+          ],
+          "answer": "The product was rather expensive than expected"
+        },
+        {
+          "id": 3,
+          "words": [
+            "online",
+            "offers",
+            "are",
+            "fairly",
+            "varied",
+            "in",
+            "price"
+          ],
+          "answer": "Online offers are fairly varied in price"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "word_bank": [
+        "extremely",
+        "fairly",
+        "quite",
+        "rather",
+        "somewhat",
+        "slowly"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The promotion was _____ attractive, so many customers signed up.",
+          "answer": "extremely"
+        },
+        {
+          "id": 2,
+          "sentence": "She felt _____ satisfied with her purchase.",
+          "answer": "fairly"
+        },
+        {
+          "id": 3,
+          "sentence": "The brand's reputation is _____ strong in the market.",
+          "answer": "quite"
+        },
+        {
+          "id": 4,
+          "sentence": "He was _____ reluctant to buy the expensive gadget.",
+          "answer": "rather"
+        },
+        {
+          "id": 5,
+          "sentence": "The checkout process is _____ smooth now.",
+          "answer": "quite"
+        }
+      ]
+    }
   }
 }

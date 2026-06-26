@@ -779,5 +779,163 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "-ed vs -ing adjectives (interested vs interesting)",
+    "vi_grammar_point": "Tính từ đuôi -ed và -ing",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be + adjective",
+      "negative": "Subject + be + not + adjective",
+      "question": "Be + Subject + adjective?",
+      "variant": "Subject + become + adjective"
+    },
+    "rule_vi": "Dùng tính từ -ed khi nói về cảm xúc, cảm giác của người; dùng -ing khi mô tả tính chất của sự vật, hiện tượng.",
+    "rule_en": "Use -ed adjectives for feelings, -ing adjectives for describing things.",
+    "common_error": "❌ I am interesting in art → ✅ I am interested in art",
+    "in_context": [
+      "Many modern works are interesting to viewers.",
+      "Artists are interested in experimenting with new media.",
+      "A well‑curated exhibition can be interesting for students."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is _____ in modern sculpture.",
+          "options": [
+            "excited",
+            "interested",
+            "boring",
+            "surprised"
+          ],
+          "answer": "interested"
+        },
+        {
+          "id": 2,
+          "sentence": "The painting was _____, so everyone talked about it.",
+          "options": [
+            "interesting",
+            "interested",
+            "confusing",
+            "amused"
+          ],
+          "answer": "interesting"
+        },
+        {
+          "id": 3,
+          "sentence": "They were _____ by the gallery's new layout.",
+          "options": [
+            "interested",
+            "interesting",
+            "bored",
+            "amazed"
+          ],
+          "answer": "interested"
+        },
+        {
+          "id": 4,
+          "sentence": "The documentary was _____ enough to keep my attention.",
+          "options": [
+            "boring",
+            "interesting",
+            "excited",
+            "surprised"
+          ],
+          "answer": "interesting"
+        },
+        {
+          "id": 5,
+          "sentence": "He became _____ after seeing the installation.",
+          "options": [
+            "interested",
+            "interesting",
+            "bored",
+            "confusing"
+          ],
+          "answer": "interested"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "exhibit",
+            "is",
+            "interesting"
+          ],
+          "answer": "the exhibit is interesting"
+        },
+        {
+          "id": 2,
+          "words": [
+            "students",
+            "are",
+            "interested",
+            "in",
+            "digital",
+            "art"
+          ],
+          "answer": "students are interested in digital art"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "artist",
+            "was",
+            "interested",
+            "in",
+            "the",
+            "gallery"
+          ],
+          "answer": "the artist was interested in the gallery"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "interested",
+        "interesting",
+        "excited",
+        "bored",
+        "surprised",
+        "confusing"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I am _____ about the upcoming art festival.",
+          "answer": "interested"
+        },
+        {
+          "id": 2,
+          "sentence": "The sculpture was _____, attracting many visitors.",
+          "answer": "interesting"
+        },
+        {
+          "id": 3,
+          "sentence": "She felt _____ after the long museum tour.",
+          "answer": "excited"
+        },
+        {
+          "id": 4,
+          "sentence": "The curator found the new collection _____.",
+          "answer": "interesting"
+        },
+        {
+          "id": 5,
+          "sentence": "Many students are _____ in learning about graphic design.",
+          "answer": "interested"
+        }
+      ]
+    }
   }
 }

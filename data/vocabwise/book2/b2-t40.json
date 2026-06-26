@@ -782,5 +782,167 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Advanced articles (the + unique/known concepts)",
+    "vi_grammar_point": "Mạo từ nâng cao — dùng the với khái niệm xác định",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + the + Noun (unique/known concept)"
+    },
+    "rule_vi": "Dùng 'the' khi danh từ chỉ một khái niệm duy nhất, đã được người nghe/đọc biết tới.",
+    "rule_en": "Use 'the' with a noun that refers to a unique or already known concept.",
+    "common_error": "❌ She visited a Eiffel Tower → ✅ She visited the Eiffel Tower",
+    "in_context": [
+      "Cultural celebrations — festivals, public holidays, and celebration events — are among the most powerful expressions of shared identity.",
+      "Heritage — the living legacy of the past — is kept alive through these repeated acts.",
+      "The challenge is to adapt without losing the essence of what a celebration stands for."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ Eiffel Tower is one of the most visited landmarks in the world.",
+          "options": [
+            "A",
+            "One",
+            "The",
+            "An"
+          ],
+          "answer": "The"
+        },
+        {
+          "id": 2,
+          "sentence": "She studied _____ Renaissance art for her thesis.",
+          "options": [
+            "some",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer": "the"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ internet has changed how we communicate.",
+          "options": [
+            "An",
+            "The",
+            "A",
+            "Some"
+          ],
+          "answer": "The"
+        },
+        {
+          "id": 4,
+          "sentence": "He finally understood _____ importance of punctuality.",
+          "options": [
+            "the",
+            "a",
+            "some",
+            "an"
+          ],
+          "answer": "the"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ Great Wall of China stretches over 13,000 miles.",
+          "options": [
+            "Some",
+            "The",
+            "A",
+            "An"
+          ],
+          "answer": "The"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "challenge",
+            "The",
+            "is",
+            "to",
+            "adapt",
+            "without",
+            "losing",
+            "the",
+            "essence"
+          ],
+          "answer": "The challenge is to adapt without losing the essence"
+        },
+        {
+          "id": 2,
+          "words": [
+            "connects",
+            "people",
+            "The",
+            "internet",
+            "worldwide",
+            "is"
+          ],
+          "answer": "The internet connects people worldwide"
+        },
+        {
+          "id": 3,
+          "words": [
+            "inspires",
+            "living",
+            "legacy",
+            "the",
+            "past",
+            "The",
+            "of",
+            "is",
+            "us"
+          ],
+          "answer": "The living legacy of the past inspires us"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền mạo từ thích hợp (the) vào chỗ trống.",
+      "word_bank": [
+        "the",
+        "a",
+        "an",
+        "some",
+        "this",
+        "that"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ living legacy of the past is celebrated each year.",
+          "answer": "the"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ most powerful expression of culture is music.",
+          "answer": "the"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ challenge faced by organizers is funding.",
+          "answer": "the"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ internet has transformed education.",
+          "answer": "the"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ Great Wall of China is a UNESCO World Heritage site.",
+          "answer": "the"
+        }
+      ]
+    }
   }
 }

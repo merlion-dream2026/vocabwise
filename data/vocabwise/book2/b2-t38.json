@@ -728,5 +728,156 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reflexive vs emphatic pronouns",
+    "vi_grammar_point": "Đại từ phản thân và đại từ nhấn mạnh",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Reflexive/Emphatic pronoun (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves)"
+    },
+    "rule_vi": "Dùng đại từ phản thân khi chủ ngữ và tân ngữ là cùng một người; dùng đại từ nhấn mạnh để nhấn mạnh chủ ngữ.",
+    "rule_en": "Use reflexive pronouns when the subject and object are the same; use emphatic pronouns to stress the subject.",
+    "common_error": "❌ She herself bought the dress → ✅ She bought the dress herself",
+    "in_context": [
+      "Fashion is far more than clothing — it is a powerful language through which people express themselves.",
+      "Many designers now create cultural collections, celebrating heritage themselves.",
+      "Those who develop a unique personal style are less easily manipulated by seasonal marketing campaigns themselves."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đại từ phản thân hoặc nhấn mạnh phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She designed the dress _____.",
+          "options": [
+            "her",
+            "herself",
+            "she",
+            "him"
+          ],
+          "answer": "herself"
+        },
+        {
+          "id": 2,
+          "sentence": "The brand promotes its image _____.",
+          "options": [
+            "it",
+            "they",
+            "itself",
+            "themselves"
+          ],
+          "answer": "itself"
+        },
+        {
+          "id": 3,
+          "sentence": "You should be proud of _____ for completing the project.",
+          "options": [
+            "your",
+            "you",
+            "yourself",
+            "yours"
+          ],
+          "answer": "yourself"
+        },
+        {
+          "id": 4,
+          "sentence": "The models walked the runway _____, without any assistants.",
+          "options": [
+            "themselves",
+            "them",
+            "they",
+            "themselves"
+          ],
+          "answer": "themselves"
+        },
+        {
+          "id": 5,
+          "sentence": "We organized the fashion show _____ to ensure every detail was perfect.",
+          "options": [
+            "ourselves",
+            "our",
+            "us",
+            "we"
+          ],
+          "answer": "ourselves"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "fashion",
+            "itself",
+            "reflects",
+            "culture"
+          ],
+          "answer": "fashion itself reflects culture"
+        },
+        {
+          "id": 2,
+          "words": [
+            "designers",
+            "themselves",
+            "must",
+            "innovate"
+          ],
+          "answer": "designers themselves must innovate"
+        },
+        {
+          "id": 3,
+          "words": [
+            "you",
+            "express",
+            "yourself",
+            "through",
+            "style"
+          ],
+          "answer": "you express yourself through style"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền đại từ phản thân hoặc nhấn mạnh thích hợp vào chỗ trống.",
+      "word_bank": [
+        "myself",
+        "themselves",
+        "itself",
+        "yourself",
+        "ourselves",
+        "himself"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I designed this collection _____.",
+          "answer": "myself"
+        },
+        {
+          "id": 2,
+          "sentence": "The brand promotes its sustainability _____.",
+          "answer": "itself"
+        },
+        {
+          "id": 3,
+          "sentence": "Consumers often buy clothes for _____.",
+          "answer": "themselves"
+        },
+        {
+          "id": 4,
+          "sentence": "You should take care of _____ when shopping online.",
+          "answer": "yourself"
+        },
+        {
+          "id": 5,
+          "sentence": "We handled the entire production _____.",
+          "answer": "ourselves"
+        }
+      ]
+    }
   }
 }

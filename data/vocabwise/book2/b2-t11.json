@@ -691,5 +691,169 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cause and effect linkers (because of / due to / as a result of / therefore)",
+    "vi_grammar_point": "Liên từ nhân quả",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause + because of / due to / as a result of + Noun Phrase   OR   Clause + therefore + Clause",
+      "variant": "as a consequence of"
+    },
+    "rule_vi": "Dùng các liên từ này để nối nguyên nhân và kết quả; 'because of', 'due to', và 'as a result of' đi trước danh từ, còn 'therefore' nối hai mệnh đề độc lập.",
+    "rule_en": "Use these linkers to connect cause and effect; the first three precede a noun phrase, while 'therefore' links two independent clauses.",
+    "common_error": "❌ The temperature is rising because of the ice melts.  →  ✅ The temperature is rising as a result of the ice melting.",
+    "in_context": [
+      "Scientists agree that the Earth's atmosphere is warming at a dangerous rate, mainly because of the large amounts of carbon emissions released by burning fossil fuels such as coal, oil, and gas.",
+      "The effects of climate change are already visible, due to the increase in extreme weather events such as droughts, floods, and powerful storms.",
+      "Many countries have signed international agreements to cut down on emissions and slow global warming. Therefore, they set specific targets for reducing pollution by a certain date."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The city experienced severe flooding ___ the heavy rains last week.",
+          "options": [
+            "as a result of",
+            "therefore",
+            "because of",
+            "due to"
+          ],
+          "answer": "due to"
+        },
+        {
+          "id": 2,
+          "sentence": "She decided to plant trees ___ her desire to reduce her carbon footprint.",
+          "options": [
+            "therefore",
+            "as a result of",
+            "due to",
+            "because of"
+          ],
+          "answer": "because of"
+        },
+        {
+          "id": 3,
+          "sentence": "The conference was postponed ___ the organizers' inability to secure a venue.",
+          "options": [
+            "therefore",
+            "as a result of",
+            "due to",
+            "because of"
+          ],
+          "answer": "due to"
+        },
+        {
+          "id": 4,
+          "sentence": "The ice caps are melting ___ the rising global temperatures.",
+          "options": [
+            "because of",
+            "therefore",
+            "as a result of",
+            "due to"
+          ],
+          "answer": "as a result of"
+        },
+        {
+          "id": 5,
+          "sentence": "The government increased taxes on gasoline; ___, many people switched to public transport.",
+          "options": [
+            "as a result of",
+            "therefore",
+            "because of",
+            "due to"
+          ],
+          "answer": "therefore"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "intensified",
+            "droughts",
+            "have",
+            "climate",
+            "change",
+            "because",
+            "of",
+            "the"
+          ],
+          "answer": "The droughts have intensified because of climate change"
+        },
+        {
+          "id": 2,
+          "words": [
+            "new",
+            "regulations",
+            "due",
+            "to",
+            "emissions",
+            "Factories",
+            "reduced"
+          ],
+          "answer": "Factories reduced emissions due to new regulations"
+        },
+        {
+          "id": 3,
+          "words": [
+            "technological",
+            "advances",
+            "as",
+            "a",
+            "result",
+            "of",
+            "Renewable",
+            "energy",
+            "is",
+            "cheaper"
+          ],
+          "answer": "Renewable energy is cheaper as a result of technological advances"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "because of",
+        "due to",
+        "as a result of",
+        "therefore",
+        "consequently",
+        "since"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The coral reefs are bleaching ___ the increase in sea temperature.",
+          "answer": "as a result of"
+        },
+        {
+          "id": 2,
+          "sentence": "He switched to a bike ___ he wanted to lower his carbon emissions.",
+          "answer": "because of"
+        },
+        {
+          "id": 3,
+          "sentence": "The policy was adopted ___ the country's commitment to the Paris Agreement.",
+          "answer": "due to"
+        },
+        {
+          "id": 4,
+          "sentence": "The report highlighted the risks; ___, investors are reconsidering fossil fuel projects.",
+          "answer": "therefore"
+        },
+        {
+          "id": 5,
+          "sentence": "She stopped using plastic bags ___ she read about ocean pollution.",
+          "answer": "because of"
+        }
+      ]
+    }
   }
 }

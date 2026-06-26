@@ -765,5 +765,175 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Past Perfect (had + past participle)",
+    "vi_grammar_point": "Quá khứ hoàn thành",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + had + past participle (+ object/complement)",
+      "negative": "Subject + had not + past participle (+ object/complement)",
+      "question": "Had + subject + past participle (+ object/complement)?",
+      "variant": "Subject + had + been + -ing (past perfect continuous)"
+    },
+    "rule_vi": "Dùng để nói về một hành động đã hoàn thành trước một thời điểm hoặc hành động khác trong quá khứ.",
+    "rule_en": "Used to describe an action that was completed before another past action.",
+    "common_error": "❌ She had went to the lab.  →  ✅ She had gone to the lab.",
+    "in_context": [
+      "When enough evidence had been gathered, a scientist could propose a theory.",
+      "Before findings had been shared publicly, they had to go through peer review.",
+      "Occasionally, a single discovery had changed everything, leading to a breakthrough."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu với thì Quá khứ hoàn thành.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "By the time the earthquake struck, the residents _____ evacuated the area.",
+          "options": [
+            "did",
+            "had",
+            "has",
+            "have"
+          ],
+          "answer": "had"
+        },
+        {
+          "id": 2,
+          "sentence": "The volcano erupted, but the scientists _____ measured the gas levels beforehand.",
+          "options": [
+            "has",
+            "did",
+            "had",
+            "were"
+          ],
+          "answer": "had"
+        },
+        {
+          "id": 3,
+          "sentence": "After the flood receded, the city _____ repaired many damaged roads.",
+          "options": [
+            "was",
+            "had",
+            "did",
+            "has"
+          ],
+          "answer": "had"
+        },
+        {
+          "id": 4,
+          "sentence": "She couldn't believe that the tsunami _____ already destroyed the coastal village.",
+          "options": [
+            "had",
+            "was",
+            "did",
+            "has"
+          ],
+          "answer": "had"
+        },
+        {
+          "id": 5,
+          "sentence": "When the fire finally was extinguished, the firefighters _____ saved several historic houses.",
+          "options": [
+            "did",
+            "has",
+            "were",
+            "had"
+          ],
+          "answer": "had"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "had",
+            "the",
+            "team",
+            "collected",
+            "data",
+            "before",
+            "analysis",
+            "began"
+          ],
+          "answer": "the team had collected data before analysis began"
+        },
+        {
+          "id": 2,
+          "words": [
+            "had",
+            "the",
+            "storm",
+            "damaged",
+            "the",
+            "coastline",
+            "by",
+            "the",
+            "time",
+            "rescue",
+            "arrived"
+          ],
+          "answer": "the storm had damaged the coastline by the time rescue arrived"
+        },
+        {
+          "id": 3,
+          "words": [
+            "had",
+            "scientists",
+            "observed",
+            "the",
+            "pattern",
+            "before",
+            "the",
+            "theory",
+            "was",
+            "proposed"
+          ],
+          "answer": "scientists had observed the pattern before the theory was proposed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "had",
+        "been",
+        "gone",
+        "seen",
+        "lost",
+        "did"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The researchers _____ completed the analysis before the conference.",
+          "answer": "had"
+        },
+        {
+          "id": 2,
+          "sentence": "By the time the warning was issued, the flood _____ already risen.",
+          "answer": "had"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ finished her report when the earthquake interrupted the meeting.",
+          "answer": "had"
+        },
+        {
+          "id": 4,
+          "sentence": "The team _____ prepared the evacuation plan before the storm hit.",
+          "answer": "had"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ known about the volcanic activity, but the alert was delayed.",
+          "answer": "had"
+        }
+      ]
+    }
   }
 }

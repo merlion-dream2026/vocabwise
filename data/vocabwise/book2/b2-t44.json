@@ -781,5 +781,168 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Comparative structures with quantifiers (twice as... / far more...)",
+    "vi_grammar_point": "So sánh kết hợp với lượng từ",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + twice as + adjective/adverb + as + noun phrase\nSubject + verb + far more + noun + than + noun phrase",
+      "negative": "Subject + verb + not twice as + adjective + as + noun phrase\nSubject + verb + not far more + noun + than + noun phrase",
+      "question": "Is/Are + subject + twice as + adjective/adverb + as + noun phrase?\nDoes/Do + subject + far more + noun + than + noun phrase?",
+      "variant": "twice as many + plural noun + as + noun phrase"
+    },
+    "rule_vi": "Dùng cấu trúc so sánh với lượng từ khi muốn nhấn mạnh mức độ gấp đôi hoặc mức độ lớn hơn nhiều so với một chuẩn mực.",
+    "rule_en": "Use these comparative structures to express a quantity that is double or considerably greater than another.",
+    "common_error": "❌ She is twice as older than me.  →  ✅ She is twice as old as me.",
+    "in_context": [
+      "The proportion of older people is twice as high as it was two decades ago.",
+      "Many retirees have far more financial worries than younger workers.",
+      "Older people who remain engaged in their communities are far more likely to feel satisfied than those who isolate themselves."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu so sánh.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new policy will cost _____ than the previous one.",
+          "options": [
+            "far more",
+            "twice as much",
+            "as much",
+            "less"
+          ],
+          "answer": "twice as much"
+        },
+        {
+          "id": 2,
+          "sentence": "Women now earn _____ than they did ten years ago.",
+          "options": [
+            "as much",
+            "far more",
+            "twice as many",
+            "less"
+          ],
+          "answer": "far more"
+        },
+        {
+          "id": 3,
+          "sentence": "The city’s elderly population is _____ as it was in 1990.",
+          "options": [
+            "twice as large",
+            "far more",
+            "as large",
+            "smaller"
+          ],
+          "answer": "twice as large"
+        },
+        {
+          "id": 4,
+          "sentence": "Retirement savings need to be _____ to cover rising healthcare costs.",
+          "options": [
+            "far more",
+            "twice as much",
+            "as much",
+            "less"
+          ],
+          "answer": "far more"
+        },
+        {
+          "id": 5,
+          "sentence": "Volunteers contribute _____ hours than they did last year.",
+          "options": [
+            "as many",
+            "twice as many",
+            "far more",
+            "less"
+          ],
+          "answer": "twice as many"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "twice",
+            "as",
+            "old",
+            "as",
+            "her",
+            "sister"
+          ],
+          "answer": "twice as old as her sister"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "clinic",
+            "sees",
+            "far",
+            "more",
+            "patients",
+            "than",
+            "last",
+            "year"
+          ],
+          "answer": "The clinic sees far more patients than last year"
+        },
+        {
+          "id": 3,
+          "words": [
+            "twice",
+            "as",
+            "many",
+            "retirees",
+            "as",
+            "in",
+            "2000"
+          ],
+          "answer": "twice as many retirees as in 2000"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "twice",
+        "far",
+        "more",
+        "as",
+        "much",
+        "little"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "There are _____ as many retirees this year as last year.",
+          "answer": "twice"
+        },
+        {
+          "id": 2,
+          "sentence": "The new policy will require _____ funding than the old one.",
+          "answer": "more"
+        },
+        {
+          "id": 3,
+          "sentence": "Older workers are _____ likely to receive training than younger workers.",
+          "answer": "far"
+        },
+        {
+          "id": 4,
+          "sentence": "The proportion of elderly citizens is _____ as the proportion of children.",
+          "answer": "as"
+        },
+        {
+          "id": 5,
+          "sentence": "The number of nursing homes has increased _____ in the past decade.",
+          "answer": "much"
+        }
+      ]
+    }
   }
 }

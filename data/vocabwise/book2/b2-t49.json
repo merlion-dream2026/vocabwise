@@ -728,5 +728,158 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Nominalization — basic (pollute → pollution / develop → development)",
+    "vi_grammar_point": "Danh hóa cơ bản — biến đổi từ loại",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Object → Subject + Noun (derived from verb) + ..."
+    },
+    "rule_vi": "Khi muốn diễn tả hành động dưới dạng danh từ, chuyển động từ sang danh danh hóa (ví dụ: pollute → pollution).",
+    "rule_en": "Use the noun form of a verb to turn an action into a thing (e.g., pollution).",
+    "common_error": "❌ The pollute is increasing. → ✅ The pollution is increasing.",
+    "in_context": [
+      "Protecting the environment has become one of the most urgent priorities of the twenty-first century.",
+      "Using energy saving appliances and switching to renewable energy at home also helps to lower pollution.",
+      "Strong environmental policy can protect endangered species, limit industrial pollution, and invest in clean transportation."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn danh danh hóa (noun) phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ caused by factories is a major health concern.",
+          "options": [
+            "reduction",
+            "pollution",
+            "development",
+            "education"
+          ],
+          "answer": "pollution"
+        },
+        {
+          "id": 2,
+          "sentence": "Sustainable _____ is essential for long‑term economic growth.",
+          "options": [
+            "pollution",
+            "conservation",
+            "development",
+            "reduction"
+          ],
+          "answer": "development"
+        },
+        {
+          "id": 3,
+          "sentence": "The government's _____ of green technologies has accelerated in recent years.",
+          "options": [
+            "development",
+            "pollution",
+            "reduction",
+            "education"
+          ],
+          "answer": "development"
+        },
+        {
+          "id": 4,
+          "sentence": "Effective _____ of waste can greatly improve urban cleanliness.",
+          "options": [
+            "development",
+            "reduction",
+            "pollution",
+            "conservation"
+          ],
+          "answer": "reduction"
+        },
+        {
+          "id": 5,
+          "sentence": "Public _____ about climate change is crucial for policy support.",
+          "options": [
+            "education",
+            "pollution",
+            "development",
+            "reduction"
+          ],
+          "answer": "education"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "industrial",
+            "pollution",
+            "has",
+            "increased",
+            "recently"
+          ],
+          "answer": "industrial pollution has increased recently"
+        },
+        {
+          "id": 2,
+          "words": [
+            "urban",
+            "development",
+            "requires",
+            "careful",
+            "planning"
+          ],
+          "answer": "urban development requires careful planning"
+        },
+        {
+          "id": 3,
+          "words": [
+            "community",
+            "education",
+            "promotes",
+            "environmental",
+            "awareness"
+          ],
+          "answer": "community education promotes environmental awareness"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền danh danh hóa (noun) thích hợp vào chỗ trống.",
+      "word_bank": [
+        "pollution",
+        "development",
+        "conservation",
+        "reduction",
+        "education",
+        "growth"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The city council launched a campaign for air _____ .",
+          "answer": "reduction"
+        },
+        {
+          "id": 2,
+          "sentence": "International _____ of renewable energy is accelerating worldwide.",
+          "answer": "development"
+        },
+        {
+          "id": 3,
+          "sentence": "Wildlife _____ in protected areas has shown positive trends.",
+          "answer": "conservation"
+        },
+        {
+          "id": 4,
+          "sentence": "Raising public _____ about recycling can lead to less waste.",
+          "answer": "education"
+        },
+        {
+          "id": 5,
+          "sentence": "Factory emissions contribute significantly to water _____.",
+          "answer": "pollution"
+        }
+      ]
+    }
   }
 }

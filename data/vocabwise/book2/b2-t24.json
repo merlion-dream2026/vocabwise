@@ -783,5 +783,183 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Second Conditional (If I were... I would...)",
+    "vi_grammar_point": "Câu điều kiện loại 2",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + past simple (were), Subject + would + base verb",
+      "negative": "If + Subject + past simple (were), Subject + would not + base verb",
+      "question": "Would + Subject + base verb if + Subject + past simple (were)?",
+      "variant": "If + Subject + past simple (were), Subject + could + base verb"
+    },
+    "rule_vi": "Dùng để nói về một tình huống không có thật trong hiện tại hoặc tương lai, và kết quả có thể xảy ra.",
+    "rule_en": "Use it to talk about unreal or unlikely situations in the present or future.",
+    "common_error": "❌ If I was rich, I will travel.  →  ✅ If I were rich, I would travel.",
+    "in_context": [
+      "If I were to review my bank statement regularly, I would stay better informed about my spending.",
+      "If you were to compare interest rates before taking a loan, you would find a cheaper deal.",
+      "If we were to set a monthly budget, we would avoid overspending on unnecessary items."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If she _____ (have) more savings, she would invest in a better interest rate.",
+          "options": [
+            "had",
+            "has",
+            "will have",
+            "would have"
+          ],
+          "answer": "had"
+        },
+        {
+          "id": 2,
+          "sentence": "If they _____ (be) aware of the fees, they would choose a different bank.",
+          "options": [
+            "were",
+            "are",
+            "will be",
+            "been"
+          ],
+          "answer": "were"
+        },
+        {
+          "id": 3,
+          "sentence": "If I _____ (not/need) a loan, I would not borrow money.",
+          "options": [
+            "didn't need",
+            "don't need",
+            "won't need",
+            "needn't"
+          ],
+          "answer": "didn't need"
+        },
+        {
+          "id": 4,
+          "sentence": "If we _____ (receive) a higher salary, we would increase our monthly savings.",
+          "options": [
+            "receive",
+            "received",
+            "will receive",
+            "receiving"
+          ],
+          "answer": "received"
+        },
+        {
+          "id": 5,
+          "sentence": "If you _____ (use) a debit card for every purchase, you would have less credit card debt.",
+          "options": [
+            "use",
+            "used",
+            "will use",
+            "using"
+          ],
+          "answer": "used"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "you",
+            "were",
+            "to",
+            "track",
+            "expenses",
+            "you",
+            "would",
+            "know",
+            "your",
+            "balance"
+          ],
+          "answer": "If you were to track expenses you would know your balance"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "they",
+            "were",
+            "to",
+            "pay",
+            "bills",
+            "on",
+            "time",
+            "they",
+            "would",
+            "avoid",
+            "penalties"
+          ],
+          "answer": "If they were to pay bills on time they would avoid penalties"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "I",
+            "were",
+            "to",
+            "borrow",
+            "money",
+            "from",
+            "a",
+            "friend",
+            "I",
+            "would",
+            "repay",
+            "next",
+            "month"
+          ],
+          "answer": "If I were to borrow money from a friend I would repay next month"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "had",
+        "were",
+        "would",
+        "could",
+        "should",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If I _____ (be) richer, I would travel abroad.",
+          "answer": "were"
+        },
+        {
+          "id": 2,
+          "sentence": "If she _____ (have) a larger budget, she could buy a new laptop.",
+          "answer": "had"
+        },
+        {
+          "id": 3,
+          "sentence": "If they _____ (be) aware of the interest rate, they would choose a cheaper loan.",
+          "answer": "were"
+        },
+        {
+          "id": 4,
+          "sentence": "If we _____ (have) more time, we would review our statements weekly.",
+          "answer": "had"
+        },
+        {
+          "id": 5,
+          "sentence": "If I were more organized, I _____ track my expenses better.",
+          "answer": "could"
+        }
+      ]
+    }
   }
 }

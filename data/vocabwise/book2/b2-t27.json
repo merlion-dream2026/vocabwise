@@ -787,5 +787,169 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Defining vs Non-defining relative clauses",
+    "vi_grammar_point": "Mệnh đề quan hệ xác định và không xác định",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "NP + (who/which/that/where/whose) + clause",
+      "variant": "who, whom, which, that, where, whose"
+    },
+    "rule_vi": "Dùng mệnh đề quan hệ xác định khi thông tin cần thiết để xác định danh từ; dùng mệnh đề không xác định khi thông tin chỉ là thêm vào, thường kèm dấu phẩy.",
+    "rule_en": "Use defining relative clauses to identify a noun, and non‑defining clauses to add extra information.",
+    "common_error": "❌ The landlord, who collects rent, lives nearby.  →  ✅ The landlord who collects rent lives nearby.",
+    "in_context": [
+      "Those who rent pay a regular amount to a landlord — the owner of the property — in exchange for the right to live there, usually under the terms of a lease.",
+      "Many buyers choose to live in a suburb, which is a residential area on the edge of a city, where prices tend to be lower and the environment is quieter.",
+      "The value of a property depends on many factors, including its size, condition, and area — the neighbourhood and surrounding environment where it is located."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The landlord ___ collects the rent on the first of each month.",
+          "options": [
+            "whom",
+            "that",
+            "who",
+            "which"
+          ],
+          "answer": "who"
+        },
+        {
+          "id": 2,
+          "sentence": "The house, ___ was built in 1920, needs renovation.",
+          "options": [
+            "where",
+            "who",
+            "that",
+            "which"
+          ],
+          "answer": "which"
+        },
+        {
+          "id": 3,
+          "sentence": "Buyers often look for apartments ___ have a balcony.",
+          "options": [
+            "who",
+            "where",
+            "that",
+            "which"
+          ],
+          "answer": "that"
+        },
+        {
+          "id": 4,
+          "sentence": "The suburb ___ I grew up has become very expensive.",
+          "options": [
+            "who",
+            "that",
+            "where",
+            "which"
+          ],
+          "answer": "where"
+        },
+        {
+          "id": 5,
+          "sentence": "My neighbour, ___ works as a real estate agent, gave me advice.",
+          "options": [
+            "whom",
+            "that",
+            "who",
+            "which"
+          ],
+          "answer": "who"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "property",
+            "that",
+            "needs",
+            "renovation",
+            "is",
+            "on",
+            "the",
+            "market"
+          ],
+          "answer": "The property that needs renovation is on the market"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Our",
+            "landlord",
+            "who",
+            "is",
+            "friendly",
+            "always",
+            "responds",
+            "quickly"
+          ],
+          "answer": "Our landlord who is friendly always responds quickly"
+        },
+        {
+          "id": 3,
+          "words": [
+            "The",
+            "neighbourhood",
+            "which",
+            "has",
+            "good",
+            "schools",
+            "is",
+            "popular"
+          ],
+          "answer": "The neighbourhood which has good schools is popular"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "who",
+        "which",
+        "that",
+        "where",
+        "whose",
+        "whom"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The tenant ___ pays the rent on time is reliable.",
+          "answer": "who"
+        },
+        {
+          "id": 2,
+          "sentence": "The lease agreement, ___ was signed yesterday, includes a clause on pets.",
+          "answer": "which"
+        },
+        {
+          "id": 3,
+          "sentence": "The city ___ we are considering buying property in has a strong economy.",
+          "answer": "where"
+        },
+        {
+          "id": 4,
+          "sentence": "The developer ___ project was delayed faced penalties.",
+          "answer": "whose"
+        },
+        {
+          "id": 5,
+          "sentence": "The landlord ___ we spoke yesterday offered a discount.",
+          "answer": "whom"
+        }
+      ]
+    }
   }
 }

@@ -735,5 +735,167 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Both / Either / Neither",
+    "vi_grammar_point": "Both / Either / Neither — diễn đạt sự lựa chọn kép",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Both + Subject + Verb + Object, and + Subject + Verb + Object; Either + Subject + Verb + Object, or + Subject + Verb + Object; Neither + Subject + Verb + Object, nor + Subject + Verb + Object"
+    },
+    "rule_vi": "Dùng both để nói về hai đối tượng cùng đúng; either cho một trong hai lựa chọn; neither cho không có lựa chọn nào.",
+    "rule_en": "Use both for two items together, either for one of two choices, and neither for none of the two.",
+    "common_error": "❌ *Either* the students and the teachers will present. → ✅ *Both* the students and the teachers will present.",
+    "in_context": [
+      "People can choose to learn both a dominant language and a minority language.",
+      "You may study either French or German at the university.",
+      "Neither the government nor the local community has funded the language preservation program."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You can study _____ French or German at the university.",
+          "options": [
+            "both",
+            "neither",
+            "either",
+            "and"
+          ],
+          "answer": "either"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the manager nor the assistant attended the meeting.",
+          "options": [
+            "Both",
+            "Either",
+            "Neither",
+            "And"
+          ],
+          "answer": "Neither"
+        },
+        {
+          "id": 3,
+          "sentence": "She likes _____ tea or coffee in the morning.",
+          "options": [
+            "neither",
+            "both",
+            "either",
+            "but"
+          ],
+          "answer": "either"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ of the proposals were accepted by the committee.",
+          "options": [
+            "Either",
+            "Both",
+            "Neither",
+            "And"
+          ],
+          "answer": "Neither"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the students and teachers enjoyed the field trip.",
+          "options": [
+            "Either",
+            "Both",
+            "Neither",
+            "And"
+          ],
+          "answer": "Both"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Either",
+            "you",
+            "can",
+            "take",
+            "the",
+            "bus",
+            "or",
+            "walk"
+          ],
+          "answer": "Either you can take the bus or walk"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Neither",
+            "the",
+            "rain",
+            "stopped",
+            "nor",
+            "the",
+            "wind",
+            "blew"
+          ],
+          "answer": "Neither the rain stopped nor the wind blew"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Both",
+            "students",
+            "and",
+            "teachers",
+            "participated",
+            "in",
+            "the",
+            "workshop"
+          ],
+          "answer": "Both students and teachers participated in the workshop"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "both",
+        "either",
+        "neither",
+        "and",
+        "or",
+        "but"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the manager and the assistant agreed to the plan.",
+          "answer": "both"
+        },
+        {
+          "id": 2,
+          "sentence": "You can choose _____ to stay home or to go out.",
+          "answer": "either"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ of the options were suitable for the project.",
+          "answer": "neither"
+        },
+        {
+          "id": 4,
+          "sentence": "She likes coffee _____ tea.",
+          "answer": "and"
+        },
+        {
+          "id": 5,
+          "sentence": "He will arrive _____ tomorrow or next week.",
+          "answer": "either"
+        }
+      ]
+    }
   }
 }

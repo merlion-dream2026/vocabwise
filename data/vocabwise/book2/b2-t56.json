@@ -809,5 +809,180 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositional phrases as discourse connectors (In terms of / With regard to)",
+    "vi_grammar_point": "Cụm giới từ làm liên từ văn viết",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "In terms of + Noun, Subject + Verb + ...",
+      "variant": "With regard to + Noun, Subject + Verb + ..."
+    },
+    "rule_vi": "Dùng các cụm giới từ này để giới thiệu một khía cạnh, quan điểm trong bài viết.",
+    "rule_en": "Use these prepositional phrases to introduce a particular aspect or viewpoint in discourse.",
+    "common_error": "❌ *In regard to health* → ✅ *With regard to health*",
+    "in_context": [
+      "In terms of health, the problem arises when passive consumption — scrolling through feeds, watching video after video — begins to distract us from relationships and real‑world activities.",
+      "With regard to children and teenagers, the challenge is even greater because social media can amplify peer pressure and anxiety.",
+      "In terms of technology, the goal is not to eliminate it — it is an essential part of modern life — but to use it in ways that genuinely serve our wellbeing online and offline."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm giới từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ health, excessive screen time can affect sleep quality.",
+          "options": [
+            "In spite of",
+            "According to",
+            "In terms of",
+            "With regard to"
+          ],
+          "answer": "In terms of"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ education, digital tools can enhance learning when used responsibly.",
+          "options": [
+            "In spite of",
+            "With regard to",
+            "According to",
+            "In terms of"
+          ],
+          "answer": "With regard to"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the environment, the production of electronic devices has a carbon footprint.",
+          "options": [
+            "In spite of",
+            "In terms of",
+            "According to",
+            "With regard to"
+          ],
+          "answer": "In terms of"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ parental control, setting screen limits helps children develop better habits.",
+          "options": [
+            "In terms of",
+            "With regard to",
+            "According to",
+            "In spite of"
+          ],
+          "answer": "With regard to"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the study, participants reported lower stress after reducing notifications.",
+          "options": [
+            "In spite of",
+            "With regard to",
+            "In terms of",
+            "According to"
+          ],
+          "answer": "With regard to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "In",
+            "terms",
+            "of",
+            "productivity",
+            "the",
+            "team",
+            "found",
+            "that",
+            "short",
+            "breaks",
+            "help",
+            "focus"
+          ],
+          "answer": "In terms of productivity the team found that short breaks help focus"
+        },
+        {
+          "id": 2,
+          "words": [
+            "With",
+            "regard",
+            "to",
+            "privacy",
+            "users",
+            "should",
+            "review",
+            "app",
+            "permissions",
+            "regularly"
+          ],
+          "answer": "With regard to privacy users should review app permissions regularly"
+        },
+        {
+          "id": 3,
+          "words": [
+            "In",
+            "terms",
+            "of",
+            "cost",
+            "the",
+            "new",
+            "software",
+            "is",
+            "more",
+            "expensive",
+            "than",
+            "the",
+            "old",
+            "one"
+          ],
+          "answer": "In terms of cost the new software is more expensive than the old one"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền cụm giới từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "In terms of",
+        "With regard to",
+        "According to",
+        "In spite of",
+        "On behalf of",
+        "Regarding"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ mental health, excessive scrolling can increase anxiety.",
+          "answer": "In terms of"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ digital literacy, schools should integrate coding into curricula.",
+          "answer": "With regard to"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ user experience, designers aim for intuitive navigation.",
+          "answer": "In terms of"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ parental guidance, families set screen‑time rules together.",
+          "answer": "With regard to"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ research findings, the study recommends daily breaks from devices.",
+          "answer": "In terms of"
+        }
+      ]
+    }
   }
 }

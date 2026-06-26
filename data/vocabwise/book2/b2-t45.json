@@ -739,5 +739,172 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Discourse markers (however / moreover / furthermore / on the other hand)",
+    "vi_grammar_point": "Liên từ văn viết",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1 + [Discourse Marker] + Clause2",
+      "variant": "Other markers such as nevertheless, yet, still"
+    },
+    "rule_vi": "Các liên từ này dùng để nối hai mệnh đề, thể hiện quan hệ tương phản, bổ sung hoặc so sánh.",
+    "rule_en": "Use these discourse markers to link two clauses, showing contrast, addition, or comparison.",
+    "common_error": "❌ *The project was successful however we missed the deadline.* → ✅ *The project was successful; however, we missed the deadline.*",
+    "in_context": [
+      "Digital technology and globalisation have opened up possibilities that no previous generation could have imagined; however, they also create intense pressure to perform.",
+      "On the other hand, the same forces create intense pressure to perform, compare, and keep up — often at a serious cost to mental health.",
+      "Young people demonstrate remarkable ambition and voice; moreover, they are participating in civic life, using digital platforms to campaign for causes they believe in."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The city has a high cost of living; _____, the public transport system is efficient.",
+          "options": [
+            "moreover",
+            "however",
+            "furthermore",
+            "on the other hand"
+          ],
+          "answer": "however"
+        },
+        {
+          "id": 2,
+          "sentence": "She completed her degree with top marks; _____, she decided to travel before starting her career.",
+          "options": [
+            "on the other hand",
+            "however",
+            "moreover",
+            "furthermore"
+          ],
+          "answer": "moreover"
+        },
+        {
+          "id": 3,
+          "sentence": "The study confirmed the hypothesis; _____, it also revealed unexpected side effects.",
+          "options": [
+            "however",
+            "on the other hand",
+            "moreover",
+            "furthermore"
+          ],
+          "answer": "furthermore"
+        },
+        {
+          "id": 4,
+          "sentence": "The proposal reduces emissions; _____, it increases production costs for manufacturers.",
+          "options": [
+            "furthermore",
+            "however",
+            "on the other hand",
+            "moreover"
+          ],
+          "answer": "on the other hand"
+        },
+        {
+          "id": 5,
+          "sentence": "He enjoys classical music; _____, he also loves jazz and rock.",
+          "options": [
+            "however",
+            "moreover",
+            "on the other hand",
+            "furthermore"
+          ],
+          "answer": "moreover"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "However",
+            "the",
+            "meeting",
+            "was",
+            "delayed",
+            "we",
+            "started",
+            "the",
+            "workshop",
+            "on",
+            "time"
+          ],
+          "answer": "However the meeting was delayed we started the workshop on time"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Moreover",
+            "the",
+            "company",
+            "announced",
+            "a",
+            "profit",
+            "increase"
+          ],
+          "answer": "Moreover the company announced a profit increase"
+        },
+        {
+          "id": 3,
+          "words": [
+            "On",
+            "the",
+            "other",
+            "hand",
+            "the",
+            "policy",
+            "may",
+            "benefit",
+            "small",
+            "businesses"
+          ],
+          "answer": "On the other hand the policy may benefit small businesses"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "however",
+        "moreover",
+        "furthermore",
+        "on the other hand",
+        "additionally",
+        "nevertheless"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The lecture was informative; _____, the handouts were missing.",
+          "answer": "however"
+        },
+        {
+          "id": 2,
+          "sentence": "She speaks three languages fluently; _____, she is learning Japanese.",
+          "answer": "moreover"
+        },
+        {
+          "id": 3,
+          "sentence": "The experiment confirmed the theory; _____, it opened new research avenues.",
+          "answer": "furthermore"
+        },
+        {
+          "id": 4,
+          "sentence": "The product is affordable; _____, it may not be as durable as premium models.",
+          "answer": "on the other hand"
+        },
+        {
+          "id": 5,
+          "sentence": "The team met the deadline; _____, they celebrated with a small party.",
+          "answer": "additionally"
+        }
+      ]
+    }
   }
 }

@@ -704,5 +704,173 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Future Continuous and Future Perfect",
+    "vi_grammar_point": "Tương lai tiếp diễn và tương lai hoàn thành",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + will be + verb‑ing (Future Continuous) / Subject + will have + past participle (Future Perfect)",
+      "negative": "Subject + will not be + verb‑ing / Subject + will not have + past participle",
+      "question": "Will + subject + be + verb‑ing? / Will + subject + have + past participle?",
+      "variant": "Subject + shall be + verb‑ing (British) / Subject + will have been + verb‑ing (Future Perfect Continuous)"
+    },
+    "rule_vi": "Dùng tương lai tiếp diễn để nói về hành động đang diễn ra tại một thời điểm trong tương lai; dùng tương lai hoàn thành để nói về hành động sẽ hoàn thành trước một thời điểm hoặc sự kiện khác trong tương lai.",
+    "rule_en": "Use the Future Continuous for ongoing actions at a future time, and the Future Perfect for actions that will be completed before another future point.",
+    "common_error": "❌ I will be launch the probe tomorrow.  →  ✅ I will be launching the probe tomorrow.",
+    "in_context": [
+      "Every mission will be beginning with a powerful launch that requires years of planning.",
+      "Space agencies will have sent unmanned probes deep into the solar system by the end of the decade.",
+      "Human spaceflight will have reached a new milestone when the first astronauts walk on the Moon in 2030."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Next year, scientists _____ a new rover on Mars.",
+          "options": [
+            "will have launched",
+            "will be launching",
+            "will launch",
+            "launch"
+          ],
+          "answer": "will be launching"
+        },
+        {
+          "id": 2,
+          "sentence": "By 2040, the International Space Station _____ for over 30 years.",
+          "options": [
+            "will have operated",
+            "will be operating",
+            "will operate",
+            "operated"
+          ],
+          "answer": "will have operated"
+        },
+        {
+          "id": 3,
+          "sentence": "During the launch, the rocket _____ a massive amount of thrust.",
+          "options": [
+            "will generate",
+            "will be generating",
+            "will have generated",
+            "generates"
+          ],
+          "answer": "will be generating"
+        },
+        {
+          "id": 4,
+          "sentence": "By the time the crew returns, they _____ many experiments.",
+          "options": [
+            "will have completed",
+            "will be completing",
+            "will complete",
+            "completed"
+          ],
+          "answer": "will have completed"
+        },
+        {
+          "id": 5,
+          "sentence": "Tomorrow, the satellite _____ over the Pacific Ocean for the next six hours.",
+          "options": [
+            "will orbit",
+            "will be orbiting",
+            "will have orbited",
+            "orbits"
+          ],
+          "answer": "will be orbiting"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "will",
+            "be",
+            "analyzing",
+            "the",
+            "data",
+            "tomorrow",
+            "Scientists"
+          ],
+          "answer": "Scientists will be analyzing the data tomorrow"
+        },
+        {
+          "id": 2,
+          "words": [
+            "will",
+            "have",
+            "built",
+            "a",
+            "new",
+            "launch",
+            "pad",
+            "by",
+            "2025",
+            "the",
+            "agency"
+          ],
+          "answer": "the agency will have built a new launch pad by 2025"
+        },
+        {
+          "id": 3,
+          "words": [
+            "will",
+            "be",
+            "moving",
+            "across",
+            "the",
+            "crater",
+            "tonight",
+            "The",
+            "rover"
+          ],
+          "answer": "The rover will be moving across the crater tonight"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "will be launching",
+        "will have explored",
+        "will be studying",
+        "will have completed",
+        "will be orbiting",
+        "should"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Next month, the mission _____ a new telescope.",
+          "answer": "will be launching"
+        },
+        {
+          "id": 2,
+          "sentence": "By 2030, humanity _____ the asteroid belt.",
+          "answer": "will have explored"
+        },
+        {
+          "id": 3,
+          "sentence": "During the experiment, the satellite _____ the Earth's magnetic field.",
+          "answer": "will be studying"
+        },
+        {
+          "id": 4,
+          "sentence": "By the end of the year, engineers _____ the prototype.",
+          "answer": "will have completed"
+        },
+        {
+          "id": 5,
+          "sentence": "Tonight, the ISS _____ over the night sky.",
+          "answer": "will be orbiting"
+        }
+      ]
+    }
   }
 }

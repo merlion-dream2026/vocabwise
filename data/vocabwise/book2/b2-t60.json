@@ -757,5 +757,162 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Academic hedging and stance language",
+    "vi_grammar_point": "Ngôn ngữ lập trường trong học thuật",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + hedging phrase (modal verb / verb + adverb) + that‑clause",
+      "variant": "Subject + verb + adverbial hedge (e.g., probably, possibly) + complement"
+    },
+    "rule_vi": "Dùng các từ/ cụm từ giảm mức độ khẳng định (might, seem to, appears) khi đưa ra quan điểm để thể hiện tính thận trọng và tính học thuật.",
+    "rule_en": "Use hedging expressions to soften claims and show academic caution.",
+    "common_error": "❌ The results definitely prove the hypothesis.  →  ✅ The results might prove the hypothesis.",
+    "in_context": [
+      "Phrases like 'for example', 'this suggests that', and 'on the other hand' are the tools of logical argumentation.",
+      "Without this skill, even strongly held views can be fail to convince others, because passion alone is rarely enough to change minds.",
+      "The goal of discussion is not to 'win' but to come to a conclusion that appears to be as close to the truth as possible."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ hedging phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The results _____ indicate a significant difference between groups.",
+          "options": [
+            "must",
+            "clearly",
+            "might",
+            "definitely"
+          ],
+          "answer": "might"
+        },
+        {
+          "id": 2,
+          "sentence": "The author _____ argues that the policy will improve outcomes.",
+          "options": [
+            "tentatively",
+            "strongly",
+            "absolutely",
+            "certainly"
+          ],
+          "answer": "tentatively"
+        },
+        {
+          "id": 3,
+          "sentence": "These findings _____ suggest that further investigation is needed.",
+          "options": [
+            "seem to",
+            "clearly",
+            "definitely",
+            "obviously"
+          ],
+          "answer": "seem to"
+        },
+        {
+          "id": 4,
+          "sentence": "It _____ appears that the data were collected under controlled conditions.",
+          "options": [
+            "apparently",
+            "undoubtedly",
+            "certainly",
+            "obviously"
+          ],
+          "answer": "apparently"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ propose a new framework for analyzing the results.",
+          "options": [
+            "firmly",
+            "cautiously",
+            "decisively",
+            "strongly"
+          ],
+          "answer": "cautiously"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "might",
+            "we",
+            "consider",
+            "alternative",
+            "explanations"
+          ],
+          "answer": "might we consider alternative explanations"
+        },
+        {
+          "id": 2,
+          "words": [
+            "seems",
+            "the",
+            "evidence",
+            "suggest",
+            "a",
+            "correlation"
+          ],
+          "answer": "seems the evidence suggest a correlation"
+        },
+        {
+          "id": 3,
+          "words": [
+            "likely",
+            "it",
+            "is",
+            "that",
+            "the",
+            "hypothesis",
+            "holds"
+          ],
+          "answer": "likely it is that the hypothesis holds"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "might",
+        "suggests",
+        "appears",
+        "likely",
+        "tentatively",
+        "definitely"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The preliminary data _____ indicate a trend towards higher scores.",
+          "answer": "might"
+        },
+        {
+          "id": 2,
+          "sentence": "The author _____ that the model outperforms previous versions.",
+          "answer": "suggests"
+        },
+        {
+          "id": 3,
+          "sentence": "It _____ seems that the participants were unaware of the manipulation.",
+          "answer": "appears"
+        },
+        {
+          "id": 4,
+          "sentence": "These results are _____ to be replicated in a larger sample.",
+          "answer": "likely"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ discuss the implications of these findings.",
+          "answer": "tentatively"
+        }
+      ]
+    }
   }
 }

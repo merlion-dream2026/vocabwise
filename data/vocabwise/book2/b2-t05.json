@@ -755,5 +755,169 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reported speech — verbs (say / tell / claim / argue)",
+    "vi_grammar_point": "Câu gián tiếp với các động từ truyền đạt",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + say/tell/claim/argue + that + clause",
+      "negative": "Subject + didn't say/tell/claim/argue + that + clause",
+      "question": "Did Subject say/tell/claim/argue that ...?",
+      "variant": "Subject + say/tell/claim/argue + to Object + that + clause"
+    },
+    "rule_vi": "Dùng cấu trúc này để truyền đạt lời nói, ý kiến hoặc lập luận của người khác trong câu gián tiếp.",
+    "rule_en": "Use this structure to report what someone said, told, claimed or argued.",
+    "common_error": "❌ He said that he will go tomorrow.  →  ✅ He said that he would go tomorrow.",
+    "in_context": [
+      "The prime minister said that the new tax policy will fund public services.",
+      "Opposition leaders argued that the current constitution needs reform.",
+      "The committee told the citizens that the election results were final."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The mayor ___ that the city will build more schools.",
+          "options": [
+            "argued",
+            "said",
+            "claimed",
+            "told"
+          ],
+          "answer": "said"
+        },
+        {
+          "id": 2,
+          "sentence": "She ___ the workers to vote for the new law.",
+          "options": [
+            "argued",
+            "claimed",
+            "told",
+            "said"
+          ],
+          "answer": "told"
+        },
+        {
+          "id": 3,
+          "sentence": "Experts ___ that climate change affects political stability.",
+          "options": [
+            "claimed",
+            "said",
+            "told",
+            "argued"
+          ],
+          "answer": "claimed"
+        },
+        {
+          "id": 4,
+          "sentence": "He ___ that the opposition should be given more speaking time.",
+          "options": [
+            "said",
+            "told",
+            "claimed",
+            "argued"
+          ],
+          "answer": "argued"
+        },
+        {
+          "id": 5,
+          "sentence": "The spokesperson ___ that the government will lower taxes next year.",
+          "options": [
+            "told",
+            "argued",
+            "said",
+            "claimed"
+          ],
+          "answer": "said"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "parliament",
+            "said",
+            "that",
+            "the",
+            "law",
+            "was",
+            "passed"
+          ],
+          "answer": "parliament said that the law was passed"
+        },
+        {
+          "id": 2,
+          "words": [
+            "leaders",
+            "told",
+            "the",
+            "citizens",
+            "that",
+            "the",
+            "budget",
+            "is",
+            "balanced"
+          ],
+          "answer": "leaders told the citizens that the budget is balanced"
+        },
+        {
+          "id": 3,
+          "words": [
+            "analysts",
+            "argued",
+            "that",
+            "the",
+            "policy",
+            "needs",
+            "revision"
+          ],
+          "answer": "analysts argued that the policy needs revision"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "said",
+        "told",
+        "claimed",
+        "argued",
+        "stated",
+        "believed"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The minister ___ that the new law will improve education.",
+          "answer": "said"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers ___ that voting rates have increased.",
+          "answer": "claimed"
+        },
+        {
+          "id": 3,
+          "sentence": "The committee ___ the public to attend the meeting.",
+          "answer": "told"
+        },
+        {
+          "id": 4,
+          "sentence": "Opponents ___ that the tax hike is unfair.",
+          "answer": "argued"
+        },
+        {
+          "id": 5,
+          "sentence": "The spokesperson ___ that the project will finish on time.",
+          "answer": "stated"
+        }
+      ]
+    }
   }
 }

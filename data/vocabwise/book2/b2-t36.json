@@ -711,5 +711,169 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Too / Enough with infinitive clauses",
+    "vi_grammar_point": "Too / Enough với mệnh đề nguyên thể",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be + too + adjective + to + infinitive\nSubject + have + enough + noun + to + infinitive",
+      "negative": "Subject + be + not too + adjective + to + infinitive\nSubject + have + not enough + noun + to + infinitive",
+      "question": "Is/Are + subject + too + adjective + to + infinitive?",
+      "variant": "too + adjective + for + noun + to + infinitive"
+    },
+    "rule_vi": "Dùng Too/Enough + mệnh đề nguyên thể để nói một hành động/điều gì đó quá khó hoặc không đủ khả năng để thực hiện.",
+    "rule_en": "Use Too/Enough with infinitive clauses to express that something is too difficult or not sufficient to do something.",
+    "common_error": "❌ She is too enough to finish the work.  →  ✅ She is too busy to finish the work.",
+    "in_context": [
+      "Closing this unfair gap is too difficult to solve quickly.",
+      "Students from disadvantaged backgrounds are not supported enough to maintain high standards.",
+      "The number of students leaving early is too high to ignore."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher found the textbook _____ to understand for beginners.",
+          "options": [
+            "enough clear",
+            "too difficult",
+            "too clear",
+            "enough difficult"
+          ],
+          "answer": "too difficult"
+        },
+        {
+          "id": 2,
+          "sentence": "The school does not have _____ teachers to cover all subjects.",
+          "options": [
+            "too qualified",
+            "enough qualified",
+            "enough unqualified",
+            "too unqualified"
+          ],
+          "answer": "enough qualified"
+        },
+        {
+          "id": 3,
+          "sentence": "The new policy is _____ to implement without additional funding.",
+          "options": [
+            "enough cheap",
+            "too cheap",
+            "too expensive",
+            "enough expensive"
+          ],
+          "answer": "too expensive"
+        },
+        {
+          "id": 4,
+          "sentence": "She is _____ to finish the assignment by tomorrow.",
+          "options": [
+            "enough fast",
+            "too busy",
+            "too lazy",
+            "enough slow"
+          ],
+          "answer": "too busy"
+        },
+        {
+          "id": 5,
+          "sentence": "The library lacks _____ books to meet the demand.",
+          "options": [
+            "too old",
+            "enough recent",
+            "too recent",
+            "enough old"
+          ],
+          "answer": "enough recent"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "hard",
+            "exam",
+            "the",
+            "to",
+            "was",
+            "pass",
+            "too"
+          ],
+          "answer": "The exam was too hard to pass"
+        },
+        {
+          "id": 2,
+          "words": [
+            "program",
+            "expand",
+            "resources",
+            "enough",
+            "to",
+            "have",
+            "We"
+          ],
+          "answer": "We have enough resources to expand the program"
+        },
+        {
+          "id": 3,
+          "words": [
+            "lead",
+            "project",
+            "enough",
+            "She",
+            "to",
+            "experienced",
+            "not",
+            "the",
+            "is"
+          ],
+          "answer": "She is not enough experienced to lead the project"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "too",
+        "enough",
+        "hard",
+        "qualified",
+        "expensive",
+        "busy"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The curriculum is _____ challenging to be taught by untrained staff.",
+          "answer": "too"
+        },
+        {
+          "id": 2,
+          "sentence": "The school does not have _____ teachers to cover all subjects.",
+          "answer": "enough"
+        },
+        {
+          "id": 3,
+          "sentence": "The new software is _____ costly to implement without extra budget.",
+          "answer": "too"
+        },
+        {
+          "id": 4,
+          "sentence": "The candidate is _____ qualified to lead the research team.",
+          "answer": "enough"
+        },
+        {
+          "id": 5,
+          "sentence": "The deadline is _____ tight to allow revisions.",
+          "answer": "too"
+        }
+      ]
+    }
   }
 }

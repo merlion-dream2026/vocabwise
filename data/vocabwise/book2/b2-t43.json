@@ -730,5 +730,166 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal perfect (should have / must have / can't have)",
+    "vi_grammar_point": "Động từ khuyết thiếu + have — suy luận về quá khứ",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal verb (should/must/can’t) + have + past participle",
+      "negative": "Subject + modal verb + not + have + past participle",
+      "question": "Modal verb + subject + have + past participle?",
+      "variant": "Subject + modal verb + ’ve + past participle (e.g., should've)"
+    },
+    "rule_vi": "Dùng để suy luận về một hành động đã xảy ra hoặc không xảy ra trong quá khứ, thường có cảm giác hối tiếc, trách nhiệm hoặc chắc chắn.",
+    "rule_en": "Used to infer or comment on a past action that was expected, required, or impossible.",
+    "common_error": "❌ She should has gone home. → ✅ She should have gone home.",
+    "in_context": [
+      "A society that demands freedom must have respected the rights of others.",
+      "Campaigns for equality should have driven some of history's most important social changes, from the abolition of slavery to women's suffrage.",
+      "The struggle for human rights can't have been a distant political matter—it is a daily responsibility."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng modal perfect phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government _____ increased funding for education last year, but it didn't.",
+          "options": [
+            "could have",
+            "must have",
+            "should have",
+            "can't have"
+          ],
+          "answer": "should have"
+        },
+        {
+          "id": 2,
+          "sentence": "You _____ known the consequences of censoring free speech.",
+          "options": [
+            "might have",
+            "can't have",
+            "must have",
+            "should have"
+          ],
+          "answer": "must have"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ ignored the protest, yet the police intervened.",
+          "options": [
+            "should have",
+            "could have",
+            "can't have",
+            "must have"
+          ],
+          "answer": "can't have"
+        },
+        {
+          "id": 4,
+          "sentence": "I _____ taken the train, but I chose to drive.",
+          "options": [
+            "must have",
+            "could have",
+            "should have",
+            "can't have"
+          ],
+          "answer": "could have"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ forgotten the deadline, because she always checks her calendar.",
+          "options": [
+            "can't have",
+            "must have",
+            "should have",
+            "could have"
+          ],
+          "answer": "can't have"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "must",
+            "have",
+            "respected",
+            "the",
+            "rights",
+            "of",
+            "others"
+          ],
+          "answer": "must have respected the rights of others"
+        },
+        {
+          "id": 2,
+          "words": [
+            "should",
+            "have",
+            "paid",
+            "taxes",
+            "on",
+            "time"
+          ],
+          "answer": "should have paid taxes on time"
+        },
+        {
+          "id": 3,
+          "words": [
+            "can't",
+            "have",
+            "been",
+            "ignorant",
+            "about",
+            "human",
+            "rights"
+          ],
+          "answer": "can't have been ignorant about human rights"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng modal perfect thích hợp vào chỗ trống.",
+      "word_bank": [
+        "should have",
+        "must have",
+        "can't have",
+        "could have",
+        "might have",
+        "would have"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee _____ approved the proposal before the deadline.",
+          "answer": "should have"
+        },
+        {
+          "id": 2,
+          "sentence": "Given the evidence, the judge _____ found the defendant guilty.",
+          "answer": "must have"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ missed the meeting; she was at the conference.",
+          "answer": "can't have"
+        },
+        {
+          "id": 4,
+          "sentence": "If we had known earlier, we _____ taken different action.",
+          "answer": "could have"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ been more careful, but he didn't realize the risk.",
+          "answer": "might have"
+        }
+      ]
+    }
   }
 }

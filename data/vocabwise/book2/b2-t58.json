@@ -748,5 +748,172 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Concession clauses (although / while / even though / despite the fact that)",
+    "vi_grammar_point": "Mệnh đề nhượng bộ",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Conjunction + Subordinate Clause (Subject + Verb), Main Clause (Subject + Verb)",
+      "variant": "despite + noun phrase, Main Clause (Subject + Verb)"
+    },
+    "rule_vi": "Dùng để biểu thị sự nhượng bộ, khi một ý trái ngược với ý chính nhưng vẫn xảy ra.",
+    "rule_en": "Use concession clauses to show contrast between two ideas.",
+    "common_error": "❌ Although he is tired, but he kept working.  →  ✅ Although he is tired, he kept working.",
+    "in_context": [
+      "Although a benefit to one person or group may cause harm to another, a responsible person tries to understand these trade‑offs clearly and honestly.",
+      "Even when it is uncomfortable, we should tell the truth.",
+      "While we rarely know the exact outcome, we must still make a decision."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the project was risky, the team proceeded.",
+          "options": [
+            "although",
+            "while",
+            "even though",
+            "despite the fact that"
+          ],
+          "answer": "although"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ she felt nervous, she gave a confident presentation.",
+          "options": [
+            "while",
+            "even though",
+            "although",
+            "despite the fact that"
+          ],
+          "answer": "even though"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the weather was cold, the hikers enjoyed the trek.",
+          "options": [
+            "despite the fact that",
+            "while",
+            "although",
+            "even though"
+          ],
+          "answer": "despite the fact that"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ he was inexperienced, he performed well.",
+          "options": [
+            "while",
+            "although",
+            "even though",
+            "despite the fact that"
+          ],
+          "answer": "while"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ they had limited resources, the project succeeded.",
+          "options": [
+            "even though",
+            "while",
+            "although",
+            "despite the fact that"
+          ],
+          "answer": "despite the fact that"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "although",
+            "the",
+            "deadline",
+            "was",
+            "tight",
+            "we",
+            "finished",
+            "on",
+            "time"
+          ],
+          "answer": "although the deadline was tight we finished on time"
+        },
+        {
+          "id": 2,
+          "words": [
+            "even",
+            "though",
+            "he",
+            "was",
+            "exhausted",
+            "he",
+            "kept",
+            "working"
+          ],
+          "answer": "even though he was exhausted he kept working"
+        },
+        {
+          "id": 3,
+          "words": [
+            "despite",
+            "the",
+            "fact",
+            "that",
+            "the",
+            "weather",
+            "was",
+            "bad",
+            "the",
+            "match",
+            "continued"
+          ],
+          "answer": "despite the fact that the weather was bad the match continued"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "although",
+        "while",
+        "even though",
+        "despite the fact that",
+        "even when",
+        "because"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly.",
+          "answer": "although"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ he had no prior experience, he was hired for the role.",
+          "answer": "even though"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the costs are high, the company decided to invest.",
+          "answer": "while"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the fact that the policy was unpopular, it was implemented.",
+          "answer": "despite the fact that"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ it is raining, the outdoor event will go ahead.",
+          "answer": "even when"
+        }
+      ]
+    }
   }
 }

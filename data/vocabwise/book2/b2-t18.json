@@ -766,5 +766,174 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive with reporting verbs (It has been found that...)",
+    "vi_grammar_point": "Bị động với động từ truyền đạt",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + have/has + been + past participle + that + clause",
+      "negative": "It + have/has + not + been + past participle + that + clause",
+      "question": "Have/Has it + been + past participle + that + clause?",
+      "variant": "It is reported that + clause"
+    },
+    "rule_vi": "Dùng cấu trúc này để truyền đạt kết quả nghiên cứu, báo cáo mà không nêu người thực hiện. Thường xuất hiện trong các bài viết học thuật.",
+    "rule_en": "Use this structure to report findings or statements without mentioning the author.",
+    "common_error": "❌ It have been found that the data supports the hypothesis. → ✅ It has been found that the data supports the hypothesis.",
+    "in_context": [
+      "It has been found that many consumers have turned to organic farming, which avoids artificial chemicals and focuses on soil health.",
+      "It has been reported that when harvests are plentiful, countries may build up a surplus of food that can be traded or stored.",
+      "It has been noted that not all agricultural systems can guarantee food security."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the new pesticide reduces crop loss by 30%.",
+          "options": [
+            "It is found",
+            "It was found",
+            "It has been found",
+            "It will be found"
+          ],
+          "answer": "It has been found"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that organic farming can improve soil health over time.",
+          "options": [
+            "It has been reported",
+            "It is reported",
+            "It was reported",
+            "It will be reported"
+          ],
+          "answer": "It has been reported"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that climate change will affect global food security.",
+          "options": [
+            "It has been suggested",
+            "It is suggested",
+            "It was suggested",
+            "It will be suggested"
+          ],
+          "answer": "It has been suggested"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that the surplus of food can be stored for emergencies.",
+          "options": [
+            "It has been noted",
+            "It is noted",
+            "It was noted",
+            "It will be noted"
+          ],
+          "answer": "It has been noted"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that pesticide residues are harmful to human health.",
+          "options": [
+            "It has been proven",
+            "It is proven",
+            "It was proven",
+            "It will be proven"
+          ],
+          "answer": "It has been proven"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "has",
+            "been",
+            "found",
+            "that",
+            "soil",
+            "degradation",
+            "reduces",
+            "yield"
+          ],
+          "answer": "It has been found that soil degradation reduces yield"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "has",
+            "been",
+            "reported",
+            "that",
+            "organic",
+            "methods",
+            "increase",
+            "biodiversity"
+          ],
+          "answer": "It has been reported that organic methods increase biodiversity"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "has",
+            "been",
+            "suggested",
+            "that",
+            "climate",
+            "change",
+            "will",
+            "impact",
+            "agriculture"
+          ],
+          "answer": "It has been suggested that climate change will impact agriculture"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "found",
+        "reported",
+        "suggested",
+        "noted",
+        "proven",
+        "ignored"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It has been _____ that the new fertilizer improves wheat growth.",
+          "answer": "found"
+        },
+        {
+          "id": 2,
+          "sentence": "It has been _____ that organic farms use less water.",
+          "answer": "reported"
+        },
+        {
+          "id": 3,
+          "sentence": "It has been _____ that climate models predict lower yields.",
+          "answer": "suggested"
+        },
+        {
+          "id": 4,
+          "sentence": "It has been _____ that pesticide residues can accumulate in soil.",
+          "answer": "noted"
+        },
+        {
+          "id": 5,
+          "sentence": "It has been _____ that certain crops are resistant to disease.",
+          "answer": "proven"
+        }
+      ]
+    }
   }
 }

@@ -772,5 +772,167 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reporting verbs (claim / argue / suggest / warn / deny)",
+    "vi_grammar_point": "Động từ truyền đạt đa dạng",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + reporting verb + that + clause",
+      "negative": "Subject + reporting verb + not + that + clause",
+      "question": "Did + Subject + reporting verb + that + clause?",
+      "variant": "Subject + reporting verb + infinitive (to + verb)"
+    },
+    "rule_vi": "Động từ truyền đạt được dùng để báo cáo lời nói, quan điểm của người khác, thường đi kèm với 'that' và một mệnh đề.",
+    "rule_en": "Reporting verbs are used to convey what someone says or thinks, usually followed by 'that' + clause.",
+    "common_error": "❌ He claim that the story is true → ✅ He claims that the story is true",
+    "in_context": [
+      "Strong journalism claims that it holds governments and powerful organisations accountable to the public.",
+      "A good chief editor argues that the newsroom should prioritize accuracy over speed.",
+      "Experts warn that bias can mislead audiences if not carefully examined."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ truyền đạt phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The study _____ that social media influences public opinion.",
+          "options": [
+            "suggests",
+            "denies",
+            "argues",
+            "claims"
+          ],
+          "answer": "suggests"
+        },
+        {
+          "id": 2,
+          "sentence": "The editor _____ that the article needed more sources.",
+          "options": [
+            "denies",
+            "suggests",
+            "claims",
+            "argues"
+          ],
+          "answer": "claims"
+        },
+        {
+          "id": 3,
+          "sentence": "Scientists _____ that the data could be unreliable.",
+          "options": [
+            "warns",
+            "suggests",
+            "denies",
+            "claims"
+          ],
+          "answer": "warns"
+        },
+        {
+          "id": 4,
+          "sentence": "The spokesperson _____ any involvement in the leak.",
+          "options": [
+            "claims",
+            "denies",
+            "suggests",
+            "argues"
+          ],
+          "answer": "denies"
+        },
+        {
+          "id": 5,
+          "sentence": "Researchers _____ that the new method improves accuracy.",
+          "options": [
+            "suggests",
+            "claims",
+            "argues",
+            "warns"
+          ],
+          "answer": "claims"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "journalists",
+            "claim",
+            "that",
+            "bias",
+            "affects",
+            "readers"
+          ],
+          "answer": "journalists claim that bias affects readers"
+        },
+        {
+          "id": 2,
+          "words": [
+            "experts",
+            "warn",
+            "about",
+            "the",
+            "risk",
+            "of",
+            "misinformation"
+          ],
+          "answer": "experts warn about the risk of misinformation"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "editor",
+            "denies",
+            "any",
+            "error",
+            "in",
+            "the",
+            "report"
+          ],
+          "answer": "the editor denies any error in the report"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "claims",
+        "argues",
+        "suggests",
+        "warns",
+        "denies",
+        "states"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The article _____ that the government ignored the warning.",
+          "answer": "claims"
+        },
+        {
+          "id": 2,
+          "sentence": "The spokesperson _____ that the company had no knowledge of the leak.",
+          "answer": "denies"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers _____ that the new policy could reduce emissions.",
+          "answer": "suggests"
+        },
+        {
+          "id": 4,
+          "sentence": "The professor _____ that the textbook contains outdated data.",
+          "answer": "argues"
+        },
+        {
+          "id": 5,
+          "sentence": "Health officials _____ the public to get vaccinated soon.",
+          "answer": "warns"
+        }
+      ]
+    }
   }
 }

@@ -728,5 +728,166 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice for objectivity and emphasis",
+    "vi_grammar_point": "Bị động để nhấn mạnh và diễn đạt khách quan",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Object + be (am/is/are/was/were/been/being) + past participle (+ by Agent)",
+      "negative": "Object + be + not + past participle (+ by Agent)",
+      "question": "Be + Object + past participle (+ by Agent)?",
+      "variant": "Object + get + past participle (+ by Agent)"
+    },
+    "rule_vi": "Dùng bị động để nhấn mạnh đối tượng hoặc diễn đạt một cách khách quan.",
+    "rule_en": "Use the passive to emphasize the action’s receiver or to present information objectively.",
+    "common_error": "❌ The product was advertise by the company.  →  ✅ The product was advertised by the company.",
+    "in_context": [
+      "The right consumer is reached by the company.",
+      "A successful advertising campaign is coordinated by a team of marketers.",
+      "Brand visibility is funded by sponsoring events."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng bị động đúng cho chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new policy _____ by the government last month.",
+          "options": [
+            "will be implemented",
+            "has been implemented",
+            "was implemented",
+            "is implemented"
+          ],
+          "answer": "was implemented"
+        },
+        {
+          "id": 2,
+          "sentence": "All the data _____ before the analysis begins.",
+          "options": [
+            "were collected",
+            "has been collected",
+            "is collected",
+            "was collected"
+          ],
+          "answer": "was collected"
+        },
+        {
+          "id": 3,
+          "sentence": "The results _____ in a peer‑reviewed journal.",
+          "options": [
+            "are published",
+            "will be published",
+            "has been published",
+            "were published"
+          ],
+          "answer": "will be published"
+        },
+        {
+          "id": 4,
+          "sentence": "The advertisement _____ to appeal to young adults.",
+          "options": [
+            "will be designed",
+            "was designed",
+            "has been designed",
+            "is designed"
+          ],
+          "answer": "was designed"
+        },
+        {
+          "id": 5,
+          "sentence": "Customer feedback _____ through online surveys.",
+          "options": [
+            "has been gathered",
+            "will be gathered",
+            "is gathered",
+            "was gathered"
+          ],
+          "answer": "is gathered"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "product",
+            "was",
+            "launched",
+            "by",
+            "the",
+            "company"
+          ],
+          "answer": "The product was launched by the company"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Advertisements",
+            "are",
+            "created",
+            "for",
+            "the",
+            "market"
+          ],
+          "answer": "Advertisements are created for the market"
+        },
+        {
+          "id": 3,
+          "words": [
+            "The",
+            "campaign",
+            "has",
+            "been",
+            "approved",
+            "by",
+            "management"
+          ],
+          "answer": "The campaign has been approved by management"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "designed",
+        "produced",
+        "distributed",
+        "implemented",
+        "targeted",
+        "promoted"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new slogan was _____ to reflect the brand's values.",
+          "answer": "designed"
+        },
+        {
+          "id": 2,
+          "sentence": "All promotional materials are _____ before the launch.",
+          "answer": "produced"
+        },
+        {
+          "id": 3,
+          "sentence": "Customer surveys are _____ to improve service quality.",
+          "answer": "distributed"
+        },
+        {
+          "id": 4,
+          "sentence": "The campaign was _____ by the creative team last week.",
+          "answer": "implemented"
+        },
+        {
+          "id": 5,
+          "sentence": "The target audience was _____ through social media ads.",
+          "answer": "targeted"
+        }
+      ]
+    }
   }
 }

@@ -783,5 +783,172 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Wish / If only + past (regret and hypothetical)",
+    "vi_grammar_point": "Wish / If only — hối tiếc và tình huống giả định",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "wish + Subject + Verb (past simple)",
+      "negative": "wish + Subject + didn't + base verb",
+      "variant": "if only + Subject + Verb (past simple)"
+    },
+    "rule_vi": "Dùng wish hoặc if only + quá khứ để diễn tả sự hối tiếc hoặc một tình huống không có thực.",
+    "rule_en": "Use wish or if only + past simple to express regret or an unreal situation.",
+    "common_error": "❌ I wish I didn't study English last year.  →  ✅ I wish I had studied English last year.",
+    "in_context": [
+      "If only a generous immigration policy could transform a nation's demographic and economic landscape, many newcomers would feel welcomed.",
+      "I wish discrimination were limited to subtle social exclusion rather than outright hostility.",
+      "If only navigating between two cultures built empathy, flexibility, and a richer understanding of what it means to be human."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ that I had learned more about the local customs before moving abroad.",
+          "options": [
+            "wished",
+            "wishes",
+            "wish",
+            "wishing"
+          ],
+          "answer": "wish"
+        },
+        {
+          "id": 2,
+          "sentence": "If only the government _____ better support for newcomers, integration would be easier.",
+          "options": [
+            "provided",
+            "provides",
+            "had provided",
+            "providing"
+          ],
+          "answer": "provided"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ that she spoke the language fluently when she first arrived.",
+          "options": [
+            "wishes",
+            "wished",
+            "wish",
+            "wishing"
+          ],
+          "answer": "wished"
+        },
+        {
+          "id": 4,
+          "sentence": "If only I _____ how to navigate the legal system, I wouldn't feel so lost.",
+          "options": [
+            "knew",
+            "know",
+            "had known",
+            "knowing"
+          ],
+          "answer": "knew"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ the city had more cultural events for immigrants.",
+          "options": [
+            "wish",
+            "wished",
+            "wishes",
+            "wishing"
+          ],
+          "answer": "wished"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "only",
+            "the",
+            "policy",
+            "were",
+            "more",
+            "generous",
+            "integration",
+            "would",
+            "be",
+            "easier"
+          ],
+          "answer": "If only the policy were more generous integration would be easier"
+        },
+        {
+          "id": 2,
+          "words": [
+            "I",
+            "wish",
+            "I",
+            "had",
+            "known",
+            "the",
+            "customs",
+            "earlier"
+          ],
+          "answer": "I wish I had known the customs earlier"
+        },
+        {
+          "id": 3,
+          "words": [
+            "She",
+            "wishes",
+            "she",
+            "could",
+            "understand",
+            "the",
+            "language",
+            "now"
+          ],
+          "answer": "She wishes she could understand the language now"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "wish",
+        "wished",
+        "provided",
+        "knew",
+        "had",
+        "only"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If _____ the city offered more language courses, newcomers would feel less isolated.",
+          "answer": "only"
+        },
+        {
+          "id": 2,
+          "sentence": "I _____ I had saved more money before moving abroad.",
+          "answer": "wish"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ she knew the local customs earlier.",
+          "answer": "wished"
+        },
+        {
+          "id": 4,
+          "sentence": "If the government _____ better housing, many families would stay longer.",
+          "answer": "provided"
+        },
+        {
+          "id": 5,
+          "sentence": "If only I _____ how to file the paperwork correctly.",
+          "answer": "knew"
+        }
+      ]
+    }
   }
 }

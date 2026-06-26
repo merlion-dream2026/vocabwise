@@ -726,5 +726,170 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive reporting structures (It is claimed / said / reported that...)",
+    "vi_grammar_point": "Cấu trúc bị động với động từ truyền đạt",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be (is/was) + reporting verb (said, claimed, reported, suggested, believed) + that + clause",
+      "negative": "It + be + not + reporting verb + that + clause",
+      "question": "Is it + reporting verb + that + clause?",
+      "variant": "According to sources, it is claimed that ..."
+    },
+    "rule_vi": "Dùng cấu trúc này để truyền đạt thông tin được đưa ra bởi người khác mà không nêu rõ nguồn.",
+    "rule_en": "Use this structure to report someone else's statement or claim in an impersonal way.",
+    "common_error": "❌ It claimed that the data is safe.  →  ✅ It is claimed that the data is safe.",
+    "in_context": [
+      "It is claimed that privacy has become one of the defining legal and ethical issues of the digital century.",
+      "It is reported that many privacy laws now require companies to make this process transparent and to give users the right to control their own data.",
+      "It is said that knowing that you are being watched changes how you behave, what you say, and even what you think."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cấu trúc phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that companies gather personal data without consent.",
+          "options": [
+            "It is claimed",
+            "It is suggested",
+            "It is known",
+            "It is believed"
+          ],
+          "answer": "It is claimed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that the right to privacy is a human value, not just a legal matter.",
+          "options": [
+            "It is reported",
+            "It is claimed",
+            "It is alleged",
+            "It is assumed"
+          ],
+          "answer": "It is reported"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that data leaks can result in identity theft.",
+          "options": [
+            "It is said",
+            "It is claimed",
+            "It is proven",
+            "It is expected"
+          ],
+          "answer": "It is said"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that governments must regulate data collection practices.",
+          "options": [
+            "It is believed",
+            "It is claimed",
+            "It is reported",
+            "It is suggested"
+          ],
+          "answer": "It is believed"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that tracking allows companies to target advertising with extraordinary precision.",
+          "options": [
+            "It is claimed",
+            "It is known",
+            "It is suggested",
+            "It is reported"
+          ],
+          "answer": "It is known"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "claimed",
+            "It",
+            "that",
+            "is",
+            "privacy",
+            "essential",
+            "is"
+          ],
+          "answer": "It is claimed that privacy is essential"
+        },
+        {
+          "id": 2,
+          "words": [
+            "reported",
+            "It",
+            "that",
+            "companies",
+            "must",
+            "protect",
+            "user",
+            "data",
+            "is"
+          ],
+          "answer": "It is reported that companies must protect user data"
+        },
+        {
+          "id": 3,
+          "words": [
+            "said",
+            "It",
+            "that",
+            "tracking",
+            "raises",
+            "serious",
+            "questions",
+            "is"
+          ],
+          "answer": "It is said that tracking raises serious questions"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "claimed",
+        "reported",
+        "said",
+        "suggested",
+        "believed",
+        "expected"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that personal data can be sold without users' consent.",
+          "answer": "claimed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that governments should enforce stricter privacy laws.",
+          "answer": "reported"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that knowing you are watched changes behavior.",
+          "answer": "said"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that companies often track users across websites.",
+          "answer": "suggested"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that privacy is a fundamental human right.",
+          "answer": "believed"
+        }
+      ]
+    }
   }
 }

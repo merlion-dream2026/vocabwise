@@ -702,5 +702,169 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Comparatives (more...than / not as...as / less...than)",
+    "vi_grammar_point": "Cấu trúc so sánh hơn nâng cao",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + more + Adjective + than + Object",
+      "negative": "Subject + Verb + not as + Adjective + as + Object",
+      "question": "Is/Are + Subject + more + Adjective + than + Object?",
+      "variant": "Comparative with -er (e.g., bigger, faster) + than + Object"
+    },
+    "rule_vi": "Dùng cấu trúc so sánh hơn để so sánh hai đối tượng, thường dùng more/less/not as...as + tính từ + than/as.",
+    "rule_en": "Use the comparative form to compare two things, with more/less/not as … as + adjective + than/as.",
+    "common_error": "❌ City is more crowded then countryside.  →  ✅ City is more crowded than the countryside.",
+    "in_context": [
+      "Cities are more crowded than rural areas.",
+      "Living in the suburbs offers more space than the city centre.",
+      "Rural life is not as expensive as city life."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "City apartments are _____ rural houses.",
+          "options": [
+            "more expensive",
+            "as expensive",
+            "less expensive",
+            "more spacious"
+          ],
+          "answer": "more expensive"
+        },
+        {
+          "id": 2,
+          "sentence": "Public transport in cities is _____ than in the countryside.",
+          "options": [
+            "more reliable",
+            "less reliable",
+            "as reliable",
+            "more frequent"
+          ],
+          "answer": "more reliable"
+        },
+        {
+          "id": 3,
+          "sentence": "The air quality in the countryside is _____ city air.",
+          "options": [
+            "more polluted",
+            "as polluted",
+            "less polluted",
+            "more fresh"
+          ],
+          "answer": "less polluted"
+        },
+        {
+          "id": 4,
+          "sentence": "People in the suburbs have _____ access to parks than those living downtown.",
+          "options": [
+            "as much",
+            "more",
+            "less",
+            "fewer"
+          ],
+          "answer": "more"
+        },
+        {
+          "id": 5,
+          "sentence": "Job opportunities in big cities are _____ than in small towns.",
+          "options": [
+            "more abundant",
+            "as abundant",
+            "less abundant",
+            "fewer"
+          ],
+          "answer": "more abundant"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "cities",
+            "are",
+            "more",
+            "crowded",
+            "than",
+            "villages"
+          ],
+          "answer": "cities are more crowded than villages"
+        },
+        {
+          "id": 2,
+          "words": [
+            "rural",
+            "life",
+            "is",
+            "less",
+            "expensive",
+            "than",
+            "city",
+            "life"
+          ],
+          "answer": "rural life is less expensive than city life"
+        },
+        {
+          "id": 3,
+          "words": [
+            "The",
+            "suburbs",
+            "are",
+            "not",
+            "as",
+            "quiet",
+            "as",
+            "the",
+            "city"
+          ],
+          "answer": "The suburbs are not as quiet as the city"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "more",
+        "less",
+        "not",
+        "as",
+        "than",
+        "fewer"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Urban areas are _____ crowded than rural areas.",
+          "answer": "more"
+        },
+        {
+          "id": 2,
+          "sentence": "Rural communities have _____ job opportunities than cities.",
+          "answer": "fewer"
+        },
+        {
+          "id": 3,
+          "sentence": "Living in the country is _____ as expensive as living in the city.",
+          "answer": "not"
+        },
+        {
+          "id": 4,
+          "sentence": "Public transport is _____ reliable than private cars in the suburbs.",
+          "answer": "more"
+        },
+        {
+          "id": 5,
+          "sentence": "The countryside offers _____ pollution than the metropolis.",
+          "answer": "less"
+        }
+      ]
+    }
   }
 }

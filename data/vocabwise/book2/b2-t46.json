@@ -721,5 +721,179 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Third Conditional + passive combination",
+    "vi_grammar_point": "Câu điều kiện loại 3 kết hợp bị động",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + had + past participle, Object + would have been + past participle"
+    },
+    "rule_vi": "Dùng để nói về một tình huống không có thực trong quá khứ, trong đó kết quả cũng ở dạng bị động.",
+    "rule_en": "Used to talk about unreal past situations where the result is expressed in the passive voice.",
+    "common_error": "❌ If the crime was committed, the offender would have been sentenced. → ✅ If the crime had been committed, the offender would have been sentenced.",
+    "in_context": [
+      "If a harsher penalty had been imposed, the offender would have been deterred.",
+      "If community service had been required, the offender would have been given a chance to reform.",
+      "If early release had been granted, the offender would have been supervised."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the evidence _____, the suspect would have been convicted.",
+          "options": [
+            "had been presented",
+            "were presented",
+            "was presented",
+            "has been presented"
+          ],
+          "answer": "had been presented"
+        },
+        {
+          "id": 2,
+          "sentence": "If the law _____, many crimes would have been prevented.",
+          "options": [
+            "were changing",
+            "had been changed",
+            "was changed",
+            "has been changed"
+          ],
+          "answer": "had been changed"
+        },
+        {
+          "id": 3,
+          "sentence": "If the jury _____, the defendant would have been sentenced to life.",
+          "options": [
+            "had reached",
+            "were reaching",
+            "reached",
+            "has reached"
+          ],
+          "answer": "had reached"
+        },
+        {
+          "id": 4,
+          "sentence": "If the police _____ the case thoroughly, the perpetrator would have been caught earlier.",
+          "options": [
+            "has investigated",
+            "were investigating",
+            "investigated",
+            "had investigated"
+          ],
+          "answer": "had investigated"
+        },
+        {
+          "id": 5,
+          "sentence": "If the government _____ stricter regulations, the industry would have been forced to comply.",
+          "options": [
+            "has implemented",
+            "implemented",
+            "had implemented",
+            "were implementing"
+          ],
+          "answer": "had implemented"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "the",
+            "culprit",
+            "had",
+            "been",
+            "caught",
+            "the",
+            "sentence",
+            "would",
+            "have",
+            "been",
+            "severe"
+          ],
+          "answer": "If the culprit had been caught the sentence would have been severe"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "the",
+            "policy",
+            "had",
+            "been",
+            "revised",
+            "the",
+            "penalties",
+            "would",
+            "have",
+            "been",
+            "reduced"
+          ],
+          "answer": "If the policy had been revised the penalties would have been reduced"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "the",
+            "witness",
+            "had",
+            "been",
+            "protected",
+            "the",
+            "trial",
+            "would",
+            "have",
+            "been",
+            "postponed"
+          ],
+          "answer": "If the witness had been protected the trial would have been postponed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "had been presented",
+        "had been revised",
+        "had been implemented",
+        "had been investigated",
+        "had been changed",
+        "had been ignored"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the documentary _____, the public would have been more aware of the crime rates.",
+          "answer": "had been presented"
+        },
+        {
+          "id": 2,
+          "sentence": "If the sentencing guidelines _____, judges would have been forced to follow stricter rules.",
+          "answer": "had been revised"
+        },
+        {
+          "id": 3,
+          "sentence": "If community programs _____, many youths would have been steered away from gangs.",
+          "answer": "had been implemented"
+        },
+        {
+          "id": 4,
+          "sentence": "If the forensic evidence _____, the case would have been solved faster.",
+          "answer": "had been investigated"
+        },
+        {
+          "id": 5,
+          "sentence": "If the early release policy _____, offenders would have been monitored more closely.",
+          "answer": "had been changed"
+        }
+      ]
+    }
   }
 }

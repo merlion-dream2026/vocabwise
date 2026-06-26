@@ -709,5 +709,174 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "So / Such...that (emphasis)",
+    "vi_grammar_point": "Cấu trúc so / such...that nhấn mạnh",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + so + adjective/adverb + that + result clause; Subject + such + noun phrase + that + result clause",
+      "negative": "Subject + so + adjective + that + not + result clause"
+    },
+    "rule_vi": "Dùng so … that để nhấn mạnh tính chất mạnh mẽ của tính từ hoặc trạng từ; dùng such … that để nhấn mạnh danh từ.",
+    "rule_en": "Use so…that to emphasize an adjective/adverb, and such…that to emphasize a noun.",
+    "common_error": "❌ The concert was such exciting that everyone cheered. → ✅ The concert was so exciting that everyone cheered.",
+    "in_context": [
+      "Music is so powerful that it shapes popular culture worldwide.",
+      "A label is such a crucial part of the industry that it can determine an artist's success.",
+      "Live music is so popular that fans still attend concerts in large numbers."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The concert was _____ exciting that the audience couldn't stop cheering.",
+          "options": [
+            "such",
+            "very",
+            "so",
+            "too"
+          ],
+          "answer": "so"
+        },
+        {
+          "id": 2,
+          "sentence": "The band has _____ many fans that they need a bigger venue.",
+          "options": [
+            "so",
+            "many",
+            "such",
+            "few"
+          ],
+          "answer": "such"
+        },
+        {
+          "id": 3,
+          "sentence": "The song is _____ catchy that it gets stuck in your head.",
+          "options": [
+            "quite",
+            "so",
+            "such",
+            "very"
+          ],
+          "answer": "so"
+        },
+        {
+          "id": 4,
+          "sentence": "The festival was _____ large that it attracted tourists from abroad.",
+          "options": [
+            "such",
+            "tiny",
+            "big",
+            "so"
+          ],
+          "answer": "such"
+        },
+        {
+          "id": 5,
+          "sentence": "The lyrics are _____ profound that they inspire listeners to reflect.",
+          "options": [
+            "such",
+            "deep",
+            "so",
+            "simple"
+          ],
+          "answer": "so"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "so",
+            "memorable",
+            "the",
+            "concert",
+            "was",
+            "that",
+            "everyone",
+            "talked",
+            "about",
+            "it"
+          ],
+          "answer": "The concert was so memorable that everyone talked about it"
+        },
+        {
+          "id": 2,
+          "words": [
+            "such",
+            "a",
+            "song",
+            "that",
+            "its",
+            "melody",
+            "stays",
+            "in",
+            "my",
+            "mind"
+          ],
+          "answer": "Such a song that its melody stays in my mind"
+        },
+        {
+          "id": 3,
+          "words": [
+            "so",
+            "popular",
+            "the",
+            "band",
+            "is",
+            "that",
+            "tickets",
+            "sell",
+            "out",
+            "quickly"
+          ],
+          "answer": "The band is so popular that tickets sell out quickly"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "so",
+        "such",
+        "very",
+        "too",
+        "quite",
+        "rather"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The rhythm is _____ catchy that I hum it all day.",
+          "answer": "so"
+        },
+        {
+          "id": 2,
+          "sentence": "It was _____ a performance that the critics gave it a standing ovation.",
+          "answer": "such"
+        },
+        {
+          "id": 3,
+          "sentence": "The album is _____ popular that it topped the charts for weeks.",
+          "answer": "so"
+        },
+        {
+          "id": 4,
+          "sentence": "The guitarist played _____ a solo that left the audience speechless.",
+          "answer": "such"
+        },
+        {
+          "id": 5,
+          "sentence": "The lyrics are _____ emotional that many listeners relate to them.",
+          "answer": "so"
+        }
+      ]
+    }
   }
 }

@@ -756,5 +756,164 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal perfect (should have / could have / would have)",
+    "vi_grammar_point": "Động từ khuyết thiếu hoàn thành",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal verb + have + past participle",
+      "negative": "Subject + modal verb + not + have + past participle",
+      "question": "Modal verb + subject + have + past participle?",
+      "variant": "Subject + modal verb + have + been + present participle (modal perfect continuous)"
+    },
+    "rule_vi": "Dùng should have / could have / would have để nói về một hành động trong quá khứ mà chúng ta nghĩ nên, có thể hoặc muốn đã xảy ra.",
+    "rule_en": "Use should have / could have / would have to talk about unrealised actions in the past.",
+    "common_error": "❌ She should have went to the meeting.  →  ✅ She should have gone to the meeting.",
+    "in_context": [
+      "Many people should have taken action to fight injustice.",
+      "Campaigns for better representation could have helped raise awareness of these issues around the world.",
+      "A society built on inclusion and respect would have been better for everyone."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ khuyết thiếu đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He _____ have apologized for his mistake.",
+          "options": [
+            "must",
+            "could",
+            "should",
+            "would"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ have arrived earlier if they had left on time.",
+          "options": [
+            "would",
+            "must",
+            "should",
+            "could"
+          ],
+          "answer": "could"
+        },
+        {
+          "id": 3,
+          "sentence": "You _____ have told me about the meeting.",
+          "options": [
+            "would",
+            "must",
+            "could",
+            "should"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 4,
+          "sentence": "If I had known, I _____ have helped.",
+          "options": [
+            "must",
+            "could",
+            "should",
+            "would"
+          ],
+          "answer": "would"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ have missed the bus; she left early.",
+          "options": [
+            "must",
+            "would",
+            "could",
+            "should"
+          ],
+          "answer": "could"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "should",
+            "have",
+            "studied",
+            "more",
+            "I"
+          ],
+          "answer": "I should have studied more"
+        },
+        {
+          "id": 2,
+          "words": [
+            "could",
+            "have",
+            "been",
+            "helpful",
+            "it"
+          ],
+          "answer": "It could have been helpful"
+        },
+        {
+          "id": 3,
+          "words": [
+            "would",
+            "have",
+            "been",
+            "great",
+            "to",
+            "see",
+            "you",
+            "It"
+          ],
+          "answer": "It would have been great to see you"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền động từ khuyết thiếu phù hợp vào chỗ trống.",
+      "word_bank": [
+        "should",
+        "could",
+        "would",
+        "must",
+        "might",
+        "ought"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ have called earlier.",
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ have known the answer.",
+          "answer": "could"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ have missed the deadline if we hadn't worked fast.",
+          "answer": "would"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ have told the truth.",
+          "answer": "must"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ have arrived yet.",
+          "answer": "might"
+        }
+      ]
+    }
   }
 }

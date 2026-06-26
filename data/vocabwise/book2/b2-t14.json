@@ -685,5 +685,167 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Wish + past simple (I wish I had more time)",
+    "vi_grammar_point": "Wish + quá khứ đơn — ước muốn hiện tại",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + wish + Verb(past simple)",
+      "negative": "Subject + wish + not + Verb(past simple)",
+      "variant": "wish + past perfect (I wish I had studied)"
+    },
+    "rule_vi": "Dùng wish + quá khứ đơn để bày tỏ ước muốn không có trong hiện tại.",
+    "rule_en": "Use wish + past simple to express a wish about the present that is unreal.",
+    "common_error": "❌ I wish I have more time → ✅ I wish I had more time",
+    "in_context": [
+      "I wish the world relied less on fossil fuels, so the climate would improve.",
+      "Scientists wish governments invested more in renewable energy research.",
+      "We wish the transition to clean power happened faster to protect mental health."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ more time to relax after work.",
+          "options": [
+            "wanted",
+            "wish",
+            "wished",
+            "wishes"
+          ],
+          "answer": "wish"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ that the city built more bike lanes.",
+          "options": [
+            "wish",
+            "wished",
+            "wishes",
+            "wanted"
+          ],
+          "answer": "wish"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ his friends could join the meditation program.",
+          "options": [
+            "wishes",
+            "wish",
+            "wished",
+            "wanted"
+          ],
+          "answer": "wish"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ the conference started earlier.",
+          "options": [
+            "wished",
+            "wish",
+            "wishes",
+            "wanted"
+          ],
+          "answer": "wish"
+        },
+        {
+          "id": 5,
+          "sentence": "You _____ the project received more funding.",
+          "options": [
+            "wish",
+            "wished",
+            "wishes",
+            "wanted"
+          ],
+          "answer": "wish"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "wish",
+            "I",
+            "had",
+            "more",
+            "energy",
+            "resources"
+          ],
+          "answer": "I wish I had more energy resources"
+        },
+        {
+          "id": 2,
+          "words": [
+            "They",
+            "wish",
+            "the",
+            "policy",
+            "changed",
+            "quickly"
+          ],
+          "answer": "They wish the policy changed quickly"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "wish",
+            "our",
+            "schools",
+            "offered",
+            "more",
+            "mental",
+            "health",
+            "support"
+          ],
+          "answer": "We wish our schools offered more mental health support"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "wish",
+        "wanted",
+        "could",
+        "should",
+        "might",
+        "had"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ more time to volunteer for clean‑energy projects.",
+          "answer": "wish"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ that the government reduced carbon emissions faster.",
+          "answer": "wish"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ the renewable‑energy program received extra funding.",
+          "answer": "wish"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ the transition to solar power happened sooner.",
+          "answer": "wish"
+        },
+        {
+          "id": 5,
+          "sentence": "You _____ the city invest in mental‑health services for students.",
+          "answer": "wish"
+        }
+      ]
+    }
   }
 }

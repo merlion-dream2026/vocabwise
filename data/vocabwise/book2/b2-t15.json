@@ -761,5 +761,170 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Relative clauses (which / that / where / whose)",
+    "vi_grammar_point": "Mệnh đề quan hệ với which / that / where / whose",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "NP + relative pronoun (which/that/where/whose) + clause",
+      "variant": "that can replace which in restrictive (defining) clauses"
+    },
+    "rule_vi": "Dùng which/that để giới thiệu thông tin thêm về người hoặc vật; dùng where cho địa điểm; dùng whose cho sở hữu.",
+    "rule_en": "Use which/that to add information about things, where for places, and whose for possession.",
+    "common_error": "❌ The river which flows through the city is polluted.  →  ✅ The river that flows through the city is polluted.",
+    "in_context": [
+      "Natural disasters are extreme events caused by natural forces that can result in widespread destruction and loss of life.",
+      "The strength of an earthquake is measured by its magnitude on the Richter scale, which is used by scientists worldwide.",
+      "Coastal communities where the tsunami strikes often suffer severe damage."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The earthquake caused a landslide, _____ blocked the road for days.",
+          "options": [
+            "where",
+            "whose",
+            "that",
+            "which"
+          ],
+          "answer": "which"
+        },
+        {
+          "id": 2,
+          "sentence": "The island, _____ population depends on fishing, was hit by a storm.",
+          "options": [
+            "that",
+            "where",
+            "which",
+            "whose"
+          ],
+          "answer": "whose"
+        },
+        {
+          "id": 3,
+          "sentence": "The research centre is located in a city _____ many marine biologists work.",
+          "options": [
+            "which",
+            "whose",
+            "that",
+            "where"
+          ],
+          "answer": "where"
+        },
+        {
+          "id": 4,
+          "sentence": "The flood damaged the bridge, _____ was built in 1990.",
+          "options": [
+            "where",
+            "that",
+            "whose",
+            "which"
+          ],
+          "answer": "that"
+        },
+        {
+          "id": 5,
+          "sentence": "The ocean contains many species, _____ are still undiscovered.",
+          "options": [
+            "where",
+            "which",
+            "that",
+            "whose"
+          ],
+          "answer": "that"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "damage",
+            "which",
+            "was",
+            "caused",
+            "by",
+            "the",
+            "storm",
+            "was",
+            "extensive"
+          ],
+          "answer": "damage which was caused by the storm was extensive"
+        },
+        {
+          "id": 2,
+          "words": [
+            "city",
+            "where",
+            "the",
+            "research",
+            "was",
+            "conducted",
+            "is",
+            "coastal"
+          ],
+          "answer": "city where the research was conducted is coastal"
+        },
+        {
+          "id": 3,
+          "words": [
+            "village",
+            "whose",
+            "fishermen",
+            "depend",
+            "on",
+            "the",
+            "sea",
+            "is",
+            "resilient"
+          ],
+          "answer": "village whose fishermen depend on the sea is resilient"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "which",
+        "that",
+        "where",
+        "whose",
+        "when",
+        "who"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The tsunami was a disaster, _____ caused many deaths.",
+          "answer": "that"
+        },
+        {
+          "id": 2,
+          "sentence": "The island, _____ residents rely on tourism, was evacuated.",
+          "answer": "whose"
+        },
+        {
+          "id": 3,
+          "sentence": "The coastal town, _____ we visited last summer, has a new harbor.",
+          "answer": "where"
+        },
+        {
+          "id": 4,
+          "sentence": "The research paper, _____ was published in 2020, discusses ocean currents.",
+          "answer": "which"
+        },
+        {
+          "id": 5,
+          "sentence": "The coral reef, _____ is protected by law, attracts many divers.",
+          "answer": "that"
+        }
+      ]
+    }
   }
 }

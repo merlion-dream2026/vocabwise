@@ -777,5 +777,160 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Collocations: do / play / go + sports",
+    "vi_grammar_point": "Collocation với do / play / go trong thể thao",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + do + sport (e.g., do yoga) | Subject + play + sport (e.g., play tennis) | Subject + go + sport‑gerund (e.g., go swimming)",
+      "negative": "Subject + do not/does not + sport | Subject + do not/does not + play + sport | Subject + do not/does not + go + sport‑gerund",
+      "question": "Do/Play/Go + subject + sport?",
+      "variant": "do + non‑team activity; play + team sport; go + sport expressed as gerund"
+    },
+    "rule_vi": "Dùng do cho các hoạt động không có đối thủ (ví dụ: do yoga), play cho các môn thể thao đội hoặc có đối thủ (ví dụ: play tennis), và go + V‑ing cho các môn thể thao dùng dạng động từ –ing (ví dụ: go swimming).",
+    "rule_en": "Use do for non‑team activities, play for team or competitive sports, and go + gerund for sports expressed with a verb‑ing form.",
+    "common_error": "❌ I do swimming → ✅ I go swimming",
+    "in_context": [
+      "Athletes play many different sports during their training.",
+      "Fans often go swimming in the pool of the Olympic village.",
+      "Coaches encourage beginners to do yoga to improve flexibility."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ phù hợp (do / play / go) để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ tennis every weekend.",
+          "options": [
+            "watch",
+            "play",
+            "do",
+            "run"
+          ],
+          "answer": "play"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ swimming after school.",
+          "options": [
+            "go",
+            "play",
+            "do",
+            "watch"
+          ],
+          "answer": "go"
+        },
+        {
+          "id": 3,
+          "sentence": "He doesn't _____ any sport because he's busy.",
+          "options": [
+            "play",
+            "go",
+            "watch",
+            "do"
+          ],
+          "answer": "do"
+        },
+        {
+          "id": 4,
+          "sentence": "Do you _____ basketball on Saturdays?",
+          "options": [
+            "go",
+            "watch",
+            "play",
+            "do"
+          ],
+          "answer": "play"
+        },
+        {
+          "id": 5,
+          "sentence": "We usually _____ jogging in the park on Sundays.",
+          "options": [
+            "run",
+            "go",
+            "play",
+            "do"
+          ],
+          "answer": "go"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "go",
+            "swimming",
+            "every",
+            "morning"
+          ],
+          "answer": "I go swimming every morning"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "goes",
+            "jogging",
+            "on",
+            "weekends"
+          ],
+          "answer": "She goes jogging on weekends"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "often",
+            "play",
+            "basketball"
+          ],
+          "answer": "They often play basketball"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp (do / play / go) vào chỗ trống.",
+      "word_bank": [
+        "do",
+        "play",
+        "go",
+        "watch",
+        "run",
+        "swim"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He likes to _____ tennis with his friends.",
+          "answer": "play"
+        },
+        {
+          "id": 2,
+          "sentence": "We usually _____ swimming in the lake during summer.",
+          "answer": "go"
+        },
+        {
+          "id": 3,
+          "sentence": "She doesn't _____ any sport because of her schedule.",
+          "answer": "do"
+        },
+        {
+          "id": 4,
+          "sentence": "Do you _____ basketball on weekends?",
+          "answer": "play"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ jogging every morning to stay fit.",
+          "answer": "go"
+        }
+      ]
+    }
   }
 }

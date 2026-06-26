@@ -762,5 +762,171 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Used to / Would (past habits — B1 level)",
+    "vi_grammar_point": "Used to / Would — thói quen quá khứ nâng cao",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + used to + base verb / Subject + would + base verb (past habit)",
+      "negative": "Subject + didn't use to + base verb / Subject + wouldn't + base verb",
+      "question": "Did + subject + use to + base verb? / Would + subject + base verb?",
+      "variant": "Subject + used to be + adjective/noun / Subject + would often + base verb"
+    },
+    "rule_vi": "Dùng 'used to' hoặc 'would' để nói về thói quen, hành động lặp lại trong quá khứ mà hiện tại không còn xảy ra.",
+    "rule_en": "Use 'used to' or 'would' to talk about past habits that no longer happen.",
+    "common_error": "❌ I used to can swim  →  ✅ I used to be able to swim",
+    "in_context": [
+      "Good parenting used to involve more than just providing food and shelter.",
+      "Society used to be more rigid about family roles.",
+      "Traditional ideas about family roles would often dictate strict responsibilities."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When I was a child, my grandparents _______ visit us every weekend.",
+          "options": [
+            "would",
+            "could",
+            "used to",
+            "did"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 2,
+          "sentence": "My father _______ tell stories about his youth before dinner.",
+          "options": [
+            "might",
+            "used to",
+            "does",
+            "would"
+          ],
+          "answer": "would"
+        },
+        {
+          "id": 3,
+          "sentence": "In the 1990s, families _______ eat dinner together at the table.",
+          "options": [
+            "must",
+            "used to",
+            "will",
+            "are"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 4,
+          "sentence": "My aunt _______ take us to the park after school, but now she works late.",
+          "options": [
+            "must",
+            "can",
+            "would",
+            "does"
+          ],
+          "answer": "would"
+        },
+        {
+          "id": 5,
+          "sentence": "Children _______ play outside until dark before smartphones existed.",
+          "options": [
+            "should",
+            "will",
+            "used to",
+            "are"
+          ],
+          "answer": "used to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "used",
+            "to",
+            "watch",
+            "family",
+            "movies",
+            "on",
+            "Sundays"
+          ],
+          "answer": "used to watch family movies on Sundays"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "would",
+            "help",
+            "her",
+            "brother",
+            "with",
+            "homework",
+            "every",
+            "evening"
+          ],
+          "answer": "She would help her brother with homework every evening"
+        },
+        {
+          "id": 3,
+          "words": [
+            "parents",
+            "used",
+            "to",
+            "talk",
+            "about",
+            "their",
+            "day",
+            "at",
+            "dinner"
+          ],
+          "answer": "parents used to talk about their day at dinner"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "used to",
+        "would",
+        "did",
+        "could",
+        "should",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My grandparents _______ live in the countryside before they moved to the city.",
+          "answer": "used to"
+        },
+        {
+          "id": 2,
+          "sentence": "When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard.",
+          "answer": "would"
+        },
+        {
+          "id": 3,
+          "sentence": "My mother _______ bake a cake for every birthday when I was younger.",
+          "answer": "used to"
+        },
+        {
+          "id": 4,
+          "sentence": "Teenagers _______ stay up late to watch movies, but now they have early school starts.",
+          "answer": "would"
+        },
+        {
+          "id": 5,
+          "sentence": "My uncle _______ take us fishing every summer when we were teenagers.",
+          "answer": "used to"
+        }
+      ]
+    }
   }
 }

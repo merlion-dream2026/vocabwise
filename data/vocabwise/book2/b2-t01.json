@@ -695,5 +695,165 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal verbs for obligation (must / have to / need to)",
+    "vi_grammar_point": "Động từ khuyết thiếu chỉ nghĩa vụ",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + must / have to / need to + base verb",
+      "negative": "Subject + must not / do not have to / need not + base verb",
+      "question": "Must + subject + base verb? / Do/Does + subject + have to + base verb? / Need + subject + base verb?",
+      "variant": "Subject + have got to + base verb"
+    },
+    "rule_vi": "Dùng must, have to, need to để diễn tả nghĩa vụ hoặc yêu cầu bắt buộc.",
+    "rule_en": "Use must, have to, need to to express obligation.",
+    "common_error": "❌ She must to study harder.  →  ✅ She must study harder.",
+    "in_context": [
+      "Students must manage their time carefully, as deadlines are strict.",
+      "Students have to attend lectures, written assignments, and individual sessions with a tutor.",
+      "Students need to meet all requirements before they can graduate."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "All students _____ wear a university ID badge.",
+          "options": [
+            "should",
+            "must",
+            "need to",
+            "might"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 2,
+          "sentence": "International students _____ apply for a visa before arrival.",
+          "options": [
+            "must",
+            "ought to",
+            "need to",
+            "have to"
+          ],
+          "answer": "need to"
+        },
+        {
+          "id": 3,
+          "sentence": "You _____ submit your thesis by the end of June.",
+          "options": [
+            "might",
+            "have to",
+            "should",
+            "must"
+          ],
+          "answer": "have to"
+        },
+        {
+          "id": 4,
+          "sentence": "Students _____ attend the mandatory safety training.",
+          "options": [
+            "could",
+            "must",
+            "need to",
+            "might"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 5,
+          "sentence": "If you miss a deadline, you _____ contact the lecturer immediately.",
+          "options": [
+            "must not",
+            "should",
+            "need to",
+            "have to"
+          ],
+          "answer": "need to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "assignment",
+            "must",
+            "students",
+            "their",
+            "submit"
+          ],
+          "answer": "students must submit their assignment"
+        },
+        {
+          "id": 2,
+          "words": [
+            "have",
+            "to",
+            "you",
+            "register",
+            "for",
+            "the",
+            "course"
+          ],
+          "answer": "you have to register for the course"
+        },
+        {
+          "id": 3,
+          "words": [
+            "need",
+            "to",
+            "bring",
+            "a",
+            "laptop",
+            "to",
+            "lab"
+          ],
+          "answer": "you need to bring a laptop to the lab"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "must",
+        "have to",
+        "need to",
+        "must not",
+        "have got to",
+        "should"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ finish the report by Monday.",
+          "answer": "must"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ attend the workshop if she wants the certificate.",
+          "answer": "have to"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ bring their own textbooks to class.",
+          "answer": "need to"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ forget to lock the lab door.",
+          "answer": "must not"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ submit the application before the deadline.",
+          "answer": "have got to"
+        }
+      ]
+    }
   }
 }

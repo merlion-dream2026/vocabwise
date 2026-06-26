@@ -713,5 +713,169 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Perfect Passive (has/have been + past participle)",
+    "vi_grammar_point": "Bị động thì hiện tại hoàn thành",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + has/have been + past participle (by Agent)",
+      "negative": "Subject + has/have not been + past participle (by Agent)",
+      "question": "Has/Have + Subject + been + past participle (by Agent)?"
+    },
+    "rule_vi": "Dùng để nói về một hành động đã được thực hiện trong quá khứ và có ảnh hưởng tới hiện tại. Thường xuất hiện trong các văn bản học thuật và báo cáo.",
+    "rule_en": "We use the present perfect passive to describe an action that was done in the past and is relevant now.",
+    "common_error": "❌ The forest has destroyed by fire.  →  ✅ The forest has been destroyed by fire.",
+    "in_context": [
+      "Biodiversity has been threatened by human activities.",
+      "Invasive species have been introduced to many ecosystems.",
+      "Conservation efforts have been increased worldwide."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The habitat of many species _____ by deforestation.",
+          "options": [
+            "has been destroyed",
+            "was destroyed",
+            "is destroyed",
+            "have been destroyed"
+          ],
+          "answer": "has been destroyed"
+        },
+        {
+          "id": 2,
+          "sentence": "Several marine ecosystems _____ polluted by plastic waste.",
+          "options": [
+            "were polluted",
+            "have been polluted",
+            "are polluted",
+            "has been polluted"
+          ],
+          "answer": "have been polluted"
+        },
+        {
+          "id": 3,
+          "sentence": "The research data _____ collected over the past decade.",
+          "options": [
+            "was collected",
+            "has been collected",
+            "is collecting",
+            "have been collected"
+          ],
+          "answer": "has been collected"
+        },
+        {
+          "id": 4,
+          "sentence": "Many endangered species _____ protected by international agreements.",
+          "options": [
+            "has been protected",
+            "are protected",
+            "have been protected",
+            "were protected"
+          ],
+          "answer": "have been protected"
+        },
+        {
+          "id": 5,
+          "sentence": "The new policy _____ implemented to reduce emissions.",
+          "options": [
+            "is implemented",
+            "has been implemented",
+            "were implemented",
+            "have been implemented"
+          ],
+          "answer": "has been implemented"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "area",
+            "has",
+            "been",
+            "protected",
+            "by",
+            "the",
+            "government"
+          ],
+          "answer": "The area has been protected by the government"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Several",
+            "species",
+            "have",
+            "been",
+            "declared",
+            "extinct",
+            "by",
+            "scientists"
+          ],
+          "answer": "Several species have been declared extinct by scientists"
+        },
+        {
+          "id": 3,
+          "words": [
+            "New",
+            "energy",
+            "sources",
+            "have",
+            "been",
+            "developed",
+            "by",
+            "researchers"
+          ],
+          "answer": "New energy sources have been developed by researchers"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng đúng của động từ bị động ở thì hiện tại hoàn thành vào chỗ trống.",
+      "word_bank": [
+        "has been",
+        "have been",
+        "was",
+        "is",
+        "were",
+        "been"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The coral reef _____ severely damaged by rising temperatures.",
+          "answer": "has been"
+        },
+        {
+          "id": 2,
+          "sentence": "Many forests _____ cleared for agriculture.",
+          "answer": "have been"
+        },
+        {
+          "id": 3,
+          "sentence": "The water quality _____ improved after the new regulations.",
+          "answer": "has been"
+        },
+        {
+          "id": 4,
+          "sentence": "Several species _____ reintroduced into the park.",
+          "answer": "have been"
+        },
+        {
+          "id": 5,
+          "sentence": "The legislation _____ passed last year.",
+          "answer": "has been"
+        }
+      ]
+    }
   }
 }

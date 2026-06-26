@@ -746,5 +746,167 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Hedging language (tend to / appear to / seem to)",
+    "vi_grammar_point": "Ngôn ngữ phòng ngừa — diễn đạt thận trọng",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + tend/appear/seem + to + base verb",
+      "negative": "Subject + do/does not + tend/appear/seem + to + base verb",
+      "question": "Do/Does Subject tend/appear/seem to + base verb?",
+      "variant": "tends / appears / seems (3rd person singular)"
+    },
+    "rule_vi": "Dùng các động từ tend, appear, seem + to + động từ nguyên mẫu để diễn đạt sự không chắc chắn hoặc nhận định thận trọng.",
+    "rule_en": "Use tend/appear/seem + to + verb to express cautious or tentative statements.",
+    "common_error": "❌ The article seem to be biased.  →  ✅ The article seems to be biased.",
+    "in_context": [
+      "The ability to verify facts before sharing them tends to be considered essential.",
+      "Algorithms appear to amplify outrage and division.",
+      "Ask whether the story seems to be designed to provoke an emotional reaction rather than trust in facts."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The article _____ to exaggerate the impact of the study.",
+          "options": [
+            "appear",
+            "tend",
+            "seem",
+            "does"
+          ],
+          "answer": "tend"
+        },
+        {
+          "id": 2,
+          "sentence": "Many users _____ think the platform is unbiased.",
+          "options": [
+            "tend",
+            "must",
+            "seem",
+            "appear"
+          ],
+          "answer": "appear"
+        },
+        {
+          "id": 3,
+          "sentence": "The report _____ suggest that the policy will work.",
+          "options": [
+            "looks",
+            "seem",
+            "appear",
+            "tend"
+          ],
+          "answer": "seem"
+        },
+        {
+          "id": 4,
+          "sentence": "Experts _____ claim that the data is reliable.",
+          "options": [
+            "must",
+            "appear",
+            "tend",
+            "seem"
+          ],
+          "answer": "appear"
+        },
+        {
+          "id": 5,
+          "sentence": "The headline _____ give the impression that the story is confirmed.",
+          "options": [
+            "tend",
+            "seem",
+            "looks",
+            "appear"
+          ],
+          "answer": "seem"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Scientists",
+            "often",
+            "seem",
+            "to",
+            "overstate",
+            "their",
+            "findings"
+          ],
+          "answer": "Scientists often seem to overstate their findings"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Media",
+            "appear",
+            "to",
+            "favor",
+            "certain",
+            "political",
+            "views"
+          ],
+          "answer": "Media appear to favor certain political views"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Students",
+            "tend",
+            "to",
+            "share",
+            "unverified",
+            "information",
+            "online"
+          ],
+          "answer": "Students tend to share unverified information online"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "tend",
+        "appear",
+        "seem",
+        "looks",
+        "suggests",
+        "must"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Researchers _____ to find a correlation.",
+          "answer": "tend"
+        },
+        {
+          "id": 2,
+          "sentence": "The headline _____ to exaggerate the facts.",
+          "answer": "appear"
+        },
+        {
+          "id": 3,
+          "sentence": "The data _____ to support the hypothesis.",
+          "answer": "seem"
+        },
+        {
+          "id": 4,
+          "sentence": "The article _____ to ignore alternative explanations.",
+          "answer": "appear"
+        },
+        {
+          "id": 5,
+          "sentence": "The comment _____ to be sarcastic.",
+          "answer": "seem"
+        }
+      ]
+    }
   }
 }

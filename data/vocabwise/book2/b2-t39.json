@@ -714,5 +714,162 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice in process descriptions",
+    "vi_grammar_point": "Bị động mô tả quy trình",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Object + be (am/is/are/was/were) + past participle (+ by Agent)",
+      "negative": "Object + be + not + past participle (+ by Agent)",
+      "question": "Is/Are/Was/Were + Object + past participle (+ by Agent)?",
+      "variant": "Object + be + being + past participle (+ by Agent) (progressive passive)"
+    },
+    "rule_vi": "Khi mô tả một quy trình, dùng câu bị động để nhấn mạnh hành động hoặc kết quả, không cần đề cập người thực hiện.",
+    "rule_en": "Use the passive to describe a process when the focus is on the action or result rather than the doer.",
+    "common_error": "❌ The food was cooked by we.  →  ✅ The food was cooked by us.",
+    "in_context": [
+      "A local dish is not just nourishment; it is carried memory, meaning, and heritage.",
+      "The best recipes often are prepared with authentic, unadulterated ingredients rather than processed substitutes.",
+      "Efforts to preserve culinary traditions are being documented in community cookbooks that record disappearing recipes."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng bị động đúng cho câu sau.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The dough _____ by the baker before it rises.",
+          "options": [
+            "was kneaded",
+            "is kneaded",
+            "has kneaded",
+            "kneads"
+          ],
+          "answer": "is kneaded"
+        },
+        {
+          "id": 2,
+          "sentence": "Traditional spices _____ from the region for centuries.",
+          "options": [
+            "are harvested",
+            "were harvested",
+            "have harvested",
+            "harvest"
+          ],
+          "answer": "are harvested"
+        },
+        {
+          "id": 3,
+          "sentence": "The recipe _____ handed down through generations.",
+          "options": [
+            "has been handed",
+            "is handed",
+            "was handed",
+            "handed"
+          ],
+          "answer": "has been handed"
+        },
+        {
+          "id": 4,
+          "sentence": "The cooking pot _____ cleaned after each use.",
+          "options": [
+            "must be",
+            "must",
+            "is",
+            "are"
+          ],
+          "answer": "must be"
+        },
+        {
+          "id": 5,
+          "sentence": "The flavors _____ enhanced by adding fresh herbs.",
+          "options": [
+            "are",
+            "were",
+            "is",
+            "been"
+          ],
+          "answer": "are"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "marinated",
+            "overnight",
+            "is",
+            "the",
+            "chicken"
+          ],
+          "answer": "the chicken is marinated overnight"
+        },
+        {
+          "id": 2,
+          "words": [
+            "ingredients",
+            "were",
+            "selected",
+            "carefully"
+          ],
+          "answer": "ingredients were selected carefully"
+        },
+        {
+          "id": 3,
+          "words": [
+            "has",
+            "been",
+            "preserved",
+            "the",
+            "recipe",
+            "for",
+            "years"
+          ],
+          "answer": "the recipe has been preserved for years"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "prepared",
+        "served",
+        "preserved",
+        "introduced",
+        "documented",
+        "cooked"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The vegetables _____ by the chef before being added to the stew.",
+          "answer": "prepared"
+        },
+        {
+          "id": 2,
+          "sentence": "Traditional dishes _____ during festivals across the country.",
+          "answer": "served"
+        },
+        {
+          "id": 3,
+          "sentence": "Ancient recipes _____ in a museum archive.",
+          "answer": "preserved"
+        },
+        {
+          "id": 4,
+          "sentence": "New spices _____ from Asia in the 19th century.",
+          "answer": "introduced"
+        },
+        {
+          "id": 5,
+          "sentence": "Community cookbooks _____ the local culinary heritage.",
+          "answer": "documented"
+        }
+      ]
+    }
   }
 }

@@ -755,5 +755,184 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Mixed conditionals — introduction",
+    "vi_grammar_point": "Câu điều kiện hỗn hợp — giới thiệu",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + had + past participle, Subject + would + base verb",
+      "variant": "If + Subject + had + past participle, Subject + could + base verb"
+    },
+    "rule_vi": "Dùng để nói về một tình huống không có thực trong quá khứ và kết quả hiện tại.",
+    "rule_en": "Used to talk about an unreal past condition and its present result.",
+    "common_error": "❌ If I didn't have enough money, I would have bought a car.  →  ✅ If I had had enough money, I would have bought a car.",
+    "in_context": [
+      "If companies had refused to adapt, they would be risking losing talented staff now.",
+      "If automation had not transformed the workforce, workers would still be doing routine tasks manually.",
+      "If the future of work had required new skills earlier, companies would be investing in retraining programmes now."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the company _______ (invest) in digital tools last year, it would be more competitive now.",
+          "options": [
+            "invested",
+            "invests",
+            "had invested",
+            "will invest"
+          ],
+          "answer": "had invested"
+        },
+        {
+          "id": 2,
+          "sentence": "If workers _______ (adapt) to automation earlier, they would not be facing job losses today.",
+          "options": [
+            "adapted",
+            "had adapted",
+            "have adapted",
+            "will adapt"
+          ],
+          "answer": "had adapted"
+        },
+        {
+          "id": 3,
+          "sentence": "If the government _______ (regulate) remote work, employees would have clearer rights now.",
+          "options": [
+            "regulated",
+            "had regulated",
+            "regulates",
+            "will regulate"
+          ],
+          "answer": "had regulated"
+        },
+        {
+          "id": 4,
+          "sentence": "If the platform _______ (share) profits more fairly, freelancers would feel more secure now.",
+          "options": [
+            "shared",
+            "had shared",
+            "shares",
+            "will share"
+          ],
+          "answer": "had shared"
+        },
+        {
+          "id": 5,
+          "sentence": "If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now.",
+          "options": [
+            "accelerated",
+            "had accelerated",
+            "has accelerated",
+            "will accelerate"
+          ],
+          "answer": "had accelerated"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "the",
+            "company",
+            "had",
+            "invested",
+            "in",
+            "training",
+            "employees",
+            "would",
+            "be",
+            "more",
+            "productive",
+            "now"
+          ],
+          "answer": "If the company had invested in training employees would be more productive now"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "automation",
+            "had",
+            "not",
+            "replaced",
+            "many",
+            "jobs",
+            "workers",
+            "would",
+            "still",
+            "have",
+            "stable",
+            "employment",
+            "today"
+          ],
+          "answer": "If automation had not replaced many jobs workers would still have stable employment today"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "the",
+            "government",
+            "had",
+            "provided",
+            "retraining",
+            "programmes",
+            "workers",
+            "would",
+            "be",
+            "better",
+            "prepared",
+            "now"
+          ],
+          "answer": "If the government had provided retraining programmes workers would be better prepared now"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "had invested",
+        "had adapted",
+        "had regulated",
+        "had shared",
+        "had accelerated",
+        "will invest"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the tech firm _______ (invest) in AI research last year, it would dominate the market now.",
+          "answer": "had invested"
+        },
+        {
+          "id": 2,
+          "sentence": "If employees _______ (adapt) to remote tools earlier, they would be more comfortable with virtual meetings today.",
+          "answer": "had adapted"
+        },
+        {
+          "id": 3,
+          "sentence": "If regulators _______ (regulate) gig economy platforms, workers would enjoy better protections now.",
+          "answer": "had regulated"
+        },
+        {
+          "id": 4,
+          "sentence": "If the startup _______ (share) its profits with freelancers, they would feel more valued now.",
+          "answer": "had shared"
+        },
+        {
+          "id": 5,
+          "sentence": "If the pandemic _______ (accelerate) digital transformation, many companies would already have fully online operations now.",
+          "answer": "had accelerated"
+        }
+      ]
+    }
   }
 }

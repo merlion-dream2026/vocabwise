@@ -792,5 +792,165 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reported questions (asked if / wanted to know what)",
+    "vi_grammar_point": "Câu hỏi gián tiếp",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + asked if + clause / Subject + wanted to know what + clause"
+    },
+    "rule_vi": "Dùng để chuyển câu hỏi trực tiếp sang câu gián tiếp, thường dùng 'asked if' cho câu hỏi Yes/No và 'wanted to know what' cho câu hỏi Wh‑.",
+    "rule_en": "Used to turn direct questions into indirect ones, using 'asked if' for yes/no questions and 'wanted to know what' for wh‑questions.",
+    "common_error": "❌ She asked what is the deadline?  →  ✅ She asked what the deadline was.",
+    "in_context": [
+      "The manager asked if the remote‑work policy could be extended for another year, even when teams are spread across different locations.",
+      "Employees wanted to know what the new performance‑checking schedule would look like, because regular feedback is essential.",
+      "The HR director asked if the company should offer more flexible hours to reduce burnout, since heavy workloads are a serious issue."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The CEO _____ whether the quarterly report had been submitted on time.",
+          "options": [
+            "asked if",
+            "wanted to know what",
+            "asked whether",
+            "wanted to know if"
+          ],
+          "answer": "asked if"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ what the new hiring policy includes.",
+          "options": [
+            "asked if",
+            "wanted to know what",
+            "asked what",
+            "wanted to know if"
+          ],
+          "answer": "wanted to know what"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ if the office could reopen next month.",
+          "options": [
+            "wanted to know what",
+            "asked if",
+            "asked what",
+            "wanted to know if"
+          ],
+          "answer": "asked if"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ what the employees expect from the training program.",
+          "options": [
+            "asked if",
+            "wanted to know what",
+            "asked what",
+            "wanted to know if"
+          ],
+          "answer": "wanted to know what"
+        },
+        {
+          "id": 5,
+          "sentence": "The manager _____ whether the team had understood the new software.",
+          "options": [
+            "asked if",
+            "wanted to know what",
+            "asked what",
+            "wanted to know if"
+          ],
+          "answer": "asked if"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "manager",
+            "asked",
+            "if",
+            "the",
+            "deadline",
+            "was",
+            "flexible"
+          ],
+          "answer": "manager asked if the deadline was flexible"
+        },
+        {
+          "id": 2,
+          "words": [
+            "team",
+            "wanted",
+            "to",
+            "know",
+            "what",
+            "the",
+            "budget",
+            "covers"
+          ],
+          "answer": "team wanted to know what the budget covers"
+        },
+        {
+          "id": 3,
+          "words": [
+            "HR",
+            "asked",
+            "if",
+            "employees",
+            "can",
+            "work",
+            "remotely"
+          ],
+          "answer": "HR asked if employees can work remotely"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "if",
+        "what",
+        "whether",
+        "who",
+        "when",
+        "how"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The director _____ whether the project will meet the deadline.",
+          "answer": "if"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ what the new policy entails.",
+          "answer": "what"
+        },
+        {
+          "id": 3,
+          "sentence": "He wondered _____ the client would approve the design.",
+          "answer": "when"
+        },
+        {
+          "id": 4,
+          "sentence": "The manager asked _____ the report had been sent.",
+          "answer": "whether"
+        },
+        {
+          "id": 5,
+          "sentence": "They wanted to know _____ was responsible for the error.",
+          "answer": "who"
+        }
+      ]
+    }
   }
 }

@@ -753,5 +753,172 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Zero and First Conditional",
+    "vi_grammar_point": "Câu điều kiện loại 0 và loại 1",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + Verb (present simple), Subject + Verb (present simple) [Zero]; If + Subject + Verb (present simple), Subject + will + Verb (base) [First]",
+      "negative": "If + Subject + do/does not + Verb (present simple), Subject + Verb (present simple) [Zero]; If + Subject + do/does not + Verb (present simple), Subject + will not + Verb (base) [First]",
+      "question": "If + Subject + Verb (present simple), ... ?",
+      "variant": "When + Subject + Verb (present simple), Subject + Verb (present simple) [Zero]"
+    },
+    "rule_vi": "Dùng loại 0 để nói về sự thật hiển nhiên; dùng loại 1 để nói về khả năng thực tế trong tương lai.",
+    "rule_en": "Use zero conditional for general truths and first conditional for real future possibilities.",
+    "common_error": "❌ If you will recycle more, the environment will be cleaner. → ✅ If you recycle more, the environment will be cleaner.",
+    "in_context": [
+      "If factories dispose of waste carelessly, the environment suffers.",
+      "If we reduce our carbon footprint, we will help to protect wildlife.",
+      "If littering continues, the rivers become polluted quickly."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu điều kiện.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If you plant trees, the air _____ cleaner.",
+          "options": [
+            "is",
+            "be",
+            "will be",
+            "are"
+          ],
+          "answer": "will be"
+        },
+        {
+          "id": 2,
+          "sentence": "If the river becomes polluted, fish _____.",
+          "options": [
+            "die",
+            "will die",
+            "dies",
+            "died"
+          ],
+          "answer": "die"
+        },
+        {
+          "id": 3,
+          "sentence": "If governments implement stricter regulations, pollution _____.",
+          "options": [
+            "will decrease",
+            "decreased",
+            "decrease",
+            "decreases"
+          ],
+          "answer": "will decrease"
+        },
+        {
+          "id": 4,
+          "sentence": "If you _____ the warning signs, you risk harming wildlife.",
+          "options": [
+            "ignore",
+            "ignoring",
+            "ignored",
+            "will ignore"
+          ],
+          "answer": "ignore"
+        },
+        {
+          "id": 5,
+          "sentence": "If plastic bags are banned, the amount of waste _____.",
+          "options": [
+            "drop",
+            "will drop",
+            "dropped",
+            "drops"
+          ],
+          "answer": "will drop"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "you",
+            "conserve",
+            "water",
+            "you",
+            "will",
+            "save",
+            "energy"
+          ],
+          "answer": "If you conserve water you will save energy"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "litter",
+            "is",
+            "not",
+            "picked",
+            "up",
+            "the",
+            "park",
+            "gets",
+            "dirty"
+          ],
+          "answer": "If litter is not picked up the park gets dirty"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "species",
+            "lose",
+            "habitat",
+            "they",
+            "may",
+            "become",
+            "extinct"
+          ],
+          "answer": "If species lose habitat they may become extinct"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "reduce",
+        "die",
+        "decrease",
+        "ignore",
+        "drop",
+        "will"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If you _____ your waste, the planet will be healthier.",
+          "answer": "reduce"
+        },
+        {
+          "id": 2,
+          "sentence": "If the water temperature rises, coral reefs _____.",
+          "answer": "die"
+        },
+        {
+          "id": 3,
+          "sentence": "If factories _____ their emissions, air quality will improve.",
+          "answer": "decrease"
+        },
+        {
+          "id": 4,
+          "sentence": "If you _____ the warning, you risk an accident.",
+          "answer": "ignore"
+        },
+        {
+          "id": 5,
+          "sentence": "If plastic use _____, the amount of litter will drop.",
+          "answer": "drop"
+        }
+      ]
+    }
   }
 }

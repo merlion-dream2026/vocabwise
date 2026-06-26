@@ -709,5 +709,185 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Third Conditional (If I had... I would have...)",
+    "vi_grammar_point": "Câu điều kiện loại 3",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If [Subject] had [Past Participle], [Subject] would have [Past Participle]",
+      "negative": "If [Subject] had not [Past Participle], [Subject] would have [Past Participle]",
+      "question": "Had [Subject] ... ? (inversion of If‑clause)",
+      "variant": "If ... had ..., ... would have ..."
+    },
+    "rule_vi": "Dùng để nói về một tình huống không xảy ra trong quá khứ và kết quả giả định của nó.",
+    "rule_en": "Used to talk about an unreal past condition and its imagined result.",
+    "common_error": "❌ If I have had more time, I would have finished the report.  →  ✅ If I had had more time, I would have finished the report.",
+    "in_context": [
+      "If a worker had known the rights, they would have filed a complaint earlier.",
+      "If the employer had recognized the need for flexible hours, the staff would have been more satisfied.",
+      "If the union had stepped in, many disputes would have been settled peacefully."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the manager __________ the issue earlier, the dispute __________ avoided.",
+          "options": [
+            "had recognized",
+            "will recognize",
+            "would recognize",
+            "recognizes"
+          ],
+          "answer": "had recognized"
+        },
+        {
+          "id": 2,
+          "sentence": "If the employee __________ (not resign) last month, she __________ (receive) the promotion.",
+          "options": [
+            "has not resigned",
+            "would not resign",
+            "had not resigned",
+            "did not resign"
+          ],
+          "answer": "had not resigned"
+        },
+        {
+          "id": 3,
+          "sentence": "If the union __________ in the negotiations, workers __________ better terms.",
+          "options": [
+            "would step",
+            "will step",
+            "had stepped",
+            "steps"
+          ],
+          "answer": "had stepped"
+        },
+        {
+          "id": 4,
+          "sentence": "If the contract __________ a clause on remote work, the company __________ the confusion later.",
+          "options": [
+            "had included",
+            "includes",
+            "would include",
+            "will include"
+          ],
+          "answer": "had included"
+        },
+        {
+          "id": 5,
+          "sentence": "If the HR department __________ clear guidelines, employees __________ their rights better.",
+          "options": [
+            "would provide",
+            "had provided",
+            "provides",
+            "will provide"
+          ],
+          "answer": "had provided"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "the",
+            "manager",
+            "had",
+            "noticed",
+            "the",
+            "issue",
+            "it",
+            "would",
+            "have",
+            "been",
+            "resolved"
+          ],
+          "answer": "If the manager had noticed the issue it would have been resolved"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "the",
+            "employee",
+            "had",
+            "taken",
+            "the",
+            "training",
+            "she",
+            "would",
+            "have",
+            "improved",
+            "her",
+            "skills"
+          ],
+          "answer": "If the employee had taken the training she would have improved her skills"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "the",
+            "company",
+            "had",
+            "clarified",
+            "the",
+            "remote‑work",
+            "policy",
+            "workers",
+            "would",
+            "have",
+            "felt",
+            "more",
+            "secure"
+          ],
+          "answer": "If the company had clarified the remote‑work policy workers would have felt more secure"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "had offered",
+        "had recognized",
+        "had stepped",
+        "had included",
+        "had provided",
+        "had missed"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the manager __________ the problem earlier, the conflict could have been avoided.",
+          "answer": "had recognized"
+        },
+        {
+          "id": 2,
+          "sentence": "If the contract __________ a clause on health insurance, employees would have been covered.",
+          "answer": "had included"
+        },
+        {
+          "id": 3,
+          "sentence": "If the union __________ in the negotiations, better wages might have been secured.",
+          "answer": "had stepped"
+        },
+        {
+          "id": 4,
+          "sentence": "If the employer __________ more training sessions, staff would have performed better.",
+          "answer": "had offered"
+        },
+        {
+          "id": 5,
+          "sentence": "If HR __________ clear communication, misunderstandings would have been reduced.",
+          "answer": "had provided"
+        }
+      ]
+    }
   }
 }

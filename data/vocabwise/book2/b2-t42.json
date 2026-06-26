@@ -715,5 +715,163 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Verb patterns (agree to / suggest -ing / expect to)",
+    "vi_grammar_point": "Cấu trúc động từ theo sau bởi to-inf hay V-ing",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + agree to + infinitive\nSubject + suggest + V-ing\nSubject + expect to + infinitive",
+      "negative": "Subject + do/does not + agree to + infinitive\nSubject + do/does not + suggest + V-ing\nSubject + do/does not + expect to + infinitive",
+      "question": "Do/Does + Subject + agree to + infinitive?\nDo/Does + Subject + suggest + V-ing?\nDo/Does + Subject + expect to + infinitive?",
+      "variant": "Subject + agree that + clause\nSubject + suggest that + clause"
+    },
+    "rule_vi": "Dùng ‘agree to’ + động từ nguyên mẫu để nói đồng ý làm việc gì. Dùng ‘suggest’ + V‑ing để đề xuất một hành động. Dùng ‘expect to’ + động từ nguyên mẫu để diễn tả kỳ vọng.",
+    "rule_en": "Use 'agree to' + infinitive, 'suggest' + gerund, and 'expect to' + infinitive.",
+    "common_error": "❌ She suggested to volunteer. → ✅ She suggested volunteering.",
+    "in_context": [
+      "Charity organisations agree to fund long‑term development projects in communities that struggle most.",
+      "Public campaigns suggest raising awareness about social issues.",
+      "People expect to receive help from welfare systems."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee ___ to increase funding for shelters.",
+          "options": [
+            "agreed",
+            "agreed to",
+            "decided",
+            "planned"
+          ],
+          "answer": "agreed to"
+        },
+        {
+          "id": 2,
+          "sentence": "She ___ volunteering at the food bank every weekend.",
+          "options": [
+            "suggested",
+            "suggest",
+            "suggests",
+            "suggested to"
+          ],
+          "answer": "suggested"
+        },
+        {
+          "id": 3,
+          "sentence": "They ___ to receive assistance next month.",
+          "options": [
+            "expect",
+            "expected",
+            "expected to",
+            "expects"
+          ],
+          "answer": "expected to"
+        },
+        {
+          "id": 4,
+          "sentence": "We ___ to help the homeless community.",
+          "options": [
+            "agree",
+            "agreed",
+            "agreed to",
+            "agrees"
+          ],
+          "answer": "agreed to"
+        },
+        {
+          "id": 5,
+          "sentence": "Local leaders ___ increasing public awareness about poverty.",
+          "options": [
+            "suggest",
+            "suggested",
+            "suggested to",
+            "suggests"
+          ],
+          "answer": "suggested"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "We",
+            "agreed",
+            "to",
+            "support",
+            "the",
+            "project"
+          ],
+          "answer": "We agreed to support the project"
+        },
+        {
+          "id": 2,
+          "words": [
+            "They",
+            "suggested",
+            "donating",
+            "more",
+            "money"
+          ],
+          "answer": "They suggested donating more money"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "expect",
+            "to",
+            "receive",
+            "aid",
+            "soon"
+          ],
+          "answer": "We expect to receive aid soon"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "agree",
+        "suggest",
+        "expect",
+        "volunteer",
+        "donate",
+        "assist"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Many citizens ___ to fund the new library.",
+          "answer": "agree"
+        },
+        {
+          "id": 2,
+          "sentence": "The council ___ increasing recycling efforts.",
+          "answer": "suggest"
+        },
+        {
+          "id": 3,
+          "sentence": "Families ___ to get more support from the government.",
+          "answer": "expect"
+        },
+        {
+          "id": 4,
+          "sentence": "She decided to ___ at the community center.",
+          "answer": "volunteer"
+        },
+        {
+          "id": 5,
+          "sentence": "They hope to ___ money for disaster relief.",
+          "answer": "donate"
+        }
+      ]
+    }
   }
 }

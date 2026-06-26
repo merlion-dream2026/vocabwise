@@ -752,5 +752,165 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice — present and past",
+    "vi_grammar_point": "Câu bị động thì hiện tại và quá khứ",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be (am/is/are/was/were) + past participle (+ by Agent)",
+      "negative": "Subject + be (am/is/are/was/were) + not + past participle",
+      "question": "Be (am/is/are/was/were) + Subject + past participle?"
+    },
+    "rule_vi": "Dùng câu bị động khi muốn nhấn mạnh hành động hoặc đối tượng bị tác động, không quan trọng người thực hiện. Thì hiện tại dùng am/is/are, thì quá khứ dùng was/were.",
+    "rule_en": "Use the passive to focus on the action or the receiver, when the doer is unknown or unimportant.",
+    "common_error": "❌ The doctor diagnoses the patient → ✅ The patient is diagnosed by the doctor",
+    "in_context": [
+      "For more serious conditions, the patient may be referred to a specialist.",
+      "Many illnesses which were once dangerous can now be managed effectively.",
+      "A diagnosis is made by the doctor after a physical examination."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng bị động đúng cho mỗi câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The vaccine _____ by millions of people every year.",
+          "options": [
+            "will be taken",
+            "has taken",
+            "is taken",
+            "was taken"
+          ],
+          "answer": "is taken"
+        },
+        {
+          "id": 2,
+          "sentence": "A new drug _____ last month.",
+          "options": [
+            "will be approved",
+            "has approved",
+            "was approved",
+            "is approved"
+          ],
+          "answer": "was approved"
+        },
+        {
+          "id": 3,
+          "sentence": "Patients _____ the results of the test.",
+          "options": [
+            "were given",
+            "are given",
+            "have been given",
+            "will be given"
+          ],
+          "answer": "are given"
+        },
+        {
+          "id": 4,
+          "sentence": "The symptoms _____ by the nurse yesterday.",
+          "options": [
+            "were recorded",
+            "are recorded",
+            "have recorded",
+            "will be recorded"
+          ],
+          "answer": "were recorded"
+        },
+        {
+          "id": 5,
+          "sentence": "Health guidelines _____ regularly to the public.",
+          "options": [
+            "will issue",
+            "were issued",
+            "are issued",
+            "have issued"
+          ],
+          "answer": "are issued"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "made",
+            "doctor",
+            "by",
+            "diagnosis",
+            "the",
+            "is",
+            "A"
+          ],
+          "answer": "A diagnosis is made by the doctor"
+        },
+        {
+          "id": 2,
+          "words": [
+            "specialist",
+            "referred",
+            "was",
+            "patient",
+            "a",
+            "to",
+            "The"
+          ],
+          "answer": "The patient was referred to a specialist"
+        },
+        {
+          "id": 3,
+          "words": [
+            "administered",
+            "worldwide",
+            "are",
+            "children",
+            "Vaccines",
+            "to"
+          ],
+          "answer": "Vaccines are administered to children worldwide"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "administered",
+        "issued",
+        "diagnosed",
+        "treated",
+        "referred",
+        "prevented"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The flu _____ by the doctor last week.",
+          "answer": "diagnosed"
+        },
+        {
+          "id": 2,
+          "sentence": "New health policies _____ every year.",
+          "answer": "issued"
+        },
+        {
+          "id": 3,
+          "sentence": "The vaccine _____ to children at school.",
+          "answer": "administered"
+        },
+        {
+          "id": 4,
+          "sentence": "Patients _____ to specialists for complex cases.",
+          "answer": "referred"
+        },
+        {
+          "id": 5,
+          "sentence": "Chronic diseases _____ with proper medication.",
+          "answer": "treated"
+        }
+      ]
+    }
   }
 }

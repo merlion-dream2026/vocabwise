@@ -708,5 +708,173 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Contrast linkers (although / even though / despite / in spite of)",
+    "vi_grammar_point": "Liên từ đối lập và nhượng bộ",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1 + although/even though + Clause2  |  Despite/In spite of + noun/gerund , Clause",
+      "variant": "Despite + noun/gerund , Clause"
+    },
+    "rule_vi": "Dùng để nối hai mệnh đề hoặc cụm từ có ý nghĩa trái ngược; 'although' và 'even though' đứng trước mệnh đề, còn 'despite' / 'in spite of' đi trước danh từ hoặc V‑ing.",
+    "rule_en": "Use contrast linkers to connect two opposite ideas in one sentence.",
+    "common_error": "❌ She likes the festival, despite it is very crowded.  →  ✅ She likes the festival, despite it being very crowded.",
+    "in_context": [
+      "Modern societies are often diverse, although they include people of many different backgrounds, religions, and beliefs.",
+      "Many countries try to balance spiritual freedom with secular values, despite the challenges faced by minority religious communities.",
+      "Protecting diversity and tolerance is therefore an important cultural and political goal, in spite of the fact that some governments resist such policies."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The ceremony was simple, _____ it lasted for three hours.",
+          "options": [
+            "despite",
+            "although",
+            "in spite of",
+            "even though"
+          ],
+          "answer": "although"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the government promotes tolerance, some communities still feel excluded.",
+          "options": [
+            "even though",
+            "despite",
+            "although",
+            "in spite of"
+          ],
+          "answer": "even though"
+        },
+        {
+          "id": 3,
+          "sentence": "Many people attend worship services, _____ they live far from the temple.",
+          "options": [
+            "despite",
+            "although",
+            "in spite of",
+            "even though"
+          ],
+          "answer": "despite"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the harsh weather, the festival continued as planned.",
+          "options": [
+            "although",
+            "even though",
+            "despite",
+            "in spite of"
+          ],
+          "answer": "in spite of"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the new law, religious minorities still face restrictions.",
+          "options": [
+            "despite",
+            "although",
+            "even though",
+            "in spite of"
+          ],
+          "answer": "despite"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "although",
+            "the",
+            "city",
+            "is",
+            "noisy",
+            "people",
+            "find",
+            "peace",
+            "in",
+            "temples"
+          ],
+          "answer": "although the city is noisy people find peace in temples"
+        },
+        {
+          "id": 2,
+          "words": [
+            "in",
+            "spite",
+            "of",
+            "the",
+            "conflict",
+            "the",
+            "community",
+            "holds",
+            "its",
+            "traditions"
+          ],
+          "answer": "in spite of the conflict the community holds its traditions"
+        },
+        {
+          "id": 3,
+          "words": [
+            "despite",
+            "being",
+            "a",
+            "minority",
+            "they",
+            "participate",
+            "in",
+            "national",
+            "celebrations"
+          ],
+          "answer": "despite being a minority they participate in national celebrations"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "although",
+        "even though",
+        "despite",
+        "in spite of",
+        "however",
+        "but"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the museum was closed, the tour continued.",
+          "answer": "although"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the language barrier, the students understood the lecture.",
+          "answer": "despite"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the choir sang beautifully, the audience was quiet.",
+          "answer": "even though"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the rain, the outdoor ceremony was held.",
+          "answer": "in spite of"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the policy, many people still practice their faith openly.",
+          "answer": "even though"
+        }
+      ]
+    }
   }
 }

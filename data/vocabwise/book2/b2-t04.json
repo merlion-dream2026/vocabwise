@@ -694,5 +694,161 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice with modals (may be fined / could be arrested)",
+    "vi_grammar_point": "Câu bị động với động từ khuyết thiếu",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Modal + be + Past Participle (+ by Agent)",
+      "negative": "Subject + Modal + not + be + Past Participle (+ by Agent)",
+      "question": "Modal + Subject + be + Past Participle (+ by Agent)?",
+      "variant": "Subject + Modal + have + been + Past Participle (+ by Agent)"
+    },
+    "rule_vi": "Dùng cấu trúc này để diễn tả khả năng, cho phép hoặc dự đoán trong câu bị động.",
+    "rule_en": "Use this structure to express possibility, permission or prediction in the passive voice.",
+    "common_error": "❌ The suspect may arrested → ✅ The suspect may be arrested",
+    "in_context": [
+      "A witness may be called to describe what they saw or heard.",
+      "If there is enough evidence, a suspect may be arrested and brought to trial.",
+      "The decision may be appealed by the offender if they believe the verdict was unfair."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu bị động với động từ khuyết thiếu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The suspect _____ arrested if the evidence is strong.",
+          "options": [
+            "could",
+            "may",
+            "must",
+            "shall"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 2,
+          "sentence": "A fine _____ imposed for minor traffic violations.",
+          "options": [
+            "should",
+            "might",
+            "may",
+            "would"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 3,
+          "sentence": "The witness _____ called to testify tomorrow.",
+          "options": [
+            "might",
+            "could",
+            "may",
+            "shall"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 4,
+          "sentence": "If the contract is broken, the penalty _____ increased.",
+          "options": [
+            "could",
+            "must",
+            "shall",
+            "may"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 5,
+          "sentence": "The case _____ reviewed by a higher court.",
+          "options": [
+            "shall",
+            "could",
+            "may",
+            "must"
+          ],
+          "answer": "may"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "may",
+            "arrested",
+            "suspect",
+            "be",
+            "the"
+          ],
+          "answer": "The suspect may be arrested"
+        },
+        {
+          "id": 2,
+          "words": [
+            "could",
+            "increased",
+            "fine",
+            "be",
+            "the"
+          ],
+          "answer": "The fine could be increased"
+        },
+        {
+          "id": 3,
+          "words": [
+            "may",
+            "called",
+            "witness",
+            "be",
+            "the"
+          ],
+          "answer": "The witness may be called"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "may",
+        "could",
+        "must",
+        "should",
+        "might",
+        "shall"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the evidence is clear, the suspect _____ arrested.",
+          "answer": "may"
+        },
+        {
+          "id": 2,
+          "sentence": "A fine _____ imposed for minor offences.",
+          "answer": "could"
+        },
+        {
+          "id": 3,
+          "sentence": "The witness _____ be called to give evidence.",
+          "answer": "may"
+        },
+        {
+          "id": 4,
+          "sentence": "The penalty _____ increased for repeat offenders.",
+          "answer": "could"
+        },
+        {
+          "id": 5,
+          "sentence": "The decision _____ reviewed by a senior judge.",
+          "answer": "may"
+        }
+      ]
+    }
   }
 }

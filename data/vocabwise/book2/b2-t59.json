@@ -800,5 +800,168 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Compound adjectives (fast-growing / well-known / widely-used)",
+    "vi_grammar_point": "Tính từ ghép",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be + compound adjective",
+      "negative": "Subject + be + not + compound adjective",
+      "question": "Is/Are + Subject + compound adjective?",
+      "variant": "compound adjective + noun (e.g., fast-growing market)"
+    },
+    "rule_vi": "Compound adjectives được dùng để mô tả một danh từ bằng cách ghép hai từ lại với nhau bằng dấu gạch nối.",
+    "rule_en": "Use hyphenated compound adjectives before a noun or after a linking verb to give a concise description.",
+    "common_error": "❌ The company is fast growing.  →  ✅ The company is fast-growing.",
+    "in_context": [
+      "The world’s fast-growing digital communication networks link distant cultures.",
+      "Globalisation has created well-known brands that dominate markets worldwide.",
+      "Supply chains are now widely-used tools for economic development."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng tính từ ghép thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The startup’s _____ strategy helped it expand into new markets quickly.",
+          "options": [
+            "widely-used",
+            "well-known",
+            "fast-growing",
+            "highly-paid"
+          ],
+          "answer": "fast-growing"
+        },
+        {
+          "id": 2,
+          "sentence": "These _____ smartphones dominate the global market.",
+          "options": [
+            "fast-growing",
+            "well-known",
+            "widely-used",
+            "low-cost"
+          ],
+          "answer": "well-known"
+        },
+        {
+          "id": 3,
+          "sentence": "Open‑source software is a _____ resource for developers worldwide.",
+          "options": [
+            "widely-used",
+            "fast-growing",
+            "well-known",
+            "highly-rated"
+          ],
+          "answer": "widely-used"
+        },
+        {
+          "id": 4,
+          "sentence": "The city’s _____ tourism industry attracts millions of visitors each year.",
+          "options": [
+            "well-known",
+            "fast-growing",
+            "widely-used",
+            "new‑age"
+          ],
+          "answer": "fast-growing"
+        },
+        {
+          "id": 5,
+          "sentence": "Her _____ reputation in the field made her a sought‑after speaker.",
+          "options": [
+            "widely-used",
+            "well-known",
+            "fast-growing",
+            "high‑profile"
+          ],
+          "answer": "well-known"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "industry",
+            "has",
+            "become",
+            "fast-growing",
+            "due",
+            "to",
+            "digital",
+            "innovation"
+          ],
+          "answer": "The industry has become fast-growing due to digital innovation"
+        },
+        {
+          "id": 2,
+          "words": [
+            "These",
+            "well-known",
+            "artists",
+            "influence",
+            "global",
+            "music",
+            "trends"
+          ],
+          "answer": "These well-known artists influence global music trends"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Widely-used",
+            "platforms",
+            "connect",
+            "people",
+            "across",
+            "continents"
+          ],
+          "answer": "Widely-used platforms connect people across continents"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "fast-growing",
+        "well-known",
+        "widely-used",
+        "high-tech",
+        "low-cost",
+        "new-age"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The ___ market attracted investors from around the world.",
+          "answer": "fast-growing"
+        },
+        {
+          "id": 2,
+          "sentence": "She became a ___ author after her novel topped the bestseller list.",
+          "answer": "well-known"
+        },
+        {
+          "id": 3,
+          "sentence": "Social media apps are ___ tools for modern communication.",
+          "answer": "widely-used"
+        },
+        {
+          "id": 4,
+          "sentence": "Many startups focus on ___ solutions to stay competitive.",
+          "answer": "high-tech"
+        },
+        {
+          "id": 5,
+          "sentence": "The government subsidized ___ products to help low‑income families.",
+          "answer": "low-cost"
+        }
+      ]
+    }
   }
 }

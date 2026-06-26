@@ -794,5 +794,170 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Introductory it (It is important that... / It is expected to...)",
+    "vi_grammar_point": "Cấu trúc It is + adj + that / to-inf",
+    "level": "B2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be + adjective + that + clause / It + be + adjective + to + infinitive",
+      "negative": "It + be + not + adjective + that + clause / It + be + not + adjective + to + infinitive",
+      "question": "Is it + adjective + that + clause?",
+      "variant": "It + be + adjective + for + noun + to + infinitive"
+    },
+    "rule_vi": "Dùng cấu trúc It is + tính từ + that/to‑infinitive để nhấn mạnh một quan điểm, yêu cầu hoặc dự đoán quan trọng.",
+    "rule_en": "Use the introductory it‑construction to emphasize importance, expectation, or necessity.",
+    "common_error": "❌ It important that cities plan ahead.  →  ✅ It is important that cities plan ahead.",
+    "in_context": [
+      "It is important that cities develop efficient transport systems, build affordable housing, and ensure that public services can expand alongside the population.",
+      "It is expected that pressure on city infrastructure will increase as the population continues to grow.",
+      "It is crucial that green spaces, cycling lanes, and pedestrian zones make cities more liveable and reduce environmental pressure."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ important that the city plans for future population growth.",
+          "options": [
+            "It will",
+            "It is",
+            "It was",
+            "It are"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ expected that the government will allocate more funds for affordable housing.",
+          "options": [
+            "It could",
+            "It were",
+            "It is",
+            "It has"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ crucial to provide green spaces in rapidly expanding urban areas.",
+          "options": [
+            "It is",
+            "It are",
+            "It was",
+            "It will"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ necessary for cities to improve public transport to reduce congestion.",
+          "options": [
+            "It will",
+            "It is",
+            "It has",
+            "It were"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ essential that planners consider environmental impact before building new suburbs.",
+          "options": [
+            "It was",
+            "It is",
+            "It could",
+            "It are"
+          ],
+          "answer": "It is"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "important",
+            "that",
+            "cities",
+            "plan",
+            "for",
+            "growth"
+          ],
+          "answer": "It is important that cities plan for growth"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "expected",
+            "that",
+            "infrastructure",
+            "will",
+            "be",
+            "stressed"
+          ],
+          "answer": "It is expected that infrastructure will be stressed"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "crucial",
+            "that",
+            "green",
+            "spaces",
+            "are",
+            "preserved"
+          ],
+          "answer": "It is crucial that green spaces are preserved"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng từ để hoàn thành câu.",
+      "word_bank": [
+        "important",
+        "expected",
+        "crucial",
+        "essential",
+        "necessary",
+        "unlikely"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the city invests in renewable energy to meet future demand.",
+          "answer": "essential"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that traffic congestion will worsen if no new roads are built.",
+          "answer": "expected"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that affordable housing remains a priority for local authorities.",
+          "answer": "important"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that public transport is expanded to reduce carbon emissions.",
+          "answer": "necessary"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that green belts are protected from urban sprawl.",
+          "answer": "crucial"
+        }
+      ]
+    }
   }
 }

@@ -690,5 +690,163 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Quantifiers (all / most / some / few / no + noun)",
+    "vi_grammar_point": "Lượng từ — mức độ và số lượng",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Quantifier + Noun + Verb (+ Object)",
+      "negative": "Subject + Quantifier + Noun + do/does not + Verb (+ Object)",
+      "question": "Do + Quantifier + Noun + Verb (+ Object)?",
+      "variant": "a lot of + noun"
+    },
+    "rule_vi": "Dùng lượng từ (all, most, some, few, no) trước danh từ để chỉ mức độ hoặc số lượng.",
+    "rule_en": "Use quantifiers (all, most, some, few, no) before a noun to express degree or amount.",
+    "common_error": "❌ She have some friends.  →  ✅ She has some friends.",
+    "in_context": [
+      "The coral reef is home to a quarter of all marine life.",
+      "Most of the freshwater stored underground is found in aquifers.",
+      "There are few fish populations left in many parts of the world due to overfishing."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn lượng từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ of the crops were damaged by the frost.",
+          "options": [
+            "All",
+            "Most",
+            "Some",
+            "Few"
+          ],
+          "answer": "Most"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ water is available for irrigation in the dry season.",
+          "options": [
+            "No",
+            "Few",
+            "Some",
+            "All"
+          ],
+          "answer": "Some"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ farmers in the region use organic methods.",
+          "options": [
+            "Few",
+            "All",
+            "Most",
+            "No"
+          ],
+          "answer": "Few"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ of the harvested grain was wasted.",
+          "options": [
+            "Some",
+            "All",
+            "No",
+            "Most"
+          ],
+          "answer": "Some"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ evidence suggests that the new technique improves yields.",
+          "options": [
+            "All",
+            "Most",
+            "Few",
+            "No"
+          ],
+          "answer": "All"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "irrigated",
+            "fields",
+            "the",
+            "are",
+            "Most",
+            "of"
+          ],
+          "answer": "Most of the fields are irrigated"
+        },
+        {
+          "id": 2,
+          "words": [
+            "technology",
+            "new",
+            "adopt",
+            "farmers",
+            "Some"
+          ],
+          "answer": "Some farmers adopt new technology"
+        },
+        {
+          "id": 3,
+          "words": [
+            "harvest",
+            "the",
+            "during",
+            "fell",
+            "rain",
+            "No"
+          ],
+          "answer": "No rain fell during the harvest"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền lượng từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "all",
+        "most",
+        "some",
+        "few",
+        "no",
+        "many"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ of the soil nutrients were depleted after the flood.",
+          "answer": "all"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ villages have access to clean water.",
+          "answer": "few"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ crops survived the drought.",
+          "answer": "some"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ evidence points to climate change as a factor.",
+          "answer": "most"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ fish were caught this season.",
+          "answer": "no"
+        }
+      ]
+    }
   }
 }

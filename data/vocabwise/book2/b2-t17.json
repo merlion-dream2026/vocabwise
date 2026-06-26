@@ -716,5 +716,166 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Phrasal verbs (set up / break down / run out of)",
+    "vi_grammar_point": "Cụm động từ phổ biến",
+    "level": "B1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Particle (+ Object)",
+      "negative": "Subject + do/does/did not + Verb + Particle (+ Object)",
+      "question": "Do/Does/Did + Subject + Verb + Particle (+ Object)?",
+      "variant": "Verb + Particle (separable) + Object"
+    },
+    "rule_vi": "Cụm động từ thường gồm động từ + giới từ hoặc trạng từ, có thể có tân ngữ sau.",
+    "rule_en": "Phrasal verbs consist of a verb followed by a particle, and may take an object.",
+    "common_error": "❌ The experiment set up tomorrow.  →  ✅ The experiment will be set up tomorrow.",
+    "in_context": [
+      "The body breaks down food into nutrients.",
+      "Modern science continues to set up studies to unlock how genes influence health.",
+      "When the immune system runs out of resources, it cannot fight infections."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm động từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The technician will _____ the new computer system tomorrow.",
+          "options": [
+            "install",
+            "run out of",
+            "set up",
+            "mix"
+          ],
+          "answer": "set up"
+        },
+        {
+          "id": 2,
+          "sentence": "During digestion, the stomach _____ food into smaller pieces.",
+          "options": [
+            "run out of",
+            "break down",
+            "set up",
+            "mixes"
+          ],
+          "answer": "break down"
+        },
+        {
+          "id": 3,
+          "sentence": "If we _____ paper, we will need to order more supplies.",
+          "options": [
+            "set up",
+            "run out of",
+            "break down",
+            "use"
+          ],
+          "answer": "run out of"
+        },
+        {
+          "id": 4,
+          "sentence": "The lab manager needs to _____ the old equipment before the new one arrives.",
+          "options": [
+            "repair",
+            "break down",
+            "set up",
+            "run out of"
+          ],
+          "answer": "break down"
+        },
+        {
+          "id": 5,
+          "sentence": "Before the conference, the team will _____ the presentation slides.",
+          "options": [
+            "run out of",
+            "set up",
+            "break down",
+            "edit"
+          ],
+          "answer": "set up"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "scientists",
+            "set",
+            "up",
+            "a",
+            "new",
+            "experiment"
+          ],
+          "answer": "The scientists set up a new experiment"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "body",
+            "breaks",
+            "down",
+            "carbohydrates",
+            "quickly"
+          ],
+          "answer": "The body breaks down carbohydrates quickly"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "ran",
+            "out",
+            "of",
+            "ink",
+            "during",
+            "printing"
+          ],
+          "answer": "We ran out of ink during printing"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền cụm động từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "set up",
+        "break down",
+        "run out of",
+        "install",
+        "prepare",
+        "analyze"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The lab will _____ the microscope before the class starts.",
+          "answer": "set up"
+        },
+        {
+          "id": 2,
+          "sentence": "The digestive system _____ food into nutrients.",
+          "answer": "break down"
+        },
+        {
+          "id": 3,
+          "sentence": "If the printer _____, we cannot print the report.",
+          "answer": "run out of"
+        },
+        {
+          "id": 4,
+          "sentence": "Scientists _____ the data to identify trends.",
+          "answer": "break down"
+        },
+        {
+          "id": 5,
+          "sentence": "The technician will _____ the software after the update.",
+          "answer": "install"
+        }
+      ]
+    }
   }
 }
