@@ -840,10 +840,22 @@
       ]
     },
     "usage_notes": [
-      "Cần lưu ý rằng câu điều kiện loại 1 thường được sử dụng trong tình huống thực tế, có thể xảy ra trong tương lai, không phải là một sự kiện chắc chắn.",
-      "Trong câu điều kiện loại 1, từ 'if' thường được đặt ở đầu câu, nhưng cũng có thể được đặt sau phần chủ ngữ trong một số trường hợp.",
-      "Câu điều kiện loại 1 thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta thường sử dụng câu điều kiện loại 2 hoặc 3 để diễn đạt một tình huống không chắc chắn.",
-      "Người học tiếng Anh thường nhầm lẫn giữa câu điều kiện loại 1 và loại 2, vì vậy cần phải luyện tập và phân biệt rõ ràng giữa hai loại câu này."
+      {
+        "text": "Cần lưu ý rằng câu điều kiện loại 1 thường được sử dụng trong tình huống thực tế, có thể xảy ra trong tương lai, không phải là một sự kiện chắc chắn.",
+        "examples": []
+      },
+      {
+        "text": "Trong câu điều kiện loại 1, từ 'if' thường được đặt ở đầu câu, nhưng cũng có thể được đặt sau phần chủ ngữ trong một số trường hợp.",
+        "examples": []
+      },
+      {
+        "text": "Câu điều kiện loại 1 thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta thường sử dụng câu điều kiện loại 2 hoặc 3 để diễn đạt một tình huống không chắc chắn.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu điều kiện loại 1 và loại 2, vì vậy cần phải luyện tập và phân biệt rõ ràng giữa hai loại câu này.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Nếu kỹ thuật viên thay thế bộ phận bị hỏng, máy sẽ hoạt động.",

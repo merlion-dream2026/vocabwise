@@ -732,7 +732,7 @@
     "form": {
       "positive": "Adverbial + auxiliary + subject + verb + ...  /  Object + subject + verb + ..."
     },
-    "rule_vi": "Khi muốn nhấn mạnh trạng từ hoặc tân ngữ, đưa chúng lên đầu câu; với trạng từ cần đảo trợ động từ (Only then did...), còn với tân ngữ không cần đảo.",
+    "rule_vi": "Đảo ngữ đầu câu (fronting) dùng để nhấn mạnh một thành phần như trạng từ hạn chế hoặc tân ngữ bằng cách đưa nó lên đầu câu. Khi fronting một trạng từ bắt đầu bằng only, never, scarcely, seldom, hardly, v.v., cần đảo trợ động từ (did, can, will, …) và đặt chủ ngữ sau trợ động từ (Only then did travellers …). Khi fronting tân ngữ, chỉ cần đưa tân ngữ lên trước vị trí bình thường của nó, không đảo trợ động từ; cấu trúc vẫn là V + S (This idea we rejected). Đảo ngữ thường xuất hiện trong văn viết trang trọng hoặc để tạo nhấn mạnh, và thường đi kèm dấu phẩy nếu cụm từ dài.",
     "rule_en": "Fronted adverbials require inversion of the auxiliary verb, while fronted objects do not.",
     "common_error": "❌ Only then we did the team realise...  →  ✅ Only then did the team realise...",
     "in_context": [
@@ -886,6 +886,37 @@
           "answer": "Only then"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Với các trạng từ hạn chế (only, never, scarcely, …) đưa lên đầu câu, phải đảo trợ động từ và đặt chủ ngữ sau trợ động từ.",
+        "examples": [
+          "❌ Only then travellers experienced disorientation → ✅ Only then did travellers experience disorientation"
+        ]
+      },
+      {
+        "text": "Khi fronting tân ngữ, không cần đảo trợ động từ; giữ nguyên thứ tự V + S sau tân ngữ.",
+        "examples": [
+          "❌ This idea did we reject → ✅ This idea we rejected"
+        ]
+      },
+      {
+        "text": "Cụm trạng từ hoặc tân ngữ dài được fronted thường cần dấu phẩy sau cụm để tránh nhầm lẫn.",
+        "examples": [
+          "✅ Only after the conference, we decided to postpone the project."
+        ]
+      },
+      {
+        "text": "Fronting tạo phong cách trang trọng; trong giao tiếp thông thường nên tránh câu quá dài hoặc gây khó hiểu.",
+        "examples": [
+          "❌ Only then did the manager, after reviewing the report, approve the budget → ✅ After reviewing the report, the manager approved the budget"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Chỉ khi đó, du khách mới trải nghiệm cảm giác bối rối khi đối mặt với các chuẩn mực xã hội không quen thuộc, và phải điều hướng sự bối rối văn hoá để hoạt động hiệu quả trong môi trường mới.",
+      "Ý tưởng này chúng tôi đã bác bỏ: nhiều điểm du lịch quảng bá những trải nghiệm được chọn lọc kỹ lưỡng, chúng củng cố thay vì thách thức các định kiến.",
+      "Chỉ sau khi giao lưu với người địa phương, du khách mới phát triển sự đồng cảm sâu sắc hơn và hiểu biết phong phú hơn về sự đa dạng của con người."
+    ]
   }
 }

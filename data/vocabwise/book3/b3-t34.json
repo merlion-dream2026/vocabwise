@@ -690,7 +690,7 @@
       "positive": "NP + relative pronoun (who/whom/whose/of which) + clause (subject + verb + ...)",
       "variant": "Preposition + relative pronoun (to whom, for which, etc.) + clause"
     },
-    "rule_vi": "Dùng whom cho người làm tân ngữ, whose cho sở hữu, và of which cho vật làm tân ngữ hoặc bổ ngữ.",
+    "rule_vi": "Mệnh đề quan hệ phức tạp (complex relative clause) dùng các đại từ quan hệ whom, whose, of which để nối một mệnh đề phụ vào danh từ hoặc đại từ trong câu chính, thường xuất hiện trong văn viết trang trọng. Whom được dùng khi antecedent là người và đóng vai trò tân ngữ (hoặc sau giới từ); whose biểu thị quan hệ sở hữu của người hoặc vật; of which dùng cho vật (hoặc khái niệm) khi nó là tân ngữ hoặc bổ ngữ, thường xuất hiện sau giới từ. Cấu trúc cơ bản: [noun], (who/whom/whose/of which) + clause. Khi mệnh đề bổ sung, dùng dấu phẩy; khi mệnh đề hạn định, không dùng dấu phẩy.",
     "rule_en": "Use whom for objects referring to people, whose for possession, and of which for non‑people objects.",
     "common_error": "❌ The researcher whose published a paper → ✅ The researcher who published a paper",
     "in_context": [
@@ -846,6 +846,39 @@
           "answer": "whose"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Whom chỉ xuất hiện ở vị trí tân ngữ; nếu antecedent là chủ ngữ, dùng who.",
+        "examples": [
+          "❌ The researcher who we interviewed → ✅ The researcher whom we interviewed"
+        ]
+      },
+      {
+        "text": "Whose có thể chỉ sở hữu của người hoặc vật; với vật thường dùng of which để tránh nhầm lẫn.",
+        "examples": [
+          "✅ The book whose cover is torn",
+          "✅ The book of which the cover is torn"
+        ]
+      },
+      {
+        "text": "Of which dùng cho các danh từ vô nhân cách, đặc biệt sau giới từ; không thể thay bằng whose khi antecedent là vô vật.",
+        "examples": [
+          "❌ The theory whose was proposed → ✅ The theory of which was proposed"
+        ]
+      },
+      {
+        "text": "Trong văn nói, các mệnh đề này thường được thay bằng cấu trúc đơn giản hơn; trong văn viết học thuật chúng giữ tính trang trọng.",
+        "examples": [
+          "✅ The participants, whom the experimenter observed closely, showed varied responses",
+          "✅ The participants the experimenter observed closely showed varied responses"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Một khuôn khổ mạnh mẽ để hiểu hành vi là lý thuyết quy kết, có nguồn gốc xuất phát từ tâm lý học đầu thế kỷ 20.",
+      "Các cơ chế, mà chúng ta mới chỉ bắt đầu hiểu, ảnh hưởng đến kết quả học tập.",
+      "Các người tham gia, mà nhà thí nghiệm quan sát kỹ, đã thể hiện các phản ứng đa dạng."
+    ]
   }
 }

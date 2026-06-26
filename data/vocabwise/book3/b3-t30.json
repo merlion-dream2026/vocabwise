@@ -731,7 +731,7 @@
       "question": "Do/Did + subject + base verb (+ object/complement)?",
       "variant": "the very + Noun  /  absolutely + adjective/adverb"
     },
-    "rule_vi": "Dùng cấu trúc nhấn mạnh để làm nổi bật hành động hoặc tính chất, thường dùng do/did, the very, absolutely.",
+    "rule_vi": "Cấu trúc nhấn mạnh được dùng để làm nổi bật một hành động hoặc tính chất, thường xuất hiện trong câu khẳng định. Các dạng phổ biến gồm: (1) dùng trợ động từ do/does/did + động từ nguyên thể để nhấn mạnh hành động; (2) dùng the very + danh từ hoặc tính từ để tăng cường mức độ; (3) dùng absolutely + tính từ hoặc trạng từ để nhấn mạnh mức độ tuyệt đối. Những cấu trúc này không thay đổi nghĩa cơ bản của câu, chỉ tăng cường sức mạnh biểu đạt và thường xuất hiện trong ngữ cảnh trang trọng hoặc khi muốn nhấn mạnh mạnh mẽ.",
     "rule_en": "Use emphatic structures to stress an action or quality, employing do/did, the very, or absolutely.",
     "common_error": "❌ He do understand the issue.  →  ✅ He does understand the issue.",
     "in_context": [
@@ -871,6 +871,41 @@
           "answer": "absolutely"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trợ động từ do/does/did chỉ xuất hiện trong câu khẳng định và đứng trước động từ nguyên thể, không được dùng trước các trợ động từ khác như can, will, hay trước động từ đã có dạng –ing.",
+        "examples": [
+          "❌ She does can go → ✅ She can go",
+          "✅ He did finish the report"
+        ]
+      },
+      {
+        "text": "the very chỉ được dùng ngay trước danh từ hoặc tính từ, không thể đứng trước trạng từ; nó nhấn mạnh tính chất \"cực kỳ\" của từ kế tiếp.",
+        "examples": [
+          "❌ the very quickly → ✅ the very quick",
+          "✅ the very important decision"
+        ]
+      },
+      {
+        "text": "absolutely chỉ đi kèm với tính từ hoặc trạng từ, không dùng với danh từ; nó biểu thị mức độ tuyệt đối, không có nghĩa \"hoàn toàn\" như trong tiếng Việt.",
+        "examples": [
+          "❌ absolutely the leader → ✅ absolutely essential",
+          "✅ The results are absolutely clear"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, người học thường thay thế cấu trúc nhấn mạnh bằng các biện pháp khác (ví dụ: từ ngữ mạnh hơn, cấu trúc cleft) để tránh lặp lại do/does/did.",
+        "examples": [
+          "✅ He did complete the project on time (spoken)",
+          "✅ He completed the project on time (formal writing)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các nhà lã đạo thực sự định hình các giá trị của các tổ chức và xã hội mà họ phục vụ.",
+      "Khả năng diễn đạt bức tranh vô cùng hấp dẫn về những gì có thể đạt được là điều thiết yếu.",
+      "Trách nhiệm giải trình là hoàn toàn thiết yếu để ngăn ngừa việc lạm dụng quyền lực."
+    ]
   }
 }

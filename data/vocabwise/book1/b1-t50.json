@@ -823,10 +823,22 @@
       ]
     },
     "usage_notes": [
-      "Khi sử dụng 'go straight', cần lưu ý rằng nó thường được sử dụng để chỉ hướng di chuyển thẳng tiến mà không có sự thay đổi hướng.",
-      "Sự khác biệt giữa 'pass' và 'over' là 'pass' thường được sử dụng để chỉ việc đi qua một địa điểm hoặc một vật thể, trong khi 'over' thường được sử dụng để chỉ việc đi qua một chướng ngại vật hoặc một bề mặt.",
-      "Trong tiếng Anh, vị trí của các giới từ chỉ hướng thường được đặt sau động từ chỉ di chuyển, như 'go' hoặc 'walk'.",
-      "Người học tiếng Anh thường nhầm lẫn giữa 'turn left' và 'turn right', do đó cần lưu ý đến sự khác biệt giữa hai cụm từ này khi sử dụng."
+      {
+        "text": "Khi sử dụng 'go straight', cần lưu ý rằng nó thường được sử dụng để chỉ hướng di chuyển thẳng tiến mà không có sự thay đổi hướng.",
+        "examples": []
+      },
+      {
+        "text": "Sự khác biệt giữa 'pass' và 'over' là 'pass' thường được sử dụng để chỉ việc đi qua một địa điểm hoặc một vật thể, trong khi 'over' thường được sử dụng để chỉ việc đi qua một chướng ngại vật hoặc một bề mặt.",
+        "examples": []
+      },
+      {
+        "text": "Trong tiếng Anh, vị trí của các giới từ chỉ hướng thường được đặt sau động từ chỉ di chuyển, như 'go' hoặc 'walk'.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Anh thường nhầm lẫn giữa 'turn left' và 'turn right', do đó cần lưu ý đến sự khác biệt giữa hai cụm từ này khi sử dụng.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Đi thẳng dọc con đường này một dãy nhà.",

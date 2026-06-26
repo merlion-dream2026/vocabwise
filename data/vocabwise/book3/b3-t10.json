@@ -686,7 +686,7 @@
     "form": {
       "positive": "wish / if only + Subject + had + Past Participle"
     },
-    "rule_vi": "Dùng wish/if only + had + quá khứ phân từ để bày tỏ sự hối tiếc về một việc đã xảy ra trong quá khứ.",
+    "rule_vi": "Cấu trúc wish / if only + had + quá khứ phân từ (V3) dùng để bày tỏ sự hối tiếc về một hành động hoặc tình huống đã xảy ra trong quá khứ và không thể thay đổi. Nó thuộc loại câu điều kiện ảo (unreal past) và mang nghĩa “giá như…”. Cấu trúc: wish / if only + chủ ngữ + had + V3 (hoặc had + been + tính từ). Thường xuất hiện trong ngữ cảnh trang trọng hoặc viết, thể hiện cảm xúc sâu sắc.",
     "rule_en": "Use wish/if only + had + past participle to express regret about a past situation.",
     "common_error": "❌ I wish I have set boundaries.  →  ✅ I wish I had set boundaries.",
     "in_context": [
@@ -839,6 +839,37 @@
           "answer": "implemented"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Câu wish/if only luôn dùng quá khứ hoàn thành (had + V3), không dùng would have.",
+        "examples": [
+          "❌ I wish I would have set firmer boundaries → ✅ I wish I had set firmer boundaries"
+        ]
+      },
+      {
+        "text": "If only thường đứng ở đầu câu và mang tính nhấn mạnh hơn wish; cấu trúc vẫn là had + V3.",
+        "examples": [
+          "❌ If only I set firmer boundaries → ✅ If only I had set firmer boundaries"
+        ]
+      },
+      {
+        "text": "Khi muốn diễn tả khả năng trong quá khứ sau một hành động hối tiếc, dùng could have + V3, không dùng could + V.",
+        "examples": [
+          "❌ I wish I had set firmer boundaries and could avoid burnout → ✅ I wish I had set firmer boundaries and could have avoided burnout"
+        ]
+      },
+      {
+        "text": "Trong tiếng nói không trang trọng, người nói có thể rút gọn thành I wish I’d..., nhưng vẫn giữ dạng had + V3; tránh dùng simple past.",
+        "examples": [
+          "❌ I wish I set firmer boundaries → ✅ I wish I’d set firmer boundaries"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi ước mình đã thiết lập những ranh giới cá nhân chặt chẽ hơn trước khi thời đại làm việc từ xa làm mờ ranh giới giữa văn phòng và nhà.",
+      "Giá như tôi đã nhận ra sớm các dấu hiệu của kiệt sức, tôi đã có thể tránh được sự mệt mỏi mãn tính.",
+      "Nhiều chuyên gia ước rằng họ đã ưu tiên thời gian nghỉ ngơi, nhưng họ vẫn tiếp tục cam kết quá mức vào các dự án."
+    ]
   }
 }

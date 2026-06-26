@@ -818,10 +818,22 @@
       ]
     },
     "usage_notes": [
-      "Sự khác biệt chính giữa 'make' và 'let' là 'make' thường mang ý nghĩa bắt buộc hoặc ép buộc, trong khi 'let' mang ý nghĩa cho phép hoặc đồng ý.",
-      "Vị trí của 'make' và 'let' trong câu thường là trước tân ngữ, và sau đó là động từ nguyên thể.",
-      "Trong tiếng Anh, cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, tuy nhiên việc sử dụng 'make' có thể mang ý nghĩa trang trọng hơn so với 'let'.",
-      "Người học tiếng Việt thường nhầm lẫn giữa 'make' và 'let' vì trong tiếng Việt, cả hai đều có thể được dịch là 'làm cho' hoặc 'cho phép', nhưng ý nghĩa và cách sử dụng của chúng trong tiếng Anh là khác nhau."
+      {
+        "text": "Sự khác biệt chính giữa 'make' và 'let' là 'make' thường mang ý nghĩa bắt buộc hoặc ép buộc, trong khi 'let' mang ý nghĩa cho phép hoặc đồng ý.",
+        "examples": []
+      },
+      {
+        "text": "Vị trí của 'make' và 'let' trong câu thường là trước tân ngữ, và sau đó là động từ nguyên thể.",
+        "examples": []
+      },
+      {
+        "text": "Trong tiếng Anh, cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, tuy nhiên việc sử dụng 'make' có thể mang ý nghĩa trang trọng hơn so với 'let'.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Việt thường nhầm lẫn giữa 'make' và 'let' vì trong tiếng Việt, cả hai đều có thể được dịch là 'làm cho' hoặc 'cho phép', nhưng ý nghĩa và cách sử dụng của chúng trong tiếng Anh là khác nhau.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Giáo viên của chúng tôi cho phép chúng tôi chơi một bản nhạc độc tấu ngắn trước buổi biểu diễn.",

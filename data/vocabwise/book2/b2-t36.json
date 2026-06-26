@@ -723,7 +723,7 @@
       "question": "Is/Are + subject + too + adjective + to + infinitive?",
       "variant": "too + adjective + for + noun + to + infinitive"
     },
-    "rule_vi": "Dùng Too/Enough + mệnh đề nguyên thể để nói một hành động/điều gì đó quá khó hoặc không đủ khả năng để thực hiện.",
+    "rule_vi": "Too và enough có thể đi kèm với mệnh đề nguyên thể (to + V) để diễn tả mức độ quá mức hoặc đủ mức để thực hiện một hành động. Cấu trúc: Too + tính từ/đại từ chỉ mức độ + to + động từ nguyên thể (ví dụ: too difficult to solve). Cấu trúc: Enough + tính từ/đại từ chỉ mức độ + to + động từ nguyên thể (ví dụ: strong enough to lift). Dùng để nói một việc gì đó quá khó hoặc không đủ khả năng để thực hiện, hoặc đủ khả năng để thực hiện.",
     "rule_en": "Use Too/Enough with infinitive clauses to express that something is too difficult or not sufficient to do something.",
     "common_error": "❌ She is too enough to finish the work.  →  ✅ She is too busy to finish the work.",
     "in_context": [
@@ -874,6 +874,37 @@
           "answer": "too"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Too luôn đứng trước tính từ hoặc trạng từ, không được đặt sau động từ.",
+        "examples": [
+          "❌ The problem is difficult too to solve → ✅ The problem is too difficult to solve."
+        ]
+      },
+      {
+        "text": "Enough có thể đứng trước tính từ/đại từ để chỉ mức độ đủ, và thường đi kèm với to + V để nói khả năng thực hiện.",
+        "examples": [
+          "She is old enough to drive."
+        ]
+      },
+      {
+        "text": "Cấu trúc Too … to … biểu thị rằng mức độ quá cao ngăn cản hành động, trong khi Enough … to … biểu thị mức độ đủ để hành động có thể xảy ra.",
+        "examples": [
+          "The water is too cold to swim. → The water is warm enough to swim."
+        ]
+      },
+      {
+        "text": "Khi dùng enough với danh từ, enough thường đứng sau danh từ, còn với tính từ thì đứng trước tính từ; nhưng khi có infinitive, vị trí luôn là enough + tính từ + to + V.",
+        "examples": [
+          "There is enough food to feed everyone. → ❌ There is enough to feed everyone food."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc thu hẹp khoảng cách bất công này quá khó để giải quyết nhanh chóng.",
+      "Học sinh đến từ hoàn cảnh khó khăn không được hỗ trợ đủ để duy trì tiêu chuẩn cao.",
+      "Số lượng học sinh bỏ học sớm quá cao để có thể bỏ qua."
+    ]
   }
 }

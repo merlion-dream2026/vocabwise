@@ -732,7 +732,7 @@
       "positive": "Subject + Stance marker + (that) + Verb phrase",
       "variant": "it seems that / it could be argued that"
     },
-    "rule_vi": "Dùng các marker này để thể hiện quan điểm một cách thận trọng, tránh khẳng định tuyệt đối trong văn viết học thuật.",
+    "rule_vi": "Marker lập trường là các từ hoặc cụm từ (như arguably, it appears, may be said to) dùng để thể hiện quan điểm một cách thận trọng, tránh khẳng định tuyệt đối. Chúng thường xuất hiện ở đầu mệnh đề hoặc ngay sau chủ ngữ và được ngăn cách bằng dấu phẩy khi cần. Cấu trúc đi kèm thường là: [marker] + that‑clause hoặc [marker] + infinitive (đối với may be said to). Việc dùng chúng giúp tăng tính học thuật và giảm tính chủ quan trong văn viết.",
     "rule_en": "Use these markers to express a cautious stance, signalling that a claim is not presented as an absolute fact.",
     "common_error": "❌ *It appears* that the evidence is conclusive → ✅ *It appears* that the evidence is suggestive",
     "in_context": [
@@ -883,6 +883,37 @@
           "answer": "it appears"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí: marker thường đặt trước mệnh đề chính, hoặc sau chủ ngữ, và thường được ngăn cách bằng dấu phẩy nếu đứng ở đầu câu.",
+        "examples": [
+          "❌ It appears, that historians must revise → ✅ It appears that historians must revise"
+        ]
+      },
+      {
+        "text": "Đăng ký ngôn ngữ: các marker này thuộc phong cách học thuật, không nên dùng trong giao tiếp thông thường.",
+        "examples": [
+          "❌ I think historians should revise → ✅ It appears that historians should revise"
+        ]
+      },
+      {
+        "text": "Nhầm lẫn thường gặp: arguably là trạng từ, không phải danh từ hay động từ; cần dùng cùng với một động từ hoặc cấu trúc to be.",
+        "examples": [
+          "❌ Argueably the limitation is… → ✅ It is arguably a limitation…"
+        ]
+      },
+      {
+        "text": "Cấu trúc với may be said to: phải theo sau là động từ nguyên mẫu (to‑verb), không dùng that‑clause.",
+        "examples": [
+          "❌ may be said that it colours → ✅ may be said to colour"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các học giả nghiên cứu sử học cho rằng việc thừa nhận hạn chế này một cách có thể tranh cãi là bước đầu tiên hướng tới một nền nghiên cứu lịch sử trung thực và nghiêm túc hơn.",
+      "Khi có bằng chứng mới xuất hiện hoặc các nguồn lưu trữ được xem xét lại, dường như các nhà sử học phải sẵn sàng sửa đổi những kết luận đã được duy trì lâu dài.",
+      "Thiên kiến, dù là ý thức hệ, văn hoá hay quốc gia, có thể được cho là làm ảnh hưởng đến cách diễn giải bằng chứng, do đó việc thách thức các câu chuyện đơn lẻ là điều thiết yếu."
+    ]
   }
 }

@@ -886,10 +886,22 @@
       ]
     },
     "usage_notes": [
-      "Khi sử dụng **and**, cần lưu ý rằng nó thường được dùng để nối hai ý có cùng cấp độ quan trọng, giúp câu văn trở nên cân bằng hơn.",
-      "Liên từ **but** thường được đặt sau dấu phẩy, giúp tách biệt hai ý trái ngược và tạo sự rõ ràng cho câu văn.",
-      "Sử dụng **because** và **so** cần có sự logic và phù hợp với ngữ cảnh, tránh sử dụng một cách máy móc hoặc không phù hợp.",
-      "Một điểm cần lưu ý là trong tiếng Việt, chúng ta thường sử dụng từ 'vì' và 'nên' để thể hiện nguyên nhân và kết quả, nhưng trong tiếng Anh, **because** và **so** có thể được sử dụng trong nhiều trường hợp khác nhau."
+      {
+        "text": "Khi sử dụng **and**, cần lưu ý rằng nó thường được dùng để nối hai ý có cùng cấp độ quan trọng, giúp câu văn trở nên cân bằng hơn.",
+        "examples": []
+      },
+      {
+        "text": "Liên từ **but** thường được đặt sau dấu phẩy, giúp tách biệt hai ý trái ngược và tạo sự rõ ràng cho câu văn.",
+        "examples": []
+      },
+      {
+        "text": "Sử dụng **because** và **so** cần có sự logic và phù hợp với ngữ cảnh, tránh sử dụng một cách máy móc hoặc không phù hợp.",
+        "examples": []
+      },
+      {
+        "text": "Một điểm cần lưu ý là trong tiếng Việt, chúng ta thường sử dụng từ 'vì' và 'nên' để thể hiện nguyên nhân và kết quả, nhưng trong tiếng Anh, **because** và **so** có thể được sử dụng trong nhiều trường hợp khác nhau.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Mỗi trang đều đầy ắp những ý tưởng thú vị và tôi không bao giờ cảm thấy chán.",

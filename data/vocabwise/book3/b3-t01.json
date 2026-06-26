@@ -718,7 +718,7 @@
     "form": {
       "positive": "Subject + Verb + Object → Subject + Noun (nominalized)"
     },
-    "rule_vi": "Khi muốn biến động từ thành danh từ để diễn tả một khái niệm, quá trình hoặc kết quả, ta dùng danh hóa (ví dụ: educate → education).",
+    "rule_vi": "Danh hóa (nominalization) là quá trình biến động từ, tính từ hoặc cụm động từ thành danh từ để diễn tả một khái niệm, quá trình hoặc kết quả. Thường dùng các hậu tố như -tion, -sion, -ment, -ance, -ence, -ity, -ness, … để tạo danh từ mới. Danh từ danh hoá có thể làm chủ ngữ, tân ngữ, bổ ngữ hoặc thành phần của cụm danh từ, thường xuất hiện trong văn viết học thuật để tăng tính trừu tượng và trang trọng. Khi danh hoá, nghĩa của từ gốc vẫn giữ lại nhưng không còn mang tính hành động; nếu muốn nhấn mạnh hành động thì dùng dạng gerund (verb‑ing).",
     "rule_en": "Use nominalization to turn a verb into a noun when the noun represents an abstract concept or process.",
     "common_error": "❌ The educate of the students is important.  →  ✅ The education of the students is important.",
     "in_context": [
@@ -879,6 +879,41 @@
           "answer": "retention"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Danh hoá thường đứng ở vị trí danh từ bình thường: làm chủ ngữ, tân ngữ, hoặc sau giới từ; có thể được bổ nghĩa bởi tính từ hoặc cụm danh từ.",
+        "examples": [
+          "❌ Educating alone cannot overcome disadvantage → ✅ Education alone cannot overcome disadvantage",
+          "The acquisition of skills is essential → The acquisition of skills is essential"
+        ]
+      },
+      {
+        "text": "Trong văn viết học thuật, danh hoá làm tăng tính trang trọng; trong giao tiếp thông thường nên tránh lạm dụng để không làm câu trở nên cứng nhắc.",
+        "examples": [
+          "✅ The implementation of the policy was successful",
+          "❌ We are implementing the policy successfully → ✅ The implementation of the policy was successful"
+        ]
+      },
+      {
+        "text": "Không phải mọi động từ đều có dạng -tion; một số cần dùng hậu tố khác hoặc thay đổi gốc (e.g., acquire → acquisition, decide → decision).",
+        "examples": [
+          "❌ Acquire → Acquiretion → ✅ Acquire → Acquisition",
+          "❌ Decide → Decidement → ✅ Decide → Decision"
+        ]
+      },
+      {
+        "text": "Danh hoá khác với gerund: danh hoá là danh từ thuần túy, không nhận trực tiếp tân ngữ; nếu muốn diễn tả hành động có đối tượng, dùng gerund + preposition.",
+        "examples": [
+          "✅ The acquisition of knowledge is vital → ❌ The acquisition knowledge is vital",
+          "✅ Acquiring knowledge is vital → ❌ Acquiring of knowledge is vital"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu không có những can thiệp cấu trúc này, giáo dục một mình không thể khắc phục bất lợi sâu sắc.",
+      "Văn minh đọc‑viết — cả dạng truyền thống và kỹ thuật số — là nền tảng cho mọi hình thức học tập khác.",
+      "Mối quan ngại chính là thành tích học tập: các nghiên cứu liên tục cho thấy hoàn cảnh kinh tế‑xã hội dự đoán mạnh mẽ thành công học thuật."
+    ]
   }
 }

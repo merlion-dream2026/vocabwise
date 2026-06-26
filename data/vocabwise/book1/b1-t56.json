@@ -886,10 +886,22 @@
       ]
     },
     "usage_notes": [
-      "Sử dụng say và tell một cách linh hoạt tùy thuộc vào ngữ cảnh và người nghe để tránh nhầm lẫn về người nói và người nghe.",
-      "Lưu ý về vị trí của từ trong câu gián tiếp, thường là 'say/tell' + 'that' + 'câu lời nói', và có thể thay đổi tùy thuộc vào mức độ trang trọng hoặc không trang trọng của câu.",
-      "Khi sử dụng tell, người nghe thường được chỉ định rõ ràng, trong khi say có thể không cần chỉ định người nghe cụ thể.",
-      "Phân biệt giữa say và tell khi dịch từ tiếng Việt sang tiếng Anh để tránh nhầm lẫn về cấu trúc và ý nghĩa."
+      {
+        "text": "Sử dụng say và tell một cách linh hoạt tùy thuộc vào ngữ cảnh và người nghe để tránh nhầm lẫn về người nói và người nghe.",
+        "examples": []
+      },
+      {
+        "text": "Lưu ý về vị trí của từ trong câu gián tiếp, thường là 'say/tell' + 'that' + 'câu lời nói', và có thể thay đổi tùy thuộc vào mức độ trang trọng hoặc không trang trọng của câu.",
+        "examples": []
+      },
+      {
+        "text": "Khi sử dụng tell, người nghe thường được chỉ định rõ ràng, trong khi say có thể không cần chỉ định người nghe cụ thể.",
+        "examples": []
+      },
+      {
+        "text": "Phân biệt giữa say và tell khi dịch từ tiếng Việt sang tiếng Anh để tránh nhầm lẫn về cấu trúc và ý nghĩa.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Tôi đã nói rằng tôi sẽ đặt điện thoại ở chế độ im lặng trong cuộc họp.",

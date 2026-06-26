@@ -670,7 +670,7 @@
       "question": "Has it + been + past participle + that + clause?",
       "variant": "It + be + believed/claimed/suggested + that + clause"
     },
-    "rule_vi": "Dùng cấu trúc bị động truyền đạt để giới thiệu quan điểm chung mà không nêu rõ người nói.",
+    "rule_vi": "Cấu trúc bị động truyền đạt (passive reporting) dùng để đưa ra một quan điểm, nhận định chung mà không nêu người nói. Thường xuất hiện ở dạng It + be + quá khứ phân từ (has been, is, was, v.v.) + past participle + that‑clause. Dùng trong văn viết học thuật, báo chí để tăng tính khách quan và tránh gán trách nhiệm cá nhân. Khi dùng, động từ chính luôn ở dạng bị động và theo sau là một mệnh đề that chứa nội dung được truyền đạt.",
     "rule_en": "Use passive reporting to present widely held opinions without specifying the source.",
     "common_error": "❌ It has argued that...  →  ✅ It has been argued that...",
     "in_context": [
@@ -825,6 +825,37 @@
           "answer": "has been suggested"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề that‑clause phải đứng ngay sau động từ bị động; nếu bỏ that sẽ gây hiểu lầm hoặc không chuẩn.",
+        "examples": [
+          "❌ It has been argued the advertising crosses into manipulation → ✅ It has been argued that advertising crosses into manipulation"
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng, thích hợp cho văn bản học thuật, báo chí; không nên dùng trong giao tiếp thân mật.",
+        "examples": [
+          "✅ It is believed that branding reinforces materialistic values."
+        ]
+      },
+      {
+        "text": "\"It\" ở đây là chủ ngữ giả (dummy subject), không có antecedent thực tế; không thể thay bằng \"this\" hay danh từ khác.",
+        "examples": [
+          "✅ It has been suggested that movements advocating mindful consumption represent a pushback."
+        ]
+      },
+      {
+        "text": "Động từ “have/has been” phải phù hợp với chủ ngữ; với \"it\" (số ít) dùng \"has been\"; tránh nhầm lẫn với dạng số nhiều.",
+        "examples": [
+          "❌ They have been argued that advertising crosses → ✅ It has been argued that advertising crosses"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Có quan điểm cho rằng quảng cáo thường xuyên vượt qua ranh giới thao túng — khai thác các thiên kiến nhận thức, tạo ra khát vọng, và nuôi dưỡng chủ nghĩa vật chất khiến người tiêu dùng luôn không hài lòng.",
+      "Có niềm tin rằng thương hiệu củng cố các giá trị vật chất bằng cách đồng nhất sở hữu với địa vị, thành công và hạnh phúc.",
+      "Có đề xuất rằng các phong trào ủng hộ tiêu dùng có ý thức đại diện cho một phản kháng trước vòng quay không ngừng của mong muốn và tiêu huỷ."
+    ]
   }
 }

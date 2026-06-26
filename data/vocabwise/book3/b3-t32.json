@@ -668,7 +668,7 @@
       "question": "Could it be argued that + clause?",
       "variant": "This suggests that + clause"
     },
-    "rule_vi": "Dùng cấu trúc bị động để đưa ra nhận định một cách thận trọng, thường xuất hiện trong các bài viết học thuật.",
+    "rule_vi": "Hedging với cấu trúc bị động dùng để đưa ra nhận định một cách thận trọng, thường xuất hiện trong văn viết học thuật. Cấu trúc cơ bản là: it + modal verb (could, might, may, should, is) + be + past participle (argued, suggested, considered, claimed, etc.) + that + clause. Động từ bị động ở đây không mô tả hành động thực tế mà chỉ mang tính ẩn dụ, giúp giảm mức độ khẳng định. Cấu trúc này thường đứng ở vị trí chủ ngữ hoặc sau các từ nối để giới thiệu quan điểm một cách gián tiếp.",
     "rule_en": "Use passive hedging to express cautious or tentative statements in academic writing.",
     "common_error": "❌ It could argue that the results are significant.  →  ✅ It could be argued that the results are significant.",
     "in_context": [
@@ -826,6 +826,37 @@
           "answer": "would"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc luôn bắt đầu bằng ‘it’ làm chủ ngữ giả, sau đó là động từ khiếm khuyết và ‘be’ ở dạng bị động.",
+        "examples": [
+          "❌ It argued that ... → ✅ It could be argued that ..."
+        ]
+      },
+      {
+        "text": "Các động từ thường dùng để hedging là: argued, suggested, considered, claimed, believed, reported, noted, v.v.",
+        "examples": [
+          "✅ It is suggested that researchers verify their data."
+        ]
+      },
+      {
+        "text": "Dùng trong ngữ cảnh trang trọng, học thuật; không phù hợp với giao tiếp thông thường.",
+        "examples": [
+          "✅ It might be claimed that the theory is incomplete."
+        ]
+      },
+      {
+        "text": "Lỗi phổ biến: bỏ ‘it’ hoặc dùng thể chủ động thay vì bị động, làm mất tính hedging.",
+        "examples": [
+          "❌ Researchers argue that ... → ✅ It could be argued that ..."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khi các nghiên cứu không thể tái lập, có thể lập luận rằng cộng đồng rộng lớn hơn phải thách thức sự đồng thuận khoa học và xem xét lại bằng chứng gốc.",
+      "Đó là lý do tại sao người ta đề nghị các nhà khoa học công bố các phát hiện đã được bình duyệt để các chuyên gia độc lập có thể kiểm tra công trình về lỗi và thiên kiến.",
+      "Việc tái lập được coi là tiêu chuẩn vàng của độ tin cậy khoa học, và có thể lập luận rằng nó là nền tảng cho độ tin cậy của các nghiên cứu tiếp theo."
+    ]
   }
 }

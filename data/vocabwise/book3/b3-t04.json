@@ -733,7 +733,7 @@
       "positive": "Det + (Modifier(s)) + Noun + (Prepositional phrase / Relative clause)",
       "variant": "Det + Noun + (of + Noun) + (who/which + Clause)"
     },
-    "rule_vi": "Dùng để diễn tả một danh từ được mở rộng bằng các thành phần phụ như tính từ, giới từ, hoặc mệnh đề quan hệ, giúp câu trở nên chi tiết và chính xác hơn.",
+    "rule_vi": "Cụm danh từ phức tạp là một danh từ (head noun) được mở rộng bằng các thành phần phụ như tính từ, danh từ bổ nghĩa, cụm giới từ, mệnh đề quan hệ, hoặc cụm phân từ. Các thành phần này có thể đứng trước hoặc sau danh từ, tùy thuộc vào loại từ và mức độ nhấn mạnh. Khi dùng trong văn viết cấp cao, người học nên sắp xếp các thành phần sao cho câu vẫn rõ ràng, tránh chồng chéo quá mức. Cấu trúc chung: (det) + (adj) + noun + (prepositional phrase / relative clause / participial phrase …).",
     "rule_en": "Use complex noun phrases to add detail and precision to a noun by attaching modifiers, prepositional phrases, or relative clauses.",
     "common_error": "❌ *the rise of reconstituted families* is increasing.  →  ✅ *The rise of reconstituted families* is increasing.",
     "in_context": [
@@ -886,6 +886,37 @@
           "answer": "fragmentation"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Các thành phần mô tả thường đứng trước danh từ (adj, noun adjunct) hoặc sau danh từ (prepositional phrase, relative clause).",
+        "examples": [
+          "❌ The dissolution rapid of values → ✅ The rapid dissolution of values"
+        ]
+      },
+      {
+        "text": "Cụm phân từ (participle phrase) có thể dùng sau danh từ để tạo nghĩa “được …” một cách ngắn gọn.",
+        "examples": [
+          "❌ Families reconstituted after divorce are many → ✅ Reconstituted families after divorce are many"
+        ]
+      },
+      {
+        "text": "Dùng appositive (cụm danh từ bổ sung) để cung cấp thông tin giải thích thêm, thường đặt giữa dấu phẩy.",
+        "examples": [
+          "❌ The nuclear family, a unit of parents and children, ... → ✅ The nuclear family, a unit consisting of parents and children, ..."
+        ]
+      },
+      {
+        "text": "Trong văn học thuật, cụm danh từ phức tạp thường xuất hiện; tuy nhiên, không nên nhồi nhét quá nhiều thành phần vào một danh từ để tránh gây rối cho người đọc.",
+        "examples": [
+          "✅ Complex noun phrases are common in academic essays."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khái niệm gia đình hạt nhân — hai cha mẹ và con cái của họ sống trong một hộ gia đình duy nhất — đã từ lâu được coi là đơn vị xã hội chủ đạo ở nhiều xã hội phương Tây.",
+      "Sự xuất hiện của các gia đình tái cấu trúc — các hộ gia đình hình thành khi các phụ huynh đã ly hôn tạo nên các mối quan hệ mới — đòi hỏi mọi thành viên phải điều chỉnh các thỏa thuận nuôi con một cách nhạy cảm và kiên nhẫn.",
+      "Mạng lưới quan hệ huyết thống mạnh mẽ — sinh học hoặc được lựa chọn — mang lại sự kiên cường và hỗ trợ bất kể cấu trúc chính thức của chúng."
+    ]
   }
 }

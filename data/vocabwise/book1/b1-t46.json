@@ -880,10 +880,22 @@
       ]
     },
     "usage_notes": [
-      "Đại từ phản thân thường được sử dụng trong câu để tránh lặp lại danh từ hoặc đại từ, giúp câu trở nên ngắn gọn và rõ ràng hơn.",
-      "Vị trí của đại từ phản thân trong câu thường là sau động từ, nhưng cũng có thể được đặt ở đầu hoặc giữa câu để nhấn mạnh.",
-      "Đại từ phản thân có thể được sử dụng trong cả câu khẳng định và câu phủ định, nhưng cần lưu ý đến vị trí và chức năng của chúng trong câu.",
-      "Một điểm cần lưu ý là đại từ phản thân không được sử dụng như một chủ ngữ, mà chỉ được sử dụng như một tân ngữ hoặc một bổ ngữ."
+      {
+        "text": "Đại từ phản thân thường được sử dụng trong câu để tránh lặp lại danh từ hoặc đại từ, giúp câu trở nên ngắn gọn và rõ ràng hơn.",
+        "examples": []
+      },
+      {
+        "text": "Vị trí của đại từ phản thân trong câu thường là sau động từ, nhưng cũng có thể được đặt ở đầu hoặc giữa câu để nhấn mạnh.",
+        "examples": []
+      },
+      {
+        "text": "Đại từ phản thân có thể được sử dụng trong cả câu khẳng định và câu phủ định, nhưng cần lưu ý đến vị trí và chức năng của chúng trong câu.",
+        "examples": []
+      },
+      {
+        "text": "Một điểm cần lưu ý là đại từ phản thân không được sử dụng như một chủ ngữ, mà chỉ được sử dụng như một tân ngữ hoặc một bổ ngữ.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Tôi luôn sử dụng một danh sách kiểm tra để đảm bảo rằng tôi không quên gì myself.",

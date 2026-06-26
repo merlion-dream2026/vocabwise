@@ -680,7 +680,7 @@
       "positive": "Were + Subject + to + BaseVerb, ...  |  Had + Subject + PastParticiple, ...  |  Should + Subject + BaseVerb, ...",
       "variant": "Negative inversion: Were + Subject + not to + BaseVerb, ...  |  Had + Subject + not + PastParticiple, ..."
     },
-    "rule_vi": "Dùng đảo ngữ trong câu điều kiện để nhấn mạnh tính giả định, thường thay thế cấu trúc 'if' khi muốn diễn đạt trang trọng.",
+    "rule_vi": "Đảo ngữ trong câu điều kiện là cách đặt trợ động từ hoặc động từ khiếm khuyết lên đầu mệnh đề, thay cho ‘if’, để tạo tính trang trọng và nhấn mạnh tính giả định. Nó được dùng cho các câu điều kiện loại 2 (hiện tại không thực) và loại 3 (quá khứ không thực), cũng như khi muốn nhấn mạnh khả năng hoặc yêu cầu. Cấu trúc gồm: Were + chủ ngữ + to + động từ nguyên thể; Had + chủ ngữ + past participle (hoặc had + chủ ngữ + động từ ở dạng quá khứ hoàn thành); Should + chủ ngữ + động từ nguyên thể. Khi đảo ngữ, mệnh đề chính giữ nguyên vị trí sau chủ ngữ, không kèm ‘if’.",
     "rule_en": "Use conditional inversion to replace 'if' clauses for a more formal, hypothetical expression.",
     "common_error": "❌ *If* he were to invest, the company would profit.  →  ✅ Were he to invest, the company would profit.",
     "in_context": [
@@ -834,6 +834,38 @@
           "answer": "Should"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong đảo ngữ, trợ động từ hoặc modal verb phải đứng đầu mệnh đề, không được dùng cùng ‘if’.",
+        "examples": [
+          "❌ If were societies to act decisively → ✅ Were societies to act decisively"
+        ]
+      },
+      {
+        "text": "Đảo ngữ tạo phong cách trang trọng, thích hợp cho văn viết học thuật, ít dùng trong giao tiếp hàng ngày.",
+        "examples": [
+          "✅ Had the committee approved the proposal, the project would start next month."
+        ]
+      },
+      {
+        "text": "Khi dùng ‘should’ để đảo ngữ, câu mang nghĩa đề nghị lịch sự hoặc điều kiện trong tương lai, khác với ‘if’ thường mang tính giả định.",
+        "examples": [
+          "✅ Should you need assistance, call the desk.",
+          "❌ If should you need assistance → ❌ Should you need assistance, call the desk."
+        ]
+      },
+      {
+        "text": "Sau ‘had’, động từ phải ở dạng quá khứ hoàn thành; nếu dùng dạng đơn giản sẽ gây lỗi ngữ pháp.",
+        "examples": [
+          "❌ Had the scientists discovered the virus, they will… → ✅ Had the scientists discovered the virus, they would have…"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu các xã hội hành động quyết đoán, các hậu quả dây chuyền đối với chất lượng không khí và nguồn nước có thể được giảm thiểu.",
+      "Nếu các nhà hoạch định chính sách đã thực hiện các chiến lược giảm thiểu sớm hơn, điểm nóng khí hậu có thể đã được tránh.",
+      "Nếu các doanh nghiệp cam kết bảo vệ môi trường, họ không chỉ bảo tồn thiên nhiên mà còn bảo vệ sức khỏe con người."
+    ]
   }
 }

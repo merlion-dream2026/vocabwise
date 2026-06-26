@@ -676,7 +676,7 @@
       "question": "Did Subject reporting verb ... ?",
       "variant": "Subject + reporting verb + to + infinitive"
     },
-    "rule_vi": "Dùng các động từ này để truyền đạt quan điểm, thừa nhận hoặc phản bác thông tin trong câu báo cáo.",
+    "rule_vi": "Các động từ truyền đạt thể hiện lập trường (acknowledge, concede, assert, dispute) dùng để báo cáo quan điểm, thừa nhận hoặc phản bác thông tin. Chúng thường đứng trước một mệnh đề danh từ (that‑clause) hoặc một danh từ/đối tượng trực tiếp. Trong văn viết học thuật, các động từ này mang tính trang trọng và thể hiện mức độ chắc chắn hoặc thái độ khác nhau của người nói. Khi dùng, cần chú ý thời gian của động từ chính để phản ánh thời gian của lời nói gốc (present cho sự thật chung, past cho lời nói đã được đưa ra).",
     "rule_en": "Use these reporting verbs to convey stance or attitude toward a proposition.",
     "common_error": "❌ The researcher concedes that the data is unreliable.  →  ✅ The researcher concedes that the data are unreliable.",
     "in_context": [
@@ -830,6 +830,37 @@
           "answer": "claim"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Động từ này thường đi kèm với mệnh đề that‑clause; ‘that’ có thể bỏ qua trong văn viết trang trọng nhưng không được bỏ trong câu phức tạp.",
+        "examples": [
+          "❌ Scholars acknowledge the unchecked amplification... → ✅ Scholars acknowledge that the unchecked amplification..."
+        ]
+      },
+      {
+        "text": "Khi báo cáo lời nói đã được đưa ra trước đó, động từ thường chia ở quá khứ; nếu nội dung vẫn còn đúng, có thể dùng hiện tại.",
+        "examples": [
+          "❌ Scholars acknowledged that the algorithms amplify... → ✅ Scholars acknowledge that the algorithms amplify..."
+        ]
+      },
+      {
+        "text": "Các động từ này thuộc ngôn ngữ học thuật, không nên thay bằng các từ thông tục như ‘say’ hay ‘think’ trong văn viết chính thức.",
+        "examples": [
+          "❌ They say that the media is biased. → ✅ They assert that the media is biased."
+        ]
+      },
+      {
+        "text": "Không được theo sau các động từ này bằng dạng nguyên mẫu (to verb) hoặc gerund; cần dùng danh từ hoặc mệnh đề.",
+        "examples": [
+          "❌ Scholars acknowledge to the fact... → ✅ Scholars acknowledge the fact..."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các học giả thừa nhận rằng việc khuếch đại không kiểm soát các câu chuyện sai lệch bởi các thuật toán mạng xã hội đã khiến công dân ngày càng khó phân biệt các bản tin đáng tin cậy.",
+      "Một số nhà phân tích khẳng định rằng các thực hành định hướng chương trình của các tổ chức truyền thông quyền lực làm méo mó nhận thức công chúng.",
+      "Các nhà phê bình tranh cãi quan điểm cho rằng các công cụ đề xuất chỉ đẩy người dùng vào các buồng vang."
+    ]
   }
 }

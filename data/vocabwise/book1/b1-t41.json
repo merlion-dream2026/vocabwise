@@ -876,10 +876,22 @@
       ]
     },
     "usage_notes": [
-      "Khi sử dụng câu mệnh lệnh, cần lưu ý đến vị trí của các từ chỉ mức độ, như 'carefully', 'quickly', thường được đặt sau động từ chính.",
-      "Câu mệnh lệnh thường được sử dụng trong văn bản hướng dẫn, công thức nấu ăn, và các tài liệu kỹ thuật, nơi người đọc cần thực hiện các hành động cụ thể.",
-      "Người học tiếng Anh thường nhầm lẫn giữa câu mệnh lệnh và câu khai báo, dẫn đến sử dụng sai cấu trúc câu.",
-      "Câu mệnh lệnh trong tiếng Anh khác với tiếng Việt, nơi chủ ngữ thường được giữ lại, vì vậy người học cần lưu ý đến sự khác biệt này khi sử dụng câu mệnh lệnh."
+      {
+        "text": "Khi sử dụng câu mệnh lệnh, cần lưu ý đến vị trí của các từ chỉ mức độ, như 'carefully', 'quickly', thường được đặt sau động từ chính.",
+        "examples": []
+      },
+      {
+        "text": "Câu mệnh lệnh thường được sử dụng trong văn bản hướng dẫn, công thức nấu ăn, và các tài liệu kỹ thuật, nơi người đọc cần thực hiện các hành động cụ thể.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu mệnh lệnh và câu khai báo, dẫn đến sử dụng sai cấu trúc câu.",
+        "examples": []
+      },
+      {
+        "text": "Câu mệnh lệnh trong tiếng Anh khác với tiếng Việt, nơi chủ ngữ thường được giữ lại, vì vậy người học cần lưu ý đến sự khác biệt này khi sử dụng câu mệnh lệnh.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Hãy đảm bảo bạn có tất cả các dụng cụ nấu ăn đúng, như dao và chảo.",

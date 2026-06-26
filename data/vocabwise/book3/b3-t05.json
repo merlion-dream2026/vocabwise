@@ -674,7 +674,7 @@
       "question": "Is it + [focused element] + that + [subject + verb + ...]?",
       "variant": "What + [subject + verb + ...] + is + [focused element]"
     },
-    "rule_vi": "Dùng câu chẻ để nhấn mạnh một thành phần trong câu, thường dùng cấu trúc It is/was … that … hoặc What … is ….",
+    "rule_vi": "Câu chẻ (cleft sentence) là cấu trúc dùng để nhấn mạnh một thành phần trong câu bằng cách tách nó ra thành một mệnh đề phụ. Hai dạng phổ biến là It is/was … that … và What … is …, trong đó thành phần muốn nhấn mạnh đứng sau it is/was hoặc trong what. Cấu trúc It is … that … yêu cầu phần nhấn mạnh ngay sau it is, còn mệnh đề that … chứa phần còn lại của câu gốc; What … is … đặt phần nhấn mạnh trong what và phần còn lại sau is. Câu chẻ thường xuất hiện trong văn viết trang trọng, khi cần làm rõ hoặc nhấn mạnh thông tin mà không thay đổi thời gian hay chủ ngữ của mệnh đề gốc.",
     "rule_en": "Use cleft sentences to highlight a particular part of a clause, typically with the structures It is/was … that … or What … is ….",
     "common_error": "❌ It is the patriarchy have reinforced these structures.  →  ✅ It is the patriarchy that has reinforced these structures.",
     "in_context": [
@@ -827,6 +827,38 @@
           "answer": "What"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thành phần muốn nhấn mạnh phải đứng ngay sau ‘it is/was’; nếu đặt sai vị trí câu sẽ mất tính nhấn mạnh.",
+        "examples": [
+          "❌ It is that the patriarchy reinforced these structures → ✅ It is the patriarchy that reinforced these structures"
+        ]
+      },
+      {
+        "text": "Trong cấu trúc It is … that …, mệnh đề ‘that …’ không được lược bỏ; nếu bỏ ‘that’ nghĩa câu sẽ thay đổi.",
+        "examples": [
+          "❌ It is the patriarchy reinforced these structures → ✅ It is the patriarchy that reinforced these structures"
+        ]
+      },
+      {
+        "text": "Câu chẻ mang tính trang trọng; trong giao tiếp thông thường người nói thường dùng câu đơn giản hơn.",
+        "examples": [
+          "✅ It is the patriarchy that reinforced these structures (formal)",
+          "✅ The patriarchy has long reinforced these structures (informal)"
+        ]
+      },
+      {
+        "text": "‘What … is …’ chỉ thay thế cho một cụm danh từ, không thể dùng để nhấn mạnh một mệnh đề đầy đủ như ‘the thing that …’",
+        "examples": [
+          "❌ What the patriarchy is that reinforced these structures → ✅ What needs to be addressed is unconscious bias"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Chính là chế độ gia trưởng đã lâu ngày củng cố những cấu trúc này, tạo ra các rào cản hạn chế cơ hội cho phụ nữ và người thuộc các nhóm giới tính thiểu số.",
+      "Điều cần được giải quyết là định kiến tiềm thức, vốn ảnh hưởng đến quyết định tuyển dụng, đàm phán lương và đánh giá học thuật.",
+      "Chính khả năng trao quyền cho các nhóm bị thiệt thòi mới quyết định liệu xã hội có thể tiến tới bình đẳng thực sự hay không."
+    ]
   }
 }

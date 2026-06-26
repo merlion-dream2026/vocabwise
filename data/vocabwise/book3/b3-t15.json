@@ -738,7 +738,7 @@
       "positive": "MainClause , Subordinator DependentClause",
       "variant": "Subordinator can be provided that / as long as / unless / on condition that"
     },
-    "rule_vi": "Dùng các mệnh đề phụ để diễn tả một điều kiện cần thiết hoặc đủ cho hành động trong mệnh đề chính.",
+    "rule_vi": "Mệnh đề phụ chỉ điều kiện (provided that, as long as, unless, on condition that) dùng để diễn tả một điều kiện cần thiết hoặc đủ cho hành động trong mệnh đề chính. Các liên từ này giới thiệu một mệnh đề phụ, thường ở thì hiện tại đơn để nói về tương lai, và không dùng will trong mệnh đề phụ. Khi mệnh đề phụ đứng sau mệnh đề chính, thường đặt dấu phẩy trước; khi đứng trước, không cần dấu phẩy. \"Provided that\" và \"on condition that\" mang tính trang trọng, \"as long as\" nhấn mạnh đủ điều kiện, còn \"unless\" biểu thị điều kiện phủ định (nếu không).",
     "rule_en": "Use conditional adverbial clauses to state a condition that must be met for the main clause to happen.",
     "common_error": "❌ *Unless* you study hard, you will fail.  →  ✅ *Unless* you study hard, you will not succeed.",
     "in_context": [
@@ -900,6 +900,37 @@
           "answer": "provided that"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí của mệnh đề điều kiện: có thể đứng trước hoặc sau mệnh đề chính; nếu sau, thường dùng dấu phẩy.",
+        "examples": [
+          "❌ You can leave provided that you finish your work → ✅ You can leave, provided that you finish your work."
+        ]
+      },
+      {
+        "text": "\"Provided that\" và \"on condition that\" dùng trong ngữ cảnh trang trọng, viết văn hoặc thảo luận chuyên môn.",
+        "examples": [
+          "✅ The grant will be approved, on condition that the project meets the criteria."
+        ]
+      },
+      {
+        "text": "\"Unless\" mang nghĩa \"nếu không\"; không được dùng cùng một phủ định khác trong cùng câu.",
+        "examples": [
+          "❌ Unless you don't study, you will fail → ✅ Unless you study, you will fail."
+        ]
+      },
+      {
+        "text": "Trong mệnh đề phụ không dùng \"will\" để chỉ tương lai; dùng hiện tại đơn thay thế.",
+        "examples": [
+          "❌ I will help you, provided that you will ask → ✅ I will help you, provided that you ask."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Não người, trên hết, là một cỗ máy tìm kiếm quy luật, với điều kiện nó nhận được sự kích thích đều đặn.",
+      "Việc phá vỡ các thói quen tiêu cực là khả thi, miễn là bạn thay thế tín hiệu bằng một thói quen lành mạnh hơn.",
+      "Các chuyên gia nhấn mạnh việc tái cấu trúc môi trường, trừ khi bạn chỉ dựa vào ý chí."
+    ]
   }
 }

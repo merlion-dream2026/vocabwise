@@ -733,7 +733,7 @@
       "positive": "MainClause , (who/which/whose/whom) + Verb + …   OR   MainClause , Verb‑ing (+ object) …",
       "variant": "Reduced relative with past participle: MainClause , past‑participle (+ object) …"
     },
-    "rule_vi": "Dùng mệnh đề quan hệ không xác định để bổ sung thông tin thêm, thường ngăn cách bằng dấu phẩy; có thể rút gọn bằng dạng V‑ing hoặc V‑en.",
+    "rule_vi": "Mệnh đề quan hệ không xác định (non‑defining relative clause) dùng để bổ sung thông tin phụ cho danh từ, thông tin này không cần thiết để xác định danh từ đó, vì vậy mệnh đề luôn được ngăn cách bằng dấu phẩy. Cấu trúc cơ bản là: danh từ + who/which/whose + động từ (hoặc các thành phần khác), và đại từ quan hệ không được lược bỏ. Khi muốn diễn đạt ngắn gọn, mệnh đề có thể được rút gọn thành dạng V‑ing (cho nghĩa chủ động) hoặc V‑en (cho nghĩa bị động), trong đó đại từ quan hệ và động từ “to be” bị bỏ đi. Rút gọn chỉ được dùng khi chủ ngữ của mệnh đề quan hệ giống với chủ ngữ của câu chính và không có vị trí của tân ngữ hoặc trạng từ yêu cầu giới từ đứng trước đại từ quan hệ.",
     "rule_en": "Use non‑defining relative clauses to add extra information, set off by commas; they can be reduced to a participle phrase.",
     "common_error": "❌ The digital divide which remains a persistent inequality.  →  ✅ The digital divide, which remains a persistent inequality, ...",
     "in_context": [
@@ -889,6 +889,37 @@
           "answer": "having"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề không xác định luôn phải được đặt sau danh từ mà nó bổ sung và được bao quanh bởi dấu phẩy.",
+        "examples": [
+          "❌ The bridge which was built in 1990 is famous → ✅ The bridge, which was built in 1990, is famous"
+        ]
+      },
+      {
+        "text": "Trong mệnh đề không xác định không được dùng ‘that’; chỉ dùng ‘who’, ‘which’, ‘whose’, ‘where’, ‘when’.",
+        "examples": [
+          "❌ The city that we visited is beautiful → ✅ The city, which we visited, is beautiful"
+        ]
+      },
+      {
+        "text": "Rút gọn thành V‑ing chỉ được dùng khi đại từ quan hệ là chủ ngữ của mệnh đề và có nghĩa chủ động; nếu là tân ngữ hoặc vị trí của giới từ, không thể rút gọn.",
+        "examples": [
+          "❌ The people who we met were friendly → ✅ The people we met were friendly (object, no reduction) ; ✅ The people meeting us were friendly (active reduction, different meaning)"
+        ]
+      },
+      {
+        "text": "Rút gọn thành V‑en (bị động) dùng khi đại từ quan hệ là tân ngữ của động từ và muốn nhấn mạnh trạng thái bị động.",
+        "examples": [
+          "✅ The documents, signed by the manager, were filed → The documents signed by the manager were filed"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các nhà hoạch định chính sách và các tổ chức phi chính phủ đều nỗ lực thu hẹp khoảng cách kỹ thuật số, một bất bình đẳng vẫn còn dai dẳng.",
+      "Việc chấp nhận nhanh chóng các điện thoại thông minh, dịch vụ đám mây và các thiết bị kết nối đã tạo ra một sự hội tụ sâu sắc giữa công việc, giải trí và giao tiếp, hiện đang diễn ra trong một giao diện duy nhất.",
+      "Các chính phủ phải tăng tốc độ áp dụng công nghệ ở các khu vực chưa được phục vụ, đồng thời thúc đẩy việc bao gồm kỹ thuật số cho các cộng đồng thiểu số."
+    ]
   }
 }

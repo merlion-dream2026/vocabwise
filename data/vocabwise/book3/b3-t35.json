@@ -667,7 +667,7 @@
       "positive": "Noun (or noun phrase) + — + Appositive phrase (noun phrase)",
       "variant": "Noun, which/that is + noun phrase"
     },
-    "rule_vi": "Đồng vị ngữ được dùng để bổ nghĩa cho danh từ, thường đặt sau danh từ và tách bằng dấu – hoặc dấu phẩy.",
+    "rule_vi": "Đồng vị ngữ là một cụm danh từ (hoặc danh từ) được đặt ngay sau một danh từ khác để giải thích, bổ sung hoặc định danh lại nó. Nó thường được ngăn cách bằng dấu phẩy (đối với thông tin không thiết yếu) hoặc dấu gạch ngang (đối với thông tin nhấn mạnh). Cấu trúc cơ bản: danh từ + (dấu phẩy / dấu gạch ngang) + đồng vị ngữ. Đồng vị ngữ có thể là một danh từ, cụm danh từ, hoặc một mệnh đề danh từ, và thường xuất hiện trong văn viết trang trọng, học thuật.",
     "rule_en": "Apposition is used to add explanatory information to a noun, usually placed after the noun and set off by dashes or commas.",
     "common_error": "❌ The concept of cognition which refers to mental processes is complex.  →  ✅ The concept of cognition, which refers to mental processes, is complex.",
     "in_context": [
@@ -836,6 +836,39 @@
           "answer": "the practice"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng dấu phẩy khi đồng vị ngữ cung cấp thông tin phụ, không thay đổi nghĩa cơ bản của câu; dùng dấu gạch ngang để nhấn mạnh hoặc giải thích thêm.",
+        "examples": [
+          "❌ The CEO, a former teacher, announced the new policy → ✅ The CEO, a former teacher, announced the new policy.",
+          "✅ The CEO — a former teacher — announced the new policy."
+        ]
+      },
+      {
+        "text": "Đồng vị ngữ phải đứng ngay sau danh từ mà nó bổ nghĩa; nếu đặt xa hơn, câu sẽ mất tính liên kết và gây hiểu lầm.",
+        "examples": [
+          "❌ The project, which was delayed, the new software, finally launched → ✅ The project — the new software — finally launched."
+        ]
+      },
+      {
+        "text": "Trong ngữ cảnh trang trọng, đồng vị ngữ thường dùng để cung cấp thông tin chuyên môn; trong giao tiếp thông thường người học thường thay bằng \"that is\" hoặc \"i.e.\".",
+        "examples": [
+          "✅ The treaty, an agreement between nations, was signed yesterday.",
+          "✅ The treaty, i.e., an agreement between nations, was signed yesterday."
+        ]
+      },
+      {
+        "text": "Đồng vị ngữ không được là một mệnh đề động từ độc lập; nếu muốn dùng mệnh đề, phải chuyển thành danh từ hoặc cụm danh từ.",
+        "examples": [
+          "❌ The manager, who leads the team, decided to resign → ✅ The manager — the team leader — decided to resign."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Lịch sử công nghệ phần lớn là lịch sử của sự gián đoạn — quá trình mà những ý tưởng mới thay thế các hệ thống hiện có và khiến các giải pháp trước đây trở nên lỗi thời.",
+      "Trung tâm của quá trình đổi mới là việc phát triển một nguyên mẫu — một mô hình làm việc sớm cho phép các kỹ sư và nhà thiết kế kiểm tra giả định trước khi cam kết nguồn lực cho sản xuất toàn diện.",
+      "Việc lặp lại hiệu quả, thực hành tinh chỉnh sản phẩm qua các vòng thử nghiệm và phản hồi, là yếu tố phân biệt các dự án thành công với những dự án sụp đổ ngay khi tiếp xúc với người dùng thực."
+    ]
   }
 }

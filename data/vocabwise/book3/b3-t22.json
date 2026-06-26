@@ -670,7 +670,7 @@
       "question": "Be + Object + ... ?",
       "variant": "Passive with modal verbs (might have been, will have been, is being, etc.)"
     },
-    "rule_vi": "Dùng bị động khi muốn nhấn mạnh hành động hoặc khi người thực hiện không quan trọng hoặc không biết.",
+    "rule_vi": "Câu bị động được dùng để nhấn mạnh hành động hoặc khi người thực hiện không quan trọng, không biết hoặc muốn tránh nhắc tới. Cấu trúc cơ bản là ‘to be’ chia theo thì + quá khứ phân từ (past participle) của động từ chính; thì và dạng của ‘to be’ quyết định thời gian của câu bị động. Đối với các thì tiếp diễn, hoàn thành và tương lai, ta dùng các dạng ‘is being’, ‘has been’, ‘will have been’,…; khi có động từ khiếm khuyết, dạng ‘might have been’, ‘must have been’… được dùng. Thành phần thực hiện (agent) có thể được bỏ qua hoặc giới thiệu bằng ‘by …’, tùy vào mức độ cần thiết và tính trang trọng.",
     "rule_en": "Use the passive to focus on the action/result rather than the doer.",
     "common_error": "❌ The results is being published tomorrow. → ✅ The results are being published tomorrow.",
     "in_context": [
@@ -823,6 +823,39 @@
           "answer": "is being"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thì của ‘to be’ phải khớp với thời gian muốn diễn tả; quá khứ phân từ không thay đổi.",
+        "examples": [
+          "❌ The report wrote → ✅ The report was written",
+          "❌ They will finish the project → ✅ The project will be finished"
+        ]
+      },
+      {
+        "text": "Thì hiện tại tiếp diễn bị động dùng ‘is/are being’ để nhấn mạnh hành động đang diễn ra.",
+        "examples": [
+          "❌ The data analyzes → ✅ The data is being analyzed"
+        ]
+      },
+      {
+        "text": "Thì tương lai hoàn thành bị động dùng ‘will have been’ để chỉ hành động sẽ hoàn tất trước một thời điểm trong tương lai.",
+        "examples": [
+          "❌ The decision will complete → ✅ The decision will have been completed"
+        ]
+      },
+      {
+        "text": "Khi dùng động từ khiếm khuyết trong dạng hoàn thành bị động, cấu trúc là ‘modal + have been + past participle’; nó biểu thị khả năng, dự đoán hoặc nghĩa vụ trong quá khứ.",
+        "examples": [
+          "❌ The results might misinterpret → ✅ The results might have been misinterpreted",
+          "❌ He must finish the report → ✅ He must have been finished the report (formal contexts)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Trí tuệ nhân tạo được nhúng vào các hệ thống đề xuất những gì chúng ta xem, quyết định ai nhận được khoản vay, và xác định những ứng viên nào tiến tới vòng phỏng vấn.",
+      "Khi kết quả không công bằng, trách nhiệm giải trình sẽ đã bị suy giảm do tính mờ ám của các hệ thống.",
+      "Nếu thiên lệch không được giải quyết, một số nhóm có thể đã bị các dự đoán của AI bất lợi một cách không cân xứng."
+    ]
   }
 }

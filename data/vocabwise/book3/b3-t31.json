@@ -686,7 +686,7 @@
     "form": {
       "positive": "Clause1, [connector] Clause2."
     },
-    "rule_vi": "Các liên từ logic (thus, hence, consequently, nevertheless, by contrast) dùng để nối hai mệnh đề, thể hiện quan hệ nguyên nhân‑kết quả, đối lập hoặc so sánh.",
+    "rule_vi": "Liên từ logic (thus, hence, consequently, nevertheless, by contrast) là các từ nối dùng để liên kết hai mệnh đề độc lập, thể hiện quan hệ nguyên nhân‑kết quả, nhượng bộ hoặc tương phản. Chúng thường đứng ở đầu mệnh đề thứ hai và được ngăn cách bằng dấu chấm phẩy hoặc dấu chấm, sau đó là dấu phẩy. Các liên từ này mang tính trang trọng, thích hợp cho văn viết học thuật hoặc báo chí. Khi dùng, cần chú ý rằng each connector introduces a specific logical relation, not merely a filler.",
     "rule_en": "Logical connectors such as thus, hence, consequently, nevertheless, and by contrast link clauses to show cause‑effect, contrast or comparison.",
     "common_error": "❌ She studied hard, thus she will fail the exam.  →  ✅ She studied hard, thus she passed the exam.",
     "in_context": [
@@ -839,6 +839,37 @@
           "answer": "hence"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Liên từ logic luôn nối hai câu độc lập; trước chúng cần dùng dấu chấm phẩy (;) hoặc dấu chấm (.) và sau chúng thường có dấu phẩy.",
+        "examples": [
+          "❌ He was late thus he missed the bus. → ✅ He was late; thus, he missed the bus."
+        ]
+      },
+      {
+        "text": "\"Hence\" thường theo sau một câu khẳng định và đưa ra kết quả, thường được đặt ở đầu mệnh đề mới với dấu phẩy.",
+        "examples": [
+          "✅ The data were inconclusive; hence, we will conduct further tests."
+        ]
+      },
+      {
+        "text": "\"Nevertheless\" biểu thị sự nhượng bộ; nó có thể đứng đầu câu mới sau dấu chấm hoặc sau dấu chấm phẩy, và thường đi kèm dấu phẩy.",
+        "examples": [
+          "✅ She warned about the risks. Nevertheless, he proceeded anyway."
+        ]
+      },
+      {
+        "text": "\"By contrast\" dùng để so sánh đối lập; thường xuất hiện ở đầu mệnh đề so sánh và theo sau là dấu phẩy.",
+        "examples": [
+          "✅ The city is bustling; by contrast, the countryside remains tranquil."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự căng thẳng giữa chủ nghĩa duy lý và chủ nghĩa kinh nghiệm đã định hình triết học phương Tây trong nhiều thế kỷ; ngược lại, các nhà duy lý cho rằng lý trí là nguồn tri thức chính yếu.",
+      "Tư duy phản biện đòi hỏi chúng ta phải tham gia lý luận phê phán thay vì chấp nhận các tuyên bố một cách nguyên thủy; tuy nhiên, nhiều người vẫn làm như vậy.",
+      "Tính hợp lệ của một lập luận không phụ thuộc vào việc các tiền đề có đúng hay không, mà phụ thuộc vào việc kết luận có logic theo chúng hay không; do đó, chúng ta phải đánh giá cấu trúc logic."
+    ]
   }
 }

@@ -676,7 +676,7 @@
       "positive": "Subject + Verb + AbstractNoun + (preposition) + Noun",
       "variant": "AbstractNoun + of/for/in + Noun"
     },
-    "rule_vi": "Danh từ trừu tượng thường đi kèm với giới từ (of, for, in) để chỉ đối tượng hoặc lĩnh vực mà chúng mô tả.",
+    "rule_vi": "Danh từ trừu tượng (abstract nouns) thường được dùng trong các cấu trúc danh từ ghép để diễn tả khái niệm, hiện tượng hoặc chính sách. Chúng thường đi kèm với giới từ như of, for, in để chỉ đối tượng, mục đích hoặc lĩnh vực mà khái niệm đề cập. Khi dùng trong câu, danh từ trừu tượng thường xuất hiện ở vị trí chủ ngữ hoặc bổ ngữ và mang tính trang trọng, không cần mạo từ khi nói chung. Đối với các danh từ trừu tượng có thể được bổ nghĩa bằng tính từ hoặc cụm danh từ để làm rõ phạm vi hoặc tính chất.",
     "rule_en": "Abstract nouns are commonly collocated with a preposition (of, for, in) to specify the domain they refer to.",
     "common_error": "❌ The economic growth of the country are impressive.  →  ✅ The economic growth of the country is impressive.",
     "in_context": [
@@ -827,6 +827,41 @@
           "answer": "budget deficit"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng giới từ **of** để chỉ đối tượng hoặc lĩnh vực mà danh từ trừu tượng mô tả.",
+        "examples": [
+          "❌ *The growth of the economy* → ✅ *Economic growth*",
+          "✅ *The impact of inflation on purchasing power*"
+        ]
+      },
+      {
+        "text": "Dùng giới từ **for** để diễn tả mục đích, lợi ích hoặc người hưởng lợi của khái niệm.",
+        "examples": [
+          "✅ *Policy for economic stability*",
+          "❌ *Policy of economic stability* → ✅ *Policy for economic stability*"
+        ]
+      },
+      {
+        "text": "Dùng giới từ **in** để chỉ bối cảnh, lĩnh vực hoặc thời gian mà khái niệm xảy ra.",
+        "examples": [
+          "✅ *Growth in the manufacturing sector*",
+          "❌ *Growth on the manufacturing sector* → ✅ *Growth in the manufacturing sector*"
+        ]
+      },
+      {
+        "text": "Trong tiếng Anh, danh từ trừu tượng chung không cần mạo từ **the**; chỉ dùng **the** khi nói đến một hiện tượng cụ thể đã được xác định.",
+        "examples": [
+          "✅ *Economic growth is essential*",
+          "❌ *The economic growth is essential* → ✅ *Economic growth is essential*"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các ngân hàng trung ương phản ứng bằng cách thắt chặt chính sách tiền tệ — tăng lãi suất để làm chậm việc vay và chi tiêu.",
+      "Chính phủ cũng sử dụng các công cụ tài khóa — thuế và chi tiêu công — để điều hướng nền kinh tế.",
+      "Các nhà kinh tế nói về cân bằng thị trường như là điểm mà cung gặp cầu ở mức giá ổn định."
+    ]
   }
 }

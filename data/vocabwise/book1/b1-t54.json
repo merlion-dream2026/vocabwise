@@ -824,10 +824,22 @@
       ]
     },
     "usage_notes": [
-      "Lưu ý rằng mệnh đề thời gian thường được sử dụng để chỉ thời gian xảy ra của một hành động, nhưng không nhất thiết phải chỉ thời gian chính xác.",
-      "Khi sử dụng mệnh đề thời gian, cần chú ý đến vị trí của nó trong câu, vì nó có thể ảnh hưởng đến ý nghĩa của câu.",
-      "Mệnh đề thời gian có thể được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng cần chọn từ vựng và cấu trúc phù hợp với ngữ cảnh.",
-      "Người học tiếng Anh thường nhầm lẫn giữa các từ như when, while, và as, vì vậy cần lưu ý đến ý nghĩa và cách sử dụng của từng từ."
+      {
+        "text": "Lưu ý rằng mệnh đề thời gian thường được sử dụng để chỉ thời gian xảy ra của một hành động, nhưng không nhất thiết phải chỉ thời gian chính xác.",
+        "examples": []
+      },
+      {
+        "text": "Khi sử dụng mệnh đề thời gian, cần chú ý đến vị trí của nó trong câu, vì nó có thể ảnh hưởng đến ý nghĩa của câu.",
+        "examples": []
+      },
+      {
+        "text": "Mệnh đề thời gian có thể được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng cần chọn từ vựng và cấu trúc phù hợp với ngữ cảnh.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Anh thường nhầm lẫn giữa các từ như when, while, và as, vì vậy cần lưu ý đến ý nghĩa và cách sử dụng của từng từ.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Sau khi đọc, chúng tôi kể lại câu chuyện cho một người bạn.",

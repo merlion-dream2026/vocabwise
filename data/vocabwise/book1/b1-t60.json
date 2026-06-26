@@ -880,10 +880,22 @@
       ]
     },
     "usage_notes": [
-      "Khi tạo câu hỏi Yes/No, cần lưu ý vị trí của trợ động từ và chủ ngữ để tránh nhầm lẫn với câu khẳng định.",
-      "Câu hỏi Wh- thường được sử dụng trong các tình huống hoặc không, nhưng từ hỏi và cấu trúc câu cần được chọn phù hợp với ngữ cảnh.",
-      "Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Yes/No và Wh- khi sử dụng từ hỏi 'what' để hỏi thông tin chi tiết.",
-      "Câu hỏi Yes/No và Wh- trong tiếng Anh khác với tiếng Việt ở vị trí của trợ động từ và chủ ngữ, cũng như sự sử dụng từ hỏi."
+      {
+        "text": "Khi tạo câu hỏi Yes/No, cần lưu ý vị trí của trợ động từ và chủ ngữ để tránh nhầm lẫn với câu khẳng định.",
+        "examples": []
+      },
+      {
+        "text": "Câu hỏi Wh- thường được sử dụng trong các tình huống hoặc không, nhưng từ hỏi và cấu trúc câu cần được chọn phù hợp với ngữ cảnh.",
+        "examples": []
+      },
+      {
+        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Yes/No và Wh- khi sử dụng từ hỏi 'what' để hỏi thông tin chi tiết.",
+        "examples": []
+      },
+      {
+        "text": "Câu hỏi Yes/No và Wh- trong tiếng Anh khác với tiếng Việt ở vị trí của trợ động từ và chủ ngữ, cũng như sự sử dụng từ hỏi.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Mai nói: 'Tên của bạn là gì?'",

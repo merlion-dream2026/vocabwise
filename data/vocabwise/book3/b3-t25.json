@@ -685,7 +685,7 @@
       "negative": "Subject + can't have + past participle",
       "variant": "Subject + might have + past participle"
     },
-    "rule_vi": "Dùng must have để suy luận chắc chắn, can't have để phủ định mạnh, và might have để đưa ra khả năng trong quá khứ.",
+    "rule_vi": "Động từ khuyết thiếu suy luận về quá khứ (must have, can’t have, might have) dùng để đưa ra kết luận, phủ định hoặc khả năng về một hành động đã xảy ra trong quá khứ. Cấu trúc luôn là: modal verb + have + past participle. Must have biểu thị suy luận chắc chắn; can’t have (cannot have) biểu thị khẳng định rằng hành động không thể đã xảy ra; might have diễn tả khả năng không chắc chắn. Các dạng này thường xuất hiện trong ngữ cảnh đưa ra bằng chứng, suy đoán hoặc khi người nói không có thông tin đầy đủ.",
     "rule_en": "Use must have for a strong deduction, can't have for a strong negation, and might have for a tentative speculation about past events.",
     "common_error": "❌ She must has finished the report. → ✅ She must have finished the report.",
     "in_context": [
@@ -835,6 +835,37 @@
           "answer": "could have"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Modal verb luôn đứng ngay trước ‘have’, không thể tách ra hoặc đổi chỗ; dạng quá khứ của động từ chính phải là past participle.",
+        "examples": [
+          "❌ He must have went → ✅ He must have gone"
+        ]
+      },
+      {
+        "text": "‘Can’t have’ (hoặc ‘cannot have’) dùng để phủ định mạnh; không dùng ‘mustn’t have’ vì nó mang nghĩa ‘không được phép’.",
+        "examples": [
+          "❌ He mustn't have left → ✅ He can't have left"
+        ]
+      },
+      {
+        "text": "‘Might have’ chỉ khả năng không chắc chắn, không thể dùng để diễn tả kết luận chắc chắn; thường xuất hiện trong câu suy đoán.",
+        "examples": [
+          "He might have missed the train."
+        ]
+      },
+      {
+        "text": "Trong giao tiếp thân mật người nói thường rút gọn thành ‘must've’, ‘can’t've’, ‘might've’; trong văn viết và ngữ cảnh pháp lý nên dùng đầy đủ.",
+        "examples": [
+          "❌ He must've been → ✅ He must have been"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Viện kiểm sát chắc chắn đã thiết lập được tội lỗi vượt qua mức nghi ngờ hợp lý trước khi bản án có thể được đưa ra.",
+      "Bằng chứng không thể đã bị bỏ qua, vì ngưỡng chứng cứ rất cao.",
+      "Các tội phạm có thể đã được hưởng lợi từ các chương trình tư pháp phục hồi."
+    ]
   }
 }

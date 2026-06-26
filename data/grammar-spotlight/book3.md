@@ -893,21 +893,28 @@ Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) 
 ```
 
 ### Giải thích
-Dùng must have để suy luận chắc chắn, can't have để phủ định mạnh, và might have để đưa ra khả năng trong quá khứ.
+Động từ khuyết thiếu suy luận về quá khứ (must have, can’t have, might have) dùng để đưa ra kết luận, phủ định hoặc khả năng về một hành động đã xảy ra trong quá khứ. Cấu trúc luôn là: modal verb + have + past participle. Must have biểu thị suy luận chắc chắn; can’t have (cannot have) biểu thị khẳng định rằng hành động không thể đã xảy ra; might have diễn tả khả năng không chắc chắn. Các dạng này thường xuất hiện trong ngữ cảnh đưa ra bằng chứng, suy đoán hoặc khi người nói không có thông tin đầy đủ.
 
 ### Lưu ý
-_(chưa có)_
+1. Modal verb luôn đứng ngay trước ‘have’, không thể tách ra hoặc đổi chỗ; dạng quá khứ của động từ chính phải là past participle.
+  - ❌ He must have went → ✅ He must have gone
+2. ‘Can’t have’ (hoặc ‘cannot have’) dùng để phủ định mạnh; không dùng ‘mustn’t have’ vì nó mang nghĩa ‘không được phép’.
+  - ❌ He mustn't have left → ✅ He can't have left
+3. ‘Might have’ chỉ khả năng không chắc chắn, không thể dùng để diễn tả kết luận chắc chắn; thường xuất hiện trong câu suy đoán.
+  - He might have missed the train.
+4. Trong giao tiếp thân mật người nói thường rút gọn thành ‘must've’, ‘can’t've’, ‘might've’; trong văn viết và ngữ cảnh pháp lý nên dùng đầy đủ.
+  - ❌ He must've been → ✅ He must have been
 
 ### Lỗi thường gặp
 ❌ She must has finished the report. → ✅ She must have finished the report.
 
 ### Trong bài đọc
 - EN: Prosecution must have established culpability beyond reasonable doubt before a verdict could be returned.
-  VI: 
+  VI: Viện kiểm sát chắc chắn đã thiết lập được tội lỗi vượt qua mức nghi ngờ hợp lý trước khi bản án có thể được đưa ra.
 - EN: The evidence can't have been ignored, given the high evidentiary threshold.
-  VI: 
+  VI: Bằng chứng không thể đã bị bỏ qua, vì ngưỡng chứng cứ rất cao.
 - EN: Offenders might have benefited from restorative justice programmes.
-  VI: 
+  VI: Các tội phạm có thể đã được hưởng lợi từ các chương trình tư pháp phục hồi.
 
 <!-- /topic -->
 
@@ -985,21 +992,32 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Danh từ trừu tượng thường đi kèm với giới từ (of, for, in) để chỉ đối tượng hoặc lĩnh vực mà chúng mô tả.
+Danh từ trừu tượng (abstract nouns) thường được dùng trong các cấu trúc danh từ ghép để diễn tả khái niệm, hiện tượng hoặc chính sách. Chúng thường đi kèm với giới từ như of, for, in để chỉ đối tượng, mục đích hoặc lĩnh vực mà khái niệm đề cập. Khi dùng trong câu, danh từ trừu tượng thường xuất hiện ở vị trí chủ ngữ hoặc bổ ngữ và mang tính trang trọng, không cần mạo từ khi nói chung. Đối với các danh từ trừu tượng có thể được bổ nghĩa bằng tính từ hoặc cụm danh từ để làm rõ phạm vi hoặc tính chất.
 
 ### Lưu ý
-_(chưa có)_
+1. Dùng giới từ **of** để chỉ đối tượng hoặc lĩnh vực mà danh từ trừu tượng mô tả.
+  - ❌ *The growth of the economy* → ✅ *Economic growth*
+  - ✅ *The impact of inflation on purchasing power*
+2. Dùng giới từ **for** để diễn tả mục đích, lợi ích hoặc người hưởng lợi của khái niệm.
+  - ✅ *Policy for economic stability*
+  - ❌ *Policy of economic stability* → ✅ *Policy for economic stability*
+3. Dùng giới từ **in** để chỉ bối cảnh, lĩnh vực hoặc thời gian mà khái niệm xảy ra.
+  - ✅ *Growth in the manufacturing sector*
+  - ❌ *Growth on the manufacturing sector* → ✅ *Growth in the manufacturing sector*
+4. Trong tiếng Anh, danh từ trừu tượng chung không cần mạo từ **the**; chỉ dùng **the** khi nói đến một hiện tượng cụ thể đã được xác định.
+  - ✅ *Economic growth is essential*
+  - ❌ *The economic growth is essential* → ✅ *Economic growth is essential*
 
 ### Lỗi thường gặp
 ❌ The economic growth of the country are impressive.  →  ✅ The economic growth of the country is impressive.
 
 ### Trong bài đọc
 - EN: Central banks respond by tightening monetary policy — raising interest rates to slow borrowing and spending.
-  VI: 
+  VI: Các ngân hàng trung ương phản ứng bằng cách thắt chặt chính sách tiền tệ — tăng lãi suất để làm chậm việc vay và chi tiêu.
 - EN: Governments also use fiscal tools — taxation and public spending — to steer the economy.
-  VI: 
+  VI: Chính phủ cũng sử dụng các công cụ tài khóa — thuế và chi tiêu công — để điều hướng nền kinh tế.
 - EN: Economists speak of market equilibrium as the point where supply meets demand at a stable price.
-  VI: 
+  VI: Các nhà kinh tế nói về cân bằng thị trường như là điểm mà cung gặp cầu ở mức giá ổn định.
 
 <!-- /topic -->
 
@@ -1017,21 +1035,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Khi một danh từ trừu tượng diễn tả một khái niệm chung, ta dùng giới từ thích hợp (to, into) sau động từ để chỉ hướng hoặc mục tiêu.
+Giới từ đi kèm với danh từ trừu tượng (như integration, contribution, adaptation) chỉ hướng, mục tiêu hoặc đối tượng của hành động. Khi danh từ trừu tượng đứng sau động từ, ta thường dùng to, into hoặc for tùy vào nghĩa: adapt **to** something, integrate **into** something, contribute **to** something. Cấu trúc cơ bản là: Động từ + giới từ + danh từ trừu tượng. Những động từ này thường diễn tả quá trình thay đổi, ảnh hưởng hoặc tham gia.
 
 ### Lưu ý
-_(chưa có)_
+1. Chọn giới từ phù hợp với động từ: ‘adapt’ luôn đi với ‘to’, không dùng ‘into’.
+  - ❌ adapt into a new culture → ✅ adapt to a new culture
+2. ‘Integrate’ khi nói về việc hòa nhập vào một môi trường, cộng đồng thì dùng ‘into’; nếu dùng trực tiếp với tân ngữ, nghĩa là kết hợp chặt chẽ hơn.
+  - ✅ integrate refugees into society
+  - ✅ integrate the refugees
+3. ‘Contribute’ chỉ đi với ‘to’ khi theo sau là danh từ trừu tượng; không dùng ‘for’ hoặc ‘into’.
+  - ❌ contribute for the project → ✅ contribute to the project
+4. Trong văn viết trang trọng, các cụm này thường xuất hiện; trong giao tiếp thân mật có thể thay bằng các động từ đồng nghĩa như ‘help’, ‘adjust’.
+  - ✅ contribute to a more inclusive society
+  - ✅ help make society more inclusive
 
 ### Lỗi thường gặp
 ❌ She contributed the project  →  ✅ She contributed to the project
 
 ### Trong bài đọc
 - EN: The journey toward integration — the process by which newcomers integrate into the social, economic, and civic life of a host society — is rarely swift.
-  VI: 
+  VI: Hành trình hướng tới sự hòa nhập — quá trình mà những người mới đến tham gia đầy đủ vào đời sống xã hội, kinh tế và công dân của xã hội tiếp nhận — hiếm khi diễn ra nhanh chóng.
 - EN: Efforts to combat xenophobia through education and community dialogue contribute to a more inclusive society.
-  VI: 
+  VI: Nỗ lực chống lại sự kỳ thị người nước ngoài thông qua giáo dục và đối thoại cộng đồng góp phần tạo ra một xã hội bao dung hơn.
 - EN: Migrants must adapt to new legal systems that determine their status.
-  VI: 
+  VI: Người di cư phải thích nghi với các hệ thống pháp luật mới, những hệ thống này quyết định tình trạng của họ.
 
 <!-- /topic -->
 
@@ -1049,21 +1076,32 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc nhấn mạnh để làm nổi bật hành động hoặc tính chất, thường dùng do/did, the very, absolutely.
+Cấu trúc nhấn mạnh được dùng để làm nổi bật một hành động hoặc tính chất, thường xuất hiện trong câu khẳng định. Các dạng phổ biến gồm: (1) dùng trợ động từ do/does/did + động từ nguyên thể để nhấn mạnh hành động; (2) dùng the very + danh từ hoặc tính từ để tăng cường mức độ; (3) dùng absolutely + tính từ hoặc trạng từ để nhấn mạnh mức độ tuyệt đối. Những cấu trúc này không thay đổi nghĩa cơ bản của câu, chỉ tăng cường sức mạnh biểu đạt và thường xuất hiện trong ngữ cảnh trang trọng hoặc khi muốn nhấn mạnh mạnh mẽ.
 
 ### Lưu ý
-_(chưa có)_
+1. Trợ động từ do/does/did chỉ xuất hiện trong câu khẳng định và đứng trước động từ nguyên thể, không được dùng trước các trợ động từ khác như can, will, hay trước động từ đã có dạng –ing.
+  - ❌ She does can go → ✅ She can go
+  - ✅ He did finish the report
+2. the very chỉ được dùng ngay trước danh từ hoặc tính từ, không thể đứng trước trạng từ; nó nhấn mạnh tính chất "cực kỳ" của từ kế tiếp.
+  - ❌ the very quickly → ✅ the very quick
+  - ✅ the very important decision
+3. absolutely chỉ đi kèm với tính từ hoặc trạng từ, không dùng với danh từ; nó biểu thị mức độ tuyệt đối, không có nghĩa "hoàn toàn" như trong tiếng Việt.
+  - ❌ absolutely the leader → ✅ absolutely essential
+  - ✅ The results are absolutely clear
+4. Trong văn viết trang trọng, người học thường thay thế cấu trúc nhấn mạnh bằng các biện pháp khác (ví dụ: từ ngữ mạnh hơn, cấu trúc cleft) để tránh lặp lại do/does/did.
+  - ✅ He did complete the project on time (spoken)
+  - ✅ He completed the project on time (formal writing)
 
 ### Lỗi thường gặp
 ❌ He do understand the issue.  →  ✅ He does understand the issue.
 
 ### Trong bài đọc
 - EN: Leaders do shape the values of the institutions and societies they serve.
-  VI: 
+  VI: Các nhà lã đạo thực sự định hình các giá trị của các tổ chức và xã hội mà họ phục vụ.
 - EN: The capacity to articulate the very compelling picture of what could be is essential.
-  VI: 
+  VI: Khả năng diễn đạt bức tranh vô cùng hấp dẫn về những gì có thể đạt được là điều thiết yếu.
 - EN: Accountability is absolutely essential to preventing the abuse of influence.
-  VI: 
+  VI: Trách nhiệm giải trình là hoàn toàn thiết yếu để ngăn ngừa việc lạm dụng quyền lực.
 
 <!-- /topic -->
 
@@ -1078,21 +1116,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Các liên từ logic (thus, hence, consequently, nevertheless, by contrast) dùng để nối hai mệnh đề, thể hiện quan hệ nguyên nhân‑kết quả, đối lập hoặc so sánh.
+Liên từ logic (thus, hence, consequently, nevertheless, by contrast) là các từ nối dùng để liên kết hai mệnh đề độc lập, thể hiện quan hệ nguyên nhân‑kết quả, nhượng bộ hoặc tương phản. Chúng thường đứng ở đầu mệnh đề thứ hai và được ngăn cách bằng dấu chấm phẩy hoặc dấu chấm, sau đó là dấu phẩy. Các liên từ này mang tính trang trọng, thích hợp cho văn viết học thuật hoặc báo chí. Khi dùng, cần chú ý rằng each connector introduces a specific logical relation, not merely a filler.
 
 ### Lưu ý
-_(chưa có)_
+1. Liên từ logic luôn nối hai câu độc lập; trước chúng cần dùng dấu chấm phẩy (;) hoặc dấu chấm (.) và sau chúng thường có dấu phẩy.
+  - ❌ He was late thus he missed the bus. → ✅ He was late; thus, he missed the bus.
+2. "Hence" thường theo sau một câu khẳng định và đưa ra kết quả, thường được đặt ở đầu mệnh đề mới với dấu phẩy.
+  - ✅ The data were inconclusive; hence, we will conduct further tests.
+3. "Nevertheless" biểu thị sự nhượng bộ; nó có thể đứng đầu câu mới sau dấu chấm hoặc sau dấu chấm phẩy, và thường đi kèm dấu phẩy.
+  - ✅ She warned about the risks. Nevertheless, he proceeded anyway.
+4. "By contrast" dùng để so sánh đối lập; thường xuất hiện ở đầu mệnh đề so sánh và theo sau là dấu phẩy.
+  - ✅ The city is bustling; by contrast, the countryside remains tranquil.
 
 ### Lỗi thường gặp
 ❌ She studied hard, thus she will fail the exam.  →  ✅ She studied hard, thus she passed the exam.
 
 ### Trong bài đọc
 - EN: The tension between rationalism and empiricism has shaped Western philosophy for centuries; by contrast, rationalists hold that reason is the primary source of knowledge.
-  VI: 
+  VI: Sự căng thẳng giữa chủ nghĩa duy lý và chủ nghĩa kinh nghiệm đã định hình triết học phương Tây trong nhiều thế kỷ; ngược lại, các nhà duy lý cho rằng lý trí là nguồn tri thức chính yếu.
 - EN: Critical thinking demands that we engage in critical reasoning rather than accepting claims at face value; nevertheless, many people still do.
-  VI: 
+  VI: Tư duy phản biện đòi hỏi chúng ta phải tham gia lý luận phê phán thay vì chấp nhận các tuyên bố một cách nguyên thủy; tuy nhiên, nhiều người vẫn làm như vậy.
 - EN: The validity of an argument depends not on whether its premises are true, but on whether the conclusion follows logically from them; consequently, we must evaluate the logical structure.
-  VI: 
+  VI: Tính hợp lệ của một lập luận không phụ thuộc vào việc các tiền đề có đúng hay không, mà phụ thuộc vào việc kết luận có logic theo chúng hay không; do đó, chúng ta phải đánh giá cấu trúc logic.
 
 <!-- /topic -->
 
@@ -1110,21 +1155,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc bị động để đưa ra nhận định một cách thận trọng, thường xuất hiện trong các bài viết học thuật.
+Hedging với cấu trúc bị động dùng để đưa ra nhận định một cách thận trọng, thường xuất hiện trong văn viết học thuật. Cấu trúc cơ bản là: it + modal verb (could, might, may, should, is) + be + past participle (argued, suggested, considered, claimed, etc.) + that + clause. Động từ bị động ở đây không mô tả hành động thực tế mà chỉ mang tính ẩn dụ, giúp giảm mức độ khẳng định. Cấu trúc này thường đứng ở vị trí chủ ngữ hoặc sau các từ nối để giới thiệu quan điểm một cách gián tiếp.
 
 ### Lưu ý
-_(chưa có)_
+1. Cấu trúc luôn bắt đầu bằng ‘it’ làm chủ ngữ giả, sau đó là động từ khiếm khuyết và ‘be’ ở dạng bị động.
+  - ❌ It argued that ... → ✅ It could be argued that ...
+2. Các động từ thường dùng để hedging là: argued, suggested, considered, claimed, believed, reported, noted, v.v.
+  - ✅ It is suggested that researchers verify their data.
+3. Dùng trong ngữ cảnh trang trọng, học thuật; không phù hợp với giao tiếp thông thường.
+  - ✅ It might be claimed that the theory is incomplete.
+4. Lỗi phổ biến: bỏ ‘it’ hoặc dùng thể chủ động thay vì bị động, làm mất tính hedging.
+  - ❌ Researchers argue that ... → ✅ It could be argued that ...
 
 ### Lỗi thường gặp
 ❌ It could argue that the results are significant.  →  ✅ It could be argued that the results are significant.
 
 ### Trong bài đọc
 - EN: When studies fail to replicate, it could be argued that the broader community must challenge scientific consensus and re‑examine the original evidence.
-  VI: 
+  VI: Khi các nghiên cứu không thể tái lập, có thể lập luận rằng cộng đồng rộng lớn hơn phải thách thức sự đồng thuận khoa học và xem xét lại bằng chứng gốc.
 - EN: This is why it is suggested that scientists publish peer‑reviewed findings so that independent experts can scrutinise the work for errors and biases.
-  VI: 
+  VI: Đó là lý do tại sao người ta đề nghị các nhà khoa học công bố các phát hiện đã được bình duyệt để các chuyên gia độc lập có thể kiểm tra công trình về lỗi và thiên kiến.
 - EN: Replication is considered the gold standard of scientific credibility, and it could be argued that it underpins the reliability of subsequent research.
-  VI: 
+  VI: Việc tái lập được coi là tiêu chuẩn vàng của độ tin cậy khoa học, và có thể lập luận rằng nó là nền tảng cho độ tin cậy của các nghiên cứu tiếp theo.
 
 <!-- /topic -->
 
@@ -1140,21 +1192,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng các marker này để thể hiện quan điểm một cách thận trọng, tránh khẳng định tuyệt đối trong văn viết học thuật.
+Marker lập trường là các từ hoặc cụm từ (như arguably, it appears, may be said to) dùng để thể hiện quan điểm một cách thận trọng, tránh khẳng định tuyệt đối. Chúng thường xuất hiện ở đầu mệnh đề hoặc ngay sau chủ ngữ và được ngăn cách bằng dấu phẩy khi cần. Cấu trúc đi kèm thường là: [marker] + that‑clause hoặc [marker] + infinitive (đối với may be said to). Việc dùng chúng giúp tăng tính học thuật và giảm tính chủ quan trong văn viết.
 
 ### Lưu ý
-_(chưa có)_
+1. Vị trí: marker thường đặt trước mệnh đề chính, hoặc sau chủ ngữ, và thường được ngăn cách bằng dấu phẩy nếu đứng ở đầu câu.
+  - ❌ It appears, that historians must revise → ✅ It appears that historians must revise
+2. Đăng ký ngôn ngữ: các marker này thuộc phong cách học thuật, không nên dùng trong giao tiếp thông thường.
+  - ❌ I think historians should revise → ✅ It appears that historians should revise
+3. Nhầm lẫn thường gặp: arguably là trạng từ, không phải danh từ hay động từ; cần dùng cùng với một động từ hoặc cấu trúc to be.
+  - ❌ Argueably the limitation is… → ✅ It is arguably a limitation…
+4. Cấu trúc với may be said to: phải theo sau là động từ nguyên mẫu (to‑verb), không dùng that‑clause.
+  - ❌ may be said that it colours → ✅ may be said to colour
 
 ### Lỗi thường gặp
 ❌ *It appears* that the evidence is conclusive → ✅ *It appears* that the evidence is suggestive
 
 ### Trong bài đọc
 - EN: Scholars who study historiography argue that arguably acknowledging this limitation is the first step towards more honest and rigorous historical inquiry.
-  VI: 
+  VI: Các học giả nghiên cứu sử học cho rằng việc thừa nhận hạn chế này một cách có thể tranh cãi là bước đầu tiên hướng tới một nền nghiên cứu lịch sử trung thực và nghiêm túc hơn.
 - EN: When new evidence emerges or archival sources are re‑examined, it appears that historians must be willing to revise long‑held conclusions.
-  VI: 
+  VI: Khi có bằng chứng mới xuất hiện hoặc các nguồn lưu trữ được xem xét lại, dường như các nhà sử học phải sẵn sàng sửa đổi những kết luận đã được duy trì lâu dài.
 - EN: Bias, whether ideological, cultural, or national, may be said to colour the interpretation of evidence, making it essential to challenge singular narratives.
-  VI: 
+  VI: Thiên kiến, dù là ý thức hệ, văn hoá hay quốc gia, có thể được cho là làm ảnh hưởng đến cách diễn giải bằng chứng, do đó việc thách thức các câu chuyện đơn lẻ là điều thiết yếu.
 
 <!-- /topic -->
 
@@ -1170,21 +1229,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng whom cho người làm tân ngữ, whose cho sở hữu, và of which cho vật làm tân ngữ hoặc bổ ngữ.
+Mệnh đề quan hệ phức tạp (complex relative clause) dùng các đại từ quan hệ whom, whose, of which để nối một mệnh đề phụ vào danh từ hoặc đại từ trong câu chính, thường xuất hiện trong văn viết trang trọng. Whom được dùng khi antecedent là người và đóng vai trò tân ngữ (hoặc sau giới từ); whose biểu thị quan hệ sở hữu của người hoặc vật; of which dùng cho vật (hoặc khái niệm) khi nó là tân ngữ hoặc bổ ngữ, thường xuất hiện sau giới từ. Cấu trúc cơ bản: [noun], (who/whom/whose/of which) + clause. Khi mệnh đề bổ sung, dùng dấu phẩy; khi mệnh đề hạn định, không dùng dấu phẩy.
 
 ### Lưu ý
-_(chưa có)_
+1. Whom chỉ xuất hiện ở vị trí tân ngữ; nếu antecedent là chủ ngữ, dùng who.
+  - ❌ The researcher who we interviewed → ✅ The researcher whom we interviewed
+2. Whose có thể chỉ sở hữu của người hoặc vật; với vật thường dùng of which để tránh nhầm lẫn.
+  - ✅ The book whose cover is torn
+  - ✅ The book of which the cover is torn
+3. Of which dùng cho các danh từ vô nhân cách, đặc biệt sau giới từ; không thể thay bằng whose khi antecedent là vô vật.
+  - ❌ The theory whose was proposed → ✅ The theory of which was proposed
+4. Trong văn nói, các mệnh đề này thường được thay bằng cấu trúc đơn giản hơn; trong văn viết học thuật chúng giữ tính trang trọng.
+  - ✅ The participants, whom the experimenter observed closely, showed varied responses
+  - ✅ The participants the experimenter observed closely showed varied responses
 
 ### Lỗi thường gặp
 ❌ The researcher whose published a paper → ✅ The researcher who published a paper
 
 ### Trong bài đọc
 - EN: One powerful framework for understanding behaviour is attribution theory, whose origins lie in early 20th‑century psychology.
-  VI: 
+  VI: Một khuôn khổ mạnh mẽ để hiểu hành vi là lý thuyết quy kết, có nguồn gốc xuất phát từ tâm lý học đầu thế kỷ 20.
 - EN: The mechanisms, of which we are only beginning to understand, influence learning outcomes.
-  VI: 
+  VI: Các cơ chế, mà chúng ta mới chỉ bắt đầu hiểu, ảnh hưởng đến kết quả học tập.
 - EN: The participants, whom the experimenter observed closely, showed varied responses.
-  VI: 
+  VI: Các người tham gia, mà nhà thí nghiệm quan sát kỹ, đã thể hiện các phản ứng đa dạng.
 
 <!-- /topic -->
 
@@ -1200,21 +1268,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Đồng vị ngữ được dùng để bổ nghĩa cho danh từ, thường đặt sau danh từ và tách bằng dấu – hoặc dấu phẩy.
+Đồng vị ngữ là một cụm danh từ (hoặc danh từ) được đặt ngay sau một danh từ khác để giải thích, bổ sung hoặc định danh lại nó. Nó thường được ngăn cách bằng dấu phẩy (đối với thông tin không thiết yếu) hoặc dấu gạch ngang (đối với thông tin nhấn mạnh). Cấu trúc cơ bản: danh từ + (dấu phẩy / dấu gạch ngang) + đồng vị ngữ. Đồng vị ngữ có thể là một danh từ, cụm danh từ, hoặc một mệnh đề danh từ, và thường xuất hiện trong văn viết trang trọng, học thuật.
 
 ### Lưu ý
-_(chưa có)_
+1. Dùng dấu phẩy khi đồng vị ngữ cung cấp thông tin phụ, không thay đổi nghĩa cơ bản của câu; dùng dấu gạch ngang để nhấn mạnh hoặc giải thích thêm.
+  - ❌ The CEO, a former teacher, announced the new policy → ✅ The CEO, a former teacher, announced the new policy.
+  - ✅ The CEO — a former teacher — announced the new policy.
+2. Đồng vị ngữ phải đứng ngay sau danh từ mà nó bổ nghĩa; nếu đặt xa hơn, câu sẽ mất tính liên kết và gây hiểu lầm.
+  - ❌ The project, which was delayed, the new software, finally launched → ✅ The project — the new software — finally launched.
+3. Trong ngữ cảnh trang trọng, đồng vị ngữ thường dùng để cung cấp thông tin chuyên môn; trong giao tiếp thông thường người học thường thay bằng "that is" hoặc "i.e.".
+  - ✅ The treaty, an agreement between nations, was signed yesterday.
+  - ✅ The treaty, i.e., an agreement between nations, was signed yesterday.
+4. Đồng vị ngữ không được là một mệnh đề động từ độc lập; nếu muốn dùng mệnh đề, phải chuyển thành danh từ hoặc cụm danh từ.
+  - ❌ The manager, who leads the team, decided to resign → ✅ The manager — the team leader — decided to resign.
 
 ### Lỗi thường gặp
 ❌ The concept of cognition which refers to mental processes is complex.  →  ✅ The concept of cognition, which refers to mental processes, is complex.
 
 ### Trong bài đọc
 - EN: The history of technology is largely a history of disruption — the process by which new ideas displace established systems and render previous solutions obsolete.
-  VI: 
+  VI: Lịch sử công nghệ phần lớn là lịch sử của sự gián đoạn — quá trình mà những ý tưởng mới thay thế các hệ thống hiện có và khiến các giải pháp trước đây trở nên lỗi thời.
 - EN: Central to the innovation process is the development of a prototype — an early working model that allows engineers and designers to test assumptions before committing resources to full production.
-  VI: 
+  VI: Trung tâm của quá trình đổi mới là việc phát triển một nguyên mẫu — một mô hình làm việc sớm cho phép các kỹ sư và nhà thiết kế kiểm tra giả định trước khi cam kết nguồn lực cho sản xuất toàn diện.
 - EN: Effective iteration, the practice of refining a product through repeated cycles of testing and feedback, is what separates successful ventures from those that collapse on first contact with real users.
-  VI: 
+  VI: Việc lặp lại hiệu quả, thực hành tinh chỉnh sản phẩm qua các vòng thử nghiệm và phản hồi, là yếu tố phân biệt các dự án thành công với những dự án sụp đổ ngay khi tiếp xúc với người dùng thực.
 
 <!-- /topic -->
 
@@ -1232,21 +1309,28 @@ Subject + verb + either + Option1 + or + Option2
 ```
 
 ### Giải thích
-Dùng cấu trúc song song để liệt kê hai yếu tố đồng thời, giúp câu văn cân bằng và mạch lạc.
+Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sánh hai (hoặc nhiều) yếu tố đồng thời, giúp câu cân bằng và mạch lạc. Nó thường xuất hiện dưới dạng các cặp liên từ như not only...but also, both...and, either...or. Yêu cầu các thành phần đứng sau mỗi liên từ phải có cùng dạng ngữ pháp (danh từ, động từ, tính từ, cụm danh từ, v.v.). Khi dùng, hãy đặt cặp liên từ ngay trước mỗi thành phần để duy trì tính song song.
 
 ### Lưu ý
-_(chưa có)_
+1. Các thành phần sau cặp liên từ phải đồng dạng về ngữ pháp; nếu một thành phần là động từ nguyên thể thì thành phần còn lại cũng phải là động từ nguyên thể.
+  - ❌ not only read books but also writing essays → ✅ not only read books but also write essays
+2. Cấu trúc song song thường mang tính trang trọng; trong giao tiếp thân mật có thể thay bằng các liên từ đơn giản như and, or.
+  - Both the teacher and the students are invited. (formal) → The teacher and the students are invited. (informal)
+3. Khi dùng both...and, số lượng và dạng của hai thành phần phải khớp; lỗi thường gặp là không đồng nhất về số ít/số nhiều.
+  - ❌ both the teacher and the students is ready → ✅ both the teacher and the students are ready
+4. Trong câu phủ định, either...or không đi cùng với not; thay vào đó dùng neither...nor.
+  - ❌ not either...or → ✅ either...or (positive) / neither...nor (negative)
 
 ### Lỗi thường gặp
 ❌ The program improves not only students' skills but also their motivation and confidence.  →  ✅ The program improves not only students' skills but also their motivation.
 
 ### Trong bài đọc
 - EN: Effective scaffolding enables educators to foster critical literacy, equipping students not only to read but also to interrogate the assumptions embedded in texts and media.
-  VI: 
+  VI: Việc hỗ trợ có hiệu quả giúp các nhà giáo dục phát triển khả năng đọc hiểu phản biện, trang bị cho học sinh không chỉ biết đọc mà còn có khả năng đặt câu hỏi về các giả định ẩn trong văn bản và phương tiện truyền thông.
 - EN: Constructivism holds that learners build understanding through active engagement with their environment — a position that demands educators rethink both pedagogy and the design of the curriculum to prioritise meaning-making over rote recall.
-  VI: 
+  VI: Thuyết kiến tạo cho rằng người học xây dựng hiểu biết thông qua sự tương tác tích cực với môi trường — một quan điểm đòi hỏi các nhà giáo dục phải suy nghĩ lại cả phương pháp sư phạm và thiết kế chương trình học để ưu tiên việc tạo ra ý nghĩa hơn là ghi nhớ máy móc.
 - EN: Educators must decide whether to focus on content delivery either through lecture or through collaborative projects.
-  VI: 
+  VI: Các nhà giáo dục phải quyết định liệu có nên tập trung vào việc truyền đạt nội dung thông qua giảng bài hay qua các dự án hợp tác.
 
 <!-- /topic -->
 

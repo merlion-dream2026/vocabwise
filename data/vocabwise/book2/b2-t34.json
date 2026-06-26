@@ -787,7 +787,7 @@
       "question": "It + be + focused element + that + clause?",
       "variant": "What + clause + be + focused element"
     },
-    "rule_vi": "Dùng câu chẻ để nhấn mạnh một thành phần trong câu, thường dùng cấu trúc It is/was … that … hoặc What … is ….",
+    "rule_vi": "Câu chẻ (cleft sentence) được dùng để nhấn mạnh một thành phần cụ thể trong câu bằng cách tách nó ra thành một mệnh đề phụ. Hai dạng phổ biến là It is/was … that … và What … is … . Cấu trúc It is/was … that …: It is + phần muốn nhấn mạnh + that + phần còn lại của câu; dùng khi muốn nhấn mạnh danh từ, cụm danh từ hoặc tính từ. Cấu trúc What … is …: What + mệnh đề (được nhấn mạnh) + is + phần còn lại; thường dùng khi phần nhấn mạnh là một mệnh đề hoặc danh từ không xác định.",
     "rule_en": "Use cleft sentences to highlight a particular part of a sentence, with the pattern It is/was … that … or What … is ….",
     "common_error": "❌ *It is the budget determines the scale* → ✅ *It is the budget that determines the scale*",
     "in_context": [
@@ -938,6 +938,38 @@
           "answer": "What"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong cấu trúc It is/was … that …, mệnh đề bắt đầu bằng \"that\" không được bỏ qua; nếu bỏ \"that\" câu sẽ mất tính nhấn mạnh và trở thành câu thông thường.",
+        "examples": [
+          "❌ It is the budget determines the scale → ✅ It is the budget that determines the scale"
+        ]
+      },
+      {
+        "text": "\"It is/was\" thường dùng để nhấn mạnh một danh từ hoặc cụm danh từ đã xác định, trong khi \"What\" dùng để nhấn mạnh một ý tưởng, hành động hoặc danh từ không xác định.",
+        "examples": [
+          "✅ It is the director who shapes the story.",
+          "✅ What shapes the story is the director."
+        ]
+      },
+      {
+        "text": "Câu chẻ mang tính trang trọng, thích hợp cho văn viết, bài thuyết trình hoặc khi muốn nhấn mạnh mạnh mẽ trong giao tiếp formal.",
+        "examples": [
+          "✅ It is the genre that shapes audience expectations."
+        ]
+      },
+      {
+        "text": "Một lỗi phổ biến của người học là dùng \"It is\" mà không theo sau bằng \"that\" hoặc \"who\", khiến câu không đúng cấu trúc cleft.",
+        "examples": [
+          "❌ It is the budget determines the scale → ✅ It is the budget that determines the scale"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Ngân sách — tổng số tiền có sẵn — quyết định quy mô của một bộ phim, từ những bộ phim độc lập nhỏ đến những bom tấn khổng lồ.",
+      "Thể loại của một bộ phim — dù là hồi hộp, hài, lãng mạn hay tài liệu — định hình kỳ vọng của khán giả từ khung hình đầu tiên.",
+      "Chính các bộ phim tài liệu đã chứng kiến sự tăng trưởng mạnh mẽ về độ phổ biến trên các nền tảng streaming."
+    ]
   }
 }

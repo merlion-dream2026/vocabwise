@@ -732,7 +732,7 @@
       "positive": "Adj + past‑participle (hyphenated) + Noun  |  Noun + and + Noun (fixed binomial)",
       "negative": "Adj + past‑participle (hyphenated) + Noun + not + Verb  |  Noun + and + Noun + not + Verb"
     },
-    "rule_vi": "Khi tính từ ghép đứng trước danh từ, dùng dạng tính từ + quá khứ phân từ, nối bằng dấu nối (ví dụ: well‑established tradition). Các cặp từ cố định (binomials) như trial and error không thay đổi vị trí và thường không chia dạng số nhiều.",
+    "rule_vi": "Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) đứng trước danh từ và thường được nối bằng dấu nối. Khi dùng, cụm này luôn đặt trước danh từ và không được chèn bất kỳ từ nào khác vào giữa. Cặp từ cố định (binomials) như “trial and error” có thứ tự cố định, không thể đảo ngược và thường không thay đổi dạng số nhiều. Các binomials thường được nối bằng “and” hoặc “or” và không cần dấu nối khi đứng sau danh từ.",
     "rule_en": "Use hyphenated adjective + past participle before a noun (e.g., well‑established practice) and keep fixed binomials (e.g., trial and error) unchanged.",
     "common_error": "❌ well established tradition → ✅ well‑established tradition",
     "in_context": [
@@ -878,6 +878,41 @@
           "answer": "fast‑paced"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Compound modifiers đứng trước danh từ phải được viết có dấu nối; không có dấu nối khi chúng đứng sau danh từ.",
+        "examples": [
+          "❌ The tradition is well established → ✅ The tradition is well‑established",
+          "✅ well‑established tradition"
+        ]
+      },
+      {
+        "text": "Khi có mạo từ hoặc tính từ khác, chúng vẫn đứng trước cụm ghép và không được tách ra.",
+        "examples": [
+          "✅ a well‑established practice",
+          "❌ a well established practice"
+        ]
+      },
+      {
+        "text": "Binomials có thứ tự cố định; không thể đảo ngược vị trí các thành phần.",
+        "examples": [
+          "❌ error and trial → ✅ trial and error",
+          "✅ trial and error"
+        ]
+      },
+      {
+        "text": "Binomials thường không thay đổi dạng số nhiều, ngay cả khi ngữ cảnh yêu cầu số nhiều.",
+        "examples": [
+          "❌ trials and errors → ✅ trial and error",
+          "✅ trial and error"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các nhà phê bình cảnh báo về sự đồng nhất hoá văn hoá — một mối quan ngại đã được thiết lập lâu nay rằng các nền văn hoá thương mại thống trị có thể làm xói mòn các truyền thống địa phương.",
+      "Cảnh quan nhanh chóng thay đổi của truyền thông kỹ thuật số buộc các cộng đồng phải liên tục đàm phán lại bản sắc văn hoá của mình.",
+      "Nhiều nhóm người di cư thích nghi qua việc thử và sai, cân bằng giữa kỳ vọng di sản và các chuẩn mực xã hội mới."
+    ]
   }
 }

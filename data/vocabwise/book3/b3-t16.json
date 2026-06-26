@@ -669,7 +669,7 @@
     "form": {
       "positive": "MainClause (Subject + Verb + …), whereas/while SubClause (Subject + Verb + …) | despite the fact that + Clause, MainClause"
     },
-    "rule_vi": "Dùng các mệnh đề phụ để diễn tả sự tương phản hoặc nhượng bộ giữa hai ý, thường dùng các liên từ whereas, while, despite the fact that.",
+    "rule_vi": "Mệnh đề phụ đối lập (adverbial clause of contrast) dùng để so sánh, nhấn mạnh sự khác nhau giữa hai ý. Nó được giới thiệu bằng các liên từ như whereas, while, hoặc cụm từ despite the fact that. Cấu trúc thường là: [mệnh đề đối lập] + [,] + mệnh đề chính, hoặc ngược lại, tùy vào vị trí muốn nhấn mạnh. Khi dùng despite the fact that, mệnh đề phụ luôn đứng trước mệnh đề chính và không có đảo vị trí chủ‑động từ.",
     "rule_en": "Use adverbial clauses of contrast to show a difference or concession between two statements, introduced by whereas, while, or despite the fact that.",
     "common_error": "❌ *Despite the fact that* the high price, many customers buy it.  →  ✅ *Despite the fact that* the price is high, many customers buy it.",
     "in_context": [
@@ -829,6 +829,38 @@
           "answer": "while"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề đối lập có thể đứng trước hoặc sau mệnh đề chính; nếu đứng trước, thường đặt dấu phẩy sau mệnh đề phụ.",
+        "examples": [
+          "✅ While the wealthy demand sustainability, the poor struggle financially.",
+          "✅ The poor struggle financially, while the wealthy demand sustainability."
+        ]
+      },
+      {
+        "text": "Whereas dùng để nhấn mạnh sự trái ngược rõ ràng giữa hai khẳng định; while cũng có thể dùng để so sánh nhưng thường gây nhầm lẫn với nghĩa thời gian.",
+        "examples": [
+          "❌ While the rich are happy, the poor are sad → ✅ Whereas the rich are happy, the poor are sad."
+        ]
+      },
+      {
+        "text": "Cụm despite the fact that luôn mở đầu mệnh đề nhượng bộ; sau nó không có đảo vị trí (không dùng should, would, …) và mệnh đề chính thường theo sau dấu phẩy.",
+        "examples": [
+          "❌ Despite the fact that the food is cheap, are we still hungry? → ✅ Despite the fact that the food is cheap, we are still hungry."
+        ]
+      },
+      {
+        "text": "Độ trang trọng: despite the fact that và whereas thường dùng trong văn viết trang trọng; trong giao tiếp thân mật có thể thay bằng although hoặc even though.",
+        "examples": [
+          "✅ Even though the food is cheap, we still feel hungry."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự thiếu hụt vi chất dinh dưỡng vẫn là một cuộc khủng hoảng y tế công cộng âm thầm, trong khi thực phẩm giá rẻ hiếm khi là hữu cơ hoặc giàu dinh dưỡng.",
+      "Người tiêu dùng giàu có ngày càng yêu cầu các hệ thống thực phẩm bền vững, trong khi các nhóm thu nhập thấp phải vật lộn để có khả năng chi trả cho các lựa chọn giàu dinh dưỡng.",
+      "Mặc dù thực tế là hệ thống thực phẩm toàn cầu đã trải qua sự chuyển đổi triệt để, tỷ lệ béo phì vẫn tiếp tục tăng."
+    ]
   }
 }

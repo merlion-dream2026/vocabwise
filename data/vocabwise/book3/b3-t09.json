@@ -732,7 +732,7 @@
       "question": "Would Subject + base verb if Subject + past perfect verb?",
       "variant": "If + Subject + past simple verb, Subject + would have + past participle"
     },
-    "rule_vi": "Dùng câu điều kiện hỗn hợp khi nói về một tình huống trong quá khứ ảnh hưởng đến hiện tại.",
+    "rule_vi": "Câu điều kiện hỗn hợp (mixed conditional) là câu kết hợp thời quá khứ trong mệnh đề if với thời hiện tại (hoặc tương lai) trong mệnh đề chính, hoặc ngược lại. Nó dùng để nói về một tình huống không xảy ra trong quá khứ đã ảnh hưởng tới hiện tại, hoặc một tình huống hiện tại không thực hiện được gây hậu quả trong quá khứ. Cấu trúc chính: If + past perfect, would + verb (present); hoặc If + simple past, would have + past participle (past result).",
     "rule_en": "Use mixed conditionals to talk about a past condition with a present result.",
     "common_error": "❌ If I have taken the course, I would be more confident now.  →  ✅ If I had taken the course, I would be more confident now.",
     "in_context": [
@@ -897,6 +897,37 @@
           "answer": "had recognized"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề if luôn dùng thì quá khứ hoàn thành (had + past participle) khi diễn tả nguyên nhân trong quá khứ, còn mệnh đề chính dùng would + động từ nguyên mẫu để chỉ kết quả hiện tại.",
+        "examples": [
+          "❌ If she didn't study, she will pass the exam → ✅ If she had studied, she would pass the exam"
+        ]
+      },
+      {
+        "text": "Khi muốn diễn tả một điều kiện hiện tại không thực hiện được gây hậu quả trong quá khứ, đảo ngược thời: if + simple past, would have + past participle.",
+        "examples": [
+          "❌ If he is late, he would have missed the meeting → ✅ If he were late, he would have missed the meeting"
+        ]
+      },
+      {
+        "text": "Trong câu hỗn hợp, không dùng “will” ở mệnh đề chính; “would” là dạng chuẩn để biểu thị kết quả không có thực.",
+        "examples": [
+          "❌ If they had left early, they will arrive on time → ✅ If they had left early, they would arrive on time"
+        ]
+      },
+      {
+        "text": "Câu điều kiện hỗn hợp thường xuất hiện trong văn viết trang trọng; trong giao tiếp không chính thức người học có thể dùng cấu trúc đơn giản hơn, nhưng vẫn cần giữ đúng thời.",
+        "examples": [
+          "If I had saved money, I could travel now."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu các nền tảng không được thiết kế để tối đa hoá việc phơi nhiễm, người dùng sẽ ít nghiện hơn bây giờ.",
+      "Nếu các nhà nghiên cứu đã phát hiện sớm các rủi ro, các nhà giáo dục sẽ chuẩn bị tốt hơn hiện nay.",
+      "Nếu thanh thiếu niên đã phát triển kỹ năng đọc hiểu kỹ thuật số phản biện, họ sẽ ít dễ bị bắt nạt trên mạng ngày nay."
+    ]
   }
 }

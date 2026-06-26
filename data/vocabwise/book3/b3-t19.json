@@ -668,7 +668,7 @@
       "positive": "DiscourseMarker, Subject + Verb + …",
       "variant": "DiscourseMarker can also appear mid‑sentence, set off by commas"
     },
-    "rule_vi": "Dùng các liên từ này để nối các câu hoặc mệnh đề, thể hiện quan hệ logic (bổ sung, đối lập, kết quả, bất chấp).",
+    "rule_vi": "Các liên từ học thuật cao cấp (Moreover, Nevertheless, Consequently, Notwithstanding) là các từ nối câu dùng trong văn viết trang trọng để chỉ mối quan hệ logic giữa các câu hoặc mệnh đề. Chúng thường đứng ở đầu câu hoặc sau dấu chấm phẩy, và luôn được theo sau bởi dấu phẩy. Khi dùng chúng, mỗi phần nối phải là một câu độc lập (independent clause) để tránh lỗi câu chạy. Các từ này không thể được chèn vào giữa một câu như các liên từ phụ thuộc; chúng chỉ hoạt động như các câu bổ trợ mang tính kết nối hoặc phản biện.",
     "rule_en": "Use these discourse markers to link sentences, showing addition, contrast, consequence, or concession.",
     "common_error": "❌ Nevertheless the government delayed reforms → ✅ Nevertheless, the government delayed reforms",
     "in_context": [
@@ -823,6 +823,37 @@
           "answer": "Nevertheless"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí đặt: thường đặt ở đầu câu hoặc sau dấu chấm phẩy; không dùng để nối trực tiếp hai mệnh đề trong cùng một câu mà không có dấu câu.",
+        "examples": [
+          "❌ The economy grew, moreover the unemployment fell. → ✅ The economy grew; moreover, the unemployment fell."
+        ]
+      },
+      {
+        "text": "Đăng ký ngôn ngữ: phù hợp với văn viết học thuật, báo cáo, luận văn; không nên dùng trong giao tiếp thân mật.",
+        "examples": [
+          "✅ Moreover, the results confirm the hypothesis."
+        ]
+      },
+      {
+        "text": "Dấu câu: sau liên từ luôn có dấu phẩy; nếu đứng sau dấu chấm phẩy, dùng dấu chấm phẩy trước liên từ.",
+        "examples": [
+          "❌ The study was limited. Moreover it lacked control. → ✅ The study was limited; moreover, it lacked control."
+        ]
+      },
+      {
+        "text": "Khác với tiếng Việt: trong tiếng Việt có thể đặt \"hơn nữa\" ở giữa câu, nhưng tiếng Anh yêu cầu liên từ đứng ở đầu câu độc lập và phải có dấu câu tách rời.",
+        "examples": [
+          "❌ He is skilled, nevertheless he is lazy. → ✅ He is skilled; nevertheless, he is lazy."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Hơn nữa, tỷ lệ mắc bệnh sa sút trí tuệ trong người cao tuổi đang gây ra chi phí khổng lồ cho cơ sở hạ tầng y tế và các người chăm sóc gia đình, làm tăng áp lực lên các hệ thống đã quá tải.",
+      "Tuy nhiên, nhiều quốc gia đang đối mặt với thách thức duy trì lợi ích hưu trí mà không gây gánh nặng quá mức cho người lao động trẻ.",
+      "Do đó, tỷ lệ phụ thuộc đang mở rộng, thúc đẩy các cải cách khẩn cấp đối với hệ thống lương hưu."
+    ]
   }
 }

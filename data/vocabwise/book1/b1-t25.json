@@ -875,10 +875,22 @@
       ]
     },
     "usage_notes": [
-      "Lưu ý rằng từ để hỏi thường được sử dụng ở đầu câu, nhưng trong một số trường hợp, chúng có thể được sử dụng ở giữa hoặc cuối câu để tạo ra một câu hỏi phức tạp hơn.",
-      "Sử dụng từ để hỏi một cách linh hoạt và phù hợp với ngữ cảnh, vì chúng có thể thay đổi ý nghĩa của câu hỏi tùy thuộc vào cách sử dụng.",
-      "Từ để hỏi có thể được sử dụng trong cả câu hỏi trực tiếp và gián tiếp, nhưng cần lưu ý về sự thay đổi trong cấu trúc câu khi sử dụng.",
-      "Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến việc sử dụng từ để hỏi phù hợp để tránh nhầm lẫn ý nghĩa"
+      {
+        "text": "Lưu ý rằng từ để hỏi thường được sử dụng ở đầu câu, nhưng trong một số trường hợp, chúng có thể được sử dụng ở giữa hoặc cuối câu để tạo ra một câu hỏi phức tạp hơn.",
+        "examples": []
+      },
+      {
+        "text": "Sử dụng từ để hỏi một cách linh hoạt và phù hợp với ngữ cảnh, vì chúng có thể thay đổi ý nghĩa của câu hỏi tùy thuộc vào cách sử dụng.",
+        "examples": []
+      },
+      {
+        "text": "Từ để hỏi có thể được sử dụng trong cả câu hỏi trực tiếp và gián tiếp, nhưng cần lưu ý về sự thay đổi trong cấu trúc câu khi sử dụng.",
+        "examples": []
+      },
+      {
+        "text": "Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến việc sử dụng từ để hỏi phù hợp để tránh nhầm lẫn ý nghĩa",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Tôi hỏi những câu hỏi thân thiện như Bạn đến từ đâu?",

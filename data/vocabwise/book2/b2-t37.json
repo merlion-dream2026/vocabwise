@@ -789,7 +789,7 @@
       "question": "Do/Play/Go + subject + sport?",
       "variant": "do + non‑team activity; play + team sport; go + sport expressed as gerund"
     },
-    "rule_vi": "Dùng do cho các hoạt động không có đối thủ (ví dụ: do yoga), play cho các môn thể thao đội hoặc có đối thủ (ví dụ: play tennis), và go + V‑ing cho các môn thể thao dùng dạng động từ –ing (ví dụ: go swimming).",
+    "rule_vi": "Trong tiếng Anh, các động từ do, play và go được dùng theo cách kết hợp (collocation) với các môn thể thao. Dùng play cho những môn thể thao có đối thủ hoặc chơi theo đội (ví dụ: play football, play tennis). Dùng do cho các hoạt động thể thao không có đối thủ và thường được mô tả như một hành động cá nhân (ví dụ: do yoga, do gymnastics). Dùng go + V‑ing cho các môn thể thao diễn ra dưới dạng hoạt động, thường liên quan đến chuyển động liên tục (ví dụ: go swimming, go jogging).",
     "rule_en": "Use do for non‑team activities, play for team or competitive sports, and go + gerund for sports expressed with a verb‑ing form.",
     "common_error": "❌ I do swimming → ✅ I go swimming",
     "in_context": [
@@ -931,6 +931,37 @@
           "answer": "go"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Động từ play luôn đứng trước tên môn thể thao và không cần mạo từ 'the'.",
+        "examples": [
+          "✅ They play basketball → ❌ They play the basketball"
+        ]
+      },
+      {
+        "text": "Động từ go phải đi kèm với dạng V‑ing, không dùng danh từ thể thao.",
+        "examples": [
+          "✅ She goes swimming every morning → ❌ She goes swimming pool"
+        ]
+      },
+      {
+        "text": "Động từ do dùng cho các hoạt động thể thao không có đối thủ, thường mang tính cá nhân.",
+        "examples": [
+          "✅ He does yoga daily → ❌ He does tennis daily"
+        ]
+      },
+      {
+        "text": "Play được dùng cho các môn thể thao đội hoặc có đối thủ, bao gồm cả trò chơi.",
+        "examples": [
+          "✅ They play volleyball at school → ❌ They go volleyball at school"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các vận động viên chơi nhiều môn thể thao khác nhau trong quá trình tập luyện.",
+      "Khán giả thường đi bơi trong hồ bơi của làng Olympic.",
+      "Huấn luyện viên khuyến khích người mới bắt đầu tập yoga để cải thiện độ linh hoạt."
+    ]
   }
 }

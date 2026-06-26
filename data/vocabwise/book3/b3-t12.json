@@ -691,7 +691,7 @@
     "form": {
       "positive": "Participle clause (present/past participle, often with -ing or -ed) + main clause"
     },
-    "rule_vi": "Dùng mệnh đề phân từ để diễn tả sự nhượng bộ hoặc đối lập, thường bắt đầu bằng While, Despite, Even, Having, v.v.",
+    "rule_vi": "Mệnh đề phân từ (participle clause) là một mệnh đề không có chủ từ và động từ chia, dùng để diễn tả ý đối lập hoặc nhượng bộ. Khi muốn nhấn mạnh sự tương phản, thường dùng các từ như while, despite, even, hoặc cấu trúc having + V‑en/‑ed để chỉ hành động đã hoàn thành trước hành động chính. Cấu trúc cơ bản: [mệnh đề phân từ], [mệnh đề chính]; hoặc [mệnh đề chính] [mệnh đề phân từ] (kèm dấu phẩy). Mệnh đề phân từ thường xuất hiện trong văn viết trang trọng và cần chắc chắn rằng chủ thể của mệnh đề phân từ và mệnh đề chính là cùng một người/đối tượng.",
     "rule_en": "Use participle clauses to show contrast or concession, typically introduced by while, despite, even, having, etc.",
     "common_error": "❌ Despite he was stressed, he kept working.  →  ✅ Despite being stressed, he kept working.",
     "in_context": [
@@ -847,6 +847,38 @@
           "answer": "Having"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề phân từ thường đặt trước mệnh đề chính và tách bằng dấu phẩy; nếu đặt sau, câu sẽ ít trang trọng hơn.",
+        "examples": [
+          "❌ Stress is high despite the team working hard → ✅ Despite the team working hard, stress is high."
+        ]
+      },
+      {
+        "text": "Chủ ngữ của mệnh đề phân từ phải đồng nhất với chủ ngữ của mệnh đề chính; nếu không, cần dùng cấu trúc by‑ing hoặc một mệnh đề đầy đủ.",
+        "examples": [
+          "❌ The manager, having reviewed the report, they decided to act → ✅ Having reviewed the report, the manager decided to act."
+        ]
+      },
+      {
+        "text": "Cấu trúc having + V‑en/‑ed diễn tả hành động đã hoàn thành trước hành động chính và thường mang nghĩa nhượng bộ hoặc thời gian.",
+        "examples": [
+          "✅ Having finished the project, she took a vacation.",
+          "❌ Having finished the project, the deadline was missed."
+        ]
+      },
+      {
+        "text": "Mệnh đề phân từ mang tính trang trọng, thích hợp cho văn bản học thuật, báo cáo; trong giao tiếp thông thường nên dùng câu đầy đủ để tránh gây hiểu lầm.",
+        "examples": [
+          "✅ Having considered the evidence, the court ruled accordingly."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu không có can thiệp kịp thời, căng thẳng kéo dài sẽ dẫn đến sự suy giảm cả về sức khỏe thể chất lẫn tinh thần.",
+      "Sau khi đã xác định các dấu hiệu sớm, các tổ chức và nhà cung cấp dịch vụ y tế có thể can thiệp trước khi khủng hoảng leo thang.",
+      "Mặc dù đã nhận thức được lợi ích của chánh niệm, nhiều người vẫn tiếp tục các cách đối phó không thích hợp."
+    ]
   }
 }

@@ -885,10 +885,22 @@
       ]
     },
     "usage_notes": [
-      "Một điểm quan trọng cần lưu ý là 'in' thường được sử dụng với các không gian lớn, như thành phố, quốc gia, trong khi 'at' được sử dụng với các địa điểm cụ thể, như nhà, trường học.",
-      "Khi sử dụng 'on', cần lưu ý rằng nó thường được sử dụng với các bề mặt, như bàn, tường, nhưng cũng có thể được sử dụng với các ngày trong tuần, như 'on Monday'.",
-      "Sự khác biệt giữa 'next to' và 'opposite' là rất quan trọng, vì 'next to' chỉ vị trí bên cạnh, trong khi 'opposite' chỉ vị trí đối diện.",
-      "Một lỗi phổ biến của người học tiếng Việt là sử dụng 'in' và 'on' không chính xác, vì vậy cần phải luyện tập và chú ý đến cách sử dụng của từng giới từ."
+      {
+        "text": "Một điểm quan trọng cần lưu ý là 'in' thường được sử dụng với các không gian lớn, như thành phố, quốc gia, trong khi 'at' được sử dụng với các địa điểm cụ thể, như nhà, trường học.",
+        "examples": []
+      },
+      {
+        "text": "Khi sử dụng 'on', cần lưu ý rằng nó thường được sử dụng với các bề mặt, như bàn, tường, nhưng cũng có thể được sử dụng với các ngày trong tuần, như 'on Monday'.",
+        "examples": []
+      },
+      {
+        "text": "Sự khác biệt giữa 'next to' và 'opposite' là rất quan trọng, vì 'next to' chỉ vị trí bên cạnh, trong khi 'opposite' chỉ vị trí đối diện.",
+        "examples": []
+      },
+      {
+        "text": "Một lỗi phổ biến của người học tiếng Việt là sử dụng 'in' và 'on' không chính xác, vì vậy cần phải luyện tập và chú ý đến cách sử dụng của từng giới từ.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Tôi sống trong một khu vực nhỏ gần trung tâm thành phố.",

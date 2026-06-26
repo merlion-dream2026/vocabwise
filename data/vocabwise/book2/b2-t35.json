@@ -744,7 +744,7 @@
     "form": {
       "positive": "Both + Subject + Verb + Object, and + Subject + Verb + Object; Either + Subject + Verb + Object, or + Subject + Verb + Object; Neither + Subject + Verb + Object, nor + Subject + Verb + Object"
     },
-    "rule_vi": "Dùng both để nói về hai đối tượng cùng đúng; either cho một trong hai lựa chọn; neither cho không có lựa chọn nào.",
+    "rule_vi": "Both, either và neither là các từ dùng để nói về hai đối tượng hoặc hai lựa chọn. Both chỉ cả hai đều đúng hoặc cùng tồn tại; either chỉ một trong hai lựa chọn; neither chỉ không có lựa chọn nào trong hai. Cấu trúc: both + danh từ (số nhiều) hoặc both of + danh từ; either / neither + danh từ (số ít) hoặc either/neither of + danh từ. Khi theo sau động từ, both yêu cầu động từ số nhiều, còn either và neither yêu cầu động từ số ít.",
     "rule_en": "Use both for two items together, either for one of two choices, and neither for none of the two.",
     "common_error": "❌ *Either* the students and the teachers will present. → ✅ *Both* the students and the teachers will present.",
     "in_context": [
@@ -896,6 +896,44 @@
           "answer": "either"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Both thường đứng trước danh từ số nhiều; either và neither thường đứng trước danh từ số ít.",
+        "examples": [
+          "❌ Both student is ready → ✅ Both students are ready",
+          "❌ Either books are interesting → ✅ Either book is interesting"
+        ]
+      },
+      {
+        "text": "Khi danh từ đã có determiner (the, my, these...), dùng both/either/neither of + danh từ.",
+        "examples": [
+          "✅ Both of the speakers are fluent",
+          "❌ Both the speakers are fluent → ✅ Both of the speakers are fluent"
+        ]
+      },
+      {
+        "text": "Sau both, động từ dùng số nhiều; sau either hoặc neither, động từ dùng số ít.",
+        "examples": [
+          "✅ Both cats sleep",
+          "❌ Both cat sleeps → ✅ Both cats sleep",
+          "✅ Either option works",
+          "❌ Either options works → ✅ Either option works"
+        ]
+      },
+      {
+        "text": "Both ... and ...; neither ... nor ... dùng để liên kết hai thành phần.",
+        "examples": [
+          "✅ Both the government and the community support the program",
+          "❌ Both the government or the community support → ✅ Both the government and the community support",
+          "✅ Neither the teacher nor the students were late"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Mọi người có thể chọn học cả một ngôn ngữ chiếm ưu thế và một ngôn ngữ thiểu số.",
+      "Bạn có thể học tiếng Pháp hoặc tiếng Đức tại trường đại học.",
+      "Chính phủ và cộng đồng địa phương đều không tài trợ cho chương trình bảo tồn ngôn ngữ."
+    ]
   }
 }

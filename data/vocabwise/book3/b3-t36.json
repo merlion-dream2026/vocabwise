@@ -733,7 +733,7 @@
       "positive": "Subject + verb + not only + Verb1 + but also + Verb2\nSubject + verb + both + Noun1 + and + Noun2\nSubject + verb + either + Option1 + or + Option2",
       "variant": "both ... and"
     },
-    "rule_vi": "Dùng cấu trúc song song để liệt kê hai yếu tố đồng thời, giúp câu văn cân bằng và mạch lạc.",
+    "rule_vi": "Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sánh hai (hoặc nhiều) yếu tố đồng thời, giúp câu cân bằng và mạch lạc. Nó thường xuất hiện dưới dạng các cặp liên từ như not only...but also, both...and, either...or. Yêu cầu các thành phần đứng sau mỗi liên từ phải có cùng dạng ngữ pháp (danh từ, động từ, tính từ, cụm danh từ, v.v.). Khi dùng, hãy đặt cặp liên từ ngay trước mỗi thành phần để duy trì tính song song.",
     "rule_en": "Use parallel structures to join two equivalent elements, ensuring grammatical balance.",
     "common_error": "❌ The program improves not only students' skills but also their motivation and confidence.  →  ✅ The program improves not only students' skills but also their motivation.",
     "in_context": [
@@ -884,6 +884,37 @@
           "answer": "not only"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Các thành phần sau cặp liên từ phải đồng dạng về ngữ pháp; nếu một thành phần là động từ nguyên thể thì thành phần còn lại cũng phải là động từ nguyên thể.",
+        "examples": [
+          "❌ not only read books but also writing essays → ✅ not only read books but also write essays"
+        ]
+      },
+      {
+        "text": "Cấu trúc song song thường mang tính trang trọng; trong giao tiếp thân mật có thể thay bằng các liên từ đơn giản như and, or.",
+        "examples": [
+          "Both the teacher and the students are invited. (formal) → The teacher and the students are invited. (informal)"
+        ]
+      },
+      {
+        "text": "Khi dùng both...and, số lượng và dạng của hai thành phần phải khớp; lỗi thường gặp là không đồng nhất về số ít/số nhiều.",
+        "examples": [
+          "❌ both the teacher and the students is ready → ✅ both the teacher and the students are ready"
+        ]
+      },
+      {
+        "text": "Trong câu phủ định, either...or không đi cùng với not; thay vào đó dùng neither...nor.",
+        "examples": [
+          "❌ not either...or → ✅ either...or (positive) / neither...nor (negative)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc hỗ trợ có hiệu quả giúp các nhà giáo dục phát triển khả năng đọc hiểu phản biện, trang bị cho học sinh không chỉ biết đọc mà còn có khả năng đặt câu hỏi về các giả định ẩn trong văn bản và phương tiện truyền thông.",
+      "Thuyết kiến tạo cho rằng người học xây dựng hiểu biết thông qua sự tương tác tích cực với môi trường — một quan điểm đòi hỏi các nhà giáo dục phải suy nghĩ lại cả phương pháp sư phạm và thiết kế chương trình học để ưu tiên việc tạo ra ý nghĩa hơn là ghi nhớ máy móc.",
+      "Các nhà giáo dục phải quyết định liệu có nên tập trung vào việc truyền đạt nội dung thông qua giảng bài hay qua các dự án hợp tác."
+    ]
   }
 }

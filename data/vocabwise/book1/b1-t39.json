@@ -884,10 +884,22 @@
       ]
     },
     "usage_notes": [
-      "Khi sử dụng liên từ trình tự, cần lưu ý đến vị trí của chúng trong câu, thường là ở đầu hoặc giữa câu để kết nối các bước hoặc sự kiện.",
-      "Sử dụng first để bắt đầu một quy trình hoặc câu chuyện, và then, next, after that để tiếp tục mô tả các bước tiếp theo.",
-      "Liên từ trình tự có thể được sử dụng trong cả câu chuyện và quy trình, giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện.",
-      "Lưu ý không nhầm lẫn giữa các liên từ trình tự, vì mỗi từ có ý nghĩa và vị trí sử dụng riêng biệt."
+      {
+        "text": "Khi sử dụng liên từ trình tự, cần lưu ý đến vị trí của chúng trong câu, thường là ở đầu hoặc giữa câu để kết nối các bước hoặc sự kiện.",
+        "examples": []
+      },
+      {
+        "text": "Sử dụng first để bắt đầu một quy trình hoặc câu chuyện, và then, next, after that để tiếp tục mô tả các bước tiếp theo.",
+        "examples": []
+      },
+      {
+        "text": "Liên từ trình tự có thể được sử dụng trong cả câu chuyện và quy trình, giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện.",
+        "examples": []
+      },
+      {
+        "text": "Lưu ý không nhầm lẫn giữa các liên từ trình tự, vì mỗi từ có ý nghĩa và vị trí sử dụng riêng biệt.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Chúng tôi đổ một chất lỏng lạnh vào cốc và sau đó thêm thứ gì đó nóng.",

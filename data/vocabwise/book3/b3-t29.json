@@ -665,7 +665,7 @@
       "question": "Do/Does Subject + Verb + (to / into) + AbstractNoun?",
       "variant": "Subject + Verb + oneself + (to / into) + AbstractNoun"
     },
-    "rule_vi": "Khi một danh từ trừu tượng diễn tả một khái niệm chung, ta dùng giới từ thích hợp (to, into) sau động từ để chỉ hướng hoặc mục tiêu.",
+    "rule_vi": "Giới từ đi kèm với danh từ trừu tượng (như integration, contribution, adaptation) chỉ hướng, mục tiêu hoặc đối tượng của hành động. Khi danh từ trừu tượng đứng sau động từ, ta thường dùng to, into hoặc for tùy vào nghĩa: adapt **to** something, integrate **into** something, contribute **to** something. Cấu trúc cơ bản là: Động từ + giới từ + danh từ trừu tượng. Những động từ này thường diễn tả quá trình thay đổi, ảnh hưởng hoặc tham gia.",
     "rule_en": "Use the appropriate preposition (to, into) after abstract nouns to indicate direction or relationship.",
     "common_error": "❌ She contributed the project  →  ✅ She contributed to the project",
     "in_context": [
@@ -819,6 +819,39 @@
           "answer": "assimilate"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Chọn giới từ phù hợp với động từ: ‘adapt’ luôn đi với ‘to’, không dùng ‘into’.",
+        "examples": [
+          "❌ adapt into a new culture → ✅ adapt to a new culture"
+        ]
+      },
+      {
+        "text": "‘Integrate’ khi nói về việc hòa nhập vào một môi trường, cộng đồng thì dùng ‘into’; nếu dùng trực tiếp với tân ngữ, nghĩa là kết hợp chặt chẽ hơn.",
+        "examples": [
+          "✅ integrate refugees into society",
+          "✅ integrate the refugees"
+        ]
+      },
+      {
+        "text": "‘Contribute’ chỉ đi với ‘to’ khi theo sau là danh từ trừu tượng; không dùng ‘for’ hoặc ‘into’.",
+        "examples": [
+          "❌ contribute for the project → ✅ contribute to the project"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, các cụm này thường xuất hiện; trong giao tiếp thân mật có thể thay bằng các động từ đồng nghĩa như ‘help’, ‘adjust’.",
+        "examples": [
+          "✅ contribute to a more inclusive society",
+          "✅ help make society more inclusive"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Hành trình hướng tới sự hòa nhập — quá trình mà những người mới đến tham gia đầy đủ vào đời sống xã hội, kinh tế và công dân của xã hội tiếp nhận — hiếm khi diễn ra nhanh chóng.",
+      "Nỗ lực chống lại sự kỳ thị người nước ngoài thông qua giáo dục và đối thoại cộng đồng góp phần tạo ra một xã hội bao dung hơn.",
+      "Người di cư phải thích nghi với các hệ thống pháp luật mới, những hệ thống này quyết định tình trạng của họ."
+    ]
   }
 }

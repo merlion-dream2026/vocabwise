@@ -829,10 +829,22 @@
       ]
     },
     "usage_notes": [
-      "Khi sử dụng số thứ tự, cần lưu ý rằng một số số đếm có dạng đặc biệt, như one trở thành first, nhưng five trở thành fifth.",
-      "Số thứ tự thường được sử dụng trong các tình huống như điểm danh, xếp hạng, hoặc chỉ vị trí trong một danh sách.",
-      "Số đếm và số thứ tự có thể được sử dụng cùng nhau trong một câu để chỉ số lượng và vị trí, ví dụ: I have five books, and this is the first one.",
-      "Khi viết số thứ tự, cần lưu ý rằng một số số thứ tự có dạng viết tắt, như 1st, 2nd, 3rd, nhưng khi viết đầy đủ, cần sử dụng hậu tố -st, -nd, -rd, hoặc -th."
+      {
+        "text": "Khi sử dụng số thứ tự, cần lưu ý rằng một số số đếm có dạng đặc biệt, như one trở thành first, nhưng five trở thành fifth.",
+        "examples": []
+      },
+      {
+        "text": "Số thứ tự thường được sử dụng trong các tình huống như điểm danh, xếp hạng, hoặc chỉ vị trí trong một danh sách.",
+        "examples": []
+      },
+      {
+        "text": "Số đếm và số thứ tự có thể được sử dụng cùng nhau trong một câu để chỉ số lượng và vị trí, ví dụ: I have five books, and this is the first one.",
+        "examples": []
+      },
+      {
+        "text": "Khi viết số thứ tự, cần lưu ý rằng một số số thứ tự có dạng viết tắt, như 1st, 2nd, 3rd, nhưng khi viết đầy đủ, cần sử dụng hậu tố -st, -nd, -rd, hoặc -th.",
+        "examples": []
+      }
     ],
     "in_context_vi": [
       "Câu hỏi đầu tiên là: một nửa của hai mươi là gì?",

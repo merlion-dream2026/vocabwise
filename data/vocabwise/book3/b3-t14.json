@@ -689,7 +689,7 @@
     "form": {
       "positive": "Subject + Verb + Noun + Preposition + Object"
     },
-    "rule_vi": "Khi một danh từ đi cùng với một giới từ cố định, chúng tạo thành collocation và không thể thay đổi thành phần giới từ.",
+    "rule_vi": "Collocation danh từ + giới từ là một cụm từ cố định, trong đó giới từ được quy định sẵn cho mỗi danh từ và không thể thay đổi. Khi danh từ yêu cầu một giới từ nhất định, giới từ đó phải đứng ngay sau danh từ và nối với một danh từ hoặc cụm danh từ khác. Cấu trúc này thường mang tính chất ngữ nghĩa cố định, vì vậy người học cần ghi nhớ từng cặp danh từ‑giới từ. Đối với các collocation ở mức C1/C2, chúng thường xuất hiện trong văn viết học thuật và diễn đạt chính xác các quan hệ logic.",
     "rule_en": "When a noun is followed by a fixed preposition, they form a collocation that must be learned as a unit.",
     "common_error": "❌ Researchers have access happiness.  →  ✅ Researchers have access to happiness.",
     "in_context": [
@@ -838,6 +838,37 @@
           "answer": "rely on"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Giới từ đi sau danh từ là cố định; không thể hoán đổi sang một giới từ khác.",
+        "examples": [
+          "❌ impact of happiness → ✅ impact on happiness"
+        ]
+      },
+      {
+        "text": "Giới từ phải đứng ngay sau danh từ, không được chèn vào giữa danh từ và các thành phần khác.",
+        "examples": [
+          "❌ belief *deeply* in the approach → ✅ belief in the approach"
+        ]
+      },
+      {
+        "text": "Nhiều collocation danh từ + giới từ mang tính trang trọng, thích hợp trong văn viết học thuật; trong giao tiếp thân mật có thể dùng cách diễn đạt khác.",
+        "examples": [
+          "❌ Researchers can get data → ✅ Researchers have access to data"
+        ]
+      },
+      {
+        "text": "Tiếng Việt thường dùng động từ để diễn tả quan hệ, vì vậy người học dễ nhầm lẫn khi dịch trực tiếp sang tiếng Anh; cần nhớ rằng danh từ + giới từ là một khối không tách rời.",
+        "examples": [
+          "❌ They have belief the access to → ✅ They have access to"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các nhà nghiên cứu có quyền truy cập vào các khảo sát theo dõi quy mô lớn trong thời gian dài, ghi lại dữ liệu của hàng ngàn cá nhân trong suốt nhiều thập kỷ.",
+      "Nghiên cứu xem xét tác động của kết nối xã hội đến hạnh phúc, cho thấy các mối quan hệ là yếu tố dự đoán mạnh hơn thu nhập.",
+      "Niềm tin của họ vào cách tiếp cận khoái lạc là nền tảng cho nhiều can thiệp đã được thảo luận."
+    ]
   }
 }

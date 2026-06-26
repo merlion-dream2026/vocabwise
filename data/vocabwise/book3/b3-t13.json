@@ -736,7 +736,7 @@
       "question": "Is it + past participle + that + clause?",
       "variant": "It has been + past participle + that + clause"
     },
-    "rule_vi": "Cấu trúc này dùng để đưa ra nhận định chung, không chỉ ra người thực hiện hành động.",
+    "rule_vi": "Bị động phi nhân xưng phức tạp là cấu trúc dùng để đưa ra nhận định chung, không chỉ ra người thực hiện hành động. Dạng phổ biến là It is + tính từ (hoặc cụm tính từ) + that + mệnh đề, trong đó it là chủ ngữ giả và that‑clause chứa thông tin thực tế. Cấu trúc này thường xuất hiện trong văn viết trang trọng, báo cáo, nghiên cứu để nhấn mạnh quan điểm chung hoặc kết quả được chấp nhận rộng rãi. Nó không thể hoán đổi vị trí của that‑clause và phải giữ nguyên thứ tự như trên.",
     "rule_en": "Use this structure to present an accepted fact or opinion without naming the agent.",
     "common_error": "❌ It is recognised widely that...  →  ✅ It is widely recognised that...",
     "in_context": [
@@ -894,6 +894,37 @@
           "answer": "recognised"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tính từ phải đứng ngay sau it và trước that‑clause; không được chèn bất kỳ thành phần nào giữa chúng.",
+        "examples": [
+          "❌ It is that widely recognised → ✅ It is widely recognised that..."
+        ]
+      },
+      {
+        "text": "It là chủ ngữ giả, không thể thay bằng một danh từ thực; câu không thể đảo vị trí để đưa that‑clause lên đầu.",
+        "examples": [
+          "❌ That morbidity rates are higher is widely recognised → ✅ It is widely recognised that morbidity rates are higher."
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng; trong giao tiếp không chính thức có thể dùng “people recognise that” hoặc “it’s known that”.",
+        "examples": [
+          "✅ It is widely recognised that... (formal) → ❌ It’s known that... (informal)"
+        ]
+      },
+      {
+        "text": "Trong văn viết học thuật, từ “that” thường không được lược bỏ; nếu bỏ, câu sẽ mất tính trang trọng và có thể gây hiểu lầm.",
+        "examples": [
+          "❌ It is widely recognised … morbidity rates are higher → ✅ It is widely recognised that morbidity rates are higher."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Được công nhận rộng rãi rằng tỷ lệ mắc bệnh — tần suất bệnh và bệnh tật — cao hơn đáng kể ở các cộng đồng nghèo.",
+      "Được công nhận rộng rãi rằng các mô hình dựa vào lợi nhuận khuyến khích các nhà cung cấp điều trị các bệnh có lợi nhuận cao hơn thay vì các trường hợp khẩn cấp nhưng ít lợi nhuận.",
+      "Được công nhận rộng rãi rằng không ai nên chịu đựng hoặc chết vì thiếu khả năng tài chính."
+    ]
   }
 }
