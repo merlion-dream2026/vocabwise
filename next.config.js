@@ -17,6 +17,9 @@ const nextConfig = {
   compress: true,
   experimental: {
     optimizePackageImports: ['@phosphor-icons/react', 'recharts'],
+    outputFileTracingIncludes: {
+      '/vocabwise/\\[book\\]/\\[topicId\\]': ['./data/vocabwise/**/*.json'],
+    },
   },
   async headers() {
     return [
