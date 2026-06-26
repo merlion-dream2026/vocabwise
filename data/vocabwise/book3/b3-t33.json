@@ -722,5 +722,167 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Stance markers (arguably / it appears / may be said to)",
+    "vi_grammar_point": "Marker lập trường trong học thuật",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Stance marker + (that) + Verb phrase",
+      "variant": "it seems that / it could be argued that"
+    },
+    "rule_vi": "Dùng các marker này để thể hiện quan điểm một cách thận trọng, tránh khẳng định tuyệt đối trong văn viết học thuật.",
+    "rule_en": "Use these markers to express a cautious stance, signalling that a claim is not presented as an absolute fact.",
+    "common_error": "❌ *It appears* that the evidence is conclusive → ✅ *It appears* that the evidence is suggestive",
+    "in_context": [
+      "Scholars who study historiography argue that arguably acknowledging this limitation is the first step towards more honest and rigorous historical inquiry.",
+      "When new evidence emerges or archival sources are re‑examined, it appears that historians must be willing to revise long‑held conclusions.",
+      "Bias, whether ideological, cultural, or national, may be said to colour the interpretation of evidence, making it essential to challenge singular narratives."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn marker lập trường phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The recent data ___ suggest a shift in public opinion towards sustainability.",
+          "options": [
+            "arguably",
+            "clearly",
+            "undoubtedly",
+            "it appears"
+          ],
+          "answer": "arguably"
+        },
+        {
+          "id": 2,
+          "sentence": "Given the fragmented sources, ___ that the early manuscript was widely circulated.",
+          "options": [
+            "may be said to",
+            "it appears",
+            "definitely",
+            "certainly"
+          ],
+          "answer": "it appears"
+        },
+        {
+          "id": 3,
+          "sentence": "The policy's impact on marginalised groups ___ be considered indirect rather than direct.",
+          "options": [
+            "may be said to",
+            "obviously",
+            "clearly",
+            "it appears"
+          ],
+          "answer": "may be said to"
+        },
+        {
+          "id": 4,
+          "sentence": "While the theory is compelling, ___ that it fully explains the phenomenon.",
+          "options": [
+            "it appears",
+            "arguably",
+            "undeniably",
+            "certainly"
+          ],
+          "answer": "arguably"
+        },
+        {
+          "id": 5,
+          "sentence": "The author's tone ___ reflect a bias towards Western perspectives.",
+          "options": [
+            "may be said to",
+            "clearly",
+            "obviously",
+            "it appears"
+          ],
+          "answer": "may be said to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "arguably",
+            "the",
+            "findings",
+            "are",
+            "preliminary"
+          ],
+          "answer": "arguably the findings are preliminary"
+        },
+        {
+          "id": 2,
+          "words": [
+            "it",
+            "appears",
+            "that",
+            "the",
+            "committee",
+            "will",
+            "delay",
+            "the",
+            "decision"
+          ],
+          "answer": "it appears that the committee will delay the decision"
+        },
+        {
+          "id": 3,
+          "words": [
+            "may",
+            "be",
+            "said",
+            "to",
+            "the",
+            "results",
+            "reflect",
+            "a",
+            "bias"
+          ],
+          "answer": "may be said to the results reflect a bias"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "arguably",
+        "it appears",
+        "may be said to",
+        "clearly",
+        "undoubtedly",
+        "perhaps"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The correlation between the variables ___ be interpreted with caution.",
+          "answer": "may be said to"
+        },
+        {
+          "id": 2,
+          "sentence": "Given the limited sample size, ___ that the results are indicative rather than definitive.",
+          "answer": "it appears"
+        },
+        {
+          "id": 3,
+          "sentence": "The author's claim ___ overstated, considering the contradictory evidence.",
+          "answer": "arguably"
+        },
+        {
+          "id": 4,
+          "sentence": "The new framework ___ improve interdisciplinary collaboration across departments.",
+          "answer": "may be said to"
+        },
+        {
+          "id": 5,
+          "sentence": "Considering the historical context, ___ that the policy was progressive for its time.",
+          "answer": "it appears"
+        }
+      ]
+    }
   }
 }

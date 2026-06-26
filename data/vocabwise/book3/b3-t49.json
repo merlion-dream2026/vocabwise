@@ -722,5 +722,171 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Narrative grammar — flashback and foreshadowing (past perfect / was going to)",
+    "vi_grammar_point": "Ngữ pháp tự sự — hồi ký và dự báo",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + had + past participle",
+      "negative": "Subject + had not + past participle",
+      "question": "Had + subject + past participle?",
+      "variant": "Subject + was/were going to + base verb"
+    },
+    "rule_vi": "Dùng quá khứ hoàn thành để mô tả hành động đã xảy ra trước một thời điểm trong quá khứ; dùng 'was/were going to' để dự báo một hành động sắp tới trong quá khứ.",
+    "rule_en": "Use the past perfect for flashbacks and 'was/were going to' for foreshadowing in past narratives.",
+    "common_error": "❌ *She had went* to the conference → ✅ *She had gone* to the conference",
+    "in_context": [
+      "Speakers who had mastered pacing knew when to slow down for emphasis.",
+      "The presenter was going to illustrate the point with a visual aid, but the projector failed.",
+      "If the audience had responded positively, the speaker would have extended the discussion."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "By the time the conference started, the organizer _____ all the handouts.",
+          "options": [
+            "prepared",
+            "had prepared",
+            "will prepare",
+            "was preparing"
+          ],
+          "answer": "had prepared"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ present the case study, but the time ran out.",
+          "options": [
+            "had gone",
+            "will go",
+            "went",
+            "was going to"
+          ],
+          "answer": "was going to"
+        },
+        {
+          "id": 3,
+          "sentence": "After the audience _____ a question, the speaker clarified the point.",
+          "options": [
+            "had asked",
+            "will ask",
+            "asked",
+            "was asking"
+          ],
+          "answer": "had asked"
+        },
+        {
+          "id": 4,
+          "sentence": "They _____ launch the new product next week, but the budget was cut.",
+          "options": [
+            "had been",
+            "were going to",
+            "are",
+            "will be"
+          ],
+          "answer": "were going to"
+        },
+        {
+          "id": 5,
+          "sentence": "If I _____ about the delay, I would have postponed the meeting.",
+          "options": [
+            "had known",
+            "was knowing",
+            "knew",
+            "will know"
+          ],
+          "answer": "had known"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "quiz",
+            "before",
+            "the",
+            "explained",
+            "theory",
+            "had",
+            "lecturer",
+            "The"
+          ],
+          "answer": "The lecturer had explained the theory before the quiz"
+        },
+        {
+          "id": 2,
+          "words": [
+            "demonstrate",
+            "going",
+            "She",
+            "the",
+            "lights",
+            "was",
+            "flickered",
+            "to",
+            "experiment",
+            "when"
+          ],
+          "answer": "She was going to demonstrate the experiment when the lights flickered"
+        },
+        {
+          "id": 3,
+          "words": [
+            "deadline",
+            "by",
+            "finished",
+            "the",
+            "had",
+            "report",
+            "They"
+          ],
+          "answer": "They had finished the report by the deadline"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "had",
+        "was",
+        "were",
+        "might",
+        "could",
+        "will"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "By the time the panel met, the committee _____ already drafted the policy.",
+          "answer": "had"
+        },
+        {
+          "id": 2,
+          "sentence": "The researcher _____ going to publish the findings, but the journal delayed.",
+          "answer": "was"
+        },
+        {
+          "id": 3,
+          "sentence": "The team _____ going to present their project when the power cut occurred.",
+          "answer": "were"
+        },
+        {
+          "id": 4,
+          "sentence": "If the manager _____ known about the issue, she would have intervened earlier.",
+          "answer": "had"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ going to submit the article, yet he missed the deadline.",
+          "answer": "was"
+        }
+      ]
+    }
   }
 }

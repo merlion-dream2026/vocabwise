@@ -724,5 +724,176 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Impersonal passive + complex reporting (It is widely recognised that...)",
+    "vi_grammar_point": "Bị động phi nhân xưng phức tạp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be (present) + past participle + that + clause",
+      "negative": "It + be (present) + not + past participle + that + clause",
+      "question": "Is it + past participle + that + clause?",
+      "variant": "It has been + past participle + that + clause"
+    },
+    "rule_vi": "Cấu trúc này dùng để đưa ra nhận định chung, không chỉ ra người thực hiện hành động.",
+    "rule_en": "Use this structure to present an accepted fact or opinion without naming the agent.",
+    "common_error": "❌ It is recognised widely that...  →  ✅ It is widely recognised that...",
+    "in_context": [
+      "It is widely recognised that morbidity rates — the prevalence of illness and disease — are significantly higher in deprived communities.",
+      "It is widely recognised that profit‑driven models incentivise providers to treat profitable conditions over urgent but less lucrative ones.",
+      "It is widely recognised that no person should suffer or die due to lack of financial means."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "______ that the allocation of resources is often influenced by political agendas.",
+          "options": [
+            "It is widely recognised",
+            "It is generally believed",
+            "It is commonly thought",
+            "It is widely accepted"
+          ],
+          "answer": "It is widely recognised"
+        },
+        {
+          "id": 2,
+          "sentence": "______ that preventive care can reduce long‑term healthcare costs.",
+          "options": [
+            "It is often ignored",
+            "It is widely recognised",
+            "It is rarely acknowledged",
+            "It is seldom noted"
+          ],
+          "answer": "It is widely recognised"
+        },
+        {
+          "id": 3,
+          "sentence": "______ that underfunded emergency departments struggle to meet demand.",
+          "options": [
+            "It is widely recognised",
+            "It is clearly evident",
+            "It is absolutely certain",
+            "It is undeniably true"
+          ],
+          "answer": "It is widely recognised"
+        },
+        {
+          "id": 4,
+          "sentence": "______ that health inequalities persist despite overall improvements in life expectancy.",
+          "options": [
+            "It is widely recognised",
+            "It is obviously false",
+            "It is completely unknown",
+            "It is rarely seen"
+          ],
+          "answer": "It is widely recognised"
+        },
+        {
+          "id": 5,
+          "sentence": "______ that market‑based healthcare can exacerbate social disparities.",
+          "options": [
+            "It is definitely disproved",
+            "It is widely recognised",
+            "It is hardly relevant",
+            "It is seldom discussed"
+          ],
+          "answer": "It is widely recognised"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "widely",
+            "recognised",
+            "that",
+            "access",
+            "to",
+            "care",
+            "remains",
+            "unequal"
+          ],
+          "answer": "It is widely recognised that access to care remains unequal"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "widely",
+            "recognised",
+            "that",
+            "preventive",
+            "measures",
+            "lower",
+            "mortality",
+            "rates"
+          ],
+          "answer": "It is widely recognised that preventive measures lower mortality rates"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "widely",
+            "recognised",
+            "that",
+            "underfunding",
+            "leads",
+            "to",
+            "structural",
+            "failures"
+          ],
+          "answer": "It is widely recognised that underfunding leads to structural failures"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu.",
+      "word_bank": [
+        "widely",
+        "recognised",
+        "rarely",
+        "occasionally",
+        "frequently",
+        "seldom"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "______ it is recognised that health policy shapes outcomes.",
+          "answer": "widely"
+        },
+        {
+          "id": 2,
+          "sentence": "______ it is recognised that preventive care saves costs.",
+          "answer": "widely"
+        },
+        {
+          "id": 3,
+          "sentence": "______ it is recognised that underfunded systems fail to meet demand.",
+          "answer": "widely"
+        },
+        {
+          "id": 4,
+          "sentence": "It is ______ recognised that market mechanisms can increase inequality.",
+          "answer": "widely"
+        },
+        {
+          "id": 5,
+          "sentence": "It is widely ______ that access to medication varies by region.",
+          "answer": "recognised"
+        }
+      ]
+    }
   }
 }

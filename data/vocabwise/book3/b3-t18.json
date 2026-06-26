@@ -730,5 +730,174 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Embedded questions (I wonder whether... / The question is what...)",
+    "vi_grammar_point": "Câu hỏi gián tiếp lồng ghép",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "I wonder whether + clause (subject + verb)",
+      "negative": "I wonder whether + clause with negative meaning (e.g., I wonder whether the experiment will not fail)",
+      "question": "The question is what + clause (subject + verb)",
+      "variant": "I wonder if + clause (subject + verb)"
+    },
+    "rule_vi": "Dùng để đưa ra câu hỏi gián tiếp, thường bắt đầu bằng I wonder whether/if hoặc The question is what, không dùng dấu hỏi.",
+    "rule_en": "Use embedded questions to report curiosity or uncertainty without a direct question mark.",
+    "common_error": "❌ I wonder, whether the mission will succeed?  →  ✅ I wonder whether the mission will succeed",
+    "in_context": [
+      "I wonder whether a spacecraft entering orbit around a distant planet transmits data that allows scientists to map surfaces, measure atmosphere, and search for signs of life.",
+      "The question is what the propulsion systems required to launch interstellar missions must generate to achieve thrust on an unprecedented scale.",
+      "I wonder whether radiation exposure, muscle atrophy, and psychological isolation pose serious risks to extraterrestrial crews."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ đúng để hoàn thành câu với câu hỏi gián tiếp lồng ghép.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I wonder _____ the rover will detect water ice beneath the Martian surface.",
+          "options": [
+            "how the rover will detect water ice beneath the Martian surface",
+            "what the rover will detect water ice beneath the Martian surface",
+            "if the rover will detect water ice beneath the Martian surface",
+            "whether the rover will detect water ice beneath the Martian surface"
+          ],
+          "answer": "whether the rover will detect water ice beneath the Martian surface"
+        },
+        {
+          "id": 2,
+          "sentence": "The question is _____ the new telescope can resolve distant exoplanet atmospheres.",
+          "options": [
+            "if the new telescope can resolve distant exoplanet atmospheres",
+            "what the new telescope can resolve distant exoplanet atmospheres",
+            "whether the new telescope can resolve distant exoplanet atmospheres",
+            "how the new telescope can resolve distant exoplanet atmospheres"
+          ],
+          "answer": "whether the new telescope can resolve distant exoplanet atmospheres"
+        },
+        {
+          "id": 3,
+          "sentence": "Scientists are unsure _____ the particle accelerator will achieve the required energy levels.",
+          "options": [
+            "how the particle accelerator will achieve the required energy levels",
+            "if the particle accelerator will achieve the required energy levels",
+            "whether the particle accelerator will achieve the required energy levels",
+            "what the particle accelerator will achieve the required energy levels"
+          ],
+          "answer": "whether the particle accelerator will achieve the required energy levels"
+        },
+        {
+          "id": 4,
+          "sentence": "She asked herself _____ the mission timeline could be shortened without compromising safety.",
+          "options": [
+            "if the mission timeline could be shortened without compromising safety",
+            "how the mission timeline could be shortened without compromising safety",
+            "whether the mission timeline could be shortened without compromising safety",
+            "what the mission timeline could be shortened without compromising safety"
+          ],
+          "answer": "whether the mission timeline could be shortened without compromising safety"
+        },
+        {
+          "id": 5,
+          "sentence": "The committee debated _____ the funding allocation would cover all necessary research phases.",
+          "options": [
+            "how the funding allocation would cover all necessary research phases",
+            "if the funding allocation would cover all necessary research phases",
+            "whether the funding allocation would cover all necessary research phases",
+            "what the funding allocation would cover all necessary research phases"
+          ],
+          "answer": "whether the funding allocation would cover all necessary research phases"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "wonder",
+            "I",
+            "whether",
+            "the",
+            "probe",
+            "will",
+            "capture",
+            "high‑resolution",
+            "images"
+          ],
+          "answer": "I wonder whether the probe will capture high‑resolution images"
+        },
+        {
+          "id": 2,
+          "words": [
+            "question",
+            "The",
+            "is",
+            "what",
+            "future",
+            "space",
+            "policy",
+            "requires",
+            "global",
+            "cooperation"
+          ],
+          "answer": "The question is what future space policy requires global cooperation"
+        },
+        {
+          "id": 3,
+          "words": [
+            "wonder",
+            "Scientists",
+            "if",
+            "the",
+            "new",
+            "sensor",
+            "can",
+            "detect",
+            "micrometeoroids"
+          ],
+          "answer": "Scientists wonder if the new sensor can detect micrometeoroids"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống, tạo câu hỏi gián tiếp lồng ghép.",
+      "word_bank": [
+        "whether",
+        "if",
+        "what",
+        "how",
+        "when",
+        "why"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I wonder _____ the satellite will maintain its orbit for ten years.",
+          "answer": "whether"
+        },
+        {
+          "id": 2,
+          "sentence": "The question is _____ the data suggests a new physics model.",
+          "answer": "what"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers are curious _____ the experiment will produce consistent results.",
+          "answer": "if"
+        },
+        {
+          "id": 4,
+          "sentence": "She pondered _____ the crew could cope with prolonged isolation.",
+          "answer": "how"
+        },
+        {
+          "id": 5,
+          "sentence": "We need to determine _____ the launch window opens next month.",
+          "answer": "when"
+        }
+      ]
+    }
   }
 }

@@ -670,5 +670,170 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Conditional inversion (Were he to... / Had they... / Should it...)",
+    "vi_grammar_point": "Đảo ngữ trong câu điều kiện",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Were + Subject + to + BaseVerb, ...  |  Had + Subject + PastParticiple, ...  |  Should + Subject + BaseVerb, ...",
+      "variant": "Negative inversion: Were + Subject + not to + BaseVerb, ...  |  Had + Subject + not + PastParticiple, ..."
+    },
+    "rule_vi": "Dùng đảo ngữ trong câu điều kiện để nhấn mạnh tính giả định, thường thay thế cấu trúc 'if' khi muốn diễn đạt trang trọng.",
+    "rule_en": "Use conditional inversion to replace 'if' clauses for a more formal, hypothetical expression.",
+    "common_error": "❌ *If* he were to invest, the company would profit.  →  ✅ Were he to invest, the company would profit.",
+    "in_context": [
+      "Were societies to act decisively, the cascading consequences for air quality and water supply could be mitigated.",
+      "Had policymakers implemented mitigation strategies earlier, the climate tipping point might have been avoided.",
+      "Should businesses commit to environmental stewardship, they will not merely preserve nature but also safeguard human health."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đảo ngữ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the carbon emissions continue to rise, global temperatures will exceed 2°C by 2050.",
+          "options": [
+            "Had",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "answer": "Were"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the international community had coordinated their policies, the climate crisis could be mitigated.",
+          "options": [
+            "Should",
+            "If",
+            "Had",
+            "Were"
+          ],
+          "answer": "Had"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we invest in renewable energy now, future generations will thank us.",
+          "options": [
+            "Had",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "answer": "Should"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the government were to impose a carbon tax, emissions would drop sharply.",
+          "options": [
+            "If",
+            "Should",
+            "Had",
+            "Were"
+          ],
+          "answer": "Were"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the scientists had warned earlier, we might have avoided the biodiversity loss.",
+          "options": [
+            "Should",
+            "If",
+            "Had",
+            "Were"
+          ],
+          "answer": "Had"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Had",
+            "the",
+            "UN",
+            "agreed",
+            "to",
+            "reduce",
+            "emissions",
+            "earlier"
+          ],
+          "answer": "Had the UN agreed to reduce emissions earlier"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Should",
+            "governments",
+            "prioritize",
+            "sustainability",
+            "economic",
+            "growth",
+            "will",
+            "follow"
+          ],
+          "answer": "Should governments prioritize sustainability economic growth will follow"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Were",
+            "corporations",
+            "to",
+            "adopt",
+            "circular",
+            "economy",
+            "models",
+            "waste",
+            "would",
+            "plummet"
+          ],
+          "answer": "Were corporations to adopt circular economy models waste would plummet"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Were",
+        "Had",
+        "Should",
+        "If",
+        "Would",
+        "Could"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the planet's temperature rises unchecked, irreversible damage will ensue.",
+          "answer": "Should"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the international community had funded green research, breakthroughs would be faster.",
+          "answer": "Had"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we were to implement carbon pricing today, emissions could drop dramatically.",
+          "answer": "Were"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ policymakers had recognised the urgency, adaptation measures would already be in place.",
+          "answer": "Had"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ corporations commit to net‑zero targets, they will set industry standards.",
+          "answer": "Should"
+        }
+      ]
+    }
   }
 }

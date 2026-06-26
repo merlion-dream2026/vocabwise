@@ -658,5 +658,171 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice — full range (is being / will have been / might have been)",
+    "vi_grammar_point": "Bị động — toàn dải thì và thể",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Object + be (tense) + past participle (+ by Agent)",
+      "negative": "Object + be not + past participle (+ by Agent)",
+      "question": "Be + Object + ... ?",
+      "variant": "Passive with modal verbs (might have been, will have been, is being, etc.)"
+    },
+    "rule_vi": "Dùng bị động khi muốn nhấn mạnh hành động hoặc khi người thực hiện không quan trọng hoặc không biết.",
+    "rule_en": "Use the passive to focus on the action/result rather than the doer.",
+    "common_error": "❌ The results is being published tomorrow. → ✅ The results are being published tomorrow.",
+    "in_context": [
+      "Artificial intelligence is embedded in the systems that recommend what we watch, decide who receives a loan, and determine which job applicants advance to interview.",
+      "When outcomes are unfair, accountability will have been compromised due to the opacity of the systems.",
+      "If bias is not addressed, certain groups might have been disproportionately disadvantaged by AI predictions."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng bị động thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new regulations _____ (be) enforced by the government next year.",
+          "options": [
+            "will have been",
+            "are being",
+            "might have been",
+            "has been"
+          ],
+          "answer": "will have been"
+        },
+        {
+          "id": 2,
+          "sentence": "The dataset _____ (be) cleaned before training the model.",
+          "options": [
+            "might have been",
+            "will have been",
+            "is being",
+            "was"
+          ],
+          "answer": "is being"
+        },
+        {
+          "id": 3,
+          "sentence": "Several ethical concerns _____ (be) raised during the conference.",
+          "options": [
+            "are being",
+            "will have been",
+            "has been",
+            "might have been"
+          ],
+          "answer": "might have been"
+        },
+        {
+          "id": 4,
+          "sentence": "All user data _____ (be) anonymized to protect privacy.",
+          "options": [
+            "might have been",
+            "will have been",
+            "is being",
+            "were"
+          ],
+          "answer": "is being"
+        },
+        {
+          "id": 5,
+          "sentence": "The original code _____ (be) rewritten after the security audit.",
+          "options": [
+            "has been",
+            "might have been",
+            "will have been",
+            "are being"
+          ],
+          "answer": "might have been"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "will",
+            "have",
+            "been",
+            "approved",
+            "the",
+            "policy",
+            "by",
+            "the",
+            "committee"
+          ],
+          "answer": "the policy will have been approved by the committee"
+        },
+        {
+          "id": 2,
+          "words": [
+            "is",
+            "being",
+            "monitored",
+            "the",
+            "city",
+            "by",
+            "surveillance",
+            "cameras"
+          ],
+          "answer": "the city is being monitored by surveillance cameras"
+        },
+        {
+          "id": 3,
+          "words": [
+            "might",
+            "have",
+            "been",
+            "overlooked",
+            "by",
+            "the",
+            "review",
+            "team"
+          ],
+          "answer": "the review team might have been overlooked"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng bị động thích hợp vào chỗ trống.",
+      "word_bank": [
+        "is being",
+        "will have been",
+        "might have been",
+        "are being",
+        "has been",
+        "were"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the algorithm's bias is not corrected, certain groups _____ disadvantaged.",
+          "answer": "might have been"
+        },
+        {
+          "id": 2,
+          "sentence": "The transparency report _____ released tomorrow.",
+          "answer": "will have been"
+        },
+        {
+          "id": 3,
+          "sentence": "During the audit, several undocumented changes _____ discovered.",
+          "answer": "were"
+        },
+        {
+          "id": 4,
+          "sentence": "Current AI models _____ evaluated for ethical compliance.",
+          "answer": "are being"
+        },
+        {
+          "id": 5,
+          "sentence": "The historical data _____ used to train the system.",
+          "answer": "is being"
+        }
+      ]
+    }
   }
 }

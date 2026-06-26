@@ -723,5 +723,167 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Parallel structures (not only...but also / both...and / either...or)",
+    "vi_grammar_point": "Cấu trúc song song",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + not only + Verb1 + but also + Verb2\nSubject + verb + both + Noun1 + and + Noun2\nSubject + verb + either + Option1 + or + Option2",
+      "variant": "both ... and"
+    },
+    "rule_vi": "Dùng cấu trúc song song để liệt kê hai yếu tố đồng thời, giúp câu văn cân bằng và mạch lạc.",
+    "rule_en": "Use parallel structures to join two equivalent elements, ensuring grammatical balance.",
+    "common_error": "❌ The program improves not only students' skills but also their motivation and confidence.  →  ✅ The program improves not only students' skills but also their motivation.",
+    "in_context": [
+      "Effective scaffolding enables educators to foster critical literacy, equipping students not only to read but also to interrogate the assumptions embedded in texts and media.",
+      "Constructivism holds that learners build understanding through active engagement with their environment — a position that demands educators rethink both pedagogy and the design of the curriculum to prioritise meaning-making over rote recall.",
+      "Educators must decide whether to focus on content delivery either through lecture or through collaborative projects."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để hoàn thành cấu trúc song song trong câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The study examines _____ the impact of social media _____ the role of peer influence.",
+          "options": [
+            "either",
+            "not only",
+            "both",
+            "neither"
+          ],
+          "answer": "both"
+        },
+        {
+          "id": 2,
+          "sentence": "The article argues that _____ the methodology is sound _____ the conclusions are valid.",
+          "options": [
+            "both",
+            "neither",
+            "either",
+            "not only"
+          ],
+          "answer": "not only"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers must decide _____ to focus on qualitative data _____ to prioritize quantitative analysis.",
+          "options": [
+            "either",
+            "both",
+            "neither",
+            "not only"
+          ],
+          "answer": "either"
+        },
+        {
+          "id": 4,
+          "sentence": "The conference will cover _____ the latest theories _____ practical applications.",
+          "options": [
+            "either",
+            "both",
+            "not only",
+            "neither"
+          ],
+          "answer": "not only"
+        },
+        {
+          "id": 5,
+          "sentence": "Students should develop _____ strong writing skills _____ effective presentation abilities.",
+          "options": [
+            "neither",
+            "either",
+            "both",
+            "not only"
+          ],
+          "answer": "both"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "both",
+            "research",
+            "and",
+            "practice",
+            "are",
+            "essential"
+          ],
+          "answer": "Both research and practice are essential"
+        },
+        {
+          "id": 2,
+          "words": [
+            "not",
+            "only",
+            "the",
+            "theory",
+            "but",
+            "also",
+            "the",
+            "application",
+            "matters"
+          ],
+          "answer": "Not only the theory but also the application matters"
+        },
+        {
+          "id": 3,
+          "words": [
+            "either",
+            "qualitative",
+            "or",
+            "quantitative",
+            "methods",
+            "should",
+            "be",
+            "used"
+          ],
+          "answer": "Either qualitative or quantitative methods should be used"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ hoặc cụm từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "both",
+        "not only",
+        "either",
+        "however",
+        "moreover",
+        "still"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The curriculum must address _____ the needs of gifted students _____ those of struggling learners.",
+          "answer": "both"
+        },
+        {
+          "id": 2,
+          "sentence": "The professor emphasized _____ the importance of theory _____ its practical implications.",
+          "answer": "not only"
+        },
+        {
+          "id": 3,
+          "sentence": "Researchers should consider _____ qualitative approaches _____ quantitative techniques when designing the study.",
+          "answer": "either"
+        },
+        {
+          "id": 4,
+          "sentence": "The policy aims to improve _____ teacher training _____ resource allocation across schools.",
+          "answer": "both"
+        },
+        {
+          "id": 5,
+          "sentence": "The article argues that _____ the data support the hypothesis _____ the literature review contradicts it.",
+          "answer": "not only"
+        }
+      ]
+    }
   }
 }

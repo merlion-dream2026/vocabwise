@@ -726,5 +726,182 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex stance expressions (It remains to be seen whether... / It is a moot point...)",
+    "vi_grammar_point": "Diễn đạt lập trường phức tạp",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + verb (remains / is) + to be seen / a moot point + whether/that + clause",
+      "variant": "It is a moot point whether ..."
+    },
+    "rule_vi": "Dùng cấu trúc này để bày tỏ quan điểm không chắc chắn hoặc cho thấy vấn đề còn đang tranh cãi.",
+    "rule_en": "Use this structure to express uncertainty or to indicate that an issue is debatable.",
+    "common_error": "❌ It remains to see whether the policy will work → ✅ It remains to be seen whether the policy will work",
+    "in_context": [
+      "It remains to be seen whether the concept of posthumanism truly challenges the assumption that the human form deserves preservation.",
+      "It is a moot point whether the technological singularity will inevitably lead to a post‑scarcity utopia or a dystopian future.",
+      "It remains to be seen whether societies can effectively grapple with questions of access, consent, and the distribution of enhancement technologies."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the debate over AI ethics, many scholars remain cautious about granting autonomous decision‑making to machines.",
+          "options": [
+            "It is a moot point whether",
+            "It appears that",
+            "It remains to be seen whether",
+            "It seems that"
+          ],
+          "answer": "It remains to be seen whether"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the impact of gene editing on future generations, policymakers are reluctant to legislate without further data.",
+          "options": [
+            "It remains to be seen whether",
+            "It is evident that",
+            "It is a moot point whether",
+            "It is clear that"
+          ],
+          "answer": "It is a moot point whether"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the benefits of neuroenhancement outweigh the risks, the scientific community continues rigorous trials.",
+          "options": [
+            "It is obvious that",
+            "It is a moot point whether",
+            "It remains to be seen whether",
+            "It seems that"
+          ],
+          "answer": "It remains to be seen whether"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the notion that consciousness can be fully simulated, philosophers argue that subjective experience may elude computational models.",
+          "options": [
+            "It is undeniable that",
+            "It is a moot point whether",
+            "It remains to be seen whether",
+            "It appears that"
+          ],
+          "answer": "It is a moot point whether"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the long‑term ecological consequences of nanotechnology, environmentalists call for precautionary regulations.",
+          "options": [
+            "It is a moot point whether",
+            "It is evident that",
+            "It remains to be seen whether",
+            "It appears that"
+          ],
+          "answer": "It remains to be seen whether"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "remains",
+            "to",
+            "be",
+            "seen",
+            "whether",
+            "the",
+            "policy",
+            "will",
+            "address",
+            "privacy",
+            "concerns"
+          ],
+          "answer": "It remains to be seen whether the policy will address privacy concerns"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "a",
+            "moot",
+            "point",
+            "whether",
+            "the",
+            "new",
+            "curriculum",
+            "will",
+            "reduce",
+            "inequality"
+          ],
+          "answer": "It is a moot point whether the new curriculum will reduce inequality"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "remains",
+            "to",
+            "be",
+            "seen",
+            "whether",
+            "the",
+            "global",
+            "energy",
+            "transition",
+            "can",
+            "meet",
+            "emission",
+            "targets"
+          ],
+          "answer": "It remains to be seen whether the global energy transition can meet emission targets"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để hoàn thành câu.",
+      "word_bank": [
+        "remains",
+        "is",
+        "appears",
+        "seems",
+        "looks",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ to be seen whether the proposed framework will survive legislative scrutiny.",
+          "answer": "remains"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ a moot point whether the data truly support the hypothesis.",
+          "answer": "is"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ to be seen whether the climate model can accurately predict extreme events.",
+          "answer": "remains"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ a moot point whether the ethical guidelines are sufficient for AI deployment.",
+          "answer": "is"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ to be seen whether the new translation method will outperform existing ones.",
+          "answer": "remains"
+        }
+      ]
+    }
   }
 }

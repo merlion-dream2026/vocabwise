@@ -660,5 +660,175 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Adverbial clauses of contrast (whereas / while / despite the fact that)",
+    "vi_grammar_point": "Mệnh đề đối lập và nhượng bộ nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "MainClause (Subject + Verb + …), whereas/while SubClause (Subject + Verb + …) | despite the fact that + Clause, MainClause"
+    },
+    "rule_vi": "Dùng các mệnh đề phụ để diễn tả sự tương phản hoặc nhượng bộ giữa hai ý, thường dùng các liên từ whereas, while, despite the fact that.",
+    "rule_en": "Use adverbial clauses of contrast to show a difference or concession between two statements, introduced by whereas, while, or despite the fact that.",
+    "common_error": "❌ *Despite the fact that* the high price, many customers buy it.  →  ✅ *Despite the fact that* the price is high, many customers buy it.",
+    "in_context": [
+      "Micronutrient deficiency remains a silent public health crisis, whereas affordable food is rarely organic or nutrient‑dense.",
+      "Wealthier consumers increasingly demand sustainable food systems, while low‑income populations struggle to afford nutrient‑dense options.",
+      "Despite the fact that the global food system has undergone radical transformation, obesity rates continue to rise."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee approved the new policy, _____ the minority members voiced strong objections.",
+          "options": [
+            "but",
+            "although",
+            "whereas",
+            "while"
+          ],
+          "answer": "whereas"
+        },
+        {
+          "id": 2,
+          "sentence": "She continued her research, _____ her peers abandoned the project.",
+          "options": [
+            "while",
+            "but",
+            "although",
+            "despite the fact that"
+          ],
+          "answer": "while"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly.",
+          "options": [
+            "While",
+            "Although",
+            "Despite the fact that",
+            "Whereas"
+          ],
+          "answer": "Despite the fact that"
+        },
+        {
+          "id": 4,
+          "sentence": "The coastal town thrives on tourism, _____ it suffers from frequent flooding.",
+          "options": [
+            "whereas",
+            "but",
+            "while",
+            "although"
+          ],
+          "answer": "while"
+        },
+        {
+          "id": 5,
+          "sentence": "The novel explores themes of identity, _____ it maintains a fast‑paced plot.",
+          "options": [
+            "although",
+            "whereas",
+            "but",
+            "while"
+          ],
+          "answer": "whereas"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "research",
+            "was",
+            "costly",
+            "while",
+            "the",
+            "results",
+            "were",
+            "promising"
+          ],
+          "answer": "The research was costly while the results were promising"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Many",
+            "students",
+            "prefer",
+            "online",
+            "learning",
+            "whereas",
+            "their",
+            "parents",
+            "value",
+            "face‑to‑face",
+            "interaction"
+          ],
+          "answer": "Many students prefer online learning whereas their parents value face‑to‑face interaction"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Despite",
+            "the",
+            "fact",
+            "that",
+            "the",
+            "weather",
+            "was",
+            "stormy",
+            "the",
+            "festival",
+            "went",
+            "ahead"
+          ],
+          "answer": "Despite the fact that the weather was stormy the festival went ahead"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "whereas",
+        "while",
+        "despite the fact that",
+        "although",
+        "but",
+        "however"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The CEO emphasized sustainability, _____ the company's profits declined last quarter.",
+          "answer": "while"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the study showed mixed results, the researchers proceeded with the trial.",
+          "answer": "despite the fact that"
+        },
+        {
+          "id": 3,
+          "sentence": "The northern region enjoys abundant rainfall, _____ the southern region suffers from drought.",
+          "answer": "whereas"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the new regulations were introduced, many businesses struggled to adapt.",
+          "answer": "despite the fact that"
+        },
+        {
+          "id": 5,
+          "sentence": "The artist experiments with digital media, _____ her paintings remain rooted in classical techniques.",
+          "answer": "while"
+        }
+      ]
+    }
   }
 }

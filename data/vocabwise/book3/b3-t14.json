@@ -680,5 +680,164 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Noun + preposition collocations (access to / impact on / belief in)",
+    "vi_grammar_point": "Collocation danh từ + giới từ",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Noun + Preposition + Object"
+    },
+    "rule_vi": "Khi một danh từ đi cùng với một giới từ cố định, chúng tạo thành collocation và không thể thay đổi thành phần giới từ.",
+    "rule_en": "When a noun is followed by a fixed preposition, they form a collocation that must be learned as a unit.",
+    "common_error": "❌ Researchers have access happiness.  →  ✅ Researchers have access to happiness.",
+    "in_context": [
+      "Researchers have access to large‑scale longitudinal surveys that track thousands of individuals across decades.",
+      "The study examines the impact on happiness of social connection, suggesting relationships are a stronger predictor than income.",
+      "Their belief in the hedonic approach underlies many of the interventions discussed."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Policymakers need _____ data to design effective wellbeing programs.",
+          "options": [
+            "impact on",
+            "access to",
+            "depend on",
+            "belief in"
+          ],
+          "answer": "access to"
+        },
+        {
+          "id": 2,
+          "sentence": "The new policy's _____ the mental health of adolescents is still being evaluated.",
+          "options": [
+            "belief in",
+            "focus on",
+            "impact on",
+            "access to"
+          ],
+          "answer": "impact on"
+        },
+        {
+          "id": 3,
+          "sentence": "Scientists' _____ the eudaimonic model drives their research agenda.",
+          "options": [
+            "rely on",
+            "impact on",
+            "belief in",
+            "access to"
+          ],
+          "answer": "belief in"
+        },
+        {
+          "id": 4,
+          "sentence": "Universities must provide students with _____ resources for stress management.",
+          "options": [
+            "focus on",
+            "access to",
+            "belief in",
+            "impact on"
+          ],
+          "answer": "access to"
+        },
+        {
+          "id": 5,
+          "sentence": "The documentary explores the _____ technology on community wellbeing.",
+          "options": [
+            "depend on",
+            "impact on",
+            "belief in",
+            "access to"
+          ],
+          "answer": "impact on"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "has",
+            "the",
+            "team",
+            "access",
+            "to",
+            "relevant",
+            "datasets"
+          ],
+          "answer": "has access to relevant datasets"
+        },
+        {
+          "id": 2,
+          "words": [
+            "studies",
+            "the",
+            "impact",
+            "on",
+            "urban",
+            "green",
+            "spaces"
+          ],
+          "answer": "studies the impact on urban green spaces"
+        },
+        {
+          "id": 3,
+          "words": [
+            "her",
+            "belief",
+            "in",
+            "mindfulness",
+            "practices",
+            "is",
+            "strong"
+          ],
+          "answer": "her belief in mindfulness practices is strong"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để hoàn thành câu.",
+      "word_bank": [
+        "access to",
+        "impact on",
+        "belief in",
+        "focus on",
+        "rely on",
+        "depend on"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee granted researchers _____ the latest wellbeing metrics.",
+          "answer": "access to"
+        },
+        {
+          "id": 2,
+          "sentence": "Longitudinal studies reveal a significant _____ happiness when community ties are strong.",
+          "answer": "impact on"
+        },
+        {
+          "id": 3,
+          "sentence": "Her _____ the scientific method guides her experimental design.",
+          "answer": "belief in"
+        },
+        {
+          "id": 4,
+          "sentence": "Effective policies _____ mental health require cross‑sector collaboration.",
+          "answer": "focus on"
+        },
+        {
+          "id": 5,
+          "sentence": "The report emphasizes the need to _____ evidence when forming conclusions.",
+          "answer": "rely on"
+        }
+      ]
+    }
   }
 }

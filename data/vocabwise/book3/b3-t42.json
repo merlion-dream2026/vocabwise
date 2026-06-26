@@ -675,5 +675,169 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive constructions for process description",
+    "vi_grammar_point": "Bị động mô tả quá trình — nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Object + be (am/is/are/was/were/been/being) + past participle (+ by Agent)",
+      "negative": "Object + be + not + past participle (+ by Agent)",
+      "question": "Be + Object + past participle (+ by Agent)?",
+      "variant": "Object + get + past participle (e.g., gets written) or be + being + past participle for ongoing processes"
+    },
+    "rule_vi": "Dùng thể bị động khi mô tả một quá trình hoặc cách một hành động được thực hiện mà người thực hiện không quan trọng hoặc không được nhắc tới.",
+    "rule_en": "Use the passive to describe a process when the focus is on the action rather than the doer.",
+    "common_error": "❌ The experiment conducted by the researchers.  →  ✅ The experiment was conducted by the researchers.",
+    "in_context": [
+      "Cohesion — the linguistic glue of discourse — is achieved through transitional phrases, pronoun reference, and careful referencing of prior points.",
+      "Effective argumentation depends not only on the strength of individual claims but on how they are connected.",
+      "The formal, impersonal tone characteristic of academic registers is achieved by the related practice of nominalization."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng bị động đúng cho chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The manuscript _____ (review) by three independent scholars before publication.",
+          "options": [
+            "is reviewed",
+            "were reviewed",
+            "was reviewed",
+            "are reviewed"
+          ],
+          "answer": "was reviewed"
+        },
+        {
+          "id": 2,
+          "sentence": "All the raw data _____ (store) in a secure cloud server.",
+          "options": [
+            "are stored",
+            "was stored",
+            "is stored",
+            "were stored"
+          ],
+          "answer": "are stored"
+        },
+        {
+          "id": 3,
+          "sentence": "The final report _____ (submit) to the committee last Friday.",
+          "options": [
+            "was submitted",
+            "were submitted",
+            "is submitted",
+            "are submitted"
+          ],
+          "answer": "was submitted"
+        },
+        {
+          "id": 4,
+          "sentence": "These findings _____ (interpret) cautiously due to limited sample size.",
+          "options": [
+            "are interpreted",
+            "is interpreted",
+            "were interpreted",
+            "was interpreted"
+          ],
+          "answer": "are interpreted"
+        },
+        {
+          "id": 5,
+          "sentence": "The new policy _____ (enforce) across all campuses starting next month.",
+          "options": [
+            "will be enforced",
+            "is enforced",
+            "was enforced",
+            "are enforced"
+          ],
+          "answer": "will be enforced"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "experiment",
+            "was",
+            "conducted",
+            "by",
+            "the",
+            "researchers"
+          ],
+          "answer": "The experiment was conducted by the researchers"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "results",
+            "are",
+            "being",
+            "analyzed",
+            "by",
+            "the",
+            "team"
+          ],
+          "answer": "The results are being analyzed by the team"
+        },
+        {
+          "id": 3,
+          "words": [
+            "The",
+            "policy",
+            "will",
+            "be",
+            "implemented",
+            "across",
+            "the",
+            "university"
+          ],
+          "answer": "The policy will be implemented across the university"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "implemented",
+        "designed",
+        "generated",
+        "examined",
+        "published",
+        "celebrated"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new curriculum was _____ last year to address emerging fields.",
+          "answer": "implemented"
+        },
+        {
+          "id": 2,
+          "sentence": "A comprehensive framework was _____ to guide the assessment process.",
+          "answer": "designed"
+        },
+        {
+          "id": 3,
+          "sentence": "Statistical tables were _____ from the collected survey responses.",
+          "answer": "generated"
+        },
+        {
+          "id": 4,
+          "sentence": "The case studies were _____ by an external auditor for reliability.",
+          "answer": "examined"
+        },
+        {
+          "id": 5,
+          "sentence": "The findings were _____ in a peer‑reviewed journal.",
+          "answer": "published"
+        }
+      ]
+    }
   }
 }

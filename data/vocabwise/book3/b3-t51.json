@@ -673,5 +673,168 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Subjunctive and unreal past (it is crucial that... / were this to be true...)",
+    "vi_grammar_point": "Thức giả định và quá khứ phi thực",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "it + be + crucial + that + Subject + base verb (subjunctive)",
+      "variant": "were + Subject + to + infinitive (unreal past conditional)"
+    },
+    "rule_vi": "Dùng cấu trúc ‘it is crucial that …’ để nhấn mạnh một yêu cầu hoặc khuyến nghị, với động từ ở dạng nguyên mẫu (subjunctive). Dùng ‘were … to …’ để diễn tả một tình huống không có thực trong quá khứ hoặc hiện tại.",
+    "rule_en": "Use ‘it is crucial that …’ with the base form of the verb for strong recommendations, and ‘were … to …’ for unreal past or hypothetical conditions.",
+    "common_error": "❌ It is crucial that the committee adopts a new policy. → ✅ It is crucial that the committee adopt a new policy.",
+    "in_context": [
+      "It is crucial that philosophers recognise the enduring importance of the ethical dilemma.",
+      "Were this to be true, the consequentialist approach must justify harming a few for the benefit of many.",
+      "It is crucial that we uphold principles of justice absolutely, even when doing so appears to produce worse outcomes."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It is crucial that the committee _____ a transparent decision‑making process.",
+          "options": [
+            "adopts",
+            "adopt",
+            "adopted",
+            "adopting"
+          ],
+          "answer": "adopt"
+        },
+        {
+          "id": 2,
+          "sentence": "Were the evidence _____ a different motive, the verdict would be overturned.",
+          "options": [
+            "to reveal",
+            "revealed",
+            "has revealed",
+            "revealing"
+          ],
+          "answer": "to reveal"
+        },
+        {
+          "id": 3,
+          "sentence": "It is crucial that every researcher _____ any conflict of interest.",
+          "options": [
+            "reports",
+            "report",
+            "reported",
+            "reporting"
+          ],
+          "answer": "report"
+        },
+        {
+          "id": 4,
+          "sentence": "Were the policy _____ tomorrow, we would need to adjust our strategy.",
+          "options": [
+            "to change",
+            "changed",
+            "changing",
+            "changes"
+          ],
+          "answer": "to change"
+        },
+        {
+          "id": 5,
+          "sentence": "It is crucial that the university _____ adequate resources for ethical training.",
+          "options": [
+            "provides",
+            "provide",
+            "provided",
+            "providing"
+          ],
+          "answer": "provide"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "crucial",
+            "that",
+            "we",
+            "maintain",
+            "integrity"
+          ],
+          "answer": "It is crucial that we maintain integrity"
+        },
+        {
+          "id": 2,
+          "words": [
+            "were",
+            "the",
+            "findings",
+            "to",
+            "be",
+            "significant"
+          ],
+          "answer": "were the findings to be significant"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "crucial",
+            "that",
+            "policy",
+            "be",
+            "revised",
+            "if",
+            "unethical",
+            "practices",
+            "emerge"
+          ],
+          "answer": "It is crucial that policy be revised if unethical practices emerge"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "adopt",
+        "to reveal",
+        "report",
+        "to change",
+        "provide",
+        "consider"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It is crucial that the board _____ a clear code of conduct.",
+          "answer": "adopt"
+        },
+        {
+          "id": 2,
+          "sentence": "Were the data _____ to indicate bias, the study would be re‑evaluated.",
+          "answer": "to reveal"
+        },
+        {
+          "id": 3,
+          "sentence": "It is crucial that each author _____ any funding sources.",
+          "answer": "report"
+        },
+        {
+          "id": 4,
+          "sentence": "Were the regulations _____ to be relaxed, the risk of abuse would increase.",
+          "answer": "to change"
+        },
+        {
+          "id": 5,
+          "sentence": "It is crucial that the institution _____ sufficient support for ethical deliberation.",
+          "answer": "provide"
+        }
+      ]
+    }
   }
 }

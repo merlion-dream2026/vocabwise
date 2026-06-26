@@ -659,5 +659,172 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Epistemic modality (may / might / could / appear to / tend to)",
+    "vi_grammar_point": "Phương tiện diễn đạt thái độ nhận thức",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal verb (may/might/could/appear to/tend to) + base verb",
+      "negative": "Subject + modal verb + not + base verb",
+      "question": "Modal verb + subject + base verb?",
+      "variant": "modal verb + have + past participle (e.g., may have, might have, could have)"
+    },
+    "rule_vi": "Dùng các động từ khi muốn diễn tả khả năng, suy đoán hoặc xu hướng nhận thức của người nói.",
+    "rule_en": "Use these modals to express epistemic possibility, probability, or tendency.",
+    "common_error": "❌ He may goes to the meeting.  →  ✅ He may go to the meeting.",
+    "in_context": [
+      "Governments and organisations worldwide may be investing in campaigns designed to normalise help‑seeking behaviour and dismantle harmful stereotypes.",
+      "Therapy might appear to some patients as a daunting process, but it often leads to lasting improvement.",
+      "Those who build emotional resilience tend to withstand life's inevitable setbacks without slipping into crisis."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new policy _____ reduce stigma around mental health.",
+          "options": [
+            "could",
+            "may",
+            "tend",
+            "might"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers _____ have found a link between social media use and anxiety.",
+          "options": [
+            "appear",
+            "might",
+            "could",
+            "tend"
+          ],
+          "answer": "might"
+        },
+        {
+          "id": 3,
+          "sentence": "Community programmes _____ appear to improve wellbeing in underserved areas.",
+          "options": [
+            "might",
+            "could",
+            "may",
+            "tend"
+          ],
+          "answer": "could"
+        },
+        {
+          "id": 4,
+          "sentence": "Students _____ tend to avoid seeking help if they fear judgment.",
+          "options": [
+            "might",
+            "appear",
+            "may",
+            "could"
+          ],
+          "answer": "may"
+        },
+        {
+          "id": 5,
+          "sentence": "Experts _____ suggest that early intervention could prevent more severe disorders.",
+          "options": [
+            "appear",
+            "might",
+            "could",
+            "may"
+          ],
+          "answer": "might"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "might",
+            "the",
+            "researchers",
+            "have",
+            "identified",
+            "a",
+            "new",
+            "risk",
+            "factor"
+          ],
+          "answer": "the researchers might have identified a new risk factor"
+        },
+        {
+          "id": 2,
+          "words": [
+            "could",
+            "schools",
+            "implement",
+            "mental",
+            "health",
+            "curricula",
+            "to",
+            "support",
+            "students"
+          ],
+          "answer": "schools could implement mental health curricula to support students"
+        },
+        {
+          "id": 3,
+          "words": [
+            "tend",
+            "people",
+            "to",
+            "overlook",
+            "early",
+            "signs",
+            "of",
+            "depression"
+          ],
+          "answer": "people tend to overlook early signs of depression"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "may",
+        "might",
+        "could",
+        "appear",
+        "tend",
+        "should"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The organization _____ launch a public campaign next month.",
+          "answer": "may"
+        },
+        {
+          "id": 2,
+          "sentence": "These findings _____ suggest a correlation between stress and sleep quality.",
+          "answer": "might"
+        },
+        {
+          "id": 3,
+          "sentence": "Such interventions _____ appear to reduce stigma over time.",
+          "answer": "appear"
+        },
+        {
+          "id": 4,
+          "sentence": "Individuals _____ tend to ignore their own mental health needs when busy.",
+          "answer": "tend"
+        },
+        {
+          "id": 5,
+          "sentence": "Policymakers _____ consider allocating more funds to community clinics.",
+          "answer": "could"
+        }
+      ]
+    }
   }
 }

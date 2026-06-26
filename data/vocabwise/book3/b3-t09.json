@@ -720,5 +720,183 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Mixed conditionals (If I had taken... I would be...)",
+    "vi_grammar_point": "Câu điều kiện hỗn hợp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + past perfect verb, Subject + would + base verb",
+      "negative": "If + Subject + past perfect verb, Subject + would not + base verb",
+      "question": "Would Subject + base verb if Subject + past perfect verb?",
+      "variant": "If + Subject + past simple verb, Subject + would have + past participle"
+    },
+    "rule_vi": "Dùng câu điều kiện hỗn hợp khi nói về một tình huống trong quá khứ ảnh hưởng đến hiện tại.",
+    "rule_en": "Use mixed conditionals to talk about a past condition with a present result.",
+    "common_error": "❌ If I have taken the course, I would be more confident now.  →  ✅ If I had taken the course, I would be more confident now.",
+    "in_context": [
+      "If platforms had not been designed to maximise exposure, users would be less addicted now.",
+      "If researchers had identified the risks earlier, educators would be better prepared now.",
+      "If adolescents had developed critical digital literacy skills, they would be less vulnerable to cyberbullying today."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của câu điều kiện hỗn hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the algorithm _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now.",
+          "options": [
+            "had prioritized",
+            "prioritizes",
+            "has prioritized",
+            "will prioritize"
+          ],
+          "answer": "had prioritized"
+        },
+        {
+          "id": 2,
+          "sentence": "If the study _____ (to reveal) the link earlier, policymakers would be acting on it already.",
+          "options": [
+            "has revealed",
+            "had revealed",
+            "reveals",
+            "will reveal"
+          ],
+          "answer": "had revealed"
+        },
+        {
+          "id": 3,
+          "sentence": "If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today.",
+          "options": [
+            "integrates",
+            "had integrated",
+            "have integrated",
+            "will integrate"
+          ],
+          "answer": "had integrated"
+        },
+        {
+          "id": 4,
+          "sentence": "If the platform _____ (to implement) stricter moderation, harassment incidents would be decreasing now.",
+          "options": [
+            "had implemented",
+            "implements",
+            "has implemented",
+            "will implement"
+          ],
+          "answer": "had implemented"
+        },
+        {
+          "id": 5,
+          "sentence": "If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less.",
+          "options": [
+            "recognize",
+            "had recognized",
+            "has recognized",
+            "will recognize"
+          ],
+          "answer": "had recognized"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "they",
+            "had",
+            "noticed",
+            "the",
+            "trend",
+            "earlier",
+            "they",
+            "would",
+            "be",
+            "more",
+            "aware",
+            "now"
+          ],
+          "answer": "If they had noticed the trend earlier they would be more aware now"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "support",
+            "had",
+            "been",
+            "provided",
+            "to",
+            "victims",
+            "they",
+            "would",
+            "feel",
+            "safer",
+            "today"
+          ],
+          "answer": "If support had been provided to victims they would feel safer today"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "schools",
+            "had",
+            "restricted",
+            "screen",
+            "time",
+            "students",
+            "would",
+            "have",
+            "more",
+            "focus",
+            "now"
+          ],
+          "answer": "If schools had restricted screen time students would have more focus now"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "had prioritized",
+        "had revealed",
+        "had integrated",
+        "had implemented",
+        "had recognized",
+        "will have"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If the platform _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now.",
+          "answer": "had prioritized"
+        },
+        {
+          "id": 2,
+          "sentence": "If the research _____ (to reveal) the correlation earlier, interventions would be in place now.",
+          "answer": "had revealed"
+        },
+        {
+          "id": 3,
+          "sentence": "If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today.",
+          "answer": "had integrated"
+        },
+        {
+          "id": 4,
+          "sentence": "If the company _____ (to implement) stricter moderation, harassment incidents would be decreasing now.",
+          "answer": "had implemented"
+        },
+        {
+          "id": 5,
+          "sentence": "If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less.",
+          "answer": "had recognized"
+        }
+      ]
+    }
   }
 }

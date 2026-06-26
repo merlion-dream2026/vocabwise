@@ -723,5 +723,172 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Non-defining relative clauses and reduced relatives",
+    "vi_grammar_point": "Mệnh đề quan hệ không xác định và rút gọn",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "MainClause , (who/which/whose/whom) + Verb + …   OR   MainClause , Verb‑ing (+ object) …",
+      "variant": "Reduced relative with past participle: MainClause , past‑participle (+ object) …"
+    },
+    "rule_vi": "Dùng mệnh đề quan hệ không xác định để bổ sung thông tin thêm, thường ngăn cách bằng dấu phẩy; có thể rút gọn bằng dạng V‑ing hoặc V‑en.",
+    "rule_en": "Use non‑defining relative clauses to add extra information, set off by commas; they can be reduced to a participle phrase.",
+    "common_error": "❌ The digital divide which remains a persistent inequality.  →  ✅ The digital divide, which remains a persistent inequality, ...",
+    "in_context": [
+      "Policymakers and NGOs alike work to bridge the digital divide, which remains a persistent inequality.",
+      "The rapid adoption of smartphones, cloud services, and connected devices has created a profound convergence of work, leisure, and communication, which now occurs within a single interface.",
+      "Governments must accelerate technology adoption in underserved regions, accelerating the digital inclusion of marginalized communities."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu với mệnh đề quan hệ không xác định hoặc rút gọn.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The conference, _____, attracted experts from around the world.",
+          "options": [
+            "which was held in Berlin",
+            "who was held in Berlin",
+            "whom was held in Berlin",
+            "that was held in Berlin"
+          ],
+          "answer": "which was held in Berlin"
+        },
+        {
+          "id": 2,
+          "sentence": "The new software, _____, improves data security.",
+          "options": [
+            "that reduces latency",
+            "which reduces latency",
+            "who reduces latency",
+            "whom reduces latency"
+          ],
+          "answer": "which reduces latency"
+        },
+        {
+          "id": 3,
+          "sentence": "Students, _____, must submit their assignments by Friday.",
+          "options": [
+            "who have completed the prerequisite course",
+            "which have completed the prerequisite course",
+            "whom have completed the prerequisite course",
+            "that have completed the prerequisite course"
+          ],
+          "answer": "who have completed the prerequisite course"
+        },
+        {
+          "id": 4,
+          "sentence": "The report, _____, was published yesterday.",
+          "options": [
+            "prepared by the research team",
+            "preparing by the research team",
+            "preparing the research team",
+            "prepared the research team"
+          ],
+          "answer": "prepared by the research team"
+        },
+        {
+          "id": 5,
+          "sentence": "The CEO, _____, announced the merger.",
+          "options": [
+            "having reviewed the financials",
+            "who having reviewed the financials",
+            "which having reviewed the financials",
+            "that having reviewed the financials"
+          ],
+          "answer": "having reviewed the financials"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "policy",
+            "which",
+            "was",
+            "adopted",
+            "last",
+            "year",
+            "has",
+            "proved",
+            "effective"
+          ],
+          "answer": "The policy which was adopted last year has proved effective"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Researchers",
+            "developing",
+            "new",
+            "algorithm",
+            "have",
+            "shown",
+            "promising",
+            "results"
+          ],
+          "answer": "Researchers developing new algorithm have shown promising results"
+        },
+        {
+          "id": 3,
+          "words": [
+            "The",
+            "device",
+            "which",
+            "stores",
+            "large",
+            "amounts",
+            "of",
+            "data",
+            "is",
+            "expensive"
+          ],
+          "answer": "The device which stores large amounts of data is expensive"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "which",
+        "who",
+        "prepared",
+        "accelerating",
+        "having",
+        "that"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The smartphone, _____, has become indispensable for many users.",
+          "answer": "which"
+        },
+        {
+          "id": 2,
+          "sentence": "Community leaders, _____, are advocating for better broadband access.",
+          "answer": "who"
+        },
+        {
+          "id": 3,
+          "sentence": "The guidelines, _____, were issued by the ministry last month.",
+          "answer": "prepared"
+        },
+        {
+          "id": 4,
+          "sentence": "Governments, _____, must address the digital divide.",
+          "answer": "accelerating"
+        },
+        {
+          "id": 5,
+          "sentence": "The project, _____, received funding from the EU.",
+          "answer": "having"
+        }
+      ]
+    }
   }
 }

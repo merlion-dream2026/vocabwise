@@ -680,5 +680,172 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex relative clauses (with whom / whose / of which)",
+    "vi_grammar_point": "Mệnh đề quan hệ với whom / whose / of which",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "NP + relative pronoun (who/whom/whose/of which) + clause (subject + verb + ...)",
+      "variant": "Preposition + relative pronoun (to whom, for which, etc.) + clause"
+    },
+    "rule_vi": "Dùng whom cho người làm tân ngữ, whose cho sở hữu, và of which cho vật làm tân ngữ hoặc bổ ngữ.",
+    "rule_en": "Use whom for objects referring to people, whose for possession, and of which for non‑people objects.",
+    "common_error": "❌ The researcher whose published a paper → ✅ The researcher who published a paper",
+    "in_context": [
+      "One powerful framework for understanding behaviour is attribution theory, whose origins lie in early 20th‑century psychology.",
+      "The mechanisms, of which we are only beginning to understand, influence learning outcomes.",
+      "The participants, whom the experimenter observed closely, showed varied responses."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đại từ quan hệ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The psychologist, _____ I consulted last year, specializes in memory disorders.",
+          "options": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+          ],
+          "answer": "whom"
+        },
+        {
+          "id": 2,
+          "sentence": "The theory, _____ principles are widely accepted, explains attribution.",
+          "options": [
+            "that",
+            "whose",
+            "whom",
+            "of which"
+          ],
+          "answer": "whose"
+        },
+        {
+          "id": 3,
+          "sentence": "The study, _____ results were inconclusive, was later re‑run.",
+          "options": [
+            "which",
+            "whose",
+            "of which",
+            "that"
+          ],
+          "answer": "of which"
+        },
+        {
+          "id": 4,
+          "sentence": "The participants, _____ we interviewed, provided valuable data.",
+          "options": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+          ],
+          "answer": "whom"
+        },
+        {
+          "id": 5,
+          "sentence": "The conference, _____ agenda includes a session on cognition, will be held next month.",
+          "options": [
+            "whose",
+            "of which",
+            "that",
+            "which"
+          ],
+          "answer": "whose"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "framework",
+            "which",
+            "was",
+            "introduced",
+            "in",
+            "1975",
+            "has",
+            "been",
+            "widely",
+            "cited"
+          ],
+          "answer": "the framework which was introduced in 1975 has been widely cited"
+        },
+        {
+          "id": 2,
+          "words": [
+            "students",
+            "whom",
+            "the",
+            "professor",
+            "admired",
+            "were",
+            "given",
+            "scholarships"
+          ],
+          "answer": "students whom the professor admired were given scholarships"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "results",
+            "of",
+            "which",
+            "were",
+            "unexpected",
+            "prompted",
+            "further",
+            "research"
+          ],
+          "answer": "the results of which were unexpected prompted further research"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền đại từ quan hệ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "whom",
+        "whose",
+        "of which",
+        "who",
+        "that",
+        "which"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee, _____ recommendations were adopted, received praise.",
+          "answer": "whose"
+        },
+        {
+          "id": 2,
+          "sentence": "The mentor, _____ I consulted frequently, gave me valuable advice.",
+          "answer": "whom"
+        },
+        {
+          "id": 3,
+          "sentence": "The study, _____ findings were published last year, attracted attention.",
+          "answer": "of which"
+        },
+        {
+          "id": 4,
+          "sentence": "The participants, _____ responses were recorded, completed the questionnaire.",
+          "answer": "whose"
+        },
+        {
+          "id": 5,
+          "sentence": "The researcher, _____ work we cited, received a grant.",
+          "answer": "whose"
+        }
+      ]
+    }
   }
 }

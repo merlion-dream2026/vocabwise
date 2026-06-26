@@ -667,5 +667,173 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Concessive clauses — advanced use (even though / however / for all that)",
+    "vi_grammar_point": "Mệnh đề nhượng bộ nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Main clause + , even though / however / for all that + subordinate clause",
+      "variant": "Even though / however / for all that + clause , main clause"
+    },
+    "rule_vi": "Dùng để diễn tả một sự việc trái ngược hoặc bất ngờ so với nội dung của mệnh đề chính; thường dùng các liên từ even though, however, for all that.",
+    "rule_en": "Use concessive clauses to show contrast between two ideas, often with even though, however, or for all that.",
+    "common_error": "❌ The project was successful however it was risky.  →  ✅ The project was successful; however, it was risky.",
+    "in_context": [
+      "The rise of the avant‑garde marked a decisive rupture with established tradition, even though many critics clung to conventional aesthetics.",
+      "Digital tools have democratized creation, however, the sheer volume of work can overwhelm curators.",
+      "Artists often seek patronage, for all that the system is biased, they still produce groundbreaking work."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee approved the proposal, _____ the members expressed concerns.",
+          "options": [
+            "even though",
+            "however",
+            "for all that",
+            "although"
+          ],
+          "answer": "however"
+        },
+        {
+          "id": 2,
+          "sentence": "She continued her research, _____ funding was cut.",
+          "options": [
+            "for all that",
+            "however",
+            "even though",
+            "although"
+          ],
+          "answer": "even though"
+        },
+        {
+          "id": 3,
+          "sentence": "The policy was praised, _____ its implementation faced delays.",
+          "options": [
+            "however",
+            "for all that",
+            "even though",
+            "although"
+          ],
+          "answer": "for all that"
+        },
+        {
+          "id": 4,
+          "sentence": "He accepted the award, _____ he felt the judges were biased.",
+          "options": [
+            "although",
+            "even though",
+            "however",
+            "for all that"
+          ],
+          "answer": "even though"
+        },
+        {
+          "id": 5,
+          "sentence": "The novel became a bestseller, _____ it received mixed reviews from critics.",
+          "options": [
+            "for all that",
+            "however",
+            "even though",
+            "although"
+          ],
+          "answer": "however"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "even",
+            "though",
+            "the",
+            "team",
+            "was",
+            "exhausted",
+            "they",
+            "finished",
+            "the",
+            "project"
+          ],
+          "answer": "even though the team was exhausted they finished the project"
+        },
+        {
+          "id": 2,
+          "words": [
+            "however",
+            "the",
+            "weather",
+            "was",
+            "stormy",
+            "the",
+            "event",
+            "went",
+            "ahead"
+          ],
+          "answer": "however the weather was stormy the event went ahead"
+        },
+        {
+          "id": 3,
+          "words": [
+            "for",
+            "all",
+            "that",
+            "the",
+            "budget",
+            "was",
+            "limited",
+            "the",
+            "campaign",
+            "succeeded"
+          ],
+          "answer": "for all that the budget was limited the campaign succeeded"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "even though",
+        "however",
+        "for all that",
+        "although",
+        "nevertheless",
+        "though"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The artist embraced abstraction, _____ traditional techniques remained popular.",
+          "answer": "even though"
+        },
+        {
+          "id": 2,
+          "sentence": "The conference attracted scholars worldwide, _____ many sessions were cancelled due to travel restrictions.",
+          "answer": "however"
+        },
+        {
+          "id": 3,
+          "sentence": "The sculpture was praised, _____ its creator was relatively unknown.",
+          "answer": "for all that"
+        },
+        {
+          "id": 4,
+          "sentence": "The manuscript was accepted, _____ it required extensive revisions.",
+          "answer": "although"
+        },
+        {
+          "id": 5,
+          "sentence": "The startup secured funding, _____ it still faced market challenges.",
+          "answer": "nevertheless"
+        }
+      ]
+    }
   }
 }

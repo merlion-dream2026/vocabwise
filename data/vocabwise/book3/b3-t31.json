@@ -677,5 +677,168 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Logical connectors (thus / hence / consequently / nevertheless / by contrast)",
+    "vi_grammar_point": "Liên từ logic trong lập luận",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1, [connector] Clause2."
+    },
+    "rule_vi": "Các liên từ logic (thus, hence, consequently, nevertheless, by contrast) dùng để nối hai mệnh đề, thể hiện quan hệ nguyên nhân‑kết quả, đối lập hoặc so sánh.",
+    "rule_en": "Logical connectors such as thus, hence, consequently, nevertheless, and by contrast link clauses to show cause‑effect, contrast or comparison.",
+    "common_error": "❌ She studied hard, thus she will fail the exam.  →  ✅ She studied hard, thus she passed the exam.",
+    "in_context": [
+      "The tension between rationalism and empiricism has shaped Western philosophy for centuries; by contrast, rationalists hold that reason is the primary source of knowledge.",
+      "Critical thinking demands that we engage in critical reasoning rather than accepting claims at face value; nevertheless, many people still do.",
+      "The validity of an argument depends not on whether its premises are true, but on whether the conclusion follows logically from them; consequently, we must evaluate the logical structure."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ logic phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The experiment yielded unexpected results, _____ the researchers revised their hypothesis.",
+          "options": [
+            "hence",
+            "nevertheless",
+            "thus",
+            "by contrast"
+          ],
+          "answer": "thus"
+        },
+        {
+          "id": 2,
+          "sentence": "She prefers qualitative analysis; _____, her colleague relies on statistical data.",
+          "options": [
+            "consequently",
+            "by contrast",
+            "hence",
+            "nevertheless"
+          ],
+          "answer": "by contrast"
+        },
+        {
+          "id": 3,
+          "sentence": "The policy was widely criticized; _____, the government defended its necessity.",
+          "options": [
+            "thus",
+            "nevertheless",
+            "hence",
+            "consequently"
+          ],
+          "answer": "nevertheless"
+        },
+        {
+          "id": 4,
+          "sentence": "The river flooded the nearby fields, _____ the farmers suffered significant losses.",
+          "options": [
+            "by contrast",
+            "thus",
+            "nevertheless",
+            "consequently"
+          ],
+          "answer": "consequently"
+        },
+        {
+          "id": 5,
+          "sentence": "He missed the deadline, _____ he was granted an extension due to extenuating circumstances.",
+          "options": [
+            "nevertheless",
+            "hence",
+            "by contrast",
+            "thus"
+          ],
+          "answer": "hence"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "researchers",
+            "analyzed",
+            "the",
+            "data",
+            "thus",
+            "conclusions",
+            "were",
+            "drawn"
+          ],
+          "answer": "The researchers analyzed the data thus conclusions were drawn"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "public",
+            "supports",
+            "the",
+            "policy",
+            "by contrast",
+            "the",
+            "government",
+            "rejects",
+            "it"
+          ],
+          "answer": "The public supports the policy by contrast the government rejects it"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Rain",
+            "consequently",
+            "the",
+            "match",
+            "was",
+            "postponed"
+          ],
+          "answer": "Rain consequently the match was postponed"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp trong ngân hàng từ để hoàn thành câu.",
+      "word_bank": [
+        "thus",
+        "consequently",
+        "nevertheless",
+        "by contrast",
+        "hence",
+        "however"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The evidence was inconclusive, _____ the jury could not reach a verdict.",
+          "answer": "consequently"
+        },
+        {
+          "id": 2,
+          "sentence": "She had little experience, _____ she performed the task flawlessly.",
+          "answer": "nevertheless"
+        },
+        {
+          "id": 3,
+          "sentence": "The two theories share many assumptions; _____, their predictions diverge sharply.",
+          "answer": "by contrast"
+        },
+        {
+          "id": 4,
+          "sentence": "The experiment confirmed the hypothesis, _____ supporting the initial claim.",
+          "answer": "thus"
+        },
+        {
+          "id": 5,
+          "sentence": "The costs are high; _____, the benefits outweigh the expenses.",
+          "answer": "hence"
+        }
+      ]
+    }
   }
 }

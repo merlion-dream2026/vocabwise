@@ -674,5 +674,161 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cohesion toolkit review (reference / ellipsis / lexical chains / discourse markers)",
+    "vi_grammar_point": "Ôn tập toàn bộ phương tiện liên kết văn bản",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Reference: Pronoun (Subject) → Noun Phrase (Antecedent)"
+    },
+    "rule_vi": "Sử dụng các phương tiện liên kết (đại từ, ellipsis, chuỗi từ vựng, từ nối) để tạo sự mạch lạc giữa các câu và đoạn văn.",
+    "rule_en": "Use reference devices, ellipsis, lexical chains, and discourse markers to achieve textual cohesion.",
+    "common_error": "❌ *This* tradition stands in sharp contrast to hedonism, it is outdated. → ✅ *This* tradition stands in sharp contrast to hedonism, which is outdated.",
+    "in_context": [
+      "This tradition stands in sharp contrast to hedonism, the view that pleasure and the avoidance of pain are the ultimate measures of a well‑lived existence.",
+      "Purpose and meaning are distinct but interrelated concepts.",
+      "Purpose and meaning are distinct but interrelated concepts; the repeated use of meaning creates a lexical chain throughout the paragraph."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ nối (discourse marker) phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee approved the proposal; _____, the implementation will begin next month.",
+          "options": [
+            "however",
+            "therefore",
+            "meanwhile",
+            "consequently"
+          ],
+          "answer": "therefore"
+        },
+        {
+          "id": 2,
+          "sentence": "Many scholars argue that climate change is irreversible; _____, some propose geoengineering as a mitigation strategy.",
+          "options": [
+            "in contrast",
+            "conversely",
+            "however",
+            "moreover"
+          ],
+          "answer": "however"
+        },
+        {
+          "id": 3,
+          "sentence": "The novel explores themes of identity; _____, the protagonist's journey reflects broader societal tensions.",
+          "options": [
+            "similarly",
+            "consequently",
+            "additionally",
+            "in particular"
+          ],
+          "answer": "consequently"
+        },
+        {
+          "id": 4,
+          "sentence": "Researchers have identified several biomarkers; _____, the study lacked a control group.",
+          "options": [
+            "nevertheless",
+            "moreover",
+            "furthermore",
+            "in contrast"
+          ],
+          "answer": "nevertheless"
+        },
+        {
+          "id": 5,
+          "sentence": "The treaty was signed in 1992; _____, it entered into force in 1995.",
+          "options": [
+            "subsequently",
+            "however",
+            "therefore",
+            "meanwhile"
+          ],
+          "answer": "subsequently"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "implementation",
+            "will",
+            "begin",
+            "next",
+            "month"
+          ],
+          "answer": "the implementation will begin next month"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Research",
+            "has",
+            "shown",
+            "that",
+            "significant",
+            "results"
+          ],
+          "answer": "Research has shown that significant results"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Ethics",
+            "in",
+            "technology",
+            "are",
+            "crucial",
+            "today"
+          ],
+          "answer": "Ethics in technology are crucial today"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ phù hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "however",
+        "therefore",
+        "consequently",
+        "nevertheless",
+        "subsequently",
+        "meanwhile"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The policy was widely criticized; _____, the government defended its stance.",
+          "answer": "however"
+        },
+        {
+          "id": 2,
+          "sentence": "She completed the marathon in record time; _____, she felt exhausted.",
+          "answer": "consequently"
+        },
+        {
+          "id": 3,
+          "sentence": "The experiment failed to produce expected results; _____, the team revised the methodology.",
+          "answer": "nevertheless"
+        },
+        {
+          "id": 4,
+          "sentence": "The conference was postponed; _____, the organizers announced new dates.",
+          "answer": "subsequently"
+        },
+        {
+          "id": 5,
+          "sentence": "He was late to the meeting; _____, he missed the opening remarks.",
+          "answer": "therefore"
+        }
+      ]
+    }
   }
 }

@@ -675,5 +675,159 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Rhetorical structures (tricolon / anaphora / rhetorical question)",
+    "vi_grammar_point": "Cấu trúc hùng biện",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1, Clause2, Clause3 (tricolon) / Repeated phrase + verb (anaphora) / Question phrase + ? (rhetorical question)"
+    },
+    "rule_vi": "Dùng để nhấn mạnh ý tưởng bằng cách lặp lại cấu trúc, liệt kê ba yếu tố đồng thời, hoặc đặt câu hỏi không cần câu trả lời.",
+    "rule_en": "Used to emphasize ideas through parallelism, repetition, or a question that does not expect an answer.",
+    "common_error": "❌ We must act, we must think, we must succeed?  →  ✅ We must act, we must think, we must succeed.",
+    "in_context": [
+      "The key lies in balancing self-promotion with genuine value creation — offering content that educates, connects, or inspires, rather than merely chasing metrics.",
+      "Creators who build an online presence thoughtfully, creators who curate a personal brand with consistency, creators who engage authentically, can reach global audiences, bypassing traditional gatekeepers.",
+      "Is it not evident that algorithms dictate our attention, shape our opinions, and steer our actions?"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The conference highlighted the challenges of climate change: rising temperatures, melting ice caps, _____.",
+          "options": [
+            "increasing sea levels",
+            "declining biodiversity",
+            "expanding deserts",
+            "growing urban sprawl"
+          ],
+          "answer": "increasing sea levels"
+        },
+        {
+          "id": 2,
+          "sentence": "The novelist writes with clarity, the poet writes with passion, the essayist writes with _____.",
+          "options": [
+            "ambiguity",
+            "concern",
+            "precision",
+            "indifference"
+          ],
+          "answer": "precision"
+        },
+        {
+          "id": 3,
+          "sentence": "_____?",
+          "options": [
+            "Who can deny the power of language",
+            "When did the war end",
+            "How many planets are there",
+            "What is the capital of France"
+          ],
+          "answer": "Who can deny the power of language"
+        },
+        {
+          "id": 4,
+          "sentence": "In the boardroom he was decisive, in the laboratory he was meticulous, and in the classroom he was _____.",
+          "options": [
+            "absent",
+            "indifferent",
+            "inspirational",
+            "critical"
+          ],
+          "answer": "inspirational"
+        },
+        {
+          "id": 5,
+          "sentence": "We must _____ the environment, we must _____ the economy, we must _____ society.",
+          "options": [
+            "neglect",
+            "support",
+            "protect",
+            "enhance"
+          ],
+          "answer": "protect"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "innovation",
+            "drives",
+            "progress",
+            "through",
+            "collaboration"
+          ],
+          "answer": "innovation drives progress through collaboration"
+        },
+        {
+          "id": 2,
+          "words": [
+            "scepticism",
+            "is",
+            "healthy",
+            "in",
+            "science"
+          ],
+          "answer": "scepticism is healthy in science"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "future",
+            "belongs",
+            "to",
+            "the",
+            "bold"
+          ],
+          "answer": "the future belongs to the bold"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "educates",
+        "connects",
+        "inspires",
+        "question",
+        "repeats",
+        "emphasizes"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The campaign slogan _____ the public by promising safety, prosperity, and liberty.",
+          "answer": "connects"
+        },
+        {
+          "id": 2,
+          "sentence": "His lecture _____ the core idea three times, creating an anaphora.",
+          "answer": "repeats"
+        },
+        {
+          "id": 3,
+          "sentence": "The advertisement _____ the audience with vivid images of nature.",
+          "answer": "inspires"
+        },
+        {
+          "id": 4,
+          "sentence": "By posing a _____, the presenter forced listeners to reflect on their values.",
+          "answer": "question"
+        },
+        {
+          "id": 5,
+          "sentence": "The professor's opening line _____ the theme of resilience throughout the semester.",
+          "answer": "emphasizes"
+        }
+      ]
+    }
   }
 }

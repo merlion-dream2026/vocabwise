@@ -721,5 +721,175 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Nominalization and grammatical metaphor",
+    "vi_grammar_point": "Danh hóa và ẩn dụ ngữ pháp",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Nominalized Noun (verb → noun) + (optional complement/object)",
+      "negative": "Subject + does not + Nominalized Noun (rare in formal writing)",
+      "question": "Does Subject + Nominalized Noun + ... ?",
+      "variant": "Subject + Adjective‑derived noun (e.g., 'the strategic approach')"
+    },
+    "rule_vi": "Trong tiếng Anh học thuật, chuyển động từ hoặc tính từ thành danh từ (danh hóa) giúp câu trở nên cô đọng và trang trọng.",
+    "rule_en": "Use nominalization to turn a verb or adjective into a noun, especially in formal academic writing.",
+    "common_error": "❌ The to negotiate process was lengthy.  →  ✅ The negotiation process was lengthy.",
+    "in_context": [
+      "Negotiation is a structured form of communication in which parties with differing interests work towards a mutually acceptable outcome.",
+      "Experienced negotiators also understand the power of framing — presenting an offer in a way that emphasises its benefits rather than its costs.",
+      "The principle of reciprocity also shapes negotiation dynamics profoundly: when one party makes a concession, the other typically feels a social obligation to respond in kind."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu bằng danh hóa phù hợp.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The ___ of the project was delayed due to funding shortages.",
+          "options": [
+            "allocation",
+            "evaluation",
+            "implementation",
+            "coordination"
+          ],
+          "answer": "implementation"
+        },
+        {
+          "id": 2,
+          "sentence": "Effective ___ between departments can prevent misunderstandings.",
+          "options": [
+            "communication",
+            "coordination",
+            "negotiation",
+            "collaboration"
+          ],
+          "answer": "coordination"
+        },
+        {
+          "id": 3,
+          "sentence": "The ___ of resources must be justified with a cost‑benefit analysis.",
+          "options": [
+            "assessment",
+            "allocation",
+            "evaluation",
+            "implementation"
+          ],
+          "answer": "allocation"
+        },
+        {
+          "id": 4,
+          "sentence": "A thorough ___ of the data revealed unexpected trends.",
+          "options": [
+            "implementation",
+            "coordination",
+            "assessment",
+            "allocation"
+          ],
+          "answer": "assessment"
+        },
+        {
+          "id": 5,
+          "sentence": "The ___ of the policy was praised by the committee.",
+          "options": [
+            "coordination",
+            "evaluation",
+            "implementation",
+            "allocation"
+          ],
+          "answer": "evaluation"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "implementation",
+            "of",
+            "the",
+            "new",
+            "strategy",
+            "was",
+            "approved",
+            "by",
+            "the",
+            "board"
+          ],
+          "answer": "The implementation of the new strategy was approved by the board"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Effective",
+            "coordination",
+            "requires",
+            "clear",
+            "communication",
+            "among",
+            "team",
+            "members"
+          ],
+          "answer": "Effective coordination requires clear communication among team members"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Allocation",
+            "of",
+            "budget",
+            "resources",
+            "must",
+            "be",
+            "based",
+            "on",
+            "objective",
+            "criteria"
+          ],
+          "answer": "Allocation of budget resources must be based on objective criteria"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền danh hóa thích hợp vào chỗ trống.",
+      "word_bank": [
+        "implementation",
+        "allocation",
+        "assessment",
+        "coordination",
+        "evaluation",
+        "happiness"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The ___ of the environmental plan was presented at the summit.",
+          "answer": "implementation"
+        },
+        {
+          "id": 2,
+          "sentence": "Successful ___ of cross‑functional teams hinges on mutual respect.",
+          "answer": "coordination"
+        },
+        {
+          "id": 3,
+          "sentence": "A rigorous ___ of the survey results informed the final report.",
+          "answer": "assessment"
+        },
+        {
+          "id": 4,
+          "sentence": "The ___ of the grant funds will be reviewed next quarter.",
+          "answer": "allocation"
+        },
+        {
+          "id": 5,
+          "sentence": "The ___ of the pilot program showed significant improvements.",
+          "answer": "evaluation"
+        }
+      ]
+    }
   }
 }

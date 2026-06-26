@@ -658,5 +658,171 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Discourse markers for academic writing (Moreover / Nevertheless / Consequently / Notwithstanding)",
+    "vi_grammar_point": "Liên từ học thuật cao cấp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "DiscourseMarker, Subject + Verb + …",
+      "variant": "DiscourseMarker can also appear mid‑sentence, set off by commas"
+    },
+    "rule_vi": "Dùng các liên từ này để nối các câu hoặc mệnh đề, thể hiện quan hệ logic (bổ sung, đối lập, kết quả, bất chấp).",
+    "rule_en": "Use these discourse markers to link sentences, showing addition, contrast, consequence, or concession.",
+    "common_error": "❌ Nevertheless the government delayed reforms → ✅ Nevertheless, the government delayed reforms",
+    "in_context": [
+      "Moreover, the prevalence of dementia among the elderly imposes enormous costs on healthcare infrastructure and family carers alike, straining systems already stretched thin.",
+      "Nevertheless, many nations face the challenge of sustaining retirement benefits without overburdening younger workers.",
+      "Consequently, the dependency ratio widens, prompting urgent reforms to pension systems."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ học thuật phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The research indicates a rise in life expectancy; _____, the proportion of retirees is also increasing.",
+          "options": [
+            "Nevertheless",
+            "Moreover",
+            "Consequently",
+            "Notwithstanding"
+          ],
+          "answer": "Consequently"
+        },
+        {
+          "id": 2,
+          "sentence": "The policy aims to reduce fiscal pressure; _____, it must also safeguard pension rights.",
+          "options": [
+            "Consequently",
+            "Nevertheless",
+            "Moreover",
+            "Notwithstanding"
+          ],
+          "answer": "Nevertheless"
+        },
+        {
+          "id": 3,
+          "sentence": "The study found that social isolation harms health; _____, community programmes are essential.",
+          "options": [
+            "Notwithstanding",
+            "Nevertheless",
+            "Moreover",
+            "Consequently"
+          ],
+          "answer": "Moreover"
+        },
+        {
+          "id": 4,
+          "sentence": "The demographic shift is evident; _____, cultural attitudes towards ageing remain unchanged.",
+          "options": [
+            "Consequently",
+            "Nevertheless",
+            "Notwithstanding",
+            "Moreover"
+          ],
+          "answer": "Notwithstanding"
+        },
+        {
+          "id": 5,
+          "sentence": "Economic forecasts predict higher healthcare costs; _____, governments should invest in preventive measures.",
+          "options": [
+            "Nevertheless",
+            "Moreover",
+            "Consequently",
+            "Notwithstanding"
+          ],
+          "answer": "Moreover"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Nevertheless",
+            "the",
+            "budget",
+            "constraints",
+            "necessitate",
+            "prioritising",
+            "elderly",
+            "care"
+          ],
+          "answer": "Nevertheless the budget constraints necessitate prioritising elderly care"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Moreover",
+            "research",
+            "shows",
+            "that",
+            "intergenerational",
+            "programs",
+            "enhance",
+            "social",
+            "cohesion"
+          ],
+          "answer": "Moreover research shows that intergenerational programs enhance social cohesion"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Consequently",
+            "rising",
+            "longevity",
+            "places",
+            "greater",
+            "demands",
+            "on",
+            "public",
+            "health",
+            "services"
+          ],
+          "answer": "Consequently rising longevity places greater demands on public health services"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Moreover",
+        "Nevertheless",
+        "Consequently",
+        "Notwithstanding",
+        "However",
+        "Therefore"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The city council approved the new park; _____, it allocated additional funds for maintenance.",
+          "answer": "Moreover"
+        },
+        {
+          "id": 2,
+          "sentence": "The study revealed a correlation between diet and cognition; _____, the sample size was limited.",
+          "answer": "Nevertheless"
+        },
+        {
+          "id": 3,
+          "sentence": "Renewable energy adoption is accelerating; _____, carbon emissions are projected to decline.",
+          "answer": "Consequently"
+        },
+        {
+          "id": 4,
+          "sentence": "The legislation was passed despite opposition; _____, it includes provisions for senior citizens.",
+          "answer": "Notwithstanding"
+        },
+        {
+          "id": 5,
+          "sentence": "The policy aims to increase retirement age; _____, it must address potential age discrimination.",
+          "answer": "Nevertheless"
+        }
+      ]
+    }
   }
 }

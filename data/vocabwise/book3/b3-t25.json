@@ -674,5 +674,167 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal verbs — deduction and speculation (must have / can't have / might have)",
+    "vi_grammar_point": "Động từ khuyết thiếu suy luận về quá khứ",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + must have + past participle",
+      "negative": "Subject + can't have + past participle",
+      "variant": "Subject + might have + past participle"
+    },
+    "rule_vi": "Dùng must have để suy luận chắc chắn, can't have để phủ định mạnh, và might have để đưa ra khả năng trong quá khứ.",
+    "rule_en": "Use must have for a strong deduction, can't have for a strong negation, and might have for a tentative speculation about past events.",
+    "common_error": "❌ She must has finished the report. → ✅ She must have finished the report.",
+    "in_context": [
+      "Prosecution must have established culpability beyond reasonable doubt before a verdict could be returned.",
+      "The evidence can't have been ignored, given the high evidentiary threshold.",
+      "Offenders might have benefited from restorative justice programmes."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The judge _____ known about the precedent before delivering the verdict.",
+          "options": [
+            "might have",
+            "must have",
+            "should have",
+            "could have"
+          ],
+          "answer": "must have"
+        },
+        {
+          "id": 2,
+          "sentence": "Given the alibi, the suspect _____ been at the scene.",
+          "options": [
+            "might have",
+            "must have",
+            "could have",
+            "can't have"
+          ],
+          "answer": "can't have"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ left early, but we aren't sure.",
+          "options": [
+            "must have",
+            "can't have",
+            "might have",
+            "should have"
+          ],
+          "answer": "might have"
+        },
+        {
+          "id": 4,
+          "sentence": "The forensic report _____ been tampered with, according to the defense.",
+          "options": [
+            "can't have",
+            "must have",
+            "might have",
+            "could have"
+          ],
+          "answer": "might have"
+        },
+        {
+          "id": 5,
+          "sentence": "If the witness was truthful, the defendant _____ committed the crime.",
+          "options": [
+            "might have",
+            "can't have",
+            "must have",
+            "should have"
+          ],
+          "answer": "must have"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "defendant",
+            "must",
+            "have",
+            "been",
+            "present",
+            "in",
+            "court"
+          ],
+          "answer": "The defendant must have been present in court"
+        },
+        {
+          "id": 2,
+          "words": [
+            "they",
+            "can't",
+            "have",
+            "ignored",
+            "the",
+            "evidence"
+          ],
+          "answer": "they can't have ignored the evidence"
+        },
+        {
+          "id": 3,
+          "words": [
+            "He",
+            "might",
+            "have",
+            "joined",
+            "the",
+            "rehabilitation",
+            "program",
+            "later"
+          ],
+          "answer": "He might have joined the rehabilitation program later"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "must have",
+        "can't have",
+        "might have",
+        "should have",
+        "could have",
+        "would have"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The prosecutor believes the suspect _____ committed the robbery.",
+          "answer": "must have"
+        },
+        {
+          "id": 2,
+          "sentence": "Given the CCTV footage, the alibi _____ be true.",
+          "answer": "can't have"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ forgotten to submit the report, but we need confirmation.",
+          "answer": "might have"
+        },
+        {
+          "id": 4,
+          "sentence": "The jury thought the defendant _____ been present at the scene, though evidence was inconclusive.",
+          "answer": "might have"
+        },
+        {
+          "id": 5,
+          "sentence": "If the policy had been stricter, the crime rate _____ dropped significantly.",
+          "answer": "could have"
+        }
+      ]
+    }
   }
 }

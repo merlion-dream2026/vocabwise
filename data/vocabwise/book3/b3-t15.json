@@ -728,5 +728,178 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Adverbial clauses of condition (provided that / as long as / unless / on condition that)",
+    "vi_grammar_point": "Mệnh đề điều kiện nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "MainClause , Subordinator DependentClause",
+      "variant": "Subordinator can be provided that / as long as / unless / on condition that"
+    },
+    "rule_vi": "Dùng các mệnh đề phụ để diễn tả một điều kiện cần thiết hoặc đủ cho hành động trong mệnh đề chính.",
+    "rule_en": "Use conditional adverbial clauses to state a condition that must be met for the main clause to happen.",
+    "common_error": "❌ *Unless* you study hard, you will fail.  →  ✅ *Unless* you study hard, you will not succeed.",
+    "in_context": [
+      "The human brain is, above all, a pattern‑seeking machine, provided that it receives regular stimulation.",
+      "Breaking destructive habits is possible, as long as you replace the cue with a healthier routine.",
+      "Experts stress restructuring the environment, unless you rely solely on willpower."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You can join the workshop, _____ you commit to practicing daily.",
+          "options": [
+            "unless",
+            "as long as",
+            "provided that",
+            "on condition that"
+          ],
+          "answer": "provided that"
+        },
+        {
+          "id": 2,
+          "sentence": "The program will continue, _____ the funding is renewed.",
+          "options": [
+            "as long as",
+            "unless",
+            "provided that",
+            "on condition that"
+          ],
+          "answer": "as long as"
+        },
+        {
+          "id": 3,
+          "sentence": "She will not accept the offer, _____ she receives a better salary elsewhere.",
+          "options": [
+            "on condition that",
+            "unless",
+            "as long as",
+            "provided that"
+          ],
+          "answer": "unless"
+        },
+        {
+          "id": 4,
+          "sentence": "The contract is valid, _____ both parties sign it by Friday.",
+          "options": [
+            "unless",
+            "as long as",
+            "provided that",
+            "on condition that"
+          ],
+          "answer": "on condition that"
+        },
+        {
+          "id": 5,
+          "sentence": "He can travel abroad, _____ he obtains a visa.",
+          "options": [
+            "provided that",
+            "unless",
+            "as long as",
+            "on condition that"
+          ],
+          "answer": "as long as"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "will",
+            "you",
+            "receive",
+            "the",
+            "bonus",
+            "provided",
+            "that",
+            "you",
+            "meet",
+            "the",
+            "targets"
+          ],
+          "answer": "you will receive the bonus provided that you meet the targets"
+        },
+        {
+          "id": 2,
+          "words": [
+            "students",
+            "may",
+            "use",
+            "the",
+            "lab",
+            "as",
+            "long",
+            "as",
+            "they",
+            "follow",
+            "safety",
+            "protocols"
+          ],
+          "answer": "students may use the lab as long as they follow safety protocols"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "team",
+            "won",
+            "the",
+            "match",
+            "unless",
+            "the",
+            "star",
+            "player",
+            "was",
+            "injured"
+          ],
+          "answer": "the team won the match unless the star player was injured"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "provided that",
+        "as long as",
+        "unless",
+        "on condition that",
+        "if",
+        "though"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new policy will be implemented, _____ the board approves it.",
+          "answer": "provided that"
+        },
+        {
+          "id": 2,
+          "sentence": "She will stay abroad, _____ she finishes her thesis.",
+          "answer": "as long as"
+        },
+        {
+          "id": 3,
+          "sentence": "The garden will thrive, _____ you water it regularly.",
+          "answer": "unless"
+        },
+        {
+          "id": 4,
+          "sentence": "The grant will be awarded, _____ the project meets all criteria.",
+          "answer": "on condition that"
+        },
+        {
+          "id": 5,
+          "sentence": "You may access the database, _____ you have a valid login.",
+          "answer": "provided that"
+        }
+      ]
+    }
   }
 }

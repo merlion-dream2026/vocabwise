@@ -669,5 +669,164 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Inversion for emphasis (Rarely does... / Not only...but also...)",
+    "vi_grammar_point": "Đảo ngữ nhấn mạnh",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Adverbial phrase (e.g., Rarely, Never, Seldom) + auxiliary verb + subject + main verb",
+      "variant": "Not only + clause, but also + clause"
+    },
+    "rule_vi": "Khi muốn nhấn mạnh, đặt trạng từ chỉ mức độ (Rarely, Never, Seldom…) hoặc cấu trúc Not only...but also... lên đầu câu, rồi đảo trợ động từ và chủ ngữ.",
+    "rule_en": "Use inversion after negative or restrictive adverbs, or in the correlative construction Not only...but also... to give emphasis.",
+    "common_error": "❌ Rarely the society values depth.  →  ✅ Rarely does society value depth.",
+    "in_context": [
+      "Rarely does modern society prioritize depth over breadth, even as digital platforms proliferate.",
+      "Not only do researchers suggest that vulnerability is a strength, but also they highlight its role in fostering authentic connections.",
+      "Never have we witnessed such rapid transformation in the way relationships are formed, making the study of social dynamics more urgent than ever."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ we see such a stark contrast between intimacy and superficiality in contemporary culture?",
+          "options": [
+            "Not only do",
+            "Seldom",
+            "Rarely does",
+            "Hardly"
+          ],
+          "answer": "Rarely does"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the researchers emphasize vulnerability, they also point to its impact on mental health.",
+          "options": [
+            "Never have",
+            "Rarely does",
+            "Not only do",
+            "Seldom"
+          ],
+          "answer": "Not only do"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we have experienced such rapid changes in communication, the effects on relationships are still uncertain.",
+          "options": [
+            "Never have",
+            "Rarely does",
+            "Seldom",
+            "Hardly"
+          ],
+          "answer": "Never have"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the policy was implemented, the community response was overwhelmingly positive.",
+          "options": [
+            "Not only did",
+            "Never have",
+            "Rarely does",
+            "Seldom"
+          ],
+          "answer": "Not only did"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the media highlight the benefits of digital connection, they ignore the potential for alienation.",
+          "options": [
+            "Rarely does",
+            "Not only do",
+            "Never have",
+            "Seldom"
+          ],
+          "answer": "Not only do"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Rarely",
+            "does",
+            "society",
+            "value",
+            "depth"
+          ],
+          "answer": "Rarely does society value depth"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Not",
+            "only",
+            "did",
+            "the",
+            "researchers",
+            "find",
+            "significant",
+            "results"
+          ],
+          "answer": "Not only did the researchers find significant results"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Never",
+            "have",
+            "we",
+            "seen",
+            "such",
+            "rapid",
+            "change"
+          ],
+          "answer": "Never have we seen such rapid change"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "Rarely",
+        "Never",
+        "Not",
+        "Only",
+        "Seldom",
+        "Thus"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ does the digital age challenge traditional notions of intimacy?",
+          "answer": "Rarely"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ have scholars argued that vulnerability can be a source of strength?",
+          "answer": "Never"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ only did the study examine online relationships, it also considered offline dynamics.",
+          "answer": "Not"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ do we find such a clear link between social media use and feelings of alienation?",
+          "answer": "Seldom"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ does the author claim that modern society's health is measured by relationship quality?",
+          "answer": "Rarely"
+        }
+      ]
+    }
   }
 }

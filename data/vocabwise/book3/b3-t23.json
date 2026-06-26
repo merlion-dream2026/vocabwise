@@ -664,5 +664,172 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reporting verbs — stance and attitude (concede / acknowledge / assert / dispute)",
+    "vi_grammar_point": "Động từ truyền đạt thể hiện lập trường",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + reporting verb + (that) Clause",
+      "negative": "Subject + reporting verb + not + (that) Clause",
+      "question": "Did Subject reporting verb ... ?",
+      "variant": "Subject + reporting verb + to + infinitive"
+    },
+    "rule_vi": "Dùng các động từ này để truyền đạt quan điểm, thừa nhận hoặc phản bác thông tin trong câu báo cáo.",
+    "rule_en": "Use these reporting verbs to convey stance or attitude toward a proposition.",
+    "common_error": "❌ The researcher concedes that the data is unreliable.  →  ✅ The researcher concedes that the data are unreliable.",
+    "in_context": [
+      "Scholars acknowledge that the unchecked amplification of false narratives by social media algorithms has made it increasingly difficult for citizens to distinguish credible reporting.",
+      "Some analysts assert that agenda‑setting practices by powerful media organisations distort public understanding.",
+      "Critics dispute the claim that recommendation engines merely push users into echo chambers."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee _____ that the new policy will improve media literacy across schools.",
+          "options": [
+            "assert",
+            "dispute",
+            "acknowledge",
+            "concede"
+          ],
+          "answer": "acknowledge"
+        },
+        {
+          "id": 2,
+          "sentence": "While many experts _____ the impact of algorithms, the researcher insists the effect is negligible.",
+          "options": [
+            "concede",
+            "assert",
+            "dispute",
+            "acknowledge"
+          ],
+          "answer": "dispute"
+        },
+        {
+          "id": 3,
+          "sentence": "The author _____ that the rise of digital platforms has accelerated polarisation, but offers no solution.",
+          "options": [
+            "concede",
+            "acknowledge",
+            "assert",
+            "dispute"
+          ],
+          "answer": "assert"
+        },
+        {
+          "id": 4,
+          "sentence": "Even though the data is compelling, the journalist _____ the significance of the findings.",
+          "options": [
+            "dispute",
+            "acknowledge",
+            "concede",
+            "assert"
+          ],
+          "answer": "concede"
+        },
+        {
+          "id": 5,
+          "sentence": "Policy makers _____ that misinformation spreads faster than verified reporting, urging stricter regulations.",
+          "options": [
+            "dispute",
+            "concede",
+            "acknowledge",
+            "assert"
+          ],
+          "answer": "assert"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "researchers",
+            "acknowledge",
+            "that",
+            "bias",
+            "exists",
+            "in",
+            "news",
+            "coverage"
+          ],
+          "answer": "researchers acknowledge that bias exists in news coverage"
+        },
+        {
+          "id": 2,
+          "words": [
+            "critics",
+            "dispute",
+            "the",
+            "claim",
+            "that",
+            "social",
+            "media",
+            "censors",
+            "opinions"
+          ],
+          "answer": "critics dispute the claim that social media censors opinions"
+        },
+        {
+          "id": 3,
+          "words": [
+            "authorities",
+            "concede",
+            "they",
+            "cannot",
+            "control",
+            "the",
+            "spread",
+            "of",
+            "disinformation"
+          ],
+          "answer": "authorities concede they cannot control the spread of disinformation"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "concede",
+        "acknowledge",
+        "assert",
+        "dispute",
+        "claim",
+        "suggest"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The report _____ that algorithmic bias is influencing public opinion.",
+          "answer": "assert"
+        },
+        {
+          "id": 2,
+          "sentence": "Many scholars _____ the notion that media literacy alone can solve misinformation.",
+          "answer": "dispute"
+        },
+        {
+          "id": 3,
+          "sentence": "The committee _____ that the proposed regulation may curb fake news.",
+          "answer": "acknowledge"
+        },
+        {
+          "id": 4,
+          "sentence": "Even after the evidence, the spokesperson _____ that the company was not responsible.",
+          "answer": "concede"
+        },
+        {
+          "id": 5,
+          "sentence": "Researchers _____ that digital platforms accelerate polarisation.",
+          "answer": "claim"
+        }
+      ]
+    }
   }
 }

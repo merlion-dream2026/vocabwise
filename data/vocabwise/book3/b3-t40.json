@@ -674,5 +674,171 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "It is + adjective + to vs Nominalization",
+    "vi_grammar_point": "It is + adj + to-inf so với Danh hóa",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be + ADJ + to + VERB",
+      "negative": "It + be + not + ADJ + to + VERB",
+      "question": "Is it + ADJ + to + VERB?",
+      "variant": "The ADJ-ness of + gerund/noun phrase"
+    },
+    "rule_vi": "Dùng cấu trúc It is + tính từ + to + động từ để nhấn mạnh tính chất của hành động; dùng danh danh hoá (the + adjective + -ness) khi muốn nhấn mạnh danh từ.",
+    "rule_en": "Use It is + adjective + to + infinitive to comment on the desirability or difficulty of an action; nominalize with the + adjective + -ness of ... for a more formal style.",
+    "common_error": "❌ It is important for to study mathematics.  →  ✅ It is important to study mathematics.",
+    "in_context": [
+      "It is crucial to construct a rigorous proof, a logical argument that establishes the truth of a statement beyond all doubt.",
+      "It is necessary to accept axioms as self‑evident premises before any further theorems can be derived.",
+      "It is essential to question accepted theorems when new evidence emerges."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn tính từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ to understand the underlying patterns is vital for any mathematician.",
+          "options": [
+            "necessity",
+            "essential",
+            "crucial",
+            "crucially"
+          ],
+          "answer": "crucial"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ to accept an axiom without proof can hinder critical thinking.",
+          "options": [
+            "hazardous",
+            "dangerous",
+            "risky",
+            "riskily"
+          ],
+          "answer": "risky"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ to question established theorems is a hallmark of advanced scholarship.",
+          "options": [
+            "essential",
+            "importantly",
+            "importance",
+            "important"
+          ],
+          "answer": "important"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ to master recursion requires patience and practice.",
+          "options": [
+            "necessarily",
+            "necessity",
+            "necessary",
+            "needed"
+          ],
+          "answer": "necessary"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ to quantify uncertainty is what makes probability so powerful.",
+          "options": [
+            "essential",
+            "usefully",
+            "useful",
+            "usefulness"
+          ],
+          "answer": "useful"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "vital",
+            "to",
+            "prove",
+            "a",
+            "theorem",
+            "correctly"
+          ],
+          "answer": "It is vital to prove a theorem correctly"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "challenging",
+            "to",
+            "derive",
+            "conclusions",
+            "from",
+            "incomplete",
+            "data"
+          ],
+          "answer": "It is challenging to derive conclusions from incomplete data"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "necessary",
+            "to",
+            "explain",
+            "the",
+            "concept",
+            "clearly"
+          ],
+          "answer": "It is necessary to explain the concept clearly"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "crucial",
+        "risky",
+        "essential",
+        "necessary",
+        "useful",
+        "trivial"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ to master abstract reasoning distinguishes a novice from a seasoned mathematician.",
+          "answer": "crucial"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ to ignore counter‑examples can lead to false conjectures.",
+          "answer": "risky"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ to communicate proofs clearly is valued in academic publishing.",
+          "answer": "essential"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ to verify each step of a derivation prevents logical errors.",
+          "answer": "necessary"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ to apply probability models appropriately enhances interdisciplinary research.",
+          "answer": "useful"
+        }
+      ]
+    }
   }
 }

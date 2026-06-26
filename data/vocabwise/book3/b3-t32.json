@@ -656,5 +656,176 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Hedging with passive (It could be argued... / This suggests that...)",
+    "vi_grammar_point": "Ngôn ngữ phòng ngừa kết hợp bị động",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + modal verb + be + past participle + that + clause",
+      "negative": "It + modal verb + not + be + past participle + that + clause",
+      "question": "Could it be argued that + clause?",
+      "variant": "This suggests that + clause"
+    },
+    "rule_vi": "Dùng cấu trúc bị động để đưa ra nhận định một cách thận trọng, thường xuất hiện trong các bài viết học thuật.",
+    "rule_en": "Use passive hedging to express cautious or tentative statements in academic writing.",
+    "common_error": "❌ It could argue that the results are significant.  →  ✅ It could be argued that the results are significant.",
+    "in_context": [
+      "When studies fail to replicate, it could be argued that the broader community must challenge scientific consensus and re‑examine the original evidence.",
+      "This is why it is suggested that scientists publish peer‑reviewed findings so that independent experts can scrutinise the work for errors and biases.",
+      "Replication is considered the gold standard of scientific credibility, and it could be argued that it underpins the reliability of subsequent research."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the results were influenced by uncontrolled variables.",
+          "options": [
+            "It could be argued",
+            "It must",
+            "It seems",
+            "It is certain"
+          ],
+          "answer": "It could be argued"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the data support the hypothesis, further testing is required.",
+          "options": [
+            "It proves",
+            "It indicates",
+            "It is suggested",
+            "It definitely"
+          ],
+          "answer": "It is suggested"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that the methodology was flawed, the study was re‑evaluated.",
+          "options": [
+            "It is obvious",
+            "It could be argued",
+            "It has",
+            "It will"
+          ],
+          "answer": "It could be argued"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the findings are generalizable, the authors caution against over‑interpretation.",
+          "options": [
+            "It is known",
+            "It is suggested",
+            "It is guaranteed",
+            "It is believed"
+          ],
+          "answer": "It is suggested"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that the correlation does not imply causation, the paper includes a discussion of confounding factors.",
+          "options": [
+            "It definitely",
+            "It appears",
+            "It could be argued",
+            "It must"
+          ],
+          "answer": "It could be argued"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "could",
+            "be",
+            "argued",
+            "that",
+            "the",
+            "sample",
+            "size",
+            "was",
+            "insufficient"
+          ],
+          "answer": "It could be argued that the sample size was insufficient"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "suggested",
+            "that",
+            "future",
+            "research",
+            "should",
+            "address",
+            "the",
+            "limitations"
+          ],
+          "answer": "It is suggested that future research should address the limitations"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "could",
+            "be",
+            "argued",
+            "that",
+            "ethical",
+            "concerns",
+            "must",
+            "be",
+            "considered"
+          ],
+          "answer": "It could be argued that ethical concerns must be considered"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "could",
+        "is",
+        "might",
+        "should",
+        "would",
+        "must"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It _____ be argued that the sample is not representative.",
+          "answer": "could"
+        },
+        {
+          "id": 2,
+          "sentence": "It _____ be suggested that the theory needs refinement.",
+          "answer": "is"
+        },
+        {
+          "id": 3,
+          "sentence": "It _____ be argued that the data may be biased.",
+          "answer": "might"
+        },
+        {
+          "id": 4,
+          "sentence": "It _____ be recommended that researchers adopt a mixed‑methods approach.",
+          "answer": "should"
+        },
+        {
+          "id": 5,
+          "sentence": "It _____ be expected that further replication will confirm the findings.",
+          "answer": "would"
+        }
+      ]
+    }
   }
 }

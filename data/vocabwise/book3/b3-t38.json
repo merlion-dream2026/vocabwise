@@ -650,5 +650,198 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex sentences with multiple subordination",
+    "vi_grammar_point": "Câu phức nhiều mệnh đề phụ",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "MainClause (S V) + SubordinateClause1 (SubConj S V) + SubordinateClause2 (RelativePronoun S V) [+ AdditionalSubordinateClause ...]"
+    },
+    "rule_vi": "Dùng cấu trúc này khi muốn nối một mệnh đề chính với nhiều mệnh đề phụ (điều kiện, thời gian, quan hệ, ...).",
+    "rule_en": "Use this structure to link a main clause with several subordinate clauses for nuanced, layered meaning.",
+    "common_error": "❌ *The book, that I bought yesterday, is fascinating* → ✅ *The book, which I bought yesterday, is fascinating*",
+    "in_context": [
+      "When speakers move between languages or varieties, they engage in code-switching, a practice that allows them to navigate linguistic identity fluidly across different social settings.",
+      "Each language through which they shape cognitive frameworks offers a distinct worldview, and moving between them can feel like inhabiting different selves.",
+      "As speakers worldwide assert linguistic rights against the dominance of global languages, this plurality of perspective is increasingly recognised not as a liability but as one of humanity's most profound intellectual resources."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Although the conference was postponed, the organizers, _____, decided to release the preliminary findings online.",
+          "options": [
+            "which had prepared the reports",
+            "who had prepared the reports",
+            "who prepared the reports",
+            "that had prepared the reports"
+          ],
+          "answer": "who had prepared the reports"
+        },
+        {
+          "id": 2,
+          "sentence": "The manuscript, _____, was praised for its innovative methodology.",
+          "options": [
+            "that had been scrutinized by the reviewers",
+            "which the reviewers had scrutinized thoroughly",
+            "who the reviewers had scrutinized thoroughly",
+            "that the reviewers had scrutinized thoroughly"
+          ],
+          "answer": "that the reviewers had scrutinized thoroughly"
+        },
+        {
+          "id": 3,
+          "sentence": "If the policy is implemented, schools, _____, will need to revise their curricula accordingly.",
+          "options": [
+            "that with limited resources",
+            "that have limited resources",
+            "who have limited resources",
+            "which have limited resources"
+          ],
+          "answer": "which have limited resources"
+        },
+        {
+          "id": 4,
+          "sentence": "While many scholars dismiss the hypothesis, a growing number of researchers, _____, argue that the data warrants further investigation.",
+          "options": [
+            "who published recent studies",
+            "which have published recent studies",
+            "who have published recent studies",
+            "that have published recent studies"
+          ],
+          "answer": "who have published recent studies"
+        },
+        {
+          "id": 5,
+          "sentence": "Because the treaty was signed, the neighboring countries, _____, began negotiations on trade agreements.",
+          "options": [
+            "which have previously been hostile",
+            "which had previously been hostile",
+            "that had previously been hostile",
+            "who had previously been hostile"
+          ],
+          "answer": "which had previously been hostile"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Although",
+            "the",
+            "data",
+            "were",
+            "inconclusive",
+            "the",
+            "team",
+            "decided",
+            "to",
+            "proceed",
+            "with",
+            "the",
+            "pilot",
+            "study",
+            "which",
+            "had",
+            "been",
+            "delayed",
+            "by",
+            "logistical",
+            "issues"
+          ],
+          "answer": "Although the data were inconclusive the team decided to proceed with the pilot study which had been delayed by logistical issues"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "the",
+            "policy",
+            "is",
+            "adopted",
+            "schools",
+            "that",
+            "serve",
+            "underprivileged",
+            "communities",
+            "will",
+            "receive",
+            "additional",
+            "funding",
+            "to",
+            "support",
+            "their",
+            "programs"
+          ],
+          "answer": "If the policy is adopted schools that serve underprivileged communities will receive additional funding to support their programs"
+        },
+        {
+          "id": 3,
+          "words": [
+            "When",
+            "the",
+            "conference",
+            "was",
+            "rescheduled",
+            "organizers",
+            "who",
+            "had",
+            "prepared",
+            "the",
+            "agenda",
+            "announced",
+            "new",
+            "dates",
+            "and",
+            "venues"
+          ],
+          "answer": "When the conference was rescheduled organizers who had prepared the agenda announced new dates and venues"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "although",
+        "which",
+        "who",
+        "where",
+        "that",
+        "because"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee, _____, approved the proposal after lengthy debate.",
+          "answer": "which"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the funding was cut, the project continued thanks to private sponsorship.",
+          "answer": "although"
+        },
+        {
+          "id": 3,
+          "sentence": "The researcher, _____, published the findings in a top journal, gained international recognition.",
+          "answer": "who"
+        },
+        {
+          "id": 4,
+          "sentence": "The conference venue, _____, was praised for its accessibility and sustainability.",
+          "answer": "where"
+        },
+        {
+          "id": 5,
+          "sentence": "The amendment, _____, was adopted without further discussion.",
+          "answer": "that"
+        }
+      ]
+    }
   }
 }

@@ -723,5 +723,169 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex noun phrases (the rapid dissolution of traditional...)",
+    "vi_grammar_point": "Cụm danh từ phức tạp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Det + (Modifier(s)) + Noun + (Prepositional phrase / Relative clause)",
+      "variant": "Det + Noun + (of + Noun) + (who/which + Clause)"
+    },
+    "rule_vi": "Dùng để diễn tả một danh từ được mở rộng bằng các thành phần phụ như tính từ, giới từ, hoặc mệnh đề quan hệ, giúp câu trở nên chi tiết và chính xác hơn.",
+    "rule_en": "Use complex noun phrases to add detail and precision to a noun by attaching modifiers, prepositional phrases, or relative clauses.",
+    "common_error": "❌ *the rise of reconstituted families* is increasing.  →  ✅ *The rise of reconstituted families* is increasing.",
+    "in_context": [
+      "The concept of the nuclear family — two parents and their children living in a single household — has long been regarded as the dominant social unit in many Western societies.",
+      "The rise of reconstituted families — households formed when separated parents form new partnerships — requires all members to navigate custody arrangements with sensitivity and patience.",
+      "Strong kinship networks — biological or chosen — provide resilience and support regardless of their formal configuration."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm danh từ phức tạp phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government's new legislation focuses on strengthening _____.",
+          "options": [
+            "the extended family network",
+            "the nuclear family",
+            "the child welfare system",
+            "the economic growth"
+          ],
+          "answer": "the extended family network"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers argue that _____ can mitigate the effects of parental divorce.",
+          "options": [
+            "strong kinship ties",
+            "the rapid dissolution",
+            "the traditional hierarchy",
+            "the legal framework"
+          ],
+          "answer": "strong kinship ties"
+        },
+        {
+          "id": 3,
+          "sentence": "Policy makers are concerned about the impact of _____ on children's mental health.",
+          "options": [
+            "fragmented family structures",
+            "the rise of reconstituted families",
+            "the dominant social unit",
+            "the extended kinship network"
+          ],
+          "answer": "fragmented family structures"
+        },
+        {
+          "id": 4,
+          "sentence": "Many sociologists view _____ as a sign of societal adaptation.",
+          "options": [
+            "the emergence of cohabitation arrangements",
+            "the decline of traditional values",
+            "the increase in single-parent homes",
+            "the stability of nuclear families"
+          ],
+          "answer": "the emergence of cohabitation arrangements"
+        },
+        {
+          "id": 5,
+          "sentence": "Support services aim to address the challenges posed by _____.",
+          "options": [
+            "economic hardship",
+            "the complexity of custody disputes",
+            "the rise of reconstituted families",
+            "the traditional nuclear model"
+          ],
+          "answer": "the complexity of custody disputes"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "rise",
+            "of",
+            "reconstituted",
+            "families",
+            "has",
+            "prompted",
+            "policy",
+            "review"
+          ],
+          "answer": "the rise of reconstituted families has prompted policy review"
+        },
+        {
+          "id": 2,
+          "words": [
+            "strong",
+            "kinship",
+            "networks",
+            "provide",
+            "resilience",
+            "and",
+            "support"
+          ],
+          "answer": "strong kinship networks provide resilience and support"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "dominant",
+            "social",
+            "unit",
+            "remains",
+            "relevant",
+            "in",
+            "some",
+            "cultures"
+          ],
+          "answer": "the dominant social unit remains relevant in some cultures"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "reconstituted",
+        "extended",
+        "traditional",
+        "nuclear",
+        "kinship",
+        "fragmentation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ family model is still prevalent in many rural areas.",
+          "answer": "traditional"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers note a rise in _____ families as divorce rates increase.",
+          "answer": "reconstituted"
+        },
+        {
+          "id": 3,
+          "sentence": "An _____ network can offer emotional support during crises.",
+          "answer": "extended"
+        },
+        {
+          "id": 4,
+          "sentence": "The _____ family, consisting of two parents and their children, is often idealised in media.",
+          "answer": "nuclear"
+        },
+        {
+          "id": 5,
+          "sentence": "Feelings of _____ may emerge when children split time between multiple households.",
+          "answer": "fragmentation"
+        }
+      ]
+    }
   }
 }

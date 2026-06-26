@@ -720,5 +720,170 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Adverbial participle clauses — contrast and concession",
+    "vi_grammar_point": "Mệnh đề phân từ đối lập và nhượng bộ",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "<Subject> + present‑participle clause, <main clause>"
+    },
+    "rule_vi": "Dùng mệnh đề phân từ hiện tại (‑ing) để diễn tả sự tương phản hoặc nhượng bộ, thường đứng trước hoặc sau câu chính.",
+    "rule_en": "Use present‑participle clauses to express contrast or concession, placed before or after the main clause.",
+    "common_error": "❌ *Because* the policy was unpopular, the government changed it → ✅ *Contrasting* the policy's popularity, the government changed it",
+    "in_context": [
+      "Yet in the modern era, the rise of secularism has fundamentally altered the relationship between religion and public life, contrasting with its former public prominence.",
+      "At the same time, demographic shifts have made pluralism an increasingly pressing social reality, conceding that multiple belief systems must coexist.",
+      "The challenge for contemporary societies is to navigate secular pluralism without either erasing religious identity or privileging any single tradition in public institutions, conceding that absolute neutrality is unattainable."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng phân từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government's new regulation, _____, has been met with protests.",
+          "options": [
+            "despite its benefits",
+            "contrasting with previous policies",
+            "because it is strict",
+            "in order to simplify"
+          ],
+          "answer": "contrasting with previous policies"
+        },
+        {
+          "id": 2,
+          "sentence": "The professor, _____, continued his lecture on epistemology.",
+          "options": [
+            "while checking his notes",
+            "despite the noise",
+            "conceding the students' doubts",
+            "because he was late"
+          ],
+          "answer": "conceding the students' doubts"
+        },
+        {
+          "id": 3,
+          "sentence": "The treaty, _____, was signed by both parties.",
+          "options": [
+            "contrasting with earlier drafts",
+            "because it was necessary",
+            "while the negotiations stalled",
+            "despite the opposition"
+          ],
+          "answer": "contrasting with earlier drafts"
+        },
+        {
+          "id": 4,
+          "sentence": "The activist, _____, addressed the crowd about climate change.",
+          "options": [
+            "conceding the government's inaction",
+            "because she was angry",
+            "while holding a microphone",
+            "despite the rain"
+          ],
+          "answer": "conceding the government's inaction"
+        },
+        {
+          "id": 5,
+          "sentence": "The novel, _____, explores themes of identity.",
+          "options": [
+            "while being translated",
+            "contrasting with the author's previous work",
+            "because it is popular",
+            "despite its length"
+          ],
+          "answer": "contrasting with the author's previous work"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Conceding",
+            "the",
+            "criticism",
+            "the",
+            "author",
+            "revised",
+            "the",
+            "manuscript"
+          ],
+          "answer": "Conceding the criticism the author revised the manuscript"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Contrasting",
+            "the",
+            "old",
+            "methods",
+            "the",
+            "team",
+            "adopted",
+            "digital",
+            "workflow"
+          ],
+          "answer": "Contrasting the old methods the team adopted digital workflow"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Conceding",
+            "the",
+            "high",
+            "costs",
+            "the",
+            "university",
+            "proceeded",
+            "with",
+            "the",
+            "expansion"
+          ],
+          "answer": "Conceding the high costs the university proceeded with the expansion"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng phân từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Conceding",
+        "Contrasting",
+        "Acknowledging",
+        "Ignoring",
+        "Considering",
+        "Nevertheless"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the fierce opposition, the committee approved the reform.",
+          "answer": "Conceding"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the prevailing assumptions, the researcher proposed an alternative model.",
+          "answer": "Contrasting"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the limited data, the analyst still drew a confident conclusion.",
+          "answer": "Conceding"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the traditional methodology, the experiment employed a novel technique.",
+          "answer": "Contrasting"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the potential risks, the venture capitalists invested heavily.",
+          "answer": "Conceding"
+        }
+      ]
+    }
   }
 }

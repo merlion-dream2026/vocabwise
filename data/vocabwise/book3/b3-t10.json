@@ -677,5 +677,168 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Wish / If only + perfect (I wish I had chosen...)",
+    "vi_grammar_point": "Wish + hoàn thành — hối tiếc quá khứ",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "wish / if only + Subject + had + Past Participle"
+    },
+    "rule_vi": "Dùng wish/if only + had + quá khứ phân từ để bày tỏ sự hối tiếc về một việc đã xảy ra trong quá khứ.",
+    "rule_en": "Use wish/if only + had + past participle to express regret about a past situation.",
+    "common_error": "❌ I wish I have set boundaries.  →  ✅ I wish I had set boundaries.",
+    "in_context": [
+      "I wish I had set firmer personal boundaries before the remote‑working era blurred the line between office and home.",
+      "If only I had recognized the signs of burnout earlier, I might have avoided chronic exhaustion.",
+      "Many professionals wish they had prioritized rest, yet they keep overcommitting to projects."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ hoặc cụm từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ I had set clearer boundaries, I could have prevented the overload.",
+          "options": [
+            "Would",
+            "Wish",
+            "If only",
+            "Had"
+          ],
+          "answer": "If only"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ she had chosen a less demanding role, she wouldn't be so stressed now.",
+          "options": [
+            "if only",
+            "wishes",
+            "had",
+            "would"
+          ],
+          "answer": "wishes"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we had invested in employee wellbeing programs, turnover rates would be lower.",
+          "options": [
+            "If only",
+            "Would",
+            "Wish",
+            "Had"
+          ],
+          "answer": "If only"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ he had taken the time to rest, his productivity would have improved.",
+          "options": [
+            "wishes",
+            "had",
+            "if only",
+            "would"
+          ],
+          "answer": "wishes"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ they had recognized the early signs of burnout, they could have acted sooner.",
+          "options": [
+            "Wish",
+            "Would",
+            "If only",
+            "Had"
+          ],
+          "answer": "If only"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "only",
+            "I",
+            "had",
+            "set",
+            "clear",
+            "boundaries",
+            "earlier"
+          ],
+          "answer": "If only I had set clear boundaries earlier"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "wishes",
+            "she",
+            "had",
+            "prioritized",
+            "rest",
+            "more"
+          ],
+          "answer": "She wishes she had prioritized rest more"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "wish",
+            "they",
+            "had",
+            "implemented",
+            "flexible",
+            "schedules",
+            "from",
+            "the",
+            "start"
+          ],
+          "answer": "They wish they had implemented flexible schedules from the start"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "set",
+        "chosen",
+        "implemented",
+        "been",
+        "taken",
+        "will"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If only I had _______ earlier, I could have avoided the overload.",
+          "answer": "set"
+        },
+        {
+          "id": 2,
+          "sentence": "She wishes she had _______ a less demanding role.",
+          "answer": "chosen"
+        },
+        {
+          "id": 3,
+          "sentence": "If only they had _______ flexible working hours, burnout rates would drop.",
+          "answer": "implemented"
+        },
+        {
+          "id": 4,
+          "sentence": "He wishes he had _______ more mindful of his limits.",
+          "answer": "been"
+        },
+        {
+          "id": 5,
+          "sentence": "If only the management had _______ clearer policies on overtime, staff would feel protected.",
+          "answer": "implemented"
+        }
+      ]
+    }
   }
 }

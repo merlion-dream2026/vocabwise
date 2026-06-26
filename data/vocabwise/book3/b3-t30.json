@@ -719,5 +719,158 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Emphatic structures (do/did + verb / the very / absolutely)",
+    "vi_grammar_point": "Cấu trúc nhấn mạnh",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + do/does/did + base verb (+ object/complement)",
+      "negative": "Subject + do/does/did + not + base verb (+ object/complement)",
+      "question": "Do/Did + subject + base verb (+ object/complement)?",
+      "variant": "the very + Noun  /  absolutely + adjective/adverb"
+    },
+    "rule_vi": "Dùng cấu trúc nhấn mạnh để làm nổi bật hành động hoặc tính chất, thường dùng do/did, the very, absolutely.",
+    "rule_en": "Use emphatic structures to stress an action or quality, employing do/did, the very, or absolutely.",
+    "common_error": "❌ He do understand the issue.  →  ✅ He does understand the issue.",
+    "in_context": [
+      "Leaders do shape the values of the institutions and societies they serve.",
+      "The capacity to articulate the very compelling picture of what could be is essential.",
+      "Accountability is absolutely essential to preventing the abuse of influence."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu nhấn mạnh.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The board _____ consider every proposal before voting.",
+          "options": [
+            "did",
+            "does",
+            "do",
+            "didn't"
+          ],
+          "answer": "does"
+        },
+        {
+          "id": 2,
+          "sentence": "She appreciated _____ detailed analysis you provided.",
+          "options": [
+            "the very",
+            "the most",
+            "absolutely",
+            "the very"
+          ],
+          "answer": "the very"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ understand the complexities of global governance.",
+          "options": [
+            "absolutely",
+            "did",
+            "does",
+            "the very"
+          ],
+          "answer": "does"
+        },
+        {
+          "id": 4,
+          "sentence": "Transparency is _____ crucial for public trust.",
+          "options": [
+            "the very",
+            "does",
+            "absolutely",
+            "did"
+          ],
+          "answer": "absolutely"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ recognize the importance of ethical conduct.",
+          "options": [
+            "did",
+            "the very",
+            "do",
+            "absolutely"
+          ],
+          "answer": "do"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "inspire",
+            "Leaders",
+            "do"
+          ],
+          "answer": "Leaders do inspire"
+        },
+        {
+          "id": 2,
+          "words": [
+            "is",
+            "absolutely",
+            "Accountability",
+            "crucial"
+          ],
+          "answer": "Accountability is absolutely crucial"
+        },
+        {
+          "id": 3,
+          "words": [
+            "requires",
+            "Leadership",
+            "the",
+            "very",
+            "best"
+          ],
+          "answer": "Leadership requires the very best"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "does",
+        "the very",
+        "absolutely",
+        "do",
+        "did",
+        "indeed"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ understand the stakes involved.",
+          "answer": "does"
+        },
+        {
+          "id": 2,
+          "sentence": "The report highlights _____ challenges faced by the organization.",
+          "answer": "the very"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ need to act now to prevent further damage.",
+          "answer": "do"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ appreciated the support from his team.",
+          "answer": "did"
+        },
+        {
+          "id": 5,
+          "sentence": "Such behavior is _____ unacceptable.",
+          "answer": "absolutely"
+        }
+      ]
+    }
   }
 }

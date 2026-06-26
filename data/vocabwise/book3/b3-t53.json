@@ -716,5 +716,177 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Future forms in discourse (is set to / is due to / is predicted to)",
+    "vi_grammar_point": "Diễn đạt tương lai trong văn học thuật",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be (is/are) + verb (set/due/predicted) + to + base verb",
+      "negative": "Subject + be (is/are) + not + verb (set/due/predicted) + to + base verb",
+      "question": "Is/Are + subject + verb (set/due/predicted) + to + base verb?",
+      "variant": "Subject + be + expected to + base verb"
+    },
+    "rule_vi": "Dùng cấu trúc 'is set to / is due to / is predicted to' để nói về một sự kiện tương lai đã được lên kế hoạch, dự kiến hoặc được xác định.",
+    "rule_en": "Use 'is set to / is due to / is predicted to' to express a future event that is scheduled, expected or forecasted.",
+    "common_error": "❌ The conference is set for next month → ✅ The conference is set to start next month",
+    "in_context": [
+      "Modern medicine is set to rely increasingly on AI‑driven diagnostics as ethical frameworks evolve.",
+      "The fair allocation of organs is due to transparent criteria, without which decisions risk becoming arbitrary.",
+      "Bioethicists are predicted to warn against paternalism as new digital health records emerge."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của cấu trúc tương lai trong các câu sau.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new data‑privacy law _____ come into effect next January.",
+          "options": [
+            "is due to",
+            "is set to",
+            "is expected to",
+            "are predicted to"
+          ],
+          "answer": "is set to"
+        },
+        {
+          "id": 2,
+          "sentence": "The university's AI ethics board _____ release its first report by June.",
+          "options": [
+            "is set to",
+            "are predicted to",
+            "is due to",
+            "is expected to"
+          ],
+          "answer": "is due to"
+        },
+        {
+          "id": 3,
+          "sentence": "Analysts _____ that quantum encryption will become mainstream within five years.",
+          "options": [
+            "are predicted to",
+            "is set to",
+            "are due to",
+            "is expected to"
+          ],
+          "answer": "are predicted to"
+        },
+        {
+          "id": 4,
+          "sentence": "The upcoming conference on digital rights _____ address the challenges of algorithmic bias.",
+          "options": [
+            "is predicted to",
+            "is set to",
+            "is due to",
+            "is expected to"
+          ],
+          "answer": "is set to"
+        },
+        {
+          "id": 5,
+          "sentence": "Regulators _____ introduce stricter consent requirements for biometric data by 2028.",
+          "options": [
+            "are set to",
+            "are due to",
+            "are predicted to",
+            "are expected to"
+          ],
+          "answer": "are set to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "government",
+            "is",
+            "due",
+            "to",
+            "implement",
+            "new",
+            "AI",
+            "guidelines",
+            "next",
+            "year"
+          ],
+          "answer": "The government is due to implement new AI guidelines next year"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Researchers",
+            "are",
+            "predicted",
+            "to",
+            "publish",
+            "breakthrough",
+            "in",
+            "neuro‑tech",
+            "soon"
+          ],
+          "answer": "Researchers are predicted to publish breakthrough in neuro‑tech soon"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Cloud",
+            "services",
+            "are",
+            "set",
+            "to",
+            "expand",
+            "their",
+            "infrastructure",
+            "globally",
+            "by",
+            "2027"
+          ],
+          "answer": "Cloud services are set to expand their infrastructure globally by 2027"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng đúng của cấu trúc tương lai vào chỗ trống.",
+      "word_bank": [
+        "is set to",
+        "is due to",
+        "are predicted to",
+        "is expected to",
+        "are due to",
+        "will have to"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The blockchain protocol _____ undergo a major upgrade in Q3.",
+          "answer": "is set to"
+        },
+        {
+          "id": 2,
+          "sentence": "The privacy watchdog _____ issue fines for non‑compliance next quarter.",
+          "answer": "is due to"
+        },
+        {
+          "id": 3,
+          "sentence": "Experts _____ suggest that deep‑fake detection tools will become standard by 2030.",
+          "answer": "are predicted to"
+        },
+        {
+          "id": 4,
+          "sentence": "The university _____ launch a new course on digital ethics in September.",
+          "answer": "is expected to"
+        },
+        {
+          "id": 5,
+          "sentence": "Several NGOs _____ collaborate on a global campaign for internet freedom by 2025.",
+          "answer": "are due to"
+        }
+      ]
+    }
   }
 }

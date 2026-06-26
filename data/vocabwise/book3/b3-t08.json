@@ -658,5 +658,173 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive reporting structures — advanced (It has been argued... / is believed to...)",
+    "vi_grammar_point": "Bị động truyền đạt nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + have/has + been + past participle + that + clause",
+      "negative": "It + have/has + not + been + past participle + that + clause",
+      "question": "Has it + been + past participle + that + clause?",
+      "variant": "It + be + believed/claimed/suggested + that + clause"
+    },
+    "rule_vi": "Dùng cấu trúc bị động truyền đạt để giới thiệu quan điểm chung mà không nêu rõ người nói.",
+    "rule_en": "Use passive reporting to present widely held opinions without specifying the source.",
+    "common_error": "❌ It has argued that...  →  ✅ It has been argued that...",
+    "in_context": [
+      "It has been argued that advertising frequently crosses into manipulation — exploiting cognitive biases, manufacturing aspiration, and fostering materialism that leaves consumers perpetually dissatisfied.",
+      "It is believed that branding reinforces materialistic values by equating ownership with status, success, and happiness.",
+      "It has been suggested that movements advocating mindful consumption represent a pushback against the relentless cycle of desire and disposal."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cấu trúc bị động truyền đạt phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the new policy will reduce waste, the council has allocated additional funds.",
+          "options": [
+            "It is believed",
+            "It believes",
+            "It has believed",
+            "It will believe"
+          ],
+          "answer": "It is believed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that the artist's work reflects consumer anxieties, critics have praised the exhibition.",
+          "options": [
+            "It has been argued",
+            "It is argued",
+            "It was argued",
+            "It has argued"
+          ],
+          "answer": "It has been argued"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that the algorithm manipulates user preferences, researchers called for stricter regulations.",
+          "options": [
+            "It is claimed",
+            "It has been claimed",
+            "It claims",
+            "It was claimed"
+          ],
+          "answer": "It has been claimed"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that the brand's messaging exploits emotional triggers, the advertising standards authority issued a warning.",
+          "options": [
+            "It is suggested",
+            "It has been suggested",
+            "It suggested",
+            "It was suggested"
+          ],
+          "answer": "It has been suggested"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that the market will shift towards sustainable products, investors are adjusting their portfolios.",
+          "options": [
+            "It is expected",
+            "It has expected",
+            "It was expected",
+            "It has been expected"
+          ],
+          "answer": "It is expected"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "consumerism",
+            "erodes",
+            "authentic",
+            "relationships",
+            "that",
+            "argued",
+            "been",
+            "has",
+            "It"
+          ],
+          "answer": "It has been argued that consumerism erodes authentic relationships"
+        },
+        {
+          "id": 2,
+          "words": [
+            "identity",
+            "personal",
+            "shapes",
+            "branding",
+            "that",
+            "believed",
+            "is",
+            "It"
+          ],
+          "answer": "It is believed that branding shapes personal identity"
+        },
+        {
+          "id": 3,
+          "words": [
+            "could",
+            "curb",
+            "deceptive",
+            "ads",
+            "regulatory",
+            "suggested",
+            "has",
+            "been",
+            "It",
+            "reforms"
+          ],
+          "answer": "It has been suggested that regulatory reforms could curb deceptive ads"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Hoàn thành câu bằng cách chọn từ đúng trong ngân hàng từ.",
+      "word_bank": [
+        "has been argued",
+        "is believed",
+        "has been suggested",
+        "has been claimed",
+        "is thought",
+        "was alleged"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ that the rise of fast fashion contributes to environmental degradation, NGOs have launched campaigns.",
+          "answer": "is believed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ that advertising manipulates subconscious desires, psychologists warn about long‑term effects.",
+          "answer": "has been argued"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ that the government will subsidize repair workshops, consumers are hopeful.",
+          "answer": "is thought"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ that the brand's slogan exploits cultural symbols, activists filed complaints.",
+          "answer": "has been claimed"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ that stricter labeling laws could improve transparency, industry leaders remain skeptical.",
+          "answer": "has been suggested"
+        }
+      ]
+    }
   }
 }

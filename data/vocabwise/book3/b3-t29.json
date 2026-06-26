@@ -653,5 +653,172 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositions with abstract nouns (adapt to / integrate into / contribute to)",
+    "vi_grammar_point": "Giới từ đi với danh từ trừu tượng",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + (to / into) + AbstractNoun",
+      "negative": "Subject + do/does not + Verb + (to / into) + AbstractNoun",
+      "question": "Do/Does Subject + Verb + (to / into) + AbstractNoun?",
+      "variant": "Subject + Verb + oneself + (to / into) + AbstractNoun"
+    },
+    "rule_vi": "Khi một danh từ trừu tượng diễn tả một khái niệm chung, ta dùng giới từ thích hợp (to, into) sau động từ để chỉ hướng hoặc mục tiêu.",
+    "rule_en": "Use the appropriate preposition (to, into) after abstract nouns to indicate direction or relationship.",
+    "common_error": "❌ She contributed the project  →  ✅ She contributed to the project",
+    "in_context": [
+      "The journey toward integration — the process by which newcomers integrate into the social, economic, and civic life of a host society — is rarely swift.",
+      "Efforts to combat xenophobia through education and community dialogue contribute to a more inclusive society.",
+      "Migrants must adapt to new legal systems that determine their status."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn giới từ và danh từ trừu tượng phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Refugees often _____ the cultural norms of their host country within the first year.",
+          "options": [
+            "adapt to",
+            "contribute to",
+            "integrate into",
+            "adjust with"
+          ],
+          "answer": "integrate into"
+        },
+        {
+          "id": 2,
+          "sentence": "The new policy aims to _____ the local economy by encouraging skilled migrants to start businesses.",
+          "options": [
+            "integrate into",
+            "adapt to",
+            "contribute to",
+            "benefit from"
+          ],
+          "answer": "contribute to"
+        },
+        {
+          "id": 3,
+          "sentence": "Children who _____ a foreign school system may experience initial difficulties with language.",
+          "options": [
+            "contribute to",
+            "integrate into",
+            "adapt to",
+            "adjust with"
+          ],
+          "answer": "adapt to"
+        },
+        {
+          "id": 4,
+          "sentence": "Community centres _____ the inclusion of newcomers through language classes and cultural events.",
+          "options": [
+            "adapt to",
+            "integrate into",
+            "contribute to",
+            "support with"
+          ],
+          "answer": "contribute to"
+        },
+        {
+          "id": 5,
+          "sentence": "Successful societies _____ newcomers by offering pathways to citizenship.",
+          "options": [
+            "integrate into",
+            "adapt to",
+            "contribute to",
+            "accept with"
+          ],
+          "answer": "integrate into"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "students",
+            "must",
+            "adapt",
+            "to",
+            "new",
+            "environment"
+          ],
+          "answer": "the students must adapt to new environment"
+        },
+        {
+          "id": 2,
+          "words": [
+            "they",
+            "can",
+            "contribute",
+            "to",
+            "the",
+            "local",
+            "economy",
+            "with",
+            "their",
+            "skills"
+          ],
+          "answer": "they can contribute to the local economy with their skills"
+        },
+        {
+          "id": 3,
+          "words": [
+            "new",
+            "families",
+            "are",
+            "encouraged",
+            "to",
+            "integrate",
+            "into",
+            "the",
+            "community"
+          ],
+          "answer": "new families are encouraged to integrate into the community"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "adapt",
+        "integrate",
+        "contribute",
+        "belong",
+        "assimilate",
+        "cooperate"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Migrants often need to _____ to the legal requirements of their new country.",
+          "answer": "adapt"
+        },
+        {
+          "id": 2,
+          "sentence": "Host societies benefit when newcomers _____ to civic life.",
+          "answer": "contribute"
+        },
+        {
+          "id": 3,
+          "sentence": "Language programs help refugees _____ into the local community more quickly.",
+          "answer": "integrate"
+        },
+        {
+          "id": 4,
+          "sentence": "Newcomers often seek ways to _____ in their host society.",
+          "answer": "belong"
+        },
+        {
+          "id": 5,
+          "sentence": "When migrants _____, they may lose aspects of their original identity.",
+          "answer": "assimilate"
+        }
+      ]
+    }
   }
 }

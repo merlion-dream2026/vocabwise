@@ -659,5 +659,171 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Subjunctive mood (It is essential that they be consulted)",
+    "vi_grammar_point": "Thức giả định",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be + adjective + that + Subject + base verb (no -s)",
+      "negative": "It + be + not + adjective + that + Subject + base verb",
+      "variant": "It is + adjective + for + noun phrase + to + base verb"
+    },
+    "rule_vi": "Dùng thể giả định khi một mệnh đề phụ thuộc diễn tả yêu cầu, khuyến nghị, hoặc tính chất bắt buộc; động từ ở dạng nguyên mẫu không 'to'.",
+    "rule_en": "Use the subjunctive after expressions of necessity, importance, or recommendation, with the base form of the verb.",
+    "common_error": "❌ It is essential that they are consulted → ✅ It is essential that they be consulted",
+    "in_context": [
+      "It is essential that citizens be consulted when drafting new electoral reforms.",
+      "The charter requires that every member participate in the annual review of democratic practices.",
+      "It was surprising that the spokesperson remain silent despite mounting evidence of fraud."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ trong ngoặc để hoàn thành câu (thì giả định).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It is crucial that the committee _____ (review) the proposal before the deadline.",
+          "options": [
+            "reviewed",
+            "review",
+            "reviews",
+            "will review"
+          ],
+          "answer": "review"
+        },
+        {
+          "id": 2,
+          "sentence": "The board insisted that the policy _____ (reflect) the latest regulations.",
+          "options": [
+            "reflects",
+            "reflect",
+            "reflected",
+            "will reflect"
+          ],
+          "answer": "reflect"
+        },
+        {
+          "id": 3,
+          "sentence": "She suggested that the university _____ (offer) more scholarships for low‑income students.",
+          "options": [
+            "offers",
+            "offered",
+            "offer",
+            "will offer"
+          ],
+          "answer": "offer"
+        },
+        {
+          "id": 4,
+          "sentence": "It was surprising that the activist _____ (remain) silent during the debate.",
+          "options": [
+            "remains",
+            "remain",
+            "remained",
+            "will remain"
+          ],
+          "answer": "remain"
+        },
+        {
+          "id": 5,
+          "sentence": "The charter requires that every member _____ (participate) in the annual review.",
+          "options": [
+            "participates",
+            "participated",
+            "participate",
+            "will participate"
+          ],
+          "answer": "participate"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "vital",
+            "be",
+            "citizens",
+            "It",
+            "that",
+            "informed",
+            "is"
+          ],
+          "answer": "It is vital that citizens be informed"
+        },
+        {
+          "id": 2,
+          "words": [
+            "promptly",
+            "be",
+            "report",
+            "that",
+            "demanded",
+            "committee",
+            "the",
+            "revised",
+            "The"
+          ],
+          "answer": "The committee demanded that the report be revised promptly"
+        },
+        {
+          "id": 3,
+          "words": [
+            "applied",
+            "be",
+            "laws",
+            "that",
+            "stipulates",
+            "constitution",
+            "all",
+            "equally",
+            "the",
+            "is"
+          ],
+          "answer": "The constitution is that all laws be applied equally"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống (thì giả định).",
+      "word_bank": [
+        "review",
+        "reflect",
+        "offer",
+        "remain",
+        "participate",
+        "exceed"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "It is essential that the panel _____ the findings before publishing.",
+          "answer": "review"
+        },
+        {
+          "id": 2,
+          "sentence": "The guidelines state that every article _____ the journal's standards.",
+          "answer": "reflect"
+        },
+        {
+          "id": 3,
+          "sentence": "The foundation hopes that the program _____ additional funding next year.",
+          "answer": "offer"
+        },
+        {
+          "id": 4,
+          "sentence": "It is surprising that the spokesperson _____ silent during the crisis.",
+          "answer": "remain"
+        },
+        {
+          "id": 5,
+          "sentence": "The charter mandates that each delegate _____ in the decision‑making process.",
+          "answer": "participate"
+        }
+      ]
+    }
   }
 }

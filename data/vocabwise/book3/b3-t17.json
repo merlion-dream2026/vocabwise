@@ -675,5 +675,173 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Future Perfect and Future Perfect Continuous",
+    "vi_grammar_point": "Tương lai hoàn thành và tương lai hoàn thành tiếp diễn",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + will have + past participle (Future Perfect) / Subject + will have been + present participle (Future Perfect Continuous)",
+      "negative": "Subject + will not have + past participle / Subject + will not have been + present participle",
+      "question": "Will Subject have + past participle? / Will Subject have been + present participle?",
+      "variant": "Subject + shall have + past participle (British variant)"
+    },
+    "rule_vi": "Dùng để diễn tả một hành động sẽ hoàn thành trước một thời điểm trong tương lai, hoặc một hành động đang diễn ra liên tục cho tới thời điểm đó.",
+    "rule_en": "Used to describe an action that will be completed before a specific future time, or an ongoing action up to that future point.",
+    "common_error": "❌ By next year, the researchers will finish the trial. → ✅ By next year, the researchers will have finished the trial.",
+    "in_context": [
+      "By 2030, vaccines will have eradicated many of the diseases that once devastated populations worldwide.",
+      "When the new gene‑therapy protocol is approved, scientists will have been researching its molecular mechanisms for over a decade.",
+      "By the time the regulatory review concludes, the pharmaceutical company will have completed all required safety studies."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng Future Perfect hoặc Future Perfect Continuous phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "By the end of the decade, the global health community _____ the incidence of malaria.",
+          "options": [
+            "will be reducing",
+            "will have reduced",
+            "will reduce",
+            "will have been reducing"
+          ],
+          "answer": "will have reduced"
+        },
+        {
+          "id": 2,
+          "sentence": "When the clinical trial finishes, the team _____ data for three years.",
+          "options": [
+            "will have collected",
+            "will have been collecting",
+            "will collect",
+            "will be collecting"
+          ],
+          "answer": "will have been collecting"
+        },
+        {
+          "id": 3,
+          "sentence": "By the time the vaccine is rolled out, manufacturers _____ billions of doses.",
+          "options": [
+            "will have been producing",
+            "will have produced",
+            "will produce",
+            "will be producing"
+          ],
+          "answer": "will have produced"
+        },
+        {
+          "id": 4,
+          "sentence": "In five years, the research institute _____ new CRISPR techniques.",
+          "options": [
+            "will pioneer",
+            "will be pioneering",
+            "will have pioneered",
+            "will have been pioneering"
+          ],
+          "answer": "will have pioneered"
+        },
+        {
+          "id": 5,
+          "sentence": "After the conference, the panelists _____ the ethical implications of gene editing.",
+          "options": [
+            "will discuss",
+            "will have been discussing",
+            "will have discussed",
+            "will be discussing"
+          ],
+          "answer": "will have discussed"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "will",
+            "have",
+            "completed",
+            "the",
+            "trial",
+            "by",
+            "2025"
+          ],
+          "answer": "will have completed the trial by 2025"
+        },
+        {
+          "id": 2,
+          "words": [
+            "will",
+            "have",
+            "been",
+            "monitoring",
+            "patient",
+            "outcomes",
+            "for",
+            "the",
+            "next",
+            "year"
+          ],
+          "answer": "will have been monitoring patient outcomes for the next year"
+        },
+        {
+          "id": 3,
+          "words": [
+            "will",
+            "have",
+            "released",
+            "the",
+            "new",
+            "vaccine",
+            "before",
+            "the",
+            "flu",
+            "season"
+          ],
+          "answer": "will have released the new vaccine before the flu season"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "completed",
+        "produced",
+        "reduced",
+        "monitoring",
+        "started",
+        "initiated"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "By 2028, the consortium will have _____ the genome‑wide analysis of rare diseases.",
+          "answer": "completed"
+        },
+        {
+          "id": 2,
+          "sentence": "By the time the vaccine is approved, health officials will have _____ patient data continuously.",
+          "answer": "monitoring"
+        },
+        {
+          "id": 3,
+          "sentence": "In ten years, the industry will have _____ enough antiviral drugs to meet global demand.",
+          "answer": "produced"
+        },
+        {
+          "id": 4,
+          "sentence": "By 2035, climate‑related health research will have _____ the incidence of heat‑stroke cases.",
+          "answer": "reduced"
+        },
+        {
+          "id": 5,
+          "sentence": "After the rollout, the program will have _____ to show measurable improvements in vaccination rates.",
+          "answer": "started"
+        }
+      ]
+    }
   }
 }

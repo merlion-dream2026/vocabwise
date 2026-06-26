@@ -669,5 +669,167 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Future passive structures (will be automated / are expected to be replaced)",
+    "vi_grammar_point": "Bị động tương lai phức tạp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + will be + past participle",
+      "negative": "Subject + will not be + past participle",
+      "question": "Will + subject + be + past participle?",
+      "variant": "Subject + is going to be + past participle"
+    },
+    "rule_vi": "Dùng cấu trúc bị động tương lai để nói về hành động sẽ xảy ra trong tương lai nhưng không nhấn mạnh người thực hiện.",
+    "rule_en": "Use the future passive to describe actions that will happen in the future without focusing on the agent.",
+    "common_error": "❌ The company will automate the process → ✅ The process will be automated",
+    "in_context": [
+      "International mechanisms will be required to fill the void.",
+      "Advocacy organisations are expected to be consulted when governments ignore human rights.",
+      "The challenge for the twenty-first century will be addressed by new institutions."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new software _____ by the company next year.",
+          "options": [
+            "will be launched",
+            "has launched",
+            "will launch",
+            "is launching"
+          ],
+          "answer": "will be launched"
+        },
+        {
+          "id": 2,
+          "sentence": "All outdated procedures _____ after the audit.",
+          "options": [
+            "were replaced",
+            "will be replaced",
+            "are replaced",
+            "will replace"
+          ],
+          "answer": "will be replaced"
+        },
+        {
+          "id": 3,
+          "sentence": "The conference _____ by a virtual platform due to travel restrictions.",
+          "options": [
+            "will host",
+            "will be hosted",
+            "is hosting",
+            "has been hosted"
+          ],
+          "answer": "will be hosted"
+        },
+        {
+          "id": 4,
+          "sentence": "Employee data _____ securely once the new regulations take effect.",
+          "options": [
+            "will store",
+            "will be stored",
+            "has been stored",
+            "are stored"
+          ],
+          "answer": "will be stored"
+        },
+        {
+          "id": 5,
+          "sentence": "The impact of AI on jobs _____ closely by policymakers.",
+          "options": [
+            "has been monitored",
+            "will monitor",
+            "will be monitored",
+            "is being monitored"
+          ],
+          "answer": "will be monitored"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "will",
+            "be",
+            "implemented",
+            "the",
+            "new",
+            "policy"
+          ],
+          "answer": "the new policy will be implemented"
+        },
+        {
+          "id": 2,
+          "words": [
+            "be",
+            "will",
+            "automated",
+            "most",
+            "tasks",
+            "in",
+            "the",
+            "future"
+          ],
+          "answer": "most tasks will be automated in the future"
+        },
+        {
+          "id": 3,
+          "words": [
+            "be",
+            "will",
+            "replaced",
+            "by",
+            "advanced",
+            "systems",
+            "soon"
+          ],
+          "answer": "advanced systems will be replaced soon"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "will be launched",
+        "will be replaced",
+        "will be monitored",
+        "will be stored",
+        "will be implemented",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The updated curriculum _____ next semester to align with industry standards.",
+          "answer": "will be implemented"
+        },
+        {
+          "id": 2,
+          "sentence": "All legacy software _____ by the IT department by year-end.",
+          "answer": "will be replaced"
+        },
+        {
+          "id": 3,
+          "sentence": "Employee performance metrics _____ quarterly to ensure fairness.",
+          "answer": "will be monitored"
+        },
+        {
+          "id": 4,
+          "sentence": "Customer feedback _____ in a central database for analysis.",
+          "answer": "will be stored"
+        },
+        {
+          "id": 5,
+          "sentence": "The prototype device _____ at the upcoming tech expo.",
+          "answer": "will be launched"
+        }
+      ]
+    }
   }
 }

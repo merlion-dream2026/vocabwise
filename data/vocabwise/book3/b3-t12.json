@@ -682,5 +682,171 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Participle clauses — contrast and concession",
+    "vi_grammar_point": "Mệnh đề phân từ chỉ đối lập và nhượng bộ",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Participle clause (present/past participle, often with -ing or -ed) + main clause"
+    },
+    "rule_vi": "Dùng mệnh đề phân từ để diễn tả sự nhượng bộ hoặc đối lập, thường bắt đầu bằng While, Despite, Even, Having, v.v.",
+    "rule_en": "Use participle clauses to show contrast or concession, typically introduced by while, despite, even, having, etc.",
+    "common_error": "❌ Despite he was stressed, he kept working.  →  ✅ Despite being stressed, he kept working.",
+    "in_context": [
+      "Without timely intervention, prolonged stress leads to deterioration of both physical and mental health.",
+      "Having identified early signs, organisations and healthcare providers can intervene before a crisis escalates.",
+      "Despite being aware of the benefits of mindfulness, many individuals continue maladaptive coping."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ feeling exhausted, she still managed to finish the report.",
+          "options": [
+            "While",
+            "Having",
+            "Despite",
+            "Because"
+          ],
+          "answer": "While"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ being aware of the benefits of mindfulness, many people still ignore it.",
+          "options": [
+            "Having",
+            "While",
+            "Despite",
+            "Because"
+          ],
+          "answer": "Despite"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ completed the training, the staff felt more confident handling stress.",
+          "options": [
+            "Having",
+            "While",
+            "Despite",
+            "Because"
+          ],
+          "answer": "Having"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the manager expressing doubts, the team continued with the plan.",
+          "options": [
+            "Despite",
+            "While",
+            "Having",
+            "Because"
+          ],
+          "answer": "Despite"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ being under pressure, he delivered an outstanding presentation.",
+          "options": [
+            "Even",
+            "While",
+            "Having",
+            "Because"
+          ],
+          "answer": "Even"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Having",
+            "identified",
+            "the",
+            "triggers",
+            "they",
+            "implemented",
+            "coping",
+            "strategies"
+          ],
+          "answer": "Having identified the triggers they implemented coping strategies"
+        },
+        {
+          "id": 2,
+          "words": [
+            "While",
+            "exercising",
+            "he",
+            "noticed",
+            "a",
+            "sharp",
+            "pain",
+            "in",
+            "his",
+            "chest"
+          ],
+          "answer": "While exercising he noticed a sharp pain in his chest"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Despite",
+            "being",
+            "exhausted",
+            "the",
+            "team",
+            "finished",
+            "the",
+            "project",
+            "on",
+            "time"
+          ],
+          "answer": "Despite being exhausted the team finished the project on time"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Despite",
+        "While",
+        "Having",
+        "Even",
+        "Although",
+        "Because"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ being aware of the risks, she chose to proceed with the experiment.",
+          "answer": "Despite"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ working late into the night, he still managed to submit the report on time.",
+          "answer": "While"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ completed the training, the staff felt more confident handling stress.",
+          "answer": "Having"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ being exhausted, the researcher continued the interview.",
+          "answer": "Even"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the data suggesting a rise in stress levels, the policy was not revised.",
+          "answer": "Having"
+        }
+      ]
+    }
   }
 }

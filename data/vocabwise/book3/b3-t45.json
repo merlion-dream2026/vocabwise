@@ -656,5 +656,166 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Advanced reporting verbs (allege / imply / infer / concede / refute)",
+    "vi_grammar_point": "Động từ truyền đạt nâng cao C1",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + reporting verb + (that) + clause",
+      "negative": "Subject + do/does not + reporting verb + (that) + clause",
+      "question": "Did + Subject + reporting verb + (that) + clause?",
+      "variant": "Reporting verb + Object + (that) + clause"
+    },
+    "rule_vi": "Dùng các động từ này khi truyền đạt lại quan điểm, bằng chứng hoặc nhận định của người khác, thường kèm theo một mệnh đề phụ.",
+    "rule_en": "Use these verbs to report or attribute statements, implications, or conclusions to a source.",
+    "common_error": "❌ The article refutes that the results were significant. → ✅ The article refutes the claim that the results were significant.",
+    "in_context": [
+      "Listeners often infer the speaker's attitude from non‑verbal cues.",
+      "Researchers allege that active listening improves academic performance.",
+      "Some critics refute the claim that passive hearing is sufficient for comprehension."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The professor _____ that the study's results were inconclusive.",
+          "options": [
+            "concedes",
+            "alleges",
+            "implies",
+            "infers"
+          ],
+          "answer": "alleges"
+        },
+        {
+          "id": 2,
+          "sentence": "From the tone of the interview, we can _____ that the witness was nervous.",
+          "options": [
+            "refute",
+            "infer",
+            "imply",
+            "concede"
+          ],
+          "answer": "infer"
+        },
+        {
+          "id": 3,
+          "sentence": "The author _____ the earlier theory, citing new evidence.",
+          "options": [
+            "refutes",
+            "alleges",
+            "concedes",
+            "implies"
+          ],
+          "answer": "refutes"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ that the deadline might be extended, but she did not confirm it.",
+          "options": [
+            "concedes",
+            "infers",
+            "refutes",
+            "alleges"
+          ],
+          "answer": "concedes"
+        },
+        {
+          "id": 5,
+          "sentence": "His silence could _____ that he disagrees with the proposal.",
+          "options": [
+            "imply",
+            "refute",
+            "concede",
+            "infer"
+          ],
+          "answer": "imply"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "researchers",
+            "allege",
+            "that",
+            "active",
+            "listening",
+            "enhances",
+            "comprehension"
+          ],
+          "answer": "researchers allege that active listening enhances comprehension"
+        },
+        {
+          "id": 2,
+          "words": [
+            "we",
+            "infer",
+            "meaning",
+            "from",
+            "context",
+            "clues"
+          ],
+          "answer": "we infer meaning from context clues"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "committee",
+            "refuted",
+            "the",
+            "proposal",
+            "as",
+            "unfeasible"
+          ],
+          "answer": "the committee refuted the proposal as unfeasible"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để hoàn thành câu.",
+      "word_bank": [
+        "allege",
+        "imply",
+        "infer",
+        "concede",
+        "refute",
+        "suggest"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The report _____ that the data were collected improperly.",
+          "answer": "allege"
+        },
+        {
+          "id": 2,
+          "sentence": "His tone _____ a hidden criticism of the policy.",
+          "answer": "imply"
+        },
+        {
+          "id": 3,
+          "sentence": "From the fragmented notes, the editor could _____ the author's intended meaning.",
+          "answer": "infer"
+        },
+        {
+          "id": 4,
+          "sentence": "After reviewing the evidence, the lawyer _____ that the client was not at fault.",
+          "answer": "concede"
+        },
+        {
+          "id": 5,
+          "sentence": "The scientist _____ the earlier hypothesis, presenting contradictory findings.",
+          "answer": "refute"
+        }
+      ]
+    }
   }
 }

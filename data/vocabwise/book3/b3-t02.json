@@ -646,5 +646,172 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Participle clauses — reason and result (Having failed... / Driven by...)",
+    "vi_grammar_point": "Mệnh đề phân từ chỉ nguyên nhân và kết quả",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + having + past participle, main clause",
+      "negative": "Subject + not having + past participle, main clause",
+      "variant": "Present‑participle (e.g., Driven by..., Considering ...) + , main clause"
+    },
+    "rule_vi": "Dùng mệnh đề phân từ để diễn tả nguyên nhân hoặc kết quả của hành động trong câu chính.",
+    "rule_en": "Use participle clauses to express cause or result linked to the main clause.",
+    "common_error": "❌ *Having fail* to meet the deadline, the project was delayed. → ✅ *Having failed* to meet the deadline, the project was delayed.",
+    "in_context": [
+      "Having faced professional burnout, many employees describe a loss of purpose, reduced productivity, and profound disillusionment.",
+      "Driven by rising workload pressures, organisations struggle to retain talent in an increasingly automated economy.",
+      "Having failed to evolve their practices, organisations may find themselves unable to attract or retain the talent they need."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của mệnh đề phân từ để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the deadline was missed, the project was delayed.",
+          "options": [
+            "Having missed",
+            "Missing",
+            "Having been missed",
+            "Having miss"
+          ],
+          "answer": "Having missed"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ by the new regulation, companies must revise their reporting procedures.",
+          "options": [
+            "Driven",
+            "Driving",
+            "Having driven",
+            "Driven by"
+          ],
+          "answer": "Driven"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the budget cuts, the department postponed the training program.",
+          "options": [
+            "Having faced",
+            "Having",
+            "Having faced",
+            "Having faced"
+          ],
+          "answer": "Having faced"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ to anticipate the market shift, the firm lost its competitive edge.",
+          "options": [
+            "Missing",
+            "Having missed",
+            "Missed",
+            "Having missing"
+          ],
+          "answer": "Missing"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the proposal was accepted, the team began the implementation phase.",
+          "options": [
+            "Having accepted",
+            "Accepting",
+            "Having accept",
+            "Having accepted"
+          ],
+          "answer": "Having accepted"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Having",
+            "experienced",
+            "burnout",
+            "many",
+            "employees",
+            "reconsider",
+            "their",
+            "career",
+            "paths"
+          ],
+          "answer": "Having experienced burnout many employees reconsider their career paths"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Driven",
+            "by",
+            "increased",
+            "automation",
+            "companies",
+            "restructure",
+            "their",
+            "workforces"
+          ],
+          "answer": "Driven by increased automation companies restructure their workforces"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Having",
+            "failed",
+            "to",
+            "address",
+            "work‑life",
+            "balance",
+            "organizations",
+            "risk",
+            "high",
+            "turnover"
+          ],
+          "answer": "Having failed to address work‑life balance organizations risk high turnover"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền dạng phân từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Having",
+        "Driven",
+        "Missing",
+        "Completed",
+        "Failed",
+        "Considering"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the team missed the deadline, the client was disappointed.",
+          "answer": "Having"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ by the new policy, many employees reconsidered their benefits.",
+          "answer": "Driven"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the early warning, the firm adjusted its investment strategy.",
+          "answer": "Missing"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ to secure funding, the project was cancelled.",
+          "answer": "Failed"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the high turnover rate, the HR team revised its recruitment plan.",
+          "answer": "Considering"
+        }
+      ]
+    }
   }
 }

@@ -662,5 +662,171 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cleft sentences (It is...that... / What...is...)",
+    "vi_grammar_point": "Câu chẻ — nhấn mạnh",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "It + be + [focused element] + that + [subject + verb + ...]",
+      "negative": "It + be + not + [focused element] + that + [subject + verb + ...]",
+      "question": "Is it + [focused element] + that + [subject + verb + ...]?",
+      "variant": "What + [subject + verb + ...] + is + [focused element]"
+    },
+    "rule_vi": "Dùng câu chẻ để nhấn mạnh một thành phần trong câu, thường dùng cấu trúc It is/was … that … hoặc What … is ….",
+    "rule_en": "Use cleft sentences to highlight a particular part of a clause, typically with the structures It is/was … that … or What … is ….",
+    "common_error": "❌ It is the patriarchy have reinforced these structures.  →  ✅ It is the patriarchy that has reinforced these structures.",
+    "in_context": [
+      "It is the patriarchy that has long reinforced these structures, creating barriers that limit opportunity for women and gender minorities alike.",
+      "What needs to be addressed is unconscious bias, which affects hiring decisions, salary negotiations, and academic evaluation.",
+      "It is the capacity to empower marginalised groups that determines whether societies can move towards genuine equality."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu chẻ.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the main obstacle, the organization should focus on changing policies.",
+          "options": [
+            "That is",
+            "What is",
+            "It was",
+            "It is"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ we need to improve is the transparency of hiring processes.",
+          "options": [
+            "It",
+            "Which",
+            "That",
+            "What"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the most effective way to reduce bias is to implement structured training.",
+          "options": [
+            "Which is",
+            "It is",
+            "That is",
+            "What is"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the cause of the gender gap, according to the report, is the lack of mentorship.",
+          "options": [
+            "What",
+            "That",
+            "Which",
+            "It"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ we should prioritize, according to the committee, is the revision of the promotion criteria.",
+          "options": [
+            "That is",
+            "Which is",
+            "It is",
+            "What is"
+          ],
+          "answer": "It is"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "It",
+            "is",
+            "the",
+            "patriarchy",
+            "that",
+            "reinforces",
+            "gender",
+            "norms"
+          ],
+          "answer": "It is the patriarchy that reinforces gender norms"
+        },
+        {
+          "id": 2,
+          "words": [
+            "What",
+            "needs",
+            "to",
+            "be",
+            "addressed",
+            "is",
+            "unconscious",
+            "bias"
+          ],
+          "answer": "What needs to be addressed is unconscious bias"
+        },
+        {
+          "id": 3,
+          "words": [
+            "It",
+            "is",
+            "the",
+            "most",
+            "important",
+            "factor",
+            "that",
+            "drives",
+            "inequality"
+          ],
+          "answer": "It is the most important factor that drives inequality"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "It",
+        "What",
+        "That",
+        "Which",
+        "Who",
+        "Where"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ is the primary reason for the persistent wage gap.",
+          "answer": "What"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the policy that limits parental leave is outdated.",
+          "answer": "It"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ is the most effective strategy to combat unconscious bias.",
+          "answer": "What"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the barrier that prevents women from entering STEM fields is lack of role models.",
+          "answer": "It"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ is the key to achieving genuine equality in society.",
+          "answer": "What"
+        }
+      ]
+    }
   }
 }

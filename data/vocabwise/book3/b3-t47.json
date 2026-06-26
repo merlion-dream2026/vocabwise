@@ -668,5 +668,163 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cohesive devices — reference / substitution / ellipsis / conjunction",
+    "vi_grammar_point": "Phương tiện liên kết văn bản",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1 + CohesiveDevice (reference/substitution/ellipsis/conjunction) + Clause2"
+    },
+    "rule_vi": "Phương tiện liên kết văn bản được dùng để nối các câu, đoạn hoặc ý, giúp bài viết trở nên mạch lạc và logic.",
+    "rule_en": "Cohesive devices link sentences and ideas to create a coherent text.",
+    "common_error": "❌ The novel explores themes of identity; it also examines social class, however it fails to address gender.  →  ✅ The novel explores themes of identity; it also examines social class; however, it fails to address gender.",
+    "in_context": [
+      "A skilled author will carefully construct a plot that moves with purpose, ensuring each scene builds on the last.",
+      "Skilled authors know how to build narrative tension steadily across chapters, so that the resolution feels both earned and surprising.",
+      "A daring author may choose to subvert audience expectations by refusing to confirm the moral certainties readers bring to the text; others do so by employing an unreliable narrator."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The researcher presented data _____ revealed a significant trend.",
+          "options": [
+            "which",
+            "who",
+            "when",
+            "that"
+          ],
+          "answer": "that"
+        },
+        {
+          "id": 2,
+          "sentence": "She argued that the hypothesis was flawed, _____ she provided counter‑evidence.",
+          "options": [
+            "although",
+            "because",
+            "however",
+            "therefore"
+          ],
+          "answer": "however"
+        },
+        {
+          "id": 3,
+          "sentence": "The committee approved the proposal, _____ the budget was increased.",
+          "options": [
+            "but",
+            "although",
+            "so",
+            "because"
+          ],
+          "answer": "so"
+        },
+        {
+          "id": 4,
+          "sentence": "The manuscript was revised; _____ the reviewers' comments were addressed.",
+          "options": [
+            "however",
+            "therefore",
+            "moreover",
+            "consequently"
+          ],
+          "answer": "therefore"
+        },
+        {
+          "id": 5,
+          "sentence": "Many scholars ignore the footnote; _____ is a common oversight.",
+          "options": [
+            "they",
+            "it",
+            "that",
+            "this"
+          ],
+          "answer": "this"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "author",
+            "crafted",
+            "a",
+            "complex",
+            "narrative",
+            "that",
+            "challenges",
+            "readers"
+          ],
+          "answer": "the author crafted a complex narrative that challenges readers"
+        },
+        {
+          "id": 2,
+          "words": [
+            "however",
+            "the",
+            "conclusion",
+            "remains",
+            "ambiguous"
+          ],
+          "answer": "however the conclusion remains ambiguous"
+        },
+        {
+          "id": 3,
+          "words": [
+            "so",
+            "that",
+            "the",
+            "argument",
+            "is",
+            "convincing"
+          ],
+          "answer": "so that the argument is convincing"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "word_bank": [
+        "that",
+        "however",
+        "therefore",
+        "so",
+        "this",
+        "although"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The theory was compelling, _____ it lacked empirical support.",
+          "answer": "although"
+        },
+        {
+          "id": 2,
+          "sentence": "She presented evidence, _____ the jury was persuaded.",
+          "answer": "therefore"
+        },
+        {
+          "id": 3,
+          "sentence": "The novel explores identity, _____ it also examines migration.",
+          "answer": "however"
+        },
+        {
+          "id": 4,
+          "sentence": "He wrote the article, _____ it was published in a leading journal.",
+          "answer": "that"
+        },
+        {
+          "id": 5,
+          "sentence": "The professor emphasized clarity, _____ the students responded positively.",
+          "answer": "so"
+        }
+      ]
+    }
   }
 }

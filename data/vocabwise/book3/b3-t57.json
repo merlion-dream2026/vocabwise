@@ -671,5 +671,177 @@
       "4": "B",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex conditionals — inversion and mixed",
+    "vi_grammar_point": "Câu điều kiện phức tạp — đảo ngữ và hỗn hợp",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + past perfect, would + base verb (mixed) | Had + subject + past participle, would + have + past participle (inversion) | Should + subject + infinitive, ... | Were + subject + to + infinitive, ..."
+    },
+    "rule_vi": "Dùng đảo ngữ trong câu điều kiện để nhấn mạnh hoặc tạo phong cách trang trọng, thường bỏ 'if' và đảo vị trí của trợ động từ.",
+    "rule_en": "Use inversion in conditionals to create a formal tone, especially when the if‑clause is omitted.",
+    "common_error": "❌ If had I known, I would have acted.  →  ✅ Had I known, I would have acted.",
+    "in_context": [
+      "Were policymakers to challenge techno‑solutionist thinking, they would design interventions that reduce inequality rather than deepen it.",
+      "If the platforms had resisted algorithmic manipulation earlier, they would be trusted today.",
+      "Should we ignore the digital divide, we will exacerbate social disparities."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đảo ngữ hoặc hỗn hợp phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the government had implemented stricter data regulations, privacy breaches would have decreased dramatically.",
+          "options": [
+            "Should",
+            "If",
+            "Had",
+            "Were"
+          ],
+          "answer": "Had"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ we invest in digital infrastructure now, the digital divide will narrow within a decade.",
+          "options": [
+            "Were",
+            "If",
+            "Had",
+            "Should"
+          ],
+          "answer": "Should"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the algorithm been transparent, users could have made more informed choices.",
+          "options": [
+            "If",
+            "Should",
+            "Had",
+            "Were"
+          ],
+          "answer": "Had"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ she had known the risks, she wouldn't have consented to the data sharing.",
+          "options": [
+            "Should",
+            "If",
+            "Had",
+            "Were"
+          ],
+          "answer": "Had"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the tech companies adopt ethical standards, public trust will be restored.",
+          "options": [
+            "If",
+            "Were",
+            "Should",
+            "Had"
+          ],
+          "answer": "Should"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Had",
+            "the",
+            "regulators",
+            "acted",
+            "earlier",
+            "privacy",
+            "would",
+            "be",
+            "safer",
+            "now"
+          ],
+          "answer": "Had the regulators acted earlier privacy would be safer now"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Were",
+            "societies",
+            "to",
+            "address",
+            "the",
+            "climate",
+            "crisis",
+            "now",
+            "they",
+            "could",
+            "avoid",
+            "future",
+            "catastrophes"
+          ],
+          "answer": "Were societies to address the climate crisis now they could avoid future catastrophes"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Should",
+            "individuals",
+            "recognise",
+            "their",
+            "digital",
+            "rights",
+            "they",
+            "will",
+            "demand",
+            "greater",
+            "accountability"
+          ],
+          "answer": "Should individuals recognise their digital rights they will demand greater accountability"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Had",
+        "Should",
+        "Were",
+        "If",
+        "Unless",
+        "Might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the data had been anonymised, researchers could have shared findings without ethical concerns.",
+          "answer": "Had"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ we prioritize transparency, public confidence in AI systems will increase.",
+          "answer": "Should"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ governments were to invest in renewable energy, the transition would accelerate.",
+          "answer": "Were"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the policy had been enforced, the digital divide would have narrowed.",
+          "answer": "Had"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ we ignore the warning signs, the consequences will be severe.",
+          "answer": "Unless"
+        }
+      ]
+    }
   }
 }

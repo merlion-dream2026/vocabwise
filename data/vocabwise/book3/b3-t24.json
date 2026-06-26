@@ -722,5 +722,162 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Compound modifiers and binomials (well-established / fast-changing / trial and error)",
+    "vi_grammar_point": "Tính từ ghép và cặp từ cố định",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Adj + past‑participle (hyphenated) + Noun  |  Noun + and + Noun (fixed binomial)",
+      "negative": "Adj + past‑participle (hyphenated) + Noun + not + Verb  |  Noun + and + Noun + not + Verb"
+    },
+    "rule_vi": "Khi tính từ ghép đứng trước danh từ, dùng dạng tính từ + quá khứ phân từ, nối bằng dấu nối (ví dụ: well‑established tradition). Các cặp từ cố định (binomials) như trial and error không thay đổi vị trí và thường không chia dạng số nhiều.",
+    "rule_en": "Use hyphenated adjective + past participle before a noun (e.g., well‑established practice) and keep fixed binomials (e.g., trial and error) unchanged.",
+    "common_error": "❌ well established tradition → ✅ well‑established tradition",
+    "in_context": [
+      "Critics warn of cultural homogenisation — a well‑established concern that dominant commercial cultures may erode local traditions.",
+      "The fast‑changing landscape of digital media forces communities to constantly renegotiate their cultural identities.",
+      "Many diaspora groups adapt through trial and error, balancing heritage expectations with new societal norms."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The university introduced a _____ curriculum to reflect modern research trends.",
+          "options": [
+            "well‑established",
+            "fast‑changing",
+            "trial and error",
+            "slow‑moving"
+          ],
+          "answer": "well‑established"
+        },
+        {
+          "id": 2,
+          "sentence": "In the tech sector, product development is often a process of _____.",
+          "options": [
+            "fast‑changing",
+            "well‑known",
+            "trial and error",
+            "fast‑paced"
+          ],
+          "answer": "trial and error"
+        },
+        {
+          "id": 3,
+          "sentence": "The city’s _____ infrastructure struggled to keep up with the influx of migrants.",
+          "options": [
+            "fast‑changing",
+            "well‑established",
+            "slow‑moving",
+            "well‑known"
+          ],
+          "answer": "fast‑changing"
+        },
+        {
+          "id": 4,
+          "sentence": "Her reputation as a _____ scholar made her a sought‑after speaker at conferences.",
+          "options": [
+            "fast‑paced",
+            "well‑known",
+            "trial and error",
+            "slow‑moving"
+          ],
+          "answer": "well‑known"
+        },
+        {
+          "id": 5,
+          "sentence": "The policy was criticized for being too _____, lacking clear direction.",
+          "options": [
+            "fast‑paced",
+            "well‑established",
+            "slow‑moving",
+            "trial and error"
+          ],
+          "answer": "slow‑moving"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "fast‑changing",
+            "media",
+            "has",
+            "the",
+            "global",
+            "landscape"
+          ],
+          "answer": "The global media landscape is fast‑changing"
+        },
+        {
+          "id": 2,
+          "words": [
+            "well‑established",
+            "practice",
+            "of",
+            "peer",
+            "review",
+            "remains"
+          ],
+          "answer": "The well‑established practice of peer review remains"
+        },
+        {
+          "id": 3,
+          "words": [
+            "trial",
+            "and",
+            "error",
+            "approach",
+            "is",
+            "effective"
+          ],
+          "answer": "The trial and error approach is effective"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "well‑established",
+        "fast‑changing",
+        "trial and error",
+        "well‑known",
+        "fast‑paced",
+        "slow‑moving"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The conference highlighted a _____ framework for sustainable development.",
+          "answer": "well‑established"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers noted that the field is becoming increasingly _____ due to rapid technological advances.",
+          "answer": "fast‑changing"
+        },
+        {
+          "id": 3,
+          "sentence": "Learning a new language often involves a lot of _____, especially in the early stages.",
+          "answer": "trial and error"
+        },
+        {
+          "id": 4,
+          "sentence": "She is a _____ author whose books are translated into dozens of languages.",
+          "answer": "well‑known"
+        },
+        {
+          "id": 5,
+          "sentence": "The startup’s growth was _____, outpacing many of its competitors within a year.",
+          "answer": "fast‑paced"
+        }
+      ]
+    }
   }
 }

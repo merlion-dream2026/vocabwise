@@ -657,5 +657,185 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Apposition (a process known as... / the concept of... which refers to...)",
+    "vi_grammar_point": "Đồng vị ngữ — giải thích trong cùng câu",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Noun (or noun phrase) + — + Appositive phrase (noun phrase)",
+      "variant": "Noun, which/that is + noun phrase"
+    },
+    "rule_vi": "Đồng vị ngữ được dùng để bổ nghĩa cho danh từ, thường đặt sau danh từ và tách bằng dấu – hoặc dấu phẩy.",
+    "rule_en": "Apposition is used to add explanatory information to a noun, usually placed after the noun and set off by dashes or commas.",
+    "common_error": "❌ The concept of cognition which refers to mental processes is complex.  →  ✅ The concept of cognition, which refers to mental processes, is complex.",
+    "in_context": [
+      "The history of technology is largely a history of disruption — the process by which new ideas displace established systems and render previous solutions obsolete.",
+      "Central to the innovation process is the development of a prototype — an early working model that allows engineers and designers to test assumptions before committing resources to full production.",
+      "Effective iteration, the practice of refining a product through repeated cycles of testing and feedback, is what separates successful ventures from those that collapse on first contact with real users."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm danh từ thích hợp để hoàn thành câu bằng cách chèn vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The symposium attracted many experts, _____, who later published a joint paper.",
+          "options": [
+            "the former",
+            "who were",
+            "a leading authority on memory",
+            "that had"
+          ],
+          "answer": "a leading authority on memory"
+        },
+        {
+          "id": 2,
+          "sentence": "The algorithm, _____, improves processing speed by 30%.",
+          "options": [
+            "which is",
+            "the former",
+            "a simple heuristic",
+            "that is"
+          ],
+          "answer": "a simple heuristic"
+        },
+        {
+          "id": 3,
+          "sentence": "The funding round, _____, secured enough capital for the startup's expansion.",
+          "options": [
+            "which was",
+            "a record-breaking investment",
+            "that was",
+            "the former"
+          ],
+          "answer": "a record-breaking investment"
+        },
+        {
+          "id": 4,
+          "sentence": "The lecture, _____, covered recent advances in neuroimaging.",
+          "options": [
+            "the former",
+            "which is",
+            "an engaging presentation",
+            "that is"
+          ],
+          "answer": "an engaging presentation"
+        },
+        {
+          "id": 5,
+          "sentence": "The dataset, _____, contains over one million entries.",
+          "options": [
+            "the former",
+            "a comprehensive collection",
+            "which is",
+            "that is"
+          ],
+          "answer": "a comprehensive collection"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "allows",
+            "engineers",
+            "prototype",
+            "early",
+            "test",
+            "is",
+            "model",
+            "that",
+            "to",
+            "an",
+            "working",
+            "assumptions",
+            "The"
+          ],
+          "answer": "The prototype is an early working model that allows engineers to test assumptions"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Scalability",
+            "is",
+            "the",
+            "capacity",
+            "of",
+            "a",
+            "solution",
+            "to",
+            "grow",
+            "without",
+            "proportional",
+            "increases",
+            "in",
+            "cost",
+            "or",
+            "complexity"
+          ],
+          "answer": "Scalability is the capacity of a solution to grow without proportional increases in cost or complexity"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Apposition",
+            "is",
+            "a",
+            "grammatical",
+            "device",
+            "that",
+            "adds",
+            "explanatory",
+            "information",
+            "in",
+            "academic",
+            "writing"
+          ],
+          "answer": "Apposition is a grammatical device that adds explanatory information in academic writing"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ phù hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "an early working model",
+        "the capacity",
+        "a groundbreaking study",
+        "a leading authority",
+        "the practice",
+        "the hypothesis"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The prototype, _____, was tested under extreme conditions.",
+          "answer": "an early working model"
+        },
+        {
+          "id": 2,
+          "sentence": "Scalability, _____, determines whether a product can meet worldwide demand.",
+          "answer": "the capacity"
+        },
+        {
+          "id": 3,
+          "sentence": "The research, _____, revealed new insights into memory consolidation.",
+          "answer": "a groundbreaking study"
+        },
+        {
+          "id": 4,
+          "sentence": "Dr. Nguyen, _____, presented her findings at the conference.",
+          "answer": "a leading authority"
+        },
+        {
+          "id": 5,
+          "sentence": "The iterative cycle, _____, helps refine the algorithm continuously.",
+          "answer": "the practice"
+        }
+      ]
+    }
   }
 }

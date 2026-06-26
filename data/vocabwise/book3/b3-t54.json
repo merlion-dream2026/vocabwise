@@ -671,5 +671,178 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Conditional alternatives at C2 (Had it not been for... / Only if we act now will...)",
+    "vi_grammar_point": "Câu điều kiện C2 — đảo ngữ và biến thể",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Had it not been for + Noun Phrase, Subject + would + base verb / Only if + Clause, auxiliary + subject + verb",
+      "variant": "Were + subject + to + verb, auxiliary + subject + verb"
+    },
+    "rule_vi": "Dùng cấu trúc đảo ngữ để nhấn mạnh nguyên nhân ngược lại (Had it not been for…) hoặc để nhấn mạnh điều kiện duy nhất (Only if…).",
+    "rule_en": "Use inverted conditional clauses to emphasize a counterfactual cause or a sole condition.",
+    "common_error": "❌ Had it not be for the policy, we would lose jobs. → ✅ Had it not been for the policy, we would lose jobs.",
+    "in_context": [
+      "Had it not been for rapid automation, millions of workers would not face displacement.",
+      "Only if we act now will we ensure algorithmic fairness in AI systems.",
+      "Had it not been for robust legislation, digital rights would be eroded."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ we act now will we avert irreversible environmental damage.",
+          "options": [
+            "If",
+            "Only if",
+            "When",
+            "Had it not been for"
+          ],
+          "answer": "Only if"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the lack of regulation, corporations would continue to exploit data.",
+          "options": [
+            "Only if",
+            "When",
+            "Had it not been for",
+            "Unless"
+          ],
+          "answer": "Had it not been for"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we invest in renewable energy, the transition will be slower.",
+          "options": [
+            "Only if",
+            "Had it not been for",
+            "If",
+            "When"
+          ],
+          "answer": "Only if"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the public demanded transparency, AI developers would ignore ethical concerns.",
+          "options": [
+            "When",
+            "If",
+            "Only if",
+            "Had it not been for"
+          ],
+          "answer": "Had it not been for"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ we prioritize fairness, algorithmic bias will persist.",
+          "options": [
+            "Unless",
+            "Only if",
+            "Had it not been for",
+            "When"
+          ],
+          "answer": "Only if"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Had",
+            "it",
+            "not",
+            "been",
+            "for",
+            "the",
+            "policy",
+            "the",
+            "outcome",
+            "would",
+            "be",
+            "different"
+          ],
+          "answer": "Had it not been for the policy the outcome would be different"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Only",
+            "if",
+            "we",
+            "act",
+            "now",
+            "will",
+            "we",
+            "secure",
+            "the",
+            "future"
+          ],
+          "answer": "Only if we act now will we secure the future"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Had",
+            "it",
+            "not",
+            "been",
+            "for",
+            "strong",
+            "regulation",
+            "privacy",
+            "rights",
+            "would",
+            "be",
+            "threatened"
+          ],
+          "answer": "Had it not been for strong regulation privacy rights would be threatened"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền cụm từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Only if",
+        "Had it not been for",
+        "Unless",
+        "When",
+        "If",
+        "Because"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ we act now will we mitigate the AI bias problem.",
+          "answer": "Only if"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the lack of oversight, algorithmic errors could go unchecked.",
+          "answer": "Had it not been for"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we invest in green computing, carbon emissions will rise.",
+          "answer": "Only if"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the developers had followed ethical guidelines, the system would be trustworthy.",
+          "answer": "Had it not been for"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ we implement robust legislation, digital rights remain vulnerable.",
+          "answer": "Only if"
+        }
+      ]
+    }
   }
 }

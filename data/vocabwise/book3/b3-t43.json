@@ -726,5 +726,175 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Conditionals in academic discourse (Were this to happen... / Should this occur...)",
+    "vi_grammar_point": "Câu điều kiện đảo ngữ trong học thuật",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Were + Subject + Verb (base form) + ... , MainClause",
+      "variant": "Should + Subject + Verb + ... , MainClause"
+    },
+    "rule_vi": "Dùng cấu trúc đảo ngữ để diễn đạt một giả thiết trong văn phong học thuật, thường bắt đầu bằng Were hoặc Should.",
+    "rule_en": "Use inverted conditionals to express hypothetical situations formally in academic writing.",
+    "common_error": "❌ Were the students will attend the conference, we will need more seats → ✅ Were the students to attend the conference, we will need more seats",
+    "in_context": [
+      "Were a speaker to fail to calibrate register appropriately, they may cause unintended offence, regardless of grammatical accuracy.",
+      "Should learners interpret indirect communication carefully, they will read between the lines rather than taking words at face value.",
+      "Were professional environments to impose their own protocol, it shapes formal procedures that govern interaction in diplomatic, business, or academic settings."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the committee approve the proposal, the project will receive funding.",
+          "options": [
+            "If",
+            "Unless",
+            "Should",
+            "Were"
+          ],
+          "answer": "Should"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the data be misinterpreted, the conclusions could be flawed.",
+          "options": [
+            "When",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "answer": "Were"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the university adopt the new policy, faculty will need training.",
+          "options": [
+            "Unless",
+            "If",
+            "Should",
+            "Were"
+          ],
+          "answer": "Should"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the researcher neglect ethical guidelines, the study may be rejected.",
+          "options": [
+            "If",
+            "Were",
+            "When",
+            "Should"
+          ],
+          "answer": "Were"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the conference be postponed, participants will have to rearrange travel plans.",
+          "options": [
+            "Unless",
+            "When",
+            "Should",
+            "If"
+          ],
+          "answer": "Should"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "were",
+            "the",
+            "results",
+            "to",
+            "be",
+            "misleading",
+            "further",
+            "analysis",
+            "is",
+            "required"
+          ],
+          "answer": "were the results to be misleading further analysis is required"
+        },
+        {
+          "id": 2,
+          "words": [
+            "should",
+            "the",
+            "institution",
+            "implement",
+            "new",
+            "safety",
+            "measures",
+            "it",
+            "will",
+            "reduce",
+            "risk"
+          ],
+          "answer": "should the institution implement new safety measures it will reduce risk"
+        },
+        {
+          "id": 3,
+          "words": [
+            "were",
+            "the",
+            "participants",
+            "to",
+            "receive",
+            "adequate",
+            "training",
+            "they",
+            "perform",
+            "better"
+          ],
+          "answer": "were the participants to receive adequate training they perform better"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "were",
+        "should",
+        "if",
+        "unless",
+        "provided",
+        "given"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the findings be replicated, the theory gains credibility.",
+          "answer": "were"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the university allocate additional resources, the research centre can expand its facilities.",
+          "answer": "should"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the participants understand the instructions, the experiment will yield valid data.",
+          "answer": "were"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the policy be revised, it will address current shortcomings.",
+          "answer": "should"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the conference organizers communicate the schedule clearly, attendees will plan accordingly.",
+          "answer": "were"
+        }
+      ]
+    }
   }
 }

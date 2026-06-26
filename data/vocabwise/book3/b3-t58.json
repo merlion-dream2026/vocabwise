@@ -669,5 +669,164 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Fronting and cleft sentences for focus and contrast",
+    "vi_grammar_point": "Đảo ngữ và câu chẻ phục vụ nhấn mạnh và đối lập",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Fronting: [Fronted element] + Subject + Verb + Rest; Cleft (it‑cleft): It + be + Focused element + Verb + Rest; Cleft (wh‑cleft): What/Which + Verb + ... + is + Focused element",
+      "variant": "It‑cleft and wh‑cleft constructions"
+    },
+    "rule_vi": "Dùng đảo ngữ để đưa phần nhấn mạnh lên đầu câu; dùng câu chẻ (it‑cleft hoặc wh‑cleft) để làm nổi bật một thành phần cụ thể và tạo sự tương phản.",
+    "rule_en": "Use fronting to place the highlighted element at the beginning of the clause, and cleft sentences to spotlight a particular constituent for contrast.",
+    "common_error": "❌ *It is* the most important factor that we need to consider → ✅ *It is* the most important factor we need to consider",
+    "in_context": [
+      "Across the globe, climate change is reshaping ecosystems, economies, and lives.",
+      "It is the ethical fault line that runs through the global debate about responsibility.",
+      "Beyond the immediate impacts, the urgency of the crisis has renewed debate about policy frameworks."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ hoặc cụm từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ is what the committee decided after hours of deliberation.",
+          "options": [
+            "What",
+            "It",
+            "That",
+            "This"
+          ],
+          "answer": "It"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the most compelling argument, the panel rejected the proposal.",
+          "options": [
+            "Having considered the most compelling argument",
+            "Considering the most compelling argument",
+            "After considering the most compelling argument",
+            "Because the argument was compelling"
+          ],
+          "answer": "Having considered the most compelling argument"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the key factor that determines success is resilience.",
+          "options": [
+            "It is",
+            "That is",
+            "What is",
+            "The fact is"
+          ],
+          "answer": "It is"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the conference, the speaker highlighted the need for interdisciplinary research.",
+          "options": [
+            "During the conference",
+            "At the conference",
+            "In the conference",
+            "On the conference"
+          ],
+          "answer": "During the conference"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the most effective way to reduce emissions is to invest in renewable energy.",
+          "options": [
+            "What",
+            "Which",
+            "Who",
+            "That"
+          ],
+          "answer": "What"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "must",
+            "addressed",
+            "Now",
+            "the",
+            "be",
+            "issue"
+          ],
+          "answer": "Now the issue must be addressed"
+        },
+        {
+          "id": 2,
+          "words": [
+            "solution",
+            "the",
+            "is",
+            "collaboration",
+            "that",
+            "It",
+            "is"
+          ],
+          "answer": "It is collaboration that is the solution"
+        },
+        {
+          "id": 3,
+          "words": [
+            "policy",
+            "On",
+            "climate",
+            "the",
+            "impact",
+            "was",
+            "significant"
+          ],
+          "answer": "On climate policy the impact was significant"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "It",
+        "What",
+        "During",
+        "Beyond",
+        "Having",
+        "After"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the most striking feature of the manuscript is its interdisciplinary scope.",
+          "answer": "What"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the conference, the keynote speaker emphasized the urgency of climate action.",
+          "answer": "During"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the factor that mattered most was the clarity of the research question.",
+          "answer": "It"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the data were analyzed, the researchers discovered an unexpected pattern.",
+          "answer": "Having"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the policy was implemented, emissions dropped dramatically.",
+          "answer": "After"
+        }
+      ]
+    }
   }
 }

@@ -665,5 +665,168 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Metalinguistic grammar terms (syntax / morphology / clause / phrase)",
+    "vi_grammar_point": "Thuật ngữ ngôn ngữ học trong ngữ pháp",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Object",
+      "negative": "Subject + do/does not + Verb + Object",
+      "question": "Do/Does Subject Verb Object?",
+      "variant": "Subject + Verb + (adverb) + Object"
+    },
+    "rule_vi": "Sử dụng các thuật ngữ ngôn ngữ học khi mô tả cấu trúc câu, ví dụ: phrase, clause, syntax, morphology.",
+    "rule_en": "Use metalinguistic terms to talk about the structure of sentences.",
+    "common_error": "❌ A phrase is a complete sentence.  →  ✅ A phrase is not a complete sentence.",
+    "in_context": [
+      "Rhetoric — the art of effective and persuasive communication — is a noun phrase that has shaped public life since ancient Greece.",
+      "Classical theorists identified three pillars of persuasion, each of which functions as a clause within the broader argument.",
+      "The power of eloquence lies not merely in vocabulary or grammar, but in the syntax that organizes ideas into coherent statements."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "In linguistic analysis, a _____ consists of a subject and a predicate.",
+          "options": [
+            "clause",
+            "phrase",
+            "syntax",
+            "morphology"
+          ],
+          "answer": "clause"
+        },
+        {
+          "id": 2,
+          "sentence": "The word 'unbelievable' demonstrates the study of _____ because it combines a prefix, root, and suffix.",
+          "options": [
+            "syntax",
+            "morphology",
+            "phrase",
+            "clause"
+          ],
+          "answer": "morphology"
+        },
+        {
+          "id": 3,
+          "sentence": "When we rearrange words without changing meaning, we are manipulating the _____ of the sentence.",
+          "options": [
+            "syntax",
+            "clause",
+            "phrase",
+            "morphology"
+          ],
+          "answer": "syntax"
+        },
+        {
+          "id": 4,
+          "sentence": "A prepositional _____ typically includes a preposition and its object.",
+          "options": [
+            "clause",
+            "phrase",
+            "syntax",
+            "morphology"
+          ],
+          "answer": "phrase"
+        },
+        {
+          "id": 5,
+          "sentence": "The dependent _____ in the sentence adds extra information but cannot stand alone.",
+          "options": [
+            "phrase",
+            "clause",
+            "syntax",
+            "morphology"
+          ],
+          "answer": "clause"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "sentence",
+            "is",
+            "a",
+            "clause",
+            "that",
+            "expresses",
+            "a",
+            "complete",
+            "thought"
+          ],
+          "answer": "The sentence is a clause that expresses a complete thought"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Morphology",
+            "studies",
+            "word",
+            "formation",
+            "and",
+            "meaning"
+          ],
+          "answer": "Morphology studies word formation and meaning"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Syntax",
+            "orders",
+            "words",
+            "into",
+            "meaningful",
+            "structures"
+          ],
+          "answer": "Syntax orders words into meaningful structures"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "clause",
+        "phrase",
+        "syntax",
+        "morphology",
+        "subject",
+        "predicate"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A _____ can contain a subject and a verb, forming a complete idea.",
+          "answer": "clause"
+        },
+        {
+          "id": 2,
+          "sentence": "The _____ of a sentence determines how its components relate to each other.",
+          "answer": "syntax"
+        },
+        {
+          "id": 3,
+          "sentence": "Understanding _____ helps learners recognize how prefixes and suffixes modify root words.",
+          "answer": "morphology"
+        },
+        {
+          "id": 4,
+          "sentence": "In the example 'under the bridge', the group of words functions as a _____.",
+          "answer": "phrase"
+        },
+        {
+          "id": 5,
+          "sentence": "The _____ of the sentence is often the noun or pronoun that performs the action.",
+          "answer": "subject"
+        }
+      ]
+    }
   }
 }

@@ -720,5 +720,173 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Fronting for emphasis and cohesion",
+    "vi_grammar_point": "Đảo ngữ đầu câu phục vụ mạch lạc",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "FrontedElement + Subject + Verb + (Rest of clause)",
+      "negative": "FrontedElement + Subject + do/does/did not + Verb + (Rest)",
+      "question": "FrontedElement + Auxiliary + Subject + Verb + (Rest) ?"
+    },
+    "rule_vi": "Khi muốn nhấn mạnh một thành phần (thời gian, lý do, cách thức…) hoặc tạo liên kết giữa các câu, ta đưa thành phần đó lên đầu câu và thường theo sau một dấu phẩy.",
+    "rule_en": "Fronting places a clause‑initial element (e.g., adverbial, prepositional phrase) before the subject to give it emphasis or to link ideas.",
+    "common_error": "❌ In most societies deep inequality is sustained by systemic barriers.  →  ✅ In most societies, deep inequality is sustained by systemic barriers.",
+    "in_context": [
+      "In most societies, deep inequality is sustained by systemic barriers — structural forces embedded in education, housing, and labour markets that prevent people from accessing the resources they need.",
+      "To break the cycle of poverty, governments must challenge structural privilege — dismantling the inherited advantages that allow some to prosper regardless of merit, while others remain locked out of opportunity.",
+      "Welfare systems that fail to address the root causes of exclusion, can inadvertently disenfranchise the very people they aim to help."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để điền vào chỗ trống, tạo câu đảo ngữ nhấn mạnh.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the rising cost of living, many families are forced to cut back on education expenses.",
+          "options": [
+            "Despite",
+            "Because of",
+            "Considering",
+            "Given"
+          ],
+          "answer": "Given"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the evidence presented, the committee decided to postpone the reform.",
+          "options": [
+            "In spite of",
+            "According to",
+            "Despite",
+            "Following"
+          ],
+          "answer": "Despite"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the lack of affordable housing, urban planners are exploring new zoning policies.",
+          "options": [
+            "Because",
+            "Despite",
+            "Due to",
+            "With"
+          ],
+          "answer": "Due to"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the recent data, policymakers must rethink the welfare allocation model.",
+          "options": [
+            "Given",
+            "Although",
+            "When",
+            "If"
+          ],
+          "answer": "Given"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the pandemic's impact, many NGOs shifted their focus to digital outreach.",
+          "options": [
+            "Considering",
+            "Despite",
+            "Because",
+            "While"
+          ],
+          "answer": "Considering"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "to",
+            "address",
+            "inequality",
+            "we",
+            "must",
+            "first",
+            "recognise",
+            "its",
+            "systemic",
+            "roots"
+          ],
+          "answer": "To address inequality we must first recognise its systemic roots"
+        },
+        {
+          "id": 2,
+          "words": [
+            "despite",
+            "the",
+            "shortfall",
+            "government",
+            "has",
+            "committed",
+            "additional",
+            "funds"
+          ],
+          "answer": "Despite the shortfall government has committed additional funds"
+        },
+        {
+          "id": 3,
+          "words": [
+            "in",
+            "response",
+            "to",
+            "public",
+            "outcry",
+            "the",
+            "agency",
+            "revised",
+            "its",
+            "policy"
+          ],
+          "answer": "In response to public outcry the agency revised its policy"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống để hoàn thành câu đảo ngữ.",
+      "word_bank": [
+        "Given",
+        "Despite",
+        "Considering",
+        "Due to",
+        "In contrast",
+        "Nevertheless"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the steep decline in donations, charities continued to provide essential services.",
+          "answer": "Despite"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the new tax legislation, many small enterprises anticipate higher operating costs.",
+          "answer": "Given"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the extensive research, the council postponed the decision on the housing project.",
+          "answer": "Considering"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the lack of reliable data, analysts were cautious in drawing firm conclusions.",
+          "answer": "Due to"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the previous year's successes, the program was expanded to additional regions.",
+          "answer": "In contrast"
+        }
+      ]
+    }
   }
 }

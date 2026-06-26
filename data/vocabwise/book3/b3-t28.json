@@ -666,5 +666,167 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Abstract noun collocations (economic growth / fiscal policy / market forces)",
+    "vi_grammar_point": "Collocation với danh từ trừu tượng",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + AbstractNoun + (preposition) + Noun",
+      "variant": "AbstractNoun + of/for/in + Noun"
+    },
+    "rule_vi": "Danh từ trừu tượng thường đi kèm với giới từ (of, for, in) để chỉ đối tượng hoặc lĩnh vực mà chúng mô tả.",
+    "rule_en": "Abstract nouns are commonly collocated with a preposition (of, for, in) to specify the domain they refer to.",
+    "common_error": "❌ The economic growth of the country are impressive.  →  ✅ The economic growth of the country is impressive.",
+    "in_context": [
+      "Central banks respond by tightening monetary policy — raising interest rates to slow borrowing and spending.",
+      "Governments also use fiscal tools — taxation and public spending — to steer the economy.",
+      "Economists speak of market equilibrium as the point where supply meets demand at a stable price."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The government's decision to increase infrastructure spending was aimed at boosting _____.",
+          "options": [
+            "budget deficit",
+            "economic growth",
+            "inflationary pressure",
+            "monetary policy"
+          ],
+          "answer": "economic growth"
+        },
+        {
+          "id": 2,
+          "sentence": "Critics argue that the current _____ is unsustainable and will lead to higher taxes.",
+          "options": [
+            "market forces",
+            "fiscal policy",
+            "public debt",
+            "economic growth"
+          ],
+          "answer": "fiscal policy"
+        },
+        {
+          "id": 3,
+          "sentence": "When commodity prices fluctuate wildly, _____ can cause sudden shifts in consumer confidence.",
+          "options": [
+            "budget deficit",
+            "market forces",
+            "monetary policy",
+            "government spending"
+          ],
+          "answer": "market forces"
+        },
+        {
+          "id": 4,
+          "sentence": "The central bank's primary tool for controlling _____ is the manipulation of interest rates.",
+          "options": [
+            "inflationary pressure",
+            "economic growth",
+            "fiscal policy",
+            "market equilibrium"
+          ],
+          "answer": "inflationary pressure"
+        },
+        {
+          "id": 5,
+          "sentence": "A persistent _____ may force a country to borrow from international lenders.",
+          "options": [
+            "budget deficit",
+            "economic growth",
+            "market forces",
+            "fiscal policy"
+          ],
+          "answer": "budget deficit"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "borrowing",
+            "Strategic",
+            "can",
+            "stimulate",
+            "economic",
+            "growth",
+            "during",
+            "downturns"
+          ],
+          "answer": "Strategic borrowing can stimulate economic growth during downturns"
+        },
+        {
+          "id": 2,
+          "words": [
+            "policy",
+            "monetary",
+            "higher",
+            "inflationary",
+            "leads",
+            "to",
+            "tightening",
+            "often"
+          ],
+          "answer": "Tightening monetary policy often leads to higher inflationary pressure"
+        },
+        {
+          "id": 3,
+          "words": [
+            "amplify",
+            "can",
+            "Deregulation",
+            "market",
+            "forces",
+            "affecting",
+            "competition"
+          ],
+          "answer": "Deregulation can amplify market forces affecting competition"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "economic growth",
+        "fiscal policy",
+        "market forces",
+        "inflationary pressure",
+        "budget deficit",
+        "taxation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Investors closely monitor _____ to gauge the health of the global economy.",
+          "answer": "economic growth"
+        },
+        {
+          "id": 2,
+          "sentence": "The committee recommended a revision of the _____ to reduce the national debt.",
+          "answer": "fiscal policy"
+        },
+        {
+          "id": 3,
+          "sentence": "During the crisis, _____ intensified, leading to volatile stock prices.",
+          "answer": "market forces"
+        },
+        {
+          "id": 4,
+          "sentence": "Central banks aim to keep _____ within a target range to maintain price stability.",
+          "answer": "inflationary pressure"
+        },
+        {
+          "id": 5,
+          "sentence": "To fund the new infrastructure project, the government ran a _____ this fiscal year.",
+          "answer": "budget deficit"
+        }
+      ]
+    }
   }
 }

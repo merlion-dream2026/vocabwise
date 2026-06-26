@@ -676,5 +676,166 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive infinitives (appear to be / seem to have been / is thought to...)",
+    "vi_grammar_point": "Động từ nguyên thể bị động",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + appear / seem / is thought + to be + past participle",
+      "negative": "Subject + appear / seem / is thought + not + to be + past participle",
+      "question": "Does/Is/Are Subject + appear / seem / is thought + to be + ...?",
+      "variant": "Subject + appear / seem + to have been + past participle"
+    },
+    "rule_vi": "Dùng cấu trúc này để diễn tả một hiện tượng có vẻ đúng nhưng chưa chắc chắn, thường khi chúng ta dựa vào quan sát hoặc ý kiến chung.",
+    "rule_en": "Use passive infinitives to express a perceived state or judgment that is not directly confirmed.",
+    "common_error": "❌ The results seem being accurate. → ✅ The results seem to be accurate.",
+    "in_context": [
+      "Translation appears to be frequently misunderstood as a mechanical process of substituting words from one language with their counterparts in another.",
+      "The concept of fidelity is thought to be at the heart of translation ethics.",
+      "Interpreting seems to have been added as a further layer of complexity, as professionals must preserve semantic equivalence in real time."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm động từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The new policy ___ more inclusive, according to the committee.",
+          "options": [
+            "seem to be",
+            "looks",
+            "appear to be",
+            "is thought to be"
+          ],
+          "answer": "appear to be"
+        },
+        {
+          "id": 2,
+          "sentence": "Many critics ___ biased, but no formal study has confirmed it.",
+          "options": [
+            "is thought to be",
+            "seem to be",
+            "appear to be",
+            "looks"
+          ],
+          "answer": "seem to be"
+        },
+        {
+          "id": 3,
+          "sentence": "The ancient manuscript ___ lost during transport.",
+          "options": [
+            "appear to be",
+            "is thought to be",
+            "seems to be",
+            "looks"
+          ],
+          "answer": "is thought to be"
+        },
+        {
+          "id": 4,
+          "sentence": "Researchers ___ overlooked in early surveys of the field.",
+          "options": [
+            "appear to have been",
+            "seem to have been",
+            "is thought to be",
+            "looks"
+          ],
+          "answer": "seem to have been"
+        },
+        {
+          "id": 5,
+          "sentence": "The initial reaction ___ positive, but later turned critical.",
+          "options": [
+            "appear to be",
+            "seem to be",
+            "is thought to be",
+            "looks"
+          ],
+          "answer": "seem to be"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "The",
+            "results",
+            "seem",
+            "to",
+            "be",
+            "inconclusive"
+          ],
+          "answer": "The results seem to be inconclusive"
+        },
+        {
+          "id": 2,
+          "words": [
+            "It",
+            "is",
+            "thought",
+            "to",
+            "be",
+            "necessary",
+            "to",
+            "revise"
+          ],
+          "answer": "It is thought to be necessary to revise"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Researchers",
+            "appear",
+            "to",
+            "have",
+            "been",
+            "overlooked"
+          ],
+          "answer": "Researchers appear to have been overlooked"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn cụm động từ phù hợp từ danh sách để điền vào chỗ trống.",
+      "word_bank": [
+        "appear to be",
+        "seem to be",
+        "is thought to be",
+        "appear to have been",
+        "seem to have been",
+        "looks"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The manuscript ___ lost during the shipment.",
+          "answer": "appear to be"
+        },
+        {
+          "id": 2,
+          "sentence": "Many scholars ___ overlooked in early studies.",
+          "answer": "seem to have been"
+        },
+        {
+          "id": 3,
+          "sentence": "The policy ___ ineffective, according to recent data.",
+          "answer": "is thought to be"
+        },
+        {
+          "id": 4,
+          "sentence": "The ancient technique ___ rediscovered by archaeologists.",
+          "answer": "appear to have been"
+        },
+        {
+          "id": 5,
+          "sentence": "The initial reaction ___ positive, but later turned critical.",
+          "answer": "seem to be"
+        }
+      ]
+    }
   }
 }

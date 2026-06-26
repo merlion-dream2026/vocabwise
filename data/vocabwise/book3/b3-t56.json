@@ -731,5 +731,173 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Advanced discourse markers (notwithstanding / in so far as / by virtue of)",
+    "vi_grammar_point": "Liên từ học thuật C2",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1, [discourse marker] Clause2"
+    },
+    "rule_vi": "Các liên từ học thuật này nối các mệnh đề, diễn tả quan hệ nhượng bộ, mức độ hoặc căn cứ trong văn viết trang trọng.",
+    "rule_en": "These discourse markers link clauses to express concession, extent, or basis in formal academic writing.",
+    "common_error": "❌ The treaty was signed, notwithstanding the lingering mistrust, it failed.  →  ✅ The treaty was signed, notwithstanding the lingering mistrust.",
+    "in_context": [
+      "The pursuit of diplomacy has long been humanity's primary tool for managing conflict short of war, notwithstanding the occasional breakdown of diplomatic channels.",
+      "Progress towards disarmament has meanwhile stalled, in so far as states weigh the security risks of reducing military capabilities against the long‑term benefits of a less militarised world.",
+      "Sovereignty must not be invoked as an excuse to obstruct peace processes, by virtue of its fundamental role in guaranteeing the rights of all citizens."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ học thuật phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee proceeded with the plan, _____ the recent budget cuts.",
+          "options": [
+            "by virtue of",
+            "in so far as",
+            "although",
+            "notwithstanding"
+          ],
+          "answer": "notwithstanding"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the evidence presented, the jury could not reach a unanimous verdict.",
+          "options": [
+            "by virtue of",
+            "notwithstanding",
+            "in so far as",
+            "because"
+          ],
+          "answer": "in so far as"
+        },
+        {
+          "id": 3,
+          "sentence": "She was appointed chairperson _____ her extensive experience in international law.",
+          "options": [
+            "in so far as",
+            "despite",
+            "by virtue of",
+            "although"
+          ],
+          "answer": "by virtue of"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the limited data, the researchers refrained from drawing definitive conclusions.",
+          "options": [
+            "notwithstanding",
+            "by virtue of",
+            "in so far as",
+            "despite"
+          ],
+          "answer": "notwithstanding"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ his position as senior analyst, he was unable to influence the final report.",
+          "options": [
+            "although",
+            "in so far as",
+            "by virtue of",
+            "notwithstanding"
+          ],
+          "answer": "by virtue of"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "lingering",
+            "notwithstanding",
+            "the",
+            "treaty",
+            "was",
+            "signed",
+            "mistrust",
+            "The"
+          ],
+          "answer": "The treaty was signed notwithstanding the lingering mistrust"
+        },
+        {
+          "id": 2,
+          "words": [
+            "grounded",
+            "Policies",
+            "in",
+            "evidence",
+            "are",
+            "succeed",
+            "as",
+            "they",
+            "in",
+            "so",
+            "far",
+            "empirical"
+          ],
+          "answer": "Policies succeed in so far as they are grounded in empirical evidence"
+        },
+        {
+          "id": 3,
+          "words": [
+            "authority",
+            "She",
+            "by",
+            "gained",
+            "virtue",
+            "of",
+            "her",
+            "decades",
+            "service",
+            "of"
+          ],
+          "answer": "She gained authority by virtue of her decades of service"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "notwithstanding",
+        "in so far as",
+        "by virtue of",
+        "despite",
+        "because",
+        "although"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the recent policy changes, the organization maintained its original objectives.",
+          "answer": "notwithstanding"
+        },
+        {
+          "id": 2,
+          "sentence": "The proposal was accepted _____ the committee's stringent criteria were met.",
+          "answer": "in so far as"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ his appointment, he immediately began restructuring the department.",
+          "answer": "by virtue of"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the harsh criticism, the author refused to alter the manuscript.",
+          "answer": "despite"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the data was inconclusive, the team postponed the experiment.",
+          "answer": "because"
+        }
+      ]
+    }
   }
 }

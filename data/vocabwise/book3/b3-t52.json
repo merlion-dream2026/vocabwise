@@ -655,5 +655,166 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal perfect — deduction and criticism (should have been / need not have been)",
+    "vi_grammar_point": "Động từ khuyết thiếu hoàn thành — nâng cao",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal (should / need not) + have + past participle",
+      "negative": "Subject + should not have + past participle",
+      "question": "Should + subject + have + past participle?",
+      "variant": "Subject + ought to have + past participle"
+    },
+    "rule_vi": "Dùng để suy đoán về quá khứ (should have) hoặc chỉ ra rằng một hành động không cần thiết (need not have).",
+    "rule_en": "Use to make deductions about past events or to criticize actions that were unnecessary.",
+    "common_error": "❌ He should have went to the meeting → ✅ He should have gone to the meeting",
+    "in_context": [
+      "Individuals and corporations alike should have been urged to adopt sustainable practices earlier.",
+      "Governments and industries need not have been forced to reduce carbon footprint if they had adopted early measures.",
+      "Conservation alone, however, should have been insufficient if anthropocentrism continues to drive economic policy."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ khuyết thiếu hoàn thành để hoàn thiện câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The committee _____ the proposal, given the overwhelming evidence.",
+          "options": [
+            "should have rejected",
+            "need not have accepted",
+            "should have accepted",
+            "need not have rejected"
+          ],
+          "answer": "should have accepted"
+        },
+        {
+          "id": 2,
+          "sentence": "Because the data were flawed, the researchers _____ the study.",
+          "options": [
+            "need not have conducted",
+            "should not have conducted",
+            "should have conducted",
+            "need not have conducted"
+          ],
+          "answer": "need not have conducted"
+        },
+        {
+          "id": 3,
+          "sentence": "If the policy had been implemented earlier, the crisis _____ avoided.",
+          "options": [
+            "should have been",
+            "need not have been",
+            "should have been",
+            "need not have been"
+          ],
+          "answer": "need not have been"
+        },
+        {
+          "id": 4,
+          "sentence": "The editor _____ the article, as the facts were already verified.",
+          "options": [
+            "should not have edited",
+            "need not have edited",
+            "should have edited",
+            "need not have edited"
+          ],
+          "answer": "need not have edited"
+        },
+        {
+          "id": 5,
+          "sentence": "Given the circumstances, the manager _____ the decision, but he chose otherwise.",
+          "options": [
+            "should have made",
+            "need not have made",
+            "should not have made",
+            "need not have made"
+          ],
+          "answer": "should have made"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "they",
+            "should",
+            "have",
+            "been",
+            "more",
+            "cautious"
+          ],
+          "answer": "they should have been more cautious"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "report",
+            "need",
+            "not",
+            "have",
+            "been",
+            "required"
+          ],
+          "answer": "the report need not have been required"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "should",
+            "have",
+            "considered",
+            "the",
+            "ethical",
+            "implications"
+          ],
+          "answer": "We should have considered the ethical implications"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống (sử dụng cấu trúc modal perfect).",
+      "word_bank": [
+        "should",
+        "need",
+        "ought",
+        "must",
+        "could",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Given the evidence, the committee _____ been more thorough.",
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "If resources were unlimited, the project _____ been expanded.",
+          "answer": "could"
+        },
+        {
+          "id": 3,
+          "sentence": "The regulations _____ been stricter, but they were relaxed.",
+          "answer": "must"
+        },
+        {
+          "id": 4,
+          "sentence": "Because the data were inconclusive, the analyst _____ have drawn a firm conclusion.",
+          "answer": "need"
+        },
+        {
+          "id": 5,
+          "sentence": "The committee _____ have approved the proposal, yet they did not.",
+          "answer": "ought"
+        }
+      ]
+    }
   }
 }

@@ -677,5 +677,158 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Ellipsis and substitution (so do I / neither does she / the former)",
+    "vi_grammar_point": "Tỉnh lược và thay thế trong văn viết",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "so + auxiliary + subject",
+      "negative": "neither + auxiliary + subject",
+      "variant": "the former / the latter (noun substitution)"
+    },
+    "rule_vi": "Dùng 'so' để đồng ý với một câu khẳng định, dùng 'neither' để đồng ý với một câu phủ định, và dùng 'the former' để thay thế danh từ đã đề cập trước.",
+    "rule_en": "Use 'so' for affirmative agreement, 'neither' for negative agreement, and 'the former' to substitute a previously mentioned noun.",
+    "common_error": "❌ *So does she* → ✅ *So does she* (when the original clause is affirmative)  ❌ *Neither do I* → ✅ *Neither do I* (when the original clause is negative)",
+    "in_context": [
+      "Elite performers distinguish themselves not only through raw talent but through extraordinary endurance, rigorous discipline, and the psychology of winning under pressure. So do I.",
+      "Sport also functions as a powerful spectacle — a form of public entertainment that captivates billions of fans worldwide. So does it.",
+      "Doping — the use of banned substances to enhance physical capacity — remains a persistent threat to sporting integrity. The former has been condemned repeatedly."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The athletes train for hours every day, and _____ .",
+          "options": [
+            "neither does she",
+            "the former",
+            "so do I",
+            "however"
+          ],
+          "answer": "so do I"
+        },
+        {
+          "id": 2,
+          "sentence": "She never attends the doping seminars, and _____ .",
+          "options": [
+            "so does he",
+            "neither does she",
+            "the latter",
+            "instead"
+          ],
+          "answer": "neither does she"
+        },
+        {
+          "id": 3,
+          "sentence": "The championship trophy is coveted by many, but _____ .",
+          "options": [
+            "neither do I",
+            "so do they",
+            "the former",
+            "however"
+          ],
+          "answer": "the former"
+        },
+        {
+          "id": 4,
+          "sentence": "Fans love the excitement of the finals, and _____ .",
+          "options": [
+            "so does it",
+            "instead",
+            "the former",
+            "neither does it"
+          ],
+          "answer": "so does it"
+        },
+        {
+          "id": 5,
+          "sentence": "He doesn't believe the anti‑doping measures are sufficient, and _____ .",
+          "options": [
+            "the latter",
+            "so do I",
+            "neither does she",
+            "however"
+          ],
+          "answer": "neither does she"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "do",
+            "so",
+            "I",
+            "am",
+            "ready"
+          ],
+          "answer": "I am ready so do"
+        },
+        {
+          "id": 2,
+          "words": [
+            "neither",
+            "does",
+            "he",
+            "agree"
+          ],
+          "answer": "he agrees neither does"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "former",
+            "was",
+            "controversial"
+          ],
+          "answer": "the former was controversial"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ/ cụm từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "so do I",
+        "neither does she",
+        "the former",
+        "however",
+        "instead",
+        "also"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Many athletes embrace mental training, and _____ .",
+          "answer": "so do I"
+        },
+        {
+          "id": 2,
+          "sentence": "She hasn't signed the new contract, and _____ .",
+          "answer": "neither does she"
+        },
+        {
+          "id": 3,
+          "sentence": "Doping scandals have tarnished reputations; _____ was the most notorious case.",
+          "answer": "the former"
+        },
+        {
+          "id": 4,
+          "sentence": "The team lost the final match, and _____ they will try again next season.",
+          "answer": "also"
+        },
+        {
+          "id": 5,
+          "sentence": "Officials introduced stricter testing, _____ the athletes welcomed the change.",
+          "answer": "instead"
+        }
+      ]
+    }
   }
 }

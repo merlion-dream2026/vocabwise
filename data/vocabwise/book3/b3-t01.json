@@ -709,5 +709,176 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Nominalization — advanced (educate → education; acquire → acquisition)",
+    "vi_grammar_point": "Danh hóa nâng cao",
+    "level": "C1",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Object → Subject + Noun (nominalized)"
+    },
+    "rule_vi": "Khi muốn biến động từ thành danh từ để diễn tả một khái niệm, quá trình hoặc kết quả, ta dùng danh hóa (ví dụ: educate → education).",
+    "rule_en": "Use nominalization to turn a verb into a noun when the noun represents an abstract concept or process.",
+    "common_error": "❌ The educate of the students is important.  →  ✅ The education of the students is important.",
+    "in_context": [
+      "Without these structural interventions, education alone cannot overcome entrenched disadvantage.",
+      "Literacy — both in traditional and digital forms — underpins all other learning.",
+      "A key concern is attainment: research consistently shows that socioeconomic background strongly predicts academic success."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The university's new policy aims to improve _____ among first‑generation students.",
+          "options": [
+            "graduation",
+            "attendance",
+            "acquisition",
+            "retention"
+          ],
+          "answer": "retention"
+        },
+        {
+          "id": 2,
+          "sentence": "Policymakers argue that early childhood _____ is crucial for later academic success.",
+          "options": [
+            "development",
+            "training",
+            "education",
+            "acquisition"
+          ],
+          "answer": "education"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ of digital skills has become a priority in many curricula.",
+          "options": [
+            "adoption",
+            "assessment",
+            "acquisition",
+            "allocation"
+          ],
+          "answer": "acquisition"
+        },
+        {
+          "id": 4,
+          "sentence": "A major _____ of the reform was the reduction of standardized testing.",
+          "options": [
+            "implementation",
+            "execution",
+            "realization",
+            "completion"
+          ],
+          "answer": "implementation"
+        },
+        {
+          "id": 5,
+          "sentence": "Research highlights the _____ of critical thinking in lifelong learning.",
+          "options": [
+            "importance",
+            "necessity",
+            "significance",
+            "value"
+          ],
+          "answer": "importance"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "university",
+            "has",
+            "initiated",
+            "a",
+            "curriculum",
+            "revision",
+            "to",
+            "enhance",
+            "literacy",
+            "in",
+            "STEM",
+            "fields"
+          ],
+          "answer": "the university has initiated a curriculum revision to enhance literacy in STEM fields"
+        },
+        {
+          "id": 2,
+          "words": [
+            "policy",
+            "aims",
+            "at",
+            "the",
+            "acquisition",
+            "of",
+            "digital",
+            "competencies",
+            "among",
+            "teachers"
+          ],
+          "answer": "policy aims at the acquisition of digital competencies among teachers"
+        },
+        {
+          "id": 3,
+          "words": [
+            "early",
+            "childhood",
+            "education",
+            "is",
+            "considered",
+            "a",
+            "foundation",
+            "for",
+            "future",
+            "attainment"
+          ],
+          "answer": "early childhood education is considered a foundation for future attainment"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "education",
+        "acquisition",
+        "attainment",
+        "literacy",
+        "retention",
+        "innovation"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The _____ of reading skills is essential for academic progress.",
+          "answer": "literacy"
+        },
+        {
+          "id": 2,
+          "sentence": "Governments must invest in _____ to reduce the socioeconomic gap.",
+          "answer": "education"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ gap between urban and rural schools remains a pressing issue.",
+          "answer": "attainment"
+        },
+        {
+          "id": 4,
+          "sentence": "Effective _____ of new technologies requires teacher training.",
+          "answer": "acquisition"
+        },
+        {
+          "id": 5,
+          "sentence": "University strategies that improve _____ of graduates can boost employability.",
+          "answer": "retention"
+        }
+      ]
+    }
   }
 }

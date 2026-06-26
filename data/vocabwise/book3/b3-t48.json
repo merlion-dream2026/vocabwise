@@ -655,5 +655,169 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Complex hedging and qualification (to some extent / with some reservations)",
+    "vi_grammar_point": "Phòng ngừa và hạn chế phức tạp",
+    "level": "C2",
+    "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb (+ Object) + (to some extent / with some reservations)",
+      "negative": "Subject + do not + Verb (+ Object) + (to some extent / with some reservations)",
+      "question": "To what extent does Subject Verb ... ?",
+      "variant": "to a certain degree"
+    },
+    "rule_vi": "Dùng các cụm ‘to some extent’ hoặc ‘with some reservations’ để biểu đạt mức độ hạn chế, không khẳng định tuyệt đối.",
+    "rule_en": "Use ‘to some extent’ or ‘with some reservations’ to qualify statements and avoid absolute claims.",
+    "common_error": "❌ The results are completely accurate.  →  ✅ The results are accurate to some extent.",
+    "in_context": [
+      "English, for instance, has one of the largest lexicons of any language to some extent because it has borrowed prolifically from French, German, and dozens of other sources.",
+      "Writers and marketers who coin new terminology often find their inventions absorbed into everyday speech within a generation with some reservations about their longevity.",
+      "The standardisation of spelling and grammar, while aiding literacy, can accelerate obsolescence to some extent by pushing non‑standard forms toward extinction."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm từ phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The study suggests that the impact of social media on language change is _____.",
+          "options": [
+            "beyond",
+            "to some extent",
+            "not at all",
+            "completely"
+          ],
+          "answer": "to some extent"
+        },
+        {
+          "id": 2,
+          "sentence": "Researchers argue that the benefits of standardized testing should be accepted _____.",
+          "options": [
+            "unconditionally",
+            "with some reservations",
+            "rarely",
+            "eagerly"
+          ],
+          "answer": "with some reservations"
+        },
+        {
+          "id": 3,
+          "sentence": "The new policy may improve accessibility _____, but further evaluation is needed.",
+          "options": [
+            "occasionally",
+            "entirely",
+            "to some extent",
+            "never"
+          ],
+          "answer": "to some extent"
+        },
+        {
+          "id": 4,
+          "sentence": "While the theory is compelling, scholars receive it _____.",
+          "options": [
+            "indifferently",
+            "with some reservations",
+            "enthusiastically",
+            "eagerly"
+          ],
+          "answer": "with some reservations"
+        },
+        {
+          "id": 5,
+          "sentence": "The correlation between reading frequency and vocabulary breadth is evident _____.",
+          "options": [
+            "absolutely",
+            "occasionally",
+            "to some extent",
+            "not"
+          ],
+          "answer": "to some extent"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "to",
+            "some",
+            "extent",
+            "the",
+            "effects",
+            "are",
+            "observable"
+          ],
+          "answer": "to some extent the effects are observable"
+        },
+        {
+          "id": 2,
+          "words": [
+            "with",
+            "some",
+            "reservations",
+            "the",
+            "committee",
+            "approved",
+            "the",
+            "proposal"
+          ],
+          "answer": "with some reservations the committee approved the proposal"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "findings",
+            "suggest",
+            "to",
+            "some",
+            "extent",
+            "a",
+            "shift"
+          ],
+          "answer": "the findings suggest to some extent a shift"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền cụm từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "to some extent",
+        "with some reservations",
+        "to a certain degree",
+        "to a limited extent",
+        "with reservations",
+        "completely"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The author acknowledges that the theory holds _____.",
+          "answer": "to some extent"
+        },
+        {
+          "id": 2,
+          "sentence": "The panel accepted the proposal _____.",
+          "answer": "with some reservations"
+        },
+        {
+          "id": 3,
+          "sentence": "The results indicate the hypothesis is valid _____.",
+          "answer": "to a certain degree"
+        },
+        {
+          "id": 4,
+          "sentence": "The policy may reduce emissions _____, but not eliminate them.",
+          "answer": "to a limited extent"
+        },
+        {
+          "id": 5,
+          "sentence": "The committee approved the plan _____, pending further review.",
+          "answer": "with reservations"
+        }
+      ]
+    }
   }
 }
