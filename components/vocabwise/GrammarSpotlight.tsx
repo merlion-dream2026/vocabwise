@@ -13,8 +13,10 @@ export type GrammarSpotlightData = {
   form: { positive: string; negative?: string; question?: string; variant?: string }
   rule_vi: string
   rule_en: string
+  usage_notes?: Array<{ text: string; examples?: string[] }>
   common_error: string
   in_context: string[]
+  in_context_vi?: string[]
   ex1_mcq: { instruction: string; items: MCQItem[] }
   ex2_scramble: { instruction: string; items: SentenceItem[] }
   ex3_gap_fill: { instruction: string; word_bank: string[]; items: GapFillItem[] }
@@ -71,13 +73,27 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
           </div>
 
           {/* Rules */}
-          <div className="space-y-1.5 px-1">
-            <p className="text-sm text-gray-700 leading-relaxed">
-              <span className="font-black text-green-700">VI: </span>{data.rule_vi}
-            </p>
-            <p className="text-sm text-gray-500 leading-relaxed italic">
-              <span className="font-black not-italic text-gray-600">EN: </span>{data.rule_en}
-            </p>
+          <div className="space-y-2 px-1">
+            <p className="text-sm text-gray-700 leading-relaxed">{data.rule_vi}</p>
+            {data.usage_notes && data.usage_notes.length > 0 && (
+              <ul className="space-y-2.5 mt-1">
+                {data.usage_notes.map((note, i) => (
+                  <li key={i} className="space-y-1">
+                    <div className="flex gap-2 text-sm text-gray-600 leading-relaxed">
+                      <span className="text-green-500 font-black shrink-0">›</span>
+                      <span>{note.text}</span>
+                    </div>
+                    {note.examples && note.examples.length > 0 && (
+                      <div className="ml-4 space-y-0.5">
+                        {note.examples.map((ex, j) => (
+                          <p key={j} className="text-xs font-mono text-gray-500 bg-gray-50 border border-gray-100 rounded-lg px-2.5 py-1.5 leading-relaxed">{ex}</p>
+                        ))}
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
 
           {/* Common error */}
@@ -88,10 +104,15 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
           {/* In context */}
           <div>
             <p className="text-xs font-black text-gray-400 uppercase tracking-wide mb-2">Trong bài đọc</p>
-            <div className="space-y-1.5">
+            <div className="space-y-2">
               {data.in_context.map((s, i) => (
-                <p key={i} className="text-sm text-gray-700 bg-amber-50 border border-amber-100 rounded-xl px-3 py-2.5 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: renderBold(s) }} />
+                <div key={i} className="bg-amber-50 border border-amber-100 rounded-xl px-3 py-2.5 space-y-1">
+                  <p className="text-sm text-gray-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: renderBold(s) }} />
+                  {data.in_context_vi?.[i] && (
+                    <p className="text-xs text-amber-700 leading-relaxed italic">{data.in_context_vi[i]}</p>
+                  )}
+                </div>
               ))}
             </div>
           </div>
