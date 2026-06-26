@@ -496,8 +496,8 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       <div className="flex-1 min-w-0">
                         <p className="font-black text-gray-800 text-sm leading-snug">{displayText}</p>
                         {isCollocation
-                          ? <p className="text-purple-400 text-[11px]">col</p>
-                          : item.pos && <p className="text-gray-400 text-[11px] italic">{posShort(item.pos)}</p>
+                          ? <p className="text-purple-400 text-xs">col</p>
+                          : item.pos && <p className="text-gray-400 text-xs italic">{posShort(item.pos)}</p>
                         }
                       </div>
                       {/* Meaning — full, up to 2 lines */}
