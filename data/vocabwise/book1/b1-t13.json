@@ -723,5 +723,166 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositions of place (in / on / at / next to / opposite)",
+    "vi_grammar_point": "Giới từ chỉ vị trí",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be + preposition + place",
+      "negative": "Subject + be + not + preposition + place",
+      "question": "Is/Are + Subject + preposition + place?",
+      "variant": "Subject + verb (e.g., sit, stand) + preposition + place"
+    },
+    "rule_vi": "Dùng 'in' cho không gian bao quanh, 'on' cho bề mặt, 'at' cho địa điểm cụ thể, 'next to' cho vị trí bên cạnh, 'opposite' cho vị trí đối diện.",
+    "rule_en": "We use 'in' for enclosed spaces, 'on' for surfaces, 'at' for specific points, 'next to' for beside, and 'opposite' for opposite side.",
+    "common_error": "❌ She lives on London.  →  ✅ She lives in London.",
+    "in_context": [
+      "I live **in** a small district near the city centre.",
+      "There is a small park **at** the end of the road.",
+      "Children play outside while adults chat **on** the pavement."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn giới từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My house is ___ a quiet street.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "next to"
+          ],
+          "answer": "on"
+        },
+        {
+          "id": 2,
+          "sentence": "The library is ___ the corner of the block.",
+          "options": [
+            "opposite",
+            "next to",
+            "in",
+            "at"
+          ],
+          "answer": "at"
+        },
+        {
+          "id": 3,
+          "sentence": "There is a bakery ___ the left side of the park.",
+          "options": [
+            "next to",
+            "in",
+            "on",
+            "opposite"
+          ],
+          "answer": "next to"
+        },
+        {
+          "id": 4,
+          "sentence": "My school is ___ the main road.",
+          "options": [
+            "at",
+            "in",
+            "on",
+            "opposite"
+          ],
+          "answer": "on"
+        },
+        {
+          "id": 5,
+          "sentence": "The bus stop is ___ the school.",
+          "options": [
+            "opposite",
+            "next to",
+            "in",
+            "at"
+          ],
+          "answer": "opposite"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "is",
+            "the",
+            "post",
+            "on",
+            "the",
+            "wall"
+          ],
+          "answer": "the post is on the wall"
+        },
+        {
+          "id": 2,
+          "words": [
+            "park",
+            "a",
+            "there",
+            "is",
+            "at",
+            "the",
+            "end"
+          ],
+          "answer": "there is a park at the end"
+        },
+        {
+          "id": 3,
+          "words": [
+            "cafe",
+            "next",
+            "to",
+            "the",
+            "library",
+            "is",
+            "the"
+          ],
+          "answer": "the cafe is next to the library"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền giới từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "in",
+        "on",
+        "at",
+        "next to",
+        "opposite",
+        "by"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My bedroom is ___ the second floor.",
+          "answer": "on"
+        },
+        {
+          "id": 2,
+          "sentence": "The supermarket is ___ the corner of the street.",
+          "answer": "at"
+        },
+        {
+          "id": 3,
+          "sentence": "There is a tree ___ my house.",
+          "answer": "next to"
+        },
+        {
+          "id": 4,
+          "sentence": "The school is ___ the park.",
+          "answer": "opposite"
+        },
+        {
+          "id": 5,
+          "sentence": "We sit ___ the garden and read.",
+          "answer": "in"
+        }
+      ]
+    }
   }
 }

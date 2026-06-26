@@ -723,5 +723,161 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Object pronouns (me / him / her / us / them)",
+    "vi_grammar_point": "Đại từ tân ngữ",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Object pronoun",
+      "negative": "Subject + do/does not + Verb + Object pronoun",
+      "question": "Do/Does + Subject + Verb + Object pronoun?"
+    },
+    "rule_vi": "Đại từ tân ngữ dùng để thay thế cho danh từ làm tân ngữ sau động từ.",
+    "rule_en": "Object pronouns replace nouns that function as objects after a verb.",
+    "common_error": "❌ She gave I a gift. → ✅ She gave me a gift.",
+    "in_context": [
+      "She is always kind and makes **me** laugh when I feel tired.",
+      "I miss **her** when she is away.",
+      "I am always honest with **her** and I remember all the happy times we share."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đại từ tân ngữ phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My brother called _____ yesterday.",
+          "options": [
+            "him",
+            "me",
+            "her",
+            "us"
+          ],
+          "answer": "me"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher gave _____ the homework.",
+          "options": [
+            "them",
+            "us",
+            "him",
+            "me"
+          ],
+          "answer": "them"
+        },
+        {
+          "id": 3,
+          "sentence": "Can you help _____ with the project?",
+          "options": [
+            "her",
+            "us",
+            "him",
+            "me"
+          ],
+          "answer": "us"
+        },
+        {
+          "id": 4,
+          "sentence": "Lisa invited _____ to her birthday party.",
+          "options": [
+            "him",
+            "me",
+            "us",
+            "her"
+          ],
+          "answer": "him"
+        },
+        {
+          "id": 5,
+          "sentence": "We will meet _____ at the café after school.",
+          "options": [
+            "them",
+            "us",
+            "her",
+            "me"
+          ],
+          "answer": "them"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "My",
+            "friend",
+            "called",
+            "me",
+            "yesterday"
+          ],
+          "answer": "My friend called me yesterday"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "teacher",
+            "gave",
+            "us",
+            "a",
+            "test"
+          ],
+          "answer": "The teacher gave us a test"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Parents",
+            "will",
+            "see",
+            "them",
+            "tomorrow"
+          ],
+          "answer": "Parents will see them tomorrow"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền đại từ tân ngữ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "me",
+        "him",
+        "her",
+        "us",
+        "them",
+        "you"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When I was sad, my friend listened to _____.",
+          "answer": "me"
+        },
+        {
+          "id": 2,
+          "sentence": "The coach praised _____ for the good performance.",
+          "answer": "him"
+        },
+        {
+          "id": 3,
+          "sentence": "Anna invited _____ to join the study group.",
+          "answer": "her"
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher asked _____ to submit the assignment.",
+          "answer": "us"
+        },
+        {
+          "id": 5,
+          "sentence": "The manager will call _____ later today.",
+          "answer": "them"
+        }
+      ]
+    }
   }
 }

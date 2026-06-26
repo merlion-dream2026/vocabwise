@@ -661,5 +661,161 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Make / Let + object + infinitive",
+    "vi_grammar_point": "Make / Let + tân ngữ + động từ nguyên thể",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + make/let + object + base verb",
+      "negative": "Subject + do/does not + make/let + object + base verb",
+      "question": "Do/Does + subject + make/let + object + base verb?",
+      "variant": "make + object + have + past participle (causative)"
+    },
+    "rule_vi": "Dùng 'make' hoặc 'let' để khiến ai đó thực hiện một hành động; sau 'make' thường là bắt buộc, sau 'let' là cho phép.",
+    "rule_en": "Use 'make' or 'let' to cause someone to do something; 'make' implies compulsion, 'let' implies permission.",
+    "common_error": "❌ The teacher let us to play a solo.  →  ✅ The teacher let us play a solo.",
+    "in_context": [
+      "Our teacher **let us play** a short solo before the show.",
+      "The conductor **made the drummer keep** the rhythm for the whole band.",
+      "The audience **let the band continue** longer after the applause."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher ______ the students play a new song.",
+          "options": [
+            "let",
+            "asks",
+            "helps",
+            "made"
+          ],
+          "answer": "made"
+        },
+        {
+          "id": 2,
+          "sentence": "My friend ______ me sing in the choir.",
+          "options": [
+            "made",
+            "helps",
+            "asks",
+            "let"
+          ],
+          "answer": "let"
+        },
+        {
+          "id": 3,
+          "sentence": "The coach ______ the players run faster.",
+          "options": [
+            "let",
+            "helps",
+            "asks",
+            "made"
+          ],
+          "answer": "made"
+        },
+        {
+          "id": 4,
+          "sentence": "The director ______ the actors stay on stage longer.",
+          "options": [
+            "made",
+            "helps",
+            "let",
+            "asks"
+          ],
+          "answer": "let"
+        },
+        {
+          "id": 5,
+          "sentence": "The parent ______ the child clean his room.",
+          "options": [
+            "let",
+            "asks",
+            "helps",
+            "made"
+          ],
+          "answer": "made"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "teacher",
+            "made",
+            "students",
+            "practice",
+            "today"
+          ],
+          "answer": "teacher made students practice today"
+        },
+        {
+          "id": 2,
+          "words": [
+            "parents",
+            "let",
+            "children",
+            "play",
+            "outside"
+          ],
+          "answer": "parents let children play outside"
+        },
+        {
+          "id": 3,
+          "words": [
+            "coach",
+            "made",
+            "team",
+            "run",
+            "fast"
+          ],
+          "answer": "coach made team run fast"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "made",
+        "let",
+        "help",
+        "ask",
+        "force",
+        "allow"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The teacher ______ the class sing a song.",
+          "answer": "made"
+        },
+        {
+          "id": 2,
+          "sentence": "My brother ______ me borrow his guitar.",
+          "answer": "let"
+        },
+        {
+          "id": 3,
+          "sentence": "She ______ her friend stay for the rehearsal.",
+          "answer": "help"
+        },
+        {
+          "id": 4,
+          "sentence": "The manager ______ the staff work overtime.",
+          "answer": "made"
+        },
+        {
+          "id": 5,
+          "sentence": "The coach ______ the players warm up.",
+          "answer": "let"
+        }
+      ]
+    }
   }
 }

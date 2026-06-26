@@ -670,5 +670,164 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Frequency adverbs (always/usually/often/sometimes/never)",
+    "vi_grammar_point": "Trạng từ tần suất và vị trí trong câu",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + adverb + Verb (base form)",
+      "negative": "Subject + do/does + not + Verb (adverb after not)",
+      "question": "Do/Does + subject + adverb + Verb?",
+      "variant": "Subject + Verb + adverb (adverb placed after the main verb)"
+    },
+    "rule_vi": "Trạng từ tần suất (always, usually, often, sometimes, never) thường đứng trước động từ chính trong câu khẳng định, sau 'do/does not' trong câu phủ định, và sau trợ động từ trong câu hỏi.",
+    "rule_en": "Frequency adverbs are placed before the main verb in affirmative sentences, after 'do/does not' in negatives, and after the auxiliary in questions.",
+    "common_error": "❌ She always not goes to school.  →  ✅ She never goes to school.",
+    "in_context": [
+      "My mother **always** cooks a warm and simple meal for all of us.",
+      "I **usually** go to sleep before nine o'clock.",
+      "I **never** stay up late."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn trạng từ tần suất thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Tom _____ drinks coffee in the morning.",
+          "options": [
+            "sometimes",
+            "always",
+            "often",
+            "never"
+          ],
+          "answer": "often"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ go to the park on Sundays.",
+          "options": [
+            "never",
+            "always",
+            "usually",
+            "sometimes"
+          ],
+          "answer": "usually"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ forgets her keys.",
+          "options": [
+            "always",
+            "sometimes",
+            "never",
+            "often"
+          ],
+          "answer": "sometimes"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ eats vegetables.",
+          "options": [
+            "sometimes",
+            "never",
+            "always",
+            "often"
+          ],
+          "answer": "always"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ watch TV after dinner.",
+          "options": [
+            "never",
+            "sometimes",
+            "always",
+            "often"
+          ],
+          "answer": "often"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "My",
+            "brother",
+            "always",
+            "helps",
+            "me",
+            "with",
+            "homework"
+          ],
+          "answer": "My brother always helps me with homework"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "sometimes",
+            "goes",
+            "to",
+            "the",
+            "library"
+          ],
+          "answer": "She sometimes goes to the library"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "never",
+            "eat",
+            "fast",
+            "food"
+          ],
+          "answer": "We never eat fast food"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền trạng từ tần suất thích hợp vào chỗ trống.",
+      "word_bank": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "rarely"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ read books before bed.",
+          "answer": "often"
+        },
+        {
+          "id": 2,
+          "sentence": "My dad _____ drives to work.",
+          "answer": "always"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ visit grandparents on holidays.",
+          "answer": "sometimes"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ forgets her homework.",
+          "answer": "never"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ eat breakfast together.",
+          "answer": "usually"
+        }
+      ]
+    }
   }
 }

@@ -723,5 +723,163 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Will (future predictions and spontaneous decisions)",
+    "vi_grammar_point": "Will — dự đoán và quyết định tức thì",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + will + base verb",
+      "negative": "Subject + will not (won't) + base verb",
+      "question": "Will + subject + base verb?",
+      "variant": "Subject + will + be + -ing (future continuous)"
+    },
+    "rule_vi": "Dùng 'will' để nói về dự đoán trong tương lai hoặc quyết định được đưa ra ngay lúc nói.",
+    "rule_en": "Use 'will' for future predictions and spontaneous decisions.",
+    "common_error": "❌ I will am going to study → ✅ I will go to study",
+    "in_context": [
+      "To calm down, I **will** revise my notes each evening.",
+      "When I finish the exam, I always **will** check my answers one more time.",
+      "My teacher says that students who revise at home and concentrate in class usually **will** pass with a good mark."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ go to the library tomorrow.",
+          "options": [
+            "went",
+            "will",
+            "should",
+            "am"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ call you when she arrives.",
+          "options": [
+            "calls",
+            "is",
+            "will",
+            "called"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ start the test now if the teacher is ready.",
+          "options": [
+            "are",
+            "will",
+            "started",
+            "should"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 4,
+          "sentence": "They _____ need more time, but we will see.",
+          "options": [
+            "should",
+            "will",
+            "might",
+            "could"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ help you with the essay.",
+          "options": [
+            "is",
+            "helps",
+            "will",
+            "helped"
+          ],
+          "answer": "will"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "We",
+            "will",
+            "finish",
+            "the",
+            "project",
+            "tomorrow"
+          ],
+          "answer": "We will finish the project tomorrow"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "will",
+            "buy",
+            "a",
+            "new",
+            "book"
+          ],
+          "answer": "She will buy a new book"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "will",
+            "not",
+            "arrive",
+            "late"
+          ],
+          "answer": "They will not arrive late"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "will",
+        "won't",
+        "might",
+        "could",
+        "should",
+        "must"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ call you later.",
+          "answer": "will"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ join us if she finishes early.",
+          "answer": "might"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ start the exam now.",
+          "answer": "will"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ not forget to bring his calculator.",
+          "answer": "won't"
+        },
+        {
+          "id": 5,
+          "sentence": "You _____ need help with the questions.",
+          "answer": "should"
+        }
+      ]
+    }
   }
 }

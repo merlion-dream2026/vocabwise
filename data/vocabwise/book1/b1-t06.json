@@ -660,5 +660,161 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Should / Shouldn't (giving advice)",
+    "vi_grammar_point": "Should / Shouldn't — đưa ra lời khuyên",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + should + base verb",
+      "negative": "Subject + shouldn't + base verb",
+      "question": "Should + subject + base verb?"
+    },
+    "rule_vi": "Dùng should/shouldn't để đưa ra lời khuyên hoặc khuyến nghị.",
+    "rule_en": "Use should/shouldn't to give advice.",
+    "common_error": "❌ You should to drink water.  →  ✅ You should drink water.",
+    "in_context": [
+      "She said I **should** only go to the hospital if I got much worse.",
+      "I **should** wash my hands more carefully to stay healthy.",
+      "You **should** rest when you feel sick."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ see a doctor if you have a fever.",
+          "options": [
+            "must",
+            "should",
+            "can",
+            "might"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ eat so much candy.",
+          "options": [
+            "should",
+            "must",
+            "could",
+            "shouldn't"
+          ],
+          "answer": "shouldn't"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ wash our hands before meals.",
+          "options": [
+            "could",
+            "should",
+            "might",
+            "must"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ skip her medication.",
+          "options": [
+            "shouldn't",
+            "can",
+            "must",
+            "might"
+          ],
+          "answer": "shouldn't"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ go to the park when it's raining.",
+          "options": [
+            "shouldn't",
+            "must",
+            "can",
+            "should"
+          ],
+          "answer": "shouldn't"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "You",
+            "should",
+            "drink",
+            "water",
+            "every",
+            "day"
+          ],
+          "answer": "You should drink water every day"
+        },
+        {
+          "id": 2,
+          "words": [
+            "I",
+            "should",
+            "rest",
+            "now"
+          ],
+          "answer": "I should rest now"
+        },
+        {
+          "id": 3,
+          "words": [
+            "She",
+            "shouldn't",
+            "eat",
+            "too",
+            "much",
+            "sugar"
+          ],
+          "answer": "She shouldn't eat too much sugar"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "should",
+        "shouldn't",
+        "must",
+        "can",
+        "could",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ see a doctor if you feel ill.",
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ skip his breakfast.",
+          "answer": "shouldn't"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ wear a mask in the clinic.",
+          "answer": "should"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ take the medicine now.",
+          "answer": "should"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ go outside without a coat.",
+          "answer": "shouldn't"
+        }
+      ]
+    }
   }
 }

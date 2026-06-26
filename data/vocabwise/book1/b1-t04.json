@@ -688,5 +688,165 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Comparative adjectives (cheaper / more expensive)",
+    "vi_grammar_point": "Tính từ so sánh hơn",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + comparative adjective + than + noun/pronoun",
+      "negative": "Subject + do/does not + verb + comparative adjective + than + noun/pronoun",
+      "question": "Is/Are + Subject + comparative adjective + than + noun/pronoun?",
+      "variant": "more + adjective (for adjectives that do not take -er)"
+    },
+    "rule_vi": "Dùng tính từ so sánh hơn để so sánh hai đối tượng, thường có cấu trúc 'so sánh hơn ... hơn ...'.",
+    "rule_en": "Use comparative adjectives to compare two things, usually with the pattern '... than ...'.",
+    "common_error": "❌ She is more cheaper than him.  →  ✅ She is cheaper than him.",
+    "in_context": [
+      "The shirt was **cheaper** than the jacket I liked.",
+      "My mother thought the bag was **more expensive** than the one she usually buys.",
+      "We were happy because the receipt showed the total was **cheaper** than we expected."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The T‑shirt is _____ than the jeans.",
+          "options": [
+            "more expensive",
+            "cheaper",
+            "biggest",
+            "affordable"
+          ],
+          "answer": "cheaper"
+        },
+        {
+          "id": 2,
+          "sentence": "This coat is _____ than the sweater.",
+          "options": [
+            "cheaper",
+            "affordable",
+            "more expensive",
+            "biggest"
+          ],
+          "answer": "more expensive"
+        },
+        {
+          "id": 3,
+          "sentence": "The shoes are _____ than the sandals.",
+          "options": [
+            "more expensive",
+            "cheaper",
+            "affordable",
+            "biggest"
+          ],
+          "answer": "cheaper"
+        },
+        {
+          "id": 4,
+          "sentence": "A laptop is usually _____ than a tablet.",
+          "options": [
+            "affordable",
+            "cheaper",
+            "more expensive",
+            "biggest"
+          ],
+          "answer": "more expensive"
+        },
+        {
+          "id": 5,
+          "sentence": "A cup of coffee is _____ than a bottle of water.",
+          "options": [
+            "biggest",
+            "more expensive",
+            "cheaper",
+            "affordable"
+          ],
+          "answer": "cheaper"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "shirt",
+            "is",
+            "cheaper",
+            "than",
+            "pants"
+          ],
+          "answer": "shirt is cheaper than pants"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "jacket",
+            "is",
+            "more",
+            "expensive",
+            "than",
+            "the",
+            "coat"
+          ],
+          "answer": "the jacket is more expensive than the coat"
+        },
+        {
+          "id": 3,
+          "words": [
+            "my",
+            "bag",
+            "was",
+            "cheaper",
+            "than",
+            "yours"
+          ],
+          "answer": "my bag was cheaper than yours"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "cheaper",
+        "more expensive",
+        "affordable",
+        "expensive",
+        "bigger",
+        "cheapest"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The red dress is _____ than the blue one.",
+          "answer": "cheaper"
+        },
+        {
+          "id": 2,
+          "sentence": "A smartphone is usually _____ than a basic phone.",
+          "answer": "more expensive"
+        },
+        {
+          "id": 3,
+          "sentence": "We look for _____ prices when we shop.",
+          "answer": "affordable"
+        },
+        {
+          "id": 4,
+          "sentence": "That watch is very _____, but I cannot buy it.",
+          "answer": "expensive"
+        },
+        {
+          "id": 5,
+          "sentence": "The suitcase is _____ than the backpack.",
+          "answer": "bigger"
+        }
+      ]
+    }
   }
 }

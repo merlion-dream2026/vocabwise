@@ -723,5 +723,163 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Simple for routines and professions",
+    "vi_grammar_point": "Hiện tại đơn — thói quen và nghề nghiệp",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + base verb (add -s/-es for third person singular) + (object/complement)",
+      "negative": "Subject + do/does + not + base verb",
+      "question": "Do/Does + subject + base verb + ... ?",
+      "variant": "Subject + always + base verb (for habitual actions)"
+    },
+    "rule_vi": "Dùng hiện tại đơn để diễn tả thói quen, lịch trình thường ngày và nghề nghiệp.",
+    "rule_en": "We use the present simple for habits, daily routines and to describe jobs.",
+    "common_error": "❌ She work at a hospital.  →  ✅ She works at a hospital.",
+    "in_context": [
+      "She **works** at a hospital every day.",
+      "My father **goes** to the office every morning.",
+      "My aunt **takes** children to school each morning."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He _____ a teacher.",
+          "options": [
+            "am",
+            "be",
+            "is",
+            "are"
+          ],
+          "answer": "is"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ coffee every morning.",
+          "options": [
+            "drank",
+            "drink",
+            "drinks",
+            "drinking"
+          ],
+          "answer": "drink"
+        },
+        {
+          "id": 3,
+          "sentence": "My sister _____ at a bank on Saturdays.",
+          "options": [
+            "working",
+            "work",
+            "worked",
+            "works"
+          ],
+          "answer": "works"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ English at school.",
+          "options": [
+            "studied",
+            "study",
+            "studies",
+            "studying"
+          ],
+          "answer": "study"
+        },
+        {
+          "id": 5,
+          "sentence": "The bus _____ at 8 o'clock.",
+          "options": [
+            "leaved",
+            "leaves",
+            "leave",
+            "leaving"
+          ],
+          "answer": "leaves"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "always",
+            "wears",
+            "a",
+            "white",
+            "apron"
+          ],
+          "answer": "she always wears a white apron"
+        },
+        {
+          "id": 2,
+          "words": [
+            "my",
+            "father",
+            "goes",
+            "to",
+            "the",
+            "office"
+          ],
+          "answer": "my father goes to the office"
+        },
+        {
+          "id": 3,
+          "words": [
+            "they",
+            "study",
+            "English",
+            "every",
+            "day"
+          ],
+          "answer": "they study English every day"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "works",
+        "drinks",
+        "studies",
+        "goes",
+        "likes",
+        "run"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My mother _____ at a hospital.",
+          "answer": "works"
+        },
+        {
+          "id": 2,
+          "sentence": "He _____ coffee in the morning.",
+          "answer": "drinks"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ English at school.",
+          "answer": "studies"
+        },
+        {
+          "id": 4,
+          "sentence": "My brother _____ to the park on Sundays.",
+          "answer": "goes"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ pizza for dinner.",
+          "answer": "likes"
+        }
+      ]
+    }
   }
 }

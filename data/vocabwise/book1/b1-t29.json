@@ -723,5 +723,164 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Perfect — basic (have/has + past participle)",
+    "vi_grammar_point": "Hiện tại hoàn thành cơ bản",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + have/has + past participle (Verb3)",
+      "negative": "Subject + have/has + not + past participle",
+      "question": "Have/Has + subject + past participle?",
+      "variant": "have/has + been + -ing (present perfect continuous)"
+    },
+    "rule_vi": "Dùng để nói về một hành động đã xảy ra ở thời điểm không xác định trước hiện tại hoặc có liên quan tới hiện tại.",
+    "rule_en": "Use the present perfect to talk about actions that happened at an unspecified time before now.",
+    "common_error": "❌ She have visited the museum.  →  ✅ She has visited the museum.",
+    "in_context": [
+      "My neighbour Mr An **has made** everyone laugh with his stories and jokes.",
+      "My teacher **has been** very serious and always quiet.",
+      "My older brother **has become** quite lazy — he hates cleaning his room!"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu với thì hiện tại hoàn thành.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ visited the museum three times this year.",
+          "options": [
+            "has visited",
+            "have visited",
+            "did visit",
+            "will visit"
+          ],
+          "answer": "has visited"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ finished their homework yet.",
+          "options": [
+            "hasn't finished",
+            "haven't finished",
+            "didn't finish",
+            "don't finish"
+          ],
+          "answer": "haven't finished"
+        },
+        {
+          "id": 3,
+          "sentence": "You _____ ever seen a shooting star?",
+          "options": [
+            "have",
+            "has",
+            "did",
+            "will"
+          ],
+          "answer": "have"
+        },
+        {
+          "id": 4,
+          "sentence": "My parents _____ lived in Hanoi for ten years.",
+          "options": [
+            "has",
+            "have",
+            "did",
+            "will"
+          ],
+          "answer": "have"
+        },
+        {
+          "id": 5,
+          "sentence": "She _____ already finished the report.",
+          "options": [
+            "has",
+            "have",
+            "did",
+            "will"
+          ],
+          "answer": "has"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "has",
+            "she",
+            "ever",
+            "been",
+            "to",
+            "Paris"
+          ],
+          "answer": "She has ever been to Paris"
+        },
+        {
+          "id": 2,
+          "words": [
+            "have",
+            "they",
+            "just",
+            "finished",
+            "their",
+            "project"
+          ],
+          "answer": "They have just finished their project"
+        },
+        {
+          "id": 3,
+          "words": [
+            "has",
+            "my",
+            "brother",
+            "never",
+            "tried",
+            "sushi"
+          ],
+          "answer": "My brother has never tried sushi"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "has",
+        "have",
+        "had",
+        "did",
+        "been",
+        "finished"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ visited the new library.",
+          "answer": "have"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ never eaten durian before.",
+          "answer": "has"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ just arrived at the airport.",
+          "answer": "have"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ already left the classroom.",
+          "answer": "has"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ not seen that movie yet.",
+          "answer": "have"
+        }
+      ]
+    }
   }
 }

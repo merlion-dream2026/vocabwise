@@ -657,5 +657,158 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Linking verbs (look / feel / seem / sound + adjective)",
+    "vi_grammar_point": "Động từ nối theo sau bởi tính từ",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + linking verb (look/feel/seem/sound) + adjective",
+      "negative": "Subject + do/does not + linking verb + adjective",
+      "question": "Does Subject linking verb adjective?",
+      "variant": "Subject + linking verb + not + adjective"
+    },
+    "rule_vi": "Dùng các động từ nối (look, feel, seem, sound) + tính từ để mô tả trạng thái, cảm xúc hoặc ấn tượng của người hoặc vật.",
+    "rule_en": "Use linking verbs + adjective to describe a state or impression.",
+    "common_error": "❌ I look very happy **to** my friends.  →  ✅ I look very happy.",
+    "in_context": [
+      "Sometimes I **feel very happy** and want to sing.",
+      "When I have a big exam, I **feel very nervous** and worried.",
+      "When I **feel scared**, I talk to my mum and I always feel calm afterwards."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ tired after the long bus ride.",
+          "options": [
+            "seems",
+            "feels",
+            "looks",
+            "sounds"
+          ],
+          "answer": "looks"
+        },
+        {
+          "id": 2,
+          "sentence": "The soup _____ hot, so we waited.",
+          "options": [
+            "looks",
+            "sounds",
+            "feels",
+            "seems"
+          ],
+          "answer": "seems"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ angry when he missed the train.",
+          "options": [
+            "sounds",
+            "looks",
+            "feels",
+            "seems"
+          ],
+          "answer": "feels"
+        },
+        {
+          "id": 4,
+          "sentence": "The music _____ loud in the hall.",
+          "options": [
+            "feels",
+            "looks",
+            "sounds",
+            "seems"
+          ],
+          "answer": "sounds"
+        },
+        {
+          "id": 5,
+          "sentence": "The children _____ excited about the field trip.",
+          "options": [
+            "seem",
+            "looks",
+            "feels",
+            "sounds"
+          ],
+          "answer": "seem"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "She",
+            "looks",
+            "happy",
+            "today"
+          ],
+          "answer": "She looks happy today"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "room",
+            "seems",
+            "cold"
+          ],
+          "answer": "The room seems cold"
+        },
+        {
+          "id": 3,
+          "words": [
+            "I",
+            "feel",
+            "tired",
+            "now"
+          ],
+          "answer": "I feel tired now"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.",
+      "word_bank": [
+        "happy",
+        "nervous",
+        "proud",
+        "angry",
+        "lonely",
+        "calm"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "After the test, she felt _____ .",
+          "answer": "proud"
+        },
+        {
+          "id": 2,
+          "sentence": "He looks _____ when he wears his new hat.",
+          "answer": "happy"
+        },
+        {
+          "id": 3,
+          "sentence": "The child seemed _____ after the movie.",
+          "answer": "lonely"
+        },
+        {
+          "id": 4,
+          "sentence": "I sound _____ when I speak too fast.",
+          "answer": "nervous"
+        },
+        {
+          "id": 5,
+          "sentence": "They feel _____ after the meditation.",
+          "answer": "calm"
+        }
+      ]
+    }
   }
 }

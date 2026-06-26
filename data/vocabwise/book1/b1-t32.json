@@ -723,5 +723,162 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Too / Enough (too hard / not easy enough)",
+    "vi_grammar_point": "Too / Enough — quá ... / đủ ...",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + too + adjective",
+      "negative": "Subject + Verb + not + enough + adjective",
+      "question": "Is/Are + Subject + too + adjective?",
+      "variant": "Adjective + enough + for + noun"
+    },
+    "rule_vi": "Dùng *too* khi tính từ quá mức, dùng *enough* khi tính từ không đủ.",
+    "rule_en": "Use *too* for an excessive quality and *enough* for a sufficient quality.",
+    "common_error": "❌ The lesson is too easy enough.  →  ✅ The lesson is not easy enough.",
+    "in_context": [
+      "Some subjects are **too** difficult for many students.",
+      "The lesson is **not easy enough** for beginners.",
+      "The teacher gave us **too** many exercises to finish in one hour."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The test was _____ hard for me.",
+          "options": [
+            "very",
+            "so",
+            "enough",
+            "too"
+          ],
+          "answer": "too"
+        },
+        {
+          "id": 2,
+          "sentence": "The instructions were _____ clear for the students.",
+          "options": [
+            "too",
+            "quite",
+            "enough",
+            "very"
+          ],
+          "answer": "enough"
+        },
+        {
+          "id": 3,
+          "sentence": "The homework was _____ difficult to finish.",
+          "options": [
+            "enough",
+            "so",
+            "too",
+            "quite"
+          ],
+          "answer": "too"
+        },
+        {
+          "id": 4,
+          "sentence": "The teacher made the explanation _____ simple for the class.",
+          "options": [
+            "too",
+            "very",
+            "enough",
+            "so"
+          ],
+          "answer": "enough"
+        },
+        {
+          "id": 5,
+          "sentence": "The sport lesson was _____ long for the kids.",
+          "options": [
+            "enough",
+            "so",
+            "quite",
+            "too"
+          ],
+          "answer": "too"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "hard",
+            "the",
+            "test",
+            "was",
+            "too"
+          ],
+          "answer": "the test was too hard"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "instructions",
+            "are",
+            "clear",
+            "enough"
+          ],
+          "answer": "the instructions are clear enough"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "lesson",
+            "is",
+            "not",
+            "easy",
+            "enough"
+          ],
+          "answer": "the lesson is not easy enough"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "too",
+        "enough",
+        "very",
+        "so",
+        "quite",
+        "extremely"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The maths problem was _____ difficult for me.",
+          "answer": "too"
+        },
+        {
+          "id": 2,
+          "sentence": "The teacher's explanation was clear _____.",
+          "answer": "enough"
+        },
+        {
+          "id": 3,
+          "sentence": "The sport lesson was _____ long.",
+          "answer": "too"
+        },
+        {
+          "id": 4,
+          "sentence": "The instructions were _____ simple.",
+          "answer": "very"
+        },
+        {
+          "id": 5,
+          "sentence": "The exam was _____ hard.",
+          "answer": "so"
+        }
+      ]
+    }
   }
 }

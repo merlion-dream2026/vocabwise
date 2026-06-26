@@ -729,5 +729,159 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Sequencing linkers (first / then / next / after that / finally)",
+    "vi_grammar_point": "Liên từ trình tự — sắp xếp các bước",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "first / then / next / after that / finally + clause (Subject + Verb + …)"
+    },
+    "rule_vi": "Dùng các liên từ này để mô tả thứ tự các bước trong một quy trình hoặc câu chuyện.",
+    "rule_en": "Use these linkers to show the order of actions or events.",
+    "common_error": "❌ *Then* we start the experiment, *first* we check the safety equipment.  →  ✅ *First* we start the experiment, *then* we check the safety equipment.",
+    "in_context": [
+      "We pour a cold liquid into a glass and **then** add something hot.",
+      "This is our **first** trial, so we do not always find the right answer the first time.",
+      "We measure the temperature before and after, and **after that** we record the numbers in our notebook."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ we arrived at the lab, we set up the equipment.",
+          "options": [
+            "Finally",
+            "Next",
+            "First",
+            "Then"
+          ],
+          "answer": "First"
+        },
+        {
+          "id": 2,
+          "sentence": "We mixed the chemicals, _____ we observed the reaction.",
+          "options": [
+            "After that",
+            "First",
+            "Finally",
+            "Next"
+          ],
+          "answer": "After that"
+        },
+        {
+          "id": 3,
+          "sentence": "She wrote the hypothesis, _____ she tested it.",
+          "options": [
+            "Then",
+            "First",
+            "Finally",
+            "Next"
+          ],
+          "answer": "Then"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ we recorded the data, we analyzed the results.",
+          "options": [
+            "After that",
+            "First",
+            "Finally",
+            "Next"
+          ],
+          "answer": "Next"
+        },
+        {
+          "id": 5,
+          "sentence": "We discussed the findings, _____ we wrote the report.",
+          "options": [
+            "Then",
+            "First",
+            "Finally",
+            "After that"
+          ],
+          "answer": "Finally"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "First",
+            "we",
+            "turn",
+            "off",
+            "the",
+            "lights"
+          ],
+          "answer": "First we turn off the lights"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Then",
+            "we",
+            "collect",
+            "the",
+            "samples"
+          ],
+          "answer": "Then we collect the samples"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Finally",
+            "we",
+            "write",
+            "the",
+            "conclusion"
+          ],
+          "answer": "Finally we write the conclusion"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền liên từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "first",
+        "then",
+        "next",
+        "after that",
+        "finally",
+        "however"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ we start the experiment, we check the safety equipment.",
+          "answer": "first"
+        },
+        {
+          "id": 2,
+          "sentence": "We heat the solution, _____ we add the catalyst.",
+          "answer": "then"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ we record the temperature, we note the time.",
+          "answer": "next"
+        },
+        {
+          "id": 4,
+          "sentence": "The mixture changes colour, _____ we observe the reaction.",
+          "answer": "after that"
+        },
+        {
+          "id": 5,
+          "sentence": "We write the report, _____ we submit it to the teacher.",
+          "answer": "finally"
+        }
+      ]
+    }
   }
 }

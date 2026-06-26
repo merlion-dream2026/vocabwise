@@ -723,5 +723,163 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Past Simple + time expressions (yesterday / last week / ago)",
+    "vi_grammar_point": "Quá khứ đơn với trạng từ chỉ thời gian",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb (past) + Object (optional)",
+      "negative": "Subject + did not + Verb(base) + Object (optional)",
+      "question": "Did + Subject + Verb(base) + Object (optional)?",
+      "variant": "Subject + was/were + Complement (past simple of 'be')"
+    },
+    "rule_vi": "Dùng để nói về hành động đã hoàn thành trong quá khứ, thường đi kèm với các trạng từ chỉ thời gian như yesterday, last week, ago.",
+    "rule_en": "Use the past simple to describe completed actions in the past, often with time expressions.",
+    "common_error": "❌ I have went to the museum yesterday  →  ✅ I went to the museum yesterday",
+    "in_context": [
+      "Last Saturday, our class **went** on a trip to the old town.",
+      "In the afternoon, two friends **got** lost while doing sightseeing near the old temple.",
+      "We **departed** early so we had plenty of time to explore the market."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng động từ đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ a new book yesterday.",
+          "options": [
+            "buy",
+            "bought",
+            "buys",
+            "buying"
+          ],
+          "answer": "bought"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ to the museum last weekend.",
+          "options": [
+            "went",
+            "goes",
+            "go",
+            "gone"
+          ],
+          "answer": "went"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ the game three days ago.",
+          "options": [
+            "watching",
+            "watched",
+            "watch",
+            "watches"
+          ],
+          "answer": "watched"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ his keys yesterday evening.",
+          "options": [
+            "lose",
+            "lost",
+            "loses",
+            "losing"
+          ],
+          "answer": "lost"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ a great movie last night.",
+          "options": [
+            "see",
+            "saw",
+            "seeing",
+            "seen"
+          ],
+          "answer": "saw"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "yesterday",
+            "I",
+            "finished",
+            "my",
+            "homework"
+          ],
+          "answer": "I finished my homework yesterday"
+        },
+        {
+          "id": 2,
+          "words": [
+            "last",
+            "week",
+            "they",
+            "visited",
+            "the",
+            "zoo"
+          ],
+          "answer": "They visited the zoo last week"
+        },
+        {
+          "id": 3,
+          "words": [
+            "two",
+            "days",
+            "ago",
+            "she",
+            "called",
+            "me"
+          ],
+          "answer": "She called me two days ago"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "bought",
+        "went",
+        "got",
+        "saw",
+        "watched",
+        "enjoyed"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ a souvenir for my mother yesterday.",
+          "answer": "bought"
+        },
+        {
+          "id": 2,
+          "sentence": "Our class _____ to the old town last Saturday.",
+          "answer": "went"
+        },
+        {
+          "id": 3,
+          "sentence": "Two friends _____ lost near the temple.",
+          "answer": "got"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ a beautiful spot for the group photo.",
+          "answer": "saw"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ a documentary about the museum last week.",
+          "answer": "watched"
+        }
+      ]
+    }
   }
 }

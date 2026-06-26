@@ -726,5 +726,159 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Verb + -ing (like / love / enjoy / hate)",
+    "vi_grammar_point": "Động từ theo sau bởi V-ing",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb (like / love / enjoy / hate) + V‑ing",
+      "negative": "Subject + verb (like / love / enjoy / hate) + not + V‑ing",
+      "question": "Do/Does + subject + verb (like / love / enjoy / hate) + V‑ing?",
+      "variant": "verb + to + infinitive (optional)"
+    },
+    "rule_vi": "Các động từ like, love, enjoy, hate thường đi sau là dạng V‑ing để nói về hoạt động mà chúng ta thích hoặc không thích.",
+    "rule_en": "We use like/love/enjoy/hate + V‑ing to talk about activities we enjoy or dislike.",
+    "common_error": "❌ I enjoy to listen to music → ✅ I enjoy listening to music",
+    "in_context": [
+      "I **love drawing** animals and places.",
+      "I also **enjoy listening to music and singing along to songs**.",
+      "I **enjoy making cards and gifts from coloured paper**."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ swimming in the pool.",
+          "options": [
+            "enjoys",
+            "likes",
+            "hates",
+            "loves"
+          ],
+          "answer": "likes"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ reading books before bed.",
+          "options": [
+            "love",
+            "enjoy",
+            "hate",
+            "like"
+          ],
+          "answer": "enjoy"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ cooking pasta for his family.",
+          "options": [
+            "hate",
+            "love",
+            "like",
+            "enjoy"
+          ],
+          "answer": "love"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ cleaning the house on weekends.",
+          "options": [
+            "like",
+            "enjoy",
+            "hate",
+            "love"
+          ],
+          "answer": "hate"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ playing football after school.",
+          "options": [
+            "enjoy",
+            "love",
+            "hate",
+            "like"
+          ],
+          "answer": "enjoy"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "She",
+            "enjoys",
+            "reading",
+            "novels"
+          ],
+          "answer": "She enjoys reading novels"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Do",
+            "you",
+            "like",
+            "jogging"
+          ],
+          "answer": "Do you like jogging"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "hate",
+            "cleaning",
+            "the",
+            "kitchen"
+          ],
+          "answer": "They hate cleaning the kitchen"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "like",
+        "love",
+        "enjoy",
+        "hate",
+        "prefer",
+        "dislike"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My brother ___ painting landscapes.",
+          "answer": "enjoy"
+        },
+        {
+          "id": 2,
+          "sentence": "We ___ watching movies on Friday night.",
+          "answer": "like"
+        },
+        {
+          "id": 3,
+          "sentence": "She ___ cooking Italian food.",
+          "answer": "love"
+        },
+        {
+          "id": 4,
+          "sentence": "Tom ___ cleaning his room.",
+          "answer": "hate"
+        },
+        {
+          "id": 5,
+          "sentence": "I ___ reading comics.",
+          "answer": "prefer"
+        }
+      ]
+    }
   }
 }

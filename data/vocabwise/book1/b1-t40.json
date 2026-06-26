@@ -726,5 +726,161 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositions of time (in / on / at)",
+    "vi_grammar_point": "Giới từ chỉ thời gian",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + (in / on / at) + time expression",
+      "negative": "Subject + do/does not + Verb + (in / on / at) + time expression",
+      "question": "Wh‑question + do/does + Subject + Verb + (in / on / at) + time expression?",
+      "variant": "at + precise time (e.g., at 5 pm); on + days and dates (on Monday, on 1 January); in + months, years, seasons (in July, in 2023, in winter)"
+    },
+    "rule_vi": "Dùng 'in' cho tháng, năm, mùa; 'on' cho ngày, ngày trong tuần; 'at' cho thời điểm cụ thể như giờ, 'the end of', 'midnight'.",
+    "rule_en": "Use in for months/years, on for days, and at for exact times.",
+    "common_error": "❌ She has class on 9am.  →  ✅ She has class at 9am.",
+    "in_context": [
+      "**At** the end of class, we see our progress on a chart.",
+      "Every lesson, we listen to our teacher **in** the morning and then speak in pairs.",
+      "Every week we can listen, speak, and repeat better than before **on** Fridays."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn giới từ thời gian phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The meeting starts ___ Monday morning.",
+          "options": [
+            "by",
+            "on",
+            "in",
+            "at"
+          ],
+          "answer": "on"
+        },
+        {
+          "id": 2,
+          "sentence": "We will go on holiday ___ July.",
+          "options": [
+            "at",
+            "in",
+            "on",
+            "by"
+          ],
+          "answer": "in"
+        },
+        {
+          "id": 3,
+          "sentence": "The train arrives ___ 6:30 pm.",
+          "options": [
+            "in",
+            "at",
+            "on",
+            "by"
+          ],
+          "answer": "at"
+        },
+        {
+          "id": 4,
+          "sentence": "My birthday is ___ October.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "by"
+          ],
+          "answer": "in"
+        },
+        {
+          "id": 5,
+          "sentence": "She usually drinks coffee ___ the evening.",
+          "options": [
+            "at",
+            "on",
+            "by",
+            "in"
+          ],
+          "answer": "in"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "class",
+            "starts",
+            "at",
+            "nine",
+            "oclock"
+          ],
+          "answer": "class starts at nine oclock"
+        },
+        {
+          "id": 2,
+          "words": [
+            "The",
+            "festival",
+            "is",
+            "in",
+            "December"
+          ],
+          "answer": "The festival is in December"
+        },
+        {
+          "id": 3,
+          "words": [
+            "We",
+            "attend",
+            "concert",
+            "on",
+            "Saturday"
+          ],
+          "answer": "We attend concert on Saturday"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền giới từ thời gian thích hợp vào chỗ trống.",
+      "word_bank": [
+        "in",
+        "on",
+        "at",
+        "by",
+        "over",
+        "during"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The class begins ___ 9 a.m.",
+          "answer": "at"
+        },
+        {
+          "id": 2,
+          "sentence": "We have a test ___ Monday.",
+          "answer": "on"
+        },
+        {
+          "id": 3,
+          "sentence": "My birthday is ___ July.",
+          "answer": "in"
+        },
+        {
+          "id": 4,
+          "sentence": "She will arrive ___ the evening.",
+          "answer": "in"
+        },
+        {
+          "id": 5,
+          "sentence": "The movie starts ___ midnight.",
+          "answer": "at"
+        }
+      ]
+    }
   }
 }

@@ -723,5 +723,157 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Imperatives in instructions and recipes",
+    "vi_grammar_point": "Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Verb (base form) + (object/complement)",
+      "negative": "Do not + Verb (base form) ... / Don't + Verb (base form) ..."
+    },
+    "rule_vi": "Dùng câu mệnh lệnh để đưa ra chỉ dẫn trong công thức; chủ ngữ thường bị lờ đi và động từ ở dạng nguyên mẫu.",
+    "rule_en": "Use the imperative to give instructions or commands, especially in recipes.",
+    "common_error": "❌ You must slice the carrots. → ✅ Slice the carrots.",
+    "in_context": [
+      "**Make sure** you have all the right utensils, like a knife and a pan.",
+      "**Slice** the vegetables into small pieces and **mix** them in a bowl.",
+      "**Heat** the oil in a pan."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn động từ đúng để hoàn thành câu mệnh lệnh.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the onions finely before adding them to the pan.",
+          "options": [
+            "Boil",
+            "Chop",
+            "Bake",
+            "Stir"
+          ],
+          "answer": "Chop"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the soup for ten minutes, then turn off the heat.",
+          "options": [
+            "Fry",
+            "Simmer",
+            "Grill",
+            "Whisk"
+          ],
+          "answer": "Simmer"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the mixture gently so it doesn't spill.",
+          "options": [
+            "Stir",
+            "Slice",
+            "Bake",
+            "Peel"
+          ],
+          "answer": "Stir"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the oven to 180°C before you start baking.",
+          "options": [
+            "Season",
+            "Preheat",
+            "Cool",
+            "Freeze"
+          ],
+          "answer": "Preheat"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the sauce with a pinch of salt to enhance flavor.",
+          "options": [
+            "Add",
+            "Remove",
+            "Wash",
+            "Discard"
+          ],
+          "answer": "Add"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "mix",
+            "the",
+            "ingredients",
+            "well"
+          ],
+          "answer": "mix the ingredients well"
+        },
+        {
+          "id": 2,
+          "words": [
+            "turn",
+            "off",
+            "the",
+            "stove"
+          ],
+          "answer": "turn off the stove"
+        },
+        {
+          "id": 3,
+          "words": [
+            "sprinkle",
+            "salt",
+            "on",
+            "the",
+            "salad"
+          ],
+          "answer": "sprinkle salt on the salad"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "chop",
+        "boil",
+        "stir",
+        "preheat",
+        "add",
+        "grill"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ the carrots into bite‑size pieces.",
+          "answer": "chop"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ the water until it reaches a rolling boil.",
+          "answer": "boil"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the batter until it becomes smooth.",
+          "answer": "stir"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ the oven to 200°C before placing the tray inside.",
+          "answer": "preheat"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the cheese on top of the pizza before baking.",
+          "answer": "add"
+        }
+      ]
+    }
   }
 }

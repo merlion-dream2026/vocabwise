@@ -723,5 +723,163 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Continuous (actions happening now)",
+    "vi_grammar_point": "Hiện tại tiếp diễn — hành động đang xảy ra",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + am/is/are + Verb‑ing (+ Object)",
+      "negative": "Subject + am/is/are + not + Verb‑ing",
+      "question": "Am/Is/Are + Subject + Verb‑ing?",
+      "variant": "Subject + be + Verb‑ing + (by) ..."
+    },
+    "rule_vi": "Dùng để nói về hành động đang diễn ra ngay lúc nói.",
+    "rule_en": "Used for actions happening now.",
+    "common_error": "❌ She is read a book.  →  ✅ She is reading a book.",
+    "in_context": [
+      "I **am using** my phone to message my friends.",
+      "My mother **is using** an online map to find roads when we travel.",
+      "I **am connecting** to the internet right now."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của Present Continuous để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ a video on her tablet.",
+          "options": [
+            "watching",
+            "is watching",
+            "are watching",
+            "was watching"
+          ],
+          "answer": "is watching"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ the new app now.",
+          "options": [
+            "are trying",
+            "is trying",
+            "trying",
+            "were trying"
+          ],
+          "answer": "are trying"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ his laptop for class.",
+          "options": [
+            "using",
+            "is using",
+            "are using",
+            "was using"
+          ],
+          "answer": "is using"
+        },
+        {
+          "id": 4,
+          "sentence": "The devices _____ charging.",
+          "options": [
+            "are charging",
+            "is charging",
+            "am charging",
+            "were charging"
+          ],
+          "answer": "are charging"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ a message at the moment.",
+          "options": [
+            "am sending",
+            "are sending",
+            "is sending",
+            "was sending"
+          ],
+          "answer": "am sending"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "are",
+            "you",
+            "studying",
+            "English",
+            "now"
+          ],
+          "answer": "are you studying English now"
+        },
+        {
+          "id": 2,
+          "words": [
+            "is",
+            "my",
+            "mother",
+            "using",
+            "the",
+            "tablet"
+          ],
+          "answer": "is my mother using the tablet"
+        },
+        {
+          "id": 3,
+          "words": [
+            "am",
+            "i",
+            "turning",
+            "on",
+            "the",
+            "computer"
+          ],
+          "answer": "am i turning on the computer"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ đúng để hoàn thành câu.",
+      "word_bank": [
+        "reading",
+        "watching",
+        "typing",
+        "charging",
+        "playing",
+        "listening"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She is _____ a book about robots.",
+          "answer": "reading"
+        },
+        {
+          "id": 2,
+          "sentence": "They are _____ a video on YouTube.",
+          "answer": "watching"
+        },
+        {
+          "id": 3,
+          "sentence": "He is _____ an email on his laptop.",
+          "answer": "typing"
+        },
+        {
+          "id": 4,
+          "sentence": "The phone is _____ now.",
+          "answer": "charging"
+        },
+        {
+          "id": 5,
+          "sentence": "The kids are _____ a game on the tablet.",
+          "answer": "playing"
+        }
+      ]
+    }
   }
 }

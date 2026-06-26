@@ -673,5 +673,160 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Must / Mustn't (rules and obligations)",
+    "vi_grammar_point": "Must / Mustn't — quy tắc và nghĩa vụ",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + must + base verb",
+      "negative": "Subject + must not (mustn't) + base verb",
+      "question": "Must + subject + base verb?",
+      "variant": "Subject + have to + base verb"
+    },
+    "rule_vi": "Dùng 'must' để nói về quy tắc hoặc nghĩa vụ bắt buộc; dùng 'mustn't' để nói việc cấm.",
+    "rule_en": "Use 'must' for obligations and 'mustn't' for prohibitions.",
+    "common_error": "❌ He must to study  →  ✅ He must study",
+    "in_context": [
+      "I **must** study hard to get a good grade.",
+      "You **mustn't** be late for the exam.",
+      "Students **must** bring their notebooks to class."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ finish your homework before dinner.",
+          "options": [
+            "can",
+            "must",
+            "should",
+            "mustn't"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 2,
+          "sentence": "Students _____ talk during the test.",
+          "options": [
+            "must",
+            "can",
+            "mustn't",
+            "may"
+          ],
+          "answer": "mustn't"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ bring my textbook tomorrow.",
+          "options": [
+            "mustn't",
+            "may",
+            "must",
+            "should"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ forget to turn off the lights.",
+          "options": [
+            "must",
+            "could",
+            "mustn't",
+            "should"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ eat in the library.",
+          "options": [
+            "must",
+            "mustn't",
+            "can",
+            "may"
+          ],
+          "answer": "mustn't"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "study",
+            "must",
+            "You",
+            "every",
+            "day"
+          ],
+          "answer": "You must study every day"
+        },
+        {
+          "id": 2,
+          "words": [
+            "mustn't",
+            "Students",
+            "noisy",
+            "be"
+          ],
+          "answer": "Students mustn't be noisy"
+        },
+        {
+          "id": 3,
+          "words": [
+            "bring",
+            "She",
+            "must",
+            "her",
+            "notebook"
+          ],
+          "answer": "She must bring her notebook"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "must",
+        "mustn't",
+        "should",
+        "can",
+        "may",
+        "have"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You _____ arrive on time for the class.",
+          "answer": "must"
+        },
+        {
+          "id": 2,
+          "sentence": "Students _____ copy each other's work.",
+          "answer": "mustn't"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ finish the assignment today.",
+          "answer": "must"
+        },
+        {
+          "id": 4,
+          "sentence": "We _____ forget to submit the project.",
+          "answer": "mustn't"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ wear a uniform at school.",
+          "answer": "must"
+        }
+      ]
+    }
   }
 }

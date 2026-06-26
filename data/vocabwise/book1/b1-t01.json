@@ -750,30 +750,139 @@
     "ex1_mcq": {
       "instruction": "Chọn tính từ sở hữu đúng để hoàn thành câu.",
       "items": [
-        { "id": 1, "sentence": "_____ house has four rooms and a garden.", "options": ["My", "Me", "I", "Mine"], "answer": "My" },
-        { "id": 2, "sentence": "We all love _____ home. It is always warm and tidy.", "options": ["our", "us", "we", "ours"], "answer": "our" },
-        { "id": 3, "sentence": "Tom has a sister. _____ sister is very kind.", "options": ["His", "He", "Him", "Her"], "answer": "His" },
-        { "id": 4, "sentence": "Anna cleans _____ bedroom every morning before school.", "options": ["her", "she", "hers", "him"], "answer": "her" },
-        { "id": 5, "sentence": "The cat drinks _____ milk and sleeps near the garden.", "options": ["its", "it", "it's", "their"], "answer": "its" }
+        {
+          "id": 1,
+          "sentence": "_____ house has four rooms and a garden.",
+          "options": [
+            "Me",
+            "My",
+            "Mine",
+            "I"
+          ],
+          "answer": "My"
+        },
+        {
+          "id": 2,
+          "sentence": "We all love _____ home. It is always warm and tidy.",
+          "options": [
+            "ours",
+            "our",
+            "us",
+            "we"
+          ],
+          "answer": "our"
+        },
+        {
+          "id": 3,
+          "sentence": "Tom has a sister. _____ sister is very kind.",
+          "options": [
+            "His",
+            "He",
+            "Him",
+            "Her"
+          ],
+          "answer": "His"
+        },
+        {
+          "id": 4,
+          "sentence": "Anna cleans _____ bedroom every morning before school.",
+          "options": [
+            "him",
+            "her",
+            "she",
+            "hers"
+          ],
+          "answer": "her"
+        },
+        {
+          "id": 5,
+          "sentence": "The cat drinks _____ milk and sleeps near the garden.",
+          "options": [
+            "it",
+            "their",
+            "it's",
+            "its"
+          ],
+          "answer": "its"
+        }
       ]
     },
     "ex2_scramble": {
       "instruction": "Sắp xếp các từ thành câu đúng.",
       "items": [
-        { "id": 1, "words": ["My", "house", "has", "four", "rooms"], "answer": "My house has four rooms" },
-        { "id": 2, "words": ["Our", "family", "has", "five", "members"], "answer": "Our family has five members" },
-        { "id": 3, "words": ["Her", "room", "is", "always", "clean", "and", "tidy"], "answer": "Her room is always clean and tidy" }
+        {
+          "id": 1,
+          "words": [
+            "My",
+            "house",
+            "has",
+            "four",
+            "rooms"
+          ],
+          "answer": "My house has four rooms"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Our",
+            "family",
+            "has",
+            "five",
+            "members"
+          ],
+          "answer": "Our family has five members"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Her",
+            "room",
+            "is",
+            "always",
+            "clean",
+            "and",
+            "tidy"
+          ],
+          "answer": "Her room is always clean and tidy"
+        }
       ]
     },
     "ex3_gap_fill": {
       "instruction": "Điền tính từ sở hữu đúng vào chỗ trống.",
-      "word_bank": ["my", "our", "his", "her", "their", "its"],
+      "word_bank": [
+        "my",
+        "our",
+        "his",
+        "her",
+        "their",
+        "its"
+      ],
       "items": [
-        { "id": 1, "sentence": "She loves _____ family very much. She visits them every week.", "answer": "her" },
-        { "id": 2, "sentence": "Tom and Anna share _____ housework every weekend.", "answer": "their" },
-        { "id": 3, "sentence": "The dog sleeps in _____ favourite spot near the garden.", "answer": "its" },
-        { "id": 4, "sentence": "I clean _____ bedroom before school every morning.", "answer": "my" },
-        { "id": 5, "sentence": "We love _____ home. It is small but always warm.", "answer": "our" }
+        {
+          "id": 1,
+          "sentence": "She loves _____ family very much. She visits them every week.",
+          "answer": "her"
+        },
+        {
+          "id": 2,
+          "sentence": "Tom and Anna share _____ housework every weekend.",
+          "answer": "their"
+        },
+        {
+          "id": 3,
+          "sentence": "The dog sleeps in _____ favourite spot near the garden.",
+          "answer": "its"
+        },
+        {
+          "id": 4,
+          "sentence": "I clean _____ bedroom before school every morning.",
+          "answer": "my"
+        },
+        {
+          "id": 5,
+          "sentence": "We love _____ home. It is small but always warm.",
+          "answer": "our"
+        }
       ]
     }
   }

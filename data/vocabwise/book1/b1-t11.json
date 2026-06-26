@@ -726,5 +726,161 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Have / Has got",
+    "vi_grammar_point": "Have got / Has got — diễn đạt sở hữu",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + have/has + got + Object",
+      "negative": "Subject + have/has + not + got + Object (haven't got / hasn't got)",
+      "question": "Have/Has + subject + got + Object?",
+      "variant": "have/has + Object (without got)"
+    },
+    "rule_vi": "Dùng have/has got để nói về sở hữu ở hiện tại. Chủ ngữ số ít dùng has got, chủ ngữ số nhiều dùng have got.",
+    "rule_en": "Use have/has got to express possession in the present.",
+    "common_error": "❌ She have got a cat.  →  ✅ She has got a cat.",
+    "in_context": [
+      "My family **has got** two pets — a dog and a cat.",
+      "My dog **has got** soft fur and a long tail.",
+      "I **have got** a love for animals."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My brother _____ a hamster.",
+          "options": [
+            "has",
+            "has got",
+            "have got",
+            "have"
+          ],
+          "answer": "has got"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ a big dog.",
+          "options": [
+            "have got",
+            "has got",
+            "have",
+            "has"
+          ],
+          "answer": "have got"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ a beautiful bird.",
+          "options": [
+            "has",
+            "have",
+            "has got",
+            "have got"
+          ],
+          "answer": "has got"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you a cat?",
+          "options": [
+            "Do have",
+            "Has got",
+            "Have got",
+            "Did have"
+          ],
+          "answer": "Have got"
+        },
+        {
+          "id": 5,
+          "sentence": "He _____ a rabbit.",
+          "options": [
+            "hasn't got",
+            "haven't got",
+            "doesn't have",
+            "don't have"
+          ],
+          "answer": "hasn't got"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "got",
+            "you",
+            "have",
+            "a",
+            "parrot"
+          ],
+          "answer": "you have got a parrot"
+        },
+        {
+          "id": 2,
+          "words": [
+            "has",
+            "got",
+            "the",
+            "cat",
+            "my"
+          ],
+          "answer": "my cat has got"
+        },
+        {
+          "id": 3,
+          "words": [
+            "have",
+            "got",
+            "they",
+            "two",
+            "fish"
+          ],
+          "answer": "they have got two fish"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "has got",
+        "have got",
+        "hasn't got",
+        "haven't got",
+        "got",
+        "does"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My sister _____ a rabbit.",
+          "answer": "has got"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ a turtle.",
+          "answer": "have got"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ a snake.",
+          "answer": "hasn't got"
+        },
+        {
+          "id": 4,
+          "sentence": "You _____ a hamster?",
+          "answer": "have got"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ a pet dog.",
+          "answer": "haven't got"
+        }
+      ]
+    }
   }
 }

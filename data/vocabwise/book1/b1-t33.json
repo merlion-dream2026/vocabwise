@@ -723,5 +723,167 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Conjunctions (and / but / because / so)",
+    "vi_grammar_point": "Liên từ cơ bản",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Clause1 + (and | but | because | so) + Clause2"
+    },
+    "rule_vi": "Dùng **and** để nối hai ý đồng thời, **but** để nối ý trái ngược, **because** để chỉ nguyên nhân, **so** để chỉ kết quả.",
+    "rule_en": "Use **and** to add ideas, **but** to contrast, **because** for reason, **so** for result.",
+    "common_error": "❌ I stayed home **and** it was raining.  →  ✅ I stayed home **because** it was raining.",
+    "in_context": [
+      "Each page is full of exciting ideas **and** I never feel bored.",
+      "I always write a heading at the top **so** I know what each page is about.",
+      "I love reading, **but** I sometimes forget to bring my book to class."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn liên từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She wanted to go home _____ it was raining.",
+          "options": [
+            "and",
+            "but",
+            "because",
+            "so"
+          ],
+          "answer": "because"
+        },
+        {
+          "id": 2,
+          "sentence": "Tom likes soccer _____ he also enjoys basketball.",
+          "options": [
+            "but",
+            "because",
+            "and",
+            "so"
+          ],
+          "answer": "and"
+        },
+        {
+          "id": 3,
+          "sentence": "I was tired, _____ I went to bed early.",
+          "options": [
+            "because",
+            "but",
+            "so",
+            "and"
+          ],
+          "answer": "so"
+        },
+        {
+          "id": 4,
+          "sentence": "He tried to call her, _____ she did not answer.",
+          "options": [
+            "and",
+            "but",
+            "because",
+            "so"
+          ],
+          "answer": "but"
+        },
+        {
+          "id": 5,
+          "sentence": "She was happy _____ she passed the exam.",
+          "options": [
+            "but",
+            "and",
+            "because",
+            "so"
+          ],
+          "answer": "because"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "read",
+            "a",
+            "book",
+            "and",
+            "write",
+            "notes"
+          ],
+          "answer": "I read a book and write notes"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "was",
+            "tired",
+            "so",
+            "she",
+            "went",
+            "to",
+            "bed"
+          ],
+          "answer": "She was tired so she went to bed"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "liked",
+            "the",
+            "movie",
+            "but",
+            "the",
+            "ending",
+            "was",
+            "confusing"
+          ],
+          "answer": "They liked the movie but the ending was confusing"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn liên từ phù hợp để hoàn thành câu.",
+      "word_bank": [
+        "and",
+        "but",
+        "because",
+        "so",
+        "although",
+        "unless"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I like coffee _____ tea.",
+          "answer": "and"
+        },
+        {
+          "id": 2,
+          "sentence": "He was late _____ the bus broke down.",
+          "answer": "because"
+        },
+        {
+          "id": 3,
+          "sentence": "She wanted to go out _____ it was raining.",
+          "answer": "but"
+        },
+        {
+          "id": 4,
+          "sentence": "The sun set, _____ it became dark.",
+          "answer": "so"
+        },
+        {
+          "id": 5,
+          "sentence": "I finished my homework, _____ I could watch TV.",
+          "answer": "so"
+        }
+      ]
+    }
   }
 }

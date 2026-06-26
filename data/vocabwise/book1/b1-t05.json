@@ -726,5 +726,161 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Adjective order (size → colour → material)",
+    "vi_grammar_point": "Trật tự tính từ trước danh từ",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + [size] [colour] [material] Noun"
+    },
+    "rule_vi": "Khi mô tả danh từ, tính từ phải đứng theo thứ tự: kích thước → màu sắc → chất liệu.",
+    "rule_en": "Use the order size → colour → material before a noun.",
+    "common_error": "❌ a red small silk dress → ✅ a small red silk dress",
+    "in_context": [
+      "I wear a **small blue cotton** shirt and shorts.",
+      "My favourite outfit is a **large red wool** shirt and dark trousers.",
+      "In winter, I wear a **big green polyester** coat and a jacket."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn cụm tính từ đúng theo thứ tự kích thước – màu – chất liệu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She bought _____ dress for the party.",
+          "options": [
+            "large red silk",
+            "silk large red",
+            "large silk red",
+            "red large silk"
+          ],
+          "answer": "large red silk"
+        },
+        {
+          "id": 2,
+          "sentence": "He needs a _____ hat for the sun.",
+          "options": [
+            "small yellow cotton",
+            "cotton small yellow",
+            "yellow small cotton",
+            "small cotton yellow"
+          ],
+          "answer": "small yellow cotton"
+        },
+        {
+          "id": 3,
+          "sentence": "They ordered _____ shoes for the trip.",
+          "options": [
+            "big leather blue",
+            "big blue leather",
+            "blue big leather",
+            "leather big blue"
+          ],
+          "answer": "big blue leather"
+        },
+        {
+          "id": 4,
+          "sentence": "I want a _____ coat for winter.",
+          "options": [
+            "wool large green",
+            "large wool green",
+            "large green wool",
+            "green large wool"
+          ],
+          "answer": "large green wool"
+        },
+        {
+          "id": 5,
+          "sentence": "We saw a _____ bag in the shop window.",
+          "options": [
+            "small linen red",
+            "red small linen",
+            "small red linen",
+            "linen small red"
+          ],
+          "answer": "small red linen"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "wear",
+            "I",
+            "small",
+            "blue",
+            "cotton",
+            "shirt"
+          ],
+          "answer": "I wear small blue cotton shirt"
+        },
+        {
+          "id": 2,
+          "words": [
+            "needs",
+            "She",
+            "large",
+            "red",
+            "silk",
+            "dress"
+          ],
+          "answer": "She needs large red silk dress"
+        },
+        {
+          "id": 3,
+          "words": [
+            "bought",
+            "They",
+            "big",
+            "green",
+            "leather",
+            "jacket"
+          ],
+          "answer": "They bought big green leather jacket"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "small",
+        "blue",
+        "cotton",
+        "large",
+        "red",
+        "silk"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I need a _____ shirt for the summer.",
+          "answer": "blue"
+        },
+        {
+          "id": 2,
+          "sentence": "She prefers a _____ coat in winter.",
+          "answer": "large"
+        },
+        {
+          "id": 3,
+          "sentence": "He bought a _____ dress for the wedding.",
+          "answer": "silk"
+        },
+        {
+          "id": 4,
+          "sentence": "We chose a _____ pair of shoes for the hike.",
+          "answer": "small"
+        },
+        {
+          "id": 5,
+          "sentence": "They are looking for a _____ bag for travel.",
+          "answer": "red"
+        }
+      ]
+    }
   }
 }

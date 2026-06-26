@@ -673,5 +673,169 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Used to (past habits and states)",
+    "vi_grammar_point": "Used to — thói quen và trạng thái trong quá khứ",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + used to + base verb",
+      "negative": "Subject + didn't use to + base verb",
+      "question": "Did + subject + use to + base verb?",
+      "variant": "Subject + used to + be + adjective/noun"
+    },
+    "rule_vi": "Dùng 'used to' để nói về thói quen hoặc trạng thái đã xảy ra thường xuyên trong quá khứ nhưng không còn nữa.",
+    "rule_en": "Use 'used to' to talk about past habits or states that are no longer true.",
+    "common_error": "❌ I used to was happy → ✅ I used to be happy",
+    "in_context": [
+      "When I was young, I **used to** climb trees, ride a bicycle, and run in the rain.",
+      "My friends **used to** play together after school, but now they have different hobbies.",
+      "I **used to** think that growing up was far away, yet now I feel it approaching."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When I was a child, I _____ play in the park every afternoon.",
+          "options": [
+            "use to",
+            "was used",
+            "did used to",
+            "used to"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ eat a lot of candy, but now she avoids sugar.",
+          "options": [
+            "did use to",
+            "used to",
+            "use to",
+            "was used"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ live in the countryside before moving to the city.",
+          "options": [
+            "used to",
+            "did used to",
+            "use to",
+            "was used"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ be afraid of dogs, yet now he has a pet.",
+          "options": [
+            "use to",
+            "did use to",
+            "was used",
+            "used to"
+          ],
+          "answer": "used to"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ go swimming every summer when we were younger.",
+          "options": [
+            "did used to",
+            "used to",
+            "use to",
+            "was used"
+          ],
+          "answer": "used to"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "used",
+            "to",
+            "play",
+            "football",
+            "every",
+            "Saturday"
+          ],
+          "answer": "I used to play football every Saturday"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "didn't",
+            "use",
+            "to",
+            "like",
+            "vegetables"
+          ],
+          "answer": "She didn't use to like vegetables"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Did",
+            "they",
+            "use",
+            "to",
+            "go",
+            "to",
+            "the",
+            "museum",
+            "on",
+            "Sundays"
+          ],
+          "answer": "Did they use to go to the museum on Sundays"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "used to",
+        "use",
+        "did",
+        "was",
+        "be",
+        "could"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When I was ten, I _____ ride my bike to school.",
+          "answer": "used to"
+        },
+        {
+          "id": 2,
+          "sentence": "My brother _____ collect stamps, but he stopped last year.",
+          "answer": "used to"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ go camping every summer before we moved to the city.",
+          "answer": "used to"
+        },
+        {
+          "id": 4,
+          "sentence": "She _____ think that English was difficult, now she enjoys it.",
+          "answer": "used to"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ play video games after dinner, but now they study together.",
+          "answer": "used to"
+        }
+      ]
+    }
   }
 }

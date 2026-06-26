@@ -676,5 +676,158 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Can / Can't (ability)",
+    "vi_grammar_point": "Can / Can't — diễn đạt khả năng",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + can + Verb (base form)",
+      "negative": "Subject + can't + Verb (base form)",
+      "question": "Can + Subject + Verb (base form)?",
+      "variant": "Subject + be + able to + Verb (base form)"
+    },
+    "rule_vi": "Dùng can để nói mình có khả năng làm gì, dùng can't để nói mình không có khả năng làm gì.",
+    "rule_en": "Use can for ability and can't for lack of ability.",
+    "common_error": "❌ She can to swim.  →  ✅ She can swim.",
+    "in_context": [
+      "I **can** run and swim on weekends.",
+      "Our team **can** practice every day in the school yard.",
+      "My coach says winning and losing **can't** be avoided."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ swim very fast.",
+          "options": [
+            "may",
+            "could",
+            "can't",
+            "can"
+          ],
+          "answer": "can"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ play football on rainy days.",
+          "options": [
+            "can",
+            "must",
+            "should",
+            "can't"
+          ],
+          "answer": "can't"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ join the basketball team next term.",
+          "options": [
+            "might",
+            "can't",
+            "can",
+            "will"
+          ],
+          "answer": "can"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ lift heavy weights yet.",
+          "options": [
+            "can",
+            "does",
+            "doesn't",
+            "can't"
+          ],
+          "answer": "can't"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ practice every day after school.",
+          "options": [
+            "must",
+            "can't",
+            "should",
+            "can"
+          ],
+          "answer": "can"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "can",
+            "I",
+            "run",
+            "fast"
+          ],
+          "answer": "I can run fast"
+        },
+        {
+          "id": 2,
+          "words": [
+            "can't",
+            "they",
+            "play",
+            "today"
+          ],
+          "answer": "They can't play today"
+        },
+        {
+          "id": 3,
+          "words": [
+            "can",
+            "she",
+            "swim",
+            "well"
+          ],
+          "answer": "She can swim well"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "can",
+        "can't",
+        "could",
+        "may",
+        "must",
+        "should"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ play tennis on Saturdays.",
+          "answer": "can"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ lift the heavy box yet.",
+          "answer": "can't"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ join the swimming class tomorrow.",
+          "answer": "can"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ run a marathon this year.",
+          "answer": "can't"
+        },
+        {
+          "id": 5,
+          "sentence": "They _____ try the new sport next week.",
+          "answer": "can"
+        }
+      ]
+    }
   }
 }

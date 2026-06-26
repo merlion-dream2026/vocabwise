@@ -660,5 +660,158 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Simple for facts and general truths",
+    "vi_grammar_point": "Hiện tại đơn — sự thật và sự thật tổng quát",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + base verb (add s/es for 3rd person singular) + (object/complement)",
+      "negative": "Subject + do/does + not + base verb + (object/complement)",
+      "question": "Do/Does + subject + base verb + (object/complement) + ?",
+      "variant": "Subject + verb‑s/es (3rd person singular) for habitual actions"
+    },
+    "rule_vi": "Dùng hiện tại đơn để nói về sự thật, hiện tượng luôn đúng hoặc thói quen chung.",
+    "rule_en": "Use the present simple for facts and general truths.",
+    "common_error": "❌ The weather **is changes** quickly. → ✅ The weather **changes** quickly.",
+    "in_context": [
+      "The weather in Việt Nam **changes** with each season.",
+      "In summer, the temperature **is** very hot and dry.",
+      "Storms **bring** heavy rain and strong wind, but they also **cool** the air down."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The sun _____ in the sky during the day.",
+          "options": [
+            "shine",
+            "shines",
+            "shone",
+            "shining"
+          ],
+          "answer": "shines"
+        },
+        {
+          "id": 2,
+          "sentence": "Rain _____ often in the rainy season.",
+          "options": [
+            "rain",
+            "raining",
+            "rains",
+            "rained"
+          ],
+          "answer": "rains"
+        },
+        {
+          "id": 3,
+          "sentence": "Snow _____ in the north during winter.",
+          "options": [
+            "fall",
+            "falls",
+            "fell",
+            "falling"
+          ],
+          "answer": "falls"
+        },
+        {
+          "id": 4,
+          "sentence": "People _____ umbrellas when it rains.",
+          "options": [
+            "carries",
+            "carry",
+            "carried",
+            "carrying"
+          ],
+          "answer": "carry"
+        },
+        {
+          "id": 5,
+          "sentence": "Wind _____ strongly in storms.",
+          "options": [
+            "blow",
+            "blows",
+            "blew",
+            "blowing"
+          ],
+          "answer": "blows"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "temperature",
+            "is",
+            "hot"
+          ],
+          "answer": "the temperature is hot"
+        },
+        {
+          "id": 2,
+          "words": [
+            "birds",
+            "sing",
+            "in",
+            "spring"
+          ],
+          "answer": "birds sing in spring"
+        },
+        {
+          "id": 3,
+          "words": [
+            "clouds",
+            "cover",
+            "the",
+            "sky"
+          ],
+          "answer": "clouds cover the sky"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "shines",
+        "rains",
+        "fall",
+        "carry",
+        "blow",
+        "drives"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The sun _____ brightly in summer.",
+          "answer": "shines"
+        },
+        {
+          "id": 2,
+          "sentence": "It _____ a lot in the monsoon.",
+          "answer": "rains"
+        },
+        {
+          "id": 3,
+          "sentence": "Leaves _____ from the trees in autumn.",
+          "answer": "fall"
+        },
+        {
+          "id": 4,
+          "sentence": "People _____ umbrellas when it rains.",
+          "answer": "carry"
+        },
+        {
+          "id": 5,
+          "sentence": "Strong gusts _____ the kite high.",
+          "answer": "blow"
+        }
+      ]
+    }
   }
 }

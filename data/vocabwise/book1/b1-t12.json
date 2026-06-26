@@ -661,5 +661,165 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "There is / There are",
+    "vi_grammar_point": "There is / There are — diễn đạt sự tồn tại",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "There + be (is/are) + noun phrase",
+      "negative": "There + be not (isn't/aren't) + noun phrase",
+      "question": "Is/Are there + noun phrase?",
+      "variant": "There's / There're"
+    },
+    "rule_vi": "Dùng để nói về sự tồn tại của một hoặc nhiều vật, người, địa điểm.",
+    "rule_en": "Used to state that something exists.",
+    "common_error": "❌ There is many trees.  →  ✅ There are many trees.",
+    "in_context": [
+      "**There is** a clear stream beside the green forest.",
+      "**There is** a tall mountain rising into the clouds.",
+      "**There is** a wide river in the valley below."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của There is / There are để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ a big tree near the lake.",
+          "options": [
+            "There was",
+            "There is",
+            "There are",
+            "There will be"
+          ],
+          "answer": "There is"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ many birds singing in the forest.",
+          "options": [
+            "There are",
+            "There is",
+            "There was",
+            "There have"
+          ],
+          "answer": "There are"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ a small cottage on the hill?",
+          "options": [
+            "There is",
+            "There are",
+            "Is there",
+            "Are there"
+          ],
+          "answer": "Is there"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ any clouds today?",
+          "options": [
+            "There are",
+            "There is",
+            "Is there",
+            "Are there"
+          ],
+          "answer": "Are there"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ a quiet garden behind my house.",
+          "options": [
+            "There will be",
+            "There are",
+            "There is",
+            "There was"
+          ],
+          "answer": "There is"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "There",
+            "is",
+            "a",
+            "blue",
+            "sky"
+          ],
+          "answer": "There is a blue sky"
+        },
+        {
+          "id": 2,
+          "words": [
+            "There",
+            "are",
+            "many",
+            "flowers",
+            "in",
+            "the",
+            "field"
+          ],
+          "answer": "There are many flowers in the field"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Is",
+            "there",
+            "a",
+            "river",
+            "near",
+            "the",
+            "village"
+          ],
+          "answer": "Is there a river near the village"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "There is",
+        "There are",
+        "Is there",
+        "Are there",
+        "There was",
+        "There will"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ a tall pine tree by the road.",
+          "answer": "There is"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ many stars visible tonight.",
+          "answer": "There are"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ a bench in the park?",
+          "answer": "Is there"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ any insects on the leaf?",
+          "answer": "Are there"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ a campfire last night.",
+          "answer": "There was"
+        }
+      ]
+    }
   }
 }

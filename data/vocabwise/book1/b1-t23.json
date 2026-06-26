@@ -673,5 +673,159 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Superlatives (the tallest / the most beautiful)",
+    "vi_grammar_point": "Tính từ so sánh nhất",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be (am/is/are) + the + adjective (est) / most + adjective + (complement)",
+      "negative": "Subject + be + not + the + adjective (est) / most + adjective + complement",
+      "question": "Is/Are + Subject + the + adjective (est) / most + adjective + ... ?",
+      "variant": "the + adjective + -est (for short adjectives) vs. the most + adjective (for longer adjectives)"
+    },
+    "rule_vi": "Dùng để so sánh mức độ cao nhất trong một nhóm, thường dùng cấu trúc the + tính từ nhất hoặc the most + tính từ.",
+    "rule_en": "Used to express the highest degree of a quality within a group.",
+    "common_error": "❌ She is more beautiful than anyone.  →  ✅ She is the most beautiful of all.",
+    "in_context": [
+      "My father is **the tallest** in my family.",
+      "My mother is **the most beautiful** with her long, wavy hair.",
+      "My younger brother is **the shortest** among my siblings."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Anna is _____ student in the class.",
+          "options": [
+            "the smartest",
+            "most smart",
+            "the smart",
+            "smart"
+          ],
+          "answer": "the smartest"
+        },
+        {
+          "id": 2,
+          "sentence": "This is _____ book I have ever read.",
+          "options": [
+            "most interesting",
+            "the most interesting",
+            "the interesting",
+            "interesting"
+          ],
+          "answer": "the most interesting"
+        },
+        {
+          "id": 3,
+          "sentence": "He is _____ player on the team.",
+          "options": [
+            "fast",
+            "the fastest",
+            "most fast",
+            "the fast"
+          ],
+          "answer": "the fastest"
+        },
+        {
+          "id": 4,
+          "sentence": "Our house is _____ in the street.",
+          "options": [
+            "the biggest",
+            "big",
+            "most big",
+            "biggest"
+          ],
+          "answer": "the biggest"
+        },
+        {
+          "id": 5,
+          "sentence": "She has _____ smile of anyone I know.",
+          "options": [
+            "the brightest",
+            "bright",
+            "most bright",
+            "the bright"
+          ],
+          "answer": "the brightest"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "she",
+            "is",
+            "the",
+            "tallest"
+          ],
+          "answer": "she is the tallest"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "movie",
+            "was",
+            "most",
+            "interesting"
+          ],
+          "answer": "the movie was most interesting"
+        },
+        {
+          "id": 3,
+          "words": [
+            "you",
+            "are",
+            "the",
+            "youngest"
+          ],
+          "answer": "you are the youngest"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "the tallest",
+        "the most beautiful",
+        "the shortest",
+        "the biggest",
+        "the smartest",
+        "the oldest"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My brother is _____ in our family.",
+          "answer": "the tallest"
+        },
+        {
+          "id": 2,
+          "sentence": "She has _____ smile.",
+          "answer": "the most beautiful"
+        },
+        {
+          "id": 3,
+          "sentence": "The rabbit is _____ of all the animals.",
+          "answer": "the shortest"
+        },
+        {
+          "id": 4,
+          "sentence": "This building is _____ in the city.",
+          "answer": "the biggest"
+        },
+        {
+          "id": 5,
+          "sentence": "Tom is _____ student in the class.",
+          "answer": "the smartest"
+        }
+      ]
+    }
   }
 }

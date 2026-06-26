@@ -676,5 +676,158 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "How much / How many (quantity questions)",
+    "vi_grammar_point": "How much / How many — hỏi về số lượng",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "question": "How much + uncountable noun + auxiliary (is/are/do/does) …?  How many + countable noun + auxiliary (is/are/do/does) …?"
+    },
+    "rule_vi": "Dùng How much cho danh từ không đếm được; dùng How many cho danh từ đếm được.",
+    "rule_en": "Use How much with uncountable nouns and How many with countable nouns.",
+    "common_error": "❌ How many water do we need?  →  ✅ How much water do we need?",
+    "in_context": [
+      "My mum likes to ask, **How much** does the fruit cost?",
+      "When we pick the freshest tomatoes, I always wonder, **How many** tomatoes we should buy.",
+      "Before we queue to pay, my dad checks, **How much** money we have left."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ bananas are in the basket?",
+          "options": [
+            "How many",
+            "How much",
+            "How often",
+            "How long"
+          ],
+          "answer": "How many"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ milk do you need for the recipe?",
+          "options": [
+            "How many",
+            "How much",
+            "How often",
+            "How long"
+          ],
+          "answer": "How much"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ eggs should we buy for the brunch?",
+          "options": [
+            "How much",
+            "How many",
+            "How often",
+            "How long"
+          ],
+          "answer": "How many"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ cheese is left in the fridge?",
+          "options": [
+            "How long",
+            "How many",
+            "How much",
+            "How often"
+          ],
+          "answer": "How much"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ people are coming to the market today?",
+          "options": [
+            "How many",
+            "How much",
+            "How often",
+            "How long"
+          ],
+          "answer": "How many"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "How",
+            "many",
+            "books",
+            "are",
+            "there"
+          ],
+          "answer": "How many books are there"
+        },
+        {
+          "id": 2,
+          "words": [
+            "How",
+            "much",
+            "water",
+            "is",
+            "left"
+          ],
+          "answer": "How much water is left"
+        },
+        {
+          "id": 3,
+          "words": [
+            "How",
+            "many",
+            "people",
+            "came",
+            "today"
+          ],
+          "answer": "How many people came today"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống.",
+      "word_bank": [
+        "How many",
+        "How much",
+        "How often",
+        "How long",
+        "Which",
+        "Where"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ apples do you want?",
+          "answer": "How many"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ sugar should I add?",
+          "answer": "How much"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ often do you visit the market?",
+          "answer": "How often"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ time does the market close?",
+          "answer": "How long"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ books are on the shelf?",
+          "answer": "How many"
+        }
+      ]
+    }
   }
 }

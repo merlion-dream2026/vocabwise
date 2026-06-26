@@ -664,5 +664,164 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Past Continuous (was/were + -ing)",
+    "vi_grammar_point": "Quá khứ tiếp diễn",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + was/were + Verb‑ing (+ Object/Complement)",
+      "negative": "Subject + was/were + not + Verb‑ing (+ Object/Complement)",
+      "question": "Was/Were + Subject + Verb‑ing (+ Object/Complement) ?",
+      "variant": "was/were + Verb‑ing + (time expression) to describe background action"
+    },
+    "rule_vi": "Dùng để mô tả hành động đang diễn ra tại một thời điểm trong quá khứ.",
+    "rule_en": "Used to describe an ongoing action at a specific time in the past.",
+    "common_error": "❌ The crowd were cheering loudly.  →  ✅ The crowd was cheering loudly.",
+    "in_context": [
+      "The crowd **was cheering** loudly and rooting for their team from start to finish.",
+      "The referee **was making** sure everyone followed the rules.",
+      "The athletes **were training** hard before the big day."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "During the match, the fans ____ loudly.",
+          "options": [
+            "were cheering",
+            "was cheering",
+            "are cheering",
+            "were cheered"
+          ],
+          "answer": "were cheering"
+        },
+        {
+          "id": 2,
+          "sentence": "The coach ____ the players when the rain started.",
+          "options": [
+            "were watching",
+            "was watching",
+            "was watched",
+            "were watched"
+          ],
+          "answer": "was watching"
+        },
+        {
+          "id": 3,
+          "sentence": "At 9 pm, the stadium ____ lights.",
+          "options": [
+            "were turned on",
+            "was turned on",
+            "were turning on",
+            "was turning on"
+          ],
+          "answer": "was turning on"
+        },
+        {
+          "id": 4,
+          "sentence": "The spectators ____ their phones while the ceremony was happening.",
+          "options": [
+            "were using",
+            "was using",
+            "are using",
+            "were used"
+          ],
+          "answer": "were using"
+        },
+        {
+          "id": 5,
+          "sentence": "The champion ____ a medal when the photographer arrived.",
+          "options": [
+            "were receiving",
+            "was receiving",
+            "is receiving",
+            "was received"
+          ],
+          "answer": "was receiving"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "players",
+            "were",
+            "practicing",
+            "on",
+            "the",
+            "field"
+          ],
+          "answer": "players were practicing on the field"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "coach",
+            "was",
+            "explaining",
+            "the",
+            "rules"
+          ],
+          "answer": "the coach was explaining the rules"
+        },
+        {
+          "id": 3,
+          "words": [
+            "spectators",
+            "were",
+            "cheering",
+            "for",
+            "their",
+            "team"
+          ],
+          "answer": "spectators were cheering for their team"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "was cheering",
+        "were training",
+        "was making",
+        "were watching",
+        "was receiving",
+        "is"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The crowd ____ loudly during the final sprint.",
+          "answer": "was cheering"
+        },
+        {
+          "id": 2,
+          "sentence": "The athletes ____ for months before the competition.",
+          "answer": "were training"
+        },
+        {
+          "id": 3,
+          "sentence": "The referee ____ sure the rules were followed.",
+          "answer": "was making"
+        },
+        {
+          "id": 4,
+          "sentence": "The fans ____ the match from the stands.",
+          "answer": "were watching"
+        },
+        {
+          "id": 5,
+          "sentence": "The winner ____ a gold medal on the podium.",
+          "answer": "was receiving"
+        }
+      ]
+    }
   }
 }

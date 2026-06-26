@@ -664,5 +664,164 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Perfect with ever / never",
+    "vi_grammar_point": "Hiện tại hoàn thành với ever / never",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + have/has + past participle (e.g., I have read)",
+      "negative": "Subject + have/has + not + past participle (e.g., I have not read)",
+      "question": "Have/Has + subject + past participle? (e.g., Have you read?)",
+      "variant": "Subject + have/has + ever + past participle; Subject + have/has + never + past participle"
+    },
+    "rule_vi": "Dùng hiện tại hoàn thành để hỏi hoặc khẳng định kinh nghiệm sống, thường kèm ever (đã bao giờ) hoặc never (chưa bao giờ).",
+    "rule_en": "Use the present perfect to talk about life experiences, with ever for questions/affirmatives and never for negatives.",
+    "common_error": "❌ I have read ever this book. → ✅ I have ever read this book.",
+    "in_context": [
+      "I have **never** missed a fine because I always return books on time.",
+      "Have you **ever** found a book that you couldn't put down?",
+      "The librarian **has never** been late to open the reading area."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ hoặc cụm từ đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "You have _____ read a novel in the library?",
+          "options": [
+            "ever",
+            "never",
+            "already",
+            "just"
+          ],
+          "answer": "ever"
+        },
+        {
+          "id": 2,
+          "sentence": "She has _____ visited the catalogue section.",
+          "options": [
+            "never",
+            "ever",
+            "already",
+            "just"
+          ],
+          "answer": "never"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ you ever returned a book late?",
+          "options": [
+            "Has",
+            "Did",
+            "Do",
+            "Have"
+          ],
+          "answer": "Have"
+        },
+        {
+          "id": 4,
+          "sentence": "They have _____ finished reading the dictionary.",
+          "options": [
+            "already",
+            "just",
+            "ever",
+            "never"
+          ],
+          "answer": "already"
+        },
+        {
+          "id": 5,
+          "sentence": "He has _____ started a new book this week.",
+          "options": [
+            "just",
+            "ever",
+            "never",
+            "already"
+          ],
+          "answer": "just"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "have",
+            "you",
+            "ever",
+            "borrowed",
+            "a",
+            "book"
+          ],
+          "answer": "have you ever borrowed a book"
+        },
+        {
+          "id": 2,
+          "words": [
+            "she",
+            "has",
+            "never",
+            "found",
+            "the",
+            "catalogue"
+          ],
+          "answer": "she has never found the catalogue"
+        },
+        {
+          "id": 3,
+          "words": [
+            "they",
+            "have",
+            "just",
+            "returned",
+            "their",
+            "books"
+          ],
+          "answer": "they have just returned their books"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "ever",
+        "never",
+        "already",
+        "just",
+        "yet",
+        "recently"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I have _____ read that article.",
+          "answer": "already"
+        },
+        {
+          "id": 2,
+          "sentence": "He has _____ visited the new reading area.",
+          "answer": "never"
+        },
+        {
+          "id": 3,
+          "sentence": "We have _____ finished the assignment.",
+          "answer": "just"
+        },
+        {
+          "id": 4,
+          "sentence": "Have you _____ been to the library?",
+          "answer": "ever"
+        },
+        {
+          "id": 5,
+          "sentence": "She hasn't finished her book _____.",
+          "answer": "yet"
+        }
+      ]
+    }
   }
 }

@@ -658,5 +658,163 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Some / Any",
+    "vi_grammar_point": "Some / Any — lượng từ cơ bản",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + some + Noun",
+      "negative": "Subject + do/does not + any + Noun",
+      "question": "Do/Does + Subject + any + Noun?",
+      "variant": "Would you like some + Noun?"
+    },
+    "rule_vi": "Dùng **some** trong câu khẳng định để nói về một số lượng không xác định (có). Dùng **any** trong câu phủ định và câu hỏi để nói về bất kỳ (không có).",
+    "rule_en": "Use **some** in affirmative statements and **any** in negatives and questions for indefinite quantities.",
+    "common_error": "❌ I don't have some money.  →  ✅ I don't have any money.",
+    "in_context": [
+      "**Some** dishes are sweet, **some** are sour, and **some** are salty.",
+      "**Some** dishes are sweet, **some** are sour, and **some** are salty.",
+      "**Some** dishes are sweet, **some** are sour, and **some** are salty."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "There are _____ cookies in the jar.",
+          "options": [
+            "any",
+            "many",
+            "some",
+            "few"
+          ],
+          "answer": "some"
+        },
+        {
+          "id": 2,
+          "sentence": "Do you have _____ oranges?",
+          "options": [
+            "some",
+            "many",
+            "few",
+            "any"
+          ],
+          "answer": "any"
+        },
+        {
+          "id": 3,
+          "sentence": "She didn't buy _____ bread.",
+          "options": [
+            "some",
+            "any",
+            "many",
+            "much"
+          ],
+          "answer": "any"
+        },
+        {
+          "id": 4,
+          "sentence": "Can I have _____ water, please?",
+          "options": [
+            "any",
+            "few",
+            "some",
+            "much"
+          ],
+          "answer": "some"
+        },
+        {
+          "id": 5,
+          "sentence": "We don't need _____ help right now.",
+          "options": [
+            "some",
+            "any",
+            "many",
+            "few"
+          ],
+          "answer": "any"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "any",
+            "milk",
+            "do",
+            "you",
+            "have"
+          ],
+          "answer": "Do you have any milk"
+        },
+        {
+          "id": 2,
+          "words": [
+            "some",
+            "bread",
+            "would",
+            "you",
+            "like"
+          ],
+          "answer": "Would you like some bread"
+        },
+        {
+          "id": 3,
+          "words": [
+            "some",
+            "apples",
+            "are",
+            "there",
+            "on",
+            "the",
+            "table"
+          ],
+          "answer": "There are some apples on the table"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ô từ vào chỗ trống.",
+      "word_bank": [
+        "some",
+        "any",
+        "many",
+        "few",
+        "much",
+        "several"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I would like _____ tea, please.",
+          "answer": "some"
+        },
+        {
+          "id": 2,
+          "sentence": "Are there _____ bananas left?",
+          "answer": "any"
+        },
+        {
+          "id": 3,
+          "sentence": "She didn't bring _____ cheese to the party.",
+          "answer": "any"
+        },
+        {
+          "id": 4,
+          "sentence": "We have _____ time before the movie starts.",
+          "answer": "some"
+        },
+        {
+          "id": 5,
+          "sentence": "Do you need _____ help with your homework?",
+          "answer": "any"
+        }
+      ]
+    }
   }
 }

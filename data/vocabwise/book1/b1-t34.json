@@ -673,5 +673,160 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Cardinal and ordinal numbers",
+    "vi_grammar_point": "Số đếm và số thứ tự",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + (cardinal number) + Noun / Subject + Verb + (ordinal number) + Noun"
+    },
+    "rule_vi": "Số đếm (cardinal) dùng để đếm số lượng, còn số thứ tự (ordinal) dùng để chỉ vị trí, thứ tự.",
+    "rule_en": "Cardinal numbers count objects; ordinal numbers show order.",
+    "common_error": "❌ I have **first** books.  →  ✅ I have **five** books.",
+    "in_context": [
+      "The **first** question asked: what is half of **twenty**?",
+      "She showed us that **five** plus **five** and **ten** divided by **one** are both equal to **ten**.",
+      "At the end of class, our teacher gave us a quiz with **one** question."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn số thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "There are _____ apples on the table.",
+          "options": [
+            "first",
+            "five",
+            "three",
+            "third"
+          ],
+          "answer": "three"
+        },
+        {
+          "id": 2,
+          "sentence": "She finished the race in _____ place.",
+          "options": [
+            "first",
+            "second",
+            "fourth",
+            "two"
+          ],
+          "answer": "second"
+        },
+        {
+          "id": 3,
+          "sentence": "The class has _____ students.",
+          "options": [
+            "twentieth",
+            "twenty",
+            "fifteenth",
+            "fifteen"
+          ],
+          "answer": "twenty"
+        },
+        {
+          "id": 4,
+          "sentence": "He lives on the _____ floor of the building.",
+          "options": [
+            "three",
+            "third",
+            "five",
+            "fifth"
+          ],
+          "answer": "third"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ birds were singing in the garden.",
+          "options": [
+            "tenth",
+            "twentieth",
+            "Ten",
+            "Twenty"
+          ],
+          "answer": "Ten"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "first",
+            "the",
+            "lesson",
+            "was",
+            "interesting"
+          ],
+          "answer": "the first lesson was interesting"
+        },
+        {
+          "id": 2,
+          "words": [
+            "seven",
+            "students",
+            "are",
+            "in",
+            "group",
+            "A"
+          ],
+          "answer": "seven students are in group A"
+        },
+        {
+          "id": 3,
+          "words": [
+            "my",
+            "birthday",
+            "is",
+            "on",
+            "the",
+            "twelfth"
+          ],
+          "answer": "my birthday is on the twelfth"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền số thích hợp vào chỗ trống.",
+      "word_bank": [
+        "first",
+        "second",
+        "ten",
+        "twenty",
+        "third",
+        "hundred"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She came in _____ place in the competition.",
+          "answer": "second"
+        },
+        {
+          "id": 2,
+          "sentence": "The recipe calls for _____ eggs.",
+          "answer": "ten"
+        },
+        {
+          "id": 3,
+          "sentence": "My house is on the _____ floor.",
+          "answer": "third"
+        },
+        {
+          "id": 4,
+          "sentence": "There are _____ chairs in the room.",
+          "answer": "twenty"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ students attended the lecture.",
+          "answer": "first"
+        }
+      ]
+    }
   }
 }

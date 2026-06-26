@@ -723,5 +723,165 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Comparative and superlative review",
+    "vi_grammar_point": "Ôn tập so sánh hơn và so sánh nhất",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + adjective (+ than) + complement   /   Subject + verb + the + adjective (+ most) + complement",
+      "negative": "Subject + verb + not + adjective (+ than) + complement   /   Subject + verb + not + the + adjective (+ most) + complement",
+      "question": "Is/Are + Subject + verb + adjective (+ than) + complement?   /   Is/Are + Subject + verb + the + adjective (+ most) + complement?",
+      "variant": "Subject + verb + as + adjective + as + complement"
+    },
+    "rule_vi": "Dùng dạng so sánh hơn để so sánh hai đối tượng, và dạng so sánh nhất để nói rằng một đối tượng vượt trội hơn tất cả các đối tượng khác.",
+    "rule_en": "Use the comparative to compare two things and the superlative to show the highest degree among three or more.",
+    "common_error": "❌ She is more taller than me.  →  ✅ She is taller than me.",
+    "in_context": [
+      "Our teacher said a creative person always finds **more** new ways to use simple things.",
+      "My bird sculpture was **more** original than any other piece in the exhibit.",
+      "My bird sculpture was the **most** original piece — no one else made the same thing."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu so sánh hoặc so sánh nhất.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The clay sculpture is _____ than the paper flower.",
+          "options": [
+            "more fragile",
+            "most fragile",
+            "fragile",
+            "most fragile"
+          ],
+          "answer": "more fragile"
+        },
+        {
+          "id": 2,
+          "sentence": "A sketch is _____ way to start a big painting.",
+          "options": [
+            "the best",
+            "better",
+            "the better",
+            "best"
+          ],
+          "answer": "better"
+        },
+        {
+          "id": 3,
+          "sentence": "This museum has _____ interesting exhibits than the one we visited last month.",
+          "options": [
+            "more",
+            "most",
+            "most interesting",
+            "more interesting"
+          ],
+          "answer": "more interesting"
+        },
+        {
+          "id": 4,
+          "sentence": "Among all the students, Lina is _____ at drawing.",
+          "options": [
+            "the most talented",
+            "more talented",
+            "most talented",
+            "talented"
+          ],
+          "answer": "the most talented"
+        },
+        {
+          "id": 5,
+          "sentence": "Using bright colors makes a picture look _____ than using dull colors.",
+          "options": [
+            "more vivid",
+            "most vivid",
+            "vivid",
+            "most vivid"
+          ],
+          "answer": "more vivid"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "more",
+            "creative",
+            "people",
+            "are",
+            "than",
+            "ever"
+          ],
+          "answer": "people are more creative than ever"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "most",
+            "original",
+            "piece",
+            "was",
+            "my",
+            "sculpture"
+          ],
+          "answer": "my sculpture was the most original piece"
+        },
+        {
+          "id": 3,
+          "words": [
+            "better",
+            "ideas",
+            "come",
+            "when",
+            "you",
+            "experiment"
+          ],
+          "answer": "better ideas come when you experiment"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "more",
+        "most",
+        "better",
+        "best",
+        "simpler",
+        "harder"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A pencil is _____ tool for sketching than a brush.",
+          "answer": "simpler"
+        },
+        {
+          "id": 2,
+          "sentence": "This painting looks _____ after the lighting was adjusted.",
+          "answer": "better"
+        },
+        {
+          "id": 3,
+          "sentence": "Among all the colors, blue is _____ calming.",
+          "answer": "most"
+        },
+        {
+          "id": 4,
+          "sentence": "Learning to sculpt is _____ challenging than drawing.",
+          "answer": "harder"
+        },
+        {
+          "id": 5,
+          "sentence": "She wants to create the _____ piece for the exhibition.",
+          "answer": "best"
+        }
+      ]
+    }
   }
 }

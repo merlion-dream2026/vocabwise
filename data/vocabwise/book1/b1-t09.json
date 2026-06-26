@@ -723,5 +723,161 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositions of movement (to / from / along / through)",
+    "vi_grammar_point": "Giới từ chỉ hướng và sự di chuyển",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + verb + preposition + place",
+      "negative": "Subject + do/does not + verb + preposition + place",
+      "question": "Wh‑question + do/does + subject + verb + preposition + place?",
+      "variant": "Subject + verb + preposition + place + adverbial phrase"
+    },
+    "rule_vi": "Dùng 'to' chỉ hướng tới nơi nào đó; dùng 'from' chỉ nguồn gốc; dùng 'along' chỉ di chuyển dọc theo; dùng 'through' chỉ đi qua một không gian.",
+    "rule_en": "We use these prepositions to show direction and movement.",
+    "common_error": "❌ She goes school.  →  ✅ She goes **to** school.",
+    "in_context": [
+      "I usually **go to** school by bus.",
+      "My father drives his car **to** work.",
+      "I walk **along** the road to the bus stop."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn giới từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She walks _____ the park every morning.",
+          "options": [
+            "to",
+            "from",
+            "through",
+            "along"
+          ],
+          "answer": "through"
+        },
+        {
+          "id": 2,
+          "sentence": "He rides his bike _____ the river.",
+          "options": [
+            "to",
+            "along",
+            "from",
+            "through"
+          ],
+          "answer": "along"
+        },
+        {
+          "id": 3,
+          "sentence": "They travel _____ London and Paris each year.",
+          "options": [
+            "along",
+            "through",
+            "from",
+            "to"
+          ],
+          "answer": "to"
+        },
+        {
+          "id": 4,
+          "sentence": "The train comes _____ the station at 9am.",
+          "options": [
+            "from",
+            "to",
+            "along",
+            "through"
+          ],
+          "answer": "from"
+        },
+        {
+          "id": 5,
+          "sentence": "We walked _____ the tunnel to reach the other side.",
+          "options": [
+            "to",
+            "through",
+            "from",
+            "along"
+          ],
+          "answer": "through"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "My",
+            "bus",
+            "goes",
+            "to",
+            "school"
+          ],
+          "answer": "My bus goes to school"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "came",
+            "from",
+            "the",
+            "airport"
+          ],
+          "answer": "She came from the airport"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "walk",
+            "along",
+            "the",
+            "river"
+          ],
+          "answer": "They walk along the river"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền giới từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "to",
+        "from",
+        "along",
+        "through",
+        "across",
+        "over"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He drives _____ work every day.",
+          "answer": "to"
+        },
+        {
+          "id": 2,
+          "sentence": "She returned _____ the hotel yesterday.",
+          "answer": "from"
+        },
+        {
+          "id": 3,
+          "sentence": "We walked _____ the park to get to the museum.",
+          "answer": "through"
+        },
+        {
+          "id": 4,
+          "sentence": "The bike path runs _____ the river.",
+          "answer": "along"
+        },
+        {
+          "id": 5,
+          "sentence": "The bridge goes _____ the street.",
+          "answer": "across"
+        }
+      ]
+    }
   }
 }

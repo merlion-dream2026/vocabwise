@@ -723,5 +723,160 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Past Simple — regular verbs (-ed)",
+    "vi_grammar_point": "Quá khứ đơn — động từ có quy tắc",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb‑ed (+ Object)",
+      "negative": "Subject + did not + Verb (base)",
+      "question": "Did + Subject + Verb (base) (+ Object)?",
+      "variant": "Subject + didn't + Verb (base)"
+    },
+    "rule_vi": "Dùng để nói về hành động đã hoàn thành trong quá khứ, thường thêm -ed vào động từ có quy tắc.",
+    "rule_en": "Use the -ed form for regular verbs to talk about finished actions in the past.",
+    "common_error": "❌ I **goed** to the park yesterday → ✅ I **went** to the park yesterday",
+    "in_context": [
+      "We **needed** a passport to enter Japan.",
+      "My mother **checked** the map before we left.",
+      "I **loved** the food, the temples, and the people."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ ở quá khứ đơn (động từ có quy tắc).",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Last weekend, I _____ a new book.",
+          "options": [
+            "watched",
+            "started",
+            "read",
+            "talked"
+          ],
+          "answer": "started"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ the picture on the wall yesterday.",
+          "options": [
+            "paint",
+            "drawn",
+            "painted",
+            "draw"
+          ],
+          "answer": "painted"
+        },
+        {
+          "id": 3,
+          "sentence": "We _____ a bus to the museum.",
+          "options": [
+            "boarded",
+            "board",
+            "took",
+            "caught"
+          ],
+          "answer": "boarded"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ his homework after dinner.",
+          "options": [
+            "finished",
+            "finishes",
+            "finish",
+            "finishing"
+          ],
+          "answer": "finished"
+        },
+        {
+          "id": 5,
+          "sentence": "The tourists _____ many photos during their trip.",
+          "options": [
+            "captured",
+            "capture",
+            "took",
+            "photographed"
+          ],
+          "answer": "captured"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "last",
+            "summer",
+            "my",
+            "family",
+            "visited"
+          ],
+          "answer": "my family visited last summer"
+        },
+        {
+          "id": 2,
+          "words": [
+            "watched",
+            "movie",
+            "the",
+            "yesterday"
+          ],
+          "answer": "watched the movie yesterday"
+        },
+        {
+          "id": 3,
+          "words": [
+            "started",
+            "project",
+            "the",
+            "on",
+            "Monday"
+          ],
+          "answer": "started the project on Monday"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "started",
+        "watched",
+        "visited",
+        "captured",
+        "boarded",
+        "bought"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I _____ the museum on Saturday.",
+          "answer": "visited"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ the match on TV last night.",
+          "answer": "watched"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ the meeting at nine o'clock.",
+          "answer": "started"
+        },
+        {
+          "id": 4,
+          "sentence": "The photographer _____ beautiful pictures of the sunrise.",
+          "answer": "captured"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ the train at the station.",
+          "answer": "boarded"
+        }
+      ]
+    }
   }
 }

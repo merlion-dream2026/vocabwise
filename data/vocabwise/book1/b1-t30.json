@@ -723,5 +723,168 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Should vs Ought to (moral advice)",
+    "vi_grammar_point": "Should vs Ought to — lời khuyên về đạo đức",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + should/ought to + base verb",
+      "negative": "Subject + should not / ought not to + base verb",
+      "question": "Should/Ought to + subject + base verb?",
+      "variant": "should (informal) can replace ought to (more formal) in giving advice"
+    },
+    "rule_vi": "Dùng should hoặc ought to để đưa ra lời khuyên, nhắc nhở về hành vi đúng đắn.",
+    "rule_en": "Use should or ought to to give moral advice or recommendations.",
+    "common_error": "❌ You ought to not go. → ✅ You ought not to go.",
+    "in_context": [
+      "A good friend **should** always be loyal — they never say bad things about you.",
+      "They **ought to** stand by you and support you even when times are very difficult.",
+      "She **should** always support me and check on me when I am sick."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If you want to be a good friend, you _____ listen to your friend's problems.",
+          "options": [
+            "must",
+            "should",
+            "could",
+            "ought to"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "When a friend is sad, you _____ offer comfort.",
+          "options": [
+            "must",
+            "ought to",
+            "may",
+            "will"
+          ],
+          "answer": "ought to"
+        },
+        {
+          "id": 3,
+          "sentence": "You _____ keep your friend's secrets.",
+          "options": [
+            "could",
+            "might",
+            "should",
+            "need"
+          ],
+          "answer": "should"
+        },
+        {
+          "id": 4,
+          "sentence": "If you accidentally hurt someone, you _____ apologise quickly.",
+          "options": [
+            "should",
+            "must",
+            "ought to",
+            "will"
+          ],
+          "answer": "ought to"
+        },
+        {
+          "id": 5,
+          "sentence": "Friends _____ be honest with each other.",
+          "options": [
+            "might",
+            "should",
+            "could",
+            "must"
+          ],
+          "answer": "should"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "She",
+            "should",
+            "support",
+            "her",
+            "friends"
+          ],
+          "answer": "She should support her friends"
+        },
+        {
+          "id": 2,
+          "words": [
+            "They",
+            "ought",
+            "to",
+            "listen",
+            "to",
+            "each",
+            "other"
+          ],
+          "answer": "They ought to listen to each other"
+        },
+        {
+          "id": 3,
+          "words": [
+            "You",
+            "should",
+            "not",
+            "forget",
+            "your",
+            "friend",
+            "when",
+            "they",
+            "are",
+            "sick"
+          ],
+          "answer": "You should not forget your friend when they are sick"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "should",
+        "ought",
+        "must",
+        "could",
+        "may",
+        "need"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "A good friend _____ be loyal.",
+          "answer": "should"
+        },
+        {
+          "id": 2,
+          "sentence": "When you see a problem, you _____ help.",
+          "answer": "ought"
+        },
+        {
+          "id": 3,
+          "sentence": "You _____ keep promises.",
+          "answer": "should"
+        },
+        {
+          "id": 4,
+          "sentence": "If you hurt someone, you _____ apologise.",
+          "answer": "ought"
+        },
+        {
+          "id": 5,
+          "sentence": "Friends _____ support each other during tough times.",
+          "answer": "should"
+        }
+      ]
+    }
   }
 }

@@ -729,5 +729,162 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Countable and uncountable nouns",
+    "vi_grammar_point": "Danh từ đếm được và không đếm được",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + (a/an) + CountableNoun / Subject + Verb + some/much + UncountableNoun",
+      "negative": "Subject + do/does not + Verb + (any) + CountableNoun / Subject + do/does not + Verb + any + UncountableNoun",
+      "question": "Do/Does + Subject + Verb + (any) + CountableNoun? / How much/many + UncountableNoun?",
+      "variant": "There is/are + CountableNoun / There is/are + UncountableNoun"
+    },
+    "rule_vi": "Đối với danh từ đếm được dùng a/an, many, few; đối với danh từ không đếm được dùng some, much, little.",
+    "rule_en": "Use many/few with countable nouns and much/little with uncountable nouns.",
+    "common_error": "❌ She has many informations.  →  ✅ She has much information.",
+    "in_context": [
+      "She buys **vegetables**, **fruit**, and sometimes **meat** for our meals.",
+      "My mother drinks a **glass** of **water** before she starts cooking.",
+      "I always ask for **more** **rice**."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I need _____ sugar.",
+          "options": [
+            "many",
+            "some",
+            "a",
+            "few"
+          ],
+          "answer": "some"
+        },
+        {
+          "id": 2,
+          "sentence": "There are _____ apples on the table.",
+          "options": [
+            "much",
+            "few",
+            "many",
+            "little"
+          ],
+          "answer": "many"
+        },
+        {
+          "id": 3,
+          "sentence": "She doesn't have _____ rice.",
+          "options": [
+            "any",
+            "many",
+            "a",
+            "few"
+          ],
+          "answer": "any"
+        },
+        {
+          "id": 4,
+          "sentence": "We bought _____ bread.",
+          "options": [
+            "many",
+            "some",
+            "few",
+            "much"
+          ],
+          "answer": "some"
+        },
+        {
+          "id": 5,
+          "sentence": "How _____ water do you need?",
+          "options": [
+            "few",
+            "much",
+            "many",
+            "little"
+          ],
+          "answer": "much"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "many",
+            "books",
+            "are",
+            "on",
+            "the",
+            "shelf"
+          ],
+          "answer": "many books are on the shelf"
+        },
+        {
+          "id": 2,
+          "words": [
+            "some",
+            "milk",
+            "is",
+            "in",
+            "the",
+            "glass"
+          ],
+          "answer": "some milk is in the glass"
+        },
+        {
+          "id": 3,
+          "words": [
+            "a",
+            "banana",
+            "is",
+            "yellow"
+          ],
+          "answer": "a banana is yellow"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "some",
+        "many",
+        "any",
+        "much",
+        "few",
+        "a"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Can I have _____ water, please?",
+          "answer": "some"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ apples are on the table.",
+          "answer": "many"
+        },
+        {
+          "id": 3,
+          "sentence": "There isn't _____ sugar left.",
+          "answer": "any"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ rice is cooked.",
+          "answer": "much"
+        },
+        {
+          "id": 5,
+          "sentence": "I bought _____ bananas.",
+          "answer": "few"
+        }
+      ]
+    }
   }
 }

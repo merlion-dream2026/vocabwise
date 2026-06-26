@@ -661,5 +661,166 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Articles (a / an / the / zero article)",
+    "vi_grammar_point": "Mạo từ a / an / the và mạo từ zero",
+    "level": "A1",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + a/an/the + Noun + Verb",
+      "negative": "Subject + Verb + (no article) + Noun",
+      "question": "Is/Are + Subject + a/an/the + Noun?",
+      "variant": "Subject + the + adjective + Noun + Verb"
+    },
+    "rule_vi": "Dùng a/an cho danh từ đếm số ít chưa xác định; dùng the cho danh từ đã được nhắc tới hoặc duy nhất; không dùng mạo từ (zero) cho danh từ không đếm được, số nhiều chung, và các danh từ chung chung.",
+    "rule_en": "Use a/an for an unspecified singular countable noun, the for a specific or previously mentioned noun, and zero article for uncountable or plural nouns used generally.",
+    "common_error": "❌ I saw **the** dog in park. → ✅ I saw **a** dog in the park.",
+    "in_context": [
+      "Every Sunday morning, I go to **the** park near my house.",
+      "It is **a** beautiful open space full of trees and grass.",
+      "Children play around **the** fountain in the middle of the park."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn mạo từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She bought _____ apple from the market.",
+          "options": [
+            "the",
+            "a",
+            "some",
+            "an"
+          ],
+          "answer": "an"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ birds are singing in the trees.",
+          "options": [
+            "Some",
+            "The",
+            "A",
+            "An"
+          ],
+          "answer": "The"
+        },
+        {
+          "id": 3,
+          "sentence": "He is reading _____ book about parks.",
+          "options": [
+            "the",
+            "some",
+            "a",
+            "an"
+          ],
+          "answer": "a"
+        },
+        {
+          "id": 4,
+          "sentence": "We need _____ water for the plants.",
+          "options": [
+            "some",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer": "some"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ park near my school is very big.",
+          "options": [
+            "An",
+            "The",
+            "A",
+            "Some"
+          ],
+          "answer": "The"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "park",
+            "the",
+            "is",
+            "beautiful"
+          ],
+          "answer": "The park is beautiful"
+        },
+        {
+          "id": 2,
+          "words": [
+            "birds",
+            "the",
+            "are",
+            "flying",
+            "in",
+            "the",
+            "sky"
+          ],
+          "answer": "The birds are flying in the sky"
+        },
+        {
+          "id": 3,
+          "words": [
+            "I",
+            "sit",
+            "under",
+            "the",
+            "shade",
+            "of",
+            "a",
+            "big",
+            "tree"
+          ],
+          "answer": "I sit under the shade of a big tree"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền mạo từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "a",
+        "an",
+        "the",
+        "some",
+        "any",
+        "zero"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ park near my house is quiet.",
+          "answer": "the"
+        },
+        {
+          "id": 2,
+          "sentence": "I would like _____ apple.",
+          "answer": "an"
+        },
+        {
+          "id": 3,
+          "sentence": "There is _____ fountain in the middle of the garden.",
+          "answer": "a"
+        },
+        {
+          "id": 4,
+          "sentence": "Do you have _____ water?",
+          "answer": "any"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ trees provide shade.",
+          "answer": "the"
+        }
+      ]
+    }
   }
 }

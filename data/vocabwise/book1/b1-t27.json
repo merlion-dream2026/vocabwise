@@ -658,5 +658,156 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Past Simple — irregular verbs",
+    "vi_grammar_point": "Quá khứ đơn — động từ bất quy tắc",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb(past) + Object/Complement",
+      "negative": "Subject + did not + base verb + Object/Complement",
+      "question": "Did + Subject + base verb + Object/Complement?",
+      "variant": "Subject + was/were + complement"
+    },
+    "rule_vi": "Dùng để nói về hành động đã xảy ra và kết thúc trong quá khứ, đặc biệt là các động từ bất quy tắc.",
+    "rule_en": "Use the past simple of irregular verbs to talk about completed actions in the past.",
+    "common_error": "❌ We **goed** to the party.  →  ✅ We **went** to the party.",
+    "in_context": [
+      "Last weekend **was** my little sister's birthday.",
+      "We all **sang** the birthday song and then my sister **blew** out every candle in one breath.",
+      "We **took** many photos to keep the memories."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Yesterday, I _____ to the market.",
+          "options": [
+            "went",
+            "goed",
+            "gone",
+            "go"
+          ],
+          "answer": "went"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ a beautiful dress for the concert.",
+          "options": [
+            "wore",
+            "worn",
+            "wears",
+            "wear"
+          ],
+          "answer": "wore"
+        },
+        {
+          "id": 3,
+          "sentence": "They _____ the game after a long break.",
+          "options": [
+            "begun",
+            "begin",
+            "begins",
+            "began"
+          ],
+          "answer": "began"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ his keys on the table.",
+          "options": [
+            "loses",
+            "lost",
+            "lose",
+            "losted"
+          ],
+          "answer": "lost"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ a lot of fun at the party.",
+          "options": [
+            "had",
+            "having",
+            "has",
+            "have"
+          ],
+          "answer": "had"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "letter",
+            "a",
+            "She",
+            "wrote"
+          ],
+          "answer": "She wrote a letter"
+        },
+        {
+          "id": 2,
+          "words": [
+            "pizza",
+            "ate",
+            "They"
+          ],
+          "answer": "They ate pizza"
+        },
+        {
+          "id": 3,
+          "words": [
+            "fast",
+            "ran",
+            "He"
+          ],
+          "answer": "He ran fast"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "went",
+        "wrote",
+        "saw",
+        "bought",
+        "met",
+        "run"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Last summer we _____ to the beach.",
+          "answer": "went"
+        },
+        {
+          "id": 2,
+          "sentence": "She _____ a postcard to her friend.",
+          "answer": "wrote"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ a movie yesterday.",
+          "answer": "saw"
+        },
+        {
+          "id": 4,
+          "sentence": "He _____ a new bike last week.",
+          "answer": "bought"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ our teacher after school.",
+          "answer": "met"
+        }
+      ]
+    }
   }
 }

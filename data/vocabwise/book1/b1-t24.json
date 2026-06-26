@@ -658,5 +658,162 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Plural nouns — regular and irregular",
+    "vi_grammar_point": "Danh từ số nhiều — có quy tắc và bất quy tắc",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb",
+      "negative": "Subject + do/does not + Verb",
+      "question": "Do + Subject + Verb?",
+      "variant": "There are + plural noun"
+    },
+    "rule_vi": "Danh từ số nhiều được dùng khi nói về hai hoặc nhiều hơn một người, vật, hoặc khái niệm.",
+    "rule_en": "Plural nouns are used to refer to more than one person, thing, or idea.",
+    "common_error": "❌ My brothers is coming.  →  ✅ My brothers are coming.",
+    "in_context": [
+      "I live with my **parents** and my two **siblings** — one older sister and one younger brother.",
+      "Every weekend, we visit my **grandparents**.",
+      "On special holidays, all our **relatives** come to visit — uncles, aunts, and **cousins** of all ages from different cities."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "My _____ are coming to dinner tonight.",
+          "options": [
+            "children",
+            "child",
+            "children",
+            "parents"
+          ],
+          "answer": "parents"
+        },
+        {
+          "id": 2,
+          "sentence": "She has three _____ in her class.",
+          "options": [
+            "friends",
+            "friends",
+            "teacher",
+            "teachers"
+          ],
+          "answer": "friends"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ were laughing loudly.",
+          "options": [
+            "children",
+            "childs",
+            "child",
+            "kids"
+          ],
+          "answer": "children"
+        },
+        {
+          "id": 4,
+          "sentence": "We bought two _____ for the garden.",
+          "options": [
+            "trees",
+            "flower",
+            "tree",
+            "flowers"
+          ],
+          "answer": "flowers"
+        },
+        {
+          "id": 5,
+          "sentence": "My _____ live in different countries.",
+          "options": [
+            "cousins",
+            "cousin",
+            "uncle",
+            "aunt"
+          ],
+          "answer": "cousins"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "parents",
+            "My",
+            "traveling",
+            "love"
+          ],
+          "answer": "My parents love traveling"
+        },
+        {
+          "id": 2,
+          "words": [
+            "children",
+            "the",
+            "park",
+            "in",
+            "are",
+            "playing"
+          ],
+          "answer": "The children are playing in the park"
+        },
+        {
+          "id": 3,
+          "words": [
+            "cousins",
+            "my",
+            "from",
+            "different",
+            "cities",
+            "are"
+          ],
+          "answer": "My cousins are from different cities"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền danh từ số nhiều thích hợp vào chỗ trống.",
+      "word_bank": [
+        "parents",
+        "siblings",
+        "grandparents",
+        "relatives",
+        "cousins",
+        "animals"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "During holidays, my _____ visit us often.",
+          "answer": "parents"
+        },
+        {
+          "id": 2,
+          "sentence": "I have two _____ who study at university.",
+          "answer": "siblings"
+        },
+        {
+          "id": 3,
+          "sentence": "The _____ told us stories about their youth.",
+          "answer": "grandparents"
+        },
+        {
+          "id": 4,
+          "sentence": "All our _____ gathered for the reunion.",
+          "answer": "relatives"
+        },
+        {
+          "id": 5,
+          "sentence": "My _____ live in Hanoi and Ho Chi Minh City.",
+          "answer": "cousins"
+        }
+      ]
+    }
   }
 }
