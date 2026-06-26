@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation'
+import fs from 'fs'
+import path from 'path'
 import { supabase } from '@/lib/supabaseServer'
 import TopicViewer from '@/components/vocabwise/TopicViewer'
 import type { TopicData } from '@/components/vocabwise/TopicViewer'
@@ -82,6 +84,19 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
     })),
     exercises: exercisesData,
     answer_key: answerKey,
+    grammar_spotlight: loadGrammarSpotlight(topicId),
+  }
+}
+
+function loadGrammarSpotlight(topicId: string) {
+  try {
+    const bookNum = topicId.match(/^b(\d)/)?.[1]
+    if (!bookNum) return undefined
+    const jsonPath = path.join(process.cwd(), 'data', 'vocabwise', `book${bookNum}`, `${topicId}.json`)
+    const raw = fs.readFileSync(jsonPath, 'utf-8')
+    return JSON.parse(raw).grammar_spotlight ?? undefined
+  } catch {
+    return undefined
   }
 }
 
