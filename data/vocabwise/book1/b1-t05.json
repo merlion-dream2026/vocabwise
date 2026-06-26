@@ -884,28 +884,30 @@
     },
     "usage_notes": [
       {
-        "text": "Trật tự tính từ phải được tuân thủ để tránh nhầm lẫn về đặc điểm của danh từ.",
+        "text": "Thứ tự chuẩn: kích thước → màu sắc → chất liệu; đảo thứ tự này sẽ nghe rất không tự nhiên.",
         "examples": [
-          "❌ big red car → ✅ red big car"
+          "❌ red big car → ✅ big red car (kích thước trước màu sắc)",
+          "❌ cotton blue shirt → ✅ blue cotton shirt (màu sắc trước chất liệu)"
         ]
       },
       {
-        "text": "Quy tắc này áp dụng cho cả danh từ cụ thể và danh từ chung.",
+        "text": "Khi có nhiều tính từ, tuân thủ đúng thứ tự: size → colour → material.",
         "examples": [
-          "a small white dog",
-          "big blue cars"
+          "✅ a small white cotton dress",
+          "✅ a large black leather bag"
         ]
       },
       {
-        "text": "Một số tính từ có thể được sử dụng cùng nhau, nhưng vẫn phải tuân thủ thứ tự kích thước, màu sắc, chất liệu.",
+        "text": "Trật tự đầy đủ trong tiếng Anh: opinion → size → age → colour → origin → material. Ở A1 cần nhớ: size trước colour, colour trước material.",
         "examples": [
-          "a large black leather bag"
+          "✅ a beautiful small old red Chinese wooden box"
         ]
       },
       {
-        "text": "Lưu ý rằng một số tính từ có thể có nghĩa khác nhau tùy thuộc vào vị trí của chúng trong câu.",
+        "text": "Tính từ chỉ ý kiến (beautiful, nice, ugly...) luôn đứng đầu tiên, trước tất cả các loại khác.",
         "examples": [
-          "a beautiful big house → a big beautiful house"
+          "❌ a red nice dress → ✅ a nice red dress",
+          "❌ a wooden old ugly box → ✅ an ugly old wooden box"
         ]
       }
     ],

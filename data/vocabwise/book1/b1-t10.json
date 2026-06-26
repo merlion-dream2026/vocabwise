@@ -836,9 +836,10 @@
         ]
       },
       {
-        "text": "So với tiếng Việt, tiếng Anh không có dạng “hiện tại” riêng; vì vậy cần dùng hiện tại đơn cho hành động lặp lại hoặc thói quen, còn tiếng Việt thường dùng cùng một thời gian cho quá khứ và hiện tại.",
+        "text": "Tiếng Việt không chia động từ theo thời — người học hay dùng động từ nguyên mẫu cho quá khứ; trong tiếng Anh phải dùng past simple.",
         "examples": [
-          "❌ Yesterday I go to school every day → ✅ I go to school every day."
+          "❌ Yesterday I go to school. → ✅ Yesterday I went to school.",
+          "❌ Last week she eat pizza. → ✅ Last week she ate pizza."
         ]
       }
     ],

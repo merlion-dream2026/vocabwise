@@ -888,28 +888,31 @@
     },
     "usage_notes": [
       {
-        "text": "Danh từ đếm được thường đi kèm với các từ chỉ lượng như a, an, many, few, trong khi danh từ không đếm được đi kèm với các từ như some, much, little.",
+        "text": "Danh từ đếm được dùng a/an, many, few; danh từ không đếm được dùng some, much, little — không dùng a/an.",
         "examples": [
-          "❌ I eat a water → ✅ I drink some water"
+          "❌ I have a water → ✅ I have some water",
+          "❌ She gave me an advice → ✅ She gave me some advice"
         ]
       },
       {
-        "text": "Danh từ đếm được có thể sử dụng số nhiều, nhưng danh từ không đếm được không có số nhiều.",
+        "text": "Danh từ đếm được có số nhiều; danh từ không đếm được không có số nhiều và không đi với số đếm trực tiếp.",
         "examples": [
           "✅ two apples",
           "❌ two waters → ✅ two glasses of water"
         ]
       },
       {
-        "text": "Một số danh từ có thể là cả đếm được và không đếm được, tùy thuộc vào cách sử dụng.",
+        "text": "Một số danh từ không đếm được hay bị nhầm: news, information, advice, luggage, money, furniture.",
         "examples": [
-          "✅ a hair → ✅ some hair"
+          "❌ many informations → ✅ much information",
+          "❌ two advices → ✅ two pieces of advice"
         ]
       },
       {
-        "text": "Learners cần lưu ý về sự khác biệt giữa tiếng Anh và tiếng Việt về danh từ đếm được và không đếm được.",
+        "text": "Nhiều danh từ vật chất không đếm được trong tiếng Anh; dùng \"đơn vị + of\" để chỉ số lượng.",
         "examples": [
-          "✅ rice là không đếm được trong tiếng Anh, nhưng 'gạo' là đếm được trong tiếng Việt"
+          "❌ two rices → ✅ two bowls of rice",
+          "❌ three breads → ✅ three loaves of bread"
         ]
       }
     ],

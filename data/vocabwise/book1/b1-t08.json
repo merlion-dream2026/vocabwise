@@ -734,11 +734,11 @@
     "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
     "form": {
       "positive": "Subject + verb (like / love / enjoy / hate) + V‑ing",
-      "negative": "Subject + verb (like / love / enjoy / hate) + not + V‑ing",
+      "negative": "Subject + do/does + not + verb (like / love / enjoy / hate) + V‑ing",
       "question": "Do/Does + subject + verb (like / love / enjoy / hate) + V‑ing?",
-      "variant": "verb + to + infinitive (optional)"
+      "variant": "like / love / hate + to‑infinitive (cũng đúng, nghĩa không đổi)"
     },
-    "rule_vi": "Động từ like, love, enjoy, hate thường được theo sau bởi dạng V‑ing (gerund). Dạng V‑ing ở đây hoạt động như một danh từ, chỉ một hành động chung mà người nói thích hoặc không thích. Cấu trúc cơ bản: Chủ ngữ + động từ (like/love/enjoy/hate) + V‑ing. Dùng để diễn tả sở thích, thói quen hoặc cảm xúc hiện tại.",
+    "rule_vi": "Động từ like, love, enjoy, hate thường được theo sau bởi dạng V‑ing (gerund). Dạng V‑ing hoạt động như một danh từ, chỉ hành động chung mà người nói thích hoặc không thích. Lưu ý quan trọng: enjoy, mind, avoid, finish bắt buộc dùng V‑ing; trong khi like và love có thể dùng cả V‑ing lẫn to‑infinitive mà nghĩa không đổi đáng kể. Câu phủ định: do/does + not + like/love/enjoy/hate + V‑ing (không phải “like not V‑ing”).",
     "rule_en": "We use like/love/enjoy/hate + V‑ing to talk about activities we enjoy or dislike.",
     "common_error": "❌ I enjoy to listen to music → ✅ I enjoy listening to music",
     "in_context": [
@@ -882,28 +882,30 @@
     },
     "usage_notes": [
       {
-        "text": "Dạng V‑ing phải đứng ngay sau động từ like/love/enjoy/hate; không được chèn bất kỳ từ nào khác.",
+        "text": "Enjoy, mind, avoid, finish bắt buộc dùng V‑ing, không dùng to‑infinitive.",
         "examples": [
-          "❌ I love to draw animals → ✅ I love drawing animals"
+          "❌ I enjoy to listen to music → ✅ I enjoy listening to music",
+          "❌ I avoid to eat junk food → ✅ I avoid eating junk food"
         ]
       },
       {
-        "text": "Sau các động từ này, dạng V‑ing (gerund) là hình thức chuẩn; dùng infinitive (to + V) thường không tự nhiên hoặc thay đổi nghĩa.",
+        "text": "Like và love có thể dùng cả V‑ing lẫn to‑infinitive mà nghĩa không thay đổi đáng kể.",
         "examples": [
-          "❌ I enjoy to listen to music → ✅ I enjoy listening to music"
+          "✅ I love drawing animals. / ✅ I love to draw animals. (cả hai đều đúng)",
+          "✅ She likes swimming. / ✅ She likes to swim. (cả hai đều đúng)"
         ]
       },
       {
-        "text": "Gerund không có chủ ngữ riêng; nó chỉ mô tả hành động chung, vì vậy không thể thêm “that” hoặc một chủ ngữ khác sau nó.",
+        "text": "Câu phủ định dùng don't/doesn't trước động từ, không chèn “not” giữa động từ và V‑ing.",
         "examples": [
-          "✅ I hate cleaning the dishes",
-          "❌ I hate that I clean the dishes"
+          "❌ I hate not going → ✅ I don't hate going (nghĩa khác nhau)",
+          "✅ I don't enjoy cooking. / She doesn't like waking up early."
         ]
       },
       {
-        "text": "Cấu trúc này dùng cho các hoạt động, không dùng cho các danh từ không phải hành động.",
+        "text": "Gerund (V‑ing) hoạt động như danh từ — không thêm “the” trước gerund chỉ hành động chung.",
         "examples": [
-          "✅ I love swimming",
+          "✅ I love swimming. (hành động chung)",
           "❌ I love the swimming"
         ]
       }

@@ -677,14 +677,14 @@
     "level": "A1",
     "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
     "form": {
-      "positive": "Subject + adverb + Verb (base form)",
-      "negative": "Subject + do/does + not + Verb (adverb after not)",
-      "question": "Do/Does + subject + adverb + Verb?",
-      "variant": "Subject + Verb + adverb (adverb placed after the main verb)"
+      "positive": "Subject + adverb + main verb",
+      "negative": "Subject + do/does + not + adverb + main verb",
+      "question": "Do/Does + subject + adverb + main verb?",
+      "variant": "Subject + be + adverb + adjective/noun  (sau \"be\": adverb đứng SAU)"
     },
-    "rule_vi": "Trạng từ tần suất là những từ chỉ mức độ thường xuyên của một hành động, bao gồm always, usually, often, sometimes và never. Những trạng từ này thường được sử dụng để mô tả thói quen hoặc hành vi lặp đi lặp lại của một người hoặc một sự việc. Trong câu, trạng từ tần suất thường đứng trước động từ chính, trừ khi có trợ động từ hoặc trong câu phủ định. Việc sử dụng trạng từ tần suất giúp người nói hoặc người viết thể hiện mức độ thường xuyên của một hành động một cách rõ ràng và chính xác.",
+    "rule_vi": "Trạng từ tần suất (always, usually, often, sometimes, rarely, never) diễn tả mức độ thường xuyên của một hành động. Quy tắc vị trí: đứng TRƯỚC động từ thường nhưng đứng SAU động từ \"be\". Trong câu phủ định và câu hỏi, trạng từ tần suất vẫn giữ nguyên vị trí trước động từ chính (sau do/does). Thứ tự tần suất: always (100%) → usually → often → sometimes → rarely → never (0%).",
     "rule_en": "Frequency adverbs are placed before the main verb in affirmative sentences, after 'do/does not' in negatives, and after the auxiliary in questions.",
-    "common_error": "❌ She always not goes to school.  →  ✅ She never goes to school.",
+    "common_error": "❌ She always not goes to school.  →  ✅ She doesn't always go to school.",
     "in_context": [
       "My mother **always** cooks a warm and simple meal for all of us.",
       "I **usually** go to sleep before nine o'clock.",
@@ -831,28 +831,30 @@
     },
     "usage_notes": [
       {
-        "text": "Trạng từ tần suất thường được đặt trước động từ chính trong câu",
+        "text": "Trạng từ tần suất đứng TRƯỚC động từ thường (main verb), sau trợ động từ (do/does/did).",
         "examples": [
-          "I always eat breakfast → ✅"
+          "✅ I always eat breakfast. / She usually walks to school.",
+          "❌ I eat always breakfast → ✅ I always eat breakfast"
         ]
       },
       {
-        "text": "Tuy nhiên, trong câu phủ định, trạng từ tần suất được đặt sau không",
+        "text": "Sau động từ \"be\", trạng từ tần suất đứng SAU \"be\", không đứng trước.",
         "examples": [
-          "I never eat breakfast → ✅",
-          "❌ I no never eat breakfast"
+          "✅ She is always happy. / They are often late.",
+          "❌ She always is happy → ✅ She is always happy"
         ]
       },
       {
-        "text": "Trạng từ tần suất cũng có thể được sử dụng để mô tả thói quen của người khác",
+        "text": "Thứ tự tần suất từ cao đến thấp: always → usually → often → sometimes → rarely → never.",
         "examples": [
-          "My mother usually cooks dinner → ✅"
+          "✅ He sometimes forgets his homework. / She rarely eats fast food."
         ]
       },
       {
-        "text": "Lưu ý không sử dụng trạng từ tần suất với động từ.to be",
+        "text": "Không dùng hai từ phủ định cùng lúc với \"never\"; \"never\" đã là phủ định rồi.",
         "examples": [
-          "❌ I always am happy → ✅ I am always happy"
+          "❌ I don't never eat meat → ✅ I never eat meat",
+          "❌ She doesn't never go → ✅ She never goes"
         ]
       }
     ],

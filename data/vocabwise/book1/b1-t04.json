@@ -850,27 +850,31 @@
     },
     "usage_notes": [
       {
-        "text": "Tính từ so sánh hơn thường được sử dụng trong câu để thể hiện sự khác biệt giữa hai đối tượng.",
+        "text": "Tính từ ngắn (1 âm tiết) thêm -er; nếu kết thúc bằng phụ âm đơn sau nguyên âm đơn, nhân đôi phụ âm cuối.",
         "examples": [
-          "❌ big → ✅ bigger"
+          "❌ big + er → ✅ bigger (g nhân đôi)",
+          "✅ tall → taller · old → older (không nhân đôi)"
         ]
       },
       {
-        "text": "Với tính từ ngắn có hơn một âm tiết, thường sử dụng 'more' trước tính từ.",
+        "text": "Tính từ dài (2 âm tiết trở lên) dùng \"more\" trước tính từ, không thêm -er.",
         "examples": [
-          "✅ more beautiful"
+          "❌ beautifuler → ✅ more beautiful",
+          "❌ expensiver → ✅ more expensive"
         ]
       },
       {
-        "text": "Lưu ý không sử dụng '-er' và 'more' cùng lúc với một tính từ.",
+        "text": "Không dùng '-er' và 'more' cùng lúc với một tính từ.",
         "examples": [
-          "❌ more bigger → ✅ bigger"
+          "❌ more bigger → ✅ bigger",
+          "❌ more taller → ✅ taller"
         ]
       },
       {
-        "text": "Tính từ so sánh hơn cũng có thể được sử dụng để thể hiện sự tăng dần hoặc giảm dần của một đặc điểm.",
+        "text": "Một số tính từ bất quy tắc: good → better · bad → worse · far → farther/further.",
         "examples": [
-          "✅ more expensive than"
+          "❌ more good → ✅ better",
+          "❌ more bad → ✅ worse"
         ]
       }
     ],

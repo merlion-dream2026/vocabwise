@@ -739,7 +739,7 @@
       "positive": "my / your / his / her / its / our / their + noun",
       "variant": "noun + 's + noun  →  my sister's room"
     },
-    "rule_vi": "Sở hữu cách và tính từ sở hữu là cách dùng để chỉ sự thuộc về của một người hoặc một vật. Chúng ta dùng tính từ sở hữu như my, your, his, her, its, our, their để chỉ sự thuộc về của một người hoặc một vật. Vị trí của tính từ sở hữu thường đứng trước danh từ, và chúng ta cũng có thể dùng 's sau danh từ chỉ người hoặc vật để biểu thị sở hữu. Việc sử dụng sở hữu cách và tính từ sở hữu giúp chúng ta thể hiện rõ mối quan hệ giữa các sự vật và người trong câu, và cũng giúp tránh sự nhầm lẫn khi mô tả các mối quan hệ này.",
+    "rule_vi": "Tiếng Anh có hai cách diễn đạt sở hữu chính: (1) tính từ sở hữu (my, your, his, her, its, our, their) đứng trước danh từ; (2) sở hữu cách danh từ + 's dùng cho người hoặc vật. Tính từ sở hữu không thay đổi theo giới tính hay số nhiều của vật được sở hữu — chỉ thay đổi theo chủ sở hữu. Ví dụ: \"his sister\" (chị của anh ấy) — \"his\" không đổi dù sister là nữ. Lưu ý: tính từ sở hữu (my, your...) khác với đại từ sở hữu (mine, yours...) — đại từ sở hữu đứng độc lập, không kèm danh từ.",
     "rule_en": "Use possessive adjectives before a noun, or add 's after a noun, to show ownership or belonging.",
     "common_error": "❌ the room of my sister  →  ✅ my sister's room",
     "in_context": [
@@ -887,30 +887,30 @@
     },
     "usage_notes": [
       {
-        "text": "Tính từ sở hữu thường được đặt trước danh từ để chỉ sự thuộc về.",
+        "text": "Tính từ sở hữu (my, your, his, her...) luôn đứng TRƯỚC danh từ; không dùng đại từ nhân xưng tân ngữ (me, him, her...) thay thế.",
         "examples": [
-          "my book → ✅ sách của tôi",
-          "❌ me book → ✅ my book"
+          "❌ me book → ✅ my book",
+          "❌ him car → ✅ his car"
         ]
       },
       {
-        "text": "Sử dụng 's để biểu thị sở hữu với danh từ số ít và một số danh từ số nhiều không có 's.",
+        "text": "Dùng noun + 's cho sở hữu cách số ít; danh từ số nhiều đã có -s thì chỉ thêm dấu phẩy (').",
         "examples": [
-          "cat's → ✅ của con mèo",
-          "❌ cats → ✅ của những con mèo"
+          "❌ the room of my sister → ✅ my sister's room",
+          "❌ the dogs toys → ✅ the dogs' toys"
         ]
       },
       {
-        "text": "Lưu ý sự khác biệt giữa sở hữu cách và tính từ sở hữu, ví dụ 'a friend of mine' và 'my friend'.",
+        "text": "Phân biệt tính từ sở hữu (my, your...) với đại từ sở hữu (mine, yours...) — đại từ sở hữu đứng độc lập, không kèm danh từ.",
         "examples": [
           "❌ a friend of my → ✅ a friend of mine",
-          "my friend → ✅ bạn của tôi"
+          "✅ This is my book. / This book is mine."
         ]
       },
       {
-        "text": "Chú ý đến việc sử dụng sở hữu cách với các danh từ không thể số, ví dụ 'the sun's rays'.",
+        "text": "'s cũng dùng được với vật thể hoặc thời gian (không chỉ riêng người).",
         "examples": [
-          "the sun's rays → ✅ tia nắng của mặt trời"
+          "✅ today's news · yesterday's meeting · the sun's rays"
         ]
       }
     ],

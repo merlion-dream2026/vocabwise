@@ -15,20 +15,20 @@
 ```
 
 ### Giải thích
-Sở hữu cách và tính từ sở hữu là cách dùng để chỉ sự thuộc về của một người hoặc một vật. Chúng ta dùng tính từ sở hữu như my, your, his, her, its, our, their để chỉ sự thuộc về của một người hoặc một vật. Vị trí của tính từ sở hữu thường đứng trước danh từ, và chúng ta cũng có thể dùng 's sau danh từ chỉ người hoặc vật để biểu thị sở hữu. Việc sử dụng sở hữu cách và tính từ sở hữu giúp chúng ta thể hiện rõ mối quan hệ giữa các sự vật và người trong câu, và cũng giúp tránh sự nhầm lẫn khi mô tả các mối quan hệ này.
+Tiếng Anh có hai cách diễn đạt sở hữu chính: (1) tính từ sở hữu (my, your, his, her, its, our, their) đứng trước danh từ; (2) sở hữu cách danh từ + 's dùng cho người hoặc vật. Tính từ sở hữu không thay đổi theo giới tính hay số nhiều của vật được sở hữu — chỉ thay đổi theo chủ sở hữu. Ví dụ: "his sister" (chị của anh ấy) — "his" không đổi dù sister là nữ. Lưu ý: tính từ sở hữu (my, your...) khác với đại từ sở hữu (mine, yours...) — đại từ sở hữu đứng độc lập, không kèm danh từ.
 
 ### Lưu ý
-1. Tính từ sở hữu thường được đặt trước danh từ để chỉ sự thuộc về.
-  - my book → ✅ sách của tôi
+1. Tính từ sở hữu (my, your, his, her...) luôn đứng TRƯỚC danh từ; không dùng đại từ nhân xưng tân ngữ (me, him, her...) thay thế.
   - ❌ me book → ✅ my book
-2. Sử dụng 's để biểu thị sở hữu với danh từ số ít và một số danh từ số nhiều không có 's.
-  - cat's → ✅ của con mèo
-  - ❌ cats → ✅ của những con mèo
-3. Lưu ý sự khác biệt giữa sở hữu cách và tính từ sở hữu, ví dụ 'a friend of mine' và 'my friend'.
+  - ❌ him car → ✅ his car
+2. Dùng noun + 's cho sở hữu cách số ít; danh từ số nhiều đã có -s thì chỉ thêm dấu phẩy (').
+  - ❌ the room of my sister → ✅ my sister's room
+  - ❌ the dogs toys → ✅ the dogs' toys
+3. Phân biệt tính từ sở hữu (my, your...) với đại từ sở hữu (mine, yours...) — đại từ sở hữu đứng độc lập, không kèm danh từ.
   - ❌ a friend of my → ✅ a friend of mine
-  - my friend → ✅ bạn của tôi
-4. Chú ý đến việc sử dụng sở hữu cách với các danh từ không thể số, ví dụ 'the sun's rays'.
-  - the sun's rays → ✅ tia nắng của mặt trời
+  - ✅ This is my book. / This book is mine.
+4. 's cũng dùng được với vật thể hoặc thời gian (không chỉ riêng người).
+  - ✅ today's news · yesterday's meeting · the sun's rays
 
 ### Lỗi thường gặp
 ❌ the room of my sister  →  ✅ my sister's room
@@ -50,28 +50,30 @@ Sở hữu cách và tính từ sở hữu là cách dùng để chỉ sự thu�
 
 ### Cấu trúc
 ```
-✚ Subject + adverb + Verb (base form)
-✖ Subject + do/does + not + Verb (adverb after not)
-? Do/Does + subject + adverb + Verb?
-↳ Subject + Verb + adverb (adverb placed after the main verb)
+✚ Subject + adverb + main verb
+✖ Subject + do/does + not + adverb + main verb
+? Do/Does + subject + adverb + main verb?
+↳ Subject + be + adverb + adjective/noun  (sau "be": adverb đứng SAU)
 ```
 
 ### Giải thích
-Trạng từ tần suất là những từ chỉ mức độ thường xuyên của một hành động, bao gồm always, usually, often, sometimes và never. Những trạng từ này thường được sử dụng để mô tả thói quen hoặc hành vi lặp đi lặp lại của một người hoặc một sự việc. Trong câu, trạng từ tần suất thường đứng trước động từ chính, trừ khi có trợ động từ hoặc trong câu phủ định. Việc sử dụng trạng từ tần suất giúp người nói hoặc người viết thể hiện mức độ thường xuyên của một hành động một cách rõ ràng và chính xác.
+Trạng từ tần suất (always, usually, often, sometimes, rarely, never) diễn tả mức độ thường xuyên của một hành động. Quy tắc vị trí: đứng TRƯỚC động từ thường nhưng đứng SAU động từ "be". Trong câu phủ định và câu hỏi, trạng từ tần suất vẫn giữ nguyên vị trí trước động từ chính (sau do/does). Thứ tự tần suất: always (100%) → usually → often → sometimes → rarely → never (0%).
 
 ### Lưu ý
-1. Trạng từ tần suất thường được đặt trước động từ chính trong câu
-  - I always eat breakfast → ✅
-2. Tuy nhiên, trong câu phủ định, trạng từ tần suất được đặt sau không
-  - I never eat breakfast → ✅
-  - ❌ I no never eat breakfast
-3. Trạng từ tần suất cũng có thể được sử dụng để mô tả thói quen của người khác
-  - My mother usually cooks dinner → ✅
-4. Lưu ý không sử dụng trạng từ tần suất với động từ.to be
-  - ❌ I always am happy → ✅ I am always happy
+1. Trạng từ tần suất đứng TRƯỚC động từ thường (main verb), sau trợ động từ (do/does/did).
+  - ✅ I always eat breakfast. / She usually walks to school.
+  - ❌ I eat always breakfast → ✅ I always eat breakfast
+2. Sau động từ "be", trạng từ tần suất đứng SAU "be", không đứng trước.
+  - ✅ She is always happy. / They are often late.
+  - ❌ She always is happy → ✅ She is always happy
+3. Thứ tự tần suất từ cao đến thấp: always → usually → often → sometimes → rarely → never.
+  - ✅ He sometimes forgets his homework. / She rarely eats fast food.
+4. Không dùng hai từ phủ định cùng lúc với "never"; "never" đã là phủ định rồi.
+  - ❌ I don't never eat meat → ✅ I never eat meat
+  - ❌ She doesn't never go → ✅ She never goes
 
 ### Lỗi thường gặp
-❌ She always not goes to school.  →  ✅ She never goes to school.
+❌ She always not goes to school.  →  ✅ She doesn't always go to school.
 
 ### Trong bài đọc
 - EN: My mother **always** cooks a warm and simple meal for all of us.
@@ -100,15 +102,18 @@ Trạng từ tần suất là những từ chỉ mức độ thường xuyên c�
 Danh từ đếm được và không đếm được là hai loại danh từ cơ bản trong tiếng Anh. Danh từ đếm được là những danh từ có thể đếm được, thường đi kèm với các từ như a, an, many, few, và có thể sử dụng số nhiều. Danh từ không đếm được là những danh từ không thể đếm được, thường đi kèm với các từ như some, much, little, và không có số nhiều. Để sử dụng đúng, cần xác định loại danh từ và sử dụng từ phù hợp.
 
 ### Lưu ý
-1. Danh từ đếm được thường đi kèm với các từ chỉ lượng như a, an, many, few, trong khi danh từ không đếm được đi kèm với các từ như some, much, little.
-  - ❌ I eat a water → ✅ I drink some water
-2. Danh từ đếm được có thể sử dụng số nhiều, nhưng danh từ không đếm được không có số nhiều.
+1. Danh từ đếm được dùng a/an, many, few; danh từ không đếm được dùng some, much, little — không dùng a/an.
+  - ❌ I have a water → ✅ I have some water
+  - ❌ She gave me an advice → ✅ She gave me some advice
+2. Danh từ đếm được có số nhiều; danh từ không đếm được không có số nhiều và không đi với số đếm trực tiếp.
   - ✅ two apples
   - ❌ two waters → ✅ two glasses of water
-3. Một số danh từ có thể là cả đếm được và không đếm được, tùy thuộc vào cách sử dụng.
-  - ✅ a hair → ✅ some hair
-4. Learners cần lưu ý về sự khác biệt giữa tiếng Anh và tiếng Việt về danh từ đếm được và không đếm được.
-  - ✅ rice là không đếm được trong tiếng Anh, nhưng 'gạo' là đếm được trong tiếng Việt
+3. Một số danh từ không đếm được hay bị nhầm: news, information, advice, luggage, money, furniture.
+  - ❌ many informations → ✅ much information
+  - ❌ two advices → ✅ two pieces of advice
+4. Nhiều danh từ vật chất không đếm được trong tiếng Anh; dùng "đơn vị + of" để chỉ số lượng.
+  - ❌ two rices → ✅ two bowls of rice
+  - ❌ three breads → ✅ three loaves of bread
 
 ### Lỗi thường gặp
 ❌ She has many informations.  →  ✅ She has much information.
@@ -140,14 +145,18 @@ Danh từ đếm được và không đếm được là hai loại danh từ c�
 Tính từ so sánh hơn được sử dụng để so sánh hai đối tượng khác nhau về mức độ hoặc số lượng. Cấu trúc cơ bản của tính từ so sánh hơn là 'so sánh hơn ... hơn ...', trong đó tính từ được sử dụng để mô tả sự khác biệt giữa hai đối tượng. Với tính từ ngắn, thường có thêm '-er' vào cuối, còn với tính từ dài, thường sử dụng 'more' trước tính từ. Việc sử dụng tính từ so sánh hơn giúp người nói hoặc người viết thể hiện sự so sánh một cách rõ ràng và chính xác.
 
 ### Lưu ý
-1. Tính từ so sánh hơn thường được sử dụng trong câu để thể hiện sự khác biệt giữa hai đối tượng.
-  - ❌ big → ✅ bigger
-2. Với tính từ ngắn có hơn một âm tiết, thường sử dụng 'more' trước tính từ.
-  - ✅ more beautiful
-3. Lưu ý không sử dụng '-er' và 'more' cùng lúc với một tính từ.
+1. Tính từ ngắn (1 âm tiết) thêm -er; nếu kết thúc bằng phụ âm đơn sau nguyên âm đơn, nhân đôi phụ âm cuối.
+  - ❌ big + er → ✅ bigger (g nhân đôi)
+  - ✅ tall → taller · old → older (không nhân đôi)
+2. Tính từ dài (2 âm tiết trở lên) dùng "more" trước tính từ, không thêm -er.
+  - ❌ beautifuler → ✅ more beautiful
+  - ❌ expensiver → ✅ more expensive
+3. Không dùng '-er' và 'more' cùng lúc với một tính từ.
   - ❌ more bigger → ✅ bigger
-4. Tính từ so sánh hơn cũng có thể được sử dụng để thể hiện sự tăng dần hoặc giảm dần của một đặc điểm.
-  - ✅ more expensive than
+  - ❌ more taller → ✅ taller
+4. Một số tính từ bất quy tắc: good → better · bad → worse · far → farther/further.
+  - ❌ more good → ✅ better
+  - ❌ more bad → ✅ worse
 
 ### Lỗi thường gặp
 ❌ She is more cheaper than him.  →  ✅ She is cheaper than him.
@@ -176,15 +185,17 @@ Tính từ so sánh hơn được sử dụng để so sánh hai đối tượng
 Trật tự tính từ trước danh từ là một quy tắc cơ bản trong tiếng Anh, dùng để mô tả các danh từ một cách rõ ràng và chính xác. Khi mô tả danh từ, tính từ phải đứng theo thứ tự: kích thước, màu sắc, chất liệu. Điều này giúp người nghe hoặc người đọc hiểu rõ hơn về đặc điểm của danh từ được mô tả. Quy tắc này áp dụng cho hầu hết các trường hợp mô tả danh từ trong tiếng Anh.
 
 ### Lưu ý
-1. Trật tự tính từ phải được tuân thủ để tránh nhầm lẫn về đặc điểm của danh từ.
-  - ❌ big red car → ✅ red big car
-2. Quy tắc này áp dụng cho cả danh từ cụ thể và danh từ chung.
-  - a small white dog
-  - big blue cars
-3. Một số tính từ có thể được sử dụng cùng nhau, nhưng vẫn phải tuân thủ thứ tự kích thước, màu sắc, chất liệu.
-  - a large black leather bag
-4. Lưu ý rằng một số tính từ có thể có nghĩa khác nhau tùy thuộc vào vị trí của chúng trong câu.
-  - a beautiful big house → a big beautiful house
+1. Thứ tự chuẩn: kích thước → màu sắc → chất liệu; đảo thứ tự này sẽ nghe rất không tự nhiên.
+  - ❌ red big car → ✅ big red car (kích thước trước màu sắc)
+  - ❌ cotton blue shirt → ✅ blue cotton shirt (màu sắc trước chất liệu)
+2. Khi có nhiều tính từ, tuân thủ đúng thứ tự: size → colour → material.
+  - ✅ a small white cotton dress
+  - ✅ a large black leather bag
+3. Trật tự đầy đủ trong tiếng Anh: opinion → size → age → colour → origin → material. Ở A1 cần nhớ: size trước colour, colour trước material.
+  - ✅ a beautiful small old red Chinese wooden box
+4. Tính từ chỉ ý kiến (beautiful, nice, ugly...) luôn đứng đầu tiên, trước tất cả các loại khác.
+  - ❌ a red nice dress → ✅ a nice red dress
+  - ❌ a wooden old ugly box → ✅ an ugly old wooden box
 
 ### Lỗi thường gặp
 ❌ a red small silk dress → ✅ a small red silk dress
@@ -260,8 +271,9 @@ Can / can't là động từ khuyết (modal verb) dùng để diễn đạt kh�
 2. Trong văn viết trang trọng, dùng 'cannot' thay cho 'can't'; trong giao tiếp thường dùng 'can't'.
   - ✅ I cannot lift this box.
   - ✅ I can't lift this box.
-3. Can / can't chủ yếu diễn đạt khả năng; khi muốn hỏi hoặc cho phép, dùng 'may' hoặc 'be allowed to' (trong mức A1 có thể dùng can để hỏi phép, nhưng nghĩa chính vẫn là khả năng).
-  - ❌ Can I speak English? (nghĩa hỏi phép) → ✅ I can speak English. (nghĩa khả năng)
+3. Can cũng dùng để xin phép (ở mức lịch sự thông thường); khi muốn lịch sự hơn, dùng "could" hoặc "may".
+  - ✅ Can I open the window? (xin phép)
+  - ✅ Could I use your phone? (lịch sự hơn)
 4. Không chia động từ sau can / can't; dùng dạng nguyên thể (bare infinitive) luôn.
   - ❌ She can spoke French. → ✅ She can speak French.
 
@@ -286,24 +298,26 @@ Can / can't là động từ khuyết (modal verb) dùng để diễn đạt kh�
 ### Cấu trúc
 ```
 ✚ Subject + verb (like / love / enjoy / hate) + V‑ing
-✖ Subject + verb (like / love / enjoy / hate) + not + V‑ing
+✖ Subject + do/does + not + verb (like / love / enjoy / hate) + V‑ing
 ? Do/Does + subject + verb (like / love / enjoy / hate) + V‑ing?
-↳ verb + to + infinitive (optional)
+↳ like / love / hate + to‑infinitive (cũng đúng, nghĩa không đổi)
 ```
 
 ### Giải thích
-Động từ like, love, enjoy, hate thường được theo sau bởi dạng V‑ing (gerund). Dạng V‑ing ở đây hoạt động như một danh từ, chỉ một hành động chung mà người nói thích hoặc không thích. Cấu trúc cơ bản: Chủ ngữ + động từ (like/love/enjoy/hate) + V‑ing. Dùng để diễn tả sở thích, thói quen hoặc cảm xúc hiện tại.
+Động từ like, love, enjoy, hate thường được theo sau bởi dạng V‑ing (gerund). Dạng V‑ing hoạt động như một danh từ, chỉ hành động chung mà người nói thích hoặc không thích. Lưu ý quan trọng: enjoy, mind, avoid, finish bắt buộc dùng V‑ing; trong khi like và love có thể dùng cả V‑ing lẫn to‑infinitive mà nghĩa không đổi đáng kể. Câu phủ định: do/does + not + like/love/enjoy/hate + V‑ing (không phải “like not V‑ing”).
 
 ### Lưu ý
-1. Dạng V‑ing phải đứng ngay sau động từ like/love/enjoy/hate; không được chèn bất kỳ từ nào khác.
-  - ❌ I love to draw animals → ✅ I love drawing animals
-2. Sau các động từ này, dạng V‑ing (gerund) là hình thức chuẩn; dùng infinitive (to + V) thường không tự nhiên hoặc thay đổi nghĩa.
+1. Enjoy, mind, avoid, finish bắt buộc dùng V‑ing, không dùng to‑infinitive.
   - ❌ I enjoy to listen to music → ✅ I enjoy listening to music
-3. Gerund không có chủ ngữ riêng; nó chỉ mô tả hành động chung, vì vậy không thể thêm “that” hoặc một chủ ngữ khác sau nó.
-  - ✅ I hate cleaning the dishes
-  - ❌ I hate that I clean the dishes
-4. Cấu trúc này dùng cho các hoạt động, không dùng cho các danh từ không phải hành động.
-  - ✅ I love swimming
+  - ❌ I avoid to eat junk food → ✅ I avoid eating junk food
+2. Like và love có thể dùng cả V‑ing lẫn to‑infinitive mà nghĩa không thay đổi đáng kể.
+  - ✅ I love drawing animals. / ✅ I love to draw animals. (cả hai đều đúng)
+  - ✅ She likes swimming. / ✅ She likes to swim. (cả hai đều đúng)
+3. Câu phủ định dùng don't/doesn't trước động từ, không chèn “not” giữa động từ và V‑ing.
+  - ❌ I hate not going → ✅ I don't hate going (nghĩa khác nhau)
+  - ✅ I don't enjoy cooking. / She doesn't like waking up early.
+4. Gerund (V‑ing) hoạt động như danh từ — không thêm “the” trước gerund chỉ hành động chung.
+  - ✅ I love swimming. (hành động chung)
   - ❌ I love the swimming
 
 ### Lỗi thường gặp
@@ -336,10 +350,17 @@ Can / can't là động từ khuyết (modal verb) dùng để diễn đạt kh�
 Giới từ chỉ hướng và sự di chuyển là một loại giới từ trong tiếng Anh, bao gồm 'to', 'from', 'along' và 'through', được sử dụng để chỉ hướng hoặc sự di chuyển từ nơi này đến nơi khác. Giới từ 'to' được sử dụng để chỉ hướng tới một nơi nào đó, trong khi 'from' được sử dụng để chỉ nguồn gốc hoặc điểm xuất phát. Giới từ 'along' được sử dụng để chỉ sự di chuyển dọc theo một con đường hoặc một không gian, và 'through' được sử dụng để chỉ sự di chuyển qua một không gian hoặc một vật thể. Việc sử dụng đúng loại giới từ này sẽ giúp người học tiếng Anh thể hiện rõ ràng và chính xác ý nghĩa của họ.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là 'to' và 'from' thường được sử dụng cùng với các động từ chỉ sự di chuyển như 'go', 'come', 'drive', trong khi 'along' và 'through' thường được sử dụng với các động từ chỉ sự di chuyển dọc theo hoặc qua một không gian.
-2. Người học tiếng Anh thường nhầm lẫn giữa 'to' và 'at' khi chỉ vị trí, vì vậy cần phải chú ý đến việc sử dụng đúng loại giới từ trong từng trường hợp.
-3. Trong tiếng Anh, vị trí của giới từ thường đứng sau động từ, nhưng có thể đứng trước hoặc sau danh từ tùy thuộc vào ngữ cảnh.
-4. Khi sử dụng giới từ 'through', người học cần lưu ý rằng nó có thể được sử dụng để chỉ sự di chuyển qua một không gian hoặc một vật thể, nhưng cũng có thể được sử dụng để chỉ sự di chuyển qua thời gian.
+1. 'to' chỉ điểm đến (hướng đi); 'from' chỉ điểm xuất phát; 'along' đi dọc theo; 'through' đi xuyên qua bên trong.
+  - ✅ I walk from home to school every day.
+  - ✅ She drove along the coast. / We walked through the park.
+2. 'to' (đang đi đến) khác 'at' (đang ở tại); không hoán đổi cho nhau.
+  - ❌ I am going at school → ✅ I am going to school
+  - ✅ I am at school. (đang ở trường, không di chuyển)
+3. 'into' (đi vào bên trong) và 'out of' (đi ra ngoài) cũng là giới từ chỉ hướng hay gặp.
+  - ✅ She walked into the room. / He ran out of the building.
+4. 'through' (xuyên qua không gian kín) khác 'across' (đi ngang qua bề mặt hoặc khoảng trống).
+  - ✅ We drove through the tunnel. (xuyên qua đường hầm)
+  - ✅ She swam across the river. (bơi ngang qua sông)
 
 ### Lỗi thường gặp
 ❌ She goes school.  →  ✅ She goes **to** school.
@@ -380,8 +401,9 @@ Hiện tại đơn (Simple Present) dùng để diễn tả các sự thật hi�
 3. Các trạng từ chỉ tần suất (always, usually, often, never…) đặt trước động từ chính, sau “to be”.
   - She often reads books.
   - They never eat meat.
-4. So với tiếng Việt, tiếng Anh không có dạng “hiện tại” riêng; vì vậy cần dùng hiện tại đơn cho hành động lặp lại hoặc thói quen, còn tiếng Việt thường dùng cùng một thời gian cho quá khứ và hiện tại.
-  - ❌ Yesterday I go to school every day → ✅ I go to school every day.
+4. Tiếng Việt không chia động từ theo thời — người học hay dùng động từ nguyên mẫu cho quá khứ; trong tiếng Anh phải dùng past simple.
+  - ❌ Yesterday I go to school. → ✅ Yesterday I went to school.
+  - ❌ Last week she eat pizza. → ✅ Last week she ate pizza.
 
 ### Lỗi thường gặp
 ❌ The weather **is changes** quickly. → ✅ The weather **changes** quickly.

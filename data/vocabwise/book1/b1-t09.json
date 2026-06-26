@@ -881,20 +881,31 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm quan trọng cần lưu ý là 'to' và 'from' thường được sử dụng cùng với các động từ chỉ sự di chuyển như 'go', 'come', 'drive', trong khi 'along' và 'through' thường được sử dụng với các động từ chỉ sự di chuyển dọc theo hoặc qua một không gian.",
-        "examples": []
+        "text": "'to' chỉ điểm đến (hướng đi); 'from' chỉ điểm xuất phát; 'along' đi dọc theo; 'through' đi xuyên qua bên trong.",
+        "examples": [
+          "✅ I walk from home to school every day.",
+          "✅ She drove along the coast. / We walked through the park."
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa 'to' và 'at' khi chỉ vị trí, vì vậy cần phải chú ý đến việc sử dụng đúng loại giới từ trong từng trường hợp.",
-        "examples": []
+        "text": "'to' (đang đi đến) khác 'at' (đang ở tại); không hoán đổi cho nhau.",
+        "examples": [
+          "❌ I am going at school → ✅ I am going to school",
+          "✅ I am at school. (đang ở trường, không di chuyển)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, vị trí của giới từ thường đứng sau động từ, nhưng có thể đứng trước hoặc sau danh từ tùy thuộc vào ngữ cảnh.",
-        "examples": []
+        "text": "'into' (đi vào bên trong) và 'out of' (đi ra ngoài) cũng là giới từ chỉ hướng hay gặp.",
+        "examples": [
+          "✅ She walked into the room. / He ran out of the building."
+        ]
       },
       {
-        "text": "Khi sử dụng giới từ 'through', người học cần lưu ý rằng nó có thể được sử dụng để chỉ sự di chuyển qua một không gian hoặc một vật thể, nhưng cũng có thể được sử dụng để chỉ sự di chuyển qua thời gian.",
-        "examples": []
+        "text": "'through' (xuyên qua không gian kín) khác 'across' (đi ngang qua bề mặt hoặc khoảng trống).",
+        "examples": [
+          "✅ We drove through the tunnel. (xuyên qua đường hầm)",
+          "✅ She swam across the river. (bơi ngang qua sông)"
+        ]
       }
     ],
     "in_context_vi": [
