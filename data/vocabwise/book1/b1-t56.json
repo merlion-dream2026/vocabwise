@@ -735,7 +735,7 @@
       "question": "Did + Subject + say/tell + (that) + Clause?",
       "variant": "Subject + say + to + Object + (that) + Clause"
     },
-    "rule_vi": "Dùng để truyền đạt lời nói của người khác; dùng say cho lời nói chung, tell cho người nghe cụ thể.",
+    "rule_vi": "Câu gián tiếp cơ bản với say và tell là cách truyền đạt lời nói của người khác. Khi sử dụng say, nó thường dùng để nói về lời nói chung mà không cần chỉ rõ người nghe. Ngược lại, tell thường dùng khi có người nghe cụ thể. Cấu trúc cơ bản của câu gián tiếp với say và tell là 'say/tell + that + câu lời nói' hoặc 'say/tell + người nghe + that + câu lời nói'.",
     "rule_en": "Used to report what someone said.",
     "common_error": "❌ She said she is busy → ✅ She said she was busy",
     "in_context": [
@@ -884,6 +884,17 @@
           "answer": "maybe"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Sử dụng say và tell một cách linh hoạt tùy thuộc vào ngữ cảnh và người nghe để tránh nhầm lẫn về người nói và người nghe.",
+      "Lưu ý về vị trí của từ trong câu gián tiếp, thường là 'say/tell' + 'that' + 'câu lời nói', và có thể thay đổi tùy thuộc vào mức độ trang trọng hoặc không trang trọng của câu.",
+      "Khi sử dụng tell, người nghe thường được chỉ định rõ ràng, trong khi say có thể không cần chỉ định người nghe cụ thể.",
+      "Phân biệt giữa say và tell khi dịch từ tiếng Việt sang tiếng Anh để tránh nhầm lẫn về cấu trúc và ý nghĩa."
+    ],
+    "in_context_vi": [
+      "Tôi đã nói rằng tôi sẽ đặt điện thoại ở chế độ im lặng trong cuộc họp.",
+      "Đồng nghiệp của tôi đã nói với tôi rằng tôi nên tắt mọi thông báo để tập trung.",
+      "Anh ấy đã nói rằng anh ấy sẽ kiểm tra cài đặt mạng trước khi đi nước ngoài."
+    ]
   }
 }

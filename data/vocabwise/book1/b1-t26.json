@@ -733,7 +733,7 @@
       "positive": "Noun + who/which + Verb",
       "variant": "who/which can be replaced by that in defining clauses"
     },
-    "rule_vi": "Dùng who cho người, which cho vật, để nối mệnh đề phụ vào danh từ.",
+    "rule_vi": "Mệnh đề quan hệ cơ bản với who / which dùng để nối một mệnh đề phụ vào danh từ, cung cấp thông tin thêm về người hoặc vật được đề cập. Dùng who cho người, which cho vật (vật, sự việc). Cấu trúc: danh từ + who/which + (động từ) + … . Khi mệnh đề quan hệ là thông tin không cần thiết, dùng dấu phẩy; nếu là thông tin hạn định, không dùng dấu phẩy.",
     "rule_en": "Use who for people and which for things to add information about a noun.",
     "common_error": "❌ She is the neighbour which lives next door.  →  ✅ She is the neighbour who lives next door.",
     "in_context": [
@@ -887,6 +887,37 @@
           "answer": "whom"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề quan hệ luôn đứng ngay sau danh từ mà nó mô tả; nếu đặt ở vị trí khác sẽ gây hiểu lầm.",
+        "examples": [
+          "❌ My neighbour lives next door, who always says hello → ✅ My neighbour, who lives next door, always says hello"
+        ]
+      },
+      {
+        "text": "Dùng who cho người, which cho vật; không hoán đổi chúng.",
+        "examples": [
+          "❌ The woman which sings well → ✅ The woman who sings well"
+        ]
+      },
+      {
+        "text": "Khi who/which là tân ngữ trong mệnh đề quan hệ, có thể bỏ đi (that/which/who không cần thiết).",
+        "examples": [
+          "❌ The book which I read yesterday → ✅ The book I read yesterday"
+        ]
+      },
+      {
+        "text": "Mệnh đề không hạn định (non‑restrictive) dùng dấu phẩy; mệnh đề hạn định không dùng dấu phẩy.",
+        "examples": [
+          "✅ My neighbour, who lives next door, is friendly → ❌ My neighbour who lives next door is friendly (nếu chỉ một người duy nhất)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Hàng xóm của tôi, bà Lan, sống ngay kế cửa nhà, luôn chào hỏi.",
+      "Một con chó to tiếng, sủa cả đêm, đôi khi làm phiền cư dân.",
+      "Có một hàng rào thấp, ngăn cách các ngôi nhà của chúng ta, và một khu vườn chung nhỏ."
+    ]
   }
 }

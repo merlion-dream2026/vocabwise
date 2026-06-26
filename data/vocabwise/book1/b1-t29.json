@@ -735,7 +735,7 @@
       "question": "Have/Has + subject + past participle?",
       "variant": "have/has + been + -ing (present perfect continuous)"
     },
-    "rule_vi": "Dùng để nói về một hành động đã xảy ra ở thời điểm không xác định trước hiện tại hoặc có liên quan tới hiện tại.",
+    "rule_vi": "Thì Hiện tại hoàn thành cơ bản được sử dụng để mô tả một hành động đã xảy ra ở thời điểm không xác định trước hiện tại hoặc có liên quan tới hiện tại. Cấu trúc của thì này là have/has + động từ chính ở dạng quá khứ phân từ. Chúng ta sử dụng have cho chủ ngữ số nhiều hoặc I/you/we/they, và has cho chủ ngữ số ít hoặc he/she/it. Thì này giúp người học mô tả các sự kiện đã xảy ra trong quá khứ nhưng vẫn có ảnh hưởng đến hiện tại.",
     "rule_en": "Use the present perfect to talk about actions that happened at an unspecified time before now.",
     "common_error": "❌ She have visited the museum.  →  ✅ She has visited the museum.",
     "in_context": [
@@ -881,6 +881,17 @@
           "answer": "have"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng thì Hiện tại hoàn thành không dùng để mô tả thời điểm cụ thể của hành động, mà chỉ tập trung vào kết quả của hành động đó.",
+      "Trong tiếng Anh, vị trí của trạng từ thường được đặt sau have/has, nhưng trước động từ chính.",
+      "Thì Hiện tại hoàn thành thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng thì Quá khứ đơn để mô tả các sự kiện đã xảy ra.",
+      "Người học tiếng Việt nên lưu ý rằng thì Hiện tại hoàn thành trong tiếng Anh khác với thì Quá khứ đơn trong tiếng Việt, vì nó không chỉ mô tả hành động đã xảy ra mà còn có liên quan tới hiện tại."
+    ],
+    "in_context_vi": [
+      "Hàng xóm ông An của tôi đã làm mọi người cười với những câu chuyện và trò đùa.",
+      "Giáo viên của tôi đã rất nghiêm túc và luôn im lặng.",
+      "Anh trai tôi đã trở nên khá lười biếng — anh ghét dọn phòng!"
+    ]
   }
 }

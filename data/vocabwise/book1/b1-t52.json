@@ -738,7 +738,7 @@
       "question": "Have/Has + subject + past participle + already/yet?",
       "variant": "Subject + have/has + just + past participle"
     },
-    "rule_vi": "Dùng hiện tại hoàn thành để nói một hành động vừa mới xảy ra (just), đã hoàn thành trước thời điểm nói (already), hoặc chưa xảy ra (yet).",
+    "rule_vi": "Thì hiện tại hoàn thành là một trong những thì cơ bản trong tiếng Anh, dùng để mô tả một hành động đã xảy ra trong quá khứ nhưng có liên quan đến hiện tại. Cấu trúc của thì này thường bao gồm động từ giúp đỡ 'have' hoặc 'has' và dạng quá khứ phân từ của động từ chính. Khi sử dụng 'just', 'already', 'yet' trong thì hiện tại hoàn thành, nó giúp chúng ta mô tả thời gian và trạng thái của hành động một cách cụ thể hơn. Ví dụ, 'just' dùng cho hành động vừa mới xảy ra, 'already' dùng cho hành động đã hoàn thành trước thời điểm nói, và 'yet' dùng cho hành động chưa xảy ra.",
     "rule_en": "Use the present perfect with just, already or yet to show a recent action, a completed action, or an action that has not happened yet.",
     "common_error": "❌ She have already finished her homework.  →  ✅ She has already finished her homework.",
     "in_context": [
@@ -885,6 +885,17 @@
           "answer": "never"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng 'just' thường được sử dụng để nói về một hành động vừa mới xảy ra và thường đi cùng với thời gian gần đây.",
+      "Sự khác biệt giữa 'already' và 'yet' là 'already' dùng cho hành động đã hoàn thành, trong khi 'yet' dùng cho hành động chưa xảy ra, và thường đi cùng với câu hỏi hoặc câu phủ định.",
+      "Trong tiếng Anh, vị trí của 'just', 'already', 'yet' thường nằm sau 'have' hoặc 'has' nhưng trước động từ chính, và điều này rất quan trọng để giữ cho câu có nghĩa và rõ ràng.",
+      "Người học tiếng Anh thường nhầm lẫn giữa 'already' và 'yet' do sự khác biệt về cách sử dụng và vị trí trong câu, vì vậy cần phải luyện tập và chú ý đến cách sử dụng chúng trong ngữ cảnh khác nhau."
+    ],
+    "in_context_vi": [
+      "Nhiều người vừa tạo một tài khoản trên ứng dụng mạng xã hội.",
+      "Họ đã tải lên nhiều ảnh đến hồ sơ của mình.",
+      "Một số người dùng chưa tham gia vào một nhóm nào."
+    ]
   }
 }

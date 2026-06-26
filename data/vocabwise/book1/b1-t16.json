@@ -735,7 +735,7 @@
       "question": "Am/Is/Are + Subject + Verb‑ing?",
       "variant": "Subject + be + Verb‑ing + (by) ..."
     },
-    "rule_vi": "Dùng để nói về hành động đang diễn ra ngay lúc nói.",
+    "rule_vi": "Hiện tại tiếp diễn (present continuous) dùng để nói về hành động đang diễn ra ngay lúc nói hoặc xung quanh thời điểm nói. Cấu trúc của nó là: to be (am / is / are) + động từ dạng –ing. Động từ thường thêm –ing; nếu kết thúc bằng e thì bỏ e, nếu là một phụ âm đơn cuối cùng thì gấp đôi phụ âm. Thì này còn dùng để diễn tả việc tạm thời, thay đổi, hoặc kế hoạch đã sắp xếp trong tương lai gần.",
     "rule_en": "Used for actions happening now.",
     "common_error": "❌ She is read a book.  →  ✅ She is reading a book.",
     "in_context": [
@@ -880,6 +880,31 @@
           "answer": "playing"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Không dùng thì hiện tại tiếp diễn với các động từ trạng thái (stative verbs) như know, love, belong, vì chúng mô tả trạng thái, không phải hành động đang diễn ra.",
+        "examples": [
+          "❌ I am knowing the answer → ✅ I know the answer"
+        ]
+      },
+      {
+        "text": "Dùng để nói hành động đang diễn ra ngay lúc nói, thường đi kèm các từ chỉ thời gian như now, at the moment, currently.",
+        "examples": [
+          "❌ I use my phone every day → ✅ I am using my phone right now"
+        ]
+      },
+      {
+        "text": "Có thể dùng để diễn tả kế hoạch hoặc sự sắp xếp trong tương lai gần, khi thời gian đã được xác định.",
+        "examples": [
+          "I am meeting my friend tomorrow."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi đang dùng điện thoại để nhắn tin cho bạn bè.",
+      "Mẹ tôi đang dùng bản đồ trực tuyến để tìm đường khi chúng tôi đi du lịch.",
+      "Tôi đang kết nối internet ngay bây giờ."
+    ]
   }
 }

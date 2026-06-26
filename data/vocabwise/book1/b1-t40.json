@@ -738,7 +738,7 @@
       "question": "Wh‑question + do/does + Subject + Verb + (in / on / at) + time expression?",
       "variant": "at + precise time (e.g., at 5 pm); on + days and dates (on Monday, on 1 January); in + months, years, seasons (in July, in 2023, in winter)"
     },
-    "rule_vi": "Dùng 'in' cho tháng, năm, mùa; 'on' cho ngày, ngày trong tuần; 'at' cho thời điểm cụ thể như giờ, 'the end of', 'midnight'.",
+    "rule_vi": "Giới từ chỉ thời gian là một phần quan trọng trong tiếng Anh, giúp chúng ta chỉ ra thời điểm, khoảng thời gian hoặc thời gian cụ thể. Giới từ 'in' thường được sử dụng để chỉ tháng, năm, mùa, hoặc một khoảng thời gian dài. Giới từ 'on' được sử dụng để chỉ ngày, ngày trong tuần, hoặc một sự kiện cụ thể. Giới từ 'at' được sử dụng để chỉ thời điểm cụ thể như giờ, 'the end of', 'midnight', hoặc một thời điểm nhất định.",
     "rule_en": "Use in for months/years, on for days, and at for exact times.",
     "common_error": "❌ She has class on 9am.  →  ✅ She has class at 9am.",
     "in_context": [
@@ -881,6 +881,17 @@
           "answer": "at"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm quan trọng cần lưu ý là sự khác biệt giữa 'in', 'on', và 'at' không chỉ dựa trên thời gian, mà còn dựa trên ngữ cảnh và cách sử dụng trong câu.",
+      "Khi sử dụng 'in' để chỉ khoảng thời gian dài, cần lưu ý rằng nó thường được sử dụng với các từ như 'the future', 'the past', hoặc 'the summer'.",
+      "Sự khác biệt giữa 'on' và 'at' cũng rất quan trọng, vì 'on' thường được sử dụng để chỉ ngày hoặc ngày trong tuần, trong khi 'at' được sử dụng để chỉ thời điểm cụ thể.",
+      "Một lỗi phổ biến của người học tiếng Anh là sử dụng 'in' thay cho 'on' hoặc 'at', vì vậy cần phải chú ý đến ngữ cảnh và cách sử dụng trong câu."
+    ],
+    "in_context_vi": [
+      "Vào cuối buổi học, chúng tôi xem tiến độ của mình trên một biểu đồ.",
+      "Mỗi buổi học, chúng tôi lắng nghe giáo viên vào buổi sáng và sau đó nói chuyện theo cặp.",
+      "Mỗi tuần, chúng tôi có thể lắng nghe, nói chuyện và lặp lại tốt hơn trước vào thứ Sáu."
+    ]
   }
 }

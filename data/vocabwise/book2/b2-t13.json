@@ -765,7 +765,7 @@
       "question": "If + Subject + Verb (present simple), ... ?",
       "variant": "When + Subject + Verb (present simple), Subject + Verb (present simple) [Zero]"
     },
-    "rule_vi": "Dùng loại 0 để nói về sự thật hiển nhiên; dùng loại 1 để nói về khả năng thực tế trong tương lai.",
+    "rule_vi": "Câu điều kiện loại 0 dùng để diễn tả các quy luật, sự thật hiển nhiên luôn đúng. Cấu trúc: If + hiện tại đơn, … hiện tại đơn. Câu điều kiện loại 1 nói về một tình huống có khả năng xảy ra trong tương lai và kết quả có thể xảy ra. Cấu trúc: If + hiện tại đơn, … will + động từ nguyên mẫu. Khi mệnh đề if đứng ở đầu câu, thường đặt dấu phẩy sau nó.",
     "rule_en": "Use zero conditional for general truths and first conditional for real future possibilities.",
     "common_error": "❌ If you will recycle more, the environment will be cleaner. → ✅ If you recycle more, the environment will be cleaner.",
     "in_context": [
@@ -919,6 +919,37 @@
           "answer": "drop"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong cả loại 0 và loại 1, mệnh đề if luôn dùng thì hiện tại đơn; không dùng will trong mệnh đề if.",
+        "examples": [
+          "❌ If it will rain tomorrow → ✅ If it rains tomorrow"
+        ]
+      },
+      {
+        "text": "Loại 0 chỉ nói về sự thật chung, không liên quan tới thời gian cụ thể; kết quả luôn ở thì hiện tại đơn.",
+        "examples": [
+          "If water reaches 100°C, it boils."
+        ]
+      },
+      {
+        "text": "Loại 1 diễn tả khả năng thực tế trong tương lai; kết quả thường dùng will, may, can hoặc các động từ khuyết thiếu.",
+        "examples": [
+          "If you study hard, you will pass the exam."
+        ]
+      },
+      {
+        "text": "Khi mệnh đề if đứng sau câu chính, không cần dấu phẩy giữa chúng.",
+        "examples": [
+          "You will get sick if you eat too much junk food."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu các nhà máy xả thải một cách bất cẩn, môi trường sẽ chịu thiệt hại.",
+      "Nếu chúng ta giảm lượng khí thải carbon, chúng ta sẽ giúp bảo vệ động vật hoang dã.",
+      "Nếu việc xả rác tiếp tục, các con sông sẽ bị ô nhiễm nhanh chóng."
+    ]
   }
 }

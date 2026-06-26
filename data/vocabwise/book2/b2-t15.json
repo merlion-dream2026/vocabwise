@@ -771,7 +771,7 @@
       "positive": "NP + relative pronoun (which/that/where/whose) + clause",
       "variant": "that can replace which in restrictive (defining) clauses"
     },
-    "rule_vi": "Dùng which/that để giới thiệu thông tin thêm về người hoặc vật; dùng where cho địa điểm; dùng whose cho sở hữu.",
+    "rule_vi": "Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh từ hoặc đại từ để cung cấp thông tin thêm. Dùng \"which\" hoặc \"that\" để giới thiệu mệnh đề về người hoặc vật; \"which\" thường dùng trong mệnh đề không hạn định (có dấu phẩy), còn \"that\" dùng trong mệnh đề hạn định (không có dấu phẩy). Dùng \"where\" để chỉ địa điểm, thay cho \"in/at\" + \"which\". Dùng \"whose\" để biểu thị sở hữu, thay cho \"of which\" hoặc \"of whom\". Mệnh đề quan hệ luôn đứng sau danh từ mà nó mô tả.",
     "rule_en": "Use which/that to add information about things, where for places, and whose for possession.",
     "common_error": "❌ The river which flows through the city is polluted.  →  ✅ The river that flows through the city is polluted.",
     "in_context": [
@@ -925,6 +925,41 @@
           "answer": "that"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "\"which\" dùng trong mệnh đề không hạn định (có dấu phẩy), \"that\" dùng trong mệnh đề hạn định (không có dấu phẩy).",
+        "examples": [
+          "❌ The book which I bought is expensive → ✅ The book that I bought is expensive",
+          "✅ The car, which is red, belongs to John"
+        ]
+      },
+      {
+        "text": "\"where\" chỉ địa điểm và thay thế vị trí của giới từ + \"which\"; không dùng cho người.",
+        "examples": [
+          "✅ The house where I grew up is old",
+          "❌ The person where I met him was friendly → ✅ The person whom I met was friendly"
+        ]
+      },
+      {
+        "text": "\"whose\" biểu thị sở hữu cho cả người và vật, thay cho \"of which\" hoặc \"of whom\".",
+        "examples": [
+          "✅ The scientist whose discovery changed medicine",
+          "✅ The city whose streets are narrow"
+        ]
+      },
+      {
+        "text": "Mệnh đề quan hệ hạn định không có dấu phẩy và thường không tách ra; mệnh đề không hạn định có dấu phẩy và có thể bỏ đi mà không làm mất nghĩa chính.",
+        "examples": [
+          "✅ Students who study hard pass exams",
+          "✅ Students, who study hard, pass exams (nghĩa khác)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Thiên tai là những sự kiện cực đoan do các lực lượng tự nhiên gây ra, có thể dẫn đến sự phá hủy diện rộng và thiệt hại về sinh mạng.",
+      "Cường độ của động đất được đo bằng độ lớn trên thang Richter, mà được các nhà khoa học trên toàn thế giới sử dụng.",
+      "Các cộng đồng ven biển nơi sóng thần đổ bộ thường chịu thiệt hại nặng nề."
+    ]
   }
 }

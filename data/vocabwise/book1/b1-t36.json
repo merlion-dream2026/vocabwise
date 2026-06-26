@@ -676,7 +676,7 @@
       "question": "Have/Has + subject + past participle? (e.g., Have you read?)",
       "variant": "Subject + have/has + ever + past participle; Subject + have/has + never + past participle"
     },
-    "rule_vi": "Dùng hiện tại hoàn thành để hỏi hoặc khẳng định kinh nghiệm sống, thường kèm ever (đã bao giờ) hoặc never (chưa bao giờ).",
+    "rule_vi": "Thì hiện tại hoàn thành với ever và never được sử dụng để mô tả kinh nghiệm sống hoặc các sự kiện đã xảy ra trong quá khứ nhưng có liên quan đến hiện tại. Cấu trúc này thường được sử dụng để hỏi hoặc khẳng định về việc một người đã từng làm gì hoặc chưa từng làm gì. Ever được sử dụng để hỏi về kinh nghiệm sống, trong khi never được sử dụng để khẳng định rằng một người chưa từng làm gì. Cấu trúc này bao gồm động từ chính ở dạng quá khứ phân từ và được sử dụng với ever và never để thể hiện mức độ kinh nghiệm.",
     "rule_en": "Use the present perfect to talk about life experiences, with ever for questions/affirmatives and never for negatives.",
     "common_error": "❌ I have read ever this book. → ✅ I have ever read this book.",
     "in_context": [
@@ -822,6 +822,17 @@
           "answer": "yet"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng ever thường được sử dụng trong câu hỏi, trong khi never thường được sử dụng trong câu khẳng định.",
+      "Vị trí của ever và never trong câu thường là sau động từ động have hoặc has, nhưng có thể thay đổi tùy thuộc vào cấu trúc câu.",
+      "Sử dụng thì hiện tại hoàn thành với ever và never giúp người học tiếng Anh thể hiện sự đa dạng trong cách diễn đạt và tránh lặp lại các cấu trúc câu đơn giản.",
+      "Người học tiếng Anh thường nhầm lẫn giữa sử dụng ever và never trong câu, vì vậy cần lưu ý và thực hành thường xuyên để sử dụng đúng."
+    ],
+    "in_context_vi": [
+      "Tôi chưa bao giờ bị phạt vì tôi luôn trả sách đúng hạn.",
+      "Bạn đã bao giờ tìm thấy một cuốn sách mà bạn không thể đặt xuống chưa?",
+      "Thủ thư chưa bao giờ muộn mở khu vực đọc sách."
+    ]
   }
 }

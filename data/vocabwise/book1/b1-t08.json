@@ -738,7 +738,7 @@
       "question": "Do/Does + subject + verb (like / love / enjoy / hate) + V‑ing?",
       "variant": "verb + to + infinitive (optional)"
     },
-    "rule_vi": "Các động từ like, love, enjoy, hate thường đi sau là dạng V‑ing để nói về hoạt động mà chúng ta thích hoặc không thích.",
+    "rule_vi": "Động từ like, love, enjoy, hate thường được theo sau bởi dạng V‑ing (gerund). Dạng V‑ing ở đây hoạt động như một danh từ, chỉ một hành động chung mà người nói thích hoặc không thích. Cấu trúc cơ bản: Chủ ngữ + động từ (like/love/enjoy/hate) + V‑ing. Dùng để diễn tả sở thích, thói quen hoặc cảm xúc hiện tại.",
     "rule_en": "We use like/love/enjoy/hate + V‑ing to talk about activities we enjoy or dislike.",
     "common_error": "❌ I enjoy to listen to music → ✅ I enjoy listening to music",
     "in_context": [
@@ -879,6 +879,39 @@
           "answer": "prefer"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dạng V‑ing phải đứng ngay sau động từ like/love/enjoy/hate; không được chèn bất kỳ từ nào khác.",
+        "examples": [
+          "❌ I love to draw animals → ✅ I love drawing animals"
+        ]
+      },
+      {
+        "text": "Sau các động từ này, dạng V‑ing (gerund) là hình thức chuẩn; dùng infinitive (to + V) thường không tự nhiên hoặc thay đổi nghĩa.",
+        "examples": [
+          "❌ I enjoy to listen to music → ✅ I enjoy listening to music"
+        ]
+      },
+      {
+        "text": "Gerund không có chủ ngữ riêng; nó chỉ mô tả hành động chung, vì vậy không thể thêm “that” hoặc một chủ ngữ khác sau nó.",
+        "examples": [
+          "✅ I hate cleaning the dishes",
+          "❌ I hate that I clean the dishes"
+        ]
+      },
+      {
+        "text": "Cấu trúc này dùng cho các hoạt động, không dùng cho các danh từ không phải hành động.",
+        "examples": [
+          "✅ I love swimming",
+          "❌ I love the swimming"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi thích vẽ động vật và các địa điểm.",
+      "Tôi cũng thích nghe nhạc và hát theo các bài hát.",
+      "Tôi thích làm thiệp và quà từ giấy màu."
+    ]
   }
 }

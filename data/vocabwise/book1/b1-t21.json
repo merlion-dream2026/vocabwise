@@ -734,7 +734,7 @@
       "negative": "Subject + do/does not + Verb + Object pronoun",
       "question": "Do/Does + Subject + Verb + Object pronoun?"
     },
-    "rule_vi": "Đại từ tân ngữ dùng để thay thế cho danh từ làm tân ngữ sau động từ.",
+    "rule_vi": "Đại từ tân ngữ là những từ được sử dụng để thay thế cho danh từ làm tân ngữ sau động từ, giúp tránh lặp lại danh từ và làm cho câu văn trở nên ngắn gọn và rõ ràng hơn. Đại từ tân ngữ thường được sử dụng sau động từ để chỉ người hoặc vật đang nhận hành động. Ví dụ, 'me' được sử dụng để chỉ người nói, 'him' và 'her' được sử dụng để chỉ người khác, còn 'us' và 'them' được sử dụng để chỉ nhiều người. Đại từ tân ngữ được sử dụng trong nhiều trường hợp khác nhau, bao gồm cả khi mô tả mối quan hệ giữa các người hoặc vật.",
     "rule_en": "Object pronouns replace nouns that function as objects after a verb.",
     "common_error": "❌ She gave I a gift. → ✅ She gave me a gift.",
     "in_context": [
@@ -878,6 +878,17 @@
           "answer": "them"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng đại từ tân ngữ, cần chú ý đến vị trí của nó trong câu, thường là sau động từ. Nếu đặt sai vị trí, câu văn có thể trở nên không rõ ràng hoặc thậm chí là không đúng ngữ pháp.",
+      "Đại từ tân ngữ có thể được sử dụng trong cả câu nói thông thường và câu viết, tuy nhiên trong văn viết, người ta thường sử dụng đại từ tân ngữ một cách chính xác và phù hợp hơn.",
+      "Một điểm cần lưu ý khi sử dụng đại từ tân ngữ là tránh sử dụng nó một cách lặp lại quá nhiều, vì điều này có thể làm cho câu văn trở nên nhàm chán và không hấp dẫn.",
+      "Người học tiếng Anh thường gặp khó khăn khi sử dụng đại từ tân ngữ vì trong tiếng Việt, đại từ tân ngữ không được sử dụng một cách rõ ràng như trong tiếng Anh."
+    ],
+    "in_context_vi": [
+      "Cô ấy luôn tốt bụng và làm tôi cười khi tôi mệt mỏi.",
+      "Tôi nhớ cô ấy khi cô ấy vắng mặt.",
+      "Tôi luôn trung thực với cô ấy và tôi nhớ tất cả những lúc vui vẻ chúng tôi chia sẻ."
+    ]
   }
 }

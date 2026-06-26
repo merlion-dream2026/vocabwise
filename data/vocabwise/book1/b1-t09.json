@@ -735,7 +735,7 @@
       "question": "Wh‑question + do/does + subject + verb + preposition + place?",
       "variant": "Subject + verb + preposition + place + adverbial phrase"
     },
-    "rule_vi": "Dùng 'to' chỉ hướng tới nơi nào đó; dùng 'from' chỉ nguồn gốc; dùng 'along' chỉ di chuyển dọc theo; dùng 'through' chỉ đi qua một không gian.",
+    "rule_vi": "Giới từ chỉ hướng và sự di chuyển là một loại giới từ trong tiếng Anh, bao gồm 'to', 'from', 'along' và 'through', được sử dụng để chỉ hướng hoặc sự di chuyển từ nơi này đến nơi khác. Giới từ 'to' được sử dụng để chỉ hướng tới một nơi nào đó, trong khi 'from' được sử dụng để chỉ nguồn gốc hoặc điểm xuất phát. Giới từ 'along' được sử dụng để chỉ sự di chuyển dọc theo một con đường hoặc một không gian, và 'through' được sử dụng để chỉ sự di chuyển qua một không gian hoặc một vật thể. Việc sử dụng đúng loại giới từ này sẽ giúp người học tiếng Anh thể hiện rõ ràng và chính xác ý nghĩa của họ.",
     "rule_en": "We use these prepositions to show direction and movement.",
     "common_error": "❌ She goes school.  →  ✅ She goes **to** school.",
     "in_context": [
@@ -878,6 +878,17 @@
           "answer": "across"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm quan trọng cần lưu ý là 'to' và 'from' thường được sử dụng cùng với các động từ chỉ sự di chuyển như 'go', 'come', 'drive', trong khi 'along' và 'through' thường được sử dụng với các động từ chỉ sự di chuyển dọc theo hoặc qua một không gian.",
+      "Người học tiếng Anh thường nhầm lẫn giữa 'to' và 'at' khi chỉ vị trí, vì vậy cần phải chú ý đến việc sử dụng đúng loại giới từ trong từng trường hợp.",
+      "Trong tiếng Anh, vị trí của giới từ thường đứng sau động từ, nhưng có thể đứng trước hoặc sau danh từ tùy thuộc vào ngữ cảnh.",
+      "Khi sử dụng giới từ 'through', người học cần lưu ý rằng nó có thể được sử dụng để chỉ sự di chuyển qua một không gian hoặc một vật thể, nhưng cũng có thể được sử dụng để chỉ sự di chuyển qua thời gian."
+    ],
+    "in_context_vi": [
+      "Tôi thường đi đến trường bằng xe buýt.",
+      "Bố tôi lái xe ô tô đi làm.",
+      "Tôi đi bộ dọc theo con đường đến trạm xe buýt."
+    ]
   }
 }

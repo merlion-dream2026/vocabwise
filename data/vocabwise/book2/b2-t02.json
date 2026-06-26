@@ -721,7 +721,7 @@
       "question": "Do/Does + subject + get + Noun? (e.g., Does she get a promotion?)",
       "variant": "Subject + get + into + Noun (e.g., get into management)"
     },
-    "rule_vi": "Dùng 'get' + danh từ hoặc động từ dạng quá khứ để nói về việc nhận được một kết quả trong công việc.",
+    "rule_vi": "‘Get’ được dùng để diễn tả việc nhận được một kết quả hoặc trạng thái trong môi trường công việc. Khi theo sau là danh từ, ‘get’ có nghĩa là ‘nhận, đạt được’ (ví dụ: get a promotion, get a raise). Khi theo sau là động từ dạng quá khứ (past participle), ‘get’ mang nghĩa ‘trở thành, bị…’ (ví dụ: get fired, get promoted). Cấu trúc này thường xuất hiện trong câu đơn, dùng thì hiện tại đơn để nói chung hoặc thì quá khứ để nói về một lần cụ thể.",
     "rule_en": "Use 'get' + noun or past participle to express receiving or experiencing something at work.",
     "common_error": "❌ He get a promotion  →  ✅ He gets a promotion",
     "in_context": [
@@ -868,6 +868,39 @@
           "answer": "transfer"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "‘Get’ + danh từ (có mạo từ) diễn tả việc nhận được một thứ gì đó; cần dùng ‘a/an’ hoặc ‘the’ trước danh từ.",
+        "examples": [
+          "❌ get promotion → ✅ get a promotion",
+          "She got a raise after the project."
+        ]
+      },
+      {
+        "text": "‘Get’ + động từ dạng quá khứ (past participle) biểu thị trạng thái bị ảnh hưởng, giống như thể bị động nhưng không dùng ‘be’.",
+        "examples": [
+          "❌ get fire → ✅ get fired",
+          "He got promoted last month."
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, nên dùng ‘receive’, ‘be promoted’, ‘be dismissed’ thay cho ‘get’ để tránh ngôn ngữ quá thân mật.",
+        "examples": [
+          "In the annual report, employees received promotions rather than got promotions."
+        ]
+      },
+      {
+        "text": "‘Get’ không thể đứng một mình với danh từ không đếm được (như success) nếu không có cấu trúc cố định; thường dùng ‘achieve’ hoặc ‘obtain’ cho những danh từ này.",
+        "examples": [
+          "❌ get success → ✅ achieve success"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự đáng tin cậy và chăm chỉ thường giúp người ta được thăng chức.",
+      "Tuy nhiên, nếu ai đó không hài lòng với công việc, họ có thể bị sa thải.",
+      "Hầu hết mọi người nghỉ hưu sau khoảng 40 năm làm việc."
+    ]
   }
 }

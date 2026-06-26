@@ -735,7 +735,7 @@
       "question": "Should/Ought to + subject + base verb?",
       "variant": "should (informal) can replace ought to (more formal) in giving advice"
     },
-    "rule_vi": "Dùng should hoặc ought to để đưa ra lời khuyên, nhắc nhở về hành vi đúng đắn.",
+    "rule_vi": "Should và ought to là hai động từ modal dùng để đưa ra lời khuyên hoặc nhắc nhở về hành vi đúng đắn. Cả hai đều có nghĩa là nên làm gì, nhưng ought to thường mang tính chất nghiêm túc và chính thức hơn. Khi sử dụng should hoặc ought to, chúng ta thường muốn khuyên nhủ người khác làm điều gì đó vì lợi ích của họ hoặc vì đó là hành động đúng đắn. Việc sử dụng should hoặc ought to phụ thuộc vào ngữ cảnh và mức độ trang trọng của tình huống.",
     "rule_en": "Use should or ought to to give moral advice or recommendations.",
     "common_error": "❌ You ought to not go. → ✅ You ought not to go.",
     "in_context": [
@@ -885,6 +885,17 @@
           "answer": "should"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Sự khác biệt chính giữa should và ought to là mức độ trang trọng và nghiêm túc, với ought to thường được sử dụng trong các tình huống chính thức hơn.",
+      "Should và ought to thường được sử dụng sau các mệnh đề chủ ngữ, và trước động từ chính trong câu.",
+      "Người học tiếng Anh thường nhầm lẫn giữa should và ought to với phải và cần, nhưng nên nhớ rằng should và ought to mang tính chất khuyên nhủ hơn là bắt buộc.",
+      "Trong tiếng Anh, nên sử dụng should và ought to một cách linh hoạt và phù hợp với ngữ cảnh để thể hiện sự khuyên nhủ hoặc nhắc nhở một cách tự nhiên."
+    ],
+    "in_context_vi": [
+      "Một người bạn tốt luôn nên trung thành — họ không bao giờ nói xấu về bạn.",
+      "Họ nên đứng về phía bạn và hỗ trợ bạn ngay cả khi thời gian rất khó khăn.",
+      "Cô ấy nên luôn hỗ trợ tôi và hỏi thăm tôi khi tôi bị ốm."
+    ]
   }
 }

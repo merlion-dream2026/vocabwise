@@ -673,7 +673,7 @@
       "question": "Is/Are there + noun phrase?",
       "variant": "There's / There're"
     },
-    "rule_vi": "Dùng để nói về sự tồn tại của một hoặc nhiều vật, người, địa điểm.",
+    "rule_vi": "Cấu trúc 'there is' / 'there are' dùng để nói về sự tồn tại của một hoặc nhiều vật, người, địa điểm. Khi danh từ sau là số ít, ta dùng 'there is'; khi là số nhiều, ta dùng 'there are'. Câu luôn bắt đầu bằng 'there' rồi theo sau là động từ to be (is/are) và rồi là danh từ làm chủ ngữ. Dạng rút gọn 'there's' thường xuất hiện trong giao tiếp thân mật.",
     "rule_en": "Used to state that something exists.",
     "common_error": "❌ There is many trees.  →  ✅ There are many trees.",
     "in_context": [
@@ -820,6 +820,38 @@
           "answer": "There was"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Câu luôn bắt đầu bằng 'there is/are', chủ ngữ (danh từ) đứng sau động từ to be.",
+        "examples": [
+          "❌ A cat is there → ✅ There is a cat."
+        ]
+      },
+      {
+        "text": "Dùng 'there is' với danh từ không đếm được hoặc danh từ số ít; 'there are' chỉ dùng với danh từ số nhiều.",
+        "examples": [
+          "✅ There is water in the bottle.",
+          "❌ There are water in the bottle → ✅ There is water in the bottle."
+        ]
+      },
+      {
+        "text": "Dùng để giới thiệu thông tin mới cho người nghe, không dùng khi đối tượng đã được đề cập trước.",
+        "examples": [
+          "✅ There is a problem we need to discuss."
+        ]
+      },
+      {
+        "text": "Trong tiếng nói không trang trọng, thường rút gọn thành 'there's' (với số ít) hoặc 'there're' (với số nhiều).",
+        "examples": [
+          "✅ There's a book on the table."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Có một con suối trong vắt bên cạnh khu rừng xanh.",
+      "Có một ngọn núi cao vươn lên tới các đám mây.",
+      "Có một con sông rộng ở thung lũng phía dưới."
+    ]
   }
 }

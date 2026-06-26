@@ -670,7 +670,7 @@
       "question": "Modal verb + subject + base verb? (e.g., Would you ...?)",
       "variant": "Subject + would + verb‑ing (e.g., I would be grateful if you could ...)"
     },
-    "rule_vi": "Dùng cách diễn đạt trang trọng khi viết email công việc; dùng cách thân mật khi viết cho bạn bè.",
+    "rule_vi": "Văn phong trang trọng và thân mật là cách diễn đạt phù hợp với đối tượng và mục đích của tin nhắn hoặc email. Văn phong trang trọng thường được sử dụng trong môi trường công việc, học tập hoặc khi viết cho người lớn tuổi, trong khi văn phong thân mật được sử dụng khi viết cho bạn bè, người thân hoặc trong môi trường không trang trọng. Để sử dụng văn phong phù hợp, cần xem xét đối tượng và mục đích của tin nhắn hoặc email. Việc sử dụng văn phong phù hợp giúp tin nhắn hoặc email trở nên rõ ràng và dễ hiểu hơn.",
     "rule_en": "Use a formal register for professional messages and an informal register for casual ones.",
     "common_error": "❌ Hey Sir, I need the report.  →  ✅ Dear Sir, I need the report.",
     "in_context": [
@@ -820,6 +820,17 @@
           "answer": "Best"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi viết email công việc, nên sử dụng văn phong trang trọng và tránh sử dụng từ ngữ thân mật hoặc hài hước.",
+      "Văn phong thân mật thường được sử dụng trong mạng xã hội hoặc khi viết cho bạn bè, nhưng cần tránh sử dụng trong môi trường công việc hoặc học tập.",
+      "Sử dụng văn phong phù hợp giúp tránh hiểu lầm và tạo ấn tượng tốt với người đọc.",
+      "Người học tiếng Anh cần lưu ý rằng văn phong trang trọng và thân mật có thể khác nhau tùy thuộc vào văn hóa và quốc gia."
+    ],
+    "in_context_vi": [
+      "Đây có phải là email chuyên nghiệp gửi cho giáo viên, hay một ghi chú không trang trọng cho bạn bè?",
+      "Một email chuyên nghiệp bắt đầu bằng lời chào và kết thúc bằng lời kết.",
+      "Một tin nhắn có nhiều lỗi không看 giống một email chuyên nghiệp."
+    ]
   }
 }

@@ -685,7 +685,7 @@
     "form": {
       "question": "How much + uncountable noun + auxiliary (is/are/do/does) …?  How many + countable noun + auxiliary (is/are/do/does) …?"
     },
-    "rule_vi": "Dùng How much cho danh từ không đếm được; dùng How many cho danh từ đếm được.",
+    "rule_vi": "How much và How many là hai cụm từ dùng để hỏi về số lượng trong tiếng Anh. How much được sử dụng với danh từ không đếm được, như nước, không khí, hoặc tiền, trong khi How many được sử dụng với danh từ đếm được, như quả táo, chiếc xe, hoặc người. Khi sử dụng How much và How many, cần lưu ý đến loại danh từ và số lượng được hỏi. Điều này giúp người học sử dụng tiếng Anh một cách chính xác và hiệu quả.",
     "rule_en": "Use How much with uncountable nouns and How many with countable nouns.",
     "common_error": "❌ How many water do we need?  →  ✅ How much water do we need?",
     "in_context": [
@@ -828,6 +828,17 @@
           "answer": "How many"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý không nên sử dụng How much với danh từ đếm được, và ngược lại, không sử dụng How many với danh từ không đếm được, vì điều này sẽ làm cho câu hỏi trở nên không chính xác.",
+      "Vị trí của How much và How many trong câu thường là ở đầu câu, ngay sau đó là động từ chính và danh từ được hỏi.",
+      "Trong tiếng Anh thông dụng, How much và How many thường được sử dụng trong các tình huống mua sắm, đặt hàng, hoặc khi cần biết số lượng của một thứ gì đó.",
+      "Người học tiếng Anh nên lưu ý rằng trong tiếng Việt, chúng ta thường sử dụng từ 'bao nhiêu' cho cả danh từ đếm được và không đếm được, nhưng trong tiếng Anh, sự phân biệt giữa How much và How many là rất quan trọng."
+    ],
+    "in_context_vi": [
+      "Mẹ tôi thích hỏi, trái cây này giá bao nhiêu?",
+      "Khi chúng tôi chọn những quả cà chua tươi nhất, tôi luôn thắc mắc, chúng tôi nên mua bao nhiêu quả cà chua.",
+      "Trước khi chúng tôi xếp hàng để trả tiền, bố tôi kiểm tra, chúng tôi còn bao nhiêu tiền."
+    ]
   }
 }

@@ -778,7 +778,7 @@
       "question": "Have/Has it + been + past participle + that + clause?",
       "variant": "It is reported that + clause"
     },
-    "rule_vi": "Dùng cấu trúc này để truyền đạt kết quả nghiên cứu, báo cáo mà không nêu người thực hiện. Thường xuất hiện trong các bài viết học thuật.",
+    "rule_vi": "Cấu trúc này dùng để truyền đạt kết quả nghiên cứu, báo cáo mà không nêu người thực hiện. Nó có dạng It + have/has + been + past participle + that …, trong đó động từ truyền đạt (found, reported, noted, etc.) ở dạng bị động hoàn thành. Thường xuất hiện trong văn bản học thuật, nhấn mạnh thông tin chứ không nhấn mạnh nguồn gốc. Mệnh đề sau that có thể dùng bất kỳ thì nào tùy thuộc vào nội dung muốn diễn đạt.",
     "rule_en": "Use this structure to report findings or statements without mentioning the author.",
     "common_error": "❌ It have been found that the data supports the hypothesis. → ✅ It has been found that the data supports the hypothesis.",
     "in_context": [
@@ -934,6 +934,37 @@
           "answer": "proven"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng dạng It has been + past participle khi người thực hiện không quan trọng hoặc không muốn nêu ra.",
+        "examples": [
+          "❌ Scientists have found that... → ✅ It has been found that..."
+        ]
+      },
+      {
+        "text": "Không dùng dạng hiện tại đơn (It is found that) trừ khi nói về một sự thật chung, vì cấu trúc này thường yêu cầu thì hoàn thành.",
+        "examples": [
+          "❌ It is found that the data... → ✅ It has been found that the data..."
+        ]
+      },
+      {
+        "text": "Mệnh đề that‑clause không bị ảnh hưởng bởi thì của cấu trúc bị động; có thể dùng bất kỳ thì nào phù hợp với nội dung.",
+        "examples": [
+          "It has been reported that countries may build up a surplus..."
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng, thích hợp cho bài viết học thuật; tránh dùng trong giao tiếp thông thường.",
+        "examples": [
+          "❌ People say that... → ✅ It has been said that..."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Đã được phát hiện rằng nhiều người tiêu dùng đã chuyển sang canh tác hữu cơ, loại hình nông nghiệp tránh các hoá chất nhân tạo và chú trọng đến sức khỏe của đất.",
+      "Đã được báo cáo rằng khi mùa thu hoạch dồi dào, các quốc gia có thể tích trữ thặng dư thực phẩm để giao dịch hoặc lưu trữ.",
+      "Đã được ghi nhận rằng không phải mọi hệ thống nông nghiệp đều có thể đảm bảo an ninh lương thực."
+    ]
   }
 }

@@ -721,7 +721,7 @@
       "question": "Had [Subject] ... ? (inversion of If‑clause)",
       "variant": "If ... had ..., ... would have ..."
     },
-    "rule_vi": "Dùng để nói về một tình huống không xảy ra trong quá khứ và kết quả giả định của nó.",
+    "rule_vi": "Câu điều kiện loại 3 (Third Conditional) dùng để nói về một sự việc không xảy ra trong quá khứ và kết quả giả định của nó. Cấu trúc cơ bản là: If + past perfect, would have + past participle. Nó thường biểu thị sự hối tiếc, suy đoán ngược lại hoặc đưa ra lời khuyên cho một tình huống đã qua. Ngoài would, có thể dùng các động từ khuyết như could have, might have, should have để diễn tả khả năng, khả năng xảy ra hoặc lời nhắc nhở.",
     "rule_en": "Used to talk about an unreal past condition and its imagined result.",
     "common_error": "❌ If I have had more time, I would have finished the report.  →  ✅ If I had had more time, I would have finished the report.",
     "in_context": [
@@ -888,6 +888,39 @@
           "answer": "had provided"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề if thường đứng trước câu chính và cần dấu phẩy; nếu đặt sau, không cần dấu phẩy.",
+        "examples": [
+          "If I had arrived earlier, we would have started on time.",
+          "We would have started on time if I had arrived earlier."
+        ]
+      },
+      {
+        "text": "Trong câu điều kiện loại 3, động từ trong mệnh đề if phải ở dạng past perfect, không dùng simple past.",
+        "examples": [
+          "❌ If I knew the answer, I would have told you. → ✅ If I had known the answer, I would have told you."
+        ]
+      },
+      {
+        "text": "Có thể thay thế would have bằng could have, might have, should have để diễn tả khả năng, khả năng xảy ra hoặc lời khuyên.",
+        "examples": [
+          "If she had studied, she could have passed the exam.",
+          "If they had listened, they might have avoided the mistake."
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, có thể dùng đảo vị trí (inversion) thay cho if‑clause: Had + subject + past participle, ...",
+        "examples": [
+          "❌ If I had known, I would've acted. → ✅ Had I known, I would have acted."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu một công nhân đã biết các quyền lợi, họ đã nộp đơn khiếu nại sớm hơn.",
+      "Nếu người tuyển dụng đã nhận ra nhu cầu về giờ làm linh hoạt, nhân viên đã hài lòng hơn.",
+      "Nếu công đoàn đã can thiệp, nhiều tranh chấp đã được giải quyết hòa bình."
+    ]
   }
 }

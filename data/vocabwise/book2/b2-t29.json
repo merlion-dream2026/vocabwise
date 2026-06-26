@@ -784,7 +784,7 @@
       "question": "Did + Subject + reporting verb + that + clause?",
       "variant": "Subject + reporting verb + infinitive (to + verb)"
     },
-    "rule_vi": "Động từ truyền đạt được dùng để báo cáo lời nói, quan điểm của người khác, thường đi kèm với 'that' và một mệnh đề.",
+    "rule_vi": "Động từ truyền đạt đa dạng (claim, argue, suggest, warn, deny) được dùng để báo cáo lời nói, quan điểm hoặc lời khuyên của người khác. Chúng thường đứng sau chủ ngữ và có thể đi kèm với ‘that’ để giới thiệu một mệnh đề đầy đủ, hoặc bỏ ‘that’ khi mệnh đề ngắn gọn. Khi dùng, động từ này thường theo sau là một mệnh đề ở thì hiện tại, quá khứ hoặc hiện tại hoàn thành tùy thời điểm nói. Trong văn viết trang trọng, việc giữ ‘that’ giúp câu rõ ràng, đặc biệt khi mệnh đề phức tạp hoặc có các từ chỉ thời gian.",
     "rule_en": "Reporting verbs are used to convey what someone says or thinks, usually followed by 'that' + clause.",
     "common_error": "❌ He claim that the story is true → ✅ He claims that the story is true",
     "in_context": [
@@ -933,6 +933,38 @@
           "answer": "warns"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề ‘that’ thường đứng ngay sau động từ truyền đạt; có thể bỏ ‘that’ khi mệnh đề ngắn gọn, nhưng không được bỏ khi mệnh đề dài hoặc có trạng từ đầu câu.",
+        "examples": [
+          "❌ She claimed that, she was late. → ✅ She claimed that she was late."
+        ]
+      },
+      {
+        "text": "‘Argue’ và ‘claim’ thường dùng trong văn viết trang trọng để đưa ra lập luận hoặc khẳng định, trong khi ‘suggest’ mang tính nhẹ nhàng hơn và phù hợp với cả văn nói.",
+        "examples": [
+          "✅ The report argues that climate change impacts are accelerating."
+        ]
+      },
+      {
+        "text": "‘Deny’ không đi với dạng nguyên mẫu (to‑verb); thay vào đó dùng danh từ, động từ dạng –ing hoặc mệnh đề ‘that’.",
+        "examples": [
+          "❌ He denied to go. → ✅ He denied going.",
+          "❌ He denied that he was late. → ✅ He denied that he was late."
+        ]
+      },
+      {
+        "text": "Sau ‘suggest’ thường dùng dạng gerund (‑ing) hơn là infinitive; infinitive vẫn chấp nhận nhưng nghe không tự nhiên.",
+        "examples": [
+          "❌ She suggested to meet at 5. → ✅ She suggested meeting at 5."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Báo chí mạnh mẽ khẳng định rằng nó giữ các chính phủ và các tổ chức quyền lực có trách nhiệm trước công chúng.",
+      "Một tổng biên tập giỏi cho rằng phòng tin nên ưu tiên độ chính xác hơn tốc độ.",
+      "Các chuyên gia cảnh báo rằng thiên kiến có thể gây hiểu lầm cho khán giả nếu không được xem xét kỹ lưỡng."
+    ]
   }
 }

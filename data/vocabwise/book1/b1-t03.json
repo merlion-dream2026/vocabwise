@@ -741,7 +741,7 @@
       "question": "Do/Does + Subject + Verb + (any) + CountableNoun? / How much/many + UncountableNoun?",
       "variant": "There is/are + CountableNoun / There is/are + UncountableNoun"
     },
-    "rule_vi": "Đối với danh từ đếm được dùng a/an, many, few; đối với danh từ không đếm được dùng some, much, little.",
+    "rule_vi": "Danh từ đếm được và không đếm được là hai loại danh từ cơ bản trong tiếng Anh. Danh từ đếm được là những danh từ có thể đếm được, thường đi kèm với các từ như a, an, many, few, và có thể sử dụng số nhiều. Danh từ không đếm được là những danh từ không thể đếm được, thường đi kèm với các từ như some, much, little, và không có số nhiều. Để sử dụng đúng, cần xác định loại danh từ và sử dụng từ phù hợp.",
     "rule_en": "Use many/few with countable nouns and much/little with uncountable nouns.",
     "common_error": "❌ She has many informations.  →  ✅ She has much information.",
     "in_context": [
@@ -885,6 +885,38 @@
           "answer": "few"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Danh từ đếm được thường đi kèm với các từ chỉ lượng như a, an, many, few, trong khi danh từ không đếm được đi kèm với các từ như some, much, little.",
+        "examples": [
+          "❌ I eat a water → ✅ I drink some water"
+        ]
+      },
+      {
+        "text": "Danh từ đếm được có thể sử dụng số nhiều, nhưng danh từ không đếm được không có số nhiều.",
+        "examples": [
+          "✅ two apples",
+          "❌ two waters → ✅ two glasses of water"
+        ]
+      },
+      {
+        "text": "Một số danh từ có thể là cả đếm được và không đếm được, tùy thuộc vào cách sử dụng.",
+        "examples": [
+          "✅ a hair → ✅ some hair"
+        ]
+      },
+      {
+        "text": "Learners cần lưu ý về sự khác biệt giữa tiếng Anh và tiếng Việt về danh từ đếm được và không đếm được.",
+        "examples": [
+          "✅ rice là không đếm được trong tiếng Anh, nhưng 'gạo' là đếm được trong tiếng Việt"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Bà mua rau củ, trái cây và đôi khi là thịt cho các bữa ăn của chúng tôi.",
+      "Mẹ tôi uống một ly nước trước khi bắt đầu nấu ăn.",
+      "Tôi luôn xin thêm cơm vì nó có vị thật ngon."
+    ]
   }
 }

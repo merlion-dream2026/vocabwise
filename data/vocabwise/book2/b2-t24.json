@@ -795,7 +795,7 @@
       "question": "Would + Subject + base verb if + Subject + past simple (were)?",
       "variant": "If + Subject + past simple (were), Subject + could + base verb"
     },
-    "rule_vi": "Dùng để nói về một tình huống không có thật trong hiện tại hoặc tương lai, và kết quả có thể xảy ra.",
+    "rule_vi": "Câu điều kiện loại 2 dùng để diễn tả một tình huống không có thật hoặc khó xảy ra ở hiện tại hoặc tương lai, và kết quả có thể xảy ra nếu tình huống đó xảy ra. Cấu trúc: If + S + were (hoặc were to + V), S + would + V (hoặc could, might). Đối với các chủ ngữ I, he, she, it, thường dùng were thay cho was. Thì của động từ trong mệnh đề if luôn ở dạng quá khứ đơn (were) để biểu thị tính không thực, còn trong mệnh đề chính dùng would + nguyên mẫu để nói kết quả.",
     "rule_en": "Use it to talk about unreal or unlikely situations in the present or future.",
     "common_error": "❌ If I was rich, I will travel.  →  ✅ If I were rich, I would travel.",
     "in_context": [
@@ -960,6 +960,37 @@
           "answer": "could"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng \"were\" cho mọi chủ ngữ, không phân biệt số ít hay số nhiều; tránh dùng \"was\" trừ khi muốn nhấn mạnh thực tế.",
+        "examples": [
+          "❌ If I was rich → ✅ If I were rich"
+        ]
+      },
+      {
+        "text": "Khi muốn nhấn mạnh tính giả định trong tương lai, có thể dùng \"were to + động từ\" thay cho \"were\" đơn giản.",
+        "examples": [
+          "If she were to move abroad, she would learn a new language."
+        ]
+      },
+      {
+        "text": "Mệnh đề if có thể đứng sau mệnh đề chính; khi đó cần đặt dấu phẩy trước mệnh đề if.",
+        "examples": [
+          "I would travel more, if I had more money."
+        ]
+      },
+      {
+        "text": "Phân biệt với câu điều kiện loại 1: loại 1 dùng hiện tại đơn + will, còn loại 2 dùng quá khứ đơn + would để diễn tả giả định.",
+        "examples": [
+          "❌ If it rains tomorrow, we will stay home → ✅ If it rained tomorrow, we would stay home"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu tôi thường xuyên xem xét sao kê ngân hàng, tôi sẽ nắm bắt tốt hơn về chi tiêu của mình.",
+      "Nếu bạn so sánh lãi suất trước khi vay tiền, bạn sẽ tìm được mức phí rẻ hơn.",
+      "Nếu chúng ta lập ngân sách hàng tháng, chúng ta sẽ tránh chi tiêu quá mức vào những món không cần thiết."
+    ]
   }
 }

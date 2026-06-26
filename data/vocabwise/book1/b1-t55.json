@@ -684,7 +684,7 @@
       "question": "Modal verb + subject + base verb + (object)?",
       "variant": "May I + base verb + (object)?"
     },
-    "rule_vi": "Dùng các động từ khiếm khuyết như can, could, would, may để yêu cầu một cách lịch sự.",
+    "rule_vi": "Các cách yêu cầu lịch sự là một phần quan trọng trong tiếng Anh, giúp người nói thể hiện sự tôn trọng và lịch sự khi yêu cầu ai đó làm điều gì. Để yêu cầu lịch sự, người ta thường sử dụng các động từ khiếm khuyết như can, could, would, may. Mỗi động từ có ý nghĩa và cách sử dụng khác nhau: can thường dùng để yêu cầu ai đó làm điều gì có thể làm được, could dùng để yêu cầu ai đó làm điều gì có thể làm được nhưng không chắc chắn, would dùng để yêu cầu ai đó làm điều gì trong tương lai, và may dùng để yêu cầu ai đó cho phép làm điều gì.",
     "rule_en": "Use can, could, would, may to make polite requests.",
     "common_error": "❌ *Can you to open the window?*  →  ✅ *Can you open the window?*",
     "in_context": [
@@ -827,6 +827,17 @@
           "answer": "May"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng các cách yêu cầu lịch sự, cần chú ý đến vị trí của các từ trong câu, thường là sau động từ chính và trước các từ chỉ thời gian hoặc địa điểm.",
+      "Sự khác biệt giữa các động từ khiếm khuyết là rất quan trọng, vì chúng thể hiện mức độ lịch sự và tôn trọng khác nhau, ví dụ như could thường được sử dụng trong các tình huống hơn so với can.",
+      "Người học tiếng Anh thường nhầm lẫn giữa các động từ khiếm khuyết, đặc biệt là giữa can và could, vì vậy cần phải luyện tập và sử dụng chúng trong các tình huống khác nhau để nắm rõ cách sử dụng.",
+      "Trong tiếng Anh, các cách yêu cầu lịch sự thường được sử dụng trong các tình huống hàng ngày, như khi yêu cầu thông tin, giúp đỡ hoặc cho phép làm điều gì, vì vậy người học cần phải học và sử dụng chúng một cách linh hoạt."
+    ],
+    "in_context_vi": [
+      "Bạn có thể nói 'xin lỗi' để thu hút sự chú ý của ai đó.",
+      "Nếu bạn không hiểu, bạn có thể nói 'nói lại, làm ơn' để nghe thêm một lần nữa.",
+      "Khi bạn cần chỉ đường, bạn có thể hỏi người khác 'liệu bạn có thể giúp tôi không'"
+    ]
   }
 }

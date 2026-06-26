@@ -673,7 +673,7 @@
       "question": "Do/Does + subject + make/let + object + base verb?",
       "variant": "make + object + have + past participle (causative)"
     },
-    "rule_vi": "Dùng 'make' hoặc 'let' để khiến ai đó thực hiện một hành động; sau 'make' thường là bắt buộc, sau 'let' là cho phép.",
+    "rule_vi": "Cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' được sử dụng để biểu thị việc khiến ai đó thực hiện một hành động hoặc cho phép họ thực hiện một hành động. Trong đó, 'make' thường được sử dụng để chỉ sự bắt buộc hoặc ép buộc, trong khi 'let' được sử dụng để chỉ sự cho phép. Cấu trúc này thường được sử dụng trong các tình huống hàng ngày, chẳng hạn như yêu cầu hoặc cho phép ai đó làm một việc gì đó. Việc sử dụng 'make' và 'let' một cách chính xác sẽ giúp người học thể hiện ý nghĩa và thái độ của mình một cách rõ ràng.",
     "rule_en": "Use 'make' or 'let' to cause someone to do something; 'make' implies compulsion, 'let' implies permission.",
     "common_error": "❌ The teacher let us to play a solo.  →  ✅ The teacher let us play a solo.",
     "in_context": [
@@ -816,6 +816,17 @@
           "answer": "let"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Sự khác biệt chính giữa 'make' và 'let' là 'make' thường mang ý nghĩa bắt buộc hoặc ép buộc, trong khi 'let' mang ý nghĩa cho phép hoặc đồng ý.",
+      "Vị trí của 'make' và 'let' trong câu thường là trước tân ngữ, và sau đó là động từ nguyên thể.",
+      "Trong tiếng Anh, cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, tuy nhiên việc sử dụng 'make' có thể mang ý nghĩa trang trọng hơn so với 'let'.",
+      "Người học tiếng Việt thường nhầm lẫn giữa 'make' và 'let' vì trong tiếng Việt, cả hai đều có thể được dịch là 'làm cho' hoặc 'cho phép', nhưng ý nghĩa và cách sử dụng của chúng trong tiếng Anh là khác nhau."
+    ],
+    "in_context_vi": [
+      "Giáo viên của chúng tôi cho phép chúng tôi chơi một bản nhạc độc tấu ngắn trước buổi biểu diễn.",
+      "Nhạc trưởng yêu cầu người chơi trống giữ nhịp cho cả ban nhạc.",
+      "Khán giả cho phép ban nhạc tiếp tục biểu diễn lâu hơn sau khi vỗ tay"
+    ]
   }
 }

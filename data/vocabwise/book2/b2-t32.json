@@ -719,7 +719,7 @@
       "positive": "Subject + so + adjective/adverb + that + result clause; Subject + such + noun phrase + that + result clause",
       "negative": "Subject + so + adjective + that + not + result clause"
     },
-    "rule_vi": "Dùng so … that để nhấn mạnh tính chất mạnh mẽ của tính từ hoặc trạng từ; dùng such … that để nhấn mạnh danh từ.",
+    "rule_vi": "Cấu trúc so … that và such … that dùng để nhấn mạnh mức độ mạnh mẽ của một tính từ, trạng từ (so) hoặc danh từ (such). Khi dùng so, tính từ hoặc trạng từ đứng ngay sau so, rồi là that + mệnh đề cho biết kết quả. Khi dùng such, sau such phải có một danh từ (có thể kèm tính từ), rồi là that + mệnh đề kết quả. Cấu trúc này thường xuất hiện trong câu khẳng định, dùng trong cả văn viết và nói để tăng cường ý.",
     "rule_en": "Use so…that to emphasize an adjective/adverb, and such…that to emphasize a noun.",
     "common_error": "❌ The concert was such exciting that everyone cheered. → ✅ The concert was so exciting that everyone cheered.",
     "in_context": [
@@ -877,6 +877,38 @@
           "answer": "so"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "‘so’ phải đứng ngay trước tính từ hoặc trạng từ; không được ngắt bởi các từ khác.",
+        "examples": [
+          "❌ Music is so, powerful that it shapes culture → ✅ Music is so powerful that it shapes culture"
+        ]
+      },
+      {
+        "text": "‘such’ luôn đi kèm danh từ; không thể dùng chỉ với tính từ mà không có danh từ.",
+        "examples": [
+          "❌ Music is such powerful that it shapes culture → ✅ Music is such a powerful force that it shapes culture"
+        ]
+      },
+      {
+        "text": "Mệnh đề sau ‘that’ phải diễn tả kết quả hoặc hậu quả trực tiếp của mức độ đã nhấn mạnh.",
+        "examples": [
+          "❌ Music is so powerful that it has a guitar → ✅ Music is so powerful that it shapes popular culture"
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường dùng trong ngữ cảnh trang trọng; trong giao tiếp thông thường người nói có thể bỏ ‘that’.",
+        "examples": [
+          "✅ It is so cold that I cannot go out. (formal)",
+          "✅ It’s so cold, I can’t go out. (informal, ‘that’ omitted)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Âm nhạc mạnh đến mức nó định hình văn hoá đại chúng trên toàn thế giới.",
+      "Nhãn hiệu là một phần quan trọng đến mức nó có thể quyết định thành công của một nghệ sĩ.",
+      "Nhạc sống phổ biến đến mức người hâm mộ vẫn tới các buổi hòa nhạc với số lượng lớn."
+    ]
   }
 }

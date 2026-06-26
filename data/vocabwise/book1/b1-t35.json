@@ -735,7 +735,7 @@
       "question": "Will + subject + base verb?",
       "variant": "Subject + will + be + -ing (future continuous)"
     },
-    "rule_vi": "Dùng 'will' để nói về dự đoán trong tương lai hoặc quyết định được đưa ra ngay lúc nói.",
+    "rule_vi": "Động từ 'will' được sử dụng để biểu thị dự đoán về tương lai hoặc quyết định được đưa ra ngay lúc nói. Khi sử dụng 'will', người nói muốn thể hiện ý định hoặc dự đoán của mình về một sự kiện hoặc hành động trong tương lai. Cấu trúc cơ bản của 'will' là 'will + động từ chính', trong đó động từ chính được sử dụng dưới dạng cơ bản. 'Will' thường được sử dụng để nói về những việc mà người nói tin sẽ xảy ra trong tương lai hoặc những quyết định được đưa ra một cách tự nhiên.",
     "rule_en": "Use 'will' for future predictions and spontaneous decisions.",
     "common_error": "❌ I will am going to study → ✅ I will go to study",
     "in_context": [
@@ -880,6 +880,17 @@
           "answer": "should"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng 'will' thường được sử dụng trong những tình huống mà người nói muốn thể hiện sự tự tin hoặc chắc chắn về một sự kiện hoặc hành động trong tương lai.",
+      "Trong tiếng Anh, 'will' thường được sử dụng nhiều hơn trong văn nói hơn là văn viết, đặc biệt là trong những tình huống không chính thức.",
+      "Người học tiếng Anh thường nhầm lẫn giữa 'will' và 'be going to' khi nói về tương lai, nhưng 'will' thường được sử dụng để nói về những dự đoán hoặc quyết định không được lên kế hoạch trước.",
+      "Khi sử dụng 'will' trong câu, cần lưu ý về vị trí của 'will' trong câu và sự kết hợp với các từ khác để thể hiện ý nghĩa chính xác."
+    ],
+    "in_context_vi": [
+      "Để bình tĩnh, tôi sẽ ôn tập ghi chú của mình mỗi buổi tối.",
+      "Khi tôi hoàn thành bài thi, tôi luôn sẽ kiểm tra lại câu trả lời của mình một lần nữa.",
+      "Giáo viên của tôi nói rằng những học sinh ôn tập tại nhà và tập trung trong lớp học thường sẽ đạt điểm tốt."
+    ]
   }
 }

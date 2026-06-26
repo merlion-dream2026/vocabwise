@@ -735,7 +735,7 @@
       "question": "Do/Does + subject + base verb + ... ?",
       "variant": "Subject + always + base verb (for habitual actions)"
     },
-    "rule_vi": "Dùng hiện tại đơn để diễn tả thói quen, lịch trình thường ngày và nghề nghiệp.",
+    "rule_vi": "Thì hiện tại đơn (Present Simple) dùng để nói về thói quen, hành động lặp lại thường xuyên và nghề nghiệp của người. Nó thường đi kèm với các trạng từ chỉ tần suất như always, usually, every day, each morning. Cấu trúc cơ bản: Chủ ngữ + động từ ở dạng nguyên thể (đối với ngôi số ít thêm –s/–es; với động từ to be dùng am/is/are). Đối tượng và các trạng từ thường đặt sau động từ.",
     "rule_en": "We use the present simple for habits, daily routines and to describe jobs.",
     "common_error": "❌ She work at a hospital.  →  ✅ She works at a hospital.",
     "in_context": [
@@ -880,6 +880,38 @@
           "answer": "likes"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Với chủ ngữ ở ngôi thứ ba số ít (he, she, it) phải thêm –s hoặc –es vào động từ.",
+        "examples": [
+          "❌ She work at a hospital every day → ✅ She works at a hospital every day"
+        ]
+      },
+      {
+        "text": "Trạng từ chỉ tần suất (always, usually, often, etc.) đặt trước động từ chính, nhưng sau động từ ‘to be’.",
+        "examples": [
+          "❌ She always works at a hospital → ✅ She works at a hospital always",
+          "✅ She always works at a hospital"
+        ]
+      },
+      {
+        "text": "Thì hiện tại đơn cũng dùng để diễn tả lịch trình cố định trong tương lai, như thời gian tàu, lớp học.",
+        "examples": [
+          "The train leaves at 8 a.m. tomorrow."
+        ]
+      },
+      {
+        "text": "Không dùng thì hiện tại tiếp diễn (present continuous) cho các thói quen; lỗi phổ biến của người học là nhầm lẫn giữa hai thì.",
+        "examples": [
+          "❌ She is working at a hospital every day → ✅ She works at a hospital every day"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Bà ấy làm việc ở bệnh viện mỗi ngày.",
+      "Bố tôi đi đến văn phòng mỗi buổi sáng.",
+      "Cô tôi đưa trẻ em đến trường mỗi sáng."
+    ]
   }
 }

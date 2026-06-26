@@ -797,7 +797,7 @@
       "positive": "NP + (who/which/that/where/whose) + clause",
       "variant": "who, whom, which, that, where, whose"
     },
-    "rule_vi": "Dùng mệnh đề quan hệ xác định khi thông tin cần thiết để xác định danh từ; dùng mệnh đề không xác định khi thông tin chỉ là thêm vào, thường kèm dấu phẩy.",
+    "rule_vi": "Mệnh đề quan hệ xác định (defining relative clause) cung cấp thông tin cần thiết để xác định danh từ mà nó mô tả; không dùng dấu phẩy và thường không thể bỏ qua. Mệnh đề quan hệ không xác định (non‑defining relative clause) bổ sung thông tin phụ, có thể bỏ đi mà không làm mất nghĩa chính; nó luôn được tách ra bằng dấu phẩy (hoặc dấu gạch ngang). Cấu trúc cơ bản: [noun] + relative pronoun (who/which/that) + clause; trong mệnh đề không xác định không dùng ‘that’. Khi đại từ quan hệ làm tân ngữ, có thể lược bỏ trong cả hai loại, nhưng khi làm chủ ngữ thì không được bỏ.",
     "rule_en": "Use defining relative clauses to identify a noun, and non‑defining clauses to add extra information.",
     "common_error": "❌ The landlord, who collects rent, lives nearby.  →  ✅ The landlord who collects rent lives nearby.",
     "in_context": [
@@ -950,6 +950,37 @@
           "answer": "whom"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề xác định không có dấu phẩy; mệnh đề không xác định luôn có dấu phẩy (hoặc dấu gạch ngang) để tách ra.",
+        "examples": [
+          "❌ The students, who study hard, get good grades. → ✅ The students who study hard get good grades."
+        ]
+      },
+      {
+        "text": "Trong mệnh đề không xác định không dùng ‘that’; chỉ dùng ‘who’ cho người và ‘which’ cho vật.",
+        "examples": [
+          "❌ The book, that I bought, is expensive. → ✅ The book, which I bought, is expensive."
+        ]
+      },
+      {
+        "text": "Có thể bỏ đại từ quan hệ khi nó làm tân ngữ, nhưng không được bỏ khi nó làm chủ ngữ.",
+        "examples": [
+          "✅ The car (that) she bought is red. ❌ The car, she bought, is red."
+        ]
+      },
+      {
+        "text": "Mệnh đề không xác định thường dùng trong văn viết trang trọng; dùng dấu gạch ngang để nhấn mạnh thêm thông tin.",
+        "examples": [
+          "✅ Paris, which is the capital of France, attracts tourists. ✅ Paris — the capital of France — attracts tourists."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Những người thuê nhà trả một khoản tiền định kỳ cho chủ nhà — người sở hữu bất động sản — để đổi lấy quyền sinh sống ở đó, thường theo các điều khoản của hợp đồng thuê.",
+      "Nhiều người mua nhà chọn sống ở ngoại ô, đó là khu dân cư nằm ở rìa thành phố, nơi giá cả thường thấp hơn và môi trường yên tĩnh hơn.",
+      "Giá trị của một bất động sản phụ thuộc vào nhiều yếu tố, bao gồm kích thước, tình trạng và khu vực — khu phố và môi trường xung quanh nơi nó nằm."
+    ]
   }
 }

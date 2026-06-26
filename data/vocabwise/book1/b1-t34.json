@@ -682,7 +682,7 @@
     "form": {
       "positive": "Subject + Verb + (cardinal number) + Noun / Subject + Verb + (ordinal number) + Noun"
     },
-    "rule_vi": "Số đếm (cardinal) dùng để đếm số lượng, còn số thứ tự (ordinal) dùng để chỉ vị trí, thứ tự.",
+    "rule_vi": "Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong tiếng Anh. Số đếm dùng để đếm số lượng, ví dụ: one, two, three, trong khi số thứ tự dùng để chỉ vị trí, thứ tự, ví dụ: first, second, third. Khi sử dụng số thứ tự, chúng ta thường thêm hậu tố -st, -nd, -rd, hoặc -th vào sau số đếm. Ví dụ, số đếm one trở thành số thứ tự first, số đếm two trở thành second.",
     "rule_en": "Cardinal numbers count objects; ordinal numbers show order.",
     "common_error": "❌ I have **first** books.  →  ✅ I have **five** books.",
     "in_context": [
@@ -827,6 +827,17 @@
           "answer": "first"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng số thứ tự, cần lưu ý rằng một số số đếm có dạng đặc biệt, như one trở thành first, nhưng five trở thành fifth.",
+      "Số thứ tự thường được sử dụng trong các tình huống như điểm danh, xếp hạng, hoặc chỉ vị trí trong một danh sách.",
+      "Số đếm và số thứ tự có thể được sử dụng cùng nhau trong một câu để chỉ số lượng và vị trí, ví dụ: I have five books, and this is the first one.",
+      "Khi viết số thứ tự, cần lưu ý rằng một số số thứ tự có dạng viết tắt, như 1st, 2nd, 3rd, nhưng khi viết đầy đủ, cần sử dụng hậu tố -st, -nd, -rd, hoặc -th."
+    ],
+    "in_context_vi": [
+      "Câu hỏi đầu tiên là: một nửa của hai mươi là gì?",
+      "Cô ấy chỉ cho chúng tôi rằng năm cộng năm và mười chia cho một đều bằng mười.",
+      "Vào cuối buổi học, giáo viên của chúng tôi đã đưa cho chúng tôi một bài kiểm tra với một câu hỏi."
+    ]
   }
 }

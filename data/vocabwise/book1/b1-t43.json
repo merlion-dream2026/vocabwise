@@ -676,7 +676,7 @@
       "question": "Was/Were + Subject + Verb‑ing (+ Object/Complement) ?",
       "variant": "was/were + Verb‑ing + (time expression) to describe background action"
     },
-    "rule_vi": "Dùng để mô tả hành động đang diễn ra tại một thời điểm trong quá khứ.",
+    "rule_vi": "Quá khứ tiếp diễn là một thì trong tiếng Anh, được sử dụng để mô tả hành động đang diễn ra tại một thời điểm trong quá khứ. Cấu trúc của quá khứ tiếp diễn là 'was/were + động từ -ing'. Đây là một cách để nói về những hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ, và thường được sử dụng để tạo ra một bối cảnh hoặc một tình huống cụ thể. Quá khứ tiếp diễn thường được sử dụng để nói về những hành động đang diễn ra khi có một hành động khác xảy ra.",
     "rule_en": "Used to describe an ongoing action at a specific time in the past.",
     "common_error": "❌ The crowd were cheering loudly.  →  ✅ The crowd was cheering loudly.",
     "in_context": [
@@ -822,6 +822,17 @@
           "answer": "was receiving"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng quá khứ tiếp diễn thường được sử dụng để nói về những hành động đang diễn ra trong một khoảng thời gian, nhưng không nhất thiết phải hoàn thành trong khoảng thời gian đó.",
+      "Quá khứ tiếp diễn thường được sử dụng trong câu để tạo ra một bối cảnh hoặc một tình huống cụ thể, và thường được sử dụng cùng với các thì khác như quá khứ đơn hoặc quá khứ hoàn thành.",
+      "Khi sử dụng quá khứ tiếp diễn, cần lưu ý về vị trí của các từ trong câu, đặc biệt là khi sử dụng các từ chỉ thời gian hoặc vị trí.",
+      "Quá khứ tiếp diễn cũng có thể được sử dụng để nói về những hành động lặp đi lặp lại trong quá khứ, nhưng không nhất thiết phải xảy ra tại một thời điểm cụ thể."
+    ],
+    "in_context_vi": [
+      "Khán giả reo hò ầm vang và cổ vũ cho đội của họ từ đầu đến cuối.",
+      "Trọng tài đảm bảo mọi người tuân theo luật lệ.",
+      "Các vận động viên luyện tập chăm chỉ trước ngày thi đấu lớn."
+    ]
   }
 }

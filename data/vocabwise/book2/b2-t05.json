@@ -767,7 +767,7 @@
       "question": "Did Subject say/tell/claim/argue that ...?",
       "variant": "Subject + say/tell/claim/argue + to Object + that + clause"
     },
-    "rule_vi": "Dùng cấu trúc này để truyền đạt lời nói, ý kiến hoặc lập luận của người khác trong câu gián tiếp.",
+    "rule_vi": "Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý kiến hoặc lập luận của người khác. Khi dùng, ta đặt động từ truyền đạt (say, tell, claim, argue…) trước một mệnh đề that‑clause. Trong câu gián tiếp, thời gian, địa điểm và đại từ thường phải thay đổi theo quy tắc back‑shift (present → past, will → would, etc.). Đối với tell, cần có tân ngữ (người nghe) còn say, claim, argue không bắt buộc.",
     "rule_en": "Use this structure to report what someone said, told, claimed or argued.",
     "common_error": "❌ He said that he will go tomorrow.  →  ✅ He said that he would go tomorrow.",
     "in_context": [
@@ -918,6 +918,37 @@
           "answer": "stated"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong câu gián tiếp, từ 'that' thường được dùng nhưng có thể bỏ khi mệnh đề phụ bắt đầu bằng động từ.",
+        "examples": [
+          "❌ He said that he is tired → ✅ He said he is tired"
+        ]
+      },
+      {
+        "text": "Nếu động từ chính ở quá khứ, thì trong mệnh đề phụ thường phải chuyển về quá khứ (back‑shifting).",
+        "examples": [
+          "❌ She says, 'I live here' → ✅ She said that she lived there"
+        ]
+      },
+      {
+        "text": "Các từ chỉ thời gian, địa điểm và đại từ phải được điều chỉnh cho phù hợp với ngữ cảnh của câu gián tiếp.",
+        "examples": [
+          "❌ He said, 'I will go tomorrow' → ✅ He said that he would go the next day"
+        ]
+      },
+      {
+        "text": "Động từ 'tell' yêu cầu tân ngữ; nếu không có tân ngữ, nên dùng 'say' hoặc 'inform'.",
+        "examples": [
+          "❌ The teacher told that the test is hard → ✅ The teacher told the students that the test is hard"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Thủ tướng nói rằng chính sách thuế mới sẽ tài trợ cho các dịch vụ công.",
+      "Các nhà lãnh đạo đối lập cho rằng hiến pháp hiện hành cần được cải cách.",
+      "Ủy ban thông báo cho công dân rằng kết quả bầu cử là cuối cùng."
+    ]
   }
 }

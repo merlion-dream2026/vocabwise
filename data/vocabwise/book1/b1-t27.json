@@ -670,7 +670,7 @@
       "question": "Did + Subject + base verb + Object/Complement?",
       "variant": "Subject + was/were + complement"
     },
-    "rule_vi": "Dùng để nói về hành động đã xảy ra và kết thúc trong quá khứ, đặc biệt là các động từ bất quy tắc.",
+    "rule_vi": "Quá khứ đơn — động từ bất quy tắc là một thì trong tiếng Anh dùng để mô tả các hành động đã xảy ra và kết thúc trong quá khứ. Khi sử dụng thì này, chúng ta cần sử dụng dạng quá khứ của động từ, và với các động từ bất quy tắc, dạng quá khứ không thể đoán trước được. Để sử dụng thì quá khứ đơn một cách chính xác, người học cần phải nhớ dạng quá khứ của từng động từ bất quy tắc. Việc luyện tập và ghi nhớ những dạng quá khứ này là rất quan trọng để sử dụng thì quá khứ đơn hiệu quả.",
     "rule_en": "Use the past simple of irregular verbs to talk about completed actions in the past.",
     "common_error": "❌ We **goed** to the party.  →  ✅ We **went** to the party.",
     "in_context": [
@@ -808,6 +808,17 @@
           "answer": "met"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm quan trọng cần lưu ý là động từ bất quy tắc trong quá khứ đơn không theo quy tắc chung như động từ quy tắc, do đó người học cần phải học và nhớ từng dạng quá khứ riêng biệt.",
+      "Vị trí của động từ trong câu cũng rất quan trọng, thường động từ đứng sau chủ ngữ và trước các thành phần khác trong câu.",
+      "Sử dụng thì quá khứ đơn giúp người học mô tả các sự kiện đã xảy ra trong quá khứ một cách rõ ràng và cụ thể, điều này rất hữu ích trong việc kể chuyện hoặc mô tả các sự kiện lịch sử.",
+      "Người học tiếng Anh thường gặp khó khăn khi phân biệt giữa động từ quy tắc và bất quy tắc, do đó việc luyện tập và sử dụng cả hai loại động từ trong câu là rất cần thiết."
+    ],
+    "in_context_vi": [
+      "Cuối tuần trước là sinh nhật của em gái tôi.",
+      "Chúng tôi tất cả đều hát bài sinh nhật và sau đó em gái tôi thổi tắt tất cả ngọn nến chỉ một hơi.",
+      "Chúng tôi chụp nhiều ảnh để lưu giữ kỷ niệm."
+    ]
   }
 }

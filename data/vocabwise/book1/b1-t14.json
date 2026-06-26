@@ -735,7 +735,7 @@
       "question": "Did + Subject + Verb (base) (+ Object)?",
       "variant": "Subject + didn't + Verb (base)"
     },
-    "rule_vi": "Dùng để nói về hành động đã hoàn thành trong quá khứ, thường thêm -ed vào động từ có quy tắc.",
+    "rule_vi": "Quá khứ đơn của động từ có quy tắc được dùng để nói về một hành động đã hoàn thành trong quá khứ và không còn liên quan tới hiện tại. Đối với các động từ thường, ta chỉ cần thêm hậu tố -ed vào dạng nguyên thể. Nếu động từ kết thúc bằng -e, chỉ thêm -d; nếu kết thúc bằng một phụ âm sau một nguyên âm ngắn, nhân đôi phụ âm rồi thêm -ed. Đối với động từ kết thúc bằng -y, đổi y thành -ied.",
     "rule_en": "Use the -ed form for regular verbs to talk about finished actions in the past.",
     "common_error": "❌ I **goed** to the park yesterday → ✅ I **went** to the park yesterday",
     "in_context": [
@@ -877,6 +877,38 @@
           "answer": "boarded"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Quá khứ đơn thường đi kèm với các từ chỉ thời gian trong quá khứ như yesterday, last year, in 1999.",
+        "examples": [
+          "❌ I go yesterday → ✅ I went yesterday"
+        ]
+      },
+      {
+        "text": "Trong câu phủ định và câu hỏi, dùng trợ động từ did + động từ nguyên thể.",
+        "examples": [
+          "❌ He didn't went → ✅ He didn't go"
+        ]
+      },
+      {
+        "text": "Các động từ có quy tắc có một số thay đổi chính tả khi thêm -ed: -e → -d, -y → -ied, và nhân đôi phụ âm cuối nếu trước đó là nguyên âm ngắn.",
+        "examples": [
+          "❌ He needed → ✅ He needed",
+          "❌ She carryed the bag → ✅ She carried the bag"
+        ]
+      },
+      {
+        "text": "Quá khứ đơn dùng để liệt kê một chuỗi các hành động đã hoàn thành liên tiếp trong quá khứ.",
+        "examples": [
+          "❌ I was eating, then I went → ✅ I ate, then I went"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Chúng tôi cần một hộ chiếu để vào Nhật Bản.",
+      "Mẹ tôi kiểm tra bản đồ trước khi chúng tôi rời đi.",
+      "Tôi yêu thích đồ ăn, các đền thờ và con người."
+    ]
   }
 }

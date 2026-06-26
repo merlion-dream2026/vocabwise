@@ -685,7 +685,7 @@
       "question": "Did + subject + use to + base verb?",
       "variant": "Subject + used to + be + adjective/noun"
     },
-    "rule_vi": "Dùng 'used to' để nói về thói quen hoặc trạng thái đã xảy ra thường xuyên trong quá khứ nhưng không còn nữa.",
+    "rule_vi": "Cấu trúc 'used to' được sử dụng để mô tả thói quen hoặc trạng thái đã xảy ra thường xuyên trong quá khứ nhưng không còn nữa. Khi sử dụng 'used to', chúng ta thường nói về những hành động hoặc tình huống đã lặp đi lặp lại trong quá khứ. Cấu trúc này bao gồm 'used to' + động từ chính, và thường được sử dụng để so sánh với hiện tại. 'Used to' giúp chúng ta thể hiện sự khác biệt giữa quá khứ và hiện tại.",
     "rule_en": "Use 'used to' to talk about past habits or states that are no longer true.",
     "common_error": "❌ I used to was happy → ✅ I used to be happy",
     "in_context": [
@@ -836,6 +836,17 @@
           "answer": "used to"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý không nên nhầm lẫn 'used to' với 'be used to', vì 'be used to' có nghĩa là quen với một điều gì đó.",
+      "Vị trí của 'used to' trong câu thường đứng trước động từ chính, và sau các trạng từ chỉ thời gian nếu có.",
+      "Trong tiếng Anh, 'used to' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng nên tránh sử dụng trong ngôn ngữ quá hoặc học thuật.",
+      "Người học tiếng Việt nên chú ý rằng 'used to' không có cấu trúc tương đương trực tiếp trong tiếng Việt, vì vậy cần luyện tập để sử dụng nó một cách tự nhiên."
+    ],
+    "in_context_vi": [
+      "Khi tôi còn nhỏ, tôi thường leo cây, đạp xe và chạy trong mưa.",
+      "Bạn bè của tôi thường chơi cùng nhau sau giờ học, nhưng bây giờ họ có sở thích khác nhau.",
+      "Tôi từng nghĩ rằng việc trưởng thành còn rất xa, nhưng bây giờ tôi cảm thấy nó đang đến gần."
+    ]
   }
 }

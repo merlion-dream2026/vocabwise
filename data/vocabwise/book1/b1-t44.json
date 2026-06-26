@@ -735,7 +735,7 @@
       "question": "Did + Subject + Verb(base) + Object (optional)?",
       "variant": "Subject + was/were + Complement (past simple of 'be')"
     },
-    "rule_vi": "Dùng để nói về hành động đã hoàn thành trong quá khứ, thường đi kèm với các trạng từ chỉ thời gian như yesterday, last week, ago.",
+    "rule_vi": "Quá khứ đơn với trạng từ chỉ thời gian là một cấu trúc ngữ pháp dùng để nói về hành động đã hoàn thành trong quá khứ. Cấu trúc này thường đi kèm với các trạng từ chỉ thời gian như yesterday, last week, ago. Khi sử dụng cấu trúc này, động từ chính sẽ được chia theo thì quá khứ đơn. Ví dụ, nếu động từ chính là go, thì nó sẽ trở thành went khi sử dụng trong cấu trúc quá khứ đơn.",
     "rule_en": "Use the past simple to describe completed actions in the past, often with time expressions.",
     "common_error": "❌ I have went to the museum yesterday  →  ✅ I went to the museum yesterday",
     "in_context": [
@@ -880,6 +880,17 @@
           "answer": "watched"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng trạng từ chỉ thời gian thường được đặt ở đầu hoặc cuối câu, nhưng không được đặt giữa động từ và chủ ngữ.",
+      "Sử dụng cấu trúc quá khứ đơn với trạng từ chỉ thời gian giúp người nghe hoặc người đọc hiểu rõ thời điểm hành động xảy ra.",
+      "Cấu trúc này thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng cấu trúc quá khứ hoàn thành để thể hiện sự hoàn thành của hành động.",
+      "Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa cấu trúc quá khứ đơn và quá khứ hoàn thành, dẫn đến sử dụng sai cấu trúc trong câu."
+    ],
+    "in_context_vi": [
+      "Thứ bảy vừa rồi, lớp chúng tôi đi chuyến tham quan đến phố cổ.",
+      "Vào buổi chiều, hai người bạn bị lạc khi tham quan ngắm cảnh gần đền cổ.",
+      "Chúng tôi khởi hành sớm để có đủ thời gian khám phá khu chợ và chụp một tấm ảnh ở cổng nổi tiếng."
+    ]
   }
 }

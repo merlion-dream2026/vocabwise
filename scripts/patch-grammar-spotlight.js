@@ -18,12 +18,12 @@ const path = require('path')
 
 try { require('dotenv').config({ path: '.env.local' }) } catch {}
 
-const API_KEY  = process.env.GROQ_API_KEY
-const API_BASE = 'https://api.groq.com/openai/v1'
-const MODEL    = 'llama-3.3-70b-versatile'
-const DELAY_MS = 2500  // ~24 RPM, safely under Groq 30 RPM limit
+const API_KEY  = process.env.CEREBRAS_API_KEY
+const API_BASE = 'https://api.cerebras.ai/v1'
+const MODEL    = 'gpt-oss-120b'
+const DELAY_MS = 8000  // ~7 RPM, conservative for Cerebras
 
-if (!API_KEY) { console.error('Missing GROQ_API_KEY'); process.exit(1) }
+if (!API_KEY) { console.error('Missing CEREBRAS_API_KEY'); process.exit(1) }
 
 const args     = process.argv.slice(2)
 const bookArg  = args.includes('--book')  ? args[args.indexOf('--book')  + 1] : null
@@ -80,7 +80,7 @@ REQUIREMENTS:
 - Return ONLY valid JSON. No explanation, no markdown fences.`
 }
 
-async function callOpenAI(prompt, retries = 4) {
+async function callAPI(prompt, retries = 4) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     const res = await fetch(`${API_BASE}/chat/completions`, {
       method: 'POST',
@@ -112,7 +112,10 @@ async function patchTopic(topicId) {
   const gs = json.grammar_spotlight
   if (!gs) { console.log('  ⚠️  No grammar_spotlight'); return false }
 
-  if (!force && gs.usage_notes && gs.in_context_vi) {
+  // Skip if already has structured usage_notes (objects with .text) and in_context_vi
+  const hasStructured = Array.isArray(gs.usage_notes) && gs.usage_notes.length > 0
+    && typeof gs.usage_notes[0] === 'object' && gs.usage_notes[0] !== null
+  if (!force && hasStructured && gs.in_context_vi) {
     console.log('  ⏭  Already patched — skip (use --force to overwrite)')
     return true
   }
@@ -124,7 +127,7 @@ async function patchTopic(topicId) {
 
   let parsed
   try {
-    const raw = await callOpenAI(prompt)
+    const raw = await callAPI(prompt)
     parsed = JSON.parse(raw)
   } catch (e) {
     console.log(`  ❌ Error: ${e.message}`)
@@ -178,7 +181,7 @@ async function main() {
     topics = topics.filter(id => id === `b${bookNum}-t${padded}`)
   }
 
-  console.log(`\n🔧 Patch Grammar Spotlight — Book ${bookNum} (llama-3.3-70b)`)
+  console.log(`\n🔧 Patch Grammar Spotlight — Book ${bookNum} (cerebras gpt-oss-120b)`)
   console.log(`   Topics: ${topics.length} | Force: ${force} | Dry run: ${dryRun}`)
   console.log('─'.repeat(50))
 

@@ -738,7 +738,7 @@
     "form": {
       "positive": "first / then / next / after that / finally + clause (Subject + Verb + …)"
     },
-    "rule_vi": "Dùng các liên từ này để mô tả thứ tự các bước trong một quy trình hoặc câu chuyện.",
+    "rule_vi": "Liên từ trình tự là những từ dùng để mô tả thứ tự các bước trong một quy trình hoặc câu chuyện. Chúng giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện. Liên từ trình tự thường bao gồm các từ như first, then, next, after that, finally, và được sử dụng để kết nối các câu hoặc các bước trong một quy trình. Việc sử dụng liên từ trình tự giúp cho câu chuyện hoặc quy trình trở nên rõ ràng và dễ hiểu hơn.",
     "rule_en": "Use these linkers to show the order of actions or events.",
     "common_error": "❌ *Then* we start the experiment, *first* we check the safety equipment.  →  ✅ *First* we start the experiment, *then* we check the safety equipment.",
     "in_context": [
@@ -882,6 +882,17 @@
           "answer": "finally"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng liên từ trình tự, cần lưu ý đến vị trí của chúng trong câu, thường là ở đầu hoặc giữa câu để kết nối các bước hoặc sự kiện.",
+      "Sử dụng first để bắt đầu một quy trình hoặc câu chuyện, và then, next, after that để tiếp tục mô tả các bước tiếp theo.",
+      "Liên từ trình tự có thể được sử dụng trong cả câu chuyện và quy trình, giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện.",
+      "Lưu ý không nhầm lẫn giữa các liên từ trình tự, vì mỗi từ có ý nghĩa và vị trí sử dụng riêng biệt."
+    ],
+    "in_context_vi": [
+      "Chúng tôi đổ một chất lỏng lạnh vào cốc và sau đó thêm thứ gì đó nóng.",
+      "Đây là lần thử đầu tiên của chúng tôi, vì vậy chúng tôi không phải lúc nào cũng tìm ra câu trả lời đúng ngay lần đầu.",
+      "Chúng tôi đo nhiệt độ trước và sau, và sau đó ghi lại các con số vào vở."
+    ]
   }
 }

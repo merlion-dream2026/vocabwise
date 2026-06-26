@@ -707,7 +707,7 @@
       "question": "Must + subject + base verb? / Do/Does + subject + have to + base verb? / Need + subject + base verb?",
       "variant": "Subject + have got to + base verb"
     },
-    "rule_vi": "Dùng must, have to, need to để diễn tả nghĩa vụ hoặc yêu cầu bắt buộc.",
+    "rule_vi": "Động từ khuyết thiếu chỉ nghĩa vụ (must, have to, need to) dùng để diễn tả yêu cầu bắt buộc hoặc trách nhiệm. Must thường biểu thị nghĩa vụ do người nói quyết định, mang tính cá nhân và mạnh mẽ; have to dùng cho nghĩa vụ xuất phát từ hoàn cảnh, quy định, luật lệ hoặc người khác; need to nhấn mạnh sự cần thiết và thường đi kèm với một hành động cụ thể. Cấu trúc chung: [chủ ngữ] + must / have to / need to + động từ nguyên mẫu (base form).",
     "rule_en": "Use must, have to, need to to express obligation.",
     "common_error": "❌ She must to study harder.  →  ✅ She must study harder.",
     "in_context": [
@@ -854,6 +854,39 @@
           "answer": "have got to"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Modal luôn đứng trước động từ nguyên mẫu; sau must không dùng ‘to’.",
+        "examples": [
+          "❌ He must to study → ✅ He must study"
+        ]
+      },
+      {
+        "text": "Must mang tính trang trọng hơn, còn have to thường dùng trong giao tiếp hàng ngày.",
+        "examples": [
+          "✅ You must submit the report by Friday. (formal)",
+          "✅ You have to submit the report by Friday. (informal)"
+        ]
+      },
+      {
+        "text": "Nguồn gốc nghĩa vụ khác nhau: must phản ánh ý chí của người nói, have to phản ánh quy định bên ngoài.",
+        "examples": [
+          "❌ You must follow the school rule. → ✅ You have to follow the school rule."
+        ]
+      },
+      {
+        "text": "Cách phủ định khác nhau: must not (mustn't) dùng cho cấm, have to không dùng ‘to’ khi phủ định, còn need not (needn't) thể thay thế ‘don’t have to’.",
+        "examples": [
+          "✅ You don’t have to come early. (no obligation)",
+          "✅ You mustn’t smoke here. (prohibition)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sinh viên phải quản lý thời gian một cách cẩn thận vì thời hạn rất nghiêm ngặt.",
+      "Sinh viên phải tham dự các buổi giảng, làm bài tập bằng văn bản và các buổi học riêng với gia sư.",
+      "Sinh viên cần đáp ứng tất cả các yêu cầu trước khi có thể tốt nghiệp."
+    ]
   }
 }

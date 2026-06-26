@@ -671,7 +671,7 @@
       "negative": "Subject + shouldn't + base verb",
       "question": "Should + subject + base verb?"
     },
-    "rule_vi": "Dùng should/shouldn't để đưa ra lời khuyên hoặc khuyến nghị.",
+    "rule_vi": "Should / shouldn't là động từ khiếm khuyết (modal verb) dùng để đưa ra lời khuyên, khuyến nghị. Khi muốn khuyên ai đó làm gì, dùng should; khi muốn khuyên không làm gì, dùng shouldn't. Cấu trúc: Chủ ngữ + should / shouldn't + động từ nguyên mẫu (bare infinitive). Lưu ý rằng động từ không thay đổi dạng (không thêm -s, -ed, -ing).",
     "rule_en": "Use should/shouldn't to give advice.",
     "common_error": "❌ You should to drink water.  →  ✅ You should drink water.",
     "in_context": [
@@ -815,6 +815,38 @@
           "answer": "shouldn't"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Should / shouldn't luôn đứng trước động từ nguyên mẫu, không có “to”.",
+        "examples": [
+          "❌ He should to study → ✅ He should study"
+        ]
+      },
+      {
+        "text": "Dạng phủ định dùng shouldn’t (should not) để đưa ra lời khuyên không nên làm.",
+        "examples": [
+          "✅ You shouldn't eat too much sugar"
+        ]
+      },
+      {
+        "text": "Should biểu thị lời khuyên nhẹ, không phải nghĩa vụ mạnh; nếu muốn nhấn mạnh bắt buộc, dùng must.",
+        "examples": [
+          "✅ You should see a doctor",
+          "❌ You must see a doctor (nghĩa khác)"
+        ]
+      },
+      {
+        "text": "Trong câu hỏi, should/shouldn't đứng trước chủ ngữ (đảo vị trợ động từ).",
+        "examples": [
+          "✅ Should I call the doctor?"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Cô ấy nói rằng tôi chỉ nên vào bệnh viện nếu tôi bị nặng hơn nhiều.",
+      "Tôi nên rửa tay cẩn thận hơn để giữ sức khỏe.",
+      "Bạn nên nghỉ ngơi khi bạn cảm thấy ốm."
+    ]
   }
 }

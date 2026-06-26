@@ -682,7 +682,7 @@
       "question": "Do/Does + subject + adverb + Verb?",
       "variant": "Subject + Verb + adverb (adverb placed after the main verb)"
     },
-    "rule_vi": "Trạng từ tần suất (always, usually, often, sometimes, never) thường đứng trước động từ chính trong câu khẳng định, sau 'do/does not' trong câu phủ định, và sau trợ động từ trong câu hỏi.",
+    "rule_vi": "Trạng từ tần suất là những từ chỉ mức độ thường xuyên của một hành động, bao gồm always, usually, often, sometimes và never. Những trạng từ này thường được sử dụng để mô tả thói quen hoặc hành vi lặp đi lặp lại của một người hoặc một sự việc. Trong câu, trạng từ tần suất thường đứng trước động từ chính, trừ khi có trợ động từ hoặc trong câu phủ định. Việc sử dụng trạng từ tần suất giúp người nói hoặc người viết thể hiện mức độ thường xuyên của một hành động một cách rõ ràng và chính xác.",
     "rule_en": "Frequency adverbs are placed before the main verb in affirmative sentences, after 'do/does not' in negatives, and after the auxiliary in questions.",
     "common_error": "❌ She always not goes to school.  →  ✅ She never goes to school.",
     "in_context": [
@@ -828,6 +828,38 @@
           "answer": "usually"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trạng từ tần suất thường được đặt trước động từ chính trong câu",
+        "examples": [
+          "I always eat breakfast → ✅"
+        ]
+      },
+      {
+        "text": "Tuy nhiên, trong câu phủ định, trạng từ tần suất được đặt sau không",
+        "examples": [
+          "I never eat breakfast → ✅",
+          "❌ I no never eat breakfast"
+        ]
+      },
+      {
+        "text": "Trạng từ tần suất cũng có thể được sử dụng để mô tả thói quen của người khác",
+        "examples": [
+          "My mother usually cooks dinner → ✅"
+        ]
+      },
+      {
+        "text": "Lưu ý không sử dụng trạng từ tần suất với động từ.to be",
+        "examples": [
+          "❌ I always am happy → ✅ I am always happy"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Mẹ tôi luôn nấu một bữa ăn ấm áp và đơn giản cho cả nhà",
+      "Tôi thường đi ngủ trước chín giờ tối",
+      "Tôi không bao giờ thức khuya"
+    ]
   }
 }

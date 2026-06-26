@@ -672,7 +672,7 @@
       "question": "Do/Does + subject + base verb + (object/complement) + ?",
       "variant": "Subject + verb‑s/es (3rd person singular) for habitual actions"
     },
-    "rule_vi": "Dùng hiện tại đơn để nói về sự thật, hiện tượng luôn đúng hoặc thói quen chung.",
+    "rule_vi": "Hiện tại đơn (Simple Present) dùng để diễn tả các sự thật hiển nhiên, hiện tượng luôn đúng và thói quen chung. Nó được dùng khi nói về những điều không thay đổi theo thời gian, như các quy luật khoa học, mô tả thời tiết, lịch trình cố định. Cấu trúc cơ bản: Chủ ngữ + động từ nguyên mẫu (đối với ngôi thứ ba số ít thêm –s/–es). Khi câu phủ định hoặc nghi vấn, dùng trợ động từ do/does + động từ nguyên mẫu (hoặc am/is/are cho động từ ‘to be’).",
     "rule_en": "Use the present simple for facts and general truths.",
     "common_error": "❌ The weather **is changes** quickly. → ✅ The weather **changes** quickly.",
     "in_context": [
@@ -812,6 +812,40 @@
           "answer": "blow"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Đối với ngôi thứ ba số ít, động từ thường thêm –s/–es; các động từ kết thúc bằng –y, –o, –sh, –ch, –x, –z có quy tắc riêng.",
+        "examples": [
+          "❌ He watch TV → ✅ He watches TV",
+          "❌ She study English → ✅ She studies English"
+        ]
+      },
+      {
+        "text": "Trong câu phủ định và câu hỏi, phải dùng trợ động từ do/does; không thể đặt “not” trực tiếp sau động từ.",
+        "examples": [
+          "❌ He not likes coffee → ✅ He does not like coffee",
+          "❌ Does she likes music? → ✅ Does she like music?"
+        ]
+      },
+      {
+        "text": "Các trạng từ chỉ tần suất (always, usually, often, never…) đặt trước động từ chính, sau “to be”.",
+        "examples": [
+          "She often reads books.",
+          "They never eat meat."
+        ]
+      },
+      {
+        "text": "So với tiếng Việt, tiếng Anh không có dạng “hiện tại” riêng; vì vậy cần dùng hiện tại đơn cho hành động lặp lại hoặc thói quen, còn tiếng Việt thường dùng cùng một thời gian cho quá khứ và hiện tại.",
+        "examples": [
+          "❌ Yesterday I go to school every day → ✅ I go to school every day."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Thời tiết ở Việt Nam thay đổi theo mỗi mùa.",
+      "Mùa hè, nhiệt độ rất nóng và khô.",
+      "Bão mang theo mưa lớn và gió mạnh, nhưng chúng cũng làm không khí mát hơn."
+    ]
   }
 }

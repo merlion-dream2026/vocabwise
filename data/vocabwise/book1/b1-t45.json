@@ -670,7 +670,7 @@
       "question": "Could + subject + base verb?",
       "variant": "could not (formal negative)"
     },
-    "rule_vi": "Dùng could để nói về khả năng trong quá khứ; dùng couldn't để nói về việc không có khả năng.",
+    "rule_vi": "Could và couldn't là những động từ modal chỉ khả năng trong quá khứ. Chúng được sử dụng để nói về khả năng hoặc không có khả năng thực hiện một hành động nào đó trong quá khứ. Cấu trúc của chúng thường là subject + could/couldn't + động từ chính. Khi sử dụng could, nó thường biểu thị khả năng thực hiện một hành động, trong khi couldn't biểu thị không có khả năng thực hiện hành động đó.",
     "rule_en": "Use could for past ability and couldn't for past inability.",
     "common_error": "❌ He could have went to the hospital.  →  ✅ He could have gone to the hospital.",
     "in_context": [
@@ -817,6 +817,17 @@
           "answer": "couldn't"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng could và couldn't thường được sử dụng trong câu kể chuyện về quá khứ, đặc biệt là khi mô tả một sự kiện hoặc tình huống cụ thể.",
+      "Trong tiếng Anh, vị trí của could và couldn't trong câu thường khá linh hoạt, nhưng thường được đặt sau chủ ngữ và trước động từ chính.",
+      "Sử dụng could và couldn't trong tiếng Anh thường mang tính trang trọng, nhưng trong giao tiếp hàng ngày, người ta cũng có thể sử dụng chúng một cách thông thường.",
+      "Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa could và được able to, mặc dù cả hai đều chỉ khả năng, nhưng có sự khác biệt về cách sử dụng và ngữ cảnh."
+    ],
+    "in_context_vi": [
+      "Ai đó có thể gọi xe cứu thương ngay lập tức.",
+      "Bạn có thể cảnh báo mọi người khi thấy nguy hiểm.",
+      "Nhân viên cứu hộ có thể cứu những người đang gặp nguy hiểm."
+    ]
   }
 }

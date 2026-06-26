@@ -738,7 +738,7 @@
       "question": "Have/Has + subject + got + Object?",
       "variant": "have/has + Object (without got)"
     },
-    "rule_vi": "Dùng have/has got để nói về sở hữu ở hiện tại. Chủ ngữ số ít dùng has got, chủ ngữ số nhiều dùng have got.",
+    "rule_vi": "Cấu trúc Have/Has got được sử dụng để diễn đạt sở hữu ở hiện tại. Chủ ngữ số ít (người, động vật, sự vật riêng lẻ) dùng has got, còn chủ ngữ số nhiều (nhóm người, động vật, sự vật) dùng have got. Cấu trúc này thường được sử dụng trong câu để mô tả những thứ mà người hoặc động vật sở hữu. Việc sử dụng have/has got giúp người học thể hiện sự sở hữu một cách rõ ràng và chính xác.",
     "rule_en": "Use have/has got to express possession in the present.",
     "common_error": "❌ She have got a cat.  →  ✅ She has got a cat.",
     "in_context": [
@@ -881,6 +881,17 @@
           "answer": "haven't got"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Chú ý không được nhầm lẫn giữa have/has got và have/has khi nói về sở hữu, vì have/has thường được sử dụng trong câu hỏi và câu trả lời về sở hữu.",
+      "Vị trí của have/has got trong câu thường đứng sau chủ ngữ và trước tân ngữ, và có thể được sử dụng trong cả câu đơn và câu phức.",
+      "Trong tiếng Anh thông dụng, have/has got thường được sử dụng trong ngôn ngữ nói và viết không, trong khi trong ngôn ngữ, người ta thường sử dụng have/has.",
+      "Người học tiếng Anh thường gặp khó khăn khi sử dụng have/has got vì cấu trúc này khác với cấu trúc sở hữu trong tiếng Việt, do đó cần luyện tập thường xuyên để sử dụng chính xác."
+    ],
+    "in_context_vi": [
+      "Gia đình tôi có hai thú cưng — một con chó và một con mèo.",
+      "Con chó của tôi có lông mềm và cái đuôi dài.",
+      "Tôi yêu động vật."
+    ]
   }
 }

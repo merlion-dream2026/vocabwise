@@ -685,7 +685,7 @@
       "question": "Is/Are + Subject + the + adjective (est) / most + adjective + ... ?",
       "variant": "the + adjective + -est (for short adjectives) vs. the most + adjective (for longer adjectives)"
     },
-    "rule_vi": "Dùng để so sánh mức độ cao nhất trong một nhóm, thường dùng cấu trúc the + tính từ nhất hoặc the most + tính từ.",
+    "rule_vi": "Tính từ so sánh nhất dùng để mô tả mức độ cao nhất của một tính từ trong một nhóm. Cấu trúc thường dùng là the + tính từ nhất hoặc the most + tính từ. Ví dụ, nếu muốn nói về người cao nhất trong gia đình, ta dùng 'the tallest'. Tính từ so sánh nhất giúp người nói nhấn mạnh sự khác biệt hoặc đặc điểm nổi bật của một người, vật hoặc sự việc.",
     "rule_en": "Used to express the highest degree of a quality within a group.",
     "common_error": "❌ She is more beautiful than anyone.  →  ✅ She is the most beautiful of all.",
     "in_context": [
@@ -826,6 +826,17 @@
           "answer": "the smartest"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý không được nhầm lẫn giữa tính từ so sánh nhất và tính từ so sánh hơn, vì chúng có ý nghĩa và cách dùng khác nhau.",
+      "Vị trí của tính từ so sánh nhất trong câu thường là sau danh từ hoặc sau động từ 'to be', nhưng cũng có thể được dùng như một tính từ độc lập.",
+      "Trong tiếng Anh, tính từ so sánh nhất thường được dùng trong văn nói và văn viết, nhưng trong tiếng Việt, ta thường dùng từ 'nhất' hoặc 'hơn cả' để biểu thị ý nghĩa tương tự.",
+      "Một số tính từ không thể dùng với 'the most', mà phải dùng 'the + tính từ nhất', ví dụ như 'the oldest', 'the youngest',..."
+    ],
+    "in_context_vi": [
+      "Bố tôi là người cao nhất trong gia đình tôi.",
+      "Mẹ tôi là người đẹp nhất với mái tóc dài, uốn lượn.",
+      "Em trai tôi là người thấp nhất trong số các anh chị em tôi."
+    ]
   }
 }

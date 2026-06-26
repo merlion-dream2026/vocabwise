@@ -677,7 +677,7 @@
       "positive": "Subject + Verb (go/turn/walk) + Preposition + Direction phrase",
       "negative": "Subject + do not + Verb + Preposition + Direction phrase"
     },
-    "rule_vi": "Dùng các giới từ này để chỉ hướng di chuyển trong không gian, như đi thẳng, rẽ trái, đi qua hoặc băng qua.",
+    "rule_vi": "Giới từ và cụm từ chỉ hướng được sử dụng để chỉ hướng di chuyển trong không gian. Các giới từ như 'go straight', 'turn left', 'pass' và 'over' giúp chỉ dẫn người nghe hoặc người đọc về cách di chuyển từ điểm này đến điểm khác. Khi sử dụng các giới từ này, cần lưu ý đến cấu trúc câu và vị trí của chúng trong câu để đảm bảo ý nghĩa được truyền đạt rõ ràng. Các cụm từ chỉ hướng thường được sử dụng trong các tình huống chỉ đường, hướng dẫn hoặc mô tả vị trí của các địa điểm.",
     "rule_en": "Use these prepositions to describe movement from one place to another.",
     "common_error": "❌ He go straight to the library.  →  ✅ He goes straight to the library.",
     "in_context": [
@@ -821,6 +821,17 @@
           "answer": "left"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng 'go straight', cần lưu ý rằng nó thường được sử dụng để chỉ hướng di chuyển thẳng tiến mà không có sự thay đổi hướng.",
+      "Sự khác biệt giữa 'pass' và 'over' là 'pass' thường được sử dụng để chỉ việc đi qua một địa điểm hoặc một vật thể, trong khi 'over' thường được sử dụng để chỉ việc đi qua một chướng ngại vật hoặc một bề mặt.",
+      "Trong tiếng Anh, vị trí của các giới từ chỉ hướng thường được đặt sau động từ chỉ di chuyển, như 'go' hoặc 'walk'.",
+      "Người học tiếng Anh thường nhầm lẫn giữa 'turn left' và 'turn right', do đó cần lưu ý đến sự khác biệt giữa hai cụm từ này khi sử dụng."
+    ],
+    "in_context_vi": [
+      "Đi thẳng dọc con đường này một dãy nhà.",
+      "Sau đó rẽ trái tại góc phố lớn — bạn sẽ thấy một bảng hiệu ghi 'Thư Viện Thành Phố'.",
+      "Cô ấy đi qua một quán cà phê nhỏ ở bên phải và tiếp tục đi."
+    ]
   }
 }

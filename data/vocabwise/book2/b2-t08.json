@@ -704,7 +704,7 @@
       "question": "Do/Does Subject verb (avoid) + V‑ing?   /   Do/Does Subject verb (choose) + to + V?",
       "variant": "Subject + verb (prefer) + V‑ing / to + V"
     },
-    "rule_vi": "Dùng danh động từ (V‑ing) sau các động từ như avoid, enjoy; dùng động từ nguyên thể (to + V) sau các động từ như choose, plan.",
+    "rule_vi": "Danh động từ (V‑ing) và động từ nguyên thể (to + V) là hai dạng không chia của động từ được dùng sau các động từ, tính từ, danh từ hoặc giới từ. Danh động từ thường xuất hiện sau các động từ như avoid, enjoy, consider, suggest và sau mọi giới từ; trong khi động từ nguyên thể xuất hiện sau các động từ như choose, plan, want, need và sau tính từ hoặc danh từ. Khi một động từ cho phép cả hai dạng, nghĩa thường thay đổi: V‑ing diễn tả hành động chung, còn to + V nhấn mạnh mục đích hoặc quyết định. Không dùng to + V sau các động từ yêu cầu danh động từ.",
     "rule_en": "Use a gerund after verbs such as avoid, enjoy; use an infinitive after verbs such as choose, plan.",
     "common_error": "❌ He avoid to post  →  ✅ He avoids posting",
     "in_context": [
@@ -845,6 +845,37 @@
           "answer": "choose"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau một số động từ nhất định, phải dùng danh động từ (V‑ing).",
+        "examples": [
+          "❌ avoid to post → ✅ avoid posting"
+        ]
+      },
+      {
+        "text": "Sau một số động từ khác, phải dùng động từ nguyên thể (to + V).",
+        "examples": [
+          "❌ choose posting → ✅ choose to post"
+        ]
+      },
+      {
+        "text": "Sau giới từ luôn dùng danh động từ, không dùng to + V.",
+        "examples": [
+          "❌ interested in to learn → ✅ interested in learning"
+        ]
+      },
+      {
+        "text": "Một số động từ có thể đi cả hai dạng, nhưng nghĩa sẽ khác nhau.",
+        "examples": [
+          "❌ remember to lock the door (để nhớ thực hiện hành động) → ✅ remember locking the door (nhớ rằng đã khóa cửa)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Người dùng tránh đăng các bình luận mang tính xúc phạm để giữ cộng đồng thân thiện.",
+      "Việc sử dụng mạng xã hội một cách khôn ngoan là quan trọng, lựa chọn những gì nên theo dõi và chia sẻ một cách cẩn thận.",
+      "Các nhà sáng tạo thành công chọn đăng bài thường xuyên để giữ cho khán giả của họ luôn hứng thú."
+    ]
   }
 }

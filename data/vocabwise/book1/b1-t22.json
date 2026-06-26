@@ -669,7 +669,7 @@
       "question": "Does Subject linking verb adjective?",
       "variant": "Subject + linking verb + not + adjective"
     },
-    "rule_vi": "Dùng các động từ nối (look, feel, seem, sound) + tính từ để mô tả trạng thái, cảm xúc hoặc ấn tượng của người hoặc vật.",
+    "rule_vi": "Động từ nối (linking verbs) như look, feel, seem, sound không diễn tả hành động mà nối chủ ngữ với tính từ để mô tả trạng thái, cảm xúc hoặc ấn tượng. Khi dùng, tính từ luôn đứng ngay sau động từ nối. Cấu trúc cơ bản là: Chủ ngữ + động từ nối + tính từ. Động từ này thường xuất hiện trong câu khẳng định, phủ định và câu hỏi, và không cần tân ngữ.",
     "rule_en": "Use linking verbs + adjective to describe a state or impression.",
     "common_error": "❌ I look very happy **to** my friends.  →  ✅ I look very happy.",
     "in_context": [
@@ -809,6 +809,37 @@
           "answer": "calm"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tính từ phải đứng ngay sau động từ nối; nếu muốn nhấn mạnh mức độ, chỉ được đặt trạng từ trước tính từ, không được chèn giữa động từ và tính từ.",
+        "examples": [
+          "❌ I feel happy very → ✅ I feel very happy"
+        ]
+      },
+      {
+        "text": "Động từ nối không có tân ngữ; tính từ đóng vai trò bổ ngữ cho chủ ngữ.",
+        "examples": [
+          "❌ She looks the dress → ✅ She looks beautiful"
+        ]
+      },
+      {
+        "text": "Một số động từ có thể vừa là động từ hành động vừa là động từ nối; nghĩa phụ thuộc vào có hay không có tính từ sau nó.",
+        "examples": [
+          "She smells the flowers. (action) → The soup smells good. (linking)"
+        ]
+      },
+      {
+        "text": "‘Seem’ thường dùng trong ngữ cảnh trang trọng hơn, còn ‘look’ và ‘feel’ thường xuất hiện trong giao tiếp thân mật.",
+        "examples": [
+          "He seems tired. (formal) → He looks tired. (informal)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Đôi khi tôi cảm thấy rất vui vẻ và muốn hát.",
+      "Khi tôi có một bài thi lớn, tôi cảm thấy rất lo lắng và lo ngại.",
+      "Khi tôi cảm thấy sợ hãi, tôi nói chuyện với mẹ và luôn cảm thấy bình tĩnh sau đó."
+    ]
   }
 }

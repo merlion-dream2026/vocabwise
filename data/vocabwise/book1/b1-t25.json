@@ -733,7 +733,7 @@
       "positive": "Subject + Verb + Object",
       "question": "WH‑word + auxiliary (do/does/is/are) + subject + main verb"
     },
-    "rule_vi": "Dùng các từ để hỏi (who, what, where, when, why, how) để đặt câu hỏi về người, vật, địa điểm, thời gian, lý do và cách thức.",
+    "rule_vi": "Từ để hỏi là những từ được sử dụng để đặt câu hỏi về người, vật, địa điểm, thời gian, lý do và cách thức. Chúng bao gồm who, what, where, when, why và how. Khi sử dụng từ để hỏi, chúng ta thường đặt chúng ở đầu câu để bắt đầu một câu hỏi. Từ để hỏi giúp chúng ta thu thập thông tin và làm rõ những điều chưa biết.",
     "rule_en": "Use question words to ask about who, what, where, when, why, and how.",
     "common_error": "❌ Where you are from?  →  ✅ Where are you from?",
     "in_context": [
@@ -873,6 +873,17 @@
           "answer": "what"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng từ để hỏi thường được sử dụng ở đầu câu, nhưng trong một số trường hợp, chúng có thể được sử dụng ở giữa hoặc cuối câu để tạo ra một câu hỏi phức tạp hơn.",
+      "Sử dụng từ để hỏi một cách linh hoạt và phù hợp với ngữ cảnh, vì chúng có thể thay đổi ý nghĩa của câu hỏi tùy thuộc vào cách sử dụng.",
+      "Từ để hỏi có thể được sử dụng trong cả câu hỏi trực tiếp và gián tiếp, nhưng cần lưu ý về sự thay đổi trong cấu trúc câu khi sử dụng.",
+      "Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến việc sử dụng từ để hỏi phù hợp để tránh nhầm lẫn ý nghĩa"
+    ],
+    "in_context_vi": [
+      "Tôi hỏi những câu hỏi thân thiện như Bạn đến từ đâu?",
+      "Tôi hỏi những câu hỏi thân thiện như Quốc gia của bạn là gì?",
+      "Tôi thường hỏi Bạn thích thành phố này như thế nào?"
+    ]
   }
 }

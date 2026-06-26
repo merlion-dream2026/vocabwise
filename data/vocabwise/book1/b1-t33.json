@@ -732,7 +732,7 @@
     "form": {
       "positive": "Clause1 + (and | but | because | so) + Clause2"
     },
-    "rule_vi": "Dùng **and** để nối hai ý đồng thời, **but** để nối ý trái ngược, **because** để chỉ nguyên nhân, **so** để chỉ kết quả.",
+    "rule_vi": "Liên từ cơ bản là những từ dùng để nối các ý trong câu lại với nhau. Liên từ **and** được sử dụng để nối hai ý đồng thời, thể hiện sự kết hợp hoặc thêm vào. Liên từ **but** dùng để nối ý trái ngược, chỉ ra sự khác biệt hoặc đối lập. Liên từ **because** và **so** được sử dụng để chỉ nguyên nhân và kết quả, giúp làm rõ mối quan hệ giữa các ý. Việc sử dụng đúng liên từ giúp câu văn trở nên rõ ràng và logic hơn.",
     "rule_en": "Use **and** to add ideas, **but** to contrast, **because** for reason, **so** for result.",
     "common_error": "❌ I stayed home **and** it was raining.  →  ✅ I stayed home **because** it was raining.",
     "in_context": [
@@ -884,6 +884,17 @@
           "answer": "so"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng **and**, cần lưu ý rằng nó thường được dùng để nối hai ý có cùng cấp độ quan trọng, giúp câu văn trở nên cân bằng hơn.",
+      "Liên từ **but** thường được đặt sau dấu phẩy, giúp tách biệt hai ý trái ngược và tạo sự rõ ràng cho câu văn.",
+      "Sử dụng **because** và **so** cần có sự logic và phù hợp với ngữ cảnh, tránh sử dụng một cách máy móc hoặc không phù hợp.",
+      "Một điểm cần lưu ý là trong tiếng Việt, chúng ta thường sử dụng từ 'vì' và 'nên' để thể hiện nguyên nhân và kết quả, nhưng trong tiếng Anh, **because** và **so** có thể được sử dụng trong nhiều trường hợp khác nhau."
+    ],
+    "in_context_vi": [
+      "Mỗi trang đều đầy ắp những ý tưởng thú vị và tôi không bao giờ cảm thấy chán.",
+      "Tôi luôn viết tiêu đề ở đầu trang để biết mỗi trang nói về điều gì.",
+      "Tôi yêu đọc sách, nhưng đôi khi tôi quên mang sách đến lớp."
+    ]
   }
 }

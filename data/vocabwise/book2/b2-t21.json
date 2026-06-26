@@ -743,7 +743,7 @@
       "question": "If + Subject + Verb (present simple), will/would Subject + Verb?",
       "variant": "If + Subject + Verb (present simple), Subject + can + Verb (base form)"
     },
-    "rule_vi": "Dùng câu điều kiện loại 1 khi nói về một khả năng thực tế trong tương lai; dùng câu điều kiện loại 2 khi nói về một tình huống không có thật hoặc khó xảy ra trong hiện tại.",
+    "rule_vi": "Câu điều kiện loại 1 (First Conditional) dùng để nói về một khả năng thực tế hoặc một kết quả có thể xảy ra trong tương lai; cấu trúc là If + hiện tại đơn, … will/can/may + động từ nguyên mẫu. Câu điều kiện loại 2 (Second Conditional) diễn tả một tình huống không có thật hoặc khó xảy ra ở hiện tại; cấu trúc là If + quá khứ đơn, … would + động từ nguyên mẫu. Trong loại 1, mệnh đề chính thường dùng các động từ khiếm khuyết như will, can, may để chỉ khả năng hoặc dự đoán. Trong loại 2, would (có thể kèm could, might) biểu thị kết quả giả định, không thực tế.",
     "rule_en": "Use the first conditional for real future possibilities and the second conditional for unreal or unlikely present situations.",
     "common_error": "❌ If I will have more money, I would travel.  →  ✅ If I have more money, I will travel. (or If I had more money, I would travel.)",
     "in_context": [
@@ -907,6 +907,41 @@
           "answer": "could"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "If‑clause thường đứng trước mệnh đề chính và cần dấu phẩy; nếu đặt sau, không cần dấu phẩy.",
+        "examples": [
+          "✅ If you study, you will pass.",
+          "✅ You will pass if you study"
+        ]
+      },
+      {
+        "text": "Trong loại 1 dùng will, can, may; trong loại 2 dùng would, could, might để phản ánh mức độ giả định.",
+        "examples": [
+          "✅ If you work hard, you will succeed.",
+          "❌ If you work hard, you would succeed."
+        ]
+      },
+      {
+        "text": "Không được dùng thì hiện tại trong mệnh đề chính của loại 2; phải dùng would + động từ nguyên mẫu.",
+        "examples": [
+          "❌ If I had money, I buy a car.",
+          "✅ If I had money, I would buy a car."
+        ]
+      },
+      {
+        "text": "Câu điều kiện loại 2 yêu cầu dạng động từ quá khứ giả định (were) khi chủ ngữ là I, he, she, it; không dùng was.",
+        "examples": [
+          "❌ If he is rich, he would travel.",
+          "✅ If he were rich, he would travel."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu bạn hiểu thu nhập của mình, bạn có thể lập một ngân sách.",
+      "Nếu bạn tiết kiệm ít nhất 10% thu nhập, bạn sẽ xây dựng một quỹ dự phòng.",
+      "Nếu bạn vay tiền mà không có kế hoạch, bạn sẽ gặp khó khăn trong việc trả nợ."
+    ]
   }
 }

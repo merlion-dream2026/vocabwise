@@ -670,7 +670,7 @@
       "question": "Could you + base verb + (object)?",
       "variant": "Would you + base verb + (object)?"
     },
-    "rule_vi": "Dùng 'Could' hoặc 'Would' để yêu cầu lịch sự; thường đặt sau đại từ nhân xưng.",
+    "rule_vi": "Động từ khuyết thiếu 'Could' và 'Would' được sử dụng để thể hiện yêu cầu lịch sự trong tiếng Anh. Cấu trúc này thường được đặt sau đại từ nhân xưng, tạo thành câu hỏi hoặc câu yêu cầu lịch sự. Sự khác biệt chính giữa 'Could' và 'Would' là 'Could' thường được sử dụng để yêu cầu giúp đỡ hoặc chỉ dẫn, trong khi 'Would' thường được sử dụng để đề nghị hoặc hỏi ý kiến. Khi sử dụng 'Could' và 'Would', người nói thể hiện sự tôn trọng và lịch sự với người nghe.",
     "rule_en": "Use 'Could' or 'Would' to make polite requests.",
     "common_error": "❌ Could you to help me?  →  ✅ Could you help me?",
     "in_context": [
@@ -815,6 +815,17 @@
           "answer": "Could"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng 'Could' và 'Would', cần chú ý đến vị trí của chúng trong câu, thường được đặt sau đại từ nhân xưng.",
+      "Sự khác biệt về mức độ lịch sự giữa 'Could' và 'Would' là rất quan trọng, 'Could' thường được sử dụng trong trường hợp cần giúp đỡ hoặc chỉ dẫn, trong khi 'Would' thường được sử dụng trong trường hợp đề nghị hoặc hỏi ý kiến.",
+      "Trong tiếng Anh, cấu trúc 'Could' và 'Would' thường được sử dụng trong giao tiếp hàng ngày, đặc biệt là trong môi trường làm việc hoặc giao tiếp chính thức.",
+      "Người học tiếng Anh thường nhầm lẫn giữa 'Could' và 'Would', vì vậy cần phải luyện tập và sử dụng chúng một cách chính xác trong câu."
+    ],
+    "in_context_vi": [
+      "Lan hỏi nhân viên, cô có thể giúp cô với bưu kiện được không?",
+      "Nhân viên nói, cô có muốn trả thêm phí cho dịch vụ nhanh không?",
+      "Trước khi rời đi, Lan nói lịch sự, cô có thể cho cô biết nơi theo dõi bưu kiện của cô được không?"
+    ]
   }
 }

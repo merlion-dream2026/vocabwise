@@ -735,7 +735,7 @@
       "question": "Am/Is/Are + Subject + going to + base verb",
       "variant": "going to + infinitive (future intention)"
     },
-    "rule_vi": "Dùng 'going to' để nói về kế hoạch hoặc dự định trong tương lai.",
+    "rule_vi": "Cấu trúc 'be + going to + V' được dùng để nói về kế hoạch hoặc dự định đã được quyết định trước trong tương lai. Chủ ngữ đi kèm với động từ to be (am, is, are) ở hiện tại, sau đó là 'going to' và nguyên thể của động từ chính. Cấu trúc này chỉ dùng để diễn tả ý định, dự định hoặc dự báo dựa trên bằng chứng hiện tại. Khi muốn hỏi hoặc phủ định, chỉ cần đảo vị trí của 'be' hoặc thêm 'not' sau 'be'.",
     "rule_en": "Use 'going to' to talk about future plans or intentions.",
     "common_error": "❌ I going to celebrate → ✅ I am going to celebrate",
     "in_context": [
@@ -884,6 +884,38 @@
           "answer": "visit"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau động từ to be luôn đặt 'going to', không được chèn bất kỳ từ nào khác.",
+        "examples": [
+          "❌ I will going to eat → ✅ I am going to eat"
+        ]
+      },
+      {
+        "text": "Dùng để nói về kế hoạch đã có, không dùng cho quyết định đột xuất.",
+        "examples": [
+          "✅ We are going to visit the museum tomorrow",
+          "❌ I am going to decide now → ✅ I will decide now"
+        ]
+      },
+      {
+        "text": "Phủ định bằng cách thêm 'not' ngay sau 'be'.",
+        "examples": [
+          "✅ She is not going to join us"
+        ]
+      },
+      {
+        "text": "Câu hỏi được hình thành bằng cách đảo vị trí của 'be'.",
+        "examples": [
+          "✅ Are you going to come?"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các gia đình sẽ cùng nhau tụ tập để ăn mừng và chia sẻ những món ăn ngon.",
+      "Trẻ em sẽ cầm những chiếc bóng bay trên phố.",
+      "Khán giả sẽ đứng dọc các con đường để xem lính, ban nhạc và những chiếc xe hoa đầy màu sắc đi qua."
+    ]
   }
 }

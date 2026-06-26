@@ -735,7 +735,7 @@
       "question": "Did + Subject + Verb + ReflexivePronoun?",
       "variant": "Subject + ReflexivePronoun + Verb (intensive use)"
     },
-    "rule_vi": "Đại từ phản thân được dùng khi chủ ngữ và tân ngữ là cùng một người hoặc vật.",
+    "rule_vi": "Đại từ phản thân là những từ được sử dụng để chỉ người hoặc vật thực hiện hành động cũng là người hoặc vật nhận hành động. Chúng được dùng khi chủ ngữ và tân ngữ là cùng một người hoặc vật, giúp tránh lặp lại danh từ hoặc đại từ. Đại từ phản thân bao gồm myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. Khi sử dụng đại từ phản thân, cần đảm bảo rằng chủ ngữ và tân ngữ là cùng một thực thể.",
     "rule_en": "Reflexive pronouns are used when the subject and object refer to the same person or thing.",
     "common_error": "❌ She gave the book to myself → ✅ She gave the book to me",
     "in_context": [
@@ -878,6 +878,17 @@
           "answer": "ourselves"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Đại từ phản thân thường được sử dụng trong câu để tránh lặp lại danh từ hoặc đại từ, giúp câu trở nên ngắn gọn và rõ ràng hơn.",
+      "Vị trí của đại từ phản thân trong câu thường là sau động từ, nhưng cũng có thể được đặt ở đầu hoặc giữa câu để nhấn mạnh.",
+      "Đại từ phản thân có thể được sử dụng trong cả câu khẳng định và câu phủ định, nhưng cần lưu ý đến vị trí và chức năng của chúng trong câu.",
+      "Một điểm cần lưu ý là đại từ phản thân không được sử dụng như một chủ ngữ, mà chỉ được sử dụng như một tân ngữ hoặc một bổ ngữ."
+    ],
+    "in_context_vi": [
+      "Tôi luôn sử dụng một danh sách kiểm tra để đảm bảo rằng tôi không quên gì myself.",
+      "Trước khi đi du lịch, tôi nhắc nhở myself đóng gói hành lý từ đêm hôm trước.",
+      "Điều quan trọng cũng là xác nhận chính mình rằng đặt chỗ là chính xác."
+    ]
   }
 }

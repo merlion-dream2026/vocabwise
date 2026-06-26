@@ -672,7 +672,7 @@
       "negative": "Do not + Verb (base) + (object/complement)",
       "variant": "Let's + Verb (base) + (object/complement)"
     },
-    "rule_vi": "Dùng câu mệnh lệnh để đưa ra chỉ dẫn hoặc yêu cầu ai đó làm gì.",
+    "rule_vi": "Câu mệnh lệnh là loại câu dùng để đưa ra chỉ dẫn, yêu cầu hoặc lệnh cho người khác thực hiện một hành động nào đó. Câu mệnh lệnh thường bắt đầu bằng một động từ và không có chủ ngữ. Trong tiếng Anh, câu mệnh lệnh thường được sử dụng để hướng dẫn, chỉ dẫn hoặc yêu cầu ai đó làm gì, và thường được sử dụng trong các tình huống hàng ngày như trong lớp học, tại nơi làm việc hoặc trong gia đình. Để tạo thành một câu mệnh lệnh, người ta thường sử dụng động từ ở dạng cơ bản, sau đó có thể thêm các thành phần khác như tân từ hoặc giới từ để chỉ rõ hành động và đối tượng.",
     "rule_en": "Use imperatives to give instructions or commands.",
     "common_error": "❌ Please don't to be late → ✅ Please don't be late",
     "in_context": [
@@ -814,6 +814,17 @@
           "answer": "go"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng câu mệnh lệnh, cần lưu ý về mức độ trang trọng và không trang trọng, vì trong tiếng Anh, câu mệnh lệnh có thể được sử dụng một cách trang trọng hoặc không trang trọng tùy thuộc vào tình huống và mối quan hệ giữa người nói và người nghe.",
+      "Câu mệnh lệnh thường được sử dụng trong các tình huống hàng ngày, nhưng cũng cần lưu ý về vị trí của các từ như 'please' để thể hiện sự lịch sự hoặc giảm nhẹ yêu cầu.",
+      "Người học tiếng Anh thường gặp khó khăn khi sử dụng câu mệnh lệnh do sự khác biệt về cấu trúc câu và sử dụng động từ so với tiếng Việt, vì vậy cần luyện tập và chú ý đến các ví dụ và tình huống cụ thể.",
+      "Câu mệnh lệnh cũng có thể được sử dụng để đưa ra lời khuyên hoặc cảnh báo, và trong những trường hợp này, cần sử dụng các động từ và cụm từ phù hợp để thể hiện mức độ nghiêm trọng hoặc quan trọng."
+    ],
+    "in_context_vi": [
+      "Khi chuông reo, hãy lắng nghe cẩn thận.",
+      "Học sinh, hãy mở sách và viết câu trả lời.",
+      "Vào cuối ngày, hãy rời khỏi lớp học một cách yên tĩnh."
+    ]
   }
 }

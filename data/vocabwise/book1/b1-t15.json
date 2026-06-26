@@ -673,7 +673,7 @@
       "question": "Is/Are + Subject + a/an/the + Noun?",
       "variant": "Subject + the + adjective + Noun + Verb"
     },
-    "rule_vi": "Dùng a/an cho danh từ đếm số ít chưa xác định; dùng the cho danh từ đã được nhắc tới hoặc duy nhất; không dùng mạo từ (zero) cho danh từ không đếm được, số nhiều chung, và các danh từ chung chung.",
+    "rule_vi": "Mạo từ là một phần quan trọng trong tiếng Anh, giúp chỉ định danh từ và cung cấp thông tin về sự xác định hoặc không xác định của nó. Mạo từ 'a' và 'an' được sử dụng trước danh từ đếm số ít chưa xác định, trong khi 'the' được sử dụng trước danh từ đã được nhắc tới hoặc duy nhất. Ngoài ra, không dùng mạo từ (zero article) được sử dụng với danh từ không đếm được, số nhiều chung, và các danh từ chung chung. Việc sử dụng mạo từ đúng cách giúp người học tiếng Anh thể hiện sự chính xác và rõ ràng trong giao tiếp.",
     "rule_en": "Use a/an for an unspecified singular countable noun, the for a specific or previously mentioned noun, and zero article for uncountable or plural nouns used generally.",
     "common_error": "❌ I saw **the** dog in park. → ✅ I saw **a** dog in the park.",
     "in_context": [
@@ -821,6 +821,17 @@
           "answer": "the"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm quan trọng cần lưu ý là 'a' được sử dụng trước danh từ bắt đầu bằng phụ âm, trong khi 'an' được sử dụng trước danh từ bắt đầu bằng nguyên âm.",
+      "Vị trí của mạo từ trong câu thường là trước danh từ, nhưng có thể thay đổi tùy thuộc vào cấu trúc câu và ngữ pháp.",
+      "Sử dụng mạo từ đúng cách cũng phụ thuộc vào cấp độ hình thức của ngôn ngữ, với ngôn ngữ thường yêu cầu sử dụng mạo từ chính xác hơn.",
+      "Người học tiếng Anh thường gặp khó khăn khi sử dụng mạo từ do sự khác biệt giữa tiếng Anh và tiếng Việt, vì vậy việc luyện tập và thực hành là rất quan trọng."
+    ],
+    "in_context_vi": [
+      "Mỗi sáng Chủ Nhật, tôi đến công viên gần nhà.",
+      "Đó là một không gian mở đẹp đẽ đầy cây cối và cỏ.",
+      "Trẻ em chơi đùa xung quanh đài phun nước ở giữa công viên."
+    ]
   }
 }

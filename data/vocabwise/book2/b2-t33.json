@@ -737,7 +737,7 @@
       "question": "Did + Subject + Verb? | Was + Subject + Verb‑ing? | Had + Subject + Verb‑ed?",
       "variant": "Subject + had been + Verb‑ing (Past Perfect Continuous) – optional for extended narrative"
     },
-    "rule_vi": "Dùng Past Simple để mô tả hành động hoàn thành, Past Continuous cho hành động đang diễn ra trong quá khứ, và Past Perfect để chỉ hành động đã xảy ra trước một thời điểm hoặc hành động khác trong quá khứ.",
+    "rule_vi": "Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuous và Past Perfect. Past Simple diễn tả hành động hoặc trạng thái đã hoàn thành trong quá khứ, thường là các sự kiện chính của câu chuyện. Past Continuous mô tả hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ, hoặc làm nền cho một hành động ngắn hơn. Past Perfect chỉ ra một hành động đã xảy ra trước một thời điểm hoặc hành động khác trong quá khứ, giúp nhấn mạnh thứ tự thời gian.",
     "rule_en": "Use Past Simple for completed actions, Past Continuous for ongoing past actions, and Past Perfect for actions that happened before another past event.",
     "common_error": "❌ *She was wrote the chapter yesterday.* → ✅ *She wrote the chapter yesterday.*",
     "in_context": [
@@ -896,6 +896,37 @@
           "answer": "had"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Past Perfect thường xuất hiện trước Past Simple để chỉ thứ tự thời gian, thường đi kèm từ chỉ thời gian như by the time, before, after.",
+        "examples": [
+          "❌ He arrived after she left → ✅ He arrived after she had left"
+        ]
+      },
+      {
+        "text": "Past Continuous dùng để tạo nền cho câu chuyện; hành động nền thường kéo dài, trong khi hành động ngắn hơn dùng Past Simple.",
+        "examples": [
+          "The storm was raging, and the ship crashed."
+        ]
+      },
+      {
+        "text": "Khi một hành động ngắn hơn (Past Simple) xảy ra trong một hành động đang diễn ra (Past Continuous), ta dùng cấu trúc Past Continuous + Past Simple.",
+        "examples": [
+          "❌ While I was cooking dinner, the phone rang → ✅ While I was cooking dinner, the phone rang"
+        ]
+      },
+      {
+        "text": "Tránh nhầm lẫn giữa Past Simple và Past Perfect khi nói về một hành động đã hoàn thành trước một thời điểm trong quá khứ; nếu không có sự so sánh thời gian, dùng Past Simple.",
+        "examples": [
+          "❌ She had visited Paris last year → ✅ She visited Paris last year"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sách đã hình thành nền văn hoá nhân loại trong hàng ngàn năm.",
+      "Một tác giả tài năng đang xây dựng một cốt truyện hấp dẫn — một chuỗi các sự kiện khiến độc giả không ngừng lật trang.",
+      "Chủ đề vẫn còn lưu lại trong tâm trí độc giả lâu sau chương cuối cùng."
+    ]
   }
 }

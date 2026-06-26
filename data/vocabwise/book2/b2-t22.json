@@ -796,7 +796,7 @@
     "form": {
       "positive": "Gerund (subject) + verb … | verb + Gerund (object)"
     },
-    "rule_vi": "Dùng danh động từ làm chủ ngữ khi hành động được xem như một khái niệm chung; dùng làm tân ngữ sau các động từ như enjoy, consider, prefer, …",
+    "rule_vi": "Danh động từ (verb‑ing) có thể làm chủ ngữ hoặc tân ngữ trong câu. Khi hành động được xem như một khái niệm chung, không nhấn mạnh người thực hiện, ta dùng danh động từ làm chủ ngữ; cấu trúc: [Verb‑ing] + verb. Khi danh động từ đứng sau một động từ, tính từ hoặc giới từ, nó đóng vai trò tân ngữ; cấu trúc: verb + [Verb‑ing]. Danh động từ thường xuất hiện sau các động từ cảm xúc (enjoy, consider, prefer, avoid, recommend…) và sau các giới từ (by, for, about, with…).",
     "rule_en": "Use a gerund as the subject when the action is treated as a thing, and as an object after verbs that take -ing forms.",
     "common_error": "❌ *To start* a business is risky → ✅ Starting a business is risky",
     "in_context": [
@@ -943,6 +943,38 @@
           "answer": "saving"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi danh động từ làm chủ ngữ, động từ sau nó luôn chia ở dạng số ít.",
+        "examples": [
+          "❌ Starting a new business are exciting → ✅ Starting a new business is exciting"
+        ]
+      },
+      {
+        "text": "Sau một số động từ nhất định, chúng ta dùng danh động từ, không dùng to‑infinitive.",
+        "examples": [
+          "❌ I enjoy to start a business → ✅ I enjoy starting a business"
+        ]
+      },
+      {
+        "text": "Sau giới từ, danh động từ là dạng duy nhất được chấp nhận; không dùng nguyên mẫu.",
+        "examples": [
+          "❌ He is interested in start a business → ✅ He is interested in starting a business"
+        ]
+      },
+      {
+        "text": "Trong các cấu trúc cố định như look forward to, be used to, danh động từ là bắt buộc và mang tính trang trọng hơn so với cách diễn đạt khác.",
+        "examples": [
+          "✅ I look forward to meeting you",
+          "❌ I look forward to meet you → ✅ I look forward to meeting you"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Bắt đầu một doanh nghiệp mới là một việc thú vị nhưng đầy thách thức.",
+      "Hiểu ai là khách hàng và họ cần gì là điều thiết yếu.",
+      "Xây dựng một thương hiệu mạnh — danh tính và hình ảnh khiến doanh nghiệp được nhận diện — là một trong những khoản đầu tư có giá trị nhất mà chủ doanh nghiệp có thể thực hiện."
+    ]
   }
 }

@@ -701,7 +701,7 @@
       "positive": "Clause + because of / due to / as a result of + Noun Phrase   OR   Clause + therefore + Clause",
       "variant": "as a consequence of"
     },
-    "rule_vi": "Dùng các liên từ này để nối nguyên nhân và kết quả; 'because of', 'due to', và 'as a result of' đi trước danh từ, còn 'therefore' nối hai mệnh đề độc lập.",
+    "rule_vi": "Liên từ nhân quả dùng để nối nguyên nhân với kết quả. \"because of\", \"due to\" và \"as a result of\" luôn đứng trước một danh từ hoặc cụm danh từ, tạo thành cụm danh từ chỉ nguyên nhân. \"therefore\" là liên từ nối hai mệnh đề độc lập, thường đặt ở đầu câu thứ hai và đi kèm dấu chấm hoặc dấu chấm phẩy. Khi dùng \"therefore\", kết quả được đặt sau dấu câu, không cần thêm giới từ.",
     "rule_en": "Use these linkers to connect cause and effect; the first three precede a noun phrase, while 'therefore' links two independent clauses.",
     "common_error": "❌ The temperature is rising because of the ice melts.  →  ✅ The temperature is rising as a result of the ice melting.",
     "in_context": [
@@ -854,6 +854,37 @@
           "answer": "because of"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "because of / due to / as a result of luôn phải theo sau một danh từ hoặc cụm danh từ, không được dùng trực tiếp trước một mệnh đề.",
+        "examples": [
+          "❌ because of it is raining → ✅ because of the rain"
+        ]
+      },
+      {
+        "text": "\"therefore\" nối hai câu độc lập; trước nó nên dùng dấu chấm hoặc dấu chấm phẩy, không dùng dấu phẩy đơn.",
+        "examples": [
+          "❌ The temperature rose, therefore the ice melted → ✅ The temperature rose; therefore the ice melted"
+        ]
+      },
+      {
+        "text": "\"due to\" và \"as a result of\" mang tính trang trọng hơn \"because of\", thích hợp cho văn bản học thuật hoặc báo cáo.",
+        "examples": [
+          "✅ The experiment failed due to contamination."
+        ]
+      },
+      {
+        "text": "\"therefore\" chỉ diễn tả kết quả, không thể thay thế cho \"because of\"; tránh nhầm lẫn giữa nguyên nhân và kết quả.",
+        "examples": [
+          "❌ The road was slippery, therefore because of rain. → ✅ The road was slippery because of rain."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các nhà khoa học đồng ý rằng bầu khí quyển của Trái Đất đang ấm lên ở mức nguy hiểm, chủ yếu do lượng lớn khí thải carbon được thải ra khi đốt nhiên liệu hoá thạch như than, dầu và khí đốt.",
+      "Các tác động của biến đổi khí hậu đã có thể nhìn thấy, do sự gia tăng các hiện tượng thời tiết cực đoan như hạn hán, lũ lụt và bão mạnh.",
+      "Nhiều quốc gia đã ký các thỏa thuận quốc tế để giảm phát thải và làm chậm quá trình ấm lên toàn cầu. Do đó, họ đã đặt ra các mục tiêu cụ thể để giảm ô nhiễm vào một thời điểm nhất định."
+    ]
   }
 }

@@ -714,7 +714,7 @@
       "question": "Is/Are + Subject + more + Adjective + than + Object?",
       "variant": "Comparative with -er (e.g., bigger, faster) + than + Object"
     },
-    "rule_vi": "Dùng cấu trúc so sánh hơn để so sánh hai đối tượng, thường dùng more/less/not as...as + tính từ + than/as.",
+    "rule_vi": "Cấu trúc so sánh hơn dùng để so sánh mức độ của hai đối tượng. Khi tính từ ngắn (một âm tiết) hoặc có dạng -er, dùng dạng tính từ + er/thân + than; với tính từ dài (hai âm tiết trở lên) dùng more/less + adjective + than. Đối với so sánh bằng, dùng not as + adjective + as. Cấu trúc chung: more/less + adjective + than … hoặc not as + adjective + as ….",
     "rule_en": "Use the comparative form to compare two things, with more/less/not as … as + adjective + than/as.",
     "common_error": "❌ City is more crowded then countryside.  →  ✅ City is more crowded than the countryside.",
     "in_context": [
@@ -865,6 +865,37 @@
           "answer": "less"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau dạng so sánh hơn luôn cần từ 'than' để nối với đối tượng so sánh.",
+        "examples": [
+          "❌ He is taller his brother → ✅ He is taller than his brother"
+        ]
+      },
+      {
+        "text": "Cấu trúc 'not as … as' diễn tả mức độ bằng nhau hoặc thấp hơn, không dùng để chỉ mức độ cao hơn.",
+        "examples": [
+          "❌ The car is not as fast as the bike → ✅ The car is not as fast as the bike"
+        ]
+      },
+      {
+        "text": "Với tính từ dài (hai âm tiết trở lên) không thêm -er/-est mà dùng more/less.",
+        "examples": [
+          "❌ The movie is interestinger → ✅ The movie is more interesting"
+        ]
+      },
+      {
+        "text": "Trong câu so sánh, tính từ luôn đứng sau chủ ngữ và trước 'than', không đảo vị trí.",
+        "examples": [
+          "❌ More crowded are the cities than rural areas → ✅ Cities are more crowded than rural areas"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các thành phố đông đúc hơn so với các khu vực nông thôn.",
+      "Sống ở ngoại ô mang lại không gian rộng hơn so với trung tâm thành phố.",
+      "Cuộc sống nông thôn không đắt đỏ bằng cuộc sống thành thị."
+    ]
   }
 }

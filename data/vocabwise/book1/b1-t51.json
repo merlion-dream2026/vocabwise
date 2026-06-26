@@ -738,7 +738,7 @@
       "question": "Auxiliary verb + Subject + ... ?",
       "variant": "Yes, … / No, …"
     },
-    "rule_vi": "Dùng câu trả lời ngắn để trả lời nhanh các câu hỏi Yes/No, thường bắt đầu bằng Yes hoặc No rồi theo sau là đại từ và động từ.",
+    "rule_vi": "Câu trả lời ngắn là một loại câu trả lời đơn giản và nhanh chóng, thường được sử dụng để trả lời các câu hỏi Yes/No. Câu trả lời ngắn thường bắt đầu bằng 'Yes' hoặc 'No', sau đó là đại từ và động từ. Ví dụ, khi ai đó hỏi 'Bạn có thể nói tiếng Anh không?', bạn có thể trả lời 'Yes, I can' hoặc 'No, I don't'. Câu trả lời ngắn giúp người nói thể hiện sự đồng ý hoặc không đồng ý một cách nhanh chóng và rõ ràng.",
     "rule_en": "Use short answers to give a brief yes/no response, starting with Yes or No followed by the appropriate subject and verb.",
     "common_error": "❌ Yes, I don't  →  ✅ No, I don't",
     "in_context": [
@@ -875,6 +875,17 @@
           "answer": "Yes I am"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng câu trả lời ngắn, cần lưu ý đến vị trí của đại từ và động từ, vì nó có thể thay đổi ý nghĩa của câu.",
+      "Câu trả lời ngắn thường được sử dụng trong các tình huống thông thường, như khi gặp gỡ người mới hoặc khi tham gia vào các cuộc trò chuyện hàng ngày.",
+      "Cần phân biệt giữa 'Yes, I do' và 'Yes, I can', vì hai câu này có ý nghĩa khác nhau. 'Yes, I do' thường được sử dụng để trả lời các câu hỏi về thói quen hoặc hành động, trong khi 'Yes, I can' thường được sử dụng để trả lời các câu hỏi về khả năng hoặc năng lực.",
+      "Khi sử dụng câu trả lời ngắn, cũng cần lưu ý đến mức độ trang trọng của tình huống, vì trong một số trường hợp, câu trả lời ngắn có thể được coi là không trang trọng hoặc thiếu lịch sự."
+    ],
+    "in_context_vi": [
+      "Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói 'Xin chào' hoặc 'Chào'. Nếu họ hỏi bạn 'Bạn có thể nói tiếng Anh không?', bạn có thể trả lời 'Vâng, tôi có thể'.",
+      "Điều quan trọng là phải lịch sự và mỉm cười khi gặp gỡ người mới. Nếu họ hỏi bạn 'Bạn có nghĩ rằng điều này quan trọng không?', bạn có thể trả lời 'Vâng, tôi nghĩ vậy'.",
+      "Khi bạn ra về, bạn nói 'Tạm biệt' hoặc 'Bye'. Nếu họ hỏi bạn 'Bạn có nói goodbye khi bạn rời đi không?', bạn có thể trả lời 'Vâng, tôi có'."
+    ]
   }
 }

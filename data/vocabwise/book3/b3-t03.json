@@ -679,7 +679,7 @@
       "positive": "Adverbial phrase (e.g., Rarely, Never, Seldom) + auxiliary verb + subject + main verb",
       "variant": "Not only + clause, but also + clause"
     },
-    "rule_vi": "Khi muốn nhấn mạnh, đặt trạng từ chỉ mức độ (Rarely, Never, Seldom…) hoặc cấu trúc Not only...but also... lên đầu câu, rồi đảo trợ động từ và chủ ngữ.",
+    "rule_vi": "Đảo ngữ nhấn mạnh là một cấu trúc ngữ pháp được sử dụng để nhấn mạnh một ý tưởng hoặc một thông tin trong câu. Khi muốn nhấn mạnh, người ta thường đặt trạng từ chỉ mức độ như Rarely, Never, Seldom… hoặc cấu trúc Not only...but also... lên đầu câu, rồi đảo trợ động từ và chủ ngữ. Điều này giúp tạo ra một hiệu ứng nhấn mạnh và thu hút sự chú ý của người nghe hoặc người đọc. Cấu trúc này thường được sử dụng trong văn viết và nói正式 để thể hiện sự trang trọng và chuyên nghiệp.",
     "rule_en": "Use inversion after negative or restrictive adverbs, or in the correlative construction Not only...but also... to give emphasis.",
     "common_error": "❌ Rarely the society values depth.  →  ✅ Rarely does society value depth.",
     "in_context": [
@@ -827,6 +827,17 @@
           "answer": "Rarely"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng khi sử dụng đảo ngữ nhấn mạnh, cần phải đảo trợ động từ và chủ ngữ một cách chính xác để tránh sai sót ngữ pháp.",
+      "Đảo ngữ nhấn mạnh thường được sử dụng trong văn viết và nói chính thức, nhưng trong văn nói thông thường, người ta thường sử dụng cấu trúc câu đơn giản hơn.",
+      "Người học tiếng Anh thường nhầm lẫn giữa đảo ngữ nhấn mạnh và cấu trúc câu hỏi, vì cả hai đều có thể có cấu trúc tương tự.",
+      "Đảo ngữ nhấn mạnh cũng có thể được sử dụng để thể hiện sự bất ngờ hoặc sự ngạc nhiên, vì vậy người học cần phải hiểu rõ ngữ cảnh và ý nghĩa của câu để sử dụng cấu trúc này một cách hiệu quả."
+    ],
+    "in_context_vi": [
+      "Trong xã hội hiện đại, hiếm khi ưu tiên chiều sâu hơn chiều rộng, ngay cả khi các nền tảng kỹ thuật số ngày càng phổ biến.",
+      "Không chỉ các nhà nghiên cứu đề xuất rằng sự dễ bị tổn thương là một điểm mạnh, mà họ còn nhấn mạnh vai trò của nó trong việc xây dựng các kết nối chân thực.",
+      "Chúng ta chưa từng chứng kiến sự thay đổi nhanh chóng như vậy trong cách các mối quan hệ được hình thành, khiến cho việc nghiên cứu động lực xã hội trở nên cấp thiết hơn bao giờ hết."
+    ]
   }
 }

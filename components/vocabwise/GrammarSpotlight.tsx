@@ -13,7 +13,7 @@ export type GrammarSpotlightData = {
   form: { positive: string; negative?: string; question?: string; variant?: string }
   rule_vi: string
   rule_en: string
-  usage_notes?: Array<{ text: string; examples?: string[] }>
+  usage_notes?: Array<{ text: string; examples?: string[] } | string>
   common_error: string
   in_context: string[]
   in_context_vi?: string[]
@@ -77,21 +77,25 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
             <p className="text-sm text-gray-700 leading-relaxed">{data.rule_vi}</p>
             {data.usage_notes && data.usage_notes.length > 0 && (
               <ul className="space-y-2.5 mt-1">
-                {data.usage_notes.map((note, i) => (
-                  <li key={i} className="space-y-1">
-                    <div className="flex gap-2 text-sm text-gray-600 leading-relaxed">
-                      <span className="text-green-500 font-black shrink-0">›</span>
-                      <span>{note.text}</span>
-                    </div>
-                    {note.examples && note.examples.length > 0 && (
-                      <div className="ml-4 space-y-0.5">
-                        {note.examples.map((ex, j) => (
-                          <p key={j} className="text-xs font-mono text-gray-500 bg-gray-50 border border-gray-100 rounded-lg px-2.5 py-1.5 leading-relaxed">{ex}</p>
-                        ))}
+                {data.usage_notes.map((note, i) => {
+                  const text     = typeof note === 'string' ? note : note.text
+                  const examples = typeof note === 'string' ? [] : (note.examples ?? [])
+                  return (
+                    <li key={i} className="space-y-1">
+                      <div className="flex gap-2 text-sm text-gray-600 leading-relaxed">
+                        <span className="text-green-500 font-black shrink-0">›</span>
+                        <span>{text}</span>
                       </div>
-                    )}
-                  </li>
-                ))}
+                      {examples.length > 0 && (
+                        <div className="ml-4 space-y-0.5">
+                          {examples.map((ex, j) => (
+                            <p key={j} className="text-xs font-mono text-gray-500 bg-gray-50 border border-gray-100 rounded-lg px-2.5 py-1.5 leading-relaxed">{ex}</p>
+                          ))}
+                        </div>
+                      )}
+                    </li>
+                  )
+                })}
               </ul>
             )}
           </div>

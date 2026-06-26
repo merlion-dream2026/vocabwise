@@ -733,7 +733,7 @@
       "positive": "Verb (base form) + (object/complement)",
       "negative": "Do not + Verb (base form) ... / Don't + Verb (base form) ..."
     },
-    "rule_vi": "Dùng câu mệnh lệnh để đưa ra chỉ dẫn trong công thức; chủ ngữ thường bị lờ đi và động từ ở dạng nguyên mẫu.",
+    "rule_vi": "Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn là những câu dùng để chỉ dẫn người đọc thực hiện một hành động cụ thể. Những câu này thường không có chủ ngữ và động từ ở dạng nguyên mẫu, giúp cho hướng dẫn trở nên ngắn gọn và rõ ràng. Câu mệnh lệnh thường bắt đầu bằng một động từ, như 'make', 'slice', 'heat', và người đọc cần thực hiện hành động đó. Việc sử dụng câu mệnh lệnh giúp người đọc dễ dàng hiểu và thực hiện các bước trong công thức nấu ăn.",
     "rule_en": "Use the imperative to give instructions or commands, especially in recipes.",
     "common_error": "❌ You must slice the carrots. → ✅ Slice the carrots.",
     "in_context": [
@@ -874,6 +874,17 @@
           "answer": "add"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng câu mệnh lệnh, cần lưu ý đến vị trí của các từ chỉ mức độ, như 'carefully', 'quickly', thường được đặt sau động từ chính.",
+      "Câu mệnh lệnh thường được sử dụng trong văn bản hướng dẫn, công thức nấu ăn, và các tài liệu kỹ thuật, nơi người đọc cần thực hiện các hành động cụ thể.",
+      "Người học tiếng Anh thường nhầm lẫn giữa câu mệnh lệnh và câu khai báo, dẫn đến sử dụng sai cấu trúc câu.",
+      "Câu mệnh lệnh trong tiếng Anh khác với tiếng Việt, nơi chủ ngữ thường được giữ lại, vì vậy người học cần lưu ý đến sự khác biệt này khi sử dụng câu mệnh lệnh."
+    ],
+    "in_context_vi": [
+      "Hãy đảm bảo bạn có tất cả các dụng cụ nấu ăn đúng, như dao và chảo.",
+      "Thái rau củ thành những miếng nhỏ và trộn chúng trong một cái bát.",
+      "Làm nóng dầu trong chảo."
+    ]
   }
 }

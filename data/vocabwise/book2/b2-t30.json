@@ -724,7 +724,7 @@
       "question": "Do/Does Subject + adverb of degree + adjective?",
       "variant": "Linking verb + adverb of degree + adjective (e.g., is extremely cheap)"
     },
-    "rule_vi": "Trạng từ chỉ mức độ được đặt trước tính từ hoặc trạng từ để biểu thị mức độ của chúng.",
+    "rule_vi": "Trạng từ chỉ mức độ (extremely, fairly, quite, rather) dùng để biểu thị mức độ mạnh hay nhẹ của tính từ, trạng từ hoặc (hiếm) động từ. Chúng thường được đặt ngay trước từ mà chúng bổ nghĩa. Khi dùng với tính từ, trạng từ, chúng cho biết mức độ từ ‘rất’ đến ‘khá’, tùy vào từ lựa chọn. Không nên dùng chúng với các tính từ tuyệt đối (ví dụ: perfect, unique) vì mức độ đã cố định.",
     "rule_en": "Adverbs of degree are placed before adjectives or other adverbs to show intensity.",
     "common_error": "❌ The product is cheap extremely.  →  ✅ The product is extremely cheap.",
     "in_context": [
@@ -873,6 +873,41 @@
           "answer": "quite"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trạng từ chỉ mức độ luôn đứng trước tính từ hoặc trạng từ mà nó bổ nghĩa.",
+        "examples": [
+          "❌ She is happy extremely → ✅ She is extremely happy",
+          "✅ The test was fairly easy"
+        ]
+      },
+      {
+        "text": "‘Quite’ và ‘rather’ thường xuất hiện trong tiếng Anh Anh và mang sắc thái nhẹ hơn ‘extremely’, nên dùng trong ngữ cảnh trang trọng hoặc miêu tả tinh tế.",
+        "examples": [
+          "✅ The lecture was quite interesting",
+          "✅ He is rather tall"
+        ]
+      },
+      {
+        "text": "Không dùng trạng từ chỉ mức độ với các tính từ tuyệt đối (perfect, unique, impossible).",
+        "examples": [
+          "❌ extremely perfect → ✅ perfect",
+          "❌ fairly impossible → ✅ impossible"
+        ]
+      },
+      {
+        "text": "Khi trạng từ chỉ mức độ đi trước động từ, thường là trong ngôn ngữ không trang trọng; trong tiếng Anh chuẩn, chúng thường đứng trước tính từ hoặc trạng từ chứ không phải trước động từ.",
+        "examples": [
+          "❌ They quite arrived early → ✅ They arrived quite early",
+          "✅ She fairly managed the task"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự bùng nổ của bán lẻ trực tuyến đã khá thay đổi thói quen mua sắm một cách đáng kể.",
+      "Người tiêu dùng hiện có thể mua các mặt hàng đã qua sử dụng qua các nền tảng bán đồ cũ, giúp ngân sách của họ kéo dài khá hơn.",
+      "Người mua cũng phải hiểu quyền của mình: nếu sản phẩm bị lỗi, họ hầu như được hưởng quyền hoàn tiền."
+    ]
   }
 }

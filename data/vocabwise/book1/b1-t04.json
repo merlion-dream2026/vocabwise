@@ -700,7 +700,7 @@
       "question": "Is/Are + Subject + comparative adjective + than + noun/pronoun?",
       "variant": "more + adjective (for adjectives that do not take -er)"
     },
-    "rule_vi": "Dùng tính từ so sánh hơn để so sánh hai đối tượng, thường có cấu trúc 'so sánh hơn ... hơn ...'.",
+    "rule_vi": "Tính từ so sánh hơn được sử dụng để so sánh hai đối tượng khác nhau về mức độ hoặc số lượng. Cấu trúc cơ bản của tính từ so sánh hơn là 'so sánh hơn ... hơn ...', trong đó tính từ được sử dụng để mô tả sự khác biệt giữa hai đối tượng. Với tính từ ngắn, thường có thêm '-er' vào cuối, còn với tính từ dài, thường sử dụng 'more' trước tính từ. Việc sử dụng tính từ so sánh hơn giúp người nói hoặc người viết thể hiện sự so sánh một cách rõ ràng và chính xác.",
     "rule_en": "Use comparative adjectives to compare two things, usually with the pattern '... than ...'.",
     "common_error": "❌ She is more cheaper than him.  →  ✅ She is cheaper than him.",
     "in_context": [
@@ -847,6 +847,37 @@
           "answer": "bigger"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tính từ so sánh hơn thường được sử dụng trong câu để thể hiện sự khác biệt giữa hai đối tượng.",
+        "examples": [
+          "❌ big → ✅ bigger"
+        ]
+      },
+      {
+        "text": "Với tính từ ngắn có hơn một âm tiết, thường sử dụng 'more' trước tính từ.",
+        "examples": [
+          "✅ more beautiful"
+        ]
+      },
+      {
+        "text": "Lưu ý không sử dụng '-er' và 'more' cùng lúc với một tính từ.",
+        "examples": [
+          "❌ more bigger → ✅ bigger"
+        ]
+      },
+      {
+        "text": "Tính từ so sánh hơn cũng có thể được sử dụng để thể hiện sự tăng dần hoặc giảm dần của một đặc điểm.",
+        "examples": [
+          "✅ more expensive than"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Áo sơ mi đó rẻ hơn áo khoác mà tôi thích.",
+      "Mẹ tôi nghĩ rằng túi xách đó đắt hơn cái bà thường mua.",
+      "Chúng tôi vui vì hóa đơn hiển thị tổng tiền là rẻ hơn chúng tôi dự kiến."
+    ]
   }
 }

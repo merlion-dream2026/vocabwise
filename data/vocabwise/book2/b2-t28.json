@@ -734,7 +734,7 @@
       "negative": "Statement (negative) + , + auxiliary (affirmative) + pronoun + ?",
       "variant": "If the main clause already contains a negative, the tag is positive, and vice‑versa."
     },
-    "rule_vi": "Dùng câu hỏi đuôi để xác nhận lại thông tin vừa nói, thường để nhận được đồng ý hoặc phản hồi ngắn.",
+    "rule_vi": "Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau câu khẳng định hoặc phủ định để xác nhận lại thông tin và mong muốn nhận được đồng ý. Nó bao gồm một trợ động từ (hoặc do/does/did nếu không có trợ động) và một đại từ nhân xưng phù hợp với chủ ngữ của câu chính. Câu khẳng định thường đi kèm với thẻ phủ định, ngược lại câu phủ định đi kèm với thẻ khẳng định. Khi chủ ngữ là I, thẻ thường dùng \"aren't I?\" thay vì \"am I not?\".",
     "rule_en": "Use a question tag to check or confirm a statement.",
     "common_error": "❌ The tourism industry is growing, does it?  →  ✅ The tourism industry is growing, isn't it?",
     "in_context": [
@@ -881,6 +881,37 @@
           "answer": "aren't they?"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thẻ phải dùng cùng trợ động (auxiliary) của câu chính; nếu câu không có trợ động, dùng do/does/did.",
+        "examples": [
+          "❌ She lives in Paris, is she? → ✅ She lives in Paris, doesn't she?"
+        ]
+      },
+      {
+        "text": "Cần đảo ngược độ phủ định: câu khẳng định → thẻ phủ định; câu phủ định → thẻ khẳng định.",
+        "examples": [
+          "❌ You are coming, are you? → ✅ You are coming, aren't you?"
+        ]
+      },
+      {
+        "text": "Với chủ ngữ I, thẻ chuẩn là \"aren't I?\"; không dùng \"am I not?\".",
+        "examples": [
+          "❌ I'm late, am I? → ✅ I'm late, aren't I?"
+        ]
+      },
+      {
+        "text": "Trong giao tiếp không trang trọng, thẻ thường được rút gọn (không có âm tiết đầy đủ) và có thể bỏ đi trong văn viết trang trọng.",
+        "examples": [
+          "It's cold, isn't it? (spoken) → It's cold. (formal writing)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Du lịch là một trong những ngành lớn nhất thế giới, đóng góp đáng kể vào nền kinh tế của nhiều quốc gia, phải không?",
+      "Ngành khách sạn — bao gồm khách sạn, nhà hàng và công ty lữ hành — đóng vai trò trung tâm trong việc làm cho du khách cảm thấy được chào đón, phải không?",
+      "Các chính phủ và các tổ chức du lịch ngày càng thúc đẩy du lịch bền vững, phải không?"
+    ]
   }
 }

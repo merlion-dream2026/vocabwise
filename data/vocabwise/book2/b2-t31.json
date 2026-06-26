@@ -791,7 +791,7 @@
       "question": "Be + Subject + adjective?",
       "variant": "Subject + become + adjective"
     },
-    "rule_vi": "Dùng tính từ -ed khi nói về cảm xúc, cảm giác của người; dùng -ing khi mô tả tính chất của sự vật, hiện tượng.",
+    "rule_vi": "Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô tả cảm xúc hoặc tính chất. -ed dùng để diễn tả cảm giác, trạng thái của người hoặc đối tượng cảm nhận (ví dụ: I am bored), thường đứng sau động từ liên kết như be, seem, become. -ing dùng để mô tả tính chất, đặc điểm của sự vật, hiện tượng (ví dụ: an interesting book), có thể đứng trước danh từ hoặc sau động từ liên kết. Khi danh từ là người/đối tượng cảm nhận, dùng -ed; khi là sự việc, hiện tượng, dùng -ing.",
     "rule_en": "Use -ed adjectives for feelings, -ing adjectives for describing things.",
     "common_error": "❌ I am interesting in art → ✅ I am interested in art",
     "in_context": [
@@ -936,6 +936,37 @@
           "answer": "interested"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tính từ -ed thường đi sau động từ to be (am, is, are, was, were) để nói về cảm xúc của chủ ngữ.",
+        "examples": [
+          "❌ She is boring → ✅ She is bored"
+        ]
+      },
+      {
+        "text": "Tính từ -ing mô tả tính chất cố định của sự vật và có thể đứng trước danh từ.",
+        "examples": [
+          "❌ The lecture was boring → ✅ The lecture was interesting"
+        ]
+      },
+      {
+        "text": "Không dùng -ed cho các danh từ vô cảm (đồ vật, hiện tượng); dùng -ing thay vì -ed.",
+        "examples": [
+          "❌ The painting is bored → ✅ The painting is interesting"
+        ]
+      },
+      {
+        "text": "-ing adjectives thường xuất hiện trong văn viết trang trọng, còn -ed adjectives dùng trong giao tiếp hàng ngày.",
+        "examples": [
+          "The results are interesting (formal) → The results are interesting (neutral)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nhiều tác phẩm hiện đại gây hứng thú cho người xem.",
+      "Các nghệ sĩ quan tâm đến việc thử nghiệm các phương tiện mới.",
+      "Một triển lãm được sắp xếp kỹ lưỡng có thể thú vị đối với sinh viên."
+    ]
   }
 }

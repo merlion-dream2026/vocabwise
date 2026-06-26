@@ -735,7 +735,7 @@
       "question": "Is/Are + subject + past participle?",
       "variant": "Subject + was/were + past participle"
     },
-    "rule_vi": "Dùng để nhấn mạnh hành động hoặc đối tượng bị tác động, khi người thực hiện không cần nêu ra.",
+    "rule_vi": "Câu bị động cơ bản là một cấu trúc câu trong tiếng Anh, sử dụng để mô tả một hành động mà không cần nêu ra người thực hiện hành động đó. Cấu trúc này được tạo thành bằng cách sử dụng động từ 'to be' ở dạng hiện tại (is/are) và phân từ quá khứ của động từ chính. Câu bị động giúp người viết hoặc người nói tập trung vào đối tượng bị tác động thay vì người thực hiện hành động. Ví dụ, thay vì nói 'Someone places a warning sign', chúng ta có thể nói 'A warning sign is placed' để nhấn mạnh vào biển báo.",
     "rule_en": "Used to focus on the action or the receiver, when the doer is unknown or unimportant.",
     "common_error": "❌ The signs is placed on the wall.  →  ✅ The signs are placed on the wall.",
     "in_context": [
@@ -880,6 +880,17 @@
           "answer": "been"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng câu bị động, cần lưu ý về vị trí của tân ngữ và vị ngữ trong câu, vì chúng có thể thay đổi so với câu chủ động.",
+      "Câu bị động thường được sử dụng trong văn viết chính thức hoặc trong các tình huống cần nhấn mạnh đối tượng bị tác động, như trong báo cáo, bài thuyết trình hoặc hướng dẫn.",
+      "Một điểm cần lưu ý là câu bị động có thể gây nhầm lẫn nếu không được sử dụng chính xác, đặc biệt là khi sử dụng động từ 'to be' ở dạng hiện tại và quá khứ.",
+      "Người học tiếng Anh thường gặp khó khăn khi sử dụng câu bị động vì cấu trúc này khác với tiếng Việt, nơi mà câu bị động không được sử dụng thường xuyên như trong tiếng Anh."
+    ],
+    "in_context_vi": [
+      "Một biển báo cảnh báo được đặt để cảnh báo chúng ta về nguy hiểm.",
+      "Thông báo trên cửa được giữ đóng trong suốt đêm.",
+      "Tuyến đường thoát hiểm được mọi người theo dõi trong trường hợp khẩn cấp."
+    ]
   }
 }

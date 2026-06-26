@@ -735,7 +735,7 @@
     "form": {
       "positive": "Subject + Verb + [size] [colour] [material] Noun"
     },
-    "rule_vi": "Khi mô tả danh từ, tính từ phải đứng theo thứ tự: kích thước → màu sắc → chất liệu.",
+    "rule_vi": "Trật tự tính từ trước danh từ là một quy tắc cơ bản trong tiếng Anh, dùng để mô tả các danh từ một cách rõ ràng và chính xác. Khi mô tả danh từ, tính từ phải đứng theo thứ tự: kích thước, màu sắc, chất liệu. Điều này giúp người nghe hoặc người đọc hiểu rõ hơn về đặc điểm của danh từ được mô tả. Quy tắc này áp dụng cho hầu hết các trường hợp mô tả danh từ trong tiếng Anh.",
     "rule_en": "Use the order size → colour → material before a noun.",
     "common_error": "❌ a red small silk dress → ✅ a small red silk dress",
     "in_context": [
@@ -881,6 +881,38 @@
           "answer": "red"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trật tự tính từ phải được tuân thủ để tránh nhầm lẫn về đặc điểm của danh từ.",
+        "examples": [
+          "❌ big red car → ✅ red big car"
+        ]
+      },
+      {
+        "text": "Quy tắc này áp dụng cho cả danh từ cụ thể và danh từ chung.",
+        "examples": [
+          "a small white dog",
+          "big blue cars"
+        ]
+      },
+      {
+        "text": "Một số tính từ có thể được sử dụng cùng nhau, nhưng vẫn phải tuân thủ thứ tự kích thước, màu sắc, chất liệu.",
+        "examples": [
+          "a large black leather bag"
+        ]
+      },
+      {
+        "text": "Lưu ý rằng một số tính từ có thể có nghĩa khác nhau tùy thuộc vào vị trí của chúng trong câu.",
+        "examples": [
+          "a beautiful big house → a big beautiful house"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi mặc một chiếc áo nhỏ màu xanh và quần short.",
+      "Bộ đồ yêu thích của tôi là chiếc áo lớn màu đỏ và quần tây màu tối.",
+      "Vào mùa đông, tôi mặc một chiếc áo khoác lớn màu xanh và một chiếc áo jacket."
+    ]
   }
 }

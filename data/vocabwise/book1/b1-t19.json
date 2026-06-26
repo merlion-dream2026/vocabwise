@@ -670,7 +670,7 @@
       "question": "Do/Does + Subject + any + Noun?",
       "variant": "Would you like some + Noun?"
     },
-    "rule_vi": "Dùng **some** trong câu khẳng định để nói về một số lượng không xác định (có). Dùng **any** trong câu phủ định và câu hỏi để nói về bất kỳ (không có).",
+    "rule_vi": "Some và any là các lượng từ dùng để chỉ một số lượng không xác định. Some thường xuất hiện trong câu khẳng định, câu đề nghị hoặc khi người nói tin rằng có một lượng nhất định. Any thường dùng trong câu phủ định, câu hỏi và trong các câu điều kiện, hoặc khi nói về bất kỳ lượng nào. Cả hai có thể đi với danh từ đếm được số nhiều và danh từ không đếm được.",
     "rule_en": "Use **some** in affirmative statements and **any** in negatives and questions for indefinite quantities.",
     "common_error": "❌ I don't have some money.  →  ✅ I don't have any money.",
     "in_context": [
@@ -815,6 +815,40 @@
           "answer": "any"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Some dùng trong câu khẳng định và trong lời đề nghị, yêu cầu, khi người nói mong muốn nhận được một lượng nhất định.",
+        "examples": [
+          "❌ I don't have some money → ✅ I have some money.",
+          "✅ Would you like some tea?"
+        ]
+      },
+      {
+        "text": "Any dùng trong câu phủ định và câu hỏi, biểu thị không có hoặc bất kỳ lượng nào.",
+        "examples": [
+          "❌ I have any friends → ✅ I don't have any friends.",
+          "✅ Do you have any sugar?"
+        ]
+      },
+      {
+        "text": "Any cũng có thể xuất hiện trong câu khẳng định khi nghĩa là 'bất kỳ' (any + danh từ số nhiều).",
+        "examples": [
+          "✅ You can choose any book you like."
+        ]
+      },
+      {
+        "text": "Some thường đi với danh từ đếm được số nhiều; any thường đi với danh từ không đếm được hoặc số ít.",
+        "examples": [
+          "✅ I need some apples.",
+          "✅ Do you have any water?"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.",
+      "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.",
+      "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn."
+    ]
   }
 }

@@ -685,7 +685,7 @@
       "question": "Will + Subject + Base Verb if + Subject + Present Simple?",
       "variant": "If + Subject + Present Simple, Subject + can + Base Verb"
     },
-    "rule_vi": "Dùng câu điều kiện loại 1 để nói về một khả năng trong tương lai, khi một hành động hiện tại xảy ra thì kết quả sẽ xảy ra.",
+    "rule_vi": "Câu điều kiện loại 1 (First Conditional) được sử dụng để nói về một khả năng trong tương lai, khi một hành động hiện tại xảy ra thì kết quả sẽ xảy ra. Câu điều kiện loại 1 thường được sử dụng khi chúng ta muốn nói về một tình huống có thể xảy ra trong tương lai và kết quả của nó. Cấu trúc của câu điều kiện loại 1 là 'if + hiện tại đơn' và 'sẽ + động từ chính'. Điều này giúp chúng ta diễn đạt một mối quan hệ nguyên nhân - kết quả giữa hai hành động.",
     "rule_en": "Use the first conditional to talk about a real or possible future situation.",
     "common_error": "❌ If it will rain, we will stay home.  →  ✅ If it rains, we will stay home.",
     "in_context": [
@@ -838,6 +838,17 @@
           "answer": "breaks"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Cần lưu ý rằng câu điều kiện loại 1 thường được sử dụng trong tình huống thực tế, có thể xảy ra trong tương lai, không phải là một sự kiện chắc chắn.",
+      "Trong câu điều kiện loại 1, từ 'if' thường được đặt ở đầu câu, nhưng cũng có thể được đặt sau phần chủ ngữ trong một số trường hợp.",
+      "Câu điều kiện loại 1 thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta thường sử dụng câu điều kiện loại 2 hoặc 3 để diễn đạt một tình huống không chắc chắn.",
+      "Người học tiếng Anh thường nhầm lẫn giữa câu điều kiện loại 1 và loại 2, vì vậy cần phải luyện tập và phân biệt rõ ràng giữa hai loại câu này."
+    ],
+    "in_context_vi": [
+      "Nếu kỹ thuật viên thay thế bộ phận bị hỏng, máy sẽ hoạt động.",
+      "Nếu chúng ta sử dụng công cụ đúng, thiệt hại sẽ được sửa chữa.",
+      "Nếu lớp học bắt đầu đúng giờ, giáo viên sẽ hài lòng."
+    ]
   }
 }

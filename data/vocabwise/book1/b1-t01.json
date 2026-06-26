@@ -739,7 +739,7 @@
       "positive": "my / your / his / her / its / our / their + noun",
       "variant": "noun + 's + noun  →  my sister's room"
     },
-    "rule_vi": "Dùng tính từ sở hữu (my, your, his...) đứng trước danh từ để chỉ sự thuộc về. Dùng 's sau danh từ chỉ người hoặc vật.",
+    "rule_vi": "Sở hữu cách và tính từ sở hữu là cách dùng để chỉ sự thuộc về của một người hoặc một vật. Chúng ta dùng tính từ sở hữu như my, your, his, her, its, our, their để chỉ sự thuộc về của một người hoặc một vật. Vị trí của tính từ sở hữu thường đứng trước danh từ, và chúng ta cũng có thể dùng 's sau danh từ chỉ người hoặc vật để biểu thị sở hữu. Việc sử dụng sở hữu cách và tính từ sở hữu giúp chúng ta thể hiện rõ mối quan hệ giữa các sự vật và người trong câu, và cũng giúp tránh sự nhầm lẫn khi mô tả các mối quan hệ này.",
     "rule_en": "Use possessive adjectives before a noun, or add 's after a noun, to show ownership or belonging.",
     "common_error": "❌ the room of my sister  →  ✅ my sister's room",
     "in_context": [
@@ -884,6 +884,40 @@
           "answer": "our"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tính từ sở hữu thường được đặt trước danh từ để chỉ sự thuộc về.",
+        "examples": [
+          "my book → ✅ sách của tôi",
+          "❌ me book → ✅ my book"
+        ]
+      },
+      {
+        "text": "Sử dụng 's để biểu thị sở hữu với danh từ số ít và một số danh từ số nhiều không có 's.",
+        "examples": [
+          "cat's → ✅ của con mèo",
+          "❌ cats → ✅ của những con mèo"
+        ]
+      },
+      {
+        "text": "Lưu ý sự khác biệt giữa sở hữu cách và tính từ sở hữu, ví dụ 'a friend of mine' và 'my friend'.",
+        "examples": [
+          "❌ a friend of my → ✅ a friend of mine",
+          "my friend → ✅ bạn của tôi"
+        ]
+      },
+      {
+        "text": "Chú ý đến việc sử dụng sở hữu cách với các danh từ không thể số, ví dụ 'the sun's rays'.",
+        "examples": [
+          "the sun's rays → ✅ tia nắng của mặt trời"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Ngôi nhà của tôi có bốn phòng: một phòng khách, một bếp, hai phòng ngủ và một phòng tắm.",
+      "Gia đình chúng tôi có năm thành viên — bố mẹ, bà nội, chị gái và tôi.",
+      "Bà nội của tôi trông các trẻ ở nhà."
+    ]
   }
 }

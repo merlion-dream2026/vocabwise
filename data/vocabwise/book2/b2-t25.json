@@ -740,7 +740,7 @@
       "question": "Be + Object + past participle (+ by Agent)?",
       "variant": "Object + get + past participle (+ by Agent)"
     },
-    "rule_vi": "Dùng bị động để nhấn mạnh đối tượng hoặc diễn đạt một cách khách quan.",
+    "rule_vi": "Bị động (passive voice) dùng để đưa trọng tâm vào đối tượng (patient) của hành động, thay vì người thực hiện (agent). Khi muốn diễn đạt một cách khách quan hoặc nhấn mạnh đối tượng, ta dùng cấu trúc ‘to be + past participle’, có thể thêm ‘by + agent’ nếu cần chỉ ra người thực hiện. Thì và dạng của động từ trong câu bị động giống như trong câu chủ động, chỉ khác là động từ ‘to be’ thay đổi theo thì. Khi người thực hiện không quan trọng hoặc không biết, phần ‘by …’ thường bị lược bỏ.",
     "rule_en": "Use the passive to emphasize the action’s receiver or to present information objectively.",
     "common_error": "❌ The product was advertise by the company.  →  ✅ The product was advertised by the company.",
     "in_context": [
@@ -888,6 +888,38 @@
           "answer": "targeted"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng bị động để nhấn mạnh đối tượng hoặc để diễn đạt một cách khách quan; phần ‘by …’ có thể bỏ nếu không cần thiết.",
+        "examples": [
+          "❌ The company reached the right consumer → ✅ The right consumer is reached (by the company)."
+        ]
+      },
+      {
+        "text": "Câu bị động thường mang tính trang trọng hơn, thích hợp trong báo cáo, bài viết học thuật, tin tức.",
+        "examples": [
+          "❌ We made the decision → ✅ The decision was made."
+        ]
+      },
+      {
+        "text": "Cụm ‘by …’ thường đứng sau động từ bị động; nếu muốn nhấn mạnh người thực hiện, có thể đưa cụm này lên đầu câu.",
+        "examples": [
+          "The right consumer is reached by the company (normal order).",
+          "By the company, the right consumer is reached (emphasis on agent)."
+        ]
+      },
+      {
+        "text": "Tránh dùng bị động với các động từ trạng thái không có dạng quá khứ phân từ; thay vào đó dùng ‘known to …’ hoặc ‘known by …’ không đúng.",
+        "examples": [
+          "❌ The information is known by many people → ✅ The information is known to many people."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Người tiêu dùng phù hợp được công ty tiếp cận.",
+      "Chiến dịch quảng cáo thành công được một đội ngũ tiếp thị phối hợp.",
+      "Khả năng hiển thị thương hiệu được tài trợ bằng việc tổ chức các sự kiện."
+    ]
   }
 }

@@ -685,7 +685,7 @@
       "question": "Must + subject + base verb?",
       "variant": "Subject + have to + base verb"
     },
-    "rule_vi": "Dùng 'must' để nói về quy tắc hoặc nghĩa vụ bắt buộc; dùng 'mustn't' để nói việc cấm.",
+    "rule_vi": "Must và Mustn't là hai cấu trúc ngữ pháp dùng để thể hiện quy tắc hoặc nghĩa vụ bắt buộc. 'Must' được sử dụng khi muốn nói về một hành động cần phải thực hiện, trong khi 'Mustn't' dùng để nói về một hành động không được phép thực hiện. Cấu trúc này thường được sử dụng trong môi trường học tập, làm việc hoặc trong các tình huống hàng ngày. Khi sử dụng 'Must' và 'Mustn't', cần lưu ý đến ngữ cảnh và mức độ nghiêm khắc của quy tắc hoặc nghĩa vụ.",
     "rule_en": "Use 'must' for obligations and 'mustn't' for prohibitions.",
     "common_error": "❌ He must to study  →  ✅ He must study",
     "in_context": [
@@ -827,6 +827,17 @@
           "answer": "must"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý không được nhầm lẫn 'Must' với 'Should', vì 'Should' thể hiện một hành động được khuyến nghị nhưng không bắt buộc.",
+      "Vị trí của 'Must' và 'Mustn't' trong câu thường đứng trước động từ chính, và cần sử dụng đúng vị trí để tránh thay đổi ý nghĩa của câu.",
+      "Trong tiếng Anh, 'Must' và 'Mustn't' thường được sử dụng trong môi trường, nhưng cũng có thể được sử dụng trong môi trường không tùy thuộc vào ngữ cảnh.",
+      "Người học tiếng Anh thường nhầm lẫn 'Must' với 'Have to', mặc dù cả hai đều thể hiện nghĩa vụ bắt buộc, nhưng 'Have to' thường được sử dụng trong môi trường không hơn."
+    ],
+    "in_context_vi": [
+      "Tôi phải học chăm chỉ để đạt được điểm tốt.",
+      "Bạn không được phép đến muộn trong kỳ thi.",
+      "Học sinh phải mang vở ghi chú đến lớp học."
+    ]
   }
 }

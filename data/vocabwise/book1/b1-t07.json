@@ -688,7 +688,7 @@
       "question": "Can + Subject + Verb (base form)?",
       "variant": "Subject + be + able to + Verb (base form)"
     },
-    "rule_vi": "Dùng can để nói mình có khả năng làm gì, dùng can't để nói mình không có khả năng làm gì.",
+    "rule_vi": "Can / can't là động từ khuyết (modal verb) dùng để diễn đạt khả năng hoặc không khả năng của người nói hoặc người khác. Dùng can + động từ nguyên thể để nói rằng ai đó có thể làm việc đó; dùng can't + động từ nguyên thể để nói rằng không thể làm được. Cấu trúc luôn là: Chủ ngữ + can / can't + động từ nguyên thể (không có 'to'). Thường dùng trong thời hiện tại đơn và không chia theo ngôi.",
     "rule_en": "Use can for ability and can't for lack of ability.",
     "common_error": "❌ She can to swim.  →  ✅ She can swim.",
     "in_context": [
@@ -828,6 +828,38 @@
           "answer": "can"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Can / can't luôn đứng trước động từ nguyên thể; không thêm 'to' hoặc dạng chia khác.",
+        "examples": [
+          "❌ He can to swim → ✅ He can swim"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, dùng 'cannot' thay cho 'can't'; trong giao tiếp thường dùng 'can't'.",
+        "examples": [
+          "✅ I cannot lift this box.",
+          "✅ I can't lift this box."
+        ]
+      },
+      {
+        "text": "Can / can't chủ yếu diễn đạt khả năng; khi muốn hỏi hoặc cho phép, dùng 'may' hoặc 'be allowed to' (trong mức A1 có thể dùng can để hỏi phép, nhưng nghĩa chính vẫn là khả năng).",
+        "examples": [
+          "❌ Can I speak English? (nghĩa hỏi phép) → ✅ I can speak English. (nghĩa khả năng)"
+        ]
+      },
+      {
+        "text": "Không chia động từ sau can / can't; dùng dạng nguyên thể (bare infinitive) luôn.",
+        "examples": [
+          "❌ She can spoke French. → ✅ She can speak French."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi có thể chạy và bơi vào cuối tuần.",
+      "Đội của chúng tôi có thể luyện tập mỗi ngày trong sân trường.",
+      "Huấn luyện viên của tôi nói rằng thắng và thua không thể tránh được."
+    ]
   }
 }

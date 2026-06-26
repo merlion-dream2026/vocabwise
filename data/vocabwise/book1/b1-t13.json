@@ -735,7 +735,7 @@
       "question": "Is/Are + Subject + preposition + place?",
       "variant": "Subject + verb (e.g., sit, stand) + preposition + place"
     },
-    "rule_vi": "Dùng 'in' cho không gian bao quanh, 'on' cho bề mặt, 'at' cho địa điểm cụ thể, 'next to' cho vị trí bên cạnh, 'opposite' cho vị trí đối diện.",
+    "rule_vi": "Giới từ chỉ vị trí là một loại từ dùng để chỉ vị trí của một vật hoặc một người trong không gian. Chúng ta sử dụng 'in' để chỉ không gian bao quanh, như trong một thành phố, một quốc gia hoặc một phòng. 'On' được sử dụng để chỉ bề mặt, như trên một chiếc bàn hoặc trên một bức tường. 'At' được sử dụng để chỉ một địa điểm cụ thể, như tại một ngã tư hoặc tại một địa chỉ cụ thể. Ngoài ra, 'next to' và 'opposite' được sử dụng để chỉ vị trí bên cạnh và đối diện với một vật hoặc một người nào đó.",
     "rule_en": "We use 'in' for enclosed spaces, 'on' for surfaces, 'at' for specific points, 'next to' for beside, and 'opposite' for opposite side.",
     "common_error": "❌ She lives on London.  →  ✅ She lives in London.",
     "in_context": [
@@ -883,6 +883,17 @@
           "answer": "in"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm quan trọng cần lưu ý là 'in' thường được sử dụng với các không gian lớn, như thành phố, quốc gia, trong khi 'at' được sử dụng với các địa điểm cụ thể, như nhà, trường học.",
+      "Khi sử dụng 'on', cần lưu ý rằng nó thường được sử dụng với các bề mặt, như bàn, tường, nhưng cũng có thể được sử dụng với các ngày trong tuần, như 'on Monday'.",
+      "Sự khác biệt giữa 'next to' và 'opposite' là rất quan trọng, vì 'next to' chỉ vị trí bên cạnh, trong khi 'opposite' chỉ vị trí đối diện.",
+      "Một lỗi phổ biến của người học tiếng Việt là sử dụng 'in' và 'on' không chính xác, vì vậy cần phải luyện tập và chú ý đến cách sử dụng của từng giới từ."
+    ],
+    "in_context_vi": [
+      "Tôi sống trong một khu vực nhỏ gần trung tâm thành phố.",
+      "Có một công viên nhỏ tại cuối con đường.",
+      "Trẻ em chơi ngoài trời trong khi người lớn trò chuyện trên vỉa hè."
+    ]
   }
 }

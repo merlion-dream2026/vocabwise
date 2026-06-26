@@ -728,7 +728,7 @@
       "question": "Do/Does/Did + Subject + Verb + Particle (+ Object)?",
       "variant": "Verb + Particle (separable) + Object"
     },
-    "rule_vi": "Cụm động từ thường gồm động từ + giới từ hoặc trạng từ, có thể có tân ngữ sau.",
+    "rule_vi": "Cụm động từ là cấu trúc gồm một động từ chính kết hợp với một giới từ hoặc trạng từ, tạo ra nghĩa mới không hoàn toàn suy ra từ các thành phần riêng lẻ. Chúng thường xuất hiện trong giao tiếp hàng ngày và có thể đi kèm tân ngữ; nếu tân ngữ là đại từ, vị trí của giới từ/ trạng từ sẽ thay đổi (có thể tách rời). Một số cụm động từ không tách rời, nghĩa của chúng luôn gắn liền với phần giới từ/ trạng từ. Khi dùng, cần chú ý mức độ trang trọng vì một số cụm động từ mang tính không chính thức.",
     "rule_en": "Phrasal verbs consist of a verb followed by a particle, and may take an object.",
     "common_error": "❌ The experiment set up tomorrow.  →  ✅ The experiment will be set up tomorrow.",
     "in_context": [
@@ -876,6 +876,37 @@
           "answer": "install"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Với các cụm động từ có thể tách rời, nếu có tân ngữ, giới từ/ trạng từ có thể đứng trước hoặc sau tân ngữ.",
+        "examples": [
+          "❌ She set up the experiment → ✅ She set the experiment up"
+        ]
+      },
+      {
+        "text": "Khi tân ngữ là đại từ, giới từ/ trạng từ luôn đứng sau đại từ.",
+        "examples": [
+          "✅ He set it up"
+        ]
+      },
+      {
+        "text": "Một số cụm động từ không tách rời; giới từ/ trạng từ luôn đứng sau động từ và không thể chèn tân ngữ giữa.",
+        "examples": [
+          "❌ He ran out the money → ✅ He ran out of money"
+        ]
+      },
+      {
+        "text": "Cụm động từ thường không trang trọng; trong văn viết trang trọng, nên dùng từ đồng nghĩa dạng danh từ hoặc động từ nguyên thể.",
+        "examples": [
+          "✅ The company established a new department (instead of set up)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Cơ thể phá vỡ thực phẩm thành các chất dinh dưỡng.",
+      "Khoa học hiện đại tiếp tục thiết lập các nghiên cứu để khám phá cách gen ảnh hưởng đến sức khỏe.",
+      "Khi hệ thống miễn dịch cạn kiệt nguồn lực, nó không thể chống lại các nhiễm trùng."
+    ]
   }
 }

@@ -688,7 +688,7 @@
       "question": "Would + subject + rather + base verb + than + base verb?",
       "variant": "Subject + would prefer + to + gerund / noun"
     },
-    "rule_vi": "Dùng 'would rather' hoặc 'would prefer' để nói về sở thích trong các tình huống giả định hoặc khi so sánh hai hành động.",
+    "rule_vi": "Cấu trúc 'would rather' và 'would prefer' được sử dụng để diễn đạt sở thích trong các tình huống giả định hoặc khi so sánh hai hành động. 'Would rather' thường được sử dụng trong các tình huống không chính thức, trong khi 'would prefer' thường được sử dụng trong các tình huống chính thức. Cấu trúc này bao gồm động từ 'would' + 'rather' hoặc 'prefer' + động từ chính. Khi sử dụng 'would rather', chúng ta thường sử dụng nó để so sánh hai hành động và chọn hành động mà chúng ta thích hơn.",
     "rule_en": "Use 'would rather' / 'would prefer' to express a preference, often comparing two actions.",
     "common_error": "❌ I would rather to go home.  →  ✅ I would rather go home.",
     "in_context": [
@@ -835,6 +835,17 @@
           "answer": "instead"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Lưu ý rằng 'would rather' và 'would prefer' không được sử dụng để diễn đạt sở thích trong hiện tại, mà chỉ được sử dụng để diễn đạt sở thích trong các tình huống giả định hoặc trong quá khứ.",
+      "Vị trí của 'would rather' và 'would prefer' trong câu thường là sau chủ ngữ, nhưng có thể được đặt ở đầu câu để nhấn mạnh sở thích.",
+      "Trong tiếng Anh, 'would rather' và 'would prefer' thường được sử dụng để diễn đạt sở thích một cách lịch sự, đặc biệt là khi nói với người lớn tuổi hoặc trong các tình huống chính thức.",
+      "Một điểm khác biệt giữa 'would rather' và 'would prefer' là 'would rather' thường được sử dụng để diễn đạt sở thích mạnh mẽ hơn, trong khi 'would prefer' thường được sử dụng để diễn đạt sở thích nhẹ nhàng hơn."
+    ],
+    "in_context_vi": [
+      "Tôi thích nghe nhạc hơn là xem TV.",
+      "Chúng tôi thích những món ăn đơn giản vì chúng nhanh và ngon.",
+      "Tôi thích những ngày nắng hơn là những ngày mưa."
+    ]
   }
 }

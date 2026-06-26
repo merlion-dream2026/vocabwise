@@ -718,7 +718,7 @@
       "positive": "Clause1 + although/even though + Clause2  |  Despite/In spite of + noun/gerund , Clause",
       "variant": "Despite + noun/gerund , Clause"
     },
-    "rule_vi": "Dùng để nối hai mệnh đề hoặc cụm từ có ý nghĩa trái ngược; 'although' và 'even though' đứng trước mệnh đề, còn 'despite' / 'in spite of' đi trước danh từ hoặc V‑ing.",
+    "rule_vi": "Liên từ đối lập và nhượng bộ (although, even though, despite, in spite of) dùng để nối hai ý trái ngược nhau, thể hiện nghĩa nhượng bộ. 'Although' và 'even though' đứng trước một mệnh đề phụ, còn 'despite' và 'in spite of' chỉ đi trước danh từ hoặc cụm danh từ/động từ V‑ing. Khi liên từ xuất hiện ở đầu câu, mệnh đề chính thường theo sau và cần dấu phẩy nếu đảo vị trí. Các cấu trúc này thường dùng trong cả văn viết và nói để nhấn mạnh sự bất ngờ hoặc trái ngược giữa hai sự kiện.",
     "rule_en": "Use contrast linkers to connect two opposite ideas in one sentence.",
     "common_error": "❌ She likes the festival, despite it is very crowded.  →  ✅ She likes the festival, despite it being very crowded.",
     "in_context": [
@@ -875,6 +875,38 @@
           "answer": "even though"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Although / even though thường đứng đầu mệnh đề phụ; nếu đặt sau mệnh đề chính thì cần dấu phẩy.",
+        "examples": [
+          "❌ She stayed home although it was raining → ✅ She stayed home, although it was raining"
+        ]
+      },
+      {
+        "text": "Despite / in spite of không được theo sau một mệnh đề đầy đủ; chỉ dùng trước danh từ hoặc V‑ing.",
+        "examples": [
+          "❌ Despite that it was raining → ✅ Despite the rain",
+          "✅ Despite being tired, he worked"
+        ]
+      },
+      {
+        "text": "Despite và in spite of mang tính trang trọng hơn; trong giao tiếp thường dùng even though để diễn đạt cùng nghĩa.",
+        "examples": [
+          "✅ Even though it was late, we continued"
+        ]
+      },
+      {
+        "text": "Even though nhấn mạnh hơn so với although, dùng khi muốn nhấn mạnh sự bất ngờ hoặc mức độ nhượng bộ.",
+        "examples": [
+          "✅ Even though he was ill, he ran"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các xã hội hiện đại thường đa dạng, mặc dù chúng bao gồm người từ nhiều nền tảng, tôn giáo và niềm tin khác nhau.",
+      "Nhiều quốc gia cố gắng cân bằng tự do tôn giáo với các giá trị thế tục, bất chấp những thách thức mà các cộng đồng tôn giáo thiểu số phải đối mặt.",
+      "Bảo vệ đa dạng và khoan dung do đó là mục tiêu văn hoá và chính trị quan trọng, mặc dù thực tế là một số chính phủ phản đối các chính sách như vậy."
+    ]
   }
 }

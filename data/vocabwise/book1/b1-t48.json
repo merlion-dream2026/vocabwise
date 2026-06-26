@@ -735,7 +735,7 @@
       "question": "Will + subject + base verb? / Am/Is/Are + subject + going to + base verb?",
       "variant": "Contractions: won't, I'm going to, He's going to, etc."
     },
-    "rule_vi": "Dùng **will** cho dự đoán; dùng **going to** cho kế hoạch đã quyết định.",
+    "rule_vi": "Cấu trúc 'will' và 'going to' được sử dụng để biểu thị dự đoán và kế hoạch trong tương lai. 'Will' thường được dùng để dự đoán những sự kiện không chắc chắn hoặc không được lên kế hoạch trước, trong khi 'going to' được sử dụng cho những kế hoạch đã được quyết định và chuẩn bị trước. Sự khác biệt chính giữa hai cấu trúc này nằm ở mức độ chắc chắn và kế hoạch. Khi sử dụng 'will', người nói thường không có kế hoạch cụ thể, nhưng với 'going to', người nói đã có một kế hoạch cụ thể và đã quyết định thực hiện nó.",
     "rule_en": "Use **will** for predictions, **going to** for planned actions.",
     "common_error": "❌ She will going to the ceremony. → ✅ She is going to the ceremony.",
     "in_context": [
@@ -877,6 +877,17 @@
           "answer": "is going to"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Một điểm thường gây nhầm lẫn là sử dụng 'will' và 'going to' trong câu hỏi và câu trả lời. Trong câu hỏi, 'will' thường được sử dụng để hỏi về dự đoán, trong khi 'going to' được sử dụng để hỏi về kế hoạch.",
+      "Vị trí của 'will' và 'going to' trong câu thường khác nhau. 'Will' thường được đặt sau chủ ngữ, trong khi 'going to' được đặt sau chủ ngữ và trước động từ chính.",
+      "Sự khác biệt về thể thức trang trọng và không trang trọng cũng cần được lưu ý. 'Will' thường được sử dụng trong văn viết trang trọng, trong khi 'going to' được sử dụng trong văn nói không trang trọng.",
+      "Người học tiếng Việt thường gặp khó khăn khi sử dụng 'will' và 'going to' vì trong tiếng Việt, không có sự phân biệt rõ ràng giữa dự đoán và kế hoạch."
+    ],
+    "in_context_vi": [
+      "Người dẫn chương trình sẽ yêu cầu mọi người tham dự vào lúc sáu giờ.",
+      "Các giáo viên sẽ sắp xếp thức ăn và âm nhạc cho buổi tối.",
+      "Hiệu trưởng sẽ nói rõ ràng vào micro để mọi người đều nghe được."
+    ]
   }
 }

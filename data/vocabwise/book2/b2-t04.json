@@ -706,7 +706,7 @@
       "question": "Modal + Subject + be + Past Participle (+ by Agent)?",
       "variant": "Subject + Modal + have + been + Past Participle (+ by Agent)"
     },
-    "rule_vi": "Dùng cấu trúc này để diễn tả khả năng, cho phép hoặc dự đoán trong câu bị động.",
+    "rule_vi": "Câu bị động với động từ khuyết thiếu được tạo bằng cách đặt động từ khuyết thiếu (may, might, could, must, should, …) trước ‘be’ rồi theo sau là quá khứ phân từ của động từ chính (been, arrested, fined, …). Cấu trúc này dùng để nói về khả năng, cho phép, dự đoán hoặc nghĩa vụ trong một tình huống mà người hoặc vật chịu tác động được nhấn mạnh. Khi cần nêu người thực hiện hành động, có thể thêm cụm ‘by …’, nhưng thường không cần nếu người thực hiện không quan trọng. Động từ khuyết thiếu không thay đổi dạng, dù câu có phủ định, câu hỏi hay câu điều kiện.",
     "rule_en": "Use this structure to express possibility, permission or prediction in the passive voice.",
     "common_error": "❌ The suspect may arrested → ✅ The suspect may be arrested",
     "in_context": [
@@ -849,6 +849,41 @@
           "answer": "may"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Động từ khuyết thiếu luôn đứng trước ‘be’; không được chèn bất kỳ từ nào khác giữa chúng.",
+        "examples": [
+          "❌ The suspect may be arrested → ✅ The suspect may be arrested"
+        ]
+      },
+      {
+        "text": "‘May’ thường biểu thị khả năng hoặc cho phép; ‘could’ biểu thị khả năng yếu hơn hoặc khả năng trong quá khứ; ‘must’ biểu thị nghĩa vụ hoặc chắc chắn.",
+        "examples": [
+          "✅ A fine may be imposed.",
+          "✅ A fine could be imposed.",
+          "✅ A fine must be imposed."
+        ]
+      },
+      {
+        "text": "Trong câu hỏi và phủ định, động từ khuyết thiếu vẫn giữ vị trí đầu câu, tiếp theo là ‘be’.",
+        "examples": [
+          "✅ May the witness be called?",
+          "✅ The witness may not be called."
+        ]
+      },
+      {
+        "text": "Cụm ‘by …’ có thể được dùng để chỉ người thực hiện hành động, nhưng thường bị lược bỏ khi không cần nhấn mạnh người thực hiện.",
+        "examples": [
+          "✅ The decision may be appealed by the offender.",
+          "✅ The decision may be appealed."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Một nhân chứng có thể được gọi để mô tả những gì họ đã thấy hoặc nghe.",
+      "Nếu có đủ bằng chứng, một nghi phạm có thể bị bắt giữ và đưa ra xét xử.",
+      "Bị cáo có thể kháng cáo quyết định nếu họ cho rằng bản án không công bằng."
+    ]
   }
 }

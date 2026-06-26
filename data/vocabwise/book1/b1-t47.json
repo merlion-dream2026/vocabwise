@@ -670,7 +670,7 @@
       "question": "Wh- word + did + subject + base verb + … ?",
       "variant": "Wh- word + was/were + subject + … ?"
     },
-    "rule_vi": "Dùng Wh‑words với did để hỏi về hành động đã xảy ra trong quá khứ.",
+    "rule_vi": "Câu hỏi Wh- ở thì quá khứ được sử dụng để hỏi về hành động đã xảy ra trong quá khứ. Cấu trúc của câu hỏi này thường bắt đầu với một từ Wh- (what, where, when, why, how) và tiếp theo là động từ did. Điều này giúp người nghe hiểu rằng câu hỏi đang hỏi về một hành động đã hoàn thành trong quá khứ. Để tạo thành một câu hỏi Wh- ở thì quá khứ, chúng ta cần sử dụng từ Wh- phù hợp và đặt động từ did sau đó, tiếp theo là chủ ngữ và phần còn lại của câu.",
     "rule_en": "Use Wh‑words with did to ask about past events.",
     "common_error": "❌ What you did yesterday?  →  ✅ What did you do yesterday?",
     "in_context": [
@@ -815,6 +815,17 @@
           "answer": "why"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      "Khi sử dụng câu hỏi Wh- ở thì quá khứ, cần lưu ý về vị trí của động từ did trong câu, vì nó thường được đặt ngay sau từ Wh-.",
+      "Câu hỏi Wh- ở thì quá khứ thường được sử dụng trong các tình huống thông thường, nhưng trong tiếng Anh, người ta có thể sử dụng cấu trúc câu hỏi phức tạp hơn.",
+      "Một điểm cần lưu ý là câu hỏi Wh- ở thì quá khứ không được sử dụng để hỏi về hành động đang diễn ra hoặc sẽ diễn ra trong tương lai.",
+      "Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Wh- ở thì quá khứ và câu hỏi Wh- ở thì hiện tại, vì vậy cần phải luyện tập và chú ý đến thời gian của hành động trong câu hỏi."
+    ],
+    "in_context_vi": [
+      "Điều gì mà hướng dẫn viên đã đưa cho chúng tôi tại lối vào?",
+      "Chúng tôi đã đi đến đâu để xem triển lãm về Ai Cập cổ đại?",
+      "Như thế nào mà người kể chuyện có thể nói để chúng tôi hiểu mọi thứ?"
+    ]
   }
 }

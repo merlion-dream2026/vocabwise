@@ -670,7 +670,7 @@
       "question": "Do + Subject + Verb?",
       "variant": "There are + plural noun"
     },
-    "rule_vi": "Danh từ số nhiều được dùng khi nói về hai hoặc nhiều hơn một người, vật, hoặc khái niệm.",
+    "rule_vi": "Danh từ số nhiều dùng để chỉ hai hoặc nhiều hơn một người, vật, hoặc khái niệm. Đa số danh từ thêm -s vào cuối; nếu danh từ kết thúc bằng -s, -x, -z, -sh, -ch thì thêm -es. Đối với danh từ kết thúc bằng phụ âm + y, y được thay bằng -ies. Một số danh từ bất quy tắc có dạng riêng (man → men, child → children, tooth → teeth, mouse → mice) hoặc không thay đổi (sheep, fish, series).",
     "rule_en": "Plural nouns are used to refer to more than one person, thing, or idea.",
     "common_error": "❌ My brothers is coming.  →  ✅ My brothers are coming.",
     "in_context": [
@@ -814,6 +814,41 @@
           "answer": "cousins"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Đối với danh từ thường, chỉ cần thêm -s; nếu kết thúc bằng âm s, x, z, sh, ch thì dùng -es.",
+        "examples": [
+          "❌ bus → ✅ buses",
+          "❌ cat → ✅ cats"
+        ]
+      },
+      {
+        "text": "Danh từ kết thúc bằng phụ âm + y thay y bằng -ies; nếu trước y là nguyên âm thì chỉ thêm -s.",
+        "examples": [
+          "❌ baby → ✅ babies",
+          "❌ boy → ✅ boys"
+        ]
+      },
+      {
+        "text": "Một số danh từ có dạng số nhiều bất quy tắc, không theo quy tắc -s/-es.",
+        "examples": [
+          "❌ man → ✅ men",
+          "❌ child → ✅ children"
+        ]
+      },
+      {
+        "text": "Có những danh từ không thay đổi khi ở dạng số nhiều; nghĩa số nhiều được hiểu từ ngữ cảnh.",
+        "examples": [
+          "❌ sheep → ✅ sheep",
+          "❌ fish → ✅ fish"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi sống cùng bố mẹ và hai anh chị em — một chị lớn hơn và một em trai nhỏ hơn.",
+      "Mỗi cuối tuần, chúng tôi thăm ông bà của tôi.",
+      "Vào những ngày lễ đặc biệt, tất cả người thân của chúng tôi đến thăm — các chú bác, cô dì và anh chị em họ ở mọi lứa tuổi từ các thành phố khác nhau."
+    ]
   }
 }

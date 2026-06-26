@@ -774,7 +774,7 @@
       "question": "Did + subject + use to + base verb? / Would + subject + base verb?",
       "variant": "Subject + used to be + adjective/noun / Subject + would often + base verb"
     },
-    "rule_vi": "Dùng 'used to' hoặc 'would' để nói về thói quen, hành động lặp lại trong quá khứ mà hiện tại không còn xảy ra.",
+    "rule_vi": "Used to và would (the latter chỉ dùng cho hành động) được dùng để diễn tả thói quen hoặc hành động lặp lại trong quá khứ mà hiện tại không còn xảy ra. Cấu trúc: used to + V (động từ nguyên mẫu) hoặc would + V (động từ nguyên mẫu) sau một mốc thời gian hoặc bối cảnh trong quá khứ. Used to có thể đứng độc lập, còn would thường xuất hiện trong câu kể chuyện có ngữ cảnh thời gian rõ ràng. Cả hai không dùng với các động từ trạng thái (know, love, be…) khi muốn nói về thói quen, và khi phủ định phải dùng trợ động từ (didn't use to, wouldn't).",
     "rule_en": "Use 'used to' or 'would' to talk about past habits that no longer happen.",
     "common_error": "❌ I used to can swim  →  ✅ I used to be able to swim",
     "in_context": [
@@ -927,6 +927,40 @@
           "answer": "used to"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dạng phủ định: với \"used to\" dùng \"didn't use to\" (hoặc \"used not to\"), còn \"would\" dùng \"wouldn't\".",
+        "examples": [
+          "❌ I used to not like vegetables → ✅ I didn't use to like vegetables",
+          "❌ He would not go out often → ✅ He wouldn't go out often"
+        ]
+      },
+      {
+        "text": "\"Would\" chỉ dùng cho hành động lặp lại, không dùng với động từ trạng thái như \"be\", \"know\", \"love\".",
+        "examples": [
+          "❌ She would be happy every summer → ✅ She would feel happy every summer",
+          "✅ I used to be a teacher"
+        ]
+      },
+      {
+        "text": "Cách dùng trong câu hỏi: \"used to\" cần trợ động từ \"did\" (Did you use to…?), còn \"would\" không dùng trong câu hỏi trực tiếp; thường dùng trong câu khẳng định hoặc phủ định.",
+        "examples": [
+          "❌ Would you go to the park often? → ✅ Did you use to go to the park often?"
+        ]
+      },
+      {
+        "text": "Sự khác nhau về ngữ cảnh: \"used to\" có thể dùng độc lập để nói chung, trong khi \"would\" thường xuất hiện trong đoạn kể chuyện có thời gian cụ thể.",
+        "examples": [
+          "✅ I used to play soccer as a kid.",
+          "✅ When I was a child, I would play soccer every weekend."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nuôi dạy con tốt trong quá khứ thường bao gồm nhiều hơn chỉ việc cung cấp thực phẩm và chỗ ở.",
+      "Xã hội trước đây thường cứng nhắc hơn về vai trò gia đình.",
+      "Những quan niệm truyền thống về vai trò gia đình thường quyết định các trách nhiệm nghiêm ngặt."
+    ]
   }
 }
