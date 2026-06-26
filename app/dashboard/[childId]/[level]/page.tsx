@@ -158,8 +158,22 @@ export default function LevelTopicsPage() {
       setWeakKeys(new Set(Object.keys(syncData?.weak_words ?? {})))
       setSyncRaw(syncData)
       // Merge server revision scores with localStorage (local wins for same key — most recent)
-      if (syncData?.revision_scores && Object.keys(syncData.revision_scores).length > 0) {
-        setRevScores(local => ({ ...syncData.revision_scores, ...local }))
+      const serverScores: Record<string, { score: number; max: number }> = syncData?.revision_scores ?? {}
+      setRevScores(local => ({ ...serverScores, ...local }))
+      // Backfill: push any localStorage scores that aren't on the server yet
+      for (let i = 1; i <= 6; i++) {
+        const rid = `r${String(i).padStart(2, '0')}`
+        const raw = localStorage.getItem(`revision_kids_${level}_${rid}`)
+        if (raw && !serverScores[rid]) {
+          try {
+            const value = JSON.parse(raw)
+            fetch(`/api/sync/${childId}`, {
+              method: 'PATCH',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ level, revision_score_key: rid, revision_score_value: value }),
+            }).catch(() => {})
+          } catch {}
+        }
       }
       setLoading(false)
     })
