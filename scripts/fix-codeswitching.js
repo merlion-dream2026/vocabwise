@@ -57,6 +57,10 @@ const CODE_SWITCH_BLOCKLIST = new Set([
   'establish','promote','enhance','generate','monitor','prioritize','validate',
   'represent','associate','communicate','emphasize','indicate','highlight',
   'reference','represent','respond','utilize','experience','encourage','recognize',
+  // Common daily verbs also code-switched
+  'notice','lend','hire','handle','share','join','check','offer','match',
+  'build','start','stop','help','open','close','send','follow','pick','pay',
+  'care','serve','cause','show','keep','meet','lose','gain','reach','plan',
   // Nouns
   'performance','achievement','management','approach','challenge','consideration',
   'comparison','evaluation','contribution','impact','relationship','combination',
