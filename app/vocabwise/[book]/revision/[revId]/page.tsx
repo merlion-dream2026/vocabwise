@@ -365,10 +365,14 @@ export default function RevisionPage() {
   }, [book, revNum, router])
 
   const saveScore = useCallback((total: number) => {
-    localStorage.setItem(
-      `revision_${book}_${revId}`,
-      JSON.stringify({ score: total, max: 30, date: new Date().toISOString().split('T')[0] })
-    )
+    const value = { score: total, max: 30, date: new Date().toISOString().split('T')[0] }
+    localStorage.setItem(`revision_${book}_${revId}`, JSON.stringify(value))
+    // Sync to server so score shows on all devices
+    fetch('/api/vocabwise/sync', {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ revision_score_key: `${book}_${revId}`, revision_score_value: value }),
+    }).catch(() => {})
   }, [book, revId])
 
   const totalScore = mcqScore + fibScore + match1Score + match2Score

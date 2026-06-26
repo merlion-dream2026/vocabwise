@@ -45,28 +45,13 @@ export default function VocabWisePage() {
   useEffect(() => {
     setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
     setPlacementDismissed(!!localStorage.getItem(PLACEMENT_DISMISS_KEY))
-    const storedCid = localStorage.getItem('vw_active_child') ?? localStorage.getItem('nav_child_id')
-
-    const fetchData = (cid: string | null) => {
-      if (cid && !localStorage.getItem('vw_active_child')) {
-        localStorage.setItem('vw_active_child', cid)
-      }
-      Promise.all([
-        fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-        cid ? fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null) : Promise.resolve(null),
-      ]).then(([sess, d]) => {
-        setSession(sess)
-        setSyncMap(d?.mastery ?? {})
-      }).catch(() => {})
-    }
-
-    if (storedCid) {
-      fetchData(storedCid)
-    } else {
-      fetch('/api/children').then(r => r.ok ? r.json() : [])
-        .then((children: { id: string }[]) => fetchData(children[0]?.id ?? null))
-        .catch(() => fetchData(null))
-    }
+    Promise.all([
+      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
+    ]).then(([sess, d]) => {
+      setSession(sess)
+      setSyncMap(d?.mastery ?? {})
+    }).catch(() => {})
   }, [])
 
   function dismissWelcome() {

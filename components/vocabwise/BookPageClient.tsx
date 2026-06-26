@@ -113,33 +113,38 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   useEffect(() => {
-    const storedCid = localStorage.getItem('vw_active_child') ?? localStorage.getItem('nav_child_id')
-
-    const fetchData = (cid: string | null) => {
-      if (cid && !localStorage.getItem('vw_active_child')) {
-        localStorage.setItem('vw_active_child', cid)
+    Promise.all([
+      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
+    ]).then(([sess, syncData]) => {
+      setSession(sess)
+      setSyncMap(syncData?.mastery ?? {})
+      setSrsMap(syncData?.srs ?? {})
+      // Merge revision scores: server fills other-device completions, local wins for same key
+      const serverRevScores: Record<string, { score: number; max: number }> = {}
+      for (const [key, value] of Object.entries(syncData?.revision_scores ?? {})) {
+        if (key.startsWith(`${book}_`)) {
+          serverRevScores[key.replace(`${book}_`, '')] = value as { score: number; max: number }
+        }
       }
-      Promise.all([
-        fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-        cid
-          ? fetch(`/api/sync/${cid}?level=academic`).then(r => r.ok ? r.json() : null)
-          : Promise.resolve(null),
-      ]).then(([sess, syncData]) => {
-        setSession(sess)
-        setSyncMap(syncData?.mastery ?? {})
-        setSrsMap(syncData?.srs ?? {})
-        setLoaded(true)
-      }).catch(() => setLoaded(true))
-    }
-
-    if (storedCid) {
-      fetchData(storedCid)
-    } else {
-      fetch('/api/children').then(r => r.ok ? r.json() : [])
-        .then((children: { id: string }[]) => fetchData(children[0]?.id ?? null))
-        .catch(() => fetchData(null))
-    }
-  }, [])
+      setRevScores(local => ({ ...serverRevScores, ...local }))
+      // Backfill: push localStorage revision scores not yet on server
+      for (let i = 1; i <= 12; i++) {
+        const rid = `r${String(i).padStart(2, '0')}`
+        const raw = localStorage.getItem(`revision_${book}_${rid}`)
+        if (raw && !serverRevScores[rid]) {
+          try {
+            fetch('/api/vocabwise/sync', {
+              method: 'PATCH',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ revision_score_key: `${book}_${rid}`, revision_score_value: JSON.parse(raw) }),
+            }).catch(() => {})
+          } catch {}
+        }
+      }
+      setLoaded(true)
+    }).catch(() => setLoaded(true))
+  }, [book])
 
   // ─── Skeleton ───────────────────────────────────────────────────────────────
   if (!loaded) {

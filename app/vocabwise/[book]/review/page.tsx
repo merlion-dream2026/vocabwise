@@ -28,7 +28,6 @@ export default function ReviewPage() {
   const { book } = useParams() as { book: string }
 
   const [queue,      setQueue]      = useState<QueueItem[]>([])
-  const [childId,    setChildId]    = useState<string | null>(null)
   const [phase,      setPhase]      = useState<'loading' | 'ready' | 'fetching' | 'reviewing' | 'done'>('loading')
   const [currentIdx, setCurrentIdx] = useState(0)
   const [currentEx,  setCurrentEx]  = useState<TopicEx | null>(null)
@@ -37,29 +36,24 @@ export default function ReviewPage() {
   // Avoid stale closures in callbacks
   const syncRef            = useRef<SyncState>({ mastery: {}, srs: {}, history: {} })
   const queueRef           = useRef<QueueItem[]>([])
-  const childIdRef         = useRef<string | null>(null)
   const completedCurrentRef = useRef(false)
 
   useEffect(() => { queueRef.current = queue }, [queue])
-  useEffect(() => { childIdRef.current = childId }, [childId])
 
   // Init: read localStorage queue + fetch sync data
   useEffect(() => {
     if (!book) return
-    const cid = localStorage.getItem('vw_active_child')
     const raw = localStorage.getItem('vw_review_queue')
-    if (!cid || !raw) { router.replace(`/vocabwise/${book}`); return }
+    if (!raw) { router.replace(`/vocabwise/${book}`); return }
 
     let q: QueueItem[]
     try { q = JSON.parse(raw) } catch { router.replace(`/vocabwise/${book}`); return }
     if (!q.length) { router.replace(`/vocabwise/${book}`); return }
 
-    setChildId(cid)
-    childIdRef.current = cid
     setQueue(q)
     queueRef.current = q
 
-    fetch(`/api/sync/${cid}?level=academic`)
+    fetch('/api/vocabwise/sync')
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         syncRef.current = {
@@ -146,18 +140,11 @@ export default function ReviewPage() {
     }])
 
     // Save to server (fire and forget)
-    const cid = childIdRef.current
-    if (cid) {
-      fetch(`/api/sync/${cid}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          level: 'academic',
-          mastery: newMastery, srs: newSrs, history: newHistory,
-          seen: [], weak_words: {}, streak: {}, battle: {},
-        }),
-      }).catch(() => {})
-    }
+    fetch('/api/vocabwise/sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mastery: newMastery, srs: newSrs, history: newHistory }),
+    }).catch(() => {})
   }
 
   function handleBack() {
