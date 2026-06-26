@@ -10,6 +10,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import type { ExercisesData } from './types'
 import WordListPicker from '@/components/WordListPicker'
 import PassageGrammarNote from './PassageGrammarNote'
+import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
 
 type GlossaryItem = {
   id: number
@@ -33,6 +34,7 @@ export type TopicData = {
   glossary: GlossaryItem[]
   exercises: ExercisesData
   answer_key: Record<string, Record<string, string>>
+  grammar_spotlight?: GrammarSpotlightData
 }
 
 type AcademicTopicSync = {
@@ -43,7 +45,7 @@ type AcademicTopicSync = {
 }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
-type Tab = 'passage' | 'glossary' | 'exercises'
+type Tab = 'passage' | 'glossary' | 'grammar' | 'exercises'
 
 function renderPassage(text: string) {
   return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
@@ -358,12 +360,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
       {/* Tabs */}
       <div className="flex border-b border-gray-200 bg-white sticky top-0 z-10 shadow-sm">
-        {(['passage', 'glossary', 'exercises'] as Tab[]).map(t => (
+        {(['passage', 'glossary', ...(data.grammar_spotlight ? ['grammar' as Tab] : []), 'exercises'] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
-            className={`flex-1 py-3 font-black text-sm transition-all ${
+            className={`flex-1 py-3 font-black text-xs transition-all ${
               tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
             }`}>
-            {t === 'passage' ? '📄 Bài đọc' : t === 'glossary' ? '📚 Từ vựng' : '✏️ Bài tập'}
+            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '✏️ Bài tập'}
           </button>
         ))}
       </div>
@@ -574,12 +576,23 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 )
               })}
             </div>
+            <button onClick={() => setTab(data.grammar_spotlight ? 'grammar' : 'exercises')}
+              className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+              {data.grammar_spotlight ? '📖 Ngữ pháp →' : '✏️ Làm bài tập →'}
+            </button>
+            </>
+            )}
+          </div>
+        )}
+
+        {/* GRAMMAR TAB */}
+        {tab === 'grammar' && data.grammar_spotlight && (
+          <div>
+            <GrammarSpotlight data={data.grammar_spotlight} />
             <button onClick={() => setTab('exercises')}
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
               ✏️ Làm bài tập →
             </button>
-            </>
-            )}
           </div>
         )}
 
