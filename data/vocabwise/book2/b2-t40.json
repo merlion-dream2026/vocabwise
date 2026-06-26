@@ -791,7 +791,7 @@
     "form": {
       "positive": "Subject + Verb + the + Noun (unique/known concept)"
     },
-    "rule_vi": "Dùng 'the' khi danh từ chỉ một khái niệm duy nhất, đã được người nghe/đọc biết tới.",
+    "rule_vi": "Mạo từ 'the' được dùng khi danh từ chỉ một thực thể duy nhất, đã được người nghe/đọc nhận diện hoặc khi ngữ cảnh đã xác định rõ ràng. Nó xuất hiện trước các danh từ số ít, danh từ số nhiều hoặc danh từ không đếm được khi chúng mang nghĩa đặc thù, không chung chung. Khi danh từ được bổ nghĩa bởi một mệnh đề, cụm tính từ hoặc vị ngữ làm cho nó trở nên cụ thể, 'the' cũng được dùng. Nếu danh từ nói chung, không có yếu tố xác định, thì không dùng 'the'.",
     "rule_en": "Use 'the' with a noun that refers to a unique or already known concept.",
     "common_error": "❌ She visited a Eiffel Tower → ✅ She visited the Eiffel Tower",
     "in_context": [
@@ -943,6 +943,38 @@
           "answer": "the"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng 'the' trước danh từ chỉ một đối tượng duy nhất, đã được người nghe/đọc biết tới.",
+        "examples": [
+          "❌ Sun is bright → ✅ The sun is bright"
+        ]
+      },
+      {
+        "text": "Dùng 'the' với tính từ so sánh nhất và các số thứ tự.",
+        "examples": [
+          "❌ He is best player → ✅ He is the best player",
+          "❌ She finished first → ✅ She finished the first"
+        ]
+      },
+      {
+        "text": "Khi danh từ được một cụm từ hoặc mệnh đề làm cho nó trở nên cụ thể, 'the' phải xuất hiện.",
+        "examples": [
+          "❌ I visited museum yesterday → ✅ I visited the museum that opened last year"
+        ]
+      },
+      {
+        "text": "Không dùng 'the' với danh từ trừu tượng khi nói chung; chỉ dùng khi đã có ngữ cảnh xác định.",
+        "examples": [
+          "❌ The happiness is important → ✅ Happiness is important"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các lễ kỷ niệm văn hoá — các lễ hội, ngày lễ công cộng và các sự kiện lễ hội — là một trong những biểu hiện mạnh mẽ nhất của bản sắc chung.",
+      "Di sản — di sản sống động của quá khứ — được duy trì qua những hành động lặp lại này.",
+      "Thách thức là phải thích nghi mà không làm mất đi bản chất của những gì một lễ hội đại diện."
+    ]
   }
 }

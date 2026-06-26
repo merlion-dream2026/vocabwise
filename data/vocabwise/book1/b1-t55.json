@@ -830,19 +830,26 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng các cách yêu cầu lịch sự, cần chú ý đến vị trí của các từ trong câu, thường là sau động từ chính và trước các từ chỉ thời gian hoặc địa điểm.",
-        "examples": []
+        "text": "Modal đứng TRƯỚC động từ chính — không thêm \"to\" sau modal.",
+        "examples": [
+          "❌ Can you to open...? → ✅ Can you open the window?",
+          "❌ May I to use...? → ✅ May I use your pen?"
+        ]
       },
       {
-        "text": "Sự khác biệt giữa các động từ khiếm khuyết là rất quan trọng, vì chúng thể hiện mức độ lịch sự và tôn trọng khác nhau, ví dụ như could thường được sử dụng trong các tình huống hơn so với can.",
-        "examples": []
+        "text": "Thang lịch sự (tăng dần): Can → Could → Would you → May I (lịch sự nhất).",
+        "examples": [
+          "✅ Can you help? (thân mật) / Could you help? (lịch sự) / May I help? (trang trọng)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa các động từ khiếm khuyết, đặc biệt là giữa can và could, vì vậy cần phải luyện tập và sử dụng chúng trong các tình huống khác nhau để nắm rõ cách sử dụng.",
-        "examples": []
+        "text": "\"May I...?\" xin phép cho BẢN THÂN làm gì; \"Could/Would you...?\" nhờ NGƯỜI KHÁC làm.",
+        "examples": [
+          "✅ May I leave early? (xin phép bản thân) / Could you check my work? (nhờ người khác)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, các cách yêu cầu lịch sự thường được sử dụng trong các tình huống hàng ngày, như khi yêu cầu thông tin, giúp đỡ hoặc cho phép làm điều gì, vì vậy người học cần phải học và sử dụng chúng một cách linh hoạt.",
+        "text": "Phản hồi lịch sự khi được phép hoặc từ chối: \"Of course.\" / \"Sure, go ahead.\" / \"I'm afraid not.\"",
         "examples": []
       }
     ],

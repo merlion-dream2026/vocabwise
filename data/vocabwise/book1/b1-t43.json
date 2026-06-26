@@ -825,20 +825,29 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng quá khứ tiếp diễn thường được sử dụng để nói về những hành động đang diễn ra trong một khoảng thời gian, nhưng không nhất thiết phải hoàn thành trong khoảng thời gian đó.",
-        "examples": []
+        "text": "Dùng Past Continuous để mô tả hành động ĐANG xảy ra tại một thời điểm quá khứ, hoặc làm nền cho sự kiện khác.",
+        "examples": [
+          "✅ She was reading when the phone rang. (nền: was reading | sự kiện: rang)"
+        ]
       },
       {
-        "text": "Quá khứ tiếp diễn thường được sử dụng trong câu để tạo ra một bối cảnh hoặc một tình huống cụ thể, và thường được sử dụng cùng với các thì khác như quá khứ đơn hoặc quá khứ hoàn thành.",
-        "examples": []
+        "text": "\"While\" thường đi với Past Continuous; \"when\" thường đi với Past Simple để chỉ sự kiện ngắt vào.",
+        "examples": [
+          "✅ While we were eating, a friend called. (hai việc song song)",
+          "✅ We were eating when a friend called. (called ngắt vào eating)"
+        ]
       },
       {
-        "text": "Khi sử dụng quá khứ tiếp diễn, cần lưu ý về vị trí của các từ trong câu, đặc biệt là khi sử dụng các từ chỉ thời gian hoặc vị trí.",
-        "examples": []
+        "text": "Phân biệt Past Continuous (đang xảy ra) vs Past Simple (đã xảy ra xong).",
+        "examples": [
+          "✅ I was sleeping at 10pm. (vào 10 giờ đang ngủ) vs I slept early. (sự kiện)"
+        ]
       },
       {
-        "text": "Quá khứ tiếp diễn cũng có thể được sử dụng để nói về những hành động lặp đi lặp lại trong quá khứ, nhưng không nhất thiết phải xảy ra tại một thời điểm cụ thể.",
-        "examples": []
+        "text": "Stative verbs (know, believe, want, like) KHÔNG dùng ở dạng -ing.",
+        "examples": [
+          "❌ I was knowing the answer → ✅ I knew the answer."
+        ]
       }
     ],
     "in_context_vi": [

@@ -687,7 +687,7 @@
       "question": "Be + Object + past participle (+ by Agent)?",
       "variant": "Object + get + past participle (e.g., gets written) or be + being + past participle for ongoing processes"
     },
-    "rule_vi": "Dùng thể bị động khi mô tả một quá trình hoặc cách một hành động được thực hiện mà người thực hiện không quan trọng hoặc không được nhắc tới.",
+    "rule_vi": "Thể bị động mô tả một quá trình hoặc cách một hành động được thực hiện khi người thực hiện không quan trọng, không biết, hoặc không muốn nhắc tới. Cấu trúc cơ bản là ‘to be + past participle’, có thể thêm cụm ‘by …’ nếu muốn chỉ ra người thực hiện. Trong văn viết học thuật, thể bị động thường dùng để nhấn mạnh kết quả, quá trình hoặc tính khách quan, còn ‘get‑passive’ chỉ dùng trong ngữ cảnh thông thường để nhấn mạnh tính động. Khi dùng bị động, động từ phải là động từ hành động (action verb), không nên dùng với các động từ trạng thái như *be, seem, have*.",
     "rule_en": "Use the passive to describe a process when the focus is on the action rather than the doer.",
     "common_error": "❌ The experiment conducted by the researchers.  →  ✅ The experiment was conducted by the researchers.",
     "in_context": [
@@ -838,6 +838,37 @@
           "answer": "published"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi người thực hiện không quan trọng hoặc không biết, bỏ cụm ‘by …’ để tập trung vào hành động hoặc kết quả.",
+        "examples": [
+          "❌ The researchers conducted the experiment → ✅ The experiment was conducted."
+        ]
+      },
+      {
+        "text": "Thể bị động được dùng để nhấn mạnh quá trình hoặc kết quả trong văn học thuật, tạo tính khách quan và trang trọng.",
+        "examples": [
+          "✅ The data were analyzed using SPSS."
+        ]
+      },
+      {
+        "text": "Trong mô tả quy trình, nếu muốn nhấn mạnh tính động, có thể dùng ‘get‑passive’, nhưng trong văn viết trang trọng nên dùng ‘be‑passive’.",
+        "examples": [
+          "❌ The results got published → ✅ The results were published."
+        ]
+      },
+      {
+        "text": "Tránh dùng thể bị động với động từ trạng thái (be, seem, have) vì chúng không diễn tả hành động thực tế.",
+        "examples": [
+          "❌ The problem is solved → ✅ The problem was solved."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự gắn kết — keo ngữ ngữ của diễn ngôn — được đạt được thông qua các cụm từ chuyển tiếp, việc tham chiếu đại từ, và việc tham chiếu cẩn thận đến các điểm đã nêu trước đó.",
+      "Lập luận hiệu quả không chỉ phụ thuộc vào sức mạnh của các luận điểm cá nhân mà còn phụ thuộc vào cách chúng được kết nối với nhau.",
+      "Giọng điệu trang trọng, khách quan đặc trưng của các ngữ cảnh học thuật được đạt được nhờ vào việc thực hành danh danh hoá liên quan."
+    ]
   }
 }

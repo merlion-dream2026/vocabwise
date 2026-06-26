@@ -727,7 +727,7 @@
       "question": "Do/Does + Subject + agree to + infinitive?\nDo/Does + Subject + suggest + V-ing?\nDo/Does + Subject + expect to + infinitive?",
       "variant": "Subject + agree that + clause\nSubject + suggest that + clause"
     },
-    "rule_vi": "Dùng ‘agree to’ + động từ nguyên mẫu để nói đồng ý làm việc gì. Dùng ‘suggest’ + V‑ing để đề xuất một hành động. Dùng ‘expect to’ + động từ nguyên mẫu để diễn tả kỳ vọng.",
+    "rule_vi": "Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi động từ yêu cầu một dạng V‑ing hoặc to‑inf khác nhau. agree luôn đi sau to‑inf (động từ nguyên mẫu) để diễn tả việc đồng ý làm một hành động; suggest chỉ chấp nhận V‑ing (gerund) để đưa ra đề xuất; expect cũng dùng to‑inf để nói về kỳ vọng hoặc dự đoán trong tương lai. Lưu ý rằng chủ ngữ của V‑ing hoặc to‑inf thường là cùng một người với chủ ngữ của động từ chính. Các cấu trúc này thường xuất hiện trong văn viết và nói trang trọng.",
     "rule_en": "Use 'agree to' + infinitive, 'suggest' + gerund, and 'expect to' + infinitive.",
     "common_error": "❌ She suggested to volunteer. → ✅ She suggested volunteering.",
     "in_context": [
@@ -872,6 +872,38 @@
           "answer": "donate"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "agree luôn phải theo sau to‑inf, không dùng V‑ing.",
+        "examples": [
+          "❌ agree to helping → ✅ agree to help"
+        ]
+      },
+      {
+        "text": "suggest chỉ chấp nhận V‑ing (hoặc that‑clause) để đưa ra đề xuất, không dùng to‑inf.",
+        "examples": [
+          "❌ suggest to raise awareness → ✅ suggest raising awareness"
+        ]
+      },
+      {
+        "text": "expect dùng to‑inf để diễn tả kỳ vọng về một hành động trong tương lai; chủ ngữ của to‑inf trùng với chủ ngữ của expect.",
+        "examples": [
+          "❌ expect receiving help → ✅ expect to receive help",
+          "❌ She expects him to arrive → ✅ She expects to arrive"
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường mang tính trang trọng; trong giao tiếp không chính thức có thể dùng các cách diễn đạt khác như “agree on” + danh từ hoặc “think about” + V‑ing.",
+        "examples": [
+          "✅ agree on the plan (formal) vs ✅ think about helping (informal)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các tổ chức từ thiện đồng ý tài trợ các dự án phát triển lâu dài cho các cộng đồng gặp khó khăn nhất.",
+      "Các chiến dịch công cộng đề xuất nâng cao nhận thức về các vấn đề xã hội.",
+      "Mọi người mong đợi nhận được sự trợ giúp từ các hệ thống phúc lợi."
+    ]
   }
 }

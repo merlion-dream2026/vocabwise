@@ -742,7 +742,7 @@
       "question": "Modal verb + subject + have + past participle?",
       "variant": "Subject + modal verb + ’ve + past participle (e.g., should've)"
     },
-    "rule_vi": "Dùng để suy luận về một hành động đã xảy ra hoặc không xảy ra trong quá khứ, thường có cảm giác hối tiếc, trách nhiệm hoặc chắc chắn.",
+    "rule_vi": "Động từ khuyết thiếu + have được dùng để nói về một hành động hoặc trạng thái trong quá khứ mà người nói suy đoán, nhận định hoặc cảm thấy tiếc nuối. Cấu trúc: modal verb (should, must, can’t, might, could, …) + have + past participle. Dùng khi chúng ta cho rằng một việc đã (hoặc chưa) xảy ra, thường kèm cảm xúc như hối hận, trách nhiệm, hoặc chắc chắn. Khi muốn diễn tả một khả năng không chắc trong quá khứ, dùng might/could have + V3.",
     "rule_en": "Used to infer or comment on a past action that was expected, required, or impossible.",
     "common_error": "❌ She should has gone home. → ✅ She should have gone home.",
     "in_context": [
@@ -890,6 +890,38 @@
           "answer": "might have"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau động từ khuyết thiếu luôn đặt ‘have’, rồi mới là dạng quá khứ phân từ; không dùng ‘do’ hay ‘did’.",
+        "examples": [
+          "❌ He should has gone → ✅ He should have gone"
+        ]
+      },
+      {
+        "text": "‘Should have’ diễn tả sự hối tiếc hoặc kỳ vọng không thành; ‘must have’ biểu thị sự chắc chắn rằng việc đó đã xảy ra; ‘can’t have’ cho thấy chắc chắn việc đó không xảy ra.",
+        "examples": [
+          "✅ She must have left early.",
+          "✅ He can’t have finished the work already."
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường dùng trong văn viết hoặc tiếng Anh trang trọng; trong giao tiếp thường rút gọn thành ‘should've’, ‘must've’, ‘can’t've’.",
+        "examples": [
+          "✅ I should have called you. → I should've called you."
+        ]
+      },
+      {
+        "text": "Không nhầm lẫn với quá khứ hoàn thành; không dùng ‘had’ sau modal. Ví dụ: ‘should have had’ chỉ nghĩa ‘có nên có’, không phải ‘should have gone’.",
+        "examples": [
+          "❌ He should have had gone → ✅ He should have gone"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Một xã hội đòi hỏi tự do phải đã tôn trọng quyền của người khác.",
+      "Các chiến dịch vì bình đẳng lẽ ra đã thúc đẩy một số thay đổi xã hội quan trọng nhất trong lịch sử, từ việc bãi bỏ chế độ nô lệ đến quyền bầu cử cho phụ nữ.",
+      "Cuộc đấu tranh cho nhân quyền không thể đã là một vấn đề chính trị xa vời—đó là trách nhiệm hàng ngày."
+    ]
   }
 }

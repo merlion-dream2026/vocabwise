@@ -793,7 +793,7 @@
       "question": "Is/Are + subject + twice as + adjective/adverb + as + noun phrase?\nDoes/Do + subject + far more + noun + than + noun phrase?",
       "variant": "twice as many + plural noun + as + noun phrase"
     },
-    "rule_vi": "Dùng cấu trúc so sánh với lượng từ khi muốn nhấn mạnh mức độ gấp đôi hoặc mức độ lớn hơn nhiều so với một chuẩn mực.",
+    "rule_vi": "Cấu trúc so sánh kết hợp với lượng từ dùng để nhấn mạnh mức độ gấp đôi hoặc mức độ lớn hơn nhiều so với chuẩn mực. Dùng \"twice as … as\" để nói một giá trị gấp đôi so với một thời điểm hoặc đối tượng khác, và \"far more / far fewer\" để chỉ số lượng nhiều hơn hoặc ít hơn đáng kể. \"Twice as\" luôn đi kèm với tính từ hoặc trạng từ, còn \"far more/fewer\" chỉ đứng trước danh từ. Khi so sánh, dùng \"as\" (đối với twice as) hoặc \"than\" (đối với far more/fewer).",
     "rule_en": "Use these comparative structures to express a quantity that is double or considerably greater than another.",
     "common_error": "❌ She is twice as older than me.  →  ✅ She is twice as old as me.",
     "in_context": [
@@ -943,6 +943,40 @@
           "answer": "much"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc \"twice as … as\" cần có hai từ \"as\": từ đầu để nhấn mạnh gấp đôi, từ thứ hai để giới thiệu tiêu chuẩn so sánh.",
+        "examples": [
+          "❌ The proportion is twice higher than → ✅ The proportion is twice as high as"
+        ]
+      },
+      {
+        "text": "\"far more\" và \"far fewer\" chỉ đứng trước danh từ; không dùng để sửa tính từ, mà dùng \"far + comparative adjective\" cho tính từ.",
+        "examples": [
+          "❌ He is far more tall → ✅ He is far taller",
+          "✅ There are far more retirees now"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, ưu tiên dùng \"far more/fewer\"; trong giao tiếp thông thường có thể thay bằng \"a lot more/fewer\".",
+        "examples": [
+          "✅ There are far more challenges ahead",
+          "✅ There are a lot more challenges ahead"
+        ]
+      },
+      {
+        "text": "Khi dùng \"twice as many\" thay vì \"twice the number of\", cần chú ý danh từ phải là danh từ đếm được và ở dạng số nhiều.",
+        "examples": [
+          "✅ Twice as many people attended the conference",
+          "❌ Twice as people attended the conference"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tỷ lệ người cao tuổi gấp đôi so với cách đây hai thập kỷ.",
+      "Nhiều người đã nghỉ hưu có lo lắng tài chính nhiều hơn rất nhiều so với người lao động trẻ tuổi.",
+      "Người cao tuổi vẫn tham gia cộng đồng có khả năng cảm thấy hài lòng cao hơn rất nhiều so với những người cô lập mình."
+    ]
   }
 }

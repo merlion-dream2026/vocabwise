@@ -737,7 +737,7 @@
     "form": {
       "positive": "Subject + Verb + Object → Subject + Noun (derived from verb) + ..."
     },
-    "rule_vi": "Khi muốn diễn tả hành động dưới dạng danh từ, chuyển động từ sang danh danh hóa (ví dụ: pollute → pollution).",
+    "rule_vi": "Danh hóa (nominalization) là quá trình chuyển một động từ thành danh từ để diễn tả hành động hoặc quá trình dưới dạng khái niệm. Thông thường, ta thêm các hậu tố như -tion, -sion, -ment, -ance, -ence, hoặc dùng dạng -ing (gerund) khi muốn nhấn mạnh tính chất chung. Danh hóa thường xuất hiện trong văn viết trang trọng, làm câu trở nên ngắn gọn, trừu tượng và có thể đứng làm chủ ngữ, tân ngữ hoặc bổ ngữ. Khi danh từ danh hoá là đếm được, nó có thể đi kèm mạo từ (a, the) và chia số nhiều; nếu không đếm được, không dùng a/an và thường không có dạng số nhiều.",
     "rule_en": "Use the noun form of a verb to turn an action into a thing (e.g., pollution).",
     "common_error": "❌ The pollute is increasing. → ✅ The pollution is increasing.",
     "in_context": [
@@ -880,6 +880,39 @@
           "answer": "pollution"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Các hậu tố -tion, -sion, -ment thường tạo danh từ không đếm được, vì vậy không dùng a/an.",
+        "examples": [
+          "❌ A pollution is rising → ✅ Pollution is rising"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, dùng danh hoá thay cho dạng -ing (gerund) để tăng tính học thuật; trong giao tiếp thông thường, dạng -ing nghe tự nhiên hơn.",
+        "examples": [
+          "✅ The development of renewable energy is crucial.",
+          "❌ Developing renewable energy is crucial."
+        ]
+      },
+      {
+        "text": "Nếu danh hoá có nghĩa đếm được, có thể dùng mạo từ và chia số nhiều.",
+        "examples": [
+          "✅ The developments in technology are impressive.",
+          "❌ The development in technology are impressive."
+        ]
+      },
+      {
+        "text": "Tránh dùng danh hoá khi động từ đã có dạng danh từ riêng (noun) để không gây nhầm lẫn.",
+        "examples": [
+          "❌ The usage of the word is frequent → ✅ The use of the word is frequent"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc bảo vệ môi trường đã trở thành một trong những ưu tiên cấp bách nhất của thế kỷ hai mươi mốt.",
+      "Việc sử dụng các thiết bị tiết kiệm năng lượng và chuyển sang năng lượng tái tạo tại nhà cũng giúp giảm ô nhiễm.",
+      "Chính sách môi trường mạnh mẽ có thể bảo vệ các loài có nguy cơ tuyệt chủng, hạn chế ô nhiễm công nghiệp và đầu tư vào giao thông sạch."
+    ]
   }
 }

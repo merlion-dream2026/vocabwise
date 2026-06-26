@@ -733,7 +733,7 @@
       "question": "Does Subject + Nominalized Noun + ... ?",
       "variant": "Subject + Adjective‑derived noun (e.g., 'the strategic approach')"
     },
-    "rule_vi": "Trong tiếng Anh học thuật, chuyển động từ hoặc tính từ thành danh từ (danh hóa) giúp câu trở nên cô đọng và trang trọng.",
+    "rule_vi": "Danh hóa (nominalization) là quá trình chuyển động từ, tính từ hoặc cả một mệnh đề thành danh từ, thường bằng cách thêm hậu tố –tion, –ment, –ing, –ness, hoặc dùng cấu trúc the + V‑ing / the + Adj. Khi danh hóa, danh từ mới thường đi kèm mạo từ (the) và có thể nhận các bổ ngữ như of‑phrase, prepositional phrase. Ẩn dụ ngữ pháp (grammatical metaphor) là việc thay thế một câu hoặc một mệnh đề bằng một cụm danh từ, giúp văn bản ngắn gọn, trang trọng và tăng tính trừu tượng. Ở cấp độ C2, người học cần biết cách cân bằng giữa việc danh hóa để tăng tính học thuật và việc duy trì sự rõ ràng, tránh làm câu trở nên nặng nề hoặc mất đi tính động.",
     "rule_en": "Use nominalization to turn a verb or adjective into a noun, especially in formal academic writing.",
     "common_error": "❌ The to negotiate process was lengthy.  →  ✅ The negotiation process was lengthy.",
     "in_context": [
@@ -890,6 +890,37 @@
           "answer": "evaluation"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng danh hóa để rút gọn một mệnh đề phụ thành một danh từ, thường trong văn viết học thuật, và nhớ đặt mạo từ “the” trước gerund hoặc tính từ danh hoá.",
+        "examples": [
+          "❌ The fact that building relationships is important → ✅ The importance of building relationships"
+        ]
+      },
+      {
+        "text": "Chọn hậu tố danh hoá phù hợp; danh từ tạo ra phải giữ số ít khi nói về một khái niệm chung, tránh dùng dạng –ing khi muốn nhấn mạnh hành động.",
+        "examples": [
+          "❌ Negotiating the contract was successful → ✅ The negotiation of the contract was successful"
+        ]
+      },
+      {
+        "text": "Trong ẩn dụ ngữ pháp, thay thế một câu bằng cụm danh từ để tăng tính trang trọng, nhưng cụm danh từ phải có khả năng nhận các bổ ngữ (of‑phrase, prepositional phrase).",
+        "examples": [
+          "❌ When the other party made a concession, … → ✅ The concession made by the other party …"
+        ]
+      },
+      {
+        "text": "Tránh dùng danh hoá khi vị trí ngữ pháp yêu cầu động từ; lỗi thường gặp là thiếu mạo từ hoặc dùng danh từ thay cho động từ khiến câu không tự nhiên.",
+        "examples": [
+          "❌ He gave a presentation about the importance of relationship building → ✅ He presented the importance of building relationships"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Đàm phán là một hình thức giao tiếp có cấu trúc, trong đó các bên có lợi ích khác nhau hướng tới một kết quả mà cả hai chấp nhận được.",
+      "Các nhà đàm phán dày dặn kinh nghiệm cũng hiểu sức mạnh của việc định khung — trình bày một đề nghị sao cho nhấn mạnh lợi ích của nó hơn là chi phí.",
+      "Nguyên tắc tương hỗ cũng ảnh hưởng sâu sắc đến động lực của đàm phán: khi một bên nhượng bộ, bên còn lại thường cảm thấy một nghĩa vụ xã hội để đáp lại tương tự."
+    ]
   }
 }

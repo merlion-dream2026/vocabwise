@@ -830,20 +830,31 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý không được nhầm lẫn 'Must' với 'Should', vì 'Should' thể hiện một hành động được khuyến nghị nhưng không bắt buộc.",
-        "examples": []
+        "text": "Must luôn đứng trước động từ nguyên mẫu (bare infinitive) — không thêm \"to\".",
+        "examples": [
+          "❌ He must to study → ✅ He must study",
+          "❌ She must studies → ✅ She must study"
+        ]
       },
       {
-        "text": "Vị trí của 'Must' và 'Mustn't' trong câu thường đứng trước động từ chính, và cần sử dụng đúng vị trí để tránh thay đổi ý nghĩa của câu.",
-        "examples": []
+        "text": "Mustn't (không được phép) khác với don't have to (không cần thiết nhưng được phép).",
+        "examples": [
+          "✅ You mustn't smoke here. (cấm — không được phép)",
+          "✅ You don't have to wear a tie. (không bắt buộc — nhưng được phép)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, 'Must' và 'Mustn't' thường được sử dụng trong môi trường, nhưng cũng có thể được sử dụng trong môi trường không tùy thuộc vào ngữ cảnh.",
-        "examples": []
+        "text": "Must thể hiện nghĩa vụ xuất phát từ người nói / quy tắc cá nhân; have to thường dùng cho quy tắc bên ngoài.",
+        "examples": [
+          "✅ I must call my mum. (tôi tự thấy cần)",
+          "✅ I have to wear a uniform at school. (quy định trường)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn 'Must' với 'Have to', mặc dù cả hai đều thể hiện nghĩa vụ bắt buộc, nhưng 'Have to' thường được sử dụng trong môi trường không hơn.",
-        "examples": []
+        "text": "Must không có dạng quá khứ — dùng \"had to\" cho quá khứ.",
+        "examples": [
+          "❌ She musted study → ✅ She had to study hard for the exam."
+        ]
       }
     ],
     "in_context_vi": [

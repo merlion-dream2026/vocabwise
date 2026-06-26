@@ -829,20 +829,31 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý không được nhầm lẫn giữa tính từ so sánh nhất và tính từ so sánh hơn, vì chúng có ý nghĩa và cách dùng khác nhau.",
-        "examples": []
+        "text": "Tính từ ngắn (1 âm tiết): thêm -est (tall → tallest); tính từ dài (2+ âm tiết): dùng \"the most\".",
+        "examples": [
+          "❌ the most tall → ✅ the tallest",
+          "❌ beautifulest → ✅ the most beautiful"
+        ]
       },
       {
-        "text": "Vị trí của tính từ so sánh nhất trong câu thường là sau danh từ hoặc sau động từ 'to be', nhưng cũng có thể được dùng như một tính từ độc lập.",
-        "examples": []
+        "text": "So sánh nhất luôn dùng với \"the\"; so sánh hơn dùng \"than\".",
+        "examples": [
+          "✅ She is the tallest in the class. (nhất trong nhóm)",
+          "✅ She is taller than her sister. (hơn một người)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, tính từ so sánh nhất thường được dùng trong văn nói và văn viết, nhưng trong tiếng Việt, ta thường dùng từ 'nhất' hoặc 'hơn cả' để biểu thị ý nghĩa tương tự.",
-        "examples": []
+        "text": "Tính từ bất quy tắc: good → the best · bad → the worst · far → the farthest/furthest.",
+        "examples": [
+          "❌ the most good → ✅ the best",
+          "❌ the most bad → ✅ the worst"
+        ]
       },
       {
-        "text": "Một số tính từ không thể dùng với 'the most', mà phải dùng 'the + tính từ nhất', ví dụ như 'the oldest', 'the youngest',...",
-        "examples": []
+        "text": "Sau so sánh nhất, dùng \"in\" với nơi chốn/nhóm, \"of\" với số lượng cụ thể.",
+        "examples": [
+          "✅ She is the smartest in the class. / He is the tallest of the three."
+        ]
       }
     ],
     "in_context_vi": [

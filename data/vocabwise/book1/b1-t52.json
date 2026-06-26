@@ -888,20 +888,28 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng 'just' thường được sử dụng để nói về một hành động vừa mới xảy ra và thường đi cùng với thời gian gần đây.",
-        "examples": []
+        "text": "\"Just\" = vừa mới xảy ra; đứng GIỮA \"have/has\" và past participle.",
+        "examples": [
+          "✅ I have just finished dinner. / She has just arrived."
+        ]
       },
       {
-        "text": "Sự khác biệt giữa 'already' và 'yet' là 'already' dùng cho hành động đã hoàn thành, trong khi 'yet' dùng cho hành động chưa xảy ra, và thường đi cùng với câu hỏi hoặc câu phủ định.",
-        "examples": []
+        "text": "\"Already\" = đã xảy ra sớm hơn dự kiến; đứng giữa \"have/has\" và participle trong câu khẳng định.",
+        "examples": [
+          "✅ He has already eaten. / We have already seen that film."
+        ]
       },
       {
-        "text": "Trong tiếng Anh, vị trí của 'just', 'already', 'yet' thường nằm sau 'have' hoặc 'has' nhưng trước động từ chính, và điều này rất quan trọng để giữ cho câu có nghĩa và rõ ràng.",
-        "examples": []
+        "text": "\"Yet\" = \"chưa\" (phủ định) hoặc \"chưa à?\" (câu hỏi); đứng ở CUỐI câu.",
+        "examples": [
+          "✅ I haven't finished yet. / Have you eaten yet? (không đặt \"yet\" trước participle)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa 'already' và 'yet' do sự khác biệt về cách sử dụng và vị trí trong câu, vì vậy cần phải luyện tập và chú ý đến cách sử dụng chúng trong ngữ cảnh khác nhau.",
-        "examples": []
+        "text": "Không dùng hiện tại hoàn thành với thời gian quá khứ cụ thể (yesterday, last week, in 2020).",
+        "examples": [
+          "❌ She has just left yesterday → ✅ She left yesterday."
+        ]
       }
     ],
     "in_context_vi": [

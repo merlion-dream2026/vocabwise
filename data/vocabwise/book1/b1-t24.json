@@ -817,31 +817,29 @@
     },
     "usage_notes": [
       {
-        "text": "Đối với danh từ thường, chỉ cần thêm -s; nếu kết thúc bằng âm s, x, z, sh, ch thì dùng -es.",
+        "text": "Đa số thêm -s; kết thúc -s/-x/-z/-sh/-ch thêm -es; kết thúc phụ âm + y đổi thành -ies.",
         "examples": [
-          "❌ bus → ✅ buses",
-          "❌ cat → ✅ cats"
+          "❌ I have two boxs → ✅ two boxes",
+          "❌ three babys → ✅ three babies"
         ]
       },
       {
-        "text": "Danh từ kết thúc bằng phụ âm + y thay y bằng -ies; nếu trước y là nguyên âm thì chỉ thêm -s.",
+        "text": "Danh từ kết thúc nguyên âm + y chỉ thêm -s (không đổi y → i).",
         "examples": [
-          "❌ baby → ✅ babies",
-          "❌ boy → ✅ boys"
+          "✅ key → keys · boy → boys · day → days",
+          "❌ boies → ✅ boys"
         ]
       },
       {
-        "text": "Một số danh từ có dạng số nhiều bất quy tắc, không theo quy tắc -s/-es.",
+        "text": "Danh từ số nhiều bất quy tắc cần nhớ riêng — không theo quy tắc -s.",
         "examples": [
-          "❌ man → ✅ men",
-          "❌ child → ✅ children"
+          "❌ mans → ✅ men · ❌ childs → ✅ children · ❌ tooths → ✅ teeth"
         ]
       },
       {
-        "text": "Có những danh từ không thay đổi khi ở dạng số nhiều; nghĩa số nhiều được hiểu từ ngữ cảnh.",
+        "text": "Một số danh từ không đổi ở số nhiều (same form): sheep, fish, deer, series, species.",
         "examples": [
-          "❌ sheep → ✅ sheep",
-          "❌ fish → ✅ fish"
+          "✅ one sheep / two sheep · one fish / many fish"
         ]
       }
     ],

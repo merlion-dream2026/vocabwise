@@ -841,20 +841,29 @@
     },
     "usage_notes": [
       {
-        "text": "Cần lưu ý rằng câu điều kiện loại 1 thường được sử dụng trong tình huống thực tế, có thể xảy ra trong tương lai, không phải là một sự kiện chắc chắn.",
-        "examples": []
+        "text": "Mệnh đề \"if\" dùng THÌ HIỆN TẠI ĐƠN — KHÔNG dùng \"will\" trong mệnh đề điều kiện.",
+        "examples": [
+          "❌ If it will rain, we will cancel → ✅ If it rains, we will cancel."
+        ]
       },
       {
-        "text": "Trong câu điều kiện loại 1, từ 'if' thường được đặt ở đầu câu, nhưng cũng có thể được đặt sau phần chủ ngữ trong một số trường hợp.",
-        "examples": []
+        "text": "Thứ tự linh hoạt: nếu \"if\" đứng đầu thì có dấu phẩy; đứng sau thì không cần.",
+        "examples": [
+          "✅ If you study hard, you will pass. / You will pass if you study hard."
+        ]
       },
       {
-        "text": "Câu điều kiện loại 1 thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta thường sử dụng câu điều kiện loại 2 hoặc 3 để diễn đạt một tình huống không chắc chắn.",
-        "examples": []
+        "text": "Mệnh đề kết quả có thể dùng nhiều modal khác, không chỉ \"will\".",
+        "examples": [
+          "✅ If you exercise, you can feel better. (can) / If you're late, you should call. (should)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu điều kiện loại 1 và loại 2, vì vậy cần phải luyện tập và phân biệt rõ ràng giữa hai loại câu này.",
-        "examples": []
+        "text": "Phân biệt Loại 1 (có khả năng xảy ra) vs Loại 2 (giả định/không có thật).",
+        "examples": [
+          "✅ If I have time, I will help you. (Loại 1)",
+          "✅ If I had time, I would help you. (Loại 2 — thực ra không có thời gian)"
+        ]
       }
     ],
     "in_context_vi": [

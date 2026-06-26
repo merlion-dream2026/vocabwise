@@ -887,20 +887,30 @@
     },
     "usage_notes": [
       {
-        "text": "Sử dụng say và tell một cách linh hoạt tùy thuộc vào ngữ cảnh và người nghe để tránh nhầm lẫn về người nói và người nghe.",
-        "examples": []
+        "text": "\"Tell\" luôn cần tân ngữ (NGƯỜI được nghe); \"say\" không cần — hoặc có \"to + người\".",
+        "examples": [
+          "✅ She told me she was busy. / She said she was busy. / She said to me she was busy.",
+          "❌ She told that she was busy → ✅ She told me that she was busy."
+        ]
       },
       {
-        "text": "Lưu ý về vị trí của từ trong câu gián tiếp, thường là 'say/tell' + 'that' + 'câu lời nói', và có thể thay đổi tùy thuộc vào mức độ trang trọng hoặc không trang trọng của câu.",
-        "examples": []
+        "text": "Khi chuyển sang câu gián tiếp, THỜI dịch chuyển lùi: is → was; will → would.",
+        "examples": [
+          "✅ \"I am tired.\" → She said she was tired.",
+          "✅ \"I will call.\" → He said he would call."
+        ]
       },
       {
-        "text": "Khi sử dụng tell, người nghe thường được chỉ định rõ ràng, trong khi say có thể không cần chỉ định người nghe cụ thể.",
-        "examples": []
+        "text": "Đại từ thay đổi theo ngữ cảnh: \"I\" → \"he/she\"; \"you\" → \"I/he/she\".",
+        "examples": [
+          "✅ \"I'll call you,\" he said. → He said he would call me."
+        ]
       },
       {
-        "text": "Phân biệt giữa say và tell khi dịch từ tiếng Việt sang tiếng Anh để tránh nhầm lẫn về cấu trúc và ý nghĩa.",
-        "examples": []
+        "text": "Từ chỉ thời gian/nơi cũng đổi: \"now\" → \"then\"; \"today\" → \"that day\"; \"here\" → \"there\".",
+        "examples": [
+          "✅ \"I'll do it today.\" → She said she would do it that day."
+        ]
       }
     ],
     "in_context_vi": [

@@ -876,20 +876,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng từ để hỏi thường được sử dụng ở đầu câu, nhưng trong một số trường hợp, chúng có thể được sử dụng ở giữa hoặc cuối câu để tạo ra một câu hỏi phức tạp hơn.",
-        "examples": []
+        "text": "Từ để hỏi đứng ĐẦU câu, theo sau là trợ động từ rồi chủ ngữ (đảo trợ động từ).",
+        "examples": [
+          "❌ Where you are from? → ✅ Where are you from?",
+          "❌ What she does? → ✅ What does she do?"
+        ]
       },
       {
-        "text": "Sử dụng từ để hỏi một cách linh hoạt và phù hợp với ngữ cảnh, vì chúng có thể thay đổi ý nghĩa của câu hỏi tùy thuộc vào cách sử dụng.",
-        "examples": []
+        "text": "Who / What khi hỏi về chủ ngữ thì KHÔNG đảo trợ động từ — theo sau ngay là động từ.",
+        "examples": [
+          "✅ Who lives here? (Who = subject, không đảo)",
+          "✅ What happened? (khác: What do you do? — do = subject)"
+        ]
       },
       {
-        "text": "Từ để hỏi có thể được sử dụng trong cả câu hỏi trực tiếp và gián tiếp, nhưng cần lưu ý về sự thay đổi trong cấu trúc câu khi sử dụng.",
-        "examples": []
+        "text": "How có thể kết hợp với adjective/adverb: how long · how far · how often · how much · how many.",
+        "examples": [
+          "✅ How often do you exercise? / How long does it take?"
+        ]
       },
       {
-        "text": "Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến việc sử dụng từ để hỏi phù hợp để tránh nhầm lẫn ý nghĩa",
-        "examples": []
+        "text": "Why hỏi lý do — câu trả lời thường dùng because.",
+        "examples": [
+          "✅ Why are you late? — Because I missed the bus."
+        ]
       }
     ],
     "in_context_vi": [

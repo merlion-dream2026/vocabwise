@@ -885,20 +885,30 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng liên từ trình tự, cần lưu ý đến vị trí của chúng trong câu, thường là ở đầu hoặc giữa câu để kết nối các bước hoặc sự kiện.",
-        "examples": []
+        "text": "Thứ tự thông thường: First → Then / Next → After that → Finally; dùng để kể trình tự rõ ràng.",
+        "examples": [
+          "✅ First, wash your hands. Then, chop the vegetables. Finally, cook for 10 minutes."
+        ]
       },
       {
-        "text": "Sử dụng first để bắt đầu một quy trình hoặc câu chuyện, và then, next, after that để tiếp tục mô tả các bước tiếp theo.",
-        "examples": []
+        "text": "Các liên từ này thường đứng đầu câu, theo sau là dấu phẩy.",
+        "examples": [
+          "✅ First, preheat the oven. / After that, mix the ingredients.",
+          "❌ First we preheat (thiếu dấu phẩy sau \"first\") — khuyến khích dùng dấu phẩy"
+        ]
       },
       {
-        "text": "Liên từ trình tự có thể được sử dụng trong cả câu chuyện và quy trình, giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện.",
-        "examples": []
+        "text": "\"Then\" và \"next\" có thể dùng trong câu giữa, \"after that\" và \"finally\" thường bắt đầu câu mới.",
+        "examples": [
+          "✅ Mix the flour, then add the eggs. / After that, bake for 30 minutes."
+        ]
       },
       {
-        "text": "Lưu ý không nhầm lẫn giữa các liên từ trình tự, vì mỗi từ có ý nghĩa và vị trí sử dụng riêng biệt.",
-        "examples": []
+        "text": "Không dùng \"firstly, secondly\" quá máy móc trong văn nói; \"first, next, then\" tự nhiên hơn.",
+        "examples": [
+          "Tự nhiên: ✅ First... / Then... / Finally...",
+          "Trang trọng: ✅ Firstly... / Secondly... / Finally..."
+        ]
       }
     ],
     "in_context_vi": [

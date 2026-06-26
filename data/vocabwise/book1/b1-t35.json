@@ -737,7 +737,7 @@
     },
     "rule_vi": "Động từ 'will' được sử dụng để biểu thị dự đoán về tương lai hoặc quyết định được đưa ra ngay lúc nói. Khi sử dụng 'will', người nói muốn thể hiện ý định hoặc dự đoán của mình về một sự kiện hoặc hành động trong tương lai. Cấu trúc cơ bản của 'will' là 'will + động từ chính', trong đó động từ chính được sử dụng dưới dạng cơ bản. 'Will' thường được sử dụng để nói về những việc mà người nói tin sẽ xảy ra trong tương lai hoặc những quyết định được đưa ra một cách tự nhiên.",
     "rule_en": "Use 'will' for future predictions and spontaneous decisions.",
-    "common_error": "❌ I will am going to study → ✅ I will go to study",
+    "common_error": "❌ I will going to study → ✅ I will study / I am going to study (chọn một, không dùng cả hai)",
     "in_context": [
       "To calm down, I **will** revise my notes each evening.",
       "When I finish the exam, I always **will** check my answers one more time.",
@@ -883,20 +883,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng 'will' thường được sử dụng trong những tình huống mà người nói muốn thể hiện sự tự tin hoặc chắc chắn về một sự kiện hoặc hành động trong tương lai.",
-        "examples": []
+        "text": "Will + base verb (bare infinitive) — không thêm \"to\", không chia theo ngôi.",
+        "examples": [
+          "❌ She will studies → ✅ She will study",
+          "❌ I will to go → ✅ I will go"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, 'will' thường được sử dụng nhiều hơn trong văn nói hơn là văn viết, đặc biệt là trong những tình huống không chính thức.",
-        "examples": []
+        "text": "Will dùng cho quyết định tức thì (ngay lúc nói), dự đoán, lời hứa; \"be going to\" dùng cho kế hoạch đã lên trước.",
+        "examples": [
+          "✅ The phone is ringing — I'll get it! (quyết định tức thì)",
+          "✅ I'm going to visit Hanoi next month. (kế hoạch đã có sẵn)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa 'will' và 'be going to' khi nói về tương lai, nhưng 'will' thường được sử dụng để nói về những dự đoán hoặc quyết định không được lên kế hoạch trước.",
-        "examples": []
+        "text": "Phủ định: won't (= will not); câu hỏi: Will + subject + base verb?",
+        "examples": [
+          "✅ She won't come tonight. / Will you help me?"
+        ]
       },
       {
-        "text": "Khi sử dụng 'will' trong câu, cần lưu ý về vị trí của 'will' trong câu và sự kết hợp với các từ khác để thể hiện ý nghĩa chính xác.",
-        "examples": []
+        "text": "Dùng \"probably / maybe / I think\" với will để dự đoán không chắc chắn.",
+        "examples": [
+          "✅ I think it will rain tomorrow. / She'll probably be late."
+        ]
       }
     ],
     "in_context_vi": [

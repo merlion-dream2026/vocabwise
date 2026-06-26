@@ -731,7 +731,7 @@
       "negative": "FrontedElement + Subject + do/does/did not + Verb + (Rest)",
       "question": "FrontedElement + Auxiliary + Subject + Verb + (Rest) ?"
     },
-    "rule_vi": "Khi muốn nhấn mạnh một thành phần (thời gian, lý do, cách thức…) hoặc tạo liên kết giữa các câu, ta đưa thành phần đó lên đầu câu và thường theo sau một dấu phẩy.",
+    "rule_vi": "Đảo ngữ đầu câu (fronting) là việc đưa một thành phần (thời gian, lý do, cách thức, trạng từ, cụm danh từ, hoặc một mệnh đề phụ) lên vị trí đầu câu để nhấn mạnh hoặc tạo liên kết chặt chẽ với câu sau. Khi thành phần được đảo lên đầu, thường đặt dấu phẩy sau nó để tách khỏi phần còn lại của câu. Cấu trúc này thường xuất hiện trong văn viết trang trọng và có thể kèm theo đảo vị trí chủ ngữ‑động từ (inversion) khi có các trạng từ phủ định hoặc hạn chế như never, rarely, only. Đảo ngữ không thay đổi nghĩa của câu, chỉ thay đổi trọng tâm và mức độ nhấn mạnh.",
     "rule_en": "Fronting places a clause‑initial element (e.g., adverbial, prepositional phrase) before the subject to give it emphasis or to link ideas.",
     "common_error": "❌ In most societies deep inequality is sustained by systemic barriers.  →  ✅ In most societies, deep inequality is sustained by systemic barriers.",
     "in_context": [
@@ -887,6 +887,37 @@
           "answer": "In contrast"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thành phần được đảo lên đầu câu phải được ngăn cách bằng dấu phẩy.",
+        "examples": [
+          "❌ In most societies deep inequality is sustained... → ✅ In most societies, deep inequality is sustained..."
+        ]
+      },
+      {
+        "text": "Khi trạng từ phủ định (never, rarely, scarcely, only) đứng đầu câu, thường cần đảo vị trí chủ ngữ‑động từ.",
+        "examples": [
+          "❌ Never I have seen such waste → ✅ Never have I seen such waste"
+        ]
+      },
+      {
+        "text": "Đảo mệnh đề phụ (because, although, if…) lên đầu câu tạo liên kết logic với câu chính.",
+        "examples": [
+          "✅ Because the data were flawed, the study was rejected."
+        ]
+      },
+      {
+        "text": "Đảo ngữ mang tính trang trọng; trong giao tiếp thân mật nên dùng ít hoặc dùng các cấu trúc đơn giản hơn.",
+        "examples": [
+          "✅ In my opinion, we should act now. (formal) → ❌ I think we should act now. (informal)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Ở hầu hết các xã hội, bất bình đẳng sâu sắc được duy trì bởi các rào cản hệ thống — những lực lượng cấu trúc ẩn trong giáo dục, nhà ở và thị trường lao động ngăn cản mọi người tiếp cận các nguồn lực cần thiết.",
+      "Để phá vỡ vòng luẩn quẩn của nghèo đói, các chính phủ phải thách thức đặc quyền cấu trúc — tháo dỡ những lợi thế thừa kế cho phép một số người thịnh vượng bất chấp năng lực, trong khi những người khác bị loại trừ khỏi cơ hội.",
+      "Các hệ thống phúc lợi không giải quyết được nguyên nhân gốc rễ của sự loại trừ có thể vô tình tước bỏ quyền lợi của chính những người mà chúng nhằm giúp đỡ."
+    ]
   }
 }

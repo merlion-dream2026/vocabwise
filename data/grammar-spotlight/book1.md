@@ -435,10 +435,17 @@ Hiện tại đơn (Simple Present) dùng để diễn tả các sự thật hi�
 Cấu trúc Have/Has got được sử dụng để diễn đạt sở hữu ở hiện tại. Chủ ngữ số ít (người, động vật, sự vật riêng lẻ) dùng has got, còn chủ ngữ số nhiều (nhóm người, động vật, sự vật) dùng have got. Cấu trúc này thường được sử dụng trong câu để mô tả những thứ mà người hoặc động vật sở hữu. Việc sử dụng have/has got giúp người học thể hiện sự sở hữu một cách rõ ràng và chính xác.
 
 ### Lưu ý
-1. Chú ý không được nhầm lẫn giữa have/has got và have/has khi nói về sở hữu, vì have/has thường được sử dụng trong câu hỏi và câu trả lời về sở hữu.
-2. Vị trí của have/has got trong câu thường đứng sau chủ ngữ và trước tân ngữ, và có thể được sử dụng trong cả câu đơn và câu phức.
-3. Trong tiếng Anh thông dụng, have/has got thường được sử dụng trong ngôn ngữ nói và viết không, trong khi trong ngôn ngữ, người ta thường sử dụng have/has.
-4. Người học tiếng Anh thường gặp khó khăn khi sử dụng have/has got vì cấu trúc này khác với cấu trúc sở hữu trong tiếng Việt, do đó cần luyện tập thường xuyên để sử dụng chính xác.
+1. I/You/We/They → have got; He/She/It → has got; phủ định → haven't got / hasn't got.
+  - ❌ She have got a cat → ✅ She has got a cat
+  - ❌ I has got a dog → ✅ I have got a dog
+2. "Have got" phổ biến trong British English; "have" (không có "got") phổ biến hơn trong American English — cả hai đều đúng.
+  - ✅ I've got two brothers. (British)
+  - ✅ I have two brothers. (American, cũng đúng)
+3. Không dùng "have got" cho quá khứ — dùng "had" thay thế.
+  - ❌ She had got a cat last year → ✅ She had a cat last year
+4. "Have got" thường dùng cho sở hữu, đặc điểm, bệnh tật — không dùng cho hành động.
+  - ✅ He has got blue eyes. / She has got a headache.
+  - ❌ I have got breakfast now → ✅ I am having breakfast now
 
 ### Lỗi thường gặp
 ❌ She have got a cat.  →  ✅ She has got a cat.
@@ -510,10 +517,14 @@ Cấu trúc 'there is' / 'there are' dùng để nói về sự tồn tại củ
 Giới từ chỉ vị trí là một loại từ dùng để chỉ vị trí của một vật hoặc một người trong không gian. Chúng ta sử dụng 'in' để chỉ không gian bao quanh, như trong một thành phố, một quốc gia hoặc một phòng. 'On' được sử dụng để chỉ bề mặt, như trên một chiếc bàn hoặc trên một bức tường. 'At' được sử dụng để chỉ một địa điểm cụ thể, như tại một ngã tư hoặc tại một địa chỉ cụ thể. Ngoài ra, 'next to' và 'opposite' được sử dụng để chỉ vị trí bên cạnh và đối diện với một vật hoặc một người nào đó.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là 'in' thường được sử dụng với các không gian lớn, như thành phố, quốc gia, trong khi 'at' được sử dụng với các địa điểm cụ thể, như nhà, trường học.
-2. Khi sử dụng 'on', cần lưu ý rằng nó thường được sử dụng với các bề mặt, như bàn, tường, nhưng cũng có thể được sử dụng với các ngày trong tuần, như 'on Monday'.
-3. Sự khác biệt giữa 'next to' và 'opposite' là rất quan trọng, vì 'next to' chỉ vị trí bên cạnh, trong khi 'opposite' chỉ vị trí đối diện.
-4. Một lỗi phổ biến của người học tiếng Việt là sử dụng 'in' và 'on' không chính xác, vì vậy cần phải luyện tập và chú ý đến cách sử dụng của từng giới từ.
+1. in = bên trong không gian bao quanh; on = trên bề mặt; at = tại điểm/địa điểm cụ thể.
+  - ✅ The cat is in the box. / The book is on the table. / She is at the door.
+2. Phân biệt "at" và "in" khi nói về địa điểm: "at" cho điểm cụ thể (điểm nhìn từ ngoài), "in" cho bên trong không gian.
+  - ✅ I'm at the station. (đang ở ga, điểm hẹn) / I'm in the station. (ở bên trong nhà ga)
+3. next to = ngay bên cạnh; opposite = đối diện; between ... and ... = ở giữa hai bên.
+  - ✅ The pharmacy is next to the bank. / The cinema is opposite the park.
+4. "in" dùng cho thành phố, quốc gia; "at" dùng cho số nhà, địa chỉ cụ thể.
+  - ✅ She lives in London. / Meet me at 25 Park Street.
 
 ### Lỗi thường gặp
 ❌ She lives on London.  →  ✅ She lives in London.
@@ -549,9 +560,9 @@ Quá khứ đơn của động từ có quy tắc được dùng để nói về
   - ❌ I go yesterday → ✅ I went yesterday
 2. Trong câu phủ định và câu hỏi, dùng trợ động từ did + động từ nguyên thể.
   - ❌ He didn't went → ✅ He didn't go
-3. Các động từ có quy tắc có một số thay đổi chính tả khi thêm -ed: -e → -d, -y → -ied, và nhân đôi phụ âm cuối nếu trước đó là nguyên âm ngắn.
-  - ❌ He needed → ✅ He needed
-  - ❌ She carryed the bag → ✅ She carried the bag
+3. Quy tắc chính tả khi thêm -ed: động từ kết thúc -e chỉ thêm -d; -y sau phụ âm đổi thành -ied; phụ âm đơn sau nguyên âm ngắn thì nhân đôi.
+  - ❌ She carryed → ✅ She carried (y → ied)
+  - ❌ He stoped → ✅ He stopped (p nhân đôi)
 4. Quá khứ đơn dùng để liệt kê một chuỗi các hành động đã hoàn thành liên tiếp trong quá khứ.
   - ❌ I was eating, then I went → ✅ I ate, then I went
 
@@ -585,10 +596,16 @@ Quá khứ đơn của động từ có quy tắc được dùng để nói về
 Mạo từ là một phần quan trọng trong tiếng Anh, giúp chỉ định danh từ và cung cấp thông tin về sự xác định hoặc không xác định của nó. Mạo từ 'a' và 'an' được sử dụng trước danh từ đếm số ít chưa xác định, trong khi 'the' được sử dụng trước danh từ đã được nhắc tới hoặc duy nhất. Ngoài ra, không dùng mạo từ (zero article) được sử dụng với danh từ không đếm được, số nhiều chung, và các danh từ chung chung. Việc sử dụng mạo từ đúng cách giúp người học tiếng Anh thể hiện sự chính xác và rõ ràng trong giao tiếp.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là 'a' được sử dụng trước danh từ bắt đầu bằng phụ âm, trong khi 'an' được sử dụng trước danh từ bắt đầu bằng nguyên âm.
-2. Vị trí của mạo từ trong câu thường là trước danh từ, nhưng có thể thay đổi tùy thuộc vào cấu trúc câu và ngữ pháp.
-3. Sử dụng mạo từ đúng cách cũng phụ thuộc vào cấp độ hình thức của ngôn ngữ, với ngôn ngữ thường yêu cầu sử dụng mạo từ chính xác hơn.
-4. Người học tiếng Anh thường gặp khó khăn khi sử dụng mạo từ do sự khác biệt giữa tiếng Anh và tiếng Việt, vì vậy việc luyện tập và thực hành là rất quan trọng.
+1. a + phụ âm; an + nguyên âm (a, e, i, o, u) — quyết định theo ÂM đọc, không phải chữ viết.
+  - ✅ a university (đọc "yu", là phụ âm) · an hour (đọc "au", là nguyên âm)
+2. "the" dùng khi cả người nói và người nghe đều biết đối tượng nào đang được đề cập — lần đầu dùng "a/an", lần sau dùng "the".
+  - ✅ I saw a dog. The dog was big. (lần 1: a; lần 2: the)
+3. Zero article (không có mạo từ) dùng với danh từ số nhiều chung chung, danh từ không đếm được chung chung, tên riêng.
+  - ✅ Dogs are friendly. / I love music. / She lives in Paris.
+  - ❌ The dogs are friendly. (nếu nói về chó nói chung, không xác định)
+4. Tiếng Việt không có mạo từ — người học hay bỏ mạo từ hoặc dùng "the" cho mọi thứ.
+  - ❌ I have cat. → ✅ I have a cat.
+  - ❌ The life is beautiful. → ✅ Life is beautiful. (zero article)
 
 ### Lỗi thường gặp
 ❌ I saw **the** dog in park. → ✅ I saw **a** dog in the park.
@@ -657,10 +674,17 @@ Hiện tại tiếp diễn (present continuous) dùng để nói về hành đ�
 Must và Mustn't là hai cấu trúc ngữ pháp dùng để thể hiện quy tắc hoặc nghĩa vụ bắt buộc. 'Must' được sử dụng khi muốn nói về một hành động cần phải thực hiện, trong khi 'Mustn't' dùng để nói về một hành động không được phép thực hiện. Cấu trúc này thường được sử dụng trong môi trường học tập, làm việc hoặc trong các tình huống hàng ngày. Khi sử dụng 'Must' và 'Mustn't', cần lưu ý đến ngữ cảnh và mức độ nghiêm khắc của quy tắc hoặc nghĩa vụ.
 
 ### Lưu ý
-1. Lưu ý không được nhầm lẫn 'Must' với 'Should', vì 'Should' thể hiện một hành động được khuyến nghị nhưng không bắt buộc.
-2. Vị trí của 'Must' và 'Mustn't' trong câu thường đứng trước động từ chính, và cần sử dụng đúng vị trí để tránh thay đổi ý nghĩa của câu.
-3. Trong tiếng Anh, 'Must' và 'Mustn't' thường được sử dụng trong môi trường, nhưng cũng có thể được sử dụng trong môi trường không tùy thuộc vào ngữ cảnh.
-4. Người học tiếng Anh thường nhầm lẫn 'Must' với 'Have to', mặc dù cả hai đều thể hiện nghĩa vụ bắt buộc, nhưng 'Have to' thường được sử dụng trong môi trường không hơn.
+1. Must luôn đứng trước động từ nguyên mẫu (bare infinitive) — không thêm "to".
+  - ❌ He must to study → ✅ He must study
+  - ❌ She must studies → ✅ She must study
+2. Mustn't (không được phép) khác với don't have to (không cần thiết nhưng được phép).
+  - ✅ You mustn't smoke here. (cấm — không được phép)
+  - ✅ You don't have to wear a tie. (không bắt buộc — nhưng được phép)
+3. Must thể hiện nghĩa vụ xuất phát từ người nói / quy tắc cá nhân; have to thường dùng cho quy tắc bên ngoài.
+  - ✅ I must call my mum. (tôi tự thấy cần)
+  - ✅ I have to wear a uniform at school. (quy định trường)
+4. Must không có dạng quá khứ — dùng "had to" cho quá khứ.
+  - ❌ She musted study → ✅ She had to study hard for the exam.
 
 ### Lỗi thường gặp
 ❌ He must to study  →  ✅ He must study
@@ -694,9 +718,9 @@ Thì hiện tại đơn (Present Simple) dùng để nói về thói quen, hành
 ### Lưu ý
 1. Với chủ ngữ ở ngôi thứ ba số ít (he, she, it) phải thêm –s hoặc –es vào động từ.
   - ❌ She work at a hospital every day → ✅ She works at a hospital every day
-2. Trạng từ chỉ tần suất (always, usually, often, etc.) đặt trước động từ chính, nhưng sau động từ ‘to be’.
-  - ❌ She always works at a hospital → ✅ She works at a hospital always
-  - ✅ She always works at a hospital
+2. Trạng từ chỉ tần suất đặt TRƯỚC động từ chính, nhưng SAU động từ "to be".
+  - ✅ She always works at a hospital. (trước main verb)
+  - ❌ She works always at a hospital. → ✅ She always works at a hospital.
 3. Thì hiện tại đơn cũng dùng để diễn tả lịch trình cố định trong tương lai, như thời gian tàu, lớp học.
   - The train leaves at 8 a.m. tomorrow.
 4. Không dùng thì hiện tại tiếp diễn (present continuous) cho các thói quen; lỗi phổ biến của người học là nhầm lẫn giữa hai thì.
@@ -740,9 +764,9 @@ Some và any là các lượng từ dùng để chỉ một số lượng không
   - ✅ Do you have any sugar?
 3. Any cũng có thể xuất hiện trong câu khẳng định khi nghĩa là 'bất kỳ' (any + danh từ số nhiều).
   - ✅ You can choose any book you like.
-4. Some thường đi với danh từ đếm được số nhiều; any thường đi với danh từ không đếm được hoặc số ít.
-  - ✅ I need some apples.
-  - ✅ Do you have any water?
+4. Cả some và any đều dùng được với danh từ đếm được số nhiều lẫn không đếm được — điểm khác nhau là câu khẳng định (some) vs phủ định/hỏi (any).
+  - ✅ I need some apples. / I don't need any apples.
+  - ✅ I have some water. / Do you have any water?
 
 ### Lỗi thường gặp
 ❌ I don't have some money.  →  ✅ I don't have any money.
@@ -750,10 +774,10 @@ Some và any là các lượng từ dùng để chỉ một số lượng không
 ### Trong bài đọc
 - EN: **Some** dishes are sweet, **some** are sour, and **some** are salty.
   VI: Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.
-- EN: **Some** dishes are sweet, **some** are sour, and **some** are salty.
-  VI: Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.
-- EN: **Some** dishes are sweet, **some** are sour, and **some** are salty.
-  VI: Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.
+- EN: I don't have **any** vegetables left in the fridge.
+  VI: Tôi không còn rau củ nào trong tủ lạnh nữa.
+- EN: Can I have **some** more rice, please?
+  VI: Cho tôi xin thêm một ít cơm được không?
 
 <!-- /topic -->
 
@@ -813,10 +837,17 @@ Cấu trúc 'be + going to + V' được dùng để nói về kế hoạch ho�
 Đại từ tân ngữ là những từ được sử dụng để thay thế cho danh từ làm tân ngữ sau động từ, giúp tránh lặp lại danh từ và làm cho câu văn trở nên ngắn gọn và rõ ràng hơn. Đại từ tân ngữ thường được sử dụng sau động từ để chỉ người hoặc vật đang nhận hành động. Ví dụ, 'me' được sử dụng để chỉ người nói, 'him' và 'her' được sử dụng để chỉ người khác, còn 'us' và 'them' được sử dụng để chỉ nhiều người. Đại từ tân ngữ được sử dụng trong nhiều trường hợp khác nhau, bao gồm cả khi mô tả mối quan hệ giữa các người hoặc vật.
 
 ### Lưu ý
-1. Khi sử dụng đại từ tân ngữ, cần chú ý đến vị trí của nó trong câu, thường là sau động từ. Nếu đặt sai vị trí, câu văn có thể trở nên không rõ ràng hoặc thậm chí là không đúng ngữ pháp.
-2. Đại từ tân ngữ có thể được sử dụng trong cả câu nói thông thường và câu viết, tuy nhiên trong văn viết, người ta thường sử dụng đại từ tân ngữ một cách chính xác và phù hợp hơn.
-3. Một điểm cần lưu ý khi sử dụng đại từ tân ngữ là tránh sử dụng nó một cách lặp lại quá nhiều, vì điều này có thể làm cho câu văn trở nên nhàm chán và không hấp dẫn.
-4. Người học tiếng Anh thường gặp khó khăn khi sử dụng đại từ tân ngữ vì trong tiếng Việt, đại từ tân ngữ không được sử dụng một cách rõ ràng như trong tiếng Anh.
+1. Bảng đại từ: I→me · you→you · he→him · she→her · it→it · we→us · they→them; dùng đại từ tân ngữ sau động từ hoặc giới từ.
+  - ❌ She gave I a gift → ✅ She gave me a gift
+  - ❌ He called she → ✅ He called her
+2. Đại từ tân ngữ đứng sau giới từ (to, for, with, from, about...).
+  - ✅ She talked to him. / I bought a gift for her. / Come with us.
+  - ❌ She talked to he → ✅ She talked to him
+3. Sau "between" luôn dùng đại từ tân ngữ, không dùng chủ ngữ.
+  - ❌ between you and I → ✅ between you and me
+4. Tránh dùng chủ ngữ (I, he, she...) thay cho tân ngữ (me, him, her...) sau động từ — lỗi rất phổ biến.
+  - ❌ She loves he → ✅ She loves him
+  - ❌ They invited I → ✅ They invited me
 
 ### Lỗi thường gặp
 ❌ She gave I a gift. → ✅ She gave me a gift.
@@ -887,10 +918,17 @@ Cấu trúc 'be + going to + V' được dùng để nói về kế hoạch ho�
 Tính từ so sánh nhất dùng để mô tả mức độ cao nhất của một tính từ trong một nhóm. Cấu trúc thường dùng là the + tính từ nhất hoặc the most + tính từ. Ví dụ, nếu muốn nói về người cao nhất trong gia đình, ta dùng 'the tallest'. Tính từ so sánh nhất giúp người nói nhấn mạnh sự khác biệt hoặc đặc điểm nổi bật của một người, vật hoặc sự việc.
 
 ### Lưu ý
-1. Lưu ý không được nhầm lẫn giữa tính từ so sánh nhất và tính từ so sánh hơn, vì chúng có ý nghĩa và cách dùng khác nhau.
-2. Vị trí của tính từ so sánh nhất trong câu thường là sau danh từ hoặc sau động từ 'to be', nhưng cũng có thể được dùng như một tính từ độc lập.
-3. Trong tiếng Anh, tính từ so sánh nhất thường được dùng trong văn nói và văn viết, nhưng trong tiếng Việt, ta thường dùng từ 'nhất' hoặc 'hơn cả' để biểu thị ý nghĩa tương tự.
-4. Một số tính từ không thể dùng với 'the most', mà phải dùng 'the + tính từ nhất', ví dụ như 'the oldest', 'the youngest',...
+1. Tính từ ngắn (1 âm tiết): thêm -est (tall → tallest); tính từ dài (2+ âm tiết): dùng "the most".
+  - ❌ the most tall → ✅ the tallest
+  - ❌ beautifulest → ✅ the most beautiful
+2. So sánh nhất luôn dùng với "the"; so sánh hơn dùng "than".
+  - ✅ She is the tallest in the class. (nhất trong nhóm)
+  - ✅ She is taller than her sister. (hơn một người)
+3. Tính từ bất quy tắc: good → the best · bad → the worst · far → the farthest/furthest.
+  - ❌ the most good → ✅ the best
+  - ❌ the most bad → ✅ the worst
+4. Sau so sánh nhất, dùng "in" với nơi chốn/nhóm, "of" với số lượng cụ thể.
+  - ✅ She is the smartest in the class. / He is the tallest of the three.
 
 ### Lỗi thường gặp
 ❌ She is more beautiful than anyone.  →  ✅ She is the most beautiful of all.
@@ -922,18 +960,16 @@ Tính từ so sánh nhất dùng để mô tả mức độ cao nhất của m�
 Danh từ số nhiều dùng để chỉ hai hoặc nhiều hơn một người, vật, hoặc khái niệm. Đa số danh từ thêm -s vào cuối; nếu danh từ kết thúc bằng -s, -x, -z, -sh, -ch thì thêm -es. Đối với danh từ kết thúc bằng phụ âm + y, y được thay bằng -ies. Một số danh từ bất quy tắc có dạng riêng (man → men, child → children, tooth → teeth, mouse → mice) hoặc không thay đổi (sheep, fish, series).
 
 ### Lưu ý
-1. Đối với danh từ thường, chỉ cần thêm -s; nếu kết thúc bằng âm s, x, z, sh, ch thì dùng -es.
-  - ❌ bus → ✅ buses
-  - ❌ cat → ✅ cats
-2. Danh từ kết thúc bằng phụ âm + y thay y bằng -ies; nếu trước y là nguyên âm thì chỉ thêm -s.
-  - ❌ baby → ✅ babies
-  - ❌ boy → ✅ boys
-3. Một số danh từ có dạng số nhiều bất quy tắc, không theo quy tắc -s/-es.
-  - ❌ man → ✅ men
-  - ❌ child → ✅ children
-4. Có những danh từ không thay đổi khi ở dạng số nhiều; nghĩa số nhiều được hiểu từ ngữ cảnh.
-  - ❌ sheep → ✅ sheep
-  - ❌ fish → ✅ fish
+1. Đa số thêm -s; kết thúc -s/-x/-z/-sh/-ch thêm -es; kết thúc phụ âm + y đổi thành -ies.
+  - ❌ I have two boxs → ✅ two boxes
+  - ❌ three babys → ✅ three babies
+2. Danh từ kết thúc nguyên âm + y chỉ thêm -s (không đổi y → i).
+  - ✅ key → keys · boy → boys · day → days
+  - ❌ boies → ✅ boys
+3. Danh từ số nhiều bất quy tắc cần nhớ riêng — không theo quy tắc -s.
+  - ❌ mans → ✅ men · ❌ childs → ✅ children · ❌ tooths → ✅ teeth
+4. Một số danh từ không đổi ở số nhiều (same form): sheep, fish, deer, series, species.
+  - ✅ one sheep / two sheep · one fish / many fish
 
 ### Lỗi thường gặp
 ❌ My brothers is coming.  →  ✅ My brothers are coming.
@@ -963,10 +999,16 @@ Danh từ số nhiều dùng để chỉ hai hoặc nhiều hơn một người,
 Từ để hỏi là những từ được sử dụng để đặt câu hỏi về người, vật, địa điểm, thời gian, lý do và cách thức. Chúng bao gồm who, what, where, when, why và how. Khi sử dụng từ để hỏi, chúng ta thường đặt chúng ở đầu câu để bắt đầu một câu hỏi. Từ để hỏi giúp chúng ta thu thập thông tin và làm rõ những điều chưa biết.
 
 ### Lưu ý
-1. Lưu ý rằng từ để hỏi thường được sử dụng ở đầu câu, nhưng trong một số trường hợp, chúng có thể được sử dụng ở giữa hoặc cuối câu để tạo ra một câu hỏi phức tạp hơn.
-2. Sử dụng từ để hỏi một cách linh hoạt và phù hợp với ngữ cảnh, vì chúng có thể thay đổi ý nghĩa của câu hỏi tùy thuộc vào cách sử dụng.
-3. Từ để hỏi có thể được sử dụng trong cả câu hỏi trực tiếp và gián tiếp, nhưng cần lưu ý về sự thay đổi trong cấu trúc câu khi sử dụng.
-4. Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến việc sử dụng từ để hỏi phù hợp để tránh nhầm lẫn ý nghĩa
+1. Từ để hỏi đứng ĐẦU câu, theo sau là trợ động từ rồi chủ ngữ (đảo trợ động từ).
+  - ❌ Where you are from? → ✅ Where are you from?
+  - ❌ What she does? → ✅ What does she do?
+2. Who / What khi hỏi về chủ ngữ thì KHÔNG đảo trợ động từ — theo sau ngay là động từ.
+  - ✅ Who lives here? (Who = subject, không đảo)
+  - ✅ What happened? (khác: What do you do? — do = subject)
+3. How có thể kết hợp với adjective/adverb: how long · how far · how often · how much · how many.
+  - ✅ How often do you exercise? / How long does it take?
+4. Why hỏi lý do — câu trả lời thường dùng because.
+  - ✅ Why are you late? — Because I missed the bus.
 
 ### Lỗi thường gặp
 ❌ Where you are from?  →  ✅ Where are you from?
@@ -1035,10 +1077,17 @@ Mệnh đề quan hệ cơ bản với who / which dùng để nối một mện
 Quá khứ đơn — động từ bất quy tắc là một thì trong tiếng Anh dùng để mô tả các hành động đã xảy ra và kết thúc trong quá khứ. Khi sử dụng thì này, chúng ta cần sử dụng dạng quá khứ của động từ, và với các động từ bất quy tắc, dạng quá khứ không thể đoán trước được. Để sử dụng thì quá khứ đơn một cách chính xác, người học cần phải nhớ dạng quá khứ của từng động từ bất quy tắc. Việc luyện tập và ghi nhớ những dạng quá khứ này là rất quan trọng để sử dụng thì quá khứ đơn hiệu quả.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là động từ bất quy tắc trong quá khứ đơn không theo quy tắc chung như động từ quy tắc, do đó người học cần phải học và nhớ từng dạng quá khứ riêng biệt.
-2. Vị trí của động từ trong câu cũng rất quan trọng, thường động từ đứng sau chủ ngữ và trước các thành phần khác trong câu.
-3. Sử dụng thì quá khứ đơn giúp người học mô tả các sự kiện đã xảy ra trong quá khứ một cách rõ ràng và cụ thể, điều này rất hữu ích trong việc kể chuyện hoặc mô tả các sự kiện lịch sử.
-4. Người học tiếng Anh thường gặp khó khăn khi phân biệt giữa động từ quy tắc và bất quy tắc, do đó việc luyện tập và sử dụng cả hai loại động từ trong câu là rất cần thiết.
+1. Động từ bất quy tắc phổ biến cần thuộc lòng: go→went · come→came · see→saw · take→took · make→made · have→had · give→gave · say→said.
+  - ❌ She goed to school → ✅ She went to school
+  - ❌ I taked a photo → ✅ I took a photo
+2. Trong câu phủ định và câu hỏi, dùng did + động từ NGUYÊN MẪU (không phải dạng quá khứ).
+  - ❌ She didn't went → ✅ She didn't go
+  - ❌ Did you saw him? → ✅ Did you see him?
+3. Động từ to be ở quá khứ: I/he/she/it → was; you/we/they → were.
+  - ❌ They was happy → ✅ They were happy
+  - ❌ I were there → ✅ I was there
+4. Dùng với các từ chỉ thời gian: yesterday · last week/month/year · in 2020 · ago.
+  - ✅ I saw her yesterday. / They left two days ago.
 
 ### Lỗi thường gặp
 ❌ We **goed** to the party.  →  ✅ We **went** to the party.
@@ -1070,10 +1119,16 @@ Quá khứ đơn — động từ bất quy tắc là một thì trong tiếng A
 Cấu trúc 'used to' được sử dụng để mô tả thói quen hoặc trạng thái đã xảy ra thường xuyên trong quá khứ nhưng không còn nữa. Khi sử dụng 'used to', chúng ta thường nói về những hành động hoặc tình huống đã lặp đi lặp lại trong quá khứ. Cấu trúc này bao gồm 'used to' + động từ chính, và thường được sử dụng để so sánh với hiện tại. 'Used to' giúp chúng ta thể hiện sự khác biệt giữa quá khứ và hiện tại.
 
 ### Lưu ý
-1. Lưu ý không nên nhầm lẫn 'used to' với 'be used to', vì 'be used to' có nghĩa là quen với một điều gì đó.
-2. Vị trí của 'used to' trong câu thường đứng trước động từ chính, và sau các trạng từ chỉ thời gian nếu có.
-3. Trong tiếng Anh, 'used to' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng nên tránh sử dụng trong ngôn ngữ quá hoặc học thuật.
-4. Người học tiếng Việt nên chú ý rằng 'used to' không có cấu trúc tương đương trực tiếp trong tiếng Việt, vì vậy cần luyện tập để sử dụng nó một cách tự nhiên.
+1. "Used to" chỉ dùng cho quá khứ — hành động hoặc trạng thái đã xảy ra thường xuyên nhưng bây giờ không còn nữa.
+  - ✅ I used to play football every day. (bây giờ không còn chơi)
+  - ❌ I use to play football → ✅ I used to play football
+2. Phủ định: didn't use to (không phải "didn't used to").
+  - ❌ She didn't used to eat meat → ✅ She didn't use to eat meat
+3. Phân biệt: "used to + V" (thói quen quá khứ) ≠ "be used to + V-ing" (quen với điều gì đó).
+  - ✅ I used to live alone. (trước đây sống một mình)
+  - ✅ I am used to living alone. (tôi đã quen sống một mình)
+4. "Used to" diễn tả trạng thái quá khứ (không chỉ thói quen) — dùng được với stative verbs.
+  - ✅ She used to be very shy. / He used to have long hair.
 
 ### Lỗi thường gặp
 ❌ I used to was happy → ✅ I used to be happy
@@ -1105,10 +1160,16 @@ Cấu trúc 'used to' được sử dụng để mô tả thói quen hoặc tr�
 Thì Hiện tại hoàn thành cơ bản được sử dụng để mô tả một hành động đã xảy ra ở thời điểm không xác định trước hiện tại hoặc có liên quan tới hiện tại. Cấu trúc của thì này là have/has + động từ chính ở dạng quá khứ phân từ. Chúng ta sử dụng have cho chủ ngữ số nhiều hoặc I/you/we/they, và has cho chủ ngữ số ít hoặc he/she/it. Thì này giúp người học mô tả các sự kiện đã xảy ra trong quá khứ nhưng vẫn có ảnh hưởng đến hiện tại.
 
 ### Lưu ý
-1. Lưu ý rằng thì Hiện tại hoàn thành không dùng để mô tả thời điểm cụ thể của hành động, mà chỉ tập trung vào kết quả của hành động đó.
-2. Trong tiếng Anh, vị trí của trạng từ thường được đặt sau have/has, nhưng trước động từ chính.
-3. Thì Hiện tại hoàn thành thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng thì Quá khứ đơn để mô tả các sự kiện đã xảy ra.
-4. Người học tiếng Việt nên lưu ý rằng thì Hiện tại hoàn thành trong tiếng Anh khác với thì Quá khứ đơn trong tiếng Việt, vì nó không chỉ mô tả hành động đã xảy ra mà còn có liên quan tới hiện tại.
+1. Không dùng thời gian cụ thể (yesterday, last year, in 2020) với hiện tại hoàn thành — dùng quá khứ đơn khi có thời gian xác định.
+  - ❌ I have visited Paris last year → ✅ I visited Paris last year
+  - ✅ I have visited Paris. (không nói khi nào)
+2. Các từ thường đi kèm hiện tại hoàn thành: already · yet · just · ever · never · for · since.
+  - ✅ She has already eaten. / Have you finished yet? / I've just arrived.
+3. For + khoảng thời gian; since + mốc thời gian — dùng với hiện tại hoàn thành để chỉ thời gian kéo dài đến hiện tại.
+  - ✅ I have lived here for five years. / She has worked here since 2020.
+4. I/you/we/they → have + V3; he/she/it → has + V3.
+  - ❌ She have finished → ✅ She has finished
+  - ❌ They has gone → ✅ They have gone
 
 ### Lỗi thường gặp
 ❌ She have visited the museum.  →  ✅ She has visited the museum.
@@ -1140,10 +1201,17 @@ Thì Hiện tại hoàn thành cơ bản được sử dụng để mô tả m�
 Should và ought to là hai động từ modal dùng để đưa ra lời khuyên hoặc nhắc nhở về hành vi đúng đắn. Cả hai đều có nghĩa là nên làm gì, nhưng ought to thường mang tính chất nghiêm túc và chính thức hơn. Khi sử dụng should hoặc ought to, chúng ta thường muốn khuyên nhủ người khác làm điều gì đó vì lợi ích của họ hoặc vì đó là hành động đúng đắn. Việc sử dụng should hoặc ought to phụ thuộc vào ngữ cảnh và mức độ trang trọng của tình huống.
 
 ### Lưu ý
-1. Sự khác biệt chính giữa should và ought to là mức độ trang trọng và nghiêm túc, với ought to thường được sử dụng trong các tình huống chính thức hơn.
-2. Should và ought to thường được sử dụng sau các mệnh đề chủ ngữ, và trước động từ chính trong câu.
-3. Người học tiếng Anh thường nhầm lẫn giữa should và ought to với phải và cần, nhưng nên nhớ rằng should và ought to mang tính chất khuyên nhủ hơn là bắt buộc.
-4. Trong tiếng Anh, nên sử dụng should và ought to một cách linh hoạt và phù hợp với ngữ cảnh để thể hiện sự khuyên nhủ hoặc nhắc nhở một cách tự nhiên.
+1. Should và ought to đều có nghĩa "nên" nhưng ought to trang trọng hơn và ít dùng hơn trong giao tiếp thông thường.
+  - ✅ You should see a doctor. (thông thường)
+  - ✅ You ought to see a doctor. (trang trọng hơn, ít phổ biến hơn)
+2. Cả hai luôn đi với bare infinitive; ought to đặc biệt — luôn giữ "to".
+  - ❌ You ought not to lie. → đây là cách phủ định đúng (không dùng don't)
+  - ❌ You should to go → ✅ You should go
+3. Phân biệt: should (lời khuyên chủ quan) · must (bắt buộc mạnh) · have to (quy định ngoài).
+  - ✅ You should eat less sugar. (lời khuyên)
+  - ✅ You must stop at a red light. (bắt buộc — luật giao thông)
+4. Should have + V3 dùng cho lời khuyên về việc đã KHÔNG làm trong quá khứ.
+  - ✅ You should have called me. (đáng lẽ phải gọi nhưng không gọi)
 
 ### Lỗi thường gặp
 ❌ You ought to not go. → ✅ You ought not to go.
@@ -1174,10 +1242,16 @@ Should và ought to là hai động từ modal dùng để đưa ra lời khuyê
 Câu mệnh lệnh là loại câu dùng để đưa ra chỉ dẫn, yêu cầu hoặc lệnh cho người khác thực hiện một hành động nào đó. Câu mệnh lệnh thường bắt đầu bằng một động từ và không có chủ ngữ. Trong tiếng Anh, câu mệnh lệnh thường được sử dụng để hướng dẫn, chỉ dẫn hoặc yêu cầu ai đó làm gì, và thường được sử dụng trong các tình huống hàng ngày như trong lớp học, tại nơi làm việc hoặc trong gia đình. Để tạo thành một câu mệnh lệnh, người ta thường sử dụng động từ ở dạng cơ bản, sau đó có thể thêm các thành phần khác như tân từ hoặc giới từ để chỉ rõ hành động và đối tượng.
 
 ### Lưu ý
-1. Khi sử dụng câu mệnh lệnh, cần lưu ý về mức độ trang trọng và không trang trọng, vì trong tiếng Anh, câu mệnh lệnh có thể được sử dụng một cách trang trọng hoặc không trang trọng tùy thuộc vào tình huống và mối quan hệ giữa người nói và người nghe.
-2. Câu mệnh lệnh thường được sử dụng trong các tình huống hàng ngày, nhưng cũng cần lưu ý về vị trí của các từ như 'please' để thể hiện sự lịch sự hoặc giảm nhẹ yêu cầu.
-3. Người học tiếng Anh thường gặp khó khăn khi sử dụng câu mệnh lệnh do sự khác biệt về cấu trúc câu và sử dụng động từ so với tiếng Việt, vì vậy cần luyện tập và chú ý đến các ví dụ và tình huống cụ thể.
-4. Câu mệnh lệnh cũng có thể được sử dụng để đưa ra lời khuyên hoặc cảnh báo, và trong những trường hợp này, cần sử dụng các động từ và cụm từ phù hợp để thể hiện mức độ nghiêm trọng hoặc quan trọng.
+1. Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu, không có chủ ngữ (chủ ngữ ngầm hiểu là "you").
+  - ❌ You open the door → ✅ Open the door.
+  - ❌ You sit down please → ✅ Sit down, please.
+2. Phủ định: Don't + base verb (không dùng "no" hay "not" đứng một mình).
+  - ❌ Not talk in class → ✅ Don't talk in class.
+  - ❌ No run → ✅ Don't run.
+3. Thêm "please" để lịch sự — đứng đầu hoặc cuối câu, ngăn cách bằng dấu phẩy.
+  - ✅ Please open the window. / Close the door, please.
+4. Let's + base verb để đề xuất cùng làm gì (gồm cả người nói).
+  - ✅ Let's go! / Let's take a break. / Let's not be late.
 
 ### Lỗi thường gặp
 ❌ Please don't to be late → ✅ Please don't be late
@@ -1209,10 +1283,18 @@ Câu mệnh lệnh là loại câu dùng để đưa ra chỉ dẫn, yêu cầu 
 Cấu trúc 'too' và 'enough' được sử dụng để mô tả mức độ của một tính từ hoặc một trạng thái. 'Too' được dùng khi tính từ vượt quá mức độ mong muốn hoặc cần thiết, trong khi 'enough' được dùng khi tính từ đạt đến mức độ mong muốn hoặc cần thiết. Cấu trúc này thường được sử dụng trong các câu để thể hiện mức độ của một tính từ, giúp người nghe hoặc người đọc hiểu rõ hơn về tình huống. Việc sử dụng 'too' và 'enough' một cách chính xác giúp người học tiếng Anh thể hiện sự chính xác và tinh tế trong giao tiếp.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là 'too' và 'enough' thường được sử dụng với các tính từ, nhưng không phải tất cả các tính từ đều có thể đi cùng với chúng. Người học cần phải biết cách phân biệt và sử dụng chúng một cách linh hoạt.
-2. Vị trí của 'too' và 'enough' trong câu cũng rất quan trọng. Thông thường, 'too' được đặt sau tính từ, trong khi 'enough' được đặt sau tính từ hoặc tại cuối câu.
-3. Người học tiếng Anh cũng cần lưu ý về sự khác biệt giữa 'too' và 'enough' trong giao tiếp và không. Trong giao tiếp, người ta thường sử dụng 'too' và 'enough' một cách chính xác và tinh tế hơn.
-4. Một lỗi phổ biến của người học tiếng Anh là sử dụng 'too' và 'enough' một cách lẫn lộn. Để tránh lỗi này, người học cần phải thực hành và luyện tập thường xuyên để nắm vững cấu trúc và cách sử dụng của 'too' và 'enough'.
+1. "too" đứng TRƯỚC tính từ/trạng từ; "enough" đứng SAU tính từ/trạng từ nhưng TRƯỚC danh từ.
+  - ✅ too + adj: too cold · too expensive · too tired
+  - ✅ adj + enough: cold enough · fast enough · good enough
+2. Cả "too" và "enough" có thể theo sau là "to + infinitive".
+  - ✅ She is too young to drive. / He is old enough to vote.
+  - ❌ She is too young for driving → ✅ She is too young to drive
+3. "Too" luôn có nghĩa tiêu cực (quá mức, vượt giới hạn); không nhầm với "very" (rất).
+  - ✅ The coffee is very hot. (hot nhưng vẫn uống được)
+  - ✅ The coffee is too hot to drink. (quá nóng, không uống được)
+4. Enough dùng với danh từ theo thứ tự: enough + noun.
+  - ✅ I don't have enough time. / There isn't enough food.
+  - ❌ I don't have time enough → ✅ I don't have enough time
 
 ### Lỗi thường gặp
 ❌ The lesson is too easy enough.  →  ✅ The lesson is not easy enough.
@@ -1241,10 +1323,17 @@ Cấu trúc 'too' và 'enough' được sử dụng để mô tả mức độ c
 Liên từ cơ bản là những từ dùng để nối các ý trong câu lại với nhau. Liên từ **and** được sử dụng để nối hai ý đồng thời, thể hiện sự kết hợp hoặc thêm vào. Liên từ **but** dùng để nối ý trái ngược, chỉ ra sự khác biệt hoặc đối lập. Liên từ **because** và **so** được sử dụng để chỉ nguyên nhân và kết quả, giúp làm rõ mối quan hệ giữa các ý. Việc sử dụng đúng liên từ giúp câu văn trở nên rõ ràng và logic hơn.
 
 ### Lưu ý
-1. Khi sử dụng **and**, cần lưu ý rằng nó thường được dùng để nối hai ý có cùng cấp độ quan trọng, giúp câu văn trở nên cân bằng hơn.
-2. Liên từ **but** thường được đặt sau dấu phẩy, giúp tách biệt hai ý trái ngược và tạo sự rõ ràng cho câu văn.
-3. Sử dụng **because** và **so** cần có sự logic và phù hợp với ngữ cảnh, tránh sử dụng một cách máy móc hoặc không phù hợp.
-4. Một điểm cần lưu ý là trong tiếng Việt, chúng ta thường sử dụng từ 'vì' và 'nên' để thể hiện nguyên nhân và kết quả, nhưng trong tiếng Anh, **because** và **so** có thể được sử dụng trong nhiều trường hợp khác nhau.
+1. and (thêm ý) · but (tương phản) · because (nguyên nhân) · so (kết quả) — mỗi từ chỉ một quan hệ riêng.
+  - ❌ I was tired and I stayed home → ✅ I was tired so I stayed home (kết quả)
+2. "because" đứng đầu mệnh đề nguyên nhân; câu nguyên nhân có thể đặt trước hoặc sau kết quả.
+  - ✅ I stayed home because it was raining.
+  - ✅ Because it was raining, I stayed home.
+3. Không bắt đầu câu bằng "so" trong văn viết trang trọng; dùng "Therefore" hoặc "As a result" thay thế.
+  - Văn nói: ✅ It was late, so I left. (OK)
+  - Văn viết: ✅ It was late. Therefore, I left.
+4. "But" và "however" đều chỉ sự tương phản nhưng "however" trang trọng hơn và đứng sau dấu chấm phẩy hoặc đầu câu mới.
+  - ✅ I studied hard, but I failed.
+  - ✅ I studied hard. However, I failed.
 
 ### Lỗi thường gặp
 ❌ I stayed home **and** it was raining.  →  ✅ I stayed home **because** it was raining.
@@ -1273,13 +1362,20 @@ Liên từ cơ bản là những từ dùng để nối các ý trong câu lại
 Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong tiếng Anh. Số đếm dùng để đếm số lượng, ví dụ: one, two, three, trong khi số thứ tự dùng để chỉ vị trí, thứ tự, ví dụ: first, second, third. Khi sử dụng số thứ tự, chúng ta thường thêm hậu tố -st, -nd, -rd, hoặc -th vào sau số đếm. Ví dụ, số đếm one trở thành số thứ tự first, số đếm two trở thành second.
 
 ### Lưu ý
-1. Khi sử dụng số thứ tự, cần lưu ý rằng một số số đếm có dạng đặc biệt, như one trở thành first, nhưng five trở thành fifth.
-2. Số thứ tự thường được sử dụng trong các tình huống như điểm danh, xếp hạng, hoặc chỉ vị trí trong một danh sách.
-3. Số đếm và số thứ tự có thể được sử dụng cùng nhau trong một câu để chỉ số lượng và vị trí, ví dụ: I have five books, and this is the first one.
-4. Khi viết số thứ tự, cần lưu ý rằng một số số thứ tự có dạng viết tắt, như 1st, 2nd, 3rd, nhưng khi viết đầy đủ, cần sử dụng hậu tố -st, -nd, -rd, hoặc -th.
+1. Ba số thứ tự đầu bất quy tắc: 1st (first) · 2nd (second) · 3rd (third); từ 4th trở đi thêm -th.
+  - ❌ I am on the three floor → ✅ I am on the third floor
+  - ❌ She finished second place → ✅ She finished in second place
+2. Số thứ tự dùng với "the" vì chỉ vị trí duy nhất.
+  - ✅ the first chapter · the second question · the fifth floor
+  - ❌ a first chapter (trừ khi nói "một chương đầu" theo nghĩa khác)
+3. Số đếm dùng để đếm số lượng; số thứ tự dùng để chỉ thứ tự, vị trí.
+  - ✅ I have five books. (số lượng — cardinal)
+  - ✅ This is the fifth book. (thứ tự — ordinal)
+4. Các số đặc biệt: 5th (fifth) · 8th (eighth) · 9th (ninth) · 12th (twelfth) · 20th (twentieth).
+  - ❌ fiveth → ✅ fifth · ❌ twelveth → ✅ twelfth
 
 ### Lỗi thường gặp
-❌ I have **first** books.  →  ✅ I have **five** books.
+❌ She finished on the **three** place.  →  ✅ She finished in **third** place.
 
 ### Trong bài đọc
 - EN: The **first** question asked: what is half of **twenty**?
@@ -1308,13 +1404,19 @@ Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong t
 Động từ 'will' được sử dụng để biểu thị dự đoán về tương lai hoặc quyết định được đưa ra ngay lúc nói. Khi sử dụng 'will', người nói muốn thể hiện ý định hoặc dự đoán của mình về một sự kiện hoặc hành động trong tương lai. Cấu trúc cơ bản của 'will' là 'will + động từ chính', trong đó động từ chính được sử dụng dưới dạng cơ bản. 'Will' thường được sử dụng để nói về những việc mà người nói tin sẽ xảy ra trong tương lai hoặc những quyết định được đưa ra một cách tự nhiên.
 
 ### Lưu ý
-1. Lưu ý rằng 'will' thường được sử dụng trong những tình huống mà người nói muốn thể hiện sự tự tin hoặc chắc chắn về một sự kiện hoặc hành động trong tương lai.
-2. Trong tiếng Anh, 'will' thường được sử dụng nhiều hơn trong văn nói hơn là văn viết, đặc biệt là trong những tình huống không chính thức.
-3. Người học tiếng Anh thường nhầm lẫn giữa 'will' và 'be going to' khi nói về tương lai, nhưng 'will' thường được sử dụng để nói về những dự đoán hoặc quyết định không được lên kế hoạch trước.
-4. Khi sử dụng 'will' trong câu, cần lưu ý về vị trí của 'will' trong câu và sự kết hợp với các từ khác để thể hiện ý nghĩa chính xác.
+1. Will + base verb (bare infinitive) — không thêm "to", không chia theo ngôi.
+  - ❌ She will studies → ✅ She will study
+  - ❌ I will to go → ✅ I will go
+2. Will dùng cho quyết định tức thì (ngay lúc nói), dự đoán, lời hứa; "be going to" dùng cho kế hoạch đã lên trước.
+  - ✅ The phone is ringing — I'll get it! (quyết định tức thì)
+  - ✅ I'm going to visit Hanoi next month. (kế hoạch đã có sẵn)
+3. Phủ định: won't (= will not); câu hỏi: Will + subject + base verb?
+  - ✅ She won't come tonight. / Will you help me?
+4. Dùng "probably / maybe / I think" với will để dự đoán không chắc chắn.
+  - ✅ I think it will rain tomorrow. / She'll probably be late.
 
 ### Lỗi thường gặp
-❌ I will am going to study → ✅ I will go to study
+❌ I will going to study → ✅ I will study / I am going to study (chọn một, không dùng cả hai)
 
 ### Trong bài đọc
 - EN: To calm down, I **will** revise my notes each evening.
@@ -1343,13 +1445,20 @@ Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong t
 Thì hiện tại hoàn thành với ever và never được sử dụng để mô tả kinh nghiệm sống hoặc các sự kiện đã xảy ra trong quá khứ nhưng có liên quan đến hiện tại. Cấu trúc này thường được sử dụng để hỏi hoặc khẳng định về việc một người đã từng làm gì hoặc chưa từng làm gì. Ever được sử dụng để hỏi về kinh nghiệm sống, trong khi never được sử dụng để khẳng định rằng một người chưa từng làm gì. Cấu trúc này bao gồm động từ chính ở dạng quá khứ phân từ và được sử dụng với ever và never để thể hiện mức độ kinh nghiệm.
 
 ### Lưu ý
-1. Lưu ý rằng ever thường được sử dụng trong câu hỏi, trong khi never thường được sử dụng trong câu khẳng định.
-2. Vị trí của ever và never trong câu thường là sau động từ động have hoặc has, nhưng có thể thay đổi tùy thuộc vào cấu trúc câu.
-3. Sử dụng thì hiện tại hoàn thành với ever và never giúp người học tiếng Anh thể hiện sự đa dạng trong cách diễn đạt và tránh lặp lại các cấu trúc câu đơn giản.
-4. Người học tiếng Anh thường nhầm lẫn giữa sử dụng ever và never trong câu, vì vậy cần lưu ý và thực hành thường xuyên để sử dụng đúng.
+1. "ever" đứng sau have/has trong câu hỏi; "never" đứng sau have/has trong câu khẳng định có nghĩa phủ định.
+  - ✅ Have you ever been to Paris?
+  - ✅ I have never eaten sushi.
+2. Vị trí: have/has + ever/never + past participle.
+  - ❌ Have you been ever to Paris? → ✅ Have you ever been to Paris?
+  - ❌ I never have eaten → ✅ I have never eaten
+3. "ever" trong câu khẳng định mang nghĩa "trong bất kỳ thời điểm nào" — thường dùng trong câu so sánh nhất.
+  - ✅ This is the best film I have ever seen.
+  - ✅ She is the kindest person I have ever met.
+4. Trả lời câu hỏi với "ever": Yes, I have. / No, I haven't. / No, never.
+  - Have you ever tried durian? — Yes, I have. / No, I have never tried it.
 
 ### Lỗi thường gặp
-❌ I have read ever this book. → ✅ I have ever read this book.
+❌ Have you ever tried this dish? — Yes, I have tried it yesterday. → ✅ Yes, I tried it yesterday. (dùng past simple khi có thời gian cụ thể)
 
 ### Trong bài đọc
 - EN: I have **never** missed a fine because I always return books on time.
@@ -1378,10 +1487,16 @@ Thì hiện tại hoàn thành với ever và never được sử dụng để m
 Dạng so sánh hơn và so sánh nhất là những cấu trúc ngữ pháp dùng để so sánh các đối tượng. Dạng so sánh hơn được sử dụng để so sánh hai đối tượng, thường được tạo thành bằng cách thêm '-er' vào sau tính từ hoặc sử dụng 'more' trước tính từ. Dạng so sánh nhất được sử dụng để chỉ rằng một đối tượng vượt trội hơn tất cả các đối tượng khác, thường được tạo thành bằng cách thêm '-est' vào sau tính từ hoặc sử dụng 'most' trước tính từ. Việc sử dụng đúng dạng so sánh giúp câu văn trở nên rõ ràng và chính xác hơn.
 
 ### Lưu ý
-1. Khi sử dụng dạng so sánh hơn và so sánh nhất, cần lưu ý đến vị trí của chúng trong câu, thường được đặt sau tính từ hoặc danh từ được so sánh.
-2. Một số tính từ có dạng so sánh đặc biệt, không theo quy tắc chung, ví dụ như 'good' trở thành 'better' và 'best'.
-3. Dạng so sánh hơn và so sánh nhất có thể được sử dụng trong cả câu viết và câu nói, nhưng trong tiếng Anh thông dụng, người ta thường sử dụng dạng so sánh hơn để so sánh hai đối tượng gần gũi hơn.
-4. Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến sự khác biệt về cấu trúc và từ vựng, vì tiếng Việt thường sử dụng từ 'hơn' và 'nhất' để so sánh, trong khi tiếng Anh sử dụng dạng so sánh hơn và so sánh nhất
+1. So sánh hơn (2 đối tượng): adj-er / more + adj + than; so sánh nhất (3+ đối tượng): the + adj-est / the most + adj.
+  - ✅ My bag is heavier than yours. (2 túi)
+  - ✅ This is the heaviest bag in the shop. (nhiều túi)
+2. Tính từ bất quy tắc cần nhớ: good→better→best · bad→worse→worst · far→farther→farthest.
+  - ❌ more good → ✅ better · ❌ most bad → ✅ worst
+3. "as + adj + as" dùng để so sánh bằng nhau; "not as + adj + as" dùng để so sánh kém hơn.
+  - ✅ She is as tall as her brother.
+  - ✅ English is not as difficult as many people think.
+4. Không dùng "more" và "-er" hoặc "most" và "-est" cùng lúc.
+  - ❌ more faster → ✅ faster · ❌ most tallest → ✅ tallest
 
 ### Lỗi thường gặp
 ❌ She is more taller than me.  →  ✅ She is taller than me.
@@ -1413,10 +1528,16 @@ Dạng so sánh hơn và so sánh nhất là những cấu trúc ngữ pháp dù
 Cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' được sử dụng để biểu thị việc khiến ai đó thực hiện một hành động hoặc cho phép họ thực hiện một hành động. Trong đó, 'make' thường được sử dụng để chỉ sự bắt buộc hoặc ép buộc, trong khi 'let' được sử dụng để chỉ sự cho phép. Cấu trúc này thường được sử dụng trong các tình huống hàng ngày, chẳng hạn như yêu cầu hoặc cho phép ai đó làm một việc gì đó. Việc sử dụng 'make' và 'let' một cách chính xác sẽ giúp người học thể hiện ý nghĩa và thái độ của mình một cách rõ ràng.
 
 ### Lưu ý
-1. Sự khác biệt chính giữa 'make' và 'let' là 'make' thường mang ý nghĩa bắt buộc hoặc ép buộc, trong khi 'let' mang ý nghĩa cho phép hoặc đồng ý.
-2. Vị trí của 'make' và 'let' trong câu thường là trước tân ngữ, và sau đó là động từ nguyên thể.
-3. Trong tiếng Anh, cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, tuy nhiên việc sử dụng 'make' có thể mang ý nghĩa trang trọng hơn so với 'let'.
-4. Người học tiếng Việt thường nhầm lẫn giữa 'make' và 'let' vì trong tiếng Việt, cả hai đều có thể được dịch là 'làm cho' hoặc 'cho phép', nhưng ý nghĩa và cách sử dụng của chúng trong tiếng Anh là khác nhau.
+1. make (ép, bắt buộc) vs let (cho phép, để) — luôn dùng bare infinitive sau tân ngữ, không có "to".
+  - ❌ She made me to cry → ✅ She made me cry
+  - ❌ Let him to go → ✅ Let him go
+2. Bị động của "make": be made to + infinitive (có "to" trong bị động).
+  - ✅ He was made to work overtime. (bị động — có "to")
+3. Phân biệt make (kết quả cảm xúc/hành động xảy ra) vs get (thuyết phục ai làm gì, có "to").
+  - ✅ The film made me cry. (tự nhiên xảy ra)
+  - ✅ She got me to help her. (thuyết phục — có "to")
+4. Let có thể dùng với "not" để ngăn cản.
+  - ✅ Don't let him leave. / She wouldn't let the children touch it.
 
 ### Lỗi thường gặp
 ❌ The teacher let us to play a solo.  →  ✅ The teacher let us play a solo.
@@ -1445,10 +1566,16 @@ Cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' được sử
 Liên từ trình tự là những từ dùng để mô tả thứ tự các bước trong một quy trình hoặc câu chuyện. Chúng giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện. Liên từ trình tự thường bao gồm các từ như first, then, next, after that, finally, và được sử dụng để kết nối các câu hoặc các bước trong một quy trình. Việc sử dụng liên từ trình tự giúp cho câu chuyện hoặc quy trình trở nên rõ ràng và dễ hiểu hơn.
 
 ### Lưu ý
-1. Khi sử dụng liên từ trình tự, cần lưu ý đến vị trí của chúng trong câu, thường là ở đầu hoặc giữa câu để kết nối các bước hoặc sự kiện.
-2. Sử dụng first để bắt đầu một quy trình hoặc câu chuyện, và then, next, after that để tiếp tục mô tả các bước tiếp theo.
-3. Liên từ trình tự có thể được sử dụng trong cả câu chuyện và quy trình, giúp người nghe hoặc người đọc hiểu rõ trình tự diễn ra của các sự kiện.
-4. Lưu ý không nhầm lẫn giữa các liên từ trình tự, vì mỗi từ có ý nghĩa và vị trí sử dụng riêng biệt.
+1. Thứ tự thông thường: First → Then / Next → After that → Finally; dùng để kể trình tự rõ ràng.
+  - ✅ First, wash your hands. Then, chop the vegetables. Finally, cook for 10 minutes.
+2. Các liên từ này thường đứng đầu câu, theo sau là dấu phẩy.
+  - ✅ First, preheat the oven. / After that, mix the ingredients.
+  - ❌ First we preheat (thiếu dấu phẩy sau "first") — khuyến khích dùng dấu phẩy
+3. "Then" và "next" có thể dùng trong câu giữa, "after that" và "finally" thường bắt đầu câu mới.
+  - ✅ Mix the flour, then add the eggs. / After that, bake for 30 minutes.
+4. Không dùng "firstly, secondly" quá máy móc trong văn nói; "first, next, then" tự nhiên hơn.
+  - Tự nhiên: ✅ First... / Then... / Finally...
+  - Trang trọng: ✅ Firstly... / Secondly... / Finally...
 
 ### Lỗi thường gặp
 ❌ *Then* we start the experiment, *first* we check the safety equipment.  →  ✅ *First* we start the experiment, *then* we check the safety equipment.
@@ -1480,10 +1607,18 @@ Liên từ trình tự là những từ dùng để mô tả thứ tự các bư
 Giới từ chỉ thời gian là một phần quan trọng trong tiếng Anh, giúp chúng ta chỉ ra thời điểm, khoảng thời gian hoặc thời gian cụ thể. Giới từ 'in' thường được sử dụng để chỉ tháng, năm, mùa, hoặc một khoảng thời gian dài. Giới từ 'on' được sử dụng để chỉ ngày, ngày trong tuần, hoặc một sự kiện cụ thể. Giới từ 'at' được sử dụng để chỉ thời điểm cụ thể như giờ, 'the end of', 'midnight', hoặc một thời điểm nhất định.
 
 ### Lưu ý
-1. Một điểm quan trọng cần lưu ý là sự khác biệt giữa 'in', 'on', và 'at' không chỉ dựa trên thời gian, mà còn dựa trên ngữ cảnh và cách sử dụng trong câu.
-2. Khi sử dụng 'in' để chỉ khoảng thời gian dài, cần lưu ý rằng nó thường được sử dụng với các từ như 'the future', 'the past', hoặc 'the summer'.
-3. Sự khác biệt giữa 'on' và 'at' cũng rất quan trọng, vì 'on' thường được sử dụng để chỉ ngày hoặc ngày trong tuần, trong khi 'at' được sử dụng để chỉ thời điểm cụ thể.
-4. Một lỗi phổ biến của người học tiếng Anh là sử dụng 'in' thay cho 'on' hoặc 'at', vì vậy cần phải chú ý đến ngữ cảnh và cách sử dụng trong câu.
+1. Quy tắc tổng quát: at (thời điểm nhỏ nhất/cụ thể) → on (ngày) → in (khoảng thời gian dài).
+  - ✅ at 9am · at noon · at midnight
+  - ✅ on Monday · on 5 June · on New Year's Day
+  - ✅ in July · in 2024 · in summer · in the morning
+2. Ngoại lệ quan trọng: không dùng at/in/on trước "this, last, next, every".
+  - ❌ on last Monday → ✅ last Monday
+  - ❌ in next week → ✅ next week
+3. "In the morning/afternoon/evening" nhưng "at night" (không dùng "in the night").
+  - ✅ I study in the morning. / She works at night.
+  - ❌ I study at the morning → ✅ in the morning
+4. "At the weekend" (British) vs "on the weekend" (American) — cả hai đều được chấp nhận.
+  - ✅ What do you do at the weekend? / What do you do on weekends?
 
 ### Lỗi thường gặp
 ❌ She has class on 9am.  →  ✅ She has class at 9am.
@@ -1513,10 +1648,14 @@ Giới từ chỉ thời gian là một phần quan trọng trong tiếng Anh, g
 Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn là những câu dùng để chỉ dẫn người đọc thực hiện một hành động cụ thể. Những câu này thường không có chủ ngữ và động từ ở dạng nguyên mẫu, giúp cho hướng dẫn trở nên ngắn gọn và rõ ràng. Câu mệnh lệnh thường bắt đầu bằng một động từ, như 'make', 'slice', 'heat', và người đọc cần thực hiện hành động đó. Việc sử dụng câu mệnh lệnh giúp người đọc dễ dàng hiểu và thực hiện các bước trong công thức nấu ăn.
 
 ### Lưu ý
-1. Khi sử dụng câu mệnh lệnh, cần lưu ý đến vị trí của các từ chỉ mức độ, như 'carefully', 'quickly', thường được đặt sau động từ chính.
-2. Câu mệnh lệnh thường được sử dụng trong văn bản hướng dẫn, công thức nấu ăn, và các tài liệu kỹ thuật, nơi người đọc cần thực hiện các hành động cụ thể.
-3. Người học tiếng Anh thường nhầm lẫn giữa câu mệnh lệnh và câu khai báo, dẫn đến sử dụng sai cấu trúc câu.
-4. Câu mệnh lệnh trong tiếng Anh khác với tiếng Việt, nơi chủ ngữ thường được giữ lại, vì vậy người học cần lưu ý đến sự khác biệt này khi sử dụng câu mệnh lệnh.
+1. Câu mệnh lệnh bắt đầu thẳng bằng ĐỘNG TỪ nguyên mẫu — không có chủ ngữ.
+  - ❌ You slice the carrots → ✅ Slice the carrots.
+2. Phủ định: "Do not / Don't + động từ". Không dùng "not + V" trực tiếp.
+  - ❌ Not stir the soup → ✅ Don't stir the soup.
+3. Trạng từ chỉ cách thức (carefully, slowly) đứng SAU động từ hoặc tân ngữ.
+  - ✅ Stir the mixture slowly. / Handle the pan carefully.
+4. Nối các bước bằng sequencers: First… / Then… / Finally… / After that…
+  - ✅ First, heat the oil. Then, add the onions. Finally, serve hot.
 
 ### Lỗi thường gặp
 ❌ You must slice the carrots. → ✅ Slice the carrots.
@@ -1538,7 +1677,6 @@ Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn là những c
 
 ### Cấu trúc
 ```
-✚ undefined
 ? How much + uncountable noun + auxiliary (is/are/do/does) …?  How many + countable noun + auxiliary (is/are/do/does) …?
 ```
 
@@ -1546,10 +1684,14 @@ Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn là những c
 How much và How many là hai cụm từ dùng để hỏi về số lượng trong tiếng Anh. How much được sử dụng với danh từ không đếm được, như nước, không khí, hoặc tiền, trong khi How many được sử dụng với danh từ đếm được, như quả táo, chiếc xe, hoặc người. Khi sử dụng How much và How many, cần lưu ý đến loại danh từ và số lượng được hỏi. Điều này giúp người học sử dụng tiếng Anh một cách chính xác và hiệu quả.
 
 ### Lưu ý
-1. Lưu ý không nên sử dụng How much với danh từ đếm được, và ngược lại, không sử dụng How many với danh từ không đếm được, vì điều này sẽ làm cho câu hỏi trở nên không chính xác.
-2. Vị trí của How much và How many trong câu thường là ở đầu câu, ngay sau đó là động từ chính và danh từ được hỏi.
-3. Trong tiếng Anh thông dụng, How much và How many thường được sử dụng trong các tình huống mua sắm, đặt hàng, hoặc khi cần biết số lượng của một thứ gì đó.
-4. Người học tiếng Anh nên lưu ý rằng trong tiếng Việt, chúng ta thường sử dụng từ 'bao nhiêu' cho cả danh từ đếm được và không đếm được, nhưng trong tiếng Anh, sự phân biệt giữa How much và How many là rất quan trọng.
+1. "How many" dùng với DANH TỪ ĐẾM ĐƯỢC (có thể nói "1 apple, 2 apples").
+  - ✅ How many apples do you need? / How many students are in the class?
+2. "How much" dùng với DANH TỪ KHÔNG ĐẾM ĐƯỢC (water, rice, time, money).
+  - ✅ How much water should we add? / How much time do we have?
+3. "How much" cũng dùng để hỏi GIÁ TIỀN: How much + does/do + … + cost?
+  - ✅ How much does this bag cost? / How much are the tickets?
+4. Người Việt dùng "bao nhiêu" cho cả hai → dễ nhầm. Kiểm tra: nếu đổi sang số nhiều được (2 ___) → "how many".
+  - ✅ 2 oranges → How many oranges? | water → How much water?
 
 ### Lỗi thường gặp
 ❌ How many water do we need?  →  ✅ How much water do we need?
@@ -1581,10 +1723,15 @@ How much và How many là hai cụm từ dùng để hỏi về số lượng tr
 Quá khứ tiếp diễn là một thì trong tiếng Anh, được sử dụng để mô tả hành động đang diễn ra tại một thời điểm trong quá khứ. Cấu trúc của quá khứ tiếp diễn là 'was/were + động từ -ing'. Đây là một cách để nói về những hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ, và thường được sử dụng để tạo ra một bối cảnh hoặc một tình huống cụ thể. Quá khứ tiếp diễn thường được sử dụng để nói về những hành động đang diễn ra khi có một hành động khác xảy ra.
 
 ### Lưu ý
-1. Lưu ý rằng quá khứ tiếp diễn thường được sử dụng để nói về những hành động đang diễn ra trong một khoảng thời gian, nhưng không nhất thiết phải hoàn thành trong khoảng thời gian đó.
-2. Quá khứ tiếp diễn thường được sử dụng trong câu để tạo ra một bối cảnh hoặc một tình huống cụ thể, và thường được sử dụng cùng với các thì khác như quá khứ đơn hoặc quá khứ hoàn thành.
-3. Khi sử dụng quá khứ tiếp diễn, cần lưu ý về vị trí của các từ trong câu, đặc biệt là khi sử dụng các từ chỉ thời gian hoặc vị trí.
-4. Quá khứ tiếp diễn cũng có thể được sử dụng để nói về những hành động lặp đi lặp lại trong quá khứ, nhưng không nhất thiết phải xảy ra tại một thời điểm cụ thể.
+1. Dùng Past Continuous để mô tả hành động ĐANG xảy ra tại một thời điểm quá khứ, hoặc làm nền cho sự kiện khác.
+  - ✅ She was reading when the phone rang. (nền: was reading | sự kiện: rang)
+2. "While" thường đi với Past Continuous; "when" thường đi với Past Simple để chỉ sự kiện ngắt vào.
+  - ✅ While we were eating, a friend called. (hai việc song song)
+  - ✅ We were eating when a friend called. (called ngắt vào eating)
+3. Phân biệt Past Continuous (đang xảy ra) vs Past Simple (đã xảy ra xong).
+  - ✅ I was sleeping at 10pm. (vào 10 giờ đang ngủ) vs I slept early. (sự kiện)
+4. Stative verbs (know, believe, want, like) KHÔNG dùng ở dạng -ing.
+  - ❌ I was knowing the answer → ✅ I knew the answer.
 
 ### Lỗi thường gặp
 ❌ The crowd were cheering loudly.  →  ✅ The crowd was cheering loudly.
@@ -1616,10 +1763,15 @@ Quá khứ tiếp diễn là một thì trong tiếng Anh, được sử dụng 
 Quá khứ đơn với trạng từ chỉ thời gian là một cấu trúc ngữ pháp dùng để nói về hành động đã hoàn thành trong quá khứ. Cấu trúc này thường đi kèm với các trạng từ chỉ thời gian như yesterday, last week, ago. Khi sử dụng cấu trúc này, động từ chính sẽ được chia theo thì quá khứ đơn. Ví dụ, nếu động từ chính là go, thì nó sẽ trở thành went khi sử dụng trong cấu trúc quá khứ đơn.
 
 ### Lưu ý
-1. Lưu ý rằng trạng từ chỉ thời gian thường được đặt ở đầu hoặc cuối câu, nhưng không được đặt giữa động từ và chủ ngữ.
-2. Sử dụng cấu trúc quá khứ đơn với trạng từ chỉ thời gian giúp người nghe hoặc người đọc hiểu rõ thời điểm hành động xảy ra.
-3. Cấu trúc này thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng cấu trúc quá khứ hoàn thành để thể hiện sự hoàn thành của hành động.
-4. Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa cấu trúc quá khứ đơn và quá khứ hoàn thành, dẫn đến sử dụng sai cấu trúc trong câu.
+1. "Yesterday, last week/month/year, ... ago" luôn đi với QUÁ KHỨ ĐƠN, không dùng hiện tại hoàn thành.
+  - ❌ I have visited her yesterday → ✅ I visited her yesterday.
+  - ❌ She has left 2 hours ago → ✅ She left 2 hours ago.
+2. "Ago" đứng SAU khoảng thời gian: "2 days ago" (không phải "ago 2 days").
+  - ❌ She left ago 3 years → ✅ She left 3 years ago.
+3. "Last" không cần mạo từ "the": last week, last summer (không phải "the last week").
+  - ❌ I saw him in the last year → ✅ I saw him last year.
+4. Câu phủ định và câu hỏi: dùng "did + base form" (không chia thêm -ed).
+  - ❌ He didn't went → ✅ He didn't go. / ❌ Did she went? → ✅ Did she go?
 
 ### Lỗi thường gặp
 ❌ I have went to the museum yesterday  →  ✅ I went to the museum yesterday
@@ -1651,13 +1803,19 @@ Quá khứ đơn với trạng từ chỉ thời gian là một cấu trúc ng�
 Could và couldn't là những động từ modal chỉ khả năng trong quá khứ. Chúng được sử dụng để nói về khả năng hoặc không có khả năng thực hiện một hành động nào đó trong quá khứ. Cấu trúc của chúng thường là subject + could/couldn't + động từ chính. Khi sử dụng could, nó thường biểu thị khả năng thực hiện một hành động, trong khi couldn't biểu thị không có khả năng thực hiện hành động đó.
 
 ### Lưu ý
-1. Lưu ý rằng could và couldn't thường được sử dụng trong câu kể chuyện về quá khứ, đặc biệt là khi mô tả một sự kiện hoặc tình huống cụ thể.
-2. Trong tiếng Anh, vị trí của could và couldn't trong câu thường khá linh hoạt, nhưng thường được đặt sau chủ ngữ và trước động từ chính.
-3. Sử dụng could và couldn't trong tiếng Anh thường mang tính trang trọng, nhưng trong giao tiếp hàng ngày, người ta cũng có thể sử dụng chúng một cách thông thường.
-4. Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa could và được able to, mặc dù cả hai đều chỉ khả năng, nhưng có sự khác biệt về cách sử dụng và ngữ cảnh.
+1. "Could" = khả năng TỔNG QUÁT trong quá khứ; "was/were able to" = thành công trong 1 lần cụ thể.
+  - ✅ She could swim at age five. (khả năng chung)
+  - ✅ He was able to fix the car yesterday. (thành công cụ thể 1 lần)
+2. Phủ định: "couldn't / could not" — dùng được cho cả khả năng chung lẫn tình huống cụ thể.
+  - ✅ I couldn't find my keys this morning. / They couldn't understand the teacher.
+3. "Could" KHÔNG dùng để nói về khả năng HIỆN TẠI — dùng "can" thay thế.
+  - ❌ I could see her right now → ✅ I can see her right now.
+4. Phân biệt: "could + V" (quá khứ đơn giản) vs "could have + V3" (điều đáng lẽ có thể đã xảy ra).
+  - ✅ He could run fast as a child. (past ability)
+  - ✅ He could have run faster. (nhưng đã không làm — past modal)
 
 ### Lỗi thường gặp
-❌ He could have went to the hospital.  →  ✅ He could have gone to the hospital.
+❌ When she was young, she can speak French.  →  ✅ When she was young, she could speak French.
 
 ### Trong bài đọc
 - EN: Someone **could** call the ambulance right away.
@@ -1686,21 +1844,27 @@ Could và couldn't là những động từ modal chỉ khả năng trong quá k
 Đại từ phản thân là những từ được sử dụng để chỉ người hoặc vật thực hiện hành động cũng là người hoặc vật nhận hành động. Chúng được dùng khi chủ ngữ và tân ngữ là cùng một người hoặc vật, giúp tránh lặp lại danh từ hoặc đại từ. Đại từ phản thân bao gồm myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. Khi sử dụng đại từ phản thân, cần đảm bảo rằng chủ ngữ và tân ngữ là cùng một thực thể.
 
 ### Lưu ý
-1. Đại từ phản thân thường được sử dụng trong câu để tránh lặp lại danh từ hoặc đại từ, giúp câu trở nên ngắn gọn và rõ ràng hơn.
-2. Vị trí của đại từ phản thân trong câu thường là sau động từ, nhưng cũng có thể được đặt ở đầu hoặc giữa câu để nhấn mạnh.
-3. Đại từ phản thân có thể được sử dụng trong cả câu khẳng định và câu phủ định, nhưng cần lưu ý đến vị trí và chức năng của chúng trong câu.
-4. Một điểm cần lưu ý là đại từ phản thân không được sử dụng như một chủ ngữ, mà chỉ được sử dụng như một tân ngữ hoặc một bổ ngữ.
+1. Dùng đại từ phản thân khi CHỦ NGỮ và TÂN NGỮ là cùng một người/vật.
+  - ✅ She cut herself. (she = herself) / He hurt himself.
+2. Dùng để NHẤN MẠNH (intensive pronoun) — có thể bỏ mà nghĩa không đổi.
+  - ✅ I made this cake myself. (= chính tôi tự làm)
+  - ✅ The manager himself signed the document.
+3. Không dùng reflexive pronoun thay cho đại từ nhân xưng thông thường.
+  - ❌ She gave the book to myself → ✅ She gave the book to me.
+  - ❌ Can you tell myself? → ✅ Can you tell me?
+4. Bảng đầy đủ: I→myself · you→yourself · he→himself · she→herself · we→ourselves · they→themselves.
+  - ✅ We cooked dinner ourselves. / They enjoyed themselves at the party.
 
 ### Lỗi thường gặp
 ❌ She gave the book to myself → ✅ She gave the book to me
 
 ### Trong bài đọc
 - EN: I always use a checklist to make sure I do not forget anything **myself**.
-  VI: Tôi luôn sử dụng một danh sách kiểm tra để đảm bảo rằng tôi không quên gì myself.
+  VI: Tôi luôn dùng danh sách kiểm tra để đảm bảo bản thân không quên gì.
 - EN: Before a trip, I remind **myself** to pack my bag the night before.
-  VI: Trước khi đi du lịch, tôi nhắc nhở myself đóng gói hành lý từ đêm hôm trước.
-- EN: It is also important to confirm **yourself** that the booking is correct.
-  VI: Điều quan trọng cũng là xác nhận chính mình rằng đặt chỗ là chính xác.
+  VI: Trước khi đi du lịch, tôi nhắc nhở bản thân đóng gói hành lý từ đêm hôm trước.
+- EN: It is also important to check **for yourself** that the booking is correct.
+  VI: Điều quan trọng là tự mình kiểm tra lại xem việc đặt chỗ có chính xác không.
 
 <!-- /topic -->
 
@@ -1721,10 +1885,15 @@ Could và couldn't là những động từ modal chỉ khả năng trong quá k
 Câu hỏi Wh- ở thì quá khứ được sử dụng để hỏi về hành động đã xảy ra trong quá khứ. Cấu trúc của câu hỏi này thường bắt đầu với một từ Wh- (what, where, when, why, how) và tiếp theo là động từ did. Điều này giúp người nghe hiểu rằng câu hỏi đang hỏi về một hành động đã hoàn thành trong quá khứ. Để tạo thành một câu hỏi Wh- ở thì quá khứ, chúng ta cần sử dụng từ Wh- phù hợp và đặt động từ did sau đó, tiếp theo là chủ ngữ và phần còn lại của câu.
 
 ### Lưu ý
-1. Khi sử dụng câu hỏi Wh- ở thì quá khứ, cần lưu ý về vị trí của động từ did trong câu, vì nó thường được đặt ngay sau từ Wh-.
-2. Câu hỏi Wh- ở thì quá khứ thường được sử dụng trong các tình huống thông thường, nhưng trong tiếng Anh, người ta có thể sử dụng cấu trúc câu hỏi phức tạp hơn.
-3. Một điểm cần lưu ý là câu hỏi Wh- ở thì quá khứ không được sử dụng để hỏi về hành động đang diễn ra hoặc sẽ diễn ra trong tương lai.
-4. Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Wh- ở thì quá khứ và câu hỏi Wh- ở thì hiện tại, vì vậy cần phải luyện tập và chú ý đến thời gian của hành động trong câu hỏi.
+1. Cấu trúc: Wh-word + DID + chủ ngữ + ĐỘNG TỪ NGUYÊN MẪU (không chia).
+  - ❌ What you did yesterday? → ✅ What did you do yesterday?
+  - ❌ Where she went? → ✅ Where did she go?
+2. Khi Wh-word LÀ CHỦ NGỮ (who/what), không cần đảo "did" — dùng V-ed trực tiếp.
+  - ✅ Who called you? / What happened? (không cần "did")
+3. "When, where, why, how" → luôn cần "did" và đảo chủ ngữ.
+  - ✅ When did they arrive? / Why did she leave? / How did you know?
+4. Phân biệt Yes/No question vs Wh- question trong quá khứ:
+  - ✅ Did you eat? (Yes/No) vs ✅ What did you eat? (Wh-)
 
 ### Lỗi thường gặp
 ❌ What you did yesterday?  →  ✅ What did you do yesterday?
@@ -1756,10 +1925,16 @@ Câu hỏi Wh- ở thì quá khứ được sử dụng để hỏi về hành �
 Cấu trúc 'will' và 'going to' được sử dụng để biểu thị dự đoán và kế hoạch trong tương lai. 'Will' thường được dùng để dự đoán những sự kiện không chắc chắn hoặc không được lên kế hoạch trước, trong khi 'going to' được sử dụng cho những kế hoạch đã được quyết định và chuẩn bị trước. Sự khác biệt chính giữa hai cấu trúc này nằm ở mức độ chắc chắn và kế hoạch. Khi sử dụng 'will', người nói thường không có kế hoạch cụ thể, nhưng với 'going to', người nói đã có một kế hoạch cụ thể và đã quyết định thực hiện nó.
 
 ### Lưu ý
-1. Một điểm thường gây nhầm lẫn là sử dụng 'will' và 'going to' trong câu hỏi và câu trả lời. Trong câu hỏi, 'will' thường được sử dụng để hỏi về dự đoán, trong khi 'going to' được sử dụng để hỏi về kế hoạch.
-2. Vị trí của 'will' và 'going to' trong câu thường khác nhau. 'Will' thường được đặt sau chủ ngữ, trong khi 'going to' được đặt sau chủ ngữ và trước động từ chính.
-3. Sự khác biệt về thể thức trang trọng và không trang trọng cũng cần được lưu ý. 'Will' thường được sử dụng trong văn viết trang trọng, trong khi 'going to' được sử dụng trong văn nói không trang trọng.
-4. Người học tiếng Việt thường gặp khó khăn khi sử dụng 'will' và 'going to' vì trong tiếng Việt, không có sự phân biệt rõ ràng giữa dự đoán và kế hoạch.
+1. "Will" = quyết định ngay lúc nói (spontaneous) hoặc dự đoán chung; "Going to" = kế hoạch đã định sẵn.
+  - ✅ The phone is ringing — I'll get it! (quyết định ngay lúc đó → will)
+  - ✅ I'm going to visit Hanoi next month. (đã lên kế hoạch → going to)
+2. Dùng "will" khi dự đoán không có bằng chứng; "going to" khi có bằng chứng ngay trước mắt.
+  - ✅ I think it will rain tomorrow. (dự đoán chung)
+  - ✅ Look at those clouds — it's going to rain! (có bằng chứng nhìn thấy)
+3. Không kết hợp "will" và "going to" cùng nhau trong một cụm.
+  - ❌ She will going to visit the museum → ✅ She will visit. / She is going to visit.
+4. Cả hai đều diễn đạt tương lai — "going to" có vẻ chắc chắn hơn "will".
+  - ✅ We're going to move next year. (đã quyết định) / I think we'll need more chairs. (ước tính)
 
 ### Lỗi thường gặp
 ❌ She will going to the ceremony. → ✅ She is going to the ceremony.
@@ -1791,10 +1966,15 @@ Cấu trúc 'will' và 'going to' được sử dụng để biểu thị dự �
 Câu điều kiện loại 1 (First Conditional) được sử dụng để nói về một khả năng trong tương lai, khi một hành động hiện tại xảy ra thì kết quả sẽ xảy ra. Câu điều kiện loại 1 thường được sử dụng khi chúng ta muốn nói về một tình huống có thể xảy ra trong tương lai và kết quả của nó. Cấu trúc của câu điều kiện loại 1 là 'if + hiện tại đơn' và 'sẽ + động từ chính'. Điều này giúp chúng ta diễn đạt một mối quan hệ nguyên nhân - kết quả giữa hai hành động.
 
 ### Lưu ý
-1. Cần lưu ý rằng câu điều kiện loại 1 thường được sử dụng trong tình huống thực tế, có thể xảy ra trong tương lai, không phải là một sự kiện chắc chắn.
-2. Trong câu điều kiện loại 1, từ 'if' thường được đặt ở đầu câu, nhưng cũng có thể được đặt sau phần chủ ngữ trong một số trường hợp.
-3. Câu điều kiện loại 1 thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta thường sử dụng câu điều kiện loại 2 hoặc 3 để diễn đạt một tình huống không chắc chắn.
-4. Người học tiếng Anh thường nhầm lẫn giữa câu điều kiện loại 1 và loại 2, vì vậy cần phải luyện tập và phân biệt rõ ràng giữa hai loại câu này.
+1. Mệnh đề "if" dùng THÌ HIỆN TẠI ĐƠN — KHÔNG dùng "will" trong mệnh đề điều kiện.
+  - ❌ If it will rain, we will cancel → ✅ If it rains, we will cancel.
+2. Thứ tự linh hoạt: nếu "if" đứng đầu thì có dấu phẩy; đứng sau thì không cần.
+  - ✅ If you study hard, you will pass. / You will pass if you study hard.
+3. Mệnh đề kết quả có thể dùng nhiều modal khác, không chỉ "will".
+  - ✅ If you exercise, you can feel better. (can) / If you're late, you should call. (should)
+4. Phân biệt Loại 1 (có khả năng xảy ra) vs Loại 2 (giả định/không có thật).
+  - ✅ If I have time, I will help you. (Loại 1)
+  - ✅ If I had time, I would help you. (Loại 2 — thực ra không có thời gian)
 
 ### Lỗi thường gặp
 ❌ If it will rain, we will stay home.  →  ✅ If it rains, we will stay home.
@@ -1824,13 +2004,17 @@ Câu điều kiện loại 1 (First Conditional) được sử dụng để nói
 Giới từ và cụm từ chỉ hướng được sử dụng để chỉ hướng di chuyển trong không gian. Các giới từ như 'go straight', 'turn left', 'pass' và 'over' giúp chỉ dẫn người nghe hoặc người đọc về cách di chuyển từ điểm này đến điểm khác. Khi sử dụng các giới từ này, cần lưu ý đến cấu trúc câu và vị trí của chúng trong câu để đảm bảo ý nghĩa được truyền đạt rõ ràng. Các cụm từ chỉ hướng thường được sử dụng trong các tình huống chỉ đường, hướng dẫn hoặc mô tả vị trí của các địa điểm.
 
 ### Lưu ý
-1. Khi sử dụng 'go straight', cần lưu ý rằng nó thường được sử dụng để chỉ hướng di chuyển thẳng tiến mà không có sự thay đổi hướng.
-2. Sự khác biệt giữa 'pass' và 'over' là 'pass' thường được sử dụng để chỉ việc đi qua một địa điểm hoặc một vật thể, trong khi 'over' thường được sử dụng để chỉ việc đi qua một chướng ngại vật hoặc một bề mặt.
-3. Trong tiếng Anh, vị trí của các giới từ chỉ hướng thường được đặt sau động từ chỉ di chuyển, như 'go' hoặc 'walk'.
-4. Người học tiếng Anh thường nhầm lẫn giữa 'turn left' và 'turn right', do đó cần lưu ý đến sự khác biệt giữa hai cụm từ này khi sử dụng.
+1. Trong câu hướng dẫn đường, thường dùng câu mệnh lệnh (không có chủ ngữ).
+  - ✅ Go straight ahead for 200 metres. / Turn left at the traffic lights.
+2. "Past" = đi ngang qua mà không dừng; "through" = đi xuyên qua bên trong.
+  - ✅ Walk past the bank and keep going. / Go through the park to reach the station.
+3. "Over" dùng cho cầu, đồi (trên cao); "under" = đi qua bên dưới.
+  - ✅ Cross over the bridge. / The path goes under the railway.
+4. "At the corner" = tại góc phố (điểm cụ thể); "on the corner" = ở góc phố (mô tả vị trí).
+  - ✅ Turn right at the corner. / There's a café on the corner.
 
 ### Lỗi thường gặp
-❌ He go straight to the library.  →  ✅ He goes straight to the library.
+❌ Turn left at the next road and then go right — you take the wrong direction.  →  ✅ Turn left at the next road and then go straight — the library is on your right.
 
 ### Trong bài đọc
 - EN: **Go straight** along this road for one block.
@@ -1849,8 +2033,8 @@ Giới từ và cụm từ chỉ hướng được sử dụng để chỉ hư�
 
 ### Cấu trúc
 ```
-✚ Yes, Subject + auxiliary verb + main verb (or be)
-✖ No, Subject + auxiliary verb + not + main verb (or be)
+✚ Yes, Subject + auxiliary verb.
+✖ No, Subject + auxiliary verb + not.
 ? Auxiliary verb + Subject + ... ?
 ↳ Yes, … / No, …
 ```
@@ -1859,21 +2043,27 @@ Giới từ và cụm từ chỉ hướng được sử dụng để chỉ hư�
 Câu trả lời ngắn là một loại câu trả lời đơn giản và nhanh chóng, thường được sử dụng để trả lời các câu hỏi Yes/No. Câu trả lời ngắn thường bắt đầu bằng 'Yes' hoặc 'No', sau đó là đại từ và động từ. Ví dụ, khi ai đó hỏi 'Bạn có thể nói tiếng Anh không?', bạn có thể trả lời 'Yes, I can' hoặc 'No, I don't'. Câu trả lời ngắn giúp người nói thể hiện sự đồng ý hoặc không đồng ý một cách nhanh chóng và rõ ràng.
 
 ### Lưu ý
-1. Khi sử dụng câu trả lời ngắn, cần lưu ý đến vị trí của đại từ và động từ, vì nó có thể thay đổi ý nghĩa của câu.
-2. Câu trả lời ngắn thường được sử dụng trong các tình huống thông thường, như khi gặp gỡ người mới hoặc khi tham gia vào các cuộc trò chuyện hàng ngày.
-3. Cần phân biệt giữa 'Yes, I do' và 'Yes, I can', vì hai câu này có ý nghĩa khác nhau. 'Yes, I do' thường được sử dụng để trả lời các câu hỏi về thói quen hoặc hành động, trong khi 'Yes, I can' thường được sử dụng để trả lời các câu hỏi về khả năng hoặc năng lực.
-4. Khi sử dụng câu trả lời ngắn, cũng cần lưu ý đến mức độ trang trọng của tình huống, vì trong một số trường hợp, câu trả lời ngắn có thể được coi là không trang trọng hoặc thiếu lịch sự.
+1. Câu trả lời ngắn = Yes/No + đại từ + AUXILIARY — KHÔNG lặp lại động từ chính hay tân ngữ.
+  - ❌ Yes, I do eat rice → ✅ Yes, I do. / ❌ No, she does not like → ✅ No, she doesn't.
+2. Khớp trợ động từ trong câu hỏi với câu trả lời.
+  - "Are you...?" → ✅ Yes, I am. / No, I'm not.
+  - "Did she...?" → ✅ Yes, she did. / No, she didn't.
+  - "Can he...?" → ✅ Yes, he can. / No, he can't.
+3. Không được trả lời "Yes, I am not" hay "No, I am" — đây là mâu thuẫn.
+  - ❌ Are you happy? — Yes, I am not. → ✅ No, I'm not.
+4. Trong giao tiếp tự nhiên, có thể thêm thông tin ngắn sau câu trả lời.
+  - ✅ Yes, I do — every day! / No, she doesn't — she prefers tea.
 
 ### Lỗi thường gặp
 ❌ Yes, I don't  →  ✅ No, I don't
 
 ### Trong bài đọc
 - EN: When you meet someone for the first time, can you say hello? **Yes, I can**.
-  VI: Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói 'Xin chào' hoặc 'Chào'. Nếu họ hỏi bạn 'Bạn có thể nói tiếng Anh không?', bạn có thể trả lời 'Vâng, tôi có thể'.
+  VI: Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói xin chào không? Có, tôi có thể.
 - EN: Is it important to be polite? **Yes, it is**.
-  VI: Điều quan trọng là phải lịch sự và mỉm cười khi gặp gỡ người mới. Nếu họ hỏi bạn 'Bạn có nghĩ rằng điều này quan trọng không?', bạn có thể trả lời 'Vâng, tôi nghĩ vậy'.
+  VI: Việc lịch sự có quan trọng không? Có, quan trọng lắm.
 - EN: Do you say goodbye when you leave? **Yes, I do**.
-  VI: Khi bạn ra về, bạn nói 'Tạm biệt' hoặc 'Bye'. Nếu họ hỏi bạn 'Bạn có nói goodbye khi bạn rời đi không?', bạn có thể trả lời 'Vâng, tôi có'.
+  VI: Bạn có nói lời tạm biệt khi rời đi không? Có, tôi có.
 
 <!-- /topic -->
 
@@ -1894,10 +2084,14 @@ Câu trả lời ngắn là một loại câu trả lời đơn giản và nhanh
 Thì hiện tại hoàn thành là một trong những thì cơ bản trong tiếng Anh, dùng để mô tả một hành động đã xảy ra trong quá khứ nhưng có liên quan đến hiện tại. Cấu trúc của thì này thường bao gồm động từ giúp đỡ 'have' hoặc 'has' và dạng quá khứ phân từ của động từ chính. Khi sử dụng 'just', 'already', 'yet' trong thì hiện tại hoàn thành, nó giúp chúng ta mô tả thời gian và trạng thái của hành động một cách cụ thể hơn. Ví dụ, 'just' dùng cho hành động vừa mới xảy ra, 'already' dùng cho hành động đã hoàn thành trước thời điểm nói, và 'yet' dùng cho hành động chưa xảy ra.
 
 ### Lưu ý
-1. Lưu ý rằng 'just' thường được sử dụng để nói về một hành động vừa mới xảy ra và thường đi cùng với thời gian gần đây.
-2. Sự khác biệt giữa 'already' và 'yet' là 'already' dùng cho hành động đã hoàn thành, trong khi 'yet' dùng cho hành động chưa xảy ra, và thường đi cùng với câu hỏi hoặc câu phủ định.
-3. Trong tiếng Anh, vị trí của 'just', 'already', 'yet' thường nằm sau 'have' hoặc 'has' nhưng trước động từ chính, và điều này rất quan trọng để giữ cho câu có nghĩa và rõ ràng.
-4. Người học tiếng Anh thường nhầm lẫn giữa 'already' và 'yet' do sự khác biệt về cách sử dụng và vị trí trong câu, vì vậy cần phải luyện tập và chú ý đến cách sử dụng chúng trong ngữ cảnh khác nhau.
+1. "Just" = vừa mới xảy ra; đứng GIỮA "have/has" và past participle.
+  - ✅ I have just finished dinner. / She has just arrived.
+2. "Already" = đã xảy ra sớm hơn dự kiến; đứng giữa "have/has" và participle trong câu khẳng định.
+  - ✅ He has already eaten. / We have already seen that film.
+3. "Yet" = "chưa" (phủ định) hoặc "chưa à?" (câu hỏi); đứng ở CUỐI câu.
+  - ✅ I haven't finished yet. / Have you eaten yet? (không đặt "yet" trước participle)
+4. Không dùng hiện tại hoàn thành với thời gian quá khứ cụ thể (yesterday, last week, in 2020).
+  - ❌ She has just left yesterday → ✅ She left yesterday.
 
 ### Lỗi thường gặp
 ❌ She have already finished her homework.  →  ✅ She has already finished her homework.
@@ -1929,10 +2123,14 @@ Thì hiện tại hoàn thành là một trong những thì cơ bản trong ti�
 Động từ khuyết thiếu 'Could' và 'Would' được sử dụng để thể hiện yêu cầu lịch sự trong tiếng Anh. Cấu trúc này thường được đặt sau đại từ nhân xưng, tạo thành câu hỏi hoặc câu yêu cầu lịch sự. Sự khác biệt chính giữa 'Could' và 'Would' là 'Could' thường được sử dụng để yêu cầu giúp đỡ hoặc chỉ dẫn, trong khi 'Would' thường được sử dụng để đề nghị hoặc hỏi ý kiến. Khi sử dụng 'Could' và 'Would', người nói thể hiện sự tôn trọng và lịch sự với người nghe.
 
 ### Lưu ý
-1. Khi sử dụng 'Could' và 'Would', cần chú ý đến vị trí của chúng trong câu, thường được đặt sau đại từ nhân xưng.
-2. Sự khác biệt về mức độ lịch sự giữa 'Could' và 'Would' là rất quan trọng, 'Could' thường được sử dụng trong trường hợp cần giúp đỡ hoặc chỉ dẫn, trong khi 'Would' thường được sử dụng trong trường hợp đề nghị hoặc hỏi ý kiến.
-3. Trong tiếng Anh, cấu trúc 'Could' và 'Would' thường được sử dụng trong giao tiếp hàng ngày, đặc biệt là trong môi trường làm việc hoặc giao tiếp chính thức.
-4. Người học tiếng Anh thường nhầm lẫn giữa 'Could' và 'Would', vì vậy cần phải luyện tập và sử dụng chúng một cách chính xác trong câu.
+1. "Could you...?" lịch sự hơn "Can you...?" — dùng khi nhờ người không quen hoặc người lớn tuổi.
+  - ✅ Could you open the door? (lịch sự) vs Can you open the door? (thân mật)
+2. "Would you...?" thường đi trước "like", "mind", "prefer" để đề nghị hoặc hỏi ý kiến.
+  - ✅ Would you like some tea? / Would you mind waiting a moment?
+3. Sau "could/would" dùng ĐỘNG TỪ NGUYÊN MẪU — không thêm "to" hay "-ing".
+  - ❌ Could you to help me? → ✅ Could you help me?
+  - ❌ Would you minding? → ✅ Would you mind?
+4. Phản hồi lịch sự với yêu cầu: "Of course." / "Certainly." / "I'm afraid I can't right now."
 
 ### Lỗi thường gặp
 ❌ Could you to help me?  →  ✅ Could you help me?
@@ -1964,10 +2162,15 @@ Thì hiện tại hoàn thành là một trong những thì cơ bản trong ti�
 Mệnh đề thời gian là một loại mệnh đề dùng để chỉ thời gian xảy ra của một hành động. Mệnh đề thời gian thường bắt đầu bằng các từ như when, before, after, as soon as. Khi sử dụng mệnh đề thời gian, chúng ta cần đặt nó sau hoặc trước mệnh đề chính, tùy thuộc vào mối quan hệ thời gian giữa hai hành động. Mệnh đề thời gian giúp người nghe hoặc người đọc hiểu rõ hơn về trình tự và mối quan hệ thời gian giữa các hành động trong câu chuyện.
 
 ### Lưu ý
-1. Lưu ý rằng mệnh đề thời gian thường được sử dụng để chỉ thời gian xảy ra của một hành động, nhưng không nhất thiết phải chỉ thời gian chính xác.
-2. Khi sử dụng mệnh đề thời gian, cần chú ý đến vị trí của nó trong câu, vì nó có thể ảnh hưởng đến ý nghĩa của câu.
-3. Mệnh đề thời gian có thể được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng cần chọn từ vựng và cấu trúc phù hợp với ngữ cảnh.
-4. Người học tiếng Anh thường nhầm lẫn giữa các từ như when, while, và as, vì vậy cần lưu ý đến ý nghĩa và cách sử dụng của từng từ.
+1. Sau các liên từ thời gian (when, before, after, as soon as) dùng THÌ HIỆN TẠI — không dùng "will".
+  - ❌ I'll call you when I will arrive → ✅ I'll call you when I arrive.
+  - ❌ Before he will leave, he'll pack → ✅ Before he leaves, he'll pack.
+2. "As soon as" = ngay khi… — nhấn mạnh tính tức thì.
+  - ✅ As soon as the class ends, we go home. / Call me as soon as you get there.
+3. Mệnh đề thời gian có thể đứng đầu hoặc cuối câu; đứng đầu thì có dấu phẩy.
+  - ✅ When I finish, I'll rest. / I'll rest when I finish.
+4. Phân biệt "when" (sự kiện ngắn) vs "while" (hai việc xảy ra song song).
+  - ✅ Call me when you arrive. vs I listen to music while I study.
 
 ### Lỗi thường gặp
 ❌ *When* I will finish my work, I can rest.  →  ✅ *When* I finish my work, I can rest.
@@ -1998,10 +2201,14 @@ Mệnh đề thời gian là một loại mệnh đề dùng để chỉ thời 
 Các cách yêu cầu lịch sự là một phần quan trọng trong tiếng Anh, giúp người nói thể hiện sự tôn trọng và lịch sự khi yêu cầu ai đó làm điều gì. Để yêu cầu lịch sự, người ta thường sử dụng các động từ khiếm khuyết như can, could, would, may. Mỗi động từ có ý nghĩa và cách sử dụng khác nhau: can thường dùng để yêu cầu ai đó làm điều gì có thể làm được, could dùng để yêu cầu ai đó làm điều gì có thể làm được nhưng không chắc chắn, would dùng để yêu cầu ai đó làm điều gì trong tương lai, và may dùng để yêu cầu ai đó cho phép làm điều gì.
 
 ### Lưu ý
-1. Khi sử dụng các cách yêu cầu lịch sự, cần chú ý đến vị trí của các từ trong câu, thường là sau động từ chính và trước các từ chỉ thời gian hoặc địa điểm.
-2. Sự khác biệt giữa các động từ khiếm khuyết là rất quan trọng, vì chúng thể hiện mức độ lịch sự và tôn trọng khác nhau, ví dụ như could thường được sử dụng trong các tình huống hơn so với can.
-3. Người học tiếng Anh thường nhầm lẫn giữa các động từ khiếm khuyết, đặc biệt là giữa can và could, vì vậy cần phải luyện tập và sử dụng chúng trong các tình huống khác nhau để nắm rõ cách sử dụng.
-4. Trong tiếng Anh, các cách yêu cầu lịch sự thường được sử dụng trong các tình huống hàng ngày, như khi yêu cầu thông tin, giúp đỡ hoặc cho phép làm điều gì, vì vậy người học cần phải học và sử dụng chúng một cách linh hoạt.
+1. Modal đứng TRƯỚC động từ chính — không thêm "to" sau modal.
+  - ❌ Can you to open...? → ✅ Can you open the window?
+  - ❌ May I to use...? → ✅ May I use your pen?
+2. Thang lịch sự (tăng dần): Can → Could → Would you → May I (lịch sự nhất).
+  - ✅ Can you help? (thân mật) / Could you help? (lịch sự) / May I help? (trang trọng)
+3. "May I...?" xin phép cho BẢN THÂN làm gì; "Could/Would you...?" nhờ NGƯỜI KHÁC làm.
+  - ✅ May I leave early? (xin phép bản thân) / Could you check my work? (nhờ người khác)
+4. Phản hồi lịch sự khi được phép hoặc từ chối: "Of course." / "Sure, go ahead." / "I'm afraid not."
 
 ### Lỗi thường gặp
 ❌ *Can you to open the window?*  →  ✅ *Can you open the window?*
@@ -2033,10 +2240,16 @@ Các cách yêu cầu lịch sự là một phần quan trọng trong tiếng An
 Câu gián tiếp cơ bản với say và tell là cách truyền đạt lời nói của người khác. Khi sử dụng say, nó thường dùng để nói về lời nói chung mà không cần chỉ rõ người nghe. Ngược lại, tell thường dùng khi có người nghe cụ thể. Cấu trúc cơ bản của câu gián tiếp với say và tell là 'say/tell + that + câu lời nói' hoặc 'say/tell + người nghe + that + câu lời nói'.
 
 ### Lưu ý
-1. Sử dụng say và tell một cách linh hoạt tùy thuộc vào ngữ cảnh và người nghe để tránh nhầm lẫn về người nói và người nghe.
-2. Lưu ý về vị trí của từ trong câu gián tiếp, thường là 'say/tell' + 'that' + 'câu lời nói', và có thể thay đổi tùy thuộc vào mức độ trang trọng hoặc không trang trọng của câu.
-3. Khi sử dụng tell, người nghe thường được chỉ định rõ ràng, trong khi say có thể không cần chỉ định người nghe cụ thể.
-4. Phân biệt giữa say và tell khi dịch từ tiếng Việt sang tiếng Anh để tránh nhầm lẫn về cấu trúc và ý nghĩa.
+1. "Tell" luôn cần tân ngữ (NGƯỜI được nghe); "say" không cần — hoặc có "to + người".
+  - ✅ She told me she was busy. / She said she was busy. / She said to me she was busy.
+  - ❌ She told that she was busy → ✅ She told me that she was busy.
+2. Khi chuyển sang câu gián tiếp, THỜI dịch chuyển lùi: is → was; will → would.
+  - ✅ "I am tired." → She said she was tired.
+  - ✅ "I will call." → He said he would call.
+3. Đại từ thay đổi theo ngữ cảnh: "I" → "he/she"; "you" → "I/he/she".
+  - ✅ "I'll call you," he said. → He said he would call me.
+4. Từ chỉ thời gian/nơi cũng đổi: "now" → "then"; "today" → "that day"; "here" → "there".
+  - ✅ "I'll do it today." → She said she would do it that day.
 
 ### Lỗi thường gặp
 ❌ She said she is busy → ✅ She said she was busy
@@ -2068,10 +2281,15 @@ Câu gián tiếp cơ bản với say và tell là cách truyền đạt lời n
 Câu bị động cơ bản là một cấu trúc câu trong tiếng Anh, sử dụng để mô tả một hành động mà không cần nêu ra người thực hiện hành động đó. Cấu trúc này được tạo thành bằng cách sử dụng động từ 'to be' ở dạng hiện tại (is/are) và phân từ quá khứ của động từ chính. Câu bị động giúp người viết hoặc người nói tập trung vào đối tượng bị tác động thay vì người thực hiện hành động. Ví dụ, thay vì nói 'Someone places a warning sign', chúng ta có thể nói 'A warning sign is placed' để nhấn mạnh vào biển báo.
 
 ### Lưu ý
-1. Khi sử dụng câu bị động, cần lưu ý về vị trí của tân ngữ và vị ngữ trong câu, vì chúng có thể thay đổi so với câu chủ động.
-2. Câu bị động thường được sử dụng trong văn viết chính thức hoặc trong các tình huống cần nhấn mạnh đối tượng bị tác động, như trong báo cáo, bài thuyết trình hoặc hướng dẫn.
-3. Một điểm cần lưu ý là câu bị động có thể gây nhầm lẫn nếu không được sử dụng chính xác, đặc biệt là khi sử dụng động từ 'to be' ở dạng hiện tại và quá khứ.
-4. Người học tiếng Anh thường gặp khó khăn khi sử dụng câu bị động vì cấu trúc này khác với tiếng Việt, nơi mà câu bị động không được sử dụng thường xuyên như trong tiếng Anh.
+1. Câu bị động tập trung vào ĐỐI TƯỢNG bị tác động — không cần biết (hoặc không quan trọng) ai làm.
+  - ✅ The road is cleaned every day. / The windows are closed at night.
+2. Chia "be" theo CHỦ NGỮ của câu bị động (đối tượng chịu tác động), không phải người làm.
+  - ❌ The signs is placed → ✅ The signs are placed. (signs → are)
+  - ✅ The door is locked. / The books are sold every week.
+3. Nếu muốn nêu AI làm, thêm "by + tác nhân" cuối câu.
+  - ✅ The report is written by the manager. / The cake was made by my mother.
+4. Dạng quá khứ: was/were + past participle.
+  - ✅ The building was built in 1990. / The books were sold last week.
 
 ### Lỗi thường gặp
 ❌ The signs is placed on the wall.  →  ✅ The signs are placed on the wall.
@@ -2079,10 +2297,10 @@ Câu bị động cơ bản là một cấu trúc câu trong tiếng Anh, sử d
 ### Trong bài đọc
 - EN: A warning sign is placed to alert us of danger.
   VI: Một biển báo cảnh báo được đặt để cảnh báo chúng ta về nguy hiểm.
-- EN: The notice on the door is kept closed during the night.
-  VI: Thông báo trên cửa được giữ đóng trong suốt đêm.
-- EN: The escape route is followed by everyone in an emergency.
-  VI: Tuyến đường thoát hiểm được mọi người theo dõi trong trường hợp khẩn cấp.
+- EN: The door is kept locked during the night for safety.
+  VI: Cửa được khóa suốt đêm để đảm bảo an toàn.
+- EN: The escape route is clearly marked by the safety team.
+  VI: Đường thoát hiểm được đội an toàn đánh dấu rõ ràng.
 
 <!-- /topic -->
 
@@ -2103,21 +2321,25 @@ Câu bị động cơ bản là một cấu trúc câu trong tiếng Anh, sử d
 Văn phong trang trọng và thân mật là cách diễn đạt phù hợp với đối tượng và mục đích của tin nhắn hoặc email. Văn phong trang trọng thường được sử dụng trong môi trường công việc, học tập hoặc khi viết cho người lớn tuổi, trong khi văn phong thân mật được sử dụng khi viết cho bạn bè, người thân hoặc trong môi trường không trang trọng. Để sử dụng văn phong phù hợp, cần xem xét đối tượng và mục đích của tin nhắn hoặc email. Việc sử dụng văn phong phù hợp giúp tin nhắn hoặc email trở nên rõ ràng và dễ hiểu hơn.
 
 ### Lưu ý
-1. Khi viết email công việc, nên sử dụng văn phong trang trọng và tránh sử dụng từ ngữ thân mật hoặc hài hước.
-2. Văn phong thân mật thường được sử dụng trong mạng xã hội hoặc khi viết cho bạn bè, nhưng cần tránh sử dụng trong môi trường công việc hoặc học tập.
-3. Sử dụng văn phong phù hợp giúp tránh hiểu lầm và tạo ấn tượng tốt với người đọc.
-4. Người học tiếng Anh cần lưu ý rằng văn phong trang trọng và thân mật có thể khác nhau tùy thuộc vào văn hóa và quốc gia.
+1. Văn trang trọng: câu đầy đủ, từ ngữ cẩn thận; Văn thân mật: rút gọn, tiếng lóng, câu ngắn.
+  - Informal: "Hey! Can't make it tonight, sry!"
+  - Formal: "Dear John, I am afraid I will not be able to attend tonight."
+2. Từ xưng hô: "Dear + Name" (formal) vs "Hi/Hey + Name" (informal); kết: "Best regards" vs "Talk soon".
+  - ❌ "Hey Sir, I need the report." → ✅ "Dear Sir, I am writing to request the report."
+3. Tránh dùng từ viết tắt (gonna, wanna, u, r) trong văn trang trọng.
+  - ❌ I'm gonna finish the project → ✅ I will complete the project.
+4. Đọc lại email trước khi gửi — lỗi chính tả ảnh hưởng đến hình ảnh chuyên nghiệp.
 
 ### Lỗi thường gặp
-❌ Hey Sir, I need the report.  →  ✅ Dear Sir, I need the report.
+❌ Hey Sir, I need the report.  →  ✅ Dear Sir, I am writing to request the report.
 
 ### Trong bài đọc
 - EN: Is this a **professional email** to your teacher, or an **informal note** to a friend?
-  VI: Đây có phải là email chuyên nghiệp gửi cho giáo viên, hay một ghi chú không trang trọng cho bạn bè?
+  VI: Đây có phải là email chuyên nghiệp gửi cho giáo viên, hay một ghi chú thân mật cho bạn bè?
 - EN: A **professional** email starts with a greeting and ends with a closing.
   VI: Một email chuyên nghiệp bắt đầu bằng lời chào và kết thúc bằng lời kết.
 - EN: A message with many mistakes does not look **professional**.
-  VI: Một tin nhắn có nhiều lỗi không看 giống một email chuyên nghiệp.
+  VI: Một tin nhắn có nhiều lỗi trông không chuyên nghiệp.
 
 <!-- /topic -->
 
@@ -2138,10 +2360,16 @@ Văn phong trang trọng và thân mật là cách diễn đạt phù hợp vớ
 Cấu trúc 'would rather' và 'would prefer' được sử dụng để diễn đạt sở thích trong các tình huống giả định hoặc khi so sánh hai hành động. 'Would rather' thường được sử dụng trong các tình huống không chính thức, trong khi 'would prefer' thường được sử dụng trong các tình huống chính thức. Cấu trúc này bao gồm động từ 'would' + 'rather' hoặc 'prefer' + động từ chính. Khi sử dụng 'would rather', chúng ta thường sử dụng nó để so sánh hai hành động và chọn hành động mà chúng ta thích hơn.
 
 ### Lưu ý
-1. Lưu ý rằng 'would rather' và 'would prefer' không được sử dụng để diễn đạt sở thích trong hiện tại, mà chỉ được sử dụng để diễn đạt sở thích trong các tình huống giả định hoặc trong quá khứ.
-2. Vị trí của 'would rather' và 'would prefer' trong câu thường là sau chủ ngữ, nhưng có thể được đặt ở đầu câu để nhấn mạnh sở thích.
-3. Trong tiếng Anh, 'would rather' và 'would prefer' thường được sử dụng để diễn đạt sở thích một cách lịch sự, đặc biệt là khi nói với người lớn tuổi hoặc trong các tình huống chính thức.
-4. Một điểm khác biệt giữa 'would rather' và 'would prefer' là 'would rather' thường được sử dụng để diễn đạt sở thích mạnh mẽ hơn, trong khi 'would prefer' thường được sử dụng để diễn đạt sở thích nhẹ nhàng hơn.
+1. "Would rather" và "would prefer" ĐƯỢC DÙNG cho sở thích hiện tại — không chỉ giả định hay quá khứ.
+  - ✅ I would rather stay home tonight. (tối nay thích ở nhà)
+  - ✅ She would prefer to work indoors. (thích làm việc trong nhà)
+2. So sánh với "than": "would rather A than B" — A và B đều là BASE VERB (không có "to").
+  - ❌ I'd rather walk than to take the bus → ✅ I'd rather walk than take the bus.
+3. Phủ định: "would rather not + base verb" (không thêm "don't").
+  - ❌ I would rather don't go → ✅ I would rather not go.
+4. "Would prefer + to-infinitive" (formal) hoặc + danh từ.
+  - ✅ I'd prefer to eat at home. / I'd prefer coffee to tea.
+  - ❌ I would prefer eat → ✅ I would prefer to eat.
 
 ### Lỗi thường gặp
 ❌ I would rather to go home.  →  ✅ I would rather go home.
@@ -2173,13 +2401,18 @@ Cấu trúc 'would rather' và 'would prefer' được sử dụng để diễn 
 Câu hỏi Yes/No và Wh- là hai loại câu hỏi chính trong tiếng Anh. Câu hỏi Yes/No dùng để hỏi thông tin và thường được trả lời bằng 'yes' hoặc 'no', trong khi câu hỏi Wh- dùng để hỏi thông tin chi tiết hơn. Để tạo câu hỏi Yes/No, chúng ta thường đảo vị trí của trợ động từ và chủ ngữ, còn câu hỏi Wh- thường bắt đầu bằng từ hỏi như 'what', 'where', 'when', 'why', 'how'. Cấu trúc câu hỏi này giúp người học tiếng Anh thể hiện sự tò mò và thu thập thông tin từ người khác.
 
 ### Lưu ý
-1. Khi tạo câu hỏi Yes/No, cần lưu ý vị trí của trợ động từ và chủ ngữ để tránh nhầm lẫn với câu khẳng định.
-2. Câu hỏi Wh- thường được sử dụng trong các tình huống hoặc không, nhưng từ hỏi và cấu trúc câu cần được chọn phù hợp với ngữ cảnh.
-3. Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Yes/No và Wh- khi sử dụng từ hỏi 'what' để hỏi thông tin chi tiết.
-4. Câu hỏi Yes/No và Wh- trong tiếng Anh khác với tiếng Việt ở vị trí của trợ động từ và chủ ngữ, cũng như sự sử dụng từ hỏi.
+1. Câu hỏi Yes/No: đảo AUXILIARY lên trước chủ ngữ.
+  - ✅ Do you like coffee? / Is she happy? / Can they swim?
+2. Câu hỏi Wh-: Wh-word + auxiliary + subject + base verb — KHÔNG giữ nguyên thứ tự khẳng định.
+  - ❌ What you want? → ✅ What do you want?
+  - ❌ Where she lives? → ✅ Where does she live?
+3. Khi Wh-word là CHỦ NGỮ (who/what), không cần đảo — V chia trực tiếp.
+  - ✅ Who called you? / What happened? (không cần "did")
+4. Ở hiện tại: do/does; quá khứ: did; với "be": đảo is/are/was/were trực tiếp.
+  - ✅ What does she eat? / What did she eat? / What is her name?
 
 ### Lỗi thường gặp
-❌ What you is your name?  →  ✅ What is your name?
+❌ What your name is?  →  ✅ What is your name?
 
 ### Trong bài đọc
 - EN: Mai said, **"What is your name?"**

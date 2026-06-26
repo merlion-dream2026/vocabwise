@@ -740,7 +740,7 @@
     },
     "rule_vi": "Câu hỏi Yes/No và Wh- là hai loại câu hỏi chính trong tiếng Anh. Câu hỏi Yes/No dùng để hỏi thông tin và thường được trả lời bằng 'yes' hoặc 'no', trong khi câu hỏi Wh- dùng để hỏi thông tin chi tiết hơn. Để tạo câu hỏi Yes/No, chúng ta thường đảo vị trí của trợ động từ và chủ ngữ, còn câu hỏi Wh- thường bắt đầu bằng từ hỏi như 'what', 'where', 'when', 'why', 'how'. Cấu trúc câu hỏi này giúp người học tiếng Anh thể hiện sự tò mò và thu thập thông tin từ người khác.",
     "rule_en": "Used to ask for information (Wh‑questions) or confirmation (Yes/No questions) by inverting the auxiliary verb and the subject.",
-    "common_error": "❌ What you is your name?  →  ✅ What is your name?",
+    "common_error": "❌ What your name is?  →  ✅ What is your name?",
     "in_context": [
       "Mai said, **\"What is your name?\"**",
       "Lan laughed and gave the answer to each question clearly. **\"Why do we have class on Saturday?\"**",
@@ -881,20 +881,29 @@
     },
     "usage_notes": [
       {
-        "text": "Khi tạo câu hỏi Yes/No, cần lưu ý vị trí của trợ động từ và chủ ngữ để tránh nhầm lẫn với câu khẳng định.",
-        "examples": []
+        "text": "Câu hỏi Yes/No: đảo AUXILIARY lên trước chủ ngữ.",
+        "examples": [
+          "✅ Do you like coffee? / Is she happy? / Can they swim?"
+        ]
       },
       {
-        "text": "Câu hỏi Wh- thường được sử dụng trong các tình huống hoặc không, nhưng từ hỏi và cấu trúc câu cần được chọn phù hợp với ngữ cảnh.",
-        "examples": []
+        "text": "Câu hỏi Wh-: Wh-word + auxiliary + subject + base verb — KHÔNG giữ nguyên thứ tự khẳng định.",
+        "examples": [
+          "❌ What you want? → ✅ What do you want?",
+          "❌ Where she lives? → ✅ Where does she live?"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Yes/No và Wh- khi sử dụng từ hỏi 'what' để hỏi thông tin chi tiết.",
-        "examples": []
+        "text": "Khi Wh-word là CHỦ NGỮ (who/what), không cần đảo — V chia trực tiếp.",
+        "examples": [
+          "✅ Who called you? / What happened? (không cần \"did\")"
+        ]
       },
       {
-        "text": "Câu hỏi Yes/No và Wh- trong tiếng Anh khác với tiếng Việt ở vị trí của trợ động từ và chủ ngữ, cũng như sự sử dụng từ hỏi.",
-        "examples": []
+        "text": "Ở hiện tại: do/does; quá khứ: did; với \"be\": đảo is/are/was/were trực tiếp.",
+        "examples": [
+          "✅ What does she eat? / What did she eat? / What is her name?"
+        ]
       }
     ],
     "in_context_vi": [

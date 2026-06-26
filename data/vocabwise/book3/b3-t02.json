@@ -657,7 +657,7 @@
       "negative": "Subject + not having + past participle, main clause",
       "variant": "Present‑participle (e.g., Driven by..., Considering ...) + , main clause"
     },
-    "rule_vi": "Dùng mệnh đề phân từ để diễn tả nguyên nhân hoặc kết quả của hành động trong câu chính.",
+    "rule_vi": "Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, dùng dạng V‑ing (present participle) hoặc V‑ed (past participle) để diễn tả nguyên nhân hoặc kết quả của hành động trong câu chính. Khi muốn nhấn mạnh rằng hành động xảy ra trước hoặc đồng thời với hành động chính, ta dùng cấu trúc Having + past participle (nguyên nhân) hoặc dạng quá khứ phân từ như driven, caused, … (kết quả). Cấu trúc thường đặt ở đầu câu, ngăn cách bằng dấu phẩy; trong vị trí trung gian, mệnh đề phân từ vẫn có thể đứng sau danh từ để bổ nghĩa. Đây là cách viết trang trọng, thường xuất hiện trong văn viết học thuật và báo cáo.",
     "rule_en": "Use participle clauses to express cause or result linked to the main clause.",
     "common_error": "❌ *Having fail* to meet the deadline, the project was delayed. → ✅ *Having failed* to meet the deadline, the project was delayed.",
     "in_context": [
@@ -812,6 +812,37 @@
           "answer": "Considering"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề phân từ thường đặt ở đầu câu và ngăn cách bằng dấu phẩy; nếu đặt sau mệnh đề chính cũng cần dấu phẩy.",
+        "examples": [
+          "❌ The company, having lost profit, is cutting costs → ✅ Having lost profit, the company is cutting costs"
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng, thích hợp cho văn viết học thuật hoặc báo cáo; trong giao tiếp thông thường người học thường dùng because/because of.",
+        "examples": [
+          "✅ Driven by market demand, the firm expanded."
+        ]
+      },
+      {
+        "text": "Tránh lỗi ‘dangling participle’ khi chủ ngữ của mệnh đề phân từ không khớp với chủ ngữ của câu chính.",
+        "examples": [
+          "❌ Walking down the street, the car was seen by John → ✅ Walking down the street, John saw the car"
+        ]
+      },
+      {
+        "text": "Mệnh đề phân từ cho phép gộp hai câu thành một câu ngắn gọn, khác với cách diễn đạt tiếng Việt thường dùng ‘vì…’, ‘để…’.",
+        "examples": [
+          "✅ Having finished the report, she left early."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sau khi đã trải qua tình trạng kiệt sức nghề nghiệp, nhiều nhân viên mô tả sự mất mục đích, năng suất giảm và sự thất vọng sâu sắc.",
+      "Bị thúc đẩy bởi áp lực khối lượng công việc ngày càng tăng, các tổ chức gặp khó khăn trong việc giữ chân nhân tài trong nền kinh tế ngày càng tự động hoá.",
+      "Do không kịp thay đổi cách thức làm việc, các tổ chức có thể nhận ra mình không thể thu hút hoặc giữ chân nhân tài cần thiết."
+    ]
   }
 }

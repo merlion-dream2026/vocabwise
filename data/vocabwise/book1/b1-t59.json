@@ -838,20 +838,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng 'would rather' và 'would prefer' không được sử dụng để diễn đạt sở thích trong hiện tại, mà chỉ được sử dụng để diễn đạt sở thích trong các tình huống giả định hoặc trong quá khứ.",
-        "examples": []
+        "text": "\"Would rather\" và \"would prefer\" ĐƯỢC DÙNG cho sở thích hiện tại — không chỉ giả định hay quá khứ.",
+        "examples": [
+          "✅ I would rather stay home tonight. (tối nay thích ở nhà)",
+          "✅ She would prefer to work indoors. (thích làm việc trong nhà)"
+        ]
       },
       {
-        "text": "Vị trí của 'would rather' và 'would prefer' trong câu thường là sau chủ ngữ, nhưng có thể được đặt ở đầu câu để nhấn mạnh sở thích.",
-        "examples": []
+        "text": "So sánh với \"than\": \"would rather A than B\" — A và B đều là BASE VERB (không có \"to\").",
+        "examples": [
+          "❌ I'd rather walk than to take the bus → ✅ I'd rather walk than take the bus."
+        ]
       },
       {
-        "text": "Trong tiếng Anh, 'would rather' và 'would prefer' thường được sử dụng để diễn đạt sở thích một cách lịch sự, đặc biệt là khi nói với người lớn tuổi hoặc trong các tình huống chính thức.",
-        "examples": []
+        "text": "Phủ định: \"would rather not + base verb\" (không thêm \"don't\").",
+        "examples": [
+          "❌ I would rather don't go → ✅ I would rather not go."
+        ]
       },
       {
-        "text": "Một điểm khác biệt giữa 'would rather' và 'would prefer' là 'would rather' thường được sử dụng để diễn đạt sở thích mạnh mẽ hơn, trong khi 'would prefer' thường được sử dụng để diễn đạt sở thích nhẹ nhàng hơn.",
-        "examples": []
+        "text": "\"Would prefer + to-infinitive\" (formal) hoặc + danh từ.",
+        "examples": [
+          "✅ I'd prefer to eat at home. / I'd prefer coffee to tea.",
+          "❌ I would prefer eat → ✅ I would prefer to eat."
+        ]
       }
     ],
     "in_context_vi": [

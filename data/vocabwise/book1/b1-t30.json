@@ -888,20 +888,31 @@
     },
     "usage_notes": [
       {
-        "text": "Sự khác biệt chính giữa should và ought to là mức độ trang trọng và nghiêm túc, với ought to thường được sử dụng trong các tình huống chính thức hơn.",
-        "examples": []
+        "text": "Should và ought to đều có nghĩa \"nên\" nhưng ought to trang trọng hơn và ít dùng hơn trong giao tiếp thông thường.",
+        "examples": [
+          "✅ You should see a doctor. (thông thường)",
+          "✅ You ought to see a doctor. (trang trọng hơn, ít phổ biến hơn)"
+        ]
       },
       {
-        "text": "Should và ought to thường được sử dụng sau các mệnh đề chủ ngữ, và trước động từ chính trong câu.",
-        "examples": []
+        "text": "Cả hai luôn đi với bare infinitive; ought to đặc biệt — luôn giữ \"to\".",
+        "examples": [
+          "❌ You ought not to lie. → đây là cách phủ định đúng (không dùng don't)",
+          "❌ You should to go → ✅ You should go"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa should và ought to với phải và cần, nhưng nên nhớ rằng should và ought to mang tính chất khuyên nhủ hơn là bắt buộc.",
-        "examples": []
+        "text": "Phân biệt: should (lời khuyên chủ quan) · must (bắt buộc mạnh) · have to (quy định ngoài).",
+        "examples": [
+          "✅ You should eat less sugar. (lời khuyên)",
+          "✅ You must stop at a red light. (bắt buộc — luật giao thông)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, nên sử dụng should và ought to một cách linh hoạt và phù hợp với ngữ cảnh để thể hiện sự khuyên nhủ hoặc nhắc nhở một cách tự nhiên.",
-        "examples": []
+        "text": "Should have + V3 dùng cho lời khuyên về việc đã KHÔNG làm trong quá khứ.",
+        "examples": [
+          "✅ You should have called me. (đáng lẽ phải gọi nhưng không gọi)"
+        ]
       }
     ],
     "in_context_vi": [

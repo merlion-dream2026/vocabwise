@@ -684,7 +684,7 @@
     "form": {
       "positive": "Clause1, Clause2, Clause3 (tricolon) / Repeated phrase + verb (anaphora) / Question phrase + ? (rhetorical question)"
     },
-    "rule_vi": "Dùng để nhấn mạnh ý tưởng bằng cách lặp lại cấu trúc, liệt kê ba yếu tố đồng thời, hoặc đặt câu hỏi không cần câu trả lời.",
+    "rule_vi": "Cấu trúc hùng biện là các biện pháp tu từ dùng để nhấn mạnh ý bằng cách lặp lại hoặc liệt kê các yếu tố có cùng dạng. Nó bao gồm tricolon (ba thành phần đồng dạng), anaphora (lặp đầu câu) và câu hỏi tu từ (rhetorical question) không cần trả lời. Khi dùng, người nói phải đảm bảo tính song song về ngữ pháp và nhịp điệu, đồng thời lựa chọn ngữ cảnh trang trọng hoặc thuyết phục. Tránh lạm dụng để không làm mất tính tự nhiên của văn bản.",
     "rule_en": "Used to emphasize ideas through parallelism, repetition, or a question that does not expect an answer.",
     "common_error": "❌ We must act, we must think, we must succeed?  →  ✅ We must act, we must think, we must succeed.",
     "in_context": [
@@ -828,6 +828,37 @@
           "answer": "emphasizes"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Tricolon yêu cầu ba thành phần đồng dạng về hình thái và chức năng, được đặt liền nhau để tạo nhịp điệu và sức mạnh ngôn ngữ.",
+        "examples": [
+          "❌ He was brave, clever → ✅ He was brave, clever, and compassionate."
+        ]
+      },
+      {
+        "text": "Anaphora là việc lặp từ hoặc cụm từ ở đầu các câu/đoạn để tạo điểm nhấn và tăng tính thuyết phục.",
+        "examples": [
+          "❌ We must act now, we need to act now → ✅ We must act now, we must act now, we must act now."
+        ]
+      },
+      {
+        "text": "Câu hỏi tu từ không đòi hỏi câu trả lời; nó thường dùng để khẳng định một quan điểm một cách mạnh mẽ.",
+        "examples": [
+          "❌ Are you sure? → ✅ Is it not evident that algorithms dictate our attention?"
+        ]
+      },
+      {
+        "text": "Cấu trúc hùng biện thường xuất hiện trong ngôn ngữ trang trọng, diễn thuyết hoặc viết thuyết phục; không nên dùng trong văn bản thông thường hoặc hội thoại thân mật.",
+        "examples": [
+          "❌ I think the policy is good → ✅ Indeed, the policy is exemplary, inspiring, and transformative."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Chìa khóa nằm ở việc cân bằng giữa tự quảng bá và tạo ra giá trị thực sự — cung cấp nội dung giáo dục, kết nối hoặc truyền cảm hứng, thay vì chỉ chạy theo các chỉ số.",
+      "Những người sáng tạo xây dựng hiện diện trực tuyến một cách suy nghĩ cẩn thận, những người xây dựng thương hiệu cá nhân một cách nhất quán, và những người tương tác một cách chân thực, đều có thể tiếp cận khán giả toàn cầu, bỏ qua các cánh cửa truyền thống.",
+      "Có phải không, các thuật toán đang quyết định sự chú ý của chúng ta, định hình quan điểm và điều khiển hành động của chúng ta?"
+    ]
   }
 }

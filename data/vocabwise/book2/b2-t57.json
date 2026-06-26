@@ -765,7 +765,7 @@
       "positive": "If + Subject + had + past participle, Subject + would + base verb",
       "variant": "If + Subject + had + past participle, Subject + could + base verb"
     },
-    "rule_vi": "Dùng để nói về một tình huống không có thực trong quá khứ và kết quả hiện tại.",
+    "rule_vi": "Câu điều kiện hỗn hợp (mixed conditional) dùng để nói về một tình huống không có thực trong quá khứ và hậu quả của nó ở thời hiện tại. Cấu trúc điển hình là: If + quá khứ hoàn thành (had + V3), ... would + động từ nguyên thể (hoặc would be + V‑ing) để diễn tả kết quả hiện tại. Nó nhấn mạnh rằng nếu quá khứ đã khác đi, hiện tại sẽ thay đổi theo. Thường dùng để bày tỏ sự tiếc nuối hoặc đưa ra lời khuyên dựa trên một giả định không thực tế.",
     "rule_en": "Used to talk about an unreal past condition and its present result.",
     "common_error": "❌ If I didn't have enough money, I would have bought a car.  →  ✅ If I had had enough money, I would have bought a car.",
     "in_context": [
@@ -933,6 +933,37 @@
           "answer": "had accelerated"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề điều kiện (if‑clause) luôn dùng quá khứ hoàn thành để chỉ một hành động không có thực trong quá khứ.",
+        "examples": [
+          "❌ If companies refused to adapt, they would risk losing staff → ✅ If companies had refused to adapt, they would be risking losing staff now."
+        ]
+      },
+      {
+        "text": "Mệnh đề chính (result clause) dùng would + động từ nguyên thể (hoặc would be + V‑ing) để nói về kết quả ở hiện tại.",
+        "examples": [
+          "✅ If automation had not transformed the workforce, workers would still be doing routine tasks manually."
+        ]
+      },
+      {
+        "text": "Không dùng dạng hiện tại đơn (If companies refuse…) vì nó chỉ diễn tả một điều kiện thực tế, không phải giả định không có thực.",
+        "examples": [
+          "❌ If automation does not transform the workforce, workers will lose jobs → ✅ If automation had not transformed the workforce, workers would still be doing routine tasks manually."
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, tránh dùng viết tắt (wouldn't, they'd) và ưu tiên cấu trúc đầy đủ.",
+        "examples": [
+          "❌ They'd be risking losing staff now → ✅ They would be risking losing staff now."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu các công ty đã từ chối thích ứng, họ sẽ đang phải đối mặt với nguy cơ mất nhân tài ngay bây giờ.",
+      "Nếu tự động hóa không thay đổi lực lượng lao động, công nhân vẫn sẽ phải thực hiện các công việc thường ngày một cách thủ công.",
+      "Nếu tương lai của công việc đã yêu cầu các kỹ năng mới sớm hơn, các công ty sẽ đang đầu tư vào các chương trình đào tạo lại ngay bây giờ."
+    ]
   }
 }

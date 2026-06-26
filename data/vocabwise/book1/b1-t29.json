@@ -884,20 +884,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng thì Hiện tại hoàn thành không dùng để mô tả thời điểm cụ thể của hành động, mà chỉ tập trung vào kết quả của hành động đó.",
-        "examples": []
+        "text": "Không dùng thời gian cụ thể (yesterday, last year, in 2020) với hiện tại hoàn thành — dùng quá khứ đơn khi có thời gian xác định.",
+        "examples": [
+          "❌ I have visited Paris last year → ✅ I visited Paris last year",
+          "✅ I have visited Paris. (không nói khi nào)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, vị trí của trạng từ thường được đặt sau have/has, nhưng trước động từ chính.",
-        "examples": []
+        "text": "Các từ thường đi kèm hiện tại hoàn thành: already · yet · just · ever · never · for · since.",
+        "examples": [
+          "✅ She has already eaten. / Have you finished yet? / I've just arrived."
+        ]
       },
       {
-        "text": "Thì Hiện tại hoàn thành thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng thì Quá khứ đơn để mô tả các sự kiện đã xảy ra.",
-        "examples": []
+        "text": "For + khoảng thời gian; since + mốc thời gian — dùng với hiện tại hoàn thành để chỉ thời gian kéo dài đến hiện tại.",
+        "examples": [
+          "✅ I have lived here for five years. / She has worked here since 2020."
+        ]
       },
       {
-        "text": "Người học tiếng Việt nên lưu ý rằng thì Hiện tại hoàn thành trong tiếng Anh khác với thì Quá khứ đơn trong tiếng Việt, vì nó không chỉ mô tả hành động đã xảy ra mà còn có liên quan tới hiện tại.",
-        "examples": []
+        "text": "I/you/we/they → have + V3; he/she/it → has + V3.",
+        "examples": [
+          "❌ She have finished → ✅ She has finished",
+          "❌ They has gone → ✅ They have gone"
+        ]
       }
     ],
     "in_context_vi": [

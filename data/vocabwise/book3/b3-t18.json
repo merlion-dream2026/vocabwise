@@ -742,7 +742,7 @@
       "question": "The question is what + clause (subject + verb)",
       "variant": "I wonder if + clause (subject + verb)"
     },
-    "rule_vi": "Dùng để đưa ra câu hỏi gián tiếp, thường bắt đầu bằng I wonder whether/if hoặc The question is what, không dùng dấu hỏi.",
+    "rule_vi": "Câu hỏi gián tiếp lồng ghép (embedded question) dùng để truyền đạt một câu hỏi dưới dạng khái quát, thường xuất hiện sau các động từ như wonder, ask, be curious, hoặc sau danh từ/cụm danh từ như the question is. Cấu trúc chính là: [động từ/đại từ + whether/if] hoặc [câu + wh‑word] và không dùng dấu hỏi. Trong câu gián tiếp, thứ tự từ giữ dạng khẳng định (subject‑verb) chứ không đảo trợ động từ như câu hỏi trực tiếp. Khi dùng “the question is what…”, mệnh đề phải bắt đầu bằng một từ hỏi (what, who, how, …) và vẫn không có dấu chấm hỏi.",
     "rule_en": "Use embedded questions to report curiosity or uncertainty without a direct question mark.",
     "common_error": "❌ I wonder, whether the mission will succeed?  →  ✅ I wonder whether the mission will succeed",
     "in_context": [
@@ -898,6 +898,39 @@
           "answer": "when"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Câu hỏi gián tiếp không có dấu chấm hỏi và giữ nguyên trật tự câu khẳng định.",
+        "examples": [
+          "❌ I wonder, does a spacecraft transmit data? → ✅ I wonder whether a spacecraft transmits data."
+        ]
+      },
+      {
+        "text": "Dùng whether/if cho các câu hỏi có đáp án Yes/No; dùng từ hỏi (what, who, how…) cho các câu hỏi nội dung.",
+        "examples": [
+          "✅ I wonder whether the mission will succeed.",
+          "✅ The question is what the propulsion systems must generate."
+        ]
+      },
+      {
+        "text": "Không đảo trợ động từ trong câu gián tiếp; chủ ngữ luôn đứng trước vị trí động từ.",
+        "examples": [
+          "❌ I wonder what does the crew need? → ✅ I wonder what the crew needs."
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường xuất hiện trong văn viết trang trọng; trong giao tiếp thân mật người học có thể dùng dạng ngắn gọn với if/whether.",
+        "examples": [
+          "✅ I wonder if the crew will survive.",
+          "✅ The question is how we can protect them."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi tự hỏi liệu một tàu vũ trụ khi vào quỹ đạo quanh một hành tinh xa xôi có truyền dữ liệu cho phép các nhà khoa học lập bản đồ bề mặt, đo bầu khí quyển và tìm kiếm dấu hiệu sự sống hay không.",
+      "Câu hỏi là những hệ thống đẩy cần thiết để phóng các sứ mệnh liên sao phải tạo ra gì để đạt được lực đẩy ở quy mô chưa từng có.",
+      "Tôi tự hỏi liệu việc tiếp xúc với bức xạ, teo cơ và cô lập tâm lý có gây ra những rủi ro nghiêm trọng cho các phi hành đoàn ngoài Trái Đất không."
+    ]
   }
 }

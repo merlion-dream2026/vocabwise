@@ -767,7 +767,7 @@
       "positive": "Subject + hedging phrase (modal verb / verb + adverb) + that‑clause",
       "variant": "Subject + verb + adverbial hedge (e.g., probably, possibly) + complement"
     },
-    "rule_vi": "Dùng các từ/ cụm từ giảm mức độ khẳng định (might, seem to, appears) khi đưa ra quan điểm để thể hiện tính thận trọng và tính học thuật.",
+    "rule_vi": "Ngôn ngữ lập trường trong học thuật (hedging) là cách dùng các từ, cụm từ hoặc cấu trúc giảm mức độ khẳng định của một tuyên bố, giúp người viết thể hiện sự thận trọng và tính khách quan. Nó thường được dùng khi đưa ra giả thuyết, kết quả nghiên cứu, hoặc khi trích dẫn bằng chứng chưa chắc chắn. Các yếu tố hedging bao gồm động từ khiếm khuyết (may, might, could), các động từ chỉ suy đoán (seem, appear, suggest), và các trạng từ/ cụm trạng từ (possibly, arguably, apparently). Quy tắc cơ bản: đặt các từ hedging ngay trước động từ chính hoặc trước tính từ, và có thể kết hợp với mệnh đề that‑clause để nối với nội dung được đề cập.",
     "rule_en": "Use hedging expressions to soften claims and show academic caution.",
     "common_error": "❌ The results definitely prove the hypothesis.  →  ✅ The results might prove the hypothesis.",
     "in_context": [
@@ -913,6 +913,37 @@
           "answer": "tentatively"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Đặt động từ khiếm khuyết (may, might, could) ngay trước động từ chính để biểu thị mức độ không chắc chắn.",
+        "examples": [
+          "❌ This study prove that... → ✅ This study may prove that..."
+        ]
+      },
+      {
+        "text": "Khi dùng các động từ chỉ suy đoán (suggest, indicate, appear), thường đi kèm mệnh đề that‑clause để làm rõ nội dung được suy đoán.",
+        "examples": [
+          "❌ This suggests the participants are... → ✅ This suggests that the participants are..."
+        ]
+      },
+      {
+        "text": "Các trạng từ hedging (possibly, arguably, apparently) có thể đứng ở đầu câu hoặc trước tính từ/động từ để giảm mức độ khẳng định.",
+        "examples": [
+          "❌ The results are significant → ✅ The results are possibly significant"
+        ]
+      },
+      {
+        "text": "Tránh lạm dụng hedging trong các khẳng định mạnh; nếu kết quả đã được chứng minh, dùng ngôn ngữ quyết đoán thay vì từ giảm mức độ.",
+        "examples": [
+          "❌ The data definitely prove the hypothesis → ✅ The data strongly support the hypothesis"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các cụm từ như 'for example', 'this suggests that' và 'on the other hand' là công cụ của lập luận logic.",
+      "Nếu thiếu kỹ năng này, ngay cả những quan điểm được giữ vững mạnh cũng có thể không thuyết phục được người khác, vì đam mê một mình hiếm khi đủ để thay đổi suy nghĩ.",
+      "Mục tiêu của cuộc thảo luận không phải để 'giành thắng lợi' mà là đạt được một kết luận có vẻ gần với sự thật nhất có thể."
+    ]
   }
 }

@@ -832,20 +832,28 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý không nên sử dụng How much với danh từ đếm được, và ngược lại, không sử dụng How many với danh từ không đếm được, vì điều này sẽ làm cho câu hỏi trở nên không chính xác.",
-        "examples": []
+        "text": "\"How many\" dùng với DANH TỪ ĐẾM ĐƯỢC (có thể nói \"1 apple, 2 apples\").",
+        "examples": [
+          "✅ How many apples do you need? / How many students are in the class?"
+        ]
       },
       {
-        "text": "Vị trí của How much và How many trong câu thường là ở đầu câu, ngay sau đó là động từ chính và danh từ được hỏi.",
-        "examples": []
+        "text": "\"How much\" dùng với DANH TỪ KHÔNG ĐẾM ĐƯỢC (water, rice, time, money).",
+        "examples": [
+          "✅ How much water should we add? / How much time do we have?"
+        ]
       },
       {
-        "text": "Trong tiếng Anh thông dụng, How much và How many thường được sử dụng trong các tình huống mua sắm, đặt hàng, hoặc khi cần biết số lượng của một thứ gì đó.",
-        "examples": []
+        "text": "\"How much\" cũng dùng để hỏi GIÁ TIỀN: How much + does/do + … + cost?",
+        "examples": [
+          "✅ How much does this bag cost? / How much are the tickets?"
+        ]
       },
       {
-        "text": "Người học tiếng Anh nên lưu ý rằng trong tiếng Việt, chúng ta thường sử dụng từ 'bao nhiêu' cho cả danh từ đếm được và không đếm được, nhưng trong tiếng Anh, sự phân biệt giữa How much và How many là rất quan trọng.",
-        "examples": []
+        "text": "Người Việt dùng \"bao nhiêu\" cho cả hai → dễ nhầm. Kiểm tra: nếu đổi sang số nhiều được (2 ___) → \"how many\".",
+        "examples": [
+          "✅ 2 oranges → How many oranges? | water → How much water?"
+        ]
       }
     ],
     "in_context_vi": [

@@ -884,20 +884,31 @@
     },
     "usage_notes": [
       {
-        "text": "Chú ý không được nhầm lẫn giữa have/has got và have/has khi nói về sở hữu, vì have/has thường được sử dụng trong câu hỏi và câu trả lời về sở hữu.",
-        "examples": []
+        "text": "I/You/We/They → have got; He/She/It → has got; phủ định → haven't got / hasn't got.",
+        "examples": [
+          "❌ She have got a cat → ✅ She has got a cat",
+          "❌ I has got a dog → ✅ I have got a dog"
+        ]
       },
       {
-        "text": "Vị trí của have/has got trong câu thường đứng sau chủ ngữ và trước tân ngữ, và có thể được sử dụng trong cả câu đơn và câu phức.",
-        "examples": []
+        "text": "\"Have got\" phổ biến trong British English; \"have\" (không có \"got\") phổ biến hơn trong American English — cả hai đều đúng.",
+        "examples": [
+          "✅ I've got two brothers. (British)",
+          "✅ I have two brothers. (American, cũng đúng)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh thông dụng, have/has got thường được sử dụng trong ngôn ngữ nói và viết không, trong khi trong ngôn ngữ, người ta thường sử dụng have/has.",
-        "examples": []
+        "text": "Không dùng \"have got\" cho quá khứ — dùng \"had\" thay thế.",
+        "examples": [
+          "❌ She had got a cat last year → ✅ She had a cat last year"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi sử dụng have/has got vì cấu trúc này khác với cấu trúc sở hữu trong tiếng Việt, do đó cần luyện tập thường xuyên để sử dụng chính xác.",
-        "examples": []
+        "text": "\"Have got\" thường dùng cho sở hữu, đặc điểm, bệnh tật — không dùng cho hành động.",
+        "examples": [
+          "✅ He has got blue eyes. / She has got a headache.",
+          "❌ I have got breakfast now → ✅ I am having breakfast now"
+        ]
       }
     ],
     "in_context_vi": [

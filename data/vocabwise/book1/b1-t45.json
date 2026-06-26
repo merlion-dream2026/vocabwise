@@ -672,7 +672,7 @@
     },
     "rule_vi": "Could và couldn't là những động từ modal chỉ khả năng trong quá khứ. Chúng được sử dụng để nói về khả năng hoặc không có khả năng thực hiện một hành động nào đó trong quá khứ. Cấu trúc của chúng thường là subject + could/couldn't + động từ chính. Khi sử dụng could, nó thường biểu thị khả năng thực hiện một hành động, trong khi couldn't biểu thị không có khả năng thực hiện hành động đó.",
     "rule_en": "Use could for past ability and couldn't for past inability.",
-    "common_error": "❌ He could have went to the hospital.  →  ✅ He could have gone to the hospital.",
+    "common_error": "❌ When she was young, she can speak French.  →  ✅ When she was young, she could speak French.",
     "in_context": [
       "Someone **could** call the ambulance right away.",
       "You **could** alert people when you see danger.",
@@ -820,20 +820,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng could và couldn't thường được sử dụng trong câu kể chuyện về quá khứ, đặc biệt là khi mô tả một sự kiện hoặc tình huống cụ thể.",
-        "examples": []
+        "text": "\"Could\" = khả năng TỔNG QUÁT trong quá khứ; \"was/were able to\" = thành công trong 1 lần cụ thể.",
+        "examples": [
+          "✅ She could swim at age five. (khả năng chung)",
+          "✅ He was able to fix the car yesterday. (thành công cụ thể 1 lần)"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, vị trí của could và couldn't trong câu thường khá linh hoạt, nhưng thường được đặt sau chủ ngữ và trước động từ chính.",
-        "examples": []
+        "text": "Phủ định: \"couldn't / could not\" — dùng được cho cả khả năng chung lẫn tình huống cụ thể.",
+        "examples": [
+          "✅ I couldn't find my keys this morning. / They couldn't understand the teacher."
+        ]
       },
       {
-        "text": "Sử dụng could và couldn't trong tiếng Anh thường mang tính trang trọng, nhưng trong giao tiếp hàng ngày, người ta cũng có thể sử dụng chúng một cách thông thường.",
-        "examples": []
+        "text": "\"Could\" KHÔNG dùng để nói về khả năng HIỆN TẠI — dùng \"can\" thay thế.",
+        "examples": [
+          "❌ I could see her right now → ✅ I can see her right now."
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa could và được able to, mặc dù cả hai đều chỉ khả năng, nhưng có sự khác biệt về cách sử dụng và ngữ cảnh.",
-        "examples": []
+        "text": "Phân biệt: \"could + V\" (quá khứ đơn giản) vs \"could have + V3\" (điều đáng lẽ có thể đã xảy ra).",
+        "examples": [
+          "✅ He could run fast as a child. (past ability)",
+          "✅ He could have run faster. (nhưng đã không làm — past modal)"
+        ]
       }
     ],
     "in_context_vi": [

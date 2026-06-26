@@ -825,20 +825,29 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng mệnh đề thời gian thường được sử dụng để chỉ thời gian xảy ra của một hành động, nhưng không nhất thiết phải chỉ thời gian chính xác.",
-        "examples": []
+        "text": "Sau các liên từ thời gian (when, before, after, as soon as) dùng THÌ HIỆN TẠI — không dùng \"will\".",
+        "examples": [
+          "❌ I'll call you when I will arrive → ✅ I'll call you when I arrive.",
+          "❌ Before he will leave, he'll pack → ✅ Before he leaves, he'll pack."
+        ]
       },
       {
-        "text": "Khi sử dụng mệnh đề thời gian, cần chú ý đến vị trí của nó trong câu, vì nó có thể ảnh hưởng đến ý nghĩa của câu.",
-        "examples": []
+        "text": "\"As soon as\" = ngay khi… — nhấn mạnh tính tức thì.",
+        "examples": [
+          "✅ As soon as the class ends, we go home. / Call me as soon as you get there."
+        ]
       },
       {
-        "text": "Mệnh đề thời gian có thể được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng cần chọn từ vựng và cấu trúc phù hợp với ngữ cảnh.",
-        "examples": []
+        "text": "Mệnh đề thời gian có thể đứng đầu hoặc cuối câu; đứng đầu thì có dấu phẩy.",
+        "examples": [
+          "✅ When I finish, I'll rest. / I'll rest when I finish."
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa các từ như when, while, và as, vì vậy cần lưu ý đến ý nghĩa và cách sử dụng của từng từ.",
-        "examples": []
+        "text": "Phân biệt \"when\" (sự kiện ngắn) vs \"while\" (hai việc xảy ra song song).",
+        "examples": [
+          "✅ Call me when you arrive. vs I listen to music while I study."
+        ]
       }
     ],
     "in_context_vi": [

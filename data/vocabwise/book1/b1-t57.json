@@ -740,8 +740,8 @@
     "common_error": "❌ The signs is placed on the wall.  →  ✅ The signs are placed on the wall.",
     "in_context": [
       "A warning sign is placed to alert us of danger.",
-      "The notice on the door is kept closed during the night.",
-      "The escape route is followed by everyone in an emergency."
+      "The door is kept locked during the night for safety.",
+      "The escape route is clearly marked by the safety team."
     ],
     "ex1_mcq": {
       "instruction": "Chọn dạng đúng của động từ bị động để hoàn thành câu.",
@@ -883,26 +883,35 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng câu bị động, cần lưu ý về vị trí của tân ngữ và vị ngữ trong câu, vì chúng có thể thay đổi so với câu chủ động.",
-        "examples": []
+        "text": "Câu bị động tập trung vào ĐỐI TƯỢNG bị tác động — không cần biết (hoặc không quan trọng) ai làm.",
+        "examples": [
+          "✅ The road is cleaned every day. / The windows are closed at night."
+        ]
       },
       {
-        "text": "Câu bị động thường được sử dụng trong văn viết chính thức hoặc trong các tình huống cần nhấn mạnh đối tượng bị tác động, như trong báo cáo, bài thuyết trình hoặc hướng dẫn.",
-        "examples": []
+        "text": "Chia \"be\" theo CHỦ NGỮ của câu bị động (đối tượng chịu tác động), không phải người làm.",
+        "examples": [
+          "❌ The signs is placed → ✅ The signs are placed. (signs → are)",
+          "✅ The door is locked. / The books are sold every week."
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý là câu bị động có thể gây nhầm lẫn nếu không được sử dụng chính xác, đặc biệt là khi sử dụng động từ 'to be' ở dạng hiện tại và quá khứ.",
-        "examples": []
+        "text": "Nếu muốn nêu AI làm, thêm \"by + tác nhân\" cuối câu.",
+        "examples": [
+          "✅ The report is written by the manager. / The cake was made by my mother."
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi sử dụng câu bị động vì cấu trúc này khác với tiếng Việt, nơi mà câu bị động không được sử dụng thường xuyên như trong tiếng Anh.",
-        "examples": []
+        "text": "Dạng quá khứ: was/were + past participle.",
+        "examples": [
+          "✅ The building was built in 1990. / The books were sold last week."
+        ]
       }
     ],
     "in_context_vi": [
       "Một biển báo cảnh báo được đặt để cảnh báo chúng ta về nguy hiểm.",
-      "Thông báo trên cửa được giữ đóng trong suốt đêm.",
-      "Tuyến đường thoát hiểm được mọi người theo dõi trong trường hợp khẩn cấp."
+      "Cửa được khóa suốt đêm để đảm bảo an toàn.",
+      "Đường thoát hiểm được đội an toàn đánh dấu rõ ràng."
     ]
   }
 }

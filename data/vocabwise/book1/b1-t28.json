@@ -839,20 +839,30 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý không nên nhầm lẫn 'used to' với 'be used to', vì 'be used to' có nghĩa là quen với một điều gì đó.",
-        "examples": []
+        "text": "\"Used to\" chỉ dùng cho quá khứ — hành động hoặc trạng thái đã xảy ra thường xuyên nhưng bây giờ không còn nữa.",
+        "examples": [
+          "✅ I used to play football every day. (bây giờ không còn chơi)",
+          "❌ I use to play football → ✅ I used to play football"
+        ]
       },
       {
-        "text": "Vị trí của 'used to' trong câu thường đứng trước động từ chính, và sau các trạng từ chỉ thời gian nếu có.",
-        "examples": []
+        "text": "Phủ định: didn't use to (không phải \"didn't used to\").",
+        "examples": [
+          "❌ She didn't used to eat meat → ✅ She didn't use to eat meat"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, 'used to' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, nhưng nên tránh sử dụng trong ngôn ngữ quá hoặc học thuật.",
-        "examples": []
+        "text": "Phân biệt: \"used to + V\" (thói quen quá khứ) ≠ \"be used to + V-ing\" (quen với điều gì đó).",
+        "examples": [
+          "✅ I used to live alone. (trước đây sống một mình)",
+          "✅ I am used to living alone. (tôi đã quen sống một mình)"
+        ]
       },
       {
-        "text": "Người học tiếng Việt nên chú ý rằng 'used to' không có cấu trúc tương đương trực tiếp trong tiếng Việt, vì vậy cần luyện tập để sử dụng nó một cách tự nhiên.",
-        "examples": []
+        "text": "\"Used to\" diễn tả trạng thái quá khứ (không chỉ thói quen) — dùng được với stative verbs.",
+        "examples": [
+          "✅ She used to be very shy. / He used to have long hair."
+        ]
       }
     ],
     "in_context_vi": [

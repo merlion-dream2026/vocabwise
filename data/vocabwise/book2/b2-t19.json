@@ -702,7 +702,7 @@
       "question": "Do + Quantifier + Noun + Verb (+ Object)?",
       "variant": "a lot of + noun"
     },
-    "rule_vi": "Dùng lượng từ (all, most, some, few, no) trước danh từ để chỉ mức độ hoặc số lượng.",
+    "rule_vi": "Lượng từ (all, most, some, few, no) được đặt trước danh từ để chỉ mức độ hoặc số lượng. Chúng thay thế mạo từ và đi kèm với danh từ đếm được (số nhiều) hoặc không đếm được tùy theo loại lượng từ. \"All\" và \"most\" diễn tả toàn bộ hoặc phần lớn, \"some\" dùng trong câu khẳng định, câu hỏi, lời đề nghị; \"few\" và \"no\" mang nghĩa tiêu cực, trong đó \"few\" ám chỉ ít nhưng vẫn có, còn \"no\" chỉ không có gì. Cấu trúc cơ bản: lượng từ + danh từ (có thể có \"of\" + danh từ xác định).",
     "rule_en": "Use quantifiers (all, most, some, few, no) before a noun to express degree or amount.",
     "common_error": "❌ She have some friends.  →  ✅ She has some friends.",
     "in_context": [
@@ -847,6 +847,40 @@
           "answer": "no"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Lượng từ đứng ngay trước danh từ, thay thế mạo từ; khi có \"of\" thì theo sau danh từ xác định.",
+        "examples": [
+          "❌ all the children → ✅ all children",
+          "✅ most of the students passed"
+        ]
+      },
+      {
+        "text": "\"Few\" chỉ danh từ đếm được số nhiều; không dùng với danh từ không đếm được.",
+        "examples": [
+          "❌ few water → ✅ little water"
+        ]
+      },
+      {
+        "text": "\"Few\" và \"no\" đều mang nghĩa tiêu cực, nhưng \"few\" ngụ ý còn một ít, còn \"no\" hoàn toàn không có.",
+        "examples": [
+          "✅ There are few options.",
+          "✅ There are no options."
+        ]
+      },
+      {
+        "text": "\"Some\" thường dùng trong câu khẳng định, lời đề nghị hoặc câu hỏi nhẹ nhàng; không dùng trong câu phủ định.",
+        "examples": [
+          "✅ Would you like some coffee?",
+          "❌ I don't have some money → ✅ I don't have any money."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Rạn san hô là nơi sinh sống của một phần tư toàn bộ sinh vật biển.",
+      "Hầu hết nước ngọt được lưu trữ dưới đất được tìm thấy trong các tầng chứa nước ngầm.",
+      "Do quá khai thác, còn lại rất ít quần thể cá ở nhiều khu vực trên thế giới."
+    ]
   }
 }

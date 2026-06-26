@@ -777,7 +777,7 @@
       "question": "Had + subject + past participle (+ object/complement)?",
       "variant": "Subject + had + been + -ing (past perfect continuous)"
     },
-    "rule_vi": "Dùng để nói về một hành động đã hoàn thành trước một thời điểm hoặc hành động khác trong quá khứ.",
+    "rule_vi": "Quá khứ hoàn thành (had + quá phân từ) diễn tả một hành động đã kết thúc trước một thời điểm hoặc một hành động khác trong quá khứ. Dùng khi muốn nhấn mạnh thứ tự thời gian giữa hai sự kiện trong quá khứ. Cấu trúc: chủ ngữ + had + quá phân từ (động từ ở dạng III). Thường xuất hiện trong câu phụ hoặc sau các từ chỉ thời gian như when, before, after, by the time.",
     "rule_en": "Used to describe an action that was completed before another past action.",
     "common_error": "❌ She had went to the lab.  →  ✅ She had gone to the lab.",
     "in_context": [
@@ -934,6 +934,37 @@
           "answer": "had"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Dùng để chỉ hành động hoàn thành trước một hành động khác trong quá khứ; mệnh đề chứa quá khứ hoàn thành luôn đứng trước hoặc sau mệnh đề quá khứ đơn.",
+        "examples": [
+          "❌ She left before I arrived. → ✅ She had left before I arrived."
+        ]
+      },
+      {
+        "text": "Thường kết hợp với các từ chỉ thời gian (when, before, after, by the time) để làm rõ thứ tự xảy ra.",
+        "examples": [
+          "By the time the experiment started, the samples had been prepared."
+        ]
+      },
+      {
+        "text": "Không dùng để diễn tả thói quen hay sự thật chung trong quá khứ; trong những trường hợp này dùng quá khứ đơn.",
+        "examples": [
+          "❌ He had always studied hard. → ✅ He always studied hard."
+        ]
+      },
+      {
+        "text": "Trong câu điều kiện loại 3 (không thực trong quá khứ), mệnh đề if dùng had + quá phân từ.",
+        "examples": [
+          "If she had known, she would have helped."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khi đã thu thập đủ bằng chứng, một nhà khoa học có thể đề xuất một lý thuyết.",
+      "Trước khi các phát hiện được công bố công khai, chúng phải trải qua quá trình đánh giá đồng nghiệp.",
+      "Thỉnh thoảng, một khám phá duy nhất đã thay đổi mọi thứ, dẫn đến một bước đột phá."
+    ]
   }
 }

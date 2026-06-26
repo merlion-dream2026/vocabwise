@@ -877,20 +877,28 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng câu mệnh lệnh, cần lưu ý đến vị trí của các từ chỉ mức độ, như 'carefully', 'quickly', thường được đặt sau động từ chính.",
-        "examples": []
+        "text": "Câu mệnh lệnh bắt đầu thẳng bằng ĐỘNG TỪ nguyên mẫu — không có chủ ngữ.",
+        "examples": [
+          "❌ You slice the carrots → ✅ Slice the carrots."
+        ]
       },
       {
-        "text": "Câu mệnh lệnh thường được sử dụng trong văn bản hướng dẫn, công thức nấu ăn, và các tài liệu kỹ thuật, nơi người đọc cần thực hiện các hành động cụ thể.",
-        "examples": []
+        "text": "Phủ định: \"Do not / Don't + động từ\". Không dùng \"not + V\" trực tiếp.",
+        "examples": [
+          "❌ Not stir the soup → ✅ Don't stir the soup."
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu mệnh lệnh và câu khai báo, dẫn đến sử dụng sai cấu trúc câu.",
-        "examples": []
+        "text": "Trạng từ chỉ cách thức (carefully, slowly) đứng SAU động từ hoặc tân ngữ.",
+        "examples": [
+          "✅ Stir the mixture slowly. / Handle the pan carefully."
+        ]
       },
       {
-        "text": "Câu mệnh lệnh trong tiếng Anh khác với tiếng Việt, nơi chủ ngữ thường được giữ lại, vì vậy người học cần lưu ý đến sự khác biệt này khi sử dụng câu mệnh lệnh.",
-        "examples": []
+        "text": "Nối các bước bằng sequencers: First… / Then… / Finally… / After that…",
+        "examples": [
+          "✅ First, heat the oil. Then, add the onions. Finally, serve hot."
+        ]
       }
     ],
     "in_context_vi": [

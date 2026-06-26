@@ -817,20 +817,30 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng câu mệnh lệnh, cần lưu ý về mức độ trang trọng và không trang trọng, vì trong tiếng Anh, câu mệnh lệnh có thể được sử dụng một cách trang trọng hoặc không trang trọng tùy thuộc vào tình huống và mối quan hệ giữa người nói và người nghe.",
-        "examples": []
+        "text": "Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu, không có chủ ngữ (chủ ngữ ngầm hiểu là \"you\").",
+        "examples": [
+          "❌ You open the door → ✅ Open the door.",
+          "❌ You sit down please → ✅ Sit down, please."
+        ]
       },
       {
-        "text": "Câu mệnh lệnh thường được sử dụng trong các tình huống hàng ngày, nhưng cũng cần lưu ý về vị trí của các từ như 'please' để thể hiện sự lịch sự hoặc giảm nhẹ yêu cầu.",
-        "examples": []
+        "text": "Phủ định: Don't + base verb (không dùng \"no\" hay \"not\" đứng một mình).",
+        "examples": [
+          "❌ Not talk in class → ✅ Don't talk in class.",
+          "❌ No run → ✅ Don't run."
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi sử dụng câu mệnh lệnh do sự khác biệt về cấu trúc câu và sử dụng động từ so với tiếng Việt, vì vậy cần luyện tập và chú ý đến các ví dụ và tình huống cụ thể.",
-        "examples": []
+        "text": "Thêm \"please\" để lịch sự — đứng đầu hoặc cuối câu, ngăn cách bằng dấu phẩy.",
+        "examples": [
+          "✅ Please open the window. / Close the door, please."
+        ]
       },
       {
-        "text": "Câu mệnh lệnh cũng có thể được sử dụng để đưa ra lời khuyên hoặc cảnh báo, và trong những trường hợp này, cần sử dụng các động từ và cụm từ phù hợp để thể hiện mức độ nghiêm trọng hoặc quan trọng.",
-        "examples": []
+        "text": "Let's + base verb để đề xuất cùng làm gì (gồm cả người nói).",
+        "examples": [
+          "✅ Let's go! / Let's take a break. / Let's not be late."
+        ]
       }
     ],
     "in_context_vi": [

@@ -818,19 +818,26 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng 'Could' và 'Would', cần chú ý đến vị trí của chúng trong câu, thường được đặt sau đại từ nhân xưng.",
-        "examples": []
+        "text": "\"Could you...?\" lịch sự hơn \"Can you...?\" — dùng khi nhờ người không quen hoặc người lớn tuổi.",
+        "examples": [
+          "✅ Could you open the door? (lịch sự) vs Can you open the door? (thân mật)"
+        ]
       },
       {
-        "text": "Sự khác biệt về mức độ lịch sự giữa 'Could' và 'Would' là rất quan trọng, 'Could' thường được sử dụng trong trường hợp cần giúp đỡ hoặc chỉ dẫn, trong khi 'Would' thường được sử dụng trong trường hợp đề nghị hoặc hỏi ý kiến.",
-        "examples": []
+        "text": "\"Would you...?\" thường đi trước \"like\", \"mind\", \"prefer\" để đề nghị hoặc hỏi ý kiến.",
+        "examples": [
+          "✅ Would you like some tea? / Would you mind waiting a moment?"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, cấu trúc 'Could' và 'Would' thường được sử dụng trong giao tiếp hàng ngày, đặc biệt là trong môi trường làm việc hoặc giao tiếp chính thức.",
-        "examples": []
+        "text": "Sau \"could/would\" dùng ĐỘNG TỪ NGUYÊN MẪU — không thêm \"to\" hay \"-ing\".",
+        "examples": [
+          "❌ Could you to help me? → ✅ Could you help me?",
+          "❌ Would you minding? → ✅ Would you mind?"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa 'Could' và 'Would', vì vậy cần phải luyện tập và sử dụng chúng một cách chính xác trong câu.",
+        "text": "Phản hồi lịch sự với yêu cầu: \"Of course.\" / \"Certainly.\" / \"I'm afraid I can't right now.\"",
         "examples": []
       }
     ],

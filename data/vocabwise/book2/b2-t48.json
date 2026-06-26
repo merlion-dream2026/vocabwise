@@ -758,7 +758,7 @@
       "question": "Do/Does + Subject + Verb (make/do/take/have) + Noun Phrase?",
       "variant": "Subject + Verb + something + for + Noun Phrase"
     },
-    "rule_vi": "Dùng các động từ make, do, take, have với danh từ để diễn tả hành động hoặc trạng thái thường gặp.",
+    "rule_vi": "Collocations với make, do, take, have là các cụm động từ + danh từ thường gặp, mỗi động từ có phạm vi nghĩa riêng. *Make* dùng cho các danh từ chỉ kết quả, sản phẩm hoặc hành động tạo ra (make a decision, make a mistake). *Do* đi với danh từ chỉ hoạt động, nhiệm vụ chung hoặc công việc không có đối tượng cụ thể (do homework, do the washing). *Take* kết hợp với danh từ chỉ thời gian, phương tiện, cơ hội hoặc hành động lấy (take a break, take a photo, take time). *Have* dùng với danh từ chỉ trải nghiệm, trạng thái hoặc sở hữu (have a look, have an experience, have a problem).",
     "rule_en": "Use make, do, take, have with a noun to form common collocations.",
     "common_error": "❌ She have a habit of jogging.  →  ✅ She has a habit of jogging.",
     "in_context": [
@@ -904,6 +904,41 @@
           "answer": "take"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Make thường đi với danh từ chỉ kết quả hoặc sản phẩm, không dùng với danh từ chỉ công việc chung.",
+        "examples": [
+          "❌ Do a decision → ✅ Make a decision",
+          "❌ Do a mistake → ✅ Make a mistake"
+        ]
+      },
+      {
+        "text": "Do dùng cho các danh từ mô tả công việc, nhiệm vụ hoặc hoạt động chung, không dùng với danh từ chỉ kết quả.",
+        "examples": [
+          "❌ Make homework → ✅ Do homework",
+          "❌ Make the cleaning → ✅ Do the cleaning"
+        ]
+      },
+      {
+        "text": "Take kết hợp với danh từ chỉ thời gian, cơ hội, hoặc hành động lấy; thường không dùng với danh từ chỉ kết quả.",
+        "examples": [
+          "❌ Make a break → ✅ Take a break",
+          "❌ Make time → ✅ Take time"
+        ]
+      },
+      {
+        "text": "Have dùng cho danh từ chỉ trải nghiệm, trạng thái, hoặc sở hữu; không dùng cho các hành động tạo ra.",
+        "examples": [
+          "❌ Make an experience → ✅ Have an experience",
+          "❌ Make a look → ✅ Have a look"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc duy trì hoạt động suốt cả ngày — ngay cả những hành động nhỏ như đi bộ lên cầu thang hoặc đi dạo ngắn sau bữa trưa — có ảnh hưởng đo được tới sức khỏe.",
+      "Tập thể dục thường xuyên — ngay cả ba mươi phút hoạt động vừa phải như đi bộ — tạo ra sự khác biệt lớn cho sức khỏe tim mạch của bạn.",
+      "Sức khỏe thể chất tốt cũng gắn kết chặt chẽ với sức khỏe tinh thần: những người duy trì lối sống cân bằng — có thời gian nghỉ ngơi, giao lưu xã hội và tập thể dục vui vẻ — có mức độ hài lòng cao hơn và tỷ lệ lo âu thấp hơn."
+    ]
   }
 }

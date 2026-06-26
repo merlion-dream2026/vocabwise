@@ -696,7 +696,7 @@
       "negative": "Subject + wish + not + Verb(past simple)",
       "variant": "wish + past perfect (I wish I had studied)"
     },
-    "rule_vi": "Dùng wish + quá khứ đơn để bày tỏ ước muốn không có trong hiện tại.",
+    "rule_vi": "Cấu trúc wish + quá khứ đơn (wish + past simple) được dùng để bày tỏ một ước muốn hiện tại không có thực. Khi muốn mong muốn một tình huống hiện tại khác đi, chúng ta dùng 'wish' theo sau là động từ ở dạng quá khứ đơn (hoặc 'were' cho động từ to be). Câu thường bắt đầu bằng I/We/He/She wish(s) và sau đó là chủ ngữ + động từ ở quá khứ. Cấu trúc này thể hiện sự tiếc nuối hoặc mong muốn thay đổi, nhưng không mang nghĩa điều kiện.",
     "rule_en": "Use wish + past simple to express a wish about the present that is unreal.",
     "common_error": "❌ I wish I have more time → ✅ I wish I had more time",
     "in_context": [
@@ -846,6 +846,39 @@
           "answer": "wish"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Wish luôn đứng trước động từ ở dạng quá khứ đơn; không dùng thì hiện tại.",
+        "examples": [
+          "❌ I wish I have more time → ✅ I wish I had more time"
+        ]
+      },
+      {
+        "text": "Với động từ to be, dùng 'were' cho mọi ngôi để giữ tính trang trọng.",
+        "examples": [
+          "✅ I wish I were taller",
+          "❌ I wish I was taller → ✅ I wish I were taller"
+        ]
+      },
+      {
+        "text": "Wish + quá khứ đơn diễn tả ước muốn hiện tại; để nói ước muốn cho quá khứ, dùng wish + quá khứ hoàn thành.",
+        "examples": [
+          "✅ I wish I had more time (present wish)",
+          "❌ I wish I have had more time → ✅ I wish I had had more time (past wish)"
+        ]
+      },
+      {
+        "text": "Không dùng 'if' sau wish; câu wish tự nó đã biểu thị mong muốn.",
+        "examples": [
+          "❌ I wish if I could travel more → ✅ I wish I could travel more"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tôi ước rằng thế giới phụ thuộc ít hơn vào nhiên liệu hóa thạch, để khí hậu được cải thiện.",
+      "Các nhà khoa học ước rằng các chính phủ đầu tư nhiều hơn vào nghiên cứu năng lượng tái tạo.",
+      "Chúng tôi ước rằng quá trình chuyển đổi sang năng lượng sạch diễn ra nhanh hơn để bảo vệ sức khỏe tinh thần."
+    ]
   }
 }

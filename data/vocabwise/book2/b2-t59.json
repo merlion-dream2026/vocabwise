@@ -812,7 +812,7 @@
       "question": "Is/Are + Subject + compound adjective?",
       "variant": "compound adjective + noun (e.g., fast-growing market)"
     },
-    "rule_vi": "Compound adjectives được dùng để mô tả một danh từ bằng cách ghép hai từ lại với nhau bằng dấu gạch nối.",
+    "rule_vi": "Tính từ ghép là các tính từ được tạo thành từ hai (hoặc nhiều) từ, thường là danh từ, động từ, trạng từ hoặc tính từ, và được nối bằng dấu gạch nối. Chúng dùng để mô tả một danh từ một cách ngắn gọn và thường đứng trước danh từ. Khi tính từ ghép đứng trước danh từ, cần dùng dấu gạch nối để tránh nhầm lẫn; nếu đứng sau danh từ, thường không cần gạch nối. Các tính từ ghép thường xuất hiện trong văn viết trang trọng và trong các cụm danh từ mô tả đặc tính.",
     "rule_en": "Use hyphenated compound adjectives before a noun or after a linking verb to give a concise description.",
     "common_error": "❌ The company is fast growing.  →  ✅ The company is fast-growing.",
     "in_context": [
@@ -962,6 +962,37 @@
           "answer": "low-cost"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi tính từ ghép đứng trước danh từ, phải dùng dấu gạch nối để liên kết các thành phần.",
+        "examples": [
+          "❌ fast growing digital networks → ✅ fast-growing digital networks"
+        ]
+      },
+      {
+        "text": "Nếu tính từ ghép đứng sau danh từ, không cần gạch nối.",
+        "examples": [
+          "The networks are fast growing → The networks are fast-growing"
+        ]
+      },
+      {
+        "text": "Khi thành phần đầu của tính từ ghép kết thúc bằng -ly, không dùng gạch nối.",
+        "examples": [
+          "highly regarded scientist → highly regarded scientist"
+        ]
+      },
+      {
+        "text": "Sử dụng gạch nối để tránh nhầm lẫn giữa hai tính từ riêng biệt và một tính từ ghép.",
+        "examples": [
+          "❌ old fashioned dress → ✅ old-fashioned dress"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các mạng truyền thông kỹ thuật số đang phát triển nhanh của thế giới liên kết các nền văn hoá cách xa nhau.",
+      "Toàn cầu hoá đã tạo ra các thương hiệu nổi tiếng chiếm ưu thế trên các thị trường toàn cầu.",
+      "Chuỗi cung ứng hiện nay là công cụ được sử dụng rộng rãi cho phát triển kinh tế."
+    ]
   }
 }

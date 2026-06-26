@@ -881,20 +881,31 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng đại từ tân ngữ, cần chú ý đến vị trí của nó trong câu, thường là sau động từ. Nếu đặt sai vị trí, câu văn có thể trở nên không rõ ràng hoặc thậm chí là không đúng ngữ pháp.",
-        "examples": []
+        "text": "Bảng đại từ: I→me · you→you · he→him · she→her · it→it · we→us · they→them; dùng đại từ tân ngữ sau động từ hoặc giới từ.",
+        "examples": [
+          "❌ She gave I a gift → ✅ She gave me a gift",
+          "❌ He called she → ✅ He called her"
+        ]
       },
       {
-        "text": "Đại từ tân ngữ có thể được sử dụng trong cả câu nói thông thường và câu viết, tuy nhiên trong văn viết, người ta thường sử dụng đại từ tân ngữ một cách chính xác và phù hợp hơn.",
-        "examples": []
+        "text": "Đại từ tân ngữ đứng sau giới từ (to, for, with, from, about...).",
+        "examples": [
+          "✅ She talked to him. / I bought a gift for her. / Come with us.",
+          "❌ She talked to he → ✅ She talked to him"
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý khi sử dụng đại từ tân ngữ là tránh sử dụng nó một cách lặp lại quá nhiều, vì điều này có thể làm cho câu văn trở nên nhàm chán và không hấp dẫn.",
-        "examples": []
+        "text": "Sau \"between\" luôn dùng đại từ tân ngữ, không dùng chủ ngữ.",
+        "examples": [
+          "❌ between you and I → ✅ between you and me"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi sử dụng đại từ tân ngữ vì trong tiếng Việt, đại từ tân ngữ không được sử dụng một cách rõ ràng như trong tiếng Anh.",
-        "examples": []
+        "text": "Tránh dùng chủ ngữ (I, he, she...) thay cho tân ngữ (me, him, her...) sau động từ — lỗi rất phổ biến.",
+        "examples": [
+          "❌ She loves he → ✅ She loves him",
+          "❌ They invited I → ✅ They invited me"
+        ]
       }
     ],
     "in_context_vi": [

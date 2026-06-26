@@ -684,7 +684,7 @@
     },
     "rule_vi": "Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong tiếng Anh. Số đếm dùng để đếm số lượng, ví dụ: one, two, three, trong khi số thứ tự dùng để chỉ vị trí, thứ tự, ví dụ: first, second, third. Khi sử dụng số thứ tự, chúng ta thường thêm hậu tố -st, -nd, -rd, hoặc -th vào sau số đếm. Ví dụ, số đếm one trở thành số thứ tự first, số đếm two trở thành second.",
     "rule_en": "Cardinal numbers count objects; ordinal numbers show order.",
-    "common_error": "❌ I have **first** books.  →  ✅ I have **five** books.",
+    "common_error": "❌ She finished on the **three** place.  →  ✅ She finished in **third** place.",
     "in_context": [
       "The **first** question asked: what is half of **twenty**?",
       "She showed us that **five** plus **five** and **ten** divided by **one** are both equal to **ten**.",
@@ -830,20 +830,31 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng số thứ tự, cần lưu ý rằng một số số đếm có dạng đặc biệt, như one trở thành first, nhưng five trở thành fifth.",
-        "examples": []
+        "text": "Ba số thứ tự đầu bất quy tắc: 1st (first) · 2nd (second) · 3rd (third); từ 4th trở đi thêm -th.",
+        "examples": [
+          "❌ I am on the three floor → ✅ I am on the third floor",
+          "❌ She finished second place → ✅ She finished in second place"
+        ]
       },
       {
-        "text": "Số thứ tự thường được sử dụng trong các tình huống như điểm danh, xếp hạng, hoặc chỉ vị trí trong một danh sách.",
-        "examples": []
+        "text": "Số thứ tự dùng với \"the\" vì chỉ vị trí duy nhất.",
+        "examples": [
+          "✅ the first chapter · the second question · the fifth floor",
+          "❌ a first chapter (trừ khi nói \"một chương đầu\" theo nghĩa khác)"
+        ]
       },
       {
-        "text": "Số đếm và số thứ tự có thể được sử dụng cùng nhau trong một câu để chỉ số lượng và vị trí, ví dụ: I have five books, and this is the first one.",
-        "examples": []
+        "text": "Số đếm dùng để đếm số lượng; số thứ tự dùng để chỉ thứ tự, vị trí.",
+        "examples": [
+          "✅ I have five books. (số lượng — cardinal)",
+          "✅ This is the fifth book. (thứ tự — ordinal)"
+        ]
       },
       {
-        "text": "Khi viết số thứ tự, cần lưu ý rằng một số số thứ tự có dạng viết tắt, như 1st, 2nd, 3rd, nhưng khi viết đầy đủ, cần sử dụng hậu tố -st, -nd, -rd, hoặc -th.",
-        "examples": []
+        "text": "Các số đặc biệt: 5th (fifth) · 8th (eighth) · 9th (ninth) · 12th (twelfth) · 20th (twentieth).",
+        "examples": [
+          "❌ fiveth → ✅ fifth · ❌ twelveth → ✅ twelfth"
+        ]
       }
     ],
     "in_context_vi": [

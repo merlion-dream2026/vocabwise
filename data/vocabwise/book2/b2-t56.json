@@ -819,7 +819,7 @@
       "positive": "In terms of + Noun, Subject + Verb + ...",
       "variant": "With regard to + Noun, Subject + Verb + ..."
     },
-    "rule_vi": "Dùng các cụm giới từ này để giới thiệu một khía cạnh, quan điểm trong bài viết.",
+    "rule_vi": "In terms of và With regard to là các cụm giới từ dùng làm liên từ trong văn viết để giới thiệu một khía cạnh, quan điểm cụ thể của vấn đề đang bàn. Chúng thường đứng ở đầu câu hoặc mệnh đề và được tách bằng dấu phẩy. Cấu trúc yêu cầu sau cụm là một danh từ hoặc danh từ cụm, không phải một câu hoàn chỉnh. Đây là cách diễn đạt trang trọng, thích hợp cho bài luận, báo cáo hay các văn bản học thuật.",
     "rule_en": "Use these prepositional phrases to introduce a particular aspect or viewpoint in discourse.",
     "common_error": "❌ *In regard to health* → ✅ *With regard to health*",
     "in_context": [
@@ -983,6 +983,38 @@
           "answer": "In terms of"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cụm này thường đặt ở đầu câu hoặc mệnh đề và được ngăn cách bằng dấu phẩy.",
+        "examples": [
+          "❌ In terms of health the problem arises → ✅ In terms of health, the problem arises"
+        ]
+      },
+      {
+        "text": "Dùng trong ngữ cảnh trang trọng, học thuật; trong giao tiếp thông thường nên dùng các cách diễn đạt đơn giản hơn.",
+        "examples": [
+          "With regard to the budget, we need to cut costs. (formal)",
+          "❌ About the budget we need to cut costs → ✅ Regarding the budget, we need to cut costs."
+        ]
+      },
+      {
+        "text": "Sau cụm giới từ phải là danh từ hoặc danh từ cụm; không được nối trực tiếp với một mệnh đề đầy đủ.",
+        "examples": [
+          "❌ With regard to that we should act → ✅ With regard to that issue, we should act"
+        ]
+      },
+      {
+        "text": "Có thể thay thế bằng các cụm tương đương như regarding, as far as … is concerned để tránh lặp lại.",
+        "examples": [
+          "In terms of technology, the goal is clear. → Regarding technology, the goal is clear."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Về mặt sức khỏe, vấn đề nảy sinh khi việc tiêu thụ thụ động — cuộn qua các nguồn tin, xem video liên tục — bắt đầu làm chúng ta mất tập trung vào các mối quan hệ và các hoạt động thực tế.",
+      "Đối với trẻ em và thanh thiếu niên, thách thức còn lớn hơn vì mạng xã hội có thể làm tăng áp lực từ bạn bè và lo âu.",
+      "Về mặt công nghệ, mục tiêu không phải là loại bỏ nó — nó là một phần thiết yếu của cuộc sống hiện đại — mà là sử dụng nó theo những cách thực sự phục vụ sức khỏe của chúng ta cả trực tuyến và ngoại tuyến."
+    ]
   }
 }

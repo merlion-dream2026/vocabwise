@@ -794,7 +794,7 @@
       "negative": "wish + Subject + didn't + base verb",
       "variant": "if only + Subject + Verb (past simple)"
     },
-    "rule_vi": "Dùng wish hoặc if only + quá khứ để diễn tả sự hối tiếc hoặc một tình huống không có thực.",
+    "rule_vi": "Wish / If only + quá khứ được dùng để diễn tả sự hối tiếc về hiện tại hoặc quá khứ, hoặc một tình huống không có thực. Cấu trúc: wish + past simple (were) cho những điều không đúng ở hiện tại; wish + past perfect cho những điều không đúng ở quá khứ. If only hoạt động tương tự, thường đặt ở đầu câu và mang tính cảm xúc mạnh hơn. Khi dùng với động từ to be, dạng “were” được dùng cho mọi ngôi.",
     "rule_en": "Use wish or if only + past simple to express regret or an unreal situation.",
     "common_error": "❌ I wish I didn't study English last year.  →  ✅ I wish I had studied English last year.",
     "in_context": [
@@ -949,6 +949,37 @@
           "answer": "knew"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau wish hoặc if only, động từ “to be” luôn dùng dạng “were” cho mọi chủ ngữ, bất kể số ít hay số nhiều.",
+        "examples": [
+          "❌ I wish I was taller → ✅ I wish I were taller"
+        ]
+      },
+      {
+        "text": "Đối với hối tiếc về quá khứ, dùng cấu trúc wish + had + past participle (hoặc if only + past perfect).",
+        "examples": [
+          "❌ I wish I didn't miss the train → ✅ I wish I had not missed the train"
+        ]
+      },
+      {
+        "text": "If only thường xuất hiện ở đầu câu và nhấn mạnh cảm xúc; nó không thay đổi vị trí của các thành phần câu.",
+        "examples": [
+          "✅ If only I had studied harder, I would have passed the exam."
+        ]
+      },
+      {
+        "text": "Không dùng wish để nói về tương lai; thay vào đó dùng hope hoặc would like.",
+        "examples": [
+          "❌ I wish it will rain tomorrow → ✅ I hope it will rain tomorrow"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu chỉ có một chính sách nhập cư hào phóng có thể biến đổi cảnh quan dân số và kinh tế của một quốc gia, nhiều người mới đến sẽ cảm thấy được chào đón.",
+      "Tôi ước rằng sự phân biệt đối xử chỉ bị giới hạn ở sự loại trừ xã hội tinh vi chứ không phải thù địch công khai.",
+      "Nếu chỉ có việc điều hướng giữa hai nền văn hoá tạo ra sự đồng cảm, linh hoạt và hiểu biết sâu sắc hơn về ý nghĩa của con người."
+    ]
   }
 }

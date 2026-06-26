@@ -886,20 +886,28 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm quan trọng cần lưu ý là 'in' thường được sử dụng với các không gian lớn, như thành phố, quốc gia, trong khi 'at' được sử dụng với các địa điểm cụ thể, như nhà, trường học.",
-        "examples": []
+        "text": "in = bên trong không gian bao quanh; on = trên bề mặt; at = tại điểm/địa điểm cụ thể.",
+        "examples": [
+          "✅ The cat is in the box. / The book is on the table. / She is at the door."
+        ]
       },
       {
-        "text": "Khi sử dụng 'on', cần lưu ý rằng nó thường được sử dụng với các bề mặt, như bàn, tường, nhưng cũng có thể được sử dụng với các ngày trong tuần, như 'on Monday'.",
-        "examples": []
+        "text": "Phân biệt \"at\" và \"in\" khi nói về địa điểm: \"at\" cho điểm cụ thể (điểm nhìn từ ngoài), \"in\" cho bên trong không gian.",
+        "examples": [
+          "✅ I'm at the station. (đang ở ga, điểm hẹn) / I'm in the station. (ở bên trong nhà ga)"
+        ]
       },
       {
-        "text": "Sự khác biệt giữa 'next to' và 'opposite' là rất quan trọng, vì 'next to' chỉ vị trí bên cạnh, trong khi 'opposite' chỉ vị trí đối diện.",
-        "examples": []
+        "text": "next to = ngay bên cạnh; opposite = đối diện; between ... and ... = ở giữa hai bên.",
+        "examples": [
+          "✅ The pharmacy is next to the bank. / The cinema is opposite the park."
+        ]
       },
       {
-        "text": "Một lỗi phổ biến của người học tiếng Việt là sử dụng 'in' và 'on' không chính xác, vì vậy cần phải luyện tập và chú ý đến cách sử dụng của từng giới từ.",
-        "examples": []
+        "text": "\"in\" dùng cho thành phố, quốc gia; \"at\" dùng cho số nhà, địa chỉ cụ thể.",
+        "examples": [
+          "✅ She lives in London. / Meet me at 25 Park Street."
+        ]
       }
     ],
     "in_context_vi": [

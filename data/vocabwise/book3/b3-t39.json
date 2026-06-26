@@ -729,7 +729,7 @@
     "form": {
       "positive": "<Subject> + present‑participle clause, <main clause>"
     },
-    "rule_vi": "Dùng mệnh đề phân từ hiện tại (‑ing) để diễn tả sự tương phản hoặc nhượng bộ, thường đứng trước hoặc sau câu chính.",
+    "rule_vi": "Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh đề trạng từ để diễn tả sự tương phản hoặc nhượng bộ giữa hai tình huống. Khi muốn nhấn mạnh rằng một hành động xảy ra đồng thời hoặc trái ngược với hành động chính, chúng ta đặt mệnh đề phân từ trước hoặc sau câu chính, thường ngăn cách bằng dấu phẩy nếu đứng đầu câu. Mệnh đề này chia sẻ cùng chủ ngữ với câu chính; nếu không chia sẻ, cần dùng cấu trúc khác (ví dụ: although + clause). Cấu trúc cơ bản: V‑ing + (bổ ngữ/đối tượng), …",
     "rule_en": "Use present‑participle clauses to express contrast or concession, placed before or after the main clause.",
     "common_error": "❌ *Because* the policy was unpopular, the government changed it → ✅ *Contrasting* the policy's popularity, the government changed it",
     "in_context": [
@@ -884,6 +884,39 @@
           "answer": "Conceding"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí của mệnh đề phân từ: nếu đặt ở đầu câu, phải theo sau dấu phẩy; nếu đặt ở cuối câu, thường không cần dấu phẩy.",
+        "examples": [
+          "❌ Having finished the report the manager approved it → ✅ Having finished the report, the manager approved it."
+        ]
+      },
+      {
+        "text": "Mệnh đề phân từ thường xuất hiện trong văn viết trang trọng; trong giao tiếp, người học thường thay thế bằng although / even though.",
+        "examples": [
+          "✅ Conceding that the plan was risky, the team proceeded.",
+          "❌ Conceding that the plan was risky the team proceeded (missing comma)."
+        ]
+      },
+      {
+        "text": "Chủ ngữ của mệnh đề phân từ phải đồng nhất với chủ ngữ của câu chính; nếu không, câu sẽ gây nhầm lẫn.",
+        "examples": [
+          "❌ Walking down the street, the lights were bright → ✅ Walking down the street, I saw the lights were bright."
+        ]
+      },
+      {
+        "text": "Đối lập/nhượng bộ thường đi kèm với các động từ như admitting, conceding, acknowledging; chúng biểu thị việc chấp nhận một thực tế dù không mong muốn.",
+        "examples": [
+          "✅ Admitting his mistake, he apologized.",
+          "✅ Acknowledging the difficulty, they continued the project."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tuy nhiên, trong thời hiện đại, sự trỗi dậy của chủ nghĩa thế tục đã làm thay đổi căn bản mối quan hệ giữa tôn giáo và đời sống công cộng, đối lập với vị thế công khai trước đây của nó.",
+      "Đồng thời, những biến động nhân khẩu đã khiến đa nguyên trở thành thực tế xã hội ngày càng cấp bách, thừa nhận rằng phải tồn tại đồng thời nhiều hệ thống tín ngưỡng.",
+      "Thách thức của các xã hội hiện đại là điều hướng đa nguyên thế tục mà không xóa bỏ bản sắc tôn giáo hoặc ưu ái bất kỳ truyền thống nào trong các tổ chức công, thừa nhận rằng sự trung lập tuyệt đối là không thể đạt được."
+    ]
   }
 }

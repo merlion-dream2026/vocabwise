@@ -801,7 +801,7 @@
     "form": {
       "positive": "Subject + asked if + clause / Subject + wanted to know what + clause"
     },
-    "rule_vi": "Dùng để chuyển câu hỏi trực tiếp sang câu gián tiếp, thường dùng 'asked if' cho câu hỏi Yes/No và 'wanted to know what' cho câu hỏi Wh‑.",
+    "rule_vi": "Câu hỏi gián tiếp là cách chuyển câu hỏi trực tiếp sang dạng báo cáo. Dùng 'asked if' (hoặc 'asked whether') cho câu hỏi Yes/No, và 'wanted to know what/when/how...' cho câu hỏi Wh‑. Khi chuyển, mệnh đề phụ bắt đầu bằng if, whether, what, who, when, where, why, how và không dùng dấu hỏi; động từ trong mệnh đề phụ thường giữ nguyên thời hoặc được chuyển về thì quá khứ nếu động từ báo cáo ở quá khứ. Cấu trúc chung: [subject] + [verb of reporting] + if/whether/wh‑word + [subject] + [verb].",
     "rule_en": "Used to turn direct questions into indirect ones, using 'asked if' for yes/no questions and 'wanted to know what' for wh‑questions.",
     "common_error": "❌ She asked what is the deadline?  →  ✅ She asked what the deadline was.",
     "in_context": [
@@ -951,6 +951,37 @@
           "answer": "who"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Câu hỏi Yes/No gián tiếp dùng 'if' (hoặc 'whether') sau động từ báo cáo như ask, wonder, want to know.",
+        "examples": [
+          "❌ He asked, 'Can you work from home?' → ✅ He asked if I could work from home."
+        ]
+      },
+      {
+        "text": "Câu hỏi Wh‑gián tiếp giữ nguyên từ hỏi và thay đổi trật tự thành câu khẳng định, không dùng đảo ngữ.",
+        "examples": [
+          "❌ She asked, 'What time does the meeting start?' → ✅ She asked what time the meeting started."
+        ]
+      },
+      {
+        "text": "Khi động từ báo cáo ở quá khứ, thường cần chuyển thời của động từ trong mệnh đề phụ về quá khứ (backshifting), trừ khi thông tin vẫn đúng.",
+        "examples": [
+          "❌ He asked if the policy is flexible. → ✅ He asked if the policy was flexible."
+        ]
+      },
+      {
+        "text": "Câu gián tiếp không có dấu hỏi và không cần dấu phẩy trước 'if'/'what' khi là phần của câu chính.",
+        "examples": [
+          "❌ He asked, 'Do you like remote work?' → ✅ He asked if I liked remote work."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Giám đốc yêu cầu biết liệu chính sách làm việc từ xa có thể được kéo dài thêm một năm không, ngay cả khi các nhóm đang phân tán ở các địa điểm khác nhau.",
+      "Nhân viên muốn biết lịch kiểm tra hiệu suất mới sẽ như thế nào, vì phản hồi thường xuyên là điều thiết yếu.",
+      "Giám đốc nhân sự hỏi công ty có nên cung cấp giờ làm linh hoạt hơn để giảm kiệt sức không, vì khối lượng công việc nặng là một vấn đề nghiêm trọng."
+    ]
   }
 }

@@ -749,7 +749,7 @@
       "positive": "Clause1 + [Discourse Marker] + Clause2",
       "variant": "Other markers such as nevertheless, yet, still"
     },
-    "rule_vi": "Các liên từ này dùng để nối hai mệnh đề, thể hiện quan hệ tương phản, bổ sung hoặc so sánh.",
+    "rule_vi": "Liên từ văn viết (discourse markers) là các từ hoặc cụm từ dùng để nối hai mệnh đề, câu hoặc đoạn, chỉ ra mối quan hệ logic như tương phản, bổ sung hoặc so sánh. Chúng thường đứng ở đầu câu hoặc sau dấu chấm, dấu chấm phẩy, dấu phẩy, và luôn được tách bằng dấu câu (dấu phẩy hoặc dấu chấm phẩy). Các từ như however, on the other hand biểu thị quan hệ đối lập; meanwhile, moreover, furthermore biểu thị quan hệ bổ sung, tăng cường. Khi dùng, cần chú ý độ trang trọng và tránh lạm dụng trong văn nói thông thường.",
     "rule_en": "Use these discourse markers to link two clauses, showing contrast, addition, or comparison.",
     "common_error": "❌ *The project was successful however we missed the deadline.* → ✅ *The project was successful; however, we missed the deadline.*",
     "in_context": [
@@ -905,6 +905,37 @@
           "answer": "additionally"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí chuẩn: liên từ văn viết thường đặt ở đầu mệnh đề mới, sau dấu chấm hoặc dấu chấm phẩy, và theo sau là dấu phẩy.",
+        "examples": [
+          "❌ The project was delayed however we met the deadline. → ✅ The project was delayed; however, we met the deadline."
+        ]
+      },
+      {
+        "text": "Mức độ trang trọng: however và on the other hand dùng được trong cả văn nói và văn viết, nhưng moreover và furthermore thường xuất hiện trong văn viết trang trọng, đặc biệt là các bài luận học thuật.",
+        "examples": [
+          "✅ Moreover, the results support the hypothesis."
+        ]
+      },
+      {
+        "text": "Dấu câu khi dùng giữa các mệnh đề: nếu liên từ đứng giữa hai mệnh đề độc lập, cần dùng dấu chấm phẩy hoặc dấu chấm; nếu đứng ở đầu câu, chỉ cần dấu phẩy sau nó.",
+        "examples": [
+          "❌ The data are inconclusive however further research is needed. → ✅ The data are inconclusive; however, further research is needed."
+        ]
+      },
+      {
+        "text": "Nhầm lẫn thường gặp: however không thể thay thế trực tiếp cho but trong cùng một câu nếu không có dấu câu, vì hai từ có chức năng ngữ pháp khác nhau.",
+        "examples": [
+          "❌ I wanted to go but it was raining. → ✅ I wanted to go; however, it was raining."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Công nghệ kỹ thuật số và toàn cầu hoá đã mở ra những khả năng mà không thế hệ nào trước có thể tưởng tượng; tuy nhiên, chúng cũng tạo ra áp lực mạnh mẽ để đạt thành tích.",
+      "Mặt khác, cùng một lực lượng tạo ra áp lực mạnh mẽ để thực hiện, so sánh và bắt kịp — thường với cái giá nghiêm trọng đối với sức khỏe tâm thần.",
+      "Giới trẻ thể hiện tham vọng và tiếng nói đáng chú ý; hơn nữa, họ tham gia vào đời sống công dân, sử dụng các nền tảng kỹ thuật số để vận động cho những nguyên nhân mà họ tin tưởng."
+    ]
   }
 }

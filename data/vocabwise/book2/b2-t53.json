@@ -814,7 +814,7 @@
       "question": "Will + subject + be + past participle?",
       "variant": "Subject + is going to be + past participle"
     },
-    "rule_vi": "Dùng để nói về một hành động sẽ xảy ra trong tương lai ở dạng bị động. Thường dùng khi người thực hiện hành động không quan trọng hoặc chưa biết.",
+    "rule_vi": "Bị động thì tương lai dùng để diễn tả một hành động sẽ xảy ra trong tương lai nhưng trọng tâm là đối tượng chịu hành động, không nhấn mạnh người thực hiện. Cấu trúc: will be + V3 (past participle) hoặc is/are going to be + V3. Dùng khi người thực hiện chưa biết, không quan trọng, hoặc muốn nhấn mạnh kết quả. Thường xuất hiện trong văn viết trang trọng, báo cáo, mô tả kế hoạch.",
     "rule_en": "Used to describe an action that will happen to the subject in the future.",
     "common_error": "❌ The project will be finishing next month. → ✅ The project will be finished next month.",
     "in_context": [
@@ -969,6 +969,39 @@
           "answer": "will be applied"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Nếu muốn nêu người thực hiện, cụm 'by …' đặt sau động từ bị động; thường có thể bỏ qua khi người thực hiện không quan trọng.",
+        "examples": [
+          "❌ AI will be used by doctors to diagnose → ✅ AI will be used to diagnose"
+        ]
+      },
+      {
+        "text": "Câu bị động tương lai mang tính trang trọng hơn; trong giao tiếp thông thường người nói thường dùng câu chủ động.",
+        "examples": [
+          "✅ AI will be used to diagnose illness",
+          "❌ AI will use to diagnose illness"
+        ]
+      },
+      {
+        "text": "Không nhầm lẫn giữa hiện tại đơn bị động và tương lai bị động; hiện tại đơn không diễn tả thời gian tương lai.",
+        "examples": [
+          "❌ AI is used to diagnose illness → ✅ AI will be used to diagnose illness"
+        ]
+      },
+      {
+        "text": "'Will be' và 'is going to be' đều chỉ tương lai, nhưng 'going to be' thường nhấn mạnh kế hoạch hoặc dự định đã được quyết định trước.",
+        "examples": [
+          "✅ AI is going to be used to process data",
+          "✅ AI will be used to process data"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "AI sẽ được sử dụng để chẩn đoán bệnh từ các hình ảnh y tế.",
+      "Một số công việc lặp đi lặp lại sẽ được máy móc thay thế.",
+      "Trong khoa học khí hậu, AI sẽ được sử dụng để xử lý các bộ dữ liệu khổng lồ."
+    ]
   }
 }

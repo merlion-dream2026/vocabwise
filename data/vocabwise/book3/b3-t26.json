@@ -670,7 +670,7 @@
       "negative": "It + be + not + adjective + that + Subject + base verb",
       "variant": "It is + adjective + for + noun phrase + to + base verb"
     },
-    "rule_vi": "Dùng thể giả định khi một mệnh đề phụ thuộc diễn tả yêu cầu, khuyến nghị, hoặc tính chất bắt buộc; động từ ở dạng nguyên mẫu không 'to'.",
+    "rule_vi": "Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đề phụ thuộc để diễn tả yêu cầu, khuyến nghị, tính chất bắt buộc hoặc cảm xúc như bất ngờ, nghi ngờ. Nó xuất hiện sau các danh từ, tính từ, động từ hoặc cấu trúc như it is essential that, the charter requires that, it was surprising that. Cấu trúc cơ bản là that + chủ ngữ + V nguyên mẫu không to (be, have, do, …). Đối với mọi ngôi và số, động từ không thay đổi hình thức, kể cả sau các động từ chỉ thời gian quá khứ.",
     "rule_en": "Use the subjunctive after expressions of necessity, importance, or recommendation, with the base form of the verb.",
     "common_error": "❌ It is essential that they are consulted → ✅ It is essential that they be consulted",
     "in_context": [
@@ -824,6 +824,37 @@
           "answer": "participate"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thức giả định chỉ xuất hiện trong mệnh đề that‑clause sau các từ hoặc cụm từ yêu cầu, khuyến nghị, hoặc cảm xúc; không dùng trong câu khẳng định thông thường.",
+        "examples": [
+          "❌ It is essential that citizens are consulted → ✅ It is essential that citizens be consulted"
+        ]
+      },
+      {
+        "text": "Trong giao tiếp không trang trọng, người nói thường thay thế bằng should, must hoặc cấu trúc to‑infinitive, nhưng trong văn viết chính thức nên dùng subjunctive.",
+        "examples": [
+          "❌ The charter requires that every member should participate → ✅ The charter requires that every member participate"
+        ]
+      },
+      {
+        "text": "Thức giả định không thay đổi theo thời gian; ngay cả khi mệnh đề phụ thuộc được giới thiệu bởi động từ ở quá khứ, dạng nguyên mẫu vẫn được giữ.",
+        "examples": [
+          "❌ It was essential that they were consulted → ✅ It was essential that they be consulted"
+        ]
+      },
+      {
+        "text": "Một số động từ cho phép cả subjunctive và to‑infinitive mà nghĩa gần như tương đương; subjunctive mang tính trang trọng hơn.",
+        "examples": [
+          "It is important that he arrive on time → It is important for him to arrive on time"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khi soạn thảo các cải cách bầu cử mới, việc tham vấn công dân là điều thiết yếu.",
+      "Hiến chương yêu cầu mỗi thành viên tham gia vào việc đánh giá hàng năm các thực tiễn dân chủ.",
+      "Thật bất ngờ khi người phát ngôn im lặng mặc dù có bằng chứng gian lận ngày càng tăng."
+    ]
   }
 }

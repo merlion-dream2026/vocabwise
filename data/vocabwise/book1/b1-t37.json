@@ -885,20 +885,30 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng dạng so sánh hơn và so sánh nhất, cần lưu ý đến vị trí của chúng trong câu, thường được đặt sau tính từ hoặc danh từ được so sánh.",
-        "examples": []
+        "text": "So sánh hơn (2 đối tượng): adj-er / more + adj + than; so sánh nhất (3+ đối tượng): the + adj-est / the most + adj.",
+        "examples": [
+          "✅ My bag is heavier than yours. (2 túi)",
+          "✅ This is the heaviest bag in the shop. (nhiều túi)"
+        ]
       },
       {
-        "text": "Một số tính từ có dạng so sánh đặc biệt, không theo quy tắc chung, ví dụ như 'good' trở thành 'better' và 'best'.",
-        "examples": []
+        "text": "Tính từ bất quy tắc cần nhớ: good→better→best · bad→worse→worst · far→farther→farthest.",
+        "examples": [
+          "❌ more good → ✅ better · ❌ most bad → ✅ worst"
+        ]
       },
       {
-        "text": "Dạng so sánh hơn và so sánh nhất có thể được sử dụng trong cả câu viết và câu nói, nhưng trong tiếng Anh thông dụng, người ta thường sử dụng dạng so sánh hơn để so sánh hai đối tượng gần gũi hơn.",
-        "examples": []
+        "text": "\"as + adj + as\" dùng để so sánh bằng nhau; \"not as + adj + as\" dùng để so sánh kém hơn.",
+        "examples": [
+          "✅ She is as tall as her brother.",
+          "✅ English is not as difficult as many people think."
+        ]
       },
       {
-        "text": "Khi dịch từ tiếng Việt sang tiếng Anh, cần chú ý đến sự khác biệt về cấu trúc và từ vựng, vì tiếng Việt thường sử dụng từ 'hơn' và 'nhất' để so sánh, trong khi tiếng Anh sử dụng dạng so sánh hơn và so sánh nhất",
-        "examples": []
+        "text": "Không dùng \"more\" và \"-er\" hoặc \"most\" và \"-est\" cùng lúc.",
+        "examples": [
+          "❌ more faster → ✅ faster · ❌ most tallest → ✅ tallest"
+        ]
       }
     ],
     "in_context_vi": [

@@ -818,20 +818,29 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng câu hỏi Wh- ở thì quá khứ, cần lưu ý về vị trí của động từ did trong câu, vì nó thường được đặt ngay sau từ Wh-.",
-        "examples": []
+        "text": "Cấu trúc: Wh-word + DID + chủ ngữ + ĐỘNG TỪ NGUYÊN MẪU (không chia).",
+        "examples": [
+          "❌ What you did yesterday? → ✅ What did you do yesterday?",
+          "❌ Where she went? → ✅ Where did she go?"
+        ]
       },
       {
-        "text": "Câu hỏi Wh- ở thì quá khứ thường được sử dụng trong các tình huống thông thường, nhưng trong tiếng Anh, người ta có thể sử dụng cấu trúc câu hỏi phức tạp hơn.",
-        "examples": []
+        "text": "Khi Wh-word LÀ CHỦ NGỮ (who/what), không cần đảo \"did\" — dùng V-ed trực tiếp.",
+        "examples": [
+          "✅ Who called you? / What happened? (không cần \"did\")"
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý là câu hỏi Wh- ở thì quá khứ không được sử dụng để hỏi về hành động đang diễn ra hoặc sẽ diễn ra trong tương lai.",
-        "examples": []
+        "text": "\"When, where, why, how\" → luôn cần \"did\" và đảo chủ ngữ.",
+        "examples": [
+          "✅ When did they arrive? / Why did she leave? / How did you know?"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường nhầm lẫn giữa câu hỏi Wh- ở thì quá khứ và câu hỏi Wh- ở thì hiện tại, vì vậy cần phải luyện tập và chú ý đến thời gian của hành động trong câu hỏi.",
-        "examples": []
+        "text": "Phân biệt Yes/No question vs Wh- question trong quá khứ:",
+        "examples": [
+          "✅ Did you eat? (Yes/No) vs ✅ What did you eat? (Wh-)"
+        ]
       }
     ],
     "in_context_vi": [

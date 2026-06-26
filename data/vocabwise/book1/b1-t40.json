@@ -884,20 +884,32 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm quan trọng cần lưu ý là sự khác biệt giữa 'in', 'on', và 'at' không chỉ dựa trên thời gian, mà còn dựa trên ngữ cảnh và cách sử dụng trong câu.",
-        "examples": []
+        "text": "Quy tắc tổng quát: at (thời điểm nhỏ nhất/cụ thể) → on (ngày) → in (khoảng thời gian dài).",
+        "examples": [
+          "✅ at 9am · at noon · at midnight",
+          "✅ on Monday · on 5 June · on New Year's Day",
+          "✅ in July · in 2024 · in summer · in the morning"
+        ]
       },
       {
-        "text": "Khi sử dụng 'in' để chỉ khoảng thời gian dài, cần lưu ý rằng nó thường được sử dụng với các từ như 'the future', 'the past', hoặc 'the summer'.",
-        "examples": []
+        "text": "Ngoại lệ quan trọng: không dùng at/in/on trước \"this, last, next, every\".",
+        "examples": [
+          "❌ on last Monday → ✅ last Monday",
+          "❌ in next week → ✅ next week"
+        ]
       },
       {
-        "text": "Sự khác biệt giữa 'on' và 'at' cũng rất quan trọng, vì 'on' thường được sử dụng để chỉ ngày hoặc ngày trong tuần, trong khi 'at' được sử dụng để chỉ thời điểm cụ thể.",
-        "examples": []
+        "text": "\"In the morning/afternoon/evening\" nhưng \"at night\" (không dùng \"in the night\").",
+        "examples": [
+          "✅ I study in the morning. / She works at night.",
+          "❌ I study at the morning → ✅ in the morning"
+        ]
       },
       {
-        "text": "Một lỗi phổ biến của người học tiếng Anh là sử dụng 'in' thay cho 'on' hoặc 'at', vì vậy cần phải chú ý đến ngữ cảnh và cách sử dụng trong câu.",
-        "examples": []
+        "text": "\"At the weekend\" (British) vs \"on the weekend\" (American) — cả hai đều được chấp nhận.",
+        "examples": [
+          "✅ What do you do at the weekend? / What do you do on weekends?"
+        ]
       }
     ],
     "in_context_vi": [

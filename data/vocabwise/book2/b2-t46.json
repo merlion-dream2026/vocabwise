@@ -730,7 +730,7 @@
     "form": {
       "positive": "If + Subject + had + past participle, Object + would have been + past participle"
     },
-    "rule_vi": "Dùng để nói về một tình huống không có thực trong quá khứ, trong đó kết quả cũng ở dạng bị động.",
+    "rule_vi": "Câu điều kiện loại 3 kết hợp bị động diễn tả một tình huống không có thực trong quá khứ, trong đó kết quả cũng được thể hiện ở dạng bị động. Cấu trúc: If + chủ ngữ + had + quá khứ phân từ (thì bị động), chủ ngữ + would have + been + quá khứ phân từ. Mệnh đề if dùng thì quá khứ hoàn thành ở thể bị động, còn mệnh đề chính dùng would have been + quá khứ phân từ để nhấn mạnh hành động/ trạng thái đã xảy ra trong quá khứ. Dùng khi muốn nhấn mạnh rằng một hành động trong quá khứ (nếu có) sẽ đã dẫn tới một hậu quả bị động, nhưng thực tế không xảy ra.",
     "rule_en": "Used to talk about unreal past situations where the result is expressed in the passive voice.",
     "common_error": "❌ If the crime was committed, the offender would have been sentenced. → ✅ If the crime had been committed, the offender would have been sentenced.",
     "in_context": [
@@ -894,6 +894,38 @@
           "answer": "had been changed"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong mệnh đề chính phải có cấu trúc would have been + past participle; không được bỏ qua \"been\".",
+        "examples": [
+          "❌ If the penalty had been harsher, the offender would be deterred. → ✅ If the penalty had been harsher, the offender would have been deterred."
+        ]
+      },
+      {
+        "text": "Mệnh đề if có thể ở dạng chủ động hoặc bị động; dạng bị động được dùng khi hành động của chủ thể không quan trọng hoặc muốn nhấn mạnh đối tượng chịu tác động.",
+        "examples": [
+          "If the court had imposed a harsher penalty, the offender would have been deterred. (active)",
+          "If a harsher penalty had been imposed, the offender would have been deterred. (passive)"
+        ]
+      },
+      {
+        "text": "Câu điều kiện loại 3 kết hợp bị động thường xuất hiện trong ngữ cảnh trang trọng như báo cáo pháp lý, bài luận học thuật.",
+        "examples": [
+          "If the evidence had been examined thoroughly, the verdict would have been different."
+        ]
+      },
+      {
+        "text": "Lỗi phổ biến là dùng quá khứ đơn thay cho quá khứ hoàn thành trong mệnh đề if, gây sai thời gian.",
+        "examples": [
+          "❌ If a harsher penalty was imposed, the offender would have been deterred. → ✅ If a harsher penalty had been imposed, the offender would have been deterred."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu hình phạt nặng hơn đã được áp dụng, người phạm tội đã bị răn đỡ.",
+      "Nếu công việc cộng đồng đã được yêu cầu, người phạm tội đã được trao cơ hội để cải tạo.",
+      "Nếu việc ra tù sớm đã được chấp thuận, người phạm tội đã được giám sát."
+    ]
   }
 }

@@ -724,7 +724,7 @@
       "negative": "Subject + has/have not been + past participle (by Agent)",
       "question": "Has/Have + Subject + been + past participle (by Agent)?"
     },
-    "rule_vi": "Dùng để nói về một hành động đã được thực hiện trong quá khứ và có ảnh hưởng tới hiện tại. Thường xuất hiện trong các văn bản học thuật và báo cáo.",
+    "rule_vi": "Bị động thì hiện tại hoàn thành được dùng để diễn tả một hành động đã được thực hiện trong quá khứ và có kết quả hoặc ảnh hưởng tới thời điểm hiện tại. Cấu trúc: have/has + been + past participle (động từ ở dạng quá khứ phân từ). Chủ ngữ nhận hành động, thường là người hoặc vật bị ảnh hưởng; tác nhân (agent) nếu cần có thể được giới thiệu bằng by. Thường xuất hiện trong văn viết trang trọng, báo cáo và nghiên cứu.",
     "rule_en": "We use the present perfect passive to describe an action that was done in the past and is relevant now.",
     "common_error": "❌ The forest has destroyed by fire.  →  ✅ The forest has been destroyed by fire.",
     "in_context": [
@@ -876,6 +876,37 @@
           "answer": "has been"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cụm giới thiệu tác nhân bằng \"by\" luôn đứng sau dạng quá khứ phân từ và chỉ dùng khi muốn nhấn mạnh người thực hiện hành động.",
+        "examples": [
+          "❌ The forest was cut by → ✅ The forest was cut down by loggers."
+        ]
+      },
+      {
+        "text": "Động từ \"have/has\" phải phù hợp với chủ ngữ: số ít dùng \"has\", số nhiều dùng \"have\".",
+        "examples": [
+          "❌ The report have been published → ✅ The report has been published."
+        ]
+      },
+      {
+        "text": "Thì bị động hiện tại hoàn thành nhấn mạnh kết quả, không cần nêu người thực hiện; nếu muốn nhấn mạnh người thực hiện, dùng \"by\".",
+        "examples": [
+          "❌ Scientists have discovered a new species → ✅ A new species has been discovered."
+        ]
+      },
+      {
+        "text": "Không được bỏ qua \"been\"; nếu thiếu sẽ tạo thành thì hiện tại hoàn thành chủ động hoặc dạng sai.",
+        "examples": [
+          "❌ The habitat has threatened → ✅ The habitat has been threatened."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Đa dạng sinh học đã bị đe dọa bởi các hoạt động của con người.",
+      "Các loài xâm hại đã được đưa vào nhiều hệ sinh thái.",
+      "Nỗ lực bảo tồn đã được tăng lên trên toàn thế giới."
+    ]
   }
 }

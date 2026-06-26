@@ -733,8 +733,8 @@
     "level": "A2",
     "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
     "form": {
-      "positive": "Yes, Subject + auxiliary verb + main verb (or be)",
-      "negative": "No, Subject + auxiliary verb + not + main verb (or be)",
+      "positive": "Yes, Subject + auxiliary verb.",
+      "negative": "No, Subject + auxiliary verb + not.",
       "question": "Auxiliary verb + Subject + ... ?",
       "variant": "Yes, … / No, …"
     },
@@ -878,26 +878,36 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng câu trả lời ngắn, cần lưu ý đến vị trí của đại từ và động từ, vì nó có thể thay đổi ý nghĩa của câu.",
-        "examples": []
+        "text": "Câu trả lời ngắn = Yes/No + đại từ + AUXILIARY — KHÔNG lặp lại động từ chính hay tân ngữ.",
+        "examples": [
+          "❌ Yes, I do eat rice → ✅ Yes, I do. / ❌ No, she does not like → ✅ No, she doesn't."
+        ]
       },
       {
-        "text": "Câu trả lời ngắn thường được sử dụng trong các tình huống thông thường, như khi gặp gỡ người mới hoặc khi tham gia vào các cuộc trò chuyện hàng ngày.",
-        "examples": []
+        "text": "Khớp trợ động từ trong câu hỏi với câu trả lời.",
+        "examples": [
+          "\"Are you...?\" → ✅ Yes, I am. / No, I'm not.",
+          "\"Did she...?\" → ✅ Yes, she did. / No, she didn't.",
+          "\"Can he...?\" → ✅ Yes, he can. / No, he can't."
+        ]
       },
       {
-        "text": "Cần phân biệt giữa 'Yes, I do' và 'Yes, I can', vì hai câu này có ý nghĩa khác nhau. 'Yes, I do' thường được sử dụng để trả lời các câu hỏi về thói quen hoặc hành động, trong khi 'Yes, I can' thường được sử dụng để trả lời các câu hỏi về khả năng hoặc năng lực.",
-        "examples": []
+        "text": "Không được trả lời \"Yes, I am not\" hay \"No, I am\" — đây là mâu thuẫn.",
+        "examples": [
+          "❌ Are you happy? — Yes, I am not. → ✅ No, I'm not."
+        ]
       },
       {
-        "text": "Khi sử dụng câu trả lời ngắn, cũng cần lưu ý đến mức độ trang trọng của tình huống, vì trong một số trường hợp, câu trả lời ngắn có thể được coi là không trang trọng hoặc thiếu lịch sự.",
-        "examples": []
+        "text": "Trong giao tiếp tự nhiên, có thể thêm thông tin ngắn sau câu trả lời.",
+        "examples": [
+          "✅ Yes, I do — every day! / No, she doesn't — she prefers tea."
+        ]
       }
     ],
     "in_context_vi": [
-      "Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói 'Xin chào' hoặc 'Chào'. Nếu họ hỏi bạn 'Bạn có thể nói tiếng Anh không?', bạn có thể trả lời 'Vâng, tôi có thể'.",
-      "Điều quan trọng là phải lịch sự và mỉm cười khi gặp gỡ người mới. Nếu họ hỏi bạn 'Bạn có nghĩ rằng điều này quan trọng không?', bạn có thể trả lời 'Vâng, tôi nghĩ vậy'.",
-      "Khi bạn ra về, bạn nói 'Tạm biệt' hoặc 'Bye'. Nếu họ hỏi bạn 'Bạn có nói goodbye khi bạn rời đi không?', bạn có thể trả lời 'Vâng, tôi có'."
+      "Khi bạn gặp ai đó lần đầu tiên, bạn có thể nói xin chào không? Có, tôi có thể.",
+      "Việc lịch sự có quan trọng không? Có, quan trọng lắm.",
+      "Bạn có nói lời tạm biệt khi rời đi không? Có, tôi có."
     ]
   }
 }

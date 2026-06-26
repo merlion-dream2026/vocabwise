@@ -880,20 +880,30 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm thường gây nhầm lẫn là sử dụng 'will' và 'going to' trong câu hỏi và câu trả lời. Trong câu hỏi, 'will' thường được sử dụng để hỏi về dự đoán, trong khi 'going to' được sử dụng để hỏi về kế hoạch.",
-        "examples": []
+        "text": "\"Will\" = quyết định ngay lúc nói (spontaneous) hoặc dự đoán chung; \"Going to\" = kế hoạch đã định sẵn.",
+        "examples": [
+          "✅ The phone is ringing — I'll get it! (quyết định ngay lúc đó → will)",
+          "✅ I'm going to visit Hanoi next month. (đã lên kế hoạch → going to)"
+        ]
       },
       {
-        "text": "Vị trí của 'will' và 'going to' trong câu thường khác nhau. 'Will' thường được đặt sau chủ ngữ, trong khi 'going to' được đặt sau chủ ngữ và trước động từ chính.",
-        "examples": []
+        "text": "Dùng \"will\" khi dự đoán không có bằng chứng; \"going to\" khi có bằng chứng ngay trước mắt.",
+        "examples": [
+          "✅ I think it will rain tomorrow. (dự đoán chung)",
+          "✅ Look at those clouds — it's going to rain! (có bằng chứng nhìn thấy)"
+        ]
       },
       {
-        "text": "Sự khác biệt về thể thức trang trọng và không trang trọng cũng cần được lưu ý. 'Will' thường được sử dụng trong văn viết trang trọng, trong khi 'going to' được sử dụng trong văn nói không trang trọng.",
-        "examples": []
+        "text": "Không kết hợp \"will\" và \"going to\" cùng nhau trong một cụm.",
+        "examples": [
+          "❌ She will going to visit the museum → ✅ She will visit. / She is going to visit."
+        ]
       },
       {
-        "text": "Người học tiếng Việt thường gặp khó khăn khi sử dụng 'will' và 'going to' vì trong tiếng Việt, không có sự phân biệt rõ ràng giữa dự đoán và kế hoạch.",
-        "examples": []
+        "text": "Cả hai đều diễn đạt tương lai — \"going to\" có vẻ chắc chắn hơn \"will\".",
+        "examples": [
+          "✅ We're going to move next year. (đã quyết định) / I think we'll need more chairs. (ước tính)"
+        ]
       }
     ],
     "in_context_vi": [

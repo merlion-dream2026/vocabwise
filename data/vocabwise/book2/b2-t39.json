@@ -726,7 +726,7 @@
       "question": "Is/Are/Was/Were + Object + past participle (+ by Agent)?",
       "variant": "Object + be + being + past participle (+ by Agent) (progressive passive)"
     },
-    "rule_vi": "Khi mô tả một quy trình, dùng câu bị động để nhấn mạnh hành động hoặc kết quả, không cần đề cập người thực hiện.",
+    "rule_vi": "Bị động mô tả quy trình dùng để nhấn mạnh hành động hoặc kết quả của một bước, chứ không cần nêu người thực hiện. Cấu trúc cơ bản: tân ngữ + be (am/is/are/was/were) + quá khứ phân từ (+ by + tác nhân nếu muốn). Khi mô tả các bước chung, thường dùng hiện tại đơn bị động (is/are + past participle); với các bước đã hoàn thành, dùng hiện tại hoàn thành bị động (has/have been + past participle). Trong văn viết trang trọng, cụm ‘by …’ thường được lược bỏ để tập trung vào quá trình.",
     "rule_en": "Use the passive to describe a process when the focus is on the action or result rather than the doer.",
     "common_error": "❌ The food was cooked by we.  →  ✅ The food was cooked by us.",
     "in_context": [
@@ -870,6 +870,37 @@
           "answer": "documented"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cụm ‘by …’ thường đặt sau vị ngữ và chỉ người thực hiện; nếu không cần nhấn mạnh người thực hiện, có thể bỏ đi.",
+        "examples": [
+          "❌ The sauce is mixed by the chef → ✅ The sauce is mixed."
+        ]
+      },
+      {
+        "text": "Dùng bị động để nhấn mạnh bước hoặc kết quả thay vì hành động của người thực hiện; câu chủ động sẽ nghe như một chỉ dẫn.",
+        "examples": [
+          "❌ The chef mixes the sauce → ✅ The sauce is mixed."
+        ]
+      },
+      {
+        "text": "Trong mô tả quy trình, hiện tại đơn bị động (is/are + past participle) dùng cho các bước chung, còn hiện tại hoàn thành bị động (has/have been + past participle) dùng cho các bước đã hoàn thành.",
+        "examples": [
+          "✅ The dough has been kneaded."
+        ]
+      },
+      {
+        "text": "Lỗi thường gặp là dùng sai dạng động từ ở dạng bị động; cần dùng dạng quá khứ phân từ, không phải dạng hiện tại.",
+        "examples": [
+          "❌ The dough was mixing → ✅ The dough was mixed."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Món ăn địa phương không chỉ là nguồn dinh dưỡng; nó còn mang theo ký ức, ý nghĩa và di sản.",
+      "Các công thức tốt nhất thường được chuẩn bị với nguyên liệu nguyên bản, chưa bị pha trộn, thay vì các chất thay thế đã qua xử lý.",
+      "Những nỗ lực bảo tồn truyền thống ẩm thực đang được ghi lại trong các cuốn sách nấu ăn cộng đồng, nơi ghi chép các công thức đang dần biến mất."
+    ]
   }
 }

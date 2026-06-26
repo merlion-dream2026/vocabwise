@@ -758,7 +758,7 @@
       "positive": "Conjunction + Subordinate Clause (Subject + Verb), Main Clause (Subject + Verb)",
       "variant": "despite + noun phrase, Main Clause (Subject + Verb)"
     },
-    "rule_vi": "Dùng để biểu thị sự nhượng bộ, khi một ý trái ngược với ý chính nhưng vẫn xảy ra.",
+    "rule_vi": "Mệnh đề nhượng bộ (concession clause) dùng để diễn tả một thực tế trái ngược hoặc bất lợi so với ý chính, nhưng vẫn xảy ra. Các từ nối thường dùng là although, even though, while (trong nghĩa nhượng bộ), và despite the fact that. Cấu trúc: mệnh đề nhượng bộ + dấu phẩy + mệnh đề chính, hoặc ngược lại; thời gian và dạng động từ trong mệnh đề nhượng bộ phải phù hợp với ngữ cảnh. Khi dùng despite, chỉ theo sau danh từ hoặc cụm danh từ; nếu muốn dùng với một câu hoàn chỉnh, phải dùng despite the fact that.",
     "rule_en": "Use concession clauses to show contrast between two ideas.",
     "common_error": "❌ Although he is tired, but he kept working.  →  ✅ Although he is tired, he kept working.",
     "in_context": [
@@ -914,6 +914,39 @@
           "answer": "even when"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề nhượng bộ có thể đứng trước hoặc sau mệnh đề chính; nếu đứng trước, thường đặt dấu phẩy sau nó.",
+        "examples": [
+          "❌ Although it was raining we went out → ✅ Although it was raining, we went out",
+          "✅ We went out although it was raining"
+        ]
+      },
+      {
+        "text": "\"Despite\" chỉ đi với danh từ hoặc cụm danh từ; để nối một câu hoàn chỉnh, phải dùng \"despite the fact that\".",
+        "examples": [
+          "❌ Despite it was raining → ✅ Despite the fact that it was raining"
+        ]
+      },
+      {
+        "text": "\"While\" trong nghĩa nhượng bộ mang tính trang trọng, thường được thay bằng \"although\" trong giao tiếp thông thường.",
+        "examples": [
+          "✅ While I understand your concern, I disagree",
+          "✅ Although I understand your concern, I disagree"
+        ]
+      },
+      {
+        "text": "Thì của mệnh đề nhượng bộ phải phù hợp với thời gian của câu; không nên dùng thì hiện tại khi toàn bộ câu nói về quá khứ.",
+        "examples": [
+          "❌ Although he was tired, he works hard → ✅ Although he was tired, he worked hard"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Mặc dù một lợi ích cho một người hoặc một nhóm có thể gây hại cho người khác, một người có trách nhiệm cố gắng hiểu rõ và trung thực các sự đánh đổi này.",
+      "Ngay cả khi điều đó không thoải mái, chúng ta nên nói sự thật.",
+      "Mặc dù chúng ta hiếm khi biết kết quả chính xác, chúng ta vẫn phải đưa ra quyết định."
+    ]
   }
 }

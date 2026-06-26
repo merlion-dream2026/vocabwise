@@ -668,7 +668,7 @@
       "question": "Did + Subject + reporting verb + (that) + clause?",
       "variant": "Reporting verb + Object + (that) + clause"
     },
-    "rule_vi": "Dùng các động từ này khi truyền đạt lại quan điểm, bằng chứng hoặc nhận định của người khác, thường kèm theo một mệnh đề phụ.",
+    "rule_vi": "Các động từ truyền đạt nâng cao (allege, imply, infer, concede, refute) được dùng để tái hiện quan điểm, lập luận hoặc bằng chứng của người khác trong văn viết trang trọng. Chúng thường đi kèm với một mệnh đề phụ (that‑clause) hoặc với cấu trúc động từ nguyên mẫu (verb + to‑infinitive). Khi dùng, cần chú ý nghĩa riêng của mỗi động từ: ‘allege’ mang hàm ý chưa có bằng chứng, ‘imply’ gợi ý một cách ngầm, ‘infer’ là suy luận của người nghe, ‘concede’ thừa nhận một phần, và ‘refute’ bác bỏ một khẳng định. Các động từ này xuất hiện trong ngữ cảnh học thuật, báo chí hoặc tranh luận, không phù hợp với giao tiếp thân mật.",
     "rule_en": "Use these verbs to report or attribute statements, implications, or conclusions to a source.",
     "common_error": "❌ The article refutes that the results were significant. → ✅ The article refutes the claim that the results were significant.",
     "in_context": [
@@ -816,6 +816,38 @@
           "answer": "refute"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Động từ thường đi sau là mệnh đề that‑clause; từ ‘that’ có thể bỏ trong văn viết trang trọng.",
+        "examples": [
+          "❌ He alleged that he was innocent → ✅ He alleged he was innocent"
+        ]
+      },
+      {
+        "text": "‘Imply’ mô tả ý định của người nói, còn ‘infer’ mô tả kết luận của người nghe; không hoán đổi vị trí.",
+        "examples": [
+          "❌ The article inferred that the policy was successful → ✅ The article implied that the policy might be successful",
+          "✅ Listeners inferred the speaker's attitude from gestures"
+        ]
+      },
+      {
+        "text": "Các động từ này mang tính trang trọng; tránh dùng trong hội thoại thường ngày.",
+        "examples": [
+          "❌ I think the report says… → ✅ The report alleges that…"
+        ]
+      },
+      {
+        "text": "‘Refute’ luôn cần một đối tượng trực tiếp (claim, argument) chứ không dùng that‑clause.",
+        "examples": [
+          "❌ He refuted that the data were wrong → ✅ He refuted the claim that the data were wrong"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Người nghe thường suy ra thái độ của người nói từ các dấu hiệu phi ngôn ngữ.",
+      "Các nhà nghiên cứu cáo buộc rằng việc lắng nghe chủ động cải thiện thành tích học tập.",
+      "Một số nhà phê bình bác bỏ nhận định rằng việc nghe thụ động là đủ để hiểu nội dung."
+    ]
   }
 }

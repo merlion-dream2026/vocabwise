@@ -883,20 +883,29 @@
     },
     "usage_notes": [
       {
-        "text": "Lưu ý rằng trạng từ chỉ thời gian thường được đặt ở đầu hoặc cuối câu, nhưng không được đặt giữa động từ và chủ ngữ.",
-        "examples": []
+        "text": "\"Yesterday, last week/month/year, ... ago\" luôn đi với QUÁ KHỨ ĐƠN, không dùng hiện tại hoàn thành.",
+        "examples": [
+          "❌ I have visited her yesterday → ✅ I visited her yesterday.",
+          "❌ She has left 2 hours ago → ✅ She left 2 hours ago."
+        ]
       },
       {
-        "text": "Sử dụng cấu trúc quá khứ đơn với trạng từ chỉ thời gian giúp người nghe hoặc người đọc hiểu rõ thời điểm hành động xảy ra.",
-        "examples": []
+        "text": "\"Ago\" đứng SAU khoảng thời gian: \"2 days ago\" (không phải \"ago 2 days\").",
+        "examples": [
+          "❌ She left ago 3 years → ✅ She left 3 years ago."
+        ]
       },
       {
-        "text": "Cấu trúc này thường được sử dụng trong văn nói và văn viết thông thường, nhưng trong văn viết, người ta có thể sử dụng cấu trúc quá khứ hoàn thành để thể hiện sự hoàn thành của hành động.",
-        "examples": []
+        "text": "\"Last\" không cần mạo từ \"the\": last week, last summer (không phải \"the last week\").",
+        "examples": [
+          "❌ I saw him in the last year → ✅ I saw him last year."
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý là người học tiếng Việt thường nhầm lẫn giữa cấu trúc quá khứ đơn và quá khứ hoàn thành, dẫn đến sử dụng sai cấu trúc trong câu.",
-        "examples": []
+        "text": "Câu phủ định và câu hỏi: dùng \"did + base form\" (không chia thêm -ed).",
+        "examples": [
+          "❌ He didn't went → ✅ He didn't go. / ❌ Did she went? → ✅ Did she go?"
+        ]
       }
     ],
     "in_context_vi": [

@@ -736,7 +736,7 @@
       "positive": "Were + Subject + Verb (base form) + ... , MainClause",
       "variant": "Should + Subject + Verb + ... , MainClause"
     },
-    "rule_vi": "Dùng cấu trúc đảo ngữ để diễn đạt một giả thiết trong văn phong học thuật, thường bắt đầu bằng Were hoặc Should.",
+    "rule_vi": "Câu điều kiện đảo ngữ trong học thuật là cấu trúc diễn đạt giả thiết mà không dùng ‘if’, thay vào đó bắt đầu bằng ‘Were’ hoặc ‘Should’. Khi dùng ‘Were’, dạng động từ luôn ở nguyên mẫu có ‘to’ (were + subject + to + verb); khi dùng ‘Should’, động từ đứng ngay sau chủ ngữ (should + subject + verb). Cấu trúc này thường xuất hiện ở đầu câu, theo sau là mệnh đề chính sau dấu phẩy, và mang tính trang trọng, phù hợp cho các bài viết học thuật, báo cáo hay luận văn. Nó thể hiện một khả năng hoặc điều kiện chưa xảy ra, thường liên quan tới kết quả dự đoán hoặc khuyến nghị.",
     "rule_en": "Use inverted conditionals to express hypothetical situations formally in academic writing.",
     "common_error": "❌ Were the students will attend the conference, we will need more seats → ✅ Were the students to attend the conference, we will need more seats",
     "in_context": [
@@ -895,6 +895,37 @@
           "answer": "were"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Câu bắt đầu bằng ‘Were’ hoặc ‘Should’ thay cho ‘if’; không được đặt ‘if’ ở đầu câu.",
+        "examples": [
+          "❌ If a speaker fails... → ✅ Were a speaker to fail..."
+        ]
+      },
+      {
+        "text": "Sau ‘were’ phải dùng dạng nguyên mẫu có ‘to’; sau ‘should’ dùng động từ nguyên thể trực tiếp.",
+        "examples": [
+          "❌ Were a speaker fails... → ✅ Were a speaker to fail..."
+        ]
+      },
+      {
+        "text": "Mệnh đề chính thường theo sau dấu phẩy và có thể chứa modal như may, will, would, can, should.",
+        "examples": [
+          "✅ Were a speaker to fail, they may cause unintended offence."
+        ]
+      },
+      {
+        "text": "Cấu trúc này chỉ dùng trong ngữ cảnh trang trọng, không thích hợp cho giao tiếp đời thường.",
+        "examples": [
+          "✅ Were the data to change, the model would adjust."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu một người nói không điều chỉnh phong cách ngôn ngữ một cách thích hợp, họ có thể gây ra sự xúc phạm ngoài ý muốn, bất kể độ chính xác ngữ pháp.",
+      "Nếu người học cẩn thận giải thích giao tiếp gián tiếp, họ sẽ đọc ngầm giữa các dòng thay vì lấy lời nói ở mức bề mặt.",
+      "Nếu môi trường chuyên nghiệp áp đặt giao thức riêng của chúng, nó sẽ định hình các quy trình chính thức điều khiển tương tác trong các bối cảnh ngoại giao, kinh doanh hoặc học thuật."
+    ]
   }
 }

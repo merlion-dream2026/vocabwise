@@ -887,20 +887,31 @@
     },
     "usage_notes": [
       {
-        "text": "Khi sử dụng **and**, cần lưu ý rằng nó thường được dùng để nối hai ý có cùng cấp độ quan trọng, giúp câu văn trở nên cân bằng hơn.",
-        "examples": []
+        "text": "and (thêm ý) · but (tương phản) · because (nguyên nhân) · so (kết quả) — mỗi từ chỉ một quan hệ riêng.",
+        "examples": [
+          "❌ I was tired and I stayed home → ✅ I was tired so I stayed home (kết quả)"
+        ]
       },
       {
-        "text": "Liên từ **but** thường được đặt sau dấu phẩy, giúp tách biệt hai ý trái ngược và tạo sự rõ ràng cho câu văn.",
-        "examples": []
+        "text": "\"because\" đứng đầu mệnh đề nguyên nhân; câu nguyên nhân có thể đặt trước hoặc sau kết quả.",
+        "examples": [
+          "✅ I stayed home because it was raining.",
+          "✅ Because it was raining, I stayed home."
+        ]
       },
       {
-        "text": "Sử dụng **because** và **so** cần có sự logic và phù hợp với ngữ cảnh, tránh sử dụng một cách máy móc hoặc không phù hợp.",
-        "examples": []
+        "text": "Không bắt đầu câu bằng \"so\" trong văn viết trang trọng; dùng \"Therefore\" hoặc \"As a result\" thay thế.",
+        "examples": [
+          "Văn nói: ✅ It was late, so I left. (OK)",
+          "Văn viết: ✅ It was late. Therefore, I left."
+        ]
       },
       {
-        "text": "Một điểm cần lưu ý là trong tiếng Việt, chúng ta thường sử dụng từ 'vì' và 'nên' để thể hiện nguyên nhân và kết quả, nhưng trong tiếng Anh, **because** và **so** có thể được sử dụng trong nhiều trường hợp khác nhau.",
-        "examples": []
+        "text": "\"But\" và \"however\" đều chỉ sự tương phản nhưng \"however\" trang trọng hơn và đứng sau dấu chấm phẩy hoặc đầu câu mới.",
+        "examples": [
+          "✅ I studied hard, but I failed.",
+          "✅ I studied hard. However, I failed."
+        ]
       }
     ],
     "in_context_vi": [

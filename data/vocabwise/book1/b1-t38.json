@@ -819,20 +819,30 @@
     },
     "usage_notes": [
       {
-        "text": "Sự khác biệt chính giữa 'make' và 'let' là 'make' thường mang ý nghĩa bắt buộc hoặc ép buộc, trong khi 'let' mang ý nghĩa cho phép hoặc đồng ý.",
-        "examples": []
+        "text": "make (ép, bắt buộc) vs let (cho phép, để) — luôn dùng bare infinitive sau tân ngữ, không có \"to\".",
+        "examples": [
+          "❌ She made me to cry → ✅ She made me cry",
+          "❌ Let him to go → ✅ Let him go"
+        ]
       },
       {
-        "text": "Vị trí của 'make' và 'let' trong câu thường là trước tân ngữ, và sau đó là động từ nguyên thể.",
-        "examples": []
+        "text": "Bị động của \"make\": be made to + infinitive (có \"to\" trong bị động).",
+        "examples": [
+          "✅ He was made to work overtime. (bị động — có \"to\")"
+        ]
       },
       {
-        "text": "Trong tiếng Anh, cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' thường được sử dụng trong cả ngôn ngữ trang trọng và không trang trọng, tuy nhiên việc sử dụng 'make' có thể mang ý nghĩa trang trọng hơn so với 'let'.",
-        "examples": []
+        "text": "Phân biệt make (kết quả cảm xúc/hành động xảy ra) vs get (thuyết phục ai làm gì, có \"to\").",
+        "examples": [
+          "✅ The film made me cry. (tự nhiên xảy ra)",
+          "✅ She got me to help her. (thuyết phục — có \"to\")"
+        ]
       },
       {
-        "text": "Người học tiếng Việt thường nhầm lẫn giữa 'make' và 'let' vì trong tiếng Việt, cả hai đều có thể được dịch là 'làm cho' hoặc 'cho phép', nhưng ý nghĩa và cách sử dụng của chúng trong tiếng Anh là khác nhau.",
-        "examples": []
+        "text": "Let có thể dùng với \"not\" để ngăn cản.",
+        "examples": [
+          "✅ Don't let him leave. / She wouldn't let the children touch it."
+        ]
       }
     ],
     "in_context_vi": [

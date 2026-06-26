@@ -892,10 +892,10 @@
         ]
       },
       {
-        "text": "Các động từ có quy tắc có một số thay đổi chính tả khi thêm -ed: -e → -d, -y → -ied, và nhân đôi phụ âm cuối nếu trước đó là nguyên âm ngắn.",
+        "text": "Quy tắc chính tả khi thêm -ed: động từ kết thúc -e chỉ thêm -d; -y sau phụ âm đổi thành -ied; phụ âm đơn sau nguyên âm ngắn thì nhân đôi.",
         "examples": [
-          "❌ He needed → ✅ He needed",
-          "❌ She carryed the bag → ✅ She carried the bag"
+          "❌ She carryed → ✅ She carried (y → ied)",
+          "❌ He stoped → ✅ He stopped (p nhân đôi)"
         ]
       },
       {

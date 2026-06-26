@@ -677,7 +677,7 @@
       "positive": "Main clause + , even though / however / for all that + subordinate clause",
       "variant": "Even though / however / for all that + clause , main clause"
     },
-    "rule_vi": "Dùng để diễn tả một sự việc trái ngược hoặc bất ngờ so với nội dung của mệnh đề chính; thường dùng các liên từ even though, however, for all that.",
+    "rule_vi": "Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng trái ngược, bất ngờ hoặc không mong đợi so với nội dung của mệnh đề chính. Các liên từ thường dùng là even though, however và for all that; trong đó even though và for all that mở đầu mệnh đề phụ, còn however là trạng từ liên kết thường đứng ở đầu câu độc lập hoặc sau dấu chấm phẩy. Cấu trúc yêu cầu cả hai mệnh đề đều là câu hoàn chỉnh và có thể đảo vị trí (mệnh đề nhượng bộ trước hoặc sau mệnh đề chính). Khi dùng even though hoặc for all that, không cần đảo vị trí chủ ngữ‑động từ trong mệnh đề phụ.",
     "rule_en": "Use concessive clauses to show contrast between two ideas, often with even though, however, or for all that.",
     "common_error": "❌ The project was successful however it was risky.  →  ✅ The project was successful; however, it was risky.",
     "in_context": [
@@ -834,6 +834,41 @@
           "answer": "nevertheless"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "even though có thể đứng ở đầu hoặc giữa câu; nếu đặt đầu câu, thường không cần dấu phẩy sau mệnh đề phụ, nhưng có thể dùng để nhấn mạnh.",
+        "examples": [
+          "❌ Even though, it was late → ✅ Even though it was late, we continued",
+          "✅ Even though she was tired, she kept working"
+        ]
+      },
+      {
+        "text": "however là trạng từ liên kết, phải đứng sau dấu chấm, chấm phẩy hoặc dấu hai chấm; không được nối trực tiếp bằng dấu phẩy giữa hai mệnh đề độc lập.",
+        "examples": [
+          "❌ We love art, however the market is tough → ✅ We love art; however, the market is tough",
+          "✅ The project succeeded; however, the budget was exceeded"
+        ]
+      },
+      {
+        "text": "for all that mang tính trang trọng, thường dùng trong văn viết; mệnh đề nhượng bộ đứng trước mệnh đề chính và không cần dấu phẩy sau nó.",
+        "examples": [
+          "❌ For all that, he studied, he failed → ✅ For all that he studied he failed",
+          "✅ For all that the evidence was clear, the jury hesitated"
+        ]
+      },
+      {
+        "text": "even though và although đều diễn tả nhượng bộ, nhưng even though nhấn mạnh mức độ bất ngờ hoặc mâu thuẫn mạnh hơn; trong tiếng Anh học viên thường nhầm lẫn khi dùng even though thay cho although trong các câu không cần nhấn mạnh.",
+        "examples": [
+          "✅ Although it rained, we went out",
+          "✅ Even though it rained, we went out"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Sự trỗi dậy của tiền phong đã đánh dấu một bước đột phá quyết định so với truyền thống đã được thiết lập, mặc dù nhiều nhà phê bình vẫn bám vào thẩm mỹ truyền thống.",
+      "Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo, tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.",
+      "Các nghệ sĩ thường tìm kiếm sự bảo trợ, mặc dù hệ thống có tính thiên vị, họ vẫn tạo ra những tác phẩm đột phá."
+    ]
   }
 }

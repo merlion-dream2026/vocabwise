@@ -758,7 +758,7 @@
       "question": "Do/Does Subject tend/appear/seem to + base verb?",
       "variant": "tends / appears / seems (3rd person singular)"
     },
-    "rule_vi": "Dùng các động từ tend, appear, seem + to + động từ nguyên mẫu để diễn đạt sự không chắc chắn hoặc nhận định thận trọng.",
+    "rule_vi": "Ngôn ngữ phòng ngừa (hedging) dùng các động từ tend, appear, seem + to + V để biểu thị sự không chắc chắn hoặc nhận định thận trọng. Cấu trúc cơ bản là: [chủ ngữ] + tend/appear/seem + to + động từ nguyên mẫu. Thường xuất hiện trong văn viết trang trọng khi muốn giảm mức độ khẳng định hoặc khi thông tin chưa được xác nhận. Động từ này thường đi kèm các trạng từ như usually, often, apparently để tăng mức độ thận trọng.",
     "rule_en": "Use tend/appear/seem + to + verb to express cautious or tentative statements.",
     "common_error": "❌ The article seem to be biased.  →  ✅ The article seems to be biased.",
     "in_context": [
@@ -907,6 +907,39 @@
           "answer": "seem"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau tend, appear, và seem luôn phải có “to” + động từ nguyên mẫu; không thể bỏ “to”.",
+        "examples": [
+          "❌ The data tend be accurate → ✅ The data tend to be accurate."
+        ]
+      },
+      {
+        "text": "Động từ tend/appear/seem phải chia phù hợp với chủ ngữ số ít hoặc số nhiều.",
+        "examples": [
+          "❌ He appear to be tired → ✅ He appears to be tired."
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng; trong giao tiếp không chính thức người học thường dùng “looks like” hoặc “seems like”.",
+        "examples": [
+          "✅ It seems to be raining. (formal)",
+          "✅ Looks like it's raining. (informal)"
+        ]
+      },
+      {
+        "text": "appear thường ám chỉ quan sát bên ngoài, còn seem có thể dựa trên cảm nhận nội tâm; người học nên phân biệt khi chọn động từ.",
+        "examples": [
+          "✅ She appears to be nervous. (based on observation)",
+          "✅ She seems to be nervous. (based on impression)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khả năng kiểm chứng thông tin trước khi chia sẻ thường được coi là thiết yếu.",
+      "Các thuật toán dường như làm tăng sự phẫn nộ và chia rẽ.",
+      "Hãy hỏi liệu câu chuyện có vẻ được thiết kế để kích thích phản ứng cảm xúc hơn là tin tưởng vào sự thật hay không."
+    ]
   }
 }

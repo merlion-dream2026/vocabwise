@@ -675,8 +675,8 @@
     "common_error": "❌ I don't have some money.  →  ✅ I don't have any money.",
     "in_context": [
       "**Some** dishes are sweet, **some** are sour, and **some** are salty.",
-      "**Some** dishes are sweet, **some** are sour, and **some** are salty.",
-      "**Some** dishes are sweet, **some** are sour, and **some** are salty."
+      "I don't have **any** vegetables left in the fridge.",
+      "Can I have **some** more rice, please?"
     ],
     "ex1_mcq": {
       "instruction": "Chọn đáp án đúng để điền vào chỗ trống.",
@@ -838,17 +838,17 @@
         ]
       },
       {
-        "text": "Some thường đi với danh từ đếm được số nhiều; any thường đi với danh từ không đếm được hoặc số ít.",
+        "text": "Cả some và any đều dùng được với danh từ đếm được số nhiều lẫn không đếm được — điểm khác nhau là câu khẳng định (some) vs phủ định/hỏi (any).",
         "examples": [
-          "✅ I need some apples.",
-          "✅ Do you have any water?"
+          "✅ I need some apples. / I don't need any apples.",
+          "✅ I have some water. / Do you have any water?"
         ]
       }
     ],
     "in_context_vi": [
       "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.",
-      "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn.",
-      "Một số món ăn có vị ngọt, một số có vị chua, và một số có vị mặn."
+      "Tôi không còn rau củ nào trong tủ lạnh nữa.",
+      "Cho tôi xin thêm một ít cơm được không?"
     ]
   }
 }

@@ -806,7 +806,7 @@
       "question": "Is it + adjective + that + clause?",
       "variant": "It + be + adjective + for + noun + to + infinitive"
     },
-    "rule_vi": "Dùng cấu trúc It is + tính từ + that/to‑infinitive để nhấn mạnh một quan điểm, yêu cầu hoặc dự đoán quan trọng.",
+    "rule_vi": "Cấu trúc It is + tính từ + that / to‑infinitive được dùng để nhấn mạnh một quan điểm, yêu cầu, dự đoán hoặc lời khuyên quan trọng. Khi dùng that‑clause, tính từ đứng trước that và động từ trong mệnh đề phụ ở dạng nguyên mẫu (subjunctive) không có “to”. Khi dùng to‑infinitive, tính từ theo sau “to” và diễn tả mục tiêu hoặc kỳ vọng. Cấu trúc này thường xuất hiện trong văn viết trang trọng, thay cho câu chủ động như “We must …” hoặc “People expect …”.",
     "rule_en": "Use the introductory it‑construction to emphasize importance, expectation, or necessity.",
     "common_error": "❌ It important that cities plan ahead.  →  ✅ It is important that cities plan ahead.",
     "in_context": [
@@ -958,6 +958,37 @@
           "answer": "crucial"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "‘It’ là chủ ngữ giả, vị trí thực của chủ ngữ xuất hiện sau that‑clause hoặc to‑infinitive.",
+        "examples": [
+          "❌ It is important cities develop → ✅ It is important that cities develop"
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường dùng trong văn viết trang trọng; trong giao tiếp thông thường người học thường dùng câu chủ động.",
+        "examples": [
+          "✅ It is expected that pressure will increase. → Informal: People expect pressure to increase."
+        ]
+      },
+      {
+        "text": "Sau that‑clause, động từ ở dạng nguyên mẫu (subjunctive) không có ‘s’ hay ‘to’.",
+        "examples": [
+          "❌ It is important that cities develops → ✅ It is important that cities develop"
+        ]
+      },
+      {
+        "text": "To‑infinitive được dùng khi tính từ diễn tả mục tiêu hoặc kỳ vọng và chủ ngữ của infinitive giống với ‘it’, không thể dùng khi chủ ngữ khác.",
+        "examples": [
+          "✅ It is important to develop efficient transport systems. → ❌ It is important that to develop..."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc các thành phố phát triển hệ thống giao thông hiệu quả, xây dựng nhà ở giá cả phải chăng và đảm bảo các dịch vụ công có thể mở rộng cùng với dân số là rất quan trọng.",
+      "Dự kiến áp lực lên cơ sở hạ tầng thành phố sẽ tăng lên khi dân số tiếp tục tăng.",
+      "Việc các không gian xanh, làn đường dành cho xe đạp và khu vực dành cho người đi bộ làm cho các thành phố trở nên sinh hoạt được hơn và giảm áp lực môi trường là vô cùng quan trọng."
+    ]
   }
 }

@@ -56,21 +56,28 @@ Danh hóa (nominalization) là quá trình biến động từ, tính từ hoặ
 ```
 
 ### Giải thích
-Dùng mệnh đề phân từ để diễn tả nguyên nhân hoặc kết quả của hành động trong câu chính.
+Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, dùng dạng V‑ing (present participle) hoặc V‑ed (past participle) để diễn tả nguyên nhân hoặc kết quả của hành động trong câu chính. Khi muốn nhấn mạnh rằng hành động xảy ra trước hoặc đồng thời với hành động chính, ta dùng cấu trúc Having + past participle (nguyên nhân) hoặc dạng quá khứ phân từ như driven, caused, … (kết quả). Cấu trúc thường đặt ở đầu câu, ngăn cách bằng dấu phẩy; trong vị trí trung gian, mệnh đề phân từ vẫn có thể đứng sau danh từ để bổ nghĩa. Đây là cách viết trang trọng, thường xuất hiện trong văn viết học thuật và báo cáo.
 
 ### Lưu ý
-_(chưa có)_
+1. Mệnh đề phân từ thường đặt ở đầu câu và ngăn cách bằng dấu phẩy; nếu đặt sau mệnh đề chính cũng cần dấu phẩy.
+  - ❌ The company, having lost profit, is cutting costs → ✅ Having lost profit, the company is cutting costs
+2. Cấu trúc này mang tính trang trọng, thích hợp cho văn viết học thuật hoặc báo cáo; trong giao tiếp thông thường người học thường dùng because/because of.
+  - ✅ Driven by market demand, the firm expanded.
+3. Tránh lỗi ‘dangling participle’ khi chủ ngữ của mệnh đề phân từ không khớp với chủ ngữ của câu chính.
+  - ❌ Walking down the street, the car was seen by John → ✅ Walking down the street, John saw the car
+4. Mệnh đề phân từ cho phép gộp hai câu thành một câu ngắn gọn, khác với cách diễn đạt tiếng Việt thường dùng ‘vì…’, ‘để…’.
+  - ✅ Having finished the report, she left early.
 
 ### Lỗi thường gặp
 ❌ *Having fail* to meet the deadline, the project was delayed. → ✅ *Having failed* to meet the deadline, the project was delayed.
 
 ### Trong bài đọc
 - EN: Having faced professional burnout, many employees describe a loss of purpose, reduced productivity, and profound disillusionment.
-  VI: 
+  VI: Sau khi đã trải qua tình trạng kiệt sức nghề nghiệp, nhiều nhân viên mô tả sự mất mục đích, năng suất giảm và sự thất vọng sâu sắc.
 - EN: Driven by rising workload pressures, organisations struggle to retain talent in an increasingly automated economy.
-  VI: 
+  VI: Bị thúc đẩy bởi áp lực khối lượng công việc ngày càng tăng, các tổ chức gặp khó khăn trong việc giữ chân nhân tài trong nền kinh tế ngày càng tự động hoá.
 - EN: Having failed to evolve their practices, organisations may find themselves unable to attract or retain the talent they need.
-  VI: 
+  VI: Do không kịp thay đổi cách thức làm việc, các tổ chức có thể nhận ra mình không thể thu hút hoặc giữ chân nhân tài cần thiết.
 
 <!-- /topic -->
 
@@ -86,24 +93,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Đảo ngữ nhấn mạnh là một cấu trúc ngữ pháp được sử dụng để nhấn mạnh một ý tưởng hoặc một thông tin trong câu. Khi muốn nhấn mạnh, người ta thường đặt trạng từ chỉ mức độ như Rarely, Never, Seldom… hoặc cấu trúc Not only...but also... lên đầu câu, rồi đảo trợ động từ và chủ ngữ. Điều này giúp tạo ra một hiệu ứng nhấn mạnh và thu hút sự chú ý của người nghe hoặc người đọc. Cấu trúc này thường được sử dụng trong văn viết và nói正式 để thể hiện sự trang trọng và chuyên nghiệp.
+Đảo ngữ nhấn mạnh là cách đảo vị trí trợ động từ (hoặc động từ khi không có trợ) và chủ ngữ, thường đặt một trạng từ hoặc cụm từ nhấn mạnh ở đầu câu. Nó được dùng để nhấn mạnh một ý, thường trong văn viết trang trọng hoặc khi trạng từ mang nghĩa tần suất, mức độ (Rarely, Never, Seldom…). Cấu trúc cơ bản: [Trạng từ] + do/does/did + [chủ ngữ] + [động từ chính] …; hoặc Not only + do/does/did + [chủ ngữ] + [động từ] …, but also + do/does/did + [chủ ngữ] + [động từ] …. Khi chủ ngữ là “be” hoặc một modal, trợ động từ không cần thiết, chỉ đảo vị trí chủ ngữ và động từ.
 
 ### Lưu ý
-1. Lưu ý rằng khi sử dụng đảo ngữ nhấn mạnh, cần phải đảo trợ động từ và chủ ngữ một cách chính xác để tránh sai sót ngữ pháp.
-2. Đảo ngữ nhấn mạnh thường được sử dụng trong văn viết và nói chính thức, nhưng trong văn nói thông thường, người ta thường sử dụng cấu trúc câu đơn giản hơn.
-3. Người học tiếng Anh thường nhầm lẫn giữa đảo ngữ nhấn mạnh và cấu trúc câu hỏi, vì cả hai đều có thể có cấu trúc tương tự.
-4. Đảo ngữ nhấn mạnh cũng có thể được sử dụng để thể hiện sự bất ngờ hoặc sự ngạc nhiên, vì vậy người học cần phải hiểu rõ ngữ cảnh và ý nghĩa của câu để sử dụng cấu trúc này một cách hiệu quả.
+1. Trạng từ nhấn mạnh phải đứng ở vị trí đầu câu; nếu đặt sau chủ ngữ sẽ mất hiệu lực nhấn mạnh.
+  - ❌ Modern society rarely prioritizes depth → ✅ Rarely does modern society prioritize depth
+2. Đảo ngữ với trợ động từ (do/does/did) chỉ dùng trong ngữ cảnh trang trọng; trong giao tiếp thân mật thường tránh.
+  - ❌ Never we have seen such change → ✅ Never have we seen such change
+3. Trong cấu trúc Not only… but also…, cả hai mệnh đề đều cần đảo trợ động từ trước chủ ngữ.
+  - ❌ Not only researchers suggest…, but also they highlight… → ✅ Not only do researchers suggest…, but also they highlight…
+4. Khi động từ chính không phải là “be” hoặc một modal, luôn phải thêm trợ động từ (do/does/did) trong đảo ngữ.
+  - ❌ Rarely modern society prioritize depth → ✅ Rarely does modern society prioritize depth
 
 ### Lỗi thường gặp
 ❌ Rarely the society values depth.  →  ✅ Rarely does society value depth.
 
 ### Trong bài đọc
 - EN: Rarely does modern society prioritize depth over breadth, even as digital platforms proliferate.
-  VI: Trong xã hội hiện đại, hiếm khi ưu tiên chiều sâu hơn chiều rộng, ngay cả khi các nền tảng kỹ thuật số ngày càng phổ biến.
+  VI: Hiếm khi xã hội hiện đại ưu tiên chiều sâu hơn chiều rộng, ngay cả khi các nền tảng kỹ thuật số đang bùng nổ.
 - EN: Not only do researchers suggest that vulnerability is a strength, but also they highlight its role in fostering authentic connections.
-  VI: Không chỉ các nhà nghiên cứu đề xuất rằng sự dễ bị tổn thương là một điểm mạnh, mà họ còn nhấn mạnh vai trò của nó trong việc xây dựng các kết nối chân thực.
+  VI: Không chỉ các nhà nghiên cứu cho rằng sự dễ tổn thương là một sức mạnh, mà họ còn nhấn mạnh vai trò của nó trong việc tạo dựng các mối liên kết chân thực.
 - EN: Never have we witnessed such rapid transformation in the way relationships are formed, making the study of social dynamics more urgent than ever.
-  VI: Chúng ta chưa từng chứng kiến sự thay đổi nhanh chóng như vậy trong cách các mối quan hệ được hình thành, khiến cho việc nghiên cứu động lực xã hội trở nên cấp thiết hơn bao giờ hết.
+  VI: Chưa bao giờ chúng ta chứng kiến sự biến đổi nhanh chóng như vậy trong cách hình thành các mối quan hệ, khiến việc nghiên cứu động lực xã hội trở nên cấp bách hơn bao giờ hết.
 
 <!-- /topic -->
 
@@ -629,21 +640,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng để đưa ra câu hỏi gián tiếp, thường bắt đầu bằng I wonder whether/if hoặc The question is what, không dùng dấu hỏi.
+Câu hỏi gián tiếp lồng ghép (embedded question) dùng để truyền đạt một câu hỏi dưới dạng khái quát, thường xuất hiện sau các động từ như wonder, ask, be curious, hoặc sau danh từ/cụm danh từ như the question is. Cấu trúc chính là: [động từ/đại từ + whether/if] hoặc [câu + wh‑word] và không dùng dấu hỏi. Trong câu gián tiếp, thứ tự từ giữ dạng khẳng định (subject‑verb) chứ không đảo trợ động từ như câu hỏi trực tiếp. Khi dùng “the question is what…”, mệnh đề phải bắt đầu bằng một từ hỏi (what, who, how, …) và vẫn không có dấu chấm hỏi.
 
 ### Lưu ý
-_(chưa có)_
+1. Câu hỏi gián tiếp không có dấu chấm hỏi và giữ nguyên trật tự câu khẳng định.
+  - ❌ I wonder, does a spacecraft transmit data? → ✅ I wonder whether a spacecraft transmits data.
+2. Dùng whether/if cho các câu hỏi có đáp án Yes/No; dùng từ hỏi (what, who, how…) cho các câu hỏi nội dung.
+  - ✅ I wonder whether the mission will succeed.
+  - ✅ The question is what the propulsion systems must generate.
+3. Không đảo trợ động từ trong câu gián tiếp; chủ ngữ luôn đứng trước vị trí động từ.
+  - ❌ I wonder what does the crew need? → ✅ I wonder what the crew needs.
+4. Cấu trúc này thường xuất hiện trong văn viết trang trọng; trong giao tiếp thân mật người học có thể dùng dạng ngắn gọn với if/whether.
+  - ✅ I wonder if the crew will survive.
+  - ✅ The question is how we can protect them.
 
 ### Lỗi thường gặp
 ❌ I wonder, whether the mission will succeed?  →  ✅ I wonder whether the mission will succeed
 
 ### Trong bài đọc
 - EN: I wonder whether a spacecraft entering orbit around a distant planet transmits data that allows scientists to map surfaces, measure atmosphere, and search for signs of life.
-  VI: 
+  VI: Tôi tự hỏi liệu một tàu vũ trụ khi vào quỹ đạo quanh một hành tinh xa xôi có truyền dữ liệu cho phép các nhà khoa học lập bản đồ bề mặt, đo bầu khí quyển và tìm kiếm dấu hiệu sự sống hay không.
 - EN: The question is what the propulsion systems required to launch interstellar missions must generate to achieve thrust on an unprecedented scale.
-  VI: 
+  VI: Câu hỏi là những hệ thống đẩy cần thiết để phóng các sứ mệnh liên sao phải tạo ra gì để đạt được lực đẩy ở quy mô chưa từng có.
 - EN: I wonder whether radiation exposure, muscle atrophy, and psychological isolation pose serious risks to extraterrestrial crews.
-  VI: 
+  VI: Tôi tự hỏi liệu việc tiếp xúc với bức xạ, teo cơ và cô lập tâm lý có gây ra những rủi ro nghiêm trọng cho các phi hành đoàn ngoài Trái Đất không.
 
 <!-- /topic -->
 
@@ -931,21 +951,28 @@ Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) 
 ```
 
 ### Giải thích
-Dùng thể giả định khi một mệnh đề phụ thuộc diễn tả yêu cầu, khuyến nghị, hoặc tính chất bắt buộc; động từ ở dạng nguyên mẫu không 'to'.
+Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đề phụ thuộc để diễn tả yêu cầu, khuyến nghị, tính chất bắt buộc hoặc cảm xúc như bất ngờ, nghi ngờ. Nó xuất hiện sau các danh từ, tính từ, động từ hoặc cấu trúc như it is essential that, the charter requires that, it was surprising that. Cấu trúc cơ bản là that + chủ ngữ + V nguyên mẫu không to (be, have, do, …). Đối với mọi ngôi và số, động từ không thay đổi hình thức, kể cả sau các động từ chỉ thời gian quá khứ.
 
 ### Lưu ý
-_(chưa có)_
+1. Thức giả định chỉ xuất hiện trong mệnh đề that‑clause sau các từ hoặc cụm từ yêu cầu, khuyến nghị, hoặc cảm xúc; không dùng trong câu khẳng định thông thường.
+  - ❌ It is essential that citizens are consulted → ✅ It is essential that citizens be consulted
+2. Trong giao tiếp không trang trọng, người nói thường thay thế bằng should, must hoặc cấu trúc to‑infinitive, nhưng trong văn viết chính thức nên dùng subjunctive.
+  - ❌ The charter requires that every member should participate → ✅ The charter requires that every member participate
+3. Thức giả định không thay đổi theo thời gian; ngay cả khi mệnh đề phụ thuộc được giới thiệu bởi động từ ở quá khứ, dạng nguyên mẫu vẫn được giữ.
+  - ❌ It was essential that they were consulted → ✅ It was essential that they be consulted
+4. Một số động từ cho phép cả subjunctive và to‑infinitive mà nghĩa gần như tương đương; subjunctive mang tính trang trọng hơn.
+  - It is important that he arrive on time → It is important for him to arrive on time
 
 ### Lỗi thường gặp
 ❌ It is essential that they are consulted → ✅ It is essential that they be consulted
 
 ### Trong bài đọc
 - EN: It is essential that citizens be consulted when drafting new electoral reforms.
-  VI: 
+  VI: Khi soạn thảo các cải cách bầu cử mới, việc tham vấn công dân là điều thiết yếu.
 - EN: The charter requires that every member participate in the annual review of democratic practices.
-  VI: 
+  VI: Hiến chương yêu cầu mỗi thành viên tham gia vào việc đánh giá hàng năm các thực tiễn dân chủ.
 - EN: It was surprising that the spokesperson remain silent despite mounting evidence of fraud.
-  VI: 
+  VI: Thật bất ngờ khi người phát ngôn im lặng mặc dù có bằng chứng gian lận ngày càng tăng.
 
 <!-- /topic -->
 
@@ -962,21 +989,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Khi muốn nhấn mạnh một thành phần (thời gian, lý do, cách thức…) hoặc tạo liên kết giữa các câu, ta đưa thành phần đó lên đầu câu và thường theo sau một dấu phẩy.
+Đảo ngữ đầu câu (fronting) là việc đưa một thành phần (thời gian, lý do, cách thức, trạng từ, cụm danh từ, hoặc một mệnh đề phụ) lên vị trí đầu câu để nhấn mạnh hoặc tạo liên kết chặt chẽ với câu sau. Khi thành phần được đảo lên đầu, thường đặt dấu phẩy sau nó để tách khỏi phần còn lại của câu. Cấu trúc này thường xuất hiện trong văn viết trang trọng và có thể kèm theo đảo vị trí chủ ngữ‑động từ (inversion) khi có các trạng từ phủ định hoặc hạn chế như never, rarely, only. Đảo ngữ không thay đổi nghĩa của câu, chỉ thay đổi trọng tâm và mức độ nhấn mạnh.
 
 ### Lưu ý
-_(chưa có)_
+1. Thành phần được đảo lên đầu câu phải được ngăn cách bằng dấu phẩy.
+  - ❌ In most societies deep inequality is sustained... → ✅ In most societies, deep inequality is sustained...
+2. Khi trạng từ phủ định (never, rarely, scarcely, only) đứng đầu câu, thường cần đảo vị trí chủ ngữ‑động từ.
+  - ❌ Never I have seen such waste → ✅ Never have I seen such waste
+3. Đảo mệnh đề phụ (because, although, if…) lên đầu câu tạo liên kết logic với câu chính.
+  - ✅ Because the data were flawed, the study was rejected.
+4. Đảo ngữ mang tính trang trọng; trong giao tiếp thân mật nên dùng ít hoặc dùng các cấu trúc đơn giản hơn.
+  - ✅ In my opinion, we should act now. (formal) → ❌ I think we should act now. (informal)
 
 ### Lỗi thường gặp
 ❌ In most societies deep inequality is sustained by systemic barriers.  →  ✅ In most societies, deep inequality is sustained by systemic barriers.
 
 ### Trong bài đọc
 - EN: In most societies, deep inequality is sustained by systemic barriers — structural forces embedded in education, housing, and labour markets that prevent people from accessing the resources they need.
-  VI: 
+  VI: Ở hầu hết các xã hội, bất bình đẳng sâu sắc được duy trì bởi các rào cản hệ thống — những lực lượng cấu trúc ẩn trong giáo dục, nhà ở và thị trường lao động ngăn cản mọi người tiếp cận các nguồn lực cần thiết.
 - EN: To break the cycle of poverty, governments must challenge structural privilege — dismantling the inherited advantages that allow some to prosper regardless of merit, while others remain locked out of opportunity.
-  VI: 
+  VI: Để phá vỡ vòng luẩn quẩn của nghèo đói, các chính phủ phải thách thức đặc quyền cấu trúc — tháo dỡ những lợi thế thừa kế cho phép một số người thịnh vượng bất chấp năng lực, trong khi những người khác bị loại trừ khỏi cơ hội.
 - EN: Welfare systems that fail to address the root causes of exclusion, can inadvertently disenfranchise the very people they aim to help.
-  VI: 
+  VI: Các hệ thống phúc lợi không giải quyết được nguyên nhân gốc rễ của sự loại trừ có thể vô tình tước bỏ quyền lợi của chính những người mà chúng nhằm giúp đỡ.
 
 <!-- /topic -->
 
@@ -1346,21 +1380,32 @@ Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sán
 ```
 
 ### Giải thích
-Dùng để diễn tả một sự việc trái ngược hoặc bất ngờ so với nội dung của mệnh đề chính; thường dùng các liên từ even though, however, for all that.
+Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng trái ngược, bất ngờ hoặc không mong đợi so với nội dung của mệnh đề chính. Các liên từ thường dùng là even though, however và for all that; trong đó even though và for all that mở đầu mệnh đề phụ, còn however là trạng từ liên kết thường đứng ở đầu câu độc lập hoặc sau dấu chấm phẩy. Cấu trúc yêu cầu cả hai mệnh đề đều là câu hoàn chỉnh và có thể đảo vị trí (mệnh đề nhượng bộ trước hoặc sau mệnh đề chính). Khi dùng even though hoặc for all that, không cần đảo vị trí chủ ngữ‑động từ trong mệnh đề phụ.
 
 ### Lưu ý
-_(chưa có)_
+1. even though có thể đứng ở đầu hoặc giữa câu; nếu đặt đầu câu, thường không cần dấu phẩy sau mệnh đề phụ, nhưng có thể dùng để nhấn mạnh.
+  - ❌ Even though, it was late → ✅ Even though it was late, we continued
+  - ✅ Even though she was tired, she kept working
+2. however là trạng từ liên kết, phải đứng sau dấu chấm, chấm phẩy hoặc dấu hai chấm; không được nối trực tiếp bằng dấu phẩy giữa hai mệnh đề độc lập.
+  - ❌ We love art, however the market is tough → ✅ We love art; however, the market is tough
+  - ✅ The project succeeded; however, the budget was exceeded
+3. for all that mang tính trang trọng, thường dùng trong văn viết; mệnh đề nhượng bộ đứng trước mệnh đề chính và không cần dấu phẩy sau nó.
+  - ❌ For all that, he studied, he failed → ✅ For all that he studied he failed
+  - ✅ For all that the evidence was clear, the jury hesitated
+4. even though và although đều diễn tả nhượng bộ, nhưng even though nhấn mạnh mức độ bất ngờ hoặc mâu thuẫn mạnh hơn; trong tiếng Anh học viên thường nhầm lẫn khi dùng even though thay cho although trong các câu không cần nhấn mạnh.
+  - ✅ Although it rained, we went out
+  - ✅ Even though it rained, we went out
 
 ### Lỗi thường gặp
 ❌ The project was successful however it was risky.  →  ✅ The project was successful; however, it was risky.
 
 ### Trong bài đọc
 - EN: The rise of the avant‑garde marked a decisive rupture with established tradition, even though many critics clung to conventional aesthetics.
-  VI: 
+  VI: Sự trỗi dậy của tiền phong đã đánh dấu một bước đột phá quyết định so với truyền thống đã được thiết lập, mặc dù nhiều nhà phê bình vẫn bám vào thẩm mỹ truyền thống.
 - EN: Digital tools have democratized creation, however, the sheer volume of work can overwhelm curators.
-  VI: 
+  VI: Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo, tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.
 - EN: Artists often seek patronage, for all that the system is biased, they still produce groundbreaking work.
-  VI: 
+  VI: Các nghệ sĩ thường tìm kiếm sự bảo trợ, mặc dù hệ thống có tính thiên vị, họ vẫn tạo ra những tác phẩm đột phá.
 
 <!-- /topic -->
 
@@ -1404,21 +1449,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng mệnh đề phân từ hiện tại (‑ing) để diễn tả sự tương phản hoặc nhượng bộ, thường đứng trước hoặc sau câu chính.
+Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh đề trạng từ để diễn tả sự tương phản hoặc nhượng bộ giữa hai tình huống. Khi muốn nhấn mạnh rằng một hành động xảy ra đồng thời hoặc trái ngược với hành động chính, chúng ta đặt mệnh đề phân từ trước hoặc sau câu chính, thường ngăn cách bằng dấu phẩy nếu đứng đầu câu. Mệnh đề này chia sẻ cùng chủ ngữ với câu chính; nếu không chia sẻ, cần dùng cấu trúc khác (ví dụ: although + clause). Cấu trúc cơ bản: V‑ing + (bổ ngữ/đối tượng), …
 
 ### Lưu ý
-_(chưa có)_
+1. Vị trí của mệnh đề phân từ: nếu đặt ở đầu câu, phải theo sau dấu phẩy; nếu đặt ở cuối câu, thường không cần dấu phẩy.
+  - ❌ Having finished the report the manager approved it → ✅ Having finished the report, the manager approved it.
+2. Mệnh đề phân từ thường xuất hiện trong văn viết trang trọng; trong giao tiếp, người học thường thay thế bằng although / even though.
+  - ✅ Conceding that the plan was risky, the team proceeded.
+  - ❌ Conceding that the plan was risky the team proceeded (missing comma).
+3. Chủ ngữ của mệnh đề phân từ phải đồng nhất với chủ ngữ của câu chính; nếu không, câu sẽ gây nhầm lẫn.
+  - ❌ Walking down the street, the lights were bright → ✅ Walking down the street, I saw the lights were bright.
+4. Đối lập/nhượng bộ thường đi kèm với các động từ như admitting, conceding, acknowledging; chúng biểu thị việc chấp nhận một thực tế dù không mong muốn.
+  - ✅ Admitting his mistake, he apologized.
+  - ✅ Acknowledging the difficulty, they continued the project.
 
 ### Lỗi thường gặp
 ❌ *Because* the policy was unpopular, the government changed it → ✅ *Contrasting* the policy's popularity, the government changed it
 
 ### Trong bài đọc
 - EN: Yet in the modern era, the rise of secularism has fundamentally altered the relationship between religion and public life, contrasting with its former public prominence.
-  VI: 
+  VI: Tuy nhiên, trong thời hiện đại, sự trỗi dậy của chủ nghĩa thế tục đã làm thay đổi căn bản mối quan hệ giữa tôn giáo và đời sống công cộng, đối lập với vị thế công khai trước đây của nó.
 - EN: At the same time, demographic shifts have made pluralism an increasingly pressing social reality, conceding that multiple belief systems must coexist.
-  VI: 
+  VI: Đồng thời, những biến động nhân khẩu đã khiến đa nguyên trở thành thực tế xã hội ngày càng cấp bách, thừa nhận rằng phải tồn tại đồng thời nhiều hệ thống tín ngưỡng.
 - EN: The challenge for contemporary societies is to navigate secular pluralism without either erasing religious identity or privileging any single tradition in public institutions, conceding that absolute neutrality is unattainable.
-  VI: 
+  VI: Thách thức của các xã hội hiện đại là điều hướng đa nguyên thế tục mà không xóa bỏ bản sắc tôn giáo hoặc ưu ái bất kỳ truyền thống nào trong các tổ chức công, thừa nhận rằng sự trung lập tuyệt đối là không thể đạt được.
 
 <!-- /topic -->
 
@@ -1500,21 +1554,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng thể bị động khi mô tả một quá trình hoặc cách một hành động được thực hiện mà người thực hiện không quan trọng hoặc không được nhắc tới.
+Thể bị động mô tả một quá trình hoặc cách một hành động được thực hiện khi người thực hiện không quan trọng, không biết, hoặc không muốn nhắc tới. Cấu trúc cơ bản là ‘to be + past participle’, có thể thêm cụm ‘by …’ nếu muốn chỉ ra người thực hiện. Trong văn viết học thuật, thể bị động thường dùng để nhấn mạnh kết quả, quá trình hoặc tính khách quan, còn ‘get‑passive’ chỉ dùng trong ngữ cảnh thông thường để nhấn mạnh tính động. Khi dùng bị động, động từ phải là động từ hành động (action verb), không nên dùng với các động từ trạng thái như *be, seem, have*.
 
 ### Lưu ý
-_(chưa có)_
+1. Khi người thực hiện không quan trọng hoặc không biết, bỏ cụm ‘by …’ để tập trung vào hành động hoặc kết quả.
+  - ❌ The researchers conducted the experiment → ✅ The experiment was conducted.
+2. Thể bị động được dùng để nhấn mạnh quá trình hoặc kết quả trong văn học thuật, tạo tính khách quan và trang trọng.
+  - ✅ The data were analyzed using SPSS.
+3. Trong mô tả quy trình, nếu muốn nhấn mạnh tính động, có thể dùng ‘get‑passive’, nhưng trong văn viết trang trọng nên dùng ‘be‑passive’.
+  - ❌ The results got published → ✅ The results were published.
+4. Tránh dùng thể bị động với động từ trạng thái (be, seem, have) vì chúng không diễn tả hành động thực tế.
+  - ❌ The problem is solved → ✅ The problem was solved.
 
 ### Lỗi thường gặp
 ❌ The experiment conducted by the researchers.  →  ✅ The experiment was conducted by the researchers.
 
 ### Trong bài đọc
 - EN: Cohesion — the linguistic glue of discourse — is achieved through transitional phrases, pronoun reference, and careful referencing of prior points.
-  VI: 
+  VI: Sự gắn kết — keo ngữ ngữ của diễn ngôn — được đạt được thông qua các cụm từ chuyển tiếp, việc tham chiếu đại từ, và việc tham chiếu cẩn thận đến các điểm đã nêu trước đó.
 - EN: Effective argumentation depends not only on the strength of individual claims but on how they are connected.
-  VI: 
+  VI: Lập luận hiệu quả không chỉ phụ thuộc vào sức mạnh của các luận điểm cá nhân mà còn phụ thuộc vào cách chúng được kết nối với nhau.
 - EN: The formal, impersonal tone characteristic of academic registers is achieved by the related practice of nominalization.
-  VI: 
+  VI: Giọng điệu trang trọng, khách quan đặc trưng của các ngữ cảnh học thuật được đạt được nhờ vào việc thực hành danh danh hoá liên quan.
 
 <!-- /topic -->
 
@@ -1530,21 +1591,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc đảo ngữ để diễn đạt một giả thiết trong văn phong học thuật, thường bắt đầu bằng Were hoặc Should.
+Câu điều kiện đảo ngữ trong học thuật là cấu trúc diễn đạt giả thiết mà không dùng ‘if’, thay vào đó bắt đầu bằng ‘Were’ hoặc ‘Should’. Khi dùng ‘Were’, dạng động từ luôn ở nguyên mẫu có ‘to’ (were + subject + to + verb); khi dùng ‘Should’, động từ đứng ngay sau chủ ngữ (should + subject + verb). Cấu trúc này thường xuất hiện ở đầu câu, theo sau là mệnh đề chính sau dấu phẩy, và mang tính trang trọng, phù hợp cho các bài viết học thuật, báo cáo hay luận văn. Nó thể hiện một khả năng hoặc điều kiện chưa xảy ra, thường liên quan tới kết quả dự đoán hoặc khuyến nghị.
 
 ### Lưu ý
-_(chưa có)_
+1. Câu bắt đầu bằng ‘Were’ hoặc ‘Should’ thay cho ‘if’; không được đặt ‘if’ ở đầu câu.
+  - ❌ If a speaker fails... → ✅ Were a speaker to fail...
+2. Sau ‘were’ phải dùng dạng nguyên mẫu có ‘to’; sau ‘should’ dùng động từ nguyên thể trực tiếp.
+  - ❌ Were a speaker fails... → ✅ Were a speaker to fail...
+3. Mệnh đề chính thường theo sau dấu phẩy và có thể chứa modal như may, will, would, can, should.
+  - ✅ Were a speaker to fail, they may cause unintended offence.
+4. Cấu trúc này chỉ dùng trong ngữ cảnh trang trọng, không thích hợp cho giao tiếp đời thường.
+  - ✅ Were the data to change, the model would adjust.
 
 ### Lỗi thường gặp
 ❌ Were the students will attend the conference, we will need more seats → ✅ Were the students to attend the conference, we will need more seats
 
 ### Trong bài đọc
 - EN: Were a speaker to fail to calibrate register appropriately, they may cause unintended offence, regardless of grammatical accuracy.
-  VI: 
+  VI: Nếu một người nói không điều chỉnh phong cách ngôn ngữ một cách thích hợp, họ có thể gây ra sự xúc phạm ngoài ý muốn, bất kể độ chính xác ngữ pháp.
 - EN: Should learners interpret indirect communication carefully, they will read between the lines rather than taking words at face value.
-  VI: 
+  VI: Nếu người học cẩn thận giải thích giao tiếp gián tiếp, họ sẽ đọc ngầm giữa các dòng thay vì lấy lời nói ở mức bề mặt.
 - EN: Were professional environments to impose their own protocol, it shapes formal procedures that govern interaction in diplomatic, business, or academic settings.
-  VI: 
+  VI: Nếu môi trường chuyên nghiệp áp đặt giao thức riêng của chúng, nó sẽ định hình các quy trình chính thức điều khiển tương tác trong các bối cảnh ngoại giao, kinh doanh hoặc học thuật.
 
 <!-- /topic -->
 
@@ -1559,21 +1627,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng để nhấn mạnh ý tưởng bằng cách lặp lại cấu trúc, liệt kê ba yếu tố đồng thời, hoặc đặt câu hỏi không cần câu trả lời.
+Cấu trúc hùng biện là các biện pháp tu từ dùng để nhấn mạnh ý bằng cách lặp lại hoặc liệt kê các yếu tố có cùng dạng. Nó bao gồm tricolon (ba thành phần đồng dạng), anaphora (lặp đầu câu) và câu hỏi tu từ (rhetorical question) không cần trả lời. Khi dùng, người nói phải đảm bảo tính song song về ngữ pháp và nhịp điệu, đồng thời lựa chọn ngữ cảnh trang trọng hoặc thuyết phục. Tránh lạm dụng để không làm mất tính tự nhiên của văn bản.
 
 ### Lưu ý
-_(chưa có)_
+1. Tricolon yêu cầu ba thành phần đồng dạng về hình thái và chức năng, được đặt liền nhau để tạo nhịp điệu và sức mạnh ngôn ngữ.
+  - ❌ He was brave, clever → ✅ He was brave, clever, and compassionate.
+2. Anaphora là việc lặp từ hoặc cụm từ ở đầu các câu/đoạn để tạo điểm nhấn và tăng tính thuyết phục.
+  - ❌ We must act now, we need to act now → ✅ We must act now, we must act now, we must act now.
+3. Câu hỏi tu từ không đòi hỏi câu trả lời; nó thường dùng để khẳng định một quan điểm một cách mạnh mẽ.
+  - ❌ Are you sure? → ✅ Is it not evident that algorithms dictate our attention?
+4. Cấu trúc hùng biện thường xuất hiện trong ngôn ngữ trang trọng, diễn thuyết hoặc viết thuyết phục; không nên dùng trong văn bản thông thường hoặc hội thoại thân mật.
+  - ❌ I think the policy is good → ✅ Indeed, the policy is exemplary, inspiring, and transformative.
 
 ### Lỗi thường gặp
 ❌ We must act, we must think, we must succeed?  →  ✅ We must act, we must think, we must succeed.
 
 ### Trong bài đọc
 - EN: The key lies in balancing self-promotion with genuine value creation — offering content that educates, connects, or inspires, rather than merely chasing metrics.
-  VI: 
+  VI: Chìa khóa nằm ở việc cân bằng giữa tự quảng bá và tạo ra giá trị thực sự — cung cấp nội dung giáo dục, kết nối hoặc truyền cảm hứng, thay vì chỉ chạy theo các chỉ số.
 - EN: Creators who build an online presence thoughtfully, creators who curate a personal brand with consistency, creators who engage authentically, can reach global audiences, bypassing traditional gatekeepers.
-  VI: 
+  VI: Những người sáng tạo xây dựng hiện diện trực tuyến một cách suy nghĩ cẩn thận, những người xây dựng thương hiệu cá nhân một cách nhất quán, và những người tương tác một cách chân thực, đều có thể tiếp cận khán giả toàn cầu, bỏ qua các cánh cửa truyền thống.
 - EN: Is it not evident that algorithms dictate our attention, shape our opinions, and steer our actions?
-  VI: 
+  VI: Có phải không, các thuật toán đang quyết định sự chú ý của chúng ta, định hình quan điểm và điều khiển hành động của chúng ta?
 
 <!-- /topic -->
 
@@ -1591,21 +1666,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng các động từ này khi truyền đạt lại quan điểm, bằng chứng hoặc nhận định của người khác, thường kèm theo một mệnh đề phụ.
+Các động từ truyền đạt nâng cao (allege, imply, infer, concede, refute) được dùng để tái hiện quan điểm, lập luận hoặc bằng chứng của người khác trong văn viết trang trọng. Chúng thường đi kèm với một mệnh đề phụ (that‑clause) hoặc với cấu trúc động từ nguyên mẫu (verb + to‑infinitive). Khi dùng, cần chú ý nghĩa riêng của mỗi động từ: ‘allege’ mang hàm ý chưa có bằng chứng, ‘imply’ gợi ý một cách ngầm, ‘infer’ là suy luận của người nghe, ‘concede’ thừa nhận một phần, và ‘refute’ bác bỏ một khẳng định. Các động từ này xuất hiện trong ngữ cảnh học thuật, báo chí hoặc tranh luận, không phù hợp với giao tiếp thân mật.
 
 ### Lưu ý
-_(chưa có)_
+1. Động từ thường đi sau là mệnh đề that‑clause; từ ‘that’ có thể bỏ trong văn viết trang trọng.
+  - ❌ He alleged that he was innocent → ✅ He alleged he was innocent
+2. ‘Imply’ mô tả ý định của người nói, còn ‘infer’ mô tả kết luận của người nghe; không hoán đổi vị trí.
+  - ❌ The article inferred that the policy was successful → ✅ The article implied that the policy might be successful
+  - ✅ Listeners inferred the speaker's attitude from gestures
+3. Các động từ này mang tính trang trọng; tránh dùng trong hội thoại thường ngày.
+  - ❌ I think the report says… → ✅ The report alleges that…
+4. ‘Refute’ luôn cần một đối tượng trực tiếp (claim, argument) chứ không dùng that‑clause.
+  - ❌ He refuted that the data were wrong → ✅ He refuted the claim that the data were wrong
 
 ### Lỗi thường gặp
 ❌ The article refutes that the results were significant. → ✅ The article refutes the claim that the results were significant.
 
 ### Trong bài đọc
 - EN: Listeners often infer the speaker's attitude from non‑verbal cues.
-  VI: 
+  VI: Người nghe thường suy ra thái độ của người nói từ các dấu hiệu phi ngôn ngữ.
 - EN: Researchers allege that active listening improves academic performance.
-  VI: 
+  VI: Các nhà nghiên cứu cáo buộc rằng việc lắng nghe chủ động cải thiện thành tích học tập.
 - EN: Some critics refute the claim that passive hearing is sufficient for comprehension.
-  VI: 
+  VI: Một số nhà phê bình bác bỏ nhận định rằng việc nghe thụ động là đủ để hiểu nội dung.
 
 <!-- /topic -->
 
@@ -1623,21 +1706,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Trong tiếng Anh học thuật, chuyển động từ hoặc tính từ thành danh từ (danh hóa) giúp câu trở nên cô đọng và trang trọng.
+Danh hóa (nominalization) là quá trình chuyển động từ, tính từ hoặc cả một mệnh đề thành danh từ, thường bằng cách thêm hậu tố –tion, –ment, –ing, –ness, hoặc dùng cấu trúc the + V‑ing / the + Adj. Khi danh hóa, danh từ mới thường đi kèm mạo từ (the) và có thể nhận các bổ ngữ như of‑phrase, prepositional phrase. Ẩn dụ ngữ pháp (grammatical metaphor) là việc thay thế một câu hoặc một mệnh đề bằng một cụm danh từ, giúp văn bản ngắn gọn, trang trọng và tăng tính trừu tượng. Ở cấp độ C2, người học cần biết cách cân bằng giữa việc danh hóa để tăng tính học thuật và việc duy trì sự rõ ràng, tránh làm câu trở nên nặng nề hoặc mất đi tính động.
 
 ### Lưu ý
-_(chưa có)_
+1. Dùng danh hóa để rút gọn một mệnh đề phụ thành một danh từ, thường trong văn viết học thuật, và nhớ đặt mạo từ “the” trước gerund hoặc tính từ danh hoá.
+  - ❌ The fact that building relationships is important → ✅ The importance of building relationships
+2. Chọn hậu tố danh hoá phù hợp; danh từ tạo ra phải giữ số ít khi nói về một khái niệm chung, tránh dùng dạng –ing khi muốn nhấn mạnh hành động.
+  - ❌ Negotiating the contract was successful → ✅ The negotiation of the contract was successful
+3. Trong ẩn dụ ngữ pháp, thay thế một câu bằng cụm danh từ để tăng tính trang trọng, nhưng cụm danh từ phải có khả năng nhận các bổ ngữ (of‑phrase, prepositional phrase).
+  - ❌ When the other party made a concession, … → ✅ The concession made by the other party …
+4. Tránh dùng danh hoá khi vị trí ngữ pháp yêu cầu động từ; lỗi thường gặp là thiếu mạo từ hoặc dùng danh từ thay cho động từ khiến câu không tự nhiên.
+  - ❌ He gave a presentation about the importance of relationship building → ✅ He presented the importance of building relationships
 
 ### Lỗi thường gặp
 ❌ The to negotiate process was lengthy.  →  ✅ The negotiation process was lengthy.
 
 ### Trong bài đọc
 - EN: Negotiation is a structured form of communication in which parties with differing interests work towards a mutually acceptable outcome.
-  VI: 
+  VI: Đàm phán là một hình thức giao tiếp có cấu trúc, trong đó các bên có lợi ích khác nhau hướng tới một kết quả mà cả hai chấp nhận được.
 - EN: Experienced negotiators also understand the power of framing — presenting an offer in a way that emphasises its benefits rather than its costs.
-  VI: 
+  VI: Các nhà đàm phán dày dặn kinh nghiệm cũng hiểu sức mạnh của việc định khung — trình bày một đề nghị sao cho nhấn mạnh lợi ích của nó hơn là chi phí.
 - EN: The principle of reciprocity also shapes negotiation dynamics profoundly: when one party makes a concession, the other typically feels a social obligation to respond in kind.
-  VI: 
+  VI: Nguyên tắc tương hỗ cũng ảnh hưởng sâu sắc đến động lực của đàm phán: khi một bên nhượng bộ, bên còn lại thường cảm thấy một nghĩa vụ xã hội để đáp lại tương tự.
 
 <!-- /topic -->
 

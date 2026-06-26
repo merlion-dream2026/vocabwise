@@ -738,7 +738,7 @@
       "question": "Is it + reporting verb + that + clause?",
       "variant": "According to sources, it is claimed that ..."
     },
-    "rule_vi": "Dùng cấu trúc này để truyền đạt thông tin được đưa ra bởi người khác mà không nêu rõ nguồn.",
+    "rule_vi": "Cấu trúc này dùng ‘it’ làm chủ ngữ giả, theo sau là ‘be’ + quá khứ phân từ của động từ truyền đạt (claimed, reported, said, believed, suggested, …) và một mệnh đề ‘that‑clause’. Nó dùng để truyền đạt thông tin, quan điểm của người khác mà không nêu rõ nguồn gốc, thường xuất hiện trong văn viết trang trọng như báo cáo, bài báo, nghiên cứu. Khi muốn nhấn mạnh thời gian hoặc mức độ chắc chắn, có thể dùng các dạng thời gian khác (is, was, has been, will be).",
     "rule_en": "Use this structure to report someone else's statement or claim in an impersonal way.",
     "common_error": "❌ It claimed that the data is safe.  →  ✅ It is claimed that the data is safe.",
     "in_context": [
@@ -890,6 +890,39 @@
           "answer": "believed"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc cơ bản: it + be + past participle + that‑clause; động từ phải ở dạng bị động.",
+        "examples": [
+          "❌ It is claim that privacy matters → ✅ It is claimed that privacy matters"
+        ]
+      },
+      {
+        "text": "Dùng trong ngữ cảnh trang trọng; trong giao tiếp hàng ngày thường dùng câu chủ động như ‘People say that…’",
+        "examples": [
+          "✅ It is reported that the law changed.",
+          "❌ I heard the law changed."
+        ]
+      },
+      {
+        "text": "Thì của ‘be’ thay đổi theo thời gian của thông tin: hiện tại (is), quá khứ (was), hiện tại hoàn thành (has been).",
+        "examples": [
+          "✅ It was said that privacy was ignored.",
+          "✅ It has been claimed that data mining invades privacy."
+        ]
+      },
+      {
+        "text": "Nếu muốn chỉ nguồn cụ thể, không dùng cấu trúc ‘it is …ed’; thay vào đó dùng câu chủ động: ‘Experts claim that…’",
+        "examples": [
+          "❌ It is claimed by experts that data is valuable → ✅ Experts claim that data is valuable."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Có người cho rằng quyền riêng tư đã trở thành một trong những vấn đề pháp lý và đạo đức quan trọng của thế kỷ kỹ thuật số.",
+      "Báo cáo cho thấy nhiều luật bảo mật hiện nay yêu cầu các công ty minh bạch quy trình này và trao cho người dùng quyền kiểm soát dữ liệu cá nhân của họ.",
+      "Người ta nói rằng việc biết mình đang bị theo dõi làm thay đổi cách bạn hành xử, những gì bạn nói và thậm chí cả suy nghĩ của bạn."
+    ]
   }
 }

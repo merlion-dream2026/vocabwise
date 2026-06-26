@@ -725,7 +725,7 @@
     "form": {
       "positive": "Subject + Verb + Object (Complex Noun Phrase)"
     },
-    "rule_vi": "Khi muốn dùng một danh từ có nhiều thành phần bổ nghĩa (tính từ, giới từ, mệnh đề quan hệ), ta đặt chúng vào cùng một cụm danh từ.",
+    "rule_vi": "Cụm danh từ phức tạp là một danh từ (head noun) đi kèm với một hoặc nhiều thành phần bổ nghĩa như tính từ, cụm giới từ, hoặc mệnh đề quan hệ. Khi muốn diễn tả thông tin chi tiết, so sánh hoặc giải thích, ta đặt các thành phần này vào cùng một cụm danh từ. Cấu trúc cơ bản: [tính từ / cụm giới từ / mệnh đề quan hệ] + head noun (hoặc head noun + [cụm giới từ / mệnh đề quan hệ]). Trong văn viết, các thành phần bổ nghĩa thường được ngăn cách bằng dấu phẩy, dấu gạch ngang hoặc dấu ngoặc để tránh gây rối cho người đọc.",
     "rule_en": "Use a complex noun phrase when a noun is expanded with modifiers such as adjectives, prepositional phrases, or relative clauses.",
     "common_error": "❌ The buying and selling of goods and services is important.  →  ✅ The buying and selling of goods and services are important.",
     "in_context": [
@@ -884,6 +884,37 @@
           "answer": "growth"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Các tính từ thường đứng trước danh từ, còn cụm giới từ và mệnh đề quan hệ đứng sau danh từ; nếu đặt sai vị trí sẽ làm câu không tự nhiên.",
+        "examples": [
+          "❌ the buying and selling of goods International trade → ✅ International trade, the buying and selling of goods"
+        ]
+      },
+      {
+        "text": "Khi chèn một cụm danh từ phụ (appositive) vào giữa, dùng dấu gạch ngang hoặc dấu phẩy để tách rõ ranh giới, tránh nhầm lẫn giữa các thành phần.",
+        "examples": [
+          "❌ International trade the buying and selling of goods is… → ✅ International trade — the buying and selling of goods — is…"
+        ]
+      },
+      {
+        "text": "Trong văn trang trọng, thay vì dùng gạch ngang, có thể dùng mệnh đề quan hệ ‘which / that’ để nối các thành phần bổ nghĩa.",
+        "examples": [
+          "✅ International trade, which is the buying and selling of goods, is…"
+        ]
+      },
+      {
+        "text": "Không nên xếp quá nhiều thành phần bổ nghĩa liên tiếp mà không có dấu câu; nếu cần, dùng dấu phẩy hoặc ngoặc để chia nhỏ, giúp câu dễ đọc hơn.",
+        "examples": [
+          "❌ International trade the buying and selling of goods and services between countries is… → ✅ International trade, the buying and selling of goods and services between countries, is…"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Thương mại quốc tế — việc mua bán hàng hóa và dịch vụ giữa các quốc gia — là một trong những động lực của nền kinh tế toàn cầu.",
+      "Các quy luật cung và cầu đóng vai trò trung tâm trong việc định hình các mô hình thương mại.",
+      "Một số chính phủ áp đặt rào cản đối với nhập khẩu, chẳng hạn như thuế thương mại — một khoản phí đối với hàng hoá nhập vào quốc gia để bảo vệ ngành công nghiệp trong nước."
+    ]
   }
 }

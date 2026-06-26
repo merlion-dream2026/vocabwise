@@ -824,20 +824,30 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm quan trọng cần lưu ý là 'a' được sử dụng trước danh từ bắt đầu bằng phụ âm, trong khi 'an' được sử dụng trước danh từ bắt đầu bằng nguyên âm.",
-        "examples": []
+        "text": "a + phụ âm; an + nguyên âm (a, e, i, o, u) — quyết định theo ÂM đọc, không phải chữ viết.",
+        "examples": [
+          "✅ a university (đọc \"yu\", là phụ âm) · an hour (đọc \"au\", là nguyên âm)"
+        ]
       },
       {
-        "text": "Vị trí của mạo từ trong câu thường là trước danh từ, nhưng có thể thay đổi tùy thuộc vào cấu trúc câu và ngữ pháp.",
-        "examples": []
+        "text": "\"the\" dùng khi cả người nói và người nghe đều biết đối tượng nào đang được đề cập — lần đầu dùng \"a/an\", lần sau dùng \"the\".",
+        "examples": [
+          "✅ I saw a dog. The dog was big. (lần 1: a; lần 2: the)"
+        ]
       },
       {
-        "text": "Sử dụng mạo từ đúng cách cũng phụ thuộc vào cấp độ hình thức của ngôn ngữ, với ngôn ngữ thường yêu cầu sử dụng mạo từ chính xác hơn.",
-        "examples": []
+        "text": "Zero article (không có mạo từ) dùng với danh từ số nhiều chung chung, danh từ không đếm được chung chung, tên riêng.",
+        "examples": [
+          "✅ Dogs are friendly. / I love music. / She lives in Paris.",
+          "❌ The dogs are friendly. (nếu nói về chó nói chung, không xác định)"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi sử dụng mạo từ do sự khác biệt giữa tiếng Anh và tiếng Việt, vì vậy việc luyện tập và thực hành là rất quan trọng.",
-        "examples": []
+        "text": "Tiếng Việt không có mạo từ — người học hay bỏ mạo từ hoặc dùng \"the\" cho mọi thứ.",
+        "examples": [
+          "❌ I have cat. → ✅ I have a cat.",
+          "❌ The life is beautiful. → ✅ Life is beautiful. (zero article)"
+        ]
       }
     ],
     "in_context_vi": [

@@ -811,20 +811,31 @@
     },
     "usage_notes": [
       {
-        "text": "Một điểm quan trọng cần lưu ý là động từ bất quy tắc trong quá khứ đơn không theo quy tắc chung như động từ quy tắc, do đó người học cần phải học và nhớ từng dạng quá khứ riêng biệt.",
-        "examples": []
+        "text": "Động từ bất quy tắc phổ biến cần thuộc lòng: go→went · come→came · see→saw · take→took · make→made · have→had · give→gave · say→said.",
+        "examples": [
+          "❌ She goed to school → ✅ She went to school",
+          "❌ I taked a photo → ✅ I took a photo"
+        ]
       },
       {
-        "text": "Vị trí của động từ trong câu cũng rất quan trọng, thường động từ đứng sau chủ ngữ và trước các thành phần khác trong câu.",
-        "examples": []
+        "text": "Trong câu phủ định và câu hỏi, dùng did + động từ NGUYÊN MẪU (không phải dạng quá khứ).",
+        "examples": [
+          "❌ She didn't went → ✅ She didn't go",
+          "❌ Did you saw him? → ✅ Did you see him?"
+        ]
       },
       {
-        "text": "Sử dụng thì quá khứ đơn giúp người học mô tả các sự kiện đã xảy ra trong quá khứ một cách rõ ràng và cụ thể, điều này rất hữu ích trong việc kể chuyện hoặc mô tả các sự kiện lịch sử.",
-        "examples": []
+        "text": "Động từ to be ở quá khứ: I/he/she/it → was; you/we/they → were.",
+        "examples": [
+          "❌ They was happy → ✅ They were happy",
+          "❌ I were there → ✅ I was there"
+        ]
       },
       {
-        "text": "Người học tiếng Anh thường gặp khó khăn khi phân biệt giữa động từ quy tắc và bất quy tắc, do đó việc luyện tập và sử dụng cả hai loại động từ trong câu là rất cần thiết.",
-        "examples": []
+        "text": "Dùng với các từ chỉ thời gian: yesterday · last week/month/year · in 2020 · ago.",
+        "examples": [
+          "✅ I saw her yesterday. / They left two days ago."
+        ]
       }
     ],
     "in_context_vi": [
