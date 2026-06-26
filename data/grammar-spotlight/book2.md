@@ -4,7 +4,7 @@
 > `node scripts/export-grammar-spotlight.js --import --book 2`
 
 <!-- topic: b2-t01 -->
-## b2-t01 ·  Modal verbs for obligation (must / have to / need to) · B1
+## b2-t01 · Modal verbs for obligation (must / have to / need to) · B1
 
 **Tiếng Việt:** Động từ khuyết thiếu chỉ nghĩa vụ
 
@@ -45,7 +45,7 @@
 <!-- /topic -->
 
 <!-- topic: b2-t02 -->
-## b2-t02 ·  Collocations with get (get a promotion / get fired) · B1
+## b2-t02 · Collocations with get (get a promotion / get fired) · B1
 
 **Tiếng Việt:** Collocation với get trong ngữ cảnh công việc
 
@@ -86,7 +86,7 @@
 <!-- /topic -->
 
 <!-- topic: b2-t03 -->
-## b2-t03 ·  Passive voice — present and past · B1
+## b2-t03 · Passive voice — present and past · B1
 
 **Tiếng Việt:** Câu bị động thì hiện tại và quá khứ
 
@@ -125,7 +125,7 @@ Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc
 <!-- /topic -->
 
 <!-- topic: b2-t04 -->
-## b2-t04 ·  Passive voice with modals (may be fined / could be arrested) · B1
+## b2-t04 · Passive voice with modals (may be fined / could be arrested) · B1
 
 **Tiếng Việt:** Câu bị động với động từ khuyết thiếu
 
@@ -168,7 +168,7 @@ Câu bị động với động từ khuyết thiếu được tạo bằng các
 <!-- /topic -->
 
 <!-- topic: b2-t05 -->
-## b2-t05 ·  Reported speech — verbs (say / tell / claim / argue) · B1
+## b2-t05 · Reported speech — verbs (say / tell / claim / argue) · B1
 
 **Tiếng Việt:** Câu gián tiếp với các động từ truyền đạt
 
@@ -207,7 +207,7 @@ Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý k
 <!-- /topic -->
 
 <!-- topic: b2-t06 -->
-## b2-t06 ·  Contrast linkers (although / even though / despite / in spite of) · B1
+## b2-t06 · Contrast linkers (although / even though / despite / in spite of) · B1
 
 **Tiếng Việt:** Liên từ đối lập và nhượng bộ
 
@@ -245,7 +245,7 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 <!-- /topic -->
 
 <!-- topic: b2-t07 -->
-## b2-t07 ·  Modal perfect (should have / could have / would have) · B1
+## b2-t07 · Modal perfect (should have / could have / would have) · B1
 
 **Tiếng Việt:** Động từ khuyết thiếu hoàn thành
 
@@ -258,26 +258,35 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 ```
 
 ### Giải thích
-Dùng should have / could have / would have để nói về một hành động trong quá khứ mà chúng ta nghĩ nên, có thể hoặc muốn đã xảy ra.
+Động từ khuyết thiếu hoàn thành là các modal (should, could, would) kết hợp với have + V3 để nói về một hành động trong quá khứ mà người nói có quan điểm khác. Dùng should have để chỉ ra sự hối tiếc hoặc chỉ trích: một việc đáng lẽ phải làm nhưng không làm. Dùng could have để nói về khả năng hoặc cơ hội đã mất trong quá khứ. Dùng would have (thường trong câu điều kiện loại 3) để mô tả kết quả không xảy ra nếu điều kiện trong quá khứ được đáp ứng.
 
 ### Lưu ý
-_(chưa có)_
+1. Cấu trúc luôn là modal + have + V3 (past participle); không được chèn các từ khác giữa have và V3.
+  - ❌ He should have to go → ✅ He should have gone
+2. Should have diễn tả sự hối tiếc hoặc chỉ trích; could have diễn tả khả năng hoặc cơ hội đã mất; would have dùng trong câu điều kiện loại 3 để nói kết quả không thực tế.
+  - ✅ She should have studied harder
+  - ✅ He could have traveled abroad
+  - ✅ If they had listened, they would have succeeded
+3. Trong giao tiếp thông thường người nói thường dùng dạng rút gọn should've, could've, would've.
+  - ✅ You should've called me
+4. Không dùng quá khứ hoàn thành (had + V3) thay cho modal perfect; modal already biểu thị thời gian quá khứ.
+  - ❌ She had should gone → ✅ She should have gone
 
 ### Lỗi thường gặp
 ❌ She should have went to the meeting.  →  ✅ She should have gone to the meeting.
 
 ### Trong bài đọc
 - EN: Many people should have taken action to fight injustice.
-  VI: 
+  VI: Nhiều người lẽ ra nên hành động để đấu tranh chống bất công.
 - EN: Campaigns for better representation could have helped raise awareness of these issues around the world.
-  VI: 
+  VI: Các chiến dịch nhằm tăng cường đại diện có thể đã giúp nâng cao nhận thức về những vấn đề này trên toàn thế giới.
 - EN: A society built on inclusion and respect would have been better for everyone.
-  VI: 
+  VI: Một xã hội dựa trên sự hòa nhập và tôn trọng sẽ tốt hơn cho mọi người.
 
 <!-- /topic -->
 
 <!-- topic: b2-t08 -->
-## b2-t08 ·  Gerunds vs Infinitives (avoid posting vs choose to post) · B1
+## b2-t08 · Gerunds vs Infinitives (avoid posting vs choose to post) · B1
 
 **Tiếng Việt:** Danh động từ vs Động từ nguyên thể
 
@@ -316,7 +325,7 @@ Danh động từ (V‑ing) và động từ nguyên thể (to + V) là hai 
 <!-- /topic -->
 
 <!-- topic: b2-t09 -->
-## b2-t09 ·  Comparatives (more...than / not as...as / less...than) · B1
+## b2-t09 · Comparatives (more...than / not as...as / less...than) · B1
 
 **Tiếng Việt:** Cấu trúc so sánh hơn nâng cao
 
@@ -355,7 +364,7 @@ Cấu trúc so sánh hơn dùng để so sánh mức độ của hai đối tư�
 <!-- /topic -->
 
 <!-- topic: b2-t10 -->
-## b2-t10 ·  Used to / Would (past habits — B1 level) · B1
+## b2-t10 · Used to / Would (past habits — B1 level) · B1
 
 **Tiếng Việt:** Used to / Would — thói quen quá khứ nâng cao
 
@@ -397,7 +406,7 @@ Used to và would (the latter chỉ dùng cho hành động) được dùng đ�
 <!-- /topic -->
 
 <!-- topic: b2-t11 -->
-## b2-t11 ·  Cause and effect linkers (because of / due to / as a result of / therefore) · B1
+## b2-t11 · Cause and effect linkers (because of / due to / as a result of / therefore) · B1
 
 **Tiếng Việt:** Liên từ nhân quả
 
@@ -434,7 +443,7 @@ Liên từ nhân quả dùng để nối nguyên nhân với kết quả. "becau
 <!-- /topic -->
 
 <!-- topic: b2-t12 -->
-## b2-t12 ·  Present Perfect Passive (has/have been + past participle) · B1
+## b2-t12 · Present Perfect Passive (has/have been + past participle) · B1
 
 **Tiếng Việt:** Bị động thì hiện tại hoàn thành
 
@@ -465,7 +474,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t13 -->
-## b2-t13 ·  Zero and First Conditional · B1
+## b2-t13 · Zero and First Conditional · B1
 
 **Tiếng Việt:** Câu điều kiện loại 0 và loại 1
 
@@ -504,7 +513,7 @@ Câu điều kiện loại 0 dùng để diễn tả các quy luật, sự thậ
 <!-- /topic -->
 
 <!-- topic: b2-t14 -->
-## b2-t14 ·  Wish + past simple (I wish I had more time) · B1
+## b2-t14 · Wish + past simple (I wish I had more time) · B1
 
 **Tiếng Việt:** Wish + quá khứ đơn — ước muốn hiện tại
 
@@ -535,7 +544,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t15 -->
-## b2-t15 ·  Relative clauses (which / that / where / whose) · B1
+## b2-t15 · Relative clauses (which / that / where / whose) · B1
 
 **Tiếng Việt:** Mệnh đề quan hệ với which / that / where / whose
 
@@ -576,7 +585,7 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
 <!-- /topic -->
 
 <!-- topic: b2-t16 -->
-## b2-t16 ·  Future Continuous and Future Perfect · B1
+## b2-t16 · Future Continuous and Future Perfect · B1
 
 **Tiếng Việt:** Tương lai tiếp diễn và tương lai hoàn thành
 
@@ -608,7 +617,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t17 -->
-## b2-t17 ·  Phrasal verbs (set up / break down / run out of) · B1
+## b2-t17 · Phrasal verbs (set up / break down / run out of) · B1
 
 **Tiếng Việt:** Cụm động từ phổ biến
 
@@ -647,7 +656,7 @@ Cụm động từ là cấu trúc gồm một động từ chính kết hợp v
 <!-- /topic -->
 
 <!-- topic: b2-t18 -->
-## b2-t18 ·  Passive with reporting verbs (It has been found that...) · B2
+## b2-t18 · Passive with reporting verbs (It has been found that...) · B2
 
 **Tiếng Việt:** Bị động với động từ truyền đạt
 
@@ -686,7 +695,7 @@ Cấu trúc này dùng để truyền đạt kết quả nghiên cứu, báo cá
 <!-- /topic -->
 
 <!-- topic: b2-t19 -->
-## b2-t19 ·  Quantifiers (all / most / some / few / no + noun) · B1
+## b2-t19 · Quantifiers (all / most / some / few / no + noun) · B1
 
 **Tiếng Việt:** Lượng từ — mức độ và số lượng
 
@@ -718,7 +727,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t20 -->
-## b2-t20 ·  Past Perfect (had + past participle) · B1
+## b2-t20 · Past Perfect (had + past participle) · B1
 
 **Tiếng Việt:** Quá khứ hoàn thành
 
@@ -750,7 +759,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t21 -->
-## b2-t21 ·  First and Second Conditional review · B1
+## b2-t21 · First and Second Conditional review · B1
 
 **Tiếng Việt:** Ôn tập câu điều kiện loại 1 và loại 2
 
@@ -793,7 +802,7 @@ Câu điều kiện loại 1 (First Conditional) dùng để nói về một kh�
 <!-- /topic -->
 
 <!-- topic: b2-t22 -->
-## b2-t22 ·  Gerunds as subjects and objects · B1
+## b2-t22 · Gerunds as subjects and objects · B1
 
 **Tiếng Việt:** Danh động từ làm chủ ngữ và tân ngữ
 
@@ -830,7 +839,7 @@ Danh động từ (verb‑ing) có thể làm chủ ngữ hoặc tân ngữ tron
 <!-- /topic -->
 
 <!-- topic: b2-t23 -->
-## b2-t23 ·  Complex noun phrases · B2
+## b2-t23 · Complex noun phrases · B2
 
 **Tiếng Việt:** Cụm danh từ phức tạp
 
@@ -859,7 +868,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t24 -->
-## b2-t24 ·  Second Conditional (If I were... I would...) · B1
+## b2-t24 · Second Conditional (If I were... I would...) · B1
 
 **Tiếng Việt:** Câu điều kiện loại 2
 
@@ -898,7 +907,7 @@ Câu điều kiện loại 2 dùng để diễn tả một tình huống không 
 <!-- /topic -->
 
 <!-- topic: b2-t25 -->
-## b2-t25 ·  Passive voice for objectivity and emphasis · B2
+## b2-t25 · Passive voice for objectivity and emphasis · B2
 
 **Tiếng Việt:** Bị động để nhấn mạnh và diễn đạt khách quan
 
@@ -938,7 +947,7 @@ Bị động (passive voice) dùng để đưa trọng tâm vào đối tượng
 <!-- /topic -->
 
 <!-- topic: b2-t26 -->
-## b2-t26 ·  Third Conditional (If I had... I would have...) · B2
+## b2-t26 · Third Conditional (If I had... I would have...) · B2
 
 **Tiếng Việt:** Câu điều kiện loại 3
 
@@ -979,7 +988,7 @@ Câu điều kiện loại 3 (Third Conditional) dùng để nói về một s�
 <!-- /topic -->
 
 <!-- topic: b2-t27 -->
-## b2-t27 ·  Defining vs Non-defining relative clauses · B2
+## b2-t27 · Defining vs Non-defining relative clauses · B2
 
 **Tiếng Việt:** Mệnh đề quan hệ xác định và không xác định
 
@@ -1016,7 +1025,7 @@ Mệnh đề quan hệ xác định (defining relative clause) cung cấp thông
 <!-- /topic -->
 
 <!-- topic: b2-t28 -->
-## b2-t28 ·  Question tags (isn't it? / don't they?) · B1
+## b2-t28 · Question tags (isn't it? / don't they?) · B1
 
 **Tiếng Việt:** Câu hỏi đuôi
 
@@ -1054,7 +1063,7 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 <!-- /topic -->
 
 <!-- topic: b2-t29 -->
-## b2-t29 ·  Reporting verbs (claim / argue / suggest / warn / deny) · B2
+## b2-t29 · Reporting verbs (claim / argue / suggest / warn / deny) · B2
 
 **Tiếng Việt:** Động từ truyền đạt đa dạng
 
@@ -1094,7 +1103,7 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 <!-- /topic -->
 
 <!-- topic: b2-t30 -->
-## b2-t30 ·  Adverbs of degree (extremely / fairly / quite / rather) · B1
+## b2-t30 · Adverbs of degree (extremely / fairly / quite / rather) · B1
 
 **Tiếng Việt:** Trạng từ chỉ mức độ
 
@@ -1137,7 +1146,7 @@ Trạng từ chỉ mức độ (extremely, fairly, quite, rather) dùng để bi
 <!-- /topic -->
 
 <!-- topic: b2-t31 -->
-## b2-t31 ·  -ed vs -ing adjectives (interested vs interesting) · B1
+## b2-t31 · -ed vs -ing adjectives (interested vs interesting) · B1
 
 **Tiếng Việt:** Tính từ đuôi -ed và -ing
 
@@ -1176,7 +1185,7 @@ Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô t�
 <!-- /topic -->
 
 <!-- topic: b2-t32 -->
-## b2-t32 ·  So / Such...that (emphasis) · B1
+## b2-t32 · So / Such...that (emphasis) · B1
 
 **Tiếng Việt:** Cấu trúc so / such...that nhấn mạnh
 
@@ -1214,7 +1223,7 @@ Cấu trúc so … that và such … that dùng để nhấn mạnh mức độ 
 <!-- /topic -->
 
 <!-- topic: b2-t33 -->
-## b2-t33 ·  Narrative tenses (past simple / continuous / perfect together) · B1
+## b2-t33 · Narrative tenses (past simple / continuous / perfect together) · B1
 
 **Tiếng Việt:** Phối hợp các thì quá khứ trong tự sự
 
@@ -1253,7 +1262,7 @@ Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuou
 <!-- /topic -->
 
 <!-- topic: b2-t34 -->
-## b2-t34 ·  Cleft sentences — introduction (It is...that / What...is) · B2
+## b2-t34 · Cleft sentences — introduction (It is...that / What...is) · B2
 
 **Tiếng Việt:** Câu chẻ — cấu trúc nhấn mạnh
 
@@ -1293,7 +1302,7 @@ Câu chẻ (cleft sentence) được dùng để nhấn mạnh một thành ph�
 <!-- /topic -->
 
 <!-- topic: b2-t35 -->
-## b2-t35 ·  Both / Either / Neither · B1
+## b2-t35 · Both / Either / Neither · B1
 
 **Tiếng Việt:** Both / Either / Neither — diễn đạt sự lựa chọn kép
 
@@ -1336,7 +1345,7 @@ Both, either và neither là các từ dùng để nói về hai đối tượng
 <!-- /topic -->
 
 <!-- topic: b2-t36 -->
-## b2-t36 ·  Too / Enough with infinitive clauses · B1
+## b2-t36 · Too / Enough with infinitive clauses · B1
 
 **Tiếng Việt:** Too / Enough với mệnh đề nguyên thể
 
@@ -1377,7 +1386,7 @@ Too và enough có thể đi kèm với mệnh đề nguyên thể (to + V) đ�
 <!-- /topic -->
 
 <!-- topic: b2-t37 -->
-## b2-t37 ·  Collocations: do / play / go + sports · B1
+## b2-t37 · Collocations: do / play / go + sports · B1
 
 **Tiếng Việt:** Collocation với do / play / go trong thể thao
 
@@ -1416,7 +1425,7 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
 <!-- /topic -->
 
 <!-- topic: b2-t38 -->
-## b2-t38 ·  Reflexive vs emphatic pronouns · B1
+## b2-t38 · Reflexive vs emphatic pronouns · B1
 
 **Tiếng Việt:** Đại từ phản thân và đại từ nhấn mạnh
 
@@ -1445,7 +1454,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t39 -->
-## b2-t39 ·  Passive voice in process descriptions · B1
+## b2-t39 · Passive voice in process descriptions · B1
 
 **Tiếng Việt:** Bị động mô tả quy trình
 
@@ -1477,7 +1486,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t40 -->
-## b2-t40 ·  Advanced articles (the + unique/known concepts) · B2
+## b2-t40 · Advanced articles (the + unique/known concepts) · B2
 
 **Tiếng Việt:** Mạo từ nâng cao — dùng the với khái niệm xác định
 
@@ -1506,7 +1515,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t41 -->
-## b2-t41 ·  Wish / If only + past (regret and hypothetical) · B2
+## b2-t41 · Wish / If only + past (regret and hypothetical) · B2
 
 **Tiếng Việt:** Wish / If only — hối tiếc và tình huống giả định
 
@@ -1537,7 +1546,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t42 -->
-## b2-t42 ·  Verb patterns (agree to / suggest -ing / expect to) · B1
+## b2-t42 · Verb patterns (agree to / suggest -ing / expect to) · B1
 
 **Tiếng Việt:** Cấu trúc động từ theo sau bởi to-inf hay V-ing
 
@@ -1576,7 +1585,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t43 -->
-## b2-t43 ·  Modal perfect (should have / must have / can't have) · B2
+## b2-t43 · Modal perfect (should have / must have / can't have) · B2
 
 **Tiếng Việt:** Động từ khuyết thiếu + have — suy luận về quá khứ
 
@@ -1608,7 +1617,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t44 -->
-## b2-t44 ·  Comparative structures with quantifiers (twice as... / far more...) · B2
+## b2-t44 · Comparative structures with quantifiers (twice as... / far more...) · B2
 
 **Tiếng Việt:** So sánh kết hợp với lượng từ
 
@@ -1643,7 +1652,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t45 -->
-## b2-t45 ·  Discourse markers (however / moreover / furthermore / on the other hand) · B2
+## b2-t45 · Discourse markers (however / moreover / furthermore / on the other hand) · B2
 
 **Tiếng Việt:** Liên từ văn viết
 
@@ -1673,7 +1682,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t46 -->
-## b2-t46 ·  Third Conditional + passive combination · B2
+## b2-t46 · Third Conditional + passive combination · B2
 
 **Tiếng Việt:** Câu điều kiện loại 3 kết hợp bị động
 
@@ -1702,7 +1711,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t47 -->
-## b2-t47 ·  Reported questions (asked if / wanted to know what) · B2
+## b2-t47 · Reported questions (asked if / wanted to know what) · B2
 
 **Tiếng Việt:** Câu hỏi gián tiếp
 
@@ -1731,7 +1740,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t48 -->
-## b2-t48 ·  Collocations with make / do / take / have · B1
+## b2-t48 · Collocations with make / do / take / have · B1
 
 **Tiếng Việt:** Collocations với make / do / take / have
 
@@ -1763,7 +1772,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t49 -->
-## b2-t49 ·  Nominalization — basic (pollute → pollution / develop → development) · B2
+## b2-t49 · Nominalization — basic (pollute → pollution / develop → development) · B2
 
 **Tiếng Việt:** Danh hóa cơ bản — biến đổi từ loại
 
@@ -1792,7 +1801,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t50 -->
-## b2-t50 ·  Introductory it (It is important that... / It is expected to...) · B2
+## b2-t50 · Introductory it (It is important that... / It is expected to...) · B2
 
 **Tiếng Việt:** Cấu trúc It is + adj + that / to-inf
 
@@ -1824,7 +1833,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t51 -->
-## b2-t51 ·  Hedging language (tend to / appear to / seem to) · B2
+## b2-t51 · Hedging language (tend to / appear to / seem to) · B2
 
 **Tiếng Việt:** Ngôn ngữ phòng ngừa — diễn đạt thận trọng
 
@@ -1856,7 +1865,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t52 -->
-## b2-t52 ·  Passive reporting structures (It is claimed / said / reported that...) · B2
+## b2-t52 · Passive reporting structures (It is claimed / said / reported that...) · B2
 
 **Tiếng Việt:** Cấu trúc bị động với động từ truyền đạt
 
@@ -1888,7 +1897,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t53 -->
-## b2-t53 ·  Future passive (will be replaced / is going to be used) · B2
+## b2-t53 · Future passive (will be replaced / is going to be used) · B2
 
 **Tiếng Việt:** Bị động thì tương lai
 
@@ -1920,7 +1929,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t54 -->
-## b2-t54 ·  Cause-effect essay language (leads to / results in / is caused by) · B2
+## b2-t54 · Cause-effect essay language (leads to / results in / is caused by) · B2
 
 **Tiếng Việt:** Ngôn ngữ nhân quả trong văn nghị luận
 
@@ -1952,7 +1961,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t55 -->
-## b2-t55 ·  Impersonal passive + reporting verbs · B2
+## b2-t55 · Impersonal passive + reporting verbs · B2
 
 **Tiếng Việt:** Bị động phi nhân xưng
 
@@ -1984,7 +1993,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t56 -->
-## b2-t56 ·  Prepositional phrases as discourse connectors (In terms of / With regard to) · B2
+## b2-t56 · Prepositional phrases as discourse connectors (In terms of / With regard to) · B2
 
 **Tiếng Việt:** Cụm giới từ làm liên từ văn viết
 
@@ -2014,7 +2023,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t57 -->
-## b2-t57 ·  Mixed conditionals — introduction · B2
+## b2-t57 · Mixed conditionals — introduction · B2
 
 **Tiếng Việt:** Câu điều kiện hỗn hợp — giới thiệu
 
@@ -2044,7 +2053,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t58 -->
-## b2-t58 ·  Concession clauses (although / while / even though / despite the fact that) · B2
+## b2-t58 · Concession clauses (although / while / even though / despite the fact that) · B2
 
 **Tiếng Việt:** Mệnh đề nhượng bộ
 
@@ -2074,7 +2083,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t59 -->
-## b2-t59 ·  Compound adjectives (fast-growing / well-known / widely-used) · B2
+## b2-t59 · Compound adjectives (fast-growing / well-known / widely-used) · B2
 
 **Tiếng Việt:** Tính từ ghép
 
@@ -2106,7 +2115,7 @@ _(chưa có)_
 <!-- /topic -->
 
 <!-- topic: b2-t60 -->
-## b2-t60 ·  Academic hedging and stance language · B2
+## b2-t60 · Academic hedging and stance language · B2
 
 **Tiếng Việt:** Ngôn ngữ lập trường trong học thuật
 

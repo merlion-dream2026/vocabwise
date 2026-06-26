@@ -768,7 +768,7 @@
       "question": "Modal verb + subject + have + past participle?",
       "variant": "Subject + modal verb + have + been + present participle (modal perfect continuous)"
     },
-    "rule_vi": "Dùng should have / could have / would have để nói về một hành động trong quá khứ mà chúng ta nghĩ nên, có thể hoặc muốn đã xảy ra.",
+    "rule_vi": "Động từ khuyết thiếu hoàn thành là các modal (should, could, would) kết hợp với have + V3 để nói về một hành động trong quá khứ mà người nói có quan điểm khác. Dùng should have để chỉ ra sự hối tiếc hoặc chỉ trích: một việc đáng lẽ phải làm nhưng không làm. Dùng could have để nói về khả năng hoặc cơ hội đã mất trong quá khứ. Dùng would have (thường trong câu điều kiện loại 3) để mô tả kết quả không xảy ra nếu điều kiện trong quá khứ được đáp ứng.",
     "rule_en": "Use should have / could have / would have to talk about unrealised actions in the past.",
     "common_error": "❌ She should have went to the meeting.  →  ✅ She should have gone to the meeting.",
     "in_context": [
@@ -914,6 +914,39 @@
           "answer": "might"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc luôn là modal + have + V3 (past participle); không được chèn các từ khác giữa have và V3.",
+        "examples": [
+          "❌ He should have to go → ✅ He should have gone"
+        ]
+      },
+      {
+        "text": "Should have diễn tả sự hối tiếc hoặc chỉ trích; could have diễn tả khả năng hoặc cơ hội đã mất; would have dùng trong câu điều kiện loại 3 để nói kết quả không thực tế.",
+        "examples": [
+          "✅ She should have studied harder",
+          "✅ He could have traveled abroad",
+          "✅ If they had listened, they would have succeeded"
+        ]
+      },
+      {
+        "text": "Trong giao tiếp thông thường người nói thường dùng dạng rút gọn should've, could've, would've.",
+        "examples": [
+          "✅ You should've called me"
+        ]
+      },
+      {
+        "text": "Không dùng quá khứ hoàn thành (had + V3) thay cho modal perfect; modal already biểu thị thời gian quá khứ.",
+        "examples": [
+          "❌ She had should gone → ✅ She should have gone"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nhiều người lẽ ra nên hành động để đấu tranh chống bất công.",
+      "Các chiến dịch nhằm tăng cường đại diện có thể đã giúp nâng cao nhận thức về những vấn đề này trên toàn thế giới.",
+      "Một xã hội dựa trên sự hòa nhập và tôn trọng sẽ tốt hơn cho mọi người."
+    ]
   }
 }

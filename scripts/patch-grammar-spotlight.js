@@ -105,6 +105,73 @@ async function callAPI(prompt, retries = 4) {
   throw new Error('Rate limit exceeded after retries')
 }
 
+// ── Auto-export markdown after each patch ─────────────────────────────────────
+const MD_DIR = path.join(__dirname, '..', 'data', 'grammar-spotlight')
+if (!fs.existsSync(MD_DIR)) fs.mkdirSync(MD_DIR, { recursive: true })
+
+function exportBookMd(num) {
+  const dir   = path.join(__dirname, '..', 'data', 'vocabwise', `book${num}`)
+  const files = fs.readdirSync(dir).filter(f => f.match(/^b\d-t\d+\.json$/)).sort()
+  const lines = [
+    `# Grammar Spotlight — Book ${num}`,
+    ``,
+    `> Chỉnh sửa nội dung trong file này, sau đó chạy:`,
+    `> \`node scripts/export-grammar-spotlight.js --import --book ${num}\``,
+    ``,
+  ]
+  for (const f of files) {
+    const id  = f.replace('.json', '')
+    const json = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf-8'))
+    const gs  = json.grammar_spotlight
+    if (!gs) continue
+    const form = [
+      `✚ ${gs.form.positive}`,
+      gs.form.negative ? `✖ ${gs.form.negative}` : '',
+      gs.form.question ? `? ${gs.form.question}` : '',
+      gs.form.variant  ? `↳ ${gs.form.variant}`  : '',
+    ].filter(Boolean).join('\n')
+    const usageNotes = (gs.usage_notes ?? []).map((n, i) => {
+      const text = typeof n === 'string' ? n : n.text
+      const exs  = typeof n === 'string' ? [] : (n.examples ?? [])
+      return [
+        `${i + 1}. ${text}`,
+        ...exs.map(e => `  - ${e}`),
+      ].join('\n')
+    }).join('\n')
+    const inContext = (gs.in_context ?? []).map((en, i) => {
+      const vi = gs.in_context_vi?.[i] ?? ''
+      return `- EN: ${en}\n  VI: ${vi}`
+    }).join('\n')
+    lines.push(
+      `<!-- topic: ${id} -->`,
+      `## ${id} · ${gs.grammar_point} · ${gs.level}`,
+      ``,
+      `**Tiếng Việt:** ${gs.vi_grammar_point}`,
+      ``,
+      `### Cấu trúc`,
+      '```',
+      form,
+      '```',
+      ``,
+      `### Giải thích`,
+      gs.rule_vi,
+      ``,
+      `### Lưu ý`,
+      usageNotes || '_(chưa có)_',
+      ``,
+      `### Lỗi thường gặp`,
+      gs.common_error,
+      ``,
+      `### Trong bài đọc`,
+      inContext || '_(chưa có)_',
+      ``,
+      `<!-- /topic -->`,
+      ``,
+    )
+  }
+  fs.writeFileSync(path.join(MD_DIR, `book${num}.md`), lines.join('\n'), 'utf-8')
+}
+
 async function patchTopic(topicId) {
   const jsonPath = path.join(DATA_DIR, `${topicId}.json`)
   if (!fs.existsSync(jsonPath)) { console.log('  ⚠️  Not found'); return false }
@@ -166,6 +233,7 @@ async function patchTopic(topicId) {
 
   fs.writeFileSync(jsonPath, JSON.stringify(json, null, 2), 'utf-8')
   console.log(`  ✅ rule_vi ${parsed.rule_vi.length}c | ${parsed.usage_notes.length} notes | ${parsed.in_context_vi.length} VI`)
+  exportBookMd(bookNum)
   return true
 }
 
@@ -192,7 +260,7 @@ async function main() {
     if (dryRun) { console.log('  (dry run)'); continue }
     const success = await patchTopic(id)
     if (success) ok++; else fail++
-    if (fail > 8) { console.log('\n⛔ Too many failures, stopping.'); break }
+    if (fail > 20) { console.log('\n⛔ Too many failures, stopping.'); break }
     await sleep(DELAY_MS)
   }
 
