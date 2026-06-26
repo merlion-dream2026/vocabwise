@@ -673,5 +673,160 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Polite requests (Can / Could / Would you...? / May I...?)",
+    "vi_grammar_point": "Các cách yêu cầu lịch sự",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal verb (Can/Could/Would/May) + base verb + (object)",
+      "question": "Modal verb + subject + base verb + (object)?",
+      "variant": "May I + base verb + (object)?"
+    },
+    "rule_vi": "Dùng các động từ khiếm khuyết như can, could, would, may để yêu cầu một cách lịch sự.",
+    "rule_en": "Use can, could, would, may to make polite requests.",
+    "common_error": "❌ *Can you to open the window?*  →  ✅ *Can you open the window?*",
+    "in_context": [
+      "You **can** say 'excuse me' to get someone's attention.",
+      "If you do not understand, **could you** say 'say again, please'?",
+      "When you need directions, **would you** help me, please?"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu yêu cầu lịch sự.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ you open the window, please?",
+          "options": [
+            "Should",
+            "Will",
+            "Can",
+            "May"
+          ],
+          "answer": "Can"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ I borrow your pen?",
+          "options": [
+            "May",
+            "Could",
+            "Will",
+            "Should"
+          ],
+          "answer": "May"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ you tell me the time?",
+          "options": [
+            "Would",
+            "Could",
+            "May",
+            "Shall"
+          ],
+          "answer": "Could"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you pass the salt?",
+          "options": [
+            "Would",
+            "Can",
+            "Might",
+            "Should"
+          ],
+          "answer": "Would"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ I sit here?",
+          "options": [
+            "Can",
+            "Will",
+            "May",
+            "Do"
+          ],
+          "answer": "May"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Can",
+            "you",
+            "close",
+            "the",
+            "door"
+          ],
+          "answer": "Can you close the door"
+        },
+        {
+          "id": 2,
+          "words": [
+            "May",
+            "I",
+            "use",
+            "your",
+            "phone"
+          ],
+          "answer": "May I use your phone"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Would",
+            "you",
+            "help",
+            "me",
+            "please"
+          ],
+          "answer": "Would you help me please"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Can",
+        "Could",
+        "May",
+        "Would",
+        "please",
+        "Should"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ you tell me the time?",
+          "answer": "Could"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ I borrow your book?",
+          "answer": "May"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ you pass the salt?",
+          "answer": "Would"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you open the window?",
+          "answer": "Can"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ I sit here?",
+          "answer": "May"
+        }
+      ]
+    }
   }
 }

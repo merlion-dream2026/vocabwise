@@ -658,5 +658,170 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Time clauses (when / before / after / as soon as)",
+    "vi_grammar_point": "Mệnh đề thời gian",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Main clause + (when/before/after/as soon as) + Subject + Verb",
+      "negative": "Main clause + (when/before/after/as soon as) + Subject + do/does not + Verb",
+      "question": "(When/Before/After/As soon as) + does + Subject + Verb ?",
+      "variant": "As soon as + clause , main clause"
+    },
+    "rule_vi": "Dùng mệnh đề thời gian để nói về một hành động xảy ra trước, sau hoặc đồng thời với hành động khác.",
+    "rule_en": "Use time clauses to show when one action happens relative to another.",
+    "common_error": "❌ *When* I will finish my work, I can rest.  →  ✅ *When* I finish my work, I can rest.",
+    "in_context": [
+      "**After reading**, we retell the story to a partner.",
+      "**When we meet the main character**, we learn about the setting.",
+      "**Before the hero solves the big problem**, the plot gets exciting."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ I finish my homework, I will watch TV.",
+          "options": [
+            "When",
+            "Before",
+            "After",
+            "As soon as"
+          ],
+          "answer": "After"
+        },
+        {
+          "id": 2,
+          "sentence": "She will call you _____ she arrives at the airport.",
+          "options": [
+            "as soon as",
+            "before",
+            "when",
+            "after"
+          ],
+          "answer": "when"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the rain stops, we can go outside.",
+          "options": [
+            "After",
+            "When",
+            "Before",
+            "As soon as"
+          ],
+          "answer": "When"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you eat breakfast, you should brush your teeth.",
+          "options": [
+            "As soon as",
+            "After",
+            "When",
+            "Before"
+          ],
+          "answer": "After"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the bell rings, the class will start.",
+          "options": [
+            "Before",
+            "After",
+            "As soon as",
+            "When"
+          ],
+          "answer": "When"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "after",
+            "reading",
+            "the",
+            "book",
+            "I",
+            "feel",
+            "relaxed"
+          ],
+          "answer": "After reading the book I feel relaxed"
+        },
+        {
+          "id": 2,
+          "words": [
+            "when",
+            "she",
+            "arrives",
+            "we",
+            "will",
+            "start",
+            "the",
+            "meeting"
+          ],
+          "answer": "When she arrives we will start the meeting"
+        },
+        {
+          "id": 3,
+          "words": [
+            "as",
+            "soon",
+            "as",
+            "the",
+            "rain",
+            "stops",
+            "we",
+            "go",
+            "outside"
+          ],
+          "answer": "As soon as the rain stops we go outside"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "when",
+        "before",
+        "after",
+        "as soon as",
+        "while",
+        "until"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ I get home, I will call you.",
+          "answer": "when"
+        },
+        {
+          "id": 2,
+          "sentence": "She always drinks tea _____ she wakes up.",
+          "answer": "before"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ the movie ends, we will discuss it.",
+          "answer": "after"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you finish your work, you can go out.",
+          "answer": "as soon as"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ the sun rises, the birds start singing.",
+          "answer": "when"
+        }
+      ]
+    }
   }
 }

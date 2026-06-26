@@ -723,5 +723,167 @@
       "4": "B",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Going to (future plans)",
+    "vi_grammar_point": "Going to — diễn đạt kế hoạch tương lai",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + be (am/is/are) + going to + base verb",
+      "negative": "Subject + be + not + going to + base verb",
+      "question": "Am/Is/Are + Subject + going to + base verb",
+      "variant": "going to + infinitive (future intention)"
+    },
+    "rule_vi": "Dùng 'going to' để nói về kế hoạch hoặc dự định trong tương lai.",
+    "rule_en": "Use 'going to' to talk about future plans or intentions.",
+    "common_error": "❌ I going to celebrate → ✅ I am going to celebrate",
+    "in_context": [
+      "Families are going to come together to celebrate and share delicious food.",
+      "Children are going to carry balloons through the street.",
+      "Spectators are going to line the roads to watch soldiers, bands, and colourful floats pass by."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ (be) going to join the celebration tonight.",
+          "options": [
+            "will be joining",
+            "is going to join",
+            "going to join",
+            "does join"
+          ],
+          "answer": "is going to join"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ (plan) to go to the national day parade tomorrow.",
+          "options": [
+            "are going to go",
+            "is going to go",
+            "are going",
+            "will go"
+          ],
+          "answer": "are going to go"
+        },
+        {
+          "id": 3,
+          "sentence": "I _____ (not) going to stay up late after the fireworks.",
+          "options": [
+            "am not going to stay",
+            "am not going to stay",
+            "not am going to stay",
+            "am not staying"
+          ],
+          "answer": "am not going to stay"
+        },
+        {
+          "id": 4,
+          "sentence": "Are you _____ (come) to the Tet festival?",
+          "options": [
+            "going to come",
+            "go to come",
+            "will come",
+            "coming to"
+          ],
+          "answer": "going to come"
+        },
+        {
+          "id": 5,
+          "sentence": "We _____ (visit) the museum next Saturday.",
+          "options": [
+            "are going to visit",
+            "going to visit",
+            "will visit",
+            "visit"
+          ],
+          "answer": "are going to visit"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "are",
+            "going",
+            "to",
+            "watch",
+            "the",
+            "parade",
+            "tomorrow"
+          ],
+          "answer": "are going to watch the parade tomorrow"
+        },
+        {
+          "id": 2,
+          "words": [
+            "is",
+            "going",
+            "to",
+            "celebrate",
+            "the",
+            "festival",
+            "tonight"
+          ],
+          "answer": "is going to celebrate the festival tonight"
+        },
+        {
+          "id": 3,
+          "words": [
+            "am",
+            "not",
+            "going",
+            "to",
+            "stay",
+            "up",
+            "late"
+          ],
+          "answer": "am not going to stay up late"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "celebrate",
+        "watch",
+        "visit",
+        "eat",
+        "play",
+        "set"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "We are going to _____ the parade tomorrow.",
+          "answer": "watch"
+        },
+        {
+          "id": 2,
+          "sentence": "My family is going to _____ a special dinner on New Year's Eve.",
+          "answer": "eat"
+        },
+        {
+          "id": 3,
+          "sentence": "Children are going to _____ balloons in the street later.",
+          "answer": "play"
+        },
+        {
+          "id": 4,
+          "sentence": "The organizers are going to _____ fireworks at midnight.",
+          "answer": "set"
+        },
+        {
+          "id": 5,
+          "sentence": "Tourists are going to _____ the museum after the festival.",
+          "answer": "visit"
+        }
+      ]
+    }
   }
 }

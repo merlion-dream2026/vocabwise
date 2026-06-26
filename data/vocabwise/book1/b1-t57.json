@@ -723,5 +723,163 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Passive voice — basic (is/are + past participle)",
+    "vi_grammar_point": "Câu bị động cơ bản",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + is/are + past participle (+ by Agent)",
+      "negative": "Subject + is/are + not + past participle",
+      "question": "Is/Are + subject + past participle?",
+      "variant": "Subject + was/were + past participle"
+    },
+    "rule_vi": "Dùng để nhấn mạnh hành động hoặc đối tượng bị tác động, khi người thực hiện không cần nêu ra.",
+    "rule_en": "Used to focus on the action or the receiver, when the doer is unknown or unimportant.",
+    "common_error": "❌ The signs is placed on the wall.  →  ✅ The signs are placed on the wall.",
+    "in_context": [
+      "A warning sign is placed to alert us of danger.",
+      "The notice on the door is kept closed during the night.",
+      "The escape route is followed by everyone in an emergency."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ bị động để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The signs ____ painted red in many buildings.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "be"
+          ],
+          "answer": "are"
+        },
+        {
+          "id": 2,
+          "sentence": "The notice on the door ____ kept closed during the night.",
+          "options": [
+            "are",
+            "was",
+            "is",
+            "were"
+          ],
+          "answer": "is"
+        },
+        {
+          "id": 3,
+          "sentence": "All instructions ____ followed carefully by the staff.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "be"
+          ],
+          "answer": "are"
+        },
+        {
+          "id": 4,
+          "sentence": "The emergency exit ____ closed after the fire drill.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "are"
+          ],
+          "answer": "was"
+        },
+        {
+          "id": 5,
+          "sentence": "The colour code ____ used in the laboratory.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "answer": "is"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "signs",
+            "are",
+            "placed",
+            "on",
+            "walls"
+          ],
+          "answer": "the signs are placed on walls"
+        },
+        {
+          "id": 2,
+          "words": [
+            "the",
+            "notice",
+            "is",
+            "kept",
+            "closed"
+          ],
+          "answer": "the notice is kept closed"
+        },
+        {
+          "id": 3,
+          "words": [
+            "the",
+            "route",
+            "is",
+            "followed",
+            "by",
+            "everyone"
+          ],
+          "answer": "the route is followed by everyone"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "are",
+        "was",
+        "were",
+        "is",
+        "been",
+        "be"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The signs ____ painted blue in the hallway.",
+          "answer": "are"
+        },
+        {
+          "id": 2,
+          "sentence": "The instruction ____ posted on the board yesterday.",
+          "answer": "was"
+        },
+        {
+          "id": 3,
+          "sentence": "All warnings ____ displayed at the entrance.",
+          "answer": "were"
+        },
+        {
+          "id": 4,
+          "sentence": "The emergency alarm ____ activated during the drill.",
+          "answer": "is"
+        },
+        {
+          "id": 5,
+          "sentence": "The exit signs ____ kept clean.",
+          "answer": "been"
+        }
+      ]
+    }
   }
 }

@@ -667,5 +667,160 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Prepositions of direction (turn left / go straight / past / over)",
+    "vi_grammar_point": "Giới từ và cụm từ chỉ hướng",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb (go/turn/walk) + Preposition + Direction phrase",
+      "negative": "Subject + do not + Verb + Preposition + Direction phrase"
+    },
+    "rule_vi": "Dùng các giới từ này để chỉ hướng di chuyển trong không gian, như đi thẳng, rẽ trái, đi qua hoặc băng qua.",
+    "rule_en": "Use these prepositions to describe movement from one place to another.",
+    "common_error": "❌ He go straight to the library.  →  ✅ He goes straight to the library.",
+    "in_context": [
+      "**Go straight** along this road for one block.",
+      "Then **turn left** at the big corner — you will see a sign that says 'City Library'.",
+      "She **passed** a small café on her right and kept walking."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "He _______ the park and then went home.",
+          "options": [
+            "over",
+            "around",
+            "past",
+            "through"
+          ],
+          "answer": "past"
+        },
+        {
+          "id": 2,
+          "sentence": "When you reach the bridge, you should go ___ it.",
+          "options": [
+            "under",
+            "over",
+            "around",
+            "through"
+          ],
+          "answer": "over"
+        },
+        {
+          "id": 3,
+          "sentence": "To get to the museum, _______ right at the traffic lights.",
+          "options": [
+            "go straight",
+            "turn left",
+            "turn right",
+            "go back"
+          ],
+          "answer": "turn right"
+        },
+        {
+          "id": 4,
+          "sentence": "The shop is two blocks ___ the school.",
+          "options": [
+            "behind",
+            "near",
+            "past",
+            "over"
+          ],
+          "answer": "past"
+        },
+        {
+          "id": 5,
+          "sentence": "After the library, walk ___ until you see the fountain.",
+          "options": [
+            "right",
+            "around",
+            "straight",
+            "left"
+          ],
+          "answer": "straight"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "go",
+            "straight",
+            "to",
+            "the",
+            "park"
+          ],
+          "answer": "go straight to the park"
+        },
+        {
+          "id": 2,
+          "words": [
+            "turn",
+            "left",
+            "at",
+            "the",
+            "corner"
+          ],
+          "answer": "turn left at the corner"
+        },
+        {
+          "id": 3,
+          "words": [
+            "walk",
+            "past",
+            "the",
+            "café",
+            "and",
+            "continue"
+          ],
+          "answer": "walk past the café and continue"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "past",
+        "over",
+        "straight",
+        "left",
+        "right",
+        "around"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She walked ___ the museum to reach the garden.",
+          "answer": "past"
+        },
+        {
+          "id": 2,
+          "sentence": "You need to go ___ to find the exit.",
+          "answer": "straight"
+        },
+        {
+          "id": 3,
+          "sentence": "At the intersection, turn ___.",
+          "answer": "right"
+        },
+        {
+          "id": 4,
+          "sentence": "The bridge is ahead; you must cross ___.",
+          "answer": "over"
+        },
+        {
+          "id": 5,
+          "sentence": "When you see the sign, turn ___.",
+          "answer": "left"
+        }
+      ]
+    }
   }
 }

@@ -673,5 +673,171 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "First Conditional (If... will...)",
+    "vi_grammar_point": "Câu điều kiện loại 1",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "If + Subject + Present Simple, Subject + will + Base Verb",
+      "negative": "If + Subject + Present Simple, Subject + will not + Base Verb",
+      "question": "Will + Subject + Base Verb if + Subject + Present Simple?",
+      "variant": "If + Subject + Present Simple, Subject + can + Base Verb"
+    },
+    "rule_vi": "Dùng câu điều kiện loại 1 để nói về một khả năng trong tương lai, khi một hành động hiện tại xảy ra thì kết quả sẽ xảy ra.",
+    "rule_en": "Use the first conditional to talk about a real or possible future situation.",
+    "common_error": "❌ If it will rain, we will stay home.  →  ✅ If it rains, we will stay home.",
+    "in_context": [
+      "**If the technician replaces the broken part, the machine will work.**",
+      "**If we use the right tool, the damage will be fixed.**",
+      "**If the class begins on time, the teacher will be pleased.**"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu điều kiện loại 1.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If it _____ tomorrow, we will go to the park.",
+          "options": [
+            "rained",
+            "will rain",
+            "rains",
+            "rain"
+          ],
+          "answer": "rains"
+        },
+        {
+          "id": 2,
+          "sentence": "If she _____ the report, the manager will be happy.",
+          "options": [
+            "finishes",
+            "finished",
+            "will finish",
+            "finishing"
+          ],
+          "answer": "finishes"
+        },
+        {
+          "id": 3,
+          "sentence": "If they _____ the problem quickly, the class will start on time.",
+          "options": [
+            "will solve",
+            "solved",
+            "solving",
+            "solve"
+          ],
+          "answer": "solve"
+        },
+        {
+          "id": 4,
+          "sentence": "If you _____ the tool, you will fix the machine.",
+          "options": [
+            "used",
+            "use",
+            "using",
+            "will use"
+          ],
+          "answer": "use"
+        },
+        {
+          "id": 5,
+          "sentence": "If the wire _____, the lights will go out.",
+          "options": [
+            "breaks",
+            "will break",
+            "breaking",
+            "broke"
+          ],
+          "answer": "breaks"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "If",
+            "it",
+            "rains",
+            "we",
+            "will",
+            "stay",
+            "inside"
+          ],
+          "answer": "If it rains we will stay inside"
+        },
+        {
+          "id": 2,
+          "words": [
+            "If",
+            "she",
+            "studies",
+            "hard",
+            "she",
+            "will",
+            "pass",
+            "the",
+            "test"
+          ],
+          "answer": "If she studies hard she will pass the test"
+        },
+        {
+          "id": 3,
+          "words": [
+            "If",
+            "you",
+            "are",
+            "late",
+            "you",
+            "will",
+            "miss",
+            "the",
+            "bus"
+          ],
+          "answer": "If you are late you will miss the bus"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống (từ trong ngân hàng).",
+      "word_bank": [
+        "rains",
+        "finishes",
+        "solve",
+        "use",
+        "breaks",
+        "helps"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "If it _____ tomorrow, we will cancel the picnic.",
+          "answer": "rains"
+        },
+        {
+          "id": 2,
+          "sentence": "If she _____ the assignment, she will get a good grade.",
+          "answer": "finishes"
+        },
+        {
+          "id": 3,
+          "sentence": "If they _____ the issue, the meeting will continue.",
+          "answer": "solve"
+        },
+        {
+          "id": 4,
+          "sentence": "If you _____ the instructions, you will assemble it correctly.",
+          "answer": "use"
+        },
+        {
+          "id": 5,
+          "sentence": "If the wire _____, the lights will go out.",
+          "answer": "breaks"
+        }
+      ]
+    }
   }
 }

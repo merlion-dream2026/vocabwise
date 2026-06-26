@@ -723,5 +723,167 @@
       "4": "C",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reported speech — basic (say and tell)",
+    "vi_grammar_point": "Câu gián tiếp cơ bản với say và tell",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + say/tell + (that) + Clause",
+      "negative": "Subject + didn't say/didn't tell + (that) + Clause",
+      "question": "Did + Subject + say/tell + (that) + Clause?",
+      "variant": "Subject + say + to + Object + (that) + Clause"
+    },
+    "rule_vi": "Dùng để truyền đạt lời nói của người khác; dùng say cho lời nói chung, tell cho người nghe cụ thể.",
+    "rule_en": "Used to report what someone said.",
+    "common_error": "❌ She said she is busy → ✅ She said she was busy",
+    "in_context": [
+      "I said **that I would put my phone on silent mode** during the meeting.",
+      "My colleague told me **that I should turn off every alert** to stay focused.",
+      "He said **that he would check his network settings** before traveling abroad."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng đúng của động từ nói (say/tell) để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ that she will send a text later.",
+          "options": [
+            "tells",
+            "said",
+            "saying",
+            "say"
+          ],
+          "answer": "said"
+        },
+        {
+          "id": 2,
+          "sentence": "The manager _____ us to check the voicemail.",
+          "options": [
+            "said",
+            "told",
+            "says",
+            "telling"
+          ],
+          "answer": "told"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ that the line is busy.",
+          "options": [
+            "said",
+            "tells",
+            "saying",
+            "say"
+          ],
+          "answer": "said"
+        },
+        {
+          "id": 4,
+          "sentence": "They _____ me that they can call back later.",
+          "options": [
+            "said",
+            "told",
+            "says",
+            "telling"
+          ],
+          "answer": "told"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ you that I will be back soon.",
+          "options": [
+            "told",
+            "say",
+            "said",
+            "telling"
+          ],
+          "answer": "told"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "said",
+            "that",
+            "I",
+            "will",
+            "call",
+            "later"
+          ],
+          "answer": "I said that I will call later"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "told",
+            "me",
+            "to",
+            "check",
+            "the",
+            "message"
+          ],
+          "answer": "She told me to check the message"
+        },
+        {
+          "id": 3,
+          "words": [
+            "They",
+            "say",
+            "that",
+            "the",
+            "phone",
+            "is",
+            "dead"
+          ],
+          "answer": "They say that the phone is dead"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ ngân hàng vào chỗ trống.",
+      "word_bank": [
+        "said",
+        "told",
+        "that",
+        "to",
+        "will",
+        "maybe"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She ___ that the meeting is postponed.",
+          "answer": "said"
+        },
+        {
+          "id": 2,
+          "sentence": "The manager ___ us to turn off alerts.",
+          "answer": "told"
+        },
+        {
+          "id": 3,
+          "sentence": "I think ___ you will call later.",
+          "answer": "that"
+        },
+        {
+          "id": 4,
+          "sentence": "He promised ___ call me tonight.",
+          "answer": "to"
+        },
+        {
+          "id": 5,
+          "sentence": "She might ___ come tomorrow.",
+          "answer": "maybe"
+        }
+      ]
+    }
   }
 }

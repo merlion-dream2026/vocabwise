@@ -723,5 +723,156 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Question words (who / what / where / when / why / how)",
+    "vi_grammar_point": "Từ để hỏi",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + Object",
+      "question": "WH‑word + auxiliary (do/does/is/are) + subject + main verb"
+    },
+    "rule_vi": "Dùng các từ để hỏi (who, what, where, when, why, how) để đặt câu hỏi về người, vật, địa điểm, thời gian, lý do và cách thức.",
+    "rule_en": "Use question words to ask about who, what, where, when, why, and how.",
+    "common_error": "❌ Where you are from?  →  ✅ Where are you from?",
+    "in_context": [
+      "I ask friendly questions like Where are you from?",
+      "I ask friendly questions like What is your country?",
+      "I often ask How do you like the city?"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ đúng để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ did you meet at the conference?",
+          "options": [
+            "When",
+            "Who",
+            "Where",
+            "What"
+          ],
+          "answer": "Who"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ is your favorite hobby?",
+          "options": [
+            "When",
+            "Why",
+            "What",
+            "How"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ are you staying during your visit?",
+          "options": [
+            "Why",
+            "When",
+            "Where",
+            "Who"
+          ],
+          "answer": "Where"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ did you start learning English?",
+          "options": [
+            "Who",
+            "How",
+            "When",
+            "What"
+          ],
+          "answer": "When"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ do you like coffee?",
+          "options": [
+            "What",
+            "Why",
+            "Where",
+            "Who"
+          ],
+          "answer": "Why"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "are",
+            "you",
+            "from",
+            "Where"
+          ],
+          "answer": "Where are you from"
+        },
+        {
+          "id": 2,
+          "words": [
+            "is",
+            "your",
+            "name",
+            "What"
+          ],
+          "answer": "What is your name"
+        },
+        {
+          "id": 3,
+          "words": [
+            "How",
+            "do",
+            "you",
+            "live"
+          ],
+          "answer": "How do you live"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Chọn từ đúng trong ngân hàng từ để điền vào chỗ trống.",
+      "word_bank": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "which"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ are you meeting tomorrow?",
+          "answer": "who"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ is the meeting room?",
+          "answer": "where"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ time does the workshop start?",
+          "answer": "when"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ is the purpose of the gathering?",
+          "answer": "why"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ topic will be discussed?",
+          "answer": "what"
+        }
+      ]
+    }
   }
 }

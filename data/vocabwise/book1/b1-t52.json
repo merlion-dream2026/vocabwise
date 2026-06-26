@@ -726,5 +726,165 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Present Perfect with just / already / yet",
+    "vi_grammar_point": "Hiện tại hoàn thành với just / already / yet",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + have/has + past participle + just/already",
+      "negative": "Subject + have/has + not + past participle + yet",
+      "question": "Have/Has + subject + past participle + already/yet?",
+      "variant": "Subject + have/has + just + past participle"
+    },
+    "rule_vi": "Dùng hiện tại hoàn thành để nói một hành động vừa mới xảy ra (just), đã hoàn thành trước thời điểm nói (already), hoặc chưa xảy ra (yet).",
+    "rule_en": "Use the present perfect with just, already or yet to show a recent action, a completed action, or an action that has not happened yet.",
+    "common_error": "❌ She have already finished her homework.  →  ✅ She has already finished her homework.",
+    "in_context": [
+      "Many people have **just** created an account on a social media app.",
+      "They have **already** uploaded many photos to their profile.",
+      "Some users have not **yet** joined a group."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ phù hợp để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Tom _____ finished his profile picture.",
+          "options": [
+            "has yet",
+            "has just",
+            "have already",
+            "has"
+          ],
+          "answer": "has just"
+        },
+        {
+          "id": 2,
+          "sentence": "We _____ received a notification about the new comment.",
+          "options": [
+            "have already",
+            "has just",
+            "have yet",
+            "has"
+          ],
+          "answer": "have already"
+        },
+        {
+          "id": 3,
+          "sentence": "She _____ posted a video about online safety.",
+          "options": [
+            "has yet",
+            "has just",
+            "have already",
+            "has"
+          ],
+          "answer": "has just"
+        },
+        {
+          "id": 4,
+          "sentence": "They _____ started a live stream today.",
+          "options": [
+            "have yet",
+            "have just",
+            "has already",
+            "have"
+          ],
+          "answer": "have just"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ bought a new phone for uploading files.",
+          "options": [
+            "have already",
+            "has yet",
+            "have just",
+            "has"
+          ],
+          "answer": "have already"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "uploaded",
+            "I",
+            "have",
+            "photo",
+            "just",
+            "a"
+          ],
+          "answer": "I have just uploaded a photo"
+        },
+        {
+          "id": 2,
+          "words": [
+            "joined",
+            "she",
+            "already",
+            "has",
+            "group",
+            "the"
+          ],
+          "answer": "She has already joined the group"
+        },
+        {
+          "id": 3,
+          "words": [
+            "not",
+            "yet",
+            "they",
+            "have",
+            "liked",
+            "the",
+            "post"
+          ],
+          "answer": "They have not liked the post yet"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "just",
+        "already",
+        "yet",
+        "still",
+        "never",
+        "often"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I have _____ finished my homework.",
+          "answer": "just"
+        },
+        {
+          "id": 2,
+          "sentence": "She has _____ visited the new social media platform.",
+          "answer": "already"
+        },
+        {
+          "id": 3,
+          "sentence": "They haven't _____ posted a comment.",
+          "answer": "yet"
+        },
+        {
+          "id": 4,
+          "sentence": "He has _____ logged in today.",
+          "answer": "still"
+        },
+        {
+          "id": 5,
+          "sentence": "We have _____ seen that trend before.",
+          "answer": "never"
+        }
+      ]
+    }
   }
 }

@@ -658,5 +658,168 @@
       "4": "C",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Formal vs informal register",
+    "vi_grammar_point": "Văn phong trang trọng và thân mật",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + modal verb + base verb (e.g., I would like to ...)",
+      "negative": "Subject + modal verb + not + base verb (e.g., I would not ...)",
+      "question": "Modal verb + subject + base verb? (e.g., Would you ...?)",
+      "variant": "Subject + would + verb‑ing (e.g., I would be grateful if you could ...)"
+    },
+    "rule_vi": "Dùng cách diễn đạt trang trọng khi viết email công việc; dùng cách thân mật khi viết cho bạn bè.",
+    "rule_en": "Use a formal register for professional messages and an informal register for casual ones.",
+    "common_error": "❌ Hey Sir, I need the report.  →  ✅ Dear Sir, I need the report.",
+    "in_context": [
+      "Is this a **professional email** to your teacher, or an **informal note** to a friend?",
+      "A **professional** email starts with a greeting and ends with a closing.",
+      "A message with many mistakes does not look **professional**."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ/phrase phù hợp để hoàn thành câu theo ngữ cảnh trang trọng hoặc thân mật.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ Mr. Lee, could you please review the draft?",
+          "options": [
+            "Yo",
+            "Dear",
+            "Hey",
+            "Hi"
+          ],
+          "answer": "Dear"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ Sarah, thanks for the quick reply!",
+          "options": [
+            "Hello",
+            "Hey",
+            "Regards",
+            "Dear"
+          ],
+          "answer": "Hey"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ team, please submit your timesheets by Friday.",
+          "options": [
+            "Hi",
+            "Yo",
+            "Hey",
+            "Dear"
+          ],
+          "answer": "Dear"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ buddy, let's catch up later!",
+          "options": [
+            "Regards",
+            "Yo",
+            "Dear",
+            "Hello"
+          ],
+          "answer": "Yo"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ Professor, I would like to schedule a meeting.",
+          "options": [
+            "Dear",
+            "Yo",
+            "Hey",
+            "Hi"
+          ],
+          "answer": "Dear"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Dear",
+            "Dr",
+            "Brown",
+            "please",
+            "find",
+            "the",
+            "attached",
+            "document"
+          ],
+          "answer": "Dear Dr Brown please find the attached document"
+        },
+        {
+          "id": 2,
+          "words": [
+            "Hey",
+            "Mike",
+            "let's",
+            "meet",
+            "at",
+            "the",
+            "cafe"
+          ],
+          "answer": "Hey Mike let's meet at the cafe"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Regards",
+            "John",
+            "thank",
+            "you",
+            "for",
+            "your",
+            "help"
+          ],
+          "answer": "Regards John thank you for your help"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "Dear",
+        "Hi",
+        "Regards",
+        "Thanks",
+        "Best",
+        "Yo"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ Professor, I have a question about the assignment.",
+          "answer": "Dear"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ Tom, can you send me the file?",
+          "answer": "Hi"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ all, please review the minutes.",
+          "answer": "Regards"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ for your assistance.",
+          "answer": "Thanks"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ wishes, Anna",
+          "answer": "Best"
+        }
+      ]
+    }
   }
 }

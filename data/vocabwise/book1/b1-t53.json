@@ -658,5 +658,163 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Modal verbs for requests (Could / Would you...?)",
+    "vi_grammar_point": "Động từ khuyết thiếu cho yêu cầu lịch sự",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Could + subject + base verb + (object)",
+      "negative": "Could you not + base verb + (object)",
+      "question": "Could you + base verb + (object)?",
+      "variant": "Would you + base verb + (object)?"
+    },
+    "rule_vi": "Dùng 'Could' hoặc 'Would' để yêu cầu lịch sự; thường đặt sau đại từ nhân xưng.",
+    "rule_en": "Use 'Could' or 'Would' to make polite requests.",
+    "common_error": "❌ Could you to help me?  →  ✅ Could you help me?",
+    "in_context": [
+      "Lan asks the staff member, **Could you** help her with the parcel?",
+      "The staff member says, **Would you** like to pay the extra fee for fast service?",
+      "Before leaving, Lan politely says, **Could you** tell me where to track my parcel?"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn dạng động từ khuyết thiếu đúng để hoàn thành câu yêu cầu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ you open the window, please?",
+          "options": [
+            "Would",
+            "Must",
+            "Could",
+            "Should"
+          ],
+          "answer": "Could"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ you mind waiting a moment?",
+          "options": [
+            "Could",
+            "Should",
+            "Must",
+            "Would"
+          ],
+          "answer": "Would"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ you give me a stamp?",
+          "options": [
+            "Should",
+            "Would",
+            "Must",
+            "Could"
+          ],
+          "answer": "Could"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you tell me the price?",
+          "options": [
+            "Would",
+            "Must",
+            "Should",
+            "Could"
+          ],
+          "answer": "Would"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ you help me carry this box?",
+          "options": [
+            "Must",
+            "Would",
+            "Could",
+            "Should"
+          ],
+          "answer": "Could"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "you",
+            "please",
+            "could",
+            "help",
+            "me"
+          ],
+          "answer": "Could you please help me"
+        },
+        {
+          "id": 2,
+          "words": [
+            "door",
+            "the",
+            "mind",
+            "Would",
+            "closing",
+            "you"
+          ],
+          "answer": "Would you mind closing the door"
+        },
+        {
+          "id": 3,
+          "words": [
+            "time",
+            "tell",
+            "you",
+            "the",
+            "Could",
+            "me"
+          ],
+          "answer": "Could you tell me the time"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp (Could / Would) vào chỗ trống.",
+      "word_bank": [
+        "Could",
+        "Would",
+        "Can",
+        "Should",
+        "May",
+        "Might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ you pass me the parcel?",
+          "answer": "Could"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ you let me know when the parcel arrives?",
+          "answer": "Would"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ you help me fill out the form?",
+          "answer": "Could"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ you check the address again?",
+          "answer": "Would"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ you give me a receipt?",
+          "answer": "Could"
+        }
+      ]
+    }
   }
 }

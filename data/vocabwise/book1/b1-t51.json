@@ -726,5 +726,155 @@
       "4": "A",
       "5": "B"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Short answers (Yes I am / No I don't)",
+    "vi_grammar_point": "Câu trả lời ngắn",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Yes, Subject + auxiliary verb + main verb (or be)",
+      "negative": "No, Subject + auxiliary verb + not + main verb (or be)",
+      "question": "Auxiliary verb + Subject + ... ?",
+      "variant": "Yes, … / No, …"
+    },
+    "rule_vi": "Dùng câu trả lời ngắn để trả lời nhanh các câu hỏi Yes/No, thường bắt đầu bằng Yes hoặc No rồi theo sau là đại từ và động từ.",
+    "rule_en": "Use short answers to give a brief yes/no response, starting with Yes or No followed by the appropriate subject and verb.",
+    "common_error": "❌ Yes, I don't  →  ✅ No, I don't",
+    "in_context": [
+      "When you meet someone for the first time, can you say hello? **Yes, I can**.",
+      "Is it important to be polite? **Yes, it is**.",
+      "Do you say goodbye when you leave? **Yes, I do**."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn câu trả lời ngắn đúng cho mỗi câu hỏi.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Are you going to greet the new student? _____",
+          "options": [
+            "Yes, I am",
+            "No, I am",
+            "Yes, I do",
+            "No, I don't"
+          ],
+          "answer": "Yes, I am"
+        },
+        {
+          "id": 2,
+          "sentence": "Did you say goodbye to your teacher? _____",
+          "options": [
+            "No, I didn't",
+            "Yes, I did",
+            "No, I do",
+            "Yes, I am"
+          ],
+          "answer": "Yes, I did"
+        },
+        {
+          "id": 3,
+          "sentence": "Is it polite to smile when you greet? _____",
+          "options": [
+            "Yes, it is",
+            "No, it is",
+            "Yes, it aren't",
+            "No, it aren't"
+          ],
+          "answer": "Yes, it is"
+        },
+        {
+          "id": 4,
+          "sentence": "Do you need to bow in some countries? _____",
+          "options": [
+            "No, I don't",
+            "Yes, I do",
+            "No, I am",
+            "Yes, I am"
+          ],
+          "answer": "Yes, I do"
+        },
+        {
+          "id": 5,
+          "sentence": "Are you comfortable saying 'see you later'? _____",
+          "options": [
+            "No, I am not",
+            "Yes, I am",
+            "No, I don't",
+            "Yes, I do"
+          ],
+          "answer": "Yes, I am"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "Yes",
+            "I",
+            "am"
+          ],
+          "answer": "Yes I am"
+        },
+        {
+          "id": 2,
+          "words": [
+            "No",
+            "I",
+            "don't"
+          ],
+          "answer": "No I don't"
+        },
+        {
+          "id": 3,
+          "words": [
+            "Yes",
+            "we",
+            "are"
+          ],
+          "answer": "Yes we are"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền câu trả lời ngắn thích hợp vào chỗ trống.",
+      "word_bank": [
+        "Yes I am",
+        "No I am",
+        "Yes I do",
+        "No I don't",
+        "No I am not",
+        "Maybe I am"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Are you ready to greet? _____",
+          "answer": "Yes I am"
+        },
+        {
+          "id": 2,
+          "sentence": "Do you understand the instructions? _____",
+          "answer": "No I don't"
+        },
+        {
+          "id": 3,
+          "sentence": "Do you want coffee? _____",
+          "answer": "Yes I do"
+        },
+        {
+          "id": 4,
+          "sentence": "Are you busy now? _____",
+          "answer": "No I am not"
+        },
+        {
+          "id": 5,
+          "sentence": "Are you wet after the rain? _____",
+          "answer": "Yes I am"
+        }
+      ]
+    }
   }
 }

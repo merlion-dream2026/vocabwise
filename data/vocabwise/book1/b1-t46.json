@@ -723,5 +723,161 @@
       "4": "B",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Reflexive pronouns (myself / yourself / himself...)",
+    "vi_grammar_point": "Đại từ phản thân",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb + ReflexivePronoun",
+      "negative": "Subject + did not + Verb + ReflexivePronoun",
+      "question": "Did + Subject + Verb + ReflexivePronoun?",
+      "variant": "Subject + ReflexivePronoun + Verb (intensive use)"
+    },
+    "rule_vi": "Đại từ phản thân được dùng khi chủ ngữ và tân ngữ là cùng một người hoặc vật.",
+    "rule_en": "Reflexive pronouns are used when the subject and object refer to the same person or thing.",
+    "common_error": "❌ She gave the book to myself → ✅ She gave the book to me",
+    "in_context": [
+      "I always use a checklist to make sure I do not forget anything **myself**.",
+      "Before a trip, I remind **myself** to pack my bag the night before.",
+      "It is also important to confirm **yourself** that the booking is correct."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đại từ phản thân phù hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I looked at _____ in the mirror before the interview.",
+          "options": [
+            "him",
+            "myself",
+            "them",
+            "her"
+          ],
+          "answer": "myself"
+        },
+        {
+          "id": 2,
+          "sentence": "You should be careful not to hurt _____ while cooking.",
+          "options": [
+            "yourself",
+            "your",
+            "himself",
+            "themselves"
+          ],
+          "answer": "yourself"
+        },
+        {
+          "id": 3,
+          "sentence": "She taught _____ how to use the new software.",
+          "options": [
+            "herself",
+            "himself",
+            "themselves",
+            "myself"
+          ],
+          "answer": "herself"
+        },
+        {
+          "id": 4,
+          "sentence": "The cat cleaned _____ after the rain.",
+          "options": [
+            "himself",
+            "itself",
+            "herself",
+            "themselves"
+          ],
+          "answer": "itself"
+        },
+        {
+          "id": 5,
+          "sentence": "We prepared _____ for the presentation.",
+          "options": [
+            "yourself",
+            "ourselves",
+            "himself",
+            "myself"
+          ],
+          "answer": "ourselves"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "reminded",
+            "myself",
+            "I",
+            "study",
+            "to"
+          ],
+          "answer": "I reminded myself to study"
+        },
+        {
+          "id": 2,
+          "words": [
+            "class",
+            "to",
+            "herself",
+            "She",
+            "introduced"
+          ],
+          "answer": "She introduced herself to class"
+        },
+        {
+          "id": 3,
+          "words": [
+            "themselves",
+            "enjoyed",
+            "They",
+            "at",
+            "party"
+          ],
+          "answer": "They enjoyed themselves at party"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền đại từ phản thân thích hợp vào chỗ trống.",
+      "word_bank": [
+        "myself",
+        "yourself",
+        "himself",
+        "herself",
+        "themselves",
+        "ourselves"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "After the marathon, John felt proud of _____.",
+          "answer": "himself"
+        },
+        {
+          "id": 2,
+          "sentence": "Can you see _____ in the photograph?",
+          "answer": "yourself"
+        },
+        {
+          "id": 3,
+          "sentence": "The teacher asked each student to introduce _____.",
+          "answer": "themselves"
+        },
+        {
+          "id": 4,
+          "sentence": "She bought a gift for _____.",
+          "answer": "herself"
+        },
+        {
+          "id": 5,
+          "sentence": "We need to motivate _____ to finish the project.",
+          "answer": "ourselves"
+        }
+      ]
+    }
   }
 }

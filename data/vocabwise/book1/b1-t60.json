@@ -726,5 +726,158 @@
       "4": "A",
       "5": "A"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Yes/No and Wh- questions — full review",
+    "vi_grammar_point": "Ôn tập toàn bộ cấu trúc câu hỏi",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "S + V (+ O)",
+      "negative": "S + do/does + not + V (+ O)",
+      "question": "Do/Does + S + V (+ O)?   /   Wh‑word + auxiliary (do/does/is/are) + S + V (+ O)?",
+      "variant": "Is/Are + S + adjective/noun?   (inversion with be)"
+    },
+    "rule_vi": "Dùng để hỏi thông tin (câu Wh‑question) hoặc xác nhận (câu Yes/No) bằng cách đảo vị trí của trợ động từ và chủ ngữ.",
+    "rule_en": "Used to ask for information (Wh‑questions) or confirmation (Yes/No questions) by inverting the auxiliary verb and the subject.",
+    "common_error": "❌ What you is your name?  →  ✅ What is your name?",
+    "in_context": [
+      "Mai said, **\"What is your name?\"**",
+      "Lan laughed and gave the answer to each question clearly. **\"Why do we have class on Saturday?\"**",
+      "Mai said again, **\"How do you mean?\"**"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu hỏi.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ is your favorite color?",
+          "options": [
+            "How",
+            "What",
+            "Who",
+            "When"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ you like coffee?",
+          "options": [
+            "Are",
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "answer": "Do"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ did they arrive yesterday?",
+          "options": [
+            "Why",
+            "Who",
+            "When",
+            "Where"
+          ],
+          "answer": "When"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ is the library open?",
+          "options": [
+            "What",
+            "How",
+            "When",
+            "Who"
+          ],
+          "answer": "When"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ are you going tomorrow?",
+          "options": [
+            "Who",
+            "When",
+            "What",
+            "Where"
+          ],
+          "answer": "When"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "your",
+            "what",
+            "name",
+            "is"
+          ],
+          "answer": "What is your name"
+        },
+        {
+          "id": 2,
+          "words": [
+            "you",
+            "do",
+            "tea",
+            "like"
+          ],
+          "answer": "Do you like tea"
+        },
+        {
+          "id": 3,
+          "words": [
+            "did",
+            "when",
+            "she",
+            "arrive"
+          ],
+          "answer": "When did she arrive"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "what",
+        "when",
+        "why",
+        "who",
+        "how",
+        "does"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ is your favorite subject?",
+          "answer": "what"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ did the train leave?",
+          "answer": "when"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ are you late?",
+          "answer": "why"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ called you last night?",
+          "answer": "who"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ can I reach the office?",
+          "answer": "how"
+        }
+      ]
+    }
   }
 }

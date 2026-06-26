@@ -209,9 +209,13 @@ function validate(obj) {
   for (const item of obj.ex1_mcq.items) {
     if (!item.options.includes(item.answer)) return `MCQ item ${item.id}: answer "${item.answer}" not in options`
   }
-  // Check gap fill answers are in word_bank
+  // Check gap fill answers are in word_bank (case-insensitive, auto-correct case)
   for (const item of obj.ex3_gap_fill.items) {
-    if (!obj.ex3_gap_fill.word_bank.includes(item.answer)) return `GapFill item ${item.id}: answer "${item.answer}" not in word_bank`
+    if (!obj.ex3_gap_fill.word_bank.includes(item.answer)) {
+      const match = obj.ex3_gap_fill.word_bank.find(w => w.toLowerCase() === item.answer.toLowerCase())
+      if (match) { item.answer = match } // auto-correct case
+      else return `GapFill item ${item.id}: answer "${item.answer}" not in word_bank`
+    }
   }
   return null
 }
@@ -235,8 +239,12 @@ async function processTopic(row) {
   let raw, parsed
   try {
     raw = await callCerebras(prompt)
-    // Strip markdown fences if present
-    const clean = raw.replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'').trim()
+    // Strip markdown fences and stray bold markers before parsing
+    const clean = raw
+      .replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'')
+      .replace(/\*\*("[\w_]+")\*\*\s*:/g, '$1:')  // **"key"**: → "key":
+      .replace(/\*\*/g, '')                          // remove any remaining **
+      .trim()
     parsed = JSON.parse(clean)
   } catch (e) {
     console.log(`  ❌ Parse error: ${e.message}`)

@@ -723,5 +723,160 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Will vs Going to (predictions vs plans)",
+    "vi_grammar_point": "Will vs Going to — phân biệt dự đoán và kế hoạch",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + will + base verb / Subject + be (am/is/are) + going to + base verb",
+      "negative": "Subject + will not (won't) + base verb / Subject + be not + going to + base verb",
+      "question": "Will + subject + base verb? / Am/Is/Are + subject + going to + base verb?",
+      "variant": "Contractions: won't, I'm going to, He's going to, etc."
+    },
+    "rule_vi": "Dùng **will** cho dự đoán; dùng **going to** cho kế hoạch đã quyết định.",
+    "rule_en": "Use **will** for predictions, **going to** for planned actions.",
+    "common_error": "❌ She will going to the ceremony. → ✅ She is going to the ceremony.",
+    "in_context": [
+      "The host **will ask** everyone to attend at six o'clock.",
+      "The teachers **are going to arrange** the food and music for the evening.",
+      "The principal **will speak** clearly into the microphone so that everyone can hear."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "Tomorrow, the school ______ a special concert for the graduates.",
+          "options": [
+            "is going to hold",
+            "will hold",
+            "holds",
+            "will be holding"
+          ],
+          "answer": "will hold"
+        },
+        {
+          "id": 2,
+          "sentence": "The students ______ their uniforms tonight because the ceremony is formal.",
+          "options": [
+            "will wear",
+            "are going to wear",
+            "wear",
+            "will be wearing"
+          ],
+          "answer": "are going to wear"
+        },
+        {
+          "id": 3,
+          "sentence": "I think it ______ rain later, so bring an umbrella.",
+          "options": [
+            "might",
+            "going to",
+            "will",
+            "is going to"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 4,
+          "sentence": "She ______ start the speech at 7 p.m., as scheduled.",
+          "options": [
+            "going to",
+            "will",
+            "is going to",
+            "are going to"
+          ],
+          "answer": "will"
+        },
+        {
+          "id": 5,
+          "sentence": "We ______ order the cake tomorrow, not today.",
+          "options": [
+            "won't",
+            "will not",
+            "are not going to",
+            "won't be"
+          ],
+          "answer": "won't"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "the",
+            "students",
+            "will",
+            "receive",
+            "awards"
+          ],
+          "answer": "the students will receive awards"
+        },
+        {
+          "id": 2,
+          "words": [
+            "organizers",
+            "are",
+            "going",
+            "to",
+            "arrange"
+          ],
+          "answer": "organizers are going to arrange"
+        },
+        {
+          "id": 3,
+          "words": [
+            "she",
+            "will",
+            "speak",
+            "clearly"
+          ],
+          "answer": "she will speak clearly"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "will",
+        "going to",
+        "won't",
+        "is going to",
+        "are going to",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "The principal ______ announce the winners at 8 p.m.",
+          "answer": "will"
+        },
+        {
+          "id": 2,
+          "sentence": "The teachers ______ start decorating the hall tomorrow.",
+          "answer": "are going to"
+        },
+        {
+          "id": 3,
+          "sentence": "I think the guests ______ arrive early because they want good seats.",
+          "answer": "will"
+        },
+        {
+          "id": 4,
+          "sentence": "She ______ not allow jeans at the event.",
+          "answer": "won't"
+        },
+        {
+          "id": 5,
+          "sentence": "The ceremony ______ be broadcast live.",
+          "answer": "is going to"
+        }
+      ]
+    }
   }
 }

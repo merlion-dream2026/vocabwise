@@ -658,5 +658,163 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Wh- questions in the past tense",
+    "vi_grammar_point": "Câu hỏi Wh- ở thì quá khứ",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + Verb (past) + Object",
+      "negative": "Subject + did not + base verb + Object",
+      "question": "Wh- word + did + subject + base verb + … ?",
+      "variant": "Wh- word + was/were + subject + … ?"
+    },
+    "rule_vi": "Dùng Wh‑words với did để hỏi về hành động đã xảy ra trong quá khứ.",
+    "rule_en": "Use Wh‑words with did to ask about past events.",
+    "common_error": "❌ What you did yesterday?  →  ✅ What did you do yesterday?",
+    "in_context": [
+      "**What did the guide give us at the entrance?**",
+      "**Where did we walk to see the ancient Egypt exhibit?**",
+      "**How did the narrator speak so we could understand everything?**"
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu hỏi Wh- ở thì quá khứ.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ did you visit last weekend?",
+          "options": [
+            "What",
+            "Why",
+            "Where",
+            "When"
+          ],
+          "answer": "Where"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ did the guide explain the tour route?",
+          "options": [
+            "When",
+            "How",
+            "Who",
+            "Which"
+          ],
+          "answer": "How"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ did the museum want to showcase art from around the world?",
+          "options": [
+            "Why",
+            "Who",
+            "When",
+            "Which"
+          ],
+          "answer": "Why"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ did you borrow to listen to the audio guide?",
+          "options": [
+            "Who",
+            "What",
+            "When",
+            "Which"
+          ],
+          "answer": "What"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ did you check the floor plan before leaving?",
+          "options": [
+            "How",
+            "When",
+            "Why",
+            "Where"
+          ],
+          "answer": "When"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "did",
+            "you",
+            "see",
+            "the",
+            "ancient",
+            "exhibit"
+          ],
+          "answer": "did you see the ancient exhibit"
+        },
+        {
+          "id": 2,
+          "words": [
+            "what",
+            "did",
+            "the",
+            "guide",
+            "show",
+            "you"
+          ],
+          "answer": "what did the guide show you"
+        },
+        {
+          "id": 3,
+          "words": [
+            "how",
+            "did",
+            "the",
+            "narrator",
+            "speak"
+          ],
+          "answer": "how did the narrator speak"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
+      "word_bank": [
+        "where",
+        "what",
+        "who",
+        "why",
+        "how",
+        "which"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "_____ did you find the museum?",
+          "answer": "where"
+        },
+        {
+          "id": 2,
+          "sentence": "_____ did the guide give us at the entrance?",
+          "answer": "what"
+        },
+        {
+          "id": 3,
+          "sentence": "_____ did the narrator speak so we could understand?",
+          "answer": "how"
+        },
+        {
+          "id": 4,
+          "sentence": "_____ audio guide did you borrow?",
+          "answer": "which"
+        },
+        {
+          "id": 5,
+          "sentence": "_____ did the museum want to showcase art from around the world?",
+          "answer": "why"
+        }
+      ]
+    }
   }
 }

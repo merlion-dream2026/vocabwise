@@ -676,5 +676,165 @@
       "4": "A",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Would rather / Would prefer",
+    "vi_grammar_point": "Would rather / Would prefer — diễn đạt sở thích",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + would rather + base verb + than + base verb",
+      "negative": "Subject + would rather not + base verb",
+      "question": "Would + subject + rather + base verb + than + base verb?",
+      "variant": "Subject + would prefer + to + gerund / noun"
+    },
+    "rule_vi": "Dùng 'would rather' hoặc 'would prefer' để nói về sở thích trong các tình huống giả định hoặc khi so sánh hai hành động.",
+    "rule_en": "Use 'would rather' / 'would prefer' to express a preference, often comparing two actions.",
+    "common_error": "❌ I would rather to go home.  →  ✅ I would rather go home.",
+    "in_context": [
+      "I **would rather** listen to music than watch TV.",
+      "We **would prefer** simple dishes because they are quick and good.",
+      "I **would rather** have sunny days than rainy days."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "She _____ stay at home tonight rather than go out.",
+          "options": [
+            "would love",
+            "would rather",
+            "would like",
+            "would prefer"
+          ],
+          "answer": "would rather"
+        },
+        {
+          "id": 2,
+          "sentence": "They _____ to eat pizza for dinner.",
+          "options": [
+            "would rather",
+            "would prefer",
+            "would like",
+            "would love"
+          ],
+          "answer": "would prefer"
+        },
+        {
+          "id": 3,
+          "sentence": "He _____ not watch horror movies.",
+          "options": [
+            "would rather not",
+            "would rather",
+            "would prefer",
+            "would like"
+          ],
+          "answer": "would rather not"
+        },
+        {
+          "id": 4,
+          "sentence": "Would you _____ travel by train than by plane?",
+          "options": [
+            "rather",
+            "prefer",
+            "instead",
+            "instead of"
+          ],
+          "answer": "rather"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ to study in the morning rather than in the evening.",
+          "options": [
+            "would love",
+            "would prefer",
+            "would rather",
+            "would like"
+          ],
+          "answer": "would prefer"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "I",
+            "would",
+            "rather",
+            "go",
+            "than",
+            "stay",
+            "home"
+          ],
+          "answer": "I would rather go than stay home"
+        },
+        {
+          "id": 2,
+          "words": [
+            "She",
+            "would",
+            "prefer",
+            "to",
+            "watch",
+            "movies"
+          ],
+          "answer": "She would prefer to watch movies"
+        },
+        {
+          "id": 3,
+          "words": [
+            "He",
+            "would",
+            "rather",
+            "not",
+            "eat",
+            "vegetables"
+          ],
+          "answer": "He would rather not eat vegetables"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "word_bank": [
+        "rather",
+        "prefer",
+        "rather not",
+        "to",
+        "than",
+        "instead"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "I would _____ stay at home tonight.",
+          "answer": "rather"
+        },
+        {
+          "id": 2,
+          "sentence": "She would _____ to go by bus.",
+          "answer": "prefer"
+        },
+        {
+          "id": 3,
+          "sentence": "He would _____ not eat meat.",
+          "answer": "rather not"
+        },
+        {
+          "id": 4,
+          "sentence": "Would you rather travel by train _____ by plane?",
+          "answer": "than"
+        },
+        {
+          "id": 5,
+          "sentence": "They would rather study abroad _____ staying local.",
+          "answer": "instead"
+        }
+      ]
+    }
   }
 }

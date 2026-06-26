@@ -658,5 +658,165 @@
       "4": "C",
       "5": "C"
     }
+  },
+  "grammar_spotlight": {
+    "grammar_point": "Could / Couldn't (past ability)",
+    "vi_grammar_point": "Could / Couldn't — khả năng trong quá khứ",
+    "level": "A2",
+    "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
+    "form": {
+      "positive": "Subject + could + base verb",
+      "negative": "Subject + couldn't + base verb",
+      "question": "Could + subject + base verb?",
+      "variant": "could not (formal negative)"
+    },
+    "rule_vi": "Dùng could để nói về khả năng trong quá khứ; dùng couldn't để nói về việc không có khả năng.",
+    "rule_en": "Use could for past ability and couldn't for past inability.",
+    "common_error": "❌ He could have went to the hospital.  →  ✅ He could have gone to the hospital.",
+    "in_context": [
+      "Someone **could** call the ambulance right away.",
+      "You **could** alert people when you see danger.",
+      "Emergency workers **could** rescue people who are in danger."
+    ],
+    "ex1_mcq": {
+      "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When the fire started, the teacher _____ open the window quickly.",
+          "options": [
+            "could",
+            "must",
+            "will",
+            "can't"
+          ],
+          "answer": "could"
+        },
+        {
+          "id": 2,
+          "sentence": "The cyclist _____ lift his arm after the accident.",
+          "options": [
+            "could",
+            "should",
+            "can't",
+            "couldn't"
+          ],
+          "answer": "couldn't"
+        },
+        {
+          "id": 3,
+          "sentence": "If you see a dog bite, you _____ call a doctor immediately.",
+          "options": [
+            "could",
+            "must",
+            "might",
+            "should"
+          ],
+          "answer": "could"
+        },
+        {
+          "id": 4,
+          "sentence": "The emergency worker _____ carry the injured man up the stairs.",
+          "options": [
+            "couldn't",
+            "could",
+            "must",
+            "will"
+          ],
+          "answer": "couldn't"
+        },
+        {
+          "id": 5,
+          "sentence": "During the drill, we _____ practice using the fire extinguisher.",
+          "options": [
+            "must",
+            "could",
+            "should",
+            "can't"
+          ],
+          "answer": "could"
+        }
+      ]
+    },
+    "ex2_scramble": {
+      "instruction": "Sắp xếp các từ thành câu đúng.",
+      "items": [
+        {
+          "id": 1,
+          "words": [
+            "quickly",
+            "teacher",
+            "open",
+            "the",
+            "could",
+            "door",
+            "The"
+          ],
+          "answer": "The teacher could open the door quickly"
+        },
+        {
+          "id": 2,
+          "words": [
+            "lift",
+            "You",
+            "the",
+            "couldn't",
+            "box",
+            "heavy"
+          ],
+          "answer": "You couldn't lift the heavy box"
+        },
+        {
+          "id": 3,
+          "words": [
+            "call",
+            "could",
+            "help",
+            "They",
+            "immediately",
+            "for"
+          ],
+          "answer": "They could call for help immediately"
+        }
+      ]
+    },
+    "ex3_gap_fill": {
+      "instruction": "Điền từ thích hợp (could / couldn't) vào chỗ trống.",
+      "word_bank": [
+        "could",
+        "couldn't",
+        "can",
+        "must",
+        "should",
+        "might"
+      ],
+      "items": [
+        {
+          "id": 1,
+          "sentence": "When the car skidded, the driver _____ brake quickly.",
+          "answer": "could"
+        },
+        {
+          "id": 2,
+          "sentence": "The child _____ reach the top shelf without a stool.",
+          "answer": "couldn't"
+        },
+        {
+          "id": 3,
+          "sentence": "If you hear a siren, you _____ call the police.",
+          "answer": "could"
+        },
+        {
+          "id": 4,
+          "sentence": "During the flood, the rescue team _____ rescue the trapped residents.",
+          "answer": "could"
+        },
+        {
+          "id": 5,
+          "sentence": "After the accident, the nurse _____ give the patient medicine.",
+          "answer": "couldn't"
+        }
+      ]
+    }
   }
 }
