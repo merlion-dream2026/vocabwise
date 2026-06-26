@@ -100,7 +100,7 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
             onClick={() => setPhase('ex1')}
             className="w-full bg-gradient-to-r from-green-500 to-emerald-400 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all"
           >
-            ✏️ Luyện tập →
+            ▶ Bắt đầu luyện →
           </button>
 
           <p className="text-xs text-gray-400 text-center pb-1">Nguồn: {data.source_ref}</p>

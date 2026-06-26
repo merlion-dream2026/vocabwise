@@ -365,7 +365,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             className={`flex-1 py-3 font-black text-xs transition-all ${
               tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
             }`}>
-            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '✏️ Bài tập'}
+            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 Luyện từ'}
           </button>
         ))}
       </div>
@@ -578,7 +578,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             </div>
             <button onClick={() => setTab(data.grammar_spotlight ? 'grammar' : 'exercises')}
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
-              {data.grammar_spotlight ? '📖 Ngữ pháp →' : '✏️ Làm bài tập →'}
+              {data.grammar_spotlight ? '📖 Ngữ pháp →' : '📝 Luyện từ vựng →'}
             </button>
             </>
             )}
@@ -591,7 +591,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             <GrammarSpotlight data={data.grammar_spotlight} />
             <button onClick={() => setTab('exercises')}
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
-              ✏️ Làm bài tập →
+              📝 Luyện từ vựng →
             </button>
           </div>
         )}
