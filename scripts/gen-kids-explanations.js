@@ -23,16 +23,27 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL
 const SERVICE_KEY  = process.env.SUPABASE_SERVICE_ROLE_KEY
 const GROQ_API_KEY = process.env.GROQ_API_KEY
 
-if (!SUPABASE_URL || !SERVICE_KEY || !GROQ_API_KEY) {
-  console.error('Missing env vars: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY')
+if (!SUPABASE_URL || !SERVICE_KEY) {
+  console.error('Missing env vars: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY')
   process.exit(1)
 }
 
 const supabase   = createClient(SUPABASE_URL, SERVICE_KEY)
 const args       = process.argv.slice(2)
 const levelArg   = args.includes('--level') ? args[args.indexOf('--level') + 1] : null
+const modelArg   = args.includes('--model') ? args[args.indexOf('--model') + 1] : '8b'
 const dryRun     = args.includes('--dry-run')
 const DELAY_MS   = 2200
+
+const MODEL_ID  = modelArg === 'cerebras' ? 'gpt-oss-120b' : 'llama-3.1-8b-instant'
+const MODEL_TPD = modelArg === 'cerebras' ? 1_000_000 : 500_000
+const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'https://api.groq.com/openai/v1'
+const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
+
+if (!API_KEY) {
+  console.error(`Missing env var: ${modelArg === 'cerebras' ? 'CEREBRAS_API_KEY' : 'GROQ_API_KEY'}`)
+  process.exit(1)
+}
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
@@ -43,11 +54,11 @@ Ví dụ: ${example_en}
 
 Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống, và 1 ví dụ mới gần gũi dễ nhớ. Không lặp lại ví dụ gốc. Dùng ngôn ngữ đơn giản, dễ hiểu.`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+  const res = await fetch(`${API_BASE}/chat/completions`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${GROQ_API_KEY}`, 'Content-Type': 'application/json' },
+    headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 200,
       temperature: 0.7,
@@ -85,9 +96,9 @@ async function main() {
 
   const estTokens = pending.length * 200
   console.log(`\n📚 Words to process: ${pending.length} (${done.size} already done)`)
-  console.log(`🤖 Model: llama-3.1-8b-instant`)
+  console.log(`🤖 Model: ${MODEL_ID}`)
   console.log(`⏱  Est. time: ${Math.ceil(pending.length * DELAY_MS / 60000)} min at ${Math.round(60000 / DELAY_MS)} RPM`)
-  console.log(`🔋 Est. tokens: ~${estTokens.toLocaleString()} → ~${Math.ceil(estTokens / 500000)} day(s)`)
+  console.log(`🔋 Est. tokens: ~${estTokens.toLocaleString()} → ~${Math.ceil(estTokens / MODEL_TPD)} day(s)`)
 
   if (dryRun) { console.log('\n(dry-run — no changes made)'); return }
   if (pending.length === 0) { console.log('\n✅ All words already generated!'); return }
