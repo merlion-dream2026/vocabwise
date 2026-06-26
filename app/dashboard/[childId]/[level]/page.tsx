@@ -157,6 +157,10 @@ export default function LevelTopicsPage() {
       setSeen(new Set(syncData?.seen ?? []))
       setWeakKeys(new Set(Object.keys(syncData?.weak_words ?? {})))
       setSyncRaw(syncData)
+      // Merge server revision scores with localStorage (local wins for same key — most recent)
+      if (syncData?.revision_scores && Object.keys(syncData.revision_scores).length > 0) {
+        setRevScores(local => ({ ...syncData.revision_scores, ...local }))
+      }
       setLoading(false)
     })
   }, [childId, level, router])

@@ -341,11 +341,15 @@ export default function KidsRevisionPage() {
   }, [level, revNum, router])
 
   const saveScore = useCallback((total: number) => {
-    localStorage.setItem(
-      `revision_kids_${level}_${revId}`,
-      JSON.stringify({ score: total, max: 30, date: new Date().toISOString().split('T')[0] })
-    )
-  }, [level, revId])
+    const value = { score: total, max: 30, date: new Date().toISOString().split('T')[0] }
+    localStorage.setItem(`revision_kids_${level}_${revId}`, JSON.stringify(value))
+    // Sync to server so score shows on all devices
+    fetch(`/api/sync/${childId}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ level, revision_score_key: revId, revision_score_value: value }),
+    }).catch(() => {})
+  }, [childId, level, revId])
 
   if (phase === 'loading') {
     return (

@@ -34,7 +34,7 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
   if (level) {
     const { data } = await supabase
       .from('vocab_sync')
-      .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at')
+      .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at, revision_scores')
       .eq('child_id', params.childId)
       .eq('level', level)
       .single()
@@ -44,7 +44,7 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
   // No level param → return all levels as { [level]: syncData }
   const { data } = await supabase
     .from('vocab_sync')
-    .select('level, seen, weak_words, streak, battle, mastery, history, srs, reset_at')
+    .select('level, seen, weak_words, streak, battle, mastery, history, srs, reset_at, revision_scores')
     .eq('child_id', params.childId)
 
   const byLevel: Record<string, unknown> = {}
@@ -101,4 +101,48 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   }
 
   return NextResponse.json(data)
+}
+
+// PATCH /api/sync/[childId] — merge a single revision score without touching other fields
+export async function PATCH(req: NextRequest, { params }: { params: { childId: string } }) {
+  const session = await getSession(req)
+  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  const child = await verifyOwnership(params.childId, session.familyId)
+  if (!child) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+
+  const body = await req.json().catch(() => ({}))
+  const { level, revision_score_key, revision_score_value } = body
+  if (!level || !revision_score_key || !revision_score_value) {
+    return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
+  }
+
+  const { data: current } = await supabase
+    .from('vocab_sync')
+    .select('revision_scores')
+    .eq('child_id', params.childId)
+    .eq('level', level)
+    .single()
+
+  const merged = { ...(current?.revision_scores ?? {}), [revision_score_key]: revision_score_value }
+
+  if (current) {
+    await supabase
+      .from('vocab_sync')
+      .update({ revision_scores: merged, updated_at: new Date().toISOString() })
+      .eq('child_id', params.childId)
+      .eq('level', level)
+  } else {
+    await supabase
+      .from('vocab_sync')
+      .insert({
+        child_id: params.childId,
+        level,
+        seen: [], weak_words: {}, streak: {}, battle: {}, mastery: {}, history: {}, srs: {},
+        revision_scores: merged,
+        updated_at: new Date().toISOString(),
+      })
+  }
+
+  return NextResponse.json({ ok: true })
 }
