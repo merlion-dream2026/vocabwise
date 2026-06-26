@@ -283,7 +283,6 @@ export default function TopicPage() {
       `🏆 ${child?.name ? child.name + ' vừa' : 'Vừa'} chinh phục chủ đề ${(topic as { emoji: string }).emoji} ${(topic as { name: string }).name}!`,
       `📚 VocabWise Daily${lvLabel ? ` · ${lvLabel}` : ''}`,
       'Học tiếng Anh vui và hiệu quả',
-      'vocabwise.id.vn',
     ].join('\n')
     if (navigator.share) {
       navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
