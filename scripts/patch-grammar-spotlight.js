@@ -89,7 +89,7 @@ async function callAPI(prompt, retries = 4) {
         model: MODEL,
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.2,
-        max_tokens: 1500,
+        max_tokens: 2500,
       }),
     })
     if (res.status === 429) {
@@ -193,12 +193,20 @@ async function patchTopic(topicId) {
   const prompt = buildPrompt(gs, passageTextVi)
 
   let parsed
-  try {
-    const raw = await callAPI(prompt)
-    parsed = JSON.parse(raw)
-  } catch (e) {
-    console.log(`  ❌ Error: ${e.message}`)
-    return false
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const raw = await callAPI(prompt)
+      parsed = JSON.parse(raw)
+      break
+    } catch (e) {
+      if (attempt < 3) {
+        console.log(`  ⚠️  JSON parse error (attempt ${attempt}/3): ${e.message.slice(0, 60)}`)
+        await new Promise(r => setTimeout(r, 2000))
+      } else {
+        console.log(`  ❌ Error: ${e.message}`)
+        return false
+      }
+    }
   }
 
   // Strip any stray CJK characters (model code-switching artifact)

@@ -677,7 +677,7 @@
     "form": {
       "positive": "Clause1 + CohesiveDevice (reference/substitution/ellipsis/conjunction) + Clause2"
     },
-    "rule_vi": "Phương tiện liên kết văn bản được dùng để nối các câu, đoạn hoặc ý, giúp bài viết trở nên mạch lạc và logic.",
+    "rule_vi": "Phương tiện liên kết văn bản (cohesive devices) là các từ hoặc cấu trúc dùng để tạo mối quan hệ giữa các câu, đoạn hoặc ý, giúp văn bản trở nên mạch lạc và logic. Chúng bao gồm các dạng tham chiếu (pronouns, demonstratives), thay thế (substitution như do so, so), lược bỏ (ellipsis) và liên từ (conjunctions). Khi dùng, người viết phải đảm bảo rằng đại từ hoặc từ chỉ thay thế rõ ràng chỉ tới thành phần đã xuất hiện trước, và vị trí của chúng thường nằm ở đầu hoặc cuối câu tùy thuộc vào trọng tâm. Đối với liên từ, cần lựa chọn đúng loại liên từ (điều kiện, nguyên nhân‑kết quả, đối lập…) và đặt chúng ở vị trí thích hợp để duy trì tính liên kết chặt chẽ.",
     "rule_en": "Cohesive devices link sentences and ideas to create a coherent text.",
     "common_error": "❌ The novel explores themes of identity; it also examines social class, however it fails to address gender.  →  ✅ The novel explores themes of identity; it also examines social class; however, it fails to address gender.",
     "in_context": [
@@ -825,6 +825,37 @@
           "answer": "so"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi dùng đại từ để tham chiếu, phải chắc chắn rằng antecedent đã xuất hiện và rõ ràng, tránh gây nhầm lẫn.",
+        "examples": [
+          "❌ He told John that he should leave → ✅ He told John that John should leave"
+        ]
+      },
+      {
+        "text": "Thay thế bằng 'do so', 'so' hoặc 'one' giúp tránh lặp từ, nhưng phải đồng nhất về số và loại từ.",
+        "examples": [
+          "❌ The committee approved the plan, and the board did it too → ✅ The committee approved the plan, and the board did so too"
+        ]
+      },
+      {
+        "text": "Lược bỏ (ellipsis) cho phép bỏ qua các thành phần đã được nêu trước, nhưng chỉ khi nghĩa không bị mơ hồ.",
+        "examples": [
+          "❌ She likes coffee, and I do not → ✅ She likes coffee, and I do not (ellipsis of 'like coffee')"
+        ]
+      },
+      {
+        "text": "Liên từ phụ thuộc (subordinating conjunction) thường đứng đầu mệnh đề phụ, còn liên từ đồng cấp (coordinating) nối các mệnh đề độc lập; chọn đúng loại để phản ánh quan hệ logic.",
+        "examples": [
+          "❌ He was tired, and he went to bed early → ✅ He was tired, so he went to bed early"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Một tác giả tài năng sẽ cẩn thận xây dựng một cốt truyện có mục đích, đảm bảo mỗi cảnh nối tiếp cảnh trước.",
+      "Các tác giả có kinh nghiệm biết cách xây dựng căng thẳng câu chuyện một cách đều đặn qua các chương, để kết thúc vừa xứng đáng vừa bất ngờ.",
+      "Một tác giả táo bạo có thể chọn cách đảo ngược kỳ vọng của khán giả bằng cách không khẳng định những chắc chắn đạo đức mà độc giả mang vào văn bản; những người khác làm như vậy bằng cách sử dụng người kể chuyện không đáng tin cậy."
+    ]
   }
 }

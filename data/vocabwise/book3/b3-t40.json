@@ -686,7 +686,7 @@
       "question": "Is it + ADJ + to + VERB?",
       "variant": "The ADJ-ness of + gerund/noun phrase"
     },
-    "rule_vi": "Dùng cấu trúc It is + tính từ + to + động từ để nhấn mạnh tính chất của hành động; dùng danh danh hoá (the + adjective + -ness) khi muốn nhấn mạnh danh từ.",
+    "rule_vi": "Cấu trúc It + be + tính từ + to‑infinitive dùng để nhấn mạnh tính chất (crucial, necessary, essential…) của một hành động, với ‘it’ làm chủ ngữ giả. Khi muốn tập trung vào tính chất đó hơn là hành động, ta dùng cấu trúc này; nó thường xuất hiện trong văn viết trang trọng. Nếu muốn nhấn mạnh danh từ trừu tượng, ta có thể dùng danh danh hoá (the + adjective + -ness) như “the necessity of …”. Sự khác nhau là: infinitive nhấn mạnh hành động cần thực hiện, còn danh danh hoá nhấn mạnh tính chất hoặc mức độ của một khái niệm.",
     "rule_en": "Use It is + adjective + to + infinitive to comment on the desirability or difficulty of an action; nominalize with the + adjective + -ness of ... for a more formal style.",
     "common_error": "❌ It is important for to study mathematics.  →  ✅ It is important to study mathematics.",
     "in_context": [
@@ -839,6 +839,38 @@
           "answer": "useful"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc này luôn dùng ‘to + verb’ sau tính từ; không thể thay bằng ‘that + clause’ trừ khi dùng dạng subjunctive.",
+        "examples": [
+          "❌ It is crucial that we construct a proof → ✅ It is crucial to construct a proof"
+        ]
+      },
+      {
+        "text": "Thường xuất hiện trong ngữ cảnh học thuật, báo cáo, hoặc văn bản trang trọng; không phù hợp với giao tiếp thân mật.",
+        "examples": [
+          "✅ It is essential to question accepted theorems."
+        ]
+      },
+      {
+        "text": "Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) thay vì infinitive.",
+        "examples": [
+          "✅ The necessity of accepting axioms is evident.",
+          "❌ It is necessary to accept axioms → ✅ The necessity of accepting axioms"
+        ]
+      },
+      {
+        "text": "Lưu ý không tách câu: tính từ và infinitive phải đứng liền nhau; không chèn trạng từ giữa chúng.",
+        "examples": [
+          "❌ It is crucial really to construct a proof → ✅ It is crucial to construct a proof"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc xây dựng một chứng minh chặt chẽ, một lập luận logic khẳng định tính đúng đắn của một mệnh đề vượt qua mọi nghi ngờ là vô cùng quan trọng.",
+      "Cần chấp nhận các tiên đề như những tiền đề hiển nhiên trước khi có thể suy ra bất kỳ định lý nào khác.",
+      "Việc đặt câu hỏi về các định lý đã được chấp nhận là thiết yếu khi có bằng chứng mới xuất hiện."
+    ]
   }
 }

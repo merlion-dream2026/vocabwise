@@ -680,7 +680,7 @@
     "form": {
       "positive": "If + past perfect, would + base verb (mixed) | Had + subject + past participle, would + have + past participle (inversion) | Should + subject + infinitive, ... | Were + subject + to + infinitive, ..."
     },
-    "rule_vi": "Dùng đảo ngữ trong câu điều kiện để nhấn mạnh hoặc tạo phong cách trang trọng, thường bỏ 'if' và đảo vị trí của trợ động từ.",
+    "rule_vi": "Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) để tạo phong cách trang trọng hoặc nhấn mạnh, thường bỏ ‘if’. Cấu trúc cơ bản là: trợ động từ + chủ ngữ + to + động từ nguyên mẫu, …, … would/could/might + động từ (ví dụ: Were he to try, …). Khi diễn tả một điều kiện không có thực trong quá khứ, dùng dạng đảo ngữ với quá khứ hoàn thành: Had + chủ ngữ + past participle, …, … would/could + have + past participle. Ngoài ra, có thể kết hợp các thời và dạng động từ để tạo câu điều kiện hỗn hợp, ví dụ: If + past perfect → would + infinitive, hoặc Should + chủ ngữ + động từ → will + động từ.",
     "rule_en": "Use inversion in conditionals to create a formal tone, especially when the if‑clause is omitted.",
     "common_error": "❌ If had I known, I would have acted.  →  ✅ Had I known, I would have acted.",
     "in_context": [
@@ -842,6 +842,38 @@
           "answer": "Unless"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Trong đảo ngữ, trợ động từ (were, should, had) đứng trước chủ ngữ và luôn đi kèm ‘to’ trước động từ nguyên mẫu.",
+        "examples": [
+          "❌ Were he try → ✅ Were he to try",
+          "❌ Should we ignore → ✅ Should we ignore"
+        ]
+      },
+      {
+        "text": "Câu điều kiện đảo ngữ mang tính trang trọng, thích hợp cho văn viết, báo chí; trong giao tiếp thân mật nên dùng dạng ‘if’.",
+        "examples": [
+          "❌ If you wish, you should act → ✅ Should you wish, you ought to act"
+        ]
+      },
+      {
+        "text": "Câu điều kiện hỗn hợp cho phép thời gian của mệnh đề điều kiện và mệnh đề kết quả không đồng nhất, ví dụ: điều kiện quá khứ → kết quả hiện tại.",
+        "examples": [
+          "❌ If he studied, he would be a doctor now → ✅ If he had studied, he would be a doctor now"
+        ]
+      },
+      {
+        "text": "Khi dùng ‘had’ trong đảo ngữ, cần dùng dạng quá khứ hoàn thành (had + past participle) và kết quả thường dùng ‘would have + past participle’.",
+        "examples": [
+          "❌ Had she known, she would go → ✅ Had she known, she would have gone"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu các nhà hoạch định chính sách dám thách thức tư duy giải pháp công nghệ, họ sẽ thiết kế các can thiệp giảm bất bình đẳng thay vì làm sâu hơn nó.",
+      "Nếu các nền tảng đã chống lại việc thao túng thuật toán sớm hơn, chúng sẽ được tin cậy ngày nay.",
+      "Nếu chúng ta bỏ qua khoảng cách kỹ thuật số, chúng ta sẽ làm trầm trọng hơn sự bất bình đẳng xã hội."
+    ]
   }
 }

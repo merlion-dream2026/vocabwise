@@ -681,7 +681,7 @@
       "positive": "Had it not been for + Noun Phrase, Subject + would + base verb / Only if + Clause, auxiliary + subject + verb",
       "variant": "Were + subject + to + verb, auxiliary + subject + verb"
     },
-    "rule_vi": "Dùng cấu trúc đảo ngữ để nhấn mạnh nguyên nhân ngược lại (Had it not been for…) hoặc để nhấn mạnh điều kiện duy nhất (Only if…).",
+    "rule_vi": "Câu điều kiện C2 dùng đảo ngữ để nhấn mạnh nguyên nhân ngược lại (Had it not been for…) hoặc để nhấn mạnh điều kiện duy nhất (Only if…). Khi dùng ‘Had … not been for …’, cấu trúc đảo ngữ thay thế cho mệnh đề ‘if … had …’, và động từ chính ở dạng quá khứ hoàn thành. Với ‘Only if …’, vị ngữ phải đảo vị trí của trợ động từ (will/shall) ngay sau chủ ngữ. Cả hai dạng đều mang tính trang trọng, thích hợp cho văn viết, diễn thuyết hoặc các ngữ cảnh nhấn mạnh.",
     "rule_en": "Use inverted conditional clauses to emphasize a counterfactual cause or a sole condition.",
     "common_error": "❌ Had it not be for the policy, we would lose jobs. → ✅ Had it not been for the policy, we would lose jobs.",
     "in_context": [
@@ -843,6 +843,37 @@
           "answer": "Only if"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau ‘Had’, không dùng ‘if’; cấu trúc là Had + chủ ngữ + past participle, rồi mới là mệnh đề chính.",
+        "examples": [
+          "❌ If we had not acted, the crisis would worsen → ✅ Had we not acted, the crisis would worsen"
+        ]
+      },
+      {
+        "text": "Khi ‘Only if’ đứng đầu câu, trợ động từ (will/shall) phải đứng trước chủ ngữ của mệnh đề chính.",
+        "examples": [
+          "❌ Only if we act now we will succeed → ✅ Only if we act now will we succeed"
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng; trong giao tiếp thân mật nên dùng dạng ‘if …’ thông thường.",
+        "examples": [
+          "✅ Only if you study will you pass the exam (formal) → You will pass the exam only if you study (informal)"
+        ]
+      },
+      {
+        "text": "Lỗi thường gặp là nhầm lẫn ‘Had it not been for …’ với ‘If it had not been for …’; cả hai đúng nhưng đảo ngữ yêu cầu bỏ ‘if’.",
+        "examples": [
+          "❌ If it had not been for his help, we failed → ✅ Had it not been for his help, we would have succeeded"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Nếu không có sự tự động hóa nhanh chóng, hàng triệu công nhân sẽ không phải đối mặt với việc mất việc.",
+      "Chỉ nếu chúng ta hành động ngay bây giờ, chúng ta mới có thể đảm bảo công bằng thuật toán trong các hệ thống AI.",
+      "Nếu không có luật pháp mạnh mẽ, các quyền kỹ thuật số sẽ bị xói mòn."
+    ]
   }
 }

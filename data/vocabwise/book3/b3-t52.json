@@ -667,7 +667,7 @@
       "question": "Should + subject + have + past participle?",
       "variant": "Subject + ought to have + past participle"
     },
-    "rule_vi": "Dùng để suy đoán về quá khứ (should have) hoặc chỉ ra rằng một hành động không cần thiết (need not have).",
+    "rule_vi": "Động từ khuyết thiếu hoàn thành (modal + have + V3) dùng để nói về một hành động trong quá khứ mà người nói cho rằng nó đáng lẽ phải xảy ra hoặc không cần thiết. Khi dùng ‘should have + V3’, người nói đưa ra lời phê bình, nhận xét rằng việc đó đã không được thực hiện như mong đợi. Khi dùng ‘need not have + V3’, người nói nhấn mạnh rằng hành động đã thực hiện là thừa thãi, không bắt buộc. Cấu trúc này có thể xuất hiện ở thể chủ động hoặc bị động (should have been + V3) và thường xuất hiện trong ngữ cảnh trang trọng hoặc viết.",
     "rule_en": "Use to make deductions about past events or to criticize actions that were unnecessary.",
     "common_error": "❌ He should have went to the meeting → ✅ He should have gone to the meeting",
     "in_context": [
@@ -815,6 +815,37 @@
           "answer": "ought"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc của động từ khuyết thiếu hoàn thành là: modal + have + past participle; trong câu bị động dùng “modal + have + been + past participle”.",
+        "examples": [
+          "❌ He should been warned → ✅ He should have been warned"
+        ]
+      },
+      {
+        "text": "‘Should have + V3’ diễn tả một hành động được cho là nên xảy ra trong quá khứ nhưng không xảy ra, thường dùng để chỉ trách móc hoặc nhận xét tiêu cực.",
+        "examples": [
+          "❌ They should have arrived yesterday → ✅ They should have arrived yesterday (but they didn’t)"
+        ]
+      },
+      {
+        "text": "‘Need not have + V3’ chỉ ra rằng hành động đã được thực hiện nhưng không cần thiết; người nói muốn nhấn mạnh tính thừa thãi.",
+        "examples": [
+          "❌ You need not have bought the tickets → ✅ You need not have bought the tickets (they were unnecessary)"
+        ]
+      },
+      {
+        "text": "Trong giao tiếp không trang trọng người nói thường rút gọn thành “should've” hoặc “needn't have”; tránh viết “should of” vì sai chính tả.",
+        "examples": [
+          "❌ She should of called → ✅ She should have called"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Cá nhân và các công ty đều lẽ ra đã được khuyến khích áp dụng các thực hành bền vững sớm hơn.",
+      "Các chính phủ và ngành công nghiệp không cần phải bị ép buộc giảm dấu chân carbon nếu họ đã áp dụng các biện pháp sớm.",
+      "Việc bảo tồn một mình, tuy nhiên, lẽ ra đã không đủ nếu chủ nghĩa nhân loại trung tâm vẫn tiếp tục chi phối chính sách kinh tế."
+    ]
   }
 }

@@ -1482,21 +1482,31 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
 ```
 
 ### Giải thích
-Dùng đại từ phản thân khi chủ ngữ và tân ngữ là cùng một người; dùng đại từ nhấn mạnh để nhấn mạnh chủ ngữ.
+Đại từ phản thân (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) được dùng khi chủ ngữ và tân ngữ trong câu là cùng một người hoặc vật. Đối với đại từ nhấn mạnh (myself, yourself, …) chúng được đặt ngay sau chủ ngữ để nhấn mạnh hoặc làm nổi bật người thực hiện hành động. Cấu trúc của đại từ phản thân: Subject + Verb + Reflexive pronoun. Cấu trúc của đại từ nhấn mạnh: Subject + Emphatic pronoun (thường đứng ngay sau chủ ngữ) + Verb (hoặc trong cấu trúc “by … myself” để nhấn mạnh tác nhân).
 
 ### Lưu ý
-_(chưa có)_
+1. Đại từ phản thân chỉ dùng khi người/đối tượng thực hiện hành động và nhận hành động là cùng một người/đối tượng.
+  - ❌ He looked at him → ✅ He looked at himself
+2. Đại từ nhấn mạnh được dùng để nhấn mạnh chủ ngữ, thường đứng ngay sau chủ ngữ và không thay thế vị trí của tân ngữ.
+  - ✅ I myself will handle the project
+  - ❌ I will myself handle the project
+3. Trong câu bị động, đại từ nhấn mạnh có thể xuất hiện sau giới từ “by” để nhấn mạnh người thực hiện hành động.
+  - ✅ The decision was made by herself
+  - ❌ The decision was made herself
+4. Khi muốn nhấn mạnh, không cần dùng cả hai loại đại từ cùng lúc; chỉ dùng một trong số chúng tùy theo chức năng.
+  - ✅ She herself designed the dress
+  - ❌ She herself herself designed the dress
 
 ### Lỗi thường gặp
 ❌ She herself bought the dress → ✅ She bought the dress herself
 
 ### Trong bài đọc
 - EN: Fashion is far more than clothing — it is a powerful language through which people express themselves.
-  VI: 
+  VI: Thời trang không chỉ là quần áo — nó là một ngôn ngữ mạnh mẽ qua đó mọi người thể hiện bản thân mình.
 - EN: Many designers now create cultural collections, celebrating heritage themselves.
-  VI: 
+  VI: Nhiều nhà thiết kế hiện đang tạo ra các bộ sưu tập văn hoá, tự mình tôn vinh di sản.
 - EN: Those who develop a unique personal style are less easily manipulated by seasonal marketing campaigns themselves.
-  VI: 
+  VI: Những người phát triển phong cách cá nhân độc đáo ít bị các chiến dịch tiếp thị theo mùa thao túng hơn, ngay cả khi chúng được thực hiện bởi chính họ.
 
 <!-- /topic -->
 
@@ -2152,21 +2162,28 @@ Ngôn ngữ nhân quả trong văn nghị luận dùng để liên kết nguyên
 ```
 
 ### Giải thích
-Cấu trúc bị động phi nhân xưng được dùng để truyền đạt thông tin chung mà không nêu rõ người thực hiện, thường đi kèm các động từ báo cáo như *said, believed, reported*.
+Bị động phi nhân xưng là cấu trúc dùng để truyền đạt một quan điểm, thông tin chung mà người nói không nêu rõ người thực hiện. Nó thường xuất hiện sau các động từ báo cáo như *believe, report, say* và được giới thiệu bằng *it is* + quá khứ phân từ. Cấu trúc cơ bản: *It is + past participle + that + clause*. Dùng trong văn viết trang trọng để nhấn mạnh nội dung chứ không phải người nói.
 
 ### Lưu ý
-_(chưa có)_
+1. Mệnh đề *that* thường có thể bỏ qua khi nội dung ngắn gọn, nhưng khi câu dài hoặc cần nhấn mạnh thì nên giữ lại.
+  - ❌ It is believed that the method is simple → ✅ It is believed the method is simple
+2. Cấu trúc này mang tính trang trọng; trong giao tiếp thông thường người học thường dùng câu chủ động như *People believe…*.
+  - ❌ It is said that… → ✅ People say that…
+3. Động từ luôn chia ở dạng số ít *is* bất kể danh từ trong mệnh đề phụ là số nhiều.
+  - ✅ It is believed that the results are reliable
+4. Chỉ các động từ báo cáo (believe, report, claim, say, think…) mới phù hợp với bị động phi nhân xưng; các động từ hành động không dùng được.
+  - ❌ It is run that… → ✅ It is reported that…
 
 ### Lỗi thường gặp
 ❌ It said that the experiment succeeded.  →  ✅ It is said that the experiment succeeded.
 
 ### Trong bài đọc
 - EN: It is believed that the scientific method begins with a question — something unknown that a researcher wants to understand.
-  VI: 
+  VI: Người ta tin rằng phương pháp khoa học bắt đầu bằng một câu hỏi — một điều chưa biết mà nhà nghiên cứu muốn hiểu.
 - EN: It is reported that funding can impact what gets studied and what gets published.
-  VI: 
+  VI: Có báo cáo cho rằng nguồn tài trợ có thể ảnh hưởng đến những gì được nghiên cứu và những gì được công bố.
 - EN: It is said that every great scientific breakthrough began as a question someone dared to ask.
-  VI: 
+  VI: Người ta nói rằng mọi đột phá khoa học vĩ đại đều bắt đầu từ một câu hỏi mà ai đó dám đặt ra.
 
 <!-- /topic -->
 

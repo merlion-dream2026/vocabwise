@@ -208,21 +208,28 @@ Câu chẻ (cleft sentence) là cấu trúc dùng để nhấn mạnh một thà
 ```
 
 ### Giải thích
-Dùng 'so' để đồng ý với một câu khẳng định, dùng 'neither' để đồng ý với một câu phủ định, và dùng 'the former' để thay thế danh từ đã đề cập trước.
+Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (thường là động từ và các phụ từ) khi chúng có thể được suy ra từ ngữ cảnh trước. Thay thế (thay thế) dùng các cấu trúc như so + trợ động từ + chủ ngữ để đồng ý với câu khẳng định, và neither + trợ động từ + chủ ngữ để đồng ý với câu phủ định; cả hai đều bỏ qua phần vị ngữ. The former / the latter là các đại từ thay thế danh từ đã được đề cập, trong đó the former chỉ thứ đã nêu đầu tiên, the latter chỉ thứ thứ hai. Cấu trúc này thường xuất hiện ở đầu câu và yêu cầu đảo trợ động từ (do, does, did, have, has, etc.) sau so hoặc neither.
 
 ### Lưu ý
-_(chưa có)_
+1. ‘So’ luôn đứng ở đầu câu, sau đó là trợ động từ (do/does/did…) rồi mới là chủ ngữ; vị ngữ được lược bỏ.
+  - ❌ She likes coffee. So she do → ✅ She likes coffee. So do I.
+2. ‘Neither’ chỉ dùng để đồng ý với câu phủ định; cấu trúc tương tự ‘so’ nhưng mang nghĩa phủ định.
+  - ❌ He hasn't finished. So has he → ✅ He hasn't finished. Neither has he.
+3. Trong giao tiếp không trang trọng, người học thường dùng ‘me too’ / ‘me neither’ thay cho ‘so do I’ và ‘neither do I’, nhưng trong văn viết hoặc khi muốn nhấn mạnh, nên dùng ‘so’ và ‘neither’.
+  - I love sushi. Me too. (informal) → I love sushi. So do I. (formal)
+4. ‘The former’ và ‘the latter’ chỉ thay thế danh từ, không thể thay thế cho một mệnh đề hoàn chỉnh; chúng chỉ áp dụng khi có hai đối tượng đã được nêu theo thứ tự.
+  - ❌ The former was expensive, and the latter is cheap. (only one item) → ✅ The former (the first model) was expensive, and the latter (the second model) is cheap.
 
 ### Lỗi thường gặp
 ❌ *So does she* → ✅ *So does she* (when the original clause is affirmative)  ❌ *Neither do I* → ✅ *Neither do I* (when the original clause is negative)
 
 ### Trong bài đọc
 - EN: Elite performers distinguish themselves not only through raw talent but through extraordinary endurance, rigorous discipline, and the psychology of winning under pressure. So do I.
-  VI: 
+  VI: Các vận động viên ưu tú không chỉ phân biệt mình qua tài năng thuần túy mà còn qua sức bền phi thường, kỷ luật nghiêm ngặt và tâm lý chiến thắng dưới áp lực. Tôi cũng vậy.
 - EN: Sport also functions as a powerful spectacle — a form of public entertainment that captivates billions of fans worldwide. So does it.
-  VI: 
+  VI: Thể thao cũng đóng vai trò như một màn trình diễn mạnh mẽ — một hình thức giải trí công cộng thu hút hàng tỷ người hâm mộ trên toàn thế giới. Nó cũng vậy.
 - EN: Doping — the use of banned substances to enhance physical capacity — remains a persistent threat to sporting integrity. The former has been condemned repeatedly.
-  VI: 
+  VI: Doping — việc sử dụng các chất cấm để tăng cường năng lực thể chất — vẫn là mối đe dọa dai dẳng đối với tính liêm chính của thể thao. Cái trước đã bị lên án nhiều lần.
 
 <!-- /topic -->
 
@@ -390,21 +397,31 @@ Cấu trúc wish / if only + had + quá khứ phân từ (V3) dùng để bày t
 ```
 
 ### Giải thích
-Dùng các động từ khi muốn diễn tả khả năng, suy đoán hoặc xu hướng nhận thức của người nói.
+Phương tiện diễn đạt thái độ nhận thức (epistemic modality) dùng để biểu thị mức độ chắc chắn, khả năng hoặc xu hướng mà người nói suy đoán về thực tế. Các động từ may, might, could, appear to, tend to thường đứng trước động từ nguyên mẫu (bare infinitive) hoặc tính từ và không thay đổi dạng của động từ chính. Chúng được dùng để diễn tả khả năng không chắc chắn (may, might, could), ấn tượng bề ngoài (appear to), hoặc xu hướng chung (tend to). Trong văn viết trang trọng, các cấu trúc này thường xuất hiện ở vị trí trung tâm của câu và không dùng để chỉ lời yêu cầu hay khả năng thực hiện.
 
 ### Lưu ý
-_(chưa có)_
+1. May, might, could, appear to và tend to luôn đứng trước động từ nguyên mẫu (bare infinitive) hoặc tính từ; appear to và tend to yêu cầu ‘to’ trước động từ.
+  - ❌ He may goes → ✅ He may go
+  - ❌ She appears go → ✅ She appears to go
+2. May/might/could biểu thị khả năng không chắc chắn; không nên dùng chúng để diễn tả yêu cầu hay cho phép, vì đó là chức năng modal tính năng.
+  - ❌ May I open the window? (epistemic) → ✅ It may rain tomorrow
+3. Appear to và tend to thường xuất hiện trong văn viết học thuật hoặc báo chí để mô tả ấn tượng, xu hướng chung, chứ không phải trong giao tiếp thân mật.
+  - ✅ Researchers tend to focus on preventive measures
+  - ✅ The results appear to support the hypothesis
+4. Trong tiếng Việt, người học thường dịch trực tiếp sang ‘có thể’, ‘có lẽ’, nhưng tiếng Anh không thay đổi dạng động từ theo chủ ngữ; cấu trúc luôn cố định.
+  - ✅ She might be late
+  - ✅ They could have missed the train
 
 ### Lỗi thường gặp
 ❌ He may goes to the meeting.  →  ✅ He may go to the meeting.
 
 ### Trong bài đọc
 - EN: Governments and organisations worldwide may be investing in campaigns designed to normalise help‑seeking behaviour and dismantle harmful stereotypes.
-  VI: 
+  VI: Chính phủ và các tổ chức trên toàn thế giới có thể đang đầu tư vào các chiến dịch nhằm bình thường hoá việc tìm kiếm sự giúp đỡ và phá bỏ những định kiến gây hại.
 - EN: Therapy might appear to some patients as a daunting process, but it often leads to lasting improvement.
-  VI: 
+  VI: Liệu pháp có thể đối với một số bệnh nhân như một quá trình đáng sợ, nhưng nó thường mang lại cải thiện lâu dài.
 - EN: Those who build emotional resilience tend to withstand life's inevitable setbacks without slipping into crisis.
-  VI: 
+  VI: Những người xây dựng khả năng chịu đựng cảm xúc thường có thể vượt qua những khó khăn không tránh khỏi của cuộc sống mà không rơi vào khủng hoảng.
 
 <!-- /topic -->
 
@@ -608,21 +625,28 @@ Mệnh đề phụ đối lập (adverbial clause of contrast) dùng để so s�
 ```
 
 ### Giải thích
-Dùng để diễn tả một hành động sẽ hoàn thành trước một thời điểm trong tương lai, hoặc một hành động đang diễn ra liên tục cho tới thời điểm đó.
+Thì tương lai hoàn thành (will have + V3) diễn tả một hành động sẽ hoàn thành trước một thời điểm xác định trong tương lai; thì tương lai hoàn thành tiếp diễn (will have been + V‑ing) nhấn mạnh rằng hành động đang diễn ra liên tục và kéo dài tới thời điểm đó. Cấu trúc thường đi kèm với các trạng từ thời gian như by, before, when, by the time, after, và thường đặt trước hoặc sau mệnh đề chính. Thì này thường xuất hiện trong văn viết trang trọng, mô tả dự đoán, kế hoạch hoặc kết quả của các quá trình dài hạn. Khi muốn nhấn mạnh khoảng thời gian hoặc tính liên tục của hành động, dùng dạng tiếp diễn; khi chỉ muốn nhấn mạnh kết quả, dùng dạng hoàn thành.
 
 ### Lưu ý
-_(chưa có)_
+1. Thì tương lai hoàn thành thường đi kèm với trạng từ chỉ thời gian như by, before, when, by the time, và có thể đứng trước hoặc sau mệnh đề chính.
+  - ❌ By 2030 vaccines eradicate many diseases → ✅ By 2030, vaccines will have eradicated many diseases
+2. Thì tương lai hoàn thành tiếp diễn nhấn mạnh khoảng thời gian kéo dài của hành động cho tới thời điểm tương lai, dùng cấu trúc will have been + V‑ing.
+  - ✅ Scientists will have been researching its mechanisms for over a decade
+3. Không được nhầm lẫn với hiện tại hoàn thành; trong tương lai cần dùng will have + V3, không chỉ have + V3.
+  - ❌ Vaccines have eradicated many diseases by 2030 → ✅ Vaccines will have eradicated many diseases by 2030
+4. Trong giao tiếp thông thường, người nói thường thay thế tương lai hoàn thành bằng will + verb + by then; dạng này ít trang trọng hơn.
+  - ✅ By 2030, vaccines will eradicate many diseases
 
 ### Lỗi thường gặp
 ❌ By next year, the researchers will finish the trial. → ✅ By next year, the researchers will have finished the trial.
 
 ### Trong bài đọc
 - EN: By 2030, vaccines will have eradicated many of the diseases that once devastated populations worldwide.
-  VI: 
+  VI: Đến năm 2030, vắc-xin sẽ đã loại trừ nhiều bệnh mà trước đây đã tàn phá dân số trên toàn thế giới.
 - EN: When the new gene‑therapy protocol is approved, scientists will have been researching its molecular mechanisms for over a decade.
-  VI: 
+  VI: Khi giao thức liệu pháp gen mới được phê duyệt, các nhà khoa học sẽ đã nghiên cứu các cơ chế phân tử của nó hơn một thập kỷ.
 - EN: By the time the regulatory review concludes, the pharmaceutical company will have completed all required safety studies.
-  VI: 
+  VI: Khi quá trình xem xét quy định kết thúc, công ty dược phẩm sẽ đã hoàn thành tất cả các nghiên cứu an toàn bắt buộc.
 
 <!-- /topic -->
 
@@ -1420,21 +1444,28 @@ Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng 
 ```
 
 ### Giải thích
-Dùng cấu trúc này khi muốn nối một mệnh đề chính với nhiều mệnh đề phụ (điều kiện, thời gian, quan hệ, ...).
+Câu phức nhiều mệnh đề phụ là câu chứa một mệnh đề chính và hai hoặc nhiều hơn các mệnh đề phụ, mỗi mệnh đề phụ được nối bằng liên từ phụ thuộc (if, when, although, who, which, …). Khi muốn diễn tả các quan hệ thời gian, nguyên nhân‑kết quả, điều kiện, hoặc mô tả tính chất đồng thời, ta có thể xâu chuỗi các mệnh đề phụ trước hoặc sau mệnh đề chính, tùy thuộc vào mức độ nhấn mạnh. Các mệnh đề phụ thường được ngăn cách bằng dấu phẩy, và vị trí của chúng trong câu quyết định độ ưu tiên thông tin. Cấu trúc này thường dùng trong văn viết trang trọng, nơi cần truyền đạt ý tưởng phức tạp và liên kết chặt chẽ giữa các yếu tố.
 
 ### Lưu ý
-_(chưa có)_
+1. Khi có nhiều mệnh đề phụ, thứ tự thường theo mức độ thời gian hoặc logic: thời gian → điều kiện → kết quả, nhưng có thể đảo vị trí để nhấn mạnh ý muốn.
+  - ❌ When he arrived, if it rains, we will stay home → ✅ If it rains when he arrives, we will stay home
+2. Mỗi mệnh đề phụ phải có liên từ phụ thuộc rõ ràng; tránh để mệnh đề phụ rời rạc gây hiểu lầm.
+  - ❌ He left, because he was tired, and the meeting started → ✅ He left because he was tired, and the meeting started
+3. Câu phức nhiều mệnh đề phụ thường dùng trong văn viết trang trọng; trong giao tiếp thông thường người học nên chia thành câu ngắn hơn để tránh ngữ pháp rối rắm.
+  - ✅ Although the data were inconclusive, the researchers, who had limited time, decided to publish the preliminary findings.
+4. Lỗi phổ biến là dùng dấu phẩy nối các mệnh đề độc lập (comma splice) thay vì dùng liên từ phụ thuộc hoặc dấu chấm phẩy.
+  - ❌ He finished the report, he went home → ✅ He finished the report, and then he went home
 
 ### Lỗi thường gặp
 ❌ *The book, that I bought yesterday, is fascinating* → ✅ *The book, which I bought yesterday, is fascinating*
 
 ### Trong bài đọc
 - EN: When speakers move between languages or varieties, they engage in code-switching, a practice that allows them to navigate linguistic identity fluidly across different social settings.
-  VI: 
+  VI: Khi người nói chuyển đổi giữa các ngôn ngữ hoặc các biến thể, họ thực hiện việc chuyển mã, một thực hành cho phép họ điều hướng danh tính ngôn ngữ một cách linh hoạt qua các bối cảnh xã hội khác nhau.
 - EN: Each language through which they shape cognitive frameworks offers a distinct worldview, and moving between them can feel like inhabiting different selves.
-  VI: 
+  VI: Mỗi ngôn ngữ mà họ dùng để hình thành khung nhận thức cung cấp một thế giới quan riêng, và việc di chuyển giữa chúng có thể cảm giác như đang sống trong những bản ngã khác nhau.
 - EN: As speakers worldwide assert linguistic rights against the dominance of global languages, this plurality of perspective is increasingly recognised not as a liability but as one of humanity's most profound intellectual resources.
-  VI: 
+  VI: Khi những người nói trên toàn thế giới khẳng định quyền ngôn ngữ trước sự thống trị của các ngôn ngữ toàn cầu, sự đa dạng quan điểm này ngày càng được công nhận không phải là một bất lợi mà là một trong những nguồn tài nguyên trí tuệ sâu sắc nhất của nhân loại.
 
 <!-- /topic -->
 
@@ -1490,21 +1521,29 @@ Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh �
 ```
 
 ### Giải thích
-Dùng cấu trúc It is + tính từ + to + động từ để nhấn mạnh tính chất của hành động; dùng danh danh hoá (the + adjective + -ness) khi muốn nhấn mạnh danh từ.
+Cấu trúc It + be + tính từ + to‑infinitive dùng để nhấn mạnh tính chất (crucial, necessary, essential…) của một hành động, với ‘it’ làm chủ ngữ giả. Khi muốn tập trung vào tính chất đó hơn là hành động, ta dùng cấu trúc này; nó thường xuất hiện trong văn viết trang trọng. Nếu muốn nhấn mạnh danh từ trừu tượng, ta có thể dùng danh danh hoá (the + adjective + -ness) như “the necessity of …”. Sự khác nhau là: infinitive nhấn mạnh hành động cần thực hiện, còn danh danh hoá nhấn mạnh tính chất hoặc mức độ của một khái niệm.
 
 ### Lưu ý
-_(chưa có)_
+1. Cấu trúc này luôn dùng ‘to + verb’ sau tính từ; không thể thay bằng ‘that + clause’ trừ khi dùng dạng subjunctive.
+  - ❌ It is crucial that we construct a proof → ✅ It is crucial to construct a proof
+2. Thường xuất hiện trong ngữ cảnh học thuật, báo cáo, hoặc văn bản trang trọng; không phù hợp với giao tiếp thân mật.
+  - ✅ It is essential to question accepted theorems.
+3. Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) thay vì infinitive.
+  - ✅ The necessity of accepting axioms is evident.
+  - ❌ It is necessary to accept axioms → ✅ The necessity of accepting axioms
+4. Lưu ý không tách câu: tính từ và infinitive phải đứng liền nhau; không chèn trạng từ giữa chúng.
+  - ❌ It is crucial really to construct a proof → ✅ It is crucial to construct a proof
 
 ### Lỗi thường gặp
 ❌ It is important for to study mathematics.  →  ✅ It is important to study mathematics.
 
 ### Trong bài đọc
 - EN: It is crucial to construct a rigorous proof, a logical argument that establishes the truth of a statement beyond all doubt.
-  VI: 
+  VI: Việc xây dựng một chứng minh chặt chẽ, một lập luận logic khẳng định tính đúng đắn của một mệnh đề vượt qua mọi nghi ngờ là vô cùng quan trọng.
 - EN: It is necessary to accept axioms as self‑evident premises before any further theorems can be derived.
-  VI: 
+  VI: Cần chấp nhận các tiên đề như những tiền đề hiển nhiên trước khi có thể suy ra bất kỳ định lý nào khác.
 - EN: It is essential to question accepted theorems when new evidence emerges.
-  VI: 
+  VI: Việc đặt câu hỏi về các định lý đã được chấp nhận là thiết yếu khi có bằng chứng mới xuất hiện.
 
 <!-- /topic -->
 
@@ -1522,21 +1561,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Sử dụng các thuật ngữ ngôn ngữ học khi mô tả cấu trúc câu, ví dụ: phrase, clause, syntax, morphology.
+Thuật ngữ ngôn ngữ học trong ngữ pháp là các danh từ dùng để chỉ các cấp độ cấu trúc của câu, như phrase (cụm từ), clause (mệnh đề), syntax (cú pháp) và morphology (hình thái học). Chúng được dùng khi phân tích, mô tả hoặc giảng giải cách các từ, cụm từ và mệnh đề kết hợp thành câu. Khi dùng, cần chú ý số ít‑số nhiều và việc đặt mạo từ a/an trước các đơn vị riêng lẻ. Các thuật ngữ này thường xuất hiện trong văn viết học thuật và các tài liệu ngôn ngữ học.
 
 ### Lưu ý
-_(chưa có)_
+1. Các thuật ngữ này là danh từ đếm được; dùng số ít khi chỉ một đơn vị, số nhiều khi chỉ nhiều đơn vị.
+  - ❌ The phrase are complex. → ✅ The phrase is complex.
+  - ✅ The phrases are complex.
+2. Khi mô tả một thành phần ngữ pháp, đặt thuật ngữ sau ví dụ cụ thể để làm rõ nghĩa.
+  - ✅ The clause "She sings" contains a subject and a verb.
+3. Thuật ngữ ngôn ngữ học thường dùng trong văn viết học thuật; tránh dùng trong giao tiếp thân mật.
+  - ✅ In linguistic analysis, morphology examines word formation.
+4. Đừng nhầm lẫn "syntax" (cấu trúc ngữ pháp tổng thể) với "sentence structure" (cấu trúc câu cụ thể).
+  - ❌ The syntax of the sentence is simple. → ✅ The sentence has a simple syntax.
 
 ### Lỗi thường gặp
 ❌ A phrase is a complete sentence.  →  ✅ A phrase is not a complete sentence.
 
 ### Trong bài đọc
 - EN: Rhetoric — the art of effective and persuasive communication — is a noun phrase that has shaped public life since ancient Greece.
-  VI: 
+  VI: Rhetoric — nghệ thuật giao tiếp hiệu quả và thuyết phục — là một cụm danh từ đã định hình đời sống công chúng từ thời Hy Lạp cổ đại.
 - EN: Classical theorists identified three pillars of persuasion, each of which functions as a clause within the broader argument.
-  VI: 
+  VI: Các nhà lý luận cổ điển đã xác định ba trụ cột của sự thuyết phục, mỗi trụ cột trong số đó hoạt động như một mệnh đề trong lập luận rộng hơn.
 - EN: The power of eloquence lies not merely in vocabulary or grammar, but in the syntax that organizes ideas into coherent statements.
-  VI: 
+  VI: Sức mạnh của sự hùng biện không chỉ nằm ở từ vựng hay ngữ pháp, mà còn ở cú pháp tổ chức các ý tưởng thành những câu khẳng định mạch lạc.
 
 <!-- /topic -->
 
@@ -1742,21 +1789,28 @@ Danh hóa (nominalization) là quá trình chuyển động từ, tính từ ho�
 ```
 
 ### Giải thích
-Phương tiện liên kết văn bản được dùng để nối các câu, đoạn hoặc ý, giúp bài viết trở nên mạch lạc và logic.
+Phương tiện liên kết văn bản (cohesive devices) là các từ hoặc cấu trúc dùng để tạo mối quan hệ giữa các câu, đoạn hoặc ý, giúp văn bản trở nên mạch lạc và logic. Chúng bao gồm các dạng tham chiếu (pronouns, demonstratives), thay thế (substitution như do so, so), lược bỏ (ellipsis) và liên từ (conjunctions). Khi dùng, người viết phải đảm bảo rằng đại từ hoặc từ chỉ thay thế rõ ràng chỉ tới thành phần đã xuất hiện trước, và vị trí của chúng thường nằm ở đầu hoặc cuối câu tùy thuộc vào trọng tâm. Đối với liên từ, cần lựa chọn đúng loại liên từ (điều kiện, nguyên nhân‑kết quả, đối lập…) và đặt chúng ở vị trí thích hợp để duy trì tính liên kết chặt chẽ.
 
 ### Lưu ý
-_(chưa có)_
+1. Khi dùng đại từ để tham chiếu, phải chắc chắn rằng antecedent đã xuất hiện và rõ ràng, tránh gây nhầm lẫn.
+  - ❌ He told John that he should leave → ✅ He told John that John should leave
+2. Thay thế bằng 'do so', 'so' hoặc 'one' giúp tránh lặp từ, nhưng phải đồng nhất về số và loại từ.
+  - ❌ The committee approved the plan, and the board did it too → ✅ The committee approved the plan, and the board did so too
+3. Lược bỏ (ellipsis) cho phép bỏ qua các thành phần đã được nêu trước, nhưng chỉ khi nghĩa không bị mơ hồ.
+  - ❌ She likes coffee, and I do not → ✅ She likes coffee, and I do not (ellipsis of 'like coffee')
+4. Liên từ phụ thuộc (subordinating conjunction) thường đứng đầu mệnh đề phụ, còn liên từ đồng cấp (coordinating) nối các mệnh đề độc lập; chọn đúng loại để phản ánh quan hệ logic.
+  - ❌ He was tired, and he went to bed early → ✅ He was tired, so he went to bed early
 
 ### Lỗi thường gặp
 ❌ The novel explores themes of identity; it also examines social class, however it fails to address gender.  →  ✅ The novel explores themes of identity; it also examines social class; however, it fails to address gender.
 
 ### Trong bài đọc
 - EN: A skilled author will carefully construct a plot that moves with purpose, ensuring each scene builds on the last.
-  VI: 
+  VI: Một tác giả tài năng sẽ cẩn thận xây dựng một cốt truyện có mục đích, đảm bảo mỗi cảnh nối tiếp cảnh trước.
 - EN: Skilled authors know how to build narrative tension steadily across chapters, so that the resolution feels both earned and surprising.
-  VI: 
+  VI: Các tác giả có kinh nghiệm biết cách xây dựng căng thẳng câu chuyện một cách đều đặn qua các chương, để kết thúc vừa xứng đáng vừa bất ngờ.
 - EN: A daring author may choose to subvert audience expectations by refusing to confirm the moral certainties readers bring to the text; others do so by employing an unreliable narrator.
-  VI: 
+  VI: Một tác giả táo bạo có thể chọn cách đảo ngược kỳ vọng của khán giả bằng cách không khẳng định những chắc chắn đạo đức mà độc giả mang vào văn bản; những người khác làm như vậy bằng cách sử dụng người kể chuyện không đáng tin cậy.
 
 <!-- /topic -->
 
@@ -1774,21 +1828,30 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng các cụm ‘to some extent’ hoặc ‘with some reservations’ để biểu đạt mức độ hạn chế, không khẳng định tuyệt đối.
+‘To some extent’ và ‘with some reservations’ là các cụm từ dùng để hạn chế, làm giảm mức độ khẳng định của một phát biểu, mang tính chất giảm nhẹ (hedging). Chúng thường xuất hiện ở cuối câu hoặc sau vị trí động từ, đóng vai trò là bổ ngữ trạng từ, và được dùng trong văn viết trang trọng, học thuật. ‘To some extent’ nhấn mạnh mức độ phần nào, còn ‘with some reservations’ nhấn mạnh có một số lo ngại hoặc điều kiện. Khi dùng, cần đặt chúng sau mệnh đề chính để không làm rối cấu trúc câu.
 
 ### Lưu ý
-_(chưa có)_
+1. Vị trí thường là cuối câu hoặc ngay sau động từ chính; nếu đặt ở đầu câu sẽ tạo nhấn mạnh nhưng cần dấu phẩy.
+  - ❌ The theory holds to some extent. → ✅ To some extent, the theory holds.
+2. ‘With some reservations’ thường đi kèm với cả câu, không dùng để mô tả một danh từ riêng lẻ.
+  - ❌ He accepted the proposal with some reservations about the budget. → ✅ He accepted the proposal, with some reservations about the budget.
+3. Hai cụm không đồng nghĩa với ‘partially’ hay ‘somewhat’; chúng biểu thị sự hạn chế có tính chất thận trọng hơn.
+  - ✅ The results are valid to some extent. (không đồng nghĩa với ‘completely valid’)
+  - ✅ The plan proceeds with some reservations. (ngụ ý có lo ngại)
+4. Trong văn viết trang trọng, dùng chúng để tránh khẳng định tuyệt đối; trong giao tiếp thân mật nên chọn các cách diễn đạt nhẹ nhàng hơn.
+  - ✅ The policy may work, to some extent. (trang trọng)
+  - ❌ It’ll totally work. → ✅ It might work, to some extent. (tránh khẳng định tuyệt đối)
 
 ### Lỗi thường gặp
 ❌ The results are completely accurate.  →  ✅ The results are accurate to some extent.
 
 ### Trong bài đọc
 - EN: English, for instance, has one of the largest lexicons of any language to some extent because it has borrowed prolifically from French, German, and dozens of other sources.
-  VI: 
+  VI: Tiếng Anh, chẳng hạn, có một trong những từ vựng lớn nhất trong mọi ngôn ngữ, ở mức độ nhất định, vì nó đã vay mượn một cách phong phú từ tiếng Pháp, tiếng Đức và hàng chục nguồn khác.
 - EN: Writers and marketers who coin new terminology often find their inventions absorbed into everyday speech within a generation with some reservations about their longevity.
-  VI: 
+  VI: Những nhà văn và nhà tiếp thị sáng tạo thuật ngữ mới thường thấy các sáng tạo của họ được hấp thụ vào ngôn ngữ hàng ngày trong một thế hệ, tuy nhiên vẫn còn một số lo ngại về độ bền lâu dài của chúng.
 - EN: The standardisation of spelling and grammar, while aiding literacy, can accelerate obsolescence to some extent by pushing non‑standard forms toward extinction.
-  VI: 
+  VI: Việc chuẩn hoá chính tả và ngữ pháp, mặc dù hỗ trợ nâng cao trình độ đọc viết, có thể làm tăng tốc độ lỗi thời ở mức độ nhất định bằng cách đẩy các dạng không chuẩn về phía tuyệt chủng.
 
 <!-- /topic -->
 
@@ -1806,21 +1869,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng quá khứ hoàn thành để mô tả hành động đã xảy ra trước một thời điểm trong quá khứ; dùng 'was/were going to' để dự báo một hành động sắp tới trong quá khứ.
+Trong văn bản tự sự, quá khứ hoàn thành (past perfect) dùng để mô tả một hành động đã xảy ra và kết thúc trước một thời điểm hoặc một hành động khác trong quá khứ. Thì này được hình thành bằng cách đặt had + past participle sau thì quá khứ đơn. Để dự báo một hành động sẽ xảy ra trong quá khứ, ta dùng cấu trúc was/were going to + động từ nguyên mẫu, diễn tả kế hoạch hoặc ý định đã có trước khi có một sự kiện khác xảy ra.
 
 ### Lưu ý
-_(chưa có)_
+1. Quá khứ hoàn thành chỉ dùng khi hành động A đã hoàn thành trước hành động B trong cùng một khung thời gian quá khứ.
+  - ❌ She left the office after she finished the report. → ✅ She left the office after she had finished the report.
+2. Cấu trúc này thường xuất hiện sau các từ chỉ thời gian như by the time, when, after, hoặc ở vị trí trước câu chính quá khứ để làm nền cho sự kiện chính.
+  - ✅ By the time the meeting started, he had prepared the slides.
+3. 'Was/were going to' diễn tả một kế hoạch, dự định trong quá khứ, thường bị cản trở bởi một sự kiện bất ngờ.
+  - ✅ He was going to call her, but his phone died.
+4. Không dùng 'was/were going to' để nói thói quen trong quá khứ; thay vào đó dùng 'used to' hoặc 'would'.
+  - ❌ She was going to visit her grandma every weekend. → ✅ She used to visit her grandma every weekend.
 
 ### Lỗi thường gặp
 ❌ *She had went* to the conference → ✅ *She had gone* to the conference
 
 ### Trong bài đọc
 - EN: Speakers who had mastered pacing knew when to slow down for emphasis.
-  VI: 
+  VI: Những người nói chuyện đã thành thạo việc điều chỉnh nhịp độ biết khi nào cần chậm lại để nhấn mạnh.
 - EN: The presenter was going to illustrate the point with a visual aid, but the projector failed.
-  VI: 
+  VI: Người thuyết trình định minh họa ý chính bằng một công cụ trực quan, nhưng máy chiếu đã hỏng.
 - EN: If the audience had responded positively, the speaker would have extended the discussion.
-  VI: 
+  VI: Nếu khán giả đã phản hồi tích cực, người nói sẽ mở rộng cuộc thảo luận.
 
 <!-- /topic -->
 
@@ -1838,21 +1908,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc này để diễn tả một hiện tượng có vẻ đúng nhưng chưa chắc chắn, thường khi chúng ta dựa vào quan sát hoặc ý kiến chung.
+Động từ nguyên thể bị động là cấu trúc infinitive dạng "to be + past participle" (hoặc "to have been + past participle" cho thời hoàn thành). Nó được dùng sau các động từ biểu thị nhận thức, quan điểm, hoặc mô tả hiện tượng như appear, seem, be thought, be considered, v.v., để diễn tả một trạng thái được cho là đúng nhưng chưa chắc chắn. Cấu trúc cơ bản: Chủ ngữ + động từ (appear, seem, be thought, …) + to be + V3 (hoặc to have been + V3). Khi muốn nhấn mạnh thời điểm quá khứ, dùng dạng hoàn thành: appear to have been, seem to have been, ….
 
 ### Lưu ý
-_(chưa có)_
+1. Động từ nguyên thể bị động luôn đứng sau các động từ cảm nhận, nhận định; không thể đặt trực tiếp sau một động từ thường mà không có giới từ "to be".
+  - ❌ She appears angry → ✅ She appears to be angry
+2. Trong văn viết trang trọng, dạng này thường được dùng; trong giao tiếp thông thường người nói có thể dùng "looks like" hoặc "seems like" thay thế.
+  - ❌ It looks like he is late → ✅ He appears to be late
+3. Người học thường nhầm lẫn với dạng chủ động và bỏ "to be"; khi muốn diễn tả trạng thái bị động, phải có "to be" trước quá khứ phân từ.
+  - ❌ The results seem increased → ✅ The results seem to be increased
+4. Dạng hoàn thành (to have been) dùng để suy đoán một trạng thái đã xảy ra trong quá khứ dựa trên bằng chứng hiện tại.
+  - ✅ The policy seems to have been implemented last year
 
 ### Lỗi thường gặp
 ❌ The results seem being accurate. → ✅ The results seem to be accurate.
 
 ### Trong bài đọc
 - EN: Translation appears to be frequently misunderstood as a mechanical process of substituting words from one language with their counterparts in another.
-  VI: 
+  VI: Việc dịch thuật dường như thường bị hiểu lầm là một quá trình cơ học thay thế từ ngữ từ ngôn ngữ này sang ngôn ngữ khác.
 - EN: The concept of fidelity is thought to be at the heart of translation ethics.
-  VI: 
+  VI: Khái niệm về độ trung thực được cho là nằm ở trung tâm của đạo đức dịch thuật.
 - EN: Interpreting seems to have been added as a further layer of complexity, as professionals must preserve semantic equivalence in real time.
-  VI: 
+  VI: Việc phiên dịch dường như đã được thêm vào như một lớp phức tạp nữa, vì các chuyên gia phải duy trì sự tương đương ngữ nghĩa trong thời gian thực.
 
 <!-- /topic -->
 
@@ -1868,21 +1945,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc ‘it is crucial that …’ để nhấn mạnh một yêu cầu hoặc khuyến nghị, với động từ ở dạng nguyên mẫu (subjunctive). Dùng ‘were … to …’ để diễn tả một tình huống không có thực trong quá khứ hoặc hiện tại.
+Thức giả định (subjunctive) được dùng sau các cấu trúc diễn tả yêu cầu, khuyến nghị hoặc tầm quan trọng như it is crucial that, it is essential that, …, trong đó động từ luôn ở dạng nguyên mẫu (bare infinitive) không có “to”. Cấu trúc were … to … là dạng đảo ngữ của câu điều kiện loại 2, dùng để mô tả một tình huống không có thực ở hiện tại hoặc tương lai, mang tính giả định và thường xuất hiện trong văn phong trang trọng. Khi dùng were, chủ ngữ có thể là bất kỳ danh từ nào và động từ luôn ở dạng quá khứ đơn (were) kèm theo to‑infinitive. Cả hai cấu trúc đều yêu cầu một mệnh đề phụ không thực và thường xuất hiện trong các bài luận học thuật hoặc lập luận.
 
 ### Lưu ý
-_(chưa có)_
+1. Sau các cụm như it is crucial that, động từ phải ở dạng nguyên mẫu, không thêm –s ở ngôi thứ ba số ít.
+  - ❌ It is crucial that he *recognizes* the problem → ✅ It is crucial that he *recognize* the problem
+2. Cấu trúc were … to … là dạng đảo ngữ của If + subject + were to …; nó dùng cho giả định không có thực và luôn ở dạng were, bất kể chủ ngữ là gì.
+  - ❌ If this was true, … → ✅ Were this to be true, …
+  - ❌ Were he goes, … → ✅ Were he to go, …
+3. Hai cấu trúc này mang tính trang trọng; trong giao tiếp thông thường người học thường thay thế bằng các câu đơn giản như must, need to, hoặc if + simple past.
+  - It is crucial that we *act* now. (formal) → We must *act* now. (informal)
+4. Trong câu điều kiện giả định, were không thể thay bằng was; were được dùng cho mọi ngôi, kể cả ngôi thứ nhất và thứ ba số ít.
+  - ❌ If I was to leave, … → ✅ If I were to leave, …
 
 ### Lỗi thường gặp
 ❌ It is crucial that the committee adopts a new policy. → ✅ It is crucial that the committee adopt a new policy.
 
 ### Trong bài đọc
 - EN: It is crucial that philosophers recognise the enduring importance of the ethical dilemma.
-  VI: 
+  VI: Điều then chốt là các triết gia phải nhận thức được tầm quan trọng lâu dài của vấn đề đạo đức.
 - EN: Were this to be true, the consequentialist approach must justify harming a few for the benefit of many.
-  VI: 
+  VI: Nếu điều này là đúng, cách tiếp cận vị lợi phải biện minh cho việc gây hại cho một số người vì lợi ích của đa số.
 - EN: It is crucial that we uphold principles of justice absolutely, even when doing so appears to produce worse outcomes.
-  VI: 
+  VI: Điều then chốt là chúng ta phải duy trì nguyên tắc công lý một cách tuyệt đối, ngay cả khi việc đó dường như mang lại kết quả tồi tệ hơn.
 
 <!-- /topic -->
 
@@ -1900,21 +1985,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng để suy đoán về quá khứ (should have) hoặc chỉ ra rằng một hành động không cần thiết (need not have).
+Động từ khuyết thiếu hoàn thành (modal + have + V3) dùng để nói về một hành động trong quá khứ mà người nói cho rằng nó đáng lẽ phải xảy ra hoặc không cần thiết. Khi dùng ‘should have + V3’, người nói đưa ra lời phê bình, nhận xét rằng việc đó đã không được thực hiện như mong đợi. Khi dùng ‘need not have + V3’, người nói nhấn mạnh rằng hành động đã thực hiện là thừa thãi, không bắt buộc. Cấu trúc này có thể xuất hiện ở thể chủ động hoặc bị động (should have been + V3) và thường xuất hiện trong ngữ cảnh trang trọng hoặc viết.
 
 ### Lưu ý
-_(chưa có)_
+1. Cấu trúc của động từ khuyết thiếu hoàn thành là: modal + have + past participle; trong câu bị động dùng “modal + have + been + past participle”.
+  - ❌ He should been warned → ✅ He should have been warned
+2. ‘Should have + V3’ diễn tả một hành động được cho là nên xảy ra trong quá khứ nhưng không xảy ra, thường dùng để chỉ trách móc hoặc nhận xét tiêu cực.
+  - ❌ They should have arrived yesterday → ✅ They should have arrived yesterday (but they didn’t)
+3. ‘Need not have + V3’ chỉ ra rằng hành động đã được thực hiện nhưng không cần thiết; người nói muốn nhấn mạnh tính thừa thãi.
+  - ❌ You need not have bought the tickets → ✅ You need not have bought the tickets (they were unnecessary)
+4. Trong giao tiếp không trang trọng người nói thường rút gọn thành “should've” hoặc “needn't have”; tránh viết “should of” vì sai chính tả.
+  - ❌ She should of called → ✅ She should have called
 
 ### Lỗi thường gặp
 ❌ He should have went to the meeting → ✅ He should have gone to the meeting
 
 ### Trong bài đọc
 - EN: Individuals and corporations alike should have been urged to adopt sustainable practices earlier.
-  VI: 
+  VI: Cá nhân và các công ty đều lẽ ra đã được khuyến khích áp dụng các thực hành bền vững sớm hơn.
 - EN: Governments and industries need not have been forced to reduce carbon footprint if they had adopted early measures.
-  VI: 
+  VI: Các chính phủ và ngành công nghiệp không cần phải bị ép buộc giảm dấu chân carbon nếu họ đã áp dụng các biện pháp sớm.
 - EN: Conservation alone, however, should have been insufficient if anthropocentrism continues to drive economic policy.
-  VI: 
+  VI: Việc bảo tồn một mình, tuy nhiên, lẽ ra đã không đủ nếu chủ nghĩa nhân loại trung tâm vẫn tiếp tục chi phối chính sách kinh tế.
 
 <!-- /topic -->
 
@@ -1932,21 +2024,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc 'is set to / is due to / is predicted to' để nói về một sự kiện tương lai đã được lên kế hoạch, dự kiến hoặc được xác định.
+Cấu trúc ‘is set to’, ‘is due to’, và ‘is predicted to’ được dùng để diễn tả một sự kiện trong tương lai đã được lên kế hoạch, dự kiến hoặc được xác định. Dạng chung là: Chủ ngữ + to be (am/is/are) + set/due/predicted + to + động từ nguyên mẫu. Các cụm này thường xuất hiện trong văn viết trang trọng như báo cáo, bài nghiên cứu, hoặc tin tức. Khi dùng ‘is due to’, cần chú ý ngữ cảnh để tránh nhầm lẫn với nghĩa ‘do vì’ (nguyên nhân).
 
 ### Lưu ý
-_(chưa có)_
+1. ‘Is set to’ luôn đi sau động từ nguyên mẫu; không dùng dạng –ing hay quá khứ.
+  - ❌ He is set to going abroad → ✅ He is set to go abroad
+2. ‘Is due to’ có hai nghĩa: một là dự kiến xảy ra trong tương lai, hai là chỉ nguyên nhân; ngữ cảnh quyết định nghĩa nào được áp dụng.
+  - The meeting is due to start at 9am. (dự kiến) vs The delay is due to traffic. (nguyên nhân)
+3. ‘Is predicted to’ thường đi kèm với nguồn dự báo; nếu không có nguồn, câu vẫn đúng nhưng ngữ nghĩa ít chắc chắn hơn.
+  - Scientists predict that sea levels will rise. → Sea levels are predicted to rise.
+4. Ba cấu trúc này dùng trong ngữ cảnh trang trọng; trong giao tiếp thân mật, người học thường dùng will/going to.
+  - ❌ I'm set to finish my work tonight. (informal) → ✅ The project is set to finish next month. (formal)
 
 ### Lỗi thường gặp
 ❌ The conference is set for next month → ✅ The conference is set to start next month
 
 ### Trong bài đọc
 - EN: Modern medicine is set to rely increasingly on AI‑driven diagnostics as ethical frameworks evolve.
-  VI: 
+  VI: Y học hiện đại sẽ ngày càng dựa vào chẩn đoán do AI điều khiển khi các khung đạo đức phát triển.
 - EN: The fair allocation of organs is due to transparent criteria, without which decisions risk becoming arbitrary.
-  VI: 
+  VI: Việc phân bổ cơ quan một cách công bằng sẽ dựa vào các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.
 - EN: Bioethicists are predicted to warn against paternalism as new digital health records emerge.
-  VI: 
+  VI: Các nhà sinh học đạo đức được dự đoán sẽ cảnh báo về chủ nghĩa bảo trợ khi hồ sơ sức khỏe kỹ thuật số mới xuất hiện.
 
 <!-- /topic -->
 
@@ -1962,21 +2061,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc đảo ngữ để nhấn mạnh nguyên nhân ngược lại (Had it not been for…) hoặc để nhấn mạnh điều kiện duy nhất (Only if…).
+Câu điều kiện C2 dùng đảo ngữ để nhấn mạnh nguyên nhân ngược lại (Had it not been for…) hoặc để nhấn mạnh điều kiện duy nhất (Only if…). Khi dùng ‘Had … not been for …’, cấu trúc đảo ngữ thay thế cho mệnh đề ‘if … had …’, và động từ chính ở dạng quá khứ hoàn thành. Với ‘Only if …’, vị ngữ phải đảo vị trí của trợ động từ (will/shall) ngay sau chủ ngữ. Cả hai dạng đều mang tính trang trọng, thích hợp cho văn viết, diễn thuyết hoặc các ngữ cảnh nhấn mạnh.
 
 ### Lưu ý
-_(chưa có)_
+1. Sau ‘Had’, không dùng ‘if’; cấu trúc là Had + chủ ngữ + past participle, rồi mới là mệnh đề chính.
+  - ❌ If we had not acted, the crisis would worsen → ✅ Had we not acted, the crisis would worsen
+2. Khi ‘Only if’ đứng đầu câu, trợ động từ (will/shall) phải đứng trước chủ ngữ của mệnh đề chính.
+  - ❌ Only if we act now we will succeed → ✅ Only if we act now will we succeed
+3. Cấu trúc này mang tính trang trọng; trong giao tiếp thân mật nên dùng dạng ‘if …’ thông thường.
+  - ✅ Only if you study will you pass the exam (formal) → You will pass the exam only if you study (informal)
+4. Lỗi thường gặp là nhầm lẫn ‘Had it not been for …’ với ‘If it had not been for …’; cả hai đúng nhưng đảo ngữ yêu cầu bỏ ‘if’.
+  - ❌ If it had not been for his help, we failed → ✅ Had it not been for his help, we would have succeeded
 
 ### Lỗi thường gặp
 ❌ Had it not be for the policy, we would lose jobs. → ✅ Had it not been for the policy, we would lose jobs.
 
 ### Trong bài đọc
 - EN: Had it not been for rapid automation, millions of workers would not face displacement.
-  VI: 
+  VI: Nếu không có sự tự động hóa nhanh chóng, hàng triệu công nhân sẽ không phải đối mặt với việc mất việc.
 - EN: Only if we act now will we ensure algorithmic fairness in AI systems.
-  VI: 
+  VI: Chỉ nếu chúng ta hành động ngay bây giờ, chúng ta mới có thể đảm bảo công bằng thuật toán trong các hệ thống AI.
 - EN: Had it not been for robust legislation, digital rights would be eroded.
-  VI: 
+  VI: Nếu không có luật pháp mạnh mẽ, các quyền kỹ thuật số sẽ bị xói mòn.
 
 <!-- /topic -->
 
@@ -1994,21 +2100,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc bị động tương lai để nói về hành động sẽ xảy ra trong tương lai nhưng không nhấn mạnh người thực hiện.
+Bị động tương lai phức tạp dùng để diễn tả một hành động sẽ xảy ra trong tương lai nhưng không nhấn mạnh người thực hiện. Cấu trúc cơ bản là will + be + V3 (past participle), hoặc be + tính từ (expected, required, likely) + to be + V3. Nó thường xuất hiện khi nói về dự đoán, kế hoạch, yêu cầu, hoặc mong đợi trong tương lai. Khi có cụm tính từ, 'be' giữ vai trò trợ động từ và 'to be' giới thiệu dạng nguyên thể bị động của động từ chính.
 
 ### Lưu ý
-_(chưa có)_
+1. Cấu trúc tương lai bị động gồm 'will be' + V3, hoặc 'be' + tính từ (expected, required, likely) + 'to be' + V3.
+  - ✅ The policy will be implemented next year.
+  - ✅ The report is expected to be submitted tomorrow.
+2. Dạng này thường dùng trong văn viết trang trọng như báo cáo, luật pháp; không phổ biến trong giao tiếp thân mật.
+  - ✅ The treaty will be ratified by all parties.
+3. Người học thường bỏ qua 'be' sau 'will' hoặc dùng dạng nguyên thể thay vì V3, gây lỗi ngữ pháp.
+  - ❌ The program will implement → ✅ The program will be implemented.
+4. Trong câu bị động, trạng từ thời gian, tần suất thường đặt sau cụm 'will be V3'.
+  - ✅ The changes will be announced tomorrow.
 
 ### Lỗi thường gặp
 ❌ The company will automate the process → ✅ The process will be automated
 
 ### Trong bài đọc
 - EN: International mechanisms will be required to fill the void.
-  VI: 
+  VI: Các cơ chế quốc tế sẽ được yêu cầu để lấp đầy khoảng trống.
 - EN: Advocacy organisations are expected to be consulted when governments ignore human rights.
-  VI: 
+  VI: Các tổ chức vận động được kỳ vọng sẽ được tham vấn khi các chính phủ bỏ qua nhân quyền.
 - EN: The challenge for the twenty-first century will be addressed by new institutions.
-  VI: 
+  VI: Thách thức của thế kỷ hai mươi mốt sẽ được các tổ chức mới giải quyết.
 
 <!-- /topic -->
 
@@ -2023,21 +2137,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Các liên từ học thuật này nối các mệnh đề, diễn tả quan hệ nhượng bộ, mức độ hoặc căn cứ trong văn viết trang trọng.
+Các liên từ học thuật này là các từ nối dùng trong văn viết trang trọng để liên kết các mệnh đề có quan hệ nhượng bộ, mức độ hoặc căn cứ. "notwithstanding" diễn đạt nghĩa "mặc dù" và thường đứng ở đầu mệnh đề phụ, sau dấu phẩy hoặc dấu chấm phẩy; "in so far as" chỉ mức độ, nghĩa "trong chừng mức mà" và thường đi kèm với một mệnh đề hoàn chỉnh; "by virtue of" mang nghĩa "bởi vì" hoặc "do" và dùng để chỉ căn cứ dựa trên một đặc tính hoặc vai trò cụ thể. Khi dùng, cần chú ý đặt chúng ở vị trí đầu câu hoặc sau dấu câu tách rời, và chúng luôn đi kèm với một cụm danh từ hoặc mệnh đề đầy đủ.
 
 ### Lưu ý
-_(chưa có)_
+1. Vị trí đặt: các liên từ này thường xuất hiện ở đầu mệnh đề phụ, sau dấu phẩy hoặc dấu chấm phẩy, để nhấn mạnh quan hệ giữa các phần câu.
+  - ❌ We continued notwithstanding. → ✅ We continued, notwithstanding the breakdown.
+2. Đăng ký ngôn ngữ: chúng thuộc ngôn ngữ trang trọng, thích hợp cho bài viết học thuật, pháp lý; không nên dùng trong giao tiếp thân mật.
+  - ❌ I'm staying, notwithstanding. → ✅ The agreement was signed, notwithstanding the objections.
+3. Nghĩa riêng biệt: "notwithstanding" = "mặc dù"; "in so far as" = "trong chừng mức mà"; "by virtue of" = "bởi vì" (dựa trên một đặc tính).
+  - ✅ By virtue of his experience, she was promoted.
+  - ✅ In so far as the data are reliable, the conclusion holds.
+4. Lỗi thường gặp: dùng "in so far as" hoặc "by virtue of" mà không có mệnh đề hoặc danh từ đầy đủ, gây thiếu thông tin.
+  - ❌ In so far as the risk, we stopped. → ✅ In so far as the risk is concerned, we stopped.
 
 ### Lỗi thường gặp
 ❌ The treaty was signed, notwithstanding the lingering mistrust, it failed.  →  ✅ The treaty was signed, notwithstanding the lingering mistrust.
 
 ### Trong bài đọc
 - EN: The pursuit of diplomacy has long been humanity's primary tool for managing conflict short of war, notwithstanding the occasional breakdown of diplomatic channels.
-  VI: 
+  VI: Việc theo đuổi ngoại giao đã từ lâu là công cụ chính của nhân loại để quản lý xung đột không đến chiến tranh, bất chấp việc các kênh ngoại giao thỉnh thoảng sụp đổ.
 - EN: Progress towards disarmament has meanwhile stalled, in so far as states weigh the security risks of reducing military capabilities against the long‑term benefits of a less militarised world.
-  VI: 
+  VI: Tiến trình hướng tới giải giáp đã tạm thời chững lại, trong chừng mức mà các quốc gia cân nhắc rủi ro an ninh khi giảm năng lực quân sự so với lợi ích lâu dài của một thế giới ít quân sự hơn.
 - EN: Sovereignty must not be invoked as an excuse to obstruct peace processes, by virtue of its fundamental role in guaranteeing the rights of all citizens.
-  VI: 
+  VI: Chủ quyền không được dùng làm lý do để cản trở quá trình hòa bình, bởi vì vai trò cơ bản của nó trong việc bảo đảm quyền lợi của mọi công dân.
 
 <!-- /topic -->
 
@@ -2052,21 +2174,29 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng đảo ngữ trong câu điều kiện để nhấn mạnh hoặc tạo phong cách trang trọng, thường bỏ 'if' và đảo vị trí của trợ động từ.
+Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) để tạo phong cách trang trọng hoặc nhấn mạnh, thường bỏ ‘if’. Cấu trúc cơ bản là: trợ động từ + chủ ngữ + to + động từ nguyên mẫu, …, … would/could/might + động từ (ví dụ: Were he to try, …). Khi diễn tả một điều kiện không có thực trong quá khứ, dùng dạng đảo ngữ với quá khứ hoàn thành: Had + chủ ngữ + past participle, …, … would/could + have + past participle. Ngoài ra, có thể kết hợp các thời và dạng động từ để tạo câu điều kiện hỗn hợp, ví dụ: If + past perfect → would + infinitive, hoặc Should + chủ ngữ + động từ → will + động từ.
 
 ### Lưu ý
-_(chưa có)_
+1. Trong đảo ngữ, trợ động từ (were, should, had) đứng trước chủ ngữ và luôn đi kèm ‘to’ trước động từ nguyên mẫu.
+  - ❌ Were he try → ✅ Were he to try
+  - ❌ Should we ignore → ✅ Should we ignore
+2. Câu điều kiện đảo ngữ mang tính trang trọng, thích hợp cho văn viết, báo chí; trong giao tiếp thân mật nên dùng dạng ‘if’.
+  - ❌ If you wish, you should act → ✅ Should you wish, you ought to act
+3. Câu điều kiện hỗn hợp cho phép thời gian của mệnh đề điều kiện và mệnh đề kết quả không đồng nhất, ví dụ: điều kiện quá khứ → kết quả hiện tại.
+  - ❌ If he studied, he would be a doctor now → ✅ If he had studied, he would be a doctor now
+4. Khi dùng ‘had’ trong đảo ngữ, cần dùng dạng quá khứ hoàn thành (had + past participle) và kết quả thường dùng ‘would have + past participle’.
+  - ❌ Had she known, she would go → ✅ Had she known, she would have gone
 
 ### Lỗi thường gặp
 ❌ If had I known, I would have acted.  →  ✅ Had I known, I would have acted.
 
 ### Trong bài đọc
 - EN: Were policymakers to challenge techno‑solutionist thinking, they would design interventions that reduce inequality rather than deepen it.
-  VI: 
+  VI: Nếu các nhà hoạch định chính sách dám thách thức tư duy giải pháp công nghệ, họ sẽ thiết kế các can thiệp giảm bất bình đẳng thay vì làm sâu hơn nó.
 - EN: If the platforms had resisted algorithmic manipulation earlier, they would be trusted today.
-  VI: 
+  VI: Nếu các nền tảng đã chống lại việc thao túng thuật toán sớm hơn, chúng sẽ được tin cậy ngày nay.
 - EN: Should we ignore the digital divide, we will exacerbate social disparities.
-  VI: 
+  VI: Nếu chúng ta bỏ qua khoảng cách kỹ thuật số, chúng ta sẽ làm trầm trọng hơn sự bất bình đẳng xã hội.
 
 <!-- /topic -->
 
@@ -2082,21 +2212,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng đảo ngữ để đưa phần nhấn mạnh lên đầu câu; dùng câu chẻ (it‑cleft hoặc wh‑cleft) để làm nổi bật một thành phần cụ thể và tạo sự tương phản.
+Đảo ngữ (fronting) là việc đưa một thành phần muốn nhấn mạnh lên đầu câu, thường kèm theo trợ động từ hoặc động từ to be để tạo đảo vị trí. Câu chẻ (cleft) chia câu thành hai phần để làm nổi bật một thành phần cụ thể, gồm it‑cleft (It is/was … that/who …) và wh‑cleft (What … is …). Cả hai cấu trúc đều dùng để tạo sự tương phản, nhấn mạnh hoặc làm rõ thông tin quan trọng. Khi dùng, cần giữ nguyên thứ tự của phần còn lại của câu sau cấu trúc cleft hoặc sau phần đảo vị trí.
 
 ### Lưu ý
-_(chưa có)_
+1. Đảo ngữ thường đặt trạng từ, cụm danh từ hoặc phụ từ ở đầu câu, sau đó dùng trợ động từ hoặc động từ to be để đảo vị trí.
+  - ❌ I never have seen that → ✅ Never have I seen that
+2. Câu chẻ thường xuất hiện trong văn viết trang trọng hoặc diễn thuyết, không phổ biến trong giao tiếp thân mật.
+  - It is the policy that needs revision. → It is the policy that needs revision.
+3. Phân biệt it‑cleft và wh‑cleft: it‑cleft dùng It is/was … that/who …, còn wh‑cleft dùng What … is …; cả hai đều nhấn mạnh nhưng cấu trúc khác nhau.
+  - ❌ What the problem is the policy. → ✅ What the problem is is the policy.
+4. Khác với tiếng Việt, trong tiếng Anh việc đảo vị trí không chỉ dùng “đó là” mà còn yêu cầu thay đổi thứ tự từ, nên người học cần chú ý không dịch sát nghĩa.
+  - ❌ That is the reason why we act. → ✅ It is the reason why we act.
 
 ### Lỗi thường gặp
 ❌ *It is* the most important factor that we need to consider → ✅ *It is* the most important factor we need to consider
 
 ### Trong bài đọc
 - EN: Across the globe, climate change is reshaping ecosystems, economies, and lives.
-  VI: 
+  VI: Trên khắp thế giới, biến đổi khí hậu đang tái định hình các hệ sinh thái, nền kinh tế và cuộc sống.
 - EN: It is the ethical fault line that runs through the global debate about responsibility.
-  VI: 
+  VI: Đó là ranh giới đạo đức xuyên suốt cuộc tranh luận toàn cầu về trách nhiệm.
 - EN: Beyond the immediate impacts, the urgency of the crisis has renewed debate about policy frameworks.
-  VI: 
+  VI: Ngoài những tác động ngay lập tức, tính cấp bách của cuộc khủng hoảng đã làm hồi sinh cuộc tranh luận về các khung chính sách.
 
 <!-- /topic -->
 
@@ -2112,21 +2249,28 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Dùng cấu trúc này để bày tỏ quan điểm không chắc chắn hoặc cho thấy vấn đề còn đang tranh cãi.
+Diễn đạt lập trường phức tạp này dùng để nhấn mạnh sự chưa chắc chắn hoặc tính tranh cãi của một vấn đề. Cấu trúc cơ bản là It + verb (remains / is) + to be + past participle (seen) + whether/if + clause, hoặc It + is + a moot point + whether/if + clause. Thường xuất hiện trong văn viết trang trọng, đặc biệt là các bài luận, báo cáo học thuật. Khi dùng, mệnh đề whether/if luôn đứng sau phần chính của câu và không thể đảo vị trí.
 
 ### Lưu ý
-_(chưa có)_
+1. Mệnh đề whether/if luôn đứng sau cấu trúc chính, không được đưa lên đầu câu.
+  - ❌ Whether it remains to be seen the concept... → ✅ It remains to be seen whether the concept...
+2. Cấu trúc này mang tính trang trọng, thích hợp cho văn viết học thuật, không dùng trong giao tiếp thân mật.
+  - ❌ I don't know if it'll work → ✅ It remains to be seen whether it will work.
+3. 'It remains to be seen' diễn tả sự chưa chắc chắn trong tương lai, còn 'It is yet to be seen' nhấn mạnh việc chưa xảy ra tới thời điểm hiện tại.
+  - ✅ It remains to be seen whether the policy will succeed.
+4. Khi dùng 'It is a moot point', danh từ 'moot point' chỉ vấn đề còn tranh cãi hoặc không có ý nghĩa quyết định; không dùng cho các thực tế đã được chứng minh.
+  - ❌ It is a moot point that water boils at 100°C → ✅ It is a moot point whether the bill will pass.
 
 ### Lỗi thường gặp
 ❌ It remains to see whether the policy will work → ✅ It remains to be seen whether the policy will work
 
 ### Trong bài đọc
 - EN: It remains to be seen whether the concept of posthumanism truly challenges the assumption that the human form deserves preservation.
-  VI: 
+  VI: Vẫn chưa rõ liệu khái niệm chủ nghĩa siêu nhân loại có thực sự thách thức giả định rằng hình thể con người đáng được bảo tồn hay không.
 - EN: It is a moot point whether the technological singularity will inevitably lead to a post‑scarcity utopia or a dystopian future.
-  VI: 
+  VI: Việc siêu điểm công nghệ sẽ dẫn đến một tương lai không khan hiếm hay một thế giới bi thảm là một vấn đề gây tranh cãi.
 - EN: It remains to be seen whether societies can effectively grapple with questions of access, consent, and the distribution of enhancement technologies.
-  VI: 
+  VI: Vẫn chưa biết liệu các xã hội có thể giải quyết hiệu quả các câu hỏi về quyền truy cập, sự đồng ý và việc phân phối công nghệ nâng cao hay không.
 
 <!-- /topic -->
 
@@ -2141,20 +2285,27 @@ _(chưa có)_
 ```
 
 ### Giải thích
-Sử dụng các phương tiện liên kết (đại từ, ellipsis, chuỗi từ vựng, từ nối) để tạo sự mạch lạc giữa các câu và đoạn văn.
+Phương tiện liên kết văn bản gồm các dạng tham chiếu (đại từ, từ chỉ định), phép lược bỏ (ellipsis), chuỗi từ vựng (lexical chains) và các từ nối (discourse markers). Chúng được dùng để duy trì tính mạch lạc và tính liên tục giữa các câu, đoạn, giúp người đọc theo dõi ý một cách dễ dàng. Tham chiếu yêu cầu người nghe/đọc có khả năng nhận diện đối tượng đã đề cập; lược bỏ chỉ được áp dụng khi thông tin có thể suy ra từ ngữ cảnh; chuỗi từ vựng tạo ra sự liên kết nhờ việc lặp lại hoặc dùng các từ đồng nghĩa; từ nối được đặt ở đầu hoặc giữa câu để chỉ quan hệ logic (như contrast, addition, cause).
 
 ### Lưu ý
-_(chưa có)_
+1. Khi dùng đại từ hoặc từ chỉ định, phải chắc chắn rằng người đọc có thể xác định rõ ràng antecedent để tránh nhầm lẫn.
+  - ❌ "John told Peter that he would leave." → ✅ "John told Peter that John would leave."
+2. Phép lược bỏ chỉ hợp lệ khi thành phần bị bỏ có thể được suy ra một cách rõ ràng từ ngữ cảnh trước hoặc sau.
+  - ❌ "She bought a book, and he ___ a pen." → ✅ "She bought a book, and he bought a pen."
+3. Chuỗi từ vựng tạo liên kết bằng cách lặp lại từ khóa hoặc dùng các từ đồng nghĩa, nhưng không nên lạm dụng để gây nhàm chán.
+  - ✅ "The project was challenging; the difficulty required careful planning."
+4. Từ nối trong văn viết trang trọng thường dùng các liên từ như "however", "moreover", "consequently"; trong ngữ cảnh không chính thức có thể dùng "but", "so".
+  - ❌ "The results were inconclusive, but we need to continue." → ✅ "The results were inconclusive; however, we need to continue."
 
 ### Lỗi thường gặp
 ❌ *This* tradition stands in sharp contrast to hedonism, it is outdated. → ✅ *This* tradition stands in sharp contrast to hedonism, which is outdated.
 
 ### Trong bài đọc
 - EN: This tradition stands in sharp contrast to hedonism, the view that pleasure and the avoidance of pain are the ultimate measures of a well‑lived existence.
-  VI: 
+  VI: Truyền thống này đối lập rõ rệt với chủ nghĩa khoái lạc, quan điểm cho rằng niềm vui và việc tránh đau đớn là thước đo tối thượng của một cuộc sống đáng sống.
 - EN: Purpose and meaning are distinct but interrelated concepts.
-  VI: 
+  VI: Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ.
 - EN: Purpose and meaning are distinct but interrelated concepts; the repeated use of meaning creates a lexical chain throughout the paragraph.
-  VI: 
+  VI: Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ; việc lặp lại từ "meaning" tạo ra một chuỗi từ vựng xuyên suốt đoạn văn.
 
 <!-- /topic -->

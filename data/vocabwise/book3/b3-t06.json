@@ -688,7 +688,7 @@
       "negative": "neither + auxiliary + subject",
       "variant": "the former / the latter (noun substitution)"
     },
-    "rule_vi": "Dùng 'so' để đồng ý với một câu khẳng định, dùng 'neither' để đồng ý với một câu phủ định, và dùng 'the former' để thay thế danh từ đã đề cập trước.",
+    "rule_vi": "Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (thường là động từ và các phụ từ) khi chúng có thể được suy ra từ ngữ cảnh trước. Thay thế (thay thế) dùng các cấu trúc như so + trợ động từ + chủ ngữ để đồng ý với câu khẳng định, và neither + trợ động từ + chủ ngữ để đồng ý với câu phủ định; cả hai đều bỏ qua phần vị ngữ. The former / the latter là các đại từ thay thế danh từ đã được đề cập, trong đó the former chỉ thứ đã nêu đầu tiên, the latter chỉ thứ thứ hai. Cấu trúc này thường xuất hiện ở đầu câu và yêu cầu đảo trợ động từ (do, does, did, have, has, etc.) sau so hoặc neither.",
     "rule_en": "Use 'so' for affirmative agreement, 'neither' for negative agreement, and 'the former' to substitute a previously mentioned noun.",
     "common_error": "❌ *So does she* → ✅ *So does she* (when the original clause is affirmative)  ❌ *Neither do I* → ✅ *Neither do I* (when the original clause is negative)",
     "in_context": [
@@ -829,6 +829,37 @@
           "answer": "instead"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "‘So’ luôn đứng ở đầu câu, sau đó là trợ động từ (do/does/did…) rồi mới là chủ ngữ; vị ngữ được lược bỏ.",
+        "examples": [
+          "❌ She likes coffee. So she do → ✅ She likes coffee. So do I."
+        ]
+      },
+      {
+        "text": "‘Neither’ chỉ dùng để đồng ý với câu phủ định; cấu trúc tương tự ‘so’ nhưng mang nghĩa phủ định.",
+        "examples": [
+          "❌ He hasn't finished. So has he → ✅ He hasn't finished. Neither has he."
+        ]
+      },
+      {
+        "text": "Trong giao tiếp không trang trọng, người học thường dùng ‘me too’ / ‘me neither’ thay cho ‘so do I’ và ‘neither do I’, nhưng trong văn viết hoặc khi muốn nhấn mạnh, nên dùng ‘so’ và ‘neither’.",
+        "examples": [
+          "I love sushi. Me too. (informal) → I love sushi. So do I. (formal)"
+        ]
+      },
+      {
+        "text": "‘The former’ và ‘the latter’ chỉ thay thế danh từ, không thể thay thế cho một mệnh đề hoàn chỉnh; chúng chỉ áp dụng khi có hai đối tượng đã được nêu theo thứ tự.",
+        "examples": [
+          "❌ The former was expensive, and the latter is cheap. (only one item) → ✅ The former (the first model) was expensive, and the latter (the second model) is cheap."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các vận động viên ưu tú không chỉ phân biệt mình qua tài năng thuần túy mà còn qua sức bền phi thường, kỷ luật nghiêm ngặt và tâm lý chiến thắng dưới áp lực. Tôi cũng vậy.",
+      "Thể thao cũng đóng vai trò như một màn trình diễn mạnh mẽ — một hình thức giải trí công cộng thu hút hàng tỷ người hâm mộ trên toàn thế giới. Nó cũng vậy.",
+      "Doping — việc sử dụng các chất cấm để tăng cường năng lực thể chất — vẫn là mối đe dọa dai dẳng đối với tính liêm chính của thể thao. Cái trước đã bị lên án nhiều lần."
+    ]
   }
 }

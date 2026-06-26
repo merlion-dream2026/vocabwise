@@ -687,7 +687,7 @@
       "question": "Will Subject have + past participle? / Will Subject have been + present participle?",
       "variant": "Subject + shall have + past participle (British variant)"
     },
-    "rule_vi": "Dùng để diễn tả một hành động sẽ hoàn thành trước một thời điểm trong tương lai, hoặc một hành động đang diễn ra liên tục cho tới thời điểm đó.",
+    "rule_vi": "Thì tương lai hoàn thành (will have + V3) diễn tả một hành động sẽ hoàn thành trước một thời điểm xác định trong tương lai; thì tương lai hoàn thành tiếp diễn (will have been + V‑ing) nhấn mạnh rằng hành động đang diễn ra liên tục và kéo dài tới thời điểm đó. Cấu trúc thường đi kèm với các trạng từ thời gian như by, before, when, by the time, after, và thường đặt trước hoặc sau mệnh đề chính. Thì này thường xuất hiện trong văn viết trang trọng, mô tả dự đoán, kế hoạch hoặc kết quả của các quá trình dài hạn. Khi muốn nhấn mạnh khoảng thời gian hoặc tính liên tục của hành động, dùng dạng tiếp diễn; khi chỉ muốn nhấn mạnh kết quả, dùng dạng hoàn thành.",
     "rule_en": "Used to describe an action that will be completed before a specific future time, or an ongoing action up to that future point.",
     "common_error": "❌ By next year, the researchers will finish the trial. → ✅ By next year, the researchers will have finished the trial.",
     "in_context": [
@@ -842,6 +842,37 @@
           "answer": "started"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Thì tương lai hoàn thành thường đi kèm với trạng từ chỉ thời gian như by, before, when, by the time, và có thể đứng trước hoặc sau mệnh đề chính.",
+        "examples": [
+          "❌ By 2030 vaccines eradicate many diseases → ✅ By 2030, vaccines will have eradicated many diseases"
+        ]
+      },
+      {
+        "text": "Thì tương lai hoàn thành tiếp diễn nhấn mạnh khoảng thời gian kéo dài của hành động cho tới thời điểm tương lai, dùng cấu trúc will have been + V‑ing.",
+        "examples": [
+          "✅ Scientists will have been researching its mechanisms for over a decade"
+        ]
+      },
+      {
+        "text": "Không được nhầm lẫn với hiện tại hoàn thành; trong tương lai cần dùng will have + V3, không chỉ have + V3.",
+        "examples": [
+          "❌ Vaccines have eradicated many diseases by 2030 → ✅ Vaccines will have eradicated many diseases by 2030"
+        ]
+      },
+      {
+        "text": "Trong giao tiếp thông thường, người nói thường thay thế tương lai hoàn thành bằng will + verb + by then; dạng này ít trang trọng hơn.",
+        "examples": [
+          "✅ By 2030, vaccines will eradicate many diseases"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Đến năm 2030, vắc-xin sẽ đã loại trừ nhiều bệnh mà trước đây đã tàn phá dân số trên toàn thế giới.",
+      "Khi giao thức liệu pháp gen mới được phê duyệt, các nhà khoa học sẽ đã nghiên cứu các cơ chế phân tử của nó hơn một thập kỷ.",
+      "Khi quá trình xem xét quy định kết thúc, công ty dược phẩm sẽ đã hoàn thành tất cả các nghiên cứu an toàn bắt buộc."
+    ]
   }
 }

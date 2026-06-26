@@ -659,7 +659,7 @@
     "form": {
       "positive": "MainClause (S V) + SubordinateClause1 (SubConj S V) + SubordinateClause2 (RelativePronoun S V) [+ AdditionalSubordinateClause ...]"
     },
-    "rule_vi": "Dùng cấu trúc này khi muốn nối một mệnh đề chính với nhiều mệnh đề phụ (điều kiện, thời gian, quan hệ, ...).",
+    "rule_vi": "Câu phức nhiều mệnh đề phụ là câu chứa một mệnh đề chính và hai hoặc nhiều hơn các mệnh đề phụ, mỗi mệnh đề phụ được nối bằng liên từ phụ thuộc (if, when, although, who, which, …). Khi muốn diễn tả các quan hệ thời gian, nguyên nhân‑kết quả, điều kiện, hoặc mô tả tính chất đồng thời, ta có thể xâu chuỗi các mệnh đề phụ trước hoặc sau mệnh đề chính, tùy thuộc vào mức độ nhấn mạnh. Các mệnh đề phụ thường được ngăn cách bằng dấu phẩy, và vị trí của chúng trong câu quyết định độ ưu tiên thông tin. Cấu trúc này thường dùng trong văn viết trang trọng, nơi cần truyền đạt ý tưởng phức tạp và liên kết chặt chẽ giữa các yếu tố.",
     "rule_en": "Use this structure to link a main clause with several subordinate clauses for nuanced, layered meaning.",
     "common_error": "❌ *The book, that I bought yesterday, is fascinating* → ✅ *The book, which I bought yesterday, is fascinating*",
     "in_context": [
@@ -842,6 +842,37 @@
           "answer": "that"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi có nhiều mệnh đề phụ, thứ tự thường theo mức độ thời gian hoặc logic: thời gian → điều kiện → kết quả, nhưng có thể đảo vị trí để nhấn mạnh ý muốn.",
+        "examples": [
+          "❌ When he arrived, if it rains, we will stay home → ✅ If it rains when he arrives, we will stay home"
+        ]
+      },
+      {
+        "text": "Mỗi mệnh đề phụ phải có liên từ phụ thuộc rõ ràng; tránh để mệnh đề phụ rời rạc gây hiểu lầm.",
+        "examples": [
+          "❌ He left, because he was tired, and the meeting started → ✅ He left because he was tired, and the meeting started"
+        ]
+      },
+      {
+        "text": "Câu phức nhiều mệnh đề phụ thường dùng trong văn viết trang trọng; trong giao tiếp thông thường người học nên chia thành câu ngắn hơn để tránh ngữ pháp rối rắm.",
+        "examples": [
+          "✅ Although the data were inconclusive, the researchers, who had limited time, decided to publish the preliminary findings."
+        ]
+      },
+      {
+        "text": "Lỗi phổ biến là dùng dấu phẩy nối các mệnh đề độc lập (comma splice) thay vì dùng liên từ phụ thuộc hoặc dấu chấm phẩy.",
+        "examples": [
+          "❌ He finished the report, he went home → ✅ He finished the report, and then he went home"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Khi người nói chuyển đổi giữa các ngôn ngữ hoặc các biến thể, họ thực hiện việc chuyển mã, một thực hành cho phép họ điều hướng danh tính ngôn ngữ một cách linh hoạt qua các bối cảnh xã hội khác nhau.",
+      "Mỗi ngôn ngữ mà họ dùng để hình thành khung nhận thức cung cấp một thế giới quan riêng, và việc di chuyển giữa chúng có thể cảm giác như đang sống trong những bản ngã khác nhau.",
+      "Khi những người nói trên toàn thế giới khẳng định quyền ngôn ngữ trước sự thống trị của các ngôn ngữ toàn cầu, sự đa dạng quan điểm này ngày càng được công nhận không phải là một bất lợi mà là một trong những nguồn tài nguyên trí tuệ sâu sắc nhất của nhân loại."
+    ]
   }
 }

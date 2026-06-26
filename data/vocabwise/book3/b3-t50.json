@@ -688,7 +688,7 @@
       "question": "Does/Is/Are Subject + appear / seem / is thought + to be + ...?",
       "variant": "Subject + appear / seem + to have been + past participle"
     },
-    "rule_vi": "Dùng cấu trúc này để diễn tả một hiện tượng có vẻ đúng nhưng chưa chắc chắn, thường khi chúng ta dựa vào quan sát hoặc ý kiến chung.",
+    "rule_vi": "Động từ nguyên thể bị động là cấu trúc infinitive dạng \"to be + past participle\" (hoặc \"to have been + past participle\" cho thời hoàn thành). Nó được dùng sau các động từ biểu thị nhận thức, quan điểm, hoặc mô tả hiện tượng như appear, seem, be thought, be considered, v.v., để diễn tả một trạng thái được cho là đúng nhưng chưa chắc chắn. Cấu trúc cơ bản: Chủ ngữ + động từ (appear, seem, be thought, …) + to be + V3 (hoặc to have been + V3). Khi muốn nhấn mạnh thời điểm quá khứ, dùng dạng hoàn thành: appear to have been, seem to have been, ….",
     "rule_en": "Use passive infinitives to express a perceived state or judgment that is not directly confirmed.",
     "common_error": "❌ The results seem being accurate. → ✅ The results seem to be accurate.",
     "in_context": [
@@ -836,6 +836,37 @@
           "answer": "seem to be"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Động từ nguyên thể bị động luôn đứng sau các động từ cảm nhận, nhận định; không thể đặt trực tiếp sau một động từ thường mà không có giới từ \"to be\".",
+        "examples": [
+          "❌ She appears angry → ✅ She appears to be angry"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, dạng này thường được dùng; trong giao tiếp thông thường người nói có thể dùng \"looks like\" hoặc \"seems like\" thay thế.",
+        "examples": [
+          "❌ It looks like he is late → ✅ He appears to be late"
+        ]
+      },
+      {
+        "text": "Người học thường nhầm lẫn với dạng chủ động và bỏ \"to be\"; khi muốn diễn tả trạng thái bị động, phải có \"to be\" trước quá khứ phân từ.",
+        "examples": [
+          "❌ The results seem increased → ✅ The results seem to be increased"
+        ]
+      },
+      {
+        "text": "Dạng hoàn thành (to have been) dùng để suy đoán một trạng thái đã xảy ra trong quá khứ dựa trên bằng chứng hiện tại.",
+        "examples": [
+          "✅ The policy seems to have been implemented last year"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc dịch thuật dường như thường bị hiểu lầm là một quá trình cơ học thay thế từ ngữ từ ngôn ngữ này sang ngôn ngữ khác.",
+      "Khái niệm về độ trung thực được cho là nằm ở trung tâm của đạo đức dịch thuật.",
+      "Việc phiên dịch dường như đã được thêm vào như một lớp phức tạp nữa, vì các chuyên gia phải duy trì sự tương đương ngữ nghĩa trong thời gian thực."
+    ]
   }
 }

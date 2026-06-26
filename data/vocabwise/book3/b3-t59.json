@@ -736,7 +736,7 @@
       "positive": "It + verb (remains / is) + to be seen / a moot point + whether/that + clause",
       "variant": "It is a moot point whether ..."
     },
-    "rule_vi": "Dùng cấu trúc này để bày tỏ quan điểm không chắc chắn hoặc cho thấy vấn đề còn đang tranh cãi.",
+    "rule_vi": "Diễn đạt lập trường phức tạp này dùng để nhấn mạnh sự chưa chắc chắn hoặc tính tranh cãi của một vấn đề. Cấu trúc cơ bản là It + verb (remains / is) + to be + past participle (seen) + whether/if + clause, hoặc It + is + a moot point + whether/if + clause. Thường xuất hiện trong văn viết trang trọng, đặc biệt là các bài luận, báo cáo học thuật. Khi dùng, mệnh đề whether/if luôn đứng sau phần chính của câu và không thể đảo vị trí.",
     "rule_en": "Use this structure to express uncertainty or to indicate that an issue is debatable.",
     "common_error": "❌ It remains to see whether the policy will work → ✅ It remains to be seen whether the policy will work",
     "in_context": [
@@ -902,6 +902,37 @@
           "answer": "remains"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề whether/if luôn đứng sau cấu trúc chính, không được đưa lên đầu câu.",
+        "examples": [
+          "❌ Whether it remains to be seen the concept... → ✅ It remains to be seen whether the concept..."
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng, thích hợp cho văn viết học thuật, không dùng trong giao tiếp thân mật.",
+        "examples": [
+          "❌ I don't know if it'll work → ✅ It remains to be seen whether it will work."
+        ]
+      },
+      {
+        "text": "'It remains to be seen' diễn tả sự chưa chắc chắn trong tương lai, còn 'It is yet to be seen' nhấn mạnh việc chưa xảy ra tới thời điểm hiện tại.",
+        "examples": [
+          "✅ It remains to be seen whether the policy will succeed."
+        ]
+      },
+      {
+        "text": "Khi dùng 'It is a moot point', danh từ 'moot point' chỉ vấn đề còn tranh cãi hoặc không có ý nghĩa quyết định; không dùng cho các thực tế đã được chứng minh.",
+        "examples": [
+          "❌ It is a moot point that water boils at 100°C → ✅ It is a moot point whether the bill will pass."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Vẫn chưa rõ liệu khái niệm chủ nghĩa siêu nhân loại có thực sự thách thức giả định rằng hình thể con người đáng được bảo tồn hay không.",
+      "Việc siêu điểm công nghệ sẽ dẫn đến một tương lai không khan hiếm hay một thế giới bi thảm là một vấn đề gây tranh cãi.",
+      "Vẫn chưa biết liệu các xã hội có thể giải quyết hiệu quả các câu hỏi về quyền truy cập, sự đồng ý và việc phân phối công nghệ nâng cao hay không."
+    ]
   }
 }

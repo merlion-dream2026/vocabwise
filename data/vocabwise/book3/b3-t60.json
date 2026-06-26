@@ -683,7 +683,7 @@
     "form": {
       "positive": "Reference: Pronoun (Subject) → Noun Phrase (Antecedent)"
     },
-    "rule_vi": "Sử dụng các phương tiện liên kết (đại từ, ellipsis, chuỗi từ vựng, từ nối) để tạo sự mạch lạc giữa các câu và đoạn văn.",
+    "rule_vi": "Phương tiện liên kết văn bản gồm các dạng tham chiếu (đại từ, từ chỉ định), phép lược bỏ (ellipsis), chuỗi từ vựng (lexical chains) và các từ nối (discourse markers). Chúng được dùng để duy trì tính mạch lạc và tính liên tục giữa các câu, đoạn, giúp người đọc theo dõi ý một cách dễ dàng. Tham chiếu yêu cầu người nghe/đọc có khả năng nhận diện đối tượng đã đề cập; lược bỏ chỉ được áp dụng khi thông tin có thể suy ra từ ngữ cảnh; chuỗi từ vựng tạo ra sự liên kết nhờ việc lặp lại hoặc dùng các từ đồng nghĩa; từ nối được đặt ở đầu hoặc giữa câu để chỉ quan hệ logic (như contrast, addition, cause).",
     "rule_en": "Use reference devices, ellipsis, lexical chains, and discourse markers to achieve textual cohesion.",
     "common_error": "❌ *This* tradition stands in sharp contrast to hedonism, it is outdated. → ✅ *This* tradition stands in sharp contrast to hedonism, which is outdated.",
     "in_context": [
@@ -829,6 +829,37 @@
           "answer": "therefore"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Khi dùng đại từ hoặc từ chỉ định, phải chắc chắn rằng người đọc có thể xác định rõ ràng antecedent để tránh nhầm lẫn.",
+        "examples": [
+          "❌ \"John told Peter that he would leave.\" → ✅ \"John told Peter that John would leave.\""
+        ]
+      },
+      {
+        "text": "Phép lược bỏ chỉ hợp lệ khi thành phần bị bỏ có thể được suy ra một cách rõ ràng từ ngữ cảnh trước hoặc sau.",
+        "examples": [
+          "❌ \"She bought a book, and he ___ a pen.\" → ✅ \"She bought a book, and he bought a pen.\""
+        ]
+      },
+      {
+        "text": "Chuỗi từ vựng tạo liên kết bằng cách lặp lại từ khóa hoặc dùng các từ đồng nghĩa, nhưng không nên lạm dụng để gây nhàm chán.",
+        "examples": [
+          "✅ \"The project was challenging; the difficulty required careful planning.\""
+        ]
+      },
+      {
+        "text": "Từ nối trong văn viết trang trọng thường dùng các liên từ như \"however\", \"moreover\", \"consequently\"; trong ngữ cảnh không chính thức có thể dùng \"but\", \"so\".",
+        "examples": [
+          "❌ \"The results were inconclusive, but we need to continue.\" → ✅ \"The results were inconclusive; however, we need to continue.\""
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Truyền thống này đối lập rõ rệt với chủ nghĩa khoái lạc, quan điểm cho rằng niềm vui và việc tránh đau đớn là thước đo tối thượng của một cuộc sống đáng sống.",
+      "Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ.",
+      "Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ; việc lặp lại từ \"meaning\" tạo ra một chuỗi từ vựng xuyên suốt đoạn văn."
+    ]
   }
 }

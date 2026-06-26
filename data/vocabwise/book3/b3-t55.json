@@ -681,7 +681,7 @@
       "question": "Will + subject + be + past participle?",
       "variant": "Subject + is going to be + past participle"
     },
-    "rule_vi": "Dùng cấu trúc bị động tương lai để nói về hành động sẽ xảy ra trong tương lai nhưng không nhấn mạnh người thực hiện.",
+    "rule_vi": "Bị động tương lai phức tạp dùng để diễn tả một hành động sẽ xảy ra trong tương lai nhưng không nhấn mạnh người thực hiện. Cấu trúc cơ bản là will + be + V3 (past participle), hoặc be + tính từ (expected, required, likely) + to be + V3. Nó thường xuất hiện khi nói về dự đoán, kế hoạch, yêu cầu, hoặc mong đợi trong tương lai. Khi có cụm tính từ, 'be' giữ vai trò trợ động từ và 'to be' giới thiệu dạng nguyên thể bị động của động từ chính.",
     "rule_en": "Use the future passive to describe actions that will happen in the future without focusing on the agent.",
     "common_error": "❌ The company will automate the process → ✅ The process will be automated",
     "in_context": [
@@ -830,6 +830,38 @@
           "answer": "will be launched"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Cấu trúc tương lai bị động gồm 'will be' + V3, hoặc 'be' + tính từ (expected, required, likely) + 'to be' + V3.",
+        "examples": [
+          "✅ The policy will be implemented next year.",
+          "✅ The report is expected to be submitted tomorrow."
+        ]
+      },
+      {
+        "text": "Dạng này thường dùng trong văn viết trang trọng như báo cáo, luật pháp; không phổ biến trong giao tiếp thân mật.",
+        "examples": [
+          "✅ The treaty will be ratified by all parties."
+        ]
+      },
+      {
+        "text": "Người học thường bỏ qua 'be' sau 'will' hoặc dùng dạng nguyên thể thay vì V3, gây lỗi ngữ pháp.",
+        "examples": [
+          "❌ The program will implement → ✅ The program will be implemented."
+        ]
+      },
+      {
+        "text": "Trong câu bị động, trạng từ thời gian, tần suất thường đặt sau cụm 'will be V3'.",
+        "examples": [
+          "✅ The changes will be announced tomorrow."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Các cơ chế quốc tế sẽ được yêu cầu để lấp đầy khoảng trống.",
+      "Các tổ chức vận động được kỳ vọng sẽ được tham vấn khi các chính phủ bỏ qua nhân quyền.",
+      "Thách thức của thế kỷ hai mươi mốt sẽ được các tổ chức mới giải quyết."
+    ]
   }
 }

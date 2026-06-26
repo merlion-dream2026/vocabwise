@@ -683,7 +683,7 @@
       "positive": "it + be + crucial + that + Subject + base verb (subjunctive)",
       "variant": "were + Subject + to + infinitive (unreal past conditional)"
     },
-    "rule_vi": "Dùng cấu trúc ‘it is crucial that …’ để nhấn mạnh một yêu cầu hoặc khuyến nghị, với động từ ở dạng nguyên mẫu (subjunctive). Dùng ‘were … to …’ để diễn tả một tình huống không có thực trong quá khứ hoặc hiện tại.",
+    "rule_vi": "Thức giả định (subjunctive) được dùng sau các cấu trúc diễn tả yêu cầu, khuyến nghị hoặc tầm quan trọng như it is crucial that, it is essential that, …, trong đó động từ luôn ở dạng nguyên mẫu (bare infinitive) không có “to”. Cấu trúc were … to … là dạng đảo ngữ của câu điều kiện loại 2, dùng để mô tả một tình huống không có thực ở hiện tại hoặc tương lai, mang tính giả định và thường xuất hiện trong văn phong trang trọng. Khi dùng were, chủ ngữ có thể là bất kỳ danh từ nào và động từ luôn ở dạng quá khứ đơn (were) kèm theo to‑infinitive. Cả hai cấu trúc đều yêu cầu một mệnh đề phụ không thực và thường xuất hiện trong các bài luận học thuật hoặc lập luận.",
     "rule_en": "Use ‘it is crucial that …’ with the base form of the verb for strong recommendations, and ‘were … to …’ for unreal past or hypothetical conditions.",
     "common_error": "❌ It is crucial that the committee adopts a new policy. → ✅ It is crucial that the committee adopt a new policy.",
     "in_context": [
@@ -835,6 +835,38 @@
           "answer": "provide"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Sau các cụm như it is crucial that, động từ phải ở dạng nguyên mẫu, không thêm –s ở ngôi thứ ba số ít.",
+        "examples": [
+          "❌ It is crucial that he *recognizes* the problem → ✅ It is crucial that he *recognize* the problem"
+        ]
+      },
+      {
+        "text": "Cấu trúc were … to … là dạng đảo ngữ của If + subject + were to …; nó dùng cho giả định không có thực và luôn ở dạng were, bất kể chủ ngữ là gì.",
+        "examples": [
+          "❌ If this was true, … → ✅ Were this to be true, …",
+          "❌ Were he goes, … → ✅ Were he to go, …"
+        ]
+      },
+      {
+        "text": "Hai cấu trúc này mang tính trang trọng; trong giao tiếp thông thường người học thường thay thế bằng các câu đơn giản như must, need to, hoặc if + simple past.",
+        "examples": [
+          "It is crucial that we *act* now. (formal) → We must *act* now. (informal)"
+        ]
+      },
+      {
+        "text": "Trong câu điều kiện giả định, were không thể thay bằng was; were được dùng cho mọi ngôi, kể cả ngôi thứ nhất và thứ ba số ít.",
+        "examples": [
+          "❌ If I was to leave, … → ✅ If I were to leave, …"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Điều then chốt là các triết gia phải nhận thức được tầm quan trọng lâu dài của vấn đề đạo đức.",
+      "Nếu điều này là đúng, cách tiếp cận vị lợi phải biện minh cho việc gây hại cho một số người vì lợi ích của đa số.",
+      "Điều then chốt là chúng ta phải duy trì nguyên tắc công lý một cách tuyệt đối, ngay cả khi việc đó dường như mang lại kết quả tồi tệ hơn."
+    ]
   }
 }

@@ -677,7 +677,7 @@
       "question": "Do/Does Subject Verb Object?",
       "variant": "Subject + Verb + (adverb) + Object"
     },
-    "rule_vi": "Sử dụng các thuật ngữ ngôn ngữ học khi mô tả cấu trúc câu, ví dụ: phrase, clause, syntax, morphology.",
+    "rule_vi": "Thuật ngữ ngôn ngữ học trong ngữ pháp là các danh từ dùng để chỉ các cấp độ cấu trúc của câu, như phrase (cụm từ), clause (mệnh đề), syntax (cú pháp) và morphology (hình thái học). Chúng được dùng khi phân tích, mô tả hoặc giảng giải cách các từ, cụm từ và mệnh đề kết hợp thành câu. Khi dùng, cần chú ý số ít‑số nhiều và việc đặt mạo từ a/an trước các đơn vị riêng lẻ. Các thuật ngữ này thường xuất hiện trong văn viết học thuật và các tài liệu ngôn ngữ học.",
     "rule_en": "Use metalinguistic terms to talk about the structure of sentences.",
     "common_error": "❌ A phrase is a complete sentence.  →  ✅ A phrase is not a complete sentence.",
     "in_context": [
@@ -827,6 +827,38 @@
           "answer": "subject"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Các thuật ngữ này là danh từ đếm được; dùng số ít khi chỉ một đơn vị, số nhiều khi chỉ nhiều đơn vị.",
+        "examples": [
+          "❌ The phrase are complex. → ✅ The phrase is complex.",
+          "✅ The phrases are complex."
+        ]
+      },
+      {
+        "text": "Khi mô tả một thành phần ngữ pháp, đặt thuật ngữ sau ví dụ cụ thể để làm rõ nghĩa.",
+        "examples": [
+          "✅ The clause \"She sings\" contains a subject and a verb."
+        ]
+      },
+      {
+        "text": "Thuật ngữ ngôn ngữ học thường dùng trong văn viết học thuật; tránh dùng trong giao tiếp thân mật.",
+        "examples": [
+          "✅ In linguistic analysis, morphology examines word formation."
+        ]
+      },
+      {
+        "text": "Đừng nhầm lẫn \"syntax\" (cấu trúc ngữ pháp tổng thể) với \"sentence structure\" (cấu trúc câu cụ thể).",
+        "examples": [
+          "❌ The syntax of the sentence is simple. → ✅ The sentence has a simple syntax."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Rhetoric — nghệ thuật giao tiếp hiệu quả và thuyết phục — là một cụm danh từ đã định hình đời sống công chúng từ thời Hy Lạp cổ đại.",
+      "Các nhà lý luận cổ điển đã xác định ba trụ cột của sự thuyết phục, mỗi trụ cột trong số đó hoạt động như một mệnh đề trong lập luận rộng hơn.",
+      "Sức mạnh của sự hùng biện không chỉ nằm ở từ vựng hay ngữ pháp, mà còn ở cú pháp tổ chức các ý tưởng thành những câu khẳng định mạch lạc."
+    ]
   }
 }

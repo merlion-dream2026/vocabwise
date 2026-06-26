@@ -750,7 +750,7 @@
       "question": "Is it + past participle + that + clause?",
       "variant": "It has been + past participle + that + clause"
     },
-    "rule_vi": "Cấu trúc bị động phi nhân xưng được dùng để truyền đạt thông tin chung mà không nêu rõ người thực hiện, thường đi kèm các động từ báo cáo như *said, believed, reported*.",
+    "rule_vi": "Bị động phi nhân xưng là cấu trúc dùng để truyền đạt một quan điểm, thông tin chung mà người nói không nêu rõ người thực hiện. Nó thường xuất hiện sau các động từ báo cáo như *believe, report, say* và được giới thiệu bằng *it is* + quá khứ phân từ. Cấu trúc cơ bản: *It is + past participle + that + clause*. Dùng trong văn viết trang trọng để nhấn mạnh nội dung chứ không phải người nói.",
     "rule_en": "The impersonal passive is used to report statements or opinions without specifying the source, using verbs such as *said, believed, reported*.",
     "common_error": "❌ It said that the experiment succeeded.  →  ✅ It is said that the experiment succeeded.",
     "in_context": [
@@ -909,6 +909,37 @@
           "answer": "is argued"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Mệnh đề *that* thường có thể bỏ qua khi nội dung ngắn gọn, nhưng khi câu dài hoặc cần nhấn mạnh thì nên giữ lại.",
+        "examples": [
+          "❌ It is believed that the method is simple → ✅ It is believed the method is simple"
+        ]
+      },
+      {
+        "text": "Cấu trúc này mang tính trang trọng; trong giao tiếp thông thường người học thường dùng câu chủ động như *People believe…*.",
+        "examples": [
+          "❌ It is said that… → ✅ People say that…"
+        ]
+      },
+      {
+        "text": "Động từ luôn chia ở dạng số ít *is* bất kể danh từ trong mệnh đề phụ là số nhiều.",
+        "examples": [
+          "✅ It is believed that the results are reliable"
+        ]
+      },
+      {
+        "text": "Chỉ các động từ báo cáo (believe, report, claim, say, think…) mới phù hợp với bị động phi nhân xưng; các động từ hành động không dùng được.",
+        "examples": [
+          "❌ It is run that… → ✅ It is reported that…"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Người ta tin rằng phương pháp khoa học bắt đầu bằng một câu hỏi — một điều chưa biết mà nhà nghiên cứu muốn hiểu.",
+      "Có báo cáo cho rằng nguồn tài trợ có thể ảnh hưởng đến những gì được nghiên cứu và những gì được công bố.",
+      "Người ta nói rằng mọi đột phá khoa học vĩ đại đều bắt đầu từ một câu hỏi mà ai đó dám đặt ra."
+    ]
   }
 }

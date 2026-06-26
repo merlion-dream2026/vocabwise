@@ -679,7 +679,7 @@
       "positive": "Fronting: [Fronted element] + Subject + Verb + Rest; Cleft (it‑cleft): It + be + Focused element + Verb + Rest; Cleft (wh‑cleft): What/Which + Verb + ... + is + Focused element",
       "variant": "It‑cleft and wh‑cleft constructions"
     },
-    "rule_vi": "Dùng đảo ngữ để đưa phần nhấn mạnh lên đầu câu; dùng câu chẻ (it‑cleft hoặc wh‑cleft) để làm nổi bật một thành phần cụ thể và tạo sự tương phản.",
+    "rule_vi": "Đảo ngữ (fronting) là việc đưa một thành phần muốn nhấn mạnh lên đầu câu, thường kèm theo trợ động từ hoặc động từ to be để tạo đảo vị trí. Câu chẻ (cleft) chia câu thành hai phần để làm nổi bật một thành phần cụ thể, gồm it‑cleft (It is/was … that/who …) và wh‑cleft (What … is …). Cả hai cấu trúc đều dùng để tạo sự tương phản, nhấn mạnh hoặc làm rõ thông tin quan trọng. Khi dùng, cần giữ nguyên thứ tự của phần còn lại của câu sau cấu trúc cleft hoặc sau phần đảo vị trí.",
     "rule_en": "Use fronting to place the highlighted element at the beginning of the clause, and cleft sentences to spotlight a particular constituent for contrast.",
     "common_error": "❌ *It is* the most important factor that we need to consider → ✅ *It is* the most important factor we need to consider",
     "in_context": [
@@ -827,6 +827,37 @@
           "answer": "After"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Đảo ngữ thường đặt trạng từ, cụm danh từ hoặc phụ từ ở đầu câu, sau đó dùng trợ động từ hoặc động từ to be để đảo vị trí.",
+        "examples": [
+          "❌ I never have seen that → ✅ Never have I seen that"
+        ]
+      },
+      {
+        "text": "Câu chẻ thường xuất hiện trong văn viết trang trọng hoặc diễn thuyết, không phổ biến trong giao tiếp thân mật.",
+        "examples": [
+          "It is the policy that needs revision. → It is the policy that needs revision."
+        ]
+      },
+      {
+        "text": "Phân biệt it‑cleft và wh‑cleft: it‑cleft dùng It is/was … that/who …, còn wh‑cleft dùng What … is …; cả hai đều nhấn mạnh nhưng cấu trúc khác nhau.",
+        "examples": [
+          "❌ What the problem is the policy. → ✅ What the problem is is the policy."
+        ]
+      },
+      {
+        "text": "Khác với tiếng Việt, trong tiếng Anh việc đảo vị trí không chỉ dùng “đó là” mà còn yêu cầu thay đổi thứ tự từ, nên người học cần chú ý không dịch sát nghĩa.",
+        "examples": [
+          "❌ That is the reason why we act. → ✅ It is the reason why we act."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Trên khắp thế giới, biến đổi khí hậu đang tái định hình các hệ sinh thái, nền kinh tế và cuộc sống.",
+      "Đó là ranh giới đạo đức xuyên suốt cuộc tranh luận toàn cầu về trách nhiệm.",
+      "Ngoài những tác động ngay lập tức, tính cấp bách của cuộc khủng hoảng đã làm hồi sinh cuộc tranh luận về các khung chính sách."
+    ]
   }
 }

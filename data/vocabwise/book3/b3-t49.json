@@ -734,7 +734,7 @@
       "question": "Had + subject + past participle?",
       "variant": "Subject + was/were going to + base verb"
     },
-    "rule_vi": "Dùng quá khứ hoàn thành để mô tả hành động đã xảy ra trước một thời điểm trong quá khứ; dùng 'was/were going to' để dự báo một hành động sắp tới trong quá khứ.",
+    "rule_vi": "Trong văn bản tự sự, quá khứ hoàn thành (past perfect) dùng để mô tả một hành động đã xảy ra và kết thúc trước một thời điểm hoặc một hành động khác trong quá khứ. Thì này được hình thành bằng cách đặt had + past participle sau thì quá khứ đơn. Để dự báo một hành động sẽ xảy ra trong quá khứ, ta dùng cấu trúc was/were going to + động từ nguyên mẫu, diễn tả kế hoạch hoặc ý định đã có trước khi có một sự kiện khác xảy ra.",
     "rule_en": "Use the past perfect for flashbacks and 'was/were going to' for foreshadowing in past narratives.",
     "common_error": "❌ *She had went* to the conference → ✅ *She had gone* to the conference",
     "in_context": [
@@ -887,6 +887,37 @@
           "answer": "was"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Quá khứ hoàn thành chỉ dùng khi hành động A đã hoàn thành trước hành động B trong cùng một khung thời gian quá khứ.",
+        "examples": [
+          "❌ She left the office after she finished the report. → ✅ She left the office after she had finished the report."
+        ]
+      },
+      {
+        "text": "Cấu trúc này thường xuất hiện sau các từ chỉ thời gian như by the time, when, after, hoặc ở vị trí trước câu chính quá khứ để làm nền cho sự kiện chính.",
+        "examples": [
+          "✅ By the time the meeting started, he had prepared the slides."
+        ]
+      },
+      {
+        "text": "'Was/were going to' diễn tả một kế hoạch, dự định trong quá khứ, thường bị cản trở bởi một sự kiện bất ngờ.",
+        "examples": [
+          "✅ He was going to call her, but his phone died."
+        ]
+      },
+      {
+        "text": "Không dùng 'was/were going to' để nói thói quen trong quá khứ; thay vào đó dùng 'used to' hoặc 'would'.",
+        "examples": [
+          "❌ She was going to visit her grandma every weekend. → ✅ She used to visit her grandma every weekend."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Những người nói chuyện đã thành thạo việc điều chỉnh nhịp độ biết khi nào cần chậm lại để nhấn mạnh.",
+      "Người thuyết trình định minh họa ý chính bằng một công cụ trực quan, nhưng máy chiếu đã hỏng.",
+      "Nếu khán giả đã phản hồi tích cực, người nói sẽ mở rộng cuộc thảo luận."
+    ]
   }
 }

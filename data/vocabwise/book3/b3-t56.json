@@ -740,7 +740,7 @@
     "form": {
       "positive": "Clause1, [discourse marker] Clause2"
     },
-    "rule_vi": "Các liên từ học thuật này nối các mệnh đề, diễn tả quan hệ nhượng bộ, mức độ hoặc căn cứ trong văn viết trang trọng.",
+    "rule_vi": "Các liên từ học thuật này là các từ nối dùng trong văn viết trang trọng để liên kết các mệnh đề có quan hệ nhượng bộ, mức độ hoặc căn cứ. \"notwithstanding\" diễn đạt nghĩa \"mặc dù\" và thường đứng ở đầu mệnh đề phụ, sau dấu phẩy hoặc dấu chấm phẩy; \"in so far as\" chỉ mức độ, nghĩa \"trong chừng mức mà\" và thường đi kèm với một mệnh đề hoàn chỉnh; \"by virtue of\" mang nghĩa \"bởi vì\" hoặc \"do\" và dùng để chỉ căn cứ dựa trên một đặc tính hoặc vai trò cụ thể. Khi dùng, cần chú ý đặt chúng ở vị trí đầu câu hoặc sau dấu câu tách rời, và chúng luôn đi kèm với một cụm danh từ hoặc mệnh đề đầy đủ.",
     "rule_en": "These discourse markers link clauses to express concession, extent, or basis in formal academic writing.",
     "common_error": "❌ The treaty was signed, notwithstanding the lingering mistrust, it failed.  →  ✅ The treaty was signed, notwithstanding the lingering mistrust.",
     "in_context": [
@@ -898,6 +898,38 @@
           "answer": "because"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí đặt: các liên từ này thường xuất hiện ở đầu mệnh đề phụ, sau dấu phẩy hoặc dấu chấm phẩy, để nhấn mạnh quan hệ giữa các phần câu.",
+        "examples": [
+          "❌ We continued notwithstanding. → ✅ We continued, notwithstanding the breakdown."
+        ]
+      },
+      {
+        "text": "Đăng ký ngôn ngữ: chúng thuộc ngôn ngữ trang trọng, thích hợp cho bài viết học thuật, pháp lý; không nên dùng trong giao tiếp thân mật.",
+        "examples": [
+          "❌ I'm staying, notwithstanding. → ✅ The agreement was signed, notwithstanding the objections."
+        ]
+      },
+      {
+        "text": "Nghĩa riêng biệt: \"notwithstanding\" = \"mặc dù\"; \"in so far as\" = \"trong chừng mức mà\"; \"by virtue of\" = \"bởi vì\" (dựa trên một đặc tính).",
+        "examples": [
+          "✅ By virtue of his experience, she was promoted.",
+          "✅ In so far as the data are reliable, the conclusion holds."
+        ]
+      },
+      {
+        "text": "Lỗi thường gặp: dùng \"in so far as\" hoặc \"by virtue of\" mà không có mệnh đề hoặc danh từ đầy đủ, gây thiếu thông tin.",
+        "examples": [
+          "❌ In so far as the risk, we stopped. → ✅ In so far as the risk is concerned, we stopped."
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Việc theo đuổi ngoại giao đã từ lâu là công cụ chính của nhân loại để quản lý xung đột không đến chiến tranh, bất chấp việc các kênh ngoại giao thỉnh thoảng sụp đổ.",
+      "Tiến trình hướng tới giải giáp đã tạm thời chững lại, trong chừng mức mà các quốc gia cân nhắc rủi ro an ninh khi giảm năng lực quân sự so với lợi ích lâu dài của một thế giới ít quân sự hơn.",
+      "Chủ quyền không được dùng làm lý do để cản trở quá trình hòa bình, bởi vì vai trò cơ bản của nó trong việc bảo đảm quyền lợi của mọi công dân."
+    ]
   }
 }

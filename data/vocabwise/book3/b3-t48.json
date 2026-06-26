@@ -667,7 +667,7 @@
       "question": "To what extent does Subject Verb ... ?",
       "variant": "to a certain degree"
     },
-    "rule_vi": "Dùng các cụm ‘to some extent’ hoặc ‘with some reservations’ để biểu đạt mức độ hạn chế, không khẳng định tuyệt đối.",
+    "rule_vi": "‘To some extent’ và ‘with some reservations’ là các cụm từ dùng để hạn chế, làm giảm mức độ khẳng định của một phát biểu, mang tính chất giảm nhẹ (hedging). Chúng thường xuất hiện ở cuối câu hoặc sau vị trí động từ, đóng vai trò là bổ ngữ trạng từ, và được dùng trong văn viết trang trọng, học thuật. ‘To some extent’ nhấn mạnh mức độ phần nào, còn ‘with some reservations’ nhấn mạnh có một số lo ngại hoặc điều kiện. Khi dùng, cần đặt chúng sau mệnh đề chính để không làm rối cấu trúc câu.",
     "rule_en": "Use ‘to some extent’ or ‘with some reservations’ to qualify statements and avoid absolute claims.",
     "common_error": "❌ The results are completely accurate.  →  ✅ The results are accurate to some extent.",
     "in_context": [
@@ -818,6 +818,39 @@
           "answer": "with reservations"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "Vị trí thường là cuối câu hoặc ngay sau động từ chính; nếu đặt ở đầu câu sẽ tạo nhấn mạnh nhưng cần dấu phẩy.",
+        "examples": [
+          "❌ The theory holds to some extent. → ✅ To some extent, the theory holds."
+        ]
+      },
+      {
+        "text": "‘With some reservations’ thường đi kèm với cả câu, không dùng để mô tả một danh từ riêng lẻ.",
+        "examples": [
+          "❌ He accepted the proposal with some reservations about the budget. → ✅ He accepted the proposal, with some reservations about the budget."
+        ]
+      },
+      {
+        "text": "Hai cụm không đồng nghĩa với ‘partially’ hay ‘somewhat’; chúng biểu thị sự hạn chế có tính chất thận trọng hơn.",
+        "examples": [
+          "✅ The results are valid to some extent. (không đồng nghĩa với ‘completely valid’)",
+          "✅ The plan proceeds with some reservations. (ngụ ý có lo ngại)"
+        ]
+      },
+      {
+        "text": "Trong văn viết trang trọng, dùng chúng để tránh khẳng định tuyệt đối; trong giao tiếp thân mật nên chọn các cách diễn đạt nhẹ nhàng hơn.",
+        "examples": [
+          "✅ The policy may work, to some extent. (trang trọng)",
+          "❌ It’ll totally work. → ✅ It might work, to some extent. (tránh khẳng định tuyệt đối)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Tiếng Anh, chẳng hạn, có một trong những từ vựng lớn nhất trong mọi ngôn ngữ, ở mức độ nhất định, vì nó đã vay mượn một cách phong phú từ tiếng Pháp, tiếng Đức và hàng chục nguồn khác.",
+      "Những nhà văn và nhà tiếp thị sáng tạo thuật ngữ mới thường thấy các sáng tạo của họ được hấp thụ vào ngôn ngữ hàng ngày trong một thế hệ, tuy nhiên vẫn còn một số lo ngại về độ bền lâu dài của chúng.",
+      "Việc chuẩn hoá chính tả và ngữ pháp, mặc dù hỗ trợ nâng cao trình độ đọc viết, có thể làm tăng tốc độ lỗi thời ở mức độ nhất định bằng cách đẩy các dạng không chuẩn về phía tuyệt chủng."
+    ]
   }
 }

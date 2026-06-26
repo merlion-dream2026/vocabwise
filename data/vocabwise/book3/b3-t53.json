@@ -728,7 +728,7 @@
       "question": "Is/Are + subject + verb (set/due/predicted) + to + base verb?",
       "variant": "Subject + be + expected to + base verb"
     },
-    "rule_vi": "Dùng cấu trúc 'is set to / is due to / is predicted to' để nói về một sự kiện tương lai đã được lên kế hoạch, dự kiến hoặc được xác định.",
+    "rule_vi": "Cấu trúc ‘is set to’, ‘is due to’, và ‘is predicted to’ được dùng để diễn tả một sự kiện trong tương lai đã được lên kế hoạch, dự kiến hoặc được xác định. Dạng chung là: Chủ ngữ + to be (am/is/are) + set/due/predicted + to + động từ nguyên mẫu. Các cụm này thường xuất hiện trong văn viết trang trọng như báo cáo, bài nghiên cứu, hoặc tin tức. Khi dùng ‘is due to’, cần chú ý ngữ cảnh để tránh nhầm lẫn với nghĩa ‘do vì’ (nguyên nhân).",
     "rule_en": "Use 'is set to / is due to / is predicted to' to express a future event that is scheduled, expected or forecasted.",
     "common_error": "❌ The conference is set for next month → ✅ The conference is set to start next month",
     "in_context": [
@@ -887,6 +887,37 @@
           "answer": "are due to"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "‘Is set to’ luôn đi sau động từ nguyên mẫu; không dùng dạng –ing hay quá khứ.",
+        "examples": [
+          "❌ He is set to going abroad → ✅ He is set to go abroad"
+        ]
+      },
+      {
+        "text": "‘Is due to’ có hai nghĩa: một là dự kiến xảy ra trong tương lai, hai là chỉ nguyên nhân; ngữ cảnh quyết định nghĩa nào được áp dụng.",
+        "examples": [
+          "The meeting is due to start at 9am. (dự kiến) vs The delay is due to traffic. (nguyên nhân)"
+        ]
+      },
+      {
+        "text": "‘Is predicted to’ thường đi kèm với nguồn dự báo; nếu không có nguồn, câu vẫn đúng nhưng ngữ nghĩa ít chắc chắn hơn.",
+        "examples": [
+          "Scientists predict that sea levels will rise. → Sea levels are predicted to rise."
+        ]
+      },
+      {
+        "text": "Ba cấu trúc này dùng trong ngữ cảnh trang trọng; trong giao tiếp thân mật, người học thường dùng will/going to.",
+        "examples": [
+          "❌ I'm set to finish my work tonight. (informal) → ✅ The project is set to finish next month. (formal)"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Y học hiện đại sẽ ngày càng dựa vào chẩn đoán do AI điều khiển khi các khung đạo đức phát triển.",
+      "Việc phân bổ cơ quan một cách công bằng sẽ dựa vào các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.",
+      "Các nhà sinh học đạo đức được dự đoán sẽ cảnh báo về chủ nghĩa bảo trợ khi hồ sơ sức khỏe kỹ thuật số mới xuất hiện."
+    ]
   }
 }

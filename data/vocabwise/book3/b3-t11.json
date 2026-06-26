@@ -671,7 +671,7 @@
       "question": "Modal verb + subject + base verb?",
       "variant": "modal verb + have + past participle (e.g., may have, might have, could have)"
     },
-    "rule_vi": "Dùng các động từ khi muốn diễn tả khả năng, suy đoán hoặc xu hướng nhận thức của người nói.",
+    "rule_vi": "Phương tiện diễn đạt thái độ nhận thức (epistemic modality) dùng để biểu thị mức độ chắc chắn, khả năng hoặc xu hướng mà người nói suy đoán về thực tế. Các động từ may, might, could, appear to, tend to thường đứng trước động từ nguyên mẫu (bare infinitive) hoặc tính từ và không thay đổi dạng của động từ chính. Chúng được dùng để diễn tả khả năng không chắc chắn (may, might, could), ấn tượng bề ngoài (appear to), hoặc xu hướng chung (tend to). Trong văn viết trang trọng, các cấu trúc này thường xuất hiện ở vị trí trung tâm của câu và không dùng để chỉ lời yêu cầu hay khả năng thực hiện.",
     "rule_en": "Use these modals to express epistemic possibility, probability, or tendency.",
     "common_error": "❌ He may goes to the meeting.  →  ✅ He may go to the meeting.",
     "in_context": [
@@ -825,6 +825,40 @@
           "answer": "could"
         }
       ]
-    }
+    },
+    "usage_notes": [
+      {
+        "text": "May, might, could, appear to và tend to luôn đứng trước động từ nguyên mẫu (bare infinitive) hoặc tính từ; appear to và tend to yêu cầu ‘to’ trước động từ.",
+        "examples": [
+          "❌ He may goes → ✅ He may go",
+          "❌ She appears go → ✅ She appears to go"
+        ]
+      },
+      {
+        "text": "May/might/could biểu thị khả năng không chắc chắn; không nên dùng chúng để diễn tả yêu cầu hay cho phép, vì đó là chức năng modal tính năng.",
+        "examples": [
+          "❌ May I open the window? (epistemic) → ✅ It may rain tomorrow"
+        ]
+      },
+      {
+        "text": "Appear to và tend to thường xuất hiện trong văn viết học thuật hoặc báo chí để mô tả ấn tượng, xu hướng chung, chứ không phải trong giao tiếp thân mật.",
+        "examples": [
+          "✅ Researchers tend to focus on preventive measures",
+          "✅ The results appear to support the hypothesis"
+        ]
+      },
+      {
+        "text": "Trong tiếng Việt, người học thường dịch trực tiếp sang ‘có thể’, ‘có lẽ’, nhưng tiếng Anh không thay đổi dạng động từ theo chủ ngữ; cấu trúc luôn cố định.",
+        "examples": [
+          "✅ She might be late",
+          "✅ They could have missed the train"
+        ]
+      }
+    ],
+    "in_context_vi": [
+      "Chính phủ và các tổ chức trên toàn thế giới có thể đang đầu tư vào các chiến dịch nhằm bình thường hoá việc tìm kiếm sự giúp đỡ và phá bỏ những định kiến gây hại.",
+      "Liệu pháp có thể đối với một số bệnh nhân như một quá trình đáng sợ, nhưng nó thường mang lại cải thiện lâu dài.",
+      "Những người xây dựng khả năng chịu đựng cảm xúc thường có thể vượt qua những khó khăn không tránh khỏi của cuộc sống mà không rơi vào khủng hoảng."
+    ]
   }
 }
