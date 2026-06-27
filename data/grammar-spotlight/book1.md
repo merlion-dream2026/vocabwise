@@ -349,9 +349,9 @@ Trật tự tính từ trước danh từ là một quy tắc cơ bản trong ti
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [wear] [I] [small] [blue] [cotton] [shirt]  →  I wear small blue cotton shirt
-2. [needs] [She] [large] [red] [silk] [dress]  →  She needs large red silk dress
-3. [bought] [They] [big] [green] [leather] [jacket]  →  They bought big green leather jacket
+1. [I] [wear] [a] [small] [blue] [cotton] [shirt]  →  I wear a small blue cotton shirt
+2. [She] [needs] [a] [large] [red] [silk] [dress]  →  She needs a large red silk dress
+3. [They] [bought] [a] [big] [green] [leather] [jacket]  →  They bought a big green leather jacket
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
@@ -549,18 +549,18 @@ Can / can't là động từ khuyết (modal verb) dùng để diễn đạt kh�
   VI: Tôi thích làm thiệp và quà từ giấy màu.
 
 ### Bài tập 1 — Trắc nghiệm
-**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+**Hướng dẫn:** Chọn dạng đúng của động từ để hoàn thành câu.
 
-1. She _____ swimming in the pool.
-   A. enjoys  |  B. likes  |  C. hates  |  D. loves  →  likes
-2. They _____ reading books before bed.
-   A. love  |  B. enjoy  |  C. hate  |  D. like  →  enjoy
-3. He _____ cooking pasta for his family.
-   A. hate  |  B. love  |  C. like  |  D. enjoy  →  love
-4. We _____ cleaning the house on weekends.
-   A. like  |  B. enjoy  |  C. hate  |  D. love  →  hate
-5. I _____ playing football after school.
-   A. enjoy  |  B. love  |  C. hate  |  D. like  →  enjoy
+1. She enjoys _____ books in her free time.
+   A. reads  |  B. read  |  C. reading  |  D. to read  →  reading
+2. He enjoys _____ to music while studying.
+   A. listen  |  B. to listen  |  C. listened  |  D. listening  →  listening
+3. We enjoy _____ new places on holidays.
+   A. explores  |  B. explored  |  C. exploring  |  D. to explore  →  exploring
+4. My sister enjoys _____ watercolour paintings in her spare time.
+   A. painting  |  B. paints  |  C. paint  |  D. to paint  →  painting
+5. The children enjoy _____ in the garden after school.
+   A. plays  |  B. play  |  C. to play  |  D. playing  →  playing
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -570,14 +570,14 @@ Can / can't là động từ khuyết (modal verb) dùng để diễn đạt kh�
 3. [They] [hate] [cleaning] [the] [kitchen]  →  They hate cleaning the kitchen
 
 ### Bài tập 3 — Điền từ
-**Hướng dẫn:** Điền từ thích hợp từ danh sách vào chỗ trống.
-**Từ gợi ý:** like · love · enjoy · hate · prefer · dislike
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** swimming · reading · cooking · singing · painting
 
-1. My brother ___ painting landscapes.  →  enjoy
-2. We ___ watching movies on Friday night.  →  like
-3. She ___ cooking Italian food.  →  love
-4. Tom ___ cleaning his room.  →  hate
-5. I ___ reading comics.  →  prefer
+1. She goes to the pool every morning because she loves _____.  →  swimming
+2. My dad spends hours in the kitchen because he enjoys _____.  →  cooking
+3. She joined the school choir because she loves _____.  →  singing
+4. He visits the library every week because he enjoys _____.  →  reading
+5. She fills sketchbooks every weekend because she loves _____.  →  painting
 
 <!-- /topic -->
 
@@ -786,7 +786,7 @@ Cấu trúc Have/Has got được sử dụng để diễn đạt sở hữu ở
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [got] [you] [have] [a] [parrot]  →  you have got a parrot
-2. [has] [got] [the] [cat] [my]  →  my cat has got
+2. [My] [cat] [has] [got] [a] [long] [tail]  →  My cat has got a long tail
 3. [have] [got] [they] [two] [fish]  →  they have got two fish
 
 ### Bài tập 3 — Điền từ
@@ -983,7 +983,7 @@ Quá khứ đơn của động từ có quy tắc được dùng để nói về
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn dạng đúng của động từ ở quá khứ đơn (động từ có quy tắc).
 
-1. Last weekend, I _____ a new book.
+1. Last weekend, I _____ my new project at school.
    A. watched  |  B. started  |  C. read  |  D. talked  →  started
 2. She _____ the picture on the wall yesterday.
    A. paint  |  B. drawn  |  C. painted  |  D. draw  →  painted
@@ -998,8 +998,8 @@ Quá khứ đơn của động từ có quy tắc được dùng để nói về
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [last] [summer] [my] [family] [visited]  →  my family visited last summer
-2. [watched] [movie] [the] [yesterday]  →  watched the movie yesterday
-3. [started] [project] [the] [on] [Monday]  →  started the project on Monday
+2. [We] [watched] [the] [movie] [yesterday]  →  We watched the movie yesterday
+3. [She] [started] [the] [project] [on] [Monday]  →  She started the project on Monday
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
@@ -1057,7 +1057,7 @@ Mạo từ là một phần quan trọng trong tiếng Anh, giúp chỉ định 
 
 1. She bought _____ apple from the market.
    A. the  |  B. a  |  C. some  |  D. an  →  an
-2. _____ birds are singing in the trees.
+2. _____ sun was shining brightly over the park.
    A. Some  |  B. The  |  C. A  |  D. An  →  The
 3. He is reading _____ book about parks.
    A. the  |  B. some  |  C. a  |  D. an  →  a
@@ -1203,7 +1203,7 @@ Must và Mustn't là hai cấu trúc ngữ pháp dùng để thể hiện quy t�
 3. I _____ bring my textbook tomorrow.
    A. mustn't  |  B. may  |  C. must  |  D. should  →  must
 4. He _____ forget to turn off the lights.
-   A. must  |  B. could  |  C. mustn't  |  D. should  →  must
+   A. must  |  B. could  |  C. mustn't  |  D. should  →  mustn't
 5. We _____ eat in the library.
    A. must  |  B. mustn't  |  C. can  |  D. may  →  mustn't
 
@@ -1416,7 +1416,7 @@ Cấu trúc 'be + going to + V' được dùng để nói về kế hoạch ho�
 2. They _____ (plan) to go to the national day parade tomorrow.
    A. are going to go  |  B. is going to go  |  C. are going  |  D. will go  →  are going to go
 3. I _____ (not) going to stay up late after the fireworks.
-   A. am not going to stay  |  B. am not going to stay  |  C. not am going to stay  |  D. am not staying  →  am not going to stay
+   A. am not going to stay  |  B. am not went to stay  |  C. not am going to stay  |  D. am not staying  →  am not going to stay
 4. Are you _____ (come) to the Tet festival?
    A. going to come  |  B. go to come  |  C. will come  |  D. coming to  →  going to come
 5. We _____ (visit) the museum next Saturday.
@@ -1641,7 +1641,7 @@ Tính từ so sánh nhất dùng để mô tả mức độ cao nhất của m�
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [she] [is] [the] [tallest]  →  she is the tallest
-2. [the] [movie] [was] [most] [interesting]  →  the movie was most interesting
+2. [the] [movie] [was] [the] [most] [interesting]  →  The movie was the most interesting
 3. [you] [are] [the] [youngest]  →  you are the youngest
 
 ### Bài tập 3 — Điền từ
@@ -1699,9 +1699,9 @@ Danh từ số nhiều dùng để chỉ hai hoặc nhiều hơn một người,
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
 1. My _____ are coming to dinner tonight.
-   A. children  |  B. child  |  C. children  |  D. parents  →  parents
+   A. children  |  B. child  |  C. childs  |  D. parents  →  parents
 2. She has three _____ in her class.
-   A. friends  |  B. friends  |  C. teacher  |  D. teachers  →  friends
+   A. friends  |  B. friend  |  C. teacher  |  D. teachers  →  friends
 3. The _____ were laughing loudly.
    A. children  |  B. childs  |  C. child  |  D. kids  →  children
 4. We bought two _____ for the garden.
@@ -2067,7 +2067,7 @@ Thì Hiện tại hoàn thành cơ bản được sử dụng để mô tả m�
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [has] [she] [ever] [been] [to] [Paris]  →  She has ever been to Paris
+1. [has] [she] [ever] [been] [to] [Paris]  →  Has she ever been to Paris?
 2. [have] [they] [just] [finished] [their] [project]  →  They have just finished their project
 3. [has] [my] [brother] [never] [tried] [sushi]  →  My brother has never tried sushi
 
@@ -2146,12 +2146,12 @@ Should và ought to là hai động từ modal dùng để đưa ra lời khuyê
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
-**Từ gợi ý:** should · ought · must · could · may · need
+**Từ gợi ý:** should · ought to · must · could · may · need
 
 1. A good friend _____ be loyal.  →  should
-2. When you see a problem, you _____ help.  →  ought
+2. When you see a problem, you _____ help.  →  ought to
 3. You _____ keep promises.  →  should
-4. If you hurt someone, you _____ apologise.  →  ought
+4. If you hurt someone, you _____ apologise.  →  ought to
 5. Friends _____ support each other during tough times.  →  should
 
 <!-- /topic -->
@@ -2437,7 +2437,7 @@ Số đếm (cardinal) và số thứ tự (ordinal) là hai loại số trong t
 2. The recipe calls for _____ eggs.  →  ten
 3. My house is on the _____ floor.  →  third
 4. There are _____ chairs in the room.  →  twenty
-5. _____ students attended the lecture.  →  first
+5. _____ students attended the lecture.  →  twenty
 
 <!-- /topic -->
 
@@ -2724,7 +2724,7 @@ Cấu trúc 'Make / Let + tân ngữ + động từ nguyên thể' được sử
 
 1. The teacher ______ the class sing a song.  →  made
 2. My brother ______ me borrow his guitar.  →  let
-3. She ______ her friend stay for the rehearsal.  →  help
+3. She ______ her friend stay for the rehearsal.  →  let
 4. The manager ______ the staff work overtime.  →  made
 5. The coach ______ the players warm up.  →  let
 
@@ -3003,7 +3003,7 @@ How much và How many là hai cụm từ dùng để hỏi về số lượng tr
 
 1. _____ apples do you want?  →  How many
 2. _____ sugar should I add?  →  How much
-3. _____ often do you visit the market?  →  How often
+3. _____ do you visit the market?  →  How often
 4. _____ time does the market close?  →  How long
 5. _____ books are on the shelf?  →  How many
 
@@ -3714,7 +3714,7 @@ Thì hiện tại hoàn thành là một trong những thì cơ bản trong ti�
 1. I have _____ finished my homework.  →  just
 2. She has _____ visited the new social media platform.  →  already
 3. They haven't _____ posted a comment.  →  yet
-4. He has _____ logged in today.  →  still
+4. He _____ hasn't logged in today.  →  still
 5. We have _____ seen that trend before.  →  never
 
 <!-- /topic -->
@@ -4068,7 +4068,7 @@ Câu bị động cơ bản là một cấu trúc câu trong tiếng Anh, sử d
 2. The instruction ____ posted on the board yesterday.  →  was
 3. All warnings ____ displayed at the entrance.  →  were
 4. The emergency alarm ____ activated during the drill.  →  is
-5. The exit signs ____ kept clean.  →  been
+5. The exit signs ____ kept clean.  →  are
 
 <!-- /topic -->
 
@@ -4210,7 +4210,7 @@ Cấu trúc 'would rather' và 'would prefer' được sử dụng để diễn 
 2. She would _____ to go by bus.  →  prefer
 3. He would _____ not eat meat.  →  rather not
 4. Would you rather travel by train _____ by plane?  →  than
-5. They would rather study abroad _____ staying local.  →  instead
+5. They would rather study abroad _____ staying local.  →  than
 
 <!-- /topic -->
 

@@ -809,38 +809,41 @@
         {
           "id": 1,
           "words": [
-            "wear",
             "I",
+            "wear",
+            "a",
             "small",
             "blue",
             "cotton",
             "shirt"
           ],
-          "answer": "I wear small blue cotton shirt"
+          "answer": "I wear a small blue cotton shirt"
         },
         {
           "id": 2,
           "words": [
-            "needs",
             "She",
+            "needs",
+            "a",
             "large",
             "red",
             "silk",
             "dress"
           ],
-          "answer": "She needs large red silk dress"
+          "answer": "She needs a large red silk dress"
         },
         {
           "id": 3,
           "words": [
-            "bought",
             "They",
+            "bought",
+            "a",
             "big",
             "green",
             "leather",
             "jacket"
           ],
-          "answer": "They bought big green leather jacket"
+          "answer": "They bought a big green leather jacket"
         }
       ]
     },

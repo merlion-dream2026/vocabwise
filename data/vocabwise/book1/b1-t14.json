@@ -748,7 +748,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Last weekend, I _____ a new book.",
+          "sentence": "Last weekend, I _____ my new project at school.",
           "options": [
             "watched",
             "started",
@@ -820,23 +820,25 @@
         {
           "id": 2,
           "words": [
+            "We",
             "watched",
-            "movie",
             "the",
+            "movie",
             "yesterday"
           ],
-          "answer": "watched the movie yesterday"
+          "answer": "We watched the movie yesterday"
         },
         {
           "id": 3,
           "words": [
+            "She",
             "started",
-            "project",
             "the",
+            "project",
             "on",
             "Monday"
           ],
-          "answer": "started the project on Monday"
+          "answer": "She started the project on Monday"
         }
       ]
     },

@@ -821,12 +821,12 @@
           "id": 3,
           "sentence": "Scientists _____ that the data could be unreliable.",
           "options": [
-            "warns",
-            "suggests",
-            "denies",
-            "claims"
+            "warn",
+            "suggest",
+            "deny",
+            "claim"
           ],
-          "answer": "warns"
+          "answer": "warn"
         },
         {
           "id": 4,
@@ -919,7 +919,7 @@
         },
         {
           "id": 3,
-          "sentence": "Researchers _____ that the new policy could reduce emissions.",
+          "sentence": "The latest research _____ that the new policy could reduce emissions.",
           "answer": "suggests"
         },
         {

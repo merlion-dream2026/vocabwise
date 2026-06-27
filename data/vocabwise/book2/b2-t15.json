@@ -824,7 +824,7 @@
             "whose",
             "which"
           ],
-          "answer": "that"
+          "answer": "which"
         },
         {
           "id": 5,
@@ -902,7 +902,7 @@
         {
           "id": 1,
           "sentence": "The tsunami was a disaster, _____ caused many deaths.",
-          "answer": "that"
+          "answer": "which"
         },
         {
           "id": 2,
@@ -922,7 +922,7 @@
         {
           "id": 5,
           "sentence": "The coral reef, _____ is protected by law, attracts many divers.",
-          "answer": "that"
+          "answer": "which"
         }
       ]
     },

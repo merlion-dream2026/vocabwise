@@ -823,13 +823,15 @@
         {
           "id": 2,
           "words": [
+            "My",
+            "cat",
             "has",
             "got",
-            "the",
-            "cat",
-            "my"
+            "a",
+            "long",
+            "tail"
           ],
-          "answer": "my cat has got"
+          "answer": "My cat has got a long tail"
         },
         {
           "id": 3,

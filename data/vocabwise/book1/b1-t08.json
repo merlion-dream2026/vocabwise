@@ -747,62 +747,62 @@
       "I **enjoy making cards and gifts from coloured paper**."
     ],
     "ex1_mcq": {
-      "instruction": "Chọn đáp án đúng để hoàn thành câu.",
+      "instruction": "Chọn dạng đúng của động từ để hoàn thành câu.",
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ swimming in the pool.",
+          "sentence": "She enjoys _____ books in her free time.",
           "options": [
-            "enjoys",
-            "likes",
-            "hates",
-            "loves"
+            "reads",
+            "read",
+            "reading",
+            "to read"
           ],
-          "answer": "likes"
+          "answer": "reading"
         },
         {
           "id": 2,
-          "sentence": "They _____ reading books before bed.",
+          "sentence": "He enjoys _____ to music while studying.",
           "options": [
-            "love",
-            "enjoy",
-            "hate",
-            "like"
+            "listen",
+            "to listen",
+            "listened",
+            "listening"
           ],
-          "answer": "enjoy"
+          "answer": "listening"
         },
         {
           "id": 3,
-          "sentence": "He _____ cooking pasta for his family.",
+          "sentence": "We enjoy _____ new places on holidays.",
           "options": [
-            "hate",
-            "love",
-            "like",
-            "enjoy"
+            "explores",
+            "explored",
+            "exploring",
+            "to explore"
           ],
-          "answer": "love"
+          "answer": "exploring"
         },
         {
           "id": 4,
-          "sentence": "We _____ cleaning the house on weekends.",
+          "sentence": "My sister enjoys _____ watercolour paintings in her spare time.",
           "options": [
-            "like",
-            "enjoy",
-            "hate",
-            "love"
+            "painting",
+            "paints",
+            "paint",
+            "to paint"
           ],
-          "answer": "hate"
+          "answer": "painting"
         },
         {
           "id": 5,
-          "sentence": "I _____ playing football after school.",
+          "sentence": "The children enjoy _____ in the garden after school.",
           "options": [
-            "enjoy",
-            "love",
-            "hate",
-            "like"
+            "plays",
+            "play",
+            "to play",
+            "playing"
           ],
-          "answer": "enjoy"
+          "answer": "playing"
         }
       ]
     },
@@ -843,40 +843,39 @@
       ]
     },
     "ex3_gap_fill": {
-      "instruction": "Điền từ thích hợp từ danh sách vào chỗ trống.",
+      "instruction": "Điền từ thích hợp vào chỗ trống.",
       "word_bank": [
-        "like",
-        "love",
-        "enjoy",
-        "hate",
-        "prefer",
-        "dislike"
+        "swimming",
+        "reading",
+        "cooking",
+        "singing",
+        "painting"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "My brother ___ painting landscapes.",
-          "answer": "enjoy"
+          "sentence": "She goes to the pool every morning because she loves _____.",
+          "answer": "swimming"
         },
         {
           "id": 2,
-          "sentence": "We ___ watching movies on Friday night.",
-          "answer": "like"
+          "sentence": "My dad spends hours in the kitchen because he enjoys _____.",
+          "answer": "cooking"
         },
         {
           "id": 3,
-          "sentence": "She ___ cooking Italian food.",
-          "answer": "love"
+          "sentence": "She joined the school choir because she loves _____.",
+          "answer": "singing"
         },
         {
           "id": 4,
-          "sentence": "Tom ___ cleaning his room.",
-          "answer": "hate"
+          "sentence": "He visits the library every week because he enjoys _____.",
+          "answer": "reading"
         },
         {
           "id": 5,
-          "sentence": "I ___ reading comics.",
-          "answer": "prefer"
+          "sentence": "She fills sketchbooks every weekend because she loves _____.",
+          "answer": "painting"
         }
       ]
     },

@@ -852,7 +852,7 @@
       "instruction": "Điền từ thích hợp vào chỗ trống.",
       "word_bank": [
         "should",
-        "ought",
+        "ought to",
         "must",
         "could",
         "may",
@@ -867,7 +867,7 @@
         {
           "id": 2,
           "sentence": "When you see a problem, you _____ help.",
-          "answer": "ought"
+          "answer": "ought to"
         },
         {
           "id": 3,
@@ -877,7 +877,7 @@
         {
           "id": 4,
           "sentence": "If you hurt someone, you _____ apologise.",
-          "answer": "ought"
+          "answer": "ought to"
         },
         {
           "id": 5,

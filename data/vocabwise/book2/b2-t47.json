@@ -927,8 +927,8 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The director _____ whether the project will meet the deadline.",
-          "answer": "if"
+          "sentence": "The director asked _____ was responsible for the delay.",
+          "answer": "who"
         },
         {
           "id": 2,

@@ -260,18 +260,18 @@ Câu bị động với động từ khuyết thiếu được tạo bằng các
   VI: Bị cáo có thể kháng cáo quyết định nếu họ cho rằng bản án không công bằng.
 
 ### Bài tập 1 — Trắc nghiệm
-**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu bị động với động từ khuyết thiếu.
+**Hướng dẫn:** Chọn dạng bị động đúng với "may" để hoàn thành câu.
 
-1. The suspect _____ arrested if the evidence is strong.
-   A. could  |  B. may  |  C. must  |  D. shall  →  may
-2. A fine _____ imposed for minor traffic violations.
-   A. should  |  B. might  |  C. may  |  D. would  →  may
-3. The witness _____ called to testify tomorrow.
-   A. might  |  B. could  |  C. may  |  D. shall  →  may
-4. If the contract is broken, the penalty _____ increased.
-   A. could  |  B. must  |  C. shall  |  D. may  →  may
-5. The case _____ reviewed by a higher court.
-   A. shall  |  B. could  |  C. may  |  D. must  →  may
+1. The suspect _____ if the evidence is strong.
+   A. may be arrested  |  B. may arrested  |  C. may is arrested  |  D. may being arrested  →  may be arrested
+2. A fine _____ for minor traffic violations.
+   A. may imposed  |  B. may is impose  |  C. may be imposed  |  D. may being imposed  →  may be imposed
+3. The witness _____ to testify in court next week.
+   A. may being called  |  B. may is called  |  C. may call  |  D. may be called  →  may be called
+4. The penalty _____ if the law is updated.
+   A. may increased  |  B. may be increased  |  C. may being increased  |  D. may is increase  →  may be increased
+5. The case _____ by a different judge.
+   A. may is handled  |  B. may handle  |  C. may being handled  |  D. may be handled  →  may be handled
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -408,7 +408,7 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 2. _____ the government promotes tolerance, some communities still feel excluded.
    A. even though  |  B. despite  |  C. although  |  D. in spite of  →  even though
 3. Many people attend worship services, _____ they live far from the temple.
-   A. despite  |  B. although  |  C. in spite of  |  D. even though  →  despite
+   A. despite  |  B. although  |  C. in spite of  |  D. even though  →  even though
 4. _____ the harsh weather, the festival continued as planned.
    A. although  |  B. even though  |  C. despite  |  D. in spite of  →  in spite of
 5. _____ the new law, religious minorities still face restrictions.
@@ -429,7 +429,7 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 2. _____ the language barrier, the students understood the lecture.  →  despite
 3. _____ the choir sang beautifully, the audience was quiet.  →  even though
 4. _____ the rain, the outdoor ceremony was held.  →  in spite of
-5. _____ the policy, many people still practice their faith openly.  →  even though
+5. _____ the policy, many people still practice their faith openly.  →  despite
 
 <!-- /topic -->
 
@@ -1049,7 +1049,7 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
 3. The research centre is located in a city _____ many marine biologists work.
    A. which  |  B. whose  |  C. that  |  D. where  →  where
 4. The flood damaged the bridge, _____ was built in 1990.
-   A. where  |  B. that  |  C. whose  |  D. which  →  that
+   A. where  |  B. that  |  C. whose  |  D. which  →  which
 5. The ocean contains many species, _____ are still undiscovered.
    A. where  |  B. which  |  C. that  |  D. whose  →  that
 
@@ -1064,11 +1064,11 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** which · that · where · whose · when · who
 
-1. The tsunami was a disaster, _____ caused many deaths.  →  that
+1. The tsunami was a disaster, _____ caused many deaths.  →  which
 2. The island, _____ residents rely on tourism, was evacuated.  →  whose
 3. The coastal town, _____ we visited last summer, has a new harbor.  →  where
 4. The research paper, _____ was published in 2020, discusses ocean currents.  →  which
-5. The coral reef, _____ is protected by law, attracts many divers.  →  that
+5. The coral reef, _____ is protected by law, attracts many divers.  →  which
 
 <!-- /topic -->
 
@@ -2036,7 +2036,7 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 2. The editor _____ that the article needed more sources.
    A. denies  |  B. suggests  |  C. claims  |  D. argues  →  claims
 3. Scientists _____ that the data could be unreliable.
-   A. warns  |  B. suggests  |  C. denies  |  D. claims  →  warns
+   A. warn  |  B. suggest  |  C. deny  |  D. claim  →  warn
 4. The spokesperson _____ any involvement in the leak.
    A. claims  |  B. denies  |  C. suggests  |  D. argues  →  denies
 5. Researchers _____ that the new method improves accuracy.
@@ -2055,7 +2055,7 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 
 1. The article _____ that the government ignored the warning.  →  claims
 2. The spokesperson _____ that the company had no knowledge of the leak.  →  denies
-3. Researchers _____ that the new policy could reduce emissions.  →  suggests
+3. The latest research _____ that the new policy could reduce emissions.  →  suggests
 4. The professor _____ that the textbook contains outdated data.  →  argues
 5. Health officials _____ the public to get vaccinated soon.  →  warns
 
@@ -2120,7 +2120,7 @@ Trạng từ chỉ mức độ (extremely, fairly, quite, rather) dùng để bi
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [shopping] [is] [quite] [enjoyable] [for] [many] [people]  →  Shopping is quite enjoyable for many people
-2. [the] [product] [was] [rather] [expensive] [than] [expected]  →  The product was rather expensive than expected
+2. [the] [product] [was] [rather] [expensive] [for] [students]  →  The product was rather expensive for students
 3. [online] [offers] [are] [fairly] [varied] [in] [price]  →  Online offers are fairly varied in price
 
 ### Bài tập 3 — Điền từ
@@ -2201,7 +2201,7 @@ Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô t�
 
 1. I am _____ about the upcoming art festival.  →  interested
 2. The sculpture was _____, attracting many visitors.  →  interesting
-3. She felt _____ after the long museum tour.  →  excited
+3. She felt _____ after the long museum tour.  →  bored
 4. The curator found the new collection _____.  →  interesting
 5. Many students are _____ in learning about graphic design.  →  interested
 
@@ -2343,7 +2343,7 @@ Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuou
 2. She _____ the preface before the main chapters were printed.  →  wrote
 3. By 2020, the series _____ a global phenomenon.  →  had been
 4. The hall _____ quiet after the final chapter ended.  →  was
-5. After the interview, the author _____ exhausted but satisfied.  →  had
+5. After the interview, the author _____ exhausted but satisfied.  →  was
 
 <!-- /topic -->
 
@@ -3322,7 +3322,7 @@ Câu hỏi gián tiếp là cách chuyển câu hỏi trực tiếp sang dạng 
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** if · what · whether · who · when · how
 
-1. The director _____ whether the project will meet the deadline.  →  if
+1. The director asked _____ was responsible for the delay.  →  who
 2. She _____ what the new policy entails.  →  what
 3. He wondered _____ the client would approve the design.  →  when
 4. The manager asked _____ the report had been sent.  →  whether
@@ -3586,9 +3586,9 @@ Ngôn ngữ phòng ngừa (hedging) dùng các động từ tend, appear, seem +
 **Hướng dẫn:** Chọn từ thích hợp để hoàn thành câu.
 
 1. The article _____ to exaggerate the impact of the study.
-   A. appear  |  B. tend  |  C. seem  |  D. does  →  tend
-2. Many users _____ think the platform is unbiased.
-   A. tend  |  B. must  |  C. seem  |  D. appear  →  appear
+   A. appears  |  B. tends  |  C. seems  |  D. does  →  tends
+2. The typical user _____ to think the platform is unbiased.
+   A. tend  |  B. must  |  C. seems  |  D. appears  →  seems
 3. The report _____ suggest that the policy will work.
    A. looks  |  B. seem  |  C. appear  |  D. tend  →  seem
 4. Experts _____ claim that the data is reliable.

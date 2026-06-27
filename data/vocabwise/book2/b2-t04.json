@@ -715,62 +715,62 @@
       "The decision may be appealed by the offender if they believe the verdict was unfair."
     ],
     "ex1_mcq": {
-      "instruction": "Chọn đáp án đúng để hoàn thành câu bị động với động từ khuyết thiếu.",
+      "instruction": "Chọn dạng bị động đúng với \"may\" để hoàn thành câu.",
       "items": [
         {
           "id": 1,
-          "sentence": "The suspect _____ arrested if the evidence is strong.",
+          "sentence": "The suspect _____ if the evidence is strong.",
           "options": [
-            "could",
-            "may",
-            "must",
-            "shall"
+            "may be arrested",
+            "may arrested",
+            "may is arrested",
+            "may being arrested"
           ],
-          "answer": "may"
+          "answer": "may be arrested"
         },
         {
           "id": 2,
-          "sentence": "A fine _____ imposed for minor traffic violations.",
+          "sentence": "A fine _____ for minor traffic violations.",
           "options": [
-            "should",
-            "might",
-            "may",
-            "would"
+            "may imposed",
+            "may is impose",
+            "may be imposed",
+            "may being imposed"
           ],
-          "answer": "may"
+          "answer": "may be imposed"
         },
         {
           "id": 3,
-          "sentence": "The witness _____ called to testify tomorrow.",
+          "sentence": "The witness _____ to testify in court next week.",
           "options": [
-            "might",
-            "could",
-            "may",
-            "shall"
+            "may being called",
+            "may is called",
+            "may call",
+            "may be called"
           ],
-          "answer": "may"
+          "answer": "may be called"
         },
         {
           "id": 4,
-          "sentence": "If the contract is broken, the penalty _____ increased.",
+          "sentence": "The penalty _____ if the law is updated.",
           "options": [
-            "could",
-            "must",
-            "shall",
-            "may"
+            "may increased",
+            "may be increased",
+            "may being increased",
+            "may is increase"
           ],
-          "answer": "may"
+          "answer": "may be increased"
         },
         {
           "id": 5,
-          "sentence": "The case _____ reviewed by a higher court.",
+          "sentence": "The case _____ by a different judge.",
           "options": [
-            "shall",
-            "could",
-            "may",
-            "must"
+            "may is handled",
+            "may handle",
+            "may being handled",
+            "may be handled"
           ],
-          "answer": "may"
+          "answer": "may be handled"
         }
       ]
     },

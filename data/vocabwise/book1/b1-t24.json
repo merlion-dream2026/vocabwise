@@ -687,7 +687,7 @@
           "options": [
             "children",
             "child",
-            "children",
+            "childs",
             "parents"
           ],
           "answer": "parents"
@@ -697,7 +697,7 @@
           "sentence": "She has three _____ in her class.",
           "options": [
             "friends",
-            "friends",
+            "friend",
             "teacher",
             "teachers"
           ],

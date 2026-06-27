@@ -773,23 +773,23 @@
           "id": 1,
           "sentence": "The article _____ to exaggerate the impact of the study.",
           "options": [
-            "appear",
-            "tend",
-            "seem",
+            "appears",
+            "tends",
+            "seems",
             "does"
           ],
-          "answer": "tend"
+          "answer": "tends"
         },
         {
           "id": 2,
-          "sentence": "Many users _____ think the platform is unbiased.",
+          "sentence": "The typical user _____ to think the platform is unbiased.",
           "options": [
             "tend",
             "must",
-            "seem",
-            "appear"
+            "seems",
+            "appears"
           ],
-          "answer": "appear"
+          "answer": "seems"
         },
         {
           "id": 3,
