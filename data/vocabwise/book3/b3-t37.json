@@ -682,8 +682,8 @@
     "common_error": "❌ The project was successful however it was risky.  →  ✅ The project was successful; however, it was risky.",
     "in_context": [
       "The rise of the avant‑garde marked a decisive rupture with established tradition, even though many critics clung to conventional aesthetics.",
-      "Digital tools have democratized creation, however, the sheer volume of work can overwhelm curators.",
-      "Artists often seek patronage, for all that the system is biased, they still produce groundbreaking work."
+      "Digital tools have democratized creation; however, the sheer volume of work can overwhelm curators.",
+      "For all that the system is biased, artists still produce groundbreaking work."
     ],
     "ex1_mcq": {
       "instruction": "Chọn từ thích hợp để điền vào chỗ trống.",
@@ -867,8 +867,8 @@
     ],
     "in_context_vi": [
       "Sự trỗi dậy của tiền phong đã đánh dấu một bước đột phá quyết định so với truyền thống đã được thiết lập, mặc dù nhiều nhà phê bình vẫn bám vào thẩm mỹ truyền thống.",
-      "Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo, tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.",
-      "Các nghệ sĩ thường tìm kiếm sự bảo trợ, mặc dù hệ thống có tính thiên vị, họ vẫn tạo ra những tác phẩm đột phá."
+      "Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo; tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.",
+      "Mặc dù hệ thống có tính thiên vị, các nghệ sĩ vẫn tạo ra những tác phẩm đột phá."
     ]
   }
 }

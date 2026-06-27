@@ -76,11 +76,11 @@
 ❌ He get a promotion  →  ✅ He gets a promotion
 
 ### Trong bài đọc
-- EN: Being reliable and hardworking often gets a promotion.
+- EN: Being reliable and hardworking often leads to a promotion.
   VI: Sự đáng tin cậy và chăm chỉ thường giúp người ta được thăng chức.
 - EN: However, if someone is unhappy in their job, they may get fired.
   VI: Tuy nhiên, nếu ai đó không hài lòng với công việc, họ có thể bị sa thải.
-- EN: Most people get a retirement after about 40 years.
+- EN: Most people retire after about 40 years of working.
   VI: Hầu hết mọi người nghỉ hưu sau khoảng 40 năm làm việc.
 
 <!-- /topic -->
@@ -106,13 +106,14 @@ Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc
 2. Trong câu bị động có động từ khiếm khắc, dùng cấu trúc: modal + be + quá khứ phân từ.
   - ✅ The patient may be referred to a specialist.
 3. Thì hiện tại đơn bị động (am/is/are + V3) diễn tả thực tế chung; thì hiện tại tiếp diễn bị động (am/is/are being + V3) diễn tả hành động đang xảy ra.
-  - ✅ The report is prepared every month.
-  - ❌ The report is being prepared every month.
+  - ✅ The report is prepared every month. (thực tế chung)
+  - ✅ The report is being prepared right now. (đang xảy ra lúc này)
+  - ❌ The report is being prepared every month. → ✅ The report is prepared every month. (dùng simple passive cho sự kiện định kỳ)
 4. Không được dùng dạng nguyên mẫu sau 'be' trong bị động; phải dùng quá khứ phân từ.
   - ❌ The case is refer to the court → ✅ The case is referred to the court.
 
 ### Lỗi thường gặp
-❌ The doctor diagnoses the patient → ✅ The patient is diagnosed by the doctor
+❌ The patient diagnosed by the doctor. → ✅ The patient is diagnosed by the doctor. (câu bị động cần 'be' + past participle)
 
 ### Trong bài đọc
 - EN: For more serious conditions, the patient may be referred to a specialist.
@@ -141,8 +142,8 @@ Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc
 Câu bị động với động từ khuyết thiếu được tạo bằng cách đặt động từ khuyết thiếu (may, might, could, must, should, …) trước ‘be’ rồi theo sau là quá khứ phân từ của động từ chính (been, arrested, fined, …). Cấu trúc này dùng để nói về khả năng, cho phép, dự đoán hoặc nghĩa vụ trong một tình huống mà người hoặc vật chịu tác động được nhấn mạnh. Khi cần nêu người thực hiện hành động, có thể thêm cụm ‘by …’, nhưng thường không cần nếu người thực hiện không quan trọng. Động từ khuyết thiếu không thay đổi dạng, dù câu có phủ định, câu hỏi hay câu điều kiện.
 
 ### Lưu ý
-1. Động từ khuyết thiếu luôn đứng trước ‘be’; không được chèn bất kỳ từ nào khác giữa chúng.
-  - ❌ The suspect may be arrested → ✅ The suspect may be arrested
+1. Động từ khuyết thiếu luôn đứng trước ‘be’; không được bỏ ‘be’ trong cấu trúc bị động.
+  - ❌ The suspect may arrested → ✅ The suspect may be arrested
 2. ‘May’ thường biểu thị khả năng hoặc cho phép; ‘could’ biểu thị khả năng yếu hơn hoặc khả năng trong quá khứ; ‘must’ biểu thị nghĩa vụ hoặc chắc chắn.
   - ✅ A fine may be imposed.
   - ✅ A fine could be imposed.
@@ -184,8 +185,10 @@ Câu bị động với động từ khuyết thiếu được tạo bằng các
 Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý kiến hoặc lập luận của người khác. Khi dùng, ta đặt động từ truyền đạt (say, tell, claim, argue…) trước một mệnh đề that‑clause. Trong câu gián tiếp, thời gian, địa điểm và đại từ thường phải thay đổi theo quy tắc back‑shift (present → past, will → would, etc.). Đối với tell, cần có tân ngữ (người nghe) còn say, claim, argue không bắt buộc.
 
 ### Lưu ý
-1. Trong câu gián tiếp, từ 'that' thường được dùng nhưng có thể bỏ khi mệnh đề phụ bắt đầu bằng động từ.
-  - ❌ He said that he is tired → ✅ He said he is tired
+1. Từ 'that' sau động từ truyền đạt có thể bỏ khi mệnh đề phụ ngắn và rõ nghĩa; nhưng phải chú ý backshift (chuyển thì) cho đúng.
+  - ✅ He said that he was tired. (có 'that', đúng)
+  - ✅ He said he was tired. ('that' bỏ đi, vẫn đúng)
+  - ❌ He said that he is tired. → ✅ He said that he was tired. (cần backshift 'is' → 'was')
 2. Nếu động từ chính ở quá khứ, thì trong mệnh đề phụ thường phải chuyển về quá khứ (back‑shifting).
   - ❌ She says, 'I live here' → ✅ She said that she lived there
 3. Các từ chỉ thời gian, địa điểm và đại từ phải được điều chỉnh cho phù hợp với ngữ cảnh của câu gián tiếp.
@@ -197,7 +200,7 @@ Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý k
 ❌ He said that he will go tomorrow.  →  ✅ He said that he would go tomorrow.
 
 ### Trong bài đọc
-- EN: The prime minister said that the new tax policy will fund public services.
+- EN: The prime minister said that the new tax policy would fund public services.
   VI: Thủ tướng nói rằng chính sách thuế mới sẽ tài trợ cho các dịch vụ công.
 - EN: Opposition leaders argued that the current constitution needs reform.
   VI: Các nhà lãnh đạo đối lập cho rằng hiến pháp hiện hành cần được cải cách.
@@ -308,8 +311,10 @@ Danh động từ (V‑ing) và động từ nguyên thể (to + V) là hai 
   - ❌ choose posting → ✅ choose to post
 3. Sau giới từ luôn dùng danh động từ, không dùng to + V.
   - ❌ interested in to learn → ✅ interested in learning
-4. Một số động từ có thể đi cả hai dạng, nhưng nghĩa sẽ khác nhau.
-  - ❌ remember to lock the door (để nhớ thực hiện hành động) → ✅ remember locking the door (nhớ rằng đã khóa cửa)
+4. Một số động từ vừa dùng được V-ing vừa dùng được to-inf nhưng nghĩa khác nhau — không nhầm một dạng khi muốn diễn đạt ý kia.
+  - ✅ Remember to lock the door. (= đừng quên khóa cửa — hành động cần làm trong tương lai)
+  - ✅ I remember locking the door. (= tôi nhớ là đã khóa cửa — hồi ức về hành động đã xảy ra)
+  - ❌ Remember locking the door. (sai khi muốn nhắc ai đó làm việc gì → dùng "remember to lock")
 
 ### Lỗi thường gặp
 ❌ He avoid to post  →  ✅ He avoids posting
@@ -343,8 +348,9 @@ Cấu trúc so sánh hơn dùng để so sánh mức độ của hai đối tư�
 ### Lưu ý
 1. Sau dạng so sánh hơn luôn cần từ 'than' để nối với đối tượng so sánh.
   - ❌ He is taller his brother → ✅ He is taller than his brother
-2. Cấu trúc 'not as … as' diễn tả mức độ bằng nhau hoặc thấp hơn, không dùng để chỉ mức độ cao hơn.
-  - ❌ The car is not as fast as the bike → ✅ The car is not as fast as the bike
+2. Cấu trúc 'not as … as' diễn tả mức độ thấp hơn hoặc bằng nhau; khi muốn nói mức độ cao hơn, dùng comparative.
+  - ✅ The car is not as fast as the bike. (= xe đạp nhanh hơn hoặc bằng xe hơi)
+  - ❌ The car is not as fast as the bike. (khi muốn nói "xe hơi nhanh hơn xe đạp") → ✅ The car is faster than the bike.
 3. Với tính từ dài (hai âm tiết trở lên) không thêm -er/-est mà dùng more/less.
   - ❌ The movie is interestinger → ✅ The movie is more interesting
 4. Trong câu so sánh, tính từ luôn đứng sau chủ ngữ và trước 'than', không đảo vị trí.
@@ -574,9 +580,10 @@ Cấu trúc wish + quá khứ đơn (wish + past simple) được dùng để b�
 Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh từ hoặc đại từ để cung cấp thông tin thêm. Dùng "which" hoặc "that" để giới thiệu mệnh đề về người hoặc vật; "which" thường dùng trong mệnh đề không hạn định (có dấu phẩy), còn "that" dùng trong mệnh đề hạn định (không có dấu phẩy). Dùng "where" để chỉ địa điểm, thay cho "in/at" + "which". Dùng "whose" để biểu thị sở hữu, thay cho "of which" hoặc "of whom". Mệnh đề quan hệ luôn đứng sau danh từ mà nó mô tả.
 
 ### Lưu ý
-1. "which" dùng trong mệnh đề không hạn định (có dấu phẩy), "that" dùng trong mệnh đề hạn định (không có dấu phẩy).
-  - ❌ The book which I bought is expensive → ✅ The book that I bought is expensive
-  - ✅ The car, which is red, belongs to John
+1. Trong mệnh đề hạn định (không có dấu phẩy), cả "which" và "that" đều được chấp nhận; trong mệnh đề không hạn định (có dấu phẩy), chỉ dùng "which", không dùng "that".
+  - ✅ The book which I bought is expensive. (định nghĩa — dùng được cả "which" và "that")
+  - ✅ The book that I bought is expensive. (định nghĩa — cũng đúng)
+  - ❌ The car, that is red, belongs to John. → ✅ The car, which is red, belongs to John. (không xác định — phải dùng "which")
 2. "where" chỉ địa điểm và thay thế vị trí của giới từ + "which"; không dùng cho người.
   - ✅ The house where I grew up is old
   - ❌ The person where I met him was friendly → ✅ The person whom I met was friendly
@@ -588,7 +595,7 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
   - ✅ Students, who study hard, pass exams (nghĩa khác)
 
 ### Lỗi thường gặp
-❌ The river which flows through the city is polluted.  →  ✅ The river that flows through the city is polluted.
+❌ The river, that flows through the city, is polluted.  →  ✅ The river, which flows through the city, is polluted. (mệnh đề không xác định — phải dùng "which", không dùng "that")
 
 ### Trong bài đọc
 - EN: Natural disasters are extreme events caused by natural forces that can result in widespread destruction and loss of life.
@@ -619,18 +626,22 @@ Thì tương lai tiếp diễn (will be + V‑ing) diễn tả một hành độ
 ### Lưu ý
 1. Thì tương lai tiếp diễn thường đi kèm với các cụm thời gian như at, when, hoặc before để chỉ thời điểm hành động đang diễn ra.
   - ❌ At 9 a.m. tomorrow I will eat breakfast → ✅ At 9 a.m. tomorrow I will be eating breakfast
-2. So sánh với tương lai đơn, tương lai tiếp diễn nhấn mạnh tính liên tục của hành động, không dùng cho các hành động ngắn gọn, một lần.
-  - ❌ The launch will start at 10:00 → ✅ The launch will be starting at 10:00
+2. So sánh với tương lai đơn: "will + V" dùng cho sự kiện có lịch trình hoặc ngắn gọn; "will be + V-ing" nhấn mạnh hành động đang diễn ra tại một thời điểm tương lai.
+  - ✅ The launch will start at 10:00. (sự kiện theo lịch — dùng will + V)
+  - ✅ At that moment, scientists will be monitoring the probe. (hành động đang diễn ra tại thời điểm đó)
+  - ❌ At 9 a.m. tomorrow she will exercise → ✅ At 9 a.m. tomorrow she will be exercising. (nhấn mạnh hành động đang diễn ra)
 3. Thì tương lai hoàn thành thường đi kèm với by, by the time, hoặc before để chỉ thời điểm mà hành động đã hoàn thành.
   - ❌ By 2025 the mission will finish → ✅ By 2025 the mission will have finished
-4. Không kết hợp will have với dạng V‑ing; nếu muốn diễn tả hành động đang diễn ra ở thời điểm tương lai, dùng will be + V‑ing, không dùng will have been + V‑ing.
-  - ❌ The crew will have been walking on the Moon → ✅ The crew will be walking on the Moon
+4. Thì tương lai hoàn thành tiếp diễn "will have been + V-ing" diễn tả hành động kéo dài sẽ hoàn thành trước một thời điểm tương lai, nhấn mạnh thời gian; khác với tương lai hoàn thành đơn (will have + V3) nhấn mạnh kết quả.
+  - ✅ By 2030, scientists will have been exploring Mars for a decade. (nhấn mạnh quá trình kéo dài)
+  - ✅ By 2030, scientists will have sent a crew to Mars. (nhấn mạnh kết quả hoàn thành)
+  - ❌ They will have been walked on the Moon → ✅ They will have been walking on the Moon (phải dùng V-ing, không phải V3)
 
 ### Lỗi thường gặp
 ❌ I will be launch the probe tomorrow.  →  ✅ I will be launching the probe tomorrow.
 
 ### Trong bài đọc
-- EN: Every mission will be beginning with a powerful launch that requires years of planning.
+- EN: Every mission will begin with a powerful launch that requires years of planning.
   VI: Mỗi nhiệm vụ sẽ bắt đầu bằng một vụ phóng mạnh mẽ đòi hỏi nhiều năm lên kế hoạch.
 - EN: Space agencies will have sent unmanned probes deep into the solar system by the end of the decade.
   VI: Các cơ quan không gian sẽ đã gửi các tàu thăm dò vô người sâu vào hệ mặt trời trước cuối thập kỷ.
@@ -656,8 +667,9 @@ Thì tương lai tiếp diễn (will be + V‑ing) diễn tả một hành độ
 Cụm động từ là cấu trúc gồm một động từ chính kết hợp với một giới từ hoặc trạng từ, tạo ra nghĩa mới không hoàn toàn suy ra từ các thành phần riêng lẻ. Chúng thường xuất hiện trong giao tiếp hàng ngày và có thể đi kèm tân ngữ; nếu tân ngữ là đại từ, vị trí của giới từ/ trạng từ sẽ thay đổi (có thể tách rời). Một số cụm động từ không tách rời, nghĩa của chúng luôn gắn liền với phần giới từ/ trạng từ. Khi dùng, cần chú ý mức độ trang trọng vì một số cụm động từ mang tính không chính thức.
 
 ### Lưu ý
-1. Với các cụm động từ có thể tách rời, nếu có tân ngữ, giới từ/ trạng từ có thể đứng trước hoặc sau tân ngữ.
-  - ❌ She set up the experiment → ✅ She set the experiment up
+1. Với các cụm động từ có thể tách rời, nếu tân ngữ là DANH TỪ, giới từ/trạng từ có thể đứng trước hoặc sau tân ngữ (cả hai đều đúng); nếu tân ngữ là ĐẠI TỪ, phải đặt giữa động từ và tiểu từ.
+  - ✅ She set up the experiment. / She set the experiment up. (cả hai đúng với danh từ)
+  - ❌ She set up it → ✅ She set it up. (đại từ phải đặt giữa)
 2. Khi tân ngữ là đại từ, giới từ/ trạng từ luôn đứng sau đại từ.
   - ✅ He set it up
 3. Một số cụm động từ không tách rời; giới từ/ trạng từ luôn đứng sau động từ và không thể chèn tân ngữ giữa.
@@ -734,9 +746,10 @@ Cấu trúc này dùng để truyền đạt kết quả nghiên cứu, báo cá
 Lượng từ (all, most, some, few, no) được đặt trước danh từ để chỉ mức độ hoặc số lượng. Chúng thay thế mạo từ và đi kèm với danh từ đếm được (số nhiều) hoặc không đếm được tùy theo loại lượng từ. "All" và "most" diễn tả toàn bộ hoặc phần lớn, "some" dùng trong câu khẳng định, câu hỏi, lời đề nghị; "few" và "no" mang nghĩa tiêu cực, trong đó "few" ám chỉ ít nhưng vẫn có, còn "no" chỉ không có gì. Cấu trúc cơ bản: lượng từ + danh từ (có thể có "of" + danh từ xác định).
 
 ### Lưu ý
-1. Lượng từ đứng ngay trước danh từ, thay thế mạo từ; khi có "of" thì theo sau danh từ xác định.
-  - ❌ all the children → ✅ all children
-  - ✅ most of the students passed
+1. Lượng từ có thể đứng trực tiếp trước danh từ hoặc dùng "of + the + danh từ" để chỉ nhóm cụ thể; cả hai đều đúng.
+  - ✅ All children need love. (nói chung — không dùng 'the')
+  - ✅ All the children passed the test. (nhóm cụ thể — dùng 'the')
+  - ✅ Most of the students passed. (chỉ nhóm đã biết — dùng 'of the')
 2. "Few" chỉ danh từ đếm được số nhiều; không dùng với danh từ không đếm được.
   - ❌ few water → ✅ little water
 3. "Few" và "no" đều mang nghĩa tiêu cực, nhưng "few" ngụ ý còn một ít, còn "no" hoàn toàn không có.
@@ -747,7 +760,7 @@ Lượng từ (all, most, some, few, no) được đặt trước danh từ đ�
   - ❌ I don't have some money → ✅ I don't have any money.
 
 ### Lỗi thường gặp
-❌ She have some friends.  →  ✅ She has some friends.
+❌ She doesn't have some money.  →  ✅ She doesn't have any money. ('some' không dùng trong câu phủ định; dùng 'any')
 
 ### Trong bài đọc
 - EN: The coral reef is home to a quarter of all marine life.
@@ -793,7 +806,7 @@ Quá khứ hoàn thành (had + quá phân từ) diễn tả một hành động 
   VI: Khi đã thu thập đủ bằng chứng, một nhà khoa học có thể đề xuất một lý thuyết.
 - EN: Before findings had been shared publicly, they had to go through peer review.
   VI: Trước khi các phát hiện được công bố công khai, chúng phải trải qua quá trình đánh giá đồng nghiệp.
-- EN: Occasionally, a single discovery had changed everything, leading to a breakthrough.
+- EN: Occasionally, a single discovery changed everything, leading to a breakthrough.
   VI: Thỉnh thoảng, một khám phá duy nhất đã thay đổi mọi thứ, dẫn đến một bước đột phá.
 
 <!-- /topic -->
@@ -834,8 +847,8 @@ Câu điều kiện loại 1 (First Conditional) dùng để nói về một kh�
 ### Trong bài đọc
 - EN: If you understand your income, you can create a budget.
   VI: Nếu bạn hiểu thu nhập của mình, bạn có thể lập một ngân sách.
-- EN: If you saved at least 10% of your earnings, you will build a safety net.
-  VI: Nếu bạn tiết kiệm ít nhất 10% thu nhập, bạn sẽ xây dựng một quỹ dự phòng.
+- EN: If you save at least 10% of your earnings, you will build a safety net.
+  VI: Nếu bạn tiết kiệm ít nhất 10% thu nhập, bạn sẽ xây dựng được một quỹ dự phòng.
 - EN: If you borrowed money without a plan, you would struggle to repay it.
   VI: Nếu bạn vay tiền mà không có kế hoạch, bạn sẽ gặp khó khăn trong việc trả nợ.
 
@@ -902,7 +915,7 @@ Cụm danh từ phức tạp là một danh từ (head noun) đi kèm với mộ
   - ❌ International trade the buying and selling of goods and services between countries is… → ✅ International trade, the buying and selling of goods and services between countries, is…
 
 ### Lỗi thường gặp
-❌ The buying and selling of goods and services is important.  →  ✅ The buying and selling of goods and services are important.
+❌ The buying and selling of goods and services are important.  →  ✅ The buying and selling of goods and services is important. (cụm danh động từ làm chủ ngữ luôn chia động từ số ít)
 
 ### Trong bài đọc
 - EN: International trade — the buying and selling of goods and services between countries — is one of the driving forces of the global economy.
@@ -1130,9 +1143,9 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
   - ❌ She claimed that, she was late. → ✅ She claimed that she was late.
 2. ‘Argue’ và ‘claim’ thường dùng trong văn viết trang trọng để đưa ra lập luận hoặc khẳng định, trong khi ‘suggest’ mang tính nhẹ nhàng hơn và phù hợp với cả văn nói.
   - ✅ The report argues that climate change impacts are accelerating.
-3. ‘Deny’ không đi với dạng nguyên mẫu (to‑verb); thay vào đó dùng danh từ, động từ dạng –ing hoặc mệnh đề ‘that’.
+3. ‘Deny’ không đi với dạng nguyên mẫu (to‑verb); thay vào đó dùng động từ dạng –ing hoặc mệnh đề ‘that’.
   - ❌ He denied to go. → ✅ He denied going.
-  - ❌ He denied that he was late. → ✅ He denied that he was late.
+  - ✅ He denied that he was late. (deny + that-clause cũng đúng)
 4. Sau ‘suggest’ thường dùng dạng gerund (‑ing) hơn là infinitive; infinitive vẫn chấp nhận nhưng nghe không tự nhiên.
   - ❌ She suggested to meet at 5. → ✅ She suggested meeting at 5.
 
@@ -1211,12 +1224,14 @@ Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô t�
 ### Lưu ý
 1. Tính từ -ed thường đi sau động từ to be (am, is, are, was, were) để nói về cảm xúc của chủ ngữ.
   - ❌ She is boring → ✅ She is bored
-2. Tính từ -ing mô tả tính chất cố định của sự vật và có thể đứng trước danh từ.
-  - ❌ The lecture was boring → ✅ The lecture was interesting
+2. Tính từ -ing mô tả tính chất của sự vật/hiện tượng; tính từ -ed mô tả cảm xúc của người cảm nhận.
+  - ❌ The lecture was bored. → ✅ The lecture was boring. (sự vật dùng -ing)
+  - ❌ She is boring. (khi muốn nói cô ấy cảm thấy nhàm chán) → ✅ She is bored.
 3. Không dùng -ed cho các danh từ vô cảm (đồ vật, hiện tượng); dùng -ing thay vì -ed.
   - ❌ The painting is bored → ✅ The painting is interesting
-4. -ing adjectives thường xuất hiện trong văn viết trang trọng, còn -ed adjectives dùng trong giao tiếp hàng ngày.
-  - The results are interesting (formal) → The results are interesting (neutral)
+4. -ing adjectives có thể đứng trước danh từ (attributive) hoặc sau động từ liên kết; không dùng -ed adjective để mô tả sự vật.
+  - ✅ an interesting lecture / the lecture was interesting (mô tả sự vật — dùng -ing)
+  - ❌ a bored lecture → ✅ a boring lecture (trước danh từ vô cảm — phải dùng -ing)
 
 ### Lỗi thường gặp
 ❌ I am interesting in art → ✅ I am interested in art
@@ -1290,8 +1305,9 @@ Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuou
   - ❌ He arrived after she left → ✅ He arrived after she had left
 2. Past Continuous dùng để tạo nền cho câu chuyện; hành động nền thường kéo dài, trong khi hành động ngắn hơn dùng Past Simple.
   - The storm was raging, and the ship crashed.
-3. Khi một hành động ngắn hơn (Past Simple) xảy ra trong một hành động đang diễn ra (Past Continuous), ta dùng cấu trúc Past Continuous + Past Simple.
-  - ❌ While I was cooking dinner, the phone rang → ✅ While I was cooking dinner, the phone rang
+3. Khi một hành động ngắn hơn (Past Simple) xảy ra trong một hành động đang diễn ra (Past Continuous), dùng Past Continuous cho nền và Past Simple cho hành động ngắn.
+  - ❌ While I cooked dinner, the phone was ringing. → ✅ While I was cooking dinner, the phone rang.
+  - ✅ She was reading when the power went out.
 4. Tránh nhầm lẫn giữa Past Simple và Past Perfect khi nói về một hành động đã hoàn thành trước một thời điểm trong quá khứ; nếu không có sự so sánh thời gian, dùng Past Simple.
   - ❌ She had visited Paris last year → ✅ She visited Paris last year
 
@@ -1299,7 +1315,7 @@ Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuou
 ❌ *She was wrote the chapter yesterday.* → ✅ *She wrote the chapter yesterday.*
 
 ### Trong bài đọc
-- EN: Books had shaped human culture for thousands of years.
+- EN: Books have shaped human culture for thousands of years.
   VI: Sách đã hình thành nền văn hoá nhân loại trong hàng ngàn năm.
 - EN: A skilled author was building a compelling storyline — a sequence of events that keeps the reader turning pages.
   VI: Một tác giả tài năng đang xây dựng một cốt truyện hấp dẫn — một chuỗi các sự kiện khiến độc giả không ngừng lật trang.
@@ -1365,9 +1381,10 @@ Both, either và neither là các từ dùng để nói về hai đối tượng
 1. Both thường đứng trước danh từ số nhiều; either và neither thường đứng trước danh từ số ít.
   - ❌ Both student is ready → ✅ Both students are ready
   - ❌ Either books are interesting → ✅ Either book is interesting
-2. Khi danh từ đã có determiner (the, my, these...), dùng both/either/neither of + danh từ.
-  - ✅ Both of the speakers are fluent
-  - ❌ Both the speakers are fluent → ✅ Both of the speakers are fluent
+2. Khi danh từ đã có determiner (the, my, these...), có thể dùng "both/either/neither + the + noun" hoặc "both/either/neither of + the + noun"; cả hai đều đúng.
+  - ✅ Both the speakers are fluent. (đúng)
+  - ✅ Both of the speakers are fluent. (cũng đúng)
+  - ❌ Both of speakers are fluent. → ✅ Both of the speakers are fluent. (cần 'the' sau 'of')
 3. Sau both, động từ dùng số nhiều; sau either hoặc neither, động từ dùng số ít.
   - ✅ Both cats sleep
   - ❌ Both cat sleeps → ✅ Both cats sleep
@@ -1498,7 +1515,7 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
   - ❌ She herself herself designed the dress
 
 ### Lỗi thường gặp
-❌ She herself bought the dress → ✅ She bought the dress herself
+❌ She by herself bought the dress. → ✅ She herself bought the dress. (hoặc: She bought the dress herself.) — đại từ nhấn mạnh đứng ngay sau chủ ngữ hoặc cuối câu
 
 ### Trong bài đọc
 - EN: Fashion is far more than clothing — it is a powerful language through which people express themselves.
@@ -1540,7 +1557,7 @@ Bị động mô tả quy trình dùng để nhấn mạnh hành động hoặc 
 ❌ The food was cooked by we.  →  ✅ The food was cooked by us.
 
 ### Trong bài đọc
-- EN: A local dish is not just nourishment; it is carried memory, meaning, and heritage.
+- EN: A local dish is not just nourishment; it carries memory, meaning, and heritage.
   VI: Món ăn địa phương không chỉ là nguồn dinh dưỡng; nó còn mang theo ký ức, ý nghĩa và di sản.
 - EN: The best recipes often are prepared with authentic, unadulterated ingredients rather than processed substitutes.
   VI: Các công thức tốt nhất thường được chuẩn bị với nguyên liệu nguyên bản, chưa bị pha trộn, thay vì các chất thay thế đã qua xử lý.
@@ -1565,9 +1582,10 @@ Mạo từ 'the' được dùng khi danh từ chỉ một thực thể duy nhấ
 ### Lưu ý
 1. Dùng 'the' trước danh từ chỉ một đối tượng duy nhất, đã được người nghe/đọc biết tới.
   - ❌ Sun is bright → ✅ The sun is bright
-2. Dùng 'the' với tính từ so sánh nhất và các số thứ tự.
+2. Dùng 'the' với tính từ so sánh nhất; không dùng 'the' với trạng từ chỉ vị trí thứ tự như "first", "second" sau động từ.
   - ❌ He is best player → ✅ He is the best player
-  - ❌ She finished first → ✅ She finished the first
+  - ✅ She finished first. (trạng từ chỉ vị trí, không cần 'the')
+  - ✅ She was the first to finish. (khi là danh từ/tính từ — cần 'the')
 3. Khi danh từ được một cụm từ hoặc mệnh đề làm cho nó trở nên cụ thể, 'the' phải xuất hiện.
   - ❌ I visited museum yesterday → ✅ I visited the museum that opened last year
 4. Không dùng 'the' với danh từ trừu tượng khi nói chung; chỉ dùng khi đã có ngữ cảnh xác định.
@@ -1652,9 +1670,10 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
   - ❌ agree to helping → ✅ agree to help
 2. suggest chỉ chấp nhận V‑ing (hoặc that‑clause) để đưa ra đề xuất, không dùng to‑inf.
   - ❌ suggest to raise awareness → ✅ suggest raising awareness
-3. expect dùng to‑inf để diễn tả kỳ vọng về một hành động trong tương lai; chủ ngữ của to‑inf trùng với chủ ngữ của expect.
+3. expect dùng to‑inf để diễn tả kỳ vọng về một hành động trong tương lai; cũng có thể dùng "expect + object + to-inf" khi kỳ vọng người khác làm gì.
   - ❌ expect receiving help → ✅ expect to receive help
-  - ❌ She expects him to arrive → ✅ She expects to arrive
+  - ✅ She expects to arrive soon. (chủ ngữ = người kỳ vọng)
+  - ✅ She expects him to arrive soon. (expect + object + to-inf — cũng đúng)
 4. Cấu trúc này thường mang tính trang trọng; trong giao tiếp không chính thức có thể dùng các cách diễn đạt khác như “agree on” + danh từ hoặc “think about” + V‑ing.
   - ✅ agree on the plan (formal) vs ✅ think about helping (informal)
 
@@ -1704,8 +1723,8 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
 ### Trong bài đọc
 - EN: A society that demands freedom must have respected the rights of others.
   VI: Một xã hội đòi hỏi tự do phải đã tôn trọng quyền của người khác.
-- EN: Campaigns for equality should have driven some of history's most important social changes, from the abolition of slavery to women's suffrage.
-  VI: Các chiến dịch vì bình đẳng lẽ ra đã thúc đẩy một số thay đổi xã hội quan trọng nhất trong lịch sử, từ việc bãi bỏ chế độ nô lệ đến quyền bầu cử cho phụ nữ.
+- EN: Campaigns for equality have driven some of history's most important social changes, from the abolition of slavery to women's suffrage.
+  VI: Các chiến dịch vì bình đẳng đã thúc đẩy một số thay đổi xã hội quan trọng nhất trong lịch sử, từ việc bãi bỏ chế độ nô lệ đến quyền bầu cử cho phụ nữ.
 - EN: The struggle for human rights can't have been a distant political matter—it is a daily responsibility.
   VI: Cuộc đấu tranh cho nhân quyền không thể đã là một vấn đề chính trị xa vời—đó là trách nhiệm hàng ngày.
 
@@ -1900,7 +1919,7 @@ Collocations với make, do, take, have là các cụm động từ + danh từ 
 ❌ She have a habit of jogging.  →  ✅ She has a habit of jogging.
 
 ### Trong bài đọc
-- EN: Staying active throughout the day — even with small actions like take the stairs or going for a short walk after lunch — has a measurable impact on health.
+- EN: Staying active throughout the day — even with small actions like taking the stairs or going for a short walk after lunch — has a measurable impact on health.
   VI: Việc duy trì hoạt động suốt cả ngày — ngay cả những hành động nhỏ như đi bộ lên cầu thang hoặc đi dạo ngắn sau bữa trưa — có ảnh hưởng đo được tới sức khỏe.
 - EN: Regular exercise — even thirty minutes of moderate activity such as walking — makes a big difference to your heart health.
   VI: Tập thể dục thường xuyên — ngay cả ba mươi phút hoạt động vừa phải như đi bộ — tạo ra sự khác biệt lớn cho sức khỏe tim mạch của bạn.
@@ -1925,9 +1944,9 @@ Danh hóa (nominalization) là quá trình chuyển một động từ thành da
 ### Lưu ý
 1. Các hậu tố -tion, -sion, -ment thường tạo danh từ không đếm được, vì vậy không dùng a/an.
   - ❌ A pollution is rising → ✅ Pollution is rising
-2. Trong văn viết trang trọng, dùng danh hoá thay cho dạng -ing (gerund) để tăng tính học thuật; trong giao tiếp thông thường, dạng -ing nghe tự nhiên hơn.
-  - ✅ The development of renewable energy is crucial.
-  - ❌ Developing renewable energy is crucial.
+2. Trong văn viết trang trọng, danh hoá thường được ưu tiên hơn dạng gerund để tăng tính học thuật; nhưng cả hai đều đúng về ngữ pháp.
+  - ✅ The development of renewable energy is crucial. (học thuật, nominalization)
+  - ✅ Developing renewable energy is crucial. (cũng đúng; gerund làm chủ ngữ)
 3. Nếu danh hoá có nghĩa đếm được, có thể dùng mạo từ và chia số nhiều.
   - ✅ The developments in technology are impressive.
   - ❌ The development in technology are impressive.
@@ -2141,7 +2160,7 @@ Ngôn ngữ nhân quả trong văn nghị luận dùng để liên kết nguyên
 ### Trong bài đọc
 - EN: Communities that engage their residents in open discussion lead to more durable solutions than those that impose decisions from the top down.
   VI: Các cộng đồng thu hút cư dân tham gia thảo luận mở dẫn đến các giải pháp bền vững hơn so với những cộng đồng áp đặt quyết định từ trên xuống.
-- EN: When residents come together to suggest ideas and deal with shared problems, the results in remarkable improvements.
+- EN: When residents come together to suggest ideas and deal with shared problems, this results in remarkable improvements.
   VI: Khi cư dân cùng nhau đề xuất ý tưởng và giải quyết các vấn đề chung, điều này dẫn đến những cải thiện đáng kể.
 - EN: High crime rates are caused by a lack of community cohesion.
   VI: Tỷ lệ tội phạm cao là do thiếu sự gắn kết cộng đồng.
@@ -2165,8 +2184,9 @@ Ngôn ngữ nhân quả trong văn nghị luận dùng để liên kết nguyên
 Bị động phi nhân xưng là cấu trúc dùng để truyền đạt một quan điểm, thông tin chung mà người nói không nêu rõ người thực hiện. Nó thường xuất hiện sau các động từ báo cáo như *believe, report, say* và được giới thiệu bằng *it is* + quá khứ phân từ. Cấu trúc cơ bản: *It is + past participle + that + clause*. Dùng trong văn viết trang trọng để nhấn mạnh nội dung chứ không phải người nói.
 
 ### Lưu ý
-1. Mệnh đề *that* thường có thể bỏ qua khi nội dung ngắn gọn, nhưng khi câu dài hoặc cần nhấn mạnh thì nên giữ lại.
-  - ❌ It is believed that the method is simple → ✅ It is believed the method is simple
+1. Từ 'that' sau động từ bị động có thể bỏ khi nội dung ngắn gọn; nhưng trong văn viết trang trọng nên giữ lại để câu rõ ràng hơn.
+  - ✅ It is believed that the method is simple. (trang trọng, khuyến nghị)
+  - ✅ It is believed the method is simple. ('that' bỏ đi, vẫn đúng)
 2. Cấu trúc này mang tính trang trọng; trong giao tiếp thông thường người học thường dùng câu chủ động như *People believe…*.
   - ❌ It is said that… → ✅ People say that…
 3. Động từ luôn chia ở dạng số ít *is* bất kể danh từ trong mệnh đề phụ là số nhiều.
@@ -2250,7 +2270,7 @@ Câu điều kiện hỗn hợp (mixed conditional) dùng để nói về một 
   - ❌ They'd be risking losing staff now → ✅ They would be risking losing staff now.
 
 ### Lỗi thường gặp
-❌ If I didn't have enough money, I would have bought a car.  →  ✅ If I had had enough money, I would have bought a car.
+❌ If I had more money now, I would have bought a car.  →  ✅ If I had had enough money then, I would be able to buy a car now. (mixed conditional: quá khứ không có thực → kết quả hiện tại)
 
 ### Trong bài đọc
 - EN: If companies had refused to adapt, they would be risking losing talented staff now.
@@ -2320,15 +2340,16 @@ Tính từ ghép là các tính từ được tạo thành từ hai (hoặc nhi�
 ### Lưu ý
 1. Khi tính từ ghép đứng trước danh từ, phải dùng dấu gạch nối để liên kết các thành phần.
   - ❌ fast growing digital networks → ✅ fast-growing digital networks
-2. Nếu tính từ ghép đứng sau danh từ, không cần gạch nối.
-  - The networks are fast growing → The networks are fast-growing
+2. Khi tính từ ghép đứng sau động từ (vị trí vị ngữ), thường không cần gạch nối.
+  - ✅ fast-growing digital networks (trước danh từ, cần gạch nối)
+  - ✅ The networks are fast growing. (sau động từ, gạch nối không bắt buộc)
 3. Khi thành phần đầu của tính từ ghép kết thúc bằng -ly, không dùng gạch nối.
   - highly regarded scientist → highly regarded scientist
 4. Sử dụng gạch nối để tránh nhầm lẫn giữa hai tính từ riêng biệt và một tính từ ghép.
   - ❌ old fashioned dress → ✅ old-fashioned dress
 
 ### Lỗi thường gặp
-❌ The company is fast growing.  →  ✅ The company is fast-growing.
+❌ It is a fast growing company.  →  ✅ It is a fast-growing company. (trước danh từ phải có gạch nối)
 
 ### Trong bài đọc
 - EN: The world’s fast-growing digital communication networks link distant cultures.
@@ -2370,7 +2391,7 @@ Ngôn ngữ lập trường trong học thuật (hedging) là cách dùng các t
 ### Trong bài đọc
 - EN: Phrases like 'for example', 'this suggests that', and 'on the other hand' are the tools of logical argumentation.
   VI: Các cụm từ như 'for example', 'this suggests that' và 'on the other hand' là công cụ của lập luận logic.
-- EN: Without this skill, even strongly held views can be fail to convince others, because passion alone is rarely enough to change minds.
+- EN: Without this skill, even strongly held views can fail to convince others, because passion alone is rarely enough to change minds.
   VI: Nếu thiếu kỹ năng này, ngay cả những quan điểm được giữ vững mạnh cũng có thể không thuyết phục được người khác, vì đam mê một mình hiếm khi đủ để thay đổi suy nghĩ.
 - EN: The goal of discussion is not to 'win' but to come to a conclusion that appears to be as close to the truth as possible.
   VI: Mục tiêu của cuộc thảo luận không phải để 'giành thắng lợi' mà là đạt được một kết luận có vẻ gần với sự thật nhất có thể.

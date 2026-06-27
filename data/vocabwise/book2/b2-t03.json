@@ -765,7 +765,7 @@
     },
     "rule_vi": "Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc đối tượng bị tác động, khi người thực hiện không quan trọng hoặc không biết. Đối với thì hiện tại, dùng am/is/are + quá khứ phân từ; đối với thì quá khứ, dùng was/were + quá khứ phân từ. Khi có động từ khiếm khắc (can, may, must, should, might, could, would), dạng bị động giữ nguyên mẫu: modal + be + quá khứ phân từ. Người thực hiện (nếu muốn nêu) được giới thiệu bằng cụm 'by' sau động từ bị động.",
     "rule_en": "Use the passive to focus on the action or the receiver, when the doer is unknown or unimportant.",
-    "common_error": "❌ The doctor diagnoses the patient → ✅ The patient is diagnosed by the doctor",
+    "common_error": "❌ The patient diagnosed by the doctor. → ✅ The patient is diagnosed by the doctor. (câu bị động cần 'be' + past participle)",
     "in_context": [
       "For more serious conditions, the patient may be referred to a specialist.",
       "Many illnesses which were once dangerous can now be managed effectively.",
@@ -928,8 +928,9 @@
       {
         "text": "Thì hiện tại đơn bị động (am/is/are + V3) diễn tả thực tế chung; thì hiện tại tiếp diễn bị động (am/is/are being + V3) diễn tả hành động đang xảy ra.",
         "examples": [
-          "✅ The report is prepared every month.",
-          "❌ The report is being prepared every month."
+          "✅ The report is prepared every month. (thực tế chung)",
+          "✅ The report is being prepared right now. (đang xảy ra lúc này)",
+          "❌ The report is being prepared every month. → ✅ The report is prepared every month. (dùng simple passive cho sự kiện định kỳ)"
         ]
       },
       {

@@ -733,7 +733,7 @@
     "common_error": "❌ The conference is set for next month → ✅ The conference is set to start next month",
     "in_context": [
       "Modern medicine is set to rely increasingly on AI‑driven diagnostics as ethical frameworks evolve.",
-      "The fair allocation of organs is due to transparent criteria, without which decisions risk becoming arbitrary.",
+      "The fair allocation of organs is due to follow transparent criteria, without which decisions risk becoming arbitrary.",
       "Bioethicists are predicted to warn against paternalism as new digital health records emerge."
     ],
     "ex1_mcq": {
@@ -916,7 +916,7 @@
     ],
     "in_context_vi": [
       "Y học hiện đại sẽ ngày càng dựa vào chẩn đoán do AI điều khiển khi các khung đạo đức phát triển.",
-      "Việc phân bổ cơ quan một cách công bằng sẽ dựa vào các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.",
+      "Việc phân bổ cơ quan một cách công bằng dự kiến sẽ tuân theo các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.",
       "Các nhà sinh học đạo đức được dự đoán sẽ cảnh báo về chủ nghĩa bảo trợ khi hồ sơ sức khỏe kỹ thuật số mới xuất hiện."
     ]
   }

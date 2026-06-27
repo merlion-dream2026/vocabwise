@@ -814,7 +814,7 @@
     },
     "rule_vi": "Tính từ ghép là các tính từ được tạo thành từ hai (hoặc nhiều) từ, thường là danh từ, động từ, trạng từ hoặc tính từ, và được nối bằng dấu gạch nối. Chúng dùng để mô tả một danh từ một cách ngắn gọn và thường đứng trước danh từ. Khi tính từ ghép đứng trước danh từ, cần dùng dấu gạch nối để tránh nhầm lẫn; nếu đứng sau danh từ, thường không cần gạch nối. Các tính từ ghép thường xuất hiện trong văn viết trang trọng và trong các cụm danh từ mô tả đặc tính.",
     "rule_en": "Use hyphenated compound adjectives before a noun or after a linking verb to give a concise description.",
-    "common_error": "❌ The company is fast growing.  →  ✅ The company is fast-growing.",
+    "common_error": "❌ It is a fast growing company.  →  ✅ It is a fast-growing company. (trước danh từ phải có gạch nối)",
     "in_context": [
       "The world’s fast-growing digital communication networks link distant cultures.",
       "Globalisation has created well-known brands that dominate markets worldwide.",
@@ -971,9 +971,10 @@
         ]
       },
       {
-        "text": "Nếu tính từ ghép đứng sau danh từ, không cần gạch nối.",
+        "text": "Khi tính từ ghép đứng sau động từ (vị trí vị ngữ), thường không cần gạch nối.",
         "examples": [
-          "The networks are fast growing → The networks are fast-growing"
+          "✅ fast-growing digital networks (trước danh từ, cần gạch nối)",
+          "✅ The networks are fast growing. (sau động từ, gạch nối không bắt buộc)"
         ]
       },
       {

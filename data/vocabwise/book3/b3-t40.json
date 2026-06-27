@@ -842,9 +842,10 @@
     },
     "usage_notes": [
       {
-        "text": "Cấu trúc này luôn dùng ‘to + verb’ sau tính từ; không thể thay bằng ‘that + clause’ trừ khi dùng dạng subjunctive.",
+        "text": "Cấu trúc này dùng ‘to + verb’ sau tính từ; khi dùng ‘that + clause’, động từ trong mệnh đề phụ ở subjunctive (bare infinitive, không thêm –s).",
         "examples": [
-          "❌ It is crucial that we construct a proof → ✅ It is crucial to construct a proof"
+          "❌ It is crucial that we constructs the proof → ✅ It is crucial that we construct the proof (subjunctive: không thêm –s)",
+          "✅ It is crucial to construct a rigorous proof. (cả hai dạng đều đúng)"
         ]
       },
       {
@@ -854,10 +855,10 @@
         ]
       },
       {
-        "text": "Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) thay vì infinitive.",
+        "text": "Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) để tăng tính học thuật.",
         "examples": [
-          "✅ The necessity of accepting axioms is evident.",
-          "❌ It is necessary to accept axioms → ✅ The necessity of accepting axioms"
+          "✅ It is necessary to accept axioms. (nhấn mạnh hành động — đúng)",
+          "✅ The necessity of accepting axioms is evident. (nominalization — trang trọng hơn, cũng đúng)"
         ]
       },
       {

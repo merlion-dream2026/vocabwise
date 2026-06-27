@@ -731,7 +731,7 @@
     },
     "rule_vi": "Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh đề trạng từ để diễn tả sự tương phản hoặc nhượng bộ giữa hai tình huống. Khi muốn nhấn mạnh rằng một hành động xảy ra đồng thời hoặc trái ngược với hành động chính, chúng ta đặt mệnh đề phân từ trước hoặc sau câu chính, thường ngăn cách bằng dấu phẩy nếu đứng đầu câu. Mệnh đề này chia sẻ cùng chủ ngữ với câu chính; nếu không chia sẻ, cần dùng cấu trúc khác (ví dụ: although + clause). Cấu trúc cơ bản: V‑ing + (bổ ngữ/đối tượng), …",
     "rule_en": "Use present‑participle clauses to express contrast or concession, placed before or after the main clause.",
-    "common_error": "❌ *Because* the policy was unpopular, the government changed it → ✅ *Contrasting* the policy's popularity, the government changed it",
+    "common_error": "❌ Walking down the street, the lights were bright. → ✅ Walking down the street, I noticed the lights were bright. (chủ ngữ của mệnh đề phân từ phải khớp với chủ ngữ câu chính — \"the lights\" không thể walk)",
     "in_context": [
       "Yet in the modern era, the rise of secularism has fundamentally altered the relationship between religion and public life, contrasting with its former public prominence.",
       "At the same time, demographic shifts have made pluralism an increasingly pressing social reality, conceding that multiple belief systems must coexist.",

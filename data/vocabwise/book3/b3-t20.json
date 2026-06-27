@@ -852,7 +852,7 @@
         "text": "Khi dùng ‘should’ để đảo ngữ, câu mang nghĩa đề nghị lịch sự hoặc điều kiện trong tương lai, khác với ‘if’ thường mang tính giả định.",
         "examples": [
           "✅ Should you need assistance, call the desk.",
-          "❌ If should you need assistance → ❌ Should you need assistance, call the desk."
+          "❌ If should you need assistance → ✅ Should you need assistance, call the desk. (bỏ \"if\" khi dùng đảo ngữ)"
         ]
       },
       {

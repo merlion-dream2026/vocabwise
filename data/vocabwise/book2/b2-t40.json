@@ -952,10 +952,11 @@
         ]
       },
       {
-        "text": "Dùng 'the' với tính từ so sánh nhất và các số thứ tự.",
+        "text": "Dùng 'the' với tính từ so sánh nhất; không dùng 'the' với trạng từ chỉ vị trí thứ tự như \"first\", \"second\" sau động từ.",
         "examples": [
           "❌ He is best player → ✅ He is the best player",
-          "❌ She finished first → ✅ She finished the first"
+          "✅ She finished first. (trạng từ chỉ vị trí, không cần 'the')",
+          "✅ She was the first to finish. (khi là danh từ/tính từ — cần 'the')"
         ]
       },
       {

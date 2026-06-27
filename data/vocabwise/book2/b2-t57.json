@@ -767,7 +767,7 @@
     },
     "rule_vi": "Câu điều kiện hỗn hợp (mixed conditional) dùng để nói về một tình huống không có thực trong quá khứ và hậu quả của nó ở thời hiện tại. Cấu trúc điển hình là: If + quá khứ hoàn thành (had + V3), ... would + động từ nguyên thể (hoặc would be + V‑ing) để diễn tả kết quả hiện tại. Nó nhấn mạnh rằng nếu quá khứ đã khác đi, hiện tại sẽ thay đổi theo. Thường dùng để bày tỏ sự tiếc nuối hoặc đưa ra lời khuyên dựa trên một giả định không thực tế.",
     "rule_en": "Used to talk about an unreal past condition and its present result.",
-    "common_error": "❌ If I didn't have enough money, I would have bought a car.  →  ✅ If I had had enough money, I would have bought a car.",
+    "common_error": "❌ If I had more money now, I would have bought a car.  →  ✅ If I had had enough money then, I would be able to buy a car now. (mixed conditional: quá khứ không có thực → kết quả hiện tại)",
     "in_context": [
       "If companies had refused to adapt, they would be risking losing talented staff now.",
       "If automation had not transformed the workforce, workers would still be doing routine tasks manually.",

@@ -840,7 +840,8 @@
       {
         "text": "Phép lược bỏ chỉ hợp lệ khi thành phần bị bỏ có thể được suy ra một cách rõ ràng từ ngữ cảnh trước hoặc sau.",
         "examples": [
-          "❌ \"She bought a book, and he ___ a pen.\" → ✅ \"She bought a book, and he bought a pen.\""
+          "✅ \"She bought a book, and he a pen.\" (ellipsis of \"bought\" — clear from context, valid)",
+          "❌ \"She praised him, and Peter.\" (mơ hồ — Peter khen ai, hay cô ấy khen Peter?) → ✅ \"She praised him, and Peter did too.\""
         ]
       },
       {

@@ -842,7 +842,8 @@
       {
         "text": "Lược bỏ (ellipsis) cho phép bỏ qua các thành phần đã được nêu trước, nhưng chỉ khi nghĩa không bị mơ hồ.",
         "examples": [
-          "❌ She likes coffee, and I do not → ✅ She likes coffee, and I do not (ellipsis of 'like coffee')"
+          "✅ She likes coffee, and I do not. (ellipsis of 'like coffee' — rõ ràng, đúng)",
+          "❌ She praised him, and Peter. (mơ hồ — Peter khen ai, hay cô ấy khen Peter?) → ✅ She praised him, and Peter did too."
         ]
       },
       {

@@ -681,7 +681,7 @@
     },
     "rule_vi": "Đảo ngữ (fronting) là việc đưa một thành phần muốn nhấn mạnh lên đầu câu, thường kèm theo trợ động từ hoặc động từ to be để tạo đảo vị trí. Câu chẻ (cleft) chia câu thành hai phần để làm nổi bật một thành phần cụ thể, gồm it‑cleft (It is/was … that/who …) và wh‑cleft (What … is …). Cả hai cấu trúc đều dùng để tạo sự tương phản, nhấn mạnh hoặc làm rõ thông tin quan trọng. Khi dùng, cần giữ nguyên thứ tự của phần còn lại của câu sau cấu trúc cleft hoặc sau phần đảo vị trí.",
     "rule_en": "Use fronting to place the highlighted element at the beginning of the clause, and cleft sentences to spotlight a particular constituent for contrast.",
-    "common_error": "❌ *It is* the most important factor that we need to consider → ✅ *It is* the most important factor we need to consider",
+    "common_error": "❌ *It is* the policy *which* needs revision → ✅ *It is* the policy *that* needs revision. (trong it-cleft dùng \"that\", không dùng \"which\")",
     "in_context": [
       "Across the globe, climate change is reshaping ecosystems, economies, and lives.",
       "It is the ethical fault line that runs through the global debate about responsibility.",
@@ -838,7 +838,7 @@
       {
         "text": "Câu chẻ thường xuất hiện trong văn viết trang trọng hoặc diễn thuyết, không phổ biến trong giao tiếp thân mật.",
         "examples": [
-          "It is the policy that needs revision. → It is the policy that needs revision."
+          "❌ It is the policy needs revision. → ✅ It is the policy that needs revision. (it-cleft phải có \"that/who\" sau focused element)"
         ]
       },
       {

@@ -900,7 +900,7 @@
       {
         "text": "Trong mệnh đề không xác định không được dùng ‘that’; chỉ dùng ‘who’, ‘which’, ‘whose’, ‘where’, ‘when’.",
         "examples": [
-          "❌ The city that we visited is beautiful → ✅ The city, which we visited, is beautiful"
+          "❌ The city, that we visited, is beautiful → ✅ The city, which we visited, is beautiful"
         ]
       },
       {

@@ -727,7 +727,7 @@
     },
     "rule_vi": "Cụm danh từ phức tạp là một danh từ (head noun) đi kèm với một hoặc nhiều thành phần bổ nghĩa như tính từ, cụm giới từ, hoặc mệnh đề quan hệ. Khi muốn diễn tả thông tin chi tiết, so sánh hoặc giải thích, ta đặt các thành phần này vào cùng một cụm danh từ. Cấu trúc cơ bản: [tính từ / cụm giới từ / mệnh đề quan hệ] + head noun (hoặc head noun + [cụm giới từ / mệnh đề quan hệ]). Trong văn viết, các thành phần bổ nghĩa thường được ngăn cách bằng dấu phẩy, dấu gạch ngang hoặc dấu ngoặc để tránh gây rối cho người đọc.",
     "rule_en": "Use a complex noun phrase when a noun is expanded with modifiers such as adjectives, prepositional phrases, or relative clauses.",
-    "common_error": "❌ The buying and selling of goods and services is important.  →  ✅ The buying and selling of goods and services are important.",
+    "common_error": "❌ The buying and selling of goods and services are important.  →  ✅ The buying and selling of goods and services is important. (cụm danh động từ làm chủ ngữ luôn chia động từ số ít)",
     "in_context": [
       "International trade — the buying and selling of goods and services between countries — is one of the driving forces of the global economy.",
       "The laws of supply and demand play a central role in shaping trade patterns.",

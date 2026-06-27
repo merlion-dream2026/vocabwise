@@ -221,15 +221,15 @@ Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (th
   - ❌ The former was expensive, and the latter is cheap. (only one item) → ✅ The former (the first model) was expensive, and the latter (the second model) is cheap.
 
 ### Lỗi thường gặp
-❌ *So does she* → ✅ *So does she* (when the original clause is affirmative)  ❌ *Neither do I* → ✅ *Neither do I* (when the original clause is negative)
+❌ She loves sushi. *Neither does she.* → ✅ She loves sushi. *So does she.* (dùng "so" khi câu trước là khẳng định, "neither" chỉ dùng với câu phủ định)
 
 ### Trong bài đọc
-- EN: Elite performers distinguish themselves not only through raw talent but through extraordinary endurance, rigorous discipline, and the psychology of winning under pressure. So do I.
-  VI: Các vận động viên ưu tú không chỉ phân biệt mình qua tài năng thuần túy mà còn qua sức bền phi thường, kỷ luật nghiêm ngặt và tâm lý chiến thắng dưới áp lực. Tôi cũng vậy.
-- EN: Sport also functions as a powerful spectacle — a form of public entertainment that captivates billions of fans worldwide. So does it.
-  VI: Thể thao cũng đóng vai trò như một màn trình diễn mạnh mẽ — một hình thức giải trí công cộng thu hút hàng tỷ người hâm mộ trên toàn thế giới. Nó cũng vậy.
-- EN: Doping — the use of banned substances to enhance physical capacity — remains a persistent threat to sporting integrity. The former has been condemned repeatedly.
-  VI: Doping — việc sử dụng các chất cấm để tăng cường năng lực thể chất — vẫn là mối đe dọa dai dẳng đối với tính liêm chính của thể thao. Cái trước đã bị lên án nhiều lần.
+- EN: Elite performers distinguish themselves not only through raw talent but through extraordinary endurance, rigorous discipline, and the psychology of winning under pressure. So does a chess grandmaster.
+  VI: Các vận động viên ưu tú không chỉ phân biệt mình qua tài năng thuần túy mà còn qua sức bền phi thường, kỷ luật nghiêm ngặt và tâm lý chiến thắng dưới áp lực. Một kỳ thủ cờ vua đại kiện tướng cũng vậy.
+- EN: The coach has never permitted shortcuts in training. Neither have the senior athletes.
+  VI: Huấn luyện viên chưa bao giờ cho phép đường tắt trong tập luyện. Các vận động viên kỳ cựu cũng vậy.
+- EN: Doping — the use of banned substances to enhance performance — and match-fixing remain twin threats to sporting integrity. The former has been condemned more widely; the latter is harder to detect.
+  VI: Doping — việc sử dụng các chất cấm để tăng cường thành tích — và dàn xếp tỉ số vẫn là hai mối đe dọa song song đối với tính liêm chính của thể thao. Cái trước bị lên án rộng rãi hơn; cái sau khó phát hiện hơn.
 
 <!-- /topic -->
 
@@ -483,8 +483,9 @@ Bị động phi nhân xưng phức tạp là cấu trúc dùng để đưa ra n
   - ❌ It is that widely recognised → ✅ It is widely recognised that...
 2. It là chủ ngữ giả, không thể thay bằng một danh từ thực; câu không thể đảo vị trí để đưa that‑clause lên đầu.
   - ❌ That morbidity rates are higher is widely recognised → ✅ It is widely recognised that morbidity rates are higher.
-3. Cấu trúc này mang tính trang trọng; trong giao tiếp không chính thức có thể dùng “people recognise that” hoặc “it’s known that”.
-  - ✅ It is widely recognised that... (formal) → ❌ It’s known that... (informal)
+3. Cấu trúc này mang tính trang trọng; trong giao tiếp không chính thức có thể dùng “people recognise that” hoặc “it’s widely known that”.
+  - ✅ It is widely recognised that... (formal)
+  - ✅ It’s widely known that... (informal — cũng đúng, chỉ khác register)
 4. Trong văn viết học thuật, từ “that” thường không được lược bỏ; nếu bỏ, câu sẽ mất tính trang trọng và có thể gây hiểu lầm.
   - ❌ It is widely recognised … morbidity rates are higher → ✅ It is widely recognised that morbidity rates are higher.
 
@@ -562,7 +563,7 @@ Mệnh đề phụ chỉ điều kiện (provided that, as long as, unless, on c
   - ❌ I will help you, provided that you will ask → ✅ I will help you, provided that you ask.
 
 ### Lỗi thường gặp
-❌ *Unless* you study hard, you will fail.  →  ✅ *Unless* you study hard, you will not succeed.
+❌ *Unless* you *don't* study hard, you will fail.  →  ✅ *Unless* you study hard, you will fail. ("unless" đã mang nghĩa phủ định — không thêm "not/don't" sau nó)
 
 ### Trong bài đọc
 - EN: The human brain is, above all, a pattern‑seeking machine, provided that it receives regular stimulation.
@@ -749,7 +750,7 @@ Các liên từ học thuật cao cấp (Moreover, Nevertheless, Consequently, N
   - ✅ Had the committee approved the proposal, the project would start next month.
 3. Khi dùng ‘should’ để đảo ngữ, câu mang nghĩa đề nghị lịch sự hoặc điều kiện trong tương lai, khác với ‘if’ thường mang tính giả định.
   - ✅ Should you need assistance, call the desk.
-  - ❌ If should you need assistance → ❌ Should you need assistance, call the desk.
+  - ❌ If should you need assistance → ✅ Should you need assistance, call the desk. (bỏ "if" khi dùng đảo ngữ)
 4. Sau ‘had’, động từ phải ở dạng quá khứ hoàn thành; nếu dùng dạng đơn giản sẽ gây lỗi ngữ pháp.
   - ❌ Had the scientists discovered the virus, they will… → ✅ Had the scientists discovered the virus, they would have…
 
@@ -784,7 +785,7 @@ Mệnh đề quan hệ không xác định (non‑defining relative clause) dùn
 1. Mệnh đề không xác định luôn phải được đặt sau danh từ mà nó bổ sung và được bao quanh bởi dấu phẩy.
   - ❌ The bridge which was built in 1990 is famous → ✅ The bridge, which was built in 1990, is famous
 2. Trong mệnh đề không xác định không được dùng ‘that’; chỉ dùng ‘who’, ‘which’, ‘whose’, ‘where’, ‘when’.
-  - ❌ The city that we visited is beautiful → ✅ The city, which we visited, is beautiful
+  - ❌ The city, that we visited, is beautiful → ✅ The city, which we visited, is beautiful
 3. Rút gọn thành V‑ing chỉ được dùng khi đại từ quan hệ là chủ ngữ của mệnh đề và có nghĩa chủ động; nếu là tân ngữ hoặc vị trí của giới từ, không thể rút gọn.
   - ❌ The people who we met were friendly → ✅ The people we met were friendly (object, no reduction) ; ✅ The people meeting us were friendly (active reduction, different meaning)
 4. Rút gọn thành V‑en (bị động) dùng khi đại từ quan hệ là tân ngữ của động từ và muốn nhấn mạnh trạng thái bị động.
@@ -829,7 +830,7 @@ Câu bị động được dùng để nhấn mạnh hành động hoặc khi ng
   - ❌ The decision will complete → ✅ The decision will have been completed
 4. Khi dùng động từ khiếm khuyết trong dạng hoàn thành bị động, cấu trúc là ‘modal + have been + past participle’; nó biểu thị khả năng, dự đoán hoặc nghĩa vụ trong quá khứ.
   - ❌ The results might misinterpret → ✅ The results might have been misinterpreted
-  - ❌ He must finish the report → ✅ He must have been finished the report (formal contexts)
+  - ❌ The report must has been submitted → ✅ The report must have been submitted (modal + have been + V3)
 
 ### Lỗi thường gặp
 ❌ The results is being published tomorrow. → ✅ The results are being published tomorrow.
@@ -1023,7 +1024,8 @@ Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đ
 3. Đảo mệnh đề phụ (because, although, if…) lên đầu câu tạo liên kết logic với câu chính.
   - ✅ Because the data were flawed, the study was rejected.
 4. Đảo ngữ mang tính trang trọng; trong giao tiếp thân mật nên dùng ít hoặc dùng các cấu trúc đơn giản hơn.
-  - ✅ In my opinion, we should act now. (formal) → ❌ I think we should act now. (informal)
+  - ✅ In my opinion, we should act now. (formal/written)
+  - ✅ I think we should act now. (informal/spoken — cũng đúng, chỉ khác register)
 
 ### Lỗi thường gặp
 ❌ In most societies deep inequality is sustained by systemic barriers.  →  ✅ In most societies, deep inequality is sustained by systemic barriers.
@@ -1330,15 +1332,15 @@ Mệnh đề quan hệ phức tạp (complex relative clause) dùng các đại 
 
 ### Lưu ý
 1. Dùng dấu phẩy khi đồng vị ngữ cung cấp thông tin phụ, không thay đổi nghĩa cơ bản của câu; dùng dấu gạch ngang để nhấn mạnh hoặc giải thích thêm.
-  - ❌ The CEO, a former teacher, announced the new policy → ✅ The CEO, a former teacher, announced the new policy.
+  - ❌ The CEO a former teacher announced the new policy → ✅ The CEO, a former teacher, announced the new policy. (cần dấu phẩy hai bên đồng vị ngữ)
   - ✅ The CEO — a former teacher — announced the new policy.
 2. Đồng vị ngữ phải đứng ngay sau danh từ mà nó bổ nghĩa; nếu đặt xa hơn, câu sẽ mất tính liên kết và gây hiểu lầm.
   - ❌ The project, which was delayed, the new software, finally launched → ✅ The project — the new software — finally launched.
 3. Trong ngữ cảnh trang trọng, đồng vị ngữ thường dùng để cung cấp thông tin chuyên môn; trong giao tiếp thông thường người học thường thay bằng "that is" hoặc "i.e.".
   - ✅ The treaty, an agreement between nations, was signed yesterday.
   - ✅ The treaty, i.e., an agreement between nations, was signed yesterday.
-4. Đồng vị ngữ không được là một mệnh đề động từ độc lập; nếu muốn dùng mệnh đề, phải chuyển thành danh từ hoặc cụm danh từ.
-  - ❌ The manager, who leads the team, decided to resign → ✅ The manager — the team leader — decided to resign.
+4. Đồng vị ngữ không được tạo ra chủ ngữ kép; nếu dùng apposition, không thêm đại từ lặp lại chủ ngữ.
+  - ❌ The manager, the team leader, they decided to resign → ✅ The manager, the team leader, decided to resign. (bỏ "they" — đã có chủ ngữ "the manager")
 
 ### Lỗi thường gặp
 ❌ The concept of cognition which refers to mental processes is complex.  →  ✅ The concept of cognition, which refers to mental processes, is complex.
@@ -1380,7 +1382,7 @@ Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sán
   - ❌ not either...or → ✅ either...or (positive) / neither...nor (negative)
 
 ### Lỗi thường gặp
-❌ The program improves not only students' skills but also their motivation and confidence.  →  ✅ The program improves not only students' skills but also their motivation.
+❌ The program improves not only students' skills but also motivating them.  →  ✅ The program improves not only students' skills but also their motivation. (song song: noun phrase + noun phrase, không trộn noun với gerund)
 
 ### Trong bài đọc
 - EN: Effective scaffolding enables educators to foster critical literacy, equipping students not only to read but also to interrogate the assumptions embedded in texts and media.
@@ -1426,10 +1428,10 @@ Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng 
 ### Trong bài đọc
 - EN: The rise of the avant‑garde marked a decisive rupture with established tradition, even though many critics clung to conventional aesthetics.
   VI: Sự trỗi dậy của tiền phong đã đánh dấu một bước đột phá quyết định so với truyền thống đã được thiết lập, mặc dù nhiều nhà phê bình vẫn bám vào thẩm mỹ truyền thống.
-- EN: Digital tools have democratized creation, however, the sheer volume of work can overwhelm curators.
-  VI: Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo, tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.
-- EN: Artists often seek patronage, for all that the system is biased, they still produce groundbreaking work.
-  VI: Các nghệ sĩ thường tìm kiếm sự bảo trợ, mặc dù hệ thống có tính thiên vị, họ vẫn tạo ra những tác phẩm đột phá.
+- EN: Digital tools have democratized creation; however, the sheer volume of work can overwhelm curators.
+  VI: Công cụ kỹ thuật số đã dân chủ hoá việc sáng tạo; tuy nhiên, khối lượng công việc khổng lồ có thể làm cho các nhà bảo tồn cảm thấy quá tải.
+- EN: For all that the system is biased, artists still produce groundbreaking work.
+  VI: Mặc dù hệ thống có tính thiên vị, các nghệ sĩ vẫn tạo ra những tác phẩm đột phá.
 
 <!-- /topic -->
 
@@ -1495,7 +1497,7 @@ Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh �
   - ✅ Acknowledging the difficulty, they continued the project.
 
 ### Lỗi thường gặp
-❌ *Because* the policy was unpopular, the government changed it → ✅ *Contrasting* the policy's popularity, the government changed it
+❌ Walking down the street, the lights were bright. → ✅ Walking down the street, I noticed the lights were bright. (chủ ngữ của mệnh đề phân từ phải khớp với chủ ngữ câu chính — "the lights" không thể walk)
 
 ### Trong bài đọc
 - EN: Yet in the modern era, the rise of secularism has fundamentally altered the relationship between religion and public life, contrasting with its former public prominence.
@@ -1524,13 +1526,14 @@ Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh �
 Cấu trúc It + be + tính từ + to‑infinitive dùng để nhấn mạnh tính chất (crucial, necessary, essential…) của một hành động, với ‘it’ làm chủ ngữ giả. Khi muốn tập trung vào tính chất đó hơn là hành động, ta dùng cấu trúc này; nó thường xuất hiện trong văn viết trang trọng. Nếu muốn nhấn mạnh danh từ trừu tượng, ta có thể dùng danh danh hoá (the + adjective + -ness) như “the necessity of …”. Sự khác nhau là: infinitive nhấn mạnh hành động cần thực hiện, còn danh danh hoá nhấn mạnh tính chất hoặc mức độ của một khái niệm.
 
 ### Lưu ý
-1. Cấu trúc này luôn dùng ‘to + verb’ sau tính từ; không thể thay bằng ‘that + clause’ trừ khi dùng dạng subjunctive.
-  - ❌ It is crucial that we construct a proof → ✅ It is crucial to construct a proof
+1. Cấu trúc này dùng ‘to + verb’ sau tính từ; khi dùng ‘that + clause’, động từ trong mệnh đề phụ ở subjunctive (bare infinitive, không thêm –s).
+  - ❌ It is crucial that we constructs the proof → ✅ It is crucial that we construct the proof (subjunctive: không thêm –s)
+  - ✅ It is crucial to construct a rigorous proof. (cả hai dạng đều đúng)
 2. Thường xuất hiện trong ngữ cảnh học thuật, báo cáo, hoặc văn bản trang trọng; không phù hợp với giao tiếp thân mật.
   - ✅ It is essential to question accepted theorems.
-3. Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) thay vì infinitive.
-  - ✅ The necessity of accepting axioms is evident.
-  - ❌ It is necessary to accept axioms → ✅ The necessity of accepting axioms
+3. Khi muốn nhấn mạnh tính chất như một danh từ, dùng danh danh hoá (the + adjective + -ness) để tăng tính học thuật.
+  - ✅ It is necessary to accept axioms. (nhấn mạnh hành động — đúng)
+  - ✅ The necessity of accepting axioms is evident. (nominalization — trang trọng hơn, cũng đúng)
 4. Lưu ý không tách câu: tính từ và infinitive phải đứng liền nhau; không chèn trạng từ giữa chúng.
   - ❌ It is crucial really to construct a proof → ✅ It is crucial to construct a proof
 
@@ -1571,8 +1574,9 @@ Thuật ngữ ngôn ngữ học trong ngữ pháp là các danh từ dùng để
   - ✅ The clause "She sings" contains a subject and a verb.
 3. Thuật ngữ ngôn ngữ học thường dùng trong văn viết học thuật; tránh dùng trong giao tiếp thân mật.
   - ✅ In linguistic analysis, morphology examines word formation.
-4. Đừng nhầm lẫn "syntax" (cấu trúc ngữ pháp tổng thể) với "sentence structure" (cấu trúc câu cụ thể).
-  - ❌ The syntax of the sentence is simple. → ✅ The sentence has a simple syntax.
+4. Đừng nhầm lẫn "syntax" (hệ thống ngữ pháp trừu tượng) với "grammar" (ngữ pháp chung); cả hai đều có thể dùng đúng ngữ cảnh.
+  - ✅ The syntax of the sentence is simple. (đúng — "syntax" như danh từ đếm được)
+  - ❌ Syntax of sentences are simple. → ✅ The syntax of sentences is simple. (subject-verb agreement với "syntax" số ít)
 
 ### Lỗi thường gặp
 ❌ A phrase is a complete sentence.  →  ✅ A phrase is not a complete sentence.
@@ -1610,8 +1614,8 @@ Thể bị động mô tả một quá trình hoặc cách một hành động �
   - ✅ The data were analyzed using SPSS.
 3. Trong mô tả quy trình, nếu muốn nhấn mạnh tính động, có thể dùng ‘get‑passive’, nhưng trong văn viết trang trọng nên dùng ‘be‑passive’.
   - ❌ The results got published → ✅ The results were published.
-4. Tránh dùng thể bị động với động từ trạng thái (be, seem, have) vì chúng không diễn tả hành động thực tế.
-  - ❌ The problem is solved → ✅ The problem was solved.
+4. Tránh dùng thể bị động với động từ trạng thái thuần túy như "know", "contain"; dùng chủ động tự nhiên hơn.
+  - ❌ The reason is known by everyone → ✅ Everyone knows the reason. (chủ động tự nhiên hơn với "know")
 
 ### Lỗi thường gặp
 ❌ The experiment conducted by the researchers.  →  ✅ The experiment was conducted by the researchers.
@@ -1716,8 +1720,9 @@ Cấu trúc hùng biện là các biện pháp tu từ dùng để nhấn mạnh
 Các động từ truyền đạt nâng cao (allege, imply, infer, concede, refute) được dùng để tái hiện quan điểm, lập luận hoặc bằng chứng của người khác trong văn viết trang trọng. Chúng thường đi kèm với một mệnh đề phụ (that‑clause) hoặc với cấu trúc động từ nguyên mẫu (verb + to‑infinitive). Khi dùng, cần chú ý nghĩa riêng của mỗi động từ: ‘allege’ mang hàm ý chưa có bằng chứng, ‘imply’ gợi ý một cách ngầm, ‘infer’ là suy luận của người nghe, ‘concede’ thừa nhận một phần, và ‘refute’ bác bỏ một khẳng định. Các động từ này xuất hiện trong ngữ cảnh học thuật, báo chí hoặc tranh luận, không phù hợp với giao tiếp thân mật.
 
 ### Lưu ý
-1. Động từ thường đi sau là mệnh đề that‑clause; từ ‘that’ có thể bỏ trong văn viết trang trọng.
-  - ❌ He alleged that he was innocent → ✅ He alleged he was innocent
+1. Động từ thường đi sau là mệnh đề that‑clause; từ ‘that’ thường được giữ trong văn viết trang trọng.
+  - ✅ He alleged that he was innocent. (formal — giữ "that")
+  - ✅ He alleged he was innocent. (informal — bỏ "that" chấp nhận được)
 2. ‘Imply’ mô tả ý định của người nói, còn ‘infer’ mô tả kết luận của người nghe; không hoán đổi vị trí.
   - ❌ The article inferred that the policy was successful → ✅ The article implied that the policy might be successful
   - ✅ Listeners inferred the speaker's attitude from gestures
@@ -1797,7 +1802,8 @@ Phương tiện liên kết văn bản (cohesive devices) là các từ hoặc c
 2. Thay thế bằng 'do so', 'so' hoặc 'one' giúp tránh lặp từ, nhưng phải đồng nhất về số và loại từ.
   - ❌ The committee approved the plan, and the board did it too → ✅ The committee approved the plan, and the board did so too
 3. Lược bỏ (ellipsis) cho phép bỏ qua các thành phần đã được nêu trước, nhưng chỉ khi nghĩa không bị mơ hồ.
-  - ❌ She likes coffee, and I do not → ✅ She likes coffee, and I do not (ellipsis of 'like coffee')
+  - ✅ She likes coffee, and I do not. (ellipsis of 'like coffee' — rõ ràng, đúng)
+  - ❌ She praised him, and Peter. (mơ hồ — Peter khen ai, hay cô ấy khen Peter?) → ✅ She praised him, and Peter did too.
 4. Liên từ phụ thuộc (subordinating conjunction) thường đứng đầu mệnh đề phụ, còn liên từ đồng cấp (coordinating) nối các mệnh đề độc lập; chọn đúng loại để phản ánh quan hệ logic.
   - ❌ He was tired, and he went to bed early → ✅ He was tired, so he went to bed early
 
@@ -1911,8 +1917,10 @@ Trong văn bản tự sự, quá khứ hoàn thành (past perfect) dùng để m
 Động từ nguyên thể bị động là cấu trúc infinitive dạng "to be + past participle" (hoặc "to have been + past participle" cho thời hoàn thành). Nó được dùng sau các động từ biểu thị nhận thức, quan điểm, hoặc mô tả hiện tượng như appear, seem, be thought, be considered, v.v., để diễn tả một trạng thái được cho là đúng nhưng chưa chắc chắn. Cấu trúc cơ bản: Chủ ngữ + động từ (appear, seem, be thought, …) + to be + V3 (hoặc to have been + V3). Khi muốn nhấn mạnh thời điểm quá khứ, dùng dạng hoàn thành: appear to have been, seem to have been, ….
 
 ### Lưu ý
-1. Động từ nguyên thể bị động luôn đứng sau các động từ cảm nhận, nhận định; không thể đặt trực tiếp sau một động từ thường mà không có giới từ "to be".
-  - ❌ She appears angry → ✅ She appears to be angry
+1. Sau "appear/seem", có thể dùng tính từ trực tiếp (appear + adj) hoặc "to be + adj/past participle" (appear to be + adj/V3); hai dạng đều đúng.
+  - ✅ She appears angry. (appear + adjective — đúng)
+  - ✅ She appears to be angry. (appear to be + adjective — cũng đúng, trang trọng hơn)
+  - ❌ She appears that she is angry → ✅ It appears that she is angry. (dùng "it" làm chủ ngữ khi có that-clause)
 2. Trong văn viết trang trọng, dạng này thường được dùng; trong giao tiếp thông thường người nói có thể dùng "looks like" hoặc "seems like" thay thế.
   - ❌ It looks like he is late → ✅ He appears to be late
 3. Người học thường nhầm lẫn với dạng chủ động và bỏ "to be"; khi muốn diễn tả trạng thái bị động, phải có "to be" trước quá khứ phân từ.
@@ -1991,9 +1999,11 @@ Thức giả định (subjunctive) được dùng sau các cấu trúc diễn t�
 1. Cấu trúc của động từ khuyết thiếu hoàn thành là: modal + have + past participle; trong câu bị động dùng “modal + have + been + past participle”.
   - ❌ He should been warned → ✅ He should have been warned
 2. ‘Should have + V3’ diễn tả một hành động được cho là nên xảy ra trong quá khứ nhưng không xảy ra, thường dùng để chỉ trách móc hoặc nhận xét tiêu cực.
-  - ❌ They should have arrived yesterday → ✅ They should have arrived yesterday (but they didn’t)
+  - ❌ They should of arrived yesterday → ✅ They should have arrived yesterday. (viết "have", không viết "of")
 3. ‘Need not have + V3’ chỉ ra rằng hành động đã được thực hiện nhưng không cần thiết; người nói muốn nhấn mạnh tính thừa thãi.
-  - ❌ You need not have bought the tickets → ✅ You need not have bought the tickets (they were unnecessary)
+  - ✅ You need not have bought the tickets. (you already bought them — but it was unnecessary)
+  - ✅ You didn’t need to buy the tickets. (you may or may not have bought them — just stating it wasn’t required)
+  (Hai cấu trúc có nghĩa hơi khác nhau; ‘need not have’ nhấn mạnh hành động ĐÃ xảy ra mà không cần thiết)
 4. Trong giao tiếp không trang trọng người nói thường rút gọn thành “should've” hoặc “needn't have”; tránh viết “should of” vì sai chính tả.
   - ❌ She should of called → ✅ She should have called
 
@@ -2042,8 +2052,8 @@ Cấu trúc ‘is set to’, ‘is due to’, và ‘is predicted to’ được
 ### Trong bài đọc
 - EN: Modern medicine is set to rely increasingly on AI‑driven diagnostics as ethical frameworks evolve.
   VI: Y học hiện đại sẽ ngày càng dựa vào chẩn đoán do AI điều khiển khi các khung đạo đức phát triển.
-- EN: The fair allocation of organs is due to transparent criteria, without which decisions risk becoming arbitrary.
-  VI: Việc phân bổ cơ quan một cách công bằng sẽ dựa vào các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.
+- EN: The fair allocation of organs is due to follow transparent criteria, without which decisions risk becoming arbitrary.
+  VI: Việc phân bổ cơ quan một cách công bằng dự kiến sẽ tuân theo các tiêu chí minh bạch; nếu không có chúng, các quyết định có nguy cơ trở nên tùy tiện.
 - EN: Bioethicists are predicted to warn against paternalism as new digital health records emerge.
   VI: Các nhà sinh học đạo đức được dự đoán sẽ cảnh báo về chủ nghĩa bảo trợ khi hồ sơ sức khỏe kỹ thuật số mới xuất hiện.
 
@@ -2181,7 +2191,9 @@ Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) đ
   - ❌ Were he try → ✅ Were he to try
   - ❌ Should we ignore → ✅ Should we ignore
 2. Câu điều kiện đảo ngữ mang tính trang trọng, thích hợp cho văn viết, báo chí; trong giao tiếp thân mật nên dùng dạng ‘if’.
-  - ❌ If you wish, you should act → ✅ Should you wish, you ought to act
+  - ✅ Should you wish to act, contact us. (inversion — formal)
+  - ✅ If you wish to act, contact us. (standard — also correct)
+  - ❌ If should you wish to act → ✅ Should you wish to act. (không dùng "if" khi đã dùng inversion)
 3. Câu điều kiện hỗn hợp cho phép thời gian của mệnh đề điều kiện và mệnh đề kết quả không đồng nhất, ví dụ: điều kiện quá khứ → kết quả hiện tại.
   - ❌ If he studied, he would be a doctor now → ✅ If he had studied, he would be a doctor now
 4. Khi dùng ‘had’ trong đảo ngữ, cần dùng dạng quá khứ hoàn thành (had + past participle) và kết quả thường dùng ‘would have + past participle’.
@@ -2218,14 +2230,14 @@ Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) đ
 1. Đảo ngữ thường đặt trạng từ, cụm danh từ hoặc phụ từ ở đầu câu, sau đó dùng trợ động từ hoặc động từ to be để đảo vị trí.
   - ❌ I never have seen that → ✅ Never have I seen that
 2. Câu chẻ thường xuất hiện trong văn viết trang trọng hoặc diễn thuyết, không phổ biến trong giao tiếp thân mật.
-  - It is the policy that needs revision. → It is the policy that needs revision.
+  - ❌ It is the policy needs revision. → ✅ It is the policy that needs revision. (it-cleft phải có "that/who" sau focused element)
 3. Phân biệt it‑cleft và wh‑cleft: it‑cleft dùng It is/was … that/who …, còn wh‑cleft dùng What … is …; cả hai đều nhấn mạnh nhưng cấu trúc khác nhau.
   - ❌ What the problem is the policy. → ✅ What the problem is is the policy.
 4. Khác với tiếng Việt, trong tiếng Anh việc đảo vị trí không chỉ dùng “đó là” mà còn yêu cầu thay đổi thứ tự từ, nên người học cần chú ý không dịch sát nghĩa.
   - ❌ That is the reason why we act. → ✅ It is the reason why we act.
 
 ### Lỗi thường gặp
-❌ *It is* the most important factor that we need to consider → ✅ *It is* the most important factor we need to consider
+❌ *It is* the policy *which* needs revision → ✅ *It is* the policy *that* needs revision. (trong it-cleft dùng "that", không dùng "which")
 
 ### Trong bài đọc
 - EN: Across the globe, climate change is reshaping ecosystems, economies, and lives.
@@ -2291,7 +2303,8 @@ Phương tiện liên kết văn bản gồm các dạng tham chiếu (đại t�
 1. Khi dùng đại từ hoặc từ chỉ định, phải chắc chắn rằng người đọc có thể xác định rõ ràng antecedent để tránh nhầm lẫn.
   - ❌ "John told Peter that he would leave." → ✅ "John told Peter that John would leave."
 2. Phép lược bỏ chỉ hợp lệ khi thành phần bị bỏ có thể được suy ra một cách rõ ràng từ ngữ cảnh trước hoặc sau.
-  - ❌ "She bought a book, and he ___ a pen." → ✅ "She bought a book, and he bought a pen."
+  - ✅ "She bought a book, and he a pen." (ellipsis of "bought" — clear from context, valid)
+  - ❌ "She praised him, and Peter." (mơ hồ — Peter khen ai, hay cô ấy khen Peter?) → ✅ "She praised him, and Peter did too."
 3. Chuỗi từ vựng tạo liên kết bằng cách lặp lại từ khóa hoặc dùng các từ đồng nghĩa, nhưng không nên lạm dụng để gây nhàm chán.
   - ✅ "The project was challenging; the difficulty required careful planning."
 4. Từ nối trong văn viết trang trọng thường dùng các liên từ như "however", "moreover", "consequently"; trong ngữ cảnh không chính thức có thể dùng "but", "so".

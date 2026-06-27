@@ -741,7 +741,7 @@
     "rule_en": "Use Past Simple for completed actions, Past Continuous for ongoing past actions, and Past Perfect for actions that happened before another past event.",
     "common_error": "❌ *She was wrote the chapter yesterday.* → ✅ *She wrote the chapter yesterday.*",
     "in_context": [
-      "Books had shaped human culture for thousands of years.",
+      "Books have shaped human culture for thousands of years.",
       "A skilled author was building a compelling storyline — a sequence of events that keeps the reader turning pages.",
       "The theme stayed with the reader long after the final chapter."
     ],
@@ -911,9 +911,10 @@
         ]
       },
       {
-        "text": "Khi một hành động ngắn hơn (Past Simple) xảy ra trong một hành động đang diễn ra (Past Continuous), ta dùng cấu trúc Past Continuous + Past Simple.",
+        "text": "Khi một hành động ngắn hơn (Past Simple) xảy ra trong một hành động đang diễn ra (Past Continuous), dùng Past Continuous cho nền và Past Simple cho hành động ngắn.",
         "examples": [
-          "❌ While I was cooking dinner, the phone rang → ✅ While I was cooking dinner, the phone rang"
+          "❌ While I cooked dinner, the phone was ringing. → ✅ While I was cooking dinner, the phone rang.",
+          "✅ She was reading when the power went out."
         ]
       },
       {

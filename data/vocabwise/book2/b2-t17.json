@@ -879,9 +879,10 @@
     },
     "usage_notes": [
       {
-        "text": "Với các cụm động từ có thể tách rời, nếu có tân ngữ, giới từ/ trạng từ có thể đứng trước hoặc sau tân ngữ.",
+        "text": "Với các cụm động từ có thể tách rời, nếu tân ngữ là DANH TỪ, giới từ/trạng từ có thể đứng trước hoặc sau tân ngữ (cả hai đều đúng); nếu tân ngữ là ĐẠI TỪ, phải đặt giữa động từ và tiểu từ.",
         "examples": [
-          "❌ She set up the experiment → ✅ She set the experiment up"
+          "✅ She set up the experiment. / She set the experiment up. (cả hai đúng với danh từ)",
+          "❌ She set up it → ✅ She set it up. (đại từ phải đặt giữa)"
         ]
       },
       {

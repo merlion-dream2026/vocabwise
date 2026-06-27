@@ -773,7 +773,7 @@
     },
     "rule_vi": "Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh từ hoặc đại từ để cung cấp thông tin thêm. Dùng \"which\" hoặc \"that\" để giới thiệu mệnh đề về người hoặc vật; \"which\" thường dùng trong mệnh đề không hạn định (có dấu phẩy), còn \"that\" dùng trong mệnh đề hạn định (không có dấu phẩy). Dùng \"where\" để chỉ địa điểm, thay cho \"in/at\" + \"which\". Dùng \"whose\" để biểu thị sở hữu, thay cho \"of which\" hoặc \"of whom\". Mệnh đề quan hệ luôn đứng sau danh từ mà nó mô tả.",
     "rule_en": "Use which/that to add information about things, where for places, and whose for possession.",
-    "common_error": "❌ The river which flows through the city is polluted.  →  ✅ The river that flows through the city is polluted.",
+    "common_error": "❌ The river, that flows through the city, is polluted.  →  ✅ The river, which flows through the city, is polluted. (mệnh đề không xác định — phải dùng \"which\", không dùng \"that\")",
     "in_context": [
       "Natural disasters are extreme events caused by natural forces that can result in widespread destruction and loss of life.",
       "The strength of an earthquake is measured by its magnitude on the Richter scale, which is used by scientists worldwide.",
@@ -928,10 +928,11 @@
     },
     "usage_notes": [
       {
-        "text": "\"which\" dùng trong mệnh đề không hạn định (có dấu phẩy), \"that\" dùng trong mệnh đề hạn định (không có dấu phẩy).",
+        "text": "Trong mệnh đề hạn định (không có dấu phẩy), cả \"which\" và \"that\" đều được chấp nhận; trong mệnh đề không hạn định (có dấu phẩy), chỉ dùng \"which\", không dùng \"that\".",
         "examples": [
-          "❌ The book which I bought is expensive → ✅ The book that I bought is expensive",
-          "✅ The car, which is red, belongs to John"
+          "✅ The book which I bought is expensive. (định nghĩa — dùng được cả \"which\" và \"that\")",
+          "✅ The book that I bought is expensive. (định nghĩa — cũng đúng)",
+          "❌ The car, that is red, belongs to John. → ✅ The car, which is red, belongs to John. (không xác định — phải dùng \"which\")"
         ]
       },
       {

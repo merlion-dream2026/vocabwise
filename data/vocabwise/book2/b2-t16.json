@@ -720,7 +720,7 @@
     "rule_en": "Use the Future Continuous for ongoing actions at a future time, and the Future Perfect for actions that will be completed before another future point.",
     "common_error": "❌ I will be launch the probe tomorrow.  →  ✅ I will be launching the probe tomorrow.",
     "in_context": [
-      "Every mission will be beginning with a powerful launch that requires years of planning.",
+      "Every mission will begin with a powerful launch that requires years of planning.",
       "Space agencies will have sent unmanned probes deep into the solar system by the end of the decade.",
       "Human spaceflight will have reached a new milestone when the first astronauts walk on the Moon in 2030."
     ],
@@ -880,9 +880,11 @@
         ]
       },
       {
-        "text": "So sánh với tương lai đơn, tương lai tiếp diễn nhấn mạnh tính liên tục của hành động, không dùng cho các hành động ngắn gọn, một lần.",
+        "text": "So sánh với tương lai đơn: \"will + V\" dùng cho sự kiện có lịch trình hoặc ngắn gọn; \"will be + V-ing\" nhấn mạnh hành động đang diễn ra tại một thời điểm tương lai.",
         "examples": [
-          "❌ The launch will start at 10:00 → ✅ The launch will be starting at 10:00"
+          "✅ The launch will start at 10:00. (sự kiện theo lịch — dùng will + V)",
+          "✅ At that moment, scientists will be monitoring the probe. (hành động đang diễn ra tại thời điểm đó)",
+          "❌ At 9 a.m. tomorrow she will exercise → ✅ At 9 a.m. tomorrow she will be exercising. (nhấn mạnh hành động đang diễn ra)"
         ]
       },
       {
@@ -892,9 +894,11 @@
         ]
       },
       {
-        "text": "Không kết hợp will have với dạng V‑ing; nếu muốn diễn tả hành động đang diễn ra ở thời điểm tương lai, dùng will be + V‑ing, không dùng will have been + V‑ing.",
+        "text": "Thì tương lai hoàn thành tiếp diễn \"will have been + V-ing\" diễn tả hành động kéo dài sẽ hoàn thành trước một thời điểm tương lai, nhấn mạnh thời gian; khác với tương lai hoàn thành đơn (will have + V3) nhấn mạnh kết quả.",
         "examples": [
-          "❌ The crew will have been walking on the Moon → ✅ The crew will be walking on the Moon"
+          "✅ By 2030, scientists will have been exploring Mars for a decade. (nhấn mạnh quá trình kéo dài)",
+          "✅ By 2030, scientists will have sent a crew to Mars. (nhấn mạnh kết quả hoàn thành)",
+          "❌ They will have been walked on the Moon → ✅ They will have been walking on the Moon (phải dùng V-ing, không phải V3)"
         ]
       }
     ],

@@ -839,9 +839,11 @@
     },
     "usage_notes": [
       {
-        "text": "Động từ nguyên thể bị động luôn đứng sau các động từ cảm nhận, nhận định; không thể đặt trực tiếp sau một động từ thường mà không có giới từ \"to be\".",
+        "text": "Sau \"appear/seem\", có thể dùng tính từ trực tiếp (appear + adj) hoặc \"to be + adj/past participle\" (appear to be + adj/V3); hai dạng đều đúng.",
         "examples": [
-          "❌ She appears angry → ✅ She appears to be angry"
+          "✅ She appears angry. (appear + adjective — đúng)",
+          "✅ She appears to be angry. (appear to be + adjective — cũng đúng, trang trọng hơn)",
+          "❌ She appears that she is angry → ✅ It appears that she is angry. (dùng \"it\" làm chủ ngữ khi có that-clause)"
         ]
       },
       {

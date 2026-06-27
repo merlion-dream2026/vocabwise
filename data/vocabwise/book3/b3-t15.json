@@ -740,7 +740,7 @@
     },
     "rule_vi": "Mệnh đề phụ chỉ điều kiện (provided that, as long as, unless, on condition that) dùng để diễn tả một điều kiện cần thiết hoặc đủ cho hành động trong mệnh đề chính. Các liên từ này giới thiệu một mệnh đề phụ, thường ở thì hiện tại đơn để nói về tương lai, và không dùng will trong mệnh đề phụ. Khi mệnh đề phụ đứng sau mệnh đề chính, thường đặt dấu phẩy trước; khi đứng trước, không cần dấu phẩy. \"Provided that\" và \"on condition that\" mang tính trang trọng, \"as long as\" nhấn mạnh đủ điều kiện, còn \"unless\" biểu thị điều kiện phủ định (nếu không).",
     "rule_en": "Use conditional adverbial clauses to state a condition that must be met for the main clause to happen.",
-    "common_error": "❌ *Unless* you study hard, you will fail.  →  ✅ *Unless* you study hard, you will not succeed.",
+    "common_error": "❌ *Unless* you *don't* study hard, you will fail.  →  ✅ *Unless* you study hard, you will fail. (\"unless\" đã mang nghĩa phủ định — không thêm \"not/don't\" sau nó)",
     "in_context": [
       "The human brain is, above all, a pattern‑seeking machine, provided that it receives regular stimulation.",
       "Breaking destructive habits is possible, as long as you replace the cue with a healthier routine.",

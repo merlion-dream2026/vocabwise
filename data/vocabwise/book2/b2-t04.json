@@ -852,9 +852,9 @@
     },
     "usage_notes": [
       {
-        "text": "Động từ khuyết thiếu luôn đứng trước ‘be’; không được chèn bất kỳ từ nào khác giữa chúng.",
+        "text": "Động từ khuyết thiếu luôn đứng trước ‘be’; không được bỏ ‘be’ trong cấu trúc bị động.",
         "examples": [
-          "❌ The suspect may be arrested → ✅ The suspect may be arrested"
+          "❌ The suspect may arrested → ✅ The suspect may be arrested"
         ]
       },
       {

@@ -771,7 +771,7 @@
     "rule_en": "Use this structure to report what someone said, told, claimed or argued.",
     "common_error": "❌ He said that he will go tomorrow.  →  ✅ He said that he would go tomorrow.",
     "in_context": [
-      "The prime minister said that the new tax policy will fund public services.",
+      "The prime minister said that the new tax policy would fund public services.",
       "Opposition leaders argued that the current constitution needs reform.",
       "The committee told the citizens that the election results were final."
     ],
@@ -921,9 +921,11 @@
     },
     "usage_notes": [
       {
-        "text": "Trong câu gián tiếp, từ 'that' thường được dùng nhưng có thể bỏ khi mệnh đề phụ bắt đầu bằng động từ.",
+        "text": "Từ 'that' sau động từ truyền đạt có thể bỏ khi mệnh đề phụ ngắn và rõ nghĩa; nhưng phải chú ý backshift (chuyển thì) cho đúng.",
         "examples": [
-          "❌ He said that he is tired → ✅ He said he is tired"
+          "✅ He said that he was tired. (có 'that', đúng)",
+          "✅ He said he was tired. ('that' bỏ đi, vẫn đúng)",
+          "❌ He said that he is tired. → ✅ He said that he was tired. (cần backshift 'is' → 'was')"
         ]
       },
       {

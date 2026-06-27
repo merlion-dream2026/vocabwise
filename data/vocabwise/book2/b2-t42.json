@@ -722,10 +722,10 @@
     "level": "B1",
     "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
     "form": {
-      "positive": "Subject + agree to + infinitive\nSubject + suggest + V-ing\nSubject + expect to + infinitive",
-      "negative": "Subject + do/does not + agree to + infinitive\nSubject + do/does not + suggest + V-ing\nSubject + do/does not + expect to + infinitive",
-      "question": "Do/Does + Subject + agree to + infinitive?\nDo/Does + Subject + suggest + V-ing?\nDo/Does + Subject + expect to + infinitive?",
-      "variant": "Subject + agree that + clause\nSubject + suggest that + clause"
+      "positive": "Subject + agree to + infinitive",
+      "negative": "Subject + do/does not + agree to + infinitive",
+      "question": "Do/Does + Subject + agree to + infinitive?",
+      "variant": "Subject + agree that + clause"
     },
     "rule_vi": "Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi động từ yêu cầu một dạng V‑ing hoặc to‑inf khác nhau. agree luôn đi sau to‑inf (động từ nguyên mẫu) để diễn tả việc đồng ý làm một hành động; suggest chỉ chấp nhận V‑ing (gerund) để đưa ra đề xuất; expect cũng dùng to‑inf để nói về kỳ vọng hoặc dự đoán trong tương lai. Lưu ý rằng chủ ngữ của V‑ing hoặc to‑inf thường là cùng một người với chủ ngữ của động từ chính. Các cấu trúc này thường xuất hiện trong văn viết và nói trang trọng.",
     "rule_en": "Use 'agree to' + infinitive, 'suggest' + gerund, and 'expect to' + infinitive.",
@@ -887,10 +887,11 @@
         ]
       },
       {
-        "text": "expect dùng to‑inf để diễn tả kỳ vọng về một hành động trong tương lai; chủ ngữ của to‑inf trùng với chủ ngữ của expect.",
+        "text": "expect dùng to‑inf để diễn tả kỳ vọng về một hành động trong tương lai; cũng có thể dùng \"expect + object + to-inf\" khi kỳ vọng người khác làm gì.",
         "examples": [
           "❌ expect receiving help → ✅ expect to receive help",
-          "❌ She expects him to arrive → ✅ She expects to arrive"
+          "✅ She expects to arrive soon. (chủ ngữ = người kỳ vọng)",
+          "✅ She expects him to arrive soon. (expect + object + to-inf — cũng đúng)"
         ]
       },
       {

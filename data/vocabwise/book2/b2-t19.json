@@ -704,7 +704,7 @@
     },
     "rule_vi": "Lượng từ (all, most, some, few, no) được đặt trước danh từ để chỉ mức độ hoặc số lượng. Chúng thay thế mạo từ và đi kèm với danh từ đếm được (số nhiều) hoặc không đếm được tùy theo loại lượng từ. \"All\" và \"most\" diễn tả toàn bộ hoặc phần lớn, \"some\" dùng trong câu khẳng định, câu hỏi, lời đề nghị; \"few\" và \"no\" mang nghĩa tiêu cực, trong đó \"few\" ám chỉ ít nhưng vẫn có, còn \"no\" chỉ không có gì. Cấu trúc cơ bản: lượng từ + danh từ (có thể có \"of\" + danh từ xác định).",
     "rule_en": "Use quantifiers (all, most, some, few, no) before a noun to express degree or amount.",
-    "common_error": "❌ She have some friends.  →  ✅ She has some friends.",
+    "common_error": "❌ She doesn't have some money.  →  ✅ She doesn't have any money. ('some' không dùng trong câu phủ định; dùng 'any')",
     "in_context": [
       "The coral reef is home to a quarter of all marine life.",
       "Most of the freshwater stored underground is found in aquifers.",
@@ -850,10 +850,11 @@
     },
     "usage_notes": [
       {
-        "text": "Lượng từ đứng ngay trước danh từ, thay thế mạo từ; khi có \"of\" thì theo sau danh từ xác định.",
+        "text": "Lượng từ có thể đứng trực tiếp trước danh từ hoặc dùng \"of + the + danh từ\" để chỉ nhóm cụ thể; cả hai đều đúng.",
         "examples": [
-          "❌ all the children → ✅ all children",
-          "✅ most of the students passed"
+          "✅ All children need love. (nói chung — không dùng 'the')",
+          "✅ All the children passed the test. (nhóm cụ thể — dùng 'the')",
+          "✅ Most of the students passed. (chỉ nhóm đã biết — dùng 'of the')"
         ]
       },
       {

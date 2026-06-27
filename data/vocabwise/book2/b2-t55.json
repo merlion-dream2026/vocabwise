@@ -912,9 +912,10 @@
     },
     "usage_notes": [
       {
-        "text": "Mệnh đề *that* thường có thể bỏ qua khi nội dung ngắn gọn, nhưng khi câu dài hoặc cần nhấn mạnh thì nên giữ lại.",
+        "text": "Từ 'that' sau động từ bị động có thể bỏ khi nội dung ngắn gọn; nhưng trong văn viết trang trọng nên giữ lại để câu rõ ràng hơn.",
         "examples": [
-          "❌ It is believed that the method is simple → ✅ It is believed the method is simple"
+          "✅ It is believed that the method is simple. (trang trọng, khuyến nghị)",
+          "✅ It is believed the method is simple. ('that' bỏ đi, vẫn đúng)"
         ]
       },
       {

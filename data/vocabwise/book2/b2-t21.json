@@ -748,7 +748,7 @@
     "common_error": "❌ If I will have more money, I would travel.  →  ✅ If I have more money, I will travel. (or If I had more money, I would travel.)",
     "in_context": [
       "If you understand your income, you can create a budget.",
-      "If you saved at least 10% of your earnings, you will build a safety net.",
+      "If you save at least 10% of your earnings, you will build a safety net.",
       "If you borrowed money without a plan, you would struggle to repay it."
     ],
     "ex1_mcq": {
@@ -940,7 +940,7 @@
     ],
     "in_context_vi": [
       "Nếu bạn hiểu thu nhập của mình, bạn có thể lập một ngân sách.",
-      "Nếu bạn tiết kiệm ít nhất 10% thu nhập, bạn sẽ xây dựng một quỹ dự phòng.",
+      "Nếu bạn tiết kiệm ít nhất 10% thu nhập, bạn sẽ xây dựng được một quỹ dự phòng.",
       "Nếu bạn vay tiền mà không có kế hoạch, bạn sẽ gặp khó khăn trong việc trả nợ."
     ]
   }

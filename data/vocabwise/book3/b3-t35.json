@@ -841,7 +841,7 @@
       {
         "text": "Dùng dấu phẩy khi đồng vị ngữ cung cấp thông tin phụ, không thay đổi nghĩa cơ bản của câu; dùng dấu gạch ngang để nhấn mạnh hoặc giải thích thêm.",
         "examples": [
-          "❌ The CEO, a former teacher, announced the new policy → ✅ The CEO, a former teacher, announced the new policy.",
+          "❌ The CEO a former teacher announced the new policy → ✅ The CEO, a former teacher, announced the new policy. (cần dấu phẩy hai bên đồng vị ngữ)",
           "✅ The CEO — a former teacher — announced the new policy."
         ]
       },
@@ -859,9 +859,9 @@
         ]
       },
       {
-        "text": "Đồng vị ngữ không được là một mệnh đề động từ độc lập; nếu muốn dùng mệnh đề, phải chuyển thành danh từ hoặc cụm danh từ.",
+        "text": "Đồng vị ngữ không được tạo ra chủ ngữ kép; nếu dùng apposition, không thêm đại từ lặp lại chủ ngữ.",
         "examples": [
-          "❌ The manager, who leads the team, decided to resign → ✅ The manager — the team leader — decided to resign."
+          "❌ The manager, the team leader, they decided to resign → ✅ The manager, the team leader, decided to resign. (bỏ \"they\" — đã có chủ ngữ \"the manager\")"
         ]
       }
     ],

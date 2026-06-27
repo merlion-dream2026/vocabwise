@@ -718,8 +718,8 @@
     "level": "B1",
     "source_ref": "Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University Press.",
     "form": {
-      "positive": "Subject + be + too + adjective + to + infinitive\nSubject + have + enough + noun + to + infinitive",
-      "negative": "Subject + be + not too + adjective + to + infinitive\nSubject + have + not enough + noun + to + infinitive",
+      "positive": "Subject + be + too + adjective + to + infinitive",
+      "negative": "Subject + be + not too + adjective + to + infinitive",
       "question": "Is/Are + subject + too + adjective + to + infinitive?",
       "variant": "too + adjective + for + noun + to + infinitive"
     },

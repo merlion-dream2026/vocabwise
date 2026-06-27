@@ -826,13 +826,14 @@
       {
         "text": "‘Should have + V3’ diễn tả một hành động được cho là nên xảy ra trong quá khứ nhưng không xảy ra, thường dùng để chỉ trách móc hoặc nhận xét tiêu cực.",
         "examples": [
-          "❌ They should have arrived yesterday → ✅ They should have arrived yesterday (but they didn’t)"
+          "❌ They should of arrived yesterday → ✅ They should have arrived yesterday. (viết \"have\", không viết \"of\")"
         ]
       },
       {
         "text": "‘Need not have + V3’ chỉ ra rằng hành động đã được thực hiện nhưng không cần thiết; người nói muốn nhấn mạnh tính thừa thãi.",
         "examples": [
-          "❌ You need not have bought the tickets → ✅ You need not have bought the tickets (they were unnecessary)"
+          "✅ You need not have bought the tickets. (you already bought them — but it was unnecessary)",
+          "✅ You didn’t need to buy the tickets. (you may or may not have bought them — just stating it wasn’t required)"
         ]
       },
       {

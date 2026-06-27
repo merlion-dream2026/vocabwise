@@ -849,9 +849,10 @@
         ]
       },
       {
-        "text": "Đừng nhầm lẫn \"syntax\" (cấu trúc ngữ pháp tổng thể) với \"sentence structure\" (cấu trúc câu cụ thể).",
+        "text": "Đừng nhầm lẫn \"syntax\" (hệ thống ngữ pháp trừu tượng) với \"grammar\" (ngữ pháp chung); cả hai đều có thể dùng đúng ngữ cảnh.",
         "examples": [
-          "❌ The syntax of the sentence is simple. → ✅ The sentence has a simple syntax."
+          "✅ The syntax of the sentence is simple. (đúng — \"syntax\" như danh từ đếm được)",
+          "❌ Syntax of sentences are simple. → ✅ The syntax of sentences is simple. (subject-verb agreement với \"syntax\" số ít)"
         ]
       }
     ],

@@ -730,12 +730,12 @@
     "level": "C1",
     "source_ref": "Hewings, M. (2013). Advanced Grammar in Use (3rd ed.). Cambridge University Press.",
     "form": {
-      "positive": "Subject + verb + not only + Verb1 + but also + Verb2\nSubject + verb + both + Noun1 + and + Noun2\nSubject + verb + either + Option1 + or + Option2",
+      "positive": "Subject + verb + not only + Verb1 + but also + Verb2",
       "variant": "both ... and"
     },
     "rule_vi": "Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sánh hai (hoặc nhiều) yếu tố đồng thời, giúp câu cân bằng và mạch lạc. Nó thường xuất hiện dưới dạng các cặp liên từ như not only...but also, both...and, either...or. Yêu cầu các thành phần đứng sau mỗi liên từ phải có cùng dạng ngữ pháp (danh từ, động từ, tính từ, cụm danh từ, v.v.). Khi dùng, hãy đặt cặp liên từ ngay trước mỗi thành phần để duy trì tính song song.",
     "rule_en": "Use parallel structures to join two equivalent elements, ensuring grammatical balance.",
-    "common_error": "❌ The program improves not only students' skills but also their motivation and confidence.  →  ✅ The program improves not only students' skills but also their motivation.",
+    "common_error": "❌ The program improves not only students' skills but also motivating them.  →  ✅ The program improves not only students' skills but also their motivation. (song song: noun phrase + noun phrase, không trộn noun với gerund)",
     "in_context": [
       "Effective scaffolding enables educators to foster critical literacy, equipping students not only to read but also to interrogate the assumptions embedded in texts and media.",
       "Constructivism holds that learners build understanding through active engagement with their environment — a position that demands educators rethink both pedagogy and the design of the curriculum to prioritise meaning-making over rote recall.",
