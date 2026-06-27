@@ -60,7 +60,7 @@ Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cu�
     body: JSON.stringify({
       model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
-      max_tokens: 200,
+      max_tokens: modelArg === 'cerebras' ? 300 : 250,
       temperature: 0.7,
     }),
   })
