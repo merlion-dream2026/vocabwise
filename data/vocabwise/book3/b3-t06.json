@@ -723,7 +723,7 @@
         },
         {
           "id": 3,
-          "sentence": "The championship trophy is coveted by many, but _____ .",
+          "sentence": "Two awards were given — the championship trophy and the fair-play medal. _____ is recognised globally.",
           "options": [
             "neither do I",
             "so do they",
@@ -736,12 +736,12 @@
           "id": 4,
           "sentence": "Fans love the excitement of the finals, and _____ .",
           "options": [
-            "so does it",
+            "so do I",
             "instead",
             "the former",
             "neither does it"
           ],
-          "answer": "so does it"
+          "answer": "so do I"
         },
         {
           "id": 5,
@@ -762,13 +762,13 @@
         {
           "id": 1,
           "words": [
-            "do",
-            "so",
-            "I",
-            "am",
-            "ready"
+            "So",
+            "does",
+            "the",
+            "team",
+            "captain"
           ],
-          "answer": "I am ready so do"
+          "answer": "So does the team captain"
         },
         {
           "id": 2,
@@ -778,7 +778,7 @@
             "he",
             "agree"
           ],
-          "answer": "he agrees neither does"
+          "answer": "Neither does he agree"
         },
         {
           "id": 3,
@@ -820,13 +820,13 @@
         },
         {
           "id": 4,
-          "sentence": "The team lost the final match, and _____ they will try again next season.",
-          "answer": "also"
+          "sentence": "The match was intense; _____, the athletes showed great sportsmanship throughout.",
+          "answer": "however"
         },
         {
           "id": 5,
-          "sentence": "Officials introduced stricter testing, _____ the athletes welcomed the change.",
-          "answer": "instead"
+          "sentence": "Officials introduced stricter testing and _____ launched public awareness campaigns.",
+          "answer": "also"
         }
       ]
     },

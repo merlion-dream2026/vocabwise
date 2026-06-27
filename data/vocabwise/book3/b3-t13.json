@@ -749,58 +749,58 @@
       "items": [
         {
           "id": 1,
-          "sentence": "______ that the allocation of resources is often influenced by political agendas.",
+          "sentence": "______ that unequal access to healthcare perpetuates social inequality.",
           "options": [
             "It is widely recognised",
-            "It is generally believed",
-            "It is commonly thought",
-            "It is widely accepted"
+            "It is alleged",
+            "It is reported",
+            "It is rarely mentioned"
           ],
           "answer": "It is widely recognised"
         },
         {
           "id": 2,
-          "sentence": "______ that preventive care can reduce long‑term healthcare costs.",
+          "sentence": "______ that several private hospitals inflated treatment costs by over 200% last year.",
           "options": [
-            "It is often ignored",
-            "It is widely recognised",
-            "It is rarely acknowledged",
-            "It is seldom noted"
+            "It is widely accepted",
+            "It is seldom noted",
+            "It is reported",
+            "It is commonly argued"
           ],
-          "answer": "It is widely recognised"
+          "answer": "It is reported"
         },
         {
           "id": 3,
-          "sentence": "______ that underfunded emergency departments struggle to meet demand.",
+          "sentence": "______ that the healthcare minister approved contracts in exchange for personal benefits, though he denies it.",
           "options": [
             "It is widely recognised",
-            "It is clearly evident",
-            "It is absolutely certain",
-            "It is undeniably true"
+            "It is commonly argued",
+            "It is widely accepted",
+            "It is alleged"
           ],
-          "answer": "It is widely recognised"
+          "answer": "It is alleged"
         },
         {
           "id": 4,
-          "sentence": "______ that health inequalities persist despite overall improvements in life expectancy.",
+          "sentence": "______ that preventive care reduces long‑term costs, though some dispute the scale of savings.",
           "options": [
-            "It is widely recognised",
-            "It is obviously false",
-            "It is completely unknown",
-            "It is rarely seen"
+            "It is alleged",
+            "It is widely accepted",
+            "It is reported",
+            "It is seldom noted"
           ],
-          "answer": "It is widely recognised"
+          "answer": "It is widely accepted"
         },
         {
           "id": 5,
-          "sentence": "______ that market‑based healthcare can exacerbate social disparities.",
+          "sentence": "______ that universal healthcare is both achievable and economically beneficial.",
           "options": [
-            "It is definitely disproved",
+            "It is reported",
+            "It is alleged",
             "It is widely recognised",
-            "It is hardly relevant",
-            "It is seldom discussed"
+            "It is commonly argued"
           ],
-          "answer": "It is widely recognised"
+          "answer": "It is commonly argued"
         }
       ]
     },
@@ -870,27 +870,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "______ it is recognised that health policy shapes outcomes.",
+          "sentence": "It is ______ recognised that access to healthcare varies significantly across regions.",
           "answer": "widely"
         },
         {
           "id": 2,
-          "sentence": "______ it is recognised that preventive care saves costs.",
-          "answer": "widely"
+          "sentence": "Preventive care is ______ prioritised over emergency treatment in public hospitals.",
+          "answer": "rarely"
         },
         {
           "id": 3,
-          "sentence": "______ it is recognised that underfunded systems fail to meet demand.",
-          "answer": "widely"
+          "sentence": "Market-based healthcare models are ______ seen as truly equitable by critics.",
+          "answer": "seldom"
         },
         {
           "id": 4,
-          "sentence": "It is ______ recognised that market mechanisms can increase inequality.",
-          "answer": "widely"
+          "sentence": "The link between poverty and poor health is ______ disputed by mainstream economists.",
+          "answer": "occasionally"
         },
         {
           "id": 5,
-          "sentence": "It is widely ______ that access to medication varies by region.",
+          "sentence": "It is widely ______ that no person should suffer due to lack of financial means.",
           "answer": "recognised"
         }
       ]

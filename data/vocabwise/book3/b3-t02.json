@@ -696,21 +696,21 @@
           "options": [
             "Having faced",
             "Having",
-            "Having faced",
-            "Having faced"
+            "Has faced",
+            "Faced"
           ],
           "answer": "Having faced"
         },
         {
           "id": 4,
-          "sentence": "_____ to anticipate the market shift, the firm lost its competitive edge.",
+          "sentence": "_____ the early deadline, the report was submitted incomplete.",
           "options": [
             "Missing",
             "Having missed",
             "Missed",
             "Having missing"
           ],
-          "answer": "Missing"
+          "answer": "Having missed"
         },
         {
           "id": 5,
@@ -803,8 +803,8 @@
         },
         {
           "id": 4,
-          "sentence": "_____ to secure funding, the project was cancelled.",
-          "answer": "Failed"
+          "sentence": "_____ the audit successfully, the team was cleared to proceed.",
+          "answer": "Completed"
         },
         {
           "id": 5,

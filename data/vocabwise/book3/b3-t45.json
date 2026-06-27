@@ -716,12 +716,12 @@
           "id": 4,
           "sentence": "She _____ that the deadline might be extended, but she did not confirm it.",
           "options": [
-            "concedes",
+            "implies",
             "infers",
             "refutes",
             "alleges"
           ],
-          "answer": "concedes"
+          "answer": "implies"
         },
         {
           "id": 5,

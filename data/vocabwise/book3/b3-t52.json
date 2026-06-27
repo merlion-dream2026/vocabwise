@@ -693,12 +693,12 @@
           "id": 2,
           "sentence": "Because the data were flawed, the researchers _____ the study.",
           "options": [
-            "need not have conducted",
+            "could not have conducted",
             "should not have conducted",
             "should have conducted",
             "need not have conducted"
           ],
-          "answer": "need not have conducted"
+          "answer": "should not have conducted"
         },
         {
           "id": 3,
@@ -706,10 +706,10 @@
           "options": [
             "should have been",
             "need not have been",
-            "should have been",
-            "need not have been"
+            "could have been",
+            "would have been"
           ],
-          "answer": "need not have been"
+          "answer": "should have been"
         },
         {
           "id": 4,
@@ -718,7 +718,7 @@
             "should not have edited",
             "need not have edited",
             "should have edited",
-            "need not have edited"
+            "could not have edited"
           ],
           "answer": "need not have edited"
         },

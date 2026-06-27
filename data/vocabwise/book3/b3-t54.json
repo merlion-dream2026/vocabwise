@@ -830,17 +830,17 @@
         {
           "id": 3,
           "sentence": "_____ we invest in green computing, carbon emissions will rise.",
-          "answer": "Only if"
+          "answer": "Unless"
         },
         {
           "id": 4,
-          "sentence": "_____ the developers had followed ethical guidelines, the system would be trustworthy.",
-          "answer": "Had it not been for"
+          "sentence": "_____ algorithms are trained on biased data, discriminatory outcomes are inevitable.",
+          "answer": "When"
         },
         {
           "id": 5,
-          "sentence": "_____ we implement robust legislation, digital rights remain vulnerable.",
-          "answer": "Only if"
+          "sentence": "_____ corporations fail to adopt ethical standards, public trust will erode permanently.",
+          "answer": "If"
         }
       ]
     },

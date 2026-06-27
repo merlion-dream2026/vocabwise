@@ -816,7 +816,7 @@
         },
         {
           "id": 2,
-          "sentence": "Given the CCTV footage, the alibi _____ be true.",
+          "sentence": "Given the CCTV footage, the alibi _____ been true.",
           "answer": "can't have"
         },
         {

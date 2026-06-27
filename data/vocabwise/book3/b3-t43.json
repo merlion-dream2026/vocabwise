@@ -871,7 +871,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the findings be replicated, the theory gains credibility.",
+          "sentence": "_____ the findings to be replicated, the theory gains credibility.",
           "answer": "were"
         },
         {
@@ -881,7 +881,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the participants understand the instructions, the experiment will yield valid data.",
+          "sentence": "_____ the participants to understand the instructions, the experiment will yield valid data.",
           "answer": "were"
         },
         {
@@ -891,7 +891,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the conference organizers communicate the schedule clearly, attendees will plan accordingly.",
+          "sentence": "_____ the conference organizers to communicate the schedule clearly, attendees will plan accordingly.",
           "answer": "were"
         }
       ]

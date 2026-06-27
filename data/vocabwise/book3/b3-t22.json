@@ -773,16 +773,15 @@
         {
           "id": 3,
           "words": [
+            "the",
+            "key",
+            "data",
             "might",
             "have",
             "been",
-            "overlooked",
-            "by",
-            "the",
-            "review",
-            "team"
+            "overlooked"
           ],
-          "answer": "the review team might have been overlooked"
+          "answer": "the key data might have been overlooked"
         }
       ]
     },

@@ -118,9 +118,9 @@ Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, d�
 2. _____ by the new regulation, companies must revise their reporting procedures.
    A. Driven  |  B. Driving  |  C. Having driven  |  D. Driven by  →  Driven
 3. _____ the budget cuts, the department postponed the training program.
-   A. Having faced  |  B. Having  |  C. Having faced  |  D. Having faced  →  Having faced
-4. _____ to anticipate the market shift, the firm lost its competitive edge.
-   A. Missing  |  B. Having missed  |  C. Missed  |  D. Having missing  →  Missing
+   A. Having faced  |  B. Having  |  C. Has faced  |  D. Faced  →  Having faced
+4. _____ the early deadline, the report was submitted incomplete.
+   A. Missing  |  B. Having missed  |  C. Missed  |  D. Having missing  →  Having missed
 5. _____ the proposal was accepted, the team began the implementation phase.
    A. Having accepted  |  B. Accepting  |  C. Having accept  |  D. Having accepted  →  Having accepted
 
@@ -138,7 +138,7 @@ Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, d�
 1. _____ the team missed the deadline, the client was disappointed.  →  Having
 2. _____ by the new policy, many employees reconsidered their benefits.  →  Driven
 3. _____ the early warning, the firm adjusted its investment strategy.  →  Missing
-4. _____ to secure funding, the project was cancelled.  →  Failed
+4. _____ the audit successfully, the team was cleared to proceed.  →  Completed
 5. _____ the high turnover rate, the HR team revised its recruitment plan.  →  Considering
 
 <!-- /topic -->
@@ -204,10 +204,10 @@ Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, d�
 **Từ gợi ý:** Rarely · Never · Not · Only · Seldom · Thus
 
 1. _____ does the digital age challenge traditional notions of intimacy?  →  Rarely
-2. _____ have scholars argued that vulnerability can be a source of strength?  →  Never
+2. _____ have researchers agreed on a single theory of social bonding.  →  Seldom
 3. _____ only did the study examine online relationships, it also considered offline dynamics.  →  Not
-4. _____ do we find such a clear link between social media use and feelings of alienation?  →  Seldom
-5. _____ does the author claim that modern society's health is measured by relationship quality?  →  Rarely
+4. _____ before has the challenge of digital loneliness been so widely debated.  →  Never
+5. _____ through open dialogue can a fragmented community rebuild meaningful bonds.  →  Only
 
 <!-- /topic -->
 
@@ -329,7 +329,7 @@ Câu chẻ (cleft sentence) là cấu trúc dùng để nhấn mạnh một thà
 4. _____ the cause of the gender gap, according to the report, is the lack of mentorship.
    A. What  |  B. That  |  C. Which  |  D. It  →  What
 5. _____ we should prioritize, according to the committee, is the revision of the promotion criteria.
-   A. That is  |  B. Which is  |  C. It is  |  D. What is  →  It is
+   A. That is  |  B. Which is  |  C. It is  |  D. What  →  What
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -393,18 +393,18 @@ Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (th
    A. neither does she  |  B. the former  |  C. so do I  |  D. however  →  so do I
 2. She never attends the doping seminars, and _____ .
    A. so does he  |  B. neither does she  |  C. the latter  |  D. instead  →  neither does she
-3. The championship trophy is coveted by many, but _____ .
+3. Two awards were given — the championship trophy and the fair-play medal. _____ is recognised globally.
    A. neither do I  |  B. so do they  |  C. the former  |  D. however  →  the former
 4. Fans love the excitement of the finals, and _____ .
-   A. so does it  |  B. instead  |  C. the former  |  D. neither does it  →  so does it
+   A. so do I  |  B. instead  |  C. the former  |  D. neither does it  →  so do I
 5. He doesn't believe the anti‑doping measures are sufficient, and _____ .
    A. the latter  |  B. so do I  |  C. neither does she  |  D. however  →  neither does she
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [do] [so] [I] [am] [ready]  →  I am ready so do
-2. [neither] [does] [he] [agree]  →  he agrees neither does
+1. [So] [does] [the] [team] [captain]  →  So does the team captain
+2. [neither] [does] [he] [agree]  →  Neither does he agree
 3. [the] [former] [was] [controversial]  →  the former was controversial
 
 ### Bài tập 3 — Điền từ
@@ -414,8 +414,8 @@ Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (th
 1. Many athletes embrace mental training, and _____ .  →  so do I
 2. She hasn't signed the new contract, and _____ .  →  neither does she
 3. Doping scandals have tarnished reputations; _____ was the most notorious case.  →  the former
-4. The team lost the final match, and _____ they will try again next season.  →  also
-5. Officials introduced stricter testing, _____ the athletes welcomed the change.  →  instead
+4. The match was intense; _____, the athletes showed great sportsmanship throughout.  →  however
+5. Officials introduced stricter testing and _____ launched public awareness campaigns.  →  also
 
 <!-- /topic -->
 
@@ -830,7 +830,7 @@ Mệnh đề phân từ (participle clause) là một mệnh đề không có ch
 2. _____ working late into the night, he still managed to submit the report on time.  →  While
 3. _____ completed the training, the staff felt more confident handling stress.  →  Having
 4. _____ being exhausted, the researcher continued the interview.  →  Even
-5. _____ the data suggesting a rise in stress levels, the policy was not revised.  →  Having
+5. _____ the data suggested a rise in stress levels, the policy was not revised.  →  Although
 
 <!-- /topic -->
 
@@ -875,16 +875,16 @@ Bị động phi nhân xưng phức tạp là cấu trúc dùng để đưa ra n
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. ______ that the allocation of resources is often influenced by political agendas.
-   A. It is widely recognised  |  B. It is generally believed  |  C. It is commonly thought  |  D. It is widely accepted  →  It is widely recognised
-2. ______ that preventive care can reduce long‑term healthcare costs.
-   A. It is often ignored  |  B. It is widely recognised  |  C. It is rarely acknowledged  |  D. It is seldom noted  →  It is widely recognised
-3. ______ that underfunded emergency departments struggle to meet demand.
-   A. It is widely recognised  |  B. It is clearly evident  |  C. It is absolutely certain  |  D. It is undeniably true  →  It is widely recognised
-4. ______ that health inequalities persist despite overall improvements in life expectancy.
-   A. It is widely recognised  |  B. It is obviously false  |  C. It is completely unknown  |  D. It is rarely seen  →  It is widely recognised
-5. ______ that market‑based healthcare can exacerbate social disparities.
-   A. It is definitely disproved  |  B. It is widely recognised  |  C. It is hardly relevant  |  D. It is seldom discussed  →  It is widely recognised
+1. ______ that unequal access to healthcare perpetuates social inequality.
+   A. It is widely recognised  |  B. It is alleged  |  C. It is reported  |  D. It is rarely mentioned  →  It is widely recognised
+2. ______ that several private hospitals inflated treatment costs by over 200% last year.
+   A. It is widely accepted  |  B. It is seldom noted  |  C. It is reported  |  D. It is commonly argued  →  It is reported
+3. ______ that the healthcare minister approved contracts in exchange for personal benefits, though he denies it.
+   A. It is widely recognised  |  B. It is commonly argued  |  C. It is widely accepted  |  D. It is alleged  →  It is alleged
+4. ______ that preventive care reduces long‑term costs, though some dispute the scale of savings.
+   A. It is alleged  |  B. It is widely accepted  |  C. It is reported  |  D. It is seldom noted  →  It is widely accepted
+5. ______ that universal healthcare is both achievable and economically beneficial.
+   A. It is reported  |  B. It is alleged  |  C. It is widely recognised  |  D. It is commonly argued  →  It is commonly argued
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -897,11 +897,11 @@ Bị động phi nhân xưng phức tạp là cấu trúc dùng để đưa ra n
 **Hướng dẫn:** Chọn từ phù hợp để hoàn thành câu.
 **Từ gợi ý:** widely · recognised · rarely · occasionally · frequently · seldom
 
-1. ______ it is recognised that health policy shapes outcomes.  →  widely
-2. ______ it is recognised that preventive care saves costs.  →  widely
-3. ______ it is recognised that underfunded systems fail to meet demand.  →  widely
-4. It is ______ recognised that market mechanisms can increase inequality.  →  widely
-5. It is widely ______ that access to medication varies by region.  →  recognised
+1. It is ______ recognised that access to healthcare varies significantly across regions.  →  widely
+2. Preventive care is ______ prioritised over emergency treatment in public hospitals.  →  rarely
+3. Market-based healthcare models are ______ seen as truly equitable by critics.  →  seldom
+4. The link between poverty and poor health is ______ disputed by mainstream economists.  →  occasionally
+5. It is widely ______ that no person should suffer due to lack of financial means.  →  recognised
 
 <!-- /topic -->
 
@@ -1034,7 +1034,7 @@ Mệnh đề phụ chỉ điều kiện (provided that, as long as, unless, on c
 
 1. The new policy will be implemented, _____ the board approves it.  →  provided that
 2. She will stay abroad, _____ she finishes her thesis.  →  as long as
-3. The garden will thrive, _____ you water it regularly.  →  unless
+3. The garden will thrive, _____ you water it regularly.  →  if
 4. The grant will be awarded, _____ the project meets all criteria.  →  on condition that
 5. You may access the database, _____ you have a valid login.  →  provided that
 
@@ -1358,7 +1358,7 @@ Các liên từ học thuật cao cấp (Moreover, Nevertheless, Consequently, N
 **Hướng dẫn:** Chọn dạng đảo ngữ thích hợp để hoàn thành câu.
 
 1. _____ the carbon emissions continue to rise, global temperatures will exceed 2°C by 2050.
-   A. Had  |  B. If  |  C. Should  |  D. Were  →  Were
+   A. Had  |  B. If  |  C. Should  |  D. Were  →  Should
 2. _____ the international community had coordinated their policies, the climate crisis could be mitigated.
    A. Should  |  B. If  |  C. Had  |  D. Were  →  Had
 3. _____ we invest in renewable energy now, future generations will thank us.
@@ -1513,7 +1513,7 @@ Câu bị động được dùng để nhấn mạnh hành động hoặc khi ng
 
 1. [will] [have] [been] [approved] [the] [policy] [by] [the] [committee]  →  the policy will have been approved by the committee
 2. [is] [being] [monitored] [the] [city] [by] [surveillance] [cameras]  →  the city is being monitored by surveillance cameras
-3. [might] [have] [been] [overlooked] [by] [the] [review] [team]  →  the review team might have been overlooked
+3. [the] [key] [data] [might] [have] [been] [overlooked]  →  the key data might have been overlooked
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền dạng bị động thích hợp vào chỗ trống.
@@ -1731,7 +1731,7 @@ Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) 
 **Từ gợi ý:** must have · can't have · might have · should have · could have · would have
 
 1. The prosecutor believes the suspect _____ committed the robbery.  →  must have
-2. Given the CCTV footage, the alibi _____ be true.  →  can't have
+2. Given the CCTV footage, the alibi _____ been true.  →  can't have
 3. She _____ forgotten to submit the report, but we need confirmation.  →  might have
 4. The jury thought the defendant _____ been present at the scene, though evidence was inconclusive.  →  might have
 5. If the policy had been stricter, the crime rate _____ dropped significantly.  →  could have
@@ -1793,7 +1793,7 @@ Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đ
 
 1. [vital] [be] [citizens] [It] [that] [informed] [is]  →  It is vital that citizens be informed
 2. [promptly] [be] [report] [that] [demanded] [committee] [the] [revised] [The]  →  The committee demanded that the report be revised promptly
-3. [applied] [be] [laws] [that] [stipulates] [constitution] [all] [equally] [the] [is]  →  The constitution is that all laws be applied equally
+3. [applied] [be] [laws] [that] [stipulates] [constitution] [all] [equally] [the] [is]  →  The constitution stipulates that all laws be applied equally
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống (thì giả định).
@@ -2551,7 +2551,7 @@ Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng 
 **Hướng dẫn:** Chọn từ thích hợp để điền vào chỗ trống.
 
 1. The committee approved the proposal, _____ the members expressed concerns.
-   A. even though  |  B. however  |  C. for all that  |  D. although  →  however
+   A. even though  |  B. however  |  C. for all that  |  D. although  →  although
 2. She continued her research, _____ funding was cut.
    A. for all that  |  B. however  |  C. even though  |  D. although  →  even though
 3. The policy was praised, _____ its implementation faced delays.
@@ -2559,7 +2559,7 @@ Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng 
 4. He accepted the award, _____ he felt the judges were biased.
    A. although  |  B. even though  |  C. however  |  D. for all that  →  even though
 5. The novel became a bestseller, _____ it received mixed reviews from critics.
-   A. for all that  |  B. however  |  C. even though  |  D. although  →  however
+   A. for all that  |  B. however  |  C. even though  |  D. although  →  although
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -2990,11 +2990,11 @@ Câu điều kiện đảo ngữ trong học thuật là cấu trúc diễn đ�
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** were · should · if · unless · provided · given
 
-1. _____ the findings be replicated, the theory gains credibility.  →  were
+1. _____ the findings to be replicated, the theory gains credibility.  →  were
 2. _____ the university allocate additional resources, the research centre can expand its facilities.  →  should
-3. _____ the participants understand the instructions, the experiment will yield valid data.  →  were
+3. _____ the participants to understand the instructions, the experiment will yield valid data.  →  were
 4. _____ the policy be revised, it will address current shortcomings.  →  should
-5. _____ the conference organizers communicate the schedule clearly, attendees will plan accordingly.  →  were
+5. _____ the conference organizers to communicate the schedule clearly, attendees will plan accordingly.  →  were
 
 <!-- /topic -->
 
@@ -3114,7 +3114,7 @@ Các động từ truyền đạt nâng cao (allege, imply, infer, concede, refu
 3. The author _____ the earlier theory, citing new evidence.
    A. refutes  |  B. alleges  |  C. concedes  |  D. implies  →  refutes
 4. She _____ that the deadline might be extended, but she did not confirm it.
-   A. concedes  |  B. infers  |  C. refutes  |  D. alleges  →  concedes
+   A. implies  |  B. infers  |  C. refutes  |  D. alleges  →  implies
 5. His silence could _____ that he disagrees with the proposal.
    A. imply  |  B. refute  |  C. concede  |  D. infer  →  imply
 
@@ -3602,11 +3602,11 @@ Thức giả định (subjunctive) được dùng sau các cấu trúc diễn t�
 1. The committee _____ the proposal, given the overwhelming evidence.
    A. should have rejected  |  B. need not have accepted  |  C. should have accepted  |  D. need not have rejected  →  should have accepted
 2. Because the data were flawed, the researchers _____ the study.
-   A. need not have conducted  |  B. should not have conducted  |  C. should have conducted  |  D. need not have conducted  →  need not have conducted
+   A. could not have conducted  |  B. should not have conducted  |  C. should have conducted  |  D. need not have conducted  →  should not have conducted
 3. If the policy had been implemented earlier, the crisis _____ avoided.
-   A. should have been  |  B. need not have been  |  C. should have been  |  D. need not have been  →  need not have been
+   A. should have been  |  B. need not have been  |  C. could have been  |  D. would have been  →  should have been
 4. The editor _____ the article, as the facts were already verified.
-   A. should not have edited  |  B. need not have edited  |  C. should have edited  |  D. need not have edited  →  need not have edited
+   A. should not have edited  |  B. need not have edited  |  C. should have edited  |  D. could not have edited  →  need not have edited
 5. Given the circumstances, the manager _____ the decision, but he chose otherwise.
    A. should have made  |  B. need not have made  |  C. should not have made  |  D. need not have made  →  should have made
 
@@ -3761,9 +3761,9 @@ Câu điều kiện C2 dùng đảo ngữ để nhấn mạnh nguyên nhân ngư
 
 1. _____ we act now will we mitigate the AI bias problem.  →  Only if
 2. _____ the lack of oversight, algorithmic errors could go unchecked.  →  Had it not been for
-3. _____ we invest in green computing, carbon emissions will rise.  →  Only if
-4. _____ the developers had followed ethical guidelines, the system would be trustworthy.  →  Had it not been for
-5. _____ we implement robust legislation, digital rights remain vulnerable.  →  Only if
+3. _____ we invest in green computing, carbon emissions will rise.  →  Unless
+4. _____ algorithms are trained on biased data, discriminatory outcomes are inevitable.  →  When
+5. _____ corporations fail to adopt ethical standards, public trust will erode permanently.  →  If
 
 <!-- /topic -->
 
@@ -3972,7 +3972,7 @@ Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) đ
 2. _____ we prioritize transparency, public confidence in AI systems will increase.  →  Should
 3. _____ governments were to invest in renewable energy, the transition would accelerate.  →  Were
 4. _____ the policy had been enforced, the digital divide would have narrowed.  →  Had
-5. _____ we ignore the warning signs, the consequences will be severe.  →  Unless
+5. _____ we ignore the warning signs, the consequences will be severe.  →  Should
 
 <!-- /topic -->
 
