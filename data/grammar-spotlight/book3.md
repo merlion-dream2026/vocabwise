@@ -4,7 +4,7 @@
 > `node scripts/export-grammar-spotlight.js --import --book 3`
 
 <!-- topic: b3-t01 -->
-## b3-t01 ·  Nominalization — advanced (educate → education; acquire → acquisition) · C1
+## b3-t01 · Nominalization — advanced (educate → education; acquire → acquisition) · C1
 
 **Tiếng Việt:** Danh hóa nâng cao
 
@@ -41,10 +41,41 @@ Danh hóa (nominalization) là quá trình biến động từ, tính từ hoặ
 - EN: A key concern is attainment: research consistently shows that socioeconomic background strongly predicts academic success.
   VI: Mối quan ngại chính là thành tích học tập: các nghiên cứu liên tục cho thấy hoàn cảnh kinh tế‑xã hội dự đoán mạnh mẽ thành công học thuật.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. The university's new policy aims to improve _____ among first‑generation students.
+   A. graduation  |  B. attendance  |  C. acquisition  |  D. retention  →  retention
+2. Policymakers argue that early childhood _____ is crucial for later academic success.
+   A. development  |  B. training  |  C. education  |  D. acquisition  →  education
+3. The _____ of digital skills has become a priority in many curricula.
+   A. adoption  |  B. assessment  |  C. acquisition  |  D. allocation  →  acquisition
+4. A major _____ of the reform was the reduction of standardized testing.
+   A. implementation  |  B. execution  |  C. realization  |  D. completion  →  implementation
+5. Research highlights the _____ of critical thinking in lifelong learning.
+   A. importance  |  B. necessity  |  C. significance  |  D. value  →  importance
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [university] [has] [initiated] [a] [curriculum] [revision] [to] [enhance] [literacy] [in] [STEM] [fields]  →  the university has initiated a curriculum revision to enhance literacy in STEM fields
+2. [policy] [aims] [at] [the] [acquisition] [of] [digital] [competencies] [among] [teachers]  →  policy aims at the acquisition of digital competencies among teachers
+3. [early] [childhood] [education] [is] [considered] [a] [foundation] [for] [future] [attainment]  →  early childhood education is considered a foundation for future attainment
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** education · acquisition · attainment · literacy · retention · innovation
+
+1. The _____ of reading skills is essential for academic progress.  →  literacy
+2. Governments must invest in _____ to reduce the socioeconomic gap.  →  education
+3. The _____ gap between urban and rural schools remains a pressing issue.  →  attainment
+4. Effective _____ of new technologies requires teacher training.  →  acquisition
+5. University strategies that improve _____ of graduates can boost employability.  →  retention
+
 <!-- /topic -->
 
 <!-- topic: b3-t02 -->
-## b3-t02 ·  Participle clauses — reason and result (Having failed... / Driven by...) · C1
+## b3-t02 · Participle clauses — reason and result (Having failed... / Driven by...) · C1
 
 **Tiếng Việt:** Mệnh đề phân từ chỉ nguyên nhân và kết quả
 
@@ -79,10 +110,41 @@ Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, d�
 - EN: Having failed to evolve their practices, organisations may find themselves unable to attract or retain the talent they need.
   VI: Do không kịp thay đổi cách thức làm việc, các tổ chức có thể nhận ra mình không thể thu hút hoặc giữ chân nhân tài cần thiết.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng của mệnh đề phân từ để hoàn thành câu.
+
+1. _____ the deadline was missed, the project was delayed.
+   A. Having missed  |  B. Missing  |  C. Having been missed  |  D. Having miss  →  Having missed
+2. _____ by the new regulation, companies must revise their reporting procedures.
+   A. Driven  |  B. Driving  |  C. Having driven  |  D. Driven by  →  Driven
+3. _____ the budget cuts, the department postponed the training program.
+   A. Having faced  |  B. Having  |  C. Having faced  |  D. Having faced  →  Having faced
+4. _____ to anticipate the market shift, the firm lost its competitive edge.
+   A. Missing  |  B. Having missed  |  C. Missed  |  D. Having missing  →  Missing
+5. _____ the proposal was accepted, the team began the implementation phase.
+   A. Having accepted  |  B. Accepting  |  C. Having accept  |  D. Having accepted  →  Having accepted
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Having] [experienced] [burnout] [many] [employees] [reconsider] [their] [career] [paths]  →  Having experienced burnout many employees reconsider their career paths
+2. [Driven] [by] [increased] [automation] [companies] [restructure] [their] [workforces]  →  Driven by increased automation companies restructure their workforces
+3. [Having] [failed] [to] [address] [work‑life] [balance] [organizations] [risk] [high] [turnover]  →  Having failed to address work‑life balance organizations risk high turnover
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền dạng phân từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Having · Driven · Missing · Completed · Failed · Considering
+
+1. _____ the team missed the deadline, the client was disappointed.  →  Having
+2. _____ by the new policy, many employees reconsidered their benefits.  →  Driven
+3. _____ the early warning, the firm adjusted its investment strategy.  →  Missing
+4. _____ to secure funding, the project was cancelled.  →  Failed
+5. _____ the high turnover rate, the HR team revised its recruitment plan.  →  Considering
+
 <!-- /topic -->
 
 <!-- topic: b3-t03 -->
-## b3-t03 ·  Inversion for emphasis (Rarely does... / Not only...but also...) · C1
+## b3-t03 · Inversion for emphasis (Rarely does... / Not only...but also...) · C1
 
 **Tiếng Việt:** Đảo ngữ nhấn mạnh
 
@@ -116,10 +178,41 @@ Mệnh đề phân từ là một mệnh đề không có chủ ngữ riêng, d�
 - EN: Never have we witnessed such rapid transformation in the way relationships are formed, making the study of social dynamics more urgent than ever.
   VI: Chưa bao giờ chúng ta chứng kiến sự biến đổi nhanh chóng như vậy trong cách hình thành các mối quan hệ, khiến việc nghiên cứu động lực xã hội trở nên cấp bách hơn bao giờ hết.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. _____ we see such a stark contrast between intimacy and superficiality in contemporary culture?
+   A. Not only do  |  B. Seldom  |  C. Rarely does  |  D. Hardly  →  Rarely does
+2. _____ the researchers emphasize vulnerability, they also point to its impact on mental health.
+   A. Never have  |  B. Rarely does  |  C. Not only do  |  D. Seldom  →  Not only do
+3. _____ we have experienced such rapid changes in communication, the effects on relationships are still uncertain.
+   A. Never have  |  B. Rarely does  |  C. Seldom  |  D. Hardly  →  Never have
+4. _____ the policy was implemented, the community response was overwhelmingly positive.
+   A. Not only did  |  B. Never have  |  C. Rarely does  |  D. Seldom  →  Not only did
+5. _____ the media highlight the benefits of digital connection, they ignore the potential for alienation.
+   A. Rarely does  |  B. Not only do  |  C. Never have  |  D. Seldom  →  Not only do
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Rarely] [does] [society] [value] [depth]  →  Rarely does society value depth
+2. [Not] [only] [did] [the] [researchers] [find] [significant] [results]  →  Not only did the researchers find significant results
+3. [Never] [have] [we] [seen] [such] [rapid] [change]  →  Never have we seen such rapid change
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.
+**Từ gợi ý:** Rarely · Never · Not · Only · Seldom · Thus
+
+1. _____ does the digital age challenge traditional notions of intimacy?  →  Rarely
+2. _____ have scholars argued that vulnerability can be a source of strength?  →  Never
+3. _____ only did the study examine online relationships, it also considered offline dynamics.  →  Not
+4. _____ do we find such a clear link between social media use and feelings of alienation?  →  Seldom
+5. _____ does the author claim that modern society's health is measured by relationship quality?  →  Rarely
+
 <!-- /topic -->
 
 <!-- topic: b3-t04 -->
-## b3-t04 ·  Complex noun phrases (the rapid dissolution of traditional...) · C1
+## b3-t04 · Complex noun phrases (the rapid dissolution of traditional...) · C1
 
 **Tiếng Việt:** Cụm danh từ phức tạp
 
@@ -153,10 +246,41 @@ Cụm danh từ phức tạp là một danh từ (head noun) được mở rộn
 - EN: Strong kinship networks — biological or chosen — provide resilience and support regardless of their formal configuration.
   VI: Mạng lưới quan hệ huyết thống mạnh mẽ — sinh học hoặc được lựa chọn — mang lại sự kiên cường và hỗ trợ bất kể cấu trúc chính thức của chúng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm danh từ phức tạp phù hợp để hoàn thành câu.
+
+1. The government's new legislation focuses on strengthening _____.
+   A. the extended family network  |  B. the nuclear family  |  C. the child welfare system  |  D. the economic growth  →  the extended family network
+2. Researchers argue that _____ can mitigate the effects of parental divorce.
+   A. strong kinship ties  |  B. the rapid dissolution  |  C. the traditional hierarchy  |  D. the legal framework  →  strong kinship ties
+3. Policy makers are concerned about the impact of _____ on children's mental health.
+   A. fragmented family structures  |  B. the rise of reconstituted families  |  C. the dominant social unit  |  D. the extended kinship network  →  fragmented family structures
+4. Many sociologists view _____ as a sign of societal adaptation.
+   A. the emergence of cohabitation arrangements  |  B. the decline of traditional values  |  C. the increase in single-parent homes  |  D. the stability of nuclear families  →  the emergence of cohabitation arrangements
+5. Support services aim to address the challenges posed by _____.
+   A. economic hardship  |  B. the complexity of custody disputes  |  C. the rise of reconstituted families  |  D. the traditional nuclear model  →  the complexity of custody disputes
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [rise] [of] [reconstituted] [families] [has] [prompted] [policy] [review]  →  the rise of reconstituted families has prompted policy review
+2. [strong] [kinship] [networks] [provide] [resilience] [and] [support]  →  strong kinship networks provide resilience and support
+3. [the] [dominant] [social] [unit] [remains] [relevant] [in] [some] [cultures]  →  the dominant social unit remains relevant in some cultures
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ danh sách vào chỗ trống.
+**Từ gợi ý:** reconstituted · extended · traditional · nuclear · kinship · fragmentation
+
+1. The _____ family model is still prevalent in many rural areas.  →  traditional
+2. Researchers note a rise in _____ families as divorce rates increase.  →  reconstituted
+3. An _____ network can offer emotional support during crises.  →  extended
+4. The _____ family, consisting of two parents and their children, is often idealised in media.  →  nuclear
+5. Feelings of _____ may emerge when children split time between multiple households.  →  fragmentation
+
 <!-- /topic -->
 
 <!-- topic: b3-t05 -->
-## b3-t05 ·  Cleft sentences (It is...that... / What...is...) · C1
+## b3-t05 · Cleft sentences (It is...that... / What...is...) · C1
 
 **Tiếng Việt:** Câu chẻ — nhấn mạnh
 
@@ -193,10 +317,41 @@ Câu chẻ (cleft sentence) là cấu trúc dùng để nhấn mạnh một thà
 - EN: It is the capacity to empower marginalised groups that determines whether societies can move towards genuine equality.
   VI: Chính khả năng trao quyền cho các nhóm bị thiệt thòi mới quyết định liệu xã hội có thể tiến tới bình đẳng thực sự hay không.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu chẻ.
+
+1. _____ the main obstacle, the organization should focus on changing policies.
+   A. That is  |  B. What is  |  C. It was  |  D. It is  →  It is
+2. _____ we need to improve is the transparency of hiring processes.
+   A. It  |  B. Which  |  C. That  |  D. What  →  What
+3. _____ the most effective way to reduce bias is to implement structured training.
+   A. Which is  |  B. It is  |  C. That is  |  D. What is  →  It is
+4. _____ the cause of the gender gap, according to the report, is the lack of mentorship.
+   A. What  |  B. That  |  C. Which  |  D. It  →  What
+5. _____ we should prioritize, according to the committee, is the revision of the promotion criteria.
+   A. That is  |  B. Which is  |  C. It is  |  D. What is  →  It is
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [is] [the] [patriarchy] [that] [reinforces] [gender] [norms]  →  It is the patriarchy that reinforces gender norms
+2. [What] [needs] [to] [be] [addressed] [is] [unconscious] [bias]  →  What needs to be addressed is unconscious bias
+3. [It] [is] [the] [most] [important] [factor] [that] [drives] [inequality]  →  It is the most important factor that drives inequality
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** It · What · That · Which · Who · Where
+
+1. _____ is the primary reason for the persistent wage gap.  →  What
+2. _____ the policy that limits parental leave is outdated.  →  It
+3. _____ is the most effective strategy to combat unconscious bias.  →  What
+4. _____ the barrier that prevents women from entering STEM fields is lack of role models.  →  It
+5. _____ is the key to achieving genuine equality in society.  →  What
+
 <!-- /topic -->
 
 <!-- topic: b3-t06 -->
-## b3-t06 ·  Ellipsis and substitution (so do I / neither does she / the former) · C1
+## b3-t06 · Ellipsis and substitution (so do I / neither does she / the former) · C1
 
 **Tiếng Việt:** Tỉnh lược và thay thế trong văn viết
 
@@ -231,10 +386,41 @@ Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (th
 - EN: Doping — the use of banned substances to enhance performance — and match-fixing remain twin threats to sporting integrity. The former has been condemned more widely; the latter is harder to detect.
   VI: Doping — việc sử dụng các chất cấm để tăng cường thành tích — và dàn xếp tỉ số vẫn là hai mối đe dọa song song đối với tính liêm chính của thể thao. Cái trước bị lên án rộng rãi hơn; cái sau khó phát hiện hơn.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để hoàn thành câu.
+
+1. The athletes train for hours every day, and _____ .
+   A. neither does she  |  B. the former  |  C. so do I  |  D. however  →  so do I
+2. She never attends the doping seminars, and _____ .
+   A. so does he  |  B. neither does she  |  C. the latter  |  D. instead  →  neither does she
+3. The championship trophy is coveted by many, but _____ .
+   A. neither do I  |  B. so do they  |  C. the former  |  D. however  →  the former
+4. Fans love the excitement of the finals, and _____ .
+   A. so does it  |  B. instead  |  C. the former  |  D. neither does it  →  so does it
+5. He doesn't believe the anti‑doping measures are sufficient, and _____ .
+   A. the latter  |  B. so do I  |  C. neither does she  |  D. however  →  neither does she
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [do] [so] [I] [am] [ready]  →  I am ready so do
+2. [neither] [does] [he] [agree]  →  he agrees neither does
+3. [the] [former] [was] [controversial]  →  the former was controversial
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ/ cụm từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** so do I · neither does she · the former · however · instead · also
+
+1. Many athletes embrace mental training, and _____ .  →  so do I
+2. She hasn't signed the new contract, and _____ .  →  neither does she
+3. Doping scandals have tarnished reputations; _____ was the most notorious case.  →  the former
+4. The team lost the final match, and _____ they will try again next season.  →  also
+5. Officials introduced stricter testing, _____ the athletes welcomed the change.  →  instead
+
 <!-- /topic -->
 
 <!-- topic: b3-t07 -->
-## b3-t07 ·  Fronting — adverbials and objects (Only then did... / This idea we rejected) · C1
+## b3-t07 · Fronting — adverbials and objects (Only then did... / This idea we rejected) · C1
 
 **Tiếng Việt:** Đảo ngữ đầu câu — mệnh đề trạng ngữ và tân ngữ
 
@@ -267,10 +453,41 @@ Ellipsis (tỉnh lược) là việc bỏ qua các thành phần ngữ pháp (th
 - EN: Only after engaging with locals did travellers develop greater empathy and a richer understanding of human diversity.
   VI: Chỉ sau khi giao lưu với người địa phương, du khách mới phát triển sự đồng cảm sâu sắc hơn và hiểu biết phong phú hơn về sự đa dạng của con người.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ thích hợp để hoàn thành câu.
+
+1. _____ did the team realize the importance of cultural sensitivity.
+   A. Only after  |  B. Hardly  |  C. Only then  |  D. Never  →  Only then
+2. _____ did the conference end, the participants exchanged contacts.
+   A. Only then  |  B. Only after  |  C. Never  |  D. Hardly  →  Only after
+3. _____ the board rejected, citing budget constraints.
+   A. The proposal  |  B. The plan  |  C. The idea  |  D. These suggestions  →  The proposal
+4. _____ did the traveler finally feel at home in the new city.
+   A. Only after  |  B. Never  |  C. Only then  |  D. Hardly  →  Only then
+5. _____ we accepted, the terms were finalized.
+   A. The contract  |  B. The offer  |  C. The proposal  |  D. The agreement  →  The offer
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Only] [then] [did] [the] [team] [recognise] [the] [need] [for] [flexibility]  →  Only then did the team recognise the need for flexibility
+2. [The] [proposal] [the] [committee] [rejected] [after] [consideration]  →  The proposal the committee rejected after consideration
+3. [Only] [after] [the] [conference] [did] [participants] [exchange] [contact] [details]  →  Only after the conference did participants exchange contact details
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Only then · Only after · The proposal · The offer · Only · Hardly
+
+1. _____ did the researcher publish the findings, after peer review.  →  Only then
+2. _____ the data were analysed, the team could draw conclusions.  →  Only after
+3. _____ the board approved, the project moved to implementation.  →  The proposal
+4. _____ the manager accepted, the contract was signed.  →  The offer
+5. _____ did the audience applaud, the performance was truly moving.  →  Only then
+
 <!-- /topic -->
 
 <!-- topic: b3-t08 -->
-## b3-t08 ·  Passive reporting structures — advanced (It has been argued... / is believed to...) · C1
+## b3-t08 · Passive reporting structures — advanced (It has been argued... / is believed to...) · C1
 
 **Tiếng Việt:** Bị động truyền đạt nâng cao
 
@@ -306,10 +523,41 @@ Cấu trúc bị động truyền đạt (passive reporting) dùng để đưa r
 - EN: It has been suggested that movements advocating mindful consumption represent a pushback against the relentless cycle of desire and disposal.
   VI: Có đề xuất rằng các phong trào ủng hộ tiêu dùng có ý thức đại diện cho một phản kháng trước vòng quay không ngừng của mong muốn và tiêu huỷ.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cấu trúc bị động truyền đạt phù hợp để điền vào chỗ trống.
+
+1. _____ that the new policy will reduce waste, the council has allocated additional funds.
+   A. It is believed  |  B. It believes  |  C. It has believed  |  D. It will believe  →  It is believed
+2. _____ that the artist's work reflects consumer anxieties, critics have praised the exhibition.
+   A. It has been argued  |  B. It is argued  |  C. It was argued  |  D. It has argued  →  It has been argued
+3. _____ that the algorithm manipulates user preferences, researchers called for stricter regulations.
+   A. It is claimed  |  B. It has been claimed  |  C. It claims  |  D. It was claimed  →  It has been claimed
+4. _____ that the brand's messaging exploits emotional triggers, the advertising standards authority issued a warning.
+   A. It is suggested  |  B. It has been suggested  |  C. It suggested  |  D. It was suggested  →  It has been suggested
+5. _____ that the market will shift towards sustainable products, investors are adjusting their portfolios.
+   A. It is expected  |  B. It has expected  |  C. It was expected  |  D. It has been expected  →  It is expected
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [consumerism] [erodes] [authentic] [relationships] [that] [argued] [been] [has] [It]  →  It has been argued that consumerism erodes authentic relationships
+2. [identity] [personal] [shapes] [branding] [that] [believed] [is] [It]  →  It is believed that branding shapes personal identity
+3. [could] [curb] [deceptive] [ads] [regulatory] [suggested] [has] [been] [It] [reforms]  →  It has been suggested that regulatory reforms could curb deceptive ads
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Hoàn thành câu bằng cách chọn từ đúng trong ngân hàng từ.
+**Từ gợi ý:** has been argued · is believed · has been suggested · has been claimed · is thought · was alleged
+
+1. _____ that the rise of fast fashion contributes to environmental degradation, NGOs have launched campaigns.  →  is believed
+2. _____ that advertising manipulates subconscious desires, psychologists warn about long‑term effects.  →  has been argued
+3. _____ that the government will subsidize repair workshops, consumers are hopeful.  →  is thought
+4. _____ that the brand's slogan exploits cultural symbols, activists filed complaints.  →  has been claimed
+5. _____ that stricter labeling laws could improve transparency, industry leaders remain skeptical.  →  has been suggested
+
 <!-- /topic -->
 
 <!-- topic: b3-t09 -->
-## b3-t09 ·  Mixed conditionals (If I had taken... I would be...) · C1
+## b3-t09 · Mixed conditionals (If I had taken... I would be...) · C1
 
 **Tiếng Việt:** Câu điều kiện hỗn hợp
 
@@ -345,10 +593,41 @@ Câu điều kiện hỗn hợp (mixed conditional) là câu kết hợp thời 
 - EN: If adolescents had developed critical digital literacy skills, they would be less vulnerable to cyberbullying today.
   VI: Nếu thanh thiếu niên đã phát triển kỹ năng đọc hiểu kỹ thuật số phản biện, họ sẽ ít dễ bị bắt nạt trên mạng ngày nay.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng của câu điều kiện hỗn hợp để hoàn thành câu.
+
+1. If the algorithm _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now.
+   A. had prioritized  |  B. prioritizes  |  C. has prioritized  |  D. will prioritize  →  had prioritized
+2. If the study _____ (to reveal) the link earlier, policymakers would be acting on it already.
+   A. has revealed  |  B. had revealed  |  C. reveals  |  D. will reveal  →  had revealed
+3. If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today.
+   A. integrates  |  B. had integrated  |  C. have integrated  |  D. will integrate  →  had integrated
+4. If the platform _____ (to implement) stricter moderation, harassment incidents would be decreasing now.
+   A. had implemented  |  B. implements  |  C. has implemented  |  D. will implement  →  had implemented
+5. If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less.
+   A. recognize  |  B. had recognized  |  C. has recognized  |  D. will recognize  →  had recognized
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [If] [they] [had] [noticed] [the] [trend] [earlier] [they] [would] [be] [more] [aware] [now]  →  If they had noticed the trend earlier they would be more aware now
+2. [If] [support] [had] [been] [provided] [to] [victims] [they] [would] [feel] [safer] [today]  →  If support had been provided to victims they would feel safer today
+3. [If] [schools] [had] [restricted] [screen] [time] [students] [would] [have] [more] [focus] [now]  →  If schools had restricted screen time students would have more focus now
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** had prioritized · had revealed · had integrated · had implemented · had recognized · will have
+
+1. If the platform _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now.  →  had prioritized
+2. If the research _____ (to reveal) the correlation earlier, interventions would be in place now.  →  had revealed
+3. If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today.  →  had integrated
+4. If the company _____ (to implement) stricter moderation, harassment incidents would be decreasing now.  →  had implemented
+5. If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less.  →  had recognized
+
 <!-- /topic -->
 
 <!-- topic: b3-t10 -->
-## b3-t10 ·  Wish / If only + perfect (I wish I had chosen...) · C1
+## b3-t10 · Wish / If only + perfect (I wish I had chosen...) · C1
 
 **Tiếng Việt:** Wish + hoàn thành — hối tiếc quá khứ
 
@@ -381,10 +660,41 @@ Cấu trúc wish / if only + had + quá khứ phân từ (V3) dùng để bày t
 - EN: Many professionals wish they had prioritized rest, yet they keep overcommitting to projects.
   VI: Nhiều chuyên gia ước rằng họ đã ưu tiên thời gian nghỉ ngơi, nhưng họ vẫn tiếp tục cam kết quá mức vào các dự án.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ hoặc cụm từ phù hợp để hoàn thành câu.
+
+1. _____ I had set clearer boundaries, I could have prevented the overload.
+   A. Would  |  B. Wish  |  C. If only  |  D. Had  →  If only
+2. She _____ she had chosen a less demanding role, she wouldn't be so stressed now.
+   A. if only  |  B. wishes  |  C. had  |  D. would  →  wishes
+3. _____ we had invested in employee wellbeing programs, turnover rates would be lower.
+   A. If only  |  B. Would  |  C. Wish  |  D. Had  →  If only
+4. He _____ he had taken the time to rest, his productivity would have improved.
+   A. wishes  |  B. had  |  C. if only  |  D. would  →  wishes
+5. _____ they had recognized the early signs of burnout, they could have acted sooner.
+   A. Wish  |  B. Would  |  C. If only  |  D. Had  →  If only
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [If] [only] [I] [had] [set] [clear] [boundaries] [earlier]  →  If only I had set clear boundaries earlier
+2. [She] [wishes] [she] [had] [prioritized] [rest] [more]  →  She wishes she had prioritized rest more
+3. [They] [wish] [they] [had] [implemented] [flexible] [schedules] [from] [the] [start]  →  They wish they had implemented flexible schedules from the start
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** set · chosen · implemented · been · taken · will
+
+1. If only I had _______ earlier, I could have avoided the overload.  →  set
+2. She wishes she had _______ a less demanding role.  →  chosen
+3. If only they had _______ flexible working hours, burnout rates would drop.  →  implemented
+4. He wishes he had _______ more mindful of his limits.  →  been
+5. If only the management had _______ clearer policies on overtime, staff would feel protected.  →  implemented
+
 <!-- /topic -->
 
 <!-- topic: b3-t11 -->
-## b3-t11 ·  Epistemic modality (may / might / could / appear to / tend to) · C1
+## b3-t11 · Epistemic modality (may / might / could / appear to / tend to) · C1
 
 **Tiếng Việt:** Phương tiện diễn đạt thái độ nhận thức
 
@@ -423,10 +733,41 @@ Phương tiện diễn đạt thái độ nhận thức (epistemic modality) dù
 - EN: Those who build emotional resilience tend to withstand life's inevitable setbacks without slipping into crisis.
   VI: Những người xây dựng khả năng chịu đựng cảm xúc thường có thể vượt qua những khó khăn không tránh khỏi của cuộc sống mà không rơi vào khủng hoảng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để điền vào chỗ trống.
+
+1. The new policy _____ reduce stigma around mental health.
+   A. could  |  B. may  |  C. tend  |  D. might  →  may
+2. Researchers _____ have found a link between social media use and anxiety.
+   A. appear  |  B. might  |  C. could  |  D. tend  →  might
+3. Community programmes _____ appear to improve wellbeing in underserved areas.
+   A. might  |  B. could  |  C. may  |  D. tend  →  could
+4. Students _____ tend to avoid seeking help if they fear judgment.
+   A. might  |  B. appear  |  C. may  |  D. could  →  may
+5. Experts _____ suggest that early intervention could prevent more severe disorders.
+   A. appear  |  B. might  |  C. could  |  D. may  →  might
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [might] [the] [researchers] [have] [identified] [a] [new] [risk] [factor]  →  the researchers might have identified a new risk factor
+2. [could] [schools] [implement] [mental] [health] [curricula] [to] [support] [students]  →  schools could implement mental health curricula to support students
+3. [tend] [people] [to] [overlook] [early] [signs] [of] [depression]  →  people tend to overlook early signs of depression
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** may · might · could · appear · tend · should
+
+1. The organization _____ launch a public campaign next month.  →  may
+2. These findings _____ suggest a correlation between stress and sleep quality.  →  might
+3. Such interventions _____ appear to reduce stigma over time.  →  appear
+4. Individuals _____ tend to ignore their own mental health needs when busy.  →  tend
+5. Policymakers _____ consider allocating more funds to community clinics.  →  could
+
 <!-- /topic -->
 
 <!-- topic: b3-t12 -->
-## b3-t12 ·  Participle clauses — contrast and concession · C1
+## b3-t12 · Participle clauses — contrast and concession · C1
 
 **Tiếng Việt:** Mệnh đề phân từ chỉ đối lập và nhượng bộ
 
@@ -460,10 +801,41 @@ Mệnh đề phân từ (participle clause) là một mệnh đề không có ch
 - EN: Despite being aware of the benefits of mindfulness, many individuals continue maladaptive coping.
   VI: Mặc dù đã nhận thức được lợi ích của chánh niệm, nhiều người vẫn tiếp tục các cách đối phó không thích hợp.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng để hoàn thành câu.
+
+1. _____ feeling exhausted, she still managed to finish the report.
+   A. While  |  B. Having  |  C. Despite  |  D. Because  →  While
+2. _____ being aware of the benefits of mindfulness, many people still ignore it.
+   A. Having  |  B. While  |  C. Despite  |  D. Because  →  Despite
+3. _____ completed the training, the staff felt more confident handling stress.
+   A. Having  |  B. While  |  C. Despite  |  D. Because  →  Having
+4. _____ the manager expressing doubts, the team continued with the plan.
+   A. Despite  |  B. While  |  C. Having  |  D. Because  →  Despite
+5. _____ being under pressure, he delivered an outstanding presentation.
+   A. Even  |  B. While  |  C. Having  |  D. Because  →  Even
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Having] [identified] [the] [triggers] [they] [implemented] [coping] [strategies]  →  Having identified the triggers they implemented coping strategies
+2. [While] [exercising] [he] [noticed] [a] [sharp] [pain] [in] [his] [chest]  →  While exercising he noticed a sharp pain in his chest
+3. [Despite] [being] [exhausted] [the] [team] [finished] [the] [project] [on] [time]  →  Despite being exhausted the team finished the project on time
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Despite · While · Having · Even · Although · Because
+
+1. _____ being aware of the risks, she chose to proceed with the experiment.  →  Despite
+2. _____ working late into the night, he still managed to submit the report on time.  →  While
+3. _____ completed the training, the staff felt more confident handling stress.  →  Having
+4. _____ being exhausted, the researcher continued the interview.  →  Even
+5. _____ the data suggesting a rise in stress levels, the policy was not revised.  →  Having
+
 <!-- /topic -->
 
 <!-- topic: b3-t13 -->
-## b3-t13 ·  Impersonal passive + complex reporting (It is widely recognised that...) · C1
+## b3-t13 · Impersonal passive + complex reporting (It is widely recognised that...) · C1
 
 **Tiếng Việt:** Bị động phi nhân xưng phức tạp
 
@@ -500,10 +872,41 @@ Bị động phi nhân xưng phức tạp là cấu trúc dùng để đưa ra n
 - EN: It is widely recognised that no person should suffer or die due to lack of financial means.
   VI: Được công nhận rộng rãi rằng không ai nên chịu đựng hoặc chết vì thiếu khả năng tài chính.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. ______ that the allocation of resources is often influenced by political agendas.
+   A. It is widely recognised  |  B. It is generally believed  |  C. It is commonly thought  |  D. It is widely accepted  →  It is widely recognised
+2. ______ that preventive care can reduce long‑term healthcare costs.
+   A. It is often ignored  |  B. It is widely recognised  |  C. It is rarely acknowledged  |  D. It is seldom noted  →  It is widely recognised
+3. ______ that underfunded emergency departments struggle to meet demand.
+   A. It is widely recognised  |  B. It is clearly evident  |  C. It is absolutely certain  |  D. It is undeniably true  →  It is widely recognised
+4. ______ that health inequalities persist despite overall improvements in life expectancy.
+   A. It is widely recognised  |  B. It is obviously false  |  C. It is completely unknown  |  D. It is rarely seen  →  It is widely recognised
+5. ______ that market‑based healthcare can exacerbate social disparities.
+   A. It is definitely disproved  |  B. It is widely recognised  |  C. It is hardly relevant  |  D. It is seldom discussed  →  It is widely recognised
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [is] [widely] [recognised] [that] [access] [to] [care] [remains] [unequal]  →  It is widely recognised that access to care remains unequal
+2. [It] [is] [widely] [recognised] [that] [preventive] [measures] [lower] [mortality] [rates]  →  It is widely recognised that preventive measures lower mortality rates
+3. [It] [is] [widely] [recognised] [that] [underfunding] [leads] [to] [structural] [failures]  →  It is widely recognised that underfunding leads to structural failures
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ phù hợp để hoàn thành câu.
+**Từ gợi ý:** widely · recognised · rarely · occasionally · frequently · seldom
+
+1. ______ it is recognised that health policy shapes outcomes.  →  widely
+2. ______ it is recognised that preventive care saves costs.  →  widely
+3. ______ it is recognised that underfunded systems fail to meet demand.  →  widely
+4. It is ______ recognised that market mechanisms can increase inequality.  →  widely
+5. It is widely ______ that access to medication varies by region.  →  recognised
+
 <!-- /topic -->
 
 <!-- topic: b3-t14 -->
-## b3-t14 ·  Noun + preposition collocations (access to / impact on / belief in) · C1
+## b3-t14 · Noun + preposition collocations (access to / impact on / belief in) · C1
 
 **Tiếng Việt:** Collocation danh từ + giới từ
 
@@ -536,10 +939,41 @@ Collocation danh từ + giới từ là một cụm từ cố định, trong đ�
 - EN: Their belief in the hedonic approach underlies many of the interventions discussed.
   VI: Niềm tin của họ vào cách tiếp cận khoái lạc là nền tảng cho nhiều can thiệp đã được thảo luận.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. Policymakers need _____ data to design effective wellbeing programs.
+   A. impact on  |  B. access to  |  C. depend on  |  D. belief in  →  access to
+2. The new policy's _____ the mental health of adolescents is still being evaluated.
+   A. belief in  |  B. focus on  |  C. impact on  |  D. access to  →  impact on
+3. Scientists' _____ the eudaimonic model drives their research agenda.
+   A. rely on  |  B. impact on  |  C. belief in  |  D. access to  →  belief in
+4. Universities must provide students with _____ resources for stress management.
+   A. focus on  |  B. access to  |  C. belief in  |  D. impact on  →  access to
+5. The documentary explores the _____ technology on community wellbeing.
+   A. depend on  |  B. impact on  |  C. belief in  |  D. access to  →  impact on
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [has] [the] [team] [access] [to] [relevant] [datasets]  →  has access to relevant datasets
+2. [studies] [the] [impact] [on] [urban] [green] [spaces]  →  studies the impact on urban green spaces
+3. [her] [belief] [in] [mindfulness] [practices] [is] [strong]  →  her belief in mindfulness practices is strong
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để hoàn thành câu.
+**Từ gợi ý:** access to · impact on · belief in · focus on · rely on · depend on
+
+1. The committee granted researchers _____ the latest wellbeing metrics.  →  access to
+2. Longitudinal studies reveal a significant _____ happiness when community ties are strong.  →  impact on
+3. Her _____ the scientific method guides her experimental design.  →  belief in
+4. Effective policies _____ mental health require cross‑sector collaboration.  →  focus on
+5. The report emphasizes the need to _____ evidence when forming conclusions.  →  rely on
+
 <!-- /topic -->
 
 <!-- topic: b3-t15 -->
-## b3-t15 ·  Adverbial clauses of condition (provided that / as long as / unless / on condition that) · C1
+## b3-t15 · Adverbial clauses of condition (provided that / as long as / unless / on condition that) · C1
 
 **Tiếng Việt:** Mệnh đề điều kiện nâng cao
 
@@ -573,10 +1007,41 @@ Mệnh đề phụ chỉ điều kiện (provided that, as long as, unless, on c
 - EN: Experts stress restructuring the environment, unless you rely solely on willpower.
   VI: Các chuyên gia nhấn mạnh việc tái cấu trúc môi trường, trừ khi bạn chỉ dựa vào ý chí.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn liên từ phù hợp để hoàn thành câu.
+
+1. You can join the workshop, _____ you commit to practicing daily.
+   A. unless  |  B. as long as  |  C. provided that  |  D. on condition that  →  provided that
+2. The program will continue, _____ the funding is renewed.
+   A. as long as  |  B. unless  |  C. provided that  |  D. on condition that  →  as long as
+3. She will not accept the offer, _____ she receives a better salary elsewhere.
+   A. on condition that  |  B. unless  |  C. as long as  |  D. provided that  →  unless
+4. The contract is valid, _____ both parties sign it by Friday.
+   A. unless  |  B. as long as  |  C. provided that  |  D. on condition that  →  on condition that
+5. He can travel abroad, _____ he obtains a visa.
+   A. provided that  |  B. unless  |  C. as long as  |  D. on condition that  →  as long as
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [will] [you] [receive] [the] [bonus] [provided] [that] [you] [meet] [the] [targets]  →  you will receive the bonus provided that you meet the targets
+2. [students] [may] [use] [the] [lab] [as] [long] [as] [they] [follow] [safety] [protocols]  →  students may use the lab as long as they follow safety protocols
+3. [the] [team] [won] [the] [match] [unless] [the] [star] [player] [was] [injured]  →  the team won the match unless the star player was injured
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền liên từ thích hợp vào chỗ trống.
+**Từ gợi ý:** provided that · as long as · unless · on condition that · if · though
+
+1. The new policy will be implemented, _____ the board approves it.  →  provided that
+2. She will stay abroad, _____ she finishes her thesis.  →  as long as
+3. The garden will thrive, _____ you water it regularly.  →  unless
+4. The grant will be awarded, _____ the project meets all criteria.  →  on condition that
+5. You may access the database, _____ you have a valid login.  →  provided that
+
 <!-- /topic -->
 
 <!-- topic: b3-t16 -->
-## b3-t16 ·  Adverbial clauses of contrast (whereas / while / despite the fact that) · C1
+## b3-t16 · Adverbial clauses of contrast (whereas / while / despite the fact that) · C1
 
 **Tiếng Việt:** Mệnh đề đối lập và nhượng bộ nâng cao
 
@@ -610,10 +1075,41 @@ Mệnh đề phụ đối lập (adverbial clause of contrast) dùng để so s�
 - EN: Despite the fact that the global food system has undergone radical transformation, obesity rates continue to rise.
   VI: Mặc dù thực tế là hệ thống thực phẩm toàn cầu đã trải qua sự chuyển đổi triệt để, tỷ lệ béo phì vẫn tiếp tục tăng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn liên từ phù hợp để hoàn thành câu.
+
+1. The committee approved the new policy, _____ the minority members voiced strong objections.
+   A. but  |  B. although  |  C. whereas  |  D. while  →  whereas
+2. She continued her research, _____ her peers abandoned the project.
+   A. while  |  B. but  |  C. although  |  D. despite the fact that  →  while
+3. _____ the evidence was inconclusive, the jury reached a verdict quickly.
+   A. While  |  B. Although  |  C. Despite the fact that  |  D. Whereas  →  Despite the fact that
+4. The coastal town thrives on tourism, _____ it suffers from frequent flooding.
+   A. whereas  |  B. but  |  C. while  |  D. although  →  while
+5. The novel explores themes of identity, _____ it maintains a fast‑paced plot.
+   A. although  |  B. whereas  |  C. but  |  D. while  →  whereas
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [research] [was] [costly] [while] [the] [results] [were] [promising]  →  The research was costly while the results were promising
+2. [Many] [students] [prefer] [online] [learning] [whereas] [their] [parents] [value] [face‑to‑face] [interaction]  →  Many students prefer online learning whereas their parents value face‑to‑face interaction
+3. [Despite] [the] [fact] [that] [the] [weather] [was] [stormy] [the] [festival] [went] [ahead]  →  Despite the fact that the weather was stormy the festival went ahead
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền liên từ thích hợp vào chỗ trống.
+**Từ gợi ý:** whereas · while · despite the fact that · although · but · however
+
+1. The CEO emphasized sustainability, _____ the company's profits declined last quarter.  →  while
+2. _____ the study showed mixed results, the researchers proceeded with the trial.  →  despite the fact that
+3. The northern region enjoys abundant rainfall, _____ the southern region suffers from drought.  →  whereas
+4. _____ the new regulations were introduced, many businesses struggled to adapt.  →  despite the fact that
+5. The artist experiments with digital media, _____ her paintings remain rooted in classical techniques.  →  while
+
 <!-- /topic -->
 
 <!-- topic: b3-t17 -->
-## b3-t17 ·  Future Perfect and Future Perfect Continuous · C1
+## b3-t17 · Future Perfect and Future Perfect Continuous · C1
 
 **Tiếng Việt:** Tương lai hoàn thành và tương lai hoàn thành tiếp diễn
 
@@ -649,10 +1145,41 @@ Thì tương lai hoàn thành (will have + V3) diễn tả một hành động s
 - EN: By the time the regulatory review concludes, the pharmaceutical company will have completed all required safety studies.
   VI: Khi quá trình xem xét quy định kết thúc, công ty dược phẩm sẽ đã hoàn thành tất cả các nghiên cứu an toàn bắt buộc.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng Future Perfect hoặc Future Perfect Continuous phù hợp để hoàn thành câu.
+
+1. By the end of the decade, the global health community _____ the incidence of malaria.
+   A. will be reducing  |  B. will have reduced  |  C. will reduce  |  D. will have been reducing  →  will have reduced
+2. When the clinical trial finishes, the team _____ data for three years.
+   A. will have collected  |  B. will have been collecting  |  C. will collect  |  D. will be collecting  →  will have been collecting
+3. By the time the vaccine is rolled out, manufacturers _____ billions of doses.
+   A. will have been producing  |  B. will have produced  |  C. will produce  |  D. will be producing  →  will have produced
+4. In five years, the research institute _____ new CRISPR techniques.
+   A. will pioneer  |  B. will be pioneering  |  C. will have pioneered  |  D. will have been pioneering  →  will have pioneered
+5. After the conference, the panelists _____ the ethical implications of gene editing.
+   A. will discuss  |  B. will have been discussing  |  C. will have discussed  |  D. will be discussing  →  will have discussed
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [will] [have] [completed] [the] [trial] [by] [2025]  →  will have completed the trial by 2025
+2. [will] [have] [been] [monitoring] [patient] [outcomes] [for] [the] [next] [year]  →  will have been monitoring patient outcomes for the next year
+3. [will] [have] [released] [the] [new] [vaccine] [before] [the] [flu] [season]  →  will have released the new vaccine before the flu season
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** completed · produced · reduced · monitoring · started · initiated
+
+1. By 2028, the consortium will have _____ the genome‑wide analysis of rare diseases.  →  completed
+2. By the time the vaccine is approved, health officials will have _____ patient data continuously.  →  monitoring
+3. In ten years, the industry will have _____ enough antiviral drugs to meet global demand.  →  produced
+4. By 2035, climate‑related health research will have _____ the incidence of heat‑stroke cases.  →  reduced
+5. After the rollout, the program will have _____ to show measurable improvements in vaccination rates.  →  started
+
 <!-- /topic -->
 
 <!-- topic: b3-t18 -->
-## b3-t18 ·  Embedded questions (I wonder whether... / The question is what...) · C1
+## b3-t18 · Embedded questions (I wonder whether... / The question is what...) · C1
 
 **Tiếng Việt:** Câu hỏi gián tiếp lồng ghép
 
@@ -690,10 +1217,41 @@ Câu hỏi gián tiếp lồng ghép (embedded question) dùng để truyền đ
 - EN: I wonder whether radiation exposure, muscle atrophy, and psychological isolation pose serious risks to extraterrestrial crews.
   VI: Tôi tự hỏi liệu việc tiếp xúc với bức xạ, teo cơ và cô lập tâm lý có gây ra những rủi ro nghiêm trọng cho các phi hành đoàn ngoài Trái Đất không.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ đúng để hoàn thành câu với câu hỏi gián tiếp lồng ghép.
+
+1. I wonder _____ the rover will detect water ice beneath the Martian surface.
+   A. how the rover will detect water ice beneath the Martian surface  |  B. what the rover will detect water ice beneath the Martian surface  |  C. if the rover will detect water ice beneath the Martian surface  |  D. whether the rover will detect water ice beneath the Martian surface  →  whether the rover will detect water ice beneath the Martian surface
+2. The question is _____ the new telescope can resolve distant exoplanet atmospheres.
+   A. if the new telescope can resolve distant exoplanet atmospheres  |  B. what the new telescope can resolve distant exoplanet atmospheres  |  C. whether the new telescope can resolve distant exoplanet atmospheres  |  D. how the new telescope can resolve distant exoplanet atmospheres  →  whether the new telescope can resolve distant exoplanet atmospheres
+3. Scientists are unsure _____ the particle accelerator will achieve the required energy levels.
+   A. how the particle accelerator will achieve the required energy levels  |  B. if the particle accelerator will achieve the required energy levels  |  C. whether the particle accelerator will achieve the required energy levels  |  D. what the particle accelerator will achieve the required energy levels  →  whether the particle accelerator will achieve the required energy levels
+4. She asked herself _____ the mission timeline could be shortened without compromising safety.
+   A. if the mission timeline could be shortened without compromising safety  |  B. how the mission timeline could be shortened without compromising safety  |  C. whether the mission timeline could be shortened without compromising safety  |  D. what the mission timeline could be shortened without compromising safety  →  whether the mission timeline could be shortened without compromising safety
+5. The committee debated _____ the funding allocation would cover all necessary research phases.
+   A. how the funding allocation would cover all necessary research phases  |  B. if the funding allocation would cover all necessary research phases  |  C. whether the funding allocation would cover all necessary research phases  |  D. what the funding allocation would cover all necessary research phases  →  whether the funding allocation would cover all necessary research phases
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [wonder] [I] [whether] [the] [probe] [will] [capture] [high‑resolution] [images]  →  I wonder whether the probe will capture high‑resolution images
+2. [question] [The] [is] [what] [future] [space] [policy] [requires] [global] [cooperation]  →  The question is what future space policy requires global cooperation
+3. [wonder] [Scientists] [if] [the] [new] [sensor] [can] [detect] [micrometeoroids]  →  Scientists wonder if the new sensor can detect micrometeoroids
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống, tạo câu hỏi gián tiếp lồng ghép.
+**Từ gợi ý:** whether · if · what · how · when · why
+
+1. I wonder _____ the satellite will maintain its orbit for ten years.  →  whether
+2. The question is _____ the data suggests a new physics model.  →  what
+3. Researchers are curious _____ the experiment will produce consistent results.  →  if
+4. She pondered _____ the crew could cope with prolonged isolation.  →  how
+5. We need to determine _____ the launch window opens next month.  →  when
+
 <!-- /topic -->
 
 <!-- topic: b3-t19 -->
-## b3-t19 ·  Discourse markers for academic writing (Moreover / Nevertheless / Consequently / Notwithstanding) · C1
+## b3-t19 · Discourse markers for academic writing (Moreover / Nevertheless / Consequently / Notwithstanding) · C1
 
 **Tiếng Việt:** Liên từ học thuật cao cấp
 
@@ -727,10 +1285,41 @@ Các liên từ học thuật cao cấp (Moreover, Nevertheless, Consequently, N
 - EN: Consequently, the dependency ratio widens, prompting urgent reforms to pension systems.
   VI: Do đó, tỷ lệ phụ thuộc đang mở rộng, thúc đẩy các cải cách khẩn cấp đối với hệ thống lương hưu.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn liên từ học thuật phù hợp để điền vào chỗ trống.
+
+1. The research indicates a rise in life expectancy; _____, the proportion of retirees is also increasing.
+   A. Nevertheless  |  B. Moreover  |  C. Consequently  |  D. Notwithstanding  →  Consequently
+2. The policy aims to reduce fiscal pressure; _____, it must also safeguard pension rights.
+   A. Consequently  |  B. Nevertheless  |  C. Moreover  |  D. Notwithstanding  →  Nevertheless
+3. The study found that social isolation harms health; _____, community programmes are essential.
+   A. Notwithstanding  |  B. Nevertheless  |  C. Moreover  |  D. Consequently  →  Moreover
+4. The demographic shift is evident; _____, cultural attitudes towards ageing remain unchanged.
+   A. Consequently  |  B. Nevertheless  |  C. Notwithstanding  |  D. Moreover  →  Notwithstanding
+5. Economic forecasts predict higher healthcare costs; _____, governments should invest in preventive measures.
+   A. Nevertheless  |  B. Moreover  |  C. Consequently  |  D. Notwithstanding  →  Moreover
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Nevertheless] [the] [budget] [constraints] [necessitate] [prioritising] [elderly] [care]  →  Nevertheless the budget constraints necessitate prioritising elderly care
+2. [Moreover] [research] [shows] [that] [intergenerational] [programs] [enhance] [social] [cohesion]  →  Moreover research shows that intergenerational programs enhance social cohesion
+3. [Consequently] [rising] [longevity] [places] [greater] [demands] [on] [public] [health] [services]  →  Consequently rising longevity places greater demands on public health services
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền liên từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Moreover · Nevertheless · Consequently · Notwithstanding · However · Therefore
+
+1. The city council approved the new park; _____, it allocated additional funds for maintenance.  →  Moreover
+2. The study revealed a correlation between diet and cognition; _____, the sample size was limited.  →  Nevertheless
+3. Renewable energy adoption is accelerating; _____, carbon emissions are projected to decline.  →  Consequently
+4. The legislation was passed despite opposition; _____, it includes provisions for senior citizens.  →  Notwithstanding
+5. The policy aims to increase retirement age; _____, it must address potential age discrimination.  →  Nevertheless
+
 <!-- /topic -->
 
 <!-- topic: b3-t20 -->
-## b3-t20 ·  Conditional inversion (Were he to... / Had they... / Should it...) · C2
+## b3-t20 · Conditional inversion (Were he to... / Had they... / Should it...) · C2
 
 **Tiếng Việt:** Đảo ngữ trong câu điều kiện
 
@@ -765,10 +1354,41 @@ Các liên từ học thuật cao cấp (Moreover, Nevertheless, Consequently, N
 - EN: Should businesses commit to environmental stewardship, they will not merely preserve nature but also safeguard human health.
   VI: Nếu các doanh nghiệp cam kết bảo vệ môi trường, họ không chỉ bảo tồn thiên nhiên mà còn bảo vệ sức khỏe con người.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đảo ngữ thích hợp để hoàn thành câu.
+
+1. _____ the carbon emissions continue to rise, global temperatures will exceed 2°C by 2050.
+   A. Had  |  B. If  |  C. Should  |  D. Were  →  Were
+2. _____ the international community had coordinated their policies, the climate crisis could be mitigated.
+   A. Should  |  B. If  |  C. Had  |  D. Were  →  Had
+3. _____ we invest in renewable energy now, future generations will thank us.
+   A. Had  |  B. If  |  C. Should  |  D. Were  →  Should
+4. _____ the government were to impose a carbon tax, emissions would drop sharply.
+   A. If  |  B. Should  |  C. Had  |  D. Were  →  Were
+5. _____ the scientists had warned earlier, we might have avoided the biodiversity loss.
+   A. Should  |  B. If  |  C. Had  |  D. Were  →  Had
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Had] [the] [UN] [agreed] [to] [reduce] [emissions] [earlier]  →  Had the UN agreed to reduce emissions earlier
+2. [Should] [governments] [prioritize] [sustainability] [economic] [growth] [will] [follow]  →  Should governments prioritize sustainability economic growth will follow
+3. [Were] [corporations] [to] [adopt] [circular] [economy] [models] [waste] [would] [plummet]  →  Were corporations to adopt circular economy models waste would plummet
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Were · Had · Should · If · Would · Could
+
+1. _____ the planet's temperature rises unchecked, irreversible damage will ensue.  →  Should
+2. _____ the international community had funded green research, breakthroughs would be faster.  →  Had
+3. _____ we were to implement carbon pricing today, emissions could drop dramatically.  →  Were
+4. _____ policymakers had recognised the urgency, adaptation measures would already be in place.  →  Had
+5. _____ corporations commit to net‑zero targets, they will set industry standards.  →  Should
+
 <!-- /topic -->
 
 <!-- topic: b3-t21 -->
-## b3-t21 ·  Non-defining relative clauses and reduced relatives · C1
+## b3-t21 · Non-defining relative clauses and reduced relatives · C1
 
 **Tiếng Việt:** Mệnh đề quan hệ không xác định và rút gọn
 
@@ -802,10 +1422,41 @@ Mệnh đề quan hệ không xác định (non‑defining relative clause) dùn
 - EN: Governments must accelerate technology adoption in underserved regions, accelerating the digital inclusion of marginalized communities.
   VI: Các chính phủ phải tăng tốc độ áp dụng công nghệ ở các khu vực chưa được phục vụ, đồng thời thúc đẩy việc bao gồm kỹ thuật số cho các cộng đồng thiểu số.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu với mệnh đề quan hệ không xác định hoặc rút gọn.
+
+1. The conference, _____, attracted experts from around the world.
+   A. which was held in Berlin  |  B. who was held in Berlin  |  C. whom was held in Berlin  |  D. that was held in Berlin  →  which was held in Berlin
+2. The new software, _____, improves data security.
+   A. that reduces latency  |  B. which reduces latency  |  C. who reduces latency  |  D. whom reduces latency  →  which reduces latency
+3. Students, _____, must submit their assignments by Friday.
+   A. who have completed the prerequisite course  |  B. which have completed the prerequisite course  |  C. whom have completed the prerequisite course  |  D. that have completed the prerequisite course  →  who have completed the prerequisite course
+4. The report, _____, was published yesterday.
+   A. prepared by the research team  |  B. preparing by the research team  |  C. preparing the research team  |  D. prepared the research team  →  prepared by the research team
+5. The CEO, _____, announced the merger.
+   A. having reviewed the financials  |  B. who having reviewed the financials  |  C. which having reviewed the financials  |  D. that having reviewed the financials  →  having reviewed the financials
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [policy] [which] [was] [adopted] [last] [year] [has] [proved] [effective]  →  The policy which was adopted last year has proved effective
+2. [Researchers] [developing] [new] [algorithm] [have] [shown] [promising] [results]  →  Researchers developing new algorithm have shown promising results
+3. [The] [device] [which] [stores] [large] [amounts] [of] [data] [is] [expensive]  →  The device which stores large amounts of data is expensive
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** which · who · prepared · accelerating · having · that
+
+1. The smartphone, _____, has become indispensable for many users.  →  which
+2. Community leaders, _____, are advocating for better broadband access.  →  who
+3. The guidelines, _____, were issued by the ministry last month.  →  prepared
+4. Governments, _____, must address the digital divide.  →  accelerating
+5. The project, _____, received funding from the EU.  →  having
+
 <!-- /topic -->
 
 <!-- topic: b3-t22 -->
-## b3-t22 ·  Passive voice — full range (is being / will have been / might have been) · C1
+## b3-t22 · Passive voice — full range (is being / will have been / might have been) · C1
 
 **Tiếng Việt:** Bị động — toàn dải thì và thể
 
@@ -843,10 +1494,41 @@ Câu bị động được dùng để nhấn mạnh hành động hoặc khi ng
 - EN: If bias is not addressed, certain groups might have been disproportionately disadvantaged by AI predictions.
   VI: Nếu thiên lệch không được giải quyết, một số nhóm có thể đã bị các dự đoán của AI bất lợi một cách không cân xứng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng bị động thích hợp để hoàn thành câu.
+
+1. The new regulations _____ (be) enforced by the government next year.
+   A. will have been  |  B. are being  |  C. might have been  |  D. has been  →  will have been
+2. The dataset _____ (be) cleaned before training the model.
+   A. might have been  |  B. will have been  |  C. is being  |  D. was  →  is being
+3. Several ethical concerns _____ (be) raised during the conference.
+   A. are being  |  B. will have been  |  C. has been  |  D. might have been  →  might have been
+4. All user data _____ (be) anonymized to protect privacy.
+   A. might have been  |  B. will have been  |  C. is being  |  D. were  →  is being
+5. The original code _____ (be) rewritten after the security audit.
+   A. has been  |  B. might have been  |  C. will have been  |  D. are being  →  might have been
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [will] [have] [been] [approved] [the] [policy] [by] [the] [committee]  →  the policy will have been approved by the committee
+2. [is] [being] [monitored] [the] [city] [by] [surveillance] [cameras]  →  the city is being monitored by surveillance cameras
+3. [might] [have] [been] [overlooked] [by] [the] [review] [team]  →  the review team might have been overlooked
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền dạng bị động thích hợp vào chỗ trống.
+**Từ gợi ý:** is being · will have been · might have been · are being · has been · were
+
+1. If the algorithm's bias is not corrected, certain groups _____ disadvantaged.  →  might have been
+2. The transparency report _____ released tomorrow.  →  will have been
+3. During the audit, several undocumented changes _____ discovered.  →  were
+4. Current AI models _____ evaluated for ethical compliance.  →  are being
+5. The historical data _____ used to train the system.  →  is being
+
 <!-- /topic -->
 
 <!-- topic: b3-t23 -->
-## b3-t23 ·  Reporting verbs — stance and attitude (concede / acknowledge / assert / dispute) · C1
+## b3-t23 · Reporting verbs — stance and attitude (concede / acknowledge / assert / dispute) · C1
 
 **Tiếng Việt:** Động từ truyền đạt thể hiện lập trường
 
@@ -882,10 +1564,41 @@ Các động từ truyền đạt thể hiện lập trường (acknowledge, con
 - EN: Critics dispute the claim that recommendation engines merely push users into echo chambers.
   VI: Các nhà phê bình tranh cãi quan điểm cho rằng các công cụ đề xuất chỉ đẩy người dùng vào các buồng vang.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn động từ phù hợp để hoàn thành câu.
+
+1. The committee _____ that the new policy will improve media literacy across schools.
+   A. assert  |  B. dispute  |  C. acknowledge  |  D. concede  →  acknowledge
+2. While many experts _____ the impact of algorithms, the researcher insists the effect is negligible.
+   A. concede  |  B. assert  |  C. dispute  |  D. acknowledge  →  dispute
+3. The author _____ that the rise of digital platforms has accelerated polarisation, but offers no solution.
+   A. concede  |  B. acknowledge  |  C. assert  |  D. dispute  →  assert
+4. Even though the data is compelling, the journalist _____ the significance of the findings.
+   A. dispute  |  B. acknowledge  |  C. concede  |  D. assert  →  concede
+5. Policy makers _____ that misinformation spreads faster than verified reporting, urging stricter regulations.
+   A. dispute  |  B. concede  |  C. acknowledge  |  D. assert  →  assert
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [researchers] [acknowledge] [that] [bias] [exists] [in] [news] [coverage]  →  researchers acknowledge that bias exists in news coverage
+2. [critics] [dispute] [the] [claim] [that] [social] [media] [censors] [opinions]  →  critics dispute the claim that social media censors opinions
+3. [authorities] [concede] [they] [cannot] [control] [the] [spread] [of] [disinformation]  →  authorities concede they cannot control the spread of disinformation
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** concede · acknowledge · assert · dispute · claim · suggest
+
+1. The report _____ that algorithmic bias is influencing public opinion.  →  assert
+2. Many scholars _____ the notion that media literacy alone can solve misinformation.  →  dispute
+3. The committee _____ that the proposed regulation may curb fake news.  →  acknowledge
+4. Even after the evidence, the spokesperson _____ that the company was not responsible.  →  concede
+5. Researchers _____ that digital platforms accelerate polarisation.  →  claim
+
 <!-- /topic -->
 
 <!-- topic: b3-t24 -->
-## b3-t24 ·  Compound modifiers and binomials (well-established / fast-changing / trial and error) · C1
+## b3-t24 · Compound modifiers and binomials (well-established / fast-changing / trial and error) · C1
 
 **Tiếng Việt:** Tính từ ghép và cặp từ cố định
 
@@ -923,10 +1636,41 @@ Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) 
 - EN: Many diaspora groups adapt through trial and error, balancing heritage expectations with new societal norms.
   VI: Nhiều nhóm người di cư thích nghi qua việc thử và sai, cân bằng giữa kỳ vọng di sản và các chuẩn mực xã hội mới.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. The university introduced a _____ curriculum to reflect modern research trends.
+   A. well‑established  |  B. fast‑changing  |  C. trial and error  |  D. slow‑moving  →  well‑established
+2. In the tech sector, product development is often a process of _____.
+   A. fast‑changing  |  B. well‑known  |  C. trial and error  |  D. fast‑paced  →  trial and error
+3. The city’s _____ infrastructure struggled to keep up with the influx of migrants.
+   A. fast‑changing  |  B. well‑established  |  C. slow‑moving  |  D. well‑known  →  fast‑changing
+4. Her reputation as a _____ scholar made her a sought‑after speaker at conferences.
+   A. fast‑paced  |  B. well‑known  |  C. trial and error  |  D. slow‑moving  →  well‑known
+5. The policy was criticized for being too _____, lacking clear direction.
+   A. fast‑paced  |  B. well‑established  |  C. slow‑moving  |  D. trial and error  →  slow‑moving
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [fast‑changing] [media] [has] [the] [global] [landscape]  →  The global media landscape is fast‑changing
+2. [well‑established] [practice] [of] [peer] [review] [remains]  →  The well‑established practice of peer review remains
+3. [trial] [and] [error] [approach] [is] [effective]  →  The trial and error approach is effective
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** well‑established · fast‑changing · trial and error · well‑known · fast‑paced · slow‑moving
+
+1. The conference highlighted a _____ framework for sustainable development.  →  well‑established
+2. Researchers noted that the field is becoming increasingly _____ due to rapid technological advances.  →  fast‑changing
+3. Learning a new language often involves a lot of _____, especially in the early stages.  →  trial and error
+4. She is a _____ author whose books are translated into dozens of languages.  →  well‑known
+5. The startup’s growth was _____, outpacing many of its competitors within a year.  →  fast‑paced
+
 <!-- /topic -->
 
 <!-- topic: b3-t25 -->
-## b3-t25 ·  Modal verbs — deduction and speculation (must have / can't have / might have) · C1
+## b3-t25 · Modal verbs — deduction and speculation (must have / can't have / might have) · C1
 
 **Tiếng Việt:** Động từ khuyết thiếu suy luận về quá khứ
 
@@ -961,10 +1705,41 @@ Tính từ ghép là cụm tính từ + quá khứ phân từ (past participle) 
 - EN: Offenders might have benefited from restorative justice programmes.
   VI: Các tội phạm có thể đã được hưởng lợi từ các chương trình tư pháp phục hồi.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. The judge _____ known about the precedent before delivering the verdict.
+   A. might have  |  B. must have  |  C. should have  |  D. could have  →  must have
+2. Given the alibi, the suspect _____ been at the scene.
+   A. might have  |  B. must have  |  C. could have  |  D. can't have  →  can't have
+3. She _____ left early, but we aren't sure.
+   A. must have  |  B. can't have  |  C. might have  |  D. should have  →  might have
+4. The forensic report _____ been tampered with, according to the defense.
+   A. can't have  |  B. must have  |  C. might have  |  D. could have  →  might have
+5. If the witness was truthful, the defendant _____ committed the crime.
+   A. might have  |  B. can't have  |  C. must have  |  D. should have  →  must have
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [defendant] [must] [have] [been] [present] [in] [court]  →  The defendant must have been present in court
+2. [they] [can't] [have] [ignored] [the] [evidence]  →  they can't have ignored the evidence
+3. [He] [might] [have] [joined] [the] [rehabilitation] [program] [later]  →  He might have joined the rehabilitation program later
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** must have · can't have · might have · should have · could have · would have
+
+1. The prosecutor believes the suspect _____ committed the robbery.  →  must have
+2. Given the CCTV footage, the alibi _____ be true.  →  can't have
+3. She _____ forgotten to submit the report, but we need confirmation.  →  might have
+4. The jury thought the defendant _____ been present at the scene, though evidence was inconclusive.  →  might have
+5. If the policy had been stricter, the crime rate _____ dropped significantly.  →  could have
+
 <!-- /topic -->
 
 <!-- topic: b3-t26 -->
-## b3-t26 ·  Subjunctive mood (It is essential that they be consulted) · C2
+## b3-t26 · Subjunctive mood (It is essential that they be consulted) · C2
 
 **Tiếng Việt:** Thức giả định
 
@@ -999,10 +1774,41 @@ Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đ
 - EN: It was surprising that the spokesperson remain silent despite mounting evidence of fraud.
   VI: Thật bất ngờ khi người phát ngôn im lặng mặc dù có bằng chứng gian lận ngày càng tăng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng của động từ trong ngoặc để hoàn thành câu (thì giả định).
+
+1. It is crucial that the committee _____ (review) the proposal before the deadline.
+   A. reviewed  |  B. review  |  C. reviews  |  D. will review  →  review
+2. The board insisted that the policy _____ (reflect) the latest regulations.
+   A. reflects  |  B. reflect  |  C. reflected  |  D. will reflect  →  reflect
+3. She suggested that the university _____ (offer) more scholarships for low‑income students.
+   A. offers  |  B. offered  |  C. offer  |  D. will offer  →  offer
+4. It was surprising that the activist _____ (remain) silent during the debate.
+   A. remains  |  B. remain  |  C. remained  |  D. will remain  →  remain
+5. The charter requires that every member _____ (participate) in the annual review.
+   A. participates  |  B. participated  |  C. participate  |  D. will participate  →  participate
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [vital] [be] [citizens] [It] [that] [informed] [is]  →  It is vital that citizens be informed
+2. [promptly] [be] [report] [that] [demanded] [committee] [the] [revised] [The]  →  The committee demanded that the report be revised promptly
+3. [applied] [be] [laws] [that] [stipulates] [constitution] [all] [equally] [the] [is]  →  The constitution is that all laws be applied equally
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống (thì giả định).
+**Từ gợi ý:** review · reflect · offer · remain · participate · exceed
+
+1. It is essential that the panel _____ the findings before publishing.  →  review
+2. The guidelines state that every article _____ the journal's standards.  →  reflect
+3. The foundation hopes that the program _____ additional funding next year.  →  offer
+4. It is surprising that the spokesperson _____ silent during the crisis.  →  remain
+5. The charter mandates that each delegate _____ in the decision‑making process.  →  participate
+
 <!-- /topic -->
 
 <!-- topic: b3-t27 -->
-## b3-t27 ·  Fronting for emphasis and cohesion · C1
+## b3-t27 · Fronting for emphasis and cohesion · C1
 
 **Tiếng Việt:** Đảo ngữ đầu câu phục vụ mạch lạc
 
@@ -1038,10 +1844,41 @@ Thức giả định (subjunctive) là dạng động từ dùng trong mệnh đ
 - EN: Welfare systems that fail to address the root causes of exclusion, can inadvertently disenfranchise the very people they aim to help.
   VI: Các hệ thống phúc lợi không giải quyết được nguyên nhân gốc rễ của sự loại trừ có thể vô tình tước bỏ quyền lợi của chính những người mà chúng nhằm giúp đỡ.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để điền vào chỗ trống, tạo câu đảo ngữ nhấn mạnh.
+
+1. _____ the rising cost of living, many families are forced to cut back on education expenses.
+   A. Despite  |  B. Because of  |  C. Considering  |  D. Given  →  Given
+2. _____ the evidence presented, the committee decided to postpone the reform.
+   A. In spite of  |  B. According to  |  C. Despite  |  D. Following  →  Despite
+3. _____ the lack of affordable housing, urban planners are exploring new zoning policies.
+   A. Because  |  B. Despite  |  C. Due to  |  D. With  →  Due to
+4. _____ the recent data, policymakers must rethink the welfare allocation model.
+   A. Given  |  B. Although  |  C. When  |  D. If  →  Given
+5. _____ the pandemic's impact, many NGOs shifted their focus to digital outreach.
+   A. Considering  |  B. Despite  |  C. Because  |  D. While  →  Considering
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [to] [address] [inequality] [we] [must] [first] [recognise] [its] [systemic] [roots]  →  To address inequality we must first recognise its systemic roots
+2. [despite] [the] [shortfall] [government] [has] [committed] [additional] [funds]  →  Despite the shortfall government has committed additional funds
+3. [in] [response] [to] [public] [outcry] [the] [agency] [revised] [its] [policy]  →  In response to public outcry the agency revised its policy
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống để hoàn thành câu đảo ngữ.
+**Từ gợi ý:** Given · Despite · Considering · Due to · In contrast · Nevertheless
+
+1. _____ the steep decline in donations, charities continued to provide essential services.  →  Despite
+2. _____ the new tax legislation, many small enterprises anticipate higher operating costs.  →  Given
+3. _____ the extensive research, the council postponed the decision on the housing project.  →  Considering
+4. _____ the lack of reliable data, analysts were cautious in drawing firm conclusions.  →  Due to
+5. _____ the previous year's successes, the program was expanded to additional regions.  →  In contrast
+
 <!-- /topic -->
 
 <!-- topic: b3-t28 -->
-## b3-t28 ·  Abstract noun collocations (economic growth / fiscal policy / market forces) · C1
+## b3-t28 · Abstract noun collocations (economic growth / fiscal policy / market forces) · C1
 
 **Tiếng Việt:** Collocation với danh từ trừu tượng
 
@@ -1079,10 +1916,41 @@ Danh từ trừu tượng (abstract nouns) thường được dùng trong các c
 - EN: Economists speak of market equilibrium as the point where supply meets demand at a stable price.
   VI: Các nhà kinh tế nói về cân bằng thị trường như là điểm mà cung gặp cầu ở mức giá ổn định.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để điền vào chỗ trống.
+
+1. The government's decision to increase infrastructure spending was aimed at boosting _____.
+   A. budget deficit  |  B. economic growth  |  C. inflationary pressure  |  D. monetary policy  →  economic growth
+2. Critics argue that the current _____ is unsustainable and will lead to higher taxes.
+   A. market forces  |  B. fiscal policy  |  C. public debt  |  D. economic growth  →  fiscal policy
+3. When commodity prices fluctuate wildly, _____ can cause sudden shifts in consumer confidence.
+   A. budget deficit  |  B. market forces  |  C. monetary policy  |  D. government spending  →  market forces
+4. The central bank's primary tool for controlling _____ is the manipulation of interest rates.
+   A. inflationary pressure  |  B. economic growth  |  C. fiscal policy  |  D. market equilibrium  →  inflationary pressure
+5. A persistent _____ may force a country to borrow from international lenders.
+   A. budget deficit  |  B. economic growth  |  C. market forces  |  D. fiscal policy  →  budget deficit
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [borrowing] [Strategic] [can] [stimulate] [economic] [growth] [during] [downturns]  →  Strategic borrowing can stimulate economic growth during downturns
+2. [policy] [monetary] [higher] [inflationary] [leads] [to] [tightening] [often]  →  Tightening monetary policy often leads to higher inflationary pressure
+3. [amplify] [can] [Deregulation] [market] [forces] [affecting] [competition]  →  Deregulation can amplify market forces affecting competition
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** economic growth · fiscal policy · market forces · inflationary pressure · budget deficit · taxation
+
+1. Investors closely monitor _____ to gauge the health of the global economy.  →  economic growth
+2. The committee recommended a revision of the _____ to reduce the national debt.  →  fiscal policy
+3. During the crisis, _____ intensified, leading to volatile stock prices.  →  market forces
+4. Central banks aim to keep _____ within a target range to maintain price stability.  →  inflationary pressure
+5. To fund the new infrastructure project, the government ran a _____ this fiscal year.  →  budget deficit
+
 <!-- /topic -->
 
 <!-- topic: b3-t29 -->
-## b3-t29 ·  Prepositions with abstract nouns (adapt to / integrate into / contribute to) · C1
+## b3-t29 · Prepositions with abstract nouns (adapt to / integrate into / contribute to) · C1
 
 **Tiếng Việt:** Giới từ đi với danh từ trừu tượng
 
@@ -1120,10 +1988,41 @@ Giới từ đi kèm với danh từ trừu tượng (như integration, contribu
 - EN: Migrants must adapt to new legal systems that determine their status.
   VI: Người di cư phải thích nghi với các hệ thống pháp luật mới, những hệ thống này quyết định tình trạng của họ.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn giới từ và danh từ trừu tượng phù hợp để hoàn thành câu.
+
+1. Refugees often _____ the cultural norms of their host country within the first year.
+   A. adapt to  |  B. contribute to  |  C. integrate into  |  D. adjust with  →  integrate into
+2. The new policy aims to _____ the local economy by encouraging skilled migrants to start businesses.
+   A. integrate into  |  B. adapt to  |  C. contribute to  |  D. benefit from  →  contribute to
+3. Children who _____ a foreign school system may experience initial difficulties with language.
+   A. contribute to  |  B. integrate into  |  C. adapt to  |  D. adjust with  →  adapt to
+4. Community centres _____ the inclusion of newcomers through language classes and cultural events.
+   A. adapt to  |  B. integrate into  |  C. contribute to  |  D. support with  →  contribute to
+5. Successful societies _____ newcomers by offering pathways to citizenship.
+   A. integrate into  |  B. adapt to  |  C. contribute to  |  D. accept with  →  integrate into
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [students] [must] [adapt] [to] [new] [environment]  →  the students must adapt to new environment
+2. [they] [can] [contribute] [to] [the] [local] [economy] [with] [their] [skills]  →  they can contribute to the local economy with their skills
+3. [new] [families] [are] [encouraged] [to] [integrate] [into] [the] [community]  →  new families are encouraged to integrate into the community
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** adapt · integrate · contribute · belong · assimilate · cooperate
+
+1. Migrants often need to _____ to the legal requirements of their new country.  →  adapt
+2. Host societies benefit when newcomers _____ to civic life.  →  contribute
+3. Language programs help refugees _____ into the local community more quickly.  →  integrate
+4. Newcomers often seek ways to _____ in their host society.  →  belong
+5. When migrants _____, they may lose aspects of their original identity.  →  assimilate
+
 <!-- /topic -->
 
 <!-- topic: b3-t30 -->
-## b3-t30 ·  Emphatic structures (do/did + verb / the very / absolutely) · C1
+## b3-t30 · Emphatic structures (do/did + verb / the very / absolutely) · C1
 
 **Tiếng Việt:** Cấu trúc nhấn mạnh
 
@@ -1163,10 +2062,41 @@ Cấu trúc nhấn mạnh được dùng để làm nổi bật một hành đ�
 - EN: Accountability is absolutely essential to preventing the abuse of influence.
   VI: Trách nhiệm giải trình là hoàn toàn thiết yếu để ngăn ngừa việc lạm dụng quyền lực.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ phù hợp để hoàn thành câu nhấn mạnh.
+
+1. The board _____ consider every proposal before voting.
+   A. did  |  B. does  |  C. do  |  D. didn't  →  does
+2. She appreciated _____ detailed analysis you provided.
+   A. the very  |  B. the most  |  C. absolutely  |  D. the very  →  the very
+3. He _____ understand the complexities of global governance.
+   A. absolutely  |  B. did  |  C. does  |  D. the very  →  does
+4. Transparency is _____ crucial for public trust.
+   A. the very  |  B. does  |  C. absolutely  |  D. did  →  absolutely
+5. They _____ recognize the importance of ethical conduct.
+   A. did  |  B. the very  |  C. do  |  D. absolutely  →  do
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [inspire] [Leaders] [do]  →  Leaders do inspire
+2. [is] [absolutely] [Accountability] [crucial]  →  Accountability is absolutely crucial
+3. [requires] [Leadership] [the] [very] [best]  →  Leadership requires the very best
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** does · the very · absolutely · do · did · indeed
+
+1. She _____ understand the stakes involved.  →  does
+2. The report highlights _____ challenges faced by the organization.  →  the very
+3. We _____ need to act now to prevent further damage.  →  do
+4. He _____ appreciated the support from his team.  →  did
+5. Such behavior is _____ unacceptable.  →  absolutely
+
 <!-- /topic -->
 
 <!-- topic: b3-t31 -->
-## b3-t31 ·  Logical connectors (thus / hence / consequently / nevertheless / by contrast) · C1
+## b3-t31 · Logical connectors (thus / hence / consequently / nevertheless / by contrast) · C1
 
 **Tiếng Việt:** Liên từ logic trong lập luận
 
@@ -1199,10 +2129,41 @@ Liên từ logic (thus, hence, consequently, nevertheless, by contrast) là các
 - EN: The validity of an argument depends not on whether its premises are true, but on whether the conclusion follows logically from them; consequently, we must evaluate the logical structure.
   VI: Tính hợp lệ của một lập luận không phụ thuộc vào việc các tiền đề có đúng hay không, mà phụ thuộc vào việc kết luận có logic theo chúng hay không; do đó, chúng ta phải đánh giá cấu trúc logic.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn liên từ logic phù hợp để điền vào chỗ trống.
+
+1. The experiment yielded unexpected results, _____ the researchers revised their hypothesis.
+   A. hence  |  B. nevertheless  |  C. thus  |  D. by contrast  →  thus
+2. She prefers qualitative analysis; _____, her colleague relies on statistical data.
+   A. consequently  |  B. by contrast  |  C. hence  |  D. nevertheless  →  by contrast
+3. The policy was widely criticized; _____, the government defended its necessity.
+   A. thus  |  B. nevertheless  |  C. hence  |  D. consequently  →  nevertheless
+4. The river flooded the nearby fields, _____ the farmers suffered significant losses.
+   A. by contrast  |  B. thus  |  C. nevertheless  |  D. consequently  →  consequently
+5. He missed the deadline, _____ he was granted an extension due to extenuating circumstances.
+   A. nevertheless  |  B. hence  |  C. by contrast  |  D. thus  →  hence
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [researchers] [analyzed] [the] [data] [thus] [conclusions] [were] [drawn]  →  The researchers analyzed the data thus conclusions were drawn
+2. [The] [public] [supports] [the] [policy] [by contrast] [the] [government] [rejects] [it]  →  The public supports the policy by contrast the government rejects it
+3. [Rain] [consequently] [the] [match] [was] [postponed]  →  Rain consequently the match was postponed
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp trong ngân hàng từ để hoàn thành câu.
+**Từ gợi ý:** thus · consequently · nevertheless · by contrast · hence · however
+
+1. The evidence was inconclusive, _____ the jury could not reach a verdict.  →  consequently
+2. She had little experience, _____ she performed the task flawlessly.  →  nevertheless
+3. The two theories share many assumptions; _____, their predictions diverge sharply.  →  by contrast
+4. The experiment confirmed the hypothesis, _____ supporting the initial claim.  →  thus
+5. The costs are high; _____, the benefits outweigh the expenses.  →  hence
+
 <!-- /topic -->
 
 <!-- topic: b3-t32 -->
-## b3-t32 ·  Hedging with passive (It could be argued... / This suggests that...) · C1
+## b3-t32 · Hedging with passive (It could be argued... / This suggests that...) · C1
 
 **Tiếng Việt:** Ngôn ngữ phòng ngừa kết hợp bị động
 
@@ -1238,10 +2199,41 @@ Hedging với cấu trúc bị động dùng để đưa ra nhận định một
 - EN: Replication is considered the gold standard of scientific credibility, and it could be argued that it underpins the reliability of subsequent research.
   VI: Việc tái lập được coi là tiêu chuẩn vàng của độ tin cậy khoa học, và có thể lập luận rằng nó là nền tảng cho độ tin cậy của các nghiên cứu tiếp theo.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để hoàn thành câu.
+
+1. _____ that the results were influenced by uncontrolled variables.
+   A. It could be argued  |  B. It must  |  C. It seems  |  D. It is certain  →  It could be argued
+2. _____ the data support the hypothesis, further testing is required.
+   A. It proves  |  B. It indicates  |  C. It is suggested  |  D. It definitely  →  It is suggested
+3. _____ that the methodology was flawed, the study was re‑evaluated.
+   A. It is obvious  |  B. It could be argued  |  C. It has  |  D. It will  →  It could be argued
+4. _____ the findings are generalizable, the authors caution against over‑interpretation.
+   A. It is known  |  B. It is suggested  |  C. It is guaranteed  |  D. It is believed  →  It is suggested
+5. _____ that the correlation does not imply causation, the paper includes a discussion of confounding factors.
+   A. It definitely  |  B. It appears  |  C. It could be argued  |  D. It must  →  It could be argued
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [could] [be] [argued] [that] [the] [sample] [size] [was] [insufficient]  →  It could be argued that the sample size was insufficient
+2. [It] [is] [suggested] [that] [future] [research] [should] [address] [the] [limitations]  →  It is suggested that future research should address the limitations
+3. [It] [could] [be] [argued] [that] [ethical] [concerns] [must] [be] [considered]  →  It could be argued that ethical concerns must be considered
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** could · is · might · should · would · must
+
+1. It _____ be argued that the sample is not representative.  →  could
+2. It _____ be suggested that the theory needs refinement.  →  is
+3. It _____ be argued that the data may be biased.  →  might
+4. It _____ be recommended that researchers adopt a mixed‑methods approach.  →  should
+5. It _____ be expected that further replication will confirm the findings.  →  would
+
 <!-- /topic -->
 
 <!-- topic: b3-t33 -->
-## b3-t33 ·  Stance markers (arguably / it appears / may be said to) · C2
+## b3-t33 · Stance markers (arguably / it appears / may be said to) · C2
 
 **Tiếng Việt:** Marker lập trường trong học thuật
 
@@ -1275,10 +2267,41 @@ Marker lập trường là các từ hoặc cụm từ (như arguably, it appear
 - EN: Bias, whether ideological, cultural, or national, may be said to colour the interpretation of evidence, making it essential to challenge singular narratives.
   VI: Thiên kiến, dù là ý thức hệ, văn hoá hay quốc gia, có thể được cho là làm ảnh hưởng đến cách diễn giải bằng chứng, do đó việc thách thức các câu chuyện đơn lẻ là điều thiết yếu.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn marker lập trường phù hợp để hoàn thành câu.
+
+1. The recent data ___ suggest a shift in public opinion towards sustainability.
+   A. arguably  |  B. clearly  |  C. undoubtedly  |  D. it appears  →  arguably
+2. Given the fragmented sources, ___ that the early manuscript was widely circulated.
+   A. may be said to  |  B. it appears  |  C. definitely  |  D. certainly  →  it appears
+3. The policy's impact on marginalised groups ___ be considered indirect rather than direct.
+   A. may be said to  |  B. obviously  |  C. clearly  |  D. it appears  →  may be said to
+4. While the theory is compelling, ___ that it fully explains the phenomenon.
+   A. it appears  |  B. arguably  |  C. undeniably  |  D. certainly  →  arguably
+5. The author's tone ___ reflect a bias towards Western perspectives.
+   A. may be said to  |  B. clearly  |  C. obviously  |  D. it appears  →  may be said to
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [arguably] [the] [findings] [are] [preliminary]  →  arguably the findings are preliminary
+2. [it] [appears] [that] [the] [committee] [will] [delay] [the] [decision]  →  it appears that the committee will delay the decision
+3. [may] [be] [said] [to] [the] [results] [reflect] [a] [bias]  →  may be said to the results reflect a bias
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.
+**Từ gợi ý:** arguably · it appears · may be said to · clearly · undoubtedly · perhaps
+
+1. The correlation between the variables ___ be interpreted with caution.  →  may be said to
+2. Given the limited sample size, ___ that the results are indicative rather than definitive.  →  it appears
+3. The author's claim ___ overstated, considering the contradictory evidence.  →  arguably
+4. The new framework ___ improve interdisciplinary collaboration across departments.  →  may be said to
+5. Considering the historical context, ___ that the policy was progressive for its time.  →  it appears
+
 <!-- /topic -->
 
 <!-- topic: b3-t34 -->
-## b3-t34 ·  Complex relative clauses (with whom / whose / of which) · C1
+## b3-t34 · Complex relative clauses (with whom / whose / of which) · C1
 
 **Tiếng Việt:** Mệnh đề quan hệ với whom / whose / of which
 
@@ -1314,10 +2337,41 @@ Mệnh đề quan hệ phức tạp (complex relative clause) dùng các đại 
 - EN: The participants, whom the experimenter observed closely, showed varied responses.
   VI: Các người tham gia, mà nhà thí nghiệm quan sát kỹ, đã thể hiện các phản ứng đa dạng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đại từ quan hệ thích hợp để hoàn thành câu.
+
+1. The psychologist, _____ I consulted last year, specializes in memory disorders.
+   A. who  |  B. whom  |  C. which  |  D. whose  →  whom
+2. The theory, _____ principles are widely accepted, explains attribution.
+   A. that  |  B. whose  |  C. whom  |  D. of which  →  whose
+3. The study, _____ results were inconclusive, was later re‑run.
+   A. which  |  B. whose  |  C. of which  |  D. that  →  of which
+4. The participants, _____ we interviewed, provided valuable data.
+   A. who  |  B. whom  |  C. which  |  D. whose  →  whom
+5. The conference, _____ agenda includes a session on cognition, will be held next month.
+   A. whose  |  B. of which  |  C. that  |  D. which  →  whose
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [framework] [which] [was] [introduced] [in] [1975] [has] [been] [widely] [cited]  →  the framework which was introduced in 1975 has been widely cited
+2. [students] [whom] [the] [professor] [admired] [were] [given] [scholarships]  →  students whom the professor admired were given scholarships
+3. [the] [results] [of] [which] [were] [unexpected] [prompted] [further] [research]  →  the results of which were unexpected prompted further research
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền đại từ quan hệ thích hợp vào chỗ trống.
+**Từ gợi ý:** whom · whose · of which · who · that · which
+
+1. The committee, _____ recommendations were adopted, received praise.  →  whose
+2. The mentor, _____ I consulted frequently, gave me valuable advice.  →  whom
+3. The study, _____ findings were published last year, attracted attention.  →  of which
+4. The participants, _____ responses were recorded, completed the questionnaire.  →  whose
+5. The researcher, _____ work we cited, received a grant.  →  whose
+
 <!-- /topic -->
 
 <!-- topic: b3-t35 -->
-## b3-t35 ·  Apposition (a process known as... / the concept of... which refers to...) · C1
+## b3-t35 · Apposition (a process known as... / the concept of... which refers to...) · C1
 
 **Tiếng Việt:** Đồng vị ngữ — giải thích trong cùng câu
 
@@ -1353,18 +2407,47 @@ Mệnh đề quan hệ phức tạp (complex relative clause) dùng các đại 
 - EN: Effective iteration, the practice of refining a product through repeated cycles of testing and feedback, is what separates successful ventures from those that collapse on first contact with real users.
   VI: Việc lặp lại hiệu quả, thực hành tinh chỉnh sản phẩm qua các vòng thử nghiệm và phản hồi, là yếu tố phân biệt các dự án thành công với những dự án sụp đổ ngay khi tiếp xúc với người dùng thực.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm danh từ thích hợp để hoàn thành câu bằng cách chèn vào chỗ trống.
+
+1. The symposium attracted many experts, _____, who later published a joint paper.
+   A. the former  |  B. who were  |  C. a leading authority on memory  |  D. that had  →  a leading authority on memory
+2. The algorithm, _____, improves processing speed by 30%.
+   A. which is  |  B. the former  |  C. a simple heuristic  |  D. that is  →  a simple heuristic
+3. The funding round, _____, secured enough capital for the startup's expansion.
+   A. which was  |  B. a record-breaking investment  |  C. that was  |  D. the former  →  a record-breaking investment
+4. The lecture, _____, covered recent advances in neuroimaging.
+   A. the former  |  B. which is  |  C. an engaging presentation  |  D. that is  →  an engaging presentation
+5. The dataset, _____, contains over one million entries.
+   A. the former  |  B. a comprehensive collection  |  C. which is  |  D. that is  →  a comprehensive collection
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [allows] [engineers] [prototype] [early] [test] [is] [model] [that] [to] [an] [working] [assumptions] [The]  →  The prototype is an early working model that allows engineers to test assumptions
+2. [Scalability] [is] [the] [capacity] [of] [a] [solution] [to] [grow] [without] [proportional] [increases] [in] [cost] [or] [complexity]  →  Scalability is the capacity of a solution to grow without proportional increases in cost or complexity
+3. [Apposition] [is] [a] [grammatical] [device] [that] [adds] [explanatory] [information] [in] [academic] [writing]  →  Apposition is a grammatical device that adds explanatory information in academic writing
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ phù hợp từ ngân hàng để điền vào chỗ trống.
+**Từ gợi ý:** an early working model · the capacity · a groundbreaking study · a leading authority · the practice · the hypothesis
+
+1. The prototype, _____, was tested under extreme conditions.  →  an early working model
+2. Scalability, _____, determines whether a product can meet worldwide demand.  →  the capacity
+3. The research, _____, revealed new insights into memory consolidation.  →  a groundbreaking study
+4. Dr. Nguyen, _____, presented her findings at the conference.  →  a leading authority
+5. The iterative cycle, _____, helps refine the algorithm continuously.  →  the practice
+
 <!-- /topic -->
 
 <!-- topic: b3-t36 -->
-## b3-t36 ·  Parallel structures (not only...but also / both...and / either...or) · C1
+## b3-t36 · Parallel structures (not only...but also / both...and / either...or) · C1
 
 **Tiếng Việt:** Cấu trúc song song
 
 ### Cấu trúc
 ```
 ✚ Subject + verb + not only + Verb1 + but also + Verb2
-Subject + verb + both + Noun1 + and + Noun2
-Subject + verb + either + Option1 + or + Option2
 ↳ both ... and
 ```
 
@@ -1392,10 +2475,41 @@ Cấu trúc song song (parallel structure) dùng để liệt kê hoặc so sán
 - EN: Educators must decide whether to focus on content delivery either through lecture or through collaborative projects.
   VI: Các nhà giáo dục phải quyết định liệu có nên tập trung vào việc truyền đạt nội dung thông qua giảng bài hay qua các dự án hợp tác.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để hoàn thành cấu trúc song song trong câu.
+
+1. The study examines _____ the impact of social media _____ the role of peer influence.
+   A. either  |  B. not only  |  C. both  |  D. neither  →  both
+2. The article argues that _____ the methodology is sound _____ the conclusions are valid.
+   A. both  |  B. neither  |  C. either  |  D. not only  →  not only
+3. Researchers must decide _____ to focus on qualitative data _____ to prioritize quantitative analysis.
+   A. either  |  B. both  |  C. neither  |  D. not only  →  either
+4. The conference will cover _____ the latest theories _____ practical applications.
+   A. either  |  B. both  |  C. not only  |  D. neither  →  not only
+5. Students should develop _____ strong writing skills _____ effective presentation abilities.
+   A. neither  |  B. either  |  C. both  |  D. not only  →  both
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [both] [research] [and] [practice] [are] [essential]  →  Both research and practice are essential
+2. [not] [only] [the] [theory] [but] [also] [the] [application] [matters]  →  Not only the theory but also the application matters
+3. [either] [qualitative] [or] [quantitative] [methods] [should] [be] [used]  →  Either qualitative or quantitative methods should be used
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ hoặc cụm từ thích hợp vào chỗ trống.
+**Từ gợi ý:** both · not only · either · however · moreover · still
+
+1. The curriculum must address _____ the needs of gifted students _____ those of struggling learners.  →  both
+2. The professor emphasized _____ the importance of theory _____ its practical implications.  →  not only
+3. Researchers should consider _____ qualitative approaches _____ quantitative techniques when designing the study.  →  either
+4. The policy aims to improve _____ teacher training _____ resource allocation across schools.  →  both
+5. The article argues that _____ the data support the hypothesis _____ the literature review contradicts it.  →  not only
+
 <!-- /topic -->
 
 <!-- topic: b3-t37 -->
-## b3-t37 ·  Concessive clauses — advanced use (even though / however / for all that) · C1
+## b3-t37 · Concessive clauses — advanced use (even though / however / for all that) · C1
 
 **Tiếng Việt:** Mệnh đề nhượng bộ nâng cao
 
@@ -1433,10 +2547,41 @@ Mệnh đề nhượng bộ nâng cao dùng để diễn tả một ý tưởng 
 - EN: For all that the system is biased, artists still produce groundbreaking work.
   VI: Mặc dù hệ thống có tính thiên vị, các nghệ sĩ vẫn tạo ra những tác phẩm đột phá.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ thích hợp để điền vào chỗ trống.
+
+1. The committee approved the proposal, _____ the members expressed concerns.
+   A. even though  |  B. however  |  C. for all that  |  D. although  →  however
+2. She continued her research, _____ funding was cut.
+   A. for all that  |  B. however  |  C. even though  |  D. although  →  even though
+3. The policy was praised, _____ its implementation faced delays.
+   A. however  |  B. for all that  |  C. even though  |  D. although  →  for all that
+4. He accepted the award, _____ he felt the judges were biased.
+   A. although  |  B. even though  |  C. however  |  D. for all that  →  even though
+5. The novel became a bestseller, _____ it received mixed reviews from critics.
+   A. for all that  |  B. however  |  C. even though  |  D. although  →  however
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [even] [though] [the] [team] [was] [exhausted] [they] [finished] [the] [project]  →  even though the team was exhausted they finished the project
+2. [however] [the] [weather] [was] [stormy] [the] [event] [went] [ahead]  →  however the weather was stormy the event went ahead
+3. [for] [all] [that] [the] [budget] [was] [limited] [the] [campaign] [succeeded]  →  for all that the budget was limited the campaign succeeded
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** even though · however · for all that · although · nevertheless · though
+
+1. The artist embraced abstraction, _____ traditional techniques remained popular.  →  even though
+2. The conference attracted scholars worldwide, _____ many sessions were cancelled due to travel restrictions.  →  however
+3. The sculpture was praised, _____ its creator was relatively unknown.  →  for all that
+4. The manuscript was accepted, _____ it required extensive revisions.  →  although
+5. The startup secured funding, _____ it still faced market challenges.  →  nevertheless
+
 <!-- /topic -->
 
 <!-- topic: b3-t38 -->
-## b3-t38 ·  Complex sentences with multiple subordination · C2
+## b3-t38 · Complex sentences with multiple subordination · C2
 
 **Tiếng Việt:** Câu phức nhiều mệnh đề phụ
 
@@ -1469,10 +2614,41 @@ Câu phức nhiều mệnh đề phụ là câu chứa một mệnh đề chính
 - EN: As speakers worldwide assert linguistic rights against the dominance of global languages, this plurality of perspective is increasingly recognised not as a liability but as one of humanity's most profound intellectual resources.
   VI: Khi những người nói trên toàn thế giới khẳng định quyền ngôn ngữ trước sự thống trị của các ngôn ngữ toàn cầu, sự đa dạng quan điểm này ngày càng được công nhận không phải là một bất lợi mà là một trong những nguồn tài nguyên trí tuệ sâu sắc nhất của nhân loại.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. Although the conference was postponed, the organizers, _____, decided to release the preliminary findings online.
+   A. which had prepared the reports  |  B. who had prepared the reports  |  C. who prepared the reports  |  D. that had prepared the reports  →  who had prepared the reports
+2. The manuscript, _____, was praised for its innovative methodology.
+   A. that had been scrutinized by the reviewers  |  B. which the reviewers had scrutinized thoroughly  |  C. who the reviewers had scrutinized thoroughly  |  D. that the reviewers had scrutinized thoroughly  →  that the reviewers had scrutinized thoroughly
+3. If the policy is implemented, schools, _____, will need to revise their curricula accordingly.
+   A. that with limited resources  |  B. that have limited resources  |  C. who have limited resources  |  D. which have limited resources  →  which have limited resources
+4. While many scholars dismiss the hypothesis, a growing number of researchers, _____, argue that the data warrants further investigation.
+   A. who published recent studies  |  B. which have published recent studies  |  C. who have published recent studies  |  D. that have published recent studies  →  who have published recent studies
+5. Because the treaty was signed, the neighboring countries, _____, began negotiations on trade agreements.
+   A. which have previously been hostile  |  B. which had previously been hostile  |  C. that had previously been hostile  |  D. who had previously been hostile  →  which had previously been hostile
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Although] [the] [data] [were] [inconclusive] [the] [team] [decided] [to] [proceed] [with] [the] [pilot] [study] [which] [had] [been] [delayed] [by] [logistical] [issues]  →  Although the data were inconclusive the team decided to proceed with the pilot study which had been delayed by logistical issues
+2. [If] [the] [policy] [is] [adopted] [schools] [that] [serve] [underprivileged] [communities] [will] [receive] [additional] [funding] [to] [support] [their] [programs]  →  If the policy is adopted schools that serve underprivileged communities will receive additional funding to support their programs
+3. [When] [the] [conference] [was] [rescheduled] [organizers] [who] [had] [prepared] [the] [agenda] [announced] [new] [dates] [and] [venues]  →  When the conference was rescheduled organizers who had prepared the agenda announced new dates and venues
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** although · which · who · where · that · because
+
+1. The committee, _____, approved the proposal after lengthy debate.  →  which
+2. _____ the funding was cut, the project continued thanks to private sponsorship.  →  although
+3. The researcher, _____, published the findings in a top journal, gained international recognition.  →  who
+4. The conference venue, _____, was praised for its accessibility and sustainability.  →  where
+5. The amendment, _____, was adopted without further discussion.  →  that
+
 <!-- /topic -->
 
 <!-- topic: b3-t39 -->
-## b3-t39 ·  Adverbial participle clauses — contrast and concession · C2
+## b3-t39 · Adverbial participle clauses — contrast and concession · C2
 
 **Tiếng Việt:** Mệnh đề phân từ đối lập và nhượng bộ
 
@@ -1507,10 +2683,41 @@ Mệnh đề phân từ hiện tại (‑ing) được dùng như một mệnh �
 - EN: The challenge for contemporary societies is to navigate secular pluralism without either erasing religious identity or privileging any single tradition in public institutions, conceding that absolute neutrality is unattainable.
   VI: Thách thức của các xã hội hiện đại là điều hướng đa nguyên thế tục mà không xóa bỏ bản sắc tôn giáo hoặc ưu ái bất kỳ truyền thống nào trong các tổ chức công, thừa nhận rằng sự trung lập tuyệt đối là không thể đạt được.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng phân từ phù hợp để hoàn thành câu.
+
+1. The government's new regulation, _____, has been met with protests.
+   A. despite its benefits  |  B. contrasting with previous policies  |  C. because it is strict  |  D. in order to simplify  →  contrasting with previous policies
+2. The professor, _____, continued his lecture on epistemology.
+   A. while checking his notes  |  B. despite the noise  |  C. conceding the students' doubts  |  D. because he was late  →  conceding the students' doubts
+3. The treaty, _____, was signed by both parties.
+   A. contrasting with earlier drafts  |  B. because it was necessary  |  C. while the negotiations stalled  |  D. despite the opposition  →  contrasting with earlier drafts
+4. The activist, _____, addressed the crowd about climate change.
+   A. conceding the government's inaction  |  B. because she was angry  |  C. while holding a microphone  |  D. despite the rain  →  conceding the government's inaction
+5. The novel, _____, explores themes of identity.
+   A. while being translated  |  B. contrasting with the author's previous work  |  C. because it is popular  |  D. despite its length  →  contrasting with the author's previous work
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Conceding] [the] [criticism] [the] [author] [revised] [the] [manuscript]  →  Conceding the criticism the author revised the manuscript
+2. [Contrasting] [the] [old] [methods] [the] [team] [adopted] [digital] [workflow]  →  Contrasting the old methods the team adopted digital workflow
+3. [Conceding] [the] [high] [costs] [the] [university] [proceeded] [with] [the] [expansion]  →  Conceding the high costs the university proceeded with the expansion
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền dạng phân từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Conceding · Contrasting · Acknowledging · Ignoring · Considering · Nevertheless
+
+1. _____ the fierce opposition, the committee approved the reform.  →  Conceding
+2. _____ the prevailing assumptions, the researcher proposed an alternative model.  →  Contrasting
+3. _____ the limited data, the analyst still drew a confident conclusion.  →  Conceding
+4. _____ the traditional methodology, the experiment employed a novel technique.  →  Contrasting
+5. _____ the potential risks, the venture capitalists invested heavily.  →  Conceding
+
 <!-- /topic -->
 
 <!-- topic: b3-t40 -->
-## b3-t40 ·  It is + adjective + to vs Nominalization · C1
+## b3-t40 · It is + adjective + to vs Nominalization · C1
 
 **Tiếng Việt:** It is + adj + to-inf so với Danh hóa
 
@@ -1548,10 +2755,41 @@ Cấu trúc It + be + tính từ + to‑infinitive dùng để nhấn mạnh tí
 - EN: It is essential to question accepted theorems when new evidence emerges.
   VI: Việc đặt câu hỏi về các định lý đã được chấp nhận là thiết yếu khi có bằng chứng mới xuất hiện.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn tính từ phù hợp để hoàn thành câu.
+
+1. _____ to understand the underlying patterns is vital for any mathematician.
+   A. necessity  |  B. essential  |  C. crucial  |  D. crucially  →  crucial
+2. _____ to accept an axiom without proof can hinder critical thinking.
+   A. hazardous  |  B. dangerous  |  C. risky  |  D. riskily  →  risky
+3. _____ to question established theorems is a hallmark of advanced scholarship.
+   A. essential  |  B. importantly  |  C. importance  |  D. important  →  important
+4. _____ to master recursion requires patience and practice.
+   A. necessarily  |  B. necessity  |  C. necessary  |  D. needed  →  necessary
+5. _____ to quantify uncertainty is what makes probability so powerful.
+   A. essential  |  B. usefully  |  C. useful  |  D. usefulness  →  useful
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [is] [vital] [to] [prove] [a] [theorem] [correctly]  →  It is vital to prove a theorem correctly
+2. [It] [is] [challenging] [to] [derive] [conclusions] [from] [incomplete] [data]  →  It is challenging to derive conclusions from incomplete data
+3. [It] [is] [necessary] [to] [explain] [the] [concept] [clearly]  →  It is necessary to explain the concept clearly
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** crucial · risky · essential · necessary · useful · trivial
+
+1. _____ to master abstract reasoning distinguishes a novice from a seasoned mathematician.  →  crucial
+2. _____ to ignore counter‑examples can lead to false conjectures.  →  risky
+3. _____ to communicate proofs clearly is valued in academic publishing.  →  essential
+4. _____ to verify each step of a derivation prevents logical errors.  →  necessary
+5. _____ to apply probability models appropriately enhances interdisciplinary research.  →  useful
+
 <!-- /topic -->
 
 <!-- topic: b3-t41 -->
-## b3-t41 ·  Metalinguistic grammar terms (syntax / morphology / clause / phrase) · C1
+## b3-t41 · Metalinguistic grammar terms (syntax / morphology / clause / phrase) · C1
 
 **Tiếng Việt:** Thuật ngữ ngôn ngữ học trong ngữ pháp
 
@@ -1589,10 +2827,41 @@ Thuật ngữ ngôn ngữ học trong ngữ pháp là các danh từ dùng để
 - EN: The power of eloquence lies not merely in vocabulary or grammar, but in the syntax that organizes ideas into coherent statements.
   VI: Sức mạnh của sự hùng biện không chỉ nằm ở từ vựng hay ngữ pháp, mà còn ở cú pháp tổ chức các ý tưởng thành những câu khẳng định mạch lạc.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ thích hợp để điền vào chỗ trống.
+
+1. In linguistic analysis, a _____ consists of a subject and a predicate.
+   A. clause  |  B. phrase  |  C. syntax  |  D. morphology  →  clause
+2. The word 'unbelievable' demonstrates the study of _____ because it combines a prefix, root, and suffix.
+   A. syntax  |  B. morphology  |  C. phrase  |  D. clause  →  morphology
+3. When we rearrange words without changing meaning, we are manipulating the _____ of the sentence.
+   A. syntax  |  B. clause  |  C. phrase  |  D. morphology  →  syntax
+4. A prepositional _____ typically includes a preposition and its object.
+   A. clause  |  B. phrase  |  C. syntax  |  D. morphology  →  phrase
+5. The dependent _____ in the sentence adds extra information but cannot stand alone.
+   A. phrase  |  B. clause  |  C. syntax  |  D. morphology  →  clause
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [sentence] [is] [a] [clause] [that] [expresses] [a] [complete] [thought]  →  The sentence is a clause that expresses a complete thought
+2. [Morphology] [studies] [word] [formation] [and] [meaning]  →  Morphology studies word formation and meaning
+3. [Syntax] [orders] [words] [into] [meaningful] [structures]  →  Syntax orders words into meaningful structures
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** clause · phrase · syntax · morphology · subject · predicate
+
+1. A _____ can contain a subject and a verb, forming a complete idea.  →  clause
+2. The _____ of a sentence determines how its components relate to each other.  →  syntax
+3. Understanding _____ helps learners recognize how prefixes and suffixes modify root words.  →  morphology
+4. In the example 'under the bridge', the group of words functions as a _____.  →  phrase
+5. The _____ of the sentence is often the noun or pronoun that performs the action.  →  subject
+
 <!-- /topic -->
 
 <!-- topic: b3-t42 -->
-## b3-t42 ·  Passive constructions for process description · C1
+## b3-t42 · Passive constructions for process description · C1
 
 **Tiếng Việt:** Bị động mô tả quá trình — nâng cao
 
@@ -1628,10 +2897,41 @@ Thể bị động mô tả một quá trình hoặc cách một hành động �
 - EN: The formal, impersonal tone characteristic of academic registers is achieved by the related practice of nominalization.
   VI: Giọng điệu trang trọng, khách quan đặc trưng của các ngữ cảnh học thuật được đạt được nhờ vào việc thực hành danh danh hoá liên quan.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng bị động đúng cho chỗ trống.
+
+1. The manuscript _____ (review) by three independent scholars before publication.
+   A. is reviewed  |  B. were reviewed  |  C. was reviewed  |  D. are reviewed  →  was reviewed
+2. All the raw data _____ (store) in a secure cloud server.
+   A. are stored  |  B. was stored  |  C. is stored  |  D. were stored  →  are stored
+3. The final report _____ (submit) to the committee last Friday.
+   A. was submitted  |  B. were submitted  |  C. is submitted  |  D. are submitted  →  was submitted
+4. These findings _____ (interpret) cautiously due to limited sample size.
+   A. are interpreted  |  B. is interpreted  |  C. were interpreted  |  D. was interpreted  →  are interpreted
+5. The new policy _____ (enforce) across all campuses starting next month.
+   A. will be enforced  |  B. is enforced  |  C. was enforced  |  D. are enforced  →  will be enforced
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [experiment] [was] [conducted] [by] [the] [researchers]  →  The experiment was conducted by the researchers
+2. [The] [results] [are] [being] [analyzed] [by] [the] [team]  →  The results are being analyzed by the team
+3. [The] [policy] [will] [be] [implemented] [across] [the] [university]  →  The policy will be implemented across the university
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** implemented · designed · generated · examined · published · celebrated
+
+1. The new curriculum was _____ last year to address emerging fields.  →  implemented
+2. A comprehensive framework was _____ to guide the assessment process.  →  designed
+3. Statistical tables were _____ from the collected survey responses.  →  generated
+4. The case studies were _____ by an external auditor for reliability.  →  examined
+5. The findings were _____ in a peer‑reviewed journal.  →  published
+
 <!-- /topic -->
 
 <!-- topic: b3-t43 -->
-## b3-t43 ·  Conditionals in academic discourse (Were this to happen... / Should this occur...) · C2
+## b3-t43 · Conditionals in academic discourse (Were this to happen... / Should this occur...) · C2
 
 **Tiếng Việt:** Câu điều kiện đảo ngữ trong học thuật
 
@@ -1665,10 +2965,41 @@ Câu điều kiện đảo ngữ trong học thuật là cấu trúc diễn đ�
 - EN: Were professional environments to impose their own protocol, it shapes formal procedures that govern interaction in diplomatic, business, or academic settings.
   VI: Nếu môi trường chuyên nghiệp áp đặt giao thức riêng của chúng, nó sẽ định hình các quy trình chính thức điều khiển tương tác trong các bối cảnh ngoại giao, kinh doanh hoặc học thuật.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. _____ the committee approve the proposal, the project will receive funding.
+   A. If  |  B. Unless  |  C. Should  |  D. Were  →  Should
+2. _____ the data be misinterpreted, the conclusions could be flawed.
+   A. When  |  B. If  |  C. Should  |  D. Were  →  Were
+3. _____ the university adopt the new policy, faculty will need training.
+   A. Unless  |  B. If  |  C. Should  |  D. Were  →  Should
+4. _____ the researcher neglect ethical guidelines, the study may be rejected.
+   A. If  |  B. Were  |  C. When  |  D. Should  →  Were
+5. _____ the conference be postponed, participants will have to rearrange travel plans.
+   A. Unless  |  B. When  |  C. Should  |  D. If  →  Should
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [were] [the] [results] [to] [be] [misleading] [further] [analysis] [is] [required]  →  were the results to be misleading further analysis is required
+2. [should] [the] [institution] [implement] [new] [safety] [measures] [it] [will] [reduce] [risk]  →  should the institution implement new safety measures it will reduce risk
+3. [were] [the] [participants] [to] [receive] [adequate] [training] [they] [perform] [better]  →  were the participants to receive adequate training they perform better
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** were · should · if · unless · provided · given
+
+1. _____ the findings be replicated, the theory gains credibility.  →  were
+2. _____ the university allocate additional resources, the research centre can expand its facilities.  →  should
+3. _____ the participants understand the instructions, the experiment will yield valid data.  →  were
+4. _____ the policy be revised, it will address current shortcomings.  →  should
+5. _____ the conference organizers communicate the schedule clearly, attendees will plan accordingly.  →  were
+
 <!-- /topic -->
 
 <!-- topic: b3-t44 -->
-## b3-t44 ·  Rhetorical structures (tricolon / anaphora / rhetorical question) · C2
+## b3-t44 · Rhetorical structures (tricolon / anaphora / rhetorical question) · C2
 
 **Tiếng Việt:** Cấu trúc hùng biện
 
@@ -1701,10 +3032,41 @@ Cấu trúc hùng biện là các biện pháp tu từ dùng để nhấn mạnh
 - EN: Is it not evident that algorithms dictate our attention, shape our opinions, and steer our actions?
   VI: Có phải không, các thuật toán đang quyết định sự chú ý của chúng ta, định hình quan điểm và điều khiển hành động của chúng ta?
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. The conference highlighted the challenges of climate change: rising temperatures, melting ice caps, _____.
+   A. increasing sea levels  |  B. declining biodiversity  |  C. expanding deserts  |  D. growing urban sprawl  →  increasing sea levels
+2. The novelist writes with clarity, the poet writes with passion, the essayist writes with _____.
+   A. ambiguity  |  B. concern  |  C. precision  |  D. indifference  →  precision
+3. _____?
+   A. Who can deny the power of language  |  B. When did the war end  |  C. How many planets are there  |  D. What is the capital of France  →  Who can deny the power of language
+4. In the boardroom he was decisive, in the laboratory he was meticulous, and in the classroom he was _____.
+   A. absent  |  B. indifferent  |  C. inspirational  |  D. critical  →  inspirational
+5. We must _____ the environment, we must _____ the economy, we must _____ society.
+   A. neglect  |  B. support  |  C. protect  |  D. enhance  →  protect
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [innovation] [drives] [progress] [through] [collaboration]  →  innovation drives progress through collaboration
+2. [scepticism] [is] [healthy] [in] [science]  →  scepticism is healthy in science
+3. [the] [future] [belongs] [to] [the] [bold]  →  the future belongs to the bold
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** educates · connects · inspires · question · repeats · emphasizes
+
+1. The campaign slogan _____ the public by promising safety, prosperity, and liberty.  →  connects
+2. His lecture _____ the core idea three times, creating an anaphora.  →  repeats
+3. The advertisement _____ the audience with vivid images of nature.  →  inspires
+4. By posing a _____, the presenter forced listeners to reflect on their values.  →  question
+5. The professor's opening line _____ the theme of resilience throughout the semester.  →  emphasizes
+
 <!-- /topic -->
 
 <!-- topic: b3-t45 -->
-## b3-t45 ·  Advanced reporting verbs (allege / imply / infer / concede / refute) · C1
+## b3-t45 · Advanced reporting verbs (allege / imply / infer / concede / refute) · C1
 
 **Tiếng Việt:** Động từ truyền đạt nâng cao C1
 
@@ -1742,10 +3104,41 @@ Các động từ truyền đạt nâng cao (allege, imply, infer, concede, refu
 - EN: Some critics refute the claim that passive hearing is sufficient for comprehension.
   VI: Một số nhà phê bình bác bỏ nhận định rằng việc nghe thụ động là đủ để hiểu nội dung.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn động từ phù hợp để điền vào chỗ trống.
+
+1. The professor _____ that the study's results were inconclusive.
+   A. concedes  |  B. alleges  |  C. implies  |  D. infers  →  alleges
+2. From the tone of the interview, we can _____ that the witness was nervous.
+   A. refute  |  B. infer  |  C. imply  |  D. concede  →  infer
+3. The author _____ the earlier theory, citing new evidence.
+   A. refutes  |  B. alleges  |  C. concedes  |  D. implies  →  refutes
+4. She _____ that the deadline might be extended, but she did not confirm it.
+   A. concedes  |  B. infers  |  C. refutes  |  D. alleges  →  concedes
+5. His silence could _____ that he disagrees with the proposal.
+   A. imply  |  B. refute  |  C. concede  |  D. infer  →  imply
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [researchers] [allege] [that] [active] [listening] [enhances] [comprehension]  →  researchers allege that active listening enhances comprehension
+2. [we] [infer] [meaning] [from] [context] [clues]  →  we infer meaning from context clues
+3. [the] [committee] [refuted] [the] [proposal] [as] [unfeasible]  →  the committee refuted the proposal as unfeasible
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để hoàn thành câu.
+**Từ gợi ý:** allege · imply · infer · concede · refute · suggest
+
+1. The report _____ that the data were collected improperly.  →  allege
+2. His tone _____ a hidden criticism of the policy.  →  imply
+3. From the fragmented notes, the editor could _____ the author's intended meaning.  →  infer
+4. After reviewing the evidence, the lawyer _____ that the client was not at fault.  →  concede
+5. The scientist _____ the earlier hypothesis, presenting contradictory findings.  →  refute
+
 <!-- /topic -->
 
 <!-- topic: b3-t46 -->
-## b3-t46 ·  Nominalization and grammatical metaphor · C2
+## b3-t46 · Nominalization and grammatical metaphor · C2
 
 **Tiếng Việt:** Danh hóa và ẩn dụ ngữ pháp
 
@@ -1781,10 +3174,41 @@ Danh hóa (nominalization) là quá trình chuyển động từ, tính từ ho�
 - EN: The principle of reciprocity also shapes negotiation dynamics profoundly: when one party makes a concession, the other typically feels a social obligation to respond in kind.
   VI: Nguyên tắc tương hỗ cũng ảnh hưởng sâu sắc đến động lực của đàm phán: khi một bên nhượng bộ, bên còn lại thường cảm thấy một nghĩa vụ xã hội để đáp lại tương tự.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu bằng danh hóa phù hợp.
+
+1. The ___ of the project was delayed due to funding shortages.
+   A. allocation  |  B. evaluation  |  C. implementation  |  D. coordination  →  implementation
+2. Effective ___ between departments can prevent misunderstandings.
+   A. communication  |  B. coordination  |  C. negotiation  |  D. collaboration  →  coordination
+3. The ___ of resources must be justified with a cost‑benefit analysis.
+   A. assessment  |  B. allocation  |  C. evaluation  |  D. implementation  →  allocation
+4. A thorough ___ of the data revealed unexpected trends.
+   A. implementation  |  B. coordination  |  C. assessment  |  D. allocation  →  assessment
+5. The ___ of the policy was praised by the committee.
+   A. coordination  |  B. evaluation  |  C. implementation  |  D. allocation  →  evaluation
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [implementation] [of] [the] [new] [strategy] [was] [approved] [by] [the] [board]  →  The implementation of the new strategy was approved by the board
+2. [Effective] [coordination] [requires] [clear] [communication] [among] [team] [members]  →  Effective coordination requires clear communication among team members
+3. [Allocation] [of] [budget] [resources] [must] [be] [based] [on] [objective] [criteria]  →  Allocation of budget resources must be based on objective criteria
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền danh hóa thích hợp vào chỗ trống.
+**Từ gợi ý:** implementation · allocation · assessment · coordination · evaluation · happiness
+
+1. The ___ of the environmental plan was presented at the summit.  →  implementation
+2. Successful ___ of cross‑functional teams hinges on mutual respect.  →  coordination
+3. A rigorous ___ of the survey results informed the final report.  →  assessment
+4. The ___ of the grant funds will be reviewed next quarter.  →  allocation
+5. The ___ of the pilot program showed significant improvements.  →  evaluation
+
 <!-- /topic -->
 
 <!-- topic: b3-t47 -->
-## b3-t47 ·  Cohesive devices — reference / substitution / ellipsis / conjunction · C2
+## b3-t47 · Cohesive devices — reference / substitution / ellipsis / conjunction · C2
 
 **Tiếng Việt:** Phương tiện liên kết văn bản
 
@@ -1818,10 +3242,41 @@ Phương tiện liên kết văn bản (cohesive devices) là các từ hoặc c
 - EN: A daring author may choose to subvert audience expectations by refusing to confirm the moral certainties readers bring to the text; others do so by employing an unreliable narrator.
   VI: Một tác giả táo bạo có thể chọn cách đảo ngược kỳ vọng của khán giả bằng cách không khẳng định những chắc chắn đạo đức mà độc giả mang vào văn bản; những người khác làm như vậy bằng cách sử dụng người kể chuyện không đáng tin cậy.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để điền vào chỗ trống.
+
+1. The researcher presented data _____ revealed a significant trend.
+   A. which  |  B. who  |  C. when  |  D. that  →  that
+2. She argued that the hypothesis was flawed, _____ she provided counter‑evidence.
+   A. although  |  B. because  |  C. however  |  D. therefore  →  however
+3. The committee approved the proposal, _____ the budget was increased.
+   A. but  |  B. although  |  C. so  |  D. because  →  so
+4. The manuscript was revised; _____ the reviewers' comments were addressed.
+   A. however  |  B. therefore  |  C. moreover  |  D. consequently  →  therefore
+5. Many scholars ignore the footnote; _____ is a common oversight.
+   A. they  |  B. it  |  C. that  |  D. this  →  this
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [author] [crafted] [a] [complex] [narrative] [that] [challenges] [readers]  →  the author crafted a complex narrative that challenges readers
+2. [however] [the] [conclusion] [remains] [ambiguous]  →  however the conclusion remains ambiguous
+3. [so] [that] [the] [argument] [is] [convincing]  →  so that the argument is convincing
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp để hoàn thành câu.
+**Từ gợi ý:** that · however · therefore · so · this · although
+
+1. The theory was compelling, _____ it lacked empirical support.  →  although
+2. She presented evidence, _____ the jury was persuaded.  →  therefore
+3. The novel explores identity, _____ it also examines migration.  →  however
+4. He wrote the article, _____ it was published in a leading journal.  →  that
+5. The professor emphasized clarity, _____ the students responded positively.  →  so
+
 <!-- /topic -->
 
 <!-- topic: b3-t48 -->
-## b3-t48 ·  Complex hedging and qualification (to some extent / with some reservations) · C2
+## b3-t48 · Complex hedging and qualification (to some extent / with some reservations) · C2
 
 **Tiếng Việt:** Phòng ngừa và hạn chế phức tạp
 
@@ -1859,10 +3314,41 @@ Phương tiện liên kết văn bản (cohesive devices) là các từ hoặc c
 - EN: The standardisation of spelling and grammar, while aiding literacy, can accelerate obsolescence to some extent by pushing non‑standard forms toward extinction.
   VI: Việc chuẩn hoá chính tả và ngữ pháp, mặc dù hỗ trợ nâng cao trình độ đọc viết, có thể làm tăng tốc độ lỗi thời ở mức độ nhất định bằng cách đẩy các dạng không chuẩn về phía tuyệt chủng.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để điền vào chỗ trống.
+
+1. The study suggests that the impact of social media on language change is _____.
+   A. beyond  |  B. to some extent  |  C. not at all  |  D. completely  →  to some extent
+2. Researchers argue that the benefits of standardized testing should be accepted _____.
+   A. unconditionally  |  B. with some reservations  |  C. rarely  |  D. eagerly  →  with some reservations
+3. The new policy may improve accessibility _____, but further evaluation is needed.
+   A. occasionally  |  B. entirely  |  C. to some extent  |  D. never  →  to some extent
+4. While the theory is compelling, scholars receive it _____.
+   A. indifferently  |  B. with some reservations  |  C. enthusiastically  |  D. eagerly  →  with some reservations
+5. The correlation between reading frequency and vocabulary breadth is evident _____.
+   A. absolutely  |  B. occasionally  |  C. to some extent  |  D. not  →  to some extent
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [to] [some] [extent] [the] [effects] [are] [observable]  →  to some extent the effects are observable
+2. [with] [some] [reservations] [the] [committee] [approved] [the] [proposal]  →  with some reservations the committee approved the proposal
+3. [the] [findings] [suggest] [to] [some] [extent] [a] [shift]  →  the findings suggest to some extent a shift
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền cụm từ thích hợp vào chỗ trống.
+**Từ gợi ý:** to some extent · with some reservations · to a certain degree · to a limited extent · with reservations · completely
+
+1. The author acknowledges that the theory holds _____.  →  to some extent
+2. The panel accepted the proposal _____.  →  with some reservations
+3. The results indicate the hypothesis is valid _____.  →  to a certain degree
+4. The policy may reduce emissions _____, but not eliminate them.  →  to a limited extent
+5. The committee approved the plan _____, pending further review.  →  with reservations
+
 <!-- /topic -->
 
 <!-- topic: b3-t49 -->
-## b3-t49 ·  Narrative grammar — flashback and foreshadowing (past perfect / was going to) · C1
+## b3-t49 · Narrative grammar — flashback and foreshadowing (past perfect / was going to) · C1
 
 **Tiếng Việt:** Ngữ pháp tự sự — hồi ký và dự báo
 
@@ -1898,10 +3384,41 @@ Trong văn bản tự sự, quá khứ hoàn thành (past perfect) dùng để m
 - EN: If the audience had responded positively, the speaker would have extended the discussion.
   VI: Nếu khán giả đã phản hồi tích cực, người nói sẽ mở rộng cuộc thảo luận.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. By the time the conference started, the organizer _____ all the handouts.
+   A. prepared  |  B. had prepared  |  C. will prepare  |  D. was preparing  →  had prepared
+2. She _____ present the case study, but the time ran out.
+   A. had gone  |  B. will go  |  C. went  |  D. was going to  →  was going to
+3. After the audience _____ a question, the speaker clarified the point.
+   A. had asked  |  B. will ask  |  C. asked  |  D. was asking  →  had asked
+4. They _____ launch the new product next week, but the budget was cut.
+   A. had been  |  B. were going to  |  C. are  |  D. will be  →  were going to
+5. If I _____ about the delay, I would have postponed the meeting.
+   A. had known  |  B. was knowing  |  C. knew  |  D. will know  →  had known
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [quiz] [before] [the] [explained] [theory] [had] [lecturer] [The]  →  The lecturer had explained the theory before the quiz
+2. [demonstrate] [going] [She] [the] [lights] [was] [flickered] [to] [experiment] [when]  →  She was going to demonstrate the experiment when the lights flickered
+3. [deadline] [by] [finished] [the] [had] [report] [They]  →  They had finished the report by the deadline
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** had · was · were · might · could · will
+
+1. By the time the panel met, the committee _____ already drafted the policy.  →  had
+2. The researcher _____ going to publish the findings, but the journal delayed.  →  was
+3. The team _____ going to present their project when the power cut occurred.  →  were
+4. If the manager _____ known about the issue, she would have intervened earlier.  →  had
+5. He _____ going to submit the article, yet he missed the deadline.  →  was
+
 <!-- /topic -->
 
 <!-- topic: b3-t50 -->
-## b3-t50 ·  Passive infinitives (appear to be / seem to have been / is thought to...) · C1
+## b3-t50 · Passive infinitives (appear to be / seem to have been / is thought to...) · C1
 
 **Tiếng Việt:** Động từ nguyên thể bị động
 
@@ -1939,10 +3456,41 @@ Trong văn bản tự sự, quá khứ hoàn thành (past perfect) dùng để m
 - EN: Interpreting seems to have been added as a further layer of complexity, as professionals must preserve semantic equivalence in real time.
   VI: Việc phiên dịch dường như đã được thêm vào như một lớp phức tạp nữa, vì các chuyên gia phải duy trì sự tương đương ngữ nghĩa trong thời gian thực.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm động từ phù hợp để hoàn thành câu.
+
+1. The new policy ___ more inclusive, according to the committee.
+   A. seem to be  |  B. looks  |  C. appear to be  |  D. is thought to be  →  appear to be
+2. Many critics ___ biased, but no formal study has confirmed it.
+   A. is thought to be  |  B. seem to be  |  C. appear to be  |  D. looks  →  seem to be
+3. The ancient manuscript ___ lost during transport.
+   A. appear to be  |  B. is thought to be  |  C. seems to be  |  D. looks  →  is thought to be
+4. Researchers ___ overlooked in early surveys of the field.
+   A. appear to have been  |  B. seem to have been  |  C. is thought to be  |  D. looks  →  seem to have been
+5. The initial reaction ___ positive, but later turned critical.
+   A. appear to be  |  B. seem to be  |  C. is thought to be  |  D. looks  →  seem to be
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [results] [seem] [to] [be] [inconclusive]  →  The results seem to be inconclusive
+2. [It] [is] [thought] [to] [be] [necessary] [to] [revise]  →  It is thought to be necessary to revise
+3. [Researchers] [appear] [to] [have] [been] [overlooked]  →  Researchers appear to have been overlooked
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn cụm động từ phù hợp từ danh sách để điền vào chỗ trống.
+**Từ gợi ý:** appear to be · seem to be · is thought to be · appear to have been · seem to have been · looks
+
+1. The manuscript ___ lost during the shipment.  →  appear to be
+2. Many scholars ___ overlooked in early studies.  →  seem to have been
+3. The policy ___ ineffective, according to recent data.  →  is thought to be
+4. The ancient technique ___ rediscovered by archaeologists.  →  appear to have been
+5. The initial reaction ___ positive, but later turned critical.  →  seem to be
+
 <!-- /topic -->
 
 <!-- topic: b3-t51 -->
-## b3-t51 ·  Subjunctive and unreal past (it is crucial that... / were this to be true...) · C2
+## b3-t51 · Subjunctive and unreal past (it is crucial that... / were this to be true...) · C2
 
 **Tiếng Việt:** Thức giả định và quá khứ phi thực
 
@@ -1977,10 +3525,41 @@ Thức giả định (subjunctive) được dùng sau các cấu trúc diễn t�
 - EN: It is crucial that we uphold principles of justice absolutely, even when doing so appears to produce worse outcomes.
   VI: Điều then chốt là chúng ta phải duy trì nguyên tắc công lý một cách tuyệt đối, ngay cả khi việc đó dường như mang lại kết quả tồi tệ hơn.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. It is crucial that the committee _____ a transparent decision‑making process.
+   A. adopts  |  B. adopt  |  C. adopted  |  D. adopting  →  adopt
+2. Were the evidence _____ a different motive, the verdict would be overturned.
+   A. to reveal  |  B. revealed  |  C. has revealed  |  D. revealing  →  to reveal
+3. It is crucial that every researcher _____ any conflict of interest.
+   A. reports  |  B. report  |  C. reported  |  D. reporting  →  report
+4. Were the policy _____ tomorrow, we would need to adjust our strategy.
+   A. to change  |  B. changed  |  C. changing  |  D. changes  →  to change
+5. It is crucial that the university _____ adequate resources for ethical training.
+   A. provides  |  B. provide  |  C. provided  |  D. providing  →  provide
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [is] [crucial] [that] [we] [maintain] [integrity]  →  It is crucial that we maintain integrity
+2. [were] [the] [findings] [to] [be] [significant]  →  were the findings to be significant
+3. [It] [is] [crucial] [that] [policy] [be] [revised] [if] [unethical] [practices] [emerge]  →  It is crucial that policy be revised if unethical practices emerge
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
+**Từ gợi ý:** adopt · to reveal · report · to change · provide · consider
+
+1. It is crucial that the board _____ a clear code of conduct.  →  adopt
+2. Were the data _____ to indicate bias, the study would be re‑evaluated.  →  to reveal
+3. It is crucial that each author _____ any funding sources.  →  report
+4. Were the regulations _____ to be relaxed, the risk of abuse would increase.  →  to change
+5. It is crucial that the institution _____ sufficient support for ethical deliberation.  →  provide
+
 <!-- /topic -->
 
 <!-- topic: b3-t52 -->
-## b3-t52 ·  Modal perfect — deduction and criticism (should have been / need not have been) · C2
+## b3-t52 · Modal perfect — deduction and criticism (should have been / need not have been) · C2
 
 **Tiếng Việt:** Động từ khuyết thiếu hoàn thành — nâng cao
 
@@ -2003,7 +3582,6 @@ Thức giả định (subjunctive) được dùng sau các cấu trúc diễn t�
 3. ‘Need not have + V3’ chỉ ra rằng hành động đã được thực hiện nhưng không cần thiết; người nói muốn nhấn mạnh tính thừa thãi.
   - ✅ You need not have bought the tickets. (you already bought them — but it was unnecessary)
   - ✅ You didn’t need to buy the tickets. (you may or may not have bought them — just stating it wasn’t required)
-  (Hai cấu trúc có nghĩa hơi khác nhau; ‘need not have’ nhấn mạnh hành động ĐÃ xảy ra mà không cần thiết)
 4. Trong giao tiếp không trang trọng người nói thường rút gọn thành “should've” hoặc “needn't have”; tránh viết “should of” vì sai chính tả.
   - ❌ She should of called → ✅ She should have called
 
@@ -2018,10 +3596,41 @@ Thức giả định (subjunctive) được dùng sau các cấu trúc diễn t�
 - EN: Conservation alone, however, should have been insufficient if anthropocentrism continues to drive economic policy.
   VI: Việc bảo tồn một mình, tuy nhiên, lẽ ra đã không đủ nếu chủ nghĩa nhân loại trung tâm vẫn tiếp tục chi phối chính sách kinh tế.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng của động từ khuyết thiếu hoàn thành để hoàn thiện câu.
+
+1. The committee _____ the proposal, given the overwhelming evidence.
+   A. should have rejected  |  B. need not have accepted  |  C. should have accepted  |  D. need not have rejected  →  should have accepted
+2. Because the data were flawed, the researchers _____ the study.
+   A. need not have conducted  |  B. should not have conducted  |  C. should have conducted  |  D. need not have conducted  →  need not have conducted
+3. If the policy had been implemented earlier, the crisis _____ avoided.
+   A. should have been  |  B. need not have been  |  C. should have been  |  D. need not have been  →  need not have been
+4. The editor _____ the article, as the facts were already verified.
+   A. should not have edited  |  B. need not have edited  |  C. should have edited  |  D. need not have edited  →  need not have edited
+5. Given the circumstances, the manager _____ the decision, but he chose otherwise.
+   A. should have made  |  B. need not have made  |  C. should not have made  |  D. need not have made  →  should have made
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [they] [should] [have] [been] [more] [cautious]  →  they should have been more cautious
+2. [the] [report] [need] [not] [have] [been] [required]  →  the report need not have been required
+3. [We] [should] [have] [considered] [the] [ethical] [implications]  →  We should have considered the ethical implications
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống (sử dụng cấu trúc modal perfect).
+**Từ gợi ý:** should · need · ought · must · could · might
+
+1. Given the evidence, the committee _____ been more thorough.  →  should
+2. If resources were unlimited, the project _____ been expanded.  →  could
+3. The regulations _____ been stricter, but they were relaxed.  →  must
+4. Because the data were inconclusive, the analyst _____ have drawn a firm conclusion.  →  need
+5. The committee _____ have approved the proposal, yet they did not.  →  ought
+
 <!-- /topic -->
 
 <!-- topic: b3-t53 -->
-## b3-t53 ·  Future forms in discourse (is set to / is due to / is predicted to) · C1
+## b3-t53 · Future forms in discourse (is set to / is due to / is predicted to) · C1
 
 **Tiếng Việt:** Diễn đạt tương lai trong văn học thuật
 
@@ -2057,10 +3666,41 @@ Cấu trúc ‘is set to’, ‘is due to’, và ‘is predicted to’ được
 - EN: Bioethicists are predicted to warn against paternalism as new digital health records emerge.
   VI: Các nhà sinh học đạo đức được dự đoán sẽ cảnh báo về chủ nghĩa bảo trợ khi hồ sơ sức khỏe kỹ thuật số mới xuất hiện.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đúng của cấu trúc tương lai trong các câu sau.
+
+1. The new data‑privacy law _____ come into effect next January.
+   A. is due to  |  B. is set to  |  C. is expected to  |  D. are predicted to  →  is set to
+2. The university's AI ethics board _____ release its first report by June.
+   A. is set to  |  B. are predicted to  |  C. is due to  |  D. is expected to  →  is due to
+3. Analysts _____ that quantum encryption will become mainstream within five years.
+   A. are predicted to  |  B. is set to  |  C. are due to  |  D. is expected to  →  are predicted to
+4. The upcoming conference on digital rights _____ address the challenges of algorithmic bias.
+   A. is predicted to  |  B. is set to  |  C. is due to  |  D. is expected to  →  is set to
+5. Regulators _____ introduce stricter consent requirements for biometric data by 2028.
+   A. are set to  |  B. are due to  |  C. are predicted to  |  D. are expected to  →  are set to
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [The] [government] [is] [due] [to] [implement] [new] [AI] [guidelines] [next] [year]  →  The government is due to implement new AI guidelines next year
+2. [Researchers] [are] [predicted] [to] [publish] [breakthrough] [in] [neuro‑tech] [soon]  →  Researchers are predicted to publish breakthrough in neuro‑tech soon
+3. [Cloud] [services] [are] [set] [to] [expand] [their] [infrastructure] [globally] [by] [2027]  →  Cloud services are set to expand their infrastructure globally by 2027
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền dạng đúng của cấu trúc tương lai vào chỗ trống.
+**Từ gợi ý:** is set to · is due to · are predicted to · is expected to · are due to · will have to
+
+1. The blockchain protocol _____ undergo a major upgrade in Q3.  →  is set to
+2. The privacy watchdog _____ issue fines for non‑compliance next quarter.  →  is due to
+3. Experts _____ suggest that deep‑fake detection tools will become standard by 2030.  →  are predicted to
+4. The university _____ launch a new course on digital ethics in September.  →  is expected to
+5. Several NGOs _____ collaborate on a global campaign for internet freedom by 2025.  →  are due to
+
 <!-- /topic -->
 
 <!-- topic: b3-t54 -->
-## b3-t54 ·  Conditional alternatives at C2 (Had it not been for... / Only if we act now will...) · C2
+## b3-t54 · Conditional alternatives at C2 (Had it not been for... / Only if we act now will...) · C2
 
 **Tiếng Việt:** Câu điều kiện C2 — đảo ngữ và biến thể
 
@@ -2094,10 +3734,41 @@ Câu điều kiện C2 dùng đảo ngữ để nhấn mạnh nguyên nhân ngư
 - EN: Had it not been for robust legislation, digital rights would be eroded.
   VI: Nếu không có luật pháp mạnh mẽ, các quyền kỹ thuật số sẽ bị xói mòn.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ thích hợp để hoàn thành câu.
+
+1. _____ we act now will we avert irreversible environmental damage.
+   A. If  |  B. Only if  |  C. When  |  D. Had it not been for  →  Only if
+2. _____ the lack of regulation, corporations would continue to exploit data.
+   A. Only if  |  B. When  |  C. Had it not been for  |  D. Unless  →  Had it not been for
+3. _____ we invest in renewable energy, the transition will be slower.
+   A. Only if  |  B. Had it not been for  |  C. If  |  D. When  →  Only if
+4. _____ the public demanded transparency, AI developers would ignore ethical concerns.
+   A. When  |  B. If  |  C. Only if  |  D. Had it not been for  →  Had it not been for
+5. _____ we prioritize fairness, algorithmic bias will persist.
+   A. Unless  |  B. Only if  |  C. Had it not been for  |  D. When  →  Only if
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Had] [it] [not] [been] [for] [the] [policy] [the] [outcome] [would] [be] [different]  →  Had it not been for the policy the outcome would be different
+2. [Only] [if] [we] [act] [now] [will] [we] [secure] [the] [future]  →  Only if we act now will we secure the future
+3. [Had] [it] [not] [been] [for] [strong] [regulation] [privacy] [rights] [would] [be] [threatened]  →  Had it not been for strong regulation privacy rights would be threatened
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền cụm từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Only if · Had it not been for · Unless · When · If · Because
+
+1. _____ we act now will we mitigate the AI bias problem.  →  Only if
+2. _____ the lack of oversight, algorithmic errors could go unchecked.  →  Had it not been for
+3. _____ we invest in green computing, carbon emissions will rise.  →  Only if
+4. _____ the developers had followed ethical guidelines, the system would be trustworthy.  →  Had it not been for
+5. _____ we implement robust legislation, digital rights remain vulnerable.  →  Only if
+
 <!-- /topic -->
 
 <!-- topic: b3-t55 -->
-## b3-t55 ·  Future passive structures (will be automated / are expected to be replaced) · C1
+## b3-t55 · Future passive structures (will be automated / are expected to be replaced) · C1
 
 **Tiếng Việt:** Bị động tương lai phức tạp
 
@@ -2134,10 +3805,41 @@ Bị động tương lai phức tạp dùng để diễn tả một hành độn
 - EN: The challenge for the twenty-first century will be addressed by new institutions.
   VI: Thách thức của thế kỷ hai mươi mốt sẽ được các tổ chức mới giải quyết.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
+
+1. The new software _____ by the company next year.
+   A. will be launched  |  B. has launched  |  C. will launch  |  D. is launching  →  will be launched
+2. All outdated procedures _____ after the audit.
+   A. were replaced  |  B. will be replaced  |  C. are replaced  |  D. will replace  →  will be replaced
+3. The conference _____ by a virtual platform due to travel restrictions.
+   A. will host  |  B. will be hosted  |  C. is hosting  |  D. has been hosted  →  will be hosted
+4. Employee data _____ securely once the new regulations take effect.
+   A. will store  |  B. will be stored  |  C. has been stored  |  D. are stored  →  will be stored
+5. The impact of AI on jobs _____ closely by policymakers.
+   A. has been monitored  |  B. will monitor  |  C. will be monitored  |  D. is being monitored  →  will be monitored
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [will] [be] [implemented] [the] [new] [policy]  →  the new policy will be implemented
+2. [be] [will] [automated] [most] [tasks] [in] [the] [future]  →  most tasks will be automated in the future
+3. [be] [will] [replaced] [by] [advanced] [systems] [soon]  →  advanced systems will be replaced soon
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
+**Từ gợi ý:** will be launched · will be replaced · will be monitored · will be stored · will be implemented · might
+
+1. The updated curriculum _____ next semester to align with industry standards.  →  will be implemented
+2. All legacy software _____ by the IT department by year-end.  →  will be replaced
+3. Employee performance metrics _____ quarterly to ensure fairness.  →  will be monitored
+4. Customer feedback _____ in a central database for analysis.  →  will be stored
+5. The prototype device _____ at the upcoming tech expo.  →  will be launched
+
 <!-- /topic -->
 
 <!-- topic: b3-t56 -->
-## b3-t56 ·  Advanced discourse markers (notwithstanding / in so far as / by virtue of) · C2
+## b3-t56 · Advanced discourse markers (notwithstanding / in so far as / by virtue of) · C2
 
 **Tiếng Việt:** Liên từ học thuật C2
 
@@ -2171,10 +3873,41 @@ Các liên từ học thuật này là các từ nối dùng trong văn viết t
 - EN: Sovereignty must not be invoked as an excuse to obstruct peace processes, by virtue of its fundamental role in guaranteeing the rights of all citizens.
   VI: Chủ quyền không được dùng làm lý do để cản trở quá trình hòa bình, bởi vì vai trò cơ bản của nó trong việc bảo đảm quyền lợi của mọi công dân.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn liên từ học thuật phù hợp để hoàn thành câu.
+
+1. The committee proceeded with the plan, _____ the recent budget cuts.
+   A. by virtue of  |  B. in so far as  |  C. although  |  D. notwithstanding  →  notwithstanding
+2. _____ the evidence presented, the jury could not reach a unanimous verdict.
+   A. by virtue of  |  B. notwithstanding  |  C. in so far as  |  D. because  →  in so far as
+3. She was appointed chairperson _____ her extensive experience in international law.
+   A. in so far as  |  B. despite  |  C. by virtue of  |  D. although  →  by virtue of
+4. _____ the limited data, the researchers refrained from drawing definitive conclusions.
+   A. notwithstanding  |  B. by virtue of  |  C. in so far as  |  D. despite  →  notwithstanding
+5. _____ his position as senior analyst, he was unable to influence the final report.
+   A. although  |  B. in so far as  |  C. by virtue of  |  D. notwithstanding  →  by virtue of
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [lingering] [notwithstanding] [the] [treaty] [was] [signed] [mistrust] [The]  →  The treaty was signed notwithstanding the lingering mistrust
+2. [grounded] [Policies] [in] [evidence] [are] [succeed] [as] [they] [in] [so] [far] [empirical]  →  Policies succeed in so far as they are grounded in empirical evidence
+3. [authority] [She] [by] [gained] [virtue] [of] [her] [decades] [service] [of]  →  She gained authority by virtue of her decades of service
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** notwithstanding · in so far as · by virtue of · despite · because · although
+
+1. _____ the recent policy changes, the organization maintained its original objectives.  →  notwithstanding
+2. The proposal was accepted _____ the committee's stringent criteria were met.  →  in so far as
+3. _____ his appointment, he immediately began restructuring the department.  →  by virtue of
+4. _____ the harsh criticism, the author refused to alter the manuscript.  →  despite
+5. _____ the data was inconclusive, the team postponed the experiment.  →  because
+
 <!-- /topic -->
 
 <!-- topic: b3-t57 -->
-## b3-t57 ·  Complex conditionals — inversion and mixed · C2
+## b3-t57 · Complex conditionals — inversion and mixed · C2
 
 **Tiếng Việt:** Câu điều kiện phức tạp — đảo ngữ và hỗn hợp
 
@@ -2210,10 +3943,41 @@ Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) đ
 - EN: Should we ignore the digital divide, we will exacerbate social disparities.
   VI: Nếu chúng ta bỏ qua khoảng cách kỹ thuật số, chúng ta sẽ làm trầm trọng hơn sự bất bình đẳng xã hội.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn dạng đảo ngữ hoặc hỗn hợp phù hợp để hoàn thành câu.
+
+1. _____ the government had implemented stricter data regulations, privacy breaches would have decreased dramatically.
+   A. Should  |  B. If  |  C. Had  |  D. Were  →  Had
+2. _____ we invest in digital infrastructure now, the digital divide will narrow within a decade.
+   A. Were  |  B. If  |  C. Had  |  D. Should  →  Should
+3. _____ the algorithm been transparent, users could have made more informed choices.
+   A. If  |  B. Should  |  C. Had  |  D. Were  →  Had
+4. _____ she had known the risks, she wouldn't have consented to the data sharing.
+   A. Should  |  B. If  |  C. Had  |  D. Were  →  Had
+5. _____ the tech companies adopt ethical standards, public trust will be restored.
+   A. If  |  B. Were  |  C. Should  |  D. Had  →  Should
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [Had] [the] [regulators] [acted] [earlier] [privacy] [would] [be] [safer] [now]  →  Had the regulators acted earlier privacy would be safer now
+2. [Were] [societies] [to] [address] [the] [climate] [crisis] [now] [they] [could] [avoid] [future] [catastrophes]  →  Were societies to address the climate crisis now they could avoid future catastrophes
+3. [Should] [individuals] [recognise] [their] [digital] [rights] [they] [will] [demand] [greater] [accountability]  →  Should individuals recognise their digital rights they will demand greater accountability
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** Had · Should · Were · If · Unless · Might
+
+1. _____ the data had been anonymised, researchers could have shared findings without ethical concerns.  →  Had
+2. _____ we prioritize transparency, public confidence in AI systems will increase.  →  Should
+3. _____ governments were to invest in renewable energy, the transition would accelerate.  →  Were
+4. _____ the policy had been enforced, the digital divide would have narrowed.  →  Had
+5. _____ we ignore the warning signs, the consequences will be severe.  →  Unless
+
 <!-- /topic -->
 
 <!-- topic: b3-t58 -->
-## b3-t58 ·  Fronting and cleft sentences for focus and contrast · C2
+## b3-t58 · Fronting and cleft sentences for focus and contrast · C2
 
 **Tiếng Việt:** Đảo ngữ và câu chẻ phục vụ nhấn mạnh và đối lập
 
@@ -2247,10 +4011,41 @@ Câu điều kiện phức tạp dùng đảo ngữ (were, should, had, etc.) đ
 - EN: Beyond the immediate impacts, the urgency of the crisis has renewed debate about policy frameworks.
   VI: Ngoài những tác động ngay lập tức, tính cấp bách của cuộc khủng hoảng đã làm hồi sinh cuộc tranh luận về các khung chính sách.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ hoặc cụm từ phù hợp để hoàn thành câu.
+
+1. _____ is what the committee decided after hours of deliberation.
+   A. What  |  B. It  |  C. That  |  D. This  →  It
+2. _____ the most compelling argument, the panel rejected the proposal.
+   A. Having considered the most compelling argument  |  B. Considering the most compelling argument  |  C. After considering the most compelling argument  |  D. Because the argument was compelling  →  Having considered the most compelling argument
+3. _____ the key factor that determines success is resilience.
+   A. It is  |  B. That is  |  C. What is  |  D. The fact is  →  It is
+4. _____ the conference, the speaker highlighted the need for interdisciplinary research.
+   A. During the conference  |  B. At the conference  |  C. In the conference  |  D. On the conference  →  During the conference
+5. _____ the most effective way to reduce emissions is to invest in renewable energy.
+   A. What  |  B. Which  |  C. Who  |  D. That  →  What
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [must] [addressed] [Now] [the] [be] [issue]  →  Now the issue must be addressed
+2. [solution] [the] [is] [collaboration] [that] [It] [is]  →  It is collaboration that is the solution
+3. [policy] [On] [climate] [the] [impact] [was] [significant]  →  On climate policy the impact was significant
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
+**Từ gợi ý:** It · What · During · Beyond · Having · After
+
+1. _____ the most striking feature of the manuscript is its interdisciplinary scope.  →  What
+2. _____ the conference, the keynote speaker emphasized the urgency of climate action.  →  During
+3. _____ the factor that mattered most was the clarity of the research question.  →  It
+4. _____ the data were analyzed, the researchers discovered an unexpected pattern.  →  Having
+5. _____ the policy was implemented, emissions dropped dramatically.  →  After
+
 <!-- /topic -->
 
 <!-- topic: b3-t59 -->
-## b3-t59 ·  Complex stance expressions (It remains to be seen whether... / It is a moot point...) · C2
+## b3-t59 · Complex stance expressions (It remains to be seen whether... / It is a moot point...) · C2
 
 **Tiếng Việt:** Diễn đạt lập trường phức tạp
 
@@ -2284,10 +4079,41 @@ Diễn đạt lập trường phức tạp này dùng để nhấn mạnh sự c
 - EN: It remains to be seen whether societies can effectively grapple with questions of access, consent, and the distribution of enhancement technologies.
   VI: Vẫn chưa biết liệu các xã hội có thể giải quyết hiệu quả các câu hỏi về quyền truy cập, sự đồng ý và việc phân phối công nghệ nâng cao hay không.
 
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn cụm từ phù hợp để hoàn thành câu.
+
+1. _____ the debate over AI ethics, many scholars remain cautious about granting autonomous decision‑making to machines.
+   A. It is a moot point whether  |  B. It appears that  |  C. It remains to be seen whether  |  D. It seems that  →  It remains to be seen whether
+2. _____ the impact of gene editing on future generations, policymakers are reluctant to legislate without further data.
+   A. It remains to be seen whether  |  B. It is evident that  |  C. It is a moot point whether  |  D. It is clear that  →  It is a moot point whether
+3. _____ the benefits of neuroenhancement outweigh the risks, the scientific community continues rigorous trials.
+   A. It is obvious that  |  B. It is a moot point whether  |  C. It remains to be seen whether  |  D. It seems that  →  It remains to be seen whether
+4. _____ the notion that consciousness can be fully simulated, philosophers argue that subjective experience may elude computational models.
+   A. It is undeniable that  |  B. It is a moot point whether  |  C. It remains to be seen whether  |  D. It appears that  →  It is a moot point whether
+5. _____ the long‑term ecological consequences of nanotechnology, environmentalists call for precautionary regulations.
+   A. It is a moot point whether  |  B. It is evident that  |  C. It remains to be seen whether  |  D. It appears that  →  It remains to be seen whether
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [It] [remains] [to] [be] [seen] [whether] [the] [policy] [will] [address] [privacy] [concerns]  →  It remains to be seen whether the policy will address privacy concerns
+2. [It] [is] [a] [moot] [point] [whether] [the] [new] [curriculum] [will] [reduce] [inequality]  →  It is a moot point whether the new curriculum will reduce inequality
+3. [It] [remains] [to] [be] [seen] [whether] [the] [global] [energy] [transition] [can] [meet] [emission] [targets]  →  It remains to be seen whether the global energy transition can meet emission targets
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để hoàn thành câu.
+**Từ gợi ý:** remains · is · appears · seems · looks · might
+
+1. _____ to be seen whether the proposed framework will survive legislative scrutiny.  →  remains
+2. _____ a moot point whether the data truly support the hypothesis.  →  is
+3. _____ to be seen whether the climate model can accurately predict extreme events.  →  remains
+4. _____ a moot point whether the ethical guidelines are sufficient for AI deployment.  →  is
+5. _____ to be seen whether the new translation method will outperform existing ones.  →  remains
+
 <!-- /topic -->
 
 <!-- topic: b3-t60 -->
-## b3-t60 ·  Cohesion toolkit review (reference / ellipsis / lexical chains / discourse markers) · C2
+## b3-t60 · Cohesion toolkit review (reference / ellipsis / lexical chains / discourse markers) · C2
 
 **Tiếng Việt:** Ôn tập toàn bộ phương tiện liên kết văn bản
 
@@ -2320,5 +4146,36 @@ Phương tiện liên kết văn bản gồm các dạng tham chiếu (đại t�
   VI: Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ.
 - EN: Purpose and meaning are distinct but interrelated concepts; the repeated use of meaning creates a lexical chain throughout the paragraph.
   VI: Mục đích và ý nghĩa là những khái niệm riêng biệt nhưng có mối liên hệ chặt chẽ; việc lặp lại từ "meaning" tạo ra một chuỗi từ vựng xuyên suốt đoạn văn.
+
+### Bài tập 1 — Trắc nghiệm
+**Hướng dẫn:** Chọn từ nối (discourse marker) phù hợp để hoàn thành câu.
+
+1. The committee approved the proposal; _____, the implementation will begin next month.
+   A. however  |  B. therefore  |  C. meanwhile  |  D. consequently  →  therefore
+2. Many scholars argue that climate change is irreversible; _____, some propose geoengineering as a mitigation strategy.
+   A. in contrast  |  B. conversely  |  C. however  |  D. moreover  →  however
+3. The novel explores themes of identity; _____, the protagonist's journey reflects broader societal tensions.
+   A. similarly  |  B. consequently  |  C. additionally  |  D. in particular  →  consequently
+4. Researchers have identified several biomarkers; _____, the study lacked a control group.
+   A. nevertheless  |  B. moreover  |  C. furthermore  |  D. in contrast  →  nevertheless
+5. The treaty was signed in 1992; _____, it entered into force in 1995.
+   A. subsequently  |  B. however  |  C. therefore  |  D. meanwhile  →  subsequently
+
+### Bài tập 2 — Sắp xếp câu
+**Hướng dẫn:** Sắp xếp các từ thành câu đúng.
+
+1. [the] [implementation] [will] [begin] [next] [month]  →  the implementation will begin next month
+2. [Research] [has] [shown] [that] [significant] [results]  →  Research has shown that significant results
+3. [Ethics] [in] [technology] [are] [crucial] [today]  →  Ethics in technology are crucial today
+
+### Bài tập 3 — Điền từ
+**Hướng dẫn:** Chọn từ phù hợp từ ngân hàng để điền vào chỗ trống.
+**Từ gợi ý:** however · therefore · consequently · nevertheless · subsequently · meanwhile
+
+1. The policy was widely criticized; _____, the government defended its stance.  →  however
+2. She completed the marathon in record time; _____, she felt exhausted.  →  consequently
+3. The experiment failed to produce expected results; _____, the team revised the methodology.  →  nevertheless
+4. The conference was postponed; _____, the organizers announced new dates.  →  subsequently
+5. He was late to the meeting; _____, he missed the opening remarks.  →  therefore
 
 <!-- /topic -->
