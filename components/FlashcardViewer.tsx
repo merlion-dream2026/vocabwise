@@ -105,6 +105,13 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
       .catch(() => {})
   }, [topic.id])
 
+  // Auto-fetch explanation for current word (and prefetch next)
+  useEffect(() => {
+    const toFetch = [topic.words[currentIndex], topic.words[currentIndex + 1]].filter(Boolean)
+    toFetch.forEach(w => { if (w && !explanations[w.word] && !explaining.has(w.word)) explainWord(w) })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentIndex, topic.words])
+
   function handleStarClick(w: Word) {
     const isSaved = savedWords.has(w.word)
     if (isSaved) {
@@ -362,22 +369,20 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             ))}
           </div>
 
-          {/* AI Explainer */}
+          {/* AI Explainer — auto-shown */}
           <div className="w-full mt-3">
             {explanations[word.word] ? (
               <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-left">
                 <p className="text-xs font-black text-amber-600 mb-1">✨ Giải nghĩa</p>
                 <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
               </div>
-            ) : (
-              <button
-                onClick={() => explainWord(word)}
-                disabled={explaining.has(word.word)}
-                className="w-full bg-amber-50 border border-amber-200 text-amber-700 font-black text-sm py-2.5 rounded-2xl active:scale-95 transition-all disabled:opacity-60"
-              >
-                {explaining.has(word.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
-              </button>
-            )}
+            ) : explaining.has(word.word) ? (
+              <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3">
+                <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
+                <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
+                <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
+              </div>
+            ) : null}
           </div>
         </div>
 
