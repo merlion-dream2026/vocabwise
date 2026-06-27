@@ -15,7 +15,7 @@ import phonicsKnowledge from '@/data/phonicsKnowledge.json'
 type KnowledgeEntry = {
   how_to?: string[]
   vs_vietnamese?: string
-  spelling?: { pattern: string; examples: string[] }[]
+  spelling?: { pattern: string; examples: string[]; examples_ipa?: string[] }[]
   mistakes?: string[]
   mnemonic?: string
   why?: string
@@ -24,7 +24,7 @@ type KnowledgeEntry = {
 
 type Level  = typeof phonicsLevels.levels[number]
 type Lesson = Level['lessons'][number]
-type PairLesson = Lesson & { type: 'pair'; sounds: { symbol: string; keyword: string; emoji: string; vi: string; wikiAudio: string | null; learnAudio: string | null }[]; practice_words: string[]; tip: string }
+type PairLesson = Lesson & { type: 'pair'; sounds: { symbol: string; keyword: string; emoji: string; vi: string; wikiAudio: string | null; learnAudio: string | null }[]; practice_words: string[]; practice_words_ipa?: string[]; tip: string }
 type RuleLesson = Lesson & { type: 'rule'; buckets: { label: string; condition: string; tip: string; words: string[] }[] }
 
 const GAME_META: Record<string, { emoji: string; label: string; desc: string }> = {
@@ -109,7 +109,17 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
                   <div key={i} className="flex gap-2 text-xs">
                     <span className={`shrink-0 font-black ${levelText} font-mono`}>{s.pattern}</span>
                     <span className="text-gray-500">→</span>
-                    <span className="text-gray-600 font-semibold">{s.examples.join(', ')}</span>
+                    <span className="text-gray-600 font-semibold">
+                      {s.examples.map((ex, j) => (
+                        <span key={j}>
+                          {j > 0 && ', '}
+                          {ex}
+                          {s.examples_ipa?.[j] && (
+                            <span className="text-gray-400 font-mono font-normal ml-0.5">{s.examples_ipa[j]}</span>
+                          )}
+                        </span>
+                      ))}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -298,12 +308,15 @@ export default function LessonPage() {
             <div>
               <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Đọc thử từng từ</p>
               <div className="flex flex-wrap gap-2">
-                {pairLesson.practice_words.slice(0, 8).map(w => (
-                  <div key={w} className="flex flex-col items-center gap-1">
+                {pairLesson.practice_words.slice(0, 8).map((w, i) => (
+                  <div key={w} className="flex flex-col items-center gap-0.5">
                     <button onClick={() => speak(w, { rate: 0.75 })}
                       className={`${level.text} text-xs font-bold px-2 py-0.5 ${level.bg} border ${level.border} rounded-lg active:scale-90`}>
                       {w} 🔊
                     </button>
+                    {pairLesson.practice_words_ipa?.[i] && (
+                      <span className="text-[10px] text-gray-400 font-mono">{pairLesson.practice_words_ipa[i]}</span>
+                    )}
                     <QuickRecordButton word={w} />
                   </div>
                 ))}

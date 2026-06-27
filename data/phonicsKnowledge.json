@@ -6,21 +6,96 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'i' nhưng luôn ngắn và rõ. iː khác ở độ kéo dài và miệng căng hơn nhiều. ɪ hoàn toàn không có trong tiếng Việt — học sinh hay đọc thành iː hoặc thành 'i' Việt Nam ngắn cũn.",
     "spelling": [
-      {"pattern": "ee", "examples": ["tree", "see", "feet", "green", "free"]},
-      {"pattern": "ea", "examples": ["eat", "bean", "meat", "teach", "beach"]},
-      {"pattern": "ie / ei", "examples": ["field", "piece", "receive", "ceiling"]},
-      {"pattern": "i (trước âm câm e)", "examples": ["bike", "site", "these", "Pete"]},
-      {"pattern": "ɪ → i / y / e", "examples": ["fish", "sit", "gym", "pretty", "women"]}
+      {
+        "pattern": "ee",
+        "examples": [
+          "tree",
+          "see",
+          "feet",
+          "green",
+          "free"
+        ],
+        "examples_ipa": [
+          "/triː/",
+          "/siː/",
+          "/fiːt/",
+          "/ɡriːn/",
+          "/friː/"
+        ]
+      },
+      {
+        "pattern": "ea",
+        "examples": [
+          "eat",
+          "bean",
+          "meat",
+          "teach",
+          "beach"
+        ],
+        "examples_ipa": [
+          "/iːt/",
+          "/biːn/",
+          "/miːt/",
+          "/tiːtʃ/",
+          "/biːtʃ/"
+        ]
+      },
+      {
+        "pattern": "ie / ei",
+        "examples": [
+          "field",
+          "piece",
+          "receive",
+          "ceiling"
+        ],
+        "examples_ipa": [
+          "/fiːld/",
+          "/piːs/",
+          "/rɪˈsiːv/",
+          "/ˈsiːlɪŋ/"
+        ]
+      },
+      {
+        "pattern": "i+e (một số từ đặc biệt)",
+        "examples": [
+          "these",
+          "complete",
+          "extreme",
+          "athlete"
+        ],
+        "examples_ipa": [
+          "/ðiːz/",
+          "/kəmˈpliːt/",
+          "/ɪkˈstriːm/",
+          "/ˈæθliːt/"
+        ]
+      },
+      {
+        "pattern": "ɪ → i / y / e",
+        "examples": [
+          "fish",
+          "sit",
+          "gym",
+          "pretty",
+          "women"
+        ],
+        "examples_ipa": [
+          "/fɪʃ/",
+          "/sɪt/",
+          "/dʒɪm/",
+          "/ˈprɪti/",
+          "/ˈwɪmɪn/"
+        ]
+      }
     ],
     "mistakes": [
-      "\"ship\" đọc thành \"sheep\" — /ɪ/ bị kéo dài thành /iː/",
-      "\"fit\" đọc thành \"feet\" — cùng lỗi trên",
-      "\"hit\" vs \"heat\", \"live\" (động từ) vs \"leave\" — cặp hay nhầm nhất",
+      "\"ship\" /ʃɪp/ đọc thành \"sheep\" /ʃiːp/ — /ɪ/ bị kéo dài thành /iː/",
+      "\"fit\" /fɪt/ đọc thành \"feet\" /fiːt/ — cùng lỗi trên",
+      "\"hit\" /hɪt/ vs \"heat\" /hiːt/, \"live\" /lɪv/ (động từ) vs \"leave\" /liːv/ — cặp hay nhầm nhất",
       "Đọc cả hai âm như nhau, không phân biệt dài/ngắn"
     ],
     "mnemonic": "iː = 'Cheese!' 🧀 — nói 'cheese' chụp ảnh, miệng kéo dài tối đa. ɪ = thở nhẹ 'ih' — lỏng và nhanh như tiếng thở ngắn."
   },
-
   "uː-ʊ": {
     "how_to": [
       "uː: Tròn môi thật căng như thổi kèn, đẩy môi ra phía trước. Lưỡi cao phía sau. Kéo dài.",
@@ -28,10 +103,76 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'u' nhưng không phân biệt dài/ngắn. ʊ hoàn toàn không tồn tại — học sinh hay đọc 'book' như 'buk' căng, hoặc 'full' như 'fool'.",
     "spelling": [
-      {"pattern": "uː → oo", "examples": ["moon", "food", "pool", "cool", "soon"]},
-      {"pattern": "uː → ou / ew / ui / u+e", "examples": ["you", "soup", "new", "fruit", "rule"]},
-      {"pattern": "ʊ → oo", "examples": ["book", "cook", "look", "foot", "good"]},
-      {"pattern": "ʊ → u / oul", "examples": ["put", "push", "full", "could", "should", "would"]}
+      {
+        "pattern": "uː → oo",
+        "examples": [
+          "moon",
+          "food",
+          "pool",
+          "cool",
+          "soon"
+        ],
+        "examples_ipa": [
+          "/muːn/",
+          "/fuːd/",
+          "/puːl/",
+          "/kuːl/",
+          "/suːn/"
+        ]
+      },
+      {
+        "pattern": "uː → ou / ew / ui / u+e",
+        "examples": [
+          "you",
+          "soup",
+          "new",
+          "fruit",
+          "rule"
+        ],
+        "examples_ipa": [
+          "/juː/",
+          "/suːp/",
+          "/njuː/",
+          "/fruːt/",
+          "/ruːl/"
+        ]
+      },
+      {
+        "pattern": "ʊ → oo",
+        "examples": [
+          "book",
+          "cook",
+          "look",
+          "foot",
+          "good"
+        ],
+        "examples_ipa": [
+          "/bʊk/",
+          "/kʊk/",
+          "/lʊk/",
+          "/fʊt/",
+          "/ɡʊd/"
+        ]
+      },
+      {
+        "pattern": "ʊ → u / oul",
+        "examples": [
+          "put",
+          "push",
+          "full",
+          "could",
+          "should",
+          "would"
+        ],
+        "examples_ipa": [
+          "/pʊt/",
+          "/pʊʃ/",
+          "/fʊl/",
+          "/kʊd/",
+          "/ʃʊd/",
+          "/wʊd/"
+        ]
+      }
     ],
     "mistakes": [
       "\"full\" đọc thành \"fool\" — căng môi quá",
@@ -41,7 +182,6 @@
     ],
     "mnemonic": "uː = hình chữ 'O' tròn căng — môi như ống kèn 🎺. ʊ = 'uh-oh!' — tròn nhẹ, thả lỏng, ngắn."
   },
-
   "ɑː-ʌ": {
     "how_to": [
       "ɑː: Há miệng rộng nhất có thể như bác sĩ bảo 'Aah!'. Hạ hàm xuống, lưỡi phẳng và thấp sát sàn miệng. Kéo dài.",
@@ -49,10 +189,103 @@
     ],
     "vs_vietnamese": "ɑː gần với 'a' tiếng Việt nhưng miệng mở hơn nhiều và kéo dài hơn. ʌ hoàn toàn không có — học sinh thường thay bằng 'a' Việt Nam (sai cả hai âm).",
     "spelling": [
-      {"pattern": "ɑː → ar", "examples": ["car", "park", "farm", "hard", "heart"]},
-      {"pattern": "ɑː → a (trước l/m/n câm)", "examples": ["calm", "palm", "father", "bath", "half"]},
-      {"pattern": "ʌ → u", "examples": ["cup", "but", "run", "sun", "bus", "luck"]},
-      {"pattern": "ʌ → o / ou / oo", "examples": ["son", "love", "money", "young", "couple", "blood", "flood"]}
+      {
+        "pattern": "ɑː → ar",
+        "examples": [
+          "car",
+          "park",
+          "farm",
+          "hard",
+          "heart"
+        ],
+        "examples_ipa": [
+          "/kɑː/",
+          "/pɑːk/",
+          "/fɑːm/",
+          "/hɑːd/",
+          "/hɑːt/"
+        ]
+      },
+      {
+        "pattern": "ɑː → a (trước l/m câm)",
+        "examples": [
+          "calm",
+          "palm",
+          "half",
+          "balm"
+        ],
+        "examples_ipa": [
+          "/kɑːm/",
+          "/pɑːm/",
+          "/hɑːf/",
+          "/bɑːm/"
+        ]
+      },
+      {
+        "pattern": "ɑː → a (BATH words — British English)",
+        "examples": [
+          "bath",
+          "path",
+          "father",
+          "class",
+          "grass",
+          "dance",
+          "ask",
+          "last",
+          "past"
+        ],
+        "examples_ipa": [
+          "/bɑːθ/",
+          "/pɑːθ/",
+          "/ˈfɑːðə/",
+          "/klɑːs/",
+          "/ɡrɑːs/",
+          "/dɑːns/",
+          "/ɑːsk/",
+          "/lɑːst/",
+          "/pɑːst/"
+        ]
+      },
+      {
+        "pattern": "ʌ → u",
+        "examples": [
+          "cup",
+          "but",
+          "run",
+          "sun",
+          "bus",
+          "luck"
+        ],
+        "examples_ipa": [
+          "/kʌp/",
+          "/bʌt/",
+          "/rʌn/",
+          "/sʌn/",
+          "/bʌs/",
+          "/lʌk/"
+        ]
+      },
+      {
+        "pattern": "ʌ → o / ou / oo",
+        "examples": [
+          "son",
+          "love",
+          "money",
+          "young",
+          "couple",
+          "blood",
+          "flood"
+        ],
+        "examples_ipa": [
+          "/sʌn/",
+          "/lʌv/",
+          "/ˈmʌni/",
+          "/jʌŋ/",
+          "/ˈkʌpl/",
+          "/blʌd/",
+          "/flʌd/"
+        ]
+      }
     ],
     "mistakes": [
       "\"cut\" vs \"cart\" — không phân biệt, đọc cả hai như 'cat'",
@@ -62,28 +295,94 @@
     ],
     "mnemonic": "ɑː = 'Aaah!' bác sĩ khám họng 👨‍⚕️ — miệng mở tối đa. ʌ = tiếng thở 'uh' ngắn — giống khi bạn không chú ý."
   },
-
   "ɒ-ɔː": {
     "how_to": [
-      "ɒ: Miệng tròn vừa phải, hàm hạ thấp, môi hơi tròn nhẹ — âm ngắn. (British English; American English thường dùng /ɑː/ thay thế.)",
+      "ɒ: Miệng mở rộng, hàm hạ thấp, môi KHÔNG tròn hoặc chỉ tròn rất nhẹ — âm ngắn. (British English; American English thường dùng /ɑː/ thay thế.)",
       "ɔː: Tròn môi căng hơn ɒ, miệng hơi hẹp lại, âm dài và 'tròn'. Căng môi như đang nói 'aw' kéo dài."
     ],
     "vs_vietnamese": "Cả hai không có tương đương trong tiếng Việt. Học sinh hay đọc cả hai thành 'o' Việt Nam (ngắn, không tròn đủ). ɔː cần căng môi nhiều hơn 'o' Việt Nam.",
     "spelling": [
-      {"pattern": "ɒ → o", "examples": ["dog", "hot", "not", "top", "stop"]},
-      {"pattern": "ɒ → wa / wha", "examples": ["want", "wash", "watch", "what", "was"]},
-      {"pattern": "ɔː → or / oor / oar", "examples": ["for", "more", "door", "floor", "board"]},
-      {"pattern": "ɔː → al / au / aw", "examples": ["ball", "walk", "talk", "because", "caught", "law", "saw"]}
+      {
+        "pattern": "ɒ → o",
+        "examples": [
+          "dog",
+          "hot",
+          "not",
+          "top",
+          "stop"
+        ],
+        "examples_ipa": [
+          "/dɒɡ/",
+          "/hɒt/",
+          "/nɒt/",
+          "/tɒp/",
+          "/stɒp/"
+        ]
+      },
+      {
+        "pattern": "ɒ → wa / wha",
+        "examples": [
+          "want",
+          "wash",
+          "watch",
+          "what",
+          "was"
+        ],
+        "examples_ipa": [
+          "/wɒnt/",
+          "/wɒʃ/",
+          "/wɒtʃ/",
+          "/wɒt/",
+          "/wɒz/"
+        ]
+      },
+      {
+        "pattern": "ɔː → or / oor / oar",
+        "examples": [
+          "for",
+          "more",
+          "door",
+          "floor",
+          "board"
+        ],
+        "examples_ipa": [
+          "/fɔː/",
+          "/mɔː/",
+          "/dɔː/",
+          "/flɔː/",
+          "/bɔːd/"
+        ]
+      },
+      {
+        "pattern": "ɔː → al / au / aw",
+        "examples": [
+          "ball",
+          "walk",
+          "talk",
+          "because",
+          "caught",
+          "law",
+          "saw"
+        ],
+        "examples_ipa": [
+          "/bɔːl/",
+          "/wɔːk/",
+          "/tɔːk/",
+          "/bɪˈkɔːz/",
+          "/kɔːt/",
+          "/lɔː/",
+          "/sɔː/"
+        ]
+      }
     ],
     "mistakes": [
       "\"caught\" đọc như \"cat\" — bỏ mất ɔː",
-      "\"walk\" đọc như \"wok\" — l câm nhưng nguyên âm phải là ɔː",
+      "\"walk\" đọc như \"wok\" (âm ngắn /ɒ/ thay vì /ɔː/ dài) — l câm nhưng nguyên âm phải kéo dài",
       "\"want\" đọc như \"vant\" — w không phải v, và nguyên âm là ɒ",
       "\"all\" đọc như \"al\" ngắn thay vì ɔːl"
     ],
     "mnemonic": "ɒ = bóng tròn nhỏ ⚫ ngắn gọn. ɔː = 'aw!' khi ngạc nhiên — miệng tròn, kéo dài 🎤."
   },
-
   "e-æ": {
     "how_to": [
       "e: Miệng mở vừa phải, lưỡi ở giữa-trước, không tròn. Giống 'e' tiếng Việt nhưng miệng mở hơn một chút.",
@@ -91,10 +390,78 @@
     ],
     "vs_vietnamese": "'e' tiếng Anh gần 'e' tiếng Việt (hoặc 'ê' gần hơn). æ hoàn toàn không có — học sinh thường đọc thành 'e' bình thường, dẫn đến nhầm lẫn 'bad/bed', 'man/men'.",
     "spelling": [
-      {"pattern": "e → e", "examples": ["bed", "red", "get", "ten", "pen"]},
-      {"pattern": "e → ea / ai", "examples": ["head", "bread", "dead", "said", "again"]},
-      {"pattern": "æ → a (trước hầu hết phụ âm)", "examples": ["cat", "bag", "map", "bad", "man", "can", "hat"]},
-      {"pattern": "æ → al (trước n/v)", "examples": ["value", "talent", "Calvin"]}
+      {
+        "pattern": "e → e",
+        "examples": [
+          "bed",
+          "red",
+          "get",
+          "ten",
+          "pen"
+        ],
+        "examples_ipa": [
+          "/bed/",
+          "/red/",
+          "/ɡet/",
+          "/ten/",
+          "/pen/"
+        ]
+      },
+      {
+        "pattern": "e → ea / ai",
+        "examples": [
+          "head",
+          "bread",
+          "dead",
+          "said",
+          "again"
+        ],
+        "examples_ipa": [
+          "/hed/",
+          "/bred/",
+          "/ded/",
+          "/sed/",
+          "/əˈɡen/"
+        ]
+      },
+      {
+        "pattern": "æ → a (trước hầu hết phụ âm)",
+        "examples": [
+          "cat",
+          "bag",
+          "map",
+          "bad",
+          "man",
+          "can",
+          "hat"
+        ],
+        "examples_ipa": [
+          "/kæt/",
+          "/bæɡ/",
+          "/mæp/",
+          "/bæd/",
+          "/mæn/",
+          "/kæn/",
+          "/hæt/"
+        ]
+      },
+      {
+        "pattern": "æ → a (trước hầu hết phụ âm khác)",
+        "examples": [
+          "value",
+          "talent",
+          "balance",
+          "palace",
+          "salary"
+        ],
+        "examples_ipa": [
+          "/ˈvæljuː/",
+          "/ˈtælənt/",
+          "/ˈbæləns/",
+          "/ˈpæləs/",
+          "/ˈsæləri/"
+        ]
+      }
     ],
     "mistakes": [
       "\"bad\" đọc thành \"bed\" — æ bị thay bằng e",
@@ -104,7 +471,6 @@
     ],
     "mnemonic": "æ = 'a' muốn trở thành 'e' — há miệng rộng (a) nhưng kéo sang ngang (e). Hình ảnh: chữ æ = a + e ghép lại! 🔤"
   },
-
   "ɜː": {
     "how_to": [
       "Miệng hơi mở (không rộng, không hẹp), môi KHÔNG tròn, lưỡi ở vị trí trung tâm — không lên không xuống.",
@@ -113,10 +479,95 @@
     ],
     "vs_vietnamese": "Tiếng Việt hoàn toàn không có âm này. Học sinh thường: (1) thêm âm 'r' rõ ràng vào cuối ('bird' thành 'bờ-rờ'), (2) đọc thành 'ơ' tiếng Việt (ngắn hơn và khác vị trí lưỡi), (3) tròn môi theo kiểu 'u'.",
     "spelling": [
-      {"pattern": "er", "examples": ["her", "term", "verb", "serve", "person"]},
-      {"pattern": "ir", "examples": ["bird", "girl", "first", "shirt", "birth"]},
-      {"pattern": "ur", "examples": ["burn", "turn", "nurse", "curl", "hurt"]},
-      {"pattern": "ear / or (trước k)", "examples": ["heard", "early", "earn", "word", "world", "work"]}
+      {
+        "pattern": "er",
+        "examples": [
+          "her",
+          "term",
+          "verb",
+          "serve",
+          "person"
+        ],
+        "examples_ipa": [
+          "/hɜː/",
+          "/tɜːm/",
+          "/vɜːb/",
+          "/sɜːv/",
+          "/ˈpɜːsn/"
+        ]
+      },
+      {
+        "pattern": "ir",
+        "examples": [
+          "bird",
+          "girl",
+          "first",
+          "shirt",
+          "birth"
+        ],
+        "examples_ipa": [
+          "/bɜːd/",
+          "/ɡɜːl/",
+          "/fɜːst/",
+          "/ʃɜːt/",
+          "/bɜːθ/"
+        ]
+      },
+      {
+        "pattern": "ur",
+        "examples": [
+          "burn",
+          "turn",
+          "nurse",
+          "curl",
+          "hurt"
+        ],
+        "examples_ipa": [
+          "/bɜːn/",
+          "/tɜːn/",
+          "/nɜːs/",
+          "/kɜːl/",
+          "/hɜːt/"
+        ]
+      },
+      {
+        "pattern": "ear",
+        "examples": [
+          "heard",
+          "early",
+          "earn",
+          "learn",
+          "earth"
+        ],
+        "examples_ipa": [
+          "/hɜːd/",
+          "/ˈɜːli/",
+          "/ɜːn/",
+          "/lɜːn/",
+          "/ɜːθ/"
+        ]
+      },
+      {
+        "pattern": "wor- (w+or)",
+        "examples": [
+          "word",
+          "world",
+          "work",
+          "worm",
+          "worse",
+          "worth",
+          "worship"
+        ],
+        "examples_ipa": [
+          "/wɜːd/",
+          "/wɜːld/",
+          "/wɜːk/",
+          "/wɜːm/",
+          "/wɜːs/",
+          "/wɜːθ/",
+          "/ˈwɜːʃɪp/"
+        ]
+      }
     ],
     "mistakes": [
       "Thêm âm /r/ rõ ràng sau: 'bird' → 'bờ-rờ-d' (British English không có r ở đây)",
@@ -126,7 +577,6 @@
     ],
     "mnemonic": "ɜː = 'Er...' khi đang suy nghĩ tìm từ 🤔 — kéo dài, miệng thả lỏng, không tròn. Nghĩ đến cách người Anh nói 'Er, I don't know...'"
   },
-
   "ə": {
     "how_to": [
       "Đây là âm LƯỜI BIẾNG nhất trong tiếng Anh — miệng thả lỏng hoàn toàn, lưỡi ở vị trí nghỉ ngơi tự nhiên (giữa miệng), không căng bất kỳ cơ nào.",
@@ -135,10 +585,72 @@
     ],
     "vs_vietnamese": "Tiếng Việt phát âm ĐẦY ĐỦ mọi âm tiết. Tiếng Anh thì âm tiết không nhấn bị 'nuốt' thành ə. Đây là lý do người Việt nghe tiếng Anh 'khó' — họ đang cố nghe những âm tiết bị giảm đi.",
     "spelling": [
-      {"pattern": "a (đầu từ không nhấn)", "examples": ["about", "ago", "alone", "above", "afraid"]},
-      {"pattern": "e / o (âm tiết không nhấn)", "examples": ["problem", "system", "today", "common", "police"]},
-      {"pattern": "er / or / ar (cuối từ)", "examples": ["teacher", "doctor", "dollar", "butter", "colour"]},
-      {"pattern": "our / ure (không nhấn)", "examples": ["colour", "behaviour", "picture", "nature"]}
+      {
+        "pattern": "a (đầu từ không nhấn)",
+        "examples": [
+          "about",
+          "ago",
+          "alone",
+          "above",
+          "afraid"
+        ],
+        "examples_ipa": [
+          "/əˈbaʊt/",
+          "/əˈɡəʊ/",
+          "/əˈləʊn/",
+          "/əˈbʌv/",
+          "/əˈfreɪd/"
+        ]
+      },
+      {
+        "pattern": "e / o (âm tiết không nhấn)",
+        "examples": [
+          "problem",
+          "system",
+          "today",
+          "common",
+          "police"
+        ],
+        "examples_ipa": [
+          "/ˈprɒbləm/",
+          "/ˈsɪstəm/",
+          "/təˈdeɪ/",
+          "/ˈkɒmən/",
+          "/pəˈliːs/"
+        ]
+      },
+      {
+        "pattern": "er / or / ar (cuối từ)",
+        "examples": [
+          "teacher",
+          "doctor",
+          "dollar",
+          "butter",
+          "colour"
+        ],
+        "examples_ipa": [
+          "/ˈtiːtʃə/",
+          "/ˈdɒktə/",
+          "/ˈdɒlə/",
+          "/ˈbʌtə/",
+          "/ˈkʌlə/"
+        ]
+      },
+      {
+        "pattern": "our / ure (không nhấn)",
+        "examples": [
+          "colour",
+          "behaviour",
+          "picture",
+          "nature"
+        ],
+        "examples_ipa": [
+          "/ˈkʌlə/",
+          "/bɪˈheɪvjə/",
+          "/ˈpɪktʃə/",
+          "/ˈneɪtʃə/"
+        ]
+      }
     ],
     "mistakes": [
       "Đọc rõ từng nguyên âm: 'about' → 'a-bout' rõ ràng thay vì 'ə-baut'",
@@ -148,7 +660,6 @@
     ],
     "mnemonic": "ə = schwa = 'ừ' khi không chú ý 😪. Đây là âm PHỔ BIẾN NHẤT trong tiếng Anh — chiếm ~30% tất cả nguyên âm được nói! Bắt được ə = hiểu tiếng Anh như native."
   },
-
   "eɪ-aɪ": {
     "how_to": [
       "eɪ: Bắt đầu ở 'e' (miệng vừa, lưỡi giữa-trước), trượt dần lên 'ɪ' (miệng khép, lưỡi nâng). Hai âm nối liền mượt mà như một.",
@@ -156,11 +667,105 @@
     ],
     "vs_vietnamese": "eɪ gần 'ây' tiếng Việt; aɪ gần 'ai' tiếng Việt. Tuy nhiên trong tiếng Anh phải trượt mượt mà hơn, không ngắt thành 2 âm rõ ràng như tiếng Việt.",
     "spelling": [
-      {"pattern": "eɪ → ay / ai", "examples": ["day", "play", "say", "rain", "train", "wait", "pain"]},
-      {"pattern": "eɪ → a+e / ea", "examples": ["cake", "name", "late", "break", "steak", "great"]},
-      {"pattern": "eɪ → ey / ei", "examples": ["they", "grey", "eight", "weight", "veil"]},
-      {"pattern": "aɪ → igh / i+e", "examples": ["night", "light", "right", "kite", "time", "bike", "like"]},
-      {"pattern": "aɪ → y / ie / i (đứng một mình)", "examples": ["fly", "my", "try", "pie", "tie", "I", "find"]}
+      {
+        "pattern": "eɪ → ay / ai",
+        "examples": [
+          "day",
+          "play",
+          "say",
+          "rain",
+          "train",
+          "wait",
+          "pain"
+        ],
+        "examples_ipa": [
+          "/deɪ/",
+          "/pleɪ/",
+          "/seɪ/",
+          "/reɪn/",
+          "/treɪn/",
+          "/weɪt/",
+          "/peɪn/"
+        ]
+      },
+      {
+        "pattern": "eɪ → a+e / ea",
+        "examples": [
+          "cake",
+          "name",
+          "late",
+          "break",
+          "steak",
+          "great"
+        ],
+        "examples_ipa": [
+          "/keɪk/",
+          "/neɪm/",
+          "/leɪt/",
+          "/breɪk/",
+          "/steɪk/",
+          "/ɡreɪt/"
+        ]
+      },
+      {
+        "pattern": "eɪ → ey / ei",
+        "examples": [
+          "they",
+          "grey",
+          "eight",
+          "weight",
+          "veil"
+        ],
+        "examples_ipa": [
+          "/ðeɪ/",
+          "/ɡreɪ/",
+          "/eɪt/",
+          "/weɪt/",
+          "/veɪl/"
+        ]
+      },
+      {
+        "pattern": "aɪ → igh / i+e",
+        "examples": [
+          "night",
+          "light",
+          "right",
+          "kite",
+          "time",
+          "bike",
+          "like"
+        ],
+        "examples_ipa": [
+          "/naɪt/",
+          "/laɪt/",
+          "/raɪt/",
+          "/kaɪt/",
+          "/taɪm/",
+          "/baɪk/",
+          "/laɪk/"
+        ]
+      },
+      {
+        "pattern": "aɪ → y / ie / i (đứng một mình)",
+        "examples": [
+          "fly",
+          "my",
+          "try",
+          "pie",
+          "tie",
+          "I",
+          "find"
+        ],
+        "examples_ipa": [
+          "/flaɪ/",
+          "/maɪ/",
+          "/traɪ/",
+          "/paɪ/",
+          "/taɪ/",
+          "/aɪ/",
+          "/faɪnd/"
+        ]
+      }
     ],
     "mistakes": [
       "Đọc 'day' thành 2 âm tách biệt 'đê-i' thay vì trượt mượt",
@@ -170,7 +775,6 @@
     ],
     "mnemonic": "eɪ = tên chữ cái 'A' trong tiếng Anh ('ay'). aɪ = tên chữ cái 'I' trong tiếng Anh ('eye'). Học xong bảng chữ cái là biết 2 âm này rồi! 🔤"
   },
-
   "əʊ-aʊ": {
     "how_to": [
       "əʊ: Bắt đầu ở ə (miệng thả lỏng), trượt dần tròn môi lên uː (môi khép tròn). Nhẹ nhàng và liên tục.",
@@ -178,10 +782,88 @@
     ],
     "vs_vietnamese": "əʊ gần 'ô' nhưng bắt đầu lỏng hơn (không phải 'ô' căng ngay từ đầu). aʊ gần 'ao' nhưng kết thúc tròn môi hơn nhiều.",
     "spelling": [
-      {"pattern": "əʊ → o+e / o (cuối)", "examples": ["home", "note", "rope", "go", "so", "no"]},
-      {"pattern": "əʊ → ow / oa", "examples": ["snow", "know", "blow", "boat", "road", "coat", "toad"]},
-      {"pattern": "aʊ → ow", "examples": ["cow", "now", "how", "town", "down", "brown", "crowd"]},
-      {"pattern": "aʊ → ou", "examples": ["out", "about", "cloud", "found", "loud", "mouth", "house"]}
+      {
+        "pattern": "əʊ → o+e / o (cuối)",
+        "examples": [
+          "home",
+          "note",
+          "rope",
+          "go",
+          "so",
+          "no"
+        ],
+        "examples_ipa": [
+          "/həʊm/",
+          "/nəʊt/",
+          "/rəʊp/",
+          "/ɡəʊ/",
+          "/səʊ/",
+          "/nəʊ/"
+        ]
+      },
+      {
+        "pattern": "əʊ → ow / oa",
+        "examples": [
+          "snow",
+          "know",
+          "blow",
+          "boat",
+          "road",
+          "coat",
+          "toad"
+        ],
+        "examples_ipa": [
+          "/snəʊ/",
+          "/nəʊ/",
+          "/bləʊ/",
+          "/bəʊt/",
+          "/rəʊd/",
+          "/kəʊt/",
+          "/təʊd/"
+        ]
+      },
+      {
+        "pattern": "aʊ → ow",
+        "examples": [
+          "cow",
+          "now",
+          "how",
+          "town",
+          "down",
+          "brown",
+          "crowd"
+        ],
+        "examples_ipa": [
+          "/kaʊ/",
+          "/naʊ/",
+          "/haʊ/",
+          "/taʊn/",
+          "/daʊn/",
+          "/braʊn/",
+          "/kraʊd/"
+        ]
+      },
+      {
+        "pattern": "aʊ → ou",
+        "examples": [
+          "out",
+          "about",
+          "cloud",
+          "found",
+          "loud",
+          "mouth",
+          "house"
+        ],
+        "examples_ipa": [
+          "/aʊt/",
+          "/əˈbaʊt/",
+          "/klaʊd/",
+          "/faʊnd/",
+          "/laʊd/",
+          "/maʊθ/",
+          "/haʊs/"
+        ]
+      }
     ],
     "mistakes": [
       "'go' đọc như 'gô' Việt Nam — âm đơn, không trượt",
@@ -191,7 +873,6 @@
     ],
     "mnemonic": "əʊ = tên chữ 'O' trong tiếng Anh ('oh'). aʊ = tiếng kêu đau 'OW!' 🤕 — miệng mở rộng rồi tròn lại."
   },
-
   "ɔɪ": {
     "how_to": [
       "Bắt đầu ở ɔː (miệng tròn căng, hàm hơi mở — âm 'aw'), trượt dần lên ɪ (miệng khép, lưỡi nâng cao phía trước).",
@@ -199,8 +880,50 @@
     ],
     "vs_vietnamese": "Không có tương đương trong tiếng Việt. Gần 'oi' nhưng điểm xuất phát ɔː tròn môi hơn 'o' Việt Nam nhiều. Tiếng Việt 'oi' bắt đầu từ 'o' không tròn.",
     "spelling": [
-      {"pattern": "oy (cuối từ hoặc trước nguyên âm)", "examples": ["boy", "toy", "joy", "enjoy", "annoy", "royal", "loyal"]},
-      {"pattern": "oi (giữa từ)", "examples": ["oil", "coin", "join", "voice", "avoid", "noise", "point", "choice"]}
+      {
+        "pattern": "oy (cuối từ hoặc trước nguyên âm)",
+        "examples": [
+          "boy",
+          "toy",
+          "joy",
+          "enjoy",
+          "annoy",
+          "royal",
+          "loyal"
+        ],
+        "examples_ipa": [
+          "/bɔɪ/",
+          "/tɔɪ/",
+          "/dʒɔɪ/",
+          "/ɪnˈdʒɔɪ/",
+          "/əˈnɔɪ/",
+          "/ˈrɔɪəl/",
+          "/ˈlɔɪəl/"
+        ]
+      },
+      {
+        "pattern": "oi (giữa từ)",
+        "examples": [
+          "oil",
+          "coin",
+          "join",
+          "voice",
+          "avoid",
+          "noise",
+          "point",
+          "choice"
+        ],
+        "examples_ipa": [
+          "/ɔɪl/",
+          "/kɔɪn/",
+          "/dʒɔɪn/",
+          "/vɔɪs/",
+          "/əˈvɔɪd/",
+          "/nɔɪz/",
+          "/pɔɪnt/",
+          "/tʃɔɪs/"
+        ]
+      }
     ],
     "mistakes": [
       "Bắt đầu từ 'o' không tròn thay vì ɔ tròn — 'boy' thành 'boh-ee'",
@@ -210,7 +933,6 @@
     ],
     "mnemonic": "Nghĩ âm 'Oi!' (tiếng Anh-Anh gọi người) — tròn môi rồi trượt lên 'ee'. Boy → BO-ee 🎡."
   },
-
   "ɪə-eə": {
     "how_to": [
       "ɪə: Bắt đầu ở ɪ (lưỡi cao phía trước, miệng hẹp), trượt xuống ə (miệng hơi mở, lưỡi về giữa). Giọng hạ nhẹ.",
@@ -218,8 +940,56 @@
     ],
     "vs_vietnamese": "Không có tương đương. Khó nhất là phần kết thúc — schwa ə là điểm dừng, không phải 'a' hay 'ơ' Việt Nam. Học sinh thường phát âm thành 2 âm tách biệt: 'i-a' và 'e-a'.",
     "spelling": [
-      {"pattern": "ɪə → ear / eer / ere / ier", "examples": ["ear", "fear", "near", "clear", "beer", "deer", "here", "fierce"]},
-      {"pattern": "eə → air / are / ear / ere", "examples": ["hair", "fair", "chair", "care", "dare", "share", "bear", "pear", "there", "where"]}
+      {
+        "pattern": "ɪə → ear / eer / ere / ier",
+        "examples": [
+          "ear",
+          "fear",
+          "near",
+          "clear",
+          "beer",
+          "deer",
+          "here",
+          "fierce"
+        ],
+        "examples_ipa": [
+          "/ɪə/",
+          "/fɪə/",
+          "/nɪə/",
+          "/klɪə/",
+          "/bɪə/",
+          "/dɪə/",
+          "/hɪə/",
+          "/fɪəs/"
+        ]
+      },
+      {
+        "pattern": "eə → air / are / ear / ere",
+        "examples": [
+          "hair",
+          "fair",
+          "chair",
+          "care",
+          "dare",
+          "share",
+          "bear",
+          "pear",
+          "there",
+          "where"
+        ],
+        "examples_ipa": [
+          "/heə/",
+          "/feə/",
+          "/tʃeə/",
+          "/keə/",
+          "/deə/",
+          "/ʃeə/",
+          "/beə/",
+          "/peə/",
+          "/ðeə/",
+          "/weə/"
+        ]
+      }
     ],
     "mistakes": [
       "Đọc thành 2 âm tách biệt 'i-a' và 'e-a' thay vì một âm đôi trượt",
@@ -229,7 +999,6 @@
     ],
     "mnemonic": "ɪə = 'ear' 👂 — nhớ từ EAR là từ ví dụ. eə = 'air' 🌬️ — nhớ từ AIR là từ ví dụ. Hai từ này chính là tên của hai âm!"
   },
-
   "ʊə": {
     "how_to": [
       "Bắt đầu ở ʊ (môi tròn nhẹ, lưỡi cao phía sau), trượt xuống ə (miệng thả lỏng, lưỡi về giữa).",
@@ -237,8 +1006,44 @@
     ],
     "vs_vietnamese": "Không có tương đương. Gần 'ua' nhưng bắt đầu tròn môi nhẹ (ʊ) chứ không rõ ràng như 'u' tiếng Việt, và kết thúc bằng schwa chứ không phải 'a' rõ.",
     "spelling": [
-      {"pattern": "ure / our / oor", "examples": ["pure", "cure", "sure", "tour", "your", "poor", "moor"]},
-      {"pattern": "ewer / ua", "examples": ["fewer", "sewer", "usual", "visual", "actual"]}
+      {
+        "pattern": "ure / our / oor",
+        "examples": [
+          "pure",
+          "cure",
+          "sure",
+          "tour",
+          "your",
+          "poor",
+          "moor"
+        ],
+        "examples_ipa": [
+          "/pjʊə/",
+          "/kjʊə/",
+          "/ʃʊə/",
+          "/tʊə/",
+          "/jɔː/",
+          "/pɔː/",
+          "/mɔː/"
+        ]
+      },
+      {
+        "pattern": "ewer / ua",
+        "examples": [
+          "fewer",
+          "sewer",
+          "usual",
+          "visual",
+          "actual"
+        ],
+        "examples_ipa": [
+          "/ˈfjuːə/",
+          "/ˈsuːə/",
+          "/ˈjuːʒuəl/",
+          "/ˈvɪʒuəl/",
+          "/ˈæktʃuəl/"
+        ]
+      }
     ],
     "mistakes": [
       "Đọc thành 'u-a' tách biệt thay vì trượt",
@@ -248,7 +1053,6 @@
     ],
     "mnemonic": "ʊə = 'you + uh' nối liền — nói 'you' rồi ngay lập tức thả lỏng thành 'uh'. Pure = 'pyoo-uh' nối nhanh 🌿."
   },
-
   "p-b": {
     "how_to": [
       "Cả hai: khép hai môi chặt, tích áp suất không khí sau môi, rồi bật ra.",
@@ -257,18 +1061,53 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'p' (ph) và 'b'. p tiếng Anh bật hơi MẠNH HƠN tiếng Việt ở đầu từ. Khi ở cuối từ ('cup', 'top'), p Anh KHÔNG bật hơi — khép môi rồi dừng.",
     "spelling": [
-      {"pattern": "p → p / pp", "examples": ["pan", "cup", "stop", "happy", "apple", "upper"]},
-      {"pattern": "b → b / bb", "examples": ["ban", "cab", "big", "rabbit", "hobby", "cobbler"]}
+      {
+        "pattern": "p → p / pp",
+        "examples": [
+          "pan",
+          "cup",
+          "stop",
+          "happy",
+          "apple",
+          "upper"
+        ],
+        "examples_ipa": [
+          "/pæn/",
+          "/kʌp/",
+          "/stɒp/",
+          "/ˈhæpi/",
+          "/ˈæpl/",
+          "/ˈʌpə/"
+        ]
+      },
+      {
+        "pattern": "b → b / bb",
+        "examples": [
+          "ban",
+          "cab",
+          "big",
+          "rabbit",
+          "hobby",
+          "cobbler"
+        ],
+        "examples_ipa": [
+          "/bæn/",
+          "/kæb/",
+          "/bɪɡ/",
+          "/ˈræbɪt/",
+          "/ˈhɒbi/",
+          "/ˈkɒblə/"
+        ]
+      }
     ],
     "mistakes": [
       "p đầu từ không bật hơi đủ mạnh — nghe như 'b'",
       "p cuối từ bật hơi ra — 'cup!' nghe như tiếng Việt",
       "b không rung dây thanh đủ — nghe như 'p'",
-      "\"map\" và \"mab\" — không phân biệt p/b cuối từ"
+      "\"cap\" vs \"cab\", \"mop\" vs \"mob\" — không phân biệt p/b cuối từ"
     ],
     "mnemonic": "p = Pop! 💥 tiếng bật mạnh, không rung. b = Buzz! 🐝 cảm nhận cổ rung. Test p: giữ tờ giấy trước miệng — p phải làm giấy bay!"
   },
-
   "t-d": {
     "how_to": [
       "Cả hai: đầu lưỡi chạm alveolar ridge (gờ nướu ngay sau răng trên), chặn hơi, rồi bật ra.",
@@ -277,18 +1116,51 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 't' và 'đ'. t Anh bật hơi mạnh hơn ở đầu từ. Quan trọng: t cuối từ tiếng Anh ('cat', 'sit') không bật hơi — khác hoàn toàn cách đọc tự nhiên của người Việt.",
     "spelling": [
-      {"pattern": "t → t / tt / -tion/-ture (đọc khác)", "examples": ["ten", "sit", "start", "butter", "little"]},
-      {"pattern": "d → d / dd / -ed (voiced)", "examples": ["den", "did", "bird", "add", "played", "called"]}
+      {
+        "pattern": "t → t / tt / -tion/-ture (đọc khác)",
+        "examples": [
+          "ten",
+          "sit",
+          "start",
+          "butter",
+          "little"
+        ],
+        "examples_ipa": [
+          "/ten/",
+          "/sɪt/",
+          "/stɑːt/",
+          "/ˈbʌtə/",
+          "/ˈlɪtl/"
+        ]
+      },
+      {
+        "pattern": "d → d / dd / -ed (voiced)",
+        "examples": [
+          "den",
+          "did",
+          "bird",
+          "add",
+          "played",
+          "called"
+        ],
+        "examples_ipa": [
+          "/den/",
+          "/dɪd/",
+          "/bɜːd/",
+          "/æd/",
+          "/pleɪd/",
+          "/kɔːld/"
+        ]
+      }
     ],
     "mistakes": [
       "'time' đọc như 'đaim' — t Anh không phải đ Việt",
       "Cuối từ 'cat' bật hơi ra — 'ca-t!' kiểu Việt Nam",
-      "'don't' đọc như 'đôn' — d Anh cần rung dây thanh",
+      "'done' đọc như 'đân' — d Anh là /d/ alveolar (lưỡi chạm nướu răng), không phải /đ/ dental tiếng Việt (lưỡi chạm răng)",
       "\"ten\" vs \"den\" — không phân biệt rung/không rung"
     ],
     "mnemonic": "t = Tick! ⏱️ tiếng đồng hồ ngắn gọn, sắc. d = Drum! 🥁 cảm nhận ngực/cổ rung nhẹ khi phát âm."
   },
-
   "k-g": {
     "how_to": [
       "Cả hai: GỐC lưỡi (phần sau) nâng lên chặn vòm mềm (velum — phần mềm cuối vòm miệng), tích hơi, rồi bật ra.",
@@ -297,19 +1169,76 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'c/k/q' (voiceless) và 'g/gh' (voiced). Cặp này học sinh Việt phân biệt tốt hơn p/b và t/d. Chú ý: k Anh ở đầu từ bật hơi hơn 'c' Việt Nam.",
     "spelling": [
-      {"pattern": "k → k / c / ck / ch (học thuật)", "examples": ["kit", "king", "cat", "cold", "back", "rock", "school", "chemistry"]},
-      {"pattern": "k → qu (= /kw/)", "examples": ["queen", "quit", "quick", "quarter", "question"]},
-      {"pattern": "g → g / gg / gu", "examples": ["go", "bag", "dog", "egg", "bigger", "guide", "guard"]}
+      {
+        "pattern": "k → k / c / ck / ch (học thuật)",
+        "examples": [
+          "kit",
+          "king",
+          "cat",
+          "cold",
+          "back",
+          "rock",
+          "school",
+          "chemistry"
+        ],
+        "examples_ipa": [
+          "/kɪt/",
+          "/kɪŋ/",
+          "/kæt/",
+          "/kəʊld/",
+          "/bæk/",
+          "/rɒk/",
+          "/skuːl/",
+          "/ˈkemɪstri/"
+        ]
+      },
+      {
+        "pattern": "k → qu (= /kw/)",
+        "examples": [
+          "queen",
+          "quit",
+          "quick",
+          "quarter",
+          "question"
+        ],
+        "examples_ipa": [
+          "/kwiːn/",
+          "/kwɪt/",
+          "/kwɪk/",
+          "/ˈkwɔːtə/",
+          "/ˈkwestʃən/"
+        ]
+      },
+      {
+        "pattern": "g → g / gg / gu",
+        "examples": [
+          "go",
+          "bag",
+          "dog",
+          "egg",
+          "bigger",
+          "guide",
+          "guard"
+        ],
+        "examples_ipa": [
+          "/ɡəʊ/",
+          "/bæɡ/",
+          "/dɒɡ/",
+          "/eɡ/",
+          "/ˈbɪɡə/",
+          "/ɡaɪd/",
+          "/ɡɑːd/"
+        ]
+      }
     ],
     "mistakes": [
       "'game' đọc thành 'came' — nhầm g với k",
-      "'girl' đọc thành 'curl' — bỏ mất âm g",
+      "'go' đọc thành 'ko' — g cần rung dây thanh ngay từ đầu, không ngắt như k",
       "'back' bật hơi cuối — đặt gốc lưỡi vào vị trí rồi dừng, không bật",
       "\"ghost\" đọc đúng /gəʊst/ — gh này vẫn đọc g"
     ],
     "mnemonic": "k = Crack! 💥 gốc lưỡi bật lên, không rung. g = Growl! 🐺 tiếng gầm thấp — gốc lưỡi rung cùng dây thanh."
   },
-
   "f-v": {
     "how_to": [
       "Cả hai: RĂNG TRÊN nhẹ nhàng chạm MÔI DƯỚI, tạo khe hẹp cho hơi thoát ra.",
@@ -318,8 +1247,52 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'ph' gần với f. Nhưng 'v' tiếng Việt KHÔNG phải labiodental fricative — tiếng Việt Bắc thực ra đọc 'v' gần như /z/ hoặc /j/, không có răng chạm môi. Đây là lý do người Việt đọc v Anh sai rất phổ biến.",
     "spelling": [
-      {"pattern": "f → f / ff / ph / gh", "examples": ["fan", "off", "life", "staff", "phone", "photo", "enough", "laugh"]},
-      {"pattern": "v → v / -ve", "examples": ["van", "love", "give", "seven", "river", "have", "live", "curve"]}
+      {
+        "pattern": "f → f / ff / ph / gh",
+        "examples": [
+          "fan",
+          "off",
+          "life",
+          "staff",
+          "phone",
+          "photo",
+          "enough",
+          "laugh"
+        ],
+        "examples_ipa": [
+          "/fæn/",
+          "/ɒf/",
+          "/laɪf/",
+          "/stɑːf/",
+          "/fəʊn/",
+          "/ˈfəʊtəʊ/",
+          "/ɪˈnʌf/",
+          "/lɑːf/"
+        ]
+      },
+      {
+        "pattern": "v → v / -ve",
+        "examples": [
+          "van",
+          "love",
+          "give",
+          "seven",
+          "river",
+          "have",
+          "live",
+          "curve"
+        ],
+        "examples_ipa": [
+          "/væn/",
+          "/lʌv/",
+          "/ɡɪv/",
+          "/ˈsevn/",
+          "/ˈrɪvə/",
+          "/hæv/",
+          "/lɪv/",
+          "/kɜːv/"
+        ]
+      }
     ],
     "mistakes": [
       "v đọc thành 'w' (không có labiodental contact) — 'very' thành 'wery'",
@@ -329,7 +1302,6 @@
     ],
     "mnemonic": "f = Fire 🔥 thổi hơi nhẹ (răng trên + môi dưới). v = Vibrate — 🎸 cảm nhận MÔI RUNG khi răng chạm môi. Luôn kiểm tra: răng có chạm môi không?"
   },
-
   "θ-ð": {
     "how_to": [
       "Cả hai: ĐẦU LƯỠI nhô nhẹ ra ngoài, kẹp nhẹ giữa hai hàm răng (hoặc đặt sát mặt trong răng trên).",
@@ -338,8 +1310,70 @@
     ],
     "vs_vietnamese": "HOÀN TOÀN KHÔNG CÓ trong tiếng Việt. Đây là cặp âm khó và lạ nhất với người Việt. Nhiều người cảm thấy 'kỳ lạ' khi phải thè lưỡi ra — nhưng đây là cách duy nhất đúng!",
     "spelling": [
-      {"pattern": "θ → th (từ nội dung)", "examples": ["think", "thank", "three", "thumb", "month", "path", "bath", "teeth", "health", "truth", "worth"]},
-      {"pattern": "ð → th (từ chức năng)", "examples": ["the", "this", "that", "these", "those", "them", "they", "their", "there", "then", "than", "though", "although", "with"]}
+      {
+        "pattern": "θ → th (từ nội dung)",
+        "examples": [
+          "think",
+          "thank",
+          "three",
+          "thumb",
+          "month",
+          "path",
+          "bath",
+          "teeth",
+          "health",
+          "truth",
+          "worth"
+        ],
+        "examples_ipa": [
+          "/θɪŋk/",
+          "/θæŋk/",
+          "/θriː/",
+          "/θʌm/",
+          "/mʌnθ/",
+          "/pɑːθ/",
+          "/bɑːθ/",
+          "/tiːθ/",
+          "/helθ/",
+          "/truːθ/",
+          "/wɜːθ/"
+        ]
+      },
+      {
+        "pattern": "ð → th (từ chức năng)",
+        "examples": [
+          "the",
+          "this",
+          "that",
+          "these",
+          "those",
+          "them",
+          "they",
+          "their",
+          "there",
+          "then",
+          "than",
+          "though",
+          "although",
+          "with"
+        ],
+        "examples_ipa": [
+          "/ðə/",
+          "/ðɪs/",
+          "/ðæt/",
+          "/ðiːz/",
+          "/ðəʊz/",
+          "/ðem/",
+          "/ðeɪ/",
+          "/ðeə/",
+          "/ðeə/",
+          "/ðen/",
+          "/ðæn/",
+          "/ðəʊ/",
+          "/ɔːlˈðəʊ/",
+          "/wɪð/"
+        ]
+      }
     ],
     "mistakes": [
       "θ → đọc thành /t/: 'think' → 'tink' (lỗi phổ biến nhất)",
@@ -350,7 +1384,6 @@
     ],
     "mnemonic": "θ = Thè lưỡi ra khi chọc người 😜 — không rung. ð = Thè lưỡi ra và HUM (rung) — 'ð-ð-ð-is' 🔊. Mẹo: đặt ngón tay trước miệng — lưỡi phải chạm nhẹ ngón tay!"
   },
-
   "s-z": {
     "how_to": [
       "Cả hai: lưỡi gần alveolar ridge nhưng không chạm, tạo khe hẹp cho hơi sít qua.",
@@ -359,9 +1392,73 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 's' (x). 'z' tiếng Anh ít gặp ở đầu từ nhưng CỰC QUAN TRỌNG vì đuôi -s/-es của số nhiều/chia động từ thường đọc /z/. Sai z = nghe cứng và không tự nhiên.",
     "spelling": [
-      {"pattern": "s → s / ss / c (trước e/i) / sc", "examples": ["sun", "bus", "class", "miss", "city", "ice", "science", "scene"]},
-      {"pattern": "z → z / zz", "examples": ["zoo", "zero", "amazing", "buzz", "jazz", "fizz", "quiz"]},
-      {"pattern": "z → s (giữa nguyên âm / đuôi -s voiced)", "examples": ["easy", "music", "reason", "dogs", "birds", "runs", "calls", "plays"]}
+      {
+        "pattern": "s → s / ss / c (trước e/i) / sc",
+        "examples": [
+          "sun",
+          "bus",
+          "class",
+          "miss",
+          "city",
+          "ice",
+          "science",
+          "scene"
+        ],
+        "examples_ipa": [
+          "/sʌn/",
+          "/bʌs/",
+          "/klɑːs/",
+          "/mɪs/",
+          "/ˈsɪti/",
+          "/aɪs/",
+          "/ˈsaɪəns/",
+          "/siːn/"
+        ]
+      },
+      {
+        "pattern": "z → z / zz",
+        "examples": [
+          "zoo",
+          "zero",
+          "amazing",
+          "buzz",
+          "jazz",
+          "fizz",
+          "quiz"
+        ],
+        "examples_ipa": [
+          "/zuː/",
+          "/ˈzɪərəʊ/",
+          "/əˈmeɪzɪŋ/",
+          "/bʌz/",
+          "/dʒæz/",
+          "/fɪz/",
+          "/kwɪz/"
+        ]
+      },
+      {
+        "pattern": "z → s (giữa nguyên âm / đuôi -s voiced)",
+        "examples": [
+          "easy",
+          "music",
+          "reason",
+          "dogs",
+          "birds",
+          "runs",
+          "calls",
+          "plays"
+        ],
+        "examples_ipa": [
+          "/ˈiːzi/",
+          "/ˈmjuːzɪk/",
+          "/ˈriːzn/",
+          "/dɒɡz/",
+          "/bɜːdz/",
+          "/rʌnz/",
+          "/kɔːlz/",
+          "/pleɪz/"
+        ]
+      }
     ],
     "mistakes": [
       "'his' đọc thành 'hiss' — s cuối từ này là /z/",
@@ -369,9 +1466,8 @@
       "'music' đọc thành 'myoo-sick' — s giữa nguyên âm thường là /z/",
       "'easy' đọc như 'eecy' — s này là /z/"
     ],
-    "mnemonic": "s = rắn rít 🐍 'Sss!' — sắc, cao, không rung. z = ong kêu 🐝 'Zzz!' — thấp, rung. Nhớ: đuôi -s sau b/d/g/v/m/n/r/l/nguyên âm → luôn là /z/!"
+    "mnemonic": "s = rắn rít 🐍 'Sss!' — sắc, cao, không rung. z = ong kêu 🐝 'Zzz!' — thấp, rung. Nhớ: đuôi -s sau voiced consonants (b/d/g/v/m/n/ŋ/ð/r/l/dʒ/ʒ) và nguyên âm → luôn là /z/!"
   },
-
   "ʃ-ʒ": {
     "how_to": [
       "Cả hai: môi hơi tròn và hướng ra trước, lưỡi phẳng gần vòm cứng — tạo luồng hơi RỘNG hơn /s/.",
@@ -380,20 +1476,92 @@
     ],
     "vs_vietnamese": "Tiếng Việt có âm gần với ʃ trong một số phương ngữ. ʒ HOÀN TOÀN KHÔNG CÓ trong tiếng Việt — rất hiếm ngay cả trong tiếng Anh, chỉ xuất hiện trong từ gốc Pháp hoặc giữa từ.",
     "spelling": [
-      {"pattern": "ʃ → sh / ti+vowel / ci / ss", "examples": ["ship", "shop", "wash", "nation", "special", "official", "ocean", "mission", "passion"]},
-      {"pattern": "ʃ → ch (từ Pháp)", "examples": ["chef", "machine", "champagne", "chalet", "charade"]},
-      {"pattern": "ʒ → s (giữa nguyên âm) / si / zi", "examples": ["measure", "treasure", "vision", "pleasure", "occasion", "collision"]},
-      {"pattern": "ʒ → g (trước e/i, từ Pháp)", "examples": ["beige", "genre", "prestige", "rouge"]}
+      {
+        "pattern": "ʃ → sh / ti+vowel / ci / ss",
+        "examples": [
+          "ship",
+          "shop",
+          "wash",
+          "nation",
+          "special",
+          "official",
+          "ocean",
+          "mission",
+          "passion"
+        ],
+        "examples_ipa": [
+          "/ʃɪp/",
+          "/ʃɒp/",
+          "/wɒʃ/",
+          "/ˈneɪʃən/",
+          "/ˈspeʃəl/",
+          "/əˈfɪʃəl/",
+          "/ˈəʊʃən/",
+          "/ˈmɪʃən/",
+          "/ˈpæʃən/"
+        ]
+      },
+      {
+        "pattern": "ʃ → ch (từ Pháp)",
+        "examples": [
+          "chef",
+          "machine",
+          "champagne",
+          "chalet",
+          "charade"
+        ],
+        "examples_ipa": [
+          "/ʃef/",
+          "/məˈʃiːn/",
+          "/ʃæmˈpeɪn/",
+          "/ˈʃæleɪ/",
+          "/ʃəˈrɑːd/"
+        ]
+      },
+      {
+        "pattern": "ʒ → s (giữa nguyên âm) / si / zi",
+        "examples": [
+          "measure",
+          "treasure",
+          "vision",
+          "pleasure",
+          "occasion",
+          "collision"
+        ],
+        "examples_ipa": [
+          "/ˈmeʒə/",
+          "/ˈtreʒə/",
+          "/ˈvɪʒən/",
+          "/ˈpleʒə/",
+          "/əˈkeɪʒən/",
+          "/kəˈlɪʒən/"
+        ]
+      },
+      {
+        "pattern": "ʒ → g (trước e/i, từ Pháp)",
+        "examples": [
+          "beige",
+          "genre",
+          "prestige",
+          "rouge"
+        ],
+        "examples_ipa": [
+          "/beɪʒ/",
+          "/ˈʒɒnrə/",
+          "/preˈstiːʒ/",
+          "/ruːʒ/"
+        ]
+      }
     ],
     "mistakes": [
       "'measure' đọc thành 'me-sho' — phần 'sure' là /ʒə/ không phải /ʃo/",
       "'vision' đọc thành 'vi-shun' — '-sion' sau nguyên âm = /ʒən/",
       "ʒ bị bỏ qua hoàn toàn hoặc thay bằng z",
-      "'chef' đọc như 'cheff' — ch trong từ Pháp này là /ʃ/"
+      "'chef' đọc như 'cheff' — ch trong từ Pháp này là /ʃ/",
+      "Lưu ý: ʒ gần như không bao giờ đứng đầu từ tiếng Anh (chỉ từ gốc Pháp: genre, Jacques) — hầu hết gặp ở giữa/cuối từ"
     ],
     "mnemonic": "ʃ = 'Shh!' 🤫 ra hiệu im lặng — rộng và mượt. ʒ = 'Shh!' nhưng bật máy rung — tiếng TV bị lỗi tín hiệu 📺."
   },
-
   "tʃ-dʒ": {
     "how_to": [
       "Cả hai: lưỡi bắt đầu như /t/ hoặc /d/ (chạm nướu, chặn hơi), sau đó TRƯỢT ra thành /ʃ/ hoặc /ʒ/ (hơi bung ra rộng). Phụ âm bùng nổ + ma sát.",
@@ -402,10 +1570,86 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 'ch' gần với tʃ. dʒ không có trong tiếng Việt miền Bắc — học sinh hay thay bằng 'y' hoặc 'gi'. Trong tiếng Anh dʒ rất phổ biến (job, large, age, gentle).",
     "spelling": [
-      {"pattern": "tʃ → ch / tch", "examples": ["chair", "teach", "much", "watch", "match", "catch", "kitchen"]},
-      {"pattern": "tʃ → t+ure / t+ion (một số)", "examples": ["picture", "nature", "future", "culture", "question", "suggestion"]},
-      {"pattern": "dʒ → j / g (trước e/i)", "examples": ["jump", "job", "enjoy", "general", "age", "large", "gentle", "gym"]},
-      {"pattern": "dʒ → dg / d+ure", "examples": ["judge", "bridge", "hedge", "knowledge", "badge"]}
+      {
+        "pattern": "tʃ → ch / tch",
+        "examples": [
+          "chair",
+          "teach",
+          "much",
+          "watch",
+          "match",
+          "catch",
+          "kitchen"
+        ],
+        "examples_ipa": [
+          "/tʃeə/",
+          "/tiːtʃ/",
+          "/mʌtʃ/",
+          "/wɒtʃ/",
+          "/mætʃ/",
+          "/kætʃ/",
+          "/ˈkɪtʃɪn/"
+        ]
+      },
+      {
+        "pattern": "tʃ → t+ure / t+ion (một số)",
+        "examples": [
+          "picture",
+          "nature",
+          "future",
+          "culture",
+          "question",
+          "suggestion"
+        ],
+        "examples_ipa": [
+          "/ˈpɪktʃə/",
+          "/ˈneɪtʃə/",
+          "/ˈfjuːtʃə/",
+          "/ˈkʌltʃə/",
+          "/ˈkwestʃən/",
+          "/səˈdʒestʃən/"
+        ]
+      },
+      {
+        "pattern": "dʒ → j / g (trước e/i)",
+        "examples": [
+          "jump",
+          "job",
+          "enjoy",
+          "general",
+          "age",
+          "large",
+          "gentle",
+          "gym"
+        ],
+        "examples_ipa": [
+          "/dʒʌmp/",
+          "/dʒɒb/",
+          "/ɪnˈdʒɔɪ/",
+          "/ˈdʒenərəl/",
+          "/eɪdʒ/",
+          "/lɑːdʒ/",
+          "/ˈdʒentl/",
+          "/dʒɪm/"
+        ]
+      },
+      {
+        "pattern": "dʒ → dg / d+ure",
+        "examples": [
+          "judge",
+          "bridge",
+          "hedge",
+          "knowledge",
+          "badge"
+        ],
+        "examples_ipa": [
+          "/dʒʌdʒ/",
+          "/brɪdʒ/",
+          "/hedʒ/",
+          "/ˈnɒlɪdʒ/",
+          "/bædʒ/"
+        ]
+      }
     ],
     "mistakes": [
       "'chair' đọc thành 'share' — dùng ʃ thay vì tʃ (bỏ mất phần bật t đầu)",
@@ -415,7 +1659,6 @@
     ],
     "mnemonic": "tʃ = Ch-Ch-Train! 🚂 tiếng xe lửa bật mạnh — t+sh. dʒ = Jungle 🌴 — d+zh rung. Nhớ: J trong tiếng Anh = dʒ, không phải 'y' như 'ya' tiếng Việt!"
   },
-
   "m-n-ŋ": {
     "how_to": [
       "Cả ba đều là MŨI ÂM — hơi thoát qua mũi (không qua miệng). Dây thanh RUNG ở cả ba.",
@@ -425,20 +1668,91 @@
     ],
     "vs_vietnamese": "Tiếng Việt có cả 3! m (mẹ), n (nước), ng/nh (ngon, nhà). Tuy nhiên ŋ tiếng Việt xuất hiện ở ĐẦU từ (ngon, ngủ, ngại), còn ŋ tiếng Anh chỉ ở CUỐI hoặc GIỮA từ — KHÔNG bao giờ đầu từ.",
     "spelling": [
-      {"pattern": "m → m / mm", "examples": ["map", "him", "swim", "summer", "hammer", "comment"]},
-      {"pattern": "n → n / nn / kn / gn", "examples": ["nap", "win", "funny", "know", "knife", "knight", "sign", "design"]},
-      {"pattern": "ŋ → ng", "examples": ["ring", "sing", "long", "young", "finger", "hungry"]},
-      {"pattern": "ŋ → n (trước k/g)", "examples": ["think /θɪŋk/", "bank /bæŋk/", "English /ˈɪŋglɪʃ/", "uncle /ˈʌŋkl/"]}
+      {
+        "pattern": "m → m / mm",
+        "examples": [
+          "map",
+          "him",
+          "swim",
+          "summer",
+          "hammer",
+          "comment"
+        ],
+        "examples_ipa": [
+          "/mæp/",
+          "/hɪm/",
+          "/swɪm/",
+          "/ˈsʌmə/",
+          "/ˈhæmə/",
+          "/ˈkɒment/"
+        ]
+      },
+      {
+        "pattern": "n → n / nn / kn / gn",
+        "examples": [
+          "nap",
+          "win",
+          "funny",
+          "know",
+          "knife",
+          "knight",
+          "sign",
+          "design"
+        ],
+        "examples_ipa": [
+          "/næp/",
+          "/wɪn/",
+          "/ˈfʌni/",
+          "/nəʊ/",
+          "/naɪf/",
+          "/naɪt/",
+          "/saɪn/",
+          "/dɪˈzaɪn/"
+        ]
+      },
+      {
+        "pattern": "ŋ → ng",
+        "examples": [
+          "ring",
+          "sing",
+          "long",
+          "young",
+          "finger",
+          "hungry"
+        ],
+        "examples_ipa": [
+          "/rɪŋ/",
+          "/sɪŋ/",
+          "/lɒŋ/",
+          "/jʌŋ/",
+          "/ˈfɪŋɡə/",
+          "/ˈhʌŋɡri/"
+        ]
+      },
+      {
+        "pattern": "ŋ → n (trước k/g)",
+        "examples": [
+          "think",
+          "bank",
+          "English",
+          "uncle"
+        ],
+        "examples_ipa": [
+          "/θɪŋk/",
+          "/bæŋk/",
+          "/ˈɪŋɡlɪʃ/",
+          "/ˈʌŋkl/"
+        ]
+      }
     ],
     "mistakes": [
       "'ring' đọc thành 'rin' — không đóng gốc lưỡi, bỏ mất ŋ",
-      "'singing' đọc thành 'singging' — thêm /g/ sau ŋ (sai)",
+      "'singing' đọc thành 'singging' — cuối morpheme -ng = /ŋ/ không có /g/ (nhưng 'finger' /ˈfɪŋgə/, 'anger' /ˈæŋgə/ CÓ /g/ vì đây là gốc từ khác)",
       "'think' đọc như 'tink' — 'nk' = /ŋk/, n trước k là /ŋ/",
       "\"English\" đọc như 'En-glish' thay vì /ˈɪŋglɪʃ/"
     ],
     "mnemonic": "m = môi khép, ngân nga 'Mmm...' 🎵. n = lưỡi lên nướu 'nn'. ŋ = âm 'ng' CUỐI chữ 'ngon' tiếng Việt — gốc lưỡi chặn họng, hơi ra mũi."
   },
-
   "h-w-j": {
     "how_to": [
       "h: thở hơi nhẹ qua họng mở — chỉ là tiếng thở, không có vị trí chặn cụ thể. Dây thanh không rung.",
@@ -447,19 +1761,78 @@
     ],
     "vs_vietnamese": "h giống 'h' tiếng Việt. w KHÔNG tồn tại trong tiếng Việt — hay bị đọc thành 'v' (sai!). j tiếng Anh /j/ khác 'y' tiếng Việt một chút — /j/ Anh mượt hơn.",
     "spelling": [
-      {"pattern": "h → h (wh trước o = /h/)", "examples": ["hat", "here", "behind", "who", "whole", "whose"]},
-      {"pattern": "w → w / wh (không phải trước o)", "examples": ["wet", "window", "always", "what", "where", "when", "why", "which"]},
-      {"pattern": "j → y / u (sau consonant) / ew", "examples": ["yes", "yellow", "year", "you", "cute /kjuːt/", "music /mjuːzɪk/", "new /njuː/"]}
+      {
+        "pattern": "h → h (wh trước o = /h/)",
+        "examples": [
+          "hat",
+          "here",
+          "behind",
+          "who",
+          "whole",
+          "whose"
+        ],
+        "examples_ipa": [
+          "/hæt/",
+          "/hɪə/",
+          "/bɪˈhaɪnd/",
+          "/huː/",
+          "/həʊl/",
+          "/huːz/"
+        ]
+      },
+      {
+        "pattern": "w → w / wh (không phải trước o)",
+        "examples": [
+          "wet",
+          "window",
+          "always",
+          "what",
+          "where",
+          "when",
+          "why",
+          "which"
+        ],
+        "examples_ipa": [
+          "/wet/",
+          "/ˈwɪndəʊ/",
+          "/ˈɔːlweɪz/",
+          "/wɒt/",
+          "/weə/",
+          "/wen/",
+          "/waɪ/",
+          "/wɪtʃ/"
+        ]
+      },
+      {
+        "pattern": "j → y / u (sau consonant) / ew",
+        "examples": [
+          "yes",
+          "yellow",
+          "year",
+          "you",
+          "cute",
+          "music",
+          "new"
+        ],
+        "examples_ipa": [
+          "/jes/",
+          "/ˈjeləʊ/",
+          "/jɪə/",
+          "/juː/",
+          "/kjuːt/",
+          "/ˈmjuːzɪk/",
+          "/njuː/"
+        ]
+      }
     ],
     "mistakes": [
       "'why' tròn môi không đủ — w phải bắt đầu căng môi",
-      "'yes' đọc thành 'jes' — j Anh là /j/ không phải /dʒ/",
+      "'year' đọc thành 'dear' — /j/ bị thay bằng /d/ vì tiếng Việt không có âm /j/ thuần như tiếng Anh",
       "'who' phát âm h — wh trước o = /h/ (silent w)",
       "'water' đọc thành 'vater' — w không phải v!"
     ],
     "mnemonic": "h = thở nhẹ 💨 — chỉ là hơi thở. w = Whistle 🎵 — môi tròn căng như thổi sáo. j/y = Yes! ✅ — lưỡi gần vòm cứng, đẩy nhẹ."
   },
-
   "final-stops": {
     "how_to": [
       "Phụ âm cuối tiếng Anh: ĐẶT vị trí môi/lưỡi vào đúng chỗ, chặn hơi, rồi DỪNG — không bật hơi ra ngoài.",
@@ -468,11 +1841,77 @@
       "-k: đặt gốc lưỡi lên vòm mềm (giống 'k' nhưng không bật).",
       "Kết quả: âm như bị 'cắt đứt' đột ngột — native speakers gọi là 'unreleased stop'."
     ],
-    "vs_vietnamese": "Tiếng Việt có phụ âm cuối -c/-ch/-p/-t theo kiểu ĐÓNG (imploded) — không bật hơi. Đây thực ra GIỐNG tiếng Anh! Tuy nhiên học sinh lại hay BẬT HƠI theo thói quen hoặc BỎ HẲN phụ âm cuối.",
+    "vs_vietnamese": "Tiếng Việt có phụ âm cuối -c/-ch/-p/-t theo kiểu UNRELEASED (không bật hơi ra) — đây thực ra GIỐNG tiếng Anh! Tuy nhiên học sinh lại hay BẬT HƠI theo thói quen hoặc BỎ HẲN phụ âm cuối.",
     "spelling": [
-      {"pattern": "-p cuối", "examples": ["cup", "stop", "map", "tip", "cap", "help", "jump", "lamp"]},
-      {"pattern": "-t cuối", "examples": ["cat", "hit", "but", "sit", "get", "hot", "cut", "start"]},
-      {"pattern": "-k / -ck cuối", "examples": ["book", "back", "look", "pick", "rock", "black", "check", "duck"]}
+      {
+        "pattern": "-p cuối",
+        "examples": [
+          "cup",
+          "stop",
+          "map",
+          "tip",
+          "cap",
+          "help",
+          "jump",
+          "lamp"
+        ],
+        "examples_ipa": [
+          "/kʌp/",
+          "/stɒp/",
+          "/mæp/",
+          "/tɪp/",
+          "/kæp/",
+          "/help/",
+          "/dʒʌmp/",
+          "/læmp/"
+        ]
+      },
+      {
+        "pattern": "-t cuối",
+        "examples": [
+          "cat",
+          "hit",
+          "but",
+          "sit",
+          "get",
+          "hot",
+          "cut",
+          "start"
+        ],
+        "examples_ipa": [
+          "/kæt/",
+          "/hɪt/",
+          "/bʌt/",
+          "/sɪt/",
+          "/ɡet/",
+          "/hɒt/",
+          "/kʌt/",
+          "/stɑːt/"
+        ]
+      },
+      {
+        "pattern": "-k / -ck cuối",
+        "examples": [
+          "book",
+          "back",
+          "look",
+          "pick",
+          "rock",
+          "black",
+          "check",
+          "duck"
+        ],
+        "examples_ipa": [
+          "/bʊk/",
+          "/bæk/",
+          "/lʊk/",
+          "/pɪk/",
+          "/rɒk/",
+          "/blæk/",
+          "/tʃek/",
+          "/dʌk/"
+        ]
+      }
     ],
     "mistakes": [
       "Bật hơi ra: 'cup!' 'cat!' 'book!' nghe có tiếng 'bùm' rõ ràng — sai",
@@ -482,7 +1921,6 @@
     ],
     "mnemonic": "Nghĩ đến việc 'CẮT' âm ✂️ — miệng/lưỡi đặt vào vị trí rồi ĐỨNG YÊN, không mở ra. Như tạm dừng đột ngột trong nhạc 🎵."
   },
-
   "clusters": {
     "how_to": [
       "Phát âm các phụ âm LIÊN TIẾP, không thêm nguyên âm vào giữa.",
@@ -491,9 +1929,79 @@
     ],
     "vs_vietnamese": "Tiếng Việt là ngôn ngữ âm tiết mở — mỗi phụ âm đều có nguyên âm đi kèm. Đây là thách thức LỚN NHẤT với người Việt học phát âm tiếng Anh. Học sinh thêm 'uh/ơ' vào giữa: 'sờ-tri-ít' thay vì 'striːt'.",
     "spelling": [
-      {"pattern": "str- / spl- / spr-", "examples": ["street", "strong", "strange", "stress", "splash", "split", "spring", "spread", "spray"]},
-      {"pattern": "scr- / thr- / shr-", "examples": ["scream", "scratch", "screen", "three", "through", "throw", "shrimp", "shrink"]},
-      {"pattern": "-nd / -st / -nk cuối", "examples": ["find", "hand", "friend", "best", "list", "first", "think", "bank", "drink"]}
+      {
+        "pattern": "str- / spl- / spr-",
+        "examples": [
+          "street",
+          "strong",
+          "strange",
+          "stress",
+          "splash",
+          "split",
+          "spring",
+          "spread",
+          "spray"
+        ],
+        "examples_ipa": [
+          "/striːt/",
+          "/strɒŋ/",
+          "/streɪndʒ/",
+          "/stres/",
+          "/splæʃ/",
+          "/splɪt/",
+          "/sprɪŋ/",
+          "/spred/",
+          "/spreɪ/"
+        ]
+      },
+      {
+        "pattern": "scr- / thr- / shr-",
+        "examples": [
+          "scream",
+          "scratch",
+          "screen",
+          "three",
+          "through",
+          "throw",
+          "shrimp",
+          "shrink"
+        ],
+        "examples_ipa": [
+          "/skriːm/",
+          "/skrætʃ/",
+          "/skriːn/",
+          "/θriː/",
+          "/θruː/",
+          "/θrəʊ/",
+          "/ʃrɪmp/",
+          "/ʃrɪŋk/"
+        ]
+      },
+      {
+        "pattern": "-nd / -st / -nk cuối",
+        "examples": [
+          "find",
+          "hand",
+          "friend",
+          "best",
+          "list",
+          "first",
+          "think",
+          "bank",
+          "drink"
+        ],
+        "examples_ipa": [
+          "/faɪnd/",
+          "/hænd/",
+          "/frend/",
+          "/best/",
+          "/lɪst/",
+          "/fɜːst/",
+          "/θɪŋk/",
+          "/bæŋk/",
+          "/drɪŋk/"
+        ]
+      }
     ],
     "mistakes": [
       "Thêm 'uh/ơ': 'sờ-tri-ít' thay vì /striːt/",
@@ -503,7 +2011,6 @@
     ],
     "mnemonic": "Luyện như vận động viên 🏃 — chạy từng bước nhỏ rồi tăng tốc: s-t-r-eet → str-eet → street! Không nghỉ giữa chừng, không thêm ơ/uh."
   },
-
   "l-r": {
     "how_to": [
       "l: ĐẦU LƯỠI chạm alveolar ridge (nướu sau răng trên), hơi thoát HAI BÊN lưỡi. Lưỡi không cong.",
@@ -511,8 +2018,58 @@
     ],
     "vs_vietnamese": "l tiếng Việt và l Anh khá giống nhau — hơi thoát hai bên lưỡi. r tiếng Anh HOÀN TOÀN KHÁC 'r' tiếng Việt miền Bắc (gần /z/) và cũng khác 'r' cuộn lưỡi miền Nam. Đây là cặp phổ biến nhất gây nhầm lẫn.",
     "spelling": [
-      {"pattern": "l → l / ll / -le", "examples": ["lake", "all", "call", "ball", "tell", "table", "little", "simple", "people"]},
-      {"pattern": "r → r / rr / wr-", "examples": ["rake", "right", "very", "sorry", "mirror", "carry", "write", "wrong", "wrap", "wrist"]}
+      {
+        "pattern": "l → l / ll / -le",
+        "examples": [
+          "lake",
+          "all",
+          "call",
+          "ball",
+          "tell",
+          "table",
+          "little",
+          "simple",
+          "people"
+        ],
+        "examples_ipa": [
+          "/leɪk/",
+          "/ɔːl/",
+          "/kɔːl/",
+          "/bɔːl/",
+          "/tel/",
+          "/ˈteɪbl/",
+          "/ˈlɪtl/",
+          "/ˈsɪmpl/",
+          "/ˈpiːpl/"
+        ]
+      },
+      {
+        "pattern": "r → r / rr / wr-",
+        "examples": [
+          "rake",
+          "right",
+          "very",
+          "sorry",
+          "mirror",
+          "carry",
+          "write",
+          "wrong",
+          "wrap",
+          "wrist"
+        ],
+        "examples_ipa": [
+          "/reɪk/",
+          "/raɪt/",
+          "/ˈveri/",
+          "/ˈsɒri/",
+          "/ˈmɪrə/",
+          "/ˈkæri/",
+          "/raɪt/",
+          "/rɒŋ/",
+          "/ræp/",
+          "/rɪst/"
+        ]
+      }
     ],
     "mistakes": [
       "'light' đọc thành 'right' — l bị thay bằng r",
@@ -522,7 +2079,6 @@
     ],
     "mnemonic": "l = LANDING ✈️ — đầu lưỡi CHẠM NỮA ngay sau răng trên. r = ROLLING 🌀 — lưỡi cong vào giữa, KHÔNG CHẠM đâu cả. Hai hành động ngược nhau hoàn toàn!"
   },
-
   "θ-s-viet": {
     "how_to": [
       "θ: đầu lưỡi nhô RA NGOÀI, kẹp nhẹ giữa hai hàm răng (hoặc đặt phía trong mặt trước răng trên). Thổi hơi qua khe lưỡi-răng.",
@@ -531,8 +2087,80 @@
     ],
     "vs_vietnamese": "θ là âm #1 người Việt hay thay thế. 'three' → 'sree' (thay bằng s), 'tree' (thay bằng t), hoặc 'hree'. Vì tiếng Việt không có θ, học sinh dùng âm gần nhất họ biết.",
     "spelling": [
-      {"pattern": "θ → th (từ nội dung)", "examples": ["three", "think", "thank", "thick", "thin", "thumb", "third", "thousand", "throat", "thought", "tooth", "teeth", "cloth", "math", "growth", "strength", "truth", "faith", "health", "worth", "youth"]},
-      {"pattern": "s → s / ss / c / sc", "examples": ["sea", "six", "some", "miss", "class", "city", "nice", "scene", "science"]}
+      {
+        "pattern": "θ → th (từ nội dung)",
+        "examples": [
+          "three",
+          "think",
+          "thank",
+          "thick",
+          "thin",
+          "thumb",
+          "third",
+          "thousand",
+          "throat",
+          "thought",
+          "tooth",
+          "teeth",
+          "cloth",
+          "math",
+          "growth",
+          "strength",
+          "truth",
+          "faith",
+          "health",
+          "worth",
+          "youth"
+        ],
+        "examples_ipa": [
+          "/θriː/",
+          "/θɪŋk/",
+          "/θæŋk/",
+          "/θɪk/",
+          "/θɪn/",
+          "/θʌm/",
+          "/θɜːd/",
+          "/ˈθaʊznd/",
+          "/θrəʊt/",
+          "/θɔːt/",
+          "/tuːθ/",
+          "/tiːθ/",
+          "/klɒθ/",
+          "/mæθ/",
+          "/ɡrəʊθ/",
+          "/streŋθ/",
+          "/truːθ/",
+          "/feɪθ/",
+          "/helθ/",
+          "/wɜːθ/",
+          "/juːθ/"
+        ]
+      },
+      {
+        "pattern": "s → s / ss / c / sc",
+        "examples": [
+          "sea",
+          "six",
+          "some",
+          "miss",
+          "class",
+          "city",
+          "nice",
+          "scene",
+          "science"
+        ],
+        "examples_ipa": [
+          "/siː/",
+          "/sɪks/",
+          "/sʌm/",
+          "/mɪs/",
+          "/klɑːs/",
+          "/ˈsɪti/",
+          "/naɪs/",
+          "/siːn/",
+          "/ˈsaɪəns/"
+        ]
+      }
     ],
     "mistakes": [
       "'three' → 'sree' (θ thành s)",
@@ -542,7 +2170,6 @@
     ],
     "mnemonic": "θ = LƯỠI NHÌN THẤY ĐƯỢC 👅 — nhìn vào gương, thấy đầu lưỡi là đúng! s = lưỡi ẨN BÊN TRONG — không nhìn thấy. Kiểm tra trước gương mỗi khi luyện 'th'."
   },
-
   "v-w-viet": {
     "how_to": [
       "v: RĂNG TRÊN đặt nhẹ lên MÔI DƯỚI, rung dây thanh. Có tiếp xúc răng-môi.",
@@ -551,8 +2178,60 @@
     ],
     "vs_vietnamese": "'v' tiếng Việt KHÔNG phải labiodental — miền Bắc đọc gần /z/, miền Nam gần /j/. Không có tiếp xúc răng-môi thực sự. Vì vậy CẢ HAI âm v và w đều khó với người Việt theo cách khác nhau.",
     "spelling": [
-      {"pattern": "v → v / -ve", "examples": ["van", "love", "seven", "river", "have", "give", "five", "live", "drive"]},
-      {"pattern": "w → w / wh (không trước o)", "examples": ["wet", "always", "away", "answer", "what", "where", "when", "which", "why", "swim", "twin"]}
+      {
+        "pattern": "v → v / -ve",
+        "examples": [
+          "van",
+          "love",
+          "seven",
+          "river",
+          "have",
+          "give",
+          "five",
+          "live",
+          "drive"
+        ],
+        "examples_ipa": [
+          "/væn/",
+          "/lʌv/",
+          "/ˈsevn/",
+          "/ˈrɪvə/",
+          "/hæv/",
+          "/ɡɪv/",
+          "/faɪv/",
+          "/lɪv/",
+          "/draɪv/"
+        ]
+      },
+      {
+        "pattern": "w → w / wh (không trước o)",
+        "examples": [
+          "wet",
+          "always",
+          "away",
+          "answer",
+          "what",
+          "where",
+          "when",
+          "which",
+          "why",
+          "swim",
+          "twin"
+        ],
+        "examples_ipa": [
+          "/wet/",
+          "/ˈɔːlweɪz/",
+          "/əˈweɪ/",
+          "/ˈɑːnsə/",
+          "/wɒt/",
+          "/weə/",
+          "/wen/",
+          "/wɪtʃ/",
+          "/waɪ/",
+          "/swɪm/",
+          "/twɪn/"
+        ]
+      }
     ],
     "mistakes": [
       "'van' đọc như 'ban' — v tiếng Việt miền Nam gần b",
@@ -562,7 +2241,6 @@
     ],
     "mnemonic": "v = VÍT 🔩 (răng CHẠM môi, rung) — cảm nhận 'bzz'. w = WHIRL 🌀 (môi TRÒN, không răng) — như thổi bong bóng. Hai cảm giác hoàn toàn khác nhau!"
   },
-
   "s-endings": {
     "why": "Tiếng Anh tự động điều chỉnh đuôi -s để phù hợp với âm thanh xung quanh — gọi là voice assimilation. Âm hơi (voiceless) sau âm hơi, âm rung (voiced) sau âm rung. /ɪz/ xuất hiện để tránh hai sibilant liên tiếp.",
     "how_to": [
@@ -577,7 +2255,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt không có hình thái học số nhiều — không có đuôi biến đổi. Đây là khái niệm mới hoàn toàn. Mẹo học: nhớ quy tắc theo âm cuối, không theo chính tả."
   },
-
   "ed-endings": {
     "why": "Giống -s endings — voiced/voiceless assimilation. /ɪd/ chỉ xuất hiện sau /t/ và /d/ vì không thể có hai âm dừng giống nhau liên tiếp (want-t sẽ quá khó đọc).",
     "how_to": [
@@ -592,7 +2269,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt không chia động từ theo thì — dùng 'đã', 'sẽ', 'đang'. Sai phát âm -ed rất phổ biến: đọc tất cả thành /ed/ đầy đủ như 'lived-ed', 'loved-ed'."
   },
-
   "joining-linking": {
     "why": "Tiếng Anh nói tự nhiên không ngắt giữa các từ. Khi phụ âm cuối từ gặp nguyên âm đầu từ tiếp theo, chúng nối liền — âm tiết mới được tạo ra vượt qua ranh giới từ.",
     "how_to": [
@@ -607,7 +2283,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt đọc từng từ riêng biệt, từng âm tiết rõ ràng. Linking là lý do #1 khiến người Việt nghe tiếng Anh nhanh 'như không hiểu gì' — vì ranh giới từ đã biến mất."
   },
-
   "joining-elision": {
     "why": "Để nói nhanh và tự nhiên hơn, người bản ngữ 'nuốt' (elide) /t/ và /d/ khi chúng bị kẹp giữa hai phụ âm. Đây là đặc điểm của connected speech, không phải lỗi.",
     "how_to": [
@@ -622,7 +2297,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt đọc đủ mọi âm tiết. Nghe tiếng Anh nhanh → không nghe được 't/d' ở giữa → tưởng là từ lạ → không hiểu. Học elision giúp cải thiện listening comprehension đáng kể."
   },
-
   "weak-forms": {
     "why": "Tiếng Anh là ngôn ngữ stress-timed — nhịp rơi vào content words. Function words (từ chức năng) không mang thông tin chính → bị giảm xuống schwa /ə/ để giữ nhịp đều.",
     "how_to": [
@@ -637,7 +2311,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt là syllable-timed — mỗi âm tiết đều đặn. Đây là lý do người Việt đọc tiếng Anh 'có accent lạ' — nghe đều đều như robot thay vì có nhịp lên xuống. Học weak forms = học nhịp tiếng Anh thực."
   },
-
   "tion-sion-ture": {
     "why": "Đây là quy luật chính tả→phát âm cực quan trọng vì hàng trăm từ học thuật trong IELTS kết thúc bằng các đuôi này. Biết quy tắc = đọc đúng ngay cả từ chưa gặp bao giờ.",
     "how_to": [
@@ -652,7 +2325,6 @@
     ],
     "vs_vietnamese": "Học sinh hay đọc: -tion như 'ti-on' hoặc 'shun' rõ ràng; -sion như 'si-on'; -ture như 'tyua' hoặc 'cha'. Tất cả đều sai. Học quy tắc này = nâng điểm phát âm IELTS Speaking ngay lập tức."
   },
-
   "joining-vv": {
     "why": "Khi hai nguyên âm liền nhau giữa các từ, người bản ngữ tự nhiên chèn một âm nối (/w/ hoặc /j/) để chuyển tiếp mượt mà hơn. Đây là connected speech tự nhiên.",
     "how_to": [
@@ -666,7 +2338,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt có âm đệm /-w-/ trong một số từ (hoa, quý) nhưng không có hệ thống V→V linking này. Nghe chú ý sẽ thấy: 'who is' nghe như 'hoo-wiz', 'she is' nghe như 'shee-yiz'."
   },
-
   "assimilation": {
     "why": "Khi /n/ đứng cạnh một phụ âm có điểm phát âm khác, dây thanh 'lười' và tự điều chỉnh /n/ sang điểm phát âm của phụ âm bên cạnh — tiết kiệm năng lượng cơ miệng.",
     "how_to": [
@@ -679,7 +2350,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt có hiện tượng tương tự (ví dụ 'kông' → 'không' trong một số phương ngữ) nhưng ít hệ thống. Nghe tiếng Anh tự nhiên sẽ thấy 'in Paris' nghe như 'im Paris' — đó là assimilation."
   },
-
   "silent-kbw": {
     "why": "Di sản lịch sử: thời Old English và Middle English, các chữ này được phát âm. Theo thời gian phát âm thay đổi nhưng chính tả giữ nguyên — gọi là 'spelling fossils' (hóa thạch chính tả).",
     "how_to": [
@@ -693,7 +2363,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt 'đọc sao viết vậy' (phần lớn) → học sinh tự nhiên đọc chữ câm. 'knife' → 'nai-phờ'; 'write' → 'rai-tờ'; 'lamb' → 'lam-bờ'. Cần học thuộc lòng danh sách từ có chữ câm."
   },
-
   "silent-glt": {
     "why": "Tiếp nối lịch sử: -ght xuất phát từ tiếng Anh cổ đọc /xt/ (như tiếng Đức 'nacht'); L câm trước phụ âm xuất hiện từ thế kỷ 16-17; T câm trong -sten/-stle là hiện tượng đồng hóa.",
     "how_to": [
@@ -702,12 +2371,11 @@
       "Silent T: trong -sten, -stle, -stmas: listen /ˈlɪsn/, castle /ˈkɑːsl/, whistle /ˈwɪsl/, Christmas /ˈkrɪsməs/, fasten, glisten, wrestle, thistle, nestle."
     ],
     "exceptions": [
-      "GH đọc thành /f/ (không câm, không /g/): enough, laugh, cough, rough, tough, draft",
+      "GH đọc thành /f/ (không câm, không /g/): enough, laugh, cough, rough, tough, draught",
       "Không phải mọi L trước consonant đều câm: cold /kəʊld/, bold, help, salt, film (L được đọc)"
     ],
     "vs_vietnamese": "'night' → 'nai-ghờ-tờ'; 'listen' → 'lis-ten'; 'walk' → 'wờ-lk'. Học sinh đọc đúng chính tả nhưng sai phát âm. Cần làm quen với danh sách từ theo nhóm."
   },
-
   "noun-verb-stress": {
     "why": "Tiếng Anh dùng trọng âm để phân biệt từ loại (part of speech) — cùng chính tả, cùng chữ nhưng khác nghĩa và cách đọc. Sai trọng âm có thể làm người nghe hiểu nhầm từ loại.",
     "how_to": [
@@ -722,7 +2390,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt không có trọng âm từ — mỗi âm tiết đều quan trọng như nhau (có thanh điệu thay thế). Học sinh đọc 'reCORD' và 'REcord' như nhau → nghe không tự nhiên và đôi khi gây nhầm nghĩa."
   },
-
   "compound-noun-stress": {
     "why": "Danh từ ghép (compound noun) là một KHÁi NIỆM DUY NHẤT — nhấn phần đầu để phân biệt. Cụm adj+noun là MÔ TẢ — nhấn đều, danh từ nhấn hơn. Hiểu sự khác biệt = nói đúng nghĩa.",
     "how_to": [
@@ -731,17 +2398,18 @@
       "Test: GREENhouse (nhà kính trồng cây) vs green HOUSE (ngôi nhà màu xanh) — trọng âm thay đổi nghĩa!"
     ],
     "exceptions": [
-      "Một số compound nouns nhấn đều cả hai phần: ice CREAM, car PARK (đặc biệt British English)",
+      "Địa danh và danh từ riêng ghép thường nhấn phần sau: New YORK, Times SQUARE, Tower BRIDGE",
+      "car PARK (British English) và một số compound nouns trong informal speech cũng có thể nhấn phần sau",
       "Compound verbs (phrasal verbs) thường nhấn PARTICLE: turn ON, give UP, pick UP"
     ],
     "vs_vietnamese": "Tiếng Việt đặt từ định nghĩa TRƯỚC, từ được định nghĩa SAU (khác tiếng Anh). Không có pattern trọng âm như tiếng Anh. Học sinh đọc đều các âm tiết → mất đi sự phân biệt giữa compound noun và adj+noun phrase."
   },
-
   "fall-rise-basic": {
     "why": "Ngữ điệu trong tiếng Anh KHÔNG chỉ là cảm xúc — nó mang thông tin ngữ pháp. Xuống giọng = kết thúc/chắc chắn/đóng. Lên giọng = chưa xong/nghi ngờ/mở. Người nghe dùng intonation để biết có nên trả lời không.",
     "how_to": [
       "Falling ↘ (xuống giọng): câu khẳng định (She's a teacher ↘), câu hỏi Wh- (Where do you live? ↘), lệnh (Come in ↘). Giọng HẠ ở từ nhấn mạnh cuối cùng.",
       "Rising ↗ (lên giọng): câu hỏi Yes/No (Are you ready? ↗, Do you speak English? ↗). Giọng LÊN ở từ cuối.",
+      "Fall-Rise ↘↗ (xuống rồi lên): biểu thị 'đúng, nhưng...' hoặc ngụ ý reservation. VD: 'She's quite CLEVER↘↗' (có ngụ ý 'nhưng tôi không hoàn toàn ấn tượng'). Phân biệt Band 7 vs Band 8 IELTS Speaking.",
       "Luyện: đọc câu rồi dùng tay lên xuống theo giọng — lên ↗ hay xuống ↘?"
     ],
     "exceptions": [
@@ -751,7 +2419,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt có 6 thanh điệu cho MỖI ÂM TIẾT → không dùng nhiều ngữ điệu câu. Người Việt hay đọc tiếng Anh với intonation phẳng → nghe không tự nhiên, khó biết đang hỏi hay khẳng định."
   },
-
   "lists-intonation": {
     "why": "Intonation trong danh sách giống như 'dấu phẩy nói' — lên giọng báo hiệu 'còn tiếp', xuống giọng báo hiệu 'hết rồi'. Không theo pattern này → người nghe không biết danh sách đã xong chưa.",
     "how_to": [
@@ -765,7 +2432,6 @@
     ],
     "vs_vietnamese": "Tiếng Việt có pattern tương tự nhưng ít rõ ràng. Trong IELTS Speaking Band 7+, list intonation chuẩn là một trong những tiêu chí pronunciation được đánh giá."
   },
-
   "ielts-discourse": {
     "why": "Discourse markers (từ nối) trong IELTS Speaking cần có intonation phù hợp để người nghe biết bạn đang tiếp nối hay đối lập ý. Intonation sai → argument nghe thiếu cohesion dù từ vựng đúng.",
     "how_to": [
@@ -779,7 +2445,6 @@
     ],
     "vs_vietnamese": "Học sinh Việt thường đọc discourse markers với giọng phẳng hoặc lên giọng tất cả → mất đi tính cohesion. Examiner chú ý: đọc 'However' mà không xuống giọng = không hiệu quả bằng."
   },
-
   "sentence-stress-rhythm": {
     "why": "Tiếng Anh là stress-timed language — nhịp rơi đều vào các stressed syllables, khoảng cách giữa chúng gần đều nhau. Tiếng Việt là syllable-timed — mỗi âm tiết đều đặn. Đây là khác biệt căn bản nhất về nhịp điệu.",
     "how_to": [
