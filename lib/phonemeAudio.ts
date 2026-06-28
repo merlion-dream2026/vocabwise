@@ -57,9 +57,12 @@ const PHONEME_MAP: Record<string, string> = {
   'r':  A + 'r.mp3',
 }
 
-// Strip leading/trailing dash for final/initial consonant symbols (-p → p)
+// Strip leading/trailing dash for final/initial consonant symbols (-p → p).
+// Percent-encode non-ASCII IPA chars so iOS Safari can fetch the file correctly.
 function getPhonemeUrl(symbol: string): string | null {
-  return PHONEME_MAP[symbol] ?? PHONEME_MAP[symbol.replace(/^-|-$/g, '')] ?? null
+  const raw = PHONEME_MAP[symbol] ?? PHONEME_MAP[symbol.replace(/^-|-$/g, '')] ?? null
+  if (!raw) return null
+  return raw.replace(/[^\x00-\x7F]/g, c => encodeURIComponent(c))
 }
 
 export type PhonemeSound = {
