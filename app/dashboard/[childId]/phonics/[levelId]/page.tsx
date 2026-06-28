@@ -95,8 +95,8 @@ function LevelArticle({ levelId, gradient, text, bg, border }: { levelId: string
           </div>
           {article.sections.map((s, i) => (
             <div key={i} className={`px-4 py-3 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/60'} border-t border-gray-100`}>
-              <p className={`text-xs font-black ${text} mb-1.5`}>{s.heading}</p>
-              <p className="text-xs text-gray-600 leading-relaxed whitespace-pre-line">{s.body}</p>
+              <p className={`text-sm font-black ${text} mb-1.5`}>{s.heading}</p>
+              <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line">{s.body}</p>
             </div>
           ))}
         </div>
