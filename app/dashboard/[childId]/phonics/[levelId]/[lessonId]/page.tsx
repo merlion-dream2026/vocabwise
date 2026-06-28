@@ -80,7 +80,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
         {knowledge.why && (
           <div>
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">💡 Tại sao có quy tắc này?</p>
-            <p className="text-xs text-gray-700 font-semibold leading-relaxed">{knowledge.why}</p>
+            <p className="text-sm text-gray-700 font-semibold leading-relaxed">{knowledge.why}</p>
           </div>
         )}
 
@@ -101,8 +101,8 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             )}
             <ol className="space-y-1.5">
               {knowledge.how_to.map((step, i) => (
-                <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
-                  <span className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${levelBg} ${levelText} border ${levelBorder}`}>{i + 1}</span>
+                <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
+                  <span className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-black ${levelBg} ${levelText} border ${levelBorder}`}>{i + 1}</span>
                   <span>{step}</span>
                 </li>
               ))}
@@ -113,7 +113,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
         {knowledge.vs_vietnamese && (
           <div className="bg-yellow-50 rounded-xl px-3 py-2.5 border border-yellow-200">
             <p className="text-xs font-black text-yellow-700 mb-1">🇻🇳 So sánh với tiếng Việt</p>
-            <p className="text-xs text-yellow-800 font-semibold leading-relaxed">{knowledge.vs_vietnamese}</p>
+            <p className="text-sm text-yellow-800 font-semibold leading-relaxed">{knowledge.vs_vietnamese}</p>
           </div>
         )}
 
@@ -122,7 +122,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">✍️ Chính tả → Phát âm</p>
             <div className="space-y-1.5">
               {knowledge.spelling.map((s, i) => (
-                <div key={i} className="flex gap-2 text-xs">
+                <div key={i} className="flex gap-2 text-sm">
                   <span className={`shrink-0 font-black ${levelText} font-mono`}>{s.pattern}</span>
                   <span className="text-gray-500">→</span>
                   <span className="text-gray-600 font-semibold">
@@ -147,7 +147,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">⚠️ Lỗi thường gặp</p>
             <ul className="space-y-1">
               {knowledge.mistakes.map((m, i) => (
-                <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
+                <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
                   <span className="text-red-400 shrink-0">✗</span><span>{m}</span>
                 </li>
               ))}
@@ -160,7 +160,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">🔀 Ngoại lệ</p>
             <ul className="space-y-1">
               {knowledge.exceptions.map((e, i) => (
-                <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">
+                <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
                   <span className="text-orange-400 shrink-0">•</span><span>{e}</span>
                 </li>
               ))}
@@ -171,7 +171,7 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
         {knowledge.mnemonic && (
           <div className="bg-purple-50 rounded-xl px-3 py-2.5 border border-purple-200">
             <p className="text-xs font-black text-purple-700 mb-1">🧠 Mẹo nhớ</p>
-            <p className="text-xs text-purple-800 font-semibold leading-relaxed">{knowledge.mnemonic}</p>
+            <p className="text-sm text-purple-800 font-semibold leading-relaxed">{knowledge.mnemonic}</p>
           </div>
         )}
       </div>
@@ -196,7 +196,7 @@ function PracticeWords({ lesson, level }: { lesson: PairLesson; level: Level }) 
                 className={`${level.text} text-xs font-bold px-2 py-0.5 ${level.bg} border ${level.border} rounded-lg active:scale-90`}>
                 {w} 🔊
               </button>
-              {ipas?.[i] && <span className="text-[10px] text-gray-400 font-mono">{ipas[i]}</span>}
+              {ipas?.[i] && <span className="text-xs text-gray-400 font-mono">{ipas[i]}</span>}
               <QuickRecordButton word={w} />
             </div>
           ))}
@@ -232,7 +232,7 @@ function PracticeWords({ lesson, level }: { lesson: PairLesson; level: Level }) 
                   className={`${level.text} text-xs font-bold px-2 py-0.5 bg-white border ${level.border} rounded-lg active:scale-90`}>
                   {w} 🔊
                 </button>
-                {iList[i] && <span className="text-[10px] text-gray-400 font-mono">{iList[i]}</span>}
+                {iList[i] && <span className="text-xs text-gray-400 font-mono">{iList[i]}</span>}
                 <QuickRecordButton word={w} />
               </div>
             ))}
@@ -321,11 +321,11 @@ export default function LessonPage() {
 
         {/* ── Mastery checklist ── */}
         <div className="bg-white rounded-2xl border border-gray-100 px-4 py-3">
-          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wide mb-2">Tiến độ thành thạo</p>
+          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Tiến độ thành thạo</p>
           <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
             <div className="flex items-center gap-1.5 col-span-2">
               <span className={`text-sm ${seen ? 'text-green-500' : 'text-gray-200'}`}>{seen ? '✅' : '⬜'}</span>
-              <span className="text-xs text-gray-600 font-semibold">Đã đọc bài học</span>
+              <span className="text-sm text-gray-600 font-semibold">Đã đọc bài học</span>
             </div>
             {lesson.games.map(g => {
               const done   = games.includes(g)
@@ -334,7 +334,7 @@ export default function LessonPage() {
               return (
                 <div key={g} className="flex items-center gap-1.5">
                   <span className={`text-sm ${done ? 'text-green-500' : 'text-gray-200'}`}>{done ? '✅' : '⬜'}</span>
-                  <span className="text-xs text-gray-600 font-semibold leading-tight">
+                  <span className="text-sm text-gray-600 font-semibold leading-tight">
                     {meta?.emoji} {meta?.label}
                     {isBonus && <span className="text-gray-400"> (bonus)</span>}
                   </span>
@@ -343,7 +343,7 @@ export default function LessonPage() {
             })}
           </div>
           {mastered && (
-            <p className={`text-xs ${level.text} font-black mt-2 pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
+            <p className={`text-sm ${level.text} font-black mt-2 pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
           )}
         </div>
 
@@ -364,7 +364,7 @@ export default function LessonPage() {
                     <span className="text-xl">{s.emoji}</span>
                     <div className="min-w-0">
                       <span className="font-bold text-gray-800 text-sm">{s.keyword}</span>
-                      <span className="text-[10px] text-gray-400 font-mono ml-1">{s.vi}</span>
+                      <span className="text-xs text-gray-400 font-mono ml-1">{s.vi}</span>
                     </div>
                   </div>
                   {/* Line 2: target sound + speaker */}
@@ -379,7 +379,7 @@ export default function LessonPage() {
             {/* Tip */}
             {pairLesson.tip && (
               <div className="bg-white/80 rounded-xl px-3 py-2.5 border border-gray-100">
-                <p className="text-xs text-gray-600 font-semibold leading-relaxed">
+                <p className="text-sm text-gray-600 font-semibold leading-relaxed">
                   <span className={`${level.text} font-black`}>💡 </span>{pairLesson.tip}
                 </p>
               </div>
@@ -403,8 +403,8 @@ export default function LessonPage() {
                 return (
                   <div key={bucket.label} className={`${col.bg} px-4 py-3.5`}>
                     <p className={`font-black text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
-                    <p className="text-xs text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
-                    {bucket.tip && <p className={`text-xs font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>}
+                    <p className="text-sm text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
+                    {bucket.tip && <p className={`text-sm font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>}
                     <div className="flex flex-wrap gap-1.5">
                       {bucket.words.slice(0, 5).map(w => (
                         <button key={w} onClick={() => speak(w, { rate: 0.75 })}
@@ -431,8 +431,8 @@ export default function LessonPage() {
               {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
               {((lesson as any).sentences ?? []).slice(0, 4).map((s: { en: string; vi: string }, i: number) => (
                 <div key={i}>
-                  <p className="text-xs text-gray-700 font-semibold leading-relaxed">{i + 1}. {s.en}</p>
-                  <p className="text-[10px] text-gray-400 mt-0.5">{s.vi}</p>
+                  <p className="text-sm text-gray-700 font-semibold leading-relaxed">{i + 1}. {s.en}</p>
+                  <p className="text-xs text-gray-400 mt-0.5">{s.vi}</p>
                 </div>
               ))}
               {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
