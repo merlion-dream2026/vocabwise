@@ -2375,6 +2375,120 @@
           ]
         },
         {
+          "id": "final-voiced",
+          "type": "pair",
+          "title": "Final Voiced: -B / -D / -G",
+          "subtitle": "Phụ âm hữu thanh cuối từ — tiếng Việt không có!",
+          "emoji": "🔚",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "shadow"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "-b",
+              "keyword": "cab",
+              "emoji": "🚕",
+              "vi": "xe taxi",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-d",
+              "keyword": "bed",
+              "emoji": "🛏️",
+              "vi": "giường",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-g",
+              "keyword": "bag",
+              "emoji": "👜",
+              "vi": "túi xách",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "cab",
+            "bed",
+            "bag",
+            "club",
+            "bid",
+            "big",
+            "rib",
+            "rod",
+            "dog",
+            "tub",
+            "add",
+            "bug",
+            "rob",
+            "head",
+            "leg"
+          ],
+          "tip": "Dấu hiệu nhận biết voiced final: VOWEL TRƯỚC NÓ DÀI HƠN. cap /kæp/ vs cab /kæːb/ — nguyên âm dài hơn trước -b!"
+        },
+        {
+          "id": "final-fricatives",
+          "type": "pair",
+          "title": "Final Fricatives: -F / -V",
+          "subtitle": "Âm xát cuối từ — dễ bị nuốt mất nhất trong tiếng Anh!",
+          "emoji": "💨",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words",
+            "shadow"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "-f",
+              "keyword": "beef",
+              "emoji": "🥩",
+              "vi": "thịt bò",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-v",
+              "keyword": "move",
+              "emoji": "🚚",
+              "vi": "di chuyển",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "beef",
+            "move",
+            "leaf",
+            "live",
+            "half",
+            "have",
+            "roof",
+            "love",
+            "cliff",
+            "give",
+            "loaf",
+            "prove"
+          ],
+          "tip": "Từ CHƯA XONGcho đến khi môi/răng tạo ra /f/ hoặc /v/ hoàn chỉnh. Kiểm tra: có luồng khí sau nguyên âm không?"
+        },
+        {
           "id": "clusters",
           "type": "pair",
           "title": "Clusters",
@@ -2403,29 +2517,29 @@
               "learnAudio": null
             },
             {
-              "symbol": "spl-",
-              "keyword": "splash",
-              "emoji": "💦",
-              "vi": "bắn nước",
+              "symbol": "spr-",
+              "keyword": "spring",
+              "emoji": "🌱",
+              "vi": "mùa xuân",
               "wikiAudio": null,
               "learnAudio": null
             }
           ],
           "practice_words": [
             "street",
-            "splash",
-            "strong",
             "spring",
-            "strike",
+            "strong",
             "spread",
-            "stress",
+            "strike",
             "spray",
-            "find",
-            "best",
-            "think",
-            "hand"
+            "stress",
+            "sprint",
+            "stream",
+            "sprout",
+            "straight",
+            "sprung"
           ],
-          "tip": "Tiếng Việt chỉ có âm tiết mở — đọc liền các phụ âm, không thêm nguyên âm vào giữa",
+          "tip": "Không chèn schwa: street ≠ /sə·triːt/ · spring ≠ /spə·rɪŋ/. Ba phụ âm liền nhau, không ngắt!",
           "practice_sentences": [
             {
               "en": "The strong stream runs down the street.",
@@ -2474,6 +2588,110 @@
             "/θɪŋk/",
             "/hænd/"
           ]
+        },
+        {
+          "id": "clusters-pbl",
+          "type": "pair",
+          "title": "Clusters: PL / BL",
+          "subtitle": "Nhóm phụ âm đầu — lưỡi trượt thẳng, không có schwa!",
+          "emoji": "🔀",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words",
+            "shadow"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "pl-",
+              "keyword": "play",
+              "emoji": "▶️",
+              "vi": "chơi",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "bl-",
+              "keyword": "black",
+              "emoji": "⬛",
+              "vi": "đen",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "play",
+            "black",
+            "plan",
+            "blue",
+            "plate",
+            "blood",
+            "plus",
+            "blow",
+            "plane",
+            "blank",
+            "place",
+            "blend"
+          ],
+          "tip": "pl- vs bl- = chỉ khác voicing. Đặt tay lên cổ: bl- rung ngay từ đầu, pl- không rung."
+        },
+        {
+          "id": "clusters-trdr",
+          "type": "pair",
+          "title": "Clusters: TR / DR",
+          "subtitle": "Trong tiếng Anh nhanh: tr- nghe như /tʃr-/, dr- nghe như /dʒr-/!",
+          "emoji": "🌳",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words",
+            "shadow"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "tr-",
+              "keyword": "tree",
+              "emoji": "🌳",
+              "vi": "cây",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "dr-",
+              "keyword": "dream",
+              "emoji": "💭",
+              "vi": "giấc mơ",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "tree",
+            "dream",
+            "train",
+            "drink",
+            "true",
+            "drive",
+            "trip",
+            "drop",
+            "track",
+            "draw",
+            "trust",
+            "dress"
+          ],
+          "tip": "Native speaker: tree → /tʃriː/, dream → /dʒriːm/. Đây là đặc điểm thật của tiếng Anh tự nhiên!"
         }
       ]
     },
@@ -2796,6 +3014,60 @@
             "/vaʊ/",
             "/waʊ/"
           ]
+        },
+        {
+          "id": "final-l",
+          "type": "pair",
+          "title": "Final -L vs -N",
+          "subtitle": "Âm /l/ cuối từ — dễ bị nuốt hoặc nhầm với /n/!",
+          "emoji": "🔤",
+          "games": [
+            "minimal-pairs",
+            "listen-pick",
+            "speak",
+            "sort-words",
+            "shadow"
+          ],
+          "masteryGames": [
+            "minimal-pairs",
+            "listen-pick"
+          ],
+          "pairAudio": null,
+          "sounds": [
+            {
+              "symbol": "-l",
+              "keyword": "well",
+              "emoji": "✅",
+              "vi": "tốt",
+              "wikiAudio": null,
+              "learnAudio": null
+            },
+            {
+              "symbol": "-n",
+              "keyword": "when",
+              "emoji": "❓",
+              "vi": "khi nào",
+              "wikiAudio": null,
+              "learnAudio": null
+            }
+          ],
+          "practice_words": [
+            "well",
+            "when",
+            "feel",
+            "fin",
+            "tell",
+            "ten",
+            "call",
+            "can",
+            "fill",
+            "thin",
+            "ball",
+            "ban",
+            "fall",
+            "fan"
+          ],
+          "tip": "Final /l/ = Dark L — lưỡi chạm ngạc răng SAU nguyên âm. \"feel\" ≠ \"fee\". Lưỡi phải chạm, không bỏ!"
         }
       ]
     },
