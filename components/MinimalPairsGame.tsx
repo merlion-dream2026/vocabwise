@@ -14,7 +14,7 @@ type Sound = { symbol: string; keyword: string; emoji: string; vi: string }
 type Pair  = { id: string; sounds: Sound[]; practice_words: string[] }
 type Group = { id: string; title: string; emoji: string; gradient: string; bg: string; border: string; text: string; btn: string; bar: string; pairs: Pair[] }
 
-type Question = { pairId: string; choices: Sound[]; answer: Sound }
+type Question = { pairId: string; choices: Sound[]; answer: Sound; word: string }
 
 const TOTAL_QUESTIONS = 10
 
@@ -25,15 +25,17 @@ function buildQuestions(group: Group, pairIdFilter?: string[]): Question[] {
     p.sounds.length >= 2 && (pairIdFilter ? pairIdFilter.includes(p.id) : true)
   )
   if (validPairs.length === 0) return []
-  const total = pairIdFilter ? Math.min(TOTAL_QUESTIONS, validPairs.length * 3) : TOTAL_QUESTIONS
   const questions: Question[] = []
-  for (let i = 0; i < total; i++) {
-    const pair = validPairs[i % validPairs.length]
-    const shuffledSounds = shuffle(pair.sounds)
-    const answer = shuffledSounds[Math.floor(Math.random() * shuffledSounds.length)]
-    questions.push({ pairId: pair.id, choices: shuffledSounds, answer })
+  for (const pair of validPairs) {
+    const words0 = pair.practice_words.filter((_, i) => i % 2 === 0)
+    const words1 = pair.practice_words.filter((_, i) => i % 2 === 1)
+    // Fallback to keyword if no practice_words
+    const w0 = words0.length ? words0 : [pair.sounds[0].keyword]
+    const w1 = words1.length ? words1 : [pair.sounds[1].keyword]
+    for (const w of w0) questions.push({ pairId: pair.id, choices: shuffle(pair.sounds), answer: pair.sounds[0], word: w })
+    for (const w of w1) questions.push({ pairId: pair.id, choices: shuffle(pair.sounds), answer: pair.sounds[1], word: w })
   }
-  return shuffle(questions)
+  return shuffle(questions).slice(0, pairIdFilter ? questions.length : TOTAL_QUESTIONS)
 }
 
 type Phase = 'listening' | 'choosing' | 'result'
@@ -60,7 +62,7 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
     if (speakingRef.current) return
     speakingRef.current = true
     setPhase('listening')
-    speak(question.answer.keyword, {
+    speak(question.word, {
       rate: 0.75,
       onEnd:  () => { speakingRef.current = false; setPhase('choosing') },
       onError: () => { speakingRef.current = false; setPhase('choosing') },
@@ -210,8 +212,8 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
           )}
           {phase === 'choosing' && (
             <>
-              <div className="text-6xl mb-3">👂</div>
-              <p className="text-gray-700 font-black text-lg">Từ này bắt đầu bằng âm nào?</p>
+              <p className="text-4xl font-black text-gray-800 mb-1">{q.word}</p>
+              <p className="text-gray-600 font-bold text-base">Từ này chứa âm nào?</p>
               <button
                 onClick={() => { speakingRef.current = false; playQuestion(q) }}
                 className="mt-3 bg-amber-100 text-amber-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-all"
@@ -225,25 +227,27 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
               <div className="text-5xl mb-2">{selected.symbol === q.answer.symbol ? '✅' : '❌'}</div>
               {selected.symbol === q.answer.symbol ? (
                 <div>
-                  <p className="font-black text-gray-800 text-base">Đúng! &nbsp;<span className="font-mono text-amber-700">/{q.answer.symbol}/</span></p>
-                  <p className="text-gray-500 text-sm mt-1">"{q.answer.keyword}" — {q.answer.vi}</p>
+                  <p className="font-black text-gray-800 text-base">
+                    Đúng! &nbsp;<span className="font-mono text-amber-700 text-lg">/{q.answer.symbol}/</span>
+                  </p>
+                  <p className="text-gray-600 text-sm mt-0.5 font-semibold">
+                    "{q.word}" có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> — "{q.answer.keyword}"
+                  </p>
                 </div>
               ) : (
                 <div>
-                  <p className="font-black text-gray-800 text-sm mb-2">
-                    Đáp án: <span className="font-mono text-green-600">/{q.answer.symbol}/</span> "{q.answer.keyword}"
-                    &nbsp;≠&nbsp;
-                    <span className="font-mono text-red-500">/{selected.symbol}/</span> "{selected.keyword}"
+                  <p className="font-black text-gray-800 text-sm mb-1.5">
+                    "{q.word}" có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> "{q.answer.keyword}"
+                    &nbsp;—&nbsp;không phải <span className="font-mono text-red-500">/{selected.symbol}/</span> "{selected.keyword}"
                   </p>
-                  <p className="text-gray-500 text-xs">Nghe lại hai từ để cảm nhận sự khác biệt 👆</p>
                   <button
                     onClick={() => speak(q.answer.keyword, {
                       rate: 0.75,
                       onEnd: () => setTimeout(() => speak(selected.keyword, { rate: 0.75 }), 600),
                     })}
-                    className="mt-2 text-amber-500 font-bold text-sm underline"
+                    className="mt-1 text-amber-500 font-bold text-sm underline"
                   >
-                    🔊 Nghe lại: "{q.answer.keyword}" vs "{selected.keyword}"
+                    🔊 "{q.answer.keyword}" vs "{selected.keyword}"
                   </button>
                 </div>
               )}

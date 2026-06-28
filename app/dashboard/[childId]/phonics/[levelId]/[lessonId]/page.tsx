@@ -32,11 +32,10 @@ type RuleLesson = Lesson & { type: 'rule'; buckets: { label: string; condition: 
 const GAME_META: Record<string, { emoji: string; label: string; desc: string }> = {
   'minimal-pairs': { emoji: '🎧', label: 'Nghe & Phân biệt', desc: 'Nghe từ → chọn đúng âm' },
   'listen-pick':   { emoji: '🔊', label: 'Nghe & Chọn',      desc: 'Nghe âm → chọn ký hiệu IPA' },
-  'speak':         { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Nghe mẫu → đọc to → AI chấm' },
+  'speak':         { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Nghe câu mẫu → đọc theo → AI chấm' },
   'sort-words':    { emoji: '🎯', label: 'Phân loại âm',      desc: 'Nghe từ → tap đúng bucket' },
   'sort-rule':     { emoji: '📏', label: 'Phân loại từ',      desc: 'Đọc từ → tap đúng nhóm phát âm' },
   'rhythm':        { emoji: '🎶', label: 'Nhịp điệu câu',    desc: 'Nghe mẫu → đọc to → AI chấm' },
-  'shadow':        { emoji: '🎙', label: 'Shadowing ✨',      desc: 'Nghe câu → đọc theo ngay lập tức' },
 }
 
 const BUCKET_COLORS = [
@@ -269,7 +268,7 @@ export default function LessonPage() {
   const ruleLesson = lesson.type === 'rule' ? lesson as RuleLesson : null
 
   return (
-    <div className={`min-h-screen ${level.bg} pb-10`}>
+    <div className={`min-h-screen ${level.bg} pb-24`}>
 
       {/* ── Compact 1-line header ── */}
       <div className={`bg-gradient-to-r ${level.gradient} text-white sticky top-0 z-10 shadow-sm`}>

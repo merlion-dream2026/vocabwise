@@ -173,12 +173,13 @@ export default function SortWordsGame({ group, childId, backUrl }: { group: Grou
                 </button>
               )}
               {phase === 'result' && (
-                <div className={`mt-2 rounded-xl p-2 ${selected === q.correctSoundIdx ? 'bg-green-50' : 'bg-red-50'}`}>
+                <div className={`mt-2 rounded-xl p-2.5 ${selected === q.correctSoundIdx ? 'bg-green-50' : 'bg-red-50'}`}>
                   <p className="text-sm font-bold text-gray-700">
-                    {selected === q.correctSoundIdx
-                      ? `✅ Đúng! "${q.word}" có âm /${q.pair.sounds[q.correctSoundIdx].symbol}/`
-                      : `❌ Sai! "${q.word}" có âm /${q.pair.sounds[q.correctSoundIdx].symbol}/ (không phải /${q.pair.sounds[selected ?? 0]?.symbol}/)`
-                    }
+                    {selected === q.correctSoundIdx ? (
+                      <>✅ "{q.word}" → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;</>
+                    ) : (
+                      <>❌ "{q.word}" → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;, không phải <span className="font-mono text-red-500">/{q.pair.sounds[selected ?? 0]?.symbol}/</span> &ldquo;{q.pair.sounds[selected ?? 0]?.keyword}&rdquo;</>
+                    )}
                   </p>
                 </div>
               )}
