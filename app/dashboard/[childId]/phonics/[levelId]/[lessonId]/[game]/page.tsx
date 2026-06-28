@@ -12,6 +12,7 @@ const PhonicsSpeak          = dynamic(() => import('@/components/PhonicsSpeak'),
 const SortWordsGame         = dynamic(() => import('@/components/SortWordsGame'),         { ssr: false })
 const SortRuleGame          = dynamic(() => import('@/components/SortRuleGame'),          { ssr: false })
 const SentenceRhythmGame    = dynamic(() => import('@/components/SentenceRhythmGame'),    { ssr: false })
+const ShadowingGame         = dynamic(() => import('@/components/ShadowingGame'),         { ssr: false })
 
 type Level  = typeof phonicsLevels.levels[number]
 type Lesson = Level['lessons'][number]
@@ -63,11 +64,11 @@ export default function GamePage() {
   const isPair = lesson.type === 'pair'
 
   if (!isPair) {
-    // Rule lesson — only SortRuleGame for now
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const ruleLesson = lesson as any
     if (game === 'sort-rule') return <SortRuleGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
     if (game === 'rhythm')    return <SentenceRhythmGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
+    if (game === 'shadow')    return <ShadowingGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
     router.push(backUrl); return null
   }
 
@@ -94,6 +95,7 @@ export default function GamePage() {
     case 'listen-pick':   return <ListenPickPhonicsGame group={multiGroup}  {...commonProps} lessonId={lessonId} />
     case 'speak':         return <PhonicsSpeak          lesson={pairLesson} {...commonProps} />
     case 'sort-words':    return <SortWordsGame         group={singleGroup} {...commonProps} />
+    case 'shadow':        return <ShadowingGame         lesson={pairLesson} {...commonProps} gradient={level.gradient} btnColor={level.btn} />
     default: router.push(backUrl); return null
   }
 }

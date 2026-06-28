@@ -34,6 +34,26 @@ const GAME_META: Record<string, { emoji: string; label: string; desc: string }> 
   'sort-words':    { emoji: '🎯', label: 'Phân loại âm',      desc: 'Nghe từ → tap đúng bucket' },
   'sort-rule':     { emoji: '📏', label: 'Phân loại từ',      desc: 'Đọc từ → tap đúng nhóm phát âm' },
   'rhythm':        { emoji: '🎶', label: 'Nhịp điệu câu',    desc: 'Nghe mẫu → đọc to → AI chấm' },
+  'shadow':        { emoji: '🎙', label: 'Shadowing ✨',      desc: 'Nghe câu → đọc theo ngay lập tức' },
+}
+
+// Lesson → mouth diagram SVG filename mapping
+const LESSON_MOUTH_SVG: Record<string, string> = {
+  'iː-ɪ':    'iota',
+  'e-æ':     'ash',
+  'ɜː':      'er',
+  'ə':       'schwa',
+  'eɪ-aɪ':  'ei',
+  'f-v':     'vee',
+  'θ-ð':     'theta',
+  'ʃ-ʒ':     'esh',
+  'tʃ-dʒ':  'tesh',
+  'm-n-ŋ':   'eng',
+  'h-w-j':   'double-u',
+  'l-r':     'ell',
+  'θ-s-viet':'theta',
+  'v-w-viet':'double-u',
+  'ɜː-ə':    'schwa',
 }
 
 const BUCKET_COLORS = [
@@ -81,6 +101,17 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
               <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">
                 {knowledge.why ? '📋 Cách áp dụng' : '👄 Cách tạo âm'}
               </p>
+              {/* Mouth diagram — shows articulation position */}
+              {LESSON_MOUTH_SVG[lessonId] && (
+                <div className="mb-2.5 flex justify-center">
+                  <img
+                    src={`/phonics/mouth/${LESSON_MOUTH_SVG[lessonId]}.svg`}
+                    alt={`Vị trí lưỡi cho ${lessonId}`}
+                    width={180} height={144}
+                    className="rounded-xl border border-gray-100"
+                  />
+                </div>
+              )}
               <ol className="space-y-1.5">
                 {knowledge.how_to.map((step, i) => (
                   <li key={i} className="flex gap-2 text-xs text-gray-700 font-semibold leading-relaxed">

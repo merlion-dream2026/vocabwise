@@ -6,24 +6,108 @@ const MASTERY_GAMES = ['minimal-pairs', 'listen-pick', 'speak'] as const
 export type GameKey = typeof MASTERY_GAMES[number]
 
 type PairMastery  = { flashcard: boolean; games: string[] }
-type PhonicsStreak = { current: number; best: number; lastActive: string }
+type PhonicsStreak = { current: number; best: number; lastActive: string; freezeUsedWeek?: string }
 export type SoundAccuracy = { attempts: number; correct: number }
 
 let _childId  = ''
 let _mastery: Record<string, PairMastery>   = {}
 let _streak:  PhonicsStreak                  = { current: 0, best: 0, lastActive: '' }
 let _soundAcc: Record<string, SoundAccuracy> = {}
+// ISO date of last review per lesson (for decay scoring)
+let _lastReviewed: Record<string, string> = {}
+// Badge IDs earned (e.g. lesson IDs that were mastered)
+let _badges: string[] = []
 
-export function initPhonicsSync(childId: string, data: { mastery?: Record<string, PairMastery>; streak?: Partial<PhonicsStreak>; soundAcc?: Record<string, SoundAccuracy> } | null) {
-  _childId  = childId
-  _mastery  = data?.mastery  ?? {}
-  _soundAcc = data?.soundAcc ?? {}
-  _streak   = {
-    current:    data?.streak?.current    ?? 0,
-    best:       data?.streak?.best       ?? 0,
-    lastActive: data?.streak?.lastActive ?? '',
+export function initPhonicsSync(childId: string, data: {
+  mastery?: Record<string, PairMastery>
+  streak?: Partial<PhonicsStreak>
+  soundAcc?: Record<string, SoundAccuracy>
+  lastReviewed?: Record<string, string>
+  badges?: string[]
+} | null) {
+  _childId      = childId
+  _mastery      = data?.mastery      ?? {}
+  _soundAcc     = data?.soundAcc     ?? {}
+  _lastReviewed = data?.lastReviewed ?? {}
+  _badges       = data?.badges       ?? []
+  _streak = {
+    current:        data?.streak?.current        ?? 0,
+    best:           data?.streak?.best           ?? 0,
+    lastActive:     data?.streak?.lastActive     ?? '',
+    freezeUsedWeek: data?.streak?.freezeUsedWeek ?? undefined,
   }
 }
+
+// ── Decay ─────────────────────────────────────────────────────────────────────
+
+function todayStr() { return new Date().toISOString().split('T')[0] }
+
+/** Mark lesson as reviewed today (called after any game completion). */
+export function markReviewed(lessonId: string) {
+  _lastReviewed = { ..._lastReviewed, [lessonId]: todayStr() }
+}
+
+/**
+ * Decay score 0–100. Mastered lesson starts at 100 and loses 5/day after 2
+ * grace days, flooring at 40. Returns 100 if never mastered.
+ */
+export function getDecayScore(lessonId: string, masteryGames: string[]): number {
+  if (!isLessonMastered(lessonId, masteryGames)) return 100 // not yet mastered — no decay shown
+  const reviewed = _lastReviewed[lessonId]
+  if (!reviewed) return 60 // mastered but never tracked review → show as fading
+  const days = Math.floor((Date.now() - new Date(reviewed).getTime()) / 86_400_000)
+  if (days <= 2) return 100
+  return Math.max(40, 100 - (days - 2) * 5)
+}
+
+/** Returns lesson IDs with decay score below threshold, sorted worst first. */
+export function getDecayedLessons(
+  allLessons: { id: string; masteryGames: string[] }[],
+  threshold = 65
+): string[] {
+  return allLessons
+    .filter(l => isLessonMastered(l.id, l.masteryGames) && getDecayScore(l.id, l.masteryGames) < threshold)
+    .sort((a, b) => getDecayScore(a.id, a.masteryGames) - getDecayScore(b.id, b.masteryGames))
+    .map(l => l.id)
+}
+
+// ── Streak freeze ─────────────────────────────────────────────────────────────
+
+/** ISO week string, e.g. "2026-W26". */
+function isoWeek(date = new Date()): string {
+  const d = new Date(date)
+  d.setHours(0, 0, 0, 0)
+  d.setDate(d.getDate() + 4 - (d.getDay() || 7))
+  const yearStart = new Date(d.getFullYear(), 0, 1)
+  const weekNo = Math.ceil(((d.getTime() - yearStart.getTime()) / 86_400_000 + 1) / 7)
+  return `${d.getFullYear()}-W${String(weekNo).padStart(2, '0')}`
+}
+
+export function canUseStreakFreeze(): boolean {
+  if (_streak.current < 7) return false
+  return _streak.freezeUsedWeek !== isoWeek()
+}
+
+/** Apply freeze: protect streak for one missed day. Returns true if applied. */
+export function useStreakFreeze(): boolean {
+  if (!canUseStreakFreeze()) return false
+  const today = todayStr()
+  _streak = { ..._streak, freezeUsedWeek: isoWeek(), lastActive: today }
+  return true
+}
+
+// ── Badges ────────────────────────────────────────────────────────────────────
+
+/** Award a badge by ID if not already earned. Returns true if newly earned. */
+export function awardBadge(badgeId: string): boolean {
+  if (_badges.includes(badgeId)) return false
+  _badges = [..._badges, badgeId]
+  return true
+}
+
+export function getBadges(): string[] { return [..._badges] }
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 export function markPairSeen(pairId: string) {
   const entry = _mastery[pairId] ?? { flashcard: false, games: [] }
@@ -34,22 +118,27 @@ export function markPairSeen(pairId: string) {
 }
 
 /** Only call when user passes ≥70% — the game component enforces the threshold. */
-export function recordPairGame(pairId: string, gameKey: string) {
+export function recordPairGame(pairId: string, gameKey: string, masteryGames?: string[]) {
   const entry = _mastery[pairId] ?? { flashcard: false, games: [] }
   if (!entry.games.includes(gameKey)) {
     _mastery = { ..._mastery, [pairId]: { ...entry, games: [...entry.games, gameKey] } }
-    recordPhonicsActivity()
+  }
+  markReviewed(pairId)
+  recordPhonicsActivity()
+  // Award mastery badge when all required games completed
+  if (masteryGames && isLessonMastered(pairId, masteryGames)) {
+    awardBadge(`mastered:${pairId}`)
   }
 }
 
 export function recordPhonicsActivity() {
-  const today = new Date().toISOString().split('T')[0]
+  const today = todayStr()
   if (_streak.lastActive === today) return
-  const yest = new Date()
-  yest.setDate(yest.getDate() - 1)
+  const yest = new Date(); yest.setDate(yest.getDate() - 1)
   const yesterdayStr = yest.toISOString().split('T')[0]
-  const newCurrent = _streak.lastActive === yesterdayStr ? _streak.current + 1 : 1
-  _streak = { current: newCurrent, best: Math.max(_streak.best, newCurrent), lastActive: today }
+  const isConsecutive = _streak.lastActive === yesterdayStr
+  const newCurrent = isConsecutive ? _streak.current + 1 : 1
+  _streak = { ..._streak, current: newCurrent, best: Math.max(_streak.best, newCurrent), lastActive: today }
 }
 
 export function getPhonicsStreak(): PhonicsStreak { return { ..._streak } }
@@ -118,6 +207,8 @@ export async function flushPhonics() {
       mastery: _mastery,
       streak: _streak,
       soundAcc: _soundAcc,
+      lastReviewed: _lastReviewed,
+      badges: _badges,
       seen: [], weak_words: {}, battle: {}, history: {}, srs: {},
     }),
   }).catch(() => {})

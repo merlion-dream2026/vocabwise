@@ -2457,5 +2457,90 @@
       "Một số phong cách (thơ, diễn thuyết) có thể nhấn khác quy tắc thông thường"
     ],
     "vs_vietnamese": "Người Việt đọc tiếng Anh đều đều từng âm tiết → nghe 'robotic', khó hiểu vì không rõ thông tin quan trọng ở đâu. Học sentence stress = học cách truyền đạt thông tin hiệu quả trong tiếng Anh."
+  },
+  "thought-groups": {
+    "why": "Người bản ngữ không nói từng từ riêng lẻ — họ nhóm các từ có nghĩa gần nhau thành \"thought groups\" và ngắt giữa các nhóm. Ngắt sai chỗ làm người nghe khó hiểu, thiếu tự nhiên.",
+    "how_to": [
+      "Mỗi thought group thường có 3–7 từ, kết thúc ở chỗ có nghĩa hoàn chỉnh một phần.",
+      "Ngắt nhẹ (micro-pause) giữa các nhóm — không phải khoảng trống dài.",
+      "Từ cuối mỗi nhóm thường được nhấn nhẹ hơn (falling nucleus).",
+      "Luyện: đọc câu dài → tìm chỗ ngắt tự nhiên → thực hành với dấu /.",
+      "IELTS Band 7+: examiners đánh giá \"appropriate chunking\" — nhóm câu hợp lý."
+    ],
+    "vs_vietnamese": "Tiếng Việt có âm tiết rõ ràng và ngắt tự nhiên hơn. Tiếng Anh nói liên tục hơn trong mỗi thought group — tránh ngắt ở giữa nhóm.",
+    "exceptions": [
+      "Khi nói chậm hoặc nhấn mạnh, thought group có thể nhỏ hơn (1–2 từ).",
+      "Trong văn nói thân mật, thought groups dài hơn và ít ngắt hơn."
+    ]
+  },
+  "contractions": {
+    "why": "Người bản ngữ dùng contractions trong giao tiếp tự nhiên để nói nhanh hơn và nghe tự nhiên hơn. Không dùng contraction nghe có vẻ cứng nhắc, không tự nhiên.",
+    "how_to": [
+      "Học từng cặp: dạng đầy đủ (formal/written) → dạng co rút (spoken).",
+      "Luyện tới khi contraction nghe như MỘT từ, không phải hai từ ghép.",
+      "Trong IELTS Speaking: contraction hoàn toàn được chấp nhận — thực ra giúp điểm fluency.",
+      "Phân biệt: it's (it is) vs its (possessive) — âm giống nhau nhưng nghĩa khác."
+    ],
+    "vs_vietnamese": "Tiếng Việt không có contractions. Người Việt hay phát âm đầy đủ (I am → \"I am\" thay vì \"I'm\"), nghe thiếu tự nhiên.",
+    "exceptions": [
+      "'am not' không có contraction chuẩn (ain't là informal/dialectal).",
+      "Khi nhấn mạnh: 'I WILL not do it' (không dùng won't) để tăng sức mạnh."
+    ]
+  },
+  "fast-speech": {
+    "why": "Trong hội thoại tự nhiên, người nói nhanh 'compress' các từ nhỏ — đặc biệt function words. Đây là đặc điểm của bản ngữ, không phải lỗi. Nghe và nhận ra được giúp hiểu podcast, phim, IELTS Listening Band 7+.",
+    "how_to": [
+      "Ghi nhớ các cặp: going to → gonna (/ˈɡɒnə/), want to → wanna (/ˈwɒnə/).",
+      "Không nhất thiết phải TỰ NÓI theo — nhưng phải nghe hiểu được.",
+      "IELTS Speaking: tránh dùng gonna/wanna trong formal context (exam); dùng trong informal Task 1 (nếu phù hợp).",
+      "Luyện nghe: podcast, phim không phụ đề → pause → replay → identify reductions."
+    ],
+    "vs_vietnamese": "Tiếng Việt nói nhanh cũng có giảm âm (tôi → tui, không → hông) — tương tự khái niệm nhưng khác từ cụ thể.",
+    "exceptions": [
+      "Formal situations (presentations, interviews): tránh gonna/wanna, dùng going to/want to.",
+      "Khi viết: KHÔNG dùng gonna/wanna — chỉ dùng trong dialogue hoặc chat không chính thức."
+    ]
+  },
+  "ielts-part2-flow": {
+    "why": "IELTS Speaking Part 2 yêu cầu nói liên tục 2 phút. Examiner đánh giá Fluency & Coherence (25%) — bao gồm: không có khoảng dừng không cần thiết, có cohesive devices, và speech đều đặn tự nhiên.",
+    "how_to": [
+      "Dùng thought groups rõ ràng: nói từng chunk, ngắt nhẹ giữa các ý.",
+      "Discourse markers để mua thời gian và kết nối: 'What I mean is...', 'The reason I say this is...'",
+      "Tốc độ: không quá nhanh (mất control) cũng không quá chậm (nghe cứng). Aim for ~120 words/minute.",
+      "Stress content words: nouns, verbs, adjectives, adverbs. De-stress function words (the, a, of, to).",
+      "Luyện: record bản thân → nghe lại → chú ý chỗ dừng không tự nhiên → cải thiện."
+    ],
+    "vs_vietnamese": "Học sinh Việt hay nói quá nhanh (nervousness) hoặc quá chậm với nhiều 'uh... um...' Aim for natural English pace với pauses ở right places (thought group boundaries).",
+    "exceptions": [
+      "IELTS Part 2: được phép dùng notes trong 1 phút chuẩn bị — nên ghi key phrases, không ghi câu đầy đủ."
+    ]
+  },
+  "question-types": {
+    "why": "Ba loại câu hỏi có intonation pattern khác nhau. Sai intonation → người nghe confused về loại câu hỏi. IELTS Speaking Part 3 thường dùng WH-questions; phân biệt đúng → điểm cao hơn.",
+    "how_to": [
+      "WH-questions (what, where, when, who, why, how): giọng XUỐNG ↘ ở cuối — mang thông tin mới.",
+      "Yes/No questions (do, does, did, is, are, will, can): giọng LÊN ↗ ở cuối — cần xác nhận.",
+      "Tag questions: giọng XUỐNG ↘ nếu chắc chắn ('It's hot, isn't it?'); LÊN ↗ nếu không chắc.",
+      "Ngoại lệ: WH-question đôi khi lên khi muốn hỏi lại (echoing) — 'You went WHERE?'"
+    ],
+    "vs_vietnamese": "Tiếng Việt dùng từ hỏi (à, không, hả) thay vì intonation để phân biệt câu hỏi. Người Việt hay 'flatten' intonation câu hỏi tiếng Anh, nghe không tự nhiên.",
+    "exceptions": [
+      "Khi hỏi lại (echo question): WH-question có thể lên ↗: 'He said WHAT?'",
+      "Rhetorical questions: thường xuống ↘ ngay cả yes/no: 'Does it really matter? ↘'"
+    ]
+  },
+  "contrastive-stress": {
+    "why": "Trong tiếng Anh, nhấn mạnh từ nào THAY ĐỔI ý nghĩa hoàn toàn. Đây là cách người bản ngữ dùng để tương phản, đính chính, hoặc nhấn mạnh thông tin. IELTS Band 7+ examiners chú ý đến 'use of stress for emphasis'.",
+    "how_to": [
+      "Identify the CONTRASTING element — đó là từ cần nhấn.",
+      "Nhấn mạnh bằng cách: to cao hơn + dài hơn + to hơn (louder, longer, higher pitch).",
+      "Các từ không được nhấn sẽ nghe yếu và nhanh hơn (reduced).",
+      "Luyện: đọc cùng câu với các từ nhấn khác nhau → note sự khác biệt nghĩa."
+    ],
+    "vs_vietnamese": "Tiếng Việt dùng thêm từ để nhấn ('chính anh ấy', 'mãi tôi mới...'). Tiếng Anh đơn giản hơn: chỉ cần nhấn từ cần tương phản.",
+    "exceptions": [
+      "Khi viết, contrastive stress được thể hiện bằng CAPS, italic, hoặc bold — không có trong spoken.",
+      "Đừng nhấn quá nhiều từ trong một câu — làm loãng hiệu quả. Thường chỉ 1–2 từ per contrast."
+    ]
   }
 }
