@@ -9,6 +9,7 @@ import {
   getPairGames, markPairSeen, flushPhonics,
 } from '@/lib/phonicsSync'
 import QuickRecordButton from '@/components/QuickRecordButton'
+import MouthDiagram from '@/components/MouthDiagram'
 import phonicsLevels from '@/data/phonicsLevels.json'
 import phonicsKnowledge from '@/data/phonicsKnowledge.json'
 
@@ -36,24 +37,6 @@ const GAME_META: Record<string, { emoji: string; label: string; desc: string }> 
   'sort-rule':     { emoji: '📏', label: 'Phân loại từ',      desc: 'Đọc từ → tap đúng nhóm phát âm' },
   'rhythm':        { emoji: '🎶', label: 'Nhịp điệu câu',    desc: 'Nghe mẫu → đọc to → AI chấm' },
   'shadow':        { emoji: '🎙', label: 'Shadowing ✨',      desc: 'Nghe câu → đọc theo ngay lập tức' },
-}
-
-const LESSON_MOUTH_SVG: Record<string, string> = {
-  'iː-ɪ':     'iota',
-  'e-æ':      'ash',
-  'ɜː':       'er',
-  'ə':        'schwa',
-  'eɪ-aɪ':   'ei',
-  'f-v':      'vee',
-  'θ-ð':      'theta',
-  'ʃ-ʒ':      'esh',
-  'tʃ-dʒ':   'tesh',
-  'm-n-ŋ':    'eng',
-  'h-w-j':    'double-u',
-  'l-r':      'ell',
-  'θ-s-viet': 'theta',
-  'v-w-viet': 'double-u',
-  'ɜː-ə':     'schwa',
 }
 
 const BUCKET_COLORS = [
@@ -89,16 +72,11 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">
               {knowledge.why ? '📋 Cách áp dụng' : '👄 Cách tạo âm'}
             </p>
-            {LESSON_MOUTH_SVG[lessonId] && (
-              <div className="mb-2.5 flex justify-center">
-                <img
-                  src={`/phonics/mouth/${LESSON_MOUTH_SVG[lessonId]}.svg`}
-                  alt={`Vị trí lưỡi cho ${lessonId}`}
-                  width={180} height={144}
-                  className="rounded-xl border border-gray-100"
-                />
+            <div className="mb-2.5 flex justify-center">
+              <div className="w-44 rounded-xl border border-gray-100 overflow-hidden">
+                <MouthDiagram lessonId={lessonId} />
               </div>
-            )}
+            </div>
             <ol className="space-y-1.5">
               {knowledge.how_to.map((step, i) => (
                 <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
@@ -250,8 +228,9 @@ export default function LessonPage() {
   const childId  = params.childId
   const levelId  = decodeURIComponent(params.levelId)
   const lessonId = decodeURIComponent(params.lessonId)
-  const [ready, setReady]   = useState(false)
-  const [, forceUpdate]     = useState(0)
+  const [ready, setReady]       = useState(false)
+  const [, forceUpdate]         = useState(0)
+  const [progressOpen, setProgressOpen] = useState(false)
 
   const level      = phonicsLevels.levels.find(l => l.id === levelId) as Level | undefined
   const lessonIdx  = level?.lessons.findIndex(l => l.id === lessonId) ?? -1
@@ -319,31 +298,57 @@ export default function LessonPage() {
 
       <div className="max-w-lg mx-auto px-4 pt-4 space-y-4">
 
-        {/* ── Mastery checklist ── */}
-        <div className="bg-white rounded-2xl border border-gray-100 px-4 py-3">
-          <p className="text-xs text-gray-400 font-bold uppercase tracking-wide mb-2">Tiến độ thành thạo</p>
-          <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
-            <div className="flex items-center gap-1.5 col-span-2">
-              <span className={`text-sm ${seen ? 'text-green-500' : 'text-gray-200'}`}>{seen ? '✅' : '⬜'}</span>
-              <span className="text-sm text-gray-600 font-semibold">Đã đọc bài học</span>
+        {/* ── Mastery checklist — collapsible ── */}
+        <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden">
+          {/* Header: always visible — tap to expand */}
+          <button
+            onClick={() => setProgressOpen(o => !o)}
+            className="w-full flex items-center gap-2.5 px-4 py-3 active:bg-gray-50">
+            <span className="text-xs text-gray-400 font-bold uppercase tracking-wide shrink-0">Tiến độ</span>
+            {/* Quick-glance dots */}
+            <div className="flex items-center gap-1.5 flex-1">
+              {/* dot for "seen" */}
+              <span className={`w-3 h-3 rounded-full shrink-0 ${seen ? 'bg-green-400' : 'bg-gray-200'}`}/>
+              {lesson.masteryGames.map(g => {
+                const done = games.includes(g)
+                return <span key={g} className={`w-3 h-3 rounded-full shrink-0 ${done ? 'bg-green-400' : 'bg-gray-200'}`}/>
+              })}
+              {/* bonus dots (smaller, blue) */}
+              {lesson.games.filter(g => !lesson.masteryGames.includes(g)).map(g => {
+                const done = games.includes(g)
+                return <span key={g} className={`w-2.5 h-2.5 rounded-full shrink-0 ${done ? 'bg-blue-300' : 'bg-gray-100'} border border-gray-200`}/>
+              })}
             </div>
-            {lesson.games.map(g => {
-              const done   = games.includes(g)
-              const meta   = GAME_META[g]
-              const isBonus = !lesson.masteryGames.includes(g)
-              return (
-                <div key={g} className="flex items-center gap-1.5">
-                  <span className={`text-sm ${done ? 'text-green-500' : 'text-gray-200'}`}>{done ? '✅' : '⬜'}</span>
-                  <span className="text-sm text-gray-600 font-semibold leading-tight">
-                    {meta?.emoji} {meta?.label}
-                    {isBonus && <span className="text-gray-400"> (bonus)</span>}
-                  </span>
-                </div>
-              )
-            })}
-          </div>
-          {mastered && (
-            <p className={`text-sm ${level.text} font-black mt-2 pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
+            {mastered
+              ? <span className="text-base shrink-0">🏆</span>
+              : <span className={`text-xs font-bold shrink-0 transition-transform duration-200 text-gray-300 ${progressOpen ? 'rotate-180' : ''}`}>▼</span>}
+          </button>
+
+          {/* Expanded detail */}
+          {progressOpen && (
+            <div className="px-4 pb-3 border-t border-gray-100 pt-2.5 space-y-1.5">
+              <div className="flex items-center gap-2">
+                <span className={`text-base ${seen ? 'text-green-500' : 'text-gray-200'}`}>{seen ? '✅' : '⬜'}</span>
+                <span className="text-sm text-gray-600 font-semibold">Đã đọc bài học</span>
+              </div>
+              {lesson.games.map(g => {
+                const done    = games.includes(g)
+                const meta    = GAME_META[g]
+                const isBonus = !lesson.masteryGames.includes(g)
+                return (
+                  <div key={g} className="flex items-center gap-2">
+                    <span className={`text-base ${done ? 'text-green-500' : 'text-gray-200'}`}>{done ? '✅' : '⬜'}</span>
+                    <span className="text-sm text-gray-600 font-semibold leading-tight">
+                      {meta?.emoji} {meta?.label}
+                      {isBonus && <span className="text-gray-400 text-xs"> (bonus)</span>}
+                    </span>
+                  </div>
+                )
+              })}
+              {mastered && (
+                <p className={`text-sm ${level.text} font-black pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
+              )}
+            </div>
           )}
         </div>
 
