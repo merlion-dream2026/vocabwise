@@ -100,20 +100,18 @@ function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
             <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">✍️ Chính tả → Phát âm</p>
             <div className="space-y-1.5">
               {knowledge.spelling.map((s, i) => (
-                <div key={i} className="flex gap-2 text-sm">
+                <div key={i} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1 text-sm">
                   <span className={`shrink-0 font-black ${levelText} font-mono`}>{s.pattern}</span>
-                  <span className="text-gray-500">→</span>
-                  <span className="text-gray-600 font-semibold">
-                    {s.examples.map((ex, j) => (
-                      <span key={j}>
-                        {j > 0 && ', '}
-                        {ex}
-                        {s.examples_ipa?.[j] && (
-                          <span className="text-gray-400 font-mono font-normal ml-0.5">{s.examples_ipa[j]}</span>
-                        )}
-                      </span>
-                    ))}
-                  </span>
+                  <span className="shrink-0 text-gray-400">→</span>
+                  {s.examples.map((ex, j) => (
+                    <span key={j} className="whitespace-nowrap text-gray-600 font-semibold">
+                      {j > 0 && <span className="text-gray-300 mr-1">·</span>}
+                      {ex}
+                      {s.examples_ipa?.[j] && (
+                        <span className="text-gray-400 font-mono font-normal ml-0.5">{s.examples_ipa[j]}</span>
+                      )}
+                    </span>
+                  ))}
                 </div>
               ))}
             </div>
