@@ -112,12 +112,13 @@ export default function IPAChartPage() {
       })
   }, [childId])
 
-  // Mirror exactly how lesson page triggers audio — no ref, no guard
   const handleTap = (symbol: string) => {
     const sound = SOUND_DATA[symbol]
     if (!sound) return
     setPlaying(symbol)
-    playPhoneme(sound, { thenKeyword: true, onDone: () => setPlaying(null) })
+    // thenKeyword: false — keyword already visible on screen; avoids double-audio
+    // for centering diphthongs (ɪə/eə/ʊə) whose audio IS the keyword word
+    playPhoneme(sound, { thenKeyword: false, onDone: () => setPlaying(null) })
   }
 
   if (loading) return (
