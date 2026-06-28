@@ -2800,6 +2800,343 @@
       ]
     },
     {
+      "id": "word-skills",
+      "titleVi": "Đọc từ thông minh",
+      "emoji": "📖",
+      "bg": "bg-violet-50",
+      "gradient": "from-violet-500 to-indigo-600",
+      "border": "border-violet-300",
+      "text": "text-violet-700",
+      "btn": "bg-violet-600",
+      "bar": "from-violet-400 to-indigo-500",
+      "lessons": [
+        {
+          "id": "ipa-dictionary",
+          "type": "rule",
+          "title": "Đọc từ điển IPA",
+          "subtitle": "Hiểu ký hiệu phát âm — tự tra được mọi từ",
+          "emoji": "📖",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "Nhấn âm tiết 1",
+              "condition": "ˈ xuất hiện ngay ĐẦU phiên âm → đọc to âm tiết ĐẦU TIÊN. VD: /ˈtiːtʃə/ = TEA-cher",
+              "tip": "teacher /ˈtiːtʃə/ · water /ˈwɔːtə/ · happy /ˈhæpi/ · window /ˈwɪndəʊ/ · summer /ˈsʌmə/",
+              "words": [
+                "teacher",
+                "water",
+                "happy",
+                "window",
+                "garden",
+                "summer",
+                "doctor",
+                "people",
+                "table",
+                "bottle",
+                "money",
+                "sister",
+                "better",
+                "letter",
+                "basket"
+              ]
+            },
+            {
+              "label": "Nhấn âm tiết 2",
+              "condition": "ˈ xuất hiện GIỮa phiên âm → đọc to âm tiết THỨ HAI. VD: /əˈɡen/ = a-GAIN",
+              "tip": "again /əˈɡen/ · before /bɪˈfɔː/ · today /təˈdeɪ/ · success /səkˈses/ · decide /dɪˈsaɪd/",
+              "words": [
+                "again",
+                "before",
+                "today",
+                "success",
+                "decide",
+                "return",
+                "enjoy",
+                "police",
+                "hotel",
+                "mistake",
+                "agree",
+                "prefer",
+                "begin",
+                "apart",
+                "because"
+              ]
+            },
+            {
+              "label": "Nhấn âm tiết 3+",
+              "condition": "ˈ xuất hiện gần CUỐI phiên âm → nhấn âm tiết THỨ BA hoặc sau. VD: /ˌʌndəˈstænd/ = un-der-STAND",
+              "tip": "understand /ˌʌndəˈstænd/ · afternoon /ˌɑːftəˈnuːn/ · entertain /ˌentəˈteɪn/ · seventeen /ˌsevnˈtiːn/",
+              "words": [
+                "understand",
+                "entertain",
+                "afternoon",
+                "seventeen",
+                "engineer",
+                "volunteer",
+                "recommend",
+                "introduce",
+                "overcome",
+                "represent",
+                "disappoint",
+                "interrupt",
+                "guarantee",
+                "contradict",
+                "comprehend"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sounds-vs-syllables",
+          "type": "rule",
+          "title": "Âm & Âm tiết",
+          "subtitle": "Đếm đúng số âm và số âm tiết trong từ",
+          "emoji": "🔢",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "1 âm tiết",
+              "condition": "Chỉ có 1 nguyên âm ÂM (vowel sound) → 1 nhịp đập. Nhiều chữ cái ≠ nhiều âm tiết!",
+              "tip": "strengths /strɛŋkθs/ = 8 âm, 1 âm tiết · knight /naɪt/ = 3 âm · clothes /kləʊðz/ = 4 âm",
+              "words": [
+                "strengths",
+                "through",
+                "knight",
+                "thought",
+                "bright",
+                "friends",
+                "world",
+                "scream",
+                "straight",
+                "clothes",
+                "glimpsed",
+                "drenched",
+                "splashed",
+                "squirmed",
+                "thrilled"
+              ]
+            },
+            {
+              "label": "2 âm tiết",
+              "condition": "Có 2 nguyên âm âm vị → 2 nhịp. Đếm bằng cách đặt tay dưới cằm: cằm chạm tay mỗi âm tiết.",
+              "tip": "water /ˈwɔː·tə/ · table /ˈteɪ·bl/ · garden /ˈɡɑː·dn/ · perfect /ˈpɜː·fɪkt/",
+              "words": [
+                "water",
+                "table",
+                "garden",
+                "carpet",
+                "finger",
+                "orange",
+                "fashion",
+                "magic",
+                "number",
+                "perfect",
+                "paper",
+                "thunder",
+                "seven",
+                "summer",
+                "sister"
+              ]
+            },
+            {
+              "label": "3 âm tiết",
+              "condition": "Có 3 nguyên âm âm vị → 3 nhịp. Chú ý: nhiều từ NGẮN hơn bạn nghĩ khi nói tự nhiên!",
+              "tip": "tomorrow /tə·ˈmɒ·rəʊ/ · beautiful /ˈbjuː·tɪ·fl/ · umbrella /ʌm·ˈbrel·ə/ · hospital /ˈhɒs·pɪ·tl/",
+              "words": [
+                "tomorrow",
+                "beautiful",
+                "umbrella",
+                "remember",
+                "hospital",
+                "telephone",
+                "however",
+                "Saturday",
+                "adventure",
+                "together",
+                "another",
+                "amazing",
+                "important",
+                "banana",
+                "example"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "silent-letters-extra",
+          "type": "rule",
+          "title": "Silent Letters — H · G · N/P",
+          "subtitle": "Các âm câm hay bị bỏ qua (ngoài K, B, W, GH, L, T)",
+          "emoji": "🤐",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "H câm",
+              "condition": "H câm trong: honest/hour/heir/honour (đầu từ) · rh- (rhyme, rhythm) · wh- (khi theo sau là e/a/i: when, where, what)",
+              "tip": "honest /ˈɒnɪst/ · hour /ˈaʊə/ · heir /eə/ · rhyme /raɪm/ · rhythm /ˈrɪðəm/ · when /wen/ · where /weə/",
+              "words": [
+                "honest",
+                "honour",
+                "hour",
+                "heir",
+                "rhyme",
+                "rhythm",
+                "rhetoric",
+                "when",
+                "where",
+                "what",
+                "which",
+                "while",
+                "wheat",
+                "exhaust",
+                "exhibition"
+              ]
+            },
+            {
+              "label": "G câm",
+              "condition": "G câm trong: gn- (đầu từ: gnome, gnat) · -ign · -gn · -eign (cuối/giữa: sign, foreign, reign, campaign)",
+              "tip": "sign /saɪn/ · design /dɪˈzaɪn/ · foreign /ˈfɒrɪn/ · gnome /nəʊm/ · gnat /næt/ · reign /reɪn/ · campaign /kæmˈpeɪn/",
+              "words": [
+                "sign",
+                "design",
+                "foreign",
+                "gnome",
+                "gnat",
+                "reign",
+                "campaign",
+                "align",
+                "benign",
+                "assign",
+                "malign",
+                "consign",
+                "resign",
+                "champagne",
+                "cologne"
+              ]
+            },
+            {
+              "label": "N câm / P câm",
+              "condition": "N câm sau M trong -mn (autumn, column, condemn) · P câm trong ps- và pn- (psychology, pneumonia) và một số từ khác",
+              "tip": "autumn /ˈɔːtəm/ · column /ˈkɒləm/ · condemn /kənˈdem/ · hymn /hɪm/ · psychology /saɪˈkɒlədʒi/ · receipt /rɪˈsiːt/",
+              "words": [
+                "autumn",
+                "column",
+                "condemn",
+                "hymn",
+                "solemn",
+                "psychology",
+                "receipt",
+                "raspberry",
+                "pneumonia",
+                "damn",
+                "psalm",
+                "pseudo",
+                "cupboard",
+                "corps",
+                "sapphire"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mispronounced",
+          "type": "rule",
+          "title": "Từ hay phát âm sai",
+          "subtitle": "Những từ quen mà IELTS candidates hay đọc sai",
+          "emoji": "⚠️",
+          "games": [
+            "sort-rule"
+          ],
+          "masteryGames": [
+            "sort-rule"
+          ],
+          "buckets": [
+            {
+              "label": "Ít âm tiết hơn nghĩ",
+              "condition": "Những từ này NGẮN hơn cách viết gợi ý. Đọc tự nhiên = giảm 1 âm tiết (hoặc hơn)!",
+              "tip": "chocolate /ˈtʃɒk·lɪt/ (3) · comfortable /ˈkʌmf·tə·bl/ (3) · vegetable /ˈvedʒ·tə·bl/ (3) · Wednesday /ˈwenz·deɪ/ (2) · different /ˈdɪf·rənt/ (2)",
+              "words": [
+                "chocolate",
+                "comfortable",
+                "vegetable",
+                "Wednesday",
+                "different",
+                "interesting",
+                "every",
+                "temperature",
+                "business",
+                "government",
+                "generally",
+                "camera",
+                "history",
+                "library",
+                "February"
+              ]
+            },
+            {
+              "label": "Nhấn sai âm tiết",
+              "condition": "Vị trí nhấn không theo trực giác — thường học sinh nhấn âm tiết đầu trong khi đúng phải nhấn âm tiết thứ 2 hoặc 3.",
+              "tip": "pho·TOG·ra·phy (2nd) ≠ PHO·to·graph (1st) · e·CON·o·my (2nd) · pro·NUN·ci·a·tion (3rd) · cer·TIF·i·cate (2nd)",
+              "words": [
+                "photography",
+                "economy",
+                "pronunciation",
+                "environment",
+                "certificate",
+                "ability",
+                "community",
+                "discovery",
+                "relationship",
+                "electricity",
+                "technology",
+                "communication",
+                "opportunity",
+                "development",
+                "possibility"
+              ]
+            },
+            {
+              "label": "Nguyên âm đọc sai",
+              "condition": "Nguyên âm phát âm hoàn toàn khác với cách viết. Không thể đoán được — phải tra từ điển!",
+              "tip": "colonel /ˈkɜːnl/ · women /ˈwɪmɪn/ · said /sed/ · friend /frend/ · blood /blʌd/ · busy /ˈbɪzi/ · tough /tʌf/",
+              "words": [
+                "colonel",
+                "women",
+                "said",
+                "friend",
+                "blood",
+                "busy",
+                "tough",
+                "cough",
+                "though",
+                "island",
+                "people",
+                "says",
+                "debt",
+                "doubt",
+                "salmon"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rules",
       "title": "Pronunciation Rules",
       "titleVi": "Quy tắc phát âm",
