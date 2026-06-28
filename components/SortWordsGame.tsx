@@ -186,7 +186,7 @@ export default function SortWordsGame({ group, childId, backUrl }: { group: Grou
           )}
         </div>
 
-        {/* Two phoneme buckets */}
+        {/* Two phoneme buckets — IPA only while choosing; reveal after answer */}
         {(phase === 'choosing' || phase === 'result') && (
           <div className="grid grid-cols-2 gap-4 w-full">
             {q.pair.sounds.map((sound, i) => {
@@ -194,15 +194,17 @@ export default function SortWordsGame({ group, childId, backUrl }: { group: Grou
               const isSelected = selected === i
               const showResult = phase === 'result'
               let cls = 'bg-white border-2 border-amber-200 active:scale-95'
-              if (showResult && isCorrect)             cls = 'bg-green-50 border-2 border-green-400'
+              if (showResult && isCorrect)                cls = 'bg-green-50 border-2 border-green-400'
               if (showResult && isSelected && !isCorrect) cls = 'bg-red-50 border-2 border-red-400'
               return (
                 <button key={sound.symbol} onClick={() => handleChoose(i)} disabled={phase === 'result'}
                   className={`${cls} rounded-2xl p-5 text-center transition-all flex flex-col items-center gap-2`}>
-                  <span className="text-4xl">{sound.emoji}</span>
-                  <span className="font-black text-2xl text-amber-700 font-mono">/{sound.symbol}/</span>
-                  <span className="text-sm font-bold text-gray-600">{sound.keyword}</span>
-                  {showResult && isCorrect && <span className="text-green-500 text-xs font-black">✓ Đúng</span>}
+                  {showResult && <span className="text-4xl">{sound.emoji}</span>}
+                  <span className={`font-black font-mono ${showResult ? 'text-2xl' : 'text-4xl py-2'} ${showResult && isCorrect ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                    /{sound.symbol}/
+                  </span>
+                  {showResult && <span className="text-sm font-bold text-gray-600">{sound.keyword}</span>}
+                  {showResult && isCorrect    && <span className="text-green-500 text-xs font-black">✓ Đúng</span>}
                   {showResult && isSelected && !isCorrect && <span className="text-red-400 text-xs font-black">✗ Sai</span>}
                 </button>
               )

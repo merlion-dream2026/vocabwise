@@ -251,7 +251,7 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
           )}
         </div>
 
-        {/* Choice buttons */}
+        {/* Choice buttons — only IPA symbol shown while choosing; reveal after answer */}
         {(phase === 'choosing' || phase === 'result') && (
           <div className={`grid gap-3 w-full ${q.choices.length === 2 ? 'grid-cols-2' : q.choices.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`}>
             {q.choices.map(sound => {
@@ -259,16 +259,19 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
               const isSelected = selected?.symbol === sound.symbol
               const showResult = phase === 'result'
               let bg = 'bg-white border-2 border-amber-200 active:scale-95'
-              if (showResult && isAnswer)             bg = 'bg-green-50 border-2 border-green-400'
+              if (showResult && isAnswer)                bg = 'bg-green-50 border-2 border-green-400'
               if (showResult && isSelected && !isAnswer) bg = 'bg-red-50 border-2 border-red-400'
               return (
                 <button key={sound.symbol} onClick={() => handleChoose(sound)}
                   disabled={phase === 'result'}
                   className={`${bg} rounded-2xl p-4 text-center transition-all`}>
-                  <div className="text-4xl mb-1">{sound.emoji}</div>
-                  <div className="text-xl font-black text-amber-700 font-mono">/{sound.symbol}/</div>
-                  <div className="text-sm font-bold text-gray-600">{sound.keyword}</div>
-                  {showResult && isAnswer && <div className="text-green-500 text-xs font-black mt-1">✓ Đúng</div>}
+                  {/* Reveal emoji + keyword only after answered */}
+                  {showResult && <div className="text-3xl mb-1">{sound.emoji}</div>}
+                  <div className={`font-black font-mono ${showResult ? 'text-xl' : 'text-3xl py-2'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                    /{sound.symbol}/
+                  </div>
+                  {showResult && <div className="text-sm font-bold text-gray-600 mt-0.5">{sound.keyword}</div>}
+                  {showResult && isAnswer    && <div className="text-green-500 text-xs font-black mt-1">✓ Đúng</div>}
                   {showResult && isSelected && !isAnswer && <div className="text-red-400 text-xs font-black mt-1">✗ Sai</div>}
                 </button>
               )
