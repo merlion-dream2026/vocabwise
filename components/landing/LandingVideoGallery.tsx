@@ -21,6 +21,12 @@ const VIDEOS = [
     title: 'Bé Tim hoàn thành chủ đề',
     tag: '🏆 Chiến thắng sau 3 game',
   },
+  {
+    src: '/videos/demo%20game%20sap%20xep%20cau%20(Tim).mp4',
+    poster: '/screenshots/demo%20game%20sap%20xep%20cau.jpg',
+    title: 'Bé Tim chơi Sắp xếp câu',
+    tag: '📝 Xây câu hoàn chỉnh',
+  },
 ]
 
 export default function LandingVideoGallery() {
@@ -31,7 +37,7 @@ export default function LandingVideoGallery() {
       <div className="max-w-7xl mx-auto pb-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
         <p className="text-gray-400 text-sm text-center mb-5 px-4">Video thật · Các bé đang học</p>
-        <div className="flex gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-3 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
+        <div className="flex gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-4 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {VIDEOS.map((v, i) => (
             <button key={i} onClick={() => setActiveVideo(v.src)}
               className="flex-none snap-center w-[150px] lg:w-auto text-left group active:scale-95 transition-transform">

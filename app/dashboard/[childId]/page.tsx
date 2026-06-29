@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
+import ModuleCard from '@/components/ModuleCard'
 
 
 const KID_FAQ = [
@@ -86,45 +87,6 @@ type Child = { id: string; name: string; emoji: string; level: string }
 type SyncByLevel = Record<string, SyncLevel>
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
-function PhonicsEntryCard({ childId, syncByLevel }: { childId: string; syncByLevel: SyncByLevel }) {
-  const router = useRouter()
-  const phonics = getPhonicsProgress(syncByLevel['phonics'])
-  const pct = phonics.total > 0 ? Math.round((phonics.mastered / phonics.total) * 100) : 0
-
-  return (
-    <button
-      onClick={() => router.push(`/dashboard/${childId}/phonics`)}
-      className="w-full text-left bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
-    >
-      <div className="flex items-center gap-3">
-        <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-3xl shadow-sm flex-shrink-0">
-          🔤
-        </div>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 flex-wrap mb-0.5">
-            <span className="font-black text-amber-700 text-base">Phonics</span>
-            <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IPA</span>
-          </div>
-          <p className="text-xs font-semibold text-amber-600">
-            {phonics.seen === 0
-              ? `${phonics.total} bài · Nguyên âm · Phụ âm · Khó với người Việt`
-              : `${phonics.seen}/${phonics.total} bài (${Math.floor(phonics.seen / phonics.total * 100)}%)`
-            }
-          </p>
-        </div>
-        <span className="text-amber-600 font-black text-lg flex-shrink-0">→</span>
-      </div>
-      {phonics.mastered > 0 && (
-        <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
-          <div
-            className="h-full bg-gradient-to-r from-amber-400 to-orange-400 rounded-full transition-all duration-500"
-            style={{ width: `${Math.max(pct, 2)}%` }}
-          />
-        </div>
-      )}
-    </button>
-  )
-}
 
 export default function ChildRoadmap() {
   const router = useRouter()
@@ -155,11 +117,10 @@ export default function ChildRoadmap() {
     </div>
   )
 
-  // Progress aggregates (consistent with kids profile card)
-  const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
+  // Progress aggregates
+  const phonics  = getPhonicsProgress(syncByLevel['phonics'])
   const allDaily = getAllDailyProgress(syncByLevel)
   const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
-  const kidsStarted = allDaily.seenWords > 0
 
   // Daily missions
   const todayStr = new Date().toISOString().split('T')[0]
@@ -256,58 +217,41 @@ export default function ChildRoadmap() {
       </div>
 
       <div className="space-y-3 max-w-lg mx-auto">
-
-        {/* Section 1: Luyện Phát Âm */}
-        <PhonicsEntryCard childId={childId} syncByLevel={syncByLevel} />
-
-        {/* Section 2: VocabWise Daily */}
-        <button
+        <ModuleCard
+          onClick={() => router.push(`/dashboard/${childId}/phonics`)}
+          icon="🔤"
+          title="Phonics"
+          badge="IPA"
+          description="Học phát âm chuẩn IPA quốc tế · Âm lẻ · Từ · Câu"
+          mastered={phonics.mastered}
+          total={phonics.total}
+          unit="bài"
+          scheme="amber"
+        />
+        <ModuleCard
           onClick={() => router.push(`/dashboard/${childId}/kids`)}
-          className="w-full text-left bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
-        >
-          <div className="flex items-center gap-3">
-            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-3xl shadow-sm flex-shrink-0">
-              📚
-            </div>
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                <span className="font-black text-purple-700 text-base">Daily</span>
-                <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">Pre-A1 → C2</span>
-              </div>
-              <p className="text-xs font-semibold text-purple-600">
-                {kidsStarted
-                  ? `${allDaily.topicsCompleted}/${allDaily.totalTopics} chủ đề (${pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · ${allDaily.seenWords}/${allDaily.totalWords} từ (${pf(allDaily.seenWords, allDaily.totalWords)}%)`
-                  : '180 chủ đề · 4.500+ từ · 6 cấp độ CEFR'}
-              </p>
-            </div>
-            <span className="text-purple-500 font-black text-lg flex-shrink-0">→</span>
-          </div>
-        </button>
-
-        {/* Section 3: VocabWise Academic */}
-        <button
+          icon="📚"
+          title="Daily"
+          badge="Pre-A1 → C2"
+          description="Từ vựng hàng ngày · 180 chủ đề · ~2.400 từ · Pre-A1 → C2"
+          mastered={allDaily.topicsCompleted}
+          total={allDaily.totalTopics}
+          unit="chủ đề"
+          secondary={`${allDaily.seenWords}/${allDaily.totalWords} từ`}
+          scheme="purple"
+        />
+        <ModuleCard
           onClick={() => { localStorage.setItem('vw_active_child', childId); router.push('/vocabwise') }}
-          className="w-full text-left bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 shadow-sm active:scale-95 transition-transform duration-150"
-        >
-          <div className="flex items-center gap-3">
-            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-3xl shadow-sm flex-shrink-0">
-              🎓
-            </div>
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                <span className="font-black text-blue-700 text-base">VocabWise Academic</span>
-                <span className="text-xs text-gray-400 font-semibold bg-white/60 px-1.5 py-0.5 rounded-md">IELTS · SAT</span>
-              </div>
-              <p className="text-xs font-semibold text-blue-600">
-                {allAcad.completed > 0
-                  ? `${allAcad.completed}/${allAcad.total} chủ đề (${pf(allAcad.completed, allAcad.total)}%) · ${allAcad.seenWords}/${allAcad.totalWords} từ (${pf(allAcad.seenWords, allAcad.totalWords)}%)`
-                  : 'Từ vựng học thuật · Passage · 5 dạng bài tập · B1 → C2'}
-              </p>
-            </div>
-            <span className="text-blue-600 font-black text-lg flex-shrink-0">→</span>
-          </div>
-        </button>
-
+          icon="🎓"
+          title="VocabWise Academic"
+          badge="IELTS · SAT"
+          description="Từ vựng học thuật · 180 chủ đề · ~2.700 từ · A1 → C2"
+          mastered={allAcad.completed}
+          total={allAcad.total}
+          unit="chủ đề"
+          secondary={`${allAcad.seenWords}/${allAcad.totalWords} từ`}
+          scheme="blue"
+        />
       </div>
 
       {/* Learning history */}
