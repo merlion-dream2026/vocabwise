@@ -37,23 +37,19 @@ export default function LandingVideoGallery() {
       <div className="max-w-7xl mx-auto pb-4">
         <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
         <p className="text-gray-400 text-sm text-center mb-5 px-4">Video thật · Các bé đang học</p>
-        <div className="flex gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-4 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
+        <div className="flex items-start gap-3 overflow-x-auto pb-3 px-4 snap-x snap-mandatory lg:overflow-visible lg:grid lg:grid-cols-4 lg:pb-0 lg:gap-6" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {VIDEOS.map((v, i) => (
             <button key={i} onClick={() => setActiveVideo(v.src)}
               className="flex-none snap-center w-[150px] lg:w-auto text-left group active:scale-95 transition-transform">
               <div className="relative rounded-[20px] border-[3px] border-gray-800 bg-gray-900 overflow-hidden shadow-xl h-[268px] lg:h-auto lg:aspect-[9/16]">
                 <Image src={v.poster} alt={v.title} fill className="object-cover object-top" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-14 h-14 lg:w-20 lg:h-20 bg-white/90 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 group-active:scale-90 transition-transform">
                     <span className="text-2xl lg:text-3xl ml-1">▶</span>
                   </div>
                 </div>
-                <div className="absolute bottom-2 left-2 right-2 lg:bottom-4 lg:left-4">
-                  <span className="text-xs lg:text-sm font-black text-white/90 bg-black/40 px-2 py-0.5 rounded-full">{v.tag}</span>
-                </div>
               </div>
-              <p className="text-xs lg:text-sm font-black text-gray-700 mt-2 leading-snug px-0.5">{v.title}</p>
+              <p className="text-xs lg:text-sm font-black text-gray-700 mt-2 leading-snug px-0.5 h-10 lg:h-12 overflow-hidden">{v.title}</p>
             </button>
           ))}
         </div>

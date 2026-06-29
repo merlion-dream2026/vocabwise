@@ -77,7 +77,7 @@ export default function RegisterPage() {
           <h1 className="text-2xl font-black text-gray-800">Tạo tài khoản miễn phí</h1>
           <p className="text-gray-400 text-sm font-semibold mt-1">Thử miễn phí 7 ngày, không cần cài app</p>
           <div className="flex flex-wrap justify-center gap-1.5 mt-2">
-            <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 4.500+ từ vựng</span>
+            <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 5.100+ từ vựng</span>
             <span className="text-xs bg-rose-100 text-rose-700 font-bold px-2.5 py-1 rounded-full">🎤 Phát âm AI</span>
             <span className="text-xs bg-amber-100 text-amber-700 font-bold px-2.5 py-1 rounded-full">🔤 Học IPA</span>
             <span className="text-xs bg-blue-100 text-blue-700 font-bold px-2.5 py-1 rounded-full">🎓 Academic IELTS/SAT</span>
@@ -142,6 +142,9 @@ export default function RegisterPage() {
                   onInput={e => (e.target as HTMLInputElement).setCustomValidity('')}
                   placeholder="Tối thiểu 6 ký tự"
                   autoComplete="new-password"
+                  autoCorrect="off"
+                  autoCapitalize="none"
+                  spellCheck={false}
                   className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
                 />
                 <button type="button" onClick={() => setShowPw(v => !v)}
@@ -159,6 +162,9 @@ export default function RegisterPage() {
                 onInput={e => (e.target as HTMLInputElement).setCustomValidity('')}
                 placeholder="Nhập lại mật khẩu"
                 autoComplete="new-password"
+                autoCorrect="off"
+                autoCapitalize="none"
+                spellCheck={false}
                 className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               />
             </div>
@@ -186,7 +192,7 @@ export default function RegisterPage() {
             <p className="font-black text-gray-800 text-sm">Muốn học không giới hạn ngay?</p>
           </div>
           <ul className="space-y-1 text-xs font-semibold text-gray-600 mb-3">
-            <li>✅ Toàn bộ 4.500+ từ · Daily &amp; Academic</li>
+            <li>✅ Toàn bộ 5.100+ từ · Daily &amp; Academic</li>
             <li>✅ Luyện phát âm AI không giới hạn</li>
             <li>✅ Lưu từ &amp; ôn SRS không giới hạn</li>
           </ul>

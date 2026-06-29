@@ -19,7 +19,7 @@ const SECTIONS = [
     title: 'VocabWise Daily',
     badge: '5–15 tuổi',
     badgeCls: 'bg-purple-100 text-purple-700',
-    desc: '4.500+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
+    desc: '2.400+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
     available: true,
     cardCls: 'border-purple-200 bg-purple-50/50',
     accentCls: 'text-purple-600',
@@ -64,7 +64,7 @@ const MODULE_CARDS = [
     accent: 'text-purple-700',
     features: [
       { icon: '🌱', text: '6 cấp độ CEFR: Pre-A1 → C1-C2 (Seeker → Master)' },
-      { icon: '📖', text: '4.500+ từ vựng chọn lọc, 30 chủ đề/cấp độ' },
+      { icon: '📖', text: '2.400+ từ vựng chọn lọc, 30 chủ đề/cấp độ' },
       { icon: '🎮', text: '10 trò chơi tương tác: Flashcard · Nghe · Đánh vần...' },
       { icon: '🎵', text: 'Mini story audio — nghe chuyện có chứa từ vựng' },
       { icon: '⭐', text: 'Từ của tôi — lưu từ yêu thích, tự tạo bộ ôn tập (Free: 20 từ)' },
@@ -108,7 +108,7 @@ const MODULE_CARDS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 4.500+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10–11 trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 2.400+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10–11 trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module Phonics là gì?',
@@ -144,12 +144,12 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 4.500+ từ · 10–11 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 2.400+ từ · 10–11 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 
 const FEATURES = [
-  { emoji: '📖', label: '4.500+ từ vựng', desc: 'Chọn lọc theo khung CEFR — Daily & Academic', color: 'border-blue-200' },
+  { emoji: '📖', label: '5.100+ từ vựng', desc: 'Daily 2.400+ · Academic 2.700+ · Chọn lọc theo CEFR', color: 'border-blue-200' },
   { emoji: '🌱', label: '6 cấp độ CEFR', desc: 'Pre-A1 → C1-C2 (Seeker → Master)', color: 'border-green-200' },
   { emoji: '🎮', label: '10+ trò chơi', desc: 'Flashcard, nghe, đánh vần, đọc to...', color: 'border-orange-200' },
   { emoji: '🎤', label: 'Phát âm cùng AI ✨', desc: 'Bé phát âm, AI chấm điểm ngay lập tức', color: 'border-pink-200' },
@@ -293,7 +293,7 @@ export default function LandingPage() {
             <p className="text-xs text-gray-400 mt-0.5 mb-2.5">59k/tháng</p>
             <ul className="text-xs md:text-sm text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
-              <li>✅ 4.500+ từ</li>
+              <li>✅ 5.100+ từ vựng</li>
               <li>✅ AI phát âm<br/><span className="text-gray-400">30 lần/ngày</span></li>
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
@@ -346,7 +346,7 @@ export default function LandingPage() {
         <div className="mt-3 bg-purple-50 rounded-2xl p-3">
           <p className="text-xs font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
           <div className="flex flex-wrap gap-1.5">
-            {['📚 Daily: 180 chủ đề · 4.500+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '⭐ Từ của tôi không giới hạn', '🔁 SRS ôn từ yếu không giới hạn', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
+            {['📚 Daily: 180 chủ đề · 2.400+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '⭐ Từ của tôi không giới hạn', '🔁 SRS ôn từ yếu không giới hạn', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
               <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</span>
             ))}
           </div>

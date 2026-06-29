@@ -158,6 +158,9 @@ function LoginForm() {
                 placeholder="••••••••"
                 required
                 autoComplete="current-password"
+                autoCorrect="off"
+                autoCapitalize="none"
+                spellCheck={false}
               />
               <button
                 type="button"
