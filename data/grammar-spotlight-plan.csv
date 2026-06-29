@@ -1,0 +1,181 @@
+book,topic_id,topic_title,grammar_point,vi_grammar_point,level
+1,b1-t01,Home & Family,Possessives ('s and possessive adjectives),Sở hữu cách và tính từ sở hữu,A1
+1,b1-t02,Daily Routine,Frequency adverbs (always/usually/often/sometimes/never),Trạng từ tần suất và vị trí trong câu,A1
+1,b1-t03,Food & Meals,Countable and uncountable nouns,Danh từ đếm được và không đếm được,A1
+1,b1-t04,Shopping,Comparative adjectives (cheaper / more expensive),Tính từ so sánh hơn,A1
+1,b1-t05,Clothes & Getting Dressed,Adjective order (size → colour → material),Trật tự tính từ trước danh từ,A1
+1,b1-t06,Health & Body,Should / Shouldn't (giving advice),Should / Shouldn't — đưa ra lời khuyên,A1
+1,b1-t07,Sports & Activities,Can / Can't (ability),Can / Can't — diễn đạt khả năng,A1
+1,b1-t08,Free Time & Hobbies,Verb + -ing (like / love / enjoy / hate),Động từ theo sau bởi V-ing,A1
+1,b1-t09,Transport & Getting Around,Prepositions of movement (to / from / along / through),Giới từ chỉ hướng và sự di chuyển,A1
+1,b1-t10,Weather & Seasons,Present Simple for facts and general truths,Hiện tại đơn — sự thật và sự thật tổng quát,A1
+1,b1-t11,Animals & Pets,Have / Has got,Have got / Has got — diễn đạt sở hữu,A1
+1,b1-t12,Nature & Countryside,There is / There are,There is / There are — diễn đạt sự tồn tại,A1
+1,b1-t13,My Street & Neighbourhood,Prepositions of place (in / on / at / next to / opposite),Giới từ chỉ vị trí,A1
+1,b1-t14,Countries & Travel,Past Simple — regular verbs (-ed),Quá khứ đơn — động từ có quy tắc,A1
+1,b1-t15,Parks & Green Spaces,Articles (a / an / the / zero article),Mạo từ a / an / the và mạo từ zero,A1
+1,b1-t16,Technology & Devices,Present Continuous (actions happening now),Hiện tại tiếp diễn — hành động đang xảy ra,A1
+1,b1-t17,School & Learning,Must / Mustn't (rules and obligations),Must / Mustn't — quy tắc và nghĩa vụ,A1
+1,b1-t18,Jobs & Work,Present Simple for routines and professions,Hiện tại đơn — thói quen và nghề nghiệp,A1
+1,b1-t19,Food Around the World,Some / Any,Some / Any — lượng từ cơ bản,A2
+1,b1-t20,Celebrations & Special Days,Going to (future plans),Going to — diễn đạt kế hoạch tương lai,A2
+1,b1-t21,Friends & Friendship,Object pronouns (me / him / her / us / them),Đại từ tân ngữ,A2
+1,b1-t22,Feelings & Emotions,Linking verbs (look / feel / seem / sound + adjective),Động từ nối theo sau bởi tính từ,A2
+1,b1-t23,Describing People (Appearance),Superlatives (the tallest / the most beautiful),Tính từ so sánh nhất,A2
+1,b1-t24,Family Relationships,Plural nouns — regular and irregular,Danh từ số nhiều — có quy tắc và bất quy tắc,A2
+1,b1-t25,Meeting People,Question words (who / what / where / when / why / how),Từ để hỏi,A2
+1,b1-t26,Community & Neighbours,Relative clauses with who / which (basic),Mệnh đề quan hệ cơ bản với who / which,A2
+1,b1-t27,A Birthday Party,Past Simple — irregular verbs,Quá khứ đơn — động từ bất quy tắc,A2
+1,b1-t28,Children & Growing Up,Used to (past habits and states),Used to — thói quen và trạng thái trong quá khứ,A2
+1,b1-t29,People I Know,Present Perfect — basic (have/has + past participle),Hiện tại hoàn thành cơ bản,A2
+1,b1-t30,Being a Good Friend,Should vs Ought to (moral advice),Should vs Ought to — lời khuyên về đạo đức,A2
+1,b1-t31,Classroom & School Life,Imperatives (instructions and commands),Câu mệnh lệnh — hướng dẫn và lệnh,A2
+1,b1-t32,Subjects & Lessons,Too / Enough (too hard / not easy enough),Too / Enough — quá ... / đủ ...,A2
+1,b1-t33,Reading & Writing,Conjunctions (and / but / because / so),Liên từ cơ bản,A2
+1,b1-t34,Numbers & Maths,Cardinal and ordinal numbers,Số đếm và số thứ tự,A2
+1,b1-t35,Exams & Tests,Will (future predictions and spontaneous decisions),Will — dự đoán và quyết định tức thì,A2
+1,b1-t36,Libraries & Books,Present Perfect with ever / never,Hiện tại hoàn thành với ever / never,A2
+1,b1-t37,Art & Creativity,Comparative and superlative review,Ôn tập so sánh hơn và so sánh nhất,A2
+1,b1-t38,Music & Performance,Make / Let + object + infinitive,Make / Let + tân ngữ + động từ nguyên thể,A2
+1,b1-t39,Simple Experiments at School,Sequencing linkers (first / then / next / after that / finally),Liên từ trình tự — sắp xếp các bước,A2
+1,b1-t40,My English Class,Prepositions of time (in / on / at),Giới từ chỉ thời gian,A2
+1,b1-t41,Cooking & Recipes,Imperatives in instructions and recipes,Câu mệnh lệnh trong hướng dẫn và công thức nấu ăn,A2
+1,b1-t42,Shopping & Markets,How much / How many (quantity questions),How much / How many — hỏi về số lượng,A2
+1,b1-t43,Sports Events & Competition,Past Continuous (was/were + -ing),Quá khứ tiếp diễn,A2
+1,b1-t44,A Day Trip,Past Simple + time expressions (yesterday / last week / ago),Quá khứ đơn với trạng từ chỉ thời gian,A2
+1,b1-t45,Accidents & Emergencies,Could / Couldn't (past ability),Could / Couldn't — khả năng trong quá khứ,A2
+1,b1-t46,Getting Ready,Reflexive pronouns (myself / yourself / himself...),Đại từ phản thân,A2
+1,b1-t47,Visiting Places,Wh- questions in the past tense,Câu hỏi Wh- ở thì quá khứ,A2
+1,b1-t48,Celebrations & Events,Will vs Going to (predictions vs plans),Will vs Going to — phân biệt dự đoán và kế hoạch,A2
+1,b1-t49,Problems & Solutions,First Conditional (If... will...),Câu điều kiện loại 1,A2
+1,b1-t50,Giving Directions,Prepositions of direction (turn left / go straight / past / over),Giới từ và cụm từ chỉ hướng,A2
+1,b1-t51,Saying Hello & Goodbye,Short answers (Yes I am / No I don't),Câu trả lời ngắn,A2
+1,b1-t52,Social Media & Online Life,Present Perfect with just / already / yet,Hiện tại hoàn thành với just / already / yet,A2
+1,b1-t53,At the Post Office,Modal verbs for requests (Could / Would you...?),Động từ khuyết thiếu cho yêu cầu lịch sự,A2
+1,b1-t54,Simple Stories & Books,Time clauses (when / before / after / as soon as),Mệnh đề thời gian,A2
+1,b1-t55,Asking for Help,Polite requests (Can / Could / Would you...? / May I...?),Các cách yêu cầu lịch sự,A2
+1,b1-t56,Phones & Messaging,Reported speech — basic (say and tell),Câu gián tiếp cơ bản với say và tell,A2
+1,b1-t57,Signs & Instructions,Passive voice — basic (is/are + past participle),Câu bị động cơ bản,A2
+1,b1-t58,Writing & Messages,Formal vs informal register,Văn phong trang trọng và thân mật,A2
+1,b1-t59,Likes & Dislikes,Would rather / Would prefer,Would rather / Would prefer — diễn đạt sở thích,A2
+1,b1-t60,Asking Questions,Yes/No and Wh- questions — full review,Ôn tập toàn bộ cấu trúc câu hỏi,A2
+2,b2-t01,Education Systems,Modal verbs for obligation (must / have to / need to),Động từ khuyết thiếu chỉ nghĩa vụ,B1
+2,b2-t02,Work & Career,Collocations with get (get a promotion / get fired),Collocation với get trong ngữ cảnh công việc,B1
+2,b2-t03,Health & Medicine,Passive voice — present and past,Câu bị động thì hiện tại và quá khứ,B1
+2,b2-t04,Law & Crime,Passive voice with modals (may be fined / could be arrested),Câu bị động với động từ khuyết thiếu,B1
+2,b2-t05,Government & Politics,Reported speech — verbs (say / tell / claim / argue),Câu gián tiếp với các động từ truyền đạt,B1
+2,b2-t06,Religion & Culture,Contrast linkers (although / even though / despite / in spite of),Liên từ đối lập và nhượng bộ,B1
+2,b2-t07,Equality & Everyday Life,Modal perfect (should have / could have / would have),Động từ khuyết thiếu hoàn thành,B1
+2,b2-t08,Using Social Media,Gerunds vs Infinitives (avoid posting vs choose to post),Danh động từ vs Động từ nguyên thể,B1
+2,b2-t09,City Life & Country Life,Comparatives (more...than / not as...as / less...than),Cấu trúc so sánh hơn nâng cao,B1
+2,b2-t10,Family & Generations,Used to / Would (past habits — B1 level),Used to / Would — thói quen quá khứ nâng cao,B1
+2,b2-t11,Climate Change,Cause and effect linkers (because of / due to / as a result of / therefore),Liên từ nhân quả,B1
+2,b2-t12,Energy & Resources,Present Perfect Passive (has/have been + past participle),Bị động thì hiện tại hoàn thành,B1
+2,b2-t13,Wildlife & Nature Conservation,Zero and First Conditional,Câu điều kiện loại 0 và loại 1,B1
+2,b2-t14,Stress & Mental Health,Wish + past simple (I wish I had more time),Wish + quá khứ đơn — ước muốn hiện tại,B1
+2,b2-t15,Water & Oceans,Relative clauses (which / that / where / whose),Mệnh đề quan hệ với which / that / where / whose,B1
+2,b2-t16,Space & Exploration,Future Continuous and Future Perfect,Tương lai tiếp diễn và tương lai hoàn thành,B1
+2,b2-t17,Everyday Technology,Phrasal verbs (set up / break down / run out of),Cụm động từ phổ biến,B1
+2,b2-t18,Medical Science,Passive with reporting verbs (It has been found that...),Bị động với động từ truyền đạt,B2
+2,b2-t19,Farming & Food Production,Quantifiers (all / most / some / few / no + noun),Lượng từ — mức độ và số lượng,B1
+2,b2-t20,Natural Disasters,Past Perfect (had + past participle),Quá khứ hoàn thành,B1
+2,b2-t21,Personal Finance,First and Second Conditional review,Ôn tập câu điều kiện loại 1 và loại 2,B1
+2,b2-t22,Business & Entrepreneurship,Gerunds as subjects and objects,Danh động từ làm chủ ngữ và tân ngữ,B1
+2,b2-t23,Global Trade,Complex noun phrases,Cụm danh từ phức tạp,B2
+2,b2-t24,Managing Money,Second Conditional (If I were... I would...),Câu điều kiện loại 2,B1
+2,b2-t25,Advertising & Marketing,Passive voice for objectivity and emphasis,Bị động để nhấn mạnh và diễn đạt khách quan,B2
+2,b2-t26,Work & Employment Issues,Third Conditional (If I had... I would have...),Câu điều kiện loại 3,B2
+2,b2-t27,Property & Housing,Defining vs Non-defining relative clauses,Mệnh đề quan hệ xác định và không xác định,B2
+2,b2-t28,Tourism & Hospitality,Question tags (isn't it? / don't they?),Câu hỏi đuôi,B1
+2,b2-t29,Media & Journalism,Reporting verbs (claim / argue / suggest / warn / deny),Động từ truyền đạt đa dạng,B2
+2,b2-t30,Shopping Habits,Adverbs of degree (extremely / fairly / quite / rather),Trạng từ chỉ mức độ,B1
+2,b2-t31,Visual Arts & Design,-ed vs -ing adjectives (interested vs interesting),Tính từ đuôi -ed và -ing,B1
+2,b2-t32,Music & Popular Culture,So / Such...that (emphasis),Cấu trúc so / such...that nhấn mạnh,B1
+2,b2-t33,Stories & Books,Narrative tenses (past simple / continuous / perfect together),Phối hợp các thì quá khứ trong tự sự,B1
+2,b2-t34,Film & Television,Cleft sentences — introduction (It is...that / What...is),Câu chẻ — cấu trúc nhấn mạnh,B2
+2,b2-t35,Languages Around the World,Both / Either / Neither,Both / Either / Neither — diễn đạt sự lựa chọn kép,B1
+2,b2-t36,Challenges in Education,Too / Enough with infinitive clauses,Too / Enough với mệnh đề nguyên thể,B1
+2,b2-t37,Sport & Competition,Collocations: do / play / go + sports,Collocation với do / play / go trong thể thao,B1
+2,b2-t38,Fashion & Identity,Reflexive vs emphatic pronouns,Đại từ phản thân và đại từ nhấn mạnh,B1
+2,b2-t39,Traditional Food & Cooking,Passive voice in process descriptions,Bị động mô tả quy trình,B1
+2,b2-t40,Cultural Celebrations,Advanced articles (the + unique/known concepts),Mạo từ nâng cao — dùng the với khái niệm xác định,B2
+2,b2-t41,Living Abroad,Wish / If only + past (regret and hypothetical),Wish / If only — hối tiếc và tình huống giả định,B2
+2,b2-t42,Helping People in Need,Verb patterns (agree to / suggest -ing / expect to),Cấu trúc động từ theo sau bởi to-inf hay V-ing,B1
+2,b2-t43,Rights & Responsibilities,Modal perfect (should have / must have / can't have),Động từ khuyết thiếu + have — suy luận về quá khứ,B2
+2,b2-t44,Getting Older,Comparative structures with quantifiers (twice as... / far more...),So sánh kết hợp với lượng từ,B2
+2,b2-t45,Being Young Today,Discourse markers (however / moreover / furthermore / on the other hand),Liên từ văn viết,B2
+2,b2-t46,Crime & Its Consequences,Third Conditional + passive combination,Câu điều kiện loại 3 kết hợp bị động,B2
+2,b2-t47,The Workplace Today,Reported questions (asked if / wanted to know what),Câu hỏi gián tiếp,B2
+2,b2-t48,Staying Healthy,Collocations with make / do / take / have,Collocations với make / do / take / have,B1
+2,b2-t49,Protecting the Environment,Nominalization — basic (pollute → pollution / develop → development),Danh hóa cơ bản — biến đổi từ loại,B2
+2,b2-t50,Cities & Population Growth,Introductory it (It is important that... / It is expected to...),Cấu trúc It is + adj + that / to-inf,B2
+2,b2-t51,Checking Information Online,Hedging language (tend to / appear to / seem to),Ngôn ngữ phòng ngừa — diễn đạt thận trọng,B2
+2,b2-t52,Privacy & Personal Data,Passive reporting structures (It is claimed / said / reported that...),Cấu trúc bị động với động từ truyền đạt,B2
+2,b2-t53,AI in Daily Life,Future passive (will be replaced / is going to be used),Bị động thì tương lai,B2
+2,b2-t54,Community Problems & Solutions,Cause-effect essay language (leads to / results in / is caused by),Ngôn ngữ nhân quả trong văn nghị luận,B2
+2,b2-t55,Science in Everyday Life,Impersonal passive + reporting verbs,Bị động phi nhân xưng,B2
+2,b2-t56,Screen Time & Digital Habits,Prepositional phrases as discourse connectors (In terms of / With regard to),Cụm giới từ làm liên từ văn viết,B2
+2,b2-t57,Work & Technology,Mixed conditionals — introduction,Câu điều kiện hỗn hợp — giới thiệu,B2
+2,b2-t58,Making Difficult Decisions,Concession clauses (although / while / even though / despite the fact that),Mệnh đề nhượng bộ,B2
+2,b2-t59,The World Getting Smaller,Compound adjectives (fast-growing / well-known / widely-used),Tính từ ghép,B2
+2,b2-t60,Discussing & Giving Opinions,Academic hedging and stance language,Ngôn ngữ lập trường trong học thuật,B2
+3,b3-t01,Education & Learning,Nominalization — advanced (educate → education; acquire → acquisition),Danh hóa nâng cao,C1
+3,b3-t02,Work & Career Challenges,Participle clauses — reason and result (Having failed... / Driven by...),Mệnh đề phân từ chỉ nguyên nhân và kết quả,C1
+3,b3-t03,Relationships & Modern Society,Inversion for emphasis (Rarely does... / Not only...but also...),Đảo ngữ nhấn mạnh,C1
+3,b3-t04,Family Structures & Change,Complex noun phrases (the rapid dissolution of traditional...),Cụm danh từ phức tạp,C1
+3,b3-t05,Gender & Society,Cleft sentences (It is...that... / What...is...),Câu chẻ — nhấn mạnh,C1
+3,b3-t06,Sport & Identity,Ellipsis and substitution (so do I / neither does she / the former),Tỉnh lược và thay thế trong văn viết,C1
+3,b3-t07,Travel & Cultural Exchange,Fronting — adverbials and objects (Only then did... / This idea we rejected),Đảo ngữ đầu câu — mệnh đề trạng ngữ và tân ngữ,C1
+3,b3-t08,Consumer Culture & Advertising,Passive reporting structures — advanced (It has been argued... / is believed to...),Bị động truyền đạt nâng cao,C1
+3,b3-t09,Social Media & Mental Health,Mixed conditionals (If I had taken... I would be...),Câu điều kiện hỗn hợp,C1
+3,b3-t10,Work-Life Balance & Wellbeing,Wish / If only + perfect (I wish I had chosen...),Wish + hoàn thành — hối tiếc quá khứ,C1
+3,b3-t11,Mental Health & Society,Epistemic modality (may / might / could / appear to / tend to),Phương tiện diễn đạt thái độ nhận thức,C1
+3,b3-t12,Stress & Coping Mechanisms,Participle clauses — contrast and concession,Mệnh đề phân từ chỉ đối lập và nhượng bộ,C1
+3,b3-t13,Healthcare Systems & Access,Impersonal passive + complex reporting (It is widely recognised that...),Bị động phi nhân xưng phức tạp,C1
+3,b3-t14,Happiness & Wellbeing Research,Noun + preposition collocations (access to / impact on / belief in),Collocation danh từ + giới từ,C1
+3,b3-t15,The Science of Habit & Behaviour,Adverbial clauses of condition (provided that / as long as / unless / on condition that),Mệnh đề điều kiện nâng cao,C1
+3,b3-t16,Food & Body Image,Adverbial clauses of contrast (whereas / while / despite the fact that),Mệnh đề đối lập và nhượng bộ nâng cao,C1
+3,b3-t17,Medical Science & Innovation,Future Perfect and Future Perfect Continuous,Tương lai hoàn thành và tương lai hoàn thành tiếp diễn,C1
+3,b3-t18,Space Exploration & Science,Embedded questions (I wonder whether... / The question is what...),Câu hỏi gián tiếp lồng ghép,C1
+3,b3-t19,The Ageing Population,Discourse markers for academic writing (Moreover / Nevertheless / Consequently / Notwithstanding),Liên từ học thuật cao cấp,C1
+3,b3-t20,Environmental Health & Climate,Conditional inversion (Were he to... / Had they... / Should it...),Đảo ngữ trong câu điều kiện,C2
+3,b3-t21,Technology & Everyday Life,Non-defining relative clauses and reduced relatives,Mệnh đề quan hệ không xác định và rút gọn,C1
+3,b3-t22,Artificial Intelligence & Society,Passive voice — full range (is being / will have been / might have been),Bị động — toàn dải thì và thể,C1
+3,b3-t23,Media & Trust,Reporting verbs — stance and attitude (concede / acknowledge / assert / dispute),Động từ truyền đạt thể hiện lập trường,C1
+3,b3-t24,Globalisation & Cultural Identity,Compound modifiers and binomials (well-established / fast-changing / trial and error),Tính từ ghép và cặp từ cố định,C1
+3,b3-t25,Crime & Punishment,Modal verbs — deduction and speculation (must have / can't have / might have),Động từ khuyết thiếu suy luận về quá khứ,C1
+3,b3-t26,Democracy & Civic Life,Subjunctive mood (It is essential that they be consulted),Thức giả định,C2
+3,b3-t27,Poverty & Social Welfare,Fronting for emphasis and cohesion,Đảo ngữ đầu câu phục vụ mạch lạc,C1
+3,b3-t28,Understanding the Economy,Abstract noun collocations (economic growth / fiscal policy / market forces),Collocation với danh từ trừu tượng,C1
+3,b3-t29,Migration & Belonging,Prepositions with abstract nouns (adapt to / integrate into / contribute to),Giới từ đi với danh từ trừu tượng,C1
+3,b3-t30,Leadership & Influence,Emphatic structures (do/did + verb / the very / absolutely),Cấu trúc nhấn mạnh,C1
+3,b3-t31,Critical Thinking & Logic,Logical connectors (thus / hence / consequently / nevertheless / by contrast),Liên từ logic trong lập luận,C1
+3,b3-t32,Research Methods & Academic Inquiry,Hedging with passive (It could be argued... / This suggests that...),Ngôn ngữ phòng ngừa kết hợp bị động,C1
+3,b3-t33,Academic Writing & Argumentation,Stance markers (arguably / it appears / may be said to),Marker lập trường trong học thuật,C2
+3,b3-t34,Memory & Cognition,Complex relative clauses (with whom / whose / of which),Mệnh đề quan hệ với whom / whose / of which,C1
+3,b3-t35,Cognitive Psychology,Apposition (a process known as... / the concept of... which refers to...),Đồng vị ngữ — giải thích trong cùng câu,C1
+3,b3-t36,Social Psychology,Parallel structures (not only...but also / both...and / either...or),Cấu trúc song song,C1
+3,b3-t37,Creativity & Innovation,Concessive clauses — advanced use (even though / however / for all that),Mệnh đề nhượng bộ nâng cao,C1
+3,b3-t38,Art & Meaning,Complex sentences with multiple subordination,Câu phức nhiều mệnh đề phụ,C2
+3,b3-t39,Philosophy of Science,Adverbial participle clauses — contrast and concession,Mệnh đề phân từ đối lập và nhượng bộ,C2
+3,b3-t40,Knowledge & Belief,It is + adjective + to vs Nominalization,It is + adj + to-inf so với Danh hóa,C1
+3,b3-t41,How Language Works,Metalinguistic grammar terms (syntax / morphology / clause / phrase),Thuật ngữ ngôn ngữ học trong ngữ pháp,C1
+3,b3-t42,Language Change & Variation,Passive constructions for process description,Bị động mô tả quá trình — nâng cao,C1
+3,b3-t43,Cross-cultural Communication,Conditionals in academic discourse (Were this to happen... / Should this occur...),Câu điều kiện đảo ngữ trong học thuật,C2
+3,b3-t44,Persuasion & Influence,Rhetorical structures (tricolon / anaphora / rhetorical question),Cấu trúc hùng biện,C2
+3,b3-t45,Media Literacy & Critical Reading,Advanced reporting verbs (allege / imply / infer / concede / refute),Động từ truyền đạt nâng cao C1,C1
+3,b3-t46,The Language of Power,Nominalization and grammatical metaphor,Danh hóa và ẩn dụ ngữ pháp,C2
+3,b3-t47,Academic Writing: Structure & Style,Cohesive devices — reference / substitution / ellipsis / conjunction,Phương tiện liên kết văn bản,C2
+3,b3-t48,Academic Writing: Critical Analysis,Complex hedging and qualification (to some extent / with some reservations),Phòng ngừa và hạn chế phức tạp,C2
+3,b3-t49,Storytelling & Narrative,Narrative grammar — flashback and foreshadowing (past perfect / was going to),Ngữ pháp tự sự — hồi ký và dự báo,C1
+3,b3-t50,Language & the Brain,Passive infinitives (appear to be / seem to have been / is thought to...),Động từ nguyên thể bị động,C1
+3,b3-t51,Applied Ethics,Subjunctive and unreal past (it is crucial that... / were this to be true...),Thức giả định và quá khứ phi thực,C2
+3,b3-t52,Bioethics & Medical Decisions,Modal perfect — deduction and criticism (should have been / need not have been),Động từ khuyết thiếu hoàn thành — nâng cao,C2
+3,b3-t53,Technology Ethics & Digital Rights,Future forms in discourse (is set to / is due to / is predicted to),Diễn đạt tương lai trong văn học thuật,C1
+3,b3-t54,Environmental Ethics,Conditional alternatives at C2 (Had it not been for... / Only if we act now will...),Câu điều kiện C2 — đảo ngữ và biến thể,C2
+3,b3-t55,The Future of Work,Future passive structures (will be automated / are expected to be replaced),Bị động tương lai phức tạp,C1
+3,b3-t56,Democracy & Crisis,Advanced discourse markers (notwithstanding / in so far as / by virtue of),Liên từ học thuật C2,C2
+3,b3-t57,Global Challenges & Collective Action,Complex conditionals — inversion and mixed,Câu điều kiện phức tạp — đảo ngữ và hỗn hợp,C2
+3,b3-t58,Identity & Belonging,Fronting and cleft sentences for focus and contrast,Đảo ngữ và câu chẻ phục vụ nhấn mạnh và đối lập,C2
+3,b3-t59,Consciousness & Mind,Complex stance expressions (It remains to be seen whether... / It is a moot point...),Diễn đạt lập trường phức tạp,C2
+3,b3-t60,The Future of Humanity,Cohesion toolkit review (reference / ellipsis / lexical chains / discourse markers),Ôn tập toàn bộ phương tiện liên kết văn bản,C2
