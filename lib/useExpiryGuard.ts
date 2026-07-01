@@ -43,9 +43,6 @@ export function useExpiryGuard(session: Session | null) {
     if (!session) return
     if (!isAccountExpired(session)) return
 
-    // Expired — logout and redirect
-    fetch('/api/auth/logout', { method: 'POST' }).finally(() => {
-      router.push('/login?expired=true')
-    })
+    router.push('/expired')
   }, [session, router])
 }

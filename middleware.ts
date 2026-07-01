@@ -18,6 +18,7 @@ const PUBLIC_PATHS = [
   '/superadmin',
   '/api/superadmin',
   '/onboarding',
+  '/expired',
 ]
 
 // Auth endpoint rate limits: [max, window seconds]
