@@ -373,7 +373,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {(explanations[word.word] || explaining.has(word.word)) && (
             <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
               <summary className="px-4 py-3 list-none cursor-pointer flex items-center justify-between">
-                <p className="text-xs font-black text-amber-600">✨ Giải nghĩa</p>
+                <p className="text-sm font-black text-amber-600">✨ Giải nghĩa</p>
                 <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
               </summary>
               <div className="px-4 pb-3 pt-1 border-t border-amber-200">

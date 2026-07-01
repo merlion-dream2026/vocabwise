@@ -523,7 +523,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.word && (
                         <details className="pt-1 group/explain">
                           <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-indigo-50 rounded-xl">
-                            <span className="text-xs font-black text-indigo-600">✨ Giải nghĩa</span>
+                            <span className="text-sm font-black text-indigo-600">✨ Giải nghĩa</span>
                             <span className="text-indigo-300 text-sm group-open/explain:rotate-180 transition-transform">▾</span>
                           </summary>
                           <div className="mt-2">
