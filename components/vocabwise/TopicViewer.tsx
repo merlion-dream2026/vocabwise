@@ -521,22 +521,27 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         </div>
                       )}
                       {!isCollocation && item.word && (
-                        <div className="pt-1">
-                          {(item.explanation_vi || explanations[item.word]) ? (
-                            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
-                              <p className="text-xs font-black text-indigo-600 mb-1.5">✨ Giải nghĩa</p>
-                              <p className="text-indigo-800 text-sm leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
-                            </div>
-                          ) : (
-                            <button
-                              onClick={() => explainWord(item)}
-                              disabled={explaining.has(item.word)}
-                              className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
-                            >
-                              {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
-                            </button>
-                          )}
-                        </div>
+                        <details className="pt-1 group/explain">
+                          <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-indigo-50 rounded-xl">
+                            <span className="text-xs font-black text-indigo-600">✨ Giải nghĩa</span>
+                            <span className="text-indigo-300 text-sm group-open/explain:rotate-180 transition-transform">▾</span>
+                          </summary>
+                          <div className="mt-2">
+                            {(item.explanation_vi || explanations[item.word]) ? (
+                              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
+                                <p className="text-indigo-800 text-sm leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
+                              </div>
+                            ) : (
+                              <button
+                                onClick={() => explainWord(item)}
+                                disabled={explaining.has(item.word)}
+                                className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
+                              >
+                                {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
+                              </button>
+                            )}
+                          </div>
+                        </details>
                       )}
                     </div>
                   </details>

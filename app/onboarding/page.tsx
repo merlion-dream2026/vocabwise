@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-type Section = 'kids' | 'academic' | null
+type Section = 'kids' | 'academic' | 'phonics' | null
 
 const STEPS = ['Chào mừng', 'Chọn phần học', 'Bắt đầu thôi!']
 
@@ -103,9 +103,27 @@ export default function OnboardingPage() {
                   <span className="text-4xl">📚</span>
                   <div>
                     <p className="font-black text-gray-800">VocabWise Academic</p>
-                    <p className="text-gray-400 text-xs mt-0.5">Dành cho teen & người lớn · A1 đến C2 · IELTS-ready</p>
+                    <p className="text-gray-400 text-xs mt-0.5">Dành cho teen & người lớn · A1 đến C2 · IELTS/SAT-ready</p>
                   </div>
                   {section === 'academic' && <span className="ml-auto text-indigo-500 text-xl">✓</span>}
+                </div>
+              </button>
+
+              <button
+                onClick={() => setSection('phonics')}
+                className={`w-full rounded-2xl border-2 p-4 text-left transition-all ${
+                  section === 'phonics'
+                    ? 'border-green-400 bg-green-50 shadow-md'
+                    : 'border-gray-200 bg-white hover:border-green-200'
+                }`}
+              >
+                <div className="flex items-center gap-4">
+                  <span className="text-4xl">🔊</span>
+                  <div>
+                    <p className="font-black text-gray-800">Luyện phát âm · Phonics IPA</p>
+                    <p className="text-gray-400 text-xs mt-0.5">Mọi lứa tuổi · 9 cấp độ · 57 bài · AI chấm phát âm</p>
+                  </div>
+                  {section === 'phonics' && <span className="ml-auto text-green-500 text-xl">✓</span>}
                 </div>
               </button>
             </div>
@@ -144,6 +162,12 @@ export default function OnboardingPage() {
                     { icon: '🎮', tip: 'Chơi ít nhất 3 game mỗi chủ đề để nhận 🏆' },
                     { icon: '🔄', tip: 'Ôn lại từ cũ trong Daily Review mỗi ngày' },
                   ]
+                : section === 'phonics'
+                ? [
+                    { icon: '🔊', tip: 'Học từng âm IPA chuẩn quốc tế · 9 cấp độ từ cơ bản đến nâng cao' },
+                    { icon: '🎤', tip: 'Luyện nói cùng AI — nhận điểm phát âm ngay lập tức' },
+                    { icon: '📈', tip: 'Hoàn thành bài học trước → mở khoá bài tiếp theo' },
+                  ]
                 : [
                     { icon: '📄', tip: 'Đọc passage → học glossary → làm bài tập' },
                     { icon: '⭐', tip: 'Đạt 80% → topic được đánh dấu "mastered"' },
@@ -162,7 +186,7 @@ export default function OnboardingPage() {
                 onClick={() => finish(section === 'academic' ? '/vocabwise' : '/kids')}
                 className="w-full bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-black text-lg py-4 rounded-2xl shadow-lg active:scale-95 transition-all"
               >
-                {section === 'academic' ? '📚 Vào VocabWise Academic' : '📖 Vào Daily'}
+                {section === 'academic' ? '📚 Vào VocabWise Academic' : section === 'phonics' ? '🔊 Vào Phonics IPA' : '📖 Vào Daily'}
               </button>
               <button
                 onClick={() => finish('/dashboard')}

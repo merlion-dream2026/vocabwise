@@ -369,21 +369,26 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             ))}
           </div>
 
-          {/* AI Explainer — auto-shown */}
-          <div className="w-full mt-3">
-            {explanations[word.word] ? (
-              <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-left">
-                <p className="text-xs font-black text-amber-600 mb-1">✨ Giải nghĩa</p>
-                <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+          {/* AI Explainer — collapsible */}
+          {(explanations[word.word] || explaining.has(word.word)) && (
+            <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
+              <summary className="px-4 py-3 list-none cursor-pointer flex items-center justify-between">
+                <p className="text-xs font-black text-amber-600">✨ Giải nghĩa</p>
+                <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
+              </summary>
+              <div className="px-4 pb-3 pt-1 border-t border-amber-200">
+                {explaining.has(word.word) ? (
+                  <>
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
+                  </>
+                ) : (
+                  <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+                )}
               </div>
-            ) : explaining.has(word.word) ? (
-              <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3">
-                <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
-                <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
-                <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
-              </div>
-            ) : null}
-          </div>
+            </details>
+          )}
         </div>
 
         {/* Navigation */}
