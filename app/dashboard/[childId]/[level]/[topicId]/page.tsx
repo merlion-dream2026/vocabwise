@@ -12,6 +12,10 @@ type MasteryData = { flashcard: boolean; games: string[] }
 type StoryBlank = { word: string; options: string[] }
 type ParsedExercise = { parts: string[]; blanks: StoryBlank[] }
 
+// Daily lesson sequences: easy → hard, 4 steps each
+const LESSON_STARTER  = ['flashcard', 'listen', 'match', 'spell']
+const LESSON_EXPLORER = ['flashcard', 'quiz', 'gapfill', 'typing']
+
 // Ordered easy → hard (row 1 = recognition, row 5 = synthesis/production)
 const STARTER_GAMES = [
   { key: 'flashcard',     label: 'Flashcard từ mới',  emoji: '📖' }, // row 1
@@ -106,6 +110,7 @@ export default function TopicPage() {
   const [speaking, setSpeaking] = useState(false)
   const [showFaq, setShowFaq] = useState(false)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  const [lessonMode, setLessonMode] = useState(true)
   const [showExercise, setShowExercise] = useState(false)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
@@ -221,6 +226,13 @@ export default function TopicPage() {
   const games = getGamesForLevel(level)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
   const isDone = mastery.flashcard && mastery.games.length >= 3
+  const isSimpleLevel = ['seeker', 'starter', 'ranger'].includes(level)
+  const lessonSteps = isSimpleLevel ? LESSON_STARTER : LESSON_EXPLORER
+  const allGamesFlat = [...STARTER_GAMES, ...EXPLORER_GAMES]
+  const lessonCurrentStep = lessonSteps.findIndex(g =>
+    g === 'flashcard' ? !mastery.flashcard : !mastery.games.includes(g)
+  )
+  const isLessonDone = lessonCurrentStep === -1
   const backUrl = `/dashboard/${childId}/${level}`
 
   const topicIdx = allTopics.findIndex((t: { id: string }) => t.id === topicId)
@@ -425,31 +437,108 @@ export default function TopicPage() {
           </div>
         )}
 
-        {/* Game grid */}
-        <div className="grid grid-cols-2 gap-3">
-          {games.map(game => {
-            const gameDone = game.key === 'flashcard' ? mastery.flashcard : mastery.games.includes(game.key)
-            const isAI = game.key === 'speak'
-            return (
-              <button key={game.key}
-                onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${game.key}`)}
-                className={`relative rounded-2xl px-3 py-3 flex items-center gap-3 shadow-sm active:scale-95 transition-all text-left ${
-                  isAI
-                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-lg hover:brightness-105'
-                    : 'bg-white hover:shadow-md'
-                }`}>
-                {gameDone && (
-                  <span className="absolute top-1.5 right-2 text-sm leading-none">⭐</span>
-                )}
-                {isAI && !gameDone && (
-                  <span className="absolute top-1.5 right-2 text-[10px] font-black bg-yellow-300 text-yellow-900 px-1.5 py-0.5 rounded-full leading-none">AI</span>
-                )}
-                <span className="text-3xl flex-shrink-0">{game.emoji}</span>
-                <p className={`font-bold text-sm leading-tight pr-6 ${isAI ? 'text-white' : 'text-gray-800'}`}>{game.label}</p>
+        {/* Lesson mode / Free mode toggle */}
+        {lessonMode ? (
+          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+            {/* Lesson header */}
+            <div className={`${colors.header} px-4 py-3`}>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-white font-black text-sm">📅 Bài học hôm nay</p>
+                  <p className="text-white/70 text-xs">~5 phút · 4 bước</p>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  {lessonSteps.map((_, i) => (
+                    <div key={i} className={`rounded-full transition-all ${
+                      i < (isLessonDone ? lessonSteps.length : lessonCurrentStep)
+                        ? 'w-2 h-2 bg-white'
+                        : i === lessonCurrentStep
+                        ? 'w-4 h-2 bg-white'
+                        : 'w-2 h-2 bg-white/30'
+                    }`} />
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Steps */}
+            <div className="divide-y divide-gray-50">
+              {lessonSteps.map((gameKey, i) => {
+                const gameInfo = allGamesFlat.find(g => g.key === gameKey)!
+                const done = isLessonDone || i < lessonCurrentStep
+                const active = !isLessonDone && i === lessonCurrentStep
+                const locked = !isLessonDone && i > lessonCurrentStep
+                return (
+                  <div key={gameKey} className={`flex items-center gap-3 px-4 py-3.5 transition-colors ${active ? 'bg-purple-50' : ''}`}>
+                    <span className={`text-2xl flex-shrink-0 ${locked ? 'opacity-25' : ''}`}>{gameInfo.emoji}</span>
+                    <div className="flex-1 min-w-0">
+                      <p className={`font-bold text-sm leading-tight ${locked ? 'text-gray-300' : 'text-gray-800'}`}>
+                        Bước {i + 1}: {gameInfo.label}
+                      </p>
+                    </div>
+                    {done && <span className="text-green-500 text-lg flex-shrink-0">✅</span>}
+                    {active && (
+                      <button
+                        onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${gameKey}`)}
+                        className={`flex-shrink-0 ${colors.header} text-white text-xs font-black px-4 py-2 rounded-full active:scale-95 transition-all`}
+                      >
+                        ▶ Bắt đầu
+                      </button>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+
+            {isLessonDone && (
+              <div className="px-4 py-4 bg-green-50 text-center border-t border-green-100">
+                <p className="font-black text-green-700 text-sm">🏆 Bài học hôm nay hoàn thành!</p>
+                <p className="text-xs text-gray-400 mt-0.5">Tiếp tục với chủ đề tiếp theo →</p>
+              </div>
+            )}
+
+            {/* Escape to free mode */}
+            <div className="border-t border-gray-100 px-4 py-3 text-center">
+              <button onClick={() => setLessonMode(false)} className="text-xs text-gray-400 font-semibold hover:text-gray-600 transition-colors">
+                🎮 Tự do chọn trò chơi
               </button>
-            )
-          })}
-        </div>
+            </div>
+          </div>
+        ) : (
+          /* Free pick mode */
+          <div className="space-y-3">
+            <button
+              onClick={() => setLessonMode(true)}
+              className={`w-full ${colors.header} text-white font-bold text-sm py-2.5 rounded-2xl opacity-80 hover:opacity-100 transition-all active:scale-95`}
+            >
+              📅 Quay lại bài học hôm nay
+            </button>
+            <div className="grid grid-cols-2 gap-3">
+              {games.map(game => {
+                const gameDone = game.key === 'flashcard' ? mastery.flashcard : mastery.games.includes(game.key)
+                const isAI = game.key === 'speak'
+                return (
+                  <button key={game.key}
+                    onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${game.key}`)}
+                    className={`relative rounded-2xl px-3 py-3 flex items-center gap-3 shadow-sm active:scale-95 transition-all text-left ${
+                      isAI
+                        ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-lg hover:brightness-105'
+                        : 'bg-white hover:shadow-md'
+                    }`}>
+                    {gameDone && (
+                      <span className="absolute top-1.5 right-2 text-sm leading-none">⭐</span>
+                    )}
+                    {isAI && !gameDone && (
+                      <span className="absolute top-1.5 right-2 text-[10px] font-black bg-yellow-300 text-yellow-900 px-1.5 py-0.5 rounded-full leading-none">AI</span>
+                    )}
+                    <span className="text-3xl flex-shrink-0">{game.emoji}</span>
+                    <p className={`font-bold text-sm leading-tight pr-6 ${isAI ? 'text-white' : 'text-gray-800'}`}>{game.label}</p>
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        )}
 
         {/* Mini Story */}
         {story && (
