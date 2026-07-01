@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -25,6 +26,7 @@ function buildTiles(word: string): Tile[] {
 }
 
 export default function SpellGame({ topic, level, backUrl }: Props) {
+  const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
@@ -44,6 +46,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
     if (done) {
       addScore(level, score * 2)
       if (score === total) recordPerfectGame(level, topic.id, 'spell')
+      saveStepScore(childId, topic.id, 'spell', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

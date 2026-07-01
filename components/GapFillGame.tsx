@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 
 
@@ -49,6 +50,7 @@ const levelCfg = {
 }
 
 export default function GapFillGame({ topic, level, backUrl }: Props) {
+  const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
@@ -67,6 +69,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
     if (done) {
       addScore(level, Math.round(score * 1.5))
       if (score === total) recordPerfectGame(level, topic.id, 'gapfill')
+      saveStepScore(childId, topic.id, 'gapfill', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

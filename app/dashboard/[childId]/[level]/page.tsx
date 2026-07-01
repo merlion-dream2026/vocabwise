@@ -82,7 +82,6 @@ export default function LevelTopicsPage() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [showBadgeGuide, setShowBadgeGuide] = useState(false)
   const [showXpGuide, setShowXpGuide] = useState(false)
-  const [showAllBadges, setShowAllBadges] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
   const [dlCount, setDlCount] = useState(0)
   const [downloadedTopics, setDownloadedTopics] = useState<Set<string>>(new Set())
@@ -293,58 +292,56 @@ export default function LevelTopicsPage() {
         <ExpiryBanner session={session!} onUpgrade={() => setShowUpgrade(true)} />
       </div>
 
-      {/* Weak words review banner */}
-      {totalWeak > 0 && (
-        <div className="max-w-2xl mx-auto px-4 pt-4">
-          <button onClick={() => router.push(`/dashboard/${childId}/review?level=${level}`)}
-            className="w-full bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 flex items-center justify-between active:scale-95 transition-transform">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">⚠️</span>
-              <div className="text-left">
-                <p className="text-sm font-black text-orange-700">Ôn từ yếu</p>
-                <p className="text-xs text-orange-500">{totalWeak} từ cần ôn lại</p>
-              </div>
+      {/* Stats — 3 mini cards */}
+      <div className="max-w-2xl mx-auto px-4 pt-4">
+        <div className="grid grid-cols-3 gap-2">
+          {/* XP + daily goal */}
+          <button
+            onClick={() => setShowXpGuide(true)}
+            className="bg-white rounded-2xl border-2 border-purple-100 shadow-sm p-3 flex flex-col gap-1 text-left active:scale-95 transition-transform"
+          >
+            <div className="flex items-center gap-1">
+              <span className="text-base leading-none">{xpInfo.emoji}</span>
+              <span className="text-[11px] font-black text-gray-700 truncate leading-tight">{xpInfo.name}</span>
             </div>
-            <span className="text-orange-500 font-black text-sm">Ôn ngay →</span>
+            <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div className="h-full bg-gradient-to-r from-purple-400 to-pink-400 rounded-full transition-all duration-700" style={{ width: `${xpInfo.pct}%` }} />
+            </div>
+            <div className="flex items-center justify-between">
+              <span className={`text-[10px] font-bold ${todayXPDone ? 'text-green-600' : 'text-orange-500'}`}>
+                ⚡{todayXP}/{DAILY_XP_GOAL}{todayXPDone ? ' ✅' : ''}
+              </span>
+              <span className="text-[10px] text-gray-400">🏅{earnedBadges.length}</span>
+            </div>
+          </button>
+
+          {/* Từ yếu */}
+          <button
+            onClick={() => { if (totalWeak > 0) router.push(`/dashboard/${childId}/review?level=${level}`) }}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-1 text-left transition-transform ${totalWeak > 0 ? 'bg-orange-50 border-orange-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+          >
+            <span className="text-base leading-none">⚠️</span>
+            <p className="text-[11px] font-black text-gray-700">Từ yếu</p>
+            <p className={`text-xl font-black leading-none ${totalWeak > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{totalWeak}</p>
+            <p className={`text-[10px] font-medium ${totalWeak > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{totalWeak > 0 ? 'Ôn ngay →' : 'Tốt lắm!'}</p>
+          </button>
+
+          {/* Ôn lịch (SRS) */}
+          <button
+            onClick={() => { if (srsDueCount > 0) router.push(`/dashboard/${childId}/${level}/srs`) }}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-1 text-left transition-transform ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+          >
+            <span className="text-base leading-none">📅</span>
+            <p className="text-[11px] font-black text-gray-700">Ôn lịch</p>
+            <p className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</p>
+            <p className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay →' : 'Đã xong!'}</p>
           </button>
         </div>
-      )}
-
-      {/* SRS due-words banner */}
-      {srsDueCount > 0 && (
-        <div className="max-w-2xl mx-auto px-4 pt-3">
-          <button onClick={() => router.push(`/dashboard/${childId}/${level}/srs`)}
-            className="w-full bg-teal-50 border-2 border-teal-200 rounded-2xl px-4 py-3 flex items-center justify-between active:scale-95 transition-transform">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">📅</span>
-              <div className="text-left">
-                <p className="text-sm font-black text-teal-700">Ôn lại hôm nay</p>
-                <p className="text-xs text-teal-500">{srsDueCount} từ cần ôn theo lịch</p>
-              </div>
-            </div>
-            <span className="text-teal-500 font-black text-sm">Ôn ngay →</span>
-          </button>
-        </div>
-      )}
-
-      {/* My Words shortcut */}
-      <div className="max-w-2xl mx-auto px-4 pt-3">
-        <button onClick={() => router.push('/my-words')}
-          className="w-full bg-yellow-50 border-2 border-yellow-200 rounded-2xl px-4 py-3 flex items-center justify-between active:scale-95 transition-transform">
-          <div className="flex items-center gap-2">
-            <span className="text-xl">⭐</span>
-            <div className="text-left">
-              <p className="text-sm font-black text-yellow-700">Từ của tôi</p>
-              <p className="text-xs text-yellow-600">Xem và ôn lại các từ đã lưu</p>
-            </div>
-          </div>
-          <span className="text-yellow-600 font-black text-sm">Xem →</span>
-        </button>
       </div>
 
       {/* Free plan banner */}
       {!isPaid && (
-        <div className="max-w-2xl mx-auto px-4 pt-4">
+        <div className="max-w-2xl mx-auto px-4 pt-3">
           <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 flex items-center justify-between">
             <p className="text-sm text-amber-700">
               🔒 Gói Free: <strong>1/{topics.length}</strong> chủ đề miễn phí
@@ -356,113 +353,6 @@ export default function LevelTopicsPage() {
           </div>
         </div>
       )}
-
-      {/* XP + Badges */}
-      <div className="max-w-2xl mx-auto px-4 pt-4">
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4 space-y-3">
-          <div>
-            <div className="flex items-center justify-between mb-1.5">
-              <span className="font-black text-gray-800 text-sm">
-                {xpInfo.emoji} {xpInfo.name}
-              </span>
-              <div className="flex items-center gap-1.5">
-                <span className="text-xs font-bold text-gray-400">{summary.xp} XP</span>
-                <button
-                  onClick={() => setShowXpGuide(true)}
-                  className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-purple-100 hover:text-purple-500 transition-colors"
-                >?</button>
-              </div>
-            </div>
-            <div className="h-3 bg-gray-100 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-purple-400 to-pink-400 rounded-full transition-all duration-700"
-                style={{ width: `${xpInfo.pct}%` }}
-              />
-            </div>
-            {xpInfo.level < 5 && (
-              <p className="text-xs text-gray-400 mt-1 font-medium">
-                Level tiếp: {xpInfo.maxXp + 1 - summary.xp} XP nữa
-              </p>
-            )}
-          </div>
-
-          {/* Daily XP goal */}
-          <div>
-            <div className="flex items-center justify-between mb-1">
-              <span className="text-xs font-bold text-gray-500">⚡ Mục tiêu hôm nay</span>
-              <span className={`text-xs font-black ${todayXPDone ? 'text-green-600' : 'text-gray-500'}`}>
-                {todayXP}/{DAILY_XP_GOAL} XP {todayXPDone ? '✅' : ''}
-              </span>
-            </div>
-            <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-              <div
-                className={`h-full rounded-full transition-all duration-500 ${todayXPDone ? 'bg-gradient-to-r from-green-400 to-emerald-400' : 'bg-gradient-to-r from-yellow-400 to-orange-400'}`}
-                style={{ width: `${Math.max(todayXPPct, todayXP > 0 ? 3 : 0)}%` }}
-              />
-            </div>
-          </div>
-
-          <div>
-            {/* Compact row — always visible */}
-            <div className="flex items-center gap-2">
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-wider flex-shrink-0">
-                Huy hiệu · {earnedBadges.length}/{ALL_BADGES.length}
-              </p>
-              {/* 3 most-recent earned badges (or gray placeholders) */}
-              <div className="flex items-center gap-1 flex-1">
-                {earnedBadges.length === 0
-                  ? [0,1,2].map(i => (
-                      <div key={i} className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-base grayscale opacity-30">
-                        {ALL_BADGES[i]?.emoji}
-                      </div>
-                    ))
-                  : earnedBadges.slice(-3).map(badge => (
-                      <div key={badge.id} title={badge.name}
-                        className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-base">
-                        {badge.emoji}
-                      </div>
-                    ))
-                }
-                {earnedBadges.length > 3 && (
-                  <span className="text-xs font-bold text-gray-400 ml-0.5">+{earnedBadges.length - 3}</span>
-                )}
-              </div>
-              {/* Expand / collapse button */}
-              <button
-                onClick={() => setShowAllBadges(v => !v)}
-                className="flex-shrink-0 flex items-center gap-0.5 text-xs font-bold text-gray-400 hover:text-purple-500 px-2 py-1 rounded-lg hover:bg-purple-50 transition-colors">
-                {showAllBadges ? '▲' : '···'}
-              </button>
-            </div>
-
-            {/* Expanded full badge grid */}
-            {showAllBadges && (
-              <div className="mt-3 pt-3 border-t border-gray-100">
-                <div className="flex items-center gap-1.5 mb-2">
-                  <p className="text-xs text-gray-400 font-medium">Tất cả huy hiệu</p>
-                  <button
-                    onClick={() => setShowBadgeGuide(true)}
-                    className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-purple-100 hover:text-purple-500 transition-colors"
-                  >?</button>
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {ALL_BADGES.map(badge => {
-                    const earned = earnedIds.has(badge.id)
-                    return (
-                      <div key={badge.id} title={`${badge.name}: ${badge.desc}`}
-                        className={`w-9 h-9 flex items-center justify-center rounded-full text-lg transition-all ${
-                          earned ? 'bg-purple-100' : 'bg-gray-100 grayscale opacity-40'
-                        }`}>
-                        {badge.emoji}
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
 
       {/* Topic section header with view toggle */}
       <div className="max-w-2xl mx-auto px-4 pt-5 pb-2 flex items-center justify-between">
@@ -725,6 +615,12 @@ export default function LevelTopicsPage() {
                 )
               })}
             </div>
+            <button
+              onClick={() => { setShowXpGuide(false); setShowBadgeGuide(true) }}
+              className="mt-4 w-full py-2.5 rounded-xl bg-purple-50 text-purple-600 font-bold text-sm hover:bg-purple-100 transition-colors"
+            >
+              🏅 Xem huy hiệu ({earnedBadges.length}/{ALL_BADGES.length}) →
+            </button>
           </div>
         </div>
       )}

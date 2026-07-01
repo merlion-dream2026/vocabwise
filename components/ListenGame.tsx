@@ -1,9 +1,10 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -46,6 +47,7 @@ const levelCfg = {
 
 export default function ListenGame({ topic, level, isStarter, backUrl }: Props) {
   const router = useRouter()
+  const { childId } = useParams<{ childId: string }>()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
   const [questions, setQuestions] = useState<Question[]>(() => buildQuestions(topic.words))
@@ -64,6 +66,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
       addScore(level, Math.round(score * 1.5))
       if (score === total) recordPerfectGame(level, topic.id, 'listen')
       if (score === total) setShowConfetti(true)
+      saveStepScore(childId, topic.id, 'listen', score, total)
       flush()
     }
   }, [done])

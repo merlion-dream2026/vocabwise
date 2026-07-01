@@ -88,7 +88,7 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
             saveDailyTopicOffline(level, topicId, {
               topic,
               story: storyData,
-              topicList: topics.map(t => ({ id: t.id, name: t.name })),
+              topicList: topics.map(t => ({ id: t.id, name: t.name, emoji: t.emoji })),
               audioSize: topic.audioSize ?? 0,
             })
           }
