@@ -100,7 +100,7 @@ export default function TopicPage() {
   const [child, setChild] = useState<Child | null>(null)
   const [mastery, setMastery] = useState<MasteryData>({ flashcard: false, games: [] })
   const [topic, setTopic] = useState<{ id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[] } | null>(null)
-  const [allTopics, setAllTopics] = useState<{ id: string; name: string }[]>([])
+  const [allTopics, setAllTopics] = useState<{ id: string; name: string; emoji: string }[]>([])
   const [story, setStory] = useState<{ emojis: string[]; en: string; vi: string } | null>(null)
   const [loading, setLoading] = useState(true)
   const [offlineUnavailable, setOfflineUnavailable] = useState(false)
@@ -521,9 +521,23 @@ export default function TopicPage() {
             </div>
 
             {isLessonDone && (
-              <div className="px-4 py-4 bg-green-50 text-center border-t border-green-100">
-                <p className="font-black text-green-700 text-sm">🏆 Bài học hôm nay hoàn thành!</p>
-                <p className="text-xs text-gray-400 mt-0.5">Tiếp tục với chủ đề tiếp theo →</p>
+              <div className="px-4 py-5 bg-green-50 border-t border-green-100 space-y-3">
+                <div className="text-center">
+                  <div className="text-3xl mb-1">🎉</div>
+                  <p className="font-black text-green-700 text-base">Bài học hôm nay xong rồi!</p>
+                  <p className="text-xs text-gray-400 mt-0.5">Hoàn thành {lessonSteps.length} bước · ~5 phút</p>
+                </div>
+                {nextTopic ? (
+                  <button
+                    onClick={() => router.push(`/dashboard/${childId}/${level}/${nextTopic.id}`)}
+                    className={`w-full ${colors.header} text-white font-black text-sm py-3 rounded-xl active:scale-95 transition-all flex items-center justify-center gap-2`}
+                  >
+                    <span>{nextTopic.emoji} {nextTopic.name}</span>
+                    <span className="opacity-70">→</span>
+                  </button>
+                ) : (
+                  <p className="text-center text-xs text-green-600 font-bold">🏆 Đã học hết tất cả chủ đề level này!</p>
+                )}
               </div>
             )}
 

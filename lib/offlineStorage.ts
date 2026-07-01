@@ -16,7 +16,7 @@ export type DailyOfflineBundle = {
     words: { word: string; meaning: string; emoji: string; example: string }[]
   }
   story: { emojis: string[]; en: string; vi: string } | null
-  topicList: { id: string; name: string }[]
+  topicList: { id: string; name: string; emoji: string }[]
   audioSize: number  // bytes — pre-measured from audio file
 }
 
