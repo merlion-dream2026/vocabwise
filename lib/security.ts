@@ -134,7 +134,7 @@ export function updateRequestMetadata(familyId: string, ip: string, country?: st
 export async function verifyTurnstile(token: string | undefined): Promise<boolean> {
   const secret = process.env.TURNSTILE_SECRET_KEY
   if (!secret) return true
-  if (!token)  return false
+  if (!token)  return process.env.VERCEL_ENV === 'preview'
   try {
     const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
