@@ -35,8 +35,7 @@ const EXPLORER_GAMES = [
   { key: 'flashcard',       label: 'Flashcard từ mới',  emoji: '📖' }, // row 1
   { key: 'listen',          label: 'Nghe & Chọn',        emoji: '👂' }, // row 1
   { key: 'truefalse',       label: 'Đúng / Sai',         emoji: '✅' }, // row 2
-  { key: 'match',           label: 'Nối từ với hình',    emoji: '🖼️' }, // row 2
-  { key: 'quiz',            label: 'Trắc nghiệm',         emoji: '❓' }, // row 3
+  { key: 'quiz',            label: 'Trắc nghiệm',         emoji: '❓' }, // row 2
   { key: 'gapfill',         label: 'Điền từ',             emoji: '✏️' }, // row 3
   { key: 'definitionmatch', label: 'Ghép định nghĩa',     emoji: '🔀' }, // row 4
   { key: 'speak',           label: 'Phát âm cùng AI ✨',   emoji: '🎤' }, // row 4
