@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
+import { getStepScore } from '@/lib/stepScores'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -110,6 +111,7 @@ export default function TopicPage() {
   const [showFaq, setShowFaq] = useState(false)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [lessonMode, setLessonMode] = useState(true)
+  const [stepScores, setStepScores] = useState<Record<string, { correct: number; total: number } | null>>({})
   const [showExercise, setShowExercise] = useState(false)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
@@ -194,6 +196,13 @@ export default function TopicPage() {
       if (typeof window !== 'undefined') window.speechSynthesis?.cancel()
     }
   }, [])
+
+  useEffect(() => {
+    const allGameKeys = [...new Set([...LESSON_STARTER, ...LESSON_EXPLORER].filter(g => g !== 'flashcard'))]
+    const loaded: Record<string, { correct: number; total: number } | null> = {}
+    for (const g of allGameKeys) loaded[g] = getStepScore(childId, topicId, g)
+    setStepScores(loaded)
+  }, [childId, topicId])
 
   if (loading) return null
 
@@ -475,14 +484,36 @@ export default function TopicPage() {
                         Bước {i + 1}: {gameInfo.label}
                       </p>
                     </div>
-                    {done && <span className="text-green-500 text-lg flex-shrink-0">✅</span>}
-                    {active && (
+                    {done && (
+                      <div className="flex items-center gap-1.5 flex-shrink-0">
+                        <span className="text-xs font-black text-green-600">
+                          {gameKey === 'flashcard'
+                            ? `${(topic as { words: unknown[] }).words.length}/${(topic as { words: unknown[] }).words.length}`
+                            : stepScores[gameKey] ? `${stepScores[gameKey]!.correct}/${stepScores[gameKey]!.total}` : null}
+                        </span>
+                        <span className="text-green-500 text-lg">✅</span>
+                      </div>
+                    )}
+                    {active && !stepScores[gameKey] && (
                       <button
                         onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${gameKey}`)}
                         className={`flex-shrink-0 ${colors.header} text-white text-xs font-black px-4 py-2 rounded-full active:scale-95 transition-all`}
                       >
                         ▶ Bắt đầu
                       </button>
+                    )}
+                    {active && stepScores[gameKey] && (
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        <span className="text-xs font-black text-orange-500">
+                          {stepScores[gameKey]!.correct}/{stepScores[gameKey]!.total}
+                        </span>
+                        <button
+                          onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${gameKey}`)}
+                          className="text-xs font-black bg-orange-100 text-orange-600 px-3 py-2 rounded-full active:scale-95 transition-all"
+                        >
+                          🔄 Làm lại
+                        </button>
+                      </div>
                     )}
                   </div>
                 )

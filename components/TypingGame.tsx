@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -18,6 +19,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function TypingGame({ topic, level, backUrl }: Props) {
+  const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
@@ -37,6 +39,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
     if (done) {
       addScore(level, score * 2)
       if (score === total) recordPerfectGame(level, topic.id, 'typing')
+      saveStepScore(childId, topic.id, 'typing', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

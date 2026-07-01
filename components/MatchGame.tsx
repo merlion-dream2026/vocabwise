@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useMemo, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useParams } from 'next/navigation'
 import { markSeen, recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -46,6 +47,7 @@ const levelCfg = {
 }
 
 export default function MatchGame({ topic, level, backUrl }: Props) {
+  const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
@@ -66,6 +68,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
       recordActivity(level)
       addScore(level, Math.max(0, total - mistakes))
       if (mistakes === 0) recordPerfectGame(level, topic.id, 'match')
+      saveStepScore(childId, topic.id, 'match', Math.max(0, total - mistakes), total)
       if (mistakes === 0) setShowConfetti(true)
       flush()
     }
