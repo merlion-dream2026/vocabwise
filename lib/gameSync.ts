@@ -18,6 +18,9 @@ let _battle = { totalAllTime: 0 }
 let _mastery: Record<string, { flashcard: boolean; games: string[] }> = {}
 let _history: Record<string, HistoryEntry> = {}
 let _srs: Record<string, SrsEntry> = {}
+// Tracks whether flush() has been called for the current session.
+// Prevents autoFlushPrevious from sending a duplicate POST after a normal game completion.
+let _flushed = false
 
 export type SyncData = {
   seen?: string[]
@@ -46,7 +49,25 @@ function bumpTopic(topicId: string) {
   }
 }
 
+// If the previous session was abandoned (no flush), send its data before overwriting state.
+function autoFlushPrevious(nextChildId: string) {
+  if (!_childId || _childId === nextChildId || _flushed) return
+  const childId = _childId
+  const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }
+  if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
+    saveOfflineProgress(childId, _level, _topicId, { topicName: _topicName, ...payload })
+    return
+  }
+  fetch(`/api/sync/${childId}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  }).catch(() => {})
+}
+
 export function initGameSync(childId: string, level: string, data: SyncData, topicId = '', topicName = '') {
+  autoFlushPrevious(childId)
+  _flushed = false
   _childId = childId
   _level = level
   _topicId = topicId
@@ -174,6 +195,7 @@ export function recordPerfectGame(_level: string, topicId: string, gameKey: stri
 
 export async function flush() {
   if (!_childId || !_level) return
+  _flushed = true
 
   const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }
 
