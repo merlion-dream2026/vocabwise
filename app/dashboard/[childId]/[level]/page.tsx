@@ -318,23 +318,31 @@ export default function LevelTopicsPage() {
           {/* Từ yếu */}
           <button
             onClick={() => { if (totalWeak > 0) router.push(`/dashboard/${childId}/review?level=${level}`) }}
-            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-1 text-left transition-transform ${totalWeak > 0 ? 'bg-orange-50 border-orange-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${totalWeak > 0 ? 'bg-orange-50 border-orange-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
           >
-            <span className="text-base leading-none">⚠️</span>
-            <p className="text-[11px] font-black text-gray-700">Từ yếu</p>
-            <p className={`text-xl font-black leading-none ${totalWeak > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{totalWeak}</p>
-            <p className={`text-[10px] font-medium ${totalWeak > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{totalWeak > 0 ? 'Ôn ngay →' : 'Tốt lắm!'}</p>
+            <div className="flex items-center gap-1">
+              <span className="text-sm leading-none flex-shrink-0">⚠️</span>
+              <p className="text-[10px] font-black text-gray-700 leading-tight">Từ chưa thuộc</p>
+            </div>
+            <div className="flex items-baseline gap-1">
+              <span className={`text-xl font-black leading-none ${totalWeak > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{totalWeak}</span>
+              <span className={`text-[10px] font-medium ${totalWeak > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{totalWeak > 0 ? 'Ôn ngay' : 'Tốt lắm!'}</span>
+            </div>
           </button>
 
-          {/* Ôn lịch (SRS) */}
+          {/* Ôn từ định kỳ (SRS) */}
           <button
             onClick={() => { if (srsDueCount > 0) router.push(`/dashboard/${childId}/${level}/srs`) }}
-            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-1 text-left transition-transform ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
           >
-            <span className="text-base leading-none">📅</span>
-            <p className="text-[11px] font-black text-gray-700">Ôn lịch</p>
-            <p className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</p>
-            <p className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay →' : 'Đã xong!'}</p>
+            <div className="flex items-center gap-1">
+              <span className="text-sm leading-none flex-shrink-0">📅</span>
+              <p className="text-[10px] font-black text-gray-700 leading-tight">Ôn từ định kỳ</p>
+            </div>
+            <div className="flex items-baseline gap-1">
+              <span className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
+              <span className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay' : 'Đã xong!'}</span>
+            </div>
           </button>
         </div>
       </div>
