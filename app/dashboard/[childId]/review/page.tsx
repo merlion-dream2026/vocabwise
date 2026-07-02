@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams, useSearchParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import { initGameSync, getWeakWords } from '@/lib/gameSync'
+import { useGameSync, type WeakEntry } from '@/lib/GameSyncContext'
 import type { ReviewWord } from '@/components/ReviewSession'
 
 const ReviewSession = dynamic(() => import('@/components/ReviewSession'), { ssr: false })
@@ -14,8 +14,7 @@ type Child = { id: string; name: string; emoji: string; level: string }
 
 type LevelData = { topics: { words: { word: string; meaning: string; emoji: string }[] }[] }
 
-function buildReviewWords(levelData: LevelData | null): ReviewWord[] {
-  const weak = getWeakWords()
+function buildReviewWords(levelData: LevelData | null, weak: Record<string, WeakEntry>): ReviewWord[] {
   if (Object.keys(weak).length === 0) return []
   if (!levelData) return []
 
@@ -43,6 +42,7 @@ function buildReviewWords(levelData: LevelData | null): ReviewWord[] {
 
 export default function ReviewPage() {
   const router = useRouter()
+  const { initGameSync, getWeakWords } = useGameSync()
   const { childId } = useParams<{ childId: string }>()
   const searchParams = useSearchParams()
   const [child, setChild] = useState<Child | null>(null)
@@ -68,9 +68,9 @@ export default function ReviewPage() {
       fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
     ])
     initGameSync(childId, level, syncData)
-    setReviewWords(buildReviewWords(levelData))
+    setReviewWords(buildReviewWords(levelData, getWeakWords()))
     setLoading(false)
-  }, [childId, router, searchParams])
+  }, [childId, router, searchParams, initGameSync, getWeakWords])
 
   useEffect(() => { loadData() }, [loadData])
 

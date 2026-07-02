@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -39,6 +39,7 @@ function buildQuestions(words: Word[]): Question[] {
 
 export default function FillLetterGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const [questions] = useState(() => buildQuestions(topic.words))
   const [idx, setIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)

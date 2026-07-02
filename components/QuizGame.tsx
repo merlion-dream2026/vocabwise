@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 
@@ -47,6 +47,7 @@ const levelCfg = {
 
 export default function QuizGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const { childId } = useParams<{ childId: string }>()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 

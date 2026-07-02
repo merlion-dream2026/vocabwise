@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
-import { markSeen, recordActivity, recordFlashcardDone, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 import WordListPicker from '@/components/WordListPicker'
@@ -86,6 +86,7 @@ const levelConfig = {
 
 export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Props) {
   const router = useRouter()
+  const { markSeen, recordActivity, recordFlashcardDone, flush } = useGameSync()
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isSpeaking, setIsSpeaking] = useState(false)
   const [speakingId, setSpeakingId] = useState<string | null>(null)

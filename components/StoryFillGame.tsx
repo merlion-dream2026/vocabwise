@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import storiesData from '@/data/stories.json'
 
@@ -43,6 +43,7 @@ function parseStory(en: string, words: Word[]): { parts: string[]; blanks: Blank
 
 export default function StoryFillGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
 
   const storyKey = `${level}.${topic.id}` as keyof typeof storiesData
   const story = (storiesData as Record<string, StoryEntry>)[storyKey] ?? null

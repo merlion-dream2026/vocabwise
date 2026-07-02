@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
-import { recordReviewAnswer, recordActivity, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -37,6 +37,7 @@ function daysSince(dateStr: string): number | null {
 
 export default function ReviewSession({ words, level, backUrl, onSessionDone }: Props) {
   const router = useRouter()
+  const { recordReviewAnswer, recordActivity, flush } = useGameSync()
   const isStarter = level === 'starter'
   const headerBg = isStarter
     ? 'bg-gradient-to-br from-pink-400 to-rose-400'

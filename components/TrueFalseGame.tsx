@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 
@@ -35,6 +35,7 @@ function buildRounds(words: Word[]): Round[] {
 
 export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const [rounds] = useState(() => buildRounds(topic.words))
   const [idx, setIdx] = useState(0)
   const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle')
