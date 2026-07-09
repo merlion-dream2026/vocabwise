@@ -103,6 +103,28 @@ export async function checkAndIncrementAISpeakUsage(familyId: string, limit: num
   return e.count <= limit
 }
 
+// ── AI text-helper daily usage (explain/hint/grammar-note/writing-check/generate-exercises) ──
+const aiTextStore = new Map<string, { count: number; resetAt: number }>()
+
+/** Shared daily cap across all AI text-helper endpoints per family. Prevents cost-abuse spam. */
+export async function checkAndIncrementAITextUsage(familyId: string, limit = 60): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key = `vw:ai-text:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch { /* fall through */ }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = aiTextStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; aiTextStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
+
 // ── OTP attempt tracking ──────────────────────────────────────────────────────
 const otpAttemptStore = new Map<string, { count: number; resetAt: number }>()
 

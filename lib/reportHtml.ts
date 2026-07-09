@@ -1,4 +1,5 @@
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
+import { esc } from '@/lib/escHtml'
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
@@ -62,6 +63,7 @@ export function buildMonthlyRecapHtml(
   const totalDays = daysInMonth(yearMonth)
 
   const childBlocks = rows.map(({ child, thisMonth, prevMonth, primarySync }) => {
+    child = { ...child, name: esc(child.name) }
     const summary  = buildSyncSummary(primarySync)
     const xpInfo   = getXpLevel(summary.xp)
     const earned   = computeEarnedBadges(summary)
@@ -155,6 +157,7 @@ export type SyncRow = {
 
 export function buildReportHtml(username: string, rows: { child: ChildRow; sync: SyncRow }[]): string {
   const childBlocks = rows.map(({ child, sync }) => {
+    child = { ...child, name: esc(child.name) }
     const summary = buildSyncSummary(sync)
     const xpInfo = getXpLevel(summary.xp)
     const earned = computeEarnedBadges(summary)

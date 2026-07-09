@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
 
 type GlossaryEntry = { word: string; meaning_vi: string }
 type MCQItem = { id: number; sentence: string; options: string[]; answer: string }
@@ -21,6 +22,10 @@ function validateItems(items: unknown[]): items is MCQItem[] {
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (!(await checkAndIncrementAITextUsage(session.familyId))) {
+    return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  }
 
   const { glossary, topicTitle, cefr } = await req.json() as {
     glossary: GlossaryEntry[]
@@ -64,20 +69,26 @@ Return ONLY this JSON (no extra text):
   ]
 }`
 
-  const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'gpt-oss-120b',
-      messages: [{ role: 'user', content: prompt }],
-      max_tokens: 800,
-      temperature: 0.8,
-      response_format: { type: 'json_object' },
-    }),
-  })
+  let res: Response
+  try {
+    res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'gpt-oss-120b',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 800,
+        temperature: 0.8,
+        response_format: { type: 'json_object' },
+      }),
+    })
+  } catch (e) {
+    console.error('Cerebras generate-exercises fetch failed:', e)
+    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
+  }
 
   if (!res.ok) {
     console.error('Groq generate-exercises error:', res.status)

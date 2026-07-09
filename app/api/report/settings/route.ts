@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
+import { getPlanTier } from '@/lib/planUtils'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -35,13 +36,14 @@ export async function PUT(req: NextRequest) {
 
   const body = await req.json().catch(() => ({}))
 
-  // monthly_recap only allowed for active Pro 6m plans
+  // monthly_recap only allowed for active Pro 6m tier — use getPlanTier() (accounts for
+  // bonus/referral Pro days extending access past plan_end_date), not the raw plan field.
   const { data: family } = await supabase
     .from('families')
-    .select('plan, plan_end_date')
+    .select('plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at, bonus_features')
     .eq('id', session.familyId)
     .single()
-  const is6m = family?.plan === '6months' && !!family?.plan_end_date && new Date(family.plan_end_date) > new Date()
+  const is6m = !!family && getPlanTier(family) === 'pro6'
 
   const settings: ReportSettings = {
     enabled: !!body.enabled,
