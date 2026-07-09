@@ -1,4 +1,7 @@
 -- ═══════════════════════════════════════════════════════════════
+-- SUPERSEDED — byte-identical to supabase/migrations/20260609000000_vocabwise_schema.sql.
+-- Kept only for history; do not run this file, use the migration instead.
+-- ═══════════════════════════════════════════════════════════════
 -- VocabWise Academic — Supabase Schema
 -- Prefix: vw_ (tránh xung đột với VocabWise Kids tables)
 -- Auth: dùng child_id TEXT (per-child progress, FK children.id)

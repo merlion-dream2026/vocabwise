@@ -37,6 +37,26 @@ type GameSyncApi = {
 
 function todayKey() { return new Date().toISOString().split('T')[0] }
 
+/**
+ * Pure SM-2-style SRS step, extracted so it can be unit-tested directly instead
+ * of via a hand-copied reimplementation. `today` is only used as the seed for a
+ * brand-new entry's `due` — the interval math below always computes the real due
+ * date from `new Date()`.
+ */
+export function applySrsAnswer(entry: SrsEntry | undefined, isCorrect: boolean, today: string): SrsEntry {
+  const e = entry ?? { interval: 1, due: today, ef: 2.5 }
+  if (isCorrect) {
+    const newInterval = Math.min(Math.round(e.interval * e.ef), 60)
+    const newEf = parseFloat(Math.max(1.3, e.ef + 0.1).toFixed(2))
+    const due = new Date()
+    due.setDate(due.getDate() + newInterval)
+    return { interval: newInterval, due: due.toISOString().split('T')[0], ef: newEf }
+  }
+  const due = new Date()
+  due.setDate(due.getDate() + 1)
+  return { interval: 1, due: due.toISOString().split('T')[0], ef: parseFloat(Math.max(1.3, e.ef - 0.2).toFixed(2)) }
+}
+
 function createGameSyncApi(): GameSyncApi {
   let _childId = ''
   let _level = ''
@@ -160,16 +180,7 @@ function createGameSyncApi(): GameSyncApi {
 
   function recordSrsAnswer(word: string, isCorrect: boolean) {
     const today = new Date().toISOString().split('T')[0]
-    const entry = _srs[word] ?? { interval: 1, due: today, ef: 2.5 }
-    if (isCorrect) {
-      const newInterval = Math.min(Math.round(entry.interval * entry.ef), 60)
-      const newEf = parseFloat(Math.max(1.3, entry.ef + 0.1).toFixed(2))
-      const due = new Date(); due.setDate(due.getDate() + newInterval)
-      _srs = { ..._srs, [word]: { interval: newInterval, due: due.toISOString().split('T')[0], ef: newEf } }
-    } else {
-      const due = new Date(); due.setDate(due.getDate() + 1)
-      _srs = { ..._srs, [word]: { interval: 1, due: due.toISOString().split('T')[0], ef: parseFloat(Math.max(1.3, entry.ef - 0.2).toFixed(2)) } }
-    }
+    _srs = { ..._srs, [word]: applySrsAnswer(_srs[word], isCorrect, today) }
   }
 
   function getSrsDueCount(): number {

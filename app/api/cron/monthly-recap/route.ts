@@ -3,6 +3,9 @@ import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
 import { buildMonthlyRecapHtml, calcMonthStats, AllLevelSync, ChildRow, SyncRow } from '@/lib/reportHtml'
 import { getPlanTier } from '@/lib/planUtils'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -63,14 +66,14 @@ export async function GET(req: NextRequest) {
   let sent = 0
   const errors: string[] = []
 
-  for (const family of eligible) {
+  await runInBatches(eligible, 5, async (family) => {
     try {
       const { data: children } = await supabase
         .from('children')
         .select('id, name, emoji, level')
         .eq('family_id', family.id)
 
-      if (!children?.length) continue
+      if (!children?.length) return
 
       const childIds = (children as ChildRow[]).map(c => c.id)
 
@@ -104,7 +107,7 @@ export async function GET(req: NextRequest) {
     } catch (e) {
       errors.push(`${family.username}: ${e}`)
     }
-  }
+  })
 
   return NextResponse.json({ sent, errors: errors.length ? errors : undefined })
 }

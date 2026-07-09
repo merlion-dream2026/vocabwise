@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabaseServer'
 import { Redis } from '@upstash/redis'
+import { warnRedisFallback } from '@/lib/rateLimit'
 
 const redis =
   process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN
@@ -28,7 +29,7 @@ export async function getFamilyProfile(familyId: string): Promise<FamilyProfile 
     try {
       const cached = await redis.get<FamilyProfile>(key)
       if (cached) return cached
-    } catch { /* fall through */ }
+    } catch (e) { warnRedisFallback('getFamilyProfile', e) }
   }
   const { data } = await supabase
     .from('families')
@@ -79,7 +80,7 @@ export async function detectSequential(familyId: string, topicId: string): Promi
         if (recent[i] - recent[i - 1] > 2) return false
       }
       return true
-    } catch { /* fall through to in-memory */ }
+    } catch (e) { warnRedisFallback('detectSequential', e) }
   }
 
   const prev = seqStore.get(familyId) ?? { nums: [], times: [] }

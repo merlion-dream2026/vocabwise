@@ -13,6 +13,9 @@ import {
   getFamilyLastActive,
   daysSince,
 } from '@/lib/emailLog'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -45,16 +48,16 @@ export async function GET(req: NextRequest) {
   let sent = 0
   const errors: string[] = []
 
-  for (const family of families) {
+  await runInBatches(families, 5, async (family) => {
     const famId = family.id as string
     const displayName = (family.name as string | null) ?? (family.username as string)
     const daysOld = daysSince(family.created_at as string)
 
     try {
       if (daysOld === 1) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d1')) continue
+        if (await hasEmailBeenSent(famId, 'onboarding_d1')) return
         const lastActive = await getFamilyLastActive(famId)
-        if (lastActive) continue  // has activity — skip D+1, will catch at D+3
+        if (lastActive) return  // has activity — skip D+1, will catch at D+3
         await sendEmail({
           to: family.email as string,
           subject: '⏱ Bắt đầu hành trình tiếng Anh chỉ mất 5 phút',
@@ -63,9 +66,9 @@ export async function GET(req: NextRequest) {
         await logEmail(famId, 'onboarding_d1')
         sent++
       } else if (daysOld === 3) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d3')) continue
+        if (await hasEmailBeenSent(famId, 'onboarding_d3')) return
         const lastActive = await getFamilyLastActive(famId)
-        if (!lastActive) continue  // no activity yet — skip
+        if (!lastActive) return  // no activity yet — skip
         const stats = await getFamilyStats(famId)
         await sendEmail({
           to: family.email as string,
@@ -80,7 +83,7 @@ export async function GET(req: NextRequest) {
         await logEmail(famId, 'onboarding_d3')
         sent++
       } else if (daysOld === 7) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d7')) continue
+        if (await hasEmailBeenSent(famId, 'onboarding_d7')) return
         const lastActive = await getFamilyLastActive(famId)
         const hasActivity = lastActive !== null
         let streak = 0, words = 0, topics = 0
@@ -101,7 +104,7 @@ export async function GET(req: NextRequest) {
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }
-  }
+  })
 
   return NextResponse.json({ sent, errors })
 }

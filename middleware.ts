@@ -26,6 +26,7 @@ const RATE_LIMITS: Record<string, [number, number]> = {
   '/api/auth/login':           [20, 60],   // 20/min — shared mobile IPs
   '/api/auth/register':        [5,  300],  // 5/5min
   '/api/auth/forgot-password': [5,  300],  // 5/5min
+  '/api/auth/reset-password':  [5,  300],  // 5/5min — token is 256-bit so DoS-only concern
   '/api/auth/verify-otp':      [10, 60],   // 10/min
   '/api/auth/resend-otp':      [3,  300],  // 3/5min
 }
