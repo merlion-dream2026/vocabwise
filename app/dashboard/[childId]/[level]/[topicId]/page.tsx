@@ -194,8 +194,9 @@ export default function TopicPage() {
       audioRef.current?.pause()
       audioRef.current = null
       if (typeof window !== 'undefined') window.speechSynthesis?.cancel()
+      setSpeaking(false)
     }
-  }, [])
+  }, [topicId])
 
   useEffect(() => {
     const allGameKeys = [...new Set([...LESSON_STARTER, ...LESSON_EXPLORER].filter(g => g !== 'flashcard'))]
@@ -278,9 +279,11 @@ export default function TopicPage() {
     const mp3Src = `/audio/stories/${level}.${topicNum}.${topicId}.mp3`
     const audio = new Audio(mp3Src)
     audioRef.current = audio
-    audio.addEventListener('canplaythrough', () => { audio.play(); setSpeaking(true) }, { once: true })
-    audio.addEventListener('ended', () => { setSpeaking(false); audioRef.current = null }, { once: true })
-    audio.addEventListener('error', () => {
+
+    let fellBack = false
+    const fallbackToTTS = () => {
+      if (fellBack || audioRef.current !== audio) return
+      fellBack = true
       audioRef.current = null
       const plain = story.en.replace(/\*\*/g, '')
       const utt = new SpeechSynthesisUtterance(plain)
@@ -288,8 +291,17 @@ export default function TopicPage() {
       utt.onend = () => setSpeaking(false)
       setSpeaking(true)
       window.speechSynthesis.speak(utt)
+    }
+
+    audio.addEventListener('ended', () => {
+      if (audioRef.current !== audio) return
+      setSpeaking(false)
+      audioRef.current = null
     }, { once: true })
-    audio.load()
+    audio.addEventListener('error', fallbackToTTS, { once: true })
+
+    setSpeaking(true)
+    audio.play().catch(fallbackToTTS)
   }
 
   const LEVEL_LABELS: Record<string, string> = {
