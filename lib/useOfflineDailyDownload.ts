@@ -78,12 +78,15 @@ export function useOfflineDailyDownload(childId: string, level: string, topicId:
       // Fire-and-forget — UI is already updated; don't await this.
       void (async () => {
         try {
-          const [levelData, storyData] = await Promise.all([
-            fetch(`/api/words/${level}`).then(r => r.ok ? r.json() : null).catch(() => null),
+          const [topic, topics, storyData]: [
+            ({ id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[]; audioSize?: number }) | null,
+            { id: string; name: string; emoji: string; color: string }[],
+            { emojis: string[]; en: string; vi: string } | null,
+          ] = await Promise.all([
+            fetch(`/api/words/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
+            fetch(`/api/words/${level}/topics`).then(r => r.ok ? r.json() : []).catch(() => []),
             fetch(`/api/stories/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
           ])
-          const topics: { id: string; name: string; emoji: string; color: string; words: { word: string; meaning: string; emoji: string; example: string }[]; audioSize?: number }[] = levelData?.topics ?? []
-          const topic = topics.find(t => t.id === topicId)
           if (topic) {
             saveDailyTopicOffline(level, topicId, {
               topic,

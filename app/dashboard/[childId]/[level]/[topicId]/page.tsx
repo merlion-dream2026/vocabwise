@@ -140,15 +140,15 @@ export default function TopicPage() {
     Promise.all([
       fetch(`/api/children/${childId}`).then(r => r.ok ? r.json() : null),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()),
-      fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
+      fetch(`/api/words/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(`/api/words/${level}/topics`).then(r => r.json()).catch(() => []),
       fetch(`/api/stories/${level}/${topicId}`).then(r => r.json()).catch(() => null),
-    ]).then(([found, syncData, levelData, storyData]) => {
+    ]).then(([found, syncData, foundTopic, topicsList, storyData]) => {
       if (!found) { router.push('/kids'); return }
-      const foundTopic = levelData?.topics?.find((t: { id: string }) => t.id === topicId)
       if (!foundTopic) { router.push(`/dashboard/${childId}/${level}`); return }
       setChild(found)
       setTopic(foundTopic)
-      setAllTopics(levelData?.topics ?? [])
+      setAllTopics(topicsList ?? [])
       setStory(storyData ?? null)
 
       // Cache sync data for offline game initialization
