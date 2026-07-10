@@ -55,11 +55,10 @@ export default function GamePage() {
     }
 
     Promise.all([
-      fetch('/api/children').then(r => r.ok ? r.json() : []),
+      fetch(`/api/children/${childId}`).then(r => r.ok ? r.json() : null),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()).catch(() => null),
       fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
-    ]).then(([kids, syncData, levelData]) => {
-      const found = (kids as Child[]).find(k => k.id === childId)
+    ]).then(([found, syncData, levelData]) => {
       if (!found) { router.push('/kids'); return }
       const foundTopic = levelData?.topics?.find((t: { id: string }) => t.id === topicId)
       if (!foundTopic) { router.push(backUrl); return }

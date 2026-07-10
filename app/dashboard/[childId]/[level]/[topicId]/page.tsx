@@ -138,12 +138,11 @@ export default function TopicPage() {
     }
 
     Promise.all([
-      fetch('/api/children').then(r => r.json()),
+      fetch(`/api/children/${childId}`).then(r => r.ok ? r.json() : null),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()),
       fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
       fetch(`/api/stories/${level}/${topicId}`).then(r => r.json()).catch(() => null),
-    ]).then(([kids, syncData, levelData, storyData]) => {
-      const found = (kids as Child[]).find(k => k.id === childId)
+    ]).then(([found, syncData, levelData, storyData]) => {
       if (!found) { router.push('/kids'); return }
       const foundTopic = levelData?.topics?.find((t: { id: string }) => t.id === topicId)
       if (!foundTopic) { router.push(`/dashboard/${childId}/${level}`); return }
@@ -205,7 +204,38 @@ export default function TopicPage() {
     setStepScores(loaded)
   }, [childId, topicId])
 
-  if (loading) return null
+  if (loading) {
+    const skeletonColors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
+    return (
+      <div className={`min-h-screen bg-gradient-to-br ${skeletonColors.bg} animate-pulse`}>
+        <div className={`${skeletonColors.header} px-4 py-4 flex items-center gap-3`}>
+          <div className="h-6 w-6 bg-white/30 rounded-full" />
+          <div className="h-6 w-6 bg-white/30 rounded-full" />
+          <div className="flex-1 space-y-1.5">
+            <div className="h-4 w-32 bg-white/30 rounded-full" />
+            <div className="h-3 w-20 bg-white/20 rounded-full" />
+          </div>
+        </div>
+        <div className="max-w-xl mx-auto px-4 py-5 space-y-4">
+          <div className="flex gap-3">
+            <div className="flex-1 h-16 bg-white rounded-2xl shadow-sm" />
+            <div className="w-28 h-16 bg-white rounded-2xl shadow-sm" />
+          </div>
+          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div className={`${skeletonColors.header} h-14`} />
+            <div className="divide-y divide-gray-50">
+              {[1, 2, 3, 4].map(i => (
+                <div key={i} className="flex items-center gap-3 px-4 py-3.5">
+                  <div className="h-8 w-8 bg-gray-100 rounded-full flex-shrink-0" />
+                  <div className="flex-1 h-4 bg-gray-100 rounded-full" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   if (offlineUnavailable || !topic) {
     const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer

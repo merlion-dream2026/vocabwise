@@ -17,6 +17,24 @@ async function ownedByFamily(childId: string, familyId: string) {
   return !!data
 }
 
+// GET /api/children/[id] — single child, scoped to session's family.
+// Used by Daily topic/game pages instead of fetching the full /api/children list
+// just to find one child by id.
+export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+  const session = await getSession(req)
+  if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  const { data, error } = await supabase
+    .from('children')
+    .select('id, name, emoji, level, theme, pin, created_at')
+    .eq('id', params.id)
+    .eq('family_id', session.familyId)
+    .single()
+
+  if (error || !data) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+  return NextResponse.json(data, { headers: { 'Cache-Control': 'private, max-age=60' } })
+}
+
 // PATCH /api/children/[id] — edit name, emoji, level
 export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
   const session = await getSession(req)
