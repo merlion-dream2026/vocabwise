@@ -24,6 +24,7 @@ const CLASS_LABEL: Record<string, string> = {
 
 type Word = {
   word: string
+  ipa?: string
   meaning: string
   emoji: string
   class?: string
@@ -136,7 +137,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
         word: w.word,
         meaning_vi: w.meaning,
         pos: w.class ?? '',
-        ipa: '',
+        ipa: w.ipa ?? '',
         example_en: w.examples[0]?.en ?? '',
         book_id: level,
         topic_id: topic.id,
@@ -308,6 +309,11 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           <h2 className={`text-5xl font-black ${styles.wordColor} mb-1 tracking-tight`}>
             {word.word}
           </h2>
+
+          {/* IPA */}
+          {word.ipa && (
+            <p className="text-gray-400 text-sm font-mono mb-1">{word.ipa}</p>
+          )}
 
           {/* Word class */}
           {word.class && (
