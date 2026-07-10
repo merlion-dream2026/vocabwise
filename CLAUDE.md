@@ -49,7 +49,8 @@ Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAc
 Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để áp dụng ngay khi superadmin đổi plan.
 
 ## Data Sources
-- **Daily (Kids):** `/data/words.json` — 6 levels (Seeker→Master) · 30 topics/level · structure: `{ [levelSlug]: { topics[] } }`
+- **Daily (Kids) — nguồn duy nhất:** `/data/words/{level}.json` (6 file, seeker→master · 30 topics/level · 400 từ/level). Runtime KHÔNG đọc `/data/words.json` gốc (1.4MB, chỉ dùng bởi script content-generation).
+  - ⚠️ **Luôn sửa ở `/data/words/{level}.json` rồi chạy `node scripts/split-words-per-topic.js`** — KHÔNG sửa trực tiếp `/data/words/{level}/{topicId}.json` (180 file). Các file này là bản tách tự động phục vụ `/api/words/[level]/[topicId]` (topic/game page tải nhanh); sửa trực tiếp sẽ lệch với file gốc (trang danh sách level, revision, review, srs vẫn đọc file gốc) và bị ghi đè mất khi script chạy lại lần sau.
 - **Academic:** `/data/vocabwise/book{1,2,3}/b{N}-t{NN}.json` → seeded qua `scripts/vw-seed.js` → Supabase · Exercise system: 5 bài chính × 5 câu (E1,E3–E8 tuỳ book) + 1 bài bonus 10 câu (xoay vòng ECategorize/EOddOneOut/ESDSameDiff/ESynSub) = **35 câu/topic**. `answer_key` chỉ cover 5 bài chính.
 - **Word Plans (nguồn duy nhất):** `/data/word-plans/*.csv` — **luôn đọc CSV trước khi tạo/sửa JSON content**, không tự đặt titles hay vocab. Format: `book, theme_no, theme_title, topic_no, topic_id, topic_title, w1…w15` (Book 3: `w1…w10, c1…c5`)
 - **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 58 lessons
