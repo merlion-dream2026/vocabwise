@@ -36,6 +36,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
 
   if (topicRes.error || !topicRes.data) return null
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase's inferred type for this joined select() is awkward to express without generated types
   const topic     = topicRes.data as any
   const passages  = passagesRes.data  ?? []
   const glossary  = glossaryRes.data  ?? []
@@ -44,6 +45,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   const exercisesData: ExercisesData = { combo: topic.combo ?? 'B1' }
   const answerKey: Record<string, Record<string, string>> = {}
   for (const ex of exercises) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any -- shape varies per exercise type (E1/E_CAT/etc.)
     const exObj: any = { type: ex.ex_type, instruction: ex.instruction, items: ex.items }
     if (ex.ex_type === 'E1') {
       if (ex.word_bank) exObj.options = ex.word_bank
@@ -52,6 +54,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
     } else if (ex.word_bank) {
       exObj.word_bank = ex.word_bank
     }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any -- ExercisesData's keys are dynamic (ex_name)
     ;(exercisesData as any)[ex.ex_name] = exObj
     answerKey[`ex${ex.ex_number}`] = ex.answer_key
   }
@@ -59,14 +62,17 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   return {
     meta: {
       topic_title:  topic.topic_title,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase join return type
       theme_title:  (topic.vw_themes as any)?.theme_title ?? '',
       cefr_level:   topic.cefr_level ?? '',
       topic_number: topic.topic_number,
     },
     passage: {
       word_count: passages[0]?.word_count ?? 0,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase select() row type
       paragraphs: passages.map((p: any) => ({ index: p.para_index, text_en: p.text_en, text_vi: p.text_vi })),
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase select() row type
     glossary: glossary.map((g: any) => ({
       id:                   g.item_order,
       type:                 g.item_type ?? 'word',

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { initPhonicsSync, isPairSeen, isLessonMastered, getPairGames } from '@/lib/phonicsSync'
+import { initPhonicsSync } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
@@ -72,7 +72,8 @@ const LEVEL_ARTICLES: Record<string, { intro: string; sections: ArticleSection[]
   },
 }
 
-function LevelArticle({ levelId, gradient, text, bg, border }: { levelId: string; gradient: string; text: string; bg: string; border: string }) {
+// gradient/border currently unused inside — LevelArticle doesn't yet apply its own per-level theming.
+function LevelArticle({ levelId, gradient: _gradient, text, bg, border: _border }: { levelId: string; gradient: string; text: string; bg: string; border: string }) {
   const [open, setOpen] = useState(false)
   const article = LEVEL_ARTICLES[levelId]
   if (!article) return null

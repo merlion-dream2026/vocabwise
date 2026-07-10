@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
@@ -267,7 +267,7 @@ export default function PlacementPage() {
               {q.book === 1 ? 'A1–A2' : q.book === 2 ? 'B1–B2' : 'C1–C2'}
             </div>
             <p className="text-4xl font-black text-gray-800 mb-3">{q.word}</p>
-            <p className="text-gray-500 text-sm leading-relaxed italic">"{q.sentence}"</p>
+            <p className="text-gray-500 text-sm leading-relaxed italic">&quot;{q.sentence}&quot;</p>
           </div>
 
           {/* Options */}

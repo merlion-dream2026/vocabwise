@@ -1,9 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (!(await checkAndIncrementAITextUsage(session.familyId))) {
+    return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  }
 
   const { exerciseType, question, options, baseWord } = await req.json()
   if (!question) return NextResponse.json({ error: 'Missing question' }, { status: 400 })
@@ -55,19 +60,25 @@ Gợi ý: kiểm tra ngữ pháp, collocation, hay từ vựng. Tối đa 2 câu
 Cho một gợi ý ngắn bằng tiếng Việt, không tiết lộ đáp án. Tối đa 2 câu.`
   }
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
-      messages: [{ role: 'user', content: prompt }],
-      max_tokens: 150,
-      temperature: 0.7,
-    }),
-  })
+  let res: Response
+  try {
+    res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'llama-3.1-8b-instant',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 150,
+        temperature: 0.7,
+      }),
+    })
+  } catch (e) {
+    console.error('Groq hint fetch failed:', e)
+    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
+  }
 
   if (!res.ok) {
     console.error('Groq hint error:', res.status)

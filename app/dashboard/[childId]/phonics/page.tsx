@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import {
   initPhonicsSync, getPhonicsStreak, getWeakSounds,
-  getDecayScore, getDecayedLessons, canUseStreakFreeze, useStreakFreeze,
+  getDecayScore, getDecayedLessons, canUseStreakFreeze, applyStreakFreeze,
   getBadges, isLessonMastered, flushPhonics,
 } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
@@ -64,7 +64,6 @@ export default function PhonicsHub() {
   const [session, setSession]     = useState<Session | null>(null)
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [freezeApplied, setFreezeApplied] = useState(false)
-  const [badgeCount, setBadgeCount] = useState(0)
 
   useEffect(() => {
     Promise.all([
@@ -74,14 +73,13 @@ export default function PhonicsHub() {
       setSession(sess)
       initPhonicsSync(childId, data)
       setMastery(data?.mastery ?? {})
-      setBadgeCount(getBadges().length)
       setLoading(false)
     })
   }, [childId])
 
   const handleStreakFreeze = useCallback(async () => {
     if (!canUseStreakFreeze()) return
-    useStreakFreeze()
+    applyStreakFreeze()
     await flushPhonics()
     setFreezeApplied(true)
   }, [])

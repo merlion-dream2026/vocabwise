@@ -44,7 +44,7 @@ function buildQuestions(group: Group, pairIdFilter?: string[]): Question[] {
 
 type Phase = 'listening' | 'choosing' | 'result'
 
-export default function ListenPickPhonicsGame({ group, childId, backUrl, lessonId }: { group: Group; childId: string; backUrl: string; lessonId?: string }) {
+export default function ListenPickPhonicsGame({ group, childId: _childId, backUrl, lessonId }: { group: Group; childId: string; backUrl: string; lessonId?: string }) {
   const router = useRouter()
   const [allQuestions] = useState<Question[]>(() => buildQuestions(group, lessonId ? [lessonId] : undefined))
   const [questions, setQuestions] = useState<Question[]>(allQuestions)

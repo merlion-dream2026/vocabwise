@@ -16,6 +16,9 @@ import {
   logEmail,
   getFamilyStats,
 } from '@/lib/emailLog'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -73,7 +76,7 @@ export async function GET(req: NextRequest) {
     if (error) throw error
     if (!families?.length) return NextResponse.json({ sent: 0, skipped: 0, errors: [], note: 'no families' })
 
-    for (const family of families) {
+    await runInBatches(families, 5, async (family) => {
       const famId      = family.id as string
       const displayName = (family.name as string | null) ?? (family.username as string)
       const planLabel  = PLAN_LABELS[family.plan as string] ?? (family.plan as string)
@@ -81,11 +84,11 @@ export async function GET(req: NextRequest) {
       try {
         if (family.plan !== 'free') {
           // ── Pro user ──────────────────────────────────────────────────────
-          if (!family.plan_end_date) { skipped++; continue }
+          if (!family.plan_end_date) { skipped++; return }
           const daysLeft = daysUntilFloor(family.plan_end_date as string)
 
           if (daysLeft === 14) {
-            if (await hasEmailBeenSent(famId, 'pro_expiry_14d')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'pro_expiry_14d')) { skipped++; return }
             const stats = await getFamilyStats(famId)
             await sendEmail({
               to: family.email as string,
@@ -104,7 +107,7 @@ export async function GET(req: NextRequest) {
             sent++
           } else if (daysLeft === 7 || daysLeft === 1) {
             const emailType = `renewal_reminder_${daysLeft}d`
-            if (await hasEmailBeenSent(famId, emailType)) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, emailType)) { skipped++; return }
             await sendEmail({
               to: family.email as string,
               subject: daysLeft <= 1
@@ -115,7 +118,7 @@ export async function GET(req: NextRequest) {
             await logEmail(famId, emailType)
             sent++
           } else if (daysLeft === -1) {
-            if (await hasEmailBeenSent(famId, 'pro_expiry_d1')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'pro_expiry_d1')) { skipped++; return }
             const stats = await getFamilyStats(famId)
             await sendEmail({
               to: family.email as string,
@@ -129,7 +132,7 @@ export async function GET(req: NextRequest) {
             await logEmail(famId, 'pro_expiry_d1')
             sent++
           } else if (daysLeft === -7) {
-            if (await hasEmailBeenSent(famId, 'pro_expiry_d7')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'pro_expiry_d7')) { skipped++; return }
             const stats = await getFamilyStats(famId)
             await sendEmail({
               to: family.email as string,
@@ -143,11 +146,11 @@ export async function GET(req: NextRequest) {
           }
         } else {
           // ── Free/Trial user ───────────────────────────────────────────────
-          if (!family.free_trial_expires_at) { skipped++; continue }
+          if (!family.free_trial_expires_at) { skipped++; return }
           const daysLeft = daysUntilFloor(family.free_trial_expires_at as string)
 
           if (daysLeft === 3) {
-            if (await hasEmailBeenSent(famId, 'trial_d4')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'trial_d4')) { skipped++; return }
             await sendEmail({
               to: family.email as string,
               subject: '⏰ Còn 3 ngày dùng thử — bạn đã thử hết chưa?',
@@ -156,7 +159,7 @@ export async function GET(req: NextRequest) {
             await logEmail(famId, 'trial_d4')
             sent++
           } else if (daysLeft === 1) {
-            if (await hasEmailBeenSent(famId, 'trial_d6')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'trial_d6')) { skipped++; return }
             const stats = await getFamilyStats(famId)
             await sendEmail({
               to: family.email as string,
@@ -166,7 +169,7 @@ export async function GET(req: NextRequest) {
             await logEmail(famId, 'trial_d6')
             sent++
           } else if (daysLeft === 0) {
-            if (await hasEmailBeenSent(famId, 'trial_d7')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'trial_d7')) { skipped++; return }
             await sendEmail({
               to: family.email as string,
               subject: 'Tài khoản Free từ hôm nay — đây là những gì bạn vẫn có',
@@ -175,7 +178,7 @@ export async function GET(req: NextRequest) {
             await logEmail(famId, 'trial_d7')
             sent++
           } else if (daysLeft === -1) {
-            if (await hasEmailBeenSent(famId, 'trial_d8')) { skipped++; continue }
+            if (await hasEmailBeenSent(famId, 'trial_d8')) { skipped++; return }
             await sendEmail({
               to: family.email as string,
               subject: 'Còn phân vân? Đây là câu trả lời 🤔',
@@ -190,7 +193,7 @@ export async function GET(req: NextRequest) {
       } catch (e) {
         errors.push(`${family.username}: ${String(e)}`)
       }
-    }
+    })
   } catch (e) {
     return NextResponse.json({ error: String(e) }, { status: 500 })
   }

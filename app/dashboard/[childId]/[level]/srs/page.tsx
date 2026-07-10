@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { initGameSync, recordSrsAnswer, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import { speak as speakWord } from '@/lib/speak'
 
 type Word = { word: string; meaning: string; emoji: string }
@@ -30,6 +30,7 @@ function buildQuestions(dueWords: Word[], allWords: Word[]): Question[] {
 
 export default function SrsReviewPage() {
   const router = useRouter()
+  const { initGameSync, recordSrsAnswer, flush } = useGameSync()
   const { childId, level } = useParams<{ childId: string; level: string }>()
   const [questions, setQuestions] = useState<Question[]>([])
   const [totalDue, setTotalDue] = useState(0)

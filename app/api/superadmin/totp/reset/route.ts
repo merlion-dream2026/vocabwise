@@ -4,6 +4,7 @@
 // This removes the totp_secret from admin_config, disabling 2FA immediately.
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { rateLimit } from '@/lib/rateLimit'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -11,6 +12,11 @@ const supabase = createClient(
 )
 
 export async function DELETE(req: NextRequest) {
+  const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? 'unknown'
+  if (!(await rateLimit(`totp-reset:${ip}`, 3, 300)).allowed) {
+    return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 5 phút.' }, { status: 429 })
+  }
+
   const auth = req.headers.get('authorization')
   const secret = process.env.CRON_SECRET
   if (!secret || auth !== `Bearer ${secret}`) {

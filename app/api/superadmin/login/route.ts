@@ -3,6 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 import { verifyPassword, createSession, adminSessionCookieOptions } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
 import { sendEmail } from '@/lib/email'
+import { verifyTotp } from '@/lib/totp'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -15,7 +16,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Quá nhiều lần thử. Vui lòng thử lại sau 5 phút.' }, { status: 429 })
   }
 
-  const { password } = await req.json().catch(() => ({}))
+  const { password, totpCode } = await req.json().catch(() => ({}))
   if (!password) return NextResponse.json({ error: 'Thiếu mật khẩu' }, { status: 400 })
 
   const { data: admin } = await supabase
@@ -28,6 +29,19 @@ export async function POST(req: NextRequest) {
 
   const valid = await verifyPassword(password, admin.password_hash)
   if (!valid) return NextResponse.json({ error: 'Sai mật khẩu' }, { status: 401 })
+
+  // 2FA — this is the actual admin login flow (vk_admin_session), so it must enforce
+  // the same totp_secret that /superadmin/totp/* manages, not just display it as "enabled".
+  const { data: totpRow } = await supabase.from('admin_config').select('value').eq('key', 'totp_secret').single()
+  if (totpRow?.value) {
+    if (!totpCode) {
+      return NextResponse.json({ requires2fa: true }, { status: 200 })
+    }
+    const totpOk = await verifyTotp(totpRow.value, totpCode)
+    if (!totpOk) {
+      return NextResponse.json({ error: 'Mã 2FA không đúng.' }, { status: 401 })
+    }
+  }
 
   const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin' }, '8h')
   const res = NextResponse.json({ ok: true })

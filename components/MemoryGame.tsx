@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { markSeen, recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -50,6 +50,7 @@ const levelCfg = {
 
 export default function MemoryGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { markSeen, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.starter
   const [cards, setCards] = useState<Card[]>(() => buildCards(topic.words))
   const [firstId, setFirstId] = useState<string | null>(null)

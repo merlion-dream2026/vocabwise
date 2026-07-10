@@ -95,6 +95,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     return NextResponse.json({ error: 'Not found' }, { status: 404 })
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase's inferred type for this select() is awkward to express without generated types
   const topic  = topicRes.data as any
   const exRows = exercisesRes.data ?? []
 

@@ -27,19 +27,24 @@ type SyncRow = {
 let cache: { at: number; entries: LeaderboardEntry[] } | null = null
 const CACHE_TTL = 5 * 60_000
 
+// Other families only see a first-name-style nickname, not the child's full real name.
+function maskName(name: string): string {
+  const first = name.trim().split(/\s+/)[0]
+  return first || name
+}
+
 export async function GET(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const now = Date.now()
   if (cache && now - cache.at < CACHE_TTL) {
-    const entries = cache.entries.map(e => ({
-      ...e,
-      isCurrentFamily: false, // re-mark per caller
-    }))
-    // Re-mark current family's children
+    // Re-mark current family's children, then mask names for everyone else
     const familyChildIds = await getFamilyChildIds(session.familyId)
-    const marked = entries.map(e => ({ ...e, isCurrentFamily: familyChildIds.has(e.childId) }))
+    const marked = cache.entries.map(e => {
+      const isCurrentFamily = familyChildIds.has(e.childId)
+      return { ...e, isCurrentFamily, name: isCurrentFamily ? e.name : maskName(e.name) }
+    })
     return NextResponse.json(marked, { headers: { 'Cache-Control': 'private, max-age=60' } })
   }
 
@@ -98,9 +103,12 @@ export async function GET(req: NextRequest) {
 
   cache = { at: now, entries: ranked }
 
-  // Mark current family
+  // Mark current family, then mask names for everyone else
   const familyChildIds = await getFamilyChildIds(session.familyId)
-  const result = ranked.map(e => ({ ...e, isCurrentFamily: familyChildIds.has(e.childId) }))
+  const result = ranked.map(e => {
+    const isCurrentFamily = familyChildIds.has(e.childId)
+    return { ...e, isCurrentFamily, name: isCurrentFamily ? e.name : maskName(e.name) }
+  })
 
   return NextResponse.json(result, { headers: { 'Cache-Control': 'private, max-age=60' } })
 }

@@ -15,7 +15,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="font-black text-gray-800 text-base mb-2">1. Giới thiệu</h2>
-            <p>IELTS CHAMPION ("chúng tôi") vận hành ứng dụng VocabWise và cam kết bảo vệ quyền riêng tư của người dùng. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng Dịch vụ.</p>
+            <p>IELTS CHAMPION (&quot;chúng tôi&quot;) vận hành ứng dụng VocabWise và cam kết bảo vệ quyền riêng tư của người dùng. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng Dịch vụ.</p>
           </section>
 
           <section>

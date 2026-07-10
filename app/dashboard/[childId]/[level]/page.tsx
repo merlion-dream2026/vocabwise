@@ -248,7 +248,6 @@ export default function LevelTopicsPage() {
   const earnedIds = new Set(earnedBadges.map(b => b.id))
   const todayXP = (syncRaw?.history?.[today]?.xp ?? 0) as number
   const todayXPDone = todayXP >= DAILY_XP_GOAL
-  const todayXPPct = Math.min(100, Math.round((todayXP / DAILY_XP_GOAL) * 100))
 
   function topicStatus(topic: Topic): 'done' | 'in_progress' | 'not_started' {
     const m = mastery[topic.id]

@@ -40,7 +40,7 @@ function buildQuestions(group: Group, pairIdFilter?: string[]): Question[] {
 
 type Phase = 'listening' | 'choosing' | 'result'
 
-export default function MinimalPairsGame({ group, childId, backUrl }: { group: Group; childId: string; backUrl: string }) {
+export default function MinimalPairsGame({ group, childId: _childId, backUrl }: { group: Group; childId: string; backUrl: string }) {
   const router = useRouter()
   const [allQuestions] = useState<Question[]>(() => buildQuestions(group))
   const [questions, setQuestions] = useState<Question[]>(allQuestions)
@@ -231,14 +231,14 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
                     Đúng! &nbsp;<span className="font-mono text-amber-700 text-lg">/{q.answer.symbol}/</span>
                   </p>
                   <p className="text-gray-600 text-sm mt-0.5 font-semibold">
-                    "{q.word}" có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> — "{q.answer.keyword}"
+                    &quot;{q.word}&quot; có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> — &quot;{q.answer.keyword}&quot;
                   </p>
                 </div>
               ) : (
                 <div>
                   <p className="font-black text-gray-800 text-sm mb-1.5">
-                    "{q.word}" có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> "{q.answer.keyword}"
-                    &nbsp;—&nbsp;không phải <span className="font-mono text-red-500">/{selected.symbol}/</span> "{selected.keyword}"
+                    &quot;{q.word}&quot; có âm <span className="font-mono text-green-600">/{q.answer.symbol}/</span> &quot;{q.answer.keyword}&quot;
+                    &nbsp;—&nbsp;không phải <span className="font-mono text-red-500">/{selected.symbol}/</span> &quot;{selected.keyword}&quot;
                   </p>
                   <button
                     onClick={() => speak(q.answer.keyword, {
@@ -247,7 +247,7 @@ export default function MinimalPairsGame({ group, childId, backUrl }: { group: G
                     })}
                     className="mt-1 text-amber-500 font-bold text-sm underline"
                   >
-                    🔊 "{q.answer.keyword}" vs "{selected.keyword}"
+                    🔊 &quot;{q.answer.keyword}&quot; vs &quot;{selected.keyword}&quot;
                   </button>
                 </div>
               )}

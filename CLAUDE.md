@@ -35,21 +35,25 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 | Word Stress | ❌ | ❌ | ✅ | ✅ |
 | My Words | 20 từ | ✅ | ✅ | ✅ |
 | SRS ôn từ yếu | 20 từ | ✅ | ✅ | ✅ |
+| Offline download | 0 | 20 topic | ∞ | ∞ |
 | AI Speak | 5/ngày | 30/ngày | ∞ | ∞ |
 | Push notification | ❌ | ✅ | ✅ | ✅ |
 | Email report | ❌ | Thủ công | Auto tuần | Auto tuần |
 | Monthly recap | ❌ | ❌ | ❌ | ✅ |
 | Gift Pro 14 ngày | ❌ | ❌ | ❌ | ✅ |
 
-Gate helpers (all in `lib/planUtils.ts`): `getPlanTier()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `canAccessMyWords()`, `canAccessSRS()`, `getAISpeakLimit()`.
+Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
+
+⚠️ **Không phải mọi route đều gate qua `planUtils.ts`:** `report/settings` và `cron/monthly-recap` hiện so trực tiếp `plan==='6months'` thay vì gọi `getEffectivePlan()` → family có Pro qua bonus/referral bị bỏ sót Monthly Recap (bug đang mở, xem memory `project_security_critical_2026_07`).
 
 Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để áp dụng ngay khi superadmin đổi plan.
 
 ## Data Sources
 - **Daily (Kids):** `/data/words.json` — 6 levels (Seeker→Master) · 30 topics/level · structure: `{ [levelSlug]: { topics[] } }`
-- **Academic:** `/data/vocabwise/book{1,2,3}/b{N}-t{NN}.json` → seeded qua `scripts/vw-seed.js` → Supabase · Exercise system: 5 bài × 5 câu = 25 câu/topic (8 loại E1–E8)
+- **Academic:** `/data/vocabwise/book{1,2,3}/b{N}-t{NN}.json` → seeded qua `scripts/vw-seed.js` → Supabase · Exercise system: 5 bài chính × 5 câu (E1,E3–E8 tuỳ book) + 1 bài bonus 10 câu (xoay vòng ECategorize/EOddOneOut/ESDSameDiff/ESynSub) = **35 câu/topic**. `answer_key` chỉ cover 5 bài chính.
 - **Word Plans (nguồn duy nhất):** `/data/word-plans/*.csv` — **luôn đọc CSV trước khi tạo/sửa JSON content**, không tự đặt titles hay vocab. Format: `book, theme_no, theme_title, topic_no, topic_id, topic_title, w1…w15` (Book 3: `w1…w10, c1…c5`)
-- **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 57 lessons
+- **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 58 lessons
+- ⚠️ **Audio coverage còn thiếu nhiều:** Academic 1/180 topic (0,6%); Story audio Daily thiếu hoàn toàn Scholar+Master (0/30 mỗi level); Daily/Kids không có IPA transcript (0/2.400 từ, chỉ dựa browser TTS)
 
 ## Key Routes
 | Route | Mô tả |
@@ -85,7 +89,8 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 - Username = SĐT (digits only, 9–11 chars), stored lowercase
 - Plan values: `'free'` · `'1month'` · `'3months'` · `'6months'`
 - Ghost account: unverified + OTP expired → auto-delete on re-register
-- Superadmin: session `familyId === 'superadmin'` (hardcoded check)
+- Superadmin: session `familyId === 'superadmin'` (hardcoded check) — đây là flow family login (`vk_session`), **tách biệt** khỏi cổng `/superadmin` (`vk_admin_session`, `/api/superadmin/login`)
+- 🔴 **`/api/superadmin/login` không verify TOTP dù UI báo "2FA đang bật"** — chỉ cần đúng password bảng `super_admin`. Lỗ hổng Critical đang mở, xem memory `project_security_critical_2026_07`. Cần fix trước khi mở rộng user.
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
 - Prefix `vw_` cho tất cả Academic DB tables
 
@@ -101,4 +106,4 @@ OPENAI_API_KEY  GROQ_API_KEY  NEXT_PUBLIC_APP_URL
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---
-*Cập nhật: 29/06/2026*
+*Cập nhật: 09/07/2026 — sau audit toàn diện (bảo mật/tính năng/nội dung/kiến trúc). Chi tiết đầy đủ trong memory `project_security_critical_2026_07`.*

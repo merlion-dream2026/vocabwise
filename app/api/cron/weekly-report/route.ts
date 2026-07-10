@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
 import { buildReportHtml, ChildRow, SyncRow } from '@/lib/reportHtml'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -45,14 +48,14 @@ export async function GET(req: NextRequest) {
   let sent = 0
   const errors: string[] = []
 
-  for (const family of scheduled) {
+  await runInBatches(scheduled, 5, async (family) => {
     try {
       const { data: children } = await supabase
         .from('children')
         .select('id, name, emoji, level')
         .eq('family_id', family.id)
 
-      if (!children?.length) continue
+      if (!children?.length) return
 
       const rows = await Promise.all(
         children.map(async (child: ChildRow) => {
@@ -72,7 +75,7 @@ export async function GET(req: NextRequest) {
     } catch (e) {
       errors.push(`${family.username}: ${e}`)
     }
-  }
+  })
 
   return NextResponse.json({ sent, errors })
 }

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 
@@ -52,6 +52,7 @@ const levelCfg = {
 export default function GapFillGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
   const [questions, setQuestions] = useState<Question[]>(() => buildQuestions(topic.words))
@@ -112,6 +113,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
     const xpEarned = Math.round(score * 1.5)
     return (
       <div className="flex flex-col min-h-screen">
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className={`${styles.headerBg} px-4 pt-12 pb-8 text-white`}>
           <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-4 opacity-90`}>← {topic.name}</button>
           <h1 className="text-2xl font-black">📝 Điền Vào Chỗ Trống</h1>

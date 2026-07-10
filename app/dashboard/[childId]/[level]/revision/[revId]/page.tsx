@@ -195,7 +195,8 @@ function FIBRound({ questions, accentCls, onDone }: { questions: FIBQuestion[]; 
 }
 
 // ── Matching ──────────────────────────────────────────────────────────────────
-function MatchRound({ pairs, setLabel, accentCls, onDone }: { pairs: MatchPair[]; setLabel: string; accentCls: string; onDone: (s: number) => void }) {
+// accentCls currently unused inside — MatchRound doesn't yet apply its own accent color to the UI.
+function MatchRound({ pairs, setLabel, accentCls: _accentCls, onDone }: { pairs: MatchPair[]; setLabel: string; accentCls: string; onDone: (s: number) => void }) {
   const [words]    = useState(() => shuffle(pairs.map(p => p.word)))
   const [meanings] = useState(() => shuffle(pairs.map(p => p.meaning)))
   const wordToMeaning = Object.fromEntries(pairs.map(p => [p.word, p.meaning]))

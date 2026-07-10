@@ -89,7 +89,7 @@ export function canUseStreakFreeze(): boolean {
 }
 
 /** Apply freeze: protect streak for one missed day. Returns true if applied. */
-export function useStreakFreeze(): boolean {
+export function applyStreakFreeze(): boolean {
   if (!canUseStreakFreeze()) return false
   const today = todayStr()
   _streak = { ..._streak, freezeUsedWeek: isoWeek(), lastActive: today }

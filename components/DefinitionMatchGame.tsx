@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 
@@ -19,6 +19,7 @@ type PairState = 'idle' | 'matched' | 'wrong'
 
 export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const speak = useCallback((t: string) => speakWord(t, { rate: 0.9 }), [])
 
   // Shuffle all words once; chunk into rounds of ROUND_SIZE

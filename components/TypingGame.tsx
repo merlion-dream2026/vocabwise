@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
@@ -21,6 +21,7 @@ function shuffle<T>(arr: T[]): T[] {
 export default function TypingGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [input, setInput] = useState('')
@@ -130,6 +131,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
     const xpEarned = score * 2
     return (
       <div className="flex flex-col min-h-screen">
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className="bg-gradient-to-br from-blue-500 to-cyan-400 px-4 pt-12 pb-8 text-white">
           <button onClick={() => router.push(backUrl)} className="text-blue-100 font-bold text-sm flex items-center gap-1 mb-4 opacity-90">← {topic.name}</button>
           <h1 className="text-2xl font-black">⌨️ Typing Sprint</h1>

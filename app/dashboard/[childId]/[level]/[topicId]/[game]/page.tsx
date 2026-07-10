@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { initGameSync, type SyncData } from '@/lib/gameSync'
+import { useGameSync, type SyncData } from '@/lib/GameSyncContext'
 import { loadDailyTopicOffline, loadLastSync } from '@/lib/offlineStorage'
 import dynamic from 'next/dynamic'
 
@@ -26,6 +26,7 @@ type Child = { id: string; name: string; emoji: string; level: string }
 
 export default function GamePage() {
   const router = useRouter()
+  const { initGameSync } = useGameSync()
   const { childId, level, topicId, game } = useParams<{ childId: string; level: string; topicId: string; game: string }>()
   const [ready, setReady] = useState(false)
   const [child, setChild] = useState<Child | null>(null)
@@ -67,7 +68,7 @@ export default function GamePage() {
       setTopic(foundTopic)
       setReady(true)
     })
-  }, [childId, level, topicId, backUrl, router])
+  }, [childId, level, topicId, backUrl, router, initGameSync])
 
   if (!ready || !child || !topic) return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-pink-50">

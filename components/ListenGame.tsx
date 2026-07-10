@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
-import { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } from '@/lib/gameSync'
+import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
@@ -47,6 +47,7 @@ const levelCfg = {
 
 export default function ListenGame({ topic, level, isStarter, backUrl }: Props) {
   const router = useRouter()
+  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const { childId } = useParams<{ childId: string }>()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 

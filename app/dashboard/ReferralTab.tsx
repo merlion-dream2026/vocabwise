@@ -71,10 +71,6 @@ export default function ReferralTab() {
     }
   }
 
-  function shareFacebook() {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`, '_blank', 'width=600,height=400')
-  }
-
   function shareZalo() {
     // Zalo share: trên mobile → mở Zalo app qua deep link; fallback → native share
     const zaloUrl = `https://zalo.me/share?text=${encodeURIComponent(shareText)}`
