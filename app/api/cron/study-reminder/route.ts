@@ -13,6 +13,9 @@ import {
   dateStrDaysAgo,
 } from '@/lib/emailLog'
 import { getGlobalStreak, type SyncAllLevels } from '@/lib/childProgress'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -85,10 +88,10 @@ export async function GET(req: NextRequest) {
   let sent = 0
   const errors: string[] = []
 
-  for (const family of families) {
+  await runInBatches(families, 5, async (family) => {
     const famId = family.id as string
     const kids  = byFamily[famId] ?? []
-    if (!kids.length) continue
+    if (!kids.length) return
 
     const displayName = (family.name as string | null) ?? (family.username as string)
     const isPro       = (family.plan as string) !== 'free'
@@ -99,7 +102,7 @@ export async function GET(req: NextRequest) {
       const la = lastActiveMap[kid.id] ?? ''
       if (la > familyLastActive) familyLastActive = la
     }
-    if (!familyLastActive) continue  // never learned → handled by onboarding cron
+    if (!familyLastActive) return  // never learned → handled by onboarding cron
 
     // Pick the child with the oldest lastActive to highlight in the email
     let focusChild = kids[0]
@@ -116,7 +119,7 @@ export async function GET(req: NextRequest) {
 
     try {
       if (familyLastActive === day3) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_3d', 7)) continue
+        if (await hasEmailBeenSentInDays(famId, 'inactive_3d', 7)) return
         await sendEmail({
           to: family.email as string,
           subject: `📚 ${focusChild.name} chưa học 3 ngày — 5 phút thôi!`,
@@ -125,7 +128,7 @@ export async function GET(req: NextRequest) {
         await logEmail(famId, 'inactive_3d')
         sent++
       } else if (familyLastActive === day7) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_7d', 14)) continue
+        if (await hasEmailBeenSentInDays(famId, 'inactive_7d', 14)) return
         await sendEmail({
           to: family.email as string,
           subject: `📚 ${focusChild.name} chưa học 1 tuần — nhắc bé học hôm nay nhé!`,
@@ -134,7 +137,7 @@ export async function GET(req: NextRequest) {
         await logEmail(famId, 'inactive_7d')
         sent++
       } else if (familyLastActive === day14 && isPro) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_14d', 30)) continue
+        if (await hasEmailBeenSentInDays(famId, 'inactive_14d', 30)) return
         const planEnd = family.plan_end_date
           ? new Date(family.plan_end_date as string).toLocaleDateString('vi-VN', {
               day: '2-digit', month: '2-digit', year: 'numeric',
@@ -148,7 +151,7 @@ export async function GET(req: NextRequest) {
         await logEmail(famId, 'inactive_14d')
         sent++
       } else if (familyLastActive === day30) {
-        if (await hasEmailBeenSentInDays(famId, 'winback_30d', 90)) continue
+        if (await hasEmailBeenSentInDays(famId, 'winback_30d', 90)) return
         const childName = kids.length === 1 ? kids[0].name : undefined
         await sendEmail({
           to: family.email as string,
@@ -161,7 +164,7 @@ export async function GET(req: NextRequest) {
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }
-  }
+  })
 
   return NextResponse.json({ sent, errors })
 }

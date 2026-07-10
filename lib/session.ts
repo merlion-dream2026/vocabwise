@@ -2,7 +2,10 @@ import { SignJWT, jwtVerify } from 'jose'
 import { NextRequest } from 'next/server'
 
 // Edge-compatible session helpers (no bcryptjs)
-const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET!)
+if (!process.env.JWT_SECRET || process.env.JWT_SECRET.length < 32) {
+  throw new Error('JWT_SECRET is missing or too short (must be >= 32 chars) — refusing to start with a forgeable session secret.')
+}
+const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET)
 const COOKIE_NAME = 'vk_session'
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 30
 export const ADMIN_SESSION_MAX_AGE = 60 * 60 * 8 // 8h

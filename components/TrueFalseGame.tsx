@@ -129,7 +129,6 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
 
   const timerPct = (timeLeft / TIME_PER_Q) * 100
   const isCorrectResult = result === 'correct'
-  const isWrongResult = result === 'wrong'
 
   return (
     <div className="flex flex-col min-h-screen">

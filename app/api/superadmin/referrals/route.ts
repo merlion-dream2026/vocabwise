@@ -18,16 +18,11 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const [{ data: allReferrals }, { data: topReferrers }] = await Promise.all([
-    // Tất cả referrals với joined info
-    supabase
-      .from('referrals')
-      .select('id, status, created_at, signup_rewarded_at, paid_rewarded_at, signup_reward_days, paid_reward_days')
-      .order('created_at', { ascending: false }),
-
-    // Top referrers: join families để lấy username
-    supabase.rpc('get_top_referrers', { limit_count: 10 }).maybeSingle(),
-  ])
+  // Top referrers computed manually below (topRaw/topList) — get_top_referrers RPC unused, removed.
+  const { data: allReferrals } = await supabase
+    .from('referrals')
+    .select('id, status, created_at, signup_rewarded_at, paid_rewarded_at, signup_reward_days, paid_reward_days')
+    .order('created_at', { ascending: false })
 
   if (!allReferrals) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 

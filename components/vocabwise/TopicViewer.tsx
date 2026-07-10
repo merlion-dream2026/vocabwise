@@ -118,6 +118,17 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     }
   }, [tab])
 
+  // Stop stale speech/state carried over from the previous topic (route change
+  // reuses this component instance instead of remounting it)
+  useEffect(() => {
+    return () => {
+      audioRef.current?.pause()
+      audioRef.current = null
+      window.speechSynthesis?.cancel()
+      setSpeaking(false)
+    }
+  }, [topicId])
+
   function handleSpeak() {
     if (speaking) {
       audioRef.current?.pause()
@@ -143,10 +154,24 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     }
     const audio = new Audio(`/audio/academic/${topicId}.mp3`)
     audioRef.current = audio
-    audio.addEventListener('canplaythrough', () => { audio.play(); setSpeaking(true) }, { once: true })
-    audio.addEventListener('ended', () => { setSpeaking(false); audioRef.current = null }, { once: true })
-    audio.addEventListener('error', () => { audioRef.current = null; ttsPlayback() }, { once: true })
-    audio.load()
+
+    let fellBack = false
+    const fallbackToTTS = () => {
+      if (fellBack || audioRef.current !== audio) return
+      fellBack = true
+      audioRef.current = null
+      ttsPlayback()
+    }
+
+    audio.addEventListener('ended', () => {
+      if (audioRef.current !== audio) return
+      setSpeaking(false)
+      audioRef.current = null
+    }, { once: true })
+    audio.addEventListener('error', fallbackToTTS, { once: true })
+
+    setSpeaking(true)
+    audio.play().catch(fallbackToTTS)
   }
 
   useEffect(() => {

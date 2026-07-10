@@ -1,6 +1,6 @@
 # Scholar Level — Word Plan
 
-**Status:** Draft — pending review  
+**Status:** Applied — verified 2026-07-09 (data/words.json scholar level: 400/400 unique, 0 duplicates)  
 **Goal:** 400 unique words from 400 total (currently 404 total / 387 unique)  
 **Changes:** 17 dup replacements + 4 word trims
 

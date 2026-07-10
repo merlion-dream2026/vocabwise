@@ -116,6 +116,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid file type' }, { status: 400 })
   }
 
+  // A single word/sentence recording is a few seconds — anything past 5MB is either
+  // misuse or a bad client, not a real pronunciation clip. Explicit check rather than
+  // relying solely on the platform's default request-size limit.
+  const MAX_AUDIO_BYTES = 5 * 1024 * 1024
+  if (audio.size > MAX_AUDIO_BYTES) {
+    return NextResponse.json({ error: 'Audio file too large' }, { status: 413 })
+  }
+
   const ext = audio.type.includes('mp4') ? 'm4a'
     : audio.type.includes('ogg') ? 'ogg'
     : 'webm'

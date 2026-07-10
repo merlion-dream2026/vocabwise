@@ -72,7 +72,7 @@ function scoreResult(transcript: string, targets: string[]): { found: string[]; 
   return { found, missed }
 }
 
-export default function ShadowingGame({ lesson, childId, backUrl, gradient, btnColor }: Props) {
+export default function ShadowingGame({ lesson, childId: _childId, backUrl, gradient, btnColor }: Props) {
   const router = useRouter()
   const items = buildItems(lesson)
   const [step, setStep]       = useState(0)
@@ -302,7 +302,7 @@ export default function ShadowingGame({ lesson, childId, backUrl, gradient, btnC
             {transcript && (
               <div className="bg-gray-50 rounded-xl px-4 py-3 border border-gray-100">
                 <p className="text-[10px] font-bold text-gray-400 uppercase mb-1">AI nghe được:</p>
-                <p className="text-sm text-gray-700 italic">"{transcript}"</p>
+                <p className="text-sm text-gray-700 italic">&quot;{transcript}&quot;</p>
               </div>
             )}
 

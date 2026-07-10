@@ -25,7 +25,7 @@ function buildQuestions(lesson: Lesson): Question[] {
 }
 
 export default function SortRuleGame({
-  lesson, childId, backUrl,
+  lesson, childId: _childId, backUrl,
   gradient = 'from-violet-500 to-purple-600',
   btnColor = 'bg-violet-500',
 }: {

@@ -27,7 +27,7 @@ export async function GET(req: NextRequest) {
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
   // Merge last active dates from vocab_sync (graceful if RPC not yet created)
-  let lastActiveMap: Record<string, string> = {}
+  const lastActiveMap: Record<string, string> = {}
   try {
     const { data: lastActive } = await supabase.rpc('get_family_last_active')
     if (lastActive) {

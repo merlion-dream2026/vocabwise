@@ -11,7 +11,6 @@ import {
   hasEmailBeenSent,
   logEmail,
   getFamilyStats,
-  daysSince,
   NEXT_DAILY_LEVEL,
   DAILY_LEVEL_LABELS,
 } from '@/lib/emailLog'
@@ -22,6 +21,9 @@ import {
   DAILY_TOTAL_TOPICS,
   type SyncLevel,
 } from '@/lib/childProgress'
+import { runInBatches } from '@/lib/batchProcess'
+
+export const maxDuration = 60
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -79,7 +81,7 @@ export async function GET(req: NextRequest) {
   let sent = 0
   const errors: string[] = []
 
-  for (const family of families) {
+  await runInBatches(families, 5, async (family) => {
     const famId = family.id as string
     const displayName = (family.name as string | null) ?? (family.username as string)
 
@@ -207,7 +209,7 @@ export async function GET(req: NextRequest) {
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }
-  }
+  })
 
   return NextResponse.json({ sent, errors })
 }

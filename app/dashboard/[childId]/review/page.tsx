@@ -45,7 +45,6 @@ export default function ReviewPage() {
   const { initGameSync, getWeakWords } = useGameSync()
   const { childId } = useParams<{ childId: string }>()
   const searchParams = useSearchParams()
-  const [child, setChild] = useState<Child | null>(null)
   const [activeLevel, setActiveLevel] = useState('')
   const [reviewWords, setReviewWords] = useState<ReviewWord[]>([])
   const [loading, setLoading] = useState(true)
@@ -58,7 +57,6 @@ export default function ReviewPage() {
     const kids = await fetch('/api/children').then(r => r.json())
     const found = (kids as Child[]).find(k => k.id === childId)
     if (!found) { router.push('/kids'); return }
-    setChild(found)
     // Use level from URL param if present (e.g. from "Ôn ngay" on a specific level page)
     // so that weak words for the browsed level are loaded, not just the profile level
     const level = searchParams.get('level') ?? found.level

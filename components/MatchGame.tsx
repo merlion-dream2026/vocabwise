@@ -49,7 +49,7 @@ const levelCfg = {
 export default function MatchGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
-  const { markSeen, recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { markSeen, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
   // Shuffle both columns independently (use all words in topic)

@@ -60,6 +60,7 @@ async function loadTopics(book: string): Promise<TopicMeta[]> {
 
   if (error || !data) return []
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Supabase joined select() row type
   return data.map((t: any) => ({
     topic_id:       t.topic_id,
     topic_number:   t.topic_number,

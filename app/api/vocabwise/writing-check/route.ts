@@ -1,9 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (!(await checkAndIncrementAITextUsage(session.familyId))) {
+    return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  }
 
   const { targetWord, sentence, cefr } = await req.json()
   if (!targetWord || !sentence) return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
@@ -25,20 +30,26 @@ Hãy đánh giá và trả lời theo đúng format JSON sau (không thêm text 
   "improved": "<câu đã được cải thiện nếu cần, giữ ý nghĩa gốc. Để trống '' nếu câu đã tốt>"
 }`
 
-  const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'gpt-oss-120b',
-      messages: [{ role: 'user', content: prompt }],
-      max_tokens: 300,
-      temperature: 0.4,
-      response_format: { type: 'json_object' },
-    }),
-  })
+  let res: Response
+  try {
+    res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'gpt-oss-120b',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 300,
+        temperature: 0.4,
+        response_format: { type: 'json_object' },
+      }),
+    })
+  } catch (e) {
+    console.error('Cerebras writing-check fetch failed:', e)
+    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
+  }
 
   if (!res.ok) {
     console.error('Groq writing-check error:', res.status)

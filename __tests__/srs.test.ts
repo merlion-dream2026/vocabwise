@@ -1,24 +1,9 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect } from 'vitest'
+import { applySrsAnswer as applyAnswer, type SrsEntry } from '@/lib/GameSyncContext'
 
-// SRS algorithm extracted from lib/gameSync.ts for unit testing
-// (gameSync uses module-level state + browser APIs — test the algorithm directly)
-
-type SrsEntry = { interval: number; due: string; ef: number }
-
-function applyAnswer(entry: SrsEntry | undefined, isCorrect: boolean, today: string): SrsEntry {
-  const e = entry ?? { interval: 1, due: today, ef: 2.5 }
-  if (isCorrect) {
-    const newInterval = Math.min(Math.round(e.interval * e.ef), 60)
-    const newEf = parseFloat(Math.max(1.3, e.ef + 0.1).toFixed(2))
-    const due = new Date()
-    due.setDate(due.getDate() + newInterval)
-    return { interval: newInterval, due: due.toISOString().split('T')[0], ef: newEf }
-  } else {
-    const due = new Date()
-    due.setDate(due.getDate() + 1)
-    return { interval: 1, due: due.toISOString().split('T')[0], ef: parseFloat(Math.max(1.3, e.ef - 0.2).toFixed(2)) }
-  }
-}
+// Imports the real SM-2-style step from lib/GameSyncContext.tsx (recordSrsAnswer
+// delegates to it) instead of a hand-copied reimplementation, so this suite can't
+// silently drift from the production algorithm.
 
 const today = new Date().toISOString().split('T')[0]
 const tomorrow = (() => { const d = new Date(); d.setDate(d.getDate() + 1); return d.toISOString().split('T')[0] })()

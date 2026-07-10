@@ -1,3 +1,5 @@
+import { esc } from './escHtml'
+
 const BASE_URL = 'https://vocabwise.id.vn'
 
 function avatarImg(id: string, name: string, size = 40): string {
@@ -59,6 +61,7 @@ function footer() {
 }
 
 export function welcomeEmailHtml(name: string, tempPassword?: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html>
 <html>
@@ -152,6 +155,7 @@ export function welcomeEmailHtml(name: string, tempPassword?: string): string {
 }
 
 export function renewalReminderEmailHtml(name: string, daysLeft: number, planLabel: string): string {
+  name = esc(name)
   const urgency = daysLeft <= 1 ? '#dc2626' : '#f59e0b'
   const urgencyText = daysLeft <= 1 ? '🚨 Hết hạn ngay hôm nay!' : `⏰ Còn ${daysLeft} ngày là hết hạn!`
 
@@ -210,6 +214,7 @@ export function renewalReminderEmailHtml(name: string, daysLeft: number, planLab
 }
 
 export function trialExpiryReminderEmailHtml(name: string, daysLeft: number): string {
+  name = esc(name)
   const urgency = daysLeft <= 1 ? '#f97316' : '#3b82f6'
   const urgencyText = daysLeft <= 1
     ? '⏰ Hôm nay là ngày cuối dùng thử miễn phí!'
@@ -292,6 +297,7 @@ export function trialExpiryReminderEmailHtml(name: string, daysLeft: number): st
 
 /** Gửi khi referrer nhận +X ngày Pro vì người được mời đã học (signup reward released) */
 export function referralSignupRewardEmailHtml(name: string, days: number, bonusExpiryDate: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html>
 <html>
@@ -332,6 +338,7 @@ export function referralSignupRewardEmailHtml(name: string, days: number, bonusE
 
 /** Gửi khi referrer nhận +X ngày Pro vì người được mời vừa mua Pro (paid reward) */
 export function referralPaidRewardEmailHtml(name: string, days: number, bonusExpiryDate: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html>
 <html>
@@ -374,6 +381,8 @@ export function inactiveChildEmailHtml(
   parentName: string,
   inactiveKids: { name: string; emoji: string; daysInactive: number }[]
 ): string {
+  parentName = esc(parentName)
+  inactiveKids = inactiveKids.map(k => ({ ...k, name: esc(k.name) }))
   const kidBlocks = inactiveKids.map(kid => `
     <table width="100%" cellpadding="0" cellspacing="0" style="background:#fef3c7;border:1px solid #fde68a;border-radius:12px;margin-bottom:10px;">
       <tr>
@@ -424,6 +433,7 @@ export function inactiveChildEmailHtml(
 }
 
 export function proActivatedEmailHtml(name: string, planLabel: string, planEndDate: string, tempPassword?: string): string {
+  name = esc(name)
   const steps = [
     {
       emoji: '🔑',
@@ -537,6 +547,7 @@ export function proActivatedEmailHtml(name: string, planLabel: string, planEndDa
 
 /** D+1: đăng ký 24h chưa học phiên nào */
 export function onboardingD1EmailHtml(name: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -577,6 +588,7 @@ export function onboardingD3EmailHtml(
   words: number,
   topics: number
 ): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -614,6 +626,7 @@ export function onboardingD7EmailHtml(
   topics: number,
   hasActivity: boolean
 ): string {
+  name = esc(name)
   const activityBlock = hasActivity
     ? `
       <div style="background:#f8f4ff;border-radius:12px;padding:16px 20px;margin-bottom:20px">
@@ -653,6 +666,7 @@ export function onboardingD7EmailHtml(
 
 /** Trial D+4: còn 3 ngày dùng thử */
 export function trialD4EmailHtml(name: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -688,6 +702,7 @@ export function trialD4EmailHtml(name: string): string {
 
 /** Trial D+6: còn 1 ngày dùng thử */
 export function trialD6EmailHtml(name: string, wordsLearned: number): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -723,6 +738,7 @@ export function trialD6EmailHtml(name: string, wordsLearned: number): string {
 
 /** Trial D+7: hết trial, chuyển về Free */
 export function trialD7EmailHtml(name: string): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -751,6 +767,7 @@ export function trialD7EmailHtml(name: string): string {
 
 /** Trial D+8: chưa mua sau 1 ngày hết trial — FAQ objection handling */
 export function trialD8EmailHtml(name: string): string {
+  name = esc(name)
   const faqs = [
     { q: '"Học online có hiệu quả không?"', a: 'Học qua game và lặp lại có hệ thống (SRS) giúp nhớ từ lâu hơn 40% so với học truyền thống theo nghiên cứu của Cambridge.' },
     { q: '"Nếu bé không thích chủ đề thì sao?"', a: 'Bé có thể đổi chủ đề, đổi level bất cứ lúc nào. Không ràng buộc.' },
@@ -791,6 +808,7 @@ export function streak7EmailHtml(
   topics: number,
   games: number
 ): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -834,6 +852,7 @@ export function streak30EmailHtml(
   topics: number,
   activeDays: number
 ): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -879,6 +898,7 @@ export function topicMasteredEmailHtml(
   pct: number,
   nextTopicTitle?: string
 ): string {
+  name = esc(name)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -925,6 +945,8 @@ export function levelUpEmailHtml(
   bestStreak: number,
   excellentTopics: number
 ): string {
+  parentName = esc(parentName)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -965,6 +987,8 @@ export function inactive3dEmailHtml(
   childName: string,
   streakDays: number
 ): string {
+  parentName = esc(parentName)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -995,6 +1019,8 @@ export function inactive7dEmailHtml(
   streakDays: number,
   srsWords: number
 ): string {
+  parentName = esc(parentName)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -1020,6 +1046,7 @@ export function inactive7dEmailHtml(
 
 /** Inactive 14 ngày — chỉ Pro users */
 export function inactive14dEmailHtml(parentName: string, planEndDate: string): string {
+  parentName = esc(parentName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -1045,6 +1072,8 @@ export function inactive14dEmailHtml(parentName: string, planEndDate: string): s
 
 /** Win-back 30 ngày */
 export function winback30dEmailHtml(name: string, childName?: string): string {
+  name = esc(name)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -1080,6 +1109,8 @@ export function proExpiry14dEmailHtml(
   streak: number,
   topics: number
 ): string {
+  name = esc(name)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -1122,6 +1153,8 @@ export function proExpiryD1EmailHtml(
   planLabel: string,
   childName: string
 ): string {
+  name = esc(name)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -1152,6 +1185,8 @@ export function proExpiryD1EmailHtml(
 
 /** Pro Expiry D+7: final nudge */
 export function proExpiryD7EmailHtml(name: string, childName?: string): string {
+  name = esc(name)
+  childName = esc(childName)
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>

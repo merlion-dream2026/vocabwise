@@ -32,7 +32,7 @@ function buildQuestions(group: Group): WordQuestion[] {
 
 type Phase = 'listening' | 'choosing' | 'result'
 
-export default function SortWordsGame({ group, childId, backUrl }: { group: Group; childId: string; backUrl: string }) {
+export default function SortWordsGame({ group, childId: _childId, backUrl }: { group: Group; childId: string; backUrl: string }) {
   const router = useRouter()
   const [questions] = useState<WordQuestion[]>(() => buildQuestions(group))
   const [idx, setIdx]       = useState(0)
@@ -176,9 +176,9 @@ export default function SortWordsGame({ group, childId, backUrl }: { group: Grou
                 <div className={`mt-2 rounded-xl p-2.5 ${selected === q.correctSoundIdx ? 'bg-green-50' : 'bg-red-50'}`}>
                   <p className="text-sm font-bold text-gray-700">
                     {selected === q.correctSoundIdx ? (
-                      <>✅ "{q.word}" → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;</>
+                      <>✅ &quot;{q.word}&quot; → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;</>
                     ) : (
-                      <>❌ "{q.word}" → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;, không phải <span className="font-mono text-red-500">/{q.pair.sounds[selected ?? 0]?.symbol}/</span> &ldquo;{q.pair.sounds[selected ?? 0]?.keyword}&rdquo;</>
+                      <>❌ &quot;{q.word}&quot; → <span className="font-mono text-green-600">/{q.pair.sounds[q.correctSoundIdx].symbol}/</span> &ldquo;{q.pair.sounds[q.correctSoundIdx].keyword}&rdquo;, không phải <span className="font-mono text-red-500">/{q.pair.sounds[selected ?? 0]?.symbol}/</span> &ldquo;{q.pair.sounds[selected ?? 0]?.keyword}&rdquo;</>
                     )}
                   </p>
                 </div>

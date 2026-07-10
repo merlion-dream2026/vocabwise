@@ -121,6 +121,7 @@ export default function ReviewPage() {
 
     // XP history
     const today   = new Date().toISOString().split('T')[0]
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any -- history keyed by dynamic date string
     const prev    = (syncRef.current.history as any)[today] ?? {}
     const newHistory = {
       ...syncRef.current.history,

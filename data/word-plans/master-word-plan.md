@@ -1,6 +1,6 @@
 # Master Level — Word Plan
 
-**Status:** Draft — pending review  
+**Status:** Applied — verified 2026-07-09 (data/words.json master level: 400/400 unique, 0 duplicates)  
 **Goal:** 400 unique words from 400 total (currently 356 total / 303 unique)  
 **Changes:** 53 dup replacements + 44 word additions (across 28/30 topics)
 

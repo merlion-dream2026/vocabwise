@@ -1,9 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (!(await checkAndIncrementAITextUsage(session.familyId))) {
+    return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  }
 
   const { sentence, cefr } = await req.json()
   if (!sentence) return NextResponse.json({ error: 'Missing sentence' }, { status: 400 })
@@ -22,19 +27,25 @@ Giải thích ngắn gọn bằng tiếng Việt:
 
 Tối đa 3 điểm, mỗi điểm 1–2 câu ngắn. Không lặp lại câu gốc.`
 
-  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
-      messages: [{ role: 'user', content: prompt }],
-      max_tokens: 200,
-      temperature: 0.5,
-    }),
-  })
+  let res: Response
+  try {
+    res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'llama-3.1-8b-instant',
+        messages: [{ role: 'user', content: prompt }],
+        max_tokens: 200,
+        temperature: 0.5,
+      }),
+    })
+  } catch (e) {
+    console.error('Groq grammar-note fetch failed:', e)
+    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
+  }
 
   if (!res.ok) {
     console.error('Groq grammar-note error:', res.status)

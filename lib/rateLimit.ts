@@ -28,6 +28,17 @@ function getUpstashLimiter(limit: number, windowSec: number): Ratelimit {
   return limiterCache.get(key)!
 }
 
+// Warn (rate-limited to once/60s) when Upstash is unreachable and a call falls back to
+// in-memory — that fallback isn't shared across Vercel instances, so limits stop being
+// enforced globally without this being visible somewhere.
+let lastRedisWarnAt = 0
+export function warnRedisFallback(source: string, err: unknown) {
+  const now = Date.now()
+  if (now - lastRedisWarnAt < 60_000) return
+  lastRedisWarnAt = now
+  console.warn(`[rateLimit] Upstash unreachable, falling back to in-memory (${source}):`, err)
+}
+
 // In-memory fallback
 const store = new Map<string, { count: number; resetAt: number }>()
 
@@ -53,8 +64,8 @@ export async function rateLimit(
     try {
       const { success } = await getUpstashLimiter(limit, windowSec).limit(key)
       return { allowed: success }
-    } catch {
-      // Upstash unreachable — fall through to in-memory
+    } catch (e) {
+      warnRedisFallback('rateLimit', e)
     }
   }
   return { allowed: inMemoryLimit(key, limit, windowSec) }
@@ -71,7 +82,7 @@ export async function checkDailyCap(familyId: string, limit = 150): Promise<bool
       const count = await redis.incr(key)
       if (count === 1) await redis.expire(key, 90000) // 25h
       return count <= limit
-    } catch { /* fall through */ }
+    } catch (e) { warnRedisFallback('checkDailyCap', e) }
   }
   const now = Date.now()
   const ttl = 25 * 60 * 60 * 1000
@@ -93,12 +104,34 @@ export async function checkAndIncrementAISpeakUsage(familyId: string, limit: num
       const count = await redis.incr(key)
       if (count === 1) await redis.expire(key, 90000) // 25h
       return count <= limit
-    } catch { /* fall through */ }
+    } catch (e) { warnRedisFallback('checkAndIncrementAISpeakUsage', e) }
   }
   const now = Date.now()
   const ttl = 25 * 60 * 60 * 1000
   let e = aiSpeakStore.get(key)
   if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; aiSpeakStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
+
+// ── AI text-helper daily usage (explain/hint/grammar-note/writing-check/generate-exercises) ──
+const aiTextStore = new Map<string, { count: number; resetAt: number }>()
+
+/** Shared daily cap across all AI text-helper endpoints per family. Prevents cost-abuse spam. */
+export async function checkAndIncrementAITextUsage(familyId: string, limit = 60): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key = `vw:ai-text:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch (e) { warnRedisFallback('checkAndIncrementAITextUsage', e) }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = aiTextStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; aiTextStore.set(key, e) }
   e.count++
   return e.count <= limit
 }
@@ -114,7 +147,7 @@ export async function incrementOtpAttempts(familyId: string): Promise<number> {
       const count = await redis.incr(key)
       if (count === 1) await redis.expire(key, 900) // 15 min
       return count
-    } catch { /* fall through */ }
+    } catch (e) { warnRedisFallback('incrementOtpAttempts', e) }
   }
   const now = Date.now()
   const ttl = 15 * 60 * 1000

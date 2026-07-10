@@ -236,13 +236,13 @@ function PushNotificationContent() {
               <div className="space-y-1.5">
                 <p className="text-xs font-black text-gray-600">🍎 iPhone / iPad (Safari)</p>
                 <p className="text-xs text-gray-500 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
-                <p className="text-xs text-gray-500">② Chọn <span className="font-bold">"Thêm vào Màn hình chính"</span></p>
+                <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
                 <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
               </div>
               <div className="border-t border-blue-100 pt-2 space-y-1.5">
                 <p className="text-xs font-black text-gray-600">🤖 Android (Chrome)</p>
                 <p className="text-xs text-gray-500 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
-                <p className="text-xs text-gray-500">② Chọn <span className="font-bold">"Thêm vào Màn hình chính"</span> hoặc <span className="font-bold">"Cài đặt ứng dụng"</span></p>
+                <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
                 <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
               </div>
               <p className="text-[11px] text-blue-400 font-semibold text-center pt-1">Sau khi cài xong, mở lại app và bật thông báo nhắc học tại đây</p>
@@ -360,7 +360,7 @@ function GiftTokenCard({ token }: { token: string }) {
 }
 
 // ── Settings tab ──────────────────────────────────────────────────────────────
-export function SettingsTab({ children, session, onChildrenRefresh }: { children: Child[]; session: Session; onChildrenRefresh: () => void }) {
+export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[]; session: Session; onChildrenRefresh: () => void }) {
   const [cur, setCur] = useState(''); const [nw, setNw] = useState(''); const [cnf, setCnf] = useState('')
   const [pwMsg, setPwMsg] = useState('')
   const [pwSaving, setPwSaving] = useState(false)
@@ -370,7 +370,7 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
   const [pinMsg, setPinMsg] = useState<Record<string, string>>({})
   const [pinSaving, setPinSaving] = useState<Record<string, boolean>>({})
   const [showPin, setShowPin] = useState<Record<string, boolean>>({})
-  const [selectedPinChildId, setSelectedPinChildId] = useState<string>(() => children[0]?.id ?? '')
+  const [selectedPinChildId, setSelectedPinChildId] = useState<string>(() => kids[0]?.id ?? '')
 
   async function setPin(childId: string, pin: string | null) {
     setPinSaving(p => ({ ...p, [childId]: true }))
@@ -501,10 +501,10 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
       </CollapsibleCard>
 
       {/* PIN per child */}
-      {children.length > 0 && (
+      {kids.length > 0 && (
         <CollapsibleCard title="🔢 PIN cho bé" subtitle="Bé phải nhập đúng PIN mới vào học được." defaultOpen={false}>
           <div className="flex gap-2 overflow-x-auto pb-2 mb-4" style={{ scrollbarWidth: 'none' }}>
-            {children.map(child => {
+            {kids.map(child => {
               const isActive = child.id === selectedPinChildId
               const c = child.theme && THEME_COLORS[child.theme as 'pink' | 'blue'] ? THEME_COLORS[child.theme as 'pink' | 'blue'] : DEFAULT_COLOR
               return (
@@ -518,7 +518,7 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
               )
             })}
           </div>
-          {children.filter(c => c.id === selectedPinChildId).map(child => (
+          {kids.filter(c => c.id === selectedPinChildId).map(child => (
             <div key={child.id}>
               <div className="flex items-center justify-between mb-3">
                 <span className={`text-xs font-black px-2.5 py-1 rounded-full ${child.pin ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-400'}`}>
@@ -574,11 +574,11 @@ export function SettingsTab({ children, session, onChildrenRefresh }: { children
       )}
 
       {/* Reset — cuối cùng, collapsed by default */}
-      {children.length > 0 && (
+      {kids.length > 0 && (
         <CollapsibleCard title="🔄 Reset tiến độ học" subtitle="Xóa toàn bộ tiến độ. Không thể hoàn tác." defaultOpen={false}>
           <p className="text-gray-400 text-sm font-semibold mb-4">Xóa toàn bộ tiến độ và bắt đầu lại. Không thể hoàn tác.</p>
           <div className="space-y-3">
-            {children.map(child => (
+            {kids.map(child => (
               <div key={child.id} className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Image src={getAvatarSrc(child.emoji)} width={32} height={32} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />

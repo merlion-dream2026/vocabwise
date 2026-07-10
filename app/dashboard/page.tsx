@@ -198,7 +198,7 @@ export default function DashboardPage() {
         ) : tab === 'referral' ? (
           <ReferralTab />
         ) : (
-          <SettingsTab children={children} session={session!} onChildrenRefresh={loadData} />
+          <SettingsTab kids={children} session={session!} onChildrenRefresh={loadData} />
         )}
       </div>
     </div>

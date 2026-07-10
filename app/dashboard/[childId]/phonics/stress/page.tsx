@@ -4,7 +4,7 @@
 // Based on Cambridge PIU Elementary Section B (Units 28-32).
 
 import { useState, useCallback, useEffect, useRef } from 'react'
-import { useRouter, useParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import Confetti from '@/components/Confetti'
 import UpgradeModal from '@/components/UpgradeModal'
@@ -29,7 +29,6 @@ type Phase = 'listening' | 'choosing' | 'result'
 
 export default function WordStressPage() {
   const router = useRouter()
-  const { childId } = useParams<{ childId: string }>()
   const [session, setSession] = useState<Session | null>(null)
   const [sessionLoaded, setSessionLoaded] = useState(false)
 
