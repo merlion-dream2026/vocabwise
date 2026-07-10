@@ -125,7 +125,7 @@ export default function EWordClass({ glossary, onDone }: Props) {
             {isCorrect ? '✅ Đúng!' : `❌ Từ loại đúng: ${validPos.map(p => POS_LABELS[p]).join(' / ')}`}
           </p>
           <p className="text-xs text-gray-500 mt-0.5">
-            "{current?.word}" — {current?.pos}
+            &quot;{current?.word}&quot; — {current?.pos}
           </p>
         </div>
       )}

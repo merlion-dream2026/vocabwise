@@ -82,7 +82,7 @@ export default function ShareCardModal({ topicTitle, score, maxScore, pct, cefr,
             {/* Score card */}
             <div className="bg-white/15 backdrop-blur-sm rounded-2xl px-4 py-4 space-y-3 mb-5">
               <p className="text-white/80 text-xs font-semibold uppercase tracking-wide">Chủ đề</p>
-              <p className="font-black text-base leading-snug">"{topicTitle}"</p>
+              <p className="font-black text-base leading-snug">&quot;{topicTitle}&quot;</p>
 
               <div className="pt-1">
                 <div className="flex items-end justify-between mb-1.5">

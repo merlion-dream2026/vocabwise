@@ -90,7 +90,8 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const [transcript, setTranscript] = useState('')
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
   const [unclear, setUnclear]       = useState(false)
-  const [found, setFound]           = useState<string[]>([])
+  // `_found` is tracked (mirrors `missed`) but only `missed` is currently rendered.
+  const [_found, setFound]          = useState<string[]>([])
   const [missed, setMissed]         = useState<string[]>([])
   const [micError, setMicError]     = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)

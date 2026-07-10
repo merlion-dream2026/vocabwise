@@ -144,7 +144,7 @@ export default function WritingCheck({ words, cefr }: Props) {
             {feedback.improved && (
               <div className="bg-green-50 border border-green-200 rounded-xl px-3 py-2.5">
                 <p className="text-xs font-black text-green-600 mb-1">✨ Câu cải thiện</p>
-                <p className="text-xs text-green-800 font-bold italic leading-relaxed">"{feedback.improved}"</p>
+                <p className="text-xs text-green-800 font-bold italic leading-relaxed">&quot;{feedback.improved}&quot;</p>
               </div>
             )}
 

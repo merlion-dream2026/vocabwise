@@ -100,6 +100,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
     const starEmoji = score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'
     return (
       <div className="flex flex-col min-h-screen">
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-12 pb-8 text-white">
           <button onClick={() => router.push(backUrl)} className="text-pink-100 font-bold text-sm flex items-center gap-1 mb-4 opacity-90">← {topic.name}</button>
           <h1 className="text-2xl font-black">🫧 Bắt Bong Bóng</h1>

@@ -2,7 +2,6 @@ import { createClient } from '@supabase/supabase-js'
 import {
   getAllDailyProgress,
   getGlobalStreak,
-  DAILY_LEVEL_ORDER,
   type SyncAllLevels,
   type SyncLevel,
 } from './childProgress'

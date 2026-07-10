@@ -7,7 +7,7 @@ import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import {
-  DAILY_LEVEL_ORDER, XP_BADGES,
+  XP_BADGES,
   getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
@@ -21,32 +21,12 @@ type Child = {
 }
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
-const LEVEL_LABEL: Record<string, { label: string; desc: string }> = {
-  seeker:   { label: 'Seeker',   desc: 'Pre-A1 · Từ vựng nền tảng'   },
-  starter:  { label: 'Starter',  desc: 'A1 · Từ vựng cơ bản'          },
-  ranger:   { label: 'Ranger',   desc: 'A2 · Từ vựng mở rộng'         },
-  explorer: { label: 'Explorer', desc: 'B1 · Từ vựng nâng cao'        },
-  scholar:  { label: 'Scholar',  desc: 'B2 · Từ vựng học thuật'       },
-  master:   { label: 'Master',   desc: 'C1-C2 · Từ vựng chuyên sâu'  },
-}
-
 const THEME_CONFIG: Record<string, {
   gradient: string; bg: string; border: string; text: string; btn: string; badge: string;
 }> = {
   pink: { gradient: 'from-pink-400 to-rose-400',  bg: 'bg-gradient-to-br from-pink-50 to-rose-50',  border: 'border-pink-200',  text: 'text-pink-600',  btn: 'bg-pink-500 hover:bg-pink-600',  badge: 'bg-pink-100 text-pink-700'  },
   blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
 }
-
-// ── Local helpers ────────────────────────────────────────────
-function MiniBar({ value, max, gradient }: { value: number; max: number; gradient: string }) {
-  const pct = max > 0 ? Math.min(100, Math.round(value / max * 100)) : 0
-  return (
-    <div className="flex-1 h-1.5 bg-black/10 rounded-full overflow-hidden min-w-0">
-      <div className={`h-full bg-gradient-to-r ${gradient} rounded-full transition-all duration-500`} style={{ width: `${pct}%` }} />
-    </div>
-  )
-}
-// ─────────────────────────────────────────────────────────────
 
 const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
   free:     { label: 'FREE',     cls: 'bg-gray-100 text-gray-500' },

@@ -15,7 +15,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="font-black text-gray-800 text-base mb-2">1. Giới thiệu</h2>
-            <p className="mb-2">VocabWise ("Dịch vụ") là ứng dụng học từ vựng tiếng Anh dành cho trẻ em, được sáng tạo và vận hành bởi <strong>Thầy Andie Nguyễn</strong> — Đồng sáng lập thương hiệu IELTS CHAMPION.</p>
+            <p className="mb-2">VocabWise (&quot;Dịch vụ&quot;) là ứng dụng học từ vựng tiếng Anh dành cho trẻ em, được sáng tạo và vận hành bởi <strong>Thầy Andie Nguyễn</strong> — Đồng sáng lập thương hiệu IELTS CHAMPION.</p>
             <p className="mb-2 text-gray-500 text-xs leading-relaxed">Thầy Andie Nguyễn: hơn 10 năm kinh nghiệm giảng dạy IELTS/SAT · IELTS 8.5 Overall (8.5 Writing) · Thạc sỹ Quản trị Kinh doanh (Vương quốc Anh) · Học bổng toàn phần Chính phủ Singapore · Tốt nghiệp National University of Singapore (top 8 thế giới).</p>
             <p>Bằng việc đăng ký và sử dụng Dịch vụ, bạn (phụ huynh/người giám hộ) đồng ý với các điều khoản dưới đây.</p>
           </section>
@@ -62,7 +62,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="font-black text-gray-800 text-base mb-2">6. Giới hạn trách nhiệm</h2>
-            <p>Dịch vụ được cung cấp "nguyên trạng". Chúng tôi không đảm bảo Dịch vụ hoạt động liên tục không gián đoạn. Chúng tôi không chịu trách nhiệm về các thiệt hại gián tiếp phát sinh từ việc sử dụng Dịch vụ.</p>
+            <p>Dịch vụ được cung cấp &quot;nguyên trạng&quot;. Chúng tôi không đảm bảo Dịch vụ hoạt động liên tục không gián đoạn. Chúng tôi không chịu trách nhiệm về các thiệt hại gián tiếp phát sinh từ việc sử dụng Dịch vụ.</p>
           </section>
 
           <section>

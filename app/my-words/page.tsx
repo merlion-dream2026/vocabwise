@@ -1,7 +1,6 @@
 'use client'
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import type { WordList } from '@/components/WordListPicker'
 import UpgradeModal from '@/components/UpgradeModal'
@@ -45,7 +44,6 @@ function sortWords(words: SavedWord[], key: SortKey) {
 }
 
 export default function MyWordsPage() {
-  const router = useRouter()
   const [session, setSession]       = useState<Session | null>(null)
   const [sessionLoaded, setSessionLoaded] = useState(false)
   const [words, setWords]           = useState<SavedWord[]>([])
@@ -325,7 +323,7 @@ export default function MyWordsPage() {
                   ) : isConfirming ? (
                     <div className="flex items-center gap-1.5 bg-red-50 border border-red-200 rounded-full px-3 py-1.5">
                       <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: l.color }} />
-                      <span className="text-xs font-black text-red-700 whitespace-nowrap">Xóa "{l.name}"?</span>
+                      <span className="text-xs font-black text-red-700 whitespace-nowrap">Xóa &quot;{l.name}&quot;?</span>
                       <button
                         onClick={() => setConfirmDeleteList(null)}
                         className="text-[10px] font-black text-gray-500 bg-white border border-gray-200 rounded-full px-2 py-0.5 hover:bg-gray-100 transition-colors"

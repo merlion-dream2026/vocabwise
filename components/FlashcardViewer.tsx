@@ -88,7 +88,6 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const router = useRouter()
   const { markSeen, recordActivity, recordFlashcardDone, flush } = useGameSync()
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isSpeaking, setIsSpeaking] = useState(false)
   const [speakingId, setSpeakingId] = useState<string | null>(null)
   const [completed, setCompleted] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
@@ -160,9 +159,9 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     speakWord(text, {
       rate: isStarter ? 0.85 : 1.0,
       pitch: isStarter ? 1.2 : 1.0,
-      onStart: () => { setIsSpeaking(true); setSpeakingId(id) },
-      onEnd: () => { setIsSpeaking(false); setSpeakingId(null) },
-      onError: () => { setIsSpeaking(false); setSpeakingId(null) },
+      onStart: () => { setSpeakingId(id) },
+      onEnd: () => { setSpeakingId(null) },
+      onError: () => { setSpeakingId(null) },
     })
   }, [isStarter])
 
@@ -359,7 +358,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   </button>
                   <div>
                     <p className={`${styles.exampleText} font-bold text-base leading-snug italic`}>
-                      "{ex.en}"
+                      &quot;{ex.en}&quot;
                     </p>
                     <p className="text-gray-500 text-sm mt-0.5 leading-snug">
                       {ex.vi}

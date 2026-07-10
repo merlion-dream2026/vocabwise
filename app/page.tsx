@@ -3,39 +3,6 @@ import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
 import LandingVideoGallery from '@/components/landing/LandingVideoGallery'
 import LandingScreenshotGallery from '@/components/landing/LandingScreenshotGallery'
 
-const SECTIONS = [
-  {
-    emoji: '🎤',
-    title: 'Phonics',
-    badge: 'Mọi lứa tuổi',
-    badgeCls: 'bg-green-100 text-green-700',
-    desc: 'IPA chuẩn Cambridge · minimal pairs · AI chấm phát âm',
-    available: true,
-    cardCls: 'border-green-200 bg-green-50/50',
-    accentCls: 'text-green-600',
-  },
-  {
-    emoji: '📚',
-    title: 'VocabWise Daily',
-    badge: '5–15 tuổi',
-    badgeCls: 'bg-purple-100 text-purple-700',
-    desc: '2.400+ từ · 6 cấp độ CEFR · 10 trò chơi tương tác',
-    available: true,
-    cardCls: 'border-purple-200 bg-purple-50/50',
-    accentCls: 'text-purple-600',
-  },
-  {
-    emoji: '🎓',
-    title: 'VocabWise Academic',
-    badge: 'Teen & Người lớn · A1→C2',
-    badgeCls: 'bg-blue-100 text-blue-700',
-    desc: '3 books · 180 chủ đề · Passage · 8 dạng bài tập · IELTS/SAT',
-    available: true,
-    cardCls: 'border-blue-200 bg-blue-50/50',
-    accentCls: 'text-blue-600',
-  },
-]
-
 const MODULE_CARDS = [
   {
     emoji: '🎤',
@@ -394,7 +361,7 @@ export default function LandingPage() {
               Đồng sáng lập <strong>IELTS CHAMPION</strong> · IELTS 8.5 Overall (Writing 8.5) · Thạc sỹ MBA Vương quốc Anh · Học bổng toàn phần của Chính phủ Singapore · Tốt nghiệp <strong>School of Business, National University of Singapore</strong> (Top 8 thế giới) · Hơn 10 năm kinh nghiệm giảng dạy IELTS/SAT · Trực tiếp đào tạo nhiều học viên IELTS 7.0, 7.5, 8.0.
             </p>
             <p className="text-purple-500 text-xs font-semibold mt-2 leading-relaxed">
-              "Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabWise để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!"
+              &quot;Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabWise để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!&quot;
             </p>
           </div>
         </div>

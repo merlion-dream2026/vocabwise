@@ -42,7 +42,7 @@ function HighlightedSentence({ sentence, stressed }: { sentence: string; stresse
 }
 
 export default function SentenceRhythmGame({
-  lesson, childId, backUrl,
+  lesson, childId: _childId, backUrl,
   gradient = 'from-amber-500 to-orange-600',
   btnColor = 'bg-amber-500',
 }: {

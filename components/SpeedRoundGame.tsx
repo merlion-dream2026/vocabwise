@@ -122,6 +122,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
     const xpEarned = score * 2
     return (
       <div className="flex flex-col min-h-screen">
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-12 pb-8 text-white">
           <button onClick={() => router.push(backUrl)} className="text-violet-100 font-bold text-sm flex items-center gap-1 mb-4 opacity-90">← {topic.name}</button>
           <h1 className="text-2xl font-black">⚡ Speed Round</h1>
