@@ -97,6 +97,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [savedWords,     setSavedWords]     = useState<Set<string>>(new Set())
   const [pickerWord,     setPickerWord]     = useState<{ word: string; meaning: string; cls: string } | null>(null)
   const [showLimitModal, setShowLimitModal] = useState(false)
+  const [hasStory,       setHasStory]       = useState(false)
 
   // Load saved words for this topic on mount
   useEffect(() => {
@@ -211,6 +212,15 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     setExplaining(prev => { const s = new Set(prev); s.delete(w.word); return s })
   }
 
+  // Check if this topic has a Mini Story, to show the nudge on the completion screen
+  useEffect(() => {
+    if (!completed) return
+    fetch(`/api/stories/${level}/${topic.id}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => setHasStory(!!d))
+      .catch(() => {})
+  }, [completed, level, topic.id])
+
   const restart = () => {
     setCurrentIndex(0)
     setCompleted(false)
@@ -233,6 +243,21 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           <p className="text-gray-500 font-semibold text-lg text-center mb-8">
             Bé đã học hết <strong>{total} từ</strong> trong chủ đề này!
           </p>
+
+          {hasStory && (
+            <button
+              onClick={() => router.push(`${backUrl}#mini-story`)}
+              className={`w-full ${styles.cardBg} ${styles.cardBorder} border-2 rounded-2xl px-4 py-3.5 mb-4 flex items-center gap-3 text-left transition-all active:scale-95 hover:shadow-md`}
+            >
+              <span className="text-3xl flex-shrink-0">📖</span>
+              <div className="flex-1 min-w-0">
+                <p className="font-black text-gray-800 text-sm leading-tight">Nâng trình cùng Mini Story</p>
+                <p className="text-gray-500 text-xs mt-0.5">Đọc chuyện dùng {total} từ vừa học — chỉ 3 phút!</p>
+              </div>
+              <span className={`${styles.wordColor} font-black text-lg flex-shrink-0`}>→</span>
+            </button>
+          )}
+
           <div className="w-full space-y-3">
             <button
               onClick={restart}

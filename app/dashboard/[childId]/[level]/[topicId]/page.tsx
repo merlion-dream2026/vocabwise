@@ -117,6 +117,18 @@ export default function TopicPage() {
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
   const exerciseCacheRef = useRef<{ key: string; data: ParsedExercise | null } | null>(null)
+  const storyRef = useRef<HTMLDivElement | null>(null)
+
+  const scrollToStory = () => {
+    storyRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  // Auto-scroll to Mini Story when arriving via nudge (e.g. from Flashcard completion screen)
+  useEffect(() => {
+    if (story && window.location.hash === '#mini-story') {
+      setTimeout(scrollToStory, 200)
+    }
+  }, [story])
 
   useEffect(() => {
     // Offline path: serve from localStorage (avoids failed API calls)
@@ -487,6 +499,19 @@ export default function TopicPage() {
           </div>
         )}
 
+        {/* Mini Story teaser — always visible, no scrolling needed */}
+        {story && (
+          <button
+            onClick={scrollToStory}
+            className={`w-full ${colors.header} rounded-2xl px-4 py-2.5 flex items-center justify-between gap-2 shadow-sm active:scale-95 transition-all`}
+          >
+            <span className="text-white font-bold text-xs text-left leading-tight">
+              📖 Mini Story đang chờ — nâng trình đọc hiểu cùng {(topic as { name: string }).name}!
+            </span>
+            <span className="text-white/90 text-xs font-black flex-shrink-0">↓ Xem</span>
+          </button>
+        )}
+
         {/* Lesson mode / Free mode toggle */}
         {lessonMode ? (
           <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
@@ -628,7 +653,7 @@ export default function TopicPage() {
 
         {/* Mini Story */}
         {story && (
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+          <div ref={storyRef} className="bg-white rounded-2xl shadow-sm overflow-hidden scroll-mt-4">
             {/* Story header */}
             <div className={`${colors.header} px-4 py-3 flex items-center justify-between`}>
               <div className="flex items-center gap-2">
