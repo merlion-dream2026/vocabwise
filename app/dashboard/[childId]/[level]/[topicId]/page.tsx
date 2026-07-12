@@ -112,6 +112,7 @@ export default function TopicPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [lessonMode, setLessonMode] = useState(true)
   const [stepScores, setStepScores] = useState<Record<string, { correct: number; total: number } | null>>({})
+  const [showVoiceNotice, setShowVoiceNotice] = useState(false)
   const [showExercise, setShowExercise] = useState(false)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
@@ -215,6 +216,18 @@ export default function TopicPage() {
     for (const g of allGameKeys) loaded[g] = getStepScore(childId, topicId, g)
     setStepScores(loaded)
   }, [childId, topicId])
+
+  // One-time notice: Mini Story narrator switches to a male voice from Scholar onward
+  useEffect(() => {
+    if (level === 'scholar' && !localStorage.getItem(`voicechange_${childId}`)) {
+      setShowVoiceNotice(true)
+    }
+  }, [level, childId])
+
+  function dismissVoiceNotice() {
+    localStorage.setItem(`voicechange_${childId}`, '1')
+    setShowVoiceNotice(false)
+  }
 
   if (loading) {
     const skeletonColors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
@@ -648,6 +661,23 @@ export default function TopicPage() {
                 )
               })}
             </div>
+          </div>
+        )}
+
+        {/* One-time voice-change notice (Scholar onward) */}
+        {story && showVoiceNotice && (
+          <div className="bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3 flex items-start gap-2">
+            <span className="text-lg leading-none flex-shrink-0">🎙️</span>
+            <p className="flex-1 text-xs text-indigo-700 leading-relaxed">
+              <span className="font-bold">Giọng đọc mới!</span> Từ Scholar trở đi, Mini Story sẽ có giọng nam để bạn làm quen với nhiều giọng tiếng Anh khác nhau nhé!
+            </p>
+            <button
+              onClick={dismissVoiceNotice}
+              aria-label="Đóng"
+              className="text-indigo-400 hover:text-indigo-600 text-sm leading-none flex-shrink-0"
+            >
+              ✕
+            </button>
           </div>
         )}
 
