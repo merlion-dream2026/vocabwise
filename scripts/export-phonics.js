@@ -5,7 +5,7 @@
  * Usage:
  *   node scripts/export-phonics.js
  *
- * Output: phonics-qc.md (project root)
+ * Output: exports/phonics-audit/phonics.md
  *
  * Format is parseable by import-phonics.js to round-trip back to JSON.
  */
@@ -16,7 +16,10 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const levelsPath = path.join(ROOT, 'data', 'phonicsLevels.json');
 const knowledgePath = path.join(ROOT, 'data', 'phonicsKnowledge.json');
-const outPath = path.join(ROOT, 'phonics-qc.md');
+const outDir = path.join(ROOT, 'exports', 'phonics-audit');
+const outPath = path.join(outDir, 'phonics.md');
+
+fs.mkdirSync(outDir, { recursive: true });
 
 const levels = JSON.parse(fs.readFileSync(levelsPath, 'utf8'));
 const knowledge = JSON.parse(fs.readFileSync(knowledgePath, 'utf8'));
@@ -186,7 +189,7 @@ for (const level of levels.levels) {
 
 fs.writeFileSync(outPath, lines.join('\n'), 'utf8');
 
-console.log(`✅ Exported ${totalLessons} lessons → phonics-qc.md`);
+console.log(`✅ Exported ${totalLessons} lessons → exports/phonics-audit/phonics.md`);
 if (missingKnowledge.length) {
   console.warn(`⚠️  Missing knowledge entries: ${missingKnowledge.join(', ')}`);
 }

@@ -3,26 +3,28 @@
  * Import QC'd Markdown back into phonicsKnowledge.json + phonicsLevels.json.
  *
  * Usage:
- *   node scripts/import-phonics.js [--dry-run]
+ *   node scripts/import-phonics.js [path/to/file.md] [--dry-run]
  *
- * Reads: phonics-qc.md (project root)
+ * Reads: exports/phonics-audit/phonics.md by default, or the path given as
+ *   the first non-flag argument (e.g. exports/phonics-audit/phonics-fixes.md)
  * Writes: data/phonicsKnowledge.json, data/phonicsLevels.json
  *
- * Parses the format produced by scripts/export-phonics.js.
- * Only fields present in the MD are written back — structural fields in
- * phonicsLevels.json (games, masteryGames, pairAudio, sounds, etc.) are
- * left untouched.
+ * Parses the format produced by scripts/export-phonics.js. Only lessons/fields
+ * present in the MD are written back — omitted lessons and structural fields
+ * in phonicsLevels.json (games, masteryGames, pairAudio, sounds, etc.) are
+ * left untouched. This means a partial-diff file (only changed lessons, only
+ * changed fields within them) works exactly like a full re-export.
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const mdPath = path.join(ROOT, 'phonics-qc.md');
+const DRY_RUN = process.argv.includes('--dry-run');
+const mdArg = process.argv.slice(2).find(a => !a.startsWith('--'));
+const mdPath = mdArg ? path.resolve(mdArg) : path.join(ROOT, 'exports', 'phonics-audit', 'phonics.md');
 const levelsPath = path.join(ROOT, 'data', 'phonicsLevels.json');
 const knowledgePath = path.join(ROOT, 'data', 'phonicsKnowledge.json');
-
-const DRY_RUN = process.argv.includes('--dry-run');
 
 const mdText = fs.readFileSync(mdPath, 'utf8');
 const levelsData = JSON.parse(fs.readFileSync(levelsPath, 'utf8'));
