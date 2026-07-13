@@ -23,6 +23,9 @@ Với MỖI câu, kiểm tra:
 3. Hai option còn lại thực sự SAI (không có option nào khác cũng đúng — tránh 2 đáp án đúng).
 4. EXPLANATION_EN giải thích đúng lý do và không mâu thuẫn với ANSWER.
 5. Không có lỗi đánh máy/logic nào khác trong câu.
+6. **[Kiểm tra cấu trúc]** SENTENCE phải chứa ĐÚNG 1 cặp ngoặc vuông `[...]`, và chữ bên trong ngoặc phải khớp y hệt HIGHLIGHTED (đây là lỗi hay gặp, làm vỡ giao diện app — luôn kiểm tra kỹ):
+   - Nếu SENTENCE có **2 cặp ngoặc vuông**: chỉ giữ ngoặc quanh từ trùng HIGHLIGHTED, xóa dấu ngoặc quanh từ còn lại (giữ nguyên chữ đó, không xóa chữ).
+   - Nếu SENTENCE dùng **`_____`** thay vì ngoặc vuông (không có ngoặc nào): viết lại thành câu hoàn chỉnh tự nhiên, đặt HIGHLIGHTED vào đúng vị trí đó trong cặp ngoặc vuông thay cho `_____`. Giữ nguyên HIGHLIGHTED/options/ANSWER/EXPLANATION_EN nếu nội dung đó vẫn hợp lý — chỉ cần sửa SENTENCE.
 
 ## Output — CHỈ liệt kê câu CẦN SỬA, giữ nguyên format block
 
@@ -38,4 +41,18 @@ Ví dụ output khi sửa 1 câu (chỉ đổi ANSWER, EXPLANATION_EN không đ�
 ### [book1/b1-t04/item2]
 ANSWER: A
 REASON_VI: Đáp án gốc chọn C ("busing") không có nghĩa — "busing" là danh động từ của "bus" (đưa đón bằng xe buýt), không phải tính từ. Câu cần tính từ "busy".
+```
+
+Ví dụ sửa lỗi cấu trúc — SENTENCE có 2 cặp ngoặc, chỉ giữ ngoặc quanh HIGHLIGHTED:
+
+```
+### [book2/b2-t03/item3]
+SENTENCE: He was referred to see a [specialise] at the city hospital.
+```
+
+Ví dụ sửa lỗi cấu trúc — SENTENCE dùng `_____` thay vì ngoặc vuông:
+
+```
+### [book2/b2-t52/item1]
+SENTENCE: The new law gives citizens the [chance] to request the deletion of their personal information.
 ```
