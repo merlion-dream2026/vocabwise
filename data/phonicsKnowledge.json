@@ -1,10 +1,10 @@
 {
   "iː-ɪ": {
     "how_to": [
-      "iː: Kéo miệng rộng sang hai bên như đang cười thật tươi — càng rộng càng tốt. Lưỡi nâng cao về phía trước vòm miệng. Kéo dài âm gấp đôi.",
-      "ɪ: Thả lỏng hoàn toàn — miệng nhỏ hơn, lưỡi vẫn cao nhưng hạ xuống một chút. Âm ngắn và 'lỏng'. Đừng cố căng."
+      "iː: Lưỡi nâng cao và đưa về phía trước, hàm gần khép, môi hơi kéo sang hai bên. Âm dài và căng hơn /ɪ/, nhưng không cần kéo miệng rộng tối đa.",
+      "ɪ: Lưỡi vẫn ở phía trước nhưng thấp và lùi hơn một chút so với /iː/, môi thả lỏng. Âm ngắn và lỏng hơn. Khác biệt nằm ở cả chất lượng âm lẫn độ dài, không chỉ ở việc kéo dài."
     ],
-    "vs_vietnamese": "Tiếng Việt có 'i' nhưng luôn ngắn và rõ. iː khác ở độ kéo dài và miệng căng hơn nhiều. ɪ hoàn toàn không có trong tiếng Việt — học sinh hay đọc thành iː hoặc thành 'i' Việt Nam ngắn cũn.",
+    "vs_vietnamese": "Âm /i/ tiếng Việt khá gần /iː/ nhưng thường ngắn hơn và không tạo cùng sự đối lập căng–lỏng. Tiếng Việt không có âm tương đương chính xác với /ɪ/, nên học sinh thường đọc /ɪ/ thành /iː/ hoặc thành âm \"i\" tiếng Việt.",
     "spelling": [
       {
         "pattern": "ee",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "pattern": "i+e (một số từ đặc biệt)",
+        "pattern": "e / e...e",
         "examples": [
           "these",
           "complete",
@@ -94,12 +94,12 @@
       "\"hit\" /hɪt/ vs \"heat\" /hiːt/, \"live\" /lɪv/ (động từ) vs \"leave\" /liːv/ — cặp hay nhầm nhất",
       "Đọc cả hai âm như nhau, không phân biệt dài/ngắn"
     ],
-    "mnemonic": "iː = 'Cheese!' 🧀 — nói 'cheese' chụp ảnh, miệng kéo dài tối đa. ɪ = thở nhẹ 'ih' — lỏng và nhanh như tiếng thở ngắn."
+    "mnemonic": "iː = \"Cheese!\" 🧀 — môi hơi kéo ngang và giữ âm lâu hơn. ɪ = âm ngắn trong \"sit\" — miệng thả lỏng và kết thúc nhanh."
   },
   "uː-ʊ": {
     "how_to": [
-      "uː: Tròn môi thật căng như thổi kèn, đẩy môi ra phía trước. Lưỡi cao phía sau. Kéo dài.",
-      "ʊ: Tròn môi nhẹ hơn, hơi thả lỏng, miệng mở thêm một chút so với uː. Âm ngắn — không căng."
+      "uː: Lưỡi nâng cao ở phía sau hoặc hơi tiến về giữa trong giọng Anh hiện đại; môi tròn và đưa nhẹ ra trước. Giữ âm dài, nhưng không siết môi quá căng.",
+      "ʊ: Lưỡi thấp hơn và thả lỏng hơn /uː/ một chút; môi chỉ tròn nhẹ. Âm ngắn và lỏng hơn rõ rệt."
     ],
     "vs_vietnamese": "Tiếng Việt có 'u' nhưng không phân biệt dài/ngắn. ʊ hoàn toàn không tồn tại — học sinh hay đọc 'book' như 'buk' căng, hoặc 'full' như 'fool'.",
     "spelling": [
@@ -180,12 +180,12 @@
       "\"good\" đọc thành \"gude\" (giọng uː căng)",
       "\"foot\" vs \"food\" — cặp minimal pair cực hay nhầm"
     ],
-    "mnemonic": "uː = hình chữ 'O' tròn căng — môi như ống kèn 🎺. ʊ = 'uh-oh!' — tròn nhẹ, thả lỏng, ngắn."
+    "mnemonic": "uː = âm dài trong \"blue moon\" 🌙 — môi tròn và giữ lâu. ʊ = âm ngắn trong \"good book\" 📘 — môi tròn nhẹ và kết thúc nhanh."
   },
   "ɑː-ʌ": {
     "how_to": [
-      "ɑː: Há miệng rộng nhất có thể như bác sĩ bảo 'Aah!'. Hạ hàm xuống, lưỡi phẳng và thấp sát sàn miệng. Kéo dài.",
-      "ʌ: Há miệng vừa phải (khoảng ½ rộng so với ɑː), lưỡi ở giữa, âm ngắn và trung tâm. Không căng, không tròn."
+      "ɑː: Hạ hàm và mở miệng khá rộng; lưỡi thấp và lùi về phía sau, môi không tròn. Giữ âm dài nhưng không cần há miệng \"rộng nhất có thể\".",
+      "ʌ: Miệng mở vừa phải; lưỡi ở vùng giữa–sau và thả lỏng, môi không tròn. Âm ngắn hơn /ɑː/."
     ],
     "vs_vietnamese": "ɑː gần với 'a' tiếng Việt nhưng miệng mở hơn nhiều và kéo dài hơn. ʌ hoàn toàn không có — học sinh thường thay bằng 'a' Việt Nam (sai cả hai âm).",
     "spelling": [
@@ -293,12 +293,12 @@
       "\"fun\" đọc như \"fan\" — ʌ bị thay bằng æ",
       "\"come\" đọc như \"comb\" — o trong 'come' là /ʌ/ không phải /əʊ/"
     ],
-    "mnemonic": "ɑː = 'Aaah!' bác sĩ khám họng 👨‍⚕️ — miệng mở tối đa. ʌ = tiếng thở 'uh' ngắn — giống khi bạn không chú ý."
+    "mnemonic": "ɑː = \"Ah...\" khi bác sĩ khám họng 👨‍⚕️ — mở miệng khá rộng và giữ âm. ʌ = âm ngắn trong \"cup\" — miệng mở vừa và thả lỏng."
   },
   "ɒ-ɔː": {
     "how_to": [
-      "ɒ: Miệng mở rộng, hàm hạ thấp, môi KHÔNG tròn hoặc chỉ tròn rất nhẹ — âm ngắn. (British English; American English thường dùng /ɑː/ thay thế.)",
-      "ɔː: Tròn môi căng hơn ɒ, miệng hơi hẹp lại, âm dài và 'tròn'. Căng môi như đang nói 'aw' kéo dài."
+      "ɒ: Hạ hàm, lưỡi thấp và lùi về phía sau; môi tròn nhẹ. Đây là âm ngắn trong British English.",
+      "ɔː: Lưỡi cao hơn một chút so với /ɒ/, môi tròn rõ hơn và âm được giữ lâu hơn."
     ],
     "vs_vietnamese": "Cả hai không có tương đương trong tiếng Việt. Học sinh hay đọc cả hai thành 'o' Việt Nam (ngắn, không tròn đủ). ɔː cần căng môi nhiều hơn 'o' Việt Nam.",
     "spelling": [
@@ -359,7 +359,6 @@
           "ball",
           "walk",
           "talk",
-          "because",
           "caught",
           "law",
           "saw"
@@ -368,7 +367,6 @@
           "/bɔːl/",
           "/wɔːk/",
           "/tɔːk/",
-          "/bɪˈkɔːz/",
           "/kɔːt/",
           "/lɔː/",
           "/sɔː/"
@@ -385,10 +383,10 @@
   },
   "e-æ": {
     "how_to": [
-      "e: Miệng mở vừa phải, lưỡi ở giữa-trước, không tròn. Giống 'e' tiếng Việt nhưng miệng mở hơn một chút.",
-      "æ: Há miệng rộng hơn e, kéo miệng sang hai bên (như iː nhưng thấp hơn). Lưỡi phẳng, thấp, phía trước. Âm hơi kéo dài."
+      "e: Miệng mở vừa phải, lưỡi ở phía trước và ở độ cao trung bình, môi không tròn.",
+      "æ: Hạ hàm nhiều hơn /e/; lưỡi thấp hơn nhưng vẫn ở phía trước, môi có thể hơi kéo ngang. Đây vẫn là nguyên âm ngắn, không cần cố kéo dài."
     ],
-    "vs_vietnamese": "'e' tiếng Anh gần 'e' tiếng Việt (hoặc 'ê' gần hơn). æ hoàn toàn không có — học sinh thường đọc thành 'e' bình thường, dẫn đến nhầm lẫn 'bad/bed', 'man/men'.",
+    "vs_vietnamese": "/e/ tiếng Anh khá gần âm \"e\" tiếng Việt nhưng không hoàn toàn giống. Tiếng Việt không có /æ/, nên học sinh thường nâng lưỡi quá cao và đọc \"bad\" gần giống \"bed\".",
     "spelling": [
       {
         "pattern": "e → e",
@@ -653,12 +651,12 @@
       }
     ],
     "mistakes": [
-      "Đọc rõ từng nguyên âm: 'about' → 'a-bout' rõ ràng thay vì 'ə-baut'",
-      "'teacher' → 'ti-cha' thay vì 'tiːtʃə' (đuôi phải là ə)",
-      "'government' → đọc đủ 3 âm tiết thay vì 'gʌvənmənt' (2 âm ə bên trong)",
-      "Nhấn nhầm âm tiết vì không biết âm tiết nào là ə"
+      "Đọc rõ nguyên âm đầu trong \"about\" thay vì giảm thành /əˈbaʊt/",
+      "Đọc \"teacher\" với nguyên âm cuối quá rõ thay vì /ˈtiːtʃə/",
+      "Đọc các nguyên âm không nhấn trong \"government\" theo mặt chữ; từ này vẫn thường có 3 âm tiết nhưng hai âm tiết sau được giảm trong /ˈɡʌvənmənt/",
+      "Nhấn nhầm âm tiết hoặc biến mọi nguyên âm không nhấn thành một âm đầy đủ"
     ],
-    "mnemonic": "ə = schwa = 'ừ' khi không chú ý 😪. Đây là âm PHỔ BIẾN NHẤT trong tiếng Anh — chiếm ~30% tất cả nguyên âm được nói! Bắt được ə = hiểu tiếng Anh như native."
+    "mnemonic": "ə = schwa = âm \"uh\" rất nhẹ khi miệng đang ở trạng thái nghỉ 😪. Đây là nguyên âm rất phổ biến trong các âm tiết không nhấn."
   },
   "eɪ-aɪ": {
     "how_to": [
@@ -746,7 +744,7 @@
         ]
       },
       {
-        "pattern": "aɪ → y / ie / i (đứng một mình)",
+        "pattern": "aɪ → y / ie / i",
         "examples": [
           "fly",
           "my",
@@ -777,8 +775,8 @@
   },
   "əʊ-aʊ": {
     "how_to": [
-      "əʊ: Bắt đầu ở ə (miệng thả lỏng), trượt dần tròn môi lên uː (môi khép tròn). Nhẹ nhàng và liên tục.",
-      "aʊ: Bắt đầu ở a (há miệng rộng), trượt dần tròn môi xuống ʊ (môi khép tròn nhẹ). Mạnh và rõ hơn əʊ vì điểm xuất phát rộng."
+      "əʊ: Bắt đầu ở vị trí giữa và thả lỏng, sau đó lưỡi nâng lên và môi tròn dần về phía /ʊ/. Chuyển động phải liền mạch.",
+      "aʊ: Bắt đầu với miệng mở và lưỡi thấp, sau đó lưỡi nâng lên về phía sau và môi tròn dần về /ʊ/. Không \"trượt xuống\"; hàm khép dần khi kết thúc âm."
     ],
     "vs_vietnamese": "əʊ gần 'ô' nhưng bắt đầu lỏng hơn (không phải 'ô' căng ngay từ đầu). aʊ gần 'ao' nhưng kết thúc tròn môi hơn nhiều.",
     "spelling": [
@@ -875,10 +873,10 @@
   },
   "ɔɪ": {
     "how_to": [
-      "Bắt đầu ở ɔː (miệng tròn căng, hàm hơi mở — âm 'aw'), trượt dần lên ɪ (miệng khép, lưỡi nâng cao phía trước).",
-      "Cần cảm nhận chuyển động của lưỡi: từ thấp-sau lên cao-trước. Không ngắt, phải trượt liên tục."
+      "Bắt đầu ở /ɔ/ với môi tròn và hàm hơi mở, sau đó trượt liền mạch lên /ɪ/ khi lưỡi tiến ra trước và nâng cao hơn.",
+      "Không giữ phần đầu dài như /ɔː/ và không tách thành hai âm tiết."
     ],
-    "vs_vietnamese": "Không có tương đương trong tiếng Việt. Gần 'oi' nhưng điểm xuất phát ɔː tròn môi hơn 'o' Việt Nam nhiều. Tiếng Việt 'oi' bắt đầu từ 'o' không tròn.",
+    "vs_vietnamese": "Tiếng Việt có các vần gần \"oi\", nhưng chất lượng nguyên âm và mức độ tròn môi có thể khác theo từ và phương ngữ. Khi phát âm /ɔɪ/, cần bắt đầu bằng một âm sau có môi tròn rồi trượt liền sang /ɪ/ trong cùng một âm tiết.",
     "spelling": [
       {
         "pattern": "oy (cuối từ hoặc trước nguyên âm)",
@@ -931,7 +929,7 @@
       "\"voice\" đọc như \"vois\" flat thay vì /vɔɪs/",
       "\"enjoy\" đọc như \"en-joi\" tách biệt thay vì /ɪnˈdʒɔɪ/"
     ],
-    "mnemonic": "Nghĩ âm 'Oi!' (tiếng Anh-Anh gọi người) — tròn môi rồi trượt lên 'ee'. Boy → BO-ee 🎡."
+    "mnemonic": "Nghĩ đến tiếng gọi \"Oi!\" trong tiếng Anh-Anh — bắt đầu tròn môi rồi trượt nhanh lên /ɪ/, tất cả trong một âm tiết."
   },
   "ɪə-eə": {
     "how_to": [
@@ -1001,65 +999,74 @@
   },
   "ʊə": {
     "how_to": [
-      "Bắt đầu ở ʊ (môi tròn nhẹ, lưỡi cao phía sau), trượt xuống ə (miệng thả lỏng, lưỡi về giữa).",
-      "Lưu ý: Trong tiếng Anh hiện đại, nhiều người thay ʊə bằng ɔː (đặc biệt American English). 'poor' = /pɔː/ phổ biến hơn /pʊə/ ngày nay."
+      "Trong cách phát âm RP truyền thống, /ʊə/ bắt đầu bằng /ʊ/ ngắn, môi tròn nhẹ, rồi trượt về schwa /ə/ khi môi và lưỡi thả lỏng.",
+      "Âm này ngày càng ít gặp trong tiếng Anh-Anh hiện đại. \"sure\" và \"poor\" thường được đọc với /ɔː/, còn nhiều từ như \"pure\" và \"cure\" có /j/ đứng trước: /pjʊə/, /kjʊə/."
     ],
     "vs_vietnamese": "Không có tương đương. Gần 'ua' nhưng bắt đầu tròn môi nhẹ (ʊ) chứ không rõ ràng như 'u' tiếng Việt, và kết thúc bằng schwa chứ không phải 'a' rõ.",
     "spelling": [
       {
-        "pattern": "ure / our / oor",
+        "pattern": "ure",
         "examples": [
           "pure",
           "cure",
-          "sure",
-          "tour",
-          "your",
-          "poor",
-          "moor"
+          "lure",
+          "mature",
+          "secure",
+          "endure"
         ],
         "examples_ipa": [
           "/pjʊə/",
           "/kjʊə/",
-          "/ʃʊə/",
+          "/ljʊə/",
+          "/məˈtʃʊə/",
+          "/sɪˈkjʊə/",
+          "/ɪnˈdjʊə/"
+        ]
+      },
+      {
+        "pattern": "our / oor (một số từ hoặc cách đọc)",
+        "examples": [
+          "tour",
+          "tourist",
+          "moor"
+        ],
+        "examples_ipa": [
           "/tʊə/",
-          "/jɔː/",
-          "/pɔː/",
+          "/ˈtʊərɪst/",
           "/mɔː/"
         ]
       },
       {
-        "pattern": "ewer / ua",
+        "pattern": "u + r + nguyên âm",
         "examples": [
-          "fewer",
-          "sewer",
-          "usual",
-          "visual",
-          "actual"
+          "jury",
+          "during",
+          "curious",
+          "security"
         ],
         "examples_ipa": [
-          "/ˈfjuːə/",
-          "/ˈsuːə/",
-          "/ˈjuːʒuəl/",
-          "/ˈvɪʒuəl/",
-          "/ˈæktʃuəl/"
+          "/ˈdʒʊəri/",
+          "/ˈdjʊərɪŋ/",
+          "/ˈkjʊəriəs/",
+          "/sɪˈkjʊərəti/"
         ]
       }
     ],
     "mistakes": [
-      "Đọc thành 'u-a' tách biệt thay vì trượt",
-      "Đọc thành uː thuần túy — 'pure' thành 'pjuː'",
-      "\"sure\" đọc như 'shua' Việt Nam thay vì /ʃʊə/",
-      "\"your\" đọc như 'jo' hoặc 'jua' thay vì /jɔː/ hoặc /jʊə/"
+      "Tách thành hai âm tiết rõ \"u-a\" thay vì một chuyển động trượt",
+      "Đọc \"pure\" thành /pjuː/ và bỏ phần chuyển về /ə/",
+      "Dùng /ɔː/ cho mọi từ, kể cả những từ thường vẫn có /jʊə/ như \"pure\" và \"cure\"",
+      "Thêm /r/ rõ ở cuối \"pure\", \"cure\" khi nói RP trước khoảng dừng hoặc phụ âm"
     ],
-    "mnemonic": "ʊə = 'you + uh' nối liền — nói 'you' rồi ngay lập tức thả lỏng thành 'uh'. Pure = 'pyoo-uh' nối nhanh 🌿."
+    "mnemonic": "/ʊə/ = âm /ʊ/ ngắn trong \"book\" trượt ngay về schwa /ə/; môi tròn nhẹ lúc đầu rồi thả lỏng."
   },
   "p-b": {
     "how_to": [
-      "Cả hai: khép hai môi chặt, tích áp suất không khí sau môi, rồi bật ra.",
-      "p (voiceless): KHÔNG rung dây thanh + THỔI HƠI mạnh khi bật (aspirated). Đặt tay trước miệng — phải cảm nhận luồng hơi mạnh.",
-      "b (voiced): RUNG dây thanh (đặt tay lên cổ cảm nhận) + ít hơi hơn nhiều."
+      "Cả hai: khép hai môi, tích áp suất phía sau môi rồi mở ra.",
+      "p (voiceless): không rung dây thanh. /p/ bật hơi rõ khi đứng đầu một âm tiết được nhấn, như \"pen\"; sau /s/ trong \"spin\" thì hầu như không bật hơi. Ở cuối từ, /p/ có thể không được bật ra rõ.",
+      "b (voiced): cùng vị trí môi với /p/ nhưng có voicing; ở cuối từ, độ rung có thể yếu đi nhưng vẫn phải giữ sự đối lập với /p/."
     ],
-    "vs_vietnamese": "Tiếng Việt có 'p' (ph) và 'b'. p tiếng Anh bật hơi MẠNH HƠN tiếng Việt ở đầu từ. Khi ở cuối từ ('cup', 'top'), p Anh KHÔNG bật hơi — khép môi rồi dừng.",
+    "vs_vietnamese": "\"ph\" tiếng Việt là âm /f/, không phải /p/. Tiếng Việt có /p/ chủ yếu ở cuối âm tiết và trong một số từ mượn; /p/ cuối thường không bật. Âm \"b\" tiếng Việt thường có tính bật vào trong, nên không hoàn toàn giống /b/ tiếng Anh.",
     "spelling": [
       {
         "pattern": "p → p / pp",
@@ -1101,23 +1108,23 @@
       }
     ],
     "mistakes": [
-      "p đầu từ không bật hơi đủ mạnh — nghe như 'b'",
-      "p cuối từ bật hơi ra — 'cup!' nghe như tiếng Việt",
-      "b không rung dây thanh đủ — nghe như 'p'",
-      "\"cap\" vs \"cab\", \"mop\" vs \"mob\" — không phân biệt p/b cuối từ"
+      "Không bật hơi /p/ ở đầu âm tiết được nhấn, khiến \"pin\" dễ nghe gần \"bin\"",
+      "Dùng âm \"b\" tiếng Việt quá bật vào trong thay cho /b/ tiếng Anh",
+      "Vô thanh hóa hoặc bỏ /b/ cuối: \"cab\" nghe thành \"cap\" hoặc \"ca\"",
+      "Không phân biệt \"cap\"–\"cab\" và \"mop\"–\"mob\", đặc biệt ở phụ âm cuối"
     ],
-    "mnemonic": "p = Pop! 💥 tiếng bật mạnh, không rung. b = Buzz! 🐝 cảm nhận cổ rung. Test p: giữ tờ giấy trước miệng — p phải làm giấy bay!"
+    "mnemonic": "p = \"Pop!\" 💥 — có luồng hơi rõ khi /p/ bắt đầu âm tiết được nhấn. b = \"Buzz!\" 🐝 — đặt tay lên cổ để cảm nhận voicing."
   },
   "t-d": {
     "how_to": [
-      "Cả hai: đầu lưỡi chạm alveolar ridge (gờ nướu ngay sau răng trên), chặn hơi, rồi bật ra.",
-      "t (voiceless): không rung dây thanh + bật hơi mạnh ở đầu từ. Ở cuối từ: chỉ đặt lưỡi lên nướu rồi dừng, KHÔNG bật.",
-      "d (voiced): rung dây thanh khi lưỡi chặn và khi bật ra."
+      "Cả hai: đầu hoặc mặt lưỡi chạm gờ nướu ngay sau răng trên, chặn luồng hơi rồi mở ra.",
+      "t (voiceless): không rung dây thanh; bật hơi rõ ở đầu âm tiết được nhấn. Ở cuối từ, /t/ thường không bật ra rõ và đôi khi được tạo với sự hỗ trợ của thanh hầu.",
+      "d (voiced): cùng vị trí với /t/ nhưng có voicing; ở cuối từ, voicing có thể yếu đi nhưng phụ âm vẫn phải được giữ."
     ],
-    "vs_vietnamese": "Tiếng Việt có 't' và 'đ'. t Anh bật hơi mạnh hơn ở đầu từ. Quan trọng: t cuối từ tiếng Anh ('cat', 'sit') không bật hơi — khác hoàn toàn cách đọc tự nhiên của người Việt.",
+    "vs_vietnamese": "/t/ tiếng Anh bật hơi rõ hơn \"t\" tiếng Việt khi đứng đầu âm tiết được nhấn. Phụ âm cuối /t/ của tiếng Việt cũng thường không bật, nên người học có thể tận dụng cảm giác đóng âm này. \"Đ\" tiếng Việt không hoàn toàn giống /d/ tiếng Anh: /d/ tiếng Anh được tạo ở gờ nướu và không phải âm bật vào trong.",
     "spelling": [
       {
-        "pattern": "t → t / tt / -tion/-ture (đọc khác)",
+        "pattern": "t → t / tt",
         "examples": [
           "ten",
           "sit",
@@ -1134,7 +1141,7 @@
         ]
       },
       {
-        "pattern": "d → d / dd / -ed (voiced)",
+        "pattern": "d → d / dd / -ed đọc /d/",
         "examples": [
           "den",
           "did",
@@ -1154,20 +1161,20 @@
       }
     ],
     "mistakes": [
-      "'time' đọc như 'đaim' — t Anh không phải đ Việt",
-      "Cuối từ 'cat' bật hơi ra — 'ca-t!' kiểu Việt Nam",
-      "'done' đọc như 'đân' — d Anh là /d/ alveolar (lưỡi chạm nướu răng), không phải /đ/ dental tiếng Việt (lưỡi chạm răng)",
-      "\"ten\" vs \"den\" — không phân biệt rung/không rung"
+      "Đọc \"time\" với âm đầu gần \"đ\" tiếng Việt thay vì /t/ bật hơi",
+      "Bỏ /t/ hoặc /d/ cuối hoàn toàn, làm \"bat\" và \"bad\" mất sự đối lập",
+      "Đọc /d/ như \"đ\" tiếng Việt với cách đóng thanh quản hoặc bật vào trong quá rõ",
+      "Không phân biệt \"ten\"–\"den\" và \"tie\"–\"die\""
     ],
     "mnemonic": "t = Tick! ⏱️ tiếng đồng hồ ngắn gọn, sắc. d = Drum! 🥁 cảm nhận ngực/cổ rung nhẹ khi phát âm."
   },
   "k-g": {
     "how_to": [
-      "Cả hai: GỐC lưỡi (phần sau) nâng lên chặn vòm mềm (velum — phần mềm cuối vòm miệng), tích hơi, rồi bật ra.",
-      "k (voiceless): không rung dây thanh + bật hơi ở đầu từ. Ở cuối từ ('back', 'look'): đặt vị trí gốc lưỡi rồi dừng.",
-      "g (voiced): rung dây thanh — đặt tay lên cổ cảm nhận."
+      "Cả hai: phần sau của lưỡi nâng lên chạm vòm mềm, chặn luồng hơi rồi mở ra.",
+      "k (voiceless): không rung dây thanh; bật hơi rõ ở đầu âm tiết được nhấn. Ở cuối từ, /k/ thường không bật ra mạnh.",
+      "g (voiced): cùng vị trí với /k/ nhưng có voicing; không cuộn lưỡi."
     ],
-    "vs_vietnamese": "Tiếng Việt có 'c/k/q' (voiceless) và 'g/gh' (voiced). Cặp này học sinh Việt phân biệt tốt hơn p/b và t/d. Chú ý: k Anh ở đầu từ bật hơi hơn 'c' Việt Nam.",
+    "vs_vietnamese": "\"c/k/q\" tiếng Việt có thể giúp người học tìm vị trí gần /k/, nhưng /k/ tiếng Anh bật hơi rõ hơn ở đầu âm tiết được nhấn. \"g/gh\" tiếng Việt thường là âm xát /ɣ/, không phải âm dừng /ɡ/, nên học sinh cần chặn hoàn toàn luồng hơi khi phát âm /ɡ/ tiếng Anh.",
     "spelling": [
       {
         "pattern": "k → k / c / ck / ch (học thuật)",
@@ -1232,10 +1239,10 @@
       }
     ],
     "mistakes": [
-      "'game' đọc thành 'came' — nhầm g với k",
-      "'go' đọc thành 'ko' — g cần rung dây thanh ngay từ đầu, không ngắt như k",
-      "'back' bật hơi cuối — đặt gốc lưỡi vào vị trí rồi dừng, không bật",
-      "\"ghost\" đọc đúng /gəʊst/ — gh này vẫn đọc g"
+      "Đọc /ɡ/ như âm \"g/gh\" xát của tiếng Việt thay vì chặn hơi hoàn toàn",
+      "Vô thanh hóa /ɡ/, khiến \"game\" nghe gần \"came\" hoặc \"bag\" nghe gần \"back\"",
+      "Bỏ /ɡ/ cuối trong \"dog\", \"big\", \"bag\"",
+      "Bật /k/ cuối quá mạnh hoặc thêm nguyên âm sau \"back\" và \"look\""
     ],
     "mnemonic": "k = Crack! 💥 gốc lưỡi bật lên, không rung. g = Growl! 🐺 tiếng gầm thấp — gốc lưỡi rung cùng dây thanh."
   },
@@ -1245,7 +1252,7 @@
       "f (voiceless): thổi hơi qua khe — không rung. Nghe như tiếng gió nhỏ.",
       "v (voiced): giống f về vị trí, nhưng rung dây thanh. Đặt tay lên cổ — phải cảm nhận rung."
     ],
-    "vs_vietnamese": "Tiếng Việt có 'ph' gần với f. Nhưng 'v' tiếng Việt KHÔNG phải labiodental fricative — tiếng Việt Bắc thực ra đọc 'v' gần như /z/ hoặc /j/, không có răng chạm môi. Đây là lý do người Việt đọc v Anh sai rất phổ biến.",
+    "vs_vietnamese": "Âm \"ph\" tiếng Việt khá gần /f/. Trong tiếng Việt chuẩn miền Bắc, \"v\" thường là âm môi–răng hữu thanh gần /v/, nhưng cách phát âm thay đổi theo vùng; ở nhiều giọng miền Nam, \"v\" có thể gần /j/ hơn. Vì vậy, một số học sinh đã có vị trí /v/ khá tốt, còn những em khác cần luyện lại tiếp xúc răng trên–môi dưới.",
     "spelling": [
       {
         "pattern": "f → f / ff / ph / gh",
@@ -1300,7 +1307,7 @@
       "'five' đọc thành 'fife' — v cuối không rung",
       "'laugh' đọc như 'lauɡ' — 'gh' ở đây là /f/"
     ],
-    "mnemonic": "f = Fire 🔥 thổi hơi nhẹ (răng trên + môi dưới). v = Vibrate — 🎸 cảm nhận MÔI RUNG khi răng chạm môi. Luôn kiểm tra: răng có chạm môi không?"
+    "mnemonic": "f = Fire 🔥 — răng trên chạm nhẹ môi dưới và thổi hơi. v = Vibrate 🎸 — giữ nguyên vị trí đó nhưng thêm rung dây thanh; kiểm tra ở cổ, không phải chỉ ở môi."
   },
   "θ-ð": {
     "how_to": [
@@ -1308,10 +1315,10 @@
       "θ (voiceless): thổi hơi qua khe giữa lưỡi và răng — không rung. Nghe như tiếng gió nhẹ.",
       "ð (voiced): giống θ về vị trí, nhưng rung dây thanh. Đặt tay lên cổ — phải cảm nhận rung."
     ],
-    "vs_vietnamese": "HOÀN TOÀN KHÔNG CÓ trong tiếng Việt. Đây là cặp âm khó và lạ nhất với người Việt. Nhiều người cảm thấy 'kỳ lạ' khi phải thè lưỡi ra — nhưng đây là cách duy nhất đúng!",
+    "vs_vietnamese": "Tiếng Việt không có /θ/ và /ð/. Đầu lưỡi có thể nhô nhẹ ra giữa hai hàm răng hoặc đặt sát mặt trong răng trên; không bắt buộc phải thè lưỡi thật xa. Lỗi phổ biến là thay /θ/ bằng /t/ hoặc /s/, và thay /ð/ bằng /d/ hoặc /z/.",
     "spelling": [
       {
-        "pattern": "θ → th (từ nội dung)",
+        "pattern": "θ → th (nhiều từ nội dung)",
         "examples": [
           "think",
           "thank",
@@ -1340,7 +1347,7 @@
         ]
       },
       {
-        "pattern": "ð → th (từ chức năng)",
+        "pattern": "ð → th (nhiều từ chức năng và một số từ nội dung)",
         "examples": [
           "the",
           "this",
@@ -1354,8 +1361,10 @@
           "then",
           "than",
           "though",
-          "although",
-          "with"
+          "mother",
+          "weather",
+          "breathe",
+          "smooth"
         ],
         "examples_ipa": [
           "/ðə/",
@@ -1370,8 +1379,10 @@
           "/ðen/",
           "/ðæn/",
           "/ðəʊ/",
-          "/ɔːlˈðəʊ/",
-          "/wɪð/"
+          "/ˈmʌðə/",
+          "/ˈweðə/",
+          "/briːð/",
+          "/smuːð/"
         ]
       }
     ],
@@ -1390,7 +1401,7 @@
       "s (voiceless): hơi sít qua khe — tiếng rè nhọn, cao. Không rung.",
       "z (voiced): giống s về vị trí, nhưng rung dây thanh — tiếng rè thấp hơn và rung. Đặt tay lên cổ cảm nhận."
     ],
-    "vs_vietnamese": "Tiếng Việt có 's' (x). 'z' tiếng Anh ít gặp ở đầu từ nhưng CỰC QUAN TRỌNG vì đuôi -s/-es của số nhiều/chia động từ thường đọc /z/. Sai z = nghe cứng và không tự nhiên.",
+    "vs_vietnamese": "Âm \"x\" tiếng Việt thường khá gần /s/; chữ \"s\" có thể được phát âm khác tùy phương ngữ. Tiếng Việt không dùng đối lập /s/–/z/ ở cuối từ như tiếng Anh, nên học sinh hay vô thanh hóa hoặc bỏ /z/ trong \"dogs\", \"plays\", \"his\".",
     "spelling": [
       {
         "pattern": "s → s / ss / c (trước e/i) / sc",
@@ -1592,7 +1603,7 @@
         ]
       },
       {
-        "pattern": "tʃ → t+ure / t+ion (một số)",
+        "pattern": "tʃ → t+ure / t+ion (một số từ)",
         "examples": [
           "picture",
           "nature",
@@ -1611,7 +1622,7 @@
         ]
       },
       {
-        "pattern": "dʒ → j / g (trước e/i)",
+        "pattern": "dʒ → j / g (trước e, i, y)",
         "examples": [
           "jump",
           "job",
@@ -1634,7 +1645,7 @@
         ]
       },
       {
-        "pattern": "dʒ → dg / d+ure",
+        "pattern": "dʒ → dg(e)",
         "examples": [
           "judge",
           "bridge",
@@ -1666,7 +1677,7 @@
       "n: đầu lưỡi chạm nướu — hơi qua mũi.",
       "ŋ: GỐC LƯỠI nâng lên chặn vòm mềm (giống vị trí 'k'/'g') — hơi qua mũi."
     ],
-    "vs_vietnamese": "Tiếng Việt có cả 3! m (mẹ), n (nước), ng/nh (ngon, nhà). Tuy nhiên ŋ tiếng Việt xuất hiện ở ĐẦU từ (ngon, ngủ, ngại), còn ŋ tiếng Anh chỉ ở CUỐI hoặc GIỮA từ — KHÔNG bao giờ đầu từ.",
+    "vs_vietnamese": "Tiếng Việt có /m/, /n/ và /ŋ/ (\"ng\"), nên vị trí cơ bản khá quen thuộc. Tuy nhiên, âm \"nh\" tiếng Việt thường là /ɲ/, không phải /ŋ/. Trong tiếng Anh, /ŋ/ không đứng đầu từ bản địa và học sinh cần tránh thêm /ɡ/ sau -ng trong \"sing\", \"ring\", \"singer\".",
     "spelling": [
       {
         "pattern": "m → m / mm",
@@ -1755,11 +1766,11 @@
   },
   "h-w-j": {
     "how_to": [
-      "h: thở hơi nhẹ qua họng mở — chỉ là tiếng thở, không có vị trí chặn cụ thể. Dây thanh không rung.",
-      "w: TRÒN MÔI THẬT CĂNG trước, rồi mở ra khi phát âm. Lưỡi cao phía sau. Không dùng răng.",
-      "j: lưỡi nâng cao về phía vòm cứng (như bắt đầu nói 'iː'), đẩy hơi ra nhẹ nhàng."
+      "h: Thở hơi nhẹ qua đường thanh quản mở; không có điểm chặn trong miệng và thường không rung dây thanh.",
+      "w: Môi tròn và đưa nhẹ ra trước, phần sau lưỡi nâng cao, rồi môi mở sang nguyên âm tiếp theo. /w/ là âm hữu thanh; không dùng răng.",
+      "j: Phần trước lưỡi nâng gần vòm cứng như khi bắt đầu /iː/, rồi trượt nhanh sang nguyên âm tiếp theo. /j/ cũng là âm hữu thanh."
     ],
-    "vs_vietnamese": "h giống 'h' tiếng Việt. w KHÔNG tồn tại trong tiếng Việt — hay bị đọc thành 'v' (sai!). j tiếng Anh /j/ khác 'y' tiếng Việt một chút — /j/ Anh mượt hơn.",
+    "vs_vietnamese": "Tiếng Việt có âm lướt gần /w/ trong các vần như \"oa\", \"uy\" và có âm gần /j/ trong nhiều cách phát âm \"y/gi/d\", nhưng vị trí của chúng trong âm tiết không hoàn toàn giống tiếng Anh. Học sinh vẫn hay đổi /w/ thành /v/ và bỏ hoặc đổi /j/ trong \"yes\", \"year\", \"you\".",
     "spelling": [
       {
         "pattern": "h → h (wh trước o = /h/)",
@@ -1826,22 +1837,20 @@
       }
     ],
     "mistakes": [
-      "'why' tròn môi không đủ — w phải bắt đầu căng môi",
-      "'year' đọc thành 'dear' — /j/ bị thay bằng /d/ vì tiếng Việt không có âm /j/ thuần như tiếng Anh",
-      "'who' phát âm h — wh trước o = /h/ (silent w)",
-      "'water' đọc thành 'vater' — w không phải v!"
+      "Đọc \"water\", \"why\", \"window\" với /v/ thay vì /w/",
+      "Không tròn môi đủ ở đầu \"wet\", \"white\", \"why\"",
+      "Bỏ /j/ hoặc đổi thành /z/ hay /dʒ/ trong \"yes\", \"year\", \"young\"",
+      "Phát âm chữ w trong \"who\", dù từ này bắt đầu bằng /h/"
     ],
     "mnemonic": "h = thở nhẹ 💨 — chỉ là hơi thở. w = Whistle 🎵 — môi tròn căng như thổi sáo. j/y = Yes! ✅ — lưỡi gần vòm cứng, đẩy nhẹ."
   },
   "final-stops": {
     "how_to": [
-      "Phụ âm cuối tiếng Anh: ĐẶT vị trí môi/lưỡi vào đúng chỗ, chặn hơi, rồi DỪNG — không bật hơi ra ngoài.",
-      "-p: khép môi (giống 'p' đầu từ nhưng không bật hơi ra).",
-      "-t: đặt lưỡi lên nướu (giống 't' nhưng không bật).",
-      "-k: đặt gốc lưỡi lên vòm mềm (giống 'k' nhưng không bật).",
-      "Kết quả: âm như bị 'cắt đứt' đột ngột — native speakers gọi là 'unreleased stop'."
+      "Ở cuối từ, /p t k/ phải được tạo với sự đóng hoàn toàn đúng vị trí: /p/ khép môi, /t/ chạm gờ nướu, /k/ nâng phần sau lưỡi lên vòm mềm.",
+      "Trước khoảng dừng hoặc một phụ âm khác, các âm này thường không bật ra rõ (unreleased) hoặc chỉ bật rất nhẹ.",
+      "Trước một nguyên âm hoặc khi nhấn mạnh, chúng có thể được bật ra và nối sang từ sau. Vì vậy, \"không bao giờ bật\" không phải quy tắc tuyệt đối."
     ],
-    "vs_vietnamese": "Tiếng Việt có phụ âm cuối -c/-ch/-p/-t theo kiểu UNRELEASED (không bật hơi ra) — đây thực ra GIỐNG tiếng Anh! Tuy nhiên học sinh lại hay BẬT HƠI theo thói quen hoặc BỎ HẲN phụ âm cuối.",
+    "vs_vietnamese": "Tiếng Việt cũng có các phụ âm cuối không bật như -p, -t, -c/-ch, nên cảm giác đóng âm có thể khá quen. Lỗi phổ biến hơn là bỏ phụ âm, trung hòa các âm cuối hoặc thêm một nguyên âm sau chúng khi nói tiếng Anh.",
     "spelling": [
       {
         "pattern": "-p cuối",
@@ -1914,12 +1923,12 @@
       }
     ],
     "mistakes": [
-      "Bật hơi ra: 'cup!' 'cat!' 'book!' nghe có tiếng 'bùm' rõ ràng — sai",
-      "Bỏ hoàn toàn phụ âm cuối: 'cu-' 'ca-' 'boo-' — mất nghĩa",
-      "Thêm nguyên âm: 'cup-uh' 'cat-uh' — rất phổ biến với học sinh Việt Nam",
-      "Không phân biệt -p/-t/-k khi nói nhanh"
+      "Bỏ hoàn toàn phụ âm cuối: \"cup\" → /kʌ/, \"cat\" → /kæ/, \"book\" → /bʊ/",
+      "Thêm nguyên âm sau phụ âm: \"cup-uh\", \"cat-uh\", \"book-uh\"",
+      "Không giữ đúng vị trí đóng, khiến -p, -t và -k nghe giống nhau",
+      "Cố ép mọi /p t k/ cuối thành âm hoàn toàn không bật, kể cả khi từ sau bắt đầu bằng nguyên âm và cần nối tự nhiên"
     ],
-    "mnemonic": "Nghĩ đến việc 'CẮT' âm ✂️ — miệng/lưỡi đặt vào vị trí rồi ĐỨNG YÊN, không mở ra. Như tạm dừng đột ngột trong nhạc 🎵."
+    "mnemonic": "\"ĐÓNG trước, rồi quyết định có bật hay không\" ✂️ — luôn tạo đúng vị trí cuối; trước khoảng dừng thường không bật rõ, còn trước nguyên âm có thể nối và bật nhẹ."
   },
   "clusters": {
     "how_to": [
@@ -1937,8 +1946,8 @@
   },
   "l-r": {
     "how_to": [
-      "l: ĐẦU LƯỠI chạm alveolar ridge (nướu sau răng trên), hơi thoát HAI BÊN lưỡi. Lưỡi không cong.",
-      "r: lưỡi CONG VÀO GIỮA miệng (retroflex) — đầu lưỡi hướng lên nhưng KHÔNG CHẠM bất kỳ đâu. Hơi chạy qua giữa. Môi hơi tròn."
+      "l: Đầu lưỡi chạm gờ nướu sau răng trên; luồng hơi thoát qua hai bên lưỡi.",
+      "r: Trong RP, /r/ thường là âm approximant sau nướu. Đầu lưỡi hoặc phần trước lưỡi nâng về phía sau gờ nướu nhưng không chạm; lưỡi có thể hơi cong hoặc \"bunched\", và môi thường hơi tròn. Không bắt buộc phải cuộn lưỡi kiểu retroflex."
     ],
     "vs_vietnamese": "l tiếng Việt và l Anh khá giống nhau — hơi thoát hai bên lưỡi. r tiếng Anh HOÀN TOÀN KHÁC 'r' tiếng Việt miền Bắc (gần /z/) và cũng khác 'r' cuộn lưỡi miền Nam. Đây là cặp phổ biến nhất gây nhầm lẫn.",
     "spelling": [
@@ -2001,7 +2010,7 @@
       "'girl' bị mất l ở cuối — 'ger' thay vì /gɜːl/",
       "'really' đọc với cả l VÀ r theo kiểu Việt Nam"
     ],
-    "mnemonic": "l = LANDING ✈️ — đầu lưỡi CHẠM NỮA ngay sau răng trên. r = ROLLING 🌀 — lưỡi cong vào giữa, KHÔNG CHẠM đâu cả. Hai hành động ngược nhau hoàn toàn!"
+    "mnemonic": "l = LANDING ✈️ — đầu lưỡi CHẠM gờ nướu. r = ROLLING 🌀 — lưỡi nâng lên nhưng KHÔNG CHẠM. Điểm quan trọng là \"chạm\" với /l/ và \"không chạm\" với /r/."
   },
   "θ-s-viet": {
     "how_to": [
@@ -2096,11 +2105,11 @@
   },
   "v-w-viet": {
     "how_to": [
-      "v: RĂNG TRÊN đặt nhẹ lên MÔI DƯỚI, rung dây thanh. Có tiếp xúc răng-môi.",
-      "w: TRÒN MÔI CĂNG (như thổi sáo), rồi mở ra khi phát âm. KHÔNG có răng liên quan gì. Không rung, chỉ hơi qua môi tròn.",
-      "Kiểm tra w: đặt ngón tay trước miệng — không được cảm nhận răng chạm gì."
+      "v: Răng trên đặt nhẹ lên môi dưới; luồng hơi đi qua khe hẹp và dây thanh rung.",
+      "w: Môi tròn và đưa nhẹ ra trước, phần sau lưỡi nâng cao, rồi chuyển ngay sang nguyên âm tiếp theo. /w/ cũng là âm hữu thanh nhưng không có tiếp xúc răng–môi.",
+      "Kiểm tra: Với /v/, phải cảm nhận răng trên chạm môi dưới; với /w/, hai môi tròn nhưng răng không chạm môi."
     ],
-    "vs_vietnamese": "'v' tiếng Việt KHÔNG phải labiodental — miền Bắc đọc gần /z/, miền Nam gần /j/. Không có tiếp xúc răng-môi thực sự. Vì vậy CẢ HAI âm v và w đều khó với người Việt theo cách khác nhau.",
+    "vs_vietnamese": "Trong tiếng Việt chuẩn miền Bắc, \"v\" thường khá gần /v/, còn ở nhiều giọng miền Nam có thể gần /j/ hơn. Tiếng Việt cũng có âm lướt gần /w/ trong các vần như \"oa\", \"uy\", nhưng /w/ không thường đứng đầu âm tiết theo cách giống tiếng Anh. Vì vậy, lỗi /v/–/w/ phụ thuộc phương ngữ của người học.",
     "spelling": [
       {
         "pattern": "v → v / -ve",
@@ -2180,7 +2189,7 @@
     "vs_vietnamese": "Tiếng Việt không có hình thái học số nhiều — không có đuôi biến đổi. Đây là khái niệm mới hoàn toàn. Mẹo học: nhớ quy tắc theo âm cuối, không theo chính tả."
   },
   "ed-endings": {
-    "why": "Giống -s endings — voiced/voiceless assimilation. /ɪd/ chỉ xuất hiện sau /t/ và /d/ vì không thể có hai âm dừng giống nhau liên tiếp (want-t sẽ quá khó đọc).",
+    "why": "Đuôi -ed đồng hóa về voicing với âm cuối của động từ. Sau /t/ hoặc /d/, tiếng Anh chèn /ɪ/ để tránh cụm hai âm dừng đầu lưỡi khó phát âm, tạo đuôi /ɪd/ và thêm một âm tiết.",
     "how_to": [
       "Bước 1: Từ kết thúc bằng /t/ hoặc /d/ → đọc /ɪd/ (thêm âm tiết). VD: wanted, needed, waited, started, ended, decided.",
       "Bước 2: Từ kết thúc bằng voiceless (/k/ /s/ /f/ /p/ /tʃ/ /ʃ/ /θ/) → đọc /t/. VD: looked, kissed, fixed, watched, washed, hoped, laughed.",
@@ -2238,14 +2247,15 @@
   "tion-sion-ture": {
     "why": "Đây là quy luật chính tả→phát âm cực quan trọng vì hàng trăm từ học thuật trong IELTS kết thúc bằng các đuôi này. Biết quy tắc = đọc đúng ngay cả từ chưa gặp bao giờ.",
     "how_to": [
-      "-tion (sau consonant) → /ʃən/: nation /ˈneɪʃən/, education /ˌedʒʊˈkeɪʃən/.",
-      "-sion (sau vowel) → /ʒən/: vision /ˈvɪʒən/, decision /dɪˈsɪʒən/, occasion /əˈkeɪʒən/.",
-      "-ture → /tʃə/: picture /ˈpɪktʃə/, nature /ˈneɪtʃə/, future /ˈfjuːtʃə/."
+      "-tion thường có phần /ʃən/: nation /ˈneɪʃən/, education /ˌedʒʊˈkeɪʃən/. Khi có phụ âm trước đó như -ction, âm đó vẫn được giữ: action /ˈækʃən/.",
+      "-sion có thể là /ʒən/ trong nhiều từ như vision /ˈvɪʒən/, decision /dɪˈsɪʒən/, occasion /əˈkeɪʒən/; nhưng cũng có thể là /ʃən/ trong tension, pension, mansion, version.",
+      "-ture thường là /tʃə/ khi là âm tiết cuối không nhấn: picture /ˈpɪktʃə/, nature /ˈneɪtʃə/, future /ˈfjuːtʃə/."
     ],
     "exceptions": [
-      "-ssion → /ʃən/ (không phải /ʒən/): passion, mission, session, profession, permission",
-      "-xion → /kʃən/: connection /kəˈnekʃən/, complexion, crucifixion",
-      "-sion sau consonant → /ʃən/ không phải /ʒən/: mansion, version, pension, tension"
+      "question /ˈkwestʃən/ và suggestion /səˈdʒestʃən/ có /tʃən/, không phải chỉ /ʃən/",
+      "-ssion thường là /ʃən/: passion, mission, session, profession, permission",
+      "-sion sau một số phụ âm thường là /ʃən/: mansion, version, pension, tension",
+      "mature thường là /məˈtʃʊə/ trong RP, không kết thúc bằng /tʃə/"
     ],
     "vs_vietnamese": "Học sinh hay đọc: -tion như 'ti-on' hoặc 'shun' rõ ràng; -sion như 'si-on'; -ture như 'tyua' hoặc 'cha'. Tất cả đều sai. Học quy tắc này = nâng điểm phát âm IELTS Speaking ngay lập tức."
   },
@@ -2263,7 +2273,7 @@
     "vs_vietnamese": "Tiếng Việt có âm đệm /-w-/ trong một số từ (hoa, quý) nhưng không có hệ thống V→V linking này. Nghe chú ý sẽ thấy: 'who is' nghe như 'hoo-wiz', 'she is' nghe như 'shee-yiz'."
   },
   "assimilation": {
-    "why": "Khi /n/ đứng cạnh một phụ âm có điểm phát âm khác, dây thanh 'lười' và tự điều chỉnh /n/ sang điểm phát âm của phụ âm bên cạnh — tiết kiệm năng lượng cơ miệng.",
+    "why": "Trong lời nói liền mạch, vị trí phát âm của /n/ có thể đổi theo phụ âm đứng sau để các cơ quan phát âm di chuyển ít hơn. Đây là đồng hóa vị trí phát âm, không phải vì \"dây thanh lười\".",
     "how_to": [
       "/n/ trước bilabials (p/b/m) → /m/: 'ten pins' = /tem pɪnz/, 'in bed' = /ɪm bed/, 'one more' = /wʌm mɔː/.",
       "/n/ trước velars (k/g) → /ŋ/: 'ten cups' = /teŋ kʌps/, 'in case' = /ɪŋ keɪs/, 'one goal' = /wʌŋ gəʊl/."
@@ -2272,14 +2282,14 @@
       "Trong speech chậm/nhấn mạnh → giữ /n/ nguyên",
       "Không phải assimilation bắt buộc — mức độ tùy thuộc tốc độ nói"
     ],
-    "vs_vietnamese": "Tiếng Việt có hiện tượng tương tự (ví dụ 'kông' → 'không' trong một số phương ngữ) nhưng ít hệ thống. Nghe tiếng Anh tự nhiên sẽ thấy 'in Paris' nghe như 'im Paris' — đó là assimilation."
+    "vs_vietnamese": "Tiếng Việt cũng có hiện tượng đồng phát âm và thay đổi nhẹ vị trí lưỡi trong lời nói nhanh, nhưng pattern không hoàn toàn giống tiếng Anh. Người học cần nhận ra rằng \"in Paris\" có thể nghe gần /ɪm ˈpærɪs/ và \"in case\" gần /ɪŋ keɪs/ mà nghĩa không đổi."
   },
   "silent-kbw": {
     "why": "Di sản lịch sử: thời Old English và Middle English, các chữ này được phát âm. Theo thời gian phát âm thay đổi nhưng chính tả giữ nguyên — gọi là 'spelling fossils' (hóa thạch chính tả).",
     "how_to": [
       "Silent K: kn- → chỉ đọc /n/: knife /naɪf/, know /nəʊ/, knock /nɒk/, knight /naɪt/, kneel, knit, knob, knack, knuckle, knowledge.",
-      "Silent B: mb (sau vowel, cuối từ) → chỉ đọc /m/: lamb /læm/, bomb /bɒm/, climb /klaɪm/, comb, thumb, numb, dumb. Cũng: bt → /t/: debt /det/, doubt /daʊt/, subtle /ˈsʌtl/.",
-      "Silent W: wr- → chỉ đọc /r/: write /raɪt/, wrong /rɒŋ/, wrist /rɪst/, wrap, wren. Cũng: who/whole/whom → /h/ không phải /hw/."
+      "Silent B: mb ở cuối từ thường → /m/: lamb /læm/, bomb /bɒm/, climb /klaɪm/, comb, thumb, numb, dumb. B cũng câm trong debt /det/, doubt /daʊt/, subtle /ˈsʌtl/.",
+      "Silent W: wr- → chỉ đọc /r/: write /raɪt/, wrong /rɒŋ/, wrist /rɪst/, wrap, wren. W cũng câm trong một số từ riêng lẻ như who, whole, two, sword, answer."
     ],
     "exceptions": [
       "GH đôi khi đọc thành /f/: enough /ɪˈnʌf/, laugh /lɑːf/, cough /kɒf/, tough /tʌf/, rough /rʌf/",
@@ -2290,9 +2300,9 @@
   "silent-glt": {
     "why": "Tiếp nối lịch sử: -ght xuất phát từ tiếng Anh cổ đọc /xt/ (như tiếng Đức 'nacht'); L câm trước phụ âm xuất hiện từ thế kỷ 16-17; T câm trong -sten/-stle là hiện tượng đồng hóa.",
     "how_to": [
-      "Silent GH: trong cấu trúc -ight, -ought, -aught, -ight → GH không phát âm: night /naɪt/, thought /θɔːt/, taught /tɔːt/, daughter /ˈdɔːtə/, though /ðəʊ/, through /θruː/.",
-      "Silent L: trước F/M/K và trong -ould: calm /kɑːm/, palm /pɑːm/, walk /wɔːk/, talk /tɔːk/, half /hɑːf/, could /kʊd/, would /wʊd/, should /ʃʊd/.",
-      "Silent T: trong -sten, -stle, -stmas: listen /ˈlɪsn/, castle /ˈkɑːsl/, whistle /ˈwɪsl/, Christmas /ˈkrɪsməs/, fasten, glisten, wrestle, thistle, nestle."
+      "Silent GH: Trong nhiều từ có -ight, -ought, -aught và một số dạng -ough, GH không phát âm: night /naɪt/, thought /θɔːt/, taught /tɔːt/, daughter /ˈdɔːtə/, though /ðəʊ/, through /θruː/.",
+      "Silent L: L câm trong một số nhóm từ cố định như calm, palm, balm; walk, talk, folk, yolk; half; could, would, should. Đây không phải quy tắc chung cho mọi L đứng trước f, m hoặc k.",
+      "Silent T: Trong nhiều từ -sten, -stle và Christmas: listen /ˈlɪsn/, castle /ˈkɑːsl/, whistle /ˈwɪsl/, Christmas /ˈkrɪsməs/."
     ],
     "exceptions": [
       "GH đọc thành /f/ (không câm, không /g/): enough, laugh, cough, rough, tough, draught",
@@ -2303,9 +2313,9 @@
   "noun-verb-stress": {
     "why": "Tiếng Anh dùng trọng âm để phân biệt từ loại (part of speech) — cùng chính tả, cùng chữ nhưng khác nghĩa và cách đọc. Sai trọng âm có thể làm người nghe hiểu nhầm từ loại.",
     "how_to": [
-      "Danh từ 2 âm tiết → nhấn âm tiết THỨ NHẤT: REcord, PERmit, OBject, PREsent, INcrease, EXport, IMport, CONtract, PROtest, REbel.",
-      "Động từ 2 âm tiết → nhấn âm tiết THỨ HAI: reCORD, perMIT, obJECT, preSENT, inCREASE, exPORT, imPORT, conTRACT, proTEST, reBEL.",
-      "Luyện theo cặp: 'a REcord' (danh từ) → 'to reCORD' (động từ)."
+      "Nhiều cặp từ hai âm tiết dùng trọng âm để phân biệt từ loại: danh từ hoặc tính từ nhấn âm tiết 1, còn động từ nhấn âm tiết 2.",
+      "Ví dụ: a REcord → to reCORD; a PERmit → to perMIT; an OBject → to obJECT; a PREsent → to preSENT.",
+      "Đây là pattern của một nhóm từ cụ thể, không phải quy tắc cho mọi danh từ và động từ hai âm tiết."
     ],
     "exceptions": [
       "Không phải mọi từ 2 âm tiết đều theo pattern: travel, water, comment, visit — danh từ và động từ cùng trọng âm",
@@ -2315,11 +2325,11 @@
     "vs_vietnamese": "Tiếng Việt không có trọng âm từ — mỗi âm tiết đều quan trọng như nhau (có thanh điệu thay thế). Học sinh đọc 'reCORD' và 'REcord' như nhau → nghe không tự nhiên và đôi khi gây nhầm nghĩa."
   },
   "compound-noun-stress": {
-    "why": "Danh từ ghép (compound noun) là một KHÁi NIỆM DUY NHẤT — nhấn phần đầu để phân biệt. Cụm adj+noun là MÔ TẢ — nhấn đều, danh từ nhấn hơn. Hiểu sự khác biệt = nói đúng nghĩa.",
+    "why": "Nhiều danh từ ghép chỉ một khái niệm duy nhất và thường nhấn mạnh thành tố đầu. Cụm tính từ + danh từ thường đặt trọng âm chính ở danh từ. Đây là xu hướng phổ biến chứ không phải quy tắc tuyệt đối.",
     "how_to": [
-      "Danh từ ghép (compound noun) → nhấn phần ĐẦU mạnh: AIRport, BEDroom, HOMEwork, FOOTball, CLASSroom, TOOTHbrush, GREENhouse, NOTEbook.",
-      "Cụm Adj + Noun (adjective phrase) → nhấn tương đối đều, danh từ nhấn hơn một chút: cold WA·ter, big CI·ty, green HOUSE (ngôi nhà màu xanh — khác GREENhouse).",
-      "Test: GREENhouse (nhà kính trồng cây) vs green HOUSE (ngôi nhà màu xanh) — trọng âm thay đổi nghĩa!"
+      "Nhiều compound nouns, dù viết liền, có gạch nối hay tách thành hai từ, nhấn phần đầu: AIRport, BEDroom, HOMEwork, FOOTball, BUS stop.",
+      "Cụm adjective + noun thường có trọng âm chính ở danh từ: cold WAter, big CIty, green HOUSE.",
+      "So sánh GREENhouse (nhà kính) với green HOUSE (ngôi nhà màu xanh)."
     ],
     "exceptions": [
       "Địa danh và danh từ riêng ghép thường nhấn phần sau: New YORK, Times SQUARE, Tower BRIDGE",
@@ -2337,9 +2347,9 @@
       "Luyện: đọc câu rồi dùng tay lên xuống theo giọng — lên ↗ hay xuống ↘?"
     ],
     "exceptions": [
-      "Falling có thể dùng cho Yes/No question → nghe lịch sự hơn hoặc rhetorical",
-      "Rising ở cuối câu khẳng định → đang không chắc, hoặc Australian English",
-      "List items: mỗi mục lên giọng ↗, mục cuối xuống ↘"
+      "Yes/No questions có thể xuống giọng khi người nói mong đợi sự đồng ý, đang kiểm tra điều đã biết hoặc muốn nghe chắc chắn hơn; cách này không tự động \"lịch sự hơn\".",
+      "Rising ở cuối câu khẳng định có thể biểu thị chưa chắc chắn, đang mời phản hồi hoặc là đặc điểm của một số giọng.",
+      "Trong danh sách, các mục chưa cuối thường lên nhẹ và mục cuối thường xuống."
     ],
     "vs_vietnamese": "Tiếng Việt có 6 thanh điệu cho MỖI ÂM TIẾT → không dùng nhiều ngữ điệu câu. Người Việt hay đọc tiếng Anh với intonation phẳng → nghe không tự nhiên, khó biết đang hỏi hay khẳng định."
   },
@@ -2359,9 +2369,10 @@
   "ielts-discourse": {
     "why": "Discourse markers (từ nối) trong IELTS Speaking cần có intonation phù hợp để người nghe biết bạn đang tiếp nối hay đối lập ý. Intonation sai → argument nghe thiếu cohesion dù từ vựng đúng.",
     "how_to": [
-      "Tương phản/kết luận → xuống giọng ↘ (nhấn mạnh bước ngoặt): 'However,↘' 'In contrast,↘' 'Nevertheless,↘' 'In conclusion,↘' 'On the other hand,↘'",
-      "Bổ sung/tiếp nối → lên giọng nhẹ ↗ (báo hiệu còn nhiều ý): 'Furthermore,↗' 'In addition,↗' 'Moreover,↗' 'For example,↗' 'What's more,↗'",
-      "Discourse markers thường có PAUSE nhỏ sau — cho người nghe xử lý hướng mới của argument."
+      "Ngữ điệu thuộc về cả cụm ý, không cố định tuyệt đối theo từng discourse marker. \"However\", \"Therefore\" hay \"For example\" có thể lên hoặc xuống tùy câu còn tiếp hay đã khép lại.",
+      "Khi marker mở một ý chưa hoàn tất, giọng thường duy trì hoặc lên nhẹ: \"For example,↗ many students...\"",
+      "Khi marker báo hiệu bước ngoặt rõ hoặc dẫn vào kết luận hoàn chỉnh, giọng có thể xuống: \"However,↘ this is not always true.\"",
+      "Thường có một khoảng ngắt rất ngắn sau marker, nhưng không nên đọc nó như một từ tách rời cứng nhắc."
     ],
     "exceptions": [
       "Trong thực tế conversation, intonation linh hoạt — quan trọng là consistent và natural",
@@ -2372,9 +2383,9 @@
   "sentence-stress-rhythm": {
     "why": "Tiếng Anh là stress-timed language — nhịp rơi đều vào các stressed syllables, khoảng cách giữa chúng gần đều nhau. Tiếng Việt là syllable-timed — mỗi âm tiết đều đặn. Đây là khác biệt căn bản nhất về nhịp điệu.",
     "how_to": [
-      "Content words (nhấn mạnh): Danh từ, động từ chính, tính từ, trạng từ, từ hỏi. VD: 'She BOUGHT a NEW RED CAR.'",
-      "Function words (đọc nhẹ/nhanh): Mạo từ, giới từ, liên từ, đại từ, trợ động từ. VD: 'she', 'a', 'bought' (trợ).",
-      "Luyện: Gõ tay vào bàn mỗi khi gặp content word khi đọc câu. Giữ nhịp gõ đều nhau — function words phải đọc nhanh để 'kịp' nhịp tiếp theo."
+      "Content words thường được nhấn: danh từ, động từ chính, tính từ, trạng từ và từ hỏi. Ví dụ: \"She BOUGHT a NEW RED CAR.\"",
+      "Function words thường nhẹ và nhanh hơn: mạo từ, giới từ, liên từ, đại từ và trợ động từ. Trong ví dụ trên, \"she\" và \"a\" thường nhẹ; \"bought\" là động từ chính nên được nhấn.",
+      "Gõ tay vào các từ mang trọng âm chính và giữ khoảng cách nhịp tương đối đều; các từ không nhấn được rút ngắn để vừa nhịp."
     ],
     "exceptions": [
       "Khi muốn nhấn mạnh (contrastive stress): 'I didn't say JOHN, I said MARY' — function word được nhấn",
@@ -2385,11 +2396,10 @@
   "thought-groups": {
     "why": "Người bản ngữ không nói từng từ riêng lẻ — họ nhóm các từ có nghĩa gần nhau thành \"thought groups\" và ngắt giữa các nhóm. Ngắt sai chỗ làm người nghe khó hiểu, thiếu tự nhiên.",
     "how_to": [
-      "Mỗi thought group thường có 3–7 từ, kết thúc ở chỗ có nghĩa hoàn chỉnh một phần.",
-      "Ngắt nhẹ (micro-pause) giữa các nhóm — không phải khoảng trống dài.",
-      "Từ cuối mỗi nhóm thường được nhấn nhẹ hơn (falling nucleus).",
-      "Luyện: đọc câu dài → tìm chỗ ngắt tự nhiên → thực hành với dấu /.",
-      "IELTS Band 7+: examiners đánh giá \"appropriate chunking\" — nhóm câu hợp lý."
+      "Mỗi thought group thường chứa một đơn vị ý nghĩa tương đối hoàn chỉnh; độ dài có thể thay đổi, không nhất thiết luôn 3–7 từ.",
+      "Ngắt rất nhẹ giữa các nhóm, nhưng không ngắt bên trong một cụm ngữ pháp chặt như \"wants to get a good job\".",
+      "Mỗi thought group thường có một nucleus, tức âm tiết mang trọng âm nổi bật và chuyển động ngữ điệu; nó thường nằm ở từ nội dung cuối cùng, chứ không phải \"được nhấn nhẹ hơn\".",
+      "Luyện bằng cách đánh dấu / ở ranh giới ý tự nhiên rồi đọc liền mạch trong từng nhóm."
     ],
     "vs_vietnamese": "Tiếng Việt có âm tiết rõ ràng và ngắt tự nhiên hơn. Tiếng Anh nói liên tục hơn trong mỗi thought group — tránh ngắt ở giữa nhóm.",
     "exceptions": [
@@ -2414,10 +2424,10 @@
   "fast-speech": {
     "why": "Trong hội thoại tự nhiên, người nói nhanh 'compress' các từ nhỏ — đặc biệt function words. Đây là đặc điểm của bản ngữ, không phải lỗi. Nghe và nhận ra được giúp hiểu podcast, phim, IELTS Listening Band 7+.",
     "how_to": [
-      "Ghi nhớ các cặp: going to → gonna (/ˈɡɒnə/), want to → wanna (/ˈwɒnə/).",
-      "Không nhất thiết phải TỰ NÓI theo — nhưng phải nghe hiểu được.",
-      "IELTS Speaking: tránh dùng gonna/wanna trong formal context (exam); dùng trong informal Task 1 (nếu phù hợp).",
-      "Luyện nghe: podcast, phim không phụ đề → pause → replay → identify reductions."
+      "Ghi nhớ và nhận diện các dạng rất thân mật như going to → gonna /ˈɡɒnə/, want to → wanna /ˈwɒnə/.",
+      "Không cần cố dùng chúng. Trong IELTS Speaking, các reduction tự nhiên có thể xuất hiện, nhưng \"gonna/wanna\" nên được dùng rất hạn chế và chỉ khi phù hợp với phong cách nói; không có quy tắc riêng rằng Part 1 luôn cho phép còn các phần khác thì không.",
+      "Khi viết học thuật hoặc trang trọng, không dùng các cách viết gonna, wanna, gotta.",
+      "Luyện nghe bằng cách nghe lại một đoạn ngắn, xác định dạng đầy đủ rồi đối chiếu với cách người nói giảm âm."
     ],
     "vs_vietnamese": "Tiếng Việt nói nhanh cũng có giảm âm (tôi → tui, không → hông) — tương tự khái niệm nhưng khác từ cụ thể.",
     "exceptions": [
@@ -2470,13 +2480,13 @@
   "ipa-dictionary": {
     "why": "Cambridge và Oxford Dictionary đều dùng IPA để ghi phát âm chính xác. Biết đọc IPA = tự học phát âm bất kỳ từ nào không cần giáo viên hay audio. Đây là kỹ năng cốt lõi của học viên IELTS độc lập.",
     "how_to": [
-      "Mở Cambridge Dictionary (dictionary.cambridge.org) → gõ từ → nhìn phần /.../ màu xanh bên dưới từ khóa. VD: 'teacher' → /ˈtiːtʃə/",
-      "ˈ = dấu nhấn mạnh (PRIMARY STRESS). Đọc to âm tiết ngay SAU dấu ˈ. VD: /ˈtiːtʃə/ → TEA-cher (nhấn TEA)",
-      "ˌ = nhấn phụ (SECONDARY STRESS). Nhấn nhẹ hơn. VD: /ˌʌndəˈstænd/ → un-der-STAND (nhấn chính STAND, nhấn phụ UN)",
-      "ː = nguyên âm dài. /iː/ dài gấp đôi /ɪ/ · /uː/ dài gấp đôi /ʊ/ · /ɑː/ dài gấp đôi /ʌ/ · /ɔː/ dài gấp đôi /ɒ/",
-      "ə = schwa — âm 'ơ' yếu, ngắn, xuất hiện trong âm tiết không nhấn. Đây là âm PHỔ BIẾN NHẤT trong tiếng Anh!",
-      "BrE (cột 1) = British English — dùng cho IELTS. AmE (cột 2) = American English. Ưu tiên đọc BrE khi thi IELTS.",
-      "(r) trong ngoặc = âm /r/ chỉ phát âm khi từ tiếp theo bắt đầu bằng nguyên âm. VD: 'mother of' → /ˈmʌðər əv/"
+      "Mở Cambridge Dictionary → gõ từ → xem phiên âm British English trong dấu /.../. Ví dụ: \"teacher\" → /ˈtiːtʃə/.",
+      "ˈ = trọng âm chính. Âm tiết ngay sau dấu ˈ được nhấn mạnh nhất: /ˈtiːtʃə/ → TEA-cher.",
+      "ˌ = trọng âm phụ, nhẹ hơn trọng âm chính: /ˌʌndəˈstænd/ → UN-der-STAND.",
+      "ː = dấu độ dài của nguyên âm. Nguyên âm có /ː/ thường được giữ lâu hơn, nhưng độ dài thực tế còn thay đổi theo trọng âm và phụ âm xung quanh; không phải lúc nào cũng \"gấp đôi\" chính xác.",
+      "ə = schwa, một nguyên âm giữa rất ngắn và yếu, thường xuất hiện trong âm tiết không nhấn.",
+      "Khóa học này theo British RP/General British. IELTS chấp nhận nhiều giọng chuẩn khác nhau miễn phát âm rõ ràng và nhất quán; không bắt buộc thí sinh phải dùng giọng Anh-Anh.",
+      "(r) hoặc /r/ nối trong một số từ điển cho biết /r/ có thể xuất hiện trước nguyên âm tiếp theo: \"mother of\" có linking /r/ trong lời nói liền mạch."
     ],
     "spelling": [
       {
@@ -2561,17 +2571,18 @@
       "Bỏ qua ə → phát âm sai: 'problem' /ˈprɒblem/ (sai) → phải là /ˈprɒbləm/ (schwa cuối)",
       "Nhầm độ dài nguyên âm: /iː/ và /ɪ/ là 2 ÂM KHÁC NHAU về chất, không chỉ dài/ngắn",
       "Dùng AmE trong IELTS: 'hot' nên là /hɒt/ (BrE), không phải /hɑːt/ (AmE)"
-    ]
+    ],
+    "vs_vietnamese": "Chính tả tiếng Việt thường cho biết cách đọc trực tiếp hơn và không dùng trọng âm từ như tiếng Anh. Học sinh Việt dễ bỏ qua dấu nhấn, schwa, nguyên âm dài và các chữ câm khi nhìn IPA; cần đọc toàn bộ chuỗi âm thay vì đoán theo mặt chữ."
   },
   "sounds-vs-syllables": {
     "why": "Biết đếm âm tiết chính xác giúp phát âm đúng nhịp và không thêm/bớt âm tiết. Biết đếm âm (sounds) giúp hiểu IPA và nhận biết âm câm. Đây là 2 kỹ năng phân tích từ cơ bản không thể thiếu khi học IELTS.",
     "how_to": [
-      "ÂM TIẾT (syllable) = nhịp đập. Test: đặt tay dưới cằm — mỗi lần cằm chạm tay = 1 âm tiết. 'wa·ter' = 2 · 'to·mor·row' = 3",
-      "QUY TẮC: Mỗi âm tiết có đúng 1 NGUYÊN ÂM ÂM (không phải chữ cái). 'make' có 2 nguyên âm CHỮ (a, e) nhưng E cuối câm → chỉ 1 âm tiết",
-      "ÂM (sound/phoneme) = đơn vị nhỏ nhất. 'cat' = 3 âm /k·æ·t/ · 'ship' = 3 âm /ʃ·ɪ·p/ (4 chữ) · 'through' = 3 âm /θ·r·uː/ (7 chữ)",
-      "CÁCH ĐẾM ÂM: mở IPA trong từ điển, đếm các ký hiệu trong //. 'knight' /naɪt/ = 3 ký hiệu = 3 âm (dù có 6 chữ)",
-      "DẤU NGĂN ÂM TIẾT trong IPA: dấu chấm (·) hoặc gạch đứng (|). VD: /ˈwɔː.tə/ = 2 âm tiết · /ˌʌn.də.ˈstænd/ = 3 âm tiết",
-      "BẪY PHỔ BIẾN: comfortable (3 âm tiết, không phải 4) · interesting (3, không phải 4) · chocolate (3, không phải 4) · different (2, không phải 3)"
+      "ÂM TIẾT (syllable) = một nhịp phát âm có một hạt nhân. Hạt nhân thường là nguyên âm, nhưng cũng có thể là phụ âm tạo âm tiết như /l̩/ hoặc /n̩/: table /ˈteɪbl̩/, garden /ˈɡɑːdn̩/.",
+      "Không đếm chữ cái nguyên âm để đếm âm tiết. \"make\" có hai chữ cái a, e nhưng chỉ một âm tiết vì e cuối câm.",
+      "ÂM VỊ (phoneme) = đơn vị âm thanh có thể phân biệt nghĩa. \"cat\" có /k æ t/; \"ship\" có /ʃ ɪ p/.",
+      "Không đếm máy móc từng ký tự IPA: /aɪ/ là một nguyên âm đôi nhưng gồm hai ký hiệu; /tʃ/ là một âm tắc-xát nhưng cũng gồm hai ký hiệu. \"knight\" /naɪt/ có ba âm vị: /n/, /aɪ/, /t/.",
+      "Dấu chấm trong phiên âm từ điển có thể đánh dấu ranh giới âm tiết: /ˈwɔː.tə/ có hai âm tiết.",
+      "Một số từ có biến thể theo tốc độ và người nói: \"comfortable\" thường có 3 âm tiết trong lời nói tự nhiên; \"interesting\" có thể có 3 hoặc 4; \"chocolate\" thường có 2; \"different\" thường có 3 nhưng có thể được rút xuống 2 trong lời nói nhanh."
     ],
     "spelling": [
       {
@@ -2632,7 +2643,8 @@
       "Đọc E cuối câm như âm tiết: 'make' /meɪk/ = 1 âm tiết, không phải 'ma-ke' (2)",
       "Phát âm 'com-for-ta-ble' = 4 âm tiết — sai! Đúng là /ˈkʌmf.tə.bl/ = 3 âm tiết",
       "Phát âm 'in-ter-es-ting' = 4 âm tiết — sai! Đúng là /ˈɪn.trɪs.tɪŋ/ = 3 âm tiết"
-    ]
+    ],
+    "vs_vietnamese": "Mỗi âm tiết tiếng Việt thường có cấu trúc rõ và tương ứng khá sát với một tiếng viết tách rời. Tiếng Anh có cụm phụ âm, chữ câm, nguyên âm đôi và phụ âm tạo âm tiết, nên số chữ cái, số âm vị và số âm tiết thường không trùng nhau."
   },
   "silent-letters-extra": {
     "why": "Tiếp nối bài K/B/W và GH/L/T, bài này cover các âm câm học thuật quan trọng còn lại. Silent H hay xuất hiện trong từ gốc Latin/Pháp (honest, hour). Silent G xuất hiện trong nhiều từ mượn tiếng Pháp (campaign, cologne). Silent N/P xuất hiện trong từ khoa học (psychology, pneumonia) và từ Latin (autumn, column).",
@@ -2742,17 +2754,17 @@
       "Phát âm N cuối trong 'autumn' → /ˈɔːtəm/ không phải /ˈɔːtəmn/. Tương tự: column, condemn, hymn",
       "Phát âm P đầu trong 'psychology' → /saɪˈkɒlədʒi/ không phải /psaɪˈkɒlədʒi/",
       "Nhầm wh-: 'who' /huː/ và 'whole' /həʊl/ có H PHÁT ÂM — ngoại lệ của nhóm wh-câm"
-    ]
+    ],
+    "vs_vietnamese": "Tiếng Việt thường có quan hệ chữ–âm ổn định hơn, nên học sinh dễ đọc mọi chữ cái nhìn thấy. Với tiếng Anh, cần học chữ câm theo từng pattern và kiểm tra IPA, đặc biệt ở các từ gốc Hy Lạp, Latin và Pháp."
   },
   "mispronounced": {
     "why": "Những từ này xuất hiện thường xuyên trong IELTS Listening, Speaking và Writing, nhưng hay bị phát âm sai dù đã biết nghĩa. Nguyên nhân: đọc theo mặt chữ, ảnh hưởng phiên âm tiếng Việt, hoặc chưa bao giờ kiểm tra lại với từ điển.",
     "how_to": [
-      "Nguyên tắc vàng: KHÔNG đọc tiếng Anh theo cách bạn đọc chữ. Luôn tra IPA trong Cambridge Dictionary trước khi dùng từ mới",
-      "Kiểm tra 3 điểm khi tra từ: (1) Có bao nhiêu âm tiết? (2) Nhấn ở âm tiết nào? (3) Các nguyên âm phát âm thế nào?",
-      "Từ CÓ ÍT âm tiết hơn bạn nghĩ (hay bị thêm âm): comfortable→3 · vegetable→3 · chocolate→3 · different→2 · every→2 · Wednesday→2",
-      "Từ bị NHẤN SAI VỊ TRÍ: phoˈtography (2nd) ≠ ˈphotograph (1st) · eˈconomy (2nd) · proˌnunciˈation (3rd) · cerˈtificate (2nd)",
-      "Từ có NGUYÊN ÂM ĐỌC SAI HOÀN TOÀN: colonel /ˈkɜːnl/ · women /ˈwɪmɪn/ · said /sed/ · blood /blʌd/ · friend /frend/ · island /ˈaɪlənd/ (s câm!)",
-      "Mẹo luyện tập: chép 10 từ hay dùng nhất, tra IPA, ghi phiên âm lên flashcard, đọc to mỗi ngày 5 lần"
+      "Nguyên tắc vàng: Không đoán phát âm chỉ từ chính tả; hãy kiểm tra IPA và audio trong từ điển.",
+      "Kiểm tra ba điểm: số âm tiết, vị trí trọng âm chính và chất lượng nguyên âm.",
+      "Một số từ ngắn hơn mặt chữ gợi ý: comfortable thường 3 âm tiết, vegetable 3, chocolate 2, every 2, Wednesday 2. \"Different\" thường có 3 âm tiết nhưng có thể rút xuống 2; \"interesting\" có thể có 3 hoặc 4.",
+      "Trọng âm: photography /fəˈtɒɡrəfi/ nhấn âm tiết 2; economy /ɪˈkɒnəmi/ nhấn âm tiết 2; pronunciation /prəˌnʌnsiˈeɪʃən/ nhấn chính ở âm tiết 4 và nhấn phụ ở âm tiết 2; certificate /səˈtɪfɪkət/ nhấn âm tiết 2.",
+      "Một số nguyên âm không thể đoán từ mặt chữ: colonel /ˈkɜːnl/, women /ˈwɪmɪn/, said /sed/, blood /blʌd/, friend /frend/, island /ˈaɪlənd/."
     ],
     "spelling": [
       {
@@ -2827,7 +2839,8 @@
       "'Pronunciation' /prəˌnʌn.siˈeɪ.ʃn/ — KHÔNG phải 'pro-NOUN-ci-a-tion'. Chú ý: không có OU, chỉ có UN!",
       "'Colonel' /ˈkɜːnl/ — đọc như 'kernel'. KHÔNG phải 'col-o-nel'. Từ gốc Pháp mượn vào tiếng Anh qua tiếng Ý.",
       "'Island' /ˈaɪlənd/ — S câm! KHÔNG phải 'iz-land'. Từ này ghép is + land nhưng S không phát âm từ thế kỷ 16"
-    ]
+    ],
+    "vs_vietnamese": "Người Việt thường có xu hướng đọc đủ từng chữ, giữ nguyên số âm tiết nhìn thấy và đặt lực khá đều. Điều này dễ dẫn đến thêm âm tiết, nhấn sai và đọc nguyên âm theo tên chữ thay vì theo IPA."
   },
   "clusters-pbl": {
     "how_to": [
@@ -2901,15 +2914,15 @@
   },
   "clusters-trdr": {
     "how_to": [
-      "tr-: lưỡi tạo /t/ ở ngạc răng → cuộn ngay sang /r/. Trong tiếng Anh tự nhiên: /tr-/ → /tʃr-/! tree → /tʃriː/",
-      "dr-: tương tự nhưng hữu thanh. /dr-/ trong tiếng Anh tự nhiên → /dʒr-/! dream → /dʒriːm/",
-      "Đây là đặc điểm THẬT của native English, không phải lỗi phát âm. Hãy nghe kỹ: train /tʃreɪn/, drink /dʒrɪŋk/",
-      "Ngoài tr-/dr- còn có: fr- (free, from, friend) · gr- /ɡr-/ (great, green, grow) · cr- /kr-/ (cry, cream, cross)"
+      "tr-: Tạo /t/ ở gờ nướu rồi chuyển ngay sang /r/ mà không chèn nguyên âm: tree /triː/, train /treɪn/.",
+      "dr-: Tạo /d/ rồi chuyển ngay sang /r/: dream /driːm/, drink /drɪŋk/.",
+      "Trong nhiều giọng Anh hiện đại, /tr/ và /dr/ có thể được affricate hóa, nghe gần [tʃr] và [dʒr]. Đây là một biến thể tự nhiên, nhưng phiên âm âm vị chuẩn vẫn thường viết /tr/ và /dr/; không nên ép mọi từ thành /tʃr/ hoặc /dʒr/.",
+      "Ngoài tr-/dr- còn có fr- (free, from, friend), gr- (great, green, grow) và cr- (cry, cream, cross)."
     ],
     "vs_vietnamese": "Tiếng Việt dùng /tr-/ khác: miền Nam đọc như /tʃ/, miền Bắc như /ch/ riêng. Âm /tr-/ tiếng Anh hoàn toàn khác — phải học lại từ đầu cách kết hợp /t/+/r/ và /d/+/r/.",
     "spelling": [
       {
-        "pattern": "tr- → /tʃr-/ (tự nhiên)",
+        "pattern": "tr-",
         "examples": [
           "tree",
           "train",
@@ -2932,7 +2945,7 @@
         ]
       },
       {
-        "pattern": "dr- → /dʒr-/ (tự nhiên)",
+        "pattern": "dr-",
         "examples": [
           "dream",
           "drink",
@@ -2956,19 +2969,18 @@
       }
     ],
     "mistakes": [
-      "Chèn schwa: \"train\" → /tə·reɪn/ (sai) — phải là /treɪn/ hoặc /tʃreɪn/",
-      "Bỏ /r/: \"dream\" → /diːm/ (sai) — phải là /driːm/ hoặc /dʒriːm/. /r/ PHẢI có mặt",
-      "Dùng /tr-/ kiểu Việt: âm này không giống /tr/ tiếng Anh — không chuyển thói quen cũ sang"
+      "Chèn schwa: \"train\" → /təˈreɪn/ thay vì /treɪn/",
+      "Bỏ /r/: \"dream\" → /diːm/ thay vì /driːm/",
+      "Dùng cụm /tr/ kiểu tiếng Việt mà không tạo /r/ tiếng Anh rõ",
+      "Cố phát âm mọi /tr dr/ thành /tʃr dʒr/ thật mạnh, dù mức độ affricate hóa thay đổi theo người nói và ngữ cảnh"
     ]
   },
   "final-voiced": {
     "how_to": [
-      "Tiếng Anh CÓ voiced final stops: -b, -d, -g. Tiếng Việt chỉ có -p/-t/-k vô thanh ở cuối từ — không có voiced!",
-      "DẤU HIỆU NHẬN BIẾT quan trọng nhất: VOWEL TRƯỚC VOICED FINAL DÀI HƠN. cap /kæp/ vs cab /kæːb/ — nguyên âm trong \"cab\" dài hơn",
-      "Cách tạo -b: môi chạm nhau + rung thanh quản đến cuối → giữ khép, ít hoặc không burst",
-      "Cách tạo -d: lưỡi chạm ngạc răng + rung thanh quản đến cuối → giữ, ít burst",
-      "Cách tạo -g: lưỡi cuộn chạm vòm mềm + rung thanh quản đến cuối → giữ, ít burst",
-      "Trong natural speech voiced finals thường không burst mạnh — nhưng vẫn PHẢI rung thanh quản và giữ đúng vị trí"
+      "Tiếng Anh có các âm dừng hữu thanh /b d ɡ/ ở cuối từ; tiếng Việt không có đối lập này ở vị trí cuối âm tiết.",
+      "Dấu hiệu nghe rất quan trọng là nguyên âm trước /b d ɡ/ thường dài hơn nguyên âm trước /p t k/: \"cab\" /kæb/ có nguyên âm dài hơn về mặt ngữ âm so với \"cap\" /kæp/, nhưng không viết thêm dấu /ː/ trong phiên âm âm vị.",
+      "-b: khép hai môi; -d: đầu lưỡi chạm gờ nướu; -ɡ: phần sau lưỡi chạm vòm mềm.",
+      "Ở cuối từ, /b d ɡ/ thường chỉ hữu thanh một phần và có thể không bật ra rõ. Không cần ép dây thanh rung mạnh đến tận cuối; cần giữ đúng vị trí, độ dài nguyên âm trước và sự đối lập với /p t k/."
     ],
     "vs_vietnamese": "Tiếng Việt có -p/-t/-k (vô thanh, không bật hơi) nhưng tuyệt đối không có -b/-d/-g. Học sinh thường: (1) bỏ âm cuối hoàn toàn \"bag\" → /bæ/, hoặc (2) dùng voiceless thay \"bag\" → /bæk/. Cả hai đều sai.",
     "spelling": [
@@ -3060,18 +3072,18 @@
       }
     ],
     "mistakes": [
-      "Voiceless thay voiced: \"bag\" → /bæk/ (sai) — phải /bæɡ/, thanh quản vẫn rung đến cuối",
-      "Bỏ âm cuối: \"bed\" → /be/ (sai) — lưỡi PHẢI chạm ngạc răng, dù không burst",
-      "Không nghe được vowel length cue: \"bad\" vs \"bat\" — vowel trong \"bad\" dài hơn đây là cách native speakers phân biệt"
+      "Vô thanh hóa: \"bag\" nghe thành \"back\", \"bed\" nghe thành \"bet\"",
+      "Bỏ phụ âm cuối: \"bed\" → /be/, \"dog\" → /dɒ/",
+      "Không kéo dài nguyên âm tương đối trước phụ âm hữu thanh, làm mất một tín hiệu nghe quan trọng",
+      "Cố rung thật mạnh đến cuối hoặc bật /b d ɡ/ quá rõ; trong lời nói tự nhiên, chúng thường chỉ hữu thanh một phần và ít bật"
     ]
   },
   "final-fricatives": {
     "how_to": [
-      "Tiếng Việt KHÔNG có fricatives (âm xát) ở cuối từ — đây là lỗi phổ biến nhất của học sinh Việt",
-      "Final /f/: môi dưới chạm nhẹ răng trên, luồng khí tiếp tục sau nguyên âm. \"beef\" /biːf/ — cảm nhận hơi thở ra sau nguyên âm",
-      "Final /v/: tương tự /f/ nhưng rung thanh quản. \"move\" /muːv/ — đặt tay lên cổ, cảm nhận rung đến cuối từ",
-      "Kiểm tra: sau khi nói \"beef\", đặt tay trước miệng — có luồng khí /f/ không? Nếu không = bạn bỏ âm cuối!",
-      "Ngoài -f/-v, tiếng Anh còn có: final -s /z/ · final -θ (breathe) · final -ʃ (wash, push) — tất cả đều cần luồng khí sau nguyên âm"
+      "Tiếng Việt không có âm xát ở cuối âm tiết, nên học sinh thường bỏ luồng hơi cuối trong tiếng Anh.",
+      "Final /f/: Răng trên chạm nhẹ môi dưới và luồng khí tiếp tục sau nguyên âm, như \"beef\" /biːf/.",
+      "Final /v/: Cùng vị trí với /f/ nhưng có voicing; voicing có thể yếu dần ở cuối, và nguyên âm trước /v/ thường dài hơn trước /f/.",
+      "Ngoài /f v/, tiếng Anh còn có các âm xát cuối như /s z θ ð ʃ ʒ/: \"breath\" /breθ/, \"breathe\" /briːð/, \"wash\" /wɒʃ/."
     ],
     "vs_vietnamese": "Tiếng Việt không có âm xát cuối từ. Phản xạ tự nhiên của học sinh: \"beef\" → /biː/ (bỏ /f/), \"move\" → /muː/ (bỏ /v/). Cảm giác giữ fricative cuối từ sẽ rất lạ lúc đầu — hoàn toàn bình thường.",
     "spelling": [
@@ -3130,11 +3142,10 @@
   },
   "final-l": {
     "how_to": [
-      "Final /l/ trong tiếng Anh là \"Dark L\" /ɫ/ — lưỡi chạm ngạc răng SAU nguyên âm. Nghe khác \"Clear L\" đầu từ (lake, live)",
-      "Cách tạo: phát nguyên âm → lưỡi từ từ nâng lên → chạm ngạc răng → giữ chạm → thả. \"well\" = /w/ + /e/ + /ɫ/",
-      "Lỗi 1: BỎ /l/ → \"feel\" → /fiː/ (sai). Nguyên âm ngắn và không đủ — thiếu chuyển động lưỡi cuối",
-      "Lỗi 2: THAY BẰNG /n/ → \"well\" → /wen/ (sai). /l/ = khí thoát hai bên lưỡi; /n/ = khí thoát qua mũi — khác hoàn toàn",
-      "Test: nói \"well\" và \"when\" — cảm nhận lưỡi chạm ngạc (/l/) vs khí qua mũi (/n/)?"
+      "Final /l/ trong RP thường là \"Dark L\" [ɫ]: đầu lưỡi chạm gờ nướu trong khi phần sau của lưỡi cũng nâng lên, tạo chất âm tối hơn /l/ đầu từ.",
+      "Cách tạo: Phát nguyên âm, nâng đầu lưỡi lên gờ nướu và đồng thời nâng nhẹ phần sau lưỡi. Luồng hơi thoát qua hai bên lưỡi.",
+      "Một số người nói tiếng Anh-Anh hiện đại có thể \"vocalise\" /l/ cuối, nhưng người học nên luyện rõ tiếp xúc đầu lưỡi trước.",
+      "Phân biệt với /n/: /l/ cho hơi thoát hai bên lưỡi; /n/ chặn miệng và cho hơi thoát qua mũi."
     ],
     "vs_vietnamese": "Tiếng Việt có /l/ đầu từ (\"la\", \"lên\") nhưng KHÔNG có /l/ cuối từ. Cuối từ tiếng Việt chỉ có: -p/-t/-c/-ch/-m/-n/-ng/-nh. Final /l/ là âm hoàn toàn mới — cần luyện tập từ đầu.",
     "spelling": [
@@ -3173,19 +3184,19 @@
         "pattern": "-l vs -n (minimal pairs)",
         "examples": [
           "well≠when",
-          "feel≠fin",
           "tell≠ten",
-          "call≠can",
-          "fill≠thin",
-          "ball≠ban"
+          "fill≠fin",
+          "kill≠kin",
+          "call≠corn",
+          "fall≠fawn"
         ],
         "examples_ipa": [
           "/wel/≠/wen/",
-          "/fiːl/≠/fɪn/",
           "/tel/≠/ten/",
-          "/kɔːl/≠/kæn/",
-          "/fɪl/≠/θɪn/",
-          "/bɔːl/≠/bæn/"
+          "/fɪl/≠/fɪn/",
+          "/kɪl/≠/kɪn/",
+          "/kɔːl/≠/kɔːn/",
+          "/fɔːl/≠/fɔːn/"
         ]
       }
     ],

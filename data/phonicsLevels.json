@@ -50,16 +50,16 @@
             }
           ],
           "practice_words": [
-            "tree",
-            "fish",
-            "see",
+            "sheep",
+            "ship",
+            "seat",
             "sit",
-            "eat",
-            "it",
-            "bean",
-            "bin",
-            "feet",
-            "fit",
+            "leave",
+            "live",
+            "reach",
+            "rich",
+            "feel",
+            "fill",
             "heat",
             "hit"
           ],
@@ -100,16 +100,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/triː/",
-            "/fɪʃ/",
-            "/siː/",
+            "/ʃiːp/",
+            "/ʃɪp/",
+            "/siːt/",
             "/sɪt/",
-            "/iːt/",
-            "/ɪt/",
-            "/biːn/",
-            "/bɪn/",
-            "/fiːt/",
-            "/fɪt/",
+            "/liːv/",
+            "/lɪv/",
+            "/riːtʃ/",
+            "/rɪtʃ/",
+            "/fiːl/",
+            "/fɪl/",
             "/hiːt/",
             "/hɪt/"
           ]
@@ -151,18 +151,18 @@
             }
           ],
           "practice_words": [
-            "moon",
-            "book",
-            "food",
-            "foot",
-            "cool",
-            "cook",
+            "fool",
+            "full",
             "pool",
             "pull",
-            "stool",
-            "full",
-            "boot",
-            "hook"
+            "Luke",
+            "look",
+            "suit",
+            "soot",
+            "food",
+            "foot",
+            "wooed",
+            "wood"
           ],
           "tip": "uː: môi tròn căng · ʊ: môi tròn nhẹ, miệng hơi mở hơn",
           "practice_sentences": [
@@ -196,18 +196,18 @@
             }
           ],
           "practice_words_ipa": [
-            "/muːn/",
-            "/bʊk/",
-            "/fuːd/",
-            "/fʊt/",
-            "/kuːl/",
-            "/kʊk/",
+            "/fuːl/",
+            "/fʊl/",
             "/puːl/",
             "/pʊl/",
-            "/stuːl/",
-            "/fʊl/",
-            "/buːt/",
-            "/hʊk/"
+            "/luːk/",
+            "/lʊk/",
+            "/suːt/",
+            "/sʊt/",
+            "/fuːd/",
+            "/fʊt/",
+            "/wuːd/",
+            "/wʊd/"
           ]
         },
         {
@@ -247,18 +247,18 @@
             }
           ],
           "practice_words": [
-            "car",
-            "cup",
-            "far",
-            "fun",
-            "hard",
-            "hug",
-            "park",
-            "puck",
+            "cart",
+            "cut",
+            "heart",
+            "hut",
             "barn",
             "bun",
-            "heart",
-            "hut"
+            "dark",
+            "duck",
+            "park",
+            "puck",
+            "march",
+            "much"
           ],
           "tip": "ɑː: há miệng rộng, kéo dài · ʌ: há vừa, ngắn",
           "practice_sentences": [
@@ -290,18 +290,18 @@
             }
           ],
           "practice_words_ipa": [
-            "/kɑː/",
-            "/kʌp/",
-            "/fɑː/",
-            "/fʌn/",
-            "/hɑːd/",
-            "/hʌɡ/",
-            "/pɑːk/",
-            "/pʌk/",
+            "/kɑːt/",
+            "/kʌt/",
+            "/hɑːt/",
+            "/hʌt/",
             "/bɑːn/",
             "/bʌn/",
-            "/hɑːt/",
-            "/hʌt/"
+            "/dɑːk/",
+            "/dʌk/",
+            "/pɑːk/",
+            "/pʌk/",
+            "/mɑːtʃ/",
+            "/mʌtʃ/"
           ]
         },
         {
@@ -341,20 +341,20 @@
             }
           ],
           "practice_words": [
-            "dog",
-            "ball",
-            "hot",
-            "hall",
-            "lot",
-            "law",
-            "top",
-            "talk",
-            "dot",
-            "door",
-            "got",
-            "gore"
+            "cot",
+            "caught",
+            "stock",
+            "stork",
+            "cod",
+            "cord",
+            "spot",
+            "sport",
+            "fox",
+            "forks",
+            "shot",
+            "short"
           ],
-          "tip": "ɒ: ngắn, miệng mở, môi không tròn · ɔː: kéo dài, môi tròn căng",
+          "tip": "ɒ: ngắn, miệng mở, môi tròn nhẹ · ɔː: dài hơn, môi tròn rõ hơn",
           "practice_sentences": [
             {
               "en": "The dog got the ball.",
@@ -367,6 +367,7 @@
             {
               "en": "Walk the dog at four.",
               "highlight": [
+                "walk",
                 "dog",
                 "four"
               ]
@@ -374,31 +375,34 @@
             {
               "en": "Call the dog and stop.",
               "highlight": [
-                "dog"
+                "call",
+                "dog",
+                "stop"
               ]
             },
             {
               "en": "The dog walked to the hall door.",
               "highlight": [
                 "dog",
+                "walked",
                 "hall",
                 "door"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/dɒɡ/",
-            "/bɔːl/",
-            "/hɒt/",
-            "/hɔːl/",
-            "/lɒt/",
-            "/lɔː/",
-            "/tɒp/",
-            "/tɔːk/",
-            "/dɒt/",
-            "/dɔː/",
-            "/ɡɒt/",
-            "/ɡɔː/"
+            "/kɒt/",
+            "/kɔːt/",
+            "/stɒk/",
+            "/stɔːk/",
+            "/kɒd/",
+            "/kɔːd/",
+            "/spɒt/",
+            "/spɔːt/",
+            "/fɒks/",
+            "/fɔːks/",
+            "/ʃɒt/",
+            "/ʃɔːt/"
           ]
         },
         {
@@ -439,9 +443,9 @@
           ],
           "practice_words": [
             "bed",
-            "bag",
-            "red",
-            "rat",
+            "bad",
+            "men",
+            "man",
             "ten",
             "tan",
             "pen",
@@ -451,7 +455,7 @@
             "set",
             "sat"
           ],
-          "tip": "e: miệng mở vừa · æ: há miệng rộng hơn và kéo hơi dài",
+          "tip": "e: miệng mở vừa · æ: hạ hàm nhiều hơn, lưỡi thấp hơn",
           "practice_sentences": [
             {
               "en": "I have a pen and a bag.",
@@ -461,20 +465,20 @@
               ]
             },
             {
-              "en": "The red bag is sat here.",
+              "en": "The red bag is on the mat.",
               "highlight": [
                 "red",
                 "bag",
-                "sat"
+                "mat"
               ]
             },
             {
-              "en": "I have ten red pens and bags.",
+              "en": "I have ten red pens in a bag.",
               "highlight": [
                 "ten",
                 "red",
                 "pens",
-                "bags"
+                "bag"
               ]
             },
             {
@@ -488,9 +492,9 @@
           ],
           "practice_words_ipa": [
             "/bed/",
-            "/bæɡ/",
-            "/red/",
-            "/ræt/",
+            "/bæd/",
+            "/men/",
+            "/mæn/",
             "/ten/",
             "/tæn/",
             "/pen/",
@@ -761,18 +765,18 @@
             }
           ],
           "practice_words": [
-            "day",
-            "fly",
-            "cake",
-            "kite",
-            "play",
-            "pride",
-            "game",
-            "time",
-            "rain",
-            "mine",
-            "face",
-            "fire"
+            "late",
+            "light",
+            "wait",
+            "white",
+            "fail",
+            "file",
+            "male",
+            "mile",
+            "pain",
+            "pine",
+            "lake",
+            "like"
           ],
           "tip": "eɪ: từ 'e' trôi lên 'i' · aɪ: từ 'a' rộng trôi lên 'i'",
           "practice_sentences": [
@@ -799,27 +803,28 @@
               ]
             },
             {
-              "en": "I see a fly near the cake and fire.",
+              "en": "A fly lands on the cake while I light the fire.",
               "highlight": [
                 "fly",
                 "cake",
+                "light",
                 "fire"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/deɪ/",
-            "/flaɪ/",
-            "/keɪk/",
-            "/kaɪt/",
-            "/pleɪ/",
-            "/praɪd/",
-            "/ɡeɪm/",
-            "/taɪm/",
-            "/reɪn/",
-            "/maɪn/",
-            "/feɪs/",
-            "/ˈfaɪə/"
+            "/leɪt/",
+            "/laɪt/",
+            "/weɪt/",
+            "/waɪt/",
+            "/feɪl/",
+            "/faɪl/",
+            "/meɪl/",
+            "/maɪl/",
+            "/peɪn/",
+            "/paɪn/",
+            "/leɪk/",
+            "/laɪk/"
           ]
         },
         {
@@ -859,39 +864,43 @@
             }
           ],
           "practice_words": [
-            "go",
-            "cow",
-            "home",
-            "how",
-            "road",
+            "know",
+            "now",
+            "load",
             "loud",
-            "snow",
-            "cloud",
+            "tone",
+            "town",
             "boat",
             "bout",
-            "coat",
-            "couch"
+            "hole",
+            "howl",
+            "code",
+            "cowed"
           ],
-          "tip": "əʊ: từ 'uh' trôi lên 'u' tròn · aʊ: từ 'a' rộng trôi xuống 'u' tròn",
+          "tip": "əʊ: từ vị trí giữa trôi lên /ʊ/ và tròn môi · aʊ: từ miệng mở trôi lên /ʊ/ và tròn môi",
           "practice_sentences": [
             {
-              "en": "I go home on the loud road.",
+              "en": "I go home along a loud road.",
               "highlight": [
                 "go",
-                "loud"
+                "home",
+                "loud",
+                "road"
               ]
             },
             {
               "en": "The cow is in the snow near my home.",
               "highlight": [
                 "cow",
-                "snow"
+                "snow",
+                "home"
               ]
             },
             {
-              "en": "We go to the cloud in a boat.",
+              "en": "We go out in a boat under a cloud.",
               "highlight": [
                 "go",
+                "out",
                 "boat",
                 "cloud"
               ]
@@ -906,18 +915,18 @@
             }
           ],
           "practice_words_ipa": [
-            "/ɡəʊ/",
-            "/kaʊ/",
-            "/həʊm/",
-            "/haʊ/",
-            "/rəʊd/",
+            "/nəʊ/",
+            "/naʊ/",
+            "/ləʊd/",
             "/laʊd/",
-            "/snəʊ/",
-            "/klaʊd/",
+            "/təʊn/",
+            "/taʊn/",
             "/bəʊt/",
             "/baʊt/",
-            "/kəʊt/",
-            "/kaʊtʃ/"
+            "/həʊl/",
+            "/haʊl/",
+            "/kəʊd/",
+            "/kaʊd/"
           ]
         },
         {
@@ -978,19 +987,20 @@
               ]
             },
             {
-              "en": "The coin is made of metal not oil and foil.",
+              "en": "The boy found a coin beside some oil and foil.",
               "highlight": [
+                "boy",
                 "coin",
                 "oil",
                 "foil"
               ]
             },
             {
-              "en": "Let's make a choice to avoid the loud voice and noise.",
+              "en": "My choice is to avoid loud voices and noise.",
               "highlight": [
                 "choice",
                 "avoid",
-                "voice",
+                "voices",
                 "noise"
               ]
             }
@@ -1047,26 +1057,26 @@
             }
           ],
           "practice_words": [
-            "ear",
-            "hair",
             "here",
-            "there",
+            "hair",
             "fear",
             "fair",
-            "near",
+            "beer",
             "bear",
             "cheer",
             "chair",
+            "peer",
+            "pair",
             "deer",
             "dare"
           ],
           "tip": "ɪə: bắt đầu bằng 'i' ngắn rồi trôi sang 'uh' · eə: bắt đầu bằng 'e' rồi trôi sang 'uh'",
           "practice_sentences": [
             {
-              "en": "I have a big ear and nice hair.",
+              "en": "Her hair covers one ear.",
               "highlight": [
-                "ear",
-                "hair"
+                "hair",
+                "ear"
               ]
             },
             {
@@ -1077,7 +1087,7 @@
               ]
             },
             {
-              "en": "The bear is near the fair.",
+              "en": "We saw a bear near the fair.",
               "highlight": [
                 "bear",
                 "near",
@@ -1094,16 +1104,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/ɪə/",
-            "/heə/",
             "/hɪə/",
-            "/ðeə/",
+            "/heə/",
             "/fɪə/",
             "/feə/",
-            "/nɪə/",
+            "/bɪə/",
             "/beə/",
             "/tʃɪə/",
             "/tʃeə/",
+            "/pɪə/",
+            "/peə/",
             "/dɪə/",
             "/deə/"
           ]
@@ -1136,65 +1146,62 @@
           "practice_words": [
             "pure",
             "cure",
-            "sure",
-            "your",
-            "tour",
-            "poor",
             "lure",
-            "fewer",
-            "mature",
+            "tour",
+            "tourist",
             "during",
+            "jury",
+            "curious",
+            "mature",
             "endure",
-            "secure"
+            "secure",
+            "security"
           ],
-          "tip": "ʊə: từ 'u' tròn trôi sang 'uh' — ít gặp trong tiếng Anh hiện đại, thường bị thay thế bởi /ɔː/ hoặc /jʊə/",
+          "tip": "/ʊə/: bắt đầu bằng /ʊ/ ngắn rồi trượt về /ə/; chú ý nhiều từ có /j/ đứng trước và một số từ hiện nay dùng /ɔː/",
           "practice_sentences": [
             {
-              "en": "The pure water will cure you for sure.",
+              "en": "The cure is kept in a secure room.",
               "highlight": [
-                "pure",
                 "cure",
-                "sure"
+                "secure"
               ]
             },
             {
-              "en": "I'm sure your tour will be fun during the day.",
+              "en": "The tourist took a tour during the summer.",
               "highlight": [
-                "sure",
-                "your",
+                "tourist",
                 "tour",
                 "during"
               ]
             },
             {
-              "en": "The poor bird tried to lure its friend with food.",
+              "en": "The curious jury listened carefully.",
               "highlight": [
-                "poor",
-                "lure"
+                "curious",
+                "jury"
               ]
             },
             {
-              "en": "Fewer people are mature enough to make a cure.",
+              "en": "Mature plants can endure dry weather.",
               "highlight": [
-                "fewer",
-                "cure",
-                "mature"
+                "mature",
+                "endure"
               ]
             }
           ],
           "practice_words_ipa": [
             "/pjʊə/",
             "/kjʊə/",
-            "/ʃʊə/",
-            "/jɔː/",
-            "/tʊə/",
-            "/pɔː/",
             "/ljʊə/",
-            "/ˈfjuːə/",
-            "/məˈtjʊə/",
+            "/tʊə/",
+            "/ˈtʊərɪst/",
             "/ˈdjʊərɪŋ/",
+            "/ˈdʒʊəri/",
+            "/ˈkjʊəriəs/",
+            "/məˈtʃʊə/",
             "/ɪnˈdjʊə/",
-            "/sɪˈkjʊə/"
+            "/sɪˈkjʊə/",
+            "/sɪˈkjʊərəti/"
           ]
         }
       ]
@@ -1288,7 +1295,7 @@
               ]
             },
             {
-              "en": "The dog will bark at a cat on the pat.",
+              "en": "The dog will bark when I pat the cat.",
               "highlight": [
                 "bark",
                 "pat"
@@ -1349,12 +1356,12 @@
           "practice_words": [
             "ten",
             "den",
-            "toe",
-            "doe",
+            "tie",
+            "die",
             "tin",
             "din",
-            "tap",
-            "dab",
+            "town",
+            "down",
             "tip",
             "dip",
             "tear",
@@ -1378,11 +1385,12 @@
               ]
             },
             {
-              "en": "I hear a loud din and a clear tin tap.",
+              "en": "I hear a loud din from a tin drum.",
               "highlight": [
+                "loud",
                 "din",
                 "tin",
-                "tap"
+                "drum"
               ]
             },
             {
@@ -1397,12 +1405,12 @@
           "practice_words_ipa": [
             "/ten/",
             "/den/",
-            "/təʊ/",
-            "/dəʊ/",
+            "/taɪ/",
+            "/daɪ/",
             "/tɪn/",
             "/dɪn/",
-            "/tæp/",
-            "/dæb/",
+            "/taʊn/",
+            "/daʊn/",
             "/tɪp/",
             "/dɪp/",
             "/tɪə/",
@@ -1446,16 +1454,16 @@
             }
           ],
           "practice_words": [
-            "cat",
+            "coat",
             "goat",
             "cold",
             "gold",
             "cap",
             "gap",
-            "coat",
-            "core",
             "came",
             "game",
+            "curl",
+            "girl",
             "class",
             "glass"
           ],
@@ -1494,16 +1502,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/kæt/",
+            "/kəʊt/",
             "/ɡəʊt/",
             "/kəʊld/",
             "/ɡəʊld/",
             "/kæp/",
             "/ɡæp/",
-            "/kəʊt/",
-            "/kɔː/",
             "/keɪm/",
             "/ɡeɪm/",
+            "/kɜːl/",
+            "/ɡɜːl/",
             "/klɑːs/",
             "/ɡlɑːs/"
           ]
@@ -1576,19 +1584,21 @@
               ]
             },
             {
-              "en": "The vine has a big leaf to leave.",
+              "en": "A vine leaf fell as we prepared to leave.",
               "highlight": [
                 "vine",
                 "leaf",
+                "fell",
                 "leave"
               ]
             },
             {
-              "en": "You can prove it's a vast veal farm.",
+              "en": "This photo proves that it is a vast farm.",
               "highlight": [
-                "prove",
+                "photo",
+                "proves",
                 "vast",
-                "veal"
+                "farm"
               ]
             }
           ],
@@ -1644,18 +1654,16 @@
             }
           ],
           "practice_words": [
-            "think",
-            "this",
-            "thin",
-            "then",
-            "three",
-            "there",
-            "thumb",
-            "them",
-            "thank",
-            "that",
-            "path",
-            "bathe"
+            "thigh",
+            "thy",
+            "teeth",
+            "teethe",
+            "wreath",
+            "wreathe",
+            "sheath",
+            "sheathe",
+            "loath",
+            "loathe"
           ],
           "tip": "θ & ð: đầu lưỡi nhô nhẹ ra giữa hai hàng răng — θ không rung, ð rung dây thanh",
           "practice_sentences": [
@@ -1695,18 +1703,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/θɪŋk/",
-            "/ðɪs/",
-            "/θɪn/",
-            "/ðen/",
-            "/θriː/",
-            "/ðeə/",
-            "/θʌm/",
-            "/ðem/",
-            "/θæŋk/",
-            "/ðæt/",
-            "/pɑːθ/",
-            "/beɪð/"
+            "/θaɪ/",
+            "/ðaɪ/",
+            "/tiːθ/",
+            "/tiːð/",
+            "/riːθ/",
+            "/riːð/",
+            "/ʃiːθ/",
+            "/ʃiːð/",
+            "/ləʊθ/",
+            "/ləʊð/"
           ]
         },
         {
@@ -1746,7 +1752,7 @@
             }
           ],
           "practice_words": [
-            "sun",
+            "sue",
             "zoo",
             "sip",
             "zip",
@@ -1765,6 +1771,7 @@
               "en": "The sun rises over the busy place.",
               "highlight": [
                 "sun",
+                "rises",
                 "busy",
                 "place"
               ]
@@ -1772,7 +1779,9 @@
             {
               "en": "We visit the zoo to see a happy seal.",
               "highlight": [
+                "visit",
                 "zoo",
+                "see",
                 "seal"
               ]
             },
@@ -1788,12 +1797,13 @@
               "en": "The buzz of fun fills the air when kids play.",
               "highlight": [
                 "buzz",
-                "play"
+                "fills",
+                "kids"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/sʌn/",
+            "/suː/",
             "/zuː/",
             "/sɪp/",
             "/zɪp/",
@@ -1844,18 +1854,16 @@
             }
           ],
           "practice_words": [
-            "ship",
-            "measure",
-            "shop",
-            "leisure",
+            "leash",
+            "genre",
             "shoe",
-            "beige",
-            "cash",
-            "garage",
-            "wash",
-            "vision",
-            "crash",
-            "azure"
+            "measure",
+            "ruche",
+            "rouge",
+            "Confucian",
+            "confusion",
+            "Aleutian",
+            "allusion"
           ],
           "tip": "ʃ: môi hơi tròn, luồng hơi rộng hơn /s/ · ʒ: giống ʃ nhưng rung dây thanh",
           "practice_sentences": [
@@ -1867,7 +1875,7 @@
               ]
             },
             {
-              "en": "We need to measure the beige shoe size.",
+              "en": "We need to measure the beige shoe.",
               "highlight": [
                 "measure",
                 "beige",
@@ -1882,28 +1890,25 @@
               ]
             },
             {
-              "en": "The vision of a ship in azure water is great leisure.",
+              "en": "She had a vision of a ship crossing azure water.",
               "highlight": [
                 "vision",
                 "ship",
-                "leisure",
                 "azure"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/ʃɪp/",
-            "/ˈmeʒə/",
-            "/ʃɒp/",
-            "/ˈleʒə/",
+            "/liːʃ/",
+            "/ˈʒɒnrə/",
             "/ʃuː/",
-            "/beɪʒ/",
-            "/kæʃ/",
-            "/ˈɡærɑːʒ/",
-            "/wɒʃ/",
-            "/ˈvɪʒən/",
-            "/kræʃ/",
-            "/ˈæʒə/"
+            "/ˈmeʒə/",
+            "/ruːʃ/",
+            "/ruːʒ/",
+            "/kənˈfjuːʃən/",
+            "/kənˈfjuːʒən/",
+            "/əˈluːʃən/",
+            "/əˈluːʒən/"
           ]
         },
         {
@@ -1943,18 +1948,18 @@
             }
           ],
           "practice_words": [
-            "chair",
-            "jump",
-            "cheese",
-            "jeans",
+            "cheer",
+            "jeer",
             "chin",
             "gin",
             "cheap",
             "jeep",
-            "match",
+            "choke",
+            "joke",
+            "batch",
             "badge",
-            "church",
-            "judge"
+            "rich",
+            "ridge"
           ],
           "tip": "tʃ: lưỡi bật mạnh từ nướu, không rung · dʒ: giống tʃ nhưng rung dây thanh",
           "practice_sentences": [
@@ -1981,27 +1986,27 @@
               ]
             },
             {
-              "en": "The judge will match the badge with the chin.",
+              "en": "The judge wore a badge to church.",
               "highlight": [
                 "judge",
-                "match",
-                "chin"
+                "badge",
+                "church"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/tʃeə/",
-            "/dʒʌmp/",
-            "/tʃiːz/",
-            "/dʒiːnz/",
+            "/tʃɪə/",
+            "/dʒɪə/",
             "/tʃɪn/",
             "/dʒɪn/",
             "/tʃiːp/",
             "/dʒiːp/",
-            "/mætʃ/",
+            "/tʃəʊk/",
+            "/dʒəʊk/",
+            "/bætʃ/",
             "/bædʒ/",
-            "/tʃɜːtʃ/",
-            "/dʒʌdʒ/"
+            "/rɪtʃ/",
+            "/rɪdʒ/"
           ]
         }
       ]
@@ -2063,20 +2068,18 @@
             }
           ],
           "practice_words": [
-            "map",
-            "nap",
-            "ring",
             "sum",
             "sun",
-            "sing",
-            "came",
-            "cane",
-            "bang",
-            "ham",
-            "hand",
-            "hang",
-            "slim",
-            "sling"
+            "sung",
+            "dim",
+            "din",
+            "ding",
+            "rum",
+            "run",
+            "rung",
+            "ram",
+            "ran",
+            "rang"
           ],
           "tip": "m: môi khép, hơi qua mũi · n: lưỡi chặn nướu, hơi qua mũi · ŋ: gốc lưỡi chặn họng, hơi qua mũi",
           "practice_sentences": [
@@ -2104,30 +2107,28 @@
               ]
             },
             {
-              "en": "I came to bang the drum with a slim sling.",
+              "en": "I came to bang the drum and sing.",
               "highlight": [
                 "came",
                 "bang",
-                "slim",
-                "sling"
+                "drum",
+                "sing"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/mæp/",
-            "/næp/",
-            "/rɪŋ/",
             "/sʌm/",
             "/sʌn/",
-            "/sɪŋ/",
-            "/keɪm/",
-            "/keɪn/",
-            "/bæŋ/",
-            "/hæm/",
-            "/hænd/",
-            "/hæŋ/",
-            "/slɪm/",
-            "/slɪŋ/"
+            "/sʌŋ/",
+            "/dɪm/",
+            "/dɪn/",
+            "/dɪŋ/",
+            "/rʌm/",
+            "/rʌn/",
+            "/rʌŋ/",
+            "/ræm/",
+            "/ræn/",
+            "/ræŋ/"
           ]
         },
         {
@@ -2174,18 +2175,18 @@
             }
           ],
           "practice_words": [
-            "hat",
-            "wet",
-            "yes",
-            "hot",
-            "window",
-            "yellow",
-            "hair",
-            "water",
+            "hear",
             "year",
-            "here",
-            "white",
-            "young"
+            "hay",
+            "yay",
+            "heat",
+            "wheat",
+            "hall",
+            "wall",
+            "well",
+            "yell",
+            "woo",
+            "yew"
           ],
           "tip": "h: thở hơi nhẹ qua họng · w: môi tròn rồi mở · j: lưỡi gần vòm cứng, đẩy hơi ra",
           "practice_sentences": [
@@ -2224,18 +2225,18 @@
             }
           ],
           "practice_words_ipa": [
-            "/hæt/",
-            "/wet/",
-            "/jes/",
-            "/hɒt/",
-            "/ˈwɪndəʊ/",
-            "/ˈjeləʊ/",
-            "/heə/",
-            "/ˈwɔːtə/",
-            "/jɪə/",
             "/hɪə/",
-            "/waɪt/",
-            "/jʌŋ/"
+            "/jɪə/",
+            "/heɪ/",
+            "/jeɪ/",
+            "/hiːt/",
+            "/wiːt/",
+            "/hɔːl/",
+            "/wɔːl/",
+            "/wel/",
+            "/jel/",
+            "/wuː/",
+            "/juː/"
           ]
         },
         {
@@ -2410,7 +2411,24 @@
             "head",
             "leg"
           ],
-          "tip": "Dấu hiệu nhận biết voiced final: VOWEL TRƯỚC NÓ DÀI HƠN. cap /kæp/ vs cab /kæːb/ — nguyên âm dài hơn trước -b!"
+          "tip": "Nguyên âm trước /b d ɡ/ thường dài hơn nguyên âm trước /p t k/: cap /kæp/ vs cab /kæb/. Không thêm dấu /ː/ vào /æ/ trong \"cab\".",
+          "practice_words_ipa": [
+            "/kæb/",
+            "/bed/",
+            "/bæɡ/",
+            "/klʌb/",
+            "/bɪd/",
+            "/bɪɡ/",
+            "/rɪb/",
+            "/rɒd/",
+            "/dɒɡ/",
+            "/tʌb/",
+            "/æd/",
+            "/bʌɡ/",
+            "/rɒb/",
+            "/hed/",
+            "/leɡ/"
+          ]
         },
         {
           "id": "final-fricatives",
@@ -2448,20 +2466,34 @@
             }
           ],
           "practice_words": [
-            "beef",
-            "move",
+            "safe",
+            "save",
             "leaf",
-            "live",
+            "leave",
+            "proof",
+            "prove",
             "half",
-            "have",
-            "roof",
-            "love",
-            "cliff",
-            "give",
-            "loaf",
-            "prove"
+            "halve",
+            "life",
+            "live",
+            "belief",
+            "believe"
           ],
-          "tip": "Từ CHƯA XONGcho đến khi môi/răng tạo ra /f/ hoặc /v/ hoàn chỉnh. Kiểm tra: có luồng khí sau nguyên âm không?"
+          "tip": "Từ CHƯA XONG cho đến khi môi và răng tạo ra /f/ hoặc /v/ hoàn chỉnh. Kiểm tra xem còn luồng khí sau nguyên âm hay không.",
+          "practice_words_ipa": [
+            "/seɪf/",
+            "/seɪv/",
+            "/liːf/",
+            "/liːv/",
+            "/pruːf/",
+            "/pruːv/",
+            "/hɑːf/",
+            "/hɑːv/",
+            "/laɪf/",
+            "/laɪv/",
+            "/bɪˈliːf/",
+            "/bɪˈliːv/"
+          ]
         },
         {
           "id": "clusters",
@@ -2532,18 +2564,18 @@
               ]
             },
             {
-              "en": "The strange strike will spread stress everywhere.",
+              "en": "The strike will spread stress across the city.",
               "highlight": [
-                "strange",
                 "strike",
+                "spread",
                 "stress"
               ]
             },
             {
-              "en": "Let's sprint and split on the street today.",
+              "en": "Let's sprint straight down the street today.",
               "highlight": [
                 "sprint",
-                "split",
+                "straight",
                 "street"
               ]
             }
@@ -2599,20 +2631,34 @@
             }
           ],
           "practice_words": [
-            "play",
-            "black",
-            "plan",
-            "blue",
-            "plate",
-            "blood",
-            "plus",
-            "blow",
-            "plane",
+            "plot",
+            "blot",
+            "plight",
+            "blight",
+            "plush",
+            "blush",
+            "pleat",
+            "bleat",
+            "plank",
             "blank",
-            "place",
-            "blend"
+            "plaster",
+            "blaster"
           ],
-          "tip": "pl- vs bl- = chỉ khác voicing. Đặt tay lên cổ: bl- rung ngay từ đầu, pl- không rung."
+          "tip": "pl- vs bl- = chỉ khác voicing. Đặt tay lên cổ: bl- rung ngay từ đầu, pl- không rung.",
+          "practice_words_ipa": [
+            "/plɒt/",
+            "/blɒt/",
+            "/plaɪt/",
+            "/blaɪt/",
+            "/plʌʃ/",
+            "/blʌʃ/",
+            "/pliːt/",
+            "/bliːt/",
+            "/plæŋk/",
+            "/blæŋk/",
+            "/ˈplɑːstə/",
+            "/ˈblɑːstə/"
+          ]
         },
         {
           "id": "clusters-trdr",
@@ -2650,20 +2696,34 @@
             }
           ],
           "practice_words": [
-            "tree",
-            "dream",
             "train",
-            "drink",
+            "drain",
             "true",
-            "drive",
+            "drew",
+            "try",
+            "dry",
             "trip",
-            "drop",
-            "track",
-            "draw",
-            "trust",
-            "dress"
+            "drip",
+            "troop",
+            "droop",
+            "tread",
+            "dread"
           ],
-          "tip": "Native speaker: tree → /tʃriː/, dream → /dʒriːm/. Đây là đặc điểm thật của tiếng Anh tự nhiên!"
+          "tip": "Giữ hai phụ âm liền nhau: tree /triː/, dream /driːm/. Trong lời nói tự nhiên, chúng có thể nghe gần [tʃriː] và [dʒriːm], nhưng không có schwa ở giữa.",
+          "practice_words_ipa": [
+            "/treɪn/",
+            "/dreɪn/",
+            "/truː/",
+            "/druː/",
+            "/traɪ/",
+            "/draɪ/",
+            "/trɪp/",
+            "/drɪp/",
+            "/truːp/",
+            "/druːp/",
+            "/tred/",
+            "/dred/"
+          ]
         }
       ]
     },
@@ -2756,11 +2816,12 @@
               ]
             },
             {
-              "en": "The list is raw and needs to be cooked a lot.",
+              "en": "She will read the long list and then rest.",
               "highlight": [
+                "read",
+                "long",
                 "list",
-                "raw",
-                "lot"
+                "rest"
               ]
             }
           ],
@@ -2818,8 +2879,8 @@
             }
           ],
           "practice_words": [
-            "three",
-            "sea",
+            "theme",
+            "seem",
             "think",
             "sink",
             "thumb",
@@ -2843,35 +2904,34 @@
               ]
             },
             {
-              "en": "The thumb is thick and can sink in the sea.",
+              "en": "The thick stone sank in the sea.",
               "highlight": [
-                "thumb",
                 "thick",
-                "sink",
+                "stone",
+                "sank",
                 "sea"
               ]
             },
             {
-              "en": "We have to sum three and three to thank our friend.",
+              "en": "We thanked Sam for helping us with the sum.",
               "highlight": [
-                "sum",
-                "three",
-                "thank"
+                "thanked",
+                "Sam",
+                "sum"
               ]
             },
             {
-              "en": "I feel sick and my thumb is thin after a sin.",
+              "en": "I feel sick, and my thumb is sore.",
               "highlight": [
                 "sick",
                 "thumb",
-                "thin",
-                "sin"
+                "sore"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/θriː/",
-            "/siː/",
+            "/θiːm/",
+            "/siːm/",
             "/θɪŋk/",
             "/sɪŋk/",
             "/θʌm/",
@@ -2921,16 +2981,16 @@
             }
           ],
           "practice_words": [
-            "van",
-            "wan",
-            "very",
-            "wary",
             "vine",
             "wine",
             "vest",
             "west",
-            "vote",
-            "woke",
+            "veil",
+            "whale",
+            "verse",
+            "worse",
+            "vet",
+            "wet",
             "vow",
             "wow"
           ],
@@ -2944,12 +3004,12 @@
               ]
             },
             {
-              "en": "Very wary people vote with care in the west.",
+              "en": "Very wary people waited before they voted.",
               "highlight": [
                 "very",
                 "wary",
-                "vote",
-                "west"
+                "waited",
+                "voted"
               ]
             },
             {
@@ -2961,25 +3021,27 @@
               ]
             },
             {
-              "en": "Wow, the vest she wore made quite a vow.",
+              "en": "Wow, she wore a velvet vest to the wedding.",
               "highlight": [
                 "wow",
+                "wore",
+                "velvet",
                 "vest",
-                "vow"
+                "wedding"
               ]
             }
           ],
           "practice_words_ipa": [
-            "/væn/",
-            "/wɒn/",
-            "/ˈveri/",
-            "/ˈweəri/",
             "/vaɪn/",
             "/waɪn/",
             "/vest/",
             "/west/",
-            "/vəʊt/",
-            "/wəʊk/",
+            "/veɪl/",
+            "/weɪl/",
+            "/vɜːs/",
+            "/wɜːs/",
+            "/vet/",
+            "/wet/",
             "/vaʊ/",
             "/waʊ/"
           ]
@@ -3022,20 +3084,32 @@
           "practice_words": [
             "well",
             "when",
-            "feel",
-            "fin",
             "tell",
             "ten",
-            "call",
-            "can",
             "fill",
-            "thin",
-            "ball",
-            "ban",
+            "fin",
+            "kill",
+            "kin",
+            "call",
+            "corn",
             "fall",
-            "fan"
+            "fawn"
           ],
-          "tip": "Final /l/ = Dark L — lưỡi chạm ngạc răng SAU nguyên âm. \"feel\" ≠ \"fee\". Lưỡi phải chạm, không bỏ!"
+          "tip": "Final /l/ = Dark L — lưỡi chạm ngạc răng SAU nguyên âm. \"feel\" ≠ \"fee\". Lưỡi phải chạm, không bỏ!",
+          "practice_words_ipa": [
+            "/wel/",
+            "/wen/",
+            "/tel/",
+            "/ten/",
+            "/fɪl/",
+            "/fɪn/",
+            "/kɪl/",
+            "/kɪn/",
+            "/kɔːl/",
+            "/kɔːn/",
+            "/fɔːl/",
+            "/fɔːn/"
+          ]
         }
       ]
     },
@@ -3147,8 +3221,8 @@
           "buckets": [
             {
               "label": "1 âm tiết",
-              "condition": "Chỉ có 1 nguyên âm ÂM (vowel sound) → 1 nhịp đập. Nhiều chữ cái ≠ nhiều âm tiết!",
-              "tip": "strengths /strɛŋkθs/ = 8 âm, 1 âm tiết · knight /naɪt/ = 3 âm · clothes /kləʊðz/ = 4 âm",
+              "condition": "Chỉ có một hạt nhân âm tiết, dù từ có thể chứa nhiều phụ âm và nhiều chữ cái.",
+              "tip": "knight /naɪt/ có 3 âm vị · clothes /kləʊðz/ có 5 âm vị · cả hai đều chỉ có 1 âm tiết",
               "words": [
                 "strengths",
                 "through",
@@ -3169,8 +3243,8 @@
             },
             {
               "label": "2 âm tiết",
-              "condition": "Có 2 nguyên âm âm vị → 2 nhịp. Đếm bằng cách đặt tay dưới cằm: cằm chạm tay mỗi âm tiết.",
-              "tip": "water /ˈwɔː·tə/ · table /ˈteɪ·bl/ · garden /ˈɡɑː·dn/ · perfect /ˈpɜː·fɪkt/",
+              "condition": "Có hai hạt nhân âm tiết; một hạt nhân có thể là nguyên âm hoặc phụ âm tạo âm tiết.",
+              "tip": "water /ˈwɔː.tə/ · table /ˈteɪ.bl̩/ · garden /ˈɡɑː.dn̩/ · perfect /ˈpɜː.fɪkt/",
               "words": [
                 "water",
                 "table",
@@ -3191,7 +3265,7 @@
             },
             {
               "label": "3 âm tiết",
-              "condition": "Có 3 nguyên âm âm vị → 3 nhịp. Chú ý: nhiều từ NGẮN hơn bạn nghĩ khi nói tự nhiên!",
+              "condition": "Có ba hạt nhân âm tiết; không suy ra số âm tiết chỉ từ số chữ cái nguyên âm.",
               "tip": "tomorrow /tə·ˈmɒ·rəʊ/ · beautiful /ˈbjuː·tɪ·fl/ · umbrella /ʌm·ˈbrel·ə/ · hospital /ˈhɒs·pɪ·tl/",
               "words": [
                 "tomorrow",
@@ -3228,7 +3302,7 @@
           "buckets": [
             {
               "label": "H câm",
-              "condition": "H câm trong: honest/hour/heir/honour (đầu từ) · rh- (rhyme, rhythm) · wh- (khi theo sau là e/a/i: when, where, what)",
+              "condition": "H câm trong một số từ đầu h- như honest/hour/heir/honour, trong rh-, trong nhiều từ wh- đọc /w/, và trong một số từ exh- như exhaust, exhibition.",
               "tip": "honest /ˈɒnɪst/ · hour /ˈaʊə/ · heir /eə/ · rhyme /raɪm/ · rhythm /ˈrɪðəm/ · when /wen/ · where /weə/",
               "words": [
                 "honest",
@@ -3309,8 +3383,8 @@
           "buckets": [
             {
               "label": "Ít âm tiết hơn nghĩ",
-              "condition": "Những từ này NGẮN hơn cách viết gợi ý. Đọc tự nhiên = giảm 1 âm tiết (hoặc hơn)!",
-              "tip": "chocolate /ˈtʃɒk·lɪt/ (3) · comfortable /ˈkʌmf·tə·bl/ (3) · vegetable /ˈvedʒ·tə·bl/ (3) · Wednesday /ˈwenz·deɪ/ (2) · different /ˈdɪf·rənt/ (2)",
+              "condition": "Trong cách nói Anh-Anh tự nhiên, các từ này thường có ít âm tiết hơn mặt chữ gợi ý; một số từ có nhiều biến thể được chấp nhận.",
+              "tip": "chocolate /ˈtʃɒk.lət/ (2) · comfortable /ˈkʌmf.tə.bl̩/ (3) · vegetable /ˈvedʒ.tə.bl̩/ (3) · Wednesday /ˈwenz.deɪ/ (2) · different thường 3, đôi khi 2 trong lời nói nhanh",
               "words": [
                 "chocolate",
                 "comfortable",
@@ -3331,8 +3405,8 @@
             },
             {
               "label": "Nhấn sai âm tiết",
-              "condition": "Vị trí nhấn không theo trực giác — thường học sinh nhấn âm tiết đầu trong khi đúng phải nhấn âm tiết thứ 2 hoặc 3.",
-              "tip": "pho·TOG·ra·phy (2nd) ≠ PHO·to·graph (1st) · e·CON·o·my (2nd) · pro·NUN·ci·a·tion (3rd) · cer·TIF·i·cate (2nd)",
+              "condition": "Trọng âm chính không nằm ở vị trí người học thường đoán; cần kiểm tra từng từ thay vì áp dụng một quy tắc chung.",
+              "tip": "pho·TOG·ra·phy · e·CON·o·my · pro·nun·ci·A·tion · cer·TIF·i·cate",
               "words": [
                 "photography",
                 "economy",
@@ -3710,24 +3784,46 @@
           "buckets": [
             {
               "label": "-tion → /ʃən/",
-              "condition": "Đuôi -tion (gần như luôn luôn) phát âm /ʃən/",
+              "condition": "Phần -tion thường phát âm /ʃən/; giữ lại phụ âm đứng trước nếu có, như /k/ trong action.",
               "tip": "nation · station · action · education · information",
               "words": [
                 "nation",
                 "station",
                 "action",
                 "section",
-                "question",
+                "motion",
                 "education",
                 "information",
                 "communication",
                 "pronunciation",
                 "tradition",
-                "suggestion",
+                "condition",
                 "connection",
                 "protection",
                 "examination",
                 "preparation"
+              ]
+            },
+            {
+              "label": "-ture → /tʃə/",
+              "condition": "-ture thường phát âm /tʃə/ khi là âm tiết cuối không nhấn; không áp dụng máy móc cho \"mature\".",
+              "tip": "picture · nature · culture · future · adventure",
+              "words": [
+                "picture",
+                "nature",
+                "culture",
+                "future",
+                "adventure",
+                "temperature",
+                "feature",
+                "creature",
+                "structure",
+                "fracture",
+                "lecture",
+                "mixture",
+                "capture",
+                "gesture",
+                "texture"
               ]
             },
             {
@@ -3750,28 +3846,6 @@
                 "collision",
                 "illusion",
                 "erosion"
-              ]
-            },
-            {
-              "label": "-ture → /tʃə/",
-              "condition": "Đuôi -ture luôn phát âm /tʃə/ (âm 'ch')",
-              "tip": "picture · nature · culture · future · adventure",
-              "words": [
-                "picture",
-                "nature",
-                "culture",
-                "future",
-                "adventure",
-                "temperature",
-                "feature",
-                "creature",
-                "structure",
-                "fracture",
-                "lecture",
-                "mixture",
-                "capture",
-                "gesture",
-                "texture"
               ]
             }
           ]
@@ -3902,6 +3976,23 @@
           ],
           "buckets": [
             {
+              "label": "Silent W",
+              "condition": "W câm trong wr-, trong who/whole/whom và trong một số từ cần học riêng như two, sword, answer.",
+              "tip": "write /raɪt/ · wrong /rɒŋ/ · who /huː/ · answer /ˈɑːnsə/",
+              "words": [
+                "write",
+                "wrong",
+                "wrist",
+                "wrap",
+                "sword",
+                "two",
+                "answer",
+                "who",
+                "whole",
+                "wren"
+              ]
+            },
+            {
               "label": "Silent K",
               "condition": "K không phát âm khi đứng trước N (kn-)",
               "tip": "knife /naɪf/ · know /nəʊ/ · knock /nɒk/ · knight /naɪt/",
@@ -3934,23 +4025,6 @@
                 "doubt",
                 "subtle"
               ]
-            },
-            {
-              "label": "Silent W",
-              "condition": "W không phát âm trước R và trong WHO-",
-              "tip": "write /raɪt/ · wrong /rɒŋ/ · who /huː/ · answer /ˈɑːnsə/",
-              "words": [
-                "write",
-                "wrong",
-                "wrist",
-                "wrap",
-                "sword",
-                "two",
-                "answer",
-                "who",
-                "whole",
-                "wren"
-              ]
             }
           ]
         },
@@ -3968,6 +4042,25 @@
           ],
           "buckets": [
             {
+              "label": "Silent L",
+              "condition": "L câm trong một số nhóm từ cố định như calm/palm/balm, walk/talk/folk/yolk, half và could/would/should; không áp dụng cho mọi L trước phụ âm.",
+              "tip": "calm /kɑːm/ · walk /wɔːk/ · half /hɑːf/ · could /kʊd/",
+              "words": [
+                "calm",
+                "palm",
+                "walk",
+                "talk",
+                "half",
+                "could",
+                "would",
+                "should",
+                "salmon",
+                "folk",
+                "yolk",
+                "balm"
+              ]
+            },
+            {
               "label": "Silent GH",
               "condition": "GH không phát âm trong cấu trúc -ight, -ough, -aught",
               "tip": "night /naɪt/ · thought /θɔːt/ · through /θruː/ · daughter /ˈdɔːtə/",
@@ -3984,25 +4077,6 @@
                 "dough",
                 "sigh",
                 "high"
-              ]
-            },
-            {
-              "label": "Silent L",
-              "condition": "L không phát âm trước F/M/K, trong -ould, và một số từ đặc biệt (salmon, psalm, almond)",
-              "tip": "calm /kɑːm/ · walk /wɔːk/ · half /hɑːf/ · could /kʊd/",
-              "words": [
-                "calm",
-                "palm",
-                "walk",
-                "talk",
-                "half",
-                "could",
-                "would",
-                "should",
-                "salmon",
-                "folk",
-                "yolk",
-                "balm"
               ]
             },
             {
@@ -4041,7 +4115,7 @@
           "buckets": [
             {
               "label": "Danh từ ↑1",
-              "condition": "Danh từ 2 âm tiết → nhấn âm tiết THỨ NHẤT (chữ HOA = nhấn)",
+              "condition": "Trong các cặp noun–verb thuộc pattern này, danh từ thường nhấn âm tiết THỨ NHẤT.",
               "tip": "REcord · PERmit · OBject · PREsent · INcrease · EXport",
               "words": [
                 "REcord",
@@ -4060,7 +4134,7 @@
             },
             {
               "label": "Động từ ↑2",
-              "condition": "Động từ 2 âm tiết → nhấn âm tiết THỨ HAI (chữ HOA = nhấn)",
+              "condition": "Trong cùng các cặp này, động từ thường nhấn âm tiết THỨ HAI.",
               "tip": "reCORD · perMIT · obJECT · preSENT · inCREASE · exPORT",
               "words": [
                 "reCORD",
@@ -4094,7 +4168,7 @@
           "buckets": [
             {
               "label": "Danh từ ghép ↑1",
-              "condition": "Danh từ ghép (1 từ) → nhấn mạnh PHẦN ĐẦU: AIRport, BEDroom, FOOTball",
+              "condition": "Nhiều danh từ ghép nhấn mạnh PHẦN ĐẦU; cách viết liền hay tách không quyết định hoàn toàn trọng âm.",
               "tip": "AIRport · BEDroom · HOMEwork · FOOTball · CLASSroom · TOOTHbrush",
               "words": [
                 "airport",
@@ -4215,40 +4289,40 @@
           "buckets": [
             {
               "label": "Giữa danh sách ↗",
-              "condition": "Mục không phải cuối → lên giọng (báo hiệu còn tiếp)",
-              "tip": "I have English,↗ Maths,↗ and Science.↘",
+              "condition": "Mục chưa phải cuối danh sách → thường lên giọng nhẹ để báo hiệu còn tiếp.",
+              "tip": "coffee,↗ tea,↗ and juice.↘",
               "words": [
-                "I have coffee,",
-                "First of all,",
-                "On one hand,",
-                "In terms of health,",
-                "I like reading,",
-                "Secondly,",
-                "She speaks English,",
-                "In the morning,",
-                "I enjoy cooking,",
-                "There are three reasons:",
-                "I bought apples,",
-                "To begin with,"
+                "coffee,",
+                "tea,",
+                "apples,",
+                "bananas,",
+                "English,",
+                "Maths,",
+                "reading,",
+                "swimming,",
+                "first,",
+                "second,",
+                "one reason is cost,",
+                "another reason is safety,"
               ]
             },
             {
               "label": "Mục cuối / Kết câu ↘",
-              "condition": "Mục cuối cùng hoặc câu kết luận → xuống giọng",
+              "condition": "Mục cuối danh sách hoặc câu đóng danh sách → thường xuống giọng.",
               "tip": "...coffee, tea, and juice.↘ · That's all.↘",
               "words": [
                 "and orange juice.",
-                "That's my point.",
-                "In conclusion,",
-                "and Mathematics.",
-                "That's all I have to say.",
-                "Finally,",
-                "I strongly believe this.",
+                "and bananas.",
+                "and Science.",
+                "and running.",
+                "and finally, safety.",
+                "and the last point is cost.",
+                "That's everything.",
+                "That's all.",
+                "and those are the main reasons.",
+                "and one final example.",
                 "and physical exercise.",
-                "To sum up,",
-                "and that is why I agree.",
-                "and singing.",
-                "In summary,"
+                "and singing."
               ]
             }
           ]
@@ -4267,8 +4341,8 @@
           ],
           "buckets": [
             {
-              "label": "Tương phản / Kết luận ↘",
-              "condition": "Từ nối đối lập / kết luận → xuống giọng (nhấn mạnh bước ngoặt)",
+              "label": "Chuyển hướng / Kết quả / Kết luận ↘",
+              "condition": "Có thể xuống giọng khi marker mở một bước ngoặt, kết quả hoặc kết luận được trình bày như một đơn vị hoàn chỉnh.",
               "tip": "However,↘ · In contrast,↘ · In conclusion,↘ · Nevertheless,↘",
               "words": [
                 "However,",
@@ -4289,8 +4363,8 @@
               ]
             },
             {
-              "label": "Bổ sung / Tiếp nối ↗",
-              "condition": "Từ nối bổ sung → lên giọng (báo hiệu còn nhiều ý)",
+              "label": "Bổ sung / Dẫn ví dụ ↗",
+              "condition": "Có thể lên nhẹ hoặc giữ giọng khi marker báo hiệu câu còn tiếp và thông tin chính chưa xuất hiện.",
               "tip": "Furthermore,↗ · In addition,↗ · Moreover,↗ · For example,↗",
               "words": [
                 "Furthermore,",
@@ -4385,6 +4459,7 @@
               "stressed": [
                 "Young",
                 "people",
+                "today",
                 "face",
                 "challenges",
                 "modern",
@@ -4458,14 +4533,14 @@
               "vi": "Tôi đi chợ / sáng hôm qua / để mua rau."
             },
             {
-              "en": "She studies very hard / because she wants / to get a good job.",
+              "en": "She studies very hard / because she wants to get a good job.",
               "stressed": [
                 "studies",
                 "hard",
                 "wants",
                 "job"
               ],
-              "vi": "Cô ấy học rất chăm / vì cô muốn / có việc làm tốt."
+              "vi": "Cô ấy học rất chăm / vì cô muốn có một công việc tốt."
             },
             {
               "en": "The weather in Hanoi / is quite different / from the south.",
@@ -4550,7 +4625,7 @@
             {
               "label": "Dạng am/is/are",
               "condition": "I'm · you're · he's · she's · it's · we're · they're",
-              "tip": "I am → /aɪm/ · she is → /ʃɪz/ · they are → /ðeər/",
+              "tip": "I am → /aɪm/ · she is → /ʃiːz/ · they are → /ðeə/",
               "words": [
                 "I'm ready",
                 "She's here",
@@ -4564,7 +4639,7 @@
             {
               "label": "Dạng not",
               "condition": "don't · doesn't · didn't · can't · won't · isn't · aren't",
-              "tip": "do not → /doʊnt/ · cannot → /kænt/ · will not → /woʊnt/",
+              "tip": "do not → /dəʊnt/ · cannot → /kɑːnt/ · will not → /wəʊnt/",
               "words": [
                 "don't go",
                 "doesn't work",
@@ -4631,22 +4706,9 @@
           ],
           "buckets": [
             {
-              "label": "gonna / wanna / hafta",
-              "condition": "going to → gonna · want to → wanna · have to → hafta",
-              "tip": "/ˈɡɒnə/ · /ˈwɒnə/ · /ˈhæftə/",
-              "words": [
-                "gonna study",
-                "gonna be late",
-                "wanna eat",
-                "wanna go",
-                "hafta work",
-                "hafta leave"
-              ]
-            },
-            {
               "label": "kinda / sorta / dunno",
               "condition": "kind of → kinda · sort of → sorta · do not know → dunno",
-              "tip": "/ˈkaɪndə/ · /ˈsɔːtə/ · /dəˈnoʊ/",
+              "tip": "/ˈkaɪndə/ · /ˈsɔːtə/ · /dəˈnəʊ/",
               "words": [
                 "kinda tired",
                 "kinda busy",
@@ -4659,7 +4721,7 @@
             {
               "label": "lemme / gimme / gotta",
               "condition": "let me → lemme · give me → gimme · got to → gotta",
-              "tip": "/ˈlɛmi/ · /ˈɡɪmi/ · /ˈɡɒtə/",
+              "tip": "/ˈlemi/ · /ˈɡɪmi/ · /ˈɡɒtə/",
               "words": [
                 "lemme try",
                 "lemme know",
@@ -4667,6 +4729,19 @@
                 "gimme that",
                 "gotta go",
                 "gotta hurry"
+              ]
+            },
+            {
+              "label": "gonna / wanna / hafta",
+              "condition": "going to → gonna · want to → wanna · have to → hafta",
+              "tip": "/ˈɡɒnə/ · /ˈwɒnə/ · /ˈhæftə/",
+              "words": [
+                "gonna study",
+                "gonna be late",
+                "wanna eat",
+                "wanna go",
+                "hafta work",
+                "hafta leave"
               ]
             }
           ]
@@ -4735,14 +4810,14 @@
               "vi": "Nhờ sự hướng dẫn của cô / tiếng Anh của tôi tiến bộ vượt bậc."
             },
             {
-              "en": "In conclusion / she is someone / I will never forget.",
+              "en": "So, all in all / she's someone / I'll never forget.",
               "stressed": [
-                "conclusion",
+                "all",
                 "someone",
                 "never",
                 "forget"
               ],
-              "vi": "Tóm lại / cô ấy là người / tôi sẽ không bao giờ quên."
+              "vi": "Nói chung / cô ấy là người / tôi sẽ không bao giờ quên."
             }
           ]
         },
@@ -4793,22 +4868,21 @@
               "vi": "Yes/No question → giọng lên"
             },
             {
-              "en": "It's a beautiful day, ISN'T it? ↘↗",
+              "en": "It's a beautiful day, ISN'T it? ↘",
               "stressed": [
                 "beautiful",
                 "day",
                 "ISN'T"
               ],
-              "vi": "Tag question → xuống (confirm) hoặc lên (unsure)"
+              "vi": "Tag question khi người nói mong được đồng ý → xuống giọng"
             },
             {
-              "en": "You've been here before, HAVEN'T you? ↘",
+              "en": "You haven't seen my keys, HAVE you? ↗",
               "stressed": [
-                "been",
-                "before",
-                "HAVEN'T"
+                "keys",
+                "HAVE"
               ],
-              "vi": "Tag question xác nhận → giọng xuống"
+              "vi": "Tag question khi người nói thực sự chưa chắc → lên giọng"
             }
           ]
         },
