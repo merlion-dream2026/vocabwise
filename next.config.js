@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const { withSentryConfig } = require('@sentry/nextjs')
+const withBundleAnalyzer = require('@next/bundle-analyzer')({ enabled: process.env.ANALYZE === 'true' })
 
 // CSP is set dynamically per-request in middleware.ts (nonce-based).
 // Only static security headers remain here.
@@ -40,7 +41,7 @@ const nextConfig = {
   },
 }
 
-module.exports = withSentryConfig(nextConfig, {
+module.exports = withBundleAnalyzer(withSentryConfig(nextConfig, {
   org: 'vocabwise',
   project: 'vocabwise-nextjs',
   silent: true,
@@ -50,4 +51,4 @@ module.exports = withSentryConfig(nextConfig, {
     treeshake: { removeDebugLogging: true },
     automaticVercelMonitors: false,
   },
-})
+}))

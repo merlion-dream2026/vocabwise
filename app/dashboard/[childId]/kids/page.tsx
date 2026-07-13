@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
 import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -32,7 +33,7 @@ export default function KidsLevelPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/children').then(r => r.json()),
+      cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
     ]).then(([kids, allSync]) => {
       const found = (kids as Child[]).find(k => k.id === childId)

@@ -13,6 +13,7 @@ import {
 } from '@/lib/childProgress'
 import { ALL_BADGES } from '@/lib/badges'
 import BangThanhTich from '@/components/BangThanhTich'
+import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
 type Child = {
   id: string; name: string; emoji: string; level: string
@@ -65,13 +66,14 @@ export default function HomePage() {
 
   async function logout() {
     await fetch('/api/auth/logout', { method: 'POST' })
+    invalidateCachedFetch('/api/auth/me')
     router.push('/login')
   }
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
-      fetch('/api/children').then(r => r.ok ? r.json() : []),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
+      cachedFetch('/api/children').then(r => r.ok ? r.json() : []) as Promise<Child[]>,
     ]).then(([me, kids]) => {
       if (!me) { router.replace('/login'); return }
       setSession(me)

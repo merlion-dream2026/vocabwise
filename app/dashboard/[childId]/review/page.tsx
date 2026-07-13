@@ -5,6 +5,7 @@ import { useRouter, useParams, useSearchParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { useGameSync, type WeakEntry } from '@/lib/GameSyncContext'
 import type { ReviewWord } from '@/components/ReviewSession'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 const ReviewSession = dynamic(() => import('@/components/ReviewSession'), { ssr: false })
 
@@ -54,7 +55,7 @@ export default function ReviewPage() {
 
   const loadData = useCallback(async () => {
     setLoading(true)
-    const kids = await fetch('/api/children').then(r => r.json())
+    const kids = await cachedFetch('/api/children').then(r => r.json())
     const found = (kids as Child[]).find(k => k.id === childId)
     if (!found) { router.push('/kids'); return }
     // Use level from URL param if present (e.g. from "Ôn ngay" on a specific level page)

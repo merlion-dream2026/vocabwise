@@ -5,6 +5,7 @@ import { speak } from '@/lib/speak'
 import type { WordList } from '@/components/WordListPicker'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getMyWordsLimit } from '@/lib/planUtils'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -68,7 +69,7 @@ export default function MyWordsPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch('/api/vocabwise/wordlist').then(r => r.ok ? r.json() : { saved: [] }),
       fetch('/api/wordlists').then(r => r.ok ? r.json() : { lists: [] }),
     ]).then(([sess, wData, lData]) => {

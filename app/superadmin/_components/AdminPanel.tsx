@@ -15,6 +15,7 @@ import { AnalyticsPanel } from './AnalyticsPanel'
 import { TrendsPanel } from './TrendsPanel'
 import { ReferralStatsPanel } from './ReferralStatsPanel'
 import { FlagsPanel } from './FlagsPanel'
+import { invalidateCachedFetch } from '@/lib/cachedFetch'
 
 // ── Admin Panel ───────────────────────────────────────────────────────────────
 export function AdminPanel() {
@@ -110,6 +111,7 @@ export function AdminPanel() {
 
   async function logout() {
     await fetch('/api/auth/logout', { method: 'POST' })
+    invalidateCachedFetch('/api/auth/me')
     window.location.reload()
   }
 

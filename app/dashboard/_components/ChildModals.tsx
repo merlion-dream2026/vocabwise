@@ -4,6 +4,7 @@ import { useState, FormEvent } from 'react'
 import Image from 'next/image'
 import { AVATARS } from '@/lib/avatars'
 import type { Child } from '../_types'
+import { invalidateCachedFetch } from '@/lib/cachedFetch'
 
 // ── Add child modal ────────────────────────────────────────────────────────────
 export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
@@ -24,7 +25,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
       body: JSON.stringify({ name, emoji, level: 'seeker', theme }),
     })
     setSaving(false)
-    if (res.ok) { onAdded(await res.json()) }
+    if (res.ok) { invalidateCachedFetch('/api/children'); onAdded(await res.json()) }
     else { const d = await res.json(); setMsg(d.error) }
   }
 
@@ -108,14 +109,14 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
       body: JSON.stringify({ name, emoji, theme }),
     })
     setSaving(false)
-    if (res.ok) { onSaved(await res.json()) }
+    if (res.ok) { invalidateCachedFetch('/api/children'); onSaved(await res.json()) }
     else { const d = await res.json(); setMsg(`❌ ${d.error}`) }
   }
 
   async function handleDelete() {
     if (!confirmDelete) { setConfirmDelete(true); return }
     const res = await fetch(`/api/children/${child.id}`, { method: 'DELETE' })
-    if (res.ok) { onDeleted(child.id) }
+    if (res.ok) { invalidateCachedFetch('/api/children'); onDeleted(child.id) }
     else { const d = await res.json(); setMsg(`❌ ${d.error}`) }
   }
 

@@ -11,6 +11,7 @@ import { getPlanBadge } from './_utils'
 import { AddChildModal, EditChildModal } from './_components/ChildModals'
 import { DashboardTab } from './_components/DashboardTab'
 import { SettingsTab } from './_components/SettingsTab'
+import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
 // ── Main page ─────────────────────────────────────────────────────────────────
 export default function DashboardPage() {
@@ -30,10 +31,11 @@ export default function DashboardPage() {
     try {
       const [refreshRes, kids] = await Promise.all([
         fetch('/api/auth/refresh', { method: 'POST' }),
-        fetch('/api/children').then(r => r.json()).catch(() => []),
+        cachedFetch('/api/children').then(r => r.json()).catch(() => []),
       ])
       if (refreshRes.status === 403) {
         await fetch('/api/auth/logout', { method: 'POST' })
+        invalidateCachedFetch('/api/auth/me')
         router.push('/login')
         return
       }
@@ -99,6 +101,7 @@ export default function DashboardPage() {
   async function logout() {
     await clearAllDownloads()
     await fetch('/api/auth/logout', { method: 'POST' })
+    invalidateCachedFetch('/api/auth/me')
     router.push('/login')
   }
 

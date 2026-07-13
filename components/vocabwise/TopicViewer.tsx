@@ -11,6 +11,7 @@ import type { ExercisesData } from './types'
 import WordListPicker from '@/components/WordListPicker'
 import PassageGrammarNote from './PassageGrammarNote'
 import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type GlossaryItem = {
   id: number
@@ -178,7 +179,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   useEffect(() => {
     Promise.all([
       fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<(Session & { familyId?: string }) | null>,
       fetch(`/api/vocabwise/wordlist?topic_id=${topicId}`).then(r => r.ok ? r.json() : { saved: [] }),
     ]).then(([d, sess, wl]) => {
       const mastery: Record<string, AcademicTopicSync> = d?.mastery ?? {}

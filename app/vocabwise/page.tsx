@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type AcademicTopicSync = { completed: boolean; mastered: boolean }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -46,7 +47,7 @@ export default function VocabWisePage() {
     setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
     setPlacementDismissed(!!localStorage.getItem(PLACEMENT_DISMISS_KEY))
     Promise.all([
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
     ]).then(([sess, d]) => {
       setSession(sess)

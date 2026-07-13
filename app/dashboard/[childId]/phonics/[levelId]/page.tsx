@@ -6,6 +6,7 @@ import { initPhonicsSync } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -131,7 +132,7 @@ export default function LevelPage() {
   useEffect(() => {
     if (!level) { router.push(backUrl); return }
     Promise.all([
-      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
     ]).then(([sess, data]) => {
       setSession(sess)

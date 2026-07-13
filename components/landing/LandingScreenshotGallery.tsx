@@ -31,9 +31,9 @@ export default function LandingScreenshotGallery() {
               <p className="text-white font-black text-sm">{activeScreenshot.caption}</p>
               <button onClick={() => setActiveScreenshot(null)} className="text-white/70 hover:text-white font-black text-sm ml-4 flex-shrink-0">✕ Đóng</button>
             </div>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={activeScreenshot.src} alt={activeScreenshot.caption}
-              className="w-full rounded-2xl shadow-2xl" style={{ maxHeight: '80dvh', objectFit: 'contain' }} />
+            <div className="relative w-full rounded-2xl shadow-2xl overflow-hidden" style={{ height: '80dvh' }}>
+              <Image src={activeScreenshot.src} alt={activeScreenshot.caption} fill sizes="384px" className="object-contain" />
+            </div>
             <div className="flex gap-3 mt-4">
               {(() => {
                 const idx = SCREENSHOTS.findIndex(s => s.src === activeScreenshot.src)

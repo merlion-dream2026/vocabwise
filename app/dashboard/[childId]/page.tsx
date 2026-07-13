@@ -8,6 +8,7 @@ import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import ModuleCard from '@/components/ModuleCard'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 
 const KID_FAQ = [
@@ -98,9 +99,9 @@ export default function ChildRoadmap() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/children').then(r => r.json()),
+      cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
     ]).then(([kids, allSync, sess]) => {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }

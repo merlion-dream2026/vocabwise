@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import UpgradeModal from '@/components/UpgradeModal'
+import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
 export default function ExpiredPage() {
   const router = useRouter()
@@ -10,15 +11,16 @@ export default function ExpiredPage() {
   const [loggingOut, setLoggingOut] = useState(false)
 
   useEffect(() => {
-    fetch('/api/auth/me', { cache: 'no-store' })
+    cachedFetch('/api/auth/me')
       .then(r => r.json())
-      .then(d => { if (d.username) setUsername(d.username) })
+      .then((d) => { const s = d as { username?: string }; if (s.username) setUsername(s.username) })
       .catch(() => {})
   }, [])
 
   async function handleLogout() {
     setLoggingOut(true)
     await fetch('/api/auth/logout', { method: 'POST' }).catch(() => {})
+    invalidateCachedFetch('/api/auth/me')
     router.push('/login')
   }
 

@@ -10,6 +10,7 @@ import {
 import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type Level      = typeof phonicsLevels.levels[number]
 type MasteryMap = Record<string, { flashcard: boolean; games: string[] }>
@@ -67,7 +68,7 @@ export default function PhonicsHub() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/auth/me', { cache: 'no-store' }).then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
     ]).then(([sess, data]) => {
       setSession(sess)

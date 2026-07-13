@@ -8,6 +8,7 @@ import CertificateModal from '@/components/vocabwise/CertificateModal'
 import OfflineDownloadButton from '@/components/OfflineDownloadButton'
 import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -114,7 +115,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/auth/me').then(r => r.ok ? r.json() : null),
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
     ]).then(([sess, syncData]) => {
       setSession(sess)

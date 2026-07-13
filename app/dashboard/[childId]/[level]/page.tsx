@@ -12,6 +12,7 @@ import ExpiryBanner from '@/components/ExpiryBanner'
 import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
 import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
@@ -139,19 +140,19 @@ export default function LevelTopicsPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/auth/me').then(r => r.json()),
-      fetch('/api/children').then(r => r.json()),
+      cachedFetch('/api/auth/me').then(r => r.json()) as Promise<Session>,
+      cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()),
-      fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
-    ]).then(([sess, kids, syncData, levelData]) => {
+      fetch(`/api/words/${level}/topics`).then(r => r.json()).catch(() => null),
+    ]).then(([sess, kids, syncData, topicsList]) => {
       if (!sess) { router.push('/login'); return }
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/'); return }
-      if (!levelData) { router.push(`/dashboard/${childId}`); return }
+      if (!topicsList) { router.push(`/dashboard/${childId}`); return }
       setSession(sess)
       setChild(found)
       try { localStorage.setItem('vw_child_' + childId, JSON.stringify(found)) } catch {}
-      setTopics(levelData.topics ?? [])
+      setTopics(topicsList ?? [])
       setMastery(syncData?.mastery ?? {})
       setSeen(new Set(syncData?.seen ?? []))
       setWeakKeys(new Set(Object.keys(syncData?.weak_words ?? {})))
