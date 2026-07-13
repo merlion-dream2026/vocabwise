@@ -99,6 +99,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [showLimitModal, setShowLimitModal] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining,   setExplaining]   = useState<Set<string>>(new Set())
+  const [explainErrors, setExplainErrors] = useState<Record<string, string>>({})
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   // Stop speech on unmount or tab switch away from passage
@@ -267,6 +268,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
     const word = item.word ?? ''
     if (!word || explanations[word] || explaining.has(word)) return
     setExplaining(prev => new Set(prev).add(word))
+    setExplainErrors(prev => { const { [word]: _, ...rest } = prev; return rest })
     try {
       const res = await fetch('/api/vocabwise/explain', {
         method: 'POST',
@@ -275,6 +277,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       })
       const d = await res.json()
       if (d.explanation) setExplanations(prev => ({ ...prev, [word]: d.explanation }))
+      else setExplainErrors(prev => ({ ...prev, [word]: d.error || 'Không thể giải nghĩa. Thử lại sau.' }))
+    } catch {
+      setExplainErrors(prev => ({ ...prev, [word]: 'Không thể giải nghĩa. Thử lại sau.' }))
     } finally {
       setExplaining(prev => { const s = new Set(prev); s.delete(word); return s })
     }
@@ -557,13 +562,18 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                                 <p className="text-indigo-800 text-sm leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
                               </div>
                             ) : (
-                              <button
-                                onClick={() => explainWord(item)}
-                                disabled={explaining.has(item.word)}
-                                className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
-                              >
-                                {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
-                              </button>
+                              <>
+                                <button
+                                  onClick={() => explainWord(item)}
+                                  disabled={explaining.has(item.word)}
+                                  className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
+                                >
+                                  {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
+                                </button>
+                                {explainErrors[item.word] && (
+                                  <p className="text-red-500 text-xs mt-1.5 text-center">{explainErrors[item.word]}</p>
+                                )}
+                              </>
                             )}
                           </div>
                         </details>

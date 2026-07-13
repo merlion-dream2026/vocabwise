@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
+import { aiChat } from '@/lib/aiChat'
 
 type GlossaryEntry = { word: string; meaning_vi: string }
 type MCQItem = { id: number; sentence: string; options: string[]; answer: string }
@@ -37,9 +38,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Not enough vocabulary' }, { status: 400 })
   }
 
-  const apiKey = process.env.CEREBRAS_API_KEY
-  if (!apiKey) return NextResponse.json({ error: 'CEREBRAS_API_KEY not configured' }, { status: 500 })
-
   const wordList = glossary
     .map(g => `${g.word} (${g.meaning_vi})`)
     .join('\n')
@@ -69,34 +67,8 @@ Return ONLY this JSON (no extra text):
   ]
 }`
 
-  let res: Response
-  try {
-    res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'gpt-oss-120b',
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: 800,
-        temperature: 0.8,
-        response_format: { type: 'json_object' },
-      }),
-    })
-  } catch (e) {
-    console.error('Cerebras generate-exercises fetch failed:', e)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  if (!res.ok) {
-    console.error('Groq generate-exercises error:', res.status)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  const d = await res.json()
-  const raw = d.choices?.[0]?.message?.content?.trim() ?? '{}'
+  const raw = await aiChat({ order: ['cerebras', 'groq'], prompt, maxTokens: 800, temperature: 0.8, json: true })
+  if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   try {
     const parsed = JSON.parse(raw)

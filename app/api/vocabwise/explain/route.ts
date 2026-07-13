@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { supabase } from '@/lib/supabaseServer'
 import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
+import { aiChat } from '@/lib/aiChat'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -36,33 +37,8 @@ Ví dụ: ${example_en}
 
 Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.`
 
-  let res: Response
-  try {
-    res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'llama-3.1-8b-instant',
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: 250,
-        temperature: 0.7,
-      }),
-    })
-  } catch (e) {
-    console.error('Groq explain fetch failed:', e)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  if (!res.ok) {
-    console.error('Groq explain error:', res.status)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  const d = await res.json()
-  const explanation = d.choices?.[0]?.message?.content?.trim() ?? ''
+  const explanation = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 250, temperature: 0.7 })
+  if (explanation === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   // Save to DB for future requests
   if (mode === 'kids' && explanation) {

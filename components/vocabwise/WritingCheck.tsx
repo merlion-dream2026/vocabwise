@@ -42,11 +42,11 @@ export default function WritingCheck({ words, cefr }: Props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ targetWord: selected, sentence: sentence.trim(), cefr }),
       })
-      if (!res.ok) throw new Error('error')
-      const d: Feedback = await res.json()
-      setFeedback(d)
-    } catch {
-      setError('Không thể chấm bài. Thử lại sau.')
+      const d = await res.json()
+      if (!res.ok) throw new Error(d?.error || 'error')
+      setFeedback(d as Feedback)
+    } catch (e) {
+      setError(e instanceof Error && e.message !== 'error' ? e.message : 'Không thể chấm bài. Thử lại sau.')
     } finally {
       setLoading(false)
     }

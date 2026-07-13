@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
+import { aiChat } from '@/lib/aiChat'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -12,9 +13,6 @@ export async function POST(req: NextRequest) {
 
   const { exerciseType, question, options, baseWord } = await req.json()
   if (!question) return NextResponse.json({ error: 'Missing question' }, { status: 400 })
-
-  const apiKey = process.env.GROQ_API_KEY
-  if (!apiKey) return NextResponse.json({ error: 'GROQ_API_KEY not configured' }, { status: 500 })
 
   let prompt = ''
 
@@ -60,32 +58,7 @@ Gợi ý: kiểm tra ngữ pháp, collocation, hay từ vựng. Tối đa 2 câu
 Cho một gợi ý ngắn bằng tiếng Việt, không tiết lộ đáp án. Tối đa 2 câu.`
   }
 
-  let res: Response
-  try {
-    res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'llama-3.1-8b-instant',
-        messages: [{ role: 'user', content: prompt }],
-        max_tokens: 150,
-        temperature: 0.7,
-      }),
-    })
-  } catch (e) {
-    console.error('Groq hint fetch failed:', e)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  if (!res.ok) {
-    console.error('Groq hint error:', res.status)
-    return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
-  }
-
-  const d = await res.json()
-  const hint = d.choices?.[0]?.message?.content?.trim() ?? ''
+  const hint = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 150, temperature: 0.7 })
+  if (hint === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
   return NextResponse.json({ hint })
 }
