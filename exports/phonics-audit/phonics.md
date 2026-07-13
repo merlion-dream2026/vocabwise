@@ -9,17 +9,17 @@
 ### KNOWLEDGE
 
 **how_to:**
-- iː: Kéo miệng rộng sang hai bên như đang cười thật tươi — càng rộng càng tốt. Lưỡi nâng cao về phía trước vòm miệng. Kéo dài âm gấp đôi.
-- ɪ: Thả lỏng hoàn toàn — miệng nhỏ hơn, lưỡi vẫn cao nhưng hạ xuống một chút. Âm ngắn và 'lỏng'. Đừng cố căng.
+- iː: Lưỡi nâng cao và đưa về phía trước, hàm gần khép, môi hơi kéo sang hai bên. Âm dài và căng hơn /ɪ/, nhưng không cần kéo miệng rộng tối đa.
+- ɪ: Lưỡi vẫn ở phía trước nhưng thấp và lùi hơn một chút so với /iː/, môi thả lỏng. Âm ngắn và lỏng hơn. Khác biệt nằm ở cả chất lượng âm lẫn độ dài, không chỉ ở việc kéo dài.
 
-**vs_vietnamese:** Tiếng Việt có 'i' nhưng luôn ngắn và rõ. iː khác ở độ kéo dài và miệng căng hơn nhiều. ɪ hoàn toàn không có trong tiếng Việt — học sinh hay đọc thành iː hoặc thành 'i' Việt Nam ngắn cũn.
+**vs_vietnamese:** Âm /i/ tiếng Việt khá gần /iː/ nhưng thường ngắn hơn và không tạo cùng sự đối lập căng–lỏng. Tiếng Việt không có âm tương đương chính xác với /ɪ/, nên học sinh thường đọc /ɪ/ thành /iː/ hoặc thành âm "i" tiếng Việt.
 
 **spelling:**
-- ee | tree, see, feet, green, free
-- ea | eat, bean, meat, teach, beach
-- ie / ei | field, piece, receive, ceiling
-- i+e (một số từ đặc biệt) | these, complete, extreme, athlete
-- ɪ → i / y / e | fish, sit, gym, pretty, women
+- ee | tree /triː/, see /siː/, feet /fiːt/, green /ɡriːn/, free /friː/
+- ea | eat /iːt/, bean /biːn/, meat /miːt/, teach /tiːtʃ/, beach /biːtʃ/
+- ie / ei | field /fiːld/, piece /piːs/, receive /rɪˈsiːv/, ceiling /ˈsiːlɪŋ/
+- e / e...e | these /ðiːz/, complete /kəmˈpliːt/, extreme /ɪkˈstriːm/, athlete /ˈæθliːt/
+- ɪ → i / y / e | fish /fɪʃ/, sit /sɪt/, gym /dʒɪm/, pretty /ˈprɪti/, women /ˈwɪmɪn/
 
 **mistakes:**
 - "ship" /ʃɪp/ đọc thành "sheep" /ʃiːp/ — /ɪ/ bị kéo dài thành /iː/
@@ -27,13 +27,13 @@
 - "hit" /hɪt/ vs "heat" /hiːt/, "live" /lɪv/ (động từ) vs "leave" /liːv/ — cặp hay nhầm nhất
 - Đọc cả hai âm như nhau, không phân biệt dài/ngắn
 
-**mnemonic:** iː = 'Cheese!' 🧀 — nói 'cheese' chụp ảnh, miệng kéo dài tối đa. ɪ = thở nhẹ 'ih' — lỏng và nhanh như tiếng thở ngắn.
+**mnemonic:** iː = "Cheese!" 🧀 — môi hơi kéo ngang và giữ âm lâu hơn. ɪ = âm ngắn trong "sit" — miệng thả lỏng và kết thúc nhanh.
 
 ### PRACTICE
 
 **tip:** iː: kéo dài miệng ra hai bên · ɪ: miệng thả lỏng hơn
 
-**practice_words:** tree, fish, see, sit, eat, it, bean, bin, feet, fit, heat, hit
+**practice_words:** sheep /ʃiːp/, ship /ʃɪp/, seat /siːt/, sit /sɪt/, leave /liːv/, live /lɪv/, reach /riːtʃ/, rich /rɪtʃ/, feel /fiːl/, fill /fɪl/, heat /hiːt/, hit /hɪt/
 
 **practice_sentences:**
 1. See the fish. [see, fish]
@@ -47,16 +47,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- uː: Tròn môi thật căng như thổi kèn, đẩy môi ra phía trước. Lưỡi cao phía sau. Kéo dài.
-- ʊ: Tròn môi nhẹ hơn, hơi thả lỏng, miệng mở thêm một chút so với uː. Âm ngắn — không căng.
+- uː: Lưỡi nâng cao ở phía sau hoặc hơi tiến về giữa trong giọng Anh hiện đại; môi tròn và đưa nhẹ ra trước. Giữ âm dài, nhưng không siết môi quá căng.
+- ʊ: Lưỡi thấp hơn và thả lỏng hơn /uː/ một chút; môi chỉ tròn nhẹ. Âm ngắn và lỏng hơn rõ rệt.
 
 **vs_vietnamese:** Tiếng Việt có 'u' nhưng không phân biệt dài/ngắn. ʊ hoàn toàn không tồn tại — học sinh hay đọc 'book' như 'buk' căng, hoặc 'full' như 'fool'.
 
 **spelling:**
-- uː → oo | moon, food, pool, cool, soon
-- uː → ou / ew / ui / u+e | you, soup, new, fruit, rule
-- ʊ → oo | book, cook, look, foot, good
-- ʊ → u / oul | put, push, full, could, should, would
+- uː → oo | moon /muːn/, food /fuːd/, pool /puːl/, cool /kuːl/, soon /suːn/
+- uː → ou / ew / ui / u+e | you /juː/, soup /suːp/, new /njuː/, fruit /fruːt/, rule /ruːl/
+- ʊ → oo | book /bʊk/, cook /kʊk/, look /lʊk/, foot /fʊt/, good /ɡʊd/
+- ʊ → u / oul | put /pʊt/, push /pʊʃ/, full /fʊl/, could /kʊd/, should /ʃʊd/, would /wʊd/
 
 **mistakes:**
 - "full" đọc thành "fool" — căng môi quá
@@ -64,13 +64,13 @@
 - "good" đọc thành "gude" (giọng uː căng)
 - "foot" vs "food" — cặp minimal pair cực hay nhầm
 
-**mnemonic:** uː = hình chữ 'O' tròn căng — môi như ống kèn 🎺. ʊ = 'uh-oh!' — tròn nhẹ, thả lỏng, ngắn.
+**mnemonic:** uː = âm dài trong "blue moon" 🌙 — môi tròn và giữ lâu. ʊ = âm ngắn trong "good book" 📘 — môi tròn nhẹ và kết thúc nhanh.
 
 ### PRACTICE
 
 **tip:** uː: môi tròn căng · ʊ: môi tròn nhẹ, miệng hơi mở hơn
 
-**practice_words:** moon, book, food, foot, cool, cook, pool, pull, stool, full, boot, hook
+**practice_words:** moon /muːn/, book /bʊk/, food /fuːd/, foot /fʊt/, pool /puːl/, pull /pʊl/, too /tuː/, put /pʊt/, fool /fuːl/, full /fʊl/
 
 **practice_sentences:**
 1. Cook the food. [cook, food]
@@ -84,17 +84,17 @@
 ### KNOWLEDGE
 
 **how_to:**
-- ɑː: Há miệng rộng nhất có thể như bác sĩ bảo 'Aah!'. Hạ hàm xuống, lưỡi phẳng và thấp sát sàn miệng. Kéo dài.
-- ʌ: Há miệng vừa phải (khoảng ½ rộng so với ɑː), lưỡi ở giữa, âm ngắn và trung tâm. Không căng, không tròn.
+- ɑː: Hạ hàm và mở miệng khá rộng; lưỡi thấp và lùi về phía sau, môi không tròn. Giữ âm dài nhưng không cần há miệng "rộng nhất có thể".
+- ʌ: Miệng mở vừa phải; lưỡi ở vùng giữa–sau và thả lỏng, môi không tròn. Âm ngắn hơn /ɑː/.
 
 **vs_vietnamese:** ɑː gần với 'a' tiếng Việt nhưng miệng mở hơn nhiều và kéo dài hơn. ʌ hoàn toàn không có — học sinh thường thay bằng 'a' Việt Nam (sai cả hai âm).
 
 **spelling:**
-- ɑː → ar | car, park, farm, hard, heart
-- ɑː → a (trước l/m câm) | calm, palm, half, balm
-- ɑː → a (BATH words — British English) | bath, path, father, class, grass, dance, ask, last, past
-- ʌ → u | cup, but, run, sun, bus, luck
-- ʌ → o / ou / oo | son, love, money, young, couple, blood, flood
+- ɑː → ar | car /kɑː/, park /pɑːk/, farm /fɑːm/, hard /hɑːd/, heart /hɑːt/
+- ɑː → a (trước l/m câm) | calm /kɑːm/, palm /pɑːm/, half /hɑːf/, balm /bɑːm/
+- ɑː → a (BATH words — British English) | bath /bɑːθ/, path /pɑːθ/, father /ˈfɑːðə/, class /klɑːs/, grass /ɡrɑːs/, dance /dɑːns/, ask /ɑːsk/, last /lɑːst/, past /pɑːst/
+- ʌ → u | cup /kʌp/, but /bʌt/, run /rʌn/, sun /sʌn/, bus /bʌs/, luck /lʌk/
+- ʌ → o / ou / oo | son /sʌn/, love /lʌv/, money /ˈmʌni/, young /jʌŋ/, couple /ˈkʌpl/, blood /blʌd/, flood /flʌd/
 
 **mistakes:**
 - "cut" vs "cart" — không phân biệt, đọc cả hai như 'cat'
@@ -102,13 +102,13 @@
 - "fun" đọc như "fan" — ʌ bị thay bằng æ
 - "come" đọc như "comb" — o trong 'come' là /ʌ/ không phải /əʊ/
 
-**mnemonic:** ɑː = 'Aaah!' bác sĩ khám họng 👨‍⚕️ — miệng mở tối đa. ʌ = tiếng thở 'uh' ngắn — giống khi bạn không chú ý.
+**mnemonic:** ɑː = "Ah..." khi bác sĩ khám họng 👨‍⚕️ — mở miệng khá rộng và giữ âm. ʌ = âm ngắn trong "cup" — miệng mở vừa và thả lỏng.
 
 ### PRACTICE
 
 **tip:** ɑː: há miệng rộng, kéo dài · ʌ: há vừa, ngắn
 
-**practice_words:** car, cup, far, fun, hard, hug, park, puck, barn, bun, heart, hut
+**practice_words:** cart /kɑːt/, cut /kʌt/, heart /hɑːt/, hut /hʌt/, barn /bɑːn/, bun /bʌn/, dark /dɑːk/, duck /dʌk/, park /pɑːk/, puck /pʌk/, march /mɑːtʃ/, much /mʌtʃ/
 
 **practice_sentences:**
 1. Run to the car. [car]
@@ -122,16 +122,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- ɒ: Miệng mở rộng, hàm hạ thấp, môi KHÔNG tròn hoặc chỉ tròn rất nhẹ — âm ngắn. (British English; American English thường dùng /ɑː/ thay thế.)
-- ɔː: Tròn môi căng hơn ɒ, miệng hơi hẹp lại, âm dài và 'tròn'. Căng môi như đang nói 'aw' kéo dài.
+- ɒ: Hạ hàm, lưỡi thấp và lùi về phía sau; môi tròn nhẹ. Đây là âm ngắn trong British English.
+- ɔː: Lưỡi cao hơn một chút so với /ɒ/, môi tròn rõ hơn và âm được giữ lâu hơn.
 
 **vs_vietnamese:** Cả hai không có tương đương trong tiếng Việt. Học sinh hay đọc cả hai thành 'o' Việt Nam (ngắn, không tròn đủ). ɔː cần căng môi nhiều hơn 'o' Việt Nam.
 
 **spelling:**
-- ɒ → o | dog, hot, not, top, stop
-- ɒ → wa / wha | want, wash, watch, what, was
-- ɔː → or / oor / oar | for, more, door, floor, board
-- ɔː → al / au / aw | ball, walk, talk, because, caught, law, saw
+- ɒ → o | dog /dɒɡ/, hot /hɒt/, not /nɒt/, top /tɒp/, stop /stɒp/
+- ɒ → wa / wha | want /wɒnt/, wash /wɒʃ/, watch /wɒtʃ/, what /wɒt/, was /wɒz/
+- ɔː → or / oor / oar | for /fɔː/, more /mɔː/, door /dɔː/, floor /flɔː/, board /bɔːd/
+- ɔː → al / au / aw | ball /bɔːl/, walk /wɔːk/, talk /tɔːk/, caught /kɔːt/, law /lɔː/, saw /sɔː/
 
 **mistakes:**
 - "caught" đọc như "cat" — bỏ mất ɔː
@@ -143,15 +143,15 @@
 
 ### PRACTICE
 
-**tip:** ɒ: ngắn, miệng mở, môi không tròn · ɔː: kéo dài, môi tròn căng
+**tip:** ɒ: ngắn, miệng mở, môi tròn nhẹ · ɔː: dài hơn, môi tròn rõ hơn
 
-**practice_words:** dog, ball, hot, hall, lot, law, top, talk, dot, door, got, gore
+**practice_words:** cot /kɒt/, caught /kɔːt/, stock /stɒk/, stork /stɔːk/, cod /kɒd/, cord /kɔːd/, spot /spɒt/, sport /spɔːt/, fox /fɒks/, forks /fɔːks/, shot /ʃɒt/, short /ʃɔːt/
 
 **practice_sentences:**
 1. The dog got the ball. [dog, got, ball]
-2. Walk the dog at four. [dog, four]
-3. Call the dog and stop. [dog]
-4. The dog walked to the hall door. [dog, hall, door]
+2. Walk the dog at four. [walk, dog, four]
+3. Call the dog and stop. [call, dog, stop]
+4. The dog walked to the hall door. [dog, walked, hall, door]
 
 ---
 ## LESSON: e-æ | type: pair | e / æ
@@ -159,16 +159,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- e: Miệng mở vừa phải, lưỡi ở giữa-trước, không tròn. Giống 'e' tiếng Việt nhưng miệng mở hơn một chút.
-- æ: Há miệng rộng hơn e, kéo miệng sang hai bên (như iː nhưng thấp hơn). Lưỡi phẳng, thấp, phía trước. Âm hơi kéo dài.
+- e: Miệng mở vừa phải, lưỡi ở phía trước và ở độ cao trung bình, môi không tròn.
+- æ: Hạ hàm nhiều hơn /e/; lưỡi thấp hơn nhưng vẫn ở phía trước, môi có thể hơi kéo ngang. Đây vẫn là nguyên âm ngắn, không cần cố kéo dài.
 
-**vs_vietnamese:** 'e' tiếng Anh gần 'e' tiếng Việt (hoặc 'ê' gần hơn). æ hoàn toàn không có — học sinh thường đọc thành 'e' bình thường, dẫn đến nhầm lẫn 'bad/bed', 'man/men'.
+**vs_vietnamese:** /e/ tiếng Anh khá gần âm "e" tiếng Việt nhưng không hoàn toàn giống. Tiếng Việt không có /æ/, nên học sinh thường nâng lưỡi quá cao và đọc "bad" gần giống "bed".
 
 **spelling:**
-- e → e | bed, red, get, ten, pen
-- e → ea / ai | head, bread, dead, said, again
-- æ → a (trước hầu hết phụ âm) | cat, bag, map, bad, man, can, hat
-- æ → a (trước hầu hết phụ âm khác) | value, talent, balance, palace, salary
+- e → e | bed /bed/, red /red/, get /ɡet/, ten /ten/, pen /pen/
+- e → ea / ai | head /hed/, bread /bred/, dead /ded/, said /sed/, again /əˈɡen/
+- æ → a (trước hầu hết phụ âm) | cat /kæt/, bag /bæɡ/, map /mæp/, bad /bæd/, man /mæn/, can /kæn/, hat /hæt/
+- æ → a (trước hầu hết phụ âm khác) | value /ˈvæljuː/, talent /ˈtælənt/, balance /ˈbæləns/, palace /ˈpæləs/, salary /ˈsæləri/
 
 **mistakes:**
 - "bad" đọc thành "bed" — æ bị thay bằng e
@@ -180,14 +180,14 @@
 
 ### PRACTICE
 
-**tip:** e: miệng mở vừa · æ: há miệng rộng hơn và kéo hơi dài
+**tip:** e: miệng mở vừa · æ: hạ hàm nhiều hơn, lưỡi thấp hơn
 
-**practice_words:** bed, bag, red, rat, ten, tan, pen, pan, met, mat, set, sat
+**practice_words:** bed /bed/, bad /bæd/, men /men/, man /mæn/, ten /ten/, tan /tæn/, pen /pen/, pan /pæn/, met /met/, mat /mæt/, set /set/, sat /sæt/
 
 **practice_sentences:**
 1. I have a pen and a bag. [pen, bag]
-2. The red bag is sat here. [red, bag, sat]
-3. I have ten red pens and bags. [ten, red, pens, bags]
+2. The red bag is on the mat. [red, bag, mat]
+3. I have ten red pens in a bag. [ten, red, pens, bag]
 4. She set the bag on the bed. [set, bag, bed]
 
 ---
@@ -203,11 +203,11 @@
 **vs_vietnamese:** Tiếng Việt hoàn toàn không có âm này. Học sinh thường: (1) thêm âm 'r' rõ ràng vào cuối ('bird' thành 'bờ-rờ'), (2) đọc thành 'ơ' tiếng Việt (ngắn hơn và khác vị trí lưỡi), (3) tròn môi theo kiểu 'u'.
 
 **spelling:**
-- er | her, term, verb, serve, person
-- ir | bird, girl, first, shirt, birth
-- ur | burn, turn, nurse, curl, hurt
-- ear | heard, early, earn, learn, earth
-- wor- (w+or) | word, world, work, worm, worse, worth, worship
+- er | her /hɜː/, term /tɜːm/, verb /vɜːb/, serve /sɜːv/, person /ˈpɜːsn/
+- ir | bird /bɜːd/, girl /ɡɜːl/, first /fɜːst/, shirt /ʃɜːt/, birth /bɜːθ/
+- ur | burn /bɜːn/, turn /tɜːn/, nurse /nɜːs/, curl /kɜːl/, hurt /hɜːt/
+- ear | heard /hɜːd/, early /ˈɜːli/, earn /ɜːn/, learn /lɜːn/, earth /ɜːθ/
+- wor- (w+or) | word /wɜːd/, world /wɜːld/, work /wɜːk/, worm /wɜːm/, worse /wɜːs/, worth /wɜːθ/, worship /ˈwɜːʃɪp/
 
 **mistakes:**
 - Thêm âm /r/ rõ ràng sau: 'bird' → 'bờ-rờ-d' (British English không có r ở đây)
@@ -221,7 +221,7 @@
 
 **tip:** ɜː: miệng hơi mở, môi không tròn, kéo dài — tiếng Việt không có âm này
 
-**practice_words:** bird, word, girl, burn, turn, learn, work, heard, earth, first, nurse, world
+**practice_words:** bird /bɜːd/, word /wɜːd/, girl /ɡɜːl/, burn /bɜːn/, turn /tɜːn/, learn /lɜːn/, work /wɜːk/, heard /hɜːd/, earth /ɜːθ/, first /fɜːst/, nurse /nɜːs/, world /wɜːld/
 
 **practice_sentences:**
 1. A bird can learn. [bird, learn]
@@ -242,24 +242,24 @@
 **vs_vietnamese:** Tiếng Việt phát âm ĐẦY ĐỦ mọi âm tiết. Tiếng Anh thì âm tiết không nhấn bị 'nuốt' thành ə. Đây là lý do người Việt nghe tiếng Anh 'khó' — họ đang cố nghe những âm tiết bị giảm đi.
 
 **spelling:**
-- a (đầu từ không nhấn) | about, ago, alone, above, afraid
-- e / o (âm tiết không nhấn) | problem, system, today, common, police
-- er / or / ar (cuối từ) | teacher, doctor, dollar, butter, colour
-- our / ure (không nhấn) | colour, behaviour, picture, nature
+- a (đầu từ không nhấn) | about /əˈbaʊt/, ago /əˈɡəʊ/, alone /əˈləʊn/, above /əˈbʌv/, afraid /əˈfreɪd/
+- e / o (âm tiết không nhấn) | problem /ˈprɒbləm/, system /ˈsɪstəm/, today /təˈdeɪ/, common /ˈkɒmən/, police /pəˈliːs/
+- er / or / ar (cuối từ) | teacher /ˈtiːtʃə/, doctor /ˈdɒktə/, dollar /ˈdɒlə/, butter /ˈbʌtə/, colour /ˈkʌlə/
+- our / ure (không nhấn) | colour /ˈkʌlə/, behaviour /bɪˈheɪvjə/, picture /ˈpɪktʃə/, nature /ˈneɪtʃə/
 
 **mistakes:**
-- Đọc rõ từng nguyên âm: 'about' → 'a-bout' rõ ràng thay vì 'ə-baut'
-- 'teacher' → 'ti-cha' thay vì 'tiːtʃə' (đuôi phải là ə)
-- 'government' → đọc đủ 3 âm tiết thay vì 'gʌvənmənt' (2 âm ə bên trong)
-- Nhấn nhầm âm tiết vì không biết âm tiết nào là ə
+- Đọc rõ nguyên âm đầu trong "about" thay vì giảm thành /əˈbaʊt/
+- Đọc "teacher" với nguyên âm cuối quá rõ thay vì /ˈtiːtʃə/
+- Đọc các nguyên âm không nhấn trong "government" theo mặt chữ; từ này vẫn thường có 3 âm tiết nhưng hai âm tiết sau được giảm trong /ˈɡʌvənmənt/
+- Nhấn nhầm âm tiết hoặc biến mọi nguyên âm không nhấn thành một âm đầy đủ
 
-**mnemonic:** ə = schwa = 'ừ' khi không chú ý 😪. Đây là âm PHỔ BIẾN NHẤT trong tiếng Anh — chiếm ~30% tất cả nguyên âm được nói! Bắt được ə = hiểu tiếng Anh như native.
+**mnemonic:** ə = schwa = âm "uh" rất nhẹ khi miệng đang ở trạng thái nghỉ 😪. Đây là nguyên âm rất phổ biến trong các âm tiết không nhấn.
 
 ### PRACTICE
 
 **tip:** ə (schwa) là nguyên âm phổ biến nhất — xuất hiện ở âm tiết không nhấn. VD: 'a' trong 'about', 'er' trong 'teacher'
 
-**practice_words:** about, teacher, paper, butter, garden, open, sister, doctor, under, mother, water, together
+**practice_words:** about /əˈbaʊt/, teacher /ˈtiːtʃə/, paper /ˈpeɪpə/, butter /ˈbʌtə/, garden /ˈɡɑːdn/, open /ˈəʊpən/, sister /ˈsɪstə/, doctor /ˈdɒktə/, under /ˈʌndə/, mother /ˈmʌðə/, water /ˈwɔːtə/, together /təˈɡeðə/
 
 **practice_sentences:**
 1. A teacher and a doctor. [teacher, doctor]
@@ -286,11 +286,11 @@
 **vs_vietnamese:** eɪ gần 'ây' tiếng Việt; aɪ gần 'ai' tiếng Việt. Tuy nhiên trong tiếng Anh phải trượt mượt mà hơn, không ngắt thành 2 âm rõ ràng như tiếng Việt.
 
 **spelling:**
-- eɪ → ay / ai | day, play, say, rain, train, wait, pain
-- eɪ → a+e / ea | cake, name, late, break, steak, great
-- eɪ → ey / ei | they, grey, eight, weight, veil
-- aɪ → igh / i+e | night, light, right, kite, time, bike, like
-- aɪ → y / ie / i (đứng một mình) | fly, my, try, pie, tie, I, find
+- eɪ → ay / ai | day /deɪ/, play /pleɪ/, say /seɪ/, rain /reɪn/, train /treɪn/, wait /weɪt/, pain /peɪn/
+- eɪ → a+e / ea | cake /keɪk/, name /neɪm/, late /leɪt/, break /breɪk/, steak /steɪk/, great /ɡreɪt/
+- eɪ → ey / ei | they /ðeɪ/, grey /ɡreɪ/, eight /eɪt/, weight /weɪt/, veil /veɪl/
+- aɪ → igh / i+e | night /naɪt/, light /laɪt/, right /raɪt/, kite /kaɪt/, time /taɪm/, bike /baɪk/, like /laɪk/
+- aɪ → y / ie / i | fly /flaɪ/, my /maɪ/, try /traɪ/, pie /paɪ/, tie /taɪ/, I /aɪ/, find /faɪnd/
 
 **mistakes:**
 - Đọc 'day' thành 2 âm tách biệt 'đê-i' thay vì trượt mượt
@@ -304,13 +304,13 @@
 
 **tip:** eɪ: từ 'e' trôi lên 'i' · aɪ: từ 'a' rộng trôi lên 'i'
 
-**practice_words:** day, fly, cake, kite, play, pride, game, time, rain, mine, face, fire
+**practice_words:** late /leɪt/, light /laɪt/, wait /weɪt/, white /waɪt/, fail /feɪl/, file /faɪl/, male /meɪl/, mile /maɪl/, pain /peɪn/, pine /paɪn/, lake /leɪk/, like /laɪk/
 
 **practice_sentences:**
 1. I fly a kite on a sunny day. [fly, day, kite]
 2. We play a game at my house every day. [play, day]
 3. The cake is mine and I will eat it today. [mine, today]
-4. I see a fly near the cake and fire. [fly, cake, fire]
+4. A fly lands on the cake while I light the fire. [fly, cake, light, fire]
 
 ---
 ## LESSON: əʊ-aʊ | type: pair | əʊ / aʊ
@@ -318,16 +318,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- əʊ: Bắt đầu ở ə (miệng thả lỏng), trượt dần tròn môi lên uː (môi khép tròn). Nhẹ nhàng và liên tục.
-- aʊ: Bắt đầu ở a (há miệng rộng), trượt dần tròn môi xuống ʊ (môi khép tròn nhẹ). Mạnh và rõ hơn əʊ vì điểm xuất phát rộng.
+- əʊ: Bắt đầu ở vị trí giữa và thả lỏng, sau đó lưỡi nâng lên và môi tròn dần về phía /ʊ/. Chuyển động phải liền mạch.
+- aʊ: Bắt đầu với miệng mở và lưỡi thấp, sau đó lưỡi nâng lên về phía sau và môi tròn dần về /ʊ/. Không "trượt xuống"; hàm khép dần khi kết thúc âm.
 
 **vs_vietnamese:** əʊ gần 'ô' nhưng bắt đầu lỏng hơn (không phải 'ô' căng ngay từ đầu). aʊ gần 'ao' nhưng kết thúc tròn môi hơn nhiều.
 
 **spelling:**
-- əʊ → o+e / o (cuối) | home, note, rope, go, so, no
-- əʊ → ow / oa | snow, know, blow, boat, road, coat, toad
-- aʊ → ow | cow, now, how, town, down, brown, crowd
-- aʊ → ou | out, about, cloud, found, loud, mouth, house
+- əʊ → o+e / o (cuối) | home /həʊm/, note /nəʊt/, rope /rəʊp/, go /ɡəʊ/, so /səʊ/, no /nəʊ/
+- əʊ → ow / oa | snow /snəʊ/, know /nəʊ/, blow /bləʊ/, boat /bəʊt/, road /rəʊd/, coat /kəʊt/, toad /təʊd/
+- aʊ → ow | cow /kaʊ/, now /naʊ/, how /haʊ/, town /taʊn/, down /daʊn/, brown /braʊn/, crowd /kraʊd/
+- aʊ → ou | out /aʊt/, about /əˈbaʊt/, cloud /klaʊd/, found /faʊnd/, loud /laʊd/, mouth /maʊθ/, house /haʊs/
 
 **mistakes:**
 - 'go' đọc như 'gô' Việt Nam — âm đơn, không trượt
@@ -339,14 +339,14 @@
 
 ### PRACTICE
 
-**tip:** əʊ: từ 'uh' trôi lên 'u' tròn · aʊ: từ 'a' rộng trôi xuống 'u' tròn
+**tip:** əʊ: từ vị trí giữa trôi lên /ʊ/ và tròn môi · aʊ: từ miệng mở trôi lên /ʊ/ và tròn môi
 
-**practice_words:** go, cow, home, how, road, loud, snow, cloud, boat, bout, coat, couch
+**practice_words:** know /nəʊ/, now /naʊ/, load /ləʊd/, loud /laʊd/, tone /təʊn/, town /taʊn/, boat /bəʊt/, shout /ʃaʊt/, hole /həʊl/, howl /haʊl/, code /kəʊd/, cloud /klaʊd/
 
 **practice_sentences:**
-1. I go home on the loud road. [go, loud]
-2. The cow is in the snow near my home. [cow, snow]
-3. We go to the cloud in a boat. [go, boat, cloud]
+1. I go home along a loud road. [go, home, loud, road]
+2. The cow is in the snow near my home. [cow, snow, home]
+3. We go out in a boat under a cloud. [go, out, boat, cloud]
 4. I wear a coat and sit on the couch to watch a cow. [coat, couch, cow]
 
 ---
@@ -355,14 +355,14 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Bắt đầu ở ɔː (miệng tròn căng, hàm hơi mở — âm 'aw'), trượt dần lên ɪ (miệng khép, lưỡi nâng cao phía trước).
-- Cần cảm nhận chuyển động của lưỡi: từ thấp-sau lên cao-trước. Không ngắt, phải trượt liên tục.
+- Bắt đầu ở /ɔ/ với môi tròn và hàm hơi mở, sau đó trượt liền mạch lên /ɪ/ khi lưỡi tiến ra trước và nâng cao hơn.
+- Không giữ phần đầu dài như /ɔː/ và không tách thành hai âm tiết.
 
-**vs_vietnamese:** Không có tương đương trong tiếng Việt. Gần 'oi' nhưng điểm xuất phát ɔː tròn môi hơn 'o' Việt Nam nhiều. Tiếng Việt 'oi' bắt đầu từ 'o' không tròn.
+**vs_vietnamese:** Tiếng Việt có các vần gần "oi", nhưng chất lượng nguyên âm và mức độ tròn môi có thể khác theo từ và phương ngữ. Khi phát âm /ɔɪ/, cần bắt đầu bằng một âm sau có môi tròn rồi trượt liền sang /ɪ/ trong cùng một âm tiết.
 
 **spelling:**
-- oy (cuối từ hoặc trước nguyên âm) | boy, toy, joy, enjoy, annoy, royal, loyal
-- oi (giữa từ) | oil, coin, join, voice, avoid, noise, point, choice
+- oy (cuối từ hoặc trước nguyên âm) | boy /bɔɪ/, toy /tɔɪ/, joy /dʒɔɪ/, enjoy /ɪnˈdʒɔɪ/, annoy /əˈnɔɪ/, royal /ˈrɔɪəl/, loyal /ˈlɔɪəl/
+- oi (giữa từ) | oil /ɔɪl/, coin /kɔɪn/, join /dʒɔɪn/, voice /vɔɪs/, avoid /əˈvɔɪd/, noise /nɔɪz/, point /pɔɪnt/, choice /tʃɔɪs/
 
 **mistakes:**
 - Bắt đầu từ 'o' không tròn thay vì ɔ tròn — 'boy' thành 'boh-ee'
@@ -370,19 +370,19 @@
 - "voice" đọc như "vois" flat thay vì /vɔɪs/
 - "enjoy" đọc như "en-joi" tách biệt thay vì /ɪnˈdʒɔɪ/
 
-**mnemonic:** Nghĩ âm 'Oi!' (tiếng Anh-Anh gọi người) — tròn môi rồi trượt lên 'ee'. Boy → BO-ee 🎡.
+**mnemonic:** Nghĩ đến tiếng gọi "Oi!" trong tiếng Anh-Anh — bắt đầu tròn môi rồi trượt nhanh lên /ɪ/, tất cả trong một âm tiết.
 
 ### PRACTICE
 
 **tip:** ɔɪ: từ 'aw' tròn trôi lên 'i' — giống âm 'oi' nhưng khởi điểm tròn hơn
 
-**practice_words:** boy, toy, coin, join, oil, foil, voice, noise, enjoy, point, choice, avoid
+**practice_words:** boy /bɔɪ/, toy /tɔɪ/, coin /kɔɪn/, join /dʒɔɪn/, oil /ɔɪl/, foil /fɔɪl/, voice /vɔɪs/, noise /nɔɪz/, enjoy /ɪnˈdʒɔɪ/, point /pɔɪnt/, choice /tʃɔɪs/, avoid /əˈvɔɪd/
 
 **practice_sentences:**
 1. The boy plays with a toy. [boy, toy]
 2. I like to join the boy and enjoy the noise. [boy, join, enjoy, noise]
-3. The coin is made of metal not oil and foil. [coin, oil, foil]
-4. Let's make a choice to avoid the loud voice and noise. [choice, avoid, voice, noise]
+3. The boy found a coin beside some oil and foil. [boy, coin, oil, foil]
+4. My choice is to avoid loud voices and noise. [choice, avoid, voices, noise]
 
 ---
 ## LESSON: ɪə-eə | type: pair | ɪə / eə
@@ -396,8 +396,8 @@
 **vs_vietnamese:** Không có tương đương. Khó nhất là phần kết thúc — schwa ə là điểm dừng, không phải 'a' hay 'ơ' Việt Nam. Học sinh thường phát âm thành 2 âm tách biệt: 'i-a' và 'e-a'.
 
 **spelling:**
-- ɪə → ear / eer / ere / ier | ear, fear, near, clear, beer, deer, here, fierce
-- eə → air / are / ear / ere | hair, fair, chair, care, dare, share, bear, pear, there, where
+- ɪə → ear / eer / ere / ier | ear /ɪə/, fear /fɪə/, near /nɪə/, clear /klɪə/, beer /bɪə/, deer /dɪə/, here /hɪə/, fierce /fɪəs/
+- eə → air / are / ear / ere | hair /heə/, fair /feə/, chair /tʃeə/, care /keə/, dare /deə/, share /ʃeə/, bear /beə/, pear /peə/, there /ðeə/, where /weə/
 
 **mistakes:**
 - Đọc thành 2 âm tách biệt 'i-a' và 'e-a' thay vì một âm đôi trượt
@@ -411,12 +411,12 @@
 
 **tip:** ɪə: bắt đầu bằng 'i' ngắn rồi trôi sang 'uh' · eə: bắt đầu bằng 'e' rồi trôi sang 'uh'
 
-**practice_words:** ear, hair, here, there, fear, fair, near, bear, cheer, chair, deer, dare
+**practice_words:** here /hɪə/, hair /heə/, fear /fɪə/, fair /feə/, beer /bɪə/, bear /beə/, cheer /tʃɪə/, chair /tʃeə/, peer /pɪə/, pair /peə/, deer /dɪə/, dare /deə/
 
 **practice_sentences:**
-1. I have a big ear and nice hair. [ear, hair]
+1. Her hair covers one ear. [hair, ear]
 2. Come and sit here in my chair. [here, chair]
-3. The bear is near the fair. [bear, near, fair]
+3. We saw a bear near the fair. [bear, near, fair]
 4. I dare you to cheer and show no fear. [dare, cheer, fear]
 
 ---
@@ -425,34 +425,35 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Bắt đầu ở ʊ (môi tròn nhẹ, lưỡi cao phía sau), trượt xuống ə (miệng thả lỏng, lưỡi về giữa).
-- Lưu ý: Trong tiếng Anh hiện đại, nhiều người thay ʊə bằng ɔː (đặc biệt American English). 'poor' = /pɔː/ phổ biến hơn /pʊə/ ngày nay.
+- Trong cách phát âm RP truyền thống, /ʊə/ bắt đầu bằng /ʊ/ ngắn, môi tròn nhẹ, rồi trượt về schwa /ə/ khi môi và lưỡi thả lỏng.
+- Âm này ngày càng ít gặp trong tiếng Anh-Anh hiện đại. "sure" và "poor" thường được đọc với /ɔː/, còn nhiều từ như "pure" và "cure" có /j/ đứng trước: /pjʊə/, /kjʊə/.
 
 **vs_vietnamese:** Không có tương đương. Gần 'ua' nhưng bắt đầu tròn môi nhẹ (ʊ) chứ không rõ ràng như 'u' tiếng Việt, và kết thúc bằng schwa chứ không phải 'a' rõ.
 
 **spelling:**
-- ure / our / oor | pure, cure, sure, tour, your, poor, moor
-- ewer / ua | fewer, sewer, usual, visual, actual
+- ure | pure /pjʊə/, cure /kjʊə/, lure /ljʊə/, mature /məˈtʃʊə/, secure /sɪˈkjʊə/, endure /ɪnˈdjʊə/
+- our / oor (một số từ hoặc cách đọc) | tour /tʊə/, tourist /ˈtʊərɪst/, moor /mɔː/
+- u + r + nguyên âm | jury /ˈdʒʊəri/, during /ˈdjʊərɪŋ/, curious /ˈkjʊəriəs/, security /sɪˈkjʊərəti/
 
 **mistakes:**
-- Đọc thành 'u-a' tách biệt thay vì trượt
-- Đọc thành uː thuần túy — 'pure' thành 'pjuː'
-- "sure" đọc như 'shua' Việt Nam thay vì /ʃʊə/
-- "your" đọc như 'jo' hoặc 'jua' thay vì /jɔː/ hoặc /jʊə/
+- Tách thành hai âm tiết rõ "u-a" thay vì một chuyển động trượt
+- Đọc "pure" thành /pjuː/ và bỏ phần chuyển về /ə/
+- Dùng /ɔː/ cho mọi từ, kể cả những từ thường vẫn có /jʊə/ như "pure" và "cure"
+- Thêm /r/ rõ ở cuối "pure", "cure" khi nói RP trước khoảng dừng hoặc phụ âm
 
-**mnemonic:** ʊə = 'you + uh' nối liền — nói 'you' rồi ngay lập tức thả lỏng thành 'uh'. Pure = 'pyoo-uh' nối nhanh 🌿.
+**mnemonic:** /ʊə/ = âm /ʊ/ ngắn trong "book" trượt ngay về schwa /ə/; môi tròn nhẹ lúc đầu rồi thả lỏng.
 
 ### PRACTICE
 
-**tip:** ʊə: từ 'u' tròn trôi sang 'uh' — ít gặp trong tiếng Anh hiện đại, thường bị thay thế bởi /ɔː/ hoặc /jʊə/
+**tip:** /ʊə/: bắt đầu bằng /ʊ/ ngắn rồi trượt về /ə/; chú ý nhiều từ có /j/ đứng trước và một số từ hiện nay dùng /ɔː/
 
-**practice_words:** pure, cure, sure, your, tour, poor, lure, fewer, mature, during, endure, secure
+**practice_words:** sure /ʃʊə/, pure /pjʊə/, tour /tʊə/, poor /pʊə/, cure /kjʊə/, your /jʊə/, during /ˈdjʊərɪŋ/
 
 **practice_sentences:**
-1. The pure water will cure you for sure. [pure, cure, sure]
-2. I'm sure your tour will be fun during the day. [sure, your, tour, during]
-3. The poor bird tried to lure its friend with food. [poor, lure]
-4. Fewer people are mature enough to make a cure. [fewer, cure, mature]
+1. Are you sure this is your book? [sure, your]
+2. The pure water can cure a sore throat. [pure, cure]
+3. We took a tour during our summer holiday. [tour, during]
+4. The poor man was sure he was right. [poor, sure]
 
 
 # LEVEL: consonants — Consonant Pairs
@@ -463,35 +464,35 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Cả hai: khép hai môi chặt, tích áp suất không khí sau môi, rồi bật ra.
-- p (voiceless): KHÔNG rung dây thanh + THỔI HƠI mạnh khi bật (aspirated). Đặt tay trước miệng — phải cảm nhận luồng hơi mạnh.
-- b (voiced): RUNG dây thanh (đặt tay lên cổ cảm nhận) + ít hơi hơn nhiều.
+- Cả hai: khép hai môi, tích áp suất phía sau môi rồi mở ra.
+- p (voiceless): không rung dây thanh. /p/ bật hơi rõ khi đứng đầu một âm tiết được nhấn, như "pen"; sau /s/ trong "spin" thì hầu như không bật hơi. Ở cuối từ, /p/ có thể không được bật ra rõ.
+- b (voiced): cùng vị trí môi với /p/ nhưng có voicing; ở cuối từ, độ rung có thể yếu đi nhưng vẫn phải giữ sự đối lập với /p/.
 
-**vs_vietnamese:** Tiếng Việt có 'p' (ph) và 'b'. p tiếng Anh bật hơi MẠNH HƠN tiếng Việt ở đầu từ. Khi ở cuối từ ('cup', 'top'), p Anh KHÔNG bật hơi — khép môi rồi dừng.
+**vs_vietnamese:** "ph" tiếng Việt là âm /f/, không phải /p/. Tiếng Việt có /p/ chủ yếu ở cuối âm tiết và trong một số từ mượn; /p/ cuối thường không bật. Âm "b" tiếng Việt thường có tính bật vào trong, nên không hoàn toàn giống /b/ tiếng Anh.
 
 **spelling:**
-- p → p / pp | pan, cup, stop, happy, apple, upper
-- b → b / bb | ban, cab, big, rabbit, hobby, cobbler
+- p → p / pp | pan /pæn/, cup /kʌp/, stop /stɒp/, happy /ˈhæpi/, apple /ˈæpl/, upper /ˈʌpə/
+- b → b / bb | ban /bæn/, cab /kæb/, big /bɪɡ/, rabbit /ˈræbɪt/, hobby /ˈhɒbi/, cobbler /ˈkɒblə/
 
 **mistakes:**
-- p đầu từ không bật hơi đủ mạnh — nghe như 'b'
-- p cuối từ bật hơi ra — 'cup!' nghe như tiếng Việt
-- b không rung dây thanh đủ — nghe như 'p'
-- "cap" vs "cab", "mop" vs "mob" — không phân biệt p/b cuối từ
+- Không bật hơi /p/ ở đầu âm tiết được nhấn, khiến "pin" dễ nghe gần "bin"
+- Dùng âm "b" tiếng Việt quá bật vào trong thay cho /b/ tiếng Anh
+- Vô thanh hóa hoặc bỏ /b/ cuối: "cab" nghe thành "cap" hoặc "ca"
+- Không phân biệt "cap"–"cab" và "mop"–"mob", đặc biệt ở phụ âm cuối
 
-**mnemonic:** p = Pop! 💥 tiếng bật mạnh, không rung. b = Buzz! 🐝 cảm nhận cổ rung. Test p: giữ tờ giấy trước miệng — p phải làm giấy bay!
+**mnemonic:** p = "Pop!" 💥 — có luồng hơi rõ khi /p/ bắt đầu âm tiết được nhấn. b = "Buzz!" 🐝 — đặt tay lên cổ để cảm nhận voicing.
 
 ### PRACTICE
 
 **tip:** p: không rung dây thanh, thổi hơi mạnh · b: rung dây thanh
 
-**practice_words:** pan, ban, pet, bet, park, bark, pin, bin, pig, big, pat, bat
+**practice_words:** pan /pæn/, ban /bæn/, pet /pet/, bet /bet/, park /pɑːk/, bark /bɑːk/, pin /pɪn/, bin /bɪn/, pig /pɪɡ/, big /bɪɡ/, pat /pæt/, bat /bæt/
 
 **practice_sentences:**
 1. I have a big pet in the park. [big, pet, park]
 2. The bat and pig are in a bin. [bat, pig, bin]
 3. Put the food in the big pan. [put, pan]
-4. The dog will bark at a cat on the pat. [bark, pat]
+4. The dog will bark when I pat the cat. [bark, pat]
 
 ---
 ## LESSON: t-d | type: pair | t / d
@@ -499,21 +500,21 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Cả hai: đầu lưỡi chạm alveolar ridge (gờ nướu ngay sau răng trên), chặn hơi, rồi bật ra.
-- t (voiceless): không rung dây thanh + bật hơi mạnh ở đầu từ. Ở cuối từ: chỉ đặt lưỡi lên nướu rồi dừng, KHÔNG bật.
-- d (voiced): rung dây thanh khi lưỡi chặn và khi bật ra.
+- Cả hai: đầu hoặc mặt lưỡi chạm gờ nướu ngay sau răng trên, chặn luồng hơi rồi mở ra.
+- t (voiceless): không rung dây thanh; bật hơi rõ ở đầu âm tiết được nhấn. Ở cuối từ, /t/ thường không bật ra rõ và đôi khi được tạo với sự hỗ trợ của thanh hầu.
+- d (voiced): cùng vị trí với /t/ nhưng có voicing; ở cuối từ, voicing có thể yếu đi nhưng phụ âm vẫn phải được giữ.
 
-**vs_vietnamese:** Tiếng Việt có 't' và 'đ'. t Anh bật hơi mạnh hơn ở đầu từ. Quan trọng: t cuối từ tiếng Anh ('cat', 'sit') không bật hơi — khác hoàn toàn cách đọc tự nhiên của người Việt.
+**vs_vietnamese:** /t/ tiếng Anh bật hơi rõ hơn "t" tiếng Việt khi đứng đầu âm tiết được nhấn. Phụ âm cuối /t/ của tiếng Việt cũng thường không bật, nên người học có thể tận dụng cảm giác đóng âm này. "Đ" tiếng Việt không hoàn toàn giống /d/ tiếng Anh: /d/ tiếng Anh được tạo ở gờ nướu và không phải âm bật vào trong.
 
 **spelling:**
-- t → t / tt / -tion/-ture (đọc khác) | ten, sit, start, butter, little
-- d → d / dd / -ed (voiced) | den, did, bird, add, played, called
+- t → t / tt | ten /ten/, sit /sɪt/, start /stɑːt/, butter /ˈbʌtə/, little /ˈlɪtl/
+- d → d / dd / -ed đọc /d/ | den /den/, did /dɪd/, bird /bɜːd/, add /æd/, played /pleɪd/, called /kɔːld/
 
 **mistakes:**
-- 'time' đọc như 'đaim' — t Anh không phải đ Việt
-- Cuối từ 'cat' bật hơi ra — 'ca-t!' kiểu Việt Nam
-- 'done' đọc như 'đân' — d Anh là /d/ alveolar (lưỡi chạm nướu răng), không phải /đ/ dental tiếng Việt (lưỡi chạm răng)
-- "ten" vs "den" — không phân biệt rung/không rung
+- Đọc "time" với âm đầu gần "đ" tiếng Việt thay vì /t/ bật hơi
+- Bỏ /t/ hoặc /d/ cuối hoàn toàn, làm "bat" và "bad" mất sự đối lập
+- Đọc /d/ như "đ" tiếng Việt với cách đóng thanh quản hoặc bật vào trong quá rõ
+- Không phân biệt "ten"–"den" và "tie"–"die"
 
 **mnemonic:** t = Tick! ⏱️ tiếng đồng hồ ngắn gọn, sắc. d = Drum! 🥁 cảm nhận ngực/cổ rung nhẹ khi phát âm.
 
@@ -521,12 +522,12 @@
 
 **tip:** t: lưỡi chạm nướu, không rung · d: lưỡi chạm nướu, rung dây thanh
 
-**practice_words:** ten, den, toe, doe, tin, din, tap, dab, tip, dip, tear, dear
+**practice_words:** ten /ten/, den /den/, tie /taɪ/, die /daɪ/, tin /tɪn/, dim /dɪm/, town /taʊn/, down /daʊn/, tip /tɪp/, dip /dɪp/, tear /tɪə/, dear /dɪə/
 
 **practice_sentences:**
 1. I have ten toes and one big toe. [ten, toe, toes]
 2. The doe lives in a cozy den. [doe, den]
-3. I hear a loud din and a clear tin tap. [din, tin, tap]
+3. The dim light shines on the tin roof. [dim, tin]
 4. My dear friend will dip her toe in the water. [dear, dip, toe]
 
 ---
@@ -535,22 +536,22 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Cả hai: GỐC lưỡi (phần sau) nâng lên chặn vòm mềm (velum — phần mềm cuối vòm miệng), tích hơi, rồi bật ra.
-- k (voiceless): không rung dây thanh + bật hơi ở đầu từ. Ở cuối từ ('back', 'look'): đặt vị trí gốc lưỡi rồi dừng.
-- g (voiced): rung dây thanh — đặt tay lên cổ cảm nhận.
+- Cả hai: phần sau của lưỡi nâng lên chạm vòm mềm, chặn luồng hơi rồi mở ra.
+- k (voiceless): không rung dây thanh; bật hơi rõ ở đầu âm tiết được nhấn. Ở cuối từ, /k/ thường không bật ra mạnh.
+- g (voiced): cùng vị trí với /k/ nhưng có voicing; không cuộn lưỡi.
 
-**vs_vietnamese:** Tiếng Việt có 'c/k/q' (voiceless) và 'g/gh' (voiced). Cặp này học sinh Việt phân biệt tốt hơn p/b và t/d. Chú ý: k Anh ở đầu từ bật hơi hơn 'c' Việt Nam.
+**vs_vietnamese:** "c/k/q" tiếng Việt có thể giúp người học tìm vị trí gần /k/, nhưng /k/ tiếng Anh bật hơi rõ hơn ở đầu âm tiết được nhấn. "g/gh" tiếng Việt thường là âm xát /ɣ/, không phải âm dừng /ɡ/, nên học sinh cần chặn hoàn toàn luồng hơi khi phát âm /ɡ/ tiếng Anh.
 
 **spelling:**
-- k → k / c / ck / ch (học thuật) | kit, king, cat, cold, back, rock, school, chemistry
-- k → qu (= /kw/) | queen, quit, quick, quarter, question
-- g → g / gg / gu | go, bag, dog, egg, bigger, guide, guard
+- k → k / c / ck / ch (học thuật) | kit /kɪt/, king /kɪŋ/, cat /kæt/, cold /kəʊld/, back /bæk/, rock /rɒk/, school /skuːl/, chemistry /ˈkemɪstri/
+- k → qu (= /kw/) | queen /kwiːn/, quit /kwɪt/, quick /kwɪk/, quarter /ˈkwɔːtə/, question /ˈkwestʃən/
+- g → g / gg / gu | go /ɡəʊ/, bag /bæɡ/, dog /dɒɡ/, egg /eɡ/, bigger /ˈbɪɡə/, guide /ɡaɪd/, guard /ɡɑːd/
 
 **mistakes:**
-- 'game' đọc thành 'came' — nhầm g với k
-- 'go' đọc thành 'ko' — g cần rung dây thanh ngay từ đầu, không ngắt như k
-- 'back' bật hơi cuối — đặt gốc lưỡi vào vị trí rồi dừng, không bật
-- "ghost" đọc đúng /gəʊst/ — gh này vẫn đọc g
+- Đọc /ɡ/ như âm "g/gh" xát của tiếng Việt thay vì chặn hơi hoàn toàn
+- Vô thanh hóa /ɡ/, khiến "game" nghe gần "came" hoặc "bag" nghe gần "back"
+- Bỏ /ɡ/ cuối trong "dog", "big", "bag"
+- Bật /k/ cuối quá mạnh hoặc thêm nguyên âm sau "back" và "look"
 
 **mnemonic:** k = Crack! 💥 gốc lưỡi bật lên, không rung. g = Growl! 🐺 tiếng gầm thấp — gốc lưỡi rung cùng dây thanh.
 
@@ -558,7 +559,7 @@
 
 **tip:** k: gốc lưỡi chặn họng, không rung · g: gốc lưỡi chặn họng, rung dây thanh
 
-**practice_words:** cat, goat, cold, gold, cap, gap, coat, core, came, game, class, glass
+**practice_words:** coat /kəʊt/, goat /ɡəʊt/, cold /kəʊld/, gold /ɡəʊld/, cap /kæp/, gap /ɡæp/, came /keɪm/, game /ɡeɪm/, curl /kɜːl/, girl /ɡɜːl/, class /klɑːs/, glass /ɡlɑːs/
 
 **practice_sentences:**
 1. The cat wears a warm coat in cold weather. [cat, cold, coat]
@@ -576,11 +577,11 @@
 - f (voiceless): thổi hơi qua khe — không rung. Nghe như tiếng gió nhỏ.
 - v (voiced): giống f về vị trí, nhưng rung dây thanh. Đặt tay lên cổ — phải cảm nhận rung.
 
-**vs_vietnamese:** Tiếng Việt có 'ph' gần với f. Nhưng 'v' tiếng Việt KHÔNG phải labiodental fricative — tiếng Việt Bắc thực ra đọc 'v' gần như /z/ hoặc /j/, không có răng chạm môi. Đây là lý do người Việt đọc v Anh sai rất phổ biến.
+**vs_vietnamese:** Âm "ph" tiếng Việt khá gần /f/. Trong tiếng Việt chuẩn miền Bắc, "v" thường là âm môi–răng hữu thanh gần /v/, nhưng cách phát âm thay đổi theo vùng; ở nhiều giọng miền Nam, "v" có thể gần /j/ hơn. Vì vậy, một số học sinh đã có vị trí /v/ khá tốt, còn những em khác cần luyện lại tiếp xúc răng trên–môi dưới.
 
 **spelling:**
-- f → f / ff / ph / gh | fan, off, life, staff, phone, photo, enough, laugh
-- v → v / -ve | van, love, give, seven, river, have, live, curve
+- f → f / ff / ph / gh | fan /fæn/, off /ɒf/, life /laɪf/, staff /stɑːf/, phone /fəʊn/, photo /ˈfəʊtəʊ/, enough /ɪˈnʌf/, laugh /lɑːf/
+- v → v / -ve | van /væn/, love /lʌv/, give /ɡɪv/, seven /ˈsevn/, river /ˈrɪvə/, have /hæv/, live /lɪv/, curve /kɜːv/
 
 **mistakes:**
 - v đọc thành 'w' (không có labiodental contact) — 'very' thành 'wery'
@@ -588,19 +589,19 @@
 - 'five' đọc thành 'fife' — v cuối không rung
 - 'laugh' đọc như 'lauɡ' — 'gh' ở đây là /f/
 
-**mnemonic:** f = Fire 🔥 thổi hơi nhẹ (răng trên + môi dưới). v = Vibrate — 🎸 cảm nhận MÔI RUNG khi răng chạm môi. Luôn kiểm tra: răng có chạm môi không?
+**mnemonic:** f = Fire 🔥 — răng trên chạm nhẹ môi dưới và thổi hơi. v = Vibrate 🎸 — giữ nguyên vị trí đó nhưng thêm rung dây thanh; kiểm tra ở cổ, không phải chỉ ở môi.
 
 ### PRACTICE
 
 **tip:** f: răng trên chạm môi dưới, thổi hơi · v: răng trên chạm môi dưới, rung dây thanh
 
-**practice_words:** fan, van, fine, vine, fast, vast, feel, veal, leaf, leave, proof, prove
+**practice_words:** fan /fæn/, van /væn/, fine /faɪn/, vine /vaɪn/, fast /fɑːst/, vast /vɑːst/, feel /fiːl/, veal /viːl/, leaf /liːf/, leave /liːv/, proof /pruːf/, prove /pruːv/
 
 **practice_sentences:**
 1. The fan is very fine and fast. [fan, fine, fast]
 2. I feel happy in my van. [feel, van]
-3. The vine has a big leaf to leave. [vine, leaf, leave]
-4. You can prove it's a vast veal farm. [prove, vast, veal]
+3. A vine leaf fell as we prepared to leave. [vine, leaf, fell, leave]
+4. This photo proves that it is a vast farm. [photo, proves, vast, farm]
 
 ---
 ## LESSON: θ-ð | type: pair | θ / ð
@@ -612,11 +613,11 @@
 - θ (voiceless): thổi hơi qua khe giữa lưỡi và răng — không rung. Nghe như tiếng gió nhẹ.
 - ð (voiced): giống θ về vị trí, nhưng rung dây thanh. Đặt tay lên cổ — phải cảm nhận rung.
 
-**vs_vietnamese:** HOÀN TOÀN KHÔNG CÓ trong tiếng Việt. Đây là cặp âm khó và lạ nhất với người Việt. Nhiều người cảm thấy 'kỳ lạ' khi phải thè lưỡi ra — nhưng đây là cách duy nhất đúng!
+**vs_vietnamese:** Tiếng Việt không có /θ/ và /ð/. Đầu lưỡi có thể nhô nhẹ ra giữa hai hàm răng hoặc đặt sát mặt trong răng trên; không bắt buộc phải thè lưỡi thật xa. Lỗi phổ biến là thay /θ/ bằng /t/ hoặc /s/, và thay /ð/ bằng /d/ hoặc /z/.
 
 **spelling:**
-- θ → th (từ nội dung) | think, thank, three, thumb, month, path, bath, teeth, health, truth, worth
-- ð → th (từ chức năng) | the, this, that, these, those, them, they, their, there, then, than, though, although, with
+- θ → th (nhiều từ nội dung) | think /θɪŋk/, thank /θæŋk/, three /θriː/, thumb /θʌm/, month /mʌnθ/, path /pɑːθ/, bath /bɑːθ/, teeth /tiːθ/, health /helθ/, truth /truːθ/, worth /wɜːθ/
+- ð → th (nhiều từ chức năng và một số từ nội dung) | the /ðə/, this /ðɪs/, that /ðæt/, these /ðiːz/, those /ðəʊz/, them /ðem/, they /ðeɪ/, their /ðeə/, there /ðeə/, then /ðen/, than /ðæn/, though /ðəʊ/, mother /ˈmʌðə/, weather /ˈweðə/, breathe /briːð/, smooth /smuːð/
 
 **mistakes:**
 - θ → đọc thành /t/: 'think' → 'tink' (lỗi phổ biến nhất)
@@ -631,7 +632,7 @@
 
 **tip:** θ & ð: đầu lưỡi nhô nhẹ ra giữa hai hàng răng — θ không rung, ð rung dây thanh
 
-**practice_words:** think, this, thin, then, three, there, thumb, them, thank, that, path, bathe
+**practice_words:** bath /bɑːθ/, bathe /beɪð/, cloth /klɒθ/, clothe /kləʊð/, teeth /tiːθ/, breathe /briːð/, thin /θɪn/, this /ðɪs/, think /θɪŋk/, the /ðə/
 
 **practice_sentences:**
 1. I think that is a thin path. [think, that, thin, path]
@@ -649,12 +650,12 @@
 - s (voiceless): hơi sít qua khe — tiếng rè nhọn, cao. Không rung.
 - z (voiced): giống s về vị trí, nhưng rung dây thanh — tiếng rè thấp hơn và rung. Đặt tay lên cổ cảm nhận.
 
-**vs_vietnamese:** Tiếng Việt có 's' (x). 'z' tiếng Anh ít gặp ở đầu từ nhưng CỰC QUAN TRỌNG vì đuôi -s/-es của số nhiều/chia động từ thường đọc /z/. Sai z = nghe cứng và không tự nhiên.
+**vs_vietnamese:** Âm "x" tiếng Việt thường khá gần /s/; chữ "s" có thể được phát âm khác tùy phương ngữ. Tiếng Việt không dùng đối lập /s/–/z/ ở cuối từ như tiếng Anh, nên học sinh hay vô thanh hóa hoặc bỏ /z/ trong "dogs", "plays", "his".
 
 **spelling:**
-- s → s / ss / c (trước e/i) / sc | sun, bus, class, miss, city, ice, science, scene
-- z → z / zz | zoo, zero, amazing, buzz, jazz, fizz, quiz
-- z → s (giữa nguyên âm / đuôi -s voiced) | easy, music, reason, dogs, birds, runs, calls, plays
+- s → s / ss / c (trước e/i) / sc | sun /sʌn/, bus /bʌs/, class /klɑːs/, miss /mɪs/, city /ˈsɪti/, ice /aɪs/, science /ˈsaɪəns/, scene /siːn/
+- z → z / zz | zoo /zuː/, zero /ˈzɪərəʊ/, amazing /əˈmeɪzɪŋ/, buzz /bʌz/, jazz /dʒæz/, fizz /fɪz/, quiz /kwɪz/
+- z → s (giữa nguyên âm / đuôi -s voiced) | easy /ˈiːzi/, music /ˈmjuːzɪk/, reason /ˈriːzn/, dogs /dɒɡz/, birds /bɜːdz/, runs /rʌnz/, calls /kɔːlz/, plays /pleɪz/
 
 **mistakes:**
 - 'his' đọc thành 'hiss' — s cuối từ này là /z/
@@ -668,13 +669,13 @@
 
 **tip:** s: sít hơi qua khe răng, không rung · z: giống s nhưng rung dây thanh
 
-**practice_words:** sun, zoo, sip, zip, seal, zeal, bus, buzz, rice, rise, place, plays
+**practice_words:** sue /suː/, zoo /zuː/, sip /sɪp/, zip /zɪp/, seal /siːl/, zeal /ziːl/, bus /bʌs/, buzz /bʌz/, rice /raɪs/, rise /raɪz/, place /pleɪs/, plays /pleɪz/
 
 **practice_sentences:**
-1. The sun rises over the busy place. [sun, busy, place]
-2. We visit the zoo to see a happy seal. [zoo, seal]
+1. The sun rises over the busy place. [sun, rises, busy, place]
+2. We visit the zoo to see a happy seal. [visit, zoo, see, seal]
 3. I take a sip and zip my bag on the bus. [sip, zip, bus]
-4. The buzz of fun fills the air when kids play. [buzz, play]
+4. The buzz of fun fills the air when kids play. [buzz, fills, kids]
 
 ---
 ## LESSON: ʃ-ʒ | type: pair | ʃ / ʒ
@@ -689,10 +690,10 @@
 **vs_vietnamese:** Tiếng Việt có âm gần với ʃ trong một số phương ngữ. ʒ HOÀN TOÀN KHÔNG CÓ trong tiếng Việt — rất hiếm ngay cả trong tiếng Anh, chỉ xuất hiện trong từ gốc Pháp hoặc giữa từ.
 
 **spelling:**
-- ʃ → sh / ti+vowel / ci / ss | ship, shop, wash, nation, special, official, ocean, mission, passion
-- ʃ → ch (từ Pháp) | chef, machine, champagne, chalet, charade
-- ʒ → s (giữa nguyên âm) / si / zi | measure, treasure, vision, pleasure, occasion, collision
-- ʒ → g (trước e/i, từ Pháp) | beige, genre, prestige, rouge
+- ʃ → sh / ti+vowel / ci / ss | ship /ʃɪp/, shop /ʃɒp/, wash /wɒʃ/, nation /ˈneɪʃən/, special /ˈspeʃəl/, official /əˈfɪʃəl/, ocean /ˈəʊʃən/, mission /ˈmɪʃən/, passion /ˈpæʃən/
+- ʃ → ch (từ Pháp) | chef /ʃef/, machine /məˈʃiːn/, champagne /ʃæmˈpeɪn/, chalet /ˈʃæleɪ/, charade /ʃəˈrɑːd/
+- ʒ → s (giữa nguyên âm) / si / zi | measure /ˈmeʒə/, treasure /ˈtreʒə/, vision /ˈvɪʒən/, pleasure /ˈpleʒə/, occasion /əˈkeɪʒən/, collision /kəˈlɪʒən/
+- ʒ → g (trước e/i, từ Pháp) | beige /beɪʒ/, genre /ˈʒɒnrə/, prestige /preˈstiːʒ/, rouge /ruːʒ/
 
 **mistakes:**
 - 'measure' đọc thành 'me-sho' — phần 'sure' là /ʒə/ không phải /ʃo/
@@ -707,13 +708,13 @@
 
 **tip:** ʃ: môi hơi tròn, luồng hơi rộng hơn /s/ · ʒ: giống ʃ nhưng rung dây thanh
 
-**practice_words:** ship, measure, shop, leisure, shoe, beige, cash, garage, wash, vision, crash, azure
+**practice_words:** shoe /ʃuː/, measure /ˈmeʒə/, wash /wɒʃ/, treasure /ˈtreʒə/, wish /wɪʃ/, usual /ˈjuːʒuəl/, fish /fɪʃ/, decision /dɪˈsɪʒən/, dish /dɪʃ/, vision /ˈvɪʒən/
 
 **practice_sentences:**
 1. She left her shoes at the shop. [shoes, shop]
-2. We need to measure the beige shoe size. [measure, beige, shoe]
+2. We need to measure the beige shoe. [measure, beige, shoe]
 3. I wash my car at the garage every day. [wash, garage]
-4. The vision of a ship in azure water is great leisure. [vision, ship, leisure, azure]
+4. She had a vision of a ship crossing azure water. [vision, ship, azure]
 
 ---
 ## LESSON: tʃ-dʒ | type: pair | tʃ / dʒ
@@ -728,10 +729,10 @@
 **vs_vietnamese:** Tiếng Việt có 'ch' gần với tʃ. dʒ không có trong tiếng Việt miền Bắc — học sinh hay thay bằng 'y' hoặc 'gi'. Trong tiếng Anh dʒ rất phổ biến (job, large, age, gentle).
 
 **spelling:**
-- tʃ → ch / tch | chair, teach, much, watch, match, catch, kitchen
-- tʃ → t+ure / t+ion (một số) | picture, nature, future, culture, question, suggestion
-- dʒ → j / g (trước e/i) | jump, job, enjoy, general, age, large, gentle, gym
-- dʒ → dg / d+ure | judge, bridge, hedge, knowledge, badge
+- tʃ → ch / tch | chair /tʃeə/, teach /tiːtʃ/, much /mʌtʃ/, watch /wɒtʃ/, match /mætʃ/, catch /kætʃ/, kitchen /ˈkɪtʃɪn/
+- tʃ → t+ure / t+ion (một số từ) | picture /ˈpɪktʃə/, nature /ˈneɪtʃə/, future /ˈfjuːtʃə/, culture /ˈkʌltʃə/, question /ˈkwestʃən/, suggestion /səˈdʒestʃən/
+- dʒ → j / g (trước e, i, y) | jump /dʒʌmp/, job /dʒɒb/, enjoy /ɪnˈdʒɔɪ/, general /ˈdʒenərəl/, age /eɪdʒ/, large /lɑːdʒ/, gentle /ˈdʒentl/, gym /dʒɪm/
+- dʒ → dg(e) | judge /dʒʌdʒ/, bridge /brɪdʒ/, hedge /hedʒ/, knowledge /ˈnɒlɪdʒ/, badge /bædʒ/
 
 **mistakes:**
 - 'chair' đọc thành 'share' — dùng ʃ thay vì tʃ (bỏ mất phần bật t đầu)
@@ -745,13 +746,13 @@
 
 **tip:** tʃ: lưỡi bật mạnh từ nướu, không rung · dʒ: giống tʃ nhưng rung dây thanh
 
-**practice_words:** chair, jump, cheese, jeans, chin, gin, cheap, jeep, match, badge, church, judge
+**practice_words:** chair /tʃeə/, jar /dʒɑː/, chin /tʃɪn/, gym /dʒɪm/, cheap /tʃiːp/, jeep /dʒiːp/, choke /tʃəʊk/, joke /dʒəʊk/, batch /bætʃ/, badge /bædʒ/, match /mætʃ/, age /eɪdʒ/
 
 **practice_sentences:**
 1. The chair is near the church. [chair, church]
 2. I like to jump and play with my jeep. [jump, jeep]
 3. She eats cheese and wears cheap jeans. [cheese, cheap, jeans]
-4. The judge will match the badge with the chin. [judge, match, chin]
+4. The judge wore a badge to church. [judge, badge, church]
 
 
 # LEVEL: consonants-other — Other Consonants
@@ -767,13 +768,13 @@
 - n: đầu lưỡi chạm nướu — hơi qua mũi.
 - ŋ: GỐC LƯỠI nâng lên chặn vòm mềm (giống vị trí 'k'/'g') — hơi qua mũi.
 
-**vs_vietnamese:** Tiếng Việt có cả 3! m (mẹ), n (nước), ng/nh (ngon, nhà). Tuy nhiên ŋ tiếng Việt xuất hiện ở ĐẦU từ (ngon, ngủ, ngại), còn ŋ tiếng Anh chỉ ở CUỐI hoặc GIỮA từ — KHÔNG bao giờ đầu từ.
+**vs_vietnamese:** Tiếng Việt có /m/, /n/ và /ŋ/ ("ng"), nên vị trí cơ bản khá quen thuộc. Tuy nhiên, âm "nh" tiếng Việt thường là /ɲ/, không phải /ŋ/. Trong tiếng Anh, /ŋ/ không đứng đầu từ bản địa và học sinh cần tránh thêm /ɡ/ sau -ng trong "sing", "ring", "singer".
 
 **spelling:**
-- m → m / mm | map, him, swim, summer, hammer, comment
-- n → n / nn / kn / gn | nap, win, funny, know, knife, knight, sign, design
-- ŋ → ng | ring, sing, long, young, finger, hungry
-- ŋ → n (trước k/g) | think, bank, English, uncle
+- m → m / mm | map /mæp/, him /hɪm/, swim /swɪm/, summer /ˈsʌmə/, hammer /ˈhæmə/, comment /ˈkɒment/
+- n → n / nn / kn / gn | nap /næp/, win /wɪn/, funny /ˈfʌni/, know /nəʊ/, knife /naɪf/, knight /naɪt/, sign /saɪn/, design /dɪˈzaɪn/
+- ŋ → ng | ring /rɪŋ/, sing /sɪŋ/, long /lɒŋ/, young /jʌŋ/, finger /ˈfɪŋɡə/, hungry /ˈhʌŋɡri/
+- ŋ → n (trước k/g) | think /θɪŋk/, bank /bæŋk/, English /ˈɪŋɡlɪʃ/, uncle /ˈʌŋkl/
 
 **mistakes:**
 - 'ring' đọc thành 'rin' — không đóng gốc lưỡi, bỏ mất ŋ
@@ -787,13 +788,13 @@
 
 **tip:** m: môi khép, hơi qua mũi · n: lưỡi chặn nướu, hơi qua mũi · ŋ: gốc lưỡi chặn họng, hơi qua mũi
 
-**practice_words:** map, nap, ring, sum, sun, sing, came, cane, bang, ham, hand, hang, slim, sling
+**practice_words:** sum /sʌm/, sun /sʌn/, sung /sʌŋ/, swim /swɪm/, sin /sɪn/, sing /sɪŋ/, hum /hʌm/, run /rʌn/, rung /rʌŋ/, ram /ræm/, ran /ræn/, rang /ræŋ/
 
 **practice_sentences:**
 1. I have a map and a cane in my hand. [map, cane, hand]
 2. The sun is shining after my nap. [sun, nap]
 3. We will sing and hang a big ring. [sing, hang, ring]
-4. I came to bang the drum with a slim sling. [came, bang, slim, sling]
+4. I came to bang the drum and sing. [came, bang, drum, sing]
 
 ---
 ## LESSON: h-w-j | type: pair | h / w / j
@@ -801,22 +802,22 @@
 ### KNOWLEDGE
 
 **how_to:**
-- h: thở hơi nhẹ qua họng mở — chỉ là tiếng thở, không có vị trí chặn cụ thể. Dây thanh không rung.
-- w: TRÒN MÔI THẬT CĂNG trước, rồi mở ra khi phát âm. Lưỡi cao phía sau. Không dùng răng.
-- j: lưỡi nâng cao về phía vòm cứng (như bắt đầu nói 'iː'), đẩy hơi ra nhẹ nhàng.
+- h: Thở hơi nhẹ qua đường thanh quản mở; không có điểm chặn trong miệng và thường không rung dây thanh.
+- w: Môi tròn và đưa nhẹ ra trước, phần sau lưỡi nâng cao, rồi môi mở sang nguyên âm tiếp theo. /w/ là âm hữu thanh; không dùng răng.
+- j: Phần trước lưỡi nâng gần vòm cứng như khi bắt đầu /iː/, rồi trượt nhanh sang nguyên âm tiếp theo. /j/ cũng là âm hữu thanh.
 
-**vs_vietnamese:** h giống 'h' tiếng Việt. w KHÔNG tồn tại trong tiếng Việt — hay bị đọc thành 'v' (sai!). j tiếng Anh /j/ khác 'y' tiếng Việt một chút — /j/ Anh mượt hơn.
+**vs_vietnamese:** Tiếng Việt có âm lướt gần /w/ trong các vần như "oa", "uy" và có âm gần /j/ trong nhiều cách phát âm "y/gi/d", nhưng vị trí của chúng trong âm tiết không hoàn toàn giống tiếng Anh. Học sinh vẫn hay đổi /w/ thành /v/ và bỏ hoặc đổi /j/ trong "yes", "year", "you".
 
 **spelling:**
-- h → h (wh trước o = /h/) | hat, here, behind, who, whole, whose
-- w → w / wh (không phải trước o) | wet, window, always, what, where, when, why, which
-- j → y / u (sau consonant) / ew | yes, yellow, year, you, cute, music, new
+- h → h (wh trước o = /h/) | hat /hæt/, here /hɪə/, behind /bɪˈhaɪnd/, who /huː/, whole /həʊl/, whose /huːz/
+- w → w / wh (không phải trước o) | wet /wet/, window /ˈwɪndəʊ/, always /ˈɔːlweɪz/, what /wɒt/, where /weə/, when /wen/, why /waɪ/, which /wɪtʃ/
+- j → y / u (sau consonant) / ew | yes /jes/, yellow /ˈjeləʊ/, year /jɪə/, you /juː/, cute /kjuːt/, music /ˈmjuːzɪk/, new /njuː/
 
 **mistakes:**
-- 'why' tròn môi không đủ — w phải bắt đầu căng môi
-- 'year' đọc thành 'dear' — /j/ bị thay bằng /d/ vì tiếng Việt không có âm /j/ thuần như tiếng Anh
-- 'who' phát âm h — wh trước o = /h/ (silent w)
-- 'water' đọc thành 'vater' — w không phải v!
+- Đọc "water", "why", "window" với /v/ thay vì /w/
+- Không tròn môi đủ ở đầu "wet", "white", "why"
+- Bỏ /j/ hoặc đổi thành /z/ hay /dʒ/ trong "yes", "year", "young"
+- Phát âm chữ w trong "who", dù từ này bắt đầu bằng /h/
 
 **mnemonic:** h = thở nhẹ 💨 — chỉ là hơi thở. w = Whistle 🎵 — môi tròn căng như thổi sáo. j/y = Yes! ✅ — lưỡi gần vòm cứng, đẩy nhẹ.
 
@@ -824,7 +825,7 @@
 
 **tip:** h: thở hơi nhẹ qua họng · w: môi tròn rồi mở · j: lưỡi gần vòm cứng, đẩy hơi ra
 
-**practice_words:** hat, wet, yes, hot, window, yellow, hair, water, year, here, white, young
+**practice_words:** hear /hɪə/, year /jɪə/, hay /heɪ/, yay /jeɪ/, heat /hiːt/, wheat /wiːt/, hall /hɔːl/, wall /wɔːl/, well /wel/, yell /jel/, wet /wet/, yet /jet/
 
 **practice_sentences:**
 1. I wear a hot hat here. [hot, hat, here]
@@ -838,32 +839,30 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Phụ âm cuối tiếng Anh: ĐẶT vị trí môi/lưỡi vào đúng chỗ, chặn hơi, rồi DỪNG — không bật hơi ra ngoài.
-- -p: khép môi (giống 'p' đầu từ nhưng không bật hơi ra).
-- -t: đặt lưỡi lên nướu (giống 't' nhưng không bật).
-- -k: đặt gốc lưỡi lên vòm mềm (giống 'k' nhưng không bật).
-- Kết quả: âm như bị 'cắt đứt' đột ngột — native speakers gọi là 'unreleased stop'.
+- Ở cuối từ, /p t k/ phải được tạo với sự đóng hoàn toàn đúng vị trí: /p/ khép môi, /t/ chạm gờ nướu, /k/ nâng phần sau lưỡi lên vòm mềm.
+- Trước khoảng dừng hoặc một phụ âm khác, các âm này thường không bật ra rõ (unreleased) hoặc chỉ bật rất nhẹ.
+- Trước một nguyên âm hoặc khi nhấn mạnh, chúng có thể được bật ra và nối sang từ sau. Vì vậy, "không bao giờ bật" không phải quy tắc tuyệt đối.
 
-**vs_vietnamese:** Tiếng Việt có phụ âm cuối -c/-ch/-p/-t theo kiểu UNRELEASED (không bật hơi ra) — đây thực ra GIỐNG tiếng Anh! Tuy nhiên học sinh lại hay BẬT HƠI theo thói quen hoặc BỎ HẲN phụ âm cuối.
+**vs_vietnamese:** Tiếng Việt cũng có các phụ âm cuối không bật như -p, -t, -c/-ch, nên cảm giác đóng âm có thể khá quen. Lỗi phổ biến hơn là bỏ phụ âm, trung hòa các âm cuối hoặc thêm một nguyên âm sau chúng khi nói tiếng Anh.
 
 **spelling:**
-- -p cuối | cup, stop, map, tip, cap, help, jump, lamp
-- -t cuối | cat, hit, but, sit, get, hot, cut, start
-- -k / -ck cuối | book, back, look, pick, rock, black, check, duck
+- -p cuối | cup /kʌp/, stop /stɒp/, map /mæp/, tip /tɪp/, cap /kæp/, help /help/, jump /dʒʌmp/, lamp /læmp/
+- -t cuối | cat /kæt/, hit /hɪt/, but /bʌt/, sit /sɪt/, get /ɡet/, hot /hɒt/, cut /kʌt/, start /stɑːt/
+- -k / -ck cuối | book /bʊk/, back /bæk/, look /lʊk/, pick /pɪk/, rock /rɒk/, black /blæk/, check /tʃek/, duck /dʌk/
 
 **mistakes:**
-- Bật hơi ra: 'cup!' 'cat!' 'book!' nghe có tiếng 'bùm' rõ ràng — sai
-- Bỏ hoàn toàn phụ âm cuối: 'cu-' 'ca-' 'boo-' — mất nghĩa
-- Thêm nguyên âm: 'cup-uh' 'cat-uh' — rất phổ biến với học sinh Việt Nam
-- Không phân biệt -p/-t/-k khi nói nhanh
+- Bỏ hoàn toàn phụ âm cuối: "cup" → /kʌ/, "cat" → /kæ/, "book" → /bʊ/
+- Thêm nguyên âm sau phụ âm: "cup-uh", "cat-uh", "book-uh"
+- Không giữ đúng vị trí đóng, khiến -p, -t và -k nghe giống nhau
+- Cố ép mọi /p t k/ cuối thành âm hoàn toàn không bật, kể cả khi từ sau bắt đầu bằng nguyên âm và cần nối tự nhiên
 
-**mnemonic:** Nghĩ đến việc 'CẮT' âm ✂️ — miệng/lưỡi đặt vào vị trí rồi ĐỨNG YÊN, không mở ra. Như tạm dừng đột ngột trong nhạc 🎵.
+**mnemonic:** "ĐÓNG trước, rồi quyết định có bật hay không" ✂️ — luôn tạo đúng vị trí cuối; trước khoảng dừng thường không bật rõ, còn trước nguyên âm có thể nối và bật nhẹ.
 
 ### PRACTICE
 
 **tip:** Tiếng Việt không có phụ âm cuối bật hơi — phải đóng môi/lưỡi ở cuối từ nhưng KHÔNG bật hơi ra
 
-**practice_words:** cup, cat, book, stop, hit, look, map, hot, pick, cap, bat, back, tip, cut, check
+**practice_words:** cup /kʌp/, cat /kæt/, book /bʊk/, stop /stɒp/, hit /hɪt/, look /lʊk/, map /mæp/, hot /hɒt/, pick /pɪk/, cap /kæp/, bat /bæt/, back /bæk/, tip /tɪp/, cut /kʌt/, check /tʃek/
 
 **practice_sentences:**
 1. I have a cup and a cat. [cup, cat]
@@ -877,31 +876,30 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Tiếng Anh CÓ voiced final stops: -b, -d, -g. Tiếng Việt chỉ có -p/-t/-k vô thanh ở cuối từ — không có voiced!
-- DẤU HIỆU NHẬN BIẾT quan trọng nhất: VOWEL TRƯỚC VOICED FINAL DÀI HƠN. cap /kæp/ vs cab /kæːb/ — nguyên âm trong "cab" dài hơn
-- Cách tạo -b: môi chạm nhau + rung thanh quản đến cuối → giữ khép, ít hoặc không burst
-- Cách tạo -d: lưỡi chạm ngạc răng + rung thanh quản đến cuối → giữ, ít burst
-- Cách tạo -g: lưỡi cuộn chạm vòm mềm + rung thanh quản đến cuối → giữ, ít burst
-- Trong natural speech voiced finals thường không burst mạnh — nhưng vẫn PHẢI rung thanh quản và giữ đúng vị trí
+- Tiếng Anh có các âm dừng hữu thanh /b d ɡ/ ở cuối từ; tiếng Việt không có đối lập này ở vị trí cuối âm tiết.
+- Dấu hiệu nghe rất quan trọng là nguyên âm trước /b d ɡ/ thường dài hơn nguyên âm trước /p t k/: "cab" /kæb/ có nguyên âm dài hơn về mặt ngữ âm so với "cap" /kæp/, nhưng không viết thêm dấu /ː/ trong phiên âm âm vị.
+- -b: khép hai môi; -d: đầu lưỡi chạm gờ nướu; -ɡ: phần sau lưỡi chạm vòm mềm.
+- Ở cuối từ, /b d ɡ/ thường chỉ hữu thanh một phần và có thể không bật ra rõ. Không cần ép dây thanh rung mạnh đến tận cuối; cần giữ đúng vị trí, độ dài nguyên âm trước và sự đối lập với /p t k/.
 
 **vs_vietnamese:** Tiếng Việt có -p/-t/-k (vô thanh, không bật hơi) nhưng tuyệt đối không có -b/-d/-g. Học sinh thường: (1) bỏ âm cuối hoàn toàn "bag" → /bæ/, hoặc (2) dùng voiceless thay "bag" → /bæk/. Cả hai đều sai.
 
 **spelling:**
-- -b cuối từ | cab, club, rib, tub, rob, grab, pub, sob
-- -d cuối từ | bad, bed, bid, rod, add, head, food, said
-- -g cuối từ | bag, big, dog, bug, leg, fig, hug, drug
+- -b cuối từ | cab /kæb/, club /klʌb/, rib /rɪb/, tub /tʌb/, rob /rɒb/, grab /ɡræb/, pub /pʌb/, sob /sɒb/
+- -d cuối từ | bad /bæd/, bed /bed/, bid /bɪd/, rod /rɒd/, add /æd/, head /hed/, food /fuːd/, said /sed/
+- -g cuối từ | bag /bæɡ/, big /bɪɡ/, dog /dɒɡ/, bug /bʌɡ/, leg /leɡ/, fig /fɪɡ/, hug /hʌɡ/, drug /drʌɡ/
 - Voicing pairs — vowel dài hơn trước voiced | cap≠cab, bat≠bad, back≠bag, lock≠log, pick≠pig
 
 **mistakes:**
-- Voiceless thay voiced: "bag" → /bæk/ (sai) — phải /bæɡ/, thanh quản vẫn rung đến cuối
-- Bỏ âm cuối: "bed" → /be/ (sai) — lưỡi PHẢI chạm ngạc răng, dù không burst
-- Không nghe được vowel length cue: "bad" vs "bat" — vowel trong "bad" dài hơn đây là cách native speakers phân biệt
+- Vô thanh hóa: "bag" nghe thành "back", "bed" nghe thành "bet"
+- Bỏ phụ âm cuối: "bed" → /be/, "dog" → /dɒ/
+- Không kéo dài nguyên âm tương đối trước phụ âm hữu thanh, làm mất một tín hiệu nghe quan trọng
+- Cố rung thật mạnh đến cuối hoặc bật /b d ɡ/ quá rõ; trong lời nói tự nhiên, chúng thường chỉ hữu thanh một phần và ít bật
 
 ### PRACTICE
 
-**tip:** Dấu hiệu nhận biết voiced final: VOWEL TRƯỚC NÓ DÀI HƠN. cap /kæp/ vs cab /kæːb/ — nguyên âm dài hơn trước -b!
+**tip:** Nguyên âm trước /b d ɡ/ thường dài hơn nguyên âm trước /p t k/: cap /kæp/ vs cab /kæb/. Không thêm dấu /ː/ vào /æ/ trong "cab".
 
-**practice_words:** cab, bed, bag, club, bid, big, rib, rod, dog, tub, add, bug, rob, head, leg
+**practice_words:** cab /kæb/, bed /bed/, bag /bæɡ/, club /klʌb/, bid /bɪd/, big /bɪɡ/, rib /rɪb/, rod /rɒd/, dog /dɒɡ/, tub /tʌb/, add /æd/, bug /bʌɡ/, rob /rɒb/, head /hed/, leg /leɡ/
 
 ---
 ## LESSON: final-fricatives | type: pair | Final Fricatives: -F / -V
@@ -909,17 +907,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Tiếng Việt KHÔNG có fricatives (âm xát) ở cuối từ — đây là lỗi phổ biến nhất của học sinh Việt
-- Final /f/: môi dưới chạm nhẹ răng trên, luồng khí tiếp tục sau nguyên âm. "beef" /biːf/ — cảm nhận hơi thở ra sau nguyên âm
-- Final /v/: tương tự /f/ nhưng rung thanh quản. "move" /muːv/ — đặt tay lên cổ, cảm nhận rung đến cuối từ
-- Kiểm tra: sau khi nói "beef", đặt tay trước miệng — có luồng khí /f/ không? Nếu không = bạn bỏ âm cuối!
-- Ngoài -f/-v, tiếng Anh còn có: final -s /z/ · final -θ (breathe) · final -ʃ (wash, push) — tất cả đều cần luồng khí sau nguyên âm
+- Tiếng Việt không có âm xát ở cuối âm tiết, nên học sinh thường bỏ luồng hơi cuối trong tiếng Anh.
+- Final /f/: Răng trên chạm nhẹ môi dưới và luồng khí tiếp tục sau nguyên âm, như "beef" /biːf/.
+- Final /v/: Cùng vị trí với /f/ nhưng có voicing; voicing có thể yếu dần ở cuối, và nguyên âm trước /v/ thường dài hơn trước /f/.
+- Ngoài /f v/, tiếng Anh còn có các âm xát cuối như /s z θ ð ʃ ʒ/: "breath" /breθ/, "breathe" /briːð/, "wash" /wɒʃ/.
 
 **vs_vietnamese:** Tiếng Việt không có âm xát cuối từ. Phản xạ tự nhiên của học sinh: "beef" → /biː/ (bỏ /f/), "move" → /muː/ (bỏ /v/). Cảm giác giữ fricative cuối từ sẽ rất lạ lúc đầu — hoàn toàn bình thường.
 
 **spelling:**
-- -f cuối từ | beef, leaf, half, roof, cliff, loaf, cough, laugh
-- -v cuối từ | move, live, have, love, give, prove, shove, above
+- -f cuối từ | beef /biːf/, leaf /liːf/, half /hɑːf/, roof /ruːf/, cliff /klɪf/, loaf /ləʊf/, cough /kɒf/, laugh /lɑːf/
+- -v cuối từ | move /muːv/, live /lɪv/, have /hæv/, love /lʌv/, give /ɡɪv/, prove /pruːv/, shove /ʃʌv/, above /əˈbʌv/
 
 **mistakes:**
 - Bỏ âm cuối: "live" → /lɪ/ (sai) — phải là /lɪv/. Môi phải tạo ra /v/ trước khi kết thúc
@@ -928,9 +925,9 @@
 
 ### PRACTICE
 
-**tip:** Từ CHƯA XONGcho đến khi môi/răng tạo ra /f/ hoặc /v/ hoàn chỉnh. Kiểm tra: có luồng khí sau nguyên âm không?
+**tip:** Từ CHƯA XONG cho đến khi môi và răng tạo ra /f/ hoặc /v/ hoàn chỉnh. Kiểm tra xem còn luồng khí sau nguyên âm hay không.
 
-**practice_words:** beef, move, leaf, live, half, have, roof, love, cliff, give, loaf, prove
+**practice_words:** safe /seɪf/, save /seɪv/, leaf /liːf/, leave /liːv/, proof /pruːf/, prove /pruːv/, half /hɑːf/, halve /hɑːv/, life /laɪf/, live /laɪv/, belief /bɪˈliːf/, believe /bɪˈliːv/
 
 ---
 ## LESSON: clusters | type: pair | Clusters
@@ -954,13 +951,13 @@
 
 **tip:** Không chèn schwa: street ≠ /sə·triːt/ · spring ≠ /spə·rɪŋ/. Ba phụ âm liền nhau, không ngắt!
 
-**practice_words:** street, spring, strong, spread, strike, spray, stress, sprint, stream, sprout, straight, sprung
+**practice_words:** street /striːt/, spring /splæʃ/, strong /strɒŋ/, spread /sprɪŋ/, strike /straɪk/, spray /spred/, stress /stres/, sprint /spreɪ/, stream /faɪnd/, sprout /best/, straight /θɪŋk/, sprung /hænd/
 
 **practice_sentences:**
 1. The strong stream runs down the street. [strong, stream, street]
 2. I love to splash and spray in spring. [splash, spring, spray]
-3. The strange strike will spread stress everywhere. [strange, strike, stress]
-4. Let's sprint and split on the street today. [sprint, split, street]
+3. The strike will spread stress across the city. [strike, spread, stress]
+4. Let's sprint straight down the street today. [sprint, straight, street]
 
 ---
 ## LESSON: clusters-pbl | type: pair | Clusters: PL / BL
@@ -976,8 +973,8 @@
 **vs_vietnamese:** Tiếng Việt không có pl- hay bl-. Học sinh chèn schwa: "play" → /pə·leɪ/, "blue" → /bə·luː/. Hoặc bỏ /l/ luôn: "plan" → /pæn/. Cả hai lỗi đều rất phổ biến.
 
 **spelling:**
-- pl- (vô thanh) | play, plan, plate, plus, plane, place, plastic, planet, plug, plumber
-- bl- (hữu thanh) | black, blue, blood, blow, blank, blend, block, blade, blame, bloom
+- pl- (vô thanh) | play /pleɪ/, plan /plæn/, plate /pleɪt/, plus /plʌs/, plane /pleɪn/, place /pleɪs/, plastic /ˈplæstɪk/, planet /ˈplænɪt/, plug /plʌɡ/, plumber /ˈplʌmə/
+- bl- (hữu thanh) | black /blæk/, blue /bluː/, blood /blʌd/, blow /bləʊ/, blank /blæŋk/, blend /blend/, block /blɒk/, blade /bleɪd/, blame /bleɪm/, bloom /bluːm/
 
 **mistakes:**
 - Chèn schwa: "plan" → /pə·læn/ (sai) — phải là /plæn/, không có ə giữa!
@@ -988,7 +985,7 @@
 
 **tip:** pl- vs bl- = chỉ khác voicing. Đặt tay lên cổ: bl- rung ngay từ đầu, pl- không rung.
 
-**practice_words:** play, black, plan, blue, plate, blood, plus, blow, plane, blank, place, blend
+**practice_words:** plot /plɒt/, blot /blɒt/, plight /plaɪt/, blight /blaɪt/, plush /plʌʃ/, blush /blʌʃ/, pleat /pliːt/, bleat /bliːt/, plank /plæŋk/, blank /blæŋk/, plaster /ˈplɑːstə/, blaster /ˈblɑːstə/
 
 ---
 ## LESSON: clusters-trdr | type: pair | Clusters: TR / DR
@@ -996,27 +993,28 @@
 ### KNOWLEDGE
 
 **how_to:**
-- tr-: lưỡi tạo /t/ ở ngạc răng → cuộn ngay sang /r/. Trong tiếng Anh tự nhiên: /tr-/ → /tʃr-/! tree → /tʃriː/
-- dr-: tương tự nhưng hữu thanh. /dr-/ trong tiếng Anh tự nhiên → /dʒr-/! dream → /dʒriːm/
-- Đây là đặc điểm THẬT của native English, không phải lỗi phát âm. Hãy nghe kỹ: train /tʃreɪn/, drink /dʒrɪŋk/
-- Ngoài tr-/dr- còn có: fr- (free, from, friend) · gr- /ɡr-/ (great, green, grow) · cr- /kr-/ (cry, cream, cross)
+- tr-: Tạo /t/ ở gờ nướu rồi chuyển ngay sang /r/ mà không chèn nguyên âm: tree /triː/, train /treɪn/.
+- dr-: Tạo /d/ rồi chuyển ngay sang /r/: dream /driːm/, drink /drɪŋk/.
+- Trong nhiều giọng Anh hiện đại, /tr/ và /dr/ có thể được affricate hóa, nghe gần [tʃr] và [dʒr]. Đây là một biến thể tự nhiên, nhưng phiên âm âm vị chuẩn vẫn thường viết /tr/ và /dr/; không nên ép mọi từ thành /tʃr/ hoặc /dʒr/.
+- Ngoài tr-/dr- còn có fr- (free, from, friend), gr- (great, green, grow) và cr- (cry, cream, cross).
 
 **vs_vietnamese:** Tiếng Việt dùng /tr-/ khác: miền Nam đọc như /tʃ/, miền Bắc như /ch/ riêng. Âm /tr-/ tiếng Anh hoàn toàn khác — phải học lại từ đầu cách kết hợp /t/+/r/ và /d/+/r/.
 
 **spelling:**
-- tr- → /tʃr-/ (tự nhiên) | tree, train, true, trip, track, trust, travel, trouble
-- dr- → /dʒr-/ (tự nhiên) | dream, drink, drive, drop, draw, dress, drama, dragon
+- tr- | tree /tʃriː/, train /tʃreɪn/, true /tʃruː/, trip /tʃrɪp/, track /tʃræk/, trust /tʃrʌst/, travel /ˈtʃrævl/, trouble /ˈtʃrʌbl/
+- dr- | dream /dʒriːm/, drink /dʒrɪŋk/, drive /dʒraɪv/, drop /dʒrɒp/, draw /dʒrɔː/, dress /dʒres/, drama /ˈdʒrɑːmə/, dragon /ˈdʒræɡən/
 
 **mistakes:**
-- Chèn schwa: "train" → /tə·reɪn/ (sai) — phải là /treɪn/ hoặc /tʃreɪn/
-- Bỏ /r/: "dream" → /diːm/ (sai) — phải là /driːm/ hoặc /dʒriːm/. /r/ PHẢI có mặt
-- Dùng /tr-/ kiểu Việt: âm này không giống /tr/ tiếng Anh — không chuyển thói quen cũ sang
+- Chèn schwa: "train" → /təˈreɪn/ thay vì /treɪn/
+- Bỏ /r/: "dream" → /diːm/ thay vì /driːm/
+- Dùng cụm /tr/ kiểu tiếng Việt mà không tạo /r/ tiếng Anh rõ
+- Cố phát âm mọi /tr dr/ thành /tʃr dʒr/ thật mạnh, dù mức độ affricate hóa thay đổi theo người nói và ngữ cảnh
 
 ### PRACTICE
 
-**tip:** Native speaker: tree → /tʃriː/, dream → /dʒriːm/. Đây là đặc điểm thật của tiếng Anh tự nhiên!
+**tip:** Giữ hai phụ âm liền nhau: tree /triː/, dream /driːm/. Trong lời nói tự nhiên, chúng có thể nghe gần [tʃriː] và [dʒriːm], nhưng không có schwa ở giữa.
 
-**practice_words:** tree, dream, train, drink, true, drive, trip, drop, track, draw, trust, dress
+**practice_words:** train /treɪn/, drain /dreɪn/, true /truː/, drew /druː/, try /traɪ/, dry /draɪ/, trip /trɪp/, drip /drɪp/, troop /truːp/, droop /druːp/, tread /tred/, dread /dred/
 
 
 # LEVEL: viet-challenges — Vietnamese Challenges
@@ -1027,14 +1025,14 @@
 ### KNOWLEDGE
 
 **how_to:**
-- l: ĐẦU LƯỠI chạm alveolar ridge (nướu sau răng trên), hơi thoát HAI BÊN lưỡi. Lưỡi không cong.
-- r: lưỡi CONG VÀO GIỮA miệng (retroflex) — đầu lưỡi hướng lên nhưng KHÔNG CHẠM bất kỳ đâu. Hơi chạy qua giữa. Môi hơi tròn.
+- l: Đầu lưỡi chạm gờ nướu sau răng trên; luồng hơi thoát qua hai bên lưỡi.
+- r: Trong RP, /r/ thường là âm approximant sau nướu. Đầu lưỡi hoặc phần trước lưỡi nâng về phía sau gờ nướu nhưng không chạm; lưỡi có thể hơi cong hoặc "bunched", và môi thường hơi tròn. Không bắt buộc phải cuộn lưỡi kiểu retroflex.
 
 **vs_vietnamese:** l tiếng Việt và l Anh khá giống nhau — hơi thoát hai bên lưỡi. r tiếng Anh HOÀN TOÀN KHÁC 'r' tiếng Việt miền Bắc (gần /z/) và cũng khác 'r' cuộn lưỡi miền Nam. Đây là cặp phổ biến nhất gây nhầm lẫn.
 
 **spelling:**
-- l → l / ll / -le | lake, all, call, ball, tell, table, little, simple, people
-- r → r / rr / wr- | rake, right, very, sorry, mirror, carry, write, wrong, wrap, wrist
+- l → l / ll / -le | lake /leɪk/, all /ɔːl/, call /kɔːl/, ball /bɔːl/, tell /tel/, table /ˈteɪbl/, little /ˈlɪtl/, simple /ˈsɪmpl/, people /ˈpiːpl/
+- r → r / rr / wr- | rake /reɪk/, right /raɪt/, very /ˈveri/, sorry /ˈsɒri/, mirror /ˈmɪrə/, carry /ˈkæri/, write /raɪt/, wrong /rɒŋ/, wrap /ræp/, wrist /rɪst/
 
 **mistakes:**
 - 'light' đọc thành 'right' — l bị thay bằng r
@@ -1042,19 +1040,19 @@
 - 'girl' bị mất l ở cuối — 'ger' thay vì /gɜːl/
 - 'really' đọc với cả l VÀ r theo kiểu Việt Nam
 
-**mnemonic:** l = LANDING ✈️ — đầu lưỡi CHẠM NỮA ngay sau răng trên. r = ROLLING 🌀 — lưỡi cong vào giữa, KHÔNG CHẠM đâu cả. Hai hành động ngược nhau hoàn toàn!
+**mnemonic:** l = LANDING ✈️ — đầu lưỡi CHẠM gờ nướu. r = ROLLING 🌀 — lưỡi nâng lên nhưng KHÔNG CHẠM. Điểm quan trọng là "chạm" với /l/ và "không chạm" với /r/.
 
 ### PRACTICE
 
 **tip:** l: đầu lưỡi chạm nướu răng trên, hơi thoát hai bên · r: lưỡi cong vào giữa, không chạm đâu cả
 
-**practice_words:** lake, rake, light, right, law, raw, lead, read, lot, rot, long, wrong, list, wrist
+**practice_words:** lake /leɪk/, rake /reɪk/, light /laɪt/, right /raɪt/, law /lɔː/, raw /rɔː/, lead /liːd/, read /riːd/, lot /lɒt/, rot /rɒt/, long /lɒŋ/, wrong /rɒŋ/, list /lɪst/, wrist /rɪst/
 
 **practice_sentences:**
 1. I will read a book by the lake. [read, lake]
 2. The farmer uses a rake on the lawn. [rake]
 3. It is right to lead the dog on a long walk. [right, lead, long]
-4. The list is raw and needs to be cooked a lot. [list, raw, lot]
+4. She will read the long list and then rest. [read, long, list, rest]
 
 ---
 ## LESSON: θ-s-viet | type: pair | θ / s
@@ -1069,8 +1067,8 @@
 **vs_vietnamese:** θ là âm #1 người Việt hay thay thế. 'three' → 'sree' (thay bằng s), 'tree' (thay bằng t), hoặc 'hree'. Vì tiếng Việt không có θ, học sinh dùng âm gần nhất họ biết.
 
 **spelling:**
-- θ → th (từ nội dung) | three, think, thank, thick, thin, thumb, third, thousand, throat, thought, tooth, teeth, cloth, math, growth, strength, truth, faith, health, worth, youth
-- s → s / ss / c / sc | sea, six, some, miss, class, city, nice, scene, science
+- θ → th (từ nội dung) | three /θriː/, think /θɪŋk/, thank /θæŋk/, thick /θɪk/, thin /θɪn/, thumb /θʌm/, third /θɜːd/, thousand /ˈθaʊznd/, throat /θrəʊt/, thought /θɔːt/, tooth /tuːθ/, teeth /tiːθ/, cloth /klɒθ/, math /mæθ/, growth /ɡrəʊθ/, strength /streŋθ/, truth /truːθ/, faith /feɪθ/, health /helθ/, worth /wɜːθ/, youth /juːθ/
+- s → s / ss / c / sc | sea /siː/, six /sɪks/, some /sʌm/, miss /mɪs/, class /klɑːs/, city /ˈsɪti/, nice /naɪs/, scene /siːn/, science /ˈsaɪəns/
 
 **mistakes:**
 - 'three' → 'sree' (θ thành s)
@@ -1084,13 +1082,13 @@
 
 **tip:** θ: đầu lưỡi nhô ra ngoài răng · s: lưỡi đặt phía sau răng, không nhô ra
 
-**practice_words:** three, sea, think, sink, thumb, sum, thick, sick, thin, sin, thank, sank
+**practice_words:** theme /θiːm/, seem /siːm/, think /θɪŋk/, sink /sɪŋk/, thumb /θʌm/, sum /sʌm/, thick /θɪk/, sick /sɪk/, thin /θɪn/, sin /sɪn/, thank /θæŋk/, sank /sæŋk/
 
 **practice_sentences:**
 1. I think I saw three thin fish in the sea. [think, three, thin, sea]
-2. The thumb is thick and can sink in the sea. [thumb, thick, sink, sea]
-3. We have to sum three and three to thank our friend. [sum, three, thank]
-4. I feel sick and my thumb is thin after a sin. [sick, thumb, thin, sin]
+2. The thick stone sank in the sea. [thick, stone, sank, sea]
+3. We thanked Sam for helping us with the sum. [thanked, Sam, sum]
+4. I feel sick, and my thumb is sore. [sick, thumb, sore]
 
 ---
 ## LESSON: v-w-viet | type: pair | v / w
@@ -1098,15 +1096,15 @@
 ### KNOWLEDGE
 
 **how_to:**
-- v: RĂNG TRÊN đặt nhẹ lên MÔI DƯỚI, rung dây thanh. Có tiếp xúc răng-môi.
-- w: TRÒN MÔI CĂNG (như thổi sáo), rồi mở ra khi phát âm. KHÔNG có răng liên quan gì. Không rung, chỉ hơi qua môi tròn.
-- Kiểm tra w: đặt ngón tay trước miệng — không được cảm nhận răng chạm gì.
+- v: Răng trên đặt nhẹ lên môi dưới; luồng hơi đi qua khe hẹp và dây thanh rung.
+- w: Môi tròn và đưa nhẹ ra trước, phần sau lưỡi nâng cao, rồi chuyển ngay sang nguyên âm tiếp theo. /w/ cũng là âm hữu thanh nhưng không có tiếp xúc răng–môi.
+- Kiểm tra: Với /v/, phải cảm nhận răng trên chạm môi dưới; với /w/, hai môi tròn nhưng răng không chạm môi.
 
-**vs_vietnamese:** 'v' tiếng Việt KHÔNG phải labiodental — miền Bắc đọc gần /z/, miền Nam gần /j/. Không có tiếp xúc răng-môi thực sự. Vì vậy CẢ HAI âm v và w đều khó với người Việt theo cách khác nhau.
+**vs_vietnamese:** Trong tiếng Việt chuẩn miền Bắc, "v" thường khá gần /v/, còn ở nhiều giọng miền Nam có thể gần /j/ hơn. Tiếng Việt cũng có âm lướt gần /w/ trong các vần như "oa", "uy", nhưng /w/ không thường đứng đầu âm tiết theo cách giống tiếng Anh. Vì vậy, lỗi /v/–/w/ phụ thuộc phương ngữ của người học.
 
 **spelling:**
-- v → v / -ve | van, love, seven, river, have, give, five, live, drive
-- w → w / wh (không trước o) | wet, always, away, answer, what, where, when, which, why, swim, twin
+- v → v / -ve | van /væn/, love /lʌv/, seven /ˈsevn/, river /ˈrɪvə/, have /hæv/, give /ɡɪv/, five /faɪv/, live /lɪv/, drive /draɪv/
+- w → w / wh (không trước o) | wet /wet/, always /ˈɔːlweɪz/, away /əˈweɪ/, answer /ˈɑːnsə/, what /wɒt/, where /weə/, when /wen/, which /wɪtʃ/, why /waɪ/, swim /swɪm/, twin /twɪn/
 
 **mistakes:**
 - 'van' đọc như 'ban' — v tiếng Việt miền Nam gần b
@@ -1120,13 +1118,13 @@
 
 **tip:** v: răng trên chạm môi dưới, rung dây thanh · w: môi tròn rồi mở dần, không chạm răng — tiếng Việt không có /w/ thực sự
 
-**practice_words:** van, wan, very, wary, vine, wine, vest, west, vote, woke, vow, wow
+**practice_words:** vine /vaɪn/, wine /waɪn/, vest /vest/, west /west/, veil /veɪl/, whale /weɪl/, verse /vɜːs/, worse /wɜːs/, vet /vet/, wet /wet/, vow /vaʊ/, wow /waʊ/
 
 **practice_sentences:**
 1. The van drove down the wet road. [van, wet]
-2. Very wary people vote with care in the west. [very, wary, vote, west]
+2. Very wary people waited before they voted. [very, wary, waited, voted]
 3. I see a vine and taste fine wine near the window. [vine, wine, window]
-4. Wow, the vest she wore made quite a vow. [wow, vest, vow]
+4. Wow, she wore a velvet vest to the wedding. [wow, wore, velvet, vest, wedding]
 
 ---
 ## LESSON: final-l | type: pair | Final -L vs -N
@@ -1134,17 +1132,16 @@
 ### KNOWLEDGE
 
 **how_to:**
-- Final /l/ trong tiếng Anh là "Dark L" /ɫ/ — lưỡi chạm ngạc răng SAU nguyên âm. Nghe khác "Clear L" đầu từ (lake, live)
-- Cách tạo: phát nguyên âm → lưỡi từ từ nâng lên → chạm ngạc răng → giữ chạm → thả. "well" = /w/ + /e/ + /ɫ/
-- Lỗi 1: BỎ /l/ → "feel" → /fiː/ (sai). Nguyên âm ngắn và không đủ — thiếu chuyển động lưỡi cuối
-- Lỗi 2: THAY BẰNG /n/ → "well" → /wen/ (sai). /l/ = khí thoát hai bên lưỡi; /n/ = khí thoát qua mũi — khác hoàn toàn
-- Test: nói "well" và "when" — cảm nhận lưỡi chạm ngạc (/l/) vs khí qua mũi (/n/)?
+- Final /l/ trong RP thường là "Dark L" [ɫ]: đầu lưỡi chạm gờ nướu trong khi phần sau của lưỡi cũng nâng lên, tạo chất âm tối hơn /l/ đầu từ.
+- Cách tạo: Phát nguyên âm, nâng đầu lưỡi lên gờ nướu và đồng thời nâng nhẹ phần sau lưỡi. Luồng hơi thoát qua hai bên lưỡi.
+- Một số người nói tiếng Anh-Anh hiện đại có thể "vocalise" /l/ cuối, nhưng người học nên luyện rõ tiếp xúc đầu lưỡi trước.
+- Phân biệt với /n/: /l/ cho hơi thoát hai bên lưỡi; /n/ chặn miệng và cho hơi thoát qua mũi.
 
 **vs_vietnamese:** Tiếng Việt có /l/ đầu từ ("la", "lên") nhưng KHÔNG có /l/ cuối từ. Cuối từ tiếng Việt chỉ có: -p/-t/-c/-ch/-m/-n/-ng/-nh. Final /l/ là âm hoàn toàn mới — cần luyện tập từ đầu.
 
 **spelling:**
-- -l cuối từ (Dark L) | well, feel, tell, call, fill, ball, fall, will, sell, pull, cool, hill
-- -l vs -n (minimal pairs) | well≠when, feel≠fin, tell≠ten, call≠can, fill≠thin, ball≠ban
+- -l cuối từ (Dark L) | well /wel/, feel /fiːl/, tell /tel/, call /kɔːl/, fill /fɪl/, ball /bɔːl/, fall /fɔːl/, will /wɪl/, sell /sel/, pull /pʊl/, cool /kuːl/, hill /hɪl/
+- -l vs -n (minimal pairs) | well≠when, tell≠ten, fill≠fin, kill≠kin, call≠corn, fall≠fawn
 
 **mistakes:**
 - Bỏ final /l/: "well" → /we/ (sai) — phải là /wel/. Lưỡi PHẢI chạm ngạc răng cuối từ
@@ -1155,7 +1152,7 @@
 
 **tip:** Final /l/ = Dark L — lưỡi chạm ngạc răng SAU nguyên âm. "feel" ≠ "fee". Lưỡi phải chạm, không bỏ!
 
-**practice_words:** well, when, feel, fin, tell, ten, call, can, fill, thin, ball, ban, fall, fan
+**practice_words:** well /wel/, when /wen/, tell /tel/, ten /ten/, fill /fɪl/, fin /fɪn/, kill /kɪl/, kin /kɪn/, call /kɔːl/, corn /kɔːn/, fall /fɔːl/, fawn /fɔːn/
 
 
 # LEVEL: word-skills — Word Decoding Skills
@@ -1168,15 +1165,15 @@
 **why:** Cambridge và Oxford Dictionary đều dùng IPA để ghi phát âm chính xác. Biết đọc IPA = tự học phát âm bất kỳ từ nào không cần giáo viên hay audio. Đây là kỹ năng cốt lõi của học viên IELTS độc lập.
 
 **how_to:**
-- Mở Cambridge Dictionary (dictionary.cambridge.org) → gõ từ → nhìn phần /.../ màu xanh bên dưới từ khóa. VD: 'teacher' → /ˈtiːtʃə/
-- ˈ = dấu nhấn mạnh (PRIMARY STRESS). Đọc to âm tiết ngay SAU dấu ˈ. VD: /ˈtiːtʃə/ → TEA-cher (nhấn TEA)
-- ˌ = nhấn phụ (SECONDARY STRESS). Nhấn nhẹ hơn. VD: /ˌʌndəˈstænd/ → un-der-STAND (nhấn chính STAND, nhấn phụ UN)
-- ː = nguyên âm dài. /iː/ dài gấp đôi /ɪ/ · /uː/ dài gấp đôi /ʊ/ · /ɑː/ dài gấp đôi /ʌ/ · /ɔː/ dài gấp đôi /ɒ/
-- ə = schwa — âm 'ơ' yếu, ngắn, xuất hiện trong âm tiết không nhấn. Đây là âm PHỔ BIẾN NHẤT trong tiếng Anh!
-- BrE (cột 1) = British English — dùng cho IELTS. AmE (cột 2) = American English. Ưu tiên đọc BrE khi thi IELTS.
-- (r) trong ngoặc = âm /r/ chỉ phát âm khi từ tiếp theo bắt đầu bằng nguyên âm. VD: 'mother of' → /ˈmʌðər əv/
+- Mở Cambridge Dictionary → gõ từ → xem phiên âm British English trong dấu /.../. Ví dụ: "teacher" → /ˈtiːtʃə/.
+- ˈ = trọng âm chính. Âm tiết ngay sau dấu ˈ được nhấn mạnh nhất: /ˈtiːtʃə/ → TEA-cher.
+- ˌ = trọng âm phụ, nhẹ hơn trọng âm chính: /ˌʌndəˈstænd/ → UN-der-STAND.
+- ː = dấu độ dài của nguyên âm. Nguyên âm có /ː/ thường được giữ lâu hơn, nhưng độ dài thực tế còn thay đổi theo trọng âm và phụ âm xung quanh; không phải lúc nào cũng "gấp đôi" chính xác.
+- ə = schwa, một nguyên âm giữa rất ngắn và yếu, thường xuất hiện trong âm tiết không nhấn.
+- Khóa học này theo British RP/General British. IELTS chấp nhận nhiều giọng chuẩn khác nhau miễn phát âm rõ ràng và nhất quán; không bắt buộc thí sinh phải dùng giọng Anh-Anh.
+- (r) hoặc /r/ nối trong một số từ điển cho biết /r/ có thể xuất hiện trước nguyên âm tiếp theo: "mother of" có linking /r/ trong lời nói liền mạch.
 
-**vs_vietnamese:** undefined
+**vs_vietnamese:** Chính tả tiếng Việt thường cho biết cách đọc trực tiếp hơn và không dùng trọng âm từ như tiếng Anh. Học sinh Việt dễ bỏ qua dấu nhấn, schwa, nguyên âm dài và các chữ câm khi nhìn IPA; cần đọc toàn bộ chuỗi âm thay vì đoán theo mặt chữ.
 
 ### BUCKETS
 
@@ -1203,29 +1200,29 @@ words: understand | entertain | afternoon | seventeen | engineer | volunteer | r
 **why:** Biết đếm âm tiết chính xác giúp phát âm đúng nhịp và không thêm/bớt âm tiết. Biết đếm âm (sounds) giúp hiểu IPA và nhận biết âm câm. Đây là 2 kỹ năng phân tích từ cơ bản không thể thiếu khi học IELTS.
 
 **how_to:**
-- ÂM TIẾT (syllable) = nhịp đập. Test: đặt tay dưới cằm — mỗi lần cằm chạm tay = 1 âm tiết. 'wa·ter' = 2 · 'to·mor·row' = 3
-- QUY TẮC: Mỗi âm tiết có đúng 1 NGUYÊN ÂM ÂM (không phải chữ cái). 'make' có 2 nguyên âm CHỮ (a, e) nhưng E cuối câm → chỉ 1 âm tiết
-- ÂM (sound/phoneme) = đơn vị nhỏ nhất. 'cat' = 3 âm /k·æ·t/ · 'ship' = 3 âm /ʃ·ɪ·p/ (4 chữ) · 'through' = 3 âm /θ·r·uː/ (7 chữ)
-- CÁCH ĐẾM ÂM: mở IPA trong từ điển, đếm các ký hiệu trong //. 'knight' /naɪt/ = 3 ký hiệu = 3 âm (dù có 6 chữ)
-- DẤU NGĂN ÂM TIẾT trong IPA: dấu chấm (·) hoặc gạch đứng (|). VD: /ˈwɔː.tə/ = 2 âm tiết · /ˌʌn.də.ˈstænd/ = 3 âm tiết
-- BẪY PHỔ BIẾN: comfortable (3 âm tiết, không phải 4) · interesting (3, không phải 4) · chocolate (3, không phải 4) · different (2, không phải 3)
+- ÂM TIẾT (syllable) = một nhịp phát âm có một hạt nhân. Hạt nhân thường là nguyên âm, nhưng cũng có thể là phụ âm tạo âm tiết như /l̩/ hoặc /n̩/: table /ˈteɪbl̩/, garden /ˈɡɑːdn̩/.
+- Không đếm chữ cái nguyên âm để đếm âm tiết. "make" có hai chữ cái a, e nhưng chỉ một âm tiết vì e cuối câm.
+- ÂM VỊ (phoneme) = đơn vị âm thanh có thể phân biệt nghĩa. "cat" có /k æ t/; "ship" có /ʃ ɪ p/.
+- Không đếm máy móc từng ký tự IPA: /aɪ/ là một nguyên âm đôi nhưng gồm hai ký hiệu; /tʃ/ là một âm tắc-xát nhưng cũng gồm hai ký hiệu. "knight" /naɪt/ có ba âm vị: /n/, /aɪ/, /t/.
+- Dấu chấm trong phiên âm từ điển có thể đánh dấu ranh giới âm tiết: /ˈwɔː.tə/ có hai âm tiết.
+- Một số từ có biến thể theo tốc độ và người nói: "comfortable" thường có 3 âm tiết trong lời nói tự nhiên; "interesting" có thể có 3 hoặc 4; "chocolate" thường có 2; "different" thường có 3 nhưng có thể được rút xuống 2 trong lời nói nhanh.
 
-**vs_vietnamese:** undefined
+**vs_vietnamese:** Mỗi âm tiết tiếng Việt thường có cấu trúc rõ và tương ứng khá sát với một tiếng viết tách rời. Tiếng Anh có cụm phụ âm, chữ câm, nguyên âm đôi và phụ âm tạo âm tiết, nên số chữ cái, số âm vị và số âm tiết thường không trùng nhau.
 
 ### BUCKETS
 
 #### BUCKET: 1 âm tiết
-condition: Chỉ có 1 nguyên âm ÂM (vowel sound) → 1 nhịp đập. Nhiều chữ cái ≠ nhiều âm tiết!
-tip: strengths /strɛŋkθs/ = 8 âm, 1 âm tiết · knight /naɪt/ = 3 âm · clothes /kləʊðz/ = 4 âm
+condition: Chỉ có một hạt nhân âm tiết, dù từ có thể chứa nhiều phụ âm và nhiều chữ cái.
+tip: knight /naɪt/ có 3 âm vị · clothes /kləʊðz/ có 5 âm vị · cả hai đều chỉ có 1 âm tiết
 words: strengths | through | knight | thought | bright | friends | world | scream | straight | clothes | glimpsed | drenched | splashed | squirmed | thrilled
 
 #### BUCKET: 2 âm tiết
-condition: Có 2 nguyên âm âm vị → 2 nhịp. Đếm bằng cách đặt tay dưới cằm: cằm chạm tay mỗi âm tiết.
-tip: water /ˈwɔː·tə/ · table /ˈteɪ·bl/ · garden /ˈɡɑː·dn/ · perfect /ˈpɜː·fɪkt/
+condition: Có hai hạt nhân âm tiết; một hạt nhân có thể là nguyên âm hoặc phụ âm tạo âm tiết.
+tip: water /ˈwɔː.tə/ · table /ˈteɪ.bl̩/ · garden /ˈɡɑː.dn̩/ · perfect /ˈpɜː.fɪkt/
 words: water | table | garden | carpet | finger | orange | fashion | magic | number | perfect | paper | thunder | seven | summer | sister
 
 #### BUCKET: 3 âm tiết
-condition: Có 3 nguyên âm âm vị → 3 nhịp. Chú ý: nhiều từ NGẮN hơn bạn nghĩ khi nói tự nhiên!
+condition: Có ba hạt nhân âm tiết; không suy ra số âm tiết chỉ từ số chữ cái nguyên âm.
 tip: tomorrow /tə·ˈmɒ·rəʊ/ · beautiful /ˈbjuː·tɪ·fl/ · umbrella /ʌm·ˈbrel·ə/ · hospital /ˈhɒs·pɪ·tl/
 words: tomorrow | beautiful | umbrella | remember | hospital | telephone | however | Saturday | adventure | together | another | amazing | important | banana | example
 
@@ -1244,12 +1241,12 @@ words: tomorrow | beautiful | umbrella | remember | hospital | telephone | howev
 - N câm trong -mn: autumn /ˈɔːtəm/ · column /ˈkɒləm/ · condemn /kənˈdem/ · hymn /hɪm/ · solemn /ˈsɒləm/ · damn /dæm/
 - P câm trong ps-: psychology /saɪˈkɒlədʒi/ · psalm /sɑːm/ · pseudo /ˈsjuːdəʊ/. P câm trong pn-: pneumonia /njuːˈməʊniə/. P câm trong receipt /rɪˈsiːt/ · raspberry /ˈrɑːzbri/
 
-**vs_vietnamese:** undefined
+**vs_vietnamese:** Tiếng Việt thường có quan hệ chữ–âm ổn định hơn, nên học sinh dễ đọc mọi chữ cái nhìn thấy. Với tiếng Anh, cần học chữ câm theo từng pattern và kiểm tra IPA, đặc biệt ở các từ gốc Hy Lạp, Latin và Pháp.
 
 ### BUCKETS
 
 #### BUCKET: H câm
-condition: H câm trong: honest/hour/heir/honour (đầu từ) · rh- (rhyme, rhythm) · wh- (khi theo sau là e/a/i: when, where, what)
+condition: H câm trong một số từ đầu h- như honest/hour/heir/honour, trong rh-, trong nhiều từ wh- đọc /w/, và trong một số từ exh- như exhaust, exhibition.
 tip: honest /ˈɒnɪst/ · hour /ˈaʊə/ · heir /eə/ · rhyme /raɪm/ · rhythm /ˈrɪðəm/ · when /wen/ · where /weə/
 words: honest | honour | hour | heir | rhyme | rhythm | rhetoric | when | where | what | which | while | wheat | exhaust | exhibition
 
@@ -1271,25 +1268,24 @@ words: autumn | column | condemn | hymn | solemn | psychology | receipt | raspbe
 **why:** Những từ này xuất hiện thường xuyên trong IELTS Listening, Speaking và Writing, nhưng hay bị phát âm sai dù đã biết nghĩa. Nguyên nhân: đọc theo mặt chữ, ảnh hưởng phiên âm tiếng Việt, hoặc chưa bao giờ kiểm tra lại với từ điển.
 
 **how_to:**
-- Nguyên tắc vàng: KHÔNG đọc tiếng Anh theo cách bạn đọc chữ. Luôn tra IPA trong Cambridge Dictionary trước khi dùng từ mới
-- Kiểm tra 3 điểm khi tra từ: (1) Có bao nhiêu âm tiết? (2) Nhấn ở âm tiết nào? (3) Các nguyên âm phát âm thế nào?
-- Từ CÓ ÍT âm tiết hơn bạn nghĩ (hay bị thêm âm): comfortable→3 · vegetable→3 · chocolate→3 · different→2 · every→2 · Wednesday→2
-- Từ bị NHẤN SAI VỊ TRÍ: phoˈtography (2nd) ≠ ˈphotograph (1st) · eˈconomy (2nd) · proˌnunciˈation (3rd) · cerˈtificate (2nd)
-- Từ có NGUYÊN ÂM ĐỌC SAI HOÀN TOÀN: colonel /ˈkɜːnl/ · women /ˈwɪmɪn/ · said /sed/ · blood /blʌd/ · friend /frend/ · island /ˈaɪlənd/ (s câm!)
-- Mẹo luyện tập: chép 10 từ hay dùng nhất, tra IPA, ghi phiên âm lên flashcard, đọc to mỗi ngày 5 lần
+- Nguyên tắc vàng: Không đoán phát âm chỉ từ chính tả; hãy kiểm tra IPA và audio trong từ điển.
+- Kiểm tra ba điểm: số âm tiết, vị trí trọng âm chính và chất lượng nguyên âm.
+- Một số từ ngắn hơn mặt chữ gợi ý: comfortable thường 3 âm tiết, vegetable 3, chocolate 2, every 2, Wednesday 2. "Different" thường có 3 âm tiết nhưng có thể rút xuống 2; "interesting" có thể có 3 hoặc 4.
+- Trọng âm: photography /fəˈtɒɡrəfi/ nhấn âm tiết 2; economy /ɪˈkɒnəmi/ nhấn âm tiết 2; pronunciation /prəˌnʌnsiˈeɪʃən/ nhấn chính ở âm tiết 4 và nhấn phụ ở âm tiết 2; certificate /səˈtɪfɪkət/ nhấn âm tiết 2.
+- Một số nguyên âm không thể đoán từ mặt chữ: colonel /ˈkɜːnl/, women /ˈwɪmɪn/, said /sed/, blood /blʌd/, friend /frend/, island /ˈaɪlənd/.
 
-**vs_vietnamese:** undefined
+**vs_vietnamese:** Người Việt thường có xu hướng đọc đủ từng chữ, giữ nguyên số âm tiết nhìn thấy và đặt lực khá đều. Điều này dễ dẫn đến thêm âm tiết, nhấn sai và đọc nguyên âm theo tên chữ thay vì theo IPA.
 
 ### BUCKETS
 
 #### BUCKET: Ít âm tiết hơn nghĩ
-condition: Những từ này NGẮN hơn cách viết gợi ý. Đọc tự nhiên = giảm 1 âm tiết (hoặc hơn)!
-tip: chocolate /ˈtʃɒk·lɪt/ (3) · comfortable /ˈkʌmf·tə·bl/ (3) · vegetable /ˈvedʒ·tə·bl/ (3) · Wednesday /ˈwenz·deɪ/ (2) · different /ˈdɪf·rənt/ (2)
+condition: Trong cách nói Anh-Anh tự nhiên, các từ này thường có ít âm tiết hơn mặt chữ gợi ý; một số từ có nhiều biến thể được chấp nhận.
+tip: chocolate /ˈtʃɒk.lət/ (2) · comfortable /ˈkʌmf.tə.bl̩/ (3) · vegetable /ˈvedʒ.tə.bl̩/ (3) · Wednesday /ˈwenz.deɪ/ (2) · different thường 3, đôi khi 2 trong lời nói nhanh
 words: chocolate | comfortable | vegetable | Wednesday | different | interesting | every | temperature | business | government | generally | camera | history | library | February
 
 #### BUCKET: Nhấn sai âm tiết
-condition: Vị trí nhấn không theo trực giác — thường học sinh nhấn âm tiết đầu trong khi đúng phải nhấn âm tiết thứ 2 hoặc 3.
-tip: pho·TOG·ra·phy (2nd) ≠ PHO·to·graph (1st) · e·CON·o·my (2nd) · pro·NUN·ci·a·tion (3rd) · cer·TIF·i·cate (2nd)
+condition: Trọng âm chính không nằm ở vị trí người học thường đoán; cần kiểm tra từng từ thay vì áp dụng một quy tắc chung.
+tip: pho·TOG·ra·phy · e·CON·o·my · pro·nun·ci·A·tion · cer·TIF·i·cate
 words: photography | economy | pronunciation | environment | certificate | ability | community | discovery | relationship | electricity | technology | communication | opportunity | development | possibility
 
 #### BUCKET: Nguyên âm đọc sai
@@ -1341,7 +1337,7 @@ words: dogs | birds | runs | cars | trees | plays | calls | dreams | kings | mov
 
 ### KNOWLEDGE
 
-**why:** Giống -s endings — voiced/voiceless assimilation. /ɪd/ chỉ xuất hiện sau /t/ và /d/ vì không thể có hai âm dừng giống nhau liên tiếp (want-t sẽ quá khó đọc).
+**why:** Đuôi -ed đồng hóa về voicing với âm cuối của động từ. Sau /t/ hoặc /d/, tiếng Anh chèn /ɪ/ để tránh cụm hai âm dừng đầu lưỡi khó phát âm, tạo đuôi /ɪd/ và thêm một âm tiết.
 
 **how_to:**
 - Bước 1: Từ kết thúc bằng /t/ hoặc /d/ → đọc /ɪd/ (thêm âm tiết). VD: wanted, needed, waited, started, ended, decided.
@@ -1473,33 +1469,34 @@ words: I said TO | Yes I CAN | AND another thing | FOR me, not you | WAS he ther
 **why:** Đây là quy luật chính tả→phát âm cực quan trọng vì hàng trăm từ học thuật trong IELTS kết thúc bằng các đuôi này. Biết quy tắc = đọc đúng ngay cả từ chưa gặp bao giờ.
 
 **how_to:**
-- -tion (sau consonant) → /ʃən/: nation /ˈneɪʃən/, education /ˌedʒʊˈkeɪʃən/.
-- -sion (sau vowel) → /ʒən/: vision /ˈvɪʒən/, decision /dɪˈsɪʒən/, occasion /əˈkeɪʒən/.
-- -ture → /tʃə/: picture /ˈpɪktʃə/, nature /ˈneɪtʃə/, future /ˈfjuːtʃə/.
+- -tion thường có phần /ʃən/: nation /ˈneɪʃən/, education /ˌedʒʊˈkeɪʃən/. Khi có phụ âm trước đó như -ction, âm đó vẫn được giữ: action /ˈækʃən/.
+- -sion có thể là /ʒən/ trong nhiều từ như vision /ˈvɪʒən/, decision /dɪˈsɪʒən/, occasion /əˈkeɪʒən/; nhưng cũng có thể là /ʃən/ trong tension, pension, mansion, version.
+- -ture thường là /tʃə/ khi là âm tiết cuối không nhấn: picture /ˈpɪktʃə/, nature /ˈneɪtʃə/, future /ˈfjuːtʃə/.
 
 **exceptions:**
-- -ssion → /ʃən/ (không phải /ʒən/): passion, mission, session, profession, permission
-- -xion → /kʃən/: connection /kəˈnekʃən/, complexion, crucifixion
-- -sion sau consonant → /ʃən/ không phải /ʒən/: mansion, version, pension, tension
+- question /ˈkwestʃən/ và suggestion /səˈdʒestʃən/ có /tʃən/, không phải chỉ /ʃən/
+- -ssion thường là /ʃən/: passion, mission, session, profession, permission
+- -sion sau một số phụ âm thường là /ʃən/: mansion, version, pension, tension
+- mature thường là /məˈtʃʊə/ trong RP, không kết thúc bằng /tʃə/
 
 **vs_vietnamese:** Học sinh hay đọc: -tion như 'ti-on' hoặc 'shun' rõ ràng; -sion như 'si-on'; -ture như 'tyua' hoặc 'cha'. Tất cả đều sai. Học quy tắc này = nâng điểm phát âm IELTS Speaking ngay lập tức.
 
 ### BUCKETS
 
 #### BUCKET: -tion → /ʃən/
-condition: Đuôi -tion (gần như luôn luôn) phát âm /ʃən/
+condition: Phần -tion thường phát âm /ʃən/; giữ lại phụ âm đứng trước nếu có, như /k/ trong action.
 tip: nation · station · action · education · information
-words: nation | station | action | section | question | education | information | communication | pronunciation | tradition | suggestion | connection | protection | examination | preparation
+words: nation | station | action | section | motion | education | information | communication | pronunciation | tradition | condition | connection | protection | examination | preparation
+
+#### BUCKET: -ture → /tʃə/
+condition: -ture thường phát âm /tʃə/ khi là âm tiết cuối không nhấn; không áp dụng máy móc cho "mature".
+tip: picture · nature · culture · future · adventure
+words: picture | nature | culture | future | adventure | temperature | feature | creature | structure | fracture | lecture | mixture | capture | gesture | texture
 
 #### BUCKET: -sion → /ʒən/
 condition: Đuôi -sion sau nguyên âm phát âm /ʒən/
 tip: vision · decision · television · revision · confusion
 words: vision | television | decision | occasion | confusion | revision | division | explosion | invasion | conclusion | inclusion | provision | collision | illusion | erosion
-
-#### BUCKET: -ture → /tʃə/
-condition: Đuôi -ture luôn phát âm /tʃə/ (âm 'ch')
-tip: picture · nature · culture · future · adventure
-words: picture | nature | culture | future | adventure | temperature | feature | creature | structure | fracture | lecture | mixture | capture | gesture | texture
 
 ---
 ## LESSON: joining-vv | type: rule | Joining — V→V Linking
@@ -1536,7 +1533,7 @@ words: I am | they asked | she is | he asked | we are | be honest | we all | fre
 
 ### KNOWLEDGE
 
-**why:** Khi /n/ đứng cạnh một phụ âm có điểm phát âm khác, dây thanh 'lười' và tự điều chỉnh /n/ sang điểm phát âm của phụ âm bên cạnh — tiết kiệm năng lượng cơ miệng.
+**why:** Trong lời nói liền mạch, vị trí phát âm của /n/ có thể đổi theo phụ âm đứng sau để các cơ quan phát âm di chuyển ít hơn. Đây là đồng hóa vị trí phát âm, không phải vì "dây thanh lười".
 
 **how_to:**
 - /n/ trước bilabials (p/b/m) → /m/: 'ten pins' = /tem pɪnz/, 'in bed' = /ɪm bed/, 'one more' = /wʌm mɔː/.
@@ -1546,7 +1543,7 @@ words: I am | they asked | she is | he asked | we are | be honest | we all | fre
 - Trong speech chậm/nhấn mạnh → giữ /n/ nguyên
 - Không phải assimilation bắt buộc — mức độ tùy thuộc tốc độ nói
 
-**vs_vietnamese:** Tiếng Việt có hiện tượng tương tự (ví dụ 'kông' → 'không' trong một số phương ngữ) nhưng ít hệ thống. Nghe tiếng Anh tự nhiên sẽ thấy 'in Paris' nghe như 'im Paris' — đó là assimilation.
+**vs_vietnamese:** Tiếng Việt cũng có hiện tượng đồng phát âm và thay đổi nhẹ vị trí lưỡi trong lời nói nhanh, nhưng pattern không hoàn toàn giống tiếng Anh. Người học cần nhận ra rằng "in Paris" có thể nghe gần /ɪm ˈpærɪs/ và "in case" gần /ɪŋ keɪs/ mà nghĩa không đổi.
 
 ### BUCKETS
 
@@ -1569,8 +1566,8 @@ words: ten cups | in case | one goal | green card | in class | ten guests | on g
 
 **how_to:**
 - Silent K: kn- → chỉ đọc /n/: knife /naɪf/, know /nəʊ/, knock /nɒk/, knight /naɪt/, kneel, knit, knob, knack, knuckle, knowledge.
-- Silent B: mb (sau vowel, cuối từ) → chỉ đọc /m/: lamb /læm/, bomb /bɒm/, climb /klaɪm/, comb, thumb, numb, dumb. Cũng: bt → /t/: debt /det/, doubt /daʊt/, subtle /ˈsʌtl/.
-- Silent W: wr- → chỉ đọc /r/: write /raɪt/, wrong /rɒŋ/, wrist /rɪst/, wrap, wren. Cũng: who/whole/whom → /h/ không phải /hw/.
+- Silent B: mb ở cuối từ thường → /m/: lamb /læm/, bomb /bɒm/, climb /klaɪm/, comb, thumb, numb, dumb. B cũng câm trong debt /det/, doubt /daʊt/, subtle /ˈsʌtl/.
+- Silent W: wr- → chỉ đọc /r/: write /raɪt/, wrong /rɒŋ/, wrist /rɪst/, wrap, wren. W cũng câm trong một số từ riêng lẻ như who, whole, two, sword, answer.
 
 **exceptions:**
 - GH đôi khi đọc thành /f/: enough /ɪˈnʌf/, laugh /lɑːf/, cough /kɒf/, tough /tʌf/, rough /rʌf/
@@ -1579,6 +1576,11 @@ words: ten cups | in case | one goal | green card | in class | ten guests | on g
 **vs_vietnamese:** Tiếng Việt 'đọc sao viết vậy' (phần lớn) → học sinh tự nhiên đọc chữ câm. 'knife' → 'nai-phờ'; 'write' → 'rai-tờ'; 'lamb' → 'lam-bờ'. Cần học thuộc lòng danh sách từ có chữ câm.
 
 ### BUCKETS
+
+#### BUCKET: Silent W
+condition: W câm trong wr-, trong who/whole/whom và trong một số từ cần học riêng như two, sword, answer.
+tip: write /raɪt/ · wrong /rɒŋ/ · who /huː/ · answer /ˈɑːnsə/
+words: write | wrong | wrist | wrap | sword | two | answer | who | whole | wren
 
 #### BUCKET: Silent K
 condition: K không phát âm khi đứng trước N (kn-)
@@ -1590,11 +1592,6 @@ condition: B không phát âm sau M hoặc trước T
 tip: lamb /læm/ · bomb /bɒm/ · debt /det/ · climb /klaɪm/
 words: lamb | bomb | debt | climb | comb | thumb | numb | dumb | doubt | subtle
 
-#### BUCKET: Silent W
-condition: W không phát âm trước R và trong WHO-
-tip: write /raɪt/ · wrong /rɒŋ/ · who /huː/ · answer /ˈɑːnsə/
-words: write | wrong | wrist | wrap | sword | two | answer | who | whole | wren
-
 ---
 ## LESSON: silent-glt | type: rule | Silent Letters — GH · L · T
 
@@ -1603,9 +1600,9 @@ words: write | wrong | wrist | wrap | sword | two | answer | who | whole | wren
 **why:** Tiếp nối lịch sử: -ght xuất phát từ tiếng Anh cổ đọc /xt/ (như tiếng Đức 'nacht'); L câm trước phụ âm xuất hiện từ thế kỷ 16-17; T câm trong -sten/-stle là hiện tượng đồng hóa.
 
 **how_to:**
-- Silent GH: trong cấu trúc -ight, -ought, -aught, -ight → GH không phát âm: night /naɪt/, thought /θɔːt/, taught /tɔːt/, daughter /ˈdɔːtə/, though /ðəʊ/, through /θruː/.
-- Silent L: trước F/M/K và trong -ould: calm /kɑːm/, palm /pɑːm/, walk /wɔːk/, talk /tɔːk/, half /hɑːf/, could /kʊd/, would /wʊd/, should /ʃʊd/.
-- Silent T: trong -sten, -stle, -stmas: listen /ˈlɪsn/, castle /ˈkɑːsl/, whistle /ˈwɪsl/, Christmas /ˈkrɪsməs/, fasten, glisten, wrestle, thistle, nestle.
+- Silent GH: Trong nhiều từ có -ight, -ought, -aught và một số dạng -ough, GH không phát âm: night /naɪt/, thought /θɔːt/, taught /tɔːt/, daughter /ˈdɔːtə/, though /ðəʊ/, through /θruː/.
+- Silent L: L câm trong một số nhóm từ cố định như calm, palm, balm; walk, talk, folk, yolk; half; could, would, should. Đây không phải quy tắc chung cho mọi L đứng trước f, m hoặc k.
+- Silent T: Trong nhiều từ -sten, -stle và Christmas: listen /ˈlɪsn/, castle /ˈkɑːsl/, whistle /ˈwɪsl/, Christmas /ˈkrɪsməs/.
 
 **exceptions:**
 - GH đọc thành /f/ (không câm, không /g/): enough, laugh, cough, rough, tough, draught
@@ -1615,15 +1612,15 @@ words: write | wrong | wrist | wrap | sword | two | answer | who | whole | wren
 
 ### BUCKETS
 
+#### BUCKET: Silent L
+condition: L câm trong một số nhóm từ cố định như calm/palm/balm, walk/talk/folk/yolk, half và could/would/should; không áp dụng cho mọi L trước phụ âm.
+tip: calm /kɑːm/ · walk /wɔːk/ · half /hɑːf/ · could /kʊd/
+words: calm | palm | walk | talk | half | could | would | should | salmon | folk | yolk | balm
+
 #### BUCKET: Silent GH
 condition: GH không phát âm trong cấu trúc -ight, -ough, -aught
 tip: night /naɪt/ · thought /θɔːt/ · through /θruː/ · daughter /ˈdɔːtə/
 words: night | light | right | fight | thought | though | through | daughter | caught | dough | sigh | high
-
-#### BUCKET: Silent L
-condition: L không phát âm trước F/M/K, trong -ould, và một số từ đặc biệt (salmon, psalm, almond)
-tip: calm /kɑːm/ · walk /wɔːk/ · half /hɑːf/ · could /kʊd/
-words: calm | palm | walk | talk | half | could | would | should | salmon | folk | yolk | balm
 
 #### BUCKET: Silent T
 condition: T không phát âm sau S trong -sten, -stle, -stmas
@@ -1638,9 +1635,9 @@ words: listen | castle | whistle | fasten | glisten | Christmas | wrestle | bust
 **why:** Tiếng Anh dùng trọng âm để phân biệt từ loại (part of speech) — cùng chính tả, cùng chữ nhưng khác nghĩa và cách đọc. Sai trọng âm có thể làm người nghe hiểu nhầm từ loại.
 
 **how_to:**
-- Danh từ 2 âm tiết → nhấn âm tiết THỨ NHẤT: REcord, PERmit, OBject, PREsent, INcrease, EXport, IMport, CONtract, PROtest, REbel.
-- Động từ 2 âm tiết → nhấn âm tiết THỨ HAI: reCORD, perMIT, obJECT, preSENT, inCREASE, exPORT, imPORT, conTRACT, proTEST, reBEL.
-- Luyện theo cặp: 'a REcord' (danh từ) → 'to reCORD' (động từ).
+- Nhiều cặp từ hai âm tiết dùng trọng âm để phân biệt từ loại: danh từ hoặc tính từ nhấn âm tiết 1, còn động từ nhấn âm tiết 2.
+- Ví dụ: a REcord → to reCORD; a PERmit → to perMIT; an OBject → to obJECT; a PREsent → to preSENT.
+- Đây là pattern của một nhóm từ cụ thể, không phải quy tắc cho mọi danh từ và động từ hai âm tiết.
 
 **exceptions:**
 - Không phải mọi từ 2 âm tiết đều theo pattern: travel, water, comment, visit — danh từ và động từ cùng trọng âm
@@ -1652,12 +1649,12 @@ words: listen | castle | whistle | fasten | glisten | Christmas | wrestle | bust
 ### BUCKETS
 
 #### BUCKET: Danh từ ↑1
-condition: Danh từ 2 âm tiết → nhấn âm tiết THỨ NHẤT (chữ HOA = nhấn)
+condition: Trong các cặp noun–verb thuộc pattern này, danh từ thường nhấn âm tiết THỨ NHẤT.
 tip: REcord · PERmit · OBject · PREsent · INcrease · EXport
 words: REcord | PERmit | OBject | PREsent | INcrease | EXport | IMport | CONtract | PROtest | REbel | SURvey | INsult
 
 #### BUCKET: Động từ ↑2
-condition: Động từ 2 âm tiết → nhấn âm tiết THỨ HAI (chữ HOA = nhấn)
+condition: Trong cùng các cặp này, động từ thường nhấn âm tiết THỨ HAI.
 tip: reCORD · perMIT · obJECT · preSENT · inCREASE · exPORT
 words: reCORD | perMIT | obJECT | preSENT | inCREASE | exPORT | imPORT | conTRACT | proTEST | reBEL | surVEY | inSULT
 
@@ -1666,12 +1663,12 @@ words: reCORD | perMIT | obJECT | preSENT | inCREASE | exPORT | imPORT | conTRAC
 
 ### KNOWLEDGE
 
-**why:** Danh từ ghép (compound noun) là một KHÁi NIỆM DUY NHẤT — nhấn phần đầu để phân biệt. Cụm adj+noun là MÔ TẢ — nhấn đều, danh từ nhấn hơn. Hiểu sự khác biệt = nói đúng nghĩa.
+**why:** Nhiều danh từ ghép chỉ một khái niệm duy nhất và thường nhấn mạnh thành tố đầu. Cụm tính từ + danh từ thường đặt trọng âm chính ở danh từ. Đây là xu hướng phổ biến chứ không phải quy tắc tuyệt đối.
 
 **how_to:**
-- Danh từ ghép (compound noun) → nhấn phần ĐẦU mạnh: AIRport, BEDroom, HOMEwork, FOOTball, CLASSroom, TOOTHbrush, GREENhouse, NOTEbook.
-- Cụm Adj + Noun (adjective phrase) → nhấn tương đối đều, danh từ nhấn hơn một chút: cold WA·ter, big CI·ty, green HOUSE (ngôi nhà màu xanh — khác GREENhouse).
-- Test: GREENhouse (nhà kính trồng cây) vs green HOUSE (ngôi nhà màu xanh) — trọng âm thay đổi nghĩa!
+- Nhiều compound nouns, dù viết liền, có gạch nối hay tách thành hai từ, nhấn phần đầu: AIRport, BEDroom, HOMEwork, FOOTball, BUS stop.
+- Cụm adjective + noun thường có trọng âm chính ở danh từ: cold WAter, big CIty, green HOUSE.
+- So sánh GREENhouse (nhà kính) với green HOUSE (ngôi nhà màu xanh).
 
 **exceptions:**
 - Địa danh và danh từ riêng ghép thường nhấn phần sau: New YORK, Times SQUARE, Tower BRIDGE
@@ -1683,7 +1680,7 @@ words: reCORD | perMIT | obJECT | preSENT | inCREASE | exPORT | imPORT | conTRAC
 ### BUCKETS
 
 #### BUCKET: Danh từ ghép ↑1
-condition: Danh từ ghép (1 từ) → nhấn mạnh PHẦN ĐẦU: AIRport, BEDroom, FOOTball
+condition: Nhiều danh từ ghép nhấn mạnh PHẦN ĐẦU; cách viết liền hay tách không quyết định hoàn toàn trọng âm.
 tip: AIRport · BEDroom · HOMEwork · FOOTball · CLASSroom · TOOTHbrush
 words: airport | bedroom | homework | football | classroom | toothbrush | greenhouse | doorbell | notebook | sunrise | waterfall | headache
 
@@ -1709,9 +1706,9 @@ words: cold water | big city | fresh air | long road | dark night | heavy rain |
 - Luyện: đọc câu rồi dùng tay lên xuống theo giọng — lên ↗ hay xuống ↘?
 
 **exceptions:**
-- Falling có thể dùng cho Yes/No question → nghe lịch sự hơn hoặc rhetorical
-- Rising ở cuối câu khẳng định → đang không chắc, hoặc Australian English
-- List items: mỗi mục lên giọng ↗, mục cuối xuống ↘
+- Yes/No questions có thể xuống giọng khi người nói mong đợi sự đồng ý, đang kiểm tra điều đã biết hoặc muốn nghe chắc chắn hơn; cách này không tự động "lịch sự hơn".
+- Rising ở cuối câu khẳng định có thể biểu thị chưa chắc chắn, đang mời phản hồi hoặc là đặc điểm của một số giọng.
+- Trong danh sách, các mục chưa cuối thường lên nhẹ và mục cuối thường xuống.
 
 **vs_vietnamese:** Tiếng Việt có 6 thanh điệu cho MỖI ÂM TIẾT → không dùng nhiều ngữ điệu câu. Người Việt hay đọc tiếng Anh với intonation phẳng → nghe không tự nhiên, khó biết đang hỏi hay khẳng định.
 
@@ -1748,14 +1745,14 @@ words: Do you speak English? | Are you ready? | Is she a teacher? | Can I help y
 ### BUCKETS
 
 #### BUCKET: Giữa danh sách ↗
-condition: Mục không phải cuối → lên giọng (báo hiệu còn tiếp)
-tip: I have English,↗ Maths,↗ and Science.↘
-words: I have coffee, | First of all, | On one hand, | In terms of health, | I like reading, | Secondly, | She speaks English, | In the morning, | I enjoy cooking, | There are three reasons: | I bought apples, | To begin with,
+condition: Mục chưa phải cuối danh sách → thường lên giọng nhẹ để báo hiệu còn tiếp.
+tip: coffee,↗ tea,↗ and juice.↘
+words: coffee, | tea, | apples, | bananas, | English, | Maths, | reading, | swimming, | first, | second, | one reason is cost, | another reason is safety,
 
 #### BUCKET: Mục cuối / Kết câu ↘
-condition: Mục cuối cùng hoặc câu kết luận → xuống giọng
+condition: Mục cuối danh sách hoặc câu đóng danh sách → thường xuống giọng.
 tip: ...coffee, tea, and juice.↘ · That's all.↘
-words: and orange juice. | That's my point. | In conclusion, | and Mathematics. | That's all I have to say. | Finally, | I strongly believe this. | and physical exercise. | To sum up, | and that is why I agree. | and singing. | In summary,
+words: and orange juice. | and bananas. | and Science. | and running. | and finally, safety. | and the last point is cost. | That's everything. | That's all. | and those are the main reasons. | and one final example. | and physical exercise. | and singing.
 
 ---
 ## LESSON: ielts-discourse | type: rule | IELTS Speaking — Discourse
@@ -1765,9 +1762,10 @@ words: and orange juice. | That's my point. | In conclusion, | and Mathematics. 
 **why:** Discourse markers (từ nối) trong IELTS Speaking cần có intonation phù hợp để người nghe biết bạn đang tiếp nối hay đối lập ý. Intonation sai → argument nghe thiếu cohesion dù từ vựng đúng.
 
 **how_to:**
-- Tương phản/kết luận → xuống giọng ↘ (nhấn mạnh bước ngoặt): 'However,↘' 'In contrast,↘' 'Nevertheless,↘' 'In conclusion,↘' 'On the other hand,↘'
-- Bổ sung/tiếp nối → lên giọng nhẹ ↗ (báo hiệu còn nhiều ý): 'Furthermore,↗' 'In addition,↗' 'Moreover,↗' 'For example,↗' 'What's more,↗'
-- Discourse markers thường có PAUSE nhỏ sau — cho người nghe xử lý hướng mới của argument.
+- Ngữ điệu thuộc về cả cụm ý, không cố định tuyệt đối theo từng discourse marker. "However", "Therefore" hay "For example" có thể lên hoặc xuống tùy câu còn tiếp hay đã khép lại.
+- Khi marker mở một ý chưa hoàn tất, giọng thường duy trì hoặc lên nhẹ: "For example,↗ many students..."
+- Khi marker báo hiệu bước ngoặt rõ hoặc dẫn vào kết luận hoàn chỉnh, giọng có thể xuống: "However,↘ this is not always true."
+- Thường có một khoảng ngắt rất ngắn sau marker, nhưng không nên đọc nó như một từ tách rời cứng nhắc.
 
 **exceptions:**
 - Trong thực tế conversation, intonation linh hoạt — quan trọng là consistent và natural
@@ -1777,13 +1775,13 @@ words: and orange juice. | That's my point. | In conclusion, | and Mathematics. 
 
 ### BUCKETS
 
-#### BUCKET: Tương phản / Kết luận ↘
-condition: Từ nối đối lập / kết luận → xuống giọng (nhấn mạnh bước ngoặt)
+#### BUCKET: Chuyển hướng / Kết quả / Kết luận ↘
+condition: Có thể xuống giọng khi marker mở một bước ngoặt, kết quả hoặc kết luận được trình bày như một đơn vị hoàn chỉnh.
 tip: However,↘ · In contrast,↘ · In conclusion,↘ · Nevertheless,↘
 words: However, | In contrast, | On the other hand, | Nevertheless, | Despite this, | In conclusion, | To sum up, | That said, | All things considered, | Even so, | In spite of this, | Having said that, | As a result, | Consequently, | Therefore,
 
-#### BUCKET: Bổ sung / Tiếp nối ↗
-condition: Từ nối bổ sung → lên giọng (báo hiệu còn nhiều ý)
+#### BUCKET: Bổ sung / Dẫn ví dụ ↗
+condition: Có thể lên nhẹ hoặc giữ giọng khi marker báo hiệu câu còn tiếp và thông tin chính chưa xuất hiện.
 tip: Furthermore,↗ · In addition,↗ · Moreover,↗ · For example,↗
 words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, | Besides this, | For instance, | For example, | In terms of | Not to mention, | On top of that, | What is more,
 
@@ -1793,9 +1791,9 @@ words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, |
 ### KNOWLEDGE
 
 **how_to:**
-- Content words (nhấn mạnh): Danh từ, động từ chính, tính từ, trạng từ, từ hỏi. VD: 'She BOUGHT a NEW RED CAR.'
-- Function words (đọc nhẹ/nhanh): Mạo từ, giới từ, liên từ, đại từ, trợ động từ. VD: 'she', 'a', 'bought' (trợ).
-- Luyện: Gõ tay vào bàn mỗi khi gặp content word khi đọc câu. Giữ nhịp gõ đều nhau — function words phải đọc nhanh để 'kịp' nhịp tiếp theo.
+- Content words thường được nhấn: danh từ, động từ chính, tính từ, trạng từ và từ hỏi. Ví dụ: "She BOUGHT a NEW RED CAR."
+- Function words thường nhẹ và nhanh hơn: mạo từ, giới từ, liên từ, đại từ và trợ động từ. Trong ví dụ trên, "she" và "a" thường nhẹ; "bought" là động từ chính nên được nhấn.
+- Gõ tay vào các từ mang trọng âm chính và giữ khoảng cách nhịp tương đối đều; các từ không nhấn được rút ngắn để vừa nhịp.
 
 **vs_vietnamese:** Người Việt đọc tiếng Anh đều đều từng âm tiết → nghe 'robotic', khó hiểu vì không rõ thông tin quan trọng ở đâu. Học sentence stress = học cách truyền đạt thông tin hiệu quả trong tiếng Anh.
 
@@ -1807,7 +1805,7 @@ words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, |
 3. Environmental problems are becoming increasingly serious worldwide. [stressed: Environmental, problems, becoming, increasingly, serious, worldwide] [vi: Các vấn đề môi trường đang ngày càng trở nên nghiêm trọng trên toàn thế giới.]
 4. Technology has transformed the way people communicate and learn. [stressed: Technology, transformed, way, people, communicate, learn] [vi: Công nghệ đã thay đổi cách mọi người giao tiếp và học tập.]
 5. I strongly believe that education is the key to success. [stressed: strongly, believe, education, key, success] [vi: Tôi tin chắc rằng giáo dục là chìa khóa dẫn đến thành công.]
-6. Young people today face many challenges in modern society. [stressed: Young, people, face, challenges, modern, society] [vi: Giới trẻ ngày nay đối mặt với nhiều thách thức trong xã hội hiện đại.]
+6. Young people today face many challenges in modern society. [stressed: Young, people, today, face, challenges, modern, society] [vi: Giới trẻ ngày nay đối mặt với nhiều thách thức trong xã hội hiện đại.]
 7. Research shows that regular exercise improves both physical and mental health. [stressed: Research, shows, regular, exercise, improves, physical, mental, health] [vi: Nghiên cứu cho thấy tập thể dục đều đặn cải thiện cả sức khỏe thể chất lẫn tâm thần.]
 8. The economy depends on a combination of political and social factors. [stressed: economy, depends, combination, political, social, factors] [vi: Nền kinh tế phụ thuộc vào sự kết hợp của các yếu tố chính trị và xã hội.]
 
@@ -1820,11 +1818,10 @@ words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, |
 ### KNOWLEDGE
 
 **how_to:**
-- Mỗi thought group thường có 3–7 từ, kết thúc ở chỗ có nghĩa hoàn chỉnh một phần.
-- Ngắt nhẹ (micro-pause) giữa các nhóm — không phải khoảng trống dài.
-- Từ cuối mỗi nhóm thường được nhấn nhẹ hơn (falling nucleus).
-- Luyện: đọc câu dài → tìm chỗ ngắt tự nhiên → thực hành với dấu /.
-- IELTS Band 7+: examiners đánh giá "appropriate chunking" — nhóm câu hợp lý.
+- Mỗi thought group thường chứa một đơn vị ý nghĩa tương đối hoàn chỉnh; độ dài có thể thay đổi, không nhất thiết luôn 3–7 từ.
+- Ngắt rất nhẹ giữa các nhóm, nhưng không ngắt bên trong một cụm ngữ pháp chặt như "wants to get a good job".
+- Mỗi thought group thường có một nucleus, tức âm tiết mang trọng âm nổi bật và chuyển động ngữ điệu; nó thường nằm ở từ nội dung cuối cùng, chứ không phải "được nhấn nhẹ hơn".
+- Luyện bằng cách đánh dấu / ở ranh giới ý tự nhiên rồi đọc liền mạch trong từng nhóm.
 
 **vs_vietnamese:** Tiếng Việt có âm tiết rõ ràng và ngắt tự nhiên hơn. Tiếng Anh nói liên tục hơn trong mỗi thought group — tránh ngắt ở giữa nhóm.
 
@@ -1832,7 +1829,7 @@ words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, |
 
 **sentences:**
 1. I went to the market / yesterday morning / to buy some vegetables. [stressed: market, morning, vegetables] [vi: Tôi đi chợ / sáng hôm qua / để mua rau.]
-2. She studies very hard / because she wants / to get a good job. [stressed: studies, hard, wants, job] [vi: Cô ấy học rất chăm / vì cô muốn / có việc làm tốt.]
+2. She studies very hard / because she wants to get a good job. [stressed: studies, hard, wants, job] [vi: Cô ấy học rất chăm / vì cô muốn có một công việc tốt.]
 3. The weather in Hanoi / is quite different / from the south. [stressed: weather, Hanoi, different, south] [vi: Thời tiết ở Hà Nội / khá khác / so với miền Nam.]
 4. In my opinion / the most important thing / is good health. [stressed: opinion, important, health] [vi: Theo tôi / điều quan trọng nhất / là sức khỏe tốt.]
 5. My family / usually has dinner together / at seven o'clock. [stressed: family, dinner, together, seven] [vi: Gia đình tôi / thường ăn tối cùng nhau / lúc bảy giờ.]
@@ -1861,12 +1858,12 @@ words: Furthermore, | In addition, | Moreover, | What's more, | Not only that, |
 
 #### BUCKET: Dạng am/is/are
 condition: I'm · you're · he's · she's · it's · we're · they're
-tip: I am → /aɪm/ · she is → /ʃɪz/ · they are → /ðeər/
+tip: I am → /aɪm/ · she is → /ʃiːz/ · they are → /ðeə/
 words: I'm ready | She's here | They're waiting | We're busy | It's cold | You're right | He's late
 
 #### BUCKET: Dạng not
 condition: don't · doesn't · didn't · can't · won't · isn't · aren't
-tip: do not → /doʊnt/ · cannot → /kænt/ · will not → /woʊnt/
+tip: do not → /dəʊnt/ · cannot → /kɑːnt/ · will not → /wəʊnt/
 words: don't go | doesn't work | didn't know | can't stop | won't help | isn't ready | aren't sure
 
 #### BUCKET: Dạng will/would/have
@@ -1882,10 +1879,10 @@ words: I'll try | he'd like | she'd prefer | they'll come | I've been | we've do
 **why:** Trong hội thoại tự nhiên, người nói nhanh 'compress' các từ nhỏ — đặc biệt function words. Đây là đặc điểm của bản ngữ, không phải lỗi. Nghe và nhận ra được giúp hiểu podcast, phim, IELTS Listening Band 7+.
 
 **how_to:**
-- Ghi nhớ các cặp: going to → gonna (/ˈɡɒnə/), want to → wanna (/ˈwɒnə/).
-- Không nhất thiết phải TỰ NÓI theo — nhưng phải nghe hiểu được.
-- IELTS Speaking: tránh dùng gonna/wanna trong formal context (exam); dùng trong informal Task 1 (nếu phù hợp).
-- Luyện nghe: podcast, phim không phụ đề → pause → replay → identify reductions.
+- Ghi nhớ và nhận diện các dạng rất thân mật như going to → gonna /ˈɡɒnə/, want to → wanna /ˈwɒnə/.
+- Không cần cố dùng chúng. Trong IELTS Speaking, các reduction tự nhiên có thể xuất hiện, nhưng "gonna/wanna" nên được dùng rất hạn chế và chỉ khi phù hợp với phong cách nói; không có quy tắc riêng rằng Part 1 luôn cho phép còn các phần khác thì không.
+- Khi viết học thuật hoặc trang trọng, không dùng các cách viết gonna, wanna, gotta.
+- Luyện nghe bằng cách nghe lại một đoạn ngắn, xác định dạng đầy đủ rồi đối chiếu với cách người nói giảm âm.
 
 **exceptions:**
 - Formal situations (presentations, interviews): tránh gonna/wanna, dùng going to/want to.
@@ -1895,20 +1892,20 @@ words: I'll try | he'd like | she'd prefer | they'll come | I've been | we've do
 
 ### BUCKETS
 
-#### BUCKET: gonna / wanna / hafta
-condition: going to → gonna · want to → wanna · have to → hafta
-tip: /ˈɡɒnə/ · /ˈwɒnə/ · /ˈhæftə/
-words: gonna study | gonna be late | wanna eat | wanna go | hafta work | hafta leave
-
 #### BUCKET: kinda / sorta / dunno
 condition: kind of → kinda · sort of → sorta · do not know → dunno
-tip: /ˈkaɪndə/ · /ˈsɔːtə/ · /dəˈnoʊ/
+tip: /ˈkaɪndə/ · /ˈsɔːtə/ · /dəˈnəʊ/
 words: kinda tired | kinda busy | sorta like | sorta want | dunno why | dunno how
 
 #### BUCKET: lemme / gimme / gotta
 condition: let me → lemme · give me → gimme · got to → gotta
-tip: /ˈlɛmi/ · /ˈɡɪmi/ · /ˈɡɒtə/
+tip: /ˈlemi/ · /ˈɡɪmi/ · /ˈɡɒtə/
 words: lemme try | lemme know | gimme time | gimme that | gotta go | gotta hurry
+
+#### BUCKET: gonna / wanna / hafta
+condition: going to → gonna · want to → wanna · have to → hafta
+tip: /ˈɡɒnə/ · /ˈwɒnə/ · /ˈhæftə/
+words: gonna study | gonna be late | wanna eat | wanna go | hafta work | hafta leave
 
 ---
 ## LESSON: ielts-part2-flow | type: rhythm | IELTS Part 2 — Nói liên tục
@@ -1932,7 +1929,7 @@ words: lemme try | lemme know | gimme time | gimme that | gotta go | gotta hurry
 3. What I admire most about her / is her dedication and passion. [stressed: admire, dedication, passion] [vi: Điều tôi ngưỡng mộ nhất / là sự tận tâm và đam mê của cô.]
 4. She always encouraged us / to speak without fear of making mistakes. [stressed: encouraged, speak, fear, mistakes] [vi: Cô luôn khuyến khích chúng tôi / nói mà không sợ mắc lỗi.]
 5. Thanks to her guidance / my English improved dramatically. [stressed: guidance, English, improved, dramatically] [vi: Nhờ sự hướng dẫn của cô / tiếng Anh của tôi tiến bộ vượt bậc.]
-6. In conclusion / she is someone / I will never forget. [stressed: conclusion, someone, never, forget] [vi: Tóm lại / cô ấy là người / tôi sẽ không bao giờ quên.]
+6. So, all in all / she's someone / I'll never forget. [stressed: all, someone, never, forget] [vi: Nói chung / cô ấy là người / tôi sẽ không bao giờ quên.]
 
 ---
 ## LESSON: question-types | type: rhythm | Ngữ điệu câu hỏi
@@ -1954,8 +1951,8 @@ words: lemme try | lemme know | gimme time | gimme that | gotta go | gotta hurry
 2. WHAT do you think about that? ↘ [stressed: WHAT, think] [vi: WH-question → giọng xuống]
 3. Did you enjoy the movie? ↗ [stressed: enjoy, movie] [vi: Yes/No question → lên cuối]
 4. Are you coming to the party? ↗ [stressed: coming, party] [vi: Yes/No question → giọng lên]
-5. It's a beautiful day, ISN'T it? ↘↗ [stressed: beautiful, day, ISN'T] [vi: Tag question → xuống (confirm) hoặc lên (unsure)]
-6. You've been here before, HAVEN'T you? ↘ [stressed: been, before, HAVEN'T] [vi: Tag question xác nhận → giọng xuống]
+5. It's a beautiful day, ISN'T it? ↘ [stressed: beautiful, day, ISN'T] [vi: Tag question khi người nói mong được đồng ý → xuống giọng]
+6. You haven't seen my keys, HAVE you? ↗ [stressed: keys, HAVE] [vi: Tag question khi người nói thực sự chưa chắc → lên giọng]
 
 ---
 ## LESSON: contrastive-stress | type: rhythm | Nhấn tương phản

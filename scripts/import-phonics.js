@@ -72,7 +72,9 @@ function parseInlineField(block, fieldName) {
   // Matches "**fieldName:** value on same line"
   const re = new RegExp(`\\*\\*${escapeRe(fieldName)}:\\*\\* (.+)`);
   const m = block.match(re);
-  return m ? m[1].trim() : null;
+  if (!m) return null;
+  const value = m[1].trim();
+  return value === 'undefined' ? null : value;
 }
 
 // Strip IPA notation e.g. "tree /triː/" → "tree"
@@ -259,8 +261,29 @@ for (const { id, type, text } of lessonBlocks) {
   }
 
   if (bucketsSection) {
-    const buckets = parseBuckets(bucketsSection);
-    if (buckets) lesson.buckets = buckets;
+    const incoming = parseBuckets(bucketsSection);
+    if (incoming) {
+      // Merge per bucket label instead of replacing the whole array — GPT audit
+      // output often omits `words`/`condition`/`tip` for buckets it didn't change,
+      // which must fall back to the existing value, not become empty.
+      const existingByLabel = {};
+      for (const b of (lesson.buckets || [])) existingByLabel[b.label] = b;
+
+      const seenLabels = new Set();
+      const merged = incoming.map(inc => {
+        seenLabels.add(inc.label);
+        const cur = existingByLabel[inc.label] || {};
+        const obj = { label: inc.label, condition: inc.condition || cur.condition || '' };
+        const tip = inc.tip !== undefined ? inc.tip : cur.tip;
+        if (tip) obj.tip = tip;
+        obj.words = (inc.words && inc.words.length) ? inc.words : (cur.words || []);
+        return obj;
+      });
+      for (const b of (lesson.buckets || [])) {
+        if (!seenLabels.has(b.label)) merged.push(b);
+      }
+      lesson.buckets = merged;
+    }
     updatedLessons++;
   }
 }

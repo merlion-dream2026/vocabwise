@@ -44,7 +44,10 @@ function exportKnowledgePair(k) {
   if (k.spelling?.length) {
     line('**spelling:**');
     for (const s of k.spelling) {
-      line(`- ${s.pattern} | ${s.examples.join(', ')}`);
+      // Skip IPA-appending for compound "word≠word" comparison entries — they don't
+      // have a clean 1 example : 1 IPA correspondence and would corrupt on round-trip.
+      const examples = s.examples.map((w, i) => (s.examples_ipa?.[i] && !w.includes('≠')) ? `${w} ${s.examples_ipa[i]}` : w);
+      line(`- ${s.pattern} | ${examples.join(', ')}`);
     }
     line();
   }
@@ -82,8 +85,10 @@ function exportKnowledgeRule(k) {
     line();
   }
 
-  line(`**vs_vietnamese:** ${k.vs_vietnamese}`);
-  line();
+  if (k.vs_vietnamese) {
+    line(`**vs_vietnamese:** ${k.vs_vietnamese}`);
+    line();
+  }
 }
 
 // ── Practice section (pair type) ──────────────────────────────────────────────
@@ -97,7 +102,8 @@ function exportPractice(lesson) {
   }
 
   if (lesson.practice_words?.length) {
-    line(`**practice_words:** ${lesson.practice_words.join(', ')}`);
+    const words = lesson.practice_words.map((w, i) => (lesson.practice_words_ipa?.[i] && !w.includes('≠')) ? `${w} ${lesson.practice_words_ipa[i]}` : w);
+    line(`**practice_words:** ${words.join(', ')}`);
     line();
   }
 
