@@ -82,21 +82,30 @@ export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: num
 
   const childIds = (allChildren ?? []).map(c => c.id)
 
-  // Batch-fetch vocab_sync streak data
+  // Batch-fetch vocab_sync streak + SRS data (one row per child per level)
   const { data: syncRows } = childIds.length
-    ? await supabase.from('vocab_sync').select('child_id, streak').in('child_id', childIds)
+    ? await supabase.from('vocab_sync').select('child_id, streak, srs').in('child_id', childIds)
     : { data: [] }
 
-  // Build per-child: { lastActive: string, streakCurrent: number }
-  type ChildMeta = { lastActive: string; streakCurrent: number }
+  // Build per-child: { lastActive: string, streakCurrent: number, dueCount: number }
+  // dueCount = words whose SM-2 `due` date (set by applySrsAnswer in GameSyncContext)
+  // has arrived — i.e. words the forgetting curve says are about to be forgotten,
+  // summed across all Daily levels the child has progress in.
+  type ChildMeta = { lastActive: string; streakCurrent: number; dueCount: number }
   const childMeta: Record<string, ChildMeta> = {}
   for (const row of syncRows ?? []) {
     const s = row.streak as { current?: number; lastActive?: string } | null
     const cur = s?.current ?? 0
     const la = s?.lastActive ?? ''
+    const srsMap = (row.srs as Record<string, { due?: string }> | null) ?? {}
+    const dueHere = Object.values(srsMap).filter(e => (e?.due ?? '') <= todayVN).length
+
     const prev = childMeta[row.child_id]
-    if (!prev || cur > prev.streakCurrent) {
-      childMeta[row.child_id] = { streakCurrent: cur, lastActive: la }
+    if (!prev) {
+      childMeta[row.child_id] = { streakCurrent: cur, lastActive: la, dueCount: dueHere }
+    } else {
+      prev.dueCount += dueHere
+      if (cur > prev.streakCurrent) { prev.streakCurrent = cur; prev.lastActive = la }
     }
   }
 
@@ -117,15 +126,22 @@ export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: num
     const studiedToday = children.some(c => (childMeta[c.id]?.lastActive ?? '').startsWith(todayVN))
     if (studiedToday) { skipped++; return }
 
-    // Personalize: pick child with highest streak
+    // Personalize: pick child with highest streak (for streak copy) and sum due
+    // reviews across all children (for forgetting-curve copy)
     const bestChild = children.reduce<{ name: string; streak: number } | null>((best, c) => {
       const streak = childMeta[c.id]?.streakCurrent ?? 0
       return !best || streak > best.streak ? { name: c.name, streak } : best
     }, null)
+    const familyDueCount = children.reduce((sum, c) => sum + (childMeta[c.id]?.dueCount ?? 0), 0)
 
     let title = '📚 Học từ vựng hôm nay nào!'
     let body = 'Duy trì streak — bé học 10 phút mỗi ngày!'
-    if (bestChild) {
+    if (familyDueCount > 0) {
+      // Forgetting-curve nudge takes priority — these words are past their SM-2 due
+      // date, i.e. the model predicts they're about to be forgotten.
+      title = `⏰ ${familyDueCount} từ sắp quên!`
+      body = 'Ôn lại ngay trước khi bé quên hẳn — chỉ mất 5 phút với chế độ Ôn tập 🧠'
+    } else if (bestChild) {
       if (bestChild.streak > 0) {
         title = `🔥 ${bestChild.name} đang có streak ${bestChild.streak} ngày!`
         body = `Đừng để mất streak — học 10 phút thôi là đủ 💪`

@@ -35,6 +35,12 @@ function daysSince(dateStr: string): number | null {
   return Math.floor(diff / 86400000)
 }
 
+// Typing (active recall) questions only for levels where the topic-game menu already
+// offers "Gõ từ" (explorer/scholar/master) — seeker/starter/ranger stay pure MCQ,
+// matching the age-appropriateness cutoff used there.
+const TYPING_LEVELS = new Set(['explorer', 'scholar', 'master'])
+const TYPING_RATIO = 0.4
+
 export default function ReviewSession({ words, level, backUrl, onSessionDone }: Props) {
   const router = useRouter()
   const { recordReviewAnswer, recordActivity, flush } = useGameSync()
@@ -58,6 +64,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
       .catch(() => {})
   }, [level])
 
+  const canType = TYPING_LEVELS.has(level)
   const questions = useMemo(() => {
     return words.map(entry => {
       const others = shuffle(distPool.filter(w => w.word !== entry.word))
@@ -65,12 +72,16 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
         { word: entry.word, meaning: entry.meaning, emoji: entry.emoji },
         ...others.slice(0, 3),
       ])
-      return { entry, choices }
+      const mode: 'mcq' | 'type' = canType && Math.random() < TYPING_RATIO ? 'type' : 'mcq'
+      return { entry, choices, mode }
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words, distPool])
 
   const [idx, setIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
+  const [typedInput, setTypedInput] = useState('')
+  const typeInputRef = useRef<HTMLInputElement>(null)
   const [streaks, setStreaks] = useState<Record<string, number>>(() =>
     Object.fromEntries(words.map(w => [w.word, w.correctStreak]))
   )
@@ -99,10 +110,19 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
     flush()
   }, [done])
 
+  // Focus the typing input when a new typing-mode question comes up.
+  useEffect(() => {
+    if (done || !current || current.mode !== 'type' || selected !== null) return
+    const t = setTimeout(() => typeInputRef.current?.focus(), 150)
+    return () => clearTimeout(t)
+  }, [idx, done, current, selected])
+
+  // `word` is either an MCQ choice (exact match already) or raw typed text —
+  // normalize so a typed answer isn't marked wrong over case/whitespace.
   const handleSelect = (word: string) => {
     if (selected !== null) return
     setSelected(word)
-    const isCorrect = word === current.entry.word
+    const isCorrect = word.trim().toLowerCase() === current.entry.word.trim().toLowerCase()
     const mastered_ = recordReviewAnswer(current.entry.word, isCorrect)
 
     let newStreak = streaks[current.entry.word] ?? 0
@@ -126,8 +146,14 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
       } else {
         setIdx(i => i + 1)
         setSelected(null)
+        setTypedInput('')
       }
     }, isCorrect ? 900 : 1400)
+  }
+
+  const handleTypeSubmit = () => {
+    if (!typedInput.trim()) return
+    handleSelect(typedInput)
   }
 
   if (done) {
@@ -245,7 +271,41 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
         </div>
 
         {/* Choices */}
-        {isStarter ? (
+        {current.mode === 'type' ? (
+          <div className="flex-1 flex flex-col">
+            <input
+              ref={typeInputRef}
+              type="text"
+              value={typedInput}
+              onChange={e => { if (selected === null) setTypedInput(e.target.value) }}
+              onKeyDown={e => { if (e.key === 'Enter') handleTypeSubmit() }}
+              disabled={selected !== null}
+              placeholder="Gõ từ tiếng Anh..."
+              aria-label="Gõ từ tiếng Anh"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="none"
+              spellCheck={false}
+              className={`w-full border-2 rounded-2xl px-4 py-4 text-2xl font-bold outline-none transition-colors duration-200 mb-3 text-gray-800 placeholder:text-gray-300 ${
+                selected === null ? 'border-gray-200 bg-white' :
+                selected.trim().toLowerCase() === current.entry.word.trim().toLowerCase() ? 'border-green-400 bg-green-50' : 'border-red-400 bg-red-50'
+              }`}
+            />
+            <div role="status" aria-live="polite" className="min-h-[1.75rem] mb-3">
+              {selected !== null && (
+                selected.trim().toLowerCase() === current.entry.word.trim().toLowerCase()
+                  ? <p className="text-green-500 font-black text-lg">✅ Chính xác!</p>
+                  : <p className="text-red-500 font-black text-lg">❌ Đáp án đúng: <span className="underline">{current.entry.word}</span></p>
+              )}
+            </div>
+            {selected === null && (
+              <button onClick={handleTypeSubmit} disabled={!typedInput.trim()}
+                className={`w-full ${accentBtn} disabled:opacity-40 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95`}>
+                Kiểm tra ✓
+              </button>
+            )}
+          </div>
+        ) : isStarter ? (
           <div className="grid grid-cols-2 gap-3 flex-1">
             {current.choices.map(choice => {
               const isSelected = selected === choice.word

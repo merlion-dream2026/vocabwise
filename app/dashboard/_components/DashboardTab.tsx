@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { buildSyncSummary, computeEarnedBadges, getXpLevel } from '@/lib/badges'
 import {
   getPhonicsProgress, getDailyHighestLevel, getAllDailyProgress, getAllAcademicProgress, getXPAndBadge,
-  getGlobalStreak, getDailyXP, DAILY_XP_GOAL,
+  getGlobalStreak, getDailyXP, DAILY_XP_GOAL, DAILY_LEVEL_ORDER,
 } from '@/lib/childProgress'
 import OnboardingChecklist from '@/components/OnboardingChecklist'
 import Image from 'next/image'
@@ -144,9 +144,23 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
             const todayXP     = getDailyXP(syncAll as SyncAllLevels)
             const xpGoalDone  = todayXP >= DAILY_XP_GOAL
 
-            // Weak words from active Daily level
-            const weakEntries = Object.entries(syncAll[activeLevel]?.weak_words ?? {})
-              .sort((a, b) => weakCount(b[1]) - weakCount(a[1])).slice(0, 8)
+            // Weak words aggregated across ALL Daily levels (not just the active one) —
+            // a word missed in an earlier level shouldn't disappear once the child moves on.
+            const weakAgg: Record<string, { count: number; lastWrong: string; level: string }> = {}
+            for (const lvl of DAILY_LEVEL_ORDER) {
+              for (const [word, val] of Object.entries(syncAll[lvl]?.weak_words ?? {})) {
+                const count = weakCount(val)
+                const lastWrong = typeof val === 'number' ? '' : (val.lastWrong ?? '')
+                const prev = weakAgg[word]
+                if (!prev || lastWrong > prev.lastWrong) {
+                  weakAgg[word] = { count: (prev?.count ?? 0) + count, lastWrong, level: lvl }
+                } else {
+                  prev.count += count
+                }
+              }
+            }
+            const weakEntries = Object.entries(weakAgg).sort((a, b) => b[1].count - a[1].count)
+            const weakTop = weakEntries.slice(0, 8)
 
             // Badges from active level
             const summary   = buildSyncSummary(syncAll[activeLevel] as Parameters<typeof buildSyncSummary>[0])
@@ -225,13 +239,15 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
 
                   {/* Weak words + badges */}
                   <div className="mt-3 space-y-1.5">
-                    {weakEntries.length > 0 ? (
+                    {weakTop.length > 0 ? (
                       <div>
-                        <p className="text-xs font-bold text-orange-500 mb-1">⚠️ Từ yếu cần ôn</p>
+                        <p className="text-xs font-bold text-orange-500 mb-1">
+                          ⚠️ Từ yếu cần ôn {weakEntries.length > weakTop.length && <span className="text-orange-300 font-semibold">(top {weakTop.length}/{weakEntries.length})</span>}
+                        </p>
                         <div className="flex flex-wrap gap-1">
-                          {weakEntries.map(([word, val]) => (
-                            <span key={word} className="bg-orange-50 border border-orange-200 rounded-xl px-2 py-0.5 text-xs font-bold text-orange-700">
-                              {word} <span className="text-orange-400">×{weakCount(val)}</span>
+                          {weakTop.map(([word, val]) => (
+                            <span key={word} title={`Level: ${val.level}`} className="bg-orange-50 border border-orange-200 rounded-xl px-2 py-0.5 text-xs font-bold text-orange-700">
+                              {word} <span className="text-orange-400">×{val.count}</span>
                             </span>
                           ))}
                         </div>
