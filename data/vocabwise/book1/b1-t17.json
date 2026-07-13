@@ -519,7 +519,7 @@
             "B": "graded",
             "C": "studied"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "'Graded' means marked or scored by a teacher. The correct word for completing school and receiving your qualification is 'graduated'."
         },
         {
@@ -548,15 +548,15 @@
         },
         {
           "id": 5,
-          "sentence": "My English [teacher] has improved a lot — I can speak more confidently now.",
-          "highlighted": "teacher",
+          "sentence": "My [English teacher] has improved a lot — I can speak more confidently now.",
+          "highlighted": "English teacher",
           "options": {
-            "A": "learning",
-            "B": "teacher",
-            "C": "studying"
+            "A": "English",
+            "B": "English teacher",
+            "C": "English lessons"
           },
-          "answer": "C",
-          "explanation": "Your 'teacher' is a person — a person cannot 'improve'. What improves is your 'learning' (or skill). 'My learning has improved' is the correct phrasing."
+          "answer": "A",
+          "explanation": "A teacher is a person, but the speaker's ability is what has improved. 'My English has improved' is natural and agrees with the singular verb 'has'."
         }
       ]
     },

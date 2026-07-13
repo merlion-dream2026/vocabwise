@@ -552,7 +552,7 @@
           "highlighted": "ordinary",
           "options": {
             "A": "ordinary",
-            "B": "noisy",
+            "B": "terrible",
             "C": "special"
           },
           "answer": "C",

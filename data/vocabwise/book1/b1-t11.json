@@ -539,7 +539,7 @@
         },
         {
           "id": 4,
-          "sentence": "He [gived] his dog some food before going to school each morning.",
+          "sentence": "He [gived] his dog some food before going to school each morning last week.",
           "highlighted": "gived",
           "options": {
             "A": "gived",
@@ -556,7 +556,7 @@
           "options": {
             "A": "large cages",
             "B": "large cage",
-            "C": "a large cage"
+            "C": "a large cages"
           },
           "answer": "A",
           "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here."

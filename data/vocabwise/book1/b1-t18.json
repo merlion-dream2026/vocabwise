@@ -500,7 +500,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My father's [work] pays very well — he receives a large amount every month.",
+          "sentence": "My father's [work] is very high — he receives a large amount every month.",
           "highlighted": "work",
           "options": {
             "A": "work",
@@ -515,12 +515,12 @@
           "sentence": "He put on his [apron] and drove the children to school safely.",
           "highlighted": "apron",
           "options": {
-            "A": "uniform",
+            "A": "uniformly",
             "B": "apron",
             "C": "seatbelt"
           },
           "answer": "C",
-          "explanation": "A driver wears a 'uniform', not an 'apron'. An apron is worn to protect clothes while cooking, not while driving."
+          "explanation": "Before driving, a person puts on a 'seatbelt' for safety. 'Uniformly' is an adverb and cannot name something worn, while an 'apron' is used mainly when cooking."
         },
         {
           "id": 3,
@@ -718,7 +718,7 @@
     },
     "ex5": {
       "1": "B",
-      "2": "A",
+      "2": "C",
       "3": "B",
       "4": "A",
       "5": "C"

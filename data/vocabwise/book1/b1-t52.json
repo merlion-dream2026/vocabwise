@@ -506,7 +506,7 @@
           "sentence": "She [downloaded] her holiday photos to the internet so her friends could see them.",
           "highlighted": "downloaded",
           "options": {
-            "A": "shared",
+            "A": "deleted",
             "B": "downloaded",
             "C": "uploaded"
           },
@@ -527,15 +527,15 @@
         },
         {
           "id": 3,
-          "sentence": "You need to log into your [profile] with your username and password to use the app.",
-          "highlighted": "profile",
+          "sentence": "You need to log into your [profiled] with your username and password to use the app.",
+          "highlighted": "profiled",
           "options": {
             "A": "video",
-            "B": "profile",
+            "B": "profiled",
             "C": "account"
           },
           "answer": "C",
-          "explanation": "A 'profile' is the page that shows your information. What you log into with a username and password is your 'account' — the access point to your online presence."
+          "explanation": "'Profiled' is a verb or adjective and cannot be the noun after 'your' here. The service you access with a username and password is an 'account'."
         },
         {
           "id": 4,

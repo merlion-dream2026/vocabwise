@@ -512,7 +512,7 @@
         },
         {
           "id": 2,
-          "sentence": "The [rescue] of spilled oil on the factory floor caused a serious accident.",
+          "sentence": "The [rescue] on the factory floor was spilled oil, which caused a serious accident.",
           "highlighted": "rescue",
           "options": {
             "A": "burn",

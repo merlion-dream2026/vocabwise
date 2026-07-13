@@ -512,7 +512,7 @@
         },
         {
           "id": 2,
-          "sentence": "I left a [text] on her phone because she did not answer when I called.",
+          "sentence": "I left a [text] on her phone after the beep because she did not answer when I called.",
           "highlighted": "text",
           "options": {
             "A": "signal",
@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "After we finished talking, I [dialled] and said goodbye.",
+          "sentence": "After we said goodbye, I [dialled] to end the call.",
           "highlighted": "dialled",
           "options": {
             "A": "rang",
@@ -548,7 +548,7 @@
         },
         {
           "id": 5,
-          "sentence": "I saw her [busy] on my screen when I got home, so I called her back right away.",
+          "sentence": "I saw a [busy] from her on my screen when I got home, so I called her back right away.",
           "highlighted": "busy",
           "options": {
             "A": "missed call",

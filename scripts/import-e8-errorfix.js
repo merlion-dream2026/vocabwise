@@ -2,6 +2,9 @@
 // Expects a Markdown file of diff blocks in the same format produced by
 // scripts/export-e8-errorfix.js — only fields that changed need to be present.
 // Usage: node scripts/import-e8-errorfix.js exports/e8-audit/book1-fixes.md
+//
+// Validates every block BEFORE writing anything (all-or-nothing) — a single bad
+// block should not leave some topic files patched and others not.
 const fs = require('fs')
 const path = require('path')
 
@@ -15,8 +18,10 @@ const FIELD_MAP = {
   EXPLANATION_VI: 'explanation_vi',
 }
 
+// Header may or may not carry a Markdown "### " prefix — GPT output pasted from a
+// chat UI often loses it since "### [...]" renders as an actual heading there.
 function parseFixFile(text) {
-  const blocks = text.split(/^### \[/m).slice(1)
+  const blocks = text.split(/^#{0,6}\s*\[(?=book\d+\/)/m).slice(1)
   return blocks.map(block => {
     const [idLine, ...rest] = block.split('\n')
     const id = idLine.replace(/\]\s*$/, '').trim()
@@ -42,50 +47,88 @@ function parseFixFile(text) {
   })
 }
 
+function extractBracket(sentence) {
+  const m = sentence.match(/\[([^\]]+)\]/)
+  return m ? m[1] : null
+}
+
+function diffFields(before, after) {
+  const changed = []
+  for (const k of ['sentence', 'highlighted', 'options', 'answer', 'explanation', 'explanation_vi']) {
+    if (JSON.stringify(before[k]) !== JSON.stringify(after[k])) changed.push(k)
+  }
+  return changed
+}
+
 function applyFixes(fixPath) {
   const text = fs.readFileSync(fixPath, 'utf8')
   const fixes = parseFixFile(text)
-  console.log(`Parsed ${fixes.length} fix block(s) from ${fixPath}`)
+  console.log(`Parsed ${fixes.length} fix block(s) from ${fixPath}\n`)
 
-  const byTopic = new Map()
+  const dataCache = new Map() // "book/topicId" -> { filePath, data }
+  const errors = []
+  const changeLog = []
+
   for (const fix of fixes) {
     const key = `${fix.book}/${fix.topicId}`
-    if (!byTopic.has(key)) byTopic.set(key, [])
-    byTopic.get(key).push(fix)
-  }
 
-  let filesChanged = 0
-  for (const [key, topicFixes] of byTopic) {
-    const [book, topicId] = key.split('/')
-    const filePath = path.join(ROOT, 'data', 'vocabwise', `book${book}`, `${topicId}.json`)
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-    const items = data.exercises?.ex5_error_fix?.items
-    if (!items) throw new Error(`No ex5_error_fix in ${filePath}`)
+    if (!dataCache.has(key)) {
+      const filePath = path.join(ROOT, 'data', 'vocabwise', `book${fix.book}`, `${fix.topicId}.json`)
+      if (!fs.existsSync(filePath)) {
+        errors.push(`${key}: file not found at ${filePath}`)
+        continue
+      }
+      dataCache.set(key, { filePath, data: JSON.parse(fs.readFileSync(filePath, 'utf8')) })
+    }
+    const entry = dataCache.get(key)
+    if (!entry) continue
 
-    for (const fix of topicFixes) {
-      const item = items.find(i => i.id === fix.itemId)
-      if (!item) throw new Error(`item${fix.itemId} not found in ${topicId}`)
+    const items = entry.data.exercises?.ex5_error_fix?.items
+    if (!items) { errors.push(`${key}: no exercises.ex5_error_fix.items`); continue }
+    const item = items.find(i => i.id === fix.itemId)
+    if (!item) { errors.push(`${key} item${fix.itemId}: not found`); continue }
 
-      const { options, __reason, ...scalarFields } = fix.fields
-      if (options) Object.assign(item.options, options)
-      Object.assign(item, scalarFields)
-      if (__reason) console.log(`    [${topicId} item${item.id}] ${__reason}`)
+    const before = JSON.parse(JSON.stringify(item))
+    const { options, __reason, ...scalarFields } = fix.fields
 
-      // Guard rails — answer must point at an actual option, all three must be distinct
-      if (!['A', 'B', 'C'].includes(item.answer)) throw new Error(`${topicId} item${item.id}: invalid answer "${item.answer}"`)
-      const vals = Object.values(item.options)
-      if (new Set(vals).size !== 3) throw new Error(`${topicId} item${item.id}: duplicate options`)
+    if (options) Object.assign(item.options, options)
+    Object.assign(item, scalarFields)
 
-      // Keep answer_key.ex5 in sync (it duplicates E8 answers for the print/reference key)
-      if (data.answer_key?.ex5) data.answer_key.ex5[String(item.id)] = item.answer
+    if (!['A', 'B', 'C'].includes(item.answer)) {
+      errors.push(`${key} item${item.id}: invalid answer "${item.answer}"`)
+    }
+    const optVals = Object.values(item.options)
+    if (new Set(optVals).size !== 3) {
+      errors.push(`${key} item${item.id}: duplicate option text ${JSON.stringify(item.options)}`)
+    }
+    if (scalarFields.sentence !== undefined) {
+      const bracket = extractBracket(item.sentence)
+      if (bracket === null) {
+        errors.push(`${key} item${item.id}: new SENTENCE has no [bracket]`)
+      } else if (bracket !== item.highlighted && scalarFields.highlighted === undefined) {
+        errors.push(`${key} item${item.id}: SENTENCE bracket "${bracket}" != HIGHLIGHTED "${item.highlighted}" — fix must set HIGHLIGHTED too`)
+      }
     }
 
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2))
-    filesChanged++
-    console.log(`  updated ${topicId} (${topicFixes.length} item fix(es))`)
+    if (entry.data.answer_key?.ex5) entry.data.answer_key.ex5[String(item.id)] = item.answer
+
+    changeLog.push({ key, itemId: item.id, changed: diffFields(before, item), reason: __reason })
   }
 
-  console.log(`Done — ${filesChanged} topic file(s) updated.`)
+  if (errors.length > 0) {
+    console.error(`${errors.length} error(s) — ABORTED, no files written:\n`)
+    errors.forEach(e => console.error('  - ' + e))
+    process.exit(1)
+  }
+
+  for (const { filePath, data } of dataCache.values()) {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2))
+  }
+
+  console.log(`Applied ${changeLog.length} item fix(es) across ${dataCache.size} topic file(s):\n`)
+  for (const c of changeLog) {
+    console.log(`  [${c.key} item${c.itemId}] changed: ${c.changed.join(', ')}${c.reason ? ' — ' + c.reason : ''}`)
+  }
 }
 
 const fixPath = process.argv[2]

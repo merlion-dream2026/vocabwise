@@ -548,7 +548,7 @@
         },
         {
           "id": 5,
-          "sentence": "I use a language [device] to practise English — I do ten minutes every morning.",
+          "sentence": "I open a language [device] on my phone to practise English — I do ten minutes every morning.",
           "highlighted": "device",
           "options": {
             "A": "device",

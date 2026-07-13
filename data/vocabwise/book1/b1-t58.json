@@ -512,7 +512,7 @@
         },
         {
           "id": 2,
-          "sentence": "I forgot to add the [signature] — I sent the photo without it and had to send the email again.",
+          "sentence": "I forgot to add the [signature] — the email arrived without the photo file, so I had to send it again.",
           "highlighted": "signature",
           "options": {
             "A": "attachment",
@@ -524,15 +524,15 @@
         },
         {
           "id": 3,
-          "sentence": "His message was very difficult to read — it was not [professional] at all.",
-          "highlighted": "professional",
+          "sentence": "His message was very difficult to read — it was not [clearly] at all.",
+          "highlighted": "clearly",
           "options": {
             "A": "clear",
-            "B": "informal",
-            "C": "professional"
+            "B": "clearly",
+            "C": "clarity"
           },
           "answer": "A",
-          "explanation": "'Professional' describes the correct style for a work context. The sentence says the message was hard to read — the right word is 'clear', meaning easy to understand."
+          "explanation": "After the linking verb 'was', use the adjective 'clear'. 'Clearly' is an adverb and 'clarity' is a noun."
         },
         {
           "id": 4,
@@ -540,7 +540,7 @@
           "highlighted": "informal",
           "options": {
             "A": "informal",
-            "B": "clear",
+            "B": "casual",
             "C": "formal"
           },
           "answer": "C",

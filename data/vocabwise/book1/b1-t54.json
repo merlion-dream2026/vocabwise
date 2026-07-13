@@ -500,10 +500,10 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The [villain] saves the princess from the dragon and becomes a national hero.",
+          "sentence": "The [villain] saves the princess from the dragon and is praised across the kingdom.",
           "highlighted": "villain",
           "options": {
-            "A": "narrator",
+            "A": "setting",
             "B": "villain",
             "C": "hero"
           },
@@ -512,7 +512,7 @@
         },
         {
           "id": 2,
-          "sentence": "Every story has a [beginning], a middle, and a [narrator].",
+          "sentence": "Every story has a beginning, a middle, and a [narrator].",
           "highlighted": "narrator",
           "options": {
             "A": "end",

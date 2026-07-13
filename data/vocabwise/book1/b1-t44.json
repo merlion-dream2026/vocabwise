@@ -520,15 +520,15 @@
             "C": "get lost"
           },
           "answer": "A",
-          "explanation": "'Depart' means to leave a place at the start of a journey — not to return. When you go back to where you started, you 'head back'."
+          "explanation": "'Depart' means to leave and is normally followed by 'from' or 'for', not 'to' when expressing a return. 'Head back to' means to return to a place."
         },
         {
           "id": 3,
           "sentence": "The [itinerary] in the countryside was stunning — green hills and a wide blue river.",
           "highlighted": "itinerary",
           "options": {
-            "A": "destination",
-            "B": "trip",
+            "A": "suitcase",
+            "B": "schedule",
             "C": "scenery"
           },
           "answer": "C",

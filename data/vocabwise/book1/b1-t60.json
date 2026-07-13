@@ -551,15 +551,15 @@
         },
         {
           "id": 5,
-          "sentence": "He did not [understand] to the question, so the teacher explained it again.",
-          "highlighted": "understand",
+          "sentence": "He did not [understand to] the question, so the teacher explained it again.",
+          "highlighted": "understand to",
           "options": {
-            "A": "reply",
-            "B": "ask",
-            "C": "know"
+            "A": "understand",
+            "B": "reply",
+            "C": "understanding"
           },
           "answer": "A",
-          "explanation": "'Understand' is followed by an object, not 'to'. 'Understand to a question' is not natural English. The correct phrase is 'reply to a question' — meaning to give an answer back to someone."
+          "explanation": "'Understand' takes a direct object with no preposition: 'understand the question'. 'Reply' would require 'to', and 'understanding' is not used after 'did not'."
         }
       ]
     },

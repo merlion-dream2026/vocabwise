@@ -508,7 +508,7 @@
             "C": "recipient"
           },
           "answer": "C",
-          "explanation": "The address on the front of a parcel is for the person who receives it — the 'recipient'. The 'sender' is the person who sends it, and their address goes on the back."
+          "explanation": "The main delivery address is the address of the person receiving the parcel — the 'recipient'. The sender's return address is written separately."
         },
         {
           "id": 2,

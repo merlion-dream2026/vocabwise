@@ -505,7 +505,7 @@
           "options": {
             "A": "proud",
             "B": "lonely",
-            "C": "excited"
+            "C": "ashamed"
           },
           "answer": "A",
           "explanation": "When you win a race and friends cheer for you, you feel 'proud' — happy and satisfied about your achievement. 'Lonely' means feeling sad because you are alone, which does not match this positive situation."
@@ -515,7 +515,7 @@
           "sentence": "He was so [calm] before the exam — his hands were shaking and he could not sleep.",
           "highlighted": "calm",
           "options": {
-            "A": "upset",
+            "A": "relaxed",
             "B": "calm",
             "C": "nervous"
           },
@@ -552,7 +552,7 @@
           "highlighted": "excited",
           "options": {
             "A": "excited",
-            "B": "sad",
+            "B": "relieved",
             "C": "worried"
           },
           "answer": "C",

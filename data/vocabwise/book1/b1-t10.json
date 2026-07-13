@@ -508,7 +508,7 @@
           "options": {
             "A": "temperature",
             "B": "temperature's",
-            "C": "temperatures"
+            "C": "temperatured"
           },
           "answer": "A",
           "explanation": "No apostrophe is needed here. 'The temperature' is a simple noun subject, not a possessive form."
@@ -546,7 +546,7 @@
             "B": "hotly",
             "C": "hotter"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "After the linking verb 'was', use an adjective: 'hot'. 'Hotly' is an adverb and cannot describe the weather here."
         },
         {
@@ -555,7 +555,7 @@
           "highlighted": "raining",
           "options": {
             "A": "raining",
-            "B": "rained",
+            "B": "rain",
             "C": "rains"
           },
           "answer": "C",

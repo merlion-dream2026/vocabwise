@@ -512,22 +512,22 @@
         },
         {
           "id": 2,
-          "sentence": "The teacher asked us to write a short [outline] about whether we enjoyed the book.",
-          "highlighted": "outline",
+          "sentence": "The teacher asked us to write a short [outlining] about whether we enjoyed the book.",
+          "highlighted": "outlining",
           "options": {
             "A": "review",
-            "B": "outline",
+            "B": "outlining",
             "C": "chapter"
           },
           "answer": "A",
-          "explanation": "An 'outline' is a plan of the main points, not an opinion piece. When you write your thoughts about whether you enjoyed a book, you write a 'review'."
+          "explanation": "After 'write a short', a countable noun is needed. A piece of writing that gives an opinion about a book is a 'review'; 'outlining' is a verb form."
         },
         {
           "id": 3,
           "sentence": "She wrote her feelings in her [summary] every night before going to sleep.",
           "highlighted": "summary",
           "options": {
-            "A": "notes",
+            "A": "headings",
             "B": "chapter",
             "C": "diary"
           },
@@ -548,15 +548,15 @@
         },
         {
           "id": 5,
-          "sentence": "The [page] of the novel was written by a famous Vietnamese writer.",
+          "sentence": "The [page] of the novel was a famous Vietnamese writer.",
           "highlighted": "page",
           "options": {
             "A": "story",
             "B": "page",
             "C": "author"
           },
-          "answer": "A",
-          "explanation": "A 'page' is one side of a sheet in a book — it cannot be 'written by' anyone in this sense. The person who writes a novel is its 'author'. However, the sentence is about the work itself, so 'story' fits best here."
+          "answer": "C",
+          "explanation": "The person who writes a novel is its 'author'. A page or story cannot be a writer."
         }
       ]
     },
@@ -721,7 +721,7 @@
       "2": "A",
       "3": "C",
       "4": "B",
-      "5": "A"
+      "5": "C"
     }
   },
   "grammar_spotlight": {

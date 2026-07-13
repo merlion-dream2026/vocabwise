@@ -524,27 +524,27 @@
         },
         {
           "id": 3,
-          "sentence": "She ran [busily] down the quiet street to catch the school bus.",
+          "sentence": "She ran as [busily] as she could down the quiet street to catch the school bus.",
           "highlighted": "busily",
           "options": {
             "A": "quickly",
             "B": "busily",
-            "C": "quietly"
+            "C": "slowly"
           },
           "answer": "A",
-          "explanation": "'Busily' means in a busy, active manner — it doesn't describe speed or movement well here. 'Quickly' is the correct adverb for running to catch a bus."
+          "explanation": "The structure 'as ... as she could' needs an adverb describing speed. 'Quickly' fits the need to catch the bus, while 'busily' does not describe speed and 'slowly' contradicts the context."
         },
         {
           "id": 4,
-          "sentence": "Turn left at the [road] and then go straight for about two minutes.",
-          "highlighted": "road",
+          "sentence": "Turn left at the [roaded] and then go straight for about two minutes.",
+          "highlighted": "roaded",
           "options": {
-            "A": "road",
+            "A": "roaded",
             "B": "junction",
             "C": "tower"
           },
           "answer": "B",
-          "explanation": "When giving directions and telling someone 'turn left at the ___', the correct word is 'junction' (intersection), not 'road'."
+          "explanation": "After 'at the', a noun naming the place is needed. A 'junction' is where roads meet; 'roaded' is an adjective and cannot be used as the noun here."
         },
         {
           "id": 5,

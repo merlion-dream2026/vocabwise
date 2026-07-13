@@ -534,12 +534,12 @@
             "B": "skies",
             "C": "skyline"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "When referring to the sky above us in a specific place, use the singular: 'the sky'. 'Skies' is used poetically or for weather across different regions — not for one clear sky."
         },
         {
           "id": 4,
-          "sentence": "We sat beside the [streams] and listened to the sound of the water.",
+          "sentence": "We sat beside a [streams] and listened to the sound of the water.",
           "highlighted": "streams",
           "options": {
             "A": "streams",
@@ -547,7 +547,7 @@
             "C": "streamed"
           },
           "answer": "B",
-          "explanation": "The article 'the' before a countable noun can be used with singular or plural, but the context describes one specific stream next to which 'we sat'. The singular 'stream' is correct here."
+          "explanation": "After the singular article 'a', use the singular noun 'stream'. 'A streams' is grammatically incorrect."
         },
         {
           "id": 5,

@@ -536,15 +536,15 @@
         },
         {
           "id": 4,
-          "sentence": "My father is [thin] and strong — he goes to the gym every day and has very big arms.",
+          "sentence": "My father is [thin] — he has broad shoulders, huge arms, and a powerful, heavily built body.",
           "highlighted": "thin",
           "options": {
-            "A": "overweight",
+            "A": "weak",
             "B": "thin",
             "C": "muscular"
           },
           "answer": "C",
-          "explanation": "'Thin' means having little body fat. Someone who goes to the gym daily and has very big arms is 'muscular' — that is the correct word for a strong, well-built body."
+          "explanation": "'Thin' describes a narrow or lightly built body. Broad shoulders, huge arms, and a powerful build describe someone who is 'muscular', not thin or weak."
         },
         {
           "id": 5,
@@ -552,7 +552,7 @@
           "highlighted": "different",
           "options": {
             "A": "similar",
-            "B": "beautiful",
+            "B": "unrelated",
             "C": "different"
           },
           "answer": "A",

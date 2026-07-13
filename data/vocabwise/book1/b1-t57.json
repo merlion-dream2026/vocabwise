@@ -524,15 +524,15 @@
         },
         {
           "id": 3,
-          "sentence": "The floor [symbols] tell you which areas are for walking and which are for machines.",
+          "sentence": "The floor [symbols] — long painted lines — tell you which areas are for walking and which are for machines.",
           "highlighted": "symbols",
           "options": {
-            "A": "routes",
-            "B": "markers",
+            "A": "warnings",
+            "B": "markings",
             "C": "symbols"
           },
           "answer": "B",
-          "explanation": "A 'symbol' is a picture with a meaning, usually on a sign. Lines or stickers on the floor that show where to walk or stand are called 'markers'."
+          "explanation": "Long painted lines on a floor are 'markings'. 'Symbols' are pictures or signs representing ideas, while 'warnings' are messages about danger."
         },
         {
           "id": 4,
@@ -548,15 +548,15 @@
         },
         {
           "id": 5,
-          "sentence": "The hospital map uses a _____ [warning] system — red for urgent, blue for general.",
-          "highlighted": "warning",
+          "sentence": "The hospital map uses a [cautiously] system — red for urgent, blue for general.",
+          "highlighted": "cautiously",
           "options": {
-            "A": "colour coded",
-            "B": "warning",
-            "C": "cautious"
+            "A": "colour-coded",
+            "B": "warningly",
+            "C": "cautiously"
           },
           "answer": "A",
-          "explanation": "A 'warning' system would only alert people to danger. Using different colours to organise or categorise information is called a 'colour coded' system."
+          "explanation": "Before the noun 'system', an adjective is needed. 'Colour-coded' describes a system that uses different colours for categories; 'warningly' and 'cautiously' are adverbs."
         }
       ]
     },

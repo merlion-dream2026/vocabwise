@@ -554,15 +554,15 @@
         },
         {
           "id": 5,
-          "sentence": "He walked through the quiet [zone] looking for the travel section.",
-          "highlighted": "zone",
+          "sentence": "He walked down the quiet [zoning] between two rows of books, looking for the travel section.",
+          "highlighted": "zoning",
           "options": {
             "A": "card",
             "B": "aisle",
-            "C": "zone"
+            "C": "zoning"
           },
           "answer": "B",
-          "explanation": "A 'zone' is a designated area (like a quiet zone or reading zone). When you walk through the rows of shelves looking for a section, you walk through an 'aisle' — the narrow passage between shelves."
+          "explanation": "The narrow passage between rows of shelves is an 'aisle'. 'Zoning' refers to dividing land or space into designated areas and cannot name this passage."
         }
       ]
     },

@@ -517,7 +517,7 @@
           "options": {
             "A": "quiet",
             "B": "noisy",
-            "C": "shy"
+            "C": "loud"
           },
           "answer": "A",
           "explanation": "'Noisy' means loud and disruptive. Someone who never speaks loudly and listens carefully is 'quiet', not noisy."
@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "My uncle is very [shy] — he speaks in front of hundreds of people at meetings every week.",
+          "sentence": "My uncle is very [shy] — he talks to everyone he meets and can chat for hours without stopping.",
           "highlighted": "shy",
           "options": {
             "A": "shy",
@@ -544,11 +544,11 @@
             "C": "patient"
           },
           "answer": "B",
-          "explanation": "'Shy' means uncomfortable around others. Someone who regularly speaks in front of hundreds of people is 'talkative' and confident, not shy."
+          "explanation": "'Shy' means uncomfortable speaking to other people. Someone who talks to everyone and chats for hours is 'talkative', not shy."
         },
         {
           "id": 5,
-          "sentence": "He always works hard and is never [helpful] — he loves doing nothing and hates responsibilities.",
+          "sentence": "He is always [helpful] — he loves doing nothing and hates responsibilities.",
           "highlighted": "helpful",
           "options": {
             "A": "lazy",

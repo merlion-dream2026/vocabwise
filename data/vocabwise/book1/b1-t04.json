@@ -523,7 +523,7 @@
             "C": "paid"
           },
           "answer": "C",
-          "explanation": "'Pay' is an irregular verb: pay → paid (past simple). 'Payed' does not exist in English."
+          "explanation": "For the meaning of paying money, 'pay' has the irregular past form 'paid'. 'Payed' is used only in rare specialised nautical contexts, not here."
         },
         {
           "id": 2,
@@ -551,7 +551,7 @@
         },
         {
           "id": 4,
-          "sentence": "The price of the jacket [were] too expensive for my budget.",
+          "sentence": "The price of the jacket [were] too high for my budget.",
           "highlighted": "were",
           "options": {
             "A": "was",

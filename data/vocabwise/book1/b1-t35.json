@@ -500,12 +500,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I always feel very [excited] before an exam — my hands shake and I cannot sleep well.",
+          "sentence": "I always feel very [excited] before an exam — I am terrified, dread it, and wish it would be cancelled.",
           "highlighted": "excited",
           "options": {
             "A": "nervous",
             "B": "excited",
-            "C": "prepared"
+            "C": "relaxed"
           },
           "answer": "A",
           "explanation": "'Excited' usually means looking forward to something with pleasure. When your hands shake and you cannot sleep before a test, the correct word is 'nervous' — feeling worried and anxious."

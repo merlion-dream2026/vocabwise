@@ -512,15 +512,15 @@
         },
         {
           "id": 2,
-          "sentence": "The museum has an exciting [collection] on ancient Rome — go to level two to see it.",
-          "highlighted": "collection",
+          "sentence": "The museum has an exciting [collect] on ancient Rome — go to level two to see it.",
+          "highlighted": "collect",
           "options": {
             "A": "object",
             "B": "audio",
             "C": "exhibit"
           },
           "answer": "C",
-          "explanation": "A 'collection' is a group of objects. A single display or show about a topic in a museum is an 'exhibit'."
+          "explanation": "'Collect' is a verb. A public display about a particular topic in a museum is an 'exhibit'."
         },
         {
           "id": 3,
@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "Each small [showcase] in the display had the object's name and the year it was made.",
+          "sentence": "Each small [showcase] attached directly to an object in the display had the object's name and the year it was made.",
           "highlighted": "showcase",
           "options": {
             "A": "wing",
@@ -548,15 +548,15 @@
         },
         {
           "id": 5,
-          "sentence": "The museum is very big, so we used the [guide] on the wall to find each room.",
-          "highlighted": "guide",
+          "sentence": "The museum is very big, so we used the [guided] on the wall to find each room.",
+          "highlighted": "guided",
           "options": {
-            "A": "guide",
+            "A": "guided",
             "B": "tag",
             "C": "floor plan"
           },
           "answer": "C",
-          "explanation": "'Guide' usually refers to a person or audio device. Something fixed on a wall that shows you a map of all the rooms in a building is a 'floor plan'."
+          "explanation": "After 'used the', a noun is needed. A map on the wall showing the position of rooms is a 'floor plan'; 'guided' is a verb form or adjective."
         }
       ]
     },

@@ -515,7 +515,7 @@
           "sentence": "The students put their clay [patterns] in the glass cabinet for the school art show.",
           "highlighted": "patterns",
           "options": {
-            "A": "designs",
+            "A": "songs",
             "B": "sketches",
             "C": "sculptures"
           },
@@ -539,8 +539,8 @@
           "sentence": "She had a wonderful [sculpture] to make flowers from folded paper and glue.",
           "highlighted": "sculpture",
           "options": {
-            "A": "pattern",
-            "B": "artist",
+            "A": "scissors",
+            "B": "creativity",
             "C": "idea"
           },
           "answer": "C",

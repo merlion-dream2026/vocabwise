@@ -512,15 +512,15 @@
         },
         {
           "id": 2,
-          "sentence": "My [hope] is to become a doctor — it is a big dream but I believe I can do it.",
-          "highlighted": "hope",
+          "sentence": "My [hoping] is to become a doctor — it is a big dream but I believe I can do it.",
+          "highlighted": "hoping",
           "options": {
             "A": "memory",
             "B": "ambition",
-            "C": "hope"
+            "C": "hoping"
           },
           "answer": "B",
-          "explanation": "'Hope' is a feeling or a wish. A strong goal or dream that you are working towards is an 'ambition'. The sentence describes a career goal, not just a wish."
+          "explanation": "'Hoping' is a verb form and cannot be used as the noun after 'my' here. A strong long-term goal that someone wants to achieve is an 'ambition'."
         },
         {
           "id": 3,
@@ -552,7 +552,7 @@
           "highlighted": "afraid",
           "options": {
             "A": "afraid",
-            "B": "young",
+            "B": "cowardly",
             "C": "brave"
           },
           "answer": "C",

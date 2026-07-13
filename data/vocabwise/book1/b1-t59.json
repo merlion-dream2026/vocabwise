@@ -508,7 +508,7 @@
           "options": {
             "A": "love",
             "B": "hate",
-            "C": "prefer"
+            "C": "dislike"
           },
           "answer": "A",
           "explanation": "The sentence describes someone who goes swimming every weekend and feels happy. This shows a strong positive feeling, so 'love' is correct — not 'hate', which means a strong dislike."

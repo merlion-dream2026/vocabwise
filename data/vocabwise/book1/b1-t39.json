@@ -506,15 +506,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "We need to [watch] the temperature of the liquid before and after heating.",
-          "highlighted": "watch",
+          "sentence": "We need to [measurement] the temperature of the liquid before and after heating.",
+          "highlighted": "measurement",
           "options": {
-            "A": "observe",
-            "B": "watch",
+            "A": "observation",
+            "B": "measurement",
             "C": "measure"
           },
           "answer": "C",
-          "explanation": "'Watch' means to look at something. However, to find out the exact temperature of a liquid, you need to 'measure' it — using a thermometer or other instrument."
+          "explanation": "After 'need to', use a base-form verb. 'Measure' is the verb meaning to determine the exact temperature; 'observation' and 'measurement' are nouns."
         },
         {
           "id": 2,
@@ -530,15 +530,15 @@
         },
         {
           "id": 3,
-          "sentence": "Always stay [careful] when using scissors or hot equipment in the lab.",
-          "highlighted": "careful",
+          "sentence": "Always stay [safely] when using scissors or hot equipment in the lab.",
+          "highlighted": "safely",
           "options": {
             "A": "safe",
-            "B": "careful",
+            "B": "carefully",
             "C": "cold"
           },
           "answer": "A",
-          "explanation": "While 'careful' describes how you behave, the correct word here is 'safe' — which describes the condition of not being in danger. You 'stay safe', not 'stay careful'."
+          "explanation": "After the linking verb 'stay', use an adjective describing a state. 'Safe' is the correct adjective; 'safely' and 'carefully' are adverbs."
         },
         {
           "id": 4,
@@ -554,7 +554,7 @@
         },
         {
           "id": 5,
-          "sentence": "The water turned to steam — that was an unexpected [trial] of heat.",
+          "sentence": "The water turned to steam — that was an unexpected [trial] caused by heat.",
           "highlighted": "trial",
           "options": {
             "A": "trial",

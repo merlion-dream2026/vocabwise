@@ -527,12 +527,12 @@
           "sentence": "Sorry, I didn't understand — could you [follow], please?",
           "highlighted": "follow",
           "options": {
-            "A": "say again",
-            "B": "tell me",
+            "A": "say that again",
+            "B": "telling me",
             "C": "follow"
           },
           "answer": "A",
-          "explanation": "'Follow' means to go behind someone. When you ask someone to repeat what they said because you did not understand, the correct phrase is 'say again'."
+          "explanation": "'Follow' means to go behind someone or understand something. When asking for repetition, say 'Could you say that again, please?' 'Could you telling me' is ungrammatical."
         },
         {
           "id": 4,

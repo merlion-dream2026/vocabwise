@@ -521,10 +521,10 @@
         },
         {
           "id": 2,
-          "sentence": "The café is [far] to the school — it is only a two-minute walk.",
+          "sentence": "The café is [far] the school — it is only a two-minute walk.",
           "highlighted": "far",
           "options": {
-            "A": "opposite",
+            "A": "distant",
             "B": "far",
             "C": "near"
           },
@@ -533,27 +533,27 @@
         },
         {
           "id": 3,
-          "sentence": "You will [reach] a tall white building on your left — that is the post office.",
-          "highlighted": "reach",
+          "sentence": "You will [reaching] a tall white building on your left — that is the post office.",
+          "highlighted": "reaching",
           "options": {
             "A": "cross",
             "B": "pass",
-            "C": "reach"
+            "C": "reaching"
           },
           "answer": "B",
-          "explanation": "'Reach' means to arrive at a destination. In this sentence, the building is not the destination — it is something you go past on the way. The correct word is 'pass', meaning to go by something without stopping."
+          "explanation": "After 'will', use a base-form verb. 'Pass' means to go by the building; 'reaching' is grammatically incorrect after 'will', and you do not 'cross' a building."
         },
         {
           "id": 4,
-          "sentence": "Take the first [corner] at the traffic lights and walk north.",
-          "highlighted": "corner",
+          "sentence": "Take the first [turned] at the traffic lights and walk north.",
+          "highlighted": "turned",
           "options": {
-            "A": "corner",
+            "A": "cornering",
             "B": "turn",
             "C": "sign"
           },
           "answer": "B",
-          "explanation": "A 'corner' is a place, not an action. When you change the direction you are walking or driving, you 'take a turn' — the correct phrase here is 'take the first turn'."
+          "explanation": "After 'take the first', a noun is needed. 'Turn' is the correct noun in the direction phrase 'take the first turn'; 'turned' is a verb form and 'cornering' does not fit here."
         },
         {
           "id": 5,

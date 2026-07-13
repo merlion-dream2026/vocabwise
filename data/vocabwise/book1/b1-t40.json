@@ -530,7 +530,7 @@
           "sentence": "In pair work, good students [raise] and give each other a chance to speak.",
           "highlighted": "raise",
           "options": {
-            "A": "listen",
+            "A": "interrupt",
             "B": "raise",
             "C": "take turns"
           },
@@ -551,7 +551,7 @@
         },
         {
           "id": 5,
-          "sentence": "I made a lot of [progress] in today's lesson — I said the wrong word three times.",
+          "sentence": "I made a lot of [progress] in today's lesson — I gave several wrong answers and did not improve at all.",
           "highlighted": "progress",
           "options": {
             "A": "activity",

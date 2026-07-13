@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "Good friends [meet] each other even when they live far apart.",
+          "sentence": "Good friends [meet] each other when they live far apart and have no chance to see one another.",
           "highlighted": "meet",
           "options": {
             "A": "forget",
@@ -553,7 +553,7 @@
           "options": {
             "A": "honest",
             "B": "forgetful",
-            "C": "kind"
+            "C": "dishonest"
           },
           "answer": "A",
           "explanation": "'Forgetful' means often forgetting things — it has nothing to do with telling the truth. Someone who always says what they think and never lies is 'honest'."

@@ -539,12 +539,12 @@
         },
         {
           "id": 4,
-          "sentence": "The seller [compared] the fruit one by one and told us the total price.",
+          "sentence": "The seller [compared] the fruit one by one on a scale and told us the total price.",
           "highlighted": "compared",
           "options": {
             "A": "weighed",
             "B": "compared",
-            "C": "wrapped"
+            "C": "wrapping"
           },
           "answer": "A",
           "explanation": "'Compare' means to look at differences between things. When a seller measures how heavy something is to find the price, they 'weigh' it."

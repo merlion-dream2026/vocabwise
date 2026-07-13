@@ -515,27 +515,27 @@
         },
         {
           "id": 2,
-          "sentence": "The [tune] kept a steady beat throughout the song so the others could play together.",
+          "sentence": "The [tune] sat behind the drum kit and kept a steady beat throughout the song.",
           "highlighted": "tune",
           "options": {
             "A": "drummer",
             "B": "tune",
-            "C": "soloist"
+            "C": "melody"
           },
           "answer": "A",
-          "explanation": "A 'tune' is a melody, not a person. The person who plays the drum and keeps the beat for a group is the 'drummer'."
+          "explanation": "A 'tune' or 'melody' is music, not a person who can sit behind a drum kit. The musician who keeps the beat on drums is the 'drummer'."
         },
         {
           "id": 3,
-          "sentence": "She has a beautiful [note] — when she sings, everyone stops to listen.",
-          "highlighted": "note",
+          "sentence": "She has a beautiful [noting] — when she sings, everyone stops to listen.",
+          "highlighted": "noting",
           "options": {
-            "A": "rhythm",
+            "A": "stage",
             "B": "voice",
-            "C": "note"
+            "C": "noting"
           },
           "answer": "B",
-          "explanation": "A 'note' is a single musical sound. The quality of a person's singing or speaking sound is their 'voice'."
+          "explanation": "After 'has a beautiful', a noun is needed. A person's singing sound is their 'voice'; 'noting' is a verb form, and 'stage' does not describe how someone sounds."
         },
         {
           "id": 4,
@@ -551,7 +551,7 @@
         },
         {
           "id": 5,
-          "sentence": "The _____ music teacher asked her to play a short [concert] in front of the class.",
+          "sentence": "The music teacher asked her to play a short [concert] in front of the class.",
           "highlighted": "concert",
           "options": {
             "A": "rhythm",

@@ -517,7 +517,7 @@
           "options": {
             "A": "courteous",
             "B": "forgetful",
-            "C": "shy"
+            "C": "rude"
           },
           "answer": "A",
           "explanation": "'Forgetful' means often forgetting things. Someone who holds doors open and speaks politely is 'courteous' — polite and respectful in behaviour."
@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "She waved and gave a big [handshake] when she saw her friend across the busy road.",
+          "sentence": "She waved and made a big [handshake] when she saw her friend across the busy road.",
           "highlighted": "handshake",
           "options": {
             "A": "handshake",

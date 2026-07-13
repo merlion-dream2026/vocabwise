@@ -512,27 +512,27 @@
         },
         {
           "id": 2,
-          "sentence": "She checked the [total] of the maths problem three times to be sure it was right.",
-          "highlighted": "total",
+          "sentence": "She checked the [calculate] of the maths problem three times to be sure it was right.",
+          "highlighted": "calculate",
           "options": {
-            "A": "number",
-            "B": "total",
+            "A": "numerical",
+            "B": "calculate",
             "C": "result"
           },
           "answer": "C",
-          "explanation": "A 'total' is the sum you get from adding numbers. When you check whether your working and answer are correct, you check your 'result' — the outcome of your calculation."
+          "explanation": "After 'the', a noun is needed. 'Result' is the noun for the outcome of a calculation; 'calculate' is a verb and 'numerical' is an adjective."
         },
         {
           "id": 3,
-          "sentence": "The question was very [wrong] — even the youngest student in the class got it right.",
-          "highlighted": "wrong",
+          "sentence": "The question was very [wrongly] — even the youngest student in the class got it right.",
+          "highlighted": "wrongly",
           "options": {
             "A": "simple",
-            "B": "wrong",
+            "B": "wrongly",
             "C": "equal"
           },
           "answer": "A",
-          "explanation": "'Wrong' describes an incorrect answer, not a question. A question that is easy to answer, even for young students, is described as 'simple'."
+          "explanation": "After the linking verb 'was', use an adjective. 'Simple' describes a question that is easy to answer; 'wrongly' is an adverb and 'equal' does not fit the meaning."
         },
         {
           "id": 4,

@@ -519,7 +519,7 @@
             "B": "language",
             "C": "ticket"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "A 'language' is a system of communication, not a navigation tool. You find places on a 'map'."
         },
         {
@@ -528,7 +528,7 @@
           "highlighted": "boring",
           "options": {
             "A": "boring",
-            "B": "different",
+            "B": "ordinary",
             "C": "thrilling"
           },
           "answer": "C",

@@ -542,7 +542,7 @@
         },
         {
           "id": 4,
-          "sentence": "She goes to the [markets] every morning to buy food for the family.",
+          "sentence": "She goes to a nearby [markets] every morning to buy food for the family.",
           "highlighted": "markets",
           "options": {
             "A": "market",
@@ -550,7 +550,7 @@
             "C": "marketing"
           },
           "answer": "A",
-          "explanation": "'The market' (singular with 'the') refers to a specific place. 'Markets' (plural) is incorrect here."
+          "explanation": "After the singular article 'a', use a singular countable noun: 'a nearby market'."
         },
         {
           "id": 5,

@@ -503,7 +503,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She sat on a [fountain] in the park and watched the children play.",
+          "sentence": "She sat on a [fountain] with a wooden seat and backrest and watched the children play.",
           "highlighted": "fountain",
           "options": {
             "A": "fountain",
@@ -515,15 +515,15 @@
         },
         {
           "id": 2,
-          "sentence": "In summer, we sit in the [shadow] of a big tree to stay cool.",
-          "highlighted": "shadow",
+          "sentence": "In summer, we sit in the [shady] of a big tree to stay cool.",
+          "highlighted": "shady",
           "options": {
             "A": "shade",
-            "B": "shadow",
-            "C": "shady"
+            "B": "shaded",
+            "C": "shadily"
           },
           "answer": "A",
-          "explanation": "'Shade' means a cool, dark area away from direct sunlight. 'Shadow' refers to the dark shape cast by an object blocking light — it is not used for 'sitting in' to stay cool."
+          "explanation": "After 'in the', a noun is needed. 'Shade' is the cool area protected from direct sunlight; 'shaded' is an adjective or past participle, and 'shadily' is an adverb."
         },
         {
           "id": 3,
@@ -542,12 +542,12 @@
           "sentence": "We [strolled] through the park — running as fast as we could to the other end.",
           "highlighted": "strolled",
           "options": {
-            "A": "jogged",
+            "A": "sprinted",
             "B": "strolled",
             "C": "played"
           },
           "answer": "A",
-          "explanation": "'Strolled' means walking slowly in a relaxed way, which contradicts 'running as fast as we could'. 'Jogged' (running at a steady pace) fits the context."
+          "explanation": "'Strolled' means walked slowly and casually, which contradicts 'running as fast as we could'. 'Sprinted' means ran at top speed and fits the context."
         },
         {
           "id": 5,

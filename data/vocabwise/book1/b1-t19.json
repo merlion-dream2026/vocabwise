@@ -500,15 +500,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She used a [chopstick] to eat the rice — one stick was not enough to pick it up.",
-          "highlighted": "chopstick",
+          "sentence": "She used [a chopstick] to eat the rice — one stick was not enough to pick it up.",
+          "highlighted": "a chopstick",
           "options": {
-            "A": "chopstick",
+            "A": "a chopstick",
             "B": "chopsticks",
             "C": "plates"
           },
           "answer": "B",
-          "explanation": "'Chopstick' (singular) cannot be used alone to eat — you always need two sticks. The correct form is 'chopsticks' (plural)."
+          "explanation": "The usual utensil consists of two sticks, so use the plural noun 'chopsticks' without the article 'a': 'She used chopsticks'."
         },
         {
           "id": 2,
@@ -519,7 +519,7 @@
             "B": "raw",
             "C": "spicy"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "'Raw' means uncooked, not related to salt. The sentence says it 'made us thirsty', which is a common effect of eating too much salt — 'salty' is correct."
         },
         {
@@ -543,7 +543,7 @@
             "B": "traditional",
             "C": "unique"
           },
-          "answer": "C",
+          "answer": "A",
           "explanation": "'Traditional' means following old customs. 'Everyone likes it' refers to it being widely enjoyed — the correct word is 'popular'."
         },
         {
