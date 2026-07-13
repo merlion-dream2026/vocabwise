@@ -151,18 +151,16 @@
             }
           ],
           "practice_words": [
-            "fool",
-            "full",
-            "pool",
-            "pull",
-            "Luke",
-            "look",
-            "suit",
-            "soot",
+            "moon",
+            "book",
             "food",
             "foot",
-            "wooed",
-            "wood"
+            "pool",
+            "pull",
+            "too",
+            "put",
+            "fool",
+            "full"
           ],
           "tip": "uː: môi tròn căng · ʊ: môi tròn nhẹ, miệng hơi mở hơn",
           "practice_sentences": [
@@ -196,18 +194,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/fuːl/",
-            "/fʊl/",
-            "/puːl/",
-            "/pʊl/",
-            "/luːk/",
-            "/lʊk/",
-            "/suːt/",
-            "/sʊt/",
+            "/muːn/",
+            "/bʊk/",
             "/fuːd/",
             "/fʊt/",
-            "/wuːd/",
-            "/wʊd/"
+            "/puːl/",
+            "/pʊl/",
+            "/tuː/",
+            "/pʊt/",
+            "/fuːl/",
+            "/fʊl/"
           ]
         },
         {
@@ -871,11 +867,11 @@
             "tone",
             "town",
             "boat",
-            "bout",
+            "shout",
             "hole",
             "howl",
             "code",
-            "cowed"
+            "cloud"
           ],
           "tip": "əʊ: từ vị trí giữa trôi lên /ʊ/ và tròn môi · aʊ: từ miệng mở trôi lên /ʊ/ và tròn môi",
           "practice_sentences": [
@@ -922,11 +918,11 @@
             "/təʊn/",
             "/taʊn/",
             "/bəʊt/",
-            "/baʊt/",
+            "/ʃaʊt/",
             "/həʊl/",
             "/haʊl/",
             "/kəʊd/",
-            "/kaʊd/"
+            "/klaʊd/"
           ]
         },
         {
@@ -1144,64 +1140,53 @@
             }
           ],
           "practice_words": [
+            "sure",
             "pure",
-            "cure",
-            "lure",
             "tour",
-            "tourist",
-            "during",
-            "jury",
-            "curious",
-            "mature",
-            "endure",
-            "secure",
-            "security"
+            "poor",
+            "cure",
+            "your",
+            "during"
           ],
           "tip": "/ʊə/: bắt đầu bằng /ʊ/ ngắn rồi trượt về /ə/; chú ý nhiều từ có /j/ đứng trước và một số từ hiện nay dùng /ɔː/",
           "practice_sentences": [
             {
-              "en": "The cure is kept in a secure room.",
+              "en": "Are you sure this is your book?",
               "highlight": [
-                "cure",
-                "secure"
+                "sure",
+                "your"
               ]
             },
             {
-              "en": "The tourist took a tour during the summer.",
+              "en": "The pure water can cure a sore throat.",
               "highlight": [
-                "tourist",
+                "pure",
+                "cure"
+              ]
+            },
+            {
+              "en": "We took a tour during our summer holiday.",
+              "highlight": [
                 "tour",
                 "during"
               ]
             },
             {
-              "en": "The curious jury listened carefully.",
+              "en": "The poor man was sure he was right.",
               "highlight": [
-                "curious",
-                "jury"
-              ]
-            },
-            {
-              "en": "Mature plants can endure dry weather.",
-              "highlight": [
-                "mature",
-                "endure"
+                "poor",
+                "sure"
               ]
             }
           ],
           "practice_words_ipa": [
+            "/ʃʊə/",
             "/pjʊə/",
-            "/kjʊə/",
-            "/ljʊə/",
             "/tʊə/",
-            "/ˈtʊərɪst/",
-            "/ˈdjʊərɪŋ/",
-            "/ˈdʒʊəri/",
-            "/ˈkjʊəriəs/",
-            "/məˈtʃʊə/",
-            "/ɪnˈdjʊə/",
-            "/sɪˈkjʊə/",
-            "/sɪˈkjʊərəti/"
+            "/pʊə/",
+            "/kjʊə/",
+            "/jʊə/",
+            "/ˈdjʊərɪŋ/"
           ]
         }
       ]
@@ -1359,7 +1344,7 @@
             "tie",
             "die",
             "tin",
-            "din",
+            "dim",
             "town",
             "down",
             "tip",
@@ -1385,12 +1370,10 @@
               ]
             },
             {
-              "en": "I hear a loud din from a tin drum.",
+              "en": "The dim light shines on the tin roof.",
               "highlight": [
-                "loud",
-                "din",
-                "tin",
-                "drum"
+                "dim",
+                "tin"
               ]
             },
             {
@@ -1408,7 +1391,7 @@
             "/taɪ/",
             "/daɪ/",
             "/tɪn/",
-            "/dɪn/",
+            "/dɪm/",
             "/taʊn/",
             "/daʊn/",
             "/tɪp/",
@@ -1654,16 +1637,16 @@
             }
           ],
           "practice_words": [
-            "thigh",
-            "thy",
+            "bath",
+            "bathe",
+            "cloth",
+            "clothe",
             "teeth",
-            "teethe",
-            "wreath",
-            "wreathe",
-            "sheath",
-            "sheathe",
-            "loath",
-            "loathe"
+            "breathe",
+            "thin",
+            "this",
+            "think",
+            "the"
           ],
           "tip": "θ & ð: đầu lưỡi nhô nhẹ ra giữa hai hàng răng — θ không rung, ð rung dây thanh",
           "practice_sentences": [
@@ -1703,16 +1686,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/θaɪ/",
-            "/ðaɪ/",
+            "/bɑːθ/",
+            "/beɪð/",
+            "/klɒθ/",
+            "/kləʊð/",
             "/tiːθ/",
-            "/tiːð/",
-            "/riːθ/",
-            "/riːð/",
-            "/ʃiːθ/",
-            "/ʃiːð/",
-            "/ləʊθ/",
-            "/ləʊð/"
+            "/briːð/",
+            "/θɪn/",
+            "/ðɪs/",
+            "/θɪŋk/",
+            "/ðə/"
           ]
         },
         {
@@ -1854,16 +1837,16 @@
             }
           ],
           "practice_words": [
-            "leash",
-            "genre",
             "shoe",
             "measure",
-            "ruche",
-            "rouge",
-            "Confucian",
-            "confusion",
-            "Aleutian",
-            "allusion"
+            "wash",
+            "treasure",
+            "wish",
+            "usual",
+            "fish",
+            "decision",
+            "dish",
+            "vision"
           ],
           "tip": "ʃ: môi hơi tròn, luồng hơi rộng hơn /s/ · ʒ: giống ʃ nhưng rung dây thanh",
           "practice_sentences": [
@@ -1899,16 +1882,16 @@
             }
           ],
           "practice_words_ipa": [
-            "/liːʃ/",
-            "/ˈʒɒnrə/",
             "/ʃuː/",
             "/ˈmeʒə/",
-            "/ruːʃ/",
-            "/ruːʒ/",
-            "/kənˈfjuːʃən/",
-            "/kənˈfjuːʒən/",
-            "/əˈluːʃən/",
-            "/əˈluːʒən/"
+            "/wɒʃ/",
+            "/ˈtreʒə/",
+            "/wɪʃ/",
+            "/ˈjuːʒuəl/",
+            "/fɪʃ/",
+            "/dɪˈsɪʒən/",
+            "/dɪʃ/",
+            "/ˈvɪʒən/"
           ]
         },
         {
@@ -1948,18 +1931,18 @@
             }
           ],
           "practice_words": [
-            "cheer",
-            "jeer",
+            "chair",
+            "jar",
             "chin",
-            "gin",
+            "gym",
             "cheap",
             "jeep",
             "choke",
             "joke",
             "batch",
             "badge",
-            "rich",
-            "ridge"
+            "match",
+            "age"
           ],
           "tip": "tʃ: lưỡi bật mạnh từ nướu, không rung · dʒ: giống tʃ nhưng rung dây thanh",
           "practice_sentences": [
@@ -1995,18 +1978,18 @@
             }
           ],
           "practice_words_ipa": [
-            "/tʃɪə/",
-            "/dʒɪə/",
+            "/tʃeə/",
+            "/dʒɑː/",
             "/tʃɪn/",
-            "/dʒɪn/",
+            "/dʒɪm/",
             "/tʃiːp/",
             "/dʒiːp/",
             "/tʃəʊk/",
             "/dʒəʊk/",
             "/bætʃ/",
             "/bædʒ/",
-            "/rɪtʃ/",
-            "/rɪdʒ/"
+            "/mætʃ/",
+            "/eɪdʒ/"
           ]
         }
       ]
@@ -2071,10 +2054,10 @@
             "sum",
             "sun",
             "sung",
-            "dim",
-            "din",
-            "ding",
-            "rum",
+            "swim",
+            "sin",
+            "sing",
+            "hum",
             "run",
             "rung",
             "ram",
@@ -2120,10 +2103,10 @@
             "/sʌm/",
             "/sʌn/",
             "/sʌŋ/",
-            "/dɪm/",
-            "/dɪn/",
-            "/dɪŋ/",
-            "/rʌm/",
+            "/swɪm/",
+            "/sɪn/",
+            "/sɪŋ/",
+            "/hʌm/",
             "/rʌn/",
             "/rʌŋ/",
             "/ræm/",
@@ -2185,8 +2168,8 @@
             "wall",
             "well",
             "yell",
-            "woo",
-            "yew"
+            "wet",
+            "yet"
           ],
           "tip": "h: thở hơi nhẹ qua họng · w: môi tròn rồi mở · j: lưỡi gần vòm cứng, đẩy hơi ra",
           "practice_sentences": [
@@ -2235,8 +2218,8 @@
             "/wɔːl/",
             "/wel/",
             "/jel/",
-            "/wuː/",
-            "/juː/"
+            "/wet/",
+            "/jet/"
           ]
         },
         {
