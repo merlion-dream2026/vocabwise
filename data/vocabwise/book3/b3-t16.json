@@ -550,15 +550,15 @@
         },
         {
           "id": 5,
-          "sentence": "Achieving global food security requires [sustaining] agricultural practices that protect soil and water resources.",
-          "highlighted": "sustaining",
+          "sentence": "Achieving global food security requires [sustainability] agricultural practices that protect soil and water resources.",
+          "highlighted": "sustainability",
           "options": {
             "A": "sustainably",
             "B": "sustainability",
             "C": "sustainable"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable agricultural practices'; 'sustaining' is a gerund/present participle that does not fit this attributive role."
+          "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable'. 'Sustainability' is a noun."
         }
       ]
     },

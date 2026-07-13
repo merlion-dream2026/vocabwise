@@ -537,7 +537,7 @@
         },
         {
           "id": 4,
-          "sentence": "Her [hedonistic] towards pleasure left her feeling empty, as she had never developed the discipline to pursue anything of lasting value.",
+          "sentence": "Her [hedonistic] left her feeling empty, as she had never developed the discipline to pursue anything of lasting value.",
           "highlighted": "hedonistic",
           "options": {
             "A": "hedonist",
@@ -545,7 +545,7 @@
             "C": "hedonistically"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the possessive 'Her' to serve as the subject of the sentence — 'hedonism' (the philosophy or tendency), not the adjective 'hedonistic'."
+          "explanation": "A noun is required after the possessive determiner 'Her' — 'hedonism', not the adjective 'hedonistic'."
         },
         {
           "id": 5,

@@ -496,22 +496,22 @@
           "options": {
             "A": "distorted",
             "B": "distortion",
-            "C": "distorting"
+            "C": "distortions"
           },
           "answer": "B",
           "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'distortion', not the verb 'distort'."
         },
         {
           "id": 2,
-          "sentence": "The government's [censoring] of the internet was condemned by international press freedom organisations.",
-          "highlighted": "censoring",
+          "sentence": "The government's policy of internet [censored] was condemned by international press freedom organisations.",
+          "highlighted": "censored",
           "options": {
             "A": "censorship",
             "B": "censored",
             "C": "censor"
           },
           "answer": "A",
-          "explanation": "'Censorship' is the correct noun form referring to the practice or policy; 'censoring' is a gerund that implies an ongoing action rather than naming the system itself."
+          "explanation": "The noun 'censorship' is required after 'internet' to name the practice or policy. 'Censored' is a past participle, and 'censor' refers to a person or functions as a verb."
         },
         {
           "id": 3,
@@ -532,10 +532,10 @@
           "options": {
             "A": "propagandise",
             "B": "propaganda",
-            "C": "propagandistic"
+            "C": "propagandistically"
           },
-          "answer": "C",
-          "explanation": "An adjective is needed to modify 'campaign' — 'propagandistic', not the noun 'propagandist' which refers to a person."
+          "answer": "B",
+          "explanation": "'Propaganda campaign' is the standard compound noun phrase. 'Propagandise' is a verb, and 'propagandistically' is an adverb."
         },
         {
           "id": 5,
@@ -661,7 +661,7 @@
       "1": "B",
       "2": "A",
       "3": "B",
-      "4": "C",
+      "4": "B",
       "5": "A"
     }
   },

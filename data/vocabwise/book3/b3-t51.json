@@ -548,7 +548,7 @@
         },
         {
           "id": 5,
-          "sentence": "Consequentialist thinkers [justify] harmful acts on the grounds that they produce a greater overall good.",
+          "sentence": "During yesterday's debate, consequentialist thinkers [justify] harmful acts on the grounds that they produced a greater overall good.",
           "highlighted": "justify",
           "options": {
             "A": "justifying",
@@ -556,7 +556,7 @@
             "C": "justified"
           },
           "answer": "C",
-          "explanation": "The past tense 'justified' is required to describe a historical philosophical position — 'thinkers justified'; the present simple 'justify' is grammatically possible but the sentence describes established past arguments, making 'justified' the most precise fit among the options."
+          "explanation": "The explicit past-time reference 'yesterday' requires the past-tense verb 'justified'."
         }
       ]
     },

@@ -520,7 +520,7 @@
         },
         {
           "id": 2,
-          "sentence": "The attack was condemned internationally for violating the [proportionate] of response required by the laws of war.",
+          "sentence": "The attack was condemned internationally for violating the principle of [proportionate] required by the laws of war.",
           "highlighted": "proportionate",
           "options": {
             "A": "proportionality",
@@ -528,7 +528,7 @@
             "C": "proportion"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'the' as the object of 'violating' — 'proportionality', not the adjective 'proportionate'."
+          "explanation": "A noun is required after 'the principle of' — 'proportionality', not the adjective 'proportionate'."
         },
         {
           "id": 3,
@@ -536,7 +536,7 @@
           "highlighted": "reconcile",
           "options": {
             "A": "reconciled",
-            "B": "reconciliatory",
+            "B": "reconciliating",
             "C": "reconciliation"
           },
           "answer": "C",

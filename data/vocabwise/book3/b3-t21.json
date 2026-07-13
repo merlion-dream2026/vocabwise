@@ -503,7 +503,7 @@
           "sentence": "The [adopt] of digital payment systems has accelerated significantly since the pandemic.",
           "highlighted": "adopt",
           "options": {
-            "A": "adopting",
+            "A": "adoptive",
             "B": "adoption",
             "C": "adopted"
           },
@@ -552,7 +552,7 @@
           "highlighted": "convergent",
           "options": {
             "A": "converge",
-            "B": "converging",
+            "B": "converged",
             "C": "convergence"
           },
           "answer": "C",

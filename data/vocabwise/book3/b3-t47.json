@@ -507,7 +507,7 @@
         },
         {
           "id": 2,
-          "sentence": "The novel's [protagonist's] journey from innocence to disillusionment mirrors the loss of an entire generation.",
+          "sentence": "The novel's [protagonist's] undergoes a journey from innocence to disillusionment that mirrors the loss of an entire generation.",
           "highlighted": "protagonist's",
           "options": {
             "A": "protagonist",
@@ -515,7 +515,7 @@
             "C": "protagonists'"
           },
           "answer": "A",
-          "explanation": "No possessive is needed here — 'protagonist' functions as a noun modifier before 'journey'; the apostrophe-s creates a grammatical ambiguity not intended."
+          "explanation": "After 'The novel's', use the singular noun 'protagonist' as the subject of 'undergoes'. A second possessive ending is incorrect here."
         },
         {
           "id": 3,
@@ -535,7 +535,7 @@
           "highlighted": "theme",
           "options": {
             "A": "thematic",
-            "B": "themed",
+            "B": "theming",
             "C": "themes"
           },
           "answer": "A",

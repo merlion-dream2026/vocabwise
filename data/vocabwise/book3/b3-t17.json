@@ -522,7 +522,7 @@
             "C": "approving"
           },
           "answer": "A",
-          "explanation": "A base-form verb is required after the modal 'to' (infinitive) — 'approve', not the noun 'approval'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'approve'."
         },
         {
           "id": 3,
@@ -550,7 +550,7 @@
         },
         {
           "id": 5,
-          "sentence": "Headaches are a [commonly] reported side effect among patients taking this class of medication.",
+          "sentence": "Headaches are a [commonly] side effect among patients taking this class of medication.",
           "highlighted": "commonly",
           "options": {
             "A": "common",
@@ -558,7 +558,7 @@
             "C": "commoner"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify the noun phrase 'reported side effect' — 'common', not the adverb 'commonly'."
+          "explanation": "An adjective is needed to modify 'side effect' — 'a common side effect'. 'Commonly' is an adverb."
         }
       ]
     },

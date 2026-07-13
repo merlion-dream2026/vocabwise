@@ -493,7 +493,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Doctors are required to [confident] all patient records and never share them without explicit permission.",
+          "sentence": "Doctors are required to handle all patient records [confident] and never share them without explicit permission.",
           "highlighted": "confident",
           "options": {
             "A": "confidentially",
@@ -501,7 +501,7 @@
             "C": "confidential"
           },
           "answer": "A",
-          "explanation": "An adverb is needed to modify the verb 'keep' (implied: 'keep confidentially') — 'confidentially', not the adjective 'confident'."
+          "explanation": "An adverb is needed to modify 'handle' — 'confidentially'. 'Confident' is an adjective with a different meaning."
         },
         {
           "id": 2,
@@ -544,7 +544,7 @@
           "sentence": "A [paternalist] approach to medicine assumes that clinicians always know what is best for the patient.",
           "highlighted": "paternalist",
           "options": {
-            "A": "paternal",
+            "A": "paternally",
             "B": "paternalism",
             "C": "paternalistic"
           },

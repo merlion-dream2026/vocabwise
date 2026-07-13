@@ -503,7 +503,7 @@
           "highlighted": "narrate",
           "options": {
             "A": "narrator",
-            "B": "narrating",
+            "B": "narrated",
             "C": "narrative"
           },
           "answer": "C",
@@ -511,15 +511,15 @@
         },
         {
           "id": 2,
-          "sentence": "The research team spent three months examining [archive] documents in the national library.",
-          "highlighted": "archive",
+          "sentence": "The research team spent three months examining [archivist] documents in the national library.",
+          "highlighted": "archivist",
           "options": {
             "A": "archival",
-            "B": "archived",
+            "B": "archiving",
             "C": "archivist"
           },
           "answer": "A",
-          "explanation": "'Archival' is the adjective form required to modify 'documents'; 'archive' is a noun or verb and cannot directly modify another noun in this context."
+          "explanation": "The adjective 'archival' is required to modify 'documents'. 'Archivist' refers to a person, while 'archiving' names an activity."
         },
         {
           "id": 3,
@@ -538,7 +538,7 @@
           "sentence": "The annual [commemorate] of the armistice brings together veterans and their families from across the nation.",
           "highlighted": "commemorate",
           "options": {
-            "A": "commemorating",
+            "A": "commemorated",
             "B": "commemoration",
             "C": "commemorative"
           },

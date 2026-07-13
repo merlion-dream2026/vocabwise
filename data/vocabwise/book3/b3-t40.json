@@ -513,7 +513,7 @@
         },
         {
           "id": 2,
-          "sentence": "Her _____ [logically] was rigorous: she drew precise conclusions from each premise without any logical gap.",
+          "sentence": "Her [logically] was rigorous: she drew precise conclusions from each premise without any logical gap.",
           "highlighted": "logically",
           "options": {
             "A": "logician",
@@ -521,7 +521,7 @@
             "C": "logic"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject complement after 'Her' — 'logic', not the adverb 'logically'."
+          "explanation": "A noun is required after the possessive determiner 'Her' — 'logic', not the adverb 'logically'."
         },
         {
           "id": 3,
@@ -537,15 +537,15 @@
         },
         {
           "id": 4,
-          "sentence": "The [infinite] of the natural numbers means there is always a number larger than any you can name.",
+          "sentence": "The mathematical concept of [infinite] means there is always a natural number larger than any number you can name.",
           "highlighted": "infinite",
           "options": {
             "A": "infinitely",
             "B": "infinity",
-            "C": "infiniteness"
+            "C": "infinitive"
           },
           "answer": "B",
-          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'infinity', not the adjective 'infinite'."
+          "explanation": "A noun is required after 'of' — 'infinity'. 'Infinite' is an adjective, while 'infinitive' is a grammatical term."
         },
         {
           "id": 5,

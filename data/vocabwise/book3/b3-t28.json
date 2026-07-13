@@ -496,7 +496,7 @@
           "sentence": "Rapid [inflate] can quickly wipe out the gains made by wage increases.",
           "highlighted": "inflate",
           "options": {
-            "A": "inflating",
+            "A": "inflated",
             "B": "inflationary",
             "C": "inflation"
           },
@@ -545,7 +545,7 @@
           "highlighted": "subsidise",
           "options": {
             "A": "subsidised",
-            "B": "subsidising",
+            "B": "subsidises",
             "C": "subsidies"
           },
           "answer": "C",

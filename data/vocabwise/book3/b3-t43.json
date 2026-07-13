@@ -515,7 +515,7 @@
         },
         {
           "id": 2,
-          "sentence": "His [indirect] response confused the client, who expected a clear yes or no.",
+          "sentence": "His [indirect] confused the client, who expected a clear yes or no.",
           "highlighted": "indirect",
           "options": {
             "A": "indirectly",
@@ -523,19 +523,19 @@
             "C": "indirected"
           },
           "answer": "B",
-          "explanation": "A noun is needed as a possessive head ('His _____ response' requires a noun, not an adjective — 'His indirectness confused' is the correct structure)."
+          "explanation": "A noun is required after the possessive determiner 'His' — 'indirectness'. 'Indirect' is an adjective."
         },
         {
           "id": 3,
-          "sentence": "The delegation followed strict diplomatic [protocols] to ensure no participant lost face during the summit.",
-          "highlighted": "protocols",
+          "sentence": "The delegation followed strict diplomatic [protocolled] to ensure no participant lost face during the summit.",
+          "highlighted": "protocolled",
           "options": {
             "A": "protocol",
             "B": "protocolled",
             "C": "protocolling"
           },
           "answer": "A",
-          "explanation": "'Protocol' in formal diplomatic usage is typically treated as an uncountable noun; the plural 'protocols' is incorrect in this academic register."
+          "explanation": "The noun 'protocol' is required in the phrase 'diplomatic protocol'. 'Protocolled' and 'protocolling' are verb forms."
         },
         {
           "id": 4,
@@ -551,7 +551,7 @@
         },
         {
           "id": 5,
-          "sentence": "Skilled negotiators learn to read [paralinguistic] cues such as hesitation and eye contact as part of their training.",
+          "sentence": "Skilled negotiators learn to interpret [paralinguistic] such as hesitation, tone of voice, and changes in speaking speed.",
           "highlighted": "paralinguistic",
           "options": {
             "A": "paralanguage",
@@ -559,7 +559,7 @@
             "C": "paralingual"
           },
           "answer": "A",
-          "explanation": "While 'paralinguistic' is an adjective form, it does not collocate naturally with 'cues' in standard usage; 'paralanguage cues' is the established noun-noun compound used in communication studies."
+          "explanation": "A noun is required as the object of 'interpret' — 'paralanguage'. 'Paralinguistic' and 'paralingual' are adjectives."
         }
       ]
     },

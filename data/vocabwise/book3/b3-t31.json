@@ -508,7 +508,7 @@
           "highlighted": "infer",
           "options": {
             "A": "inferred",
-            "B": "inferring",
+            "B": "infers",
             "C": "inference"
           },
           "answer": "C",

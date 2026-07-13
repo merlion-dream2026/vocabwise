@@ -486,7 +486,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The school redesigned its [curriculums] to better reflect twenty-first century skills.",
+          "sentence": "The school redesigned its entire [curriculums] to better reflect twenty-first-century skills.",
           "highlighted": "curriculums",
           "options": {
             "A": "curriculums",
@@ -494,7 +494,7 @@
             "C": "curriculum"
           },
           "answer": "C",
-          "explanation": "The standard plural of 'curriculum' is 'curricula'; as a singular noun here, 'curriculum' is correct — 'curriculums' is non-standard."
+          "explanation": "After 'its entire', a singular noun is required: 'curriculum'. 'Curriculums' is plural, while 'curricular' is an adjective."
         },
         {
           "id": 2,

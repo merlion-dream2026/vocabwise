@@ -519,7 +519,7 @@
         },
         {
           "id": 2,
-          "sentence": "The activist used vivid [metaphorical] to reframe the debate and connect with ordinary citizens.",
+          "sentence": "The activist used several vivid [metaphorical] to reframe the debate and connect with ordinary citizens.",
           "highlighted": "metaphorical",
           "options": {
             "A": "metaphors",
@@ -527,7 +527,7 @@
             "C": "metaphor"
           },
           "answer": "A",
-          "explanation": "'Used' requires a noun object; the plural 'metaphors' is needed here, not the adjective 'metaphorical'."
+          "explanation": "After 'several vivid', use the plural noun 'metaphors'."
         },
         {
           "id": 3,
@@ -555,7 +555,7 @@
         },
         {
           "id": 5,
-          "sentence": "The speech gained immediate [persuade] because the speaker had decades of proven expertise in the field.",
+          "sentence": "The speech's [persuade] came from the speaker's decades of proven expertise in the field.",
           "highlighted": "persuade",
           "options": {
             "A": "persuasively",
@@ -563,7 +563,7 @@
             "C": "persuasiveness"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'immediate' to function as the object of 'gained' — 'persuasiveness', not the verb 'persuade'."
+          "explanation": "A noun is required after the possessive 'speech's' — 'persuasiveness', not the verb 'persuade'."
         }
       ]
     },

@@ -528,15 +528,15 @@
         },
         {
           "id": 4,
-          "sentence": "Each [dialect] community has its own norms for what counts as formal or polite language.",
-          "highlighted": "dialect",
+          "sentence": "Each [dialectically] community has its own norms for what counts as formal or polite language.",
+          "highlighted": "dialectically",
           "options": {
             "A": "dialectically",
             "B": "dialects",
             "C": "dialectal"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify the noun 'community' — 'dialectal', not the bare noun 'dialect'."
+          "explanation": "An adjective is needed to modify 'community' — 'dialectal'. 'Dialectically' is an adverb."
         },
         {
           "id": 5,

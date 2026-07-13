@@ -503,7 +503,7 @@
           "sentence": "The teacher's [pedagogical] was criticised for relying too heavily on rote memorisation and ignoring higher-order thinking.",
           "highlighted": "pedagogical",
           "options": {
-            "A": "pedagogue",
+            "A": "pedagogic",
             "B": "pedagogically",
             "C": "pedagogy"
           },
@@ -524,15 +524,15 @@
         },
         {
           "id": 3,
-          "sentence": "Inclusive [curriculums] should incorporate perspectives from communities that have historically been underrepresented in formal education.",
+          "sentence": "An inclusive [curriculums] should incorporate perspectives from communities that have historically been underrepresented in formal education.",
           "highlighted": "curriculums",
           "options": {
             "A": "curricular",
-            "B": "curricula",
+            "B": "curriculum",
             "C": "curriculum's"
           },
           "answer": "B",
-          "explanation": "'Curriculum' is a Latin-origin noun whose standard academic plural is 'curricula', not 'curriculums'."
+          "explanation": "After the singular article 'An', use the singular noun 'curriculum'. 'Curricular' is an adjective, and 'curriculum's' is possessive."
         },
         {
           "id": 4,

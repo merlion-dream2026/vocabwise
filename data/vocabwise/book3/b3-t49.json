@@ -499,15 +499,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The speaker's erratic [pace] made it difficult for the audience to process each argument before the next one arrived.",
-          "highlighted": "pace",
+          "sentence": "The speaker's erratic [paced] made it difficult for the audience to process each argument before the next one arrived.",
+          "highlighted": "paced",
           "options": {
             "A": "pacing",
             "B": "paced",
             "C": "pacer"
           },
           "answer": "A",
-          "explanation": "The noun 'pacing' refers to the overall management of speed in a speech; 'pace' as a bare noun does not carry this sustained, technical meaning in this context."
+          "explanation": "A noun is required after the possessive phrase 'The speaker's erratic' — 'pacing'."
         },
         {
           "id": 2,
@@ -523,15 +523,15 @@
         },
         {
           "id": 3,
-          "sentence": "Presenters who use [signpost] language effectively help their audience navigate even the most complex material.",
-          "highlighted": "signpost",
+          "sentence": "Presenters who use [signpostingly] language effectively help their audience navigate even the most complex material.",
+          "highlighted": "signpostingly",
           "options": {
-            "A": "signposted",
+            "A": "signpostingly",
             "B": "signposting",
             "C": "signposts"
           },
           "answer": "B",
-          "explanation": "'Signposting' is the gerund/adjective form used to describe this type of language; 'signpost' alone is a noun or verb and does not function as a modifier here."
+          "explanation": "'Signposting language' is the established term for language that guides an audience through a presentation. 'Signpostingly' is not a standard adverb."
         },
         {
           "id": 4,
@@ -555,7 +555,7 @@
             "C": "structuring"
           },
           "answer": "A",
-          "explanation": "A base-form verb is required after the modal 'to' — 'structure', not the adjective 'structural'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'structure'."
         }
       ]
     },

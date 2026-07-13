@@ -515,7 +515,7 @@
         },
         {
           "id": 2,
-          "sentence": "The [ambiguous] in the contract's phrasing led to a costly dispute between the two parties over their respective obligations.",
+          "sentence": "A single [ambiguous] in the contract's phrasing led to a costly dispute between the two parties over their respective obligations.",
           "highlighted": "ambiguous",
           "options": {
             "A": "ambiguity",
@@ -523,7 +523,7 @@
             "C": "ambiguities"
           },
           "answer": "A",
-          "explanation": "A singular noun is required as the subject after 'The' — 'ambiguity', not the adjective 'ambiguous'."
+          "explanation": "After 'A single', use the singular noun 'ambiguity'. 'Ambiguities' is plural, and 'ambiguously' is an adverb."
         },
         {
           "id": 3,
@@ -531,7 +531,7 @@
           "highlighted": "faithful",
           "options": {
             "A": "faithfully",
-            "B": "faithfulness",
+            "B": "faithful",
             "C": "fidelity"
           },
           "answer": "C",

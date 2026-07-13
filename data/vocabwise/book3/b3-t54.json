@@ -498,7 +498,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The company faced criticism for the [biased] in its hiring algorithm, which consistently disadvantaged minority applicants.",
+          "sentence": "The company faced criticism for a specific [biased] in its hiring algorithm, which consistently disadvantaged minority applicants.",
           "highlighted": "biased",
           "options": {
             "A": "biases",
@@ -506,7 +506,7 @@
             "C": "biasedly"
           },
           "answer": "B",
-          "explanation": "A singular uncountable noun is needed after 'the' as the subject — 'bias', not the adjective 'biased'."
+          "explanation": "After 'a specific', use the singular noun 'bias'. 'Biases' is plural, and 'biasedly' is an adverb."
         },
         {
           "id": 2,

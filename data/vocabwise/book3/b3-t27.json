@@ -505,11 +505,11 @@
             "C": "deprive"
           },
           "answer": "A",
-          "explanation": "A noun is needed as the subject of 'have left' — 'deprivation', not the gerund 'depriving'."
+          "explanation": "A noun is required after the preposition 'of' — 'generations of deprivation'. 'Depriving' is a gerund or participle."
         },
         {
           "id": 2,
-          "sentence": "The [disenfranchisement] of voters through restrictive ID laws was condemned by civil liberties organisations.",
+          "sentence": "The [disenfranchisement] voters affected by restrictive ID laws were supported by civil liberties organisations.",
           "highlighted": "disenfranchisement",
           "options": {
             "A": "disenfranchise",
@@ -517,19 +517,19 @@
             "C": "disenfranchising"
           },
           "answer": "B",
-          "explanation": "A past participial adjective is needed to pre-modify 'voters' — 'disenfranchised voters' (those who have been deprived of rights). The noun 'disenfranchisement' cannot function as an adjective here."
+          "explanation": "A past-participial adjective is needed to modify 'voters' — 'disenfranchised voters'. 'Disenfranchisement' is a noun."
         },
         {
           "id": 3,
-          "sentence": "Many analysts believe that [systematic] barriers in the labour market keep qualified candidates from disadvantaged backgrounds out of senior roles.",
-          "highlighted": "systematic",
+          "sentence": "Many analysts believe that [systematically] barriers in the labour market keep qualified candidates from disadvantaged backgrounds out of senior roles.",
+          "highlighted": "systematically",
           "options": {
             "A": "system",
             "B": "systemically",
             "C": "systemic"
           },
           "answer": "C",
-          "explanation": "'Systemic' is the correct adjective meaning 'embedded throughout the system'; 'systematic' means 'done in a methodical way' and does not convey the same meaning in this context."
+          "explanation": "An adjective is needed to modify 'barriers' — 'systemic', meaning embedded throughout a system. 'Systematically' and 'systemically' are adverbs."
         },
         {
           "id": 4,

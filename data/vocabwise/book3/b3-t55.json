@@ -511,7 +511,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The court ruled that the government had violated the [universal] of rights guaranteed to all citizens.",
+          "sentence": "The court affirmed the [universal] of the rights guaranteed to all citizens.",
           "highlighted": "universal",
           "options": {
             "A": "universally",
@@ -519,11 +519,11 @@
             "C": "universality"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'the' to serve as the object of 'violated' — 'universality', not the adjective 'universal'."
+          "explanation": "A noun is required as the object of 'affirmed' — 'universality', not the adjective 'universal'."
         },
         {
           "id": 2,
-          "sentence": "She dedicated her career to [advocate] on behalf of communities displaced by armed conflict.",
+          "sentence": "She dedicated her career to actively [advocate] on behalf of communities displaced by armed conflict.",
           "highlighted": "advocate",
           "options": {
             "A": "advocacy",
@@ -531,7 +531,7 @@
             "C": "advocated"
           },
           "answer": "B",
-          "explanation": "A gerund is required after the preposition 'to' in this context — 'advocating', not the base-form noun/verb 'advocate'."
+          "explanation": "After the preposition 'to' and the adverb 'actively', use the gerund 'advocating'."
         },
         {
           "id": 3,

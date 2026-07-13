@@ -501,7 +501,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The [disparate] in health outcomes between rich and poor districts widened during the economic crisis.",
+          "sentence": "A clear [disparate] in health outcomes between rich and poor districts widened during the economic crisis.",
           "highlighted": "disparate",
           "options": {
             "A": "disparity",
@@ -509,14 +509,14 @@
             "C": "disparately"
           },
           "answer": "A",
-          "explanation": "A singular noun is required as the subject — 'disparity', not the adjective 'disparate'."
+          "explanation": "After the singular article 'A', use the singular noun 'disparity'. 'Disparities' is plural, and 'disparately' is an adverb."
         },
         {
           "id": 2,
           "sentence": "Nurses used [triaged] protocols to rapidly assess which patients required immediate surgery.",
           "highlighted": "triaged",
           "options": {
-            "A": "triaging",
+            "A": "triaged",
             "B": "triage",
             "C": "triages"
           },
@@ -537,15 +537,15 @@
         },
         {
           "id": 4,
-          "sentence": "The [provisioning] of affordable medicines remains inadequate in many developing countries.",
-          "highlighted": "provisioning",
+          "sentence": "The [provisional] of affordable medicines remains inadequate in many developing countries.",
+          "highlighted": "provisional",
           "options": {
             "A": "provision",
             "B": "provisional",
             "C": "provided"
           },
           "answer": "A",
-          "explanation": "The noun 'provision' is needed as the subject of the sentence; 'provisioning' is not standard in this formal healthcare context."
+          "explanation": "The noun 'provision' is required as the subject. 'Provisional' is an adjective, and 'provided' is a past participle."
         },
         {
           "id": 5,

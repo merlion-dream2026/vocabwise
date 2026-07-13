@@ -539,7 +539,7 @@
         },
         {
           "id": 4,
-          "sentence": "The [conscience] of self-awareness in machines is a philosophical question that cannot be settled by engineering alone.",
+          "sentence": "The [conscience] of machines is a philosophical question that cannot be settled by engineering alone.",
           "highlighted": "conscience",
           "options": {
             "A": "conscious",
@@ -547,7 +547,7 @@
             "C": "consciousness"
           },
           "answer": "C",
-          "explanation": "'Consciousness' is the noun meaning awareness or sentience; 'conscience' means moral sense of right and wrong — a false friend error here."
+          "explanation": "'Consciousness' is the noun meaning awareness or sentience. 'Conscience' means a moral sense of right and wrong."
         },
         {
           "id": 5,

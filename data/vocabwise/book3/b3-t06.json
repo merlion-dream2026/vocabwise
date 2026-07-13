@@ -516,7 +516,7 @@
         },
         {
           "id": 2,
-          "sentence": "The governing body failed to [undermine] sporting integrity when the doping scandal broke.",
+          "sentence": "The governing body has a duty to [undermine] sporting integrity whenever a doping scandal occurs.",
           "highlighted": "undermine",
           "options": {
             "A": "undermine",
@@ -524,7 +524,7 @@
             "C": "ignore"
           },
           "answer": "B",
-          "explanation": "'Uphold' means to maintain and protect a standard — 'undermine' means to weaken it, which is the opposite of what a governing body should do."
+          "explanation": "'Uphold' means to maintain and protect a standard. A governing body has a duty to uphold sporting integrity, not undermine it."
         },
         {
           "id": 3,
@@ -552,15 +552,15 @@
         },
         {
           "id": 5,
-          "sentence": "The club tournament is open to [elite] players who compete purely for recreation, not payment.",
-          "highlighted": "elite",
+          "sentence": "The club tournament is open only to [professional] players who compete purely for recreation and receive no payment.",
+          "highlighted": "professional",
           "options": {
-            "A": "elite",
+            "A": "professional",
             "B": "rival",
             "C": "amateur"
           },
           "answer": "C",
-          "explanation": "'Amateur' describes someone who participates for enjoyment rather than financial reward — 'elite' describes the very best performers, which contradicts the recreational context."
+          "explanation": "'Amateur' describes a player who competes for recreation rather than payment. 'Professional' contradicts the statement that the players receive no payment, while 'rival' does not describe their status."
         }
       ]
     },

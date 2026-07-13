@@ -517,9 +517,9 @@
           "sentence": "Researchers warn that [disinform] campaigns are becoming increasingly sophisticated and difficult to detect.",
           "highlighted": "disinform",
           "options": {
-            "A": "disinforming",
+            "A": "disinformed",
             "B": "disinformation",
-            "C": "disinformed"
+            "C": "disinformingly"
           },
           "answer": "B",
           "explanation": "A noun is needed to pre-modify 'campaigns' as a compound noun; 'disinformation' is the correct noun form, not the bare verb 'disinform'."

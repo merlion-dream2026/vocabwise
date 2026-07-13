@@ -508,7 +508,7 @@
             "C": "biasedly"
           },
           "answer": "A",
-          "explanation": "A base-form verb is needed after the modal 'to' — 'bias', not the adjective 'biased'."
+          "explanation": "After 'found to', use the base form of the verb: 'bias'."
         },
         {
           "id": 2,
@@ -527,7 +527,7 @@
           "sentence": "Critics argue that mass [surveille] without judicial authorisation violates fundamental rights.",
           "highlighted": "surveille",
           "options": {
-            "A": "surveilling",
+            "A": "surveils",
             "B": "surveillance",
             "C": "surveilled"
           },
@@ -548,7 +548,7 @@
         },
         {
           "id": 5,
-          "sentence": "Neural [networks] process vast quantities of labelled data during training to identify statistical patterns.",
+          "sentence": "A neural [networks] processes vast quantities of labelled data during training to identify statistical patterns.",
           "highlighted": "networks",
           "options": {
             "A": "network",
@@ -556,7 +556,7 @@
             "C": "networking"
           },
           "answer": "A",
-          "explanation": "'Neural network' is the fixed compound noun phrase — the singular 'network' is correct here as it pairs with 'Neural' to form the subject, not the plural 'networks'."
+          "explanation": "After the singular article 'A', use the singular noun 'network'. The singular verb 'processes' also agrees with 'network'."
         }
       ]
     },

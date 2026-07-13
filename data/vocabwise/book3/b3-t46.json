@@ -534,19 +534,19 @@
         },
         {
           "id": 4,
-          "sentence": "The company leveraged its dominant market position as [leverage] in the contract renewal discussion.",
-          "highlighted": "leverage",
+          "sentence": "The company used its dominant market position as [leveraging] in the contract renewal discussion.",
+          "highlighted": "leveraging",
           "options": {
             "A": "a lever",
             "B": "leveraging",
-            "C": "leverage"
+            "C": "leveraged"
           },
           "answer": "A",
-          "explanation": "The sentence already uses 'leveraged' as a verb; the noun slot after 'as' requires 'a lever' to avoid awkward repetition and maintain grammatical sense. Accept 'leverage' only if used non-repetitively — here the repetition creates an error."
+          "explanation": "After 'as', the countable noun phrase 'a lever' fits the metaphorical meaning. 'Leveraging' and 'leveraged' are verb forms."
         },
         {
           "id": 5,
-          "sentence": "Offering a small discount upfront was a deliberate attempt to [reciprocal] and create goodwill for the harder discussions ahead.",
+          "sentence": "The other side had already made a concession, so offering a small discount was a deliberate attempt to [reciprocal] and create goodwill for the harder discussions ahead.",
           "highlighted": "reciprocal",
           "options": {
             "A": "reciprocate",
@@ -554,7 +554,7 @@
             "C": "reciprocating"
           },
           "answer": "A",
-          "explanation": "A verb in the base form is required after 'to' in this infinitive structure — 'reciprocate', not the adjective 'reciprocal'."
+          "explanation": "After 'attempt to', use the base verb 'reciprocate', meaning respond to a positive action with another positive action."
         }
       ]
     },

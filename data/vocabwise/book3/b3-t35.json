@@ -547,7 +547,7 @@
         },
         {
           "id": 5,
-          "sentence": "Rivals copied the design within months, highlighting how costly it is to neglect [patenting] your core innovations.",
+          "sentence": "Rivals copied the design within months, highlighting how costly it is to neglect to [patenting] your core innovations.",
           "highlighted": "patenting",
           "options": {
             "A": "patented",
@@ -555,7 +555,7 @@
             "C": "patents"
           },
           "answer": "B",
-          "explanation": "A base-form verb is needed after 'to' in the infinitive clause 'to neglect to _____ your core innovations' — 'patent' as a verb, not the gerund 'patenting' after 'neglect to'."
+          "explanation": "After 'neglect to', use the base form of the verb: 'patent'."
         }
       ]
     },

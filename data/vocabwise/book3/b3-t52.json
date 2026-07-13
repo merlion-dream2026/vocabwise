@@ -521,7 +521,7 @@
         },
         {
           "id": 3,
-          "sentence": "Countries that [sustain] unsustainable deforestation rates will face severe ecosystem collapse within decades.",
+          "sentence": "Countries that have [sustain] unsustainable deforestation rates for decades will face severe ecosystem collapse.",
           "highlighted": "sustain",
           "options": {
             "A": "sustaining",
@@ -529,7 +529,7 @@
             "C": "sustainability"
           },
           "answer": "B",
-          "explanation": "A past participle is required to form the reduced relative clause 'that [have] sustained' describing the countries; 'sustain' as a base verb does not fit the present perfect pattern implied by the context."
+          "explanation": "After 'have', use the past participle 'sustained' to form the present perfect."
         },
         {
           "id": 4,
@@ -549,11 +549,11 @@
           "highlighted": "resilient",
           "options": {
             "A": "resiliently",
-            "B": "resiliency",
+            "B": "resilientness",
             "C": "resilience"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'Building' — 'resilience', not the adjective 'resilient'. ('Resiliency' is a valid but less standard form; 'resilience' is preferred.)"
+          "explanation": "A noun is required as the object of 'Building' — 'resilience'. 'Resilient' is an adjective, and 'resilientness' is not the standard form."
         }
       ]
     },

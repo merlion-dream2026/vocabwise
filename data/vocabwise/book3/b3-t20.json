@@ -545,7 +545,7 @@
         },
         {
           "id": 5,
-          "sentence": "Businesses that genuinely [sustainable] their operations reduce waste, lower emissions, and build lasting reputations.",
+          "sentence": "Businesses that genuinely [sustainable] their environmental commitments reduce waste, lower emissions, and build lasting reputations.",
           "highlighted": "sustainable",
           "options": {
             "A": "sustaining",
@@ -553,7 +553,7 @@
             "C": "sustain"
           },
           "answer": "C",
-          "explanation": "A verb is required in the relative clause 'that _____ their operations' — 'sustain' in the present simple, not the adjective 'sustainable'."
+          "explanation": "A present-tense verb is required in the relative clause — 'sustain their environmental commitments'. 'Sustainable' is an adjective."
         }
       ]
     },

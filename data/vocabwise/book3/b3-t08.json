@@ -500,7 +500,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The brand's success lay in its ability to manufacture [aspiring] and sell a vision of a better life.",
+          "sentence": "The brand's success lay in its ability to appeal to consumers' [aspiring] and sell them a vision of a better life.",
           "highlighted": "aspiring",
           "options": {
             "A": "aspirations",
@@ -508,7 +508,7 @@
             "C": "aspiringly"
           },
           "answer": "A",
-          "explanation": "A plural noun is needed as the object of 'manufacture' — 'aspirations', not the adjective/participle 'aspiring'."
+          "explanation": "A plural noun is required after the possessive determiner 'consumers'' — 'aspirations', not the participle 'aspiring'."
         },
         {
           "id": 2,
@@ -528,7 +528,7 @@
           "highlighted": "commodity",
           "options": {
             "A": "commodified",
-            "B": "commodifying",
+            "B": "commodifies",
             "C": "commodification"
           },
           "answer": "C",
@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "Many consumers now actively seek out brands that [persuasion] through values rather than manipulation.",
+          "sentence": "Many consumers now actively seek out brands that [persuasion] them through values rather than manipulation.",
           "highlighted": "persuasion",
           "options": {
             "A": "persuade",
@@ -544,11 +544,11 @@
             "C": "persuasively"
           },
           "answer": "A",
-          "explanation": "A verb is required in the relative clause 'that _____ through values' — 'persuade' in the present simple, not the noun 'persuasion'."
+          "explanation": "A present-tense verb is required in the relative clause: 'brands that persuade them'. 'Persuasion' is a noun."
         },
         {
           "id": 5,
-          "sentence": "The study found a strong link between high [material] values and reduced life satisfaction.",
+          "sentence": "The study found a strong link between a highly [material] outlook and reduced life satisfaction.",
           "highlighted": "material",
           "options": {
             "A": "materialism",
@@ -556,7 +556,7 @@
             "C": "materially"
           },
           "answer": "B",
-          "explanation": "'Materialistic' is the adjective form needed to modify 'values' — 'material' alone means physical substance, not relating to the pursuit of possessions."
+          "explanation": "'Materialistic' is the adjective meaning excessively concerned with possessions. 'Materialism' is a noun, and 'materially' is an adverb."
         }
       ]
     },

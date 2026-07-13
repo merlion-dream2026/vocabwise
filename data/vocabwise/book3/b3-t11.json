@@ -545,19 +545,19 @@
             "C": "prevent"
           },
           "answer": "C",
-          "explanation": "An infinitive verb is required after the auxiliary 'to' — 'prevent', not the adjective 'preventive'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'prevent'."
         },
         {
           "id": 5,
-          "sentence": "Her years of [therapy] practice as a counsellor made her exceptionally skilled at reading emotional cues.",
-          "highlighted": "therapy",
+          "sentence": "Her years of [therapy's] practice as a counsellor made her exceptionally skilled at reading emotional cues.",
+          "highlighted": "therapy's",
           "options": {
-            "A": "therapist",
+            "A": "therapy's",
             "B": "therapeutic",
             "C": "therapied"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify the noun 'practice' — 'therapeutic', not the noun 'therapy'."
+          "explanation": "An adjective is needed to modify 'practice' — 'therapeutic practice'. The possessive form 'therapy's' is incorrect here."
         }
       ]
     },

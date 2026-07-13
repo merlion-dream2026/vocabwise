@@ -536,7 +536,7 @@
         },
         {
           "id": 4,
-          "sentence": "Community volunteers play a crucial role in helping to [combat] elderly [isolating].",
+          "sentence": "Community volunteers play a crucial role in helping to combat elderly [isolating].",
           "highlighted": "isolating",
           "options": {
             "A": "isolate",
@@ -548,7 +548,7 @@
         },
         {
           "id": 5,
-          "sentence": "Hospice nurses are trained to [provide] [palliating] care that prioritises the patient's comfort.",
+          "sentence": "Hospice nurses are trained to provide [palliating] care that prioritises the patient's comfort.",
           "highlighted": "palliating",
           "options": {
             "A": "palliate",

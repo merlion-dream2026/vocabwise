@@ -536,22 +536,22 @@
         },
         {
           "id": 4,
-          "sentence": "After separating, the couple agreed to [reconstitute] their parenting arrangements cooperatively.",
-          "highlighted": "reconstitute",
+          "sentence": "After separating, the couple agreed to [reconstituted] their parenting arrangements cooperatively.",
+          "highlighted": "reconstituted",
           "options": {
-            "A": "reconstituted",
+            "A": "reconstitute",
             "B": "reconstitution",
             "C": "reconstituting"
           },
           "answer": "A",
-          "explanation": "The sentence needs the infinitive or past form — 'reconstituted' fits better here as an adjective modifying 'parenting arrangements', describing a new arrangement already formed."
+          "explanation": "After 'agreed to', use the base form of the verb: 'reconstitute'."
         },
         {
           "id": 5,
           "sentence": "The [fragment] of society into isolated individuals is a major challenge for modern governments.",
           "highlighted": "fragment",
           "options": {
-            "A": "fragmenting",
+            "A": "fragments",
             "B": "fragmented",
             "C": "fragmentation"
           },

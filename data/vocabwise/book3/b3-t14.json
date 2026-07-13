@@ -507,7 +507,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The survey was designed to [subjectively] measure reported levels of life satisfaction across different income groups.",
+          "sentence": "The survey produced a [subjectively] measure of reported life satisfaction across different income groups.",
           "highlighted": "subjectively",
           "options": {
             "A": "subjectivity",
@@ -515,7 +515,7 @@
             "C": "subject"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify 'measure' as part of the compound 'subjective measure'; the adverb 'subjectively' changes the meaning unintentionally."
+          "explanation": "An adjective is needed to modify the noun 'measure' — 'a subjective measure'. 'Subjectively' is an adverb."
         },
         {
           "id": 2,

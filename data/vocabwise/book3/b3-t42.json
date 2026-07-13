@@ -514,15 +514,15 @@
         },
         {
           "id": 2,
-          "sentence": "The article [hedged] its central claim too aggressively, leaving readers unsure what the author actually believed.",
-          "highlighted": "hedged",
+          "sentence": "The article [hedging] its central claim too aggressively, leaving readers unsure what the author actually believes.",
+          "highlighted": "hedging",
           "options": {
-            "A": "hedging",
+            "A": "hedgedly",
             "B": "hedge",
             "C": "hedges"
           },
           "answer": "C",
-          "explanation": "The subject 'The article' is third person singular in simple past context, but here present simple 'hedges' fits the general statement; however, 'hedged' as simple past is grammatically valid. The intended error is that 'hedged' should be 'hedges' to maintain present-tense consistency with 'leaving'. Answer C: 'hedges'."
+          "explanation": "A finite present-tense verb is required with the singular subject 'The article' — 'hedges'. 'Hedging' would require an auxiliary verb."
         },
         {
           "id": 3,
@@ -538,15 +538,15 @@
         },
         {
           "id": 4,
-          "sentence": "The report adopted a cautious [standing] on the policy question, avoiding any definitive recommendations.",
-          "highlighted": "standing",
+          "sentence": "The report adopted a cautious [stood] on the policy question, avoiding any definitive recommendations.",
+          "highlighted": "stood",
           "options": {
             "A": "stance",
             "B": "stood",
             "C": "stances"
           },
           "answer": "A",
-          "explanation": "'Stance' is the correct academic term for a writer's position on an issue; 'standing' here means reputation or status, which is the wrong meaning in this context."
+          "explanation": "'Stance' is the noun for a position on an issue. 'Stood' is a verb form and cannot follow 'a cautious'."
         },
         {
           "id": 5,

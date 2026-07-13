@@ -518,7 +518,7 @@
             "C": "comprehend"
           },
           "answer": "C",
-          "explanation": "A verb is required after the modal 'to' in this infinitive construction — 'comprehend', not the adjective 'comprehensible'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'comprehend'."
         },
         {
           "id": 3,
@@ -539,14 +539,14 @@
           "options": {
             "A": "clarified",
             "B": "clarifying",
-            "C": "clarification"
+            "C": "clarifications"
           },
           "answer": "B",
           "explanation": "A participial adjective is needed to modify 'question' — 'clarifying question' is the correct collocation, not the noun 'clarity'."
         },
         {
           "id": 5,
-          "sentence": "Researchers studying [implicature] in everyday talk found that speakers frequently communicate more than their words literally state.",
+          "sentence": "Researchers studying several conversational [implicature] in everyday talk found that speakers frequently communicate more than their words literally state.",
           "highlighted": "implicature",
           "options": {
             "A": "implicatures",
@@ -554,7 +554,7 @@
             "C": "implicating"
           },
           "answer": "A",
-          "explanation": "The plural noun 'implicatures' is required as the object of 'studying' to refer to the general phenomenon being researched — the singular is too narrow in this context."
+          "explanation": "After 'several conversational', use the plural noun 'implicatures'."
         }
       ]
     },

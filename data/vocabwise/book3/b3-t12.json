@@ -545,7 +545,7 @@
         },
         {
           "id": 4,
-          "sentence": "The therapist helped him [intervention] his automatic negative thoughts before they spiralled out of control.",
+          "sentence": "The therapist helped him [intervention] before his automatic negative thoughts spiralled out of control.",
           "highlighted": "intervention",
           "options": {
             "A": "intervenes",
@@ -553,7 +553,7 @@
             "C": "intervened"
           },
           "answer": "B",
-          "explanation": "After 'helped him', a bare infinitive is required — 'intervene', not the noun 'intervention'."
+          "explanation": "After 'helped him', use the bare infinitive 'intervene'. 'Intervention' is a noun."
         },
         {
           "id": 5,

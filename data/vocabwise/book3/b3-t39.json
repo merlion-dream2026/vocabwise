@@ -505,7 +505,7 @@
             "C": "doctrinally"
           },
           "answer": "A",
-          "explanation": "A plural noun is required to agree with the plural verb 'were' — 'doctrines', not the uncountable singular 'doctrine'."
+          "explanation": "A plural noun is required to agree with the plural verb 'were' — 'doctrines'. The singular noun 'doctrine' would require 'was'."
         },
         {
           "id": 2,
@@ -521,7 +521,7 @@
         },
         {
           "id": 3,
-          "sentence": "Leaders from every major [denomination] gathered to sign the interfaith peace declaration.",
+          "sentence": "Leaders from all major [denomination] gathered to sign the interfaith peace declaration.",
           "highlighted": "denomination",
           "options": {
             "A": "denominations",
@@ -529,7 +529,7 @@
             "C": "denominate"
           },
           "answer": "A",
-          "explanation": "'Leaders from every major denomination' is grammatically correct only if we interpret it as each single denomination; however, the plural 'denominations' is required here to match 'gathered' and the sense of plurality — 'denominations', not the singular 'denomination'."
+          "explanation": "After 'all major', use the plural noun 'denominations'."
         },
         {
           "id": 4,
