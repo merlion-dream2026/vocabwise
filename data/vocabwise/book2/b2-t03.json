@@ -553,7 +553,7 @@
         },
         {
           "id": 3,
-          "sentence": "He was [referred] to see a [specialise] at the city hospital.",
+          "sentence": "He was referred to see a [specialise] at the city hospital.",
           "highlighted": "specialise",
           "options": {
             "A": "specialist",
@@ -577,7 +577,7 @@
         },
         {
           "id": 5,
-          "sentence": "The [patient's] recovery was slow, but she is now fully [health].",
+          "sentence": "The patient's recovery was slow, but she is now fully [health].",
           "highlighted": "health",
           "options": {
             "A": "health",

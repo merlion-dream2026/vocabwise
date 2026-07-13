@@ -546,8 +546,8 @@
           "sentence": "Farmers spread [mineral] on their fields to provide nutrients that help plants grow faster.",
           "highlighted": "mineral",
           "options": {
-            "A": "compost",
-            "B": "mineral",
+            "A": "composting",
+            "B": "minerally",
             "C": "fertiliser"
           },
           "answer": "C",
@@ -567,39 +567,39 @@
         },
         {
           "id": 3,
-          "sentence": "Large parts of the desert are not [farmable] because the soil is too dry and lacks nutrients.",
-          "highlighted": "farmable",
+          "sentence": "Large parts of the desert are not [arability] because the soil is too dry and lacks nutrients.",
+          "highlighted": "arability",
           "options": {
-            "A": "fertile",
+            "A": "fertility",
             "B": "arable",
-            "C": "farmable"
+            "C": "arability"
           },
           "answer": "B",
-          "explanation": "'Arable' is the correct academic adjective meaning 'suitable for growing crops'; 'farmable' is not standard English vocabulary in this context."
+          "explanation": "After 'are not', an adjective is needed. 'Arable' means suitable for growing crops; 'fertility' and 'arability' are nouns."
         },
         {
           "id": 4,
-          "sentence": "During each [crop] season, farmers work day and night to collect all the grain before it rots.",
-          "highlighted": "crop",
+          "sentence": "During each [harvested] season, farmers work day and night to collect all the grain before it rots.",
+          "highlighted": "harvested",
           "options": {
-            "A": "growing",
-            "B": "crop",
+            "A": "growingly",
+            "B": "croppingly",
             "C": "harvest"
           },
           "answer": "C",
-          "explanation": "'Harvest' refers specifically to the season or act of collecting crops when they are ripe; 'crop' refers to the plants themselves, not the collecting process."
+          "explanation": "'Harvest' is the noun used in the compound 'harvest season'. 'Harvested' is a past participle, and the other options are not standard modifiers here."
         },
         {
           "id": 5,
-          "sentence": "After three years of failed harvests, the country experienced a widespread [drought] in which millions starved.",
-          "highlighted": "drought",
+          "sentence": "After three years of failed harvests, the country experienced widespread [dryness] marked by an extreme shortage of food, and millions starved.",
+          "highlighted": "dryness",
           "options": {
             "A": "famine",
-            "B": "crisis",
+            "B": "critical",
             "C": "drought"
           },
           "answer": "A",
-          "explanation": "'Famine' is the correct term for a prolonged, widespread shortage of food that causes starvation; 'drought' is the lack of rainfall that may cause a famine — not the food crisis itself."
+          "explanation": "'Famine' is a widespread, severe shortage of food that causes starvation. 'Drought' is a lack of rainfall, while 'critical' is an adjective."
         }
       ]
     },

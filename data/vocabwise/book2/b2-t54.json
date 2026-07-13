@@ -582,63 +582,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The council needs to find an effective _____ to the growing problem of parking congestion.",
-          "highlighted": "answer",
+          "sentence": "The council needs to find an effective [answering] to the growing problem of parking congestion.",
+          "highlighted": "answering",
           "options": {
-            "A": "response",
+            "A": "responding",
             "B": "solution",
-            "C": "answer"
+            "C": "answering"
           },
           "answer": "B",
-          "explanation": "'Solution' is the target vocabulary word for a specific plan or action that resolves a problem — especially in community and policy contexts. 'Answer' is too informal and usually refers to a reply to a question, not a response to a practical problem. 'Response' is also possible but implies reacting to something rather than resolving it. 'Solution' is the precise term here."
+          "explanation": "A singular noun is needed after 'an effective': 'solution'."
         },
         {
           "id": 2,
-          "sentence": "She [fought] her case effectively by presenting statistics showing that crime had fallen in similar areas.",
-          "highlighted": "fought",
+          "sentence": "She [argument] her case effectively by presenting statistics showing that crime had fallen in similar areas.",
+          "highlighted": "argument",
           "options": {
             "A": "argued",
-            "B": "debated",
-            "C": "fought"
+            "B": "debating",
+            "C": "fighting"
           },
           "answer": "A",
-          "explanation": "'Argued' is the target vocabulary word for presenting a case or position using evidence and logic. 'Fought' is too informal and physical. 'Debated' usually implies a formal back-and-forth exchange rather than presenting one's own case. 'Argued' is the standard academic and journalistic term for presenting a reasoned case — as in 'she argued that...'."
+          "explanation": "A past-tense verb is needed: 'argued'."
         },
         {
           "id": 3,
-          "sentence": "The meeting brought together a range of [ideas] from young people, elderly residents, and local businesses.",
-          "highlighted": "ideas",
+          "sentence": "The meeting brought together a range of [perspective] from young people, elderly residents, and local businesses.",
+          "highlighted": "perspective",
           "options": {
-            "A": "opinions",
-            "B": "ideas",
+            "A": "opinionated",
+            "B": "idea",
             "C": "perspectives"
           },
           "answer": "C",
-          "explanation": "'Perspectives' is the target vocabulary word for the different viewpoints, experiences, and ways of seeing the world that different groups bring to a discussion. 'Ideas' is too narrow and practical. 'Opinions' is similar but less rich — 'perspectives' implies the whole frame of understanding someone brings, not just what they think. 'Perspectives' is the precise academic term for diverse viewpoints."
+          "explanation": "After 'a range of', use the plural noun 'perspectives'."
         },
         {
           "id": 4,
-          "sentence": "Volunteers came together to _____ the problem of litter in the park by organising a community clean-up.",
-          "highlighted": "sort out",
+          "sentence": "Volunteers came together to [sorts out] the problem of litter in the park by organising a community clean-up.",
+          "highlighted": "sorts out",
           "options": {
             "A": "deal with",
-            "B": "resolve",
-            "C": "sort out"
+            "B": "resolving",
+            "C": "sorts out"
           },
           "answer": "A",
-          "explanation": "'Deal with' is the target vocabulary phrase for addressing and managing a problem. 'Sort out' is informal and conversational, not suitable for academic writing. 'Resolve' is a possible synonym but not the specific target vocabulary item. 'Deal with' is the phrasal verb from this topic and the standard phrase in community and social problem contexts."
+          "explanation": "After 'to', use a base-form verb phrase. 'Deal with' means address and manage a problem."
         },
         {
           "id": 5,
-          "sentence": "The residents [voted for] creating a new community garden in the empty lot near the school.",
-          "highlighted": "voted for",
+          "sentence": "The residents [suggestion] creating a new community garden in the empty lot near the school.",
+          "highlighted": "suggestion",
           "options": {
-            "A": "voted for",
-            "B": "agreed on",
+            "A": "voting for",
+            "B": "agreement on",
             "C": "suggested"
           },
           "answer": "C",
-          "explanation": "'Suggested' is the target vocabulary verb for proposing an idea in a community or discussion context. 'Voted for' implies a formal ballot rather than a community proposal. 'Agreed on' implies consensus was already reached. 'Suggested' correctly represents the act of bringing a new idea to the table for consideration — the appropriate vocabulary in community problem-solving contexts."
+          "explanation": "A past-tense verb is needed: 'suggested'."
         }
       ]
     },

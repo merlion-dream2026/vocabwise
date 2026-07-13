@@ -557,7 +557,7 @@
           "options": {
             "A": "habitat",
             "B": "habitant",
-            "C": "habitats"
+            "C": "habitation"
           },
           "answer": "A",
           "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place."
@@ -576,7 +576,7 @@
         },
         {
           "id": 4,
-          "sentence": "When a species completely disappears from Earth, it is called [extinguish].",
+          "sentence": "When a species completely disappears from Earth, it is considered [extinguish].",
           "highlighted": "extinguish",
           "options": {
             "A": "extinguishing",

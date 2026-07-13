@@ -590,63 +590,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Before signing the contract, she took time to carefully [evaluate] all the possible outcomes.",
-          "highlighted": "evaluate",
+          "sentence": "Before signing the contract, she took time to [weighing up] all the possible outcomes.",
+          "highlighted": "weighing up",
           "options": {
             "A": "weigh up",
-            "B": "evaluate",
-            "C": "check"
+            "B": "evaluation",
+            "C": "checking"
           },
           "answer": "A",
-          "explanation": "'Weigh up' is the target vocabulary phrasal verb for carefully comparing the pros and cons of options or outcomes. 'Evaluate' is formal but implies a structured assessment, not the balancing of competing considerations. 'Check' is too casual. 'Weigh up' is the precise idiomatic phrase used in decision-making contexts to describe the act of comparing advantages against disadvantages."
+          "explanation": "After 'to', use the base-form phrasal verb 'weigh up'."
         },
         {
           "id": 2,
-          "sentence": "It would not be [acceptable] to approve a business plan that causes serious damage to the environment.",
-          "highlighted": "acceptable",
+          "sentence": "It would not be [ethically] to approve a business plan that causes serious environmental damage.",
+          "highlighted": "ethically",
           "options": {
-            "A": "right",
+            "A": "rightly",
             "B": "ethical",
-            "C": "acceptable"
+            "C": "acceptably"
           },
           "answer": "B",
-          "explanation": "'Ethical' is the target vocabulary adjective for decisions that conform to moral principles about what is right and wrong — especially in professional or social contexts. 'Acceptable' is subjective and context-dependent. 'Right' is too general. 'Ethical' is the precise term when discussing whether a decision conforms to standards of professional or moral responsibility."
+          "explanation": "An adjective is needed after 'be': 'ethical'."
         },
         {
           "id": 3,
-          "sentence": "She decided to [talk about] the problem with a trusted colleague before making a final decision.",
-          "highlighted": "talk about",
+          "sentence": "She decided to [discussion] the problem with a trusted colleague before making a final decision.",
+          "highlighted": "discussion",
           "options": {
-            "A": "debate",
-            "B": "consider",
+            "A": "debating",
+            "B": "consideration",
             "C": "discuss"
           },
           "answer": "C",
-          "explanation": "'Discuss' is the target vocabulary verb for having a thoughtful, purposeful conversation about a topic, especially to reach understanding or a decision. 'Talk about' is informal. 'Debate' implies a formal or adversarial exchange. 'Consider' means to think, not to talk. 'Discuss' is the precise vocabulary item for a purposeful exchange of views aimed at making a better decision."
+          "explanation": "After 'decided to', use the base verb 'discuss'."
         },
         {
           "id": 4,
-          "sentence": "Choosing to ignore the [impact] of a decision on others is morally [irresponsible].",
-          "highlighted": "irresponsible",
+          "sentence": "Choosing to ignore the impact of a decision on others is morally [responsibility].",
+          "highlighted": "responsibility",
           "options": {
-            "A": "wrong",
+            "A": "wrongly",
             "B": "irresponsible",
-            "C": "harmful"
+            "C": "harmfully"
           },
-          "answer": "A",
-          "explanation": "While 'irresponsible' is semantically correct, 'wrong' is the target vocabulary adjective for a moral judgement — declaring that an action violates ethical principles. 'Wrong' is simple, direct, and the contrasting pair to 'right' in this topic. The exercise tests whether students can identify 'wrong' as the appropriate moral vocabulary. 'Harmful' describes effect, not moral status. 'Irresponsible' describes attitude, not the moral judgement itself."
+          "answer": "B",
+          "explanation": "An adjective is needed after 'morally': 'irresponsible'. The other options are adverbs."
         },
         {
           "id": 5,
-          "sentence": "Knowing your [values] helps you make more consistent decisions when you are under pressure.",
-          "highlighted": "values",
+          "sentence": "Knowing your [moral coding] helps you make more consistent decisions under pressure.",
+          "highlighted": "moral coding",
           "options": {
             "A": "rule of life",
             "B": "moral code",
-            "C": "values"
+            "C": "valuable"
           },
-          "answer": "A",
-          "explanation": "'Rule of life' is the target vocabulary phrase for a personal framework of guiding principles that a person applies when making difficult decisions. 'Values' is accurate but generic. 'Moral code' is a synonym but not the specific vocabulary term from this topic. 'Rule of life' is the precise compound phrase introduced in the passage to describe the personal ethical framework that guides decision-making beyond immediate self-interest."
+          "answer": "B",
+          "explanation": "'Moral code' is the standard noun phrase for a set of ethical principles that guides decisions."
         }
       ]
     },
@@ -745,8 +745,8 @@
       "1": "A",
       "2": "B",
       "3": "C",
-      "4": "A",
-      "5": "A"
+      "4": "B",
+      "5": "B"
     }
   },
   "grammar_spotlight": {

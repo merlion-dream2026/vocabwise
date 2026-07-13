@@ -558,63 +558,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "He created a detailed monthly [plan] to ensure he did not spend more than he earned.",
-          "highlighted": "plan",
+          "sentence": "He created a detailed monthly [budgeting] to ensure he did not spend more than he earned.",
+          "highlighted": "budgeting",
           "options": {
-            "A": "plan",
+            "A": "budgeted",
             "B": "budget",
-            "C": "record"
+            "C": "budgetary"
           },
           "answer": "B",
-          "explanation": "'Budget' is the specific financial term for a plan that allocates income to different expenses; 'plan' and 'record' are too general to carry this precise financial meaning."
+          "explanation": "After 'a detailed monthly', a singular countable noun is needed: 'budget'. 'Budgeted' is a verb/adjective, 'budgetary' is an adjective, and 'budgeting' names an activity."
         },
         {
           "id": 2,
-          "sentence": "She was shocked by the high [fee] on her loan — it added more than 7% to the total repayment.",
-          "highlighted": "fee",
+          "sentence": "She was shocked by the high [interesting] charged on her loan — it added more than 7% to the total repayment.",
+          "highlighted": "interesting",
           "options": {
             "A": "interest",
-            "B": "fee",
-            "C": "charge"
+            "B": "feeing",
+            "C": "charging"
           },
           "answer": "A",
-          "explanation": "'Interest' is the precise financial term for the percentage-based cost of borrowing money; 'fee' refers to a fixed charge for a service, and 'charge' is too informal in this context."
+          "explanation": "'Interest' is the percentage-based cost of borrowing money. The other options do not function as the required noun here."
         },
         {
           "id": 3,
-          "sentence": "After years of living beyond his means, he found himself in serious financial [trouble].",
-          "highlighted": "trouble",
+          "sentence": "After years of borrowing more than he could repay, he found himself deeply in [financial loss].",
+          "highlighted": "financial loss",
           "options": {
-            "A": "loss",
-            "B": "trouble",
+            "A": "losing",
+            "B": "troubled",
             "C": "debt"
           },
           "answer": "C",
-          "explanation": "'Debt' is the correct financial term for the state of owing money; 'trouble' is vague and informal, and 'loss' refers to money lost, not money owed."
+          "explanation": "The fixed phrase is 'in debt', meaning owing money. 'In losing' and 'in troubled' are ungrammatical."
         },
         {
           "id": 4,
-          "sentence": "Instead of taking a loan, she chose to [accumulate money slowly] for three years before making the purchase.",
-          "highlighted": "accumulate money slowly",
+          "sentence": "Instead of taking a loan, she chose to [accumulation] for three years before making the purchase.",
+          "highlighted": "accumulation",
           "options": {
             "A": "save up",
-            "B": "accumulate money slowly",
-            "C": "set aside"
+            "B": "accumulating",
+            "C": "setting aside"
           },
           "answer": "A",
-          "explanation": "'Save up' is the natural, concise phrasal verb for gradually building funds towards a specific goal; the other options are either wordy or less natural in this financial context."
+          "explanation": "After 'chose to', use a base-form verb. 'Save up' means gradually accumulate money for a specific purchase."
         },
         {
           "id": 5,
-          "sentence": "A large portion of her salary was taken as [payment] by the government before she received it.",
-          "highlighted": "payment",
+          "sentence": "A large portion of her salary was deducted as [taxing] by the government before she received it.",
+          "highlighted": "taxing",
           "options": {
-            "A": "payment",
+            "A": "paying",
             "B": "tax",
             "C": "fine"
           },
           "answer": "B",
-          "explanation": "'Tax' is the specific term for money legally deducted from income by the government; 'payment' is too general, and 'fine' implies a penalty for wrongdoing, which is not the case here."
+          "explanation": "'Tax' is the noun for money legally deducted from income by the government. 'Paying' is a verb form, and a fine is a penalty for wrongdoing."
         }
       ]
     },

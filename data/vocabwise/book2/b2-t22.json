@@ -564,15 +564,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She developed a detailed [plan] to guide the company's decisions over the next five years.",
-          "highlighted": "plan",
+          "sentence": "She developed a detailed [strategic] to guide the company's decisions over the next five years.",
+          "highlighted": "strategic",
           "options": {
             "A": "strategy",
-            "B": "plan",
-            "C": "schedule"
+            "B": "planning",
+            "C": "scheduled"
           },
           "answer": "A",
-          "explanation": "'Strategy' refers to a high-level, long-term plan that guides major business decisions; 'plan' and 'schedule' are too general and often refer to short-term or operational matters."
+          "explanation": "A singular noun is needed after 'a detailed': 'strategy'. 'Strategic' and 'scheduled' are adjectives, while 'planning' does not name the finished long-term plan here."
         },
         {
           "id": 2,
@@ -581,46 +581,46 @@
           "options": {
             "A": "earnings",
             "B": "profit",
-            "C": "income"
+            "C": "incomes"
           },
           "answer": "B",
-          "explanation": "'Profit' is the specific financial term for money remaining after all business costs are deducted from revenue; 'earnings' and 'income' refer to revenue before costs are taken into account."
+          "explanation": "'Profit' is the money remaining after business costs are deducted. 'A healthy earnings' and 'a healthy incomes' are grammatically incorrect."
         },
         {
           "id": 3,
-          "sentence": "The new product was [introduced] to the public at a large event in the city centre.",
-          "highlighted": "introduced",
+          "sentence": "The new product was [introduction] to the public at a large event in the city centre.",
+          "highlighted": "introduction",
           "options": {
-            "A": "advertised",
+            "A": "advertising",
             "B": "launched",
-            "C": "introduced"
+            "C": "introducing"
           },
           "answer": "B",
-          "explanation": "'Launched' is the standard business term for officially introducing a new product or service to the market for the first time; 'introduced' is informal and less precise in a commercial context."
+          "explanation": "After 'was', the past participle 'launched' is needed to describe the official market introduction of a new product."
         },
         {
           "id": 4,
-          "sentence": "The company tried to [sell to] students aged 18–25 by making its product affordable and stylish.",
-          "highlighted": "sell to",
+          "sentence": "The company tried to [targeting] students aged 18–25 by making its product affordable and stylish.",
+          "highlighted": "targeting",
           "options": {
-            "A": "sell to",
-            "B": "appeal to",
+            "A": "selling to",
+            "B": "appealing to",
             "C": "target"
           },
           "answer": "C",
-          "explanation": "'Target' is the precise marketing term for directing efforts at a specific group of potential buyers; 'sell to' describes only the final act of selling, not the strategic focus on a particular audience."
+          "explanation": "After 'tried to', use the base form 'target'. The other options use -ing forms and are ungrammatical after 'to'."
         },
         {
           "id": 5,
-          "sentence": "After two successful years in one city, the business was ready to [grow] into new regions.",
-          "highlighted": "grow",
+          "sentence": "After two successful years in one city, the business was ready to [expansion] into new regions.",
+          "highlighted": "expansion",
           "options": {
-            "A": "grow",
+            "A": "growth",
             "B": "expand",
-            "C": "branch out"
+            "C": "branching out"
           },
           "answer": "B",
-          "explanation": "'Expand' specifically means to increase in geographic reach, scale, or product range — it is the correct business term here; 'grow' is more general and 'branch out' is informal."
+          "explanation": "After 'ready to', use the base verb 'expand'. 'Expansion' and 'growth' are nouns, and 'branching out' is not the base form."
         }
       ]
     },

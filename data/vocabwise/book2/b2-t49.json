@@ -570,15 +570,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She started sorting her [rubbish] into separate bins so that paper and plastic could be recycled.",
-          "highlighted": "rubbish",
+          "sentence": "She started sorting her household [wasted] into separate bins so that paper and plastic could be recycled.",
+          "highlighted": "wasted",
           "options": {
             "A": "waste",
-            "B": "rubbish",
-            "C": "garbage"
+            "B": "rubbishy",
+            "C": "garbaged"
           },
           "answer": "A",
-          "explanation": "'Waste' is the target vocabulary word for the general concept of discarded or unwanted material, especially in environmental discussions. 'Rubbish' and 'garbage' are informal terms for household refuse — they work in conversation but 'waste' is the precise academic and environmental vocabulary term used in IELTS-level texts."
+          "explanation": "'Waste' is the uncountable noun for discarded material."
         },
         {
           "id": 2,
@@ -587,46 +587,46 @@
           "options": {
             "A": "improve",
             "B": "reduce",
-            "C": "protect"
+            "C": "protected"
           },
-          "answer": "C",
-          "explanation": "'Protect' is the target vocabulary verb for safeguarding the environment from harm. In context, the goal of the campaign is to protect air quality. 'Clean up' suggests removing existing dirt or mess. 'Improve' is possible but general. 'Reduce' would require a direct object (reduce pollution, not reduce air quality). 'Protect' is the most precise environmental vocabulary here."
+          "answer": "A",
+          "explanation": "'Improve air quality' is the natural collocation for making it cleaner. 'Reduce air quality' means make it worse, and 'protected' is not a base verb after 'to'."
         },
         {
           "id": 3,
-          "sentence": "The oil spill caused terrible [harm] to the coastal ecosystem and killed thousands of fish.",
-          "highlighted": "harm",
+          "sentence": "The oil spill caused terrible environmental [damaging] and killed thousands of fish.",
+          "highlighted": "damaging",
           "options": {
-            "A": "ruin",
-            "B": "danger",
+            "A": "ruined",
+            "B": "dangerous",
             "C": "damage"
           },
           "answer": "C",
-          "explanation": "'Damage' is the target vocabulary word for environmental destruction caused by human activity. 'Harm' is more commonly used for injury to living beings. 'Danger' refers to risk, not the result of an event. 'Ruin' is informal. 'Damage' is the precise word used in environmental and legal contexts for measurable harm to property or nature."
+          "explanation": "A noun is needed after 'environmental': 'damage'."
         },
         {
           "id": 4,
           "sentence": "The new [nature-friendly] packaging uses plant-based ink and recycled cardboard.",
           "highlighted": "nature-friendly",
           "options": {
-            "A": "green",
+            "A": "greening",
             "B": "eco-friendly",
             "C": "nature-friendly"
           },
           "answer": "B",
-          "explanation": "'Eco-friendly' is the target vocabulary compound adjective for products or practices that do not harm the environment. 'Nature-friendly' is not a standard English term. 'Green' is also correct in context but less specific to packaging. 'Eco-friendly' is the established and widely used term in environmental and commercial contexts."
+          "explanation": "'Eco-friendly' is the established compound adjective for products that do not harm the environment. 'Greening' does not fit before 'packaging' here, and 'nature-friendly' is nonstandard."
         },
         {
           "id": 5,
-          "sentence": "The factory installed [power-saving] devices to cut its electricity use by thirty percent.",
-          "highlighted": "power-saving",
+          "sentence": "The factory installed [energy saved] devices to cut its electricity use by thirty percent.",
+          "highlighted": "energy saved",
           "options": {
-            "A": "power-saving",
-            "B": "energy saving",
-            "C": "electricity-reducing"
+            "A": "power saved",
+            "B": "energy-saving",
+            "C": "energy saved"
           },
           "answer": "B",
-          "explanation": "'Energy saving' is the target vocabulary compound adjective for devices that reduce energy consumption. 'Power-saving' exists in technology contexts (e.g., phone screens) but is not the standard environmental vocabulary term. 'Electricity-reducing' is not standard English at all. 'Energy saving' is the established phrase in sustainability and environmental discussion."
+          "explanation": "'Energy-saving' is the established compound adjective for devices that reduce energy consumption."
         }
       ]
     },
@@ -723,7 +723,7 @@
     },
     "ex5": {
       "1": "A",
-      "2": "C",
+      "2": "A",
       "3": "C",
       "4": "B",
       "5": "B"

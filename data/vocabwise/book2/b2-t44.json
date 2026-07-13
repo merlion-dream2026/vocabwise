@@ -558,63 +558,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She stopped [working for good] last year after 40 years in the teaching profession.",
-          "highlighted": "working for good",
+          "sentence": "She [retirement] last year after 40 years in the teaching profession.",
+          "highlighted": "retirement",
           "options": {
             "A": "retired",
-            "B": "working for good",
-            "C": "quit"
+            "B": "work for good",
+            "C": "quitting"
           },
           "answer": "A",
-          "explanation": "'Retired' is the precise and formal verb for permanently leaving the workforce at an appropriate age after a full career. 'Working for good' is idiomatic but informal and wordy. 'Quit' implies leaving a specific job, not the formal act of ending one's working life at retirement age."
+          "explanation": "A past-tense verb is needed: 'retired'."
         },
         {
           "id": 2,
-          "sentence": "The government increased funding for [health services] for people over the age of 70.",
-          "highlighted": "health services",
+          "sentence": "The government increased funding for public [healthcare’s] for people over the age of 70.",
+          "highlighted": "healthcare’s",
           "options": {
             "A": "healthcare",
-            "B": "health services",
-            "C": "medical care"
+            "B": "health servicing",
+            "C": "medically care"
           },
           "answer": "A",
-          "explanation": "'Healthcare' is the target vocabulary term for the broad system of health services and medical provision. While 'health services' is similar and acceptable, 'healthcare' is the single compound noun that is the specific target word for this topic."
+          "explanation": "'Healthcare' is an uncountable noun and takes no apostrophe here."
         },
         {
           "id": 3,
-          "sentence": "An independent woman, she is extremely [self-sufficient] and manages all her affairs alone.",
-          "highlighted": "self-sufficient",
+          "sentence": "An independent woman, she is extremely [self-reliance] and manages all her affairs alone.",
+          "highlighted": "self-reliance",
           "options": {
             "A": "self-reliant",
-            "B": "self-sufficient",
-            "C": "independent"
+            "B": "self-sufficiency",
+            "C": "independence"
           },
           "answer": "A",
-          "explanation": "'Self-reliant' is the target vocabulary adjective specifically used to describe someone who depends on their own resources and abilities rather than others' help. 'Self-sufficient' has a similar meaning but is more often used for systems or communities that produce their own resources (e.g., food). 'Independent' is close but 'self-reliant' is the target term."
+          "explanation": "An adjective is needed after 'is extremely': 'self-reliant'."
         },
         {
           "id": 4,
-          "sentence": "She felt deeply [isolated] after her husband died and she moved to a new city alone.",
-          "highlighted": "isolated",
+          "sentence": "She felt deeply [loneliness] after her husband died and she moved to a new city alone.",
+          "highlighted": "loneliness",
           "options": {
-            "A": "alone",
+            "A": "aloneness",
             "B": "lonely",
-            "C": "isolated"
+            "C": "isolation"
           },
           "answer": "B",
-          "explanation": "'Lonely' is the target vocabulary adjective describing the emotional experience of sadness from a lack of companionship. 'Isolated' describes physical separation from others and is more extreme. 'Alone' simply means without others present — it does not convey the emotional distress implied in the sentence."
+          "explanation": "An adjective is needed after 'felt deeply': 'lonely'."
         },
         {
           "id": 5,
-          "sentence": "Older volunteers [give back] to their communities by mentoring young entrepreneurs.",
-          "highlighted": "give back",
+          "sentence": "Older volunteers [contribution] to their communities by mentoring young entrepreneurs.",
+          "highlighted": "contribution",
           "options": {
-            "A": "help out",
-            "B": "give back",
+            "A": "helping out",
+            "B": "giving back",
             "C": "contribute"
           },
           "answer": "C",
-          "explanation": "'Contribute' is the target vocabulary verb for providing something valuable (time, skills, knowledge) to a community or society. 'Give back' is informal and often implies returning something previously received. 'Help out' is also informal and suggests casual, temporary assistance rather than meaningful, ongoing contribution."
+          "explanation": "The plural subject 'volunteers' requires the base-form present verb 'contribute'."
         }
       ]
     },

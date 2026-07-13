@@ -574,15 +574,15 @@
         },
         {
           "id": 2,
-          "sentence": "He managed to [study] a little Spanish during his three months working in Madrid.",
-          "highlighted": "study",
+          "sentence": "He managed to [picking up] a little Spanish during his three months working in Madrid.",
+          "highlighted": "picking up",
           "options": {
-            "A": "learn",
+            "A": "learning",
             "B": "pick up",
-            "C": "study"
+            "C": "studying"
           },
           "answer": "B",
-          "explanation": "'Pick up' means to learn a language naturally and informally through exposure rather than formal study — perfectly suited here since he learned through immersion, not classroom instruction. 'Learn' is possible but lacks the nuance of informal acquisition. 'Study' implies formal, deliberate effort."
+          "explanation": "After 'managed to', use the base-form phrasal verb 'pick up'."
         },
         {
           "id": 3,
@@ -598,7 +598,7 @@
         },
         {
           "id": 4,
-          "sentence": "The language was considered [dead] — only three elderly speakers remained alive.",
+          "sentence": "The language was [dead] — only three elderly speakers remained alive.",
           "highlighted": "dead",
           "options": {
             "A": "extinct",
@@ -610,15 +610,15 @@
         },
         {
           "id": 5,
-          "sentence": "The country is [similar] in its cultures, with over 70 distinct ethnic groups.",
+          "sentence": "The country is culturally [similar], with over 70 sharply different cultures and ethnic groups.",
           "highlighted": "similar",
           "options": {
-            "A": "rich",
+            "A": "uniformly",
             "B": "similar",
             "C": "diverse"
           },
           "answer": "C",
-          "explanation": "'Diverse' is the correct word meaning varied or made up of many different elements. The sentence describes a country with many different ethnic groups, which is diversity. 'Similar' means things are like each other — the opposite of what is intended. 'Rich' could work informally but is less precise than 'diverse'."
+          "explanation": "'Diverse' means consisting of many different cultural groups. 'Similar' contradicts the reference to over 70 distinct groups, and 'uniformly' is an adverb."
         }
       ]
     },

@@ -547,7 +547,7 @@
         },
         {
           "id": 2,
-          "sentence": "The [custom] of removing shoes before entering a home is [wide] across Asia.",
+          "sentence": "The custom of removing shoes before entering a home is [wide] across Asia.",
           "highlighted": "wide",
           "options": {
             "A": "widespread",
@@ -559,7 +559,7 @@
         },
         {
           "id": 3,
-          "sentence": "She [practise] her faith quietly at home without going to a religious building.",
+          "sentence": "She currently [practise] her faith quietly at home without going to a religious building.",
           "highlighted": "practise",
           "options": {
             "A": "practise",
@@ -583,7 +583,7 @@
         },
         {
           "id": 5,
-          "sentence": "The country has a [diverse] population with many different [belief] and traditions.",
+          "sentence": "The country has a diverse population with many different [belief] and traditions.",
           "highlighted": "belief",
           "options": {
             "A": "belief",

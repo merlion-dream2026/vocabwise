@@ -550,63 +550,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The island became a popular [place to go] after a travel magazine named it one of the world's best beaches.",
-          "highlighted": "place to go",
+          "sentence": "The island became a popular travel [locating] after a travel magazine named it one of the world’s best beach destinations.",
+          "highlighted": "locating",
           "options": {
             "A": "destination",
             "B": "place to go",
-            "C": "location"
+            "C": "locate"
           },
           "answer": "A",
-          "explanation": "'Destination' is the standard travel and tourism term for a specific place that people travel to; 'place to go' is informal and too vague, and 'location' refers to physical position rather than a travel goal."
+          "explanation": "'Travel destination' is the standard noun phrase for a place people travel to. The other options do not fit grammatically after 'travel'."
         },
         {
           "id": 2,
-          "sentence": "The tour operator offered a range of [lodging] options, from budget hostels to luxury hotels.",
-          "highlighted": "lodging",
+          "sentence": "The tour operator offered a range of [accommodate] options, from budget hostels to luxury hotels.",
+          "highlighted": "accommodate",
           "options": {
             "A": "accommodation",
-            "B": "lodging",
-            "C": "housing"
+            "B": "lodged",
+            "C": "house"
           },
           "answer": "A",
-          "explanation": "'Accommodation' is the standard British English term used in travel and tourism for places where people stay; 'lodging' is more common in American English and informal, while 'housing' refers to permanent residential arrangements."
+          "explanation": "'Accommodation' is the noun used in British English for places where travellers stay."
         },
         {
           "id": 3,
-          "sentence": "The government wanted to [keep] the ancient ruins so that visitors could continue to enjoy them.",
-          "highlighted": "keep",
+          "sentence": "The government wanted to [preservation] the ancient ruins so that visitors could continue to enjoy them.",
+          "highlighted": "preservation",
           "options": {
-            "A": "maintain",
+            "A": "maintenance",
             "B": "preserve",
-            "C": "keep"
+            "C": "keeping"
           },
           "answer": "B",
-          "explanation": "'Preserve' is the correct term for protecting and maintaining something of historical or cultural value in its current state; 'maintain' focuses on upkeep and functionality, and 'keep' is too general and informal."
+          "explanation": "After 'wanted to', use the base verb 'preserve', meaning protect something of historical value."
         },
         {
           "id": 4,
-          "sentence": "The park introduced a maximum [number of people] per day to prevent environmental damage.",
-          "highlighted": "number of people",
+          "sentence": "The park introduced a daily visitor [capacitate] to prevent environmental damage.",
+          "highlighted": "capacitate",
           "options": {
             "A": "capacity",
             "B": "number of people",
-            "C": "quota"
+            "C": "quoting"
           },
           "answer": "A",
-          "explanation": "'Capacity' is the precise term for the maximum number of people or things a place can handle at one time; it is standard in tourism planning. 'Number of people' is wordy and informal, and 'quota' implies an assigned target rather than a limit."
+          "explanation": "'Visitor capacity' is the standard noun phrase for the maximum number of people a place can accommodate."
         },
         {
           "id": 5,
-          "sentence": "The town is famous for the [kindness] of its residents towards tourists and travellers.",
-          "highlighted": "kindness",
+          "sentence": "The town is famous for its residents' [hospitable] towards tourists and travellers.",
+          "highlighted": "hospitable",
           "options": {
-            "A": "kindness",
+            "A": "kind",
             "B": "hospitality",
-            "C": "generosity"
+            "C": "generous"
           },
           "answer": "B",
-          "explanation": "'Hospitality' is the specific term for the friendly and welcoming treatment of guests and visitors — it is the standard word used in travel and service contexts. 'Kindness' and 'generosity' are more general character traits."
+          "explanation": "'Hospitality' is the noun for friendly and welcoming treatment of guests. The other options are adjectives."
         }
       ]
     },

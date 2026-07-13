@@ -542,27 +542,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Before running the experiment, the team formed a [guess] about what the results would show.",
-          "highlighted": "guess",
+          "sentence": "Before running the experiment, the team formed a [guessing] about what the results would show.",
+          "highlighted": "guessing",
           "options": {
-            "A": "prediction",
+            "A": "predicting",
             "B": "hypothesis",
-            "C": "guess"
+            "C": "guessing"
           },
           "answer": "B",
-          "explanation": "A 'hypothesis' is a precise, testable scientific prediction based on prior knowledge; a 'guess' is random and unsystematic — it has no place in formal scientific writing."
+          "explanation": "A singular noun is needed after 'a': 'hypothesis', meaning a testable scientific explanation or prediction."
         },
         {
           "id": 2,
-          "sentence": "The paper was evaluated through [expert verification] before being accepted for publication.",
-          "highlighted": "expert verification",
+          "sentence": "The paper was evaluated through [peer reviewing] before being accepted for publication.",
+          "highlighted": "peer reviewing",
           "options": {
-            "A": "fact-checking",
-            "B": "expert verification",
+            "A": "fact-checked",
+            "B": "peer reviewing",
             "C": "peer review"
           },
           "answer": "C",
-          "explanation": "'Peer review' is the standard academic term for the process of having research evaluated by other specialists in the same field."
+          "explanation": "'Peer review' is the noun for evaluation of research by specialists in the same field. The other options do not fit after 'through'."
         },
         {
           "id": 3,
@@ -571,29 +571,29 @@
           "options": {
             "A": "variable",
             "B": "element",
-            "C": "factor"
+            "C": "variation"
           },
           "answer": "A",
-          "explanation": "'Variable' is the precise scientific term for a factor that is deliberately changed or measured in an experiment; 'element' and 'factor' are less specific."
+          "explanation": "'Variable' is the scientific noun for a factor deliberately changed or measured in an experiment. 'Element' is less specific, and 'variation' does not name the controlled factor."
         },
         {
           "id": 4,
           "sentence": "To verify the results, other teams must be able to [copy] the experiment under the same conditions.",
           "highlighted": "copy",
           "options": {
-            "A": "repeat",
+            "A": "repetition",
             "B": "replicate",
             "C": "copy"
           },
           "answer": "B",
-          "explanation": "'Replicate' carries the specific scientific meaning of repeating an experiment under identical controlled conditions to verify its results; 'copy' and 'repeat' are informal and imprecise."
+          "explanation": "'Replicate' is the base verb for repeating an experiment under the same conditions to verify results. 'Repetition' is a noun, and 'copy' is not the standard scientific verb here."
         },
         {
           "id": 5,
           "sentence": "The discovery of penicillin was a remarkable scientific [invention] that saved millions of lives.",
           "highlighted": "invention",
           "options": {
-            "A": "achievement",
+            "A": "achieving",
             "B": "invention",
             "C": "breakthrough"
           },

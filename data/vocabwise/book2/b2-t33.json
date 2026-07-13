@@ -552,63 +552,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The book's [story] is set in 19th-century London and follows a young detective solving a series of crimes.",
-          "highlighted": "story",
+          "sentence": "The book's [plotting] is set in 19th-century London and follows a young detective solving a series of crimes.",
+          "highlighted": "plotting",
           "options": {
             "A": "plot",
-            "B": "story",
-            "C": "script"
+            "B": "storytelling",
+            "C": "scripted"
           },
           "answer": "A",
-          "explanation": "'Plot' is the specific literary term for the structured sequence of events, causes, and consequences in a narrative. 'Story' is more general and informal. 'Script' refers to the written text of a play or film, not a novel."
+          "explanation": "'Plot' is the noun for the structured sequence of events in a narrative."
         },
         {
           "id": 2,
-          "sentence": "The book's [chapter] was about the search for identity and belonging.",
+          "sentence": "The book's [chapter] was the search for identity and belonging, an idea that ran throughout the entire novel.",
           "highlighted": "chapter",
           "options": {
-            "A": "storyline",
+            "A": "storylining",
             "B": "genre",
             "C": "theme"
           },
           "answer": "C",
-          "explanation": "'Theme' is the correct literary term for the deeper meaning or underlying message of a story. A 'chapter' is a numbered section of a book. 'Storyline' refers to the sequence of events, and 'genre' refers to the category of fiction — neither describes the abstract meaning of a work."
+          "explanation": "'Theme' is the noun for the underlying idea explored throughout a literary work. 'Storylining' is not a standard noun here, and 'genre' names a category of literature."
         },
         {
           "id": 3,
-          "sentence": "The writer [shared] her second novel just two years after her debut.",
-          "highlighted": "shared",
+          "sentence": "The writer [publication] her second novel just two years after her debut.",
+          "highlighted": "publication",
           "options": {
-            "A": "released",
+            "A": "releasing",
             "B": "published",
-            "C": "shared"
+            "C": "sharing"
           },
           "answer": "B",
-          "explanation": "'Published' is the correct formal term for producing and distributing a book for public sale through a publisher. 'Released' is more common for music and films. 'Shared' is informal and implies distributing something personally, not through a formal publication process."
+          "explanation": "A past-tense verb is needed: 'published'."
         },
         {
           "id": 4,
-          "sentence": "The book got excellent [opinions] from critics and readers around the world.",
-          "highlighted": "opinions",
+          "sentence": "The book received excellent critical [opinionated] from critics and readers around the world.",
+          "highlighted": "opinionated",
           "options": {
-            "A": "comments",
+            "A": "commenting",
             "B": "reviews",
-            "C": "feedback"
+            "C": "feeding back"
           },
           "answer": "B",
-          "explanation": "'Reviews' is the standard professional term for published critical evaluations of a book, film, or performance. 'Opinions' are personal views not necessarily shared publicly, 'comments' are informal responses, and 'feedback' implies suggestions for improvement rather than critical assessment."
+          "explanation": "'Reviews' is the plural noun for published critical evaluations of a book."
         },
         {
           "id": 5,
-          "sentence": "She found it hard to follow the [chapter] because the writer kept switching between three different narrators.",
+          "sentence": "She found it hard to follow the [chapter] of the whole novel because the writer kept switching between three different narrators.",
           "highlighted": "chapter",
           "options": {
             "A": "plot",
             "B": "chapter",
-            "C": "theme"
+            "C": "thematic"
           },
           "answer": "A",
-          "explanation": "'Plot' is the correct term here — it refers to the sequence of events and causal structure of the story, which can be difficult to follow when multiple narrators are used. A 'chapter' is a section of the book, and 'theme' is the deeper meaning, neither of which is affected by switching narrators in the same way."
+          "explanation": "'Plot' is the noun for the sequence of events in the whole novel. 'Chapter' names one section, and 'thematic' is an adjective."
         }
       ]
     },

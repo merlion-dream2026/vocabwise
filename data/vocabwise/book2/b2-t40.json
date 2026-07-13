@@ -559,27 +559,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "This [old] custom has been practised continuously for over 2,000 years in this region.",
-          "highlighted": "old",
+          "sentence": "This [anciently] custom has been practised continuously for over 2,000 years in this region.",
+          "highlighted": "anciently",
           "options": {
-            "A": "traditional",
+            "A": "traditionally",
             "B": "ancient",
-            "C": "old"
+            "C": "oldly"
           },
           "answer": "B",
-          "explanation": "'Ancient' is the precise term for something that dates back to very early history — typically thousands of years ago. 'Old' is too informal and vague for historical customs. 'Traditional' means passed down over generations but does not specifically indicate great age."
+          "explanation": "An adjective is needed before 'custom': 'ancient'."
         },
         {
           "id": 2,
-          "sentence": "The _____ was a spectacular [event] featuring fireworks, traditional dances, and a street parade.",
-          "highlighted": "event",
+          "sentence": "The National Day [ritual] featured fireworks, traditional dances, and a street parade.",
+          "highlighted": "ritual",
           "options": {
             "A": "ritual",
-            "B": "celebration event",
-            "C": "event"
+            "B": "celebration",
+            "C": "eventful"
           },
           "answer": "B",
-          "explanation": "'Celebration event' is the target vocabulary phrase for a formal, organised occasion that marks a cultural or national occasion. 'Event' alone is too general. 'Ritual' refers to a specific, often sacred, repeated practice — not a large public celebration."
+          "explanation": "'Celebration' is the noun for a large public occasion marking a national event. A ritual is a specific repeated ceremonial act, and 'eventful' is an adjective."
         },
         {
           "id": 3,
@@ -588,34 +588,34 @@
           "options": {
             "A": "passed down",
             "B": "given",
-            "C": "transferred"
+            "C": "transferring"
           },
           "answer": "A",
-          "explanation": "'Passed down' is the standard idiomatic expression for handing traditions, knowledge, or values from one generation to the next. 'Given' is too transactional and lacks the cultural resonance. 'Transferred' is too formal and typically used for property or data, not traditions."
+          "explanation": "'Passed down' is the standard phrasal verb for transmitting customs from one generation to the next. 'Given' is not the natural collocation, and 'transferring' is not the required past participle."
         },
         {
           "id": 4,
-          "sentence": "Younger members of the community often do not know what the ceremony [means].",
-          "highlighted": "means",
+          "sentence": "Younger members of the community often do not know what the ceremony [standing for].",
+          "highlighted": "standing for",
           "options": {
-            "A": "represents",
-            "B": "means",
+            "A": "representing",
+            "B": "meaning",
             "C": "stands for"
           },
           "answer": "C",
-          "explanation": "'Stands for' is the target phrasal verb meaning 'represents' or 'symbolises' — particularly used for values, ideas, or cultural meanings. While 'means' and 'represents' are grammatically correct and acceptable, 'stands for' is the specific vocabulary focus for this topic."
+          "explanation": "With the singular subject 'the ceremony', use the finite verb phrase 'stands for'."
         },
         {
           "id": 5,
           "sentence": "The school asked all students to [change] the Tết celebration by wearing áo dài.",
           "highlighted": "change",
           "options": {
-            "A": "join",
+            "A": "joining",
             "B": "adapt to",
             "C": "participate in"
           },
           "answer": "C",
-          "explanation": "'Participate in' is the correct collocation for taking part in an event or activity. 'Join' can be used with groups but not events. 'Adapt to' means to adjust to something new, not to take part in it — the sentence is about involvement, not adjustment."
+          "explanation": "After 'asked all students to', use the base-form phrase 'participate in'. 'Joining' is not a base form, and 'adapt to' means adjust rather than take part."
         }
       ]
     },

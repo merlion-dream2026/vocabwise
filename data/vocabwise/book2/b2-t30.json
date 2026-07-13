@@ -558,59 +558,59 @@
           "highlighted": "compensation",
           "options": {
             "A": "refund",
-            "B": "discount",
+            "B": "discounted",
             "C": "compensation"
           },
           "answer": "A",
-          "explanation": "'Refund' is the correct term for money returned when a product is faulty or returned to a store. 'Compensation' implies payment for a loss or injury beyond a simple return, and 'discount' is a price reduction before purchase, not after."
+          "explanation": "'Refund' is the noun for money returned when a faulty product is returned. 'Discounted' is an adjective, and 'compensation' is uncountable here and would not normally take 'a'."
         },
         {
           "id": 2,
-          "sentence": "Online shopping has made it easier for people to spend more than they can [manage].",
-          "highlighted": "manage",
+          "sentence": "Online shopping has made it easier for people to spend more than they can [affordable].",
+          "highlighted": "affordable",
           "options": {
-            "A": "handle",
+            "A": "handling",
             "B": "afford",
-            "C": "budget"
+            "C": "budgeting"
           },
           "answer": "B",
-          "explanation": "'Afford' is the correct verb meaning to have enough money to buy something. 'Handle' means to deal with or manage a situation and does not collocate naturally with 'can' in a financial context. 'Budget' is typically a noun, not used this way."
+          "explanation": "After the modal 'can', use the base verb 'afford', meaning have enough money to pay for something."
         },
         {
           "id": 3,
-          "sentence": "The shop used minimal [covering] to reduce the amount of plastic waste it produced.",
-          "highlighted": "covering",
+          "sentence": "The shop used minimal [package] to reduce the amount of plastic waste it produced.",
+          "highlighted": "package",
           "options": {
             "A": "packaging",
-            "B": "material",
-            "C": "wrapping"
+            "B": "materially",
+            "C": "wrapped"
           },
-          "answer": "C",
-          "explanation": "'Wrapping' is the target vocabulary term specifically referring to the material used to wrap a product. 'Packaging' is a broader term (boxes, bags, etc.) and while close, is not the target word. 'Covering' is too general and informal for a retail context."
+          "answer": "A",
+          "explanation": "'Packaging' is the uncountable noun for materials used to contain or protect products. The other options do not function as the required noun."
         },
         {
           "id": 4,
-          "sentence": "He has great [commitment] to that coffee brand and has never tried any other.",
-          "highlighted": "commitment",
+          "sentence": "He shows strong [loyal] to that coffee brand and has never tried any other.",
+          "highlighted": "loyal",
           "options": {
-            "A": "faithfulness",
+            "A": "faithful",
             "B": "brand loyalty",
-            "C": "dedication"
+            "C": "dedicated"
           },
           "answer": "B",
-          "explanation": "'Brand loyalty' is the standard marketing and consumer behaviour term for a customer's habitual preference for one brand over others. 'Commitment' and 'faithfulness' describe personal traits or obligations, not consumer purchasing patterns."
+          "explanation": "'Brand loyalty' is the standard noun phrase for a customer's continued preference for one brand."
         },
         {
           "id": 5,
-          "sentence": "Buying [old] clothing online is a growing trend among environmentally aware consumers.",
-          "highlighted": "old",
+          "sentence": "Buying [second-handed] clothing online is a growing trend among environmentally aware consumers.",
+          "highlighted": "second-handed",
           "options": {
-            "A": "used",
-            "B": "old",
+            "A": "use",
+            "B": "olderly",
             "C": "second-hand"
           },
-          "answer": "A",
-          "explanation": "'Used' is the target vocabulary term for previously owned items in a shopping context. 'Old' merely indicates age without implying prior ownership. 'Second-hand' is also correct in meaning, but 'used' is the specific vocabulary word for this topic."
+          "answer": "C",
+          "explanation": "'Second-hand' is the correct compound adjective for previously owned goods. 'Second-handed' and 'olderly' are not standard forms, and 'use' is a verb or noun."
         }
       ]
     },
@@ -708,9 +708,9 @@
     "ex5": {
       "1": "A",
       "2": "B",
-      "3": "C",
+      "3": "A",
       "4": "B",
-      "5": "A"
+      "5": "C"
     }
   },
   "grammar_spotlight": {

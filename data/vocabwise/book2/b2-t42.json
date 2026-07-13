@@ -557,63 +557,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The organisation [collects] money every year to help children living in remote communities.",
-          "highlighted": "collects",
+          "sentence": "The organisation currently [raising] money to help children living in remote communities.",
+          "highlighted": "raising",
           "options": {
             "A": "raises",
-            "B": "collects",
-            "C": "gathers"
+            "B": "collected",
+            "C": "gathering"
           },
           "answer": "A",
-          "explanation": "'Raises' is the standard fundraising term for generating money through events, campaigns, or public appeals. 'Collects' is possible but less specific to charitable fundraising. 'Gathers' is used for people or physical objects, not money."
+          "explanation": "The singular subject 'organisation' requires the present-tense verb 'raises'. 'Currently' rules out the past form, and 'raise money' is the standard fundraising collocation."
         },
         {
           "id": 2,
-          "sentence": "People who are [without shelter] need far more than just emergency housing to rebuild their lives.",
-          "highlighted": "without shelter",
+          "sentence": "People who are [homelessness] need far more than emergency housing to rebuild their lives.",
+          "highlighted": "homelessness",
           "options": {
             "A": "homeless",
-            "B": "without a home",
-            "C": "without shelter"
+            "B": "home",
+            "C": "shelter"
           },
-          "answer": "B",
-          "explanation": "'Without a home' is the target vocabulary phrase for people experiencing homelessness. It is slightly more humanising than 'homeless', which can feel clinical. 'Without shelter' suggests temporary displacement rather than the chronic condition of having no home."
+          "answer": "A",
+          "explanation": "After 'are', use the adjective 'homeless'. 'Homelessness' is a noun, while 'home' and 'shelter' are nouns."
         },
         {
           "id": 3,
-          "sentence": "She decided to give her weekends to [help out] at the local food bank.",
-          "highlighted": "help out",
+          "sentence": "She decided to [volunteering] at the local food bank every weekend.",
+          "highlighted": "volunteering",
           "options": {
-            "A": "donate",
+            "A": "donation",
             "B": "volunteer",
-            "C": "help out"
+            "C": "helping out"
           },
           "answer": "B",
-          "explanation": "'Volunteer' is the target vocabulary term specifically meaning to give one's time freely to help an organisation or cause. 'Help out' is informal and general. 'Donate' refers to giving money or goods, not time."
+          "explanation": "After 'decided to', use the base verb 'volunteer'."
         },
         {
           "id": 4,
-          "sentence": "The government's [support system] provides monthly payments to low-income families.",
-          "highlighted": "support system",
+          "sentence": "The government's [welfaring] system provides monthly payments to low-income families.",
+          "highlighted": "welfaring",
           "options": {
             "A": "welfare",
-            "B": "support system",
-            "C": "benefit"
+            "B": "supportively",
+            "C": "beneficial"
           },
           "answer": "A",
-          "explanation": "'Welfare' is the standard term for government programmes that provide financial and social support to people in need. 'Support system' is informal and vague. 'Benefit' refers to specific individual payments but not the broader system."
+          "explanation": "'Welfare' is the noun for government programmes that provide financial and social support."
         },
         {
           "id": 5,
-          "sentence": "The school's [recognition] of the mental health crisis prompted many students to seek help.",
-          "highlighted": "recognition",
+          "sentence": "The school's growing [aware] of the mental health crisis prompted many students to seek help.",
+          "highlighted": "aware",
           "options": {
             "A": "awareness",
-            "B": "recognition",
-            "C": "knowledge"
+            "B": "recognise",
+            "C": "knowing"
           },
           "answer": "A",
-          "explanation": "'Awareness' is the target vocabulary term for understanding or consciousness of an issue — particularly used in public health and social campaigns. 'Recognition' implies formally acknowledging something already known. 'Knowledge' is information you possess, not necessarily an understanding of its importance or implications."
+          "explanation": "A noun is needed after 'growing': 'awareness'."
         }
       ]
     },
@@ -710,7 +710,7 @@
     },
     "ex5": {
       "1": "A",
-      "2": "B",
+      "2": "A",
       "3": "B",
       "4": "A",
       "5": "A"

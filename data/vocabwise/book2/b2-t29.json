@@ -549,43 +549,43 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The newspaper decided to [share] the investigation results after checking all the facts.",
-          "highlighted": "share",
+          "sentence": "The newspaper decided to [publication] the investigation results after checking all the facts.",
+          "highlighted": "publication",
           "options": {
-            "A": "broadcast",
+            "A": "broadcasting",
             "B": "publish",
-            "C": "share"
+            "C": "sharing"
           },
           "answer": "B",
-          "explanation": "'Publish' is the correct term for officially releasing a written story in a newspaper or on a website. 'Broadcast' is used for TV and radio. 'Share' is informal and used for social media, not formal journalism."
+          "explanation": "After 'decided to', use the base verb 'publish'."
         },
         {
           "id": 2,
-          "sentence": "The journalist interviewed three [witnesses] before writing the article about the event.",
-          "highlighted": "witnesses",
+          "sentence": "The journalist interviewed three [sourcing] who had provided information for the article.",
+          "highlighted": "sourcing",
           "options": {
             "A": "sources",
-            "B": "witnesses",
-            "C": "informants"
+            "B": "witnessing",
+            "C": "informing"
           },
           "answer": "A",
-          "explanation": "In journalism, the standard term for people who provide information for a story is 'sources'. 'Witnesses' suggests people present at a scene, and 'informants' has a connotation of secrecy or law enforcement contexts."
+          "explanation": "'Sources' is the plural noun for people who provide information to a journalist."
         },
         {
           "id": 3,
-          "sentence": "Many readers are concerned about [favouritism] in the way the channel presents political news.",
-          "highlighted": "favouritism",
+          "sentence": "Many readers are concerned about political [biased] in the way the channel presents the news.",
+          "highlighted": "biased",
           "options": {
-            "A": "influence",
-            "B": "favouritism",
+            "A": "influential",
+            "B": "favourable",
             "C": "bias"
           },
           "answer": "C",
-          "explanation": "'Bias' is the standard journalism term for presenting news from a particular viewpoint rather than objectively. 'Favouritism' implies unfair preferential treatment of people, not viewpoints, and 'influence' is the power to affect others, not the skewing of perspective."
+          "explanation": "'Bias' is the noun for presenting news from a particular viewpoint rather than objectively."
         },
         {
           "id": 4,
-          "sentence": "She became the head [journalist] of the newspaper at the age of thirty-five.",
+          "sentence": "She became the [journalist] of the newspaper at the age of thirty-five.",
           "highlighted": "journalist",
           "options": {
             "A": "chief editor",

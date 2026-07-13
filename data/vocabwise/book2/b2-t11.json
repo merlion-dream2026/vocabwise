@@ -533,7 +533,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Burning [fossil fuel] releases large amounts of [carbon] into the [atmosphere].",
+          "sentence": "Burning several types of [fossil fuel] releases large amounts of carbon into the atmosphere.",
           "highlighted": "fossil fuel",
           "options": {
             "A": "fossil fuel",
@@ -541,7 +541,7 @@
             "C": "fossil-fuelled"
           },
           "answer": "B",
-          "explanation": "Plural needed: fossil fuels (coal, oil, and gas)."
+          "explanation": "After 'several types of', use the plural noun phrase 'fossil fuels'."
         },
         {
           "id": 2,
@@ -569,7 +569,7 @@
         },
         {
           "id": 4,
-          "sentence": "We must [cut down] on use [fossil] energy sources to protect the environment.",
+          "sentence": "We must cut down on [fossil] use to protect the environment.",
           "highlighted": "fossil",
           "options": {
             "A": "fossil",
@@ -581,7 +581,7 @@
         },
         {
           "id": 5,
-          "sentence": "Countries need to sign new [agreement] to reduce their [emission] levels.",
+          "sentence": "Countries need to sign several new [agreement] to reduce their emission levels.",
           "highlighted": "agreement",
           "options": {
             "A": "agreements",
@@ -589,7 +589,7 @@
             "C": "agreeing"
           },
           "answer": "A",
-          "explanation": "Plural needed: new agreements (multiple countries)."
+          "explanation": "After 'several new', use the plural noun 'agreements'."
         }
       ]
     },

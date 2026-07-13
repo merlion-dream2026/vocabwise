@@ -569,63 +569,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The company offers [flexible time] so that parents can adjust their start and finish times around family needs.",
-          "highlighted": "flexible time",
+          "sentence": "The company offers [flexible hour] so that parents can adjust their start and finish times around family needs.",
+          "highlighted": "flexible hour",
           "options": {
-            "A": "adjustable hours",
-            "B": "flexible time",
+            "A": "flexible hours",
+            "B": "flexibility time",
             "C": "free time"
           },
           "answer": "A",
-          "explanation": "'Adjustable hours' is the target vocabulary phrase for a formal workplace arrangement allowing employees to modify their working schedule. 'Flexible time' is a reasonable paraphrase but not the precise vocabulary term. 'Free time' has a completely different meaning (leisure time, not a scheduling arrangement)."
+          "explanation": "'Flexible hours' is the standard workplace phrase for adjustable start and finish times."
         },
         {
           "id": 2,
-          "sentence": "Working from home can reduce [travel] time and give employees more control over their day.",
-          "highlighted": "travel",
+          "sentence": "Working from home can reduce [commutingly] time and give employees more control over their day.",
+          "highlighted": "commutingly",
           "options": {
-            "A": "travel",
+            "A": "travels",
             "B": "commuting",
             "C": "moving"
           },
           "answer": "B",
-          "explanation": "'Commuting' is the precise term for the daily journey between home and work. 'Travel' is too general and usually implies longer journeys. 'Moving' suggests relocation, not daily transport. In the context of remote work, 'commuting' is the standard and most accurate word."
+          "explanation": "'Commuting time' is the standard phrase for time spent travelling between home and work."
         },
         {
           "id": 3,
-          "sentence": "Each employee receives a monthly [wage] and an annual performance bonus.",
-          "highlighted": "wage",
+          "sentence": "Each employee receives a monthly [salaried] and an annual performance bonus.",
+          "highlighted": "salaried",
           "options": {
-            "A": "income",
-            "B": "pay",
+            "A": "incoming",
+            "B": "paid",
             "C": "salary"
           },
           "answer": "C",
-          "explanation": "'Salary' is the target vocabulary word for regular fixed pay received monthly or annually by professional employees. 'Wage' typically refers to hourly or daily pay for manual or part-time workers. 'Income' and 'pay' are too general. 'Salary' is the precise term here."
+          "explanation": "A singular noun is needed after 'a monthly': 'salary'."
         },
         {
           "id": 4,
-          "sentence": "Measuring [time spent at a desk] is increasingly seen as a poor way to evaluate an employee's contribution.",
+          "sentence": "Measuring an employee's [time spent at a desk] means assessing the quantity and quality of work they actually produce.",
           "highlighted": "time spent at a desk",
           "options": {
             "A": "attendance",
             "B": "output",
-            "C": "performance"
+            "C": "performing"
           },
           "answer": "B",
-          "explanation": "'Output' is the target vocabulary term for the measurable results and products that an employee creates. The passage contrasts 'output' with 'hours spent', making it the precise replacement. 'Performance' is broader (includes attitude, teamwork, etc.). 'Attendance' refers only to being present, not results."
+          "explanation": "'Output' is the noun for the measurable work or results an employee produces. Attendance measures presence, not the work produced."
         },
         {
           "id": 5,
-          "sentence": "Good [working together] is essential when team members are based in different offices or countries.",
-          "highlighted": "working together",
+          "sentence": "Good [teamworking] is essential when team members are based in different offices or countries.",
+          "highlighted": "teamworking",
           "options": {
-            "A": "communication",
+            "A": "communicative",
             "B": "teamwork",
-            "C": "collaboration"
+            "C": "collaborative"
           },
           "answer": "B",
-          "explanation": "'Teamwork' is the target vocabulary term for the cooperative effort of a group working towards a shared goal. 'Working together' is an informal paraphrase of the same idea. 'Collaboration' and 'communication' overlap in meaning but are not the specific vocabulary item from this topic."
+          "explanation": "'Teamwork' is the uncountable noun for people cooperating towards a shared goal."
         }
       ]
     },

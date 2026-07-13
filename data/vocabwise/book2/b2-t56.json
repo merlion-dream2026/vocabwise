@@ -586,63 +586,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Social media platforms are deliberately designed to be [enjoyable] and difficult to put down.",
-          "highlighted": "enjoyable",
+          "sentence": "Social media platforms are deliberately designed to be [addiction] and difficult to put down.",
+          "highlighted": "addiction",
           "options": {
-            "A": "engaging",
-            "B": "hard to stop",
-            "C": "enjoyable"
+            "A": "engagement",
+            "B": "addictive",
+            "C": "enjoyment"
           },
           "answer": "B",
-          "explanation": "'Hard to stop' is the target vocabulary phrase for content or platforms that are compulsive and difficult to disengage from. 'Enjoyable' only describes a positive experience, not the addictive design element. 'Engaging' is close but doesn't capture the difficulty of stopping. 'Hard to stop' is the specific compound phrase used in the passage to describe how platforms deliberately trap user attention."
+          "explanation": "An adjective is needed after 'be': 'addictive'. 'Addiction', 'engagement', and 'enjoyment' are nouns."
         },
         {
           "id": 2,
-          "sentence": "She checked her emails constantly while on holiday, making it [impossible] to relax fully.",
-          "highlighted": "impossible",
+          "sentence": "She checked her emails constantly while on holiday, making it [difficulty] — though not impossible — to relax fully.",
+          "highlighted": "difficulty",
           "options": {
             "A": "difficult",
             "B": "impossible",
-            "C": "hard"
+            "C": "hardly"
           },
           "answer": "A",
-          "explanation": "This sentence is testing 'online' — but in this specific sentence, none of the options replaces 'impossible' with a vocabulary target. The better exercise target here is 'online': being 'online constantly' while on holiday. However, looking at the options, 'difficult' is the most precise and appropriate replacement for 'impossible' as it allows for gradation rather than an absolute statement. In academic writing, 'difficult' is preferred over absolute terms unless justified by evidence."
+          "explanation": "An adjective is needed after 'making it': 'difficult'. The phrase 'though not impossible' rules out 'impossible'."
         },
         {
           "id": 3,
-          "sentence": "Physical [exercise] can suffer when too much time is spent sitting in front of a screen.",
-          "highlighted": "exercise",
+          "sentence": "Overall physical [healthy] can suffer when too much time is spent sitting in front of a screen.",
+          "highlighted": "healthy",
           "options": {
-            "A": "activity",
+            "A": "active",
             "B": "health",
-            "C": "exercise"
+            "C": "exercising"
           },
           "answer": "B",
-          "explanation": "'Health' is the target vocabulary word here — excessive screen time impacts people's 'health', the broader category that includes physical fitness, sleep, and mental wellbeing. 'Exercise' is too narrow (just physical activity). 'Activity' is a possible synonym for exercise but again too narrow. 'Health' captures the full scope of what screen time damages, as used consistently in the passage."
+          "explanation": "A noun is needed after 'physical': 'health'."
         },
         {
           "id": 4,
-          "sentence": "She put a [maximum] on the amount of time she spent on social media each day.",
-          "highlighted": "maximum",
+          "sentence": "She put a daily [limiting] on the amount of time she spent on social media.",
+          "highlighted": "limiting",
           "options": {
-            "A": "cap",
+            "A": "capping",
             "B": "limit",
-            "C": "maximum"
+            "C": "maximise"
           },
           "answer": "B",
-          "explanation": "'Limit' is the target vocabulary word for a boundary or restriction placed on an activity, especially in time-management contexts. 'Maximum' is a formal noun but less common as a standalone count noun in everyday usage. 'Cap' is informal. 'Limit' is the natural and standard vocabulary item in digital wellbeing discussions — as in 'set a limit', 'daily time limit', 'screen time limit'."
+          "explanation": "A singular noun is needed after 'a daily': 'limit'."
         },
         {
           "id": 5,
-          "sentence": "He decided to [cut] his daily screen time after noticing how it was affecting his concentration.",
-          "highlighted": "cut",
+          "sentence": "He decided to [reduction] his daily screen time after noticing how it affected his concentration.",
+          "highlighted": "reduction",
           "options": {
-            "A": "lower",
-            "B": "decrease",
+            "A": "lowering",
+            "B": "decreasing",
             "C": "reduce"
           },
           "answer": "C",
-          "explanation": "'Reduce' is the target vocabulary verb for deliberately decreasing screen time or its negative effects. 'Cut' is informal and vague. 'Lower' and 'decrease' are synonyms but not the specific target vocabulary item. 'Reduce' is the precise academic and practical verb used throughout the topic for actions taken to manage screen time."
+          "explanation": "After 'decided to', use the base verb 'reduce'."
         }
       ]
     },

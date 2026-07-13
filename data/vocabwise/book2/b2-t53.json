@@ -579,63 +579,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The company is racing to [create] more advanced AI systems that can understand natural language.",
-          "highlighted": "create",
+          "sentence": "The company is racing to [development] more advanced AI systems that can understand natural language.",
+          "highlighted": "development",
           "options": {
             "A": "develop",
-            "B": "create",
-            "C": "build"
+            "B": "creation",
+            "C": "building"
           },
           "answer": "A",
-          "explanation": "'Develop' is the target vocabulary verb for the process of advancing a technology or system over time through research and refinement. 'Create' and 'build' are more informal and suggest making something from nothing. In academic and technology contexts, 'develop' is the standard verb for the sustained process of improving and advancing AI systems."
+          "explanation": "After 'to', use the base verb 'develop'."
         },
         {
           "id": 2,
-          "sentence": "Critics argue that allowing AI to make [choices] about people's lives without human oversight is dangerous.",
-          "highlighted": "choices",
+          "sentence": "Critics argue that allowing AI to make formal [deciding] about people's lives without human oversight is dangerous.",
+          "highlighted": "deciding",
           "options": {
-            "A": "judgements",
+            "A": "judgemental",
             "B": "decisions",
-            "C": "choices"
+            "C": "choosing"
           },
           "answer": "B",
-          "explanation": "'Decisions' is the target vocabulary word for formal conclusions or choices that have consequences, especially in official or technical contexts. 'Choices' is more informal and suggests personal preference rather than authoritative determination. In the context of AI systems affecting people's lives (loans, diagnoses, hiring), 'decisions' is the precise and appropriate term."
+          "explanation": "A plural noun is needed after 'formal': 'decisions'."
         },
         {
           "id": 3,
-          "sentence": "The _____ of AI on employment is one of the most important economic questions of our time.",
-          "highlighted": "effect",
+          "sentence": "The [impacting] of AI on employment is one of the most important economic questions of our time.",
+          "highlighted": "impacting",
           "options": {
-            "A": "influence",
-            "B": "effect",
+            "A": "influential",
+            "B": "effective",
             "C": "impact"
           },
           "answer": "C",
-          "explanation": "'Impact' is the target vocabulary word for the measurable or significant effect that something has on another thing, especially in formal discussions of social, economic, or environmental change. 'Effect' is a synonym but not the specific vocabulary item. 'Influence' implies shaping over time. 'Impact' is the precise term used in academic and policy contexts for the scale of AI's consequences."
+          "explanation": "A noun is needed after 'The': 'impact'. The other options are adjectives."
         },
         {
           "id": 4,
-          "sentence": "A [computer] that can learn from experience and improve itself without being reprogrammed is the basis of modern AI.",
-          "highlighted": "computer",
+          "sentence": "A learning [machinery] that can improve from experience without being reprogrammed is central to modern AI.",
+          "highlighted": "machinery",
           "options": {
             "A": "machine",
-            "B": "computer",
-            "C": "device"
+            "B": "computing",
+            "C": "devise"
           },
           "answer": "A",
-          "explanation": "'Machine' is the target vocabulary word used in AI contexts — specifically 'machine learning' refers to AI systems that improve through data exposure. 'Computer' is too narrow (refers to a physical device). 'Device' is similarly specific. 'Machine' is the standard term in AI discourse for a learning system, as in 'machine learning' and 'machines that replace workers'."
+          "explanation": "A singular countable noun is needed after 'A learning': 'machine'."
         },
         {
           "id": 5,
-          "sentence": "Ensuring that AI is [ethically acceptable] requires regular audits and clear accountability for its decisions.",
-          "highlighted": "ethically acceptable",
+          "sentence": "Ensuring that AI decisions are [morality right] requires regular audits and clear accountability.",
+          "highlighted": "morality right",
           "options": {
             "A": "morally right",
-            "B": "ethically acceptable",
-            "C": "fair and just"
+            "B": "ethical acceptability",
+            "C": "fairness and justice"
           },
           "answer": "A",
-          "explanation": "'Morally right' is the target vocabulary phrase for behaviour or systems that conform to ethical principles and human values. 'Ethically acceptable' is a valid paraphrase but not the specific vocabulary from this topic. 'Fair and just' is informal and vague. 'Morally right' is the specific compound phrase used in the passage to describe the ethical standard AI systems must meet."
+          "explanation": "An adjective phrase is needed after 'is': 'morally right'."
         }
       ]
     },

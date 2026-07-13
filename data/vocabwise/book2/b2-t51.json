@@ -573,63 +573,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The article turned out to be completely [wrong], having been written by an anonymous blogger with no credentials.",
-          "highlighted": "wrong",
+          "sentence": "The article turned out to be completely [reliability], as several of its claims were false or unsupported.",
+          "highlighted": "reliability",
           "options": {
-            "A": "unreliable",
-            "B": "biased",
+            "A": "unreliably",
+            "B": "bias",
             "C": "misleading"
           },
           "answer": "C",
-          "explanation": "'Misleading' is the target vocabulary adjective for content that gives a false impression, even if not every individual fact is technically incorrect. 'Wrong' is too blunt and informal. 'Unreliable' applies to a source, not content. 'Biased' means partial, not necessarily false. 'Misleading' is the precise term for content designed or tending to give the wrong impression."
+          "explanation": "An adjective is needed after 'be completely': 'misleading'. The other options are an adverb and a noun."
         },
         {
           "id": 2,
-          "sentence": "She has a [prejudice] against any news outlet that is funded by a political party.",
-          "highlighted": "prejudice",
+          "sentence": "She has a clear media [biased] against any news outlet funded by a political party.",
+          "highlighted": "biased",
           "options": {
             "A": "bias",
-            "B": "prejudice",
-            "C": "opinion"
+            "B": "prejudiced",
+            "C": "opinionated"
           },
           "answer": "A",
-          "explanation": "'Bias' is the target vocabulary word for a systematic tendency to favour one side or perspective, especially in media and information contexts. 'Prejudice' implies a personal emotional attitude formed without evidence — typically used for attitudes toward people. 'Opinion' is neutral. In media literacy, 'bias' is the standard academic term for partial or slanted coverage."
+          "explanation": "A noun is needed after 'a clear media': 'bias'."
         },
         {
           "id": 3,
-          "sentence": "The documentary [showed] that the company had been hiding its environmental data for years.",
-          "highlighted": "showed",
+          "sentence": "The documentary [revelation] that the company had been hiding its environmental data for years.",
+          "highlighted": "revelation",
           "options": {
-            "A": "uncovered",
+            "A": "uncovering",
             "B": "spread",
             "C": "revealed"
           },
           "answer": "C",
-          "explanation": "'Revealed' is the target vocabulary verb for making hidden or secret information public, especially through investigation. 'Showed' is too generic. 'Uncovered' works in context but is not the target vocabulary term. 'Spread' means to distribute information, not to expose it. 'Revealed' is the specific word for exposing information that was previously hidden."
+          "explanation": "A past-tense verb is needed: 'revealed'."
         },
         {
           "id": 4,
-          "sentence": "People who share stories without [checking] them first risk spreading false information to their friends.",
-          "highlighted": "checking",
+          "sentence": "People who share stories without [verification] them first risk spreading false information.",
+          "highlighted": "verification",
           "options": {
-            "A": "checking",
+            "A": "check",
             "B": "verifying",
-            "C": "reading"
+            "C": "read"
           },
           "answer": "B",
-          "explanation": "'Verify facts' is the target vocabulary phrase for the process of confirming that information is accurate before sharing it. 'Checking' is a valid synonym but not the precise vocabulary item from this topic. 'Reading' is too passive and does not imply evaluation. 'Verify' is the formal, academic term used specifically in journalism and media literacy."
+          "explanation": "After 'without', use the gerund 'verifying'."
         },
         {
           "id": 5,
-          "sentence": "Building [knowledge] about how algorithms work can help people resist media manipulation.",
-          "highlighted": "knowledge",
+          "sentence": "Building media [aware] about how algorithms work can help people resist manipulation.",
+          "highlighted": "aware",
           "options": {
-            "A": "understanding",
+            "A": "understand",
             "B": "trust",
             "C": "awareness"
           },
           "answer": "C",
-          "explanation": "'Awareness' is the target vocabulary word for a state of knowing or being conscious of an issue — especially in the context of campaigns and education ('raise awareness'). 'Knowledge' is broader and implies detailed factual information. 'Understanding' is close but usually implies deeper comprehension. 'Awareness' is the specific term used in media literacy programmes and the passage."
+          "explanation": "'Media awareness' is the noun phrase needed after 'building'."
         }
       ]
     },

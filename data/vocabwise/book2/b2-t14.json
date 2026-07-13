@@ -527,7 +527,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Solar panels on rooftops [generates] clean electricity for homes and businesses.",
+          "sentence": "Solar panels on rooftops can [generates] clean electricity for homes and businesses.",
           "highlighted": "generates",
           "options": {
             "A": "generated",
@@ -535,7 +535,7 @@
             "C": "generate"
           },
           "answer": "C",
-          "explanation": "'Solar panels' is plural, so the verb must also be plural: 'generate', not 'generates'."
+          "explanation": "After the modal verb 'can', use the base form 'generate'."
         },
         {
           "id": 2,
@@ -556,7 +556,7 @@
           "options": {
             "A": "flowed water",
             "B": "flowing water",
-            "C": "flowing waters"
+            "C": "flowing water's"
           },
           "answer": "B",
           "explanation": "'Water' is an uncountable noun in this context — use 'flowing water', not 'flowing waters'."

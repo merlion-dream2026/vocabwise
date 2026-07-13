@@ -557,58 +557,58 @@
           "options": {
             "A": "budget",
             "B": "funding",
-            "C": "investment"
+            "C": "investing"
           },
           "answer": "A",
-          "explanation": "'Budget' is the standard film industry term for the total amount of money allocated for a production. 'Funding' refers to the act of providing money and is too general in this context. 'Investment' implies money put in expecting a return, which changes the meaning."
+          "explanation": "'Budget' is the film-industry noun for the total amount allocated to a production. 'A massive funding' is ungrammatical, and 'investing' is a verb form."
         },
         {
           "id": 2,
-          "sentence": "The studio decided to create a [second film] following the events of the original story.",
-          "highlighted": "second film",
+          "sentence": "The studio decided to create a [prequel] that continues the story after the events of the original film.",
+          "highlighted": "prequel",
           "options": {
             "A": "prequel",
             "B": "sequel",
-            "C": "second film"
+            "C": "secondary filming"
           },
           "answer": "B",
-          "explanation": "'Sequel' is the specific film term for a follow-up story that continues the narrative after the events of the original. A 'prequel' is a story set before the original, and 'second film' is vague and informal."
+          "explanation": "'Sequel' is the noun for a film that continues the story after the original. A prequel is set before the original, and 'secondary filming' is not a standard term."
         },
         {
           "id": 3,
-          "sentence": "The [producer] used dramatic lighting and close-up shots to make the scene intensely emotional.",
-          "highlighted": "producer",
+          "sentence": "The [cast] called 'Action!' and directed the actors' performances throughout the scene.",
+          "highlighted": "cast",
           "options": {
             "A": "director",
             "B": "cast",
             "C": "producer"
           },
           "answer": "A",
-          "explanation": "'Director' is the person responsible for the visual and artistic choices in a film, including camera angles, lighting, and performance direction. A 'producer' manages the business and logistics of filmmaking, not the creative execution of scenes."
+          "explanation": "The director calls 'Action!' and guides actors' performances. The cast are the actors, while the producer manages business and logistics."
         },
         {
           "id": 4,
-          "sentence": "Hundreds of millions of people now [watch online] films and TV series every evening.",
-          "highlighted": "watch online",
+          "sentence": "Hundreds of millions of people now [streaming] films and TV series every evening.",
+          "highlighted": "streaming",
           "options": {
             "A": "broadcast",
-            "B": "watch online",
+            "B": "watched online",
             "C": "stream"
           },
           "answer": "C",
-          "explanation": "'Stream' is the precise modern term for watching digital video content in real time over the internet without downloading it first. 'Watch online' is informal and less specific, and 'broadcast' refers to transmitting content over TV or radio signals."
+          "explanation": "The simple-present base verb 'stream' is needed with the plural subject 'people'."
         },
         {
           "id": 5,
-          "sentence": "The film journalist gave the movie a poor [verdict], calling the plot confusing and the acting weak.",
-          "highlighted": "verdict",
+          "sentence": "The film journalist published a detailed [reviewing], calling the plot confusing and the acting weak.",
+          "highlighted": "reviewing",
           "options": {
-            "A": "score",
+            "A": "scored",
             "B": "verdict",
             "C": "review"
           },
           "answer": "C",
-          "explanation": "'Review' is the standard term for a written critical assessment of a film by a professional. A 'verdict' is a formal judgment (typically in law), and a 'score' is a numerical rating. 'Review' specifically captures the published critical analysis that a film critic produces."
+          "explanation": "'Review' is the singular noun for a published critical assessment of a film."
         }
       ]
     },

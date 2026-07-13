@@ -545,7 +545,7 @@
         },
         {
           "id": 2,
-          "sentence": "The school introduced new [policy] to promote [include] for all students.",
+          "sentence": "The school introduced a new policy to promote [include] for all students.",
           "highlighted": "include",
           "options": {
             "A": "include",
@@ -569,7 +569,7 @@
         },
         {
           "id": 4,
-          "sentence": "The [campaign] helped raise [aware] of gender equality issues worldwide.",
+          "sentence": "The campaign helped raise [aware] of gender equality issues worldwide.",
           "highlighted": "aware",
           "options": {
             "A": "awareness",
@@ -581,7 +581,7 @@
         },
         {
           "id": 5,
-          "sentence": "Breaking down [barrier] is essential for achieving true [equality] in society.",
+          "sentence": "Breaking down [barrier] is essential for achieving true equality in society.",
           "highlighted": "barrier",
           "options": {
             "A": "barrier",

@@ -556,63 +556,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The museum is famous for its [group] of rare Renaissance paintings.",
-          "highlighted": "group",
+          "sentence": "The museum is famous for its [collect] of rare Renaissance paintings.",
+          "highlighted": "collect",
           "options": {
-            "A": "exhibition",
+            "A": "exhibiting",
             "B": "collection",
-            "C": "group"
+            "C": "grouped"
           },
           "answer": "B",
-          "explanation": "'Collection' is the standard term for a set of artworks gathered and owned by a museum or private collector over time. 'Exhibition' refers to a temporary public display, and 'group' is too generic and informal."
+          "explanation": "'Collection' is the noun for a set of artworks gathered and owned by a museum."
         },
         {
           "id": 2,
-          "sentence": "He uses a careful [approach] of building up layers of paint to create texture.",
-          "highlighted": "approach",
+          "sentence": "He uses a careful painting [technical] of building up layers of paint to create texture.",
+          "highlighted": "technical",
           "options": {
             "A": "technique",
-            "B": "approach",
-            "C": "method"
+            "B": "approaching",
+            "C": "methodical"
           },
           "answer": "A",
-          "explanation": "'Technique' is the precise art term for a specific skill or method used in creating artworks. 'Approach' and 'method' are more general words and do not carry the specialised art meaning."
+          "explanation": "'Technique' is the singular noun for a specific artistic method or skill."
         },
         {
           "id": 3,
-          "sentence": "The [showing] of artworks at the gallery changes every three months.",
-          "highlighted": "showing",
+          "sentence": "The [exhibit] of artworks at the gallery changes every three months.",
+          "highlighted": "exhibit",
           "options": {
             "A": "exhibition",
-            "B": "show",
-            "C": "showing"
+            "B": "showed",
+            "C": "shown"
           },
           "answer": "A",
-          "explanation": "'Exhibition' is the correct and formal term for a public display of artworks. While 'show' can work informally, 'exhibition' is specifically used for formal gallery and museum contexts. 'Showing' is used for films and performances, not art galleries."
+          "explanation": "'Exhibition' is the formal noun for a public display of artworks."
         },
         {
           "id": 4,
-          "sentence": "The artist works in a highly [imaginary] style that does not look like the real world.",
-          "highlighted": "imaginary",
+          "sentence": "The artist works in a highly [non-realism] style that does not look like the real world.",
+          "highlighted": "non-realism",
           "options": {
-            "A": "creative",
+            "A": "creativity",
             "B": "non-realistic",
-            "C": "imaginary"
+            "C": "imagination"
           },
           "answer": "B",
-          "explanation": "'Non-realistic' is the target vocabulary term for art that does not try to represent the world accurately. 'Imaginary' means something that exists only in the mind (not real), while 'creative' means original and inventive — neither describes a visual style."
+          "explanation": "An adjective is needed before 'style': 'non-realistic'. The other options are nouns."
         },
         {
           "id": 5,
-          "sentence": "The painting [encouraged] him to think differently about his own culture and identity.",
-          "highlighted": "encouraged",
+          "sentence": "The painting [inspiration] him to think differently about his own culture and identity.",
+          "highlighted": "inspiration",
           "options": {
             "A": "inspired",
-            "B": "encouraged",
-            "C": "motivated"
+            "B": "encouragement",
+            "C": "motivation"
           },
           "answer": "A",
-          "explanation": "'Inspired' is the natural verb for describing the effect of art, music, or nature on a person's emotions and imagination. 'Encouraged' suggests pushing someone to take action, and 'motivated' implies giving someone a reason to do something — both lack the emotional/creative dimension of 'inspired'."
+          "explanation": "A past-tense verb is needed: 'inspired'. The other options are nouns."
         }
       ]
     },

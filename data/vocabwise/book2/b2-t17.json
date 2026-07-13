@@ -559,15 +559,15 @@
           "highlighted": "fighting system",
           "options": {
             "A": "immune system",
-            "B": "defence system",
-            "C": "fighting system"
+            "B": "defensive systems",
+            "C": "fighting systemic"
           },
           "answer": "A",
           "explanation": "'Immune system' is the correct scientific term for the body's natural defence against infection and disease."
         },
         {
           "id": 3,
-          "sentence": "Chemical [vitamins] travel through the blood to regulate the body's growth and mood.",
+          "sentence": "The body's [vitamins] act as chemical messengers that travel through the blood to regulate growth and mood.",
           "highlighted": "vitamins",
           "options": {
             "A": "minerals",
@@ -575,7 +575,7 @@
             "C": "hormones"
           },
           "answer": "C",
-          "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes; 'vitamins' are nutrients that must be obtained from food."
+          "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes. Vitamins are nutrients obtained from food."
         },
         {
           "id": 4,

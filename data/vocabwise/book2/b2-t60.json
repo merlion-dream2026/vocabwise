@@ -584,63 +584,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Every claim you make in a discussion should be [based on] at least one credible and reliable piece of evidence.",
-          "highlighted": "based on",
+          "sentence": "Every claim in a discussion should be [supporting by] at least one credible piece of evidence.",
+          "highlighted": "supporting by",
           "options": {
-            "A": "justified by",
+            "A": "justifying by",
             "B": "supported by",
-            "C": "based on"
+            "C": "basing on"
           },
           "answer": "B",
-          "explanation": "'Supported by' uses the target vocabulary verb 'support' — the standard academic phrase for backing up a claim with evidence. 'Based on' is acceptable but not the specific vocabulary term from this topic. 'Justified by' is more formal and implies moral justification. 'Supported by' is the precise phrase used in essay and debate contexts: 'every claim should be supported by evidence'."
+          "explanation": "The passive phrase 'supported by' is required after 'should be'."
         },
         {
           "id": 2,
-          "sentence": "A strong [point] must include a clear opening statement and logical reasoning from start to finish.",
-          "highlighted": "point",
+          "sentence": "A strong [argumentative] must include a clear claim and logical reasoning from start to finish.",
+          "highlighted": "argumentative",
           "options": {
             "A": "argument",
-            "B": "point",
-            "C": "opinion"
+            "B": "pointing",
+            "C": "opinionated"
           },
           "answer": "A",
-          "explanation": "'Argument' is the target vocabulary word for a structured case built from a claim, reasoning, and evidence. 'Point' is informal and suggests a single idea, not a full structured case. 'Opinion' refers to what someone believes, not the structured case they make. 'Argument' is the precise academic term for the complete package of claim + reasons + evidence."
+          "explanation": "A singular noun is needed after 'A strong': 'argument'."
         },
         {
           "id": 3,
-          "sentence": "After discussing the matter for two hours, the team was finally able to [reach an agreement].",
-          "highlighted": "reach an agreement",
+          "sentence": "After discussing the matter for two hours, the team was finally able to [conclusion].",
+          "highlighted": "conclusion",
           "options": {
             "A": "come to a conclusion",
-            "B": "reach an agreement",
-            "C": "make a decision"
+            "B": "reaching an agreement",
+            "C": "making a decision"
           },
           "answer": "A",
-          "explanation": "'Come to a conclusion' is the target vocabulary phrase for arriving at a final judgement after careful deliberation. 'Reach an agreement' implies consensus between parties, not necessarily a logical conclusion. 'Make a decision' is close but more practical. 'Come to a conclusion' is the precise academic phrase for reaching a reasoned end-point in a discussion or argument."
+          "explanation": "After 'able to', use the base-form phrase 'come to a conclusion'."
         },
         {
           "id": 4,
-          "sentence": "She used statistics from an [official] government report to support her claim about rising unemployment.",
-          "highlighted": "official",
+          "sentence": "She used statistics from a [reliably] government report to support her claim about rising unemployment.",
+          "highlighted": "reliably",
           "options": {
-            "A": "established",
-            "B": "credible",
+            "A": "establishment",
+            "B": "credibility",
             "C": "reliable"
           },
           "answer": "C",
-          "explanation": "'Reliable' is the target vocabulary adjective for sources that consistently produce accurate, trustworthy information. 'Official' simply means coming from a formal authority, but official sources can still be biased. 'Established' and 'credible' are close synonyms but not the specific vocabulary item. 'Reliable' is the precise term in academic argument contexts for sources that can be trusted."
+          "explanation": "An adjective is needed before 'government report': 'reliable'."
         },
         {
           "id": 5,
-          "sentence": "She was [careful] to consider all possible objections before presenting her final position.",
+          "sentence": "She was asked to [careful] each possible objection before presenting her final position.",
           "highlighted": "careful",
           "options": {
             "A": "judging carefully",
             "B": "thoughtful",
-            "C": "judge carefully"
+            "C": "carefully judge"
           },
           "answer": "C",
-          "explanation": "'Judge carefully' is the target vocabulary phrase for the deliberate, analytical process of evaluating arguments and evidence before forming a conclusion. 'Careful' is an adjective, not the specific action phrase. 'Thoughtful' describes a personality trait. 'Judging carefully' is an acceptable alternative form, but 'judge carefully' is the precise target phrase from this topic — the verb form used in the passage and exercises."
+          "explanation": "After 'asked to', use the base-form verb phrase 'carefully judge'. 'Careful' and 'thoughtful' are adjectives, while 'judging carefully' is not the base form."
         }
       ]
     },

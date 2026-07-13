@@ -583,51 +583,51 @@
         },
         {
           "id": 2,
-          "sentence": "Many rural families [travel] to cities every year hoping to find better-paid employment.",
-          "highlighted": "travel",
+          "sentence": "Many rural families [migration] to cities every year hoping to find better-paid employment.",
+          "highlighted": "migration",
           "options": {
-            "A": "move",
+            "A": "movement",
             "B": "migrate",
-            "C": "travel"
+            "C": "travelling"
           },
           "answer": "B",
-          "explanation": "'Migrate' is the target vocabulary verb for the permanent or semi-permanent movement of people from one place to another. 'Travel' implies a temporary journey with intention to return. 'Move' is a possible substitute but less specific. 'Migrate' is the precise academic and demographic term for the movement of people between regions or countries in search of better conditions."
+          "explanation": "A present-tense verb is needed with the plural subject 'families': 'migrate'."
         },
         {
           "id": 3,
-          "sentence": "The council needs to [build more of] its public transport network to serve the growing outer districts.",
-          "highlighted": "build more of",
+          "sentence": "The council needs to [expansion] its public transport network to serve the growing outer districts.",
+          "highlighted": "expansion",
           "options": {
             "A": "expand",
-            "B": "develop",
-            "C": "build more of"
+            "B": "development",
+            "C": "building more of"
           },
           "answer": "A",
-          "explanation": "'Expand' is the target vocabulary verb for increasing the size, scope, or capacity of an existing system or network. 'Build more of' is informal and unclear. 'Develop' can work but implies building something new from scratch. 'Expand' is the precise word when an existing network needs to grow to cover more areas or serve more people."
+          "explanation": "After 'needs to', use the base verb 'expand'."
         },
         {
           "id": 4,
-          "sentence": "In densely [filled] neighbourhoods, schools and clinics are often overwhelmed by demand.",
+          "sentence": "In severely [filled] neighbourhoods, schools and clinics are often overwhelmed by demand.",
           "highlighted": "filled",
           "options": {
-            "A": "populated",
+            "A": "population",
             "B": "crowded",
             "C": "filled"
           },
           "answer": "B",
-          "explanation": "'Crowded' is the target vocabulary adjective for areas that have too many people. 'Filled' is grammatically weak here — you would say 'densely populated' or 'overcrowded', not 'densely filled'. 'Populated' works in 'densely populated' but 'crowded' is the word most directly related to the topic's vocabulary and refers specifically to uncomfortable density of people in a space."
+          "explanation": "'Crowded' is the adjective describing neighbourhoods containing too many people. 'Population' is a noun, and 'filled' is not the natural adjective here."
         },
         {
           "id": 5,
-          "sentence": "Rising rents mean that many workers can no longer [pay for] a flat near their place of employment.",
-          "highlighted": "pay for",
+          "sentence": "Rising rents mean that many workers can no longer [affording] a flat near their place of employment.",
+          "highlighted": "affording",
           "options": {
             "A": "afford",
-            "B": "pay for",
-            "C": "buy"
+            "B": "payment for",
+            "C": "buying"
           },
           "answer": "A",
-          "explanation": "'Afford' is the target vocabulary verb for having enough money to pay for something — it implies financial capacity, not just the act of paying. 'Pay for' is too literal and doesn't capture the idea of economic ability. 'Buy' implies ownership, but renting is mentioned. 'Afford' is the precise word when discussing housing costs in relation to income and purchasing power."
+          "explanation": "After the modal phrase 'can no longer', use the base verb 'afford'."
         }
       ]
     },

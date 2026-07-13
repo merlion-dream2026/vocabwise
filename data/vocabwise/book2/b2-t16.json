@@ -594,15 +594,15 @@
         },
         {
           "id": 5,
-          "sentence": "Growing amounts of space [garbage] from old rockets create serious hazards for active satellites.",
-          "highlighted": "garbage",
+          "sentence": "Growing amounts of space [garbaging] from old rockets create serious hazards for active satellites.",
+          "highlighted": "garbaging",
           "options": {
-            "A": "waste",
+            "A": "wastage",
             "B": "debris",
-            "C": "garbage"
+            "C": "garbaging"
           },
           "answer": "B",
-          "explanation": "'Debris' is the standard scientific and academic term for fragments of broken spacecraft floating in space; 'garbage' is informal and unsuitable in academic writing."
+          "explanation": "'Space debris' is the standard term for fragments of old or broken spacecraft. The other options do not function as the required noun phrase."
         }
       ]
     },

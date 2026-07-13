@@ -554,63 +554,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The stadium was filled with [viewers] who cheered loudly throughout the match.",
-          "highlighted": "viewers",
+          "sentence": "The stadium was filled with [viewing] who cheered loudly throughout the match.",
+          "highlighted": "viewing",
           "options": {
             "A": "spectators",
-            "B": "viewers",
-            "C": "audience"
+            "B": "viewing",
+            "C": "audition"
           },
           "answer": "A",
-          "explanation": "'Spectators' is the correct term for people who watch a live sporting event in person at a stadium or venue. 'Viewers' refers to people watching on TV or a screen, and 'audience' is used for theatre, music, or media performances."
+          "explanation": "'Spectators' are people who watch a live sporting event in person. 'Viewing' names an activity, and an audition is a performance assessment."
         },
         {
           "id": 2,
-          "sentence": "She has been a [professional sportswoman] since the age of eighteen and has competed in four Olympics.",
-          "highlighted": "professional sportswoman",
+          "sentence": "She has been a [career sporter] since the age of eighteen and has competed in four Olympics.",
+          "highlighted": "career sporter",
           "options": {
-            "A": "career athlete",
-            "B": "professional sportswoman",
-            "C": "champion"
+            "A": "professional athlete",
+            "B": "professionally sportswoman",
+            "C": "championship"
           },
           "answer": "A",
-          "explanation": "'Career athlete' is the target vocabulary term for someone who has made sport their full-time profession. 'Professional sportswoman' is wordy and less concise. 'Champion' refers to a winner, not a professional lifestyle choice."
+          "explanation": "'Professional athlete' is the standard term for someone who competes in sport as a career. The other options are not grammatical noun phrases."
         },
         {
           "id": 3,
-          "sentence": "The company became a key [supporter] of the team, providing funding and equipment.",
-          "highlighted": "supporter",
+          "sentence": "The company became a key [sponsorship] of the team, providing funding and equipment.",
+          "highlighted": "sponsorship",
           "options": {
-            "A": "backer",
-            "B": "supporter",
+            "A": "backing",
+            "B": "supportive",
             "C": "sponsor"
           },
           "answer": "C",
-          "explanation": "'Sponsor' is the specific business and sports term for a company or organisation that provides financial support to an athlete or event in exchange for advertising exposure. 'Supporter' and 'backer' are more general and informal terms."
+          "explanation": "A singular noun for the company is needed: 'sponsor'. 'Sponsorship' and 'backing' name the support itself, while 'supportive' is an adjective."
         },
         {
           "id": 4,
-          "sentence": "Her _____ for joining the team was the chance to [play fair] against the best players in the country.",
-          "highlighted": "play fair",
+          "sentence": "Her motivation for joining the team was the chance to [competing] against the best players in the country.",
+          "highlighted": "competing",
           "options": {
             "A": "compete",
-            "B": "play fair",
-            "C": "participate"
+            "B": "fair play",
+            "C": "participation"
           },
           "answer": "A",
-          "explanation": "'Compete' is the precise verb for taking part in a competitive sporting challenge against others. 'Play fair' means to behave honestly and ethically, which is not what the sentence is trying to express. 'Participate' is possible but weaker — it doesn't convey the element of challenge."
+          "explanation": "After 'the chance to', use the base verb 'compete'. 'Fair play' and 'participation' are nouns."
         },
         {
           "id": 5,
-          "sentence": "The coach's support had a permanent [effect] on the young swimmer's self-confidence.",
-          "highlighted": "effect",
+          "sentence": "The coach's support had a [temporary effect] on the young swimmer's self-confidence that remained strong for decades.",
+          "highlighted": "temporary effect",
           "options": {
-            "A": "effect",
+            "A": "brief effect",
             "B": "lasting impact",
-            "C": "influence"
+            "C": "short influence"
           },
           "answer": "B",
-          "explanation": "'Lasting impact' is the target vocabulary phrase that captures both the enduring nature and the depth of the change. While 'effect' and 'influence' are grammatically correct, 'lasting impact' is more vivid and specific — particularly appropriate in describing the long-term result of a coach's support."
+          "explanation": "'Lasting impact' describes an effect that continues for a long time, matching 'for decades'."
         }
       ]
     },

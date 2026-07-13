@@ -563,51 +563,51 @@
         },
         {
           "id": 2,
-          "sentence": "The new employee was [terminated] unfairly after raising concerns about safety in the workplace.",
-          "highlighted": "terminated",
+          "sentence": "The new employee was [termination] unfairly after raising concerns about safety in the workplace.",
+          "highlighted": "termination",
           "options": {
             "A": "dismissed",
-            "B": "terminated",
+            "B": "termination",
             "C": "resigned"
           },
           "answer": "A",
-          "explanation": "'Dismissed' is the standard employment term for being removed from a job by an employer; 'terminated' is American English and less formal in British contexts, while 'resigned' means leaving voluntarily."
+          "explanation": "After 'was', the past participle 'dismissed' is needed. 'Termination' is a noun, and 'was resigned' would mean something different and is not used here."
         },
         {
           "id": 3,
-          "sentence": "The _____ asked workers to [argue] a new deal directly with the company director.",
+          "sentence": "The union asked workers to [argue] a new deal directly with the company director.",
           "highlighted": "argue",
           "options": {
-            "A": "dispute",
+            "A": "negotiation",
             "B": "argue",
             "C": "negotiate"
           },
           "answer": "C",
-          "explanation": "'Negotiate' means to have structured formal discussions to reach a mutually acceptable agreement; 'argue' implies conflict without resolution, and 'dispute' is a noun meaning a disagreement, not a verb meaning to hold talks."
+          "explanation": "'Negotiate' means hold formal discussions to reach an agreement. 'Negotiation' is a noun, and 'argue' suggests conflict rather than structured bargaining."
         },
         {
           "id": 4,
-          "sentence": "Her [amount of work] became unmanageable after she was asked to cover for three absent colleagues.",
-          "highlighted": "amount of work",
+          "sentence": "Her [workloading] became unmanageable after she was asked to cover for three absent colleagues.",
+          "highlighted": "workloading",
           "options": {
             "A": "workload",
-            "B": "amount of work",
-            "C": "tasks"
+            "B": "work amount",
+            "C": "tasking"
           },
           "answer": "A",
-          "explanation": "'Workload' is the precise professional term for the total amount of work assigned to a person; it is more concise and standard than 'amount of work' or the informal 'tasks'."
+          "explanation": "'Workload' is the standard noun for the total amount of work assigned to someone."
         },
         {
           "id": 5,
-          "sentence": "The company introduced a new programme focused on employee [health and happiness] and mental wellbeing.",
-          "highlighted": "health and happiness",
+          "sentence": "The company introduced a new programme focused on employee [welfaring] and mental wellbeing.",
+          "highlighted": "welfaring",
           "options": {
-            "A": "benefits",
-            "B": "health and happiness",
+            "A": "beneficial",
+            "B": "happy",
             "C": "welfare"
           },
           "answer": "C",
-          "explanation": "'Welfare' is the standard term covering an employee's overall physical and mental health and quality of life at work; 'benefits' refers to specific contractual perks, and 'health and happiness' is too informal and vague."
+          "explanation": "'Welfare' is the noun for employees' overall physical and mental wellbeing. The other options are adjectives."
         }
       ]
     },

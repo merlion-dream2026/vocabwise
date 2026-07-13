@@ -557,27 +557,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The organisation fought hard to [defend] the rights of workers in unsafe conditions.",
-          "highlighted": "defend",
+          "sentence": "The organisation fought hard to [protecting] the rights of workers in unsafe conditions.",
+          "highlighted": "protecting",
           "options": {
             "A": "protect",
-            "B": "defend",
-            "C": "support"
+            "B": "defence",
+            "C": "supportive"
           },
           "answer": "A",
-          "explanation": "'Protect' is the target vocabulary verb for keeping someone or something safe from harm or violation. 'Defend' implies responding to an attack (often used in legal or military contexts). 'Support' means to back or help, not to keep something safe from harm."
+          "explanation": "After 'to', use the base verb 'protect'."
         },
         {
           "id": 2,
-          "sentence": "With great [power] comes the duty to respect the rights of those around you.",
+          "sentence": "Everyone has the right to [power] of speech, but this liberty must be used responsibly.",
           "highlighted": "power",
           "options": {
             "A": "freedom",
-            "B": "power",
-            "C": "authority"
+            "B": "powerful",
+            "C": "authoritative"
           },
           "answer": "A",
-          "explanation": "'Freedom' is the target vocabulary word that creates the logical and thematic balance with 'responsibility' — the classic principle being that freedom must be paired with responsibility. 'Power' and 'authority' refer to control over others, not personal liberty."
+          "explanation": "'Freedom of speech' is the fixed expression for the right to express opinions. The other options do not form this phrase."
         },
         {
           "id": 3,
@@ -588,32 +588,32 @@
             "B": "be treated",
             "C": "given"
           },
-          "answer": "B",
-          "explanation": "'Be treated' is the target vocabulary phrase — the passive construction meaning 'handled or dealt with in a certain way'. 'Paid' refers specifically to wages, and while relevant, it is not the target term. The sentence structure requires the passive voice."
+          "answer": "A",
+          "explanation": "'Paid fairly' means receiving fair wages for work. 'Are be treated' is ungrammatical, and 'given fairly' does not express payment."
         },
         {
           "id": 4,
-          "sentence": "The women's suffrage movement campaigned for the [same rights as men] for decades before succeeding.",
-          "highlighted": "same rights as men",
+          "sentence": "The women's suffrage movement campaigned for [equal] under the law for decades before succeeding.",
+          "highlighted": "equal",
           "options": {
             "A": "equality",
-            "B": "same rights as men",
-            "C": "equal treatment"
+            "B": "same right as men",
+            "C": "equally treatment"
           },
           "answer": "A",
-          "explanation": "'Equality' is the concise, standard term for the condition of having the same rights, status, and opportunities as others. 'Same rights as men' is wordy and informal, and 'equal treatment' is close but 'equality' is the specific target vocabulary."
+          "explanation": "After 'for', the noun 'equality' is needed. The other options are grammatically incorrect."
         },
         {
           "id": 5,
-          "sentence": "She believes that quality healthcare should be available [to all] and not just to the rich.",
-          "highlighted": "to all",
+          "sentence": "She believes that quality healthcare should be [universality] available and not limited to the rich.",
+          "highlighted": "universality",
           "options": {
             "A": "universally",
-            "B": "for everyone",
-            "C": "to all"
+            "B": "for every",
+            "C": "to alls"
           },
-          "answer": "B",
-          "explanation": "'For everyone' is the target vocabulary phrase emphasising that rights and access should be available without exception to all people. 'To all' is natural English but not the target term. 'Universally' is an adverb and would require restructuring the sentence."
+          "answer": "A",
+          "explanation": "An adverb is needed before 'available': 'universally'. The other options are incomplete or ungrammatical."
         }
       ]
     },
@@ -726,9 +726,9 @@
     "ex5": {
       "1": "A",
       "2": "A",
-      "3": "B",
+      "3": "A",
       "4": "A",
-      "5": "B"
+      "5": "A"
     }
   },
   "grammar_spotlight": {

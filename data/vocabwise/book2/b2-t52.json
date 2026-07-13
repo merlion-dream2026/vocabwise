@@ -568,63 +568,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new law gives citizens the _____ to request the deletion of their personal information.",
-          "highlighted": "chance",
+          "sentence": "The new law gives citizens a legal [righting] to request the deletion of their personal information.",
+          "highlighted": "righting",
           "options": {
-            "A": "chance",
+            "A": "chancing",
             "B": "right",
-            "C": "option"
+            "C": "optional"
           },
           "answer": "B",
-          "explanation": "'Right' is the target vocabulary word for a legal or moral entitlement — something a person is formally entitled to, not just allowed. 'Chance' implies an opportunity, not an entitlement. 'Option' implies a choice but not a formal legal protection. In the context of privacy law, 'right' is the precise term for what citizens are legally guaranteed."
+          "explanation": "'Legal right' is the standard noun phrase for an entitlement guaranteed by law. The other options do not function as nouns here."
         },
         {
           "id": 2,
-          "sentence": "Hackers broke into the database and [took] the private details of over one million users.",
-          "highlighted": "took",
+          "sentence": "Hackers broke into the database and [accessing] the private details of over one million users.",
+          "highlighted": "accessing",
           "options": {
-            "A": "stole",
+            "A": "stolen",
             "B": "accessed",
-            "C": "gathered"
+            "C": "gathering"
           },
           "answer": "B",
-          "explanation": "In data breach contexts, 'accessed' is the technical and legal vocabulary for entering a system without authorisation. 'Stole' is possible informally but too casual for academic or legal registers. 'Gathered' implies deliberate collection (typically by the data owner, not hackers). 'Accessed' is the standard formal term for unauthorised entry into a data system."
+          "explanation": "A past-tense verb parallel to 'broke' is needed: 'accessed'."
         },
         {
           "id": 3,
-          "sentence": "Apps that secretly [give] user location data to advertisers without consent are breaking privacy laws.",
-          "highlighted": "give",
+          "sentence": "Apps that secretly [sharing] user location data with advertisers without consent are breaking privacy laws.",
+          "highlighted": "sharing",
           "options": {
-            "A": "reveal",
-            "B": "expose",
+            "A": "revealing",
+            "B": "exposure",
             "C": "share"
           },
           "answer": "C",
-          "explanation": "'Share' is the target vocabulary verb for distributing data to third parties, which is the standard term in privacy law and data protection contexts. 'Give' is informal and does not carry the specific meaning of data distribution. 'Reveal' means to expose hidden information. 'Expose' implies unintended disclosure. 'Share' is the precise word for data being transferred between parties."
+          "explanation": "The plural subject 'Apps' requires the present-tense base verb 'share'."
         },
         {
           "id": 4,
-          "sentence": "The government introduced new rules to better [control] how companies handle sensitive personal information.",
-          "highlighted": "control",
+          "sentence": "The government introduced new rules to better [regulation] how companies handle sensitive personal information.",
+          "highlighted": "regulation",
           "options": {
-            "A": "manage",
+            "A": "management",
             "B": "regulate",
-            "C": "control"
+            "C": "controlling"
           },
           "answer": "B",
-          "explanation": "'Regulate' is the target vocabulary verb for the formal process by which a government or authority sets rules for how industries or companies must operate. 'Control' is too general. 'Manage' implies internal oversight rather than external legal authority. 'Regulate' is the precise term used in legal, policy, and academic contexts for government oversight of corporate behaviour."
+          "explanation": "After 'to better', use the base verb 'regulate'."
         },
         {
           "id": 5,
-          "sentence": "Strong _____ measures — such as two-factor authentication — help prevent unauthorised access to online accounts.",
-          "highlighted": "protection",
+          "sentence": "Strong [secure] measures — such as two-factor authentication — help prevent unauthorised access to online accounts.",
+          "highlighted": "secure",
           "options": {
-            "A": "protection",
-            "B": "privacy",
+            "A": "protecting",
+            "B": "private",
             "C": "security"
           },
           "answer": "C",
-          "explanation": "'Security' is the target vocabulary word for measures and systems designed to prevent unauthorised access to data or accounts. 'Protection' is broader and applies to many contexts beyond digital systems. 'Privacy' refers to the right not to be observed, not to technical measures preventing access. 'Security' is the standard term for technological safeguards against cyber threats."
+          "explanation": "'Security measures' is the standard noun phrase for safeguards against unauthorised access."
         }
       ]
     },

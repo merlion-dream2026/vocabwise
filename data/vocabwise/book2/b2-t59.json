@@ -577,63 +577,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "International [business] has made goods cheaper and more accessible to people around the world.",
-          "highlighted": "business",
+          "sentence": "International [trading] between countries has made goods cheaper and more accessible worldwide.",
+          "highlighted": "trading",
           "options": {
-            "A": "commerce",
+            "A": "commercial",
             "B": "trade",
-            "C": "business"
+            "C": "businesses"
           },
           "answer": "B",
-          "explanation": "'Trade' is the target vocabulary word for the exchange of goods and services between countries — specifically in the context of international economics and globalisation. 'Business' is too general and informal. 'Commerce' is a formal synonym but not the specific target vocabulary item. 'Trade' is the standard academic and economic term for cross-border exchange of goods and services."
+          "explanation": "'International trade' is the standard noun phrase for cross-border exchange of goods and services."
         },
         {
           "id": 2,
-          "sentence": "Globalisation can weaken a community's [heritage] when foreign values gradually replace local ones.",
-          "highlighted": "heritage",
+          "sentence": "Globalisation can weaken a community's cultural [identical] when foreign values gradually replace local ones.",
+          "highlighted": "identical",
           "options": {
-            "A": "culture",
+            "A": "cultured",
             "B": "identity",
-            "C": "heritage"
+            "C": "heritages"
           },
           "answer": "B",
-          "explanation": "'Identity' is the target vocabulary word for a community's sense of who they are — their distinctive characteristics, values, and self-understanding. 'Heritage' refers to inherited traditions and history (a valid word but not the target). 'Culture' refers to practices, arts, and customs. 'Identity' specifically captures the threat to a community's self-concept and distinctiveness that globalisation poses."
+          "explanation": "'Cultural identity' is the standard noun phrase for a community's sense of who it is."
         },
         {
           "id": 3,
-          "sentence": "The economies of the world are now so [connected] that problems in one country can affect all others.",
-          "highlighted": "connected",
+          "sentence": "The economies of the world are now so closely [linking] that problems in one country can affect all others.",
+          "highlighted": "linking",
           "options": {
-            "A": "related",
-            "B": "joined",
+            "A": "relation",
+            "B": "joining",
             "C": "linked"
           },
           "answer": "C",
-          "explanation": "'Linked' is the target vocabulary adjective for countries or economies that are interdependent — where what happens in one directly affects others. 'Connected' is a close synonym but not the specific vocabulary item. 'Related' is too vague. 'Joined' implies physical connection. 'Linked' is the standard term in economic and global affairs discussions for interdependence between national systems."
+          "explanation": "After 'are so closely', use the past-participle adjective 'linked'."
         },
         {
           "id": 4,
-          "sentence": "The [inequality] between rich and poor nations in global trade remains one of the most serious issues.",
-          "highlighted": "inequality",
+          "sentence": "The [unfair] between rich and poor nations in global trade remains a serious issue.",
+          "highlighted": "unfair",
           "options": {
             "A": "unfairness",
-            "B": "inequality",
-            "C": "imbalance"
+            "B": "unequal",
+            "C": "imbalanced"
           },
           "answer": "A",
-          "explanation": "'Unfairness' is the target vocabulary word for the unjust distribution of benefits from global trade. 'Inequality' is a valid academic term but not the specific vocabulary item from this topic. 'Imbalance' describes a disproportionality, not necessarily injustice. 'Unfairness' captures both the moral dimension (it is wrong) and the factual one (it is unequal), which is why it is the precise vocabulary term here."
+          "explanation": "A noun is needed after 'The': 'unfairness'."
         },
         {
           "id": 5,
-          "sentence": "Globalisation has helped [expand] scientific knowledge by enabling researchers in different countries to share findings.",
-          "highlighted": "expand",
+          "sentence": "Globalisation has helped [spreading] scientific knowledge by enabling researchers to share findings.",
+          "highlighted": "spreading",
           "options": {
-            "A": "grow",
-            "B": "increase",
+            "A": "growth",
+            "B": "increasing",
             "C": "spread"
           },
           "answer": "C",
-          "explanation": "'Spread' is the target vocabulary verb for information, culture, or ideas moving across regions or populations. 'Expand' means to grow in size or scope — more physical. 'Grow' and 'increase' focus on volume. 'Spread' captures the movement of knowledge outward to new audiences and locations, which is the specific meaning in a globalisation context — as used throughout the passage."
+          "explanation": "After 'helped', use the base verb 'spread'."
         }
       ]
     },

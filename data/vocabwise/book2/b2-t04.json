@@ -548,7 +548,7 @@
         },
         {
           "id": 2,
-          "sentence": "She was [convicted] of [fraudulent] and sent to prison for two years.",
+          "sentence": "She was convicted of [fraudulent] and sent to prison for two years.",
           "highlighted": "fraudulent",
           "options": {
             "A": "fraud",

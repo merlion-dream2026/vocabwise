@@ -555,63 +555,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She was hired to [sell] the new coffee brand to customers aged 25–40 across the country.",
-          "highlighted": "sell",
+          "sentence": "She was hired to [promotion] the new coffee brand to customers aged 25–40 across the country.",
+          "highlighted": "promotion",
           "options": {
-            "A": "sell",
+            "A": "selling",
             "B": "promote",
-            "C": "advertise"
+            "C": "advertising"
           },
           "answer": "B",
-          "explanation": "'Promote' is the marketing term for actively raising the profile of a brand or product through outreach and campaigns; 'sell' refers only to the final transaction, not the broader marketing effort."
+          "explanation": "After 'hired to', use the base verb 'promote'."
         },
         {
           "id": 2,
-          "sentence": "The company ran a [set of adverts] that reached millions of people on social media and television.",
-          "highlighted": "set of adverts",
+          "sentence": "The company ran an advertising [campaigning] that reached millions of people on social media and television.",
+          "highlighted": "campaigning",
           "options": {
             "A": "campaign",
-            "B": "set of adverts",
-            "C": "series"
+            "B": "advertise set",
+            "C": "serial"
           },
           "answer": "A",
-          "explanation": "'Campaign' is the marketing term for a coordinated, goal-driven series of advertising efforts; it implies strategic planning and a unified message that 'set of adverts' and 'series' do not convey."
+          "explanation": "'Advertising campaign' is the standard noun phrase for a coordinated series of adverts."
         },
         {
           "id": 3,
-          "sentence": "The two-word phrase on the poster — 'Be Bold' — became the brand's most recognisable [slogan].",
-          "highlighted": "slogan",
+          "sentence": "The two-word phrase on the poster — 'Be Bold' — became the brand's most recognisable [tagging].",
+          "highlighted": "tagging",
           "options": {
-            "A": "slogan",
+            "A": "sloganeering",
             "B": "tagline",
-            "C": "motto"
+            "C": "mottoed"
           },
           "answer": "B",
-          "explanation": "'Tagline' is the advertising term for a short, consistent phrase that defines a brand's identity across all communications; 'slogan' is less precise and 'motto' typically refers to a personal or organisational guiding principle."
+          "explanation": "'Tagline' is the singular noun for a short phrase consistently associated with a brand. The other options do not fit grammatically."
         },
         {
           "id": 4,
-          "sentence": "The football club found a major company willing to [fund] the tournament in exchange for having its logo on all materials.",
-          "highlighted": "fund",
+          "sentence": "The football club found a major company willing to [sponsoring] the tournament in exchange for having its logo on all materials.",
+          "highlighted": "sponsoring",
           "options": {
-            "A": "fund",
+            "A": "funding",
             "B": "sponsor",
             "C": "invest"
           },
           "answer": "B",
-          "explanation": "'Sponsor' specifically means to provide financial support to an event or organisation in exchange for advertising exposure and brand association; 'fund' simply means to pay for something without implying any commercial partnership."
+          "explanation": "After 'willing to', use the base verb 'sponsor'. Sponsorship involves financial support in exchange for publicity."
         },
         {
           "id": 5,
-          "sentence": "The main goal of the advertising campaign was to increase brand [popularity] among new customers.",
-          "highlighted": "popularity",
+          "sentence": "The main goal of the advertising campaign was to increase brand [aware] among new customers.",
+          "highlighted": "aware",
           "options": {
-            "A": "popularity",
-            "B": "recognition",
+            "A": "popular",
+            "B": "recognise",
             "C": "awareness"
           },
           "answer": "C",
-          "explanation": "'Awareness' is the marketing term for how familiar the target audience is with a brand — it is the standard goal of early-stage campaigns; 'popularity' relates to how liked something is, and 'recognition' is narrower, referring only to visual identification."
+          "explanation": "'Brand awareness' is the standard marketing noun phrase. 'Aware' and 'popular' are adjectives, and 'recognise' is a verb."
         }
       ]
     },

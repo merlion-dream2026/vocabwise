@@ -558,63 +558,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Vietnam sells millions of tonnes of rice to other countries each year, making it a major [seller] of the grain.",
-          "highlighted": "seller",
+          "sentence": "Vietnam sells millions of tonnes of rice to other countries each year, making it a major [exporting] of the grain.",
+          "highlighted": "exporting",
           "options": {
             "A": "exporter",
-            "B": "seller",
-            "C": "supplier"
-          },
-          "answer": "A",
-          "explanation": "'Exporter' is the specific international trade term for a country or company that sells and ships goods to other countries; 'seller' is informal, and 'supplier' focuses on providing goods domestically or to a business partner."
-        },
-        {
-          "id": 2,
-          "sentence": "The two leaders discussed terms for months before finally reaching a trade [deal] that both sides accepted.",
-          "highlighted": "deal",
-          "options": {
-            "A": "deal",
-            "B": "agreement",
-            "C": "conclusion"
-          },
-          "answer": "B",
-          "explanation": "'Agreement' is the formal term used in trade and diplomacy for an official arrangement between parties; 'deal' is informal, and 'conclusion' refers to an ending or result, not a mutual arrangement."
-        },
-        {
-          "id": 3,
-          "sentence": "High import prices act as a [block] that prevents foreign goods from competing with local products.",
-          "highlighted": "block",
-          "options": {
-            "A": "block",
-            "B": "barrier",
-            "C": "penalty"
-          },
-          "answer": "B",
-          "explanation": "'Barrier' is the precise trade term for any obstacle — including taxes or regulations — that restricts the movement of goods between countries; 'block' is informal and imprecise."
-        },
-        {
-          "id": 4,
-          "sentence": "The high [need] for smartphones has encouraged manufacturers to expand production worldwide.",
-          "highlighted": "need",
-          "options": {
-            "A": "demand",
-            "B": "need",
+            "B": "selling",
             "C": "supply"
           },
           "answer": "A",
-          "explanation": "'Demand' is the economic term for the desire and ability of consumers to buy goods at a given price; 'need' is informal and lacks the economic precision required in this context."
+          "explanation": "After 'a major', a singular countable noun for the country is needed: 'exporter'."
+        },
+        {
+          "id": 2,
+          "sentence": "The two leaders discussed terms for months before finally reaching a trade [agree] that both sides accepted.",
+          "highlighted": "agree",
+          "options": {
+            "A": "dealing",
+            "B": "agreement",
+            "C": "concluding"
+          },
+          "answer": "B",
+          "explanation": "After 'a trade', the noun 'agreement' is needed. The other options are verb forms."
+        },
+        {
+          "id": 3,
+          "sentence": "High import tariffs act as a trade [blocking] that prevents foreign goods from competing with local products.",
+          "highlighted": "blocking",
+          "options": {
+            "A": "blocked",
+            "B": "barrier",
+            "C": "penalise"
+          },
+          "answer": "B",
+          "explanation": "A singular noun is needed after 'a trade': 'barrier'. The other options are verb forms."
+        },
+        {
+          "id": 4,
+          "sentence": "The high [demanding] for smartphones has encouraged manufacturers to expand production worldwide.",
+          "highlighted": "demanding",
+          "options": {
+            "A": "demand",
+            "B": "needed",
+            "C": "supply"
+          },
+          "answer": "A",
+          "explanation": "'Demand' is the economic noun for consumers' desire and ability to buy a product. 'Demanding' and 'needed' do not fit grammatically, while 'supply' contradicts the meaning."
         },
         {
           "id": 5,
-          "sentence": "The government decided to [control] trade more carefully after unsafe imported food caused public concern.",
-          "highlighted": "control",
+          "sentence": "The government decided to [regulation] trade more carefully after unsafe imported food caused public concern.",
+          "highlighted": "regulation",
           "options": {
-            "A": "control",
-            "B": "monitor",
+            "A": "controlled",
+            "B": "monitoring",
             "C": "regulate"
           },
           "answer": "C",
-          "explanation": "'Regulate' means to control trade through official rules and laws — it is the precise term used in economics and government policy; 'control' and 'monitor' are more casual and do not imply the same formal legal framework."
+          "explanation": "After 'decided to', use the base verb 'regulate'. The other options are not base-form verbs."
         }
       ]
     },

@@ -580,63 +580,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The university received a large [donation] to support its cancer research programme.",
-          "highlighted": "donation",
+          "sentence": "The university received a large research [funded] to support its cancer research programme.",
+          "highlighted": "funded",
           "options": {
             "A": "grant",
-            "B": "donation",
-            "C": "fund"
+            "B": "donating",
+            "C": "funding"
           },
-          "answer": "C",
-          "explanation": "In the context of supporting scientific research, 'fund' (used as a verb or as 'funding') is the target vocabulary term for money specifically provided to pay for research activities. 'Grant' is also acceptable in this context (a grant is a type of funding) but not the specific target word. 'Donation' implies charitable giving, not institutional funding. 'Fund' is the precise vocabulary item for financing research."
+          "answer": "A",
+          "explanation": "'Research grant' is the standard noun phrase for money formally awarded to support a research project."
         },
         {
           "id": 2,
-          "sentence": "The team ran three hundred [tests] before publishing their final conclusions in a medical journal.",
-          "highlighted": "tests",
+          "sentence": "The team ran three hundred controlled [experimenting] before publishing their final conclusions in a medical journal.",
+          "highlighted": "experimenting",
           "options": {
-            "A": "tests",
-            "B": "trials",
+            "A": "testing",
+            "B": "trialled",
             "C": "experiments"
           },
           "answer": "C",
-          "explanation": "'Experiments' is the target vocabulary word for scientific tests designed to investigate a hypothesis or theory. 'Tests' is informal and more general. 'Trials' is used specifically for medical or clinical tests on humans (clinical trials). 'Experiments' is the standard scientific vocabulary for controlled laboratory investigations, and is the precise term used in the passage."
+          "explanation": "After a number, use the plural noun 'experiments'."
         },
         {
           "id": 3,
-          "sentence": "It would not be [acceptable] to conduct research on patients without their informed consent.",
-          "highlighted": "acceptable",
+          "sentence": "It would not be [ethically] to conduct research on patients without their informed consent.",
+          "highlighted": "ethically",
           "options": {
             "A": "ethical",
-            "B": "acceptable",
-            "C": "right"
+            "B": "acceptably",
+            "C": "rightly"
           },
           "answer": "A",
-          "explanation": "'Ethical' is the target vocabulary adjective for research practices that conform to moral principles and professional standards. 'Acceptable' is too vague and depends on context. 'Right' is informal. In academic and scientific writing, 'ethical' is the standard term for evaluating whether research methods respect participants' rights and dignity — as in 'ethical guidelines' and 'ethical review'."
+          "explanation": "An adjective is needed after 'be': 'ethical'."
         },
         {
           "id": 4,
-          "sentence": "Scientists were excited to [find out] that the compound had unexpected anti-inflammatory properties.",
-          "highlighted": "find out",
+          "sentence": "Scientists were excited to [discovery] that the compound had unexpected anti-inflammatory properties.",
+          "highlighted": "discovery",
           "options": {
-            "A": "realise",
+            "A": "realisation",
             "B": "discover",
-            "C": "find out"
+            "C": "finding out"
           },
           "answer": "B",
-          "explanation": "'Discover' is the target vocabulary verb for finding something previously unknown — especially in a scientific or research context. 'Find out' is informal and casual, not appropriate for academic or scientific writing. 'Realise' implies a mental recognition, not a physical finding. 'Discover' is the precise and formal scientific vocabulary for identifying new facts or phenomena through research."
+          "explanation": "After 'to', use the base verb 'discover'."
         },
         {
           "id": 5,
-          "sentence": "The _____ of the drug will not be known until the results of the trial are published next year.",
-          "highlighted": "effectiveness",
+          "sentence": "The [effective] of the drug — how well it works — will not be known until the trial results are published.",
+          "highlighted": "effective",
           "options": {
-            "A": "impact",
-            "B": "result",
+            "A": "impactful",
+            "B": "resulting",
             "C": "effectiveness"
           },
-          "answer": "A",
-          "explanation": "'Impact' is the target vocabulary word for the measurable effect or significance of something — particularly in scientific and social contexts. 'Effectiveness' is a narrow term referring specifically to how well something works. 'Result' refers to the outcome of a specific test. 'Impact' is the broader and more appropriate vocabulary when discussing how scientific research affects medicine, society, or understanding — matching the passage's academic register."
+          "answer": "C",
+          "explanation": "'Effectiveness' is the noun meaning how well a drug works. 'Effective' and 'impactful' are adjectives, while 'resulting' is a participle."
         }
       ]
     },
@@ -732,11 +732,11 @@
       "5": "Every great scientific breakthrough began with a question that someone dared to ask and an experiment they designed to answer it."
     },
     "ex5": {
-      "1": "C",
+      "1": "A",
       "2": "C",
       "3": "A",
       "4": "B",
-      "5": "A"
+      "5": "C"
     }
   },
   "grammar_spotlight": {

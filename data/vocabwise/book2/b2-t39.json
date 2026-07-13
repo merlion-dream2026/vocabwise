@@ -556,27 +556,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The [taste] of her mother's cooking always reminds her of family celebrations at home.",
-          "highlighted": "taste",
+          "sentence": "The [flavouring] of her mother's cooking always reminds her of family celebrations at home.",
+          "highlighted": "flavouring",
           "options": {
             "A": "flavour",
-            "B": "taste",
-            "C": "smell"
+            "B": "tasty",
+            "C": "smelling"
           },
           "answer": "A",
-          "explanation": "'Flavour' is the target vocabulary term and the more precise culinary word for the combined sensory qualities of food (taste and smell together). 'Taste' is acceptable in everyday speech but is a narrower term — 'flavour' is preferred in formal writing about food and culture."
+          "explanation": "'Flavour' is the noun for the characteristic taste and smell of food."
         },
         {
           "id": 2,
-          "sentence": "The chef documented the [steps] of slow-cooking the stew so future generations could learn it.",
-          "highlighted": "steps",
+          "sentence": "The chef documented the cooking [methodical] for slow-cooking the stew so future generations could learn it.",
+          "highlighted": "methodical",
           "options": {
-            "A": "process",
+            "A": "processing",
             "B": "method",
-            "C": "steps"
+            "C": "stepping"
           },
           "answer": "B",
-          "explanation": "'Method' is the correct culinary term for the specific technique or approach used in cooking. 'Steps' are the individual actions in a process, not the overall approach. 'Process' is broader and less specific to cooking."
+          "explanation": "'Cooking method' is the standard noun phrase for the technique used to prepare a dish."
         },
         {
           "id": 3,
@@ -592,27 +592,27 @@
         },
         {
           "id": 4,
-          "sentence": "Offering rice and fruit on the altar during Tết is a deeply [meaningful] practice in Vietnamese culture.",
-          "highlighted": "meaningful",
+          "sentence": "Offering rice and fruit on the altar during Tết is a deeply [symbolism] practice in Vietnamese culture.",
+          "highlighted": "symbolism",
           "options": {
-            "A": "spiritual",
-            "B": "meaningful",
+            "A": "spiritually",
+            "B": "meaning",
             "C": "symbolic"
           },
           "answer": "C",
-          "explanation": "'Symbolic' is the target vocabulary term describing an act that carries a deeper cultural or spiritual meaning. While 'meaningful' and 'spiritual' are possible, 'symbolic' precisely describes a practice that represents something beyond its literal action — which is the specific vocabulary focus here."
+          "explanation": "An adjective is needed before 'practice': 'symbolic'."
         },
         {
           "id": 5,
-          "sentence": "Community groups are working hard to [keep] traditional cooking techniques from disappearing.",
-          "highlighted": "keep",
+          "sentence": "Community groups are working hard to [preservation] traditional cooking techniques so they do not disappear.",
+          "highlighted": "preservation",
           "options": {
-            "A": "save",
-            "B": "keep",
+            "A": "saving",
+            "B": "keeping",
             "C": "preserve"
           },
           "answer": "C",
-          "explanation": "'Preserve' is the target vocabulary term specifically used for protecting cultural traditions, heritage, and knowledge from being lost over time. 'Keep' is too general, and 'save' implies rescuing from immediate danger rather than active, ongoing protection."
+          "explanation": "After 'to', use the base verb 'preserve'."
         }
       ]
     },

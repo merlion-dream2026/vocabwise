@@ -551,27 +551,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The rock band signed a contract with a major music [company] last year.",
-          "highlighted": "company",
+          "sentence": "The rock band signed a contract with a major record [labelled] last year.",
+          "highlighted": "labelled",
           "options": {
             "A": "label",
-            "B": "industry",
-            "C": "company"
+            "B": "industrial",
+            "C": "company's"
           },
           "answer": "A",
-          "explanation": "'Label' (short for 'record label') is the specific industry term for a company that signs and promotes musicians. 'Company' is too general, and 'industry' refers to the broader business sector, not a specific firm."
+          "explanation": "'Record label' is the standard industry noun phrase for a company that signs and promotes musicians."
         },
         {
           "id": 2,
-          "sentence": "Beethoven [wrote] nine symphonies over the course of his career.",
-          "highlighted": "wrote",
+          "sentence": "Beethoven [composition] nine symphonies over the course of his career.",
+          "highlighted": "composition",
           "options": {
-            "A": "released",
+            "A": "releasing",
             "B": "composed",
-            "C": "wrote"
+            "C": "writing"
           },
           "answer": "B",
-          "explanation": "'Composed' is the standard verb for creating musical works. While 'wrote' is technically understandable, 'composed' is the precise and expected term when discussing the creation of classical music or instrumental pieces. 'Released' means made publicly available, not created."
+          "explanation": "A past-tense verb is needed: 'composed'. The other options are -ing forms or nouns."
         },
         {
           "id": 3,
@@ -587,7 +587,7 @@
         },
         {
           "id": 4,
-          "sentence": "The concert last night was a beautiful [memorial] to the legendary guitarist.",
+          "sentence": "The concert last night was a beautiful [memorial] to the legendary guitarist, who joined the performers on stage at the end.",
           "highlighted": "memorial",
           "options": {
             "A": "tribute",
@@ -599,15 +599,15 @@
         },
         {
           "id": 5,
-          "sentence": "She [made] her debut album last year after winning a major talent competition.",
-          "highlighted": "made",
+          "sentence": "She [published] her debut album on all major streaming platforms last year after winning a talent competition.",
+          "highlighted": "published",
           "options": {
             "A": "released",
             "B": "made",
             "C": "published"
           },
           "answer": "A",
-          "explanation": "'Released' is the correct verb for making music available to the public. 'Made' is too informal and vague for this context. 'Published' is used for written content such as books and articles, not for music."
+          "explanation": "'Released' is the correct verb for making an album available to the public. 'Published' is used mainly for written works, and 'made ... on streaming platforms' is not natural."
         }
       ]
     },

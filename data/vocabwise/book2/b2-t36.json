@@ -558,58 +558,58 @@
           "options": {
             "A": "access",
             "B": "reach",
-            "C": "find"
+            "C": "finding"
           },
           "answer": "A",
-          "explanation": "'Access' is the correct word for the right or ability to use or obtain something. 'Reach' implies physical distance, not the ability to use a service. 'Find' is too informal and doesn't carry the meaning of having the right or ability to use education."
+          "explanation": "'Access' is the verb meaning obtain or use education. 'Reach' implies physical distance, and 'finding' is not a base verb after 'cannot'."
         },
         {
           "id": 2,
-          "sentence": "The school provided a [prize] to help her pay for her university fees.",
-          "highlighted": "prize",
+          "sentence": "The school provided a [prizing] to help her pay for her university fees.",
+          "highlighted": "prizing",
           "options": {
-            "A": "grant",
+            "A": "granting",
             "B": "scholarship",
-            "C": "prize"
+            "C": "prizing"
           },
           "answer": "B",
-          "explanation": "'Scholarship' is the specific term for financial support awarded to a student for academic merit or need, allowing them to study. A 'prize' is given for winning a competition, not for funding education. A 'grant' is money given for a specific purpose but is used more in research contexts."
+          "explanation": "'Scholarship' is the singular noun for financial support awarded to a student for study. The other options are verb forms."
         },
         {
           "id": 3,
-          "sentence": "The new education [law] requires all students to stay in school until age 17.",
-          "highlighted": "law",
+          "sentence": "The new education [policied] legally requires all students to stay in school until age 17.",
+          "highlighted": "policied",
           "options": {
             "A": "reform",
             "B": "law",
-            "C": "policy"
+            "C": "political"
           },
-          "answer": "C",
-          "explanation": "'Policy' is the correct term for a set of principles or rules adopted by a government or organisation to guide decisions. A 'law' is a legal statute, and while similar, an education 'policy' is the broader term used for government strategies in this context. 'Reform' means a fundamental change, not a rule or regulation."
+          "answer": "B",
+          "explanation": "'Law' is the noun for a legally enforceable rule. 'Policied' is not a standard word, while 'political' is an adjective."
         },
         {
           "id": 4,
-          "sentence": "The country invested heavily in education and saw dramatically better [results] for students.",
-          "highlighted": "results",
+          "sentence": "The country invested heavily in education and saw dramatically better educational [outcoming] for students.",
+          "highlighted": "outcoming",
           "options": {
             "A": "outcomes",
-            "B": "grades",
-            "C": "results"
+            "B": "grading",
+            "C": "resulted"
           },
           "answer": "A",
-          "explanation": "'Outcomes' is the standard academic and policy term for the end results of an educational process — particularly used in formal reports and government documents. 'Results' can work but is more informal. 'Grades' refers only to scores, not broader measures of educational success."
+          "explanation": "'Educational outcomes' is the standard plural noun phrase for the results of an education system."
         },
         {
           "id": 5,
-          "sentence": "Poverty can be a powerful [blockage] that prevents children from attending school regularly.",
-          "highlighted": "blockage",
+          "sentence": "Poverty can be a powerful [barred] that prevents children from attending school regularly.",
+          "highlighted": "barred",
           "options": {
-            "A": "obstacle",
+            "A": "obstruct",
             "B": "barrier",
-            "C": "blockage"
+            "C": "blocking"
           },
           "answer": "B",
-          "explanation": "'Barrier' is the target vocabulary term for an obstacle that prevents access to something (in this case, education). 'Blockage' is used for physical obstructions (e.g., a pipe blockage) and sounds unnatural in an educational context. 'Obstacle' is correct but 'barrier' is the more standard education vocabulary."
+          "explanation": "A singular noun is needed after 'a powerful': 'barrier'."
         }
       ]
     },
@@ -707,7 +707,7 @@
     "ex5": {
       "1": "A",
       "2": "B",
-      "3": "C",
+      "3": "B",
       "4": "A",
       "5": "B"
     }

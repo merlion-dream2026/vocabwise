@@ -566,63 +566,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The constant [nervousness] of modern teenage life is having a serious effect on wellbeing.",
-          "highlighted": "nervousness",
+          "sentence": "The constant [nervous] of modern teenage life is having a serious effect on wellbeing.",
+          "highlighted": "nervous",
           "options": {
-            "A": "pressure",
+            "A": "pressured",
             "B": "stress",
-            "C": "nervousness"
+            "C": "nervous"
           },
           "answer": "B",
-          "explanation": "'Stress' is the target vocabulary term for the mental and emotional strain caused by difficult demands, expectations, or situations. 'Nervousness' refers to a feeling of anxiety before a specific event, not a chronic condition. 'Pressure' refers to external forces, whereas 'stress' is the internal reaction."
+          "explanation": "A noun is needed after 'The constant': 'stress'. 'Pressured' and 'nervous' are adjectives."
         },
         {
           "id": 2,
-          "sentence": "She has a clear [goal] to become an architect and is working extremely hard towards it.",
-          "highlighted": "goal",
+          "sentence": "She has a clear career [ambitious] to become an architect and is working extremely hard towards it.",
+          "highlighted": "ambitious",
           "options": {
             "A": "ambition",
-            "B": "goal",
-            "C": "dream"
+            "B": "goal-oriented",
+            "C": "dreaming"
           },
           "answer": "A",
-          "explanation": "'Ambition' is the target vocabulary word for a strong desire to achieve a long-term goal, particularly in one's career or personal development. A 'goal' is a specific target, and a 'dream' is something wished for — 'ambition' best captures the motivating force behind determined effort."
+          "explanation": "A singular noun is needed after 'a clear career': 'ambition'."
         },
         {
           "id": 3,
-          "sentence": "Many teenagers feel [pushed] by their parents to achieve high grades and get into top universities.",
-          "highlighted": "pushed",
+          "sentence": "Many teenagers feel [pressure] by their parents to achieve high grades and get into top universities.",
+          "highlighted": "pressure",
           "options": {
-            "A": "stressed",
+            "A": "stress",
             "B": "pressured",
-            "C": "pushed"
+            "C": "pushing"
           },
           "answer": "B",
-          "explanation": "'Pressured' is the correct passive adjective from 'pressure' — the specific vocabulary for external forces demanding high performance. 'Pushed' is informal and casual. 'Stressed' describes an internal emotional state, not an external force applied by others."
+          "explanation": "After 'feel', the past-participle adjective 'pressured' is needed to describe external demands from parents."
         },
         {
           "id": 4,
-          "sentence": "The campaign gave young people a [space] to speak up about issues that matter to them.",
-          "highlighted": "space",
+          "sentence": "The campaign gave young people a public [voicing] to speak up about issues that matter to them.",
+          "highlighted": "voicing",
           "options": {
             "A": "voice",
-            "B": "space",
-            "C": "platform"
+            "B": "spacious",
+            "C": "platforming"
           },
           "answer": "A",
-          "explanation": "'Voice' is the target vocabulary term for the right or opportunity to express one's opinion and be heard. 'Space' is too abstract and metaphorical. 'Platform' refers to a physical or digital venue for communication but doesn't specifically mean the right to be heard."
+          "explanation": "'Give someone a voice' means give them the opportunity to express opinions and be heard."
         },
         {
           "id": 5,
-          "sentence": "The documentary [motivated] her to pursue a career in environmental science.",
-          "highlighted": "motivated",
+          "sentence": "The documentary [inspiration] her to pursue a career in environmental science.",
+          "highlighted": "inspiration",
           "options": {
-            "A": "motivated",
-            "B": "pressured",
+            "A": "motivation",
+            "B": "pressure",
             "C": "inspired"
           },
           "answer": "C",
-          "explanation": "'Inspired' is the target vocabulary verb for the emotional and creative effect of something that makes a person want to act or create. 'Motivated' can work here but suggests a more rational push toward action. 'Inspired' captures the imaginative, emotional dimension of being moved by something meaningful — the expected answer for this topic."
+          "explanation": "A past-tense verb is needed: 'inspired'."
         }
       ]
     },

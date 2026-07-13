@@ -532,15 +532,15 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Scientists measure the [saltness] of seawater to understand its impact on marine ecosystems.",
-          "highlighted": "saltness",
+          "sentence": "Scientists measure the [salinityness] of seawater to determine its dissolved salt concentration.",
+          "highlighted": "salinityness",
           "options": {
             "A": "salinity",
-            "B": "saltiness",
-            "C": "saltness"
+            "B": "salty",
+            "C": "salinityness"
           },
           "answer": "A",
-          "explanation": "'Salinity' is the correct scientific and academic term for the concentration of dissolved salt in water; 'saltness' and 'saltiness' are informal or non-standard."
+          "explanation": "'Salinity' is the scientific noun for the concentration of dissolved salt in water. 'Salty' is an adjective, and 'salinityness' is not a standard word."
         },
         {
           "id": 2,
@@ -556,15 +556,15 @@
         },
         {
           "id": 3,
-          "sentence": "Countries with limited rainfall use [purification] plants to make seawater safe to drink.",
-          "highlighted": "purification",
+          "sentence": "Countries with limited freshwater use [desalinate] plants to remove salt from seawater.",
+          "highlighted": "desalinate",
           "options": {
             "A": "filtration",
             "B": "desalination",
-            "C": "purification"
+            "C": "desalinate"
           },
           "answer": "B",
-          "explanation": "'Desalination' is the specific process of removing salt from seawater to produce drinking water; 'purification' is a general term that does not specifically refer to salt removal."
+          "explanation": "'Desalination plants' remove salt from seawater. 'Desalinate' is a verb, while filtration does not specifically mean salt removal."
         },
         {
           "id": 4,
@@ -580,15 +580,15 @@
         },
         {
           "id": 5,
-          "sentence": "Large amounts of [seaweed] bloomed in the lake, blocking sunlight and killing the fish below.",
+          "sentence": "A large [seaweed] bloom developed in the lake, blocking sunlight and killing the fish below.",
           "highlighted": "seaweed",
           "options": {
-            "A": "algae",
+            "A": "algal",
             "B": "seaweed",
             "C": "moss"
           },
           "answer": "A",
-          "explanation": "'Algae' is the correct term for the microscopic aquatic plant-like organisms that bloom in water when nutrient levels are high; 'seaweed' is a specific type of large marine algae, not used for freshwater blooms."
+          "explanation": "'Algal bloom' is the standard term for rapid growth of algae in water. 'Seaweed' refers mainly to large marine algae, and moss does not form this type of aquatic bloom."
         }
       ]
     },

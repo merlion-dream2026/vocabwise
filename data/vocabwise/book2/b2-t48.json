@@ -573,63 +573,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She changed her [way of eating] by reducing processed food and eating more vegetables.",
-          "highlighted": "way of eating",
+          "sentence": "She changed her [dietary] by reducing processed food and eating more vegetables.",
+          "highlighted": "dietary",
           "options": {
             "A": "diet",
-            "B": "way of eating",
-            "C": "nutrition"
+            "B": "eating way",
+            "C": "nutritional"
           },
           "answer": "A",
-          "explanation": "'Diet' is the target vocabulary word for a person's overall eating pattern. 'Way of eating' is an informal paraphrase. 'Nutrition' refers to the content of food (vitamins, minerals, etc.), not the overall pattern. 'Diet' is the precise and standard vocabulary term here."
+          "explanation": "A noun is needed after 'her': 'diet'."
         },
         {
           "id": 2,
-          "sentence": "She set a fixed [schedule] of going to bed at ten o'clock and waking up at six every morning.",
-          "highlighted": "schedule",
+          "sentence": "She established a bedtime [routinely] of going to bed at ten o’clock and waking at six every morning.",
+          "highlighted": "routinely",
           "options": {
-            "A": "timetable",
-            "B": "schedule",
+            "A": "timetabled",
+            "B": "scheduling",
             "C": "routine"
           },
           "answer": "C",
-          "explanation": "'Routine' is the target vocabulary word for a regular, repeated pattern of behaviour. 'Schedule' is a planned list of activities with times — more formal and rigid. 'Timetable' is used mainly for schools or transport. In the context of personal health habits, 'routine' is the correct and natural term."
+          "explanation": "A singular noun is needed after 'a bedtime': 'routine'. The other options are verb or adjective forms."
         },
         {
           "id": 3,
-          "sentence": "Regular hand-washing is one of the best ways to [stop] the spread of common infections.",
-          "highlighted": "stop",
+          "sentence": "Regular hand-washing helps [prevention] the spread of common infections.",
+          "highlighted": "prevention",
           "options": {
-            "A": "block",
-            "B": "avoid",
+            "A": "blocking",
+            "B": "avoidance",
             "C": "prevent"
           },
           "answer": "C",
-          "explanation": "'Prevent' is the target vocabulary verb for stopping something harmful from happening, especially in health contexts. 'Stop' is too informal and general. 'Avoid' suggests staying away from something, not actively stopping its spread. 'Block' is physical. 'Prevent' is the precise public health term."
+          "explanation": "After 'helps', use the base verb 'prevent'."
         },
         {
           "id": 4,
-          "sentence": "Drinking enough water each day is important for [staying fresh] and supporting good digestion.",
-          "highlighted": "staying fresh",
+          "sentence": "Drinking enough water each day is important for [hydrationed] and supporting good digestion.",
+          "highlighted": "hydrationed",
           "options": {
             "A": "staying hydrated",
-            "B": "staying fresh",
-            "C": "staying clean"
+            "B": "stay fresh",
+            "C": "stay clean"
           },
           "answer": "A",
-          "explanation": "'Staying hydrated' is the correct phrase using the target vocabulary verb 'hydrate'. 'Staying fresh' is informal and suggests cleanliness or appearance rather than bodily fluid levels. 'Staying clean' refers to hygiene. 'Hydrate' specifically means maintaining adequate fluid levels in the body."
+          "explanation": "After 'for', use the gerund phrase 'staying hydrated'."
         },
         {
           "id": 5,
-          "sentence": "People who maintain an [active] way of life report feeling less anxious and more satisfied.",
-          "highlighted": "active",
+          "sentence": "People who maintain a [balance] lifestyle report feeling less anxious and more satisfied.",
+          "highlighted": "balance",
           "options": {
-            "A": "active",
+            "A": "activity",
             "B": "balanced",
-            "C": "physical"
+            "C": "physically"
           },
           "answer": "B",
-          "explanation": "'Balanced' is the target vocabulary adjective most appropriate here — a 'balanced lifestyle' includes rest, socialising, and enjoyable activities alongside work and exercise. 'Active' is too narrow (only implies physical movement). 'Physical' is an adjective, not commonly used before 'way of life'. 'Balanced lifestyle' is the precise phrase from the passage."
+          "explanation": "An adjective is needed before 'lifestyle': 'balanced'."
         }
       ]
     },

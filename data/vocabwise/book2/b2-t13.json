@@ -530,7 +530,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Car engines release harmful [emission] gases that damage the atmosphere.",
+          "sentence": "Car engines release harmful [emission] that damage the atmosphere.",
           "highlighted": "emission",
           "options": {
             "A": "emissions",
@@ -538,7 +538,7 @@
             "C": "emission"
           },
           "answer": "A",
-          "explanation": "'Emissions' (plural) refers to gases released into the air — multiple pollutants are always counted as plural."
+          "explanation": "'Emissions' is the plural noun for gases or pollutants released into the air, and it agrees with the plural verb 'damage'."
         },
         {
           "id": 2,

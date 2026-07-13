@@ -560,63 +560,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "At the end of each month, the bank sent him a detailed [report] of all his spending and payments.",
-          "highlighted": "report",
+          "sentence": "At the end of each month, the bank sent him a detailed bank [reporting] of all his transactions.",
+          "highlighted": "reporting",
           "options": {
             "A": "statement",
-            "B": "report",
-            "C": "record"
+            "B": "reported",
+            "C": "recording"
           },
           "answer": "A",
-          "explanation": "'Statement' is the specific banking term for the official document summarising all transactions within a given period; 'report' and 'record' are too general and are not used in this way by banks."
+          "explanation": "'Bank statement' is the standard term for an official document listing transactions over a period. The other options do not function as the required noun."
         },
         {
           "id": 2,
-          "sentence": "The gym charges a monthly [cost] for membership, which is automatically deducted from her account.",
-          "highlighted": "cost",
+          "sentence": "The gym charges a monthly [costly] for membership, which is automatically deducted from her account.",
+          "highlighted": "costly",
           "options": {
-            "A": "cost",
+            "A": "costing",
             "B": "fee",
-            "C": "rate"
+            "C": "rated"
           },
           "answer": "B",
-          "explanation": "'Fee' is the standard term for a fixed charge for a service; 'cost' is informal and imprecise in a financial services context, and 'rate' refers to a percentage or variable amount."
+          "explanation": "A singular noun is needed after 'a monthly': 'fee'. The other options are not suitable nouns."
         },
         {
           "id": 3,
-          "sentence": "She forgot to pay her phone [charge] on time and was asked to pay an extra amount.",
-          "highlighted": "charge",
+          "sentence": "She forgot to pay her phone [charging] on time and was asked to pay an extra amount.",
+          "highlighted": "charging",
           "options": {
             "A": "bill",
-            "B": "charge",
-            "C": "invoice"
+            "B": "charged",
+            "C": "invoicing"
           },
           "answer": "A",
-          "explanation": "'Bill' is the standard term for a payment request from a utility or service provider (phone, electricity, etc.); 'charge' is informal and less specific, and 'invoice' is used between businesses, not service providers and consumers."
+          "explanation": "'Phone bill' is the standard term for the amount a service provider asks a customer to pay."
         },
         {
           "id": 4,
-          "sentence": "He forgot to [give] back money to his friend, who had lent him £100 the previous month.",
-          "highlighted": "give",
+          "sentence": "He forgot to [repaying] the £100 he had borrowed from his friend the previous month.",
+          "highlighted": "repaying",
           "options": {
-            "A": "give",
+            "A": "giving",
             "B": "repay",
-            "C": "pay back"
+            "C": "repayment"
           },
           "answer": "B",
-          "explanation": "'Repay' is the precise financial term for returning borrowed money; 'pay back' is informal and conversational, while 'give' carries no implication of returning a debt."
+          "explanation": "After 'forgot to', use the base verb 'repay', meaning return borrowed money."
         },
         {
           "id": 5,
-          "sentence": "She didn't have enough [money in her account] for the new computer, so she decided to borrow from the bank.",
-          "highlighted": "money in her account",
+          "sentence": "She did not have sufficient [fundings] in her account for the new computer, so she decided to borrow from the bank.",
+          "highlighted": "fundings",
           "options": {
-            "A": "money",
+            "A": "monetary",
             "B": "funds",
-            "C": "balance"
+            "C": "balanced"
           },
-          "answer": "C",
-          "explanation": "'Balance' is the banking term for the amount of money currently available in an account; it is more precise and professional than the wordy phrase 'money in her account' or the general word 'funds'."
+          "answer": "B",
+          "explanation": "'Funds' is the plural noun meaning money available for a purpose. 'Monetary' and 'balanced' are adjectives and cannot function as the noun here."
         }
       ]
     },
@@ -781,7 +781,7 @@
       "2": "B",
       "3": "A",
       "4": "B",
-      "5": "C"
+      "5": "B"
     }
   },
   "grammar_spotlight": {

@@ -534,7 +534,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The video [went viral] after being [share] by a popular celebrity.",
+          "sentence": "The video went viral after being [share] by a popular celebrity.",
           "highlighted": "share",
           "options": {
             "A": "share",
@@ -558,7 +558,7 @@
         },
         {
           "id": 3,
-          "sentence": "He [upload] a new video every Friday to keep his followers [engage].",
+          "sentence": "He uploads a new video every Friday to keep his followers [engage].",
           "highlighted": "engage",
           "options": {
             "A": "engaged",
@@ -570,7 +570,7 @@
         },
         {
           "id": 4,
-          "sentence": "Good [content] always [engage] people and makes them want to share it.",
+          "sentence": "Good content always [engage] people and makes them want to share it.",
           "highlighted": "engage",
           "options": {
             "A": "engage",

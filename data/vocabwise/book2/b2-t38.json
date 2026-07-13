@@ -555,27 +555,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The designer's new collection made a powerful [comment] about the need to protect cultural heritage.",
-          "highlighted": "comment",
+          "sentence": "The designer's new collection made a powerful cultural [commenting] about the need to protect heritage.",
+          "highlighted": "commenting",
           "options": {
             "A": "statement",
-            "B": "comment",
-            "C": "point"
+            "B": "commented",
+            "C": "pointing"
           },
           "answer": "A",
-          "explanation": "'Statement' is the fashion and cultural term for a bold, deliberate declaration made through design or appearance. A 'comment' is an informal spoken or written remark. A 'point' is a single argument or idea — neither captures the visual and intentional dimension of 'statement'."
+          "explanation": "'Statement' is the noun used for a bold visual or cultural declaration."
         },
         {
           "id": 2,
-          "sentence": "Buying clothes that are [not expensive] makes fashion accessible to everyone, regardless of income.",
-          "highlighted": "not expensive",
+          "sentence": "Buying clothes that are [affordably] makes fashion accessible to everyone, regardless of income.",
+          "highlighted": "affordably",
           "options": {
-            "A": "cheap",
+            "A": "cheaply",
             "B": "affordable",
-            "C": "not expensive"
+            "C": "not expense"
           },
           "answer": "B",
-          "explanation": "'Affordable' is the target vocabulary term meaning reasonably priced and within reach of most people's budgets. 'Cheap' can have a negative connotation (poor quality), and 'not expensive' is wordy and informal."
+          "explanation": "An adjective is needed after 'are': 'affordable'."
         },
         {
           "id": 3,
@@ -583,35 +583,35 @@
           "highlighted": "society",
           "options": {
             "A": "cultural",
-            "B": "traditional",
+            "B": "traditionally",
             "C": "society"
           },
           "answer": "A",
-          "explanation": "'Cultural' is the correct adjective meaning 'relating to the culture or traditions of a particular place or people'. 'Society' is a noun and cannot modify 'traditions' grammatically. 'Traditional' is possible but redundant next to 'traditions'."
+          "explanation": "'Cultural' is the adjective meaning relating to the culture of a place or people. 'Society' is a noun, and 'traditionally' is an adverb."
         },
         {
           "id": 4,
-          "sentence": "The documentary explored how global fashion [companies] shape what we wear and how we see ourselves.",
-          "highlighted": "companies",
+          "sentence": "The documentary explored how global fashion [branding] shape what we wear and how we see ourselves.",
+          "highlighted": "branding",
           "options": {
-            "A": "trends",
-            "B": "companies",
+            "A": "trending",
+            "B": "company",
             "C": "brands"
           },
           "answer": "C",
-          "explanation": "'Brands' is the specific fashion industry term for named companies with a distinctive identity, reputation, and marketing. 'Companies' is a general business term without the cultural weight that 'brands' carries in fashion. 'Trends' refers to popular styles, not organisations."
+          "explanation": "A plural noun agreeing with 'shape' is needed: 'brands'."
         },
         {
           "id": 5,
-          "sentence": "She chose to [reuse] her old jeans by cutting them into shorts rather than throwing them away.",
-          "highlighted": "reuse",
+          "sentence": "She chose to [throw away] her old jeans by transforming them into stylish shorts instead of discarding them.",
+          "highlighted": "throw away",
           "options": {
-            "A": "reuse",
-            "B": "recycle",
+            "A": "discard",
+            "B": "downcycle",
             "C": "upcycle"
           },
-          "answer": "B",
-          "explanation": "'Recycle' is the target vocabulary word and the most widely understood term for reprocessing or reusing materials to avoid waste. While 'upcycle' (transforming into something new) is technically more precise here, 'recycle' is the target word for this topic and the expected answer."
+          "answer": "C",
+          "explanation": "'Upcycle' means transform an old item into something new of equal or greater value. 'Discard' means throw away, while 'downcycle' produces something of lower value."
         }
       ]
     },
@@ -726,7 +726,7 @@
       "2": "B",
       "3": "A",
       "4": "C",
-      "5": "B"
+      "5": "C"
     }
   },
   "grammar_spotlight": {

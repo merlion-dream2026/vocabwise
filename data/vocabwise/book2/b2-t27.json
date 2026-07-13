@@ -576,43 +576,43 @@
         },
         {
           "id": 2,
-          "sentence": "She signed a formal [agreement] for twelve months, which set out the rent, rules, and conditions of living in the flat.",
-          "highlighted": "agreement",
+          "sentence": "She signed a formal twelve-month [leasing] that set out the rent, rules, and conditions of living in the flat.",
+          "highlighted": "leasing",
           "options": {
-            "A": "agreement",
+            "A": "agree",
             "B": "lease",
-            "C": "contract"
+            "C": "contracting"
           },
           "answer": "B",
-          "explanation": "'Lease' is the specific property term for a formal, time-bound rental agreement between a landlord and tenant; while 'contract' and 'agreement' are not wrong, 'lease' is the standard term in a housing context."
+          "explanation": "'Lease' is the singular noun for a formal, time-bound rental agreement."
         },
         {
           "id": 3,
-          "sentence": "They hired a builder to [repair] the entire house — replacing flooring, updating the kitchen, and repainting every room.",
-          "highlighted": "repair",
+          "sentence": "They hired a builder to [renovation] the entire house — replacing flooring, updating the kitchen, and repainting every room.",
+          "highlighted": "renovation",
           "options": {
             "A": "renovate",
-            "B": "repair",
-            "C": "restore"
+            "B": "repairing",
+            "C": "restoration"
           },
           "answer": "A",
-          "explanation": "'Renovate' means to carry out major improvements that transform and modernise a property; 'repair' means fixing something broken, and 'restore' implies returning something to its original historic state."
+          "explanation": "After 'to', use the base verb 'renovate', meaning make major improvements to a property."
         },
         {
           "id": 4,
-          "sentence": "Before buying the house, she paid a large [deposit] of 20% to secure the purchase.",
-          "highlighted": "deposit",
+          "sentence": "Before buying the house, she paid a large [deposition] of 20% to secure the purchase.",
+          "highlighted": "deposition",
           "options": {
             "A": "deposit",
-            "B": "down payment",
+            "B": "down paying",
             "C": "prepayment"
           },
-          "answer": "B",
-          "explanation": "'Down payment' is the standard property term for the initial lump sum paid when purchasing a home; 'deposit' can refer to a smaller holding payment (e.g., to reserve a rental), and 'prepayment' is too general."
+          "answer": "A",
+          "explanation": "'Deposit' is the standard British English noun for an initial sum paid to secure a property purchase. The other options do not fit naturally here."
         },
         {
           "id": 5,
-          "sentence": "The _____ in this [neighbourhood] has risen significantly, making it one of the most expensive places to buy.",
+          "sentence": "The average property [neighbourhood] in this area has risen significantly, making it one of the most expensive places to buy.",
           "highlighted": "neighbourhood",
           "options": {
             "A": "area",
@@ -784,7 +784,7 @@
       "1": "A",
       "2": "B",
       "3": "A",
-      "4": "B",
+      "4": "A",
       "5": "C"
     }
   },

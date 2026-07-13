@@ -551,7 +551,7 @@
         },
         {
           "id": 2,
-          "sentence": "Her [upbringing] had a big [impact] on the kind of person she [become].",
+          "sentence": "Her upbringing had a big impact on the kind of person she [become].",
           "highlighted": "become",
           "options": {
             "A": "become",
@@ -563,7 +563,7 @@
         },
         {
           "id": 3,
-          "sentence": "Each [generation] has its own [value] and ways of seeing the world.",
+          "sentence": "Each generation has its own set of [value] and its own ways of seeing the world.",
           "highlighted": "value",
           "options": {
             "A": "value",
@@ -571,23 +571,23 @@
             "C": "valuable"
           },
           "answer": "B",
-          "explanation": "Plural needed: its own values."
+          "explanation": "After 'a set of', use the plural countable noun 'values'."
         },
         {
           "id": 4,
-          "sentence": "There has been a major [shift] in [attitude] towards family and work.",
-          "highlighted": "attitude",
+          "sentence": "There has been a major shift in public [attitudinal] towards family and work.",
+          "highlighted": "attitudinal",
           "options": {
             "A": "attitudes",
-            "B": "attitude",
+            "B": "attituding",
             "C": "attitudinal"
           },
           "answer": "A",
-          "explanation": "Plural needed: attitudes (general change in how people think)."
+          "explanation": "After 'public', a plural noun is needed here: 'public attitudes'. 'Attitudinal' is an adjective, and 'attituding' is not a standard word."
         },
         {
           "id": 5,
-          "sentence": "Building a strong [bond] with your children [require] time and [patient].",
+          "sentence": "Building a strong bond with your children requires time and [patient].",
           "highlighted": "patient",
           "options": {
             "A": "patient",

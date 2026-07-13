@@ -582,63 +582,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Workers who are unwilling to [change] their skills will find it difficult to survive in an automated economy.",
-          "highlighted": "change",
+          "sentence": "Workers who are unwilling to [adaptation] their skills will find it difficult to survive in an automated economy.",
+          "highlighted": "adaptation",
           "options": {
-            "A": "upgrade",
+            "A": "upgrading",
             "B": "adapt",
-            "C": "change"
+            "C": "changing"
           },
           "answer": "B",
-          "explanation": "'Adapt' is the target vocabulary verb for adjusting to new circumstances or requirements — specifically, developing skills to remain relevant in a changing workplace. 'Change' is too vague and general. 'Upgrade' is informal in this context. 'Adapt' is the precise academic and professional term for the process of adjusting behaviour, skills, or strategies in response to changing conditions."
+          "explanation": "After 'to', use the base verb 'adapt'."
         },
         {
           "id": 2,
-          "sentence": "In many supermarkets, [robots] now handle the checkout process that cashiers used to perform.",
-          "highlighted": "robots",
+          "sentence": "In many supermarkets, automated [machineries] now handle the checkout process that cashiers used to perform.",
+          "highlighted": "machineries",
           "options": {
-            "A": "computers",
-            "B": "systems",
+            "A": "computered",
+            "B": "systematic",
             "C": "machines"
           },
           "answer": "C",
-          "explanation": "'Machines' is the target vocabulary word for automated equipment that performs work previously done by humans. 'Robots' is too specific — not all automation uses physical robots. 'Computers' and 'systems' are narrower. 'Machines' is the standard and inclusive vocabulary term in discussions of automation and the changing workplace — as in 'machines do the work'."
+          "explanation": "'Machines' is the plural noun for automated equipment. 'Machinery' is normally uncountable, and the other options are adjectives or nonstandard forms."
         },
         {
           "id": 3,
-          "sentence": "She works on a three-month _____ that can be renewed if both sides are satisfied with her performance.",
-          "highlighted": "agreement",
+          "sentence": "She works on a three-month [contracting] that can be renewed if both sides are satisfied with her performance.",
+          "highlighted": "contracting",
           "options": {
-            "A": "agreement",
-            "B": "deal",
+            "A": "agreeing",
+            "B": "dealing",
             "C": "contract"
           },
           "answer": "C",
-          "explanation": "'Contract' is the target vocabulary word for a formal, legally binding agreement of employment — typically specifying duration, pay, and responsibilities. 'Agreement' is broader and informal. 'Deal' is colloquial. In professional and legal contexts, 'contract' is always the correct term for a formal employment document with defined terms and conditions."
+          "explanation": "A singular noun is needed after 'a three-month': 'contract'."
         },
         {
           "id": 4,
-          "sentence": "Automation makes production [faster] by using software and machines to handle repetitive tasks.",
-          "highlighted": "faster",
+          "sentence": "Automation makes production [efficiency] by using software and machines to handle repetitive tasks.",
+          "highlighted": "efficiency",
           "options": {
             "A": "more efficient",
-            "B": "faster",
-            "C": "more productive"
+            "B": "fastly",
+            "C": "productivity"
           },
           "answer": "A",
-          "explanation": "'More efficient' is the target vocabulary phrase — 'efficient' means achieving results with minimum waste of time or resources. 'Faster' captures only the speed dimension. 'More productive' relates to output volume. 'Efficient' encompasses both speed and resource management, making it the more precise and academically appropriate choice when describing the advantage of automation."
+          "explanation": "After 'makes production', use the adjective phrase 'more efficient'."
         },
         {
           "id": 5,
-          "sentence": "The _____ of remote work has allowed many workers to move out of expensive city centres.",
+          "sentence": "The [increase] of remote work has allowed many workers to move out of expensive city centres.",
           "highlighted": "increase",
           "options": {
-            "A": "rise",
-            "B": "growth",
+            "A": "rising",
+            "B": "growing",
             "C": "spread"
           },
           "answer": "C",
-          "explanation": "'Spread' is the most contextually precise target vocabulary word here — it captures the idea of remote work becoming widespread across industries, companies, and geographies. 'Rise' and 'growth' focus on increasing numbers or scale. 'Spread' implies that remote work has expanded to many new areas and groups, which is the specific meaning intended — matching the passage's description of technology changing the way people work broadly."
+          "explanation": "A noun is needed after 'The': 'spread'. 'Rising' and 'growing' are participles here."
         }
       ]
     },

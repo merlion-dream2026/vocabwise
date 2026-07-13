@@ -560,63 +560,63 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She found it very hard to [blend in] after moving to a country with such different customs.",
-          "highlighted": "blend in",
+          "sentence": "She found it very hard to [fitting in] after moving to a country with such different customs.",
+          "highlighted": "fitting in",
           "options": {
             "A": "fit in",
-            "B": "blend in",
-            "C": "settle in"
+            "B": "blending in",
+            "C": "settling in"
           },
           "answer": "A",
-          "explanation": "'Fit in' is the target vocabulary phrasal verb meaning to be accepted as part of a group or society. 'Blend in' means to become invisible or unnoticeable — it lacks the social acceptance dimension. 'Settle in' means to become comfortable in a new place but does not emphasise social acceptance."
+          "explanation": "After 'hard to', use the base-form phrasal verb 'fit in'."
         },
         {
           "id": 2,
-          "sentence": "The city's culturally [mixed] population brings enormous energy and creativity.",
-          "highlighted": "mixed",
+          "sentence": "The city's culturally [diversity] population brings enormous energy and creativity.",
+          "highlighted": "diversity",
           "options": {
-            "A": "different",
-            "B": "mixed",
+            "A": "difference",
+            "B": "mixture",
             "C": "diverse"
           },
           "answer": "C",
-          "explanation": "'Diverse' is the target vocabulary term and the most precise word for a population made up of people from many different cultural, ethnic, or national backgrounds. 'Mixed' is informal and vague. 'Different' does not convey the richness of cultural variety that 'diverse' does."
+          "explanation": "An adjective is needed before 'population': 'diverse'."
         },
         {
           "id": 3,
-          "sentence": "People who flee war or persecution and seek protection in another country are called [foreigners].",
-          "highlighted": "foreigners",
+          "sentence": "People who flee war or persecution and formally request protection in another country are called [tourists].",
+          "highlighted": "tourists",
           "options": {
             "A": "asylum seekers",
-            "B": "immigrants",
-            "C": "foreigners"
+            "B": "immigration",
+            "C": "tourists"
           },
           "answer": "A",
-          "explanation": "'Asylum seekers' is the precise legal and humanitarian term for people who have fled danger and are formally requesting protection under international law. 'Foreigners' simply means people from another country, and 'immigrants' refers to people who move to another country to live there permanently — neither specifically describes those seeking refuge from persecution."
+          "explanation": "'Asylum seekers' are people who have fled danger and formally requested protection. 'Immigration' is an abstract noun, and tourists travel temporarily for leisure."
         },
         {
           "id": 4,
-          "sentence": "He faced unfair [treatment] at work because of his accent and foreign background.",
-          "highlighted": "treatment",
+          "sentence": "He faced workplace [discriminate] because of his accent and foreign background.",
+          "highlighted": "discriminate",
           "options": {
             "A": "discrimination",
-            "B": "treatment",
-            "C": "prejudice"
+            "B": "treated",
+            "C": "prejudiced"
           },
           "answer": "A",
-          "explanation": "'Discrimination' is the target vocabulary term specifically meaning unjust treatment based on characteristics such as race, nationality, or religion. 'Treatment' is a general word without the connotation of injustice. 'Prejudice' refers to an attitude or preconceived opinion, not the act of treating someone unfairly."
+          "explanation": "A noun is needed after 'workplace': 'discrimination'."
         },
         {
           "id": 5,
-          "sentence": "The country's open [law] on immigration has attracted skilled professionals from many fields.",
-          "highlighted": "law",
+          "sentence": "The country's open immigration [politics] has attracted skilled professionals from many fields.",
+          "highlighted": "politics",
           "options": {
-            "A": "system",
+            "A": "systematic",
             "B": "policy",
-            "C": "law"
+            "C": "legal"
           },
           "answer": "B",
-          "explanation": "'Policy' is the standard term for a set of principles and rules that guide government decisions on immigration. A 'law' is a specific legal statute, and while immigration laws exist, 'policy' is the broader and more commonly used term in discussions of government immigration approaches. 'System' refers to the overall structure but not the guiding principles."
+          "explanation": "'Immigration policy' is the standard noun phrase for government principles and rules on immigration."
         }
       ]
     },

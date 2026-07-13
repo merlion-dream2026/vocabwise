@@ -575,39 +575,39 @@
         },
         {
           "id": 2,
-          "sentence": "The court gave him the lowest [fine] available for a first-time offender with no criminal record.",
+          "sentence": "The court imposed the lowest [fine] available: one hundred hours of unpaid community service.",
           "highlighted": "fine",
           "options": {
             "A": "penalty",
             "B": "fine",
-            "C": "sentence"
+            "C": "sentencing"
           },
           "answer": "A",
-          "explanation": "'Penalty' is the broader target vocabulary term for any legal punishment — it encompasses fines, prison, unpaid work, etc. 'Fine' refers specifically to a monetary payment, which may not fit all contexts. 'Sentence' is a formal court ruling, not a category of punishment. 'Penalty' is more precise here."
+          "explanation": "'Penalty' is the general noun for a legal punishment. A fine is specifically monetary, so it cannot describe unpaid community service."
         },
         {
           "id": 3,
-          "sentence": "Research provides strong [proof] that rehabilitation programmes reduce the chance of reoffending.",
-          "highlighted": "proof",
+          "sentence": "Research provides strong [proving] that rehabilitation programmes reduce the chance of reoffending.",
+          "highlighted": "proving",
           "options": {
-            "A": "justification",
-            "B": "data",
+            "A": "justify",
+            "B": "datum",
             "C": "evidence"
           },
           "answer": "C",
-          "explanation": "'Evidence' is the target vocabulary term for research findings and information used to support a claim, especially in legal and academic contexts. 'Proof' is informal and implies absolute certainty. 'Data' is too narrow (numbers only). 'Evidence' is the correct academic and legal term."
+          "explanation": "'Evidence' is the uncountable noun for research findings that support a claim."
         },
         {
           "id": 4,
-          "sentence": "The aim of community service is to help offenders [change] rather than simply punish them.",
-          "highlighted": "change",
+          "sentence": "The aim of community service is to help offenders [reformation] rather than simply punish them.",
+          "highlighted": "reformation",
           "options": {
             "A": "reform",
-            "B": "change",
-            "C": "improve"
+            "B": "changing",
+            "C": "improvement"
           },
           "answer": "A",
-          "explanation": "'Reform' is the target vocabulary word for helping offenders transform their behaviour and reintegrate into society. 'Change' is too vague and informal. 'Improve' can work but doesn't carry the specific meaning of rehabilitation in a legal/social context. 'Reform' is the precise term."
+          "explanation": "After 'help offenders', use the base verb 'reform'."
         },
         {
           "id": 5,
