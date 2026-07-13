@@ -124,6 +124,9 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // Match all routes except Next.js internals, static files, and PWA assets
-  matcher: ['/((?!_next/static|_next/image|favicon\\.ico|sw\\.js|manifest\\.webmanifest|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp3|mp4|pdf)).*)'],
+  // Match all routes except Next.js internals, static files, and PWA assets.
+  // icon/apple-icon/opengraph-image are Next.js dynamic metadata routes (app/icon.tsx etc.) —
+  // they're served at those exact paths with no file extension, so they need an explicit
+  // exclusion here (the extension-based rule below doesn't catch them).
+  matcher: ['/((?!_next/static|_next/image|favicon\\.ico|sw\\.js|manifest\\.webmanifest|icon$|apple-icon$|opengraph-image$|.*\\.(?:png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp3|mp4|pdf)).*)'],
 }

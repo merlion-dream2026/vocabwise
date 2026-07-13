@@ -12,13 +12,13 @@
   "lang": "vi",
   "icons": [
     {
-      "src": "/icon.png",
+      "src": "/icon",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/apple-icon.png",
+      "src": "/apple-icon",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
@@ -26,7 +26,7 @@
   ],
   "screenshots": [
     {
-      "src": "/opengraph-image.png",
+      "src": "/opengraph-image",
       "sizes": "1200x630",
       "type": "image/png",
       "form_factor": "wide"
@@ -38,7 +38,7 @@
       "short_name": "Học",
       "description": "Vào trang học từ vựng",
       "url": "/kids",
-      "icons": [{ "src": "/icon.png", "sizes": "512x512" }]
+      "icons": [{ "src": "/icon", "sizes": "512x512" }]
     }
   ]
 }

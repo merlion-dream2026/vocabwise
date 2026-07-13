@@ -200,8 +200,8 @@ self.addEventListener('push', event => {
   event.waitUntil(
     self.registration.showNotification(data.title ?? 'VocabWise', {
       body: data.body ?? 'Nhắc bé học từ vựng hôm nay! 📚',
-      icon: '/icon-192.png',
-      badge: '/icon-192.png',
+      icon: '/icon',
+      badge: '/icon',
       data: { url: data.url ?? '/kids' },
     })
   )
