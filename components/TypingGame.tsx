@@ -75,7 +75,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       setResult('timeout')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
-      setTimeout(() => advance(idx, words), 1800)
+      setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
     }
   }, [timeLeft])
 
@@ -108,7 +108,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       setResult('wrong')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
-      setTimeout(() => advance(idx, words), 1800)
+      setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
     }
   }
 
@@ -240,6 +240,13 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
           )}
           {result === 'timeout' && (
             <p className="text-orange-500 font-black text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
+          )}
+          {(result === 'wrong' || result === 'timeout') && word.examples?.[0] && (
+            <div className="bg-blue-50 border-2 border-blue-100 rounded-2xl p-4 mb-4 text-left">
+              <p className="text-blue-500 font-bold text-xs uppercase tracking-wide mb-1">💡 Ví dụ</p>
+              <p className="text-gray-700 font-semibold text-sm">&quot;{word.examples[0].en}&quot;</p>
+              <p className="text-gray-400 text-xs mt-0.5">{word.examples[0].vi}</p>
+            </div>
           )}
         </div>
 

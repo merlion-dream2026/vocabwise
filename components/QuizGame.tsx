@@ -197,6 +197,15 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
             )
           })}
         </div>
+        {/* Example sentence — only on a wrong answer, gives the "why" beyond just the right word */}
+        {selected !== null && selected !== current.word.word && current.word.examples?.[0] && (
+          <div className="mt-4 bg-blue-50 border-2 border-blue-100 rounded-2xl p-4">
+            <p className="text-blue-500 font-bold text-xs uppercase tracking-wide mb-1">💡 Ví dụ</p>
+            <p className="text-gray-700 font-semibold text-sm">&quot;{current.word.examples[0].en}&quot;</p>
+            <p className="text-gray-400 text-xs mt-0.5">{current.word.examples[0].vi}</p>
+          </div>
+        )}
+
         {/* Nav */}
         <div className="flex gap-3 mt-5">
           <div className="flex-1 py-4 rounded-2xl bg-gray-100 text-gray-300 font-black text-xl text-center select-none">

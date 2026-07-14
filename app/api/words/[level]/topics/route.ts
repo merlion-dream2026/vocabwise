@@ -5,12 +5,14 @@ import { getSession } from '@/lib/auth'
 
 const ALLOWED_LEVELS = new Set(['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'])
 
-type LevelTopic = { id: string; name: string; emoji: string; color: string; words: { word: string }[] }
+type LevelWord = { word: string; meaning: string; emoji: string }
+type LevelTopic = { id: string; name: string; emoji: string; color: string; words: LevelWord[] }
 type LevelFile = { label: string; emoji: string; color: string; description: string; topics: LevelTopic[] }
 
-// Slim topic list — id/name/emoji/color + word strings only (no ipa/meaning/examples).
-// The level page needs the `word` field to compute per-topic seen/weak/total counts,
-// but not the rest — this cuts the payload from ~190KB to ~12KB per level.
+// Slim topic list — id/name/emoji/color + word/meaning/emoji only (no ipa/class/examples,
+// the heaviest fields). The level page needs `word` for seen/weak/total counts; SRS
+// review (ReviewSession.tsx) needs word+meaning+emoji to build MCQ distractor choices —
+// this single shared shape covers both without either fetching the full ~190KB level file.
 export async function GET(req: NextRequest, { params }: { params: { level: string } }) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -24,7 +26,7 @@ export async function GET(req: NextRequest, { params }: { params: { level: strin
     const data = JSON.parse(raw) as LevelFile
     const topics = data.topics.map(({ id, name, emoji, color, words }) => ({
       id, name, emoji, color,
-      words: words.map(w => ({ word: w.word })),
+      words: words.map(w => ({ word: w.word, meaning: w.meaning, emoji: w.emoji })),
     }))
     // Bare array (not wrapped in {topics}) — existing callers (topicId page,
     // useOfflineDailyDownload.ts) consume this as an array directly.

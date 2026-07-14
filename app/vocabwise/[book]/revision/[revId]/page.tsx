@@ -4,7 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
-type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[] }
+type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair = { word: string; meaning: string }
 
 type Phase =
@@ -63,12 +63,15 @@ function buildQuestions(pool: GlossaryItem[]) {
     options: shuffle([item.meaning_vi, ...getDistractors(pool, item.meaning_vi, 3, 'meaning_vi')]),
   }))
 
+  // ~50% typing (active recall) — FIB already shows the sentence + meaning as
+  // context, so no extra example panel is needed like in the quiz/typing games.
   const fib: FIBQuestion[] = fibWords.map(item => ({
     blanked: blankWord(item.example_en, item.word),
     word: item.word,
     meaning_vi: item.meaning_vi,
     correct: item.word,
     options: shuffle([item.word, ...getDistractors(pool, item.word, 3, 'word')]),
+    mode: Math.random() < 0.5 ? 'type' : 'mcq',
   }))
 
   const m1: MatchPair[] = match1.map(i => ({ word: i.word, meaning: i.meaning_vi }))
@@ -158,19 +161,20 @@ function FIBRound({
 }) {
   const [idx, setIdx]       = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
+  const [typedInput, setTypedInput] = useState('')
   const [score, setScore]   = useState(0)
 
   const q = questions[idx]
 
-  function pick(opt: string) {
+  function resolve(answer: string) {
     if (selected) return
-    setSelected(opt)
-    const correct = opt === q.correct
+    setSelected(answer)
+    const correct = answer.trim().toLowerCase() === q.correct.trim().toLowerCase()
     if (correct) setScore(s => s + 1)
     setTimeout(() => {
-      if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null) }
+      if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null); setTypedInput('') }
       else onDone(correct ? score + 1 : score)
-    }, 700)
+    }, correct ? 700 : 1600) // wrong needs more time to read the revealed correct word
   }
 
   return (
@@ -191,25 +195,52 @@ function FIBRound({
         <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
       </div>
 
-      {/* Word options */}
-      <div className="grid grid-cols-2 gap-2.5">
-        {q.options.map(opt => {
-          const isSelected = selected === opt
-          const isCorrect = opt === q.correct
-          let cls = 'bg-white border-2 border-gray-100 text-gray-700'
-          if (selected) {
-            if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
-            else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
-            else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
-          }
-          return (
-            <button key={opt} onClick={() => pick(opt)}
-              className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
-              {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
+      {q.mode === 'type' ? (
+        <div className="flex flex-col gap-2.5">
+          <input
+            type="text"
+            value={typedInput}
+            onChange={e => { if (!selected) setTypedInput(e.target.value) }}
+            onKeyDown={e => { if (e.key === 'Enter' && typedInput.trim()) resolve(typedInput) }}
+            disabled={!!selected}
+            placeholder="Gõ từ tiếng Anh..."
+            aria-label="Gõ từ tiếng Anh"
+            autoComplete="off" autoCorrect="off" autoCapitalize="none" spellCheck={false}
+            className={`w-full border-2 rounded-2xl px-4 py-3.5 text-lg font-bold outline-none transition-colors ${
+              !selected ? 'border-gray-200 bg-white text-gray-800' :
+              selected.trim().toLowerCase() === q.correct.trim().toLowerCase() ? 'border-green-400 bg-green-50 text-green-800' : 'border-red-400 bg-red-50 text-red-700'
+            }`}
+          />
+          {selected && selected.trim().toLowerCase() !== q.correct.trim().toLowerCase() && (
+            <p className="text-red-500 font-bold text-sm">Đáp án đúng: <span className="underline">{q.correct}</span></p>
+          )}
+          {!selected && (
+            <button onClick={() => typedInput.trim() && resolve(typedInput)} disabled={!typedInput.trim()}
+              className="w-full bg-amber-400 hover:bg-amber-500 disabled:opacity-40 text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+              Kiểm tra ✓
             </button>
-          )
-        })}
-      </div>
+          )}
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 gap-2.5">
+          {q.options.map(opt => {
+            const isSelected = selected === opt
+            const isCorrect = opt === q.correct
+            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+            if (selected) {
+              if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
+              else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
+              else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
+            }
+            return (
+              <button key={opt} onClick={() => resolve(opt)}
+                className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
+                {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
+              </button>
+            )
+          })}
+        </div>
+      )}
     </div>
   )
 }

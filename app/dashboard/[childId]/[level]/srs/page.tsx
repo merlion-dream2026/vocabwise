@@ -46,7 +46,7 @@ export default function SrsReviewPage() {
     async function load() {
       const [syncData, levelData] = await Promise.all([
         fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()).catch(() => null),
-        fetch(`/api/words/${level}`).then(r => r.json()).catch(() => null),
+        fetch(`/api/words/${level}/topics`).then(r => r.json()).then(topics => ({ topics })).catch(() => null),
       ])
       initGameSync(childId, level, syncData)
 

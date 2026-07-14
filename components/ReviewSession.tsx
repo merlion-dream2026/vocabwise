@@ -56,10 +56,10 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
   useEffect(() => {
     if (fetchedLevel.current === level) return
     fetchedLevel.current = level
-    fetch(`/api/words/${level}`)
+    fetch(`/api/words/${level}/topics`)
       .then(r => r.json())
-      .then((data: { topics: { words: Choice[] }[] }) => {
-        setDistPool(data.topics.flatMap(t => t.words.map(w => ({ word: w.word, meaning: (w as { meaning: string }).meaning, emoji: (w as { emoji: string }).emoji }))))
+      .then((topics: { words: Choice[] }[]) => {
+        setDistPool(topics.flatMap(t => t.words))
       })
       .catch(() => {})
   }, [level])
