@@ -40,13 +40,13 @@ const EXPLORER_GAMES = [
   { key: 'speedround',      label: 'Speed Round ⚡',       emoji: '⚡' }, // row 6
 ]
 
-const LEVEL_COLORS: Record<string, { bg: string; header: string }> = {
-  seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500'  },
-  starter:  { bg: 'from-pink-50 to-rose-50',       header: 'bg-pink-500'    },
-  ranger:   { bg: 'from-emerald-50 to-teal-50',    header: 'bg-emerald-500' },
-  explorer: { bg: 'from-blue-50 to-indigo-50',     header: 'bg-blue-500'    },
-  scholar:  { bg: 'from-indigo-50 to-violet-50',   header: 'bg-indigo-500'  },
-  master:   { bg: 'from-gray-50 to-slate-100',     header: 'bg-gray-700'    },
+const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string }> = {
+  seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500',  text: 'text-violet-600'  },
+  starter:  { bg: 'from-pink-50 to-rose-50',       header: 'bg-pink-500',    text: 'text-pink-600'    },
+  ranger:   { bg: 'from-emerald-50 to-teal-50',    header: 'bg-emerald-500', text: 'text-emerald-600' },
+  explorer: { bg: 'from-blue-50 to-indigo-50',     header: 'bg-blue-500',    text: 'text-blue-600'    },
+  scholar:  { bg: 'from-indigo-50 to-violet-50',   header: 'bg-indigo-500',  text: 'text-indigo-600'  },
+  master:   { bg: 'from-gray-50 to-slate-100',     header: 'bg-gray-700',    text: 'text-gray-700'    },
 }
 
 function shuffleArr<T>(arr: T[]): T[] {
@@ -536,7 +536,7 @@ export default function TopicPage() {
 
         {/* Mini Story teaser line */}
         {story && (
-          <p className="flex items-center justify-center gap-2 text-center font-black text-base bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+          <p className={`flex items-center justify-center gap-2 text-center font-black text-base ${colors.text}`}>
             <span className="text-xl animate-bounce">🚀</span>
             Nâng trình nghe, đọc hiểu cùng Mini Story!
           </p>
