@@ -431,9 +431,9 @@ export default function TopicPage() {
           {/* FAQ toggle button */}
           <button
             onClick={() => { setShowFaq(v => !v); setOpenFaq(null) }}
-            className={`w-28 flex-shrink-0 rounded-2xl shadow-sm flex items-center justify-center gap-1.5 transition-colors ${showFaq ? 'bg-purple-100 border-2 border-purple-300' : 'bg-white'}`}>
-            <span className="text-lg leading-none">❓</span>
-            <p className="font-semibold text-gray-700 text-sm leading-tight">Cách học</p>
+            className={`w-20 flex-shrink-0 rounded-2xl shadow-sm flex flex-col items-center justify-center gap-1 transition-colors ${showFaq ? 'bg-purple-100 border-2 border-purple-300' : 'bg-white'}`}>
+            <span className="text-xl leading-none">❓</span>
+            <p className="font-semibold text-gray-700 text-sm leading-tight text-center">Cách học</p>
           </button>
 
           {/* Mastery progress card */}
