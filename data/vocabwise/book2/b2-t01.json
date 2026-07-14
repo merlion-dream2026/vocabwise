@@ -545,7 +545,8 @@
             "C": "scholarships"
           },
           "answer": "A",
-          "explanation": "'Scholarship' is singular here — she received one scholarship, not many."
+          "explanation": "'Scholarship' is singular here — she received one scholarship, not many.",
+          "explanation_vi": "‘Scholarship’ ở dạng số ít ở đây — cô ấy nhận được một scholarship, không phải nhiều."
         },
         {
           "id": 2,
@@ -557,7 +558,8 @@
             "C": "optional"
           },
           "answer": "B",
-          "explanation": "'Compulsory' means required by law — the opposite of optional."
+          "explanation": "'Compulsory' means required by law — the opposite of optional.",
+          "explanation_vi": "‘Compulsory’ nghĩa là bắt buộc theo luật — trái nghĩa với ‘optional’."
         },
         {
           "id": 3,
@@ -569,7 +571,8 @@
             "C": "enrolled"
           },
           "answer": "B",
-          "explanation": "After 'decided to', use the base form of the verb: 'enrol', not 'enrolled'."
+          "explanation": "After 'decided to', use the base form of the verb: 'enrol', not 'enrolled'.",
+          "explanation_vi": "Sau ‘decided to’, dùng dạng gốc của verb: ‘enrol’, không phải ‘enrolled’."
         },
         {
           "id": 4,
@@ -581,7 +584,8 @@
             "C": "assign"
           },
           "answer": "A",
-          "explanation": "'Assignment' is the noun form — a task given to students to complete."
+          "explanation": "'Assignment' is the noun form — a task given to students to complete.",
+          "explanation_vi": "‘Assignment’ là dạng noun — một nhiệm vụ được giao cho học sinh để hoàn thành."
         },
         {
           "id": 5,
@@ -593,7 +597,8 @@
             "C": "academy"
           },
           "answer": "B",
-          "explanation": "'Academic' is the adjective form — used to describe a person's attitude or ability."
+          "explanation": "'Academic' is the adjective form — used to describe a person's attitude or ability.",
+          "explanation_vi": "‘Academic’ là dạng adjective — dùng để mô tả thái độ hoặc khả năng của một người."
         }
       ]
     },

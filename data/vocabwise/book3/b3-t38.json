@@ -500,7 +500,8 @@
             "C": "cognitively"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'cognition', not the verb 'cognise'."
+          "explanation": "A noun is required as the subject of the sentence — 'cognition', not the verb 'cognise'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'cognition', không phải verb 'cognise'."
         },
         {
           "id": 2,
@@ -512,7 +513,8 @@
             "C": "multilingualism"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject — 'multilingualism' fits the meaning (the linguistic situation of minority communities); 'linguistic' is an adjective and cannot stand alone here."
+          "explanation": "A noun is needed as the subject — 'multilingualism' fits the meaning (the linguistic situation of minority communities); 'linguistic' is an adjective and cannot stand alone here.",
+          "explanation_vi": "Cần một noun làm subject — 'multilingualism' phù hợp với nghĩa (tình huống ngôn ngữ của các cộng đồng thiểu số); 'linguistic' là adjective và không thể đứng một mình ở đây."
         },
         {
           "id": 3,
@@ -524,7 +526,8 @@
             "C": "connoted"
           },
           "answer": "A",
-          "explanation": "A plural noun is needed as the object of 'chose words with positive ___' — 'connotations', not the non-standard verb form 'connotate'."
+          "explanation": "A plural noun is needed as the object of 'chose words with positive ___' — 'connotations', not the non-standard verb form 'connotate'.",
+          "explanation_vi": "Cần một plural noun làm object của 'chose words with positive ___' — 'connotations', không phải dạng verb không chuẩn 'connotate'."
         },
         {
           "id": 4,
@@ -536,7 +539,8 @@
             "C": "dialectal"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify 'community' — 'dialectal'. 'Dialectically' is an adverb."
+          "explanation": "An adjective is needed to modify 'community' — 'dialectal'. 'Dialectically' is an adverb.",
+          "explanation_vi": "Cần một adjective để bổ trợ 'community' — 'dialectal'. 'Dialectically' là adverb."
         },
         {
           "id": 5,
@@ -548,7 +552,8 @@
             "C": "determinism"
           },
           "answer": "A",
-          "explanation": "An adjective is required to modify the noun 'view' — 'deterministic', not the bare verb 'determine'."
+          "explanation": "An adjective is required to modify the noun 'view' — 'deterministic', not the bare verb 'determine'.",
+          "explanation_vi": "Cần một adjective để bổ trợ noun 'view' — 'deterministic', không phải verb chưa chia 'determine'."
         }
       ]
     },

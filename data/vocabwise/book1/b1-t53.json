@@ -508,7 +508,8 @@
             "C": "recipient"
           },
           "answer": "C",
-          "explanation": "The main delivery address is the address of the person receiving the parcel — the 'recipient'. The sender's return address is written separately."
+          "explanation": "The main delivery address is the address of the person receiving the parcel — the 'recipient'. The sender's return address is written separately.",
+          "explanation_vi": "Địa chỉ giao hàng chính là địa chỉ của người nhận bưu kiện — 'recipient'. Địa chỉ trả lại của người gửi được viết riêng."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "track"
           },
           "answer": "A",
-          "explanation": "'Deliver' means to bring something to someone. When you stay somewhere until something is ready or until your turn comes, you 'wait', not deliver."
+          "explanation": "'Deliver' means to bring something to someone. When you stay somewhere until something is ready or until your turn comes, you 'wait', not deliver.",
+          "explanation_vi": "'Deliver' có nghĩa là mang một vật gì đó đến cho ai đó. Khi bạn ở lại một nơi cho đến khi thứ gì đó sẵn sàng hoặc đến lượt bạn, bạn 'wait', không phải 'deliver'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "heavy"
           },
           "answer": "C",
-          "explanation": "'Light' means not weighing much and is easy to carry alone. If you need two people to carry it, it must be 'heavy', not light."
+          "explanation": "'Light' means not weighing much and is easy to carry alone. If you need two people to carry it, it must be 'heavy', not light.",
+          "explanation_vi": "'Light' có nghĩa là không nặng và dễ mang một mình. Nếu bạn cần hai người để mang nó, nó phải là 'heavy', không phải nhẹ."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "track"
           },
           "answer": "A",
-          "explanation": "'Track' means to follow or check the progress of something online. To close and secure a box with tape before sending it is to 'seal' it."
+          "explanation": "'Track' means to follow or check the progress of something online. To close and secure a box with tape before sending it is to 'seal' it.",
+          "explanation_vi": "'Track' có nghĩa là theo dõi hoặc kiểm tra tiến độ của một việc gì đó trực tuyến. Đóng và bảo vệ một hộp bằng băng keo trước khi gửi nó là 'seal' nó."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "fee"
           },
           "answer": "C",
-          "explanation": "A 'stamp' is a small sticker you put on a letter or envelope — it is not a charge for a service. The money you pay for a service such as express delivery is called a 'fee'."
+          "explanation": "A 'stamp' is a small sticker you put on a letter or envelope — it is not a charge for a service. The money you pay for a service such as express delivery is called a 'fee'.",
+          "explanation_vi": "'stamp' là một nhãn dán nhỏ bạn dán lên thư hoặc phong bì — nó không phải là phí cho một dịch vụ. Số tiền bạn trả cho một dịch vụ như giao hàng nhanh được gọi là 'fee'."
         }
       ]
     },

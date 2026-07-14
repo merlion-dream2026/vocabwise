@@ -504,7 +504,8 @@
             "C": "dissolved"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'The' as the subject — 'dissolution', not the verb 'dissolve'."
+          "explanation": "A noun is needed after 'The' as the subject — 'dissolution', not the verb 'dissolve'.",
+          "explanation_vi": "Cần một danh từ sau 'The' làm chủ ngữ — 'dissolution', không phải động từ 'dissolve'."
         },
         {
           "id": 2,
@@ -516,7 +517,8 @@
             "C": "estranging"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject after 'Their long' — 'estrangement', not the adjective 'estranged'."
+          "explanation": "A noun is required as the subject after 'Their long' — 'estrangement', not the adjective 'estranged'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ sau 'Their long' — 'estrangement', không phải tính từ 'estranged'."
         },
         {
           "id": 3,
@@ -528,7 +530,8 @@
             "C": "reciprocity"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'built on' — 'reciprocity', not the adjective 'reciprocal'."
+          "explanation": "A noun is required after 'built on' — 'reciprocity', not the adjective 'reciprocal'.",
+          "explanation_vi": "Cần một danh từ sau 'built on' — 'reciprocity', không phải tính từ 'reciprocal'."
         },
         {
           "id": 4,
@@ -540,7 +543,8 @@
             "C": "alien"
           },
           "answer": "A",
-          "explanation": "A noun is required as the grammatical subject — 'alienation', not the verb 'alienate'."
+          "explanation": "A noun is required as the grammatical subject — 'alienation', not the verb 'alienate'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ ngữ pháp — 'alienation', không phải động từ 'alienate'."
         },
         {
           "id": 5,
@@ -552,7 +556,8 @@
             "C": "intimacy"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'achieve' — 'intimacy', not the adjective 'intimate'."
+          "explanation": "A noun is required as the object of 'achieve' — 'intimacy', not the adjective 'intimate'.",
+          "explanation_vi": "Cần một danh từ làm tân ngữ của 'achieve' — 'intimacy', không phải tính từ 'intimate'."
         }
       ]
     },

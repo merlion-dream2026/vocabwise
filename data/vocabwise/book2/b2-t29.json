@@ -557,7 +557,8 @@
             "C": "sharing"
           },
           "answer": "B",
-          "explanation": "After 'decided to', use the base verb 'publish'."
+          "explanation": "After 'decided to', use the base verb 'publish'.",
+          "explanation_vi": "Sau 'decided to', dùng động từ nguyên mẫu 'publish'."
         },
         {
           "id": 2,
@@ -569,7 +570,8 @@
             "C": "informing"
           },
           "answer": "A",
-          "explanation": "'Sources' is the plural noun for people who provide information to a journalist."
+          "explanation": "'Sources' is the plural noun for people who provide information to a journalist.",
+          "explanation_vi": "'Sources' là danh từ số nhiều chỉ những người cung cấp thông tin cho một nhà báo."
         },
         {
           "id": 3,
@@ -581,7 +583,8 @@
             "C": "bias"
           },
           "answer": "C",
-          "explanation": "'Bias' is the noun for presenting news from a particular viewpoint rather than objectively."
+          "explanation": "'Bias' is the noun for presenting news from a particular viewpoint rather than objectively.",
+          "explanation_vi": "'Bias' là danh từ chỉ việc trình bày tin tức từ một quan điểm cụ thể thay vì một cách khách quan."
         },
         {
           "id": 4,
@@ -593,7 +596,8 @@
             "C": "reporter"
           },
           "answer": "A",
-          "explanation": "'Chief editor' (or editor-in-chief) is the correct title for the person who leads and manages a newspaper. A 'journalist' writes stories, and a 'reporter' gathers and reports news — neither has the leadership role described."
+          "explanation": "'Chief editor' (or editor-in-chief) is the correct title for the person who leads and manages a newspaper. A 'journalist' writes stories, and a 'reporter' gathers and reports news — neither has the leadership role described.",
+          "explanation_vi": "'Chief editor' (hoặc editor-in-chief) là chức danh đúng cho người đứng đầu và quản lý một tờ báo. Một 'journalist' viết các câu chuyện, và một 'reporter' thu thập và đưa tin — cả hai đều không có vai trò lãnh đạo như mô tả."
         },
         {
           "id": 5,
@@ -605,7 +609,8 @@
             "C": "publishes"
           },
           "answer": "A",
-          "explanation": "'Broadcasts' is the correct verb for radio and TV transmission of audio or video content. 'Shares' is informal and used for distributing content online, while 'publishes' is specifically for printed or written media."
+          "explanation": "'Broadcasts' is the correct verb for radio and TV transmission of audio or video content. 'Shares' is informal and used for distributing content online, while 'publishes' is specifically for printed or written media.",
+          "explanation_vi": "'Broadcasts' là động từ đúng cho việc truyền phát radio và TV nội dung âm thanh hoặc video. 'Shares' là cách nói không trang trọng và được dùng để phân phối nội dung trực tuyến, trong khi 'publishes' dành riêng cho các phương tiện in ấn hoặc văn bản."
         }
       ]
     },

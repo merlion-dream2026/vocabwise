@@ -505,7 +505,8 @@
             "C": "etymologise"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'etymology', not the adjective 'etymological'."
+          "explanation": "A noun is needed as the subject of the sentence — 'etymology', not the adjective 'etymological'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'etymology', không phải adjective 'etymological'."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "standardising"
           },
           "answer": "A",
-          "explanation": "The collocation is 'resist linguistic standardisation'; 'standardise' contradicts the sentence's meaning entirely."
+          "explanation": "The collocation is 'resist linguistic standardisation'; 'standardise' contradicts the sentence's meaning entirely.",
+          "explanation_vi": "Cụm collocation là 'resist linguistic standardisation'; 'standardise' hoàn toàn mâu thuẫn với nghĩa của câu."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "obsolescence"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'obsolescence', not the verb 'obsolesce'."
+          "explanation": "A noun is required as the subject of the sentence — 'obsolescence', not the verb 'obsolesce'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'obsolescence', không phải verb 'obsolesce'."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "resist"
           },
           "answer": "B",
-          "explanation": "The phrase 'working to [verb] preservation' requires a verb that takes a noun object — 'ensure preservation' is grammatically correct; 'preserve preservation' is redundant."
+          "explanation": "The phrase 'working to [verb] preservation' requires a verb that takes a noun object — 'ensure preservation' is grammatically correct; 'preserve preservation' is redundant.",
+          "explanation_vi": "Cụm 'working to [verb] preservation' yêu cầu một verb có thể lấy một noun object — 'ensure preservation' đúng về mặt ngữ pháp; 'preserve preservation' là thừa thãi."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "coined"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'rapid' to serve as the subject — 'coinage', not the past participle 'coined'."
+          "explanation": "A noun is required after 'rapid' to serve as the subject — 'coinage', not the past participle 'coined'.",
+          "explanation_vi": "Cần một noun sau 'rapid' để làm subject — 'coinage', không phải past participle 'coined'."
         }
       ]
     },

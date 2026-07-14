@@ -513,7 +513,8 @@
             "C": "rewiring"
           },
           "answer": "A",
-          "explanation": "'Release of dopamine' is the correct collocation; 'reward' does not collocate with 'of dopamine' in this way."
+          "explanation": "'Release of dopamine' is the correct collocation; 'reward' does not collocate with 'of dopamine' in this way.",
+          "explanation_vi": "'Release of dopamine' là cụm từ đúng; 'reward' không kết hợp với 'of dopamine' theo cách này."
         },
         {
           "id": 2,
@@ -525,7 +526,8 @@
             "C": "urgently"
           },
           "answer": "B",
-          "explanation": "The noun 'urge' is needed after the article 'a'; 'urging' is a gerund or present participle and does not function as a countable noun here."
+          "explanation": "The noun 'urge' is needed after the article 'a'; 'urging' is a gerund or present participle and does not function as a countable noun here.",
+          "explanation_vi": "Cần danh từ 'urge' sau mạo từ 'a'; 'urging' là một động danh từ hoặc động từ hiện tại phân từ và không hoạt động như một danh từ đếm được ở đây."
         },
         {
           "id": 3,
@@ -537,7 +539,8 @@
             "C": "conditioning"
           },
           "answer": "C",
-          "explanation": "'Operant conditioning' is the established psychological term; 'condition' alone cannot serve as the second noun in this compound noun phrase."
+          "explanation": "'Operant conditioning' is the established psychological term; 'condition' alone cannot serve as the second noun in this compound noun phrase.",
+          "explanation_vi": "'Operant conditioning' là thuật ngữ tâm lý học đã được thiết lập; 'condition' một mình không thể làm danh từ thứ hai trong cụm danh từ ghép này."
         },
         {
           "id": 4,
@@ -549,7 +552,8 @@
             "C": "relapsing"
           },
           "answer": "B",
-          "explanation": "'Relapse' requires the preposition 'into' when followed by the habit one returns to — 'relapsed into their smoking habit' is grammatically correct."
+          "explanation": "'Relapse' requires the preposition 'into' when followed by the habit one returns to — 'relapsed into their smoking habit' is grammatically correct.",
+          "explanation_vi": "'Relapse' yêu cầu giới từ 'into' khi theo sau bởi thói quen mà người ta quay lại — 'relapsed into their smoking habit' là đúng ngữ pháp."
         },
         {
           "id": 5,
@@ -561,7 +565,8 @@
             "C": "automaticity"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify the noun 'cue' — 'automatic cue'; the adverb 'automatically' cannot attributively modify a noun in this position."
+          "explanation": "An adjective is needed to modify the noun 'cue' — 'automatic cue'; the adverb 'automatically' cannot attributively modify a noun in this position.",
+          "explanation_vi": "Cần một tính từ để sửa đổi danh từ 'cue' — 'automatic cue'; trạng từ 'automatically' không thể dùng để bổ nghĩa cho danh từ ở vị trí này."
         }
       ]
     },

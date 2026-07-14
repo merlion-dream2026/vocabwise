@@ -572,7 +572,8 @@
             "C": "scheduled"
           },
           "answer": "A",
-          "explanation": "A singular noun is needed after 'a detailed': 'strategy'. 'Strategic' and 'scheduled' are adjectives, while 'planning' does not name the finished long-term plan here."
+          "explanation": "A singular noun is needed after 'a detailed': 'strategy'. 'Strategic' and 'scheduled' are adjectives, while 'planning' does not name the finished long-term plan here.",
+          "explanation_vi": "Cần một singular noun sau 'a detailed': 'strategy'. 'Strategic' và 'scheduled' là adjective, trong khi 'planning' không chỉ tên của kế hoạch dài hạn đã hoàn thành ở đây."
         },
         {
           "id": 2,
@@ -584,7 +585,8 @@
             "C": "incomes"
           },
           "answer": "B",
-          "explanation": "'Profit' is the money remaining after business costs are deducted. 'A healthy earnings' and 'a healthy incomes' are grammatically incorrect."
+          "explanation": "'Profit' is the money remaining after business costs are deducted. 'A healthy earnings' and 'a healthy incomes' are grammatically incorrect.",
+          "explanation_vi": "'Profit' là số tiền còn lại sau khi các chi phí kinh doanh được trừ. 'A healthy earnings' và 'a healthy incomes' là sai về ngữ pháp."
         },
         {
           "id": 3,
@@ -596,7 +598,8 @@
             "C": "introducing"
           },
           "answer": "B",
-          "explanation": "After 'was', the past participle 'launched' is needed to describe the official market introduction of a new product."
+          "explanation": "After 'was', the past participle 'launched' is needed to describe the official market introduction of a new product.",
+          "explanation_vi": "Sau 'was', cần past participle 'launched' để mô tả việc giới thiệu chính thức ra thị trường của một sản phẩm mới."
         },
         {
           "id": 4,
@@ -608,7 +611,8 @@
             "C": "target"
           },
           "answer": "C",
-          "explanation": "After 'tried to', use the base form 'target'. The other options use -ing forms and are ungrammatical after 'to'."
+          "explanation": "After 'tried to', use the base form 'target'. The other options use -ing forms and are ungrammatical after 'to'.",
+          "explanation_vi": "Sau 'tried to', dùng dạng gốc 'target'. Các lựa chọn khác sử dụng dạng -ing và không đúng ngữ pháp sau 'to'."
         },
         {
           "id": 5,
@@ -620,7 +624,8 @@
             "C": "branching out"
           },
           "answer": "B",
-          "explanation": "After 'ready to', use the base verb 'expand'. 'Expansion' and 'growth' are nouns, and 'branching out' is not the base form."
+          "explanation": "After 'ready to', use the base verb 'expand'. 'Expansion' and 'growth' are nouns, and 'branching out' is not the base form.",
+          "explanation_vi": "Sau 'ready to', dùng động từ gốc 'expand'. 'Expansion' và 'growth' là danh từ, và 'branching out' không phải là dạng gốc."
         }
       ]
     },

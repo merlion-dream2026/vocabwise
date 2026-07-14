@@ -515,7 +515,8 @@
             "C": "orbited"
           },
           "answer": "B",
-          "explanation": "The modal 'will' requires the base infinitive form — 'will orbit'. Option B ('orbit') is the correct base form; 'orbiting' is a present participle and cannot follow a modal verb directly."
+          "explanation": "The modal 'will' requires the base infinitive form — 'will orbit'. Option B ('orbit') is the correct base form; 'orbiting' is a present participle and cannot follow a modal verb directly.",
+          "explanation_vi": "‘will’ là một động từ khiếm khuyết yêu cầu dạng infinitive cơ bản — 'will orbit'. Lựa chọn B ('orbit') là dạng cơ bản đúng; 'orbiting' là một động từ dạng hiện tại phân từ và không thể đứng sau một động từ khiếm khuyết trực tiếp."
         },
         {
           "id": 2,
@@ -527,7 +528,8 @@
             "C": "gravitationally"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify the noun 'pull' — 'gravitational', not the verb 'gravitate'."
+          "explanation": "An adjective is needed to modify the noun 'pull' — 'gravitational', not the verb 'gravitate'.",
+          "explanation_vi": "Cần một adjective để sửa đổi danh từ 'pull' — 'gravitational', không phải verb 'gravitate'."
         },
         {
           "id": 3,
@@ -539,7 +541,8 @@
             "C": "magnitude"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'magnitude' (scale/size), not the verb 'magnify' or 'magnification' which refers to optical enlargement."
+          "explanation": "A noun is needed as the subject of the sentence — 'magnitude' (scale/size), not the verb 'magnify' or 'magnification' which refers to optical enlargement.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'magnitude' (độ quy mô/kích thước), không phải verb 'magnify' hoặc 'magnification' mà chỉ đề cập đến việc phóng đại quang học."
         },
         {
           "id": 4,
@@ -551,7 +554,8 @@
             "C": "atmospheres"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify 'composition' — 'atmospheric', not the noun 'atmosphere'."
+          "explanation": "An adjective is needed to modify 'composition' — 'atmospheric', not the noun 'atmosphere'.",
+          "explanation_vi": "Cần một adjective để sửa đổi 'composition' — 'atmospheric', không phải noun 'atmosphere'."
         },
         {
           "id": 5,
@@ -563,7 +567,8 @@
             "C": "propelled"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'propulsion' (the system or force), not the verb 'propel'."
+          "explanation": "A noun is needed as the subject of the sentence — 'propulsion' (the system or force), not the verb 'propel'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'propulsion' (hệ thống hoặc lực), không phải verb 'propel'."
         }
       ]
     },

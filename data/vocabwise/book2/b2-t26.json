@@ -559,7 +559,8 @@
             "C": "dismissal"
           },
           "answer": "A",
-          "explanation": "'Resignation' is the formal term for a document submitted when an employee voluntarily leaves a job; 'firing' and 'dismissal' refer to being removed by an employer, which is the opposite situation."
+          "explanation": "'Resignation' is the formal term for a document submitted when an employee voluntarily leaves a job; 'firing' and 'dismissal' refer to being removed by an employer, which is the opposite situation.",
+          "explanation_vi": "'Resignation' là thuật ngữ chính thức cho một tài liệu được nộp khi nhân viên tự nguyện rời bỏ công việc; 'firing' và 'dismissal' chỉ việc bị người sử dụng lao động loại bỏ, đây là tình huống ngược lại."
         },
         {
           "id": 2,
@@ -571,7 +572,8 @@
             "C": "resigned"
           },
           "answer": "A",
-          "explanation": "After 'was', the past participle 'dismissed' is needed. 'Termination' is a noun, and 'was resigned' would mean something different and is not used here."
+          "explanation": "After 'was', the past participle 'dismissed' is needed. 'Termination' is a noun, and 'was resigned' would mean something different and is not used here.",
+          "explanation_vi": "Sau 'was', cần dùng dạng quá khứ phân từ 'dismissed'. 'Termination' là một noun, và 'was resigned' sẽ mang nghĩa khác và không được dùng ở đây."
         },
         {
           "id": 3,
@@ -583,7 +585,8 @@
             "C": "negotiate"
           },
           "answer": "C",
-          "explanation": "'Negotiate' means hold formal discussions to reach an agreement. 'Negotiation' is a noun, and 'argue' suggests conflict rather than structured bargaining."
+          "explanation": "'Negotiate' means hold formal discussions to reach an agreement. 'Negotiation' is a noun, and 'argue' suggests conflict rather than structured bargaining.",
+          "explanation_vi": "'Negotiate' có nghĩa là tiến hành các cuộc thảo luận chính thức để đạt được một thỏa thuận. 'Negotiation' là một noun, và 'argue' gợi ý xung đột hơn là thương lượng có cấu trúc."
         },
         {
           "id": 4,
@@ -595,7 +598,8 @@
             "C": "tasking"
           },
           "answer": "A",
-          "explanation": "'Workload' is the standard noun for the total amount of work assigned to someone."
+          "explanation": "'Workload' is the standard noun for the total amount of work assigned to someone.",
+          "explanation_vi": "'Workload' là noun tiêu chuẩn cho tổng khối lượng công việc được giao cho một người."
         },
         {
           "id": 5,
@@ -607,7 +611,8 @@
             "C": "welfare"
           },
           "answer": "C",
-          "explanation": "'Welfare' is the noun for employees' overall physical and mental wellbeing. The other options are adjectives."
+          "explanation": "'Welfare' is the noun for employees' overall physical and mental wellbeing. The other options are adjectives.",
+          "explanation_vi": "'Welfare' là noun chỉ sự an sinh tổng thể về thể chất và tinh thần của nhân viên. Các lựa chọn khác là tính từ."
         }
       ]
     },

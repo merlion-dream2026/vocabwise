@@ -508,7 +508,8 @@
             "C": "tool"
           },
           "answer": "C",
-          "explanation": "A 'solution' is an answer to a problem, not a physical object. The word needed here is 'tool' — a physical device used to do a job, like tightening screws."
+          "explanation": "A 'solution' is an answer to a problem, not a physical object. The word needed here is 'tool' — a physical device used to do a job, like tightening screws.",
+          "explanation_vi": "Một 'solution' là câu trả lời cho một vấn đề, không phải là một vật thể vật lý. Từ cần dùng ở đây là 'tool' — một thiết bị vật lý dùng để thực hiện một công việc, như siết chặt vít."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "report"
           },
           "answer": "A",
-          "explanation": "'Fix' means to repair something. When you need to be careful while walking near danger, the correct phrase is 'use caution' — meaning to act carefully and safely."
+          "explanation": "'Fix' means to repair something. When you need to be careful while walking near danger, the correct phrase is 'use caution' — meaning to act carefully and safely.",
+          "explanation_vi": "'Fix' nghĩa là sửa chữa một vật gì đó. Khi bạn cần cẩn thận khi đi bộ gần nguy hiểm, cụm từ đúng là 'use caution' — có nghĩa là hành động một cách thận trọng và an toàn."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "solution"
           },
           "answer": "C",
-          "explanation": "'Damage' refers to harm or injury to something. When you need to deal with a problem, you find a 'solution' — a way to fix or solve it."
+          "explanation": "'Damage' refers to harm or injury to something. When you need to deal with a problem, you find a 'solution' — a way to fix or solve it.",
+          "explanation_vi": "'Damage' đề cập đến sự hại hoặc tổn thương đối với một vật gì đó. Khi bạn cần giải quyết một vấn đề, bạn tìm một 'solution' — một cách để sửa chữa hoặc giải quyết nó."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "tool"
           },
           "answer": "A",
-          "explanation": "A 'solution' is an answer to a problem. A written document that describes something that happened — like damage to equipment — is a 'report'."
+          "explanation": "A 'solution' is an answer to a problem. A written document that describes something that happened — like damage to equipment — is a 'report'.",
+          "explanation_vi": "Một 'solution' là câu trả lời cho một vấn đề. Một tài liệu viết mô tả một sự việc đã xảy ra — như sự hư hỏng thiết bị — là một 'report'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "break"
           },
           "answer": "B",
-          "explanation": "'Damage' means to harm something. When something stops working and you put a new one in its place, you 'replace' it — not damage it."
+          "explanation": "'Damage' means to harm something. When something stops working and you put a new one in its place, you 'replace' it — not damage it.",
+          "explanation_vi": "'Damage' nghĩa là gây hại cho một vật gì đó. Khi một vật không còn hoạt động và bạn đặt một vật mới vào chỗ của nó, bạn 'replace' nó — không phải damage nó."
         }
       ]
     },

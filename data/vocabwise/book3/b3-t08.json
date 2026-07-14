@@ -508,7 +508,8 @@
             "C": "aspiringly"
           },
           "answer": "A",
-          "explanation": "A plural noun is required after the possessive determiner 'consumers'' — 'aspirations', not the participle 'aspiring'."
+          "explanation": "A plural noun is required after the possessive determiner 'consumers'' — 'aspirations', not the participle 'aspiring'.",
+          "explanation_vi": "Cần một plural noun sau determiner sở hữu 'consumers'' — 'aspirations', không phải dạng participle 'aspiring'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "manipulative"
           },
           "answer": "B",
-          "explanation": "A noun is required after the preposition 'on' — 'manipulation', not the verb 'manipulate'."
+          "explanation": "A noun is required after the preposition 'on' — 'manipulation', not the verb 'manipulate'.",
+          "explanation_vi": "Cần một noun sau giới từ 'on' — 'manipulation', không phải verb 'manipulate'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "commodification"
           },
           "answer": "C",
-          "explanation": "The noun form of the process is required after 'the' — 'commodification', not 'commodity' which refers to a tradeable good."
+          "explanation": "The noun form of the process is required after 'the' — 'commodification', not 'commodity' which refers to a tradeable good.",
+          "explanation_vi": "Dạng noun của quá trình cần sau 'the' — 'commodification', không phải 'commodity' mà chỉ một hàng hoá có thể giao dịch."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "persuasively"
           },
           "answer": "A",
-          "explanation": "A present-tense verb is required in the relative clause: 'brands that persuade them'. 'Persuasion' is a noun."
+          "explanation": "A present-tense verb is required in the relative clause: 'brands that persuade them'. 'Persuasion' is a noun.",
+          "explanation_vi": "Cần một verb ở thì hiện tại trong mệnh đề quan hệ: 'brands that persuade them'. 'Persuasion' là một noun."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "materially"
           },
           "answer": "B",
-          "explanation": "'Materialistic' is the adjective meaning excessively concerned with possessions. 'Materialism' is a noun, and 'materially' is an adverb."
+          "explanation": "'Materialistic' is the adjective meaning excessively concerned with possessions. 'Materialism' is a noun, and 'materially' is an adverb.",
+          "explanation_vi": "'Materialistic' là adjective có nghĩa là quá quan tâm đến tài sản. 'Materialism' là noun, và 'materially' là adverb."
         }
       ]
     },

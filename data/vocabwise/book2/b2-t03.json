@@ -537,7 +537,8 @@
             "C": "diagnostic"
           },
           "answer": "A",
-          "explanation": "'Diagnosis' is the noun form needed after 'made'."
+          "explanation": "'Diagnosis' is the noun form needed after 'made'.",
+          "explanation_vi": "'Diagnosis' là dạng danh từ cần sau 'made'."
         },
         {
           "id": 2,
@@ -549,7 +550,8 @@
             "C": "chronicle"
           },
           "answer": "B",
-          "explanation": "The correct adjective is 'chronic', not 'chronical'."
+          "explanation": "The correct adjective is 'chronic', not 'chronical'.",
+          "explanation_vi": "Tính từ đúng là 'chronic', không phải 'chronical'."
         },
         {
           "id": 3,
@@ -561,7 +563,8 @@
             "C": "special"
           },
           "answer": "A",
-          "explanation": "'Specialist' is the noun — a person with expertise."
+          "explanation": "'Specialist' is the noun — a person with expertise.",
+          "explanation_vi": "'Specialist' là danh từ — một người có chuyên môn."
         },
         {
           "id": 4,
@@ -573,7 +576,8 @@
             "C": "Preventable"
           },
           "answer": "B",
-          "explanation": "The noun form 'Prevention' is needed as the subject."
+          "explanation": "The noun form 'Prevention' is needed as the subject.",
+          "explanation_vi": "Dạng danh từ 'Prevention' cần làm chủ ngữ."
         },
         {
           "id": 5,
@@ -585,7 +589,8 @@
             "C": "healthily"
           },
           "answer": "B",
-          "explanation": "'Healthy' is the adjective needed to describe her condition."
+          "explanation": "'Healthy' is the adjective needed to describe her condition.",
+          "explanation_vi": "'Healthy' là tính từ cần để mô tả tình trạng của cô ấy."
         }
       ]
     },

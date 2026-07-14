@@ -540,7 +540,8 @@
             "C": "salinityness"
           },
           "answer": "A",
-          "explanation": "'Salinity' is the scientific noun for the concentration of dissolved salt in water. 'Salty' is an adjective, and 'salinityness' is not a standard word."
+          "explanation": "'Salinity' is the scientific noun for the concentration of dissolved salt in water. 'Salty' is an adjective, and 'salinityness' is not a standard word.",
+          "explanation_vi": "'Salinity' là noun khoa học chỉ nồng độ muối hòa tan trong nước. 'Salty' là một adjective, và 'salinityness' không phải là một từ chuẩn."
         },
         {
           "id": 2,
@@ -552,7 +553,8 @@
             "C": "glaciers"
           },
           "answer": "C",
-          "explanation": "'Glaciers' are large, slow-moving bodies of ice found on mountains that supply freshwater; 'icebergs' are floating chunks of ice in the ocean."
+          "explanation": "'Glaciers' are large, slow-moving bodies of ice found on mountains that supply freshwater; 'icebergs' are floating chunks of ice in the ocean.",
+          "explanation_vi": "'Glaciers' là các khối băng lớn, di chuyển chậm, nằm trên núi và cung cấp nước ngọt; 'icebergs' là các khối băng trôi trong đại dương."
         },
         {
           "id": 3,
@@ -564,7 +566,8 @@
             "C": "desalinate"
           },
           "answer": "B",
-          "explanation": "'Desalination plants' remove salt from seawater. 'Desalinate' is a verb, while filtration does not specifically mean salt removal."
+          "explanation": "'Desalination plants' remove salt from seawater. 'Desalinate' is a verb, while filtration does not specifically mean salt removal.",
+          "explanation_vi": "'Desalination plants' loại bỏ muối khỏi nước biển. 'Desalinate' là một verb, trong khi lọc không có nghĩa cụ thể là loại bỏ muối."
         },
         {
           "id": 4,
@@ -576,7 +579,8 @@
             "C": "flooding"
           },
           "answer": "B",
-          "explanation": "'Erosion' is the process by which land is worn away by water, wind, or waves; 'weathering' refers to the breakdown of rock in place, without the material being carried away."
+          "explanation": "'Erosion' is the process by which land is worn away by water, wind, or waves; 'weathering' refers to the breakdown of rock in place, without the material being carried away.",
+          "explanation_vi": "'Erosion' là quá trình mà đất bị mòn bởi nước, gió hoặc sóng; 'weathering' chỉ sự phân hủy của đá tại chỗ, mà không có vật liệu bị mang đi."
         },
         {
           "id": 5,
@@ -588,7 +592,8 @@
             "C": "moss"
           },
           "answer": "A",
-          "explanation": "'Algal bloom' is the standard term for rapid growth of algae in water. 'Seaweed' refers mainly to large marine algae, and moss does not form this type of aquatic bloom."
+          "explanation": "'Algal bloom' is the standard term for rapid growth of algae in water. 'Seaweed' refers mainly to large marine algae, and moss does not form this type of aquatic bloom.",
+          "explanation_vi": "'Algal bloom' là thuật ngữ chuẩn cho sự phát triển nhanh của tảo trong nước. 'Seaweed' chủ yếu chỉ các tảo biển lớn, và rêu không tạo ra loại hiện tượng nở tảo này."
         }
       ]
     },

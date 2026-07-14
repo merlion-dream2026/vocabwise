@@ -598,7 +598,8 @@
             "C": "checking"
           },
           "answer": "A",
-          "explanation": "After 'to', use the base-form phrasal verb 'weigh up'."
+          "explanation": "After 'to', use the base-form phrasal verb 'weigh up'.",
+          "explanation_vi": "Sau 'to', dùng cụm động từ dạng cơ bản 'weigh up'."
         },
         {
           "id": 2,
@@ -610,7 +611,8 @@
             "C": "acceptably"
           },
           "answer": "B",
-          "explanation": "An adjective is needed after 'be': 'ethical'."
+          "explanation": "An adjective is needed after 'be': 'ethical'.",
+          "explanation_vi": "Cần một adjective sau 'be': 'ethical'."
         },
         {
           "id": 3,
@@ -622,7 +624,8 @@
             "C": "discuss"
           },
           "answer": "C",
-          "explanation": "After 'decided to', use the base verb 'discuss'."
+          "explanation": "After 'decided to', use the base verb 'discuss'.",
+          "explanation_vi": "Sau 'decided to', dùng động từ dạng cơ bản 'discuss'."
         },
         {
           "id": 4,
@@ -634,7 +637,8 @@
             "C": "harmfully"
           },
           "answer": "B",
-          "explanation": "An adjective is needed after 'morally': 'irresponsible'. The other options are adverbs."
+          "explanation": "An adjective is needed after 'morally': 'irresponsible'. The other options are adverbs.",
+          "explanation_vi": "Cần một adjective sau 'morally': 'irresponsible'. Các lựa chọn còn lại là các trạng từ."
         },
         {
           "id": 5,
@@ -646,7 +650,8 @@
             "C": "valuable"
           },
           "answer": "B",
-          "explanation": "'Moral code' is the standard noun phrase for a set of ethical principles that guides decisions."
+          "explanation": "'Moral code' is the standard noun phrase for a set of ethical principles that guides decisions.",
+          "explanation_vi": "'Moral code' là noun phrase chuẩn cho một tập hợp các nguyên tắc đạo đức mà hướng dẫn các quyết định."
         }
       ]
     },

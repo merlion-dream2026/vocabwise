@@ -508,7 +508,8 @@
             "C": "plates"
           },
           "answer": "B",
-          "explanation": "The usual utensil consists of two sticks, so use the plural noun 'chopsticks' without the article 'a': 'She used chopsticks'."
+          "explanation": "The usual utensil consists of two sticks, so use the plural noun 'chopsticks' without the article 'a': 'She used chopsticks'.",
+          "explanation_vi": "Dụng cụ thường dùng gồm hai que, vì vậy dùng danh từ số nhiều 'chopsticks' mà không có mạo từ 'a': 'She used chopsticks'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "spicy"
           },
           "answer": "A",
-          "explanation": "'Raw' means uncooked, not related to salt. The sentence says it 'made us thirsty', which is a common effect of eating too much salt — 'salty' is correct."
+          "explanation": "'Raw' means uncooked, not related to salt. The sentence says it 'made us thirsty', which is a common effect of eating too much salt — 'salty' is correct.",
+          "explanation_vi": "'Raw' có nghĩa là chưa nấu chín, không liên quan đến muối. Câu này nói nó 'made us thirsty', đây là một hiệu ứng phổ biến khi ăn quá nhiều muối — 'salty' là đúng."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "sweeten"
           },
           "answer": "B",
-          "explanation": "After 'too', English uses an adjective, not a noun. 'Sweetness' is a noun; the correct adjective here is 'sweet' (too sweet)."
+          "explanation": "After 'too', English uses an adjective, not a noun. 'Sweetness' is a noun; the correct adjective here is 'sweet' (too sweet).",
+          "explanation_vi": "Sau 'too', tiếng Anh dùng một adjective, không phải một noun. 'Sweetness' là một noun; adjective đúng ở đây là 'sweet' (too sweet)."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "unique"
           },
           "answer": "A",
-          "explanation": "'Traditional' means following old customs. 'Everyone likes it' refers to it being widely enjoyed — the correct word is 'popular'."
+          "explanation": "'Traditional' means following old customs. 'Everyone likes it' refers to it being widely enjoyed — the correct word is 'popular'.",
+          "explanation_vi": "'Traditional' nghĩa là tuân theo các phong tục cổ truyền. 'Everyone likes it' chỉ việc nó được nhiều người yêu thích — từ đúng là 'popular'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "spicy"
           },
           "answer": "B",
-          "explanation": "The sentence says sushi is 'eaten fresh and unheated'. This describes 'raw' (not cooked) fish. Sushi is famous for using raw fish, not cooked fish."
+          "explanation": "The sentence says sushi is 'eaten fresh and unheated'. This describes 'raw' (not cooked) fish. Sushi is famous for using raw fish, not cooked fish.",
+          "explanation_vi": "Câu này nói cơm cuộn 'eaten fresh and unheated'. Điều này mô tả cá 'raw' (không được nấu chín). Cơm cuộn nổi tiếng vì sử dụng cá 'raw', không phải cá đã nấu."
         }
       ]
     },

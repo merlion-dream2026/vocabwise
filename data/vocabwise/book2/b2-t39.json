@@ -564,7 +564,8 @@
             "C": "smelling"
           },
           "answer": "A",
-          "explanation": "'Flavour' is the noun for the characteristic taste and smell of food."
+          "explanation": "'Flavour' is the noun for the characteristic taste and smell of food.",
+          "explanation_vi": "'Flavour' là noun cho hương vị và mùi đặc trưng của thực phẩm."
         },
         {
           "id": 2,
@@ -576,7 +577,8 @@
             "C": "stepping"
           },
           "answer": "B",
-          "explanation": "'Cooking method' is the standard noun phrase for the technique used to prepare a dish."
+          "explanation": "'Cooking method' is the standard noun phrase for the technique used to prepare a dish.",
+          "explanation_vi": "'Cooking method' là noun phrase chuẩn cho kỹ thuật được dùng để chuẩn bị một món ăn."
         },
         {
           "id": 3,
@@ -588,7 +590,8 @@
             "C": "products"
           },
           "answer": "A",
-          "explanation": "'Ingredients' is the standard culinary term for the components used in a recipe. 'Materials' refers to raw substances used in manufacturing or construction — not food. 'Products' implies finished goods, not components used in cooking."
+          "explanation": "'Ingredients' is the standard culinary term for the components used in a recipe. 'Materials' refers to raw substances used in manufacturing or construction — not food. 'Products' implies finished goods, not components used in cooking.",
+          "explanation_vi": "'Ingredients' là thuật ngữ ẩm thực chuẩn cho các thành phần được dùng trong công thức. 'Materials' chỉ các chất thô được dùng trong sản xuất hoặc xây dựng — không phải thực phẩm. 'Products' ngụ ý hàng hoàn thiện, không phải các thành phần dùng trong nấu ăn."
         },
         {
           "id": 4,
@@ -600,7 +603,8 @@
             "C": "symbolic"
           },
           "answer": "C",
-          "explanation": "An adjective is needed before 'practice': 'symbolic'."
+          "explanation": "An adjective is needed before 'practice': 'symbolic'.",
+          "explanation_vi": "Cần một adjective trước 'practice': 'symbolic'."
         },
         {
           "id": 5,
@@ -612,7 +616,8 @@
             "C": "preserve"
           },
           "answer": "C",
-          "explanation": "After 'to', use the base verb 'preserve'."
+          "explanation": "After 'to', use the base verb 'preserve'.",
+          "explanation_vi": "Sau 'to', dùng verb 'preserve' ở dạng nguyên mẫu."
         }
       ]
     },

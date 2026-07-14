@@ -562,7 +562,8 @@
             "C": "compensation"
           },
           "answer": "A",
-          "explanation": "'Refund' is the noun for money returned when a faulty product is returned. 'Discounted' is an adjective, and 'compensation' is uncountable here and would not normally take 'a'."
+          "explanation": "'Refund' is the noun for money returned when a faulty product is returned. 'Discounted' is an adjective, and 'compensation' is uncountable here and would not normally take 'a'.",
+          "explanation_vi": "'Refund' là danh từ chỉ tiền được trả lại khi một sản phẩm lỗi được trả lại. 'Discounted' là tính từ, và 'compensation' ở đây là danh từ không đếm được, vì vậy thường không đi kèm mạo từ 'a'."
         },
         {
           "id": 2,
@@ -574,7 +575,8 @@
             "C": "budgeting"
           },
           "answer": "B",
-          "explanation": "After the modal 'can', use the base verb 'afford', meaning have enough money to pay for something."
+          "explanation": "After the modal 'can', use the base verb 'afford', meaning have enough money to pay for something.",
+          "explanation_vi": "Sau động từ khiếm khuyết 'can', dùng động từ nguyên mẫu 'afford', nghĩa là có đủ tiền để trả cho một thứ gì đó."
         },
         {
           "id": 3,
@@ -586,7 +588,8 @@
             "C": "wrapped"
           },
           "answer": "A",
-          "explanation": "'Packaging' is the uncountable noun for materials used to contain or protect products. The other options do not function as the required noun."
+          "explanation": "'Packaging' is the uncountable noun for materials used to contain or protect products. The other options do not function as the required noun.",
+          "explanation_vi": "'Packaging' là danh từ không đếm được chỉ các vật liệu dùng để chứa hoặc bảo vệ sản phẩm. Các lựa chọn khác không đóng vai trò là danh từ cần thiết."
         },
         {
           "id": 4,
@@ -598,7 +601,8 @@
             "C": "dedicated"
           },
           "answer": "B",
-          "explanation": "'Brand loyalty' is the standard noun phrase for a customer's continued preference for one brand."
+          "explanation": "'Brand loyalty' is the standard noun phrase for a customer's continued preference for one brand.",
+          "explanation_vi": "'Brand loyalty' là cụm danh từ chuẩn chỉ sự ưu tiên liên tục của khách hàng đối với một thương hiệu."
         },
         {
           "id": 5,
@@ -610,7 +614,8 @@
             "C": "second-hand"
           },
           "answer": "C",
-          "explanation": "'Second-hand' is the correct compound adjective for previously owned goods. 'Second-handed' and 'olderly' are not standard forms, and 'use' is a verb or noun."
+          "explanation": "'Second-hand' is the correct compound adjective for previously owned goods. 'Second-handed' and 'olderly' are not standard forms, and 'use' is a verb or noun.",
+          "explanation_vi": "'Second-hand' là tính từ ghép đúng cho hàng hoá đã được sở hữu trước đó. 'Second-handed' và 'olderly' không phải là dạng chuẩn, và 'use' là một động từ hoặc danh từ."
         }
       ]
     },

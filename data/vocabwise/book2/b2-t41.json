@@ -568,7 +568,8 @@
             "C": "settling in"
           },
           "answer": "A",
-          "explanation": "After 'hard to', use the base-form phrasal verb 'fit in'."
+          "explanation": "After 'hard to', use the base-form phrasal verb 'fit in'.",
+          "explanation_vi": "Sau 'hard to', hãy dùng cụm động từ dạng gốc 'fit in'."
         },
         {
           "id": 2,
@@ -580,7 +581,8 @@
             "C": "diverse"
           },
           "answer": "C",
-          "explanation": "An adjective is needed before 'population': 'diverse'."
+          "explanation": "An adjective is needed before 'population': 'diverse'.",
+          "explanation_vi": "Cần một adjective trước 'population': 'diverse'."
         },
         {
           "id": 3,
@@ -592,7 +594,8 @@
             "C": "tourists"
           },
           "answer": "A",
-          "explanation": "'Asylum seekers' are people who have fled danger and formally requested protection. 'Immigration' is an abstract noun, and tourists travel temporarily for leisure."
+          "explanation": "'Asylum seekers' are people who have fled danger and formally requested protection. 'Immigration' is an abstract noun, and tourists travel temporarily for leisure.",
+          "explanation_vi": "'Asylum seekers' là những người đã chạy trốn khỏi nguy hiểm và chính thức yêu cầu bảo vệ. 'Immigration' là một danh từ trừu tượng, và khách du lịch di chuyển tạm thời để giải trí."
         },
         {
           "id": 4,
@@ -604,7 +607,8 @@
             "C": "prejudiced"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'workplace': 'discrimination'."
+          "explanation": "A noun is needed after 'workplace': 'discrimination'.",
+          "explanation_vi": "Cần một noun sau 'workplace': 'discrimination'."
         },
         {
           "id": 5,
@@ -616,7 +620,8 @@
             "C": "legal"
           },
           "answer": "B",
-          "explanation": "'Immigration policy' is the standard noun phrase for government principles and rules on immigration."
+          "explanation": "'Immigration policy' is the standard noun phrase for government principles and rules on immigration.",
+          "explanation_vi": "'Immigration policy' là noun phrase chuẩn cho các nguyên tắc và quy tắc của chính phủ về immigration."
         }
       ]
     },

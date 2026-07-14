@@ -508,7 +508,8 @@
             "C": "favourite"
           },
           "answer": "B",
-          "explanation": "If she needed the teacher to explain it three times, the topic was clearly not 'easy'. The correct word is 'difficult' — something that is hard to understand."
+          "explanation": "If she needed the teacher to explain it three times, the topic was clearly not 'easy'. The correct word is 'difficult' — something that is hard to understand.",
+          "explanation_vi": "Nếu cô ấy cần giáo viên giải thích ba lần, thì chủ đề rõ ràng không phải là 'easy'. Từ đúng là 'difficult' — điều gì đó khó hiểu."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "art"
           },
           "answer": "C",
-          "explanation": "Painting a landscape is an activity done in 'art' class, not 'sport' class. Sport lessons involve physical activities like running or playing games."
+          "explanation": "Painting a landscape is an activity done in 'art' class, not 'sport' class. Sport lessons involve physical activities like running or playing games.",
+          "explanation_vi": "Việc vẽ phong cảnh là một hoạt động được thực hiện trong lớp 'art', không phải lớp 'sport'. Các buổi học 'sport' bao gồm các hoạt động thể chất như chạy hoặc chơi trò chơi."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "understand"
           },
           "answer": "B",
-          "explanation": "'Understand' means to know or grasp something yourself. When the teacher asks a student to say why an answer is wrong, they are asking the student to 'explain' it to others."
+          "explanation": "'Understand' means to know or grasp something yourself. When the teacher asks a student to say why an answer is wrong, they are asking the student to 'explain' it to others.",
+          "explanation_vi": "'Understand' có nghĩa là tự mình biết hoặc nắm bắt một điều gì đó. Khi giáo viên yêu cầu học sinh nói lý do tại sao một đáp án sai, họ đang yêu cầu học sinh 'explain' nó cho người khác."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "geography"
           },
           "answer": "A",
-          "explanation": "Studying how ancient people lived, built cities, and fought wars is 'history'. 'Music' is about sound, rhythm, and instruments — not events of the past."
+          "explanation": "Studying how ancient people lived, built cities, and fought wars is 'history'. 'Music' is about sound, rhythm, and instruments — not events of the past.",
+          "explanation_vi": "Việc nghiên cứu cách người cổ đại sống, xây dựng thành phố và chiến tranh là 'history'. 'Music' liên quan đến âm thanh, nhịp điệu và nhạc cụ — không phải các sự kiện trong quá khứ."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "score"
           },
           "answer": "C",
-          "explanation": "A 'lesson' is a period of teaching, not a number on a test. The number of points you receive after a test is called a 'score'."
+          "explanation": "A 'lesson' is a period of teaching, not a number on a test. The number of points you receive after a test is called a 'score'.",
+          "explanation_vi": "'lesson' là một khoảng thời gian giảng dạy, không phải là một con số trong bài kiểm tra. Số điểm bạn nhận được sau bài kiểm tra được gọi là 'score'."
         }
       ]
     },

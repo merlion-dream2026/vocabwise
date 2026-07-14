@@ -514,7 +514,8 @@
             "C": "train"
           },
           "answer": "A",
-          "explanation": "A 'medal' is a prize you receive — it is a noun, not an action. When a crowd makes noise to show support, they 'cheer'."
+          "explanation": "A 'medal' is a prize you receive — it is a noun, not an action. When a crowd makes noise to show support, they 'cheer'.",
+          "explanation_vi": "'medal' là một phần thưởng bạn nhận — nó là một noun, không phải một hành động. Khi một đám đông tạo ra tiếng ồn để thể hiện sự ủng hộ, họ 'cheer'."
         },
         {
           "id": 2,
@@ -526,7 +527,8 @@
             "C": "train"
           },
           "answer": "C",
-          "explanation": "'Root for' means to cheer for someone — it is not something you do to prepare yourself. To prepare your body and skills before a competition, you 'train'."
+          "explanation": "'Root for' means to cheer for someone — it is not something you do to prepare yourself. To prepare your body and skills before a competition, you 'train'.",
+          "explanation_vi": "'Root for' có nghĩa là cổ vũ ai đó — nó không phải là việc bạn làm để chuẩn bị cho bản thân. Để chuẩn bị cơ thể và kỹ năng trước một cuộc thi, bạn 'train'."
         },
         {
           "id": 3,
@@ -538,7 +540,8 @@
             "C": "fan"
           },
           "answer": "B",
-          "explanation": "'Spirit' refers to a feeling or attitude — it cannot enforce rules. The person whose job is to make sure players follow the rules is the 'referee'."
+          "explanation": "'Spirit' refers to a feeling or attitude — it cannot enforce rules. The person whose job is to make sure players follow the rules is the 'referee'.",
+          "explanation_vi": "'Spirit' đề cập đến một cảm giác hoặc thái độ — nó không thể thực thi các quy tắc. Người có công việc đảm bảo các người chơi tuân thủ quy tắc là 'referee'."
         },
         {
           "id": 4,
@@ -550,7 +553,8 @@
             "C": "record"
           },
           "answer": "C",
-          "explanation": "A 'trophy' is a physical prize you receive. When someone achieves the best-ever result in a sport, they break a 'record' — not a trophy."
+          "explanation": "A 'trophy' is a physical prize you receive. When someone achieves the best-ever result in a sport, they break a 'record' — not a trophy.",
+          "explanation_vi": "'trophy' là một phần thưởng vật lý bạn nhận. Khi ai đó đạt được kết quả tốt nhất trong một môn thể thao, họ phá vỡ một 'record' — không phải một trophy."
         },
         {
           "id": 5,
@@ -562,7 +566,8 @@
             "C": "fans"
           },
           "answer": "B",
-          "explanation": "'Fans' are the people who watch a sport — they cannot be counted as stages in a tournament. The stages you go through before a final are called 'rounds'."
+          "explanation": "'Fans' are the people who watch a sport — they cannot be counted as stages in a tournament. The stages you go through before a final are called 'rounds'.",
+          "explanation_vi": "'Fans' là những người xem một môn thể thao — họ không thể được tính là các giai đoạn trong một giải đấu. Các giai đoạn bạn trải qua trước trận chung kết được gọi là 'rounds'."
         }
       ]
     },

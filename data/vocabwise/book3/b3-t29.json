@@ -503,7 +503,8 @@
             "C": "persecuting"
           },
           "answer": "A",
-          "explanation": "A past participle is required here to form the passive — 'persecuted', not the base verb 'persecute'."
+          "explanation": "A past participle is required here to form the passive — 'persecuted', not the base verb 'persecute'.",
+          "explanation_vi": "Cần một past participle ở đây để tạo passive — 'persecuted', không phải verb 'persecute' (động từ gốc)."
         },
         {
           "id": 2,
@@ -515,7 +516,8 @@
             "C": "deportee"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'deportation', not the verb 'deport'."
+          "explanation": "A noun is needed as the subject of the sentence — 'deportation', not the verb 'deport'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'deportation', không phải verb 'deport'."
         },
         {
           "id": 3,
@@ -527,7 +529,8 @@
             "C": "assimilates"
           },
           "answer": "A",
-          "explanation": "A noun is required to modify 'policies' as a compound noun — 'assimilation', not the verb 'assimilate'."
+          "explanation": "A noun is required to modify 'policies' as a compound noun — 'assimilation', not the verb 'assimilate'.",
+          "explanation_vi": "Cần một noun để sửa đổi 'policies' thành compound noun — 'assimilation', không phải verb 'assimilate'."
         },
         {
           "id": 4,
@@ -539,7 +542,8 @@
             "C": "displaced"
           },
           "answer": "C",
-          "explanation": "A past-participial adjective is needed to modify 'families' — 'displaced' (meaning forced from their homes), not the active participle 'displacing'."
+          "explanation": "A past-participial adjective is needed to modify 'families' — 'displaced' (meaning forced from their homes), not the active participle 'displacing'.",
+          "explanation_vi": "Cần một adjective dạng past participle để sửa đổi 'families' — 'displaced' (có nghĩa là bị buộc phải rời khỏi nhà), không phải phân từ chủ động 'displacing'."
         },
         {
           "id": 5,
@@ -551,7 +555,8 @@
             "C": "remitting"
           },
           "answer": "B",
-          "explanation": "A plural noun is required after 'Monthly' to serve as the subject — 'remittances', not the verb 'remit'."
+          "explanation": "A plural noun is required after 'Monthly' to serve as the subject — 'remittances', not the verb 'remit'.",
+          "explanation_vi": "Cần một plural noun sau 'Monthly' để làm subject — 'remittances', không phải verb 'remit'."
         }
       ]
     },

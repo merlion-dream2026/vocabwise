@@ -518,10 +518,10 @@ export default function TopicPage() {
             onClick={scrollToStory}
             className={`w-full ${colors.header} rounded-2xl px-4 py-2.5 flex items-center justify-between gap-2 shadow-sm active:scale-95 transition-all`}
           >
-            <span className="text-white font-bold text-xs text-left leading-tight">
+            <span className="text-white font-bold text-sm text-left leading-tight">
               📖 Mini Story đang chờ — nâng trình đọc hiểu cùng {(topic as { name: string }).name}!
             </span>
-            <span className="text-white/90 text-xs font-black flex-shrink-0">↓ Xem</span>
+            <span className="text-white/90 text-sm font-black flex-shrink-0">↓ Xem</span>
           </button>
         )}
 
@@ -623,7 +623,7 @@ export default function TopicPage() {
 
             {/* Escape to free mode */}
             <div className="border-t border-gray-100 px-4 py-3 text-center">
-              <button onClick={() => setLessonMode(false)} className="text-xs text-gray-400 font-semibold hover:text-gray-600 transition-colors">
+              <button onClick={() => setLessonMode(false)} className="text-sm text-gray-400 font-semibold hover:text-gray-600 transition-colors">
                 🎮 Tự do chọn trò chơi
               </button>
             </div>
@@ -668,8 +668,8 @@ export default function TopicPage() {
         {story && showVoiceNotice && (
           <div className="bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3 flex items-start gap-2">
             <span className="text-lg leading-none flex-shrink-0">🎙️</span>
-            <p className="flex-1 text-xs text-indigo-700 leading-relaxed">
-              <span className="font-bold">Giọng đọc mới!</span> Từ Scholar trở đi, Mini Story sẽ có giọng nam để bạn làm quen với nhiều giọng tiếng Anh khác nhau nhé!
+            <p className="flex-1 text-sm text-indigo-700 leading-relaxed">
+              <span className="font-bold">Giọng đọc mới! 😊</span> Giúp bạn làm quen nhiều giọng tiếng Anh khác nhau
             </p>
             <button
               onClick={dismissVoiceNotice}

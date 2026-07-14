@@ -560,7 +560,8 @@
             "C": "scripted"
           },
           "answer": "A",
-          "explanation": "'Plot' is the noun for the structured sequence of events in a narrative."
+          "explanation": "'Plot' is the noun for the structured sequence of events in a narrative.",
+          "explanation_vi": "'Plot' là danh từ chỉ chuỗi sự kiện có cấu trúc trong một câu chuyện."
         },
         {
           "id": 2,
@@ -572,7 +573,8 @@
             "C": "theme"
           },
           "answer": "C",
-          "explanation": "'Theme' is the noun for the underlying idea explored throughout a literary work. 'Storylining' is not a standard noun here, and 'genre' names a category of literature."
+          "explanation": "'Theme' is the noun for the underlying idea explored throughout a literary work. 'Storylining' is not a standard noun here, and 'genre' names a category of literature.",
+          "explanation_vi": "'Theme' là danh từ chỉ ý tưởng nền tảng được khám phá xuyên suốt một tác phẩm văn học. Việc xây dựng câu chuyện không phải là danh từ chuẩn ở đây, và 'genre' chỉ một thể loại của văn học."
         },
         {
           "id": 3,
@@ -584,7 +586,8 @@
             "C": "sharing"
           },
           "answer": "B",
-          "explanation": "A past-tense verb is needed: 'published'."
+          "explanation": "A past-tense verb is needed: 'published'.",
+          "explanation_vi": "Cần một động từ ở thì quá khứ: 'published'."
         },
         {
           "id": 4,
@@ -596,7 +599,8 @@
             "C": "feeding back"
           },
           "answer": "B",
-          "explanation": "'Reviews' is the plural noun for published critical evaluations of a book."
+          "explanation": "'Reviews' is the plural noun for published critical evaluations of a book.",
+          "explanation_vi": "'Reviews' là danh từ số nhiều chỉ các đánh giá phê bình đã được xuất bản về một cuốn sách."
         },
         {
           "id": 5,
@@ -608,7 +612,8 @@
             "C": "thematic"
           },
           "answer": "A",
-          "explanation": "'Plot' is the noun for the sequence of events in the whole novel. 'Chapter' names one section, and 'thematic' is an adjective."
+          "explanation": "'Plot' is the noun for the sequence of events in the whole novel. 'Chapter' names one section, and 'thematic' is an adjective.",
+          "explanation_vi": "'Plot' là danh từ chỉ chuỗi sự kiện trong toàn bộ tiểu thuyết. 'Chapter' chỉ một phần, và tính từ 'thematic' có nghĩa là thuộc chủ đề."
         }
       ]
     },

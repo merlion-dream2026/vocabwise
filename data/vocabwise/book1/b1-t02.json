@@ -520,7 +520,8 @@
             "C": "later"
           },
           "answer": "A",
-          "explanation": "'Late' means muộn/trễ. 'Lately' means 'gần đây' — they have completely different meanings."
+          "explanation": "'Late' means muộn/trễ. 'Lately' means 'gần đây' — they have completely different meanings.",
+          "explanation_vi": "'Late' nghĩa là muộn/trễ. 'Lately' nghĩa là 'gần đây' — chúng có nghĩa hoàn toàn khác nhau."
         },
         {
           "id": 2,
@@ -532,7 +533,8 @@
             "C": "having"
           },
           "answer": "B",
-          "explanation": "With 'she' (third-person singular), the verb must be 'has', not 'have'."
+          "explanation": "With 'she' (third-person singular), the verb must be 'has', not 'have'.",
+          "explanation_vi": "Với 'she' (ngôi thứ ba số ít), động từ phải là 'has', không phải 'have'."
         },
         {
           "id": 3,
@@ -544,7 +546,8 @@
             "C": "busing"
           },
           "answer": "A",
-          "explanation": "'Busy' is the adjective needed to describe the school day. 'Busily' is an adverb."
+          "explanation": "'Busy' is the adjective needed to describe the school day. 'Busily' is an adverb.",
+          "explanation_vi": "'Busy' là adjective cần dùng để mô tả ngày học. 'Busily' là adverb."
         },
         {
           "id": 4,
@@ -556,7 +559,8 @@
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Use 'at' with specific times of day: 'at noon', 'at six o'clock'."
+          "explanation": "Use 'at' with specific times of day: 'at noon', 'at six o'clock'.",
+          "explanation_vi": "Sử dụng 'at' với các thời điểm cụ thể trong ngày: 'at noon', 'at six o'clock'."
         },
         {
           "id": 5,
@@ -568,7 +572,8 @@
             "C": "usually"
           },
           "answer": "C",
-          "explanation": "'Usually' (adverb) modifies the verb 'wakes up'. 'Usual' is an adjective, not an adverb."
+          "explanation": "'Usually' (adverb) modifies the verb 'wakes up'. 'Usual' is an adjective, not an adverb.",
+          "explanation_vi": "'Usually' (adverb) sửa đổi động từ 'wakes up'. 'Usual' là adjective, không phải adverb."
         }
       ]
     },

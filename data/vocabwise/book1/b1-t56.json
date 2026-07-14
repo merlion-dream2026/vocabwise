@@ -508,7 +508,8 @@
             "C": "alert"
           },
           "answer": "A",
-          "explanation": "'Alert' is a notification or warning — it is not a phone mode. When you want your phone to make no noise during a meeting, you put it on 'silent' mode."
+          "explanation": "'Alert' is a notification or warning — it is not a phone mode. When you want your phone to make no noise during a meeting, you put it on 'silent' mode.",
+          "explanation_vi": "'Alert' là một thông báo hoặc cảnh báo — nó không phải là một chế độ điện thoại. Khi bạn muốn điện thoại không phát âm thanh trong một cuộc họp, bạn đặt nó ở chế độ 'silent'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "voicemail"
           },
           "answer": "C",
-          "explanation": "A 'text' is a written message sent directly to someone's phone. When you call and no one answers, you can leave a recorded spoken message — this is called a 'voicemail'."
+          "explanation": "A 'text' is a written message sent directly to someone's phone. When you call and no one answers, you can leave a recorded spoken message — this is called a 'voicemail'.",
+          "explanation_vi": "Một 'text' là một tin nhắn viết được gửi trực tiếp đến điện thoại của ai đó. Khi bạn gọi và không có ai trả lời, bạn có thể để lại một tin nhắn thoại đã ghi âm — điều này được gọi là 'voicemail'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "network"
           },
           "answer": "B",
-          "explanation": "'Network' refers to the phone provider or system. The number of bars shown on a phone indicates the strength of the 'signal', not the network."
+          "explanation": "'Network' refers to the phone provider or system. The number of bars shown on a phone indicates the strength of the 'signal', not the network.",
+          "explanation_vi": "'Network' đề cập đến nhà cung cấp điện thoại hoặc hệ thống. Số lượng thanh hiển thị trên điện thoại cho biết cường độ của 'signal', không phải là mạng."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "hung up"
           },
           "answer": "C",
-          "explanation": "'Dialled' means you pressed numbers to start a call — not end one. When a conversation is finished and you end the call, you 'hang up'."
+          "explanation": "'Dialled' means you pressed numbers to start a call — not end one. When a conversation is finished and you end the call, you 'hang up'.",
+          "explanation_vi": "'Dialled' có nghĩa là bạn đã nhấn các số để bắt đầu một cuộc gọi — không phải để kết thúc. Khi một cuộc trò chuyện đã kết thúc và bạn kết thúc cuộc gọi, bạn 'hang up'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "silent mode"
           },
           "answer": "A",
-          "explanation": "'Busy' describes a phone line that is in use. When someone called you but you did not answer, what you see on your screen is a 'missed call', not a 'busy' notification."
+          "explanation": "'Busy' describes a phone line that is in use. When someone called you but you did not answer, what you see on your screen is a 'missed call', not a 'busy' notification.",
+          "explanation_vi": "'Busy' mô tả một đường dây điện thoại đang được sử dụng. Khi có người gọi cho bạn nhưng bạn không trả lời, những gì bạn thấy trên màn hình là 'missed call', không phải thông báo 'busy'."
         }
       ]
     },

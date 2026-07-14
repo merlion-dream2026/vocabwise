@@ -554,7 +554,8 @@
             "C": "astronaut"
           },
           "answer": "C",
-          "explanation": "An 'astronaut' is a person trained to travel to space; an 'astronomer' studies space from Earth using telescopes — they are two different professions."
+          "explanation": "An 'astronaut' is a person trained to travel to space; an 'astronomer' studies space from Earth using telescopes — they are two different professions.",
+          "explanation_vi": "'astronaut' là một người được đào tạo để du hành vào không gian; 'astronomer' nghiên cứu không gian từ Trái Đất bằng kính viễn vọng — họ là hai nghề khác nhau."
         },
         {
           "id": 2,
@@ -566,7 +567,8 @@
             "C": "ranger"
           },
           "answer": "B",
-          "explanation": "A 'rover' is the correct term for a robotic vehicle designed to travel across the surface of another planet; 'ranger' is not used for space vehicles."
+          "explanation": "A 'rover' is the correct term for a robotic vehicle designed to travel across the surface of another planet; 'ranger' is not used for space vehicles.",
+          "explanation_vi": "'rover' là thuật ngữ đúng cho một xe robot được thiết kế để di chuyển trên bề mặt của một hành tinh khác; 'ranger' không được dùng cho các phương tiện không gian."
         },
         {
           "id": 3,
@@ -578,7 +580,8 @@
             "C": "binoculars"
           },
           "answer": "A",
-          "explanation": "A 'telescope' is used to observe distant objects in space; 'binoculars' are handheld devices for viewing closer objects on Earth."
+          "explanation": "A 'telescope' is used to observe distant objects in space; 'binoculars' are handheld devices for viewing closer objects on Earth.",
+          "explanation_vi": "'telescope' được dùng để quan sát các vật thể xa trong không gian; 'binoculars' là các thiết bị cầm tay để xem các vật thể gần hơn trên Trái Đất."
         },
         {
           "id": 4,
@@ -590,7 +593,8 @@
             "C": "atmosphere"
           },
           "answer": "C",
-          "explanation": "'Atmosphere' is the layer of gases surrounding a planet; 'weather' describes short-term conditions and cannot be described as 'thin'."
+          "explanation": "'Atmosphere' is the layer of gases surrounding a planet; 'weather' describes short-term conditions and cannot be described as 'thin'.",
+          "explanation_vi": "'Atmosphere' là lớp khí bao quanh một hành tinh; 'weather' mô tả các điều kiện ngắn hạn và không thể được gọi là 'thin'."
         },
         {
           "id": 5,
@@ -602,7 +606,8 @@
             "C": "garbaging"
           },
           "answer": "B",
-          "explanation": "'Space debris' is the standard term for fragments of old or broken spacecraft. The other options do not function as the required noun phrase."
+          "explanation": "'Space debris' is the standard term for fragments of old or broken spacecraft. The other options do not function as the required noun phrase.",
+          "explanation_vi": "'Space debris' là thuật ngữ chuẩn cho các mảnh vụn của tàu vũ trụ cũ hoặc hỏng. Các lựa chọn khác không đáp ứng vai trò cụm danh từ cần thiết."
         }
       ]
     },

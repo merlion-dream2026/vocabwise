@@ -563,7 +563,8 @@
             "C": "advertising"
           },
           "answer": "B",
-          "explanation": "After 'hired to', use the base verb 'promote'."
+          "explanation": "After 'hired to', use the base verb 'promote'.",
+          "explanation_vi": "Sau 'hired to', dùng động từ gốc 'promote'."
         },
         {
           "id": 2,
@@ -575,7 +576,8 @@
             "C": "serial"
           },
           "answer": "A",
-          "explanation": "'Advertising campaign' is the standard noun phrase for a coordinated series of adverts."
+          "explanation": "'Advertising campaign' is the standard noun phrase for a coordinated series of adverts.",
+          "explanation_vi": "'Advertising campaign' là cụm danh từ chuẩn cho một chuỗi quảng cáo được phối hợp."
         },
         {
           "id": 3,
@@ -587,7 +589,8 @@
             "C": "mottoed"
           },
           "answer": "B",
-          "explanation": "'Tagline' is the singular noun for a short phrase consistently associated with a brand. The other options do not fit grammatically."
+          "explanation": "'Tagline' is the singular noun for a short phrase consistently associated with a brand. The other options do not fit grammatically.",
+          "explanation_vi": "'Tagline' là danh từ số ít cho một cụm ngắn luôn gắn liền với một thương hiệu. Các lựa chọn khác không phù hợp về mặt ngữ pháp."
         },
         {
           "id": 4,
@@ -599,7 +602,8 @@
             "C": "invest"
           },
           "answer": "B",
-          "explanation": "After 'willing to', use the base verb 'sponsor'. Sponsorship involves financial support in exchange for publicity."
+          "explanation": "After 'willing to', use the base verb 'sponsor'. Sponsorship involves financial support in exchange for publicity.",
+          "explanation_vi": "Sau 'willing to', dùng động từ gốc 'sponsor'. Sự tài trợ bao gồm hỗ trợ tài chính đổi lại bằng việc quảng bá."
         },
         {
           "id": 5,
@@ -611,7 +615,8 @@
             "C": "awareness"
           },
           "answer": "C",
-          "explanation": "'Brand awareness' is the standard marketing noun phrase. 'Aware' and 'popular' are adjectives, and 'recognise' is a verb."
+          "explanation": "'Brand awareness' is the standard marketing noun phrase. 'Aware' and 'popular' are adjectives, and 'recognise' is a verb.",
+          "explanation_vi": "'Brand awareness' là cụm danh từ chuẩn trong tiếp thị. 'Aware' và 'popular' là tính từ, và 'recognise' là động từ."
         }
       ]
     },

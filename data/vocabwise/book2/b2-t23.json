@@ -566,7 +566,8 @@
             "C": "supply"
           },
           "answer": "A",
-          "explanation": "After 'a major', a singular countable noun for the country is needed: 'exporter'."
+          "explanation": "After 'a major', a singular countable noun for the country is needed: 'exporter'.",
+          "explanation_vi": "Sau 'a major', cần một danh từ đếm được số ít cho quốc gia: 'exporter'."
         },
         {
           "id": 2,
@@ -578,7 +579,8 @@
             "C": "concluding"
           },
           "answer": "B",
-          "explanation": "After 'a trade', the noun 'agreement' is needed. The other options are verb forms."
+          "explanation": "After 'a trade', the noun 'agreement' is needed. The other options are verb forms.",
+          "explanation_vi": "Sau 'a trade', cần noun 'agreement'. Các lựa chọn khác là dạng động từ."
         },
         {
           "id": 3,
@@ -590,7 +592,8 @@
             "C": "penalise"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed after 'a trade': 'barrier'. The other options are verb forms."
+          "explanation": "A singular noun is needed after 'a trade': 'barrier'. The other options are verb forms.",
+          "explanation_vi": "Cần một singular noun sau 'a trade': 'barrier'. Các lựa chọn khác là dạng động từ."
         },
         {
           "id": 4,
@@ -602,7 +605,8 @@
             "C": "supply"
           },
           "answer": "A",
-          "explanation": "'Demand' is the economic noun for consumers' desire and ability to buy a product. 'Demanding' and 'needed' do not fit grammatically, while 'supply' contradicts the meaning."
+          "explanation": "'Demand' is the economic noun for consumers' desire and ability to buy a product. 'Demanding' and 'needed' do not fit grammatically, while 'supply' contradicts the meaning.",
+          "explanation_vi": "'Demand' là danh từ kinh tế cho mong muốn và khả năng mua một sản phẩm của người tiêu dùng. 'Demanding' và 'needed' không phù hợp về ngữ pháp, trong khi 'supply' mâu thuẫn với nghĩa."
         },
         {
           "id": 5,
@@ -614,7 +618,8 @@
             "C": "regulate"
           },
           "answer": "C",
-          "explanation": "After 'decided to', use the base verb 'regulate'. The other options are not base-form verbs."
+          "explanation": "After 'decided to', use the base verb 'regulate'. The other options are not base-form verbs.",
+          "explanation_vi": "Sau 'decided to', dùng động từ gốc 'regulate'. Các lựa chọn khác không phải là động từ dạng gốc."
         }
       ]
     },

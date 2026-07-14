@@ -509,7 +509,8 @@
             "C": "culpable"
           },
           "answer": "C",
-          "explanation": "An adjective is needed after 'personally' to describe the director — 'culpable', not the noun 'culpability'."
+          "explanation": "An adjective is needed after 'personally' to describe the director — 'culpable', not the noun 'culpability'.",
+          "explanation_vi": "Cần một adjective sau 'personally' để mô tả director — 'culpable', không phải noun 'culpability'."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "precede"
           },
           "answer": "A",
-          "explanation": "'Precedent' means a legal ruling that guides future cases; 'precedence' means priority or superiority — different meanings in legal contexts."
+          "explanation": "'Precedent' means a legal ruling that guides future cases; 'precedence' means priority or superiority — different meanings in legal contexts.",
+          "explanation_vi": "'Precedent' có nghĩa là một phán quyết pháp lý mà hướng dẫn các vụ án tương lai; 'precedence' có nghĩa là ưu tiên hoặc sự vượt trội — các nghĩa khác nhau trong bối cảnh pháp lý."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "deterrently"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify 'effect' — 'deterrent effect' is the correct collocation, not the verb 'deter'."
+          "explanation": "An adjective is needed to modify 'effect' — 'deterrent effect' is the correct collocation, not the verb 'deter'.",
+          "explanation_vi": "Cần một adjective để điều chỉnh 'effect' — 'deterrent effect' là cụm từ đúng, không phải verb 'deter'."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "judging"
           },
           "answer": "B",
-          "explanation": "After the indefinite article 'a', a singular noun is required: 'a verdict'. 'Verdicts' is plural and cannot follow 'a'."
+          "explanation": "After the indefinite article 'a', a singular noun is required: 'a verdict'. 'Verdicts' is plural and cannot follow 'a'.",
+          "explanation_vi": "Sau mạo từ không xác định 'a', cần một singular noun: 'a verdict'. 'Verdicts' là plural và không thể đứng sau 'a'."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "statistical"
           },
           "answer": "B",
-          "explanation": "'Statue' means a sculptural figure. 'Statute' means a formally enacted law — they sound nearly identical but have completely different meanings."
+          "explanation": "'Statue' means a sculptural figure. 'Statute' means a formally enacted law — they sound nearly identical but have completely different meanings.",
+          "explanation_vi": "'Statue' có nghĩa là một tượng điêu khắc. 'Statute' có nghĩa là một luật được ban hành chính thức — chúng nghe gần như giống nhau nhưng có nghĩa hoàn toàn khác nhau."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "biasedly"
           },
           "answer": "A",
-          "explanation": "After 'found to', use the base form of the verb: 'bias'."
+          "explanation": "After 'found to', use the base form of the verb: 'bias'.",
+          "explanation_vi": "Sau 'found to', dùng dạng gốc của động từ: 'bias'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "accountability"
           },
           "answer": "C",
-          "explanation": "A noun is required after the adjective 'sufficient' — 'accountability', not the verb or adjective form."
+          "explanation": "A noun is required after the adjective 'sufficient' — 'accountability', not the verb or adjective form.",
+          "explanation_vi": "Cần một noun sau tính từ 'sufficient' — 'accountability', không phải dạng verb hoặc adjective."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "surveilled"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the clause — 'surveillance', not the non-standard verb 'surveille'."
+          "explanation": "A noun is needed as the subject of the clause — 'surveillance', not the non-standard verb 'surveille'.",
+          "explanation_vi": "Cần một noun làm subject của clause — 'surveillance', không phải verb không chuẩn 'surveille'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "regulation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'calls for' — 'regulation', not the adjective 'regulatory'."
+          "explanation": "A noun is required as the object of 'calls for' — 'regulation', not the adjective 'regulatory'.",
+          "explanation_vi": "Cần một noun làm object của 'calls for' — 'regulation', không phải adjective 'regulatory'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "networking"
           },
           "answer": "A",
-          "explanation": "After the singular article 'A', use the singular noun 'network'. The singular verb 'processes' also agrees with 'network'."
+          "explanation": "After the singular article 'A', use the singular noun 'network'. The singular verb 'processes' also agrees with 'network'.",
+          "explanation_vi": "Sau article số ít 'A', dùng noun số ít 'network'. Verb số ít 'processes' cũng phù hợp với 'network'."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "glue"
           },
           "answer": "A",
-          "explanation": "'Glue' is used to stick things together, not to cut them. The tool you use to cut paper is 'scissors'."
+          "explanation": "'Glue' is used to stick things together, not to cut them. The tool you use to cut paper is 'scissors'.",
+          "explanation_vi": "‘Glue’ được dùng để dính các vật lại với nhau, không phải để cắt chúng. Dụng cụ bạn dùng để cắt giấy là ‘scissors’."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "sculptures"
           },
           "answer": "C",
-          "explanation": "A 'pattern' is a repeated decorative design. Objects made from clay that you display in a cabinet are 'sculptures' — three-dimensional artworks."
+          "explanation": "A 'pattern' is a repeated decorative design. Objects made from clay that you display in a cabinet are 'sculptures' — three-dimensional artworks.",
+          "explanation_vi": "‘pattern’ là một họa tiết trang trí lặp lại. Các vật thể làm bằng đất sét mà bạn trưng bày trong tủ là ‘sculptures’ — các tác phẩm nghệ thuật ba chiều."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "pattern"
           },
           "answer": "B",
-          "explanation": "An 'exhibit' is a public display of art, not a quick drawing. A quick drawing made to plan a painting is a 'sketch'."
+          "explanation": "An 'exhibit' is a public display of art, not a quick drawing. A quick drawing made to plan a painting is a 'sketch'.",
+          "explanation_vi": "‘exhibit’ là một buổi trưng bày công cộng của nghệ thuật, không phải là một bản vẽ nhanh. Một bản vẽ nhanh được thực hiện để lên kế hoạch cho một bức tranh là ‘sketch’."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "idea"
           },
           "answer": "C",
-          "explanation": "A 'sculpture' is a three-dimensional artwork, not a thought or plan. A plan or thought you have in your mind before making something is an 'idea'."
+          "explanation": "A 'sculpture' is a three-dimensional artwork, not a thought or plan. A plan or thought you have in your mind before making something is an 'idea'.",
+          "explanation_vi": "‘sculpture’ là một tác phẩm nghệ thuật ba chiều, không phải là một suy nghĩ hay kế hoạch. Một kế hoạch hoặc suy nghĩ bạn có trong đầu trước khi tạo ra một vật là ‘idea’."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "glued"
           },
           "answer": "B",
-          "explanation": "'Unfold' means to open something that was already folded — the opposite of what is needed. To make a shape from paper by bending it, you 'fold' the paper."
+          "explanation": "'Unfold' means to open something that was already folded — the opposite of what is needed. To make a shape from paper by bending it, you 'fold' the paper.",
+          "explanation_vi": "‘Unfold’ nghĩa là mở một vật đã được gập — ngược lại với những gì cần làm. Để tạo hình từ giấy bằng cách gập lại, bạn ‘fold’ giấy."
         }
       ]
     },

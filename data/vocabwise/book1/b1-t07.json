@@ -511,7 +511,8 @@
             "C": "winning"
           },
           "answer": "B",
-          "explanation": "The sentence describes a past event, so use the past simple form: 'won', not 'win'."
+          "explanation": "The sentence describes a past event, so use the past simple form: 'won', not 'win'.",
+          "explanation_vi": "Câu này mô tả một sự kiện quá khứ, vì vậy dùng dạng quá khứ đơn: 'won', không phải 'win'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "actively"
           },
           "answer": "A",
-          "explanation": "'Active' (adjective) is needed after the verb 'is'. 'Activity' is a noun, not an adjective."
+          "explanation": "'Active' (adjective) is needed after the verb 'is'. 'Activity' is a noun, not an adjective.",
+          "explanation_vi": "'Active' (adjective) cần sau động từ 'is'. 'Activity' là một noun, không phải là adjective."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "losing"
           },
           "answer": "B",
-          "explanation": "'Lost' is the past simple of 'lose' (thua). 'Loosed' is the past of the different verb 'loose', meaning to release or untie something."
+          "explanation": "'Lost' is the past simple of 'lose' (thua). 'Loosed' is the past of the different verb 'loose', meaning to release or untie something.",
+          "explanation_vi": "'Lost' là quá khứ đơn của 'lose' (thua). 'Loosed' là quá khứ của động từ khác 'loose', có nghĩa là giải phóng hoặc tháo buộc một vật gì đó."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "scoring"
           },
           "answer": "B",
-          "explanation": "'The score' (singular) is used when referring to the final result of a match. 'The scores' implies multiple separate results."
+          "explanation": "'The score' (singular) is used when referring to the final result of a match. 'The scores' implies multiple separate results.",
+          "explanation_vi": "'The score' (số ít) được dùng khi nói đến kết quả cuối cùng của một trận đấu. 'The scores' ngụ ý nhiều kết quả riêng biệt."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "running"
           },
           "answer": "A",
-          "explanation": "Third-person singular 'she' requires the verb to end in 's' in simple present tense: 'runs'."
+          "explanation": "Third-person singular 'she' requires the verb to end in 's' in simple present tense: 'runs'.",
+          "explanation_vi": "Ngôi thứ ba số ít 'she' yêu cầu động từ kết thúc bằng 's' trong thì hiện tại đơn: 'runs'."
         }
       ]
     },

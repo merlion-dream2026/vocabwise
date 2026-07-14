@@ -572,7 +572,8 @@
             "C": "tenant"
           },
           "answer": "A",
-          "explanation": "'Landlord' is the person who owns and rents out a property and is therefore responsible for major repairs; 'renter' and 'tenant' both refer to the person living in and paying for the property."
+          "explanation": "'Landlord' is the person who owns and rents out a property and is therefore responsible for major repairs; 'renter' and 'tenant' both refer to the person living in and paying for the property.",
+          "explanation_vi": "'Landlord' là người sở hữu và cho thuê một bất động sản, do đó chịu trách nhiệm về các sửa chữa lớn; 'renter' và 'tenant' đều chỉ người sống và trả tiền thuê cho bất động sản đó."
         },
         {
           "id": 2,
@@ -584,7 +585,8 @@
             "C": "contracting"
           },
           "answer": "B",
-          "explanation": "'Lease' is the singular noun for a formal, time-bound rental agreement."
+          "explanation": "'Lease' is the singular noun for a formal, time-bound rental agreement.",
+          "explanation_vi": "'Lease' là singular noun cho một hợp đồng thuê chính thức, có thời hạn."
         },
         {
           "id": 3,
@@ -596,7 +598,8 @@
             "C": "restoration"
           },
           "answer": "A",
-          "explanation": "After 'to', use the base verb 'renovate', meaning make major improvements to a property."
+          "explanation": "After 'to', use the base verb 'renovate', meaning make major improvements to a property.",
+          "explanation_vi": "Sau 'to', dùng động từ gốc 'renovate', có nghĩa là thực hiện các cải tiến lớn cho một bất động sản."
         },
         {
           "id": 4,
@@ -608,7 +611,8 @@
             "C": "prepayment"
           },
           "answer": "A",
-          "explanation": "'Deposit' is the standard British English noun for an initial sum paid to secure a property purchase. The other options do not fit naturally here."
+          "explanation": "'Deposit' is the standard British English noun for an initial sum paid to secure a property purchase. The other options do not fit naturally here.",
+          "explanation_vi": "'Deposit' là noun tiếng Anh Anh tiêu chuẩn chỉ một khoản tiền ban đầu được trả để bảo đảm việc mua bất động sản. Các lựa chọn khác không phù hợp tự nhiên ở đây."
         },
         {
           "id": 5,
@@ -620,7 +624,8 @@
             "C": "value"
           },
           "answer": "C",
-          "explanation": "'Value' is the correct word here — the sentence means that property prices in the area have gone up. 'Neighbourhood' and 'area' cannot replace 'value' in this context as they describe location, not price."
+          "explanation": "'Value' is the correct word here — the sentence means that property prices in the area have gone up. 'Neighbourhood' and 'area' cannot replace 'value' in this context as they describe location, not price.",
+          "explanation_vi": "'Value' là từ đúng ở đây — câu này có nghĩa là giá bất động sản trong khu vực đã tăng lên. 'Neighbourhood' và 'area' không thể thay thế 'value' trong ngữ cảnh này vì chúng mô tả vị trí, không phải giá."
         }
       ]
     },

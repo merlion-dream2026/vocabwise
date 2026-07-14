@@ -508,7 +508,8 @@
             "C": "loud"
           },
           "answer": "C",
-          "explanation": "'Peaceful' means calm and quiet — it describes the opposite of the problem. Music that stops people sleeping is 'loud', not peaceful."
+          "explanation": "'Peaceful' means calm and quiet — it describes the opposite of the problem. Music that stops people sleeping is 'loud', not peaceful.",
+          "explanation_vi": "'Peaceful' nghĩa là bình tĩnh và yên tĩnh — nó mô tả sự trái ngược với vấn đề. Nhạc khiến mọi người không ngủ được là 'loud', không phải bình yên."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "share"
           },
           "answer": "A",
-          "explanation": "'Borrow' means to take something from someone. When you give something to another person temporarily, you 'lend' it to them — not borrow it."
+          "explanation": "'Borrow' means to take something from someone. When you give something to another person temporarily, you 'lend' it to them — not borrow it.",
+          "explanation_vi": "'Borrow' nghĩa là lấy một vật gì đó từ người khác. Khi bạn cho một vật gì đó cho người khác tạm thời, bạn 'lend' nó cho họ — không mượn nó."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "dispute"
           },
           "answer": "C",
-          "explanation": "'Peace' means calm and harmony. A disagreement between two people about where to place a fence is a 'dispute', not peace."
+          "explanation": "'Peace' means calm and harmony. A disagreement between two people about where to place a fence is a 'dispute', not peace.",
+          "explanation_vi": "'Peace' nghĩa là bình tĩnh và hài hòa. Một sự bất đồng giữa hai người về vị trí đặt hàng rào là 'dispute', không phải hòa bình."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "shares"
           },
           "answer": "B",
-          "explanation": "'Argues' means to quarrel or disagree. The polite action of tapping on a door to ask for permission to enter is to 'knock', not argue."
+          "explanation": "'Argues' means to quarrel or disagree. The polite action of tapping on a door to ask for permission to enter is to 'knock', not argue.",
+          "explanation_vi": "'Argues' nghĩa là tranh cãi hoặc không đồng ý. Hành động lịch sự gõ cửa để xin phép vào là 'knock', không tranh cãi."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "dispute"
           },
           "answer": "A",
-          "explanation": "'Noise' means loud, unwanted sound — it is the opposite of calm. A quiet and relaxing Sunday morning is described as 'peace', not noise."
+          "explanation": "'Noise' means loud, unwanted sound — it is the opposite of calm. A quiet and relaxing Sunday morning is described as 'peace', not noise.",
+          "explanation_vi": "'Noise' nghĩa là âm thanh lớn, không mong muốn — nó là sự trái ngược với sự bình tĩnh. Một buổi sáng Chủ nhật yên tĩnh và thư giãn được mô tả là 'peace', không phải tiếng ồn."
         }
       ]
     },

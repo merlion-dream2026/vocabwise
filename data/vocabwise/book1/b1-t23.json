@@ -508,7 +508,8 @@
             "C": "tall"
           },
           "answer": "C",
-          "explanation": "'Short' means not very tall. Someone who plays basketball well and can easily reach the highest shelf must be 'tall', not short."
+          "explanation": "'Short' means not very tall. Someone who plays basketball well and can easily reach the highest shelf must be 'tall', not short.",
+          "explanation_vi": "'Short' có nghĩa là không cao. Người chơi bóng rổ giỏi và có thể dễ dàng với tới kệ cao nhất phải là 'tall', không phải thấp."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "face"
           },
           "answer": "A",
-          "explanation": "'Eye' is the part of the face used for seeing — it does not grow or reach the waist. Something long and dark that grows and reaches the waist is 'hair'."
+          "explanation": "'Eye' is the part of the face used for seeing — it does not grow or reach the waist. Something long and dark that grows and reaches the waist is 'hair'.",
+          "explanation_vi": "'Eye' là bộ phận trên khuôn mặt dùng để nhìn — nó không phát triển hay đạt tới eo. Điều gì đó dài và tối, phát triển và đạt tới eo là 'hair'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "tall"
           },
           "answer": "B",
-          "explanation": "'Young' describes age, not body weight. Someone who has lost a lot of weight and was previously heavy is now 'thin', not young."
+          "explanation": "'Young' describes age, not body weight. Someone who has lost a lot of weight and was previously heavy is now 'thin', not young.",
+          "explanation_vi": "'Young' mô tả độ tuổi, không phải cân nặng cơ thể. Người đã giảm rất nhiều cân và trước đây nặng giờ là 'thin', không phải trẻ."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "muscular"
           },
           "answer": "C",
-          "explanation": "'Thin' describes a narrow or lightly built body. Broad shoulders, huge arms, and a powerful build describe someone who is 'muscular', not thin or weak."
+          "explanation": "'Thin' describes a narrow or lightly built body. Broad shoulders, huge arms, and a powerful build describe someone who is 'muscular', not thin or weak.",
+          "explanation_vi": "'Thin' mô tả một cơ thể gầy hoặc nhẹ. Vai rộng, cánh tay to và vóc mạnh mô tả người là 'muscular', không phải gầy hay yếu."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "different"
           },
           "answer": "A",
-          "explanation": "'Different' means not the same. If two people share the same eyes, nose, and face shape, they look 'similar' — not different. The two ideas contradict each other."
+          "explanation": "'Different' means not the same. If two people share the same eyes, nose, and face shape, they look 'similar' — not different. The two ideas contradict each other.",
+          "explanation_vi": "'Different' có nghĩa là không giống nhau. Nếu hai người có cùng mắt, mũi và hình dạng khuôn mặt, họ trông 'similar' — không phải khác. Hai ý tưởng này mâu thuẫn nhau."
         }
       ]
     },

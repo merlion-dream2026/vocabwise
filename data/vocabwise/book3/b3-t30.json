@@ -504,7 +504,8 @@
             "C": "envisioning"
           },
           "answer": "A",
-          "explanation": "A noun is required as the object of 'Her' — 'vision', not the adjective 'visionary', which modifies a person or idea, not a possession."
+          "explanation": "A noun is required as the object of 'Her' — 'vision', not the adjective 'visionary', which modifies a person or idea, not a possession.",
+          "explanation_vi": "Cần một noun làm object của 'Her' — 'vision', không phải adjective 'visionary', vì adjective này bổ nghĩa cho một người hoặc ý tưởng, không phải cho một sự sở hữu."
         },
         {
           "id": 2,
@@ -516,7 +517,8 @@
             "C": "probing"
           },
           "answer": "B",
-          "explanation": "'Probity' means moral integrity — the correct word here; 'probate' is a legal term relating to wills and has no connection to ethical conduct."
+          "explanation": "'Probity' means moral integrity — the correct word here; 'probate' is a legal term relating to wills and has no connection to ethical conduct.",
+          "explanation_vi": "'Probity' nghĩa là sự toàn vẹn đạo đức — từ đúng ở đây; 'probate' là một thuật ngữ pháp lý liên quan đến di chúc và không có liên hệ nào với hành vi đạo đức."
         },
         {
           "id": 3,
@@ -528,7 +530,8 @@
             "C": "mobile"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject of the sentence — 'mobilisation', not the verb 'mobilise'."
+          "explanation": "A noun is required as the subject of the sentence — 'mobilisation', not the verb 'mobilise'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'mobilisation', không phải verb 'mobilise'."
         },
         {
           "id": 4,
@@ -540,7 +543,8 @@
             "C": "hold leaders in account"
           },
           "answer": "A",
-          "explanation": "The fixed collocation is 'hold someone accountable' using the adjective — 'accountably' (an adverb) does not fit this structure."
+          "explanation": "The fixed collocation is 'hold someone accountable' using the adjective — 'accountably' (an adverb) does not fit this structure.",
+          "explanation_vi": "Cụm từ cố định là 'hold someone accountable' — việc dùng adjective 'accountably' (một adverb) không phù hợp với cấu trúc này."
         },
         {
           "id": 5,
@@ -552,7 +556,8 @@
             "C": "empowered"
           },
           "answer": "B",
-          "explanation": "After 'aimed to', use the base form of the verb: 'empower'."
+          "explanation": "After 'aimed to', use the base form of the verb: 'empower'.",
+          "explanation_vi": "Sau 'aimed to', hãy dùng dạng gốc của verb: 'empower'."
         }
       ]
     },

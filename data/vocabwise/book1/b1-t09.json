@@ -508,7 +508,8 @@
             "C": "taking"
           },
           "answer": "A",
-          "explanation": "'Take' is an irregular verb: take → took (past simple). 'Taked' does not exist in English."
+          "explanation": "'Take' is an irregular verb: take → took (past simple). 'Taked' does not exist in English.",
+          "explanation_vi": "'Take' là một verb bất quy tắc: take → took (past simple). 'Taked' không tồn tại trong tiếng Anh."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "stations"
           },
           "answer": "B",
-          "explanation": "No apostrophe is needed here. 'The bus station' is simply a noun — it does not show possession."
+          "explanation": "No apostrophe is needed here. 'The bus station' is simply a noun — it does not show possession.",
+          "explanation_vi": "Không cần dấu nháy đơn ở đây. 'The bus station' chỉ là một noun — nó không biểu thị sự sở hữu."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "leaving"
           },
           "answer": "A",
-          "explanation": "The past simple of 'leave' is 'left'. 'Leaved' is not the standard past form of 'leave' in this meaning."
+          "explanation": "The past simple of 'leave' is 'left'. 'Leaved' is not the standard past form of 'leave' in this meaning.",
+          "explanation_vi": "Quá khứ đơn của 'leave' là 'left'. 'Leaved' không phải là dạng quá khứ chuẩn của 'leave' trong nghĩa này."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "ticket"
           },
           "answer": "C",
-          "explanation": "No apostrophe is needed. 'A ticket' is a noun without possession. 'A ticket's' is grammatically wrong here."
+          "explanation": "No apostrophe is needed. 'A ticket' is a noun without possession. 'A ticket's' is grammatically wrong here.",
+          "explanation_vi": "Không cần dấu nháy đơn. 'A ticket' là một noun không có sự sở hữu. 'A ticket's' là sai ngữ pháp ở đây."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "driving"
           },
           "answer": "B",
-          "explanation": "'Drive' is an irregular verb: drive → drove (past simple). 'Drived' does not exist in English."
+          "explanation": "'Drive' is an irregular verb: drive → drove (past simple). 'Drived' does not exist in English.",
+          "explanation_vi": "'Drive' là một verb bất quy tắc: drive → drove (past simple). 'Drived' không tồn tại trong tiếng Anh."
         }
       ]
     },

@@ -544,7 +544,8 @@
             "C": "evidently"
           },
           "answer": "B",
-          "explanation": "'Evidence' is the noun form needed here."
+          "explanation": "'Evidence' is the noun form needed here.",
+          "explanation_vi": "'Evidence' là dạng noun cần thiết ở đây."
         },
         {
           "id": 2,
@@ -556,7 +557,8 @@
             "C": "fraudulence"
           },
           "answer": "A",
-          "explanation": "'Fraud' is the noun — the name of the crime."
+          "explanation": "'Fraud' is the noun — the name of the crime.",
+          "explanation_vi": "'Fraud' là noun — tên của tội phạm."
         },
         {
           "id": 3,
@@ -568,7 +570,8 @@
             "C": "verdicts"
           },
           "answer": "B",
-          "explanation": "No possessive needed — 'verdict' is a simple noun here."
+          "explanation": "No possessive needed — 'verdict' is a simple noun here.",
+          "explanation_vi": "Không cần possessive — 'verdict' là noun đơn giản ở đây."
         },
         {
           "id": 4,
@@ -580,7 +583,8 @@
             "C": "enforcement"
           },
           "answer": "B",
-          "explanation": "After 'to', use the base form: to enforce."
+          "explanation": "After 'to', use the base form: to enforce.",
+          "explanation_vi": "Sau 'to', dùng dạng cơ bản: để thực thi."
         },
         {
           "id": 5,
@@ -592,7 +596,8 @@
             "C": "penalised"
           },
           "answer": "A",
-          "explanation": "'Penalty' is the noun — the punishment given."
+          "explanation": "'Penalty' is the noun — the punishment given.",
+          "explanation_vi": "'Penalty' là noun — hình phạt được đưa ra."
         }
       ]
     },

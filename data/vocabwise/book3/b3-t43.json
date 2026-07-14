@@ -511,7 +511,8 @@
             "C": "pragmatics"
           },
           "answer": "C",
-          "explanation": "The uncountable noun 'pragmatics' is the field of study required here; 'pragmatic' is an adjective and cannot serve as the subject complement after 'knowledge of'."
+          "explanation": "The uncountable noun 'pragmatics' is the field of study required here; 'pragmatic' is an adjective and cannot serve as the subject complement after 'knowledge of'.",
+          "explanation_vi": "Danh từ không đếm được 'pragmatics' là lĩnh vực nghiên cứu cần thiết ở đây; 'pragmatic' là adjective và không thể làm bổ ngữ chủ ngữ sau 'knowledge of'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "indirected"
           },
           "answer": "B",
-          "explanation": "A noun is required after the possessive determiner 'His' — 'indirectness'. 'Indirect' is an adjective."
+          "explanation": "A noun is required after the possessive determiner 'His' — 'indirectness'. 'Indirect' is an adjective.",
+          "explanation_vi": "Cần một noun sau possessive determiner 'His' — 'indirectness'. 'Indirect' là adjective."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "protocolling"
           },
           "answer": "A",
-          "explanation": "The noun 'protocol' is required in the phrase 'diplomatic protocol'. 'Protocolled' and 'protocolling' are verb forms."
+          "explanation": "The noun 'protocol' is required in the phrase 'diplomatic protocol'. 'Protocolled' and 'protocolling' are verb forms.",
+          "explanation_vi": "Noun 'protocol' là cần thiết trong cụm từ 'diplomatic protocol'. 'Protocolled' và 'protocolling' là dạng verb."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "adapt"
           },
           "answer": "C",
-          "explanation": "The verb 'adapt' fits the infinitive slot after 'capacity to'; 'stereotype' has the wrong meaning, and 'stereotyping' is a gerund that does not fit the structure."
+          "explanation": "The verb 'adapt' fits the infinitive slot after 'capacity to'; 'stereotype' has the wrong meaning, and 'stereotyping' is a gerund that does not fit the structure.",
+          "explanation_vi": "Verb 'adapt' phù hợp với vị trí infinitive sau 'capacity to'; 'stereotype' có nghĩa sai, và 'stereotyping' là gerund không phù hợp với cấu trúc."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "paralingual"
           },
           "answer": "A",
-          "explanation": "A noun is required as the object of 'interpret' — 'paralanguage'. 'Paralinguistic' and 'paralingual' are adjectives."
+          "explanation": "A noun is required as the object of 'interpret' — 'paralanguage'. 'Paralinguistic' and 'paralingual' are adjectives.",
+          "explanation_vi": "Cần một noun làm object của 'interpret' — 'paralanguage'. 'Paralinguistic' và 'paralingual' là adjective."
         }
       ]
     },

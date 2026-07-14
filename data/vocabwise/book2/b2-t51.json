@@ -581,7 +581,8 @@
             "C": "misleading"
           },
           "answer": "C",
-          "explanation": "An adjective is needed after 'be completely': 'misleading'. The other options are an adverb and a noun."
+          "explanation": "An adjective is needed after 'be completely': 'misleading'. The other options are an adverb and a noun.",
+          "explanation_vi": "Cần một tính từ sau 'be completely': 'misleading'. Các lựa chọn khác là một trạng từ và một danh từ."
         },
         {
           "id": 2,
@@ -593,7 +594,8 @@
             "C": "opinionated"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'a clear media': 'bias'."
+          "explanation": "A noun is needed after 'a clear media': 'bias'.",
+          "explanation_vi": "Cần một danh từ sau 'a clear media': 'bias'."
         },
         {
           "id": 3,
@@ -605,7 +607,8 @@
             "C": "revealed"
           },
           "answer": "C",
-          "explanation": "A past-tense verb is needed: 'revealed'."
+          "explanation": "A past-tense verb is needed: 'revealed'.",
+          "explanation_vi": "Cần một động từ ở thì quá khứ: 'revealed'."
         },
         {
           "id": 4,
@@ -617,7 +620,8 @@
             "C": "read"
           },
           "answer": "B",
-          "explanation": "After 'without', use the gerund 'verifying'."
+          "explanation": "After 'without', use the gerund 'verifying'.",
+          "explanation_vi": "Sau 'without', dùng dạng gerund 'xác minh'."
         },
         {
           "id": 5,
@@ -629,7 +633,8 @@
             "C": "awareness"
           },
           "answer": "C",
-          "explanation": "'Media awareness' is the noun phrase needed after 'building'."
+          "explanation": "'Media awareness' is the noun phrase needed after 'building'.",
+          "explanation_vi": "'Media awareness' là cụm danh từ cần sau 'building'."
         }
       ]
     },

@@ -550,7 +550,8 @@
             "C": "guessing"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed after 'a': 'hypothesis', meaning a testable scientific explanation or prediction."
+          "explanation": "A singular noun is needed after 'a': 'hypothesis', meaning a testable scientific explanation or prediction.",
+          "explanation_vi": "Cần một danh từ số ít sau 'a': 'hypothesis', nghĩa là một lời giải thích khoa học có thể kiểm chứng hoặc dự đoán."
         },
         {
           "id": 2,
@@ -562,7 +563,8 @@
             "C": "peer review"
           },
           "answer": "C",
-          "explanation": "'Peer review' is the noun for evaluation of research by specialists in the same field. The other options do not fit after 'through'."
+          "explanation": "'Peer review' is the noun for evaluation of research by specialists in the same field. The other options do not fit after 'through'.",
+          "explanation_vi": "'Peer review' là danh từ chỉ việc đánh giá nghiên cứu bởi các chuyên gia trong cùng lĩnh vực. Các lựa chọn khác không phù hợp sau 'through'."
         },
         {
           "id": 3,
@@ -574,7 +576,8 @@
             "C": "variation"
           },
           "answer": "A",
-          "explanation": "'Variable' is the scientific noun for a factor deliberately changed or measured in an experiment. 'Element' is less specific, and 'variation' does not name the controlled factor."
+          "explanation": "'Variable' is the scientific noun for a factor deliberately changed or measured in an experiment. 'Element' is less specific, and 'variation' does not name the controlled factor.",
+          "explanation_vi": "'Variable' là danh từ khoa học chỉ một yếu tố được thay đổi hoặc đo lường một cách có chủ đích trong thí nghiệm. 'Element' ít cụ thể hơn, và 'variation' không chỉ ra yếu tố được kiểm soát."
         },
         {
           "id": 4,
@@ -586,7 +589,8 @@
             "C": "copy"
           },
           "answer": "B",
-          "explanation": "'Replicate' is the base verb for repeating an experiment under the same conditions to verify results. 'Repetition' is a noun, and 'copy' is not the standard scientific verb here."
+          "explanation": "'Replicate' is the base verb for repeating an experiment under the same conditions to verify results. 'Repetition' is a noun, and 'copy' is not the standard scientific verb here.",
+          "explanation_vi": "'Replicate' là động từ gốc dùng để lặp lại một thí nghiệm dưới cùng điều kiện nhằm xác nhận kết quả. 'Repetition' là danh từ, và 'copy' không phải là động từ khoa học chuẩn ở đây."
         },
         {
           "id": 5,
@@ -598,7 +602,8 @@
             "C": "breakthrough"
           },
           "answer": "C",
-          "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented."
+          "explanation": "A 'breakthrough' is a sudden, major advance in understanding or knowledge; an 'invention' means creating something new — penicillin was discovered in nature, not invented.",
+          "explanation_vi": "'breakthrough' là một đột phá đột ngột, quan trọng trong việc hiểu biết hoặc tri thức; 'invention' có nghĩa là tạo ra một điều mới — penicillin được phát hiện trong tự nhiên, không phải được sáng chế."
         }
       ]
     },

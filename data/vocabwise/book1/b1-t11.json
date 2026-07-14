@@ -511,7 +511,8 @@
             "C": "wagging"
           },
           "answer": "B",
-          "explanation": "Third-person singular 'my dog' (she) requires the verb to end in 's' in simple present tense: 'wags'."
+          "explanation": "Third-person singular 'my dog' (she) requires the verb to end in 's' in simple present tense: 'wags'.",
+          "explanation_vi": "Ngôi thứ ba số ít 'my dog' (she) yêu cầu động từ kết thúc bằng 's' trong thì hiện tại đơn: 'wags'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "dangerousness"
           },
           "answer": "A",
-          "explanation": "After the verb 'are', use an adjective: 'dangerous'. 'Dangerously' is an adverb — it cannot describe a noun here."
+          "explanation": "After the verb 'are', use an adjective: 'dangerous'. 'Dangerously' is an adverb — it cannot describe a noun here.",
+          "explanation_vi": "Sau động từ 'are', dùng một adjective: 'dangerous'. 'Dangerously' là một adverb — nó không thể mô tả một noun ở đây."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "furry"
           },
           "answer": "B",
-          "explanation": "'Fur' is an uncountable noun — it does not take a plural form. 'Furs' is only used in certain specific contexts (e.g., fashion)."
+          "explanation": "'Fur' is an uncountable noun — it does not take a plural form. 'Furs' is only used in certain specific contexts (e.g., fashion).",
+          "explanation_vi": "'Fur' là một danh từ không đếm được — nó không có dạng số nhiều. 'Furs' chỉ được dùng trong một số ngữ cảnh cụ thể (ví dụ: thời trang)."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "gives"
           },
           "answer": "B",
-          "explanation": "'Give' is an irregular verb: give → gave (past simple). 'Gived' does not exist in English."
+          "explanation": "'Give' is an irregular verb: give → gave (past simple). 'Gived' does not exist in English.",
+          "explanation_vi": "'Give' là một verb bất quy tắc: give → gave (thì quá khứ đơn). 'Gived' không tồn tại trong tiếng Anh."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "a large cages"
           },
           "answer": "A",
-          "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here."
+          "explanation": "Multiple animals at the zoo live in multiple enclosures. 'Large cages' (plural) is the correct form here.",
+          "explanation_vi": "Nhiều động vật ở sở thú sống trong nhiều chuồng. 'Large cages' (số nhiều) là dạng đúng ở đây."
         }
       ]
     },

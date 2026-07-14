@@ -565,7 +565,8 @@
             "C": "supportive"
           },
           "answer": "A",
-          "explanation": "After 'to', use the base verb 'protect'."
+          "explanation": "After 'to', use the base verb 'protect'.",
+          "explanation_vi": "Sau 'to', dùng động từ nguyên mẫu 'protect'."
         },
         {
           "id": 2,
@@ -577,7 +578,8 @@
             "C": "authoritative"
           },
           "answer": "A",
-          "explanation": "'Freedom of speech' is the fixed expression for the right to express opinions. The other options do not form this phrase."
+          "explanation": "'Freedom of speech' is the fixed expression for the right to express opinions. The other options do not form this phrase.",
+          "explanation_vi": "'Freedom of speech' là cụm từ cố định chỉ quyền tự do bày tỏ quan điểm. Các lựa chọn khác không tạo thành cụm này."
         },
         {
           "id": 3,
@@ -589,7 +591,8 @@
             "C": "given"
           },
           "answer": "A",
-          "explanation": "'Paid fairly' means receiving fair wages for work. 'Are be treated' is ungrammatical, and 'given fairly' does not express payment."
+          "explanation": "'Paid fairly' means receiving fair wages for work. 'Are be treated' is ungrammatical, and 'given fairly' does not express payment.",
+          "explanation_vi": "'Paid fairly' có nghĩa là nhận lương công bằng cho công việc. 'Are be treated' không đúng ngữ pháp, và 'given fairly' không diễn đạt việc trả tiền."
         },
         {
           "id": 4,
@@ -601,7 +604,8 @@
             "C": "equally treatment"
           },
           "answer": "A",
-          "explanation": "After 'for', the noun 'equality' is needed. The other options are grammatically incorrect."
+          "explanation": "After 'for', the noun 'equality' is needed. The other options are grammatically incorrect.",
+          "explanation_vi": "Sau 'for', cần danh từ 'equality'. Các lựa chọn khác sai về ngữ pháp."
         },
         {
           "id": 5,
@@ -613,7 +617,8 @@
             "C": "to alls"
           },
           "answer": "A",
-          "explanation": "An adverb is needed before 'available': 'universally'. The other options are incomplete or ungrammatical."
+          "explanation": "An adverb is needed before 'available': 'universally'. The other options are incomplete or ungrammatical.",
+          "explanation_vi": "Cần một trạng từ trước 'available': 'universally'. Các lựa chọn khác không đầy đủ hoặc không đúng ngữ pháp."
         }
       ]
     },

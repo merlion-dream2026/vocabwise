@@ -512,7 +512,8 @@
             "C": "persevering"
           },
           "answer": "B",
-          "explanation": "'Perseverance' is the subject noun here — no possessive apostrophe is needed."
+          "explanation": "'Perseverance' is the subject noun here — no possessive apostrophe is needed.",
+          "explanation_vi": "'Perseverance' là danh từ subject ở đây — không cần dấu nháy đơn."
         },
         {
           "id": 2,
@@ -524,7 +525,8 @@
             "C": "ignore"
           },
           "answer": "B",
-          "explanation": "'Uphold' means to maintain and protect a standard. A governing body has a duty to uphold sporting integrity, not undermine it."
+          "explanation": "'Uphold' means to maintain and protect a standard. A governing body has a duty to uphold sporting integrity, not undermine it.",
+          "explanation_vi": "'Uphold' có nghĩa là duy trì và bảo vệ một tiêu chuẩn. Một cơ quan quản lý có nhiệm vụ uphold tính toàn vẹn thể thao, không làm suy yếu nó."
         },
         {
           "id": 3,
@@ -536,7 +538,8 @@
             "C": "endurance"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'physical' — 'endurance' is the correct noun form; 'endure' is a verb."
+          "explanation": "A noun is needed after 'physical' — 'endurance' is the correct noun form; 'endure' is a verb.",
+          "explanation_vi": "Cần một noun sau 'physical' — 'endurance' là dạng noun đúng; 'endure' là một verb."
         },
         {
           "id": 4,
@@ -548,7 +551,8 @@
             "C": "spectacular"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'such a' — 'spectacle' is the noun form; 'spectacularly' is an adverb."
+          "explanation": "A noun is required after 'such a' — 'spectacle' is the noun form; 'spectacularly' is an adverb.",
+          "explanation_vi": "Cần một noun sau 'such a' — 'spectacle' là dạng noun; 'spectacularly' là một adverb."
         },
         {
           "id": 5,
@@ -560,7 +564,8 @@
             "C": "amateur"
           },
           "answer": "C",
-          "explanation": "'Amateur' describes a player who competes for recreation rather than payment. 'Professional' contradicts the statement that the players receive no payment, while 'rival' does not describe their status."
+          "explanation": "'Amateur' describes a player who competes for recreation rather than payment. 'Professional' contradicts the statement that the players receive no payment, while 'rival' does not describe their status.",
+          "explanation_vi": "'Amateur' mô tả một người chơi thi đấu vì giải trí thay vì nhận tiền. 'Professional' mâu thuẫn với tuyên bố rằng các người chơi không nhận tiền, trong khi 'rival' không mô tả trạng thái của họ."
         }
       ]
     },

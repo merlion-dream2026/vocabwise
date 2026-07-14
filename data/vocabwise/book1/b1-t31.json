@@ -511,7 +511,8 @@
             "C": "board"
           },
           "answer": "C",
-          "explanation": "A 'corridor' is a passageway connecting rooms — you cannot write on it. Teachers write on the 'board' at the front of the classroom for students to see and copy."
+          "explanation": "A 'corridor' is a passageway connecting rooms — you cannot write on it. Teachers write on the 'board' at the front of the classroom for students to see and copy.",
+          "explanation_vi": "Một 'corridor' là lối đi nối các phòng — bạn không thể viết lên nó. Giáo viên viết trên 'board' ở phía trước lớp để học sinh nhìn và sao chép."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "desk"
           },
           "answer": "B",
-          "explanation": "A gate is an entrance, not something that rings. The word 'bell' signals the end of a lesson or the start of lunchtime."
+          "explanation": "A gate is an entrance, not something that rings. The word 'bell' signals the end of a lesson or the start of lunchtime.",
+          "explanation_vi": "Cổng là một lối vào, không phải là thứ có thể vang lên. Từ 'bell' báo hiệu kết thúc một buổi học hoặc bắt đầu giờ ăn trưa."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "timetable"
           },
           "answer": "A",
-          "explanation": "A 'timetable' is a chart showing lesson times, so it cannot be worn. The set of clothes that students must wear at school is called a 'uniform'."
+          "explanation": "A 'timetable' is a chart showing lesson times, so it cannot be worn. The set of clothes that students must wear at school is called a 'uniform'.",
+          "explanation_vi": "Một 'timetable' là bảng biểu hiển thị thời gian các buổi học, vì vậy không thể mặc được. Bộ trang phục mà học sinh phải mặc ở trường được gọi là 'uniform'."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "pencil"
           },
           "answer": "C",
-          "explanation": "A 'pen' uses ink and does not need to be sharpened. A 'pencil' has a wooden tip that wears down and needs to be sharpened to write neatly."
+          "explanation": "A 'pen' uses ink and does not need to be sharpened. A 'pencil' has a wooden tip that wears down and needs to be sharpened to write neatly.",
+          "explanation_vi": "Một 'pen' dùng mực và không cần được mài. Một 'pencil' có đầu bằng gỗ mòn và cần được mài để viết gọn gàng."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "gate"
           },
           "answer": "A",
-          "explanation": "A 'desk' is a piece of furniture for studying — students sit at it, they do not 'go outside during' it. The correct word is 'break', which is the short rest period between lessons."
+          "explanation": "A 'desk' is a piece of furniture for studying — students sit at it, they do not 'go outside during' it. The correct word is 'break', which is the short rest period between lessons.",
+          "explanation_vi": "Một 'desk' là một món nội thất dùng để học tập — học sinh ngồi vào nó, họ không ra ngoài trong khi sử dụng nó. Từ đúng là 'break', đó là khoảng nghỉ ngắn giữa các buổi học."
         }
       ]
     },

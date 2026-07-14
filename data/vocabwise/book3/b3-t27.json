@@ -505,7 +505,8 @@
             "C": "deprive"
           },
           "answer": "A",
-          "explanation": "A noun is required after the preposition 'of' — 'generations of deprivation'. 'Depriving' is a gerund or participle."
+          "explanation": "A noun is required after the preposition 'of' — 'generations of deprivation'. 'Depriving' is a gerund or participle.",
+          "explanation_vi": "Cần một noun sau giới từ 'of' — 'generations of deprivation'. 'Depriving' là một gerund hoặc dạng phân từ."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "disenfranchising"
           },
           "answer": "B",
-          "explanation": "A past-participial adjective is needed to modify 'voters' — 'disenfranchised voters'. 'Disenfranchisement' is a noun."
+          "explanation": "A past-participial adjective is needed to modify 'voters' — 'disenfranchised voters'. 'Disenfranchisement' is a noun.",
+          "explanation_vi": "Cần một tính từ dạng past participle để biến đổi 'voters' — 'disenfranchised voters'. 'Disenfranchisement' là một noun."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "systemic"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify 'barriers' — 'systemic', meaning embedded throughout a system. 'Systematically' and 'systemically' are adverbs."
+          "explanation": "An adjective is needed to modify 'barriers' — 'systemic', meaning embedded throughout a system. 'Systematically' and 'systemically' are adverbs.",
+          "explanation_vi": "Cần một adjective để biến đổi 'barriers' — 'systemic', có nghĩa là được nhúng xuyên suốt một hệ thống. 'Systematically' và 'systemically' là adverb."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "empowered"
           },
           "answer": "B",
-          "explanation": "After 'to' as an infinitive marker, the base form of the verb is required — 'empower', not the noun 'empowerment'."
+          "explanation": "After 'to' as an infinitive marker, the base form of the verb is required — 'empower', not the noun 'empowerment'.",
+          "explanation_vi": "Sau 'to' như một infinitive marker, dạng gốc của verb phải được dùng — 'empower', không phải noun 'empowerment'."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "marginalisation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of 'has been criticised' — 'marginalisation', not the verb 'marginalise'."
+          "explanation": "A noun is required as the subject of 'has been criticised' — 'marginalisation', not the verb 'marginalise'.",
+          "explanation_vi": "Cần một noun làm subject của 'đã bị chỉ trích' — 'marginalisation', không phải verb 'marginalise'."
         }
       ]
     },

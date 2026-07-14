@@ -508,7 +508,8 @@
             "C": "boil"
           },
           "answer": "C",
-          "explanation": "'Bake' means to cook in an oven using dry heat. Eggs cooked in boiling water are not baked — they are 'boiled'."
+          "explanation": "'Bake' means to cook in an oven using dry heat. Eggs cooked in boiling water are not baked — they are 'boiled'.",
+          "explanation_vi": "'Bake' nghĩa là nấu trong lò bằng nhiệt khô. Trứng được nấu trong nước sôi không phải là 'baked' — chúng là 'boiled'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "step"
           },
           "answer": "A",
-          "explanation": "A 'recipe' is a set of instructions for cooking. The word that refers to how much of something you use is 'amount'."
+          "explanation": "A 'recipe' is a set of instructions for cooking. The word that refers to how much of something you use is 'amount'.",
+          "explanation_vi": "'recipe' là một bộ hướng dẫn nấu ăn. Từ chỉ lượng mà bạn dùng là 'amount'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "heat"
           },
           "answer": "C",
-          "explanation": "You do not boil oil — you heat it. 'Boil' is used for water or liquid. The correct word here is 'heat'."
+          "explanation": "You do not boil oil — you heat it. 'Boil' is used for water or liquid. The correct word here is 'heat'.",
+          "explanation_vi": "Bạn không 'boil' dầu — bạn 'heat' nó. 'Boil' chỉ dùng cho nước hoặc chất lỏng. Từ đúng ở đây là 'heat'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "steps"
           },
           "answer": "B",
-          "explanation": "'Utensils' are kitchen tools such as spoons and pans. Eggs, flour, and milk are foods used in cooking — they are 'ingredients'."
+          "explanation": "'Utensils' are kitchen tools such as spoons and pans. Eggs, flour, and milk are foods used in cooking — they are 'ingredients'.",
+          "explanation_vi": "'Utensils' là các dụng cụ nhà bếp như muỗng và chảo. Trứng, bột và sữa là thực phẩm dùng trong nấu ăn — chúng là 'ingredients'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "serve"
           },
           "answer": "C",
-          "explanation": "A waiter brings food to the table — this action is called 'serve'. 'Prepare' means to get something ready, which happens in the kitchen before the waiter arrives."
+          "explanation": "A waiter brings food to the table — this action is called 'serve'. 'Prepare' means to get something ready, which happens in the kitchen before the waiter arrives.",
+          "explanation_vi": "Một nhân viên phục vụ mang đồ ăn tới bàn — hành động này gọi là 'serve'. 'Prepare' nghĩa là chuẩn bị, việc này diễn ra trong bếp trước khi nhân viên phục vụ đến."
         }
       ]
     },

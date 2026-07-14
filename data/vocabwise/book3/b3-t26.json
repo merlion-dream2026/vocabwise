@@ -509,7 +509,8 @@
             "C": "accounting"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'accept' — 'accountability', not the adjective 'accountable'."
+          "explanation": "A noun is required after 'accept' — 'accountability', not the adjective 'accountable'.",
+          "explanation_vi": "Cần một noun sau 'accept' — 'accountability', không phải adjective 'accountable'."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "legislative"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'legislation', not the verb 'legislate'."
+          "explanation": "A noun is needed as the subject of the sentence — 'legislation', not the verb 'legislate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'legislation', không phải verb 'legislate'."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "misinformation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'misinformation', not the adjective 'misinformed'."
+          "explanation": "A noun is required as the subject of the sentence — 'misinformation', not the adjective 'misinformed'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'misinformation', không phải adjective 'misinformed'."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "populist"
           },
           "answer": "C",
-          "explanation": "'Populism' is a noun — it cannot directly modify a noun like 'rhetoric'. The adjective form 'populist' is needed to describe the style of rhetoric."
+          "explanation": "'Populism' is a noun — it cannot directly modify a noun like 'rhetoric'. The adjective form 'populist' is needed to describe the style of rhetoric.",
+          "explanation_vi": "'Populism' là một noun — nó không thể trực tiếp biến đổi một noun như 'rhetoric'. Cần adjective 'populist' để miêu tả phong cách của rhetoric."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "fragmented"
           },
           "answer": "A",
-          "explanation": "A noun is needed as the subject of the sentence — 'fragmentation', not the bare verb 'fragment'."
+          "explanation": "A noun is needed as the subject of the sentence — 'fragmentation', not the bare verb 'fragment'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'fragmentation', không phải verb 'fragment' ở dạng nguyên mẫu."
         }
       ]
     },

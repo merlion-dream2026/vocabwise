@@ -508,7 +508,8 @@
             "C": "task"
           },
           "answer": "B",
-          "explanation": "'Work' refers to the activity or effort a person does, not the money received. The regular money you earn each month is your 'salary'."
+          "explanation": "'Work' refers to the activity or effort a person does, not the money received. The regular money you earn each month is your 'salary'.",
+          "explanation_vi": "'Work' đề cập đến hoạt động hoặc nỗ lực mà một người thực hiện, không phải là tiền nhận được. Số tiền thường xuyên bạn kiếm được mỗi tháng là 'salary'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "seatbelt"
           },
           "answer": "C",
-          "explanation": "Before driving, a person puts on a 'seatbelt' for safety. 'Uniformly' is an adverb and cannot name something worn, while an 'apron' is used mainly when cooking."
+          "explanation": "Before driving, a person puts on a 'seatbelt' for safety. 'Uniformly' is an adverb and cannot name something worn, while an 'apron' is used mainly when cooking.",
+          "explanation_vi": "Trước khi lái xe, một người đeo 'seatbelt' để đảm bảo an toàn. 'Uniformly' là một adverb và không thể dùng để chỉ một vật mặc, trong khi 'apron' chủ yếu được dùng khi nấu ăn."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "tiredness"
           },
           "answer": "B",
-          "explanation": "'Tiring' describes something that causes tiredness (e.g., 'a tiring day'). To describe how a person feels, use 'tired': 'She was tired.'"
+          "explanation": "'Tiring' describes something that causes tiredness (e.g., 'a tiring day'). To describe how a person feels, use 'tired': 'She was tired.'",
+          "explanation_vi": "'Tiring' mô tả một điều gì đó gây ra cảm giác mệt mỏi (ví dụ, 'a tiring day'). Để mô tả cảm giác của một người, dùng 'tired': 'She was tired.'"
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "shift"
           },
           "answer": "A",
-          "explanation": "'Salary' is the money you earn. The specific work you need to do each morning is a 'task'."
+          "explanation": "'Salary' is the money you earn. The specific work you need to do each morning is a 'task'.",
+          "explanation_vi": "'Salary' là số tiền bạn kiếm được. Công việc cụ thể mà bạn cần thực hiện mỗi sáng là 'task'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "meeting"
           },
           "answer": "C",
-          "explanation": "'Work' and 'job' refer to the activity or position, not a gathering. When all staff attend and the boss speaks, that is a 'meeting'."
+          "explanation": "'Work' and 'job' refer to the activity or position, not a gathering. When all staff attend and the boss speaks, that is a 'meeting'.",
+          "explanation_vi": "'Work' và 'job' đề cập đến hoạt động hoặc vị trí, không phải một buổi họp. Khi toàn bộ nhân viên tham dự và sếp nói, đó là 'meeting'."
         }
       ]
     },

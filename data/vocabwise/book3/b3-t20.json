@@ -505,7 +505,8 @@
             "C": "emission"
           },
           "answer": "A",
-          "explanation": "The collocation is 'implement mitigation strategies'; 'emit' means to release gases and cannot collocate with 'mitigation strategies'."
+          "explanation": "The collocation is 'implement mitigation strategies'; 'emit' means to release gases and cannot collocate with 'mitigation strategies'.",
+          "explanation_vi": "Cụm từ đúng là 'implement mitigation strategies'; 'emit' có nghĩa là giải phóng khí và không thể kết hợp với 'mitigation strategies'."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "biodiversified"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'biodiversity', not the invented form 'biodiversify'."
+          "explanation": "A noun is required as the subject of the sentence — 'biodiversity', not the invented form 'biodiversify'.",
+          "explanation_vi": "Câu cần một noun làm subject — 'biodiversity', không phải dạng tự tạo 'biodiversify'."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "reach"
           },
           "answer": "C",
-          "explanation": "In time clauses with 'once', use the present simple verb form: 'once we reach', not 'once we reaching' (which is grammatically incorrect)."
+          "explanation": "In time clauses with 'once', use the present simple verb form: 'once we reach', not 'once we reaching' (which is grammatically incorrect).",
+          "explanation_vi": "Trong các mệnh đề thời gian có 'once', dùng dạng verb ở present simple: 'once we reach', không phải 'once we reaching' (đúng là sai về mặt ngữ pháp)."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "footnote"
           },
           "answer": "A",
-          "explanation": "The correct compound noun is 'carbon footprint' — a measure of environmental impact; 'footstep' refers to the sound or mark of walking."
+          "explanation": "The correct compound noun is 'carbon footprint' — a measure of environmental impact; 'footstep' refers to the sound or mark of walking.",
+          "explanation_vi": "Danh từ ghép đúng là 'carbon footprint' — một đo lường của tác động môi trường; 'footstep' chỉ âm thanh hoặc dấu vết của việc đi bộ."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "sustain"
           },
           "answer": "C",
-          "explanation": "A present-tense verb is required in the relative clause — 'sustain their environmental commitments'. 'Sustainable' is an adjective."
+          "explanation": "A present-tense verb is required in the relative clause — 'sustain their environmental commitments'. 'Sustainable' is an adjective.",
+          "explanation_vi": "Cần một verb ở thì hiện tại trong mệnh đề quan hệ — 'sustain their environmental commitments'. 'Sustainable' là một adjective."
         }
       ]
     },

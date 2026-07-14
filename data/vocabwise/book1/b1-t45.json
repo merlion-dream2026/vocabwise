@@ -508,7 +508,8 @@
             "C": "fire"
           },
           "answer": "A",
-          "explanation": "'Fire' is a dangerous blaze, not a person or service you call for road injuries. When someone is hurt on the road, you should call the 'police' (or ambulance)."
+          "explanation": "'Fire' is a dangerous blaze, not a person or service you call for road injuries. When someone is hurt on the road, you should call the 'police' (or ambulance).",
+          "explanation_vi": "'Fire' là một ngọn lửa nguy hiểm, không phải là một người hay dịch vụ bạn gọi khi có chấn thương trên đường. Khi ai đó bị thương trên đường, bạn nên gọi 'police' (hoặc xe cứu thương)."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "hazard"
           },
           "answer": "C",
-          "explanation": "'Rescue' means saving someone from danger — it cannot describe a slippery substance. Spilled oil on a floor is a 'hazard' — something that makes a place dangerous."
+          "explanation": "'Rescue' means saving someone from danger — it cannot describe a slippery substance. Spilled oil on a floor is a 'hazard' — something that makes a place dangerous.",
+          "explanation_vi": "'Rescue' có nghĩa là cứu người khỏi nguy hiểm — không thể dùng để mô tả một chất trơn trượt. Dầu đổ trên sàn là một 'hazard' — một thứ làm cho nơi đó trở nên nguy hiểm."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "escaped"
           },
           "answer": "B",
-          "explanation": "'Escaped' means got away from danger. When a dog attacks someone and its teeth break the skin, we say it 'bit' them — the past tense of 'bite'."
+          "explanation": "'Escaped' means got away from danger. When a dog attacks someone and its teeth break the skin, we say it 'bit' them — the past tense of 'bite'.",
+          "explanation_vi": "'Escaped' có nghĩa là thoát khỏi nguy hiểm. Khi một con chó tấn công ai đó và răng của nó làm rách da, chúng ta nói nó 'bit' họ — thì quá khứ của 'bite'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "hurt"
           },
           "answer": "C",
-          "explanation": "'Alerted' means warned someone about danger. When you trip and injure a body part, you 'hurt' it — the correct verb for physical injury."
+          "explanation": "'Alerted' means warned someone about danger. When you trip and injure a body part, you 'hurt' it — the correct verb for physical injury.",
+          "explanation_vi": "'Alerted' có nghĩa là cảnh báo ai đó về nguy hiểm. Khi bạn vấp và làm thương một bộ phận cơ thể, bạn 'hurt' nó — động từ đúng cho chấn thương vật lý."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "escape"
           },
           "answer": "C",
-          "explanation": "'Fall' means to drop to a lower position — it does not describe getting out of a dangerous place. When people leave a burning building quickly to reach safety, they 'escape'."
+          "explanation": "'Fall' means to drop to a lower position — it does not describe getting out of a dangerous place. When people leave a burning building quickly to reach safety, they 'escape'.",
+          "explanation_vi": "'Fall' có nghĩa là rơi xuống vị trí thấp hơn — không mô tả việc ra khỏi một nơi nguy hiểm. Khi mọi người rời một tòa nhà đang cháy nhanh chóng để đến nơi an toàn, họ 'escape'."
         }
       ]
     },

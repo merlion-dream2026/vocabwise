@@ -507,7 +507,8 @@
             "C": "narrative"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'narrative', not the verb 'narrate'."
+          "explanation": "A noun is needed as the subject of the sentence — 'narrative', not the verb 'narrate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'narrative', không phải verb 'narrate'."
         },
         {
           "id": 2,
@@ -519,7 +520,8 @@
             "C": "archivist"
           },
           "answer": "A",
-          "explanation": "The adjective 'archival' is required to modify 'documents'. 'Archivist' refers to a person, while 'archiving' names an activity."
+          "explanation": "The adjective 'archival' is required to modify 'documents'. 'Archivist' refers to a person, while 'archiving' names an activity.",
+          "explanation_vi": "Cần adjective 'archival' để bổ trợ 'documents'. 'Archivist' chỉ một người, trong khi 'archiving' chỉ một hoạt động."
         },
         {
           "id": 3,
@@ -531,7 +533,8 @@
             "C": "historiography"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'study of' — 'historiography', not the adjective 'historiographical'."
+          "explanation": "A noun is required as the object of 'study of' — 'historiography', not the adjective 'historiographical'.",
+          "explanation_vi": "Cần một noun làm object của 'study of' — 'historiography', không phải adjective 'historiographical'."
         },
         {
           "id": 4,
@@ -543,7 +546,8 @@
             "C": "commemorative"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the adjective 'annual' to serve as the subject — 'commemoration', not the verb 'commemorate'."
+          "explanation": "A noun is needed after the adjective 'annual' to serve as the subject — 'commemoration', not the verb 'commemorate'.",
+          "explanation_vi": "Cần một noun sau adjective 'annual' để làm subject — 'commemoration', không phải verb 'commemorate'."
         },
         {
           "id": 5,
@@ -555,7 +559,8 @@
             "C": "interpretation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of the verb 'debate' — 'interpretation', not the verb 'interpret'."
+          "explanation": "A noun is required as the object of the verb 'debate' — 'interpretation', not the verb 'interpret'.",
+          "explanation_vi": "Cần một noun làm object của verb 'debate' — 'interpretation', không phải verb 'interpret'."
         }
       ]
     },

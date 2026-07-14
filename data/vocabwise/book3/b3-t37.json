@@ -502,7 +502,8 @@
             "C": "provocatively"
           },
           "answer": "A",
-          "explanation": "A noun is required after the possessive 'work's deliberate' to serve as the subject — 'provocation', not the adjective 'provocative'."
+          "explanation": "A noun is required after the possessive 'work's deliberate' to serve as the subject — 'provocation', not the adjective 'provocative'.",
+          "explanation_vi": "Cần một noun sau possessive 'work's deliberate' để làm subject — 'provocation', không phải adjective 'provocative'."
         },
         {
           "id": 2,
@@ -514,7 +515,8 @@
             "C": "abstraction"
           },
           "answer": "C",
-          "explanation": "A noun is needed between 'the tension between' and 'and' — 'abstraction', not the adjective 'abstract'."
+          "explanation": "A noun is needed between 'the tension between' and 'and' — 'abstraction', not the adjective 'abstract'.",
+          "explanation_vi": "Cần một noun giữa 'the tension between' và 'and' — 'abstraction', không phải adjective 'abstract'."
         },
         {
           "id": 3,
@@ -526,7 +528,8 @@
             "C": "patronage"
           },
           "answer": "C",
-          "explanation": "The noun 'patronage' is required as the subject of the sentence; 'patronise' is a verb and cannot function here."
+          "explanation": "The noun 'patronage' is required as the subject of the sentence; 'patronise' is a verb and cannot function here.",
+          "explanation_vi": "Cần noun 'patronage' làm subject của câu; 'patronise' là verb và không thể hoạt động ở đây."
         },
         {
           "id": 4,
@@ -538,7 +541,8 @@
             "C": "interpreted"
           },
           "answer": "B",
-          "explanation": "After the possessive pronoun 'their', a noun is required — 'interpretation', not the bare verb 'interpret'."
+          "explanation": "After the possessive pronoun 'their', a noun is required — 'interpretation', not the bare verb 'interpret'.",
+          "explanation_vi": "Sau possessive pronoun 'their', cần một noun — 'interpretation', không phải verb không có đối tượng 'interpret'."
         },
         {
           "id": 5,
@@ -550,7 +554,8 @@
             "C": "canonical"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify the noun 'works' — 'canonical', not the adverb 'canonically'."
+          "explanation": "An adjective is needed to modify the noun 'works' — 'canonical', not the adverb 'canonically'.",
+          "explanation_vi": "Cần adjective để điều chỉnh noun 'works' — 'canonical', không phải adverb 'canonically'."
         }
       ]
     },

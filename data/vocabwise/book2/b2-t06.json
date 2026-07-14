@@ -543,7 +543,8 @@
             "C": "traditionally"
           },
           "answer": "B",
-          "explanation": "An adjective is needed before the noun 'rituals': traditional."
+          "explanation": "An adjective is needed before the noun 'rituals': traditional.",
+          "explanation_vi": "Cần một adjective trước noun 'rituals': truyền thống."
         },
         {
           "id": 2,
@@ -555,7 +556,8 @@
             "C": "widely"
           },
           "answer": "A",
-          "explanation": "'Widespread' is the adjective meaning common across a large area."
+          "explanation": "'Widespread' is the adjective meaning common across a large area.",
+          "explanation_vi": "'Widespread' là adjective có nghĩa là phổ biến trên một khu vực rộng lớn."
         },
         {
           "id": 3,
@@ -567,7 +569,8 @@
             "C": "practised"
           },
           "answer": "B",
-          "explanation": "Third person singular present tense: practises."
+          "explanation": "Third person singular present tense: practises.",
+          "explanation_vi": "Third person singular thì hiện tại: thực hành."
         },
         {
           "id": 4,
@@ -579,7 +582,8 @@
             "C": "minoring"
           },
           "answer": "A",
-          "explanation": "Plural needed: minorities (more than one group)."
+          "explanation": "Plural needed: minorities (more than one group).",
+          "explanation_vi": "Cần plural: thiểu số (nhiều hơn một nhóm)."
         },
         {
           "id": 5,
@@ -591,7 +595,8 @@
             "C": "believed"
           },
           "answer": "B",
-          "explanation": "Plural needed: many different beliefs."
+          "explanation": "Plural needed: many different beliefs.",
+          "explanation_vi": "Cần plural: nhiều niềm tin khác nhau."
         }
       ]
     },

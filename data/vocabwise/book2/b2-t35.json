@@ -570,7 +570,8 @@
             "C": "editor"
           },
           "answer": "A",
-          "explanation": "A 'translator' converts written text from one language to another, while an 'interpreter' works with spoken language in real time. Since the sentence refers to written documents, 'translator' is the correct term."
+          "explanation": "A 'translator' converts written text from one language to another, while an 'interpreter' works with spoken language in real time. Since the sentence refers to written documents, 'translator' is the correct term.",
+          "explanation_vi": "'translator' chuyển đổi văn bản viết từ ngôn ngữ này sang ngôn ngữ khác, trong khi 'interpreter' làm việc với ngôn ngữ nói trong thời gian thực. Vì câu này đề cập đến tài liệu viết, 'translator' là thuật ngữ đúng."
         },
         {
           "id": 2,
@@ -582,7 +583,8 @@
             "C": "studying"
           },
           "answer": "B",
-          "explanation": "After 'managed to', use the base-form phrasal verb 'pick up'."
+          "explanation": "After 'managed to', use the base-form phrasal verb 'pick up'.",
+          "explanation_vi": "Sau 'managed to', sử dụng động từ cụm dạng gốc 'pick up'."
         },
         {
           "id": 3,
@@ -594,7 +596,8 @@
             "C": "official"
           },
           "answer": "C",
-          "explanation": "'Official' is the precise term for a language formally recognised by the government for use in law, education, and public administration. 'National' is informal and less precise — a country can have many 'national' identities without those languages being legislated. 'Foreign' is the opposite of what is meant."
+          "explanation": "'Official' is the precise term for a language formally recognised by the government for use in law, education, and public administration. 'National' is informal and less precise — a country can have many 'national' identities without those languages being legislated. 'Foreign' is the opposite of what is meant.",
+          "explanation_vi": "'Official' là thuật ngữ chính xác chỉ một ngôn ngữ được chính phủ công nhận một cách chính thức để sử dụng trong pháp luật, giáo dục và quản lý công. 'National' không trang trọng và kém chính xác — một quốc gia có thể có nhiều bản sắc 'national' mà những ngôn ngữ đó không được pháp luật quy định. 'Foreign' là ngược lại với ý muốn."
         },
         {
           "id": 4,
@@ -606,7 +609,8 @@
             "C": "dead"
           },
           "answer": "B",
-          "explanation": "'Dying' is the correct adjective for a language that still has a small number of remaining speakers but is at serious risk of disappearing. 'Extinct' means no speakers remain at all. Since three elderly speakers still exist, 'dying' is accurate; 'dead' is informal and imprecise."
+          "explanation": "'Dying' is the correct adjective for a language that still has a small number of remaining speakers but is at serious risk of disappearing. 'Extinct' means no speakers remain at all. Since three elderly speakers still exist, 'dying' is accurate; 'dead' is informal and imprecise.",
+          "explanation_vi": "'Dying' là tính từ đúng để chỉ một ngôn ngữ vẫn còn một số ít người nói còn lại nhưng đang có nguy cơ biến mất nghiêm trọng. 'Extinct' có nghĩa là không còn người nói nào. Vì vẫn còn ba người nói cao tuổi, 'dying' là chính xác; 'dead' không trang trọng và không chính xác."
         },
         {
           "id": 5,
@@ -618,7 +622,8 @@
             "C": "diverse"
           },
           "answer": "C",
-          "explanation": "'Diverse' means consisting of many different cultural groups. 'Similar' contradicts the reference to over 70 distinct groups, and 'uniformly' is an adverb."
+          "explanation": "'Diverse' means consisting of many different cultural groups. 'Similar' contradicts the reference to over 70 distinct groups, and 'uniformly' is an adverb.",
+          "explanation_vi": "'Diverse' có nghĩa là bao gồm nhiều nhóm văn hoá khác nhau. 'Similar' mâu thuẫn với việc đề cập tới hơn 70 nhóm riêng biệt, và 'uniformly' là một trạng từ."
         }
       ]
     },

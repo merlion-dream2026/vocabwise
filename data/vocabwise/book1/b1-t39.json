@@ -514,7 +514,8 @@
             "C": "measure"
           },
           "answer": "C",
-          "explanation": "After 'need to', use a base-form verb. 'Measure' is the verb meaning to determine the exact temperature; 'observation' and 'measurement' are nouns."
+          "explanation": "After 'need to', use a base-form verb. 'Measure' is the verb meaning to determine the exact temperature; 'observation' and 'measurement' are nouns.",
+          "explanation_vi": "Sau ‘need to’, dùng một động từ dạng gốc. ‘Measure’ là động từ có nghĩa là xác định nhiệt độ chính xác; ‘observation’ và ‘measurement’ là danh từ."
         },
         {
           "id": 2,
@@ -526,7 +527,8 @@
             "C": "trial"
           },
           "answer": "A",
-          "explanation": "The 'outcome' is the result at the end — not a part of the process. Adding hot and cold water is a 'step' — an action you follow in order during the experiment."
+          "explanation": "The 'outcome' is the result at the end — not a part of the process. Adding hot and cold water is a 'step' — an action you follow in order during the experiment.",
+          "explanation_vi": "‘outcome’ là kết quả vào cuối cùng — không phải là một phần của quá trình. Thêm nước nóng và nước lạnh là ‘step’ — một hành động bạn thực hiện theo thứ tự trong thí nghiệm."
         },
         {
           "id": 3,
@@ -538,7 +540,8 @@
             "C": "cold"
           },
           "answer": "A",
-          "explanation": "After the linking verb 'stay', use an adjective describing a state. 'Safe' is the correct adjective; 'safely' and 'carefully' are adverbs."
+          "explanation": "After the linking verb 'stay', use an adjective describing a state. 'Safe' is the correct adjective; 'safely' and 'carefully' are adverbs.",
+          "explanation_vi": "Sau động từ liên kết ‘stay’, dùng một tính từ mô tả trạng thái. ‘Safe’ là tính từ đúng; ‘safely’ và ‘carefully’ là trạng từ."
         },
         {
           "id": 4,
@@ -550,7 +553,8 @@
             "C": "record"
           },
           "answer": "C",
-          "explanation": "'Find' means to discover something. Writing results into a table means you are 'recording' them — saving the information in an organised way."
+          "explanation": "'Find' means to discover something. Writing results into a table means you are 'recording' them — saving the information in an organised way.",
+          "explanation_vi": "‘Find’ có nghĩa là khám phá một điều gì đó. Viết kết quả vào bảng có nghĩa là bạn đang ‘recording’ chúng — lưu thông tin một cách có tổ chức."
         },
         {
           "id": 5,
@@ -562,7 +566,8 @@
             "C": "step"
           },
           "answer": "B",
-          "explanation": "A 'trial' is an attempt or test. Steam forming from water is not a trial — it is a physical 'change', the result of applying heat to a liquid."
+          "explanation": "A 'trial' is an attempt or test. Steam forming from water is not a trial — it is a physical 'change', the result of applying heat to a liquid.",
+          "explanation_vi": "‘trial’ là một nỗ lực hoặc thử nghiệm. Hơi nước hình thành từ nước không phải là ‘trial’ — nó là một ‘change’ vật lý, kết quả của việc áp dụng nhiệt cho chất lỏng."
         }
       ]
     },

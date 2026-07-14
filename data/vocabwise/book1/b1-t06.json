@@ -511,7 +511,8 @@
             "C": "feeling"
           },
           "answer": "A",
-          "explanation": "'Feel' is an irregular verb: feel → felt (past simple). 'Feeled' does not exist in English."
+          "explanation": "'Feel' is an irregular verb: feel → felt (past simple). 'Feeled' does not exist in English.",
+          "explanation_vi": "'Feel' là một động từ bất quy tắc: feel → felt (quá khứ đơn). 'Feeled' không tồn tại trong tiếng Anh."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "rested"
           },
           "answer": "B",
-          "explanation": "After 'get more', use the noun form: 'get more rest'. 'Get more resting' is not natural English."
+          "explanation": "After 'get more', use the noun form: 'get more rest'. 'Get more resting' is not natural English.",
+          "explanation_vi": "Sau 'get more', dùng dạng danh từ: 'get more rest'. 'Get more resting' không phải là tiếng Anh tự nhiên."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "carefully"
           },
           "answer": "C",
-          "explanation": "'Carefully' (adverb) modifies the verb 'washed'. 'Careful' is an adjective — it cannot modify a verb."
+          "explanation": "'Carefully' (adverb) modifies the verb 'washed'. 'Careful' is an adjective — it cannot modify a verb.",
+          "explanation_vi": "'Carefully' (adverb) sửa đổi động từ 'washed'. 'Careful' là một adjective — nó không thể sửa đổi một verb."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "having"
           },
           "answer": "A",
-          "explanation": "Third-person singular 'he' requires 'has', not 'have' (which is used with I/you/we/they)."
+          "explanation": "Third-person singular 'he' requires 'has', not 'have' (which is used with I/you/we/they).",
+          "explanation_vi": "Ngôi thứ ba số ít 'he' yêu cầu 'has', không phải 'have' (được dùng với tôi, bạn, chúng tôi, họ)."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "keeps"
           },
           "answer": "C",
-          "explanation": "'Exercise' is a singular subject (uncountable noun), so the verb needs 's': 'keeps'."
+          "explanation": "'Exercise' is a singular subject (uncountable noun), so the verb needs 's': 'keeps'.",
+          "explanation_vi": "'Exercise' là một chủ ngữ số ít (danh từ không đếm được), vì vậy động từ cần 's': 'keeps'."
         }
       ]
     },

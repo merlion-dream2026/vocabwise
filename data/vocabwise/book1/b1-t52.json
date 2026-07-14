@@ -511,7 +511,8 @@
             "C": "uploaded"
           },
           "answer": "C",
-          "explanation": "'Download' means to get data from the internet onto your device. To send your own photos to the internet for others to see, you 'upload' them."
+          "explanation": "'Download' means to get data from the internet onto your device. To send your own photos to the internet for others to see, you 'upload' them.",
+          "explanation_vi": "'Download' có nghĩa là lấy dữ liệu từ internet về thiết bị của bạn. Để gửi ảnh của bạn lên internet để người khác xem, bạn 'upload' chúng."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "profile"
           },
           "answer": "A",
-          "explanation": "A 'comment' is a text response or opinion left on a post. Something that becomes very popular and many people copy is called a 'trend'."
+          "explanation": "A 'comment' is a text response or opinion left on a post. Something that becomes very popular and many people copy is called a 'trend'.",
+          "explanation_vi": "'comment' là một phản hồi bằng văn bản hoặc ý kiến được để lại trên một bài đăng. Một thứ trở nên rất phổ biến và nhiều người sao chép được gọi là 'trend'."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "account"
           },
           "answer": "C",
-          "explanation": "'Profiled' is a verb or adjective and cannot be the noun after 'your' here. The service you access with a username and password is an 'account'."
+          "explanation": "'Profiled' is a verb or adjective and cannot be the noun after 'your' here. The service you access with a username and password is an 'account'.",
+          "explanation_vi": "'Profiled' là một verb hoặc adjective và không thể là noun sau 'your' ở đây. Dịch vụ bạn truy cập bằng tên người dùng và mật khẩu là một 'account'."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "trend"
           },
           "answer": "A",
-          "explanation": "'Digital' is an adjective (e.g. digital world). It cannot be used as a noun after 'too much'. The correct noun phrase here is 'screen time' — the amount of time spent on digital devices."
+          "explanation": "'Digital' is an adjective (e.g. digital world). It cannot be used as a noun after 'too much'. The correct noun phrase here is 'screen time' — the amount of time spent on digital devices.",
+          "explanation_vi": "'Digital' là một adjective (ví dụ: thế giới kỹ thuật số). Nó không thể được dùng như một noun sau 'too much'. Cụm noun phrase đúng ở đây là 'screen time' — lượng thời gian dành cho các thiết bị kỹ thuật số."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "comment"
           },
           "answer": "C",
-          "explanation": "An 'update' is a post or announcement about new information. When you write a message in reaction to someone's photo or post, you leave a 'comment'."
+          "explanation": "An 'update' is a post or announcement about new information. When you write a message in reaction to someone's photo or post, you leave a 'comment'.",
+          "explanation_vi": "'update' là một bài đăng hoặc thông báo về thông tin mới. Khi bạn viết một tin nhắn để phản hồi ảnh hoặc bài đăng của ai đó, bạn để lại một 'comment'."
         }
       ]
     },

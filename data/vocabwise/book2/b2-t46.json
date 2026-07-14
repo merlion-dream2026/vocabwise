@@ -571,7 +571,8 @@
             "C": "charge"
           },
           "answer": "B",
-          "explanation": "'Charge' means to formally accuse someone — it is not used to impose a punishment. The correct legal verb is 'sentence to': the judge sentences someone to X years."
+          "explanation": "'Charge' means to formally accuse someone — it is not used to impose a punishment. The correct legal verb is 'sentence to': the judge sentences someone to X years.",
+          "explanation_vi": "'Charge' nghĩa là buộc tội một người một cách chính thức — không được dùng để áp đặt một hình phạt. Động từ pháp lý đúng là 'sentence to': thẩm phán tuyên phạt ai đó X năm."
         },
         {
           "id": 2,
@@ -583,7 +584,8 @@
             "C": "sentencing"
           },
           "answer": "A",
-          "explanation": "'Penalty' is the general noun for a legal punishment. A fine is specifically monetary, so it cannot describe unpaid community service."
+          "explanation": "'Penalty' is the general noun for a legal punishment. A fine is specifically monetary, so it cannot describe unpaid community service.",
+          "explanation_vi": "'Penalty' là danh từ chung cho một hình phạt pháp lý. Phạt tiền là hình phạt bằng tiền, vì vậy không thể mô tả công việc cộng đồng không được trả tiền."
         },
         {
           "id": 3,
@@ -595,7 +597,8 @@
             "C": "evidence"
           },
           "answer": "C",
-          "explanation": "'Evidence' is the uncountable noun for research findings that support a claim."
+          "explanation": "'Evidence' is the uncountable noun for research findings that support a claim.",
+          "explanation_vi": "'Evidence' là danh từ không đếm được cho các kết quả nghiên cứu hỗ trợ một lập luận."
         },
         {
           "id": 4,
@@ -607,7 +610,8 @@
             "C": "improvement"
           },
           "answer": "A",
-          "explanation": "After 'help offenders', use the base verb 'reform'."
+          "explanation": "After 'help offenders', use the base verb 'reform'.",
+          "explanation_vi": "Sau khi giúp đỡ người phạm tội, hãy dùng động từ nguyên mẫu 'reform'."
         },
         {
           "id": 5,
@@ -619,7 +623,8 @@
             "C": "good behaviour"
           },
           "answer": "C",
-          "explanation": "'Good behaviour' is the standard phrase used in legal and correctional contexts to describe a prisoner's conduct that may qualify them for early release. 'Unpaid work' is a type of punishment, not a condition for release. 'Legal aid' refers to free legal assistance, unrelated to release conditions."
+          "explanation": "'Good behaviour' is the standard phrase used in legal and correctional contexts to describe a prisoner's conduct that may qualify them for early release. 'Unpaid work' is a type of punishment, not a condition for release. 'Legal aid' refers to free legal assistance, unrelated to release conditions.",
+          "explanation_vi": "'Good behaviour' là cụm từ chuẩn được dùng trong bối cảnh pháp lý và nhà tù để mô tả hành vi của tù nhân có thể đủ điều kiện cho việc ra tù sớm. 'Unpaid work' là một loại hình phạt, không phải là điều kiện để ra tù. 'Legal aid' đề cập đến sự trợ giúp pháp lý miễn phí, không liên quan đến các điều kiện ra tù."
         }
       ]
     },

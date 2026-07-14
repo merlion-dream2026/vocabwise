@@ -511,7 +511,8 @@
             "C": "dislike"
           },
           "answer": "A",
-          "explanation": "The sentence describes someone who goes swimming every weekend and feels happy. This shows a strong positive feeling, so 'love' is correct — not 'hate', which means a strong dislike."
+          "explanation": "The sentence describes someone who goes swimming every weekend and feels happy. This shows a strong positive feeling, so 'love' is correct — not 'hate', which means a strong dislike.",
+          "explanation_vi": "Câu này mô tả một người đi bơi mỗi cuối tuần và cảm thấy hạnh phúc. Điều này cho thấy một cảm xúc tích cực mạnh mẽ, vì vậy 'love' là đúng — không phải 'hate', từ này có nghĩa là sự không thích mạnh mẽ."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "boring"
           },
           "answer": "C",
-          "explanation": "'Exciting' means something that makes you feel thrilled and energetic. The sentence describes nothing to do and slow time — this is the opposite. The correct word is 'boring'."
+          "explanation": "'Exciting' means something that makes you feel thrilled and energetic. The sentence describes nothing to do and slow time — this is the opposite. The correct word is 'boring'.",
+          "explanation_vi": "'Exciting' có nghĩa là điều gì đó khiến bạn cảm thấy phấn khích và tràn đầy năng lượng. Câu này mô tả không có gì để làm và thời gian chậm rãi — đây là ngược lại. Từ đúng là 'boring'."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "favourite"
           },
           "answer": "C",
-          "explanation": "'Least' means the smallest amount and does not describe preference correctly here. When you use a colour in almost all your paintings, it must be your 'favourite' — the one you like most."
+          "explanation": "'Least' means the smallest amount and does not describe preference correctly here. When you use a colour in almost all your paintings, it must be your 'favourite' — the one you like most.",
+          "explanation_vi": "'Least' có nghĩa là lượng nhỏ nhất và ở đây không mô tả sự ưu tiên đúng cách. Khi bạn sử dụng một màu trong hầu hết các bức tranh của mình, nó phải là 'favourite' — màu mà bạn thích nhất."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "felt"
           },
           "answer": "A",
-          "explanation": "The preposition 'to' after the verb shows communication directed at another person. 'Said to' means you told someone something. 'Thought' is an internal action — you cannot 'thought to' someone."
+          "explanation": "The preposition 'to' after the verb shows communication directed at another person. 'Said to' means you told someone something. 'Thought' is an internal action — you cannot 'thought to' someone.",
+          "explanation_vi": "Giới từ 'to' sau động từ cho thấy việc giao tiếp hướng tới người khác. 'Said to' có nghĩa là bạn đã nói điều gì đó cho ai đó. 'Thought' là một hành động nội tâm — bạn không thể 'thought to' ai đó."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "bad"
           },
           "answer": "C",
-          "explanation": "'Good' means positive or helpful. The sentence says eating too much chocolate makes your teeth hurt — this is a negative result. The correct word is 'bad', which means harmful."
+          "explanation": "'Good' means positive or helpful. The sentence says eating too much chocolate makes your teeth hurt — this is a negative result. The correct word is 'bad', which means harmful.",
+          "explanation_vi": "'Good' có nghĩa là tích cực hoặc hữu ích. Câu này nói việc ăn quá nhiều sô cô la khiến răng của bạn đau — đây là một kết quả tiêu cực. Từ đúng là 'bad', nghĩa là gây hại."
         }
       ]
     },

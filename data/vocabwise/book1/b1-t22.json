@@ -508,7 +508,8 @@
             "C": "ashamed"
           },
           "answer": "A",
-          "explanation": "When you win a race and friends cheer for you, you feel 'proud' — happy and satisfied about your achievement. 'Lonely' means feeling sad because you are alone, which does not match this positive situation."
+          "explanation": "When you win a race and friends cheer for you, you feel 'proud' — happy and satisfied about your achievement. 'Lonely' means feeling sad because you are alone, which does not match this positive situation.",
+          "explanation_vi": "Khi bạn thắng một cuộc đua và bạn bè reo hò cho bạn, bạn cảm thấy 'proud' — hạnh phúc và hài lòng về thành tựu của mình. 'Lonely' có nghĩa là cảm thấy buồn vì bạn ở một mình, điều này không phù hợp với tình huống tích cực này."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "nervous"
           },
           "answer": "C",
-          "explanation": "Someone whose hands shake and who cannot sleep is not calm at all. The word that describes feeling worried and uncomfortable before something important is 'nervous'."
+          "explanation": "Someone whose hands shake and who cannot sleep is not calm at all. The word that describes feeling worried and uncomfortable before something important is 'nervous'.",
+          "explanation_vi": "Người có tay run và không thể ngủ không hề bình tĩnh. Từ mô tả cảm giác lo lắng và khó chịu trước một việc quan trọng là 'nervous'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "ignore"
           },
           "answer": "B",
-          "explanation": "The second part of the sentence says 'keep everything inside', which means not sharing feelings with others. This contradicts 'show'. The correct word is 'hide' — to not let others see how you feel."
+          "explanation": "The second part of the sentence says 'keep everything inside', which means not sharing feelings with others. This contradicts 'show'. The correct word is 'hide' — to not let others see how you feel.",
+          "explanation_vi": "Phần thứ hai của câu nói 'keep everything inside', có nghĩa là không chia sẻ cảm xúc với người khác. Điều này mâu thuẫn với 'show'. Từ đúng là 'hide' — để không để người khác thấy bạn cảm thấy như thế nào."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "surprised"
           },
           "answer": "A",
-          "explanation": "When a child gets excellent results, a parent feels 'proud' — happy and pleased about the achievement. 'Scared' means frightened, which does not match a happy situation like this."
+          "explanation": "When a child gets excellent results, a parent feels 'proud' — happy and pleased about the achievement. 'Scared' means frightened, which does not match a happy situation like this.",
+          "explanation_vi": "Khi một đứa trẻ đạt kết quả xuất sắc, phụ huynh cảm thấy 'proud' — hạnh phúc và hài lòng về thành tích. 'Scared' có nghĩa là sợ hãi, điều này không phù hợp với một tình huống vui vẻ như vậy."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "worried"
           },
           "answer": "C",
-          "explanation": "'Excited' is a positive feeling about something good happening. Hearing that a grandmother is seriously ill is bad news — the natural response is to feel 'worried', not excited."
+          "explanation": "'Excited' is a positive feeling about something good happening. Hearing that a grandmother is seriously ill is bad news — the natural response is to feel 'worried', not excited.",
+          "explanation_vi": "'Excited' là một cảm xúc tích cực về việc điều gì đó tốt xảy ra. Khi nghe tin bà ngoại bị ốm nặng là tin xấu — phản ứng tự nhiên là cảm thấy 'worried', không phải phấn khích."
         }
       ]
     },

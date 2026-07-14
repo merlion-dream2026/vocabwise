@@ -505,7 +505,8 @@
             "C": "addiction"
           },
           "answer": "C",
-          "explanation": "'Addict' is a noun meaning a person — it cannot replace an abstract noun like 'addiction'. 'Addiction' is the correct form after a possessive like 'her'."
+          "explanation": "'Addict' is a noun meaning a person — it cannot replace an abstract noun like 'addiction'. 'Addiction' is the correct form after a possessive like 'her'.",
+          "explanation_vi": "'Addict' là noun chỉ một người — không thể thay thế noun trừu tượng như 'addiction'. 'Addiction' là dạng đúng sau possessive như 'her'."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "comparative"
           },
           "answer": "A",
-          "explanation": "A noun is needed as the subject of the sentence — 'comparison', not the verb 'compare'."
+          "explanation": "A noun is needed as the subject of the sentence — 'comparison', not the verb 'compare'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'comparison', không phải verb 'compare'."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "anonymity"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject — 'anonymity', not the adjective 'anonymous'."
+          "explanation": "A noun is needed as the subject — 'anonymity', not the adjective 'anonymous'.",
+          "explanation_vi": "Cần một noun làm subject — 'anonymity', không phải adjective 'anonymous'."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "valid"
           },
           "answer": "B",
-          "explanation": "The noun 'validation' is required after 'received more' — 'validate' is a verb and cannot follow a determiner."
+          "explanation": "The noun 'validation' is required after 'received more' — 'validate' is a verb and cannot follow a determiner.",
+          "explanation_vi": "Cần noun 'validation' sau 'received more' — 'validate' là verb và không thể đứng sau determiner."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "cultivate"
           },
           "answer": "C",
-          "explanation": "'Cultivate a relationship' is the correct collocation — 'adapt' does not collocate with 'relationship' in this context."
+          "explanation": "'Cultivate a relationship' is the correct collocation — 'adapt' does not collocate with 'relationship' in this context.",
+          "explanation_vi": "'Cultivate a relationship' là collocation đúng — 'adapt' không kết hợp với 'mối quan hệ' trong ngữ cảnh này."
         }
       ]
     },

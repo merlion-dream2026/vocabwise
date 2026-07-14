@@ -511,7 +511,8 @@
             "C": "dystopically"
           },
           "answer": "A",
-          "explanation": "A noun is needed after the article 'a' to serve as the object of 'presents' — 'dystopia', not the adjective 'dystopian'."
+          "explanation": "A noun is needed after the article 'a' to serve as the object of 'presents' — 'dystopia', not the adjective 'dystopian'.",
+          "explanation_vi": "Cần một noun sau article 'a' để làm object của 'presents' — 'dystopia', không phải adjective 'dystopian'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "speculation"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'speculation', not the verb 'speculate'."
+          "explanation": "A noun is needed as the subject of the sentence — 'speculation', not the verb 'speculate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'speculation', không phải verb 'speculate'."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "enhancing"
           },
           "answer": "A",
-          "explanation": "A bare infinitive verb is required after the modal 'may … allow scientists to' — 'enhance', not the noun 'enhancement'."
+          "explanation": "A bare infinitive verb is required after the modal 'may … allow scientists to' — 'enhance', not the noun 'enhancement'.",
+          "explanation_vi": "Sau 'may … allow scientists to' cần một verb ở dạng infinitive không có 'to' — 'enhance', không phải noun 'enhancement'."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "consciousness"
           },
           "answer": "C",
-          "explanation": "'Consciousness' is the noun meaning awareness or sentience. 'Conscience' means a moral sense of right and wrong."
+          "explanation": "'Consciousness' is the noun meaning awareness or sentience. 'Conscience' means a moral sense of right and wrong.",
+          "explanation_vi": "'Consciousness' là noun có nghĩa là nhận thức hoặc cảm giác có ý thức. 'Conscience' có nghĩa là một ý thức đạo đức về đúng sai."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "longest"
           },
           "answer": "A",
-          "explanation": "The noun 'longevity' (meaning long lifespan) is required as the object of 'Research into' — 'long' is an adjective and does not fit this slot."
+          "explanation": "The noun 'longevity' (meaning long lifespan) is required as the object of 'Research into' — 'long' is an adjective and does not fit this slot.",
+          "explanation_vi": "Cần noun 'longevity' (có nghĩa là tuổi thọ dài) làm object của 'Research into' — 'long' là adjective và không phù hợp với vị trí này."
         }
       ]
     },

@@ -509,7 +509,8 @@
             "C": "provable"
           },
           "answer": "A",
-          "explanation": "The collocation is 'construct a formal proof', not 'prove a formal proof' — a proof is constructed or produced, not proved."
+          "explanation": "The collocation is 'construct a formal proof', not 'prove a formal proof' — a proof is constructed or produced, not proved.",
+          "explanation_vi": "Cụm từ là 'construct a formal proof', không phải 'prove a formal proof' — một bằng chứng được xây dựng hoặc tạo ra, không phải được chứng minh."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "logic"
           },
           "answer": "C",
-          "explanation": "A noun is required after the possessive determiner 'Her' — 'logic', not the adverb 'logically'."
+          "explanation": "A noun is required after the possessive determiner 'Her' — 'logic', not the adverb 'logically'.",
+          "explanation_vi": "Cần một danh từ sau determiner sở hữu 'Her' — 'logic', không phải trạng từ 'logically'."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "probabilistic"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'probability', not the adjective 'probable'."
+          "explanation": "A noun is required as the subject of the sentence — 'probability', not the adjective 'probable'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ của câu — 'probability', không phải tính từ 'probable'."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "infinitive"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'of' — 'infinity'. 'Infinite' is an adjective, while 'infinitive' is a grammatical term."
+          "explanation": "A noun is required after 'of' — 'infinity'. 'Infinite' is an adjective, while 'infinitive' is a grammatical term.",
+          "explanation_vi": "Cần một danh từ sau 'of' — 'infinity'. 'Infinite' là một tính từ, trong khi 'infinitive' là một thuật ngữ ngữ pháp."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "conjectures"
           },
           "answer": "A",
-          "explanation": "A singular noun is required as the subject of the sentence — 'conjecture', not the past participle 'conjectured'."
+          "explanation": "A singular noun is required as the subject of the sentence — 'conjecture', not the past participle 'conjectured'.",
+          "explanation_vi": "Cần một singular noun làm chủ ngữ của câu — 'conjecture', không phải past participle 'conjectured'."
         }
       ]
     },

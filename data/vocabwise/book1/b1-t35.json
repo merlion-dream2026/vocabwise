@@ -508,7 +508,8 @@
             "C": "relaxed"
           },
           "answer": "A",
-          "explanation": "'Excited' usually means looking forward to something with pleasure. When your hands shake and you cannot sleep before a test, the correct word is 'nervous' — feeling worried and anxious."
+          "explanation": "'Excited' usually means looking forward to something with pleasure. When your hands shake and you cannot sleep before a test, the correct word is 'nervous' — feeling worried and anxious.",
+          "explanation_vi": "'Excited' thường có nghĩa là mong chờ điều gì đó với niềm vui. Khi tay bạn run và không thể ngủ được trước một bài kiểm tra, từ đúng là 'nervous' — cảm giác lo lắng và bồn chồn."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "sheet"
           },
           "answer": "C",
-          "explanation": "A 'paper' refers to the whole exam document. Each single page you write on is a 'sheet'. The sentence is talking about individual pages, so 'sheet' is correct."
+          "explanation": "A 'paper' refers to the whole exam document. Each single page you write on is a 'sheet'. The sentence is talking about individual pages, so 'sheet' is correct.",
+          "explanation_vi": "'paper' chỉ toàn bộ tài liệu đề thi. Mỗi trang riêng lẻ mà bạn viết là một 'sheet'. Câu này đang nói về các trang riêng lẻ, vì vậy 'sheet' là đúng."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "finished"
           },
           "answer": "B",
-          "explanation": "If someone studied hard but ran out of time and did not do well, they 'failed' — not passed. 'Passed' means they succeeded, which contradicts the meaning of the sentence."
+          "explanation": "If someone studied hard but ran out of time and did not do well, they 'failed' — not passed. 'Passed' means they succeeded, which contradicts the meaning of the sentence.",
+          "explanation_vi": "Nếu ai đó học chăm chỉ nhưng hết thời gian và không làm tốt, họ 'failed' — không phải 'Passed'. 'Passed' có nghĩa là họ thành công, điều này mâu thuẫn với ý của câu."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "item"
           },
           "answer": "C",
-          "explanation": "A 'grade' is the overall score or letter you receive (like A or B). Each individual question on an exam paper is called an 'item'. The sentence is clearly describing separate questions, so 'item' is correct."
+          "explanation": "A 'grade' is the overall score or letter you receive (like A or B). Each individual question on an exam paper is called an 'item'. The sentence is clearly describing separate questions, so 'item' is correct.",
+          "explanation_vi": "'grade' là tổng điểm hoặc chữ mà bạn nhận được (như A hoặc B). Mỗi câu hỏi riêng lẻ trên đề thi được gọi là một 'item'. Câu này rõ ràng mô tả các câu hỏi riêng biệt, vì vậy 'item' là đúng."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "concentrate"
           },
           "answer": "C",
-          "explanation": "'Ignore' means to pay no attention to something — it does not fit here. The sentence is telling you to focus on your own work, which means to 'concentrate'."
+          "explanation": "'Ignore' means to pay no attention to something — it does not fit here. The sentence is telling you to focus on your own work, which means to 'concentrate'.",
+          "explanation_vi": "'Ignore' có nghĩa là không chú ý đến điều gì — nó không phù hợp ở đây. Câu này đang yêu cầu bạn tập trung vào công việc của mình, nghĩa là 'concentrate'."
         }
       ]
     },

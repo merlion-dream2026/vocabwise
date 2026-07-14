@@ -535,7 +535,8 @@
             "C": "generate"
           },
           "answer": "C",
-          "explanation": "After the modal verb 'can', use the base form 'generate'."
+          "explanation": "After the modal verb 'can', use the base form 'generate'.",
+          "explanation_vi": "Sau động từ khiếm khuyết 'can', dùng dạng cơ bản 'generate'."
         },
         {
           "id": 2,
@@ -547,7 +548,8 @@
             "C": "investing"
           },
           "answer": "A",
-          "explanation": "After 'decided to', use the base form of the verb: 'invest', not 'investing'."
+          "explanation": "After 'decided to', use the base form of the verb: 'invest', not 'investing'.",
+          "explanation_vi": "Sau 'decided to', dùng dạng cơ bản của động từ: 'invest', không phải 'investing'."
         },
         {
           "id": 3,
@@ -559,7 +561,8 @@
             "C": "flowing water's"
           },
           "answer": "B",
-          "explanation": "'Water' is an uncountable noun in this context — use 'flowing water', not 'flowing waters'."
+          "explanation": "'Water' is an uncountable noun in this context — use 'flowing water', not 'flowing waters'.",
+          "explanation_vi": "'Water' là một noun không đếm được trong ngữ cảnh này — dùng 'flowing water', không phải 'flowing waters'."
         },
         {
           "id": 4,
@@ -571,7 +574,8 @@
             "C": "carbon neutrality"
           },
           "answer": "A",
-          "explanation": "After 'become', use the adjective phrase 'carbon neutral', not the noun 'carbon neutrality'."
+          "explanation": "After 'become', use the adjective phrase 'carbon neutral', not the noun 'carbon neutrality'.",
+          "explanation_vi": "Sau 'become', dùng cụm tính từ 'carbon neutral', không phải danh từ 'carbon neutrality'."
         },
         {
           "id": 5,
@@ -583,7 +587,8 @@
             "C": "run out"
           },
           "answer": "C",
-          "explanation": "The correct phrasal verb is 'run out' — after the modal 'will', use the base form 'run out'."
+          "explanation": "The correct phrasal verb is 'run out' — after the modal 'will', use the base form 'run out'.",
+          "explanation_vi": "Cụm động từ đúng là 'run out' — sau động từ khiếm khuyết 'will', dùng dạng cơ bản 'run out'."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "greeting"
           },
           "answer": "C",
-          "explanation": "A 'closing' comes at the end of an email. The words at the beginning that welcome the reader are called a 'greeting', such as 'Dear Sir or Madam'."
+          "explanation": "A 'closing' comes at the end of an email. The words at the beginning that welcome the reader are called a 'greeting', such as 'Dear Sir or Madam'.",
+          "explanation_vi": "Một 'closing' xuất hiện ở cuối thư điện tử. Các từ ở đầu thư chào đón người đọc được gọi là 'greeting', chẳng hạn như 'Dear Sir or Madam'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "topic"
           },
           "answer": "A",
-          "explanation": "A 'signature' is your name at the end. A photo or document sent with an email is called an 'attachment' — forgetting it means you must resend the email."
+          "explanation": "A 'signature' is your name at the end. A photo or document sent with an email is called an 'attachment' — forgetting it means you must resend the email.",
+          "explanation_vi": "Một 'signature' là tên của bạn ở cuối thư. Một ảnh hoặc tài liệu được gửi kèm với thư điện tử được gọi là 'attachment' — nếu quên nó có nghĩa là bạn phải gửi lại thư."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "clarity"
           },
           "answer": "A",
-          "explanation": "After the linking verb 'was', use the adjective 'clear'. 'Clearly' is an adverb and 'clarity' is a noun."
+          "explanation": "After the linking verb 'was', use the adjective 'clear'. 'Clearly' is an adverb and 'clarity' is a noun.",
+          "explanation_vi": "Sau động từ liên kết 'was', dùng tính từ 'clear'. 'Clearly' là một adverb và 'clarity' là một noun."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "formal"
           },
           "answer": "C",
-          "explanation": "'Dear Mr Smith' and 'Yours sincerely' are formal expressions used in professional writing. Using these phrases means the style is 'formal', not 'informal'."
+          "explanation": "'Dear Mr Smith' and 'Yours sincerely' are formal expressions used in professional writing. Using these phrases means the style is 'formal', not 'informal'.",
+          "explanation_vi": "'Dear Mr Smith' và 'Yours sincerely' là các biểu đạt trang trọng được dùng trong viết chuyên nghiệp. Việc dùng những cụm này có nghĩa là phong cách là 'formal', không phải 'informal'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "reply"
           },
           "answer": "B",
-          "explanation": "'Reply' means to respond to the person who sent you the email. Sending an email you received to a different person is called 'forward' — that is what the sentence is asking for."
+          "explanation": "'Reply' means to respond to the person who sent you the email. Sending an email you received to a different person is called 'forward' — that is what the sentence is asking for.",
+          "explanation_vi": "'Reply' có nghĩa là trả lời người đã gửi cho bạn thư điện tử. Gửi một thư điện tử bạn nhận được cho người khác được gọi là 'forward' — đó là yêu cầu của câu."
         }
       ]
     },

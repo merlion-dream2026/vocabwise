@@ -508,7 +508,8 @@
             "C": "obliged"
           },
           "answer": "B",
-          "explanation": "A noun is required as the grammatical subject — 'obligation', not the verb 'obligate'."
+          "explanation": "A noun is required as the grammatical subject — 'obligation', not the verb 'obligate'.",
+          "explanation_vi": "Cần một noun làm subject ngữ pháp — 'obligation', không phải verb 'obligate'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "extended"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify 'family' — 'extended', not the verb 'extend'."
+          "explanation": "An adjective is needed to modify 'family' — 'extended', not the verb 'extend'.",
+          "explanation_vi": "Cần một adjective để bổ nghĩa cho 'family' — 'extended', không phải verb 'extend'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "dysfunctioning"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject — 'dysfunction', not the possessive adjective 'dysfunctional's'."
+          "explanation": "A noun is required as the subject — 'dysfunction', not the possessive adjective 'dysfunctional's'.",
+          "explanation_vi": "Cần một noun làm subject — 'dysfunction', không phải possessive adjective 'dysfunctional's'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "reconstituting"
           },
           "answer": "A",
-          "explanation": "After 'agreed to', use the base form of the verb: 'reconstitute'."
+          "explanation": "After 'agreed to', use the base form of the verb: 'reconstitute'.",
+          "explanation_vi": "Sau 'agreed to', dùng dạng cơ bản của verb: 'reconstitute'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "fragmentation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'fragmentation', not the verb 'fragment'."
+          "explanation": "A noun is required as the subject of the sentence — 'fragmentation', not the verb 'fragment'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'fragmentation', không phải verb 'fragment'."
         }
       ]
     },

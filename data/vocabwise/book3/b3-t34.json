@@ -515,7 +515,8 @@
             "C": "unconsciousness"
           },
           "answer": "A",
-          "explanation": "An adjective is required to modify the noun 'beliefs' — 'unconscious', not the adverb 'unconsciously'."
+          "explanation": "An adjective is required to modify the noun 'beliefs' — 'unconscious', not the adverb 'unconsciously'.",
+          "explanation_vi": "Cần một adjective để sửa đổi noun 'beliefs' — 'unconscious', không phải adverb 'unconsciously'."
         },
         {
           "id": 2,
@@ -527,7 +528,8 @@
             "C": "cognition"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the object of 'the study of' — 'cognition', not the verb 'cognise'."
+          "explanation": "A noun is needed as the object of 'the study of' — 'cognition', not the verb 'cognise'.",
+          "explanation_vi": "Cần một noun làm object của 'the study of' — 'cognition', không phải verb 'cognise'."
         },
         {
           "id": 3,
@@ -539,7 +541,8 @@
             "C": "self-effacing"
           },
           "answer": "A",
-          "explanation": "'Self-efficacy' is the correct noun form for one's belief in one's own competence; 'self-efficient' is not a standard psychological term."
+          "explanation": "'Self-efficacy' is the correct noun form for one's belief in one's own competence; 'self-efficient' is not a standard psychological term.",
+          "explanation_vi": "'Self-efficacy' là dạng noun đúng cho niềm tin của một người vào năng lực của chính mình; 'self-efficient' không phải là một thuật ngữ tâm lý học chuẩn."
         },
         {
           "id": 4,
@@ -551,7 +554,8 @@
             "C": "motivating"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the verb 'dropped' — 'motivation', not the verb 'motivate'."
+          "explanation": "A noun is required as the subject of the verb 'dropped' — 'motivation', not the verb 'motivate'.",
+          "explanation_vi": "Cần một noun làm subject của verb 'dropped' — 'motivation', không phải verb 'motivate'."
         },
         {
           "id": 5,
@@ -563,7 +567,8 @@
             "C": "conformist"
           },
           "answer": "A",
-          "explanation": "After the infinitive marker 'to', a base verb is required — 'conform', not the noun 'conformity'."
+          "explanation": "After the infinitive marker 'to', a base verb is required — 'conform', not the noun 'conformity'.",
+          "explanation_vi": "Sau infinitive marker 'to', cần một base verb — 'conform', không phải noun 'conformity'."
         }
       ]
     },

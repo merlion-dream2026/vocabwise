@@ -537,7 +537,8 @@
             "C": "suburban"
           },
           "answer": "C",
-          "explanation": "'Suburban' is the adjective needed before the plural noun 'areas'. 'Suburb' and 'suburbs' are nouns."
+          "explanation": "'Suburban' is the adjective needed before the plural noun 'areas'. 'Suburb' and 'suburbs' are nouns.",
+          "explanation_vi": "'Suburban' là adjective cần trước plural noun 'areas'. 'Suburb' và 'suburbs' là nouns."
         },
         {
           "id": 2,
@@ -549,7 +550,8 @@
             "C": "populated"
           },
           "answer": "A",
-          "explanation": "'Population' is the noun form."
+          "explanation": "'Population' is the noun form.",
+          "explanation_vi": "'Population' là noun."
         },
         {
           "id": 3,
@@ -561,7 +563,8 @@
             "C": "limiting"
           },
           "answer": "B",
-          "explanation": "Adjective form needed: limited access."
+          "explanation": "Adjective form needed: limited access.",
+          "explanation_vi": "Cần adjective: tiếp cận hạn chế."
         },
         {
           "id": 4,
@@ -573,7 +576,8 @@
             "C": "taking"
           },
           "answer": "B",
-          "explanation": "Third person singular: his commute takes."
+          "explanation": "Third person singular: his commute takes.",
+          "explanation_vi": "Third person singular: cuộc đi lại của anh ấy mất."
         },
         {
           "id": 5,
@@ -585,7 +589,8 @@
             "C": "grown"
           },
           "answer": "A",
-          "explanation": "Present continuous form needed: is growing."
+          "explanation": "Present continuous form needed: is growing.",
+          "explanation_vi": "Cần Present continuous: đang tăng."
         }
       ]
     },

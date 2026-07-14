@@ -563,7 +563,8 @@
             "C": "pointing"
           },
           "answer": "A",
-          "explanation": "'Statement' is the noun used for a bold visual or cultural declaration."
+          "explanation": "'Statement' is the noun used for a bold visual or cultural declaration.",
+          "explanation_vi": "'Statement' là noun được dùng cho một tuyên bố hình ảnh hoặc văn hoá táo bạo."
         },
         {
           "id": 2,
@@ -575,7 +576,8 @@
             "C": "not expense"
           },
           "answer": "B",
-          "explanation": "An adjective is needed after 'are': 'affordable'."
+          "explanation": "An adjective is needed after 'are': 'affordable'.",
+          "explanation_vi": "Cần một adjective sau 'are': 'affordable'."
         },
         {
           "id": 3,
@@ -587,7 +589,8 @@
             "C": "society"
           },
           "answer": "A",
-          "explanation": "'Cultural' is the adjective meaning relating to the culture of a place or people. 'Society' is a noun, and 'traditionally' is an adverb."
+          "explanation": "'Cultural' is the adjective meaning relating to the culture of a place or people. 'Society' is a noun, and 'traditionally' is an adverb.",
+          "explanation_vi": "'Cultural' là adjective có nghĩa liên quan đến văn hoá của một địa điểm hoặc dân tộc. 'Society' là noun, và 'traditionally' là adverb."
         },
         {
           "id": 4,
@@ -599,7 +602,8 @@
             "C": "brands"
           },
           "answer": "C",
-          "explanation": "A plural noun agreeing with 'shape' is needed: 'brands'."
+          "explanation": "A plural noun agreeing with 'shape' is needed: 'brands'.",
+          "explanation_vi": "Cần một plural noun phù hợp với 'shape': 'brands'."
         },
         {
           "id": 5,
@@ -611,7 +615,8 @@
             "C": "upcycle"
           },
           "answer": "C",
-          "explanation": "'Upcycle' means transform an old item into something new of equal or greater value. 'Discard' means throw away, while 'downcycle' produces something of lower value."
+          "explanation": "'Upcycle' means transform an old item into something new of equal or greater value. 'Discard' means throw away, while 'downcycle' produces something of lower value.",
+          "explanation_vi": "'Upcycle' có nghĩa là biến đổi một vật cũ thành một thứ mới có giá trị bằng hoặc cao hơn. 'Discard' có nghĩa là vứt bỏ, trong khi 'downcycle' tạo ra một thứ có giá trị thấp hơn."
         }
       ]
     },

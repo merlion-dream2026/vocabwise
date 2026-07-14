@@ -546,7 +546,8 @@
             "C": "devastation"
           },
           "answer": "A",
-          "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice)."
+          "explanation": "'Devastated' is the past participle needed after 'was' — the village was devastated (passive voice).",
+          "explanation_vi": "'Devastated' là past participle cần sau 'was' — làng đã bị 'devastated' (động từ ở dạng bị động)."
         },
         {
           "id": 2,
@@ -558,7 +559,8 @@
             "C": "causality"
           },
           "answer": "B",
-          "explanation": "'Casualties' (plural) refers to deaths and injuries; 'causality' means cause-and-effect — a completely different word."
+          "explanation": "'Casualties' (plural) refers to deaths and injuries; 'causality' means cause-and-effect — a completely different word.",
+          "explanation_vi": "'Casualties' (dạng số nhiều) chỉ các ca tử vong và thương tích; 'causality' nghĩa là quan hệ nguyên nhân‑kết quả — một từ hoàn toàn khác."
         },
         {
           "id": 3,
@@ -570,7 +572,8 @@
             "C": "evacuate"
           },
           "answer": "C",
-          "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'."
+          "explanation": "After 'ordered everyone to', use the base form of the verb: 'evacuate', not 'evacuated'.",
+          "explanation_vi": "Sau 'ordered everyone to', dùng dạng cơ bản của động từ: 'evacuate', không phải 'evacuated'."
         },
         {
           "id": 4,
@@ -582,7 +585,8 @@
             "C": "infrastructure's"
           },
           "answer": "B",
-          "explanation": "No possessive needed here — 'infrastructure' is an uncountable noun and stands alone."
+          "explanation": "No possessive needed here — 'infrastructure' is an uncountable noun and stands alone.",
+          "explanation_vi": "Không cần dạng sở hữu ở đây — 'infrastructure' là một noun không đếm được và đứng độc lập."
         },
         {
           "id": 5,
@@ -594,7 +598,8 @@
             "C": "resilient"
           },
           "answer": "A",
-          "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'."
+          "explanation": "After 'great' (determiner + adjective before a noun), the noun form 'resilience' is needed — not the adjective 'resilient'.",
+          "explanation_vi": "Sau 'great' (determiner + adjective đứng trước danh từ), cần dạng danh từ 'resilience' — không phải tính từ 'resilient'."
         }
       ]
     },

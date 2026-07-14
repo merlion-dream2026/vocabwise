@@ -508,7 +508,8 @@
             "C": "pedagogy"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'pedagogy', not the adjective 'pedagogical'."
+          "explanation": "A noun is needed as the subject of the sentence — 'pedagogy', not the adjective 'pedagogical'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'pedagogy', không phải adjective 'pedagogical'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "autonomously"
           },
           "answer": "A",
-          "explanation": "The adjective 'aware' is needed in the phrase 'aware of their strengths and weaknesses'; 'autonomous' means self-governing, which does not fit the sentence's meaning."
+          "explanation": "The adjective 'aware' is needed in the phrase 'aware of their strengths and weaknesses'; 'autonomous' means self-governing, which does not fit the sentence's meaning.",
+          "explanation_vi": "Cần adjective 'aware' trong cụm 'aware of their strengths and weaknesses'; 'autonomous' có nghĩa là tự quản, không phù hợp với nghĩa của câu."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "curriculum's"
           },
           "answer": "B",
-          "explanation": "After the singular article 'An', use the singular noun 'curriculum'. 'Curricular' is an adjective, and 'curriculum's' is possessive."
+          "explanation": "After the singular article 'An', use the singular noun 'curriculum'. 'Curricular' is an adjective, and 'curriculum's' is possessive.",
+          "explanation_vi": "Sau singular article 'An', dùng singular noun 'curriculum'. 'Curricular' là adjective, và 'curriculum's' là possessive."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "have practised"
           },
           "answer": "A",
-          "explanation": "You 'display' or 'exhibit' a trait such as poor metacognition; the verb 'practise' means to rehearse a skill deliberately, which does not collocate naturally with 'poor metacognition'."
+          "explanation": "You 'display' or 'exhibit' a trait such as poor metacognition; the verb 'practise' means to rehearse a skill deliberately, which does not collocate naturally with 'poor metacognition'.",
+          "explanation_vi": "Bạn 'display' hoặc 'exhibit' một đặc điểm như siêu nhận thức kém; verb 'practise' có nghĩa là luyện tập một kỹ năng một cách cố ý, không kết hợp tự nhiên với siêu nhận thức kém."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "scaffolds"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'form of' — 'scaffolding', not the base verb 'scaffold'."
+          "explanation": "A noun is required after 'form of' — 'scaffolding', not the base verb 'scaffold'.",
+          "explanation_vi": "Cần một noun sau 'form of' — 'scaffolding', không phải động từ gốc 'scaffold'."
         }
       ]
     },

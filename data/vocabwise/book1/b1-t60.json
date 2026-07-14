@@ -511,7 +511,8 @@
             "C": "answer"
           },
           "answer": "B",
-          "explanation": "'Answer' is used when you reply to a question. The sentence is about not having information about a word's meaning. The correct word is 'know' — to have information or understanding of something."
+          "explanation": "'Answer' is used when you reply to a question. The sentence is about not having information about a word's meaning. The correct word is 'know' — to have information or understanding of something.",
+          "explanation_vi": "‘Answer’ được dùng khi bạn trả lời một câu hỏi. Câu này nói về việc không có thông tin về nghĩa của một từ. Từ đúng là ‘know’ — để có thông tin hoặc hiểu biết về một điều gì đó."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "mean"
           },
           "answer": "A",
-          "explanation": "'Again' is an adverb — it cannot follow 'to' as a verb. The sentence needs a verb after 'to'. 'Repeat' means to say something once more, which is exactly what the teacher needs to do."
+          "explanation": "'Again' is an adverb — it cannot follow 'to' as a verb. The sentence needs a verb after 'to'. 'Repeat' means to say something once more, which is exactly what the teacher needs to do.",
+          "explanation_vi": "‘Again’ là một adverb — nó không thể đứng sau ‘to’ như một verb. Câu này cần một verb sau ‘to’. ‘Repeat’ có nghĩa là nói lại một lần nữa, đúng như việc giáo viên cần làm."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "Who"
           },
           "answer": "B",
-          "explanation": "'Where' asks about a place. The second part of the sentence asks about six in the evening — this is a time. The correct question word is 'When', which asks about time."
+          "explanation": "'Where' asks about a place. The second part of the sentence asks about six in the evening — this is a time. The correct question word is 'When', which asks about time.",
+          "explanation_vi": "‘Where’ hỏi về một địa điểm. Phần thứ hai của câu hỏi đề cập đến sáu giờ tối — đây là một thời gian. Từ hỏi đúng là ‘When’, từ này hỏi về thời gian."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "please"
           },
           "answer": "A",
-          "explanation": "'Are you know' is grammatically incorrect — you cannot use 'are you' before a base verb like this. The correct structure is 'Are you sure', which means 'Do you feel certain about this?'"
+          "explanation": "'Are you know' is grammatically incorrect — you cannot use 'are you' before a base verb like this. The correct structure is 'Are you sure', which means 'Do you feel certain about this?'",
+          "explanation_vi": "‘Are you know’ không đúng về mặt ngữ pháp — bạn không thể dùng ‘are you’ trước một động từ gốc như thế này. Cấu trúc đúng là ‘Are you sure’, nghĩa là ‘Bạn có cảm thấy chắc chắn về điều này không?’"
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "understanding"
           },
           "answer": "A",
-          "explanation": "'Understand' takes a direct object with no preposition: 'understand the question'. 'Reply' would require 'to', and 'understanding' is not used after 'did not'."
+          "explanation": "'Understand' takes a direct object with no preposition: 'understand the question'. 'Reply' would require 'to', and 'understanding' is not used after 'did not'.",
+          "explanation_vi": "‘Understand’ cần một tân ngữ trực tiếp mà không có giới từ: ‘understand the question’. ‘Reply’ sẽ cần ‘to’, và ‘understanding’ không được dùng sau ‘did not’."
         }
       ]
     },

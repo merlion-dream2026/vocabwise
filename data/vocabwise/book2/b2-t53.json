@@ -587,7 +587,8 @@
             "C": "building"
           },
           "answer": "A",
-          "explanation": "After 'to', use the base verb 'develop'."
+          "explanation": "After 'to', use the base verb 'develop'.",
+          "explanation_vi": "Sau 'to', sử dụng verb dạng gốc 'develop'."
         },
         {
           "id": 2,
@@ -599,7 +600,8 @@
             "C": "choosing"
           },
           "answer": "B",
-          "explanation": "A plural noun is needed after 'formal': 'decisions'."
+          "explanation": "A plural noun is needed after 'formal': 'decisions'.",
+          "explanation_vi": "Cần một plural noun sau 'formal': 'decisions'."
         },
         {
           "id": 3,
@@ -611,7 +613,8 @@
             "C": "impact"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'The': 'impact'. The other options are adjectives."
+          "explanation": "A noun is needed after 'The': 'impact'. The other options are adjectives.",
+          "explanation_vi": "Cần một noun sau 'The': 'impact'. Các lựa chọn khác là adjectives."
         },
         {
           "id": 4,
@@ -623,7 +626,8 @@
             "C": "devise"
           },
           "answer": "A",
-          "explanation": "A singular countable noun is needed after 'A learning': 'machine'."
+          "explanation": "A singular countable noun is needed after 'A learning': 'machine'.",
+          "explanation_vi": "Cần một singular noun có thể đếm được sau 'A learning': 'machine'."
         },
         {
           "id": 5,
@@ -635,7 +639,8 @@
             "C": "fairness and justice"
           },
           "answer": "A",
-          "explanation": "An adjective phrase is needed after 'is': 'morally right'."
+          "explanation": "An adjective phrase is needed after 'is': 'morally right'.",
+          "explanation_vi": "Cần một cụm adjective sau 'is': 'morally right'."
         }
       ]
     },

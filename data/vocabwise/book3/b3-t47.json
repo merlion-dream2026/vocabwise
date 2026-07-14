@@ -503,7 +503,8 @@
             "C": "foreshadowed"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'uses' as the object — 'foreshadowing', not the bare verb 'foreshadow'."
+          "explanation": "A noun is required after 'uses' as the object — 'foreshadowing', not the bare verb 'foreshadow'.",
+          "explanation_vi": "Cần một noun sau 'uses' làm tân ngữ — 'foreshadowing', không phải verb 'foreshadow' ở dạng nguyên thể."
         },
         {
           "id": 2,
@@ -515,7 +516,8 @@
             "C": "protagonists'"
           },
           "answer": "A",
-          "explanation": "After 'The novel's', use the singular noun 'protagonist' as the subject of 'undergoes'. A second possessive ending is incorrect here."
+          "explanation": "After 'The novel's', use the singular noun 'protagonist' as the subject of 'undergoes'. A second possessive ending is incorrect here.",
+          "explanation_vi": "Sau 'The novel's', dùng danh từ số ít 'protagonist' làm chủ ngữ của 'undergoes'. Đuôi sở hữu thứ hai là sai ở đây."
         },
         {
           "id": 3,
@@ -527,7 +529,8 @@
             "C": "subversion"
           },
           "answer": "B",
-          "explanation": "After 'managed to', the infinitive form is required — 'subvert', not the gerund 'subverting'."
+          "explanation": "After 'managed to', the infinitive form is required — 'subvert', not the gerund 'subverting'.",
+          "explanation_vi": "Sau 'managed to', cần dạng infinitive — 'subvert', không phải dạng danh động từ 'subverting'."
         },
         {
           "id": 4,
@@ -539,7 +542,8 @@
             "C": "themes"
           },
           "answer": "A",
-          "explanation": "'Thematic' is the adjective form needed to modify the noun 'message' — 'theme' alone cannot function as an adjective here."
+          "explanation": "'Thematic' is the adjective form needed to modify the noun 'message' — 'theme' alone cannot function as an adjective here.",
+          "explanation_vi": "'Thematic' là dạng adjective cần để điều chỉnh noun 'message' — 'theme' không thể hoạt động như adjective ở đây."
         },
         {
           "id": 5,
@@ -551,7 +555,8 @@
             "C": "characterisation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'characterisation', not the verb 'characterise'."
+          "explanation": "A noun is required as the subject of the sentence — 'characterisation', not the verb 'characterise'.",
+          "explanation_vi": "Cần một noun làm chủ ngữ của câu — 'characterisation', không phải verb 'characterise'."
         }
       ]
     },

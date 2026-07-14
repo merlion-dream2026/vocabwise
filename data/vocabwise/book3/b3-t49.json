@@ -507,7 +507,8 @@
             "C": "pacer"
           },
           "answer": "A",
-          "explanation": "A noun is required after the possessive phrase 'The speaker's erratic' — 'pacing'."
+          "explanation": "A noun is required after the possessive phrase 'The speaker's erratic' — 'pacing'.",
+          "explanation_vi": "Cần một noun sau possessive cụm 'The speaker's erratic' — 'pacing'."
         },
         {
           "id": 2,
@@ -519,7 +520,8 @@
             "C": "confidence"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'confidence', not the adjective 'confident'."
+          "explanation": "A noun is required as the subject of the sentence — 'confidence', not the adjective 'confident'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'confidence', không phải adjective 'confident'."
         },
         {
           "id": 3,
@@ -531,7 +533,8 @@
             "C": "signposts"
           },
           "answer": "B",
-          "explanation": "'Signposting language' is the established term for language that guides an audience through a presentation. 'Signpostingly' is not a standard adverb."
+          "explanation": "'Signposting language' is the established term for language that guides an audience through a presentation. 'Signpostingly' is not a standard adverb.",
+          "explanation_vi": "'Signposting language' là thuật ngữ đã được thiết lập cho ngôn ngữ mà hướng dẫn khán giả qua một bài thuyết trình. 'Signpostingly' không phải là adverb chuẩn."
         },
         {
           "id": 4,
@@ -543,7 +546,8 @@
             "C": "engagement"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'The' to serve as the subject — 'engagement', not the verb 'engage'."
+          "explanation": "A noun is required after 'The' to serve as the subject — 'engagement', not the verb 'engage'.",
+          "explanation_vi": "Cần một noun sau 'The' để làm subject — 'engagement', không phải verb 'engage'."
         },
         {
           "id": 5,
@@ -555,7 +559,8 @@
             "C": "structuring"
           },
           "answer": "A",
-          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'structure'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'structure'.",
+          "explanation_vi": "Sau infinitive 'to', dùng dạng cơ bản của verb: 'structure'."
         }
       ]
     },

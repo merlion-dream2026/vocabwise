@@ -512,7 +512,8 @@
             "C": "inference"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'inference', not the verb 'infer'."
+          "explanation": "A noun is required as the subject of the sentence — 'inference', not the verb 'infer'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'inference', không phải verb 'infer'."
         },
         {
           "id": 2,
@@ -524,7 +525,8 @@
             "C": "fallaciously"
           },
           "answer": "A",
-          "explanation": "A countable noun is needed after 'a' — 'fallacy' (a specific logical flaw), not the abstract noun 'fallaciousness'."
+          "explanation": "A countable noun is needed after 'a' — 'fallacy' (a specific logical flaw), not the abstract noun 'fallaciousness'.",
+          "explanation_vi": "Cần một noun có thể đếm sau 'a' — 'fallacy' (một lỗi logic cụ thể), không phải noun trừu tượng 'fallaciousness'."
         },
         {
           "id": 3,
@@ -536,7 +538,8 @@
             "C": "subjectively"
           },
           "answer": "B",
-          "explanation": "'Subjective' is an adjective and cannot function as a verb here; the correct word is 'question', meaning to examine critically."
+          "explanation": "'Subjective' is an adjective and cannot function as a verb here; the correct word is 'question', meaning to examine critically.",
+          "explanation_vi": "'Subjective' là một adjective và không thể hoạt động như một verb ở đây; từ đúng là 'question', có nghĩa là xem xét một cách phê phán."
         },
         {
           "id": 4,
@@ -548,7 +551,8 @@
             "C": "empiricism"
           },
           "answer": "B",
-          "explanation": "An adjective modifying 'reason' is needed; 'pure reason' is the established philosophical term — 'empirically' is an adverb and does not fit grammatically before a noun."
+          "explanation": "An adjective modifying 'reason' is needed; 'pure reason' is the established philosophical term — 'empirically' is an adverb and does not fit grammatically before a noun.",
+          "explanation_vi": "Cần một adjective bổ nghĩa cho 'reason'; 'pure reason' là thuật ngữ triết học đã được thiết lập — 'empirically' là một adverb và không phù hợp về mặt ngữ pháp trước một noun."
         },
         {
           "id": 5,
@@ -560,7 +564,8 @@
             "C": "valid"
           },
           "answer": "C",
-          "explanation": "A predicate adjective is required after 'was' — 'valid', not the present participle 'validating', which implies an ongoing action rather than a quality."
+          "explanation": "A predicate adjective is required after 'was' — 'valid', not the present participle 'validating', which implies an ongoing action rather than a quality.",
+          "explanation_vi": "Cần một adjective vị ngữ sau 'was' — 'valid', không phải dạng hiện tại phân từ 'validating', vì nó ngụ ý một hành động đang diễn ra thay vì một đặc tính."
         }
       ]
     },

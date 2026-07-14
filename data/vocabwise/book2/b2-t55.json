@@ -588,7 +588,8 @@
             "C": "funding"
           },
           "answer": "A",
-          "explanation": "'Research grant' is the standard noun phrase for money formally awarded to support a research project."
+          "explanation": "'Research grant' is the standard noun phrase for money formally awarded to support a research project.",
+          "explanation_vi": "'Research grant' là một chuẩn noun phrase cho tiền được trao một cách chính thức để hỗ trợ một dự án nghiên cứu."
         },
         {
           "id": 2,
@@ -600,7 +601,8 @@
             "C": "experiments"
           },
           "answer": "C",
-          "explanation": "After a number, use the plural noun 'experiments'."
+          "explanation": "After a number, use the plural noun 'experiments'.",
+          "explanation_vi": "Sau một số, dùng một plural noun 'experiments'."
         },
         {
           "id": 3,
@@ -612,7 +614,8 @@
             "C": "rightly"
           },
           "answer": "A",
-          "explanation": "An adjective is needed after 'be': 'ethical'."
+          "explanation": "An adjective is needed after 'be': 'ethical'.",
+          "explanation_vi": "Cần một adjective sau 'be': 'ethical'."
         },
         {
           "id": 4,
@@ -624,7 +627,8 @@
             "C": "finding out"
           },
           "answer": "B",
-          "explanation": "After 'to', use the base verb 'discover'."
+          "explanation": "After 'to', use the base verb 'discover'.",
+          "explanation_vi": "Sau 'to', dùng một verb dạng gốc 'discover'."
         },
         {
           "id": 5,
@@ -636,7 +640,8 @@
             "C": "effectiveness"
           },
           "answer": "C",
-          "explanation": "'Effectiveness' is the noun meaning how well a drug works. 'Effective' and 'impactful' are adjectives, while 'resulting' is a participle."
+          "explanation": "'Effectiveness' is the noun meaning how well a drug works. 'Effective' and 'impactful' are adjectives, while 'resulting' is a participle.",
+          "explanation_vi": "'Effectiveness' là một noun chỉ mức độ mà một thuốc hoạt động tốt. 'Effective' và 'impactful' là adjectives, trong khi 'resulting' là một động từ phân từ."
         }
       ]
     },

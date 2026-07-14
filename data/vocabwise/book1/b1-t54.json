@@ -508,7 +508,8 @@
             "C": "hero"
           },
           "answer": "C",
-          "explanation": "A 'villain' is the bad character in a story who causes trouble. Someone who saves others and does brave things is a 'hero', not a villain."
+          "explanation": "A 'villain' is the bad character in a story who causes trouble. Someone who saves others and does brave things is a 'hero', not a villain.",
+          "explanation_vi": "Một 'villain' là nhân vật xấu trong một câu chuyện gây rắc rối. Người cứu người khác và làm những việc dũng cảm là một 'hero', không phải một kẻ ác."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "detail"
           },
           "answer": "A",
-          "explanation": "A story has three main parts: a beginning, a middle, and an end. A 'narrator' is the person who tells the story — not a structural part of it."
+          "explanation": "A story has three main parts: a beginning, a middle, and an end. A 'narrator' is the person who tells the story — not a structural part of it.",
+          "explanation_vi": "Một câu chuyện có ba phần chính: phần mở đầu, phần giữa, và phần kết. Một 'narrator' là người kể câu chuyện — không phải là một phần cấu trúc của nó."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "made-up"
           },
           "answer": "C",
-          "explanation": "'Real' means actually existing in the world. Because the sentence says dragons only exist in fiction, the correct word is 'made-up', not real."
+          "explanation": "'Real' means actually existing in the world. Because the sentence says dragons only exist in fiction, the correct word is 'made-up', not real.",
+          "explanation_vi": "‘Real’ có nghĩa là thực sự tồn tại trong thế giới. Vì câu này nói rằng rồng chỉ tồn tại trong tiểu thuyết, từ đúng là 'made-up', không phải thực."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "imagine"
           },
           "answer": "A",
-          "explanation": "'Imagine' means to create a picture or idea in your mind. To say a story again in your own words after reading it is to 'retell' it."
+          "explanation": "'Imagine' means to create a picture or idea in your mind. To say a story again in your own words after reading it is to 'retell' it.",
+          "explanation_vi": "‘Imagine’ có nghĩa là tạo ra một hình ảnh hoặc ý tưởng trong tâm trí của bạn. Nói lại một câu chuyện bằng lời của mình sau khi đọc nó là 'retell' nó."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "moral"
           },
           "answer": "C",
-          "explanation": "The 'setting' is the time and place where the story happens. The lesson or message that a story teaches us about life is called the 'moral'."
+          "explanation": "The 'setting' is the time and place where the story happens. The lesson or message that a story teaches us about life is called the 'moral'.",
+          "explanation_vi": "‘setting’ là thời gian và địa điểm mà câu chuyện diễn ra. Bài học hoặc thông điệp mà một câu chuyện truyền đạt cho chúng ta về cuộc sống được gọi là 'moral'."
         }
       ]
     },

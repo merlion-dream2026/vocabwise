@@ -508,7 +508,8 @@
             "C": "divided by"
           },
           "answer": "B",
-          "explanation": "Four multiplied by four equals sixteen, not eight. When you add four and four together, you get eight. The correct word here is 'plus' (four plus four equals eight)."
+          "explanation": "Four multiplied by four equals sixteen, not eight. When you add four and four together, you get eight. The correct word here is 'plus' (four plus four equals eight).",
+          "explanation_vi": "Bốn nhân bốn bằng mười sáu, không phải tám. Khi bạn cộng bốn và bốn lại, bạn được tám. Từ đúng ở đây là 'plus' (bốn plus bốn bằng tám)."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "result"
           },
           "answer": "C",
-          "explanation": "After 'the', a noun is needed. 'Result' is the noun for the outcome of a calculation; 'calculate' is a verb and 'numerical' is an adjective."
+          "explanation": "After 'the', a noun is needed. 'Result' is the noun for the outcome of a calculation; 'calculate' is a verb and 'numerical' is an adjective.",
+          "explanation_vi": "Sau 'the', cần một noun. 'Result' là noun cho kết quả của một phép tính; 'calculate' là verb và 'numerical' là adjective."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "equal"
           },
           "answer": "A",
-          "explanation": "After the linking verb 'was', use an adjective. 'Simple' describes a question that is easy to answer; 'wrongly' is an adverb and 'equal' does not fit the meaning."
+          "explanation": "After the linking verb 'was', use an adjective. 'Simple' describes a question that is easy to answer; 'wrongly' is an adverb and 'equal' does not fit the meaning.",
+          "explanation_vi": "Sau động từ liên kết 'was', dùng một adjective. 'Simple' mô tả một câu hỏi dễ trả lời; 'wrongly' là một adverb và 'equal' không phù hợp với nghĩa."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "subtract"
           },
           "answer": "C",
-          "explanation": "'Count' means to say numbers in order or find how many there are. When you take one number away from another (15 − 7 = 8), you 'subtract' it."
+          "explanation": "'Count' means to say numbers in order or find how many there are. When you take one number away from another (15 − 7 = 8), you 'subtract' it.",
+          "explanation_vi": "'Count' có nghĩa là nói các số theo thứ tự hoặc tìm số lượng. Khi bạn lấy một số trừ đi số khác (15 − 7 = 8), bạn 'subtract' nó."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "equals"
           },
           "answer": "C",
-          "explanation": "'Adds' is used for addition (e.g. 3 + 3 = 6). When you state the result of a multiplication, you use 'equals' (three times three equals nine)."
+          "explanation": "'Adds' is used for addition (e.g. 3 + 3 = 6). When you state the result of a multiplication, you use 'equals' (three times three equals nine).",
+          "explanation_vi": "'Adds' được dùng cho phép cộng (ví dụ 3 + 3 = 6). Khi bạn nêu kết quả của phép nhân, bạn dùng 'equals' (ba nhân ba equals chín)."
         }
       ]
     },

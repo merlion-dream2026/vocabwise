@@ -551,7 +551,8 @@
             "C": "spine"
           },
           "answer": "B",
-          "explanation": "The 'skeleton' is the complete framework of all 206 bones; the 'spine' is just one part of it — the column of bones in the back."
+          "explanation": "The 'skeleton' is the complete framework of all 206 bones; the 'spine' is just one part of it — the column of bones in the back.",
+          "explanation_vi": "'skeleton' là khung hoàn chỉnh của toàn bộ 206 xương; 'spine' chỉ là một phần của nó — cột xương ở lưng."
         },
         {
           "id": 2,
@@ -563,7 +564,8 @@
             "C": "fighting systemic"
           },
           "answer": "A",
-          "explanation": "'Immune system' is the correct scientific term for the body's natural defence against infection and disease."
+          "explanation": "'Immune system' is the correct scientific term for the body's natural defence against infection and disease.",
+          "explanation_vi": "'Immune system' là thuật ngữ khoa học đúng cho hệ thống phòng thủ tự nhiên của cơ thể chống lại nhiễm trùng và bệnh."
         },
         {
           "id": 3,
@@ -575,7 +577,8 @@
             "C": "hormones"
           },
           "answer": "C",
-          "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes. Vitamins are nutrients obtained from food."
+          "explanation": "'Hormones' are chemical messengers produced by the body to regulate internal processes. Vitamins are nutrients obtained from food.",
+          "explanation_vi": "'Hormones' là các chất truyền tin hoá học do cơ thể sản xuất để điều chỉnh các quá trình nội bộ. Các chất dinh dưỡng được lấy từ thực phẩm."
         },
         {
           "id": 4,
@@ -587,7 +590,8 @@
             "C": "cardiovascular"
           },
           "answer": "B",
-          "explanation": "The 'respiratory system' controls breathing and oxygen intake; the 'cardiovascular system' controls blood flow — both work together, but breathing is specifically respiratory."
+          "explanation": "The 'respiratory system' controls breathing and oxygen intake; the 'cardiovascular system' controls blood flow — both work together, but breathing is specifically respiratory.",
+          "explanation_vi": "'respiratory system' điều khiển việc thở và hấp thu oxy; 'cardiovascular system' điều khiển lưu lượng máu — cả hai hoạt động cùng nhau, nhưng việc thở thuộc về hệ hô hấp."
         },
         {
           "id": 5,
@@ -599,7 +603,8 @@
             "C": "tissues"
           },
           "answer": "A",
-          "explanation": "'Genes' are the specific segments of DNA that carry inherited traits; 'cells' are the basic units of life but do not individually determine inherited characteristics."
+          "explanation": "'Genes' are the specific segments of DNA that carry inherited traits; 'cells' are the basic units of life but do not individually determine inherited characteristics.",
+          "explanation_vi": "'Genes' là các đoạn axit deoxyribonucleic cụ thể mang các đặc tính di truyền; 'cells' là các đơn vị cơ bản của sự sống nhưng không tự mình quyết định các đặc điểm di truyền."
         }
       ]
     },

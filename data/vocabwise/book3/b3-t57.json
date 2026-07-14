@@ -506,7 +506,8 @@
             "C": "transparented"
           },
           "answer": "B",
-          "explanation": "A noun is required after the possessive 'platform's' to serve as the subject — 'transparency', not the adjective 'transparent'."
+          "explanation": "A noun is required after the possessive 'platform's' to serve as the subject — 'transparency', not the adjective 'transparent'.",
+          "explanation_vi": "Cần một noun sau possessive 'platform's' để làm subject — 'transparency', không phải adjective 'transparent'."
         },
         {
           "id": 2,
@@ -518,7 +519,8 @@
             "C": "autonomise"
           },
           "answer": "B",
-          "explanation": "An adverb is needed to modify the verb 'make' — 'autonomously', not the noun 'autonomy'."
+          "explanation": "An adverb is needed to modify the verb 'make' — 'autonomously', not the noun 'autonomy'.",
+          "explanation_vi": "Cần một adverb để làm modifier cho verb 'make' — 'autonomously', không phải noun 'autonomy'."
         },
         {
           "id": 3,
@@ -530,7 +532,8 @@
             "C": "consent"
           },
           "answer": "C",
-          "explanation": "A noun is required after the adjective 'explicit' — 'consent', not the present participle 'consenting'."
+          "explanation": "A noun is required after the adjective 'explicit' — 'consent', not the present participle 'consenting'.",
+          "explanation_vi": "Cần một noun sau adjective 'explicit' — 'consent', không phải dạng hiện tại phân từ 'consenting'."
         },
         {
           "id": 4,
@@ -542,7 +545,8 @@
             "C": "account"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the adjective 'greater' — 'accountability', not the adjective 'accountable'."
+          "explanation": "A noun is needed after the adjective 'greater' — 'accountability', not the adjective 'accountable'.",
+          "explanation_vi": "Cần một noun sau adjective 'greater' — 'accountability', không phải adjective 'accountable'."
         },
         {
           "id": 5,
@@ -554,7 +558,8 @@
             "C": "manipulatively"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the clause — 'manipulation', not the adjective 'manipulative'."
+          "explanation": "A noun is required as the subject of the clause — 'manipulation', not the adjective 'manipulative'.",
+          "explanation_vi": "Cần một noun làm subject của clause — 'manipulation', không phải adjective 'manipulative'."
         }
       ]
     },

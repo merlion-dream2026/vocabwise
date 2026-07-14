@@ -510,7 +510,8 @@
             "C": "cohesion"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the clause — 'cohesion', not the adjective 'cohesive'."
+          "explanation": "A noun is required as the subject of the clause — 'cohesion', not the adjective 'cohesive'.",
+          "explanation_vi": "Cần một noun làm subject của mệnh đề — 'cohesion', không phải adjective 'cohesive'."
         },
         {
           "id": 2,
@@ -522,7 +523,8 @@
             "C": "hedges"
           },
           "answer": "C",
-          "explanation": "A finite present-tense verb is required with the singular subject 'The article' — 'hedges'. 'Hedging' would require an auxiliary verb."
+          "explanation": "A finite present-tense verb is required with the singular subject 'The article' — 'hedges'. 'Hedging' would require an auxiliary verb.",
+          "explanation_vi": "Cần một verb hữu hạn ở thì hiện tại với singular subject 'The article' — 'hedges'. 'Hedging' sẽ cần một động từ phụ."
         },
         {
           "id": 3,
@@ -534,7 +536,8 @@
             "C": "synthesis"
           },
           "answer": "A",
-          "explanation": "After 'ability to', the base form of the verb is required — 'synthesise', not the gerund 'synthesising'."
+          "explanation": "After 'ability to', the base form of the verb is required — 'synthesise', not the gerund 'synthesising'.",
+          "explanation_vi": "Sau 'ability to', cần dạng cơ bản của verb — 'synthesise', không phải gerund 'synthesising'."
         },
         {
           "id": 4,
@@ -546,7 +549,8 @@
             "C": "stances"
           },
           "answer": "A",
-          "explanation": "'Stance' is the noun for a position on an issue. 'Stood' is a verb form and cannot follow 'a cautious'."
+          "explanation": "'Stance' is the noun for a position on an issue. 'Stood' is a verb form and cannot follow 'a cautious'.",
+          "explanation_vi": "'Stance' là noun cho một vị trí về một vấn đề. 'Stood' là dạng verb và không thể đứng sau 'a cautious'."
         },
         {
           "id": 5,
@@ -558,7 +562,8 @@
             "C": "academic"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify the noun 'integrity' — 'academic integrity' is the established compound noun; 'academically' is an adverb and cannot modify a noun."
+          "explanation": "An adjective is needed to modify the noun 'integrity' — 'academic integrity' is the established compound noun; 'academically' is an adverb and cannot modify a noun.",
+          "explanation_vi": "Cần một adjective để sửa đổi noun 'integrity' — 'academic integrity' là một cụm danh từ đã được thiết lập; 'academically' là adverb và không thể sửa đổi một noun."
         }
       ]
     },

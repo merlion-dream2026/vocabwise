@@ -541,7 +541,8 @@
             "C": "discriminatory"
           },
           "answer": "A",
-          "explanation": "The noun form 'discrimination' is needed after 'faced'."
+          "explanation": "The noun form 'discrimination' is needed after 'faced'.",
+          "explanation_vi": "Dạng noun 'discrimination' cần được đặt sau 'faced'."
         },
         {
           "id": 2,
@@ -553,7 +554,8 @@
             "C": "including"
           },
           "answer": "B",
-          "explanation": "'Inclusion' is the noun form needed here."
+          "explanation": "'Inclusion' is the noun form needed here.",
+          "explanation_vi": "'Inclusion' là dạng noun cần ở đây."
         },
         {
           "id": 3,
@@ -565,7 +567,8 @@
             "C": "prejudiced"
           },
           "answer": "B",
-          "explanation": "Plural needed: many prejudices."
+          "explanation": "Plural needed: many prejudices.",
+          "explanation_vi": "Cần plural: nhiều định kiến."
         },
         {
           "id": 4,
@@ -577,7 +580,8 @@
             "C": "awared"
           },
           "answer": "A",
-          "explanation": "'Awareness' is the noun form — not 'aware'."
+          "explanation": "'Awareness' is the noun form — not 'aware'.",
+          "explanation_vi": "'Awareness' là dạng noun — không phải 'aware'."
         },
         {
           "id": 5,
@@ -589,7 +593,8 @@
             "C": "barriered"
           },
           "answer": "B",
-          "explanation": "Plural needed: breaking down barriers."
+          "explanation": "Plural needed: breaking down barriers.",
+          "explanation_vi": "Cần plural: phá vỡ rào cản."
         }
       ]
     },

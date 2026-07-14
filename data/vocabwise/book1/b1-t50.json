@@ -517,7 +517,8 @@
             "C": "opposite"
           },
           "answer": "A",
-          "explanation": "'Go left' means to turn to the left side, not to continue forward. When someone tells you to keep going without turning, the correct word is 'straight' — meaning forward in a direct line."
+          "explanation": "'Go left' means to turn to the left side, not to continue forward. When someone tells you to keep going without turning, the correct word is 'straight' — meaning forward in a direct line.",
+          "explanation_vi": "'Go left' có nghĩa là quay sang phía bên trái, không phải tiếp tục đi thẳng. Khi ai đó bảo bạn tiếp tục di chuyển mà không quay, từ đúng là 'straight' — nghĩa là đi thẳng trong một đường thẳng."
         },
         {
           "id": 2,
@@ -529,7 +530,8 @@
             "C": "near"
           },
           "answer": "C",
-          "explanation": "'Far' means a long distance away. If something is only a two-minute walk, it is not far — it is 'near', meaning a short distance away."
+          "explanation": "'Far' means a long distance away. If something is only a two-minute walk, it is not far — it is 'near', meaning a short distance away.",
+          "explanation_vi": "'Far' có nghĩa là một khoảng cách xa. Nếu một việc chỉ mất hai phút đi bộ, nó không phải là 'far' — mà là 'near', nghĩa là một khoảng cách ngắn."
         },
         {
           "id": 3,
@@ -541,7 +543,8 @@
             "C": "reaching"
           },
           "answer": "B",
-          "explanation": "After 'will', use a base-form verb. 'Pass' means to go by the building; 'reaching' is grammatically incorrect after 'will', and you do not 'cross' a building."
+          "explanation": "After 'will', use a base-form verb. 'Pass' means to go by the building; 'reaching' is grammatically incorrect after 'will', and you do not 'cross' a building.",
+          "explanation_vi": "Sau 'will', cần dùng động từ ở dạng nguyên mẫu. 'Pass' có nghĩa là đi qua tòa nhà; 'reaching' là dạng sai về ngữ pháp sau 'will', và bạn không 'cross' một tòa nhà."
         },
         {
           "id": 4,
@@ -553,7 +556,8 @@
             "C": "sign"
           },
           "answer": "B",
-          "explanation": "After 'take the first', a noun is needed. 'Turn' is the correct noun in the direction phrase 'take the first turn'; 'turned' is a verb form and 'cornering' does not fit here."
+          "explanation": "After 'take the first', a noun is needed. 'Turn' is the correct noun in the direction phrase 'take the first turn'; 'turned' is a verb form and 'cornering' does not fit here.",
+          "explanation_vi": "Sau 'take the first', cần có một danh từ. 'Turn' là danh từ đúng trong cụm chỉ hướng 'take the first turn'; 'turned' là dạng động từ và 'cornering' không phù hợp ở đây."
         },
         {
           "id": 5,
@@ -565,7 +569,8 @@
             "C": "far from"
           },
           "answer": "C",
-          "explanation": "'Near' means close by. If two places are on completely different sides of the city, they cannot be near each other. The correct phrase is 'far from' — meaning a long distance away."
+          "explanation": "'Near' means close by. If two places are on completely different sides of the city, they cannot be near each other. The correct phrase is 'far from' — meaning a long distance away.",
+          "explanation_vi": "'Near' có nghĩa là gần kề. Nếu hai địa điểm nằm ở hai phía hoàn toàn khác nhau của thành phố, chúng không thể 'near' nhau. Cụm đúng là 'far from' — nghĩa là một khoảng cách xa."
         }
       ]
     },

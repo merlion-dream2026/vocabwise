@@ -511,7 +511,8 @@
             "C": "enjoys"
           },
           "answer": "C",
-          "explanation": "Third-person singular 'she' needs 'enjoys'. Because 'enjoy' ends in a vowel + y, simply add 's'; do not change the 'y'."
+          "explanation": "Third-person singular 'she' needs 'enjoys'. Because 'enjoy' ends in a vowel + y, simply add 's'; do not change the 'y'.",
+          "explanation_vi": "Ngôi thứ ba số ít 'she' cần 'enjoys'. Vì 'enjoy' kết thúc bằng nguyên âm + y, chỉ cần thêm 's'; không thay đổi 'y'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "reading"
           },
           "answer": "A",
-          "explanation": "'Read' is an irregular verb: read → read (past simple, same spelling, different pronunciation: /red/)."
+          "explanation": "'Read' is an irregular verb: read → read (past simple, same spelling, different pronunciation: /red/).",
+          "explanation_vi": "'Read' là một verb bất quy tắc: read → read (past simple, cùng cách viết, phát âm khác: /red/)."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "singing"
           },
           "answer": "A",
-          "explanation": "'Sing' is an irregular verb: sing → sang (past simple). 'Singed' does not exist in this context."
+          "explanation": "'Sing' is an irregular verb: sing → sang (past simple). 'Singed' does not exist in this context.",
+          "explanation_vi": "'Sing' là một verb bất quy tắc: sing → sang (past simple). 'Singed' không tồn tại trong ngữ cảnh này."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "pastime"
           },
           "answer": "C",
-          "explanation": "'Pastime' is one word with no hyphen and no double 't'. It means a leisure activity you enjoy regularly."
+          "explanation": "'Pastime' is one word with no hyphen and no double 't'. It means a leisure activity you enjoy regularly.",
+          "explanation_vi": "'Pastime' là một từ đơn không có dấu gạch nối và không có 't' kép. Nó có nghĩa là một hoạt động giải trí mà bạn thường xuyên thích."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "drawn"
           },
           "answer": "B",
-          "explanation": "'Draw' is an irregular verb: draw → drew (past simple). 'Drawed' does not exist in English."
+          "explanation": "'Draw' is an irregular verb: draw → drew (past simple). 'Drawed' does not exist in English.",
+          "explanation_vi": "'Draw' là một verb bất quy tắc: draw → drew (past simple). 'Drawed' không tồn tại trong tiếng Anh."
         }
       ]
     },

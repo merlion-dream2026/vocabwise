@@ -540,7 +540,8 @@
             "C": "citizenship"
           },
           "answer": "A",
-          "explanation": "'Every' takes a singular noun: every citizen."
+          "explanation": "'Every' takes a singular noun: every citizen.",
+          "explanation_vi": "'Every' takes a singular noun: mọi công dân."
         },
         {
           "id": 2,
@@ -552,7 +553,8 @@
             "C": "political"
           },
           "answer": "B",
-          "explanation": "'Policy' is a specific plan — 'politics' is the general activity."
+          "explanation": "'Policy' is a specific plan — 'politics' is the general activity.",
+          "explanation_vi": "'Policy' là một kế hoạch cụ thể — 'politics' là hoạt động chung."
         },
         {
           "id": 3,
@@ -564,7 +566,8 @@
             "C": "The lawmaker"
           },
           "answer": "A",
-          "explanation": "Plural needed: multiple people from both parties."
+          "explanation": "Plural needed: multiple people from both parties.",
+          "explanation_vi": "Plural cần: nhiều người từ cả hai đảng."
         },
         {
           "id": 4,
@@ -576,7 +579,8 @@
             "C": "governing"
           },
           "answer": "B",
-          "explanation": "Passive voice requires past participle: is governed."
+          "explanation": "Passive voice requires past participle: is governed.",
+          "explanation_vi": "Câu bị động yêu cầu past participle: được quản lý."
         },
         {
           "id": 5,
@@ -588,7 +592,8 @@
             "C": "opposed"
           },
           "answer": "B",
-          "explanation": "'Opposition' is the noun — the party not in power."
+          "explanation": "'Opposition' is the noun — the party not in power.",
+          "explanation_vi": "'Opposition' là noun — đảng không nắm quyền."
         }
       ]
     },

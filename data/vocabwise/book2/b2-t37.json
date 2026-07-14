@@ -562,7 +562,8 @@
             "C": "audition"
           },
           "answer": "A",
-          "explanation": "'Spectators' are people who watch a live sporting event in person. 'Viewing' names an activity, and an audition is a performance assessment."
+          "explanation": "'Spectators' are people who watch a live sporting event in person. 'Viewing' names an activity, and an audition is a performance assessment.",
+          "explanation_vi": "'Spectators' là những người xem một sự kiện thể thao trực tiếp tại chỗ. 'Viewing' chỉ một hoạt động, và buổi thử diễn là một đánh giá khả năng biểu diễn."
         },
         {
           "id": 2,
@@ -574,7 +575,8 @@
             "C": "championship"
           },
           "answer": "A",
-          "explanation": "'Professional athlete' is the standard term for someone who competes in sport as a career. The other options are not grammatical noun phrases."
+          "explanation": "'Professional athlete' is the standard term for someone who competes in sport as a career. The other options are not grammatical noun phrases.",
+          "explanation_vi": "'Professional athlete' là thuật ngữ chuẩn chỉ người thi đấu thể thao như một nghề nghiệp. Các lựa chọn còn lại không phải là noun phrase ngữ pháp."
         },
         {
           "id": 3,
@@ -586,7 +588,8 @@
             "C": "sponsor"
           },
           "answer": "C",
-          "explanation": "A singular noun for the company is needed: 'sponsor'. 'Sponsorship' and 'backing' name the support itself, while 'supportive' is an adjective."
+          "explanation": "A singular noun for the company is needed: 'sponsor'. 'Sponsorship' and 'backing' name the support itself, while 'supportive' is an adjective.",
+          "explanation_vi": "Cần một noun số ít cho công ty: 'sponsor'. 'Sponsorship' và 'backing' chỉ sự hỗ trợ tự nó, trong khi 'supportive' là adjective."
         },
         {
           "id": 4,
@@ -598,7 +601,8 @@
             "C": "participation"
           },
           "answer": "A",
-          "explanation": "After 'the chance to', use the base verb 'compete'. 'Fair play' and 'participation' are nouns."
+          "explanation": "After 'the chance to', use the base verb 'compete'. 'Fair play' and 'participation' are nouns.",
+          "explanation_vi": "Sau 'the chance to', dùng verb cơ bản 'compete'. 'Fair play' và 'participation' là nouns."
         },
         {
           "id": 5,
@@ -610,7 +614,8 @@
             "C": "short influence"
           },
           "answer": "B",
-          "explanation": "'Lasting impact' describes an effect that continues for a long time, matching 'for decades'."
+          "explanation": "'Lasting impact' describes an effect that continues for a long time, matching 'for decades'.",
+          "explanation_vi": "'Lasting impact' mô tả một hiệu ứng kéo dài trong thời gian dài, phù hợp với 'for decades'."
         }
       ]
     },

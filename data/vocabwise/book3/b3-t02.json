@@ -496,7 +496,8 @@
             "C": "burnout"
           },
           "answer": "C",
-          "explanation": "'Burnout' is the compound noun describing occupational exhaustion; 'burn' alone does not carry this meaning."
+          "explanation": "'Burnout' is the compound noun describing occupational exhaustion; 'burn' alone does not carry this meaning.",
+          "explanation_vi": "'Burnout' là danh từ ghép mô tả sự kiệt sức trong công việc; 'burn' một mình không mang ý nghĩa này."
         },
         {
           "id": 2,
@@ -508,7 +509,8 @@
             "C": "appraisal"
           },
           "answer": "A",
-          "explanation": "'Aspiration' means a strong desire or ambition to achieve something specific; 'vocation' implies a calling or profession rather than a goal like becoming a CEO."
+          "explanation": "'Aspiration' means a strong desire or ambition to achieve something specific; 'vocation' implies a calling or profession rather than a goal like becoming a CEO.",
+          "explanation_vi": "'Aspiration' nghĩa là một mong muốn hoặc tham vọng mạnh mẽ để đạt được điều gì đó cụ thể; 'vocation' ngụ ý một thiên chức hoặc nghề nghiệp hơn là một mục tiêu như trở thành CEO."
         },
         {
           "id": 3,
@@ -520,7 +522,8 @@
             "C": "remunerate"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'competitive' — 'remuneration', not the verb 'remunerate'."
+          "explanation": "A noun is required after 'competitive' — 'remuneration', not the verb 'remunerate'.",
+          "explanation_vi": "Cần một danh từ sau 'competitive' — 'remuneration', không phải động từ 'remunerate'."
         },
         {
           "id": 4,
@@ -532,7 +535,8 @@
             "C": "disillusioned"
           },
           "answer": "A",
-          "explanation": "A noun is required after the modifier 'Growing' — 'disillusionment', not the adjective 'disillusioned'."
+          "explanation": "A noun is required after the modifier 'Growing' — 'disillusionment', not the adjective 'disillusioned'.",
+          "explanation_vi": "Cần một danh từ sau bộ sửa đổi 'Growing' — 'disillusionment', không phải tính từ 'disillusioned'."
         },
         {
           "id": 5,
@@ -544,7 +548,8 @@
             "C": "appraising"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'performance' to complete the noun phrase — 'appraisal', not the verb 'appraise'."
+          "explanation": "A noun is needed after 'performance' to complete the noun phrase — 'appraisal', not the verb 'appraise'.",
+          "explanation_vi": "Cần một danh từ sau 'performance' để hoàn thành cụm danh từ — 'appraisal', không phải động từ 'appraise'."
         }
       ]
     },

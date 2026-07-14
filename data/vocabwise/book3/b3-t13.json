@@ -509,7 +509,8 @@
             "C": "disparately"
           },
           "answer": "A",
-          "explanation": "After the singular article 'A', use the singular noun 'disparity'. 'Disparities' is plural, and 'disparately' is an adverb."
+          "explanation": "After the singular article 'A', use the singular noun 'disparity'. 'Disparities' is plural, and 'disparately' is an adverb.",
+          "explanation_vi": "Sau singular article 'A', dùng singular noun 'disparity'. 'Disparities' là plural, và 'disparately' là một adverb."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "triages"
           },
           "answer": "B",
-          "explanation": "'Triage' functions as a noun modifier before 'protocols'; the past participle 'triaged' does not work as an adjective in this position."
+          "explanation": "'Triage' functions as a noun modifier before 'protocols'; the past participle 'triaged' does not work as an adjective in this position.",
+          "explanation_vi": "'Triage' hoạt động như bổ nghĩa cho noun trước 'protocols'; past participle 'triaged' không hoạt động như adjective ở vị trí này."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "mortality"
           },
           "answer": "C",
-          "explanation": "The plain noun 'mortality' is needed as the object of 'Reducing'; the possessive form 'mortality's' is grammatically incorrect here."
+          "explanation": "The plain noun 'mortality' is needed as the object of 'Reducing'; the possessive form 'mortality's' is grammatically incorrect here.",
+          "explanation_vi": "Cần noun đơn giản 'mortality' làm object của 'Reducing'; dạng sở hữu 'mortality's' ở đây không đúng ngữ pháp."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "provided"
           },
           "answer": "A",
-          "explanation": "The noun 'provision' is required as the subject. 'Provisional' is an adjective, and 'provided' is a past participle."
+          "explanation": "The noun 'provision' is required as the subject. 'Provisional' is an adjective, and 'provided' is a past participle.",
+          "explanation_vi": "Cần noun 'provision' làm subject. 'Provisional' là một adjective, và 'provided' là một past participle."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "allocation"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'fairer' to serve as the object of 'for' — 'allocation', not the verb 'allocate'."
+          "explanation": "A noun is required after 'fairer' to serve as the object of 'for' — 'allocation', not the verb 'allocate'.",
+          "explanation_vi": "Cần một noun sau 'fairer' để làm object của 'for' — 'allocation', không phải verb 'allocate'."
         }
       ]
     },

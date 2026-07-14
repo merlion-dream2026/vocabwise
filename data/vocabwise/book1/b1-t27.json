@@ -508,7 +508,8 @@
             "C": "missed"
           },
           "answer": "B",
-          "explanation": "'Forgot' means failed to remember. Someone who planned a big party did not forget their birthday — they 'celebrated' it."
+          "explanation": "'Forgot' means failed to remember. Someone who planned a big party did not forget their birthday — they 'celebrated' it.",
+          "explanation_vi": "'Forgot' nghĩa là không nhớ được. Người đã lên kế hoạch cho một bữa tiệc lớn không quên sinh nhật của họ — họ 'celebrated' nó."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "forgot"
           },
           "answer": "A",
-          "explanation": "'Ate' means consumed food. You do not eat candles — you 'blow out' candles on a birthday cake after making a wish."
+          "explanation": "'Ate' means consumed food. You do not eat candles — you 'blow out' candles on a birthday cake after making a wish.",
+          "explanation_vi": "'Ate' nghĩa là tiêu thụ thực phẩm. Bạn không ăn nến — bạn 'blow out' nến trên bánh sinh nhật sau khi ước nguyện."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "brought"
           },
           "answer": "C",
-          "explanation": "'Forgot' means failed to remember something. Guests who give presents at a party have 'brought' gifts, not forgotten them."
+          "explanation": "'Forgot' means failed to remember something. Guests who give presents at a party have 'brought' gifts, not forgotten them.",
+          "explanation_vi": "'Forgot' nghĩa là không nhớ được điều gì đó. Khách mời tặng quà tại bữa tiệc đã 'brought' quà, không quên chúng."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "gift"
           },
           "answer": "B",
-          "explanation": "A 'photo' is a picture taken by a camera — it is not something you wear. Something beautiful and pink with flowers that you put on is a 'dress'."
+          "explanation": "A 'photo' is a picture taken by a camera — it is not something you wear. Something beautiful and pink with flowers that you put on is a 'dress'.",
+          "explanation_vi": "Một 'photo' là một bức ảnh được chụp bằng máy ảnh — nó không phải là thứ bạn mặc. Một vật đẹp và màu hồng có hoa mà bạn mặc lên là một 'dress'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "special"
           },
           "answer": "C",
-          "explanation": "'Ordinary' means usual and not different from others. A party that people described as beautiful and unlike anything they had seen before is 'special', not ordinary."
+          "explanation": "'Ordinary' means usual and not different from others. A party that people described as beautiful and unlike anything they had seen before is 'special', not ordinary.",
+          "explanation_vi": "'Ordinary' nghĩa là thông thường và không khác gì người khác. Một bữa tiệc mà mọi người mô tả là đẹp và không giống bất cứ điều gì họ từng thấy trước đây là 'special', không bình thường."
         }
       ]
     },

@@ -566,7 +566,8 @@
             "C": "quitting"
           },
           "answer": "A",
-          "explanation": "A past-tense verb is needed: 'retired'."
+          "explanation": "A past-tense verb is needed: 'retired'.",
+          "explanation_vi": "Cần một động từ ở dạng past tense: 'retired'."
         },
         {
           "id": 2,
@@ -578,7 +579,8 @@
             "C": "medically care"
           },
           "answer": "A",
-          "explanation": "'Healthcare' is an uncountable noun and takes no apostrophe here."
+          "explanation": "'Healthcare' is an uncountable noun and takes no apostrophe here.",
+          "explanation_vi": "'Healthcare' là một noun không đếm được và không có dấu nháy đơn ở đây."
         },
         {
           "id": 3,
@@ -590,7 +592,8 @@
             "C": "independence"
           },
           "answer": "A",
-          "explanation": "An adjective is needed after 'is extremely': 'self-reliant'."
+          "explanation": "An adjective is needed after 'is extremely': 'self-reliant'.",
+          "explanation_vi": "Cần một adjective sau 'is extremely': 'self-reliant'."
         },
         {
           "id": 4,
@@ -602,7 +605,8 @@
             "C": "isolation"
           },
           "answer": "B",
-          "explanation": "An adjective is needed after 'felt deeply': 'lonely'."
+          "explanation": "An adjective is needed after 'felt deeply': 'lonely'.",
+          "explanation_vi": "Cần một adjective sau 'felt deeply': 'lonely'."
         },
         {
           "id": 5,
@@ -614,7 +618,8 @@
             "C": "contribute"
           },
           "answer": "C",
-          "explanation": "The plural subject 'volunteers' requires the base-form present verb 'contribute'."
+          "explanation": "The plural subject 'volunteers' requires the base-form present verb 'contribute'.",
+          "explanation_vi": "Chủ ngữ plural 'volunteers' yêu cầu động từ ở dạng nguyên mẫu 'contribute'."
         }
       ]
     },

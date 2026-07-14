@@ -506,7 +506,8 @@
             "C": "hypothetical"
           },
           "answer": "A",
-          "explanation": "A verb is required in the main clause — 'hypothesised' (past tense), not the adverb 'hypothetically'."
+          "explanation": "A verb is required in the main clause — 'hypothesised' (past tense), not the adverb 'hypothetically'.",
+          "explanation_vi": "Cần một verb trong mệnh đề chính — 'hypothesised' (past tense), không phải adverb 'hypothetically'."
         },
         {
           "id": 2,
@@ -518,7 +519,8 @@
             "C": "peer-reviewer"
           },
           "answer": "B",
-          "explanation": "After 'undergone', a noun is required — 'peer review', not the gerund compound 'peer-reviewing'."
+          "explanation": "After 'undergone', a noun is required — 'peer review', not the gerund compound 'peer-reviewing'.",
+          "explanation_vi": "Sau 'undergone', cần một noun — 'peer review', không phải gerund kết hợp 'peer-reviewing'."
         },
         {
           "id": 3,
@@ -530,7 +532,8 @@
             "C": "correlation"
           },
           "answer": "C",
-          "explanation": "'Causation' means one variable directly causes another; since the sentence says the direction is unknown, 'correlation' (a statistical co-occurrence) is the correct term."
+          "explanation": "'Causation' means one variable directly causes another; since the sentence says the direction is unknown, 'correlation' (a statistical co-occurrence) is the correct term.",
+          "explanation_vi": "'Causation' nghĩa là một biến trực tiếp gây ra một biến khác; vì câu nói cho biết hướng chưa được xác định, 'correlation' (một sự đồng thời thống kê) là thuật ngữ đúng."
         },
         {
           "id": 4,
@@ -542,7 +545,8 @@
             "C": "methodologically"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject of the sentence — 'methodology', not the adjective 'methodological'."
+          "explanation": "A noun is required as the subject of the sentence — 'methodology', not the adjective 'methodological'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'methodology', không phải adjective 'methodological'."
         },
         {
           "id": 5,
@@ -554,7 +558,8 @@
             "C": "empirical"
           },
           "answer": "C",
-          "explanation": "The sentence describes data gathered through direct observation rather than theory — the correct term is 'empirical', which means based on evidence and observation, not 'theoretical' which means based on theory."
+          "explanation": "The sentence describes data gathered through direct observation rather than theory — the correct term is 'empirical', which means based on evidence and observation, not 'theoretical' which means based on theory.",
+          "explanation_vi": "Câu này mô tả dữ liệu được thu thập qua quan sát trực tiếp thay vì lý thuyết — thuật ngữ đúng là 'empirical', nghĩa là dựa trên bằng chứng và quan sát, không phải 'theoretical' nghĩa là dựa trên lý thuyết."
         }
       ]
     },

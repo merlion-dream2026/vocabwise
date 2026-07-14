@@ -511,7 +511,8 @@
             "C": "forests"
           },
           "answer": "A",
-          "explanation": "After 'through the', a singular noun is needed: 'the forest'. 'Forested' is an adjective (e.g., 'a forested area') and cannot be used as a noun here."
+          "explanation": "After 'through the', a singular noun is needed: 'the forest'. 'Forested' is an adjective (e.g., 'a forested area') and cannot be used as a noun here.",
+          "explanation_vi": "Sau 'through the', cần một singular noun: 'the forest'. 'Forested' là một adjective (ví dụ, 'a forested area') và không thể được dùng như noun ở đây."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "soiling"
           },
           "answer": "B",
-          "explanation": "'Soil' (earth/ground) is an uncountable noun when used in this context. Remove the plural 's'."
+          "explanation": "'Soil' (earth/ground) is an uncountable noun when used in this context. Remove the plural 's'.",
+          "explanation_vi": "'Soil' (đất) là một noun không đếm được khi được dùng trong ngữ cảnh này. Loại bỏ 's' ở dạng plural."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "skyline"
           },
           "answer": "A",
-          "explanation": "When referring to the sky above us in a specific place, use the singular: 'the sky'. 'Skies' is used poetically or for weather across different regions — not for one clear sky."
+          "explanation": "When referring to the sky above us in a specific place, use the singular: 'the sky'. 'Skies' is used poetically or for weather across different regions — not for one clear sky.",
+          "explanation_vi": "Khi nói đến bầu trời ở trên chúng ta trong một địa điểm cụ thể, dùng singular: 'the sky'. 'Skies' được dùng một cách thơ mộng hoặc để chỉ thời tiết ở các khu vực khác nhau — không phải cho một bầu trời trong sáng duy nhất."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "streamed"
           },
           "answer": "B",
-          "explanation": "After the singular article 'a', use the singular noun 'stream'. 'A streams' is grammatically incorrect."
+          "explanation": "After the singular article 'a', use the singular noun 'stream'. 'A streams' is grammatically incorrect.",
+          "explanation_vi": "Sau singular article 'a', dùng singular noun 'stream'. 'A streams' là sai về ngữ pháp."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "leaf"
           },
           "answer": "C",
-          "explanation": "'Leafs' is not the standard plural of 'leaf' — the correct plural is 'leaves'. However, 'a yellow' requires a singular noun: 'a yellow leaf'."
+          "explanation": "'Leafs' is not the standard plural of 'leaf' — the correct plural is 'leaves'. However, 'a yellow' requires a singular noun: 'a yellow leaf'.",
+          "explanation_vi": "'Leafs' không phải là dạng plural chuẩn của 'leaf' — plural đúng là 'leaves'. Tuy nhiên, 'a yellow' yêu cầu một singular noun: 'a yellow leaf'."
         }
       ]
     },

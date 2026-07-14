@@ -523,7 +523,8 @@
             "C": "paid"
           },
           "answer": "C",
-          "explanation": "For the meaning of paying money, 'pay' has the irregular past form 'paid'. 'Payed' is used only in rare specialised nautical contexts, not here."
+          "explanation": "For the meaning of paying money, 'pay' has the irregular past form 'paid'. 'Payed' is used only in rare specialised nautical contexts, not here.",
+          "explanation_vi": "Đối với nghĩa trả tiền, 'pay' có dạng quá khứ bất quy tắc 'paid'. 'Payed' chỉ được dùng trong một số ngữ cảnh hiếm gặp chuyên ngành hàng hải, không phải ở đây."
         },
         {
           "id": 2,
@@ -535,7 +536,8 @@
             "C": "costly"
           },
           "answer": "A",
-          "explanation": "'Cost' (noun, chi phí/giá) is the right word. 'Coast' means bờ biển — a completely different word."
+          "explanation": "'Cost' (noun, chi phí/giá) is the right word. 'Coast' means bờ biển — a completely different word.",
+          "explanation_vi": "'Cost' (noun, chi phí/giá) là từ đúng. 'Coast' nghĩa là bờ biển — một từ hoàn toàn khác."
         },
         {
           "id": 3,
@@ -547,7 +549,8 @@
             "C": "customer"
           },
           "answer": "C",
-          "explanation": "'Customer' (khách hàng) is the correct word. 'Costumer' refers to someone who makes theatrical costumes."
+          "explanation": "'Customer' (khách hàng) is the correct word. 'Costumer' refers to someone who makes theatrical costumes.",
+          "explanation_vi": "'Customer' (khách hàng) là từ đúng. 'Costumer' chỉ người làm trang phục kịch nghệ."
         },
         {
           "id": 4,
@@ -559,7 +562,8 @@
             "C": "is"
           },
           "answer": "A",
-          "explanation": "'The price' is a singular subject, so use 'was' (past), not 'were' (used with plural subjects)."
+          "explanation": "'The price' is a singular subject, so use 'was' (past), not 'were' (used with plural subjects).",
+          "explanation_vi": "'The price' là singular subject, vì vậy dùng 'was' (quá khứ), không phải 'were' (dùng với plural subjects)."
         },
         {
           "id": 5,
@@ -571,7 +575,8 @@
             "C": "bag"
           },
           "answer": "C",
-          "explanation": "No apostrophe is needed here. 'A paper bag' is simply a noun — no possession is expressed."
+          "explanation": "No apostrophe is needed here. 'A paper bag' is simply a noun — no possession is expressed.",
+          "explanation_vi": "Không cần dấu nháy đơn ở đây. 'A paper bag' chỉ là một noun — không có sự sở hữu nào được diễn đạt."
         }
       ]
     },

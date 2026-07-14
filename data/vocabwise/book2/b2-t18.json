@@ -551,7 +551,8 @@
             "C": "fertiliser"
           },
           "answer": "C",
-          "explanation": "'Fertiliser' is the correct term for a substance applied to soil to improve plant growth; 'mineral' alone does not describe this agricultural input."
+          "explanation": "'Fertiliser' is the correct term for a substance applied to soil to improve plant growth; 'mineral' alone does not describe this agricultural input.",
+          "explanation_vi": "'Fertiliser' là thuật ngữ đúng cho chất được bón vào đất nhằm tăng cường sự sinh trưởng của cây; 'mineral' một mình không mô tả loại đầu vào nông nghiệp này."
         },
         {
           "id": 2,
@@ -563,7 +564,8 @@
             "C": "fungicide"
           },
           "answer": "A",
-          "explanation": "'Pesticide' is used to kill insects; 'fungicide' kills fungi; 'herbicide' kills weeds — the sentence describes insects, so 'pesticide' is correct."
+          "explanation": "'Pesticide' is used to kill insects; 'fungicide' kills fungi; 'herbicide' kills weeds — the sentence describes insects, so 'pesticide' is correct.",
+          "explanation_vi": "'Pesticide' được dùng để tiêu diệt côn trùng; 'fungicide' tiêu diệt nấm; 'herbicide' tiêu diệt cỏ dại — câu này mô tả côn trùng, vì vậy 'pesticide' là đúng."
         },
         {
           "id": 3,
@@ -575,7 +577,8 @@
             "C": "arability"
           },
           "answer": "B",
-          "explanation": "After 'are not', an adjective is needed. 'Arable' means suitable for growing crops; 'fertility' and 'arability' are nouns."
+          "explanation": "After 'are not', an adjective is needed. 'Arable' means suitable for growing crops; 'fertility' and 'arability' are nouns.",
+          "explanation_vi": "Sau 'are not', cần một adjective. 'Arable' có nghĩa là thích hợp để trồng cây trồng; 'fertility' và 'arability' là nouns."
         },
         {
           "id": 4,
@@ -587,7 +590,8 @@
             "C": "harvest"
           },
           "answer": "C",
-          "explanation": "'Harvest' is the noun used in the compound 'harvest season'. 'Harvested' is a past participle, and the other options are not standard modifiers here."
+          "explanation": "'Harvest' is the noun used in the compound 'harvest season'. 'Harvested' is a past participle, and the other options are not standard modifiers here.",
+          "explanation_vi": "'Harvest' là noun được dùng trong cụm từ ghép 'harvest season'. 'Harvested' là past participle, và các lựa chọn khác không phải là các modifier chuẩn ở đây."
         },
         {
           "id": 5,
@@ -599,7 +603,8 @@
             "C": "drought"
           },
           "answer": "A",
-          "explanation": "'Famine' is a widespread, severe shortage of food that causes starvation. 'Drought' is a lack of rainfall, while 'critical' is an adjective."
+          "explanation": "'Famine' is a widespread, severe shortage of food that causes starvation. 'Drought' is a lack of rainfall, while 'critical' is an adjective.",
+          "explanation_vi": "'Famine' là tình trạng thiếu lương thực lan rộng, nghiêm trọng gây ra nạn đói. 'Drought' là sự thiếu mưa, trong khi 'critical' là một adjective."
         }
       ]
     },

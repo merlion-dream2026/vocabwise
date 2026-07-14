@@ -541,7 +541,8 @@
             "C": "fossil-fuelled"
           },
           "answer": "B",
-          "explanation": "After 'several types of', use the plural noun phrase 'fossil fuels'."
+          "explanation": "After 'several types of', use the plural noun phrase 'fossil fuels'.",
+          "explanation_vi": "Sau 'several types of', dùng dạng plural noun phrase 'fossil fuels'."
         },
         {
           "id": 2,
@@ -553,7 +554,8 @@
             "C": "affecting"
           },
           "answer": "B",
-          "explanation": "Plural needed: the effects (multiple consequences)."
+          "explanation": "Plural needed: the effects (multiple consequences).",
+          "explanation_vi": "Cần dạng plural: các hậu quả (nhiều hậu quả)."
         },
         {
           "id": 3,
@@ -565,7 +567,8 @@
             "C": "degreed"
           },
           "answer": "A",
-          "explanation": "Plural needed after a number: two degrees."
+          "explanation": "Plural needed after a number: two degrees.",
+          "explanation_vi": "Cần dạng plural sau một số: hai độ."
         },
         {
           "id": 4,
@@ -577,7 +580,8 @@
             "C": "fossilised"
           },
           "answer": "B",
-          "explanation": "The correct term is 'fossil fuel': cut down on fossil fuel use."
+          "explanation": "The correct term is 'fossil fuel': cut down on fossil fuel use.",
+          "explanation_vi": "Thuật ngữ đúng là 'fossil fuel': giảm việc sử dụng nhiên liệu hóa thạch."
         },
         {
           "id": 5,
@@ -589,7 +593,8 @@
             "C": "agreeing"
           },
           "answer": "A",
-          "explanation": "After 'several new', use the plural noun 'agreements'."
+          "explanation": "After 'several new', use the plural noun 'agreements'.",
+          "explanation_vi": "Sau 'several new', dùng dạng plural noun 'agreements'."
         }
       ]
     },

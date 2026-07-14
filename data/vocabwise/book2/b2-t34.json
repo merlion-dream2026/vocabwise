@@ -560,7 +560,8 @@
             "C": "investing"
           },
           "answer": "A",
-          "explanation": "'Budget' is the film-industry noun for the total amount allocated to a production. 'A massive funding' is ungrammatical, and 'investing' is a verb form."
+          "explanation": "'Budget' is the film-industry noun for the total amount allocated to a production. 'A massive funding' is ungrammatical, and 'investing' is a verb form.",
+          "explanation_vi": "'Budget' là danh từ trong ngành công nghiệp điện ảnh chỉ tổng số tiền được phân bổ cho một dự án. 'A massive funding' không đúng ngữ pháp, và 'investing' là dạng động từ."
         },
         {
           "id": 2,
@@ -572,7 +573,8 @@
             "C": "secondary filming"
           },
           "answer": "B",
-          "explanation": "'Sequel' is the noun for a film that continues the story after the original. A prequel is set before the original, and 'secondary filming' is not a standard term."
+          "explanation": "'Sequel' is the noun for a film that continues the story after the original. A prequel is set before the original, and 'secondary filming' is not a standard term.",
+          "explanation_vi": "'Sequel' là danh từ chỉ một bộ phim tiếp tục câu chuyện sau bộ gốc. Tiền truyện diễn ra trước bộ gốc, và 'secondary filming' không phải là một thuật ngữ chuẩn."
         },
         {
           "id": 3,
@@ -584,7 +586,8 @@
             "C": "producer"
           },
           "answer": "A",
-          "explanation": "The director calls 'Action!' and guides actors' performances. The cast are the actors, while the producer manages business and logistics."
+          "explanation": "The director calls 'Action!' and guides actors' performances. The cast are the actors, while the producer manages business and logistics.",
+          "explanation_vi": "Đạo diễn hô 'Action!' và hướng dẫn diễn xuất của các diễn viên. Dàn diễn viên là các diễn viên, trong khi nhà sản xuất quản lý công việc kinh doanh và hậu cần."
         },
         {
           "id": 4,
@@ -596,7 +599,8 @@
             "C": "stream"
           },
           "answer": "C",
-          "explanation": "The simple-present base verb 'stream' is needed with the plural subject 'people'."
+          "explanation": "The simple-present base verb 'stream' is needed with the plural subject 'people'.",
+          "explanation_vi": "Động từ gốc ở thì hiện tại đơn 'stream' cần được dùng với chủ ngữ số nhiều 'people'."
         },
         {
           "id": 5,
@@ -608,7 +612,8 @@
             "C": "review"
           },
           "answer": "C",
-          "explanation": "'Review' is the singular noun for a published critical assessment of a film."
+          "explanation": "'Review' is the singular noun for a published critical assessment of a film.",
+          "explanation_vi": "'Review' là danh từ số ít chỉ một đánh giá phê bình đã được công bố về một bộ phim."
         }
       ]
     },

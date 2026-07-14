@@ -494,7 +494,8 @@
             "C": "curriculum"
           },
           "answer": "C",
-          "explanation": "After 'its entire', a singular noun is required: 'curriculum'. 'Curriculums' is plural, while 'curricular' is an adjective."
+          "explanation": "After 'its entire', a singular noun is required: 'curriculum'. 'Curriculums' is plural, while 'curricular' is an adjective.",
+          "explanation_vi": "Sau 'its entire', cần một danh từ số ít: 'curriculum'. 'Curriculums' là số nhiều, trong khi 'curricular' là tính từ."
         },
         {
           "id": 2,
@@ -506,7 +507,8 @@
             "C": "automatically"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'greater' — 'autonomy', not the adjective 'autonomous'."
+          "explanation": "A noun is required after 'greater' — 'autonomy', not the adjective 'autonomous'.",
+          "explanation_vi": "Cần một danh từ sau 'greater' — 'autonomy', không phải tính từ 'autonomous'."
         },
         {
           "id": 3,
@@ -518,7 +520,8 @@
             "C": "disparate"
           },
           "answer": "B",
-          "explanation": "'Disparity' is the noun needed after the article 'a'; 'disparate' is an adjective and cannot follow 'a' as a noun head."
+          "explanation": "'Disparity' is the noun needed after the article 'a'; 'disparate' is an adjective and cannot follow 'a' as a noun head.",
+          "explanation_vi": "'Disparity' là danh từ cần sau mạo từ 'a'; 'disparate' là tính từ và không thể đứng sau 'a' như một danh từ đầu."
         },
         {
           "id": 4,
@@ -530,7 +533,8 @@
             "C": "cognitively"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify the noun 'processes' — 'cognitive', not the noun 'cognition'."
+          "explanation": "An adjective is needed to modify the noun 'processes' — 'cognitive', not the noun 'cognition'.",
+          "explanation_vi": "Cần một tính từ để bổ nghĩa cho danh từ 'processes' — 'cognitive', không phải danh từ 'cognition'."
         },
         {
           "id": 5,
@@ -542,7 +546,8 @@
             "C": "widen"
           },
           "answer": "C",
-          "explanation": "'Widen' is the verb needed in this infinitive phrase ('to widen access'); 'wide' is an adjective and cannot function as a verb."
+          "explanation": "'Widen' is the verb needed in this infinitive phrase ('to widen access'); 'wide' is an adjective and cannot function as a verb.",
+          "explanation_vi": "'Widen' là động từ cần trong cụm nguyên mẫu này ('to widen access'); 'wide' là tính từ và không thể đóng vai trò là động từ."
         }
       ]
     },

@@ -559,7 +559,8 @@
             "C": "company's"
           },
           "answer": "A",
-          "explanation": "'Record label' is the standard industry noun phrase for a company that signs and promotes musicians."
+          "explanation": "'Record label' is the standard industry noun phrase for a company that signs and promotes musicians.",
+          "explanation_vi": "'Record label' là cụm danh từ tiêu chuẩn trong ngành để chỉ công ty ký hợp đồng và quảng bá các nhạc sĩ."
         },
         {
           "id": 2,
@@ -571,7 +572,8 @@
             "C": "writing"
           },
           "answer": "B",
-          "explanation": "A past-tense verb is needed: 'composed'. The other options are -ing forms or nouns."
+          "explanation": "A past-tense verb is needed: 'composed'. The other options are -ing forms or nouns.",
+          "explanation_vi": "Cần một động từ ở thì quá khứ: 'composed'. Các lựa chọn khác là dạng -ing hoặc danh từ."
         },
         {
           "id": 3,
@@ -583,7 +585,8 @@
             "C": "climbed"
           },
           "answer": "A",
-          "explanation": "'Reached' is the most natural collocation with 'the top' of a chart — it describes arrival at the highest position. 'Climbed' suggests gradual movement upward, not instant arrival at the top. 'Entered' means to come into, not to arrive at the top."
+          "explanation": "'Reached' is the most natural collocation with 'the top' of a chart — it describes arrival at the highest position. 'Climbed' suggests gradual movement upward, not instant arrival at the top. 'Entered' means to come into, not to arrive at the top.",
+          "explanation_vi": "'Reached' là cụm từ tự nhiên nhất với 'the top' của bảng xếp hạng — nó mô tả việc đạt tới vị trí cao nhất. 'Climbed' gợi ý sự di chuyển lên dần dần, không phải sự đạt ngay lập tức ở đỉnh. 'Entered' có nghĩa là vào, không phải đạt tới đỉnh."
         },
         {
           "id": 4,
@@ -595,7 +598,8 @@
             "C": "honour"
           },
           "answer": "A",
-          "explanation": "'Tribute' is the standard music term for a performance or recording that honours another artist, especially a famous or deceased one. A 'memorial' is specifically for someone who has died and is used in formal or ceremonial contexts. 'Honour' is a noun referring to a quality or recognition, not a performance."
+          "explanation": "'Tribute' is the standard music term for a performance or recording that honours another artist, especially a famous or deceased one. A 'memorial' is specifically for someone who has died and is used in formal or ceremonial contexts. 'Honour' is a noun referring to a quality or recognition, not a performance.",
+          "explanation_vi": "'Tribute' là thuật ngữ âm nhạc chuẩn để chỉ một buổi biểu diễn hoặc bản thu tôn vinh nghệ sĩ khác, đặc biệt là người nổi tiếng hoặc đã qua đời. 'Memorial' dành riêng cho người đã chết và thường dùng trong bối cảnh trang trọng hoặc nghi lễ. 'Honour' là danh từ chỉ một phẩm chất hoặc sự công nhận, không phải một buổi biểu diễn."
         },
         {
           "id": 5,
@@ -607,7 +611,8 @@
             "C": "published"
           },
           "answer": "A",
-          "explanation": "'Released' is the correct verb for making an album available to the public. 'Published' is used mainly for written works, and 'made ... on streaming platforms' is not natural."
+          "explanation": "'Released' is the correct verb for making an album available to the public. 'Published' is used mainly for written works, and 'made ... on streaming platforms' is not natural.",
+          "explanation_vi": "'Released' là động từ đúng để mô tả việc đưa một đĩa nhạc ra công chúng. 'Published' thường chỉ các tác phẩm viết, và cách diễn đạt 'được phát hành trên các nền tảng phát trực tuyến' không tự nhiên."
         }
       ]
     },

@@ -568,7 +568,8 @@
             "C": "recording"
           },
           "answer": "A",
-          "explanation": "'Bank statement' is the standard term for an official document listing transactions over a period. The other options do not function as the required noun."
+          "explanation": "'Bank statement' is the standard term for an official document listing transactions over a period. The other options do not function as the required noun.",
+          "explanation_vi": "'Bank statement' là cụm từ chuẩn cho một tài liệu chính thức liệt kê các giao dịch trong một khoảng thời gian. Các lựa chọn khác không đóng vai trò là danh từ yêu cầu."
         },
         {
           "id": 2,
@@ -580,7 +581,8 @@
             "C": "rated"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed after 'a monthly': 'fee'. The other options are not suitable nouns."
+          "explanation": "A singular noun is needed after 'a monthly': 'fee'. The other options are not suitable nouns.",
+          "explanation_vi": "Cần một danh từ số ít sau 'a monthly': 'fee'. Các lựa chọn khác không phải là danh từ phù hợp."
         },
         {
           "id": 3,
@@ -592,7 +594,8 @@
             "C": "invoicing"
           },
           "answer": "A",
-          "explanation": "'Phone bill' is the standard term for the amount a service provider asks a customer to pay."
+          "explanation": "'Phone bill' is the standard term for the amount a service provider asks a customer to pay.",
+          "explanation_vi": "'Phone bill' là cụm từ chuẩn cho số tiền mà nhà cung cấp dịch vụ yêu cầu khách hàng phải trả."
         },
         {
           "id": 4,
@@ -604,7 +607,8 @@
             "C": "repayment"
           },
           "answer": "B",
-          "explanation": "After 'forgot to', use the base verb 'repay', meaning return borrowed money."
+          "explanation": "After 'forgot to', use the base verb 'repay', meaning return borrowed money.",
+          "explanation_vi": "Sau 'forgot to', dùng động từ gốc 'repay', có nghĩa là trả lại tiền đã vay."
         },
         {
           "id": 5,
@@ -616,7 +620,8 @@
             "C": "balanced"
           },
           "answer": "B",
-          "explanation": "'Funds' is the plural noun meaning money available for a purpose. 'Monetary' and 'balanced' are adjectives and cannot function as the noun here."
+          "explanation": "'Funds' is the plural noun meaning money available for a purpose. 'Monetary' and 'balanced' are adjectives and cannot function as the noun here.",
+          "explanation_vi": "'Funds' là danh từ số nhiều có nghĩa là tiền có sẵn cho một mục đích. 'Monetary' và 'balanced' là tính từ và không thể đóng vai trò là danh từ ở đây."
         }
       ]
     },

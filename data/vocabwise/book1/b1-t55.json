@@ -508,7 +508,8 @@
             "C": "welcome"
           },
           "answer": "A",
-          "explanation": "'Welcome' means you are happy for someone to be somewhere or it is a polite reply to 'thank you'. The correct word here is 'lost', meaning you do not know where you are."
+          "explanation": "'Welcome' means you are happy for someone to be somewhere or it is a polite reply to 'thank you'. The correct word here is 'lost', meaning you do not know where you are.",
+          "explanation_vi": "‘Welcome’ có nghĩa là bạn vui mừng khi ai đó ở một nơi nào đó hoặc đây là câu trả lời lịch sự cho 'thank you'. Từ đúng ở đây là 'lost', nghĩa là bạn không biết mình đang ở đâu."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "show"
           },
           "answer": "C",
-          "explanation": "'Know' means to have information about something. You cannot 'know someone the way' — the correct verb is 'show', meaning to lead or point someone in the right direction."
+          "explanation": "'Know' means to have information about something. You cannot 'know someone the way' — the correct verb is 'show', meaning to lead or point someone in the right direction.",
+          "explanation_vi": "‘Know’ có nghĩa là có thông tin về một điều gì đó. Bạn không thể biết ai đó theo cách đó — động từ đúng là 'show', nghĩa là dẫn dắt hoặc chỉ cho ai đó hướng đúng."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "follow"
           },
           "answer": "A",
-          "explanation": "'Follow' means to go behind someone or understand something. When asking for repetition, say 'Could you say that again, please?' 'Could you telling me' is ungrammatical."
+          "explanation": "'Follow' means to go behind someone or understand something. When asking for repetition, say 'Could you say that again, please?' 'Could you telling me' is ungrammatical.",
+          "explanation_vi": "‘Follow’ có nghĩa là đi sau người khác hoặc hiểu một điều gì đó. Khi yêu cầu lặp lại, hãy nói 'Could you say that again, please?' Câu 'Could you telling me' không đúng ngữ pháp."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "wanted"
           },
           "answer": "B",
-          "explanation": "'Wanted' means to have a desire for something. When someone helps you and you express gratitude, the correct word is 'thanked', meaning you showed appreciation."
+          "explanation": "'Wanted' means to have a desire for something. When someone helps you and you express gratitude, the correct word is 'thanked', meaning you showed appreciation.",
+          "explanation_vi": "‘Wanted’ có nghĩa là có mong muốn một điều gì đó. Khi ai đó giúp bạn và bạn bày tỏ lòng biết ơn, từ đúng là 'thanked', nghĩa là bạn đã thể hiện sự trân trọng."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "welcome"
           },
           "answer": "C",
-          "explanation": "'Sorry' is used to apologise or to get someone's attention. The correct response to 'thank you' is 'you are welcome', which means you are happy to help."
+          "explanation": "'Sorry' is used to apologise or to get someone's attention. The correct response to 'thank you' is 'you are welcome', which means you are happy to help.",
+          "explanation_vi": "‘Sorry’ được dùng để xin lỗi hoặc để thu hút sự chú ý của ai đó. Câu trả lời đúng cho 'thank you' là 'you are welcome', nghĩa là bạn vui lòng giúp đỡ."
         }
       ]
     },

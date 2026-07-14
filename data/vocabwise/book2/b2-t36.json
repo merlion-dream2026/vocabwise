@@ -561,7 +561,8 @@
             "C": "finding"
           },
           "answer": "A",
-          "explanation": "'Access' is the verb meaning obtain or use education. 'Reach' implies physical distance, and 'finding' is not a base verb after 'cannot'."
+          "explanation": "'Access' is the verb meaning obtain or use education. 'Reach' implies physical distance, and 'finding' is not a base verb after 'cannot'.",
+          "explanation_vi": "'Access' là verb có nghĩa là lấy hoặc sử dụng giáo dục. 'Reach' ngụ ý khoảng cách vật lý, và 'finding' không phải là verb cơ bản sau 'cannot'."
         },
         {
           "id": 2,
@@ -573,7 +574,8 @@
             "C": "prizing"
           },
           "answer": "B",
-          "explanation": "'Scholarship' is the singular noun for financial support awarded to a student for study. The other options are verb forms."
+          "explanation": "'Scholarship' is the singular noun for financial support awarded to a student for study. The other options are verb forms.",
+          "explanation_vi": "'Scholarship' là noun số ít chỉ sự hỗ trợ tài chính được trao cho sinh viên để học tập. Các lựa chọn còn lại là dạng verb."
         },
         {
           "id": 3,
@@ -585,7 +587,8 @@
             "C": "political"
           },
           "answer": "B",
-          "explanation": "'Law' is the noun for a legally enforceable rule. 'Policied' is not a standard word, while 'political' is an adjective."
+          "explanation": "'Law' is the noun for a legally enforceable rule. 'Policied' is not a standard word, while 'political' is an adjective.",
+          "explanation_vi": "'Law' là noun chỉ một quy tắc có tính pháp lý có thể thực thi. 'Policied' không phải là từ chuẩn, trong khi 'political' là adjective."
         },
         {
           "id": 4,
@@ -597,7 +600,8 @@
             "C": "resulted"
           },
           "answer": "A",
-          "explanation": "'Educational outcomes' is the standard plural noun phrase for the results of an education system."
+          "explanation": "'Educational outcomes' is the standard plural noun phrase for the results of an education system.",
+          "explanation_vi": "'Educational outcomes' là cụm noun phrase số nhiều chuẩn cho các kết quả của một hệ thống giáo dục."
         },
         {
           "id": 5,
@@ -609,7 +613,8 @@
             "C": "blocking"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed after 'a powerful': 'barrier'."
+          "explanation": "A singular noun is needed after 'a powerful': 'barrier'.",
+          "explanation_vi": "Cần một noun số ít sau 'a powerful': 'barrier'."
         }
       ]
     },

@@ -514,7 +514,8 @@
             "C": "get"
           },
           "answer": "C",
-          "explanation": "'Lend' means to give something to someone temporarily — the library lends to you, not the other way around. The sentence means you need to 'get' (or obtain) a library card before borrowing books."
+          "explanation": "'Lend' means to give something to someone temporarily — the library lends to you, not the other way around. The sentence means you need to 'get' (or obtain) a library card before borrowing books.",
+          "explanation_vi": "‘Lend’ nghĩa là cho ai đó một vật trong thời gian ngắn — thư viện cho bạn mượn, không phải ngược lại. Câu này có nghĩa là bạn cần ‘get’ (hoặc lấy) thẻ thư viện trước khi mượn sách."
         },
         {
           "id": 2,
@@ -526,7 +527,8 @@
             "C": "aisle"
           },
           "answer": "A",
-          "explanation": "A 'shelf' is the physical board where books sit. You cannot search a shelf online. The system you search to find books in a library is the 'catalogue', which lists all available titles."
+          "explanation": "A 'shelf' is the physical board where books sit. You cannot search a shelf online. The system you search to find books in a library is the 'catalogue', which lists all available titles.",
+          "explanation_vi": "‘shelf’ là giá vật lý nơi sách được đặt. Bạn không thể tìm kiếm ‘shelf’ trên mạng. Hệ thống mà bạn dùng để tìm sách trong thư viện là ‘catalogue’, nó liệt kê tất cả các tựa sách có sẵn."
         },
         {
           "id": 3,
@@ -538,7 +540,8 @@
             "C": "nervous"
           },
           "answer": "A",
-          "explanation": "'Noisy' means making a lot of sound — exactly what you should NOT do in a library. The correct word is 'quiet', meaning to keep the noise level low so others can focus."
+          "explanation": "'Noisy' means making a lot of sound — exactly what you should NOT do in a library. The correct word is 'quiet', meaning to keep the noise level low so others can focus.",
+          "explanation_vi": "‘Noisy’ nghĩa là tạo ra nhiều tiếng ồn — đúng là điều bạn không nên làm trong thư viện. Từ đúng là ‘quiet’, nghĩa là giữ mức độ tiếng ồn thấp để người khác có thể tập trung."
         },
         {
           "id": 4,
@@ -550,7 +553,8 @@
             "C": "card"
           },
           "answer": "A",
-          "explanation": "A 'grade' is a score or level in school — it has nothing to do with late fees. When you return a library book late, you pay a 'fine', which is a money penalty."
+          "explanation": "A 'grade' is a score or level in school — it has nothing to do with late fees. When you return a library book late, you pay a 'fine', which is a money penalty.",
+          "explanation_vi": "‘grade’ là điểm số hoặc cấp độ trong trường học — không liên quan gì đến phí trễ. Khi bạn trả sách thư viện muộn, bạn phải trả ‘fine’, đó là một khoản phạt tiền."
         },
         {
           "id": 5,
@@ -562,7 +566,8 @@
             "C": "zoning"
           },
           "answer": "B",
-          "explanation": "The narrow passage between rows of shelves is an 'aisle'. 'Zoning' refers to dividing land or space into designated areas and cannot name this passage."
+          "explanation": "The narrow passage between rows of shelves is an 'aisle'. 'Zoning' refers to dividing land or space into designated areas and cannot name this passage.",
+          "explanation_vi": "Khoảng hành lang hẹp giữa các hàng giá sách là ‘aisle’. ‘Zoning’ đề cập đến việc chia đất hoặc không gian thành các khu vực được chỉ định và không thể dùng để đặt tên cho hành lang này."
         }
       ]
     },

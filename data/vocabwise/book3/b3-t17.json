@@ -510,7 +510,8 @@
             "C": "diagnosis"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'diagnosis', not the verb 'diagnose'."
+          "explanation": "A noun is needed as the subject of the sentence — 'diagnosis', not the verb 'diagnose'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ của câu — 'diagnosis', không phải động từ 'diagnose'."
         },
         {
           "id": 2,
@@ -522,7 +523,8 @@
             "C": "approving"
           },
           "answer": "A",
-          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'approve'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'approve'.",
+          "explanation_vi": "Sau dấu chỉ infinitive 'to', dùng dạng gốc của động từ: 'approve'."
         },
         {
           "id": 3,
@@ -534,7 +536,8 @@
             "C": "efficient"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the possessive 'drug's' to act as the object of 'demonstrated' — 'efficacy', not the adjective 'efficacious'."
+          "explanation": "A noun is needed after the possessive 'drug's' to act as the object of 'demonstrated' — 'efficacy', not the adjective 'efficacious'.",
+          "explanation_vi": "Cần một danh từ sau sở hữu 'drug's' để làm đối tượng của 'demonstrated' — 'efficacy', không phải tính từ 'efficacious'."
         },
         {
           "id": 4,
@@ -546,7 +549,8 @@
             "C": "donor"
           },
           "answer": "C",
-          "explanation": "A noun referring to a person is required — 'donor', not the verb 'donate'. A 'donor' gives; a 'donation' is the thing given."
+          "explanation": "A noun referring to a person is required — 'donor', not the verb 'donate'. A 'donor' gives; a 'donation' is the thing given.",
+          "explanation_vi": "Cần một danh từ chỉ người — 'donor', không phải động từ 'donate'. Một 'donor' là người cho; một 'donation' là vật được cho."
         },
         {
           "id": 5,
@@ -558,7 +562,8 @@
             "C": "commoner"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify 'side effect' — 'a common side effect'. 'Commonly' is an adverb."
+          "explanation": "An adjective is needed to modify 'side effect' — 'a common side effect'. 'Commonly' is an adverb.",
+          "explanation_vi": "Cần một tính từ để mô tả 'side effect' — 'a common side effect'. 'Commonly' là một trạng từ."
         }
       ]
     },

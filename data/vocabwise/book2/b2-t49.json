@@ -578,7 +578,8 @@
             "C": "garbaged"
           },
           "answer": "A",
-          "explanation": "'Waste' is the uncountable noun for discarded material."
+          "explanation": "'Waste' is the uncountable noun for discarded material.",
+          "explanation_vi": "'Waste' là noun không đếm được cho vật liệu đã bị loại bỏ."
         },
         {
           "id": 2,
@@ -590,7 +591,8 @@
             "C": "protected"
           },
           "answer": "A",
-          "explanation": "'Improve air quality' is the natural collocation for making it cleaner. 'Reduce air quality' means make it worse, and 'protected' is not a base verb after 'to'."
+          "explanation": "'Improve air quality' is the natural collocation for making it cleaner. 'Reduce air quality' means make it worse, and 'protected' is not a base verb after 'to'.",
+          "explanation_vi": "'Improve air quality' là cụm từ tự nhiên để làm cho nó sạch hơn. 'Reduce air quality' có nghĩa là làm cho nó tệ hơn, và 'protected' không phải là động từ gốc sau 'to'."
         },
         {
           "id": 3,
@@ -602,7 +604,8 @@
             "C": "damage"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'environmental': 'damage'."
+          "explanation": "A noun is needed after 'environmental': 'damage'.",
+          "explanation_vi": "Cần một noun sau 'environmental': 'damage'."
         },
         {
           "id": 4,
@@ -614,7 +617,8 @@
             "C": "nature-friendly"
           },
           "answer": "B",
-          "explanation": "'Eco-friendly' is the established compound adjective for products that do not harm the environment. 'Greening' does not fit before 'packaging' here, and 'nature-friendly' is nonstandard."
+          "explanation": "'Eco-friendly' is the established compound adjective for products that do not harm the environment. 'Greening' does not fit before 'packaging' here, and 'nature-friendly' is nonstandard.",
+          "explanation_vi": "'Eco-friendly' là adjective ghép đã được thiết lập cho các sản phẩm không gây hại cho môi trường. 'Greening' không phù hợp trước 'packaging' ở đây, và 'nature-friendly' không chuẩn."
         },
         {
           "id": 5,
@@ -626,7 +630,8 @@
             "C": "energy saved"
           },
           "answer": "B",
-          "explanation": "'Energy-saving' is the established compound adjective for devices that reduce energy consumption."
+          "explanation": "'Energy-saving' is the established compound adjective for devices that reduce energy consumption.",
+          "explanation_vi": "'Energy-saving' là adjective ghép đã được thiết lập cho các thiết bị giảm tiêu thụ năng lượng."
         }
       ]
     },

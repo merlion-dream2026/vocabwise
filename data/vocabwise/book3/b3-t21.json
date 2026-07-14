@@ -508,7 +508,8 @@
             "C": "adopted"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'adoption', not the verb 'adopt'."
+          "explanation": "A noun is required as the subject of the sentence — 'adoption', not the verb 'adopt'.",
+          "explanation_vi": "Câu cần một noun làm subject — 'adoption', không phải verb 'adopt'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "privacy"
           },
           "answer": "C",
-          "explanation": "'Privacy' is an uncountable noun and does not take a plural form — 'privacy', not 'privacies'."
+          "explanation": "'Privacy' is an uncountable noun and does not take a plural form — 'privacy', not 'privacies'.",
+          "explanation_vi": "'Privacy' là một noun không đếm được và không có dạng plural — 'privacy', không phải 'privacies'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "disrupted"
           },
           "answer": "A",
-          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'."
+          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'.",
+          "explanation_vi": "Câu cần một noun làm subject — 'disruption', không phải verb 'disrupt'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "automated"
           },
           "answer": "C",
-          "explanation": "An adjective modifying 'processes' is needed — 'automated', meaning controlled by machines, not the verb 'automate'."
+          "explanation": "An adjective modifying 'processes' is needed — 'automated', meaning controlled by machines, not the verb 'automate'.",
+          "explanation_vi": "Câu cần một adjective làm modifier cho các quá trình — 'automated', có nghĩa là được điều khiển bởi máy móc, không phải verb 'automate'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "convergence"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject — 'convergence', not the adjective 'convergent'."
+          "explanation": "A noun is required as the subject — 'convergence', not the adjective 'convergent'.",
+          "explanation_vi": "Câu cần một noun làm subject — 'convergence', không phải adjective 'convergent'."
         }
       ]
     },

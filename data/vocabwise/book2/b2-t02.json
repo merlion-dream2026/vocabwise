@@ -544,7 +544,8 @@
             "C": "financial industries"
           },
           "answer": "B",
-          "explanation": "No possessive needed — 'industry' stands alone as a noun."
+          "explanation": "No possessive needed — 'industry' stands alone as a noun.",
+          "explanation_vi": "Không cần dạng sở hữu — 'industry' đứng độc lập như một danh từ."
         },
         {
           "id": 2,
@@ -556,7 +557,8 @@
             "C": "promoted"
           },
           "answer": "A",
-          "explanation": "'Promotion' is a countable noun — no apostrophe needed."
+          "explanation": "'Promotion' is a countable noun — no apostrophe needed.",
+          "explanation_vi": "'Promotion' là một danh từ đếm được — không cần dấu nháy đơn."
         },
         {
           "id": 3,
@@ -568,7 +570,8 @@
             "C": "salaried"
           },
           "answer": "B",
-          "explanation": "'Salary' is singular here — one person, one salary."
+          "explanation": "'Salary' is singular here — one person, one salary.",
+          "explanation_vi": "'Salary' là số ít ở đây — một người, một mức lương."
         },
         {
           "id": 4,
@@ -580,7 +583,8 @@
             "C": "skilfully"
           },
           "answer": "B",
-          "explanation": "'Skilled' is the adjective form — skilled in something."
+          "explanation": "'Skilled' is the adjective form — skilled in something.",
+          "explanation_vi": "'Skilled' là dạng tính từ — có kỹ năng trong một việc gì đó."
         },
         {
           "id": 5,
@@ -592,7 +596,8 @@
             "C": "rewarded"
           },
           "answer": "A",
-          "explanation": "'Rewarding' is the adjective form — a rewarding career."
+          "explanation": "'Rewarding' is the adjective form — a rewarding career.",
+          "explanation_vi": "'Rewarding' là dạng tính từ — một nghề nghiệp đáng giá."
         }
       ]
     },

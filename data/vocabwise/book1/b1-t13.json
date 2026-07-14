@@ -508,7 +508,8 @@
             "C": "junction"
           },
           "answer": "B",
-          "explanation": "Pedestrians walk on the 'pavement' (the raised path beside the road), not on the 'road' itself, which is for vehicles."
+          "explanation": "Pedestrians walk on the 'pavement' (the raised path beside the road), not on the 'road' itself, which is for vehicles.",
+          "explanation_vi": "Người đi bộ đi trên 'pavement' (đường đi bộ nâng lên bên cạnh 'road'), không phải trên 'road' mà dành cho các phương tiện."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "building"
           },
           "answer": "C",
-          "explanation": "'Area' and 'district' refer to a zone or region, not a structure. Something with 'twenty floors and a café' is a 'building'."
+          "explanation": "'Area' and 'district' refer to a zone or region, not a structure. Something with 'twenty floors and a café' is a 'building'.",
+          "explanation_vi": "'Area' và 'district' chỉ một vùng hoặc khu vực, không phải một cấu trúc. Một vật có 'twenty floors and a café' là một 'building'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "slowly"
           },
           "answer": "A",
-          "explanation": "The structure 'as ... as she could' needs an adverb describing speed. 'Quickly' fits the need to catch the bus, while 'busily' does not describe speed and 'slowly' contradicts the context."
+          "explanation": "The structure 'as ... as she could' needs an adverb describing speed. 'Quickly' fits the need to catch the bus, while 'busily' does not describe speed and 'slowly' contradicts the context.",
+          "explanation_vi": "Cấu trúc 'as ... as she could' cần một adverb mô tả tốc độ. 'Quickly' phù hợp với việc bắt xe buýt, trong khi 'busily' không mô tả tốc độ và 'slowly' trái ngược với ngữ cảnh."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "tower"
           },
           "answer": "B",
-          "explanation": "After 'at the', a noun naming the place is needed. A 'junction' is where roads meet; 'roaded' is an adjective and cannot be used as the noun here."
+          "explanation": "After 'at the', a noun naming the place is needed. A 'junction' is where roads meet; 'roaded' is an adjective and cannot be used as the noun here.",
+          "explanation_vi": "Sau 'at the', cần một noun chỉ tên địa điểm. 'Junction' là nơi các đường gặp nhau; 'roaded' là một adjective và không thể dùng làm noun ở đây."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "district"
           },
           "answer": "A",
-          "explanation": "If you can 'walk there in just two minutes', the café is not 'far' — it is 'nearby' (close to where you are)."
+          "explanation": "If you can 'walk there in just two minutes', the café is not 'far' — it is 'nearby' (close to where you are).",
+          "explanation_vi": "Nếu bạn có thể 'walk there in just two minutes', quán cà phê không phải 'far' — nó là 'nearby' (gần với vị trí hiện tại của bạn)."
         }
       ]
     },

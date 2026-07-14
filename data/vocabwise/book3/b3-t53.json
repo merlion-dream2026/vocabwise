@@ -501,7 +501,8 @@
             "C": "confidential"
           },
           "answer": "A",
-          "explanation": "An adverb is needed to modify 'handle' — 'confidentially'. 'Confident' is an adjective with a different meaning."
+          "explanation": "An adverb is needed to modify 'handle' — 'confidentially'. 'Confident' is an adjective with a different meaning.",
+          "explanation_vi": "Cần một adverb để sửa đổi 'handle' — 'confidentially'. 'Confident' là một adjective với nghĩa khác."
         },
         {
           "id": 2,
@@ -513,7 +514,8 @@
             "C": "allocated"
           },
           "answer": "B",
-          "explanation": "A noun is needed to serve as the subject of the sentence — 'allocation', not the verb 'allocate'."
+          "explanation": "A noun is needed to serve as the subject of the sentence — 'allocation', not the verb 'allocate'.",
+          "explanation_vi": "Cần một noun để làm subject của câu — 'allocation', không phải verb 'allocate'."
         },
         {
           "id": 3,
@@ -525,7 +527,8 @@
             "C": "automate"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'right to' — 'autonomy', not the adjective 'autonomous'."
+          "explanation": "A noun is required after 'right to' — 'autonomy', not the adjective 'autonomous'.",
+          "explanation_vi": "Cần một noun sau 'right to' — 'autonomy', không phải adjective 'autonomous'."
         },
         {
           "id": 4,
@@ -537,7 +540,8 @@
             "C": "placid"
           },
           "answer": "B",
-          "explanation": "'Placid' means calm or peaceful — it is completely unrelated to medical trials. A 'placebo' is an inactive substance given instead of active medicine in a clinical study."
+          "explanation": "'Placid' means calm or peaceful — it is completely unrelated to medical trials. A 'placebo' is an inactive substance given instead of active medicine in a clinical study.",
+          "explanation_vi": "'Placid' nghĩa là yên tĩnh hoặc thanh bình — hoàn toàn không liên quan đến các thử nghiệm y học. Một 'placebo' là một chất không hoạt động được đưa thay cho thuốc có hoạt tính trong một nghiên cứu lâm sàng."
         },
         {
           "id": 5,
@@ -549,7 +553,8 @@
             "C": "paternalistic"
           },
           "answer": "C",
-          "explanation": "The adjective 'paternalistic' is the standard collocate for 'approach' — 'a paternalistic approach', not the noun 'paternalist'."
+          "explanation": "The adjective 'paternalistic' is the standard collocate for 'approach' — 'a paternalistic approach', not the noun 'paternalist'.",
+          "explanation_vi": "Adjective 'paternalistic' là cụm từ thường đi kèm chuẩn cho noun 'approach' — 'một cách tiếp cận 'paternalistic'', không phải noun 'paternalist'."
         }
       ]
     },

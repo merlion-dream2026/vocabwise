@@ -511,7 +511,8 @@
             "C": "temperatured"
           },
           "answer": "A",
-          "explanation": "No apostrophe is needed here. 'The temperature' is a simple noun subject, not a possessive form."
+          "explanation": "No apostrophe is needed here. 'The temperature' is a simple noun subject, not a possessive form.",
+          "explanation_vi": "Không cần dấu nháy đơn ở đây. 'The temperature' là một danh từ chủ ngữ đơn giản, không phải dạng sở hữu."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "going"
           },
           "answer": "B",
-          "explanation": "'Go' is an irregular verb: go → went (past simple). 'Goed' does not exist in English."
+          "explanation": "'Go' is an irregular verb: go → went (past simple). 'Goed' does not exist in English.",
+          "explanation_vi": "'Go' là một verb bất quy tắc: go → went (thì quá khứ đơn). 'Goed' không tồn tại trong tiếng Anh."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "was"
           },
           "answer": "B",
-          "explanation": "'The dark clouds' is plural, so the verb must be 'are', not 'is' (which is used with singular subjects)."
+          "explanation": "'The dark clouds' is plural, so the verb must be 'are', not 'is' (which is used with singular subjects).",
+          "explanation_vi": "'The dark clouds' là số nhiều, vì vậy động từ phải là 'are', không phải 'is' (được dùng với chủ ngữ số ít)."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "hotter"
           },
           "answer": "A",
-          "explanation": "After the linking verb 'was', use an adjective: 'hot'. 'Hotly' is an adverb and cannot describe the weather here."
+          "explanation": "After the linking verb 'was', use an adjective: 'hot'. 'Hotly' is an adverb and cannot describe the weather here.",
+          "explanation_vi": "Sau động từ liên kết 'was', dùng một adjective: 'hot'. 'Hotly' là một adverb và không thể mô tả thời tiết ở đây."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "rains"
           },
           "answer": "C",
-          "explanation": "Use simple present tense ('rains') for general facts and habits. 'Often' + simple present is the natural pattern."
+          "explanation": "Use simple present tense ('rains') for general facts and habits. 'Often' + simple present is the natural pattern.",
+          "explanation_vi": "Dùng thì hiện tại đơn ('rains') cho các sự thật chung và thói quen. 'Often' + hiện tại đơn là mẫu tự nhiên."
         }
       ]
     },

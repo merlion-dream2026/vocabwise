@@ -516,7 +516,8 @@
             "C": "deterrence"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'on' as the object of 'relied on' — 'deterrence', not the verb 'deter'."
+          "explanation": "A noun is required after 'on' as the object of 'relied on' — 'deterrence', not the verb 'deter'.",
+          "explanation_vi": "Cần một noun sau 'on' để làm object của 'relied on' — 'deterrence', không phải verb 'deter'."
         },
         {
           "id": 2,
@@ -528,7 +529,8 @@
             "C": "proportion"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'the principle of' — 'proportionality', not the adjective 'proportionate'."
+          "explanation": "A noun is required after 'the principle of' — 'proportionality', not the adjective 'proportionate'.",
+          "explanation_vi": "Cần một noun sau 'the principle of' — 'proportionality', không phải adjective 'proportionate'."
         },
         {
           "id": 3,
@@ -540,7 +542,8 @@
             "C": "reconciliation"
           },
           "answer": "C",
-          "explanation": "A noun is needed to modify 'work' as a noun premodifier — 'reconciliation', not the verb 'reconcile'."
+          "explanation": "A noun is needed to modify 'work' as a noun premodifier — 'reconciliation', not the verb 'reconcile'.",
+          "explanation_vi": "Cần một noun để làm từ bổ nghĩa cho 'work' — 'reconciliation', không phải verb 'reconcile'."
         },
         {
           "id": 4,
@@ -552,7 +555,8 @@
             "C": "diplomat"
           },
           "answer": "B",
-          "explanation": "An adverb is required to modify the verb 'resolve' — 'diplomatically', not the adjective 'diplomatic'."
+          "explanation": "An adverb is required to modify the verb 'resolve' — 'diplomatically', not the adjective 'diplomatic'.",
+          "explanation_vi": "Cần một adverb để làm modifier cho verb 'resolve' — 'diplomatically', không phải adjective 'diplomatic'."
         },
         {
           "id": 5,
@@ -564,7 +568,8 @@
             "C": "disarmament"
           },
           "answer": "C",
-          "explanation": "A noun is required after the preposition 'towards' — 'disarmament', not the verb 'disarm'."
+          "explanation": "A noun is required after the preposition 'towards' — 'disarmament', not the verb 'disarm'.",
+          "explanation_vi": "Cần một noun sau giới từ 'towards' — 'disarmament', không phải verb 'disarm'."
         }
       ]
     },

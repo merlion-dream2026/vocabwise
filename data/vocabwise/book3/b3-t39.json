@@ -505,7 +505,8 @@
             "C": "doctrinally"
           },
           "answer": "A",
-          "explanation": "A plural noun is required to agree with the plural verb 'were' — 'doctrines'. The singular noun 'doctrine' would require 'was'."
+          "explanation": "A plural noun is required to agree with the plural verb 'were' — 'doctrines'. The singular noun 'doctrine' would require 'was'.",
+          "explanation_vi": "Cần một plural noun để phù hợp với plural verb 'were' — 'doctrines'. Danh từ singular 'doctrine' sẽ yêu cầu 'was'."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "morality"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'morality', not the adjective 'moral'."
+          "explanation": "A noun is required as the subject of the sentence — 'morality', not the adjective 'moral'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'morality', không phải adjective 'moral'."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "denominate"
           },
           "answer": "A",
-          "explanation": "After 'all major', use the plural noun 'denominations'."
+          "explanation": "After 'all major', use the plural noun 'denominations'.",
+          "explanation_vi": "Sau 'all major', dùng plural noun 'denominations'."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "transcendence"
           },
           "answer": "C",
-          "explanation": "A noun is required after the determiner 'a sudden' — 'transcendence', not the verb 'transcend'."
+          "explanation": "A noun is required after the determiner 'a sudden' — 'transcendence', not the verb 'transcend'.",
+          "explanation_vi": "Cần một noun sau determiner 'a sudden' — 'transcendence', không phải verb 'transcend'."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "theologian"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'theology', not the adjective 'theological'."
+          "explanation": "A noun is required as the subject of the sentence — 'theology', not the adjective 'theological'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'theology', không phải adjective 'theological'."
         }
       ]
     },

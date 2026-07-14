@@ -510,7 +510,8 @@
             "C": "deficit"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed as the subject — 'Calcium deficiency', not the adjective 'deficient', which cannot head a noun phrase in subject position."
+          "explanation": "A singular noun is needed as the subject — 'Calcium deficiency', not the adjective 'deficient', which cannot head a noun phrase in subject position.",
+          "explanation_vi": "Cần một danh từ số ít làm chủ ngữ — 'Calcium deficiency', không phải tính từ 'deficient', vì nó không thể đứng đầu một cụm danh từ ở vị trí chủ ngữ."
         },
         {
           "id": 2,
@@ -522,7 +523,8 @@
             "C": "regulated"
           },
           "answer": "A",
-          "explanation": "A verb is required after the infinitive marker 'to' — 'to regulate', not the noun 'regulation'."
+          "explanation": "A verb is required after the infinitive marker 'to' — 'to regulate', not the noun 'regulation'.",
+          "explanation_vi": "Cần một động từ sau dấu chỉ infinitive 'to' — 'to regulate', không phải danh từ 'regulation'."
         },
         {
           "id": 3,
@@ -534,7 +536,8 @@
             "C": "diet culture"
           },
           "answer": "C",
-          "explanation": "'Diet culture' is the established compound noun; 'diet cultured' is not a grammatical form and the word 'cultured' here is incorrect."
+          "explanation": "'Diet culture' is the established compound noun; 'diet cultured' is not a grammatical form and the word 'cultured' here is incorrect.",
+          "explanation_vi": "'Diet culture' là danh từ ghép đã được thiết lập; 'diet cultured' không phải là dạng ngữ pháp và từ 'cultured' ở đây là không đúng."
         },
         {
           "id": 4,
@@ -546,7 +549,8 @@
             "C": "processable"
           },
           "answer": "B",
-          "explanation": "The past participle 'processed' functions as an adjective modifying 'snacks'; the base form 'process' cannot serve this role."
+          "explanation": "The past participle 'processed' functions as an adjective modifying 'snacks'; the base form 'process' cannot serve this role.",
+          "explanation_vi": "Quá khứ phân từ 'processed' đóng vai trò như một tính từ mô tả 'snacks'; dạng gốc 'process' không thể thực hiện vai trò này."
         },
         {
           "id": 5,
@@ -558,7 +562,8 @@
             "C": "sustainable"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable'. 'Sustainability' is a noun."
+          "explanation": "An adjective is needed to modify 'agricultural practices' — 'sustainable'. 'Sustainability' is a noun.",
+          "explanation_vi": "Cần một tính từ để mô tả 'agricultural practices' — 'sustainable'. 'Sustainability' là một danh từ."
         }
       ]
     },

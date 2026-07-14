@@ -590,7 +590,8 @@
             "C": "answering"
           },
           "answer": "B",
-          "explanation": "A singular noun is needed after 'an effective': 'solution'."
+          "explanation": "A singular noun is needed after 'an effective': 'solution'.",
+          "explanation_vi": "Cần một danh từ số ít sau 'an effective': 'solution'."
         },
         {
           "id": 2,
@@ -602,7 +603,8 @@
             "C": "fighting"
           },
           "answer": "A",
-          "explanation": "A past-tense verb is needed: 'argued'."
+          "explanation": "A past-tense verb is needed: 'argued'.",
+          "explanation_vi": "Cần một verb ở dạng past tense: 'argued'."
         },
         {
           "id": 3,
@@ -614,7 +616,8 @@
             "C": "perspectives"
           },
           "answer": "C",
-          "explanation": "After 'a range of', use the plural noun 'perspectives'."
+          "explanation": "After 'a range of', use the plural noun 'perspectives'.",
+          "explanation_vi": "Sau 'a range of', dùng một plural noun 'perspectives'."
         },
         {
           "id": 4,
@@ -626,7 +629,8 @@
             "C": "sorts out"
           },
           "answer": "A",
-          "explanation": "After 'to', use a base-form verb phrase. 'Deal with' means address and manage a problem."
+          "explanation": "After 'to', use a base-form verb phrase. 'Deal with' means address and manage a problem.",
+          "explanation_vi": "Sau 'to', dùng một dạng gốc verb phrase. 'Deal with' có nghĩa là đối phó và quản lý một vấn đề."
         },
         {
           "id": 5,
@@ -638,7 +642,8 @@
             "C": "suggested"
           },
           "answer": "C",
-          "explanation": "A past-tense verb is needed: 'suggested'."
+          "explanation": "A past-tense verb is needed: 'suggested'.",
+          "explanation_vi": "Cần một verb ở dạng past tense: 'suggested'."
         }
       ]
     },

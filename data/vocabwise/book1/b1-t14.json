@@ -508,7 +508,8 @@
             "C": "map"
           },
           "answer": "B",
-          "explanation": "A 'ticket' is for transport or events. The document that proves your nationality and allows you to enter another country is a 'passport'."
+          "explanation": "A 'ticket' is for transport or events. The document that proves your nationality and allows you to enter another country is a 'passport'.",
+          "explanation_vi": "Một 'ticket' dùng cho việc vận chuyển hoặc sự kiện. Tài liệu chứng minh quốc tịch và cho phép bạn nhập cảnh vào quốc gia khác là một 'passport'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "ticket"
           },
           "answer": "A",
-          "explanation": "A 'language' is a system of communication, not a navigation tool. You find places on a 'map'."
+          "explanation": "A 'language' is a system of communication, not a navigation tool. You find places on a 'map'.",
+          "explanation_vi": "Một 'language' là một hệ thống giao tiếp, không phải là công cụ định vị. Bạn tìm địa điểm trên một 'map'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "thrilling"
           },
           "answer": "C",
-          "explanation": "The sentence describes amazing sea life and sunsets — this is exciting, not boring. 'Thrilling' fits the meaning."
+          "explanation": "The sentence describes amazing sea life and sunsets — this is exciting, not boring. 'Thrilling' fits the meaning.",
+          "explanation_vi": "Câu này mô tả sinh vật biển và hoàng hôn tuyệt vời — điều này thú vị, không nhàm chán. 'Thrilling' phù hợp với nghĩa này."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "country"
           },
           "answer": "A",
-          "explanation": "An 'airport' is where you board a plane. The place with a swimming pool and breakfast buffet where guests stay is a 'hotel'."
+          "explanation": "An 'airport' is where you board a plane. The place with a swimming pool and breakfast buffet where guests stay is a 'hotel'.",
+          "explanation_vi": "Một 'airport' là nơi bạn lên máy bay. Nơi có hồ bơi và tiệc sáng tự phục vụ nơi khách ở là một 'hotel'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "tourists"
           },
           "answer": "C",
-          "explanation": "'Tourism' is an uncountable noun for the industry. People who visit are 'tourists' (plural, countable)."
+          "explanation": "'Tourism' is an uncountable noun for the industry. People who visit are 'tourists' (plural, countable).",
+          "explanation_vi": "'Tourism' là một noun không đếm được chỉ ngành công nghiệp. Những người đến thăm là 'tourists' (số nhiều, có thể đếm)."
         }
       ]
     },

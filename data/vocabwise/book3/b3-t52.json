@@ -505,7 +505,8 @@
             "C": "ecological"
           },
           "answer": "C",
-          "explanation": "An adjective is required to modify the noun 'impact' — 'ecological', not the noun 'ecology'."
+          "explanation": "An adjective is required to modify the noun 'impact' — 'ecological', not the noun 'ecology'.",
+          "explanation_vi": "Cần một adjective để sửa đổi noun 'impact' — 'ecological', không phải noun 'ecology'."
         },
         {
           "id": 2,
@@ -517,7 +518,8 @@
             "C": "stewarding"
           },
           "answer": "A",
-          "explanation": "The noun 'stewardship' (the act or responsibility of managing something) is required after the possessive 'its' — not the agent noun 'steward'."
+          "explanation": "The noun 'stewardship' (the act or responsibility of managing something) is required after the possessive 'its' — not the agent noun 'steward'.",
+          "explanation_vi": "Cần có noun 'stewardship' (hành động hoặc trách nhiệm quản lý một cái gì đó) sau possessive 'its' — không phải noun 'steward'."
         },
         {
           "id": 3,
@@ -529,7 +531,8 @@
             "C": "sustainability"
           },
           "answer": "B",
-          "explanation": "After 'have', use the past participle 'sustained' to form the present perfect."
+          "explanation": "After 'have', use the past participle 'sustained' to form the present perfect.",
+          "explanation_vi": "Sau 'have', dùng past participle 'sustained' để tạo present perfect."
         },
         {
           "id": 4,
@@ -541,7 +544,8 @@
             "C": "biologist"
           },
           "answer": "A",
-          "explanation": "An adjective is needed to modify the noun 'surveys' — 'biological', not the noun 'biology'."
+          "explanation": "An adjective is needed to modify the noun 'surveys' — 'biological', not the noun 'biology'.",
+          "explanation_vi": "Cần một adjective để sửa đổi noun 'surveys' — 'biological', không phải noun 'biology'."
         },
         {
           "id": 5,
@@ -553,7 +557,8 @@
             "C": "resilience"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'Building' — 'resilience'. 'Resilient' is an adjective, and 'resilientness' is not the standard form."
+          "explanation": "A noun is required as the object of 'Building' — 'resilience'. 'Resilient' is an adjective, and 'resilientness' is not the standard form.",
+          "explanation_vi": "Cần một noun làm object của 'Building' — 'resilience'. 'Resilient' là một adjective, và 'resilientness' không phải là dạng chuẩn."
         }
       ]
     },

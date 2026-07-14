@@ -508,7 +508,8 @@
             "C": "replied"
           },
           "answer": "B",
-          "explanation": "'Forgot' means failed to remember something. When you meet someone and tell them your name for the first time, you 'introduce' yourself — not forget yourself."
+          "explanation": "'Forgot' means failed to remember something. When you meet someone and tell them your name for the first time, you 'introduce' yourself — not forget yourself.",
+          "explanation_vi": "'Forgot' có nghĩa là không nhớ được điều gì đó. Khi bạn gặp ai đó và nói tên mình lần đầu tiên, bạn giới thiệu bản thân — không phải quên bản thân."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "rude"
           },
           "answer": "A",
-          "explanation": "'Forgetful' means often forgetting things. Someone who holds doors open and speaks politely is 'courteous' — polite and respectful in behaviour."
+          "explanation": "'Forgetful' means often forgetting things. Someone who holds doors open and speaks politely is 'courteous' — polite and respectful in behaviour.",
+          "explanation_vi": "'Forgetful' có nghĩa là thường xuyên quên những việc. Người mở cửa cho người khác và nói lời lịch sự là 'courteous' — lịch sự và tôn trọng trong hành vi."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "contact"
           },
           "answer": "C",
-          "explanation": "'Reply' means a single answer to a message. Staying in touch with someone regularly over time means staying in 'contact', not in reply."
+          "explanation": "'Reply' means a single answer to a message. Staying in touch with someone regularly over time means staying in 'contact', not in reply.",
+          "explanation_vi": "'Reply' có nghĩa là một câu trả lời duy nhất cho một tin nhắn. Duy trì liên lạc thường xuyên với ai đó theo thời gian có nghĩa là ở trong 'contact', không phải trong 'reply'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "contact"
           },
           "answer": "B",
-          "explanation": "A 'handshake' requires you to be physically close — you hold hands. Waving to someone far across a road is a 'gesture', not a handshake."
+          "explanation": "A 'handshake' requires you to be physically close — you hold hands. Waving to someone far across a road is a 'gesture', not a handshake.",
+          "explanation_vi": "Một 'handshake' yêu cầu bạn phải ở gần nhau về mặt vật lý — bạn nắm tay nhau. Vẫy tay với người ở xa qua đường là một 'gesture', không phải handshake."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "forget"
           },
           "answer": "C",
-          "explanation": "If you find it easy to remember names, you would not need to write them down. The sentence makes sense only if you find it hard — meaning you often 'forget' names."
+          "explanation": "If you find it easy to remember names, you would not need to write them down. The sentence makes sense only if you find it hard — meaning you often 'forget' names.",
+          "explanation_vi": "Nếu bạn thấy dễ nhớ tên, bạn sẽ không cần ghi chúng lại. Câu này chỉ có ý nghĩa nếu bạn thấy khó — nghĩa là bạn thường 'forget' tên."
         }
       ]
     },

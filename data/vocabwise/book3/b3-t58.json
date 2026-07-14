@@ -519,7 +519,8 @@
             "C": "vulnerate"
           },
           "answer": "A",
-          "explanation": "A noun is required after the possessive 'region's' to serve as the subject — 'vulnerability', not the adjective 'vulnerable'."
+          "explanation": "A noun is required after the possessive 'region's' to serve as the subject — 'vulnerability', not the adjective 'vulnerable'.",
+          "explanation_vi": "Cần một noun sau possessive 'region's' để làm subject — 'vulnerability', không phải adjective 'vulnerable'."
         },
         {
           "id": 2,
@@ -531,7 +532,8 @@
             "C": "account"
           },
           "answer": "C",
-          "explanation": "A verb is required after 'to' in the infinitive structure 'to _____ for' — 'account', not the adjective 'accountable'."
+          "explanation": "A verb is required after 'to' in the infinitive structure 'to _____ for' — 'account', not the adjective 'accountable'.",
+          "explanation_vi": "Cần một verb sau 'to' trong cấu trúc infinitive 'to _____ for' — 'account', không phải adjective 'accountable'."
         },
         {
           "id": 3,
@@ -543,7 +545,8 @@
             "C": "mitigating"
           },
           "answer": "A",
-          "explanation": "A base-form infinitive is required after 'to' — 'mitigate', not the past participle 'mitigated'."
+          "explanation": "A base-form infinitive is required after 'to' — 'mitigate', not the past participle 'mitigated'.",
+          "explanation_vi": "Cần một base-form infinitive sau 'to' — 'mitigate', không phải past participle 'mitigated'."
         },
         {
           "id": 4,
@@ -555,7 +558,8 @@
             "C": "adaptation"
           },
           "answer": "C",
-          "explanation": "A noun is required before 'strategy' to form a compound noun modifier — 'adaptation', not the adjective 'adaptable'."
+          "explanation": "A noun is required before 'strategy' to form a compound noun modifier — 'adaptation', not the adjective 'adaptable'.",
+          "explanation_vi": "Cần một noun trước 'strategy' để tạo thành noun phrase làm modifier — 'adaptation', không phải adjective 'adaptable'."
         },
         {
           "id": 5,
@@ -567,7 +571,8 @@
             "C": "tipping point"
           },
           "answer": "C",
-          "explanation": "The complete compound noun 'tipping point' is required — 'tipping' alone does not convey the intended meaning of an irreversible climate threshold."
+          "explanation": "The complete compound noun 'tipping point' is required — 'tipping' alone does not convey the intended meaning of an irreversible climate threshold.",
+          "explanation_vi": "Cần toàn bộ cụm danh từ 'tipping point' — 'tipping' một mình không truyền đạt ý nghĩa mong muốn của một ngưỡng khí hậu không thể đảo ngược."
         }
       ]
     },

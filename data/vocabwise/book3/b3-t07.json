@@ -508,7 +508,8 @@
             "C": "exposure"
           },
           "answer": "C",
-          "explanation": "A noun is required after the adjective 'Long-term' to serve as the subject — 'exposure', not the verb 'expose'."
+          "explanation": "A noun is required after the adjective 'Long-term' to serve as the subject — 'exposure', not the verb 'expose'.",
+          "explanation_vi": "Cần một noun sau tính từ 'Long-term' để làm subject — 'exposure', không phải verb 'expose'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "appreciated"
           },
           "answer": "B",
-          "explanation": "'Appreciation' is the noun form required after 'deep'; 'appreciating' is a gerund/present participle and does not fit here."
+          "explanation": "'Appreciation' is the noun form required after 'deep'; 'appreciating' is a gerund/present participle and does not fit here.",
+          "explanation_vi": "'Appreciation' là dạng noun cần sau 'deep'; 'appreciating' là một gerund/dạng hiện tại phân từ và không phù hợp ở đây."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "preconceived"
           },
           "answer": "A",
-          "explanation": "A plural noun is needed as the object of 'Overcoming' — 'preconceptions', not the verb form 'preconceiving'."
+          "explanation": "A plural noun is needed as the object of 'Overcoming' — 'preconceptions', not the verb form 'preconceiving'.",
+          "explanation_vi": "Cần một plural noun làm object của 'Overcoming' — 'preconceptions', không phải dạng verb 'preconceiving'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "disorientating"
           },
           "answer": "B",
-          "explanation": "A noun is needed to serve as the subject of the sentence — 'disorientation', not the adjective 'disoriented'."
+          "explanation": "A noun is needed to serve as the subject of the sentence — 'disorientation', not the adjective 'disoriented'.",
+          "explanation_vi": "Cần một noun để làm subject của câu — 'disorientation', không phải adjective 'disoriented'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "adaptive"
           },
           "answer": "A",
-          "explanation": "A verb is required in the relative clause 'who _____ quickly' — 'adapt' in the present simple, not the noun 'adaption'."
+          "explanation": "A verb is required in the relative clause 'who _____ quickly' — 'adapt' in the present simple, not the noun 'adaption'.",
+          "explanation_vi": "Cần một verb trong mệnh đề quan hệ 'who _____ quickly' — 'adapt' ở present simple, không phải noun 'adaption'."
         }
       ]
     },

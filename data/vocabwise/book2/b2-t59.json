@@ -585,7 +585,8 @@
             "C": "businesses"
           },
           "answer": "B",
-          "explanation": "'International trade' is the standard noun phrase for cross-border exchange of goods and services."
+          "explanation": "'International trade' is the standard noun phrase for cross-border exchange of goods and services.",
+          "explanation_vi": "'International trade' là noun phrase chuẩn cho việc trao đổi xuyên biên giới của hàng hóa và dịch vụ."
         },
         {
           "id": 2,
@@ -597,7 +598,8 @@
             "C": "heritages"
           },
           "answer": "B",
-          "explanation": "'Cultural identity' is the standard noun phrase for a community's sense of who it is."
+          "explanation": "'Cultural identity' is the standard noun phrase for a community's sense of who it is.",
+          "explanation_vi": "'Cultural identity' là noun phrase chuẩn cho nhận thức của một cộng đồng về bản thân mình."
         },
         {
           "id": 3,
@@ -609,7 +611,8 @@
             "C": "linked"
           },
           "answer": "C",
-          "explanation": "After 'are so closely', use the past-participle adjective 'linked'."
+          "explanation": "After 'are so closely', use the past-participle adjective 'linked'.",
+          "explanation_vi": "Sau 'are so closely', dùng tính từ dạng quá khứ phân từ 'linked'."
         },
         {
           "id": 4,
@@ -621,7 +624,8 @@
             "C": "imbalanced"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'The': 'unfairness'."
+          "explanation": "A noun is needed after 'The': 'unfairness'.",
+          "explanation_vi": "Cần một noun sau 'The': 'unfairness'."
         },
         {
           "id": 5,
@@ -633,7 +637,8 @@
             "C": "spread"
           },
           "answer": "C",
-          "explanation": "After 'helped', use the base verb 'spread'."
+          "explanation": "After 'helped', use the base verb 'spread'.",
+          "explanation_vi": "Sau 'helped', dùng động từ dạng cơ bản 'spread'."
         }
       ]
     },

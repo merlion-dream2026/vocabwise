@@ -509,7 +509,8 @@
             "C": "awaring"
           },
           "answer": "A",
-          "explanation": "A noun is required after the verb 'Raising' — 'awareness', not the adjective 'aware'."
+          "explanation": "A noun is required after the verb 'Raising' — 'awareness', not the adjective 'aware'.",
+          "explanation_vi": "Cần một noun sau verb 'Raising' — 'awareness', không phải adjective 'aware'."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "anxiety"
           },
           "answer": "C",
-          "explanation": "A noun is needed after the adjective 'overwhelming' — 'anxiety', not the adjective 'anxious'."
+          "explanation": "A noun is needed after the adjective 'overwhelming' — 'anxiety', not the adjective 'anxious'.",
+          "explanation_vi": "Cần một noun sau adjective 'overwhelming' — 'anxiety', không phải adjective 'anxious'."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "disordering"
           },
           "answer": "B",
-          "explanation": "A plural noun is required as the object of the preposition 'in' when referring to the general category — 'disorders', not the singular 'disorder'."
+          "explanation": "A plural noun is required as the object of the preposition 'in' when referring to the general category — 'disorders', not the singular 'disorder'.",
+          "explanation_vi": "Cần một plural noun làm object của giới từ 'in' khi nói đến một danh mục chung — 'disorders', không phải số ít 'disorder'."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "prevent"
           },
           "answer": "C",
-          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'prevent'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'prevent'.",
+          "explanation_vi": "Sau dấu chỉ dạng nguyên mẫu 'to', dùng dạng nguyên mẫu của verb: 'prevent'."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "therapied"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify 'practice' — 'therapeutic practice'. The possessive form 'therapy's' is incorrect here."
+          "explanation": "An adjective is needed to modify 'practice' — 'therapeutic practice'. The possessive form 'therapy's' is incorrect here.",
+          "explanation_vi": "Cần một adjective để bổ nghĩa cho 'practice' — 'therapeutic practice'. Dạng sở hữu 'therapy's' không đúng ở đây."
         }
       ]
     },

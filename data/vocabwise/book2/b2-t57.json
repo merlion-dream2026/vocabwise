@@ -590,7 +590,8 @@
             "C": "changing"
           },
           "answer": "B",
-          "explanation": "After 'to', use the base verb 'adapt'."
+          "explanation": "After 'to', use the base verb 'adapt'.",
+          "explanation_vi": "Sau 'to', dùng động từ gốc 'adapt'."
         },
         {
           "id": 2,
@@ -602,7 +603,8 @@
             "C": "machines"
           },
           "answer": "C",
-          "explanation": "'Machines' is the plural noun for automated equipment. 'Machinery' is normally uncountable, and the other options are adjectives or nonstandard forms."
+          "explanation": "'Machines' is the plural noun for automated equipment. 'Machinery' is normally uncountable, and the other options are adjectives or nonstandard forms.",
+          "explanation_vi": "'Machines' là plural noun cho thiết bị tự động. 'Machinery' thường không đếm được, và các lựa chọn khác là adjectives hoặc dạng không chuẩn."
         },
         {
           "id": 3,
@@ -614,7 +616,8 @@
             "C": "contract"
           },
           "answer": "C",
-          "explanation": "A singular noun is needed after 'a three-month': 'contract'."
+          "explanation": "A singular noun is needed after 'a three-month': 'contract'.",
+          "explanation_vi": "Cần một singular noun sau 'a three-month': 'contract'."
         },
         {
           "id": 4,
@@ -626,7 +629,8 @@
             "C": "productivity"
           },
           "answer": "A",
-          "explanation": "After 'makes production', use the adjective phrase 'more efficient'."
+          "explanation": "After 'makes production', use the adjective phrase 'more efficient'.",
+          "explanation_vi": "Sau 'makes production', dùng adjective cụm 'more efficient'."
         },
         {
           "id": 5,
@@ -638,7 +642,8 @@
             "C": "spread"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'The': 'spread'. 'Rising' and 'growing' are participles here."
+          "explanation": "A noun is needed after 'The': 'spread'. 'Rising' and 'growing' are participles here.",
+          "explanation_vi": "Cần một noun sau 'The': 'spread'. 'Rising' và 'growing' là dạng phân từ ở đây."
         }
       ]
     },

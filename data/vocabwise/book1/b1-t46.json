@@ -508,7 +508,8 @@
             "C": "target"
           },
           "answer": "B",
-          "explanation": "A 'deadline' is a fixed time by which something must be done. A list of items you check off one by one to make sure nothing is forgotten is called a 'checklist'."
+          "explanation": "A 'deadline' is a fixed time by which something must be done. A list of items you check off one by one to make sure nothing is forgotten is called a 'checklist'.",
+          "explanation_vi": "Một 'deadline' là thời gian cố định mà trong đó một việc nào đó phải được hoàn thành. Danh sách các mục bạn gạch bỏ từng mục một để đảm bảo không có gì bị quên được gọi là 'checklist'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "ready"
           },
           "answer": "B",
-          "explanation": "The sentence says she is 'usually the last person in the room', which means she arrives after others — not before. The correct word is 'late', the opposite of early."
+          "explanation": "The sentence says she is 'usually the last person in the room', which means she arrives after others — not before. The correct word is 'late', the opposite of early.",
+          "explanation_vi": "Câu này nói cô ấy 'usually the last person in the room', có nghĩa là cô ấy đến sau những người khác — không phải trước. Từ đúng là 'late', trái nghĩa với 'early'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "confirm"
           },
           "answer": "C",
-          "explanation": "'Remind' means to make someone remember something. When you contact a hotel or airline to check that your reservation is still valid, you 'confirm' it."
+          "explanation": "'Remind' means to make someone remember something. When you contact a hotel or airline to check that your reservation is still valid, you 'confirm' it.",
+          "explanation_vi": "'Remind' nghĩa là làm cho ai đó nhớ một điều gì đó. Khi bạn liên hệ với khách sạn hoặc hãng hàng không để kiểm tra xem đặt chỗ của bạn còn hiệu lực hay không, bạn 'confirm' nó."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "complete"
           },
           "answer": "B",
-          "explanation": "'Complete' means to finish a task. When you arrange tasks in a logical order from most to least important, you 'organise' them."
+          "explanation": "'Complete' means to finish a task. When you arrange tasks in a logical order from most to least important, you 'organise' them.",
+          "explanation_vi": "'Complete' nghĩa là hoàn thành một nhiệm vụ. Khi bạn sắp xếp các nhiệm vụ theo thứ tự logic từ quan trọng nhất đến ít quan trọng nhất, bạn 'organise' chúng."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "cancel"
           },
           "answer": "C",
-          "explanation": "'Confirm' means to say something will definitely happen. When an event does not take place because of a problem, it is 'cancelled' — the opposite of confirmed."
+          "explanation": "'Confirm' means to say something will definitely happen. When an event does not take place because of a problem, it is 'cancelled' — the opposite of confirmed.",
+          "explanation_vi": "'Confirm' nghĩa là nói rằng một việc sẽ chắc chắn xảy ra. Khi một sự kiện không diễn ra vì có vấn đề, nó được 'cancelled' — trái nghĩa với 'confirmed'."
         }
       ]
     },

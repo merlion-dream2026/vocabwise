@@ -519,7 +519,8 @@
             "C": "universality"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'affirmed' — 'universality', not the adjective 'universal'."
+          "explanation": "A noun is required as the object of 'affirmed' — 'universality', not the adjective 'universal'.",
+          "explanation_vi": "Cần một noun làm object của 'affirmed' — 'universality', không phải adjective 'universal'."
         },
         {
           "id": 2,
@@ -531,7 +532,8 @@
             "C": "advocated"
           },
           "answer": "B",
-          "explanation": "After the preposition 'to' and the adverb 'actively', use the gerund 'advocating'."
+          "explanation": "After the preposition 'to' and the adverb 'actively', use the gerund 'advocating'.",
+          "explanation_vi": "Sau giới từ 'to' và adverb 'actively', dùng gerund 'advocating'."
         },
         {
           "id": 3,
@@ -543,7 +545,8 @@
             "C": "impunish"
           },
           "answer": "A",
-          "explanation": "The fixed phrase is 'with impunity' (noun) — 'impune' and 'impunely' are not standard English words."
+          "explanation": "The fixed phrase is 'with impunity' (noun) — 'impune' and 'impunely' are not standard English words.",
+          "explanation_vi": "Cụm cố định là 'with impunity' (noun) — 'impune' và 'impunely' không phải là các từ tiếng Anh chuẩn."
         },
         {
           "id": 4,
@@ -555,7 +558,8 @@
             "C": "persecuted"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of 'was documented' — 'persecution', not the present participle 'persecuting'."
+          "explanation": "A noun is needed as the subject of 'was documented' — 'persecution', not the present participle 'persecuting'.",
+          "explanation_vi": "Cần một noun làm subject của 'was documented' — 'persecution', không phải động từ hiện tại phân từ 'persecuting'."
         },
         {
           "id": 5,
@@ -567,7 +571,8 @@
             "C": "repaired"
           },
           "answer": "A",
-          "explanation": "A noun is required as the object of 'sought' — 'reparation', not the non-standard 'reparate'."
+          "explanation": "A noun is required as the object of 'sought' — 'reparation', not the non-standard 'reparate'.",
+          "explanation_vi": "Cần một noun làm object của 'sought' — 'reparation', không phải 'reparate' không chuẩn."
         }
       ]
     },

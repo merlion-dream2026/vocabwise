@@ -511,7 +511,8 @@
             "C": "uniformly"
           },
           "answer": "A",
-          "explanation": "'Her school uniform' is singular — one specific set of clothing. 'Uniforms' (plural) is incorrect here."
+          "explanation": "'Her school uniform' is singular — one specific set of clothing. 'Uniforms' (plural) is incorrect here.",
+          "explanation_vi": "'Her school uniform' chỉ một bộ đồng phục cụ thể, số ít. Dùng 'uniforms' (số nhiều) ở đây là sai."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "fits"
           },
           "answer": "C",
-          "explanation": "In simple present tense, third-person singular subject 'This shirt' needs 'fits', not the continuous form 'fitting'."
+          "explanation": "In simple present tense, third-person singular subject 'This shirt' needs 'fits', not the continuous form 'fitting'.",
+          "explanation_vi": "Ở thì hiện tại đơn, chủ ngữ số ít ngôi thứ ba 'This shirt' cần động từ 'fits', không dùng dạng tiếp diễn 'fitting'."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "wearing"
           },
           "answer": "A",
-          "explanation": "First-person singular 'I' takes the base verb form: 'wear', not 'wears' (which is used with he/she/it)."
+          "explanation": "First-person singular 'I' takes the base verb form: 'wear', not 'wears' (which is used with he/she/it).",
+          "explanation_vi": "Chủ ngữ 'I' (ngôi thứ nhất số ít) dùng động từ nguyên mẫu 'wear', không chia 'wears' (chỉ dùng với he/she/it)."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "comfortable"
           },
           "answer": "C",
-          "explanation": "'Comfortable' (adjective) describes the shoes. 'Comfort' is a noun or verb, not an adjective."
+          "explanation": "'Comfortable' (adjective) describes the shoes. 'Comfort' is a noun or verb, not an adjective.",
+          "explanation_vi": "'Comfortable' (tính từ) mới dùng để miêu tả đôi giày. 'Comfort' là danh từ hoặc động từ, không phải tính từ."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "pocketing"
           },
           "answer": "B",
-          "explanation": "Use 'a pocket' (singular) after the article 'a'. 'A pockets' is grammatically incorrect."
+          "explanation": "Use 'a pocket' (singular) after the article 'a'. 'A pockets' is grammatically incorrect.",
+          "explanation_vi": "Dùng 'a pocket' (số ít) sau mạo từ 'a'. 'A pockets' sai ngữ pháp vì mạo từ 'a' chỉ đi với danh từ số ít."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "button"
           },
           "answer": "A",
-          "explanation": "A cracked surface with wrong colours describes a damaged 'screen', not a battery. The battery stores power; the screen displays images."
+          "explanation": "A cracked surface with wrong colours describes a damaged 'screen', not a battery. The battery stores power; the screen displays images.",
+          "explanation_vi": "Một bề mặt nứt với màu sai mô tả một 'screen' bị hỏng, không phải pin. Pin lưu trữ điện năng; màn hình hiển thị hình ảnh."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "searched"
           },
           "answer": "B",
-          "explanation": "'Powered' means to supply electricity to something. You 'message' friends to send them information."
+          "explanation": "'Powered' means to supply electricity to something. You 'message' friends to send them information.",
+          "explanation_vi": "'Powered' có nghĩa là cung cấp điện cho một đối tượng. Bạn 'message' bạn bè để gửi cho họ thông tin."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "connection"
           },
           "answer": "A",
-          "explanation": "'Online' is an adjective/adverb — it cannot follow 'without' as a standalone noun. 'Power' (electricity) is what devices need to work."
+          "explanation": "'Online' is an adjective/adverb — it cannot follow 'without' as a standalone noun. 'Power' (electricity) is what devices need to work.",
+          "explanation_vi": "'Online' là một adjective/adverb — nó không thể đứng sau 'without' như một noun độc lập. 'Power' (điện) là thứ mà các thiết bị cần để hoạt động."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "battery"
           },
           "answer": "B",
-          "explanation": "The sentence defines the action: 'it's the button on the right side'. You press a 'button', not the 'screen'."
+          "explanation": "The sentence defines the action: 'it's the button on the right side'. You press a 'button', not the 'screen'.",
+          "explanation_vi": "Câu này định nghĩa hành động: 'it's the button on the right side'. Bạn nhấn một 'button', không phải 'screen'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "app"
           },
           "answer": "C",
-          "explanation": "A 'device' is physical hardware (like a phone or tablet). The software program you open to practise a language is an 'app'."
+          "explanation": "A 'device' is physical hardware (like a phone or tablet). The software program you open to practise a language is an 'app'.",
+          "explanation_vi": "'device' là phần cứng vật lý (như điện thoại hoặc máy tính bảng). Phần mềm bạn mở để luyện một ngôn ngữ là một 'app'."
         }
       ]
     },

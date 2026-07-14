@@ -508,7 +508,8 @@
             "C": "misses"
           },
           "answer": "A",
-          "explanation": "'Ignores' means to pay no attention to someone. A friend who sits with you and listens carefully when you are sad is 'comforting' you, not ignoring you."
+          "explanation": "'Ignores' means to pay no attention to someone. A friend who sits with you and listens carefully when you are sad is 'comforting' you, not ignoring you.",
+          "explanation_vi": "'Ignores' nghĩa là không chú ý tới ai đó. Một người bạn ngồi bên bạn và lắng nghe cẩn thận khi bạn buồn đang 'comforting' bạn, không phải đang bỏ qua bạn."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "argument"
           },
           "answer": "C",
-          "explanation": "'Loyalty' is a positive quality — it means being faithful. Something that leads to saying sorry and rebuilding a friendship is an 'argument', not loyalty."
+          "explanation": "'Loyalty' is a positive quality — it means being faithful. Something that leads to saying sorry and rebuilding a friendship is an 'argument', not loyalty.",
+          "explanation_vi": "'Loyalty' là một phẩm chất tích cực — nó có nghĩa là trung thành. Điều gì đó dẫn đến việc nói lời xin lỗi và xây dựng lại một tình bạn là một 'argument', không phải trung thành."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "misses"
           },
           "answer": "B",
-          "explanation": "'Argues' means to quarrel or disagree. The sentence describes someone who never says sorry — the correct word is 'apologises', which is what she fails to do."
+          "explanation": "'Argues' means to quarrel or disagree. The sentence describes someone who never says sorry — the correct word is 'apologises', which is what she fails to do.",
+          "explanation_vi": "'Argues' có nghĩa là tranh cãi hoặc không đồng ý. Câu này mô tả một người không bao giờ nói lời xin lỗi — từ đúng là 'apologises', đó là điều cô ấy không làm được."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "generous"
           },
           "answer": "A",
-          "explanation": "'Sorry' expresses regret for something bad. The sentence expresses a positive feeling — thankfulness for someone's help. The correct word is 'grateful'."
+          "explanation": "'Sorry' expresses regret for something bad. The sentence expresses a positive feeling — thankfulness for someone's help. The correct word is 'grateful'.",
+          "explanation_vi": "'Sorry' biểu thị sự hối hận về một điều xấu. Câu này diễn tả một cảm xúc tích cực — lòng biết ơn vì sự giúp đỡ của ai đó. Từ đúng là 'grateful'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "generous"
           },
           "answer": "C",
-          "explanation": "'Selfish' means thinking only of yourself. Someone who freely shares food, time, and help with others is 'generous', which is the opposite of selfish."
+          "explanation": "'Selfish' means thinking only of yourself. Someone who freely shares food, time, and help with others is 'generous', which is the opposite of selfish.",
+          "explanation_vi": "'Selfish' có nghĩa là chỉ nghĩ đến bản thân mình. Người nào tự nguyện chia sẻ thực phẩm, thời gian và sự giúp đỡ với người khác là 'generous', đó là phản nghĩa của tự lợi."
         }
       ]
     },

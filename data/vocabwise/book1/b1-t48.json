@@ -508,7 +508,8 @@
             "C": "microphone"
           },
           "answer": "A",
-          "explanation": "'Cheer' means to shout or clap to show support. A formal event with a set order of actions — like one that begins with a speech — is a 'ceremony'."
+          "explanation": "'Cheer' means to shout or clap to show support. A formal event with a set order of actions — like one that begins with a speech — is a 'ceremony'.",
+          "explanation_vi": "'Cheer' nghĩa là la hét hoặc vỗ tay để thể hiện sự ủng hộ. Một sự kiện trang trọng với một trình tự hành động đã được sắp xếp — như một sự kiện bắt đầu bằng một bài phát biểu — là một 'ceremony'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "speech"
           },
           "answer": "B",
-          "explanation": "A 'speech' is something a person says out loud. The sound of an audience clapping to show appreciation is 'applause'."
+          "explanation": "A 'speech' is something a person says out loud. The sound of an audience clapping to show appreciation is 'applause'.",
+          "explanation_vi": "'speech' là điều một người nói ra to tiếng. Âm thanh của khán giả vỗ tay để thể hiện sự trân trọng là 'applause'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "arrange"
           },
           "answer": "C",
-          "explanation": "'Attend' means to go to or be present at an event. To plan and organise things so they are ready in the right order or position is to 'arrange' them."
+          "explanation": "'Attend' means to go to or be present at an event. To plan and organise things so they are ready in the right order or position is to 'arrange' them.",
+          "explanation_vi": "'Attend' nghĩa là đi tới hoặc có mặt tại một sự kiện. Việc lên kế hoạch và sắp xếp mọi thứ sao cho chúng sẵn sàng theo đúng trình tự hoặc vị trí là 'arrange' chúng."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "programme"
           },
           "answer": "A",
-          "explanation": "An 'award' is a prize given to recognise achievement. The device you hold near your mouth to make your voice louder so others can hear is a 'microphone'."
+          "explanation": "An 'award' is a prize given to recognise achievement. The device you hold near your mouth to make your voice louder so others can hear is a 'microphone'.",
+          "explanation_vi": "Một 'award' là một giải thưởng được trao để công nhận thành tựu. Thiết bị bạn cầm gần miệng để làm giọng nói to hơn để người khác nghe được là một 'microphone'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "guest"
           },
           "answer": "C",
-          "explanation": "The 'host' is the person who organises or runs the event. Someone who is invited to an event and receives a welcome is a 'guest'."
+          "explanation": "The 'host' is the person who organises or runs the event. Someone who is invited to an event and receives a welcome is a 'guest'.",
+          "explanation_vi": "'host' là người tổ chức hoặc điều hành sự kiện. Người được mời tới một sự kiện và nhận được sự chào đón là một 'guest'."
         }
       ]
     },

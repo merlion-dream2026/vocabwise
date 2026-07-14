@@ -511,7 +511,8 @@
             "C": "hello"
           },
           "answer": "C",
-          "explanation": "'Goodbye' is used when you are leaving, not when you meet someone for the first time. The correct word is 'hello' — the word used to greet someone at the start of a meeting."
+          "explanation": "'Goodbye' is used when you are leaving, not when you meet someone for the first time. The correct word is 'hello' — the word used to greet someone at the start of a meeting.",
+          "explanation_vi": "'Goodbye' được dùng khi bạn rời đi, không phải khi gặp ai lần đầu. Từ đúng là 'hello' — từ dùng để chào ai đó khi bắt đầu một buổi gặp mặt."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "casual"
           },
           "answer": "A",
-          "explanation": "'Impolite' means rude or bad-mannered. The sentence describes someone doing kind things like saying thank you and holding the door — this describes a 'polite' person."
+          "explanation": "'Impolite' means rude or bad-mannered. The sentence describes someone doing kind things like saying thank you and holding the door — this describes a 'polite' person.",
+          "explanation_vi": "'Impolite' có nghĩa là thô lỗ hoặc không lịch sự. Câu này mô tả một người làm những việc tử tế như nói lời cảm ơn và mở cửa — điều này mô tả một người 'polite'."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "nod"
           },
           "answer": "B",
-          "explanation": "A 'nod' is a small movement of the head up and down. A deep movement of the whole upper body as a sign of respect is called a 'bow'."
+          "explanation": "A 'nod' is a small movement of the head up and down. A deep movement of the whole upper body as a sign of respect is called a 'bow'.",
+          "explanation_vi": "'nod' là một chuyển động nhỏ của đầu lên xuống. Một chuyển động sâu của toàn bộ phần trên cơ thể như một dấu hiệu tôn trọng được gọi là 'bow'."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "friends"
           },
           "answer": "A",
-          "explanation": "If you do not know anyone at a party, the people around you are not 'friends' — they are 'strangers', people you have never met before."
+          "explanation": "If you do not know anyone at a party, the people around you are not 'friends' — they are 'strangers', people you have never met before.",
+          "explanation_vi": "Nếu bạn không biết ai ở một bữa tiệc, những người quanh bạn không phải là 'friends' — họ là 'strangers', những người mà bạn chưa từng gặp trước đây."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "hello"
           },
           "answer": "B",
-          "explanation": "'See you yesterday' does not make sense because 'yesterday' refers to the past. When saying goodbye and hoping to meet someone in the future, you say 'see you again' or 'see you soon'."
+          "explanation": "'See you yesterday' does not make sense because 'yesterday' refers to the past. When saying goodbye and hoping to meet someone in the future, you say 'see you again' or 'see you soon'.",
+          "explanation_vi": "'See you yesterday' không có nghĩa vì 'yesterday' chỉ thời gian quá khứ. Khi nói lời tạm biệt và mong gặp lại ai đó trong tương lai, bạn nói 'see you again' hoặc 'see you soon'."
         }
       ]
     },

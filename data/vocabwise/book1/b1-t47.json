@@ -508,7 +508,8 @@
             "C": "object"
           },
           "answer": "A",
-          "explanation": "A 'tag' is a small label on an object. Something that shows you all the rooms in a building and where they are is a 'floor plan'."
+          "explanation": "A 'tag' is a small label on an object. Something that shows you all the rooms in a building and where they are is a 'floor plan'.",
+          "explanation_vi": "'tag' là một nhãn nhỏ dán trên một vật. Điều gì đó cho bạn thấy tất cả các phòng trong một tòa nhà và vị trí của chúng là 'floor plan'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "exhibit"
           },
           "answer": "C",
-          "explanation": "'Collect' is a verb. A public display about a particular topic in a museum is an 'exhibit'."
+          "explanation": "'Collect' is a verb. A public display about a particular topic in a museum is an 'exhibit'.",
+          "explanation_vi": "'Collect' là một động từ. Một triển lãm công cộng về một chủ đề cụ thể trong bảo tàng là một 'exhibit'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "wing"
           },
           "answer": "B",
-          "explanation": "The 'entrance' is where you go IN. After finishing a visit and leaving, you follow signs to the 'way out'."
+          "explanation": "The 'entrance' is where you go IN. After finishing a visit and leaving, you follow signs to the 'way out'.",
+          "explanation_vi": "'entrance' là nơi bạn vào. Sau khi kết thúc chuyến thăm và rời đi, bạn theo các biển chỉ dẫn đến 'way out'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "tag"
           },
           "answer": "C",
-          "explanation": "A 'showcase' is a glass cabinet for displaying objects. A small label attached to an object with its name and date is a 'tag'."
+          "explanation": "A 'showcase' is a glass cabinet for displaying objects. A small label attached to an object with its name and date is a 'tag'.",
+          "explanation_vi": "'showcase' là một tủ kính dùng để trưng bày các vật. Một nhãn nhỏ gắn vào một vật với tên và ngày tháng của nó là 'tag'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "floor plan"
           },
           "answer": "C",
-          "explanation": "After 'used the', a noun is needed. A map on the wall showing the position of rooms is a 'floor plan'; 'guided' is a verb form or adjective."
+          "explanation": "After 'used the', a noun is needed. A map on the wall showing the position of rooms is a 'floor plan'; 'guided' is a verb form or adjective.",
+          "explanation_vi": "Sau 'used the', cần một noun. Một bản đồ trên tường cho thấy vị trí các phòng là 'floor plan'; 'guided' là một dạng verb hoặc adjective."
         }
       ]
     },

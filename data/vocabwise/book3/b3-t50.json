@@ -511,7 +511,8 @@
             "C": "equivalents"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'true' to serve as the object of 'Achieving' — 'equivalence', not the adjective 'equivalent'."
+          "explanation": "A noun is required after 'true' to serve as the object of 'Achieving' — 'equivalence', not the adjective 'equivalent'.",
+          "explanation_vi": "Cần một noun sau 'true' để làm object của 'Achieving' — 'equivalence', không phải adjective 'equivalent'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "ambiguities"
           },
           "answer": "A",
-          "explanation": "After 'A single', use the singular noun 'ambiguity'. 'Ambiguities' is plural, and 'ambiguously' is an adverb."
+          "explanation": "After 'A single', use the singular noun 'ambiguity'. 'Ambiguities' is plural, and 'ambiguously' is an adverb.",
+          "explanation_vi": "Sau 'A single', dùng noun số ít 'ambiguity'. 'Ambiguities' là noun số nhiều, và 'ambiguously' là adverb."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "fidelity"
           },
           "answer": "C",
-          "explanation": "The standard technical term in translation studies for loyalty to the source text is 'fidelity'; 'faithful' is an adjective and does not fit the possessive noun-phrase slot here."
+          "explanation": "The standard technical term in translation studies for loyalty to the source text is 'fidelity'; 'faithful' is an adjective and does not fit the possessive noun-phrase slot here.",
+          "explanation_vi": "Thuật ngữ kỹ thuật chuẩn trong nghiên cứu dịch thuật cho sự trung thành với văn bản gốc là 'fidelity'; 'faithful' là adjective và không phù hợp với vị trí sở hữu noun phrase ở đây."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "locating"
           },
           "answer": "B",
-          "explanation": "A noun is needed after 'in' to complete the prepositional phrase — 'localisation', not the verb 'locate'."
+          "explanation": "A noun is needed after 'in' to complete the prepositional phrase — 'localisation', not the verb 'locate'.",
+          "explanation_vi": "Cần một noun sau 'in' để hoàn thành cụm giới từ — 'localisation', không phải verb 'locate'."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "interpretation"
           },
           "answer": "A",
-          "explanation": "A plural noun is required as the subject of the sentence — 'interpreters', not the verb 'interpret'."
+          "explanation": "A plural noun is required as the subject of the sentence — 'interpreters', not the verb 'interpret'.",
+          "explanation_vi": "Cần một noun số nhiều làm subject của câu — 'interpreters', không phải verb 'interpret'."
         }
       ]
     },

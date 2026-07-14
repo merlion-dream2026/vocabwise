@@ -511,7 +511,8 @@
             "C": "pond"
           },
           "answer": "B",
-          "explanation": "You sit on a 'bench'. A 'fountain' is a water feature, not something you sit on."
+          "explanation": "You sit on a 'bench'. A 'fountain' is a water feature, not something you sit on.",
+          "explanation_vi": "Bạn ngồi trên một 'bench'. Một 'fountain' là một đặc điểm nước, không phải là thứ để bạn ngồi lên."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "shadily"
           },
           "answer": "A",
-          "explanation": "After 'in the', a noun is needed. 'Shade' is the cool area protected from direct sunlight; 'shaded' is an adjective or past participle, and 'shadily' is an adverb."
+          "explanation": "After 'in the', a noun is needed. 'Shade' is the cool area protected from direct sunlight; 'shaded' is an adjective or past participle, and 'shadily' is an adverb.",
+          "explanation_vi": "Sau 'in the', cần một noun. 'Shade' là khu vực mát mẻ được bảo vệ khỏi ánh nắng trực tiếp; 'shaded' là một adjective hoặc past participle, và 'shadily' là một adverb."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "peaceful"
           },
           "answer": "C",
-          "explanation": "No traffic and birdsong suggest a quiet, calm environment — 'peaceful' (adjective) is correct here. 'Noisy' is the opposite of what the sentence describes."
+          "explanation": "No traffic and birdsong suggest a quiet, calm environment — 'peaceful' (adjective) is correct here. 'Noisy' is the opposite of what the sentence describes.",
+          "explanation_vi": "Không có giao thông và tiếng chim hót gợi lên một môi trường yên tĩnh, bình lặng — 'peaceful' (adjective) là đúng ở đây. 'Noisy' là ngược lại với những gì câu mô tả."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "played"
           },
           "answer": "A",
-          "explanation": "'Strolled' means walked slowly and casually, which contradicts 'running as fast as we could'. 'Sprinted' means ran at top speed and fits the context."
+          "explanation": "'Strolled' means walked slowly and casually, which contradicts 'running as fast as we could'. 'Sprinted' means ran at top speed and fits the context.",
+          "explanation_vi": "'Strolled' có nghĩa là đi bộ chậm rãi và thoải mái, điều này mâu thuẫn với 'running as fast as we could'. 'Sprinted' có nghĩa là chạy với tốc độ tối đa và phù hợp với ngữ cảnh."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "birds"
           },
           "answer": "C",
-          "explanation": "'Many' requires a plural noun. Change 'bird' to 'birds'."
+          "explanation": "'Many' requires a plural noun. Change 'bird' to 'birds'.",
+          "explanation_vi": "'Many' yêu cầu một noun số nhiều. Thay 'bird' thành 'birds'."
         }
       ]
     },

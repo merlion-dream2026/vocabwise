@@ -499,7 +499,8 @@
             "C": "distortions"
           },
           "answer": "B",
-          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'distortion', not the verb 'distort'."
+          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'distortion', not the verb 'distort'.",
+          "explanation_vi": "Cần một noun sau article xác định 'The' để làm subject — 'distortion', không phải verb 'distort'."
         },
         {
           "id": 2,
@@ -511,7 +512,8 @@
             "C": "censor"
           },
           "answer": "A",
-          "explanation": "The noun 'censorship' is required after 'internet' to name the practice or policy. 'Censored' is a past participle, and 'censor' refers to a person or functions as a verb."
+          "explanation": "The noun 'censorship' is required after 'internet' to name the practice or policy. 'Censored' is a past participle, and 'censor' refers to a person or functions as a verb.",
+          "explanation_vi": "Cần noun 'censorship' sau 'mạng' để chỉ thực tiễn hoặc chính sách. 'Censored' là past participle, và 'censor' chỉ người hoặc hoạt động như verb."
         },
         {
           "id": 3,
@@ -523,7 +525,8 @@
             "C": "amplifies"
           },
           "answer": "B",
-          "explanation": "A noun is required after 'algorithmic' to serve as the subject of the clause — 'amplification', not the verb 'amplify'."
+          "explanation": "A noun is required after 'algorithmic' to serve as the subject of the clause — 'amplification', not the verb 'amplify'.",
+          "explanation_vi": "Cần một noun sau 'algorithmic' để làm subject của clause — 'amplification', không phải verb 'amplify'."
         },
         {
           "id": 4,
@@ -535,7 +538,8 @@
             "C": "propagandistically"
           },
           "answer": "B",
-          "explanation": "'Propaganda campaign' is the standard compound noun phrase. 'Propagandise' is a verb, and 'propagandistically' is an adverb."
+          "explanation": "'Propaganda campaign' is the standard compound noun phrase. 'Propagandise' is a verb, and 'propagandistically' is an adverb.",
+          "explanation_vi": "'Propaganda campaign' là cụm noun phrase hợp chuẩn. 'Propagandise' là verb, và 'propagandistically' là adverb."
         },
         {
           "id": 5,
@@ -547,7 +551,8 @@
             "C": "trusted"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject of the sentence — 'trustworthiness', not the adjective 'trustworthy'."
+          "explanation": "A noun is required as the subject of the sentence — 'trustworthiness', not the adjective 'trustworthy'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'trustworthiness', không phải adjective 'trustworthy'."
         }
       ]
     },

@@ -517,7 +517,8 @@
             "C": "accumulation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'accumulation', not the verb 'accumulate'."
+          "explanation": "A noun is required as the subject of the sentence — 'accumulation', not the verb 'accumulate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'accumulation', không phải verb 'accumulate'."
         },
         {
           "id": 2,
@@ -529,7 +530,8 @@
             "C": "manifested"
           },
           "answer": "A",
-          "explanation": "A noun is needed after the adjective 'common' to serve as the complement — 'manifestation', not the verb 'manifest'."
+          "explanation": "A noun is needed after the adjective 'common' to serve as the complement — 'manifestation', not the verb 'manifest'.",
+          "explanation_vi": "Cần một noun sau adjective 'common' để làm bổ nghĩa — 'manifestation', không phải verb 'manifest'."
         },
         {
           "id": 3,
@@ -541,7 +543,8 @@
             "C": "deteriorated"
           },
           "answer": "C",
-          "explanation": "The past perfect tense 'had _____ ' requires a past participle — 'deteriorated', not the base form 'deteriorate'."
+          "explanation": "The past perfect tense 'had _____ ' requires a past participle — 'deteriorated', not the base form 'deteriorate'.",
+          "explanation_vi": "Thì quá khứ hoàn thành 'had _____' yêu cầu một past participle — 'deteriorated', không phải dạng gốc 'deteriorate'."
         },
         {
           "id": 4,
@@ -553,7 +556,8 @@
             "C": "intervened"
           },
           "answer": "B",
-          "explanation": "After 'helped him', use the bare infinitive 'intervene'. 'Intervention' is a noun."
+          "explanation": "After 'helped him', use the bare infinitive 'intervene'. 'Intervention' is a noun.",
+          "explanation_vi": "Sau 'helped him', dùng động từ nguyên mẫu không có 'to' 'intervene'. 'Intervention' là một noun."
         },
         {
           "id": 5,
@@ -565,7 +569,8 @@
             "C": "cortisolic"
           },
           "answer": "A",
-          "explanation": "'Cortisol' is an uncountable noun and does not take a plural form — 'cortisol', not 'cortisols'."
+          "explanation": "'Cortisol' is an uncountable noun and does not take a plural form — 'cortisol', not 'cortisols'.",
+          "explanation_vi": "'Cortisol' là một noun không đếm được và không có dạng plural — 'cortisol', không phải 'cortisols'."
         }
       ]
     },

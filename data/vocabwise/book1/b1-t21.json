@@ -508,7 +508,8 @@
             "C": "misses"
           },
           "answer": "B",
-          "explanation": "'Argue' means to disagree or quarrel with someone. When a friend helps you feel better when you are sad, they 'support' you — not argue with you."
+          "explanation": "'Argue' means to disagree or quarrel with someone. When a friend helps you feel better when you are sad, they 'support' you — not argue with you.",
+          "explanation_vi": "'Argue' nghĩa là không đồng ý hoặc cãi nhau với ai đó. Khi một người bạn giúp bạn cảm thấy tốt hơn khi bạn buồn, họ 'support' bạn — không phải argue với bạn."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "trust"
           },
           "answer": "A",
-          "explanation": "'Laughter' is the sound or act of laughing — it is not something private. Something you share privately with a friend and must never tell others is a 'secret'."
+          "explanation": "'Laughter' is the sound or act of laughing — it is not something private. Something you share privately with a friend and must never tell others is a 'secret'.",
+          "explanation_vi": "'Laughter' là âm thanh hoặc hành động cười — nó không phải là một thứ riêng tư. Điều bạn chia sẻ riêng tư với một người bạn và không bao giờ được nói với người khác là một 'secret'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "argument"
           },
           "answer": "C",
-          "explanation": "A 'bond' is a positive connection between people. The sentence describes a situation where they needed to apologise — this is the result of an 'argument', not a bond."
+          "explanation": "A 'bond' is a positive connection between people. The sentence describes a situation where they needed to apologise — this is the result of an 'argument', not a bond.",
+          "explanation_vi": "Một 'bond' là một kết nối tích cực giữa mọi người. Câu này mô tả một tình huống mà họ cần phải xin lỗi — đây là kết quả của một 'argument', không phải một bond."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "meet"
           },
           "answer": "B",
-          "explanation": "If friends live far apart, they cannot easily meet in person. The correct word is 'miss' — to feel sad because someone you care about is not with you."
+          "explanation": "If friends live far apart, they cannot easily meet in person. The correct word is 'miss' — to feel sad because someone you care about is not with you.",
+          "explanation_vi": "Nếu bạn bè sống cách xa nhau, họ không thể dễ dàng gặp mặt trực tiếp. Từ đúng là 'miss' — cảm giác buồn vì người mà bạn quan tâm không ở bên bạn."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "dishonest"
           },
           "answer": "A",
-          "explanation": "'Forgetful' means often forgetting things — it has nothing to do with telling the truth. Someone who always says what they think and never lies is 'honest'."
+          "explanation": "'Forgetful' means often forgetting things — it has nothing to do with telling the truth. Someone who always says what they think and never lies is 'honest'.",
+          "explanation_vi": "'Forgetful' nghĩa là thường quên mọi thứ — nó không liên quan gì đến việc nói sự thật. Người luôn nói những gì họ nghĩ và không bao giờ nói dối là 'honest'."
         }
       ]
     },

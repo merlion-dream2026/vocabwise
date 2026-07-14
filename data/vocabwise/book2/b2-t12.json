@@ -548,7 +548,8 @@
             "C": "species"
           },
           "answer": "C",
-          "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology."
+          "explanation": "'Species' is both the singular and plural form in English — 'specie' does not exist in biology.",
+          "explanation_vi": "'Species' là dạng số ít và số nhiều trong tiếng Anh — 'specie' không tồn tại trong sinh học."
         },
         {
           "id": 2,
@@ -560,7 +561,8 @@
             "C": "habitation"
           },
           "answer": "A",
-          "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place."
+          "explanation": "'Habitat' is the correct word for an animal's natural environment; 'habitant' means a person who lives in a place.",
+          "explanation_vi": "'Habitat' là từ đúng để chỉ môi trường tự nhiên của một loài động vật; 'habitant' có nghĩa là người cư trú ở một nơi."
         },
         {
           "id": 3,
@@ -572,7 +574,8 @@
             "C": "predating"
           },
           "answer": "B",
-          "explanation": "'Predator' is an animal that hunts for food; 'predictor' means something that forecasts or predicts events."
+          "explanation": "'Predator' is an animal that hunts for food; 'predictor' means something that forecasts or predicts events.",
+          "explanation_vi": "'Predator' là một loài động vật săn bắt để lấy thức ăn; 'predictor' có nghĩa là thứ dự báo hoặc dự đoán các sự kiện."
         },
         {
           "id": 4,
@@ -584,7 +587,8 @@
             "C": "extinct"
           },
           "answer": "C",
-          "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire."
+          "explanation": "'Extinct' is the adjective used to describe a species that no longer exists; 'extinguish' means to put out a fire.",
+          "explanation_vi": "'Extinct' là tính từ dùng để mô tả một loài không còn tồn tại; 'extinguish' có nghĩa là dập tắt lửa."
         },
         {
           "id": 5,
@@ -596,7 +600,8 @@
             "C": "conservatory"
           },
           "answer": "A",
-          "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school."
+          "explanation": "'Conservation' is the noun used for efforts to protect nature; 'conservatory' is a glass-roofed room or a music school.",
+          "explanation_vi": "'Conservation' là danh từ dùng cho các nỗ lực bảo vệ thiên nhiên; 'conservatory' là một phòng có mái kính hoặc một trường âm nhạc."
         }
       ]
     },

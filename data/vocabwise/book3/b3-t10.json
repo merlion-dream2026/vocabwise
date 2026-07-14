@@ -512,7 +512,8 @@
             "C": "exhausted"
           },
           "answer": "A",
-          "explanation": "A noun is needed as the subject — 'exhaustion', not the verb 'exhaust' or the adjective 'exhausted'."
+          "explanation": "A noun is needed as the subject — 'exhaustion', not the verb 'exhaust' or the adjective 'exhausted'.",
+          "explanation_vi": "Cần một noun làm subject — 'exhaustion', không phải verb 'exhaust' hoặc adjective 'exhausted'."
         },
         {
           "id": 2,
@@ -524,7 +525,8 @@
             "C": "equilibrium"
           },
           "answer": "C",
-          "explanation": "'Equilibrium' means a state of balance; 'equilateral' is a geometry term meaning equal sides — wrong word entirely."
+          "explanation": "'Equilibrium' means a state of balance; 'equilateral' is a geometry term meaning equal sides — wrong word entirely.",
+          "explanation_vi": "'Equilibrium' nghĩa là một trạng thái cân bằng; 'equilateral' là một thuật ngữ hình học nghĩa là các cạnh bằng nhau — hoàn toàn là từ sai."
         },
         {
           "id": 3,
@@ -536,7 +538,8 @@
             "C": "overcommit"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject of the sentence — 'overcommitment', not the adjective 'overcommitted'."
+          "explanation": "A noun is required as the subject of the sentence — 'overcommitment', not the adjective 'overcommitted'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'overcommitment', không phải adjective 'overcommitted'."
         },
         {
           "id": 4,
@@ -548,7 +551,8 @@
             "C": "productivity"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'improve' — 'productivity', not the verb 'produce' or adjective 'productive'."
+          "explanation": "A noun is needed after 'improve' — 'productivity', not the verb 'produce' or adjective 'productive'.",
+          "explanation_vi": "Cần một noun sau 'improve' — 'productivity', không phải verb 'produce' hoặc adjective 'productive'."
         },
         {
           "id": 5,
@@ -560,7 +564,8 @@
             "C": "disengaged"
           },
           "answer": "B",
-          "explanation": "A verb is needed after the modal 'can' — 'disengage', not the noun 'disengagement'."
+          "explanation": "A verb is needed after the modal 'can' — 'disengage', not the noun 'disengagement'.",
+          "explanation_vi": "Cần một verb sau động từ khiếm khuyết 'can' — 'disengage', không phải noun 'disengagement'."
         }
       ]
     },

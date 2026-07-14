@@ -508,7 +508,8 @@
             "C": "cousin"
           },
           "answer": "A",
-          "explanation": "'Uncle' is the word for a father's or mother's brother. A father's sister is called an 'aunt'."
+          "explanation": "'Uncle' is the word for a father's or mother's brother. A father's sister is called an 'aunt'.",
+          "explanation_vi": "'Uncle' là từ chỉ anh của cha hoặc mẹ. Chị gái của cha được gọi là 'aunt'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "blood"
           },
           "answer": "B",
-          "explanation": "'Blood' refers to family connections by birth. The word for treating someone with admiration and politeness is 'respect', not blood."
+          "explanation": "'Blood' refers to family connections by birth. The word for treating someone with admiration and politeness is 'respect', not blood.",
+          "explanation_vi": "'Blood' đề cập đến mối quan hệ gia đình theo dòng máu. Từ chỉ cách đối xử với ai đó bằng sự ngưỡng mộ và lịch sự là 'respect', không phải blood."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "older"
           },
           "answer": "C",
-          "explanation": "'Senior' means having a high rank or more experience — it is not used for simple age comparisons. To say someone was born earlier, use 'older'."
+          "explanation": "'Senior' means having a high rank or more experience — it is not used for simple age comparisons. To say someone was born earlier, use 'older'.",
+          "explanation_vi": "'Senior' có nghĩa là có cấp bậc cao hoặc kinh nghiệm nhiều hơn — không được dùng để so sánh tuổi đơn giản. Để nói ai đó sinh sớm hơn, dùng 'older'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "cousins"
           },
           "answer": "A",
-          "explanation": "'Cousins' are the children of your aunts and uncles. The people who are your mother and father are called 'parents'."
+          "explanation": "'Cousins' are the children of your aunts and uncles. The people who are your mother and father are called 'parents'.",
+          "explanation_vi": "'Cousins' là con của dì và chú của bạn. Người là mẹ và cha của bạn được gọi là 'parents'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "loose"
           },
           "answer": "B",
-          "explanation": "'Loose' means not firmly connected. A family that calls daily and meets every weekend is 'tight-knit' — closely connected and caring greatly about each other."
+          "explanation": "'Loose' means not firmly connected. A family that calls daily and meets every weekend is 'tight-knit' — closely connected and caring greatly about each other.",
+          "explanation_vi": "'Loose' có nghĩa là không được kết nối chặt chẽ. Một gia đình gọi điện mỗi ngày và gặp mặt mỗi cuối tuần được mô tả là 'tight-knit' — gắn bó chặt chẽ và quan tâm sâu sắc đến nhau."
         }
       ]
     },

@@ -511,7 +511,8 @@
             "C": "vendor"
           },
           "answer": "A",
-          "explanation": "A 'vendor' is a person who sells things. A label attached to a product showing its price is a 'price tag'."
+          "explanation": "A 'vendor' is a person who sells things. A label attached to a product showing its price is a 'price tag'.",
+          "explanation_vi": "Một 'vendor' là một người bán hàng. Một nhãn dán gắn vào sản phẩm để hiển thị giá của nó là một 'price tag'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "quiet"
           },
           "answer": "B",
-          "explanation": "If there are hundreds of shoppers, the market is not quiet — it is 'crowded', meaning full of people."
+          "explanation": "If there are hundreds of shoppers, the market is not quiet — it is 'crowded', meaning full of people.",
+          "explanation_vi": "Nếu có hàng trăm người mua sắm, chợ không yên tĩnh — nó là 'crowded', có nghĩa là đầy người."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "queue"
           },
           "answer": "C",
-          "explanation": "'Haggle' means to argue about a price. Waiting in a line to pay at the checkout is called 'queue' — you queue, not haggle."
+          "explanation": "'Haggle' means to argue about a price. Waiting in a line to pay at the checkout is called 'queue' — you queue, not haggle.",
+          "explanation_vi": "'Haggle' có nghĩa là tranh luận về giá. Đợi trong một hàng để thanh toán tại quầy thu ngân được gọi là 'queue' — bạn xếp hàng, không phải đàm phán."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "wrapping"
           },
           "answer": "A",
-          "explanation": "'Compare' means to look at differences between things. When a seller measures how heavy something is to find the price, they 'weigh' it."
+          "explanation": "'Compare' means to look at differences between things. When a seller measures how heavy something is to find the price, they 'weigh' it.",
+          "explanation_vi": "'Compare' có nghĩa là xem xét sự khác nhau giữa các vật. Khi người bán đo trọng lượng của một vật để xác định giá, họ 'weigh' nó."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "sale"
           },
           "answer": "C",
-          "explanation": "A 'stall' is a table or stand where goods are sold, not an event with reduced prices. A period when a shop sells goods at lower prices is called a 'sale'."
+          "explanation": "A 'stall' is a table or stand where goods are sold, not an event with reduced prices. A period when a shop sells goods at lower prices is called a 'sale'.",
+          "explanation_vi": "'stall' là một bàn hoặc gian hàng nơi hàng hoá được bán, không phải là một sự kiện giảm giá. Một khoảng thời gian khi một cửa hàng bán hàng hoá với giá thấp hơn được gọi là 'sale'."
         }
       ]
     },

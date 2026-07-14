@@ -508,7 +508,8 @@
             "C": "patient"
           },
           "answer": "B",
-          "explanation": "'Patient' means calm and willing to wait. Someone who talks so much that the teacher must ask them to stop is 'talkative', not patient."
+          "explanation": "'Patient' means calm and willing to wait. Someone who talks so much that the teacher must ask them to stop is 'talkative', not patient.",
+          "explanation_vi": "'Patient' có nghĩa là bình tĩnh và sẵn sàng chờ đợi. Người nào nói quá nhiều đến mức giáo viên phải yêu cầu họ dừng lại là 'talkative', không phải kiên nhẫn."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "loud"
           },
           "answer": "A",
-          "explanation": "'Noisy' means loud and disruptive. Someone who never speaks loudly and listens carefully is 'quiet', not noisy."
+          "explanation": "'Noisy' means loud and disruptive. Someone who never speaks loudly and listens carefully is 'quiet', not noisy.",
+          "explanation_vi": "'Noisy' có nghĩa là ồn ào và gây rối. Người nào không bao giờ nói to và lắng nghe cẩn thận là 'quiet', không phải ồn."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "serious"
           },
           "answer": "C",
-          "explanation": "'Lazy' means not wanting to work. Someone who gets top marks and never misses class is 'serious' about their studies, not lazy."
+          "explanation": "'Lazy' means not wanting to work. Someone who gets top marks and never misses class is 'serious' about their studies, not lazy.",
+          "explanation_vi": "'Lazy' có nghĩa là không muốn làm việc. Người nào đạt điểm cao nhất và không bao giờ vắng lớp là 'serious' về việc học của mình, không phải lười."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "patient"
           },
           "answer": "B",
-          "explanation": "'Shy' means uncomfortable speaking to other people. Someone who talks to everyone and chats for hours is 'talkative', not shy."
+          "explanation": "'Shy' means uncomfortable speaking to other people. Someone who talks to everyone and chats for hours is 'talkative', not shy.",
+          "explanation_vi": "'Shy' có nghĩa là không thoải mái khi nói chuyện với người khác. Người nào nói chuyện với mọi người và trò chuyện hàng giờ là 'talkative', không phải e thẹn."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "serious"
           },
           "answer": "A",
-          "explanation": "'Helpful' describes someone who assists others — it does not match someone who loves doing nothing. A person who avoids work and hates responsibility is 'lazy'."
+          "explanation": "'Helpful' describes someone who assists others — it does not match someone who loves doing nothing. A person who avoids work and hates responsibility is 'lazy'.",
+          "explanation_vi": "'Helpful' miêu tả một người giúp đỡ người khác — không phù hợp với người yêu thích không làm gì. Một người tránh làm việc và ghét trách nhiệm là 'lazy'."
         }
       ]
     },

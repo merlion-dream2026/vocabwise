@@ -511,7 +511,8 @@
             "C": "feedback"
           },
           "answer": "B",
-          "explanation": "'Effort' refers to the hard work you put in. 'Progress' describes the improvement that results from that work — which matches 'speaking much better than before'."
+          "explanation": "'Effort' refers to the hard work you put in. 'Progress' describes the improvement that results from that work — which matches 'speaking much better than before'.",
+          "explanation_vi": "'Effort' chỉ đến công sức mà bạn bỏ ra. 'Progress' mô tả sự cải thiện xuất phát từ công việc đó — phù hợp với 'speaking much better than before'."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "volunteer"
           },
           "answer": "A",
-          "explanation": "'Volunteer' means to offer to do something. When a teacher says a sentence and asks students to say it after her, she wants them to 'repeat' it."
+          "explanation": "'Volunteer' means to offer to do something. When a teacher says a sentence and asks students to say it after her, she wants them to 'repeat' it.",
+          "explanation_vi": "'Volunteer' nghĩa là tự nguyện làm gì đó. Khi giáo viên nói một câu và yêu cầu học sinh nói lại sau cô ấy, cô ấy muốn các em 'repeat' nó."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "take turns"
           },
           "answer": "C",
-          "explanation": "'Raise' means to lift something up (like your hand). When two students alternate speaking in a pair activity, they 'take turns' — not raise."
+          "explanation": "'Raise' means to lift something up (like your hand). When two students alternate speaking in a pair activity, they 'take turns' — not raise.",
+          "explanation_vi": "'Raise' nghĩa là nâng lên (như tay của bạn). Khi hai học sinh luân phiên nói trong hoạt động cặp đôi, họ 'take turns' — không phải 'raise'."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "progress"
           },
           "answer": "B",
-          "explanation": "'Progress' is a positive thing — it means getting better. The sentence is about something we worry about when learning, which is making a 'mistake'."
+          "explanation": "'Progress' is a positive thing — it means getting better. The sentence is about something we worry about when learning, which is making a 'mistake'.",
+          "explanation_vi": "'Progress' là một điều tích cực — nó có nghĩa là tiến bộ. Câu này nói về một điều mà chúng ta lo lắng khi học, đó là việc mắc 'mistake'."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "mistakes"
           },
           "answer": "C",
-          "explanation": "'Progress' means getting better or improving. If you said the wrong word three times, that means you made 'mistakes' — not progress."
+          "explanation": "'Progress' means getting better or improving. If you said the wrong word three times, that means you made 'mistakes' — not progress.",
+          "explanation_vi": "'Progress' nghĩa là tiến bộ hoặc cải thiện. Nếu bạn nói sai từ ba lần, điều đó có nghĩa là bạn đã tạo ra 'mistakes' — không phải 'progress'."
         }
       ]
     },

@@ -515,7 +515,8 @@
             "C": "rhetoric"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'rhetoric', not the adverb 'rhetorically'."
+          "explanation": "A noun is required as the subject of the sentence — 'rhetoric', not the adverb 'rhetorically'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ của câu — 'rhetoric', không phải trạng từ 'rhetorically'."
         },
         {
           "id": 2,
@@ -527,7 +528,8 @@
             "C": "metaphor"
           },
           "answer": "A",
-          "explanation": "After 'several vivid', use the plural noun 'metaphors'."
+          "explanation": "After 'several vivid', use the plural noun 'metaphors'.",
+          "explanation_vi": "Sau 'several vivid', dùng danh từ số nhiều 'metaphors'."
         },
         {
           "id": 3,
@@ -539,7 +541,8 @@
             "C": "eloquented"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject — 'eloquence', not the adverb 'eloquently'."
+          "explanation": "A noun is required as the subject — 'eloquence', not the adverb 'eloquently'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ — 'eloquence', không phải trạng từ 'eloquently'."
         },
         {
           "id": 4,
@@ -551,7 +554,8 @@
             "C": "alluding"
           },
           "answer": "C",
-          "explanation": "After 'is', the present participle 'alluding' is required to form the continuous tense, not the base form 'allude'."
+          "explanation": "After 'is', the present participle 'alluding' is required to form the continuous tense, not the base form 'allude'.",
+          "explanation_vi": "Sau 'is', cần present participle 'alluding' để tạo thì tiếp diễn, không phải dạng gốc 'allude'."
         },
         {
           "id": 5,
@@ -563,7 +567,8 @@
             "C": "persuasiveness"
           },
           "answer": "C",
-          "explanation": "A noun is required after the possessive 'speech's' — 'persuasiveness', not the verb 'persuade'."
+          "explanation": "A noun is required after the possessive 'speech's' — 'persuasiveness', not the verb 'persuade'.",
+          "explanation_vi": "Cần một danh từ sau possessive 'speech's' — 'persuasiveness', không phải động từ 'persuade'."
         }
       ]
     },

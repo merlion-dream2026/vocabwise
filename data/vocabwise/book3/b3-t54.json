@@ -506,7 +506,8 @@
             "C": "biasedly"
           },
           "answer": "B",
-          "explanation": "After 'a specific', use the singular noun 'bias'. 'Biases' is plural, and 'biasedly' is an adverb."
+          "explanation": "After 'a specific', use the singular noun 'bias'. 'Biases' is plural, and 'biasedly' is an adverb.",
+          "explanation_vi": "Sau 'a specific', dùng danh từ số ít 'bias'. 'Biases' là số nhiều, và 'biasedly' là một adverb."
         },
         {
           "id": 2,
@@ -518,7 +519,8 @@
             "C": "transparently"
           },
           "answer": "C",
-          "explanation": "An adverb is needed to modify the verb 'disclose' — 'transparently', not the adjective 'transparent'."
+          "explanation": "An adverb is needed to modify the verb 'disclose' — 'transparently', not the adjective 'transparent'.",
+          "explanation_vi": "Cần một adverb để sửa đổi verb 'disclose' — 'transparently', không phải adjective 'transparent'."
         },
         {
           "id": 3,
@@ -530,7 +532,8 @@
             "C": "surveilled"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'Mass' to function as the subject — 'surveillance', not the gerund 'surveilling'."
+          "explanation": "A noun is required after 'Mass' to function as the subject — 'surveillance', not the gerund 'surveilling'.",
+          "explanation_vi": "Cần một noun sau 'Mass' để làm subject — 'surveillance', không phải gerund 'surveilling'."
         },
         {
           "id": 4,
@@ -542,7 +545,8 @@
             "C": "automated"
           },
           "answer": "C",
-          "explanation": "An adjective is needed to modify the noun 'production' — 'automated', not the verb 'automate'."
+          "explanation": "An adjective is needed to modify the noun 'production' — 'automated', not the verb 'automate'.",
+          "explanation_vi": "Cần một adjective để sửa đổi noun 'production' — 'automated', không phải verb 'automate'."
         },
         {
           "id": 5,
@@ -554,7 +558,8 @@
             "C": "accountability"
           },
           "answer": "C",
-          "explanation": "A noun is required as the object of 'of' — 'accountability', not the adjective 'accountable'."
+          "explanation": "A noun is required as the object of 'of' — 'accountability', not the adjective 'accountable'.",
+          "explanation_vi": "Cần một noun làm object của 'of' — 'accountability', không phải adjective 'accountable'."
         }
       ]
     },

@@ -514,7 +514,8 @@
             "C": "two-floored"
           },
           "answer": "A",
-          "explanation": "Compound adjectives before a noun use the singular form: two-floor house."
+          "explanation": "Compound adjectives before a noun use the singular form: two-floor house.",
+          "explanation_vi": "Các tính từ ghép đứng trước danh từ phải dùng dạng số ít: nhà hai tầng."
         },
         {
           "id": 2,
@@ -526,7 +527,8 @@
             "C": "keeps"
           },
           "answer": "C",
-          "explanation": "Third person singular (she) needs 's': keeps."
+          "explanation": "Third person singular (she) needs 's': keeps.",
+          "explanation_vi": "Ngôi thứ ba số ít (she) cần 's': giữ."
         },
         {
           "id": 3,
@@ -538,7 +540,8 @@
             "C": "working"
           },
           "answer": "B",
-          "explanation": "'Housework' or 'work' at home is uncountable — no 's'."
+          "explanation": "'Housework' or 'work' at home is uncountable — no 's'.",
+          "explanation_vi": "'Housework' hoặc 'work' tại nhà là danh từ không đếm được — không có 's'."
         },
         {
           "id": 4,
@@ -550,7 +553,8 @@
             "C": "at every"
           },
           "answer": "A",
-          "explanation": "No preposition before 'every': every morning."
+          "explanation": "No preposition before 'every': every morning.",
+          "explanation_vi": "Không có giới từ trước 'every': mỗi buổi sáng."
         },
         {
           "id": 5,
@@ -562,7 +566,8 @@
             "C": "children"
           },
           "answer": "C",
-          "explanation": "'Children' is already the plural of 'child' — no 's' needed."
+          "explanation": "'Children' is already the plural of 'child' — no 's' needed.",
+          "explanation_vi": "'Children' đã là dạng số nhiều của 'đứa trẻ' — không cần 's'."
         }
       ]
     },

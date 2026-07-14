@@ -567,7 +567,8 @@
             "C": "oldly"
           },
           "answer": "B",
-          "explanation": "An adjective is needed before 'custom': 'ancient'."
+          "explanation": "An adjective is needed before 'custom': 'ancient'.",
+          "explanation_vi": "Cần một adjective trước 'custom': 'ancient'."
         },
         {
           "id": 2,
@@ -579,7 +580,8 @@
             "C": "eventful"
           },
           "answer": "B",
-          "explanation": "'Celebration' is the noun for a large public occasion marking a national event. A ritual is a specific repeated ceremonial act, and 'eventful' is an adjective."
+          "explanation": "'Celebration' is the noun for a large public occasion marking a national event. A ritual is a specific repeated ceremonial act, and 'eventful' is an adjective.",
+          "explanation_vi": "'Celebration' là noun cho một dịp công cộng lớn đánh dấu một sự kiện quốc gia. Một nghi lễ là một hành động nghi lễ cụ thể được lặp lại, và 'eventful' là adjective."
         },
         {
           "id": 3,
@@ -591,7 +593,8 @@
             "C": "transferring"
           },
           "answer": "A",
-          "explanation": "'Passed down' is the standard phrasal verb for transmitting customs from one generation to the next. 'Given' is not the natural collocation, and 'transferring' is not the required past participle."
+          "explanation": "'Passed down' is the standard phrasal verb for transmitting customs from one generation to the next. 'Given' is not the natural collocation, and 'transferring' is not the required past participle.",
+          "explanation_vi": "'Passed down' là cụm động từ chuẩn cho việc truyền tải phong tục từ thế hệ này sang thế hệ tiếp theo. 'Given' không phải là cụm từ tự nhiên, và 'transferring' không phải là quá khứ phân từ yêu cầu."
         },
         {
           "id": 4,
@@ -603,7 +606,8 @@
             "C": "stands for"
           },
           "answer": "C",
-          "explanation": "With the singular subject 'the ceremony', use the finite verb phrase 'stands for'."
+          "explanation": "With the singular subject 'the ceremony', use the finite verb phrase 'stands for'.",
+          "explanation_vi": "Với chủ ngữ số ít 'the ceremony', hãy dùng cụm động từ chia 'stands for'."
         },
         {
           "id": 5,
@@ -615,7 +619,8 @@
             "C": "participate in"
           },
           "answer": "C",
-          "explanation": "After 'asked all students to', use the base-form phrase 'participate in'. 'Joining' is not a base form, and 'adapt to' means adjust rather than take part."
+          "explanation": "After 'asked all students to', use the base-form phrase 'participate in'. 'Joining' is not a base form, and 'adapt to' means adjust rather than take part.",
+          "explanation_vi": "Sau 'asked all students to', hãy dùng cụm dạng gốc 'participate in'. 'Joining' không phải là dạng gốc, và 'adapt to' có nghĩa là điều chỉnh thay vì tham gia."
         }
       ]
     },

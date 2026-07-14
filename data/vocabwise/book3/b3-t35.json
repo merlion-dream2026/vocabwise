@@ -507,7 +507,8 @@
             "C": "disruption"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'."
+          "explanation": "A noun is needed as the subject of the sentence — 'disruption', not the verb 'disrupt'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'disruption', không phải verb 'disrupt'."
         },
         {
           "id": 2,
@@ -519,7 +520,8 @@
             "C": "iterative"
           },
           "answer": "A",
-          "explanation": "'Iteration' is the noun form required as the subject of 'brought'; 'iterate' is a verb and cannot serve as the subject here."
+          "explanation": "'Iteration' is the noun form required as the subject of 'brought'; 'iterate' is a verb and cannot serve as the subject here.",
+          "explanation_vi": "'Iteration' là dạng noun cần thiết làm subject của 'brought'; 'iterate' là một verb và không thể làm subject ở đây."
         },
         {
           "id": 3,
@@ -531,7 +533,8 @@
             "C": "scalable"
           },
           "answer": "B",
-          "explanation": "An infinitive verb is required after 'to' — 'scale', not the noun 'scalability'."
+          "explanation": "An infinitive verb is required after 'to' — 'scale', not the noun 'scalability'.",
+          "explanation_vi": "Cần một infinitive verb sau 'to' — 'scale', không phải noun 'scalability'."
         },
         {
           "id": 4,
@@ -543,7 +546,8 @@
             "C": "diffusion"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'diffusion', not the present participle 'diffusing'."
+          "explanation": "A noun is needed as the subject of the sentence — 'diffusion', not the present participle 'diffusing'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'diffusion', không phải present participle 'diffusing'."
         },
         {
           "id": 5,
@@ -555,7 +559,8 @@
             "C": "patents"
           },
           "answer": "B",
-          "explanation": "After 'neglect to', use the base form of the verb: 'patent'."
+          "explanation": "After 'neglect to', use the base form of the verb: 'patent'.",
+          "explanation_vi": "Sau 'neglect to', dùng base form của verb: 'patent'."
         }
       ]
     },

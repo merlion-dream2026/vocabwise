@@ -576,7 +576,8 @@
             "C": "optional"
           },
           "answer": "B",
-          "explanation": "'Legal right' is the standard noun phrase for an entitlement guaranteed by law. The other options do not function as nouns here."
+          "explanation": "'Legal right' is the standard noun phrase for an entitlement guaranteed by law. The other options do not function as nouns here.",
+          "explanation_vi": "'Legal right' là noun phrase chuẩn cho một quyền lợi được pháp luật bảo đảm. Các lựa chọn khác không đóng vai trò là noun ở đây."
         },
         {
           "id": 2,
@@ -588,7 +589,8 @@
             "C": "gathering"
           },
           "answer": "B",
-          "explanation": "A past-tense verb parallel to 'broke' is needed: 'accessed'."
+          "explanation": "A past-tense verb parallel to 'broke' is needed: 'accessed'.",
+          "explanation_vi": "Cần một past-tense verb song song với 'broke': 'accessed'."
         },
         {
           "id": 3,
@@ -600,7 +602,8 @@
             "C": "share"
           },
           "answer": "C",
-          "explanation": "The plural subject 'Apps' requires the present-tense base verb 'share'."
+          "explanation": "The plural subject 'Apps' requires the present-tense base verb 'share'.",
+          "explanation_vi": "Chủ ngữ plural 'Apps' yêu cầu một verb ở thì hiện tại dạng gốc 'share'."
         },
         {
           "id": 4,
@@ -612,7 +615,8 @@
             "C": "controlling"
           },
           "answer": "B",
-          "explanation": "After 'to better', use the base verb 'regulate'."
+          "explanation": "After 'to better', use the base verb 'regulate'.",
+          "explanation_vi": "Sau 'to better', sử dụng verb dạng gốc 'regulate'."
         },
         {
           "id": 5,
@@ -624,7 +628,8 @@
             "C": "security"
           },
           "answer": "C",
-          "explanation": "'Security measures' is the standard noun phrase for safeguards against unauthorised access."
+          "explanation": "'Security measures' is the standard noun phrase for safeguards against unauthorised access.",
+          "explanation_vi": "'Security measures' là noun phrase chuẩn cho các biện pháp bảo vệ chống lại việc truy cập không được phép."
         }
       ]
     },

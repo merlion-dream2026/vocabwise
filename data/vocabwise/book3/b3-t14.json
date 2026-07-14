@@ -515,7 +515,8 @@
             "C": "subject"
           },
           "answer": "B",
-          "explanation": "An adjective is needed to modify the noun 'measure' — 'a subjective measure'. 'Subjectively' is an adverb."
+          "explanation": "An adjective is needed to modify the noun 'measure' — 'a subjective measure'. 'Subjectively' is an adverb.",
+          "explanation_vi": "Cần một tính từ để sửa đổi danh từ 'measure' — 'a subjective measure'. 'Subjectively' là một trạng từ."
         },
         {
           "id": 2,
@@ -527,7 +528,8 @@
             "C": "contentment"
           },
           "answer": "C",
-          "explanation": "A noun is needed as the subject of the sentence — 'contentment', not the adjective 'contented'."
+          "explanation": "A noun is needed as the subject of the sentence — 'contentment', not the adjective 'contented'.",
+          "explanation_vi": "Cần một danh từ làm chủ ngữ của câu — 'contentment', không phải tính từ 'contented'."
         },
         {
           "id": 3,
@@ -539,7 +541,8 @@
             "C": "correlating"
           },
           "answer": "B",
-          "explanation": "A noun is needed after 'strong' — 'correlation', not the verb 'correlate'."
+          "explanation": "A noun is needed after 'strong' — 'correlation', not the verb 'correlate'.",
+          "explanation_vi": "Cần một danh từ sau 'strong' — 'correlation', không phải động từ 'correlate'."
         },
         {
           "id": 4,
@@ -551,7 +554,8 @@
             "C": "disposition"
           },
           "answer": "C",
-          "explanation": "A noun is required after the article 'a' and adjective 'natural' — 'disposition', not the verb 'dispose'."
+          "explanation": "A noun is required after the article 'a' and adjective 'natural' — 'disposition', not the verb 'dispose'.",
+          "explanation_vi": "Cần một danh từ sau mạo từ 'a' và tính từ 'natural' — 'disposition', không phải động từ 'dispose'."
         },
         {
           "id": 5,
@@ -563,7 +567,8 @@
             "C": "flourishes"
           },
           "answer": "A",
-          "explanation": "A gerund or noun form is needed as the subject of the sentence — 'flourishing', not the bare infinitive 'flourish'."
+          "explanation": "A gerund or noun form is needed as the subject of the sentence — 'flourishing', not the bare infinitive 'flourish'.",
+          "explanation_vi": "Cần một dạng động danh từ hoặc danh từ làm chủ ngữ của câu — 'flourishing', không phải động từ nguyên mẫu không có 'to' 'flourish'."
         }
       ]
     },

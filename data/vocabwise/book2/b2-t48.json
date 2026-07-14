@@ -581,7 +581,8 @@
             "C": "nutritional"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'her': 'diet'."
+          "explanation": "A noun is needed after 'her': 'diet'.",
+          "explanation_vi": "Cần một noun sau 'her': 'diet'."
         },
         {
           "id": 2,
@@ -593,7 +594,8 @@
             "C": "routine"
           },
           "answer": "C",
-          "explanation": "A singular noun is needed after 'a bedtime': 'routine'. The other options are verb or adjective forms."
+          "explanation": "A singular noun is needed after 'a bedtime': 'routine'. The other options are verb or adjective forms.",
+          "explanation_vi": "Cần một singular noun sau 'a bedtime': 'routine'. Các lựa chọn khác là dạng verb hoặc adjective."
         },
         {
           "id": 3,
@@ -605,7 +607,8 @@
             "C": "prevent"
           },
           "answer": "C",
-          "explanation": "After 'helps', use the base verb 'prevent'."
+          "explanation": "After 'helps', use the base verb 'prevent'.",
+          "explanation_vi": "Sau 'helps', dùng động từ gốc 'prevent'."
         },
         {
           "id": 4,
@@ -617,7 +620,8 @@
             "C": "stay clean"
           },
           "answer": "A",
-          "explanation": "After 'for', use the gerund phrase 'staying hydrated'."
+          "explanation": "After 'for', use the gerund phrase 'staying hydrated'.",
+          "explanation_vi": "Sau 'for', dùng cụm từ gerund 'staying hydrated'."
         },
         {
           "id": 5,
@@ -629,7 +633,8 @@
             "C": "physically"
           },
           "answer": "B",
-          "explanation": "An adjective is needed before 'lifestyle': 'balanced'."
+          "explanation": "An adjective is needed before 'lifestyle': 'balanced'.",
+          "explanation_vi": "Cần một adjective trước 'lifestyle': 'balanced'."
         }
       ]
     },

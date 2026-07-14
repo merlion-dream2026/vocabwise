@@ -538,7 +538,8 @@
             "C": "emission"
           },
           "answer": "A",
-          "explanation": "'Emissions' is the plural noun for gases or pollutants released into the air, and it agrees with the plural verb 'damage'."
+          "explanation": "'Emissions' is the plural noun for gases or pollutants released into the air, and it agrees with the plural verb 'damage'.",
+          "explanation_vi": "'Emissions' là danh từ số nhiều chỉ các khí hoặc chất gây ô nhiễm được thải ra không khí, và nó phù hợp với động từ số nhiều 'damage'."
         },
         {
           "id": 2,
@@ -550,7 +551,8 @@
             "C": "disposes from"
           },
           "answer": "B",
-          "explanation": "The correct phrase is 'dispose of' — not 'dispose from' or 'dispose off'."
+          "explanation": "The correct phrase is 'dispose of' — not 'dispose from' or 'dispose off'.",
+          "explanation_vi": "Cụm từ đúng là 'dispose of' — không phải 'dispose from' hoặc 'dispose off'."
         },
         {
           "id": 3,
@@ -562,7 +564,8 @@
             "C": "contaminated"
           },
           "answer": "C",
-          "explanation": "'Contaminated' is the adjective/past participle needed after 'became' — the river became contaminated."
+          "explanation": "'Contaminated' is the adjective/past participle needed after 'became' — the river became contaminated.",
+          "explanation_vi": "'Contaminated' là tính từ / quá khứ phân từ cần đặt sau 'became' — con sông đã trở nên contaminated."
         },
         {
           "id": 4,
@@ -574,7 +577,8 @@
             "C": "decomposition"
           },
           "answer": "B",
-          "explanation": "'Decompose' is the base verb form needed after 'do not'."
+          "explanation": "'Decompose' is the base verb form needed after 'do not'.",
+          "explanation_vi": "'Decompose' là dạng động từ gốc cần đặt sau 'do not'."
         },
         {
           "id": 5,
@@ -586,7 +590,8 @@
             "C": "sustain"
           },
           "answer": "A",
-          "explanation": "'Sustainable' is the adjective form needed to describe 'way' — a sustainable way."
+          "explanation": "'Sustainable' is the adjective form needed to describe 'way' — a sustainable way.",
+          "explanation_vi": "'Sustainable' là dạng tính từ cần để mô tả 'way' — một bền vững way."
         }
       ]
     },

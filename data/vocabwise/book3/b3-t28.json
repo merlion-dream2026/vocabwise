@@ -501,7 +501,8 @@
             "C": "inflation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'inflation', not the verb 'inflate'."
+          "explanation": "A noun is required as the subject of the sentence — 'inflation', not the verb 'inflate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'inflation', không phải verb 'inflate'."
         },
         {
           "id": 2,
@@ -513,7 +514,8 @@
             "C": "subsidise"
           },
           "answer": "A",
-          "explanation": "The context describes a policy choice between austerity and investment — 'prioritise' fits; 'subsidise' contradicts the meaning."
+          "explanation": "The context describes a policy choice between austerity and investment — 'prioritise' fits; 'subsidise' contradicts the meaning.",
+          "explanation_vi": "Ngữ cảnh mô tả một lựa chọn chính sách giữa thắt chặt tài khóa và đầu tư — 'prioritise' phù hợp; 'subsidise' trái với nghĩa."
         },
         {
           "id": 3,
@@ -525,7 +527,8 @@
             "C": "recessive"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the article 'A' to serve as the sentence subject — 'recession', not the adjective 'recessionary'."
+          "explanation": "A noun is needed after the article 'A' to serve as the sentence subject — 'recession', not the adjective 'recessionary'.",
+          "explanation_vi": "Cần một noun sau article 'A' để làm subject của câu — 'recession', không phải adjective 'recessionary'."
         },
         {
           "id": 4,
@@ -537,7 +540,8 @@
             "C": "equilibrated"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'reached' as the object — 'equilibrium', not the verb 'equilibrate'."
+          "explanation": "A noun is needed after 'reached' as the object — 'equilibrium', not the verb 'equilibrate'.",
+          "explanation_vi": "Cần một noun sau 'reached' làm object — 'equilibrium', không phải verb 'equilibrate'."
         },
         {
           "id": 5,
@@ -549,7 +553,8 @@
             "C": "subsidies"
           },
           "answer": "C",
-          "explanation": "A plural noun is required as the object of 'Cutting' — 'subsidies', not the verb 'subsidise'."
+          "explanation": "A plural noun is required as the object of 'Cutting' — 'subsidies', not the verb 'subsidise'.",
+          "explanation_vi": "Cần một plural noun làm object của 'Cutting' — 'subsidies', không phải verb 'subsidise'."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "heading"
           },
           "answer": "C",
-          "explanation": "A 'meaning' is the definition or idea behind a word or phrase. The word written at the top of a page to show what the section is about is a 'heading'."
+          "explanation": "A 'meaning' is the definition or idea behind a word or phrase. The word written at the top of a page to show what the section is about is a 'heading'.",
+          "explanation_vi": "'meaning' là định nghĩa hoặc ý tưởng phía sau một từ hoặc cụm từ. Từ được viết ở đầu trang để chỉ nội dung của phần đó là 'heading'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "chapter"
           },
           "answer": "A",
-          "explanation": "After 'write a short', a countable noun is needed. A piece of writing that gives an opinion about a book is a 'review'; 'outlining' is a verb form."
+          "explanation": "After 'write a short', a countable noun is needed. A piece of writing that gives an opinion about a book is a 'review'; 'outlining' is a verb form.",
+          "explanation_vi": "Sau 'write a short', cần một danh từ đếm được. Một đoạn viết đưa ra ý kiến về một cuốn sách là 'review'; 'outlining' là dạng verb."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "diary"
           },
           "answer": "C",
-          "explanation": "A 'summary' is a short retelling of main points — it is not a personal journal. A personal book where you write your private thoughts and feelings every day is a 'diary'."
+          "explanation": "A 'summary' is a short retelling of main points — it is not a personal journal. A personal book where you write your private thoughts and feelings every day is a 'diary'.",
+          "explanation_vi": "'summary' là một bản tóm tắt ngắn gọn các điểm chính — không phải là nhật ký cá nhân. Một cuốn sách cá nhân nơi bạn ghi lại suy nghĩ và cảm xúc riêng mỗi ngày là 'diary'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "outline"
           },
           "answer": "B",
-          "explanation": "'Review' means to look at something again or give an opinion. When you write down exactly what is on the board into your notebook, you 'copy' it."
+          "explanation": "'Review' means to look at something again or give an opinion. When you write down exactly what is on the board into your notebook, you 'copy' it.",
+          "explanation_vi": "'Review' có nghĩa là xem lại một thứ gì đó hoặc đưa ra ý kiến. Khi bạn ghi lại chính xác những gì trên bảng vào sổ ghi chú, bạn 'copy' nó."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "author"
           },
           "answer": "C",
-          "explanation": "The person who writes a novel is its 'author'. A page or story cannot be a writer."
+          "explanation": "The person who writes a novel is its 'author'. A page or story cannot be a writer.",
+          "explanation_vi": "Người viết tiểu thuyết là 'author' của nó. Một trang hoặc câu chuyện không thể là người viết."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "topic"
           },
           "answer": "B",
-          "explanation": "A 'subject' is an academic field (like English or Maths), not a location. 'The library' is a place, so 'place' is the correct word."
+          "explanation": "A 'subject' is an academic field (like English or Maths), not a location. 'The library' is a place, so 'place' is the correct word.",
+          "explanation_vi": "'subject' là một lĩnh vực học thuật (như tiếng Anh hoặc toán), không phải một địa điểm. 'The library' là một place, vì vậy 'place' là từ đúng."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "studied"
           },
           "answer": "A",
-          "explanation": "'Graded' means marked or scored by a teacher. The correct word for completing school and receiving your qualification is 'graduated'."
+          "explanation": "'Graded' means marked or scored by a teacher. The correct word for completing school and receiving your qualification is 'graduated'.",
+          "explanation_vi": "'Graded' có nghĩa là được giáo viên chấm điểm hoặc đánh giá. Từ đúng cho việc hoàn thành trường học và nhận bằng cấp là 'graduated'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "home works"
           },
           "answer": "B",
-          "explanation": "'Homework' is an uncountable noun in English — it never takes a plural form. Use 'a lot of homework'."
+          "explanation": "'Homework' is an uncountable noun in English — it never takes a plural form. Use 'a lot of homework'.",
+          "explanation_vi": "'Homework' là một noun không đếm được trong tiếng Anh — nó không bao giờ có dạng số nhiều. Hãy dùng 'a lot of homework'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "grade"
           },
           "answer": "B",
-          "explanation": "You write notes in a 'notebook', not an 'exam'. An exam is a test, not a place to write vocabulary."
+          "explanation": "You write notes in a 'notebook', not an 'exam'. An exam is a test, not a place to write vocabulary.",
+          "explanation_vi": "Bạn viết ghi chú trong một 'notebook', không phải một 'exam'. Một exam là một bài kiểm tra, không phải là nơi để viết từ vựng."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "English lessons"
           },
           "answer": "A",
-          "explanation": "A teacher is a person, but the speaker's ability is what has improved. 'My English has improved' is natural and agrees with the singular verb 'has'."
+          "explanation": "A teacher is a person, but the speaker's ability is what has improved. 'My English has improved' is natural and agrees with the singular verb 'has'.",
+          "explanation_vi": "Giáo viên là một người, nhưng khả năng của người nói là thứ đã được cải thiện. 'My English has improved' là câu tự nhiên và phù hợp với động từ số ít 'has'."
         }
       ]
     },

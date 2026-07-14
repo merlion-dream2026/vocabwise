@@ -506,7 +506,8 @@
             "C": "ambiguate"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'ambiguity', not the adjective 'ambiguous'."
+          "explanation": "A noun is needed as the subject of the sentence — 'ambiguity', not the adjective 'ambiguous'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'ambiguity', không phải adjective 'ambiguous'."
         },
         {
           "id": 2,
@@ -518,7 +519,8 @@
             "C": "comprehend"
           },
           "answer": "C",
-          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'comprehend'."
+          "explanation": "After the infinitive marker 'to', use the base form of the verb: 'comprehend'.",
+          "explanation_vi": "Sau infinitive marker 'to', dùng dạng gốc của verb: 'comprehend'."
         },
         {
           "id": 3,
@@ -530,7 +532,8 @@
             "C": "attended"
           },
           "answer": "A",
-          "explanation": "A noun is needed after the possessive adjective 'Her careful' to serve as the subject — 'attentiveness', not the verb 'attend'."
+          "explanation": "A noun is needed after the possessive adjective 'Her careful' to serve as the subject — 'attentiveness', not the verb 'attend'.",
+          "explanation_vi": "Cần một noun sau possessive adjective 'Her careful' để làm subject — 'attentiveness', không phải verb 'attend'."
         },
         {
           "id": 4,
@@ -542,7 +545,8 @@
             "C": "clarifications"
           },
           "answer": "B",
-          "explanation": "A participial adjective is needed to modify 'question' — 'clarifying question' is the correct collocation, not the noun 'clarity'."
+          "explanation": "A participial adjective is needed to modify 'question' — 'clarifying question' is the correct collocation, not the noun 'clarity'.",
+          "explanation_vi": "Cần một tính từ phân từ để bổ nghĩa cho 'question' — 'clarifying question' là collocation đúng, không phải noun 'clarity'."
         },
         {
           "id": 5,
@@ -554,7 +558,8 @@
             "C": "implicating"
           },
           "answer": "A",
-          "explanation": "After 'several conversational', use the plural noun 'implicatures'."
+          "explanation": "After 'several conversational', use the plural noun 'implicatures'.",
+          "explanation_vi": "Sau 'several conversational', dùng noun số nhiều 'implicatures'."
         }
       ]
     },

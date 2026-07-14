@@ -508,7 +508,8 @@
             "C": "notice"
           },
           "answer": "A",
-          "explanation": "A 'warning' tells you there is danger, but it does not show you the way out. In an emergency you follow the 'escape route' — the marked path to safety."
+          "explanation": "A 'warning' tells you there is danger, but it does not show you the way out. In an emergency you follow the 'escape route' — the marked path to safety.",
+          "explanation_vi": "Một 'warning' cho bạn biết có nguy hiểm, nhưng nó không chỉ cho bạn lối thoát. Trong trường hợp khẩn cấp, bạn sẽ theo 'escape route' — con đường được đánh dấu tới nơi an toàn."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "forbidden"
           },
           "answer": "C",
-          "explanation": "'Allowed' means you have permission to do something. The sentence says you will get a fine, which means parking is not permitted — the correct word is 'forbidden'."
+          "explanation": "'Allowed' means you have permission to do something. The sentence says you will get a fine, which means parking is not permitted — the correct word is 'forbidden'.",
+          "explanation_vi": "'Allowed' có nghĩa là bạn có quyền làm gì đó. Câu này nói rằng bạn sẽ bị phạt, nghĩa là việc đỗ xe không được cho phép — từ đúng là 'forbidden'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "symbols"
           },
           "answer": "B",
-          "explanation": "Long painted lines on a floor are 'markings'. 'Symbols' are pictures or signs representing ideas, while 'warnings' are messages about danger."
+          "explanation": "Long painted lines on a floor are 'markings'. 'Symbols' are pictures or signs representing ideas, while 'warnings' are messages about danger.",
+          "explanation_vi": "Các vạch sơn dài trên sàn là 'markings'. 'Symbols' là những hình ảnh hoặc dấu hiệu đại diện cho ý tưởng, trong khi 'warnings' là các thông điệp về nguy hiểm."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "point"
           },
           "answer": "C",
-          "explanation": "'Forbid' means to say that something is not allowed. Arrows cannot forbid — they show direction. The correct verb is 'point', meaning to indicate a direction."
+          "explanation": "'Forbid' means to say that something is not allowed. Arrows cannot forbid — they show direction. The correct verb is 'point', meaning to indicate a direction.",
+          "explanation_vi": "'Forbid' có nghĩa là nói rằng điều gì đó không được phép. Các mũi tên không thể cấm — chúng chỉ ra hướng. Động từ đúng là 'point', nghĩa là chỉ ra một hướng."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "cautiously"
           },
           "answer": "A",
-          "explanation": "Before the noun 'system', an adjective is needed. 'Colour-coded' describes a system that uses different colours for categories; 'warningly' and 'cautiously' are adverbs."
+          "explanation": "Before the noun 'system', an adjective is needed. 'Colour-coded' describes a system that uses different colours for categories; 'warningly' and 'cautiously' are adverbs.",
+          "explanation_vi": "Trước danh từ 'system', cần có một tính từ. 'Colour-coded' mô tả một hệ thống sử dụng các màu khác nhau cho các danh mục; 'cảnh báo' và 'cẩn thận' là các trạng từ."
         }
       ]
     },

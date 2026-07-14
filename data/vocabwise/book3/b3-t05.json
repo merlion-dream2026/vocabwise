@@ -512,7 +512,8 @@
             "C": "celebrate"
           },
           "answer": "A",
-          "explanation": "'Eliminate' means to remove — 'strengthen' would mean making the bias worse, which contradicts the purpose of introducing such measures."
+          "explanation": "'Eliminate' means to remove — 'strengthen' would mean making the bias worse, which contradicts the purpose of introducing such measures.",
+          "explanation_vi": "'Eliminate' có nghĩa là để loại bỏ — 'strengthen' sẽ có nghĩa là làm cho thiên kiến trở nên tồi tệ hơn, điều này mâu thuẫn với mục đích của việc đưa ra các biện pháp như vậy."
         },
         {
           "id": 2,
@@ -524,7 +525,8 @@
             "C": "equality"
           },
           "answer": "C",
-          "explanation": "'Equality' is the subject noun here — no possessive apostrophe is needed."
+          "explanation": "'Equality' is the subject noun here — no possessive apostrophe is needed.",
+          "explanation_vi": "'Equality' là subject noun ở đây — không cần dấu nháy sở hữu."
         },
         {
           "id": 3,
@@ -536,7 +538,8 @@
             "C": "celebrate"
           },
           "answer": "B",
-          "explanation": "'Dismantle' means to break down — 'reinforce' would mean making patriarchal structures stronger, the opposite of a feminist goal."
+          "explanation": "'Dismantle' means to break down — 'reinforce' would mean making patriarchal structures stronger, the opposite of a feminist goal.",
+          "explanation_vi": "'Dismantle' có nghĩa là để phá vỡ — 'reinforce' sẽ có nghĩa là làm cho các cấu trúc phụ hệ mạnh hơn, ngược lại với mục tiêu của phong trào nữ quyền."
         },
         {
           "id": 4,
@@ -548,7 +551,8 @@
             "C": "overpower"
           },
           "answer": "A",
-          "explanation": "'Empower' means to give agency and confidence — 'disempower' means to take it away, which contradicts the positive role of education described."
+          "explanation": "'Empower' means to give agency and confidence — 'disempower' means to take it away, which contradicts the positive role of education described.",
+          "explanation_vi": "'Empower' có nghĩa là để cung cấp quyền tự quyết và sự tự tin — 'disempower' có nghĩa là lấy đi chúng, điều này mâu thuẫn với vai trò tích cực của giáo dục được mô tả."
         },
         {
           "id": 5,
@@ -560,7 +564,8 @@
             "C": "norms"
           },
           "answer": "C",
-          "explanation": "The sentence refers to multiple social conventions (plural) — 'norms' is the correct form after 'social'."
+          "explanation": "The sentence refers to multiple social conventions (plural) — 'norms' is the correct form after 'social'.",
+          "explanation_vi": "Câu này đề cập đến nhiều quy ước xã hội (số nhiều) — 'norms' là dạng đúng sau 'social'."
         }
       ]
     },

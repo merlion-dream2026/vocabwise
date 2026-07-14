@@ -508,7 +508,8 @@
             "C": "isolation"
           },
           "answer": "A",
-          "explanation": "The collocation is 'address the ageing population crisis' — 'address' means to deal with a problem, while 'isolate' has no logical connection here."
+          "explanation": "The collocation is 'address the ageing population crisis' — 'address' means to deal with a problem, while 'isolate' has no logical connection here.",
+          "explanation_vi": "Cụm collocation là 'address the ageing population crisis' — 'address' có nghĩa là giải quyết một vấn đề, trong khi 'isolate' không có mối liên hệ logic ở đây."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "deteriorating"
           },
           "answer": "B",
-          "explanation": "A noun is required as the subject of the sentence — 'deterioration', not the verb 'deteriorate'."
+          "explanation": "A noun is required as the subject of the sentence — 'deterioration', not the verb 'deteriorate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'deterioration', không phải verb 'deteriorate'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "dependency"
           },
           "answer": "C",
-          "explanation": "'Dependency ratio' is a fixed noun phrase; 'depend' is a verb and cannot precede 'ratio'."
+          "explanation": "'Dependency ratio' is a fixed noun phrase; 'depend' is a verb and cannot precede 'ratio'.",
+          "explanation_vi": "'Dependency ratio' là một noun phrase cố định; 'depend' là một verb và không thể đứng trước 'ratio'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "isolation"
           },
           "answer": "C",
-          "explanation": "The collocation is 'combat elderly isolation'; a noun is required as the object of 'combat', not the adjective 'isolating'."
+          "explanation": "The collocation is 'combat elderly isolation'; a noun is required as the object of 'combat', not the adjective 'isolating'.",
+          "explanation_vi": "Cụm collocation là 'combat elderly isolation'; cần một noun làm object của 'combat', không phải adjective 'isolating'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "palliated"
           },
           "answer": "B",
-          "explanation": "'Palliative care' is the correct collocation — 'palliative' is the adjective form that modifies 'care', not the present participle 'palliating'."
+          "explanation": "'Palliative care' is the correct collocation — 'palliative' is the adjective form that modifies 'care', not the present participle 'palliating'.",
+          "explanation_vi": "'Palliative care' là collocation đúng — 'palliative' là adjective dạng sửa đổi 'care', không phải động từ dạng hiện tại phân từ 'palliating'."
         }
       ]
     },

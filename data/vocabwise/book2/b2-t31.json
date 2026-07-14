@@ -564,7 +564,8 @@
             "C": "grouped"
           },
           "answer": "B",
-          "explanation": "'Collection' is the noun for a set of artworks gathered and owned by a museum."
+          "explanation": "'Collection' is the noun for a set of artworks gathered and owned by a museum.",
+          "explanation_vi": "'Collection' là danh từ chỉ một tập hợp các tác phẩm nghệ thuật được thu thập và sở hữu bởi bảo tàng."
         },
         {
           "id": 2,
@@ -576,7 +577,8 @@
             "C": "methodical"
           },
           "answer": "A",
-          "explanation": "'Technique' is the singular noun for a specific artistic method or skill."
+          "explanation": "'Technique' is the singular noun for a specific artistic method or skill.",
+          "explanation_vi": "'Technique' là danh từ số ít chỉ một phương pháp hoặc kỹ năng nghệ thuật cụ thể."
         },
         {
           "id": 3,
@@ -588,7 +590,8 @@
             "C": "shown"
           },
           "answer": "A",
-          "explanation": "'Exhibition' is the formal noun for a public display of artworks."
+          "explanation": "'Exhibition' is the formal noun for a public display of artworks.",
+          "explanation_vi": "'Exhibition' là danh từ trang trọng chỉ việc trưng bày công chúng các tác phẩm nghệ thuật."
         },
         {
           "id": 4,
@@ -600,7 +603,8 @@
             "C": "imagination"
           },
           "answer": "B",
-          "explanation": "An adjective is needed before 'style': 'non-realistic'. The other options are nouns."
+          "explanation": "An adjective is needed before 'style': 'non-realistic'. The other options are nouns.",
+          "explanation_vi": "Cần một tính từ trước 'style': 'non-realistic'. Các lựa chọn khác là danh từ."
         },
         {
           "id": 5,
@@ -612,7 +616,8 @@
             "C": "motivation"
           },
           "answer": "A",
-          "explanation": "A past-tense verb is needed: 'inspired'. The other options are nouns."
+          "explanation": "A past-tense verb is needed: 'inspired'. The other options are nouns.",
+          "explanation_vi": "Cần một động từ ở dạng quá khứ: 'inspired'. Các lựa chọn khác là danh từ."
         }
       ]
     },

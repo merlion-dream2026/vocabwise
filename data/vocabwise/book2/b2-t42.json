@@ -565,7 +565,8 @@
             "C": "gathering"
           },
           "answer": "A",
-          "explanation": "The singular subject 'organisation' requires the present-tense verb 'raises'. 'Currently' rules out the past form, and 'raise money' is the standard fundraising collocation."
+          "explanation": "The singular subject 'organisation' requires the present-tense verb 'raises'. 'Currently' rules out the past form, and 'raise money' is the standard fundraising collocation.",
+          "explanation_vi": "Chủ ngữ số ít 'organisation' yêu cầu động từ ở thì hiện tại 'raises'. 'Currently' loại trừ dạng quá khứ, và 'raise money' là cụm từ chuẩn trong việc gây quỹ."
         },
         {
           "id": 2,
@@ -577,7 +578,8 @@
             "C": "shelter"
           },
           "answer": "A",
-          "explanation": "After 'are', use the adjective 'homeless'. 'Homelessness' is a noun, while 'home' and 'shelter' are nouns."
+          "explanation": "After 'are', use the adjective 'homeless'. 'Homelessness' is a noun, while 'home' and 'shelter' are nouns.",
+          "explanation_vi": "Sau 'are', dùng tính từ 'homeless'. 'Homelessness' là danh từ, trong khi 'home' và 'shelter' là danh từ."
         },
         {
           "id": 3,
@@ -589,7 +591,8 @@
             "C": "helping out"
           },
           "answer": "B",
-          "explanation": "After 'decided to', use the base verb 'volunteer'."
+          "explanation": "After 'decided to', use the base verb 'volunteer'.",
+          "explanation_vi": "Sau 'decided to', dùng động từ nguyên mẫu 'volunteer'."
         },
         {
           "id": 4,
@@ -601,7 +604,8 @@
             "C": "beneficial"
           },
           "answer": "A",
-          "explanation": "'Welfare' is the noun for government programmes that provide financial and social support."
+          "explanation": "'Welfare' is the noun for government programmes that provide financial and social support.",
+          "explanation_vi": "'Welfare' là danh từ chỉ các chương trình của chính phủ cung cấp hỗ trợ tài chính và xã hội."
         },
         {
           "id": 5,
@@ -613,7 +617,8 @@
             "C": "knowing"
           },
           "answer": "A",
-          "explanation": "A noun is needed after 'growing': 'awareness'."
+          "explanation": "A noun is needed after 'growing': 'awareness'.",
+          "explanation_vi": "Cần một danh từ sau 'growing': 'awareness'."
         }
       ]
     },

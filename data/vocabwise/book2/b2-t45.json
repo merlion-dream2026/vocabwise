@@ -574,7 +574,8 @@
             "C": "nervous"
           },
           "answer": "B",
-          "explanation": "A noun is needed after 'The constant': 'stress'. 'Pressured' and 'nervous' are adjectives."
+          "explanation": "A noun is needed after 'The constant': 'stress'. 'Pressured' and 'nervous' are adjectives.",
+          "explanation_vi": "Cần một noun sau 'The constant': 'stress'. 'Pressured' và 'nervous' là adjective."
         },
         {
           "id": 2,
@@ -586,7 +587,8 @@
             "C": "dreaming"
           },
           "answer": "A",
-          "explanation": "A singular noun is needed after 'a clear career': 'ambition'."
+          "explanation": "A singular noun is needed after 'a clear career': 'ambition'.",
+          "explanation_vi": "Cần một noun số ít sau 'a clear career': 'ambition'."
         },
         {
           "id": 3,
@@ -598,7 +600,8 @@
             "C": "pushing"
           },
           "answer": "B",
-          "explanation": "After 'feel', the past-participle adjective 'pressured' is needed to describe external demands from parents."
+          "explanation": "After 'feel', the past-participle adjective 'pressured' is needed to describe external demands from parents.",
+          "explanation_vi": "Sau 'feel', cần một adjective dạng past participle 'pressured' để mô tả các yêu cầu bên ngoài từ cha mẹ."
         },
         {
           "id": 4,
@@ -610,7 +613,8 @@
             "C": "platforming"
           },
           "answer": "A",
-          "explanation": "'Give someone a voice' means give them the opportunity to express opinions and be heard."
+          "explanation": "'Give someone a voice' means give them the opportunity to express opinions and be heard.",
+          "explanation_vi": "'Give someone a voice' có nghĩa là cho họ cơ hội để bày tỏ ý kiến và được lắng nghe."
         },
         {
           "id": 5,
@@ -622,7 +626,8 @@
             "C": "inspired"
           },
           "answer": "C",
-          "explanation": "A past-tense verb is needed: 'inspired'."
+          "explanation": "A past-tense verb is needed: 'inspired'.",
+          "explanation_vi": "Cần một động từ ở dạng past tense: 'inspired'."
         }
       ]
     },

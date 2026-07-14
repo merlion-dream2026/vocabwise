@@ -577,7 +577,8 @@
             "C": "free time"
           },
           "answer": "A",
-          "explanation": "'Flexible hours' is the standard workplace phrase for adjustable start and finish times."
+          "explanation": "'Flexible hours' is the standard workplace phrase for adjustable start and finish times.",
+          "explanation_vi": "'Flexible hours' là cụm từ chuẩn trong môi trường làm việc để chỉ thời gian bắt đầu và kết thúc có thể điều chỉnh."
         },
         {
           "id": 2,
@@ -589,7 +590,8 @@
             "C": "moving"
           },
           "answer": "B",
-          "explanation": "'Commuting time' is the standard phrase for time spent travelling between home and work."
+          "explanation": "'Commuting time' is the standard phrase for time spent travelling between home and work.",
+          "explanation_vi": "'Commuting time' là cụm từ chuẩn để chỉ thời gian di chuyển giữa nhà và nơi làm việc."
         },
         {
           "id": 3,
@@ -601,7 +603,8 @@
             "C": "salary"
           },
           "answer": "C",
-          "explanation": "A singular noun is needed after 'a monthly': 'salary'."
+          "explanation": "A singular noun is needed after 'a monthly': 'salary'.",
+          "explanation_vi": "Cần một danh từ số ít sau 'a monthly': 'salary'."
         },
         {
           "id": 4,
@@ -613,7 +616,8 @@
             "C": "performing"
           },
           "answer": "B",
-          "explanation": "'Output' is the noun for the measurable work or results an employee produces. Attendance measures presence, not the work produced."
+          "explanation": "'Output' is the noun for the measurable work or results an employee produces. Attendance measures presence, not the work produced.",
+          "explanation_vi": "'Output' là danh từ chỉ công việc hoặc kết quả có thể đo lường mà nhân viên tạo ra. Sự có mặt đo lường việc hiện diện, không phải công việc đã tạo ra."
         },
         {
           "id": 5,
@@ -625,7 +629,8 @@
             "C": "collaborative"
           },
           "answer": "B",
-          "explanation": "'Teamwork' is the uncountable noun for people cooperating towards a shared goal."
+          "explanation": "'Teamwork' is the uncountable noun for people cooperating towards a shared goal.",
+          "explanation_vi": "'Teamwork' là danh từ không đếm được cho những người hợp tác hướng tới một mục tiêu chung."
         }
       ]
     },

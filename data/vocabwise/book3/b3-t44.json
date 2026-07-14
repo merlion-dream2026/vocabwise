@@ -510,7 +510,8 @@
             "C": "viralize"
           },
           "answer": "A",
-          "explanation": "A noun is required as the subject of the sentence; 'virality' is the correct noun form, while 'viral' is an adjective."
+          "explanation": "A noun is required as the subject of the sentence; 'virality' is the correct noun form, while 'viral' is an adjective.",
+          "explanation_vi": "Cần một noun làm subject của câu; 'virality' là dạng noun đúng, trong khi 'viral' là một adjective."
         },
         {
           "id": 2,
@@ -522,7 +523,8 @@
             "C": "disinformingly"
           },
           "answer": "B",
-          "explanation": "A noun is needed to pre-modify 'campaigns' as a compound noun; 'disinformation' is the correct noun form, not the bare verb 'disinform'."
+          "explanation": "A noun is needed to pre-modify 'campaigns' as a compound noun; 'disinformation' is the correct noun form, not the bare verb 'disinform'.",
+          "explanation_vi": "Cần một noun để tiền bổ nghĩa cho 'campaigns' như một compound noun; 'disinformation' là dạng noun đúng, không phải verb đơn 'disinform'."
         },
         {
           "id": 3,
@@ -534,7 +536,8 @@
             "C": "echo chamber"
           },
           "answer": "C",
-          "explanation": "'Echo chamber' is the fixed two-word compound noun for this concept; 'echo' alone does not carry the required meaning in this context."
+          "explanation": "'Echo chamber' is the fixed two-word compound noun for this concept; 'echo' alone does not carry the required meaning in this context.",
+          "explanation_vi": "'Echo chamber' là compound noun hai từ cố định cho khái niệm này; 'echo' một mình không mang ý nghĩa cần thiết trong ngữ cảnh này."
         },
         {
           "id": 4,
@@ -546,7 +549,8 @@
             "C": "influencer"
           },
           "answer": "C",
-          "explanation": "The noun 'influencer' names the person hired; 'influence' is a noun or verb but does not refer to a content creator, and 'influential' is an adjective."
+          "explanation": "The noun 'influencer' names the person hired; 'influence' is a noun or verb but does not refer to a content creator, and 'influential' is an adjective.",
+          "explanation_vi": "noun 'influencer' chỉ tên người được thuê; 'influence' là noun hoặc verb nhưng không chỉ đến một người tạo nội dung, và 'influential' là một adjective."
         },
         {
           "id": 5,
@@ -558,7 +562,8 @@
             "C": "authenticity"
           },
           "answer": "C",
-          "explanation": "A noun is required after 'that' to serve as the subject of the subordinate clause; 'authenticity' is the correct noun form, while 'authentic' is an adjective."
+          "explanation": "A noun is required after 'that' to serve as the subject of the subordinate clause; 'authenticity' is the correct noun form, while 'authentic' is an adjective.",
+          "explanation_vi": "Cần một noun sau 'that' để làm subject của mệnh đề phụ; 'authenticity' là dạng noun đúng, trong khi 'authentic' là một adjective."
         }
       ]
     },

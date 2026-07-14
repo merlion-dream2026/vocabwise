@@ -507,7 +507,8 @@
             "C": "homogenised"
           },
           "answer": "B",
-          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'homogenisation', not the verb 'homogenise'."
+          "explanation": "A noun is required after the definite article 'The' to serve as the subject — 'homogenisation', not the verb 'homogenise'.",
+          "explanation_vi": "Cần một noun sau mạo từ xác định 'The' để làm subject — 'homogenisation', không phải verb 'homogenise'."
         },
         {
           "id": 2,
@@ -519,7 +520,8 @@
             "C": "acculturation"
           },
           "answer": "C",
-          "explanation": "A noun is required as the subject of the sentence — 'acculturation', not the verb 'acculturate'."
+          "explanation": "A noun is required as the subject of the sentence — 'acculturation', not the verb 'acculturate'.",
+          "explanation_vi": "Cần một noun làm subject của câu — 'acculturation', không phải verb 'acculturate'."
         },
         {
           "id": 3,
@@ -531,7 +533,8 @@
             "C": "commodify"
           },
           "answer": "B",
-          "explanation": "A noun is needed after the definite article 'The' — 'commodification' (the process), not 'commodity' (an item that is bought and sold)."
+          "explanation": "A noun is needed after the definite article 'The' — 'commodification' (the process), not 'commodity' (an item that is bought and sold).",
+          "explanation_vi": "Cần một noun sau mạo từ xác định 'The' — 'commodification' (quá trình), không phải 'commodity' (một mặt hàng được mua bán)."
         },
         {
           "id": 4,
@@ -543,7 +546,8 @@
             "C": "cosmopolitanly"
           },
           "answer": "B",
-          "explanation": "'Cosmopolitanism' is the correct noun form referring to the quality or ideology; 'cosmopolitism' is not a standard English word."
+          "explanation": "'Cosmopolitanism' is the correct noun form referring to the quality or ideology; 'cosmopolitism' is not a standard English word.",
+          "explanation_vi": "'Cosmopolitanism' là dạng noun đúng, chỉ tính chất hoặc định hướng tư tưởng; 'cosmopolitism' không phải là một từ tiếng Anh tiêu chuẩn."
         },
         {
           "id": 5,
@@ -555,7 +559,8 @@
             "C": "imperialistically"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'cultural' to name the concept being discussed — 'imperialism', not the adjective 'imperial'."
+          "explanation": "A noun is required after 'cultural' to name the concept being discussed — 'imperialism', not the adjective 'imperial'.",
+          "explanation_vi": "Cần một noun sau 'cultural' để đặt tên cho khái niệm đang được thảo luận — 'imperialism', không phải adjective 'imperial'."
         }
       ]
     },

@@ -508,7 +508,8 @@
             "C": "ticket booth"
           },
           "answer": "C",
-          "explanation": "A 'souvenir' is a small gift or keepsake — you cannot buy entry tickets there. The place where you purchase tickets to enter a venue is a 'ticket booth'."
+          "explanation": "A 'souvenir' is a small gift or keepsake — you cannot buy entry tickets there. The place where you purchase tickets to enter a venue is a 'ticket booth'.",
+          "explanation_vi": "Một 'souvenir' là một món quà nhỏ hoặc vật kỷ niệm — bạn không thể mua vé vào cửa ở đó. Nơi bạn mua vé để vào một địa điểm là một 'ticket booth'."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "get lost"
           },
           "answer": "A",
-          "explanation": "'Depart' means to leave and is normally followed by 'from' or 'for', not 'to' when expressing a return. 'Head back to' means to return to a place."
+          "explanation": "'Depart' means to leave and is normally followed by 'from' or 'for', not 'to' when expressing a return. 'Head back to' means to return to a place.",
+          "explanation_vi": "'Depart' có nghĩa là rời đi và thường đi kèm với 'from' hoặc 'for', không phải 'to' khi diễn tả việc quay lại. 'Head back to' có nghĩa là trở lại một nơi."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "scenery"
           },
           "answer": "C",
-          "explanation": "An 'itinerary' is a travel schedule, not a visual description of a place. Beautiful natural views such as hills and rivers are described as 'scenery'."
+          "explanation": "An 'itinerary' is a travel schedule, not a visual description of a place. Beautiful natural views such as hills and rivers are described as 'scenery'.",
+          "explanation_vi": "'itinerary' là một lịch trình du lịch, không phải là mô tả hình ảnh của một địa điểm. Những cảnh quan thiên nhiên đẹp như đồi và sông được gọi là 'scenery'."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "exhausted"
           },
           "answer": "B",
-          "explanation": "'Exhausted' is an adjective meaning very tired — a person cannot be described as a job title. The person who leads tourists and explains history is a 'tour guide'."
+          "explanation": "'Exhausted' is an adjective meaning very tired — a person cannot be described as a job title. The person who leads tourists and explains history is a 'tour guide'.",
+          "explanation_vi": "'Exhausted' là một adjective có nghĩa là rất mệt — không thể mô tả một người bằng một chức danh công việc. Người dẫn du khách và giải thích lịch sử là một 'tour guide'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "enjoyed"
           },
           "answer": "A",
-          "explanation": "'Enjoyed' means to have a pleasant time — it does not describe the situation of not being able to find your way. The correct phrase is 'got lost'."
+          "explanation": "'Enjoyed' means to have a pleasant time — it does not describe the situation of not being able to find your way. The correct phrase is 'got lost'.",
+          "explanation_vi": "'Enjoyed' có nghĩa là có một thời gian thú vị — nó không mô tả tình huống không thể tìm đường. Cụm từ đúng là 'got lost'."
         }
       ]
     },

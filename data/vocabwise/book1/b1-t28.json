@@ -508,7 +508,8 @@
             "C": "child"
           },
           "answer": "C",
-          "explanation": "An 'adult' is a fully grown person. Someone who is twelve years old is still a 'child', not an adult."
+          "explanation": "An 'adult' is a fully grown person. Someone who is twelve years old is still a 'child', not an adult.",
+          "explanation_vi": "Một 'adult' là một người đã trưởng thành hoàn toàn. Người nào ở tuổi mười hai vẫn là một 'child', không phải một người trưởng thành."
         },
         {
           "id": 2,
@@ -520,7 +521,8 @@
             "C": "hoping"
           },
           "answer": "B",
-          "explanation": "'Hoping' is a verb form and cannot be used as the noun after 'my' here. A strong long-term goal that someone wants to achieve is an 'ambition'."
+          "explanation": "'Hoping' is a verb form and cannot be used as the noun after 'my' here. A strong long-term goal that someone wants to achieve is an 'ambition'.",
+          "explanation_vi": "'Hoping' là một dạng verb và không thể được dùng làm noun sau 'my' ở đây. Một mục tiêu mạnh mẽ và dài hạn mà ai đó muốn đạt được là một 'ambition'."
         },
         {
           "id": 3,
@@ -532,7 +534,8 @@
             "C": "independent"
           },
           "answer": "C",
-          "explanation": "'Dependent' means relying on others for help. Someone who handles everything alone and travels by themselves is 'independent', not dependent."
+          "explanation": "'Dependent' means relying on others for help. Someone who handles everything alone and travels by themselves is 'independent', not dependent.",
+          "explanation_vi": "'Dependent' có nghĩa là dựa vào người khác để được giúp đỡ. Người nào tự mình xử lý mọi việc và tự di chuyển là 'independent', không phải phụ thuộc."
         },
         {
           "id": 4,
@@ -544,7 +547,8 @@
             "C": "ambition"
           },
           "answer": "A",
-          "explanation": "'Future' refers to the time ahead. Something from your school days is in the past, not the future. A pleasant thought about the past is a 'memory'."
+          "explanation": "'Future' refers to the time ahead. Something from your school days is in the past, not the future. A pleasant thought about the past is a 'memory'.",
+          "explanation_vi": "'Future' đề cập đến thời gian phía trước. Một điều gì đó từ thời học sinh của bạn nằm trong quá khứ, không phải trong tương lai. Một suy nghĩ dễ chịu về quá khứ là một 'memory'."
         },
         {
           "id": 5,
@@ -556,7 +560,8 @@
             "C": "brave"
           },
           "answer": "C",
-          "explanation": "'Afraid' means scared and unwilling to act. Someone who climbs a high tree alone to rescue a kitten is acting without fear — that is 'brave', not afraid."
+          "explanation": "'Afraid' means scared and unwilling to act. Someone who climbs a high tree alone to rescue a kitten is acting without fear — that is 'brave', not afraid.",
+          "explanation_vi": "'Afraid' có nghĩa là sợ hãi và không muốn hành động. Người nào leo một cây cao một mình để cứu một chú mèo con hành động không sợ hãi — đó là 'brave', không phải sợ."
         }
       ]
     },

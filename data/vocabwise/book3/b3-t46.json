@@ -506,7 +506,8 @@
             "C": "mediate"
           },
           "answer": "B",
-          "explanation": "The correct collocation is 'set aside differences'; 'compromise' is used intransitively (you compromise, not compromise something) and 'mediate' requires a mediator role."
+          "explanation": "The correct collocation is 'set aside differences'; 'compromise' is used intransitively (you compromise, not compromise something) and 'mediate' requires a mediator role.",
+          "explanation_vi": "Cụm từ đúng là 'set aside differences'; 'compromise' được dùng không chuyển động (bạn thỏa hiệp, không thỏa hiệp gì), và 'mediate' yêu cầu một vai trò trung gian."
         },
         {
           "id": 2,
@@ -518,7 +519,8 @@
             "C": "asserted"
           },
           "answer": "B",
-          "explanation": "A noun is needed as the subject of the sentence — 'assertiveness', not the verb 'assert'."
+          "explanation": "A noun is needed as the subject of the sentence — 'assertiveness', not the verb 'assert'.",
+          "explanation_vi": "Cần một noun làm chủ ngữ của câu — 'assertiveness', không phải verb 'assert'."
         },
         {
           "id": 3,
@@ -530,7 +532,8 @@
             "C": "deadlocks"
           },
           "answer": "A",
-          "explanation": "'Reach a deadlock' is the correct collocation — a count noun with the indefinite article; 'deadlocked' is an adjective and cannot follow 'reached' here."
+          "explanation": "'Reach a deadlock' is the correct collocation — a count noun with the indefinite article; 'deadlocked' is an adjective and cannot follow 'reached' here.",
+          "explanation_vi": "'Reach a deadlock' là cụm từ đúng — một danh từ đếm được kèm mạo từ không xác định; 'deadlocked' là adjective và không thể theo sau 'reached' ở đây."
         },
         {
           "id": 4,
@@ -542,7 +545,8 @@
             "C": "leveraged"
           },
           "answer": "A",
-          "explanation": "After 'as', the countable noun phrase 'a lever' fits the metaphorical meaning. 'Leveraging' and 'leveraged' are verb forms."
+          "explanation": "After 'as', the countable noun phrase 'a lever' fits the metaphorical meaning. 'Leveraging' and 'leveraged' are verb forms.",
+          "explanation_vi": "Sau 'as', cụm danh từ đếm được 'a lever' phù hợp với nghĩa ẩn dụ. 'Leveraging' và 'leveraged' là dạng verb."
         },
         {
           "id": 5,
@@ -554,7 +558,8 @@
             "C": "reciprocating"
           },
           "answer": "A",
-          "explanation": "After 'attempt to', use the base verb 'reciprocate', meaning respond to a positive action with another positive action."
+          "explanation": "After 'attempt to', use the base verb 'reciprocate', meaning respond to a positive action with another positive action.",
+          "explanation_vi": "Sau 'attempt to', dùng động từ gốc 'reciprocate', có nghĩa là đáp lại một hành động tích cực bằng một hành động tích cực khác."
         }
       ]
     },

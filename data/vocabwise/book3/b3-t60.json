@@ -509,7 +509,8 @@
             "C": "agency"
           },
           "answer": "A",
-          "explanation": "'Aspiration' (a personal ambition or desire) fits here — a longing to travel the world. 'Vocation' implies a professional calling or duty, which would not naturally 'give way' to commitment in the same way."
+          "explanation": "'Aspiration' (a personal ambition or desire) fits here — a longing to travel the world. 'Vocation' implies a professional calling or duty, which would not naturally 'give way' to commitment in the same way.",
+          "explanation_vi": "'Aspiration' (một khát vọng cá nhân hoặc mong muốn) phù hợp ở đây — một sự khao khát được du hành khắp thế giới. 'Vocation' ngụ ý một sứ mệnh hoặc nhiệm vụ nghề nghiệp, điều này sẽ không tự nhiên 'give way' cho cam kết theo cùng cách."
         },
         {
           "id": 2,
@@ -521,7 +522,8 @@
             "C": "flourishing"
           },
           "answer": "C",
-          "explanation": "A noun is needed after 'true' to serve as the subject of 'requires' — 'flourishing', not the verb 'flourish'."
+          "explanation": "A noun is needed after 'true' to serve as the subject of 'requires' — 'flourishing', not the verb 'flourish'.",
+          "explanation_vi": "Cần một noun sau 'true' để làm subject của 'requires' — 'flourishing', không phải verb 'flourish'."
         },
         {
           "id": 3,
@@ -533,7 +535,8 @@
             "C": "authenticate"
           },
           "answer": "A",
-          "explanation": "An adverb is needed to modify how one is 'living' — 'authentically', not the adjective 'authentic', which cannot modify a verb directly."
+          "explanation": "An adverb is needed to modify how one is 'living' — 'authentically', not the adjective 'authentic', which cannot modify a verb directly.",
+          "explanation_vi": "Cần một adverb để sửa đổi cách một người 'living' — 'authentically', không phải adjective 'authentic', vì nó không thể sửa đổi một verb một cách trực tiếp."
         },
         {
           "id": 4,
@@ -545,7 +548,8 @@
             "C": "hedonistically"
           },
           "answer": "B",
-          "explanation": "A noun is required after the possessive determiner 'Her' — 'hedonism', not the adjective 'hedonistic'."
+          "explanation": "A noun is required after the possessive determiner 'Her' — 'hedonism', not the adjective 'hedonistic'.",
+          "explanation_vi": "Cần một noun sau determiner sở hữu 'Her' — 'hedonism', không phải adjective 'hedonistic'."
         },
         {
           "id": 5,
@@ -557,7 +561,8 @@
             "C": "fulfilling"
           },
           "answer": "A",
-          "explanation": "A noun is required after 'True' to serve as the grammatical subject of 'is rarely found' — 'fulfilment', not the verb 'fulfil'."
+          "explanation": "A noun is required after 'True' to serve as the grammatical subject of 'is rarely found' — 'fulfilment', not the verb 'fulfil'.",
+          "explanation_vi": "Cần một noun sau 'True' để làm subject ngữ pháp của 'is rarely found' — 'fulfilment', không phải verb 'fulfil'."
         }
       ]
     },

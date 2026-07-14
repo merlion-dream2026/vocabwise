@@ -558,7 +558,8 @@
             "C": "locate"
           },
           "answer": "A",
-          "explanation": "'Travel destination' is the standard noun phrase for a place people travel to. The other options do not fit grammatically after 'travel'."
+          "explanation": "'Travel destination' is the standard noun phrase for a place people travel to. The other options do not fit grammatically after 'travel'.",
+          "explanation_vi": "'Travel destination' là cụm danh từ chuẩn cho một địa điểm mà người ta đi du lịch tới. Các lựa chọn khác không phù hợp về mặt ngữ pháp sau 'travel'."
         },
         {
           "id": 2,
@@ -570,7 +571,8 @@
             "C": "house"
           },
           "answer": "A",
-          "explanation": "'Accommodation' is the noun used in British English for places where travellers stay."
+          "explanation": "'Accommodation' is the noun used in British English for places where travellers stay.",
+          "explanation_vi": "'Accommodation' là danh từ được dùng trong tiếng Anh Anh cho những nơi mà du khách ở lại."
         },
         {
           "id": 3,
@@ -582,7 +584,8 @@
             "C": "keeping"
           },
           "answer": "B",
-          "explanation": "After 'wanted to', use the base verb 'preserve', meaning protect something of historical value."
+          "explanation": "After 'wanted to', use the base verb 'preserve', meaning protect something of historical value.",
+          "explanation_vi": "Sau 'wanted to', dùng động từ nguyên mẫu 'preserve', có nghĩa là bảo vệ một vật có giá trị lịch sử."
         },
         {
           "id": 4,
@@ -594,7 +597,8 @@
             "C": "quoting"
           },
           "answer": "A",
-          "explanation": "'Visitor capacity' is the standard noun phrase for the maximum number of people a place can accommodate."
+          "explanation": "'Visitor capacity' is the standard noun phrase for the maximum number of people a place can accommodate.",
+          "explanation_vi": "'Visitor capacity' là cụm danh từ chuẩn cho số lượng tối đa người mà một địa điểm có thể chứa."
         },
         {
           "id": 5,
@@ -606,7 +610,8 @@
             "C": "generous"
           },
           "answer": "B",
-          "explanation": "'Hospitality' is the noun for friendly and welcoming treatment of guests. The other options are adjectives."
+          "explanation": "'Hospitality' is the noun for friendly and welcoming treatment of guests. The other options are adjectives.",
+          "explanation_vi": "'Hospitality' là danh từ chỉ cách đối xử thân thiện và chào đón khách. Các lựa chọn khác là tính từ."
         }
       ]
     },

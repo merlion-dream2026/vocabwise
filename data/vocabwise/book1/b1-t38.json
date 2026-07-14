@@ -511,7 +511,8 @@
             "C": "stage"
           },
           "answer": "C",
-          "explanation": "The 'audience' is the group of people watching a show, not a place. The place where performers stand and play is the 'stage'."
+          "explanation": "The 'audience' is the group of people watching a show, not a place. The place where performers stand and play is the 'stage'.",
+          "explanation_vi": "‘audience’ là nhóm người xem một chương trình, không phải là một địa điểm. Địa điểm mà các nghệ sĩ đứng và biểu diễn là ‘stage’."
         },
         {
           "id": 2,
@@ -523,7 +524,8 @@
             "C": "melody"
           },
           "answer": "A",
-          "explanation": "A 'tune' or 'melody' is music, not a person who can sit behind a drum kit. The musician who keeps the beat on drums is the 'drummer'."
+          "explanation": "A 'tune' or 'melody' is music, not a person who can sit behind a drum kit. The musician who keeps the beat on drums is the 'drummer'.",
+          "explanation_vi": "‘tune’ hoặc ‘melody’ là âm nhạc, không phải là một người có thể ngồi sau bộ trống. Nhạc sĩ giữ nhịp trên trống là ‘drummer’."
         },
         {
           "id": 3,
@@ -535,7 +537,8 @@
             "C": "noting"
           },
           "answer": "B",
-          "explanation": "After 'has a beautiful', a noun is needed. A person's singing sound is their 'voice'; 'noting' is a verb form, and 'stage' does not describe how someone sounds."
+          "explanation": "After 'has a beautiful', a noun is needed. A person's singing sound is their 'voice'; 'noting' is a verb form, and 'stage' does not describe how someone sounds.",
+          "explanation_vi": "Sau ‘has a beautiful’, cần một danh từ. Âm thanh hát của một người là ‘voice’; ‘noting’ là dạng động từ, và ‘stage’ không mô tả cách mà ai đó nghe như thế nào."
         },
         {
           "id": 4,
@@ -547,7 +550,8 @@
             "C": "tune"
           },
           "answer": "A",
-          "explanation": "'Perform' means to play or sing in front of others. When an audience shows appreciation by clapping, they 'applaud'."
+          "explanation": "'Perform' means to play or sing in front of others. When an audience shows appreciation by clapping, they 'applaud'.",
+          "explanation_vi": "‘Perform’ có nghĩa là chơi hoặc hát trước người khác. Khi khán giả bày tỏ sự đánh giá cao bằng cách vỗ tay, họ ‘applaud’."
         },
         {
           "id": 5,
@@ -559,7 +563,8 @@
             "C": "solo"
           },
           "answer": "C",
-          "explanation": "A 'concert' is a big musical event for an audience, not a short individual performance. A short performance by one person alone is a 'solo'."
+          "explanation": "A 'concert' is a big musical event for an audience, not a short individual performance. A short performance by one person alone is a 'solo'.",
+          "explanation_vi": "‘concert’ là một sự kiện âm nhạc lớn dành cho khán giả, không phải là một màn biểu diễn cá nhân ngắn. Một màn biểu diễn ngắn của một người duy nhất là ‘solo’."
         }
       ]
     },

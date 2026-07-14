@@ -592,7 +592,8 @@
             "C": "basing on"
           },
           "answer": "B",
-          "explanation": "The passive phrase 'supported by' is required after 'should be'."
+          "explanation": "The passive phrase 'supported by' is required after 'should be'.",
+          "explanation_vi": "Cụm bị động 'supported by' được yêu cầu sau 'should be'."
         },
         {
           "id": 2,
@@ -604,7 +605,8 @@
             "C": "opinionated"
           },
           "answer": "A",
-          "explanation": "A singular noun is needed after 'A strong': 'argument'."
+          "explanation": "A singular noun is needed after 'A strong': 'argument'.",
+          "explanation_vi": "Cần một danh từ số ít sau 'A strong': 'argument'."
         },
         {
           "id": 3,
@@ -616,7 +618,8 @@
             "C": "making a decision"
           },
           "answer": "A",
-          "explanation": "After 'able to', use the base-form phrase 'come to a conclusion'."
+          "explanation": "After 'able to', use the base-form phrase 'come to a conclusion'.",
+          "explanation_vi": "Sau 'able to', dùng cụm ở dạng gốc 'come to a conclusion'."
         },
         {
           "id": 4,
@@ -628,7 +631,8 @@
             "C": "reliable"
           },
           "answer": "C",
-          "explanation": "An adjective is needed before 'government report': 'reliable'."
+          "explanation": "An adjective is needed before 'government report': 'reliable'.",
+          "explanation_vi": "Cần một tính từ trước 'government report': 'reliable'."
         },
         {
           "id": 5,
@@ -640,7 +644,8 @@
             "C": "carefully judge"
           },
           "answer": "C",
-          "explanation": "After 'asked to', use the base-form verb phrase 'carefully judge'. 'Careful' and 'thoughtful' are adjectives, while 'judging carefully' is not the base form."
+          "explanation": "After 'asked to', use the base-form verb phrase 'carefully judge'. 'Careful' and 'thoughtful' are adjectives, while 'judging carefully' is not the base form.",
+          "explanation_vi": "Sau 'asked to', dùng cụm động từ ở dạng gốc 'carefully judge'. 'Careful' và 'thoughtful' là tính từ, trong khi 'judging carefully' không phải dạng gốc."
         }
       ]
     },

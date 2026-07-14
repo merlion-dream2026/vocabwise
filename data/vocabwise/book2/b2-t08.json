@@ -542,7 +542,8 @@
             "C": "sharing"
           },
           "answer": "B",
-          "explanation": "Past participle needed in passive: being shared."
+          "explanation": "Past participle needed in passive: being shared.",
+          "explanation_vi": "Cần dạng past participle trong passive: được chia sẻ."
         },
         {
           "id": 2,
@@ -554,7 +555,8 @@
             "C": "audiences"
           },
           "answer": "B",
-          "explanation": "No possessive needed — 'audience' is the subject here."
+          "explanation": "No possessive needed — 'audience' is the subject here.",
+          "explanation_vi": "Không cần possessive — 'audience' là subject ở đây."
         },
         {
           "id": 3,
@@ -566,7 +568,8 @@
             "C": "engaging"
           },
           "answer": "A",
-          "explanation": "Past participle used as adjective: keep his followers engaged."
+          "explanation": "Past participle used as adjective: keep his followers engaged.",
+          "explanation_vi": "Past participle được dùng như adjective: giữ các người theo dõi của anh ấy luôn tham gia."
         },
         {
           "id": 4,
@@ -578,7 +581,8 @@
             "C": "engaging"
           },
           "answer": "B",
-          "explanation": "Third person singular: content engages."
+          "explanation": "Third person singular: content engages.",
+          "explanation_vi": "Third person singular: nội dung thu hút."
         },
         {
           "id": 5,
@@ -590,7 +594,8 @@
             "C": "exposed"
           },
           "answer": "A",
-          "explanation": "'Exposure' is the noun form needed here."
+          "explanation": "'Exposure' is the noun form needed here.",
+          "explanation_vi": "'Exposure' là noun cần ở đây."
         }
       ]
     },

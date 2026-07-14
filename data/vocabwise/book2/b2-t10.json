@@ -547,7 +547,8 @@
             "C": "tensely"
           },
           "answer": "A",
-          "explanation": "'Tension' is the noun form needed here."
+          "explanation": "'Tension' is the noun form needed here.",
+          "explanation_vi": "'Tension' là dạng noun cần thiết ở đây."
         },
         {
           "id": 2,
@@ -559,7 +560,8 @@
             "C": "becoming"
           },
           "answer": "B",
-          "explanation": "Past tense needed: the kind of person she became."
+          "explanation": "Past tense needed: the kind of person she became.",
+          "explanation_vi": "Cần dạng Past tense: loại người cô ấy đã trở thành."
         },
         {
           "id": 3,
@@ -571,7 +573,8 @@
             "C": "valuable"
           },
           "answer": "B",
-          "explanation": "After 'a set of', use the plural countable noun 'values'."
+          "explanation": "After 'a set of', use the plural countable noun 'values'.",
+          "explanation_vi": "Sau 'a set of', dùng dạng plural có thể đếm noun 'values'."
         },
         {
           "id": 4,
@@ -583,7 +586,8 @@
             "C": "attitudinal"
           },
           "answer": "A",
-          "explanation": "After 'public', a plural noun is needed here: 'public attitudes'. 'Attitudinal' is an adjective, and 'attituding' is not a standard word."
+          "explanation": "After 'public', a plural noun is needed here: 'public attitudes'. 'Attitudinal' is an adjective, and 'attituding' is not a standard word.",
+          "explanation_vi": "Sau 'public', ở đây cần một plural noun: 'public attitudes'. 'Attitudinal' là một adjective, và 'attituding' không phải là một từ chuẩn."
         },
         {
           "id": 5,
@@ -595,7 +599,8 @@
             "C": "patiently"
           },
           "answer": "B",
-          "explanation": "'Patience' is the noun form needed here."
+          "explanation": "'Patience' is the noun form needed here.",
+          "explanation_vi": "'Patience' là dạng noun cần thiết ở đây."
         }
       ]
     },
