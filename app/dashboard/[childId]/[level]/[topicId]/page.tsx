@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
-import { getStepScore } from '@/lib/stepScores'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -12,10 +11,6 @@ type Child = { id: string; name: string; emoji: string; level: string }
 type MasteryData = { flashcard: boolean; games: string[] }
 type StoryBlank = { word: string; options: string[] }
 type ParsedExercise = { parts: string[]; blanks: StoryBlank[] }
-
-// Daily lesson sequences: easy → hard, 4 steps each
-const LESSON_STARTER  = ['flashcard', 'listen', 'match', 'spell']
-const LESSON_EXPLORER = ['flashcard', 'quiz', 'gapfill', 'typing']
 
 // Ordered easy → hard (row 1 = recognition, row 5 = synthesis/production)
 const STARTER_GAMES = [
@@ -110,8 +105,6 @@ export default function TopicPage() {
   const [speaking, setSpeaking] = useState(false)
   const [showFaq, setShowFaq] = useState(false)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
-  const [lessonMode, setLessonMode] = useState(true)
-  const [stepScores, setStepScores] = useState<Record<string, { correct: number; total: number } | null>>({})
   const [showVoiceNotice, setShowVoiceNotice] = useState(false)
   const [showExercise, setShowExercise] = useState(false)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
@@ -210,13 +203,6 @@ export default function TopicPage() {
     }
   }, [topicId])
 
-  useEffect(() => {
-    const allGameKeys = [...new Set([...LESSON_STARTER, ...LESSON_EXPLORER].filter(g => g !== 'flashcard'))]
-    const loaded: Record<string, { correct: number; total: number } | null> = {}
-    for (const g of allGameKeys) loaded[g] = getStepScore(childId, topicId, g)
-    setStepScores(loaded)
-  }, [childId, topicId])
-
   // One-time notice: Mini Story narrator switches to a male voice from Scholar onward
   useEffect(() => {
     if (level === 'scholar' && !localStorage.getItem(`voicechange_${childId}`)) {
@@ -290,13 +276,6 @@ export default function TopicPage() {
   const games = getGamesForLevel(level)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
   const isDone = mastery.flashcard && mastery.games.length >= 3
-  const isSimpleLevel = ['seeker', 'starter', 'ranger'].includes(level)
-  const lessonSteps = isSimpleLevel ? LESSON_STARTER : LESSON_EXPLORER
-  const allGamesFlat = [...STARTER_GAMES, ...EXPLORER_GAMES]
-  const lessonCurrentStep = lessonSteps.findIndex(g =>
-    g === 'flashcard' ? !mastery.flashcard : !mastery.games.includes(g)
-  )
-  const isLessonDone = lessonCurrentStep === -1
   const backUrl = `/dashboard/${childId}/${level}`
 
   const topicIdx = allTopics.findIndex((t: { id: string }) => t.id === topicId)
@@ -447,8 +426,16 @@ export default function TopicPage() {
       </div>
 
       <div className="max-w-xl mx-auto px-4 py-5 space-y-4">
-        {/* Mastery + FAQ row */}
+        {/* FAQ + Mastery row */}
         <div className="flex gap-3">
+          {/* FAQ toggle button */}
+          <button
+            onClick={() => { setShowFaq(v => !v); setOpenFaq(null) }}
+            className={`w-28 flex-shrink-0 rounded-2xl shadow-sm flex items-center justify-center gap-1.5 transition-colors ${showFaq ? 'bg-purple-100 border-2 border-purple-300' : 'bg-white'}`}>
+            <span className="text-lg leading-none">❓</span>
+            <p className="font-semibold text-gray-700 text-sm leading-tight">Cách học</p>
+          </button>
+
           {/* Mastery progress card */}
           <div className={`flex-1 rounded-2xl p-4 ${isDone ? 'bg-green-100 border border-green-200' : 'bg-white'} shadow-sm`}>
             <div className="flex items-center justify-between">
@@ -475,14 +462,6 @@ export default function TopicPage() {
               )}
             </div>
           </div>
-
-          {/* FAQ toggle button */}
-          <button
-            onClick={() => { setShowFaq(v => !v); setOpenFaq(null) }}
-            className={`w-28 flex-shrink-0 rounded-2xl shadow-sm flex flex-col items-center justify-center gap-0.5 transition-colors ${showFaq ? 'bg-purple-100 border-2 border-purple-300' : 'bg-white'}`}>
-            <span className="text-3xl leading-none">❓</span>
-            <p className="text-xs font-bold text-gray-600 leading-tight text-center">Hướng dẫn<br/>học</p>
-          </button>
         </div>
 
         {/* Inline FAQ — shown when toggled */}
@@ -512,157 +491,31 @@ export default function TopicPage() {
           </div>
         )}
 
-        {/* Mini Story teaser — always visible, no scrolling needed */}
-        {story && (
-          <button
-            onClick={scrollToStory}
-            className={`w-full ${colors.header} rounded-2xl px-4 py-2.5 flex items-center justify-between gap-2 shadow-sm active:scale-95 transition-all`}
-          >
-            <span className="text-white font-bold text-sm text-left leading-tight">
-              📖 Mini Story đang chờ — nâng trình đọc hiểu cùng {(topic as { name: string }).name}!
-            </span>
-            <span className="text-white/90 text-sm font-black flex-shrink-0">↓ Xem</span>
-          </button>
-        )}
-
-        {/* Lesson mode / Free mode toggle */}
-        {lessonMode ? (
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
-            {/* Lesson header */}
-            <div className={`${colors.header} px-4 py-3`}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-white font-black text-sm">📅 Bài học hôm nay</p>
-                  <p className="text-white/70 text-xs">~5 phút · 4 bước</p>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  {lessonSteps.map((_, i) => (
-                    <div key={i} className={`rounded-full transition-all ${
-                      i < (isLessonDone ? lessonSteps.length : lessonCurrentStep)
-                        ? 'w-2 h-2 bg-white'
-                        : i === lessonCurrentStep
-                        ? 'w-4 h-2 bg-white'
-                        : 'w-2 h-2 bg-white/30'
-                    }`} />
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Steps */}
-            <div className="divide-y divide-gray-50">
-              {lessonSteps.map((gameKey, i) => {
-                const gameInfo = allGamesFlat.find(g => g.key === gameKey)!
-                const done = isLessonDone || i < lessonCurrentStep
-                const active = !isLessonDone && i === lessonCurrentStep
-                const locked = !isLessonDone && i > lessonCurrentStep
-                return (
-                  <div key={gameKey} className={`flex items-center gap-3 px-4 py-3.5 transition-colors ${active ? 'bg-purple-50' : ''}`}>
-                    <span className={`text-2xl flex-shrink-0 ${locked ? 'opacity-25' : ''}`}>{gameInfo.emoji}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className={`font-bold text-sm leading-tight ${locked ? 'text-gray-300' : 'text-gray-800'}`}>
-                        Bước {i + 1}: {gameInfo.label}
-                      </p>
-                    </div>
-                    {done && (
-                      <div className="flex items-center gap-1.5 flex-shrink-0">
-                        <span className="text-xs font-black text-green-600">
-                          {gameKey === 'flashcard'
-                            ? `${(topic as { words: unknown[] }).words.length}/${(topic as { words: unknown[] }).words.length}`
-                            : stepScores[gameKey] ? `${stepScores[gameKey]!.correct}/${stepScores[gameKey]!.total}` : null}
-                        </span>
-                        <span className="text-green-500 text-lg">✅</span>
-                      </div>
-                    )}
-                    {active && !stepScores[gameKey] && (
-                      <button
-                        onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${gameKey}`)}
-                        className={`flex-shrink-0 ${colors.header} text-white text-xs font-black px-4 py-2 rounded-full active:scale-95 transition-all`}
-                      >
-                        ▶ Bắt đầu
-                      </button>
-                    )}
-                    {active && stepScores[gameKey] && (
-                      <div className="flex items-center gap-2 flex-shrink-0">
-                        <span className="text-xs font-black text-orange-500">
-                          {stepScores[gameKey]!.correct}/{stepScores[gameKey]!.total}
-                        </span>
-                        <button
-                          onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${gameKey}`)}
-                          className="text-xs font-black bg-orange-100 text-orange-600 px-3 py-2 rounded-full active:scale-95 transition-all"
-                        >
-                          🔄 Làm lại
-                        </button>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
-
-            {isLessonDone && (
-              <div className="px-4 py-5 bg-green-50 border-t border-green-100 space-y-3">
-                <div className="text-center">
-                  <div className="text-3xl mb-1">🎉</div>
-                  <p className="font-black text-green-700 text-base">Bài học hôm nay xong rồi!</p>
-                  <p className="text-xs text-gray-400 mt-0.5">Hoàn thành {lessonSteps.length} bước · ~5 phút</p>
-                </div>
-                {nextTopic ? (
-                  <button
-                    onClick={() => router.push(`/dashboard/${childId}/${level}/${nextTopic.id}`)}
-                    className={`w-full ${colors.header} text-white font-black text-sm py-3 rounded-xl active:scale-95 transition-all flex items-center justify-center gap-2`}
-                  >
-                    <span>{nextTopic.emoji} {nextTopic.name}</span>
-                    <span className="opacity-70">→</span>
-                  </button>
-                ) : (
-                  <p className="text-center text-xs text-green-600 font-bold">🏆 Đã học hết tất cả chủ đề level này!</p>
+        {/* Game picker */}
+        <div className="grid grid-cols-2 gap-3">
+          {games.map(game => {
+            const gameDone = game.key === 'flashcard' ? mastery.flashcard : mastery.games.includes(game.key)
+            const isAI = game.key === 'speak'
+            return (
+              <button key={game.key}
+                onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${game.key}`)}
+                className={`relative rounded-2xl px-3 py-3 flex items-center gap-3 shadow-sm active:scale-95 transition-all text-left ${
+                  isAI
+                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-lg hover:brightness-105'
+                    : 'bg-white hover:shadow-md'
+                }`}>
+                {gameDone && (
+                  <span className="absolute top-1.5 right-2 text-sm leading-none">⭐</span>
                 )}
-              </div>
-            )}
-
-            {/* Escape to free mode */}
-            <div className="border-t border-gray-100 px-4 py-3 text-center">
-              <button onClick={() => setLessonMode(false)} className="text-sm text-gray-400 font-semibold hover:text-gray-600 transition-colors">
-                🎮 Tự do chọn trò chơi
+                {isAI && !gameDone && (
+                  <span className="absolute top-1.5 right-2 text-[10px] font-black bg-yellow-300 text-yellow-900 px-1.5 py-0.5 rounded-full leading-none">AI</span>
+                )}
+                <span className="text-3xl flex-shrink-0">{game.emoji}</span>
+                <p className={`font-bold text-sm leading-tight pr-6 ${isAI ? 'text-white' : 'text-gray-800'}`}>{game.label}</p>
               </button>
-            </div>
-          </div>
-        ) : (
-          /* Free pick mode */
-          <div className="space-y-3">
-            <button
-              onClick={() => setLessonMode(true)}
-              className={`w-full ${colors.header} text-white font-bold text-sm py-2.5 rounded-2xl opacity-80 hover:opacity-100 transition-all active:scale-95`}
-            >
-              📅 Quay lại bài học hôm nay
-            </button>
-            <div className="grid grid-cols-2 gap-3">
-              {games.map(game => {
-                const gameDone = game.key === 'flashcard' ? mastery.flashcard : mastery.games.includes(game.key)
-                const isAI = game.key === 'speak'
-                return (
-                  <button key={game.key}
-                    onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${game.key}`)}
-                    className={`relative rounded-2xl px-3 py-3 flex items-center gap-3 shadow-sm active:scale-95 transition-all text-left ${
-                      isAI
-                        ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-lg hover:brightness-105'
-                        : 'bg-white hover:shadow-md'
-                    }`}>
-                    {gameDone && (
-                      <span className="absolute top-1.5 right-2 text-sm leading-none">⭐</span>
-                    )}
-                    {isAI && !gameDone && (
-                      <span className="absolute top-1.5 right-2 text-[10px] font-black bg-yellow-300 text-yellow-900 px-1.5 py-0.5 rounded-full leading-none">AI</span>
-                    )}
-                    <span className="text-3xl flex-shrink-0">{game.emoji}</span>
-                    <p className={`font-bold text-sm leading-tight pr-6 ${isAI ? 'text-white' : 'text-gray-800'}`}>{game.label}</p>
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-        )}
+            )
+          })}
+        </div>
 
         {/* One-time voice-change notice (Scholar onward) */}
         {story && showVoiceNotice && (
@@ -679,6 +532,14 @@ export default function TopicPage() {
               ✕
             </button>
           </div>
+        )}
+
+        {/* Mini Story teaser line */}
+        {story && (
+          <p className="flex items-center justify-center gap-2 text-center font-black text-base bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="text-xl animate-bounce">🚀</span>
+            Nâng trình nghe, đọc hiểu cùng Mini Story!
+          </p>
         )}
 
         {/* Mini Story */}
@@ -721,7 +582,7 @@ export default function TopicPage() {
                 {parsedExercise && (
                   <button
                     onClick={() => { setShowExercise(true); resetExercise() }}
-                    className={`mt-3 w-full text-xs font-bold px-4 py-2.5 rounded-xl transition-all ${colors.header} text-white opacity-80 hover:opacity-100`}
+                    className={`mt-3 w-full text-sm font-bold px-4 py-3 rounded-xl transition-all ${colors.header} text-white opacity-80 hover:opacity-100`}
                   >
                     📝 Làm bài tập
                   </button>
