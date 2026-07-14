@@ -8,6 +8,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type Sound = { symbol: string; keyword: string; emoji: string; vi: string }
@@ -75,9 +76,11 @@ export default function SortWordsGame({ group, childId: _childId, backUrl }: { g
     if (correct) {
       setScore(s => s + 1)
       speak(q.pair.sounds[soundIdx].keyword, { rate: 0.8 })
+      playCorrectSound()
     } else {
       // Play correct word to reinforce
       speak(q.word, { rate: 0.75 })
+      playWrongSound()
     }
   }
 

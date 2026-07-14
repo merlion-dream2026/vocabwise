@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -91,8 +92,10 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
     recordAnswer(level, topic.id, current.word, correct)
     if (correct) {
       setScore((s) => s + 1)
+      playCorrectSound()
     } else {
       setWrongWords((ww) => [...ww, current.word.word])
+      playWrongSound()
     }
     setTimeout(() => {
       if (currentIdx < total - 1) {

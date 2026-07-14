@@ -10,6 +10,8 @@ import Confetti from '@/components/Confetti'
 import UpgradeModal from '@/components/UpgradeModal'
 import wordStressData from '@/data/wordStress.json'
 import { canAccessWordStress } from '@/lib/planUtils'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameSoundToggle from '@/components/GameSoundToggle'
 import { cachedFetch } from '@/lib/cachedFetch'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
@@ -76,8 +78,10 @@ export default function WordStressPage() {
     if (correct) {
       setScore(s => s + 1)
       speak(q.word, { rate: 0.8 })
+      playCorrectSound()
     } else {
       speak(q.word, { rate: 0.7 })
+      playWrongSound()
     }
   }
 
@@ -261,6 +265,7 @@ export default function WordStressPage() {
           </button>
         )}
       </div>
+      <GameSoundToggle />
     </div>
   )
 }

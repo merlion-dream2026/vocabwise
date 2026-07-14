@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -75,6 +76,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       setResult('timeout')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
+      playWrongSound()
       setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
     }
   }, [timeLeft])
@@ -103,11 +105,13 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       setScore((s) => s + 1)
       recordAnswer(level, topic.id, word, true)
       speak(word.word)
+      playCorrectSound()
       setTimeout(() => advance(idx, words), 1000)
     } else {
       setResult('wrong')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
+      playWrongSound()
       setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
     }
   }

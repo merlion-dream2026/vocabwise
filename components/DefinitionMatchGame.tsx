@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 
@@ -89,12 +90,14 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
       setPairStates(ps => ({ ...ps, [wordStr]: 'matched' }))
       setLeftSel(null)
       setRightSel(null)
+      playCorrectSound()
     } else {
       // Flash wrong then reset
       if (word) {
         setPairStates(ps => ({ ...ps, [wordStr]: 'wrong' }))
         recordAnswer(level, topic.id, word, false)
         setWrongWords(ww => ww.includes(wordStr) ? ww : [...ww, wordStr])
+        playWrongSound()
       }
       setTimeout(() => {
         setPairStates(ps => {

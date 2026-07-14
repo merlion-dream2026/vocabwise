@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -195,6 +196,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
         recordAnswer(level, topic.id, q, correct)
         if (correct && !answeredRef.current) { answeredRef.current = true; setScore(s => s + 1) }
         if (!correct) setWrongWords(ww => ww.includes(q.word) ? ww : [...ww, q.word])
+        if (correct) playCorrectSound(); else playWrongSound()
       }
     } catch {
       setMicError('Lỗi kết nối. Bấm Thử lại.')

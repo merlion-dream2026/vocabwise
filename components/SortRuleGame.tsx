@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type Bucket = { label: string; condition: string; tip: string; words: string[] }
@@ -49,6 +50,7 @@ export default function SortRuleGame({
     const correct = bucketIdx === q.correctIdx
     if (correct) setScore(s => s + 1)
     speak(q.word, { rate: 0.8 })
+    if (correct) playCorrectSound(); else playWrongSound()
   }
 
   const advance = () => {

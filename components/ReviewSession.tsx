@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -123,6 +124,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
     if (selected !== null) return
     setSelected(word)
     const isCorrect = word.trim().toLowerCase() === current.entry.word.trim().toLowerCase()
+    if (isCorrect) playCorrectSound(); else playWrongSound()
     const mastered_ = recordReviewAnswer(current.entry.word, isCorrect)
 
     let newStreak = streaks[current.entry.word] ?? 0

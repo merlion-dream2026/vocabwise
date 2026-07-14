@@ -7,6 +7,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak as speakSentence } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type PracticeSentence = { en: string; highlight: string[] }
@@ -219,6 +220,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       setIsCorrect(correct)
       const itemScore = current.targets.length > 0 ? f.length / current.targets.length : (correct ? 1 : 0)
       setScores(prev => [...prev, itemScore])
+      if (!data.unclear) { if (correct) playCorrectSound(); else playWrongSound() }
       setPhase('done')
     } catch {
       setMicError('Lỗi kết nối. Bấm Thử lại.')

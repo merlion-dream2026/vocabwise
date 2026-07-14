@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { initPhonicsSync } from '@/lib/phonicsSync'
 import phonicsLevels from '@/data/phonicsLevels.json'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 const MinimalPairsGame     = dynamic(() => import('@/components/MinimalPairsGame'),     { ssr: false })
 const ListenPickPhonicsGame = dynamic(() => import('@/components/ListenPickPhonicsGame'), { ssr: false })
@@ -62,38 +63,47 @@ export default function GamePage() {
 
   const isPair = lesson.type === 'pair'
 
-  if (!isPair) {
+  function renderGame() {
+    if (!isPair) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const ruleLesson = lesson as any
+      if (game === 'sort-rule') return <SortRuleGame      lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level!.gradient} btnColor={level!.btn} />
+      if (game === 'rhythm')    return <SentenceRhythmGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level!.gradient} btnColor={level!.btn} />
+      if (game === 'speak')     return <PhonicsSpeak       lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level!.gradient} btnColor={level!.btn} />
+      router.push(backUrl); return null
+    }
+
+    // Pair lesson — build adapter groups
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const ruleLesson = lesson as any
-    if (game === 'sort-rule') return <SortRuleGame      lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
-    if (game === 'rhythm')    return <SentenceRhythmGame lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
-    if (game === 'speak')     return <PhonicsSpeak       lesson={ruleLesson} childId={childId} backUrl={backUrl} gradient={level.gradient} btnColor={level.btn} />
-    router.push(backUrl); return null
+    const pairLesson = lesson as any
+    const targetPair: Pair = { id: lesson!.id, sounds: pairLesson.sounds, practice_words: pairLesson.practice_words }
+
+    // All pairs in level (for listen-pick distractors)
+    const allLevelPairs: Pair[] = level!.lessons
+      .filter(l => l.type === 'pair')
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .map(l => { const p = l as any; return { id: l.id, sounds: p.sounds ?? [], practice_words: p.practice_words ?? [] } })
+
+    // Single-pair group (for most games)
+    const singleGroup = makePairGroup(lesson!, level!, [targetPair])
+    // Multi-pair group (for listen-pick: needs level sounds as distractors)
+    const multiGroup  = makePairGroup(lesson!, level!, allLevelPairs)
+
+    const commonProps = { childId, backUrl }
+
+    switch (game) {
+      case 'minimal-pairs': return <MinimalPairsGame     group={singleGroup} {...commonProps} />
+      case 'listen-pick':   return <ListenPickPhonicsGame group={multiGroup}  {...commonProps} lessonId={lessonId} />
+      case 'speak':         return <PhonicsSpeak          lesson={pairLesson} {...commonProps} gradient={level!.gradient} btnColor={level!.btn} />
+      case 'sort-words':    return <SortWordsGame         group={singleGroup} {...commonProps} />
+      default: router.push(backUrl); return null
+    }
   }
 
-  // Pair lesson — build adapter groups
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const pairLesson = lesson as any
-  const targetPair: Pair = { id: lesson.id, sounds: pairLesson.sounds, practice_words: pairLesson.practice_words }
-
-  // All pairs in level (for listen-pick distractors)
-  const allLevelPairs: Pair[] = level.lessons
-    .filter(l => l.type === 'pair')
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    .map(l => { const p = l as any; return { id: l.id, sounds: p.sounds ?? [], practice_words: p.practice_words ?? [] } })
-
-  // Single-pair group (for most games)
-  const singleGroup = makePairGroup(lesson, level, [targetPair])
-  // Multi-pair group (for listen-pick: needs level sounds as distractors)
-  const multiGroup  = makePairGroup(lesson, level, allLevelPairs)
-
-  const commonProps = { childId, backUrl }
-
-  switch (game) {
-    case 'minimal-pairs': return <MinimalPairsGame     group={singleGroup} {...commonProps} />
-    case 'listen-pick':   return <ListenPickPhonicsGame group={multiGroup}  {...commonProps} lessonId={lessonId} />
-    case 'speak':         return <PhonicsSpeak          lesson={pairLesson} {...commonProps} gradient={level.gradient} btnColor={level.btn} />
-    case 'sort-words':    return <SortWordsGame         group={singleGroup} {...commonProps} />
-    default: router.push(backUrl); return null
-  }
+  return (
+    <>
+      {renderGame()}
+      <GameSoundToggle />
+    </>
+  )
 }

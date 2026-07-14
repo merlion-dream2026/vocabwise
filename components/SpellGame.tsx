@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -88,11 +89,13 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
       setScore((s) => s + 1)
       recordAnswer(level, topic.id, word, true)
       speak(word.word)
+      playCorrectSound()
       setTimeout(() => advance(idx, words), 1200)
     } else {
       setResult('wrong')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
+      playWrongSound()
       setTimeout(() => {
         setTiles(buildTiles(word.word))
         setAnswer([])

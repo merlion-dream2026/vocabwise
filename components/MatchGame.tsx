@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -91,6 +92,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
     if (emojiWord.word === selectedWord) {
       // Correct match
       markSeen(level, topic.id, selectedWord)
+      playCorrectSound()
       const newMatches = { ...matches, [selectedWord]: nextColor }
       setMatches(newMatches)
       setSelectedWord(null)
@@ -101,6 +103,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
       // Wrong
       setMistakes((m) => m + 1)
       setWrongFlash(emojiWord.word)
+      playWrongSound()
       setTimeout(() => {
         setWrongFlash(null)
         setSelectedWord(null)

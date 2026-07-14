@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { speak as speakWord } from '@/lib/speak'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 type Word = { word: string; meaning: string; emoji: string }
 type Question = { target: Word; choices: Word[] }
@@ -92,7 +94,7 @@ export default function SrsReviewPage() {
     if (selected) return
     setSelected(word)
     const isCorrect = word === current.target.word
-    if (isCorrect) setCorrect(c => c + 1)
+    if (isCorrect) { setCorrect(c => c + 1); playCorrectSound() } else { playWrongSound() }
     recordSrsAnswer(current.target.word, isCorrect)
     setTimeout(() => {
       const next = idx + 1
@@ -204,6 +206,7 @@ export default function SrsReviewPage() {
           })}
         </div>
       </div>
+      <GameSoundToggle />
     </div>
   )
 }

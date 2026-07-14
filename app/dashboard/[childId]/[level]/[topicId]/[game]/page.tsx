@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { useGameSync, type SyncData } from '@/lib/GameSyncContext'
 import { loadDailyTopicOffline, loadLastSync } from '@/lib/offlineStorage'
 import dynamic from 'next/dynamic'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 const FlashcardViewer    = dynamic(() => import('@/components/FlashcardViewer'),    { ssr: false })
 const ListenGame         = dynamic(() => import('@/components/ListenGame'),          { ssr: false })
@@ -95,39 +96,48 @@ export default function GamePage() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const props = { topic: topic as any, level, backUrl }
 
-  switch (game) {
-    case 'flashcard':
-      return <FlashcardViewer {...props} isStarter={isSimpleLevel} />
-    case 'listen':
-      return <ListenGame {...props} isStarter={isSimpleLevel} />
-    case 'match':
-      return <MatchGame {...props} />
-    case 'memory':
-      return <MemoryGame {...props} />
-    case 'bubble':
-      return <BubbleGame {...props} />
-    case 'spell':
-      return <SpellGame {...props} />
-    case 'quiz':
-      return <QuizGame {...props} />
-    case 'gapfill':
-      return <GapFillGame {...props} />
-    case 'typing':
-      return <TypingGame {...props} />
-    case 'truefalse':
-      return <TrueFalseGame {...props} />
-    case 'fillletter':
-      return <FillLetterGame {...props} />
-    case 'definitionmatch':
-      return <DefinitionMatchGame {...props} />
-    case 'sentenceorder':
-      return <SentenceOrderGame {...props} isStarter={isSimpleLevel} />
-    case 'speak':
-      return <SpeakGame {...props} isStarter={isSimpleLevel} />
-    case 'speedround':
-      return <SpeedRoundGame {...props} />
-    default:
-      router.push(backUrl)
-      return null
+  function renderGame() {
+    switch (game) {
+      case 'flashcard':
+        return <FlashcardViewer {...props} isStarter={isSimpleLevel} />
+      case 'listen':
+        return <ListenGame {...props} isStarter={isSimpleLevel} />
+      case 'match':
+        return <MatchGame {...props} />
+      case 'memory':
+        return <MemoryGame {...props} />
+      case 'bubble':
+        return <BubbleGame {...props} />
+      case 'spell':
+        return <SpellGame {...props} />
+      case 'quiz':
+        return <QuizGame {...props} />
+      case 'gapfill':
+        return <GapFillGame {...props} />
+      case 'typing':
+        return <TypingGame {...props} />
+      case 'truefalse':
+        return <TrueFalseGame {...props} />
+      case 'fillletter':
+        return <FillLetterGame {...props} />
+      case 'definitionmatch':
+        return <DefinitionMatchGame {...props} />
+      case 'sentenceorder':
+        return <SentenceOrderGame {...props} isStarter={isSimpleLevel} />
+      case 'speak':
+        return <SpeakGame {...props} isStarter={isSimpleLevel} />
+      case 'speedround':
+        return <SpeedRoundGame {...props} />
+      default:
+        router.push(backUrl)
+        return null
+    }
   }
+
+  return (
+    <>
+      {renderGame()}
+      <GameSoundToggle />
+    </>
+  )
 }

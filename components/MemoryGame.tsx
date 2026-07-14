@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 
@@ -93,12 +94,14 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
 
       if (first.wordKey === card.wordKey) {
         markSeen(level, topic.id, first.wordKey)
+        playCorrectSound()
         setCards((prev) =>
           prev.map((c) => (c.wordKey === first.wordKey ? { ...c, isFlipped: true, isMatched: true } : c))
         )
         setFirstId(null)
         setIsLocked(false)
       } else {
+        playWrongSound()
         setCards((prev) => prev.map((c) => (c.id === id ? { ...c, isFlipped: true } : c)))
         const fId = firstId
         setTimeout(() => {

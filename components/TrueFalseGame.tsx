@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 
@@ -75,6 +76,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
       clearTimer()
       setResult('wrong')
       recordAnswer(level, topic.id, round.word, false)
+      playWrongSound()
       setTimeout(() => advance(idx), 1200)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -93,8 +95,8 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
     clearTimer()
     const correct = userSaysTrue === round.isCorrect
     setResult(correct ? 'correct' : 'wrong')
-    if (correct) { setScore(s => s + 1); recordAnswer(level, topic.id, round.word, true); speak(round.word.word) }
-    else recordAnswer(level, topic.id, round.word, false)
+    if (correct) { setScore(s => s + 1); recordAnswer(level, topic.id, round.word, true); speak(round.word.word); playCorrectSound() }
+    else { recordAnswer(level, topic.id, round.word, false); playWrongSound() }
     setTimeout(() => advance(idx), 1100)
   }
 

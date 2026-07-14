@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type Sound = { symbol: string; keyword: string; emoji: string; vi: string }
@@ -88,9 +89,11 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
     if (correct) {
       setScore(s => s + 1)
       speak(q.targetSound.keyword, { rate: 0.8 })
+      playCorrectSound()
     } else {
       setWrongPairIds(ids => ids.includes(q.pairId) ? ids : [...ids, q.pairId])
       speak(q.targetSound.keyword, { rate: 0.75 })
+      playWrongSound()
     }
   }
 

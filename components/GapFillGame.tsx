@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 
@@ -83,8 +84,10 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
     recordAnswer(level, topic.id, current.word, correct)
     if (correct) {
       setScore((s) => s + 1)
+      playCorrectSound()
     } else {
       setWrongWords((w) => [...w, current.word.word])
+      playWrongSound()
     }
   }
 

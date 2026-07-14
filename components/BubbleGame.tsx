@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -69,8 +70,10 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
     recordAnswer(level, topic.id, current.target, correct)
     if (correct) {
       setScore((s) => s + 1)
+      playCorrectSound()
     } else {
       setWrongWords((w) => [...w, current.target.word])
+      playWrongSound()
     }
   }
 

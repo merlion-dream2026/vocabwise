@@ -1,6 +1,8 @@
 'use client'
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
@@ -103,7 +105,7 @@ function MCQRound({
     if (selected) return
     setSelected(opt)
     const correct = opt === q.correct
-    if (correct) setScore(s => s + 1)
+    if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
     setTimeout(() => {
       if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null) }
       else onDone(correct ? score + 1 : score)
@@ -170,7 +172,7 @@ function FIBRound({
     if (selected) return
     setSelected(answer)
     const correct = answer.trim().toLowerCase() === q.correct.trim().toLowerCase()
-    if (correct) setScore(s => s + 1)
+    if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
     setTimeout(() => {
       if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null); setTypedInput('') }
       else onDone(correct ? score + 1 : score)
@@ -281,9 +283,11 @@ function MatchRound({
       setMatched(s => new Set([...s, selWord]))
       setScore(n => n + 1)
       setSelWord(null)
+      playCorrectSound()
     } else {
       setWrongWord(selWord)
       setSelWord(null)
+      playWrongSound()
       setTimeout(() => setWrongWord(null), 600)
     }
   }
@@ -618,6 +622,7 @@ export default function RevisionPage() {
           )
         })()}
       </div>
+      <GameSoundToggle />
     </div>
   )
 }

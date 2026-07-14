@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -70,6 +71,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
       setResult('timeout')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
+      playWrongSound()
       setTimeout(() => advance(idx), 1500)
     }
   }, [timeLeft])
@@ -97,11 +99,13 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
       setScore((s) => s + 1)
       recordAnswer(level, topic.id, word, true)
       speak(word.word)
+      playCorrectSound()
       setTimeout(() => advance(idx), 800)
     } else {
       setResult('wrong')
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
+      playWrongSound()
       setTimeout(() => advance(idx), 1500)
     }
   }

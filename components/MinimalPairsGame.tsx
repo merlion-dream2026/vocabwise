@@ -8,6 +8,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type Sound = { symbol: string; keyword: string; emoji: string; vi: string }
@@ -87,10 +88,12 @@ export default function MinimalPairsGame({ group, childId: _childId, backUrl }: 
     if (correct) {
       setScore(s => s + 1)
       speak(q.answer.keyword, { rate: 0.8 })
+      playCorrectSound()
     } else {
       // Contrast: play correct word → then chosen word ("pan"…"ban")
       // This is the core Cambridge PIU contrast exercise
       setWrongPairIds(ids => ids.includes(q.pairId) ? ids : [...ids, q.pairId])
+      playWrongSound()
       speak(q.answer.keyword, {
         rate: 0.75,
         onEnd: () => setTimeout(() => speak(sound.keyword, { rate: 0.75 }), 500),

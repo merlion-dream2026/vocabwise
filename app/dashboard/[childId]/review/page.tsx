@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 import { useGameSync, type WeakEntry } from '@/lib/GameSyncContext'
 import type { ReviewWord } from '@/components/ReviewSession'
 import { cachedFetch } from '@/lib/cachedFetch'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 const ReviewSession = dynamic(() => import('@/components/ReviewSession'), { ssr: false })
 
@@ -113,12 +114,15 @@ export default function ReviewPage() {
   }
 
   return (
-    <ReviewSession
-      key={sessionKey}
-      words={reviewWords}
-      level={activeLevel}
-      backUrl={backUrl}
-      onSessionDone={handleSessionDone}
-    />
+    <>
+      <ReviewSession
+        key={sessionKey}
+        words={reviewWords}
+        level={activeLevel}
+        backUrl={backUrl}
+        onSessionDone={handleSessionDone}
+      />
+      <GameSoundToggle />
+    </>
   )
 }

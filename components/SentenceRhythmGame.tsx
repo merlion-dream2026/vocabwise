@@ -7,6 +7,7 @@ import { useState, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 
 type RhythmSentence = { en: string; stressed: string[]; vi: string }
@@ -91,10 +92,11 @@ export default function SentenceRhythmGame({
           const correct = matched.length >= Math.ceil(stressedLower.length * 0.6)
           setTranscript(data.transcript ?? '')
           setIsCorrect(correct)
-          if (correct) setScore(s => s + 1)
+          if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
         } catch {
           setTranscript(null)
           setIsCorrect(false)
+          playWrongSound()
         }
         setPhase('done')
       }

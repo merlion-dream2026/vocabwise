@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
@@ -80,9 +81,11 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
       setScore(s => s + 1)
       recordAnswer(level, topic.id, q.word, true)
       speak(q.word.word)
+      playCorrectSound()
     } else {
       recordAnswer(level, topic.id, q.word, false)
       setWrongWords(ww => ww.includes(q.word.word) ? ww : [...ww, q.word.word])
+      playWrongSound()
     }
     setTimeout(() => advance(), 1200)
   }

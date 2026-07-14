@@ -1,6 +1,8 @@
 'use client'
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameSoundToggle from '@/components/GameSoundToggle'
 
 type WordItem = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type FlatWord = { word: string; meaning_vi: string; example_en: string; emoji: string }
@@ -98,7 +100,7 @@ function MCQRound({ questions, accentCls, onDone }: { questions: MCQQuestion[]; 
     if (selected) return
     setSelected(opt)
     const correct = opt === q.correct
-    if (correct) setScore(s => s + 1)
+    if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
     setTimeout(() => {
       if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null) }
       else onDone(correct ? score + 1 : score)
@@ -151,7 +153,7 @@ function FIBRound({ questions, accentCls, onDone }: { questions: FIBQuestion[]; 
     if (selected) return
     setSelected(opt)
     const correct = opt === q.correct
-    if (correct) setScore(s => s + 1)
+    if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
     setTimeout(() => {
       if (idx + 1 < questions.length) { setIdx(i => i + 1); setSelected(null) }
       else onDone(correct ? score + 1 : score)
@@ -219,8 +221,10 @@ function MatchRound({ pairs, setLabel, accentCls: _accentCls, onDone }: { pairs:
     if (!selWord || matchedMeanings.has(m)) return
     if (wordToMeaning[selWord] === m) {
       setMatched(s => new Set([...s, selWord])); setScore(n => n + 1); setSelWord(null)
+      playCorrectSound()
     } else {
       setWrongWord(selWord); setSelWord(null)
+      playWrongSound()
       setTimeout(() => setWrongWord(null), 600)
     }
   }
@@ -557,6 +561,7 @@ export default function KidsRevisionPage() {
           )
         })()}
       </div>
+      <GameSoundToggle />
     </div>
   )
 }
