@@ -342,7 +342,7 @@
           "sentence": "The therapist recommended a structured _____ programme to help the patient develop healthier thinking patterns.",
           "options": [
             "disorder",
-            "anxiety",
+            "screening",
             "therapy",
             "stigma"
           ],
@@ -361,7 +361,7 @@
         },
         {
           "id": 5,
-          "sentence": "The school invested in student _____ programmes, including mindfulness sessions and peer support groups.",
+          "sentence": "The school invested in student _____ programmes designed to improve overall mental and emotional health, including mindfulness sessions and peer support groups.",
           "options": [
             "awareness",
             "stigma",
